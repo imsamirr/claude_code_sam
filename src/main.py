@@ -76,10 +76,11 @@ def fetch_and_write(config, date_str):
 
     # 1. Fetch from TripleWhale
     print("[1/3] Fetching TripleWhale metrics...")
-    tw_client = TripleWhaleClient(config["triplewhale_api_key"])
+    tw_client = TripleWhaleClient(config["triplewhale_api_key"], config["shopify_store_url"])
     tw_data = tw_client.get_daily_metrics(date_str)
     print(f"  Ad Spend: ${tw_data['tw_total_ad_spend']}")
     print(f"  Blended ROAS: {tw_data['tw_blended_roas']}")
+    print(f"  Blended CPA: ${tw_data['tw_blended_cpa']}")
 
     # 2. Fetch from Shopify
     print("[2/3] Fetching Shopify metrics...")

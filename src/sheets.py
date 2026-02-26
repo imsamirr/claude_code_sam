@@ -31,11 +31,10 @@ COLUMN_HEADERS = [
     "Other Spend",
     "Blended ROAS",
     "Blended CPA",
-    "Blended CAC",
+    "NC CPA",
     "TW New Customers",
     "TW Returning Customers",
-    "Pixel Revenue",
-    "Pixel ROAS",
+    "MER",
     # --- Calculated P&L Metrics ---
     "Net Profit (Sales - Ads)",
     "Ad Spend % of Sales",
@@ -71,7 +70,7 @@ class SheetsClient:
         if not first_row or first_row[0] != COLUMN_HEADERS[0]:
             worksheet.update("A1", [COLUMN_HEADERS])
             # Bold the header row
-            worksheet.format("A1:AB1", {
+            worksheet.format("A1:Z1", {
                 "textFormat": {"bold": True},
                 "backgroundColor": {"red": 0.9, "green": 0.9, "blue": 0.95},
             })
@@ -120,11 +119,10 @@ class SheetsClient:
             tw_data.get("tw_other_spend", 0),
             tw_data.get("tw_blended_roas", 0),
             tw_data.get("tw_blended_cpa", 0),
-            tw_data.get("tw_blended_cac", 0),
+            tw_data.get("tw_nc_cpa", 0),
             tw_data.get("tw_new_customers", 0),
             tw_data.get("tw_returning_customers", 0),
-            tw_data.get("tw_pixel_revenue", 0),
-            tw_data.get("tw_pixel_roas", 0),
+            tw_data.get("tw_mer", 0),
             # Calculated
             net_profit,
             ad_spend_pct,
@@ -140,7 +138,7 @@ class SheetsClient:
 
         if row_index:
             # Update existing row
-            cell_range = f"A{row_index}:AB{row_index}"
+            cell_range = f"A{row_index}:Z{row_index}"
             worksheet.update(cell_range, [row])
             print(f"[Sheets] Updated existing row for {date} (row {row_index}).")
         else:
