@@ -85,7 +85,8 @@ def fetch_and_write(config, date_str):
     print("[2/3] Fetching Shopify metrics...")
     shopify_client = ShopifyClient(config["shopify_store_url"], config["shopify_access_token"])
     shopify_data = shopify_client.get_daily_metrics(date_str)
-    print(f"  Gross Revenue: ${shopify_data['shopify_gross_revenue']}")
+    print(f"  Gross Sales: ${shopify_data['shopify_gross_sales']}")
+    print(f"  Total Sales: ${shopify_data['shopify_total_sales']}")
     print(f"  Total Orders: {shopify_data['shopify_total_orders']}")
 
     # 3. Write to Google Sheets

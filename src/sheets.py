@@ -7,18 +7,19 @@ from google.oauth2.service_account import Credentials
 
 
 # Column headers in the order they appear in the sheet
+# Shopify metrics match Shopify Analytics definitions exactly
 COLUMN_HEADERS = [
     "Date",
-    # --- Shopify Revenue Metrics ---
-    "Gross Revenue",
-    "Net Revenue",
-    "Subtotal",
+    # --- Shopify Revenue Metrics (matches Shopify Analytics) ---
+    "Gross Sales",
+    "Discounts",
+    "Returns",
+    "Net Sales",
+    "Shipping",
+    "Tax",
+    "Total Sales",
     "Total Orders",
     "Avg Order Value",
-    "Total Discounts",
-    "Total Shipping",
-    "Total Tax",
-    "Refund Amount",
     "Items Sold",
     "New Customer Orders",
     "Returning Customer Orders",
@@ -36,8 +37,8 @@ COLUMN_HEADERS = [
     "Pixel Revenue",
     "Pixel ROAS",
     # --- Calculated P&L Metrics ---
-    "Net Profit (Rev - Ads)",
-    "Ad Spend % of Revenue",
+    "Net Profit (Sales - Ads)",
+    "Ad Spend % of Sales",
 ]
 
 
@@ -90,24 +91,24 @@ class SheetsClient:
             return
 
         # Calculate derived P&L fields
-        net_revenue = shopify_data.get("shopify_net_revenue", 0)
+        total_sales = shopify_data.get("shopify_total_sales", 0)
         total_ad_spend = tw_data.get("tw_total_ad_spend", 0)
-        net_profit = round(net_revenue - total_ad_spend, 2)
-        ad_spend_pct = round((total_ad_spend / net_revenue * 100), 2) if net_revenue > 0 else 0
+        net_profit = round(total_sales - total_ad_spend, 2)
+        ad_spend_pct = round((total_ad_spend / total_sales * 100), 2) if total_sales > 0 else 0
 
         # Build the row in the same order as COLUMN_HEADERS
         row = [
             date,
-            # Shopify
-            shopify_data.get("shopify_gross_revenue", 0),
-            shopify_data.get("shopify_net_revenue", 0),
-            shopify_data.get("shopify_subtotal", 0),
+            # Shopify (matches Shopify Analytics definitions)
+            shopify_data.get("shopify_gross_sales", 0),
+            shopify_data.get("shopify_discounts", 0),
+            shopify_data.get("shopify_returns", 0),
+            shopify_data.get("shopify_net_sales", 0),
+            shopify_data.get("shopify_shipping", 0),
+            shopify_data.get("shopify_tax", 0),
+            shopify_data.get("shopify_total_sales", 0),
             shopify_data.get("shopify_total_orders", 0),
             shopify_data.get("shopify_avg_order_value", 0),
-            shopify_data.get("shopify_total_discounts", 0),
-            shopify_data.get("shopify_total_shipping", 0),
-            shopify_data.get("shopify_total_tax", 0),
-            shopify_data.get("shopify_refund_amount", 0),
             shopify_data.get("shopify_items_sold", 0),
             shopify_data.get("shopify_new_customer_orders", 0),
             shopify_data.get("shopify_returning_customer_orders", 0),
