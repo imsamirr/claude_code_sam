@@ -29,22 +29,18 @@ class TripleWhaleClient:
         Fetch daily P&L metrics from TripleWhale for a given date.
         If no date is provided, fetches yesterday's data.
 
-        Returns a dict with keys like:
-            ad_spend, roas, blended_roas, cpa, cac,
-            facebook_spend, google_spend, tiktok_spend, etc.
+        Requires API key with "Summary Page: Read" scope.
         """
         if date is None:
             date = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
 
-        # TripleWhale Summary endpoint for daily metrics
         payload = {
             "start": date,
             "end": date,
-            "granularity": "day",
         }
 
         try:
-            data = self._make_request("POST", "summary/summary-page", json_data=payload)
+            data = self._make_request("POST", "summary-page/get-data", json_data=payload)
             return self._parse_summary(data, date)
         except requests.exceptions.HTTPError as e:
             print(f"[TripleWhale] Error fetching metrics for {date}: {e}")
