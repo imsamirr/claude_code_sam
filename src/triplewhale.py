@@ -14,7 +14,8 @@ class TripleWhaleClient:
 
     def __init__(self, api_key, shop_domain):
         self.api_key = api_key
-        self.shop_domain = shop_domain
+        # Strip protocol prefix — the API expects just the domain
+        self.shop_domain = shop_domain.replace("https://", "").replace("http://", "").rstrip("/")
         self.headers = {
             "x-api-key": api_key,
             "Content-Type": "application/json",
