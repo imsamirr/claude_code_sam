@@ -3,1218 +3,385 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Executive Dashboard — Finance & Marketing</title>
+<title>Business Scorecard</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
 <style>
-  :root {
-    --bg: #0f1117;
-    --card: #1a1d27;
-    --card-hover: #222632;
-    --border: #2a2e3a;
-    --text: #e4e6ed;
-    --text-muted: #8b8fa3;
-    --green: #00d68f;
-    --green-bg: rgba(0,214,143,0.12);
-    --red: #ff6b6b;
-    --red-bg: rgba(255,107,107,0.12);
-    --blue: #4da6ff;
-    --blue-bg: rgba(77,166,255,0.12);
-    --purple: #a78bfa;
-    --purple-bg: rgba(167,139,250,0.12);
-    --orange: #fbbf24;
-    --orange-bg: rgba(251,191,36,0.12);
-    --cyan: #22d3ee;
-    --pink: #f472b6;
-  }
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.5;
-    min-height: 100vh;
-  }
-  .header {
-    padding: 24px 32px 16px;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 16px;
-  }
-  .header h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
-  .header .date-range { color: var(--text-muted); font-size: 14px; }
-  .tabs {
-    display: flex;
-    gap: 4px;
-    padding: 4px 32px;
-    background: var(--card);
-    border-bottom: 1px solid var(--border);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  .tab {
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 8px 8px 0 0;
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--text-muted);
-    border: 1px solid transparent;
-    border-bottom: none;
-    transition: all 0.2s;
-    background: transparent;
-  }
-  .tab:hover { color: var(--text); background: var(--card-hover); }
-  .tab.active {
-    color: var(--blue);
-    background: var(--bg);
-    border-color: var(--border);
-  }
-  .tab-content { display: none; }
-  .tab-content.active { display: block; }
-  .dashboard { padding: 24px 32px; max-width: 1440px; margin: 0 auto; }
-
-  /* Period selector */
-  .period-selector {
-    display: flex;
-    gap: 6px;
-    background: var(--card);
-    border-radius: 8px;
-    padding: 4px;
-    border: 1px solid var(--border);
-  }
-  .period-btn {
-    padding: 6px 14px;
-    border: none;
-    background: transparent;
-    color: var(--text-muted);
-    font-size: 12px;
-    font-weight: 600;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-  .period-btn:hover { color: var(--text); }
-  .period-btn.active { background: var(--blue); color: #fff; }
-
-  /* KPI Cards */
-  .kpi-row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 16px;
-    margin-bottom: 24px;
-  }
-  .kpi-card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 20px;
-    transition: all 0.2s;
-  }
-  .kpi-card:hover { border-color: var(--blue); transform: translateY(-1px); }
-  .kpi-label {
-    font-size: 11px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
-    color: var(--text-muted);
-    margin-bottom: 8px;
-  }
-  .kpi-value {
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: -1px;
-    margin-bottom: 6px;
-  }
-  .kpi-change {
-    font-size: 12px;
-    font-weight: 600;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    padding: 2px 8px;
-    border-radius: 4px;
-  }
-  .kpi-change.up { color: var(--green); background: var(--green-bg); }
-  .kpi-change.down { color: var(--red); background: var(--red-bg); }
-  .kpi-sub { font-size: 11px; color: var(--text-muted); margin-top: 4px; }
-
-  /* Chart containers */
-  .chart-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-    margin-bottom: 24px;
-  }
-  .chart-grid.single { grid-template-columns: 1fr; }
-  .chart-card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 20px;
-  }
-  .chart-card h3 {
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 4px;
-  }
-  .chart-card .chart-sub {
-    font-size: 11px;
-    color: var(--text-muted);
-    margin-bottom: 16px;
-  }
-  .chart-wrap { position: relative; height: 280px; }
-  .chart-wrap.tall { height: 350px; }
-
-  /* Tables */
-  .data-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 13px;
-  }
-  .data-table th {
-    text-align: left;
-    padding: 10px 12px;
-    font-size: 11px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: var(--text-muted);
-    border-bottom: 1px solid var(--border);
-  }
-  .data-table td {
-    padding: 10px 12px;
-    border-bottom: 1px solid var(--border);
-  }
-  .data-table tr:hover td { background: var(--card-hover); }
-  .badge {
-    display: inline-block;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 11px;
-    font-weight: 600;
-  }
-  .badge-green { color: var(--green); background: var(--green-bg); }
-  .badge-red { color: var(--red); background: var(--red-bg); }
-  .badge-blue { color: var(--blue); background: var(--blue-bg); }
-  .badge-purple { color: var(--purple); background: var(--purple-bg); }
-  .badge-orange { color: var(--orange); background: var(--orange-bg); }
-
-  /* Section headers */
-  .section-title {
-    font-size: 16px;
-    font-weight: 700;
-    margin: 32px 0 16px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .section-title .icon { font-size: 18px; }
-
-  /* Waterfall */
-  .waterfall-bar {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 8px;
-  }
-  .waterfall-label { width: 140px; font-size: 13px; text-align: right; }
-  .waterfall-track { flex: 1; height: 32px; position: relative; background: rgba(255,255,255,0.03); border-radius: 4px; }
-  .waterfall-fill { height: 100%; border-radius: 4px; display: flex; align-items: center; padding: 0 10px; font-size: 12px; font-weight: 600; min-width: 60px; }
-  .waterfall-amount { font-size: 13px; font-weight: 600; width: 100px; text-align: right; }
-
-  /* Responsive */
-  @media (max-width: 900px) {
-    .chart-grid { grid-template-columns: 1fr; }
-    .kpi-row { grid-template-columns: repeat(2, 1fr); }
-    .dashboard { padding: 16px; }
-    .header { padding: 16px; }
-  }
-  @media (max-width: 600px) {
-    .kpi-row { grid-template-columns: 1fr; }
-  }
-
-  /* Scrollbar */
-  ::-webkit-scrollbar { width: 8px; }
-  ::-webkit-scrollbar-track { background: var(--bg); }
-  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0b0d13;--card:#13161f;--card2:#191d2a;--brd:#1f2335;--t1:#eef0f6;--t2:#9198ad;--t3:#636b83;--grn:#00e09e;--grn2:rgba(0,224,158,.12);--red:#ff5c5c;--red2:rgba(255,92,92,.12);--blu:#5b9df9;--blu2:rgba(91,157,249,.12);--pur:#b07df0;--pur2:rgba(176,125,240,.12);--org:#f5a623;--org2:rgba(245,166,35,.12);--cyn:#22d3ee;--pnk:#f472b6}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--t1);min-height:100vh}
+.hdr{padding:20px 24px;border-bottom:1px solid var(--brd);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.hdr h1{font-size:20px;font-weight:700;letter-spacing:-.5px}
+.hdr .sub{color:var(--t2);font-size:13px}
+.psel{display:flex;gap:4px;background:var(--card);border-radius:8px;padding:3px;border:1px solid var(--brd)}
+.pbtn{padding:5px 12px;border:none;background:0 0;color:var(--t2);font-size:11px;font-weight:700;border-radius:6px;cursor:pointer;transition:.2s}
+.pbtn:hover{color:var(--t1)}.pbtn.a{background:var(--blu);color:#fff}
+.tabs{display:flex;gap:2px;padding:2px 24px;background:var(--card);border-bottom:1px solid var(--brd);position:sticky;top:0;z-index:100;overflow-x:auto}
+.tab{padding:8px 16px;cursor:pointer;font-size:12px;font-weight:700;color:var(--t2);border-bottom:2px solid transparent;transition:.2s;white-space:nowrap}
+.tab:hover{color:var(--t1)}.tab.a{color:var(--blu);border-bottom-color:var(--blu)}
+.tc{display:none}.tc.a{display:block}
+.dash{padding:20px 24px;max-width:1500px;margin:0 auto}
+.krow{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin-bottom:20px}
+.kc{background:var(--card);border:1px solid var(--brd);border-radius:10px;padding:14px 16px;transition:.2s}
+.kc:hover{border-color:var(--blu);transform:translateY(-1px)}
+.kl{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.7px;color:var(--t2);margin-bottom:6px}
+.kv{font-size:22px;font-weight:800;letter-spacing:-.8px;margin-bottom:4px}
+.kch{font-size:11px;font-weight:700;display:inline-flex;align-items:center;gap:3px;padding:1px 6px;border-radius:3px}
+.kch.u{color:var(--grn);background:var(--grn2)}.kch.d{color:var(--red);background:var(--red2)}
+.ks{font-size:10px;color:var(--t3);margin-top:3px}
+.cgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:20px}
+.cgrid.c3{grid-template-columns:repeat(3,1fr)}.cgrid.c1{grid-template-columns:1fr}
+.cc{background:var(--card);border:1px solid var(--brd);border-radius:10px;padding:16px}
+.cc h3{font-size:13px;font-weight:700;margin-bottom:2px}.cc .cs{font-size:10px;color:var(--t2);margin-bottom:12px}
+.cw{position:relative;height:240px}
+.stitle{font-size:15px;font-weight:800;margin:24px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--brd)}
+.dtbl{width:100%;border-collapse:collapse;font-size:12px}
+.dtbl th{text-align:left;padding:8px 10px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--t2);border-bottom:1px solid var(--brd)}
+.dtbl td{padding:8px 10px;border-bottom:1px solid var(--brd)}.dtbl tr:hover td{background:var(--card2)}
+.bdg{display:inline-block;padding:1px 6px;border-radius:3px;font-size:10px;font-weight:700}
+.bg{color:var(--grn);background:var(--grn2)}.br{color:var(--red);background:var(--red2)}.bb{color:var(--blu);background:var(--blu2)}.bp{color:var(--pur);background:var(--pur2)}.bo{color:var(--org);background:var(--org2)}
+.wbar{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.wlbl{width:120px;font-size:12px;text-align:right;color:var(--t2)}.wtrk{flex:1;height:28px;position:relative;background:rgba(255,255,255,.02);border-radius:4px}
+.wfill{height:100%;border-radius:4px;display:flex;align-items:center;padding:0 8px;font-size:11px;font-weight:700;min-width:50px}
+.wamt{font-size:12px;font-weight:700;width:90px;text-align:right}
+.spark{display:inline-block;width:60px;height:24px;vertical-align:middle}
+@media(max-width:900px){.cgrid,.cgrid.c3{grid-template-columns:1fr}.krow{grid-template-columns:repeat(2,1fr)}.dash{padding:12px}}
+@media(max-width:500px){.krow{grid-template-columns:1fr}}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--brd);border-radius:3px}
 </style>
 </head>
 <body>
-
-<div class="header">
-  <div>
-    <h1>Executive Dashboard</h1>
-    <div class="date-range" id="dateRange"></div>
-  </div>
-  <div class="period-selector">
-    <button class="period-btn" data-period="7" onclick="setPeriod(7)">7D</button>
-    <button class="period-btn" data-period="14" onclick="setPeriod(14)">14D</button>
-    <button class="period-btn active" data-period="30" onclick="setPeriod(30)">30D</button>
-    <button class="period-btn" data-period="60" onclick="setPeriod(60)">60D</button>
-  </div>
+<div class="hdr">
+<div><h1>Business Scorecard</h1><div class="sub" id="dr"></div></div>
+<div class="psel">
+<button class="pbtn" data-p="7" onclick="sp(7)">7D</button>
+<button class="pbtn" data-p="14" onclick="sp(14)">14D</button>
+<button class="pbtn a" data-p="30" onclick="sp(30)">30D</button>
+<button class="pbtn" data-p="60" onclick="sp(60)">60D</button>
 </div>
-
+</div>
 <div class="tabs">
-  <div class="tab active" onclick="switchTab('finance')">P&L / Finance</div>
-  <div class="tab" onclick="switchTab('marketing')">Marketing Performance</div>
-  <div class="tab" onclick="switchTab('customers')">Customer Insights</div>
-  <div class="tab" onclick="switchTab('channels')">Channel Breakdown</div>
+<div class="tab a" onclick="st('overview',this)">Overview</div>
+<div class="tab" onclick="st('finance',this)">P&L / Finance</div>
+<div class="tab" onclick="st('marketing',this)">Marketing</div>
+<div class="tab" onclick="st('channels',this)">Channels</div>
+<div class="tab" onclick="st('customers',this)">Customers</div>
+<div class="tab" onclick="st('funnel',this)">Funnel</div>
+<div class="tab" onclick="st('trends',this)">All Trends</div>
 </div>
 
-<!-- ========== FINANCE TAB ========== -->
-<div id="tab-finance" class="tab-content active">
-<div class="dashboard">
-  <div class="kpi-row" id="financeKpis"></div>
-
-  <div class="section-title">P&L Waterfall — Period Total</div>
-  <div class="chart-card" style="margin-bottom:24px">
-    <div id="waterfallContainer"></div>
-  </div>
-
-  <div class="chart-grid">
-    <div class="chart-card">
-      <h3>Revenue & Profit Trend</h3>
-      <div class="chart-sub">Gross Sales vs Net Revenue vs Margin</div>
-      <div class="chart-wrap"><canvas id="revenueTrend"></canvas></div>
-    </div>
-    <div class="chart-card">
-      <h3>Gross Margin %</h3>
-      <div class="chart-sub">Daily gross margin percentage</div>
-      <div class="chart-wrap"><canvas id="marginChart"></canvas></div>
-    </div>
-  </div>
-
-  <div class="chart-grid">
-    <div class="chart-card">
-      <h3>Cost Structure</h3>
-      <div class="chart-sub">COGS + Ad Spend + Refunds as % of Revenue</div>
-      <div class="chart-wrap"><canvas id="costStructure"></canvas></div>
-    </div>
-    <div class="chart-card">
-      <h3>Daily Refund Rate</h3>
-      <div class="chart-sub">Refunds as % of gross sales</div>
-      <div class="chart-wrap"><canvas id="refundChart"></canvas></div>
-    </div>
-  </div>
+<!-- OVERVIEW -->
+<div id="tab-overview" class="tc a"><div class="dash">
+<div class="stitle">Revenue & Profitability</div>
+<div class="krow" id="k_rev"></div>
+<div class="stitle">Ad Performance & Efficiency</div>
+<div class="krow" id="k_ads"></div>
+<div class="stitle">Customer & Conversion</div>
+<div class="krow" id="k_cust"></div>
+<div class="stitle">Platform Performance</div>
+<div class="krow" id="k_plat"></div>
+<div class="cgrid">
+<div class="cc"><h3>Revenue vs Ad Spend</h3><div class="cs">Daily overlay</div><div class="cw"><canvas id="ch_ov1"></canvas></div></div>
+<div class="cc"><h3>ROAS & MER</h3><div class="cs">Efficiency metrics</div><div class="cw"><canvas id="ch_ov2"></canvas></div></div>
 </div>
+</div></div>
+
+<!-- FINANCE -->
+<div id="tab-finance" class="tc"><div class="dash">
+<div class="krow" id="k_fin"></div>
+<div class="stitle">P&L Waterfall</div>
+<div class="cc" style="margin-bottom:16px"><div id="wf"></div></div>
+<div class="cgrid">
+<div class="cc"><h3>Revenue Trend</h3><div class="cs">Gross Sales / Net Revenue / Margin</div><div class="cw"><canvas id="ch_f1"></canvas></div></div>
+<div class="cc"><h3>Gross Margin %</h3><div class="cs">With 60% target</div><div class="cw"><canvas id="ch_f2"></canvas></div></div>
 </div>
-
-<!-- ========== MARKETING TAB ========== -->
-<div id="tab-marketing" class="tab-content">
-<div class="dashboard">
-  <div class="kpi-row" id="marketingKpis"></div>
-
-  <div class="chart-grid">
-    <div class="chart-card">
-      <h3>Blended ROAS Trend</h3>
-      <div class="chart-sub">Revenue generated per dollar of ad spend</div>
-      <div class="chart-wrap"><canvas id="roasChart"></canvas></div>
-    </div>
-    <div class="chart-card">
-      <h3>MER (Marketing Efficiency Ratio)</h3>
-      <div class="chart-sub">Total ad spend as % of revenue — lower is better</div>
-      <div class="chart-wrap"><canvas id="merChart"></canvas></div>
-    </div>
-  </div>
-
-  <div class="chart-grid">
-    <div class="chart-card">
-      <h3>CAC vs nCAC</h3>
-      <div class="chart-sub">Customer Acquisition Cost — Blended vs New Customer</div>
-      <div class="chart-wrap"><canvas id="cacChart"></canvas></div>
-    </div>
-    <div class="chart-card">
-      <h3>Ad Spend vs Revenue</h3>
-      <div class="chart-sub">Daily correlation between spend and revenue</div>
-      <div class="chart-wrap"><canvas id="spendVsRevenue"></canvas></div>
-    </div>
-  </div>
-
-  <div class="chart-grid single">
-    <div class="chart-card">
-      <h3>Spend Allocation by Platform</h3>
-      <div class="chart-sub">Where the budget is going</div>
-      <div class="chart-wrap"><canvas id="spendAllocation"></canvas></div>
-    </div>
-  </div>
+<div class="cgrid">
+<div class="cc"><h3>Cost Breakdown (Stacked)</h3><div class="cs">COGS + Ad Spend + Refunds</div><div class="cw"><canvas id="ch_f3"></canvas></div></div>
+<div class="cc"><h3>Refund Rate %</h3><div class="cs">With 10% target line</div><div class="cw"><canvas id="ch_f4"></canvas></div></div>
 </div>
+<div class="cgrid c1">
+<div class="cc"><h3>Net Profit Trend</h3><div class="cs">Margin minus Ad Spend</div><div class="cw"><canvas id="ch_f5"></canvas></div></div>
 </div>
+</div></div>
 
-<!-- ========== CUSTOMERS TAB ========== -->
-<div id="tab-customers" class="tab-content">
-<div class="dashboard">
-  <div class="kpi-row" id="customerKpis"></div>
-
-  <div class="chart-grid">
-    <div class="chart-card">
-      <h3>New vs Returning Customers</h3>
-      <div class="chart-sub">Daily order split by customer type</div>
-      <div class="chart-wrap"><canvas id="newVsReturning"></canvas></div>
-    </div>
-    <div class="chart-card">
-      <h3>AOV Trend</h3>
-      <div class="chart-sub">Average Order Value with 7-day moving average</div>
-      <div class="chart-wrap"><canvas id="aovChart"></canvas></div>
-    </div>
-  </div>
-
-  <div class="chart-grid">
-    <div class="chart-card">
-      <h3>Conversion Funnel</h3>
-      <div class="chart-sub">Sessions → Add to Cart → Orders</div>
-      <div class="chart-wrap"><canvas id="funnelChart"></canvas></div>
-    </div>
-    <div class="chart-card">
-      <h3>CLTV Trend</h3>
-      <div class="chart-sub">Customer Lifetime Value over time</div>
-      <div class="chart-wrap"><canvas id="cltvChart"></canvas></div>
-    </div>
-  </div>
+<!-- MARKETING -->
+<div id="tab-marketing" class="tc"><div class="dash">
+<div class="krow" id="k_mkt"></div>
+<div class="cgrid">
+<div class="cc"><h3>Blended ROAS</h3><div class="cs">With 7-day MA & 2.0x target</div><div class="cw"><canvas id="ch_m1"></canvas></div></div>
+<div class="cc"><h3>MER %</h3><div class="cs">Ad spend / revenue (lower = better)</div><div class="cw"><canvas id="ch_m2"></canvas></div></div>
 </div>
+<div class="cgrid">
+<div class="cc"><h3>CAC vs nCAC</h3><div class="cs">Blended vs new customer acquisition cost</div><div class="cw"><canvas id="ch_m3"></canvas></div></div>
+<div class="cc"><h3>Ad Spend vs Net Revenue</h3><div class="cs">Revenue generated per ad dollar</div><div class="cw"><canvas id="ch_m4"></canvas></div></div>
 </div>
-
-<!-- ========== CHANNELS TAB ========== -->
-<div id="tab-channels" class="tab-content">
-<div class="dashboard">
-  <div class="section-title">Platform Performance Summary</div>
-  <div class="chart-card" style="margin-bottom:24px; overflow-x:auto;">
-    <table class="data-table" id="platformTable">
-      <thead>
-        <tr>
-          <th>Platform</th>
-          <th>Spend</th>
-          <th>ROAS</th>
-          <th>CPC</th>
-          <th>Clicks</th>
-          <th>CPM</th>
-          <th>CTR</th>
-          <th>CPA</th>
-          <th>Efficiency</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </div>
-
-  <div class="chart-grid">
-    <div class="chart-card">
-      <h3>ROAS by Platform</h3>
-      <div class="chart-sub">Daily return on ad spend per channel</div>
-      <div class="chart-wrap"><canvas id="platformRoas"></canvas></div>
-    </div>
-    <div class="chart-card">
-      <h3>Spend by Platform</h3>
-      <div class="chart-sub">Daily spend trend per channel</div>
-      <div class="chart-wrap"><canvas id="platformSpend"></canvas></div>
-    </div>
-  </div>
-
-  <div class="chart-grid">
-    <div class="chart-card">
-      <h3>CPC by Platform</h3>
-      <div class="chart-sub">Cost per click trend</div>
-      <div class="chart-wrap"><canvas id="platformCpc"></canvas></div>
-    </div>
-    <div class="chart-card">
-      <h3>Spend Share Over Time</h3>
-      <div class="chart-sub">Budget allocation trend (stacked %)</div>
-      <div class="chart-wrap"><canvas id="spendShare"></canvas></div>
-    </div>
-  </div>
+<div class="cgrid">
+<div class="cc"><h3>Spend Allocation</h3><div class="cs">Where the budget goes</div><div class="cw"><canvas id="ch_m5"></canvas></div></div>
+<div class="cc"><h3>Daily Ad Spend</h3><div class="cs">Total daily spend with 7-day MA</div><div class="cw"><canvas id="ch_m6"></canvas></div></div>
 </div>
+</div></div>
+
+<!-- CHANNELS -->
+<div id="tab-channels" class="tc"><div class="dash">
+<div class="stitle">Platform Summary Table</div>
+<div class="cc" style="margin-bottom:16px;overflow-x:auto"><table class="dtbl" id="ptbl"><thead><tr>
+<th>Platform</th><th>Spend</th><th>ROAS</th><th>CPC</th><th>Clicks</th><th>CPM</th><th>CTR %</th><th>CPA</th><th>Rating</th>
+</tr></thead><tbody></tbody></table></div>
+<div class="cgrid">
+<div class="cc"><h3>ROAS by Platform</h3><div class="cs">Daily ROAS per channel</div><div class="cw"><canvas id="ch_c1"></canvas></div></div>
+<div class="cc"><h3>CPC by Platform</h3><div class="cs">Cost per click per channel</div><div class="cw"><canvas id="ch_c2"></canvas></div></div>
 </div>
+<div class="cgrid">
+<div class="cc"><h3>Spend by Platform</h3><div class="cs">Daily spend per channel</div><div class="cw"><canvas id="ch_c3"></canvas></div></div>
+<div class="cc"><h3>CTR % by Platform</h3><div class="cs">Click-through rate per channel</div><div class="cw"><canvas id="ch_c4"></canvas></div></div>
+</div>
+<div class="cgrid">
+<div class="cc"><h3>CPA by Platform</h3><div class="cs">Cost per acquisition per channel</div><div class="cw"><canvas id="ch_c5"></canvas></div></div>
+<div class="cc"><h3>Spend Share %</h3><div class="cs">Budget allocation over time</div><div class="cw"><canvas id="ch_c6"></canvas></div></div>
+</div>
+</div></div>
+
+<!-- CUSTOMERS -->
+<div id="tab-customers" class="tc"><div class="dash">
+<div class="krow" id="k_cst"></div>
+<div class="cgrid">
+<div class="cc"><h3>New vs Returning Customers</h3><div class="cs">Daily order split</div><div class="cw"><canvas id="ch_cu1"></canvas></div></div>
+<div class="cc"><h3>AOV Trend</h3><div class="cs">With 7-day moving average</div><div class="cw"><canvas id="ch_cu2"></canvas></div></div>
+</div>
+<div class="cgrid">
+<div class="cc"><h3>CLTV Trend</h3><div class="cs">Customer lifetime value</div><div class="cw"><canvas id="ch_cu3"></canvas></div></div>
+<div class="cc"><h3>New Customer Revenue %</h3><div class="cs">Revenue from new vs returning</div><div class="cw"><canvas id="ch_cu4"></canvas></div></div>
+</div>
+<div class="cgrid c1">
+<div class="cc"><h3>Daily Orders Trend</h3><div class="cs">Total orders with 7-day MA</div><div class="cw"><canvas id="ch_cu5"></canvas></div></div>
+</div>
+</div></div>
+
+<!-- FUNNEL -->
+<div id="tab-funnel" class="tc"><div class="dash">
+<div class="krow" id="k_fun"></div>
+<div class="cgrid">
+<div class="cc"><h3>CVR % Trend</h3><div class="cs">Session to purchase conversion</div><div class="cw"><canvas id="ch_fn1"></canvas></div></div>
+<div class="cc"><h3>Add to Cart % Trend</h3><div class="cs">Session to add-to-cart rate</div><div class="cw"><canvas id="ch_fn2"></canvas></div></div>
+</div>
+<div class="cgrid">
+<div class="cc"><h3>Sessions Trend</h3><div class="cs">Total sessions with 7-day MA</div><div class="cw"><canvas id="ch_fn3"></canvas></div></div>
+<div class="cc"><h3>Users Trend</h3><div class="cs">Unique users daily</div><div class="cw"><canvas id="ch_fn4"></canvas></div></div>
+</div>
+</div></div>
+
+<!-- ALL TRENDS -->
+<div id="tab-trends" class="tc"><div class="dash">
+<div class="stitle">Every KPI Trend — 60 Day View</div>
+<div class="cgrid c3" id="allTrends"></div>
+</div></div>
 
 <script>
-// ===== DATA LOADING =====
-const dailyKpisRaw = `date,gross_sales,net_revenue,refunds,cogs,margin,gross_margin_pct,orders,aov,total_ad_spend,mer,amer,blended_roas,cac,ncac,sessions,cvr,atc_pct,ic_pct,users,customers,new_customer_orders,new_customer_pct,new_customers_revenue,returning_customers_count,returning_customers_revenue,cltv
-2025-12-30,36540.09,30891.57,4269.48,11024.24,19867.33,64.31,505.0,72.05,19383.22,53.05,61.35,1.89,38.38,43.66,37980.0,1.27,4.86,0.0,24212.0,500.0,444.0,87.92,31329.72,0.0,5210.37,73.08
-2025-12-31,40324.91,34064.52,4736.02,12135.0,21929.52,64.38,557.0,71.99,18428.6,45.7,49.26,2.19,33.09,37.15,40058.0,1.34,4.65,0.0,24652.0,551.0,496.0,89.05,35092.39,0.0,5232.52,73.18
-2026-01-01,41668.83,34915.08,5130.02,12308.24,22606.84,64.75,565.0,73.45,17769.45,42.64,49.75,2.34,31.45,35.9,38324.0,1.41,4.6,0.0,24159.0,558.0,495.0,87.61,35573.97,0.0,6094.86,74.68
-2026-01-02,43795.64,34732.57,7450.45,12965.67,21766.9,62.67,608.0,71.7,18390.12,41.99,48.31,2.38,30.25,34.96,39025.0,1.51,5.15,0.0,25982.0,602.0,526.0,86.51,37366.55,0.0,6429.09,72.75
-2026-01-03,36842.64,31163.17,4303.08,11353.98,19809.19,63.57,537.0,68.29,18823.79,51.09,50.51,1.96,35.05,39.05,36269.0,1.43,5.23,0.0,24160.0,533.0,482.0,89.76,32378.79,0.0,4463.85,69.12
-2026-01-04,34774.04,29311.53,4202.05,10796.15,18515.38,63.17,508.0,68.05,18768.45,53.97,55.87,1.85,36.95,41.8,36540.0,1.35,5.33,0.0,24554.0,506.0,449.0,88.39,30710.98,0.0,4063.06,68.72
-2026-01-05,41923.62,36478.33,3890.72,12566.42,23911.91,65.55,601.0,69.46,20345.26,48.53,52.91,2.06,33.85,38.53,42229.0,1.39,5.3,0.0,26933.0,594.0,528.0,87.85,36323.23,0.0,5600.39,70.58
-2026-01-06,34103.88,26990.52,5826.03,10198.03,16792.49,62.22,493.0,68.99,19335.36,56.7,69.44,1.76,39.22,46.48,36380.0,1.31,4.93,0.0,23776.0,487.0,416.0,84.38,28279.31,0.0,5824.57,70.03
-2026-01-07,34038.77,26503.8,6295.58,10345.09,16158.71,60.97,484.0,69.99,20615.02,60.56,65.36,1.65,42.59,48.05,36581.0,1.27,4.79,0.0,24271.0,482.0,429.0,88.64,29489.99,0.0,4548.78,70.62
-2026-01-08,31567.98,25199.04,5213.38,9718.29,15480.75,61.43,466.0,67.45,17985.41,56.97,62.11,1.76,38.6,44.63,35891.0,1.26,4.65,0.0,23467.0,464.0,403.0,86.48,26284.5,0.0,5283.48,68.03
-2026-01-09,28099.84,21504.03,5520.23,8848.05,12655.98,58.85,410.0,68.22,13464.26,47.92,54.64,2.09,32.84,38.69,29519.0,1.33,5.05,0.0,19608.0,403.0,348.0,84.88,23338.7,0.0,4761.14,69.73
-2026-01-10,28076.17,22095.83,4968.59,8634.4,13461.43,60.92,408.0,68.49,12295.88,43.79,47.39,2.28,30.14,35.85,29259.0,1.35,4.81,0.0,19483.0,405.0,343.0,84.07,23438.42,0.0,4637.75,69.32
-2026-01-11,38166.38,33433.21,3314.4,12177.72,21255.49,63.58,581.0,65.35,12567.02,32.93,49.75,3.04,21.63,29.92,35754.0,1.55,5.65,0.0,23528.0,575.0,420.0,72.29,28059.86,0.0,10106.52,66.38
-2026-01-12,34745.32,30155.51,3287.97,10876.1,19279.41,63.93,516.0,66.96,13311.03,38.31,49.26,2.61,25.8,32.0,32869.0,1.52,5.74,0.0,21781.0,513.0,416.0,80.62,27890.68,0.0,6854.64,67.73
-2026-01-13,24798.22,16919.79,7019.04,7487.74,9432.05,55.75,360.0,68.48,11850.85,47.79,59.88,2.09,32.92,39.9,28852.0,1.2,4.47,0.0,19120.0,357.0,297.0,82.5,20088.09,0.0,4710.13,69.46
-2026-01-14,24899.49,17121.44,6871.02,7340.9,9780.54,57.12,351.0,70.77,11859.07,47.63,60.61,2.1,33.79,41.61,28483.0,1.16,4.93,0.0,19054.0,347.0,285.0,81.2,19755.33,0.0,5144.16,71.76
-2026-01-15,26087.83,18078.4,7031.67,7707.31,10371.09,57.37,371.0,69.94,12171.43,46.66,57.14,2.14,32.81,39.26,27332.0,1.3,4.88,0.0,18475.0,368.0,310.0,83.56,21272.11,0.0,4815.72,70.89
-2026-01-16,25077.92,17450.09,6723.99,7563.9,9886.19,56.65,371.0,67.23,12774.34,50.94,59.17,1.96,34.43,40.04,29218.0,1.22,4.53,0.0,18999.0,369.0,319.0,85.98,21094.5,0.0,3983.42,67.96
-2026-01-17,26925.91,20217.32,5745.14,7685.82,12531.5,61.98,379.0,70.44,13292.71,49.37,60.24,2.03,35.07,40.65,27199.0,1.34,4.98,0.0,18506.0,376.0,327.0,86.28,22864.41,0.0,4061.5,71.61
-2026-01-18,31114.18,25533.2,4450.36,9552.08,15981.12,62.59,440.0,70.48,13183.24,42.37,48.78,2.36,29.96,34.51,29662.0,1.43,5.71,0.0,19822.0,436.0,382.0,86.82,26703.62,0.0,4410.56,71.36
-2026-01-19,32172.36,28047.3,2951.02,9842.84,18204.46,64.91,457.0,70.08,15401.55,47.87,60.24,2.09,33.7,37.84,28129.0,1.56,6.05,0.0,18980.0,453.0,407.0,89.06,27835.35,0.0,4337.01,71.02
-2026-01-20,30325.06,22942.58,6264.34,9409.47,13533.11,58.99,443.0,68.09,14165.08,46.71,55.56,2.14,31.98,35.95,28033.0,1.51,4.99,0.0,18809.0,441.0,394.0,88.94,26387.97,0.0,3937.09,68.76
-2026-01-21,21165.97,15078.02,5304.46,6255.15,8822.87,58.51,305.0,69.11,13427.76,63.44,77.52,1.58,44.03,52.05,26645.0,1.07,4.49,0.0,17954.0,303.0,258.0,84.59,17066.28,0.0,4099.69,69.85
-2026-01-22,28057.67,19889.78,7194.29,8381.86,11507.92,57.86,391.0,71.34,13872.52,49.44,59.88,2.02,35.48,42.82,27185.0,1.35,4.81,0.0,18482.0,389.0,324.0,82.86,22210.05,0.0,5847.62,72.13
-2026-01-23,22909.24,15646.03,6450.9,6974.46,8671.57,55.42,331.0,68.87,13441.09,58.67,68.97,1.7,40.61,46.67,27144.0,1.17,4.35,0.0,18305.0,328.0,288.0,87.01,19438.12,0.0,3471.12,69.85
-2026-01-24,23702.35,17422.03,5432.91,7184.39,10237.64,58.76,339.0,69.55,13376.38,56.43,63.29,1.77,39.46,46.29,24391.0,1.35,4.52,0.0,16163.0,334.0,289.0,85.25,19805.18,0.0,3897.17,70.97
-2026-01-25,23975.26,19577.59,3490.44,7298.59,12279.0,62.72,335.0,71.28,12224.85,50.99,56.82,1.96,36.49,41.3,24884.0,1.29,4.97,0.0,16570.0,330.0,296.0,88.36,21096.28,0.0,2878.98,72.65
-2026-01-26,28445.27,23657.41,3758.52,8537.62,15119.79,63.91,399.0,71.01,14645.68,51.49,62.5,1.94,36.71,42.82,33885.0,1.12,5.53,0.0,22018.0,394.0,342.0,85.71,23960.58,0.0,4484.69,72.2
-2026-01-27,24024.96,17821.47,5312.1,7025.33,10796.14,60.58,343.0,69.72,13302.82,55.37,58.82,1.81,38.78,44.64,30538.0,1.1,4.31,0.0,19336.0,340.0,298.0,86.88,20434.61,0.0,3590.35,70.66
-2026-01-28,24000.87,17846.88,5291.45,6898.64,10948.24,61.35,332.0,71.96,12264.98,51.1,59.52,1.96,36.94,43.19,30212.0,1.02,3.86,0.0,18621.0,329.0,284.0,85.54,20035.87,0.0,3965.0,72.95
-2026-01-29,20893.44,15525.66,4614.97,6123.28,9402.38,60.56,292.0,71.32,12272.6,58.74,66.23,1.7,42.03,49.49,25610.0,1.08,3.89,0.0,15471.0,291.0,248.0,84.93,17207.91,0.0,3685.53,71.8
-2026-01-30,22627.88,17585.37,4189.78,6768.37,10817.0,61.51,301.0,74.7,13225.09,58.45,64.52,1.71,43.94,52.27,20516.0,1.4,5.05,0.0,14165.0,300.0,253.0,84.05,18672.96,0.0,3954.92,75.43
-2026-01-31,29525.0,24060.21,4426.25,9091.17,14969.04,62.21,432.0,67.96,13633.13,46.17,60.61,2.17,31.56,38.08,26699.0,1.55,5.49,0.0,17876.0,430.0,358.0,82.87,24174.31,0.0,5350.69,68.66
-2026-02-01,26715.01,23495.67,2255.03,8628.13,14867.54,63.28,395.0,67.25,13440.27,50.31,61.35,1.99,34.03,40.98,27700.0,1.35,5.73,0.0,18528.0,392.0,328.0,83.04,21976.17,0.0,4738.84,68.15
-2026-02-02,27012.38,22509.3,3517.14,8388.41,14120.89,62.73,411.0,65.4,15071.9,55.8,67.57,1.79,36.67,43.56,31709.0,1.25,4.62,0.0,20526.0,408.0,346.0,84.18,22907.29,0.0,4105.09,66.21
-2026-02-03,20482.67,15657.26,4050.64,6176.52,9480.74,60.55,288.0,70.73,12729.09,62.15,66.23,1.61,44.2,50.92,26488.0,1.04,4.08,0.0,17192.0,286.0,250.0,86.81,17760.18,0.0,2722.49,71.62
-2026-02-04,23686.12,18385.84,4425.83,7213.45,11172.39,60.77,335.0,70.38,12783.95,53.97,62.11,1.85,38.16,45.99,27934.0,1.14,4.31,0.0,18320.0,335.0,278.0,82.99,19618.07,0.0,4068.05,70.7
-2026-02-05,21850.73,16829.11,4223.71,6495.88,10333.23,61.4,295.0,73.58,12104.08,55.39,63.29,1.81,41.03,48.03,24200.0,1.17,4.54,0.0,15639.0,293.0,252.0,85.42,18113.26,0.0,3737.47,74.58
-2026-02-06,21686.24,17228.5,3683.77,6311.83,10916.67,63.36,299.0,71.88,12608.9,58.14,69.44,1.72,42.17,49.45,21322.0,1.31,5.13,0.0,14368.0,297.0,255.0,85.28,17915.94,0.0,3770.3,73.02
-2026-02-07,24104.39,19989.62,3251.32,7507.35,12482.27,62.44,368.0,65.08,14789.97,61.36,71.94,1.63,40.19,55.39,23664.0,1.48,5.21,0.0,16543.0,364.0,267.0,72.55,18142.96,0.0,5961.43,66.22
-2026-02-08,22624.19,18531.31,3342.06,7128.16,11403.15,61.53,323.0,69.62,11944.55,52.8,57.8,1.89,36.98,45.76,23687.0,1.26,5.13,0.0,16320.0,323.0,261.0,80.8,18250.99,0.0,4373.2,70.04
-2026-02-09,24377.59,21301.44,2176.98,7542.91,13758.53,64.59,348.0,69.6,13762.41,56.46,61.73,1.77,39.55,45.12,22854.0,1.45,5.86,0.0,15589.0,347.0,305.0,87.64,20934.93,0.0,3442.66,70.25
-2026-02-10,20902.38,16336.9,3803.09,6327.96,10008.94,61.27,293.0,71.11,12094.81,57.86,62.5,1.73,41.28,45.99,19895.0,1.4,5.25,0.0,13480.0,292.0,263.0,89.76,18278.29,0.0,2624.09,71.58
-2026-02-11,18544.95,14766.1,3121.8,5621.74,9144.36,61.93,274.0,67.29,11194.51,60.36,68.03,1.66,40.86,47.04,18600.0,1.39,5.5,0.0,12298.0,270.0,238.0,86.86,15929.99,0.0,2614.96,68.69
-2026-02-12,24610.06,19972.38,3767.34,7186.93,12785.45,64.02,345.0,70.84,11559.23,46.97,53.19,2.13,33.5,38.66,19866.0,1.61,5.98,0.0,13381.0,344.0,299.0,86.67,21330.82,0.0,3279.24,71.54
-2026-02-13,21469.02,17108.84,3561.76,6310.83,10798.01,63.11,293.0,72.83,12552.12,58.47,69.44,1.71,42.84,50.01,19842.0,1.35,5.96,0.0,13762.0,288.0,251.0,85.67,17913.14,0.0,3555.88,74.55
-2026-02-14,25857.37,22336.81,2630.77,7959.72,14377.09,64.37,335.0,76.88,12969.42,50.16,59.52,1.99,38.71,45.51,22214.0,1.42,5.96,0.0,15477.0,334.0,285.0,85.07,21377.68,0.0,4479.69,77.42
-2026-02-15,21860.2,18853.59,2222.41,6647.79,12205.8,64.74,282.0,77.1,11719.42,53.61,63.29,1.87,41.56,50.73,23655.0,1.12,4.89,0.0,16246.0,276.0,231.0,81.91,17751.56,0.0,4108.64,79.2
-2026-02-16,31652.44,27610.77,2929.61,9536.99,18073.78,65.46,400.0,78.61,13874.11,43.83,52.36,2.28,34.69,40.69,31022.0,1.22,4.76,0.0,21006.0,398.0,341.0,85.25,26368.41,0.0,5284.03,79.53
-2026-02-17,28222.78,25089.42,2132.93,8740.12,16349.3,65.16,359.0,78.39,13254.93,46.97,56.82,2.13,36.92,44.18,23075.0,1.48,6.22,0.0,16322.0,357.0,300.0,83.57,23000.55,0.0,5222.23,79.06
-2026-02-18,21970.41,18399.37,2786.93,6566.48,11832.89,64.31,294.0,74.08,10403.56,47.35,52.91,2.11,35.39,40.01,17700.0,1.55,6.08,0.0,12430.0,290.0,260.0,88.44,19269.72,0.0,2700.69,75.76
-2026-02-19,26133.92,22127.01,3065.91,7944.06,14182.95,64.1,338.0,77.07,12182.04,46.61,55.25,2.15,36.04,42.74,20967.0,1.54,6.43,0.0,14874.0,336.0,285.0,84.32,21451.81,0.0,4682.11,77.78
-2026-02-20,23314.01,19596.99,2895.03,6835.02,12761.97,65.12,320.0,72.45,12083.42,51.83,58.14,1.93,37.76,43.47,19387.0,1.58,6.34,0.0,13523.0,320.0,278.0,86.88,20206.62,0.0,3107.39,72.86
-2026-02-21,26079.67,22202.12,2921.11,7793.74,14408.38,64.9,363.0,71.47,11923.55,45.72,50.25,2.19,32.85,37.97,19503.0,1.78,6.81,0.0,13666.0,361.0,314.0,86.5,22464.86,0.0,3614.81,72.24
-2026-02-22,28687.85,24769.01,2911.17,8750.7,16018.31,64.67,363.0,78.48,10761.88,37.51,46.08,2.67,29.65,34.38,18307.0,1.87,6.69,0.0,12607.0,361.0,313.0,86.23,24403.04,0.0,4284.81,79.47
-2026-02-23,32001.31,28879.97,1908.91,9851.68,19028.29,65.89,441.0,72.36,13788.65,43.09,55.25,2.32,31.27,36.29,23104.0,1.81,7.09,0.0,16167.0,437.0,380.0,86.17,27387.86,0.0,4613.45,73.23
-2026-02-24,19882.06,16577.92,2591.69,5777.29,10800.63,65.15,262.0,75.54,11102.05,55.84,62.11,1.79,42.37,49.56,18034.0,1.36,5.53,0.0,13178.0,261.0,224.0,85.5,16891.06,0.0,2991.0,76.18
-2026-02-25,20897.23,17300.61,2832.59,6060.0,11240.61,64.97,276.0,75.29,10691.38,51.16,62.5,1.95,38.74,43.11,17292.0,1.53,5.86,0.0,12312.0,273.0,248.0,89.86,18715.5,0.0,2181.73,76.55
-2026-02-26,25646.87,21287.76,3461.06,7449.28,13838.48,65.01,337.0,75.41,10707.36,41.75,52.91,2.4,31.77,36.8,18255.0,1.73,1.16,0.0,12987.0,331.0,291.0,86.35,21971.56,0.0,3675.31,77.48`;
-const platformDailyRaw = `date,platform,spend,roas,cpc,clicks,cpm,ctr,cpa
-2025-12-30,Google,3800.13,2.05,1.8,2113.0,18.51,1.03,31.99
-2025-12-30,Facebook,13047.8,1.5,0.53,24820.0,25.88,4.92,44.23
-2025-12-30,Applovin,2535.29,1.69,0.44,5702.0,24.14,5.43,40.89
-2025-12-31,Google,3485.34,2.51,1.59,2186.0,15.05,0.94,28.07
-2025-12-31,Facebook,12378.94,1.87,0.49,25302.0,25.09,5.13,33.82
-2025-12-31,Applovin,2564.32,2.12,0.44,5870.0,24.68,5.65,31.27
-2026-01-01,Google,2843.72,2.38,1.52,1876.0,15.13,1.0,29.38
-2026-01-01,Facebook,12378.77,1.82,0.51,24056.0,23.48,4.56,37.4
-2026-01-01,Applovin,2546.96,2.54,0.44,5803.0,23.74,5.41,27.39
-2026-01-02,Google,3377.55,2.17,1.49,2273.0,16.89,1.14,31.66
-2026-01-02,Facebook,12453.82,1.98,0.52,24143.0,19.45,3.77,32.77
-2026-01-02,Applovin,2558.75,2.38,0.36,7042.0,20.58,5.66,28.12
-2026-01-03,Google,3925.83,2.31,1.67,2355.0,18.16,1.09,29.54
-2026-01-03,Facebook,12291.57,1.92,0.54,22625.0,22.1,4.07,33.22
-2026-01-03,Applovin,2606.39,1.79,0.36,7241.0,19.18,5.33,36.71
-2026-01-04,Google,4175.42,1.69,1.72,2422.0,18.31,1.06,39.11
-2026-01-04,Facebook,12041.76,1.74,0.59,20409.0,22.95,3.89,36.38
-2026-01-04,Applovin,2551.27,2.18,0.31,8273.0,18.58,6.03,32.29
-2026-01-05,Google,3740.22,1.97,1.71,2185.0,21.04,1.23,34.36
-2026-01-05,Facebook,13965.27,1.87,0.57,24541.0,25.13,4.42,34.57
-2026-01-05,Applovin,2639.77,1.88,0.34,7821.0,19.02,5.64,36.16
-2026-01-06,Google,3253.94,1.74,1.6,2028.0,18.62,1.16,37.81
-2026-01-06,Facebook,13557.38,1.38,0.61,22225.0,28.22,4.63,45.8
-2026-01-06,Applovin,2524.04,1.37,0.37,6764.0,18.6,4.98,49.49
-2026-01-07,Google,3065.46,1.95,1.67,1834.0,21.09,1.26,35.1
-2026-01-07,Facebook,14562.37,1.49,0.63,23178.0,31.4,5.0,45.08
-2026-01-07,Applovin,2987.19,1.31,0.37,8070.0,17.09,4.62,46.67
-2026-01-08,Google,3300.95,1.75,1.64,2015.0,20.72,1.26,38.94
-2026-01-08,Facebook,12047.21,1.5,0.63,19167.0,34.29,5.46,42.27
-2026-01-08,Applovin,2637.25,1.96,0.38,6860.0,17.62,4.58,32.16
-2026-01-09,Google,2788.62,2.13,1.57,1777.0,19.17,1.22,31.66
-2026-01-09,Facebook,7968.99,1.78,0.6,13384.0,28.79,4.84,35.58
-2026-01-09,Applovin,2706.65,1.65,0.38,7211.0,16.12,4.29,39.23
-2026-01-10,Google,2564.48,2.39,1.47,1743.0,17.72,1.2,30.17
-2026-01-10,Facebook,7114.04,2.19,0.54,13155.0,26.1,4.83,29.64
-2026-01-10,Applovin,2617.36,1.62,0.49,5377.0,22.5,4.62,45.13
-2026-01-11,Google,2392.63,2.7,1.5,1596.0,18.45,1.23,24.63
-2026-01-11,Facebook,6776.55,2.08,0.56,12171.0,27.26,4.9,30.53
-2026-01-11,Applovin,3397.84,1.39,0.53,6387.0,21.71,4.08,43.56
-2026-01-12,Google,2286.59,2.49,1.63,1406.0,19.44,1.2,28.1
-2026-01-12,Facebook,7866.3,2.01,0.52,15098.0,25.67,4.93,32.78
-2026-01-12,Applovin,3158.14,1.75,0.49,6445.0,21.99,4.49,35.48
-2026-01-13,Google,2007.29,2.57,1.44,1395.0,17.28,1.2,25.85
-2026-01-13,Facebook,7350.88,1.61,0.54,13625.0,26.63,4.94,40.17
-2026-01-13,Applovin,2492.68,1.09,0.5,4987.0,22.87,4.57,56.65
-2026-01-14,Google,2285.04,2.1,1.46,1568.0,16.95,1.16,32.47
-2026-01-14,Facebook,7505.58,1.64,0.57,13074.0,28.51,4.97,39.92
-2026-01-14,Applovin,2068.45,1.22,0.52,4002.0,24.33,4.71,51.71
-2026-01-15,Google,2265.35,2.19,1.67,1356.0,21.75,1.3,30.02
-2026-01-15,Facebook,7799.85,1.72,0.62,12498.0,32.57,5.22,37.86
-2026-01-15,Applovin,2106.23,1.43,0.5,4179.0,24.76,4.91,46.81
-2026-01-16,Google,1731.61,2.27,1.51,1148.0,21.98,1.46,27.85
-2026-01-16,Facebook,9223.15,1.53,0.65,14222.0,34.15,5.27,42.11
-2026-01-16,Applovin,1819.58,1.95,0.57,3195.0,27.8,4.88,34.33
-2026-01-17,Google,1779.92,2.5,1.65,1082.0,24.34,1.48,26.59
-2026-01-17,Facebook,9620.63,1.54,0.57,16826.0,32.31,5.65,42.2
-2026-01-17,Applovin,1892.16,1.5,0.54,3476.0,23.75,4.36,43.0
-2026-01-18,Google,2218.87,2.76,1.76,1260.0,26.91,1.53,26.56
-2026-01-18,Facebook,9026.08,1.93,0.54,16576.0,30.11,5.53,33.81
-2026-01-18,Applovin,1938.29,1.85,0.51,3805.0,24.96,4.9,36.57
-2026-01-19,Google,2345.44,1.62,1.76,1334.0,24.25,1.38,38.5
-2026-01-19,Facebook,11027.12,1.63,0.65,17067.0,33.4,5.17,39.81
-2026-01-19,Applovin,2028.99,1.88,0.45,4489.0,22.34,4.94,36.89
-2026-01-20,Google,2083.59,1.91,1.66,1252.0,24.35,1.46,34.71
-2026-01-20,Facebook,10185.42,1.7,0.59,17317.0,30.43,5.17,38.01
-2026-01-20,Applovin,1896.07,2.22,0.46,4159.0,21.77,4.77,31.08
-2026-01-21,Google,1966.19,1.7,1.61,1221.0,23.52,1.46,41.27
-2026-01-21,Facebook,9507.38,1.22,0.56,16971.0,30.14,5.38,51.67
-2026-01-21,Applovin,1954.19,1.2,0.48,4051.0,21.9,4.54,54.28
-2026-01-22,Google,2107.22,1.59,1.78,1185.0,25.71,1.45,38.72
-2026-01-22,Facebook,9850.21,1.65,0.67,14784.0,32.29,4.85,39.56
-2026-01-22,Applovin,1915.09,1.89,0.4,4843.0,18.82,4.76,34.82
-2026-01-23,Google,2116.09,2.02,1.68,1257.0,25.26,1.5,34.26
-2026-01-23,Facebook,9376.1,1.3,0.67,13945.0,30.5,4.54,49.35
-2026-01-23,Applovin,1948.9,1.57,0.43,4570.0,20.06,4.7,39.77
-2026-01-24,Google,1787.71,2.05,1.75,1022.0,23.96,1.37,34.18
-2026-01-24,Facebook,9732.1,1.47,0.68,14217.0,28.93,4.23,43.84
-2026-01-24,Applovin,1856.57,1.71,0.5,3731.0,24.27,4.88,37.13
-2026-01-25,Google,1868.53,2.21,1.63,1144.0,23.24,1.42,30.38
-2026-01-25,Facebook,8407.24,1.66,0.63,13425.0,24.99,3.99,40.42
-2026-01-25,Applovin,1949.08,1.73,0.49,3977.0,22.62,4.62,36.09
-2026-01-26,Google,1978.75,1.93,1.78,1110.0,29.16,1.64,33.66
-2026-01-26,Facebook,10675.64,1.48,0.59,18014.0,25.03,4.22,44.67
-2026-01-26,Applovin,1991.29,1.89,0.43,4640.0,19.73,4.6,33.19
-2026-01-27,Google,2199.25,2.16,1.9,1157.0,34.33,1.81,34.21
-2026-01-27,Facebook,9195.55,1.67,0.54,17122.0,24.25,4.52,38.8
-2026-01-27,Applovin,1908.02,1.33,0.44,4319.0,19.55,4.42,43.36
-2026-01-28,Google,1862.24,1.61,1.85,1007.0,23.36,1.26,43.49
-2026-01-28,Facebook,8466.93,1.62,0.46,18582.0,27.96,6.14,40.71
-2026-01-28,Applovin,1935.81,2.03,0.47,4088.0,21.62,4.57,32.26
-2026-01-29,Google,2222.99,1.72,1.52,1463.0,20.97,1.38,41.65
-2026-01-29,Facebook,8141.47,1.46,0.51,16104.0,30.95,6.12,44.73
-2026-01-29,Applovin,1908.14,1.48,0.53,3612.0,25.4,4.81,42.4
-2026-01-30,Google,2388.94,1.9,1.45,1645.0,22.19,1.53,38.76
-2026-01-30,Facebook,8918.62,1.44,0.74,12027.0,31.89,4.3,49.82
-2026-01-30,Applovin,1917.53,1.63,0.5,3827.0,24.91,4.97,43.58
-2026-01-31,Google,2580.95,2.24,1.42,1823.0,17.42,1.23,31.69
-2026-01-31,Facebook,9179.43,1.44,0.7,13137.0,29.67,4.25,45.22
-2026-01-31,Applovin,1872.75,1.89,0.47,3998.0,20.61,4.4,35.33
-2026-02-01,Google,2247.46,2.11,1.39,1617.0,21.71,1.56,30.37
-2026-02-01,Facebook,9234.61,1.45,0.63,14643.0,28.35,4.5,44.4
-2026-02-01,Applovin,1958.2,1.91,0.39,4996.0,16.7,4.26,34.97
-2026-02-02,Google,2607.31,1.62,1.53,1703.0,29.84,1.95,43.33
-2026-02-02,Facebook,10477.32,1.41,0.54,19488.0,27.38,5.09,45.75
-2026-02-02,Applovin,1987.27,1.68,0.43,4579.0,18.4,4.24,37.5
-2026-02-03,Google,1996.34,1.75,1.33,1500.0,23.65,1.78,38.43
-2026-02-03,Facebook,8744.27,1.38,0.53,16568.0,26.02,4.93,48.85
-2026-02-03,Applovin,1988.48,1.82,0.41,4823.0,17.36,4.21,38.99
-2026-02-04,Google,2148.73,1.87,1.41,1523.0,24.4,1.73,35.52
-2026-02-04,Facebook,8153.7,1.59,0.51,15836.0,28.36,5.51,41.6
-2026-02-04,Applovin,2481.52,1.43,0.51,4865.0,22.44,4.4,48.66
-2026-02-05,Google,2334.15,1.85,1.43,1637.0,28.21,1.98,39.71
-2026-02-05,Facebook,7345.94,1.63,0.6,12314.0,29.71,4.98,41.5
-2026-02-05,Applovin,2423.99,1.19,0.47,5159.0,18.6,3.96,57.71
-2026-02-06,Google,2614.03,1.66,1.62,1611.0,30.0,1.85,42.75
-2026-02-06,Facebook,8215.62,1.36,0.73,11271.0,33.72,4.63,48.04
-2026-02-06,Applovin,1779.25,1.47,0.56,3162.0,24.92,4.43,48.09
-2026-02-07,Google,3634.9,1.31,1.12,3239.0,27.41,2.44,50.33
-2026-02-07,Facebook,9280.85,1.37,0.65,14321.0,31.39,4.84,47.59
-2026-02-07,Applovin,1874.22,1.69,0.57,3278.0,23.67,4.14,40.74
-2026-02-08,Google,3836.15,1.6,0.83,4602.0,21.21,2.54,43.11
-2026-02-08,Facebook,6137.2,1.82,0.58,10519.0,29.77,5.1,38.84
-2026-02-08,Applovin,1971.2,1.69,0.61,3221.0,24.78,4.05,39.42
-2026-02-09,Google,3663.78,1.64,1.07,3425.0,24.53,2.29,40.05
-2026-02-09,Facebook,8088.92,1.62,0.67,12131.0,30.68,4.6,41.27
-2026-02-09,Applovin,2009.71,1.59,0.66,3032.0,27.41,4.14,45.68
-2026-02-10,Google,3107.48,1.61,1.19,2611.0,22.7,1.91,43.17
-2026-02-10,Facebook,7044.19,1.55,0.62,11421.0,30.09,4.88,43.22
-2026-02-10,Applovin,1943.14,1.81,0.6,3234.0,24.7,4.11,36.66
-2026-02-11,Google,2929.25,1.6,1.43,2048.0,24.18,1.69,43.67
-2026-02-11,Facebook,6336.71,1.45,0.64,9962.0,31.39,4.93,44.0
-2026-02-11,Applovin,1928.55,1.33,0.55,3511.0,21.01,3.82,50.75
-2026-02-12,Google,3211.39,1.83,1.36,2370.0,23.95,1.77,36.72
-2026-02-12,Facebook,6238.48,1.82,0.64,9824.0,30.01,4.73,36.48
-2026-02-12,Applovin,2109.36,2.11,0.55,3863.0,21.17,3.88,31.48
-2026-02-13,Google,2646.48,1.71,1.26,2095.0,20.57,1.63,41.72
-2026-02-13,Facebook,7984.09,1.31,0.76,10465.0,33.41,4.38,51.84
-2026-02-13,Applovin,1921.55,1.6,0.55,3515.0,19.92,3.64,42.7
-2026-02-14,Google,2764.19,2.11,1.21,2277.0,17.44,1.44,31.91
-2026-02-14,Facebook,8297.26,1.46,0.71,11645.0,32.91,4.62,49.39
-2026-02-14,Applovin,1907.97,2.03,0.57,3355.0,21.34,3.75,37.41
-2026-02-15,Google,2739.06,1.91,1.13,2430.0,15.15,1.34,36.99
-2026-02-15,Facebook,6989.36,1.42,0.52,13351.0,29.45,5.63,51.77
-2026-02-15,Applovin,1991.0,1.66,0.52,3848.0,19.26,3.72,42.36
-2026-02-16,Google,2860.95,2.47,1.09,2624.0,13.73,1.26,31.92
-2026-02-16,Facebook,8983.51,1.69,0.49,18162.0,27.84,5.63,42.98
-2026-02-16,Applovin,2029.65,2.09,0.45,4474.0,16.99,3.75,32.74
-2026-02-17,Google,3016.72,1.54,1.11,2729.0,15.1,1.37,45.64
-2026-02-17,Facebook,8309.54,1.77,0.67,12469.0,32.86,4.93,41.14
-2026-02-17,Applovin,1928.67,2.07,0.52,3712.0,20.7,3.98,40.18
-2026-02-18,Google,2848.26,2.07,0.99,2889.0,16.04,1.63,35.09
-2026-02-18,Facebook,5604.69,1.77,0.77,7320.0,32.29,4.22,38.92
-2026-02-18,Applovin,1950.61,1.96,0.51,3805.0,21.99,4.29,36.8
-2026-02-19,Google,3092.74,2.12,0.93,3310.0,15.52,1.66,35.5
-2026-02-19,Facebook,7145.04,1.76,0.78,9202.0,32.26,4.16,42.28
-2026-02-19,Applovin,1944.26,1.47,0.46,4239.0,20.08,4.38,48.61
-2026-02-20,Google,3078.95,1.93,1.06,2905.0,18.39,1.74,37.35
-2026-02-20,Facebook,7037.67,1.56,0.76,9291.0,31.89,4.21,43.71
-2026-02-20,Applovin,1966.8,1.98,0.44,4517.0,16.9,3.88,35.12
-2026-02-21,Google,3343.93,2.34,1.15,2900.0,20.36,1.77,30.66
-2026-02-21,Facebook,6688.23,1.78,0.74,9022.0,30.95,4.18,38.44
-2026-02-21,Applovin,1891.39,2.13,0.48,3958.0,20.2,4.23,32.61
-2026-02-22,Google,3305.59,2.32,1.05,3147.0,16.86,1.61,35.91
-2026-02-22,Facebook,5474.98,2.26,0.75,7303.0,29.01,3.87,32.59
-2026-02-22,Applovin,1981.31,1.69,0.52,3817.0,21.63,4.17,44.03
-2026-02-23,Google,3313.16,1.42,0.95,3491.0,13.3,1.4,47.22
-2026-02-23,Facebook,8483.51,1.93,0.79,10691.0,29.72,3.75,37.21
-2026-02-23,Applovin,1991.98,1.99,0.45,4475.0,17.39,3.91,33.2
-2026-02-24,Google,3471.87,1.67,0.8,4348.0,9.83,1.23,46.86
-2026-02-24,Facebook,5685.93,1.61,0.75,7558.0,28.96,3.85,42.43
-2026-02-24,Applovin,1944.25,1.49,0.49,3984.0,19.01,3.89,47.42
-2026-02-25,Google,3043.79,1.88,0.87,3510.0,11.37,1.31,40.02
-2026-02-25,Facebook,5665.32,1.54,0.82,6939.0,30.58,3.75,43.58
-2026-02-25,Applovin,1982.27,1.35,0.53,3760.0,21.11,4.0,53.57
-2026-02-26,Google,3379.8,1.61,0.86,3929.0,10.65,1.24,45.6
-2026-02-26,Facebook,5394.11,2.08,0.84,6445.0,30.47,3.64,33.3
-2026-02-26,Applovin,1933.45,1.87,0.47,4142.0,17.47,3.74,34.53`;
+var D=[{"date": "2025-12-30", "gross_sales": 36540.09, "net_revenue": 30891.57, "refunds": 4269.48, "cogs": 11024.24, "margin": 19867.33, "gross_margin_pct": 64.31, "orders": 505.0, "aov": 72.05, "total_ad_spend": 19383.22, "mer": 53.05, "amer": 61.35, "blended_roas": 1.89, "cac": 38.38, "ncac": 43.66, "sessions": 37980.0, "cvr": 1.27, "atc_pct": 4.86, "ic_pct": 0.0, "users": 24212.0, "customers": 500.0, "new_customer_orders": 444.0, "new_customer_pct": 87.92, "new_customers_revenue": 31329.72, "returning_customers_count": 0.0, "returning_customers_revenue": 5210.37, "cltv": 73.08}, {"date": "2025-12-31", "gross_sales": 40324.91, "net_revenue": 34064.52, "refunds": 4736.02, "cogs": 12135.0, "margin": 21929.52, "gross_margin_pct": 64.38, "orders": 557.0, "aov": 71.99, "total_ad_spend": 18428.6, "mer": 45.7, "amer": 49.26, "blended_roas": 2.19, "cac": 33.09, "ncac": 37.15, "sessions": 40058.0, "cvr": 1.34, "atc_pct": 4.65, "ic_pct": 0.0, "users": 24652.0, "customers": 551.0, "new_customer_orders": 496.0, "new_customer_pct": 89.05, "new_customers_revenue": 35092.39, "returning_customers_count": 0.0, "returning_customers_revenue": 5232.52, "cltv": 73.18}, {"date": "2026-01-01", "gross_sales": 41668.83, "net_revenue": 34915.08, "refunds": 5130.02, "cogs": 12308.24, "margin": 22606.84, "gross_margin_pct": 64.75, "orders": 565.0, "aov": 73.45, "total_ad_spend": 17769.45, "mer": 42.64, "amer": 49.75, "blended_roas": 2.34, "cac": 31.45, "ncac": 35.9, "sessions": 38324.0, "cvr": 1.41, "atc_pct": 4.6, "ic_pct": 0.0, "users": 24159.0, "customers": 558.0, "new_customer_orders": 495.0, "new_customer_pct": 87.61, "new_customers_revenue": 35573.97, "returning_customers_count": 0.0, "returning_customers_revenue": 6094.86, "cltv": 74.68}, {"date": "2026-01-02", "gross_sales": 43795.64, "net_revenue": 34732.57, "refunds": 7450.45, "cogs": 12965.67, "margin": 21766.9, "gross_margin_pct": 62.67, "orders": 608.0, "aov": 71.7, "total_ad_spend": 18390.12, "mer": 41.99, "amer": 48.31, "blended_roas": 2.38, "cac": 30.25, "ncac": 34.96, "sessions": 39025.0, "cvr": 1.51, "atc_pct": 5.15, "ic_pct": 0.0, "users": 25982.0, "customers": 602.0, "new_customer_orders": 526.0, "new_customer_pct": 86.51, "new_customers_revenue": 37366.55, "returning_customers_count": 0.0, "returning_customers_revenue": 6429.09, "cltv": 72.75}, {"date": "2026-01-03", "gross_sales": 36842.64, "net_revenue": 31163.17, "refunds": 4303.08, "cogs": 11353.98, "margin": 19809.19, "gross_margin_pct": 63.57, "orders": 537.0, "aov": 68.29, "total_ad_spend": 18823.79, "mer": 51.09, "amer": 50.51, "blended_roas": 1.96, "cac": 35.05, "ncac": 39.05, "sessions": 36269.0, "cvr": 1.43, "atc_pct": 5.23, "ic_pct": 0.0, "users": 24160.0, "customers": 533.0, "new_customer_orders": 482.0, "new_customer_pct": 89.76, "new_customers_revenue": 32378.79, "returning_customers_count": 0.0, "returning_customers_revenue": 4463.85, "cltv": 69.12}, {"date": "2026-01-04", "gross_sales": 34774.04, "net_revenue": 29311.53, "refunds": 4202.05, "cogs": 10796.15, "margin": 18515.38, "gross_margin_pct": 63.17, "orders": 508.0, "aov": 68.05, "total_ad_spend": 18768.45, "mer": 53.97, "amer": 55.87, "blended_roas": 1.85, "cac": 36.95, "ncac": 41.8, "sessions": 36540.0, "cvr": 1.35, "atc_pct": 5.33, "ic_pct": 0.0, "users": 24554.0, "customers": 506.0, "new_customer_orders": 449.0, "new_customer_pct": 88.39, "new_customers_revenue": 30710.98, "returning_customers_count": 0.0, "returning_customers_revenue": 4063.06, "cltv": 68.72}, {"date": "2026-01-05", "gross_sales": 41923.62, "net_revenue": 36478.33, "refunds": 3890.72, "cogs": 12566.42, "margin": 23911.91, "gross_margin_pct": 65.55, "orders": 601.0, "aov": 69.46, "total_ad_spend": 20345.26, "mer": 48.53, "amer": 52.91, "blended_roas": 2.06, "cac": 33.85, "ncac": 38.53, "sessions": 42229.0, "cvr": 1.39, "atc_pct": 5.3, "ic_pct": 0.0, "users": 26933.0, "customers": 594.0, "new_customer_orders": 528.0, "new_customer_pct": 87.85, "new_customers_revenue": 36323.23, "returning_customers_count": 0.0, "returning_customers_revenue": 5600.39, "cltv": 70.58}, {"date": "2026-01-06", "gross_sales": 34103.88, "net_revenue": 26990.52, "refunds": 5826.03, "cogs": 10198.03, "margin": 16792.49, "gross_margin_pct": 62.22, "orders": 493.0, "aov": 68.99, "total_ad_spend": 19335.36, "mer": 56.7, "amer": 69.44, "blended_roas": 1.76, "cac": 39.22, "ncac": 46.48, "sessions": 36380.0, "cvr": 1.31, "atc_pct": 4.93, "ic_pct": 0.0, "users": 23776.0, "customers": 487.0, "new_customer_orders": 416.0, "new_customer_pct": 84.38, "new_customers_revenue": 28279.31, "returning_customers_count": 0.0, "returning_customers_revenue": 5824.57, "cltv": 70.03}, {"date": "2026-01-07", "gross_sales": 34038.77, "net_revenue": 26503.8, "refunds": 6295.58, "cogs": 10345.09, "margin": 16158.71, "gross_margin_pct": 60.97, "orders": 484.0, "aov": 69.99, "total_ad_spend": 20615.02, "mer": 60.56, "amer": 65.36, "blended_roas": 1.65, "cac": 42.59, "ncac": 48.05, "sessions": 36581.0, "cvr": 1.27, "atc_pct": 4.79, "ic_pct": 0.0, "users": 24271.0, "customers": 482.0, "new_customer_orders": 429.0, "new_customer_pct": 88.64, "new_customers_revenue": 29489.99, "returning_customers_count": 0.0, "returning_customers_revenue": 4548.78, "cltv": 70.62}, {"date": "2026-01-08", "gross_sales": 31567.98, "net_revenue": 25199.04, "refunds": 5213.38, "cogs": 9718.29, "margin": 15480.75, "gross_margin_pct": 61.43, "orders": 466.0, "aov": 67.45, "total_ad_spend": 17985.41, "mer": 56.97, "amer": 62.11, "blended_roas": 1.76, "cac": 38.6, "ncac": 44.63, "sessions": 35891.0, "cvr": 1.26, "atc_pct": 4.65, "ic_pct": 0.0, "users": 23467.0, "customers": 464.0, "new_customer_orders": 403.0, "new_customer_pct": 86.48, "new_customers_revenue": 26284.5, "returning_customers_count": 0.0, "returning_customers_revenue": 5283.48, "cltv": 68.03}, {"date": "2026-01-09", "gross_sales": 28099.84, "net_revenue": 21504.03, "refunds": 5520.23, "cogs": 8848.05, "margin": 12655.98, "gross_margin_pct": 58.85, "orders": 410.0, "aov": 68.22, "total_ad_spend": 13464.26, "mer": 47.92, "amer": 54.64, "blended_roas": 2.09, "cac": 32.84, "ncac": 38.69, "sessions": 29519.0, "cvr": 1.33, "atc_pct": 5.05, "ic_pct": 0.0, "users": 19608.0, "customers": 403.0, "new_customer_orders": 348.0, "new_customer_pct": 84.88, "new_customers_revenue": 23338.7, "returning_customers_count": 0.0, "returning_customers_revenue": 4761.14, "cltv": 69.73}, {"date": "2026-01-10", "gross_sales": 28076.17, "net_revenue": 22095.83, "refunds": 4968.59, "cogs": 8634.4, "margin": 13461.43, "gross_margin_pct": 60.92, "orders": 408.0, "aov": 68.49, "total_ad_spend": 12295.88, "mer": 43.79, "amer": 47.39, "blended_roas": 2.28, "cac": 30.14, "ncac": 35.85, "sessions": 29259.0, "cvr": 1.35, "atc_pct": 4.81, "ic_pct": 0.0, "users": 19483.0, "customers": 405.0, "new_customer_orders": 343.0, "new_customer_pct": 84.07, "new_customers_revenue": 23438.42, "returning_customers_count": 0.0, "returning_customers_revenue": 4637.75, "cltv": 69.32}, {"date": "2026-01-11", "gross_sales": 38166.38, "net_revenue": 33433.21, "refunds": 3314.4, "cogs": 12177.72, "margin": 21255.49, "gross_margin_pct": 63.58, "orders": 581.0, "aov": 65.35, "total_ad_spend": 12567.02, "mer": 32.93, "amer": 49.75, "blended_roas": 3.04, "cac": 21.63, "ncac": 29.92, "sessions": 35754.0, "cvr": 1.55, "atc_pct": 5.65, "ic_pct": 0.0, "users": 23528.0, "customers": 575.0, "new_customer_orders": 420.0, "new_customer_pct": 72.29, "new_customers_revenue": 28059.86, "returning_customers_count": 0.0, "returning_customers_revenue": 10106.52, "cltv": 66.38}, {"date": "2026-01-12", "gross_sales": 34745.32, "net_revenue": 30155.51, "refunds": 3287.97, "cogs": 10876.1, "margin": 19279.41, "gross_margin_pct": 63.93, "orders": 516.0, "aov": 66.96, "total_ad_spend": 13311.03, "mer": 38.31, "amer": 49.26, "blended_roas": 2.61, "cac": 25.8, "ncac": 32.0, "sessions": 32869.0, "cvr": 1.52, "atc_pct": 5.74, "ic_pct": 0.0, "users": 21781.0, "customers": 513.0, "new_customer_orders": 416.0, "new_customer_pct": 80.62, "new_customers_revenue": 27890.68, "returning_customers_count": 0.0, "returning_customers_revenue": 6854.64, "cltv": 67.73}, {"date": "2026-01-13", "gross_sales": 24798.22, "net_revenue": 16919.79, "refunds": 7019.04, "cogs": 7487.74, "margin": 9432.05, "gross_margin_pct": 55.75, "orders": 360.0, "aov": 68.48, "total_ad_spend": 11850.85, "mer": 47.79, "amer": 59.88, "blended_roas": 2.09, "cac": 32.92, "ncac": 39.9, "sessions": 28852.0, "cvr": 1.2, "atc_pct": 4.47, "ic_pct": 0.0, "users": 19120.0, "customers": 357.0, "new_customer_orders": 297.0, "new_customer_pct": 82.5, "new_customers_revenue": 20088.09, "returning_customers_count": 0.0, "returning_customers_revenue": 4710.13, "cltv": 69.46}, {"date": "2026-01-14", "gross_sales": 24899.49, "net_revenue": 17121.44, "refunds": 6871.02, "cogs": 7340.9, "margin": 9780.54, "gross_margin_pct": 57.12, "orders": 351.0, "aov": 70.77, "total_ad_spend": 11859.07, "mer": 47.63, "amer": 60.61, "blended_roas": 2.1, "cac": 33.79, "ncac": 41.61, "sessions": 28483.0, "cvr": 1.16, "atc_pct": 4.93, "ic_pct": 0.0, "users": 19054.0, "customers": 347.0, "new_customer_orders": 285.0, "new_customer_pct": 81.2, "new_customers_revenue": 19755.33, "returning_customers_count": 0.0, "returning_customers_revenue": 5144.16, "cltv": 71.76}, {"date": "2026-01-15", "gross_sales": 26087.83, "net_revenue": 18078.4, "refunds": 7031.67, "cogs": 7707.31, "margin": 10371.09, "gross_margin_pct": 57.37, "orders": 371.0, "aov": 69.94, "total_ad_spend": 12171.43, "mer": 46.66, "amer": 57.14, "blended_roas": 2.14, "cac": 32.81, "ncac": 39.26, "sessions": 27332.0, "cvr": 1.3, "atc_pct": 4.88, "ic_pct": 0.0, "users": 18475.0, "customers": 368.0, "new_customer_orders": 310.0, "new_customer_pct": 83.56, "new_customers_revenue": 21272.11, "returning_customers_count": 0.0, "returning_customers_revenue": 4815.72, "cltv": 70.89}, {"date": "2026-01-16", "gross_sales": 25077.92, "net_revenue": 17450.09, "refunds": 6723.99, "cogs": 7563.9, "margin": 9886.19, "gross_margin_pct": 56.65, "orders": 371.0, "aov": 67.23, "total_ad_spend": 12774.34, "mer": 50.94, "amer": 59.17, "blended_roas": 1.96, "cac": 34.43, "ncac": 40.04, "sessions": 29218.0, "cvr": 1.22, "atc_pct": 4.53, "ic_pct": 0.0, "users": 18999.0, "customers": 369.0, "new_customer_orders": 319.0, "new_customer_pct": 85.98, "new_customers_revenue": 21094.5, "returning_customers_count": 0.0, "returning_customers_revenue": 3983.42, "cltv": 67.96}, {"date": "2026-01-17", "gross_sales": 26925.91, "net_revenue": 20217.32, "refunds": 5745.14, "cogs": 7685.82, "margin": 12531.5, "gross_margin_pct": 61.98, "orders": 379.0, "aov": 70.44, "total_ad_spend": 13292.71, "mer": 49.37, "amer": 60.24, "blended_roas": 2.03, "cac": 35.07, "ncac": 40.65, "sessions": 27199.0, "cvr": 1.34, "atc_pct": 4.98, "ic_pct": 0.0, "users": 18506.0, "customers": 376.0, "new_customer_orders": 327.0, "new_customer_pct": 86.28, "new_customers_revenue": 22864.41, "returning_customers_count": 0.0, "returning_customers_revenue": 4061.5, "cltv": 71.61}, {"date": "2026-01-18", "gross_sales": 31114.18, "net_revenue": 25533.2, "refunds": 4450.36, "cogs": 9552.08, "margin": 15981.12, "gross_margin_pct": 62.59, "orders": 440.0, "aov": 70.48, "total_ad_spend": 13183.24, "mer": 42.37, "amer": 48.78, "blended_roas": 2.36, "cac": 29.96, "ncac": 34.51, "sessions": 29662.0, "cvr": 1.43, "atc_pct": 5.71, "ic_pct": 0.0, "users": 19822.0, "customers": 436.0, "new_customer_orders": 382.0, "new_customer_pct": 86.82, "new_customers_revenue": 26703.62, "returning_customers_count": 0.0, "returning_customers_revenue": 4410.56, "cltv": 71.36}, {"date": "2026-01-19", "gross_sales": 32172.36, "net_revenue": 28047.3, "refunds": 2951.02, "cogs": 9842.84, "margin": 18204.46, "gross_margin_pct": 64.91, "orders": 457.0, "aov": 70.08, "total_ad_spend": 15401.55, "mer": 47.87, "amer": 60.24, "blended_roas": 2.09, "cac": 33.7, "ncac": 37.84, "sessions": 28129.0, "cvr": 1.56, "atc_pct": 6.05, "ic_pct": 0.0, "users": 18980.0, "customers": 453.0, "new_customer_orders": 407.0, "new_customer_pct": 89.06, "new_customers_revenue": 27835.35, "returning_customers_count": 0.0, "returning_customers_revenue": 4337.01, "cltv": 71.02}, {"date": "2026-01-20", "gross_sales": 30325.06, "net_revenue": 22942.58, "refunds": 6264.34, "cogs": 9409.47, "margin": 13533.11, "gross_margin_pct": 58.99, "orders": 443.0, "aov": 68.09, "total_ad_spend": 14165.08, "mer": 46.71, "amer": 55.56, "blended_roas": 2.14, "cac": 31.98, "ncac": 35.95, "sessions": 28033.0, "cvr": 1.51, "atc_pct": 4.99, "ic_pct": 0.0, "users": 18809.0, "customers": 441.0, "new_customer_orders": 394.0, "new_customer_pct": 88.94, "new_customers_revenue": 26387.97, "returning_customers_count": 0.0, "returning_customers_revenue": 3937.09, "cltv": 68.76}, {"date": "2026-01-21", "gross_sales": 21165.97, "net_revenue": 15078.02, "refunds": 5304.46, "cogs": 6255.15, "margin": 8822.87, "gross_margin_pct": 58.51, "orders": 305.0, "aov": 69.11, "total_ad_spend": 13427.76, "mer": 63.44, "amer": 77.52, "blended_roas": 1.58, "cac": 44.03, "ncac": 52.05, "sessions": 26645.0, "cvr": 1.07, "atc_pct": 4.49, "ic_pct": 0.0, "users": 17954.0, "customers": 303.0, "new_customer_orders": 258.0, "new_customer_pct": 84.59, "new_customers_revenue": 17066.28, "returning_customers_count": 0.0, "returning_customers_revenue": 4099.69, "cltv": 69.85}, {"date": "2026-01-22", "gross_sales": 28057.67, "net_revenue": 19889.78, "refunds": 7194.29, "cogs": 8381.86, "margin": 11507.92, "gross_margin_pct": 57.86, "orders": 391.0, "aov": 71.34, "total_ad_spend": 13872.52, "mer": 49.44, "amer": 59.88, "blended_roas": 2.02, "cac": 35.48, "ncac": 42.82, "sessions": 27185.0, "cvr": 1.35, "atc_pct": 4.81, "ic_pct": 0.0, "users": 18482.0, "customers": 389.0, "new_customer_orders": 324.0, "new_customer_pct": 82.86, "new_customers_revenue": 22210.05, "returning_customers_count": 0.0, "returning_customers_revenue": 5847.62, "cltv": 72.13}, {"date": "2026-01-23", "gross_sales": 22909.24, "net_revenue": 15646.03, "refunds": 6450.9, "cogs": 6974.46, "margin": 8671.57, "gross_margin_pct": 55.42, "orders": 331.0, "aov": 68.87, "total_ad_spend": 13441.09, "mer": 58.67, "amer": 68.97, "blended_roas": 1.7, "cac": 40.61, "ncac": 46.67, "sessions": 27144.0, "cvr": 1.17, "atc_pct": 4.35, "ic_pct": 0.0, "users": 18305.0, "customers": 328.0, "new_customer_orders": 288.0, "new_customer_pct": 87.01, "new_customers_revenue": 19438.12, "returning_customers_count": 0.0, "returning_customers_revenue": 3471.12, "cltv": 69.85}, {"date": "2026-01-24", "gross_sales": 23702.35, "net_revenue": 17422.03, "refunds": 5432.91, "cogs": 7184.39, "margin": 10237.64, "gross_margin_pct": 58.76, "orders": 339.0, "aov": 69.55, "total_ad_spend": 13376.38, "mer": 56.43, "amer": 63.29, "blended_roas": 1.77, "cac": 39.46, "ncac": 46.29, "sessions": 24391.0, "cvr": 1.35, "atc_pct": 4.52, "ic_pct": 0.0, "users": 16163.0, "customers": 334.0, "new_customer_orders": 289.0, "new_customer_pct": 85.25, "new_customers_revenue": 19805.18, "returning_customers_count": 0.0, "returning_customers_revenue": 3897.17, "cltv": 70.97}, {"date": "2026-01-25", "gross_sales": 23975.26, "net_revenue": 19577.59, "refunds": 3490.44, "cogs": 7298.59, "margin": 12279.0, "gross_margin_pct": 62.72, "orders": 335.0, "aov": 71.28, "total_ad_spend": 12224.85, "mer": 50.99, "amer": 56.82, "blended_roas": 1.96, "cac": 36.49, "ncac": 41.3, "sessions": 24884.0, "cvr": 1.29, "atc_pct": 4.97, "ic_pct": 0.0, "users": 16570.0, "customers": 330.0, "new_customer_orders": 296.0, "new_customer_pct": 88.36, "new_customers_revenue": 21096.28, "returning_customers_count": 0.0, "returning_customers_revenue": 2878.98, "cltv": 72.65}, {"date": "2026-01-26", "gross_sales": 28445.27, "net_revenue": 23657.41, "refunds": 3758.52, "cogs": 8537.62, "margin": 15119.79, "gross_margin_pct": 63.91, "orders": 399.0, "aov": 71.01, "total_ad_spend": 14645.68, "mer": 51.49, "amer": 62.5, "blended_roas": 1.94, "cac": 36.71, "ncac": 42.82, "sessions": 33885.0, "cvr": 1.12, "atc_pct": 5.53, "ic_pct": 0.0, "users": 22018.0, "customers": 394.0, "new_customer_orders": 342.0, "new_customer_pct": 85.71, "new_customers_revenue": 23960.58, "returning_customers_count": 0.0, "returning_customers_revenue": 4484.69, "cltv": 72.2}, {"date": "2026-01-27", "gross_sales": 24024.96, "net_revenue": 17821.47, "refunds": 5312.1, "cogs": 7025.33, "margin": 10796.14, "gross_margin_pct": 60.58, "orders": 343.0, "aov": 69.72, "total_ad_spend": 13302.82, "mer": 55.37, "amer": 58.82, "blended_roas": 1.81, "cac": 38.78, "ncac": 44.64, "sessions": 30538.0, "cvr": 1.1, "atc_pct": 4.31, "ic_pct": 0.0, "users": 19336.0, "customers": 340.0, "new_customer_orders": 298.0, "new_customer_pct": 86.88, "new_customers_revenue": 20434.61, "returning_customers_count": 0.0, "returning_customers_revenue": 3590.35, "cltv": 70.66}, {"date": "2026-01-28", "gross_sales": 24000.87, "net_revenue": 17846.88, "refunds": 5291.45, "cogs": 6898.64, "margin": 10948.24, "gross_margin_pct": 61.35, "orders": 332.0, "aov": 71.96, "total_ad_spend": 12264.98, "mer": 51.1, "amer": 59.52, "blended_roas": 1.96, "cac": 36.94, "ncac": 43.19, "sessions": 30212.0, "cvr": 1.02, "atc_pct": 3.86, "ic_pct": 0.0, "users": 18621.0, "customers": 329.0, "new_customer_orders": 284.0, "new_customer_pct": 85.54, "new_customers_revenue": 20035.87, "returning_customers_count": 0.0, "returning_customers_revenue": 3965.0, "cltv": 72.95}, {"date": "2026-01-29", "gross_sales": 20893.44, "net_revenue": 15525.66, "refunds": 4614.97, "cogs": 6123.28, "margin": 9402.38, "gross_margin_pct": 60.56, "orders": 292.0, "aov": 71.32, "total_ad_spend": 12272.6, "mer": 58.74, "amer": 66.23, "blended_roas": 1.7, "cac": 42.03, "ncac": 49.49, "sessions": 25610.0, "cvr": 1.08, "atc_pct": 3.89, "ic_pct": 0.0, "users": 15471.0, "customers": 291.0, "new_customer_orders": 248.0, "new_customer_pct": 84.93, "new_customers_revenue": 17207.91, "returning_customers_count": 0.0, "returning_customers_revenue": 3685.53, "cltv": 71.8}, {"date": "2026-01-30", "gross_sales": 22627.88, "net_revenue": 17585.37, "refunds": 4189.78, "cogs": 6768.37, "margin": 10817.0, "gross_margin_pct": 61.51, "orders": 301.0, "aov": 74.7, "total_ad_spend": 13225.09, "mer": 58.45, "amer": 64.52, "blended_roas": 1.71, "cac": 43.94, "ncac": 52.27, "sessions": 20516.0, "cvr": 1.4, "atc_pct": 5.05, "ic_pct": 0.0, "users": 14165.0, "customers": 300.0, "new_customer_orders": 253.0, "new_customer_pct": 84.05, "new_customers_revenue": 18672.96, "returning_customers_count": 0.0, "returning_customers_revenue": 3954.92, "cltv": 75.43}, {"date": "2026-01-31", "gross_sales": 29525.0, "net_revenue": 24060.21, "refunds": 4426.25, "cogs": 9091.17, "margin": 14969.04, "gross_margin_pct": 62.21, "orders": 432.0, "aov": 67.96, "total_ad_spend": 13633.13, "mer": 46.17, "amer": 60.61, "blended_roas": 2.17, "cac": 31.56, "ncac": 38.08, "sessions": 26699.0, "cvr": 1.55, "atc_pct": 5.49, "ic_pct": 0.0, "users": 17876.0, "customers": 430.0, "new_customer_orders": 358.0, "new_customer_pct": 82.87, "new_customers_revenue": 24174.31, "returning_customers_count": 0.0, "returning_customers_revenue": 5350.69, "cltv": 68.66}, {"date": "2026-02-01", "gross_sales": 26715.01, "net_revenue": 23495.67, "refunds": 2255.03, "cogs": 8628.13, "margin": 14867.54, "gross_margin_pct": 63.28, "orders": 395.0, "aov": 67.25, "total_ad_spend": 13440.27, "mer": 50.31, "amer": 61.35, "blended_roas": 1.99, "cac": 34.03, "ncac": 40.98, "sessions": 27700.0, "cvr": 1.35, "atc_pct": 5.73, "ic_pct": 0.0, "users": 18528.0, "customers": 392.0, "new_customer_orders": 328.0, "new_customer_pct": 83.04, "new_customers_revenue": 21976.17, "returning_customers_count": 0.0, "returning_customers_revenue": 4738.84, "cltv": 68.15}, {"date": "2026-02-02", "gross_sales": 27012.38, "net_revenue": 22509.3, "refunds": 3517.14, "cogs": 8388.41, "margin": 14120.89, "gross_margin_pct": 62.73, "orders": 411.0, "aov": 65.4, "total_ad_spend": 15071.9, "mer": 55.8, "amer": 67.57, "blended_roas": 1.79, "cac": 36.67, "ncac": 43.56, "sessions": 31709.0, "cvr": 1.25, "atc_pct": 4.62, "ic_pct": 0.0, "users": 20526.0, "customers": 408.0, "new_customer_orders": 346.0, "new_customer_pct": 84.18, "new_customers_revenue": 22907.29, "returning_customers_count": 0.0, "returning_customers_revenue": 4105.09, "cltv": 66.21}, {"date": "2026-02-03", "gross_sales": 20482.67, "net_revenue": 15657.26, "refunds": 4050.64, "cogs": 6176.52, "margin": 9480.74, "gross_margin_pct": 60.55, "orders": 288.0, "aov": 70.73, "total_ad_spend": 12729.09, "mer": 62.15, "amer": 66.23, "blended_roas": 1.61, "cac": 44.2, "ncac": 50.92, "sessions": 26488.0, "cvr": 1.04, "atc_pct": 4.08, "ic_pct": 0.0, "users": 17192.0, "customers": 286.0, "new_customer_orders": 250.0, "new_customer_pct": 86.81, "new_customers_revenue": 17760.18, "returning_customers_count": 0.0, "returning_customers_revenue": 2722.49, "cltv": 71.62}, {"date": "2026-02-04", "gross_sales": 23686.12, "net_revenue": 18385.84, "refunds": 4425.83, "cogs": 7213.45, "margin": 11172.39, "gross_margin_pct": 60.77, "orders": 335.0, "aov": 70.38, "total_ad_spend": 12783.95, "mer": 53.97, "amer": 62.11, "blended_roas": 1.85, "cac": 38.16, "ncac": 45.99, "sessions": 27934.0, "cvr": 1.14, "atc_pct": 4.31, "ic_pct": 0.0, "users": 18320.0, "customers": 335.0, "new_customer_orders": 278.0, "new_customer_pct": 82.99, "new_customers_revenue": 19618.07, "returning_customers_count": 0.0, "returning_customers_revenue": 4068.05, "cltv": 70.7}, {"date": "2026-02-05", "gross_sales": 21850.73, "net_revenue": 16829.11, "refunds": 4223.71, "cogs": 6495.88, "margin": 10333.23, "gross_margin_pct": 61.4, "orders": 295.0, "aov": 73.58, "total_ad_spend": 12104.08, "mer": 55.39, "amer": 63.29, "blended_roas": 1.81, "cac": 41.03, "ncac": 48.03, "sessions": 24200.0, "cvr": 1.17, "atc_pct": 4.54, "ic_pct": 0.0, "users": 15639.0, "customers": 293.0, "new_customer_orders": 252.0, "new_customer_pct": 85.42, "new_customers_revenue": 18113.26, "returning_customers_count": 0.0, "returning_customers_revenue": 3737.47, "cltv": 74.58}, {"date": "2026-02-06", "gross_sales": 21686.24, "net_revenue": 17228.5, "refunds": 3683.77, "cogs": 6311.83, "margin": 10916.67, "gross_margin_pct": 63.36, "orders": 299.0, "aov": 71.88, "total_ad_spend": 12608.9, "mer": 58.14, "amer": 69.44, "blended_roas": 1.72, "cac": 42.17, "ncac": 49.45, "sessions": 21322.0, "cvr": 1.31, "atc_pct": 5.13, "ic_pct": 0.0, "users": 14368.0, "customers": 297.0, "new_customer_orders": 255.0, "new_customer_pct": 85.28, "new_customers_revenue": 17915.94, "returning_customers_count": 0.0, "returning_customers_revenue": 3770.3, "cltv": 73.02}, {"date": "2026-02-07", "gross_sales": 24104.39, "net_revenue": 19989.62, "refunds": 3251.32, "cogs": 7507.35, "margin": 12482.27, "gross_margin_pct": 62.44, "orders": 368.0, "aov": 65.08, "total_ad_spend": 14789.97, "mer": 61.36, "amer": 71.94, "blended_roas": 1.63, "cac": 40.19, "ncac": 55.39, "sessions": 23664.0, "cvr": 1.48, "atc_pct": 5.21, "ic_pct": 0.0, "users": 16543.0, "customers": 364.0, "new_customer_orders": 267.0, "new_customer_pct": 72.55, "new_customers_revenue": 18142.96, "returning_customers_count": 0.0, "returning_customers_revenue": 5961.43, "cltv": 66.22}, {"date": "2026-02-08", "gross_sales": 22624.19, "net_revenue": 18531.31, "refunds": 3342.06, "cogs": 7128.16, "margin": 11403.15, "gross_margin_pct": 61.53, "orders": 323.0, "aov": 69.62, "total_ad_spend": 11944.55, "mer": 52.8, "amer": 57.8, "blended_roas": 1.89, "cac": 36.98, "ncac": 45.76, "sessions": 23687.0, "cvr": 1.26, "atc_pct": 5.13, "ic_pct": 0.0, "users": 16320.0, "customers": 323.0, "new_customer_orders": 261.0, "new_customer_pct": 80.8, "new_customers_revenue": 18250.99, "returning_customers_count": 0.0, "returning_customers_revenue": 4373.2, "cltv": 70.04}, {"date": "2026-02-09", "gross_sales": 24377.59, "net_revenue": 21301.44, "refunds": 2176.98, "cogs": 7542.91, "margin": 13758.53, "gross_margin_pct": 64.59, "orders": 348.0, "aov": 69.6, "total_ad_spend": 13762.41, "mer": 56.46, "amer": 61.73, "blended_roas": 1.77, "cac": 39.55, "ncac": 45.12, "sessions": 22854.0, "cvr": 1.45, "atc_pct": 5.86, "ic_pct": 0.0, "users": 15589.0, "customers": 347.0, "new_customer_orders": 305.0, "new_customer_pct": 87.64, "new_customers_revenue": 20934.93, "returning_customers_count": 0.0, "returning_customers_revenue": 3442.66, "cltv": 70.25}, {"date": "2026-02-10", "gross_sales": 20902.38, "net_revenue": 16336.9, "refunds": 3803.09, "cogs": 6327.96, "margin": 10008.94, "gross_margin_pct": 61.27, "orders": 293.0, "aov": 71.11, "total_ad_spend": 12094.81, "mer": 57.86, "amer": 62.5, "blended_roas": 1.73, "cac": 41.28, "ncac": 45.99, "sessions": 19895.0, "cvr": 1.4, "atc_pct": 5.25, "ic_pct": 0.0, "users": 13480.0, "customers": 292.0, "new_customer_orders": 263.0, "new_customer_pct": 89.76, "new_customers_revenue": 18278.29, "returning_customers_count": 0.0, "returning_customers_revenue": 2624.09, "cltv": 71.58}, {"date": "2026-02-11", "gross_sales": 18544.95, "net_revenue": 14766.1, "refunds": 3121.8, "cogs": 5621.74, "margin": 9144.36, "gross_margin_pct": 61.93, "orders": 274.0, "aov": 67.29, "total_ad_spend": 11194.51, "mer": 60.36, "amer": 68.03, "blended_roas": 1.66, "cac": 40.86, "ncac": 47.04, "sessions": 18600.0, "cvr": 1.39, "atc_pct": 5.5, "ic_pct": 0.0, "users": 12298.0, "customers": 270.0, "new_customer_orders": 238.0, "new_customer_pct": 86.86, "new_customers_revenue": 15929.99, "returning_customers_count": 0.0, "returning_customers_revenue": 2614.96, "cltv": 68.69}, {"date": "2026-02-12", "gross_sales": 24610.06, "net_revenue": 19972.38, "refunds": 3767.34, "cogs": 7186.93, "margin": 12785.45, "gross_margin_pct": 64.02, "orders": 345.0, "aov": 70.84, "total_ad_spend": 11559.23, "mer": 46.97, "amer": 53.19, "blended_roas": 2.13, "cac": 33.5, "ncac": 38.66, "sessions": 19866.0, "cvr": 1.61, "atc_pct": 5.98, "ic_pct": 0.0, "users": 13381.0, "customers": 344.0, "new_customer_orders": 299.0, "new_customer_pct": 86.67, "new_customers_revenue": 21330.82, "returning_customers_count": 0.0, "returning_customers_revenue": 3279.24, "cltv": 71.54}, {"date": "2026-02-13", "gross_sales": 21469.02, "net_revenue": 17108.84, "refunds": 3561.76, "cogs": 6310.83, "margin": 10798.01, "gross_margin_pct": 63.11, "orders": 293.0, "aov": 72.83, "total_ad_spend": 12552.12, "mer": 58.47, "amer": 69.44, "blended_roas": 1.71, "cac": 42.84, "ncac": 50.01, "sessions": 19842.0, "cvr": 1.35, "atc_pct": 5.96, "ic_pct": 0.0, "users": 13762.0, "customers": 288.0, "new_customer_orders": 251.0, "new_customer_pct": 85.67, "new_customers_revenue": 17913.14, "returning_customers_count": 0.0, "returning_customers_revenue": 3555.88, "cltv": 74.55}, {"date": "2026-02-14", "gross_sales": 25857.37, "net_revenue": 22336.81, "refunds": 2630.77, "cogs": 7959.72, "margin": 14377.09, "gross_margin_pct": 64.37, "orders": 335.0, "aov": 76.88, "total_ad_spend": 12969.42, "mer": 50.16, "amer": 59.52, "blended_roas": 1.99, "cac": 38.71, "ncac": 45.51, "sessions": 22214.0, "cvr": 1.42, "atc_pct": 5.96, "ic_pct": 0.0, "users": 15477.0, "customers": 334.0, "new_customer_orders": 285.0, "new_customer_pct": 85.07, "new_customers_revenue": 21377.68, "returning_customers_count": 0.0, "returning_customers_revenue": 4479.69, "cltv": 77.42}, {"date": "2026-02-15", "gross_sales": 21860.2, "net_revenue": 18853.59, "refunds": 2222.41, "cogs": 6647.79, "margin": 12205.8, "gross_margin_pct": 64.74, "orders": 282.0, "aov": 77.1, "total_ad_spend": 11719.42, "mer": 53.61, "amer": 63.29, "blended_roas": 1.87, "cac": 41.56, "ncac": 50.73, "sessions": 23655.0, "cvr": 1.12, "atc_pct": 4.89, "ic_pct": 0.0, "users": 16246.0, "customers": 276.0, "new_customer_orders": 231.0, "new_customer_pct": 81.91, "new_customers_revenue": 17751.56, "returning_customers_count": 0.0, "returning_customers_revenue": 4108.64, "cltv": 79.2}, {"date": "2026-02-16", "gross_sales": 31652.44, "net_revenue": 27610.77, "refunds": 2929.61, "cogs": 9536.99, "margin": 18073.78, "gross_margin_pct": 65.46, "orders": 400.0, "aov": 78.61, "total_ad_spend": 13874.11, "mer": 43.83, "amer": 52.36, "blended_roas": 2.28, "cac": 34.69, "ncac": 40.69, "sessions": 31022.0, "cvr": 1.22, "atc_pct": 4.76, "ic_pct": 0.0, "users": 21006.0, "customers": 398.0, "new_customer_orders": 341.0, "new_customer_pct": 85.25, "new_customers_revenue": 26368.41, "returning_customers_count": 0.0, "returning_customers_revenue": 5284.03, "cltv": 79.53}, {"date": "2026-02-17", "gross_sales": 28222.78, "net_revenue": 25089.42, "refunds": 2132.93, "cogs": 8740.12, "margin": 16349.3, "gross_margin_pct": 65.16, "orders": 359.0, "aov": 78.39, "total_ad_spend": 13254.93, "mer": 46.97, "amer": 56.82, "blended_roas": 2.13, "cac": 36.92, "ncac": 44.18, "sessions": 23075.0, "cvr": 1.48, "atc_pct": 6.22, "ic_pct": 0.0, "users": 16322.0, "customers": 357.0, "new_customer_orders": 300.0, "new_customer_pct": 83.57, "new_customers_revenue": 23000.55, "returning_customers_count": 0.0, "returning_customers_revenue": 5222.23, "cltv": 79.06}, {"date": "2026-02-18", "gross_sales": 21970.41, "net_revenue": 18399.37, "refunds": 2786.93, "cogs": 6566.48, "margin": 11832.89, "gross_margin_pct": 64.31, "orders": 294.0, "aov": 74.08, "total_ad_spend": 10403.56, "mer": 47.35, "amer": 52.91, "blended_roas": 2.11, "cac": 35.39, "ncac": 40.01, "sessions": 17700.0, "cvr": 1.55, "atc_pct": 6.08, "ic_pct": 0.0, "users": 12430.0, "customers": 290.0, "new_customer_orders": 260.0, "new_customer_pct": 88.44, "new_customers_revenue": 19269.72, "returning_customers_count": 0.0, "returning_customers_revenue": 2700.69, "cltv": 75.76}, {"date": "2026-02-19", "gross_sales": 26133.92, "net_revenue": 22127.01, "refunds": 3065.91, "cogs": 7944.06, "margin": 14182.95, "gross_margin_pct": 64.1, "orders": 338.0, "aov": 77.07, "total_ad_spend": 12182.04, "mer": 46.61, "amer": 55.25, "blended_roas": 2.15, "cac": 36.04, "ncac": 42.74, "sessions": 20967.0, "cvr": 1.54, "atc_pct": 6.43, "ic_pct": 0.0, "users": 14874.0, "customers": 336.0, "new_customer_orders": 285.0, "new_customer_pct": 84.32, "new_customers_revenue": 21451.81, "returning_customers_count": 0.0, "returning_customers_revenue": 4682.11, "cltv": 77.78}, {"date": "2026-02-20", "gross_sales": 23314.01, "net_revenue": 19596.99, "refunds": 2895.03, "cogs": 6835.02, "margin": 12761.97, "gross_margin_pct": 65.12, "orders": 320.0, "aov": 72.45, "total_ad_spend": 12083.42, "mer": 51.83, "amer": 58.14, "blended_roas": 1.93, "cac": 37.76, "ncac": 43.47, "sessions": 19387.0, "cvr": 1.58, "atc_pct": 6.34, "ic_pct": 0.0, "users": 13523.0, "customers": 320.0, "new_customer_orders": 278.0, "new_customer_pct": 86.88, "new_customers_revenue": 20206.62, "returning_customers_count": 0.0, "returning_customers_revenue": 3107.39, "cltv": 72.86}, {"date": "2026-02-21", "gross_sales": 26079.67, "net_revenue": 22202.12, "refunds": 2921.11, "cogs": 7793.74, "margin": 14408.38, "gross_margin_pct": 64.9, "orders": 363.0, "aov": 71.47, "total_ad_spend": 11923.55, "mer": 45.72, "amer": 50.25, "blended_roas": 2.19, "cac": 32.85, "ncac": 37.97, "sessions": 19503.0, "cvr": 1.78, "atc_pct": 6.81, "ic_pct": 0.0, "users": 13666.0, "customers": 361.0, "new_customer_orders": 314.0, "new_customer_pct": 86.5, "new_customers_revenue": 22464.86, "returning_customers_count": 0.0, "returning_customers_revenue": 3614.81, "cltv": 72.24}, {"date": "2026-02-22", "gross_sales": 28687.85, "net_revenue": 24769.01, "refunds": 2911.17, "cogs": 8750.7, "margin": 16018.31, "gross_margin_pct": 64.67, "orders": 363.0, "aov": 78.48, "total_ad_spend": 10761.88, "mer": 37.51, "amer": 46.08, "blended_roas": 2.67, "cac": 29.65, "ncac": 34.38, "sessions": 18307.0, "cvr": 1.87, "atc_pct": 6.69, "ic_pct": 0.0, "users": 12607.0, "customers": 361.0, "new_customer_orders": 313.0, "new_customer_pct": 86.23, "new_customers_revenue": 24403.04, "returning_customers_count": 0.0, "returning_customers_revenue": 4284.81, "cltv": 79.47}, {"date": "2026-02-23", "gross_sales": 32001.31, "net_revenue": 28879.97, "refunds": 1908.91, "cogs": 9851.68, "margin": 19028.29, "gross_margin_pct": 65.89, "orders": 441.0, "aov": 72.36, "total_ad_spend": 13788.65, "mer": 43.09, "amer": 55.25, "blended_roas": 2.32, "cac": 31.27, "ncac": 36.29, "sessions": 23104.0, "cvr": 1.81, "atc_pct": 7.09, "ic_pct": 0.0, "users": 16167.0, "customers": 437.0, "new_customer_orders": 380.0, "new_customer_pct": 86.17, "new_customers_revenue": 27387.86, "returning_customers_count": 0.0, "returning_customers_revenue": 4613.45, "cltv": 73.23}, {"date": "2026-02-24", "gross_sales": 19882.06, "net_revenue": 16577.92, "refunds": 2591.69, "cogs": 5777.29, "margin": 10800.63, "gross_margin_pct": 65.15, "orders": 262.0, "aov": 75.54, "total_ad_spend": 11102.05, "mer": 55.84, "amer": 62.11, "blended_roas": 1.79, "cac": 42.37, "ncac": 49.56, "sessions": 18034.0, "cvr": 1.36, "atc_pct": 5.53, "ic_pct": 0.0, "users": 13178.0, "customers": 261.0, "new_customer_orders": 224.0, "new_customer_pct": 85.5, "new_customers_revenue": 16891.06, "returning_customers_count": 0.0, "returning_customers_revenue": 2991.0, "cltv": 76.18}, {"date": "2026-02-25", "gross_sales": 20897.23, "net_revenue": 17300.61, "refunds": 2832.59, "cogs": 6060.0, "margin": 11240.61, "gross_margin_pct": 64.97, "orders": 276.0, "aov": 75.29, "total_ad_spend": 10691.38, "mer": 51.16, "amer": 62.5, "blended_roas": 1.95, "cac": 38.74, "ncac": 43.11, "sessions": 17292.0, "cvr": 1.53, "atc_pct": 5.86, "ic_pct": 0.0, "users": 12312.0, "customers": 273.0, "new_customer_orders": 248.0, "new_customer_pct": 89.86, "new_customers_revenue": 18715.5, "returning_customers_count": 0.0, "returning_customers_revenue": 2181.73, "cltv": 76.55}, {"date": "2026-02-26", "gross_sales": 25646.87, "net_revenue": 21287.76, "refunds": 3461.06, "cogs": 7449.28, "margin": 13838.48, "gross_margin_pct": 65.01, "orders": 337.0, "aov": 75.41, "total_ad_spend": 10707.36, "mer": 41.75, "amer": 52.91, "blended_roas": 2.4, "cac": 31.77, "ncac": 36.8, "sessions": 18255.0, "cvr": 1.73, "atc_pct": 1.16, "ic_pct": 0.0, "users": 12987.0, "customers": 331.0, "new_customer_orders": 291.0, "new_customer_pct": 86.35, "new_customers_revenue": 21971.56, "returning_customers_count": 0.0, "returning_customers_revenue": 3675.31, "cltv": 77.48}];
+var P=[{"date": "2025-12-30", "platform": "Google", "spend": 3800.13, "roas": 2.05, "cpc": 1.8, "clicks": 2113.0, "cpm": 18.51, "ctr": 1.03, "cpa": 31.99}, {"date": "2025-12-30", "platform": "Facebook", "spend": 13047.8, "roas": 1.5, "cpc": 0.53, "clicks": 24820.0, "cpm": 25.88, "ctr": 4.92, "cpa": 44.23}, {"date": "2025-12-30", "platform": "Applovin", "spend": 2535.29, "roas": 1.69, "cpc": 0.44, "clicks": 5702.0, "cpm": 24.14, "ctr": 5.43, "cpa": 40.89}, {"date": "2025-12-31", "platform": "Google", "spend": 3485.34, "roas": 2.51, "cpc": 1.59, "clicks": 2186.0, "cpm": 15.05, "ctr": 0.94, "cpa": 28.07}, {"date": "2025-12-31", "platform": "Facebook", "spend": 12378.94, "roas": 1.87, "cpc": 0.49, "clicks": 25302.0, "cpm": 25.09, "ctr": 5.13, "cpa": 33.82}, {"date": "2025-12-31", "platform": "Applovin", "spend": 2564.32, "roas": 2.12, "cpc": 0.44, "clicks": 5870.0, "cpm": 24.68, "ctr": 5.65, "cpa": 31.27}, {"date": "2026-01-01", "platform": "Google", "spend": 2843.72, "roas": 2.38, "cpc": 1.52, "clicks": 1876.0, "cpm": 15.13, "ctr": 1.0, "cpa": 29.38}, {"date": "2026-01-01", "platform": "Facebook", "spend": 12378.77, "roas": 1.82, "cpc": 0.51, "clicks": 24056.0, "cpm": 23.48, "ctr": 4.56, "cpa": 37.4}, {"date": "2026-01-01", "platform": "Applovin", "spend": 2546.96, "roas": 2.54, "cpc": 0.44, "clicks": 5803.0, "cpm": 23.74, "ctr": 5.41, "cpa": 27.39}, {"date": "2026-01-02", "platform": "Google", "spend": 3377.55, "roas": 2.17, "cpc": 1.49, "clicks": 2273.0, "cpm": 16.89, "ctr": 1.14, "cpa": 31.66}, {"date": "2026-01-02", "platform": "Facebook", "spend": 12453.82, "roas": 1.98, "cpc": 0.52, "clicks": 24143.0, "cpm": 19.45, "ctr": 3.77, "cpa": 32.77}, {"date": "2026-01-02", "platform": "Applovin", "spend": 2558.75, "roas": 2.38, "cpc": 0.36, "clicks": 7042.0, "cpm": 20.58, "ctr": 5.66, "cpa": 28.12}, {"date": "2026-01-03", "platform": "Google", "spend": 3925.83, "roas": 2.31, "cpc": 1.67, "clicks": 2355.0, "cpm": 18.16, "ctr": 1.09, "cpa": 29.54}, {"date": "2026-01-03", "platform": "Facebook", "spend": 12291.57, "roas": 1.92, "cpc": 0.54, "clicks": 22625.0, "cpm": 22.1, "ctr": 4.07, "cpa": 33.22}, {"date": "2026-01-03", "platform": "Applovin", "spend": 2606.39, "roas": 1.79, "cpc": 0.36, "clicks": 7241.0, "cpm": 19.18, "ctr": 5.33, "cpa": 36.71}, {"date": "2026-01-04", "platform": "Google", "spend": 4175.42, "roas": 1.69, "cpc": 1.72, "clicks": 2422.0, "cpm": 18.31, "ctr": 1.06, "cpa": 39.11}, {"date": "2026-01-04", "platform": "Facebook", "spend": 12041.76, "roas": 1.74, "cpc": 0.59, "clicks": 20409.0, "cpm": 22.95, "ctr": 3.89, "cpa": 36.38}, {"date": "2026-01-04", "platform": "Applovin", "spend": 2551.27, "roas": 2.18, "cpc": 0.31, "clicks": 8273.0, "cpm": 18.58, "ctr": 6.03, "cpa": 32.29}, {"date": "2026-01-05", "platform": "Google", "spend": 3740.22, "roas": 1.97, "cpc": 1.71, "clicks": 2185.0, "cpm": 21.04, "ctr": 1.23, "cpa": 34.36}, {"date": "2026-01-05", "platform": "Facebook", "spend": 13965.27, "roas": 1.87, "cpc": 0.57, "clicks": 24541.0, "cpm": 25.13, "ctr": 4.42, "cpa": 34.57}, {"date": "2026-01-05", "platform": "Applovin", "spend": 2639.77, "roas": 1.88, "cpc": 0.34, "clicks": 7821.0, "cpm": 19.02, "ctr": 5.64, "cpa": 36.16}, {"date": "2026-01-06", "platform": "Google", "spend": 3253.94, "roas": 1.74, "cpc": 1.6, "clicks": 2028.0, "cpm": 18.62, "ctr": 1.16, "cpa": 37.81}, {"date": "2026-01-06", "platform": "Facebook", "spend": 13557.38, "roas": 1.38, "cpc": 0.61, "clicks": 22225.0, "cpm": 28.22, "ctr": 4.63, "cpa": 45.8}, {"date": "2026-01-06", "platform": "Applovin", "spend": 2524.04, "roas": 1.37, "cpc": 0.37, "clicks": 6764.0, "cpm": 18.6, "ctr": 4.98, "cpa": 49.49}, {"date": "2026-01-07", "platform": "Google", "spend": 3065.46, "roas": 1.95, "cpc": 1.67, "clicks": 1834.0, "cpm": 21.09, "ctr": 1.26, "cpa": 35.1}, {"date": "2026-01-07", "platform": "Facebook", "spend": 14562.37, "roas": 1.49, "cpc": 0.63, "clicks": 23178.0, "cpm": 31.4, "ctr": 5.0, "cpa": 45.08}, {"date": "2026-01-07", "platform": "Applovin", "spend": 2987.19, "roas": 1.31, "cpc": 0.37, "clicks": 8070.0, "cpm": 17.09, "ctr": 4.62, "cpa": 46.67}, {"date": "2026-01-08", "platform": "Google", "spend": 3300.95, "roas": 1.75, "cpc": 1.64, "clicks": 2015.0, "cpm": 20.72, "ctr": 1.26, "cpa": 38.94}, {"date": "2026-01-08", "platform": "Facebook", "spend": 12047.21, "roas": 1.5, "cpc": 0.63, "clicks": 19167.0, "cpm": 34.29, "ctr": 5.46, "cpa": 42.27}, {"date": "2026-01-08", "platform": "Applovin", "spend": 2637.25, "roas": 1.96, "cpc": 0.38, "clicks": 6860.0, "cpm": 17.62, "ctr": 4.58, "cpa": 32.16}, {"date": "2026-01-09", "platform": "Google", "spend": 2788.62, "roas": 2.13, "cpc": 1.57, "clicks": 1777.0, "cpm": 19.17, "ctr": 1.22, "cpa": 31.66}, {"date": "2026-01-09", "platform": "Facebook", "spend": 7968.99, "roas": 1.78, "cpc": 0.6, "clicks": 13384.0, "cpm": 28.79, "ctr": 4.84, "cpa": 35.58}, {"date": "2026-01-09", "platform": "Applovin", "spend": 2706.65, "roas": 1.65, "cpc": 0.38, "clicks": 7211.0, "cpm": 16.12, "ctr": 4.29, "cpa": 39.23}, {"date": "2026-01-10", "platform": "Google", "spend": 2564.48, "roas": 2.39, "cpc": 1.47, "clicks": 1743.0, "cpm": 17.72, "ctr": 1.2, "cpa": 30.17}, {"date": "2026-01-10", "platform": "Facebook", "spend": 7114.04, "roas": 2.19, "cpc": 0.54, "clicks": 13155.0, "cpm": 26.1, "ctr": 4.83, "cpa": 29.64}, {"date": "2026-01-10", "platform": "Applovin", "spend": 2617.36, "roas": 1.62, "cpc": 0.49, "clicks": 5377.0, "cpm": 22.5, "ctr": 4.62, "cpa": 45.13}, {"date": "2026-01-11", "platform": "Google", "spend": 2392.63, "roas": 2.7, "cpc": 1.5, "clicks": 1596.0, "cpm": 18.45, "ctr": 1.23, "cpa": 24.63}, {"date": "2026-01-11", "platform": "Facebook", "spend": 6776.55, "roas": 2.08, "cpc": 0.56, "clicks": 12171.0, "cpm": 27.26, "ctr": 4.9, "cpa": 30.53}, {"date": "2026-01-11", "platform": "Applovin", "spend": 3397.84, "roas": 1.39, "cpc": 0.53, "clicks": 6387.0, "cpm": 21.71, "ctr": 4.08, "cpa": 43.56}, {"date": "2026-01-12", "platform": "Google", "spend": 2286.59, "roas": 2.49, "cpc": 1.63, "clicks": 1406.0, "cpm": 19.44, "ctr": 1.2, "cpa": 28.1}, {"date": "2026-01-12", "platform": "Facebook", "spend": 7866.3, "roas": 2.01, "cpc": 0.52, "clicks": 15098.0, "cpm": 25.67, "ctr": 4.93, "cpa": 32.78}, {"date": "2026-01-12", "platform": "Applovin", "spend": 3158.14, "roas": 1.75, "cpc": 0.49, "clicks": 6445.0, "cpm": 21.99, "ctr": 4.49, "cpa": 35.48}, {"date": "2026-01-13", "platform": "Google", "spend": 2007.29, "roas": 2.57, "cpc": 1.44, "clicks": 1395.0, "cpm": 17.28, "ctr": 1.2, "cpa": 25.85}, {"date": "2026-01-13", "platform": "Facebook", "spend": 7350.88, "roas": 1.61, "cpc": 0.54, "clicks": 13625.0, "cpm": 26.63, "ctr": 4.94, "cpa": 40.17}, {"date": "2026-01-13", "platform": "Applovin", "spend": 2492.68, "roas": 1.09, "cpc": 0.5, "clicks": 4987.0, "cpm": 22.87, "ctr": 4.57, "cpa": 56.65}, {"date": "2026-01-14", "platform": "Google", "spend": 2285.04, "roas": 2.1, "cpc": 1.46, "clicks": 1568.0, "cpm": 16.95, "ctr": 1.16, "cpa": 32.47}, {"date": "2026-01-14", "platform": "Facebook", "spend": 7505.58, "roas": 1.64, "cpc": 0.57, "clicks": 13074.0, "cpm": 28.51, "ctr": 4.97, "cpa": 39.92}, {"date": "2026-01-14", "platform": "Applovin", "spend": 2068.45, "roas": 1.22, "cpc": 0.52, "clicks": 4002.0, "cpm": 24.33, "ctr": 4.71, "cpa": 51.71}, {"date": "2026-01-15", "platform": "Google", "spend": 2265.35, "roas": 2.19, "cpc": 1.67, "clicks": 1356.0, "cpm": 21.75, "ctr": 1.3, "cpa": 30.02}, {"date": "2026-01-15", "platform": "Facebook", "spend": 7799.85, "roas": 1.72, "cpc": 0.62, "clicks": 12498.0, "cpm": 32.57, "ctr": 5.22, "cpa": 37.86}, {"date": "2026-01-15", "platform": "Applovin", "spend": 2106.23, "roas": 1.43, "cpc": 0.5, "clicks": 4179.0, "cpm": 24.76, "ctr": 4.91, "cpa": 46.81}, {"date": "2026-01-16", "platform": "Google", "spend": 1731.61, "roas": 2.27, "cpc": 1.51, "clicks": 1148.0, "cpm": 21.98, "ctr": 1.46, "cpa": 27.85}, {"date": "2026-01-16", "platform": "Facebook", "spend": 9223.15, "roas": 1.53, "cpc": 0.65, "clicks": 14222.0, "cpm": 34.15, "ctr": 5.27, "cpa": 42.11}, {"date": "2026-01-16", "platform": "Applovin", "spend": 1819.58, "roas": 1.95, "cpc": 0.57, "clicks": 3195.0, "cpm": 27.8, "ctr": 4.88, "cpa": 34.33}, {"date": "2026-01-17", "platform": "Google", "spend": 1779.92, "roas": 2.5, "cpc": 1.65, "clicks": 1082.0, "cpm": 24.34, "ctr": 1.48, "cpa": 26.59}, {"date": "2026-01-17", "platform": "Facebook", "spend": 9620.63, "roas": 1.54, "cpc": 0.57, "clicks": 16826.0, "cpm": 32.31, "ctr": 5.65, "cpa": 42.2}, {"date": "2026-01-17", "platform": "Applovin", "spend": 1892.16, "roas": 1.5, "cpc": 0.54, "clicks": 3476.0, "cpm": 23.75, "ctr": 4.36, "cpa": 43.0}, {"date": "2026-01-18", "platform": "Google", "spend": 2218.87, "roas": 2.76, "cpc": 1.76, "clicks": 1260.0, "cpm": 26.91, "ctr": 1.53, "cpa": 26.56}, {"date": "2026-01-18", "platform": "Facebook", "spend": 9026.08, "roas": 1.93, "cpc": 0.54, "clicks": 16576.0, "cpm": 30.11, "ctr": 5.53, "cpa": 33.81}, {"date": "2026-01-18", "platform": "Applovin", "spend": 1938.29, "roas": 1.85, "cpc": 0.51, "clicks": 3805.0, "cpm": 24.96, "ctr": 4.9, "cpa": 36.57}, {"date": "2026-01-19", "platform": "Google", "spend": 2345.44, "roas": 1.62, "cpc": 1.76, "clicks": 1334.0, "cpm": 24.25, "ctr": 1.38, "cpa": 38.5}, {"date": "2026-01-19", "platform": "Facebook", "spend": 11027.12, "roas": 1.63, "cpc": 0.65, "clicks": 17067.0, "cpm": 33.4, "ctr": 5.17, "cpa": 39.81}, {"date": "2026-01-19", "platform": "Applovin", "spend": 2028.99, "roas": 1.88, "cpc": 0.45, "clicks": 4489.0, "cpm": 22.34, "ctr": 4.94, "cpa": 36.89}, {"date": "2026-01-20", "platform": "Google", "spend": 2083.59, "roas": 1.91, "cpc": 1.66, "clicks": 1252.0, "cpm": 24.35, "ctr": 1.46, "cpa": 34.71}, {"date": "2026-01-20", "platform": "Facebook", "spend": 10185.42, "roas": 1.7, "cpc": 0.59, "clicks": 17317.0, "cpm": 30.43, "ctr": 5.17, "cpa": 38.01}, {"date": "2026-01-20", "platform": "Applovin", "spend": 1896.07, "roas": 2.22, "cpc": 0.46, "clicks": 4159.0, "cpm": 21.77, "ctr": 4.77, "cpa": 31.08}, {"date": "2026-01-21", "platform": "Google", "spend": 1966.19, "roas": 1.7, "cpc": 1.61, "clicks": 1221.0, "cpm": 23.52, "ctr": 1.46, "cpa": 41.27}, {"date": "2026-01-21", "platform": "Facebook", "spend": 9507.38, "roas": 1.22, "cpc": 0.56, "clicks": 16971.0, "cpm": 30.14, "ctr": 5.38, "cpa": 51.67}, {"date": "2026-01-21", "platform": "Applovin", "spend": 1954.19, "roas": 1.2, "cpc": 0.48, "clicks": 4051.0, "cpm": 21.9, "ctr": 4.54, "cpa": 54.28}, {"date": "2026-01-22", "platform": "Google", "spend": 2107.22, "roas": 1.59, "cpc": 1.78, "clicks": 1185.0, "cpm": 25.71, "ctr": 1.45, "cpa": 38.72}, {"date": "2026-01-22", "platform": "Facebook", "spend": 9850.21, "roas": 1.65, "cpc": 0.67, "clicks": 14784.0, "cpm": 32.29, "ctr": 4.85, "cpa": 39.56}, {"date": "2026-01-22", "platform": "Applovin", "spend": 1915.09, "roas": 1.89, "cpc": 0.4, "clicks": 4843.0, "cpm": 18.82, "ctr": 4.76, "cpa": 34.82}, {"date": "2026-01-23", "platform": "Google", "spend": 2116.09, "roas": 2.02, "cpc": 1.68, "clicks": 1257.0, "cpm": 25.26, "ctr": 1.5, "cpa": 34.26}, {"date": "2026-01-23", "platform": "Facebook", "spend": 9376.1, "roas": 1.3, "cpc": 0.67, "clicks": 13945.0, "cpm": 30.5, "ctr": 4.54, "cpa": 49.35}, {"date": "2026-01-23", "platform": "Applovin", "spend": 1948.9, "roas": 1.57, "cpc": 0.43, "clicks": 4570.0, "cpm": 20.06, "ctr": 4.7, "cpa": 39.77}, {"date": "2026-01-24", "platform": "Google", "spend": 1787.71, "roas": 2.05, "cpc": 1.75, "clicks": 1022.0, "cpm": 23.96, "ctr": 1.37, "cpa": 34.18}, {"date": "2026-01-24", "platform": "Facebook", "spend": 9732.1, "roas": 1.47, "cpc": 0.68, "clicks": 14217.0, "cpm": 28.93, "ctr": 4.23, "cpa": 43.84}, {"date": "2026-01-24", "platform": "Applovin", "spend": 1856.57, "roas": 1.71, "cpc": 0.5, "clicks": 3731.0, "cpm": 24.27, "ctr": 4.88, "cpa": 37.13}, {"date": "2026-01-25", "platform": "Google", "spend": 1868.53, "roas": 2.21, "cpc": 1.63, "clicks": 1144.0, "cpm": 23.24, "ctr": 1.42, "cpa": 30.38}, {"date": "2026-01-25", "platform": "Facebook", "spend": 8407.24, "roas": 1.66, "cpc": 0.63, "clicks": 13425.0, "cpm": 24.99, "ctr": 3.99, "cpa": 40.42}, {"date": "2026-01-25", "platform": "Applovin", "spend": 1949.08, "roas": 1.73, "cpc": 0.49, "clicks": 3977.0, "cpm": 22.62, "ctr": 4.62, "cpa": 36.09}, {"date": "2026-01-26", "platform": "Google", "spend": 1978.75, "roas": 1.93, "cpc": 1.78, "clicks": 1110.0, "cpm": 29.16, "ctr": 1.64, "cpa": 33.66}, {"date": "2026-01-26", "platform": "Facebook", "spend": 10675.64, "roas": 1.48, "cpc": 0.59, "clicks": 18014.0, "cpm": 25.03, "ctr": 4.22, "cpa": 44.67}, {"date": "2026-01-26", "platform": "Applovin", "spend": 1991.29, "roas": 1.89, "cpc": 0.43, "clicks": 4640.0, "cpm": 19.73, "ctr": 4.6, "cpa": 33.19}, {"date": "2026-01-27", "platform": "Google", "spend": 2199.25, "roas": 2.16, "cpc": 1.9, "clicks": 1157.0, "cpm": 34.33, "ctr": 1.81, "cpa": 34.21}, {"date": "2026-01-27", "platform": "Facebook", "spend": 9195.55, "roas": 1.67, "cpc": 0.54, "clicks": 17122.0, "cpm": 24.25, "ctr": 4.52, "cpa": 38.8}, {"date": "2026-01-27", "platform": "Applovin", "spend": 1908.02, "roas": 1.33, "cpc": 0.44, "clicks": 4319.0, "cpm": 19.55, "ctr": 4.42, "cpa": 43.36}, {"date": "2026-01-28", "platform": "Google", "spend": 1862.24, "roas": 1.61, "cpc": 1.85, "clicks": 1007.0, "cpm": 23.36, "ctr": 1.26, "cpa": 43.49}, {"date": "2026-01-28", "platform": "Facebook", "spend": 8466.93, "roas": 1.62, "cpc": 0.46, "clicks": 18582.0, "cpm": 27.96, "ctr": 6.14, "cpa": 40.71}, {"date": "2026-01-28", "platform": "Applovin", "spend": 1935.81, "roas": 2.03, "cpc": 0.47, "clicks": 4088.0, "cpm": 21.62, "ctr": 4.57, "cpa": 32.26}, {"date": "2026-01-29", "platform": "Google", "spend": 2222.99, "roas": 1.72, "cpc": 1.52, "clicks": 1463.0, "cpm": 20.97, "ctr": 1.38, "cpa": 41.65}, {"date": "2026-01-29", "platform": "Facebook", "spend": 8141.47, "roas": 1.46, "cpc": 0.51, "clicks": 16104.0, "cpm": 30.95, "ctr": 6.12, "cpa": 44.73}, {"date": "2026-01-29", "platform": "Applovin", "spend": 1908.14, "roas": 1.48, "cpc": 0.53, "clicks": 3612.0, "cpm": 25.4, "ctr": 4.81, "cpa": 42.4}, {"date": "2026-01-30", "platform": "Google", "spend": 2388.94, "roas": 1.9, "cpc": 1.45, "clicks": 1645.0, "cpm": 22.19, "ctr": 1.53, "cpa": 38.76}, {"date": "2026-01-30", "platform": "Facebook", "spend": 8918.62, "roas": 1.44, "cpc": 0.74, "clicks": 12027.0, "cpm": 31.89, "ctr": 4.3, "cpa": 49.82}, {"date": "2026-01-30", "platform": "Applovin", "spend": 1917.53, "roas": 1.63, "cpc": 0.5, "clicks": 3827.0, "cpm": 24.91, "ctr": 4.97, "cpa": 43.58}, {"date": "2026-01-31", "platform": "Google", "spend": 2580.95, "roas": 2.24, "cpc": 1.42, "clicks": 1823.0, "cpm": 17.42, "ctr": 1.23, "cpa": 31.69}, {"date": "2026-01-31", "platform": "Facebook", "spend": 9179.43, "roas": 1.44, "cpc": 0.7, "clicks": 13137.0, "cpm": 29.67, "ctr": 4.25, "cpa": 45.22}, {"date": "2026-01-31", "platform": "Applovin", "spend": 1872.75, "roas": 1.89, "cpc": 0.47, "clicks": 3998.0, "cpm": 20.61, "ctr": 4.4, "cpa": 35.33}, {"date": "2026-02-01", "platform": "Google", "spend": 2247.46, "roas": 2.11, "cpc": 1.39, "clicks": 1617.0, "cpm": 21.71, "ctr": 1.56, "cpa": 30.37}, {"date": "2026-02-01", "platform": "Facebook", "spend": 9234.61, "roas": 1.45, "cpc": 0.63, "clicks": 14643.0, "cpm": 28.35, "ctr": 4.5, "cpa": 44.4}, {"date": "2026-02-01", "platform": "Applovin", "spend": 1958.2, "roas": 1.91, "cpc": 0.39, "clicks": 4996.0, "cpm": 16.7, "ctr": 4.26, "cpa": 34.97}, {"date": "2026-02-02", "platform": "Google", "spend": 2607.31, "roas": 1.62, "cpc": 1.53, "clicks": 1703.0, "cpm": 29.84, "ctr": 1.95, "cpa": 43.33}, {"date": "2026-02-02", "platform": "Facebook", "spend": 10477.32, "roas": 1.41, "cpc": 0.54, "clicks": 19488.0, "cpm": 27.38, "ctr": 5.09, "cpa": 45.75}, {"date": "2026-02-02", "platform": "Applovin", "spend": 1987.27, "roas": 1.68, "cpc": 0.43, "clicks": 4579.0, "cpm": 18.4, "ctr": 4.24, "cpa": 37.5}, {"date": "2026-02-03", "platform": "Google", "spend": 1996.34, "roas": 1.75, "cpc": 1.33, "clicks": 1500.0, "cpm": 23.65, "ctr": 1.78, "cpa": 38.43}, {"date": "2026-02-03", "platform": "Facebook", "spend": 8744.27, "roas": 1.38, "cpc": 0.53, "clicks": 16568.0, "cpm": 26.02, "ctr": 4.93, "cpa": 48.85}, {"date": "2026-02-03", "platform": "Applovin", "spend": 1988.48, "roas": 1.82, "cpc": 0.41, "clicks": 4823.0, "cpm": 17.36, "ctr": 4.21, "cpa": 38.99}, {"date": "2026-02-04", "platform": "Google", "spend": 2148.73, "roas": 1.87, "cpc": 1.41, "clicks": 1523.0, "cpm": 24.4, "ctr": 1.73, "cpa": 35.52}, {"date": "2026-02-04", "platform": "Facebook", "spend": 8153.7, "roas": 1.59, "cpc": 0.51, "clicks": 15836.0, "cpm": 28.36, "ctr": 5.51, "cpa": 41.6}, {"date": "2026-02-04", "platform": "Applovin", "spend": 2481.52, "roas": 1.43, "cpc": 0.51, "clicks": 4865.0, "cpm": 22.44, "ctr": 4.4, "cpa": 48.66}, {"date": "2026-02-05", "platform": "Google", "spend": 2334.15, "roas": 1.85, "cpc": 1.43, "clicks": 1637.0, "cpm": 28.21, "ctr": 1.98, "cpa": 39.71}, {"date": "2026-02-05", "platform": "Facebook", "spend": 7345.94, "roas": 1.63, "cpc": 0.6, "clicks": 12314.0, "cpm": 29.71, "ctr": 4.98, "cpa": 41.5}, {"date": "2026-02-05", "platform": "Applovin", "spend": 2423.99, "roas": 1.19, "cpc": 0.47, "clicks": 5159.0, "cpm": 18.6, "ctr": 3.96, "cpa": 57.71}, {"date": "2026-02-06", "platform": "Google", "spend": 2614.03, "roas": 1.66, "cpc": 1.62, "clicks": 1611.0, "cpm": 30.0, "ctr": 1.85, "cpa": 42.75}, {"date": "2026-02-06", "platform": "Facebook", "spend": 8215.62, "roas": 1.36, "cpc": 0.73, "clicks": 11271.0, "cpm": 33.72, "ctr": 4.63, "cpa": 48.04}, {"date": "2026-02-06", "platform": "Applovin", "spend": 1779.25, "roas": 1.47, "cpc": 0.56, "clicks": 3162.0, "cpm": 24.92, "ctr": 4.43, "cpa": 48.09}, {"date": "2026-02-07", "platform": "Google", "spend": 3634.9, "roas": 1.31, "cpc": 1.12, "clicks": 3239.0, "cpm": 27.41, "ctr": 2.44, "cpa": 50.33}, {"date": "2026-02-07", "platform": "Facebook", "spend": 9280.85, "roas": 1.37, "cpc": 0.65, "clicks": 14321.0, "cpm": 31.39, "ctr": 4.84, "cpa": 47.59}, {"date": "2026-02-07", "platform": "Applovin", "spend": 1874.22, "roas": 1.69, "cpc": 0.57, "clicks": 3278.0, "cpm": 23.67, "ctr": 4.14, "cpa": 40.74}, {"date": "2026-02-08", "platform": "Google", "spend": 3836.15, "roas": 1.6, "cpc": 0.83, "clicks": 4602.0, "cpm": 21.21, "ctr": 2.54, "cpa": 43.11}, {"date": "2026-02-08", "platform": "Facebook", "spend": 6137.2, "roas": 1.82, "cpc": 0.58, "clicks": 10519.0, "cpm": 29.77, "ctr": 5.1, "cpa": 38.84}, {"date": "2026-02-08", "platform": "Applovin", "spend": 1971.2, "roas": 1.69, "cpc": 0.61, "clicks": 3221.0, "cpm": 24.78, "ctr": 4.05, "cpa": 39.42}, {"date": "2026-02-09", "platform": "Google", "spend": 3663.78, "roas": 1.64, "cpc": 1.07, "clicks": 3425.0, "cpm": 24.53, "ctr": 2.29, "cpa": 40.05}, {"date": "2026-02-09", "platform": "Facebook", "spend": 8088.92, "roas": 1.62, "cpc": 0.67, "clicks": 12131.0, "cpm": 30.68, "ctr": 4.6, "cpa": 41.27}, {"date": "2026-02-09", "platform": "Applovin", "spend": 2009.71, "roas": 1.59, "cpc": 0.66, "clicks": 3032.0, "cpm": 27.41, "ctr": 4.14, "cpa": 45.68}, {"date": "2026-02-10", "platform": "Google", "spend": 3107.48, "roas": 1.61, "cpc": 1.19, "clicks": 2611.0, "cpm": 22.7, "ctr": 1.91, "cpa": 43.17}, {"date": "2026-02-10", "platform": "Facebook", "spend": 7044.19, "roas": 1.55, "cpc": 0.62, "clicks": 11421.0, "cpm": 30.09, "ctr": 4.88, "cpa": 43.22}, {"date": "2026-02-10", "platform": "Applovin", "spend": 1943.14, "roas": 1.81, "cpc": 0.6, "clicks": 3234.0, "cpm": 24.7, "ctr": 4.11, "cpa": 36.66}, {"date": "2026-02-11", "platform": "Google", "spend": 2929.25, "roas": 1.6, "cpc": 1.43, "clicks": 2048.0, "cpm": 24.18, "ctr": 1.69, "cpa": 43.67}, {"date": "2026-02-11", "platform": "Facebook", "spend": 6336.71, "roas": 1.45, "cpc": 0.64, "clicks": 9962.0, "cpm": 31.39, "ctr": 4.93, "cpa": 44.0}, {"date": "2026-02-11", "platform": "Applovin", "spend": 1928.55, "roas": 1.33, "cpc": 0.55, "clicks": 3511.0, "cpm": 21.01, "ctr": 3.82, "cpa": 50.75}, {"date": "2026-02-12", "platform": "Google", "spend": 3211.39, "roas": 1.83, "cpc": 1.36, "clicks": 2370.0, "cpm": 23.95, "ctr": 1.77, "cpa": 36.72}, {"date": "2026-02-12", "platform": "Facebook", "spend": 6238.48, "roas": 1.82, "cpc": 0.64, "clicks": 9824.0, "cpm": 30.01, "ctr": 4.73, "cpa": 36.48}, {"date": "2026-02-12", "platform": "Applovin", "spend": 2109.36, "roas": 2.11, "cpc": 0.55, "clicks": 3863.0, "cpm": 21.17, "ctr": 3.88, "cpa": 31.48}, {"date": "2026-02-13", "platform": "Google", "spend": 2646.48, "roas": 1.71, "cpc": 1.26, "clicks": 2095.0, "cpm": 20.57, "ctr": 1.63, "cpa": 41.72}, {"date": "2026-02-13", "platform": "Facebook", "spend": 7984.09, "roas": 1.31, "cpc": 0.76, "clicks": 10465.0, "cpm": 33.41, "ctr": 4.38, "cpa": 51.84}, {"date": "2026-02-13", "platform": "Applovin", "spend": 1921.55, "roas": 1.6, "cpc": 0.55, "clicks": 3515.0, "cpm": 19.92, "ctr": 3.64, "cpa": 42.7}, {"date": "2026-02-14", "platform": "Google", "spend": 2764.19, "roas": 2.11, "cpc": 1.21, "clicks": 2277.0, "cpm": 17.44, "ctr": 1.44, "cpa": 31.91}, {"date": "2026-02-14", "platform": "Facebook", "spend": 8297.26, "roas": 1.46, "cpc": 0.71, "clicks": 11645.0, "cpm": 32.91, "ctr": 4.62, "cpa": 49.39}, {"date": "2026-02-14", "platform": "Applovin", "spend": 1907.97, "roas": 2.03, "cpc": 0.57, "clicks": 3355.0, "cpm": 21.34, "ctr": 3.75, "cpa": 37.41}, {"date": "2026-02-15", "platform": "Google", "spend": 2739.06, "roas": 1.91, "cpc": 1.13, "clicks": 2430.0, "cpm": 15.15, "ctr": 1.34, "cpa": 36.99}, {"date": "2026-02-15", "platform": "Facebook", "spend": 6989.36, "roas": 1.42, "cpc": 0.52, "clicks": 13351.0, "cpm": 29.45, "ctr": 5.63, "cpa": 51.77}, {"date": "2026-02-15", "platform": "Applovin", "spend": 1991.0, "roas": 1.66, "cpc": 0.52, "clicks": 3848.0, "cpm": 19.26, "ctr": 3.72, "cpa": 42.36}, {"date": "2026-02-16", "platform": "Google", "spend": 2860.95, "roas": 2.47, "cpc": 1.09, "clicks": 2624.0, "cpm": 13.73, "ctr": 1.26, "cpa": 31.92}, {"date": "2026-02-16", "platform": "Facebook", "spend": 8983.51, "roas": 1.69, "cpc": 0.49, "clicks": 18162.0, "cpm": 27.84, "ctr": 5.63, "cpa": 42.98}, {"date": "2026-02-16", "platform": "Applovin", "spend": 2029.65, "roas": 2.09, "cpc": 0.45, "clicks": 4474.0, "cpm": 16.99, "ctr": 3.75, "cpa": 32.74}, {"date": "2026-02-17", "platform": "Google", "spend": 3016.72, "roas": 1.54, "cpc": 1.11, "clicks": 2729.0, "cpm": 15.1, "ctr": 1.37, "cpa": 45.64}, {"date": "2026-02-17", "platform": "Facebook", "spend": 8309.54, "roas": 1.77, "cpc": 0.67, "clicks": 12469.0, "cpm": 32.86, "ctr": 4.93, "cpa": 41.14}, {"date": "2026-02-17", "platform": "Applovin", "spend": 1928.67, "roas": 2.07, "cpc": 0.52, "clicks": 3712.0, "cpm": 20.7, "ctr": 3.98, "cpa": 40.18}, {"date": "2026-02-18", "platform": "Google", "spend": 2848.26, "roas": 2.07, "cpc": 0.99, "clicks": 2889.0, "cpm": 16.04, "ctr": 1.63, "cpa": 35.09}, {"date": "2026-02-18", "platform": "Facebook", "spend": 5604.69, "roas": 1.77, "cpc": 0.77, "clicks": 7320.0, "cpm": 32.29, "ctr": 4.22, "cpa": 38.92}, {"date": "2026-02-18", "platform": "Applovin", "spend": 1950.61, "roas": 1.96, "cpc": 0.51, "clicks": 3805.0, "cpm": 21.99, "ctr": 4.29, "cpa": 36.8}, {"date": "2026-02-19", "platform": "Google", "spend": 3092.74, "roas": 2.12, "cpc": 0.93, "clicks": 3310.0, "cpm": 15.52, "ctr": 1.66, "cpa": 35.5}, {"date": "2026-02-19", "platform": "Facebook", "spend": 7145.04, "roas": 1.76, "cpc": 0.78, "clicks": 9202.0, "cpm": 32.26, "ctr": 4.16, "cpa": 42.28}, {"date": "2026-02-19", "platform": "Applovin", "spend": 1944.26, "roas": 1.47, "cpc": 0.46, "clicks": 4239.0, "cpm": 20.08, "ctr": 4.38, "cpa": 48.61}, {"date": "2026-02-20", "platform": "Google", "spend": 3078.95, "roas": 1.93, "cpc": 1.06, "clicks": 2905.0, "cpm": 18.39, "ctr": 1.74, "cpa": 37.35}, {"date": "2026-02-20", "platform": "Facebook", "spend": 7037.67, "roas": 1.56, "cpc": 0.76, "clicks": 9291.0, "cpm": 31.89, "ctr": 4.21, "cpa": 43.71}, {"date": "2026-02-20", "platform": "Applovin", "spend": 1966.8, "roas": 1.98, "cpc": 0.44, "clicks": 4517.0, "cpm": 16.9, "ctr": 3.88, "cpa": 35.12}, {"date": "2026-02-21", "platform": "Google", "spend": 3343.93, "roas": 2.34, "cpc": 1.15, "clicks": 2900.0, "cpm": 20.36, "ctr": 1.77, "cpa": 30.66}, {"date": "2026-02-21", "platform": "Facebook", "spend": 6688.23, "roas": 1.78, "cpc": 0.74, "clicks": 9022.0, "cpm": 30.95, "ctr": 4.18, "cpa": 38.44}, {"date": "2026-02-21", "platform": "Applovin", "spend": 1891.39, "roas": 2.13, "cpc": 0.48, "clicks": 3958.0, "cpm": 20.2, "ctr": 4.23, "cpa": 32.61}, {"date": "2026-02-22", "platform": "Google", "spend": 3305.59, "roas": 2.32, "cpc": 1.05, "clicks": 3147.0, "cpm": 16.86, "ctr": 1.61, "cpa": 35.91}, {"date": "2026-02-22", "platform": "Facebook", "spend": 5474.98, "roas": 2.26, "cpc": 0.75, "clicks": 7303.0, "cpm": 29.01, "ctr": 3.87, "cpa": 32.59}, {"date": "2026-02-22", "platform": "Applovin", "spend": 1981.31, "roas": 1.69, "cpc": 0.52, "clicks": 3817.0, "cpm": 21.63, "ctr": 4.17, "cpa": 44.03}, {"date": "2026-02-23", "platform": "Google", "spend": 3313.16, "roas": 1.42, "cpc": 0.95, "clicks": 3491.0, "cpm": 13.3, "ctr": 1.4, "cpa": 47.22}, {"date": "2026-02-23", "platform": "Facebook", "spend": 8483.51, "roas": 1.93, "cpc": 0.79, "clicks": 10691.0, "cpm": 29.72, "ctr": 3.75, "cpa": 37.21}, {"date": "2026-02-23", "platform": "Applovin", "spend": 1991.98, "roas": 1.99, "cpc": 0.45, "clicks": 4475.0, "cpm": 17.39, "ctr": 3.91, "cpa": 33.2}, {"date": "2026-02-24", "platform": "Google", "spend": 3471.87, "roas": 1.67, "cpc": 0.8, "clicks": 4348.0, "cpm": 9.83, "ctr": 1.23, "cpa": 46.86}, {"date": "2026-02-24", "platform": "Facebook", "spend": 5685.93, "roas": 1.61, "cpc": 0.75, "clicks": 7558.0, "cpm": 28.96, "ctr": 3.85, "cpa": 42.43}, {"date": "2026-02-24", "platform": "Applovin", "spend": 1944.25, "roas": 1.49, "cpc": 0.49, "clicks": 3984.0, "cpm": 19.01, "ctr": 3.89, "cpa": 47.42}, {"date": "2026-02-25", "platform": "Google", "spend": 3043.79, "roas": 1.88, "cpc": 0.87, "clicks": 3510.0, "cpm": 11.37, "ctr": 1.31, "cpa": 40.02}, {"date": "2026-02-25", "platform": "Facebook", "spend": 5665.32, "roas": 1.54, "cpc": 0.82, "clicks": 6939.0, "cpm": 30.58, "ctr": 3.75, "cpa": 43.58}, {"date": "2026-02-25", "platform": "Applovin", "spend": 1982.27, "roas": 1.35, "cpc": 0.53, "clicks": 3760.0, "cpm": 21.11, "ctr": 4.0, "cpa": 53.57}, {"date": "2026-02-26", "platform": "Google", "spend": 3379.8, "roas": 1.61, "cpc": 0.86, "clicks": 3929.0, "cpm": 10.65, "ctr": 1.24, "cpa": 45.6}, {"date": "2026-02-26", "platform": "Facebook", "spend": 5394.11, "roas": 2.08, "cpc": 0.84, "clicks": 6445.0, "cpm": 30.47, "ctr": 3.64, "cpa": 33.3}, {"date": "2026-02-26", "platform": "Applovin", "spend": 1933.45, "roas": 1.87, "cpc": 0.47, "clicks": 4142.0, "cpm": 17.47, "ctr": 3.74, "cpa": 34.53}];
+var cp=30,CH={};
+var COLS={Google:'#5b9df9',Facebook:'#b07df0',Applovin:'#f5a623'};
 
-let allDailyData = [];
-let allPlatformData = [];
-let currentPeriod = 30;
-let charts = {};
+function st(n,el){document.querySelectorAll('.tab').forEach(t=>t.classList.remove('a'));document.querySelectorAll('.tc').forEach(t=>t.classList.remove('a'));document.getElementById('tab-'+n).classList.add('a');el.classList.add('a')}
+function sp(d){cp=d;document.querySelectorAll('.pbtn').forEach(b=>b.classList.toggle('a',+b.dataset.p===d));R()}
+function gd(){var d=D.slice(-cp),dt=new Set(d.map(r=>r.date)),p=P.filter(r=>dt.has(r.date));return{d:d,p:p}}
+function $(n){return n>=1e6?'$'+(n/1e6).toFixed(2)+'M':n>=1e3?'$'+(n/1e3).toFixed(1)+'K':'$'+n.toFixed(0)}
+function $2(n){return'$'+n.toFixed(2)}
+function pct(n){return n.toFixed(1)+'%'}
+function num(n){return n>=1e3?(n/1e3).toFixed(1)+'K':n.toFixed(0)}
+function S(a,k){return a.reduce((s,r)=>s+(r[k]||0),0)}
+function A(a,k){return a.length?S(a,k)/a.length:0}
+function pc(c,p){if(!p)return{v:0,d:'u'};var ch=((c-p)/Math.abs(p))*100;return{v:Math.abs(ch).toFixed(1),d:ch>=0?'u':'d'}}
+function ma(a,k,w){w=w||7;return a.map((_,i)=>{var s=a.slice(Math.max(0,i-w+1),i+1);return A(s,k)})}
 
-function parseCSV(raw) {
-  const lines = raw.trim().split('\n');
-  const headers = lines[0].split(',');
-  return lines.slice(1).map(line => {
-    const vals = line.split(',');
-    const obj = {};
-    headers.forEach((h, i) => {
-      obj[h.trim()] = isNaN(vals[i]) ? vals[i] : parseFloat(vals[i]);
-    });
-    return obj;
-  });
+function kpi(l,v,ch,s){var d=ch.d==='u'?'u':'d',ar=d==='u'?'&#9650;':'&#9660;';
+return '<div class="kc"><div class="kl">'+l+'</div><div class="kv">'+v+'</div><span class="kch '+d+'">'+ar+' '+ch.v+'%</span>'+(s?'<div class="ks">'+s+'</div>':'')+'</div>'}
+
+function mc(id,cfg){if(CH[id])CH[id].destroy();CH[id]=new Chart(document.getElementById(id).getContext('2d'),cfg)}
+function ld(l,d,c,o){return Object.assign({label:l,data:d,borderColor:c,backgroundColor:c+'20',borderWidth:2,pointRadius:0,pointHoverRadius:3,tension:.3,fill:false},o||{})}
+function dsc(){return{x:{ticks:{color:'#636b83',font:{size:9},maxTicksLimit:8},grid:{color:'rgba(255,255,255,.03)'}},y:{ticks:{color:'#636b83',font:{size:9}},grid:{color:'rgba(255,255,255,.03)'}}}}
+function dp(){return{legend:{labels:{color:'#eef0f6',font:{size:10},boxWidth:10,padding:10}},tooltip:{mode:'index',intersect:false,backgroundColor:'#13161f',borderColor:'#1f2335',borderWidth:1,titleColor:'#eef0f6',bodyColor:'#9198ad',padding:10}}}
+
+function R(){
+var g=gd(),d=g.d,p=g.p,h=Math.floor(d.length/2),cu=d.slice(h),pr=d.slice(0,h);
+var lb=d.map(r=>r.date.slice(5));
+document.getElementById('dr').textContent=d[0].date+' to '+d[d.length-1].date+' ('+d.length+' days)';
+
+// OVERVIEW KPIs
+var gs=S(d,'gross_sales'),nr=S(d,'net_revenue'),mg=S(d,'margin'),sp2=S(d,'total_ad_spend'),rf=S(d,'refunds'),cg=S(d,'cogs'),od=S(d,'orders');
+var np=mg-sp2,roas=nr/sp2,mer=sp2/nr*100,gm=nr?(nr-cg)/nr*100:0;
+document.getElementById('k_rev').innerHTML=
+  kpi('Gross Sales',$(gs),pc(S(cu,'gross_sales'),S(pr,'gross_sales')),num(od)+' orders')+
+  kpi('Net Revenue',$(nr),pc(S(cu,'net_revenue'),S(pr,'net_revenue')),'After refunds')+
+  kpi('Gross Margin',$(mg),pc(S(cu,'margin'),S(pr,'margin')),pct(gm)+' rate')+
+  kpi('Net Profit',$(np),pc(S(cu,'margin')-S(cu,'total_ad_spend'),S(pr,'margin')-S(pr,'total_ad_spend')),'After ad spend')+
+  kpi('COGS',$(cg),pc(S(cu,'cogs'),S(pr,'cogs')),pct(cg/nr*100)+' of rev')+
+  kpi('Refunds',$(rf),pc(S(cu,'refunds'),S(pr,'refunds')),pct(rf/gs*100)+' rate');
+
+document.getElementById('k_ads').innerHTML=
+  kpi('Total Ad Spend',$(sp2),pc(S(cu,'total_ad_spend'),S(pr,'total_ad_spend')),'All platforms')+
+  kpi('Blended ROAS',roas.toFixed(2)+'x',pc(S(cu,'net_revenue')/S(cu,'total_ad_spend'),S(pr,'net_revenue')/S(pr,'total_ad_spend')),'Net rev / spend')+
+  kpi('MER',pct(mer),pc(S(cu,'total_ad_spend')/S(cu,'net_revenue')*100,S(pr,'total_ad_spend')/S(pr,'net_revenue')*100),'Lower is better')+
+  kpi('Avg CAC',$2(A(d,'cac')),pc(A(cu,'cac'),A(pr,'cac')),'Cost per customer')+
+  kpi('Avg nCAC',$2(A(d,'ncac')),pc(A(cu,'ncac'),A(pr,'ncac')),'New customer cost')+
+  kpi('aMER',pct(A(d,'amer')),pc(A(cu,'amer'),A(pr,'amer')),'Attributed MER');
+
+document.getElementById('k_cust').innerHTML=
+  kpi('Orders',num(od),pc(S(cu,'orders'),S(pr,'orders')),'Total period')+
+  kpi('Avg AOV',$2(A(d,'aov')),pc(A(cu,'aov'),A(pr,'aov')),'Avg order value')+
+  kpi('CVR %',pct(A(d,'cvr')),pc(A(cu,'cvr'),A(pr,'cvr')),'Session to purchase')+
+  kpi('ATC %',pct(A(d,'atc_pct')),pc(A(cu,'atc_pct'),A(pr,'atc_pct')),'Add to cart rate')+
+  kpi('Sessions',num(S(d,'sessions')),pc(S(cu,'sessions'),S(pr,'sessions')),'Total visits')+
+  kpi('CLTV',$2(A(d,'cltv')),pc(A(cu,'cltv'),A(pr,'cltv')),'Lifetime value');
+
+// Platform KPIs
+var plats=['Google','Facebook','Applovin'];
+document.getElementById('k_plat').innerHTML=plats.map(function(pl){
+  var rows=p.filter(r=>r.platform===pl);
+  var pcu=rows.slice(Math.floor(rows.length/2));var ppr=rows.slice(0,Math.floor(rows.length/2));
+  return kpi(pl+' ROAS',A(rows,'roas').toFixed(2)+'x',pc(A(pcu,'roas'),A(ppr,'roas')),$(S(rows,'spend'))+' spent');
+}).join('')+
+  kpi('New Customer %',pct(A(d,'new_customer_pct')),pc(A(cu,'new_customer_pct'),A(pr,'new_customer_pct')),'% orders from new')+
+  kpi('New Cust Revenue',$(S(d,'new_customers_revenue')),pc(S(cu,'new_customers_revenue'),S(pr,'new_customers_revenue')),'Revenue from new')+
+  kpi('Users',num(S(d,'users')),pc(S(cu,'users'),S(pr,'users')),'Unique users');
+
+// Overview charts
+mc('ch_ov1',{type:'line',data:{labels:lb,datasets:[ld('Net Revenue',d.map(r=>r.net_revenue),'#00e09e'),ld('Ad Spend',d.map(r=>r.total_ad_spend),'#ff5c5c'),ld('Margin',d.map(r=>r.margin),'#5b9df9')]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_ov2',{type:'line',data:{labels:lb,datasets:[ld('ROAS',d.map(r=>r.blended_roas),'#00e09e'),ld('MER%',d.map(r=>r.mer),'#f5a623')]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+
+// FINANCE
+document.getElementById('k_fin').innerHTML=
+  kpi('Gross Sales',$(gs),pc(S(cu,'gross_sales'),S(pr,'gross_sales')))+
+  kpi('Net Revenue',$(nr),pc(S(cu,'net_revenue'),S(pr,'net_revenue')))+
+  kpi('COGS',$(cg),pc(S(cu,'cogs'),S(pr,'cogs')))+
+  kpi('Margin',$(mg),pc(S(cu,'margin'),S(pr,'margin')))+
+  kpi('Refunds',$(rf),pc(S(cu,'refunds'),S(pr,'refunds')))+
+  kpi('Margin %',pct(gm),pc(A(cu,'gross_margin_pct'),A(pr,'gross_margin_pct')))+
+  kpi('Ad Spend',$(sp2),pc(S(cu,'total_ad_spend'),S(pr,'total_ad_spend')))+
+  kpi('Net Profit',$(np),pc(S(cu,'margin')-S(cu,'total_ad_spend'),S(pr,'margin')-S(pr,'total_ad_spend')));
+
+// Waterfall
+var wf=[
+  {l:'Gross Sales',a:gs,c:'var(--grn)'},
+  {l:'Refunds',a:-rf,c:'var(--red)'},
+  {l:'Net Revenue',a:nr,c:'var(--blu)'},
+  {l:'COGS',a:-cg,c:'var(--red)'},
+  {l:'Gross Margin',a:mg,c:'var(--grn)'},
+  {l:'Ad Spend',a:-sp2,c:'var(--org)'},
+  {l:'Net Profit',a:np,c:np>=0?'var(--grn)':'var(--red)'}
+];
+document.getElementById('wf').innerHTML=wf.map(function(w){
+  var pv=Math.max(Math.abs(w.a)/gs*100,4);
+  return '<div class="wbar"><div class="wlbl">'+w.l+'</div><div class="wtrk"><div class="wfill" style="width:'+pv+'%;background:'+w.c+'15;border-left:3px solid '+w.c+';color:'+w.c+'">'+pct(Math.abs(w.a)/gs*100)+'</div></div><div class="wamt" style="color:'+w.c+'">'+(w.a<0?'-':'')+$(Math.abs(w.a))+'</div></div>';
+}).join('');
+
+mc('ch_f1',{type:'line',data:{labels:lb,datasets:[ld('Gross Sales',d.map(r=>r.gross_sales),'#5b9df9'),ld('Net Revenue',d.map(r=>r.net_revenue),'#00e09e'),ld('Margin',d.map(r=>r.margin),'#b07df0')]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_f2',{type:'line',data:{labels:lb,datasets:[ld('Margin %',d.map(r=>r.gross_margin_pct),'#00e09e',{fill:true}),Object.assign(ld('60% Target',d.map(()=>60),'#ff5c5c'),{borderDash:[5,5],borderWidth:1})]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_f3',{type:'bar',data:{labels:lb,datasets:[{label:'COGS',data:d.map(r=>r.cogs),backgroundColor:'#ff5c5c60',borderColor:'#ff5c5c',borderWidth:1},{label:'Ad Spend',data:d.map(r=>r.total_ad_spend),backgroundColor:'#f5a62360',borderColor:'#f5a623',borderWidth:1},{label:'Refunds',data:d.map(r=>r.refunds),backgroundColor:'#b07df060',borderColor:'#b07df0',borderWidth:1}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:Object.assign({},dsc().x,{stacked:true}),y:Object.assign({},dsc().y,{stacked:true})},plugins:dp()}});
+mc('ch_f4',{type:'line',data:{labels:lb,datasets:[ld('Refund %',d.map(r=>r.refunds/r.gross_sales*100),'#ff5c5c',{fill:true}),Object.assign(ld('10% Target',d.map(()=>10),'#f5a623'),{borderDash:[5,5],borderWidth:1})]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_f5',{type:'bar',data:{labels:lb,datasets:[{label:'Net Profit',data:d.map(r=>r.margin-r.total_ad_spend),backgroundColor:d.map(r=>r.margin-r.total_ad_spend>=0?'#00e09e60':'#ff5c5c60'),borderColor:d.map(r=>r.margin-r.total_ad_spend>=0?'#00e09e':'#ff5c5c'),borderWidth:1}]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+
+// MARKETING
+document.getElementById('k_mkt').innerHTML=
+  kpi('Ad Spend',$(sp2),pc(S(cu,'total_ad_spend'),S(pr,'total_ad_spend')))+
+  kpi('ROAS',roas.toFixed(2)+'x',pc(S(cu,'net_revenue')/S(cu,'total_ad_spend'),S(pr,'net_revenue')/S(pr,'total_ad_spend')))+
+  kpi('MER',pct(mer),pc(mer,S(pr,'total_ad_spend')/S(pr,'net_revenue')*100))+
+  kpi('CAC',$2(A(d,'cac')),pc(A(cu,'cac'),A(pr,'cac')))+
+  kpi('nCAC',$2(A(d,'ncac')),pc(A(cu,'ncac'),A(pr,'ncac')))+
+  kpi('aMER',pct(A(d,'amer')),pc(A(cu,'amer'),A(pr,'amer')));
+
+mc('ch_m1',{type:'line',data:{labels:lb,datasets:[ld('ROAS',d.map(r=>r.blended_roas),'#00e09e',{fill:true}),Object.assign(ld('7d MA',ma(d,'blended_roas'),'#5b9df9'),{borderWidth:2}),Object.assign(ld('2.0x Target',d.map(()=>2),'#ff5c5c'),{borderDash:[5,5],borderWidth:1})]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_m2',{type:'line',data:{labels:lb,datasets:[ld('MER %',d.map(r=>r.mer),'#f5a623',{fill:true}),Object.assign(ld('40% Target',d.map(()=>40),'#00e09e'),{borderDash:[5,5],borderWidth:1})]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_m3',{type:'line',data:{labels:lb,datasets:[ld('CAC',d.map(r=>r.cac),'#5b9df9'),ld('nCAC',d.map(r=>r.ncac),'#ff5c5c')]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_m4',{type:'line',data:{labels:lb,datasets:[ld('Ad Spend',d.map(r=>r.total_ad_spend),'#ff5c5c'),ld('Net Revenue',d.map(r=>r.net_revenue),'#00e09e')]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+
+var sbp=plats.map(function(pl){return S(p.filter(r=>r.platform===pl),'spend')});
+mc('ch_m5',{type:'doughnut',data:{labels:plats,datasets:[{data:sbp,backgroundColor:plats.map(pl=>COLS[pl]),borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{color:'#eef0f6',font:{size:11},padding:16,generateLabels:function(c){var ds=c.data.datasets[0],tot=ds.data.reduce((a,b)=>a+b,0);return c.data.labels.map(function(l,i){return{text:l+'  '+$(ds.data[i])+'  ('+pct(ds.data[i]/tot*100)+')',fillStyle:ds.backgroundColor[i],strokeStyle:'transparent',index:i}})}}},tooltip:dp().tooltip}}});
+mc('ch_m6',{type:'line',data:{labels:lb,datasets:[ld('Ad Spend',d.map(r=>r.total_ad_spend),'#f5a623'),Object.assign(ld('7d MA',ma(d,'total_ad_spend'),'#5b9df9'),{borderWidth:2})]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+
+// CHANNELS
+var tb=document.querySelector('#ptbl tbody');
+tb.innerHTML=plats.map(function(pl){
+  var rows=p.filter(r=>r.platform===pl);
+  var r2=A(rows,'roas'),bg2=r2>=2?'bg':r2>=1.5?'bo':'br',lbl=r2>=2?'Strong':r2>=1.5?'OK':'Weak';
+  return '<tr><td><strong style="color:'+COLS[pl]+'">'+pl+'</strong></td><td>'+$(S(rows,'spend'))+'</td><td>'+r2.toFixed(2)+'x</td><td>'+$2(A(rows,'cpc'))+'</td><td>'+num(S(rows,'clicks'))+'</td><td>'+$2(A(rows,'cpm'))+'</td><td>'+pct(A(rows,'ctr'))+'</td><td>'+$2(A(rows,'cpa'))+'</td><td><span class="bdg '+bg2+'">'+lbl+'</span></td></tr>';
+}).join('');
+
+var dates=[...new Set(d.map(r=>r.date))].sort();
+function pld(pl,k){return p.filter(r=>r.platform===pl).sort((a,b)=>a.date.localeCompare(b.date)).map(r=>r[k])}
+mc('ch_c1',{type:'line',data:{labels:lb,datasets:plats.map(pl=>ld(pl,pld(pl,'roas'),COLS[pl]))},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_c2',{type:'line',data:{labels:lb,datasets:plats.map(pl=>ld(pl,pld(pl,'cpc'),COLS[pl]))},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_c3',{type:'line',data:{labels:lb,datasets:plats.map(pl=>ld(pl,pld(pl,'spend'),COLS[pl]))},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_c4',{type:'line',data:{labels:lb,datasets:plats.map(pl=>ld(pl,pld(pl,'ctr'),COLS[pl]))},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_c5',{type:'line',data:{labels:lb,datasets:plats.map(pl=>ld(pl,pld(pl,'cpa'),COLS[pl]))},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_c6',{type:'bar',data:{labels:lb,datasets:plats.map(function(pl){var rows=p.filter(r=>r.platform===pl).sort((a,b)=>a.date.localeCompare(b.date));return{label:pl,data:rows.map(function(r,i){var dt=r.date;var tot=p.filter(x=>x.date===dt).reduce((s,x)=>s+x.spend,0);return tot?r.spend/tot*100:0}),backgroundColor:COLS[pl]+'80',borderColor:COLS[pl],borderWidth:1}})},options:{responsive:true,maintainAspectRatio:false,scales:{x:Object.assign({},dsc().x,{stacked:true}),y:Object.assign({},dsc().y,{stacked:true,max:100})},plugins:dp()}});
+
+// CUSTOMERS
+document.getElementById('k_cst').innerHTML=
+  kpi('Orders',num(od),pc(S(cu,'orders'),S(pr,'orders')))+
+  kpi('New Orders',num(S(d,'new_customer_orders')),pc(S(cu,'new_customer_orders'),S(pr,'new_customer_orders')))+
+  kpi('New %',pct(A(d,'new_customer_pct')),pc(A(cu,'new_customer_pct'),A(pr,'new_customer_pct')))+
+  kpi('AOV',$2(A(d,'aov')),pc(A(cu,'aov'),A(pr,'aov')))+
+  kpi('CLTV',$2(A(d,'cltv')),pc(A(cu,'cltv'),A(pr,'cltv')))+
+  kpi('New Rev',$(S(d,'new_customers_revenue')),pc(S(cu,'new_customers_revenue'),S(pr,'new_customers_revenue')))+
+  kpi('Ret Rev',$(S(d,'returning_customers_revenue')),pc(S(cu,'returning_customers_revenue'),S(pr,'returning_customers_revenue')))+
+  kpi('Customers',num(S(d,'customers')),pc(S(cu,'customers'),S(pr,'customers')));
+
+mc('ch_cu1',{type:'bar',data:{labels:lb,datasets:[{label:'New',data:d.map(r=>r.new_customer_orders),backgroundColor:'#5b9df960',borderColor:'#5b9df9',borderWidth:1},{label:'Returning',data:d.map(r=>r.orders-r.new_customer_orders),backgroundColor:'#b07df060',borderColor:'#b07df0',borderWidth:1}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:Object.assign({},dsc().x,{stacked:true}),y:Object.assign({},dsc().y,{stacked:true})},plugins:dp()}});
+mc('ch_cu2',{type:'line',data:{labels:lb,datasets:[ld('AOV',d.map(r=>r.aov),'#f5a623'),Object.assign(ld('7d MA',ma(d,'aov'),'#5b9df9'),{borderWidth:2})]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_cu3',{type:'line',data:{labels:lb,datasets:[ld('CLTV',d.map(r=>r.cltv),'#b07df0',{fill:true})]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_cu4',{type:'bar',data:{labels:lb,datasets:[{label:'New Rev',data:d.map(r=>r.new_customers_revenue),backgroundColor:'#5b9df960',borderColor:'#5b9df9',borderWidth:1},{label:'Ret Rev',data:d.map(r=>r.returning_customers_revenue),backgroundColor:'#00e09e60',borderColor:'#00e09e',borderWidth:1}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:Object.assign({},dsc().x,{stacked:true}),y:Object.assign({},dsc().y,{stacked:true})},plugins:dp()}});
+mc('ch_cu5',{type:'line',data:{labels:lb,datasets:[ld('Orders',d.map(r=>r.orders),'#00e09e'),Object.assign(ld('7d MA',ma(d,'orders'),'#5b9df9'),{borderWidth:2})]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+
+// FUNNEL
+document.getElementById('k_fun').innerHTML=
+  kpi('Sessions',num(S(d,'sessions')),pc(S(cu,'sessions'),S(pr,'sessions')))+
+  kpi('Users',num(S(d,'users')),pc(S(cu,'users'),S(pr,'users')))+
+  kpi('CVR %',pct(A(d,'cvr')),pc(A(cu,'cvr'),A(pr,'cvr')))+
+  kpi('ATC %',pct(A(d,'atc_pct')),pc(A(cu,'atc_pct'),A(pr,'atc_pct')))+
+  kpi('Orders',num(od),pc(S(cu,'orders'),S(pr,'orders')))+
+  kpi('AOV',$2(A(d,'aov')),pc(A(cu,'aov'),A(pr,'aov')));
+
+mc('ch_fn1',{type:'line',data:{labels:lb,datasets:[ld('CVR %',d.map(r=>r.cvr),'#00e09e',{fill:true}),Object.assign(ld('7d MA',ma(d,'cvr'),'#5b9df9'),{borderWidth:2})]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_fn2',{type:'line',data:{labels:lb,datasets:[ld('ATC %',d.map(r=>r.atc_pct),'#5b9df9',{fill:true}),Object.assign(ld('7d MA',ma(d,'atc_pct'),'#f5a623'),{borderWidth:2})]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_fn3',{type:'line',data:{labels:lb,datasets:[ld('Sessions',d.map(r=>r.sessions),'#b07df0'),Object.assign(ld('7d MA',ma(d,'sessions'),'#5b9df9'),{borderWidth:2})]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+mc('ch_fn4',{type:'line',data:{labels:lb,datasets:[ld('Users',d.map(r=>r.users),'#22d3ee'),Object.assign(ld('7d MA',ma(d,'users'),'#5b9df9'),{borderWidth:2})]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:dp()}});
+
+// ALL TRENDS
+var metrics=[
+  {k:'gross_sales',l:'Gross Sales',c:'#5b9df9'},
+  {k:'net_revenue',l:'Net Revenue',c:'#00e09e'},
+  {k:'margin',l:'Gross Margin $',c:'#b07df0'},
+  {k:'gross_margin_pct',l:'Gross Margin %',c:'#00e09e'},
+  {k:'refunds',l:'Refunds',c:'#ff5c5c'},
+  {k:'cogs',l:'COGS',c:'#f5a623'},
+  {k:'total_ad_spend',l:'Ad Spend',c:'#ff5c5c'},
+  {k:'blended_roas',l:'Blended ROAS',c:'#00e09e'},
+  {k:'mer',l:'MER %',c:'#f5a623'},
+  {k:'amer',l:'aMER %',c:'#b07df0'},
+  {k:'cac',l:'CAC',c:'#5b9df9'},
+  {k:'ncac',l:'nCAC',c:'#ff5c5c'},
+  {k:'orders',l:'Orders',c:'#5b9df9'},
+  {k:'aov',l:'AOV',c:'#f5a623'},
+  {k:'cvr',l:'CVR %',c:'#00e09e'},
+  {k:'atc_pct',l:'ATC %',c:'#5b9df9'},
+  {k:'sessions',l:'Sessions',c:'#b07df0'},
+  {k:'users',l:'Users',c:'#22d3ee'},
+  {k:'customers',l:'Customers',c:'#f472b6'},
+  {k:'cltv',l:'CLTV',c:'#b07df0'},
+  {k:'new_customer_pct',l:'New Customer %',c:'#5b9df9'},
+  {k:'new_customer_orders',l:'New Cust Orders',c:'#00e09e'},
+  {k:'new_customers_revenue',l:'New Cust Revenue',c:'#5b9df9'},
+  {k:'returning_customers_revenue',l:'Ret Cust Revenue',c:'#b07df0'}
+];
+var tc=document.getElementById('allTrends');
+tc.innerHTML=metrics.map(function(m,i){return '<div class="cc"><h3>'+m.l+'</h3><div class="cs">60-day trend with 7d MA</div><div class="cw"><canvas id="ch_t'+i+'"></canvas></div></div>'}).join('');
+var allD=D;var allLb=allD.map(r=>r.date.slice(5));
+metrics.forEach(function(m,i){
+  mc('ch_t'+i,{type:'line',data:{labels:allLb,datasets:[ld(m.l,allD.map(r=>r[m.k]),m.c,{fill:true}),Object.assign(ld('7d MA',ma(allD,m.k),'#5b9df9'),{borderWidth:1.5,borderDash:[3,3]})]},options:{responsive:true,maintainAspectRatio:false,scales:dsc(),plugins:{legend:{display:false},tooltip:dp().tooltip}}});
+});
 }
 
-function loadData() {
-  allDailyData = parseCSV(dailyKpisRaw);
-  allPlatformData = parseCSV(platformDailyRaw);
-}
-
-function getFilteredData() {
-  const d = allDailyData.slice(-currentPeriod);
-  const dates = new Set(d.map(r => r.date));
-  const p = allPlatformData.filter(r => dates.has(r.date));
-  return { daily: d, platform: p };
-}
-
-// ===== UTILITIES =====
-function fmt(n, decimals = 0) {
-  if (n >= 1e6) return '$' + (n / 1e6).toFixed(2) + 'M';
-  if (n >= 1e3) return '$' + (n / 1e3).toFixed(1) + 'K';
-  return '$' + n.toFixed(decimals);
-}
-function fmtPct(n) { return n.toFixed(1) + '%'; }
-function fmtNum(n) { return n >= 1000 ? (n/1000).toFixed(1)+'K' : n.toFixed(0); }
-function sum(arr, key) { return arr.reduce((s, r) => s + (r[key] || 0), 0); }
-function avg(arr, key) { return arr.length ? sum(arr, key) / arr.length : 0; }
-function pctChange(curr, prev) {
-  if (!prev) return { val: 0, dir: 'up' };
-  const change = ((curr - prev) / Math.abs(prev)) * 100;
-  return { val: Math.abs(change).toFixed(1), dir: change >= 0 ? 'up' : 'down' };
-}
-
-function movingAvg(arr, key, window = 7) {
-  return arr.map((_, i) => {
-    const slice = arr.slice(Math.max(0, i - window + 1), i + 1);
-    return avg(slice, key);
-  });
-}
-
-const COLORS = {
-  Google: '#4da6ff',
-  Facebook: '#a78bfa',
-  Applovin: '#fbbf24'
-};
-
-// ===== TABS =====
-function switchTab(tabName) {
-  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
-  document.getElementById('tab-' + tabName).classList.add('active');
-  event.target.classList.add('active');
-}
-
-function setPeriod(days) {
-  currentPeriod = days;
-  document.querySelectorAll('.period-btn').forEach(b => b.classList.toggle('active', parseInt(b.dataset.period) === days));
-  renderAll();
-}
-
-// ===== KPI CARD BUILDER =====
-function buildKpiCard(label, value, change, sub = '') {
-  const dir = change.dir;
-  const arrow = dir === 'up' ? '&#9650;' : '&#9660;';
-  return `
-    <div class="kpi-card">
-      <div class="kpi-label">${label}</div>
-      <div class="kpi-value">${value}</div>
-      <span class="kpi-change ${dir}">${arrow} ${change.val}%</span>
-      ${sub ? `<div class="kpi-sub">${sub}</div>` : ''}
-    </div>`;
-}
-
-// ===== CHART HELPER =====
-function makeChart(id, config) {
-  if (charts[id]) charts[id].destroy();
-  const ctx = document.getElementById(id).getContext('2d');
-  charts[id] = new Chart(ctx, config);
-}
-
-function lineDataset(label, data, color, opts = {}) {
-  return {
-    label, data,
-    borderColor: color,
-    backgroundColor: color + '20',
-    borderWidth: 2,
-    pointRadius: 0,
-    pointHoverRadius: 4,
-    tension: 0.3,
-    fill: opts.fill || false,
-    ...opts
-  };
-}
-
-function defaultScales(yLabel = '', opts = {}) {
-  return {
-    x: {
-      type: 'category',
-      ticks: { color: '#8b8fa3', font: { size: 10 }, maxTicksLimit: 8 },
-      grid: { color: 'rgba(255,255,255,0.04)' }
-    },
-    y: {
-      title: { display: !!yLabel, text: yLabel, color: '#8b8fa3', font: { size: 11 } },
-      ticks: { color: '#8b8fa3', font: { size: 10 }, ...opts },
-      grid: { color: 'rgba(255,255,255,0.04)' }
-    }
-  };
-}
-
-function defaultPlugins() {
-  return {
-    legend: { labels: { color: '#e4e6ed', font: { size: 11 }, boxWidth: 12, padding: 16 } },
-    tooltip: { mode: 'index', intersect: false, backgroundColor: '#1a1d27', borderColor: '#2a2e3a', borderWidth: 1, titleColor: '#e4e6ed', bodyColor: '#8b8fa3', padding: 12 }
-  };
-}
-
-// ===== RENDER FUNCTIONS =====
-function renderFinanceKpis(data) {
-  const d = data.daily;
-  const half = Math.floor(d.length / 2);
-  const cur = d.slice(half);
-  const prev = d.slice(0, half);
-
-  const grossSales = sum(d, 'gross_sales');
-  const netRev = sum(d, 'net_revenue');
-  const margin = sum(d, 'margin');
-  const refunds = sum(d, 'refunds');
-  const cogs = sum(d, 'cogs');
-  const orders = sum(d, 'orders');
-
-  const gsChange = pctChange(sum(cur,'gross_sales'), sum(prev,'gross_sales'));
-  const nrChange = pctChange(sum(cur,'net_revenue'), sum(prev,'net_revenue'));
-  const mChange = pctChange(sum(cur,'margin'), sum(prev,'margin'));
-  const refChange = pctChange(sum(cur,'refunds'), sum(prev,'refunds'));
-  const gmPct = netRev ? ((netRev - cogs) / netRev * 100) : 0;
-  const refPct = grossSales ? (refunds / grossSales * 100) : 0;
-
-  document.getElementById('financeKpis').innerHTML =
-    buildKpiCard('Gross Sales', fmt(grossSales), gsChange, `${fmtNum(orders)} orders`) +
-    buildKpiCard('Net Revenue', fmt(netRev), nrChange, `After refunds & discounts`) +
-    buildKpiCard('Gross Margin', fmt(margin), mChange, `${fmtPct(gmPct)} margin rate`) +
-    buildKpiCard('COGS', fmt(cogs), pctChange(sum(cur,'cogs'), sum(prev,'cogs')), `${fmtPct(cogs/netRev*100)} of net rev`) +
-    buildKpiCard('Refunds', fmt(refunds), refChange, `${fmtPct(refPct)} refund rate`) +
-    buildKpiCard('Ad Spend', fmt(sum(d,'total_ad_spend')), pctChange(sum(cur,'total_ad_spend'), sum(prev,'total_ad_spend')), `Total media cost`);
-}
-
-function renderWaterfall(data) {
-  const d = data.daily;
-  const gross = sum(d, 'gross_sales');
-  const refunds = sum(d, 'refunds');
-  const net = sum(d, 'net_revenue');
-  const cogs = sum(d, 'cogs');
-  const adSpend = sum(d, 'total_ad_spend');
-  const margin = sum(d, 'margin');
-  const netProfit = margin - adSpend;
-
-  const maxVal = gross;
-  const items = [
-    { label: 'Gross Sales', amount: gross, color: 'var(--green)', pct: 100 },
-    { label: 'Refunds', amount: -refunds, color: 'var(--red)', pct: (refunds/maxVal)*100 },
-    { label: 'Net Revenue', amount: net, color: 'var(--blue)', pct: (net/maxVal)*100 },
-    { label: 'COGS', amount: -cogs, color: 'var(--red)', pct: (cogs/maxVal)*100 },
-    { label: 'Gross Margin', amount: margin, color: 'var(--green)', pct: (margin/maxVal)*100 },
-    { label: 'Ad Spend', amount: -adSpend, color: 'var(--orange)', pct: (adSpend/maxVal)*100 },
-    { label: 'Net Profit', amount: netProfit, color: netProfit >= 0 ? 'var(--green)' : 'var(--red)', pct: (Math.abs(netProfit)/maxVal)*100 },
-  ];
-
-  document.getElementById('waterfallContainer').innerHTML = items.map(item => `
-    <div class="waterfall-bar">
-      <div class="waterfall-label">${item.label}</div>
-      <div class="waterfall-track">
-        <div class="waterfall-fill" style="width:${Math.max(item.pct, 5)}%; background:${item.color}20; border-left: 3px solid ${item.color}; color:${item.color}">
-          ${fmtPct(Math.abs(item.amount)/gross*100)}
-        </div>
-      </div>
-      <div class="waterfall-amount" style="color:${item.color}">${item.amount < 0 ? '-' : ''}${fmt(Math.abs(item.amount))}</div>
-    </div>`).join('');
-}
-
-function renderFinanceCharts(data) {
-  const d = data.daily;
-  const labels = d.map(r => r.date.slice(5));
-
-  makeChart('revenueTrend', {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [
-        lineDataset('Gross Sales', d.map(r => r.gross_sales), '#4da6ff'),
-        lineDataset('Net Revenue', d.map(r => r.net_revenue), '#00d68f'),
-        lineDataset('Margin', d.map(r => r.margin), '#a78bfa'),
-      ]
-    },
-    options: { responsive: true, maintainAspectRatio: false, scales: defaultScales('$'), plugins: defaultPlugins() }
-  });
-
-  makeChart('marginChart', {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [
-        lineDataset('Gross Margin %', d.map(r => r.gross_margin_pct), '#00d68f', { fill: true }),
-        { ...lineDataset('Target (60%)', d.map(() => 60), '#ff6b6b'), borderDash: [5, 5], borderWidth: 1 }
-      ]
-    },
-    options: { responsive: true, maintainAspectRatio: false, scales: defaultScales('%', { callback: v => v + '%' }), plugins: defaultPlugins() }
-  });
-
-  makeChart('costStructure', {
-    type: 'bar',
-    data: {
-      labels,
-      datasets: [
-        { label: 'COGS', data: d.map(r => r.cogs), backgroundColor: '#ff6b6b80', borderColor: '#ff6b6b', borderWidth: 1 },
-        { label: 'Ad Spend', data: d.map(r => r.total_ad_spend), backgroundColor: '#fbbf2480', borderColor: '#fbbf24', borderWidth: 1 },
-        { label: 'Refunds', data: d.map(r => r.refunds), backgroundColor: '#a78bfa80', borderColor: '#a78bfa', borderWidth: 1 },
-      ]
-    },
-    options: { responsive: true, maintainAspectRatio: false, scales: { ...defaultScales('$'), x: { ...defaultScales().x, stacked: true }, y: { ...defaultScales().y, stacked: true } }, plugins: defaultPlugins() }
-  });
-
-  makeChart('refundChart', {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [
-        lineDataset('Refund Rate %', d.map(r => (r.refunds / r.gross_sales * 100)), '#ff6b6b', { fill: true }),
-        { ...lineDataset('Target (<10%)', d.map(() => 10), '#fbbf24'), borderDash: [5, 5], borderWidth: 1 }
-      ]
-    },
-    options: { responsive: true, maintainAspectRatio: false, scales: defaultScales('%', { callback: v => v + '%' }), plugins: defaultPlugins() }
-  });
-}
-
-function renderMarketingKpis(data) {
-  const d = data.daily;
-  const half = Math.floor(d.length / 2);
-  const cur = d.slice(half), prev = d.slice(0, half);
-
-  const spend = sum(d, 'total_ad_spend');
-  const rev = sum(d, 'net_revenue');
-  const roas = rev / spend;
-  const mer = spend / rev * 100;
-  const cac = avg(d, 'cac');
-  const ncac = avg(d, 'ncac');
-
-  const roasP = pctChange(sum(cur,'net_revenue')/sum(cur,'total_ad_spend'), sum(prev,'net_revenue')/sum(prev,'total_ad_spend'));
-  const merP = pctChange(sum(cur,'total_ad_spend')/sum(cur,'net_revenue')*100, sum(prev,'total_ad_spend')/sum(prev,'net_revenue')*100);
-
-  document.getElementById('marketingKpis').innerHTML =
-    buildKpiCard('Total Ad Spend', fmt(spend), pctChange(sum(cur,'total_ad_spend'), sum(prev,'total_ad_spend')), 'Across all platforms') +
-    buildKpiCard('Blended ROAS', roas.toFixed(2) + 'x', roasP, 'Net rev / ad spend') +
-    buildKpiCard('MER', fmtPct(mer), merP, 'Ad spend / revenue') +
-    buildKpiCard('Avg CAC', fmt(cac, 2), pctChange(avg(cur,'cac'), avg(prev,'cac')), 'Cost per customer') +
-    buildKpiCard('Avg nCAC', fmt(ncac, 2), pctChange(avg(cur,'ncac'), avg(prev,'ncac')), 'New customer acq cost') +
-    buildKpiCard('Sessions', fmtNum(sum(d,'sessions')), pctChange(sum(cur,'sessions'), sum(prev,'sessions')), `${fmtPct(avg(d,'cvr'))} avg CVR`);
-}
-
-function renderMarketingCharts(data) {
-  const d = data.daily;
-  const labels = d.map(r => r.date.slice(5));
-
-  makeChart('roasChart', {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [
-        lineDataset('Blended ROAS', d.map(r => r.blended_roas), '#00d68f', { fill: true }),
-        { ...lineDataset('Target (2.0x)', d.map(() => 2.0), '#ff6b6b'), borderDash: [5, 5], borderWidth: 1 },
-        { ...lineDataset('7d MA', movingAvg(d, 'blended_roas'), '#4da6ff'), borderWidth: 2 }
-      ]
-    },
-    options: { responsive: true, maintainAspectRatio: false, scales: defaultScales('ROAS', { callback: v => v.toFixed(1) + 'x' }), plugins: defaultPlugins() }
-  });
-
-  makeChart('merChart', {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [
-        lineDataset('MER %', d.map(r => r.mer), '#fbbf24', { fill: true }),
-        { ...lineDataset('Target (<40%)', d.map(() => 40), '#00d68f'), borderDash: [5, 5], borderWidth: 1 }
-      ]
-    },
-    options: { responsive: true, maintainAspectRatio: false, scales: defaultScales('%', { callback: v => v + '%' }), plugins: defaultPlugins() }
-  });
-
-  makeChart('cacChart', {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [
-        lineDataset('CAC', d.map(r => r.cac), '#4da6ff'),
-        lineDataset('nCAC', d.map(r => r.ncac), '#ff6b6b'),
-      ]
-    },
-    options: { responsive: true, maintainAspectRatio: false, scales: defaultScales('$'), plugins: defaultPlugins() }
-  });
-
-  makeChart('spendVsRevenue', {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [
-        lineDataset('Ad Spend', d.map(r => r.total_ad_spend), '#ff6b6b'),
-        lineDataset('Net Revenue', d.map(r => r.net_revenue), '#00d68f'),
-      ]
-    },
-    options: { responsive: true, maintainAspectRatio: false, scales: defaultScales('$'), plugins: defaultPlugins() }
-  });
-
-  // Spend allocation pie
-  const platforms = ['Google', 'Facebook', 'Applovin'];
-  const spendByPlatform = platforms.map(p => sum(data.platform.filter(r => r.platform === p), 'spend'));
-  makeChart('spendAllocation', {
-    type: 'doughnut',
-    data: {
-      labels: platforms,
-      datasets: [{ data: spendByPlatform, backgroundColor: platforms.map(p => COLORS[p]), borderColor: 'transparent', borderWidth: 0 }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: {
-        ...defaultPlugins(),
-        legend: { position: 'right', labels: { color: '#e4e6ed', font: { size: 12 }, padding: 20, generateLabels: (chart) => {
-          const ds = chart.data.datasets[0];
-          const total = ds.data.reduce((a,b) => a+b, 0);
-          return chart.data.labels.map((l, i) => ({
-            text: `${l}  ${fmt(ds.data[i])}  (${(ds.data[i]/total*100).toFixed(1)}%)`,
-            fillStyle: ds.backgroundColor[i],
-            strokeStyle: 'transparent',
-            index: i
-          }));
-        }}},
-      }
-    }
-  });
-}
-
-function renderCustomerKpis(data) {
-  const d = data.daily;
-  const half = Math.floor(d.length / 2);
-  const cur = d.slice(half), prev = d.slice(0, half);
-
-  const orders = sum(d, 'orders');
-  const newOrders = sum(d, 'new_customer_orders');
-  const aov = avg(d, 'aov');
-  const cltv = avg(d, 'cltv');
-  const cvr = avg(d, 'cvr');
-  const atc = avg(d, 'atc_pct');
-
-  document.getElementById('customerKpis').innerHTML =
-    buildKpiCard('Total Orders', fmtNum(orders), pctChange(sum(cur,'orders'), sum(prev,'orders')), `${fmtNum(sum(d,'customers'))} customers`) +
-    buildKpiCard('New Customer Orders', fmtNum(newOrders), pctChange(sum(cur,'new_customer_orders'), sum(prev,'new_customer_orders')), `${fmtPct(newOrders/orders*100)} of total`) +
-    buildKpiCard('Avg AOV', fmt(aov, 2), pctChange(avg(cur,'aov'), avg(prev,'aov')), 'Average order value') +
-    buildKpiCard('Avg CLTV', fmt(cltv, 2), pctChange(avg(cur,'cltv'), avg(prev,'cltv')), 'Lifetime value') +
-    buildKpiCard('CVR', fmtPct(cvr), pctChange(avg(cur,'cvr'), avg(prev,'cvr')), 'Session → purchase') +
-    buildKpiCard('Add to Cart %', fmtPct(atc), pctChange(avg(cur,'atc_pct'), avg(prev,'atc_pct')), 'Session → ATC rate');
-}
-
-function renderCustomerCharts(data) {
-  const d = data.daily;
-  const labels = d.map(r => r.date.slice(5));
-
-  makeChart('newVsReturning', {
-    type: 'bar',
-    data: {
-      labels,
-      datasets: [
-        { label: 'New Customers', data: d.map(r => r.new_customer_orders), backgroundColor: '#4da6ff80', borderColor: '#4da6ff', borderWidth: 1 },
-        { label: 'Returning', data: d.map(r => r.orders - r.new_customer_orders), backgroundColor: '#a78bfa80', borderColor: '#a78bfa', borderWidth: 1 },
-      ]
-    },
-    options: { responsive: true, maintainAspectRatio: false, scales: { ...defaultScales('Orders'), x: { ...defaultScales().x, stacked: true }, y: { ...defaultScales().y, stacked: true } }, plugins: defaultPlugins() }
-  });
-
-  makeChart('aovChart', {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [
-        lineDataset('AOV', d.map(r => r.aov), '#fbbf24'),
-        { ...lineDataset('7d MA', movingAvg(d, 'aov'), '#4da6ff'), borderWidth: 2 }
-      ]
-    },
-    options: { responsive: true, maintainAspectRatio: false, scales: defaultScales('$'), plugins: defaultPlugins() }
-  });
-
-  makeChart('funnelChart', {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [
-        lineDataset('CVR %', d.map(r => r.cvr), '#00d68f'),
-        lineDataset('ATC %', d.map(r => r.atc_pct), '#4da6ff'),
-      ]
-    },
-    options: { responsive: true, maintainAspectRatio: false, scales: defaultScales('%', { callback: v => v + '%' }), plugins: defaultPlugins() }
-  });
-
-  makeChart('cltvChart', {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [
-        lineDataset('CLTV', d.map(r => r.cltv), '#a78bfa', { fill: true }),
-      ]
-    },
-    options: { responsive: true, maintainAspectRatio: false, scales: defaultScales('$'), plugins: defaultPlugins() }
-  });
-}
-
-function renderChannels(data) {
-  const p = data.platform;
-  const labels = [...new Set(data.daily.map(r => r.date))].map(d => d.slice(5));
-  const platforms = ['Google', 'Facebook', 'Applovin'];
-
-  // Summary table
-  const tbody = document.querySelector('#platformTable tbody');
-  tbody.innerHTML = platforms.map(plat => {
-    const rows = p.filter(r => r.platform === plat);
-    const spend = sum(rows, 'spend');
-    const roas = avg(rows, 'roas');
-    const cpc = avg(rows, 'cpc');
-    const clicks = sum(rows, 'clicks');
-    const cpm = avg(rows, 'cpm');
-    const ctr = avg(rows, 'ctr');
-    const cpa = avg(rows, 'cpa');
-    const badge = roas >= 2 ? 'badge-green' : roas >= 1.5 ? 'badge-orange' : 'badge-red';
-    const effLabel = roas >= 2 ? 'Strong' : roas >= 1.5 ? 'OK' : 'Weak';
-    return `<tr>
-      <td><strong style="color:${COLORS[plat]}">${plat}</strong></td>
-      <td>${fmt(spend)}</td>
-      <td>${roas.toFixed(2)}x</td>
-      <td>${fmt(cpc, 2)}</td>
-      <td>${fmtNum(clicks)}</td>
-      <td>${fmt(cpm, 2)}</td>
-      <td>${fmtPct(ctr)}</td>
-      <td>${fmt(cpa, 2)}</td>
-      <td><span class="badge ${badge}">${effLabel}</span></td>
-    </tr>`;
-  }).join('');
-
-  // Platform ROAS
-  makeChart('platformRoas', {
-    type: 'line',
-    data: {
-      labels,
-      datasets: platforms.map(plat => {
-        const rows = p.filter(r => r.platform === plat).sort((a,b) => a.date.localeCompare(b.date));
-        return lineDataset(plat, rows.map(r => r.roas), COLORS[plat]);
-      })
-    },
-    options: { responsive: true, maintainAspectRatio: false, scales: defaultScales('ROAS', { callback: v => v.toFixed(1) + 'x' }), plugins: defaultPlugins() }
-  });
-
-  // Platform Spend
-  makeChart('platformSpend', {
-    type: 'line',
-    data: {
-      labels,
-      datasets: platforms.map(plat => {
-        const rows = p.filter(r => r.platform === plat).sort((a,b) => a.date.localeCompare(b.date));
-        return lineDataset(plat, rows.map(r => r.spend), COLORS[plat]);
-      })
-    },
-    options: { responsive: true, maintainAspectRatio: false, scales: defaultScales('$'), plugins: defaultPlugins() }
-  });
-
-  // Platform CPC
-  makeChart('platformCpc', {
-    type: 'line',
-    data: {
-      labels,
-      datasets: platforms.map(plat => {
-        const rows = p.filter(r => r.platform === plat).sort((a,b) => a.date.localeCompare(b.date));
-        return lineDataset(plat, rows.map(r => r.cpc), COLORS[plat]);
-      })
-    },
-    options: { responsive: true, maintainAspectRatio: false, scales: defaultScales('$'), plugins: defaultPlugins() }
-  });
-
-  // Spend share stacked %
-  const dates = [...new Set(data.daily.map(r => r.date))].sort();
-  makeChart('spendShare', {
-    type: 'bar',
-    data: {
-      labels,
-      datasets: platforms.map(plat => {
-        const rows = p.filter(r => r.platform === plat).sort((a,b) => a.date.localeCompare(b.date));
-        const dailyTotals = dates.map(date => {
-          const dayRows = p.filter(r => r.date === date);
-          return sum(dayRows, 'spend');
-        });
-        return {
-          label: plat,
-          data: rows.map((r, i) => dailyTotals[i] ? (r.spend / dailyTotals[i] * 100) : 0),
-          backgroundColor: COLORS[plat] + '80',
-          borderColor: COLORS[plat],
-          borderWidth: 1
-        };
-      })
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      scales: { ...defaultScales('%', { callback: v => v + '%', max: 100 }), x: { ...defaultScales().x, stacked: true }, y: { ...defaultScales('%').y, stacked: true, max: 100 } },
-      plugins: defaultPlugins()
-    }
-  });
-}
-
-// ===== MAIN RENDER =====
-function renderAll() {
-  const data = getFilteredData();
-  const d = data.daily;
-  document.getElementById('dateRange').textContent = `${d[0].date}  →  ${d[d.length-1].date}  (${d.length} days)`;
-
-  renderFinanceKpis(data);
-  renderWaterfall(data);
-  renderFinanceCharts(data);
-  renderMarketingKpis(data);
-  renderMarketingCharts(data);
-  renderCustomerKpis(data);
-  renderCustomerCharts(data);
-  renderChannels(data);
-}
-
-// ===== INIT =====
-loadData();
-renderAll();
+R();
 </script>
 </body>
 </html>
