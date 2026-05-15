@@ -55,7 +55,7 @@ def collect_targets(rows):
                 "old_status": r["status"], "old_days": r["days"],
                 "order": r["order"], "date": r["date"],
             })
-        elif not r["tracking"] and r["status"] not in NO_TRACKING_OPEN_SKIP:
+        elif not r["tracking"] and r["order"] and r["status"] not in NO_TRACKING_OPEN_SKIP:
             no_tracking_open.append({
                 "row": r["row"], "order": r["order"],
                 "date": r["date"], "status": r["status"],

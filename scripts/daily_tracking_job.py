@@ -27,9 +27,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-import gspread
 import requests
-from google.oauth2.service_account import Credentials
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from yuntrack import lookup_one  # noqa: E402
@@ -50,7 +48,9 @@ NO_TRACKING_OPEN_SKIP = {"Delivered", "Canceled", "Unfulfilled"}
 STUCK_THRESHOLD_DAYS = 10
 
 
-def authorize() -> gspread.Client:
+def authorize():
+    import gspread
+    from google.oauth2.service_account import Credentials
     sa_json = os.environ["GOOGLE_SA_JSON"]
     creds = Credentials.from_service_account_info(json.loads(sa_json), scopes=SCOPES)
     return gspread.authorize(creds)
@@ -78,7 +78,7 @@ def collect_targets(values: list[list[str]]):
                 "order": order,
                 "date": date,
             })
-        elif not tracking and status not in NO_TRACKING_OPEN_SKIP:
+        elif not tracking and order and status not in NO_TRACKING_OPEN_SKIP:
             no_tracking_open.append({
                 "row": i,
                 "order": order,
@@ -163,14 +163,15 @@ def compute_metrics(results, no_tracking_open):
     }
 
 
-def fmt_rows(rows, max_items=20, fields=("order", "date", "tracking")) -> str:
+def fmt_rows(rows, max_items=None, fields=("order", "date", "tracking")) -> str:
     if not rows:
         return "_none_"
     lines = []
-    for r in rows[:max_items]:
+    items = rows if max_items is None else rows[:max_items]
+    for r in items:
         parts = [str(r.get(f, "")) for f in fields if r.get(f)]
         lines.append("• " + " | ".join(parts))
-    if len(rows) > max_items:
+    if max_items is not None and len(rows) > max_items:
         lines.append(f"_… and {len(rows) - max_items} more_")
     return "\n".join(lines)
 
@@ -198,7 +199,6 @@ def build_message(metrics, today: str) -> str:
         )
         parts.append(fmt_rows(
             m["stuck_10_plus"],
-            max_items=25,
             fields=("order", "date", "new_days", "tracking"),
         ))
         parts.append("")
@@ -230,12 +230,12 @@ def post_slack(message: str) -> None:
         print("SLACK_BOT_TOKEN / SLACK_CHANNEL_ID not set; printing message only:\n")
         print(message)
         return
-    # Slack caps a single text block at ~40k chars. The report can grow long
-    # if there are many stuck orders, so chunk by paragraph just in case.
+    # Slack caps a single text block at ~40k chars. Most days the report
+    # fits in one message; if not, chunk by paragraph boundary and thread.
     chunks = []
     cur = ""
     for line in message.split("\n"):
-        if len(cur) + len(line) + 1 > 3500:
+        if len(cur) + len(line) + 1 > 35000:
             chunks.append(cur.rstrip())
             cur = ""
         cur += line + "\n"
