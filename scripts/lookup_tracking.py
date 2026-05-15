@@ -12,13 +12,14 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
-import sys
+import time
 from pathlib import Path
 
 from yuntrack import lookup_one
 import requests
 
 QUEUE_DIR = Path("tracking-updates/queue")
+FLUSH_EVERY = 100  # write partial queue file every N lookups so a kill mid-run keeps results
 
 
 def main():
@@ -37,6 +38,17 @@ def main():
     updates = []
     errors = []
 
+    QUEUE_DIR.mkdir(parents=True, exist_ok=True)
+    stamp = dt.datetime.utcnow().strftime("%Y-%m-%dT%H-%M-%S")
+    out_name = args.out or f"{stamp}.json"
+    out_path = QUEUE_DIR / out_name
+    err_path = QUEUE_DIR.parent / f"errors-{stamp}.json"
+
+    def flush():
+        out_path.write_text(json.dumps(updates, indent=2))
+        if errors:
+            err_path.write_text(json.dumps(errors, indent=2))
+
     for i, item in enumerate(items):
         row = item["row"]
         tracking = item.get("tracking", "").strip()
@@ -49,25 +61,19 @@ def main():
 
         if result.error:
             errors.append({"row": row, "tracking": tracking, "error": result.error})
-            continue
-
-        if result.shipping_update:
+        elif result.shipping_update:
             updates.append(result.to_update(row))
 
+        if (i + 1) % FLUSH_EVERY == 0:
+            flush()
+            print(f"flushed at {i+1}/{len(items)}: {len(updates)} updates, {len(errors)} errors")
+
         if i < len(items) - 1:
-            import time
             time.sleep(args.delay)
 
-    QUEUE_DIR.mkdir(parents=True, exist_ok=True)
-    stamp = dt.datetime.utcnow().strftime("%Y-%m-%dT%H-%M-%S")
-    out_name = args.out or f"{stamp}.json"
-    out_path = QUEUE_DIR / out_name
-    out_path.write_text(json.dumps(updates, indent=2))
-
+    flush()
     print(f"\nWrote {len(updates)} updates to {out_path}")
     if errors:
-        err_path = QUEUE_DIR.parent / f"errors-{stamp}.json"
-        err_path.write_text(json.dumps(errors, indent=2))
         print(f"Wrote {len(errors)} errors to {err_path}")
 
 
