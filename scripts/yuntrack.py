@@ -12,6 +12,9 @@ The exact response schema may evolve; the parser falls back to a generic
 from __future__ import annotations
 
 import dataclasses
+import hashlib
+import hmac
+import json
 import re
 import sys
 import time
@@ -25,6 +28,9 @@ USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 )
+# HMAC-SHA256 secret extracted from yuntrack.com's app bundle (utils.getSign).
+# Public-facing key embedded in their SPA; required for unauthenticated lookups.
+SIGN_KEY = b"f3c42837e3b46431ddf5d7db7d67017d"
 
 # Map sheet vocabulary -> phrases that appear in yuntrack event descriptions / status text.
 # Order matters: first match wins, so put the most specific buckets first.
@@ -115,16 +121,32 @@ def _event_field(ev: dict, *names: str) -> str:
     return ""
 
 
+def _sign_body(number_list: list[str]) -> dict:
+    """Build the signed request body that yuntrack's public API requires."""
+    ts = int(time.time() * 1000)
+    nl_json = json.dumps(number_list, separators=(",", ":"))
+    msg = f"Timestamp={ts}&NumberList={nl_json}"
+    sig = hmac.new(SIGN_KEY, msg.encode(), hashlib.sha256).hexdigest()
+    return {
+        "NumberList": number_list,
+        "Year": 0,
+        "Timestamp": ts,
+        "Signature": sig,
+    }
+
+
 def lookup_one(tracking_number: str, session: Optional[requests.Session] = None) -> TrackingResult:
     s = session or requests.Session()
     try:
         r = s.post(
             API_URL,
-            json={"NumberList": [tracking_number], "Year": 0},
+            json=_sign_body([tracking_number]),
             headers={
-                "Content-Type": "application/json",
+                "Content-Type": "application/json;charset=UTF-8",
+                "Accept": "application/json, text/plain, */*",
+                "Authorization": "Nebula token:",
                 "User-Agent": USER_AGENT,
-                "Referer": "https://www.yuntrack.com/",
+                "Referer": "https://www.yuntrack.com/parcelTracking",
                 "Origin": "https://www.yuntrack.com",
             },
             timeout=20,
@@ -139,8 +161,26 @@ def lookup_one(tracking_number: str, session: Optional[requests.Session] = None)
             error=f"HTTP/JSON error: {e}",
         )
 
+    # Pull the numeric Status from ResultList[0] — authoritative for "Delivered".
+    # Text events like "Delivered to local carrier" can otherwise produce false positives.
+    status_code: Optional[int] = None
+    result_list = payload.get("ResultList") if isinstance(payload, dict) else None
+    if isinstance(result_list, list) and result_list and isinstance(result_list[0], dict):
+        raw_code = result_list[0].get("Status")
+        try:
+            status_code = int(raw_code) if raw_code is not None else None
+        except (TypeError, ValueError):
+            status_code = None
+
     events = _extract_events(payload)
     if not events:
+        if isinstance(result_list, list) and not result_list:
+            return TrackingResult(
+                tracking_number=tracking_number,
+                shipping_update="",
+                days_in_transit="",
+                error="No tracking record found (ResultList empty)",
+            )
         return TrackingResult(
             tracking_number=tracking_number,
             shipping_update="",
@@ -151,7 +191,7 @@ def lookup_one(tracking_number: str, session: Optional[requests.Session] = None)
     # Normalize to (date, description) tuples and sort newest-first.
     parsed = []
     for ev in events:
-        date_str = _event_field(ev, "TrackDate", "ProcessDate", "Date", "EventTime")
+        date_str = _event_field(ev, "TrackDate", "ProcessDate", "CreatedOn", "Date", "EventTime")
         desc = _event_field(ev, "ProcessContent", "Description", "TrackContent", "Event", "StatusDescription")
         dt = _parse_date(date_str)
         parsed.append((dt, desc, date_str))
@@ -170,7 +210,17 @@ def lookup_one(tracking_number: str, session: Optional[requests.Session] = None)
     first_dt = next((d for d, _, _ in reversed(parsed) if d), None)
 
     raw_status = latest_desc or ""
-    normalized = _normalize_status(raw_status)
+    text_normalized = _normalize_status(raw_status)
+
+    # Status code 50 = Delivered (final). Trust the numeric code over event text,
+    # since intermediate events like "Delivered to local carrier" would otherwise
+    # be misclassified as Delivered.
+    if status_code == 50:
+        normalized = "Delivered"
+    elif text_normalized == "Delivered" and status_code is not None and status_code != 50:
+        normalized = "In transit"
+    else:
+        normalized = text_normalized
 
     # Compute days-in-transit.
     if normalized == "Delivered" and first_dt and latest_dt:
