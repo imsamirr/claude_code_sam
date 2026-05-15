@@ -8,11 +8,11 @@
 # Optional repo variables (override the inline defaults below):
 #   SHEET_ID, SHEET_TAB, SLACK_CHANNEL_ID
 
-name: Daily tracking refresh and Slack report
+name: Tracking refresh and Slack report
 
 on:
   schedule:
-    - cron: '0 13 * * *'  # 13:00 UTC = 08:00 ET (winter) / 09:00 ET (summer)
+    - cron: '0 13 * * 1,3,5'  # Mon/Wed/Fri 13:00 UTC = 08:00 ET (winter) / 09:00 ET (summer)
   workflow_dispatch:
     inputs:
       dry_run:

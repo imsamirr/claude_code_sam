@@ -41,6 +41,19 @@ STATUS_PATTERNS: list[tuple[str, list[str]]] = [
     ("Returned to sender", ["return to sender", "returned to sender", "returning", "abandoned"]),
     ("Unable to Deliver", ["unable to deliver", "delivery failed", "delivery attempt failed", "address incorrect", "rejected by"]),
     ("Fulfilled But Not Shipped", ["shipment information received"]),
+    # Customs holds — match phrases that mean the parcel is *currently* in customs.
+    # NOTE: "clearance processing completed" is a separate (cleared) state and must
+    # not match here; that's why the patterns include the "in " prefix or explicit
+    # hold/delay/detained wording.
+    ("Stuck in Customs", [
+        "in clearance processing",
+        "held by customs",
+        "customs hold",
+        "customs delay",
+        "awaiting customs",
+        "detained at customs",
+        "customs inspection",
+    ]),
     ("In transit", ["in transit", "arrived at", "departed from", "processed", "accepted", "handed over", "in custom", "cleared customs"]),
 ]
 

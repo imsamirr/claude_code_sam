@@ -42,6 +42,7 @@ LOOKUP_STATUSES = {
     "",
     "In transit",
     "Stuck In Transit",
+    "Stuck in Customs",
     "Out For Delivery",
     "Ready for Pick Up",
     "Fulfilled But Not Shipped",
@@ -140,6 +141,9 @@ def compute_metrics(results, no_tracking_open):
     ]
     returned = [r for r in results if r["new_status"] == "Returned to sender"]
     fbns = [r for r in results if r["new_status"] == "Fulfilled But Not Shipped"]
+    stuck_in_customs = [r for r in results if r["new_status"] == "Stuck in Customs"]
+    # "Stuck > 10 days" is the generic-transit alert. Customs-held parcels are
+    # reported under their own section above so they don't double-count here.
     in_transit = [
         r for r in results
         if r["new_status"] in {"In transit", "Stuck In Transit"}
@@ -160,6 +164,7 @@ def compute_metrics(results, no_tracking_open):
         "avg_delivery_days": avg_delivery_days,
         "returned": returned,
         "fbns": fbns,
+        "stuck_in_customs": stuck_in_customs,
         "stuck_10_plus": stuck_10_plus,
         "no_tracking_open": no_tracking_open,
     }
@@ -187,6 +192,12 @@ def build_lists_csv(metrics) -> str:
     for r in metrics["stuck_10_plus"]:
         w.writerow([
             f"Stuck > {STUCK_THRESHOLD_DAYS} days",
+            r["row"], r["order"], r["date"], r["tracking"],
+            r.get("new_days", ""), r.get("new_status", ""),
+        ])
+    for r in metrics["stuck_in_customs"]:
+        w.writerow([
+            "Stuck in Customs",
             r["row"], r["order"], r["date"], r["tracking"],
             r.get("new_days", ""), r.get("new_status", ""),
         ])
@@ -284,6 +295,17 @@ def build_message(metrics, today: str) -> str:
         )
         parts.append(fmt_rows(
             m["stuck_10_plus"],
+            fields=("order", "date", "new_days", "tracking"),
+        ))
+        parts.append("")
+
+    if m["stuck_in_customs"]:
+        parts.append(
+            f":warning: *Stuck in Customs* ({len(m['stuck_in_customs'])} orders — "
+            f"latest tracking event still in customs clearance)"
+        )
+        parts.append(fmt_rows(
+            m["stuck_in_customs"],
             fields=("order", "date", "new_days", "tracking"),
         ))
         parts.append("")
