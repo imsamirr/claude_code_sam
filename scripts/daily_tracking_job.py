@@ -18,6 +18,8 @@ Optional:
 
 from __future__ import annotations
 
+import csv
+import io
 import json
 import os
 import sys
@@ -176,6 +178,89 @@ def fmt_rows(rows, max_items=None, fields=("order", "date", "tracking")) -> str:
     return "\n".join(lines)
 
 
+def build_lists_csv(metrics) -> str:
+    """One CSV with every actionable row across the four problem categories."""
+    buf = io.StringIO()
+    w = csv.writer(buf)
+    w.writerow(["category", "row_in_sheet", "order", "date", "tracking", "days_in_transit", "status"])
+
+    for r in metrics["stuck_10_plus"]:
+        w.writerow([
+            f"Stuck > {STUCK_THRESHOLD_DAYS} days",
+            r["row"], r["order"], r["date"], r["tracking"],
+            r.get("new_days", ""), r.get("new_status", ""),
+        ])
+    for r in metrics["returned"]:
+        w.writerow([
+            "Returned to sender",
+            r["row"], r["order"], r["date"], r["tracking"],
+            r.get("new_days", ""), r.get("new_status", ""),
+        ])
+    for r in metrics["fbns"]:
+        w.writerow([
+            "Fulfilled But Not Shipped",
+            r["row"], r["order"], r["date"], r["tracking"],
+            r.get("new_days", ""), r.get("new_status", ""),
+        ])
+    for r in metrics["no_tracking_open"]:
+        w.writerow([
+            "No Tracking",
+            r["row"], r["order"], r["date"], "", "", r.get("status", ""),
+        ])
+    return buf.getvalue()
+
+
+def upload_csv_to_slack(channel: str, filename: str, csv_text: str,
+                        thread_ts: str | None = None,
+                        initial_comment: str | None = None) -> dict | None:
+    """Upload a CSV file to Slack via the files v2 upload flow.
+
+    Returns the completed file object, or None if SLACK_BOT_TOKEN isn't set.
+    Three steps:
+      1. files.getUploadURLExternal -> {upload_url, file_id}
+      2. POST file bytes to upload_url
+      3. files.completeUploadExternal with file_id + channels
+    """
+    token = os.environ.get("SLACK_BOT_TOKEN")
+    if not token:
+        return None
+    headers = {"Authorization": f"Bearer {token}"}
+    data = csv_text.encode("utf-8")
+
+    r = requests.get(
+        "https://slack.com/api/files.getUploadURLExternal",
+        headers=headers,
+        params={"filename": filename, "length": str(len(data))},
+        timeout=20,
+    )
+    j = r.json()
+    if not j.get("ok"):
+        raise RuntimeError(f"Slack getUploadURLExternal failed: {j}")
+    upload_url, file_id = j["upload_url"], j["file_id"]
+
+    r = requests.post(upload_url, headers=headers, data=data, timeout=30)
+    r.raise_for_status()
+
+    complete_body = {
+        "files": [{"id": file_id, "title": filename}],
+        "channel_id": channel,
+    }
+    if thread_ts:
+        complete_body["thread_ts"] = thread_ts
+    if initial_comment:
+        complete_body["initial_comment"] = initial_comment
+    r = requests.post(
+        "https://slack.com/api/files.completeUploadExternal",
+        headers={**headers, "Content-Type": "application/json; charset=utf-8"},
+        json=complete_body,
+        timeout=20,
+    )
+    j = r.json()
+    if not j.get("ok"):
+        raise RuntimeError(f"Slack completeUploadExternal failed: {j}")
+    return j
+
+
 def build_message(metrics, today: str) -> str:
     m = metrics
     avg = (
@@ -223,13 +308,14 @@ def build_message(metrics, today: str) -> str:
     return "\n".join(parts)
 
 
-def post_slack(message: str) -> None:
+def post_slack(message: str) -> str | None:
+    """Post the daily report and return the parent ts (for threaded follow-ups)."""
     token = os.environ.get("SLACK_BOT_TOKEN")
     channel = os.environ.get("SLACK_CHANNEL_ID")
     if not token or not channel:
         print("SLACK_BOT_TOKEN / SLACK_CHANNEL_ID not set; printing message only:\n")
         print(message)
-        return
+        return None
     # Slack caps a single text block at ~40k chars. Most days the report
     # fits in one message; if not, chunk by paragraph boundary and thread.
     chunks = []
@@ -262,6 +348,7 @@ def post_slack(message: str) -> None:
         if i == 0:
             parent_ts = data["ts"]
     print(f"Posted to Slack channel {channel}: {len(chunks)} message(s)")
+    return parent_ts
 
 
 def main():
@@ -289,7 +376,23 @@ def main():
 
     metrics = compute_metrics(results, no_tracking_open)
     message = build_message(metrics, today)
-    post_slack(message)
+    parent_ts = post_slack(message)
+
+    # Attach the actionable rows as a CSV (replied in-thread on the main post).
+    csv_text = build_lists_csv(metrics)
+    channel = os.environ.get("SLACK_CHANNEL_ID")
+    if channel and parent_ts:
+        try:
+            upload_csv_to_slack(
+                channel=channel,
+                filename=f"tracking-action-lists-{today}.csv",
+                csv_text=csv_text,
+                thread_ts=parent_ts,
+                initial_comment="Action lists (Stuck, Returned, Fulfilled But Not Shipped, No Tracking) — sortable CSV.",
+            )
+            print("CSV attached as thread reply")
+        except Exception as e:
+            print(f"CSV upload failed: {e}")
 
 
 if __name__ == "__main__":

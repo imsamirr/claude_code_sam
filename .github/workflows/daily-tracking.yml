@@ -1,3 +1,13 @@
+# Required secrets:
+#   GOOGLE_SA_JSON   service-account JSON with Editor on the sheet
+#   SLACK_BOT_TOKEN  xoxb-... token for a Slack bot that's a member of
+#                    #team-order-tracking-updates, with scopes:
+#                      chat:write    — post the daily message
+#                      files:write   — attach the action-lists CSV
+#
+# Optional repo variables (override the inline defaults below):
+#   SHEET_ID, SHEET_TAB, SLACK_CHANNEL_ID
+
 name: Daily tracking refresh and Slack report
 
 on:

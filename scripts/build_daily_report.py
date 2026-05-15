@@ -25,6 +25,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from daily_tracking_job import (  # noqa: E402
     LOOKUP_STATUSES,
     NO_TRACKING_OPEN_SKIP,
+    build_lists_csv,
     build_message,
     compute_metrics,
 )
@@ -70,6 +71,7 @@ def main():
     ap.add_argument("--raw", default=None,
                     help="JSON [{row, raw_status}, ...] for FBNS classification")
     ap.add_argument("--out-file", default=None)
+    ap.add_argument("--csv-out", default=None, help="Also write the action-lists CSV here")
     args = ap.parse_args()
 
     rows = read_csv(args.csv)
@@ -119,6 +121,10 @@ def main():
         print(f"wrote {args.out_file}", file=sys.stderr)
     else:
         print(message)
+
+    if args.csv_out:
+        Path(args.csv_out).write_text(build_lists_csv(metrics))
+        print(f"wrote {args.csv_out}", file=sys.stderr)
 
 
 if __name__ == "__main__":
