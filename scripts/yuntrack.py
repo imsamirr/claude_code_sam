@@ -40,6 +40,7 @@ STATUS_PATTERNS: list[tuple[str, list[str]]] = [
     ("Ready for Pick Up", ["ready for pickup", "available for pickup", "awaiting collection", "held at"]),
     ("Returned to sender", ["return to sender", "returned to sender", "returning", "abandoned"]),
     ("Unable to Deliver", ["unable to deliver", "delivery failed", "delivery attempt failed", "address incorrect", "rejected by"]),
+    ("Fulfilled But Not Shipped", ["shipment information received"]),
     ("In transit", ["in transit", "arrived at", "departed from", "processed", "accepted", "handed over", "in custom", "cleared customs"]),
 ]
 

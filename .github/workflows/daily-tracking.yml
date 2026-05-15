@@ -1,0 +1,43 @@
+name: Daily tracking refresh and Slack report
+
+on:
+  schedule:
+    - cron: '0 13 * * *'  # 13:00 UTC = 08:00 ET (winter) / 09:00 ET (summer)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Skip sheet writes (still posts to Slack)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: daily-tracking
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install gspread==5.12.0 google-auth==2.23.4 requests==2.31.0
+
+      - name: Run daily tracking job
+        env:
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          SHEET_ID: ${{ vars.SHEET_ID || '1D-FIUSN5BsLL7JIMSnvcjNWREPm3qxkbj6BfjPud4Rk' }}
+          SHEET_TAB: ${{ vars.SHEET_TAB || '2026 ORDERS' }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ vars.SLACK_CHANNEL_ID || 'C04PZVBS9GA' }}
+          LOOKUP_DELAY: '0.4'
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+        run: python scripts/daily_tracking_job.py
