@@ -1,12 +1,12 @@
 ---
 name: tracking-report
-description: Run the shipping-status tracking refresh job ad-hoc — re-look up every non-Delivered order on yuntrack, write status updates back to the 2026 ORDERS sheet, and post a daily summary plus action-lists CSV to #team-order-tracking-updates. Use when the user wants to trigger an off-schedule run (e.g. "run the tracking report now", "post today's shipping update", "refresh the stuck-orders list"). The scheduled cron at .github/workflows/daily-tracking.yml already fires Mon/Wed/Fri 13:00 UTC, so prefer that for routine reporting; this skill is for one-offs.
+description: Run the shipping-status tracking refresh job ad-hoc — re-look up every non-Delivered order on yuntrack, write status updates back to the 2026 ORDERS sheet, and post a daily summary plus action-lists CSV to #team-order-tracking-updates. Use when the user wants to trigger an off-schedule run (e.g. "run the tracking report now", "post today's shipping update", "refresh the stuck-orders list"). The scheduled cron at .github/workflows/daily-tracking.yml already fires daily at 13:00 UTC, so prefer that for routine reporting; this skill is for one-offs.
 ---
 
 # Tracking Report — Ad-Hoc Run
 
 You are being asked to run the order-tracking refresh outside of its
-scheduled Mon/Wed/Fri 13:00 UTC cron. There are two paths; pick based on
+scheduled daily 13:00 UTC cron. There are two paths; pick based on
 what the user actually wants.
 
 ## Decide first: production or sandbox?
