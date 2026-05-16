@@ -1,153 +1,148 @@
 ---
 name: tracking-report
-description: Run the shipping-status tracking refresh job ad-hoc — re-look up every non-Delivered order on yuntrack, write status updates back to the 2026 ORDERS sheet, and post a daily summary plus action-lists CSV to #team-order-tracking-updates. Use when the user wants to trigger an off-schedule run (e.g. "run the tracking report now", "post today's shipping update", "refresh the stuck-orders list"). The scheduled cron at .github/workflows/daily-tracking.yml already fires daily at 13:00 UTC, so prefer that for routine reporting; this skill is for one-offs.
+description: Post the daily shipping-status report to Slack. Two flows are supported. **Stage 2 (post-only, the daily trigger's path)**: a GitHub Action already refreshed the sheet at 13:00 UTC and committed today's pre-built message + CSV to `tracking-updates/daily-reports/<DATE>.{txt,csv}`. Pull the latest, read those files, post to #team-order-tracking-updates via the Slack MCP, upload the CSV to Drive, and reply in-thread with the link. **Ad-hoc / on-demand**: full lookup + post, used when the user types something like "run the tracking report now" outside the cron window. Trigger on: a scheduled invocation that names this skill, or user phrases like "post today's shipping update", "run the tracking report", "refresh the stuck-orders list".
 ---
 
-# Tracking Report — Ad-Hoc Run
+# Tracking Report
 
-You are being asked to run the order-tracking refresh outside of its
-scheduled daily 13:00 UTC cron. There are two paths; pick based on
-what the user actually wants.
+You're being asked to surface the daily shipping-status update. Pick a
+flow based on context.
 
-## Decide first: production or sandbox?
+## Stage 2 — post-only (the daily trigger's path)
 
-Ask the user (briefly) if it isn't already obvious:
+This is what runs every day. The GitHub Action
+`.github/workflows/daily-tracking.yml` already did the work at 13:00 UTC:
+re-looked up every non-Delivered order on yuntrack, wrote status
+updates back to the 2026 ORDERS sheet, and committed two artifacts to
+the `claude/shipping-status-tracker-OCqtX` branch:
 
-- **Production** — *update the real sheet and post to the real channel.*
-  Trigger the GitHub Action via `workflow_dispatch`. This is the right
-  path 95% of the time — same secrets, same Python, same data flow as
-  the cron job, with no chance of writing the wrong values from a local
-  CSV that's already gone stale.
-- **Preview only** — *don't touch the sheet, just see what the report
-  would look like.* Either trigger `workflow_dispatch` with the
-  `dry_run` input checked (it will skip sheet writes but still post to
-  Slack), or run locally with the steps below if Slack must also be
-  suppressed.
+- `tracking-updates/daily-reports/<DATE>.txt` — the Slack message body
+- `tracking-updates/daily-reports/<DATE>.csv` — the action-lists CSV
 
-## Path A — production / preview via GitHub Actions
+Your job at 14:00 UTC is to read those two files and post them.
 
-Find the workflow and dispatch it (requires the GitHub MCP tools):
+### Steps
 
-1. The workflow file is `.github/workflows/daily-tracking.yml` on the
-   `claude/shipping-status-tracker-OCqtX` branch (or whatever branch is
-   current; check `git branch --show-current`).
-2. Use `mcp__github__` tooling to dispatch the workflow — there is no
-   direct workflow-run dispatch tool exposed by default, so guide the
-   user to click *Run workflow* on the Actions page, OR use the GitHub
-   REST API via curl with a PAT.
-3. Watch for the workflow's commit on the branch (`Mark tracking
-   updates as applied`) the same way the apply workflow's runs are
-   tracked. Use a Monitor that polls `git fetch` + `git log` on the
-   branch. Do **not** poll via Bash `sleep` loops.
-4. When it lands, fetch and share the Slack permalink — the workflow
-   logs print it after `chat.postMessage` returns.
-
-Required secrets (must already be configured):
-
-- `GOOGLE_SA_JSON` — service account with Editor on the sheet
-- `SLACK_BOT_TOKEN` — `xoxb-…` token; bot must be in
-  `#team-order-tracking-updates` (`C04PZVBS9GA`) and hold `chat:write`
-  plus `files:write` scopes.
-
-## Path B — local lookup (no sheet write, custom Slack send)
-
-Use this only if the user wants you to control the post yourself
-(e.g. "draft the message, let me review before sending") or the
-service account is unavailable. The lookup itself works fine without
-any Google credentials.
-
-1. Refresh the sheet snapshot:
+1. **Pull the latest commit** so today's artifacts are present:
    ```
-   mcp__9ceb8d52-...__download_file_content fileId=1D-FIUSN5BsLL7JIMSnvcjNWREPm3qxkbj6BfjPud4Rk exportMimeType=text/csv
-   ```
-   The result is too large for the chat — it gets persisted to disk; jq
-   the `.content` field and base64 -d to recover the CSV. Save as
-   `/tmp/sheet.csv`.
-
-2. **Use `csv.reader` for row numbering, never `awk`.** The sheet has
-   ~700 multi-line quoted cells; `awk`'s `NR` over-counts and you will
-   write status updates to the wrong sheet rows. This is a real bug
-   that already happened once on this project — don't repeat it.
-
-3. Build the lookup input:
-   ```python
-   import csv, json
-   LOOKUP_STATUSES = {"", "In transit", "Stuck In Transit",
-                      "Stuck in Customs", "Out For Delivery",
-                      "Ready for Pick Up", "Fulfilled But Not Shipped"}
-   with open('/tmp/sheet.csv', newline='') as f:
-       reader = csv.reader(f); next(reader)
-       targets = [
-           {"row": i, "tracking": r[2].strip()}
-           for i, r in enumerate(reader, start=2)
-           if len(r) >= 6 and r[2].strip() and r[3].strip() in LOOKUP_STATUSES
-       ]
-   json.dump(targets, open('/tmp/in.json', 'w'))
+   git pull --ff-only origin claude/shipping-status-tracker-OCqtX
    ```
 
-4. Run the lookup. ~3,000 rows takes ~25 min — kick it off with
-   `Bash run_in_background=true` so the foreground stays responsive,
-   and arm an `until ! kill -0 <pid>` watcher for completion:
+2. **Find today's report files**:
    ```
-   nohup python -u scripts/lookup_tracking.py /tmp/in.json --delay 0.4 \
-     --out daily-$(date -u +%Y%m%dT%H%M%S).json \
-     > /tmp/lookup.log 2>&1 &
+   today=$(date -u +%Y-%m-%d)
+   msg=tracking-updates/daily-reports/$today.txt
+   csv=tracking-updates/daily-reports/$today.csv
    ```
-   The script flushes its queue file every 100 rows, so if anything
-   gets killed mid-run the partial results survive.
+   If either file is missing, the workflow either hasn't finished or
+   failed. Check the latest commit (`git log --oneline -3`) and the
+   workflow run on GitHub before doing anything else — do **not** fall
+   back to ad-hoc lookups in this flow, that's expensive and the user
+   explicitly chose option B to avoid it. Report the gap and stop.
 
-5. Generate the message + CSV from the queue file:
+3. **Read the message** via the Read tool.
+
+4. **Post the main message** to `#team-order-tracking-updates`
+   (channel id `C04PZVBS9GA`) using `mcp__3b0fa9c8-…__slack_send_message`.
+   Capture the returned `message_ts` — you need it for the thread reply.
+
+5. **Upload the CSV to Drive** via
+   `mcp__9ceb8d52-…__create_file` with:
+   - `title`: `tracking-action-lists-<DATE>.csv`
+   - `contentMimeType`: `text/csv`
+   - `disableConversionToGoogleType`: `true` (keep it as a real CSV, not
+     a Google Sheet)
+   - `parentId`: `1Q_gTAz6ViJt_IETPKqOw2JK80xG0mhQn` (the sheet's parent
+     folder — inherits the same team-share permissions)
+
+   Encode the file content as base64 before passing it as
+   `base64Content`.
+
+6. **Reply in-thread** with the Drive link via a second
+   `slack_send_message`, this time with `thread_ts` set to the
+   `message_ts` from step 4. Body template:
    ```
-   python scripts/build_daily_report.py \
-     --csv /tmp/sheet.csv \
-     --queue tracking-updates/queue/daily-*.json \
-     --out-file /tmp/slack_msg.txt \
-     --csv-out /tmp/action_lists.csv
+   Action lists as CSV: https://drive.google.com/file/d/<FILE_ID>/view
+
+   Columns: `category, row_in_sheet, order, date, tracking, days_in_transit, status`. Categories: Stuck > 10 days, Stuck in Customs, Returned to sender, Fulfilled But Not Shipped, No Tracking.
    ```
 
-6. Show the user the message preview, then post via Slack MCP:
-   - Main message: `mcp__3b0fa9c8-...__slack_send_message` to channel
-     `C04PZVBS9GA`. Capture the returned `message_ts`.
-   - CSV: there is no Slack file-upload MCP tool — upload the CSV to
-     Drive via `mcp__9ceb8d52-...__create_file` (contentMimeType
-     `text/csv`, `disableConversionToGoogleType: true`, parent
-     `1Q_gTAz6ViJt_IETPKqOw2JK80xG0mhQn`), then `slack_send_message`
-     a thread reply with the Drive view URL using the captured
-     `thread_ts`.
+7. **Stop.** Don't commit anything, don't push, don't follow up. The
+   trigger session ends naturally.
 
-7. Commit and push the queue file so the apply workflow updates the
-   sheet:
-   ```
-   git add tracking-updates/queue/daily-*.json
-   git commit -m "Ad-hoc tracking refresh queue"
-   git push -u origin <current-branch>
-   ```
+### Things to watch for
 
-## Reading the report
+- **Empty action lists are good news, not a bug.** If all four
+  categories say `_none_` in the message, just post it — that means
+  every parcel is moving normally.
+- **Don't re-look up parcels in this flow.** The whole point of Stage 2
+  is that the Action did the lookup; your job is purely to deliver the
+  pre-built artifacts. A 25-min yuntrack loop would burn Claude usage
+  budget the user is explicitly trying to avoid.
+- **The bot's identity.** Posts come from the Slack MCP's authenticated
+  user (currently `U04PZNV9FV0`), not from a separate bot account. If
+  the user wants posts to come from a `tracking-bot` instead, that's a
+  separate setup task (see `.github/SLACK_SETUP.md`).
 
-The Slack message has these sections — same in either path:
+## Ad-hoc — full lookup + post
 
-- **In Transit** count, **Newly Delivered** count + avg delivery days
-- **🚨 In Transit > 10 days** — generic stuck (any non-customs facility)
-- **⚠️ Stuck in Customs** — latest event is "In clearance processing"
-  or similar customs-hold wording
-- **Returned to sender**, **Fulfilled But Not Shipped** (label created
-  but carrier never picked up), **No Tracking Numbers** (open orders
-  without a tracking number)
+Use when the user wants a fresh report outside the cron window
+(e.g. "run the tracking report now" at 4 PM). Three sub-paths in
+descending preference:
 
-The CSV attached in the thread has every actionable row across those
-four categories, columns `category, row_in_sheet, order, date,
-tracking, days_in_transit, status`.
+1. **Workflow dispatch** — Trigger the daily workflow on GitHub
+   (`mcp__github__` tooling or guide the user to the Actions page,
+   `.github/workflows/daily-tracking.yml`). Same data flow as the cron,
+   but kicked off now. Then wait for the commit on the branch and run
+   Stage 2 above.
+
+2. **Local lookup, no sheet write** — When the user wants you to
+   draft the message for review before it goes out:
+   - Download the sheet via `mcp__9ceb8d52-…__download_file_content`
+     for `fileId=1D-FIUSN5BsLL7JIMSnvcjNWREPm3qxkbj6BfjPud4Rk` with
+     `exportMimeType=text/csv`. Save as `/tmp/sheet.csv`.
+   - **Use `csv.reader` for row numbering, never `awk`.** The sheet
+     has ~700 multi-line quoted cells (notes / item descriptions);
+     `awk`'s `NR` over-counts and you will write status updates to the
+     wrong sheet rows. This is a bug that already bit us once.
+   - Build the lookup input from the CSV (filter by status in
+     LOOKUP_STATUSES, see `scripts/daily_tracking_job.py`).
+   - Run `scripts/lookup_tracking.py` in the background; it flushes
+     its queue file every 100 rows so partial results survive a kill.
+     ~3,000 rows × 0.4 s/req ≈ 20 min.
+   - Run `scripts/build_daily_report.py --csv /tmp/sheet.csv --queue
+     <queue.json> --out-file /tmp/msg.txt --csv-out /tmp/lists.csv`.
+   - Show the user the message, post via Slack MCP + Drive CSV as
+     above.
+
+3. **From-sheet fallback** — If the user just wants to see the current
+   action lists from the sheet without any fresh lookup:
+   - Download the sheet (same as path 2).
+   - `python scripts/build_daily_report.py --csv /tmp/sheet.csv
+     --from-sheet --out-file /tmp/msg.txt --csv-out /tmp/lists.csv`.
+   - This skips the "Newly Delivered" metric (there's no diff signal
+     in --from-sheet mode) but produces the four actionable lists
+     accurately.
+
+## Sheet / Slack reference
+
+- Sheet ID: `1D-FIUSN5BsLL7JIMSnvcjNWREPm3qxkbj6BfjPud4Rk`
+- Sheet tab: `2026 ORDERS`
+- Sheet columns: A=Date, B=Order, C=Tracking, D=Shipping Update,
+  E=Days in Transit, F=Notes
+- Drive parent folder for CSV uploads:
+  `1Q_gTAz6ViJt_IETPKqOw2JK80xG0mhQn`
+- Slack channel: `#team-order-tracking-updates` →
+  `C04PZVBS9GA`
+- Branch: `claude/shipping-status-tracker-OCqtX`
+- yuntrack rate-limit floor: 0.4 s between requests (don't lower)
 
 ## Don't
 
-- Don't ask the user to set up the Slack bot or service account from
-  inside this skill. If a secret is missing, surface the error from the
-  workflow log and point at the workflow header, which lists the
-  required scopes.
-- Don't run more than one lookup batch concurrently against
-  yuntrack — they share a request quota and you'll start getting WAF
-  blocks. The 0.4 s inter-request delay is the floor.
-- Don't reclassify Canceled / Returned to sender / Unable to Deliver
-  rows — those are terminal and may be human-curated. The
-  `LOOKUP_STATUSES` set already excludes them.
+- Don't run a fresh yuntrack lookup in Stage 2 — that defeats the
+  whole point of the split architecture and burns usage budget.
+- Don't reclassify Canceled / Returned / Unable to Deliver rows; those
+  are terminal and may be human-curated. `LOOKUP_STATUSES` already
+  excludes them.
+- Don't write to sheet column F — that's the user's Notes column.
+  Only D (Shipping Update) and E (Days in Transit) are safe to update.

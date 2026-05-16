@@ -1,5 +1,8 @@
 # Required secrets:
 #   GOOGLE_SA_JSON   service-account JSON with Editor on the sheet
+#
+# Optional secrets (set if you want the workflow to post to Slack directly,
+# instead of letting the Claude trigger handle it):
 #   SLACK_BOT_TOKEN  xoxb-... token for a Slack bot that's a member of
 #                    #team-order-tracking-updates, with scopes:
 #                      chat:write    — post the daily message
@@ -16,12 +19,12 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: 'Skip sheet writes (still posts to Slack)'
+        description: 'Skip sheet writes'
         type: boolean
         default: false
 
 permissions:
-  contents: read
+  contents: write  # to commit the daily report files
 
 concurrency:
   group: daily-tracking
@@ -33,6 +36,9 @@ jobs:
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Need a real ref so the post-job commit can push back to the branch.
+          ref: ${{ github.ref }}
 
       - uses: actions/setup-python@v5
         with:
@@ -51,3 +57,26 @@ jobs:
           LOOKUP_DELAY: '0.4'
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
         run: python scripts/daily_tracking_job.py
+
+      - name: Commit daily report artifacts
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tracking-updates/daily-reports/
+          if git diff --cached --quiet; then
+            echo "no daily report files to commit"
+            exit 0
+          fi
+          today=$(date -u +%Y-%m-%d)
+          git commit -m "Daily tracking report — $today"
+          # Retry push with backoff in case of concurrent pushes
+          for delay in 2 4 8 16; do
+            if git push origin "${GITHUB_REF#refs/heads/}"; then
+              exit 0
+            fi
+            echo "push failed, retrying in ${delay}s..."
+            sleep "$delay"
+            git pull --rebase origin "${GITHUB_REF#refs/heads/}"
+          done
+          git push origin "${GITHUB_REF#refs/heads/}"

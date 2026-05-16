@@ -398,10 +398,22 @@ def main():
 
     metrics = compute_metrics(results, no_tracking_open)
     message = build_message(metrics, today)
-    parent_ts = post_slack(message)
-
-    # Attach the actionable rows as a CSV (replied in-thread on the main post).
     csv_text = build_lists_csv(metrics)
+
+    # Persist the report so a downstream Claude trigger (or anyone) can post
+    # it later without rerunning the lookups. The GitHub workflow commits
+    # this directory after the job completes.
+    reports_dir = Path("tracking-updates/daily-reports")
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    msg_path = reports_dir / f"{today}.txt"
+    csv_path = reports_dir / f"{today}.csv"
+    msg_path.write_text(message)
+    csv_path.write_text(csv_text)
+    print(f"wrote {msg_path} ({len(message)} chars) and {csv_path}")
+
+    # Direct Slack post (only fires if SLACK_BOT_TOKEN is configured —
+    # the no-token path is fine; the Claude trigger will pick the files up).
+    parent_ts = post_slack(message)
     channel = os.environ.get("SLACK_CHANNEL_ID")
     if channel and parent_ts:
         try:
@@ -410,7 +422,7 @@ def main():
                 filename=f"tracking-action-lists-{today}.csv",
                 csv_text=csv_text,
                 thread_ts=parent_ts,
-                initial_comment="Action lists (Stuck, Returned, Fulfilled But Not Shipped, No Tracking) — sortable CSV.",
+                initial_comment="Action lists (Stuck, Customs, Returned, Fulfilled But Not Shipped, No Tracking) — sortable CSV.",
             )
             print("CSV attached as thread reply")
         except Exception as e:
