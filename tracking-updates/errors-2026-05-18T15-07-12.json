@@ -1,0 +1,22 @@
+[
+  {
+    "row": 10979,
+    "tracking": "YT2606600703313793",
+    "error": "No events found in response (schema may have changed)"
+  },
+  {
+    "row": 32438,
+    "tracking": "YT2613100705220450",
+    "error": "HTTP/JSON error: 403 Client Error: Forbidden for url: https://services.yuntrack.com/Track/Query"
+  },
+  {
+    "row": 32439,
+    "tracking": "YT2613101001523175",
+    "error": "HTTP/JSON error: 403 Client Error: Forbidden for url: https://services.yuntrack.com/Track/Query"
+  },
+  {
+    "row": 33603,
+    "tracking": "UL156924066YP,UL15",
+    "error": "No events found in response (schema may have changed)"
+  }
+]
