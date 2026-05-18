@@ -273,11 +273,14 @@ def upload_csv_to_slack(channel: str, filename: str, csv_text: str,
 
 
 def build_message(metrics, today: str) -> str:
+    """Counts-only summary. The action-lists CSV (attached as a thread
+    reply) carries the per-order detail — Slack messages stay scannable.
+    """
     m = metrics
     avg = (
         f"{m['avg_delivery_days']:.1f} days"
         if m["avg_delivery_days"] is not None
-        else "n/a (no new deliveries today)"
+        else "n/a"
     )
 
     parts = [f"*Daily Tracking Update — {today}*", ""]
@@ -288,44 +291,26 @@ def build_message(metrics, today: str) -> str:
     )
     parts.append("")
 
-    if m["stuck_10_plus"]:
-        parts.append(
-            f":rotating_light: *In Transit > {STUCK_THRESHOLD_DAYS} days* "
-            f"({len(m['stuck_10_plus'])} orders)"
-        )
-        parts.append(fmt_rows(
-            m["stuck_10_plus"],
-            fields=("order", "date", "new_days", "tracking"),
-        ))
-        parts.append("")
-
-    if m["stuck_in_customs"]:
-        parts.append(
-            f":warning: *Stuck in Customs* ({len(m['stuck_in_customs'])} orders — "
-            f"latest tracking event still in customs clearance)"
-        )
-        parts.append(fmt_rows(
-            m["stuck_in_customs"],
-            fields=("order", "date", "new_days", "tracking"),
-        ))
-        parts.append("")
-
-    parts.append(f"*Returned to sender* ({len(m['returned'])} orders)")
-    parts.append(fmt_rows(m["returned"]))
-    parts.append("")
-
+    parts.append("*Needs attention*")
     parts.append(
-        f"*Fulfilled But Not Shipped* "
-        f"({len(m['fbns'])} orders — tracking event still \"Shipment information received\")"
+        f":rotating_light: In Transit > {STUCK_THRESHOLD_DAYS} days: "
+        f"*{len(m['stuck_10_plus'])}* orders"
     )
-    parts.append(fmt_rows(m["fbns"]))
-    parts.append("")
-
     parts.append(
-        f"*No Tracking Numbers* "
-        f"({len(m['no_tracking_open'])} open orders without a tracking number)"
+        f":warning: Stuck in Customs: *{len(m['stuck_in_customs'])}* orders"
     )
-    parts.append(fmt_rows(m["no_tracking_open"], fields=("order", "date", "status")))
+    parts.append(f"Returned to sender: *{len(m['returned'])}* orders")
+    parts.append(
+        f"Fulfilled But Not Shipped: *{len(m['fbns'])}* orders "
+        f"(label created, no carrier movement)"
+    )
+    parts.append(
+        f"No Tracking Numbers: *{len(m['no_tracking_open'])}* open orders"
+    )
+    parts.append("")
+    parts.append(
+        ":arrow_down: Full per-order lists in the CSV attached in this thread."
+    )
 
     return "\n".join(parts)
 

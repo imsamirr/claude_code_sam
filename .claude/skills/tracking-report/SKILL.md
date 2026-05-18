@@ -72,9 +72,15 @@ Your job at 14:00 UTC is to read those two files and post them.
 
 ### Things to watch for
 
-- **Empty action lists are good news, not a bug.** If all four
-  categories say `_none_` in the message, just post it — that means
-  every parcel is moving normally.
+- **Message body is counts-only, no order lists.** The user explicitly
+  asked for the Slack post to stay short and the per-order detail to
+  live only in the CSV thread reply. `build_message()` in
+  `scripts/daily_tracking_job.py` already produces a ~500-char summary
+  with one count per category. **Never paste order numbers, tracking
+  numbers, row IDs, or bulleted lists into the main message** — even
+  if a category only has 1-2 entries. Consistency every run, every
+  category. If the user wants to see who's in a category, they open
+  the CSV.
 - **Don't re-look up parcels in this flow.** The whole point of Stage 2
   is that the Action did the lookup; your job is purely to deliver the
   pre-built artifacts. A 25-min yuntrack loop would burn Claude usage
