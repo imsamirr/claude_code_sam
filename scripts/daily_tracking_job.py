@@ -66,12 +66,30 @@ def read_sheet():
 
 
 def collect_targets(values: list[list[str]]):
-    """Split sheet rows into lookup targets and no-tracking-open lists."""
+    """Split sheet rows into lookup targets, no-tracking-open, and the
+    standing list of rows already flagged 'Returned to sender'.
+
+    Returned-to-sender is terminal (not in LOOKUP_STATUSES), so those rows
+    are never re-looked-up. If we only counted returns detected during this
+    run's lookups, a return would show up once and then vanish from the
+    report the next day. Collecting them straight from the sheet keeps every
+    returned order flagged as a shipping issue on every run.
+    """
     lookup_targets: list[dict[str, Any]] = []
     no_tracking_open: list[dict[str, Any]] = []
+    returned_in_sheet: list[dict[str, Any]] = []
     for i, row in enumerate(values[1:], start=2):
         padded = list(row) + [""] * (6 - len(row))
         date, order, tracking, status, days, _notes = [c.strip() for c in padded[:6]]
+        if status == "Returned to sender":
+            returned_in_sheet.append({
+                "row": i,
+                "order": order,
+                "date": date,
+                "tracking": tracking,
+                "new_status": "Returned to sender",
+                "new_days": days,
+            })
         if tracking and status in LOOKUP_STATUSES:
             lookup_targets.append({
                 "row": i,
@@ -88,7 +106,7 @@ def collect_targets(values: list[list[str]]):
                 "date": date,
                 "status": status,
             })
-    return lookup_targets, no_tracking_open
+    return lookup_targets, no_tracking_open, returned_in_sheet
 
 
 def do_lookups(targets, delay: float):
@@ -134,12 +152,21 @@ def parse_days(s: str) -> int:
         return 0
 
 
-def compute_metrics(results, no_tracking_open):
+def compute_metrics(results, no_tracking_open, returned_in_sheet=None):
     newly_delivered = [
         r for r in results
         if r["old_status"] != "Delivered" and r["new_status"] == "Delivered"
     ]
-    returned = [r for r in results if r["new_status"] == "Returned to sender"]
+    # Returns flagged this run, plus every row already standing as
+    # "Returned to sender" in the sheet (deduped by row) so a return stays
+    # in the report instead of dropping off after the day it's detected.
+    returned_by_row = {
+        r["row"]: r for r in (returned_in_sheet or [])
+    }
+    for r in results:
+        if r["new_status"] == "Returned to sender":
+            returned_by_row[r["row"]] = r
+    returned = sorted(returned_by_row.values(), key=lambda r: r["row"])
     fbns = [r for r in results if r["new_status"] == "Fulfilled But Not Shipped"]
     stuck_in_customs = [r for r in results if r["new_status"] == "Stuck in Customs"]
     # "Stuck > 10 days" is the generic-transit alert. Customs-held parcels are
@@ -366,8 +393,9 @@ def main():
     sh, values = read_sheet()
     print(f"sheet rows: {len(values)}")
 
-    targets, no_tracking_open = collect_targets(values)
-    print(f"lookup targets: {len(targets)} | no-tracking open: {len(no_tracking_open)}")
+    targets, no_tracking_open, returned_in_sheet = collect_targets(values)
+    print(f"lookup targets: {len(targets)} | no-tracking open: {len(no_tracking_open)} "
+          f"| returned-in-sheet: {len(returned_in_sheet)}")
     print("by old_status:", dict(Counter(t["old_status"] for t in targets)))
 
     delay = float(os.environ.get("LOOKUP_DELAY", "0.4"))
@@ -381,7 +409,7 @@ def main():
     else:
         print("DRY_RUN=1, skipping sheet writes")
 
-    metrics = compute_metrics(results, no_tracking_open)
+    metrics = compute_metrics(results, no_tracking_open, returned_in_sheet)
     message = build_message(metrics, today)
     csv_text = build_lists_csv(metrics)
 

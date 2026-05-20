@@ -66,7 +66,14 @@ def read_csv(path: str):
 def collect_targets(rows):
     targets = []
     no_tracking_open = []
+    returned_in_sheet = []
     for r in rows:
+        if r["status"] == "Returned to sender":
+            returned_in_sheet.append({
+                "row": r["row"], "order": r["order"], "date": r["date"],
+                "tracking": r["tracking"], "new_status": "Returned to sender",
+                "new_days": r["days"],
+            })
         if r["tracking"] and r["status"] in LOOKUP_STATUSES:
             targets.append({
                 "row": r["row"], "tracking": r["tracking"],
@@ -78,7 +85,7 @@ def collect_targets(rows):
                 "row": r["row"], "order": r["order"],
                 "date": r["date"], "status": r["status"],
             })
-    return targets, no_tracking_open
+    return targets, no_tracking_open, returned_in_sheet
 
 
 def build_results_from_sheet(rows, today):
@@ -134,9 +141,10 @@ def main():
         ap.error("--queue and --from-sheet are mutually exclusive")
 
     rows = read_csv(args.csv)
-    targets, no_tracking_open = collect_targets(rows)
+    targets, no_tracking_open, returned_in_sheet = collect_targets(rows)
     print(f"csv rows: {len(rows)}, lookup targets: {len(targets)}, "
-          f"no-tracking open: {len(no_tracking_open)}", file=sys.stderr)
+          f"no-tracking open: {len(no_tracking_open)}, "
+          f"returned-in-sheet: {len(returned_in_sheet)}", file=sys.stderr)
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
@@ -162,7 +170,7 @@ def main():
                 **t, "new_status": new_status, "new_days": new_days,
                 "raw_status": raw, "error": None,
             })
-    metrics = compute_metrics(results, no_tracking_open)
+    metrics = compute_metrics(results, no_tracking_open, returned_in_sheet)
     message = build_message(metrics, today)
 
     print(json.dumps({
