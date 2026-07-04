@@ -1,0 +1,13 @@
+*Daily Tracking Update — 2026-07-04*
+
+*In Transit:* 178 orders
+*Newly Delivered:* 22 orders   ·   *Avg Delivery Time:* 11.3 days
+
+*Needs attention*
+:rotating_light: In Transit > 10 days: *174* orders
+:warning: Stuck in Customs: *3* orders
+Returned to sender: *0* orders
+Fulfilled But Not Shipped: *0* orders (label created, no carrier movement)
+No Tracking Numbers: *0* open orders
+
+:arrow_down: Full per-order lists in the CSV attached in this thread.
