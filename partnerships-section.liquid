@@ -59,12 +59,11 @@
               {%- assign has_link = true -%}
             {%- endif -%}
 
-            {%- if has_link -%}
-              <a href="{{ block.settings.link }}" class="pp-card" {{ block.shopify_attributes }}>
-            {%- else -%}
-              <div class="pp-card pp-card--static" {{ block.shopify_attributes }}>
-            {%- endif -%}
-
+            <a
+              class="pp-card{% unless has_link %} pp-card--static{% endunless %}"
+              {% if has_link %}href="{{ block.settings.link }}"{% endif %}
+              {{ block.shopify_attributes }}
+            >
               <div class="pp-card__body">
                 <span class="pp-card__icon">
                   {%- case block.settings.icon -%}
@@ -108,12 +107,7 @@
                   </span>
                 {%- endif -%}
               </div>
-
-            {%- if has_link -%}
-              </a>
-            {%- else -%}
-              </div>
-            {%- endif -%}
+            </a>
           {%- endif -%}
         {%- endfor -%}
       </div>
@@ -178,7 +172,10 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
     height: 100%;
   }
-  a.pp-card:hover {
+  .pp-card--static {
+    cursor: default;
+  }
+  .pp-card:not(.pp-card--static):hover {
     transform: translateY(-4px);
     box-shadow: 0 14px 34px rgba(0, 0, 0, 0.1);
     border-color: rgba(var(--color-foreground, 18, 18, 18), 0.16);
@@ -229,7 +226,7 @@
   .pp-card__arrow {
     transition: transform 0.2s ease;
   }
-  a.pp-card:hover .pp-card__arrow {
+  .pp-card:not(.pp-card--static):hover .pp-card__arrow {
     transform: translateX(3px);
   }
 
