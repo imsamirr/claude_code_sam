@@ -6,6 +6,7 @@
         "option-dental": {
           "type": "option",
           "settings": {
+            "icon": "tooth",
             "title": "I'm a Dental Professional",
             "description": "Wholesale, demonstration units, customisations."
           }
@@ -13,6 +14,7 @@
         "option-creator": {
           "type": "option",
           "settings": {
+            "icon": "camera",
             "title": "I'm a Content Creator",
             "description": "Demonstration units, content collaboration and influencer."
           }
@@ -20,6 +22,7 @@
         "option-retailer": {
           "type": "option",
           "settings": {
+            "icon": "store",
             "title": "I work for a Retailer",
             "description": "Online and in-store retail."
           }
@@ -27,6 +30,7 @@
         "option-other": {
           "type": "option",
           "settings": {
+            "icon": "handshake",
             "title": "Other Partnership",
             "description": "PR or other partnerships."
           }
