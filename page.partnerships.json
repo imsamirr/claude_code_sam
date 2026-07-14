@@ -1,0 +1,63 @@
+{
+  "sections": {
+    "main": {
+      "type": "partnerships",
+      "blocks": {
+        "option-dental": {
+          "type": "option",
+          "settings": {
+            "title": "I'm a Dental Professional",
+            "description": "Wholesale, demonstration units, customisations."
+          }
+        },
+        "option-creator": {
+          "type": "option",
+          "settings": {
+            "title": "I'm a Content Creator",
+            "description": "Demonstration units, content collaboration and influencer."
+          }
+        },
+        "option-retailer": {
+          "type": "option",
+          "settings": {
+            "title": "I work for a Retailer",
+            "description": "Online and in-store retail."
+          }
+        },
+        "option-other": {
+          "type": "option",
+          "settings": {
+            "title": "Other Partnership",
+            "description": "PR or other partnerships."
+          }
+        }
+      },
+      "block_order": [
+        "option-dental",
+        "option-creator",
+        "option-retailer",
+        "option-other"
+      ],
+      "settings": {
+        "heading": "Partnerships",
+        "subtitle": "<p>Click the option below that is most suited to your partnership opportunity to get in contact with the relevant team.</p>",
+        "columns_desktop": 4,
+        "columns_tablet": 2,
+        "card_gap": 24,
+        "card_corner_radius": 16,
+        "card_cta_label": "Get in touch",
+        "form_heading": "Get in touch",
+        "form_subheading": "Complete the form below and the relevant team will reach out within 1 working day.",
+        "submit_label": "Submit",
+        "success_message": "<p>Your submission has been received! A member of our partnerships team will reach out within 1 working day.</p>",
+        "support_text": "<p>If you would like to speak to customer service, please visit our support page.</p>",
+        "support_button_label": "Support",
+        "support_button_link": "shopify://pages/support",
+        "color_scheme": "scheme-1",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": ["main"]
+}
