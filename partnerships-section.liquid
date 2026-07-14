@@ -1,0 +1,687 @@
+{%- comment -%}
+  ============================================================================
+  Section: Partnerships
+  ----------------------------------------------------------------------------
+  A partnership landing page modelled on zimadental.com/pages/partnerships,
+  rebuilt natively for the Horizon theme.
+
+  Structure:
+    1. Heading + subtitle
+    2. A responsive grid of clickable "option" cards (image, title, blurb).
+       Clicking a card smooth-scrolls to the contact form below and
+       pre-selects the matching partnership type in the dropdown.
+    3. A single native Shopify contact form (no paid app required).
+    4. A support note with a button.
+
+  Install:
+    Online Store > Themes > ... > Edit code > Sections > Add a new section,
+    name it "partnerships", paste this whole file, Save. Then add the
+    "Partnerships" section to a page template in the theme editor.
+  ============================================================================
+{%- endcomment -%}
+
+{%- liquid
+  assign columns = section.settings.columns_desktop | default: 4
+  assign form_id = 'partner-form-' | append: section.id
+-%}
+
+<div class="color-{{ section.settings.color_scheme }} pp-wrapper">
+  <div
+    class="pp-section page-width"
+    style="
+      --pp-columns: {{ columns }};
+      --pp-columns-tablet: {{ section.settings.columns_tablet }};
+      --pp-gap: {{ section.settings.card_gap }}px;
+      --pp-radius: {{ section.settings.card_corner_radius }}px;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    "
+  >
+    {%- if section.settings.heading != blank -%}
+      <div class="pp-header">
+        <h1 class="pp-header__title">{{ section.settings.heading }}</h1>
+        {%- if section.settings.subtitle != blank -%}
+          <div class="pp-header__subtitle rte">{{ section.settings.subtitle }}</div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    {%- if section.blocks.size > 0 -%}
+      <div class="pp-grid">
+        {%- for block in section.blocks -%}
+          {%- if block.type == 'option' -%}
+            {%- assign value = block.settings.title | default: 'Partnership' -%}
+            <a
+              href="#{{ form_id }}"
+              class="pp-card"
+              data-partner-value="{{ value | escape }}"
+              {{ block.shopify_attributes }}
+            >
+              <div class="pp-card__media">
+                {%- if block.settings.image != blank -%}
+                  {{
+                    block.settings.image
+                    | image_url: width: 800
+                    | image_tag:
+                      loading: 'lazy',
+                      widths: '300, 400, 600, 800',
+                      sizes: '(min-width: 750px) 25vw, 90vw',
+                      class: 'pp-card__img',
+                      alt: block.settings.title
+                  }}
+                {%- else -%}
+                  <div class="pp-card__placeholder">
+                    {{ 'image' | placeholder_svg_tag: 'pp-card__placeholder-svg' }}
+                  </div>
+                {%- endif -%}
+              </div>
+              <div class="pp-card__body">
+                {%- if block.settings.title != blank -%}
+                  <h3 class="pp-card__title">{{ block.settings.title }}</h3>
+                {%- endif -%}
+                {%- if block.settings.description != blank -%}
+                  <p class="pp-card__desc">{{ block.settings.description }}</p>
+                {%- endif -%}
+                <span class="pp-card__cta" aria-hidden="true">
+                  {{ section.settings.card_cta_label }}
+                  <svg class="pp-card__arrow" viewBox="0 0 16 16" fill="none" width="15" height="15">
+                    <path d="M3 8h9M8 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </div>
+            </a>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+
+    {%- comment -%} ---------- Contact form ---------- {%- endcomment -%}
+    <div class="pp-form-shell" id="{{ form_id }}">
+      {%- if section.settings.form_heading != blank -%}
+        <h2 class="pp-form__heading">{{ section.settings.form_heading }}</h2>
+      {%- endif -%}
+      {%- if section.settings.form_subheading != blank -%}
+        <p class="pp-form__subheading">{{ section.settings.form_subheading }}</p>
+      {%- endif -%}
+
+      {%- form 'contact', id: 'contact-' | append: section.id, class: 'pp-form' -%}
+        {%- if form.posted_successfully? -%}
+          <div class="pp-form__success" tabindex="-1">
+            {{ section.settings.success_message }}
+          </div>
+        {%- else -%}
+          {%- if form.errors -%}
+            <div class="pp-form__errors">
+              {{ form.errors | default_errors }}
+            </div>
+          {%- endif -%}
+
+          <div class="pp-form__row">
+            <div class="pp-field">
+              <label class="pp-field__label" for="pp-name-{{ section.id }}">Name</label>
+              <input
+                class="pp-field__input"
+                type="text"
+                id="pp-name-{{ section.id }}"
+                name="contact[name]"
+                value="{{ form.name }}"
+                autocomplete="name"
+                required
+              >
+            </div>
+            <div class="pp-field">
+              <label class="pp-field__label" for="pp-email-{{ section.id }}">Email</label>
+              <input
+                class="pp-field__input"
+                type="email"
+                id="pp-email-{{ section.id }}"
+                name="contact[email]"
+                value="{{ form.email }}"
+                autocomplete="email"
+                required
+              >
+            </div>
+          </div>
+
+          <div class="pp-field">
+            <label class="pp-field__label" for="pp-type-{{ section.id }}">Partnership type</label>
+            <select
+              class="pp-field__input pp-field__select"
+              id="pp-type-{{ section.id }}"
+              name="contact[Partnership type]"
+              data-partner-select
+            >
+              {%- for block in section.blocks -%}
+                {%- if block.type == 'option' and block.settings.title != blank -%}
+                  <option value="{{ block.settings.title | escape }}">{{ block.settings.title }}</option>
+                {%- endif -%}
+              {%- endfor -%}
+            </select>
+          </div>
+
+          <div class="pp-field">
+            <label class="pp-field__label" for="pp-body-{{ section.id }}">Message</label>
+            <textarea
+              class="pp-field__input pp-field__textarea"
+              id="pp-body-{{ section.id }}"
+              name="contact[body]"
+              rows="5"
+            >{{ form.body }}</textarea>
+          </div>
+
+          <button type="submit" class="pp-form__submit">{{ section.settings.submit_label }}</button>
+        {%- endif -%}
+      {%- endform -%}
+    </div>
+
+    {%- comment -%} ---------- Support note ---------- {%- endcomment -%}
+    {%- if section.settings.support_text != blank -%}
+      <div class="pp-support">
+        <p class="pp-support__text">{{ section.settings.support_text }}</p>
+        {%- if section.settings.support_button_label != blank and section.settings.support_button_link != blank -%}
+          <a class="pp-support__btn" href="{{ section.settings.support_button_link }}">
+            {{ section.settings.support_button_label }}
+          </a>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{%- comment -%} Pre-select the dropdown + smooth-scroll when a card is clicked {%- endcomment -%}
+<script>
+  (function () {
+    var section = document.getElementById('{{ form_id }}');
+    if (!section) return;
+    var root = section.closest('.pp-section') || document;
+    var select = root.querySelector('[data-partner-select]');
+    var cards = root.querySelectorAll('.pp-card');
+
+    cards.forEach(function (card) {
+      card.addEventListener('click', function () {
+        var value = card.getAttribute('data-partner-value');
+        if (select && value) {
+          for (var i = 0; i < select.options.length; i++) {
+            if (select.options[i].value === value) {
+              select.selectedIndex = i;
+              break;
+            }
+          }
+        }
+      });
+    });
+
+    // Move keyboard focus / highlight to the success message after submit
+    var success = root.querySelector('.pp-form__success');
+    if (success) {
+      window.setTimeout(function () {
+        success.focus();
+        success.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 100);
+    }
+  })();
+</script>
+
+{%- stylesheet -%}
+  .pp-section {
+    max-width: var(--page-width, 1200px);
+    margin-inline: auto;
+    padding-inline: 2rem;
+    box-sizing: border-box;
+  }
+
+  /* ---------- Header ---------- */
+  .pp-header {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto 3rem;
+  }
+  .pp-header__title {
+    margin: 0 0 0.75rem;
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+  .pp-header__subtitle {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    opacity: 0.75;
+  }
+
+  /* ---------- Grid of option cards ---------- */
+  .pp-grid {
+    display: grid;
+    grid-template-columns: repeat(var(--pp-columns, 4), minmax(0, 1fr));
+    gap: var(--pp-gap, 24px);
+    margin-bottom: 4rem;
+  }
+  .pp-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    background: rgba(var(--color-foreground, 18, 18, 18), 0.02);
+    border: 1px solid rgba(var(--color-foreground, 18, 18, 18), 0.08);
+    border-radius: var(--pp-radius, 16px);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    height: 100%;
+  }
+  .pp-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.1);
+    border-color: rgba(var(--color-foreground, 18, 18, 18), 0.16);
+  }
+  .pp-card__media {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: rgba(var(--color-foreground, 18, 18, 18), 0.04);
+  }
+  .pp-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+  }
+  .pp-card:hover .pp-card__img {
+    transform: scale(1.04);
+  }
+  .pp-card__placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pp-card__placeholder-svg {
+    width: 42%;
+    opacity: 0.35;
+  }
+  .pp-card__body {
+    padding: 1.25rem 1.35rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    flex: 1 1 auto;
+  }
+  .pp-card__title {
+    margin: 0;
+    font-size: 1.15rem;
+    line-height: 1.25;
+  }
+  .pp-card__desc {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.45;
+    opacity: 0.7;
+  }
+  .pp-card__cta {
+    margin-top: auto;
+    padding-top: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .pp-card__arrow {
+    transition: transform 0.2s ease;
+  }
+  .pp-card:hover .pp-card__arrow {
+    transform: translateX(3px);
+  }
+
+  /* ---------- Form ---------- */
+  .pp-form-shell {
+    max-width: 640px;
+    margin: 0 auto;
+    scroll-margin-top: 90px;
+  }
+  .pp-form__heading {
+    margin: 0 0 0.5rem;
+    text-align: center;
+    font-size: clamp(1.6rem, 3vw, 2.1rem);
+  }
+  .pp-form__subheading {
+    margin: 0 0 2rem;
+    text-align: center;
+    opacity: 0.7;
+  }
+  .pp-form__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .pp-field {
+    margin-bottom: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .pp-field__label {
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .pp-field__input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.8rem 0.95rem;
+    font-size: 1rem;
+    font-family: inherit;
+    color: inherit;
+    background: rgb(var(--color-background, 255, 255, 255));
+    border: 1px solid rgba(var(--color-foreground, 18, 18, 18), 0.2);
+    border-radius: 10px;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .pp-field__input:focus {
+    outline: none;
+    border-color: rgba(var(--color-foreground, 18, 18, 18), 0.55);
+    box-shadow: 0 0 0 3px rgba(var(--color-foreground, 18, 18, 18), 0.08);
+  }
+  .pp-field__textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  .pp-field__select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23888' stroke-width='1.6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    padding-right: 2.4rem;
+  }
+  .pp-form__submit {
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.95rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    color: rgb(var(--color-background, 255, 255, 255));
+    background: rgb(var(--color-foreground, 18, 18, 18));
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.15s ease, transform 0.1s ease;
+  }
+  .pp-form__submit:hover {
+    opacity: 0.88;
+  }
+  .pp-form__submit:active {
+    transform: translateY(1px);
+  }
+  .pp-form__success {
+    padding: 1.25rem 1.4rem;
+    border-radius: 12px;
+    background: rgba(46, 160, 90, 0.12);
+    border: 1px solid rgba(46, 160, 90, 0.35);
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .pp-form__errors {
+    margin-bottom: 1.25rem;
+    padding: 1rem 1.2rem;
+    border-radius: 12px;
+    background: rgba(214, 60, 60, 0.1);
+    border: 1px solid rgba(214, 60, 60, 0.35);
+  }
+
+  /* ---------- Support note ---------- */
+  .pp-support {
+    margin-top: 3.5rem;
+    text-align: center;
+  }
+  .pp-support__text {
+    margin: 0 0 1rem;
+    opacity: 0.75;
+  }
+  .pp-support__btn {
+    display: inline-block;
+    padding: 0.7rem 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid rgba(var(--color-foreground, 18, 18, 18), 0.3);
+    border-radius: 999px;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .pp-support__btn:hover {
+    background: rgb(var(--color-foreground, 18, 18, 18));
+    color: rgb(var(--color-background, 255, 255, 255));
+  }
+
+  /* ---------- Responsive ---------- */
+  @media screen and (max-width: 989px) {
+    .pp-grid {
+      grid-template-columns: repeat(var(--pp-columns-tablet, 2), minmax(0, 1fr));
+    }
+  }
+  @media screen and (max-width: 749px) {
+    .pp-section {
+      padding-inline: 1.25rem;
+    }
+    .pp-grid {
+      grid-template-columns: 1fr;
+    }
+    .pp-form__row {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+  }
+{%- endstylesheet -%}
+
+{% schema %}
+{
+  "name": "Partnerships",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Partnerships"
+    },
+    {
+      "type": "richtext",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "<p>Click the option below that is most suited to your partnership opportunity to get in contact with the relevant team.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Cards"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "label": "Columns on desktop",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "columns_tablet",
+      "label": "Columns on tablet",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "card_gap",
+      "label": "Gap between cards",
+      "min": 8,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "card_corner_radius",
+      "label": "Card corner radius",
+      "min": 0,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "text",
+      "id": "card_cta_label",
+      "label": "Card link label",
+      "default": "Get in touch"
+    },
+    {
+      "type": "header",
+      "content": "Contact form"
+    },
+    {
+      "type": "text",
+      "id": "form_heading",
+      "label": "Form heading",
+      "default": "Get in touch"
+    },
+    {
+      "type": "text",
+      "id": "form_subheading",
+      "label": "Form subheading",
+      "default": "Complete the form below and the relevant team will reach out within 1 working day."
+    },
+    {
+      "type": "text",
+      "id": "submit_label",
+      "label": "Submit button label",
+      "default": "Submit"
+    },
+    {
+      "type": "richtext",
+      "id": "success_message",
+      "label": "Success message",
+      "default": "<p>Your submission has been received! A member of our partnerships team will reach out within 1 working day.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Support note"
+    },
+    {
+      "type": "richtext",
+      "id": "support_text",
+      "label": "Support text",
+      "default": "<p>If you would like to speak to customer service, please visit our support page.</p>"
+    },
+    {
+      "type": "text",
+      "id": "support_button_label",
+      "label": "Support button label",
+      "default": "Support"
+    },
+    {
+      "type": "url",
+      "id": "support_button_link",
+      "label": "Support button link"
+    },
+    {
+      "type": "header",
+      "content": "Appearance"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 60
+    }
+  ],
+  "blocks": [
+    {
+      "type": "option",
+      "name": "Partnership option",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Partnership option"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description",
+          "default": "Short description of this partnership type."
+        }
+      ]
+    }
+  ],
+  "max_blocks": 8,
+  "presets": [
+    {
+      "name": "Partnerships",
+      "blocks": [
+        {
+          "type": "option",
+          "settings": {
+            "title": "I'm a Dental Professional",
+            "description": "Wholesale, demonstration units, customisations."
+          }
+        },
+        {
+          "type": "option",
+          "settings": {
+            "title": "I'm a Content Creator",
+            "description": "Demonstration units, content collaboration and influencer."
+          }
+        },
+        {
+          "type": "option",
+          "settings": {
+            "title": "I work for a Retailer",
+            "description": "Online and in-store retail."
+          }
+        },
+        {
+          "type": "option",
+          "settings": {
+            "title": "Other Partnership",
+            "description": "PR or other partnerships."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
