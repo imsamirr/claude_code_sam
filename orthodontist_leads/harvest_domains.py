@@ -54,6 +54,9 @@ def main() -> int:
     ap.add_argument("--out", type=Path,
                     default=Path(__file__).resolve().parent / "work" / "cc_dental_domains.txt")
     ap.add_argument("--parts", type=int, default=16, help="how many index parts to scan")
+    ap.add_argument("--state", type=Path,
+                    default=Path(__file__).resolve().parent / "work" / "cc_harvest_state.txt",
+                    help="records which index parts are already done, for resuming")
     args = ap.parse_args()
     args.out.parent.mkdir(parents=True, exist_ok=True)
 
@@ -61,28 +64,54 @@ def main() -> int:
     session.headers["User-Agent"] = "practice-contact-research/1.0"
     paths = gzip.decompress(session.get(PATHS_URL, timeout=120).content).decode().split()
 
+    # Resume from whatever a previous run already wrote.
     found: set[str] = set()
+    if args.out.exists():
+        found = {d.strip() for d in args.out.read_text().split() if d.strip()}
+        print(f"  resuming with {len(found):,} domains already harvested", flush=True)
+    done_parts = set()
+    if args.state.exists():
+        done_parts = {int(x) for x in args.state.read_text().split() if x.strip().isdigit()}
+
+    def checkpoint(part: int) -> None:
+        args.out.write_text("\n".join(sorted(found)) + "\n")
+        done_parts.add(part)
+        args.state.write_text("\n".join(str(x) for x in sorted(done_parts)) + "\n")
+
     scanned = 0
     for i, path in enumerate(paths[: args.parts]):
-        with session.get(DATA_ROOT + path, stream=True, timeout=(30, 600)) as r:
-            r.raise_for_status()
-            with gzip.open(r.raw, "rt", errors="replace") as fh:
-                for line in fh:
-                    scanned += 1
-                    tab = line.rfind("\t")
-                    if tab < 0:
-                        continue
-                    rev = line[tab + 1:].strip()
-                    if not INCLUDE_RE.search(rev) or EXCLUDE_RE.search(rev):
-                        continue
-                    host = unreverse(rev)
-                    if not ALLOWED_TLD.search(host):
-                        continue
-                    found.add(apex(host))
+        if i in done_parts:
+            continue
+        # A 160 MB stream can drop mid-read; retry the part rather than losing
+        # the whole run to one broken connection.
+        for attempt in range(1, 4):
+            before = len(found)
+            try:
+                with session.get(DATA_ROOT + path, stream=True, timeout=(30, 900)) as r:
+                    r.raise_for_status()
+                    with gzip.open(r.raw, "rt", errors="replace") as fh:
+                        for line in fh:
+                            scanned += 1
+                            tab = line.rfind("\t")
+                            if tab < 0:
+                                continue
+                            rev = line[tab + 1:].strip()
+                            if not INCLUDE_RE.search(rev) or EXCLUDE_RE.search(rev):
+                                continue
+                            host = unreverse(rev)
+                            if not ALLOWED_TLD.search(host):
+                                continue
+                            found.add(apex(host))
+                break
+            except Exception as exc:
+                print(f"  part {i+1}: attempt {attempt} failed ({type(exc).__name__}); "
+                      f"kept {len(found) - before:,} before the break", flush=True)
+                if attempt == 3:
+                    print(f"  part {i+1}: giving up, moving on", flush=True)
+        checkpoint(i)
         print(f"  part {i+1}/{args.parts}: scanned {scanned:,} hosts, "
               f"kept {len(found):,} dental domains", flush=True)
 
-    args.out.write_text("\n".join(sorted(found)) + "\n")
     print(f"wrote {len(found):,} candidate domains -> {args.out}", flush=True)
     return 0
 
