@@ -279,15 +279,18 @@ def _digits(value: str) -> str:
 
 
 def page_proves_practice(text: str, phone: str, zip5: str, city: str) -> str:
-    """Return the evidence kind if ``text`` demonstrably belongs to the practice."""
-    flat = re.sub(r"\D", "", text)
+    """Return the evidence kind if ``text`` demonstrably belongs to the practice.
+
+    Only an exact match on the practice's registered phone number counts. A
+    city-plus-ZIP match was tried and rejected: multi-location chains list
+    dozens of cities and ZIPs, so it happily "confirmed" comfortdental.com as
+    the site of an unrelated single-office practice. Phone numbers are unique
+    to a location, so they do not have that failure mode.
+    """
     phone_digits = _digits(phone)[-10:]
-    if len(phone_digits) == 10 and phone_digits in flat:
-        return "phone-match"
-    low = text.lower()
-    if zip5 and zip5 in text and city and city.lower() in low:
-        return "city-zip-match"
-    return ""
+    if len(phone_digits) != 10:
+        return ""
+    return "phone-match" if phone_digits in re.sub(r"\D", "", text) else ""
 
 
 JSONLD_EMAIL_RE = re.compile(r'"email"\s*:\s*"([^"]{5,100})"', re.I)
