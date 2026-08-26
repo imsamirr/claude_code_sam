@@ -179,6 +179,8 @@ def name_stems(name: str) -> list[str]:
     if not words:
         return []
     stems = ["".join(words)]
+    if len(words) > 1:
+        stems.append("-".join(words))
     if len(words) > 2:
         stems.append("".join(words[:2]))
         stems.append(words[0] + words[-1])
@@ -288,9 +290,14 @@ def page_proves_practice(text: str, phone: str, zip5: str, city: str) -> str:
     return ""
 
 
+JSONLD_EMAIL_RE = re.compile(r'"email"\s*:\s*"([^"]{5,100})"', re.I)
+
+
 def extract_emails(text: str, domain: str = "") -> list[str]:
     text = text or ""
     candidates = list(EMAIL_RE.findall(text))
+    for raw in JSONLD_EMAIL_RE.findall(text):
+        candidates.append(raw.replace("mailto:", "").strip())
     for blob in CF_EMAIL_RE.findall(text):
         decoded = decode_cf_email(blob)
         if decoded and EMAIL_RE.fullmatch(decoded):
