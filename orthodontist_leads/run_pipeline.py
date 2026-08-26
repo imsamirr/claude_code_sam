@@ -151,7 +151,7 @@ def main() -> int:
         build.write_csv(data, path)
         summary[name] = len(data)
         print(f"      wrote {len(data):>7,} rows -> {path}")
-        if args.xlsx and len(data) <= 500_000:
+        if args.xlsx and len(data) <= 100_000:
             from pipeline.export import csv_to_xlsx
             xlsx = path.with_suffix(".xlsx")
             csv_to_xlsx(path, xlsx, sheet_name=path.stem[:31])
