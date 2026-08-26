@@ -1,0 +1,6 @@
+# Cached source downloads (regenerate with run_pipeline.py)
+raw/
+work/
+
+# Uncompressed full national extract - the .gz is committed instead
+output/all_dental_practices_usa.csv
