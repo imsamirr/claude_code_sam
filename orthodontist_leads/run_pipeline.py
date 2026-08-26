@@ -80,6 +80,28 @@ def main() -> int:
     rows = build.load_rows(filtered)
     print(f"      loaded {len(rows):,} dental NPI records")
 
+    # The npidata file carries at most one "other organisation name"; the
+    # dedicated othername file carries the rest. These are the trading names
+    # practices actually market under, so they matter both as output and as
+    # the strongest signal for finding a practice's website.
+    if zip_path and zip_path.exists():
+        other = nppes.load_other_names(zip_path, {r["npi"] for r in rows})
+        filled = 0
+        for rec in rows:
+            names = other.get(rec["npi"])
+            if not names:
+                continue
+            existing = {rec["dba_name"].upper()} if rec["dba_name"] else set()
+            extra = [n for n in dict.fromkeys(names) if n.upper() not in existing]
+            if not extra:
+                continue
+            if not rec["dba_name"]:
+                rec["dba_name"] = extra.pop(0)
+            if extra:
+                rec["dba_name"] += " | " + " | ".join(extra[:2])
+            filled += 1
+        print(f"      merged trading names for {filled:,} records")
+
     # 2. Roll up into practices ---------------------------------------------
     print("[2/4] Rolling records up into practices ...")
     practices = build.build_practices(rows)

@@ -128,8 +128,14 @@ def _split_zip(postal: str) -> tuple[str, str]:
     return digits[:5], ""
 
 
+# NPPES writes these literal placeholders instead of leaving a field blank.
+_PLACEHOLDERS = {"", "-", "--", "---", "N/A", "NA", "NONE", "NOT APPLICABLE",
+                 "<UNAVAIL>", "UNAVAIL", "UNAVAILABLE", "NULL", "."}
+
+
 def _clean(value: str) -> str:
-    return (value or "").strip().strip('"').strip()
+    value = (value or "").strip().strip('"').strip()
+    return "" if value.upper() in _PLACEHOLDERS else value
 
 
 @dataclass

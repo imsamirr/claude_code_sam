@@ -54,6 +54,32 @@ EMAIL_BLOCKLIST = re.compile(
     r"|^[0-9a-f]{16,}@)", re.I
 )
 GENERIC_TLD = (".com", ".net", ".org", ".dental", ".dentist", ".care")
+
+# Cloudflare's "email protection" replaces every mailto on a page with a hex
+# blob; the first byte is an XOR key for the rest. Small-business sites behind
+# Cloudflare use it heavily, and without decoding it they look email-free.
+CF_EMAIL_RE = re.compile(
+    r'(?:data-cfemail="|/cdn-cgi/l/email-protection#)([0-9a-fA-F]{6,})')
+# Hand-rolled obfuscation: "front desk (at) example (dot) com".
+TEXT_OBFUSCATED_RE = re.compile(
+    r"([A-Za-z0-9._%+\-]+)\s*(?:\(|\[|&#40;)?\s*(?:at|AT)\s*(?:\)|\]|&#41;)?\s*"
+    r"([A-Za-z0-9.\-]+)\s*(?:\(|\[|&#40;)?\s*(?:dot|DOT)\s*(?:\)|\]|&#41;)?\s*"
+    r"([A-Za-z]{2,})")
+
+
+def decode_cf_email(blob: str) -> str:
+    """Decode one Cloudflare-obfuscated email blob."""
+    try:
+        raw = bytes.fromhex(blob)
+    except ValueError:
+        return ""
+    if len(raw) < 3:
+        return ""
+    key = raw[0]
+    try:
+        return "".join(chr(b ^ key) for b in raw[1:])
+    except ValueError:
+        return ""
 # Practically every US dental practice is on .com; the rest are a long tail.
 # Each extra candidate costs a DNS lookup, so only the two strongest stems get
 # the alternative TLDs, and the whole candidate list is hard-capped.
@@ -249,8 +275,17 @@ def page_proves_practice(text: str, phone: str, zip5: str, city: str) -> str:
 
 
 def extract_emails(text: str, domain: str = "") -> list[str]:
+    text = text or ""
+    candidates = list(EMAIL_RE.findall(text))
+    for blob in CF_EMAIL_RE.findall(text):
+        decoded = decode_cf_email(blob)
+        if decoded and EMAIL_RE.fullmatch(decoded):
+            candidates.append(decoded)
+    for user, host, tld in TEXT_OBFUSCATED_RE.findall(text):
+        candidates.append(f"{user}@{host}.{tld}")
+
     found: list[str] = []
-    for raw in EMAIL_RE.findall(text or ""):
+    for raw in candidates:
         addr = raw.strip(".,;:'\"()<>").lower()
         if EMAIL_BLOCKLIST.search(addr) or len(addr) > 100:
             continue
@@ -408,8 +443,9 @@ class SiteEnricher:
                 return SiteResult(npi, url, "; ".join(emails), "nppes-endpoint", "registered")
 
         # 2. Guess from the practice name, accept only on proof.
-        names = [record.get("practice_name", ""), record.get("dba_name", ""),
-                 record.get("org_name", "")]
+        names = [record.get("practice_name", "")]
+        names += [n.strip() for n in (record.get("dba_name") or "").split("|") if n.strip()]
+        names.append(record.get("org_name", ""))
         stems: list[str] = []
         for name in names:
             for stem in name_stems(name):
