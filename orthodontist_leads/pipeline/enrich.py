@@ -46,10 +46,24 @@ CONTACT_HINT_RE = re.compile(
 EMAIL_RE = re.compile(
     r"[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}", re.I
 )
-# Addresses that are never a practice's real inbox.
+# Addresses that are never a practice's real inbox: analytics/CDN noise, and
+# the placeholder addresses that ship inside website-builder templates and are
+# left unedited on a surprising number of small-business sites.
+_PLACEHOLDER_DOMAINS = (
+    "example", "sentry", "sentry\\.io", "wix", "wixsite", "mysite", "yoursite",
+    "yourwebsite", "yourdomain", "mydomain", "squarespace", "godaddy",
+    "godaddysites", "w3\\.org", "schema\\.org", "googlemail", "domain",
+    "email", "test", "company", "yourcompany", "sitename", "website",
+    "emailaddress", "xyz", "abc",
+)
+_PLACEHOLDER_LOCALS = (
+    "example", "youremail", "yourname", "your-email", "firstname", "lastname",
+    "sample", "yourmail", "emailaddress", "noreply", "no-reply", "donotreply",
+    "do-not-reply", "postmaster", "abuse", "sentry", "username",
+)
 EMAIL_BLOCKLIST = re.compile(
-    r"(?:@(?:example|sentry|wix|squarespace|godaddy|godaddysites|w3\.org|"
-    r"schema\.org|googlemail|sentry\.io|domain|email|yourdomain|test)\b"
+    r"(?:@(?:" + "|".join(_PLACEHOLDER_DOMAINS) + r")\."
+    r"|^(?:" + "|".join(_PLACEHOLDER_LOCALS) + r")@"
     r"|\.(?:png|jpe?g|gif|svg|webp|css|js|woff2?)$"
     r"|^[0-9a-f]{16,}@)", re.I
 )

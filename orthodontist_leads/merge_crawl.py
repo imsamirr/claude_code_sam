@@ -14,8 +14,20 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from pipeline.enrich import EMAIL_BLOCKLIST
 from pipeline.export import csv_to_xlsx
 from pipeline.summarise import state_summary
+
+
+def clean_emails(value: str) -> str:
+    """Re-apply the placeholder blocklist to emails recorded by a crawl.
+
+    The raw crawl log is left untouched; filtering here means results captured
+    before a blocklist change still get cleaned on the next merge.
+    """
+    kept = [e.strip() for e in (value or "").split(";") if e.strip()
+            and not EMAIL_BLOCKLIST.search(e.strip().lower())]
+    return "; ".join(dict.fromkeys(kept))
 
 BASE = Path(__file__).resolve().parent
 OUT = BASE / 'output'
@@ -43,14 +55,22 @@ for name in targets:
     fields = list(rows[0].keys())
     added_site = added_mail = 0
     for r in rows:
+        if r['email'].strip():
+            cleaned = clean_emails(r['email'])
+            if cleaned != r['email']:
+                r['email'] = cleaned
+                if not cleaned:
+                    r['email_source'] = ''
+
         hit = crawled.get(r['npi'])
         if not hit:
             continue
         if not r['website'].strip():
             r['website'] = hit['website']
             added_site += 1
-        if not r['email'].strip() and hit.get('emails'):
-            r['email'] = hit['emails']
+        emails = clean_emails(hit.get('emails', ''))
+        if not r['email'].strip() and emails:
+            r['email'] = emails
             r['email_source'] = f"website-crawl ({hit.get('verified','')})"
             added_mail += 1
     with open(path, 'w', newline='', encoding='utf-8') as fh:
