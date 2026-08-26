@@ -103,6 +103,42 @@ Most dental practices publish a contact *form* rather than an email address, so
 expect email coverage in the low tens of percent even after a full crawl. Phone
 and postal address are complete; treat email as a bonus column.
 
+## Field confidence
+
+Not every column is equally trustworthy. Measured on the 20,824-row
+orthodontic list:
+
+**Registry facts — verified against CMS, 100% filled**
+
+`practice_name`, `phone`, `address_line1`, `city`, `state`, `zip_code`,
+`specialties`, `npi`. Spot-checked against the live NPI registry API: name,
+street, ZIP and phone matched 6/6 on random rows. `npi` is the join key
+commercial enrichment vendors match on.
+
+**Solid, with a caveat**
+
+| Column | Fill | Caveat |
+| --- | --- | --- |
+| `county`, `median_household_income*` | 99.5% | ACS 5-year median for the ZIP (county fallback). Describes the neighbourhood, not the practice's patients. CT county income is sparse - ACS moved CT to planning regions in 2022. |
+| `contact_person` | 100% | Two different things. 14,039 are an organisation's registered authorized official - a real named person, but whoever signed the NPI paperwork, sometimes a corporate officer rather than the owner-dentist. 6,785 are solo practitioners, where it is the dentist. `npi_type` distinguishes them. |
+| `providers_at_location` | 82.5% | Dentists at that street address. 33.4% of rows share an address with more than one registered practice (office buildings), flagged by `address_shared_by_practices`; those rows may list a neighbouring suite's dentists. |
+
+**Inference, not observation — do not treat as fact**
+
+The four `service_*` columns are derived from licensed specialties. No public
+registry states which procedures an office actually performs. `service_
+invisalign` and `service_retainers` read `yes` on every row, which only
+restates "an orthodontist practises here" and carries no filtering signal -
+**filter on `specialties` instead**.
+
+**Sparse by nature**
+
+`email` and `website` are partial and always will be; see *Email addresses*
+above. Every address was read off a page that proved it belongs to the
+practice, or was registered with CMS by the practice itself - check
+`email_source`. Nothing is synthesised from an `info@<domain>` pattern.
+`fax` is 52% because only half of practices register one.
+
 ## Accuracy notes
 
 * **Specialty is licensure, not a service menu.** NPPES records the specialty a
