@@ -157,6 +157,11 @@ def main() -> int:
             csv_to_xlsx(path, xlsx, sheet_name=path.stem[:31])
             print(f"      wrote {len(data):>7,} rows -> {xlsx}")
 
+    from pipeline.summarise import state_summary
+    state_path = args.out_dir / "orthodontic_practices_by_state.csv"
+    state_summary(args.out_dir / "orthodontic_practices_usa.csv", state_path)
+    print(f"      wrote per-state rollup -> {state_path}")
+
     summary["elapsed_seconds"] = round(time.time() - t0, 1)
     (args.out_dir / "summary.json").write_text(json.dumps(summary, indent=2))
     return 0

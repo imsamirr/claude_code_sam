@@ -11,6 +11,7 @@ the surrounding ZIP code and county — from public, no-API-key data sources.
 | `output/orthodontic_practices_usa.csv` | ~20,800 | Every practice location in the US with at least one licensed orthodontist |
 | `output/orthodontic_practices_all_four_services.csv` | ~9,000 | The subset that also has a general dentist or prosthodontist on site, so the location plausibly covers **aligners + retainers + nightguards + dentures** |
 | `output/all_dental_practices_usa.csv` | ~271,000 | Every US dental practice location (all specialties) |
+| `output/orthodontic_practices_by_state.csv` | 55 | Per-state rollup: practice counts, field coverage, counties reached, median area income |
 
 ### Columns
 
