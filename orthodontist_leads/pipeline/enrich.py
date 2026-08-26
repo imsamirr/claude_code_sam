@@ -33,7 +33,7 @@ USER_AGENT = (
     "Mozilla/5.0 (compatible; PracticeContactBot/1.0; "
     "+contact-research; respects robots.txt)"
 )
-REQUEST_TIMEOUT = (8, 12)
+REQUEST_TIMEOUT = (5, 8)
 CONTACT_PATHS = ("/contact", "/contact-us", "/contact-us/", "/contact/",
                  "/contact.html", "/about", "/about-us", "/our-office")
 # Anchors whose href or text look like a contact page.
@@ -54,6 +54,12 @@ EMAIL_BLOCKLIST = re.compile(
     r"|^[0-9a-f]{16,}@)", re.I
 )
 GENERIC_TLD = (".com", ".net", ".org", ".dental", ".dentist", ".care")
+# Practically every US dental practice is on .com; the rest are a long tail.
+# Each extra candidate costs a DNS lookup, so only the two strongest stems get
+# the alternative TLDs, and the whole candidate list is hard-capped.
+PRIMARY_TLD = ".com"
+SECONDARY_TLDS = (".net", ".dental")
+MAX_CANDIDATES = 12
 
 _STOPWORDS = {
     "the", "of", "and", "a", "an", "at", "for", "in", "llc", "pllc", "pc",
@@ -101,7 +107,15 @@ class Politeness:
     def allowed(self, url: str) -> bool:
         parts = urlparse(url)
         root = f"{parts.scheme}://{parts.netloc}"
-        parser = self._robots_for(root)
+        # www and apex are the same site in practice, so let them share one
+        # robots.txt fetch instead of paying for it twice per candidate domain.
+        canonical = root.replace("://www.", "://")
+        with self._lock:
+            parser = self._robots.get(canonical)
+        if parser is None:
+            parser = self._robots_for(root)
+            with self._lock:
+                self._robots[canonical] = parser
         try:
             return parser.can_fetch(USER_AGENT, url)
         except Exception:
@@ -181,9 +195,18 @@ def domain_candidates(*names: str, limit: int = 10) -> list[str]:
         for stem in name_stems(name):
             if stem not in stems:
                 stems.append(stem)
+    return build_candidates(stems, limit)
+
+
+def build_candidates(stems: list[str], limit: int = MAX_CANDIDATES) -> list[str]:
+    """Turn ordered stems into an ordered, hard-capped candidate domain list."""
     out: list[str] = []
-    for tld in GENERIC_TLD:
-        for stem in stems:
+    for stem in stems:
+        cand = stem + PRIMARY_TLD
+        if cand not in out:
+            out.append(cand)
+    for stem in stems[:2]:
+        for tld in SECONDARY_TLDS:
             cand = stem + tld
             if cand not in out:
                 out.append(cand)
@@ -318,16 +341,19 @@ class SiteEnricher:
 
     def probe(self, domain: str, phone: str, zip5: str, city: str) -> tuple[str, str, str]:
         """Try a domain; return ``(final_url, html, evidence)`` or empty strings."""
-        for scheme in ("https://", "http://"):
-            for host in (domain, "www." + domain):
-                url = scheme + host
-                html = self._get(url)
-                if not html:
-                    continue
-                evidence = page_proves_practice(html, phone, zip5, city)
-                if evidence:
-                    return url, html, evidence
-                return "", "", ""  # site exists but isn't this practice
+        # https only, apex first: requests follows the redirect to www on its
+        # own, so probing both host forms is wasted round-trips.
+        hosts = [domain] if resolves(domain) else (
+            ["www." + domain] if resolves("www." + domain) else [])
+        for host in hosts:
+            url = "https://" + host
+            html = self._get(url)
+            if not html:
+                continue
+            evidence = page_proves_practice(html, phone, zip5, city)
+            if evidence:
+                return url, html, evidence
+            return "", "", ""  # site exists but isn't this practice
         return "", "", ""
 
     def _contact_urls(self, base_url: str, home_html: str) -> list[str]:
@@ -399,12 +425,9 @@ class SiteEnricher:
         for stem in pattern_stems(record.get("_surnames"), city):
             if stem not in stems:
                 stems.append(stem)
+        stems = stems[:MAX_CANDIDATES]
 
-        candidates: list[str] = []
-        for tld in GENERIC_TLD:
-            for stem in stems:
-                if stem + tld not in candidates:
-                    candidates.append(stem + tld)
+        candidates = build_candidates(stems)
 
         probes = 0
         for domain in candidates:
