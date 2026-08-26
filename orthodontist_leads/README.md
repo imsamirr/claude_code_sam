@@ -55,6 +55,10 @@ python run_pipeline.py --xlsx
 # Additionally crawl 2,000 practice websites for contact emails
 python run_pipeline.py --enrich-emails 2000
 
+# Or crawl separately - resumable, and safe to interrupt at any point
+python crawl_websites.py            # appends to work/crawl_results.jsonl
+python merge_crawl.py               # folds results into the CSV/XLSX outputs
+
 # Restrict to the 50 states + DC (drops PR/GU/VI/MP)
 python run_pipeline.py --no-territories
 ```
