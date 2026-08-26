@@ -109,9 +109,21 @@ def service_values(codes: set[str]) -> dict[str, str]:
     return out
 
 
+# NPPES writes these literal strings instead of leaving a field empty. They are
+# stripped at extraction time too, but scrubbing here as well keeps a cached
+# extract from an older run from leaking them into the published columns.
+PLACEHOLDERS = {"", "-", "--", "---", "N/A", "NA", "NONE", "NOT APPLICABLE",
+                "<UNAVAIL>", "UNAVAIL", "UNAVAILABLE", "NULL", "."}
+
+
+def scrub(row: dict) -> dict:
+    return {k: ("" if (v or "").strip().upper() in PLACEHOLDERS else v)
+            for k, v in row.items()}
+
+
 def load_rows(path: Path) -> list[dict]:
     with open(path, newline="", encoding="utf-8") as fh:
-        return list(csv.DictReader(fh))
+        return [scrub(r) for r in csv.DictReader(fh)]
 
 
 def build_practices(rows: list[dict]) -> list[dict]:
