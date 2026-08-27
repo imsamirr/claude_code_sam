@@ -28,8 +28,11 @@ DATA_ROOT = "https://data.commoncrawl.org/"
 
 # Generous - a false positive only costs one fetch, and the phone match filters.
 INCLUDE_RE = re.compile(
-    r"orthodont|dental|dentist|braces|invisalign|smiles|dds|dmd|"
-    r"toothdoc|familydent|kidsdent|pediatricdent", re.I)
+    # "braces" must not match "embraces"; "dds"/"dmd" are too short to match
+    # loosely, so they are anchored to a label boundary.
+    r"orthodont|dental|dentist|invisalign|smiles|(?<!em)braces|"
+    r"toothdoc|familydent|kidsdent|pediatricdent|"
+    r"(?:^|[^a-z])(?:dds|dmd)(?:$|[^a-z])", re.I)
 # "ortho" also prefixes orthopedics, orthodoxy, orthotics and orthography.
 EXCLUDE_RE = re.compile(
     r"orthope|orthopae|orthodox|orthotic|orthograph|orthomol|orthodontist-?directory|"
@@ -43,9 +46,19 @@ def unreverse(host: str) -> str:
     return ".".join(reversed(host.split(".")))
 
 
+# Registrable suffixes that take three labels rather than two.
+_TWO_LABEL_SUFFIX = re.compile(r"\.(?:co|com|net|org|gov|edu)\.[a-z]{2}$", re.I)
+
+
 def apex(host: str) -> str:
+    """Collapse a hostname to its registrable domain.
+
+    The index is full of hosts like ``0.example.com`` and ``shop.example.com``;
+    without this every subdomain becomes a separate fetch of the same site.
+    """
     parts = host.split(".")
-    return ".".join(parts[-2:]) if len(parts) > 2 and parts[0] == "www" else host
+    want = 3 if _TWO_LABEL_SUFFIX.search(host) else 2
+    return ".".join(parts[-want:]) if len(parts) > want else host
 
 
 def main() -> int:
