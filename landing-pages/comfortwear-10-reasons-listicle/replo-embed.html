@@ -2,11 +2,13 @@
   ComfortWear – 10 Reasons Listicle (Dr. Woof layout)
   Paste this whole block into ONE Replo "Custom HTML" / "HTML Embed" component.
   All styles are scoped under .cw-lp so your theme CSS won't interfere.
-  Every CTA points to the -of1 product; change the URL in one place below if needed.
+  Layout is responsive to the width of the container it sits in (container
+  queries) with a viewport-width fallback, so it works on any phone/tablet.
+  Every CTA points to the -of1 product; find/replace the URL if needed.
 ========================================================== -->
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700&display=swap" rel="stylesheet">
 <style>
-.cw-lp{all:initial;display:block;width:100%;font-family:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:16px;color:#1a1a1a;background:#fff;line-height:1.55;-webkit-font-smoothing:antialiased;text-align:left}
+.cw-lp{all:initial;display:block;width:100%;max-width:100%;overflow-x:clip;container-type:inline-size;font-family:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:16px;color:#1a1a1a;background:#fff;line-height:1.55;-webkit-font-smoothing:antialiased;text-align:left}
 .cw-lp h1,.cw-lp h2,.cw-lp h3,.cw-lp p,.cw-lp ul,.cw-lp li,.cw-lp a,.cw-lp div,.cw-lp span,.cw-lp article,.cw-lp section,.cw-lp details,.cw-lp summary{font-family:inherit;text-transform:none;letter-spacing:normal}
 .cw-lp h1,.cw-lp h2,.cw-lp h3{color:#16264a;margin:0;padding:0;line-height:1.15}
 .cw-lp p,.cw-lp ul,.cw-lp li{margin:0;padding:0;color:inherit;font-size:inherit;line-height:inherit}
@@ -20,21 +22,20 @@
     --gold:#f5b301; --green:#2bb673; --red:#e53e3e; --white:#fff;
   }
 .cw-lp, .cw-lp *{box-sizing:border-box;margin:0;padding:0}
-.cw-lp{font-family:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--white);line-height:1.55;-webkit-font-smoothing:antialiased}
+.cw-lp{overflow-x:hidden;font-family:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--white);line-height:1.55;-webkit-font-smoothing:antialiased}
 .cw-lp img{max-width:100%;display:block;height:auto}
 .cw-lp a{color:inherit}
-.cw-lp .wrap{max-width:1040px;margin:0 auto;padding:0 16px}
-.cw-lp .narrow{max-width:900px;margin:0 auto;padding:0 16px}
-.cw-lp h1, .cw-lp h2, .cw-lp h3{font-weight:800;line-height:1.15;letter-spacing:-.01em}
-.cw-lp .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--cta);color:#fff;text-decoration:none;font-weight:700;font-size:17px;letter-spacing:.04em;text-transform:uppercase;padding:16px 36px;border-radius:999px;transition:transform .15s,box-shadow .15s;box-shadow:0 6px 18px rgba(27,42,78,.25)}
+.cw-lp .wrap{max-width:1040px;margin:0 auto;padding:0 16px;container-type:inline-size}
+.cw-lp .narrow{max-width:900px;margin:0 auto;padding:0 16px;container-type:inline-size}
+.cw-lp h1, .cw-lp h2, .cw-lp h3{font-weight:800;line-height:1.15;letter-spacing:-.01em;text-wrap:balance;overflow-wrap:anywhere}
+.cw-lp p{overflow-wrap:anywhere}
+.cw-lp .btn{min-height:52px;display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--cta);color:#fff;text-decoration:none;font-weight:700;font-size:17px;letter-spacing:.04em;text-transform:uppercase;padding:16px 36px;border-radius:999px;transition:transform .15s,box-shadow .15s;box-shadow:0 6px 18px rgba(27,42,78,.25)}
 .cw-lp .btn:hover{transform:translateY(-1px);box-shadow:0 10px 24px rgba(27,42,78,.32)}
 .cw-lp .btn.block{width:100%}
 .cw-lp .btn.purple{background:var(--purple);box-shadow:0 6px 18px rgba(108,59,214,.3)}
 .cw-lp .stars{color:var(--gold);letter-spacing:2px;font-size:15px}
 .cw-lp .eyebrow{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--navy)}
-.cw-lp /* announcement */
-.cw-lp /* hero */
-  .hero{background:linear-gradient(180deg,var(--tint) 0%,#fff 100%);padding:28px 0 32px}
+.cw-lp .hero{background:linear-gradient(180deg,var(--tint) 0%,#fff 100%);padding:28px 0 32px}
 .cw-lp .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:32px;align-items:center;background:var(--tint);border-radius:20px;padding:36px}
 .cw-lp .hero .stars{margin-bottom:6px}
 .cw-lp .hero h1{font-size:40px;color:var(--navy-dark);margin:6px 0 14px;text-transform:uppercase}
@@ -43,17 +44,15 @@
 .cw-lp .checks li{display:flex;gap:10px;align-items:flex-start;font-size:16px;font-weight:500;margin-bottom:8px}
 .cw-lp .checks svg{flex:none;width:20px;height:20px;margin-top:2px}
 .cw-lp .hero-img{border-radius:16px;overflow:hidden;background:#fff}
-.cw-lp /* collections */
-  .collections{padding:28px 0 8px}
+.cw-lp .collections{padding:28px 0 8px}
 .cw-lp .collections h2{text-align:center;font-size:26px;margin-bottom:18px}
 .cw-lp .tiles{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px;-webkit-overflow-scrolling:touch}
 .cw-lp .tiles::-webkit-scrollbar{height:6px}
 .cw-lp .tiles::-webkit-scrollbar-thumb{background:#cbd5e0;border-radius:3px}
-.cw-lp .tile{flex:0 0 220px;scroll-snap-align:start;border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;background:#fff}
+.cw-lp .tile{flex:0 0 min(220px,72cqw);scroll-snap-align:start;border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;background:#fff}
 .cw-lp .tile img{aspect-ratio:1/1;object-fit:cover;background:#f7f7f7}
 .cw-lp .tile span{display:block;padding:12px 14px;font-weight:600;font-size:16px;border-top:1px solid var(--line)}
-.cw-lp /* listicle */
-  .list-head{padding:32px 0 8px}
+.cw-lp .list-head{padding:32px 0 8px}
 .cw-lp .list-head hr{border:0;border-top:1px solid var(--line);margin:0 auto 28px;max-width:860px}
 .cw-lp .list-head h2{text-align:center;font-size:34px;color:var(--navy-dark);max-width:820px;margin:0 auto}
 .cw-lp .list-head .byline{text-align:center;color:var(--muted);font-size:14px;margin-top:10px}
@@ -66,21 +65,19 @@
 .cw-lp .reason p:last-of-type{margin-bottom:0}
 .cw-lp .reason .mini{display:inline-block;margin-top:14px;color:var(--navy);font-weight:700;text-decoration:underline;text-underline-offset:3px;font-size:15px}
 .cw-lp .mid-cta{text-align:center;padding:14px 0 6px}
-.cw-lp /* reviews */
-  .reviews{padding:44px 0 24px}
+.cw-lp .reviews{padding:44px 0 24px}
 .cw-lp .reviews h2{font-size:28px;margin-bottom:18px}
 .cw-lp .rv-track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 4px 16px;-webkit-overflow-scrolling:touch}
 .cw-lp .rv-track::-webkit-scrollbar{height:6px}
 .cw-lp .rv-track::-webkit-scrollbar-thumb{background:#cbd5e0;border-radius:3px}
-.cw-lp .rv{flex:0 0 300px;scroll-snap-align:start;background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:0 4px 14px rgba(0,0,0,.05);display:flex;flex-direction:column}
+.cw-lp .rv{flex:0 0 min(300px,84cqw);scroll-snap-align:start;background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:0 4px 14px rgba(0,0,0,.05);display:flex;flex-direction:column}
 .cw-lp .rv p{font-size:15px;color:#2d3748;margin:8px 0 14px;flex:1}
 .cw-lp .rv .who{font-weight:700;font-size:15px}
 .cw-lp .rv .ver{display:flex;align-items:center;gap:6px;color:#718096;font-size:13px;margin-top:2px}
 .cw-lp .rv .ver svg{width:14px;height:14px}
 .cw-lp .rv-summary{display:flex;align-items:center;gap:10px;margin-bottom:14px;color:var(--muted);font-size:15px}
 .cw-lp .rv-summary strong{color:var(--ink)}
-.cw-lp /* offer */
-  .offer{margin:16px 0 36px;border:2px dashed var(--navy);border-radius:18px;background:var(--tint);padding:34px 28px;text-align:center}
+.cw-lp .offer{margin:16px 0 36px;border:2px dashed var(--navy);border-radius:18px;background:var(--tint);padding:34px 28px;text-align:center}
 .cw-lp .offer h2{font-size:34px;color:var(--navy-dark);text-transform:uppercase;letter-spacing:.02em}
 .cw-lp .offer .sub{font-size:17px;color:var(--muted);margin:6px 0 18px}
 .cw-lp .offer .ship{font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin-top:16px;color:var(--navy-dark)}
@@ -90,26 +87,23 @@
 .cw-lp .steps h3{font-size:19px;color:var(--navy-dark);margin-bottom:10px}
 .cw-lp .steps p{font-size:15px;color:#2d3748;margin-bottom:9px}
 .cw-lp .steps p:last-child{margin-bottom:0}
-.cw-lp /* trust strip */
-  .trust{padding:8px 0 28px}
+.cw-lp .trust{padding:8px 0 28px}
 .cw-lp .trust .label{display:flex;align-items:center;gap:14px;color:var(--navy);font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:14px;margin-bottom:20px}
 .cw-lp .trust .label::before, .cw-lp .trust .label::after{content:"";flex:1;border-top:1px solid var(--line)}
 .cw-lp .trust-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;text-align:center}
 .cw-lp .trust-grid div{font-size:14px;color:var(--muted)}
 .cw-lp .trust-grid strong{display:block;font-size:22px;color:var(--navy-dark);line-height:1.1;margin-bottom:4px}
-.cw-lp /* faq */
-  .faq{padding:24px 0 40px;display:grid;grid-template-columns:300px 1fr;gap:36px;align-items:start}
+.cw-lp .faq{padding:24px 0 40px;display:grid;grid-template-columns:300px 1fr;gap:36px;align-items:start}
 .cw-lp .faq h2{font-size:32px;color:var(--navy-dark)}
 .cw-lp .faq .hint{color:var(--muted);margin-top:8px}
 .cw-lp details{border-bottom:1px solid var(--line);padding:6px 0}
-.cw-lp summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;font-weight:700;font-size:17px;padding:12px 0}
+.cw-lp summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;font-weight:700;font-size:17px;padding:14px 0;min-height:48px}
 .cw-lp summary::-webkit-details-marker{display:none}
 .cw-lp summary::after{content:"";width:10px;height:10px;border-right:2px solid var(--navy);border-bottom:2px solid var(--navy);transform:rotate(45deg);transition:transform .2s;flex:none}
 .cw-lp details[open] summary::after{transform:rotate(-135deg)}
 .cw-lp details p, .cw-lp details li{color:#2d3748;font-size:15px;margin-bottom:8px}
 .cw-lp details ul{padding-left:20px;margin-bottom:8px}
-.cw-lp /* why love */
-  .why{background:var(--navy-dark);color:#fff;text-align:center;padding:48px 16px 52px}
+.cw-lp .why{background:var(--navy-dark);color:#fff;text-align:center;padding:48px 16px 52px;container-type:inline-size}
 .cw-lp .why h2{font-size:26px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:30px}
 .cw-lp .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:860px;margin:0 auto 32px}
 .cw-lp .why-grid svg{width:54px;height:54px;margin:0 auto 12px;stroke:#fff;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
@@ -120,18 +114,51 @@
 .cw-lp footer .disc{margin-top:10px;font-size:11px;letter-spacing:.06em;text-transform:uppercase}
 .cw-lp .sticky{position:fixed;left:0;right:0;bottom:0;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-top:1px solid var(--line);z-index:50}
 .cw-lp .sticky .btn{width:100%;font-size:16px;padding:14px 20px}
-@media (max-width:820px){
-.cw-lp .hero-grid{grid-template-columns:1fr;padding:22px 18px;gap:18px}
-.cw-lp .hero h1{font-size:30px}
+@container (max-width:760px){
+.cw-lp .hero-grid{grid-template-columns:1fr;padding:22px 16px;gap:18px;border-radius:16px}
+.cw-lp .hero h1{font-size:clamp(26px,7.5cqw,32px)}
+.cw-lp .hero p.lead{font-size:16px}
 .cw-lp .hero-img{order:-1}
-.cw-lp .reason{grid-template-columns:1fr;gap:16px;padding:22px 0}
+.cw-lp .hero .btn{width:100%}
+.cw-lp .collections h2{font-size:22px}
+.cw-lp .reason{grid-template-columns:1fr;gap:14px;padding:22px 0}
 .cw-lp .reason .media img{aspect-ratio:4/3}
-.cw-lp .list-head h2{font-size:27px}
+.cw-lp .reason h3{font-size:21px}
+.cw-lp .list-head h2{font-size:clamp(23px,6.5cqw,28px)}
+.cw-lp .reviews h2{font-size:23px}
 .cw-lp .trust-grid{grid-template-columns:repeat(2,1fr)}
-.cw-lp .faq{grid-template-columns:1fr;gap:12px}
+.cw-lp .trust-grid div:last-child{grid-column:1/-1}
+.cw-lp .faq{grid-template-columns:1fr;gap:12px;padding:16px 0 28px}
+.cw-lp .faq h2{font-size:26px}
 .cw-lp .why-grid{grid-template-columns:1fr;gap:20px}
-.cw-lp .offer{padding:26px 16px}
-.cw-lp .offer h2{font-size:27px}
+.cw-lp .why h2{font-size:21px}
+.cw-lp .offer{padding:24px 14px}
+.cw-lp .offer h2{font-size:clamp(22px,7cqw,27px)}
+.cw-lp .steps{padding:16px}
+.cw-lp .mid-cta .btn, .cw-lp .offer .btn{width:100%}
+}
+@media (max-width:820px){
+.cw-lp .hero-grid{grid-template-columns:1fr;padding:22px 16px;gap:18px;border-radius:16px}
+.cw-lp .hero h1{font-size:clamp(26px,7.5cqw,32px)}
+.cw-lp .hero p.lead{font-size:16px}
+.cw-lp .hero-img{order:-1}
+.cw-lp .hero .btn{width:100%}
+.cw-lp .collections h2{font-size:22px}
+.cw-lp .reason{grid-template-columns:1fr;gap:14px;padding:22px 0}
+.cw-lp .reason .media img{aspect-ratio:4/3}
+.cw-lp .reason h3{font-size:21px}
+.cw-lp .list-head h2{font-size:clamp(23px,6.5cqw,28px)}
+.cw-lp .reviews h2{font-size:23px}
+.cw-lp .trust-grid{grid-template-columns:repeat(2,1fr)}
+.cw-lp .trust-grid div:last-child{grid-column:1/-1}
+.cw-lp .faq{grid-template-columns:1fr;gap:12px;padding:16px 0 28px}
+.cw-lp .faq h2{font-size:26px}
+.cw-lp .why-grid{grid-template-columns:1fr;gap:20px}
+.cw-lp .why h2{font-size:21px}
+.cw-lp .offer{padding:24px 14px}
+.cw-lp .offer h2{font-size:clamp(22px,7cqw,27px)}
+.cw-lp .steps{padding:16px}
+.cw-lp .mid-cta .btn, .cw-lp .offer .btn{width:100%}
 }
 @media (min-width:821px){
 .cw-lp .sticky{display:none}
@@ -139,7 +166,6 @@
 </style>
 
 <div class="cw-lp">
-
 <!-- HERO -->
 <section class="hero">
   <div class="wrap">
@@ -166,12 +192,12 @@
   <div class="wrap">
     <h2>Shop The Colors</h2>
     <div class="tiles">
-      <a class="tile" href="https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/products/ortho-stretch-cushion-shoes-549910.jpg?v=1702290068" alt="Black Purple"><span>Black Purple</span></a>
-      <a class="tile" href="https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/products/ortho-stretch-cushion-shoes-158786.jpg?v=1702290068" alt="Black"><span>Black</span></a>
-      <a class="tile" href="https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/ortho-stretch-cushion-shoes-382627.jpg?v=1732732965" alt="Black White"><span>Black White</span></a>
-      <a class="tile" href="https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/products/ortho-stretch-cushion-shoes-702956.jpg?v=1725456994" alt="Black Sky Blue"><span>Black Sky Blue</span></a>
-      <a class="tile" href="https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/products/ortho-stretch-cushion-shoes-634469.jpg?v=1725456994" alt="White Blue"><span>White Blue</span></a>
-      <a class="tile" href="https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/products/ortho-stretch-cushion-shoes-679531.jpg?v=1725456994" alt="Red"><span>Red</span></a>
+      <a class="tile" href="https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/products/ortho-stretch-cushion-shoes-549910.jpg?v=1702290068" alt="Black Purple"><span>Black Purple</span></a>
+      <a class="tile" href="https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/products/ortho-stretch-cushion-shoes-158786.jpg?v=1702290068" alt="Black"><span>Black</span></a>
+      <a class="tile" href="https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/ortho-stretch-cushion-shoes-382627.jpg?v=1732732965" alt="Black White"><span>Black White</span></a>
+      <a class="tile" href="https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/products/ortho-stretch-cushion-shoes-702956.jpg?v=1725456994" alt="Black Sky Blue"><span>Black Sky Blue</span></a>
+      <a class="tile" href="https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/products/ortho-stretch-cushion-shoes-634469.jpg?v=1725456994" alt="White Blue"><span>White Blue</span></a>
+      <a class="tile" href="https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/products/ortho-stretch-cushion-shoes-679531.jpg?v=1725456994" alt="Red"><span>Red</span></a>
     </div>
   </div>
 </section>
@@ -188,7 +214,7 @@
 <section class="narrow">
 
   <article class="reason">
-    <div class="media"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/Untitled_design_-_2025-09-14T113034.030.png?v=1757863892" alt="Cleaning brush over ComfortWear shoe"></div>
+    <div class="media"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/Untitled_design_-_2025-09-14T113034.030.png?v=1757863892" alt="Cleaning brush over ComfortWear shoe"></div>
     <div>
       <h3>1. Easy To Clean</h3>
       <p><strong>Designed with healthcare in mind</strong>, these shoes are made with a synthetic material that's not only <strong>lightweight</strong> and breathable but incredibly <strong>easy to clean</strong>. Spills and stains, be it <strong>blood</strong> or <strong>urine</strong>, can be <strong>easily wiped off</strong> with a damp cloth. For a deeper clean, they're completely <strong>machine-washable</strong>, ensuring they remain free from bacteria and odors.</p>
@@ -197,7 +223,7 @@
   </article>
 
   <article class="reason">
-    <div class="media"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/7_2.jpg?v=1737044207" alt="Nurse wearing blue ComfortWear Ortho Stretch shoes"></div>
+    <div class="media"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/7_2.jpg?v=1737044207" alt="Nurse wearing blue ComfortWear Ortho Stretch shoes"></div>
     <div>
       <h3>2. Comfortably Work 12-Hour Shifts</h3>
       <p>Stay comfortable on your feet during long 12-hour shifts with <strong>ComfortWear's Ortho Stretch Shoes</strong>. They're super soft and cushion your feet like you're <strong>walking on clouds</strong>. The special insole and snug fit work together to keep <strong>your feet pain-free all day</strong>. These shoes are just what you need for those long 12-14 hour workdays.</p>
@@ -206,7 +232,7 @@
   </article>
 
   <article class="reason">
-    <div class="media"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/t/4/assets/nurses-are-obssessed--20221103t163202481-1667507547294.png?v=1667507549" alt="Slip-resistant rubber outsole of ComfortWear shoe"></div>
+    <div class="media"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/t/4/assets/nurses-are-obssessed--20221103t163202481-1667507547294.png?v=1667507549" alt="Slip-resistant rubber outsole of ComfortWear shoe"></div>
     <div>
       <h3>3. Slip-Resistant Grip</h3>
       <p>Understanding the risks of slips and falls on slick hospital floors, we've engineered these shoes with a <strong>robust rubber outsole</strong>, offering unmatched slip-resistant traction. This advanced grip technology ensures <strong>stability</strong> and <strong>safety</strong>, reducing the risk of accidents, even in the presence of spills. With the <strong>Ortho Stretch Cushion Shoes</strong>, you can focus on patient care, confident in every step you take on any surface.</p>
@@ -215,7 +241,7 @@
   </article>
 
   <article class="reason">
-    <div class="media"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/t/4/assets/comfortwear_footpain-1664579439429.gif?v=1664579440" alt="X-ray style illustration of foot pressure on the orthotic insole"></div>
+    <div class="media"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/t/4/assets/comfortwear_footpain-1664579439429.gif?v=1664579440" alt="X-ray style illustration of foot pressure on the orthotic insole"></div>
     <div>
       <h3>4. Help Ease Plantar Fasciitis, Heel Spurs &amp; Bunions</h3>
       <p><strong>Looking for relief from foot discomfort?</strong> Our shoes feature premium orthotic insoles and superior arch support, aiming to reduce stress on the feet. Our customers report feeling less pain related to <strong>plantar fasciitis, heel spurs, bunions, neuropathy, and fallen arches</strong>. The ORTHO-WEAR insole supports <strong>better alignment</strong> and posture, helping you move more comfortably throughout the day.</p>
@@ -224,7 +250,7 @@
   </article>
 
   <article class="reason">
-    <div class="media"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/Labels-pointing.jpg?v=1738564002" alt="ComfortWear shoe with labels: arch support, breathable, flexible, slip resistant sole"></div>
+    <div class="media"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/Labels-pointing.jpg?v=1738564002" alt="ComfortWear shoe with labels: arch support, breathable, flexible, slip resistant sole"></div>
     <div>
       <h3>5. Arch Support Insoles</h3>
       <p>ComfortWear's shoes feature advanced orthotic insoles with anatomical arch support and heel cushion, <strong>reducing discomfort from your toes to your back</strong>. Praised by professionals like Jenny G: "Best work shoes ever! They outperform all other brands when it comes to <strong>comfort for long hours</strong>." Experience the difference with ComfortWear's exceptional support and comfort.</p>
@@ -235,7 +261,7 @@
   <div class="mid-cta"><a class="btn" href="https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1">Unlock 40% Off Now 👉</a></div>
 
   <article class="reason">
-    <div class="media"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/Ortho-Stretch-Cushion-Shoe-_471_Another.jpg?v=1739542656" alt="Regular shoes versus ComfortWear wide toe box comparison"></div>
+    <div class="media"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/Ortho-Stretch-Cushion-Shoe-_471_Another.jpg?v=1739542656" alt="Regular shoes versus ComfortWear wide toe box comparison"></div>
     <div>
       <h3>6. Wide Toe-Box For Wide Feet &amp; Bunions</h3>
       <p>This orthopedic shoe <strong>features a wide toe box</strong> that provides ample room for the toes to move and spread naturally. This design can <strong>help reduce pressure</strong> and <strong>discomfort in the toe area</strong>, making it ideal for individuals with conditions such as <strong>bunions, hammertoes</strong>, or other foot issues that require extra room.</p>
@@ -244,7 +270,7 @@
   </article>
 
   <article class="reason">
-    <div class="media"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/Ortho-Stretch-Cushion-Shoe-_471_Another_1.jpg?v=1739497468" alt="Scale showing ComfortWear shoes are lighter than regular shoes"></div>
+    <div class="media"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/Ortho-Stretch-Cushion-Shoe-_471_Another_1.jpg?v=1739497468" alt="Scale showing ComfortWear shoes are lighter than regular shoes"></div>
     <div>
       <h3>7. 3x More Lightweight Than <em>Hokas, Sketchers, Crocs, OnClouds</em></h3>
       <p>Lightweight shoes enhance your performance, ensuring <strong>easier movement</strong> and <strong>less energy expenditure</strong>. They're ideal for women in demanding jobs, helping to conserve energy during those long 12-hour shifts. Feel the difference with our effortlessly light and supportive design, tailored for your busiest days.</p>
@@ -253,7 +279,7 @@
   </article>
 
   <article class="reason">
-    <div class="media"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/30-Days.jpg?v=1783684570" alt="100% money back, 30 days guaranteed badge on ComfortWear shoes"></div>
+    <div class="media"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/30-Days.jpg?v=1783684570" alt="100% money back, 30 days guaranteed badge on ComfortWear shoes"></div>
     <div>
       <h3>8. 100% No Questions Asked Money Back Guarantee</h3>
       <p>We're so confident that you'll love your ComfortWear shoes, we offer a <strong>100% no questions asked money back guarantee</strong>. If for any reason you're not satisfied or selected the wrong size, simply let us know and <strong>we'll happily refund your purchase or ship out the correct size</strong>.</p>
@@ -262,7 +288,7 @@
   </article>
 
   <article class="reason">
-    <div class="media"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/1.jpg?v=1738131829" alt="Smiling nurse holding a pair of red ComfortWear shoes"></div>
+    <div class="media"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/1.jpg?v=1738131829" alt="Smiling nurse holding a pair of red ComfortWear shoes"></div>
     <div>
       <h3>9. Over 500,000+ Happy Healthcare Workers and Counting!</h3>
       <p><strong>Over 500,000+ satisfied healthcare workers enjoy our shoes</strong> because they have experienced firsthand the benefits of the shoes' <strong>superior support, cushioning, and cloud-like comfort</strong>.</p>
@@ -271,7 +297,7 @@
   </article>
 
   <article class="reason">
-    <div class="media"><img src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/Untitled_design_-_2025-09-03T134758.041_ea97c08c-ef5b-470d-8354-6c66208fc167.png?v=1757862621" alt="HSA and FSA cards"></div>
+    <div class="media"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0614/5798/9862/files/Untitled_design_-_2025-09-03T134758.041_ea97c08c-ef5b-470d-8354-6c66208fc167.png?v=1757862621" alt="HSA and FSA cards"></div>
     <div>
       <h3>10. HSA/FSA Eligible</h3>
       <p>These shoes and any product from ComfortWear qualify for tax-free purchase with your HSA/FSA account. It's like <strong>getting a 30% discount by using pre-tax dollars</strong>. Select Trumed at checkout to use your HSA/FSA.</p>
