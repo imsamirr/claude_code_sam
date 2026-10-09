@@ -1,0 +1,298 @@
+{
+  "sections": {
+    "main": {
+      "type": "sg-hero-product",
+      "settings": {
+        "heading": "Your Pet, Set in Glass and Lit by the Sun",
+        "heading_tag": "h1",
+        "subtitle": "Free Preview in About 60 Seconds — Made to Order in Real Glass",
+        "cta_label": "Create My Suncatcher",
+        "cta_pill": "Free preview",
+        "sticky_label": "Upload your photo",
+        "show_proof": true,
+        "rating": "4.8",
+        "review_count_text": "506 verified reviews",
+        "reviews_link": "#reviews",
+        "badge": "Customer suncatcher",
+        "meta_1": "<strong>4.8/5</strong> customer rating",
+        "meta_2": "<strong>Free</strong> preview",
+        "style_label": "Choose your scene",
+        "style_property": "Style",
+        "enable_upload": true,
+        "upload_required": true,
+        "reveal_after_upload": true,
+        "photo_property": "Photo",
+        "upload_title": "Click to Upload Clear, Well-Lit Photos",
+        "upload_note_strong": "Free preview",
+        "upload_note": "— no credit card required",
+        "upload_change_label": "Change photo",
+        "upload_error": "Please upload a photo before adding to cart.",
+        "private_strong": "100% Private & Secure",
+        "private_text": "— your photos are never shared",
+        "format_label": "Choose your size",
+        "total_label": "Total",
+        "button_label": "Add to cart",
+        "show_dynamic_checkout": false,
+        "buy_note": "Secure checkout · Made to order · Ships tracked"
+      },
+      "blocks": {
+        "style_1": {
+          "type": "style",
+          "settings": {
+            "name": "Warm",
+            "badge": "Best Seller",
+            "slide": 0
+          }
+        },
+        "style_2": {
+          "type": "style",
+          "settings": {
+            "name": "Halo",
+            "slide": 0
+          }
+        },
+        "style_3": {
+          "type": "style",
+          "settings": {
+            "name": "Memorial",
+            "slide": 0
+          }
+        }
+      },
+      "block_order": [
+        "style_1",
+        "style_2",
+        "style_3"
+      ]
+    },
+    "showcase": {
+      "type": "sg-video-showcase",
+      "settings": {
+        "heading": "See It in the Light",
+        "subheading": "Real glass, a gold rim and a chain — turned in the hand so you can see it move."
+      }
+    },
+    "how": {
+      "type": "sg-how-it-works",
+      "settings": {
+        "heading": "How it works",
+        "subheading": "Three simple steps to a suncatcher your family will treasure.",
+        "anchor": "how-it-works"
+      },
+      "blocks": {
+        "s_1": {
+          "type": "step",
+          "settings": {
+            "icon": "cloud-upload",
+            "title": "Upload your photo",
+            "text": "<p>A clear, well-lit photo of one or two faces works best — the disc is round, so the closer the faces, the more of them it holds.</p>"
+          }
+        },
+        "s_2": {
+          "type": "step",
+          "settings": {
+            "icon": "sparkles",
+            "title": "Choose your scene",
+            "text": "<p>Pick from our scenes — each one built as a real leaded stained glass window.</p>"
+          }
+        },
+        "s_3": {
+          "type": "step",
+          "settings": {
+            "icon": "eye",
+            "title": "See it in the glass",
+            "text": "<p>Your free preview arrives in under a minute, already hanging in the window. Love it? Pick your size and we'll make it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "s_1",
+        "s_2",
+        "s_3"
+      ]
+    },
+    "reviews": {
+      "type": "sg-reviews",
+      "settings": {
+        "heading": "Reviews",
+        "uppercase": true,
+        "page_heading": false,
+        "rating": "4.8",
+        "count_text": "based on 506 verified reviews",
+        "item_label": "Item type:",
+        "button_label": "Read all 506 reviews",
+        "button_link": "/pages/reviews"
+      },
+      "blocks": {
+        "r_1": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/30/2026",
+            "placeholder_ratio": "3 / 4",
+            "text": "<p>Placeholder review. Replace with a real customer review about how their portrait looks.</p>"
+          }
+        },
+        "r_2": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/30/2026",
+            "placeholder_ratio": "3 / 4",
+            "text": "<p>Placeholder review. Very happy with our pictures, they both came out great.</p>"
+          }
+        },
+        "r_3": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "09/06/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. Share a longer story here about who the portrait was for and what the moment meant to the family receiving it.</p>"
+          }
+        },
+        "r_4": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "09/03/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. Longer reviews are clamped to six lines with a Read more link, so customers can tell their whole story without the card growing too tall. Add as much detail as you like here and it will be revealed when the shopper taps Read more below.</p>"
+          }
+        },
+        "r_5": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/31/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. The picture came out amazing, exactly what I expected.</p>"
+          }
+        },
+        "r_6": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/31/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. This is where an emotional customer story goes — what they felt when they opened the package and saw the portrait for the first time. Other family members ordered too after seeing it.</p>"
+          }
+        },
+        "r_7": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/31/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. It's beautiful! I finally feel a sense of peace looking at my picture.</p>"
+          }
+        },
+        "r_8": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/30/2026",
+            "placeholder_ratio": "3 / 4",
+            "text": "<p>Placeholder review. Absolutely love the picture, best purchase I've made.</p>"
+          }
+        },
+        "r_9": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/30/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. Love the photo of my sweet little girl.</p>",
+            "item": "Fine Art Poster"
+          }
+        }
+      },
+      "block_order": [
+        "r_1",
+        "r_2",
+        "r_3",
+        "r_4",
+        "r_5",
+        "r_6",
+        "r_7",
+        "r_8",
+        "r_9"
+      ]
+    },
+    "faq": {
+      "type": "sg-faq",
+      "settings": {
+        "heading": "Questions About Your Suncatcher",
+        "anchor": "faq",
+        "schema_markup": true
+      },
+      "blocks": {
+        "q_1": {
+          "type": "question",
+          "settings": {
+            "question": "What exactly do I receive?",
+            "answer": "<p>A round disc of glass printed with your artwork, set in a gold-tone metal rim with a chain to hang it by. It's made to order, one at a time, from the preview you approve.</p>"
+          }
+        },
+        "q_2": {
+          "type": "question",
+          "settings": {
+            "question": "Which size should I pick?",
+            "answer": "<p>The 6 inch is the one most people choose — big enough that every face reads clearly from across the room. The 4 inch suits a small kitchen window, and the 10 inch makes a statement piece.</p>"
+          }
+        },
+        "q_3": {
+          "type": "question",
+          "settings": {
+            "question": "How long until it arrives?",
+            "answer": "<p>It's made to order and arrives in 5-8 days within the USA, or 2-3 weeks elsewhere, and you'll get a tracking number as soon as it goes out.</p>"
+          }
+        },
+        "q_4": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship internationally?",
+            "answer": "<p>Suncatchers are available in the United States only. Elsewhere, digital portraits and posters are available, subject to the delivery options at checkout.</p>"
+          }
+        },
+        "q_5": {
+          "type": "question",
+          "settings": {
+            "question": "Will the faces still look like them?",
+            "answer": "<p>Yes. The background and clothing are built from panes of coloured glass, but the faces and hands are kept true to your photo so every person is recognisable.</p>"
+          }
+        },
+        "q_6": {
+          "type": "question",
+          "settings": {
+            "question": "Is the preview really free?",
+            "answer": "<p>Yes. Upload a photo, pick a scene, and see your suncatcher in under a minute. No payment, no sign-up, and no obligation to order.</p>"
+          }
+        },
+        "q_7": {
+          "type": "question",
+          "settings": {
+            "question": "What if it arrives damaged?",
+            "answer": "<p>Send us a photo of the item and the packaging within 14 days of delivery and we'll replace it free of charge or refund you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q_1",
+        "q_2",
+        "q_3",
+        "q_4",
+        "q_5",
+        "q_6",
+        "q_7"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "showcase",
+    "how",
+    "reviews",
+    "faq"
+  ]
+}

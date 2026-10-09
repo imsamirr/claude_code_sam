@@ -1,0 +1,116 @@
+{%- liquid
+  assign heading_tag = 'h2'
+  if section.settings.page_heading
+    assign heading_tag = 'h1'
+  endif
+-%}
+<section class="sg-section sg-reviews" id="reviews"{% if section.settings.page_heading %} style="padding-top: 48px;"{% endif %}>
+  <div class="sg-container">
+    <div class="sg-section__head sg-reveal">
+      {%- if section.settings.heading != blank -%}
+        <{{ heading_tag }} class="sg-h2 sg-h2--700{% if section.settings.uppercase %} sg-h2--upper{% endif %}">{{ section.settings.heading }}</{{ heading_tag }}>
+      {%- endif -%}
+      {%- if section.settings.intro != blank -%}
+        <div class="sg-reviews__intro">{{ section.settings.intro }}</div>
+      {%- endif -%}
+      {%- if section.settings.rating != blank -%}
+        <p class="sg-reviews__summary">
+          {%- render 'sg-stars' -%}
+          <span><strong>{{ section.settings.rating }}</strong>/5 · {{ section.settings.count_text }}</span>
+        </p>
+      {%- endif -%}
+    </div>
+
+    <div class="sg-masonry">
+      {%- for block in section.blocks -%}
+        <article class="sg-review" {{ block.shopify_attributes }}>
+          {%- if block.settings.image != blank -%}
+            <div class="sg-review__media">
+              {{ block.settings.image | image_url: width: 760 | image_tag: loading: 'lazy', widths: '380, 560, 760', sizes: '(min-width: 990px) 371px, (min-width: 640px) 50vw, 100vw', alt: block.settings.name }}
+            </div>
+          {%- elsif block.settings.placeholder_ratio != 'none' -%}
+            {%- assign ph_index = forloop.index | modulo: 6 | plus: 1 -%}
+            {%- assign ph = 'product-' | append: ph_index -%}
+            <div class="sg-review__media" style="--ph-ratio: {{ block.settings.placeholder_ratio }};">
+              {{ ph | placeholder_svg_tag: 'sg-ph' }}
+            </div>
+          {%- endif -%}
+          <div class="sg-review__body">
+            <p class="sg-review__name">
+              {{ block.settings.name }}
+              {%- if block.settings.verified -%}{% render 'sg-icon', name: 'verified' %}{%- endif -%}
+            </p>
+            {%- if block.settings.date != blank -%}
+              <p class="sg-review__date">{{ block.settings.date }}</p>
+            {%- endif -%}
+            {%- render 'sg-stars', size: 'sm' -%}
+            <div class="sg-review__text is-clamped" data-sg-review-text>{{ block.settings.text }}</div>
+            <button type="button" class="sg-review__more" data-sg-review-more data-more="Read more" data-less="Show less" hidden>Read more</button>
+            {%- if block.settings.item != blank -%}
+              <p class="sg-review__meta">{{ section.settings.item_label }} {{ block.settings.item }}</p>
+            {%- endif -%}
+          </div>
+        </article>
+      {%- endfor -%}
+    </div>
+
+    {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}
+      <div class="sg-reviews__footer">
+        <a class="sg-btn sg-btn--outline" href="{{ section.settings.button_link }}">
+          {{ section.settings.button_label }}
+          {%- render 'sg-icon', name: 'arrow-right' -%}
+        </a>
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Reviews wall",
+  "class": "sg-reviews-section",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Reviews" },
+    { "type": "checkbox", "id": "uppercase", "label": "Uppercase heading", "default": true },
+    { "type": "checkbox", "id": "page_heading", "label": "Use as page title (H1)", "default": false },
+    { "type": "richtext", "id": "intro", "label": "Intro text" },
+    { "type": "text", "id": "rating", "label": "Average rating", "default": "4.8" },
+    { "type": "text", "id": "count_text", "label": "Rating text", "default": "based on 506 verified reviews" },
+    { "type": "text", "id": "item_label", "label": "Item type label", "default": "Item type:" },
+    { "type": "text", "id": "button_label", "label": "Button label", "default": "Read all reviews" },
+    { "type": "url", "id": "button_link", "label": "Button link" }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Customer photo" },
+        {
+          "type": "select",
+          "id": "placeholder_ratio",
+          "label": "Placeholder shape (when no photo)",
+          "default": "3 / 4",
+          "options": [
+            { "value": "3 / 4", "label": "Portrait" },
+            { "value": "2 / 3", "label": "Tall" },
+            { "value": "1 / 1", "label": "Square" },
+            { "value": "none", "label": "No image" }
+          ]
+        },
+        { "type": "text", "id": "name", "label": "Customer name", "default": "Customer name" },
+        { "type": "checkbox", "id": "verified", "label": "Verified buyer", "default": true },
+        { "type": "text", "id": "date", "label": "Date", "default": "01/01/2026" },
+        { "type": "richtext", "id": "text", "label": "Review", "default": "<p>Replace this with a real customer review. Share what they loved about their portrait and how it felt to receive it.</p>" },
+        { "type": "text", "id": "item", "label": "Item type", "info": "e.g. Fine Art Poster" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Reviews wall",
+      "blocks": [{ "type": "review" }, { "type": "review" }, { "type": "review" }]
+    }
+  ]
+}
+{% endschema %}

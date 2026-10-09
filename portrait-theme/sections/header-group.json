@@ -1,0 +1,142 @@
+{
+  "name": "Header",
+  "type": "header",
+  "sections": {
+    "announcement": {
+      "type": "sg-announcement",
+      "settings": {
+        "text": "SITEWIDE SALE | 30% OFF EVERYTHING",
+        "bg": "#3F2D6B",
+        "color": "#FFFCF7"
+      }
+    },
+    "topbar": {
+      "type": "sg-topbar",
+      "settings": {
+        "hide_on_pages": true,
+        "tabs_label": "Product types",
+        "subbar_text": "Free Preview · Pay Only If You Love It",
+        "subbar_link_label": "Track My Order",
+        "subbar_link": "/pages/track"
+      },
+      "blocks": {
+        "tab_1": {
+          "type": "tab",
+          "settings": {
+            "label": "Prints",
+            "icon": "frame",
+            "link": "/",
+            "match_handle": "classic-portrait"
+          }
+        },
+        "tab_2": {
+          "type": "tab",
+          "settings": {
+            "label": "Suncatcher",
+            "icon": "sun",
+            "link": "/products/photo-suncatcher",
+            "match_handle": "photo-suncatcher"
+          }
+        }
+      },
+      "block_order": [
+        "tab_1",
+        "tab_2"
+      ]
+    },
+    "header": {
+      "type": "sg-header",
+      "settings": {
+        "logo_width": 241,
+        "logo_width_mobile": 160,
+        "cart_visibility": "items",
+        "show_account": false,
+        "drawer_title": "Menu",
+        "simple_on_pages": true,
+        "logo_width_simple": 112,
+        "back_label": "Back to home"
+      },
+      "blocks": {
+        "menu_1": {
+          "type": "drawer_item",
+          "settings": {
+            "title": "Classic Portrait",
+            "link": "/"
+          }
+        },
+        "menu_2": {
+          "type": "drawer_item",
+          "settings": {
+            "title": "Kids",
+            "link": "/products/kids-cartoon-portrait"
+          }
+        },
+        "menu_3": {
+          "type": "drawer_item",
+          "settings": {
+            "title": "Pets",
+            "link": "/products/pet-portrait"
+          }
+        },
+        "menu_4": {
+          "type": "drawer_item",
+          "settings": {
+            "title": "Suncatcher",
+            "link": "/products/photo-suncatcher"
+          }
+        },
+        "menu_5": {
+          "type": "drawer_item",
+          "settings": {
+            "title": "Pet Suncatcher",
+            "link": "/products/pet-suncatcher"
+          }
+        },
+        "menu_6": {
+          "type": "drawer_item",
+          "settings": {
+            "title": "Wedding",
+            "link": "/products/wedding-portrait"
+          }
+        },
+        "menu_7": {
+          "type": "drawer_link",
+          "settings": {
+            "title": "Track My Order",
+            "link": "/pages/track"
+          }
+        },
+        "menu_8": {
+          "type": "drawer_link",
+          "settings": {
+            "title": "My Portraits",
+            "link": "/account"
+          }
+        },
+        "menu_9": {
+          "type": "drawer_link",
+          "settings": {
+            "title": "Contact",
+            "link": "/pages/contact"
+          }
+        }
+      },
+      "block_order": [
+        "menu_1",
+        "menu_2",
+        "menu_3",
+        "menu_4",
+        "menu_5",
+        "menu_6",
+        "menu_7",
+        "menu_8",
+        "menu_9"
+      ]
+    }
+  },
+  "order": [
+    "announcement",
+    "topbar",
+    "header"
+  ]
+}

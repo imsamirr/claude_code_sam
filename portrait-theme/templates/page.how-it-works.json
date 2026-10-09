@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "main": {
+      "type": "sg-doc",
+      "settings": {
+        "show_title": true,
+        "show_updated": true,
+        "updated_label": "Last updated:",
+        "foot": "<p>Questions? Email <a href=\"mailto:support@yourstore.com\">support@yourstore.com</a> or call <a href=\"tel:+15555555555\">+1 (555) 555-5555</a>.</p>"
+      },
+      "blocks": {
+        "c_1": {
+          "type": "intro",
+          "settings": {
+            "text": "<p>Turning a photo into a keepsake portrait takes three steps and about a minute for your first look.</p>"
+          }
+        },
+        "c_2": {
+          "type": "steps",
+          "settings": {
+            "icon_1": "cloud-upload",
+            "title_1": "1. Upload your photo",
+            "text_1": "<p>Add a clear photo of your family, a loved one, or a pet. Solo, couple, or the whole group — you can upload multiple photos of different people and we'll merge everyone into one scene.</p>",
+            "icon_2": "sparkles",
+            "title_2": "2. Choose a style",
+            "text_2": "<p>Pick a style — Warm, Walking, Preaching, or Memorial, a tribute portrait in loving memory.</p>",
+            "icon_3": "download",
+            "title_3": "3. Get your free preview",
+            "text_3": "<p>See your portrait in under a minute, watermarked so you can judge the result risk-free. Love it? Purchase to unlock the full high-resolution, watermark-free artwork.</p>"
+          }
+        },
+        "c_3": {
+          "type": "text",
+          "settings": {
+            "heading": "Free daily generations",
+            "text": "<p>You can generate up to <strong>6 free previews per day</strong>. If a preview doesn't come out the way you hoped, try a brighter or more clearly lit photo, or simply generate again.</p>"
+          }
+        },
+        "c_4": {
+          "type": "text",
+          "settings": {
+            "heading": "Want a small change instead of starting over?",
+            "text": "<p>Once a preview is ready, click <strong>Edit this photo</strong> under it and describe exactly what you'd like changed. We'll apply just that change to your existing portrait.</p>"
+          }
+        },
+        "c_5": {
+          "type": "icon_list",
+          "settings": {
+            "heading": "After you purchase",
+            "icon_1": "shield",
+            "text_1": "<p>Digital downloads unlock instantly — a clean, full-resolution, watermark-free file delivered to your email right after checkout.</p>",
+            "icon_2": "clock",
+            "text_2": "<p>Fine art prints are made to order and ship tracked — see our <a href=\"/pages/shipping-ordering\">Shipping &amp; Ordering</a> page for timelines.</p>"
+          }
+        },
+        "c_6": {
+          "type": "page_content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "c_1",
+        "c_2",
+        "c_3",
+        "c_4",
+        "c_5",
+        "c_6"
+      ]
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

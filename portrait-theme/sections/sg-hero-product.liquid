@@ -1,0 +1,696 @@
+{%- liquid
+  assign p = product
+  if p == blank
+    assign p = section.settings.product
+  endif
+  if p != blank
+    assign current_variant = p.selected_or_first_available_variant
+  endif
+  assign heading = section.settings.heading | default: p.title
+  if heading == blank
+    assign heading = 'Your product headline goes here'
+  endif
+  assign style_blocks = section.blocks | where: 'type', 'style'
+  assign has_options = false
+  if p != blank and p.has_only_default_variant == false
+    assign has_options = true
+  endif
+  assign gallery_id = 'SgGallery-' | append: section.id
+-%}
+
+<section
+  class="sg-hero"
+  data-sg-builder
+  data-money-format="{{ shop.money_format | strip_html | escape }}"
+  id="create"
+>
+  <div class="sg-container">
+    <div class="sg-hero__grid">
+      {%- comment -%} ---------- Intro (title, subtitle, proof) ---------- {%- endcomment -%}
+      <div class="sg-hero__intro" data-sg-hero-intro>
+        {%- if section.settings.heading_tag == 'h1' -%}
+          <h1 class="sg-hero__title">{{ heading }}</h1>
+        {%- else -%}
+          <h2 class="sg-hero__title">{{ heading }}</h2>
+        {%- endif -%}
+        {%- if section.settings.subtitle != blank -%}
+          <p class="sg-hero__subtitle">{{ section.settings.subtitle }}</p>
+        {%- endif -%}
+
+        {%- if section.settings.cta_label != blank -%}
+          <button type="button" class="sg-btn sg-btn--primary sg-hero__cta" data-sg-scroll-upload>
+            <span class="sg-btn__label">
+              <span style="display:inline-flex;align-items:center;gap:10px;">
+                {%- render 'sg-icon', name: 'sparkles' -%}
+                {{ section.settings.cta_label }}
+              </span>
+              {%- if section.settings.cta_pill != blank -%}
+                <span class="sg-btn__pill">{{ section.settings.cta_pill }}</span>
+              {%- endif -%}
+            </span>
+          </button>
+        {%- endif -%}
+
+        {%- if section.settings.show_proof -%}
+          <div class="sg-proof">
+            <span class="sg-avatars" aria-hidden="true">
+              {%- for i in (1..3) -%}
+                {%- assign avatar_key = 'avatar_' | append: i -%}
+                {%- assign avatar = section.settings[avatar_key] -%}
+                <span>
+                  {%- if avatar != blank -%}
+                    {{ avatar | image_url: width: 96 | image_tag: loading: 'lazy', alt: '' }}
+                  {%- else -%}
+                    {{ 'image' | placeholder_svg_tag: 'sg-ph sg-ph--avatar' }}
+                  {%- endif -%}
+                </span>
+              {%- endfor -%}
+            </span>
+            <span><strong>{{ section.settings.rating }}</strong>/5 · {{ section.settings.review_count_text }}</span>
+          </div>
+        {%- endif -%}
+      </div>
+
+      {%- comment -%} ---------- Gallery ---------- {%- endcomment -%}
+      <div class="sg-hero__gallery" data-sg-gallery id="{{ gallery_id }}">
+        <div class="sg-gallery__main">
+          {%- if section.settings.badge != blank -%}
+            <span class="sg-gallery__badge">{{ section.settings.badge }}</span>
+          {%- endif -%}
+          <div class="sg-gallery__viewport" data-sg-viewport>
+            <div class="sg-gallery__track" data-sg-track>
+              {%- if p != blank and p.media.size > 0 -%}
+                {%- for media in p.media -%}
+                  <div class="sg-gallery__slide" data-sg-slide data-media-id="{{ media.id }}">
+                    {%- case media.media_type -%}
+                      {%- when 'video' -%}
+                        {{ media | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, image_size: '1100x' }}
+                      {%- else -%}
+                        {%- liquid
+                          assign loading = 'lazy'
+                          if forloop.first
+                            assign loading = 'eager'
+                          endif
+                        -%}
+                        {{
+                          media.preview_image
+                          | image_url: width: 1100
+                          | image_tag:
+                            loading: loading,
+                            widths: '400, 600, 800, 1100',
+                            sizes: '(min-width: 990px) 530px, calc(100vw - 48px)',
+                            alt: media.alt
+                        }}
+                    {%- endcase -%}
+                  </div>
+                {%- endfor -%}
+              {%- else -%}
+                {%- for i in (1..5) -%}
+                  {%- assign ph = 'product-' | append: i -%}
+                  <div class="sg-gallery__slide" data-sg-slide>{{ ph | placeholder_svg_tag: 'sg-ph' }}</div>
+                {%- endfor -%}
+              {%- endif -%}
+            </div>
+          </div>
+          <button type="button" class="sg-gallery__arrow sg-gallery__arrow--prev" data-sg-prev aria-label="Previous image">
+            {%- render 'sg-icon', name: 'chevron-left' -%}
+          </button>
+          <button type="button" class="sg-gallery__arrow sg-gallery__arrow--next" data-sg-next aria-label="Next image">
+            {%- render 'sg-icon', name: 'chevron-right' -%}
+          </button>
+        </div>
+
+        <div class="sg-thumbs">
+          <button type="button" class="sg-gallery__arrow sg-gallery__arrow--prev" data-sg-prev aria-label="Previous image">
+            {%- render 'sg-icon', name: 'chevron-left' -%}
+          </button>
+          <div class="sg-thumbs__track" data-sg-thumb-track>
+            {%- if p != blank and p.media.size > 0 -%}
+              {%- for media in p.media -%}
+                <button
+                  type="button"
+                  class="sg-thumb"
+                  data-sg-thumb
+                  aria-current="{% if forloop.first %}true{% else %}false{% endif %}"
+                  aria-label="Show image {{ forloop.index }}"
+                >
+                  {{ media.preview_image | image_url: width: 240 | image_tag: loading: 'lazy', alt: '' }}
+                </button>
+              {%- endfor -%}
+            {%- else -%}
+              {%- for i in (1..5) -%}
+                {%- assign ph = 'product-' | append: i -%}
+                <button
+                  type="button"
+                  class="sg-thumb"
+                  data-sg-thumb
+                  aria-current="{% if forloop.first %}true{% else %}false{% endif %}"
+                  aria-label="Show image {{ forloop.index }}"
+                >
+                  {{ ph | placeholder_svg_tag: 'sg-ph' }}
+                </button>
+              {%- endfor -%}
+            {%- endif -%}
+          </div>
+          <button type="button" class="sg-gallery__arrow sg-gallery__arrow--next" data-sg-next aria-label="Next image">
+            {%- render 'sg-icon', name: 'chevron-right' -%}
+          </button>
+        </div>
+
+        {%- if section.settings.meta_1 != blank or section.settings.meta_2 != blank -%}
+          <p class="sg-gallery__meta">
+            {%- if section.settings.meta_1 != blank -%}<span>{{ section.settings.meta_1 }}</span>{%- endif -%}
+            {%- if section.settings.meta_2 != blank -%}<span>{{ section.settings.meta_2 }}</span>{%- endif -%}
+          </p>
+        {%- endif -%}
+        {%- if section.settings.show_proof -%}
+          <a class="sg-rating-pill" href="{{ section.settings.reviews_link | default: '#reviews' }}">
+            {%- render 'sg-stars' -%}
+            <span><strong>{{ section.settings.rating }}</strong>/5 · {{ section.settings.review_count_text }}</span>
+            {%- render 'sg-icon', name: 'chevron-right' -%}
+          </a>
+        {%- endif -%}
+      </div>
+
+      {%- comment -%} ---------- Form: style, upload, purchase ---------- {%- endcomment -%}
+      {%- if p != blank -%}
+        {%- capture form_id -%}SgProductForm-{{ section.id }}{%- endcapture -%}
+        {%- form 'product', p, id: form_id, class: 'sg-hero__form', enctype: 'multipart/form-data', data-sg-form: '', novalidate: 'novalidate' -%}
+          <input type="hidden" name="id" value="{{ current_variant.id }}">
+          {{ form | default_errors }}
+
+          {%- if style_blocks.size > 0 -%}
+            <fieldset class="sg-hero__styles" style="border:0;margin:0;padding:0;min-width:0;">
+              <legend class="sg-label-caps" style="padding:0;">{{ section.settings.style_label }}</legend>
+              <div class="sg-styles">
+                {%- for block in style_blocks -%}
+                  <label
+                    class="sg-style{% if forloop.first %} is-selected{% endif %}"
+                    data-sg-style
+                    {% if block.settings.slide > 0 %}
+                      data-slide="{{ block.settings.slide | minus: 1 }}"
+                    {% endif %}
+                    {{ block.shopify_attributes }}
+                  >
+                    <input
+                      type="radio"
+                      name="properties[{{ section.settings.style_property | escape }}]"
+                      value="{{ block.settings.name | escape }}"
+                      {% if forloop.first %}
+                        checked
+                      {% endif %}
+                    >
+                    {%- if block.settings.badge != blank -%}
+                      <span class="sg-style__badge">{% render 'sg-icon', name: 'star' %}{{ block.settings.badge }}</span>
+                    {%- endif -%}
+                    <span class="sg-style__media">
+                      {%- if block.settings.image != blank -%}
+                        {{ block.settings.image | image_url: width: 400 | image_tag: loading: 'lazy', alt: block.settings.name }}
+                      {%- else -%}
+                        {{ 'collection-' | append: forloop.index | placeholder_svg_tag: 'sg-ph' }}
+                      {%- endif -%}
+                    </span>
+                    <span class="sg-style__name">{{ block.settings.name }}</span>
+                  </label>
+                {%- endfor -%}
+              </div>
+            </fieldset>
+          {%- endif -%}
+
+          {%- if section.settings.enable_upload -%}
+            <div class="sg-hero__upload">
+              <div class="sg-upload">
+                <label class="sg-dropzone" data-sg-dropzone>
+                  <input
+                    type="file"
+                    name="properties[{{ section.settings.photo_property | escape }}]"
+                    accept="image/*"
+                    {% if section.settings.upload_required %}
+                      required
+                    {% endif %}
+                  >
+                  <span class="sg-dropzone__empty" style="display:contents;">
+                    <span class="sg-dropzone__icon">{% render 'sg-icon', name: 'upload' %}</span>
+                    <span class="sg-dropzone__title">{{ section.settings.upload_title }}</span>
+                    {%- if section.settings.upload_note_strong != blank or section.settings.upload_note != blank -%}
+                      <span class="sg-dropzone__note">
+                        <span class="sg-dropzone__check">{% render 'sg-icon', name: 'check' %}</span>
+                        <strong>{{ section.settings.upload_note_strong }}</strong>
+                        <em>{{ section.settings.upload_note }}</em>
+                      </span>
+                    {%- endif -%}
+                  </span>
+                  <span class="sg-dropzone__preview">
+                    <img data-sg-preview-img alt="" width="64" height="64">
+                    <span>
+                      <span class="sg-dropzone__preview-name" data-sg-preview-name></span><br>
+                      <span class="sg-dropzone__preview-change">{{ section.settings.upload_change_label }}</span>
+                    </span>
+                  </span>
+                </label>
+                {%- if section.settings.private_strong != blank or section.settings.private_text != blank -%}
+                  <p class="sg-private"><strong>{{ section.settings.private_strong }}</strong> {{ section.settings.private_text }}</p>
+                {%- endif -%}
+              </div>
+            </div>
+          {%- endif -%}
+
+          <div
+            class="sg-hero__buy sg-buy"
+            data-sg-buy
+            {% if section.settings.enable_upload and section.settings.reveal_after_upload %}
+              hidden
+            {% endif %}
+          >
+            <div class="sg-buy__panel">
+              {%- if has_options -%}
+                {%- for option in p.options_with_values -%}
+                  {%- assign option_index = forloop.index0 -%}
+                  <fieldset class="sg-option-group" style="border:0;margin:0;padding:0;min-width:0;">
+                    <legend class="sg-label-caps" style="padding:0;">
+                      {%- if forloop.first and section.settings.format_label != blank -%}
+                        {{ section.settings.format_label }}
+                      {%- else -%}
+                        {{ option.name }}
+                      {%- endif -%}
+                    </legend>
+                    <div class="sg-formats">
+                      {%- for value in option.values -%}
+                        {%- liquid
+                          assign value_variant = blank
+                          if p.options.size == 1
+                            assign value_variant = p.variants | where: 'option1', value | first
+                          endif
+                        -%}
+                        <label class="sg-format">
+                          <input
+                            type="radio"
+                            name="sg-option-{{ section.id }}-{{ option_index }}"
+                            value="{{ value | escape }}"
+                            data-option-index="{{ option_index }}"
+                            {% if option.selected_value == value %}
+                              checked
+                            {% endif %}
+                            {% if value_variant != blank and value_variant.available == false %}
+                              disabled
+                            {% endif %}
+                          >
+                          <span class="sg-format__radio" aria-hidden="true"></span>
+                          <span class="sg-format__name">{{ value }}</span>
+                          {%- if value_variant != blank -%}
+                            <span class="sg-format__price">
+                              {%- if value_variant.compare_at_price > value_variant.price -%}
+                                <s>{{ value_variant.compare_at_price | money }}</s>
+                              {%- endif -%}
+                              {{- value_variant.price | money -}}
+                            </span>
+                          {%- endif -%}
+                        </label>
+                      {%- endfor -%}
+                    </div>
+                  </fieldset>
+                {%- endfor -%}
+              {%- endif -%}
+
+              <div class="sg-buy__total">
+                <span class="sg-buy__total-label">{{ section.settings.total_label }}</span>
+                <span class="sg-buy__total-price" data-sg-price>
+                  {%- if current_variant.compare_at_price > current_variant.price -%}
+                    <s>{{ current_variant.compare_at_price | money }}</s>
+                  {%- endif -%}
+                  {{- current_variant.price | money -}}
+                </span>
+              </div>
+
+              <button
+                type="submit"
+                name="add"
+                class="sg-btn sg-btn--primary sg-btn--block"
+                data-sg-submit
+                data-add="{{ section.settings.button_label | escape }}"
+                data-sold-out="{{ 'products.product.sold_out' | t | escape }}"
+                data-unavailable="{{ 'products.product.unavailable' | t | escape }}"
+                {% unless current_variant.available %}
+                  disabled
+                {% endunless %}
+              >
+                {%- render 'sg-icon', name: 'bag' -%}
+                <span data-sg-submit-label>
+                  {%- if current_variant.available -%}
+                    {{ section.settings.button_label }}
+                  {%- else -%}
+                    {{ 'products.product.sold_out' | t }}
+                  {%- endif -%}
+                </span>
+              </button>
+              {%- if section.settings.show_dynamic_checkout -%}
+                {{ form | payment_button }}
+              {%- endif -%}
+              <p class="sg-buy__error" data-sg-error data-msg="{{ section.settings.upload_error | escape }}" hidden></p>
+              {%- if section.settings.buy_note != blank -%}
+                <p class="sg-buy__note">{{ section.settings.buy_note }}</p>
+              {%- endif -%}
+            </div>
+          </div>
+        {%- endform -%}
+        <script type="application/json" data-sg-product-json>
+          {{ p | json }}
+        </script>
+      {%- else -%}
+        {%- comment -%} Placeholder shown in the editor before a product is chosen {%- endcomment -%}
+        {%- if style_blocks.size > 0 -%}
+          <div class="sg-hero__styles">
+            <p class="sg-label-caps">{{ section.settings.style_label }}</p>
+            <div class="sg-styles">
+              {%- for block in style_blocks -%}
+                <div class="sg-style{% if forloop.first %} is-selected{% endif %}" {{ block.shopify_attributes }}>
+                  {%- if block.settings.badge != blank -%}
+                    <span class="sg-style__badge">{% render 'sg-icon', name: 'star' %}{{ block.settings.badge }}</span>
+                  {%- endif -%}
+                  <span class="sg-style__media">
+                    {%- if block.settings.image != blank -%}
+                      {{ block.settings.image | image_url: width: 400 | image_tag: loading: 'lazy', alt: block.settings.name }}
+                    {%- else -%}
+                      {{ 'collection-' | append: forloop.index | placeholder_svg_tag: 'sg-ph' }}
+                    {%- endif -%}
+                  </span>
+                  <span class="sg-style__name">{{ block.settings.name }}</span>
+                </div>
+              {%- endfor -%}
+            </div>
+          </div>
+        {%- endif -%}
+        <div class="sg-hero__upload">
+          <div class="sg-upload">
+            <div class="sg-dropzone" data-sg-dropzone>
+              <span class="sg-dropzone__icon">{% render 'sg-icon', name: 'upload' %}</span>
+              <span class="sg-dropzone__title">{{ section.settings.upload_title }}</span>
+              <span class="sg-dropzone__note">Select a product in the section settings to enable ordering.</span>
+            </div>
+          </div>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+
+  {%- if section.settings.sticky_label != blank -%}
+    <div class="sg-sticky-cta" data-sg-sticky-cta>
+      <button type="button" class="sg-btn sg-btn--primary" data-sg-scroll-upload>
+        {%- render 'sg-icon', name: 'upload' -%}
+        {{ section.settings.sticky_label }}
+        {%- if section.settings.cta_pill != blank -%}
+          <span class="sg-btn__pill">{{ section.settings.cta_pill }}</span>
+        {%- endif -%}
+      </button>
+    </div>
+  {%- endif -%}
+</section>
+
+{% schema %}
+{
+  "name": "Product builder hero",
+  "tag": "div",
+  "class": "sg-hero-section",
+  "settings": [
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Product",
+      "info": "Used on the home page. On product pages the current product is used automatically."
+    },
+    {
+      "type": "header",
+      "content": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "info": "Leave empty to show the product title."
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Heading tag",
+      "default": "h1",
+      "options": [
+        { "value": "h1", "label": "H1" },
+        { "value": "h2", "label": "H2" }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Ready in About 60 Seconds — No Payment or Sign-Up Required"
+    },
+    {
+      "type": "text",
+      "id": "cta_label",
+      "label": "Mobile button label",
+      "default": "Generate My Portrait"
+    },
+    {
+      "type": "text",
+      "id": "cta_pill",
+      "label": "Button tag",
+      "default": "Free preview"
+    },
+    {
+      "type": "text",
+      "id": "sticky_label",
+      "label": "Mobile sticky button label",
+      "default": "Upload your photo"
+    },
+    {
+      "type": "header",
+      "content": "Rating"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_proof",
+      "label": "Show rating",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "rating",
+      "label": "Rating",
+      "default": "4.8"
+    },
+    {
+      "type": "text",
+      "id": "review_count_text",
+      "label": "Review count text",
+      "default": "506 verified reviews"
+    },
+    {
+      "type": "url",
+      "id": "reviews_link",
+      "label": "Reviews link"
+    },
+    {
+      "type": "image_picker",
+      "id": "avatar_1",
+      "label": "Customer photo 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "avatar_2",
+      "label": "Customer photo 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "avatar_3",
+      "label": "Customer photo 3"
+    },
+    {
+      "type": "header",
+      "content": "Gallery"
+    },
+    {
+      "type": "text",
+      "id": "badge",
+      "label": "Image badge",
+      "default": "Customer portrait"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "meta_1",
+      "label": "Below gallery text 1",
+      "default": "<strong>4.8/5</strong> customer rating"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "meta_2",
+      "label": "Below gallery text 2",
+      "default": "<strong>Free</strong> preview"
+    },
+    {
+      "type": "header",
+      "content": "Style picker"
+    },
+    {
+      "type": "text",
+      "id": "style_label",
+      "label": "Label",
+      "default": "Choose your portrait style"
+    },
+    {
+      "type": "text",
+      "id": "style_property",
+      "label": "Order property name",
+      "info": "Shown on the order, e.g. Style: Warm",
+      "default": "Style"
+    },
+    {
+      "type": "header",
+      "content": "Photo upload"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_upload",
+      "label": "Enable photo upload",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "upload_required",
+      "label": "Photo required to order",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "reveal_after_upload",
+      "label": "Show purchase options after upload",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "photo_property",
+      "label": "Order property name",
+      "default": "Photo"
+    },
+    {
+      "type": "text",
+      "id": "upload_title",
+      "label": "Upload title",
+      "default": "Click to Upload Clear, Well-Lit Photos"
+    },
+    {
+      "type": "text",
+      "id": "upload_note_strong",
+      "label": "Upload note (bold)",
+      "default": "Free preview"
+    },
+    {
+      "type": "text",
+      "id": "upload_note",
+      "label": "Upload note",
+      "default": "— no credit card required"
+    },
+    {
+      "type": "text",
+      "id": "upload_change_label",
+      "label": "Change photo label",
+      "default": "Change photo"
+    },
+    {
+      "type": "text",
+      "id": "upload_error",
+      "label": "Missing photo message",
+      "default": "Please upload a photo before adding to cart."
+    },
+    {
+      "type": "text",
+      "id": "private_strong",
+      "label": "Privacy note (bold)",
+      "default": "100% Private & Secure"
+    },
+    {
+      "type": "text",
+      "id": "private_text",
+      "label": "Privacy note",
+      "default": "— your photos are never shared"
+    },
+    {
+      "type": "header",
+      "content": "Purchase"
+    },
+    {
+      "type": "text",
+      "id": "format_label",
+      "label": "First option label",
+      "default": "Choose your format"
+    },
+    {
+      "type": "text",
+      "id": "total_label",
+      "label": "Total label",
+      "default": "Total"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "Add to cart"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_dynamic_checkout",
+      "label": "Show dynamic checkout buttons",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "buy_note",
+      "label": "Note below button",
+      "default": "Secure checkout · Made to order · Ships tracked"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "style",
+      "name": "Style option",
+      "limit": 8,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name",
+          "default": "Warm"
+        },
+        {
+          "type": "text",
+          "id": "badge",
+          "label": "Badge",
+          "info": "e.g. Best Seller"
+        },
+        {
+          "type": "number",
+          "id": "slide",
+          "label": "Show gallery image # when selected",
+          "info": "Optional. 1 = first product image.",
+          "default": 0
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product builder hero",
+      "blocks": [
+        { "type": "style", "settings": { "name": "Warm", "badge": "Best Seller" } },
+        { "type": "style", "settings": { "name": "Walking" } },
+        { "type": "style", "settings": { "name": "Preaching" } },
+        { "type": "style", "settings": { "name": "Memorial" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

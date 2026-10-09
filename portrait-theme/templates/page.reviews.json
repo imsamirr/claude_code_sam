@@ -1,0 +1,174 @@
+{
+  "sections": {
+    "main": {
+      "type": "sg-reviews",
+      "settings": {
+        "heading": "Thousands of Positive Reviews",
+        "uppercase": false,
+        "page_heading": true,
+        "intro": "<p>With so many happy customers who love what they received, you can be sure you'll be happy too. Check what our <a href=\"#reviews\">amazing customers</a> are saying about us below.</p>",
+        "rating": "4.8",
+        "count_text": "based on 506 verified reviews",
+        "item_label": "Item type:"
+      },
+      "blocks": {
+        "r_1": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/30/2026",
+            "placeholder_ratio": "3 / 4",
+            "text": "<p>Placeholder review. Replace with a real customer review about how their portrait looks.</p>"
+          }
+        },
+        "r_2": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/30/2026",
+            "placeholder_ratio": "3 / 4",
+            "text": "<p>Placeholder review. Very happy with our pictures, they both came out great.</p>"
+          }
+        },
+        "r_3": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "09/06/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. Share a longer story here about who the portrait was for and what the moment meant to the family receiving it.</p>"
+          }
+        },
+        "r_4": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "09/03/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. Longer reviews are clamped to six lines with a Read more link, so customers can tell their whole story without the card growing too tall. Add as much detail as you like here and it will be revealed when the shopper taps Read more below.</p>"
+          }
+        },
+        "r_5": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/31/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. The picture came out amazing, exactly what I expected.</p>"
+          }
+        },
+        "r_6": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/31/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. This is where an emotional customer story goes — what they felt when they opened the package and saw the portrait for the first time. Other family members ordered too after seeing it.</p>"
+          }
+        },
+        "r_7": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/31/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. It's beautiful! I finally feel a sense of peace looking at my picture.</p>"
+          }
+        },
+        "r_8": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/30/2026",
+            "placeholder_ratio": "3 / 4",
+            "text": "<p>Placeholder review. Absolutely love the picture, best purchase I've made.</p>"
+          }
+        },
+        "r_9": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/30/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. Love the photo of my sweet little girl.</p>",
+            "item": "Fine Art Poster"
+          }
+        },
+        "r_10": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/30/2026",
+            "placeholder_ratio": "3 / 4",
+            "text": "<p>Placeholder review. Replace with a real customer review about how their portrait looks.</p>"
+          }
+        },
+        "r_11": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/30/2026",
+            "placeholder_ratio": "3 / 4",
+            "text": "<p>Placeholder review. Very happy with our pictures, they both came out great.</p>"
+          }
+        },
+        "r_12": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "09/06/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. Share a longer story here about who the portrait was for and what the moment meant to the family receiving it.</p>"
+          }
+        },
+        "r_13": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "09/03/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. Longer reviews are clamped to six lines with a Read more link, so customers can tell their whole story without the card growing too tall. Add as much detail as you like here and it will be revealed when the shopper taps Read more below.</p>"
+          }
+        },
+        "r_14": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/31/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. The picture came out amazing, exactly what I expected.</p>"
+          }
+        },
+        "r_15": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/31/2026",
+            "placeholder_ratio": "2 / 3",
+            "text": "<p>Placeholder review. This is where an emotional customer story goes — what they felt when they opened the package and saw the portrait for the first time. Other family members ordered too after seeing it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "r_1",
+        "r_2",
+        "r_3",
+        "r_4",
+        "r_5",
+        "r_6",
+        "r_7",
+        "r_8",
+        "r_9",
+        "r_10",
+        "r_11",
+        "r_12",
+        "r_13",
+        "r_14",
+        "r_15"
+      ]
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

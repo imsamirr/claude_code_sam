@@ -1,0 +1,182 @@
+<article class="sg-doc">
+  <div class="sg-container sg-container--text">
+    {%- if section.settings.show_title -%}
+      <h1 class="sg-doc__title">{{ section.settings.title | default: page.title }}</h1>
+    {%- endif -%}
+    {%- if section.settings.show_updated -%}
+      <p class="sg-doc__updated">
+        {{ section.settings.updated_label }}
+        {% if section.settings.updated_date != blank -%}
+          {{ section.settings.updated_date }}
+        {%- elsif page.published_at -%}
+          {{ page.published_at | date: '%B %-d, %Y' }}
+        {%- endif %}
+      </p>
+    {%- endif -%}
+
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'intro' -%}
+          <div class="sg-doc__intro" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+
+        {%- when 'page_content' -%}
+          {%- if page.content != blank -%}
+            <div class="sg-doc__block sg-rte" {{ block.shopify_attributes }}>{{ page.content }}</div>
+          {%- endif -%}
+
+        {%- when 'text' -%}
+          <div class="sg-doc__block sg-rte" {{ block.shopify_attributes }}>
+            {%- if block.settings.heading != blank -%}<h2>{{ block.settings.heading }}</h2>{%- endif -%}
+            {{ block.settings.text }}
+          </div>
+
+        {%- when 'steps' -%}
+          <div class="sg-doc__steps" {{ block.shopify_attributes }}>
+            {%- for i in (1..3) -%}
+              {%- liquid
+                assign t_key = 'title_' | append: i
+                assign x_key = 'text_' | append: i
+                assign i_key = 'icon_' | append: i
+              -%}
+              {%- if block.settings[t_key] != blank -%}
+                <div class="sg-doc-step">
+                  <span class="sg-step__icon">{% render 'sg-icon', name: block.settings[i_key] %}</span>
+                  <h3 class="sg-doc-step__title">{{ block.settings[t_key] }}</h3>
+                  <div class="sg-doc-step__text">{{ block.settings[x_key] }}</div>
+                </div>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+
+        {%- when 'icon_list' -%}
+          <div class="sg-doc__block" {{ block.shopify_attributes }}>
+            {%- if block.settings.heading != blank -%}
+              <div class="sg-rte"><h2>{{ block.settings.heading }}</h2></div>
+            {%- endif -%}
+            <div class="sg-iconlist">
+              {%- if block.settings.text_1 != blank -%}
+                <div class="sg-iconlist__item">{% render 'sg-icon', name: block.settings.icon_1 %}<div>{{ block.settings.text_1 }}</div></div>
+              {%- endif -%}
+              {%- if block.settings.text_2 != blank -%}
+                <div class="sg-iconlist__item">{% render 'sg-icon', name: block.settings.icon_2 %}<div>{{ block.settings.text_2 }}</div></div>
+              {%- endif -%}
+            </div>
+          </div>
+
+        {%- when 'contact_form' -%}
+          <div class="sg-doc__block" {{ block.shopify_attributes }}>
+            {%- if block.settings.heading != blank -%}
+              <div class="sg-rte"><h2>{{ block.settings.heading }}</h2></div>
+            {%- endif -%}
+            {%- form 'contact', id: 'SgContactForm', class: 'sg-contact-form' -%}
+              {%- if form.posted_successfully? -%}
+                <p class="sg-form-msg sg-form-msg--ok">{{ 'templates.contact.form.post_success' | t }}</p>
+              {%- elsif form.errors -%}
+                <p class="sg-form-msg sg-form-msg--err">{{ form.errors | default_errors }}</p>
+              {%- endif -%}
+              <div class="sg-field-row">
+                <div>
+                  <label class="sg-field-label" for="SgContactName">{{ 'templates.contact.form.name' | t }}</label>
+                  <input class="sg-input" id="SgContactName" type="text" name="contact[{{ 'templates.contact.form.name' | t }}]" autocomplete="name" value="{{ form.name }}">
+                </div>
+                <div>
+                  <label class="sg-field-label" for="SgContactEmail">{{ 'templates.contact.form.email' | t }} *</label>
+                  <input class="sg-input" id="SgContactEmail" type="email" name="contact[email]" autocomplete="email" required value="{{ form.email }}">
+                </div>
+              </div>
+              <div>
+                <label class="sg-field-label" for="SgContactOrder">{{ block.settings.order_label }}</label>
+                <input class="sg-input" id="SgContactOrder" type="text" name="contact[{{ block.settings.order_label | escape }}]">
+              </div>
+              <div>
+                <label class="sg-field-label" for="SgContactBody">{{ 'templates.contact.form.comment' | t }}</label>
+                <textarea class="sg-input" id="SgContactBody" name="contact[{{ 'templates.contact.form.comment' | t }}]">{{ form.body }}</textarea>
+              </div>
+              <div>
+                <button type="submit" class="sg-btn sg-btn--primary">{{ 'templates.contact.form.send' | t }}</button>
+              </div>
+            {%- endform -%}
+          </div>
+      {%- endcase -%}
+    {%- endfor -%}
+
+    {%- if section.settings.foot != blank -%}
+      <div class="sg-doc__foot">{{ section.settings.foot }}</div>
+    {%- endif -%}
+  </div>
+</article>
+
+{% schema %}
+{
+  "name": "Content page",
+  "class": "sg-doc-section",
+  "settings": [
+    { "type": "checkbox", "id": "show_title", "label": "Show title", "default": true },
+    { "type": "text", "id": "title", "label": "Title", "info": "Leave empty to use the page title." },
+    { "type": "checkbox", "id": "show_updated", "label": "Show 'last updated' line", "default": true },
+    { "type": "text", "id": "updated_label", "label": "Last updated label", "default": "Last updated:" },
+    { "type": "text", "id": "updated_date", "label": "Last updated date", "info": "Leave empty to use the page's publish date." },
+    { "type": "richtext", "id": "foot", "label": "Footer note", "default": "<p>Questions? Email <a href=\"mailto:support@yourstore.com\">support@yourstore.com</a> or call <a href=\"tel:+15555555555\">+1 (555) 555-5555</a>.</p>" }
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "name": "Intro",
+      "limit": 1,
+      "settings": [
+        { "type": "richtext", "id": "text", "label": "Text", "default": "<p>Intro paragraph.</p>" }
+      ]
+    },
+    { "type": "page_content", "name": "Page content", "limit": 1, "settings": [] },
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        { "type": "text", "id": "heading", "label": "Heading", "default": "Heading" },
+        { "type": "richtext", "id": "text", "label": "Text", "default": "<p>Text</p>" }
+      ]
+    },
+    {
+      "type": "steps",
+      "name": "Three steps",
+      "settings": [
+        { "type": "select", "id": "icon_1", "label": "Step 1 icon", "default": "cloud-upload", "options": [{ "value": "cloud-upload", "label": "Upload" }, { "value": "sparkles", "label": "Sparkles" }, { "value": "download", "label": "Download" }, { "value": "frame", "label": "Frame" }, { "value": "truck", "label": "Truck" }] },
+        { "type": "text", "id": "title_1", "label": "Step 1 title", "default": "1. Upload your photo" },
+        { "type": "richtext", "id": "text_1", "label": "Step 1 text" },
+        { "type": "select", "id": "icon_2", "label": "Step 2 icon", "default": "sparkles", "options": [{ "value": "cloud-upload", "label": "Upload" }, { "value": "sparkles", "label": "Sparkles" }, { "value": "download", "label": "Download" }, { "value": "frame", "label": "Frame" }, { "value": "truck", "label": "Truck" }] },
+        { "type": "text", "id": "title_2", "label": "Step 2 title", "default": "2. Choose a style" },
+        { "type": "richtext", "id": "text_2", "label": "Step 2 text" },
+        { "type": "select", "id": "icon_3", "label": "Step 3 icon", "default": "download", "options": [{ "value": "cloud-upload", "label": "Upload" }, { "value": "sparkles", "label": "Sparkles" }, { "value": "download", "label": "Download" }, { "value": "frame", "label": "Frame" }, { "value": "truck", "label": "Truck" }] },
+        { "type": "text", "id": "title_3", "label": "Step 3 title", "default": "3. Get your free preview" },
+        { "type": "richtext", "id": "text_3", "label": "Step 3 text" }
+      ]
+    },
+    {
+      "type": "icon_list",
+      "name": "Two icon points",
+      "settings": [
+        { "type": "text", "id": "heading", "label": "Heading", "default": "After you purchase" },
+        { "type": "select", "id": "icon_1", "label": "Icon 1", "default": "shield", "options": [{ "value": "shield", "label": "Shield" }, { "value": "clock", "label": "Clock" }, { "value": "truck", "label": "Truck" }, { "value": "download", "label": "Download" }, { "value": "heart", "label": "Heart" }] },
+        { "type": "richtext", "id": "text_1", "label": "Point 1" },
+        { "type": "select", "id": "icon_2", "label": "Icon 2", "default": "clock", "options": [{ "value": "shield", "label": "Shield" }, { "value": "clock", "label": "Clock" }, { "value": "truck", "label": "Truck" }, { "value": "download", "label": "Download" }, { "value": "heart", "label": "Heart" }] },
+        { "type": "richtext", "id": "text_2", "label": "Point 2" }
+      ]
+    },
+    {
+      "type": "contact_form",
+      "name": "Contact form",
+      "limit": 1,
+      "settings": [
+        { "type": "text", "id": "heading", "label": "Heading", "default": "Send us a message" },
+        { "type": "text", "id": "order_label", "label": "Order field label", "default": "Order number (optional)" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Content page",
+      "blocks": [{ "type": "page_content" }]
+    }
+  ]
+}
+{% endschema %}

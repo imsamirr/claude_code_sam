@@ -1,0 +1,34 @@
+{
+  "name": "Footer",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "sg-footer",
+      "settings": {
+        "logo_width": 169,
+        "care_heading": "Customer care",
+        "email": "support@yourstore.com",
+        "phone": "+1 (555) 555-5555",
+        "hours": "Hours: 9:00 AM–6:00 PM (EST)",
+        "days": "Monday to Friday",
+        "address": "123 Main Street\nCity, ST 00000",
+        "menu_1_heading": "Explore",
+        "menu_1": "footer-explore",
+        "menu_2_heading": "Support",
+        "menu_2": "footer-support",
+        "menu_3_heading": "Legal",
+        "menu_3": "footer-legal",
+        "show_newsletter": true,
+        "newsletter_heading": "Join our email list",
+        "newsletter_text": "Get early access to new portrait styles and special offers.",
+        "show_payments": true,
+        "payments_label": "Secure payments",
+        "show_language": true,
+        "copyright": "All rights reserved."
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

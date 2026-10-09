@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "main": {
+      "type": "sg-doc",
+      "settings": {
+        "show_title": true,
+        "show_updated": true,
+        "updated_label": "Last updated:",
+        "foot": "<p>Questions? Email <a href=\"mailto:support@yourstore.com\">support@yourstore.com</a> or call <a href=\"tel:+15555555555\">+1 (555) 555-5555</a>.</p>"
+      },
+      "blocks": {
+        "c_1": {
+          "type": "page_content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "c_1"
+      ]
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,6 @@
+{%- comment -%}
+  Five star rating row. Usage: {% render 'sg-stars', size: 'sm' %}
+{%- endcomment -%}
+<span class="sg-stars{% if size == 'sm' %} sg-stars--sm{% endif %}" aria-hidden="true">
+  {%- for i in (1..5) -%}{% render 'sg-icon', name: 'star' %}{%- endfor -%}
+</span>

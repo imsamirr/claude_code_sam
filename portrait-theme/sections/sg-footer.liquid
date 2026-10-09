@@ -1,0 +1,146 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} .sg-footer__logo img { --sg-footer-logo-w: {{ section.settings.logo_width }}px; }
+{%- endstyle -%}
+<footer class="sg-footer">
+  <div class="sg-container sg-container--footer">
+    <div class="sg-footer__grid">
+      <div class="sg-footer__brand">
+        <a class="sg-footer__logo sg-logo" href="{{ routes.root_url }}#top" style="justify-content:flex-start;">
+          {%- render 'sg-logo', image: section.settings.logo -%}
+        </a>
+        {%- if section.settings.care_heading != blank -%}
+          <h2 class="sg-footer__heading">{{ section.settings.care_heading }}</h2>
+        {%- endif -%}
+        <div class="sg-footer__contact">
+          {%- if section.settings.email != blank -%}
+            <a class="sg-footer__contact-row" href="mailto:{{ section.settings.email }}">{% render 'sg-icon', name: 'mail' %}<span>{{ section.settings.email }}</span></a>
+          {%- endif -%}
+          {%- if section.settings.phone != blank -%}
+            <a class="sg-footer__contact-row" href="tel:{{ section.settings.phone | remove: ' ' | remove: '(' | remove: ')' | remove: '-' }}">{% render 'sg-icon', name: 'phone' %}<span>{{ section.settings.phone }}</span></a>
+          {%- endif -%}
+          {%- if section.settings.hours != blank -%}<p>{{ section.settings.hours }}</p>{%- endif -%}
+          {%- if section.settings.days != blank -%}<p>{{ section.settings.days }}</p>{%- endif -%}
+          {%- if section.settings.address != blank -%}
+            <p class="sg-footer__contact-row">{% render 'sg-icon', name: 'pin' %}<span>{{ section.settings.address | newline_to_br }}</span></p>
+          {%- endif -%}
+        </div>
+      </div>
+
+      {%- for i in (1..3) -%}
+        {%- liquid
+          assign menu_key = 'menu_' | append: i
+          assign heading_key = 'menu_' | append: i | append: '_heading'
+          assign menu = linklists[section.settings[menu_key]]
+        -%}
+        {%- if menu.links.size > 0 -%}
+          <nav class="sg-footer__col" aria-label="{{ section.settings[heading_key] | default: menu.title | escape }}">
+            <h2 class="sg-footer__heading">{{ section.settings[heading_key] | default: menu.title }}</h2>
+            <ul class="sg-footer__links" role="list">
+              {%- for link in menu.links -%}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+              {%- endfor -%}
+            </ul>
+          </nav>
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- if section.settings.show_newsletter -%}
+        <div class="sg-footer__news">
+          <h2 class="sg-footer__heading">{{ section.settings.newsletter_heading }}</h2>
+          {%- if section.settings.newsletter_text != blank -%}
+            <p>{{ section.settings.newsletter_text }}</p>
+          {%- endif -%}
+          {%- form 'customer', id: 'SgFooterNewsletter', class: 'sg-news-form-wrap' -%}
+            <input type="hidden" name="contact[tags]" value="newsletter">
+            <div class="sg-news-form">
+              <label class="sg-visually-hidden" for="SgNewsletterEmail">{{ 'newsletter.label' | t }}</label>
+              <input
+                id="SgNewsletterEmail"
+                class="sg-input"
+                type="email"
+                name="contact[email]"
+                autocomplete="email"
+                placeholder="{{ 'newsletter.label' | t }}"
+                required
+              >
+              <button type="submit" aria-label="{{ 'newsletter.button_label' | t }}">{% render 'sg-icon', name: 'arrow-right' %}</button>
+            </div>
+            {%- if form.posted_successfully? -%}
+              <p class="sg-form-msg sg-form-msg--ok">{{ 'newsletter.success' | t }}</p>
+            {%- elsif form.errors -%}
+              <p class="sg-form-msg sg-form-msg--err">{{ form.errors.translated_fields.email | capitalize }} {{ form.errors.messages.email }}</p>
+            {%- endif -%}
+          {%- endform -%}
+        </div>
+      {%- endif -%}
+    </div>
+
+    <div class="sg-footer__bottom">
+      {%- if section.settings.show_payments and shop.enabled_payment_types.size > 0 -%}
+        <p class="sg-footer__pay-label">{{ section.settings.payments_label }}</p>
+        <ul class="sg-payments" role="list">
+          {%- for type in shop.enabled_payment_types -%}
+            <li>{{ type | payment_type_svg_tag }}</li>
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+
+      {%- if section.settings.note != blank -%}
+        <div class="sg-footer__note">{{ section.settings.note }}</div>
+      {%- endif -%}
+
+      {%- if section.settings.show_language and localization.available_languages.size > 1 -%}
+        {%- form 'localization', id: 'SgFooterLocale', class: 'sg-footer__locale' -%}
+          {%- render 'sg-icon', name: 'globe' -%}
+          <label class="sg-visually-hidden" for="SgLocaleSelect">{{ 'localization.language_label' | t }}</label>
+          <select id="SgLocaleSelect" name="locale_code" data-sg-locale>
+            {%- for language in localization.available_languages -%}
+              <option value="{{ language.iso_code }}" lang="{{ language.iso_code }}" {% if language.iso_code == localization.language.iso_code %}selected{% endif %}>
+                {{ language.endonym_name | capitalize }}
+              </option>
+            {%- endfor -%}
+          </select>
+        {%- endform -%}
+      {%- endif -%}
+
+      <p class="sg-footer__copy">&copy; {{ 'now' | date: '%Y' }} {{ shop.name }}. {{ section.settings.copyright }}</p>
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "Footer",
+  "class": "sg-footer-section",
+  "settings": [
+    { "type": "image_picker", "id": "logo", "label": "Logo", "info": "Leave empty to use Theme settings > Logo." },
+    { "type": "range", "id": "logo_width", "label": "Logo width", "min": 60, "max": 300, "step": 1, "unit": "px", "default": 169 },
+    { "type": "header", "content": "Customer care" },
+    { "type": "text", "id": "care_heading", "label": "Heading", "default": "Customer care" },
+    { "type": "text", "id": "email", "label": "Email", "default": "support@yourstore.com" },
+    { "type": "text", "id": "phone", "label": "Phone", "default": "+1 (555) 555-5555" },
+    { "type": "text", "id": "hours", "label": "Hours", "default": "Hours: 9:00 AM–6:00 PM (EST)" },
+    { "type": "text", "id": "days", "label": "Days", "default": "Monday to Friday" },
+    { "type": "textarea", "id": "address", "label": "Address", "default": "123 Main Street\nCity, ST 00000" },
+    { "type": "header", "content": "Menus" },
+    { "type": "text", "id": "menu_1_heading", "label": "Column 1 heading", "default": "Explore" },
+    { "type": "link_list", "id": "menu_1", "label": "Column 1 menu" },
+    { "type": "text", "id": "menu_2_heading", "label": "Column 2 heading", "default": "Support" },
+    { "type": "link_list", "id": "menu_2", "label": "Column 2 menu" },
+    { "type": "text", "id": "menu_3_heading", "label": "Column 3 heading", "default": "Legal" },
+    { "type": "link_list", "id": "menu_3", "label": "Column 3 menu" },
+    { "type": "header", "content": "Newsletter" },
+    { "type": "checkbox", "id": "show_newsletter", "label": "Show newsletter signup", "default": true },
+    { "type": "text", "id": "newsletter_heading", "label": "Heading", "default": "Join our email list" },
+    { "type": "text", "id": "newsletter_text", "label": "Text", "default": "Get early access to new portrait styles and special offers." },
+    { "type": "header", "content": "Bottom" },
+    { "type": "checkbox", "id": "show_payments", "label": "Show payment icons", "default": true },
+    { "type": "text", "id": "payments_label", "label": "Payments label", "default": "Secure payments" },
+    { "type": "richtext", "id": "note", "label": "Note" },
+    { "type": "checkbox", "id": "show_language", "label": "Show language selector", "default": true },
+    { "type": "text", "id": "copyright", "label": "Copyright text", "default": "All rights reserved." }
+  ],
+  "presets": [{ "name": "Footer" }],
+  "enabled_on": { "groups": ["footer"] }
+}
+{% endschema %}

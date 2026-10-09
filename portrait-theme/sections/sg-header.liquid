@@ -1,0 +1,232 @@
+{%- liquid
+  assign is_simple = false
+  if section.settings.simple_on_pages
+    if template.name == 'page' or request.page_type == 'policy'
+      assign is_simple = true
+    endif
+  endif
+-%}
+{%- style -%}
+  #shopify-section-{{ section.id }} .sg-logo img { --sg-logo-w: {{ section.settings.logo_width_mobile }}px; --sg-logo-w-desk: {{ section.settings.logo_width }}px; --sg-logo-w-simple: {{ section.settings.logo_width_simple }}px; }
+{%- endstyle -%}
+
+{%- if is_simple -%}
+  <header class="sg-header sg-header--simple">
+    <div class="sg-container sg-container--text sg-header__inner">
+      <a class="sg-logo" href="{{ routes.root_url }}">{% render 'sg-logo', image: section.settings.logo %}</a>
+      <a class="sg-backlink" href="{{ routes.root_url }}">
+        {%- render 'sg-icon', name: 'arrow-left' -%}
+        {{ section.settings.back_label }}
+      </a>
+    </div>
+  </header>
+{%- else -%}
+  <header class="sg-header">
+    <div class="sg-container sg-header__inner">
+      <div class="sg-header__left">
+        <button
+          type="button"
+          class="sg-icon-btn"
+          data-sg-drawer-open
+          aria-controls="SgDrawer"
+          aria-expanded="false"
+          aria-label="{{ 'sections.header.menu' | t }}"
+        >
+          {%- render 'sg-icon', name: 'menu' -%}
+        </button>
+      </div>
+
+      <a class="sg-logo" href="{{ routes.root_url }}">{% render 'sg-logo', image: section.settings.logo %}</a>
+
+      <div class="sg-header__right">
+        {%- if section.settings.show_account and shop.customer_accounts_enabled -%}
+          <a class="sg-icon-btn" href="{{ routes.account_url }}" aria-label="{{ 'customer.account_fallback' | t }}">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+          </a>
+        {%- endif -%}
+        {%- if section.settings.cart_visibility == 'always' or cart.item_count > 0 -%}
+          <a class="sg-icon-btn" href="{{ routes.cart_url }}" aria-label="{{ 'templates.cart.cart' | t }}">
+            {%- render 'sg-icon', name: 'bag' -%}
+            {%- if cart.item_count > 0 -%}
+              <span class="sg-cart-count">{{ cart.item_count }}</span>
+            {%- endif -%}
+          </a>
+        {%- endif -%}
+      </div>
+    </div>
+  </header>
+
+  <div class="sg-drawer" id="SgDrawer" data-sg-drawer aria-hidden="true">
+    <div class="sg-drawer__overlay" data-sg-drawer-close></div>
+    <div class="sg-drawer__panel" role="dialog" aria-modal="true" aria-labelledby="SgDrawerTitle">
+      <div class="sg-drawer__head">
+        <p class="sg-drawer__title" id="SgDrawerTitle">{{ section.settings.drawer_title }}</p>
+        <button type="button" class="sg-icon-btn" data-sg-drawer-close aria-label="{{ 'accessibility.close' | t }}">
+          {%- render 'sg-icon', name: 'close' -%}
+        </button>
+      </div>
+      <nav class="sg-drawer__nav">
+        {%- for block in section.blocks -%}
+          {%- liquid
+            assign is_current = false
+            if block.settings.link == request.path
+              assign is_current = true
+            endif
+          -%}
+          <a
+            href="{{ block.settings.link | default: '#' }}"
+            class="sg-drawer__link{% if block.type == 'drawer_item' %} sg-drawer__link--image{% endif %}"
+            {% if is_current %}
+              aria-current="page"
+            {% endif %}
+            {{ block.shopify_attributes }}
+          >
+            {%- if block.type == 'drawer_item' -%}
+              <span class="sg-drawer__thumb">
+                {%- if block.settings.image != blank -%}
+                  {{ block.settings.image | image_url: width: 120 | image_tag: loading: 'lazy', alt: block.settings.title }}
+                {%- else -%}
+                  {{ 'product-1' | placeholder_svg_tag: 'sg-ph' }}
+                {%- endif -%}
+              </span>
+            {%- endif -%}
+            <span>{{ block.settings.title }}</span>
+            {%- render 'sg-icon', name: 'chevron-right' -%}
+          </a>
+        {%- endfor -%}
+      </nav>
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Header",
+  "class": "sg-header-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo",
+      "info": "Leave empty to use Theme settings > Logo, or the store name."
+    },
+    {
+      "type": "range",
+      "id": "logo_width",
+      "min": 80,
+      "max": 360,
+      "step": 1,
+      "unit": "px",
+      "label": "Logo width (desktop)",
+      "default": 241
+    },
+    {
+      "type": "range",
+      "id": "logo_width_mobile",
+      "min": 60,
+      "max": 300,
+      "step": 1,
+      "unit": "px",
+      "label": "Logo width (mobile)",
+      "default": 160
+    },
+    {
+      "type": "select",
+      "id": "cart_visibility",
+      "label": "Cart icon",
+      "default": "items",
+      "options": [
+        { "value": "items", "label": "Show when cart has items" },
+        { "value": "always", "label": "Always show" }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "show_account",
+      "label": "Show account icon",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "drawer_title",
+      "label": "Menu title",
+      "default": "Menu"
+    },
+    {
+      "type": "header",
+      "content": "Content pages"
+    },
+    {
+      "type": "checkbox",
+      "id": "simple_on_pages",
+      "label": "Use minimal header on content pages",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "logo_width_simple",
+      "min": 60,
+      "max": 240,
+      "step": 1,
+      "unit": "px",
+      "label": "Logo width (minimal header)",
+      "default": 112
+    },
+    {
+      "type": "text",
+      "id": "back_label",
+      "label": "Back link label",
+      "default": "Back to home"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "drawer_item",
+      "name": "Menu item with image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Thumbnail"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Classic Portrait"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    },
+    {
+      "type": "drawer_link",
+      "name": "Menu link",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Contact"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Header"
+    }
+  ],
+  "enabled_on": {
+    "groups": ["header"]
+  }
+}
+{% endschema %}

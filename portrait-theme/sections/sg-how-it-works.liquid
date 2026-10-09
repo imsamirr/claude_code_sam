@@ -1,0 +1,75 @@
+<section class="sg-section sg-how" id="{{ section.settings.anchor | default: 'how-it-works' }}">
+  <div class="sg-container">
+    <div class="sg-steps-wrap">
+      <div class="sg-section__head sg-reveal" style="margin-bottom: 48px;">
+        {%- if section.settings.heading != blank -%}
+          <h2 class="sg-h2">{{ section.settings.heading }}</h2>
+        {%- endif -%}
+        {%- if section.settings.subheading != blank -%}
+          <p class="sg-lead sg-lead--lg">{{ section.settings.subheading }}</p>
+        {%- endif -%}
+      </div>
+      <div class="sg-steps">
+        {%- for block in section.blocks -%}
+          <div class="sg-step sg-reveal" {{ block.shopify_attributes }}>
+            <span class="sg-step__icon">{% render 'sg-icon', name: block.settings.icon %}</span>
+            <span class="sg-step__num" aria-hidden="true">{{ forloop.index }}</span>
+            <h3 class="sg-step__title">{{ block.settings.title }}</h3>
+            <div class="sg-step__text">{{ block.settings.text }}</div>
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "How it works",
+  "class": "sg-how-section",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "How it works" },
+    { "type": "text", "id": "subheading", "label": "Subheading", "default": "Three simple steps to a portrait your family will treasure." },
+    { "type": "text", "id": "anchor", "label": "Anchor ID", "default": "how-it-works" }
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Step",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "default": "cloud-upload",
+          "options": [
+            { "value": "cloud-upload", "label": "Upload" },
+            { "value": "sparkles", "label": "Sparkles" },
+            { "value": "download", "label": "Download" },
+            { "value": "eye", "label": "Eye" },
+            { "value": "frame", "label": "Frame" },
+            { "value": "sun", "label": "Sun" },
+            { "value": "heart", "label": "Heart" },
+            { "value": "gift", "label": "Gift" },
+            { "value": "truck", "label": "Truck" },
+            { "value": "shield", "label": "Shield" }
+          ]
+        },
+        { "type": "text", "id": "title", "label": "Title", "default": "Upload your photo" },
+        { "type": "richtext", "id": "text", "label": "Text", "default": "<p>Add a clear photo of yourself, your family, or a loved one. Solo, couple, or the whole group.</p>" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "How it works",
+      "blocks": [
+        { "type": "step", "settings": { "icon": "cloud-upload", "title": "Upload your photo" } },
+        { "type": "step", "settings": { "icon": "sparkles", "title": "Choose a style", "text": "<p>Pick the style you love and we'll create your artwork.</p>" } },
+        { "type": "step", "settings": { "icon": "download", "title": "Get your free preview", "text": "<p>See your portrait in under a minute. Love it? Download the full high-resolution art.</p>" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

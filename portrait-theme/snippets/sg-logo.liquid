@@ -1,0 +1,16 @@
+{%- comment -%}
+  Store logo: uses Theme settings > Logo when set, otherwise the store name.
+  Usage: {% render 'sg-logo', image: section.settings.logo %}
+{%- endcomment -%}
+{%- liquid
+  assign logo_image = image | default: settings.logo
+-%}
+{%- if logo_image != blank -%}
+  {{
+    logo_image
+    | image_url: width: 600
+    | image_tag: alt: shop.name, loading: 'eager', widths: '200, 300, 400, 600', sizes: '(min-width: 640px) 241px, 193px'
+  }}
+{%- else -%}
+  <span class="sg-logo__text">{{ shop.name }}</span>
+{%- endif -%}

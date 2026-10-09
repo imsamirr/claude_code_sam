@@ -1,0 +1,53 @@
+<div class="sg-track">
+  <h1 class="sg-track__title">{{ section.settings.title | default: page.title }}</h1>
+  {%- if section.settings.subtitle != blank -%}
+    <p class="sg-track__sub">{{ section.settings.subtitle }}</p>
+  {%- endif -%}
+
+  <div class="sg-card">
+    <form action="{{ routes.account_login_url }}" method="get" class="sg-track__form">
+      <label class="sg-field-label" for="SgTrackEmail">{{ section.settings.email_label }}</label>
+      <input
+        class="sg-input"
+        id="SgTrackEmail"
+        type="email"
+        name="login_hint"
+        autocomplete="email"
+        placeholder="{{ section.settings.placeholder | escape }}"
+        required
+      >
+      {%- if section.settings.help != blank -%}
+        <p class="sg-help">{{ section.settings.help }}</p>
+      {%- endif -%}
+      {%- if section.settings.note != blank -%}
+        <p class="sg-track__note">{{ section.settings.note }}</p>
+      {%- endif -%}
+      <button type="submit" class="sg-btn sg-btn--primary sg-btn--block">
+        {%- render 'sg-icon', name: 'mail' -%}
+        {{ section.settings.button_label }}
+      </button>
+    </form>
+  </div>
+
+  {%- if section.settings.foot != blank -%}
+    <div class="sg-track__foot">{{ section.settings.foot }}</div>
+  {%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "Track order",
+  "class": "sg-track-section",
+  "settings": [
+    { "type": "text", "id": "title", "label": "Title", "default": "Track your order" },
+    { "type": "text", "id": "subtitle", "label": "Subtitle", "default": "See your shipping status or re-download your portrait — just enter your email." },
+    { "type": "text", "id": "email_label", "label": "Email label", "default": "Email" },
+    { "type": "text", "id": "placeholder", "label": "Placeholder", "default": "you@example.com" },
+    { "type": "text", "id": "help", "label": "Help text", "default": "The email you used at checkout." },
+    { "type": "text", "id": "note", "label": "Note", "default": "We'll email you a one-time code to keep your portraits and orders private." },
+    { "type": "text", "id": "button_label", "label": "Button label", "default": "Email me a code" },
+    { "type": "richtext", "id": "foot", "label": "Footer note", "default": "<p>Prints arrive in 5–8 days within the USA, or 2–3 weeks elsewhere. Digital images are ready to download within minutes of checkout. Still stuck? Email <a href=\"mailto:support@yourstore.com\">support@yourstore.com</a> or call <a href=\"tel:+15555555555\">+1 (555) 555-5555</a>.</p>" }
+  ],
+  "presets": [{ "name": "Track order" }]
+}
+{% endschema %}

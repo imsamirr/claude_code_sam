@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "main": {
+      "type": "sg-doc",
+      "settings": {
+        "show_title": true,
+        "title": "Contact Us",
+        "show_updated": true,
+        "updated_label": "Last updated:",
+        "foot": "<p>Questions? Email <a href=\"mailto:support@yourstore.com\">support@yourstore.com</a> or call <a href=\"tel:+15555555555\">+1 (555) 555-5555</a>.</p>"
+      },
+      "blocks": {
+        "c_1": {
+          "type": "intro",
+          "settings": {
+            "text": "<p>Questions about a portrait, an order or anything else? Our customer care team is happy to help.</p>"
+          }
+        },
+        "c_2": {
+          "type": "text",
+          "settings": {
+            "heading": "Email",
+            "text": "<p>The fastest way to reach us is by email at <a href=\"mailto:support@yourstore.com\">support@yourstore.com</a>. We answer every message and typically reply within one business day.</p>"
+          }
+        },
+        "c_3": {
+          "type": "text",
+          "settings": {
+            "heading": "Phone",
+            "text": "<p>Call us at <a href=\"tel:+15555555555\">+1 (555) 555-5555</a>. Phone support is available Monday to Friday, 9:00 AM–6:00 PM (EST).</p>"
+          }
+        },
+        "c_4": {
+          "type": "text",
+          "settings": {
+            "heading": "Mailing address",
+            "text": "<p>Your Store Name<br>123 Main Street<br>City, ST 00000<br>United States</p>"
+          }
+        },
+        "c_5": {
+          "type": "text",
+          "settings": {
+            "heading": "Help with an existing order or creation",
+            "text": "<p>Include your order number so we can find your portraits quickly.</p><p>For delivery timelines see the <a href=\"/pages/shipping-ordering\">Shipping &amp; Ordering page</a>, and for refund or replacement requests see the <a href=\"/pages/refunds-replacements\">Refunds &amp; Replacements policy</a>. To change or cancel an order within 8 hours, see our <a href=\"/pages/cancellation-policy\">Cancellation Policy</a>.</p>"
+          }
+        },
+        "c_6": {
+          "type": "contact_form",
+          "settings": {
+            "heading": "Send us a message",
+            "order_label": "Order number (optional)"
+          }
+        },
+        "c_7": {
+          "type": "page_content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "c_1",
+        "c_2",
+        "c_3",
+        "c_4",
+        "c_5",
+        "c_6",
+        "c_7"
+      ]
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
