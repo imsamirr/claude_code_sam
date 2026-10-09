@@ -56,13 +56,16 @@ html.sg-html body.sg-body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.sg-body *, .sg-body *::before, .sg-body *::after { box-sizing: border-box; }
-.sg-body img, .sg-body svg, .sg-body video { display: block; max-width: 100%; }
-.sg-body a { color: inherit; }
-.sg-body button { font: inherit; color: inherit; cursor: pointer; }
-.sg-body h1, .sg-body h2, .sg-body h3, .sg-body h4 { margin: 0; letter-spacing: normal; }
-.sg-body p { margin: 0; }
-.sg-body ul { margin: 0; }
+/* Resets use :where() so they carry no extra specificity and never beat
+   component rules; Dawn-rendered page content (.sg-dawn-main) is left alone. */
+:where(.sg-body) *, :where(.sg-body) *::before, :where(.sg-body) *::after { box-sizing: border-box; }
+:where(.sg-body) :where(img, svg, video):not(:where(.sg-dawn-main *)) { display: block; max-width: 100%; }
+:where(.sg-body) :where(a):not(:where(.sg-dawn-main *)) { color: inherit; }
+:where(.sg-body) :where(button):not(:where(.sg-dawn-main *)) { font: inherit; color: inherit; cursor: pointer; }
+:where(.sg-body) :where(h1, h2, h3, h4, p, ul):not(:where(.sg-dawn-main *)) { margin: 0; letter-spacing: normal; }
+.sg-btn svg, .sg-rating-pill > svg, .sg-backlink svg { flex: 0 0 auto; width: 18px; height: 18px; }
+.sg-rating-pill > svg:last-child { width: 16px; height: 16px; color: var(--sg-muted); }
+.sg-btn--primary, .sg-btn--primary:hover { color: #fff; }
 .sg-visually-hidden {
   position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
@@ -230,10 +233,13 @@ body.sg-lock { overflow: hidden; }
 .sg-hero__styles { grid-area: styles; }
 .sg-hero__upload { grid-area: upload; }
 .sg-hero__buy { grid-area: buy; }
+fieldset.sg-hero__styles { border: 0; padding: 0; min-width: 0; }
 @media (min-width: 990px) {
   .sg-hero__gallery { position: sticky; top: 120px; align-self: start; }
-  .sg-hero__styles { margin-top: 40px; }
+  /* !important: beats the fieldset's inline margin reset */
+  .sg-hero__styles { margin-top: 40px !important; }
   .sg-hero__upload { margin-top: 12px; }
+  .sg-private { margin-left: -64px; margin-right: -64px; }
 }
 
 /* intro (mobile: card with CTA) */
@@ -604,6 +610,31 @@ textarea.sg-input { min-height: 130px; resize: vertical; }
 /* Dawn-rendered pages (cart, account, search…) sit inside our chrome */
 .sg-dawn-main { min-height: 50vh; }
 .sg-body .sg-dawn-main .page-width { max-width: 1200px; }
+/* Re-skin Dawn's colour schemes, fonts and buttons to this theme's palette */
+.sg-body--dawn,
+.sg-body--dawn [class*='color-scheme-'] {
+  --color-background: 255, 252, 247;
+  --gradient-background: #fffcf7;
+  --color-foreground: 36, 31, 51;
+  --color-button: 63, 45, 107;
+  --color-button-text: 255, 255, 255;
+  --color-secondary-button: 255, 255, 255;
+  --color-secondary-button-text: 63, 45, 107;
+  --color-link: 63, 45, 107;
+  --color-badge-background: 247, 239, 225;
+  --color-badge-foreground: 184, 134, 43;
+  --color-badge-border: 247, 239, 225;
+  --font-body-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-heading-family: Georgia, 'Times New Roman', serif;
+  --font-heading-weight: 600;
+  --buttons-radius: 999px;
+  --buttons-radius-outset: 1000px;
+  --inputs-radius: 12px;
+  --inputs-radius-outset: 13px;
+  --variant-pills-radius: 999px;
+}
+.sg-body--dawn .sg-dawn-main { background: var(--sg-bg); color: var(--sg-text); }
+.sg-body--dawn .sg-dawn-main .button { letter-spacing: .02em; font-weight: 600; }
 
 /* reveal animation */
 @media (prefers-reduced-motion: no-preference) {

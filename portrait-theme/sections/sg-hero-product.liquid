@@ -353,8 +353,27 @@
             </div>
           </div>
         {%- endform -%}
+        {%- comment -%}
+          Built by hand: a product picked in a section setting serializes to
+          just its handle with `| json`, so the variant data is listed explicitly.
+        {%- endcomment -%}
         <script type="application/json" data-sg-product-json>
-          {{ p | json }}
+          {
+            "options": {{ p.options | json }},
+            "variants": [
+              {%- for v in p.variants -%}
+                {
+                  "id": {{ v.id }},
+                  "options": {{ v.options | json }},
+                  "price": {{ v.price }},
+                  "compare_at_price": {{ v.compare_at_price | default: 'null' }},
+                  "available": {{ v.available }},
+                  "featured_media": {% if v.featured_media %}{ "id": {{ v.featured_media.id }} }{% else %}null{% endif %}
+                }
+                {%- unless forloop.last %},{% endunless -%}
+              {%- endfor -%}
+            ]
+          }
         </script>
       {%- else -%}
         {%- comment -%} Placeholder shown in the editor before a product is chosen {%- endcomment -%}

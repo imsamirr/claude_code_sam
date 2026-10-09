@@ -47,7 +47,7 @@
     "header": {
       "type": "sg-header",
       "settings": {
-        "logo_width": 241,
+        "logo_width": 240,
         "logo_width_mobile": 160,
         "cart_visibility": "items",
         "show_account": false,

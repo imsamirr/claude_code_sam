@@ -3,36 +3,7 @@
     "main": {
       "type": "sg-hero-product",
       "settings": {
-        "heading_tag": "h1",
-        "subtitle": "Ready in About 60 Seconds — No Payment or Sign-Up Required",
-        "cta_label": "Generate My Portrait",
-        "cta_pill": "Free preview",
-        "sticky_label": "Upload your photo",
-        "show_proof": true,
-        "rating": "4.8",
-        "review_count_text": "506 verified reviews",
-        "reviews_link": "#reviews",
-        "badge": "Customer portrait",
-        "meta_1": "<strong>4.8/5</strong> customer rating",
-        "meta_2": "<strong>Free</strong> preview",
-        "style_label": "Choose your portrait style",
-        "style_property": "Style",
-        "enable_upload": true,
-        "upload_required": true,
-        "reveal_after_upload": true,
-        "photo_property": "Photo",
-        "upload_title": "Click to Upload Clear, Well-Lit Photos",
-        "upload_note_strong": "Free preview",
-        "upload_note": "— no credit card required",
-        "upload_change_label": "Change photo",
-        "upload_error": "Please upload a photo before adding to cart.",
-        "private_strong": "100% Private & Secure",
-        "private_text": "— your photos are never shared",
-        "format_label": "Choose your format",
-        "total_label": "Total",
-        "button_label": "Add to cart",
-        "show_dynamic_checkout": false,
-        "buy_note": "Secure checkout · Made to order · Ships tracked"
+        "reviews_link": "#reviews"
       },
       "blocks": {
         "style_1": {
@@ -75,42 +46,24 @@
     "examples": {
       "type": "sg-before-after",
       "settings": {
-        "heading": "See the Magic",
-        "subheading": "Four real Warm transformations",
-        "before_label": "Before",
-        "after_label": "After",
-        "start": 50,
-        "caption": "Drag the slider to reveal each transformation.",
-        "anchor": "examples"
+        "subheading": "Four real Warm transformations"
       },
       "blocks": {
         "p_1": {
           "type": "pair",
-          "settings": {
-            "before_alt": "Original photo",
-            "after_alt": "Finished portrait"
-          }
+          "settings": {}
         },
         "p_2": {
           "type": "pair",
-          "settings": {
-            "before_alt": "Original photo",
-            "after_alt": "Finished portrait"
-          }
+          "settings": {}
         },
         "p_3": {
           "type": "pair",
-          "settings": {
-            "before_alt": "Original photo",
-            "after_alt": "Finished portrait"
-          }
+          "settings": {}
         },
         "p_4": {
           "type": "pair",
-          "settings": {
-            "before_alt": "Original photo",
-            "after_alt": "Finished portrait"
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -122,11 +75,7 @@
     },
     "how": {
       "type": "sg-how-it-works",
-      "settings": {
-        "heading": "How it works",
-        "subheading": "Three simple steps to a portrait your family will treasure.",
-        "anchor": "how-it-works"
-      },
+      "settings": {},
       "blocks": {
         "s_1": {
           "type": "step",
@@ -162,12 +111,6 @@
     "reviews": {
       "type": "sg-reviews",
       "settings": {
-        "heading": "Reviews",
-        "uppercase": true,
-        "page_heading": false,
-        "rating": "4.8",
-        "count_text": "based on 506 verified reviews",
-        "item_label": "Item type:",
         "button_label": "Read all 506 reviews",
         "button_link": "/pages/reviews"
       },
@@ -177,7 +120,6 @@
           "settings": {
             "name": "Customer Name",
             "date": "08/30/2026",
-            "placeholder_ratio": "3 / 4",
             "text": "<p>Placeholder review. Replace with a real customer review about how their portrait looks.</p>"
           }
         },
@@ -186,7 +128,6 @@
           "settings": {
             "name": "Customer Name",
             "date": "08/30/2026",
-            "placeholder_ratio": "3 / 4",
             "text": "<p>Placeholder review. Very happy with our pictures, they both came out great.</p>"
           }
         },
@@ -223,7 +164,7 @@
             "name": "Customer Name",
             "date": "08/31/2026",
             "placeholder_ratio": "2 / 3",
-            "text": "<p>Placeholder review. This is where an emotional customer story goes — what they felt when they opened the package and saw the portrait for the first time. Other family members ordered too after seeing it.</p>"
+            "text": "<p>Placeholder review. This is where an emotional customer story goes — what they felt when they opened the package and saw the portrait for the first time.</p>"
           }
         },
         "r_7": {
@@ -240,7 +181,6 @@
           "settings": {
             "name": "Customer Name",
             "date": "08/30/2026",
-            "placeholder_ratio": "3 / 4",
             "text": "<p>Placeholder review. Absolutely love the picture, best purchase I've made.</p>"
           }
         },
@@ -269,11 +209,7 @@
     },
     "faq": {
       "type": "sg-faq",
-      "settings": {
-        "heading": "Shipping & Ordering Questions",
-        "anchor": "faq",
-        "schema_markup": true
-      },
+      "settings": {},
       "blocks": {
         "q_1": {
           "type": "question",

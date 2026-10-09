@@ -74,6 +74,9 @@
       role="main"
       tabindex="-1"
     >
+      {%- if template.name == 'index' and template.suffix == blank -%}
+        {% sections 'home-group' %}
+      {%- endif -%}
       {{ content_for_layout }}
     </main>
 

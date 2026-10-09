@@ -3,11 +3,7 @@
     "main": {
       "type": "sg-doc",
       "settings": {
-        "show_title": true,
-        "title": "Contact Us",
-        "show_updated": true,
-        "updated_label": "Last updated:",
-        "foot": "<p>Questions? Email <a href=\"mailto:support@yourstore.com\">support@yourstore.com</a> or call <a href=\"tel:+15555555555\">+1 (555) 555-5555</a>.</p>"
+        "title": "Contact Us"
       },
       "blocks": {
         "c_1": {
@@ -46,10 +42,7 @@
         },
         "c_6": {
           "type": "contact_form",
-          "settings": {
-            "heading": "Send us a message",
-            "order_label": "Order number (optional)"
-          }
+          "settings": {}
         },
         "c_7": {
           "type": "page_content",

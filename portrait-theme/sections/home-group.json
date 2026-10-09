@@ -1,4 +1,6 @@
 {
+  "name": "Home page",
+  "type": "custom.home",
   "sections": {
     "hero": {
       "type": "sg-hero-product",

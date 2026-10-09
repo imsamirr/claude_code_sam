@@ -2,16 +2,7 @@
   "sections": {
     "main": {
       "type": "sg-track",
-      "settings": {
-        "title": "Track your order",
-        "subtitle": "See your shipping status or re-download your portrait — just enter your email.",
-        "email_label": "Email",
-        "placeholder": "you@example.com",
-        "help": "The email you used at checkout.",
-        "note": "We'll email you a one-time code to keep your portraits and orders private.",
-        "button_label": "Email me a code",
-        "foot": "<p>Prints arrive in 5–8 days within the USA, or 2–3 weeks elsewhere. Digital images are ready to download within minutes of checkout. Still stuck? Email <a href=\"mailto:support@yourstore.com\">support@yourstore.com</a> or call <a href=\"tel:+15555555555\">+1 (555) 555-5555</a>.</p>"
-      }
+      "settings": {}
     }
   },
   "order": [
