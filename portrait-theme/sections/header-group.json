@@ -67,53 +67,67 @@
         "menu_2": {
           "type": "drawer_item",
           "settings": {
-            "title": "Kids",
-            "link": "/products/kids-cartoon-portrait"
+            "title": "Pets",
+            "link": "/products/jesus-with-pets"
           }
         },
         "menu_3": {
           "type": "drawer_item",
           "settings": {
-            "title": "Pets",
-            "link": "/products/pet-portrait"
+            "title": "Riders",
+            "link": "/products/jesus-with-riders"
           }
         },
         "menu_4": {
+          "type": "drawer_item",
+          "settings": {
+            "title": "Kids",
+            "link": "/products/jesus-with-kids"
+          }
+        },
+        "menu_5": {
+          "type": "drawer_item",
+          "settings": {
+            "title": "Grandparents",
+            "link": "/products/jesus-with-grandparents"
+          }
+        },
+        "menu_6": {
           "type": "drawer_item",
           "settings": {
             "title": "Suncatcher",
             "link": "/products/photo-suncatcher"
           }
         },
-        "menu_5": {
+        "menu_7": {
           "type": "drawer_item",
           "settings": {
             "title": "Pet Suncatcher",
             "link": "/products/pet-suncatcher"
           }
         },
-        "menu_6": {
+        "menu_8": {
           "type": "drawer_item",
           "settings": {
             "title": "Wedding",
             "link": "/products/wedding-portrait"
           }
         },
-        "menu_7": {
+        "menu_9": {
           "type": "drawer_link",
           "settings": {
             "title": "Track My Order",
             "link": "/pages/track"
           }
         },
-        "menu_8": {
+        "menu_10": {
           "type": "drawer_link",
           "settings": {
             "title": "My Portraits",
             "link": "/account"
           }
         },
-        "menu_9": {
+        "menu_11": {
           "type": "drawer_link",
           "settings": {
             "title": "Contact",
@@ -130,7 +144,9 @@
         "menu_6",
         "menu_7",
         "menu_8",
-        "menu_9"
+        "menu_9",
+        "menu_10",
+        "menu_11"
       ]
     }
   },

@@ -1,0 +1,259 @@
+{
+  "sections": {
+    "main": {
+      "type": "sg-hero-product",
+      "settings": {
+        "heading": "Ride On With Jesus Beside You",
+        "subtitle": "A Custom Portrait for Bikers, Truckers & Drivers — Free Preview in About 60 Seconds",
+        "badge": "Customer rider portrait",
+        "style_label": "Choose your ride",
+        "reviews_link": "#reviews"
+      },
+      "blocks": {
+        "style_1": {
+          "type": "style",
+          "settings": {
+            "name": "Riding Together",
+            "badge": "Best Seller",
+            "slide": 0
+          }
+        },
+        "style_2": {
+          "type": "style",
+          "settings": {
+            "name": "Open Highway",
+            "slide": 0
+          }
+        },
+        "style_3": {
+          "type": "style",
+          "settings": {
+            "name": "Road Guardian",
+            "slide": 0
+          }
+        },
+        "style_4": {
+          "type": "style",
+          "settings": {
+            "name": "Last Ride Memorial",
+            "slide": 0
+          }
+        }
+      },
+      "block_order": [
+        "style_1",
+        "style_2",
+        "style_3",
+        "style_4"
+      ]
+    },
+    "examples": {
+      "type": "sg-before-after",
+      "settings": {
+        "subheading": "Four real rider transformations"
+      },
+      "blocks": {
+        "p_1": {
+          "type": "pair",
+          "settings": {}
+        },
+        "p_2": {
+          "type": "pair",
+          "settings": {}
+        },
+        "p_3": {
+          "type": "pair",
+          "settings": {}
+        },
+        "p_4": {
+          "type": "pair",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "p_1",
+        "p_2",
+        "p_3",
+        "p_4"
+      ]
+    },
+    "how": {
+      "type": "sg-how-it-works",
+      "settings": {
+        "subheading": "Three simple steps to a portrait for the rider in your life."
+      },
+      "blocks": {
+        "s_1": {
+          "type": "step",
+          "settings": {
+            "icon": "cloud-upload",
+            "title": "Upload a photo of your rider",
+            "text": "<p>A clear photo of them on — or beside — their motorcycle, truck or car works best.</p>"
+          }
+        },
+        "s_2": {
+          "type": "step",
+          "settings": {
+            "icon": "sparkles",
+            "title": "Choose a scene",
+            "text": "<p>Riding side by side with Jesus, cruising the open highway, protected on the road, or a memorial for their last ride.</p>"
+          }
+        },
+        "s_3": {
+          "type": "step",
+          "settings": {
+            "icon": "download",
+            "title": "Get your free preview",
+            "text": "<p>See your portrait in under a minute. Love it? Download the full high-resolution art or order a print.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "s_1",
+        "s_2",
+        "s_3"
+      ]
+    },
+    "reviews": {
+      "type": "sg-reviews",
+      "settings": {
+        "button_label": "Read all 506 reviews",
+        "button_link": "/pages/reviews"
+      },
+      "blocks": {
+        "r_1": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/30/2026",
+            "text": "<p>Placeholder review. Got this for my husband's birthday. He hung it in the garage next to his Harley.</p>"
+          }
+        },
+        "r_2": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/28/2026",
+            "text": "<p>Placeholder review. A beautiful memorial for my brother who loved to ride.</p>",
+            "placeholder_ratio": "2 / 3"
+          }
+        },
+        "r_3": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/26/2026",
+            "text": "<p>Placeholder review. Share a longer story here about the rider and the road they loved.</p>"
+          }
+        },
+        "r_4": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/24/2026",
+            "text": "<p>Placeholder review. My dad drove trucks for 30 years. This portrait made him tear up.</p>",
+            "placeholder_ratio": "2 / 3"
+          }
+        },
+        "r_5": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/21/2026",
+            "text": "<p>Placeholder review. They even got the bike details right.</p>"
+          }
+        },
+        "r_6": {
+          "type": "review",
+          "settings": {
+            "name": "Customer Name",
+            "date": "08/19/2026",
+            "text": "<p>Placeholder review. Ordered one for every rider in our club.</p>",
+            "placeholder_ratio": "2 / 3"
+          }
+        }
+      },
+      "block_order": [
+        "r_1",
+        "r_2",
+        "r_3",
+        "r_4",
+        "r_5",
+        "r_6"
+      ]
+    },
+    "faq": {
+      "type": "sg-faq",
+      "settings": {
+        "heading": "Questions About Your Rider Portrait"
+      },
+      "blocks": {
+        "q_1": {
+          "type": "question",
+          "settings": {
+            "question": "Does it work for motorcycles, trucks and cars?",
+            "answer": "<p>Yes. Motorcycles, semi-trucks, classic cars and everyday drivers all work. Include the vehicle in your photo and we'll keep it in the scene.</p>"
+          }
+        },
+        "q_2": {
+          "type": "question",
+          "settings": {
+            "question": "Can I order a memorial for a rider who passed?",
+            "answer": "<p>Yes. The Last Ride Memorial scene was made for exactly that. Any clear photo of them, old or new, will work.</p>"
+          }
+        },
+        "q_3": {
+          "type": "question",
+          "settings": {
+            "question": "Can I include the rider's passenger or club?",
+            "answer": "<p>Yes. Upload a photo with everyone you'd like included and we'll bring them together in one portrait.</p>"
+          }
+        },
+        "q_4": {
+          "type": "question",
+          "settings": {
+            "question": "How long until my order arrives?",
+            "answer": "<p>Digital files arrive by email within minutes of checkout, worldwide. Printed gifts are made to order: allow 5-8 days within the USA, or an estimated 2-3 weeks for international delivery.</p>"
+          }
+        },
+        "q_5": {
+          "type": "question",
+          "settings": {
+            "question": "What's the difference between the poster and the canvas?",
+            "answer": "<p>The poster is printed on museum-quality archival paper and arrives rolled, ready for a frame of your choosing. The canvas is printed on gallery-wrapped cotton canvas and arrives ready to hang.</p>"
+          }
+        },
+        "q_6": {
+          "type": "question",
+          "settings": {
+            "question": "Will I get a tracking number?",
+            "answer": "<p>Yes. As soon as your poster or canvas ships we'll email you a tracking number so you can follow it right to your door.</p>"
+          }
+        },
+        "q_7": {
+          "type": "question",
+          "settings": {
+            "question": "How is the digital download delivered?",
+            "answer": "<p>By email, within minutes of checkout, as a full-resolution, watermark-free file you can download again whenever you need it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q_1",
+        "q_2",
+        "q_3",
+        "q_4",
+        "q_5",
+        "q_6",
+        "q_7"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "examples",
+    "how",
+    "reviews",
+    "faq"
+  ]
+}

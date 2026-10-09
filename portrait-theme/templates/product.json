@@ -3,7 +3,8 @@
     "main": {
       "type": "sg-hero-product",
       "settings": {
-        "reviews_link": "#reviews"
+        "reviews_link": "#reviews",
+        "heading": "A Beautiful Portrait of Your Loved Ones With Jesus"
       },
       "blocks": {
         "style_1": {

@@ -3,16 +3,17 @@
     "main": {
       "type": "sg-hero-product",
       "settings": {
-        "heading": "Celebrate Your Pet With a Beautiful Portrait",
+        "heading": "Your Faithful Friend, Resting in the Arms of Jesus",
+        "subtitle": "A Custom Portrait of Your Dog or Cat With Jesus — Free Preview in About 60 Seconds",
         "badge": "Customer pet portrait",
-        "style_label": "Choose your pet's style",
+        "style_label": "Choose your pet's portrait",
         "reviews_link": "#reviews"
       },
       "blocks": {
         "style_1": {
           "type": "style",
           "settings": {
-            "name": "Warm",
+            "name": "Held by Jesus",
             "badge": "Best Seller",
             "slide": 0
           }
@@ -20,7 +21,7 @@
         "style_2": {
           "type": "style",
           "settings": {
-            "name": "Garden",
+            "name": "Walking Together",
             "slide": 0
           }
         },
@@ -34,7 +35,7 @@
         "style_4": {
           "type": "style",
           "settings": {
-            "name": "Memorial",
+            "name": "Heavenly Rest",
             "slide": 0
           }
         }
@@ -79,7 +80,7 @@
     "how": {
       "type": "sg-how-it-works",
       "settings": {
-        "subheading": "Three simple steps to a portrait of your best friend."
+        "subheading": "Three simple steps to a portrait of your best friend with Jesus."
       },
       "blocks": {
         "s_1": {
@@ -87,15 +88,15 @@
           "settings": {
             "icon": "cloud-upload",
             "title": "Upload your pet's photo",
-            "text": "<p>A clear, well-lit photo where your pet's face is easy to see works best.</p>"
+            "text": "<p>A clear, well-lit photo where your dog's or cat's face is easy to see works best. You can add yourself too.</p>"
           }
         },
         "s_2": {
           "type": "step",
           "settings": {
             "icon": "sparkles",
-            "title": "Choose a style",
-            "text": "<p>Pick a style — warm, garden, rainbow bridge or a memorial tribute.</p>"
+            "title": "Choose a scene",
+            "text": "<p>Held in His arms, walking beside Him, crossing the Rainbow Bridge, or resting peacefully in Heaven.</p>"
           }
         },
         "s_3": {
@@ -103,7 +104,7 @@
           "settings": {
             "icon": "download",
             "title": "Get your free preview",
-            "text": "<p>See your portrait in under a minute. Love it? Download the full high-resolution art.</p>"
+            "text": "<p>See your portrait in under a minute. Love it? Download the full high-resolution art or order a print.</p>"
           }
         }
       },
@@ -125,24 +126,23 @@
           "settings": {
             "name": "Customer Name",
             "date": "08/30/2026",
-            "text": "<p>Placeholder review. Replace with a real customer review.</p>"
+            "text": "<p>Placeholder review. It captured our golden retriever perfectly — we cried happy tears.</p>"
           }
         },
         "r_2": {
           "type": "review",
           "settings": {
             "name": "Customer Name",
-            "date": "08/30/2026",
-            "placeholder_ratio": "2 / 3",
-            "text": "<p>Placeholder review. It captured our dog perfectly.</p>"
+            "date": "08/29/2026",
+            "text": "<p>Placeholder review. Our cat passed last spring. Seeing her with Jesus brought me so much peace.</p>",
+            "placeholder_ratio": "2 / 3"
           }
         },
         "r_3": {
           "type": "review",
           "settings": {
             "name": "Customer Name",
-            "date": "09/06/2026",
-            "placeholder_ratio": "2 / 3",
+            "date": "08/27/2026",
             "text": "<p>Placeholder review. Share a longer story here about the pet and what the portrait meant to the family.</p>"
           }
         },
@@ -150,26 +150,26 @@
           "type": "review",
           "settings": {
             "name": "Customer Name",
-            "date": "09/03/2026",
-            "text": "<p>Placeholder review. A beautiful memorial of our cat.</p>"
+            "date": "08/25/2026",
+            "text": "<p>Placeholder review. Ordered a canvas for my mom after her dog crossed the Rainbow Bridge.</p>",
+            "placeholder_ratio": "2 / 3"
           }
         },
         "r_5": {
           "type": "review",
           "settings": {
             "name": "Customer Name",
-            "date": "08/31/2026",
-            "placeholder_ratio": "2 / 3",
-            "text": "<p>Placeholder review. The picture came out amazing, exactly what I expected.</p>"
+            "date": "08/22/2026",
+            "text": "<p>Placeholder review. Beautiful quality and fast shipping.</p>"
           }
         },
         "r_6": {
           "type": "review",
           "settings": {
             "name": "Customer Name",
-            "date": "08/31/2026",
-            "text": "<p>Placeholder review. Ordered a second one for my sister.</p>",
-            "item": "Fine Art Poster"
+            "date": "08/20/2026",
+            "text": "<p>Placeholder review. Both of our dogs in one portrait, it's perfect.</p>",
+            "placeholder_ratio": "2 / 3"
           }
         }
       },
@@ -184,41 +184,57 @@
     },
     "faq": {
       "type": "sg-faq",
-      "settings": {},
+      "settings": {
+        "heading": "Questions About Your Pet Portrait"
+      },
       "blocks": {
         "q_1": {
+          "type": "question",
+          "settings": {
+            "question": "Does it work for both dogs and cats?",
+            "answer": "<p>Yes. Dogs, cats and most other pets work beautifully. The clearer their face is in your photo, the more it will look like them.</p>"
+          }
+        },
+        "q_2": {
+          "type": "question",
+          "settings": {
+            "question": "Can I include more than one pet, or myself?",
+            "answer": "<p>Yes. Upload a photo with everyone together, or separate photos, and we'll bring them into one scene with Jesus.</p>"
+          }
+        },
+        "q_3": {
+          "type": "question",
+          "settings": {
+            "question": "Is this a good memorial for a pet that passed?",
+            "answer": "<p>Many of our customers order the Rainbow Bridge or Heavenly Rest scene to remember a pet who has passed. Any older photo you have will work.</p>"
+          }
+        },
+        "q_4": {
           "type": "question",
           "settings": {
             "question": "How long until my order arrives?",
             "answer": "<p>Digital files arrive by email within minutes of checkout, worldwide. Printed gifts are made to order: allow 5-8 days within the USA, or an estimated 2-3 weeks for international delivery.</p>"
           }
         },
-        "q_2": {
+        "q_5": {
           "type": "question",
           "settings": {
             "question": "What's the difference between the poster and the canvas?",
             "answer": "<p>The poster is printed on museum-quality archival paper and arrives rolled, ready for a frame of your choosing. The canvas is printed on gallery-wrapped cotton canvas and arrives ready to hang.</p>"
           }
         },
-        "q_3": {
-          "type": "question",
-          "settings": {
-            "question": "Can I include more than one pet?",
-            "answer": "<p>Yes — upload a photo with all of them, or separate photos and mention it in your order notes.</p>"
-          }
-        },
-        "q_4": {
+        "q_6": {
           "type": "question",
           "settings": {
             "question": "Will I get a tracking number?",
-            "answer": "<p>Yes. As soon as your poster or canvas ships we'll email you a tracking number.</p>"
+            "answer": "<p>Yes. As soon as your poster or canvas ships we'll email you a tracking number so you can follow it right to your door.</p>"
           }
         },
-        "q_5": {
+        "q_7": {
           "type": "question",
           "settings": {
             "question": "How is the digital download delivered?",
-            "answer": "<p>By email, within minutes of checkout, as a full-resolution, watermark-free file.</p>"
+            "answer": "<p>By email, within minutes of checkout, as a full-resolution, watermark-free file you can download again whenever you need it.</p>"
           }
         }
       },
@@ -227,7 +243,9 @@
         "q_2",
         "q_3",
         "q_4",
-        "q_5"
+        "q_5",
+        "q_6",
+        "q_7"
       ]
     }
   },

@@ -3,15 +3,17 @@
     "main": {
       "type": "sg-hero-product",
       "settings": {
-        "heading": "Turn Your Child Into a Storybook Cartoon",
-        "subtitle": "A Keepsake They'll Treasure — Free Preview in About 60 Seconds",
+        "heading": "Your Little One, Forever Held by Jesus",
+        "subtitle": "A Gentle Portrait for Brave Little Warriors and Children Forever in Our Hearts",
+        "badge": "Customer portrait",
+        "style_label": "Choose your portrait",
         "reviews_link": "#reviews"
       },
       "blocks": {
         "style_1": {
           "type": "style",
           "settings": {
-            "name": "Riverside",
+            "name": "Held in His Arms",
             "badge": "Best Seller",
             "slide": 0
           }
@@ -19,21 +21,21 @@
         "style_2": {
           "type": "style",
           "settings": {
-            "name": "Playtime",
+            "name": "Brave Little Warrior",
             "slide": 0
           }
         },
         "style_3": {
           "type": "style",
           "settings": {
-            "name": "Bedtime",
+            "name": "Little Angel",
             "slide": 0
           }
         },
         "style_4": {
           "type": "style",
           "settings": {
-            "name": "Adventure",
+            "name": "Playing in Heaven",
             "slide": 0
           }
         }
@@ -48,7 +50,7 @@
     "examples": {
       "type": "sg-before-after",
       "settings": {
-        "subheading": "Four real storybook transformations"
+        "subheading": "Four real transformations"
       },
       "blocks": {
         "p_1": {
@@ -77,22 +79,24 @@
     },
     "how": {
       "type": "sg-how-it-works",
-      "settings": {},
+      "settings": {
+        "subheading": "Three simple steps to a portrait your family will treasure forever."
+      },
       "blocks": {
         "s_1": {
           "type": "step",
           "settings": {
             "icon": "cloud-upload",
-            "title": "Upload your photo",
-            "text": "<p>Add a clear photo of your child. Solo, siblings, or the whole family.</p>"
+            "title": "Upload your child's photo",
+            "text": "<p>Any clear photo works — from the hospital, from home, or a treasured older picture.</p>"
           }
         },
         "s_2": {
           "type": "step",
           "settings": {
             "icon": "sparkles",
-            "title": "Choose a scene",
-            "text": "<p>Pick a storybook scene — a riverside picnic, playtime, a bedtime story or a big adventure.</p>"
+            "title": "Choose a portrait",
+            "text": "<p>Held in His arms, a brave little warrior with Jesus by their side, a little angel, or playing peacefully in Heaven.</p>"
           }
         },
         "s_3": {
@@ -100,7 +104,7 @@
           "settings": {
             "icon": "download",
             "title": "Get your free preview",
-            "text": "<p>See your cartoon in under a minute. Love it? Download the full high-resolution art.</p>"
+            "text": "<p>See your portrait in under a minute, then choose a digital file or a print to keep close.</p>"
           }
         }
       },
@@ -122,51 +126,50 @@
           "settings": {
             "name": "Customer Name",
             "date": "08/30/2026",
-            "text": "<p>Placeholder review. Replace with a real customer review.</p>"
+            "text": "<p>Placeholder review. Our son is fighting leukemia. This portrait hangs above his hospital bed and gives us all strength.</p>"
           }
         },
         "r_2": {
           "type": "review",
           "settings": {
             "name": "Customer Name",
-            "date": "08/30/2026",
-            "placeholder_ratio": "2 / 3",
-            "text": "<p>Placeholder review. Our kids love seeing themselves as cartoon characters.</p>"
+            "date": "08/28/2026",
+            "text": "<p>Placeholder review. We lost our daughter at three. Seeing her with Jesus brought our family comfort.</p>",
+            "placeholder_ratio": "2 / 3"
           }
         },
         "r_3": {
           "type": "review",
           "settings": {
             "name": "Customer Name",
-            "date": "09/06/2026",
-            "placeholder_ratio": "2 / 3",
-            "text": "<p>Placeholder review. Share a longer story here about who the portrait was for and what the moment meant to the family receiving it.</p>"
+            "date": "08/26/2026",
+            "text": "<p>Placeholder review. Share a longer story here about the child and what the portrait means to the family.</p>"
           }
         },
         "r_4": {
           "type": "review",
           "settings": {
             "name": "Customer Name",
-            "date": "09/03/2026",
-            "text": "<p>Placeholder review. It now hangs above her bed.</p>"
+            "date": "08/23/2026",
+            "text": "<p>Placeholder review. The team was so kind and gentle when I asked for a small change.</p>",
+            "placeholder_ratio": "2 / 3"
           }
         },
         "r_5": {
           "type": "review",
           "settings": {
             "name": "Customer Name",
-            "date": "08/31/2026",
-            "placeholder_ratio": "2 / 3",
-            "text": "<p>Placeholder review. The picture came out amazing, exactly what I expected.</p>"
+            "date": "08/21/2026",
+            "text": "<p>Placeholder review. We gave one to each grandparent.</p>"
           }
         },
         "r_6": {
           "type": "review",
           "settings": {
             "name": "Customer Name",
-            "date": "08/31/2026",
-            "text": "<p>Placeholder review. Best gift for the grandparents.</p>",
-            "item": "Canvas"
+            "date": "08/18/2026",
+            "text": "<p>Placeholder review. Beautiful, peaceful and exactly what we hoped for.</p>",
+            "placeholder_ratio": "2 / 3"
           }
         }
       },
@@ -181,41 +184,57 @@
     },
     "faq": {
       "type": "sg-faq",
-      "settings": {},
+      "settings": {
+        "heading": "Questions About Your Child's Portrait"
+      },
       "blocks": {
         "q_1": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use an older or hospital photo?",
+            "answer": "<p>Yes. Older photos, phone pictures and hospital photos all work. If you have more than one, choose the one where their face is clearest.</p>"
+          }
+        },
+        "q_2": {
+          "type": "question",
+          "settings": {
+            "question": "Can siblings or parents be included?",
+            "answer": "<p>Yes. Upload a photo with everyone together, or separate photos, and we'll bring the family together in one scene.</p>"
+          }
+        },
+        "q_3": {
+          "type": "question",
+          "settings": {
+            "question": "Can I ask for a change to the portrait?",
+            "answer": "<p>Of course. Contact us with your order number and tell us what you'd like adjusted. We'll take care of it with the gentleness it deserves.</p>"
+          }
+        },
+        "q_4": {
           "type": "question",
           "settings": {
             "question": "How long until my order arrives?",
             "answer": "<p>Digital files arrive by email within minutes of checkout, worldwide. Printed gifts are made to order: allow 5-8 days within the USA, or an estimated 2-3 weeks for international delivery.</p>"
           }
         },
-        "q_2": {
+        "q_5": {
           "type": "question",
           "settings": {
             "question": "What's the difference between the poster and the canvas?",
             "answer": "<p>The poster is printed on museum-quality archival paper and arrives rolled, ready for a frame of your choosing. The canvas is printed on gallery-wrapped cotton canvas and arrives ready to hang.</p>"
           }
         },
-        "q_3": {
-          "type": "question",
-          "settings": {
-            "question": "Do you ship internationally?",
-            "answer": "<p>Digital portraits are available worldwide. We offer fine art posters internationally, subject to the delivery options at checkout.</p>"
-          }
-        },
-        "q_4": {
+        "q_6": {
           "type": "question",
           "settings": {
             "question": "Will I get a tracking number?",
-            "answer": "<p>Yes. As soon as your poster or canvas ships we'll email you a tracking number.</p>"
+            "answer": "<p>Yes. As soon as your poster or canvas ships we'll email you a tracking number so you can follow it right to your door.</p>"
           }
         },
-        "q_5": {
+        "q_7": {
           "type": "question",
           "settings": {
             "question": "How is the digital download delivered?",
-            "answer": "<p>By email, within minutes of checkout, as a full-resolution, watermark-free file.</p>"
+            "answer": "<p>By email, within minutes of checkout, as a full-resolution, watermark-free file you can download again whenever you need it.</p>"
           }
         }
       },
@@ -224,7 +243,9 @@
         "q_2",
         "q_3",
         "q_4",
-        "q_5"
+        "q_5",
+        "q_6",
+        "q_7"
       ]
     }
   },
