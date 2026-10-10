@@ -2,6 +2,7 @@
   "name": "Brand Name",
   "product": "Product name",
   "price": "$00.00",
+  "audience": "who the product is for, e.g. \"Women only: whoever wears the product is a woman\"",
   "palette": "background colors, accent color with hex for headlines and pills, body text color",
   "font_style": "headline and body font description, e.g. bold geometric sans-serif headlines",
   "website": "example.com",
@@ -14,16 +15,25 @@
     "claims legal/ops can't stand behind (guarantees, shipping speed, medical or endorsement claims)"
   ],
   "colorways": {
-    "variant_slug": {"file": "reference/product_variant_slug.png", "label": "plain-language color description"}
+    "variant_slug": {
+      "file": "reference/product_variant_slug.png",
+      "label": "plain-language color description"
+    }
   },
   "personas": {
     "persona_slug": {
       "name": "Who they are, in a few words",
       "source": "the data this persona comes from (survey share, winning ads, reviews, forums)",
-      "colorways": ["variant_slug"],
+      "colorways": [
+        "variant_slug"
+      ],
       "test_colorways": []
     },
-    "comfort_only": {"name": "Broad everyday buyer", "source": "...", "colorways": "any"}
+    "comfort_only": {
+      "name": "Broad everyday buyer",
+      "source": "...",
+      "colorways": "any"
+    }
   },
   "language_rules": {
     "es": "All on-image text is in Spanish exactly as written in quotes, as a Spanish-speaking person living in the USA would say it (neutral US Latino, Mexican-leaning, using 'tú'). Keep every accent and sign: á é í ó ú ñ ¿ ¡. Numbers in US format. Do not translate brand names."

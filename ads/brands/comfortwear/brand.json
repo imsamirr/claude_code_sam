@@ -7,6 +7,7 @@
   "website": "comfortorthowear.com",
   "prompt_rules": [
     "The shoe MUST be the exact shoe in the attached studio reference photo, unchanged: same colors, stretch-knit sock-style upper with pull tab, grid-of-small-squares pattern on the side panel, elastic bungee laces with a round toggle, double-chevron logo on the inner collar, chunky rocker midsole with a wavy side profile, lug outsole. Keep its proportions and every detail; only change its angle, lighting and setting as the layout requires. Do not invent a different shoe, logo or sole.",
+    "This is a women's shoe: the person wearing it is always a woman (women's proportions and styling). Men may appear only as gift-givers or in the background, never wearing the shoe.",
     "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
   ],
@@ -150,15 +151,6 @@
         "grey_pink"
       ]
     },
-    "gift_for_parent": {
-      "name": "Adult child buying for mom/dad",
-      "source": "Own knowledge: comfort-shoe gifting (Mother's/Father's Day, holidays); parents 65+ are the core wearer",
-      "colorways": [
-        "grey_pink",
-        "light_grey",
-        "purple"
-      ]
-    },
     "traveler": {
       "name": "Traveler (Disney, Europe, cruises, 20k-step days)",
       "source": "Kyro 293/369 travel videos ($58k, 2.15 ROAS); team statics 'Paris/Barcelona 50 steps'",
@@ -183,9 +175,19 @@
       "name": "No diagnosis, just wants comfortable everyday shoes",
       "source": "Survey: 22% 'No foot pain, only need for comfort'; 71% shop for 'comfort'",
       "colorways": "any"
+    },
+    "gift_for_her": {
+      "name": "Gift buyer for mom, grandma or wife",
+      "source": "Own knowledge: comfort-shoe gifting (Mother's/Father's Day, holidays); parents 65+ are the core wearer",
+      "colorways": [
+        "grey_pink",
+        "light_grey",
+        "purple"
+      ]
     }
   },
   "language_rules": {
-    "es": "All on-image text is in Spanish exactly as written in quotes, as a Spanish-speaking person living in the USA would say it (neutral US Latino, Mexican-leaning, using 'tú'). Keep every accent and sign: á é í ó ú ñ ¿ ¡. Numbers in US format (12,000 not 12.000; $59.95). Do not translate brand names."
-  }
+    "es": "All on-image text is in Spanish exactly as written in quotes, as a Spanish-speaking person living in the USA would say it (neutral US Latino, Mexican-leaning, using 'tú'). Keep every accent and sign: á é í ó ú ñ ¿ ¡. Numbers in US format (12,000 not 12.000; $59.95). Do not translate brand names. Use only the Spanish text given in quotes: do not add feature lists, icons with captions, price tags, badges or extra panels."
+  },
+  "audience": "Women only: the product is a women's shoe. Whoever wears the shoe in an ad is always a woman; men may appear only as gift-givers or background people, never wearing the product."
 }

@@ -44,7 +44,7 @@
       "angle": "Kitchen safety: grip on wet floors during doubles",
       "based_on": "r/Serverlife: 'cheap shoes kill your ankles, knees & back', Hoka Bondi SR praised for slip resistance but pricey; slip-resistant callout in winners; I5 sole-forward hero",
       "headline": "Double shift. Wet floor. Still standing.",
-      "prompt": "Photo-real vertical ad in a busy restaurant kitchen with stainless steel counters, warm light. Low camera angle at floor level: a line cook's foot in the shoe from the reference photo stepping firmly on wet red quarry tile with a small splash of water, the lug outsole visible, black chef pants. Top of the safe area, bold white headline with shadow, three short lines: \"Double shift.\" \"Wet floor.\" \"Still standing.\" Bottom of the safe area: a black pill with white text \"Grippy sole · Cushioned all night · $59.95\"."
+      "prompt": "Photo-real vertical ad in a busy restaurant kitchen with stainless steel counters, warm light. Low camera angle at floor level: a female line cook's foot (slim women's foot, fitted black women's chef pants) in the shoe from the reference photo stepping firmly on wet red quarry tile with a small splash of water, the lug outsole visible. Top of the safe area, bold white headline with shadow, three short lines: \"Double shift.\" \"Wet floor.\" \"Still standing.\" Bottom of the safe area: a black pill with white text \"Grippy sole · Cushioned all night · $59.95\"."
     },
     {
       "id": "W42_04_concrete_doesnt_care",
@@ -98,7 +98,7 @@
     },
     {
       "id": "W42_09_mom_wont_say",
-      "persona": "gift_for_parent",
+      "persona": "gift_for_her",
       "lang": "en",
       "colorway": "purple",
       "angle": "Gift for mom: she won't complain, you know anyway",
@@ -212,7 +212,7 @@
       "angle": "Spanish · kitchen doubles: wet floors and long hours",
       "based_on": "r/Serverlife slip-resistance demand; restaurant persona; Spanish ad track record",
       "headline": "Doble turno en la cocina. Y mis pies aguantan.",
-      "prompt": "Photo-real vertical ad in a busy restaurant kitchen, warm light, steam rising. A Latino line cook in his 30s in a white chef coat and black pants plating food, full body, wearing the shoe from the reference photo on a wet tile floor. Top of the safe area, bold white headline with shadow: \"Doble turno en la cocina.\" second line in bold: \"Y mis pies aguantan.\" Bottom of the safe area: three white pills in a row with black text: \"Agarre en piso mojado\", \"Soporte de arco\", \"$59.95\"."
+      "prompt": "Photo-real vertical ad in a busy restaurant kitchen, warm light, steam rising. A Latina line cook in her 30s in a white chef coat and black pants, hair tied back, plating food, full body, wearing the shoe from the reference photo on a wet tile floor. Top of the safe area, bold white headline with shadow: \"Doble turno en la cocina.\" second line in bold: \"Y mis pies aguantan.\" Bottom of the safe area: three white pills in a row with black text: \"Agarre en piso mojado\", \"Soporte de arco\", \"$59.95\"."
     },
     {
       "id": "W42_18_es_parado_en_concreto",
@@ -226,7 +226,7 @@
     },
     {
       "id": "W42_19_es_regalo_mama",
-      "persona": "gift_for_parent",
+      "persona": "gift_for_her",
       "lang": "es",
       "colorway": "grey_pink",
       "angle": "Spanish · gift for mamá: she never complains, but you know",

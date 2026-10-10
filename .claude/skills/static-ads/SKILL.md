@@ -18,6 +18,9 @@ Default deliverable per week: **40 unique concepts, 1 static each** (no variatio
    - `product`, `price`, `palette`, `font_style`, `website`.
    - `prompt_rules[0]`: a precise physical description of the product, so the model keeps it exact.
    - `claims_to_avoid`: anything legal, ops or reviews say the brand can't promise.
+   - `audience`: who the product is for (e.g. Comfort Wear is women only). If the product is
+     gendered, add a `prompt_rules` line saying who may wear it, and frame personas and gifting to
+     match (gift for mom/grandma/wife, not dad).
    - `colorways`: one clean studio photo per colorway/variant in `reference/` (white or light-grey
      background, product only, ~1500px PNG). Find them in the brand's Drive (look for a studio
      or catalog folder; prefer side profile). Never use crops of old ads: they make the product drift.
@@ -72,7 +75,8 @@ Rules for the 40 (tag each concept `"group": "winning"` or `"net_new"`):
   family and coworker framing, US number format. Avoid Spain-isms and stiff translated copy
   ("Consigue el tuyo", "120.000").
 - **Copy**: audience or situation in the headline; one problem and one payoff; 15 words or fewer
-  on the image when possible; no claim from `claims_to_avoid`. Never invent named testimonials
+  on the image when possible; no claim from `claims_to_avoid`. Respect `audience`: only the right people wear
+  the product (Comfort Wear: women only; no men or kids wearing it). Never invent named testimonials
   ("— Linda, 68"); use real review language unattributed, or first-person copy without a name.
 - **GIFs**: add a `gif` block to 5–8 candidates, only where motion adds meaning (a counter ticking up, chat bubbles
   appearing, steps or callouts revealed, a clock moving through a shift). Use `"build": true`:
