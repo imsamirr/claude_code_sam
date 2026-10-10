@@ -5,7 +5,7 @@ Research → concepts → images, generated with OpenAI's image model (ChatGPT i
 ```
 ads/
   analysis.md          findings: winners vs losers, scripts, Trustpilot, inspiration
-  concepts.json        12 ad concepts with full image prompts
+  concepts.json        19 ad concepts with full image prompts
   generate.py          renders concepts with the OpenAI image API
   atria_pull.py        refreshes winners / losers / inspiration from Atria
   reference/           product photos sent with every prompt (keeps the shoe accurate)

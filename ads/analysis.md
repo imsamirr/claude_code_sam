@@ -9,6 +9,8 @@ Pulled 2026-10-10 from Atria (WearOrtho Meta account, Jan 2024 to Oct 2026), the
 | Video scripts | Atria transcripts of the 10 top video ads (spend $15k+ and ROAS 1.4+) | `data/video_transcripts.md` |
 | Inspiration | 72 Atria library image ads: **launched in the last 30 days, impressions rising**, still active, foot-pain and footwear queries | `data/inspiration_rising_30d.csv` |
 | Reviews | Trustpilot: 3.7 TrustScore, 3,141 reviews. 52% 5★, 21% 1★ | (summarized below) |
+| Notion | Scripts 2026, Creative Tracker (old) with learnings, Ad Angle Databank (100 angles) | `data/notion_angles.md` |
+| Brand inspiration | 167 long-running image ads: Vessi, Stepprs, ComfoFeet, Orthora, Orthofeet, KURU, Clove, WearStand, HIKE + non-footwear pain/nurse/bunion/arthritis brands | `data/brand_inspiration_longrunning.csv` |
 
 > **Data caveat:** from about Feb 2025, many high-spend ads show ROAS near 0.02 in Atria (e.g. "Kyro 154v2ss2" image, $500k spend at 0.04). That looks like a purchase-tracking or attribution break, not real performance, so ROAS from that period isn't reliable. Spend (Meta's own allocation) is the ranking signal, as you asked.
 
@@ -80,9 +82,36 @@ Formats worth adopting (refs match `data/inspiration_rising_30d.csv`):
 | **"5 reasons" on a real scene** | I3 Nurse Finds "5 reasons to wear these shoes for 12-hour shift" | Your $858k checklist, made photographic |
 | **Sole-forward hero** | I5 The Clog Shop "Bold print. Real arch support.", I0 Musabela | Proves slip-resistance visually |
 
-## 6. The 12 new concepts (`concepts.json`)
+## 6. Your Notion angles (full notes: `data/notion_angles.md`)
 
-Each concept combines a proven winner angle with a rising inspiration format and customer language:
+- **2026 production is mostly video:** ranking, "podiatrist rates", Hoka/Skechers attacks, nurse identity, body-type/age, retail/servers, travel/Disney. Only 6 statics are in the pipeline (Disney ×2, teacher comparison, nurse coworkers, nurse rating website, healthcare + teachers), even though statics made up a large share of historical $5k+ spend.
+- **What your own learnings say kills a concept:** a generic "rates shoes" or tier list with no ComfortWear payoff, too much on-screen text, stock footage, and "only the product, not the real problem". The concepts below follow those rules: one problem, one payoff, legible at a glance.
+- **Databank angles not yet tested** that fit statics: 12-hour countdown, foam dies at hour 4, annual cost math, cashiers on concrete, vertical toe box/bunions, arthritis no-tie laces, cobblestones.
+
+## 7. Brand inspiration: long-running image ads (`data/brand_inspiration_longrunning.csv`)
+
+These are ads still being paid for after months, a better signal of profitability than "new and rising". B-refs match the CSV.
+
+| Brand | Proven format | Runtime | What to take |
+|---|---|---|---|
+| **Stepprs** | Words written on the sole of a foot: "12 years of plantar fasciitis pain gone" (B8/B11). Old-vs-new insole split (B14). Sticky notes on product (B9). "Finish 12 hour shifts with ZERO foot pain" in a warehouse (B12) | 386 days | Pain written on the body (C18), the collapse proof (C17). Their sticky notes work, while your L86 didn't, so execution matters |
+| **ComfoFeet** | "Swollen feet \| Solution" symptom split (B18). Quote headline "Ok I did it. I bought the $39 orthopedic shoe" (B20). "1 sold every 5 seconds" | 340–360 days | Symptom→solution split, quote-as-headline |
+| **Orthora** | "Built for hard concrete floors" checklist incl. "cushioning that doesn't collapse mid-shift" (B38). "For her. By workers who get it." "92% of shift workers…" stat badge | 160–170 days | Concrete-floor framing for retail (C13) |
+| **KURU** | "They're not cheap. It's true." 1★ reversal (B49). "KURU knows feet. Other shoes… not so much." "Are your heels in hell?" | 180–409 days | Price-objection reversal (C19) |
+| **Clove** | "Healthcare's not new. The right shoe for it is." "#1 Shoe for Doctors + Nurses." Back-to-nursing-school locker shot | 50–100 days | Premium nurse identity; seasonal nursing-school moment |
+| **WearStand (STAND+)** | Letter-style "You'll forget us" copy. "New life for kitchen days" chef quote. "Use your FSA/HSA" | 110–170 days | Occupation quotes (chef/kitchen), FSA framing |
+| **Vessi** | "Float over cobblestones" checklist on a real street. "No more backup shoes. One pair. Door to desk." | 70–100 days | Real-scene travel (C16) |
+| **Orthofeet** | Lifestyle + "Built-in orthotic insoles" callout, exploded feature diagrams | 70–165 days | "No insoles needed" message (C17/C19) |
+| **HIKE** | BOGO clearance, "14 days to relieve plantar fasciitis" icon grid | ~390 days | Offer-led retargeting only |
+| Non-footwear | Treatmedy "Fix bunions without surgery" (794 days). Everstride "Diabetic women are replacing their tight socks with these" (761 days). OrthoFit "1 in 3 women over 50 have a bunion" (B121). Nimbao "Hammer toes don't disqualify you from cute shoes." Lumbowrap Facebook-comment screenshot over a person (607 days). Nuvra "Day 0 / Day 7 / Day 14" | months to years | Bunion framing (C14), "women are replacing X with these", comment-over-photo (C04) |
+
+**Nurse Babes and Snibbs** returned no image ads in Atria's library, and Atria only surfaced unrelated brands for WearStand's lookalikes.
+
+> ⚠️ **Knockoffs running your creative.** "ComfortOrtho Shoes" has been running near-exact copies of your "Dear Nurses", "Last chance for pain-free walking" and "$59.95 12-hour shift shoes" statics for **235 days** (B91–B93). "Foot Health Daily / Hike Balance" runs a "Dear Hikers, tackle every trail pain-free" clone of the same template (B108), plus "Best shoes for NURSES". That validates the template, but it's also brand confusion that could feed the 1★ "drop-shipping scam" reviews. Worth a Meta IP report.
+
+## 8. Concepts (`concepts.json`)
+
+The first 12 come from your $5k+ winners; C13–C19 add the Notion angles and brand inspiration:
 
 | ID | Concept | Built from |
 |---|---|---|
@@ -98,5 +127,16 @@ Each concept combines a proven winner angle with a rising inspiration format and
 | C10 | First it was me. Then 3 more nurses on my floor. | 203 UGC script + reviews |
 | C11 | Hour 12. Still smiling. | I25 identity format |
 | C12 | WARNING: Last restock (only with a real deadline) | Warehouse winner (3.31 ROAS) |
+| C13 | "You don't walk miles. You stand on concrete for 8 hours." (retail) | Winner callout layout + Orthora + databank cashiers |
+| C14 | 1 in 3 women over 50 has a bunion | OrthoFit + Nimbao + winner toe-box callout |
+| C15 | Her hands don't work in the morning (arthritis, no-tie laces) | Databank + Malvay/Nuvra |
+| C16 | We tested 4 shoes on cobblestones (scorecard) | Kyro 293/369 travel videos + Vessi |
+| C17 | Your foam gives up at hour 4 | Stepprs split + databank + scripts |
+| C18 | "12-hour shifts did this" written on the heel | Stepprs (386 days) + Neurotoned |
+| C19 | Receipt: what your feet cost this year | Databank cost math + 203 UGC + KURU |
 
-**Testing suggestion:** run C01–C07 in prospecting (nurse audiences) and C04/C08/C12 in retargeting. Keep the nurse/12-hour frame on every static; per the loser data, test other audiences in video first.
+**Testing plan:**
+1. **Core (nurses, highest confidence):** C01, C02, C03, C05, C07, C17 in prospecting. These are direct descendants of the $5k+ statics.
+2. **Retargeting:** C04, C08, C12, C19.
+3. **Audience expansion (one static per audience, kept in the winning layout):** C13 retail, C14 bunions, C15 arthritis, C16 travel. Given the losers, judge these against their own audience benchmarks, not the nurse winners.
+4. **Format swings:** C06, C09, C10, C11, C18.
