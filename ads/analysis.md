@@ -140,3 +140,36 @@ The first 12 come from your $5k+ winners; C13–C19 add the Notion angles and br
 2. **Retargeting:** C04, C08, C12, C19.
 3. **Audience expansion (one static per audience, kept in the winning layout):** C13 retail, C14 bunions, C15 arthritis, C16 travel. Given the losers, judge these against their own audience benchmarks, not the nurse winners.
 4. **Format swings:** C06, C09, C10, C11, C18.
+
+---
+
+## 9. Negative-rating survey (1–3★ customers), added 2026-10-10
+
+Source: "ComfortWear Customer Feedback (Responses)" Google Sheet, **18,406 responses, Apr 2023 – Oct 2026**, from customers who gave a 1–3 rating. The raw sheet holds emails and order numbers, so only these aggregates are kept in the repo.
+
+> **Read this as "who ends up unhappy, and why", not "who buys".** Only negative raters see the survey, so job and age mixes are skewed toward the people the shoe or the experience failed.
+
+**1. Sizing is the #1 product problem, and the shoe is fine when it fits.**
+60% got the wrong size (33% too small, 27% too big; nurses are about the same at 59%). Average comfort among these unhappy customers is **2.98/5 when the fit was right vs 1.71 when it was too small** and 2.13 when too big. Since the miss goes both ways, "size up" isn't the fix. The fix is a better way to choose. Quotes: *"don't offer a half size option if it is the same as the whole size"*, *"your guide don't give the right sizes"*, *"I should have ordered a 1/2 size larger, when I walk my toes hit the tip"*.
+
+**2. The free-text complaints are mostly operational.**
+Of 2,666 written answers: refunds/returns 25%, size/fit 24%, shipping/delivery 19%, cheap quality 11%, no arch support 11%, "not really orthopedic / misleading" 7%. This matches the Trustpilot 1★ pattern. **Ads must not promise fast shipping, easy returns or a money-back guarantee**, and claims like "orthopedic" or "podiatrist-approved" invite *"Be truthful about how they're orthopedic approved"*.
+
+**3. Who they are.**
+Age: 47% are 65+ and 38% are 50–65. Job: retired 27%, nurse/healthcare 18%, retail/cashier 8%, food service 6%, teachers 4%. Foot problem: plantar fasciitis 25%, **"no foot pain, only need comfort" 22%**, arthritis 11%, neuropathy 10%, bunions 7%. Where they found us: Facebook 63%, Google 17%.
+
+**4. What they already use.**
+11% are on insoles, inserts or orthotics, 6% stretch/ice/massage, 4% painkillers, and 2–3% each wear Skechers or Hoka. 71% say "comfort" is what they shop for, 20% "support", 12% fit or width.
+
+**5. Arch complaints are specific:** *"the heel had more support than the arch, kept pushing my foot forward"*, *"made me walk on the balls of my feet"*. The rocker sole surprises some buyers, so it's worth setting expectations ("rocker sole: feels different for the first day").
+
+### New concepts from the survey
+
+| ID | Concept | Built from |
+|---|---|---|
+| C20 | "Between sizes? Measure, don't guess." 3-step fit finder | #1: 60% wrong size, comfort 2.98 vs 1.71 |
+| C21 | "Still moving your insoles from shoe to shoe?" | #4: 11% on insoles/orthotics |
+| C22 | "You don't need a diagnosis to want comfortable feet." | #3: 22% "no pain, only comfort" |
+| C23 | "Retired from 12-hour shifts. Not from walking." | #3: 85% are 50+, 27% retired (test against the seniors-loser finding in §2) |
+
+**Ops note for whoever owns CX:** fixing the size guide (a cm/inch chart by foot length, a clear call on half sizes) is probably worth more than any ad. Every wrong-size order is a likely 1–2★.

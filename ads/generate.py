@@ -74,6 +74,7 @@ def generate(concept, prompt, args, api_key):
                 "size": args.size,
                 "quality": args.quality,
                 "n": str(args.n),
+                "input_fidelity": args.fidelity,
             },
             timeout=600,
         )
@@ -90,6 +91,7 @@ def main():
     p.add_argument("--size", default="1024x1024", help="1024x1024 | 1024x1536 | 1536x1024")
     p.add_argument("--quality", default="high", help="low | medium | high")
     p.add_argument("--model", default=os.getenv("OPENAI_IMAGE_MODEL", "gpt-image-1"))
+    p.add_argument("--fidelity", default="high", help="high | low: how closely to keep the reference shoe")
     p.add_argument("--extra", default="", help="extra instruction appended to every prompt")
     args = p.parse_args()
 

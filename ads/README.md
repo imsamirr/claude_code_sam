@@ -10,7 +10,7 @@ ads/
   review.py            preview sheets + approve/reject log (feeds back into prompts)
   feedback.json        your verdicts and notes (created on first review)
   atria_pull.py        refreshes winners / losers / inspiration from Atria
-  reference/           product photos sent with every prompt (keeps the shoe accurate)
+  reference/           studio product shots (Drive: Studio/Catalog 1x1), one per colorway, sent with every prompt
   data/                pulled CSVs and video transcripts
   output/              generated images
 ```
@@ -51,4 +51,6 @@ python ads/atria_pull.py inspo     # image ads, rising impressions, launched las
 
 ## Improving accuracy
 
-The files in `reference/` are crops from past ads. For the most faithful shoe renders, replace them with clean studio PNGs (white background, side profile) of each colorway, keeping the same filenames.
+`reference/` holds the side-profile studio shots from the brand Drive (Studio → Catalog 1x1, `..._CATALOG_Side N.jpg`), resized to 1536px. There's one per colorway: navy blue (Side 1), red burgundy (3), all black (6), black/purple (7), purple (9), light grey (11), black/mint (15), black/white (21), grey/pink (26). `generate.py` sends them with `input_fidelity=high` (use `--fidelity low` to loosen).
+
+On-image text is still rendered by the image model, so check spelling on every image before approving.

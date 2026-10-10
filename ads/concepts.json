@@ -8,7 +8,7 @@
   },
   "global_prompt_rules": [
     "Square 1:1 Meta feed static ad.",
-    "The shoe MUST match the attached reference photo exactly: stretch-knit upper, grid-of-squares pattern on the side, elastic bungee laces with toggle, chevron logo on the heel tab, thick white wavy midsole, black lug outsole. Do not invent a different shoe, logo or sole.",
+    "The shoe MUST be the exact shoe in the attached studio reference photo, unchanged: same colors, stretch-knit sock-style upper with pull tab, grid-of-small-squares pattern on the side panel, elastic bungee laces with a round toggle, double-chevron logo on the inner collar, chunky rocker midsole with a wavy side profile, lug outsole. Keep its proportions and every detail; only change its angle, lighting and setting as the layout requires. Do not invent a different shoe, logo or sole.",
     "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
   ],
@@ -165,6 +165,38 @@
       "reference_image": "reference/shoe_navy_blue.png",
       "headline": "What your feet cost you this year.",
       "prompt": "Square ad. Center-left: a realistic long white paper store receipt lying slightly angled on a light wooden table, monospaced receipt font, title \"WHAT YOUR FEET COST THIS YEAR\", line items: \"Running shoes ......... $165\", \"Gel insoles x2 ......... $80\", \"Replacement pair ....... $165\", \"Custom orthotics ....... $300\", a dashed line, then \"TOTAL ................. $710\" in bold. A thick red pen circle around the total. Right side: the navy-and-blue Ortho Stretch Cushion Shoe from the reference image with a clean white price tag reading \"2 PAIRS = $119.90\" and below it small black text \"Arch support built in. No insoles needed.\" Natural light, realistic shadows, everything legible."
+    },
+    {
+      "id": "C20_measure_dont_guess",
+      "angle": "Fit confidence: remove the #1 reason people end up unhappy (wrong size) and the hesitation before buying",
+      "based_on": "Negative-rating survey: 60% got the wrong size; comfort 2.98/5 with a good fit vs 1.71 too small. Quotes: 'your guide don't give the right sizes'",
+      "reference_image": "reference/shoe_navy_blue.png",
+      "headline": "Between sizes? Measure, don't guess.",
+      "prompt": "Square ad on a clean off-white background. Top: bold black headline \"Between sizes?\" with a second line in Comfort Wear purple \"Measure, don't guess.\" Middle: three numbered steps in a row, each a simple flat illustration in purple line-art inside a soft lavender rounded card: step 1 a bare foot standing on a sheet of paper against a wall with a pencil tracing it, caption \"1. Trace your foot\"; step 2 a ruler measuring heel to longest toe, caption \"2. Measure heel to toe\"; step 3 a small size-chart table, caption \"3. Match it to our chart\". Bottom right: the navy blue Ortho Stretch Cushion Shoe from the reference image in side profile. Bottom left, small black text \"Fits true to your measurement.\""
+    },
+    {
+      "id": "C21_insole_shuffle",
+      "angle": "Switching cost: insole users already pay for support and move it between shoes; the support is built in here",
+      "based_on": "Negative-rating survey: 11% current solution is insoles/inserts/orthotics + scripts '$300 orthotics my podiatrist wanted me to buy'",
+      "reference_image": "reference/shoe_black_purple.png",
+      "headline": "Still moving your insoles from shoe to shoe?",
+      "prompt": "Square photo-real ad. Top half: an overhead shot on a wooden floor of three different worn generic sneakers (no brands) lined up, each with its tongue pulled out and a hand pulling a generic blue gel insole out of one of them. Bold black headline across the top on a white band: \"Still moving your insoles from shoe to shoe?\" Bottom half on soft lavender: the black-and-purple Ortho Stretch Cushion Shoe from the reference image in side profile, with a purple pill label next to it reading \"Arch support built in.\" and below it small black text \"One pair. Nothing to move.\""
+    },
+    {
+      "id": "C22_no_diagnosis_needed",
+      "angle": "Comfort-only buyers: no pain condition, just want comfortable feet (avoids medical claims)",
+      "based_on": "Negative-rating survey: 22% answer 'No foot pain, only need for comfort'; 71% shop for 'comfort'",
+      "reference_image": "reference/shoe_light_grey.png",
+      "headline": "You don't need a diagnosis to want comfortable feet.",
+      "prompt": "Square lifestyle ad. A woman in her 50s wearing relaxed jeans and the light grey Ortho Stretch Cushion Shoe from the reference image, mid-stride on a sunny neighborhood sidewalk, cropped from the knees down so the shoes are the hero, natural daylight. Top-left, large white bold headline on a soft dark gradient: \"You don't need a diagnosis\" and second line \"to want comfortable feet.\" Bottom-left, small white pill with purple text \"Soft knit. Cushioned all day.\""
+    },
+    {
+      "id": "C23_retired_not_from_walking",
+      "angle": "Retiree identity (65+ is 47% of respondents): active retirement, framed positively rather than 'senior'",
+      "based_on": "Negative-rating survey: 85% aged 50+, 27% retired (largest job group); I25 ComfoFeet 'Still mows his own lawn.' identity format",
+      "reference_image": "reference/shoe_grey_pink.png",
+      "headline": "Retired from 12-hour shifts. Not from walking.",
+      "prompt": "Square warm lifestyle photo ad. A smiling woman in her late 60s with silver hair, wearing a casual fleece and leggings, walking a golden retriever on a park path in autumn morning light, wearing the grey-and-pink Ortho Stretch Cushion Shoe from the reference image, shoes clearly visible. Headline at the top in bold white with a soft shadow: \"Retired from 12-hour shifts.\" second line in bold: \"Not from walking.\" No other text."
     }
   ]
 }
