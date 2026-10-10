@@ -15,8 +15,14 @@
         "build": true,
         "first_ms": 2400,
         "frames": [
-          {"edit": "Change the badge text from \"HOUR 12\" to \"HOUR 6\" and remove the headline \"Not limping to my car.\" and the bottom pill.", "ms": 900},
-          {"edit": "Change the badge text from \"HOUR 6\" to \"HOUR 1\". Make the sky brighter morning light.", "ms": 900}
+          {
+            "edit": "Change the badge text from \"HOUR 12\" to \"HOUR 6\" and remove the headline \"Not limping to my car.\" and the bottom pill.",
+            "ms": 900
+          },
+          {
+            "edit": "Change the badge text from \"HOUR 6\" to \"HOUR 1\". Make the sky brighter morning light.",
+            "ms": 900
+          }
         ]
       }
     },
@@ -123,8 +129,14 @@
         "build": true,
         "first_ms": 2400,
         "frames": [
-          {"edit": "Change the step count number from \"10,000\" to \"6,000\" and make the progress ring 60% full. Remove the headline \"My feet finally keep up.\"", "ms": 700},
-          {"edit": "Change the step count number from \"6,000\" to \"2,000\" and make the progress ring 20% full.", "ms": 700}
+          {
+            "edit": "Change the step count number from \"10,000\" to \"6,000\" and make the progress ring 60% full. Remove the headline \"My feet finally keep up.\"",
+            "ms": 700
+          },
+          {
+            "edit": "Change the step count number from \"6,000\" to \"2,000\" and make the progress ring 20% full.",
+            "ms": 700
+          }
         ]
       }
     },
@@ -151,8 +163,14 @@
         "build": true,
         "first_ms": 2600,
         "frames": [
-          {"edit": "Remove the third step card (\"3. Match it to our size chart\") entirely, leaving empty background in its place.", "ms": 1000},
-          {"edit": "Remove the second step card (\"2. Measure heel to longest toe\") entirely, leaving empty background in its place.", "ms": 1000}
+          {
+            "edit": "Remove the third step card (\"3. Match it to our size chart\") entirely, leaving empty background in its place.",
+            "ms": 1000
+          },
+          {
+            "edit": "Remove the second step card (\"2. Measure heel to longest toe\") entirely, leaving empty background in its place.",
+            "ms": 1000
+          }
         ]
       }
     },
@@ -229,8 +247,14 @@
         "build": true,
         "first_ms": 2600,
         "frames": [
-          {"edit": "Remove the third chat bubble (\"Pásame el link, porfa\") and the shoe card below the bubbles, leaving the blurred background.", "ms": 1200},
-          {"edit": "Remove the green chat bubble (\"Comfort Wear. Ya no me duelen los pies en el trabajo 🙌\"), leaving only the first bubble.", "ms": 1200}
+          {
+            "edit": "Remove the third chat bubble (\"Pásame el link, porfa\") and the shoe card below the bubbles, leaving the blurred background.",
+            "ms": 1200
+          },
+          {
+            "edit": "Remove the green chat bubble (\"Comfort Wear. Ya no me duelen los pies en el trabajo 🙌\"), leaving only the first white bubble on the blurred hallway. Do not add a shoe or any other object; the lower part stays empty blurred hallway.",
+            "ms": 1200
+          }
         ]
       }
     }
