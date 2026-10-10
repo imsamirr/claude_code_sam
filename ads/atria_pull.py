@@ -35,7 +35,8 @@ INSPO_QUERIES = [
 class Atria:
     def __init__(self, key):
         self.s = requests.Session()
-        self.s.headers["X-API-Key"] = key
+        if key:
+            self.s.headers["X-API-Key"] = key
 
     def get(self, path, params=None):
         for attempt in range(6):
@@ -165,10 +166,8 @@ def main():
     p.add_argument("--min-spend", type=float, default=5000)
     p.add_argument("--max-spend", type=float, default=200)
     args = p.parse_args()
-    key = os.getenv("ATRIA_API_KEY")
-    if not key:
-        sys.exit("Set ATRIA_API_KEY (environment variable or .env file).")
-    api = Atria(key)
+    # Without ATRIA_API_KEY the request relies on a network secret the proxy attaches.
+    api = Atria(os.getenv("ATRIA_API_KEY"))
     acc = api.account_id(ACCOUNT_NAME)
     {"winners": winners, "losers": losers, "inspo": inspo}[args.what](api, acc, args)
 

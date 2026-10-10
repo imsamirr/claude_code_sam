@@ -66,7 +66,7 @@ def generate(concept, prompt, args, api_key):
     with open(ref, "rb") as f:
         resp = requests.post(
             API_URL,
-            headers={"Authorization": f"Bearer {api_key}"},
+            headers={"Authorization": f"Bearer {api_key}"} if api_key else {},
             files=[("image[]", (ref.name, f, "image/png"))],
             data={
                 "model": args.model,
@@ -93,9 +93,9 @@ def main():
     p.add_argument("--extra", default="", help="extra instruction appended to every prompt")
     args = p.parse_args()
 
+    # Without OPENAI_API_KEY the request goes out unauthenticated, which works
+    # when the key is configured as a network secret the proxy attaches.
     api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        sys.exit("Set OPENAI_API_KEY (environment variable or .env file).")
 
     spec = json.loads((ADS_DIR / "concepts.json").read_text())
     concepts = [c for c in spec["concepts"] if not args.ids or any(c["id"].startswith(i) for i in args.ids)]
