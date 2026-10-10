@@ -55,8 +55,11 @@ reference photo, and `generate.py` warns if it's outside the persona's palette i
 **Spanish:** `"lang": "es"` adds the brand's Spanish rules (US Latino voice, accents kept, US
 number format). Write Spanish concepts natively; don't translate English ones.
 
-**Cost:** about 2 image calls per static (render + background extension) plus 1 per GIF frame,
-roughly $0.40–0.60 per static at `--quality high`.
+**Cost:** a static is 2 calls: a medium 4:5 render (~$0.06) and a low-quality extension (~$0.02).
+A GIF adds about $0.14. A week of 40 statics plus 8 GIFs comes to about $4.30, vs about $18.60
+with everything at high. Every call is logged to `output/_usage.jsonl`; see
+`python ads/review.py cost --week <week>`. Flags: `--quality`, `--extend-quality`, `--gif-quality`.
+Render GIFs only for approved statics (`--gif-only <ids>`).
 
 ## Review loop
 

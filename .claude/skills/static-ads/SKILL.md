@@ -8,8 +8,9 @@ description: Research, write and render a weekly batch of Meta static ads (and b
 The engine lives in `ads/` (`generate.py`, `review.py`, `atria_pull.py`); each brand lives in
 `ads/brands/<brand>/`. Read `ads/README.md` for commands. This skill is the process around them.
 
-Default deliverable per week: **20 unique concepts, 1 static each** (no variations), saved as a
-9:16 PNG (Stories/Reels) plus its 4:5 crop (feed), with 3–5 concepts also rendered as GIFs.
+Default deliverable per week: **40 unique concepts, 1 static each** (no variations), saved as a
+9:16 PNG (Stories/Reels) plus its 4:5 crop (feed). **50% winning personas, 50% net-new**, about
+**30% Spanish**. GIFs are rendered only for statics the user approves.
 
 ## 0. New brand? Onboard it first
 
@@ -52,24 +53,28 @@ Ids are `W<ww>_<nn>_<slug>`, unique forever. Schema per concept:
          "frames": [{"edit": "Remove the headline ...", "ms": 900}, {"edit": "...", "ms": 900}]}}
 ```
 
-Rules for the 20:
-- **Unique**: 20 different angles. No two concepts share persona + angle; mix formats (lifestyle photo,
+Rules for the 40 (tag each concept `"group": "winning"` or `"net_new"`):
+- **Split**: 20 `winning` concepts for the personas with proven spend (Comfort Wear: nurses, then
+  CNAs/caregivers), using proven formats and library concepts not yet run in the current format;
+  20 `net_new` concepts, weighted to the personas the user wants to grow (currently housekeeping,
+  gifting and weight-loss walkers, 5 each) plus about 5 other tests.
+- **Unique**: 40 different angles, none repeating a previous week's angle. No two concepts share persona + angle; mix formats (lifestyle photo,
   product + callouts, split/comparison, quote/testimonial, native chat/comment screenshot,
   checklist/steps, bold type-only).
-- **Personas**: cover at least 8 personas; weight toward proven winners (for Comfort Wear: nurses
-  and shift workers), and give each new persona at most 1–2 slots until it proves itself.
+- **Personas**: cover at least 8 personas across the week.
 - **Colorway**: pick from the persona's `colorways` (or `test_colorways`, at most 2 per week) and
-  rotate so no colorway appears more than 4 times. `generate.py` warns when a colorway is
+  rotate so no colorway appears more than 8 times. `generate.py` warns when a colorway is
   outside the persona's palette.
 - **Spanish**: when the brand has Spanish history (Comfort Wear: Spanish nurse statics at 1.79–2.14
-  ROAS, Spanish video $48k), make ~6 of the 20 **net-new Spanish concepts**, not translations.
+  ROAS, Spanish video $48k), make ~12 of the 40 **net-new Spanish concepts**, not translations, spread across both groups.
   Write as a Spanish speaker living in the US talks: `tú`, everyday Mexican-leaning US Latino
   phrasing ("los pies me mataban", "parado todo el día", "comadre", "porfa", "doble turno"),
   family and coworker framing, US number format. Avoid Spain-isms and stiff translated copy
   ("Consigue el tuyo", "120.000").
 - **Copy**: audience or situation in the headline; one problem and one payoff; 15 words or fewer
-  on the image when possible; no claim from `claims_to_avoid`.
-- **GIFs**: 3–5 per week, only where motion adds meaning (a counter ticking up, chat bubbles
+  on the image when possible; no claim from `claims_to_avoid`. Never invent named testimonials
+  ("— Linda, 68"); use real review language unattributed, or first-person copy without a name.
+- **GIFs**: add a `gif` block to 5–8 candidates, only where motion adds meaning (a counter ticking up, chat bubbles
   appearing, steps or callouts revealed, a clock moving through a shift). Use `"build": true`:
   each edit removes one element from the finished ad and the GIF plays in reverse, so it builds
   up and holds on the full static. Keep it to 2–3 edits.
@@ -77,12 +82,22 @@ Rules for the 20:
 ## 3. Render
 
 ```bash
-python ads/generate.py --brand <brand> --week <YYYY-Www>          # statics (run ids in parallel with xargs -P 6 for speed)
-python ads/generate.py --brand <brand> --week <YYYY-Www> --gif-only   # GIFs from the existing statics
+python ads/generate.py --brand <brand> --week <YYYY-Www>                  # statics (run ids in parallel with xargs -P 8)
+python ads/generate.py --brand <brand> --week <YYYY-Www> --gif-only <ids> # GIFs, only for approved statics
+python ads/review.py cost --brand <brand> --week <YYYY-Www>              # what the week actually cost
 ```
 
-Each static is 2 image calls (4:5 render + background extension), each GIF edit is 1 more.
-Budget roughly $0.40–0.60 per static at `--quality high` with gpt-image-2. Use `--quality medium` to explore.
+Measured gpt-image-2 costs (every call is logged to `output/_usage.jsonl`):
+
+| Step | Default quality | Cost | All-high cost |
+|---|---|---|---|
+| 4:5 render | medium | ~$0.06 | ~$0.21 |
+| 9:16 background extension | low | ~$0.02 | ~$0.17 |
+| GIF (2 edit frames) | medium | ~$0.14 | ~$0.43 |
+| **40 statics + 8 GIFs per week** | | **~$4.30** | ~$18.60 |
+
+Use `--quality high` only for product close-ups where shoe detail matters. Keep the extension at
+`low`, since it only fills background outside the safe area.
 
 ## 4. QA before showing anything
 
@@ -98,7 +113,8 @@ static per concept). Look at at least one GIF frame sequence too.
 Send the preview sheets with SendUserFile (`display: render`) plus a table: concept, persona,
 language, colorway, GIF yes/no, and anything you're unsure about. When they reply, log each verdict:
 `python ads/review.py log <image_stem> approve|reject "<their reason>"`. Those notes feed into all
-future prompts for the brand. Rejected concepts get one regeneration with the fix.
+future prompts for the brand. Rejected concepts get one regeneration with the fix. Then render GIFs for approved concepts
+that have a `gif` block (`--gif-only <ids>`) and send them.
 
 ## 6. Save
 

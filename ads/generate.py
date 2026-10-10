@@ -107,17 +107,31 @@ def build_prompt(bdir, brand, concept, extra):
     return "\n\n".join(parts)
 
 
-def call_api(prompt, images, args, api_key, size=CONTENT, mask=None):
+# USD per 1M tokens for gpt-image-2 (text in, image in, image out); check OpenAI's pricing page
+PRICES = {"text": 5.0, "image": 8.0, "output": 30.0}
+
+
+def log_usage(args, kind, quality, usage):
+    d = usage.get("input_tokens_details", {})
+    cost = (d.get("text_tokens", 0) * PRICES["text"] + d.get("image_tokens", 0) * PRICES["image"]
+            + usage.get("output_tokens", 0) * PRICES["output"]) / 1e6
+    with open(args.usage_log, "a") as f:
+        f.write(json.dumps({"kind": kind, "quality": quality, "cost_usd": round(cost, 4), **usage}) + "\n")
+
+
+def call_api(prompt, images, args, api_key, size=CONTENT, mask=None, kind="static", quality=None):
     files = [("image[]", (name, blob, "image/png")) for name, blob in images]
     if mask:
         files.append(("mask", ("mask.png", mask, "image/png")))
     resp = requests.post(API_URL, headers={"Authorization": f"Bearer {api_key}"} if api_key else {},
                          files=files, timeout=600,
-                         data={"model": args.model, "prompt": prompt, "quality": args.quality,
+                         data={"model": args.model, "prompt": prompt, "quality": quality or args.quality,
                                "n": "1", "size": f"{size[0]}x{size[1]}"})
     if resp.status_code != 200:
         raise RuntimeError(f"{resp.status_code}: {resp.text[:500]}")
-    img = Image.open(io.BytesIO(base64.b64decode(resp.json()["data"][0]["b64_json"]))).convert("RGB")
+    body = resp.json()
+    log_usage(args, kind, quality or args.quality, body.get("usage", {}))
+    img = Image.open(io.BytesIO(base64.b64decode(body["data"][0]["b64_json"]))).convert("RGB")
     return img if img.size == size else img.resize(size, Image.LANCZOS)
 
 
@@ -130,7 +144,8 @@ def extend_to_9x16(content, args, api_key):
     canvas = Image.new("RGBA", SIZE, (0, 0, 0, 0))
     canvas.paste(content.convert("RGBA"), (0, TOP))
     blob = png_bytes(canvas)
-    edges = call_api(EXTEND_PROMPT, [("canvas.png", blob)], args, api_key, size=SIZE, mask=blob)
+    edges = call_api(EXTEND_PROMPT, [("canvas.png", blob)], args, api_key, size=SIZE, mask=blob,
+                     kind="extend", quality=args.extend_quality)
     return composite(content, edges)
 
 
@@ -173,7 +188,8 @@ def render_gif(content, full, ref_bytes, concept, out_dir, stem, args, api_key):
             f"lighting, framing) except this change: {step['edit']} "
             "The product must still match the second image exactly. " + FORMAT_RULE
         )
-        frame = call_api(prompt, [("frame.png", png_bytes(frames[-1])), ("product.png", ref_bytes)], args, api_key)
+        frame = call_api(prompt, [("frame.png", png_bytes(frames[-1])), ("product.png", ref_bytes)], args, api_key,
+                         kind="gif", quality=args.gif_quality)
         frames.append(frame)
         composite(frame, full).save(out_dir / f"{stem}_f{i}.png")
         durations.append(step.get("ms", 1400))
@@ -202,7 +218,9 @@ def main():
     p.add_argument("--week", help="weekly batch folder, e.g. 2026-W41 (default: the brand's concept library)")
     p.add_argument("--gif", action="store_true", help="also render GIFs for concepts that define them")
     p.add_argument("--gif-only", action="store_true", help="render GIFs from existing statics without regenerating them")
-    p.add_argument("--quality", default="high", help="low | medium | high")
+    p.add_argument("--quality", default="medium", help="main 4:5 render: low | medium | high (high for product close-ups)")
+    p.add_argument("--extend-quality", default="low", help="9:16 background extension (outside the safe area)")
+    p.add_argument("--gif-quality", default="medium", help="GIF frames (shown at 544x960, 200 colors)")
     p.add_argument("--model", default=os.getenv("OPENAI_IMAGE_MODEL", "gpt-image-2"))
     p.add_argument("--extra", default="", help="extra instruction appended to every prompt")
     args = p.parse_args()
@@ -217,6 +235,7 @@ def main():
                 if not args.ids or any(c["id"].startswith(i) for i in args.ids)]
     out_dir = cpath.parent / "output"
     out_dir.mkdir(exist_ok=True)
+    args.usage_log = out_dir / "_usage.jsonl"
 
     for c in concepts:
         print(f"Generating {c['id']} ...", flush=True)

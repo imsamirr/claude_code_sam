@@ -1,0 +1,355 @@
+{
+  "week": "2026-W43",
+  "notes": "40 concepts, 1 static each. 50/50: W43_01–20 winning personas (nurse, CNA), W43_21–40 net-new (housekeeping, gifting, weight-loss walker x5 each + 5 other tests). 12 Spanish. GIF blocks mark candidates; render them only after the static is approved (--gif-only). No invented named testimonials: quotes are real review language or unattributed first-person copy.",
+  "concepts": [
+    {
+      "id": "W43_01_dear_nurses_callouts",
+      "persona": "nurse", "lang": "en", "colorway": "black_purple", "group": "winning",
+      "angle": "Dear Nurses v3: shift + condition callouts",
+      "based_on": "Library C01; winner 'Dear Nurses, Work 12-hour shifts pain-free' ($230k, 4.34 ROAS)",
+      "headline": "Dear Nurses, Work 12-hour shifts without the heel pain.",
+      "prompt": "Minimal ad on a clean off-white background. Top: two-line headline, first line \"Dear Nurses,\" in extra-bold black, second line \"Work 12-hour shifts without the heel pain.\" in regular black. Center: the shoe from the reference photo in side profile, large, studio-lit. Four thin curved arrows with two-line labels (bold first line, light second line): \"Arch support / for plantar fasciitis\", \"Wide toe-box / room for bunions\", \"Stretch-knit upper / gives as feet swell\", \"Grippy sole / for wet hospital floors\"."
+    },
+    {
+      "id": "W43_02_12h_shift_shoes_checklist",
+      "persona": "nurse", "lang": "en", "colorway": "black_white", "group": "winning",
+      "angle": "12-HOUR SHIFT SHOES checklist on a real hospital scene",
+      "based_on": "Library C02; $858k '12-HOUR SHIFT SHOES' winner + I3 '5 reasons' photo format",
+      "headline": "12-HOUR SHIFT SHOES",
+      "prompt": "Photo-real ad: a nurse in navy scrubs standing in a bright hospital corridor, cropped from the waist down, wearing the shoe from the reference photo. Left side: a white rounded card with bold black title \"12-HOUR SHIFT SHOES\" and five lines with purple check icons: \"Cushion that lasts to hour 12\", \"Arch support for plantar fasciitis\", \"Wide toe-box for swelling\", \"Grip for wet floors\", \"Under $60\".",
+      "gif": {"build": true, "first_ms": 2400, "frames": [
+        {"edit": "Remove the last two check lines (\"Grip for wet floors\" and \"Under $60\") from the card, leaving empty card space.", "ms": 800},
+        {"edit": "Remove the check lines \"Arch support for plantar fasciitis\" and \"Wide toe-box for swelling\" from the card, leaving only the title and the first line.", "ms": 800}
+      ]}
+    },
+    {
+      "id": "W43_03_tried_everything_strikethrough",
+      "persona": "nurse", "lang": "en", "colorway": "navy_blue", "group": "winning",
+      "angle": "Everything nurses tried, crossed out, then the solution",
+      "based_on": "Library C03; $90k 'HOKA/SKECHERS/ORTHOFEET/CROCS/INSOLES → SOLUTION' winner; scripts 'cushioning lasts about two hours'",
+      "headline": "Running shoes. $300 orthotics. Gel insoles. Clogs. → SOLUTION",
+      "prompt": "Split ad. Left half on white: a stacked list in bold navy capitals, each line struck through with a thick red line: \"RUNNING SHOES\", \"$300 ORTHOTICS\", \"GEL INSOLES\", \"CLOGS\". Under the list, small grey text: \"Flat by hour 4.\" Right half on soft lavender: bold navy title \"SOLUTION\", small text under it \"Built for 12-hour shifts\", and the shoe from the reference photo in side profile. Every one of the four list items must have its own red strike line.",
+      "gif": {"build": true, "first_ms": 2400, "frames": [
+        {"edit": "Remove the right half's title \"SOLUTION\", the text under it and the shoe, leaving plain lavender.", "ms": 900},
+        {"edit": "Remove the red strike lines from \"GEL INSOLES\" and \"CLOGS\" only; keep the other two strike lines.", "ms": 700}
+      ]}
+    },
+    {
+      "id": "W43_04_four_stages_of_a_shift",
+      "persona": "nurse", "lang": "en", "colorway": "all_black", "group": "winning",
+      "angle": "Stage progression: what wrong shoes do over 12 hours",
+      "based_on": "Library C05; I14/I66 'stages' inspiration; scripts",
+      "headline": "The 4 stages of a 12-hour shift in the wrong shoes",
+      "prompt": "Infographic ad on a deep navy background. Top headline in white: \"The 4 stages of a 12-hour shift\" and second line in lavender: \"in the wrong shoes\". A row of four rounded panels, each a semi-transparent glowing foot x-ray with a red pain glow that grows stronger from left to right, each labeled with a purple pill \"HOUR 2\", \"HOUR 6\", \"HOUR 8\", \"HOUR 12\" and a caption under it: \"Cushion goes flat\", \"Heel starts to ache\", \"Feet swell, toes pinch\", \"Limping to the car\". Bottom: the shoe from the reference photo in side profile with white text \"Or wear shoes built for hour 12.\"",
+      "gif": {"build": true, "first_ms": 2600, "frames": [
+        {"edit": "Remove the bottom shoe and the text \"Or wear shoes built for hour 12.\", and remove the fourth panel (HOUR 12).", "ms": 800},
+        {"edit": "Remove the third panel (HOUR 8).", "ms": 800}
+      ]}
+    },
+    {
+      "id": "W43_05_heels_hurt_hour_8",
+      "persona": "nurse", "lang": "en", "colorway": "black_purple", "group": "winning",
+      "angle": "Mechanism: why heels hurt at hour 8 (anatomy split)",
+      "based_on": "Library C07; plantar-fascia anatomy winners + I44/I70 anatomy marker",
+      "headline": "Why your heels hurt at hour 8",
+      "prompt": "Ad on soft lavender. Top headline in bold purple capitals: \"WHY YOUR HEELS HURT AT HOUR 8\". Left half: a clean medical illustration of a foot skeleton with the plantar fascia highlighted and a red glow at the heel, caption \"Flat cushioning strains the plantar fascia\". Right half: the shoe from the reference photo in side profile, caption \"Arch support that holds all shift\". Thin vertical divider between halves; the shoe must not overlap the illustration."
+    },
+    {
+      "id": "W43_06_foam_at_hour_4",
+      "persona": "nurse", "lang": "en", "colorway": "black_white", "group": "winning",
+      "angle": "Mechanism proof: cushioning that collapses vs support that holds",
+      "based_on": "Library C17 (approved-looking in batch 1); Stepprs old-vs-new split (386 days)",
+      "headline": "Your foam gives up at hour 4. Your shift doesn't.",
+      "prompt": "Split ad. Left half on light grey: close-up photo of a worn generic grey foam insole (no brand), flattened and cracked at the heel, labeled \"YOUR FOAM AT HOUR 4\" with three red X lines: \"Flat at the heel\", \"Arch collapsed\", \"Standing on plastic\". Right half on white: the shoe from the reference photo in side profile, fully inside the frame, labeled in purple \"BUILT FOR HOUR 12\" with three green check lines: \"Arch built into the shoe\", \"Cushioned heel\", \"No insoles needed\". Bottom full-width purple band with white text: \"Your shift doesn't end at hour 4. Neither should your shoes.\""
+    },
+    {
+      "id": "W43_07_what_nurses_say_reviews",
+      "persona": "nurse", "lang": "en", "colorway": "navy_blue", "group": "winning",
+      "angle": "Retargeting social proof with real review language",
+      "based_on": "Library C04; 'Didn't buy yet? Read what customers are saying' (3.05 ROAS); Trustpilot 5★ phrases",
+      "headline": "Didn't buy yet? Read what nurses are saying.",
+      "prompt": "Ad that looks like a stack of three social-media comment bubbles over a softly blurred hospital break room photo. Top headline in bold white on a dark band: \"Didn't buy yet?\" second line \"Read what nurses are saying.\" Comment bubbles (white, rounded, grey generic avatar circles, no names): \"Great for my 12 hour shifts\", \"The toe room sold me\", \"My feet aren't tired after a busy day\". Below the bubbles: the shoe from the reference photo on a small white card. Clean and legible, no app logos."
+    },
+    {
+      "id": "W43_08_three_more_nurses",
+      "persona": "nurse", "lang": "en", "colorway": "black_purple", "group": "winning",
+      "angle": "Peer contagion on the unit",
+      "based_on": "Library C10; 203 UGC script 'Three other nurses on my floor ordered them'",
+      "headline": "First it was me. Then 3 more nurses on my floor.",
+      "prompt": "Photo-real ad: overhead shot of four pairs of feet in scrubs standing in a circle on a hospital floor, all wearing the shoe from the reference photo. Top headline in bold black on a white band: \"First it was me.\" second line in purple: \"Then 3 more nurses on my floor.\""
+    },
+    {
+      "id": "W43_09_clinicals_start_monday",
+      "persona": "nurse", "lang": "en", "colorway": "all_black", "group": "winning",
+      "angle": "Nursing students: first clinicals, first 12-hour days",
+      "based_on": "Team static 'ClinicalsStartsSoon'; Clove back-to-nursing-school locker shot (50–100 days)",
+      "headline": "Clinicals start Monday. Are your feet ready?",
+      "prompt": "Photo-real ad: a nursing student in ceil-blue scrubs sitting on a bench in front of a locker, slipping on the shoe from the reference photo, a stethoscope and badge on the bench beside her. Top headline in bold white with shadow: \"Clinicals start Monday.\" second line in lavender: \"Are your feet ready?\" Bottom: white pill with purple text \"Slip-on · Cushioned · Under $60\"."
+    },
+    {
+      "id": "W43_10_receipt_feet_cost",
+      "persona": "nurse", "lang": "en", "colorway": "black_white", "group": "winning",
+      "angle": "Cost math: what foot pain costs a year vs one pair",
+      "based_on": "Library C19; databank cost math; 203 UGC price anchor; KURU price reversal",
+      "headline": "What your feet cost you this year",
+      "prompt": "Ad: a realistic long paper store receipt on a light grey background, titled in receipt font \"WHAT YOUR FEET COST THIS YEAR\" with lines: \"Gel insoles x3 ..... $75\", \"Pain relievers ..... $40\", \"Custom orthotics ..... $300\", \"Running shoes x2 ..... $260\", and a bold total \"TOTAL ..... $675\". Next to the receipt: the shoe from the reference photo with a purple price tag reading \"$59.95\".",
+      "gif": {"build": true, "first_ms": 2600, "frames": [
+        {"edit": "Remove the shoe and the purple price tag, and remove the TOTAL line from the receipt.", "ms": 900},
+        {"edit": "Remove the receipt lines \"Custom orthotics ..... $300\" and \"Running shoes x2 ..... $260\", leaving blank receipt paper.", "ms": 800}
+      ]}
+    },
+    {
+      "id": "W43_11_night_shift_7_to_7",
+      "persona": "nurse", "lang": "en", "colorway": "navy_blue", "group": "winning",
+      "angle": "Night-shift identity",
+      "based_on": "Nurse identity winners; night shift is a large, under-addressed nurse segment",
+      "headline": "7pm to 7am. Your feet work the whole shift too.",
+      "prompt": "Photo-real ad: a quiet hospital corridor at night with dim blue light and a glowing nurses' station, a nurse in navy scrubs walking away from camera, feet in focus wearing the shoe from the reference photo. Top headline in bold white: \"7pm to 7am.\" second line: \"Your feet work the whole shift too.\""
+    },
+    {
+      "id": "W43_12_five_reasons_nurses_switch",
+      "persona": "nurse", "lang": "en", "colorway": "all_black", "group": "winning",
+      "angle": "Listicle: 5 reasons nurses are switching",
+      "based_on": "Spanish winner '10 Reasons Healthcare Workers' (1.79–2.14 ROAS); I3 '5 reasons' format",
+      "headline": "5 reasons nurses are switching to these",
+      "prompt": "Ad on white. Top headline in bold black: \"5 reasons nurses are switching\". Below, the shoe from the reference photo at a three-quarter angle on the right. On the left, five numbered lines with purple number circles: \"1 Cushion that lasts 12 hours\", \"2 Arch support built in\", \"3 Room for swollen feet\", \"4 Grip on wet floors\", \"5 Slip on in seconds\"."
+    },
+    {
+      "id": "W43_13_spills_happen_grip",
+      "persona": "nurse", "lang": "en", "colorway": "all_black", "group": "winning",
+      "angle": "Slip-resistance proof on a hospital floor (sole forward)",
+      "based_on": "Library C09; slip-resistant callout in winners; I5 sole-forward hero",
+      "headline": "Spills happen every shift. Grip for every one.",
+      "prompt": "Photo-real macro ad: low angle at floor level of the shoe from the reference photo stepping on a wet glossy hospital floor next to a spilled cup of water, the lug outsole visible. Top headline in bold white: \"Spills happen every shift.\" second line in lavender: \"Grip for every one.\""
+    },
+    {
+      "id": "W43_14_300_orthotics_vs_5995",
+      "persona": "nurse", "lang": "en", "colorway": "black_purple", "group": "winning",
+      "angle": "Price anchor vs podiatrist orthotics",
+      "based_on": "Library C08; 203 UGC 'way cheaper than the $300 orthotics my podiatrist wanted me to buy' (3.05 ROAS)",
+      "headline": "They wanted $300 for orthotics. I spent $59.95.",
+      "prompt": "Ad on a cream background. Left: a generic custom orthotic insole with a price tag \"$300\" and a red X. Right: the shoe from the reference photo with a purple price tag \"$59.95\" and a green check. Headline at the top in bold black: \"They wanted $300 for orthotics.\" second line in purple: \"I spent $59.95.\""
+    },
+    {
+      "id": "W43_15_es_querida_enfermera",
+      "persona": "nurse", "lang": "es", "colorway": "black_purple", "group": "winning",
+      "angle": "Spanish · Dear Nurses format, written natively",
+      "based_on": "Dear Nurses winner (4.34 ROAS) + Spanish nurse statics (1.79–2.14 ROAS)",
+      "headline": "Querida enfermera: turnos de 12 horas sin dolor de talón.",
+      "prompt": "Minimal ad on clean off-white. Headline at top: first line \"Querida enfermera:\" in extra-bold black, second line \"Turnos de 12 horas sin dolor de talón.\" in regular black. Center: the shoe from the reference photo in side profile. Four thin curved arrows with labels: \"Soporte de arco\", \"Punta ancha\", \"Tejido que se adapta\", \"Suela que agarra\"."
+    },
+    {
+      "id": "W43_16_es_cuatro_etapas",
+      "persona": "nurse", "lang": "es", "colorway": "navy_blue", "group": "winning",
+      "angle": "Spanish · stage progression of a 12-hour shift",
+      "based_on": "C05 stages format; Spanish nurse video script ('me golpea como una daga en los talones')",
+      "headline": "Las 4 etapas de un turno de 12 horas con los zapatos equivocados",
+      "prompt": "Infographic ad on deep navy. Top headline in white: \"Las 4 etapas de un turno de 12 horas\" and in lavender: \"con los zapatos equivocados\". Four rounded panels, each a glowing foot x-ray with a red pain glow growing left to right, purple pills \"HORA 2\", \"HORA 6\", \"HORA 8\", \"HORA 12\" and captions: \"El cojín se aplana\", \"Empieza el dolor de talón\", \"Pies hinchados\", \"Cojeando al carro\". Bottom: the shoe from the reference photo with white text \"O usa zapatos hechos para la hora 12.\"",
+      "gif": {"build": true, "first_ms": 2600, "frames": [
+        {"edit": "Remove the bottom shoe and its text, and remove the fourth panel (HORA 12).", "ms": 800},
+        {"edit": "Remove the third panel (HORA 8).", "ms": 800}
+      ]}
+    },
+    {
+      "id": "W43_17_es_tres_enfermeras_mas",
+      "persona": "nurse", "lang": "es", "colorway": "all_black", "group": "winning",
+      "angle": "Spanish · peer contagion on the unit",
+      "based_on": "203 UGC peer line; survey word-of-mouth",
+      "headline": "Primero fui yo. Luego 3 enfermeras más de mi piso.",
+      "prompt": "Photo-real ad: four Latina and diverse nurses in scrubs laughing together at a nurses' station, cropped so their feet in the shoe from the reference photo are visible. Top headline in bold white on a dark band: \"Primero fui yo.\" second line in lavender: \"Luego 3 enfermeras más de mi piso.\""
+    },
+    {
+      "id": "W43_18_cna_home_visits",
+      "persona": "cna_caregiver", "lang": "en", "colorway": "navy_blue", "group": "winning",
+      "angle": "Home health aide: many homes, one pair of shoes",
+      "based_on": "Survey CNAs/aides n=380, 30% 'just comfort'; caregiver identity",
+      "headline": "6 patients. 4 houses. 1 pair of shoes.",
+      "prompt": "Photo-real ad: a home health aide in teal scrubs with a tote bag walking up the front steps of a suburban house, wearing the shoe from the reference photo. Top headline in bold white with shadow, three short lines: \"6 patients.\" \"4 houses.\" \"1 pair of shoes.\" Bottom: white pill with navy text \"Cushioned for every visit\"."
+    },
+    {
+      "id": "W43_19_cna_carry_it_all",
+      "persona": "cna_caregiver", "lang": "en", "colorway": "black_white", "group": "winning",
+      "angle": "CNA workload callouts",
+      "based_on": "Caregiver persona; arrow-callout winner layout",
+      "headline": "Lifting. Turning. Walking. Your feet carry it all.",
+      "prompt": "Ad on soft grey. Top headline in bold black: \"Lifting. Turning. Walking.\" second line in purple: \"Your feet carry it all.\" Center: the shoe from the reference photo in side profile, large. Three thin arrow callouts: \"Stable rocker base\", \"Arch support\", \"Slip-on, no laces to tie\"."
+    },
+    {
+      "id": "W43_20_es_cna_turno_de_noche",
+      "persona": "cna_caregiver", "lang": "es", "colorway": "black_purple", "group": "winning",
+      "angle": "Spanish · CNA night shift: you take care of everyone",
+      "based_on": "Caregiver persona; Spanish ad history",
+      "headline": "Cuidas a todos en el turno de noche. ¿Y quién cuida tus pies?",
+      "prompt": "Photo-real ad: a Latina CNA in purple scrubs at night in a calm nursing-home hallway, pushing a cart, wearing the shoe from the reference photo. Top headline in bold white: \"Cuidas a todos en el turno de noche.\" second line in lavender: \"¿Y quién cuida tus pies?\""
+    },
+
+    {
+      "id": "W43_21_housekeeping_cart_checklist",
+      "persona": "housekeeping", "lang": "en", "colorway": "all_black", "group": "net_new",
+      "angle": "Housekeeping workload checklist",
+      "based_on": "Survey: housekeeping/janitorial highest PF share (35%)",
+      "headline": "30 beds. 6 floors. One pair of shoes that keeps up.",
+      "prompt": "Photo-real ad in a hotel hallway: a housekeeper in a grey uniform pushing a loaded housekeeping cart, feet in the shoe from the reference photo. A white rounded card on the left with bold title \"30 beds. 6 floors.\" and three purple check lines: \"Cushion for long days\", \"Grip on wet bathroom floors\", \"Slip on in seconds\". Bottom: bold black text on white band \"One pair that keeps up.\""
+    },
+    {
+      "id": "W43_22_housekeeping_room_by_room",
+      "persona": "housekeeping", "lang": "en", "colorway": "black_mint", "group": "net_new",
+      "angle": "Stage format for housekeeping: room 1 to room 30",
+      "based_on": "C05 stage format applied to the highest-PF persona",
+      "headline": "Room 1: fine. Room 18: heel pain. Room 30: limping.",
+      "prompt": "Ad on soft mint-white. Headline at top in bold black: \"Your day in the wrong shoes\". Three stacked rows, each with a hotel door-number plaque and a caption: plaque \"ROOM 1\" with \"Feeling fine\", plaque \"ROOM 18\" with \"Heel starts to ache\", plaque \"ROOM 30\" with \"Limping to the bus\". Bottom: the shoe from the reference photo in side profile with text \"Or wear shoes made for room 30.\"",
+      "gif": {"build": true, "first_ms": 2600, "frames": [
+        {"edit": "Remove the bottom shoe and its text, and remove the third row (ROOM 30).", "ms": 900},
+        {"edit": "Remove the second row (ROOM 18).", "ms": 900}
+      ]}
+    },
+    {
+      "id": "W43_23_es_30_camas",
+      "persona": "housekeeping", "lang": "es", "colorway": "navy_blue", "group": "net_new",
+      "angle": "Spanish · housekeeping: your feet do all the work",
+      "based_on": "Survey housekeeping PF 35%; Spanish ad history",
+      "headline": "30 camas al día. Tus pies hacen todo el trabajo.",
+      "prompt": "Photo-real ad: a Latina housekeeper in a navy uniform tucking a white sheet on a hotel bed, full body, wearing the shoe from the reference photo. Top headline in bold black on a white band: \"30 camas al día.\" second line in purple: \"Tus pies hacen todo el trabajo.\" Bottom: three white pills: \"Soporte de arco\", \"Agarre en piso mojado\", \"$59.95\"."
+    },
+    {
+      "id": "W43_24_es_llego_con_ganas",
+      "persona": "housekeeping", "lang": "es", "colorway": "black_purple", "group": "net_new",
+      "angle": "Spanish · payoff at home: energy left for family",
+      "based_on": "Shift-payoff script lines; family framing for Spanish market",
+      "headline": "Ahora llego a casa y todavía tengo ganas de cocinar.",
+      "prompt": "Photo-real warm ad: a Latina woman in her 40s still in a grey work uniform, smiling while cooking at a home stove with her teenage daughter, wearing the shoe from the reference photo. Top headline in bold white with shadow: \"Ahora llego a casa\" second line: \"y todavía tengo ganas de cocinar.\""
+    },
+    {
+      "id": "W43_25_es_limpio_casas",
+      "persona": "housekeeping", "lang": "es", "colorway": "all_black", "group": "net_new",
+      "angle": "Spanish · house cleaners: cheap sneakers don't last",
+      "based_on": "r/Serverlife 'cheap shoes kill your ankles, knees & back'; self-employed cleaners overlap with Spanish speakers",
+      "headline": "¿Limpias 4 casas al día? Los tenis baratos no aguantan.",
+      "prompt": "Ad split top/bottom. Top: photo of a pair of worn-out cheap generic sneakers (no brand) with flattened soles next to a cleaning caddy and mop, headline in bold white: \"¿Limpias 4 casas al día?\" and in yellow: \"Los tenis baratos no aguantan.\" Bottom on white: the shoe from the reference photo in side profile with purple text \"Estos sí.\""
+    },
+    {
+      "id": "W43_26_gift_dad_says_fine",
+      "persona": "gift_for_parent", "lang": "en", "colorway": "light_grey", "group": "net_new",
+      "angle": "Gift for dad: he says he's fine",
+      "based_on": "Gifting persona; men are under-represented in creative",
+      "headline": "Dad says he's fine. He's been saying that for 10 years.",
+      "prompt": "Photo-real ad: a man in his late 60s in a flannel shirt sitting on a porch step, smiling as he holds an open gift box containing the shoes from the reference photo. Top headline in bold black on a cream band: \"Dad says he's fine.\" second line in purple: \"He's been saying that for 10 years.\""
+    },
+    {
+      "id": "W43_27_gift_she_will_wear",
+      "persona": "gift_for_parent", "lang": "en", "colorway": "grey_pink", "group": "net_new",
+      "angle": "Holiday gift that actually gets used",
+      "based_on": "Gifting persona; holiday season ahead (reason-based, not a sale)",
+      "headline": "The gift she'll actually wear every day.",
+      "prompt": "Photo-real cozy holiday morning: a grandmother in her late 60s on a sofa by a decorated tree, wearing the shoe from the reference photo with festive pajamas, holding a mug and laughing. Top headline in bold white with soft shadow: \"The gift she'll actually\" second line: \"wear every day.\""
+    },
+    {
+      "id": "W43_28_gift_for_your_nurse",
+      "persona": "gift_for_parent", "lang": "en", "colorway": "purple", "group": "net_new",
+      "angle": "Gift for the nurse in your life (gifting x winning persona)",
+      "based_on": "Gifting persona crossed with nurse winners",
+      "headline": "For the nurse who's always on her feet.",
+      "prompt": "Ad on soft lavender: an open gift box with tissue paper holding the shoes from the reference photo, a stethoscope draped beside the box and a small tag reading \"For my favorite nurse\". Top headline in bold black: \"For the nurse who's\" second line in purple: \"always on her feet.\""
+    },
+    {
+      "id": "W43_29_es_para_la_abuela",
+      "persona": "gift_for_parent", "lang": "es", "colorway": "grey_pink", "group": "net_new",
+      "angle": "Spanish · gift for grandma who never sits down",
+      "based_on": "Family-centered gifting; Spanish ad history",
+      "headline": "Para la abuela que nunca se sienta.",
+      "prompt": "Photo-real warm kitchen: a Latina grandmother in her 70s in an apron stirring a big pot, grandchildren around her, wearing the shoe from the reference photo. Top headline in bold black on a cream band: \"Para la abuela\" second line in pink-purple: \"que nunca se sienta.\""
+    },
+    {
+      "id": "W43_30_es_papa_ya_no_camina",
+      "persona": "gift_for_parent", "lang": "es", "colorway": "light_grey", "group": "net_new",
+      "angle": "Spanish · gift for dad who walks less than before",
+      "based_on": "Gifting persona; steady-feet persona overlap",
+      "headline": "Papá dice que está bien. Pero ya no camina como antes.",
+      "prompt": "Photo-real ad: a Latino father in his late 60s and his adult son walking side by side in a sunny neighborhood park, the father wearing the shoe from the reference photo. Top headline in bold white with shadow: \"Papá dice que está bien.\" second line: \"Pero ya no camina como antes.\" Bottom white pill: \"Un regalo para sus pies\"."
+    },
+    {
+      "id": "W43_31_walker_old_sneakers",
+      "persona": "walker_weightloss", "lang": "en", "colorway": "purple", "group": "net_new",
+      "angle": "Weight-loss walker: the old sneakers didn't survive",
+      "based_on": "Winner 'I lost 50lbs+ walking 20,000 steps' ($93k)",
+      "headline": "Down 30 lbs. My old sneakers didn't make it.",
+      "prompt": "Ad split top/bottom. Top: a pair of worn-out generic sneakers (no brand) with crushed heels and torn mesh on a doormat. Bottom: the shoe from the reference photo, new and clean, on the same doormat. Headline in bold black across the middle on a white band: \"Down 30 lbs.\" second line in purple: \"My old sneakers didn't make it.\""
+    },
+    {
+      "id": "W43_32_walker_losing_cushion",
+      "persona": "walker_weightloss", "lang": "en", "colorway": "black_mint", "group": "net_new",
+      "angle": "Rapid weight loss: feet can lose natural padding (soft, non-medical)",
+      "based_on": "'Ozempic feet' coverage: rapid weight loss can thin the foot's fat pad; team GLP-1 statics",
+      "headline": "Losing weight fast? Your feet can lose padding too.",
+      "prompt": "Clean ad on soft mint-white. Headline at top in bold black: \"Losing weight fast?\" second line in mint-dark green: \"Your feet can lose padding too.\" Center: the shoe from the reference photo in three-quarter view, with two thin callouts: \"Thick rocker cushion\" and \"Arch support built in\". Bottom small grey text: \"Comfort for every new mile.\""
+    },
+    {
+      "id": "W43_33_walker_day_1_day_90",
+      "persona": "walker_weightloss", "lang": "en", "colorway": "navy_blue", "group": "net_new",
+      "angle": "Walking streak calendar: consistency needs comfortable feet",
+      "based_on": "Nuvra 'Day 0 / Day 7 / Day 14' long-runner; walker persona",
+      "headline": "Day 1 to Day 90. Same shoes. No excuses.",
+      "prompt": "Ad on white: a large monthly-calendar grid where every day is marked with a purple check, headline above in bold black: \"Day 1 to Day 90.\" second line in purple: \"Same shoes. No excuses.\" Below the calendar: the shoe from the reference photo in side profile.",
+      "gif": {"build": true, "first_ms": 2400, "frames": [
+        {"edit": "Remove the purple checks from the last two rows of the calendar, leaving those days empty.", "ms": 800},
+        {"edit": "Remove the purple checks from all but the first row of the calendar.", "ms": 800}
+      ]}
+    },
+    {
+      "id": "W43_34_es_baje_30_libras",
+      "persona": "walker_weightloss", "lang": "es", "colorway": "grey_pink", "group": "net_new",
+      "angle": "Spanish · weight-loss walker",
+      "based_on": "Weight-loss winner; Spanish ad history",
+      "headline": "Bajé 30 libras caminando. Mis pies por fin aguantan.",
+      "prompt": "Photo-real ad: a Latina woman in her 40s in athleisure walking briskly on a park path at sunrise, smiling, wearing the shoe from the reference photo. Top headline in bold white with shadow: \"Bajé 30 libras caminando.\" second line in pink: \"Mis pies por fin aguantan.\""
+    },
+    {
+      "id": "W43_35_es_caminar_sin_dolor",
+      "persona": "walker_weightloss", "lang": "es", "colorway": "purple", "group": "net_new",
+      "angle": "Spanish · walking every day without foot pain",
+      "based_on": "Walker persona; comfort-only overlap",
+      "headline": "Caminar todos los días, sin dolor de pies.",
+      "prompt": "Bold minimal ad on solid Comfort Wear purple. Huge white headline in three lines: \"Caminar\" \"todos los días,\" \"sin dolor de pies.\" Below: the shoe from the reference photo floating with a soft shadow. Small white text: \"Cómodos desde el primer paso. $59.95\"."
+    },
+    {
+      "id": "W43_36_bartender_rubber_mats",
+      "persona": "restaurant", "lang": "en", "colorway": "black_white", "group": "net_new",
+      "angle": "Bartenders: late nights on rubber mats",
+      "based_on": "Restaurant persona; r/Serverlife",
+      "headline": "10pm to 3am on a rubber mat.",
+      "prompt": "Photo-real moody bar scene: a bartender in black pouring a drink behind a busy bar, low camera so the shoe from the reference photo on a black rubber bar mat is visible. Top headline in bold white: \"10pm to 3am on a rubber mat.\" second line in light grey: \"Your feet deserve better.\""
+    },
+    {
+      "id": "W43_37_teacher_field_trip",
+      "persona": "teacher", "lang": "en", "colorway": "purple", "group": "net_new",
+      "angle": "Teachers (test colorway): field-trip day steps",
+      "based_on": "Teacher persona; test colorway purple",
+      "headline": "Field trip day: 15,000 steps and 24 kids.",
+      "prompt": "Photo-real ad at a science museum: a cheerful teacher in her 30s leading a line of schoolchildren, holding a clipboard, wearing the shoe from the reference photo. Top headline in bold white with shadow: \"Field trip day:\" second line: \"15,000 steps and 24 kids.\""
+    },
+    {
+      "id": "W43_38_retail_holiday_rush",
+      "persona": "retail_warehouse", "lang": "en", "colorway": "light_grey", "group": "net_new",
+      "angle": "Retail holiday rush shifts (seasonal)",
+      "based_on": "Retail persona; seasonal timing (November)",
+      "headline": "Holiday rush: 9 hours on concrete. Again tomorrow.",
+      "prompt": "Photo-real ad in a busy store decorated for the holidays: a cashier in a red vest behind the register, smiling, low angle showing the shoe from the reference photo on the concrete floor. Top headline in bold white with shadow: \"Holiday rush: 9 hours on concrete.\" second line: \"Again tomorrow.\""
+    },
+    {
+      "id": "W43_39_traveler_cruise_ports",
+      "persona": "traveler", "lang": "en", "colorway": "red_burgundy", "group": "net_new",
+      "angle": "Cruise travelers: a port a day",
+      "based_on": "Travel videos (2.15 ROAS); team Europe statics",
+      "headline": "5 ports. 5 days. 1 pair of shoes.",
+      "prompt": "Photo-real ad: a couple in their 60s walking along a sunny cobblestone Mediterranean harbor with a cruise ship in the background, the woman wearing the shoe from the reference photo. Top headline in bold white with shadow, three lines: \"5 ports.\" \"5 days.\" \"1 pair of shoes.\""
+    },
+    {
+      "id": "W43_40_es_linea_de_produccion",
+      "persona": "retail_warehouse", "lang": "es", "colorway": "black_mint", "group": "net_new",
+      "angle": "Spanish · factory line: 10 hours standing",
+      "based_on": "Survey warehouse/factory PF 33%; Spanish ad history",
+      "headline": "10 horas parado en la línea. Tus pies lo sienten primero.",
+      "prompt": "Photo-real ad in a clean factory: a Latino worker in a high-visibility vest and safety glasses standing at a production line, feet in the shoe from the reference photo on the concrete floor. Top headline in bold white with shadow: \"10 horas parado en la línea.\" second line in mint: \"Tus pies lo sienten primero.\""
+    }
+  ]
+}

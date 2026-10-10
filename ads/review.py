@@ -5,6 +5,7 @@
     python ads/review.py log W41_03_..._v1 approve "love the clean layout"
     python ads/review.py log W41_05_..._v1 reject  "too much text, shoe looks fake"
     python ads/review.py summary
+    python ads/review.py cost --week 2026-W43             # image API spend from output/_usage.jsonl
 
 All commands take --brand (default: comfortwear, or $ADS_BRAND). Sheets show
 each 9:16 ad with dashed lines marking the 4:5 safe area; "GIF" marks ads that
@@ -98,6 +99,19 @@ def log(bdir, image, verdict, notes):
     print(f"Logged {verdict} for {image}")
 
 
+def cost(bdir, week):
+    rows = [json.loads(line) for d in out_dirs(bdir, week) if (d / "_usage.jsonl").exists()
+            for line in (d / "_usage.jsonl").read_text().splitlines()]
+    by = {}
+    for r in rows:
+        k = (r["kind"], r["quality"])
+        n, c = by.get(k, (0, 0.0))
+        by[k] = (n + 1, c + r["cost_usd"])
+    for (kind, q), (n, c) in sorted(by.items()):
+        print(f"{kind:<8} {q:<7} {n:>4} calls  ${c:7.2f}")
+    print(f"{'total':<16} {len(rows):>4} calls  ${sum(r['cost_usd'] for r in rows):7.2f}")
+
+
 def summary(bdir):
     for f in load_feedback(bdir):
         print(f"{f['verdict']:<8} {f['image']:<48} {f['notes']}")
@@ -105,7 +119,7 @@ def summary(bdir):
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(usage=__doc__)
-    p.add_argument("cmd", choices=["sheet", "log", "summary"])
+    p.add_argument("cmd", choices=["sheet", "log", "summary", "cost"])
     p.add_argument("rest", nargs="*")
     p.add_argument("--brand", default=os.getenv("ADS_BRAND", "comfortwear"))
     p.add_argument("--week")
@@ -115,6 +129,8 @@ if __name__ == "__main__":
         sheet(bdir, a.week, a.rest)
     elif a.cmd == "log" and len(a.rest) >= 2:
         log(bdir, a.rest[0], a.rest[1], " ".join(a.rest[2:]))
+    elif a.cmd == "cost":
+        cost(bdir, a.week)
     elif a.cmd == "summary":
         summary(bdir)
     else:
