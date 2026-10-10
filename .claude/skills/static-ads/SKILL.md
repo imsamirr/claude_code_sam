@@ -150,7 +150,8 @@ Drive connector, so the sheet links to each 9:16, 4:5 and GIF file on GitHub. Th
 Verdict and Notes columns, and the next run logs those with `review.py log`.
 
 Asana (when the batch is ready): create one task in `brand.json` → `asana.project_id`
-(Comfort Wear: "ComfortWear - Image Ads Process"), assigned to `asana.assignee_id` (Samir Patel),
+(Comfort Wear: "ComfortWear - Image Ads Process"), always in the board column `asana.section_id`
+("Review"; pass it as `section_id` with `project_id`), assigned to `asana.assignee_id` (Samir Patel),
 named `Review static ads batch <week> (<n> statics)`, due the Friday it's delivered. Put the links in
 `html_notes`: the Drive concept sheet, the weekly Drive folder, and the GitHub `weeks/<week>/output`
 folder, plus counts (winning/net-new, personas, Spanish), GIF candidates and the cost. Asana
