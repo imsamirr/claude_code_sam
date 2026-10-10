@@ -191,5 +191,11 @@
     "es": "All on-image text is in Spanish exactly as written in quotes, as a Spanish-speaking person living in the USA would say it (neutral US Latino, Mexican-leaning, using 'tú'). Keep every accent and sign: á é í ó ú ñ ¿ ¡. Numbers in US format (12,000 not 12.000; $59.95). Do not translate brand names. Use only the Spanish text given in quotes: do not add feature lists, icons with captions, price tags, badges or extra panels."
   },
   "audience": "Women only: the product is a women's shoe. Whoever wears the shoe in an ad is always a woman; men may appear only as gift-givers or background people, never wearing the product.",
-  "drive_folder_id": "1EAtch1T-oTW95VSiIYYP38mCjmSHEvZh"
+  "drive_folder_id": "1EAtch1T-oTW95VSiIYYP38mCjmSHEvZh",
+  "asana": {
+    "project_id": "1203476664398273",
+    "project_name": "ComfortWear - Image Ads Process",
+    "assignee_id": "1203266387321130",
+    "assignee_name": "Samir Patel"
+  }
 }

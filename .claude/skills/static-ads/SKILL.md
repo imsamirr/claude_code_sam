@@ -148,3 +148,11 @@ Drive (Comfort Wear): the folder **"Comfort Wear – Weekly Static Ads"** (id in
 converted to a Google Sheet, title `<week> concepts`). Image files are too large to upload through the
 Drive connector, so the sheet links to each 9:16, 4:5 and GIF file on GitHub. The user fills in the
 Verdict and Notes columns, and the next run logs those with `review.py log`.
+
+Asana (when the batch is ready): create one task in `brand.json` → `asana.project_id`
+(Comfort Wear: "ComfortWear - Image Ads Process"), assigned to `asana.assignee_id` (Samir Patel),
+named `Review static ads batch <week> (<n> statics)`, due the Friday it's delivered. Put the links in
+`html_notes`: the Drive concept sheet, the weekly Drive folder, and the GitHub `weeks/<week>/output`
+folder, plus counts (winning/net-new, personas, Spanish), GIF candidates and the cost. Asana
+`html_notes` allows only `body, strong, em, u, s, code, ol, ul, li, a, blockquote, pre, h1, h2, hr, img,
+table, tr, td` (no `<p>`).
