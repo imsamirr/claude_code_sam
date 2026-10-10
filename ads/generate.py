@@ -26,6 +26,25 @@ ADS_DIR = Path(__file__).resolve().parent
 API_URL = "https://api.openai.com/v1/images/edits"
 
 
+def learned_preferences(concept_id):
+    """Turn approve/reject notes from ads/feedback.json into prompt guidance."""
+    path = ADS_DIR / "feedback.json"
+    if not path.exists():
+        return ""
+    fb = [f for f in json.loads(path.read_text()) if f.get("notes")]
+    # this concept's own feedback first, then the most recent general feedback
+    fb.sort(key=lambda f: f["date"], reverse=True)
+    fb.sort(key=lambda f: f["concept"] != concept_id)
+    liked = [f["notes"] for f in fb if f["verdict"] == "approve"][:8]
+    disliked = [f["notes"] for f in fb if f["verdict"] == "reject"][:8]
+    lines = []
+    if liked:
+        lines.append("The creative director approved past ads for: " + "; ".join(liked) + ".")
+    if disliked:
+        lines.append("The creative director rejected past ads for: " + "; ".join(disliked) + ". Avoid these.")
+    return " ".join(lines)
+
+
 def build_prompt(spec, concept, extra):
     rules = " ".join(spec["global_prompt_rules"])
     brand = spec["brand"]
@@ -34,6 +53,9 @@ def build_prompt(spec, concept, extra):
         f"Brand styling: {brand['palette']}; {brand['font_style']}.",
         rules,
     ]
+    prefs = learned_preferences(concept["id"])
+    if prefs:
+        parts.append(prefs)
     if extra:
         parts.append(extra)
     return "\n\n".join(parts)

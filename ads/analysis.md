@@ -66,7 +66,7 @@ Many losers reuse the *same layouts* as winners, so the layout alone isn't what 
 **Warning (21% 1★):** almost all 1★ reviews are about **refunds and the money-back guarantee not being honored** (partial refunds, gift cards, "proof of donation"), plus inconsistent sizing, "cheap materials" and "drop-shipping scam". Recommendations:
 - Don't lead creatives with "45-day money-back guarantee / no questions asked" until operations actually honor it. It's the promise behind most of the 1★ reviews and makes ads read as deceptive.
 - Sizing is the #2 complaint, so add "true-to-size guide" or "fits wide & narrow feet" messaging.
-- Separately: Atria shows at least one other page ("Nurse Finds") running ads with your exact shoe. Worth checking for knockoffs or affiliates.
+- Atria also shows a "Nurse Finds" page running ads with your exact shoe. If it isn't one of your pages, it's worth checking for knockoffs or affiliates.
 
 ## 5. Inspiration: rising image ads launched in the last 30 days
 
@@ -107,7 +107,7 @@ These are ads still being paid for after months, a better signal of profitabilit
 
 **Nurse Babes and Snibbs** returned no image ads in Atria's library, and Atria only surfaced unrelated brands for WearStand's lookalikes.
 
-> ⚠️ **Knockoffs running your creative.** "ComfortOrtho Shoes" has been running near-exact copies of your "Dear Nurses", "Last chance for pain-free walking" and "$59.95 12-hour shift shoes" statics for **235 days** (B91–B93). "Foot Health Daily / Hike Balance" runs a "Dear Hikers, tackle every trail pain-free" clone of the same template (B108), plus "Best shoes for NURSES". That validates the template, but it's also brand confusion that could feed the 1★ "drop-shipping scam" reviews. Worth a Meta IP report.
+> **Your second page:** "ComfortOrtho Shoes" (yours) has run the "Dear Nurses", "Last chance for pain-free walking" and "$59.95 12-hour shift shoes" statics for **235 days** (B91–B93). That is more evidence these templates are durable. Separately, "Foot Health Daily / Hike Balance" runs a "Dear Hikers, tackle every trail pain-free" copy of the same template (B108) plus "Best shoes for NURSES", so competitors are copying your format.
 
 ## 8. Concepts (`concepts.json`)
 
