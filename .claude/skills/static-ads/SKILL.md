@@ -149,11 +149,12 @@ converted to a Google Sheet, title `<week> concepts`). Image files are too large
 Drive connector, so the sheet links to each 9:16, 4:5 and GIF file on GitHub. The user fills in the
 Verdict and Notes columns, and the next run logs those with `review.py log`.
 
-Asana (when the batch is ready): create one task in `brand.json` → `asana.project_id`
-(Comfort Wear: "ComfortWear - Image Ads Process"), always in the board column `asana.section_id`
-("Review"; pass it as `section_id` with `project_id`), assigned to `asana.assignee_id` (Samir Patel),
-named `Review static ads batch <week> (<n> statics)`, due the Friday it's delivered. Put the links in
-`html_notes`: the Drive concept sheet, the weekly Drive folder, and the GitHub `weeks/<week>/output`
-folder, plus counts (winning/net-new, personas, Spanish), GIF candidates and the cost. Asana
-`html_notes` allows only `body, strong, em, u, s, code, ol, ul, li, a, blockquote, pre, h1, h2, hr, img,
-table, tr, td` (no `<p>`).
+Asana (when the batch is ready): run
+`python ads/asana_task.py --week <week> --sheet-url <Drive sheet URL> --folder-url <Drive week folder URL>`.
+It creates "Review static ads batch <week> (<n> statics)" in `brand.json` → `asana.project_id`
+(Comfort Wear: "ComfortWear - Image Ads Process"), assigned to `asana.assignee_id` (Samir Patel), due
+today, with the links, counts, GIF candidates and cost, and puts it at the **top of the Review
+column** (`asana.section_id`). It needs `ASANA_ACCESS_TOKEN` in the environment. If that isn't set,
+fall back to the Asana connector (create_tasks with `project_id` + `section_id`), which can only place
+it at the bottom of Review, and say so. Asana `html_notes` allows only `body, strong, em, u, s, code,
+ol, ul, li, a, blockquote, pre, h1, h2, hr, img, table, tr, td` (no `<p>`).
