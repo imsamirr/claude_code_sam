@@ -33,9 +33,27 @@ Default deliverable per week: **40 unique concepts, 1 static each** (no variatio
    script lines worth stealing, review/survey language, competitor and long-running inspiration.
    Reuse the Comfort Wear analysis as the model for depth and structure.
 
+## Weekly rule: done by Friday
+
+Next week's batch must be complete every **Friday by 9am Eastern**: concepts written, all statics
+rendered and QA'd, pushed, and the Drive sheet posted. A routine starts a fresh session every Friday
+at 6am ET to do this. The target is the coming ISO week (the run on Fri Oct 23, 2026 builds
+`2026-W44`). If that week's `concepts.json` already exists (seasonal or hand-made concepts), keep
+those concepts and add new ones until there are 40.
+
 ## 1. Research refresh (each week, short)
 
 - Read `research/analysis.md` and `feedback.json` (what was approved/rejected and why).
+- **Same window last year**: `python ads/atria_pull.py seasonal --week <target week>` lists the top
+  spenders (videos and statics) from the matching dates last year (±7 days). Make at least 5
+  concepts from them, tagged `"group": "seasonal"` (they count toward the winning half): turn each
+  top video's script (hook, test/ranking, proof lines) into static formats. Example: the travel
+  "we tested 5 shoes" video (Kyro 293, 2.15 ROAS) won late Oct–early Nov 2025, so `2026-W44` leads with travel rankings.
+- **Atria inspiration**: `python ads/atria_pull.py inspo` (rising image ads, last 30 days) every
+  week. Skim `inspiration_raw.csv` for new formats and try at least 3 of them in the net-new half.
+  Re-read `brand_inspiration_longrunning.csv` (ads running for months) when stuck.
+- If an Atria call fails with 401, the key isn't set as `ATRIA_API_KEY`. Say so and continue with the
+  existing data; don't look for the key elsewhere.
 - Optional pulls: Atria `inspo` for rising formats; the brand's customer survey sheet (Drive) for new
   language; Trustpilot. Reddit is usually unreachable from the cloud container (WebFetch is
   blocked and search rarely returns threads), so use forum mirrors, Mayo Clinic Connect-type
@@ -120,6 +138,13 @@ language, colorway, GIF yes/no, and anything you're unsure about. When they repl
 future prompts for the brand. Rejected concepts get one regeneration with the fix. Then render GIFs for approved concepts
 that have a `gif` block (`--gif-only <ids>`) and send them.
 
-## 6. Save
+## 6. Save and deliver
 
 Commit the week folder, `feedback.json` and any brand/research changes on the working branch, then push.
+
+Drive (Comfort Wear): the folder **"Comfort Wear – Weekly Static Ads"** (id in `brand.json` →
+`drive_folder_id`) gets one subfolder per week (`2026-W44`). In it, create the concept sheet from
+`python ads/review.py csv --week <week>` (create_file with `textContent`, `contentMimeType: text/csv`,
+converted to a Google Sheet, title `<week> concepts`). Image files are too large to upload through the
+Drive connector, so the sheet links to each 9:16, 4:5 and GIF file on GitHub. The user fills in the
+Verdict and Notes columns, and the next run logs those with `review.py log`.

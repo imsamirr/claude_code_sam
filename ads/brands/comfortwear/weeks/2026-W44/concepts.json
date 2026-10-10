@@ -1,0 +1,97 @@
+{
+  "week": "2026-W44",
+  "notes": "Seasonal slot: travel 'we tested 5 shoes' ranking (Kyro 293: C$58k, 2.15 ROAS; Kyro 369: C$67k; Kyro 373: C$61k), which performed well late October to early November last year. Competitors named at the user's request; claims are taken from the winning scripts. The Friday routine adds the remaining concepts for this week and keeps these.",
+  "concepts": [
+    {
+      "id": "W44_01_tested_5_travel_shoes_ranking",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "black_white",
+      "group": "seasonal",
+      "angle": "Ranked test: 5 popular travel shoes on European cobblestones",
+      "based_on": "Kyro 293 'We tested five of the most popular ones' (C$58k, 2.15 ROAS); Kyro 369 (C$67k)",
+      "headline": "We tested 5 travel shoes on European cobblestones.",
+      "prompt": "Ranking ad on a warm cream background with a faint cobblestone street photo at the top. Headline in bold black: \"We tested 5 travel shoes\" second line in purple: \"on European cobblestones.\" Below, five ranked rows, each a white rounded card with a big rank number on the left and a short verdict: \"5 Sandals: no protection on rough stone\" with a red X, \"4 Nike Air Max: narrow toe box\" with a red X, \"3 Hoka: unstable on uneven streets\" with a red X, \"2 Skechers Memory Foam: flat by afternoon\" with a red X, and a highlighted purple-bordered card \"1 Comfort Wear: firm on cobblestones, room to swell\" with a green check and the shoe from the reference photo beside it. Text only names, no other brand logos.",
+      "gif": {
+        "build": true,
+        "first_ms": 2800,
+        "frames": [
+          {
+            "edit": "Remove the highlighted #1 card and the shoe, leaving empty cream space.",
+            "ms": 900
+          },
+          {
+            "edit": "Remove the #2 and #3 cards, leaving empty cream space.",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "W44_02_travel_scorecard",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "group": "seasonal",
+      "angle": "Comparison scorecard: what matters on a sightseeing day",
+      "based_on": "Kyro 293/369 test criteria (cobblestones, 8–10 hour days, swelling, weight)",
+      "headline": "Which travel shoe survives a full day of sightseeing?",
+      "prompt": "Clean comparison-table ad on white. Headline at top in bold black: \"Which travel shoe survives\" second line in purple: \"a full day of sightseeing?\" A table with four columns: \"Nike Air Max\", \"Hoka\", \"Skechers\", \"Comfort Wear\" (column headers are text only, no shoe pictures; only the last column, highlighted in light lavender, shows the shoe from the reference photo above it). Four rows with labels on the left: \"Cobblestones\", \"8+ hours\", \"Room for swelling\", \"Light in your suitcase\". The Comfort Wear column has a green check in every row; the other columns have mostly red X marks (Nike: X, X, X, check; Hoka: X, check, X, X; Skechers: X, X, check, check). Large, legible cells."
+    },
+    {
+      "id": "W44_03_worst_travel_advice",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "group": "seasonal",
+      "angle": "Contrarian hook: 'just wear your comfy sneakers' is the worst travel advice",
+      "based_on": "Kyro 373 'The worst travel advice I ever got was just wear your comfortable sneakers' (C$61k)",
+      "headline": "The worst travel advice I ever got: \"Just wear your comfy sneakers.\"",
+      "prompt": "Photo-real ad on a sunny Lisbon street with yellow trams and cobblestones: a woman in her 50s with a crossbody bag walking happily uphill, wearing the shoe from the reference photo. Top headline in bold white with soft shadow: \"The worst travel advice I ever got:\" second line in bold: \"“Just wear your comfy sneakers.”\""
+    },
+    {
+      "id": "W44_04_three_trips_postcards",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "black_mint",
+      "group": "seasonal",
+      "angle": "Trip-by-trip story told as postcards",
+      "based_on": "Kyro 373 'I wore Hokas in Lisbon… I wore Nikes in Paris… Three trips since then, no pain, no benches'",
+      "headline": "Lisbon in Hokas. Paris in Nikes. Then I found these.",
+      "prompt": "Ad with three vintage travel postcards stacked at slight angles on a light wooden table. Postcard 1 (Lisbon tram photo) with handwritten text: \"Lisbon in Hokas: heel pain by day 2\". Postcard 2 (Eiffel Tower photo) with handwritten text: \"Paris in Nikes: swollen by 3pm\". Postcard 3 (Portuguese coast photo) with handwritten text: \"Portugal in Comfort Wear: no benches needed\" and the shoe from the reference photo resting next to it. Headline at top in bold black: \"Then I found these.\""
+    },
+    {
+      "id": "W44_05_carry_on_flat_lay",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "black_white",
+      "group": "seasonal",
+      "angle": "Packing flat-lay: the one pair that goes everywhere",
+      "based_on": "Vessi 'No more backup shoes. One pair.' (70–100 days); Kyro 293 'nice enough for restaurants, comfortable enough for eight hours of exploring'",
+      "headline": "10 days in Italy. 1 pair of shoes.",
+      "prompt": "Overhead flat-lay photo of an open carry-on suitcase on a white bed: neatly folded women's clothes, passport, sunglasses, a guidebook, and the pair of shoes from the reference photo placed prominently. Headline at the top in bold black: \"10 days in Italy.\" second line in purple: \"1 pair of shoes.\" Small black text at the bottom: \"Nice enough for dinner. Comfy enough for 8 hours of exploring.\""
+    },
+    {
+      "id": "W44_06_es_probamos_5_zapatos",
+      "persona": "traveler",
+      "lang": "es",
+      "colorway": "navy_blue",
+      "group": "seasonal",
+      "angle": "Spanish · ranked test of 5 travel shoes",
+      "based_on": "Kyro 293 ranking (2.15 ROAS) + Spanish ad history",
+      "headline": "Probamos 5 zapatos para viajar. Solo uno aguantó todo el día.",
+      "prompt": "Ranking ad on warm cream with a faint cobblestone street photo at the top. Headline in bold black: \"Probamos 5 zapatos para viajar.\" second line in purple: \"Solo uno aguantó todo el día.\" Five ranked rows as white rounded cards: \"5 Sandalias: sin protección\" red X, \"4 Nike Air Max: punta angosta\" red X, \"3 Hoka: inestables en piedra\" red X, \"2 Skechers: se aplanan en la tarde\" red X, and a purple-bordered highlighted card \"1 Comfort Wear: firmes y con espacio\" green check with the shoe from the reference photo beside it."
+    },
+    {
+      "id": "W44_07_holiday_airport_steps",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "group": "seasonal",
+      "angle": "Holiday travel: airports and long layovers (Thanksgiving season)",
+      "based_on": "Travel persona; seasonal timing (Thanksgiving travel), Kyro 293 'walk further, longer'",
+      "headline": "3 terminals. 1 layover. 18,000 steps before Thanksgiving dinner.",
+      "prompt": "Photo-real ad in a busy, bright airport terminal with fall decorations: a woman in her 40s pulling a carry-on, walking fast toward a gate, wearing the shoe from the reference photo. Top headline in bold white with shadow: \"3 terminals. 1 layover.\" second line: \"18,000 steps before Thanksgiving dinner.\""
+    }
+  ]
+}

@@ -4,6 +4,7 @@
     python ads/atria_pull.py winners --brand comfortwear --account WearOrtho
     python ads/atria_pull.py winners     # statics with >= $5k lifetime spend (since 2024)
     python ads/atria_pull.py losers      # statics < $200 spend, paused at ad level (last 12 months)
+    python ads/atria_pull.py seasonal --week 2026-W45  # top spenders in the same window last year
     python ads/atria_pull.py inspo       # image ads, rising impressions, launched last 30 days
 
 Writes CSVs to ads/brands/<brand>/research/data/. Atria returns at most 50 ads per date window, so
@@ -160,10 +161,40 @@ def inspo(api, acc, args):
     write_csv("inspiration_raw.csv", rows, list(rows[0]) if rows else ["brand"])
 
 
+def seasonal(api, acc, args):
+    """Top-spending ads (all formats) in the same calendar window last year as the target week.
+
+    The weekly batch turns these into statics: a video that won in early November last year
+    becomes static versions for early November this year.
+    """
+    year, week = (int(x) for x in args.week.split("-W"))
+    monday = dt.date.fromisocalendar(year, week, 1)
+    start = monday - dt.timedelta(days=364 + args.pad_days)  # same weekday, one year earlier
+    end = monday - dt.timedelta(days=364 - 6 - args.pad_days)
+    agg = aggregate(api, acc, start, end, "week")
+    top = sorted(agg.items(), key=lambda kv: -kv[1]["spend"])[:args.top]
+    rows = []
+    for ad_id, r in top:
+        detail = api.get(f"ad-accounts/{acc}/ads/{ad_id}", {"period": "last_7d"})
+        c = detail.get("creative") or {}
+        # transcript field name isn't documented; keep whichever one the API returns
+        transcript = detail.get("transcript") or c.get("transcript") or (c.get("video") or {}).get("transcript")
+        rows.append({**r, "platform_ad_id": ad_id, "roas": round(r["revenue"] / r["spend"], 2) if r["spend"] else 0,
+                     "headline": c.get("title"), "primary_text": (c.get("body") or "")[:800],
+                     "transcript": (transcript or "")[:4000]})
+        time.sleep(0.7)
+    print(f"Window {start} to {end} (target week {args.week})")
+    write_csv(f"seasonal_{args.week}.csv", rows, ["platform_ad_id", "ad_name", "format", "status", "spend",
+              "roas", "purchases", "headline", "primary_text", "transcript", "thumbnail_url"])
+
+
 def main():
     load_dotenv()
     p = argparse.ArgumentParser()
-    p.add_argument("what", choices=["winners", "losers", "inspo"])
+    p.add_argument("what", choices=["winners", "losers", "inspo", "seasonal"])
+    p.add_argument("--week", help="seasonal: target ISO week, e.g. 2026-W45 (default: next week)")
+    p.add_argument("--pad-days", type=int, default=7, help="seasonal: widen last year's window by this many days each side")
+    p.add_argument("--top", type=int, default=15, help="seasonal: how many top-spending ads to keep")
     p.add_argument("--min-spend", type=float, default=5000)
     p.add_argument("--max-spend", type=float, default=200)
     p.add_argument("--brand", default=os.getenv("ADS_BRAND", "comfortwear"))
@@ -174,7 +205,10 @@ def main():
     # Without ATRIA_API_KEY the request relies on a network secret the proxy attaches.
     api = Atria(os.getenv("ATRIA_API_KEY"))
     acc = api.account_id(args.account)
-    {"winners": winners, "losers": losers, "inspo": inspo}[args.what](api, acc, args)
+    if not args.week:
+        y, w, _ = (dt.date.today() + dt.timedelta(days=7)).isocalendar()
+        args.week = f"{y}-W{w:02d}"
+    {"winners": winners, "losers": losers, "inspo": inspo, "seasonal": seasonal}[args.what](api, acc, args)
 
 
 if __name__ == "__main__":
