@@ -1,11 +1,12 @@
 """Pull creative research data from the Atria Open API.
 
     export ATRIA_API_KEY=atria-sk_...
+    python ads/atria_pull.py winners --brand comfortwear --account WearOrtho
     python ads/atria_pull.py winners     # statics with >= $5k lifetime spend (since 2024)
     python ads/atria_pull.py losers      # statics < $200 spend, paused at ad level (last 12 months)
     python ads/atria_pull.py inspo       # image ads, rising impressions, launched last 30 days
 
-Writes CSVs to ads/data/. Atria returns at most 50 ads per date window, so
+Writes CSVs to ads/brands/<brand>/research/data/. Atria returns at most 50 ads per date window, so
 spend is summed across monthly (winners) or weekly (losers) windows; ads
 that never made a window's top 50 are missed, which only affects very
 low spenders in the winners pull.
@@ -24,7 +25,7 @@ from dotenv import load_dotenv
 
 BASE = "https://api.tryatria.com/open/v1"
 ACCOUNT_NAME = "WearOrtho"
-DATA_DIR = Path(__file__).resolve().parent / "data"
+DATA_DIR = Path(__file__).resolve().parent / "brands" / "comfortwear" / "research" / "data"
 INSPO_QUERIES = [
     "orthopedic shoes", "plantar fasciitis", "nurse shoes", "foot pain", "wide toe box",
     "comfort shoes", "walking shoes", "bunions", "neuropathy", "standing all day",
@@ -165,10 +166,14 @@ def main():
     p.add_argument("what", choices=["winners", "losers", "inspo"])
     p.add_argument("--min-spend", type=float, default=5000)
     p.add_argument("--max-spend", type=float, default=200)
+    p.add_argument("--brand", default=os.getenv("ADS_BRAND", "comfortwear"))
+    p.add_argument("--account", default=ACCOUNT_NAME, help="ad account name in Atria")
     args = p.parse_args()
+    global DATA_DIR
+    DATA_DIR = Path(__file__).resolve().parent / "brands" / args.brand / "research" / "data"
     # Without ATRIA_API_KEY the request relies on a network secret the proxy attaches.
     api = Atria(os.getenv("ATRIA_API_KEY"))
-    acc = api.account_id(ACCOUNT_NAME)
+    acc = api.account_id(args.account)
     {"winners": winners, "losers": losers, "inspo": inspo}[args.what](api, acc, args)
 
 

@@ -173,3 +173,45 @@ Age: 47% are 65+ and 38% are 50–65. Job: retired 27%, nurse/healthcare 18%, re
 | C23 | "Retired from 12-hour shifts. Not from walking." | #3: 85% are 50+, 27% retired (test against the seniors-loser finding in §2) |
 
 **Ops note for whoever owns CX:** fixing the size guide (a cm/inch chart by foot length, a clear call on half sizes) is probably worth more than any ad. Every wrong-size order is a likely 1–2★.
+
+---
+
+## 10. Spanish-language ads, added 2026-10-10
+
+Spanish has a track record in the pulled data (a live Atria re-pull wasn't possible this session):
+
+| Ad | Format | Spend | ROAS |
+|---|---|---|---|
+| "@NF - V2_Hook1_063_Spanish_OrthoStretch_5_FootPainCure", nurse script *"Mi doctor me dijo que no había cura para mi dolor de pies… Soy enfermera"* | Video | C$47,989 | 1.53 |
+| "Spanish Nurse image V5", headline *"Los zapatos de enfermera favoritos de 2024"* | Static | C$22,149 | 1.79 |
+| "spanish mage V5" (same creative, second ad set) | Static | C$11,439 | **2.14** |
+| One Spanish static in the losers list | Static | C$112 | n/a |
+
+The two Spanish statics sit at or above the median ROAS of the $5k+ winners (1.71), and there's a
+Spanish landing page (`comfortorthowear.com/es`). The existing Spanish copy reads like a translation
+from Spain ("Consigue el tuyo", "120.000 reseñas"). The new concepts are written natively for US Latinos instead:
+`tú`, "los pies me mataban", "parado todo el día", "doble turno", "comadre", "porfa", family and
+coworker framing, and US number formats.
+
+## 11. Personas, added 2026-10-10
+
+Built from the 1–3★ survey (job, age, problem, current fix), the winning-ad history, forum research
+and category knowledge. Reddit itself couldn't be read from the cloud environment (fetch blocked,
+search returned no threads), so the forum input came from r/Serverlife via a mirror and Mayo
+Clinic Connect. Colorway rules per persona live in `brand.json`.
+
+| Persona | Evidence | Colors |
+|---|---|---|
+| Hospital nurse, 12-hr shifts | Top historical winners; survey nurses: PF 27%, "just comfort" 26% | black/purple, all black, black/white, navy ("WhiteBlue") |
+| CNA / home health aide / caregiver | Survey n=380, 30% "just comfort"; lifting, low pay so price matters | same as nurse |
+| Server / line cook / bartender | Survey n=1,055, mostly under 50; r/Serverlife: "cheap shoes will kill your ankles, knees & back", Hoka Bondi SR praised but "very pricey" | all black, black/white, black/purple, navy |
+| Cashier / retail / warehouse on concrete | Survey n=1,377, PF 27–33% | all black, navy, black/mint, black/white, light grey |
+| Housekeeping / janitorial | Survey n=375, **highest PF share (35%)**; strong Spanish-speaking overlap | all black, black/purple, navy, black/mint |
+| Teacher / para | Survey n=775, PF 29%; forums: shoes are "comfortable or cute, hardly ever both" | navy, burgundy, all black, black/purple; test purple, grey/pink, black/mint |
+| Hairstylist / salon | Survey n=152, "on my feet all day", PF 31% | black/mint, purple, grey/pink, black/white |
+| Active retiree 65+ | Largest job group (27%), 47% of respondents 65+ | light grey, grey/pink, purple, navy, burgundy |
+| Balance / swelling / neuropathy (older) | Neuropathy 10%; Mayo Clinic Connect: slip-ons that "accommodate daily foot swelling", grip, side support | light grey, navy, grey/pink |
+| Adult child buying for a parent | Category knowledge (gifting); core wearer is 65+ | grey/pink, light grey, purple |
+| Traveler (theme parks, Europe) | Travel videos 2.15 ROAS; team "Paris/Barcelona" statics | black/white, navy, burgundy, black/mint |
+| New walker / weight loss (incl. GLP-1) | Winner "I lost 50lbs+ walking 20,000 steps" ($93k); team GLP-1 statics | purple, black/mint, grey/pink, navy |
+| Comfort only, no diagnosis | 22% "no foot pain, only need comfort" | any |

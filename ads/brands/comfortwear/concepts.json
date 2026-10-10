@@ -1,17 +1,4 @@
 {
-  "brand": {
-    "name": "Comfort Wear",
-    "product": "Ortho Stretch Cushion Shoe",
-    "price": "$59.95 (was $90)",
-    "palette": "white / soft lavender backgrounds, Comfort Wear purple (#7A2FE0) for headlines and pills, black body text",
-    "font_style": "bold geometric sans-serif headlines (like Poppins/Montserrat ExtraBold), clean sans body text"
-  },
-  "global_prompt_rules": [
-    "Square 1:1 Meta feed static ad.",
-    "The shoe MUST be the exact shoe in the attached studio reference photo, unchanged: same colors, stretch-knit sock-style upper with pull tab, grid-of-small-squares pattern on the side panel, elastic bungee laces with a round toggle, double-chevron logo on the inner collar, chunky rocker midsole with a wavy side profile, lug outsole. Keep its proportions and every detail; only change its angle, lighting and setting as the layout requires. Do not invent a different shoe, logo or sole.",
-    "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
-    "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
-  ],
   "concepts": [
     {
       "id": "C01_dear_nurses_v2",

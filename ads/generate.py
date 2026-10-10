@@ -1,34 +1,66 @@
-"""Generate static ad images from ads/concepts.json with OpenAI's image model
-(the model behind ChatGPT image generation).
+"""Generate static (and optional GIF) ads for a brand with OpenAI's image model.
 
-Each concept's product reference photo is sent with the prompt so the shoe
-stays accurate. Output PNGs land in ads/output/<concept_id>_v<n>.png.
+Every ad is rendered as a 4:5 image (1088x1360), then its background is
+extended to a 9:16 vertical (1088x1920) and the original 4:5 pixels are put
+back on top. So all text and product are guaranteed to sit in the 4:5 safe
+area, the 9:16 runs in Stories/Reels, and the _4x5.png runs in feed.
+
+Layout:
+    ads/brands/<brand>/brand.json         brand, colorways, personas, language rules
+    ads/brands/<brand>/reference/         product photos, one per colorway
+    ads/brands/<brand>/concepts.json      concept library / backlog
+    ads/brands/<brand>/weeks/<week>/concepts.json   a weekly batch
+    ...and output/ next to whichever concepts.json was used.
 
 Usage:
-    export OPENAI_API_KEY=sk-...
-    python ads/generate.py                    # all concepts, 1 variant each
-    python ads/generate.py C01 C04 -n 3       # selected concepts, 3 variants
-    python ads/generate.py --size 1024x1536   # 2:3 portrait instead of square
-    python ads/generate.py C03 --extra "make the headline bigger"
+    python ads/generate.py --brand comfortwear --week 2026-W41          # whole weekly batch
+    python ads/generate.py --brand comfortwear --week 2026-W41 W41_03   # one concept
+    python ads/generate.py --brand comfortwear --week 2026-W41 --gif    # also render GIFs
+    python ads/generate.py --brand comfortwear C17                      # from the library
+    python ads/generate.py ... --extra "make the headline bigger"
 """
 
 import argparse
 import base64
+import io
 import json
 import os
-import sys
+import re
 from pathlib import Path
 
 import requests
 from dotenv import load_dotenv
+from PIL import Image
 
 ADS_DIR = Path(__file__).resolve().parent
 API_URL = "https://api.openai.com/v1/images/edits"
+SIZE = (1088, 1920)           # 9:16 deliverable
+CONTENT = (1088, 1360)        # 4:5 safe area, centered in SIZE
+TOP = (SIZE[1] - CONTENT[1]) // 2
+FEATHER = 48                  # px blended where the 4:5 content meets the extended edges
+FORMAT_RULE = (
+    "Vertical 4:5 canvas (even if the description below says square or 9:16). Keep text at least "
+    "4% away from the edges."
+)
+EXTEND_PROMPT = (
+    "Fill only the transparent top and bottom areas by naturally continuing the image's background "
+    "(same scene, colors, lighting and perspective). Do not add any text, logos, people, products "
+    "or new objects there."
+)
 
 
-def learned_preferences(concept_id):
-    """Turn approve/reject notes from ads/feedback.json into prompt guidance."""
-    path = ADS_DIR / "feedback.json"
+def load_brand(brand):
+    bdir = ADS_DIR / "brands" / brand
+    return bdir, json.loads((bdir / "brand.json").read_text())
+
+
+def concepts_path(bdir, week):
+    return bdir / "weeks" / week / "concepts.json" if week else bdir / "concepts.json"
+
+
+def learned_preferences(bdir, concept_id):
+    """Turn approve/reject notes from the brand's feedback.json into prompt guidance."""
+    path = bdir / "feedback.json"
     if not path.exists():
         return ""
     fb = [f for f in json.loads(path.read_text()) if f.get("notes")]
@@ -45,15 +77,29 @@ def learned_preferences(concept_id):
     return " ".join(lines)
 
 
-def build_prompt(spec, concept, extra):
-    rules = " ".join(spec["global_prompt_rules"])
-    brand = spec["brand"]
-    parts = [
-        concept["prompt"],
-        f"Brand styling: {brand['palette']}; {brand['font_style']}.",
-        rules,
-    ]
-    prefs = learned_preferences(concept["id"])
+def reference_for(bdir, brand, concept):
+    """Resolve the product photo: explicit reference_image, else the concept's colorway."""
+    if concept.get("reference_image"):
+        return bdir / concept["reference_image"]
+    colorway = concept["colorway"]
+    persona = brand.get("personas", {}).get(concept.get("persona"), {})
+    allowed = persona.get("colorways", "any")
+    allowed = allowed + persona.get("test_colorways", []) if allowed != "any" else allowed
+    if allowed != "any" and colorway not in allowed:
+        print(f"  note: {colorway} is outside the {concept['persona']} palette {allowed}")
+    return bdir / brand["colorways"][colorway]["file"]
+
+
+def build_prompt(bdir, brand, concept, extra):
+    parts = [FORMAT_RULE, concept["prompt"]]
+    if concept.get("colorway"):
+        parts.append(f"The shoe is the {brand['colorways'][concept['colorway']]['label']} colorway shown in the reference photo.")
+    parts.append(f"Brand styling: {brand['palette']}; {brand['font_style']}.")
+    parts += brand["prompt_rules"]
+    lang = concept.get("lang", "en")
+    if lang != "en":
+        parts.append(brand["language_rules"][lang])
+    prefs = learned_preferences(bdir, concept["id"])
     if prefs:
         parts.append(prefs)
     if extra:
@@ -61,37 +107,103 @@ def build_prompt(spec, concept, extra):
     return "\n\n".join(parts)
 
 
-def generate(concept, prompt, args, api_key):
-    ref = ADS_DIR / concept["reference_image"]
-    with open(ref, "rb") as f:
-        resp = requests.post(
-            API_URL,
-            headers={"Authorization": f"Bearer {api_key}"} if api_key else {},
-            files=[("image[]", (ref.name, f, "image/png"))],
-            data={
-                "model": args.model,
-                "prompt": prompt,
-                "size": args.size,
-                "quality": args.quality,
-                "n": str(args.n),
-                "input_fidelity": args.fidelity,
-            },
-            timeout=600,
-        )
+def call_api(prompt, images, args, api_key, size=CONTENT, mask=None):
+    files = [("image[]", (name, blob, "image/png")) for name, blob in images]
+    if mask:
+        files.append(("mask", ("mask.png", mask, "image/png")))
+    resp = requests.post(API_URL, headers={"Authorization": f"Bearer {api_key}"} if api_key else {},
+                         files=files, timeout=600,
+                         data={"model": args.model, "prompt": prompt, "quality": args.quality,
+                               "n": "1", "size": f"{size[0]}x{size[1]}"})
     if resp.status_code != 200:
         raise RuntimeError(f"{resp.status_code}: {resp.text[:500]}")
-    return [base64.b64decode(d["b64_json"]) for d in resp.json()["data"]]
+    img = Image.open(io.BytesIO(base64.b64decode(resp.json()["data"][0]["b64_json"]))).convert("RGB")
+    return img if img.size == size else img.resize(size, Image.LANCZOS)
+
+
+def extend_to_9x16(content, args, api_key):
+    """Outpaint the background above and below the 4:5 ad, then put the original pixels back.
+
+    The model redraws the whole canvas, so only its top and bottom bands are kept; the 4:5
+    content is pasted over them unchanged, with a short vertical feather to hide the seam.
+    """
+    canvas = Image.new("RGBA", SIZE, (0, 0, 0, 0))
+    canvas.paste(content.convert("RGBA"), (0, TOP))
+    blob = png_bytes(canvas)
+    edges = call_api(EXTEND_PROMPT, [("canvas.png", blob)], args, api_key, size=SIZE, mask=blob)
+    return composite(content, edges)
+
+
+def composite(content, edges):
+    alpha = Image.new("L", CONTENT, 255)
+    for i in range(FEATHER):
+        v = int(255 * (i + 1) / FEATHER)
+        alpha.paste(v, (0, i, CONTENT[0], i + 1))
+        alpha.paste(v, (0, CONTENT[1] - 1 - i, CONTENT[0], CONTENT[1] - i))
+    out = edges.copy()
+    out.paste(content, (0, TOP), alpha)
+    return out
+
+
+def png_bytes(img):
+    buf = io.BytesIO()
+    img.save(buf, "PNG")
+    return buf.getvalue()
+
+
+def save_static(content, full, out_dir, stem):
+    full.save(out_dir / f"{stem}.png")
+    content.save(out_dir / f"{stem}_4x5.png")
+
+
+def render_gif(content, full, ref_bytes, concept, out_dir, stem, args, api_key):
+    """Each later frame is an edit of the previous one, so layout and copy stay put.
+
+    concept["gif"] = {"first_ms": 2200, "build": true,
+                      "frames": [{"edit": "remove the third chat bubble", "ms": 900}, ...]}
+    With build=true the edits strip elements from the finished static and the GIF
+    plays them in reverse, so it builds up and ends (and holds) on the full ad.
+    """
+    gif = concept["gif"]
+    frames, durations = [content], [gif.get("first_ms", 1400)]
+    for i, step in enumerate(gif["frames"], start=2):
+        print(f"  gif frame {i}/{len(gif['frames']) + 1}", flush=True)
+        prompt = (
+            "Edit this ad. Keep everything identical (layout, background, every word of text, the shoe, "
+            f"lighting, framing) except this change: {step['edit']} "
+            "The product must still match the second image exactly. " + FORMAT_RULE
+        )
+        frame = call_api(prompt, [("frame.png", png_bytes(frames[-1])), ("product.png", ref_bytes)], args, api_key)
+        frames.append(frame)
+        composite(frame, full).save(out_dir / f"{stem}_f{i}.png")
+        durations.append(step.get("ms", 1400))
+    if gif.get("build"):
+        # frames were made by removing elements from the finished ad; play them back so it builds up
+        frames, durations = frames[::-1], durations[1:][::-1] + durations[:1]
+    # every frame reuses the static's extended top and bottom, so only the 4:5 area changes
+    frames = [composite(f, full) for f in frames]
+    small = [f.resize((544, 960), Image.LANCZOS).quantize(colors=200, method=Image.Quantize.MEDIANCUT) for f in frames]
+    small[0].save(out_dir / f"{stem}.gif", save_all=True, append_images=small[1:],
+                  duration=durations, loop=0, optimize=True)
+    print(f"  saved {stem}.gif ({len(frames)} frames)")
+
+
+def versions(out_dir, cid):
+    """Version numbers of a concept's statics (C01_v2.png -> 2), ignoring crops and GIF frames."""
+    return sorted(int(m.group(1)) for q in out_dir.glob(f"{cid}_v*.png")
+                  if (m := re.fullmatch(rf"{re.escape(cid)}_v(\d+)", q.stem)))
 
 
 def main():
     load_dotenv()
     p = argparse.ArgumentParser()
-    p.add_argument("ids", nargs="*", help="concept id prefixes, e.g. C01 C04 (default: all)")
-    p.add_argument("-n", type=int, default=1, help="variants per concept")
-    p.add_argument("--size", default="1024x1024", help="1024x1024 | 1024x1536 | 1536x1024")
+    p.add_argument("ids", nargs="*", help="concept id prefixes, e.g. W41_03 or C01 (default: all)")
+    p.add_argument("--brand", default=os.getenv("ADS_BRAND", "comfortwear"))
+    p.add_argument("--week", help="weekly batch folder, e.g. 2026-W41 (default: the brand's concept library)")
+    p.add_argument("--gif", action="store_true", help="also render GIFs for concepts that define them")
+    p.add_argument("--gif-only", action="store_true", help="render GIFs from existing statics without regenerating them")
     p.add_argument("--quality", default="high", help="low | medium | high")
-    p.add_argument("--model", default=os.getenv("OPENAI_IMAGE_MODEL", "gpt-image-1"))
-    p.add_argument("--fidelity", default="high", help="high | low: how closely to keep the reference shoe")
+    p.add_argument("--model", default=os.getenv("OPENAI_IMAGE_MODEL", "gpt-image-2"))
     p.add_argument("--extra", default="", help="extra instruction appended to every prompt")
     args = p.parse_args()
 
@@ -99,23 +211,32 @@ def main():
     # when the key is configured as a network secret the proxy attaches.
     api_key = os.getenv("OPENAI_API_KEY")
 
-    spec = json.loads((ADS_DIR / "concepts.json").read_text())
-    concepts = [c for c in spec["concepts"] if not args.ids or any(c["id"].startswith(i) for i in args.ids)]
-    out_dir = ADS_DIR / "output"
+    bdir, brand = load_brand(args.brand)
+    cpath = concepts_path(bdir, args.week)
+    concepts = [c for c in json.loads(cpath.read_text())["concepts"]
+                if not args.ids or any(c["id"].startswith(i) for i in args.ids)]
+    out_dir = cpath.parent / "output"
     out_dir.mkdir(exist_ok=True)
 
     for c in concepts:
         print(f"Generating {c['id']} ...", flush=True)
+        ref = reference_for(bdir, brand, c)
+        ref_bytes = ref.read_bytes()
         try:
-            images = generate(c, build_prompt(spec, c, args.extra), args, api_key)
+            if args.gif_only:
+                stem = f"{c['id']}_v{versions(out_dir, c['id'])[-1]}"
+                content = Image.open(out_dir / f"{stem}_4x5.png").convert("RGB")
+                full = Image.open(out_dir / f"{stem}.png").convert("RGB")
+            else:
+                stem = f"{c['id']}_v{(versions(out_dir, c['id']) or [0])[-1] + 1}"
+                content = call_api(build_prompt(bdir, brand, c, args.extra), [(ref.name, ref_bytes)], args, api_key)
+                full = extend_to_9x16(content, args, api_key)
+                save_static(content, full, out_dir, stem)
+                print(f"  saved {(out_dir / stem).relative_to(ADS_DIR.parent)}.png (+ _4x5)")
+            if (args.gif or args.gif_only) and c.get("gif"):
+                render_gif(content, full, ref_bytes, c, out_dir, stem, args, api_key)
         except Exception as e:
             print(f"  failed: {e}")
-            continue
-        existing = len(list(out_dir.glob(f"{c['id']}_v*.png")))
-        for i, img in enumerate(images, start=existing + 1):
-            path = out_dir / f"{c['id']}_v{i}.png"
-            path.write_bytes(img)
-            print(f"  saved {path.relative_to(ADS_DIR.parent)}")
 
 
 if __name__ == "__main__":

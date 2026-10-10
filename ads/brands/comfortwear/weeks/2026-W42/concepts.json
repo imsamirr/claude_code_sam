@@ -1,0 +1,238 @@
+{
+  "week": "2026-W42",
+  "notes": "First weekly batch: 20 unique concepts, 1 static each (9:16, content inside 4:5). 14 English + 6 net-new Spanish (US Latino voice). 4 GIFs. Personas and colorways from brand.json.",
+  "concepts": [
+    {
+      "id": "W42_01_nurse_hour_12_clock",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "black_purple",
+      "angle": "Shift payoff: hour 12 feels like hour 1",
+      "based_on": "Script line 'No more limping to my car after a 12-hour shift' (203 UGC, 3.05 ROAS); C05 stage format; I25 identity headline",
+      "headline": "Hour 12. Not limping to my car.",
+      "prompt": "Photo-real vertical ad. A smiling nurse in her 30s in navy scrubs with a lanyard, walking out of a hospital entrance at dusk toward the parking lot, full body visible, wearing the shoe from the reference photo; shoes clearly visible and sharp. Upper area: a large rounded purple badge with a white clock icon and bold white text \"HOUR 12\". Under it, bold white headline with soft shadow: \"Not limping to my car.\" Bottom of the safe area: small white pill with purple text \"Built for 12-hour shifts\".",
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {"edit": "Change the badge text from \"HOUR 12\" to \"HOUR 6\" and remove the headline \"Not limping to my car.\" and the bottom pill.", "ms": 900},
+          {"edit": "Change the badge text from \"HOUR 6\" to \"HOUR 1\". Make the sky brighter morning light.", "ms": 900}
+        ]
+      }
+    },
+    {
+      "id": "W42_02_cna_who_cares_for_you",
+      "persona": "cna_caregiver",
+      "lang": "en",
+      "colorway": "black_white",
+      "angle": "Caregiver identity: you look after everyone else",
+      "based_on": "Survey: CNAs/aides 30% 'just need comfort', long shifts, price-sensitive; nurse identity winners",
+      "headline": "You take care of everyone. Who takes care of your feet?",
+      "prompt": "Photo-real vertical ad, warm natural light. A caregiver in her 40s in light grey scrubs gently helping an elderly woman stand up from an armchair in a cozy living room, both smiling; the caregiver wears the shoe from the reference photo, feet clearly visible. Top of the safe area on a soft white band, bold black headline: \"You take care of everyone.\" second line in Comfort Wear purple: \"Who takes care of your feet?\" Bottom of the safe area: white rounded card with three small purple check lines: \"Cushion for long shifts\", \"Slip-on, no bending to tie\", \"Under $60\"."
+    },
+    {
+      "id": "W42_03_restaurant_wet_floor_grip",
+      "persona": "restaurant",
+      "lang": "en",
+      "colorway": "all_black",
+      "angle": "Kitchen safety: grip on wet floors during doubles",
+      "based_on": "r/Serverlife: 'cheap shoes kill your ankles, knees & back', Hoka Bondi SR praised for slip resistance but pricey; slip-resistant callout in winners; I5 sole-forward hero",
+      "headline": "Double shift. Wet floor. Still standing.",
+      "prompt": "Photo-real vertical ad in a busy restaurant kitchen with stainless steel counters, warm light. Low camera angle at floor level: a line cook's foot in the shoe from the reference photo stepping firmly on wet red quarry tile with a small splash of water, the lug outsole visible, black chef pants. Top of the safe area, bold white headline with shadow, three short lines: \"Double shift.\" \"Wet floor.\" \"Still standing.\" Bottom of the safe area: a black pill with white text \"Grippy sole · Cushioned all night · $59.95\"."
+    },
+    {
+      "id": "W42_04_concrete_doesnt_care",
+      "persona": "retail_warehouse",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "angle": "Concrete-floor workers: the floor is the problem, the shoe is the fix",
+      "based_on": "Survey: retail/cashier n=1,081 + warehouse n=296, PF 27–33%; Orthora 'built for hard concrete floors' (160–170 days); databank 'cashiers on concrete'",
+      "headline": "Concrete doesn't care about your feet. We do.",
+      "prompt": "Vertical ad split top/bottom. Top half: gritty photo of a bare grey polished concrete floor in a big-box store aisle, harsh fluorescent light, with bold black headline on it: \"Concrete doesn't care\" and second line \"about your feet.\" Bottom half: soft lavender background, the shoe from the reference photo in side profile, with three thin arrow callouts in black text: \"Arch support\" pointing at the midfoot, \"Thick rocker cushion\" pointing at the midsole, \"Grippy lug sole\" pointing at the outsole. Under the shoe, purple bold text: \"We do.\""
+    },
+    {
+      "id": "W42_05_teacher_cute_and_comfy",
+      "persona": "teacher",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "angle": "Teachers: comfortable AND cute, finally both",
+      "based_on": "Teacher forum language: 'Sneakers are often one of two things: comfortable or cute, and hardly ever both'; survey teachers n=775, PF 29%",
+      "headline": "Cute enough for picture day. Comfy enough for recess duty.",
+      "prompt": "Photo-real vertical ad in a bright elementary classroom with colorful bulletin boards. A friendly female teacher in her 40s in a cardigan and dark jeans standing by a whiteboard, wearing the shoe from the reference photo, full outfit visible so the shoes read as stylish. Top of the safe area on a cream band: bold black headline \"Cute enough for picture day.\" and on the next line in burgundy bold \"Comfy enough for recess duty.\" Small apple doodle accent next to the headline."
+    },
+    {
+      "id": "W42_06_stylist_behind_the_chair",
+      "persona": "stylist",
+      "lang": "en",
+      "colorway": "black_mint",
+      "angle": "Hairstylists: 9 hours behind the chair",
+      "based_on": "Survey: hair/beauty n=152, 'on my feet all day', 31% PF; style-conscious persona",
+      "headline": "9 hours behind the chair. Feet still happy.",
+      "prompt": "Photo-real vertical ad in a modern bright hair salon with mirrors and plants. A hairstylist in her 30s in black apron blow-drying a client's hair, standing, full body visible, wearing the shoe from the reference photo; shoes sharp. Top of the safe area: bold white headline on a soft dark gradient: \"9 hours behind the chair.\" second line in mint: \"Feet still happy.\" Bottom of the safe area: white pill with black text \"Soft knit · Rocker cushion · Slip-on\"."
+    },
+    {
+      "id": "W42_07_grandkids_cant_keep_up",
+      "persona": "active_retiree",
+      "lang": "en",
+      "colorway": "grey_pink",
+      "angle": "Active retiree identity: keeping up with grandkids",
+      "based_on": "Survey: retired = largest job group (27%), 47% aged 65+; ComfoFeet quote-headline format (340–360 days)",
+      "headline": "\"Now the grandkids can't keep up with me.\"",
+      "prompt": "Photo-real vertical ad, sunny park in autumn. A joyful grandmother in her late 60s with silver hair, in a light jacket and leggings, walking briskly while holding hands with two laughing grandkids running beside her; she wears the shoe from the reference photo, shoes visible. Top of the safe area, large bold white quote with soft shadow: \"Now the grandkids can't keep up with me.\" Small white text under it: \"— Linda, 68\"."
+    },
+    {
+      "id": "W42_08_slip_on_stand_steady",
+      "persona": "steady_feet",
+      "lang": "en",
+      "colorway": "light_grey",
+      "angle": "Older adults: easy on, steady stance, room for swelling (no medical claims)",
+      "based_on": "Mayo Clinic Connect forum: slip-ons that 'accommodate daily foot swelling', grip soles, side support; survey neuropathy 10%, arthritis 11%",
+      "headline": "Slip on. Stand steady.",
+      "prompt": "Clean vertical product ad on a warm off-white background. Headline at the top of the safe area in bold black: \"Slip on.\" and on the next line in purple: \"Stand steady.\" Center: the shoe from the reference photo in three-quarter view, large, studio lit. Four thin curved arrows with short labels in black: \"No laces to tie\" pointing at the bungee toggle laces, \"Stretch knit gives as feet swell\" pointing at the upper, \"Wide toe room\" pointing at the toe, \"Wide, grippy base\" pointing at the outsole."
+    },
+    {
+      "id": "W42_09_mom_wont_say",
+      "persona": "gift_for_parent",
+      "lang": "en",
+      "colorway": "purple",
+      "angle": "Gift for mom: she won't complain, you know anyway",
+      "based_on": "Own knowledge: comfort-shoe gifting by adult children; survey core wearer 65+; holiday gifting season ahead",
+      "headline": "Mom will never say her feet hurt. Get her these anyway.",
+      "prompt": "Photo-real vertical ad, cozy kitchen table in soft window light. An open gift box with tissue paper holding a pair of the shoes from the reference photo, a handwritten card next to it reading \"For your feet, Mom ♥\". A woman's hands in her 60s lifting one shoe out. Top of the safe area, bold black headline: \"Mom will never say her feet hurt.\" Second line in purple: \"Get her these anyway.\""
+    },
+    {
+      "id": "W42_10_25k_steps_fireworks",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "black_white",
+      "angle": "Theme-park travel: still standing for the night show",
+      "based_on": "Travel video winners (Kyro 293/369, 2.15 ROAS); team 'Paris/Barcelona 50 steps' statics; Vessi real-scene travel",
+      "headline": "25,000 steps. Still up for the fireworks.",
+      "prompt": "Photo-real vertical ad at night at a generic theme park plaza with colorful fireworks in the sky (no castles, no characters, no logos). A mom in her 40s with a backpack, holding a phone with a step-counter screen showing \"25,000\", standing relaxed and smiling, wearing the shoe from the reference photo; shoes lit and visible. Top of the safe area, bold white headline: \"25,000 steps.\" second line: \"Still up for the fireworks.\""
+    },
+    {
+      "id": "W42_11_step_counter_weightloss",
+      "persona": "walker_weightloss",
+      "lang": "en",
+      "colorway": "black_mint",
+      "angle": "Weight-loss walker: the shoes that keep up with the new habit",
+      "based_on": "Winner 'I lost 50lbs+ after walking 20,000+ steps daily' ($93k); team GLP-1 statics; rapid weight loss thins the foot's fat pad (Ozempic-feet coverage)",
+      "headline": "10,000 steps a day. My feet finally keep up.",
+      "prompt": "Vertical ad. Top of the safe area: a large phone-style step counter card, white rounded rectangle with a mint progress ring, big bold number \"10,000\" and small label \"steps today\". Below it, bold black headline: \"My feet finally keep up.\" Bottom half: a woman in her 40s in athleisure walking on a sunny neighborhood sidewalk, cropped from the knees down, wearing the shoe from the reference photo. Light mint and white palette.",
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {"edit": "Change the step count number from \"10,000\" to \"6,000\" and make the progress ring 60% full. Remove the headline \"My feet finally keep up.\"", "ms": 700},
+          {"edit": "Change the step count number from \"6,000\" to \"2,000\" and make the progress ring 20% full.", "ms": 700}
+        ]
+      }
+    },
+    {
+      "id": "W42_12_tired_of_tired_feet",
+      "persona": "comfort_only",
+      "lang": "en",
+      "colorway": "purple",
+      "angle": "No diagnosis needed: just everyday comfort",
+      "based_on": "Survey: 22% 'No foot pain, only need for comfort', 71% shop for 'comfort'",
+      "headline": "No diagnosis. Just tired of tired feet.",
+      "prompt": "Bold minimal vertical ad. Solid Comfort Wear purple background. Top of the safe area, huge white bold headline in three lines: \"No diagnosis.\" \"Just tired of\" \"tired feet.\" Below: the shoe from the reference photo floating at a slight angle with a soft shadow, large. Bottom of the safe area, white small text: \"Everyday comfort. $59.95\"."
+    },
+    {
+      "id": "W42_13_measure_dont_guess",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "angle": "Fit confidence: removes the #1 cause of unhappy customers (wrong size)",
+      "based_on": "Survey: 60% got the wrong size; comfort 2.98/5 with good fit vs 1.71 too small",
+      "headline": "Between sizes? Measure, don't guess.",
+      "prompt": "Clean vertical ad on an off-white background. Top of the safe area: bold black headline \"Between sizes?\" and in purple \"Measure, don't guess.\" Middle: three numbered steps stacked vertically, each a soft lavender rounded card with a simple purple line illustration and caption: \"1. Stand on paper, trace your foot\" (foot on paper against a wall), \"2. Measure heel to longest toe\" (ruler), \"3. Match it to our size chart\" (small chart). Bottom of the safe area: the shoe from the reference photo in side profile, small.",
+      "gif": {
+        "build": true,
+        "first_ms": 2600,
+        "frames": [
+          {"edit": "Remove the third step card (\"3. Match it to our size chart\") entirely, leaving empty background in its place.", "ms": 1000},
+          {"edit": "Remove the second step card (\"2. Measure heel to longest toe\") entirely, leaving empty background in its place.", "ms": 1000}
+        ]
+      }
+    },
+    {
+      "id": "W42_14_insole_shuffle",
+      "persona": "retail_warehouse",
+      "lang": "en",
+      "colorway": "all_black",
+      "angle": "Switching cost: insole users already pay for support and move it shoe to shoe",
+      "based_on": "Survey: 11% current solution = insoles/inserts/orthotics; script '$300 orthotics my podiatrist wanted me to buy'",
+      "headline": "Still moving your insoles from shoe to shoe?",
+      "prompt": "Photo-real vertical ad. Top half: overhead shot on a wooden floor of three different worn generic sneakers (no brands) with tongues pulled open, a hand pulling a generic blue gel insole out of one. Bold black headline on a white band across the top of the safe area: \"Still moving your insoles from shoe to shoe?\" Bottom half on soft lavender: the shoe from the reference photo in side profile, with a purple pill next to it: \"Arch support built in.\" and small black text: \"One pair. Nothing to move.\""
+    },
+    {
+      "id": "W42_15_es_housekeeping",
+      "persona": "housekeeping",
+      "lang": "es",
+      "colorway": "all_black",
+      "angle": "Spanish · housekeeping: you take care of every room, these take care of your feet",
+      "based_on": "Survey: housekeeping/janitorial has the highest PF share (35%); Spanish nurse statics $22k at 1.79 and $11k at 2.14 ROAS; Spanish nurse video $48k",
+      "headline": "Tú cuidas cada cuarto. Estos cuidan tus pies.",
+      "prompt": "Photo-real vertical ad in a bright hotel room. A Latina housekeeper in her 40s in a grey uniform smoothing a white bedsheet, standing, smiling, wearing the shoe from the reference photo; shoes visible on the carpet. Top of the safe area on a white band, bold black headline: \"Tú cuidas cada cuarto.\" second line in purple: \"Estos cuidan tus pies.\" Bottom of the safe area: purple pill with white text \"Cómodos de la mañana a la noche\"."
+    },
+    {
+      "id": "W42_16_es_nurse_pies_me_mataban",
+      "persona": "nurse",
+      "lang": "es",
+      "colorway": "black_purple",
+      "angle": "Spanish · nurse testimonial: my feet used to kill me after every shift",
+      "based_on": "Spanish video script 'Soy enfermera… apenas pude llegar a mi coche' ($48k, 1.53 ROAS); Spanish nurse statics (1.79–2.14 ROAS)",
+      "headline": "\"Después de cada turno de 12 horas, los pies me mataban.\"",
+      "prompt": "Photo-real vertical ad. A Latina nurse in her 30s in ceil-blue scrubs sitting on a bench in a hospital break room, smiling at the camera, legs crossed so the shoe from the reference photo is clearly visible. Top of the safe area, large white quote text on a dark purple translucent band: \"Después de cada turno de 12 horas, los pies me mataban.\" Bottom of the safe area, white rounded card with black text: \"Ahora llego a casa con energía.\" and small purple text \"— Marisol, enfermera\"."
+    },
+    {
+      "id": "W42_17_es_cocina_doble_turno",
+      "persona": "restaurant",
+      "lang": "es",
+      "colorway": "black_white",
+      "angle": "Spanish · kitchen doubles: wet floors and long hours",
+      "based_on": "r/Serverlife slip-resistance demand; restaurant persona; Spanish ad track record",
+      "headline": "Doble turno en la cocina. Y mis pies aguantan.",
+      "prompt": "Photo-real vertical ad in a busy restaurant kitchen, warm light, steam rising. A Latino line cook in his 30s in a white chef coat and black pants plating food, full body, wearing the shoe from the reference photo on a wet tile floor. Top of the safe area, bold white headline with shadow: \"Doble turno en la cocina.\" second line in bold: \"Y mis pies aguantan.\" Bottom of the safe area: three white pills in a row with black text: \"Agarre en piso mojado\", \"Soporte de arco\", \"$59.95\"."
+    },
+    {
+      "id": "W42_18_es_parado_en_concreto",
+      "persona": "retail_warehouse",
+      "lang": "es",
+      "colorway": "navy_blue",
+      "angle": "Spanish · warehouse/factory: 8 hours standing on concrete",
+      "based_on": "Survey warehouse/factory PF 33%; winning arrow-callout layout; Orthora concrete framing",
+      "headline": "¿8 horas parado en concreto? Tus pies lo sienten.",
+      "prompt": "Vertical ad. Top of the safe area: photo of a warehouse aisle with tall shelving and a grey concrete floor, with bold white headline on it: \"¿8 horas parado en concreto?\" and in yellow bold: \"Tus pies lo sienten.\" Lower half on a white background: the shoe from the reference photo in side profile with three thin arrow callouts in black text: \"Soporte de arco\" pointing at the midfoot, \"Cojín grueso\" pointing at the midsole, \"Punta ancha\" pointing at the toe."
+    },
+    {
+      "id": "W42_19_es_regalo_mama",
+      "persona": "gift_for_parent",
+      "lang": "es",
+      "colorway": "grey_pink",
+      "angle": "Spanish · gift for mamá: she never complains, but you know",
+      "based_on": "Family-centered gifting; survey core wearer 65+; Spanish ad track record",
+      "headline": "Mamá nunca se queja de sus pies. Pero tú sabes.",
+      "prompt": "Photo-real vertical ad, warm family living room with soft lamp light. A Latina grandmother in her late 60s sitting on a sofa, smiling as she opens a gift box with the shoes from the reference photo inside; her adult daughter sits beside her with an arm around her shoulders. Top of the safe area, bold black headline on a cream band: \"Mamá nunca se queja de sus pies.\" second line in pink-purple bold: \"Pero tú sabes.\" Bottom of the safe area, small white pill: \"El regalo que sí va a usar\"."
+    },
+    {
+      "id": "W42_20_es_comadre_chat",
+      "persona": "cna_caregiver",
+      "lang": "es",
+      "colorway": "black_purple",
+      "angle": "Spanish · peer recommendation in a WhatsApp-style chat (word of mouth)",
+      "based_on": "Script 'three other nurses on my floor ordered them' (peer contagion); survey word of mouth 427 mentions; native chat format (I54, 3.05-ROAS comments static)",
+      "headline": "Comadre, ¿qué zapatos son esos?",
+      "prompt": "Vertical ad that looks like a phone chat screenshot over a softly blurred photo of a hospital hallway. Three chat bubbles stacked in the safe area: a white bubble on the left: \"Comadre, ¿qué zapatos son esos? 👀\"; a green bubble on the right: \"Comfort Wear. Ya no me duelen los pies en el trabajo 🙌\"; a white bubble on the left: \"Pásame el link, porfa\". Below the bubbles: the shoe from the reference photo in side profile on a small white rounded card. Clean, legible, realistic chat styling, no app logos.",
+      "gif": {
+        "build": true,
+        "first_ms": 2600,
+        "frames": [
+          {"edit": "Remove the third chat bubble (\"Pásame el link, porfa\") and the shoe card below the bubbles, leaving the blurred background.", "ms": 1200},
+          {"edit": "Remove the green chat bubble (\"Comfort Wear. Ya no me duelen los pies en el trabajo 🙌\"), leaving only the first bubble.", "ms": 1200}
+        ]
+      }
+    }
+  ]
+}
