@@ -198,7 +198,9 @@
     "assignee_id": "1203266387321130",
     "assignee_name": "Samir Patel",
     "section_id": "1203476664398279",
-    "section_name": "Review"
+    "section_name": "Review",
+    "enabled": false,
+    "note": "Disabled 2026-10-11: user gets a Slack DM instead."
   },
   "slack": {
     "notify_channel_id": "U04PZNV9FV0",

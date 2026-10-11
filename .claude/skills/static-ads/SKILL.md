@@ -8,9 +8,14 @@ description: Research, write and render a weekly batch of Meta static ads (and b
 The engine lives in `ads/` (`generate.py`, `review.py`, `atria_pull.py`); each brand lives in
 `ads/brands/<brand>/`. Read `ads/README.md` for commands. This skill is the process around them.
 
-Default deliverable per week: **40 unique concepts, 1 static each** (no variations), saved as a
-9:16 PNG (Stories/Reels) plus its 4:5 crop (feed). **50% winning personas, 50% net-new**, about
-**30% Spanish**. GIFs are rendered only for statics the user approves.
+Two batches a week, 1 static per concept (no variations), each saved as a 9:16 PNG
+(Stories/Reels) plus its 4:5 crop (feed), about **30% Spanish**. GIFs are rendered only for statics
+the user approves.
+
+| Batch | When | Folder | Ids | Content |
+|---|---|---|---|---|
+| **Iterations** | Tuesday | `weeks/<YYYY>-W<ww>-tue` (current week) | `T<ww>_nn_slug` | 20 big-swing iterations of what's winning now and what won this time last year. **No net-new ideas.** |
+| **Net-new** | Friday | `weeks/<YYYY>-W<ww>` (next week) | `W<ww>_nn_slug` | 40 concepts: ~32 net-new, ~8 in proven winning-persona formats. |
 
 ## 0. New brand? Onboard it first
 
@@ -33,15 +38,14 @@ Default deliverable per week: **40 unique concepts, 1 static each** (no variatio
    script lines worth stealing, review/survey language, competitor and long-running inspiration.
    Reuse the Comfort Wear analysis as the model for depth and structure.
 
-## Weekly rule: done by Friday
+## Schedule
 
-Next week's batch must be complete every **Friday by 9am Eastern**: concepts written, all statics
-rendered and QA'd, pushed, and the Drive sheet posted. A routine starts a fresh session every Friday
-at 6am ET to do this. The target is the coming ISO week (the run on Fri Oct 23, 2026 builds
-`2026-W44`). If that week's `concepts.json` already exists (seasonal or hand-made concepts), keep
-those concepts and add new ones until there are 40.
+One routine ("Comfort Wear weekly statics") fires **Tuesday and Friday at 5:50am ET**, done by 9am:
+- **Tuesday** → iteration batch for the current ISO week (`2026-W44-tue` on Tue Oct 27, 2026).
+- **Friday** → net-new batch for the coming ISO week (the run on Fri Oct 23, 2026 builds `2026-W44`).
+If the target `concepts.json` already exists, keep its concepts and add until the batch is full.
 
-## 1. Research refresh (each week, short)
+## 1. Research refresh (each run, short)
 
 - Read `research/analysis.md` and `feedback.json` (what was approved/rejected and why).
 - **Same window last year**: `python ads/atria_pull.py seasonal --week <target week>` lists the top
@@ -52,14 +56,10 @@ those concepts and add new ones until there are 40.
   Atria's API returns no transcripts for these, so match ad names (e.g. "Kyro_293") against
   `research/data/video_transcripts.md` for script lines, and use the ad name/headline/primary text
   otherwise. Rank by spend: ROAS from Feb 2025 on is unreliable (tracking break, see analysis.md).
-- **Rising winners (iterate on these first)**: `python ads/atria_pull.py rising` lists ads launched in
-  the last 30 days (no spend in the 60 days before) with **spend >= $300 and ROAS >= 1.8**, any format.
-  For each one, write **3 static iterations of the same concept and angle** (same audience, promise and
-  hook idea; different static formats: e.g. ranked list, callout layout, quote/UGC-style, comparison),
-  tagged `"group": "iteration"` with `"based_on"` naming the ad, its spend and ROAS. They count toward
-  the winning half and come before seasonal concepts. Match the ad's language (a Spanish winner gets
-  Spanish iterations) and audience; still drop any claim in `claims_to_avoid` even if the source ad
-  used it. Spend remains the reference for older ads (`seasonal`, `winners`).
+- **Current winners (Tuesday)**: `python ads/atria_pull.py current` lists every ad in the last 30 days
+  with **spend >= $300 and ROAS >= 1.8**, any format (`audience` marks retargeting vs prospecting);
+  `python ads/atria_pull.py rising` is the same filter limited to ads launched in that window.
+  Spend remains the reference for older ads (`seasonal`, `winners`), whose ROAS is unreliable.
 - **Atria inspiration**: `python ads/atria_pull.py inspo` (rising image ads, last 30 days) every
   week. Skim `inspiration_raw.csv` for new formats and try at least 3 of them in the net-new half.
   Re-read `brand_inspiration_longrunning.csv` (ads running for months) when stuck.
@@ -74,8 +74,8 @@ those concepts and add new ones until there are 40.
 
 ## 2. Write the weekly batch
 
-Create `ads/brands/<brand>/weeks/<YYYY>-W<ww>/concepts.json` (ISO week of the launch week).
-Ids are `W<ww>_<nn>_<slug>`, unique forever. Schema per concept:
+Create `ads/brands/<brand>/weeks/<folder>/concepts.json` (folder per the schedule table above).
+Ids are `W<ww>_<nn>_<slug>` (Friday) or `T<ww>_<nn>_<slug>` (Tuesday), unique forever. Schema per concept:
 
 ```json
 {"id": "W42_07_grandkids_cant_keep_up", "persona": "active_retiree", "lang": "en",
@@ -85,20 +85,41 @@ Ids are `W<ww>_<nn>_<slug>`, unique forever. Schema per concept:
          "frames": [{"edit": "Remove the headline ...", "ms": 900}, {"edit": "...", "ms": 900}]}}
 ```
 
-Rules for the 40 (tag each concept `"group": "winning"` or `"net_new"`):
-- **Split**: 20 `winning` concepts for the personas with proven spend (Comfort Wear: nurses, then
-  CNAs/caregivers), using proven formats and library concepts not yet run in the current format;
-  20 `net_new` concepts, weighted to the personas the user wants to grow (currently housekeeping,
-  gifting and weight-loss walkers, 5 each) plus about 5 other tests.
+### Tuesday: iteration batch (20, iterations only)
+
+Sources, in this order: (1) `current_winners.csv` (rising winners first), (2) `seasonal_<week>.csv`
+(top spenders this time last year, by spend). Every concept must name its source ad in `based_on`
+(name, spend, ROAS or "spend-ranked, last year") and keep that ad's **concept and angle**: same
+audience, problem, promise and core hook idea. **No net-new ideas.**
+
+Make them **big swings**, not tweaks: put the angle into a static format the source never used,
+taken from Atria inspiration (`inspiration_raw.csv` rising formats, `brand_inspiration_longrunning.csv`)
+or formats that are already working in the account. Examples: a video's "we tested 5 shoes" becomes a
+ranked list, a scorecard, a receipt or postcards; a testimonial becomes a chat screenshot, a sticky note
+or a quote card. Name the new format in `angle`. Spread the 20 across the winners (2–4 per strong ad;
+the top spender/ROAS gets the most), at least 8 different formats, and **~6 Spanish** (Spanish winners
+get Spanish iterations; also put proven English angles into Spanish). Retargeting winners can get
+objection-handling or proof formats; prospecting winners get hook-led formats. Tag `"group": "iteration"`.
+
+### Friday: net-new batch (40, mostly net new)
+
+Rules for the 40 (tag each concept `"group": "net_new"` or `"winning"`):
+- **Split**: ~32 `net_new` concepts (new angles, personas and formats; weight the personas the user
+  wants to grow: currently housekeeping, gifting for her and weight-loss walkers) and ~8 `winning`
+  concepts in proven winning-persona formats (Comfort Wear: nurses, CNAs). Don't repeat angles from
+  this week's Tuesday iterations.
 - **Unique**: 40 different angles, none repeating a previous week's angle. No two concepts share persona + angle; mix formats (lifestyle photo,
   product + callouts, split/comparison, quote/testimonial, native chat/comment screenshot,
-  checklist/steps, bold type-only).
+  checklist/steps, bold type-only). Try at least 3 formats from the latest Atria `inspo` pull.
+
+### Both batches
+
 - **Personas**: cover at least 8 personas across the week.
 - **Colorway**: pick from the persona's `colorways` (or `test_colorways`, at most 2 per week) and
   rotate so no colorway appears more than 8 times. `generate.py` warns when a colorway is
   outside the persona's palette.
 - **Spanish**: when the brand has Spanish history (Comfort Wear: Spanish nurse statics at 1.79–2.14
-  ROAS, Spanish video $48k), make ~12 of the 40 **net-new Spanish concepts**, not translations, spread across both groups.
+  ROAS, Spanish video $48k), about 30% of each batch is written natively in Spanish, not translated.
   Write as a Spanish speaker living in the US talks: `tú`, everyday Mexican-leaning US Latino
   phrasing ("los pies me mataban", "parado todo el día", "comadre", "porfa", "doble turno"),
   family and coworker framing, US number format. Avoid Spain-isms and stiff translated copy
@@ -160,17 +181,7 @@ converted to a Google Sheet, title `<week> concepts`). Image files are too large
 Drive connector, so the sheet links to each 9:16, 4:5 and GIF file on GitHub. The user fills in the
 Verdict and Notes columns, and the next run logs those with `review.py log`.
 
-Asana (when the batch is ready): run
-`python ads/asana_task.py --week <week> --sheet-url <Drive sheet URL> --folder-url <Drive week folder URL>`.
-It creates "Review static ads batch <week> (<n> statics)" in `brand.json` → `asana.project_id`
-(Comfort Wear: "ComfortWear - Image Ads Process"), assigned to `asana.assignee_id` (Samir Patel), due
-today, with the links, counts, GIF candidates and cost, and puts it at the **top of the Review
-column** (`asana.section_id`). It needs `ASANA_ACCESS_TOKEN` in the environment. If that isn't set,
-fall back to the Asana connector (create_tasks with `project_id` + `section_id`), which can only place
-it at the bottom of Review, and say so. Asana `html_notes` allows only `body, strong, em, u, s, code,
-ol, ul, li, a, blockquote, pre, h1, h2, hr, img, table, tr, td` (no `<p>`).
-
-Slack (last step, once the sheet and the Asana task exist): DM `brand.json` → `slack.notify_channel_id`
-with slack_send_message: a bold title "Comfort Wear statics ready: <week> (<n> concepts)", then links to the
-review sheet, the Asana task, the Drive folder and the GitHub output folder, then one line with the
-winning/net-new split, Spanish count, GIF candidates and image cost.
+Slack (last step, once the sheet exists; no Asana task): DM `brand.json` → `slack.notify_channel_id`
+with slack_send_message: a bold title "Comfort Wear <Tuesday iterations|Friday net-new> ready: <folder>
+(<n> concepts)", then links to the review sheet, the Drive folder and the GitHub output folder, then one
+line with the group split, source ads iterated on (Tuesday), Spanish count, GIF candidates and image cost.
