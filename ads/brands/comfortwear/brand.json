@@ -242,5 +242,6 @@
       "min_roas": 1.8
     },
     "roas_note": "ROAS is unreliable Feb–Dec 2025 (tracking break): rank older ads by spend."
-  }
+  },
+  "colorway_template": "The shoe is the {label} colorway shown in the reference photo."
 }

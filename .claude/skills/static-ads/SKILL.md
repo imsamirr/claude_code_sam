@@ -33,7 +33,8 @@ Ask the user for anything below you can't find. Do the steps in order; each ends
 2. **Product references**: find clean studio shots in the brand's Drive (search the shared assets folder
    for Studio/Catalog/Product folders; prefer one side-profile or hero shot per colorway/variant, plain
    light background). Download, resize to ~1536px PNG into `reference/`, and list each in
-   `colorways` with a plain-language `label`. Never use crops of old ads; they make the product drift.
+   `colorways` with a plain-language `label`, and set `colorway_template` (the sentence the prompt
+   uses to name the variant, e.g. "The product is the {label} shown in the reference photo."). Never use crops of old ads; they make the product drift.
    Check with a contact sheet that each file is a different variant.
 3. **brand.json basics**: `name`, `product`, `price`, `website`, `palette` (with hex), `font_style`,
    `audience` (who uses it; if gendered, add a `prompt_rules` line on who may be shown using it),
@@ -42,7 +43,8 @@ Ask the user for anything below you can't find. Do the steps in order; each ends
    ops say the brand can't promise). Ask the user to confirm colorway names and any color rules per
    audience.
 4. **Research** (write `research/analysis.md`, model it on Comfort Wear's):
-   - Set `atria_account` (list accounts if unsure; the API returns names). Pull
+   - Set `atria_account` (list accounts if unsure; the API returns names) and `inspo_queries`
+     (10–15 category/problem keywords for the ad-library search; without them inspo searches shoe terms). Pull
      `atria_pull.py winners`, `losers`, `inspo`, `current`, `rising`, and `seasonal --week <next week>`.
      Check whether recent ROAS is readable; note unreliable periods in `program.roas_note`.
    - Winners vs losers patterns, top video scripts (transcripts if available), reviews (Trustpilot,

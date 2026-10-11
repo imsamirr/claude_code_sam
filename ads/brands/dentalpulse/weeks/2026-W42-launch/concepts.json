@@ -1,0 +1,251 @@
+{
+  "week": "2026-W42-launch",
+  "notes": "DentalPULSE launch batch: 24 big-swing statics, 6 per appliance type (dentures incl. caregiver + switcher, night guards, retainers, aligners). Built from the 15 current winners (comparison / 'tested 7 pods' listicle / native advertorial / anti-tablet), the 165-response survey and competitor positioning (Zima, GuruNanda, oPro, Novapod, Sonic). English only. Quotes are real survey or product-page review language; names are first name + last initial only. Claims needing brand sign-off are marked in based_on.",
+  "concepts": [
+    {
+      "id": "L42_01_denture_receipt_drawer",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Cost of the tablet habit: a drawer of receipts vs one Pod",
+      "based_on": "Winner IMG_DEN64 native ad ('a drawer of receipts: tablets, brushes...', ROAS 2.9); survey 'having to purchase the tablets'",
+      "headline": "I added up 5 years of denture tablets.",
+      "prompt": "Overhead flat-lay photo on a worn wooden kitchen table: an open kitchen drawer stuffed with dozens of crumpled store receipts and many empty unbranded denture-tablet boxes and torn foil strips, an old denture brush, a pair of reading glasses. To the right, clean and alone on the table, the DentalPULSE Pod from the reference photo. A yellow sticky note in handwritten marker on the drawer edge reads \"5 years of tablets\". Top of the image in bold navy sans-serif: \"I added up 5 years of denture tablets.\" Under it, smaller: \"Then I bought one thing that just uses tap water.\" Natural window light, documentary feel."
+    },
+    {
+      "id": "L42_02_denture_adhesive_goo",
+      "persona": "denture_wearer",
+      "colorway": "pod_open",
+      "group": "netnew",
+      "angle": "Adhesive goo: the thing tablets never get off",
+      "based_on": "Survey: 'could never get rid of the gooey paste', 'Fixodent slime', 'certainly cleans all the residue from denture paste'",
+      "headline": "Still scraping Fixodent off with your thumbnail?",
+      "prompt": "Extreme macro close-up, split vertically in two halves. Left half labeled with a small white pill \"Brush + tablet\": the pink gum base of a realistic upper denture with sticky white denture-adhesive smears and strings still clinging to it. Right half labeled \"5 minutes in the Pod\": the same denture gum base glossy, clean and smooth, water droplets on it. Below the split, the open DentalPULSE Pod from the reference photo with water in its steel basin. Headline at top in bold navy: \"Still scraping adhesive off with your thumbnail?\" Clean pale-blue background around the photos."
+    },
+    {
+      "id": "L42_03_denture_husband_noticed",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "netnew",
+      "format": "fb_comment",
+      "angle": "Social proof: 'my husband noticed they were white again'",
+      "based_on": "Survey 5-star: 'The denture lost its whiteness and was turning yellow. Now it is as white as when I first got it! My husband noticed they were white again.'",
+      "headline": "My husband noticed before I said a word.",
+      "prompt": "A Facebook comment thread on a white background. First comment from \"Linda M.\" (smiling woman in her late 60s): \"My denture was turning yellow and losing its whiteness. Now it's as white as when I first got it. My husband noticed before I said a word 😊\". Reaction pill shows 214. Indented reply from \"Carol T.\" (woman in her 70s): \"Which cleaner is this??\". Indented reply from \"Linda M.\": \"The DentalPULSE Pod. Just tap water, 5 minutes.\" Below the thread, a natural photo of the DentalPULSE Pod from the reference photo on a bathroom counter next to a glass."
+    },
+    {
+      "id": "L42_04_denture_tablet_obituary",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Pattern interrupt: an obituary for the denture tablet",
+      "based_on": "Winner DEN226 'Why tablets are not good / evil Polident' (ROAS 1.91); 'Ninety years ago people cleaned...' nostalgia hook",
+      "headline": "In loving memory of the denture tablet (1930s–2026)",
+      "prompt": "A realistic newspaper obituary clipping on aged off-white newsprint, slightly creased, black serif type, laid on a white bathroom counter. Obituary title: \"In loving memory of the denture tablet\". Subtitle: \"1930s – 2026\". Body text in small newspaper columns, legible: \"Fizzed faithfully every night for nearly a century. Turned the water blue. Left the film behind. Survived by a jar of soggy brushes. Replaced by tap water and sound waves.\" A small grainy black-and-white illustration of a fizzing glass of water. Next to the clipping, sharp and modern, the DentalPULSE Pod from the reference photo. No brand names on the clipping."
+    },
+    {
+      "id": "L42_05_caregiver_mom_visit",
+      "persona": "denture_caregiver",
+      "colorway": "pod",
+      "group": "netnew",
+      "format": "x_post",
+      "angle": "Adult child notices mom's denture cup during a visit",
+      "based_on": "Survey: family/grandchildren noticed; gift buyers; denture wearers 60+",
+      "headline": "Saw my mom's denture cup this weekend and ordered this before I left.",
+      "prompt": "An X post from display name \"Megan\" with handle \"@megtalksfood\". Post text: \"visited my mom this weekend and saw the cup she soaks her dentures in. cloudy water, old brush, half a box of tablets.\n\nordered her an ultrasonic cleaner before I even left the driveway. she texted me today: 'they feel brand new'\". Attached photo with rounded corners: the DentalPULSE Pod from the reference photo on a grandmother's bathroom counter with a lace doily, a vintage mirror, a small potted violet. Engagement row: 38 replies, 412 reposts, 6.1K likes."
+    },
+    {
+      "id": "L42_06_switcher_kept_returned",
+      "persona": "switcher",
+      "colorway": "pod",
+      "group": "winning",
+      "angle": "Iteration of 'Guess which cleaner I kept and which I returned' with real-feeling receipts",
+      "based_on": "Winner IMG_DEN64 51_3 'Guess which ultrasonic denture cleaner I kept' (ROAS 2.91); survey: ~15% previously owned another pod",
+      "headline": "I bought 3 denture cleaners. I kept one.",
+      "prompt": "Photo on a sunlit kitchen table: three ultrasonic cleaners in a row, all unbranded with no logos: a mint-green rounded pod, a black cylinder pod, and in the middle the white DentalPULSE Pod from the reference photo. In front of each, a printed store receipt. The receipts in front of the green and black pods have handwritten red marker \"RETURNED\" scrawled across them. The receipt in front of the DentalPULSE Pod has a handwritten blue check mark and \"KEPT\". White bold text with soft shadow at top: \"I bought 3 denture cleaners. I kept one.\" Below it smaller: \"Here's what the other two missed.\""
+    },
+    {
+      "id": "L42_07_nightguard_yellow_timeline",
+      "persona": "night_guard",
+      "colorway": "pod_open",
+      "group": "netnew",
+      "angle": "Stop the yellowing before it sets: a night guard's 12-month timeline",
+      "based_on": "Survey: 'my old night guard looked gross yellow and cloudy'; negatives: old stains don't fully reverse, so frame it as prevention",
+      "headline": "Your night guard doesn't turn yellow overnight.",
+      "prompt": "Clean infographic on white. Headline top in bold navy: \"Your night guard doesn't turn yellow overnight.\" Subhead: \"It happens one rinse at a time.\" A horizontal row of four realistic clear hard night guards (single upper arch, smooth acrylic) labeled \"Month 1\", \"Month 3\", \"Month 6\", \"Month 12\", each progressively more cloudy and yellow-tinted. Below, a blue arrow branches to a fifth night guard that stays crystal clear, labeled \"Month 12, cleaned daily in the Pod\", next to the open DentalPULSE Pod from the reference photo. Accurate, realistic appliances."
+    },
+    {
+      "id": "L42_08_nightguard_bedside_reveal",
+      "persona": "night_guard",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Gross-out: what's growing on the guard you put in your mouth every night",
+      "based_on": "Survey: 'never felt clean', 'worried it still had bacteria', 'smell'; product-page review 'the water was BROWN after the first cycle'",
+      "headline": "You put it in your mouth for 8 hours a night.",
+      "prompt": "Moody dark bedroom nightstand at night, warm lamp light: a plastic night-guard case left open with a cloudy, yellowed clear night guard inside, a glass of water, a phone face down. The guard is shown under a circular magnifying-glass inset that reveals a grimy film in its grooves. Bold white headline at the top: \"You put it in your mouth for 8 hours a night.\" Second line smaller: \"When did you last really clean it?\" Bottom third: the DentalPULSE Pod from the reference photo glowing softly on the nightstand with the text \"5 minutes. Tap water. Done.\""
+    },
+    {
+      "id": "L42_09_nightguard_trustpilot_brighter",
+      "persona": "night_guard",
+      "colorway": "pod",
+      "group": "netnew",
+      "format": "trustpilot",
+      "angle": "Review stack from grinders",
+      "based_on": "Survey 5-star night guard quotes: 'noticeably cleaner and brighter', 'looks and feels cleaner', 'less build up'",
+      "headline": "Night guard wearers on the Pod",
+      "prompt": "Three stacked Trustpilot-style review cards on a pale blue background. Card 1, reviewer \"Jenna R.\", title \"Cleaner and brighter\", text \"My night guard used to feel cloudy and rough. It's noticeably cleaner and brighter now. My husband even said something.\" Card 2, reviewer \"Mark D.\", title \"Finally feels clean\", text \"Soap and a toothbrush never got it clean. It looks and feels cleaner after a week.\" Card 3, reviewer \"Alisha P.\", title \"Less buildup\", text \"My guard has way less buildup and it doesn't smell anymore.\" Bottom: the DentalPULSE Pod from the reference photo and headline \"Night guard wearers on the Pod\" in bold navy."
+    },
+    {
+      "id": "L42_10_nightguard_dentist_bill",
+      "persona": "night_guard",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Protect a $500 guard with a $99 habit",
+      "based_on": "Native-ad winner's '$2,400 dentures quote' price-anchor logic applied to night guards (custom guards often cost several hundred dollars)",
+      "headline": "Your night guard cost hundreds. Treat it that way.",
+      "prompt": "Clean product still life on soft pale-blue: a realistic custom clear night guard resting in an open black velvet jewelry box like an expensive ring, with a small price-tag string attached that reads \"custom night guard\". Beside it, the DentalPULSE Pod from the reference photo. Bold navy headline: \"Your night guard cost hundreds.\" Second line in DentalPULSE blue: \"Stop cleaning it with hand soap.\" Premium, elegant lighting."
+    },
+    {
+      "id": "L42_11_nightguard_couple_bed",
+      "persona": "night_guard",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Couple humor: the grinding partner",
+      "based_on": "Survey 'who noticed': husband/partner; bruxism is a couple problem (grinding noise)",
+      "headline": "He grinds. I stopped complaining about the smell.",
+      "prompt": "Warm lifestyle photo, morning light in a cozy bedroom: a woman in her 40s sitting up in bed holding a coffee mug, smirking at the camera; behind her, a man asleep. On the nightstand on her side, the DentalPULSE Pod from the reference photo next to a clear night guard case. Bold text overlay in a clean white rounded box at the top: \"He grinds his teeth. I stopped complaining about his night guard.\" Small caption at bottom: \"Tap water + 5 minutes. Every morning.\""
+    },
+    {
+      "id": "L42_12_nightguard_travel_hotel",
+      "persona": "night_guard",
+      "colorway": "travel_pod",
+      "group": "netnew",
+      "angle": "Grinders who travel: the guard that sits in a hotel cup",
+      "based_on": "Product line: Travel Pod; survey 'a way to easily clean them on the go'",
+      "headline": "Your night guard travels too.",
+      "prompt": "Top-down flat lay of an open carry-on suitcase on a hotel bed with folded clothes, passport, earbuds, and the DentalPULSE Travel Pod from the reference photo open with a clear night guard inside. A hotel bathroom glass in the corner with a crossed-out sticky note reading \"not this\". Bold navy headline at top on a white band: \"Your night guard travels too.\" Subline: \"Fits in your carry-on. Cleans with tap water.\""
+    },
+    {
+      "id": "L42_13_retainer_milky_clear",
+      "persona": "retainer",
+      "colorway": "pod_open",
+      "group": "netnew",
+      "angle": "Milky to clear: the 'fresh from the orthodontist' feeling",
+      "based_on": "Survey: 'Retainer clear not milky', 'My retainer is clear again!', 'clean, clear and odor free'",
+      "headline": "Remember when your retainer was this clear?",
+      "prompt": "Bright, crisp macro product photo: two clear plastic retainers (thin, realistic full upper arch) side by side on a white surface. Left one cloudy, milky white with a dull film, labeled with a small grey pill \"6 months of brushing\". Right one glass-clear and glossy, labeled with a blue pill \"After the Pod\". Behind them, slightly out of focus, the open DentalPULSE Pod from the reference photo. Headline at top in bold navy: \"Remember when your retainer was this clear?\""
+    },
+    {
+      "id": "L42_14_retainer_parent_teen_text",
+      "persona": "retainer",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Parent of a teen: protect the $500 replacement",
+      "based_on": "Survey: 'daughter got one too for her retainer'; parents buy for teens; retainer replacement cost is a known parent pain",
+      "headline": "Mom, my retainer smells. Can I just get a new one?",
+      "prompt": "A realistic iPhone iMessage screenshot in light mode. Contact name at top: \"Emma 💜\". Grey incoming bubble: \"mom my retainer smells so bad\". Grey incoming bubble: \"can i just get a new one\". Blue outgoing bubble: \"a new one is $300\". Blue outgoing bubble: \"there's a box on your bathroom counter. put it in there for 5 min\". Grey incoming bubble an hour later: \"ok wait it actually doesn't smell anymore??\". Below the screenshot, a real photo of the DentalPULSE Pod from the reference photo on a teen's bathroom counter with a hair clip and skincare bottles."
+    },
+    {
+      "id": "L42_15_retainer_tablets_brittle",
+      "persona": "retainer",
+      "colorway": "pod_open",
+      "group": "netnew",
+      "angle": "Tablets vs sound waves for retainers",
+      "based_on": "Survey: 'stains won't come out, tablets made the retainer fragile'; winner DEN226 anti-tablet angle",
+      "headline": "Soaking it in chemicals every night?",
+      "prompt": "Clean two-column comparison graphic on white. Left column header \"Nightly tablet soak\" with a photo of a fizzing glass of blue-tinted water holding a cloudy retainer, and three grey lines with small x icons: \"Fizz, wait, rinse, repeat\", \"Film stays in the grooves\", \"Buy more every month\". Right column header \"DentalPULSE Pod\" with the open Pod from the reference photo holding a clear retainer, and three blue lines with check icons: \"Tap water only\", \"Sound waves reach the grooves\", \"5 minutes, one button\". Headline above both in bold navy: \"Soaking it in chemicals every night?\""
+    },
+    {
+      "id": "L42_16_retainer_wire_hawley",
+      "persona": "retainer",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Wire (Hawley) retainers: the gunk around the wire",
+      "based_on": "Audience includes wire retainers; survey 'buildup inside crevice', 'getting in tight areas'",
+      "headline": "The gunk around the wire? A brush can't reach it.",
+      "prompt": "Extreme macro close-up of a realistic Hawley retainer (pink or clear acrylic palate with a thin metal wire across the front teeth area) showing white buildup collecting where the wire meets the acrylic. A thin blue circle highlights that spot with a label \"where your brush can't reach\". Lower third: the DentalPULSE Pod from the reference photo with the line \"Sound waves can.\" Headline at top in bold navy: \"The gunk around the wire? A brush can't reach it.\""
+    },
+    {
+      "id": "L42_17_retainer_notes_app",
+      "persona": "retainer",
+      "colorway": "travel_pod",
+      "group": "netnew",
+      "angle": "Adult retainer wearer's honest notes-app confession",
+      "based_on": "Survey 'not sure how clean it was', 'just rinsing it'; native/lo-fi formats outperform designed graphics in current winners",
+      "headline": "Things I did with my retainer before this:",
+      "prompt": "A realistic iPhone Notes app screenshot in light mode, yellow header, title \"retainer confessions\". Bullet list in the system font: \"rinsed it under the tap and called it clean\", \"brushed it with toothpaste (scratched it)\", \"left it in a napkin at a restaurant\", \"smelled it. regretted it\", \"wore it for 7 years like this\". Last line in bold: \"now: 5 min in the pod every morning\". Below the screenshot, a real photo of the DentalPULSE Travel Pod from the reference photo open with a clear retainer inside, on a bathroom counter."
+    },
+    {
+      "id": "L42_18_retainer_trustpilot_clear",
+      "persona": "retainer",
+      "colorway": "pod_open",
+      "group": "netnew",
+      "format": "trustpilot",
+      "angle": "Single big review: 'My retainer is clear again!'",
+      "based_on": "Survey 5-star: 'My retainer is clear again!'; 'I wasn't sure if it would really work'",
+      "headline": "My retainer is clear again!",
+      "prompt": "One large Trustpilot-style review card centered on a soft pale-blue background. Reviewer \"Diane K.\", title \"My retainer is clear again!\", text \"I wasn't sure it would really work. The other retainer cleaner I had didn't visibly clean anything. A week in, it's clear again and doesn't smell.\" Below the card, the open DentalPULSE Pod from the reference photo with a crystal-clear retainer resting on the lid."
+    },
+    {
+      "id": "L42_19_aligner_white_film",
+      "persona": "aligner",
+      "colorway": "pod_open",
+      "group": "netnew",
+      "angle": "The white film on aligners",
+      "based_on": "Survey aligner/Invisalign quotes: 'No white film!', 'always seeing something like a film left on my appliance even after brushing', 'trays looked cloudy'",
+      "headline": "That white film on your aligners isn't 'normal'.",
+      "prompt": "Ultra-sharp macro photo of a realistic clear aligner tray (thin transparent full upper arch) held between two fingers with clean nails, a visible chalky white film on the inner tooth wells. A thin blue callout line points to the film with the label \"plaque + saliva film\". Bottom: the open DentalPULSE Pod from the reference photo with a crystal-clear aligner going in. Headline at top in bold navy: \"That white film on your aligners isn't 'normal'.\" Subline: \"5 minutes in tap water. No tablets.\""
+    },
+    {
+      "id": "L42_20_aligner_22_hours",
+      "persona": "aligner",
+      "colorway": "pod_open",
+      "group": "netnew",
+      "angle": "Math: 22 hours a day in your mouth",
+      "based_on": "Aligner wear-time norm (20–22 h/day); survey 'not sure if it was being cleaned'",
+      "headline": "22 hours a day in your mouth.",
+      "prompt": "Bold minimal typographic ad on DentalPULSE blue (#1E73E8). Giant white number \"22\" with \"hours a day\" beneath it. Below: \"That's how long your aligners are in your mouth.\" Then \"How long do you spend cleaning them?\" in lighter white. Bottom quarter: a white rounded card with the open DentalPULSE Pod from the reference photo holding a clear aligner, and the words \"5 minutes. Tap water.\" in navy."
+    },
+    {
+      "id": "L42_21_aligner_x_post_coffee",
+      "persona": "aligner",
+      "colorway": "travel_pod",
+      "group": "netnew",
+      "format": "x_post",
+      "angle": "Aligner + iced coffee life (relatable)",
+      "based_on": "Aligner wearers 25–45; staining from coffee; survey 'smell', 'cloudy trays'",
+      "headline": "my aligners after one week of iced coffee",
+      "prompt": "An X post from display name \"Priya\" with handle \"@priyaplans\". Post text: \"my aligners after one week of iced coffee were giving 'found in a gym bag'\n\nfinally got an ultrasonic pod. 5 min, tap water. they're clear again and the smell is GONE\". Attached photo with rounded corners: the DentalPULSE Travel Pod from the reference photo open on a desk next to an iced coffee in a clear cup with a straw and a laptop, a crystal-clear aligner resting in the pod. Engagement row: 52 replies, 230 reposts, 3.4K likes."
+    },
+    {
+      "id": "L42_22_aligner_vs_cheap_pods",
+      "persona": "switcher",
+      "colorway": "pod",
+      "group": "winning",
+      "angle": "Rankings iteration: 'Which pod actually cleans?' scorecard for aligners",
+      "based_on": "Winner 'Dental Ultrasonic Cleaner Rankings 2026' bar chart (IMG_DEN62, ROAS 3.28) and 'tested 7 pods' video copy; competitors unbranded. Flag: confirm the brand's test scoring before launch.",
+      "headline": "We tested 7 aligner cleaners. Here's how they ranked.",
+      "prompt": "Clean editorial ranking graphic on light grey. Title in bold navy: \"We tested 7 aligner cleaners.\" Subtitle: \"Here's how they ranked.\" A row of seven unbranded ultrasonic cleaners in different shapes and colors (mint green, black, purple, grey, white box, small round) with no logos, each standing on a vertical blue bar of varying height; the tallest bar, with a gold ribbon \"#1 Overall\", holds the DentalPULSE Pod from the reference photo. Small grey labels under bars: \"Pod A\", \"Pod B\", ... \"Pod F\", and \"DentalPULSE\" under the tallest. Bottom line: \"See the full results before you buy.\""
+    },
+    {
+      "id": "L42_23_switcher_amazon_regret",
+      "persona": "switcher",
+      "colorway": "pod",
+      "group": "winning",
+      "angle": "Us vs them: why most $30 pods disappoint",
+      "based_on": "Winning us-vs-them static ('DentalPULSE vs OTHERS'); survey 'not much difference from the $30 Amazon pod', 'stopped turning on', 'didn't last long'. Avoids 99.9% claim.",
+      "headline": "Bought the $30 pod first? So did they.",
+      "prompt": "Split comparison graphic. Left half on soft pale blue, header \"DentalPULSE\", the Pod from the reference photo, three white rounded rows with blue checks: \"42,000 Hz cleaning\", \"Tap water, no tablets needed\", \"Built to run every single day\". Right half on dark grey, header \"$30 pods\", an unbranded generic cheap plastic pod with no logo, three dark rows with red x icons: \"Stops turning on after a few months\", \"Buzzes, barely moves the water\", \"Film still there after the cycle\". Headline across the top in bold navy: \"Bought the cheap pod first? So did they.\""
+    },
+    {
+      "id": "L42_24_all_appliances_family_shelf",
+      "persona": "switcher",
+      "colorway": "pod_open",
+      "group": "netnew",
+      "angle": "One Pod for the whole household's appliances",
+      "based_on": "Survey: 'my husband wanted it for his night guard', 'spouse has mouth guard and it is cleaner too', 'daughter got one for her retainer'; one Pod for every appliance",
+      "headline": "Grandma's dentures. Dad's night guard. Emma's retainer.",
+      "prompt": "Bright family bathroom counter, morning light. The DentalPULSE Pod from the reference photo in the center. Lined up neatly in front of it on a white towel: a realistic full upper denture, a clear night guard, a clear retainer and a clear aligner tray, each with a tiny handwritten label tag: \"Grandma\", \"Dad\", \"Emma\", \"Mom\". Headline at top in bold navy: \"Grandma's dentures. Dad's night guard. Emma's retainer.\" Second line in DentalPULSE blue: \"One Pod cleans them all.\""
+    }
+  ]
+}

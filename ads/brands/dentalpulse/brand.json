@@ -1,23 +1,25 @@
 {
   "name": "DentalPULSE",
-  "product": "DentalPULSE Pod (ultrasonic cleaner for aligners, retainers, dentures, night guards); also Pod Max, Travel Pod and Retainer Cleaner tablets",
+  "product": "DentalPULSE Pod (ultrasonic cleaner for aligners, retainers, dentures, night guards) and the DentalPULSE Travel Pod. Advertise only these two products; never show Pod Max or cleaning tablets as DentalPULSE products.",
   "price": "$99.95 (Pod)",
   "audience": "Adults who wear a removable oral appliance (clear aligners/Invisalign, retainers incl. permanent/wire, dentures, night/mouth guards, sleep apnea devices), plus parents of teens with retainers and adult children buying for a parent with dentures. Men and women.",
   "palette": "clean bright white and soft pale blue backgrounds, DentalPULSE blue (#1E73E8) for headlines and pills, dark navy (#0B1F3A) body text, occasional black premium backgrounds",
   "font_style": "clean modern sans-serif (like Inter/SF Pro), bold headlines, generous white space, clinical-but-friendly",
   "website": "dentalpulsepro.com",
   "prompt_rules": [
-    "The product MUST be the exact DentalPULSE device in the attached reference photo, unchanged: for the Pod, a smooth matte-white rounded dome with fine vertical ribbing on the lower body, a flat circular lid with the 'DentalPULSE' wordmark in grey, and when open a stainless-steel cleaning basin with a white hinged lid; for the Pod Max, a white cylinder with a black circular top panel and digital display; for the Travel Pod, a small round white clamshell case. Keep proportions and every detail; only change angle, lighting and setting. Do not invent buttons, screens, colors or logos.",
+    "The product MUST be the exact DentalPULSE device in the attached reference photo, unchanged. The Pod: a smooth matte-white rounded dome with fine vertical ribbing all around the body, a thin horizontal seam near the base, a slightly domed top cap with the 'DentalPULSE' wordmark (black, 'Dental' regular + 'PULSE' bold); when open, a round white hinged lid flips up from the back (the inside of the lid has four small square light points) over a brushed stainless-steel cleaning basin. The Travel Pod: a small round white clamshell case. Keep proportions and every detail; only change angle, lighting and setting. Do not invent buttons, screens, displays, colors or logos. Show no other DentalPULSE products (no Pod Max, no tablet boxes).",
     "Oral appliances (clear aligners, retainers, dentures, night guards) must look anatomically correct and realistic: clear aligners are thin transparent trays shaped like a full upper or lower arch; dentures have realistic pink gums and natural teeth. No distorted mouths or teeth on people.",
     "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
   ],
   "claims_to_avoid": [
-    "'kills/removes 99.9% of bacteria/viruses/germs' or any disinfection/medical claim (needs lab substantiation)",
-    "'Clinicians' Choice', 'recommended/used by orthodontists or dentists', 'dentist-grade' endorsement claims unless confirmed",
+    "'kills/eliminates 99.9% of bacteria' or any disinfection/medical claim (the account uses it, but keep it off statics until the brand confirms lab substantiation)",
+    "specific lab numbers ('6 of 7 pods leave live bacteria', '90-day lab test') unless the concept is an iteration of that exact live ad; flag those in Notes for brand sign-off",
+    "'Clinicians' Choice', 'recommended by dentists/orthodontists' endorsements unless confirmed",
     "money-back guarantee, free returns or shipping speed (confirm with the brand before using)",
-    "star ratings or review counts (the site shows 4.8 and 4.5 for different counts; keep them out)",
-    "comparisons naming competitor brands (Invisalign is fine as an appliance type, not as an endorser)"
+    "star ratings or review counts",
+    "naming or showing logos of competitor brands (show unbranded 'other pods' instead)",
+    "promising old, set-in yellow stains will vanish (survey negatives: people felt misled); frame as 'stops the buildup', 'clearer every week'"
   ],
   "colorways": {
     "pod": {
@@ -28,38 +30,65 @@
       "file": "reference/pod_open.png",
       "label": "DentalPULSE Pod, lid open with a clear aligner going in"
     },
-    "pod_max": {
-      "file": "reference/pod_max.png",
-      "label": "DentalPULSE Pod Max (white cylinder, black top with digital display)"
-    },
     "travel_pod": {
       "file": "reference/travel_pod.png",
       "label": "DentalPULSE Travel Pod (small round white clamshell)"
-    },
-    "tablets": {
-      "file": "reference/tablets.png",
-      "label": "DentalPULSE Retainer Cleaner tablets (blue boxes)"
     }
   },
   "personas": {
-    "persona_slug": {
-      "name": "Who they are, in a few words",
-      "source": "the data this persona comes from (survey share, winning ads, reviews, forums)",
+    "denture_wearer": {
+      "name": "Denture/partial wearer, 60+, cleans with Polident tablets + brush",
+      "source": "~55% of survey; every current winner (comparison/listicle/native ads) targets dentures; pains: adhesive/Fixodent goo, yellowing, food in crevices, slimy feel, smell",
       "colorways": [
-        "variant_slug"
-      ],
-      "test_colorways": []
+        "pod",
+        "pod_open"
+      ]
     },
-    "comfort_only": {
-      "name": "Broad everyday buyer",
-      "source": "...",
+    "denture_caregiver": {
+      "name": "Adult child or spouse buying for a parent/partner with dentures",
+      "source": "'Who noticed': husband/wife/grandchildren; gift buyers in survey; denture wearers 60+ often gifted tech",
+      "colorways": [
+        "pod",
+        "pod_open"
+      ]
+    },
+    "night_guard": {
+      "name": "Teeth grinder (TMJ/bruxism), 30–60, night guard turned yellow and cloudy",
+      "source": "~22% of survey; 'gross yellow and cloudy', 'never felt clean', soap/toothpaste routine; negatives: old yellow stains don't fully reverse",
+      "colorways": [
+        "pod",
+        "pod_open",
+        "travel_pod"
+      ]
+    },
+    "retainer": {
+      "name": "Retainer wearer (adult post-ortho) or parent of a teen with retainers",
+      "source": "~13% of survey; 'clear again, not milky', tablets made retainer brittle, buildup in crevices; 'daughter got one for her retainer'",
+      "colorways": [
+        "pod",
+        "pod_open",
+        "travel_pod"
+      ]
+    },
+    "aligner": {
+      "name": "Clear aligner/Invisalign wearer, 25–45, on the go",
+      "source": "~6% of survey but high-value category; 'white film', 'trays look cloudy', 'no more smell'; Zima/oPro/Novapod compete hardest here",
+      "colorways": [
+        "pod_open",
+        "travel_pod",
+        "pod"
+      ]
+    },
+    "switcher": {
+      "name": "Burned buyer who already tried a cheap Amazon/Zima/GuruNanda pod",
+      "source": "~15% of survey previously owned another pod; 'failure of 2 others', 'three previous buys and none worked'; matches winning 'tested 7 pods' comparison angle",
       "colorways": "any"
     }
   },
   "language_rules": {},
   "atria_account": "Dentalpulse",
   "program": {
-    "schedule": "e.g. Tue + Fri 5:50am America/New_York (routine name + trigger id once created)",
+    "schedule": "Tue + Fri 5:50am America/New_York (routine to be created)",
     "iteration_batch": {
       "weekday": "Tuesday",
       "size": 20,
@@ -73,17 +102,22 @@
       "spanish": 0
     },
     "winning_personas": [
-      "persona_slug"
+      "denture_wearer",
+      "switcher"
     ],
     "grow_personas": [
-      "persona_slug"
+      "night_guard",
+      "retainer",
+      "aligner",
+      "denture_caregiver"
     ],
+    "appliance_mix": "Every batch covers all four appliance types the brand asked for: dentures, night guards, retainers, aligners (big swings on each).",
     "iterate_when": {
       "days": 30,
       "min_spend": 300,
       "min_roas": 1.8
     },
-    "roas_note": "any period where ROAS is unreliable"
+    "roas_note": "Comparison/listicle ads send traffic to an advertorial (LP_LISTICLE); ROAS is the account's reported figure."
   },
   "drive_folder_id": "1czcREwJ7CCml8-ZrrezzypAD9GLnwcxV",
   "slack": {
@@ -95,5 +129,20 @@
     "trustpilot": "Render the testimonial as a real Trustpilot review card, faithful to Trustpilot's current design: white card with thin light-grey border, reviewer row with a small round initials avatar, reviewer first name + last initial and country code, a row of five green square star tiles with white stars (Trustpilot green #00B67A), a short bold review title, the review text in a clean sans font, and a small grey date. Show individual review cards only: no Trustpilot logo, no TrustScore, no overall rating or review count, no 'Verified' badge.",
     "x_post": "Render as a real X (formerly Twitter) post screenshot, faithful to the current X app in light mode: white background, round profile photo top-left, display name in bold black, then grey @handle and \"· 3h\", the post text in X's Chirp-like sans at native size (black, left-aligned, no quotation marks), optionally an attached photo with rounded corners, then a grey engagement row with the reply, repost, like and view icons and small counts, all in X's thin grey icon style. No blue verification checkmark, no X logo, no 'Twitter' bird. It must read as a genuine X post, not a designed graphic."
   },
-  "format_guides_note": "Testimonial/review ads use fb_comment or trustpilot; tweet-style ads use x_post (user rule, carried over from Comfort Wear)."
+  "format_guides_note": "Testimonial/review ads use fb_comment or trustpilot; tweet-style ads use x_post (user rule, carried over from Comfort Wear).",
+  "inspo_queries": [
+    "retainer cleaner",
+    "ultrasonic cleaner",
+    "denture cleaner",
+    "night guard",
+    "aligner cleaner",
+    "invisalign",
+    "dentures",
+    "mouth guard",
+    "retainer",
+    "polident",
+    "teeth whitening",
+    "oral care"
+  ],
+  "colorway_template": "The product is the {label} shown in the reference photo."
 }

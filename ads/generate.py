@@ -93,7 +93,8 @@ def reference_for(bdir, brand, concept):
 def build_prompt(bdir, brand, concept, extra):
     parts = [FORMAT_RULE, concept["prompt"]]
     if concept.get("colorway"):
-        parts.append(f"The shoe is the {brand['colorways'][concept['colorway']]['label']} colorway shown in the reference photo.")
+        template = brand.get("colorway_template", "The product is the {label} shown in the reference photo.")
+        parts.append(template.format(label=brand['colorways'][concept['colorway']]['label']))
     parts.append(f"Brand styling: {brand['palette']}; {brand['font_style']}.")
     guide = brand.get("format_guides", {}).get(concept.get("format", ""))
     if guide:

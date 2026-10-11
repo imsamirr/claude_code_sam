@@ -30,7 +30,7 @@ from dotenv import load_dotenv
 BASE = "https://api.tryatria.com/open/v1"
 ACCOUNT_NAME = "WearOrtho"
 DATA_DIR = Path(__file__).resolve().parent / "brands" / "comfortwear" / "research" / "data"
-INSPO_QUERIES = [
+INSPO_QUERIES = [  # default; brand.json → inspo_queries overrides
     "orthopedic shoes", "plantar fasciitis", "nurse shoes", "foot pain", "wide toe box",
     "comfort shoes", "walking shoes", "bunions", "neuropathy", "standing all day",
     "heel pain", "arch support", "swollen feet",
@@ -101,7 +101,7 @@ def aggregate(api, acc, start, end, step):
 
 
 def write_csv(name, rows, fields):
-    DATA_DIR.mkdir(exist_ok=True)
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
     path = DATA_DIR / name
     with open(path, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
@@ -143,7 +143,7 @@ def losers(api, acc, args):
 def inspo(api, acc, args):
     since = (dt.date.today() - dt.timedelta(days=30)).isoformat()
     seen = {}
-    for q in INSPO_QUERIES:
+    for q in args.queries:
         items = api.get("ad-library/search", {
             "query": q, "display_format": "image", "impression_trend": "rising",
             "launched_after": since, "status": "active", "order": "best_match", "page_size": 50,
@@ -237,8 +237,9 @@ def main():
     global DATA_DIR
     bdir = Path(__file__).resolve().parent / "brands" / args.brand
     DATA_DIR = bdir / "research" / "data"
-    if not args.account:
-        args.account = json.loads((bdir / "brand.json").read_text()).get("atria_account", ACCOUNT_NAME)
+    brand = json.loads((bdir / "brand.json").read_text())
+    args.account = args.account or brand.get("atria_account", ACCOUNT_NAME)
+    args.queries = brand.get("inspo_queries", INSPO_QUERIES)
     # Without ATRIA_API_KEY the request relies on a network secret the proxy attaches.
     api = Atria(os.getenv("ATRIA_API_KEY"))
     acc = api.account_id(args.account)
