@@ -46,6 +46,9 @@ Ask the user for anything below you can't find. Do the steps in order; each ends
    - Set `atria_account` (list accounts if unsure; the API returns names) and `inspo_queries`
      (10–15 category/problem keywords for the ad-library search; without them inspo searches shoe terms). Pull
      `atria_pull.py winners`, `losers`, `inspo`, `current`, `rising`, and `seasonal --week <next week>`.
+   - Set `competitor_brands` (direct competitors plus 8–12 adjacent DTC brands in the category) and run
+     `atria_pull.py competitors`; review contact sheets of the longest-running ads per brand and write a
+     "formats to borrow" playbook into analysis.md. Refresh it on Friday runs.
      Check whether recent ROAS is readable; note unreliable periods in `program.roas_note`.
    - Winners vs losers patterns, top video scripts (transcripts if available), reviews (Trustpilot,
      survey sheets in Drive: aggregates and short anonymous quotes only, never raw customer rows),

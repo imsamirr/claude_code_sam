@@ -54,6 +54,50 @@ Takeaways:
 - **Grow (big swings):** night_guard, retainer, aligner, denture_caregiver.
 - Every batch covers all four appliance types.
 
-## 5. Claims
-- The account already uses "eliminates 99.9% of bacteria", "clinical grade", "6 of 7 pods leave live bacteria" and star ratings. Statics stay off those until the brand confirms substantiation; brand.json → `claims_to_avoid` lists them.
-- Comparison iterations of the live "tested 7 pods" ads are flagged in `based_on` for sign-off.
+## 5. Claims and mix (user, Oct 11)
+- **Approved; use aggressively:** "Eliminates 99.9% of bacteria", "clinical-grade", "42,000 Hz", "6 of 7 pods leave live bacteria (90-day lab test of 7 leading cleaners)", star ratings ("Rated 4.8/5", no counts), "tap water only, no tablets".
+- **Still unconfirmed, keep out:** dentist endorsements, guarantees, shipping, customer/unit counts, awards and press logos. The source list is brand.json → `approved_claims` and `claims_to_avoid`.
+- **Appliance mix for every batch:** 50% dentures, 25% night guards, 25% aligners/retainers.
+- **The enemy is the old routine, named directly:** toothbrush, Polident and Efferdent tablets, vinegar, bleach, soap, peroxide, denture cup. Competitor pods stay unbranded.
+
+## 6. Competitor and dental-brand ads (Atria ad library, `data/competitor_ads.csv`, 870 ads)
+Pulled with `atria_pull.py competitors` (brand.json → `competitor_brands`). Longest-running (= still paying) formats worth borrowing:
+
+**Ultrasonic pods**
+- **Zima Dental:**
+  - "$60 value, on us" bundle tile (71 days).
+  - "Ultimate Retainer Care" product-pattern bundle (48 days).
+  - "Star of the clean girl starter pack": a numbered flat-lay of lifestyle items with the pod in the middle (18 days).
+  - A woman holding up a yellow retainer vs a clear one, labeled "Before / After Zima" (11 days).
+  - "Never Brush Your Retainer Again" with a feature icon list.
+  - An incoming-call screen, "An exclusive offer is calling…", with decline "Stained retainers?" and accept "Clean + protected?".
+  - "3x sold out / back in stock" scarcity.
+  - Copy hooks: "Soaking your aligners in a cup isn't cutting it", "Does this look silly? So is brushing your retainers with a toothbrush", "This is why cleaning tablets won't finish the job".
+- **Sonic Dental:**
+  - Dark purple premium sale tiles with the device held on a palm under a glow ring, "Limited Time Sale" (115+ days).
+  - "Der Unterschied?": hands bursting through paper holding a yellow vs a clear aligner, with a 03:00 timer.
+  - "Brushing misses. Ultrasonic doesn't. Dentist-approved. Clinical-grade."
+  - An "as seen in" press bar and big social-proof numbers.
+  - Their best video has run 541 days: "New Year. Clean Start." (bundle).
+
+**Other dental DTC brands**
+- **Hismile:** "DO NOT F*CKING DO THIS" shock headline over a gross mouth close-up, a fake cart screenshot ("10 lip balms for $18??"), "Buy 3 get 2 free" bundles, and a price-challenge headline ("try find a better toothbrush for only $24.99").
+- **LIVFRESH:** "Bad breath problem? Dentists say it's hiding below the gumline", a "LIVFRESH HELPS" icon diagram around the product, a review quote card over the product family, and "Buy 2 get 1 free".
+- **Boka:**
+  - A timely callout: "Using GLP-1s? Bad breath? We got you."
+  - A stat claim: "Removes 7x more surface stains than an ordinary toothpaste."
+  - Clean, minimal bathroom product photography.
+- **Invisalign:** big split before/after faces with blue "before / after" bars, and an "FSA/HSA balance?" money angle.
+- **GuruNanda:** "BETTER THAN A WISP." naming the incumbent, a giant number ("70"), and "Trusted by dentists. Loved by TikTok."
+- **Cocofloss:** a wall of real Instagram comments begging for a restock (demand proof).
+- **Smyle / usmile:** cart and checkout screenshots with the deal applied, seasonal scenes ("Pocket Clean for Fall"), and "Buy 1 get 1 free".
+
+**What to take:**
+1. Name the incumbent and beat it. "Better than Polident." "Brushing misses. Ultrasonic doesn't."
+2. Before/after held up in hand: yellow vs clear, cloudy vs clear, stained denture vs white.
+3. A shock or gross-out headline over a macro close-up ("Do NOT soak your dentures in this").
+4. Native UI frames: incoming call, cart screenshot, comment wall, order confirmation.
+5. A premium dark "hand + glow" product tile for offers.
+6. A starter-pack flat-lay ("the denture wearer's starter pack").
+7. Big-number typography (99.9%, 42,000, 6 of 7).
+8. A timely callout (GLP-1 bad breath, holiday visits, New Year clean start).

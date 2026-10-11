@@ -13,13 +13,11 @@
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
   ],
   "claims_to_avoid": [
-    "'kills/eliminates 99.9% of bacteria' or any disinfection/medical claim (the account uses it, but keep it off statics until the brand confirms lab substantiation)",
-    "specific lab numbers ('6 of 7 pods leave live bacteria', '90-day lab test') unless the concept is an iteration of that exact live ad; flag those in Notes for brand sign-off",
-    "'Clinicians' Choice', 'recommended by dentists/orthodontists' endorsements unless confirmed",
-    "money-back guarantee, free returns or shipping speed (confirm with the brand before using)",
-    "star ratings or review counts",
-    "naming or showing logos of competitor brands (show unbranded 'other pods' instead)",
-    "promising old, set-in yellow stains will vanish (survey negatives: people felt misled); frame as 'stops the buildup', 'clearer every week'"
+    "dentist/orthodontist endorsements ('Clinicians' Choice', 'recommended by 10,000 dentists') unless confirmed",
+    "money-back guarantee, free returns or shipping speed (not yet confirmed)",
+    "invented customer counts, units sold, review counts, awards or press logos",
+    "naming or showing logos of competitor ultrasonic pods (Zima, Sonic Dental, GuruNanda, oPro, Novapod): show them unbranded",
+    "medical treatment claims (cures infections, prevents disease)"
   ],
   "colorways": {
     "pod": {
@@ -107,11 +105,11 @@
     ],
     "grow_personas": [
       "night_guard",
-      "retainer",
       "aligner",
+      "retainer",
       "denture_caregiver"
     ],
-    "appliance_mix": "Every batch covers all four appliance types the brand asked for: dentures, night guards, retainers, aligners (big swings on each).",
+    "appliance_mix": "Every batch: 50% dentures (incl. partials, caregiver, switcher), 25% night guards, 25% aligners/retainers. Big swings on each.",
     "iterate_when": {
       "days": 30,
       "min_spend": 300,
@@ -144,5 +142,56 @@
     "teeth whitening",
     "oral care"
   ],
-  "colorway_template": "The product is the {label} shown in the reference photo."
+  "colorway_template": "The product is the {label} shown in the reference photo.",
+  "competitor_brands": [
+    "Zima Dental",
+    "Sonic Dental",
+    "oPro",
+    "GuruNanda",
+    "Novapod",
+    "MyNovaPod",
+    "Retainer Brite",
+    "Polident",
+    "Efferdent",
+    "Hismile",
+    "Snow",
+    "Boka",
+    "Smile Brilliant",
+    "Byte",
+    "Invisalign",
+    "Smyle",
+    "LIVFRESH",
+    "usmile",
+    "Cocofloss",
+    "Fixodent"
+  ],
+  "approved_claims": [
+    "Eliminates 99.9% of bacteria (in one 5-minute cycle)",
+    "Clinical-grade / clinical-grade cleaning at home",
+    "42,000 Hz ultrasonic cleaning",
+    "6 of 7 pods leave live bacteria / 6 of 7 pods can't remove bacteria (90-day side-by-side lab test of 7 leading ultrasonic cleaners); DentalPULSE was #1",
+    "Star ratings: five gold or green stars, 'Rated 4.8/5' (no review counts)",
+    "Tap water only: no tablets, no chemicals, no subscriptions",
+    "Clean in 3–5 minutes"
+  ],
+  "claims_note": "User (Oct 11): use the approved claims aggressively. Still unconfirmed, keep out: dentist/orthodontist endorsements ('Clinicians' Choice', 'recommended by X dentists'), money-back guarantee/free returns/shipping speed, customer or units-sold counts, review counts, award/press logos.",
+  "old_methods": {
+    "note": "User rule: the 'before' / enemy is the old routine. Name it directly.",
+    "methods": [
+      "toothbrush + toothpaste (scratches, misses the grooves)",
+      "Polident tablets (overnight soak, blue water, minty smell, film stays)",
+      "Efferdent tablets",
+      "vinegar soak",
+      "bleach soak",
+      "hand soap / dish soap",
+      "hydrogen peroxide",
+      "plain water rinse",
+      "denture cup soak"
+    ],
+    "brand_names_ok": [
+      "Polident",
+      "Efferdent"
+    ],
+    "show": "Real-looking Polident and Efferdent boxes/tablets are fine as the old method we replace; never imply they endorse us."
+  }
 }

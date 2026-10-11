@@ -8,6 +8,7 @@
     python ads/atria_pull.py rising    # new ads (last 30 days) with >= $300 spend and ROAS >= 1.8
     python ads/atria_pull.py current   # any ad in the last 30 days with >= $300 spend and ROAS >= 1.8
     python ads/atria_pull.py inspo       # image ads, rising impressions, launched last 30 days
+    python ads/atria_pull.py competitors # competitor + adjacent brands' ads (brand.json → competitor_brands)
 
 Writes CSVs to ads/brands/<brand>/research/data/. Atria returns at most 50 ads per date window, so
 spend is summed across monthly (winners) or weekly (losers) windows; ads
@@ -164,6 +165,33 @@ def inspo(api, acc, args):
     write_csv("inspiration_raw.csv", rows, list(rows[0]) if rows else ["brand"])
 
 
+def competitors(api, acc, args):
+    """Image ads from named competitor and adjacent brands (brand.json → competitor_brands), longest-running first.
+
+    Long-running ads are the ones those brands keep paying for, so they are the proven formats to borrow.
+    """
+    seen = {}
+    for name in args.competitors:
+        for fmt in ("image", "video"):
+            try:
+                items = api.get("ad-library/search", {"query": name, "display_format": fmt,
+                                                      "order": "best_match", "page_size": 50})["items"]
+            except Exception as e:  # one bad query shouldn't stop the pull
+                print(f"  {name} {fmt}: {e}")
+                continue
+            key = name.lower().replace(" ", "")
+            for it in items:
+                if key in (it.get("brand_name") or "").lower().replace(" ", ""):
+                    seen.setdefault(it["id"], {**it, "query": name, "fmt": fmt})
+            time.sleep(0.8)
+    rows = [{"brand": it["brand_name"], "format": it["fmt"], "days_running": it["days_running"],
+             "status": it.get("status"), "title": it.get("title"), "body": (it.get("body") or "")[:700],
+             "image_url": (it.get("images") or [{}])[0].get("url") or it.get("thumbnail_url"),
+             "landing_url": it.get("link_url")} for it in seen.values()]
+    rows.sort(key=lambda r: (r["brand"], -(r["days_running"] or 0)))
+    write_csv("competitor_ads.csv", rows, list(rows[0]) if rows else ["brand"])
+
+
 def seasonal(api, acc, args):
     """Top-spending ads (all formats) in the same calendar window last year as the target week.
 
@@ -222,7 +250,7 @@ def rising(api, acc, args):
 def main():
     load_dotenv()
     p = argparse.ArgumentParser()
-    p.add_argument("what", choices=["winners", "losers", "inspo", "seasonal", "rising", "current"])
+    p.add_argument("what", choices=["winners", "losers", "inspo", "seasonal", "rising", "current", "competitors"])
     p.add_argument("--days", type=int, default=30, help="rising: look-back window in days")
     p.add_argument("--min-spend-rising", type=float, default=300, help="rising: minimum spend in the window")
     p.add_argument("--min-roas", type=float, default=1.8, help="rising: minimum ROAS in the window")
@@ -240,13 +268,14 @@ def main():
     brand = json.loads((bdir / "brand.json").read_text())
     args.account = args.account or brand.get("atria_account", ACCOUNT_NAME)
     args.queries = brand.get("inspo_queries", INSPO_QUERIES)
+    args.competitors = brand.get("competitor_brands", [])
     # Without ATRIA_API_KEY the request relies on a network secret the proxy attaches.
     api = Atria(os.getenv("ATRIA_API_KEY"))
     acc = api.account_id(args.account)
     if not args.week:
         y, w, _ = (dt.date.today() + dt.timedelta(days=7)).isocalendar()
         args.week = f"{y}-W{w:02d}"
-    {"winners": winners, "losers": losers, "inspo": inspo, "seasonal": seasonal, "rising": rising, "current": rising}[args.what](api, acc, args)
+    {"winners": winners, "losers": losers, "inspo": inspo, "seasonal": seasonal, "rising": rising, "current": rising, "competitors": competitors}[args.what](api, acc, args)
 
 
 if __name__ == "__main__":
