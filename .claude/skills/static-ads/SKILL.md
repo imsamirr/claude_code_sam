@@ -49,6 +49,9 @@ those concepts and add new ones until there are 40.
   concepts from them, tagged `"group": "seasonal"` (they count toward the winning half): turn each
   top video's script (hook, test/ranking, proof lines) into static formats. Example: the travel
   "we tested 5 shoes" video (Kyro 293, 2.15 ROAS) won late Oct–early Nov 2025, so `2026-W44` leads with travel rankings.
+  Atria's API returns no transcripts for these, so match ad names (e.g. "Kyro_293") against
+  `research/data/video_transcripts.md` for script lines, and use the ad name/headline/primary text
+  otherwise. Rank by spend: ROAS from Feb 2025 on is unreliable (tracking break, see analysis.md).
 - **Atria inspiration**: `python ads/atria_pull.py inspo` (rising image ads, last 30 days) every
   week. Skim `inspiration_raw.csv` for new formats and try at least 3 of them in the net-new half.
   Re-read `brand_inspiration_longrunning.csv` (ads running for months) when stuck.
