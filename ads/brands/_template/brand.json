@@ -1,18 +1,25 @@
 {
   "name": "Brand Name",
-  "product": "Product name",
+  "product": "Only the products the user wants advertised (name each one); every other SKU stays out of references and ads",
   "price": "$00.00",
   "audience": "who the product is for, e.g. \"Women only: whoever wears the product is a woman\"",
   "palette": "background colors, accent color with hex for headlines and pills, body text color",
   "font_style": "headline and body font description, e.g. bold geometric sans-serif headlines",
   "website": "example.com",
   "prompt_rules": [
-    "The product MUST be the exact product in the attached reference photo, unchanged: <list every distinctive detail: shape, materials, colors, logo placement, hardware>. Keep its proportions and every detail; only change angle, lighting and setting. Do not invent a different product or logo.",
+    "The product MUST be the exact product in the attached reference photo, unchanged: <precise physical description, every distinctive detail>. Keep proportions and every detail; only change angle, lighting and setting. Do not invent buttons, colors or logos. Show no other products from the brand's catalog.",
+    "<who may be shown using it, e.g. 'women only' or 'appliances look anatomically realistic'>",
+    "<product facts the ads must get right, e.g. 'the cleaning cycle is always 5 minutes (05:00), never 3'>",
     "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
+    "Add nothing the description doesn't ask for: no extra feature lists, icon callouts, price tags, badges, panels or captions. Never show competitor logos or products.",
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
   ],
   "claims_to_avoid": [
-    "claims legal/ops can't stand behind (guarantees, shipping speed, medical or endorsement claims)"
+    "guarantees, returns, shipping speed unless confirmed",
+    "endorsements (doctors, dentists, awards, press) unless confirmed",
+    "invented customer counts, units sold, review counts",
+    "competitor names or logos (unless the user allows naming an incumbent)",
+    "medical treatment claims"
   ],
   "colorways": {
     "variant_slug": {
@@ -40,7 +47,7 @@
   },
   "atria_account": "exact ad-account name in Atria",
   "program": {
-    "schedule": "e.g. Tue + Fri 5:50am America/New_York (routine name + trigger id once created)",
+    "schedule": "e.g. Tue + Fri 5:50am America/New_York (stagger brands ~15 min apart; routine name + trigger id once created)",
     "iteration_batch": {
       "weekday": "Tuesday",
       "size": 20,
@@ -64,7 +71,9 @@
       "min_spend": 300,
       "min_roas": 1.8
     },
-    "roas_note": "any period where ROAS is unreliable"
+    "roas_note": "any period where ROAS is unreliable",
+    "mix": "product/use-case split every batch must follow, e.g. '50% dentures, 25% night guards, 25% aligners/retainers'",
+    "cartoon_share": "15–20% of every batch in cartoon/animation formats"
   },
   "drive_folder_id": "id of the brand's '<Brand> – Weekly Static Ads' Drive folder",
   "slack": {
@@ -85,5 +94,21 @@
     "category keyword",
     "problem keyword",
     "competitor product type"
+  ],
+  "colorway_template": "The product is the {label} shown in the reference photo.",
+  "approved_claims": [
+    "claims the user explicitly approved (exact wording), e.g. 'Eliminates 99.9% of bacteria'"
+  ],
+  "claims_note": "who approved what and when; what is still unconfirmed",
+  "old_methods": {
+    "note": "the 'before' / enemy: what customers used before (from the survey); named directly if the user allows",
+    "methods": [
+      "..."
+    ],
+    "brand_names_ok": []
+  },
+  "competitor_brands": [
+    "direct competitors",
+    "plus 8–12 adjacent DTC brands in the category"
   ]
 }

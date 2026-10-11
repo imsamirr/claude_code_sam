@@ -8,9 +8,11 @@ OpenAI's image model (`gpt-image-2`). Works for any brand. The full process is i
 ads/
   generate.py            renders concepts (statics + GIFs)
   review.py              preview sheets + approve/reject log (feeds back into prompts)
-  atria_pull.py          pulls winners / losers / inspiration from Atria
+  atria_pull.py          pulls winners / losers / current / seasonal / inspiration / competitor ads from Atria
+  contact_sheet.py       thumbnail grids of any Atria CSV (competitors, winners, inspo)
   brands/
-    _template/           copy this to start a new brand
+    _template/           copy this to start a new brand (every brand.json field, with placeholders)
+    dentalpulse/         second worked brand: product scope, approved claims, mix, competitor playbook
     comfortwear/
       brand.json         product, palette, colorways, personas (+ allowed colors), language rules
       reference/         studio product photo per colorway (sent with every prompt)
@@ -78,7 +80,13 @@ Notes from every verdict are added to later prompts for that brand.
 python ads/atria_pull.py winners --brand comfortwear --account WearOrtho   # statics >= $5k spend since 2024
 python ads/atria_pull.py losers  --brand comfortwear --account WearOrtho   # < $200, paused, last 12 months
 python ads/atria_pull.py inspo   --brand comfortwear --account WearOrtho   # rising image ads, last 30 days
+python ads/atria_pull.py current --brand dentalpulse      # last 30 days, spend >= $300, ROAS >= 1.8
+python ads/atria_pull.py seasonal --brand dentalpulse --week 2026-W43   # top spenders this time last year
+python ads/atria_pull.py competitors --brand dentalpulse  # brand.json -> competitor_brands, longest-running first
+python ads/contact_sheet.py --brand dentalpulse competitor_ads.csv --by brand --per 6   # -> research/sheets/
 ```
+
+`--account` defaults to brand.json → `atria_account`; inspo search terms come from `inspo_queries`.
 
 ## Comfort Wear references
 
