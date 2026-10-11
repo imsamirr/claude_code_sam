@@ -90,6 +90,13 @@ def reference_for(bdir, brand, concept):
     return bdir / brand["colorways"][colorway]["file"]
 
 
+ILLUSTRATED = {"cartoon_3d", "comic_strip", "flat_illustration", "claymation", "retro_cartoon", "anime_soft"}
+ILLUSTRATED_RULE = ("This ad is an illustration, not a photo: render the whole scene in the art style described, at "
+                    "polished professional quality, with no watermarks or extra logos. Draw the product in the same style "
+                    "but keep its exact shape, colors, proportions, texture pattern and wordmark so it is instantly "
+                    "recognizable as the product in the reference photo. Do not give the product a face unless asked.")
+
+
 def build_prompt(bdir, brand, concept, extra):
     parts = [FORMAT_RULE, concept["prompt"]]
     if concept.get("colorway"):
@@ -99,7 +106,11 @@ def build_prompt(bdir, brand, concept, extra):
     guide = brand.get("format_guides", {}).get(concept.get("format", ""))
     if guide:
         parts.append(guide)
-    parts += brand["prompt_rules"]
+    rules = brand["prompt_rules"]
+    if concept.get("format") in ILLUSTRATED:
+        # Cartoon/animation formats: drop the photo-quality rule, keep the product recognizable.
+        rules = [r for r in rules if "photography" not in r.lower()] + [ILLUSTRATED_RULE]
+    parts += rules
     lang = concept.get("lang", "en")
     if lang != "en":
         parts.append(brand["language_rules"][lang])

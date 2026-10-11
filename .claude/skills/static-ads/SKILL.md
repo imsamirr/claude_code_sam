@@ -134,6 +134,11 @@ suit hook-led formats. `"group": "iteration"`.
   exact names, handle, text, date and counts in the prompt. Review text comes from real customer
   language; names are first name + last initial, handles generic; no ages/job titles implying a real
   verified person, no overall rating/TrustScore, no "Verified" badges, no platform logos.
+- **Cartoon/animation formats (user rule)**: ~15–20% of every batch uses an illustrated style via
+  `"format"`: `cartoon_3d`, `comic_strip`, `flat_illustration`, `claymation`, `retro_cartoon`, `anime_soft`
+  (guides in brand.json → `format_guides`; copy them into new brands). `generate.py` swaps the
+  photo-quality rule for an illustration rule that keeps the product recognizable. Mix styles; examples
+  in each brand's `format_examples/` (CT_/DT_ ids).
 - **GIF candidates**: 3–8 `gif` blocks where motion adds meaning (counter ticking, bubbles appearing,
   steps revealed). `"build": true`: each edit removes one element; the GIF plays in reverse and holds on
   the full static. 2–3 edits.
