@@ -199,5 +199,9 @@
     "assignee_name": "Samir Patel",
     "section_id": "1203476664398279",
     "section_name": "Review"
+  },
+  "slack": {
+    "notify_channel_id": "U04PZNV9FV0",
+    "notify_name": "Samir (DM)"
   }
 }

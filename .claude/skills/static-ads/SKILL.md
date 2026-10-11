@@ -158,3 +158,8 @@ column** (`asana.section_id`). It needs `ASANA_ACCESS_TOKEN` in the environment.
 fall back to the Asana connector (create_tasks with `project_id` + `section_id`), which can only place
 it at the bottom of Review, and say so. Asana `html_notes` allows only `body, strong, em, u, s, code,
 ol, ul, li, a, blockquote, pre, h1, h2, hr, img, table, tr, td` (no `<p>`).
+
+Slack (last step, once the sheet and the Asana task exist): DM `brand.json` → `slack.notify_channel_id`
+with slack_send_message: a bold title "Comfort Wear statics ready: <week> (<n> concepts)", then links to the
+review sheet, the Asana task, the Drive folder and the GitHub output folder, then one line with the
+winning/net-new split, Spanish count, GIF candidates and image cost.
