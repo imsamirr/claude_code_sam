@@ -1,13 +1,13 @@
 {
   "name": "DentalPULSE",
-  "product": "DentalPULSE Pod (ultrasonic cleaner for aligners, retainers, dentures, night guards) and the DentalPULSE Travel Pod. Advertise only these two products; never show Pod Max or cleaning tablets as DentalPULSE products.",
+  "product": "DentalPULSE Pod (ultrasonic cleaner for aligners, retainers, dentures, night guards) and the DentalPULSE Travel Pod. Advertise only these two products; never show Pod Max or cleaning tablets as DentalPULSE products. Bundle ads may show the two bundles exactly as in brand.json → offers (the Ultimate Cleaning Bundle includes the 30-tablet box; tablets appear only in that bundle's ads).",
   "price": "$99.95 (current price, 40% OFF sale)",
   "audience": "Adults who wear a removable oral appliance (clear aligners/Invisalign, retainers incl. permanent/wire, dentures, night/mouth guards, sleep apnea devices), plus parents of teens with retainers and adult children buying for a parent with dentures. Men and women.",
   "palette": "clean bright white and soft pale blue backgrounds, DentalPULSE blue (#1E73E8) for headlines and pills, dark navy (#0B1F3A) body text, occasional black premium backgrounds",
   "font_style": "clean modern sans-serif (like Inter/SF Pro), bold headlines, generous white space, clinical-but-friendly",
   "website": "dentalpulsepro.com",
   "prompt_rules": [
-    "The product MUST be the exact DentalPULSE device in the attached reference photo, unchanged. The Pod: a smooth matte-white rounded dome with fine vertical ribbing all around the body, a thin horizontal seam near the base, a slightly domed top cap with the 'DentalPULSE' wordmark (black, 'Dental' regular + 'PULSE' bold); when open, a round white hinged lid flips up from the back (the inside of the lid has four small square light points) over a brushed stainless-steel cleaning basin. The Travel Pod: a small round white clamshell case. Keep proportions and every detail; only change angle, lighting and setting. Do not invent buttons, screens, displays, colors or logos. Show no other DentalPULSE products (no Pod Max, no tablet boxes).",
+    "The product MUST be the exact DentalPULSE device in the attached reference photo, unchanged. The Pod: a smooth matte-white rounded dome with fine vertical ribbing all around the body, a thin horizontal seam near the base, a slightly domed top cap with the 'DentalPULSE' wordmark (black, 'Dental' regular + 'PULSE' bold); when open, a round white hinged lid flips up from the back (the inside of the lid has four small square light points) over a brushed stainless-steel cleaning basin. The Travel Pod: a small round white clamshell case. Keep proportions and every detail; only change angle, lighting and setting. Do not invent buttons, screens, displays, colors or logos. Show no other DentalPULSE products (no Pod Max; no tablet boxes unless the reference photo is the Ultimate Cleaning Bundle, which includes one).",
     "Oral appliances (clear aligners, retainers, dentures, night guards) must look anatomically correct and realistic: clear aligners are thin transparent trays shaped like a full upper or lower arch; dentures have realistic pink gums and natural teeth. No distorted mouths or teeth on people.",
     "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos.",
@@ -16,7 +16,7 @@
   "claims_to_avoid": [
     "shipping speed or free shipping/returns beyond the 120-day guarantee (not confirmed)",
     "invented counts: customers, units sold, reviews, 'X,000 dentists'; press logos or other awards",
-    "a strike-through 'was' price (only $99.95 and 40% OFF are confirmed)",
+    "a strike-through 'was' price other than the store's compare-at prices ($180 Pod Denture Bundle, $300 Ultimate Cleaning Bundle)",
     "naming or showing logos of competitor ultrasonic pods (Zima, Sonic Dental, GuruNanda, oPro, Novapod): show them unbranded",
     "medical treatment claims (cures infections, prevents disease)"
   ],
@@ -32,6 +32,14 @@
     "travel_pod": {
       "file": "reference/travel_pod.png",
       "label": "DentalPULSE Travel Pod (small round white clamshell)"
+    },
+    "denture_gift_bundle": {
+      "file": "reference/denture_gift_bundle.png",
+      "label": "DentalPULSE Pod Denture Bundle: the white Pod plus three free gifts: a black zip travel bag with a clear front window and DentalPULSE logo (holding denture care items), a smoky dark-grey round portable denture case with a strap and a blue denture brush, and a navy/silver '1 YEAR WARRANTY' shield card"
+    },
+    "ultimate_bundle": {
+      "file": "reference/ultimate_bundle.png",
+      "label": "DentalPULSE Ultimate Cleaning Bundle: the white Pod, the white Travel Pod (small round clamshell with four small square lights inside the lid) and one blue box of 'ANTIBACTERIAL RETAINER CLEANER' effervescent tablets (30 tablets)"
     }
   },
   "personas": {
@@ -184,7 +192,8 @@
     "Dentist endorsements without numbers: 'Dentist-recommended', 'Recommended by dentists', a dentist character/quote framed as a recommendation (no invented names or counts)",
     "Clinicians' Choice badge: a clean gold/navy seal reading \"Clinicians' Choice\"",
     "120-day money-back guarantee (\"120-Day Money-Back Guarantee\", \"Try it risk-free for 120 days\")",
-    "40% OFF sale: \"40% OFF\" with the current price \"$99.95\" (do not invent a strike-through original price)"
+    "40% OFF sale: \"40% OFF\" with the current price \"$99.95\" (do not invent a strike-through original price)",
+    "Bundle prices from the store: Pod Denture Bundle $99.95 (compare-at $180, save $80, 3 free gifts); Ultimate Cleaning Bundle $169.95 (compare-at $300, save $130)"
   ],
   "claims_note": "User Oct 11: be aggressive with approved_claims. Later Oct 11: dentist endorsements, Clinicians' Choice badge, 120-day money-back guarantee and the 40% OFF sale ($99.95 current price) approved. Still unconfirmed: shipping speed/free shipping, customer or units-sold counts, dentist counts, review counts, press logos.",
   "old_methods": {
@@ -205,5 +214,35 @@
       "Efferdent"
     ],
     "show": "Real-looking Polident and Efferdent boxes/tablets are fine as the old method we replace; never imply they endorse us."
+  },
+  "offers": {
+    "pod_denture_gift_bundle": {
+      "url": "https://dentalpulsepro.com/products/dentalpulse-pod-denture-bundle-gifts",
+      "price": "$99.95",
+      "compare_at": "$180",
+      "save": "Save $80",
+      "includes": [
+        "DentalPULSE Pod",
+        "FREE Travel Bag ($25 value)",
+        "FREE Portable Case ($19 value)",
+        "FREE 1-Year Warranty ($14 value)",
+        "120-Day Money-Back Guarantee"
+      ],
+      "best_for": "dentures/partials, gift buyers",
+      "colorway": "denture_gift_bundle"
+    },
+    "ultimate_cleaning_bundle": {
+      "url": "https://dentalpulsepro.com/products/ultimate-cleaning-bundle",
+      "price": "$169.95",
+      "compare_at": "$300",
+      "save": "Save $130",
+      "includes": [
+        "DentalPULSE Pod",
+        "DentalPULSE Travel Pod",
+        "Antibacterial Retainer Cleaner tablets (30)"
+      ],
+      "best_for": "aligners, retainers, night guards (home + on the go)",
+      "colorway": "ultimate_bundle"
+    }
   }
 }
