@@ -1,0 +1,99 @@
+{
+  "name": "DentalPULSE",
+  "product": "DentalPULSE Pod (ultrasonic cleaner for aligners, retainers, dentures, night guards); also Pod Max, Travel Pod and Retainer Cleaner tablets",
+  "price": "$99.95 (Pod)",
+  "audience": "Adults who wear a removable oral appliance (clear aligners/Invisalign, retainers incl. permanent/wire, dentures, night/mouth guards, sleep apnea devices), plus parents of teens with retainers and adult children buying for a parent with dentures. Men and women.",
+  "palette": "clean bright white and soft pale blue backgrounds, DentalPULSE blue (#1E73E8) for headlines and pills, dark navy (#0B1F3A) body text, occasional black premium backgrounds",
+  "font_style": "clean modern sans-serif (like Inter/SF Pro), bold headlines, generous white space, clinical-but-friendly",
+  "website": "dentalpulsepro.com",
+  "prompt_rules": [
+    "The product MUST be the exact DentalPULSE device in the attached reference photo, unchanged: for the Pod, a smooth matte-white rounded dome with fine vertical ribbing on the lower body, a flat circular lid with the 'DentalPULSE' wordmark in grey, and when open a stainless-steel cleaning basin with a white hinged lid; for the Pod Max, a white cylinder with a black circular top panel and digital display; for the Travel Pod, a small round white clamshell case. Keep proportions and every detail; only change angle, lighting and setting. Do not invent buttons, screens, colors or logos.",
+    "Oral appliances (clear aligners, retainers, dentures, night guards) must look anatomically correct and realistic: clear aligners are thin transparent trays shaped like a full upper or lower arch; dentures have realistic pink gums and natural teeth. No distorted mouths or teeth on people.",
+    "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
+    "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
+  ],
+  "claims_to_avoid": [
+    "'kills/removes 99.9% of bacteria/viruses/germs' or any disinfection/medical claim (needs lab substantiation)",
+    "'Clinicians' Choice', 'recommended/used by orthodontists or dentists', 'dentist-grade' endorsement claims unless confirmed",
+    "money-back guarantee, free returns or shipping speed (confirm with the brand before using)",
+    "star ratings or review counts (the site shows 4.8 and 4.5 for different counts; keep them out)",
+    "comparisons naming competitor brands (Invisalign is fine as an appliance type, not as an endorser)"
+  ],
+  "colorways": {
+    "pod": {
+      "file": "reference/pod.png",
+      "label": "DentalPULSE Pod, closed (white ribbed dome)"
+    },
+    "pod_open": {
+      "file": "reference/pod_open.png",
+      "label": "DentalPULSE Pod, lid open with a clear aligner going in"
+    },
+    "pod_max": {
+      "file": "reference/pod_max.png",
+      "label": "DentalPULSE Pod Max (white cylinder, black top with digital display)"
+    },
+    "travel_pod": {
+      "file": "reference/travel_pod.png",
+      "label": "DentalPULSE Travel Pod (small round white clamshell)"
+    },
+    "tablets": {
+      "file": "reference/tablets.png",
+      "label": "DentalPULSE Retainer Cleaner tablets (blue boxes)"
+    }
+  },
+  "personas": {
+    "persona_slug": {
+      "name": "Who they are, in a few words",
+      "source": "the data this persona comes from (survey share, winning ads, reviews, forums)",
+      "colorways": [
+        "variant_slug"
+      ],
+      "test_colorways": []
+    },
+    "comfort_only": {
+      "name": "Broad everyday buyer",
+      "source": "...",
+      "colorways": "any"
+    }
+  },
+  "language_rules": {},
+  "atria_account": "Dentalpulse",
+  "program": {
+    "schedule": "e.g. Tue + Fri 5:50am America/New_York (routine name + trigger id once created)",
+    "iteration_batch": {
+      "weekday": "Tuesday",
+      "size": 20,
+      "spanish": 0
+    },
+    "netnew_batch": {
+      "weekday": "Friday",
+      "size": 40,
+      "net_new": 32,
+      "winning": 8,
+      "spanish": 0
+    },
+    "winning_personas": [
+      "persona_slug"
+    ],
+    "grow_personas": [
+      "persona_slug"
+    ],
+    "iterate_when": {
+      "days": 30,
+      "min_spend": 300,
+      "min_roas": 1.8
+    },
+    "roas_note": "any period where ROAS is unreliable"
+  },
+  "drive_folder_id": "1czcREwJ7CCml8-ZrrezzypAD9GLnwcxV",
+  "slack": {
+    "notify_channel_id": "U04PZNV9FV0",
+    "notify_name": "Samir (DM)"
+  },
+  "format_guides": {
+    "fb_comment": "Render the testimonial as a real Facebook mobile comment thread, pixel-faithful to the current Facebook app: light grey rounded comment bubble on white, small round profile photo on the left (realistic person matching the persona), commenter name in bold dark text (first name + last initial), comment text in Facebook's system sans font at normal comment size, a grey row under the bubble reading like \"2d   Like   Reply\", and a small overlapping reaction pill (like/love icons + a count) at the bubble's lower right. Optionally 2–3 stacked comments with replies indented. Plain, native, not designed; no Facebook logo.",
+    "trustpilot": "Render the testimonial as a real Trustpilot review card, faithful to Trustpilot's current design: white card with thin light-grey border, reviewer row with a small round initials avatar, reviewer first name + last initial and country code, a row of five green square star tiles with white stars (Trustpilot green #00B67A), a short bold review title, the review text in a clean sans font, and a small grey date. Show individual review cards only: no Trustpilot logo, no TrustScore, no overall rating or review count, no 'Verified' badge.",
+    "x_post": "Render as a real X (formerly Twitter) post screenshot, faithful to the current X app in light mode: white background, round profile photo top-left, display name in bold black, then grey @handle and \"· 3h\", the post text in X's Chirp-like sans at native size (black, left-aligned, no quotation marks), optionally an attached photo with rounded corners, then a grey engagement row with the reply, repost, like and view icons and small counts, all in X's thin grey icon style. No blue verification checkmark, no X logo, no 'Twitter' bird. It must read as a genuine X post, not a designed graphic."
+  },
+  "format_guides_note": "Testimonial/review ads use fb_comment or trustpilot; tweet-style ads use x_post (user rule, carried over from Comfort Wear)."
+}
