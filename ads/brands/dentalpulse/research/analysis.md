@@ -56,7 +56,8 @@ Takeaways:
 
 ## 5. Claims and mix (user, Oct 11)
 - **Approved; use aggressively:** "Eliminates 99.9% of bacteria", "clinical-grade", "42,000 Hz", "6 of 7 pods leave live bacteria (90-day lab test of 7 leading cleaners)", star ratings ("Rated 4.8/5", no counts), "tap water only, no tablets".
-- **Still unconfirmed, keep out:** dentist endorsements, guarantees, shipping, customer/unit counts, awards and press logos. The source list is brand.json → `approved_claims` and `claims_to_avoid`.
+- **Approved later on Oct 11:** dentist endorsements (no counts), the Clinicians' Choice badge, the 120-day money-back guarantee, and the 40% OFF sale at $99.95 (current price).
+- **Still unconfirmed, keep out:** shipping promises, customer/unit/dentist/review counts, a strike-through "was" price, other awards and press logos. The source list is brand.json → `approved_claims` and `claims_to_avoid`.
 - **Appliance mix for every batch:** 50% dentures, 25% night guards, 25% aligners/retainers.
 - **The enemy is the old routine, named directly:** toothbrush, Polident and Efferdent tablets, vinegar, bleach, soap, peroxide, denture cup. Competitor pods stay unbranded.
 

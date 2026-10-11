@@ -1,7 +1,7 @@
 {
   "name": "DentalPULSE",
   "product": "DentalPULSE Pod (ultrasonic cleaner for aligners, retainers, dentures, night guards) and the DentalPULSE Travel Pod. Advertise only these two products; never show Pod Max or cleaning tablets as DentalPULSE products.",
-  "price": "$99.95 (Pod)",
+  "price": "$99.95 (current price, 40% OFF sale)",
   "audience": "Adults who wear a removable oral appliance (clear aligners/Invisalign, retainers incl. permanent/wire, dentures, night/mouth guards, sleep apnea devices), plus parents of teens with retainers and adult children buying for a parent with dentures. Men and women.",
   "palette": "clean bright white and soft pale blue backgrounds, DentalPULSE blue (#1E73E8) for headlines and pills, dark navy (#0B1F3A) body text, occasional black premium backgrounds",
   "font_style": "clean modern sans-serif (like Inter/SF Pro), bold headlines, generous white space, clinical-but-friendly",
@@ -14,9 +14,9 @@
     "The cleaning cycle is always 5 minutes: any timer, clock or copy shows 5 minutes (05:00), never 3 minutes."
   ],
   "claims_to_avoid": [
-    "dentist/orthodontist endorsements ('Clinicians' Choice', 'recommended by 10,000 dentists') unless confirmed",
-    "money-back guarantee, free returns or shipping speed (not yet confirmed)",
-    "invented customer counts, units sold, review counts, awards or press logos",
+    "shipping speed or free shipping/returns beyond the 120-day guarantee (not confirmed)",
+    "invented counts: customers, units sold, reviews, 'X,000 dentists'; press logos or other awards",
+    "a strike-through 'was' price (only $99.95 and 40% OFF are confirmed)",
     "naming or showing logos of competitor ultrasonic pods (Zima, Sonic Dental, GuruNanda, oPro, Novapod): show them unbranded",
     "medical treatment claims (cures infections, prevents disease)"
   ],
@@ -116,7 +116,8 @@
       "min_spend": 300,
       "min_roas": 1.8
     },
-    "roas_note": "Comparison/listicle ads send traffic to an advertorial (LP_LISTICLE); ROAS is the account's reported figure."
+    "roas_note": "Comparison/listicle ads send traffic to an advertorial (LP_LISTICLE); ROAS is the account's reported figure.",
+    "offer": "Current offer: 40% OFF sale, $99.95, 120-day money-back guarantee. Use it on offer tiles and as a CTA line on ~30% of concepts."
   },
   "drive_folder_id": "1czcREwJ7CCml8-ZrrezzypAD9GLnwcxV",
   "slack": {
@@ -179,9 +180,13 @@
     "6 of 7 pods leave live bacteria / 6 of 7 pods can't remove bacteria (90-day side-by-side lab test of 7 leading ultrasonic cleaners); DentalPULSE was #1",
     "Star ratings: five gold or green stars, 'Rated 4.8/5' (no review counts)",
     "Tap water only: no tablets, no chemicals, no subscriptions",
-    "One 5-minute cycle (always say 5 minutes; never 3 or 3–5)"
+    "One 5-minute cycle (always say 5 minutes; never 3 or 3–5)",
+    "Dentist endorsements without numbers: 'Dentist-recommended', 'Recommended by dentists', a dentist character/quote framed as a recommendation (no invented names or counts)",
+    "Clinicians' Choice badge: a clean gold/navy seal reading \"Clinicians' Choice\"",
+    "120-day money-back guarantee (\"120-Day Money-Back Guarantee\", \"Try it risk-free for 120 days\")",
+    "40% OFF sale: \"40% OFF\" with the current price \"$99.95\" (do not invent a strike-through original price)"
   ],
-  "claims_note": "User (Oct 11): use the approved claims aggressively. Still unconfirmed, keep out: dentist/orthodontist endorsements ('Clinicians' Choice', 'recommended by X dentists'), money-back guarantee/free returns/shipping speed, customer or units-sold counts, review counts, award/press logos.",
+  "claims_note": "User Oct 11: be aggressive with approved_claims. Later Oct 11: dentist endorsements, Clinicians' Choice badge, 120-day money-back guarantee and the 40% OFF sale ($99.95 current price) approved. Still unconfirmed: shipping speed/free shipping, customer or units-sold counts, dentist counts, review counts, press logos.",
   "old_methods": {
     "note": "User rule: the 'before' / enemy is the old routine. Name it directly.",
     "methods": [
