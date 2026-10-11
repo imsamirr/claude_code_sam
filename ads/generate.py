@@ -95,6 +95,9 @@ def build_prompt(bdir, brand, concept, extra):
     if concept.get("colorway"):
         parts.append(f"The shoe is the {brand['colorways'][concept['colorway']]['label']} colorway shown in the reference photo.")
     parts.append(f"Brand styling: {brand['palette']}; {brand['font_style']}.")
+    guide = brand.get("format_guides", {}).get(concept.get("format", ""))
+    if guide:
+        parts.append(guide)
     parts += brand["prompt_rules"]
     lang = concept.get("lang", "en")
     if lang != "en":

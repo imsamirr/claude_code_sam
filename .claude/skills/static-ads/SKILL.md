@@ -15,7 +15,7 @@ the user approves.
 | Batch | When | Folder | Ids | Content |
 |---|---|---|---|---|
 | **Iterations** | Tuesday | `weeks/<YYYY>-W<ww>-tue` (current week) | `T<ww>_nn_slug` | 20 big-swing iterations of what's winning now and what won this time last year. **No net-new ideas.** |
-| **Net-new** | Friday | `weeks/<YYYY>-W<ww>` (next week) | `W<ww>_nn_slug` | 40 concepts: ~32 net-new, ~8 in proven winning-persona formats. |
+| **Net-new** | Friday | `weeks/<YYYY>-W<ww>-fri` (next week) | `W<ww>_nn_slug` | 40 concepts: ~32 net-new, ~8 in proven winning-persona formats. |
 
 ## 0. New brand? Onboard it first
 
@@ -42,7 +42,8 @@ the user approves.
 
 One routine ("Comfort Wear weekly statics") fires **Tuesday and Friday at 5:50am ET**, done by 9am:
 - **Tuesday** → iteration batch for the current ISO week (`2026-W44-tue` on Tue Oct 27, 2026).
-- **Friday** → net-new batch for the coming ISO week (the run on Fri Oct 23, 2026 builds `2026-W44`).
+- **Friday** → net-new batch for the coming ISO week (Fri Oct 16, 2026 builds `2026-W43-fri`; Fri Oct 23 builds `2026-W44-fri`, which already holds 7 seasonal travel concepts to top up to 40).
+(The first two batches, `2026-W42` and `2026-W43`, predate this naming.)
 If the target `concepts.json` already exists, keep its concepts and add until the batch is full.
 
 ## 1. Research refresh (each run, short)
@@ -126,8 +127,15 @@ Rules for the 40 (tag each concept `"group": "net_new"` or `"winning"`):
   ("Consigue el tuyo", "120.000").
 - **Copy**: audience or situation in the headline; one problem and one payoff; 15 words or fewer
   on the image when possible; no claim from `claims_to_avoid`. Respect `audience`: only the right people wear
-  the product (Comfort Wear: women only; no men or kids wearing it). Never invent named testimonials
-  ("— Linda, 68"); use real review language unattributed, or first-person copy without a name.
+  the product (Comfort Wear: women only; no men or kids wearing it).
+- **Native formats (user rule)**: every testimonial/review ad uses `"format": "fb_comment"` (Facebook
+  comment thread) or `"format": "trustpilot"` (Trustpilot review cards), and every tweet-style ad uses
+  `"format": "x_post"` (real X post). `generate.py` appends the matching guide from `brand.json` →
+  `format_guides`; see `ads/brands/comfortwear/format_examples/` for approved-looking examples. In the
+  prompt give the exact names, handle, text, date and counts. Use real customer language (Trustpilot
+  5★ reviews, survey) for review text; names are first name + last initial only, handles generic. No
+  ages, job titles or photos implying a specific verified person, no TrustScore/overall rating, no
+  "Verified" badges, no platform logos.
 - **GIFs**: add a `gif` block to 5–8 candidates, only where motion adds meaning (a counter ticking up, chat bubbles
   appearing, steps or callouts revealed, a clock moving through a shift). Use `"build": true`:
   each edit removes one element from the finished ad and the GIF plays in reverse, so it builds
