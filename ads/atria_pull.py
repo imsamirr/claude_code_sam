@@ -5,6 +5,7 @@
     python ads/atria_pull.py winners     # statics with >= $5k lifetime spend (since 2024)
     python ads/atria_pull.py losers      # statics < $200 spend, paused at ad level (last 12 months)
     python ads/atria_pull.py seasonal --week 2026-W45  # top spenders in the same window last year
+    python ads/atria_pull.py rising    # new ads (last 30 days) with >= $300 spend and ROAS >= 1.8
     python ads/atria_pull.py inspo       # image ads, rising impressions, launched last 30 days
 
 Writes CSVs to ads/brands/<brand>/research/data/. Atria returns at most 50 ads per date window, so
@@ -188,10 +189,40 @@ def seasonal(api, acc, args):
               "roas", "purchases", "headline", "primary_text", "transcript", "thumbnail_url"])
 
 
+def rising(api, acc, args):
+    """Recently launched ads (any format) that already hit the iteration bar: spend >= --min-spend
+    and ROAS >= --min-roas over the last --days. "Recently launched" = no spend in the 60 days before
+    that window (Atria exposes no launch date). Each one gets static iterations in the next batch.
+    """
+    end = dt.date.today() - dt.timedelta(days=1)
+    start = end - dt.timedelta(days=args.days - 1)
+    recent = aggregate(api, acc, start, end, "week")
+    before = aggregate(api, acc, start - dt.timedelta(days=60), start - dt.timedelta(days=1), "week")
+    rows = []
+    for ad_id, r in recent.items():
+        roas = r["revenue"] / r["spend"] if r["spend"] else 0
+        if ad_id in before or r["spend"] < args.min_spend_rising or roas < args.min_roas:
+            continue
+        detail = api.get(f"ad-accounts/{acc}/ads/{ad_id}", {"period": "last_7d"})
+        c = detail.get("creative") or {}
+        name = r["ad_name"]
+        rows.append({**r, "platform_ad_id": ad_id, "roas": round(roas, 2),
+                     "audience": "retargeting" if name.upper().startswith("RTG") else "prospecting",
+                     "headline": c.get("title"), "primary_text": (c.get("body") or "")[:800]})
+        time.sleep(0.7)
+    rows.sort(key=lambda r: -r["roas"] * r["spend"])
+    print(f"Window {start} to {end}: {len(rows)} new ads with spend >= ${args.min_spend_rising:.0f} and ROAS >= {args.min_roas}")
+    write_csv("rising_winners.csv", rows, ["platform_ad_id", "ad_name", "format", "audience", "status", "spend",
+              "roas", "purchases", "headline", "primary_text", "thumbnail_url"])
+
+
 def main():
     load_dotenv()
     p = argparse.ArgumentParser()
-    p.add_argument("what", choices=["winners", "losers", "inspo", "seasonal"])
+    p.add_argument("what", choices=["winners", "losers", "inspo", "seasonal", "rising"])
+    p.add_argument("--days", type=int, default=30, help="rising: look-back window in days")
+    p.add_argument("--min-spend-rising", type=float, default=300, help="rising: minimum spend in the window")
+    p.add_argument("--min-roas", type=float, default=1.8, help="rising: minimum ROAS in the window")
     p.add_argument("--week", help="seasonal: target ISO week, e.g. 2026-W45 (default: next week)")
     p.add_argument("--pad-days", type=int, default=7, help="seasonal: widen last year's window by this many days each side")
     p.add_argument("--top", type=int, default=15, help="seasonal: how many top-spending ads to keep")
@@ -208,7 +239,7 @@ def main():
     if not args.week:
         y, w, _ = (dt.date.today() + dt.timedelta(days=7)).isocalendar()
         args.week = f"{y}-W{w:02d}"
-    {"winners": winners, "losers": losers, "inspo": inspo, "seasonal": seasonal}[args.what](api, acc, args)
+    {"winners": winners, "losers": losers, "inspo": inspo, "seasonal": seasonal, "rising": rising}[args.what](api, acc, args)
 
 
 if __name__ == "__main__":

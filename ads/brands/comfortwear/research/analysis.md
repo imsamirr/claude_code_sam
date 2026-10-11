@@ -215,3 +215,22 @@ Clinic Connect. Colorway rules per persona live in `brand.json`.
 | Traveler (theme parks, Europe) | Travel videos 2.15 ROAS; team "Paris/Barcelona" statics | black/white, navy, burgundy, black/mint |
 | New walker / weight loss (incl. GLP-1) | Winner "I lost 50lbs+ walking 20,000 steps" ($93k); team GLP-1 statics | purple, black/mint, grey/pink, navy |
 | Comfort only, no diagnosis | 22% "no foot pain, only need comfort" | any |
+
+## 12. Rising winners (iteration rule), added 2026-10-11
+
+Rule: any ad launched in the last 30 days with **≥ $300 spend and ROAS ≥ 1.8** gets static iterations of
+its concept and angle in the next weekly batch (`atria_pull.py rising`). ROAS is readable again for
+recent ads (the near-zero ROAS affects the 2025 history), so spend stays the reference for older ads.
+
+First pull (Sep 11 – Oct 10, 2026), all videos, all prospecting:
+
+| Ad | Angle | Spend | ROAS |
+|---|---|---|---|
+| COM225 Kyro390, Spanish version | "Los zapatos de enfermería favoritos de 2026", 73% of healthcare staff have foot pain | $1,047 | 2.57 |
+| COM211 travel | "2026's Favorite Shoes For Traveling", 50,000+ steps, long flights | $967 | 2.50 |
+| Com255 | "2026's Best Shoes For Weight Loss", vicious cycle of foot pain vs. walking more | $417 | 2.18 |
+| Senior page, side by side | "Podiatrist Rates Safest Shoes for Seniors": stability, slip-resistance, no laces | $477 | 1.89 |
+| COM174 Kyro362 teacher mash-up | "2026's Favorite Shoes For Teachers": 5 shoes compared over 480+ hours of classroom wear | $2,157 | 1.83 |
+
+The "2026's Favorite/Best Shoes For <audience>" headline format appears in 4 of 5. Some source copy uses
+claims we avoid ("recommended by podiatrists", "free returns"); iterations keep the angle but drop those.

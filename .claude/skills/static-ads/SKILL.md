@@ -52,6 +52,14 @@ those concepts and add new ones until there are 40.
   Atria's API returns no transcripts for these, so match ad names (e.g. "Kyro_293") against
   `research/data/video_transcripts.md` for script lines, and use the ad name/headline/primary text
   otherwise. Rank by spend: ROAS from Feb 2025 on is unreliable (tracking break, see analysis.md).
+- **Rising winners (iterate on these first)**: `python ads/atria_pull.py rising` lists ads launched in
+  the last 30 days (no spend in the 60 days before) with **spend >= $300 and ROAS >= 1.8**, any format.
+  For each one, write **3 static iterations of the same concept and angle** (same audience, promise and
+  hook idea; different static formats: e.g. ranked list, callout layout, quote/UGC-style, comparison),
+  tagged `"group": "iteration"` with `"based_on"` naming the ad, its spend and ROAS. They count toward
+  the winning half and come before seasonal concepts. Match the ad's language (a Spanish winner gets
+  Spanish iterations) and audience; still drop any claim in `claims_to_avoid` even if the source ad
+  used it. Spend remains the reference for older ads (`seasonal`, `winners`).
 - **Atria inspiration**: `python ads/atria_pull.py inspo` (rising image ads, last 30 days) every
   week. Skim `inspiration_raw.csv` for new formats and try at least 3 of them in the net-new half.
   Re-read `brand_inspiration_longrunning.csv` (ads running for months) when stuck.
