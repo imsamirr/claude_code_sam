@@ -88,7 +88,7 @@
   "language_rules": {},
   "atria_account": "Dentalpulse",
   "program": {
-    "schedule": "Tue + Fri 5:50am America/New_York (routine to be created)",
+    "schedule": "Tue + Fri 6:05am America/New_York (routine 'DentalPULSE weekly statics', trig_01LoR9bkHByFXEBh68gwbz8V)",
     "iteration_batch": {
       "weekday": "Tuesday",
       "size": 20,

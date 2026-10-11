@@ -82,7 +82,7 @@
       "angle": "Gross-out: what's growing on the guard you put in your mouth every night",
       "based_on": "Survey: 'never felt clean', 'worried it still had bacteria', 'smell'; product-page review 'the water was BROWN after the first cycle'",
       "headline": "You put it in your mouth for 8 hours a night.",
-      "prompt": "Moody dark bedroom nightstand at night, warm lamp light: a plastic night-guard case left open with a cloudy, yellowed clear night guard inside, a glass of water, a phone face down. The guard is shown under a circular magnifying-glass inset that reveals a grimy film in its grooves. Bold white headline at the top: \"You put it in your mouth for 8 hours a night.\" Second line smaller: \"When did you last really clean it?\" Bottom third: the DentalPULSE Pod from the reference photo glowing softly on the nightstand with the text \"5 minutes. Tap water. Done.\""
+      "prompt": "Moody dark bedroom nightstand at night, warm lamp light: a cheap translucent blue plastic rectangular night-guard case left open with a cloudy, yellowed clear night guard inside (this case is NOT a DentalPULSE product and must look nothing like it), a glass of water, a phone face down. The guard is shown under a circular magnifying-glass inset that reveals a grimy film in its grooves. Bold white headline at the top: \"You put it in your mouth for 8 hours a night.\" Second line smaller: \"When did you last really clean it?\" Bottom third: the DentalPULSE Pod from the reference photo glowing softly on the nightstand with the text \"5 minutes. Tap water. Done.\""
     },
     {
       "id": "L42_09_nightguard_trustpilot_brighter",
@@ -123,7 +123,7 @@
       "angle": "Grinders who travel: the guard that sits in a hotel cup",
       "based_on": "Product line: Travel Pod; survey 'a way to easily clean them on the go'",
       "headline": "Your night guard travels too.",
-      "prompt": "Top-down flat lay of an open carry-on suitcase on a hotel bed with folded clothes, passport, earbuds, and the DentalPULSE Travel Pod from the reference photo open with a clear night guard inside. A hotel bathroom glass in the corner with a crossed-out sticky note reading \"not this\". Bold navy headline at top on a white band: \"Your night guard travels too.\" Subline: \"Fits in your carry-on. Cleans with tap water.\""
+      "prompt": "Top-down flat lay of an open carry-on suitcase on a hotel bed with folded clothes, passport, earbuds, and, large and in sharp focus, the DentalPULSE Travel Pod exactly as in the reference photo (small round white clamshell, smooth lid with small square light points inside), open with a clear night guard resting in its base. A hotel bathroom glass in the corner with a crossed-out sticky note reading \"not this\". Bold navy headline at top on a white band: \"Your night guard travels too.\" Subline: \"Fits in your carry-on. Cleans with tap water.\""
     },
     {
       "id": "L42_13_retainer_milky_clear",
@@ -133,7 +133,7 @@
       "angle": "Milky to clear: the 'fresh from the orthodontist' feeling",
       "based_on": "Survey: 'Retainer clear not milky', 'My retainer is clear again!', 'clean, clear and odor free'",
       "headline": "Remember when your retainer was this clear?",
-      "prompt": "Bright, crisp macro product photo: two clear plastic retainers (thin, realistic full upper arch) side by side on a white surface. Left one cloudy, milky white with a dull film, labeled with a small grey pill \"6 months of brushing\". Right one glass-clear and glossy, labeled with a blue pill \"After the Pod\". Behind them, slightly out of focus, the open DentalPULSE Pod from the reference photo. Headline at top in bold navy: \"Remember when your retainer was this clear?\""
+      "prompt": "Bright, crisp macro product photo: two clear plastic retainers (thin, realistic full upper arch) side by side on a white surface. Left one obviously dirty: an opaque milky-white haze over the whole tray, a faint yellow tint and chalky white deposits in the tooth wells, clearly different at a glance, labeled with a small grey pill \"6 months of brushing\". Right one glass-clear and glossy, labeled with a blue pill \"After the Pod\". Behind them, slightly out of focus, the open DentalPULSE Pod from the reference photo. Headline at top in bold navy: \"Remember when your retainer was this clear?\""
     },
     {
       "id": "L42_14_retainer_parent_teen_text",
@@ -163,7 +163,7 @@
       "angle": "Wire (Hawley) retainers: the gunk around the wire",
       "based_on": "Audience includes wire retainers; survey 'buildup inside crevice', 'getting in tight areas'",
       "headline": "The gunk around the wire? A brush can't reach it.",
-      "prompt": "Extreme macro close-up of a realistic Hawley retainer (pink or clear acrylic palate with a thin metal wire across the front teeth area) showing white buildup collecting where the wire meets the acrylic. A thin blue circle highlights that spot with a label \"where your brush can't reach\". Lower third: the DentalPULSE Pod from the reference photo with the line \"Sound waves can.\" Headline at top in bold navy: \"The gunk around the wire? A brush can't reach it.\""
+      "prompt": "Extreme macro close-up of a realistic Hawley retainer resting on a white bathroom counter, seen from above: a horseshoe-shaped smooth pink acrylic plate that sits against the roof of the mouth (no teeth on it), with a thin stainless-steel wire running along the front and two small wire clasps at the back. White chalky buildup collects where the wire meets the acrylic. A thin blue circle highlights that spot with a small label \"where your brush can't reach\". Lower third: the DentalPULSE Pod from the reference photo with the line \"Sound waves can.\" in bold DentalPULSE blue. Headline at top in bold navy: \"The gunk around the wire? A brush can't reach it.\""
     },
     {
       "id": "L42_17_retainer_notes_app",
@@ -235,7 +235,7 @@
       "angle": "Us vs them: why most $30 pods disappoint",
       "based_on": "Winning us-vs-them static ('DentalPULSE vs OTHERS'); survey 'not much difference from the $30 Amazon pod', 'stopped turning on', 'didn't last long'. Avoids 99.9% claim.",
       "headline": "Bought the $30 pod first? So did they.",
-      "prompt": "Split comparison graphic. Left half on soft pale blue, header \"DentalPULSE\", the Pod from the reference photo, three white rounded rows with blue checks: \"42,000 Hz cleaning\", \"Tap water, no tablets needed\", \"Built to run every single day\". Right half on dark grey, header \"$30 pods\", an unbranded generic cheap plastic pod with no logo, three dark rows with red x icons: \"Stops turning on after a few months\", \"Buzzes, barely moves the water\", \"Film still there after the cycle\". Headline across the top in bold navy: \"Bought the cheap pod first? So did they.\""
+      "prompt": "Top 25% of the image: a solid white band with the headline in bold navy, fully on white and centered: \"Bought the cheap pod first?\" and on a second line \"So did they.\" Below it, a split comparison. Left half on soft pale blue, header \"DentalPULSE\", the Pod from the reference photo, three white rounded rows with blue check icons: \"42,000 Hz cleaning\", \"Tap water, no tablets needed\", \"Built to run every single day\". Right half on dark grey, header \"$30 pods\", a generic cheap glossy black rectangular plastic box cleaner with a clear flip lid and a single blue button, no logo, looking nothing like the DentalPULSE Pod; three dark rows with red x icons: \"Stops turning on after a few months\", \"Buzzes, barely moves the water\", \"Film still there after the cycle\"."
     },
     {
       "id": "L42_24_all_appliances_family_shelf",
