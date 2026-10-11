@@ -1,195 +1,187 @@
 ---
 name: static-ads
-description: Research, write and render a weekly batch of Meta static ads (and build-up GIFs) for any brand in ads/brands/, with persona-matched product colorways, English and US-Spanish copy, 9:16 output with all content in the 4:5 safe area, and an approve/reject loop. Use for "make this week's statics", "new static concepts for <brand>", "set up static ads for my other brand", "Spanish statics", "turn these concepts into GIFs", or a weekly static-ads trigger.
+description: Run a brand's Meta static ad program from ads/brands/<brand>/: onboard a new brand (product references, personas, colorways, Atria research, Drive folder, Slack, twice-weekly routine), then each run research → write → render (9:16 with content in the 4:5 safe area, plus 4:5 crop) → QA → Drive sheet → Slack DM. Two batch types: iteration batches (big-swing iterations of current and seasonal winners only) and net-new batches. English and native US-Spanish copy, native Facebook/Trustpilot/X formats, build-up GIFs after approval. Use for "set up static ads for my other brand", "make this week's statics", "iteration batch", "net-new concepts", "Spanish statics", "turn these into GIFs", or a scheduled static-ads routine.
 ---
 
 # Static ads
 
-The engine lives in `ads/` (`generate.py`, `review.py`, `atria_pull.py`); each brand lives in
-`ads/brands/<brand>/`. Read `ads/README.md` for commands. This skill is the process around them.
+Engine: `ads/generate.py` (render), `ads/review.py` (sheets, verdicts, cost, CSV), `ads/atria_pull.py`
+(research). Each brand lives in `ads/brands/<brand>/`; **everything brand-specific is in its `brand.json`**
+(product, colorways, personas, claims to avoid, languages, native-format guides, `atria_account`,
+`program`, `drive_folder_id`, `slack`). Read it first on every run. `ads/README.md` has the commands.
+Comfort Wear (`ads/brands/comfortwear/`) is the fully worked example: copy its depth and structure.
 
-Two batches a week, 1 static per concept (no variations), each saved as a 9:16 PNG
-(Stories/Reels) plus its 4:5 crop (feed), about **30% Spanish**. GIFs are rendered only for statics
-the user approves.
+Every deliverable is 1 static per concept (no variations): a 9:16 PNG (Stories/Reels) with all content
+inside the centered 4:5 area, plus the 4:5 crop (feed). GIFs only for statics the user approves.
 
-| Batch | When | Folder | Ids | Content |
+## Batch types (sizes and days from `brand.json` → `program`)
+
+| Batch | Default day | Folder | Ids | Content |
 |---|---|---|---|---|
-| **Iterations** | Tuesday | `weeks/<YYYY>-W<ww>-tue` (current week) | `T<ww>_nn_slug` | 20 big-swing iterations of what's winning now and what won this time last year. **No net-new ideas.** |
-| **Net-new** | Friday | `weeks/<YYYY>-W<ww>-fri` (next week) | `W<ww>_nn_slug` | 40 concepts: ~32 net-new, ~8 in proven winning-persona formats. |
+| **Iteration** | Tuesday | `weeks/<YYYY>-W<ww>-tue` (current ISO week) | `T<ww>_nn_slug` | `iteration_batch.size` big-swing iterations of what's winning now and what won this time last year. **No net-new ideas.** |
+| **Net-new** | Friday | `weeks/<YYYY>-W<ww>-fri` (coming ISO week) | `W<ww>_nn_slug` | `netnew_batch.size` concepts: mostly net-new, a few in proven winning-persona formats. |
 
-## 0. New brand? Onboard it first
+If the target `concepts.json` already exists (seasonal or hand-made concepts), keep them and add until
+the batch is full. Ids are unique forever. (Comfort Wear's `weeks/2026-W42` and `2026-W43` predate the
+`-tue`/`-fri` naming.)
 
-1. `cp -r ads/brands/_template ads/brands/<brand>` and fill in `brand.json`:
-   - `product`, `price`, `palette`, `font_style`, `website`.
-   - `prompt_rules[0]`: a precise physical description of the product, so the model keeps it exact.
-   - `claims_to_avoid`: anything legal, ops or reviews say the brand can't promise.
-   - `audience`: who the product is for (e.g. Comfort Wear is women only). If the product is
-     gendered, add a `prompt_rules` line saying who may wear it, and frame personas and gifting to
-     match (gift for mom/grandma/wife, not dad).
-   - `colorways`: one clean studio photo per colorway/variant in `reference/` (white or light-grey
-     background, product only, ~1500px PNG). Find them in the brand's Drive (look for a studio
-     or catalog folder; prefer side profile). Never use crops of old ads: they make the product drift.
-   - `personas`: who buys and why, each with a `source` (data behind it) and the `colorways` that
-     fit it (`"any"` allowed, `test_colorways` for colors you want to try). Ask the user for any
-     color rules per audience.
-   - `language_rules`: keep `es` if Spanish ads are wanted; add others the same way.
-2. Ask for the Atria ad-account name and run `python ads/atria_pull.py winners|losers|inspo --brand <brand> --account "<name>"`.
-3. Write `ads/brands/<brand>/research/analysis.md`: what $5k+ winners share, what losers share, video
-   script lines worth stealing, review/survey language, competitor and long-running inspiration.
-   Reuse the Comfort Wear analysis as the model for depth and structure.
+## 0. Onboarding a new brand
 
-## Schedule
+Ask the user for anything below you can't find. Do the steps in order; each ends with something saved.
 
-One routine ("Comfort Wear weekly statics") fires **Tuesday and Friday at 5:50am ET**, done by 9am:
-- **Tuesday** → iteration batch for the current ISO week (`2026-W44-tue` on Tue Oct 27, 2026).
-- **Friday** → net-new batch for the coming ISO week (Fri Oct 16, 2026 builds `2026-W43-fri`; Fri Oct 23 builds `2026-W44-fri`, which already holds 7 seasonal travel concepts to top up to 40).
-(The first two batches, `2026-W42` and `2026-W43`, predate this naming.)
-If the target `concepts.json` already exists, keep its concepts and add until the batch is full.
+1. **Scaffold**: `cp -r ads/brands/_template ads/brands/<brand>` (lowercase slug, no spaces).
+2. **Product references**: find clean studio shots in the brand's Drive (search the shared assets folder
+   for Studio/Catalog/Product folders; prefer one side-profile or hero shot per colorway/variant, plain
+   light background). Download, resize to ~1536px PNG into `reference/`, and list each in
+   `colorways` with a plain-language `label`. Never use crops of old ads; they make the product drift.
+   Check with a contact sheet that each file is a different variant.
+3. **brand.json basics**: `name`, `product`, `price`, `website`, `palette` (with hex), `font_style`,
+   `audience` (who uses it; if gendered, add a `prompt_rules` line on who may be shown using it),
+   `prompt_rules[0]` (a precise physical description of the product: every distinctive detail), and
+   `claims_to_avoid` (guarantees, shipping speed, medical/endorsement claims, anything reviews or
+   ops say the brand can't promise). Ask the user to confirm colorway names and any color rules per
+   audience.
+4. **Research** (write `research/analysis.md`, model it on Comfort Wear's):
+   - Set `atria_account` (list accounts if unsure; the API returns names). Pull
+     `atria_pull.py winners`, `losers`, `inspo`, `current`, `rising`, and `seasonal --week <next week>`.
+     Check whether recent ROAS is readable; note unreliable periods in `program.roas_note`.
+   - Winners vs losers patterns, top video scripts (transcripts if available), reviews (Trustpilot,
+     survey sheets in Drive: aggregates and short anonymous quotes only, never raw customer rows),
+     competitor/long-running inspiration, forums (Reddit is usually unreachable from the cloud; say so).
+5. **Personas**: 8–13 personas, each with `name`, `source` (the data behind it) and `colorways`
+   (`"any"` allowed; `test_colorways` for colors to try). Set `program.winning_personas` (proven
+   spend) and `program.grow_personas` (the user's priorities).
+6. **Languages**: keep `language_rules.es` only if the brand has Spanish ads or a Spanish audience
+   (check account history for Spanish ad names/copy); set the Spanish counts in `program`.
+7. **Native formats**: the template's `format_guides` (Facebook comment, Trustpilot, X post) apply to
+   every brand; adjust the persona wording if needed. Render one test of each into `format_examples/`
+   and show the user.
+8. **Delivery**: create a Drive folder "<Brand> – Weekly Static Ads" and save its id as
+   `drive_folder_id`; find the user's Slack id (or a channel) and save `slack.notify_channel_id`.
+9. **First batch by hand**: run a net-new batch now (sections 1–6), show it, log verdicts.
+10. **Routine**: create one routine per brand (create_trigger, `create_new_session_on_fire: true`,
+    cron e.g. `CRON_TZ=America/New_York 50 5 * * 2,5`) using the prompt template at the end of this
+    file. Routines created from a session get no connectors, so tell the user to open the routine in
+    claude.ai → Routines → Edit and add **Google Drive** and **Slack**. Then fire it once with
+    `TEST RUN:` instructions (list the Drive folder, run an Atria pull, send a Slack test DM) and read
+    its transcript to confirm. Record the schedule and trigger id in `program.schedule`.
+11. Commit and push; tell the user what's automated, what each run costs, and what's left for them.
 
 ## 1. Research refresh (each run, short)
 
-- Read `research/analysis.md` and `feedback.json` (what was approved/rejected and why).
-- **Same window last year**: `python ads/atria_pull.py seasonal --week <target week>` lists the top
-  spenders (videos and statics) from the matching dates last year (±7 days). Make at least 5
-  concepts from them, tagged `"group": "seasonal"` (they count toward the winning half): turn each
-  top video's script (hook, test/ranking, proof lines) into static formats. Example: the travel
-  "we tested 5 shoes" video (Kyro 293, 2.15 ROAS) won late Oct–early Nov 2025, so `2026-W44` leads with travel rankings.
-  Atria's API returns no transcripts for these, so match ad names (e.g. "Kyro_293") against
-  `research/data/video_transcripts.md` for script lines, and use the ad name/headline/primary text
-  otherwise. Rank by spend: ROAS from Feb 2025 on is unreliable (tracking break, see analysis.md).
-- **Current winners (Tuesday)**: `python ads/atria_pull.py current` lists every ad in the last 30 days
-  with **spend >= $300 and ROAS >= 1.8**, any format (`audience` marks retargeting vs prospecting);
-  `python ads/atria_pull.py rising` is the same filter limited to ads launched in that window.
-  Spend remains the reference for older ads (`seasonal`, `winners`), whose ROAS is unreliable.
-- **Atria inspiration**: `python ads/atria_pull.py inspo` (rising image ads, last 30 days) every
-  week. Skim `inspiration_raw.csv` for new formats and try at least 3 of them in the net-new half.
-  Re-read `brand_inspiration_longrunning.csv` (ads running for months) when stuck.
-- If an Atria call fails with 401, the key isn't set as `ATRIA_API_KEY`. Say so and continue with the
-  existing data; don't look for the key elsewhere.
-- Optional pulls: Atria `inspo` for rising formats; the brand's customer survey sheet (Drive) for new
-  language; Trustpilot. Reddit is usually unreachable from the cloud container (WebFetch is
-  blocked and search rarely returns threads), so use forum mirrors, Mayo Clinic Connect-type
-  communities, and your own category knowledge, and say so in the write-up.
-- Never copy raw customer rows (emails, order numbers) into the repo; keep aggregates and short
-  anonymous quotes only.
+- Read `brand.json`, `research/analysis.md` and `feedback.json` (approved/rejected and why).
+- **Iteration runs**: `atria_pull.py current` (any ad in the last `iterate_when.days` days with spend
+  ≥ `min_spend` and ROAS ≥ `min_roas`, any format; `audience` marks retargeting vs prospecting),
+  `atria_pull.py rising` (same filter, only ads launched in the window), and
+  `atria_pull.py seasonal --week <current week>` (top spenders by **spend** in the same window last
+  year, ±7 days). Atria returns no transcripts; match ad names against `research/data/` scripts.
+- **Both runs**: `atria_pull.py inspo` (rising image ads, last 30 days) for new formats; re-read
+  `brand_inspiration_longrunning.csv` when stuck.
+- If Atria returns 401, `ATRIA_API_KEY` isn't set: say so and use existing data. Never look for keys.
 
-## 2. Write the weekly batch
+## 2. Write the batch
 
-Create `ads/brands/<brand>/weeks/<folder>/concepts.json` (folder per the schedule table above).
-Ids are `W<ww>_<nn>_<slug>` (Friday) or `T<ww>_<nn>_<slug>` (Tuesday), unique forever. Schema per concept:
+`ads/brands/<brand>/weeks/<folder>/concepts.json`, schema per concept:
 
 ```json
-{"id": "W42_07_grandkids_cant_keep_up", "persona": "active_retiree", "lang": "en",
- "colorway": "grey_pink", "angle": "...", "based_on": "the data this comes from",
- "headline": "...", "prompt": "full image prompt with every on-image word in double quotes",
+{"id": "W43_07_grandkids_cant_keep_up", "group": "net_new", "persona": "active_retiree", "lang": "en",
+ "colorway": "grey_pink", "format": "x_post", "angle": "...", "based_on": "the data or source ad",
+ "headline": "...", "prompt": "full image prompt, every on-image word in double quotes",
  "gif": {"build": true, "first_ms": 2400,
          "frames": [{"edit": "Remove the headline ...", "ms": 900}, {"edit": "...", "ms": 900}]}}
 ```
+(`format` and `gif` are optional.)
 
-### Tuesday: iteration batch (20, iterations only)
+### Iteration batch: iterations only
 
-Sources, in this order: (1) `current_winners.csv` (rising winners first), (2) `seasonal_<week>.csv`
-(top spenders this time last year, by spend). Every concept must name its source ad in `based_on`
-(name, spend, ROAS or "spend-ranked, last year") and keep that ad's **concept and angle**: same
-audience, problem, promise and core hook idea. **No net-new ideas.**
+Sources in order: `current_winners.csv` (rising winners first), then `seasonal_<week>.csv`. Each concept
+names its source ad in `based_on` (name, spend, ROAS, or "spend-ranked, last year") and keeps that ad's
+**concept and angle**: same audience, problem, promise and core hook. **No net-new ideas.**
+Make **big swings**: move the angle into a static format the source never used, taken from Atria
+inspiration or formats already working in the account (a "we tested 5" video → ranked list, scorecard,
+receipt, postcards; a testimonial → Facebook comment thread, Trustpilot cards, X post, sticky note).
+Name the new format in `angle`. 2–4 per strong ad (best performers get the most), at least 8 formats,
+Spanish count from `program`. Spanish winners get Spanish iterations; proven English angles can be
+rewritten natively in Spanish. Retargeting winners suit proof/objection formats; prospecting winners
+suit hook-led formats. `"group": "iteration"`.
 
-Make them **big swings**, not tweaks: put the angle into a static format the source never used,
-taken from Atria inspiration (`inspiration_raw.csv` rising formats, `brand_inspiration_longrunning.csv`)
-or formats that are already working in the account. Examples: a video's "we tested 5 shoes" becomes a
-ranked list, a scorecard, a receipt or postcards; a testimonial becomes a chat screenshot, a sticky note
-or a quote card. Name the new format in `angle`. Spread the 20 across the winners (2–4 per strong ad;
-the top spender/ROAS gets the most), at least 8 different formats, and **~6 Spanish** (Spanish winners
-get Spanish iterations; also put proven English angles into Spanish). Retargeting winners can get
-objection-handling or proof formats; prospecting winners get hook-led formats. Tag `"group": "iteration"`.
+### Net-new batch: mostly net new
 
-### Friday: net-new batch (40, mostly net new)
+- `program.netnew_batch.net_new` concepts `"group": "net_new"`: new angles, personas and formats,
+  weighted to `grow_personas`; at least 3 formats from the latest `inspo` pull.
+- `program.netnew_batch.winning` concepts `"group": "winning"` in proven formats for `winning_personas`.
+- No angle repeats from this week's iteration batch or any earlier folder.
 
-Rules for the 40 (tag each concept `"group": "net_new"` or `"winning"`):
-- **Split**: ~32 `net_new` concepts (new angles, personas and formats; weight the personas the user
-  wants to grow: currently housekeeping, gifting for her and weight-loss walkers) and ~8 `winning`
-  concepts in proven winning-persona formats (Comfort Wear: nurses, CNAs). Don't repeat angles from
-  this week's Tuesday iterations.
-- **Unique**: 40 different angles, none repeating a previous week's angle. No two concepts share persona + angle; mix formats (lifestyle photo,
-  product + callouts, split/comparison, quote/testimonial, native chat/comment screenshot,
-  checklist/steps, bold type-only). Try at least 3 formats from the latest Atria `inspo` pull.
+### Rules for every batch
 
-### Both batches
-
-- **Personas**: cover at least 8 personas across the week.
-- **Colorway**: pick from the persona's `colorways` (or `test_colorways`, at most 2 per week) and
-  rotate so no colorway appears more than 8 times. `generate.py` warns when a colorway is
-  outside the persona's palette.
-- **Spanish**: when the brand has Spanish history (Comfort Wear: Spanish nurse statics at 1.79–2.14
-  ROAS, Spanish video $48k), about 30% of each batch is written natively in Spanish, not translated.
-  Write as a Spanish speaker living in the US talks: `tú`, everyday Mexican-leaning US Latino
-  phrasing ("los pies me mataban", "parado todo el día", "comadre", "porfa", "doble turno"),
-  family and coworker framing, US number format. Avoid Spain-isms and stiff translated copy
-  ("Consigue el tuyo", "120.000").
-- **Copy**: audience or situation in the headline; one problem and one payoff; 15 words or fewer
-  on the image when possible; no claim from `claims_to_avoid`. Respect `audience`: only the right people wear
-  the product (Comfort Wear: women only; no men or kids wearing it).
-- **Native formats (user rule)**: every testimonial/review ad uses `"format": "fb_comment"` (Facebook
-  comment thread) or `"format": "trustpilot"` (Trustpilot review cards), and every tweet-style ad uses
-  `"format": "x_post"` (real X post). `generate.py` appends the matching guide from `brand.json` →
-  `format_guides`; see `ads/brands/comfortwear/format_examples/` for approved-looking examples. In the
-  prompt give the exact names, handle, text, date and counts. Use real customer language (Trustpilot
-  5★ reviews, survey) for review text; names are first name + last initial only, handles generic. No
-  ages, job titles or photos implying a specific verified person, no TrustScore/overall rating, no
-  "Verified" badges, no platform logos.
-- **GIFs**: add a `gif` block to 5–8 candidates, only where motion adds meaning (a counter ticking up, chat bubbles
-  appearing, steps or callouts revealed, a clock moving through a shift). Use `"build": true`:
-  each edit removes one element from the finished ad and the GIF plays in reverse, so it builds
-  up and holds on the full static. Keep it to 2–3 edits.
+- **Unique**: no two concepts share persona + angle; mix formats (lifestyle photo, product + callouts,
+  split/comparison, ranked list, scorecard, native comment/review/post, checklist/steps, bold type-only).
+- **Personas**: at least 8 per net-new batch. **Colorways**: from the persona's list (≤2
+  `test_colorways` per batch), no colorway more than ~20% of the batch.
+- **Audience**: only the right people are shown using the product (Comfort Wear: women only, no men or kids).
+- **Copy**: audience or situation in the headline; one problem, one payoff; ≤15 words on the image
+  when possible; nothing from `claims_to_avoid`, even if a source ad used it.
+- **Spanish** (if enabled): written natively as a Spanish speaker in the US talks (`tú`, everyday
+  Mexican-leaning US Latino phrasing, family/coworker framing, US number format), never translated or
+  Spain-style ("Consigue el tuyo", "120.000").
+- **Native formats (user rule)**: testimonials/reviews use `"format": "fb_comment"` or `"trustpilot"`;
+  tweet-style ads use `"format": "x_post"`. `generate.py` appends the guide from `format_guides`. Give
+  exact names, handle, text, date and counts in the prompt. Review text comes from real customer
+  language; names are first name + last initial, handles generic; no ages/job titles implying a real
+  verified person, no overall rating/TrustScore, no "Verified" badges, no platform logos.
+- **GIF candidates**: 3–8 `gif` blocks where motion adds meaning (counter ticking, bubbles appearing,
+  steps revealed). `"build": true`: each edit removes one element; the GIF plays in reverse and holds on
+  the full static. 2–3 edits.
 
 ## 3. Render
 
 ```bash
-python ads/generate.py --brand <brand> --week <YYYY-Www>                  # statics (run ids in parallel with xargs -P 8)
-python ads/generate.py --brand <brand> --week <YYYY-Www> --gif-only <ids> # GIFs, only for approved statics
-python ads/review.py cost --brand <brand> --week <YYYY-Www>              # what the week actually cost
+python ads/generate.py --brand <brand> --week <folder> <ids>              # run ids in parallel: xargs -P 8
+python ads/generate.py --brand <brand> --week <folder> --gif-only <ids>   # GIFs for approved statics
+python ads/review.py cost --brand <brand> --week <folder>                 # actual spend
 ```
 
-Measured gpt-image-2 costs (every call is logged to `output/_usage.jsonl`):
+Measured gpt-image-2 cost per static ≈ $0.08 (medium 4:5 render ~$0.06 + low 9:16 extension ~$0.02);
+GIF ≈ $0.14. Use `--quality high` only for product close-ups.
 
-| Step | Default quality | Cost | All-high cost |
-|---|---|---|---|
-| 4:5 render | medium | ~$0.06 | ~$0.21 |
-| 9:16 background extension | low | ~$0.02 | ~$0.17 |
-| GIF (2 edit frames) | medium | ~$0.14 | ~$0.43 |
-| **40 statics + 8 GIFs per week** | | **~$4.30** | ~$18.60 |
+## 4. QA (always, before anything is shown or posted)
 
-Use `--quality high` only for product close-ups where shoe detail matters. Keep the extension at
-`low`, since it only fills background outside the safe area.
+`python ads/review.py sheet --brand <brand> --week <folder>`, then Read every page (zoom into text-heavy
+ads). Re-render anything with: a misspelling (incl. accents, ¿ ¡), extra text or panels nobody asked for,
+competitor logos/products, the wrong people using the product, a product that doesn't match its
+reference, or a native format that doesn't look like the real platform. Use `--extra "<fix>"`, then
+delete the bad `_v1` files so each concept has exactly one static.
 
-## 4. QA before showing anything
+## 5. Verdicts
 
-Build sheets with `python ads/review.py sheet --brand <brand> --week <YYYY-Www>` and Read every page.
-For each ad check: every word spelled exactly (Spanish accents and ¿¡ included), the product matches
-the reference (colors, laces, logo, sole), no invented logos or brands, nothing reads as a claim
-to avoid, and people's hands and feet look right. Regenerate failures with
-`--extra "<the fix>"` (this creates `_v2`; delete the bad `_v1` files so there's still one
-static per concept). Look at at least one GIF frame sequence too.
-
-## 5. Show the user and log verdicts
-
-Send the preview sheets with SendUserFile (`display: render`) plus a table: concept, persona,
-language, colorway, GIF yes/no, and anything you're unsure about. When they reply, log each verdict:
-`python ads/review.py log <image_stem> approve|reject "<their reason>"`. Those notes feed into all
-future prompts for the brand. Rejected concepts get one regeneration with the fix. Then render GIFs for approved concepts
-that have a `gif` block (`--gif-only <ids>`) and send them.
+Show preview sheets (SendUserFile, `display: render`) when working live. Log verdicts with
+`python ads/review.py log <stem> approve|reject "<reason>"`; notes feed every future prompt for the brand.
+Rejected concepts get one regeneration with the fix; approved GIF candidates get `--gif-only`.
 
 ## 6. Save and deliver
 
-Commit the week folder, `feedback.json` and any brand/research changes on the working branch, then push.
+1. Commit the batch folder, `feedback.json` and any brand/research changes; push to the working branch.
+2. Drive: subfolder "<folder>" under `drive_folder_id` (reuse if present), then a Google Sheet
+   "<folder> concepts" from `python ads/review.py csv --brand <brand> --week <folder>` (create_file,
+   `textContent`, `contentMimeType: text/csv`; trash an older sheet for the same folder first). Images
+   are too large for the Drive connector, so the sheet links to each 9:16/4:5/GIF on GitHub. The user
+   fills in Verdict and Notes; the next run logs them first.
+3. Slack: DM `slack.notify_channel_id`: "**<Brand> <iterations|net-new> ready: <folder> (<n> concepts)**",
+   links to the sheet, Drive folder and GitHub output folder, then one line: group split · source ads
+   (iteration runs) · Spanish count · GIF candidates · image cost. Mention anything skipped.
 
-Drive (Comfort Wear): the folder **"Comfort Wear – Weekly Static Ads"** (id in `brand.json` →
-`drive_folder_id`) gets one subfolder per week (`2026-W44`). In it, create the concept sheet from
-`python ads/review.py csv --week <week>` (create_file with `textContent`, `contentMimeType: text/csv`,
-converted to a Google Sheet, title `<week> concepts`). Image files are too large to upload through the
-Drive connector, so the sheet links to each 9:16, 4:5 and GIF file on GitHub. The user fills in the
-Verdict and Notes columns, and the next run logs those with `review.py log`.
+## Routine prompt template (one routine per brand)
 
-Slack (last step, once the sheet exists; no Asana task): DM `brand.json` → `slack.notify_channel_id`
-with slack_send_message: a bold title "Comfort Wear <Tuesday iterations|Friday net-new> ready: <folder>
-(<n> concepts)", then links to the review sheet, the Drive folder and the GitHub output folder, then one
-line with the group split, source ads iterated on (Tuesday), Spanish count, GIF candidates and image cost.
+```
+Build this run's <Brand> static ads batch so it is complete by 9am Eastern today.
+Repo: <owner>/<repo>. If it isn't in the working directory, clone it. Then
+`git fetch origin <branch> && git checkout <branch>`; push to that branch (no PR).
+Install deps if missing: `python3 -m pip install -q requests python-dotenv pillow pandas`.
+Follow .claude/skills/static-ads/SKILL.md for brand `<slug>`. Check the weekday in America/New_York:
+<iteration weekday> → iteration batch (section 2) for the current ISO week, folder `<week>-tue`;
+<net-new weekday> → net-new batch for the coming ISO week, folder `<week>-fri`; other days: stop.
+Steps: log Drive sheet verdicts → research (section 1) → write → render → QA (section 4) →
+commit/push → Drive sheet → Slack DM (section 6) → short summary with links and cost.
+If Atria returns 401, continue with existing data; never search for keys.
+If this run's extra instructions say TEST RUN, do only what they say.
+```

@@ -1,7 +1,7 @@
 """Pull creative research data from the Atria Open API.
 
     export ATRIA_API_KEY=atria-sk_...
-    python ads/atria_pull.py winners --brand comfortwear --account WearOrtho
+    python ads/atria_pull.py winners --brand <brand>   # account from brand.json → atria_account
     python ads/atria_pull.py winners     # statics with >= $5k lifetime spend (since 2024)
     python ads/atria_pull.py losers      # statics < $200 spend, paused at ad level (last 12 months)
     python ads/atria_pull.py seasonal --week 2026-W45  # top spenders in the same window last year
@@ -17,6 +17,7 @@ low spenders in the winners pull.
 
 import argparse
 import csv
+import json
 import datetime as dt
 import os
 import sys
@@ -231,10 +232,13 @@ def main():
     p.add_argument("--min-spend", type=float, default=5000)
     p.add_argument("--max-spend", type=float, default=200)
     p.add_argument("--brand", default=os.getenv("ADS_BRAND", "comfortwear"))
-    p.add_argument("--account", default=ACCOUNT_NAME, help="ad account name in Atria")
+    p.add_argument("--account", help="ad account name in Atria (default: brand.json → atria_account)")
     args = p.parse_args()
     global DATA_DIR
-    DATA_DIR = Path(__file__).resolve().parent / "brands" / args.brand / "research" / "data"
+    bdir = Path(__file__).resolve().parent / "brands" / args.brand
+    DATA_DIR = bdir / "research" / "data"
+    if not args.account:
+        args.account = json.loads((bdir / "brand.json").read_text()).get("atria_account", ACCOUNT_NAME)
     # Without ATRIA_API_KEY the request relies on a network secret the proxy attaches.
     api = Atria(os.getenv("ATRIA_API_KEY"))
     acc = api.account_id(args.account)
