@@ -1,0 +1,189 @@
+{
+  "concepts": [
+    {
+      "id": "C01_dear_nurses_v2",
+      "angle": "Nurse identity + 12-hour shift + condition callouts (direct iteration of your #1 efficient static)",
+      "based_on": "Winner 'Dear Nurses, Work 12-hour shifts pain-free' ($229,894 spend, 4.34 ROAS) + Trustpilot language (swollen feet by afternoon, extra-wide feet)",
+      "reference_image": "reference/shoe_navy_blue.png",
+      "headline": "Dear Nurses, Work 12-hour shifts without the heel pain.",
+      "prompt": "Minimal square ad on a clean off-white background. Top-left, large two-line headline: first line \"Dear Nurses,\" with \"Nurses\" in extra-bold black; second line \"Work 12-hour shifts without the heel pain.\" in regular black. Center: one navy blue Ortho Stretch Cushion Shoe in side profile, studio-lit with a soft floor shadow, taken from the reference image. Four short hand-drawn black curved arrows point from text labels to the shoe: top-left \"Arch support\" over small grey text \"for plantar fasciitis\"; top-right \"Wide toe-box\" over \"room for bunions\"; bottom-left \"Stretch-knit upper\" over \"gives as feet swell\"; bottom-right \"Slip-resistant grip\" over \"for wet hospital floors\". Label titles in bold black, subtitles in grey. Lots of white space, editorial and calm, nothing else on the canvas."
+    },
+    {
+      "id": "C02_12h_shift_checklist_photo",
+      "angle": "12-HOUR SHIFT SHOES feature list (your biggest static by spend), upgraded with a real-world hospital scene from rising inspo",
+      "based_on": "Winner '12-HOUR SHIFT SHOES' + list ($857,592 spend) + Atria rising ad 'Nurse Finds: 5 reasons to wear these shoes for 12-hour shift'",
+      "reference_image": "reference/shoe_black_purple.png",
+      "headline": "12-HOUR SHIFT SHOES",
+      "prompt": "Photographic square ad. Background: a slightly blurred, bright, realistic hospital corridor with polished vinyl floor. Foreground, lower right: a nurse's legs in navy scrubs from the knee down, standing on the hospital floor, wearing the black-and-purple Ortho Stretch Cushion Shoes from the reference image, shot from a low angle so the shoes are large and sharp. Top-left over a semi-transparent white rounded panel: headline \"12-HOUR SHIFT SHOES\" in heavy black condensed sans, then five lines each starting with a purple plus sign: \"+ Cushioning that still feels good at hour 12\", \"+ Arch support for plantar fasciitis\", \"+ Wide toe-box for bunions & swelling\", \"+ Slip-resistant on wet floors\", \"+ Under $60\". Clean, legible, native-looking, not overly designed."
+    },
+    {
+      "id": "C03_running_shoes_strikethrough",
+      "angle": "Us vs them: running shoes / insoles / expensive orthotics fail by hour 2 (core claim in every top video script)",
+      "based_on": "Winner 'HOKA / SKECHERS / ORTHOFEET / CROCS / INSOLES struck out + SOLUTION' ($90,256) + scripts 'running shoe cushioning lasts about two hours' and '$300 orthotics my podiatrist wanted'",
+      "reference_image": "reference/shoe_red_burgundy.png",
+      "headline": "SOLUTION",
+      "prompt": "Square split-screen ad. Left half on white: a vertical stack of five large bold dark-navy words, each crossed out with a thick red hand-drawn line: \"RUNNING SHOES\", \"$300 ORTHOTICS\", \"GEL INSOLES\", \"PAINKILLERS\", \"CLOGS\". Below them three light-blue pill tags, each with a red circle X icon: \"FLATTENS BY HOUR 2\", \"TOO EXPENSIVE\", \"PINCHES YOUR TOES\". Right half on a soft pink-magenta background: top in bold black \"SOLUTION\", underneath smaller black text \"Built for 12-hour shifts on hard floors\", then the pair of burgundy Ortho Stretch Cushion Shoes from the reference image at a three-quarter angle, then a 2x2 grid of simple black-circle white line icons with captions: \"Arch Support\", \"Cushioned Heel\", \"Wide Toe-Box\", \"Slip-Resistant\". Bold, high-contrast, scroll-stopping."
+    },
+    {
+      "id": "C04_customer_comments_retarget",
+      "angle": "Objection handling with real customer comments (best-ROAS static currently live)",
+      "based_on": "Winner 'Didn't buy yet? Read what customers are saying' ($50,098, 3.05 ROAS, still ACTIVE) + Trustpilot 5-star reviews (Charmaine C., Penny S., Lindsey T.)",
+      "reference_image": "reference/shoe_black_purple.png",
+      "headline": "Didn't buy yet? Read what nurses are saying.",
+      "compliance_note": "Quotes below are close paraphrases of real Trustpilot reviews. Before running, swap in the exact verbatim wording from ca.trustpilot.com/review/comfortorthowear.com (and keep only first name + initial).",
+      "prompt": "Square ad on white. Top centered: line one \"Didn't buy yet?\" in bold black, line two \"Read what nurses are saying.\" in bold Comfort Wear purple. Left two-thirds: three stacked Facebook-style comment bubbles (light grey rounded rectangles, small circular avatar, bold first name, 'Like  Reply' in small grey text below each, a tiny heart + thumbs reaction count on the bubble corner). Comment 1, name \"Charmaine C.\": \"Fits my extra-wide feet and gets me through my 12 hour shifts.\" Comment 2, name \"Penny S.\": \"The toe room sold me. My feet aren't tired after a busy day.\" Comment 3, name \"Lindsey T.\": \"I'm on my feet 7-8 hours a day teaching. My feet don't hurt anymore.\" Right third: a woman's leg in black leggings from mid-calf down, wearing the black-and-purple Ortho Stretch Cushion Shoe from the reference image, cropped so it overlaps the bubbles slightly. Bottom centered: \"Built for 12-hour shifts\" in black and below a purple underlined \"Shop the shoe nurses switch to\"."
+    },
+    {
+      "id": "C05_stages_of_a_shift",
+      "angle": "What happens to your feet across a 12-hour shift (educational stage grid, trending format)",
+      "based_on": "Atria rising inspo '4 Stages of Leg Swelling' (Hannah Specter) and '4 Stages of Bone On Bone Knee Pain' + script 'No more cramped toes or aching heels by hour eight'",
+      "reference_image": "reference/shoe_navy_blue.png",
+      "headline": "The 4 stages of a 12-hour shift (in the wrong shoes)",
+      "prompt": "Square educational ad with a dark navy blue background. Top headline in white bold: \"The 4 stages of a 12-hour shift\", subline in light blue: \"in the wrong shoes\". Below, a row of four tall panels, each showing the same realistic semi-transparent 'x-ray glow' illustration of a nurse's lower leg and foot in a generic plain grey running sneaker, with a glowing red-orange hotspot that grows from panel to panel: panel 1 tiny glow at the heel, panel 2 glow at heel and arch, panel 3 glow at heel, arch and ball of foot with slight swelling, panel 4 whole foot glowing red. Under each panel a rounded blue label box with white text: \"HOUR 2\" / \"Cushion goes flat\", \"HOUR 6\" / \"Heel starts to ache\", \"HOUR 8\" / \"Feet swell, toes pinch\", \"HOUR 12\" / \"Limping to the car\". Bottom strip in white: on the left the navy Ortho Stretch Cushion Shoe from the reference image, on the right bold navy text \"Or wear shoes built for hour 12.\" Clean medical-infographic style."
+    },
+    {
+      "id": "C06_do_you_have_nurse_feet_checklist",
+      "angle": "Symptom self-diagnosis checklist using customer words",
+      "based_on": "Atria rising inspo 'Do you have plantar fasciitis?' checklist (Senzio) + review language (heel pain, swelling, toe room, metatarsal pain) + script 'limping to my car after a 12-hour shift'",
+      "reference_image": "reference/shoe_black_purple.png",
+      "headline": "Do you have \"shift feet\"?",
+      "prompt": "Square ad with a warm cream paper-textured background. Top-left headline in dark green-black serif-bold: \"Do you have “shift feet”?\". Below, five rows each with an empty square checkbox outline on the left and black text: \"Stabbing heel pain on your first steps\", \"Feet swollen by the afternoon\", \"Toes crammed by hour 6\", \"Aching arches after back-to-back 12s\", \"Limping to your car after a shift\". Bold the first few words of each line. Bottom-left: a black rounded pill button with white text \"FIX YOUR SHOES FIRST\" and under it small text \"500,000+ pairs worn on long shifts\". Bottom-right: the black-and-purple Ortho Stretch Cushion Shoe from the reference image sitting on the cream surface with a soft shadow. Calm, editorial, trustworthy."
+    },
+    {
+      "id": "C07_heel_anatomy_split",
+      "angle": "Plantar fasciitis mechanism: inflamed fascia vs firm arch support",
+      "based_on": "Winner 'THE SHOE FOR PLANTAR FASCIITIS' anatomy split ($5,192) + 'Shoes for 12-Hour Shifts' area-of-pain diagram ($457,039) + Atria rising inspo 'This tissue is making my plantar fasciitis worse'",
+      "reference_image": "reference/shoe_black_purple.png",
+      "headline": "Why your heels hurt at hour 8.",
+      "prompt": "Square ad on a very light blue-grey background. Top center headline in heavy navy condensed sans: \"WHY YOUR HEELS HURT AT HOUR 8.\" Two equal columns divided by a thin grey vertical line. Left column: a clean medical illustration of a foot skeleton in side view with the plantar fascia band highlighted and a glowing red inflamed area under the heel, small label with a thin leader line: \"Flattened cushioning = strained plantar fascia\". Right column: the black-and-purple Ortho Stretch Cushion Shoe from the reference image in side view, with a thin leader line pointing to the midsole arch and a label: \"Firm arch support that holds all shift\". Bottom row: two lavender rounded pills with small purple icons: \"Wide Toe-Box\" and \"Cushioned Heel\". Below them a navy rounded button with white text \"SHOP NOW\"."
+    },
+    {
+      "id": "C08_podiatrist_price_anchor",
+      "angle": "Price anchor vs $300 orthotics, first-person nurse voice",
+      "based_on": "Top UGC script 'I spent $60 on these shoes for my nursing job... way cheaper than the $300 orthotics my podiatrist wanted me to buy' ($99,912, 3.05 ROAS, ACTIVE) + script '3 things... you don't need $400 shoes'",
+      "reference_image": "reference/shoe_black_purple.png",
+      "headline": "They wanted $300 for orthotics. I spent $59.95 on these.",
+      "prompt": "Authentic-looking square photo ad. Scene: a hospital staff break-room table with a paper coffee cup and a lanyard ID badge (no readable name), natural window light. On the table, the pair of black-and-purple Ortho Stretch Cushion Shoes from the reference image. Top of image, a white rounded text box with black bold text in a natural social-post style: \"They wanted $300 for custom orthotics.\" and on a second line \"I spent $59.95 on these instead.\" Small grey line under it: \"No appointment. No prescription.\". Bottom-left a small purple pill: \"40% OFF + FREE SHIPPING\". Should look like a real photo a nurse took, not a studio render; realistic lighting, slight depth of field."
+    },
+    {
+      "id": "C09_wet_floor_grip_macro",
+      "angle": "Slip-resistant grip on wet hospital floors (functional proof via sole close-up)",
+      "based_on": "Feature called out in every winner ('Slip-resistant grip for fluids and slippery floors') + Atria rising inspo 'Bold print. Real arch support.' sole-forward shot (The Clog Shop) and Musabela sole view",
+      "reference_image": "reference/shoe_all_black.png",
+      "headline": "Spills happen. Slips don't.",
+      "prompt": "Dramatic square product macro. A single all-black Ortho Stretch Cushion Shoe from the reference image tilted so its black lug outsole faces the camera at a 45-degree angle, mid-step onto a glossy white hospital vinyl floor with a small clear puddle of water and tiny frozen splash droplets. Cool clinical lighting, crisp detail on the tread. Top-left headline in heavy white condensed sans with a subtle shadow: \"SPILLS HAPPEN.\" and below \"SLIPS DON'T.\" with \"DON'T\" in Comfort Wear purple. Bottom-right a rounded white price tag sticker: \"$59.95\" bold with a small struck-through \"$90\" above it."
+    },
+    {
+      "id": "C10_three_nurses_on_my_floor",
+      "angle": "Peer contagion: the whole unit switched",
+      "based_on": "Script line 'Three other nurses on my floor ordered them after seeing mine' (top UGC, 3.05 ROAS) + Trustpilot 'recommended them to my RN sister' + winner 'Trusted by nurses. Built for 12-hour shifts.' ($25,352)",
+      "reference_image": "reference/shoe_red_burgundy.png",
+      "headline": "First it was me. Then 3 more nurses on my floor.",
+      "prompt": "Square photographic ad. Top-down view of four pairs of feet standing in a loose circle on a speckled hospital floor, each person in different colored scrubs (navy, ceil blue, wine, black) from the ankles down, all wearing Ortho Stretch Cushion Shoes in different colorways: burgundy (exactly like the reference image), black with purple, navy with blue, and all black. Clean and candid, like a phone photo taken by one of them. Across the top on a solid white band, bold black text: \"First it was me.\" and on a second line \"Then 3 more nurses on my floor.\" Bottom center a purple rounded banner with white bold text: \"TRUSTED BY NURSES. BUILT FOR 12-HOUR SHIFTS.\""
+    },
+    {
+      "id": "C11_still_standing_identity",
+      "angle": "Short identity headline, emotional payoff of the 12-hour shift",
+      "based_on": "Atria rising inspo 'Still mows his own lawn.' (ComfoFeet) + script 'No more limping to my car after a 12-hour shift' + winner identity framing",
+      "reference_image": "reference/shoe_navy_blue.png",
+      "headline": "Hour 12. Still smiling.",
+      "prompt": "Square lifestyle photo ad. A tired-but-happy woman nurse in her 40s in navy scrubs walking out of a hospital entrance at dusk into the parking lot, full body, natural candid moment, warm golden sodium-light glow, she is wearing the navy-and-blue Ortho Stretch Cushion Shoes from the reference image, shoes clearly visible and in focus. Large bold white text in the upper third with a subtle dark gradient behind it: \"HOUR 12.\" on line one and \"STILL SMILING.\" on line two. Under it smaller white text: \"Shoes built for the walk to your car, too.\" Bottom-left white rounded button with navy text \"SHOP 40% OFF\". Cinematic, real, not stocky."
+    },
+    {
+      "id": "C12_warehouse_restock_urgency",
+      "angle": "Scarcity / last-chance offer (your strongest retargeting urgency format)",
+      "based_on": "Winner 'WARNING: Only 48 hours left' warehouse photo ($19,172, 3.31 ROAS, ACTIVE) + 'ALMOST SOLD OUT' ($8,680, 3.97 ROAS). Use ONLY with a real deadline/offer.",
+      "reference_image": "reference/shoe_black_purple.png",
+      "headline": "WARNING: Last restock of the year",
+      "prompt": "Square photo ad set in a real shoe warehouse: tall pallet racks and stacked brown shipping boxes, slightly blurred background, natural industrial lighting. In the foreground on top of an open cardboard box, a row of four Ortho Stretch Cushion Shoes in burgundy, navy, mint-black and black-purple colorways, matching the reference shoe design exactly. Top: a bright yellow rectangle label with heavy black italic text \"WARNING:\" and beneath it a red rectangle with white bold text \"LAST RESTOCK OF THE YEAR\". Bottom on a dark gradient: white bold text \"40% OFF ENDS SUNDAY\" and smaller white text \"FREE SHIPPING\". Gritty, real, urgent."
+    },
+    {
+      "id": "C13_concrete_floors_retail",
+      "angle": "Retail / cashier / standing-in-place workers on concrete (occupation expansion that keeps the winning layout)",
+      "based_on": "Winner callout template ($858k / $230k) + Orthora 'Built for hard concrete floors' (172 days running) + databank 'Cashiers don't walk miles' + Notion COM286/COM305 retail tests. Loser L87 'Shoes built for cashiers' was a pink holiday graphic, so this keeps the proven white feature-callout format instead.",
+      "reference_image": "reference/shoe_all_black.png",
+      "headline": "Cashiers don't walk miles. You stand on concrete for 8 hours.",
+      "prompt": "Clean square ad on a light warm-grey background. Top-left headline in heavy black sans: \"YOU DON'T WALK MILES.\" and second line \"YOU STAND ON CONCRETE FOR 8 HOURS.\" with \"CONCRETE\" in Comfort Wear purple. Center: the all-black Ortho Stretch Cushion Shoe from the reference image in side profile standing on a slab of grey polished concrete with a subtle store-aisle blur behind. Four thin black hand-drawn arrows to labels: \"Cushioning that doesn't flatten mid-shift\", \"Arch support for standing still\", \"Stretch knit for afternoon swelling\", \"Slip-resistant on store floors\". Bottom: a black rounded bar with white text \"BUILT FOR RETAIL, GROCERY & WAREHOUSE SHIFTS\". Minimal, legible, same calm editorial style as a top-performing feature callout ad."
+    },
+    {
+      "id": "C14_bunion_one_in_three",
+      "angle": "Bunions / hammer toes: the shoe that fits the foot you actually have",
+      "based_on": "OrthoFit '1 in 3 women over 50 have a bunion. Almost none have a shoe built for it.' + Nimbao 'Hammer toes don't disqualify you from cute shoes' + databank 'Vertical toe box' + your winner callout 'Wide toe-box for bunions/hallux valgus'",
+      "reference_image": "reference/shoe_black_purple.png",
+      "headline": "1 in 3 women over 50 has a bunion. Almost none have a shoe built for it.",
+      "prompt": "Square ad on a soft lavender background with subtle light footprints pattern. Top headline in heavy navy sans, centered: \"1 in 3 women over 50 has a bunion.\" and second line \"Almost none have a shoe built for it.\" Center: a top-down overhead view of the black-and-purple Ortho Stretch Cushion Shoe from the reference image, showing the roomy rounded toe area, with a thin purple dashed outline around the toe box and a small label \"Room to spread. Room to rise.\" Below, three small white rounded pills with purple icons: \"Wide toe-box\", \"Stretch knit upper\", \"No pressure seams\". Bottom small text: \"Under $60 · HSA/FSA eligible\". Clean, respectful, no feet deformity photos."
+    },
+    {
+      "id": "C15_arthritis_no_tie",
+      "angle": "Arthritis / stiff hands: elastic no-tie laces (product truth most competitors don't have)",
+      "based_on": "Databank 'Her hands don't work in the morning. Her shoes don't need to.' + Malvay/Nuvra stiff-hands ads (241-269 days running) + Notion fall-prevention/senior learnings (strong metrics, low spend)",
+      "reference_image": "reference/shoe_navy_blue.png",
+      "headline": "Her hands don't work in the morning. Her shoes don't need them to.",
+      "prompt": "Warm natural-light square photo ad. A woman in her late 60s with silver hair, smiling, seated on a wooden bench by her front door, sliding her foot into a navy-and-blue Ortho Stretch Cushion Shoe (exactly as in the reference image) without touching the laces, her hands resting on her knees. Cozy, real home entryway, soft morning light. Top-left in a white rounded box, black serif-bold text: \"Her hands don't work in the morning.\" and second line \"Her shoes don't need them to.\" Bottom-left a small navy pill with white text: \"Elastic no-tie laces · Arch support · Slip-resistant\". Respectful and dignified, not clinical."
+    },
+    {
+      "id": "C16_cobblestone_ranking",
+      "angle": "Travel: we tested 4 shoes on cobblestones (static version of your best travel videos)",
+      "based_on": "Kyro 293 / 369 / 373 travel videos ($58k-$66k, 2.15 ROAS) + Notion COM312 'Testing shoes in Europe' + Vessi 'Float over cobblestones' / 'Best travel shoe for Europe' (90-100 days running). Plain travel statics lost before (L42, L58, L80), so this uses the ranking structure the winning videos use.",
+      "reference_image": "reference/shoe_red_burgundy.png",
+      "headline": "We tested 4 shoes on 20,000 steps of cobblestones.",
+      "prompt": "Square ad. Background: a sunny old European cobblestone street, softly blurred. Top white headline with dark shadow: \"WE TESTED 4 SHOES ON\" / \"20,000 STEPS OF COBBLESTONES\". Below, a clean white rounded scorecard panel with four rows, each with a simple generic shoe icon (no brand logos) and a short verdict: row 1 \"Running sneakers\" with \"Feet beaten up by hour 5\" and a red 4/10; row 2 \"Max-cushion foam\" with \"Unstable on uneven stone\" and a red 5/10; row 3 \"Memory foam\" with \"Flat by the afternoon\" and an orange 5/10; row 4 highlighted in light purple with the burgundy Ortho Stretch Cushion Shoe from the reference image and \"Comfort Wear\" with \"Still comfortable at dinner\" and a green 9/10. Crisp, credible, easy to read at a glance."
+    },
+    {
+      "id": "C17_foam_at_hour_4",
+      "angle": "Mechanism proof: cushioning that collapses vs support that holds (photo-real before/after)",
+      "based_on": "Databank 'Your memory foam dies at hour 4' + Stepprs '#1 pain-relief insoles for all-day standing' old-vs-new split (386 days running) + Peak Footwear destroyed-insole photo + scripts 'running shoe cushioning lasts about 2 hours'",
+      "reference_image": "reference/shoe_black_purple.png",
+      "headline": "Your foam gives up at hour 4. Your shift doesn't.",
+      "prompt": "Square split ad. Left half on light grey: a close-up photo of a worn-out generic grey foam insole (no brand) that is visibly flattened, cracked and compressed at the heel, labeled at top in black bold \"YOUR FOAM AT HOUR 4\" with three small red X lines below: \"Flat at the heel\", \"Arch collapsed\", \"Standing on plastic\". Right half on white: the black-and-purple Ortho Stretch Cushion Shoe from the reference image in side profile, labeled at top in purple bold \"BUILT FOR HOUR 12\" with three green check lines: \"Arch built into the shoe\", \"Cushioned heel\", \"No insoles needed\". Thin vertical divider. Bottom full-width purple band with white text \"Your shift doesn't end at hour 4. Neither should your shoes.\""
+    },
+    {
+      "id": "C18_written_on_the_heel",
+      "angle": "Pain located on the body (native, lo-fi, high stop-rate)",
+      "based_on": "Stepprs '12 years of plantar fasciitis pain gone' written on the sole (386 days running) + Neurotoned 'This tissue is making my plantar fasciitis worse' marker-on-leg (rising) + Notion COM278 'I'm your plantar fasciitis'. Note: your bare-feet losers (L13, L38) had no message on the image, so the text on the body is the point here.",
+      "reference_image": "reference/shoe_black_purple.png",
+      "headline": "(written on the heel) 12-hour shifts did this.",
+      "prompt": "Realistic close-up photo, square. The bottom of a woman's bare foot resting on the edge of a couch, sole facing the camera, with words handwritten in black marker directly on the sole skin: \"12-HOUR SHIFTS\" across the arch and \"DID THIS\" on the heel, with a small hand-drawn arrow pointing at the heel. Next to the foot on the cushion, the black-and-purple Ortho Stretch Cushion Shoe from the reference image. Natural indoor evening light, candid phone-photo feel. Small clean white caption box at bottom: \"Shoes built for heel pain on long shifts\". No other text."
+    },
+    {
+      "id": "C19_cost_receipt",
+      "angle": "Annual cost math: $165 shoes + insoles + replacement vs two pairs of Comfort Wear",
+      "based_on": "Databank 'Annual Cost Math Attack' / 'No Insoles Needed' + 203 UGC script '$300 orthotics my podiatrist wanted' (3.05 ROAS) + struck-out competitor winner ($90k) + KURU 'They're not cheap. It's true.' (204 days)",
+      "reference_image": "reference/shoe_navy_blue.png",
+      "headline": "What your feet cost you this year.",
+      "prompt": "Square ad. Center-left: a realistic long white paper store receipt lying slightly angled on a light wooden table, monospaced receipt font, title \"WHAT YOUR FEET COST THIS YEAR\", line items: \"Running shoes ......... $165\", \"Gel insoles x2 ......... $80\", \"Replacement pair ....... $165\", \"Custom orthotics ....... $300\", a dashed line, then \"TOTAL ................. $710\" in bold. A thick red pen circle around the total. Right side: the navy-and-blue Ortho Stretch Cushion Shoe from the reference image with a clean white price tag reading \"2 PAIRS = $119.90\" and below it small black text \"Arch support built in. No insoles needed.\" Natural light, realistic shadows, everything legible."
+    },
+    {
+      "id": "C20_measure_dont_guess",
+      "angle": "Fit confidence: remove the #1 reason people end up unhappy (wrong size) and the hesitation before buying",
+      "based_on": "Negative-rating survey: 60% got the wrong size; comfort 2.98/5 with a good fit vs 1.71 too small. Quotes: 'your guide don't give the right sizes'",
+      "reference_image": "reference/shoe_navy_blue.png",
+      "headline": "Between sizes? Measure, don't guess.",
+      "prompt": "Square ad on a clean off-white background. Top: bold black headline \"Between sizes?\" with a second line in Comfort Wear purple \"Measure, don't guess.\" Middle: three numbered steps in a row, each a simple flat illustration in purple line-art inside a soft lavender rounded card: step 1 a bare foot standing on a sheet of paper against a wall with a pencil tracing it, caption \"1. Trace your foot\"; step 2 a ruler measuring heel to longest toe, caption \"2. Measure heel to toe\"; step 3 a small size-chart table, caption \"3. Match it to our chart\". Bottom right: the navy blue Ortho Stretch Cushion Shoe from the reference image in side profile. Bottom left, small black text \"Fits true to your measurement.\""
+    },
+    {
+      "id": "C21_insole_shuffle",
+      "angle": "Switching cost: insole users already pay for support and move it between shoes; the support is built in here",
+      "based_on": "Negative-rating survey: 11% current solution is insoles/inserts/orthotics + scripts '$300 orthotics my podiatrist wanted me to buy'",
+      "reference_image": "reference/shoe_black_purple.png",
+      "headline": "Still moving your insoles from shoe to shoe?",
+      "prompt": "Square photo-real ad. Top half: an overhead shot on a wooden floor of three different worn generic sneakers (no brands) lined up, each with its tongue pulled out and a hand pulling a generic blue gel insole out of one of them. Bold black headline across the top on a white band: \"Still moving your insoles from shoe to shoe?\" Bottom half on soft lavender: the black-and-purple Ortho Stretch Cushion Shoe from the reference image in side profile, with a purple pill label next to it reading \"Arch support built in.\" and below it small black text \"One pair. Nothing to move.\""
+    },
+    {
+      "id": "C22_no_diagnosis_needed",
+      "angle": "Comfort-only buyers: no pain condition, just want comfortable feet (avoids medical claims)",
+      "based_on": "Negative-rating survey: 22% answer 'No foot pain, only need for comfort'; 71% shop for 'comfort'",
+      "reference_image": "reference/shoe_light_grey.png",
+      "headline": "You don't need a diagnosis to want comfortable feet.",
+      "prompt": "Square lifestyle ad. A woman in her 50s wearing relaxed jeans and the light grey Ortho Stretch Cushion Shoe from the reference image, mid-stride on a sunny neighborhood sidewalk, cropped from the knees down so the shoes are the hero, natural daylight. Top-left, large white bold headline on a soft dark gradient: \"You don't need a diagnosis\" and second line \"to want comfortable feet.\" Bottom-left, small white pill with purple text \"Soft knit. Cushioned all day.\""
+    },
+    {
+      "id": "C23_retired_not_from_walking",
+      "angle": "Retiree identity (65+ is 47% of respondents): active retirement, framed positively rather than 'senior'",
+      "based_on": "Negative-rating survey: 85% aged 50+, 27% retired (largest job group); I25 ComfoFeet 'Still mows his own lawn.' identity format",
+      "reference_image": "reference/shoe_grey_pink.png",
+      "headline": "Retired from 12-hour shifts. Not from walking.",
+      "prompt": "Square warm lifestyle photo ad. A smiling woman in her late 60s with silver hair, wearing a casual fleece and leggings, walking a golden retriever on a park path in autumn morning light, wearing the grey-and-pink Ortho Stretch Cushion Shoe from the reference image, shoes clearly visible. Headline at the top in bold white with a soft shadow: \"Retired from 12-hour shifts.\" second line in bold: \"Not from walking.\" No other text."
+    }
+  ]
+}

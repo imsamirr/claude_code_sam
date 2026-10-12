@@ -1,0 +1,129 @@
+{
+  "week": "2026-W42-offers",
+  "notes": "Offer statics for the two store bundles (user request Oct 11). O42_01–06: Pod Denture Bundle ($99.95, compare-at $180, save $80, 3 free gifts: travel bag $25, portable case $19, 1-year warranty $14, + 120-day guarantee). O42_07–12: Ultimate Cleaning Bundle ($169.95, compare-at $300, save $130: Pod + Travel Pod + 30 antibacterial tablets). Prices and values from the store pages. 2 cartoon formats.",
+  "concepts": [
+    {
+      "id": "O42_01_denture_bundle_unboxing",
+      "persona": "denture_wearer",
+      "colorway": "denture_gift_bundle",
+      "group": "offer",
+      "angle": "Everything you get: bundle flat-lay with values",
+      "based_on": "Store page Pod Denture Bundle (Free-Gift image); Zima '$60 value, on us' bundle tile (71d running)",
+      "headline": "$180 value. Yours for $99.95.",
+      "prompt": "Bright overhead flat-lay on a soft pale-blue surface, like an unboxing: in the center the DentalPULSE Pod from the reference photo, around it the three free gifts from the reference photo, each with a small navy \"FREE\" tag: the black zip travel bag, the dark portable denture case with the blue brush, and the \"1 YEAR WARRANTY\" shield card. A navy round seal top-right reading \"120 DAY MONEY BACK GUARANTEE\". Headline at the top in bold navy: \"$180 value. Yours for $99.95.\" Small line under it: \"Pod + 3 free gifts for denture wearers\"."
+    },
+    {
+      "id": "O42_02_denture_bundle_receipt",
+      "persona": "denture_wearer",
+      "colorway": "denture_gift_bundle",
+      "group": "offer",
+      "angle": "Native receipt: value stack",
+      "based_on": "Store values ($25 + $19 + $14 gifts); receipt formats from the account winner 'kept vs returned'",
+      "headline": "Look what's free with the Pod.",
+      "prompt": "A realistic long white paper store receipt lying slightly curled on a kitchen counter, sharp monospace print. Header \"DentalPULSE\". Lines: \"DentalPULSE Pod ........ $99.95\", \"Travel Bag ($25) ........ FREE\", \"Portable Case ($19) ..... FREE\", \"1-Year Warranty ($14) ... FREE\", \"120-Day Guarantee ....... INCLUDED\", a dashed line, \"YOU SAVE ............... $80\", \"TOTAL .................. $99.95\". Next to the receipt, the DentalPULSE Pod and the gifts from the reference photo. Headline at the top on a white band in bold navy: \"Look what's free with the Pod.\""
+    },
+    {
+      "id": "O42_03_denture_bundle_gift_for_mom",
+      "persona": "denture_caregiver",
+      "colorway": "denture_gift_bundle",
+      "group": "offer",
+      "angle": "Holiday gift for Mom/Grandma with 3 free extras",
+      "based_on": "Gift buyers in survey ('who noticed': family, grandchildren); Q4 gifting; bundle gifts",
+      "headline": "The gift that keeps Grandma smiling.",
+      "prompt": "Warm, cozy holiday living room with soft fairy lights: a delighted grandmother in her 70s opening a gift box on her lap, the DentalPULSE Pod from the reference photo inside, with the black travel bag and the portable denture case from the reference photo peeking out of the tissue paper; her adult daughter beside her smiling. Headline at top in bold white with soft shadow: \"The gift that keeps Grandma smiling.\" A navy pill at the bottom: \"Pod + 3 free gifts · $99.95 (was $180)\"."
+    },
+    {
+      "id": "O42_04_denture_bundle_3d_cartoon",
+      "persona": "denture_wearer",
+      "colorway": "denture_gift_bundle",
+      "group": "offer",
+      "format": "cartoon_3d",
+      "angle": "3D animated: gifts bursting out of the box",
+      "based_on": "Cartoon format test DT_01 (approved style); bundle offer",
+      "headline": "Order the Pod. Get 3 gifts free.",
+      "prompt": "A joyful 3D animated film still: a cheerful grandpa character opening a glowing gift box on his kitchen table; out of it pop the DentalPULSE Pod and, floating around it with little sparkles, the three gifts from the reference photo: the black zip travel bag, the dark portable denture case with blue brush, and the \"1 YEAR WARRANTY\" shield. His dog watches, tail wagging. Headline at top in bold navy rounded sans: \"Order the Pod. Get 3 gifts free.\" A navy pill below: \"$99.95 · 120-day money-back guarantee\"."
+    },
+    {
+      "id": "O42_05_denture_bundle_dark_offer",
+      "persona": "switcher",
+      "colorway": "denture_gift_bundle",
+      "group": "offer",
+      "angle": "Premium dark offer tile with Clinicians' Choice badge",
+      "based_on": "Sonic Dental dark hand+glow 'Limited Time Sale' tiles (115d+); account winner '40% Off + Free Gifts' (ROAS 1.92)",
+      "headline": "40% OFF + 3 FREE GIFTS",
+      "prompt": "Premium dark navy-black ad with an electric-blue glowing ring behind the product. Center: the DentalPULSE Pod from the reference photo glowing white; in a neat row below it, the three gifts from the reference photo, each under a small white \"FREE\" label. Top: huge bold white \"40% OFF\" and under it \"+ 3 FREE GIFTS\" in DentalPULSE blue. Small gold seal top-left reading \"Clinicians' Choice\". Bottom line in white: \"$99.95 (was $180) · 120-Day Money-Back Guarantee\"."
+    },
+    {
+      "id": "O42_06_denture_bundle_travel",
+      "persona": "denture_wearer",
+      "colorway": "denture_gift_bundle",
+      "group": "offer",
+      "angle": "Visiting family: the free travel bag and case come along",
+      "based_on": "Free Travel Bag + Portable Case; holiday travel season; denture wearers 60+",
+      "headline": "Visiting the grandkids? Your dentures are covered.",
+      "prompt": "Lifestyle photo of an open small rolling suitcase on a guest-room bed, a framed photo of grandkids on the nightstand. Packed neatly inside: the black zip travel bag and the dark portable denture case with blue brush from the reference photo, next to a folded cardigan and reading glasses. The DentalPULSE Pod sits on the nightstand. Headline at top on a white band in bold navy: \"Visiting the grandkids? Your dentures are covered.\" Under it: \"Free travel bag + portable case with every Pod. $99.95.\""
+    },
+    {
+      "id": "O42_07_ultimate_home_and_go",
+      "persona": "aligner",
+      "colorway": "ultimate_bundle",
+      "group": "offer",
+      "angle": "Home + on-the-go split",
+      "based_on": "Ultimate Cleaning Bundle (Pod + Travel Pod + tablets); aligner wearers 22h/day, cleaning on the go",
+      "headline": "One for home. One for everywhere else.",
+      "prompt": "Split image, two halves divided by a thin white line. Left half: a bright bathroom counter at home with the white DentalPULSE Pod from the reference photo and a clear aligner beside it, label pill \"Home\". Right half: an office desk with a laptop and iced coffee, the small white DentalPULSE Travel Pod from the reference photo open with a clear aligner inside, label pill \"On the go\". Headline across the top in bold navy on white: \"One for home. One for everywhere else.\" Bottom navy band: \"Ultimate Cleaning Bundle · $169.95 (was $300)\"."
+    },
+    {
+      "id": "O42_08_ultimate_save_130",
+      "persona": "retainer",
+      "colorway": "ultimate_bundle",
+      "group": "offer",
+      "angle": "Big-number savings tile",
+      "based_on": "Store compare-at $300 vs $169.95; big-number typography (GuruNanda '70', account '40% OFF' tiles)",
+      "headline": "Save $130 on the Ultimate Cleaning Bundle.",
+      "prompt": "Bold clean offer ad on DentalPULSE blue (#1E73E8). Giant white \"SAVE $130\" across the top. Under it in white: \"The Ultimate Cleaning Bundle\". Center: the three products from the reference photo on a white rounded platform: the DentalPULSE Pod, the Travel Pod and the blue box of Antibacterial Retainer Cleaner tablets. Below: \"$169.95\" in big white bold next to a small struck-through \"$300\". Bottom small white line: \"Pod + Travel Pod + 30 tablets · 120-Day Money-Back Guarantee\"."
+    },
+    {
+      "id": "O42_09_ultimate_cart",
+      "persona": "aligner",
+      "colorway": "ultimate_bundle",
+      "group": "offer",
+      "angle": "Native UI: cart screenshot with savings",
+      "based_on": "Hismile / Smyle cart screenshots (dental DTC playbook)",
+      "headline": "Me checking out the bundle instead of buying 3 things separately",
+      "prompt": "A realistic mobile shopping cart screenshot, clean white UI, title \"Your cart\". One line item with a thumbnail of the bundle from the reference photo: \"Ultimate Cleaning Bundle\", subtitle \"Pod + Travel Pod + 30 tablets\", price \"$169.95\" with a small grey struck-through \"$300.00\". A green line: \"You're saving $130.05\". A black \"Checkout\" button. Above the screenshot, a bold black caption on a yellow highlight in a handwritten style: \"me getting the bundle instead of 3 separate things\"."
+    },
+    {
+      "id": "O42_10_ultimate_nightguard_comic",
+      "persona": "night_guard",
+      "colorway": "ultimate_bundle",
+      "group": "offer",
+      "format": "comic_strip",
+      "angle": "Comic: night guard forgotten on a work trip",
+      "based_on": "Cartoon format test DT_02 (couple comic); Travel Pod use case",
+      "headline": "Never travel with a gross night guard again.",
+      "prompt": "A 3-panel comic strip. Panel 1: a woman in a hotel room holding her cloudy night guard over a hotel sink, grimacing, bubble \"Hotel soap again?!\". Panel 2: back home, she opens a box with the DentalPULSE Pod, Travel Pod and tablet box from the reference photo, caption box \"Ultimate Cleaning Bundle\". Panel 3: next trip, she smiles in a hotel room with the Travel Pod open showing a crystal-clear night guard, bubble \"Clean in 5 minutes. Anywhere.\" Under the strip, a navy band: \"$169.95 (was $300)\"."
+    },
+    {
+      "id": "O42_11_ultimate_starter_pack",
+      "persona": "retainer",
+      "colorway": "ultimate_bundle",
+      "group": "offer",
+      "angle": "Starter-pack flat-lay: the retainer wearer's starter pack",
+      "based_on": "Zima 'Star of the clean girl starter pack' numbered flat-lay (18d running)",
+      "headline": "The retainer wearer's starter pack",
+      "prompt": "Aesthetic overhead flat-lay on soft blush-beige with small numbered circles (01–06): (01) a clear retainer, (02) a lip balm, (03) a claw clip, (04) the DentalPULSE Travel Pod, (05) the blue box of Antibacterial Retainer Cleaner tablets, and the largest item (06) the DentalPULSE Pod, all three products exactly as in the reference photo. Title at the top in elegant navy serif: \"The retainer wearer's starter pack\". Small caption at the bottom: \"04–06: the Ultimate Cleaning Bundle, $169.95\"."
+    },
+    {
+      "id": "O42_12_ultimate_trustpilot_value",
+      "persona": "aligner",
+      "colorway": "ultimate_bundle",
+      "group": "offer",
+      "format": "trustpilot",
+      "angle": "Review card + bundle",
+      "based_on": "Survey aligner/retainer quotes ('No white film!', 'Retainer clear not milky', 'clean, clear and odor free')",
+      "headline": "No white film. Even on the go.",
+      "prompt": "One large Trustpilot-style review card on a soft pale-blue background. Reviewer \"Alyssa K.\", title \"No white film!\", text \"Clean, clear and odor free.\" Below the card, the three bundle products from the reference photo on a marble counter, and a navy pill: \"Ultimate Cleaning Bundle · $169.95 (was $300) · Rated 4.8/5\"."
+    }
+  ]
+}

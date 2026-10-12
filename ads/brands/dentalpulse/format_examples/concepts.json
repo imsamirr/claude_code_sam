@@ -1,0 +1,34 @@
+{
+  "concepts": [
+    {
+      "id": "DT_01_bacteria_evicted_3d",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "format": "cartoon_3d",
+      "angle": "test: 3D animated",
+      "based_on": "Approved 99.9% claim; anti-tablet",
+      "headline": "99.9% of bacteria. Evicted.",
+      "prompt": "A playful 3D animated film still on a bathroom counter: a friendly grandpa character dropping his dentures into the open DentalPULSE Pod from the reference photo, while tiny cute-gross green bacteria cartoon characters with suitcases flee out of the Pod in panic, one waving a white flag. Headline at top in bold navy rounded sans: \"99.9% of bacteria. Evicted.\" Small line: \"5 minutes. Tap water.\""
+    },
+    {
+      "id": "DT_02_nightguard_comic",
+      "persona": "night_guard",
+      "colorway": "pod",
+      "format": "comic_strip",
+      "angle": "test: 4-panel comic",
+      "based_on": "Survey: smell, partner noticed; old method Efferdent cup",
+      "headline": "It smells like a gym bag.",
+      "prompt": "A 4-panel comic strip about a couple. Panel 1: a man soaking his night guard in a cup with a fizzing tablet next to an Efferdent box, bubble \"It's fine. It's clean.\". Panel 2: his wife sniffing the night guard, horrified, bubble \"It smells like a gym bag.\". Panel 3: she hands him the DentalPULSE Pod from the reference photo, bubble \"5 minutes. Tap water. Try it.\". Panel 4: he holds up a crystal-clear night guard, both smiling, bubble \"...okay, you were right.\""
+    },
+    {
+      "id": "DT_03_retro_old_way",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "format": "retro_cartoon",
+      "angle": "test: 1930s rubber-hose",
+      "based_on": "Winner DEN226 nostalgia ('Ninety years ago people cleaned...')",
+      "headline": "Still cleaning dentures like it's 1930?",
+      "prompt": "A 1930s rubber-hose cartoon still in sepia with DentalPULSE blue as the only accent color: a bendy grandpa character scrubbing a giant set of dentures with an oversized toothbrush, sweating, a fizzing glass of tablets beside him. An old-timey title card banner at top: \"Still cleaning dentures like it's 1930?\". In the lower right, rendered in clean modern full color as if breaking out of the old film, the DentalPULSE Pod from the reference photo with the words \"Just add tap water.\""
+    }
+  ]
+}

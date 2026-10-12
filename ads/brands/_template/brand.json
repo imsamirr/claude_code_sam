@@ -1,0 +1,114 @@
+{
+  "name": "Brand Name",
+  "product": "Only the products the user wants advertised (name each one); every other SKU stays out of references and ads",
+  "price": "$00.00",
+  "audience": "who the product is for, e.g. \"Women only: whoever wears the product is a woman\"",
+  "palette": "background colors, accent color with hex for headlines and pills, body text color",
+  "font_style": "headline and body font description, e.g. bold geometric sans-serif headlines",
+  "website": "example.com",
+  "prompt_rules": [
+    "The product MUST be the exact product in the attached reference photo, unchanged: <precise physical description, every distinctive detail>. Keep proportions and every detail; only change angle, lighting and setting. Do not invent buttons, colors or logos. Show no other products from the brand's catalog.",
+    "<who may be shown using it, e.g. 'women only' or 'appliances look anatomically realistic'>",
+    "<product facts the ads must get right, e.g. 'the cleaning cycle is always 5 minutes (05:00), never 3'>",
+    "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
+    "Add nothing the description doesn't ask for: no extra feature lists, icon callouts, price tags, badges, panels or captions. Never show competitor logos or products.",
+    "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
+  ],
+  "claims_to_avoid": [
+    "guarantees, returns, shipping speed unless confirmed",
+    "endorsements (doctors, dentists, awards, press) unless confirmed",
+    "invented customer counts, units sold, review counts",
+    "competitor names or logos (unless the user allows naming an incumbent)",
+    "medical treatment claims"
+  ],
+  "colorways": {
+    "variant_slug": {
+      "file": "reference/product_variant_slug.png",
+      "label": "plain-language color description"
+    }
+  },
+  "personas": {
+    "persona_slug": {
+      "name": "Who they are, in a few words",
+      "source": "the data this persona comes from (survey share, winning ads, reviews, forums)",
+      "colorways": [
+        "variant_slug"
+      ],
+      "test_colorways": []
+    },
+    "comfort_only": {
+      "name": "Broad everyday buyer",
+      "source": "...",
+      "colorways": "any"
+    }
+  },
+  "language_rules": {
+    "es": "All on-image text is in Spanish exactly as written in quotes, as a Spanish-speaking person living in the USA would say it (neutral US Latino, Mexican-leaning, using 'tú'). Keep every accent and sign: á é í ó ú ñ ¿ ¡. Numbers in US format. Do not translate brand names."
+  },
+  "atria_account": "exact ad-account name in Atria",
+  "program": {
+    "schedule": "e.g. Tue + Fri 5:50am America/New_York (stagger brands ~15 min apart; routine name + trigger id once created)",
+    "iteration_batch": {
+      "weekday": "Tuesday",
+      "size": 20,
+      "spanish": 0
+    },
+    "netnew_batch": {
+      "weekday": "Friday",
+      "size": 40,
+      "net_new": 32,
+      "winning": 8,
+      "spanish": 0
+    },
+    "winning_personas": [
+      "persona_slug"
+    ],
+    "grow_personas": [
+      "persona_slug"
+    ],
+    "iterate_when": {
+      "days": 30,
+      "min_spend": 300,
+      "min_roas": 1.8
+    },
+    "roas_note": "any period where ROAS is unreliable",
+    "mix": "product/use-case split every batch must follow, e.g. '50% dentures, 25% night guards, 25% aligners/retainers'",
+    "cartoon_share": "15–20% of every batch in cartoon/animation formats"
+  },
+  "drive_folder_id": "id of the brand's '<Brand> – Weekly Static Ads' Drive folder",
+  "slack": {
+    "notify_channel_id": "Slack user or channel id to DM when a batch is ready"
+  },
+  "format_guides": {
+    "fb_comment": "Render the testimonial as a real Facebook mobile comment thread, pixel-faithful to the current Facebook app: light grey rounded comment bubble on white, small round profile photo on the left (realistic person matching the persona), commenter name in bold dark text (first name + last initial), comment text in Facebook's system sans font at normal comment size, a grey row under the bubble reading like \"2d   Like   Reply\", and a small overlapping reaction pill (like/love icons + a count) at the bubble's lower right. Optionally 2–3 stacked comments with replies indented. Plain, native, not designed; no Facebook logo.",
+    "trustpilot": "Render the testimonial as a real Trustpilot review card, faithful to Trustpilot's current design: white card with thin light-grey border, reviewer row with a small round initials avatar, reviewer first name + last initial and country code, a row of five green square star tiles with white stars (Trustpilot green #00B67A), a short bold review title, the review text in a clean sans font, and a small grey date. Show individual review cards only: no Trustpilot logo, no TrustScore, no overall rating or review count, no 'Verified' badge.",
+    "x_post": "Render as a real X (formerly Twitter) post screenshot, faithful to the current X app in light mode: white background, round profile photo top-left, display name in bold black, then grey @handle and \"· 3h\", the post text in X's Chirp-like sans at native size (black, left-aligned, no quotation marks), optionally an attached photo with rounded corners, then a grey engagement row with the reply, repost, like and view icons and small counts, all in X's thin grey icon style. No blue verification checkmark, no X logo, no 'Twitter' bird. It must read as a genuine X post, not a designed graphic.",
+    "cartoon_3d": "Render as a still frame from a modern 3D animated feature film: soft global illumination, rounded appealing character designs with expressive eyes, rich but tasteful color, cinematic depth of field, subsurface skin shading. Characters look stylized-cute, not realistic.",
+    "comic_strip": "Render as a modern webcomic strip: 3 or 4 panels with thin black borders and white gutters, clean confident ink outlines, flat colors with light shading, round speech bubbles containing exactly the quoted lines, simple expressive characters. Panel order reads left to right, top to bottom.",
+    "flat_illustration": "Render as a modern flat vector editorial illustration: simple geometric characters with minimal facial features, a limited 4–5 color palette from the brand colors, soft subtle grain texture, generous negative space, clean sans-serif type.",
+    "claymation": "Render as a stop-motion claymation still: characters and props sculpted from plasticine with visible fingerprint texture and slightly imperfect edges, handmade miniature set, warm soft studio lighting, shallow depth of field.",
+    "retro_cartoon": "Render as a 1930s rubber-hose cartoon still: black-and-white or sepia ink with one accent color, bendy limbs, pie-cut eyes, white gloves, wobbly hand-inked lines, vintage film grain and vignette, old-timey title card lettering.",
+    "anime_soft": "Render as a frame from a soft hand-painted anime film: lush painterly backgrounds, gentle watercolor light, clean line art for characters, warm nostalgic mood."
+  },
+  "inspo_queries": [
+    "category keyword",
+    "problem keyword",
+    "competitor product type"
+  ],
+  "colorway_template": "The product is the {label} shown in the reference photo.",
+  "approved_claims": [
+    "claims the user explicitly approved (exact wording), e.g. 'Eliminates 99.9% of bacteria'"
+  ],
+  "claims_note": "who approved what and when; what is still unconfirmed",
+  "old_methods": {
+    "note": "the 'before' / enemy: what customers used before (from the survey); named directly if the user allows",
+    "methods": [
+      "..."
+    ],
+    "brand_names_ok": []
+  },
+  "competitor_brands": [
+    "direct competitors",
+    "plus 8–12 adjacent DTC brands in the category"
+  ]
+}

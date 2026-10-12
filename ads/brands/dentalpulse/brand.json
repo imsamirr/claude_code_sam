@@ -1,0 +1,248 @@
+{
+  "name": "DentalPULSE",
+  "product": "DentalPULSE Pod (ultrasonic cleaner for aligners, retainers, dentures, night guards) and the DentalPULSE Travel Pod. Advertise only these two products; never show Pod Max or cleaning tablets as DentalPULSE products. Bundle ads may show the two bundles exactly as in brand.json → offers (the Ultimate Cleaning Bundle includes the 30-tablet box; tablets appear only in that bundle's ads).",
+  "price": "$99.95 (current price, 40% OFF sale)",
+  "audience": "Adults who wear a removable oral appliance (clear aligners/Invisalign, retainers incl. permanent/wire, dentures, night/mouth guards, sleep apnea devices), plus parents of teens with retainers and adult children buying for a parent with dentures. Men and women.",
+  "palette": "clean bright white and soft pale blue backgrounds, DentalPULSE blue (#1E73E8) for headlines and pills, dark navy (#0B1F3A) body text, occasional black premium backgrounds",
+  "font_style": "clean modern sans-serif (like Inter/SF Pro), bold headlines, generous white space, clinical-but-friendly",
+  "website": "dentalpulsepro.com",
+  "prompt_rules": [
+    "The product MUST be the exact DentalPULSE device in the attached reference photo, unchanged. The Pod: a smooth matte-white rounded dome with fine vertical ribbing all around the body, a thin horizontal seam near the base, a slightly domed top cap with the 'DentalPULSE' wordmark (black, 'Dental' regular + 'PULSE' bold); when open, a round white hinged lid flips up from the back (the inside of the lid has four small square light points) over a brushed stainless-steel cleaning basin. The Travel Pod: a small round white clamshell case. Keep proportions and every detail; only change angle, lighting and setting. Do not invent buttons, screens, displays, colors or logos. Show no other DentalPULSE products (no Pod Max; no tablet boxes unless the reference photo is the Ultimate Cleaning Bundle, which includes one).",
+    "Oral appliances (clear aligners, retainers, dentures, night guards) must look anatomically correct and realistic: clear aligners are thin transparent trays shaped like a full upper or lower arch; dentures have realistic pink gums and natural teeth. No distorted mouths or teeth on people.",
+    "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
+    "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos.",
+    "The cleaning cycle is always 5 minutes: any timer, clock or copy shows 5 minutes (05:00), never 3 minutes."
+  ],
+  "claims_to_avoid": [
+    "shipping speed or free shipping/returns beyond the 120-day guarantee (not confirmed)",
+    "invented counts: customers, units sold, reviews, 'X,000 dentists'; press logos or other awards",
+    "a strike-through 'was' price other than the store's compare-at prices ($180 Pod Denture Bundle, $300 Ultimate Cleaning Bundle)",
+    "naming or showing logos of competitor ultrasonic pods (Zima, Sonic Dental, GuruNanda, oPro, Novapod): show them unbranded",
+    "medical treatment claims (cures infections, prevents disease)"
+  ],
+  "colorways": {
+    "pod": {
+      "file": "reference/pod.png",
+      "label": "DentalPULSE Pod, closed (white ribbed dome)"
+    },
+    "pod_open": {
+      "file": "reference/pod_open.png",
+      "label": "DentalPULSE Pod, lid open with a clear aligner going in"
+    },
+    "travel_pod": {
+      "file": "reference/travel_pod.png",
+      "label": "DentalPULSE Travel Pod (small round white clamshell)"
+    },
+    "denture_gift_bundle": {
+      "file": "reference/denture_gift_bundle.png",
+      "label": "DentalPULSE Pod Denture Bundle: the white Pod plus three free gifts: a black zip travel bag with a clear front window and DentalPULSE logo (holding denture care items), a smoky dark-grey round portable denture case with a strap and a blue denture brush, and a navy/silver '1 YEAR WARRANTY' shield card"
+    },
+    "ultimate_bundle": {
+      "file": "reference/ultimate_bundle.png",
+      "label": "DentalPULSE Ultimate Cleaning Bundle: the white Pod, the white Travel Pod (small round clamshell with four small square lights inside the lid) and one blue box of 'ANTIBACTERIAL RETAINER CLEANER' effervescent tablets (30 tablets)"
+    }
+  },
+  "personas": {
+    "denture_wearer": {
+      "name": "Denture/partial wearer, 60+, cleans with Polident tablets + brush",
+      "source": "~55% of survey; every current winner (comparison/listicle/native ads) targets dentures; pains: adhesive/Fixodent goo, yellowing, food in crevices, slimy feel, smell",
+      "colorways": [
+        "pod",
+        "pod_open"
+      ]
+    },
+    "denture_caregiver": {
+      "name": "Adult child or spouse buying for a parent/partner with dentures",
+      "source": "'Who noticed': husband/wife/grandchildren; gift buyers in survey; denture wearers 60+ often gifted tech",
+      "colorways": [
+        "pod",
+        "pod_open"
+      ]
+    },
+    "night_guard": {
+      "name": "Teeth grinder (TMJ/bruxism), 30–60, night guard turned yellow and cloudy",
+      "source": "~22% of survey; 'gross yellow and cloudy', 'never felt clean', soap/toothpaste routine; negatives: old yellow stains don't fully reverse",
+      "colorways": [
+        "pod",
+        "pod_open",
+        "travel_pod"
+      ]
+    },
+    "retainer": {
+      "name": "Retainer wearer (adult post-ortho) or parent of a teen with retainers",
+      "source": "~13% of survey; 'clear again, not milky', tablets made retainer brittle, buildup in crevices; 'daughter got one for her retainer'",
+      "colorways": [
+        "pod",
+        "pod_open",
+        "travel_pod"
+      ]
+    },
+    "aligner": {
+      "name": "Clear aligner/Invisalign wearer, 25–45, on the go",
+      "source": "~6% of survey but high-value category; 'white film', 'trays look cloudy', 'no more smell'; Zima/oPro/Novapod compete hardest here",
+      "colorways": [
+        "pod_open",
+        "travel_pod",
+        "pod"
+      ]
+    },
+    "switcher": {
+      "name": "Burned buyer who already tried a cheap Amazon/Zima/GuruNanda pod",
+      "source": "~15% of survey previously owned another pod; 'failure of 2 others', 'three previous buys and none worked'; matches winning 'tested 7 pods' comparison angle",
+      "colorways": "any"
+    }
+  },
+  "language_rules": {},
+  "atria_account": "Dentalpulse",
+  "program": {
+    "schedule": "Tue + Fri 6:05am America/New_York (routine 'DentalPULSE weekly statics', trig_01LoR9bkHByFXEBh68gwbz8V)",
+    "iteration_batch": {
+      "weekday": "Tuesday",
+      "size": 20,
+      "spanish": 0
+    },
+    "netnew_batch": {
+      "weekday": "Friday",
+      "size": 40,
+      "net_new": 32,
+      "winning": 8,
+      "spanish": 0
+    },
+    "winning_personas": [
+      "denture_wearer",
+      "switcher"
+    ],
+    "grow_personas": [
+      "night_guard",
+      "aligner",
+      "retainer",
+      "denture_caregiver"
+    ],
+    "appliance_mix": "Every batch: 50% dentures (incl. partials, caregiver, switcher), 25% night guards, 25% aligners/retainers. Big swings on each.",
+    "iterate_when": {
+      "days": 30,
+      "min_spend": 300,
+      "min_roas": 1.8
+    },
+    "roas_note": "Comparison/listicle ads send traffic to an advertorial (LP_LISTICLE); ROAS is the account's reported figure.",
+    "offer": "Current offer: 40% OFF sale, $99.95, 120-day money-back guarantee. Use it on offer tiles and as a CTA line on ~30% of concepts."
+  },
+  "drive_folder_id": "1czcREwJ7CCml8-ZrrezzypAD9GLnwcxV",
+  "slack": {
+    "notify_channel_id": "U04PZNV9FV0",
+    "notify_name": "Samir (DM)"
+  },
+  "format_guides": {
+    "fb_comment": "Render the testimonial as a real Facebook mobile comment thread, pixel-faithful to the current Facebook app: light grey rounded comment bubble on white, small round profile photo on the left (realistic person matching the persona), commenter name in bold dark text (first name + last initial), comment text in Facebook's system sans font at normal comment size, a grey row under the bubble reading like \"2d   Like   Reply\", and a small overlapping reaction pill (like/love icons + a count) at the bubble's lower right. Optionally 2–3 stacked comments with replies indented. Plain, native, not designed; no Facebook logo.",
+    "trustpilot": "Render the testimonial as a real Trustpilot review card, faithful to Trustpilot's current design: white card with thin light-grey border, reviewer row with a small round initials avatar, reviewer first name + last initial and country code, a row of five green square star tiles with white stars (Trustpilot green #00B67A), a short bold review title, the review text in a clean sans font, and a small grey date. Show individual review cards only: no Trustpilot logo, no TrustScore, no overall rating or review count, no 'Verified' badge.",
+    "x_post": "Render as a real X (formerly Twitter) post screenshot, faithful to the current X app in light mode: white background, round profile photo top-left, display name in bold black, then grey @handle and \"· 3h\", the post text in X's Chirp-like sans at native size (black, left-aligned, no quotation marks), optionally an attached photo with rounded corners, then a grey engagement row with the reply, repost, like and view icons and small counts, all in X's thin grey icon style. No blue verification checkmark, no X logo, no 'Twitter' bird. It must read as a genuine X post, not a designed graphic.",
+    "cartoon_3d": "Render as a still frame from a modern 3D animated feature film: soft global illumination, rounded appealing character designs with expressive eyes, rich but tasteful color, cinematic depth of field, subsurface skin shading. Characters look stylized-cute, not realistic.",
+    "comic_strip": "Render as a modern webcomic strip: 3 or 4 panels with thin black borders and white gutters, clean confident ink outlines, flat colors with light shading, round speech bubbles containing exactly the quoted lines, simple expressive characters. Panel order reads left to right, top to bottom.",
+    "flat_illustration": "Render as a modern flat vector editorial illustration: simple geometric characters with minimal facial features, a limited 4–5 color palette from the brand colors, soft subtle grain texture, generous negative space, clean sans-serif type.",
+    "claymation": "Render as a stop-motion claymation still: characters and props sculpted from plasticine with visible fingerprint texture and slightly imperfect edges, handmade miniature set, warm soft studio lighting, shallow depth of field.",
+    "retro_cartoon": "Render as a 1930s rubber-hose cartoon still: black-and-white or sepia ink with one accent color, bendy limbs, pie-cut eyes, white gloves, wobbly hand-inked lines, vintage film grain and vignette, old-timey title card lettering.",
+    "anime_soft": "Render as a frame from a soft hand-painted anime film: lush painterly backgrounds, gentle watercolor light, clean line art for characters, warm nostalgic mood."
+  },
+  "format_guides_note": "Testimonial/review ads use fb_comment or trustpilot; tweet-style ads use x_post. Cartoon/animation formats (user rule, Oct 11: use them, both brands): cartoon_3d, comic_strip, flat_illustration, claymation, retro_cartoon, anime_soft. Aim for ~15–20% of every batch.",
+  "inspo_queries": [
+    "retainer cleaner",
+    "ultrasonic cleaner",
+    "denture cleaner",
+    "night guard",
+    "aligner cleaner",
+    "invisalign",
+    "dentures",
+    "mouth guard",
+    "retainer",
+    "polident",
+    "teeth whitening",
+    "oral care"
+  ],
+  "colorway_template": "The product is the {label} shown in the reference photo.",
+  "competitor_brands": [
+    "Zima Dental",
+    "Sonic Dental",
+    "oPro",
+    "GuruNanda",
+    "Novapod",
+    "MyNovaPod",
+    "Retainer Brite",
+    "Polident",
+    "Efferdent",
+    "Hismile",
+    "Snow",
+    "Boka",
+    "Smile Brilliant",
+    "Byte",
+    "Invisalign",
+    "Smyle",
+    "LIVFRESH",
+    "usmile",
+    "Cocofloss",
+    "Fixodent"
+  ],
+  "approved_claims": [
+    "Eliminates 99.9% of bacteria (in one 5-minute cycle)",
+    "Clinical-grade / clinical-grade cleaning at home",
+    "42,000 Hz ultrasonic cleaning",
+    "6 of 7 pods leave live bacteria / 6 of 7 pods can't remove bacteria (90-day side-by-side lab test of 7 leading ultrasonic cleaners); DentalPULSE was #1",
+    "Star ratings: five gold or green stars, 'Rated 4.8/5' (no review counts)",
+    "Tap water only: no tablets, no chemicals, no subscriptions",
+    "One 5-minute cycle (always say 5 minutes; never 3 or 3–5)",
+    "Dentist endorsements without numbers: 'Dentist-recommended', 'Recommended by dentists', a dentist character/quote framed as a recommendation (no invented names or counts)",
+    "Clinicians' Choice badge: a clean gold/navy seal reading \"Clinicians' Choice\"",
+    "120-day money-back guarantee (\"120-Day Money-Back Guarantee\", \"Try it risk-free for 120 days\")",
+    "40% OFF sale: \"40% OFF\" with the current price \"$99.95\" (do not invent a strike-through original price)",
+    "Bundle prices from the store: Pod Denture Bundle $99.95 (compare-at $180, save $80, 3 free gifts); Ultimate Cleaning Bundle $169.95 (compare-at $300, save $130)"
+  ],
+  "claims_note": "User Oct 11: be aggressive with approved_claims. Later Oct 11: dentist endorsements, Clinicians' Choice badge, 120-day money-back guarantee and the 40% OFF sale ($99.95 current price) approved. Still unconfirmed: shipping speed/free shipping, customer or units-sold counts, dentist counts, review counts, press logos.",
+  "old_methods": {
+    "note": "User rule: the 'before' / enemy is the old routine. Name it directly.",
+    "methods": [
+      "toothbrush + toothpaste (scratches, misses the grooves)",
+      "Polident tablets (overnight soak, blue water, minty smell, film stays)",
+      "Efferdent tablets",
+      "vinegar soak",
+      "bleach soak",
+      "hand soap / dish soap",
+      "hydrogen peroxide",
+      "plain water rinse",
+      "denture cup soak"
+    ],
+    "brand_names_ok": [
+      "Polident",
+      "Efferdent"
+    ],
+    "show": "Real-looking Polident and Efferdent boxes/tablets are fine as the old method we replace; never imply they endorse us."
+  },
+  "offers": {
+    "pod_denture_gift_bundle": {
+      "url": "https://dentalpulsepro.com/products/dentalpulse-pod-denture-bundle-gifts",
+      "price": "$99.95",
+      "compare_at": "$180",
+      "save": "Save $80",
+      "includes": [
+        "DentalPULSE Pod",
+        "FREE Travel Bag ($25 value)",
+        "FREE Portable Case ($19 value)",
+        "FREE 1-Year Warranty ($14 value)",
+        "120-Day Money-Back Guarantee"
+      ],
+      "best_for": "dentures/partials, gift buyers",
+      "colorway": "denture_gift_bundle"
+    },
+    "ultimate_cleaning_bundle": {
+      "url": "https://dentalpulsepro.com/products/ultimate-cleaning-bundle",
+      "price": "$169.95",
+      "compare_at": "$300",
+      "save": "Save $130",
+      "includes": [
+        "DentalPULSE Pod",
+        "DentalPULSE Travel Pod",
+        "Antibacterial Retainer Cleaner tablets (30)"
+      ],
+      "best_for": "aligners, retainers, night guards (home + on the go)",
+      "colorway": "ultimate_bundle"
+    }
+  }
+}

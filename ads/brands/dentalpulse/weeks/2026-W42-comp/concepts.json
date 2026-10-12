@@ -1,0 +1,209 @@
+{
+  "week": "2026-W42-comp",
+  "notes": "Competitor/dental-brand-inspired batch (Atria ad library, analysis.md section 6). 20 concepts: 10 dentures, 5 night guards, 5 aligners/retainers (user mix 50/25/25). Approved aggressive claims (99.9%, clinical-grade, 42,000 Hz, 6 of 7 pods, 4.8 stars). The enemy is the old routine named directly (Polident, Efferdent, toothbrush, vinegar, bleach). Competitor pods unbranded. Pod + Travel Pod only.",
+  "concepts": [
+    {
+      "id": "C42_01_better_than_polident",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Name the incumbent: BETTER THAN POLIDENT.",
+      "based_on": "GuruNanda 'BETTER THAN A WISP.' (21d running) bold incumbent callout; winner DEN226 anti-tablet (ROAS 1.91)",
+      "headline": "Better than Polident.",
+      "prompt": "Bold poster-style ad on deep DentalPULSE blue (#1E73E8). Left half: huge condensed white uppercase headline stacked on three lines \"BETTER THAN POLIDENT.\" with \"POLIDENT\" in bright yellow italic. Under it smaller white text: \"Eliminates 99.9% of bacteria. Just tap water.\" Right half: the DentalPULSE Pod from the reference photo, large, studio-lit, and next to it a small realistic Polident denture-cleanser tablet box lying on its side with a single tablet, looking ordinary and dated. Clean, punchy, high contrast."
+    },
+    {
+      "id": "C42_02_dont_soak_in_this",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Shock headline over a gross denture-cup close-up",
+      "based_on": "Hismile 'DO NOT F*CKING DO THIS' shock tile; survey 'still see food on the denture', 'slimy'",
+      "headline": "Do NOT soak your dentures in this.",
+      "prompt": "Dark dramatic macro photo: a plastic denture cup on a bathroom sink at night filled with cloudy murky water, a realistic upper denture inside with visible food debris and slimy film, a dissolving fizzing tablet. Small orange arrow labels pointing at it: \"film\", \"food\", \"overnight bacteria\". Huge bold white uppercase headline at the top: \"DO NOT SOAK YOUR DENTURES IN THIS.\" Bottom: a clean bright white rounded panel with the DentalPULSE Pod from the reference photo and the text \"5 minutes in the Pod. 99.9% of bacteria gone.\""
+    },
+    {
+      "id": "C42_03_held_up_before_after",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Before/after held up in two hands",
+      "based_on": "Zima 'Before / After Zima' woman holding yellow vs clear retainers (11d); Sonic 'Der Unterschied?' hands through paper; survey 'as white as when I first got it'",
+      "headline": "Same denture. 5 minutes apart.",
+      "prompt": "Bright natural photo of a smiling woman in her late 60s with silver hair in a cozy cardigan, in her kitchen, holding up two realistic upper dentures toward the camera, one in each hand. Left hand: a dull, yellow-stained denture with grey film between the teeth, with a small white label \"Polident + brush\". Right hand: the same style denture, clean, bright white teeth and glossy pink gums, label \"After the Pod\". The DentalPULSE Pod from the reference photo sits on the counter behind her. Headline at top in bold navy on a white band: \"Same denture. 5 minutes apart.\""
+    },
+    {
+      "id": "C42_04_incoming_call_offer",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Native UI: incoming call screen offer",
+      "based_on": "Zima 'An Exclusive Offer is calling…' incoming-call tile with decline/accept",
+      "headline": "Your dentures are calling.",
+      "prompt": "A realistic iPhone incoming-call screen on a soft blurred dark background. Caller name in large white text: \"Your Dentures\". Under it in small grey: \"mobile\". Center: a round caller photo showing the DentalPULSE Pod from the reference photo. Bottom: the standard red decline button labeled \"Keep soaking in tablets\" and green accept button labeled \"Try the Pod\". Above the buttons a small white line: \"Eliminates 99.9% of bacteria in 5 minutes\". Native iOS look, no Apple logo."
+    },
+    {
+      "id": "C42_05_six_of_seven_big_number",
+      "persona": "switcher",
+      "colorway": "pod",
+      "group": "winning",
+      "angle": "Big-number typography of the live lab-test claim",
+      "based_on": "Winner '6 of 7 pods leave live bacteria' (VID_DEN32, $5.9k, ROAS 2.8); big-number formats (GuruNanda '70')",
+      "headline": "6 of 7 pods leave live bacteria on your dentures.",
+      "prompt": "Clean editorial typographic ad on white. Giant bold navy numerals \"6 of 7\" filling the top half. Under it in bold: \"ultrasonic pods leave live bacteria on your dentures.\" Then a row of seven small product icons: six generic grey unbranded pods each with a small red x, and the seventh, the DentalPULSE Pod from the reference photo, highlighted with a blue ring and a check mark. Bottom line in DentalPULSE blue: \"90-day lab test. Only one passed.\" Minimal, high-trust, magazine style."
+    },
+    {
+      "id": "C42_06_starter_pack",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Starter-pack flat-lay: the new denture wearer's starter pack",
+      "based_on": "Zima 'Star of the clean girl starter pack' numbered flat-lay (18d running)",
+      "headline": "The new denture wearer's starter pack",
+      "prompt": "Bright overhead flat-lay on a soft cream background, items arranged with small numbered circles (01–06) like a magazine starter-pack meme: (01) reading glasses, (02) a crossword puzzle book with a pencil, (03) a mug of tea, (04) a realistic upper denture on a folded white towel, (05) a cozy knitted cardigan corner, and in the center the largest item (06) the DentalPULSE Pod from the reference photo. Title at the top in bold navy serif: \"The new denture wearer's starter pack\". Small caption bottom: \"(06) the only one that eliminates 99.9% of bacteria\"."
+    },
+    {
+      "id": "C42_07_vinegar_bleach_brush",
+      "persona": "denture_wearer",
+      "colorway": "pod_open",
+      "group": "netnew",
+      "angle": "Every old method on trial: vinegar, bleach, brush, tablets",
+      "based_on": "User: old methods are toothbrush, Polident/Efferdent, vinegar/bleach; LIVFRESH 'HELPS' icon diagram",
+      "headline": "Vinegar. Bleach. Tablets. Scrubbing. Stop.",
+      "prompt": "Clean grid infographic on white, 2x2 small tiles across the top half, each a realistic photo with a red x badge and a short label: a white vinegar bottle \"Vinegar: smells, misses the grooves\", a bleach jug \"Bleach: can whiten the pink gums\", a worn toothbrush \"Brushing: scratches that trap bacteria\", an Efferdent tablet box \"Tablets: film stays behind\". Bottom half: the open DentalPULSE Pod from the reference photo with a realistic denture going in, and a blue check badge with \"Tap water. 42,000 Hz. 99.9% of bacteria gone.\" Headline above the grid in bold navy: \"Vinegar. Bleach. Tablets. Scrubbing. Stop.\""
+    },
+    {
+      "id": "C42_08_caregiver_cart",
+      "persona": "denture_caregiver",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Native UI: checkout cart screenshot buying for mom",
+      "based_on": "Hismile / Smyle cart and order screenshots ('10 lip balms for $18??', 'Roommate deal')",
+      "headline": "Best $99.95 I spent on my mom this year.",
+      "prompt": "A realistic mobile shopping cart screenshot in light mode, clean white UI. Title \"Your cart\". One line item with a thumbnail of the DentalPULSE Pod from the reference photo: \"DentalPULSE Pod\", quantity 1, price \"$99.95\". A gift toggle switched on with \"Ship to: Mom\" and a gift note field showing the text \"No more tablets, Mom ❤️\". A big black checkout button. Above the screenshot, a bold handwritten-style black caption on a yellow highlight: \"best $99.95 I spent on my mom this year\"."
+    },
+    {
+      "id": "C42_09_comment_wall_dentures",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "netnew",
+      "format": "fb_comment",
+      "angle": "Comment wall of real customer reactions",
+      "based_on": "Cocofloss comment-wall tile (8d); survey quotes 'Much cleaner without scrubbing', 'No more smell, cleans very well', 'certainly cleans all the residue from denture paste'",
+      "headline": "What denture wearers are saying",
+      "prompt": "A tall stack of five real-looking Facebook mobile comments on white, each with a small round profile photo of an older adult, bold first name + last initial, and the grey 'Like Reply' row: \"Ruth B.\": \"Much cleaner without scrubbing. Wish I found this years ago.\" / \"Gary H.\": \"No more smell and it cleans very well. My grandkids noticed.\" / \"Pat W.\": \"Certainly cleans all the residue from denture paste.\" / \"Joyce L.\": \"My dentures are cleaner and smell cleaner.\" / \"Don M.\": \"Don't need to brush my partial as often.\" Small reaction pills with counts. At the bottom, the DentalPULSE Pod from the reference photo on a bathroom counter."
+    },
+    {
+      "id": "C42_10_dark_glow_offer",
+      "persona": "switcher",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Premium dark offer tile: Pod on a palm under a glow ring",
+      "based_on": "Sonic Dental 'Limited Time Sale' dark purple hand-held glow tiles (115–122d running); account winner '40% Off + Free Gifts' (ROAS 1.92)",
+      "headline": "40% off the clinical-grade Pod",
+      "prompt": "Premium dark ad on deep navy-black with a soft electric-blue glowing ring of light behind the product. A woman's open palm from the bottom holds up the DentalPULSE Pod from the reference photo, glowing white. Top: bold white headline \"40% OFF\" with a thin outlined pill button below reading \"LIMITED TIME\". Under the product in small white text: \"Clinical-grade. 42,000 Hz. Eliminates 99.9% of bacteria.\" A row of five small gold stars and \"Rated 4.8/5\". Sleek, high-end tech look."
+    },
+    {
+      "id": "C42_11_nightguard_held_up",
+      "persona": "night_guard",
+      "colorway": "pod_open",
+      "group": "netnew",
+      "angle": "Held-up before/after for night guards with a 3:00 timer",
+      "based_on": "Sonic 'Der Unterschied?' hands bursting through paper holding yellow vs clear aligner with 03:00 timer (122d)",
+      "headline": "The difference? 5 minutes.",
+      "prompt": "Bold graphic photo: two hands bursting through torn white paper from behind, the left hand holding a cloudy yellowed clear night guard, the right hand holding a crystal-clear night guard. Between them a round black digital-style timer badge reading \"05:00\". Headline at the top in bold navy: \"The difference? 5 minutes.\" Bottom right: the open DentalPULSE Pod from the reference photo, with a small blue pill \"Tap water only\"."
+    },
+    {
+      "id": "C42_12_nightguard_brushing_misses",
+      "persona": "night_guard",
+      "colorway": "pod_open",
+      "group": "netnew",
+      "angle": "Brushing misses. Ultrasonic doesn't.",
+      "based_on": "Sonic Dental 'BRUSHING MISSES. ULTRASONIC DOESN'T. Clinical-grade.' (91d)",
+      "headline": "Brushing misses. Ultrasonic doesn't.",
+      "prompt": "Clean bright bathroom-counter product photo on soft grey. Top left, stacked bold uppercase navy headline: \"BRUSHING MISSES. ULTRASONIC DOESN'T.\" Under it: \"Clinical-grade. 42,000 Hz. Eliminates 99.9% of bacteria.\" Right side: a hand lowering a clear night guard into the open DentalPULSE Pod from the reference photo. In the foreground, a worn toothbrush lying on the counter with a faint red circle-slash icon over it."
+    },
+    {
+      "id": "C42_13_nightguard_stat_card",
+      "persona": "night_guard",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Stat claim card like Boka '7x more'",
+      "based_on": "Boka 'Removes 7x more surface stains than an ordinary toothpaste' (25d); approved 99.9% claim",
+      "headline": "99.9% of bacteria. Gone in 5 minutes.",
+      "prompt": "Minimal bright bathroom scene, white marble counter, soft morning light, a plant. The DentalPULSE Pod from the reference photo next to a clear night guard case. Top center in bold navy two-line headline: \"99.9% of bacteria.\" and \"Gone in 5 minutes.\" Under it smaller: \"Your toothbrush can't say that.\" Calm, premium, Boka-style minimal composition with lots of white space."
+    },
+    {
+      "id": "C42_14_nightguard_icon_diagram",
+      "persona": "night_guard",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Icon diagram around the product",
+      "based_on": "LIVFRESH 'HELPS' icon diagram (10d); Zima 'Never Brush Your Retainer Again' feature icons",
+      "headline": "Never brush your night guard again.",
+      "prompt": "Clean product infographic on pale blue. Headline at top in bold navy: \"Never brush your night guard again.\" Center: the DentalPULSE Pod from the reference photo. Around it, four thin-line blue icons with short labels connected by fine lines: a bacteria icon \"Eliminates 99.9% of bacteria\", a sound-wave icon \"42,000 Hz clinical-grade\", a droplet icon \"Tap water only\", a clock icon \"Done in 5 minutes\". Bottom: five gold stars and \"Rated 4.8/5\"."
+    },
+    {
+      "id": "C42_15_nightguard_gross_closeup",
+      "persona": "night_guard",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Shock close-up: what's on your night guard",
+      "based_on": "Hismile shock tile; LIVFRESH 'Dentists say it's hiding below the gumline' fear hook; survey 'gross yellow and cloudy'",
+      "headline": "Your night guard is hiding this.",
+      "prompt": "Extreme macro photo of a used clear night guard, yellowed and cloudy, with a magnified circular inset showing a scary microscopic view of bacterial biofilm (green-grey rod and sphere shapes). Bold white headline over a dark top band: \"Your night guard is hiding this.\" Bottom band in white with the DentalPULSE Pod from the reference photo and navy text: \"Eliminates 99.9% of bacteria. 5 minutes. Tap water.\""
+    },
+    {
+      "id": "C42_16_aligner_clean_girl",
+      "persona": "aligner",
+      "colorway": "travel_pod",
+      "group": "netnew",
+      "angle": "Clean-girl routine callout for aligners",
+      "based_on": "Zima 'The clean girl routine isn't clean if your aligners aren't' (18d)",
+      "headline": "Your routine isn't clean if your aligners aren't.",
+      "prompt": "Aesthetic vanity flat-lay on a soft pink-beige marble surface: a skincare serum, a jade roller, a claw clip, a pink stanley-style tumbler, a lip gloss, and in the center the DentalPULSE Travel Pod from the reference photo open with a crystal-clear aligner inside. Elegant serif headline at top in deep navy: \"Your routine isn't clean if your aligners aren't.\" Small sans line under it: \"99.9% of bacteria, gone in 5 minutes.\""
+    },
+    {
+      "id": "C42_17_aligner_dont_cup",
+      "persona": "aligner",
+      "colorway": "pod_open",
+      "group": "netnew",
+      "angle": "Soaking your aligners in a cup isn't cutting it",
+      "based_on": "Zima copy 'Soaking your aligners in a cup isn't cutting it' and 'Does this look silly? So is brushing your retainers'; Invisalign before/after split format",
+      "headline": "Soaking in a cup isn't cutting it.",
+      "prompt": "Split image with a blue bar at the bottom of each half like Invisalign's before/after style. Left half: a clear aligner sitting in a glass of cloudy water with a fizzing tablet, bar label \"before\". Right half: the open DentalPULSE Pod from the reference photo with a crystal-clear aligner on its lid, bar label \"after\". Headline across the top on white in bold navy: \"Soaking in a cup isn't cutting it.\""
+    },
+    {
+      "id": "C42_18_retainer_x_post",
+      "persona": "retainer",
+      "colorway": "pod",
+      "group": "netnew",
+      "format": "x_post",
+      "angle": "X post: the retainer smell confession",
+      "based_on": "Survey 'no more smell', 'retainer clear not milky'; native X format",
+      "headline": "the smell of my retainer was a personality trait",
+      "prompt": "An X post from display name \"jess\" with handle \"@jessfromthegym\". Post text: \"the smell of my retainer used to be a personality trait.\n\n5 min in an ultrasonic pod with tap water and it's clear and smells like nothing. why did nobody tell me 99.9% of bacteria was an option\". Attached photo with rounded corners: the DentalPULSE Pod from the reference photo on a bathroom counter with a clear retainer resting in front. Engagement row: 64 replies, 512 reposts, 8.9K likes."
+    },
+    {
+      "id": "C42_19_retainer_price_math",
+      "persona": "retainer",
+      "colorway": "pod",
+      "group": "netnew",
+      "angle": "Price challenge: replacement retainer vs the Pod",
+      "based_on": "Hismile price-challenge headline ('try find a better toothbrush for only $24.99'); Invisalign FSA/HSA money angle",
+      "headline": "A new retainer: $300. Keeping this one clean: $99.95.",
+      "prompt": "Bold bright price-math ad on white with a yellow highlight bar. Line 1 in bold black: \"New retainer: $300\" with the $300 struck through in red. Line 2 in bold DentalPULSE blue: \"Keeping yours like new: $99.95\". Below: the DentalPULSE Pod from the reference photo with a crystal-clear retainer leaning against it. Small footer: \"Tap water. 5 minutes. 99.9% of bacteria gone.\""
+    },
+    {
+      "id": "C42_20_retainer_trustpilot_stack",
+      "persona": "retainer",
+      "colorway": "pod_open",
+      "group": "netnew",
+      "format": "trustpilot",
+      "angle": "Review card stack for retainers and aligners",
+      "based_on": "LIVFRESH review-quote card over product (7d); survey retainer/aligner quotes",
+      "headline": "Clear again. No smell. No tablets.",
+      "prompt": "Two overlapping Trustpilot-style review cards on a soft pale blue background. Card 1, reviewer \"Megan S.\", title \"Clear, not milky\", text \"Retainer clear, not milky. Clean, clear and odor free.\" Card 2, reviewer \"Chris T.\", title \"No more white film\", text \"Always saw a film left on my aligners even after brushing. No more smell, and they're clean as if I just got them.\" Below the cards, the open DentalPULSE Pod from the reference photo with a clear retainer, and the line \"Rated 4.8/5\" with five green star tiles."
+    }
+  ]
+}

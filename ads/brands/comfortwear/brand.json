@@ -1,0 +1,253 @@
+{
+  "name": "Comfort Wear",
+  "product": "Ortho Stretch Cushion Shoe",
+  "price": "$59.95 (was $90)",
+  "palette": "white / soft lavender backgrounds, Comfort Wear purple (#7A2FE0) for headlines and pills, black body text",
+  "font_style": "bold geometric sans-serif headlines (like Poppins/Montserrat ExtraBold), clean sans body text",
+  "website": "comfortorthowear.com",
+  "prompt_rules": [
+    "The shoe MUST be the exact shoe in the attached studio reference photo, unchanged: same colors, stretch-knit sock-style upper with pull tab, grid-of-small-squares pattern on the side panel, elastic bungee laces with a round toggle, double-chevron logo on the inner collar, chunky rocker midsole with a wavy side profile, lug outsole. Keep its proportions and every detail; only change its angle, lighting and setting as the layout requires. Do not invent a different shoe, logo or sole.",
+    "This is a women's shoe: the person wearing it is always a woman (women's proportions and styling). Men may appear only as gift-givers or in the background, never wearing the shoe.",
+    "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
+    "Add nothing the description doesn't ask for: no extra feature lists, icon callouts, price tags, badges, panels or captions. Never show other brands' logos or products; competitors appear as text names only.",
+    "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
+  ],
+  "claims_to_avoid": [
+    "money-back guarantee, free/easy returns or fast shipping (top complaints in reviews and the survey)",
+    "'orthopedic approved', 'podiatrist recommended', 'doctor recommended' or any cure/treatment claim",
+    "specific review counts or star ratings unless confirmed"
+  ],
+  "colorways": {
+    "black_purple": {
+      "file": "reference/shoe_black_purple.png",
+      "label": "black with purple accents"
+    },
+    "all_black": {
+      "file": "reference/shoe_all_black.png",
+      "label": "all black (black upper, black midsole)"
+    },
+    "black_white": {
+      "file": "reference/shoe_black_white.png",
+      "label": "black with white accents (team name: BlackWhite)"
+    },
+    "navy_blue": {
+      "file": "reference/shoe_navy_blue.png",
+      "label": "navy with bright blue accents (team name: WhiteBlue/BlueWhite)"
+    },
+    "red_burgundy": {
+      "file": "reference/shoe_red_burgundy.png",
+      "label": "burgundy red"
+    },
+    "black_mint": {
+      "file": "reference/shoe_black_mint.png",
+      "label": "black with mint accents"
+    },
+    "purple": {
+      "file": "reference/shoe_purple.png",
+      "label": "purple with white accents"
+    },
+    "light_grey": {
+      "file": "reference/shoe_light_grey.png",
+      "label": "light grey"
+    },
+    "grey_pink": {
+      "file": "reference/shoe_grey_pink.png",
+      "label": "grey with pink accents"
+    }
+  },
+  "personas": {
+    "nurse": {
+      "name": "Hospital nurse on 12-hour shifts",
+      "source": "Biggest historical winners; 12% of survey jobs; PF 27%, 'just comfort' 26%",
+      "colorways": [
+        "black_purple",
+        "all_black",
+        "black_white",
+        "navy_blue"
+      ]
+    },
+    "cna_caregiver": {
+      "name": "CNA / home health aide / caregiver",
+      "source": "Survey n=380; 30% 'no pain, just comfort'; long shifts, lifting, low pay so price matters",
+      "colorways": [
+        "black_purple",
+        "all_black",
+        "black_white",
+        "navy_blue"
+      ]
+    },
+    "restaurant": {
+      "name": "Server, line cook, bartender (doubles, wet floors)",
+      "source": "Survey n=1,055, mostly under 50; r/Serverlife: 'cheap shoes kill your ankles, knees & back', Hoka Bondi SR too pricey",
+      "colorways": [
+        "all_black",
+        "black_white",
+        "black_purple",
+        "navy_blue"
+      ]
+    },
+    "retail_warehouse": {
+      "name": "Cashier, retail, warehouse/factory on concrete",
+      "source": "Survey n=1,377; PF 27–33%; databank 'cashiers on concrete'",
+      "colorways": [
+        "all_black",
+        "navy_blue",
+        "black_mint",
+        "black_white",
+        "light_grey"
+      ]
+    },
+    "housekeeping": {
+      "name": "Housekeeping, cleaning, janitorial",
+      "source": "Survey n=375; highest PF share (35%); strong overlap with Spanish-speaking workers",
+      "colorways": [
+        "all_black",
+        "black_purple",
+        "navy_blue",
+        "black_mint"
+      ]
+    },
+    "teacher": {
+      "name": "Teacher / paraprofessional",
+      "source": "Survey n=775, 29% PF; forums: 'comfortable or cute, hardly ever both'",
+      "colorways": [
+        "navy_blue",
+        "red_burgundy",
+        "all_black",
+        "black_purple"
+      ],
+      "test_colorways": [
+        "purple",
+        "grey_pink",
+        "black_mint"
+      ]
+    },
+    "stylist": {
+      "name": "Hairstylist / salon / beauty",
+      "source": "Survey n=152; 'on my feet all day'; style-conscious",
+      "colorways": [
+        "black_mint",
+        "purple",
+        "grey_pink",
+        "black_white"
+      ]
+    },
+    "active_retiree": {
+      "name": "Active retiree, 65+ (walks, grandkids, errands)",
+      "source": "Survey: largest job group (27%), 47% aged 65+; 24% 'just comfort', neuropathy 14%",
+      "colorways": [
+        "light_grey",
+        "grey_pink",
+        "purple",
+        "navy_blue",
+        "red_burgundy"
+      ]
+    },
+    "steady_feet": {
+      "name": "Older adult worried about balance, swelling or neuropathy",
+      "source": "Survey neuropathy 10%; Mayo Clinic Connect: slip-ons that 'accommodate daily foot swelling', grip soles, side support",
+      "colorways": [
+        "light_grey",
+        "navy_blue",
+        "grey_pink"
+      ]
+    },
+    "traveler": {
+      "name": "Traveler (Disney, Europe, cruises, 20k-step days)",
+      "source": "Kyro 293/369 travel videos ($58k, 2.15 ROAS); team statics 'Paris/Barcelona 50 steps'",
+      "colorways": [
+        "black_white",
+        "navy_blue",
+        "red_burgundy",
+        "black_mint"
+      ]
+    },
+    "walker_weightloss": {
+      "name": "New walker / weight-loss journey (incl. GLP-1)",
+      "source": "Winner 'I lost 50lbs+ after walking 20,000 steps' ($93k); team GLP-1 statics; rapid weight loss thins the foot's fat pad",
+      "colorways": [
+        "purple",
+        "black_mint",
+        "grey_pink",
+        "navy_blue"
+      ]
+    },
+    "comfort_only": {
+      "name": "No diagnosis, just wants comfortable everyday shoes",
+      "source": "Survey: 22% 'No foot pain, only need for comfort'; 71% shop for 'comfort'",
+      "colorways": "any"
+    },
+    "gift_for_her": {
+      "name": "Gift buyer for mom, grandma or wife",
+      "source": "Own knowledge: comfort-shoe gifting (Mother's/Father's Day, holidays); parents 65+ are the core wearer",
+      "colorways": [
+        "grey_pink",
+        "light_grey",
+        "purple"
+      ]
+    }
+  },
+  "language_rules": {
+    "es": "All on-image text is in Spanish exactly as written in quotes, as a Spanish-speaking person living in the USA would say it (neutral US Latino, Mexican-leaning, using 'tú'). Keep every accent and sign: á é í ó ú ñ ¿ ¡. Numbers in US format (12,000 not 12.000; $59.95). Do not translate brand names. Use only the Spanish text given in quotes: do not add feature lists, icons with captions, price tags, badges or extra panels."
+  },
+  "audience": "Women only: the product is a women's shoe. Whoever wears the shoe in an ad is always a woman; men may appear only as gift-givers or background people, never wearing the product.",
+  "drive_folder_id": "1EAtch1T-oTW95VSiIYYP38mCjmSHEvZh",
+  "asana": {
+    "project_id": "1203476664398273",
+    "project_name": "ComfortWear - Image Ads Process",
+    "assignee_id": "1203266387321130",
+    "assignee_name": "Samir Patel",
+    "section_id": "1203476664398279",
+    "section_name": "Review",
+    "enabled": false,
+    "note": "Disabled 2026-10-11: user gets a Slack DM instead."
+  },
+  "slack": {
+    "notify_channel_id": "U04PZNV9FV0",
+    "notify_name": "Samir (DM)"
+  },
+  "format_guides": {
+    "fb_comment": "Render the testimonial as a real Facebook mobile comment thread, pixel-faithful to the current Facebook app: light grey rounded comment bubble on white, small round profile photo on the left (realistic woman matching the persona), commenter name in bold dark text (first name + last initial), comment text in Facebook's system sans font at normal comment size, a grey row under the bubble reading like \"2d   Like   Reply\", and a small overlapping reaction pill (like/love icons + a count) at the bubble's lower right. Optionally 2–3 stacked comments with replies indented. Plain, native, not designed; no Facebook logo.",
+    "trustpilot": "Render the testimonial as a real Trustpilot review card, faithful to Trustpilot's current design: white card with thin light-grey border, reviewer row with a small round initials avatar, reviewer first name + last initial and country code, a row of five green square star tiles with white stars (Trustpilot green #00B67A), a short bold review title, the review text in a clean sans font, and a small grey date. Show individual review cards only: no Trustpilot logo, no TrustScore, no overall rating or review count, no 'Verified' badge.",
+    "x_post": "Render as a real X (formerly Twitter) post screenshot, faithful to the current X app in light mode: white background, round profile photo top-left, display name in bold black, then grey @handle and \"· 3h\", the post text in X's Chirp-like sans at native size (black, left-aligned, no quotation marks), optionally an attached photo with rounded corners, then a grey engagement row with the reply, repost, like and view icons and small counts, all in X's thin grey icon style. No blue verification checkmark, no X logo, no 'Twitter' bird. It must read as a genuine X post, not a designed graphic.",
+    "cartoon_3d": "Render as a still frame from a modern 3D animated feature film: soft global illumination, rounded appealing character designs with expressive eyes, rich but tasteful color, cinematic depth of field, subsurface skin shading. Characters look stylized-cute, not realistic.",
+    "comic_strip": "Render as a modern webcomic strip: 3 or 4 panels with thin black borders and white gutters, clean confident ink outlines, flat colors with light shading, round speech bubbles containing exactly the quoted lines, simple expressive characters. Panel order reads left to right, top to bottom.",
+    "flat_illustration": "Render as a modern flat vector editorial illustration: simple geometric characters with minimal facial features, a limited 4–5 color palette from the brand colors, soft subtle grain texture, generous negative space, clean sans-serif type.",
+    "claymation": "Render as a stop-motion claymation still: characters and props sculpted from plasticine with visible fingerprint texture and slightly imperfect edges, handmade miniature set, warm soft studio lighting, shallow depth of field.",
+    "retro_cartoon": "Render as a 1930s rubber-hose cartoon still: black-and-white or sepia ink with one accent color, bendy limbs, pie-cut eyes, white gloves, wobbly hand-inked lines, vintage film grain and vignette, old-timey title card lettering.",
+    "anime_soft": "Render as a frame from a soft hand-painted anime film: lush painterly backgrounds, gentle watercolor light, clean line art for characters, warm nostalgic mood."
+  },
+  "format_guides_note": "Testimonial/review ads use fb_comment or trustpilot; tweet-style ads use x_post. Cartoon/animation formats (user rule, Oct 11: use them, both brands): cartoon_3d, comic_strip, flat_illustration, claymation, retro_cartoon, anime_soft. Aim for ~15–20% of every batch.",
+  "atria_account": "WearOrtho",
+  "program": {
+    "schedule": "Tue + Fri 5:50am America/New_York (routine 'Comfort Wear weekly statics', trig_01UPZqhi5EjEjs2g3yMjMd2F)",
+    "iteration_batch": {
+      "weekday": "Tuesday",
+      "size": 20,
+      "spanish": 6
+    },
+    "netnew_batch": {
+      "weekday": "Friday",
+      "size": 40,
+      "net_new": 32,
+      "winning": 8,
+      "spanish": 12
+    },
+    "winning_personas": [
+      "nurse",
+      "cna_caregiver"
+    ],
+    "grow_personas": [
+      "housekeeping",
+      "gift_for_her",
+      "walker_weightloss"
+    ],
+    "iterate_when": {
+      "days": 30,
+      "min_spend": 300,
+      "min_roas": 1.8
+    },
+    "roas_note": "ROAS is unreliable Feb–Dec 2025 (tracking break): rank older ads by spend."
+  },
+  "colorway_template": "The shoe is the {label} colorway shown in the reference photo."
+}
