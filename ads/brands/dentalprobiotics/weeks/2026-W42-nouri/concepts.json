@@ -1,0 +1,119 @@
+{
+  "batch": "2026-W42-nouri",
+  "brand": "dentalprobiotics",
+  "note": "NOURI's 10 longest-running non-offer image formats, rebuilt for DentalPULSE as top-of-funnel statics. Mouth + gut (no liver, per brief), no invented customer counts, white capsules, no price/scarcity.",
+  "concepts": [
+    {
+      "id": "N42_01_mouthwash_fixes_it_strike",
+      "group": "competitor",
+      "persona": "mouthwash_dependent",
+      "lang": "en",
+      "colorway": "jar_capsules",
+      "angle": "Clean pack shot + benefit icons, struck-through myth headline",
+      "based_on": "NOURI n00–n03 'Bad breath, not anymore' / 'Bad breath, mouthwash fixes it' (171d, longest-running)",
+      "headline": "BAD BREATH, MOUTHWASH FIXES IT (struck through)",
+      "prompt": "Clean e-commerce ad on a pure white background. Top line in small grey text with a tiny blue caduceus icon: \"Doctor Recommended · 3rd Party Lab Tested in USA\". Big bold black headline on two lines: \"BAD BREATH,\" and below it \"MOUTHWASH FIXES IT\" with a thick red line striking through the second line. Under it in small dark text: \"A daily oral probiotic that works on both sources of bad breath: the mouth and the gut.\" Below, the DentalPULSE jar large on the left with two white capsules in front and a soft shadow. On the right, a column of three small icons with short labels: a gold money-bag icon \"90-Day Money-Back Guarantee\", a blue tooth icon \"BLIS K12 for the mouth\", a pink stomach icon \"Gut support inside\"."
+    },
+    {
+      "id": "N42_02_stopped_clearing_rooms",
+      "group": "competitor",
+      "persona": "social_signal",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "First-person confession tile, solid brand color",
+      "based_on": "NOURI n04 'I stopped clearing entire rooms when my mouth was closed' (167d)",
+      "headline": "I STOPPED CLEARING ENTIRE ROOMS",
+      "prompt": "Square-feeling brand tile with a solid deep royal-blue (#1E5FE0) background and a soft lighter-blue radial glow in the center. Top: huge bold white caps headline \"I STOPPED CLEARING ENTIRE ROOMS\" and under it in lighter white \"when my mouth was closed.\" Center: the DentalPULSE jar standing on a round pale-blue pedestal, studio lit. Bottom in white: \"It wasn't my teeth.\" then bold white: \"It was the bacteria in my mouth and gut.\""
+    },
+    {
+      "id": "N42_03_not_just_your_mouth",
+      "group": "competitor",
+      "persona": "gut_convinced",
+      "lang": "en",
+      "colorway": "jar_capsules",
+      "angle": "Warm lifestyle pack shot + highlighted headline + 3 icon row",
+      "based_on": "NOURI n05–n08 'It's not just your mouth. Bad breath can start deeper in your gut.' (164d)",
+      "headline": "IT'S NOT JUST YOUR MOUTH.",
+      "prompt": "Warm premium lifestyle product photo: the DentalPULSE jar on a light oak table in soft morning sunlight with leafy plant shadows on a beige wall behind, two white capsules lying beside the jar. Top: small grey line \"Doctor Recommended\" with a tiny caduceus. Big headline in black: \"IT'S NOT JUST\" and on the next line \"YOUR MOUTH.\" in white bold letters on a solid royal-blue highlight box. Sub-line in dark text: \"Bad breath can start deeper, in your gut.\" Bottom row of three thin-line round icons with labels: a tooth \"Mouth: BLIS K12\", a stomach \"Gut: 4 digestive botanicals\", a sparkle \"Fresher for longer\"."
+    },
+    {
+      "id": "N42_04_one_capsule_inside_review",
+      "group": "competitor",
+      "persona": "does_everything_right",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Dark tile: headline + embedded social review card + product + soft CTA button",
+      "based_on": "NOURI n11 'Here's what NOURI does inside your body' with review card (74d)",
+      "headline": "WHAT ONE CAPSULE A DAY DID FOR MY CONFIDENCE",
+      "prompt": "Dark navy (#0B1F3A) background with a subtle blue glow and fresh mint leaves in the lower left. Top left: bold white caps headline \"WHAT ONE CAPSULE A DAY DID FOR MY CONFIDENCE\". Below it a dark-mode social comment card with a small round profile photo of a woman, name \"Danielle R.\" and text: \"After my second week, the constant worry about my breath just stopped. I talk close to people again without holding back.\" with a small reaction count \"3.2K\". To the right, the DentalPULSE jar, overlapping the card edge, lit with a blue rim light. Below in white: \"1 capsule a day for fresh, confident breath.\" A white rounded button: \"SEE HOW IT WORKS\"."
+    },
+    {
+      "id": "N42_05_daily_timeline_orbit",
+      "group": "competitor",
+      "persona": "skeptic",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Timeline orbit: product in center, 4 week-by-week bubbles",
+      "based_on": "NOURI n12 'What happens when you take NOURI daily' (72d)",
+      "headline": "WHAT HAPPENS WHEN YOU TAKE IT DAILY",
+      "prompt": "Deep royal-blue to navy gradient background with soft floating light bokeh dots. Top: bold white caps headline \"WHAT HAPPENS WHEN YOU TAKE IT DAILY\" with the word \"HAPPENS\" in a white box with blue letters. Center: the DentalPULSE jar, with a thin glowing white circular orbit ring around it. Four round white bubbles sit on the ring, each with a bold small title and one line: top-left \"WEEK 1\" \"Fresher mornings\", top-right \"WEEKS 2–3\" \"Freshness lasts longer\", bottom-left \"WEEKS 4–6\" \"Confidence up close\", bottom-right \"WEEK 8\" \"You stop checking\". Tiny light text at the bottom: \"Typical experience from reviews. Individual results vary.\""
+    },
+    {
+      "id": "N42_06_glass_body_cant_reach",
+      "group": "competitor",
+      "persona": "gut_convinced",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Transparent glass body showing the inside source, product beside",
+      "based_on": "NOURI n15/n21/n22/n25 transparent torso 'Mouthwash can't reach all of this' (17–30d)",
+      "headline": "\"MOUTHWASH CAN'T REACH ALL OF THIS.\"",
+      "prompt": "Bright soft sky-blue background. A sleek transparent glass mannequin torso (neutral, smooth, no clothing details, no nipples, tasteful like a museum anatomy model) with a softly glowing stylized digestive system inside and a faint greenish haze rising up through the throat toward the mouth. The DentalPULSE jar stands beside the torso on the right, larger and in front. Bottom: big bold navy serif-like headline in quotes: \"MOUTHWASH CAN'T REACH ALL OF THIS.\" with \"ALL OF THIS\" underlined in red. Sub-line: \"Go beyond masking. Support mouth + gut daily.\""
+    },
+    {
+      "id": "N42_07_3d_two_sources_window",
+      "group": "competitor",
+      "persona": "gut_convinced",
+      "lang": "en",
+      "colorway": "jar_capsules",
+      "format": "cartoon_3d",
+      "angle": "3D-animated character with a cutaway window into mouth + gut",
+      "based_on": "NOURI n18/n24/n31/n32 3D cartoon woman 'One capsule supports 3 sources' (6–28d)",
+      "headline": "BAD BREATH HAS 2 SOURCES.",
+      "prompt": "Pale mint-to-sky-blue background with tiny soft clouds. A friendly 3D animated woman in her 40s with brown hair, surprised expression, hands on hips, wearing a soft blue T-shirt; on her torso a round cutaway window shows a cute cartoon mouth with a pink tongue at the top and a cute cartoon stomach and intestines below, connected by a small dotted arrow. Headline at top in heavy navy caps: \"BAD BREATH HAS 2 SOURCES.\" with \"2 SOURCES\" in royal blue. To the right in dark text: \"Mints and rinses only reach one. DentalPULSE supports mouth + gut in one daily capsule.\" A curved arrow points to the DentalPULSE jar standing on a white pedestal with two white capsules. A royal-blue pill button under it: \"SUPPORT BOTH SOURCES\"."
+    },
+    {
+      "id": "N42_08_tongue_capsule_burst",
+      "group": "competitor",
+      "persona": "white_tongue",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Dramatic macro: capsule bursting with freshness over a stylized tongue",
+      "based_on": "NOURI n19/n30 'One capsule. Total freshness.' tongue close-up (10–23d)",
+      "headline": "ONE CAPSULE. TOTAL FRESHNESS.",
+      "prompt": "Dramatic stylized 3D medical render (not a photo of a real person): a close macro view of a smooth pink stylized tongue surface, a single white capsule hovering above it, breaking open with a burst of glowing icy-blue light and sparkles; small cartoonish green odor bacteria are blasted away toward the edges, blurred. Top: bold white caps headline with a black highlight box: \"ONE CAPSULE.\" and below \"TOTAL FRESHNESS.\" Under it a small white rounded chip with a tiny image of the DentalPULSE jar and the text \"Swap the mints, gum and rinses for one daily step.\""
+    },
+    {
+      "id": "N42_09_cute_germs_flee",
+      "group": "competitor",
+      "persona": "tonsil_stone",
+      "lang": "en",
+      "colorway": "jar",
+      "format": "cartoon_3d",
+      "angle": "Cute pastel bacteria characters flee the glowing capsule",
+      "based_on": "NOURI n20/n33 'Bad breath starts inside. NOURI ends it.' cute bacteria (6–21d)",
+      "headline": "BAD BREATH STARTS DEEPER. SO DOES DENTALPULSE.",
+      "prompt": "A soft 3D animated scene inside a stylized friendly cartoon mouth: a glowing white capsule floats in the center surrounded by blue sparkles, while three cute round pastel blob bacteria characters (pink, blue, lavender) with worried little faces flee away from it toward the edges. Warm pink background of cheeks and tongue, dreamy depth of field. Bottom: big bold white caps headline with soft shadow: \"BAD BREATH STARTS DEEPER.\" and under it, white letters on a solid royal-blue box: \"SO DOES DENTALPULSE.\" Small white chip at the bottom with a tiny image of the DentalPULSE jar: \"BLIS K12 for the mouth + gut support in one capsule.\""
+    },
+    {
+      "id": "N42_10_one_problem_two_sources_stilllife",
+      "group": "competitor",
+      "persona": "skeptic",
+      "lang": "en",
+      "colorway": "jar_capsules",
+      "angle": "Premium still life with real ingredients + 3 support pills",
+      "based_on": "NOURI n34 'One problem. Three possible sources.' ingredient still life (4d, newest)",
+      "headline": "One problem. Two sources.",
+      "prompt": "Premium editorial still-life photo on a warm beige stone counter in soft window light: the DentalPULSE jar in the center, a halved artichoke and a fresh pineapple on the left, a halved papaya and a small wooden spoon of white capsules on the right, a sprig of mint. Top: elegant dark headline \"One problem. Two sources.\" and a thin line below: \"Mouth. Gut. DentalPULSE supports both.\" Bottom: three royal-blue rounded pills with white text: \"MOUTH SUPPORT\", \"GUT SUPPORT\", \"FRESH BREATH\"."
+    }
+  ]
+}
