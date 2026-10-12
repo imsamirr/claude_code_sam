@@ -1,0 +1,416 @@
+{
+  "batch": "2026-W42-launch",
+  "brand": "dentalprobiotics",
+  "note": "Launch batch for DentalPULSE Advanced Dental Probiotics: 30 statics in competitor/trending formats. Mix: 12 core bad breath, 6 mouth+gut, 6 tonsil stones/throat, 6 tests (GLP-1, aligners, gums, skeptic, after antibiotics, romance). 6 cartoon/illustrated, 3 native.",
+  "concepts": [
+    {
+      "id": "L42_01_official_apology",
+      "group": "net_new",
+      "persona": "mouthwash_dependent",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Mouthwash dependence · format: 'Official Apology Statement' letter",
+      "based_on": "Inspo pull: 'Official Apology Statement' letter ad (rising, 8d)",
+      "headline": "OFFICIAL APOLOGY STATEMENT",
+      "prompt": "A plain white page styled like a formal corporate apology letter, lots of white space, left-aligned. At the top in bold red caps: \"OFFICIAL APOLOGY STATEMENT\". Below in dark navy body text, short paragraphs: \"To the mint, gum and mouthwash companies:\" then \"We owe you an apology.\" then \"Since our customers started taking one DentalPULSE capsule a day, they buy a lot less of you.\" then \"Fewer emergency mints. Fewer gum packs before meetings. Less mouthwash in the desk drawer.\" then \"Unfortunately, this was intentional.\" then a handwritten-style signature \"With love, DentalPULSE\". In the lower right corner the DentalPULSE jar stands on the page with a soft shadow, about 30% of the canvas height."
+    },
+    {
+      "id": "L42_02_gum_offer_not_favor",
+      "group": "net_new",
+      "persona": "social_signal",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Social signal: the gum offer · photo with hard headline",
+      "based_on": "Brief core line: 'The coworker who offered you gum wasn't being polite.' + Deos 'they just step back'",
+      "headline": "The coworker who offered gum wasn't being polite.",
+      "prompt": "Realistic candid office photo: a man in his 30s at a desk holds out an open pack of plain unbranded chewing gum toward a woman colleague in her 30s; she looks down at the gum with a sudden embarrassed realization. Natural daylight, shallow depth of field. Top third: a clean white band with big bold black headline \"The coworker who offered gum wasn't being polite.\" Bottom right: the DentalPULSE jar on the desk in focus with a blue pill label beside it reading \"1 capsule a day. Fresher breath from the source.\""
+    },
+    {
+      "id": "L42_03_did_everything_right_notes",
+      "group": "net_new",
+      "persona": "does_everything_right",
+      "lang": "en",
+      "colorway": "jar_capsules",
+      "angle": "'I do everything right' · phone Notes-app checklist",
+      "based_on": "Brief CORE persona; Amazon review language 'I've tried everything'",
+      "headline": "I did everything right.",
+      "prompt": "A hand holding a modern smartphone showing the iPhone Notes app in light mode, a checklist note titled \"my breath routine\". Items with checked circles: \"brush 2x a day\", \"floss\", \"water flosser\", \"tongue scraper\", \"mouthwash 3x a day\", \"gum before meetings\", and the last item unchecked in red: \"still bad breath\". Above the phone on a soft blue background, bold navy headline \"I did everything right.\" Below the phone, the DentalPULSE jar with two white capsules and a blue line of text \"The step my routine was missing: good bacteria.\"",
+      "gif": {
+        "build": true,
+        "first_ms": 2600,
+        "frames": [
+          {
+            "edit": "Remove the DentalPULSE jar, the capsules and the blue line of text under the phone; fill with the plain soft blue background.",
+            "ms": 900
+          },
+          {
+            "edit": "Remove the last red unchecked checklist item \"still bad breath\" from the phone screen, leaving blank note space.",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "L42_04_x_post_good_morning_kiss",
+      "group": "net_new",
+      "persona": "partner",
+      "lang": "en",
+      "colorway": "jar_capsules",
+      "format": "x_post",
+      "angle": "Partner notices · native X post",
+      "based_on": "Brief: 'he kept turning away', morning breath the partner notices; Breevelle 'He started leaning in again' (173d)",
+      "headline": "he used to turn his head when I kissed him good morning",
+      "prompt": "An X post screenshot. Profile photo of a smiling woman in her early 30s, display name \"Jess M.\" and handle \"@jessmakesthings\". Post text: \"my husband used to turn his head when I kissed him good morning. I brushed, flossed, scraped, everything. 3 weeks on an oral probiotic and now HE's the one waking me up for it\" Attached photo with rounded corners: the DentalPULSE jar with two white capsules on a sunny bedside table next to a glass of water. Engagement counts: 214 replies, 1.2K reposts, 18K likes, 902K views."
+    },
+    {
+      "id": "L42_05_mouthwash_masks_minutes",
+      "group": "net_new",
+      "persona": "mouthwash_dependent",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Mouthwash masks it · big-number type",
+      "based_on": "NOURI 171d 'Why every mouthwash & mint fails'; brief alternatives table",
+      "headline": "15 MINUTES.",
+      "prompt": "Bold typographic ad on a deep royal-blue background. Giant white number \"15 MINUTES.\" filling the top half. Under it in white: \"How long mouthwash covers bad breath.\" Then a thin white line, then in mint green: \"DentalPULSE works on the bacteria that make it.\" Bottom: the DentalPULSE jar standing on a reflective surface, lit with a soft white rim light, and a small white pill under it: \"BLIS K12 · 2 Billion CFU\"."
+    },
+    {
+      "id": "L42_06_not_supposed_to_be_sterile",
+      "group": "net_new",
+      "persona": "mouthwash_dependent",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Microbiome · split before/after: sterile rinse vs rebalance",
+      "based_on": "Brief SCALE angle 'Your mouth isn't supposed to be sterile'; Burst 'Stop sterilizing' ",
+      "headline": "A mouth isn't supposed to be sterile.",
+      "prompt": "Vertical split ad. Top headline across both halves in bold navy on white: \"A mouth isn't supposed to be sterile.\" Left half on a harsh cold grey background: a generic unbranded bottle of bright green alcohol mouthwash with no logo, caption \"Kills 99.9% of bacteria. Including the good ones.\" Right half on a fresh soft-blue background with mint leaves: the DentalPULSE jar, caption \"Puts the good ones back.\" Clear thin divider line between halves. The mouthwash bottle must look clearly different from our blue jar."
+    },
+    {
+      "id": "L42_07_white_tongue_30_days",
+      "group": "net_new",
+      "persona": "white_tongue",
+      "lang": "en",
+      "colorway": "jar",
+      "format": "flat_illustration",
+      "angle": "White tongue coating · day-by-day grid (inspo 'What 30 days does')",
+      "based_on": "Inspo pull: Larineco 'What 30 days of ... does' tongue grid (8d); brief white-tongue angle",
+      "headline": "Scraping removes it. This works on why it comes back.",
+      "prompt": "Flat vector illustration ad on light blue. Headline in bold navy: \"Scraping removes it. This works on why it comes back.\" A 2x2 grid of simple friendly illustrated tongues (not photos): the first with a thick white coating, each next one cleaner and pinker, labeled with navy pills \"DAY 1\", \"DAY 7\", \"DAY 14\", \"DAY 30\". Below the grid, the DentalPULSE jar drawn in the same flat style but recognizable, beside a small tongue scraper icon and the line \"Scrape. Then rebalance.\" Tiny grey line at the bottom: \"Individual results vary.\""
+    },
+    {
+      "id": "L42_08_trustpilot_tried_everything",
+      "group": "net_new",
+      "persona": "does_everything_right",
+      "lang": "en",
+      "colorway": "jar_capsules",
+      "format": "trustpilot",
+      "angle": "Tried everything · Trustpilot review card",
+      "based_on": "Customer language: 'I've tried everything', 'what else am I supposed to do', 'my friend finally told me'",
+      "headline": "I've tried everything. This is the first thing that stuck.",
+      "prompt": "A clean soft-blue background with one large Trustpilot-style review card centered. Reviewer: initials avatar \"KD\", name \"Kayla D.\", \"US\". Five green star tiles. Bold title: \"I've tried everything. This is the first thing that stuck.\" Review text: \"Breath rinses, a tongue scraper, a water flosser, three dentist visits. My teeth were 'fine' and my breath still wasn't. Two weeks on these and my sister finally stopped handing me mints.\" Grey date \"Oct 3, 2026\". Under the card, the DentalPULSE jar with capsules and a navy line \"One capsule a day.\""
+    },
+    {
+      "id": "L42_09_wrist_test_bathroom",
+      "group": "net_new",
+      "persona": "social_signal",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Self-check ritual · the cupped-hand breath check before a meeting",
+      "based_on": "Breath Lab hook 'wrist lick test' (106d); brief buyer journey step 2 'Self-check'",
+      "headline": "If you've ever checked your breath in your hand before a meeting…",
+      "prompt": "Realistic candid office photo: a woman in her late 20s in a blazer stands in a glass-walled office hallway just before a meeting, discreetly cupping her hand over her mouth and nose to check her breath, worried expression; colleagues blurred in a meeting room behind her. Big white bold text with soft shadow at the top: \"If you've ever checked your breath in your hand before a meeting…\" and at the bottom: \"…you already know mints don't fix it.\" Bottom right corner: the DentalPULSE jar on a side table with a blue pill \"Fix the source, not the smell.\""
+    },
+    {
+      "id": "L42_10_sticky_note_face",
+      "group": "net_new",
+      "persona": "does_everything_right",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Ugly-ad · selfie with handwritten sticky note",
+      "based_on": "Deos '10 years of bad breath. Gone in one week.' sticky-note selfie (40d)",
+      "headline": "2 years of \"want some gum?\" Done.",
+      "prompt": "Raw smartphone selfie, natural indoor light, slightly imperfect framing: a cheerful man in his early 30s grins at the camera holding up the DentalPULSE jar next to his face. In his other hand a yellow sticky note with handwritten black marker: \"2 years of 'want some gum?' Done.\" No other text, no designed elements. Looks like real user-generated content."
+    },
+    {
+      "id": "L42_11_tried_everything_starter_pack",
+      "group": "net_new",
+      "persona": "does_everything_right",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Starter-pack flat-lay: the 'I've tried everything' kit",
+      "based_on": "Brief alternatives table + 'starter pack' formats in the DentalPULSE playbook",
+      "headline": "The \"I've tried everything\" starter pack",
+      "prompt": "Top-down flat-lay on a clean white surface, items neatly arranged with small black handwritten-style labels and arrows: a pack of gum \"gum before every meeting\", a tin of mints \"mint #6 today\", breath strips \"emergency strips\", an unbranded green mouthwash bottle \"3x a day\", a metal tongue scraper \"comes back by noon\", a water flosser \"$80 later…\". Headline at top in bold black: \"The \\\"I've tried everything\\\" starter pack\". At the bottom center, the DentalPULSE jar slightly larger than the rest with a blue circle around it and the label \"the one that works on the bacteria\". All other products unbranded.",
+      "gif": {
+        "build": true,
+        "first_ms": 2600,
+        "frames": [
+          {
+            "edit": "Remove the DentalPULSE jar, its blue circle and its label; fill with the plain white surface.",
+            "ms": 900
+          },
+          {
+            "edit": "Remove the water flosser and its label; fill with the plain white surface.",
+            "ms": 700
+          }
+        ]
+      }
+    },
+    {
+      "id": "L42_12_protest_sign_bacteria",
+      "group": "net_new",
+      "persona": "mouthwash_dependent",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Native street photo · protest sign",
+      "based_on": "NOBS protest-sign ad (13d)",
+      "headline": "My breath needed bacteria, not more mint.",
+      "prompt": "Realistic street photo on a city sidewalk with brick buildings, overcast daylight: a woman in her 30s in a navy coat holds up a big piece of brown cardboard with handwritten black marker: \"I brushed, flossed, scraped & rinsed for 10 years. My breath needed GOOD BACTERIA, not more mint.\" She looks determined. In the lower corner, a clean overlay of the DentalPULSE jar with a small white pill \"BLIS K12 oral probiotic\"."
+    },
+    {
+      "id": "L42_13_two_sources_mouth_gut",
+      "group": "net_new",
+      "persona": "gut_convinced",
+      "lang": "en",
+      "colorway": "jar_capsules",
+      "format": "flat_illustration",
+      "angle": "Mouth AND gut · two-source diagram",
+      "based_on": "Brief SCALE REFRAMED 'Bad breath has two sources: mouth and gut'; Deos microbiome split (40d)",
+      "headline": "Bad breath has two sources. Most fixes cover one.",
+      "prompt": "Flat vector infographic on soft white-blue. Headline in bold navy: \"Bad breath has two sources. Most fixes cover one.\" A simple side-profile silhouette of a head and torso; arrows point to two zones: the mouth/throat labeled \"MOUTH: 80–90% of cases\" with icons \"BLIS K12\" and \"Zinc\", and the stomach labeled \"GUT\" with icons \"Berberine\", \"Artichoke\", \"Bromelain\", \"Papain\". Off to the right, the DentalPULSE jar with capsules (recognizable) and the line \"One capsule covers both.\"",
+      "gif": {
+        "build": true,
+        "first_ms": 2600,
+        "frames": [
+          {
+            "edit": "Remove the GUT label and its four ingredient icons and arrow.",
+            "ms": 900
+          },
+          {
+            "edit": "Remove the MOUTH label and its two ingredient icons and arrow.",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "L42_14_dentist_said_fine_texts",
+      "group": "net_new",
+      "persona": "gut_convinced",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "'Dentist says my teeth are fine' · iMessage thread",
+      "based_on": "Brief customer language 'dentist said my teeth are fine'; Deos 'Your dentist said your teeth are fine' (29d)",
+      "headline": "My dentist says my teeth are fine. So why does my breath still smell?",
+      "prompt": "A smartphone screen showing an iMessage conversation in light mode, realistic iOS UI. Grey bubble from \"Sarah\": \"how was the dentist??\" Blue bubble: \"teeth are perfect apparently. so why does my breath still smell 😩\". Grey bubble: \"mine was the same. it was my mouth bacteria AND my gut\" Grey bubble: \"I take this probiotic now. one a day. game changer\". Under it a grey bubble with a link preview card showing the DentalPULSE jar and the title \"DentalPULSE Advanced Dental Probiotics\". Background behind the phone: soft blue. No other text."
+    },
+    {
+      "id": "L42_15_seven_ingredients_two_sources",
+      "group": "net_new",
+      "persona": "skeptic",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Ingredient breakdown · 7 ingredients, 2 sources, 1 capsule",
+      "based_on": "User image 2 (ingredient layout) pushed to a DR headline",
+      "headline": "7 ingredients. 2 sources. 1 capsule.",
+      "prompt": "Premium studio ad on pale blue. Big bold navy headline at top: \"7 ingredients. 2 sources. 1 capsule.\" The DentalPULSE jar in the center. Around it, real ingredients on small glass dishes with short labels: white capsules \"BLIS K12 · 2B CFU\" , a dish of white powder \"Zinc\", a small vial of dark green liquid \"Chlorophyllin\", a dish of yellow powder \"Berberine\", a halved artichoke \"Artichoke Leaf\", a pineapple slice \"Bromelain\", a halved papaya \"Papain\". Two small headings in blue: \"FOR THE MOUTH\" above K12, zinc and chlorophyllin on the left, \"FOR THE GUT\" above the other four on the right."
+    },
+    {
+      "id": "L42_16_mints_mouthwash_us_table",
+      "group": "net_new",
+      "persona": "gut_convinced",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Comparison table vs mints and mouthwash",
+      "based_on": "DentalPULSE playbook comparison/listicle winners; brief alternatives table",
+      "headline": "What actually works on bad breath?",
+      "prompt": "Clean comparison chart ad on white. Headline in bold navy: \"What actually works on bad breath?\" A 3-column table: column heads with small images, \"Mints\" (a generic tin), \"Mouthwash\" (generic green bottle), and \"DentalPULSE\" (the jar, highlighted in a blue column). Rows: \"Masks odor\", \"Works on odor bacteria\", \"Supports healthy gums\", \"Covers the gut side\", \"Lasts past lunch\". Mints and Mouthwash get a red X on every row except \"Masks odor\" (green check). DentalPULSE gets green checks on all rows. Bottom: \"3rd Party Lab Tested in USA\" small grey line."
+    },
+    {
+      "id": "L42_17_comic_keeps_coming_back",
+      "group": "net_new",
+      "persona": "gut_convinced",
+      "lang": "en",
+      "colorway": "jar_capsules",
+      "format": "comic_strip",
+      "angle": "Social signal → friend's advice → product → payoff · 4-panel comic",
+      "based_on": "Skill proven idea: 4-panel comic; Riverwell 4-panel tonsil comic (11d)",
+      "headline": "Nobody steps back now.",
+      "prompt": "A 4-panel webcomic. Panel 1: a woman talking to a coworker who subtly leans back; her thought bubble: \"Why does it keep coming back?\" Panel 2: at lunch, her friend says in a speech bubble: \"Mine was my mouth AND my gut.\" Panel 3: a bright morning kitchen counter with the DentalPULSE jar and two capsules next to a glass of water, caption box \"One capsule a day.\" Panel 4: the woman laughing close to the same coworker who now leans in, speech bubble \"Nobody steps back now.\""
+    },
+    {
+      "id": "L42_18_retro_old_way_new_way",
+      "group": "net_new",
+      "persona": "mouthwash_dependent",
+      "lang": "en",
+      "colorway": "jar",
+      "format": "retro_cartoon",
+      "angle": "Old way vs new way · 1930s cartoon",
+      "based_on": "Skill proven idea: 1930s 'old way' with product breaking out in color",
+      "headline": "THE OLD WAY: MASK IT. THE NEW WAY: REBALANCE IT.",
+      "prompt": "A 1930s rubber-hose cartoon in black-and-white with film grain. Top half: a bendy cartoon man with white gloves gargles from a giant bottle while green stink lines still curl out of his mouth, an old-timey title card above: \"THE OLD WAY: MASK IT.\" Bottom half: the scene bursts into modern full color; the same man smiles holding the DentalPULSE jar, drawn in full modern color and clearly recognizable, with sparkles; a title card: \"THE NEW WAY: REBALANCE IT.\""
+    },
+    {
+      "id": "L42_19_xray_46_percent",
+      "group": "net_new",
+      "persona": "tonsil_stone",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Shock stat · X-ray with red circle",
+      "based_on": "Riverwell '40% have these. Most never see them.' X-ray (11d); brief: up to 46% on CT",
+      "headline": "Up to 46% of adults have these. Most never see them.",
+      "prompt": "A dark medical X-ray of a human skull in side profile, grayscale, with a hand-drawn red circle around the tonsil area at the back of the throat showing small white specks. Top black band with bold white text: \"Up to 46% of adults have these. Most never see them.\" Small red handwritten label by the circle: \"tonsil stones\". Bottom right: the DentalPULSE jar in clean studio light against the dark, with white text \"BLIS K12 supports the bacteria that live back there.\"",
+      "gif": {
+        "build": true,
+        "first_ms": 2600,
+        "frames": [
+          {
+            "edit": "Remove the DentalPULSE jar and the white text next to it; fill with the dark X-ray background.",
+            "ms": 900
+          },
+          {
+            "edit": "Remove the red circle and the red label.",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "L42_20_behind_your_tongue",
+      "group": "net_new",
+      "persona": "tonsil_stone",
+      "lang": "en",
+      "colorway": "jar_capsules",
+      "angle": "Core tonsil line · throat cross-section",
+      "based_on": "Brief core line: 'The smell isn't coming from your teeth. It's coming from behind your tongue.'; Riverwell 'Your teeth are clean. Your throat isn't.'",
+      "headline": "The smell isn't coming from the teeth. It's behind the tongue.",
+      "prompt": "Clean medical-illustration style ad on white (illustrated, not a photo of a real throat): a soft, friendly side cross-section of the mouth and throat, the back of the tongue and tonsils gently highlighted in blue glow with tiny dots for bacteria. Big bold navy headline above: \"The smell isn't coming from the teeth.\" Second line in blue: \"It's behind the tongue.\" Bottom: the DentalPULSE jar with two capsules and a small line \"BLIS K12: the strain that lives on your tonsils and throat.\""
+    },
+    {
+      "id": "L42_21_stop_living_at_the_mirror",
+      "group": "net_new",
+      "persona": "tonsil_stone",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Tonsil digger · flat-lay of the tools",
+      "based_on": "Brief: Q-tips, irrigation syringe; 'Stop living at the bathroom mirror.'",
+      "headline": "Stop living at the bathroom mirror.",
+      "prompt": "Overhead photo on a bathroom counter by a mirror: a phone with its flashlight on, a pile of cotton swabs, a curved-tip plastic irrigation syringe, a cup of salt water, all a little messy. Big bold black headline on a white band at the top: \"Stop living at the bathroom mirror.\" On the right side of the counter, the DentalPULSE jar standing tidy and clean, with a navy pill: \"1 capsule a day for a healthier throat.\""
+    },
+    {
+      "id": "L42_22_claymation_k12_moves_in",
+      "group": "net_new",
+      "persona": "tonsil_stone",
+      "lang": "en",
+      "colorway": "jar",
+      "format": "claymation",
+      "angle": "Mechanism cartoon · K12 moves in, sulfur bugs move out",
+      "based_on": "Skill proven idea: product hero while cute germs flee; brief K12 'takes up space'",
+      "headline": "K12 moves in. The smelly ones move out.",
+      "prompt": "A claymation stop-motion scene: a cute miniature clay mouth set with a pink clay tongue and tonsils like a little landscape. Tiny friendly blue clay bacteria characters with smiles carry little moving boxes labeled \"K12\" up onto the tonsils, while grumpy green clay bacteria with stink lines leave carrying suitcases. The DentalPULSE jar stands nearby as the giant moving truck, drawn in clay but recognizable. Headline in clean white bold sans on a blue band at top: \"K12 moves in. The smelly ones move out.\""
+    },
+    {
+      "id": "L42_23_fb_comment_tonsil",
+      "group": "net_new",
+      "persona": "tonsil_stone",
+      "lang": "en",
+      "colorway": "jar",
+      "format": "fb_comment",
+      "angle": "Tonsil sufferer · Facebook comment thread",
+      "based_on": "Brief tonsil persona language: coughing one up, a bad taste, Q-tips",
+      "headline": "Finally sleeping without a weird taste in the back of my throat",
+      "prompt": "A Facebook mobile comment thread on white. Comment 1 from \"Danielle K.\" (woman, 30s): \"Ok I was skeptical. I used to dig at my tonsils with a Q-tip every week. Been on the DentalPULSE probiotic a month and the weird taste in the back of my throat is just… gone. Breath is normal in the morning now.\" with \"2d  Like  Reply\" and reaction pill \"1.4K\". Indented reply from \"Marcus T.\" (man, 40s): \"wait what. sending this to my wife\" with \"1d  Like  Reply\". Second reply from \"Danielle K.\": \"it's the K12 strain, it sits back there. one capsule a day\". Below the thread, a photo attachment of the DentalPULSE jar on a bathroom shelf."
+    },
+    {
+      "id": "L42_24_k12_four_ways",
+      "group": "net_new",
+      "persona": "skeptic",
+      "lang": "en",
+      "colorway": "jar_capsules",
+      "angle": "Mechanism tile · product + 4 callouts",
+      "based_on": "Brief spotlight: K12 takes up space, natural antibacterials, less inflammation, less odor",
+      "headline": "How BLIS K12 works where breath starts",
+      "prompt": "Premium product + callout ad on a gradient sky-blue background. Headline in bold navy: \"How BLIS K12 works where breath starts\". The DentalPULSE jar with capsules in the center. Four white rounded callout cards with thin blue icon and short text around it: \"Settles on tongue & tonsils\", \"Crowds out odor bacteria\", \"Makes natural antibacterials\", \"Lower sulfur gas readings\". Bottom: small navy pill \"2 Billion CFU · 1 capsule a day\"."
+    },
+    {
+      "id": "L42_25_glp1_nobody_warned",
+      "group": "net_new",
+      "persona": "glp1",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "GLP-1 open lane · first-person lifestyle",
+      "based_on": "Brief OPEN LANE: 11% of US adults on a GLP-1; Wellnesse GLP-1 angle",
+      "headline": "Nobody warned me about GLP-1 breath.",
+      "prompt": "Realistic bright kitchen photo: a happy woman in her 40s wearing a casual cream knit sweater and jeans, holding a glass of water, the DentalPULSE jar on the marble counter next to a small plain white unbranded weekly injection pen box (no logos). No focus on her body or weight. Big bold navy headline on top: \"Nobody warned me about GLP-1 breath.\" Sub-line: \"Sulfur burps. Dry mouth. Weird taste. My new mouth routine: 1 capsule a day.\" At the bottom, a clearly readable small dark-grey line on a white strip: \"Taking diabetes medication? Ask your doctor first (contains berberine).\""
+    },
+    {
+      "id": "L42_26_aligners_trap_more",
+      "group": "net_new",
+      "persona": "aligner",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Aligner wearer · lifestyle with tray",
+      "based_on": "Brief TEST: 'Trays trap more than your teeth'; 2026 aligner trials; Dental Pod cross-sell",
+      "headline": "Aligners trap more than food.",
+      "prompt": "Realistic close photo of a smiling woman in her late 20s snapping a clear aligner tray onto her upper teeth (anatomically realistic thin transparent full-arch tray), bathroom with soft daylight. Headline in big bold white on a blue band at the top: \"Aligners trap more than food.\" Sub-line: \"They trap odor bacteria against your teeth for 22 hours a day.\" Bottom right: the DentalPULSE jar with a white pill: \"Fresher breath, even in trays.\""
+    },
+    {
+      "id": "L42_27_hygienist_asked",
+      "group": "net_new",
+      "persona": "gum_worried",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Gum support · big quote card",
+      "based_on": "Customer language 'hygienist asked what I'm using', 'gums stopped bleeding'",
+      "headline": "\"My hygienist asked what I was using.\"",
+      "prompt": "Elegant quote-card ad on warm off-white. Huge bold navy serif-like quote: \"My hygienist asked what I was using.\" Under it in smaller dark text: \"Less bleeding when I floss, fresher breath all day. I didn't change anything else.\" and \"– Linda P., 52\". Five gold stars above the quote. The DentalPULSE jar on the right with a small sprig of mint, and a navy pill at the bottom: \"Supports healthy gums alongside your cleanings.\""
+    },
+    {
+      "id": "L42_28_real_strain_real_guarantee",
+      "group": "net_new",
+      "persona": "skeptic",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Trust / anti-scam · premium offer tile with seals",
+      "based_on": "Brief: 'Trust is the barrier… real strain names, honest claims and a long guarantee win'",
+      "headline": "Real strain. Real dose. Real guarantee.",
+      "prompt": "Premium black-background offer tile with dramatic soft blue rim lighting on the DentalPULSE jar in the center. Headline in bold white: \"Real strain. Real dose. Real guarantee.\" Around the jar three clean badges: a round seal with a small US flag reading \"3rd Party Lab Tested in USA\", a white pill with a blue caduceus icon reading \"Doctor Recommended\", and a gold-ringed round seal reading \"90-Day Money-Back Guarantee\". Under the jar a thin line: \"BLIS K12 · 2 Billion CFU · 7 ingredients on the label\".",
+      "gif": {
+        "build": true,
+        "first_ms": 2600,
+        "frames": [
+          {
+            "edit": "Remove the gold 90-Day Money-Back Guarantee seal.",
+            "ms": 800
+          },
+          {
+            "edit": "Remove the Doctor Recommended pill badge.",
+            "ms": 800
+          }
+        ]
+      }
+    },
+    {
+      "id": "L42_29_after_antibiotics_rebuild",
+      "group": "net_new",
+      "persona": "after_antibiotics",
+      "lang": "en",
+      "colorway": "jar_capsules",
+      "angle": "After antibiotics · rebuild the good bacteria",
+      "based_on": "Brief TEST: approved Health Canada K12 wording for recolonization after antibiotics",
+      "headline": "Antibiotics wipe out the good bacteria in your mouth too.",
+      "prompt": "Clean split image on white: left side, an empty unbranded orange prescription pill bottle tipped over with a few leftover white pills, muted grey tone; right side, the DentalPULSE jar with two white capsules in fresh bright blue light with mint leaves. Headline across the top in bold navy: \"Antibiotics wipe out the good bacteria in your mouth too.\" Line under the jar in blue: \"Rebuild them with BLIS K12.\" The prescription bottle must look clearly different from our blue jar."
+    },
+    {
+      "id": "L42_30_anime_good_morning_kiss",
+      "group": "net_new",
+      "persona": "partner",
+      "lang": "en",
+      "colorway": "jar",
+      "format": "anime_soft",
+      "angle": "Romance payoff · soft anime morning scene",
+      "based_on": "Breevelle 'He started leaning in again' (173d), 'The kiss he will not stop replaying' (156d)",
+      "headline": "He started kissing me good morning again.",
+      "prompt": "A soft hand-painted anime film frame: a sunlit bedroom in the morning, a young couple in bed, the man leaning in to kiss the smiling woman on the lips, warm golden light through curtains. On the bedside table, the DentalPULSE jar drawn in the same style but recognizable. Delicate white serif text at the top: \"He started kissing me good morning again.\" Small line at the bottom: \"1 capsule a day. Fresher mornings.\""
+    }
+  ]
+}

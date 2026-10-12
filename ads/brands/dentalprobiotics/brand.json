@@ -1,0 +1,212 @@
+{
+  "name": "DentalPULSE Advanced Dental Probiotics",
+  "product": "DentalPULSE Advanced Dental Probiotics: one blue jar of daily capsules (S. salivarius BLIS K12 2 Billion CFU, zinc gluconate, sodium copper chlorophyllin, berberine HCl, artichoke leaf extract 2.5% cynarin, bromelain, papain). Advertise only this jar; never show the Pod, Travel Pod, tablets or the 'Advanced Breath Support' label.",
+  "price": "not shown on ads (user Oct 12: no price on offer tiles)",
+  "audience": "Adults 25–55 with bad breath who already brush, floss, scrape and rinse; tonsil-stone sufferers; people convinced their breath comes from the gut; gum-worried adults 40+; aligner/retainer wearers; GLP-1 users; socially anxious checkers. Men and women. Not children, not pregnant women.",
+  "palette": "clean bright white and soft sky-blue gradients, DentalPULSE royal blue (#1E5FE0) for headlines and pills, dark navy (#0B1F3A) body text, mint-green leaf accents, occasional bold black or red 'warning' backgrounds for shock formats",
+  "font_style": "bold heavy sans-serif headlines (like Gilroy Black/Inter Black), clean sans body, high-contrast direct-response layouts",
+  "website": "dentalpulsepro.com",
+  "prompt_rules": [
+    "The product MUST be the exact DentalPULSE jar in the attached reference photo, unchanged: a wide cylindrical jar with a glossy royal-blue lid printed 'DentalPULSE + DentalPULSE + DentalPULSE' around its band; a blue-to-sky-blue gradient body printed in white with 'DentalPULSE', big bold 'ADVANCED' over 'DENTAL PROBIOTICS', three white circle icons (Supports Oral Health, Fresher Breath, Supports Gum Disease), a glowing translucent tooth with orbit lines and sparkles, and 'A CLEANER, FRESHER, BRIGHTER SMILE'. Keep the label exactly as on the reference; only change angle, lighting and setting. Capsules are plain smooth white two-piece capsules. Show no other DentalPULSE products.",
+    "People are adults (men and women, 25–65). Mouths, teeth, tongues and hands look natural and realistic; no gore, no real tonsil-stone close-ups (illustrated tonsils or tongues only), no vomit, no medical imagery that looks graphic.",
+    "Product facts: one capsule a day; the hero strain is Streptococcus salivarius BLIS K12 at 2 Billion CFU; 7 ingredients. Never say it cures, treats, reverses or dissolves anything (no 'cures bad breath', 'dissolves tonsil stones', 'reverses cavities', 'treats gum disease', 'treats SIBO').",
+    "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
+    "Add nothing the description doesn't ask for: no extra feature lists, icon callouts, price tags, badges, panels or captions. Never show competitor logos or branded competitor products.",
+    "High-end direct-response e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
+  ],
+  "approved_claims": [
+    "Doctor Recommended (badge with a caduceus, no named doctor)",
+    "3rd Party Lab Tested in USA (round seal with US flag)",
+    "90-Day Money-Back Guarantee / Try it risk-free for 90 days",
+    "BLIS K12, 2 Billion CFU; the 7 named ingredients",
+    "Supports fresher breath; supports healthy gums; supports a healthy oral microbiome; supports throat and tonsil health; rebalances oral bacteria",
+    "Neutralizes sulfur compounds behind bad breath (zinc)",
+    "Facts for copy: 80–90% of bad breath starts in the mouth; up to 46% of adults show tonsil stones on CT scans; 1 in 3 adults have bad breath (31.8%)",
+    "Mouthwash kills good bacteria too / masks for minutes; one capsule a day"
+  ],
+  "claims_note": "User Oct 12: aggressive direct-response copy. Approved: Doctor Recommended, 3rd Party Lab Tested in USA, 90-day guarantee, strain + CFU + ingredients. No price on ads. Stay inside structure/function wording (brief guardrails).",
+  "claims_to_avoid": [
+    "price, discounts, strike-through prices, free shipping",
+    "invented counts: customers, reviews, 'X dentists', star rating averages; press logos, awards",
+    "named doctors, hygienists or experts (no invented people with credentials)",
+    "cures/treats/reverses/dissolves; 'no more tonsil stones'; 'replaces surgery'; liver-breath claims; fluoride conspiracy; SIBO/H. pylori treatment",
+    "Meta personal-attribute phrasing that says the viewer has a condition ('Do you have bad breath?', 'Are you on Ozempic?'): use first-person, third-person or product framing",
+    "naming competitors (NOURI etc.) or showing their branded products"
+  ],
+  "colorways": {
+    "jar": {
+      "file": "reference/jar.png",
+      "label": "DentalPULSE Advanced Dental Probiotics jar (blue)"
+    },
+    "jar_capsules": {
+      "file": "reference/jar_capsules.png",
+      "label": "DentalPULSE Advanced Dental Probiotics jar (blue) with two white capsules"
+    }
+  },
+  "colorway_template": "The product is the {label} shown in the reference photo.",
+  "personas": {
+    "does_everything_right": {
+      "name": "'I do everything right' sufferer, 25–55, brushes/flosses/scrapes/rinses and still has bad breath",
+      "source": "brief: CORE persona; 45% of 585 Amazon reviews mention bad breath; 'I've tried everything'",
+      "colorways": "any"
+    },
+    "gut_convinced": {
+      "name": "Gut-convinced chronic sufferer ('poop breath', reflux, has seen dentist/ENT/GI)",
+      "source": "brief: SCALE, CAREFULLY; NOURI/DEOS gut-breath wave; reframe 'mouth and gut, both'",
+      "colorways": "any"
+    },
+    "tonsil_stone": {
+      "name": "Tonsil stone digger (Q-tips, flashlight, irrigation syringe)",
+      "source": "brief: SCALE; #tonsilstones 98M plays; 16% of reviews",
+      "colorways": "any"
+    },
+    "social_signal": {
+      "name": "Socially anxious checker: daters, office workers; the gum offer, the step back",
+      "source": "brief: HOOK AUDIENCE; most-liked theme 'someone else notices first'",
+      "colorways": "any"
+    },
+    "partner": {
+      "name": "Partner/spouse who notices (and the person who gets told)",
+      "source": "brief: 'he kept turning away', morning breath the partner notices",
+      "colorways": "any"
+    },
+    "gum_worried": {
+      "name": "Gum-worried adult 40+, bleeding when flossing, hygienist warning",
+      "source": "brief: SUPPORT ROLE; 28% of reviews; 'supports healthy gums alongside cleanings'",
+      "colorways": "any"
+    },
+    "mouthwash_dependent": {
+      "name": "Mouthwash-dependent: rinses 3x a day, gum before every meeting",
+      "source": "brief: SCALE; 9% of reviews; 'your mouth isn't supposed to be sterile'",
+      "colorways": "any"
+    },
+    "white_tongue": {
+      "name": "White-tongue scraper whose coating comes back",
+      "source": "brief: SCALE; main cause of odor",
+      "colorways": "any"
+    },
+    "glp1": {
+      "name": "GLP-1 user: 'Ozempic breath', sulfur burps, dry mouth",
+      "source": "brief: OPEN LANE (TEST); only Wellnesse running it",
+      "colorways": "any"
+    },
+    "aligner": {
+      "name": "Aligner and retainer wearer, mouth never feels clean in trays",
+      "source": "brief: TEST; Dental Pod cross-sell; 2026 trials",
+      "colorways": "any"
+    },
+    "after_antibiotics": {
+      "name": "Rebuilding the mouth after antibiotics",
+      "source": "brief: TEST; approved Health Canada K12 wording",
+      "colorways": "any"
+    },
+    "skeptic": {
+      "name": "Scam-weary skeptic who wants strain names, lab tests and a guarantee",
+      "source": "brief: 'too many scams out there'; trust is the barrier",
+      "colorways": "any"
+    }
+  },
+  "language_rules": {},
+  "atria_account": "Dentalpulse",
+  "inspo_queries": [
+    "bad breath",
+    "halitosis",
+    "oral probiotic",
+    "dental probiotic",
+    "tonsil stones",
+    "gum health",
+    "bleeding gums",
+    "fresh breath",
+    "dry mouth",
+    "oral microbiome",
+    "breath freshener",
+    "gut health supplement"
+  ],
+  "competitor_brands": [
+    "NOURI",
+    "Breath Lab",
+    "BURST Oral Care",
+    "Breevelle",
+    "DEOS",
+    "Riverwell",
+    "Orgatics",
+    "HealRay",
+    "NOBS",
+    "Wellnesse",
+    "SuperTeeth",
+    "LIVFRESH",
+    "Cool Breath",
+    "TheraBreath",
+    "BioGaia",
+    "ProBiora",
+    "Bristle",
+    "Hyperbiotics"
+  ],
+  "old_methods": {
+    "note": "The enemy is the old routine; generic products may be shown unbranded. TheraBreath/Listerine are not named.",
+    "methods": [
+      "mouthwash (alcohol rinse)",
+      "gum",
+      "mints",
+      "breath strips",
+      "tongue scraper",
+      "water flosser",
+      "Q-tips / irrigation syringe for tonsil stones",
+      "zinc toothpaste",
+      "oil pulling",
+      "probiotic yogurt"
+    ]
+  },
+  "program": {
+    "schedule": "not scheduled yet",
+    "iteration_batch": {
+      "weekday": "Tuesday",
+      "size": 20,
+      "spanish": 0
+    },
+    "netnew_batch": {
+      "weekday": "Friday",
+      "size": 40,
+      "net_new": 32,
+      "winning": 8,
+      "spanish": 0
+    },
+    "winning_personas": [
+      "does_everything_right",
+      "social_signal"
+    ],
+    "grow_personas": [
+      "tonsil_stone",
+      "gut_convinced",
+      "mouthwash_dependent",
+      "white_tongue",
+      "glp1",
+      "aligner",
+      "gum_worried"
+    ],
+    "mix": "Per brief scale angles: ~40% core bad breath (does everything right, social signal, partner, mouthwash, white tongue), ~20% mouth+gut, ~20% tonsil stones/throat, ~20% tests (gums, GLP-1, aligners, after antibiotics, skeptic).",
+    "iterate_when": {
+      "days": 30,
+      "min_spend": 300,
+      "min_roas": 1.8
+    },
+    "offer": "No price. Use 'Doctor Recommended', '3rd Party Lab Tested in USA' and '90-Day Money-Back Guarantee' on offer/trust tiles."
+  },
+  "drive_folder_id": "1czcREwJ7CCml8-ZrrezzypAD9GLnwcxV",
+  "slack": {
+    "notify_channel_id": "U04PZNV9FV0",
+    "notify_name": "Samir (DM)"
+  },
+  "format_guides": {
+    "fb_comment": "Render the testimonial as a real Facebook mobile comment thread, pixel-faithful to the current Facebook app: light grey rounded comment bubble on white, small round profile photo on the left (realistic person matching the persona), commenter name in bold dark text (first name + last initial), comment text in Facebook's system sans font at normal comment size, a grey row under the bubble reading like \"2d   Like   Reply\", and a small overlapping reaction pill (like/love icons + a count) at the bubble's lower right. Optionally 2–3 stacked comments with replies indented. Plain, native, not designed; no Facebook logo.",
+    "trustpilot": "Render the testimonial as a real Trustpilot review card, faithful to Trustpilot's current design: white card with thin light-grey border, reviewer row with a small round initials avatar, reviewer first name + last initial and country code, a row of five green square star tiles with white stars (Trustpilot green #00B67A), a short bold review title, the review text in a clean sans font, and a small grey date. Show individual review cards only: no Trustpilot logo, no TrustScore, no overall rating or review count, no 'Verified' badge.",
+    "x_post": "Render as a real X (formerly Twitter) post screenshot, faithful to the current X app in light mode: white background, round profile photo top-left, display name in bold black, then grey @handle and \"· 3h\", the post text in X's Chirp-like sans at native size (black, left-aligned, no quotation marks), optionally an attached photo with rounded corners, then a grey engagement row with the reply, repost, like and view icons and small counts, all in X's thin grey icon style. No blue verification checkmark, no X logo, no 'Twitter' bird. It must read as a genuine X post, not a designed graphic.",
+    "cartoon_3d": "Render as a still frame from a modern 3D animated feature film: soft global illumination, rounded appealing character designs with expressive eyes, rich but tasteful color, cinematic depth of field, subsurface skin shading. Characters look stylized-cute, not realistic.",
+    "comic_strip": "Render as a modern webcomic strip: 3 or 4 panels with thin black borders and white gutters, clean confident ink outlines, flat colors with light shading, round speech bubbles containing exactly the quoted lines, simple expressive characters. Panel order reads left to right, top to bottom.",
+    "flat_illustration": "Render as a modern flat vector editorial illustration: simple geometric characters with minimal facial features, a limited 4–5 color palette from the brand colors, soft subtle grain texture, generous negative space, clean sans-serif type.",
+    "claymation": "Render as a stop-motion claymation still: characters and props sculpted from plasticine with visible fingerprint texture and slightly imperfect edges, handmade miniature set, warm soft studio lighting, shallow depth of field.",
+    "retro_cartoon": "Render as a 1930s rubber-hose cartoon still: black-and-white or sepia ink with one accent color, bendy limbs, pie-cut eyes, white gloves, wobbly hand-inked lines, vintage film grain and vignette, old-timey title card lettering.",
+    "anime_soft": "Render as a frame from a soft hand-painted anime film: lush painterly backgrounds, gentle watercolor light, clean line art for characters, warm nostalgic mood."
+  },
+  "format_guides_note": "Testimonial/review ads use fb_comment or trustpilot; tweet-style ads use x_post. Cartoon/animation formats (user rule, Oct 11: use them, both brands): cartoon_3d, comic_strip, flat_illustration, claymation, retro_cartoon, anime_soft. Aim for ~15–20% of every batch."
+}
