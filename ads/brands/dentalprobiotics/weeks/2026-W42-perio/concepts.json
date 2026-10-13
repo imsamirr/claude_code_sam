@@ -114,6 +114,62 @@
       "based_on": "Perio brief hook 'Gum in the car, mint at the table, brushing in the bathroom. And I was still scared of the goodnight kiss.'",
       "headline": "Now I lean in first.",
       "prompt": "A 4-panel webcomic about a woman in her 30s dating. Panel 1: in her car before a date, chewing gum nervously, caption \"Gum in the car.\" Panel 2: in a restaurant bathroom secretly brushing her teeth, caption \"Brushing in the bathroom.\" Panel 3: morning at home taking a capsule with water, the DentalPULSE jar on the counter, caption \"Then I started at the gums.\" Panel 4: at her front door at night, smiling and leaning in for a sweet goodnight kiss with her date, caption \"Now I lean in first.\" Clean, sweet, non-sexual."
+    },
+    {
+      "id": "P42_11_five_signs_checklist",
+      "group": "net_new",
+      "persona": "gum_worried",
+      "lang": "en",
+      "colorway": "jar_capsules",
+      "angle": "Self-check list: 5 signs bad breath starts at the gums",
+      "based_on": "Perio brief 'Signs people can check themselves' (best hooks: viewer can test on the spot)",
+      "headline": "5 signs bad breath is coming from the gums",
+      "prompt": "Clean checklist ad on a soft off-white paper background, like a printed card. Bold navy headline at top: \"5 signs bad breath is coming from the gums\". Below, five rows each with an empty square checkbox drawn in red marker and bold dark text: \"Blood on the brush or floss\", \"Floss smells after the back teeth\", \"A bad taste that won't go away\", \"Red, puffy gums\", \"Fresh after brushing, back by lunch\". Under the list in bold royal blue: \"Checked 2 or more? See your dentist. Then support your gums every day.\" Bottom right: the DentalPULSE jar with two white capsules."
+    },
+    {
+      "id": "P42_12_hiding_under_the_gums",
+      "group": "net_new",
+      "persona": "does_everything_right",
+      "lang": "en",
+      "colorway": "jar",
+      "format": "flat_illustration",
+      "angle": "Where it hides: under the gums, where brush and mouthwash can't reach",
+      "based_on": "Perio brief hook 'Your breath isn't coming from your teeth. It's coming from under your gums.' + 'pockets refill within hours'",
+      "headline": "It's not coming from your teeth. It's hiding under your gums.",
+      "prompt": "Flat vector illustration ad on light sky blue. A big friendly cross-section of one tooth sitting in pink gum; just under the gum line a small dark pocket where a few grumpy green cartoon germs hide with little stink lines. Above the gum, a toothbrush and a drop of mouthwash bounce off the surface with small red X marks. Headline in bold navy at top: \"It's not coming from your teeth.\" Second line in bold royal blue: \"It's hiding under your gums.\" Small dark line: \"Your brush can't reach it. Mouthwash can't either.\" Bottom: the DentalPULSE jar drawn in the same flat style but recognizable, with a navy pill \"1 capsule a day. Fresher breath from the gums up.\""
+    },
+    {
+      "id": "P42_13_waking_up_next_to",
+      "group": "net_new",
+      "persona": "partner",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Morning closeness: waking up together",
+      "based_on": "Perio brief hook 'The worst part of waking up next to someone shouldn't be your breath.'",
+      "headline": "The worst part of waking up next to someone shouldn't be your breath.",
+      "prompt": "Soft, bright morning photo in a cozy bedroom with white sheets: a couple in their 30s waking up, he reaches to cuddle her while she smiles but pulls the blanket up over her mouth, embarrassed. Gentle sunlight through curtains, fully clothed in pajamas, sweet and non-sexual. Big bold navy headline on a white band at the top: \"The worst part of waking up next to someone shouldn't be your breath.\" Bottom right: the DentalPULSE jar on the nightstand with a royal-blue pill: \"Fresher mornings start at the gums.\""
+    },
+    {
+      "id": "P42_14_mints_last_one_drink",
+      "group": "net_new",
+      "persona": "dater",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Night out: mints fade after one drink",
+      "based_on": "Perio brief hook 'Mints last one drink. Your night lasts longer.' + late-night crowd persona",
+      "headline": "Mints last one drink. Your night lasts longer.",
+      "prompt": "Stylish night-out flat-lay on a dark marble bar top under warm moody light: an open small evening clutch spilling out lipstick, keys, a phone and an open tin of mints with only one mint left, next to a cocktail glass. The DentalPULSE jar stands next to the clutch, lit with a soft blue rim light. Big bold white headline at the top: \"Mints last one drink.\" Second line in light blue: \"Your night lasts longer.\" Bottom white line: \"Start fresh at the gums. 1 capsule a day.\" Fun and flirty, not sexual."
+    },
+    {
+      "id": "P42_15_turn_their_head",
+      "group": "net_new",
+      "persona": "social_signal",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Partner signal: the head turn when you lean in",
+      "based_on": "Perio brief hook 'If they turn their head when you lean in, they're not being shy.'",
+      "headline": "If they turn their head when you lean in, they're not being shy.",
+      "prompt": "Warm, wholesome photo of a married couple in their 30s sitting on a living-room couch in casual sweaters watching TV. He leans toward her with a smile for a quick peck, and she gently turns her face a little to the side so he gets her cheek; her expression is a small awkward smile. Big bold white headline with soft shadow at the top: \"If they turn their head when you lean in,\" then on the next line on a solid red box: \"they're not being shy.\" Bottom: white text \"Breath that keeps coming back usually starts at the gums.\" and the DentalPULSE jar on the coffee table in the lower right corner."
     }
   ]
 }
