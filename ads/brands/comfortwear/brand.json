@@ -2,7 +2,7 @@
   "name": "Comfort Wear",
   "product": "Ortho Stretch Cushion Shoe",
   "price": "$59.95 (was $90)",
-  "palette": "white, light grey or clean real-photo backgrounds. Headline and body text are black, deep navy or white. Do NOT set purple text on light backgrounds. Comfort Wear purple (#7A2FE0) IS used the way the winning ads use it: as solid blocks, offer panels and rounded pills filled with purple and white text inside, or the shoe's own purple accents. Offer panels may also be deep navy, red or yellow.",
+  "palette": "white, light grey, soft gradient or clean real-photo backgrounds. Text is black, deep navy or white. One accent color per ad (Comfort Wear purple #7A2FE0, royal blue or red) may color the KEY WORDS of the headline or fill solid blocks, bars, pills and offer circles with white text inside, as the brand's winning statics do. Accent-colored text is the exception, not the default: most headlines are black or white, and body copy is never purple.",
   "font_style": "heavy geometric sans-serif (Montserrat Black / Gotham Black / Poppins ExtraBold) or a bold condensed sans for headlines, set very large across nearly the full width, tight leading, 2 lines max; mix weights inside a headline for emphasis (e.g. 'Dear' regular, 'Nurses' bold); clean sans for small copy",
   "website": "comfortorthowear.com",
   "prompt_rules": [
