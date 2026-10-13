@@ -13,8 +13,8 @@ Engine: `ads/generate.py` (render), `ads/review.py` (sheets, verdicts, cost, CSV
 - `dentalpulse/`: ultrasonic appliance cleaner. Product-scope limits, approved aggressive claims,
   appliance mix, old-method "enemy", competitor playbook (research/analysis.md §6), cartoon formats.
 
-Every deliverable is 1 static per concept (no variations): a 9:16 PNG (Stories/Reels) with all content
-inside the centered 4:5 area, plus the 4:5 crop (feed). GIFs only for statics the user approves.
+Every deliverable is 1 static per concept (no variations): a 9:16 PNG (Stories/Reels) composed for its
+full height, plus a 4:5 PNG (feed) re-laid out from it. GIFs only for statics the user approves.
 
 ## Batch types (sizes and days from `brand.json` → `program`)
 
@@ -158,6 +158,9 @@ formats. `"group": "iteration"`.
 
 - **Mix**: follow `program.mix` exactly (count it before rendering), plus the funnel split
   (default ~65% top-of-funnel with no price, ~35% offer-based) and `copy_rules` / `naming_rule`.
+  Also apply `program.angle_rules` (winning angles, mix-and-match, foot-pain share), `program.offer`
+  (offer-stack share and exact wording) and `colorway_priority` (best sellers vs test colors) when the
+  brand has them; count each before rendering.
 - **Variety (user rule)**: every concept in a batch uses a different format. Rotate across the
   top-impression category formats (analysis.md) and the briefs' formats: insult/shock headline + sticky-note
   offer, lo-fi real photo with minimal text, imaging/petri/microscope proof, price-anchor replacement,
@@ -205,13 +208,16 @@ python ads/generate.py --brand <brand> --week ../format_examples <ids>    # form
 python ads/review.py cost --brand <brand> --week <folder>                 # actual spend
 ```
 
-The 9:16 is outpainted from the 4:5: the model redraws ~120 px across the seam and only the outer
-40 px are blended, so the crop isn't visible; layouts keep text 12% from the top/bottom and backgrounds
-running to the edges. `--reextend <ids>` rebuilds only the 9:16 from an existing 4:5 (~$0.04) when the
-extension looks off. If the image API rejects a prompt for safety (e.g. chemicals + mouth = "self-harm"),
+Default `--layout native` (user rule, Oct 13): the 9:16 is composed for the full height (headline upper
+third, product/scene large in the middle, offer or copy lower-middle; text, faces and product kept out of
+the top 12% and bottom 18% but those areas still show real scene), then a second call re-lays it out as the
+4:5. Never ship 9:16s whose top/bottom are blurred, empty or filler (the old `--layout extend` outpaint did
+that; `--reextend` only applies to it). `generate.py` center-crops instead of stretching when the API
+returns another aspect ratio, so the shoe is never squashed. If the image API rejects a prompt for safety (e.g. chemicals + mouth = "self-harm"),
 reframe the visual (side-by-side comparison) and retry.
 
-Measured gpt-image-2 cost per static ≈ $0.08 (medium 4:5 render + low 9:16 extension); GIF ≈ $0.14.
+Cost per static with `--layout native` ≈ two medium renders (9:16 + 4:5 re-layout), roughly $0.12–0.16;
+check `review.py cost` after the first batch. GIF ≈ $0.14.
 `--quality high` only for product close-ups. Shell gotcha: never `pkill -f`/`pgrep -f` a pattern that
 also appears in your own command line (it kills or matches the shell itself); wait on renders by
 counting `*_4x5.png` files instead.
@@ -229,8 +235,10 @@ counting `*_4x5.png` files instead.
 - weak before/after (the "before" must look clearly worse);
 - a product forced into a `no_product` concept, two copies of the product, bundle items at the wrong scale
   (accessories must look smaller than the hero product), non-physical items (warranties) shown as objects;
-- 9:16 extension problems: ghosted/duplicated text, odd objects in the top/bottom band, a visible seam
-  (fix with `--reextend`);
+- 9:16 that doesn't use its full height (blurred/empty/filler top or bottom), a 4:5 whose copy differs from
+  its 9:16 or is cut off;
+- a compressed, flattened, shortened or stretched shoe, or a shoe that's too small in the scene;
+- purple headline/body text (purple is a small accent only);
 - a native format that doesn't look like the real platform, or competitor logos.
 `review.py sheet` with ids overwrites page 1: delete `_preview_*` and rebuild the full sheets at the end.
 

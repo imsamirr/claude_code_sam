@@ -1,9 +1,10 @@
 """Generate static (and optional GIF) ads for a brand with OpenAI's image model.
 
-Every ad is rendered as a 4:5 image (1088x1360), then its background is
-extended to a 9:16 vertical (1088x1920) and the original 4:5 pixels are put
-back on top. So all text and product are guaranteed to sit in the 4:5 safe
-area, the 9:16 runs in Stories/Reels, and the _4x5.png runs in feed.
+Default (--layout native): every ad is composed twice. First a full 9:16
+vertical (1088x1920) laid out top to bottom for Stories/Reels, then a 4:5
+(1088x1360) feed version re-laid out from that 9:16, so both read as the same
+ad and neither has filler bands. --layout extend keeps the older method:
+render 4:5, then outpaint background above and below it.
 
 Layout:
     ads/brands/<brand>/brand.json         brand, colorways, personas, language rules
@@ -45,6 +46,23 @@ FORMAT_RULE = (
     "background). The scene or background "
     "must run all the way to every edge: no borders, frames, white bands, solid header/footer strips or "
     "panels touching the top or bottom edge, so the image can be extended upward and downward seamlessly."
+)
+VERTICAL_RULE = (
+    "Tall vertical 9:16 canvas (even if the description below says square or 4:5), designed for Instagram "
+    "and Facebook Stories/Reels. Compose for the full height so the ad flows top to bottom with no empty, "
+    "blurred or filler bands: spread the layout over the whole frame (for example headline in the upper "
+    "third, the product or scene large in the middle, supporting copy or offer in the lower-middle). "
+    "Background and scene run edge to edge. Keep text, faces and the product out of the top 12% and the "
+    "bottom 18% of the frame (app UI covers them), but fill those areas with real scene or background, "
+    "never blur or blank them."
+)
+FEED_PROMPT = (
+    "Re-lay out the first image (a 9:16 ad) as the same ad on a 4:5 vertical canvas for the Facebook and "
+    "Instagram feed. Keep the identical headline and every word of copy (spelled exactly the same), the "
+    "same colors, fonts, scene, people and product, but rearrange spacing and sizes so everything fits "
+    "comfortably inside 4:5 with nothing cut off and nothing squeezed. Do not crop text, do not add "
+    "anything new. Keep at least 6% margin around all text. The product must still match the second "
+    "image exactly, at natural proportions."
 )
 EXTEND_PROMPT = (
     "Extend this image to a taller 9:16 frame. Fill the transparent top and bottom areas by continuing "
@@ -103,8 +121,8 @@ ILLUSTRATED_RULE = ("This ad is an illustration, not a photo: render the whole s
                     "recognizable as the product in the reference photo. Do not give the product a face unless asked.")
 
 
-def build_prompt(bdir, brand, concept, extra):
-    parts = [FORMAT_RULE, concept["prompt"]]
+def build_prompt(bdir, brand, concept, extra, layout_rule=FORMAT_RULE):
+    parts = [layout_rule, concept["prompt"]]
     if concept.get("colorway") and not concept.get("no_product"):
         template = brand.get("colorway_template", "The product is the {label} shown in the reference photo.")
         parts.append(template.format(label=brand['colorways'][concept['colorway']]['label']))
@@ -157,7 +175,37 @@ def call_api(prompt, images, args, api_key, size=CONTENT, mask=None, kind="stati
     body = resp.json()
     log_usage(args, kind, quality or args.quality, body.get("usage", {}))
     img = Image.open(io.BytesIO(base64.b64decode(body["data"][0]["b64_json"]))).convert("RGB")
-    return img if img.size == size else img.resize(size, Image.LANCZOS)
+    return fit(img, size)
+
+
+def fit(img, size):
+    """Scale to `size` without distortion: center-crop to the target aspect first.
+
+    A plain resize between different aspect ratios squashes the product (e.g. a
+    2:3 return forced into 4:5 makes the shoe look compressed).
+    """
+    if img.size == size:
+        return img
+    tw, th = size
+    w, h = img.size
+    if w * th > h * tw:                      # too wide: trim the sides
+        nw = round(h * tw / th)
+        img = img.crop(((w - nw) // 2, 0, (w - nw) // 2 + nw, h))
+    elif w * th < h * tw:                    # too tall: trim top and bottom
+        nh = round(w * th / tw)
+        img = img.crop((0, (h - nh) // 2, w, (h - nh) // 2 + nh))
+    if img.size != size:
+        print(f"  note: API returned {w}x{h}; center-cropped to {tw}:{th} instead of stretching")
+    return img.resize(size, Image.LANCZOS)
+
+
+def render_native(bdir, brand, concept, ref, ref_bytes, args, api_key):
+    """Compose the 9:16 for its full height, then re-lay it out as the 4:5 feed version."""
+    full = call_api(build_prompt(bdir, brand, concept, args.extra, VERTICAL_RULE), [(ref.name, ref_bytes)],
+                    args, api_key, size=SIZE)
+    content = call_api(FEED_PROMPT, [("ad_9x16.png", png_bytes(full)), (ref.name, ref_bytes)], args, api_key,
+                       size=CONTENT, kind="feed", quality=args.feed_quality)
+    return content, full
 
 
 def extend_to_9x16(content, args, api_key):
@@ -211,24 +259,27 @@ def render_gif(content, full, ref_bytes, concept, out_dir, stem, args, api_key):
     plays them in reverse, so it builds up and ends (and holds) on the full ad.
     """
     gif = concept["gif"]
-    frames, durations = [content], [gif.get("first_ms", 1400)]
+    native = args.layout == "native"
+    # native: frames are edits of the full 9:16; extend: edits of the 4:5, reusing the static's extended bands
+    base, size, rule = (full, SIZE, VERTICAL_RULE) if native else (content, CONTENT, FORMAT_RULE)
+    frames, durations = [base], [gif.get("first_ms", 1400)]
     for i, step in enumerate(gif["frames"], start=2):
         print(f"  gif frame {i}/{len(gif['frames']) + 1}", flush=True)
         prompt = (
             "Edit this ad. Keep everything identical (layout, background, every word of text, the shoe, "
             f"lighting, framing) except this change: {step['edit']} "
-            "The product must still match the second image exactly. " + FORMAT_RULE
+            "The product must still match the second image exactly. " + rule
         )
         frame = call_api(prompt, [("frame.png", png_bytes(frames[-1])), ("product.png", ref_bytes)], args, api_key,
-                         kind="gif", quality=args.gif_quality)
+                         size=size, kind="gif", quality=args.gif_quality)
         frames.append(frame)
-        composite(frame, full).save(out_dir / f"{stem}_f{i}.png")
+        (frame if native else composite(frame, full)).save(out_dir / f"{stem}_f{i}.png")
         durations.append(step.get("ms", 1400))
     if gif.get("build"):
         # frames were made by removing elements from the finished ad; play them back so it builds up
         frames, durations = frames[::-1], durations[1:][::-1] + durations[:1]
-    # every frame reuses the static's extended top and bottom, so only the 4:5 area changes
-    frames = [composite(f, full) for f in frames]
+    if not native:
+        frames = [composite(f, full) for f in frames]
     small = [f.resize((544, 960), Image.LANCZOS).quantize(colors=200, method=Image.Quantize.MEDIANCUT) for f in frames]
     small[0].save(out_dir / f"{stem}.gif", save_all=True, append_images=small[1:],
                   duration=durations, loop=0, optimize=True)
@@ -250,7 +301,11 @@ def main():
     p.add_argument("--gif", action="store_true", help="also render GIFs for concepts that define them")
     p.add_argument("--gif-only", action="store_true", help="render GIFs from existing statics without regenerating them")
     p.add_argument("--quality", default="medium", help="main 4:5 render: low | medium | high (high for product close-ups)")
-    p.add_argument("--reextend", action="store_true", help="rebuild only the 9:16 from the existing 4:5 (no new render)")
+    p.add_argument("--layout", choices=["native", "extend"], default=os.getenv("ADS_LAYOUT", "native"),
+                   help="native: compose the 9:16 for its full height, then re-lay out a 4:5 (default); "
+                        "extend: render 4:5 and outpaint background above/below (older method)")
+    p.add_argument("--feed-quality", default="medium", help="native layout: the 4:5 re-layout render")
+    p.add_argument("--reextend", action="store_true", help="extend layout only: rebuild the 9:16 from the existing 4:5")
     p.add_argument("--extend-quality", default="medium", help="9:16 background extension (outside the safe area)")
     p.add_argument("--gif-quality", default="medium", help="GIF frames (shown at 544x960, 200 colors)")
     p.add_argument("--model", default=os.getenv("OPENAI_IMAGE_MODEL", "gpt-image-2"))
@@ -286,8 +341,11 @@ def main():
                 full = Image.open(out_dir / f"{stem}.png").convert("RGB")
             else:
                 stem = f"{c['id']}_v{(versions(out_dir, c['id']) or [0])[-1] + 1}"
-                content = call_api(build_prompt(bdir, brand, c, args.extra), [(ref.name, ref_bytes)], args, api_key)
-                full = extend_to_9x16(content, args, api_key)
+                if args.layout == "native":
+                    content, full = render_native(bdir, brand, c, ref, ref_bytes, args, api_key)
+                else:
+                    content = call_api(build_prompt(bdir, brand, c, args.extra), [(ref.name, ref_bytes)], args, api_key)
+                    full = extend_to_9x16(content, args, api_key)
                 save_static(content, full, out_dir, stem)
                 print(f"  saved {(out_dir / stem).relative_to(ADS_DIR.parent)}.png (+ _4x5)")
             if (args.gif or args.gif_only) and c.get("gif"):

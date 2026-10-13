@@ -2,20 +2,21 @@
   "name": "Comfort Wear",
   "product": "Ortho Stretch Cushion Shoe",
   "price": "$59.95 (was $90)",
-  "palette": "white / soft lavender backgrounds, Comfort Wear purple (#7A2FE0) for headlines and pills, black body text",
+  "palette": "clean backgrounds (white, light grey, warm neutral, soft blue) or real photo scenes. Headline and body text are black, deep navy or white for contrast with the background; do NOT make the headline or body text purple. Comfort Wear purple (#7A2FE0) is an occasional small accent only (one pill, underline or highlight), and many ads use no purple at all. Offer text may use bold red or black on white/yellow.",
   "font_style": "bold geometric sans-serif headlines (like Poppins/Montserrat ExtraBold), clean sans body text",
   "website": "comfortorthowear.com",
   "prompt_rules": [
     "The shoe MUST be the exact shoe in the attached studio reference photo, unchanged: same colors, stretch-knit sock-style upper with pull tab, grid-of-small-squares pattern on the side panel, elastic bungee laces with a round toggle, double-chevron logo on the inner collar, chunky rocker midsole with a wavy side profile, lug outsole. Keep its proportions and every detail; only change its angle, lighting and setting as the layout requires. Do not invent a different shoe, logo or sole.",
+    "Show the shoe at its true, natural proportions, exactly like the reference photo: full length from toe to heel, natural height, roomy toe box. Never squash, flatten, shorten, stretch, compress or crop the shoe, and never render it smaller than its natural size relative to the person or scene.",
     "This is a women's shoe: the person wearing it is always a woman (women's proportions and styling). Men may appear only as gift-givers or in the background, never wearing the shoe.",
     "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
     "Add nothing the description doesn't ask for: no extra feature lists, icon callouts, price tags, badges, panels or captions. Never show other brands' logos or products; competitors appear as text names only.",
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
   ],
   "claims_to_avoid": [
-    "money-back guarantee, free/easy returns or fast shipping (top complaints in reviews and the survey)",
     "'orthopedic approved', 'podiatrist recommended', 'doctor recommended' or any cure/treatment claim",
-    "specific review counts or star ratings unless confirmed"
+    "specific review counts or star ratings unless confirmed",
+    "fast/quick shipping speed or 'easy returns' wording (shipping and returns are top complaints); the approved offer stack below is fine"
   ],
   "colorways": {
     "black_purple": {
@@ -32,15 +33,15 @@
     },
     "navy_blue": {
       "file": "reference/shoe_navy_blue.png",
-      "label": "navy with bright blue accents (team name: WhiteBlue/BlueWhite)"
+      "label": "navy with bright blue accents (team name: White Blue)"
     },
     "red_burgundy": {
       "file": "reference/shoe_red_burgundy.png",
-      "label": "burgundy red"
+      "label": "red / burgundy"
     },
     "black_mint": {
       "file": "reference/shoe_black_mint.png",
-      "label": "black with mint accents"
+      "label": "black with turquoise accents (team name: Turquoise/Black)"
     },
     "purple": {
       "file": "reference/shoe_purple.png",
@@ -62,8 +63,9 @@
       "colorways": [
         "black_purple",
         "all_black",
+        "navy_blue",
         "black_white",
-        "navy_blue"
+        "black_mint"
       ]
     },
     "cna_caregiver": {
@@ -73,7 +75,8 @@
         "black_purple",
         "all_black",
         "black_white",
-        "navy_blue"
+        "navy_blue",
+        "black_mint"
       ]
     },
     "restaurant": {
@@ -83,7 +86,8 @@
         "all_black",
         "black_white",
         "black_purple",
-        "navy_blue"
+        "navy_blue",
+        "black_mint"
       ]
     },
     "retail_warehouse": {
@@ -94,7 +98,8 @@
         "navy_blue",
         "black_mint",
         "black_white",
-        "light_grey"
+        "light_grey",
+        "black_purple"
       ]
     },
     "housekeeping": {
@@ -104,7 +109,8 @@
         "all_black",
         "black_purple",
         "navy_blue",
-        "black_mint"
+        "black_mint",
+        "black_white"
       ]
     },
     "teacher": {
@@ -113,13 +119,14 @@
       "colorways": [
         "navy_blue",
         "red_burgundy",
+        "black_purple",
+        "black_mint",
         "all_black",
-        "black_purple"
+        "black_white"
       ],
       "test_colorways": [
         "purple",
-        "grey_pink",
-        "black_mint"
+        "grey_pink"
       ]
     },
     "stylist": {
@@ -159,7 +166,13 @@
         "black_white",
         "navy_blue",
         "red_burgundy",
-        "black_mint"
+        "black_mint",
+        "black_purple",
+        "all_black"
+      ],
+      "test_colorways": [
+        "light_grey",
+        "grey_pink"
       ]
     },
     "walker_weightloss": {
@@ -183,6 +196,20 @@
       "colorways": [
         "grey_pink",
         "light_grey",
+        "purple"
+      ]
+    },
+    "plus_size": {
+      "name": "Plus-size / overweight woman on her feet (work, walking, travel)",
+      "source": "User 2026-10-13: proven winning angle. Winners: 'I lost 50lbs+ after walking 20,000 steps' ($93k), Kyro 170 'My doctor said I'd never walk normally again because of my weight' ($106k, 1.89 ROAS); Notion: 250lb woman rating shoes, sneakers for travel over 200lbs, nobody told heavy women shoes aren't designed for them",
+      "colorways": [
+        "all_black",
+        "black_purple",
+        "navy_blue",
+        "black_white",
+        "red_burgundy"
+      ],
+      "test_colorways": [
         "purple"
       ]
     }
@@ -235,7 +262,9 @@
     },
     "winning_personas": [
       "nurse",
-      "cna_caregiver"
+      "traveler",
+      "teacher",
+      "plus_size"
     ],
     "grow_personas": [
       "housekeeping",
@@ -247,7 +276,36 @@
       "min_spend": 300,
       "min_roas": 1.8
     },
-    "roas_note": "ROAS is unreliable Feb–Dec 2025 (tracking break): rank older ads by spend."
+    "roas_note": "ROAS is unreliable Feb–Dec 2025 (tracking break): rank older ads by spend.",
+    "angle_rules": "User rule 2026-10-13: the proven angles are healthcare workers (nurses), travel, teachers and overweight/plus-size women; mix and match them (e.g. a plus-size nurse, a teacher on a summer trip, a plus-size traveler). At least ~40% of every batch leads with a FOOT-PAIN problem in the customer's words, using the survey and review data (research/analysis.md section 9 and research/data/notion_angles.md): plantar fasciitis/heel pain (25% of survey), arthritis (11%), neuropathy (10%), bunions (7%), swollen feet, knee/back pain from standing, plus 'no diagnosis, just want comfort' (22%).",
+    "offer": {
+      "stack": "40% OFF + 30-DAY MONEY-BACK GUARANTEE + FREE SHIPPING",
+      "share": 0.3,
+      "rule": "User rule 2026-10-13: ~30% of every batch are offer-style creatives showing the full stack (40% OFF, 30-DAY MONEY-BACK GUARANTEE, FREE SHIPPING) as the hero, in varied formats (offer tile, stamp/seal, sticky notes, receipt, shoe + big type, warehouse/last-chance). Mix offer statics into the winning angles (nurse, travel, teacher, plus-size) and foot-pain hooks."
+    },
+    "layout_note": "User rule 2026-10-13: 9:16 must be composed for the full height (generate.py --layout native, the default); no blurred or filler top/bottom bands. Shoes never look compressed."
   },
-  "colorway_template": "The shoe is the {label} colorway shown in the reference photo."
+  "colorway_template": "The shoe is the {label} colorway shown in the reference photo.",
+  "colorway_priority": {
+    "best_sellers": [
+      "black_purple",
+      "all_black",
+      "navy_blue",
+      "black_white",
+      "red_burgundy",
+      "black_mint"
+    ],
+    "test": [
+      "purple",
+      "grey_pink",
+      "light_grey"
+    ],
+    "rule": "User rule 2026-10-13: test ALL colors, weighted to the best sellers. Best sellers in order: Black/Purple, All Black, White Blue (navy_blue), Black/White, Red (red_burgundy), Turquoise/Black (black_mint). About 80% of every batch uses best sellers, spread across all six (each at least once per batch when the batch has 12+ concepts, none over ~20%); about 20% tests purple, grey_pink or light_grey."
+  },
+  "approved_claims": [
+    "Offer stack (user-approved 2026-10-13): \"40% OFF\" + \"30-DAY MONEY-BACK GUARANTEE\" + \"FREE SHIPPING\". Use these exact words; the guarantee is 30 days (never 45).",
+    "Price: $59.95 (was $90)",
+    "HSA/FSA eligible",
+    "Arch support, cushioned heel, wide toe box, stretch-knit upper, slip-resistant grip, elastic no-tie laces"
+  ]
 }
