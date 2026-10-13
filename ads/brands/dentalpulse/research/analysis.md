@@ -102,3 +102,30 @@ Pulled with `atria_pull.py competitors` (brand.json → `competitor_brands`). Lo
 6. A starter-pack flat-lay ("the denture wearer's starter pack").
 7. Big-number typography (99.9%, 42,000, 6 of 7).
 8. A timely callout (GLP-1 bad breath, holiday visits, New Year clean start).
+
+## 7. Top-impression statics in the category (Atria, sorted by most impressions, Oct 13)
+Pulled with `atria_pull.py competitors` (now `order=most_impressions`), filtered to oral-care/dental ads (`data/competitor_top_dental.csv`, sheets in `sheets/competitor_top_dental_*.jpg`). The formats that get the most delivery right now:
+1. **Insult/shock product shot with sticky notes**: Asuno "DON'T BE SUCH AN IDIOT" with yellow post-its reading "70% OFF / TODAY ONLY" (top 0.1%).
+2. **Lo-fi real photo, no designed text**: Denture Care Tips' grimy denture on a lace doily (top 0.4%, 129 days) and a retainer with red bumps. The copy lives in the primary text: "Read This If You Wear Dentures 👆", a first-person near-death story.
+3. **Medical imaging / scan before-after**: "MRI Confirms…", a CBCT jaw scan with an arrow, X-ray grids with red highlighted areas, petri dish "99.9% mold-spore reduction" before/after (barnakl).
+4. **Price-anchor replacement**: Remi "Lost your $600 night guard? Replace it for $99." with 4 icon benefits; Remi "$627 of dental care. Yours for $250." bundle flat-lay.
+5. **Big quote + product with press styling**: Sonic Dental "I put my retainers in Sonic Pro, wait 3 mins & they're brand new." with a save badge; Holymouthwash "8 years. 4 dentists. Nobody mentioned estrogen once."
+6. **Real-world sign / object with text**: a yard sign reading "THE SMELL IS MADE IN THE GUT, NOT THE MOUTH."
+7. **Advertorial card with data**: "Her Periodontist Quoted £4,000… 8 Weeks Later, Her Numbers Looked Like This" (tooth-chart numbers, "Read Article").
+8. **Native UI**: an iOS reminder pop-up ("Change your brush head every 3 months"), a dating-app profile, Hismile cart screenshots.
+9. **Founder letter**: Remi "WE'RE SAYING GOODBYE" letter with founder signature (tariff angle).
+10. **Stat pictogram**: "1 in 3 women snore every single night" with a row of people icons.
+11. **News split-face**: "NEWS — DOCTORS STUNNED: the 'jawbone restore' dentists don't talk about".
+12. **Offer tiles**: "53% OFF ENDS SOON" with a hand holding the product and arrows to benefits; Hismile "BUY 3 GET 2 FREE" / "BUY 4 GET 6 FREE"; dark Sonic Dental "Limited Time Sale" with award seals and "4.8/5".
+13. **Objection headline**: "Yes, it's really ODORLESS".
+
+**What to take:** rotate across these formats so no two concepts in a batch look alike. Keep ~65% top-of-funnel (problem, enemy, controversy, imaging/proof) and ~35% offer tiles.
+
+## 8. Oct 13 user feedback (rules now in brand.json → copy_rules, naming_rule, program.appliance_mix)
+- **Formats looked too similar.** Use the §7 top-impression formats plus the Notion brief formats (`notion_brief.md` §6).
+- **Say "ultrasonic cleaner"**, not just "Pod", for unaware audiences.
+- **Make bacteria and yellow stains explicit.** These are the #1 and #2 purchase reasons; see `feedback_deep_dive.md`.
+- **Copy:** direct response, aggressive and controversial (see `notion_brief.md` §2 and §8).
+- **Products:** no Travel Pod concepts. The Ultimate Cleaning Bundle appears only in offer creatives. The denture case is drawn much smaller than the cleaner, and the warranty is not shown as a physical item.
+- **Appliance mix:** 50% dentures; the other 50% is night guards ~50%, retainers ~30%, aligners ~15%, apnea ~5%.
+- **9:16 versions:** extended seamlessly. The generator now outpaints across the seam, and layouts keep backgrounds running to the edges.

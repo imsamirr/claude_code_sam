@@ -1,0 +1,254 @@
+{
+  "week": "2026-W42-v2",
+  "notes": "Rebuilt after user feedback (Oct 13). 24 concepts, every one a different format taken from top-impression category statics (analysis.md §7) and the Notion briefs (notion_brief.md). Mix: 12 dentures / 6 night guards / 4 retainers / 2 aligners. 16 top-of-funnel + 8 offer. Bacteria and yellow stains explicit; 'ultrasonic cleaner' wording; aggressive, controversial direct-response copy. No Travel Pod except inside the Ultimate Bundle offer. 4 cartoon formats.",
+  "concepts": [
+    {
+      "id": "V42_01_denture_lofi_doily",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "tof",
+      "angle": "Lo-fi gross real photo, minimal text (the 'Read this if you wear dentures' native style)",
+      "based_on": "Top-impression static: Denture Care Tips grimy denture on a lace doily (top 0.4%, 129d); feedback: 'You could still see food on the denture'",
+      "headline": "I thought these were clean.",
+      "prompt": "An unpolished, real-looking smartphone photo taken from above, slightly off-angle, of a used upper denture lying on a white lace doily on a wooden nightstand: yellowed teeth, brownish stain lines at the gumline, a cloudy white film and crusty bits of old adhesive on the pink base. Warm, slightly dim lamp light, a little grain, natural phone-photo look, not a studio shot. Only text: a small handwritten-style white caption in the lower middle reading \"I thought these were clean.\" No product in the image.",
+      "no_product": true
+    },
+    {
+      "id": "V42_02_denture_petri_dish",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "tof",
+      "angle": "Lab proof: petri dish swab before vs after",
+      "based_on": "Top-impression static: barnakl petri dish '99.9% mold-spore reduction' before/after (top 0.4%); approved claim 'Eliminates 99.9% of bacteria'; feedback reason #1 bacteria (68%)",
+      "headline": "We swabbed a 'clean' denture. Then we ran it through an ultrasonic cleaner.",
+      "prompt": "Clean scientific ad on a soft teal-to-white gradient that runs to every edge. Two realistic lab petri dishes side by side, seen from slightly above: the left dish covered in dense yellow, white and grey bacterial colonies, labeled below \"Brushed + soaked in tablets\"; the right dish almost perfectly clear, labeled \"After 5 minutes in the DentalPULSE ultrasonic cleaner\". Headline at the top in bold navy: \"We swabbed a 'clean' denture.\" Second line in DentalPULSE blue: \"99.9% of bacteria gone in 5 minutes.\" Lower right: the DentalPULSE Pod from the reference photo, medium size, with soft shadow."
+    },
+    {
+      "id": "V42_03_denture_hazard_tablets",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "tof",
+      "angle": "Controversial: tablets lined up next to pool shock and bleach (same oxidizer chemistry)",
+      "based_on": "Notion DEN265/DEN226/DEN253 'pool chemicals and laundry bleach' tablet conspiracy (Oct 2026 brief)",
+      "headline": "Pool shock. Laundry bleach. Denture tablets. Spot the difference.",
+      "prompt": "Clean, high-contrast studio product lineup on a light grey seamless background: three containers standing in a row on a white shelf: a tub labeled \"POOL SHOCK\", a jug labeled \"LAUNDRY BLEACH\", and a generic box labeled \"DENTURE TABLETS\", each with a small round label below reading \"oxidizer\". Bold black condensed headline at the top: \"POOL SHOCK. LAUNDRY BLEACH. DENTURE TABLETS.\" and under it in red: \"Spot the difference.\" In the lower part, set apart on a soft blue surface: the white DentalPULSE Pod from the reference photo with the navy line \"Just tap water and 42,000 Hz sound waves.\""
+    },
+    {
+      "id": "V42_04_denture_read_that_again",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "tof",
+      "angle": "Box-warning zoom: 'Do not place tablets or solution in mouth. Read that again.'",
+      "based_on": "Notion DEN226 'Polident added a line to the box instead… Read that again.'",
+      "headline": "\"Do not place tablets or solution in mouth.\" Read that again.",
+      "prompt": "Close-up photo of the side panel of a generic denture-cleanser tablet box on a bathroom counter, with a round magnifying glass held over the fine print. Inside the magnifier, the enlarged printed warning clearly reads \"Do not place tablets or solution in mouth.\" Above the scene, large bold black serif text: \"Read that again.\" Lower part of the image: a denture soaking in a glass of blue water, and the DentalPULSE Pod from the reference photo beside it with a small blue line \"No tablets. No chemicals. 99.9% of bacteria gone.\" Natural daylight, editorial look."
+    },
+    {
+      "id": "V42_05_denture_yard_sign",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "tof",
+      "angle": "Real-world yard sign with a controversial statement",
+      "based_on": "Top-impression static: yard sign 'THE SMELL IS MADE IN THE GUT, NOT THE MOUTH.' (top 0.5%); Notion DEN264/DEN275 yellowing",
+      "headline": "Your dentures aren't yellow. They're dirty.",
+      "prompt": "Realistic outdoor photo of a white corrugated plastic yard sign on metal stakes in a green front lawn of a suburban house on a sunny day. The sign is printed in bold navy and red block letters: \"YOUR DENTURES AREN'T YELLOW.\" and on the next line in red \"THEY'RE DIRTY.\" Smaller at the bottom of the sign in navy: \"That yellow is bacteria. Ultrasonic cleaning removes it.\" No other text. Natural daylight, real photo feel.",
+      "no_product": true
+    },
+    {
+      "id": "V42_06_denture_brown_water",
+      "persona": "denture_wearer",
+      "colorway": "pod_open",
+      "group": "tof",
+      "angle": "Brown-water proof after the first cycle",
+      "based_on": "Notion signature proof 'First cycle, the water turned brown' (DEN255/DEN226); product-page review 'the water was BROWN after the first cycle'",
+      "headline": "First cycle. This came off my 'clean' dentures.",
+      "prompt": "Bright, sharp close-up from above of the open DentalPULSE Pod from the reference photo on a white bathroom counter. The stainless-steel basin is filled with murky brown-yellow water with floating specks and a faint oily film. Beside it a hand holds up a gleaming, clean white upper denture dripping water. Large bold navy headline at the top: \"First cycle.\" and under it \"This came off my 'clean' dentures.\" Small line at the bottom: \"5 minutes. Tap water. The DentalPULSE ultrasonic cleaner.\""
+    },
+    {
+      "id": "V42_07_denture_news_pneumonia",
+      "persona": "denture_caregiver",
+      "colorway": "pod",
+      "group": "tof",
+      "angle": "News split-face: health shock for caregivers",
+      "based_on": "Top-impression static: 'NEWS — DOCTORS STUNNED' split face (top 5.7%); Notion DEN173/DEN266 pneumonia angle (verify study wording before launch)",
+      "headline": "Why seniors who sleep in dirty dentures keep getting sick",
+      "prompt": "A news-broadcast style image: the left half shows an elderly man in a hospital bed with an oxygen cannula, the right half shows a close-up of a stained, film-covered denture in a cup by a bedside, joined by a jagged split. A red \"NEWS\" tag in the lower left. Big bold white headline with a dark gradient behind it in the lower third: \"Why seniors who sleep in dirty dentures keep getting sick\". Under it in yellow: \"Doctors say the bacteria starts in the denture.\" Small bottom-right product inset: the DentalPULSE Pod from the reference photo in a white rounded square."
+    },
+    {
+      "id": "V42_08_denture_article_card",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "tof",
+      "angle": "Advertorial article card with before/after and Read Article",
+      "based_on": "Top-impression static: 'Her Periodontist Quoted £4,000… Read Article' (top 1.3%); Notion DEN173 'Dental Hygiene Finds' article card; DEN275 'They weren't this color when you got them'",
+      "headline": "They weren't this yellow when you got them.",
+      "prompt": "A realistic web article card on white: a thin masthead reading \"Dental Hygiene Finds\", a small grey meta line \"Oct 9 · 214 comments · Reading time: 4 min\". A wide photo split down the middle showing only dentures on a plain white towel (no devices): on the left a yellowed, stained upper denture labeled \"Month 18\", on the right the same denture bright white labeled \"After 2 weeks of ultrasonic cleaning\". Under the photo a bold black serif headline: \"They Weren't This Yellow When You Got Them. Here's What's Actually Growing on Them.\" A short grey dek: \"Thankfully, a $99 ultrasonic cleaner is changing how seniors clean dentures.\" A red \"Read Article\" link at the bottom right.",
+      "no_product": true
+    },
+    {
+      "id": "V42_09_denture_sticky_offer",
+      "persona": "switcher",
+      "colorway": "pod",
+      "group": "offer",
+      "angle": "Insult headline + product with yellow sticky-note offers",
+      "based_on": "Top-impression static: Asuno 'DON'T BE SUCH AN IDIOT' + '70% OFF / TODAY ONLY' sticky notes (top 0.1%); offer 40% OFF $99.95",
+      "headline": "Stop soaking your teeth in bleach.",
+      "prompt": "Punchy product shot: the DentalPULSE Pod from the reference photo on crumpled silver foil, lit with a hard flash, with two bright yellow sticky notes stuck on it at angles with black marker handwriting: one says \"40% OFF\", the other says \"TODAY ONLY!\". Huge bold white condensed headline on a black area at the top: \"STOP SOAKING YOUR TEETH\" and on the next line in red \"IN BLEACH.\" Small white line at the bottom: \"$99.95 · 120-Day Money-Back Guarantee\"."
+    },
+    {
+      "id": "V42_10_denture_bundle_value",
+      "persona": "denture_wearer",
+      "colorway": "denture_gift_bundle",
+      "group": "offer",
+      "angle": "Value-stack flat-lay: '$180 of denture care. Yours for $99.95.'",
+      "based_on": "Top-impression static: Remi '$627 of dental care. Yours for $250.' (top 5.6%); store Pod Denture Bundle $99.95 vs $180",
+      "headline": "$180 of denture care. Yours for $99.95.",
+      "prompt": "Top-down flat-lay on a navy blue fabric surface that fills the frame. Bold white condensed headline at the top: \"$180 OF DENTURE CARE. YOURS FOR $99.95.\" Under it a smaller white line: \"Ultrasonic cleaner, travel bag and denture case in one box.\" Center: the large white DentalPULSE Pod from the reference photo, with the black zip travel bag and the small dark denture case beside it, both clearly much smaller than the cleaner. A red banner stripe across the lower part: \"40% OFF · FREE GIFTS · 120-DAY GUARANTEE\". Small white text at the very bottom: \"1-year warranty included\"."
+    },
+    {
+      "id": "V42_11_denture_founder_letter",
+      "persona": "denture_wearer",
+      "colorway": "pod",
+      "group": "offer",
+      "angle": "Founder letter to every denture wearer still using tablets",
+      "based_on": "Top-impression static: Remi 'WE'RE SAYING GOODBYE' founder letter (top 0.6%, 189d); Notion DEN222 founder story; DEN234 'big pharma since the 1930s'",
+      "headline": "A letter to every denture wearer still using tablets",
+      "prompt": "A realistic printed letter on cream paper lying on a dark wooden desk, photographed from above with soft light, a pen and reading glasses beside it. Letter title in bold black: \"To every denture wearer still using tablets:\". Body in a clean serif, legible: \"Since the 1930s, you've been told a fizzy tablet and a brush are enough. They're not. Your dentures are porous. Bacteria live inside. Dentists have cleaned with ultrasonic sound waves for decades. We put that machine next to your sink. Right now it's 40% off, $99.95, with 120 days to try it.\" Signed with a handwritten signature and \"Founder, DentalPULSE\". The DentalPULSE Pod from the reference photo sits at the upper right corner of the desk."
+    },
+    {
+      "id": "V42_12_denture_gift_claymation",
+      "persona": "denture_caregiver",
+      "colorway": "denture_gift_bundle",
+      "group": "offer",
+      "format": "claymation",
+      "angle": "Gift angle: 'The best gift for denture wearers' in claymation",
+      "based_on": "Notion DEN268 gifting angle 'The Best Gift For Denture Wearers' (Oct 2026); Q4 gifting; Pod Denture Bundle",
+      "headline": "The best gift for denture wearers",
+      "prompt": "Claymation holiday scene: a cozy clay living room with a little clay Christmas tree, a smiling clay grandmother unwrapping a present that contains the white DentalPULSE ultrasonic cleaner from the reference photo, with the small travel bag and small denture case beside it (both much smaller than the cleaner), and a bright green hand-drawn circle around the cleaner. Clay-letter headline at the top: \"The Best Gift For Denture Wearers\". A clay banner at the bottom: \"40% OFF + free gifts · $99.95\"."
+    },
+    {
+      "id": "V42_13_nightguard_toilet_comic",
+      "persona": "night_guard",
+      "colorway": "pod",
+      "group": "tof",
+      "format": "comic_strip",
+      "angle": "Controversial comic: night guard swab vs toilet seat",
+      "based_on": "Notion advertorial line 'my nightguard had more bacteria on it than my toilet seat'; feedback: night guard 'never felt clean'",
+      "headline": "My night guard had more bacteria than my toilet seat.",
+      "prompt": "A 3-panel modern webcomic. Panel 1: a woman in pajamas swabs her yellowed, cloudy night guard and her toilet seat with two cotton swabs, bubble: \"Science time.\" Panel 2: two petri dishes, the one labeled \"night guard\" overflowing with green and yellow cartoon germs, the one labeled \"toilet\" with only a few; she screams, bubble: \"WHAT?!\". Panel 3: she drops the night guard into the white DentalPULSE ultrasonic cleaner from the reference photo, cartoon germs fleeing, bubble: \"5 minutes. 99.9% gone.\" Title above the strip in bold black: \"My night guard had more bacteria than my toilet seat.\""
+    },
+    {
+      "id": "V42_14_nightguard_microscope",
+      "persona": "night_guard",
+      "colorway": "pod",
+      "group": "tof",
+      "angle": "Imaging: microscope view of the yellow on a night guard",
+      "based_on": "Top-impression statics: MRI/CBCT/X-ray imaging formats (top 0.1–0.4%); feedback: 71% of night-guard buyers cite yellow stains; reframe yellow as bacteria",
+      "headline": "That yellow on your night guard? It's bacteria.",
+      "prompt": "Scientific imaging style ad on a black background. Top: a macro photo of a clear night guard with yellowed, cloudy grooves; a thin white circle on one groove connects with a line to a large circular microscope view showing dense rod-shaped and round bacteria and sticky biofilm in yellow-green false color, with a small scale bar labeled \"40x\". Bold white headline at the top: \"That yellow on your night guard?\" and in yellow: \"It's bacteria.\" Bottom: the DentalPULSE Pod from the reference photo on a dark surface with a soft blue rim light and the white line \"Ultrasonic + UV-C. 5 minutes. No scrubbing.\""
+    },
+    {
+      "id": "V42_15_nightguard_ios_reminder",
+      "persona": "night_guard",
+      "colorway": "pod",
+      "group": "tof",
+      "angle": "Native iOS reminder pop-up",
+      "based_on": "Top-impression static: quip iOS 'Reminder: Change your brush head' dialog (top 4.0%); feedback 'I would always forget to do it and it never felt clean'",
+      "headline": "Reminder: your night guard was in your mouth 2,920 hours this year.",
+      "prompt": "A clean iOS-style alert dialog centered over a soft blurred background photo of a bedside table at night with a clear night guard in an open plastic case. The white rounded dialog has bold title \"Reminder\" and body text \"Your night guard was in your mouth 2,920 hours this year. Last real clean: never.\" with two buttons below a hairline: \"Ignore\" and \"Clean it\". Below the dialog, the white DentalPULSE Pod from the reference photo on the nightstand, softly lit."
+    },
+    {
+      "id": "V42_16_nightguard_tested_5",
+      "persona": "night_guard",
+      "colorway": "pod_open",
+      "group": "tof",
+      "angle": "Big quote + product: 'I ran my night guard through 5 cleaners. Only one did this.'",
+      "based_on": "Notion DEN256 night guard pod ranking (Oct 2026); top-impression Sonic Dental quote-over-product static (top 0.6%)",
+      "headline": "I ran my night guard through 5 ultrasonic cleaners. Only one did this.",
+      "prompt": "Bright editorial product ad on a soft lilac-to-white background running to every edge. Large black quote at the top: \"I ran my night guard through 5 ultrasonic cleaners. Only one did this.\" Center: the open DentalPULSE Pod from the reference photo; in front of it two clear night guards side by side: left one yellowed and cloudy with a small grey tag \"before\", right one crystal clear with a blue tag \"after 1 week\". Small line at the bottom: \"Kills 99.9% of bacteria · No tablets · 5-minute cycle\"."
+    },
+    {
+      "id": "V42_17_nightguard_price_anchor",
+      "persona": "night_guard",
+      "colorway": "pod",
+      "group": "offer",
+      "angle": "Price anchor: protect a $600 night guard for $99.95",
+      "based_on": "Top-impression static: Remi 'Lost your $600 night guard? Replace it for $99.' (top 0.3%, 189d); offer 40% OFF",
+      "headline": "Your night guard cost $600. Keep it clean for $99.95.",
+      "prompt": "Clean offer ad on a warm beige background. Headline in bold black at the top: \"Your night guard cost $600.\" Second line: \"Stop letting bacteria turn it yellow.\" Center: the DentalPULSE Pod from the reference photo with a crystal-clear night guard resting in front of it. Around it four small orange line icons with short bold labels: \"Kills 99.9% of bacteria\", \"Fights yellow film\", \"No tablets, ever\", \"5-minute cycle\". Bottom: \"40% OFF · Now $99.95\" in bold with the price underlined in red, and a small line \"120-day money-back guarantee\"."
+    },
+    {
+      "id": "V42_18_nightguard_ends_soon_arrows",
+      "persona": "night_guard",
+      "colorway": "pod",
+      "group": "offer",
+      "angle": "Hand holding product with arrows to benefits: '40% OFF ENDS SOON'",
+      "based_on": "Top-impression static: Holymouthwash '53% OFF ENDS SOON' hand + arrows (top 4.3%)",
+      "headline": "40% OFF ENDS SOON",
+      "prompt": "Bold offer ad on solid DentalPULSE blue (#1E73E8). Huge white condensed headline at the top: \"40% OFF ENDS SOON\". A realistic hand holds the white DentalPULSE Pod from the reference photo in the center. Four curved white hand-drawn arrows point from the product to short white labels: \"No more yellow night guard\", \"99.9% of bacteria gone\", \"No more tablets\", \"Clean in 5 minutes\". Small white text near the bottom: \"$99.95 · 120-day money-back guarantee\"."
+    },
+    {
+      "id": "V42_19_retainer_petri_case",
+      "persona": "retainer",
+      "colorway": "pod",
+      "group": "tof",
+      "angle": "Lo-fi gross close-up: 'Your retainer case is a petri dish.'",
+      "based_on": "Notion advertorial line 'Your retainer case is a petri dish.'; top-impression lo-fi retainer close-up (top 5.3%); feedback 'Retainer clear not milky'",
+      "headline": "Your retainer case is a petri dish.",
+      "prompt": "Unpolished smartphone macro photo (no cleaning device anywhere) of an open plastic retainer case on a bathroom sink, inside a milky, cloudy clear retainer with white crusty plaque in the tooth wells and a little pink-orange residue, a few water droplets, harsh bathroom light, slight grain. Bold white text with a thin black outline in the upper area: \"Your retainer case is a petri dish.\" Smaller white text near the bottom: \"Milky = bacteria. 5 minutes in an ultrasonic cleaner makes it clear again.\"",
+      "no_product": true
+    },
+    {
+      "id": "V42_20_retainer_scratches",
+      "persona": "retainer",
+      "colorway": "pod",
+      "group": "tof",
+      "angle": "Never brush your retainer again: scratches trap bacteria",
+      "based_on": "Notion DEN223 'Never brush your retainer again' and 'Scrubbing creates scratches. Scratches trap bacteria.'",
+      "headline": "Never brush your retainer again.",
+      "prompt": "Split macro comparison on white. Top half: an extreme close-up of a clear retainer surface covered in fine toothbrush scratches with yellow-green bacteria clusters nested inside the scratches, labeled \"Brushed daily for 6 months\". Bottom half: the same retainer smooth and glass-clear, labeled \"Cleaned with sound waves, not bristles\". Big bold black headline at the very top: \"Never brush your retainer again.\" Small DentalPULSE Pod from the reference photo in the lower right corner with the line \"Scratches trap bacteria. Ultrasonic doesn't scratch.\""
+    },
+    {
+      "id": "V42_21_retainer_talking_cartoon",
+      "persona": "retainer",
+      "colorway": "pod",
+      "group": "tof",
+      "format": "cartoon_3d",
+      "angle": "Talking retainer character complains about being brushed",
+      "based_on": "Notion DEN238 'I'm your retainer and every time you brush me…' (Sept 2026)",
+      "headline": "I'm your retainer. Please stop brushing me.",
+      "prompt": "A 3D animated film still: a cute, slightly grumpy clear retainer character with big expressive eyes and tiny arms stands on a bathroom counter, covered in little cartoon scratches and green germ characters, holding a tiny protest sign reading \"STOP BRUSHING ME\". A giant toothbrush looms behind it. Next to it, the white DentalPULSE ultrasonic cleaner from the reference photo glows softly like a spa. Headline at the top in bold navy rounded sans: \"I'm your retainer. Please stop brushing me.\" Small line at the bottom: \"Sound waves clean. Bristles scratch.\""
+    },
+    {
+      "id": "V42_22_retainer_ultimate_bundle_value",
+      "persona": "retainer",
+      "colorway": "ultimate_bundle",
+      "group": "offer",
+      "angle": "Ultimate Bundle value stack (offer only)",
+      "based_on": "Top-impression static: Remi '$627 of dental care. Yours for $250.'; store Ultimate Cleaning Bundle $169.95 vs $300",
+      "headline": "$300 of retainer care. Yours for $169.95.",
+      "prompt": "Top-down flat-lay on a soft blush-pink surface that fills the frame. Bold dark-navy condensed headline at the top: \"$300 OF RETAINER CARE.\" and under it \"YOURS FOR $169.95.\" Center: the three products from the reference photo at their true relative sizes: the DentalPULSE Pod, the small Travel Pod and the blue box of 30 Antibacterial Retainer Cleaner tablets, with a crystal-clear retainer beside them. A navy stripe in the lower part: \"SAVE $130 · ULTIMATE CLEANING BUNDLE\". Small line at the bottom: \"120-day money-back guarantee\"."
+    },
+    {
+      "id": "V42_23_aligner_desk_lunch",
+      "persona": "aligner",
+      "colorway": "pod",
+      "group": "tof",
+      "format": "flat_illustration",
+      "angle": "The desk lunch confession (aligner film + smell at work)",
+      "based_on": "Notion DEN274 'The Desk Lunch Confession' (Oct 2026); feedback aligner 'white film', 'no more smell'",
+      "headline": "My coworker asked what that smell was. It was my aligners.",
+      "prompt": "Modern flat vector editorial illustration in a limited palette of navy, soft blue, coral and cream: an office desk at lunch with a salad, a laptop and a clear aligner tray sitting on a napkin with small wavy stink lines and a white film; a coworker leans over the cubicle wall with a scrunched face. Bold navy headline at the top: \"My coworker asked what that smell was.\" and below it in coral: \"It was my aligners.\" Bottom: the white DentalPULSE ultrasonic cleaner from the reference photo drawn in the same flat style with the line \"No more white film. No more smell. 5 minutes.\""
+    },
+    {
+      "id": "V42_24_aligner_ultimate_bundle_numbered",
+      "persona": "aligner",
+      "colorway": "ultimate_bundle",
+      "group": "offer",
+      "angle": "Numbered how-it-works bundle (Hismile instructional style), offer only",
+      "based_on": "Top-impression static: Hismile line-drawing how-to bundle 'BUY 3, GET 5 FREE' (top 0.7%); store Ultimate Cleaning Bundle",
+      "headline": "Everything your aligners need. 43% off.",
+      "prompt": "Clean white offer ad. Bold black headline at the top: \"Everything your aligners need.\" and in red: \"43% OFF · $169.95\". Center: the three products from the reference photo at their true relative sizes (DentalPULSE Pod, Travel Pod, blue tablet box), photographed. Below them, a row of three simple black line-drawing steps in boxes with numbers: \"1. Add tap water\", \"2. Drop in your aligners\", \"3. 5 minutes, clear again\". A small red circular badge on the right: \"SAVE $130\". Small grey line at the bottom: \"120-day money-back guarantee\"."
+    }
+  ]
+}

@@ -37,15 +37,21 @@ API_URL = "https://api.openai.com/v1/images/edits"
 SIZE = (1088, 1920)           # 9:16 deliverable
 CONTENT = (1088, 1360)        # 4:5 safe area, centered in SIZE
 TOP = (SIZE[1] - CONTENT[1]) // 2
-FEATHER = 48                  # px blended where the 4:5 content meets the extended edges
+OVERLAP = 120                 # px of the 4:5 edge the outpaint may redraw, so the scene flows across the seam
+FEATHER = 40                  # only the outermost px blend into the outpaint (wider blends ghost nearby text)
 FORMAT_RULE = (
-    "Vertical 4:5 canvas (even if the description below says square or 9:16). Keep text at least "
-    "4% away from the edges."
+    "Vertical 4:5 canvas (even if the description below says square or 9:16). Keep all text, faces, "
+    "products, badges and UI cards at least 12% away from the top and bottom edges (those bands hold only "
+    "background). The scene or background "
+    "must run all the way to every edge: no borders, frames, white bands, solid header/footer strips or "
+    "panels touching the top or bottom edge, so the image can be extended upward and downward seamlessly."
 )
 EXTEND_PROMPT = (
-    "Fill only the transparent top and bottom areas by naturally continuing the image's background "
-    "(same scene, colors, lighting and perspective). Do not add any text, logos, people, products "
-    "or new objects there."
+    "Extend this image to a taller 9:16 frame. Fill the transparent top and bottom areas by continuing "
+    "the existing scene exactly: same surfaces, walls, sky, gradients, textures, lighting, grain and "
+    "perspective, so it reads as one continuous photo or illustration with no visible seam, band, "
+    "line, color shift or change in sharpness where old and new meet. Objects cut off at the edge "
+    "continue naturally. Do not add any text, logos, people, products or new objects."
 )
 
 
@@ -99,7 +105,7 @@ ILLUSTRATED_RULE = ("This ad is an illustration, not a photo: render the whole s
 
 def build_prompt(bdir, brand, concept, extra):
     parts = [FORMAT_RULE, concept["prompt"]]
-    if concept.get("colorway"):
+    if concept.get("colorway") and not concept.get("no_product"):
         template = brand.get("colorway_template", "The product is the {label} shown in the reference photo.")
         parts.append(template.format(label=brand['colorways'][concept['colorway']]['label']))
     parts.append(f"Brand styling: {brand['palette']}; {brand['font_style']}.")
@@ -107,6 +113,10 @@ def build_prompt(bdir, brand, concept, extra):
     if guide:
         parts.append(guide)
     rules = brand["prompt_rules"]
+    if concept.get("no_product"):
+        # Native/lo-fi images without the product: drop the product-fidelity rule (always the first rule).
+        rules = rules[1:] + ["The attached reference photo is for brand context only: do NOT show that device or any "
+                             "cleaning machine anywhere in this image."]
     if concept.get("format") in ILLUSTRATED:
         # Cartoon/animation formats: drop the photo-quality rule, keep the product recognizable.
         rules = [r for r in rules if "photography" not in r.lower()] + [ILLUSTRATED_RULE]
@@ -158,8 +168,13 @@ def extend_to_9x16(content, args, api_key):
     """
     canvas = Image.new("RGBA", SIZE, (0, 0, 0, 0))
     canvas.paste(content.convert("RGBA"), (0, TOP))
-    blob = png_bytes(canvas)
-    edges = call_api(EXTEND_PROMPT, [("canvas.png", blob)], args, api_key, size=SIZE, mask=blob,
+    image = png_bytes(canvas)
+    # The mask also opens OVERLAP px inside the 4:5 edges, so the model redraws across the seam.
+    mask = canvas.copy()
+    clear = Image.new("RGBA", (SIZE[0], OVERLAP), (0, 0, 0, 0))
+    mask.paste(clear, (0, TOP))
+    mask.paste(clear, (0, TOP + CONTENT[1] - OVERLAP))
+    edges = call_api(EXTEND_PROMPT, [("canvas.png", image)], args, api_key, size=SIZE, mask=png_bytes(mask),
                      kind="extend", quality=args.extend_quality)
     return composite(content, edges)
 
@@ -167,7 +182,8 @@ def extend_to_9x16(content, args, api_key):
 def composite(content, edges):
     alpha = Image.new("L", CONTENT, 255)
     for i in range(FEATHER):
-        v = int(255 * (i + 1) / FEATHER)
+        t = (i + 1) / FEATHER
+        v = int(255 * t * t * (3 - 2 * t))  # smoothstep: no visible ramp edge
         alpha.paste(v, (0, i, CONTENT[0], i + 1))
         alpha.paste(v, (0, CONTENT[1] - 1 - i, CONTENT[0], CONTENT[1] - i))
     out = edges.copy()
@@ -234,7 +250,8 @@ def main():
     p.add_argument("--gif", action="store_true", help="also render GIFs for concepts that define them")
     p.add_argument("--gif-only", action="store_true", help="render GIFs from existing statics without regenerating them")
     p.add_argument("--quality", default="medium", help="main 4:5 render: low | medium | high (high for product close-ups)")
-    p.add_argument("--extend-quality", default="low", help="9:16 background extension (outside the safe area)")
+    p.add_argument("--reextend", action="store_true", help="rebuild only the 9:16 from the existing 4:5 (no new render)")
+    p.add_argument("--extend-quality", default="medium", help="9:16 background extension (outside the safe area)")
     p.add_argument("--gif-quality", default="medium", help="GIF frames (shown at 544x960, 200 colors)")
     p.add_argument("--model", default=os.getenv("OPENAI_IMAGE_MODEL", "gpt-image-2"))
     p.add_argument("--extra", default="", help="extra instruction appended to every prompt")
@@ -257,6 +274,12 @@ def main():
         ref = reference_for(bdir, brand, c)
         ref_bytes = ref.read_bytes()
         try:
+            if args.reextend:
+                stem = f"{c['id']}_v{versions(out_dir, c['id'])[-1]}"
+                content = Image.open(out_dir / f"{stem}_4x5.png").convert("RGB")
+                extend_to_9x16(content, args, api_key).save(out_dir / f"{stem}.png")
+                print(f"  re-extended {stem}.png")
+                continue
             if args.gif_only:
                 stem = f"{c['id']}_v{versions(out_dir, c['id'])[-1]}"
                 content = Image.open(out_dir / f"{stem}_4x5.png").convert("RGB")
