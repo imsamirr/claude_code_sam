@@ -234,7 +234,9 @@ def render_native(bdir, brand, concept, ref, ref_bytes, args, api_key):
     """Compose the 9:16 for its full height, then re-lay it out as the 4:5 feed version."""
     full = call_api(build_prompt(bdir, brand, concept, args.extra, VERTICAL_RULE),
                     input_images(bdir, brand, concept, ref, ref_bytes), args, api_key, size=SIZE)
-    content = call_api(FEED_PROMPT, [("ad_9x16.png", png_bytes(full)), (ref.name, ref_bytes)], args, api_key,
+    # a half-size copy of the 9:16 is enough to re-lay it out and halves the input image tokens
+    small = full.resize((SIZE[0] // 2, SIZE[1] // 2), Image.LANCZOS)
+    content = call_api(FEED_PROMPT, [("ad_9x16.png", png_bytes(small)), (ref.name, ref_bytes)], args, api_key,
                        size=CONTENT, kind="feed", quality=args.feed_quality)
     return content, full
 
@@ -331,7 +333,7 @@ def main():
     p.add_argument("--week", help="weekly batch folder, e.g. 2026-W41 (default: the brand's concept library)")
     p.add_argument("--gif", action="store_true", help="also render GIFs for concepts that define them")
     p.add_argument("--gif-only", action="store_true", help="render GIFs from existing statics without regenerating them")
-    p.add_argument("--quality", default=os.getenv("ADS_QUALITY", "high"), help="main render: low | medium | high (default high: user quality bar, Oct 13)")
+    p.add_argument("--quality", default=os.getenv("ADS_QUALITY", "medium"), help="main render: low | medium | high (default medium: ~$0.13/ad with the 4:5; budget $0.10-0.20/ad)")
     p.add_argument("--layout", choices=["native", "extend"], default=os.getenv("ADS_LAYOUT", "native"),
                    help="native: compose the 9:16 for its full height, then re-lay out a 4:5 (default); "
                         "extend: render 4:5 and outpaint background above/below (older method)")

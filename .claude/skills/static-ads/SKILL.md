@@ -160,7 +160,7 @@ formats. `"group": "iteration"`.
   `brand.json` → `benchmarks` (the brand's own top statics in `reference/benchmarks/`); `generate.py`
   attaches it as a style/quality reference and adds `quality_bar`. Write prompts the way the winners look:
   shoe as the hero (35–60% of the frame, often a pair), tight legs/feet crops, one huge heavy headline,
-  ≤3 solid pills/blocks/arrows. Default render quality is high. In QA, put each render next to its
+  ≤3 solid pills/blocks/arrows. Default render quality is medium (budget). In QA, put each render next to its
   benchmark and re-render anything that looks like generic AI stock, has a small shoe or a weak headline.
 
 - **Mix**: follow `program.mix` exactly (count it before rendering), plus the funnel split
@@ -223,8 +223,9 @@ that; `--reextend` only applies to it). `generate.py` center-crops instead of st
 returns another aspect ratio, so the shoe is never squashed. If the image API rejects a prompt for safety (e.g. chemicals + mouth = "self-harm"),
 reframe the visual (side-by-side comparison) and retry.
 
-Cost per static with `--layout native` ≈ two medium renders (9:16 + 4:5 re-layout), roughly $0.12–0.16;
-check `review.py cost` after the first batch. GIF ≈ $0.14.
+Cost (user budget: $0.10–0.20 per ad, Oct 13): default medium for both renders ≈ $0.13 per ad (9:16 ≈ $0.06,
+4:5 re-layout ≈ $0.07). `--quality high` costs ≈ $0.40 per ad; never use it for a whole batch, at most
+for a single hero re-render. Check `review.py cost` after every batch. GIF ≈ $0.14.
 `--quality high` only for product close-ups. Shell gotcha: never `pkill -f`/`pgrep -f` a pattern that
 also appears in your own command line (it kills or matches the shell itself); wait on renders by
 counting `*_4x5.png` files instead.
