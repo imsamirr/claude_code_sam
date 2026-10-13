@@ -121,6 +121,34 @@ ILLUSTRATED_RULE = ("This ad is an illustration, not a photo: render the whole s
                     "recognizable as the product in the reference photo. Do not give the product a face unless asked.")
 
 
+BENCHMARK_RULE = (
+    "The FIRST attached image is the product reference. The SECOND attached image is one of this brand's own "
+    "top-performing ads: match its production quality, photo realism, product size and sharpness, typography "
+    "weight and scale, and layout cleanliness. Do not copy its words, and only follow its layout as far as the "
+    "description above asks."
+)
+
+
+def benchmark_for(bdir, brand, concept):
+    """The brand ad attached as a quality/style reference: concept['benchmark'] names a key in brand.json."""
+    key = concept.get("benchmark")
+    if not key:
+        return None
+    entry = brand.get("benchmarks", {}).get(key)
+    if not entry:
+        print(f"  note: unknown benchmark '{key}'")
+        return None
+    return bdir / entry["file"]
+
+
+def input_images(bdir, brand, concept, ref, ref_bytes):
+    images = [(ref.name, ref_bytes)]
+    bench = benchmark_for(bdir, brand, concept)
+    if bench:
+        images.append((f"benchmark{bench.suffix}", bench.read_bytes()))
+    return images
+
+
 def build_prompt(bdir, brand, concept, extra, layout_rule=FORMAT_RULE):
     parts = [layout_rule, concept["prompt"]]
     if concept.get("colorway") and not concept.get("no_product"):
@@ -142,6 +170,9 @@ def build_prompt(bdir, brand, concept, extra, layout_rule=FORMAT_RULE):
     lang = concept.get("lang", "en")
     if lang != "en":
         parts.append(brand["language_rules"][lang])
+    parts += brand.get("quality_bar", [])
+    if benchmark_for(bdir, brand, concept):
+        parts.append(BENCHMARK_RULE)
     prefs = learned_preferences(bdir, concept["id"])
     if prefs:
         parts.append(prefs)
@@ -201,8 +232,8 @@ def fit(img, size):
 
 def render_native(bdir, brand, concept, ref, ref_bytes, args, api_key):
     """Compose the 9:16 for its full height, then re-lay it out as the 4:5 feed version."""
-    full = call_api(build_prompt(bdir, brand, concept, args.extra, VERTICAL_RULE), [(ref.name, ref_bytes)],
-                    args, api_key, size=SIZE)
+    full = call_api(build_prompt(bdir, brand, concept, args.extra, VERTICAL_RULE),
+                    input_images(bdir, brand, concept, ref, ref_bytes), args, api_key, size=SIZE)
     content = call_api(FEED_PROMPT, [("ad_9x16.png", png_bytes(full)), (ref.name, ref_bytes)], args, api_key,
                        size=CONTENT, kind="feed", quality=args.feed_quality)
     return content, full
@@ -300,17 +331,18 @@ def main():
     p.add_argument("--week", help="weekly batch folder, e.g. 2026-W41 (default: the brand's concept library)")
     p.add_argument("--gif", action="store_true", help="also render GIFs for concepts that define them")
     p.add_argument("--gif-only", action="store_true", help="render GIFs from existing statics without regenerating them")
-    p.add_argument("--quality", default="medium", help="main 4:5 render: low | medium | high (high for product close-ups)")
+    p.add_argument("--quality", default=os.getenv("ADS_QUALITY", "high"), help="main render: low | medium | high (default high: user quality bar, Oct 13)")
     p.add_argument("--layout", choices=["native", "extend"], default=os.getenv("ADS_LAYOUT", "native"),
                    help="native: compose the 9:16 for its full height, then re-lay out a 4:5 (default); "
                         "extend: render 4:5 and outpaint background above/below (older method)")
-    p.add_argument("--feed-quality", default="medium", help="native layout: the 4:5 re-layout render")
+    p.add_argument("--feed-quality", default=None, help="native layout: the 4:5 re-layout render (default: same as --quality)")
     p.add_argument("--reextend", action="store_true", help="extend layout only: rebuild the 9:16 from the existing 4:5")
     p.add_argument("--extend-quality", default="medium", help="9:16 background extension (outside the safe area)")
     p.add_argument("--gif-quality", default="medium", help="GIF frames (shown at 544x960, 200 colors)")
     p.add_argument("--model", default=os.getenv("OPENAI_IMAGE_MODEL", "gpt-image-2"))
     p.add_argument("--extra", default="", help="extra instruction appended to every prompt")
     args = p.parse_args()
+    args.feed_quality = args.feed_quality or args.quality
 
     # Without OPENAI_API_KEY the request goes out unauthenticated, which works
     # when the key is configured as a network secret the proxy attaches.
@@ -344,7 +376,8 @@ def main():
                 if args.layout == "native":
                     content, full = render_native(bdir, brand, c, ref, ref_bytes, args, api_key)
                 else:
-                    content = call_api(build_prompt(bdir, brand, c, args.extra), [(ref.name, ref_bytes)], args, api_key)
+                    content = call_api(build_prompt(bdir, brand, c, args.extra),
+                                       input_images(bdir, brand, c, ref, ref_bytes), args, api_key)
                     full = extend_to_9x16(content, args, api_key)
                 save_static(content, full, out_dir, stem)
                 print(f"  saved {(out_dir / stem).relative_to(ADS_DIR.parent)}.png (+ _4x5)")

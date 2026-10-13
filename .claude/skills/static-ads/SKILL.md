@@ -156,6 +156,13 @@ formats. `"group": "iteration"`.
 
 ### Rules for every batch
 
+- **Quality benchmark (user rule, Oct 13)**: every concept sets `"benchmark"` to the closest key in
+  `brand.json` → `benchmarks` (the brand's own top statics in `reference/benchmarks/`); `generate.py`
+  attaches it as a style/quality reference and adds `quality_bar`. Write prompts the way the winners look:
+  shoe as the hero (35–60% of the frame, often a pair), tight legs/feet crops, one huge heavy headline,
+  ≤3 solid pills/blocks/arrows. Default render quality is high. In QA, put each render next to its
+  benchmark and re-render anything that looks like generic AI stock, has a small shoe or a weak headline.
+
 - **Mix**: follow `program.mix` exactly (count it before rendering), plus the funnel split
   (default ~65% top-of-funnel with no price, ~35% offer-based) and `copy_rules` / `naming_rule`.
   Also apply `program.angle_rules` (winning angles, mix-and-match, foot-pain share), `program.offer`

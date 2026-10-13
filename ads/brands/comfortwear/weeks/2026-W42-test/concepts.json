@@ -11,7 +11,8 @@
       "angle": "Foot pain (plantar fasciitis / heel pain) x nurse; lifestyle photo with feature callouts",
       "based_on": "'Dear Nurses, work 12-hour shifts pain-free' ($229,894, 4.34 ROAS) + survey: plantar fasciitis 25% + scripts 'running shoe cushioning lasts about 2 hours'",
       "headline": "Heel pain by hour 8? Your shoes quit at hour 2.",
-      "prompt": "Photographic ad in a bright, realistic hospital corridor with polished floors. A woman nurse in her 30s in navy scrubs walks toward the camera, framed from the knees down in the lower half so her black-and-purple shoes are large, sharp and fully visible from toe to heel. Upper area, large bold black headline on a soft white translucent panel: \"Heel pain by hour 8?\" and on the next line \"Your shoes quit at hour 2.\" Around the shoes, three thin white hand-drawn arrows to short white labels with a subtle dark shadow: \"Arch support that holds\", \"Cushioned heel\", \"Slip-resistant grip\". Lower-middle, a small dark navy rounded bar with white text: \"Built for 12-hour shifts\"."
+      "prompt": "Tight lifestyle close-up in a bright hospital corridor with a polished floor, background softly blurred. A woman nurse in navy scrub pants is shown only from the knees down, mid-stride, low camera angle: the pair of black-and-purple shoes fills the lower half of the frame, huge and razor sharp, knit texture and purple square pattern clearly visible. Top area, very large heavy black sans headline across the full width, two lines: \"HEEL PAIN BY HOUR 8?\" and in a lighter weight \"Your shoes quit at hour 2.\" Three black hand-drawn curved arrows from short bold black labels to the shoes: \"Arch support that holds\", \"Cushioned heel\", \"Slip-resistant grip\". Lower area, one solid deep-navy rounded pill with white bold text: \"BUILT FOR 12-HOUR SHIFTS\".",
+      "benchmark": "lifestyle_urgency"
     },
     {
       "id": "X42_02_travel_offer_cobblestones",
@@ -22,7 +23,8 @@
       "angle": "Offer stack x travel; real-scene hero with big offer type",
       "based_on": "Travel videos Kyro 293/369 ($58k-$66k, 2.15 ROAS) + Vessi 'Float over cobblestones' (100 days running) + user offer rule",
       "headline": "20,000 steps on cobblestones. Feet still happy at dinner.",
-      "prompt": "Sunny photo of a European old-town cobblestone street with warm stone buildings. A woman in her 50s in light travel clothes walks along the street, shot from mid-calf down in the middle of the frame so her navy shoes with bright blue accents are large and sharp on the cobblestones. Top area, bold white headline with a soft dark shadow: \"20,000 steps on cobblestones.\" and next line \"Feet still happy at dinner.\" Lower-middle, a clean white rounded offer card with three stacked lines in bold black: a very large \"40% OFF\", then \"30-DAY MONEY-BACK GUARANTEE\", then \"FREE SHIPPING\", separated by thin grey lines."
+      "prompt": "Tight lifestyle close-up on a sunny European cobblestone street, background softly blurred: a woman's legs in cream cropped trousers from the knees down, mid-step, low camera angle, the pair of navy shoes with bright blue accents large and sharp in the lower half of the frame. Top area, very large heavy white sans headline with no box, two lines: \"20,000 STEPS ON COBBLESTONES.\" and in a lighter weight \"Feet still happy at dinner.\" Right side, a solid purple rectangular offer block with huge white \"40%\" and smaller white \"OFF\". Below it two white rounded pills with bold black text: \"30-DAY MONEY-BACK GUARANTEE\" and \"FREE SHIPPING\".",
+      "benchmark": "offer_block"
     },
     {
       "id": "X42_03_plus_size_teacher_fb_comment",
@@ -35,7 +37,8 @@
       "based_on": "Proven angles teacher + plus-size (Kyro 170 'my weight' $106k; 'I lost 50lbs+' $93k) + Trustpilot 5-star language (traveling teacher, extra-wide feet, 'feet aren't tired after a busy day')",
       "headline": "I'm on my feet all day teaching and I'm not a small woman.",
       "compliance_note": "Comment wording is close to real Trustpilot reviews; swap in verbatim review text before running.",
-      "prompt": "Facebook comment thread on white, filling the upper and middle of the frame. Comment 1 by \"Lindsey T.\", round profile photo of a smiling plus-size woman teacher in her 40s: \"I'm on my feet 7-8 hours a day teaching and I'm not a small woman. Every shoe flattened out on me and my arches ached by lunch. These are the first ones where my feet don't hurt at the end of the day.\" Under it \"3d   Like   Reply\" and a reaction pill with count \"286\". Indented reply by \"Charmaine C.\": \"Same! They fit my extra-wide feet and I bought a second pair.\" with \"2d   Like   Reply\". Lower part of the frame, a clean natural photo of the all-black shoe on a light classroom floor next to a canvas tote bag, shoe large and in full side view."
+      "prompt": "Clean white background. Top, a very large heavy black sans headline across the full width: \"Didn't buy yet?\" and on a second line in deep navy \"Read what teachers are saying.\" Left two-thirds: two stacked Facebook-style comments (light grey rounded bubbles, small round profile photo, bold name, grey \"Like  Reply\" row, small reaction count). Comment 1 by \"Lindsey T.\" with a photo of a smiling plus-size woman in her 40s: \"I'm on my feet 7-8 hours a day teaching and I'm not a small woman. These are the first shoes where my feet don't hurt at the end of the day.\" Comment 2 by \"Charmaine C.\": \"They fit my extra-wide feet. Bought a second pair!\" Right third: a woman's leg in dark jeans from the knee down, the all-black shoe large and sharp, cropped so it slightly overlaps the comments. Bottom, one solid black rounded pill with white bold text: \"BUILT FOR LONG SCHOOL DAYS\".",
+      "benchmark": "comments_social"
     },
     {
       "id": "X42_04_by_3pm_checklist",
@@ -46,7 +49,8 @@
       "angle": "Foot-pain self-check (swelling, bunions, heel pain, arthritis); symptom checklist",
       "based_on": "Survey foot problems (PF 25%, arthritis 11%, neuropathy 10%, bunions 7%) + Senzio 'Do you have plantar fasciitis?' checklist (rising) + ComfoFeet 'Swollen feet | Solution' (360 days)",
       "headline": "Do your feet do this by 3pm?",
-      "prompt": "Clean ad on a warm cream paper-textured background. Upper third, bold dark navy serif-bold headline: \"Do your feet do this by 3pm?\" Middle, a vertical list of four rows, each with an empty square checkbox outline and dark navy text: \"Swell until your shoes feel tight\", \"Rub right where your bunion is\", \"Ache in the heel with every step\", \"Make your knees and back pay for it\". Lower-middle, the red shoe sits on the cream surface in a natural three-quarter side view, large and in full length, with a soft shadow. Under it in black: \"Wide toe box. Stretch knit. Real arch support.\""
+      "prompt": "Clean very light grey background. Top, a very large heavy black sans headline across the full width, two lines: \"DO YOUR FEET DO THIS\" and \"BY 3PM?\" Below, a compact list of four rows, each with a bold empty square checkbox and bold black text: \"Swell until your shoes feel tight\", \"Rub right where your bunion is\", \"Ache in the heel with every step\", \"Make your knees and back pay for it\". Lower half: the red shoe in a crisp studio side profile, very large, filling most of the width, sharp knit texture, soft natural floor shadow. Bottom, one solid black rounded pill with white bold text: \"WIDE TOE BOX · ARCH SUPPORT · STRETCH KNIT\".",
+      "benchmark": "callouts_white"
     },
     {
       "id": "X42_05_nurse_offer_sticky_notes",
@@ -57,7 +61,8 @@
       "angle": "Offer stack x nurse; lo-fi sticky notes on the shoe box",
       "based_on": "Stepprs sticky-note offer (386 days running) + warehouse 'WARNING' winner (3.31 ROAS) + user offer rule",
       "headline": "For 12-hour shifts on hospital floors.",
-      "prompt": "Realistic, slightly candid photo on a hospital break-room table with natural light: an open plain cardboard shoe box with the black shoe with turquoise accents resting on top of it in full side view, large and natural. A lanyard ID badge with no readable text lies beside it. Three yellow sticky notes are stuck on the box and table with handwritten black marker: one large note reads \"40% OFF\", another \"30-DAY MONEY-BACK GUARANTEE\", another \"FREE SHIPPING\". Upper area, bold black headline on a white rounded label: \"For 12-hour shifts\" and next line \"on hospital floors.\""
+      "prompt": "Realistic bright photo in a hospital staff break room, background softly blurred. Center: the black shoe with turquoise accents in crisp side view, very large (about half the frame width and more), resting on top of an open plain cardboard shoe box. Three bright yellow sticky notes with thick handwritten black marker: a large one on the box \"40% OFF\", and two on the table in front \"30-DAY MONEY-BACK GUARANTEE\" and \"FREE SHIPPING\". Top area, very large heavy black sans headline on a solid white rounded rectangle: \"FOR 12-HOUR SHIFTS\" and in a lighter weight \"on hospital floors.\"",
+      "benchmark": "warehouse_urgency"
     }
   ]
 }

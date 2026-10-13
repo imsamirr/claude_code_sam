@@ -2,8 +2,8 @@
   "name": "Comfort Wear",
   "product": "Ortho Stretch Cushion Shoe",
   "price": "$59.95 (was $90)",
-  "palette": "clean backgrounds (white, light grey, warm neutral, soft blue) or real photo scenes. Headline and body text are black, deep navy or white for contrast with the background; do NOT make the headline or body text purple. Comfort Wear purple (#7A2FE0) is an occasional small accent only (one pill, underline or highlight), and many ads use no purple at all. Offer text may use bold red or black on white/yellow.",
-  "font_style": "bold geometric sans-serif headlines (like Poppins/Montserrat ExtraBold), clean sans body text",
+  "palette": "white, light grey or clean real-photo backgrounds. Headline and body text are black, deep navy or white. Do NOT set purple text on light backgrounds. Comfort Wear purple (#7A2FE0) IS used the way the winning ads use it: as solid blocks, offer panels and rounded pills filled with purple and white text inside, or the shoe's own purple accents. Offer panels may also be deep navy, red or yellow.",
+  "font_style": "heavy geometric sans-serif (Montserrat Black / Gotham Black / Poppins ExtraBold) or a bold condensed sans for headlines, set very large across nearly the full width, tight leading, 2 lines max; mix weights inside a headline for emphasis (e.g. 'Dear' regular, 'Nurses' bold); clean sans for small copy",
   "website": "comfortorthowear.com",
   "prompt_rules": [
     "The shoe MUST be the exact shoe in the attached studio reference photo, unchanged: same colors, stretch-knit sock-style upper with pull tab, grid-of-small-squares pattern on the side panel, elastic bungee laces with a round toggle, double-chevron logo on the inner collar, chunky rocker midsole with a wavy side profile, lug outsole. Keep its proportions and every detail; only change its angle, lighting and setting as the layout requires. Do not invent a different shoe, logo or sole.",
@@ -307,5 +307,67 @@
     "Price: $59.95 (was $90)",
     "HSA/FSA eligible",
     "Arch support, cushioned heel, wide toe box, stretch-knit upper, slip-resistant grip, elastic no-tie laces"
-  ]
+  ],
+  "quality_bar": [
+    "Match the quality of the brand's own top-performing ads (the benchmark image): polished commercial e-commerce production, crisp and bright, nothing that looks like generic AI stock art.",
+    "The shoe is the hero: it fills roughly 35-60% of the frame, sharp enough to see the knit texture, square pattern and bungee laces; often shown as a pair. Never a small shoe inside a wide scene.",
+    "Lifestyle shots crop tight on legs and feet (knee or mid-calf down), low camera angle, background softly blurred; faces are optional and never compete with the shoe.",
+    "Typography: one very large, heavy headline across nearly the full width, max 2 lines, high contrast, directly on a clean area of the image or on a solid shape. No translucent boxes, no drop-shadowed text over busy areas, no small headline.",
+    "Few elements: headline + product + at most 3 supporting elements (solid rounded pills, a solid offer block, or black hand-drawn curved arrows pointing at shoe features). Generous spacing, aligned edges."
+  ],
+  "benchmarks": {
+    "callouts_white": {
+      "file": "reference/benchmarks/dear_nurses_callouts_1x1.jpg",
+      "use_for": "product on white with hand-drawn arrow callouts, checklists, clean educational layouts"
+    },
+    "lifestyle_legs_9x16": {
+      "file": "reference/benchmarks/named_best_teacher_shoes_lifestyle_9x16.jpg",
+      "use_for": "lifestyle legs/feet close-up with big headline, 9:16 flow, award/authority claims"
+    },
+    "offer_block": {
+      "file": "reference/benchmarks/ditch_the_hokas_offer_1x1.jpg",
+      "use_for": "offer ads: legs crop + solid offer block + pills, competitor switch"
+    },
+    "lifestyle_urgency": {
+      "file": "reference/benchmarks/almost_sold_out_lifestyle_1x1.jpg",
+      "use_for": "lifestyle walking shot with urgency headline, detail-shot strip, offer pill"
+    },
+    "anatomy_split": {
+      "file": "reference/benchmarks/shoe_for_plantar_fasciitis_anatomy_4x5.jpg",
+      "use_for": "foot-pain mechanism, anatomy vs shoe split, condition-led headline"
+    },
+    "list_white": {
+      "file": "reference/benchmarks/w_12_hour_shift_list_858k.jpg",
+      "use_for": "headline + feature list + big product on soft background ($858k winner)"
+    },
+    "diagram_grey": {
+      "file": "reference/benchmarks/w_shoes_for_12h_shifts_diagram_457k.jpg",
+      "use_for": "product diagram with labeled features and pain-area inset ($457k winner)"
+    },
+    "comments_social": {
+      "file": "reference/benchmarks/w_didnt_buy_yet_comments_3x_roas.jpg",
+      "use_for": "native comments / testimonial with product or legs on the side (3.05 ROAS)"
+    },
+    "warehouse_urgency": {
+      "file": "reference/benchmarks/w_warning_warehouse_3x_roas.jpg",
+      "use_for": "real-photo urgency/scarcity, lo-fi offer, stock/restock (3.31 ROAS)"
+    },
+    "strikethrough_split": {
+      "file": "reference/benchmarks/w_hoka_strikethrough_solution_90k.jpg",
+      "use_for": "us vs them, crossed-out alternatives + solution panel"
+    },
+    "statement_list": {
+      "file": "reference/benchmarks/w_ditching_my_hokas_list.jpg",
+      "use_for": "bold statement headline + bullet list + product"
+    },
+    "transformation": {
+      "file": "reference/benchmarks/w_lost_50lbs_walking_93k.jpg",
+      "use_for": "transformation/claim headline with product and social proof"
+    },
+    "pills_gradient": {
+      "file": "reference/benchmarks/w_game_changer_long_shifts_120k.jpg",
+      "use_for": "occupation headline + feature pills + product pair on brand gradient"
+    }
+  },
+  "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference."
 }
