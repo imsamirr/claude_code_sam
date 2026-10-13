@@ -217,7 +217,7 @@
   "language_rules": {
     "es": "All on-image text is in Spanish exactly as written in quotes, as a Spanish-speaking person living in the USA would say it (neutral US Latino, Mexican-leaning, using 'tú'). Keep every accent and sign: á é í ó ú ñ ¿ ¡. Numbers in US format (12,000 not 12.000; $59.95). Do not translate brand names. Use only the Spanish text given in quotes: do not add feature lists, icons with captions, price tags, badges or extra panels."
   },
-  "audience": "Women only: the product is a women's shoe. Whoever wears the shoe in an ad is always a woman; men may appear only as gift-givers or background people, never wearing the product.",
+  "audience": "Women only: the product is a women's shoe. Whoever wears the shoe in an ad is always a woman; men may appear only as gift-givers or background people, never wearing the product. Core buyers are 50-65+ (survey: 47% are 65+), so every word on the ad must be easy to read for older eyes.",
   "drive_folder_id": "1EAtch1T-oTW95VSiIYYP38mCjmSHEvZh",
   "asana": {
     "project_id": "1203476664398273",
@@ -313,7 +313,8 @@
     "The shoe is the hero: it fills roughly 35-60% of the frame, sharp enough to see the knit texture, square pattern and bungee laces; often shown as a pair. Never a small shoe inside a wide scene.",
     "Lifestyle shots crop tight on legs and feet (knee or mid-calf down), low camera angle, background softly blurred; faces are optional and never compete with the shoe.",
     "Typography: one very large, heavy headline across nearly the full width, max 2 lines, high contrast, directly on a clean area of the image or on a solid shape. No translucent boxes, no drop-shadowed text over busy areas, no small headline.",
-    "Few elements: headline + product + at most 3 supporting elements (solid rounded pills, a solid offer block, or black hand-drawn curved arrows pointing at shoe features). Generous spacing, aligned edges."
+    "Few elements: headline + product + at most 3 supporting elements (solid rounded pills, a solid offer block, or black hand-drawn curved arrows pointing at shoe features). Generous spacing, aligned edges.",
+    "Legibility for women 60+ (user rule 2026-10-13): all supporting text (feature/benefit labels, arrow callouts, pills, checklist rows, offer lines, comments) is large and bold enough to read on a phone at arm's length: at least about 1/25 of the canvas height per line (about 75px tall on the 9:16, 55px on the 4:5), high contrast, no light or thin weights, max 4-5 words per label. Use fewer, shorter labels rather than smaller text."
   ],
   "benchmarks": {
     "callouts_white": {

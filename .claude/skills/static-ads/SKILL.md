@@ -246,6 +246,8 @@ counting `*_4x5.png` files instead.
 - 9:16 that doesn't use its full height (blurred/empty/filler top or bottom), a 4:5 whose copy differs from
   its 9:16 or is cut off;
 - a compressed, flattened, shortened or stretched shoe, or a shoe that's too small in the scene;
+- supporting text (labels, pills, checklist, offer lines) too small to read for the audience (Comfort Wear:
+  women 60+, see the legibility rule in `quality_bar`);
 - purple headline/body text (purple is a small accent only);
 - a native format that doesn't look like the real platform, or competitor logos.
 `review.py sheet` with ids overwrites page 1: delete `_preview_*` and rebuild the full sheets at the end.
