@@ -72,3 +72,19 @@ day-grid (tongues), big-number tiles, celebrity/UGC holding jar, foreign-languag
 
 Personas live in `brand.json`. Launch mix (`weeks/2026-W42-launch`, 30 statics): 12 core bad breath,
 6 mouth + gut, 6 tonsil/throat, 6 tests (GLP-1, aligners, gums, skeptic, after antibiotics, romance).
+
+## 6. Perio breath (research Oct 12, batch `weeks/2026-W42-perio`)
+
+- About 4 in 10 US adults over 30 have gum disease (42–47%; 70% of 65+). People with it are ~3.6x more
+  likely to have measurable bad breath. Most don't know they have it: the clues are blood on the
+  brush or floss, floss that smells, and breath that's back by lunch.
+- The fear is closeness, not hygiene: 85% of UK singles call bad breath the biggest turn-off, 80%
+  wouldn't go on a second date; one 10-second kiss passes ~80 million bacteria.
+- Gap: romance ads sell sprays that mask; gum ads sell devices/softgels. Nobody links bleeding gums
+  to breath failing up close.
+- Audiences: long-term partner (biggest), dater (urgent), late-night crowd, partner who can't say
+  it (gift / routine for two), 40+ women with gum changes.
+- Copy rules (user Oct 13): plain words, no technical terms (no strain names, "periodontitis",
+  "sulfur compounds"), aggressive. Safe: "supports fresher breath and healthy gums", "daily support
+  between cleanings", "bleeding gums are a sign to see your dentist". Never: treats/reverses gum
+  disease, replaces cleanings, "contagious", "Are you hiding gum disease?", sexual language.

@@ -104,6 +104,11 @@
       "name": "Scam-weary skeptic who wants strain names, lab tests and a guarantee",
       "source": "brief: 'too many scams out there'; trust is the barrier",
       "colorways": "any"
+    },
+    "dater": {
+      "name": "The dater: new relationship or back on the apps; gum in the car, brushing in the restaurant bathroom",
+      "source": "perio brief (Oct 12): 85% of singles call bad breath the biggest turn-off; 80% no second date",
+      "colorways": "any"
     }
   },
   "language_rules": {},

@@ -1,0 +1,119 @@
+{
+  "batch": "2026-W42-perio",
+  "brand": "dentalprobiotics",
+  "note": "10 perio-breath concepts from the Oct 12 perio research: gum-line breath, partners and dates. Plain words, aggressive DR, no treatment claims, 'see your dentist' line on the gum-bleeding ads.",
+  "concepts": [
+    {
+      "id": "P42_01_smell_your_floss",
+      "group": "net_new",
+      "persona": "gum_worried",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Self-check: the floss smell test",
+      "based_on": "Perio brief hook 'Floss your back teeth tonight and smell it' + static concept 'The floss test'",
+      "headline": "Smell your floss tonight.",
+      "prompt": "Realistic close-up photo in a bright bathroom: a woman in her 40s holds a used piece of white dental floss up near her nose and winces, eyes squinting, slightly disgusted. Huge bold black headline on a white band at the top: \"Smell your floss tonight.\" Second line in royal blue: \"That's what they smell when you lean in.\" Bottom right: the DentalPULSE jar on the bathroom counter with a navy pill: \"Fresher breath starts at the gums. 1 capsule a day.\""
+    },
+    {
+      "id": "P42_02_pink_in_the_sink",
+      "group": "net_new",
+      "persona": "gum_worried",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Reframe: bleeding when brushing = a breath problem",
+      "based_on": "Perio brief hook 'Pink in the sink isn't a brushing problem. It's a breath problem.'",
+      "headline": "Pink in the sink isn't a brushing problem.",
+      "prompt": "Clean top-down photo of a white bathroom sink with a toothbrush resting on the edge and a little toothpaste foam with a faint light-pink tint near the drain (subtle, not gory, no blood drops). Big bold navy headline at the top: \"Pink in the sink isn't a brushing problem.\" Under it in bold red: \"It's a breath problem.\" Bottom: the DentalPULSE jar beside the sink with a white strip of small dark text: \"Bleeding gums are a sign to see your dentist. Then support your gums every day.\""
+    },
+    {
+      "id": "P42_03_door_kiss",
+      "group": "net_new",
+      "persona": "partner",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Long-term partner: the kiss at the door stopped",
+      "based_on": "Perio brief UGC concept 'The door kiss' + hook 'He used to kiss me when I walked in'",
+      "headline": "He used to kiss me when I walked in.",
+      "prompt": "Cinematic warm photo of a home entryway in the evening: a woman in her 40s with a work bag stands just inside the front door looking hurt, while her husband in the background walks past toward the kitchen without kissing her. Big white bold headline with soft shadow at the top: \"He used to kiss me when I walked in.\" Bottom, white text: \"I thought he stopped loving me.\" then bold on a royal-blue box: \"It was my gums.\" Lower right corner: the DentalPULSE jar on the entry table."
+    },
+    {
+      "id": "P42_04_two_kinds_bad_breath",
+      "group": "net_new",
+      "persona": "does_everything_right",
+      "lang": "en",
+      "colorway": "jar_capsules",
+      "angle": "Education split: morning breath vs gum breath",
+      "based_on": "Perio brief hook 'Morning breath goes away after you brush. This kind doesn't.' + hygienist concept",
+      "headline": "There are 2 kinds of bad breath. Brushing only fixes one.",
+      "prompt": "Clean split ad. Headline across the top in bold navy on white: \"There are 2 kinds of bad breath. Brushing only fixes one.\" Left half, bright morning light: a toothbrush with toothpaste and a sunrise, caption \"MORNING BREATH\" and \"Gone after you brush.\" Right half, cooler tone: a wall clock showing 12:00 and a half-eaten lunch, caption \"GUM BREATH\" and \"Back by lunch. Every day.\" Bottom center: the DentalPULSE jar with two white capsules and a bold blue line: \"Get to the gums. 1 capsule a day.\" Tiny grey line: \"Bleeding gums? See your dentist.\""
+    },
+    {
+      "id": "P42_05_4_in_10_stop_leaning_in",
+      "group": "net_new",
+      "persona": "social_signal",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Big stat: 4 in 10 adults, most don't know",
+      "based_on": "Perio brief stat hook '4 in 10 adults over 30 have gum disease. Most have no idea.'",
+      "headline": "4 IN 10 adults over 30 have gum disease.",
+      "prompt": "Bold typographic ad on a deep navy background. Giant white \"4 IN 10\" across the top half. Under it in white bold: \"adults over 30 have gum disease.\" Then in light blue: \"Most have no idea…\" and on the next line in bold white: \"…until someone stops leaning in.\" Bottom: the DentalPULSE jar lit with a blue rim light and a small white pill under it: \"Daily support for fresher breath and healthier gums.\""
+    },
+    {
+      "id": "P42_06_arms_length_vs_inches",
+      "group": "net_new",
+      "persona": "partner",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Perfume works at arm's length; breath is judged at inches",
+      "based_on": "Perio brief concept 'Arm's length vs inches away'; Breevelle close-range ad",
+      "headline": "Your perfume can't help you here.",
+      "prompt": "Two stacked panels with a thin white divider. Top panel: an elegant unbranded glass perfume bottle on a vanity, caption in white on soft pink: \"Perfume works at arm's length.\" Bottom panel: a close side-view photo of a man and woman face to face, noses almost touching, smiling softly, warm light, caption in white: \"Breath gets judged at inches.\" Big bold headline overlaid at the very top: \"Your perfume can't help you here.\" Bottom right corner: the DentalPULSE jar with a royal-blue pill: \"Fresher breath starts at the gums.\""
+    },
+    {
+      "id": "P42_07_80_million_kiss",
+      "group": "net_new",
+      "persona": "dater",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Shared mouth: 80 million bacteria in one kiss",
+      "based_on": "Perio brief stat: 80 million bacteria pass in one 10-second kiss (Kort 2014)",
+      "headline": "One 10-second kiss shares 80 million germs.",
+      "prompt": "Warm, wholesome photo of a smiling couple in their early 30s, fully dressed in coats, standing close on a city street at dusk with their foreheads gently touching and eyes closed, laughing softly; warm bokeh street lights. Big bold white headline at the top: \"One 10-second kiss shares 80 million germs.\" Bold royal-blue box below: \"Make sure yours are the good ones.\" Bottom right: the DentalPULSE jar with a small white line: \"1 capsule a day for a fresher, healthier mouth.\""
+    },
+    {
+      "id": "P42_08_x_post_facing_the_wall",
+      "group": "net_new",
+      "persona": "partner",
+      "lang": "en",
+      "colorway": "jar_capsules",
+      "format": "x_post",
+      "angle": "Long-term partner confession · native X post",
+      "based_on": "Perio brief: partner sleeps facing away; 'nobody tells you'",
+      "headline": "my husband started sleeping facing the wall",
+      "prompt": "An X post screenshot. Profile photo of a woman in her 40s, display name \"Rachel B.\" and handle \"@rachelbakes_\". Post text: \"my husband started sleeping facing the wall. I thought we were done. turns out it was my breath, and not my teeth, my GUMS. dentist cleaning + one capsule a day and he faces me again. nobody tells you this stuff\" Attached photo with rounded corners: the DentalPULSE jar with two capsules on a nightstand next to a lamp. Engagement counts: 1.1K replies, 3.4K reposts, 41K likes, 2.1M views."
+    },
+    {
+      "id": "P42_09_routine_for_two",
+      "group": "net_new",
+      "persona": "partner",
+      "lang": "en",
+      "colorway": "jar",
+      "angle": "Partner who can't say it: a routine for two",
+      "based_on": "Perio brief concept 'A routine for two' + hook 'I love him. I just can't kiss him.'",
+      "headline": "I love him. I just couldn't kiss him.",
+      "prompt": "Warm bright bathroom photo: two identical DentalPULSE jars side by side on the counter, a blue and a pink toothbrush in one cup behind them, a small handwritten sticky note on the mirror reading \"ours ♡\". Big bold navy headline at the top: \"I love him. I just couldn't kiss him.\" Sub-line in dark text: \"So I bought us a routine for two. No awkward talk.\" Bottom: royal-blue pill: \"Fresher breath, healthier gums. Together.\""
+    },
+    {
+      "id": "P42_10_comic_goodnight_kiss",
+      "group": "net_new",
+      "persona": "dater",
+      "lang": "en",
+      "colorway": "jar",
+      "format": "comic_strip",
+      "angle": "Dater: gum, mints, bathroom brushing → goodnight kiss · 4-panel comic",
+      "based_on": "Perio brief hook 'Gum in the car, mint at the table, brushing in the bathroom. And I was still scared of the goodnight kiss.'",
+      "headline": "Now I lean in first.",
+      "prompt": "A 4-panel webcomic about a woman in her 30s dating. Panel 1: in her car before a date, chewing gum nervously, caption \"Gum in the car.\" Panel 2: in a restaurant bathroom secretly brushing her teeth, caption \"Brushing in the bathroom.\" Panel 3: morning at home taking a capsule with water, the DentalPULSE jar on the counter, caption \"Then I started at the gums.\" Panel 4: at her front door at night, smiling and leaning in for a sweet goodnight kiss with her date, caption \"Now I lean in first.\" Clean, sweet, non-sexual."
+    }
+  ]
+}
