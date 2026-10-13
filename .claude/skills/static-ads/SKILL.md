@@ -44,7 +44,9 @@ unique forever. (Comfort Wear's `weeks/2026-W42` and `2026-W43` predate the `-tu
 5. **The enemy**: what customers used before (toothbrush, Polident, vinegar…) and whether those may be
    named or shown (`old_methods`). Competitors: who they are (`competitor_brands`) and whether naming
    is allowed (default: competitor pods/products unbranded).
-6. **Data**: feedback/survey sheet link, Atria ad-account name, asset folder in Drive.
+6. **Data**: feedback/survey sheet link, Atria ad-account name, asset folder in Drive, and the team's
+   **creative strategy briefs / research docs** (Notion, Google Docs): read them, don't guess the strategy.
+   Also ask what the product should be called for cold audiences (e.g. "ultrasonic cleaner", not "Pod").
 7. **Languages** (Spanish or not), **cadence** (default Tue iterations 20 + Fri net-new 40), **delivery**
    (Drive folder, Slack id or channel).
 
@@ -69,11 +71,17 @@ unique forever. (Comfort Wear's `weeks/2026-W42` and `2026-W43` predate the `-tu
      top ads. Note formats (comparison, listicle, native advertorial, offer) and which product/persona
      carries spend; check whether ROAS is readable (`program.roas_note`).
    - **Competitors**: set `competitor_brands` (direct competitors + 8–12 adjacent DTC brands in the
-     category), run `atria_pull.py competitors`, then `contact_sheet.py competitor_ads.csv --by brand`.
+     category) and `inspo_queries`, run `atria_pull.py competitors` (sorted by **most impressions**, so
+     you see what gets delivery now), filter to the category, then `contact_sheet.py <csv> --per 40`.
      Read every page; write a "formats to borrow" playbook: per brand the longest-running formats and
      hooks, then a numbered "what to take" list (name the incumbent, before/after in hand, shock headline,
      native UI frames, premium offer tile, starter pack, big numbers, timely callouts…).
-   - **Survey/feedback sheet**: download via Drive (`download_file_content`, text/csv). Keep only
+   - **Creative briefs (Notion etc.)**: delegate a read-only subagent to digest every monthly brief,
+     research and competitor page into `research/notion_brief.md` (concepts to test, controversial lines,
+     mechanism, proof, formats, offers, 20 sharpest hooks, citations). Briefs drive the net-new concepts.
+   - **Survey/feedback sheet**: delegate a deep dive (counts per segment, purchase reasons, frustrations,
+     objections, wins verbatim, 1–2★ themes, headline banks) into `research/feedback_deep_dive.md`;
+     download via Drive (`download_file_content`, text/csv). Keep only
      aggregates and short anonymous quotes; never commit raw rows, emails or order numbers. Pull: appliance
      or use-case split, ages, previous method, frustrations, objections, wins in their words, who noticed,
      and the negatives to design around (claims that disappointed people).
@@ -148,7 +156,19 @@ formats. `"group": "iteration"`.
 
 ### Rules for every batch
 
-- **Mix**: follow `program.mix` exactly (count it before rendering).
+- **Mix**: follow `program.mix` exactly (count it before rendering), plus the funnel split
+  (default ~65% top-of-funnel with no price, ~35% offer-based) and `copy_rules` / `naming_rule`.
+- **Variety (user rule)**: every concept in a batch uses a different format. Rotate across the
+  top-impression category formats (analysis.md) and the briefs' formats: insult/shock headline + sticky-note
+  offer, lo-fi real photo with minimal text, imaging/petri/microscope proof, price-anchor replacement,
+  value-stack bundle flat-lay, big quote over product, real-world sign, advertorial article card, native UI
+  (iOS reminder, cart, texts), founder letter, stat pictogram, news split-face, hand + arrows offer,
+  ranking grid / report card, post-it confession, timeline, gift static, cartoon formats.
+- **Direct response**: pain in the customer's words → agitate → mechanism → proof/offer. Make the top
+  purchase reasons explicit and visual (for DentalPULSE: bacteria and yellow stains). Controversial
+  enemy framing is welcome when the brand asks for it.
+- **No-product concepts**: lo-fi/native images that shouldn't show the product set `"no_product": true`
+  (generate.py then drops the product-fidelity rule and tells the model not to show it).
 - **Unique**: no two concepts share persona + angle. Mix formats: lifestyle photo, product + callouts,
   split/before-after, ranked list/scorecard, native comment/review/post, phone UI (texts, notes, cart,
   incoming call), big-number type, shock close-up, starter-pack flat-lay, premium offer tile, cartoon.
@@ -185,6 +205,12 @@ python ads/generate.py --brand <brand> --week ../format_examples <ids>    # form
 python ads/review.py cost --brand <brand> --week <folder>                 # actual spend
 ```
 
+The 9:16 is outpainted from the 4:5: the model redraws ~120 px across the seam and only the outer
+40 px are blended, so the crop isn't visible; layouts keep text 12% from the top/bottom and backgrounds
+running to the edges. `--reextend <ids>` rebuilds only the 9:16 from an existing 4:5 (~$0.04) when the
+extension looks off. If the image API rejects a prompt for safety (e.g. chemicals + mouth = "self-harm"),
+reframe the visual (side-by-side comparison) and retry.
+
 Measured gpt-image-2 cost per static ≈ $0.08 (medium 4:5 render + low 9:16 extension); GIF ≈ $0.14.
 `--quality high` only for product close-ups. Shell gotcha: never `pkill -f`/`pgrep -f` a pattern that
 also appears in your own command line (it kills or matches the shell itself); wait on renders by
@@ -201,6 +227,10 @@ counting `*_4x5.png` files instead.
 - wrong product facts (e.g. a 3-minute timer), claims outside `approved_claims`;
 - wrong people using the product, distorted hands/mouths/appliances;
 - weak before/after (the "before" must look clearly worse);
+- a product forced into a `no_product` concept, two copies of the product, bundle items at the wrong scale
+  (accessories must look smaller than the hero product), non-physical items (warranties) shown as objects;
+- 9:16 extension problems: ghosted/duplicated text, odd objects in the top/bottom band, a visible seam
+  (fix with `--reextend`);
 - a native format that doesn't look like the real platform, or competitor logos.
 `review.py sheet` with ids overwrites page 1: delete `_preview_*` and rebuild the full sheets at the end.
 
