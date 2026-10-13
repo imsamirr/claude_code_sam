@@ -367,6 +367,26 @@
     "pills_gradient": {
       "file": "reference/benchmarks/w_game_changer_long_shifts_120k.jpg",
       "use_for": "occupation headline + feature pills + product pair on brand gradient"
+    },
+    "hsa_minimal_9x16": {
+      "file": "reference/benchmarks/hsa_fsa_did_you_know_9x16.jpg",
+      "use_for": "minimal 'did you know' fact/benefit on soft gradient, one large studio shoe, centered text, 9:16"
+    },
+    "comments_offer": {
+      "file": "reference/benchmarks/didnt_buy_yet_comments_1x1.jpg",
+      "use_for": "stacked Facebook comments + large shoe/leg on the right + offer line; retargeting ($50k, 3.05 ROAS original)"
+    },
+    "versus_split_9x16": {
+      "file": "reference/benchmarks/brooks_vs_recommended_split_9x16.jpg",
+      "use_for": "competitor vs ours split columns with X/check pills, headline in solid bars, 9:16"
+    },
+    "condition_icons": {
+      "file": "reference/benchmarks/mortons_toe_relief_icons_4x5.jpg",
+      "use_for": "condition-led headline in solid bars, real-room shoe pair, pain inset circle, 4 feature photo tiles, offer ribbon"
+    },
+    "pills_offer_studio": {
+      "file": "reference/benchmarks/built_for_12h_shifts_pills_1x1.jpg",
+      "use_for": "studio leg + shoe on white, 40% OFF circle, headline with colored second line, 5 check pills, 'try risk-free' button"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference."

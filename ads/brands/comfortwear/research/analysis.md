@@ -244,3 +244,26 @@ claims we avoid ("recommended by podiatrists", "free returns"); iterations keep 
 4. **Colors:** test all colors, weighted to the best sellers (in order): Black/Purple, All Black, White Blue, Black/White, Red, Turquoise/Black, about 80/20 (`colorway_priority`).
 5. **Offer creatives:** ~30% of each batch shows "40% OFF + 30-DAY MONEY-BACK GUARANTEE + FREE SHIPPING".
 6. **Angles:** nurses, travel, teachers, plus-size (mix and match), and ≥40% of each batch leads with a foot-pain problem from the survey and reviews.
+
+## 13. Quality benchmarks, 2026-10-13 (`reference/benchmarks/`, keys in brand.json → `benchmarks`)
+
+18 images: 10 the creative director picked as the quality bar, plus 8 top $5k+ winners pulled from Atria. Performance from Atria (WearOrtho, monthly top-50 windows since Jan 2024) where the ad name could be matched:
+
+| Benchmark | Proven by |
+|---|---|
+| Dear Nurses callouts (`callouts_white`) | $208k at 2.92 ROAS, $27 CPA, plus a $22k ad set at 17.8 ROAS: the most efficient big static |
+| Didn't buy yet comments (`comments_offer`, `comments_social`) | $50k at 3.05 ROAS, still active (RTGv1_C3) |
+| Almost sold out (`lifestyle_urgency`) | $8.7k at 3.97 ROAS, $25 CPA |
+| 12-hour shift list (`list_white`) | $858k across 8 ads |
+| Shoes for 12-hour shifts diagram (`diagram_grey`) | $457k |
+| Warning warehouse (`warehouse_urgency`) | $19k at 3.31 ROAS |
+| HSA/FSA, Brooks split, Morton's, Built for 12h, teachers.org, Ditch the Hokas, PF anatomy | recent/creative-director picks (newer names don't match the older ad naming; spend not attributed) |
+
+**What every benchmark shares (the bar):**
+1. **The shoe is real studio-grade product photography**: crisp knit, exact colorway, true proportions, usually 40–60% of the frame. When a person appears it's only legs/feet, and the shoe still dominates.
+2. **One message, read in 1 second**: a big headline (often 2 lines with a weight or color change on the key words), then at most one supporting line.
+3. **Structure from solid shapes**: solid headline bars (Brooks, Morton's), solid pills with check icons (Built for 12h), a solid offer block or circle (Ditch the Hokas, 40% OFF circle), thin hand-drawn arrows (Dear Nurses). No translucent overlays.
+4. **Backgrounds are plain or quiet**: white, soft grey, soft gradient (HSA), or a real room or street softly out of focus.
+5. **Proof devices are native and specific**: real-looking Facebook comments with names and reactions; competitor named in the headline with X vs check rows; condition named in the headline with a small pain inset.
+6. **Offer elements are compact**: a circle, ribbon, block or single line ("40% OFF", "Try risk-free"), never the whole canvas.
+7. **Two text colors max**: black/white plus one accent (brand purple, royal blue or red) as a solid fill or for the key words of the headline.
