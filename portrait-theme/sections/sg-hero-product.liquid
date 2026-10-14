@@ -16,6 +16,11 @@
     assign has_options = true
   endif
   assign gallery_id = 'SgGallery-' | append: section.id
+  assign preview_enabled = false
+  if section.settings.enable_upload and section.settings.preview_endpoint != blank
+    assign preview_enabled = true
+  endif
+  assign preview_category = template.suffix | default: 'classic'
 -%}
 
 <section
@@ -78,6 +83,12 @@
             <span class="sg-gallery__badge">{{ section.settings.badge }}</span>
           {%- endif -%}
           <div class="sg-gallery__viewport" data-sg-viewport>
+            {%- if preview_enabled -%}
+              <div class="sg-gallery__result" data-sg-result hidden>
+                <img data-sg-result-img alt="Your personalised portrait preview" width="1024" height="1536">
+                <span class="sg-gallery__result-tag">Your preview</span>
+              </div>
+            {%- endif -%}
             <div class="sg-gallery__track" data-sg-track>
               {%- if p != blank and p.media.size > 0 -%}
                 {%- for media in p.media -%}
@@ -248,6 +259,31 @@
                     </span>
                   </span>
                 </label>
+                {%- if preview_enabled -%}
+                  <div
+                    class="sg-preview"
+                    data-sg-preview
+                    data-endpoint="{{ section.settings.preview_endpoint | strip | escape }}"
+                    data-category="{{ preview_category | escape }}"
+                    data-label-first="{{ section.settings.preview_button_label | escape }}"
+                    data-label-again="{{ section.settings.preview_again_label | escape }}"
+                    data-label-remaining="{{ section.settings.preview_remaining_label | escape }}"
+                    hidden
+                  >
+                    <button type="button" class="sg-btn sg-btn--primary sg-btn--block" data-sg-preview-btn>
+                      {%- render 'sg-icon', name: 'sparkles' -%}
+                      <span data-sg-preview-btn-label>{{ section.settings.preview_button_label }}</span>
+                    </button>
+                    <div class="sg-preview__loading" data-sg-preview-loading hidden>
+                      <span class="sg-spinner" aria-hidden="true"></span>
+                      <span>{{ section.settings.preview_loading_text }}</span>
+                    </div>
+                    <p class="sg-preview__note" data-sg-preview-note hidden></p>
+                    <p class="sg-preview__error" data-sg-preview-error role="alert" hidden></p>
+                  </div>
+                  <input type="hidden" name="properties[_preview_id]" data-sg-preview-id disabled>
+                  <input type="hidden" name="properties[Preview]" data-sg-preview-url disabled>
+                {%- endif -%}
                 {%- if section.settings.private_strong != blank or section.settings.private_text != blank -%}
                   <p class="sg-private"><strong>{{ section.settings.private_strong }}</strong> {{ section.settings.private_text }}</p>
                 {%- endif -%}
@@ -258,6 +294,9 @@
           <div
             class="sg-hero__buy sg-buy"
             data-sg-buy
+            {% if preview_enabled %}
+              data-sg-buy-after-preview
+            {% endif %}
             {% if section.settings.enable_upload and section.settings.reveal_after_upload %}
               hidden
             {% endif %}
@@ -631,6 +670,41 @@
       "id": "private_text",
       "label": "Privacy note",
       "default": "— your photos are never shared"
+    },
+    {
+      "type": "header",
+      "content": "AI preview"
+    },
+    {
+      "type": "text",
+      "id": "preview_endpoint",
+      "label": "Preview server URL",
+      "info": "e.g. https://divine-gifts-preview.<account>.workers.dev/api/preview — leave empty to turn previews off."
+    },
+    {
+      "type": "text",
+      "id": "preview_button_label",
+      "label": "Preview button",
+      "default": "Create my free preview"
+    },
+    {
+      "type": "text",
+      "id": "preview_again_label",
+      "label": "Regenerate button",
+      "default": "Try this style"
+    },
+    {
+      "type": "text",
+      "id": "preview_loading_text",
+      "label": "Loading message",
+      "default": "Painting your portrait… this takes about 30–60 seconds."
+    },
+    {
+      "type": "text",
+      "id": "preview_remaining_label",
+      "label": "Previews left message",
+      "info": "[count] is replaced with the number left today.",
+      "default": "Love it? Choose your format below. [count] free previews left today."
     },
     {
       "type": "header",

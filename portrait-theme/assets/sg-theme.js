@@ -108,6 +108,8 @@
     // upload
     const drop = $('[data-sg-dropzone]', root);
     const buy = $('[data-sg-buy]', root);
+    const preview = $('[data-sg-preview]', root);
+    if (preview && drop) initPreview(root, preview, drop, buy);
     if (drop) {
       const file = $('input[type="file"]', drop);
       const img = $('[data-sg-preview-img]', drop);
@@ -122,7 +124,10 @@
           reader.onload = (e) => { img.src = e.target.result; };
           reader.readAsDataURL(f);
         }
-        if (buy) {
+        if (preview) {
+          preview.hidden = false;
+          setTimeout(() => preview.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 60);
+        } else if (buy) {
           buy.hidden = false;
           setTimeout(() => buy.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 60);
         }
@@ -190,8 +195,112 @@
         drop.scrollIntoView({ behavior: 'smooth', block: 'center' });
         return;
       }
+      const previewId = $('[data-sg-preview-id]', root);
+      if (preview && previewId && (previewId.disabled || (buy && buy.hidden))) {
+        e.preventDefault();
+        preview.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        return;
+      }
       if (submit) { submit.disabled = true; submit.setAttribute('aria-busy', 'true'); }
     });
+  }
+
+  /* ---------- AI preview (talks to the preview server) ---------- */
+  // Downscale big phone photos before upload; falls back to the original file.
+  async function shrinkPhoto(file, max = 2048) {
+    try {
+      if (!('createImageBitmap' in window)) return file;
+      const bmp = await createImageBitmap(file, { imageOrientation: 'from-image' });
+      const scale = Math.min(1, max / Math.max(bmp.width, bmp.height));
+      if (scale === 1 && file.type === 'image/jpeg' && file.size < 4e6) return file;
+      const canvas = document.createElement('canvas');
+      canvas.width = Math.round(bmp.width * scale);
+      canvas.height = Math.round(bmp.height * scale);
+      canvas.getContext('2d').drawImage(bmp, 0, 0, canvas.width, canvas.height);
+      const blob = await new Promise((ok) => canvas.toBlob(ok, 'image/jpeg', 0.9));
+      return blob ? new File([blob], 'photo.jpg', { type: 'image/jpeg' }) : file;
+    } catch (e) {
+      return file;
+    }
+  }
+
+  function initPreview(root, pv, drop, buy) {
+    const btn = $('[data-sg-preview-btn]', pv);
+    const label = $('[data-sg-preview-btn-label]', pv);
+    const loading = $('[data-sg-preview-loading]', pv);
+    const note = $('[data-sg-preview-note]', pv);
+    const error = $('[data-sg-preview-error]', pv);
+    const idInput = $('[data-sg-preview-id]', root);
+    const urlInput = $('[data-sg-preview-url]', root);
+    const result = $('[data-sg-result]', root);
+    const resultImg = $('[data-sg-result-img]', root);
+    const file = $('input[type="file"]', drop);
+    let lastStyle = null;
+
+    const currentStyle = () => {
+      const c = $('[data-sg-style] input:checked', root);
+      return c ? c.value : '';
+    };
+    const setLabel = () => {
+      label.textContent = lastStyle === null ? pv.dataset.labelFirst : pv.dataset.labelAgain;
+      const matches = lastStyle !== null && currentStyle() === lastStyle;
+      btn.disabled = matches;
+      // Only allow ordering the style that was actually previewed
+      if (buy && lastStyle !== null) buy.hidden = !matches;
+    };
+    const reset = () => {
+      lastStyle = null;
+      idInput.value = ''; idInput.disabled = true;
+      urlInput.value = ''; urlInput.disabled = true;
+      if (result) result.hidden = true;
+      note.hidden = true; error.hidden = true;
+      if (buy) buy.hidden = true;
+      setLabel();
+    };
+
+    root.addEventListener('change', (e) => { if (e.target.closest('[data-sg-style]')) setLabel(); });
+    file.addEventListener('change', reset);
+
+    btn.addEventListener('click', async () => {
+      const f = file.files && file.files[0];
+      if (!f) { drop.scrollIntoView({ behavior: 'smooth', block: 'center' }); return; }
+      btn.hidden = true; loading.hidden = false; error.hidden = true;
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 150000);
+      try {
+        const fd = new FormData();
+        fd.append('photo', await shrinkPhoto(f));
+        fd.append('style', currentStyle());
+        fd.append('category', pv.dataset.category || 'classic');
+        const res = await fetch(pv.dataset.endpoint, { method: 'POST', body: fd, signal: ctrl.signal });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok || !data.previewUrl) throw new Error(data.message || 'Something went wrong. Please try again.');
+        await new Promise((ok, bad) => { resultImg.onload = ok; resultImg.onerror = bad; resultImg.src = data.previewUrl; });
+        if (result) result.hidden = false;
+        idInput.value = data.id; idInput.disabled = false;
+        urlInput.value = data.previewUrl; urlInput.disabled = false;
+        lastStyle = currentStyle();
+        let msg = (pv.dataset.labelRemaining || '').replace('[count]', data.remaining);
+        if (data.remaining === 1) msg = msg.replace('previews', 'preview');
+        note.textContent = msg;
+        note.hidden = !note.textContent;
+        if (buy) buy.hidden = false;
+        const target = window.innerWidth < 990 && result ? result : buy || pv;
+        setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'center' }), 80);
+      } catch (e) {
+        error.textContent = e.name === 'AbortError'
+          ? 'This is taking longer than usual. Please try again.'
+          : e instanceof TypeError
+            ? "We couldn't reach our studio. Please check your connection and try again."
+            : (e.message || 'Something went wrong. Please try again.');
+        error.hidden = false;
+      } finally {
+        clearTimeout(timer);
+        loading.hidden = true; btn.hidden = false;
+        setLabel();
+      }
+    });
+    setLabel();
   }
 
   /* ---------- sticky mobile CTA ---------- */
