@@ -65,9 +65,10 @@ p { margin: 0; }
 .hero { position: relative; isolation: isolate; text-align: center; }
 .hero-word { font-weight: 800; font-size: var(--step-4); letter-spacing: -0.02em; text-transform: uppercase; line-height: 0.85; padding-top: clamp(12px, 3vw, 36px); position: relative; z-index: 2; }
 .hero-word .outline { color: transparent; -webkit-text-stroke: 2px var(--red); display: block; }
-.hero-figure { margin: clamp(-60px, -5vw, -18px) 0 0; position: relative; z-index: 1; }
+.hero-figure { margin: clamp(-40px, -3vw, -14px) auto 0; max-width: 1600px; position: relative; z-index: 1; }
 .hero-figure img { width: 100%; height: auto; aspect-ratio: 1536 / 1024; object-fit: cover; }
-.hero-figure::after { content: ""; position: absolute; inset: auto 0 0 0; height: 30%; background: linear-gradient(to bottom, transparent, var(--ink)); pointer-events: none; }
+.hero-figure::before { content: ""; position: absolute; z-index: 1; inset: 0 0 auto 0; height: 22%; background: linear-gradient(to top, transparent, var(--ink)); pointer-events: none; }
+.hero-figure::after { content: ""; position: absolute; inset: auto 0 0 0; height: 18%; background: linear-gradient(to bottom, transparent, var(--ink)); pointer-events: none; }
 .sale-tag { position: absolute; z-index: 3; top: clamp(10px, 4vw, 70px); left: max(16px, 5vw); transform: rotate(-9deg); background: var(--red); color: #fff; font-family: var(--display); font-weight: 800; font-size: clamp(1rem, 0.6rem + 1.6vw, 1.7rem); padding: 0.35em 0.9em 0.35em 1.4em; clip-path: polygon(14% 0, 100% 0, 100% 100%, 14% 100%, 0 50%); box-shadow: 0 10px 30px rgba(227, 21, 43, 0.35); }
 .sale-tag::before { content: ""; position: absolute; left: 0.55em; top: 50%; width: 0.38em; height: 0.38em; margin-top: -0.19em; border-radius: 50%; background: var(--ink); }
 
@@ -192,7 +193,9 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
   .top-link { display: none; }
   .top { justify-content: center; }
   .hero-word .outline { -webkit-text-stroke-width: 1.5px; }
-  .hero-figure img { aspect-ratio: 1536 / 724; }
+  .hero-figure img { aspect-ratio: 1024 / 1336; }
+  .hero-figure { margin-top: -14px; }
+  .sale-tag { left: auto; right: 16px; top: 18px; transform: rotate(8deg); }
   .offer .btn { padding: 0 1.4em; font-size: 0.95rem; }
   .perk { padding: 16px 6px; }
   .perk .label { font-size: 0.64rem; letter-spacing: 0.08em; }
@@ -226,7 +229,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
     </div>
     <figure class="hero-figure">
       <picture>
-        <source media="(max-width: 640px)" srcset="img/hero-podiums-tight.jpg">
+        <source media="(max-width: 640px)" srcset="img/hero-podiums-mobile.jpg" width="1024" height="1336">
         <img src="img/hero-podiums.jpg" width="1536" height="1024" alt="Four Comfort Wear Ortho Stretch Cushion Shoes on red-lit black podiums: all black, burgundy red, black with white sole, and black with purple accents.">
       </picture>
       <div class="sale-tag" aria-hidden="true">SALE</div>
