@@ -5,7 +5,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap">
 <style>
-/* Layout: one dark showroom column. Red is the stage light: it marks the price, the gift and the buttons, nothing else. */
+/* Layout: a black-and-red showroom hero, then a white page. Red marks the price, the value props and the buttons. */
 :root {
   --ink: #0c0a0b;          /* page */
   --stage: #151012;        /* raised bands */
@@ -16,6 +16,7 @@
   --red-hot: #ff2e44;
   --red-deep: #7d0b18;
   --studio: #e8e8e8;       /* product-photo backdrop */
+  --paper: #ffffff;        /* page below the hero */
 
   /* Same stacks as comfortorthowear.com: system UI for headings and body, Sora in custom sections */
   --display: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
@@ -37,7 +38,7 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
-body { background: var(--ink); color: var(--fg); font-family: var(--body); font-size: var(--step-0); line-height: 1.55; -webkit-font-smoothing: antialiased; }
+body { margin: 0; background: var(--ink); color: var(--fg); font-family: var(--body); font-size: var(--step-0); line-height: 1.55; -webkit-font-smoothing: antialiased; }
 img { max-width: 100%; display: block; }
 a { color: inherit; }
 h1, h2, h3 { margin: 0; text-wrap: balance; font-family: var(--display); line-height: 0.95; }
@@ -70,7 +71,7 @@ p { margin: 0; }
 .sale-tag { position: absolute; z-index: 3; top: clamp(10px, 4vw, 70px); left: max(16px, 5vw); transform: rotate(-9deg); background: var(--red); color: #fff; font-family: var(--display); font-weight: 800; font-size: clamp(1rem, 0.6rem + 1.6vw, 1.7rem); padding: 0.35em 0.9em 0.35em 1.4em; clip-path: polygon(14% 0, 100% 0, 100% 100%, 14% 100%, 0 50%); box-shadow: 0 10px 30px rgba(227, 21, 43, 0.35); }
 .sale-tag::before { content: ""; position: absolute; left: 0.55em; top: 50%; width: 0.38em; height: 0.38em; margin-top: -0.19em; border-radius: 50%; background: var(--ink); }
 
-.offer { display: grid; justify-items: center; gap: 18px; padding-block: 0 56px; text-align: center; }
+.offer { display: grid; justify-items: center; gap: 18px; padding-block: 0 48px; text-align: center; }
 .offer h1 { font-weight: 800; font-size: var(--step-3); text-transform: uppercase; letter-spacing: -0.015em; max-width: 14ch; }
 .offer h1 em { font-style: normal; color: var(--red-hot); }
 .offer .sub { color: var(--muted); font-size: var(--step-1); max-width: 34ch; }
@@ -84,13 +85,16 @@ p { margin: 0; }
 .btn.ghost:hover { background: var(--fg); color: var(--ink); }
 
 
-/* Proof strip */
-.perks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-block: 1px solid var(--line); }
-.perk { display: grid; justify-items: center; gap: 6px; padding: 22px 10px; text-align: center; }
-.perk + .perk { border-left: 1px solid var(--line); }
-.perk svg { width: 26px; height: 26px; stroke: var(--red-hot); fill: none; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
-.perk .label { color: var(--fg); font-size: 0.74rem; }
+/* Proof strip: boxes straddle the line where the black hero meets the white page */
+.perks-band { background: linear-gradient(to bottom, var(--ink) 50%, var(--paper) 50%); }
+.perks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(8px, 1.5vw, 16px); max-width: 900px; margin-inline: auto; }
+.perk { display: grid; justify-items: center; align-content: center; gap: 8px; padding: 22px 10px; text-align: center; background: var(--paper); border: 2px solid var(--red); border-radius: 4px; }
+.perk svg { width: 26px; height: 26px; stroke: var(--red); fill: none; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+.perk .label { color: var(--red); font-size: 0.8rem; }
 
+/* Everything below the hero sits on white */
+.light { --ink: var(--paper); --stage: #f7f3f3; --line: #ebe2e3; --fg: #141012; --muted: #5d5355; --red-hot: #d3111f; --red-deep: #b50f1e; --studio: #eeeeee; background: var(--ink); color: var(--fg); color-scheme: light; }
+.light .section:first-child { padding-top: clamp(40px, 6vw, 72px); }
 
 /* Section headings */
 .section { padding-block: clamp(56px, 8vw, 104px); }
@@ -169,7 +173,7 @@ footer { border-top: 1px solid var(--line); }
 footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; padding-block: 24px calc(24px + 72px); color: var(--muted); font-size: 0.82rem; }
 
 /* Sticky mobile buy bar */
-.buybar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; display: none; align-items: center; gap: 12px; padding: 10px var(--gutter-r) calc(10px + env(safe-area-inset-bottom, 0px)) var(--gutter-l); background: rgba(12, 10, 11, 0.94); border-top: 1px solid var(--line); backdrop-filter: blur(8px); }
+.buybar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; display: none; align-items: center; gap: 12px; padding: 10px var(--gutter-r) calc(10px + env(safe-area-inset-bottom, 0px)) var(--gutter-l); background: rgba(255, 255, 255, 0.96); border-top: 1px solid var(--line); backdrop-filter: blur(8px); }
 .buybar .txt { flex: 1; min-width: 0; line-height: 1.25; }
 .buybar .txt b { display: block; font-family: var(--display); font-weight: 800; font-size: 1.05rem; }
 .buybar .txt small { color: var(--muted); font-size: 0.76rem; }
@@ -190,6 +194,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
   .hero-word .outline { -webkit-text-stroke-width: 1.5px; }
   .hero-figure img { aspect-ratio: 1536 / 724; }
   .offer .btn { padding: 0 1.4em; font-size: 0.95rem; }
+  .perk { padding: 16px 6px; }
   .perk .label { font-size: 0.64rem; letter-spacing: 0.08em; }
   .shoes { gap: 10px; }
   .shoe-body { padding: 12px 12px 14px; }
@@ -233,6 +238,9 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
       <a class="btn" href="https://comfortorthowear.com/collections/all">Shop Black Friday deals <span class="arrow" aria-hidden="true">&rarr;</span></a>
     </div>
 
+  </section>
+
+  <div class="perks-band">
     <div class="wrap">
       <div class="perks">
         <div class="perk">
@@ -249,9 +257,9 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
-
+  <div class="light">
   <section class="section" id="colors" aria-labelledby="colors-title">
     <div class="wrap">
       <div class="head">
@@ -356,16 +364,17 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
       </div>
     </div>
   </section>
+  </div>
 </main>
 
-<footer>
+<footer class="light">
   <div class="wrap">
     <span>&copy; 2026 Comfort Wear &middot; comfortorthowear.com</span>
     <span>Free gifts unlocked for orders $100+.</span>
   </div>
 </footer>
 
-<div class="buybar">
+<div class="buybar light">
   <div class="txt"><b>Up to 60% off</b><small>Free gifts for orders $100+</small></div>
   <a class="btn" href="https://comfortorthowear.com/collections/all">Shop now</a>
 </div>
