@@ -3,7 +3,7 @@
 <meta name="description" content="Black Friday at Comfort Wear: up to 60% off sitewide, plus a free gift on orders of $100 or more.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap">
 <style>
 /* Layout: one dark showroom column. Red is the stage light: it marks the price, the gift and the buttons, nothing else. */
 :root {
@@ -17,9 +17,10 @@
   --red-deep: #7d0b18;
   --studio: #e8e8e8;       /* product-photo backdrop */
 
-  --display: "Archivo", "Arial Black", "Helvetica Neue", Arial, sans-serif;
-  --body: "Archivo", "Helvetica Neue", Arial, sans-serif;
-  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  /* Same stacks as comfortorthowear.com: system UI for headings and body, Sora in custom sections */
+  --display: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+  --body: var(--display);
+  --mono: "Sora", var(--display);
 
   --step--1: 0.8125rem;
   --step-0: 1rem;
@@ -36,7 +37,7 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
-body { background: var(--ink); color: var(--fg); font-family: var(--body); font-size: var(--step-0); line-height: 1.55; font-stretch: 100%; -webkit-font-smoothing: antialiased; }
+body { background: var(--ink); color: var(--fg); font-family: var(--body); font-size: var(--step-0); line-height: 1.55; -webkit-font-smoothing: antialiased; }
 img { max-width: 100%; display: block; }
 a { color: inherit; }
 h1, h2, h3 { margin: 0; text-wrap: balance; font-family: var(--display); line-height: 0.95; }
@@ -55,71 +56,47 @@ p { margin: 0; }
 
 /* Header */
 .top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 18px; }
-.logo { font-family: var(--display); font-weight: 900; font-stretch: 112%; font-size: 1.35rem; letter-spacing: -0.01em; text-decoration: none; }
+.logo { font-family: var(--display); font-weight: 800; font-size: 1.35rem; letter-spacing: -0.01em; text-decoration: none; }
 .logo b { color: var(--red); }
 .top-link { font-family: var(--mono); font-size: var(--step--1); font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border-bottom: 2px solid var(--red); padding-bottom: 2px; }
 
 /* Hero */
 .hero { position: relative; isolation: isolate; text-align: center; }
-.hero-word { font-weight: 900; font-stretch: 125%; font-size: var(--step-4); letter-spacing: -0.02em; text-transform: uppercase; line-height: 0.85; padding-top: clamp(12px, 3vw, 36px); position: relative; z-index: 2; }
+.hero-word { font-weight: 800; font-size: var(--step-4); letter-spacing: -0.02em; text-transform: uppercase; line-height: 0.85; padding-top: clamp(12px, 3vw, 36px); position: relative; z-index: 2; }
 .hero-word .outline { color: transparent; -webkit-text-stroke: 2px var(--red); display: block; }
 .hero-figure { margin: clamp(-60px, -5vw, -18px) 0 0; position: relative; z-index: 1; }
 .hero-figure img { width: 100%; height: auto; aspect-ratio: 1536 / 1024; object-fit: cover; }
 .hero-figure::after { content: ""; position: absolute; inset: auto 0 0 0; height: 30%; background: linear-gradient(to bottom, transparent, var(--ink)); pointer-events: none; }
-.sale-tag { position: absolute; z-index: 3; top: clamp(10px, 4vw, 70px); left: max(16px, 5vw); transform: rotate(-9deg); background: var(--red); color: #fff; font-family: var(--display); font-weight: 900; font-stretch: 110%; font-size: clamp(1rem, 0.6rem + 1.6vw, 1.7rem); padding: 0.35em 0.9em 0.35em 1.4em; clip-path: polygon(14% 0, 100% 0, 100% 100%, 14% 100%, 0 50%); box-shadow: 0 10px 30px rgba(227, 21, 43, 0.35); }
+.sale-tag { position: absolute; z-index: 3; top: clamp(10px, 4vw, 70px); left: max(16px, 5vw); transform: rotate(-9deg); background: var(--red); color: #fff; font-family: var(--display); font-weight: 800; font-size: clamp(1rem, 0.6rem + 1.6vw, 1.7rem); padding: 0.35em 0.9em 0.35em 1.4em; clip-path: polygon(14% 0, 100% 0, 100% 100%, 14% 100%, 0 50%); box-shadow: 0 10px 30px rgba(227, 21, 43, 0.35); }
 .sale-tag::before { content: ""; position: absolute; left: 0.55em; top: 50%; width: 0.38em; height: 0.38em; margin-top: -0.19em; border-radius: 50%; background: var(--ink); }
 
-.offer { display: grid; justify-items: center; gap: 18px; padding-block: 8px 56px; text-align: center; }
-.offer h1 { font-weight: 900; font-stretch: 118%; font-size: var(--step-3); text-transform: uppercase; letter-spacing: -0.015em; max-width: 14ch; }
+.offer { display: grid; justify-items: center; gap: 18px; padding-block: 0 56px; text-align: center; }
+.offer h1 { font-weight: 800; font-size: var(--step-3); text-transform: uppercase; letter-spacing: -0.015em; max-width: 14ch; }
 .offer h1 em { font-style: normal; color: var(--red-hot); }
 .offer .sub { color: var(--muted); font-size: var(--step-1); max-width: 34ch; }
 .offer .sub strong { color: var(--fg); }
 
-.btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.6em; min-height: 56px; padding: 0 2.2em; background: var(--red); color: #fff; text-decoration: none; font-family: var(--display); font-weight: 800; font-stretch: 112%; font-size: 1.05rem; letter-spacing: 0.04em; text-transform: uppercase; border: 0; transition: background 0.15s, transform 0.15s; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.6em; min-height: 56px; padding: 0 2.2em; background: var(--red); color: #fff; text-decoration: none; font-family: var(--display); font-weight: 800; font-size: 1.05rem; letter-spacing: 0.04em; text-transform: uppercase; border: 0; transition: background 0.15s, transform 0.15s; }
 .btn:hover { background: var(--red-hot); transform: translateY(-2px); }
 .btn .arrow { transition: transform 0.15s; }
 .btn:hover .arrow { transform: translateX(4px); }
 .btn.ghost { background: transparent; box-shadow: inset 0 0 0 2px var(--fg); }
 .btn.ghost:hover { background: var(--fg); color: var(--ink); }
 
-/* Countdown */
-.clock { display: flex; gap: 10px; justify-content: center; font-variant-numeric: tabular-nums; }
-.clock div { display: grid; justify-items: center; min-width: 64px; padding: 10px 6px 8px; background: var(--stage); border: 1px solid var(--line); }
-.clock b { font-family: var(--display); font-weight: 800; font-stretch: 100%; font-size: 1.7rem; line-height: 1; }
-.clock small { font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.14em; color: var(--muted); text-transform: uppercase; margin-top: 4px; }
-.clock-label { color: var(--muted); }
 
 /* Proof strip */
 .perks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-block: 1px solid var(--line); }
 .perk { display: grid; justify-items: center; gap: 6px; padding: 22px 10px; text-align: center; }
 .perk + .perk { border-left: 1px solid var(--line); }
-.perk svg { width: 26px; height: 26px; stroke: var(--red-hot); fill: none; stroke-width: 2; }
+.perk svg { width: 26px; height: 26px; stroke: var(--red-hot); fill: none; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
 .perk .label { color: var(--fg); font-size: 0.74rem; }
 
-/* Gift ladder */
-.gift { background: radial-gradient(120% 90% at 50% 0%, var(--red-deep) 0%, var(--stage) 55%, var(--ink) 100%); padding-block: clamp(56px, 8vw, 96px); }
-.gift-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: clamp(28px, 5vw, 72px); align-items: center; }
-.gift h2 { font-weight: 900; font-stretch: 118%; font-size: var(--step-3); text-transform: uppercase; }
-.gift h2 span { color: var(--red-hot); }
-.gift-copy { display: grid; gap: 18px; min-width: 0; }
-.gift-copy p { color: var(--muted); max-width: 44ch; }
-.ladder { display: grid; gap: 14px; min-width: 0; }
-.rung { display: grid; grid-template-columns: 92px minmax(0, 1fr); align-items: center; gap: 18px; padding: 18px 20px; background: rgba(12, 10, 11, 0.55); border: 1px solid var(--line); }
-.rung .amt { font-family: var(--display); font-weight: 900; font-stretch: 110%; font-size: 1.9rem; font-variant-numeric: tabular-nums; }
-.rung h3 { font-family: var(--body); font-size: 1.05rem; font-weight: 700; line-height: 1.25; }
-.rung p { color: var(--muted); font-size: 0.92rem; }
-.rung.top { border-color: var(--red); box-shadow: 0 0 0 1px var(--red), 0 18px 50px rgba(227, 21, 43, 0.25); }
-.rung.top .amt { color: var(--red-hot); }
-.meter { height: 8px; background: var(--line); position: relative; overflow: hidden; }
-.meter i { position: absolute; inset: 0 auto 0 0; width: 100%; background: linear-gradient(90deg, var(--red-deep), var(--red-hot)); transform-origin: left; animation: fill 1.6s 0.3s cubic-bezier(.2,.7,.2,1) both; }
-@keyframes fill { from { transform: scaleX(0.08); } }
-.meter-scale { display: flex; justify-content: space-between; color: var(--muted); font-size: 0.7rem; }
 
 /* Section headings */
 .section { padding-block: clamp(56px, 8vw, 104px); }
 .head { display: grid; gap: 12px; margin-bottom: clamp(28px, 4vw, 48px); }
 .head .label { color: var(--red-hot); }
-.head h2 { font-weight: 900; font-stretch: 115%; font-size: var(--step-2); text-transform: uppercase; max-width: 22ch; }
+.head h2 { font-weight: 800; font-size: var(--step-2); text-transform: uppercase; max-width: 22ch; }
 .head p { color: var(--muted); max-width: 52ch; }
 
 /* Colorway grid */
@@ -133,6 +110,24 @@ p { margin: 0; }
 .shoe-body h3 { font-family: var(--body); font-size: 1rem; font-weight: 700; line-height: 1.3; }
 .shoe-body p { color: var(--muted); font-size: 0.88rem; }
 .shoe-body .go { margin-top: 8px; font-size: 0.72rem; color: var(--red-hot); }
+
+/* Comparison */
+.compare { font-family: "Sora", var(--body); }
+.head.center { justify-items: center; text-align: center; }
+.cmp { max-width: 860px; margin-inline: auto; border: 1px solid var(--line); background: var(--stage); }
+.cmp-row { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr) minmax(0, 1.1fr); }
+.cmp-row + .cmp-row { border-top: 1px solid var(--line); }
+.cmp-row > span { display: flex; align-items: center; gap: 10px; padding: 16px 18px; min-width: 0; font-size: 0.95rem; line-height: 1.35; }
+.cmp-feat { font-weight: 600; }
+.cmp-them { color: var(--muted); }
+.cmp-us { background: var(--red-deep); color: #fff; font-weight: 600; }
+.cmp-head > span { padding-block: 20px; font-family: var(--display); font-weight: 800; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 0.02em; justify-content: center; }
+.cmp-head .cmp-us { background: var(--red); }
+.cmp-foot > span { padding-block: 12px; justify-content: center; }
+.cmp-foot .cmp-us { background: var(--red); }
+.ic { flex: none; width: 20px; height: 20px; fill: none; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+.ic.no { stroke: var(--muted); }
+.ic.yes { stroke: #fff; }
 
 /* Anatomy */
 .anatomy { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 64px); align-items: center; }
@@ -149,7 +144,7 @@ p { margin: 0; }
 .shifts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; border: 1px solid var(--line); }
 .shift { display: grid; gap: 8px; align-content: start; padding: 24px 20px; min-width: 0; }
 .shift + .shift { border-left: 1px solid var(--line); }
-.shift .hrs { font-family: var(--display); font-weight: 900; font-stretch: 120%; font-size: 2.6rem; line-height: 1; color: var(--fg); font-variant-numeric: tabular-nums; }
+.shift .hrs { font-family: var(--display); font-weight: 800; font-size: 2.6rem; line-height: 1; color: var(--fg); font-variant-numeric: tabular-nums; }
 .shift .hrs small { font-size: 0.4em; color: var(--red-hot); letter-spacing: 0.06em; margin-left: 4px; }
 .shift h3 { font-family: var(--body); font-size: 1rem; font-weight: 700; line-height: 1.3; }
 .shift p { color: var(--muted); font-size: 0.9rem; }
@@ -164,9 +159,9 @@ p { margin: 0; }
 /* Final CTA */
 .final { position: relative; overflow: hidden; text-align: center; background: var(--stage); border-top: 1px solid var(--line); }
 .final .wrap { display: grid; justify-items: center; gap: 22px; padding-block: clamp(64px, 9vw, 120px); position: relative; z-index: 1; }
-.final-big { font-family: var(--display); font-weight: 900; font-stretch: 125%; font-size: clamp(5rem, 2rem + 18vw, 15rem); line-height: 0.8; color: transparent; -webkit-text-stroke: 2px var(--red); letter-spacing: -0.03em; }
+.final-big { font-family: var(--display); font-weight: 800; font-size: clamp(5rem, 2rem + 18vw, 15rem); line-height: 0.8; color: transparent; -webkit-text-stroke: 2px var(--red); letter-spacing: -0.03em; }
 .final-big span { font-size: 0.42em; vertical-align: 0.9em; -webkit-text-stroke-width: 1.5px; }
-.final h2 { font-weight: 900; font-stretch: 115%; font-size: var(--step-2); text-transform: uppercase; max-width: 20ch; }
+.final h2 { font-weight: 800; font-size: var(--step-2); text-transform: uppercase; max-width: 20ch; }
 .final p { color: var(--muted); max-width: 44ch; }
 .btn-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
 
@@ -176,12 +171,12 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 /* Sticky mobile buy bar */
 .buybar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; display: none; align-items: center; gap: 12px; padding: 10px var(--gutter-r) calc(10px + env(safe-area-inset-bottom, 0px)) var(--gutter-l); background: rgba(12, 10, 11, 0.94); border-top: 1px solid var(--line); backdrop-filter: blur(8px); }
 .buybar .txt { flex: 1; min-width: 0; line-height: 1.25; }
-.buybar .txt b { display: block; font-family: var(--display); font-weight: 900; font-stretch: 110%; font-size: 1.05rem; }
+.buybar .txt b { display: block; font-family: var(--display); font-weight: 800; font-size: 1.05rem; }
 .buybar .txt small { color: var(--muted); font-size: 0.76rem; }
 .buybar .btn { min-height: 46px; padding: 0 1.2em; font-size: 0.9rem; }
 
 @media (max-width: 900px) {
-  .gift-inner, .anatomy { grid-template-columns: minmax(0, 1fr); }
+  .anatomy { grid-template-columns: minmax(0, 1fr); }
   .shoes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .shifts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .shift:nth-child(3) { border-left: 0; }
@@ -196,20 +191,21 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
   .hero-figure img { aspect-ratio: 1536 / 724; }
   .offer .btn { padding: 0 1.4em; font-size: 0.95rem; }
   .perk .label { font-size: 0.64rem; letter-spacing: 0.08em; }
-  .clock div { min-width: 58px; }
-  .rung { grid-template-columns: 72px minmax(0, 1fr); padding: 16px; gap: 14px; }
-  .rung .amt { font-size: 1.5rem; }
   .shoes { gap: 10px; }
   .shoe-body { padding: 12px 12px 14px; }
   .shifts { grid-template-columns: minmax(0, 1fr); }
+  .cmp-row { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr) minmax(0, 1fr); }
+  .cmp-row > span { padding: 12px 10px; font-size: 0.82rem; gap: 6px; }
+  .cmp-head > span { font-size: 0.8rem; }
+  .ic { width: 16px; height: 16px; }
   .shift + .shift { border-left: 0; border-top: 1px solid var(--line); }
 }
 </style>
 
-<div class="ticker label" aria-label="Black Friday: 60% off sitewide, free gift on orders over $100">
+<div class="ticker label" aria-label="Black Friday: up to 60% off sitewide, free gifts on orders $100+">
   <div class="ticker-track" aria-hidden="true">
-    <span>Black Friday is live</span><span>Up to 60% off sitewide</span><span>Free gift on orders $100+</span><span>Shop every colorway</span>
-    <span>Black Friday is live</span><span>Up to 60% off sitewide</span><span>Free gift on orders $100+</span><span>Shop every colorway</span>
+    <span>Black Friday is live</span><span>Up to 60% off sitewide</span><span>Free gifts on orders $100+</span><span>Shop every colorway</span>
+    <span>Black Friday is live</span><span>Up to 60% off sitewide</span><span>Free gifts on orders $100+</span><span>Shop every colorway</span>
   </div>
 </div>
 
@@ -226,71 +222,42 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
     <figure class="hero-figure">
       <picture>
         <source media="(max-width: 640px)" srcset="img/hero-podiums-tight.jpg">
-        <img src="img/hero-podiums.jpg" width="1536" height="1024" alt="Four Comfort Wear Ortho Stretch Cushion Shoes on red-lit black podiums: all black, burgundy red, black with white sole, and light grey.">
+        <img src="img/hero-podiums.jpg" width="1536" height="1024" alt="Four Comfort Wear Ortho Stretch Cushion Shoes on red-lit black podiums: all black, burgundy red, black with white sole, and black with purple accents.">
       </picture>
       <div class="sale-tag" aria-hidden="true">SALE</div>
     </figure>
 
     <div class="wrap offer">
-      <p class="label clock-label">Black Friday sale ends in</p>
-      <div class="clock" id="clock" role="timer" aria-live="off">
-        <div><b data-u="d">04</b><small>Days</small></div>
-        <div><b data-u="h">12</b><small>Hrs</small></div>
-        <div><b data-u="m">30</b><small>Min</small></div>
-        <div><b data-u="s">00</b><small>Sec</small></div>
-      </div>
       <h1 id="offer-title">Up to <em>60% off</em> sitewide sale</h1>
-      <p class="sub">The shoe built for long days on your feet, now up to 60% off. <strong>Spend $100+ and get a free gift.</strong></p>
+      <p class="sub">The shoe built for long days on your feet, now up to 60% off. <strong>Free gifts unlocked for orders $100+.</strong></p>
       <a class="btn" href="https://comfortorthowear.com/collections/all">Shop Black Friday deals <span class="arrow" aria-hidden="true">&rarr;</span></a>
     </div>
 
     <div class="wrap">
       <div class="perks">
         <div class="perk">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>
-          <span class="label">60% off<br>sitewide</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>
+          <span class="label">Instant<br>pain-relief</span>
         </div>
         <div class="perk">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="8" width="18" height="4"/><path d="M12 8v13M5 12v9h14v-9M12 8C10 4 6.5 4.5 7 7c.3 1.3 3 1 5 1Zm0 0c2-4 5.5-3.5 5-1-.3 1.3-3 1-5 1Z"/></svg>
-          <span class="label">Free gift<br>over $100</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>
+          <span class="label">Doctor-<br>approved</span>
         </div>
         <div class="perk">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 16c3 0 4-3 7-3s3 3 6 3 4-2 5-2v4H3Z"/><path d="M8 13V6c0-1 1-2 2-2h2l2 4h3"/></svg>
-          <span class="label">Slip-on<br>stretch fit</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>
+          <span class="label">All-day<br>comfort</span>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="gift" aria-labelledby="gift-title">
-    <div class="wrap gift-inner">
-      <div class="gift-copy">
-        <p class="label" style="color: var(--red-hot)">The $100 gift</p>
-        <h2 id="gift-title">Spend $100. <span>Get a gift</span> on us.</h2>
-        <p>Every order of $100 or more ships with a free gift, added automatically at checkout.</p>
-        <a class="btn ghost" href="https://comfortorthowear.com/collections/all" style="justify-self: start">Build my order</a>
-      </div>
-      <div class="ladder">
-        <div class="rung">
-          <span class="amt">60%</span>
-          <div><h3>Off everything, sitewide</h3><p>The discount applies across the whole site.</p></div>
-        </div>
-        <div class="rung top">
-          <span class="amt">$100</span>
-          <div><h3>Free gift unlocked</h3><p>Spend $100 or more and your gift is added to the order.</p></div>
-        </div>
-        <div class="meter" role="img" aria-label="Spend meter from $0 to $100"><i></i></div>
-        <div class="meter-scale label"><span>$0</span><span>$50</span><span>$100 &middot; Gift</span></div>
-      </div>
-    </div>
-  </section>
 
   <section class="section" id="colors" aria-labelledby="colors-title">
     <div class="wrap">
       <div class="head">
         <p class="label">Pick your pair</p>
         <h2 id="colors-title">The Ortho Stretch Cushion Shoe, on sale in every color</h2>
-        <p>Four colorways that suit the season. Stock up for work and weekends, and pass $100 for your free gift.</p>
+        <p>Four colorways that suit the season. Stock up for work and weekends, and free gifts unlock at $100.</p>
       </div>
       <div class="shoes">
         <a class="shoe" href="https://comfortorthowear.com/collections/all">
@@ -306,9 +273,28 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
           <div class="shoe-body"><h3>Black / White</h3><p>Black knit with a white sole and white detail.</p><span class="go label">Shop &rarr;</span></div>
         </a>
         <a class="shoe" href="https://comfortorthowear.com/collections/all">
-          <div class="shoe-photo"><img src="img/shoe-light-grey.jpg" alt="Light grey Ortho Stretch Cushion Shoe, side view" loading="lazy" width="800" height="700"><span class="pill label">60% off</span></div>
-          <div class="shoe-body"><h3>Light Grey</h3><p>Soft grey knit for days off and weekends.</p><span class="go label">Shop &rarr;</span></div>
+          <div class="shoe-photo"><img src="img/shoe-black-purple.jpg" alt="Black Ortho Stretch Cushion Shoe with purple accents and white sole, side view" loading="lazy" width="800" height="700"><span class="pill label">60% off</span></div>
+          <div class="shoe-body"><h3>Black / Purple</h3><p>Black knit with purple detail and a white sole.</p><span class="go label">Shop &rarr;</span></div>
         </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section compare" style="padding-top: 0" aria-labelledby="compare-title">
+    <div class="wrap">
+      <div class="head center">
+        <p class="label">Compare</p>
+        <h2 id="compare-title">Feel the difference with ComfortWear</h2>
+        <p>Designed to support the natural shape of your feet, ComfortWear combines soft materials, smart cushioning, and features that move with you.</p>
+      </div>
+      <div class="cmp" role="table" aria-label="Hoka and Skechers compared with ComfortWear">
+        <div class="cmp-row cmp-head" role="row"><span role="columnheader"></span><span class="cmp-them" role="columnheader">Hoka / Skechers</span><span class="cmp-us" role="columnheader">ComfortWear</span></div>
+          <div class="cmp-row" role="row"><span class="cmp-feat" role="rowheader">Arch support</span><span class="cmp-them" role="cell"><svg class="ic no" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>No arch support</span><span class="cmp-us" role="cell"><svg class="ic yes" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>Anatomical arch support</span></div>
+          <div class="cmp-row" role="row"><span class="cmp-feat" role="rowheader">Toe-box</span><span class="cmp-them" role="cell"><svg class="ic no" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>Narrow fit</span><span class="cmp-us" role="cell"><svg class="ic yes" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>Wide toe-box</span></div>
+          <div class="cmp-row" role="row"><span class="cmp-feat" role="rowheader">Heel cushioning</span><span class="cmp-them" role="cell"><svg class="ic no" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>Lacks heel cushioning</span><span class="cmp-us" role="cell"><svg class="ic yes" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>ORTHO-WEAR heel cushioning</span></div>
+          <div class="cmp-row" role="row"><span class="cmp-feat" role="rowheader">Material</span><span class="cmp-them" role="cell"><svg class="ic no" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>Rigid materials</span><span class="cmp-us" role="cell"><svg class="ic yes" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>Breathable stretch-fit material</span></div>
+          <div class="cmp-row" role="row"><span class="cmp-feat" role="rowheader">Sole</span><span class="cmp-them" role="cell"><svg class="ic no" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>No shock absorption</span><span class="cmp-us" role="cell"><svg class="ic yes" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>Impact-absorbing sole</span></div>
+        <div class="cmp-row cmp-foot" role="row"><span role="cell"></span><span role="cell"></span><span class="cmp-us" role="cell"><span class="label">Up to 60% off</span></span></div>
       </div>
     </div>
   </section>
@@ -355,7 +341,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
       <div class="steps">
         <div class="step"><span class="label">Step 1</span><h3>Pick your colors and sizes</h3><p>Up to 60% off applies across the whole site.</p></div>
         <div class="step"><span class="label">Step 2</span><h3>Reach $100 in your cart</h3><p>Mix colors, or grab a pair for someone else.</p></div>
-        <div class="step"><span class="label">Step 3</span><h3>Your free gift is added</h3><p>It's included with your order automatically at checkout.</p></div>
+        <div class="step"><span class="label">Step 3</span><h3>Free gifts unlocked</h3><p>Orders of $100+ get free gifts, added automatically at checkout.</p></div>
       </div>
     </div>
   </section>
@@ -364,7 +350,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
     <div class="wrap">
       <div class="final-big" aria-hidden="true">60<span>%</span></div>
       <h2 id="final-title">Our biggest sale of the year ends soon</h2>
-      <p>Up to 60% off sitewide, plus a free gift when you spend $100 or more. Once Black Friday is over, prices go back up.</p>
+      <p>Up to 60% off sitewide, plus free gifts unlocked for orders $100+. Once Black Friday is over, prices go back up.</p>
       <div class="btn-row">
         <a class="btn" href="https://comfortorthowear.com/collections/all">Shop the sale <span class="arrow" aria-hidden="true">&rarr;</span></a>
       </div>
@@ -375,28 +361,12 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 <footer>
   <div class="wrap">
     <span>&copy; 2026 Comfort Wear &middot; comfortorthowear.com</span>
-    <span>Free gift with orders of $100 or more.</span>
+    <span>Free gifts unlocked for orders $100+.</span>
   </div>
 </footer>
 
 <div class="buybar">
-  <div class="txt"><b>Up to 60% off</b><small>Free gift on orders $100+</small></div>
+  <div class="txt"><b>Up to 60% off</b><small>Free gifts for orders $100+</small></div>
   <a class="btn" href="https://comfortorthowear.com/collections/all">Shop now</a>
 </div>
 
-<script>
-  // Set this to the moment the sale ends (store's local time).
-  const SALE_END = new Date("2026-12-01T00:00:00-05:00");
-  const units = Object.fromEntries([...document.querySelectorAll("#clock [data-u]")].map(el => [el.dataset.u, el]));
-  const pad = n => String(n).padStart(2, "0");
-  function tick() {
-    const left = Math.max(0, SALE_END - Date.now());
-    const s = Math.floor(left / 1000);
-    units.d.textContent = pad(Math.floor(s / 86400));
-    units.h.textContent = pad(Math.floor(s / 3600) % 24);
-    units.m.textContent = pad(Math.floor(s / 60) % 60);
-    units.s.textContent = pad(s % 60);
-  }
-  tick();
-  setInterval(tick, 1000);
-</script>
