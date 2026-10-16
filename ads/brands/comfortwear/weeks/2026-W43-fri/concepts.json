@@ -463,7 +463,7 @@
    "angle": "Price anchor vs Hoka as text only, with offer stack, split layout",
    "based_on": "Ditch the Hokas offer ($208k line); strikethrough winner $90k",
    "headline": "Hoka comfort. Not Hoka prices.",
-   "prompt": "Split layout, left white, right soft purple gradient. Left: large bold navy text \"HOKA $165\" with a red strikethrough, below \"Comfort. Not prices.\" Right: the shoe pair huge with \"$59.95\" in a huge heavy black price. Bottom full-width solid purple bar with white large bold three lines: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "prompt": "Split layout, left white, right soft purple gradient. Left: large bold navy text \"HOKA\" with a red strikethrough, below \"Comfort. Not prices.\" Right: the shoe pair huge with \"$59.95\" in a huge heavy black price. Bottom full-width solid purple bar with white large bold three lines: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
    "benchmark": "strikethrough_split",
    "tags": [
     "OFFER"
