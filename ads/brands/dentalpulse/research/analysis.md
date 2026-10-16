@@ -129,3 +129,12 @@ Pulled with `atria_pull.py competitors` (now `order=most_impressions`), filtered
 - **Products:** no Travel Pod concepts. The Ultimate Cleaning Bundle appears only in offer creatives. The denture case is drawn much smaller than the cleaner, and the warranty is not shown as a physical item.
 - **Appliance mix:** 50% dentures; the other 50% is night guards ~50%, retainers ~30%, aligners ~15%, apnea ~5%.
 - **9:16 versions:** extended seamlessly. The generator now outpaints across the seam, and layouts keep backgrounds running to the edges.
+
+## 9. New formats from the Oct 16 competitor pull (Atria `most_impressions`, `data/competitor_ads.csv`, 1,010 ads; sheets `competitor_ads_1/2.jpg`)
+Mostly oral-care DTC (quip, usmile, LIVFRESH, hismile, GuruNanda, Smile/Snoopy). New or newly useful formats:
+14. **Couple/humor hook over a real bathroom photo**: LIVFRESH "HE SAID IT WAS TOO EXPENSIVE. Now he keeps using mine." (bold yellow type, small BUY 2 GET 1 tag). Used in W43 as a denture spouse offer.
+15. **Notebook-paper confession**: "I DIDN'T REALIZE HOW BAD I FELT" handwritten on lined paper with the product beside it (also the §6 cheat sheet / post-it family). Used as the denture cheat sheet.
+16. **Split "healthy vs inflamed" close-up with a "you can see the difference" headline** (GuruNanda); **Reactive vs Proactive** split (LIVFRESH): good template for us-vs-them tables.
+17. **Surreal mouth-head character / big-energy headline** (quip, 57-91d): pattern interrupt, not used (off-brand for 60+ denture audience).
+18. **Bundle line-drawing how-to and "BUY 4 GET 6 FREE" yellow burst** (hismile, 16-17d): offer tiles; we use the gift stack instead (no invented multi-buy).
+Takeaway: the longest-running tiles are still bold-type-over-real-photo and native UI (reminder pop-up, cart); keep ~65% top-of-funnel.
