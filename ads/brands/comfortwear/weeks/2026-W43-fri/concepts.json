@@ -567,7 +567,7 @@
    "angle": "Retro 1930s cartoon: 'old way' foot soaking vs modern shoe",
    "based_on": "Survey 6% stretch/ice/massage; databank 'normalization' angle",
    "headline": "You shouldn't need a foot soak every night.",
-   "prompt": "A 1930s rubber-hose sepia cartoon: a weary woman with her feet in a steaming basin and heating pad, aching feet drawn as fat cartoon sausages. The modern black/white shoe breaks out in full color at the lower right, large and recognizable. Huge old-timey title card lettering: \"YOU SHOULDN'T NEED A\" / \"FOOT SOAK EVERY NIGHT.\" All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "prompt": "A 1930s rubber-hose sepia cartoon: a weary woman with her feet in a steaming basin and heating pad, aching feet drawn as fat cartoon sausages. The modern black/white shoe breaks out in full color at the lower right, large and recognizable. Huge old-timey title card lettering: \"YOU SHOULDN'T NEED A\" / \"FOOT SOAK EVERY NIGHT.\" The title card is the ONLY text: no caption or text at the bottom, no other words anywhere. Title lettering all black or cream, no colored words. The woman is an original generic 1930s character with a bob of curls, not any famous cartoon character. All supporting text is large bold.",
    "benchmark": "statement_list",
    "format": "retro_cartoon",
    "tags": [
