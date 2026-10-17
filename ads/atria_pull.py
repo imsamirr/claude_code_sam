@@ -8,7 +8,7 @@
     python ads/atria_pull.py rising    # new ads (last 30 days) with >= $300 spend and ROAS >= 1.8
     python ads/atria_pull.py current   # any ad in the last 30 days with >= $300 spend and ROAS >= 1.8
     python ads/atria_pull.py inspo       # image ads, rising impressions, launched last 30 days
-    python ads/atria_pull.py competitors # competitor + adjacent brands' ads (brand.json → competitor_brands)
+    python ads/atria_pull.py competitors # top-impression ads: competitor_brands + inspo_queries keywords
 
 Writes CSVs to ads/brands/<brand>/research/data/. Atria returns at most 50 ads per date window, so
 spend is summed across monthly (winners) or weekly (losers) windows; ads
@@ -166,29 +166,40 @@ def inspo(api, acc, args):
 
 
 def competitors(api, acc, args):
-    """Image ads from named competitor and adjacent brands (brand.json → competitor_brands), longest-running first.
-
-    Long-running ads are the ones those brands keep paying for, so they are the proven formats to borrow.
+    """Top-impression ads from competitor and adjacent brands (brand.json → competitor_brands), plus the
+    top-impression image ads for each category keyword (inspo_queries). Atria ranks by impressions, so these
+    are the statics getting the most delivery right now, not just the longest-running.
     """
     seen = {}
-    for name in args.competitors:
-        for fmt in ("image", "video"):
-            try:
-                items = api.get("ad-library/search", {"query": name, "display_format": fmt,
-                                                      "order": "best_match", "page_size": 50})["items"]
-            except Exception as e:  # one bad query shouldn't stop the pull
-                print(f"  {name} {fmt}: {e}")
+
+    def add(items, query, fmt, brand_filter):
+        key = brand_filter.lower().replace(" ", "") if brand_filter else ""
+        for it in items:
+            if key and key not in (it.get("brand_name") or "").lower().replace(" ", ""):
                 continue
-            key = name.lower().replace(" ", "")
-            for it in items:
-                if key in (it.get("brand_name") or "").lower().replace(" ", ""):
-                    seen.setdefault(it["id"], {**it, "query": name, "fmt": fmt})
-            time.sleep(0.8)
-    rows = [{"brand": it["brand_name"], "format": it["fmt"], "days_running": it["days_running"],
-             "status": it.get("status"), "title": it.get("title"), "body": (it.get("body") or "")[:700],
-             "image_url": (it.get("images") or [{}])[0].get("url") or it.get("thumbnail_url"),
-             "landing_url": it.get("link_url")} for it in seen.values()]
-    rows.sort(key=lambda r: (r["brand"], -(r["days_running"] or 0)))
+            seen.setdefault(it["id"], {**it, "query": query, "fmt": fmt})
+
+    searches = [(name, fmt, name) for name in args.competitors for fmt in ("image", "video")]
+    searches += [(q, "image", "") for q in args.queries]
+    for query, fmt, brand_filter in searches:
+        try:
+            items = api.get("ad-library/search", {"query": query, "display_format": fmt,
+                                                  "order": "most_impressions", "page_size": 50})["items"]
+        except Exception as e:  # one bad query shouldn't stop the pull
+            print(f"  {query} {fmt}: {e}")
+            continue
+        add(items, query, fmt, brand_filter)
+        time.sleep(0.8)
+    rows = []
+    for it in seen.values():
+        latest = (it.get("impression_rank") or {}).get("latest_rank") or {}
+        rows.append({"brand": it["brand_name"], "query": it["query"], "format": it["fmt"],
+                     "impression_percentile": latest.get("percentile"), "impression_rank": latest.get("rank"),
+                     "days_running": it["days_running"], "status": it.get("status"), "title": it.get("title"),
+                     "body": (it.get("body") or "")[:700],
+                     "image_url": (it.get("images") or [{}])[0].get("url") or it.get("thumbnail_url"),
+                     "landing_url": it.get("link_url")})
+    rows.sort(key=lambda r: (r["impression_percentile"] if r["impression_percentile"] is not None else 9))
     write_csv("competitor_ads.csv", rows, list(rows[0]) if rows else ["brand"])
 
 

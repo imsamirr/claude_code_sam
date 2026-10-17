@@ -2,20 +2,21 @@
   "name": "Comfort Wear",
   "product": "Ortho Stretch Cushion Shoe",
   "price": "$59.95 (was $90)",
-  "palette": "white / soft lavender backgrounds, Comfort Wear purple (#7A2FE0) for headlines and pills, black body text",
-  "font_style": "bold geometric sans-serif headlines (like Poppins/Montserrat ExtraBold), clean sans body text",
+  "palette": "white, light grey, soft gradient or clean real-photo backgrounds. Text is black, deep navy or white. One accent color per ad (Comfort Wear purple #7A2FE0, royal blue or red) may color the KEY WORDS of the headline or fill solid blocks, bars, pills and offer circles with white text inside, as the brand's winning statics do. Accent-colored text is the exception, not the default: most headlines are black or white, and body copy is never purple.",
+  "font_style": "heavy geometric sans-serif (Montserrat Black / Gotham Black / Poppins ExtraBold) or a bold condensed sans for headlines, set very large across nearly the full width, tight leading, 2 lines max; mix weights inside a headline for emphasis (e.g. 'Dear' regular, 'Nurses' bold); clean sans for small copy",
   "website": "comfortorthowear.com",
   "prompt_rules": [
     "The shoe MUST be the exact shoe in the attached studio reference photo, unchanged: same colors, stretch-knit sock-style upper with pull tab, grid-of-small-squares pattern on the side panel, elastic bungee laces with a round toggle, double-chevron logo on the inner collar, chunky rocker midsole with a wavy side profile, lug outsole. Keep its proportions and every detail; only change its angle, lighting and setting as the layout requires. Do not invent a different shoe, logo or sole.",
+    "Show the shoe at its true, natural proportions, exactly like the reference photo: full length from toe to heel, natural height, roomy toe box. Never squash, flatten, shorten, stretch, compress or crop the shoe, and never render it smaller than its natural size relative to the person or scene.",
     "This is a women's shoe: the person wearing it is always a woman (women's proportions and styling). Men may appear only as gift-givers or in the background, never wearing the shoe.",
     "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
     "Add nothing the description doesn't ask for: no extra feature lists, icon callouts, price tags, badges, panels or captions. Never show other brands' logos or products; competitors appear as text names only.",
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
   ],
   "claims_to_avoid": [
-    "money-back guarantee, free/easy returns or fast shipping (top complaints in reviews and the survey)",
     "'orthopedic approved', 'podiatrist recommended', 'doctor recommended' or any cure/treatment claim",
-    "specific review counts or star ratings unless confirmed"
+    "specific review counts or star ratings unless confirmed",
+    "fast/quick shipping speed or 'easy returns' wording (shipping and returns are top complaints); the approved offer stack below is fine"
   ],
   "colorways": {
     "black_purple": {
@@ -32,15 +33,15 @@
     },
     "navy_blue": {
       "file": "reference/shoe_navy_blue.png",
-      "label": "navy with bright blue accents (team name: WhiteBlue/BlueWhite)"
+      "label": "navy with bright blue accents (team name: White Blue)"
     },
     "red_burgundy": {
       "file": "reference/shoe_red_burgundy.png",
-      "label": "burgundy red"
+      "label": "red / burgundy"
     },
     "black_mint": {
       "file": "reference/shoe_black_mint.png",
-      "label": "black with mint accents"
+      "label": "black with turquoise accents (team name: Turquoise/Black)"
     },
     "purple": {
       "file": "reference/shoe_purple.png",
@@ -62,8 +63,9 @@
       "colorways": [
         "black_purple",
         "all_black",
+        "navy_blue",
         "black_white",
-        "navy_blue"
+        "black_mint"
       ]
     },
     "cna_caregiver": {
@@ -73,7 +75,8 @@
         "black_purple",
         "all_black",
         "black_white",
-        "navy_blue"
+        "navy_blue",
+        "black_mint"
       ]
     },
     "restaurant": {
@@ -83,7 +86,8 @@
         "all_black",
         "black_white",
         "black_purple",
-        "navy_blue"
+        "navy_blue",
+        "black_mint"
       ]
     },
     "retail_warehouse": {
@@ -94,7 +98,8 @@
         "navy_blue",
         "black_mint",
         "black_white",
-        "light_grey"
+        "light_grey",
+        "black_purple"
       ]
     },
     "housekeeping": {
@@ -104,7 +109,8 @@
         "all_black",
         "black_purple",
         "navy_blue",
-        "black_mint"
+        "black_mint",
+        "black_white"
       ]
     },
     "teacher": {
@@ -113,13 +119,14 @@
       "colorways": [
         "navy_blue",
         "red_burgundy",
+        "black_purple",
+        "black_mint",
         "all_black",
-        "black_purple"
+        "black_white"
       ],
       "test_colorways": [
         "purple",
-        "grey_pink",
-        "black_mint"
+        "grey_pink"
       ]
     },
     "stylist": {
@@ -159,7 +166,13 @@
         "black_white",
         "navy_blue",
         "red_burgundy",
-        "black_mint"
+        "black_mint",
+        "black_purple",
+        "all_black"
+      ],
+      "test_colorways": [
+        "light_grey",
+        "grey_pink"
       ]
     },
     "walker_weightloss": {
@@ -185,12 +198,26 @@
         "light_grey",
         "purple"
       ]
+    },
+    "plus_size": {
+      "name": "Plus-size / overweight woman on her feet (work, walking, travel)",
+      "source": "User 2026-10-13: proven winning angle. Winners: 'I lost 50lbs+ after walking 20,000 steps' ($93k), Kyro 170 'My doctor said I'd never walk normally again because of my weight' ($106k, 1.89 ROAS); Notion: 250lb woman rating shoes, sneakers for travel over 200lbs, nobody told heavy women shoes aren't designed for them",
+      "colorways": [
+        "all_black",
+        "black_purple",
+        "navy_blue",
+        "black_white",
+        "red_burgundy"
+      ],
+      "test_colorways": [
+        "purple"
+      ]
     }
   },
   "language_rules": {
     "es": "All on-image text is in Spanish exactly as written in quotes, as a Spanish-speaking person living in the USA would say it (neutral US Latino, Mexican-leaning, using 'tú'). Keep every accent and sign: á é í ó ú ñ ¿ ¡. Numbers in US format (12,000 not 12.000; $59.95). Do not translate brand names. Use only the Spanish text given in quotes: do not add feature lists, icons with captions, price tags, badges or extra panels."
   },
-  "audience": "Women only: the product is a women's shoe. Whoever wears the shoe in an ad is always a woman; men may appear only as gift-givers or background people, never wearing the product.",
+  "audience": "Women only: the product is a women's shoe. Whoever wears the shoe in an ad is always a woman; men may appear only as gift-givers or background people, never wearing the product. Core buyers are 50-65+ (survey: 47% are 65+), so every word on the ad must be easy to read for older eyes.",
   "drive_folder_id": "1EAtch1T-oTW95VSiIYYP38mCjmSHEvZh",
   "asana": {
     "project_id": "1203476664398273",
@@ -235,7 +262,9 @@
     },
     "winning_personas": [
       "nurse",
-      "cna_caregiver"
+      "traveler",
+      "teacher",
+      "plus_size"
     ],
     "grow_personas": [
       "housekeeping",
@@ -247,7 +276,119 @@
       "min_spend": 300,
       "min_roas": 1.8
     },
-    "roas_note": "ROAS is unreliable Feb–Dec 2025 (tracking break): rank older ads by spend."
+    "roas_note": "ROAS is unreliable Feb–Dec 2025 (tracking break): rank older ads by spend.",
+    "angle_rules": "User rule 2026-10-13: the proven angles are healthcare workers (nurses), travel, teachers and overweight/plus-size women; mix and match them (e.g. a plus-size nurse, a teacher on a summer trip, a plus-size traveler). At least ~40% of every batch leads with a FOOT-PAIN problem in the customer's words, using the survey and review data (research/analysis.md section 9 and research/data/notion_angles.md): plantar fasciitis/heel pain (25% of survey), arthritis (11%), neuropathy (10%), bunions (7%), swollen feet, knee/back pain from standing, plus 'no diagnosis, just want comfort' (22%).",
+    "offer": {
+      "stack": "40% OFF + 30-DAY MONEY-BACK GUARANTEE + FREE SHIPPING",
+      "share": 0.3,
+      "rule": "User rule 2026-10-13: ~30% of every batch are offer-style creatives showing the full stack (40% OFF, 30-DAY MONEY-BACK GUARANTEE, FREE SHIPPING) as the hero, in varied formats (offer tile, stamp/seal, sticky notes, receipt, shoe + big type, warehouse/last-chance). Mix offer statics into the winning angles (nurse, travel, teacher, plus-size) and foot-pain hooks."
+    },
+    "layout_note": "User rule 2026-10-13: 9:16 must be composed for the full height (generate.py --layout native, the default); no blurred or filler top/bottom bands. Shoes never look compressed."
   },
-  "colorway_template": "The shoe is the {label} colorway shown in the reference photo."
+  "colorway_template": "The shoe is the {label} colorway shown in the reference photo.",
+  "colorway_priority": {
+    "best_sellers": [
+      "black_purple",
+      "all_black",
+      "navy_blue",
+      "black_white",
+      "red_burgundy",
+      "black_mint"
+    ],
+    "test": [
+      "purple",
+      "grey_pink",
+      "light_grey"
+    ],
+    "rule": "User rule 2026-10-13: test ALL colors, weighted to the best sellers. Best sellers in order: Black/Purple, All Black, White Blue (navy_blue), Black/White, Red (red_burgundy), Turquoise/Black (black_mint). About 80% of every batch uses best sellers, spread across all six (each at least once per batch when the batch has 12+ concepts, none over ~20%); about 20% tests purple, grey_pink or light_grey."
+  },
+  "approved_claims": [
+    "Offer stack (user-approved 2026-10-13): \"40% OFF\" + \"30-DAY MONEY-BACK GUARANTEE\" + \"FREE SHIPPING\". Use these exact words; the guarantee is 30 days (never 45).",
+    "Price: $59.95 (was $90)",
+    "HSA/FSA eligible",
+    "Arch support, cushioned heel, wide toe box, stretch-knit upper, slip-resistant grip, elastic no-tie laces"
+  ],
+  "quality_bar": [
+    "Match the quality of the brand's own top-performing ads (the benchmark image): polished commercial e-commerce production, crisp and bright, nothing that looks like generic AI stock art.",
+    "The shoe is the hero: it fills roughly 35-60% of the frame, sharp enough to see the knit texture, square pattern and bungee laces; often shown as a pair. Never a small shoe inside a wide scene.",
+    "Lifestyle shots crop tight on legs and feet (knee or mid-calf down), low camera angle, background softly blurred; faces are optional and never compete with the shoe.",
+    "Typography: one very large, heavy headline across nearly the full width, max 2 lines, high contrast, directly on a clean area of the image or on a solid shape. No translucent boxes, no drop-shadowed text over busy areas, no small headline.",
+    "Few elements: headline + product + at most 3 supporting elements (solid rounded pills, a solid offer block, or black hand-drawn curved arrows pointing at shoe features). Generous spacing, aligned edges.",
+    "Legibility for women 60+ (user rule 2026-10-13): all supporting text (feature/benefit labels, arrow callouts, pills, checklist rows, offer lines, comments) is large and bold enough to read on a phone at arm's length: at least about 1/25 of the canvas height per line (about 75px tall on the 9:16, 55px on the 4:5), high contrast, no light or thin weights, max 4-5 words per label. Use fewer, shorter labels rather than smaller text."
+  ],
+  "benchmarks": {
+    "callouts_white": {
+      "file": "reference/benchmarks/dear_nurses_callouts_1x1.jpg",
+      "use_for": "product on white with hand-drawn arrow callouts, checklists, clean educational layouts"
+    },
+    "lifestyle_legs_9x16": {
+      "file": "reference/benchmarks/named_best_teacher_shoes_lifestyle_9x16.jpg",
+      "use_for": "lifestyle legs/feet close-up with big headline, 9:16 flow, award/authority claims"
+    },
+    "offer_block": {
+      "file": "reference/benchmarks/ditch_the_hokas_offer_1x1.jpg",
+      "use_for": "offer ads: legs crop + solid offer block + pills, competitor switch"
+    },
+    "lifestyle_urgency": {
+      "file": "reference/benchmarks/almost_sold_out_lifestyle_1x1.jpg",
+      "use_for": "lifestyle walking shot with urgency headline, detail-shot strip, offer pill"
+    },
+    "anatomy_split": {
+      "file": "reference/benchmarks/shoe_for_plantar_fasciitis_anatomy_4x5.jpg",
+      "use_for": "foot-pain mechanism, anatomy vs shoe split, condition-led headline"
+    },
+    "list_white": {
+      "file": "reference/benchmarks/w_12_hour_shift_list_858k.jpg",
+      "use_for": "headline + feature list + big product on soft background ($858k winner)"
+    },
+    "diagram_grey": {
+      "file": "reference/benchmarks/w_shoes_for_12h_shifts_diagram_457k.jpg",
+      "use_for": "product diagram with labeled features and pain-area inset ($457k winner)"
+    },
+    "comments_social": {
+      "file": "reference/benchmarks/w_didnt_buy_yet_comments_3x_roas.jpg",
+      "use_for": "native comments / testimonial with product or legs on the side (3.05 ROAS)"
+    },
+    "warehouse_urgency": {
+      "file": "reference/benchmarks/w_warning_warehouse_3x_roas.jpg",
+      "use_for": "real-photo urgency/scarcity, lo-fi offer, stock/restock (3.31 ROAS)"
+    },
+    "strikethrough_split": {
+      "file": "reference/benchmarks/w_hoka_strikethrough_solution_90k.jpg",
+      "use_for": "us vs them, crossed-out alternatives + solution panel"
+    },
+    "statement_list": {
+      "file": "reference/benchmarks/w_ditching_my_hokas_list.jpg",
+      "use_for": "bold statement headline + bullet list + product"
+    },
+    "transformation": {
+      "file": "reference/benchmarks/w_lost_50lbs_walking_93k.jpg",
+      "use_for": "transformation/claim headline with product and social proof"
+    },
+    "pills_gradient": {
+      "file": "reference/benchmarks/w_game_changer_long_shifts_120k.jpg",
+      "use_for": "occupation headline + feature pills + product pair on brand gradient"
+    },
+    "hsa_minimal_9x16": {
+      "file": "reference/benchmarks/hsa_fsa_did_you_know_9x16.jpg",
+      "use_for": "minimal 'did you know' fact/benefit on soft gradient, one large studio shoe, centered text, 9:16"
+    },
+    "comments_offer": {
+      "file": "reference/benchmarks/didnt_buy_yet_comments_1x1.jpg",
+      "use_for": "stacked Facebook comments + large shoe/leg on the right + offer line; retargeting ($50k, 3.05 ROAS original)"
+    },
+    "versus_split_9x16": {
+      "file": "reference/benchmarks/brooks_vs_recommended_split_9x16.jpg",
+      "use_for": "competitor vs ours split columns with X/check pills, headline in solid bars, 9:16"
+    },
+    "condition_icons": {
+      "file": "reference/benchmarks/mortons_toe_relief_icons_4x5.jpg",
+      "use_for": "condition-led headline in solid bars, real-room shoe pair, pain inset circle, 4 feature photo tiles, offer ribbon"
+    },
+    "pills_offer_studio": {
+      "file": "reference/benchmarks/built_for_12h_shifts_pills_1x1.jpg",
+      "use_for": "studio leg + shoe on white, 40% OFF circle, headline with colored second line, 5 check pills, 'try risk-free' button"
+    }
+  },
+  "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference."
 }

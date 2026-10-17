@@ -1,13 +1,13 @@
 {
   "name": "DentalPULSE",
-  "product": "DentalPULSE Pod (ultrasonic cleaner for aligners, retainers, dentures, night guards) and the DentalPULSE Travel Pod. Advertise only these two products; never show Pod Max or cleaning tablets as DentalPULSE products. Bundle ads may show the two bundles exactly as in brand.json → offers (the Ultimate Cleaning Bundle includes the 30-tablet box; tablets appear only in that bundle's ads).",
+  "product": "The DentalPULSE Pod: an ultrasonic cleaner for dentures, night guards, retainers and aligners. Advertise ONLY the Pod (user rule Oct 13: no Travel Pod concepts; no Pod Max; no standalone tablet boxes). Exception: offer-based creatives for the Ultimate Cleaning Bundle show its contents as sold (Pod + Travel Pod + 30-tablet box), and Pod Denture Bundle offers show the Pod with its free gifts.",
   "price": "$99.95 (current price, 40% OFF sale)",
   "audience": "Adults who wear a removable oral appliance (clear aligners/Invisalign, retainers incl. permanent/wire, dentures, night/mouth guards, sleep apnea devices), plus parents of teens with retainers and adult children buying for a parent with dentures. Men and women.",
   "palette": "clean bright white and soft pale blue backgrounds, DentalPULSE blue (#1E73E8) for headlines and pills, dark navy (#0B1F3A) body text, occasional black premium backgrounds",
   "font_style": "clean modern sans-serif (like Inter/SF Pro), bold headlines, generous white space, clinical-but-friendly",
   "website": "dentalpulsepro.com",
   "prompt_rules": [
-    "The product MUST be the exact DentalPULSE device in the attached reference photo, unchanged. The Pod: a smooth matte-white rounded dome with fine vertical ribbing all around the body, a thin horizontal seam near the base, a slightly domed top cap with the 'DentalPULSE' wordmark (black, 'Dental' regular + 'PULSE' bold); when open, a round white hinged lid flips up from the back (the inside of the lid has four small square light points) over a brushed stainless-steel cleaning basin. The Travel Pod: a small round white clamshell case. Keep proportions and every detail; only change angle, lighting and setting. Do not invent buttons, screens, displays, colors or logos. Show no other DentalPULSE products (no Pod Max; no tablet boxes unless the reference photo is the Ultimate Cleaning Bundle, which includes one).",
+    "The product MUST be the exact DentalPULSE device in the attached reference photo, unchanged. The Pod: a smooth matte-white rounded dome with fine vertical ribbing all around the body, a thin horizontal seam near the base, a slightly domed top cap with the 'DentalPULSE' wordmark (black, 'Dental' regular + 'PULSE' bold); when open, a round white hinged lid flips up from the back (the inside of the lid has four small square light points) over a brushed stainless-steel cleaning basin. Keep proportions and every detail; only change angle, lighting and setting. Do not invent buttons, screens, displays, colors or logos. Show no other DentalPULSE products (no Pod Max, no Travel Pod, no tablet boxes) unless the reference photo is a bundle, in which case show exactly the bundle's items at their true relative sizes.",
     "Oral appliances (clear aligners, retainers, dentures, night guards) must look anatomically correct and realistic: clear aligners are thin transparent trays shaped like a full upper or lower arch; dentures have realistic pink gums and natural teeth. No distorted mouths or teeth on people.",
     "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos.",
@@ -29,17 +29,13 @@
       "file": "reference/pod_open.png",
       "label": "DentalPULSE Pod, lid open with a clear aligner going in"
     },
-    "travel_pod": {
-      "file": "reference/travel_pod.png",
-      "label": "DentalPULSE Travel Pod (small round white clamshell)"
-    },
     "denture_gift_bundle": {
       "file": "reference/denture_gift_bundle.png",
-      "label": "DentalPULSE Pod Denture Bundle: the white Pod plus three free gifts: a black zip travel bag with a clear front window and DentalPULSE logo (holding denture care items), a smoky dark-grey round portable denture case with a strap and a blue denture brush, and a navy/silver '1 YEAR WARRANTY' shield card"
+      "label": "DentalPULSE Pod Denture Bundle: the white DentalPULSE ultrasonic cleaner (the large hero item) plus two free gifts that are much smaller than it: a black zip travel bag with a clear front window and DentalPULSE logo, and a small smoky dark-grey denture case with a strap and a blue denture brush (palm-sized, about a quarter the width of the cleaner). The 1-year warranty is NOT a physical item: never show a warranty shield, card or badge as a product; at most a small text line \"1-year warranty included\"."
     },
     "ultimate_bundle": {
       "file": "reference/ultimate_bundle.png",
-      "label": "DentalPULSE Ultimate Cleaning Bundle: the white Pod, the white Travel Pod (small round clamshell with four small square lights inside the lid) and one blue box of 'ANTIBACTERIAL RETAINER CLEANER' effervescent tablets (30 tablets)"
+      "label": "DentalPULSE Ultimate Cleaning Bundle: the white Pod, the white Travel Pod (small round clamshell with four small square lights inside the lid) and one blue box of 'ANTIBACTERIAL RETAINER CLEANER' effervescent tablets (30 tablets) (offer-only: use this bundle only in offer-based creatives)"
     }
   },
   "personas": {
@@ -64,8 +60,7 @@
       "source": "~22% of survey; 'gross yellow and cloudy', 'never felt clean', soap/toothpaste routine; negatives: old yellow stains don't fully reverse",
       "colorways": [
         "pod",
-        "pod_open",
-        "travel_pod"
+        "pod_open"
       ]
     },
     "retainer": {
@@ -73,8 +68,7 @@
       "source": "~13% of survey; 'clear again, not milky', tablets made retainer brittle, buildup in crevices; 'daughter got one for her retainer'",
       "colorways": [
         "pod",
-        "pod_open",
-        "travel_pod"
+        "pod_open"
       ]
     },
     "aligner": {
@@ -82,7 +76,6 @@
       "source": "~6% of survey but high-value category; 'white film', 'trays look cloudy', 'no more smell'; Zima/oPro/Novapod compete hardest here",
       "colorways": [
         "pod_open",
-        "travel_pod",
         "pod"
       ]
     },
@@ -118,14 +111,15 @@
       "retainer",
       "denture_caregiver"
     ],
-    "appliance_mix": "Every batch: 50% dentures (incl. partials, caregiver, switcher), 25% night guards, 25% aligners/retainers. Big swings on each.",
+    "appliance_mix": "Every batch: 50% dentures (incl. partials, caregiver/gift buyer), 50% other appliances weighted by the feedback sheet: night guards ~50% of that half, retainers ~30%, aligners/Invisalign ~15%, sleep-apnea/snore guards ~5%.",
     "iterate_when": {
       "days": 30,
       "min_spend": 300,
       "min_roas": 1.8
     },
     "roas_note": "Comparison/listicle ads send traffic to an advertorial (LP_LISTICLE); ROAS is the account's reported figure.",
-    "offer": "Current offer: 40% OFF sale, $99.95, 120-day money-back guarantee. Use it on offer tiles and as a CTA line on ~30% of concepts."
+    "offer": "Current offer: 40% OFF sale, $99.95, 120-day money-back guarantee. Use it on offer tiles and as a CTA line on ~30% of concepts.",
+    "mix": "Every batch: 50% dentures (incl. partials, caregiver/gift buyer), 50% other appliances weighted by the feedback sheet: night guards ~50% of that half, retainers ~30%, aligners/Invisalign ~15%, sleep-apnea/snore guards ~5%."
   },
   "drive_folder_id": "1czcREwJ7CCml8-ZrrezzypAD9GLnwcxV",
   "slack": {
@@ -145,18 +139,20 @@
   },
   "format_guides_note": "Testimonial/review ads use fb_comment or trustpilot; tweet-style ads use x_post. Cartoon/animation formats (user rule, Oct 11: use them, both brands): cartoon_3d, comic_strip, flat_illustration, claymation, retro_cartoon, anime_soft. Aim for ~15–20% of every batch.",
   "inspo_queries": [
-    "retainer cleaner",
     "ultrasonic cleaner",
+    "retainer cleaner",
     "denture cleaner",
-    "night guard",
+    "night guard cleaner",
     "aligner cleaner",
-    "invisalign",
+    "denture",
     "dentures",
-    "mouth guard",
+    "night guard",
+    "teeth grinding",
     "retainer",
-    "polident",
+    "invisalign",
+    "oral care",
     "teeth whitening",
-    "oral care"
+    "bad breath"
   ],
   "colorway_template": "The product is the {label} shown in the reference photo.",
   "competitor_brands": [
@@ -179,7 +175,15 @@
     "LIVFRESH",
     "usmile",
     "Cocofloss",
-    "Fixodent"
+    "Fixodent",
+    "Quip",
+    "Burst Oral Care",
+    "Moon Oral Care",
+    "ProDentim",
+    "Lumineux",
+    "Spotlight Oral Care",
+    "Oral-B",
+    "Philips Sonicare"
   ],
   "approved_claims": [
     "Eliminates 99.9% of bacteria (in one 5-minute cycle)",
@@ -244,5 +248,14 @@
       "best_for": "aligners, retainers, night guards (home + on the go)",
       "colorway": "ultimate_bundle"
     }
-  }
+  },
+  "naming_rule": "Call it an \"ultrasonic cleaner\" (e.g. \"the DentalPULSE ultrasonic cleaner\", \"this $99 ultrasonic cleaner\") in most headlines, especially top-of-funnel for unaware audiences who don't know what a 'Pod' is. Use \"the Pod\" only as a secondary/brand reference or in offer/retargeting copy.",
+  "copy_rules": [
+    "Direct response, aggressive, specific. Lead with the pain in the customer's words, agitate, then the mechanism, then proof/offer. Short punchy lines, numbers, imperatives.",
+    "Controversial is welcome (user Oct 13): attack Polident/Efferdent tablets ('pool chemicals and bleach', 'Do not place in mouth — read that again'), brushing/soap/vinegar/bleach, 'big pharma kept this from you', cheap pods that 'look like they work'. Use verbatim hooks from research/notion_brief.md §2 and §8 and feedback_deep_dive.md §9.",
+    "Make BACTERIA and YELLOW STAINS explicit in the creative (they are the #1 and #2 purchase reasons in the feedback sheet: 68% and 40%). Visualize them: biofilm close-ups, petri dishes, brown/murky water after a cycle, yellow vs white.",
+    "Dentures: push yellow → white hard ('white as the day I got them' is a real result). Night guards/retainers/aligners: frame yellow/cloudy/milky as bacteria + film ('that yellow is bacteria', 'stops it turning yellow', 'clear again', 'no white film') — do NOT promise years of set-in yellow vanish in one cycle (night-guard yellow-stain buyers were the least satisfied).",
+    "Show the invisible: brown water, debris lifting, cavitation bubbles — several unhappy buyers saw 'no vibrations, just noise'.",
+    "Funnel mix every batch: ~65% top-of-funnel (problem/enemy/mechanism/controversy, no price) and ~35% offer-based (40% OFF $99.95 + gifts + 120-day guarantee; bundles)."
+  ]
 }
