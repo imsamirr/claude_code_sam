@@ -55,7 +55,7 @@
    "angle": "Post-it confession: the cheap pod I returned vs the one that worked",
    "based_on": "Notion DEN167 post-it variations 'My $45 Mistake' / 'My $180 Zima Mistake' (competitor name removed, claims_to_avoid); winner format DEN70/DEN167; survey: ~20% previously owned another pod.",
    "headline": "My $45 mistake.",
-   "prompt": "Real lo-fi photo of a bathroom counter. Foreground: the white DentalPULSE ultrasonic cleaner from the reference photo, with two yellow sticky notes stuck on it in messy handwriting: \"My $45 mistake.\" and \"Should've bought this once.\" In the background an open trash can holding a crumpled plain brown shipping box and a crumpled receipt (no logos, no other cleaner visible). Natural window light, slight phone-camera grain."
+   "prompt": "Real lo-fi photo with a bold white headline across the upper third reading \"My $45 mistake.\" Real lo-fi photo of a bathroom counter. Foreground: the white DentalPULSE ultrasonic cleaner from the reference photo, with two yellow sticky notes stuck on it in messy handwriting: \"My $45 mistake.\" and \"Should've bought this once.\" In the background an open trash can holding a crumpled plain brown shipping box and a crumpled receipt (no logos, no other cleaner visible). Natural window light, slight phone-camera grain. IMPORTANT: render ONLY the exact quoted words; no other text, labels, taglines, icons rows, feature lists or captions anywhere. The headline is exactly: \"My $45 mistake.\""
   },
   {
    "id": "W43_06_den_report_card",
@@ -162,7 +162,7 @@
    "angle": "3D animated courtroom: tablets on trial, the ultrasonic cleaner as star witness (Notion DEN230 court skit)",
    "based_on": "Notion DEN230 court skit (dentist vs ultrasonic) + DEN234 'handful of corporations' controversy; anti-tablet pillar (45% of buyers came from tablets).",
    "headline": "The People vs. denture tablets.",
-   "prompt": "A 3D animated feature-film still of a cute courtroom: a stern owl-faced judge raising a gavel, a giant fizzy blue denture tablet in a tiny witness-stand cage looking nervous with little cartoon pool-chemical bubbles around it, and on the witness stand the white DentalPULSE ultrasonic cleaner from the reference photo wearing a tiny confident look. A jury of denture characters nods. A banner at the top in bold rounded letters: \"The People vs. denture tablets.\" A small sign on the judge's bench: \"GUILTY: pool-shock chemistry\"."
+   "prompt": "A 3D animated feature-film still of a cute courtroom: a stern owl-faced judge raising a gavel, a giant fizzy blue denture tablet in a tiny witness-stand cage looking nervous with little cartoon pool-chemical bubbles around it, and on the witness stand the white DentalPULSE ultrasonic cleaner from the reference photo wearing a tiny confident look. A jury of denture characters nods. A banner at the top in bold rounded letters: \"The People vs. denture tablets.\" A small sign on the judge's bench: \"GUILTY: pool-shock chemistry\". IMPORTANT: render ONLY the exact quoted words; no other text, labels, taglines, icons rows, feature lists or captions anywhere."
   },
   {
    "id": "W43_13_den_billboard_pool_chemicals",
@@ -184,7 +184,7 @@
    "angle": "Gift static: handwritten gift tag on a wrapped bundle (Q4 gifting, Pod Denture Bundle)",
    "based_on": "Notion DEN268 gifting angle + DEN236 'The best gift I ever gave my mom wasn't expensive'; store Pod Denture Bundle $99.95 (compare-at $180).",
    "headline": "Mom, your dentures deserve better.",
-   "prompt": "A cozy holiday photo: a wrapped gift with a red ribbon on a wooden table, a handwritten kraft gift tag tied to it reading \"Mom, your dentures deserve better. Love, Sarah.\" Next to the gift the Pod Denture Bundle from the reference photo: the large white DentalPULSE ultrasonic cleaner with the much smaller black travel bag and the small dark denture case beside it. Two bold pills at the bottom: \"40% OFF + FREE gifts\" and \"$99.95 - 120-Day Money-Back Guarantee\". Warm window light, a few pine branches in the corner."
+   "prompt": "A cozy holiday photo: a wrapped gift with a red ribbon on a wooden table, a handwritten kraft gift tag tied to it reading \"Mom, your dentures deserve better. Love, Sarah.\" Next to the gift the Pod Denture Bundle from the reference photo: the large white DentalPULSE ultrasonic cleaner with the much smaller black travel bag and the small dark denture case beside it. Two bold pills at the bottom: \"40% OFF + FREE gifts\" and \"$99.95 - 120-Day Money-Back Guarantee\". Warm window light, a few pine branches in the corner. IMPORTANT: render ONLY the exact quoted words; no other text, labels, taglines, icons rows, feature lists or captions anywhere."
   },
   {
    "id": "W43_15_den_email_better_cleaner",
@@ -275,7 +275,7 @@
    "angle": "Rankings-style bar chart: bacteria remaining per method (winner format IMG_DEN62)",
    "based_on": "Winner IMG_DEN62 'Top 7 Ultrasonic Cleaners for Dentures' rankings bar chart (ROAS 3.28-3.36); approved claim 99.9% / 6 of 7 pods leave live bacteria; feedback: night guard 'never felt clean' (59% bacteria).",
    "headline": "Bacteria left on a night guard after one cycle.",
-   "prompt": "A clean bar-chart infographic on white. Headline at the top in bold navy: \"Bacteria left on a night guard after one cycle.\" Four horizontal bars labeled with icons: \"Hand soap\" (long bar), \"Brush + toothpaste\" (long bar), \"Cheap $30 pod\" (medium bar), and \"DentalPULSE ultrasonic cleaner\" (tiny sliver bar in blue) with the tag \"99.9% eliminated\". Red-to-green color coding. At the right, a small photo of the open DentalPULSE ultrasonic cleaner from the reference photo with a clear night guard in the basin.",
+   "prompt": "A clean bar-chart infographic on white. Headline at the top in bold navy: \"Bacteria left on a night guard after one cycle.\" Four horizontal bars labeled with icons: \"Hand soap\" (long bar), \"Brush + toothpaste\" (long bar), \"Cheap $30 pod\" (medium bar), and \"DentalPULSE ultrasonic cleaner\" (tiny sliver bar in blue) with the tag \"99.9% eliminated\". Red-to-green color coding. Show NO percentages or numbers on the bars except the single tag \"99.9% eliminated\". At the right, a small photo of the open DentalPULSE ultrasonic cleaner from the reference photo with a clear night guard in the basin.",
    "gif": {
     "build": true,
     "first_ms": 2400,
@@ -311,7 +311,7 @@
    "angle": "UV blacklight imaging: glowing film vs clean after one cycle",
    "based_on": "analysis §7 medical-imaging format (MRI/CBCT/petri, top 0.1-0.4%); feedback: night guard yellow/cloudy = bacteria + film (71% yellow stains); framed as film, not 'removes set-in yellow'. Flag: show as illustrative.",
    "headline": "Blacklight test: your 'clean' night guard.",
-   "prompt": "A dramatic dark-room photo lit by purple-blue blacklight. On a black table, two clear night guards side by side: the left one glows with blotchy bright blue-white patches of film and bacteria and has a small label \"BEFORE\", the right one is dark and clean with a small label \"AFTER 5 MIN\". Between them, softly lit, the white DentalPULSE ultrasonic cleaner from the reference photo. Bold white headline at the top: \"Blacklight test: your 'clean' night guard.\""
+   "prompt": "A dramatic dark-room photo lit by purple-blue blacklight. On a black table, two clear night guards side by side: the left one glows with blotchy bright blue-white patches of film and bacteria and has a small label \"BEFORE\", the right one is dark and clean with a small label \"AFTER 5 MIN\". Between them, softly lit, the white DentalPULSE ultrasonic cleaner from the reference photo. Bold white headline at the top: \"Blacklight test: your 'clean' night guard.\" IMPORTANT: render ONLY the exact quoted words; no other text, labels, taglines, icons rows, feature lists or captions anywhere."
   },
   {
    "id": "W43_24_ng_clay_germ_party",
@@ -440,7 +440,7 @@
    "angle": "Flat illustration police lineup: the five suspects (brush, hot water, tablets, soap, the case)",
    "based_on": "Notion DEN238 retainer character + 'Scrubbing creates scratches. Scratches trap bacteria'; survey 'tablets made the retainer fragile'; old_methods; new format: suspect lineup.",
    "headline": "Who's been wrecking your retainer?",
-   "prompt": "A flat vector editorial illustration of a police lineup against a height-chart wall. Five cartoon suspects stand in a row with numbered placards: a toothbrush \"THE BRUSH\", a steaming kettle \"HOT WATER\", a fizzy tablet \"TABLETS\", a soap bar \"HAND SOAP\", and a gross retainer case \"THE CASE\". On the right, a smiling detective figure next to the white DentalPULSE ultrasonic cleaner (recognizable white ribbed dome) with a small stamp \"CASE CLOSED\". Limited palette of blue, navy, white and a red accent. Bold headline at the top: \"Who's been wrecking your retainer?\""
+   "prompt": "A flat vector editorial illustration of a police lineup against a height-chart wall. Five cartoon suspects stand in a row with numbered placards: a toothbrush \"THE BRUSH\", a steaming kettle \"HOT WATER\", a fizzy tablet \"TABLETS\", a soap bar \"HAND SOAP\", and a gross retainer case \"THE CASE\". On the right, a smiling detective figure next to the white DentalPULSE ultrasonic cleaner (recognizable white ribbed dome) with a small stamp \"CASE CLOSED\". Limited palette of blue, navy, white and a red accent. Bold headline at the top: \"Who's been wrecking your retainer?\" IMPORTANT: render ONLY the exact quoted words; no other text, labels, taglines, icons rows, feature lists or captions anywhere."
   },
   {
    "id": "W43_34_ret_anime_film_not_age",
@@ -485,7 +485,7 @@
    "angle": "Native dating-app profile (no logo): aligner hygiene as a green flag",
    "based_on": "analysis §7 native UI (dating-app profile); survey aligner: 'white film', 'trays looked cloudy' (aligners happiest segment 4.36 stars); aligner persona 25-45.",
    "headline": "Green flag: clean aligners.",
-   "prompt": "A realistic dating-app style profile screenshot, light mode, no logos. A large photo of a smiling woman about 30 holding clear aligners, name \"Priya, 31\", then prompt cards: \"Green flag I look for: clean aligners.\" and \"My most irrational fear: that white film.\" and \"Second photo: the open DentalPULSE ultrasonic cleaner from the reference photo with an aligner inside, captioned 'Me, every night, 5 minutes.'\" Bold headline over the top of the screen: \"Green flag: clean aligners.\""
+   "prompt": "A realistic dating-app style profile screenshot, light mode, no logos. A large photo of a smiling woman about 30 holding clear aligners, name \"Priya, 31\", then prompt cards: \"Green flag I look for: clean aligners.\" and \"My most irrational fear: that white film.\" and and a second photo of the open DentalPULSE ultrasonic cleaner from the reference photo with an aligner inside, captioned \"Me, every night, 5 minutes.\" (do not print the words 'Second photo') Bold headline over the top of the screen: \"Green flag: clean aligners.\""
   },
   {
    "id": "W43_38_al_story_poll",
