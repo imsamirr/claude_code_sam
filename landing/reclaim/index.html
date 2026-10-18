@@ -1,0 +1,772 @@
+<title>Reclaim Landing Page</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400..700,100&family=Poppins:wght@400;500;600;700;800&display=swap">
+<style>
+/* Layout: Blume-style DTC product page. Plum type on white/blush bands, pill buttons,
+   Reclaim's magenta-to-red pouch gradient used only for brand moments (wordmark, hero tile, final CTA).
+   Single light look by design, matching the brand; every color set explicitly. */
+:root {
+  --plum: #5c1c4f;        /* Blume primary text + buttons */
+  --plum-deep: #3e1036;
+  --magenta: #e0177a;     /* Reclaim pouch */
+  --red: #ef3340;         /* Reclaim pouch */
+  --peach: #f0a162;       /* Blume accent */
+  --blush: #fceff6;       /* Blume soft band */
+  --rose: #ebbed1;
+  --lime: #e4eb9c;        /* Blume highlight */
+  --cream: #fff8f3;
+  --white: #ffffff;
+  --line: #ead7e3;
+  --muted: #7a5470;
+  --note-bg: #fffbe8;
+  --note-line: #d9b44a;
+  --note-fg: #6b5214;
+  --grad: linear-gradient(135deg, #e0177a 0%, #ea2b6a 45%, #ef3340 100%);
+
+  --display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --body: "Poppins", "Helvetica Neue", Arial, sans-serif;
+
+  --radius: 18px;
+  --pill: 999px;
+  --wrap: 1180px;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; animation: none !important; } }
+body {
+  background: var(--white); color: var(--plum);
+  font-family: var(--body); font-size: 16px; line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 60; background: var(--plum); }
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+h1, h2, h3, h4 { margin: 0; text-wrap: balance; font-weight: 500; }
+p { margin: 0; }
+:focus-visible { outline: 3px solid var(--peach); outline-offset: 3px; border-radius: 6px; }
+
+.wrap {
+  max-width: var(--wrap); margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+@media (min-width: 720px) { .wrap { padding-left: max(32px, env(safe-area-inset-left, 0px)); padding-right: max(32px, env(safe-area-inset-right, 0px)); } }
+.band { padding-block: clamp(56px, 8vw, 104px); }
+.band--blush { background: var(--blush); }
+.band--cream { background: var(--cream); }
+.band--plum { background: var(--plum); color: var(--white); }
+
+.h-xl { font-family: var(--display); font-size: clamp(34px, 5vw, 58px); line-height: 1.05; letter-spacing: -0.02em; font-variation-settings: "SOFT" 100; }
+.h-lg { font-family: var(--display); font-size: clamp(30px, 4vw, 46px); line-height: 1.08; letter-spacing: -0.02em; font-variation-settings: "SOFT" 100; }
+.h-md { font-family: var(--body); font-weight: 600; font-size: 19px; line-height: 1.3; }
+.h-lg em, .h-xl em { font-style: italic; color: var(--magenta); }
+.band--plum .h-lg em { color: var(--peach); }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--magenta); }
+.lede { font-size: 18px; max-width: 60ch; }
+.stack { display: flex; flex-direction: column; gap: 16px; }
+.center { text-align: center; align-items: center; margin-inline: auto; }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  font-family: var(--body); font-weight: 600; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 17px 34px; border-radius: var(--pill); border: 2px solid var(--plum);
+  background: var(--plum); color: var(--white); text-decoration: none; cursor: pointer;
+  transition: background .2s, color .2s, transform .2s;
+}
+.btn:hover { background: var(--plum-deep); transform: translateY(-1px); }
+.btn--ghost { background: transparent; color: var(--plum); }
+.btn--ghost:hover { background: var(--plum); color: var(--white); }
+.btn--light { background: var(--white); color: var(--plum); border-color: var(--white); }
+.btn--light:hover { background: var(--blush); }
+.btn--block { width: 100%; }
+
+/* draft placeholders and notes */
+.tbc {
+  display: inline; padding: 1px 8px; border-radius: 6px;
+  background: var(--note-bg); color: var(--note-fg); border: 1px dashed var(--note-line);
+  font-size: 0.86em; font-weight: 500; white-space: normal;
+}
+.note {
+  font-size: 13px; line-height: 1.5; color: var(--note-fg); background: var(--note-bg);
+  border: 1px dashed var(--note-line); border-radius: 10px; padding: 10px 14px;
+}
+.note::before { content: "Draft note · "; font-weight: 600; }
+body.hide-notes .note { display: none; }
+body.hide-notes .tbc { background: transparent; border-color: transparent; padding: 0; color: inherit; }
+.notes-toggle {
+  position: fixed; z-index: 70;
+  right: calc(16px + env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  font: 600 12px/1 var(--body); letter-spacing: .06em; text-transform: uppercase;
+  padding: 12px 16px; border-radius: var(--pill); border: 1px dashed var(--note-line);
+  background: var(--note-bg); color: var(--note-fg); cursor: pointer; box-shadow: 0 6px 20px rgba(92,28,79,.15);
+}
+
+/* 1. announcement + header */
+.announce { background: var(--plum); color: var(--white); font-size: 13px; font-weight: 500; text-align: center; padding-block: 10px; letter-spacing: .02em; }
+.announce .tbc { color: var(--note-fg); }
+.header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50; background: var(--white); border-bottom: 1px solid var(--line); }
+.header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 14px; }
+.wordmark { font-family: var(--body); font-weight: 800; letter-spacing: -0.04em; line-height: 1; text-decoration: none; }
+.header .wordmark { font-size: 30px; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.nav { display: flex; gap: 28px; font-size: 14px; font-weight: 500; }
+.nav a { text-decoration: none; }
+.nav a:hover { color: var(--magenta); }
+.header .btn { padding: 11px 22px; font-size: 13px; }
+@media (max-width: 860px) { .nav { display: none; } }
+
+/* 2. hero */
+.hero { padding-block: clamp(24px, 4vw, 56px) clamp(56px, 7vw, 96px); }
+.hero-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: clamp(28px, 4vw, 64px); align-items: start; }
+@media (max-width: 920px) { .hero-grid { grid-template-columns: 1fr; } }
+.gallery { position: sticky; top: 96px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+@media (max-width: 920px) { .gallery { position: static; } }
+.gallery-main { background: var(--cream); border-radius: var(--radius); overflow: hidden; aspect-ratio: 1; max-width: 100%; }
+.gallery-main img { width: 100%; height: 100%; object-fit: cover; }
+.gallery-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.tile { aspect-ratio: 1; max-width: 100%; border-radius: 12px; display: grid; place-items: center; text-align: center; font-size: 12px; font-weight: 600; line-height: 1.25; padding: 10px; }
+.tile--pouch { background: var(--cream); padding: 0; overflow: hidden; outline: 2px solid var(--plum); outline-offset: -2px; }
+.tile--pouch img { width: 100%; height: 100%; object-fit: cover; }
+.tile--grad { background: var(--grad); color: var(--white); }
+.tile--lime { background: var(--lime); }
+.tile--rose { background: var(--rose); }
+.tile b { display: block; font-family: var(--display); font-size: 22px; font-weight: 500; }
+
+.info { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+.info .wordmark-lg { font-size: clamp(56px, 7vw, 84px); background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 800; letter-spacing: -0.05em; line-height: .9; font-family: var(--body); }
+.info .sub { font-size: clamp(20px, 2.2vw, 24px); font-weight: 600; line-height: 1.2; }
+.info .sub span { display: block; font-weight: 400; font-size: 16px; color: var(--muted); margin-top: 4px; }
+.spec { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font-size: 13px; font-weight: 500; padding: 6px 14px; border-radius: var(--pill); border: 1px solid var(--line); background: var(--white); }
+.chip--flavor { background: var(--blush); border-color: var(--rose); }
+.benefit-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.benefit { display: flex; align-items: center; gap: 12px; font-size: 14px; font-weight: 500; padding: 12px 14px; border-radius: 12px; background: var(--blush); }
+.benefit svg { flex: none; width: 30px; height: 30px; }
+.benefit small { display: block; font-size: 11px; font-weight: 400; color: var(--note-fg); }
+
+.buy { display: flex; flex-direction: column; gap: 12px; }
+.buy-title { font-size: 13px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
+.opt { position: relative; display: block; border: 2px solid var(--line); border-radius: 16px; padding: 18px 18px 18px 52px; cursor: pointer; background: var(--white); transition: border-color .2s, background .2s; }
+.opt input { position: absolute; left: 18px; top: 21px; width: 20px; height: 20px; accent-color: var(--plum); margin: 0; }
+.opt:has(input:checked) { border-color: var(--plum); background: var(--blush); }
+.opt-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; font-weight: 600; font-size: 17px; }
+.opt-head .price { font-size: 15px; }
+.badge { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; padding: 4px 10px; border-radius: var(--pill); background: var(--lime); color: var(--plum); margin-left: 6px; vertical-align: 2px; }
+.opt-body { font-size: 14px; color: var(--muted); margin-top: 6px; display: flex; flex-direction: column; gap: 8px; }
+.opt ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px; }
+.opt li { display: flex; gap: 8px; align-items: flex-start; color: var(--plum); }
+.opt li::before { content: ""; flex: none; width: 16px; height: 16px; margin-top: 4px; border-radius: 50%; background: var(--peach) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4.5 8.2l2.3 2.3 4.7-5' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/100% no-repeat; }
+.reassure { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 14px; font-size: 13px; color: var(--muted); text-align: center; }
+.cart-msg { font-size: 14px; text-align: center; color: var(--plum); font-weight: 500; min-height: 1.4em; }
+
+/* 3. accordions */
+.acc { border-top: 1px solid var(--line); }
+.acc details { border-bottom: 1px solid var(--line); }
+.acc summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 18px 2px; font-weight: 600; font-size: 16px; }
+.acc summary::-webkit-details-marker { display: none; }
+.acc summary::after { content: ""; flex: none; width: 14px; height: 14px; background: linear-gradient(var(--plum), var(--plum)) center/14px 2px no-repeat, linear-gradient(var(--plum), var(--plum)) center/2px 14px no-repeat; transition: transform .25s; }
+.acc details[open] summary::after { transform: rotate(45deg); }
+.acc .acc-body { padding: 0 2px 20px; display: flex; flex-direction: column; gap: 12px; font-size: 15px; max-width: 64ch; }
+
+/* 4. problem */
+.problem-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 88px); align-items: center; }
+@media (max-width: 860px) { .problem-grid { grid-template-columns: 1fr; } }
+.problem-copy { display: flex; flex-direction: column; gap: 18px; font-size: 17px; min-width: 0; }
+.problem-copy .pull { font-family: var(--display); font-size: 24px; line-height: 1.3; font-style: italic; color: var(--magenta); font-variation-settings: "SOFT" 100; }
+.list-card { background: var(--white); border-radius: var(--radius); padding: clamp(24px, 3vw, 36px); display: flex; flex-direction: column; gap: 0; box-shadow: 0 20px 50px -24px rgba(92,28,79,.35); min-width: 0; }
+.list-card .item { display: grid; grid-template-columns: 22px 1fr; gap: 14px; padding: 14px 0; border-bottom: 1px dashed var(--line); font-size: 15px; }
+.list-card .item:last-child { border-bottom: 0; }
+.list-card .box { width: 20px; height: 20px; border: 2px solid var(--rose); border-radius: 6px; margin-top: 2px; }
+.list-card .item.done .box { background: var(--peach); border-color: var(--peach); }
+.list-card .item.done span { text-decoration: line-through; color: var(--muted); }
+.list-card .item.mine { background: var(--blush); margin-inline: -14px; padding-inline: 14px; border-radius: 10px; border-bottom: 0; font-weight: 600; }
+.list-card .item.mine .box { border-color: var(--magenta); }
+.list-card .label { font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); padding-bottom: 6px; }
+
+.cards3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: clamp(40px, 5vw, 64px); }
+@media (max-width: 860px) { .cards3 { grid-template-columns: 1fr; } }
+.pcard { border-radius: var(--radius); padding: 28px; display: flex; flex-direction: column; gap: 10px; }
+.pcard:nth-child(1) { background: var(--rose); }
+.pcard:nth-child(2) { background: var(--lime); }
+.pcard:nth-child(3) { background: var(--white); border: 1px solid var(--line); }
+.pcard svg { width: 44px; height: 44px; margin-bottom: 6px; }
+
+/* 5. ingredients */
+.ing-head { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 64px; align-items: end; margin-bottom: clamp(32px, 4vw, 52px); }
+@media (max-width: 860px) { .ing-head { grid-template-columns: 1fr; } }
+.ing-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+@media (max-width: 900px) { .ing-grid { grid-template-columns: 1fr; } }
+.ing { background: var(--white); border-radius: var(--radius); padding: 28px; display: flex; flex-direction: column; gap: 14px; border: 1px solid var(--line); }
+.ing-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.ing-name { font-family: var(--display); font-size: 28px; line-height: 1.1; font-variation-settings: "SOFT" 100; }
+.ing-mol { width: 54px; height: 54px; flex: none; border-radius: 50%; display: grid; place-items: center; font-weight: 700; font-size: 15px; color: var(--white); background: var(--grad); }
+.ing-mol--peach { background: var(--peach); }
+.ing-mol--plum { background: var(--plum); }
+.ing-row { display: flex; justify-content: space-between; gap: 12px; font-size: 13px; padding-top: 12px; border-top: 1px solid var(--line); }
+.ing-row dt { color: var(--muted); }
+.ing-row dd { margin: 0; text-align: right; }
+.formula-bar { margin-top: 18px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 18px 32px; padding: 26px 30px; border-radius: var(--radius); background: var(--plum); color: var(--white); }
+.formula-bar .h-md { color: var(--white); }
+.formula-bar p { opacity: .85; font-size: 15px; }
+
+/* 6. benefits */
+.ben-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; margin-top: clamp(32px, 4vw, 52px); }
+@media (max-width: 1000px) { .ben-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .ben-grid { grid-template-columns: 1fr; } }
+.bcard { display: flex; flex-direction: column; gap: 12px; padding: 26px; border-radius: var(--radius); background: var(--blush); }
+.bcard--alt { background: var(--white); border: 2px dashed var(--rose); }
+.bcard-icon { width: 56px; height: 56px; border-radius: 50%; background: var(--white); display: grid; place-items: center; }
+.bcard--alt .bcard-icon { background: var(--blush); }
+.bcard-icon svg { width: 30px; height: 30px; }
+.bcard p { font-size: 15px; }
+
+/* 7. life stage */
+.life { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(32px, 6vw, 88px); align-items: center; }
+@media (max-width: 860px) { .life { grid-template-columns: 1fr; } }
+.seasons { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.season { border-radius: 14px; padding: 18px 14px; min-height: 150px; display: flex; flex-direction: column; justify-content: space-between; gap: 10px; font-size: 13px; font-weight: 500; }
+.season b { font-family: var(--display); font-weight: 500; font-size: 20px; line-height: 1.15; }
+.season:nth-child(1) { background: var(--lime); }
+.season:nth-child(2) { background: var(--peach); }
+.season:nth-child(3) { background: var(--rose); }
+@media (max-width: 480px) { .seasons { grid-template-columns: 1fr; } .season { min-height: 0; } }
+.disclaimer { font-size: 14px; color: var(--muted); padding: 16px 18px; border-left: 3px solid var(--rose); background: var(--white); border-radius: 0 12px 12px 0; }
+
+/* 8. sleep-adjacent */
+.evening { display: grid; grid-template-columns: 1.1fr .9fr; gap: clamp(32px, 6vw, 88px); align-items: center; }
+@media (max-width: 860px) { .evening { grid-template-columns: 1fr; } }
+.evening .stack { min-width: 0; }
+.evening p { font-size: 17px; opacity: .92; }
+.evening .fine { font-size: 13px; opacity: .75; border-top: 1px solid rgba(255,255,255,.2); padding-top: 14px; }
+.clock { position: relative; aspect-ratio: 1; max-width: 360px; width: 100%; margin-inline: auto; border-radius: 50%; background: radial-gradient(circle at 50% 50%, #7a2c6b 0%, #5c1c4f 70%); box-shadow: inset 0 0 0 1px rgba(255,255,255,.18); }
+.clock svg { width: 100%; height: 100%; }
+.evening .note { color: var(--note-fg); }
+
+/* 9. flavor + how-to */
+.flavor { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 5vw, 72px); align-items: center; }
+@media (max-width: 860px) { .flavor { grid-template-columns: 1fr; } }
+.flavor-visual { border-radius: 24px; background: var(--grad); aspect-ratio: 5/4; max-width: 100%; position: relative; overflow: hidden; display: grid; place-items: center; }
+.flavor-visual img { width: 64%; filter: drop-shadow(0 30px 40px rgba(62,16,54,.45)); border-radius: 8px; }
+.flavor-visual .tag { position: absolute; left: 18px; top: 18px; background: var(--white); color: var(--plum); font-size: 12px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; padding: 8px 14px; border-radius: var(--pill); }
+.flavor-copy { display: flex; flex-direction: column; gap: 22px; min-width: 0; }
+.steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 520px) { .steps { grid-template-columns: 1fr; } }
+.step { background: var(--white); border-radius: 16px; padding: 18px; display: flex; flex-direction: column; gap: 6px; border: 1px solid var(--line); }
+.step-n { width: 30px; height: 30px; border-radius: 50%; background: var(--plum); color: var(--white); display: grid; place-items: center; font-weight: 600; font-size: 14px; }
+.step b { font-size: 17px; }
+.step p { font-size: 14px; color: var(--muted); }
+
+/* 10. transparency */
+.trans-list { margin-top: clamp(32px, 4vw, 52px); border-top: 2px solid var(--plum); }
+.trow { display: grid; grid-template-columns: 1fr 1.4fr; gap: 12px 40px; padding: 24px 0; border-bottom: 1px solid var(--line); align-items: start; }
+@media (max-width: 720px) { .trow { grid-template-columns: 1fr; } }
+.trow h3 { font-family: var(--display); font-size: 24px; line-height: 1.2; font-variation-settings: "SOFT" 100; }
+.trow > div { display: flex; flex-direction: column; gap: 10px; font-size: 15px; min-width: 0; }
+
+/* 11. social proof (draft-only) */
+.proof { border: 2px dashed var(--rose); border-radius: 24px; padding: clamp(28px, 4vw, 48px); background: var(--white); display: flex; flex-direction: column; gap: 22px; }
+.prompts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 900px) { .prompts { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 480px) { .prompts { grid-template-columns: 1fr; } }
+.prompt { background: var(--blush); border-radius: 14px; padding: 18px; font-family: var(--display); font-size: 18px; line-height: 1.3; font-variation-settings: "SOFT" 100; }
+body.hide-notes #reviews { display: none; }
+
+/* 12. FAQ */
+.faq-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(32px, 6vw, 88px); align-items: start; }
+@media (max-width: 860px) { .faq-grid { grid-template-columns: 1fr; } }
+.faq-grid > * { min-width: 0; }
+
+/* 13. final CTA */
+.final { background: var(--grad); color: var(--white); border-radius: 28px; padding: clamp(36px, 6vw, 72px); display: grid; grid-template-columns: 1.2fr .8fr; gap: 32px; align-items: center; overflow: hidden; }
+@media (max-width: 860px) { .final { grid-template-columns: 1fr; } }
+.final .h-xl em { color: var(--white); text-decoration: underline; text-decoration-color: var(--peach); text-underline-offset: 8px; text-decoration-thickness: 3px; }
+.final .wordmark { font-size: 54px; color: var(--white); }
+.final .stack { min-width: 0; }
+.final img { border-radius: 16px; width: 100%; max-width: 380px; margin-inline: auto; box-shadow: 0 30px 60px -20px rgba(62,16,54,.6); }
+.final .meta { font-size: 14px; opacity: .9; }
+.final .tbc { color: var(--note-fg); }
+
+/* 14. email + footer */
+.signup { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 64px; align-items: center; }
+@media (max-width: 860px) { .signup { grid-template-columns: 1fr; } }
+.signup form { display: flex; gap: 10px; flex-wrap: wrap; }
+.signup input { flex: 1 1 240px; min-width: 0; font: 400 16px var(--body); color: var(--plum); padding: 16px 22px; border-radius: var(--pill); border: 2px solid var(--plum); background: var(--white); }
+.signup input::placeholder { color: var(--muted); }
+.form-msg { flex-basis: 100%; font-size: 14px; min-height: 1.4em; }
+.footer { background: var(--plum); color: var(--white); padding-block: 48px calc(48px + env(safe-area-inset-bottom, 0px)); font-size: 13px; }
+.footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; align-items: center; }
+.footer .wordmark { font-size: 34px; color: var(--white); }
+.footer p { opacity: .75; max-width: 70ch; }
+</style>
+
+<button class="notes-toggle" id="notesToggle" type="button" aria-pressed="false">Hide draft notes</button>
+
+<!-- 1. ANNOUNCEMENT BAR -->
+<div class="announce">
+  <div class="wrap">A little more time for you. A daily ritual worth keeping. <span class="tbc">Offer version, if confirmed: Free shaker with your first subscription.</span></div>
+</div>
+
+<header class="header">
+  <div class="wrap">
+    <a class="wordmark" href="#top" aria-label="Reclaim home">reclaim</a>
+    <nav class="nav" aria-label="Page sections">
+      <a href="#ingredients">Ingredients</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#how">How to use</a>
+      <a href="#transparency">Transparency</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn" href="#shop">Shop</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- 2. PRODUCT HERO -->
+<section class="hero" id="shop">
+  <div class="wrap hero-grid">
+    <div class="gallery">
+      <div class="gallery-main"><img src="reclaim-pouch.webp" alt="Reclaim Cortisol Balance + Hydration Daily Drink Mix pouch, Dragonfruit Lemonade, 30 sachets" width="1254" height="1254"></div>
+      <div class="gallery-strip" aria-hidden="true">
+        <div class="tile tile--pouch"><img src="reclaim-pouch.webp" alt=""></div>
+        <div class="tile tile--grad"><span><b>30</b>sachets</span></div>
+        <div class="tile tile--lime"><span><b>4 g</b>per sachet</span></div>
+        <div class="tile tile--rose"><span>Lifestyle shot<br>TBC</span></div>
+      </div>
+    </div>
+
+    <div class="info">
+      <div class="stack" style="gap:10px">
+        <div class="wordmark-lg" role="heading" aria-level="1">reclaim</div>
+        <p class="sub">Cortisol Balance + Hydration <span>Daily Drink Mix</span></p>
+      </div>
+      <h2 class="h-lg">Make room for a <em>calmer</em> you.</h2>
+      <p style="font-weight:500">For the woman carrying a full schedule, a busy mind, and everyone else’s needs.</p>
+      <p>Meet RECLAIM: a refreshing Dragonfruit Lemonade drink mix designed to make daily stress support a little simpler. With L-Theanine and Magnesium, it’s one small ritual you can make your own.</p>
+      <div class="spec">
+        <span class="chip chip--flavor">Dragonfruit Lemonade</span>
+        <span class="chip">30 sachets · 4 g each · Net weight 120 g</span>
+      </div>
+
+      <div class="stack" style="gap:10px">
+        <p class="note">Benefit highlights are subject to final formula and approved claims.</p>
+        <div class="benefit-grid">
+          <div class="benefit">
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 26c-5-3-8-7-8-11 3 0 6 2 8 5 2-3 5-5 8-5 0 4-3 8-8 11z"/><path d="M16 20c-2-3-2-7 0-11 2 4 2 8 0 11z"/></svg>
+            <span>Daily stress support</span>
+          </div>
+          <div class="benefit">
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 5c4 6 8 10 8 15a8 8 0 0 1-16 0c0-5 4-9 8-15z"/><path d="M12 21a4 4 0 0 0 4 4"/></svg>
+            <span>Hydration support</span>
+          </div>
+          <div class="benefit">
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5c1 5-3 8-3 13s3 9 8 9 8-4 8-9-4-8-3-13"/><circle cx="16" cy="18" r="1.2"/></svg>
+            <span>Bloat relief <small>Include only with substantiation</small></span>
+          </div>
+          <div class="benefit">
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 13l7-4 7 4v8l-7 4-7-4z"/><path d="M9 13l7 4 7-4M16 17v8"/><path d="M6 26L26 6"/></svg>
+            <span>No sugar <small>Confirm finished-product spec</small></span>
+          </div>
+        </div>
+      </div>
+
+      <form class="buy" id="buyForm">
+        <p class="buy-title">Choose your routine</p>
+        <label class="opt">
+          <input type="radio" name="plan" id="plan-sub" value="subscribe" checked>
+          <div class="opt-head"><span>Subscribe <span class="badge">Most flexible</span></span><span class="price"><span class="tbc">Price and currency</span> / 30-sachet pouch</span></div>
+          <div class="opt-body">
+            <span>Delivered every <span class="tbc">confirmed interval</span></span>
+            <ul>
+              <li>Free shaker with your first order</li>
+              <li>Skip, pause, or cancel online</li>
+              <li>Clear renewal dates and pricing</li>
+            </ul>
+            <span class="note">Include only confirmed subscription benefits.</span>
+          </div>
+        </label>
+        <label class="opt">
+          <input type="radio" name="plan" id="plan-once" value="once">
+          <div class="opt-head"><span>One-time purchase</span><span class="price"><span class="tbc">Price and currency</span></span></div>
+        </label>
+        <button class="btn btn--block" type="submit">Add to cart</button>
+        <p class="reassure"><span class="tbc">Confirmed shipping terms</span><span>·</span><span class="tbc">Confirmed guarantee</span><span>·</span><span>Secure checkout</span></p>
+        <p class="cart-msg" id="cartMsg" aria-live="polite"></p>
+      </form>
+
+      <!-- 3. PRODUCT INFORMATION ACCORDIONS -->
+      <div class="acc">
+        <details open>
+          <summary>What is RECLAIM?</summary>
+          <div class="acc-body">
+            <p>RECLAIM is a powdered drink mix built around a simple idea: taking care of yourself should fit into the life you actually have.</p>
+            <p>Mix a sachet into water for a refreshing Dragonfruit Lemonade ritual, with L-Theanine and Magnesium.</p>
+          </div>
+        </details>
+        <details>
+          <summary>What does it taste like?</summary>
+          <div class="acc-body">
+            <p>A tropical twist on lemonade. Delicate dragonfruit meets bright citrus for a refreshing sip you’ll look forward to.</p>
+            <p class="note">Confirm final sensory description after sample approval.</p>
+          </div>
+        </details>
+        <details>
+          <summary>How do I make it?</summary>
+          <div class="acc-body">
+            <p>Add one sachet to <span class="tbc">confirmed water volume</span>. Shake or stir as directed. Add ice if you like.</p>
+            <p>Follow the final label’s recommended daily serving and directions.</p>
+          </div>
+        </details>
+        <details>
+          <summary>What’s inside?</summary>
+          <div class="acc-body">
+            <p>Every ingredient. Every amount. Clearly listed.</p>
+            <p class="note">Insert the complete final medicinal and non-medicinal ingredient list, doses, and product facts panel.</p>
+            <p><a class="btn btn--ghost" href="#ingredients">View ingredients &amp; amounts</a></p>
+          </div>
+        </details>
+        <details>
+          <summary>Subscription details</summary>
+          <div class="acc-body">
+            <p>Your next order, renewal price, and delivery schedule should always be easy to find.</p>
+            <p class="note">Insert the actual skip, pause, cancellation, and minimum-order terms.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. PROBLEM-AWARENESS -->
+<section class="band band--blush" id="problem">
+  <div class="wrap">
+    <div class="problem-grid">
+      <div class="problem-copy">
+        <h2 class="h-xl">You get through the day. <em>But do you get a moment to yourself?</em></h2>
+        <p>You’re answering messages while making dinner. Remembering the appointment nobody else remembers. Finally sitting down—and mentally starting tomorrow’s list.</p>
+        <p>Some days, you feel stretched thin before lunch.</p>
+        <p>Other days, it’s an uncomfortable waistband, a restless evening, or the feeling that your usual routine just isn’t working for you anymore.</p>
+        <p class="pull">You don’t need another person telling you to “just relax.”</p>
+        <p>You need space for yourself. And a routine that feels manageable.</p>
+        <p style="font-weight:600">RECLAIM starts with one small daily moment that belongs to you.</p>
+      </div>
+      <div class="list-card" aria-label="Illustration: a day's to-do list">
+        <p class="label">Today · Tuesday</p>
+        <div class="item done"><i class="box"></i><span>Reply to the group chat</span></div>
+        <div class="item done"><i class="box"></i><span>Book the dentist (for everyone)</span></div>
+        <div class="item done"><i class="box"></i><span>Pick up from practice at 5:30</span></div>
+        <div class="item"><i class="box"></i><span>Dinner, lunches, permission slip</span></div>
+        <div class="item"><i class="box"></i><span>Answer the 9 p.m. work email</span></div>
+        <div class="item mine"><i class="box"></i><span>Five minutes for me</span></div>
+      </div>
+    </div>
+
+    <div class="cards3">
+      <article class="pcard">
+        <svg viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="22" cy="22" r="16"/><path d="M14 22c2-4 6-4 8 0s6 4 8 0"/><path d="M16 15c2-2 4-2 6 0M22 29c2 2 4 2 6 0"/></svg>
+        <h3 class="h-md">A mind that stays busy</h3>
+        <p>The tasks finish. The mental list keeps going.</p>
+      </article>
+      <article class="pcard">
+        <svg viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M15 6c1 7-4 11-4 18s5 14 11 14 11-7 11-14-5-11-4-18"/><circle cx="22" cy="26" r="1.6"/></svg>
+        <h3 class="h-md">A body that feels different</h3>
+        <p>Your comfort, routine, and needs may not look the way they used to.</p>
+      </article>
+      <article class="pcard">
+        <svg viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="8" y="10" width="28" height="26" rx="4"/><path d="M8 18h28M15 6v8M29 6v8"/><path d="M15 26h6"/></svg>
+        <h3 class="h-md">Very little left for yourself</h3>
+        <p>You make room for everyone else. Your own needs get pushed to later.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 5. INGREDIENTS -->
+<section class="band band--cream" id="ingredients">
+  <div class="wrap">
+    <div class="ing-head">
+      <div class="stack">
+        <p class="eyebrow">Full formula, per sachet</p>
+        <h2 class="h-lg">Know what’s in your <em>daily ritual.</em></h2>
+      </div>
+      <div class="stack">
+        <p class="lede">You shouldn’t have to decode a label to understand what you’re drinking.</p>
+        <p>RECLAIM’s ingredient panel puts the details where you can see them.</p>
+      </div>
+    </div>
+    <div class="ing-grid">
+      <article class="ing">
+        <div class="ing-top"><h3 class="ing-name">L-Theanine</h3><span class="ing-mol">L-Th</span></div>
+        <p><span class="tbc">Insert the exact approved relaxation or stress-support claim.</span></p>
+        <dl class="ing-row"><dt>Per sachet</dt><dd><span class="tbc">Confirmed amount</span></dd></dl>
+      </article>
+      <article class="ing">
+        <div class="ing-top"><h3 class="ing-name">Magnesium</h3><span class="ing-mol ing-mol--plum">Mg</span></div>
+        <p><span class="tbc">Insert the exact approved magnesium claim.</span></p>
+        <dl class="ing-row"><dt>Form · elemental, per sachet</dt><dd><span class="tbc">Confirmed form and amount</span></dd></dl>
+      </article>
+      <article class="ing">
+        <div class="ing-top"><h3 class="ing-name">Electrolytes</h3><span class="ing-mol ing-mol--peach">Na K</span></div>
+        <p><span class="tbc">Insert substantiated hydration wording appropriate to the final formula.</span></p>
+        <dl class="ing-row"><dt>Minerals, per sachet</dt><dd><span class="tbc">Confirmed minerals and amounts</span></dd></dl>
+      </article>
+    </div>
+    <div class="formula-bar">
+      <div class="stack" style="gap:4px">
+        <h3 class="h-md">The complete formula</h3>
+        <p>See every ingredient, its amount, and why it’s included.</p>
+      </div>
+      <a class="btn btn--light" href="#transparency">Explore the formula</a>
+    </div>
+    <p class="note" style="margin-top:16px">Do not add “ashwagandha-free,” “clinically dosed,” or additional ingredient cards until the formula is finalized.</p>
+  </div>
+</section>
+
+<!-- 6. BENEFITS -->
+<section class="band" id="benefits">
+  <div class="wrap">
+    <div class="stack center" style="max-width:760px">
+      <p class="eyebrow">Why it’s in your day</p>
+      <h2 class="h-lg">Support for the days that <em>ask a lot of you.</em></h2>
+    </div>
+    <div class="ben-grid">
+      <article class="bcard">
+        <span class="bcard-icon"><svg viewBox="0 0 32 32" fill="none" stroke="#5c1c4f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 18c4 0 4-6 8-6s4 10 8 10 4-6 8-6"/></svg></span>
+        <h3 class="h-md">A calmer daily rhythm</h3>
+        <p>A simple way to make stress support part of your routine.</p>
+        <p class="note">Pair with the final approved stress or relaxation claim.</p>
+      </article>
+      <article class="bcard bcard--alt">
+        <span class="bcard-icon"><svg viewBox="0 0 32 32" fill="none" stroke="#5c1c4f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4c1 4-3 7-3 12s3 10 8 10 8-5 8-10-4-8-3-12"/><path d="M13 17c2 2 4 2 6 0"/></svg></span>
+        <h3 class="h-md">A little more comfort</h3>
+        <p>For women who want digestive comfort to be part of the conversation, too.</p>
+        <p class="note">If the final formula supports a bloat claim, replace this body with: “Helps relieve bloating, alongside your daily stress-support routine.” Otherwise, omit this card.</p>
+      </article>
+      <article class="bcard">
+        <span class="bcard-icon"><svg viewBox="0 0 32 32" fill="none" stroke="#5c1c4f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6h14l-2 21H11z"/><path d="M10 13h12"/><circle cx="16" cy="19" r="2"/></svg></span>
+        <h3 class="h-md">A refreshing reason to reach for water</h3>
+        <p>Dragonfruit Lemonade turns an everyday glass into something you look forward to.</p>
+      </article>
+      <article class="bcard">
+        <span class="bcard-icon"><svg viewBox="0 0 32 32" fill="none" stroke="#5c1c4f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="11" y="4" width="10" height="24" rx="2"/><path d="M11 9h10M14 4v2"/></svg></span>
+        <h3 class="h-md">An easy ritual to keep</h3>
+        <p>Individual sachets fit into your work bag, kitchen drawer, or travel routine.</p>
+      </article>
+    </div>
+    <div class="stack center" style="margin-top:40px"><a class="btn" href="#shop">Make room for yourself</a></div>
+  </div>
+</section>
+
+<!-- 7. LIFE STAGE -->
+<section class="band band--blush" id="life">
+  <div class="wrap life">
+    <div class="seasons" aria-label="Seasons of life">
+      <div class="season"><b>The demanding job.</b><span>Back-to-back days</span></div>
+      <div class="season"><b>The school run.</b><span>Everyone else first</span></div>
+      <div class="season"><b>A body changing.</b><span>Less predictable years</span></div>
+    </div>
+    <div class="stack" style="min-width:0">
+      <p class="eyebrow">For women, in every season</p>
+      <h2 class="h-lg">For the season of life <em>you’re in now.</em></h2>
+      <p>The demanding job. The school run. The years when your body starts feeling less predictable.</p>
+      <p>You may be looking for more calm, more comfort, or simply a way to put yourself back on the list.</p>
+      <p>RECLAIM is designed with those everyday moments in mind.</p>
+      <p style="font-weight:600">Your routine can change as your needs change.</p>
+      <p class="disclaimer">If you’re navigating perimenopause or other hormonal changes, RECLAIM’s role is daily support within a broader care routine. It isn’t hormone replacement or a treatment for a hormonal condition.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 8. SLEEP-ADJACENT -->
+<section class="band band--plum" id="evening">
+  <div class="wrap evening">
+    <div class="stack">
+      <p class="eyebrow" style="color:var(--peach)">After hours</p>
+      <h2 class="h-lg">The day is over. <em>Your to-do list hasn’t noticed.</em></h2>
+      <p>You’ve closed the laptop and turned down the lights. Somehow, tomorrow is already taking up space in your head.</p>
+      <p>RECLAIM is built around a daily calm ritual you can make time for before bedtime becomes the only moment you get to yourself.</p>
+      <p>A glass of water. A pause between tasks. A few minutes without another notification.</p>
+      <p style="font-family:var(--display);font-size:26px;font-style:italic;opacity:1">Make space to unwind.</p>
+      <p class="fine">RECLAIM is a daily drink mix, not a sleep medication. Follow the label’s timing and directions.</p>
+      <p class="note">Add a sleep-quality benefit only if it is supported by the final formula and authorization.</p>
+    </div>
+    <div class="clock" aria-hidden="true">
+      <svg viewBox="0 0 200 200">
+        <g stroke="#ebbed1" stroke-width="2" stroke-linecap="round">
+          <line x1="100" y1="18" x2="100" y2="30"/><line x1="182" y1="100" x2="170" y2="100"/><line x1="100" y1="182" x2="100" y2="170"/><line x1="18" y1="100" x2="30" y2="100"/>
+        </g>
+        <path d="M100 100 L100 18 A82 82 0 0 1 171 59 Z" fill="#f0a162" opacity=".28"/>
+        <line x1="100" y1="100" x2="100" y2="48" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+        <line x1="100" y1="100" x2="146" y2="74" stroke="#f0a162" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="100" cy="100" r="6" fill="#ffffff"/>
+        <text x="100" y="140" text-anchor="middle" fill="#ebbed1" font-family="Poppins, Arial, sans-serif" font-size="11" letter-spacing="2">YOUR 10 MINUTES</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- 9. FLAVOR + HOW-TO -->
+<section class="band band--cream" id="how">
+  <div class="wrap flavor">
+    <div class="flavor-visual">
+      <span class="tag">Dragonfruit Lemonade</span>
+      <img src="reclaim-pouch.webp" alt="Reclaim Dragonfruit Lemonade pouch">
+    </div>
+    <div class="flavor-copy">
+      <h2 class="h-lg">Your daily pause, <em>with a tropical twist.</em></h2>
+      <div class="stack" style="gap:6px">
+        <h3 class="h-md">Dragonfruit Lemonade</h3>
+        <p>Bright lemon. Delicate dragonfruit. A refreshing way to make this moment yours.</p>
+      </div>
+      <p class="eyebrow">Tear. Mix. Enjoy.</p>
+      <ol class="steps" style="list-style:none;margin:0;padding:0">
+        <li class="step"><span class="step-n">1</span><b>Tear</b><p>Open one sachet.</p></li>
+        <li class="step"><span class="step-n">2</span><b>Mix</b><p>Add to <span class="tbc">confirmed water volume</span> and shake or stir.</p></li>
+        <li class="step"><span class="step-n">3</span><b>Enjoy</b><p>Serve as directed, with ice if desired.</p></li>
+      </ol>
+      <p style="font-weight:500">30 individual sachets. Ready when your routine is.</p>
+      <div><a class="btn" href="#shop">Shop Dragonfruit Lemonade</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- 10. TRANSPARENCY -->
+<section class="band" id="transparency">
+  <div class="wrap">
+    <div class="stack" style="max-width:720px">
+      <p class="eyebrow">Transparency</p>
+      <h2 class="h-lg">Before it becomes a habit, <em>get to know it.</em></h2>
+    </div>
+    <div class="trans-list">
+      <div class="trow"><h3>Read the full formula</h3><div><p>See ingredient forms and amounts per sachet.</p></div></div>
+      <div class="trow"><h3>Know where it comes from</h3><div><p>Manufactured in <span class="tbc">verified country</span>. Shipped from <span class="tbc">verified fulfillment location</span>.</p></div></div>
+      <div class="trow"><h3>Understand the testing</h3><div><p class="note">State the actual testing scope and frequency. Link to available results. Do not imply finished-product clinical testing.</p></div></div>
+      <div class="trow"><h3>Know what you’re signing up for</h3><div><p>One-time purchase and subscription terms are shown clearly before checkout.</p></div></div>
+      <div class="trow"><h3>See the product licence</h3><div><p>NPN: <span class="tbc">insert only once issued</span></p></div></div>
+    </div>
+    <div style="margin-top:32px"><a class="btn btn--ghost" href="#faq">Get the details</a></div>
+  </div>
+</section>
+
+<!-- 11. SOCIAL PROOF (hidden at launch until authentic reviews exist) -->
+<section class="band band--blush" id="reviews">
+  <div class="wrap">
+    <div class="proof">
+      <p class="note">Hide this public-facing section until authentic reviews are available. Populate with genuine RECLAIM customer reviews, with permission, accurate attribution, and any relevant incentive disclosure. Do not publish placeholder testimonials, star ratings, customer totals, or results percentages.</p>
+      <h2 class="h-lg">A place for <em>real experiences.</em></h2>
+      <p class="eyebrow" style="color:var(--muted)">Review collection prompts</p>
+      <div class="prompts">
+        <p class="prompt">How did RECLAIM fit into your routine?</p>
+        <p class="prompt">What did you think of Dragonfruit Lemonade?</p>
+        <p class="prompt">What, if anything, did you notice?</p>
+        <p class="prompt">What would you want another customer to know?</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 12. FAQ -->
+<section class="band" id="faq">
+  <div class="wrap faq-grid">
+    <div class="stack">
+      <p class="eyebrow">FAQ</p>
+      <h2 class="h-lg">Frequently asked <em>questions.</em></h2>
+      <p>Straight answers about what RECLAIM is, and what it isn’t.</p>
+    </div>
+    <div class="acc">
+      <details><summary>Who is RECLAIM for?</summary><div class="acc-body"><p>RECLAIM is designed with adult women’s busy routines in mind, particularly those looking for a simple daily stress-support ritual. Check the final label for intended users, directions, and cautions.</p></div></details>
+      <details><summary>Is RECLAIM a sleep product?</summary><div class="acc-body"><p>No. Its intended role is daily calm and stress support. It isn’t a sleep medication or a treatment for insomnia.</p></div></details>
+      <details><summary>Will RECLAIM help with bloating?</summary><div class="acc-body"><p class="note">Use this answer only if substantiated and authorized.</p><p>RECLAIM helps relieve bloating as described on its label. Results vary, and bloating can have different causes. Persistent or unexplained symptoms deserve individual medical advice.</p><p class="note">If a bloat claim is not supported, remove the benefit from the page and packaging rather than implying that stress support guarantees digestive relief.</p></div></details>
+      <details><summary>Does RECLAIM balance my hormones?</summary><div class="acc-body"><p>RECLAIM should not be described as balancing estrogen, progesterone, or treating a hormonal condition unless specifically supported and authorized. Its intended focus is daily stress support.</p></div></details>
+      <details><summary>Can I use it during perimenopause?</summary><div class="acc-body"><p>Check with your healthcare professional to confirm that the final ingredients are appropriate for you, especially if you use HRT or other medication. RECLAIM does not replace prescribed care.</p></div></details>
+      <details><summary>Does feeling stressed mean I have high cortisol?</summary><div class="acc-body"><p>No. Feeling stressed, bloated, or tired does not establish that you have high cortisol. RECLAIM is not a diagnostic test or a treatment for a cortisol disorder.</p></div></details>
+      <details><summary>Will it make me drowsy?</summary><div class="acc-body"><p>The product is being developed for daily use rather than as a sleep aid. Individual responses depend on the final formula and your circumstances. Follow the label’s cautions.</p></div></details>
+      <details><summary>Does it contain ashwagandha?</summary><div class="acc-body"><p class="note">Insert a clear yes/no answer once the final formula is approved. If yes, list the form and amount.</p></div></details>
+      <details><summary>How long does it take to notice a difference?</summary><div class="acc-body"><p>Responses vary. Follow the recommended use on the label. We won’t promise an overnight change or a specific results timeline without evidence supporting it.</p></div></details>
+      <details><summary>Can I take it with medication?</summary><div class="acc-body"><p>Ask a pharmacist or healthcare professional to review the complete formula alongside your medication and other supplements.</p></div></details>
+      <details><summary>Can I use it while pregnant or breastfeeding?</summary><div class="acc-body"><p>Follow the final product’s pregnancy and breastfeeding cautions and consult your healthcare professional before use.</p></div></details>
+      <details><summary>How much is in a pouch?</summary><div class="acc-body"><p>Each pouch contains 30 individual 4 g sachets, for a total net weight of 120 g.</p></div></details>
+      <details><summary>Do I have to subscribe?</summary><div class="acc-body"><p class="note">If confirmed:</p><p>No. Choose a one-time purchase or a subscription at checkout.</p></div></details>
+      <details><summary>How do I manage my subscription?</summary><div class="acc-body"><p class="note">Insert the actual online management process, cancellation timing, and any minimum-order requirements.</p></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- 13. FINAL PURCHASE -->
+<section class="band" style="padding-top:0">
+  <div class="wrap">
+    <div class="final">
+      <div class="stack">
+        <h2 class="h-xl">You make room for everyone else. <em>Make a little room for you.</em></h2>
+        <p style="font-size:18px">Meet your Dragonfruit Lemonade daily ritual.</p>
+        <div class="stack" style="gap:2px">
+          <span class="wordmark">reclaim</span>
+          <span style="font-weight:600">Cortisol Balance + Hydration</span>
+          <span>30 × 4 g sachets</span>
+        </div>
+        <div><a class="btn btn--light" href="#shop">Shop Reclaim</a></div>
+        <p class="meta"><span class="tbc">Confirmed price and currency</span> · <span class="tbc">Confirmed shipping terms</span></p>
+      </div>
+      <img src="reclaim-pouch.webp" alt="Reclaim pouch, Dragonfruit Lemonade">
+    </div>
+  </div>
+</section>
+
+<!-- 14. EMAIL SIGN-UP -->
+<section class="band band--blush" id="signup">
+  <div class="wrap signup">
+    <div class="stack">
+      <h2 class="h-lg">A little more RECLAIM <em>in your inbox.</em></h2>
+      <p>Get product updates, new-flavor news, and simple ideas for making time for yourself.</p>
+    </div>
+    <form id="signupForm" novalidate>
+      <label for="email" class="sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Your email address</label>
+      <input id="email" name="email" type="email" placeholder="Your email address" autocomplete="email" required>
+      <button class="btn" type="submit">Keep me updated</button>
+      <p class="form-msg" id="formMsg" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <span class="wordmark">reclaim</span>
+    <p>RECLAIM is a daily drink mix. It is not intended to diagnose, treat, cure, or prevent any disease. Read and follow the label. NPN pending.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var toggle = document.getElementById('notesToggle');
+  toggle.addEventListener('click', function () {
+    var hidden = document.body.classList.toggle('hide-notes');
+    toggle.setAttribute('aria-pressed', String(hidden));
+    toggle.textContent = hidden ? 'Show draft notes' : 'Hide draft notes';
+  });
+
+  document.getElementById('buyForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var sub = document.getElementById('plan-sub').checked;
+    document.getElementById('cartMsg').textContent = sub
+      ? 'Subscription added to cart (demo).'
+      : 'One-time purchase added to cart (demo).';
+  });
+
+  document.getElementById('signupForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var input = document.getElementById('email');
+    var msg = document.getElementById('formMsg');
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value.trim())) {
+      msg.textContent = 'Enter an email address like name@example.com.';
+      input.focus();
+      return;
+    }
+    msg.textContent = 'You’re on the list (demo). Watch your inbox for RECLAIM news.';
+    input.value = '';
+  });
+})();
+</script>
