@@ -283,7 +283,7 @@
       "share": 0.3,
       "rule": "User rule 2026-10-13: ~30% of every batch are offer-style creatives showing the full stack (40% OFF, 30-DAY MONEY-BACK GUARANTEE, FREE SHIPPING) as the hero, in varied formats (offer tile, stamp/seal, sticky notes, receipt, shoe + big type, warehouse/last-chance). Mix offer statics into the winning angles (nurse, travel, teacher, plus-size) and foot-pain hooks."
     },
-    "layout_note": "User rule 2026-10-13: 9:16 must be composed for the full height (generate.py --layout native, the default); no blurred or filler top/bottom bands. Shoes never look compressed."
+    "layout_note": "User rule 2026-10-18 (replaces 2026-10-13): ONE size only, 4:5 (feed), rendered once at high quality (generate.py --layout feed, the default); no 9:16. Compose natively for 4:5 using the full frame. Shoes never look compressed."
   },
   "colorway_template": "The shoe is the {label} colorway shown in the reference photo.",
   "colorway_priority": {

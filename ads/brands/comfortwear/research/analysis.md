@@ -267,3 +267,7 @@ claims we avoid ("recommended by podiatrists", "free returns"); iterations keep 
 5. **Proof devices are native and specific**: real-looking Facebook comments with names and reactions; competitor named in the headline with X vs check rows; condition named in the headline with a small pain inset.
 6. **Offer elements are compact**: a circle, ribbon, block or single line ("40% OFF", "Try risk-free"), never the whole canvas.
 7. **Two text colors max**: black/white plus one accent (brand purple, royal blue or red) as a solid fill or for the key words of the headline.
+
+## 14. Single-size 4:5, higher quality, 2026-10-18
+
+User rule: ship one size only, 4:5, rendered once at high quality (`generate.py --layout feed`, default quality `high`). No 9:16. Measured cost ≈ $0.22 per ad (3-ad test), vs ≈ $0.13 for the old medium 9:16 + 4:5 pair. Sheets (`review.py csv`) now have one "Image (4:5)" column.

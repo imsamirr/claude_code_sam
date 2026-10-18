@@ -1,10 +1,8 @@
 """Generate static (and optional GIF) ads for a brand with OpenAI's image model.
 
-Default (--layout native): every ad is composed twice. First a full 9:16
-vertical (1088x1920) laid out top to bottom for Stories/Reels, then a 4:5
-(1088x1360) feed version re-laid out from that 9:16, so both read as the same
-ad and neither has filler bands. --layout extend keeps the older method:
-render 4:5, then outpaint background above and below it.
+Default (--layout feed, user rule Oct 18): ONE size, 4:5 (1088x1360), one high-quality render per
+ad, saved as <id>_vN.png. Older layouts: --layout native composes a 9:16 (1088x1920) for Stories/Reels
+then re-lays it out as a 4:5; --layout extend renders 4:5 then outpaints above and below it.
 
 Layout:
     ads/brands/<brand>/brand.json         brand, colorways, personas, language rules
@@ -55,6 +53,12 @@ VERTICAL_RULE = (
     "Background and scene run edge to edge. Keep text, faces and the product out of the top 12% and the "
     "bottom 18% of the frame (app UI covers them), but fill those areas with real scene or background, "
     "never blur or blank them."
+)
+FEED_RULE = (
+    "Vertical 4:5 canvas for the Facebook and Instagram feed (even if the description below says square or "
+    "9:16). Compose natively for 4:5 and use the full frame: headline in the upper third, the product or "
+    "scene large in the middle, supporting copy or offer in the lower part. Keep at least 6% margin around "
+    "all text and nothing cut off. Background and scene run edge to edge, with no blurred, empty or filler bands."
 )
 FEED_PROMPT = (
     "Re-lay out the first image (a 9:16 ad) as the same ad on a 4:5 vertical canvas for the Facebook and "
@@ -241,6 +245,12 @@ def render_native(bdir, brand, concept, ref, ref_bytes, args, api_key):
     return content, full
 
 
+def render_feed(bdir, brand, concept, ref, ref_bytes, args, api_key):
+    """One 4:5 render, composed natively (user rule, Oct 18: single size, 4:5 only)."""
+    return call_api(build_prompt(bdir, brand, concept, args.extra, FEED_RULE),
+                    input_images(bdir, brand, concept, ref, ref_bytes), args, api_key, size=CONTENT, kind="feed")
+
+
 def extend_to_9x16(content, args, api_key):
     """Outpaint the background above and below the 4:5 ad, then put the original pixels back.
 
@@ -279,6 +289,9 @@ def png_bytes(img):
 
 
 def save_static(content, full, out_dir, stem):
+    if full is None:                          # feed layout: the single 4:5 static is <stem>.png
+        content.save(out_dir / f"{stem}.png")
+        return
     full.save(out_dir / f"{stem}.png")
     content.save(out_dir / f"{stem}_4x5.png")
 
@@ -292,9 +305,11 @@ def render_gif(content, full, ref_bytes, concept, out_dir, stem, args, api_key):
     plays them in reverse, so it builds up and ends (and holds) on the full ad.
     """
     gif = concept["gif"]
-    native = args.layout == "native"
-    # native: frames are edits of the full 9:16; extend: edits of the 4:5, reusing the static's extended bands
-    base, size, rule = (full, SIZE, VERTICAL_RULE) if native else (content, CONTENT, FORMAT_RULE)
+    feed = args.layout == "feed"
+    native = args.layout in ("native", "feed")
+    # feed: frames are edits of the 4:5; native: edits of the full 9:16; extend: edits of the 4:5, reusing the static's extended bands
+    base, size, rule = ((content, CONTENT, FEED_RULE) if feed else (full, SIZE, VERTICAL_RULE) if native
+                        else (content, CONTENT, FORMAT_RULE))
     frames, durations = [base], [gif.get("first_ms", 1400)]
     for i, step in enumerate(gif["frames"], start=2):
         print(f"  gif frame {i}/{len(gif['frames']) + 1}", flush=True)
@@ -313,7 +328,7 @@ def render_gif(content, full, ref_bytes, concept, out_dir, stem, args, api_key):
         frames, durations = frames[::-1], durations[1:][::-1] + durations[:1]
     if not native:
         frames = [composite(f, full) for f in frames]
-    small = [f.resize((544, 960), Image.LANCZOS).quantize(colors=200, method=Image.Quantize.MEDIANCUT) for f in frames]
+    small = [f.resize((544, 680) if feed else (544, 960), Image.LANCZOS).quantize(colors=200, method=Image.Quantize.MEDIANCUT) for f in frames]
     small[0].save(out_dir / f"{stem}.gif", save_all=True, append_images=small[1:],
                   duration=durations, loop=0, optimize=True)
     print(f"  saved {stem}.gif ({len(frames)} frames)")
@@ -333,9 +348,9 @@ def main():
     p.add_argument("--week", help="weekly batch folder, e.g. 2026-W41 (default: the brand's concept library)")
     p.add_argument("--gif", action="store_true", help="also render GIFs for concepts that define them")
     p.add_argument("--gif-only", action="store_true", help="render GIFs from existing statics without regenerating them")
-    p.add_argument("--quality", default=os.getenv("ADS_QUALITY", "medium"), help="main render: low | medium | high (default medium: ~$0.13/ad with the 4:5; budget $0.10-0.20/ad)")
-    p.add_argument("--layout", choices=["native", "extend"], default=os.getenv("ADS_LAYOUT", "native"),
-                   help="native: compose the 9:16 for its full height, then re-lay out a 4:5 (default); "
+    p.add_argument("--quality", default=os.getenv("ADS_QUALITY", "high"), help="main render: low | medium | high (default high: a single 4:5 render per ad, user rule Oct 18)")
+    p.add_argument("--layout", choices=["feed", "native", "extend"], default=os.getenv("ADS_LAYOUT", "feed"),
+                   help="feed: ONE 4:5 render, composed natively (default, user rule Oct 18); native: compose the 9:16 for its full height, then re-lay out a 4:5 (default); "
                         "extend: render 4:5 and outpaint background above/below (older method)")
     p.add_argument("--feed-quality", default=None, help="native layout: the 4:5 re-layout render (default: same as --quality)")
     p.add_argument("--reextend", action="store_true", help="extend layout only: rebuild the 9:16 from the existing 4:5")
@@ -371,18 +386,23 @@ def main():
                 continue
             if args.gif_only:
                 stem = f"{c['id']}_v{versions(out_dir, c['id'])[-1]}"
-                content = Image.open(out_dir / f"{stem}_4x5.png").convert("RGB")
-                full = Image.open(out_dir / f"{stem}.png").convert("RGB")
+                if (out_dir / f"{stem}_4x5.png").exists():
+                    content = Image.open(out_dir / f"{stem}_4x5.png").convert("RGB")
+                    full = Image.open(out_dir / f"{stem}.png").convert("RGB")
+                else:                         # feed layout: single 4:5 static
+                    content, full = Image.open(out_dir / f"{stem}.png").convert("RGB"), None
             else:
                 stem = f"{c['id']}_v{(versions(out_dir, c['id']) or [0])[-1] + 1}"
-                if args.layout == "native":
+                if args.layout == "feed":
+                    content, full = render_feed(bdir, brand, c, ref, ref_bytes, args, api_key), None
+                elif args.layout == "native":
                     content, full = render_native(bdir, brand, c, ref, ref_bytes, args, api_key)
                 else:
                     content = call_api(build_prompt(bdir, brand, c, args.extra),
                                        input_images(bdir, brand, c, ref, ref_bytes), args, api_key)
                     full = extend_to_9x16(content, args, api_key)
                 save_static(content, full, out_dir, stem)
-                print(f"  saved {(out_dir / stem).relative_to(ADS_DIR.parent)}.png (+ _4x5)")
+                print(f"  saved {(out_dir / stem).relative_to(ADS_DIR.parent)}.png" + ("" if full is None else " (+ _4x5)"))
             if (args.gif or args.gif_only) and c.get("gif"):
                 render_gif(content, full, ref_bytes, c, out_dir, stem, args, api_key)
         except Exception as e:
