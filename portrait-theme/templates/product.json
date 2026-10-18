@@ -279,10 +279,49 @@
         "q_7",
         "q_8"
       ]
+    },
+    "frames": {
+      "type": "sg-frame-guide",
+      "blocks": {
+        "wrap": {
+          "type": "frame",
+          "settings": {
+            "frame": "wrap",
+            "title": "Gallery-Wrap",
+            "subtitle": "Canvas",
+            "text": "<p>Printed on textured artist canvas, hand-stretched over wooden bars and wrapped 1.5 inches deep.</p>"
+          }
+        },
+        "float": {
+          "type": "frame",
+          "settings": {
+            "frame": "natural",
+            "title": "Floating Frame",
+            "subtitle": "Natural, black or white",
+            "text": "<p>A slim frame sits just off the canvas edge, so your portrait appears to float. Adds depth and a gallery-finished edge.</p>"
+          }
+        },
+        "gold": {
+          "type": "frame",
+          "settings": {
+            "frame": "gold",
+            "title": "Gold Ornate Frame",
+            "subtitle": "Classic finish",
+            "text": "<p>A carved gold moulding set around the same gallery-wrapped canvas, for a timeless heirloom look.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "wrap",
+        "float",
+        "gold"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
+    "frames",
     "examples",
     "how",
     "reviews",

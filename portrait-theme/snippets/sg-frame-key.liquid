@@ -1,0 +1,20 @@
+{%- comment -%}
+  Maps a frame option value to the mockup frame style:
+  wrap | natural | black | white | gold | poster. Used with capture.
+{%- endcomment -%}
+{%- liquid
+  assign v = value | downcase
+  if v contains 'gold' or v contains 'ornate'
+    echo 'gold'
+  elsif v contains 'black'
+    echo 'black'
+  elsif v contains 'white'
+    echo 'white'
+  elsif v contains 'natural' or v contains 'wood' or v contains 'oak' or v contains 'walnut'
+    echo 'natural'
+  elsif v contains 'poster' or v contains 'paper'
+    echo 'poster'
+  else
+    echo 'wrap'
+  endif
+-%}

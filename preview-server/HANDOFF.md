@@ -46,7 +46,13 @@ cart line carried `Style`, `Photo`, `_preview_id` and `Preview`.
    schema default to `https://<worker>/api/preview` so every template picks
    it up, then test on
    `https://reclaimnutra.com/products/jesus-with-pets?preview_theme_id=187124285658`.
-6. **Owner publishes** the copy when happy.
+6. **Frames & sizes** (added 2026-10-18, see `store-setup/FRAMES.md`): also
+   upload `sections/sg-frame-guide.liquid`, `snippets/sg-frame-key.liquid` and
+   the six portrait product templates (`templates/product.json`,
+   `product.pets/riders/kids/grandparents/wedding.json`) to the copy theme,
+   then switch each portrait product to Frame × Size with `productSet` using
+   `store-setup/frame-variants.json`.
+7. **Owner publishes** the copy when happy.
 
 ## Later phases (not built)
 

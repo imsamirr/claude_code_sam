@@ -95,6 +95,8 @@
     const moneyFormat = root.dataset.moneyFormat;
     const gallery = $('[data-sg-gallery]', root);
 
+    const mockup = initMockup(root, gallery);
+
     // style cards -> hidden property + optional gallery jump
     $$('[data-sg-style]', root).forEach((card) => {
       const input = $('input', card);
@@ -102,6 +104,7 @@
         $$('[data-sg-style]', root).forEach((c) => c.classList.toggle('is-selected', c === card));
         const slideIndex = parseInt(card.dataset.slide, 10);
         if (gallery && gallery.sgGo && !isNaN(slideIndex)) gallery.sgGo(slideIndex);
+        if (mockup) mockup.styleChanged();
       });
     });
 
@@ -153,11 +156,33 @@
     const priceEl = $('[data-sg-price]', root);
     const submit = $('[data-sg-submit]', root);
     const submitLabel = submit ? $('[data-sg-submit-label]', submit) : null;
-    const update = () => {
+    const frameIndex = product.options.findIndex((o) => /frame/i.test(o));
+    const sizeIndex = product.options.findIndex((o, i) => i !== frameIndex && /size/i.test(o));
+    const update = (initial) => {
       const selected = product.options.map((_, i) => {
         const checked = $(`input[data-option-index="${i}"]:checked`, form);
         return checked ? checked.value : null;
       });
+      $$('.sg-option-group', form).forEach((group) => {
+        const out = $('[data-sg-option-value]', group);
+        const checked = $('input[data-option-index]:checked', group);
+        if (out && checked) out.textContent = group.classList.contains('sg-option-group--size') ? checked.value.replace(/x/i, ' × ') : checked.value;
+      });
+      // size prices follow the selected frame
+      if (frameIndex > -1 && sizeIndex > -1) {
+        $$(`input[data-option-index="${sizeIndex}"]`, form).forEach((r) => {
+          const v = product.variants.find((x) => x.options[sizeIndex] === r.value && x.options[frameIndex] === selected[frameIndex]);
+          const out = $('[data-sg-size-price]', r.closest('label'));
+          if (out) out.textContent = v ? formatMoney(v.price, moneyFormat).replace(/\.00(?!\d)/, '') : '';
+        });
+      }
+      if (mockup && frameIndex > -1) {
+        const frameInput = $(`input[data-option-index="${frameIndex}"]:checked`, form);
+        mockup.setFrame(frameInput ? frameInput.dataset.frame : 'wrap', selected[frameIndex] || '', sizeIndex > -1 ? selected[sizeIndex] : '');
+      }
+      document.dispatchEvent(new CustomEvent('sg:variant', {
+        detail: { frame: frameIndex > -1 ? selected[frameIndex] : null, size: sizeIndex > -1 ? selected[sizeIndex] : null }
+      }));
       const variant = product.variants.find((v) => v.options.every((o, i) => o === selected[i]));
       if (!variant) {
         if (submit) submit.disabled = true;
@@ -174,6 +199,7 @@
         submit.disabled = !variant.available;
         if (submitLabel) submitLabel.textContent = variant.available ? submit.dataset.add : submit.dataset.soldOut;
       }
+      if (initial) return;
       if (variant.featured_media && gallery && gallery.sgGo) {
         const i = gallery.sgSlides.findIndex((s) => s.dataset.mediaId === String(variant.featured_media.id));
         if (i > -1) gallery.sgGo(i);
@@ -184,7 +210,8 @@
         window.history.replaceState({}, '', url.toString());
       }
     };
-    $$('input[data-option-index]', form).forEach((r) => r.addEventListener('change', update));
+    $$('input[data-option-index]', form).forEach((r) => r.addEventListener('change', () => update()));
+    update(true);
 
     form.addEventListener('submit', (e) => {
       const err = $('[data-sg-error]', root);
@@ -203,6 +230,76 @@
       }
       if (submit) { submit.disabled = true; submit.setAttribute('aria-busy', 'true'); }
     });
+  }
+
+  /* ---------- framed mockup (follows the Frame and Size options) ---------- */
+  function parseSize(value) {
+    const m = /(\d+(?:\.\d+)?)\s*[x×]\s*(\d+(?:\.\d+)?)/i.exec(value || '');
+    return m ? { w: parseFloat(m[1]), h: parseFloat(m[2]) } : null;
+  }
+
+  function initMockup(root, gallery) {
+    const el = $('[data-sg-mockup]', root);
+    if (!el) return null;
+    const img = $('[data-sg-mockup-img]', el);
+    const blank = $('.sg-mockup__blank', el);
+    const caption = $('[data-sg-mockup-caption]', el);
+    const tag = $('[data-sg-mockup-tag]', el);
+    const showBtn = $('[data-sg-mockup-show]', root);
+    const previews = {};
+    const currentStyle = () => {
+      const c = $('[data-sg-style] input:checked', root);
+      return c ? c.value : '';
+    };
+    const setArt = (src, isPreview) => {
+      if (!src) return;
+      img.src = src;
+      img.hidden = false;
+      if (blank) blank.hidden = true;
+      tag.hidden = !isPreview;
+    };
+    const visible = (on) => {
+      el.hidden = !on;
+      if (showBtn) showBtn.hidden = on;
+    };
+    const styleChanged = () => {
+      const style = currentStyle();
+      if (previews[style]) { setArt(previews[style], true); visible(true); return; }
+      const card = $('[data-sg-style] input:checked', root);
+      const sample = card ? $('.sg-style__media img', card.closest('[data-sg-style]')) : null;
+      if (sample) setArt(sample.currentSrc || sample.src, false);
+      else tag.hidden = true;
+    };
+    // the largest size fills most of the wall; smaller ones shrink in proportion
+    const setFrame = (key, frameName, sizeValue) => {
+      el.dataset.frame = key || 'wrap';
+      const size = parseSize(sizeValue);
+      const sizes = $$('.sg-option-group--size input', root).map((r) => parseSize(r.value)).filter(Boolean);
+      if (size) {
+        const maxH = Math.max(...sizes.map((s) => s.h), size.h);
+        el.style.setProperty('--ar', `${size.w} / ${size.h}`);
+        el.style.setProperty('--scale', (0.56 + 0.3 * (size.h / maxH)).toFixed(3));
+      }
+      caption.textContent = [frameName, size ? `${size.w} × ${size.h} in` : sizeValue].filter(Boolean).join(' · ');
+    };
+
+    root.addEventListener('sg:preview', (e) => {
+      const { url, style } = e.detail;
+      if (!url) {
+        Object.keys(previews).forEach((k) => delete previews[k]);
+        styleChanged();
+        return;
+      }
+      previews[style] = url;
+      setArt(url, true);
+      visible(true);
+    });
+    if (gallery) {
+      $$('[data-sg-thumb], [data-sg-prev], [data-sg-next]', gallery).forEach((b) => b.addEventListener('click', () => visible(false)));
+    }
+    if (showBtn) showBtn.addEventListener('click', () => visible(true));
+    styleChanged();
+    return { setFrame, styleChanged };
   }
 
   /* ---------- AI preview (talks to the preview server) ---------- */
@@ -233,7 +330,8 @@
     const idInput = $('[data-sg-preview-id]', root);
     const urlInput = $('[data-sg-preview-url]', root);
     const result = $('[data-sg-result]', root);
-    const resultImg = $('[data-sg-result-img]', root);
+    // with a framed mockup the preview is shown inside the frame instead
+    const resultImg = $('[data-sg-result-img]', root) || new Image();
     const file = $('input[type="file"]', drop);
     let lastStyle = null;
 
@@ -253,6 +351,7 @@
       idInput.value = ''; idInput.disabled = true;
       urlInput.value = ''; urlInput.disabled = true;
       if (result) result.hidden = true;
+      root.dispatchEvent(new CustomEvent('sg:preview', { detail: { url: null } }));
       note.hidden = true; error.hidden = true;
       if (buy) buy.hidden = true;
       setLabel();
@@ -280,12 +379,14 @@
         idInput.value = data.id; idInput.disabled = false;
         urlInput.value = data.previewUrl; urlInput.disabled = false;
         lastStyle = currentStyle();
+        root.dispatchEvent(new CustomEvent('sg:preview', { detail: { url: data.previewUrl, style: lastStyle } }));
         let msg = (pv.dataset.labelRemaining || '').replace('[count]', data.remaining);
         if (data.remaining === 1) msg = msg.replace('previews', 'preview');
         note.textContent = msg;
         note.hidden = !note.textContent;
         if (buy) buy.hidden = false;
-        const target = window.innerWidth < 990 && result ? result : buy || pv;
+        const shown = result || $('[data-sg-mockup]', root);
+        const target = window.innerWidth < 990 && shown ? shown : buy || pv;
         setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'center' }), 80);
       } catch (e) {
         error.textContent = e.name === 'AbortError'

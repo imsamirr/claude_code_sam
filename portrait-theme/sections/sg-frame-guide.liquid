@@ -1,0 +1,171 @@
+{%- liquid
+  assign p = product
+  if p == blank
+    assign p = section.settings.product
+  endif
+
+  # Sizes come from the product's "Size" option; the fallback list is used in the editor
+  assign size_values = section.settings.fallback_sizes | split: ','
+  assign selected_size = size_values | first | strip
+  if p != blank
+    for option in p.options_with_values
+      assign option_key = option.name | downcase
+      if option_key contains 'size'
+        assign size_values = option.values
+        assign selected_size = option.selected_value
+        break
+      endif
+    endfor
+  endif
+
+  # Wall drawn to scale in inches: 96" wide, 110" tall, sideboard top at 34", art hung 8" above it
+  assign wall_w = 96.0
+  assign wall_h = 110.0
+  assign art_bottom = 42.0
+-%}
+
+<section class="sg-section sg-fguide" id="{{ section.settings.anchor | default: 'frames' }}">
+  <div class="sg-container">
+    {%- if section.blocks.size > 0 -%}
+      <div class="sg-section__head sg-reveal">
+        {%- if section.settings.heading != blank -%}
+          <h2 class="sg-h2">{{ section.settings.heading }}</h2>
+        {%- endif -%}
+        {%- if section.settings.text != blank -%}
+          <p class="sg-lead">{{ section.settings.text }}</p>
+        {%- endif -%}
+      </div>
+      <div class="sg-fguide__grid">
+        {%- for block in section.blocks -%}
+          <div class="sg-fguide__card sg-reveal" {{ block.shopify_attributes }}>
+            <div class="sg-fguide__visual">
+              <span class="sg-swatch sg-swatch--lg" data-frame="{{ block.settings.frame }}" aria-hidden="true"><span></span></span>
+            </div>
+            <h3 class="sg-fguide__title">{{ block.settings.title }}</h3>
+            {%- if block.settings.subtitle != blank -%}
+              <p class="sg-fguide__sub">{{ block.settings.subtitle }}</p>
+            {%- endif -%}
+            {%- if block.settings.text != blank -%}
+              <div class="sg-fguide__text">{{ block.settings.text }}</div>
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+
+    {%- if section.settings.show_sizes -%}
+      <div class="sg-sizechart sg-reveal" data-sg-sizechart>
+        <div class="sg-section__head">
+          {%- if section.settings.size_heading != blank -%}
+            <h2 class="sg-h2 sg-h2--sm">{{ section.settings.size_heading }}</h2>
+          {%- endif -%}
+          {%- if section.settings.size_text != blank -%}
+            <p class="sg-lead">{{ section.settings.size_text }}</p>
+          {%- endif -%}
+        </div>
+        <div class="sg-sizechart__wall" style="aspect-ratio: {{ wall_w }} / {{ wall_h }};">
+          {%- for raw in size_values reversed -%}
+            {%- liquid
+              assign value = raw | strip
+              assign dims = value | downcase | replace: '×', 'x' | split: 'x'
+              assign w = dims[0] | strip | plus: 0.0
+              assign h = dims[1] | strip | remove: '″' | remove: '"' | plus: 0.0
+              if w == 0 or h == 0
+                continue
+              endif
+              assign left = wall_w | minus: w | divided_by: 2 | divided_by: wall_w | times: 100
+              assign width = w | divided_by: wall_w | times: 100
+              assign height = h | divided_by: wall_h | times: 100
+              assign bottom = art_bottom | divided_by: wall_h | times: 100
+            -%}
+            <div
+              class="sg-sizechart__art{% if value == selected_size %} is-selected{% endif %}"
+              data-size="{{ value | escape }}"
+              style="left: {{ left | round: 3 }}%; width: {{ width | round: 3 }}%; height: {{ height | round: 3 }}%; bottom: {{ bottom | round: 3 }}%;"
+            >
+              <span>{{ w | round }} × {{ h | round }}</span>
+            </div>
+          {%- endfor -%}
+          <div class="sg-sizechart__sideboard" style="width: {{ 84.0 | divided_by: wall_w | times: 100 | round: 3 }}%; height: {{ 34.0 | divided_by: wall_h | times: 100 | round: 3 }}%;" aria-hidden="true"></div>
+        </div>
+        <p class="sg-sizechart__shown" data-sg-sizechart-label data-prefix="{{ section.settings.shown_prefix | escape }}">
+          {{ section.settings.shown_prefix }} {{ selected_size | replace: 'x', ' × ' }} inches
+        </p>
+        {%- if section.settings.size_note != blank -%}
+          <p class="sg-sizechart__note">{{ section.settings.size_note }}</p>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+
+<script>
+  (function () {
+    var chart = document.querySelector('#shopify-section-{{ section.id }} [data-sg-sizechart]');
+    if (!chart) return;
+    var label = chart.querySelector('[data-sg-sizechart-label]');
+    document.addEventListener('sg:variant', function (e) {
+      var size = e.detail && e.detail.size;
+      if (!size) return;
+      chart.querySelectorAll('[data-size]').forEach(function (el) {
+        el.classList.toggle('is-selected', el.dataset.size === size);
+      });
+      if (label) label.textContent = label.dataset.prefix + ' ' + size.replace(/x/i, ' × ') + ' inches';
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Frame & size guide",
+  "class": "sg-fguide-section",
+  "settings": [
+    { "type": "product", "id": "product", "label": "Product", "info": "Only needed outside product pages." },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Frame guide" },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Every portrait is printed on the same textured, gallery-wrapped canvas. Hang it as it is, set it in a slim floating frame, or finish it in our Gold Ornate Frame." },
+    { "type": "checkbox", "id": "show_sizes", "label": "Show size chart", "default": true },
+    { "type": "text", "id": "size_heading", "label": "Size chart heading", "default": "A size for every space" },
+    { "type": "textarea", "id": "size_text", "label": "Size chart text", "default": "Every size drawn to scale above a 7 ft sideboard, nested so you can compare them at a glance. Your selected size is highlighted." },
+    { "type": "text", "id": "shown_prefix", "label": "Selected size prefix", "default": "Shown:" },
+    { "type": "text", "id": "size_note", "label": "Size chart note", "default": "Canvas sizes, width × height. Frames add to the outer dimensions. Room scale is illustrative; measure your wall before choosing." },
+    { "type": "text", "id": "fallback_sizes", "label": "Sizes when the product has no Size option", "default": "12x16,18x24,24x32,30x40,36x48,40x60" },
+    { "type": "text", "id": "anchor", "label": "Anchor ID", "default": "frames" }
+  ],
+  "blocks": [
+    {
+      "type": "frame",
+      "name": "Frame",
+      "limit": 8,
+      "settings": [
+        {
+          "type": "select",
+          "id": "frame",
+          "label": "Frame style",
+          "default": "wrap",
+          "options": [
+            { "value": "wrap", "label": "Gallery-wrap canvas" },
+            { "value": "natural", "label": "Natural floating frame" },
+            { "value": "black", "label": "Black floating frame" },
+            { "value": "white", "label": "White floating frame" },
+            { "value": "gold", "label": "Gold ornate frame" },
+            { "value": "poster", "label": "Paper print" }
+          ]
+        },
+        { "type": "text", "id": "title", "label": "Title", "default": "Gallery-Wrap" },
+        { "type": "text", "id": "subtitle", "label": "Subtitle", "default": "Canvas" },
+        { "type": "richtext", "id": "text", "label": "Text", "default": "<p>Printed on textured artist canvas, hand-stretched over wooden bars and wrapped 1.5 inches deep.</p>" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Frame & size guide",
+      "blocks": [
+        { "type": "frame", "settings": { "frame": "wrap", "title": "Gallery-Wrap", "subtitle": "Canvas", "text": "<p>Printed on textured artist canvas, hand-stretched over wooden bars and wrapped 1.5 inches deep.</p>" } },
+        { "type": "frame", "settings": { "frame": "natural", "title": "Floating Frame", "subtitle": "Natural, black or white", "text": "<p>A slim frame sits just off the canvas edge, so your portrait appears to float. Adds depth and a gallery-finished edge.</p>" } },
+        { "type": "frame", "settings": { "frame": "gold", "title": "Gold Ornate Frame", "subtitle": "Classic finish", "text": "<p>A carved gold moulding set around the same gallery-wrapped canvas, for a timeless heirloom look.</p>" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

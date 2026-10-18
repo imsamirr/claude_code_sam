@@ -1,0 +1,239 @@
+{
+  "options": [
+    {
+      "name": "Frame",
+      "values": [
+        "Gallery-Wrap",
+        "Natural Floating Frame",
+        "Black Floating Frame",
+        "White Floating Frame",
+        "Gold Ornate Frame"
+      ]
+    },
+    {
+      "name": "Size",
+      "values": [
+        "12x16",
+        "18x24",
+        "24x32",
+        "30x40",
+        "36x48",
+        "40x60"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "frame": "Gallery-Wrap",
+      "size": "12x16",
+      "sku_suffix": "UNF-12x16",
+      "price": "80.00"
+    },
+    {
+      "frame": "Gallery-Wrap",
+      "size": "18x24",
+      "sku_suffix": "UNF-18x24",
+      "price": "120.00"
+    },
+    {
+      "frame": "Gallery-Wrap",
+      "size": "24x32",
+      "sku_suffix": "UNF-24x32",
+      "price": "165.00"
+    },
+    {
+      "frame": "Gallery-Wrap",
+      "size": "30x40",
+      "sku_suffix": "UNF-30x40",
+      "price": "230.00"
+    },
+    {
+      "frame": "Gallery-Wrap",
+      "size": "36x48",
+      "sku_suffix": "UNF-36x48",
+      "price": "340.00"
+    },
+    {
+      "frame": "Gallery-Wrap",
+      "size": "40x60",
+      "sku_suffix": "UNF-40x60",
+      "price": "550.00"
+    },
+    {
+      "frame": "Natural Floating Frame",
+      "size": "12x16",
+      "sku_suffix": "FNA-12x16",
+      "price": "130.00"
+    },
+    {
+      "frame": "Natural Floating Frame",
+      "size": "18x24",
+      "sku_suffix": "FNA-18x24",
+      "price": "190.00"
+    },
+    {
+      "frame": "Natural Floating Frame",
+      "size": "24x32",
+      "sku_suffix": "FNA-24x32",
+      "price": "265.00"
+    },
+    {
+      "frame": "Natural Floating Frame",
+      "size": "30x40",
+      "sku_suffix": "FNA-30x40",
+      "price": "365.00"
+    },
+    {
+      "frame": "Natural Floating Frame",
+      "size": "36x48",
+      "sku_suffix": "FNA-36x48",
+      "price": "520.00"
+    },
+    {
+      "frame": "Natural Floating Frame",
+      "size": "40x60",
+      "sku_suffix": "FNA-40x60",
+      "price": "790.00"
+    },
+    {
+      "frame": "Black Floating Frame",
+      "size": "12x16",
+      "sku_suffix": "FBK-12x16",
+      "price": "130.00"
+    },
+    {
+      "frame": "Black Floating Frame",
+      "size": "18x24",
+      "sku_suffix": "FBK-18x24",
+      "price": "190.00"
+    },
+    {
+      "frame": "Black Floating Frame",
+      "size": "24x32",
+      "sku_suffix": "FBK-24x32",
+      "price": "265.00"
+    },
+    {
+      "frame": "Black Floating Frame",
+      "size": "30x40",
+      "sku_suffix": "FBK-30x40",
+      "price": "365.00"
+    },
+    {
+      "frame": "Black Floating Frame",
+      "size": "36x48",
+      "sku_suffix": "FBK-36x48",
+      "price": "520.00"
+    },
+    {
+      "frame": "Black Floating Frame",
+      "size": "40x60",
+      "sku_suffix": "FBK-40x60",
+      "price": "790.00"
+    },
+    {
+      "frame": "White Floating Frame",
+      "size": "12x16",
+      "sku_suffix": "FWH-12x16",
+      "price": "130.00"
+    },
+    {
+      "frame": "White Floating Frame",
+      "size": "18x24",
+      "sku_suffix": "FWH-18x24",
+      "price": "190.00"
+    },
+    {
+      "frame": "White Floating Frame",
+      "size": "24x32",
+      "sku_suffix": "FWH-24x32",
+      "price": "265.00"
+    },
+    {
+      "frame": "White Floating Frame",
+      "size": "30x40",
+      "sku_suffix": "FWH-30x40",
+      "price": "365.00"
+    },
+    {
+      "frame": "White Floating Frame",
+      "size": "36x48",
+      "sku_suffix": "FWH-36x48",
+      "price": "520.00"
+    },
+    {
+      "frame": "White Floating Frame",
+      "size": "40x60",
+      "sku_suffix": "FWH-40x60",
+      "price": "790.00"
+    },
+    {
+      "frame": "Gold Ornate Frame",
+      "size": "12x16",
+      "sku_suffix": "GOR-12x16",
+      "price": "150.00"
+    },
+    {
+      "frame": "Gold Ornate Frame",
+      "size": "18x24",
+      "sku_suffix": "GOR-18x24",
+      "price": "220.00"
+    },
+    {
+      "frame": "Gold Ornate Frame",
+      "size": "24x32",
+      "sku_suffix": "GOR-24x32",
+      "price": "300.00"
+    },
+    {
+      "frame": "Gold Ornate Frame",
+      "size": "30x40",
+      "sku_suffix": "GOR-30x40",
+      "price": "400.00"
+    },
+    {
+      "frame": "Gold Ornate Frame",
+      "size": "36x48",
+      "sku_suffix": "GOR-36x48",
+      "price": "580.00"
+    },
+    {
+      "frame": "Gold Ornate Frame",
+      "size": "40x60",
+      "sku_suffix": "GOR-40x60",
+      "price": "840.00"
+    }
+  ],
+  "products": [
+    {
+      "handle": "classic-portrait",
+      "id": "gid://shopify/Product/15264859095258",
+      "sku_prefix": "CP"
+    },
+    {
+      "handle": "jesus-with-pets",
+      "id": "gid://shopify/Product/15264859193562",
+      "sku_prefix": "PP"
+    },
+    {
+      "handle": "jesus-with-riders",
+      "id": "gid://shopify/Product/15264920994010",
+      "sku_prefix": "RP"
+    },
+    {
+      "handle": "jesus-with-kids",
+      "id": "gid://shopify/Product/15264859128026",
+      "sku_prefix": "KP"
+    },
+    {
+      "handle": "jesus-with-grandparents",
+      "id": "gid://shopify/Product/15264921059546",
+      "sku_prefix": "GP"
+    },
+    {
+      "handle": "wedding-portrait",
+      "id": "gid://shopify/Product/15264859259098",
+      "sku_prefix": "WP"
+    }
+  ]
+}

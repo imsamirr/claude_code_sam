@@ -21,6 +21,34 @@
     assign preview_enabled = true
   endif
   assign preview_category = template.suffix | default: 'classic'
+
+  # Products with a "Frame" option get the framed mockup and frame/size pickers
+  assign frame_index = -1
+  assign size_index = -1
+  if has_options
+    for option_name in p.options
+      assign option_key = option_name | downcase
+      if frame_index == -1 and option_key contains 'frame'
+        assign frame_index = forloop.index0
+      elsif size_index == -1 and option_key contains 'size'
+        assign size_index = forloop.index0
+      endif
+    endfor
+  endif
+  assign has_frames = false
+  if frame_index > -1
+    assign has_frames = true
+  endif
+  assign mockup_src = blank
+  for block in style_blocks
+    if block.settings.image != blank
+      assign mockup_src = block.settings.image | image_url: width: 1000
+      break
+    endif
+  endfor
+  if mockup_src == blank and p.featured_image != blank
+    assign mockup_src = p.featured_image | image_url: width: 1000
+  endif
 -%}
 
 <section
@@ -83,7 +111,28 @@
             <span class="sg-gallery__badge">{{ section.settings.badge }}</span>
           {%- endif -%}
           <div class="sg-gallery__viewport" data-sg-viewport>
-            {%- if preview_enabled -%}
+            {%- if has_frames -%}
+              <div class="sg-mockup" data-sg-mockup data-frame="wrap">
+                <div class="sg-mockup__stage">
+                  <div class="sg-mockup__piece">
+                    <div class="sg-mockup__art">
+                      {%- if mockup_src != blank -%}
+                        <img src="{{ mockup_src }}" alt="" data-sg-mockup-img width="1000" height="1500">
+                      {%- else -%}
+                        <img alt="" data-sg-mockup-img width="1000" height="1500" hidden>
+                        <span class="sg-mockup__blank" aria-hidden="true"></span>
+                      {%- endif -%}
+                    </div>
+                  </div>
+                </div>
+                <p class="sg-mockup__caption" data-sg-mockup-caption aria-live="polite"></p>
+                <span class="sg-gallery__result-tag" data-sg-mockup-tag hidden>Your preview</span>
+              </div>
+              <button type="button" class="sg-mockup__show" data-sg-mockup-show hidden>
+                {%- render 'sg-icon', name: 'frame' -%}
+                See it framed
+              </button>
+            {%- elsif preview_enabled -%}
               <div class="sg-gallery__result" data-sg-result hidden>
                 <img data-sg-result-img alt="Your personalised portrait preview" width="1024" height="1536">
                 <span class="sg-gallery__result-tag">Your preview</span>
@@ -304,29 +353,58 @@
             <div class="sg-buy__panel">
               {%- if has_options -%}
                 {%- for option in p.options_with_values -%}
-                  {%- assign option_index = forloop.index0 -%}
-                  <fieldset class="sg-option-group" style="border:0;margin:0;padding:0;min-width:0;">
+                  {%- liquid
+                    assign option_index = forloop.index0
+                    assign option_kind = 'list'
+                    if option_index == frame_index
+                      assign option_kind = 'frame'
+                    elsif has_frames and option_index == size_index
+                      assign option_kind = 'size'
+                    endif
+                    assign option_field = 'option' | append: forloop.index
+                  -%}
+                  <fieldset class="sg-option-group sg-option-group--{{ option_kind }}" style="border:0;margin:0;padding:0;min-width:0;">
                     <legend class="sg-label-caps" style="padding:0;">
-                      {%- if forloop.first and section.settings.format_label != blank -%}
+                      {%- if option_kind != 'list' -%}
+                        {{ option.name }}:
+                        <span class="sg-option-group__value" data-sg-option-value>
+                          {%- if option_kind == 'size' -%}
+                            {{ option.selected_value | replace: 'x', ' × ' }}
+                          {%- else -%}
+                            {{ option.selected_value }}
+                          {%- endif -%}
+                        </span>
+                      {%- elsif forloop.first and section.settings.format_label != blank -%}
                         {{ section.settings.format_label }}
                       {%- else -%}
                         {{ option.name }}
                       {%- endif -%}
                     </legend>
-                    <div class="sg-formats">
+                    <div class="sg-formats sg-formats--{{ option_kind }}">
                       {%- for value in option.values -%}
                         {%- liquid
                           assign value_variant = blank
                           if p.options.size == 1
                             assign value_variant = p.variants | where: 'option1', value | first
                           endif
+                          assign frame_key = blank
+                          assign from_price = blank
+                          if option_kind == 'frame'
+                            capture frame_key
+                              render 'sg-frame-key', value: value
+                            endcapture
+                            assign from_price = p.variants | where: option_field, value | map: 'price' | sort | first
+                          endif
                         -%}
-                        <label class="sg-format">
+                        <label class="sg-format{% if option_kind != 'list' %} sg-format--{{ option_kind }}{% endif %}">
                           <input
                             type="radio"
                             name="sg-option-{{ section.id }}-{{ option_index }}"
                             value="{{ value | escape }}"
                             data-option-index="{{ option_index }}"
+                            {% if frame_key != blank %}
+                              data-frame="{{ frame_key }}"
+                            {% endif %}
                             {% if option.selected_value == value %}
                               checked
                             {% endif %}
@@ -334,8 +412,20 @@
                               disabled
                             {% endif %}
                           >
-                          <span class="sg-format__radio" aria-hidden="true"></span>
-                          <span class="sg-format__name">{{ value }}</span>
+                          {%- case option_kind -%}
+                            {%- when 'frame' -%}
+                              <span class="sg-swatch" data-frame="{{ frame_key }}" aria-hidden="true"><span></span></span>
+                              <span class="sg-format__name">{{ value }}</span>
+                              {%- if from_price != blank -%}
+                                <span class="sg-format__from">from {{ from_price | money_without_trailing_zeros }}</span>
+                              {%- endif -%}
+                            {%- when 'size' -%}
+                              <span class="sg-format__name">{{ value | replace: 'x', ' × ' | replace: 'X', ' × ' }}</span>
+                              <span class="sg-format__from" data-sg-size-price></span>
+                            {%- else -%}
+                              <span class="sg-format__radio" aria-hidden="true"></span>
+                              <span class="sg-format__name">{{ value }}</span>
+                          {%- endcase -%}
                           {%- if value_variant != blank -%}
                             <span class="sg-format__price">
                               {%- if value_variant.compare_at_price > value_variant.price -%}
