@@ -1,0 +1,385 @@
+{
+ "week": "2026-W48-blackfriday",
+ "notes": "Black Friday 2026 batch: 60% OFF sitewide, free gifts (value of $54), free shipping, clearance sale, HSA/FSA, 30-day wear test trial.",
+ "concepts": [
+  {
+   "id": "B48_01_neon_black_friday",
+   "group": "black_friday",
+   "persona": "comfort_only",
+   "lang": "en",
+   "colorway": "black_purple",
+   "angle": "Neon-glow dark hero with sale badge",
+   "based_on": "Black Friday inspo PDF: #1 neon Black Friday + 90-day badge",
+   "headline": "BLACK FRIDAY SALE",
+   "prompt": "Dark moody studio with soft purple and blue neon glow and light mist. Top: giant glowing white-to-purple neon headline \"BLACK FRIDAY SALE\" in two lines. The shoe pair huge in the center on a wet reflective dark surface with water droplets, sharp knit. Bottom: heavy white \"60% OFF SITEWIDE\" and a round white badge \"30-DAY WEAR TEST TRIAL\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "offer_block",
+   "tags": []
+  },
+  {
+   "id": "B48_02_free_gifts_hero",
+   "group": "black_friday",
+   "persona": "comfort_only",
+   "lang": "en",
+   "colorway": "all_black",
+   "angle": "Hero shoe + free gift boxes",
+   "based_on": "Black Friday inspo PDF: #2 40% off + free gifts",
+   "headline": "BLACK FRIDAY SALE: 60% OFF + FREE GIFTS!",
+   "prompt": "Charcoal grey gradient studio. Top-left heavy white headline \"BLACK FRIDAY SALE\" and under it \"60% OFF + FREE GIFTS!\" with \"FREE GIFTS!\" in bold yellow. The shoe pair large on the right, sharp. Left bottom: two wrapped gift boxes with red ribbons and bold \"FREE\" tags. Bottom bar: solid black pill \"FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "pills_offer_studio",
+   "tags": []
+  },
+  {
+   "id": "B48_03_es_viernes_negro_enfermeras",
+   "group": "black_friday",
+   "persona": "nurse",
+   "lang": "es",
+   "colorway": "navy_blue",
+   "angle": "Spanish nurse Black Friday, giant black type",
+   "based_on": "Black Friday inspo PDF: #5/#11 giant BLACK FRIDAY type",
+   "headline": "VIERNES NEGRO: 60% DE DESCUENTO EN TODO",
+   "prompt": "Fondo negro con luces de estudio. Titular gigante, pesado y condensado: \"VIERNES\" en blanco y \"NEGRO\" en rojo. El zapato (par) enorme en una plataforma redonda. Abajo: bloque rojo \"60% DE DESCUENTO EN TODO\" y dos píldoras blancas \"+ REGALOS GRATIS\" y \"+ ENVÍO GRATIS\". Texto grande y en negrita. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "lifestyle_urgency",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "B48_04_gifts_value_54",
+   "group": "black_friday",
+   "persona": "gift_for_her",
+   "lang": "en",
+   "colorway": "grey_pink",
+   "angle": "Free gifts stack with strikethrough value",
+   "based_on": "Black Friday inspo PDF: #8 free gifts stack with strikethrough prices",
+   "headline": "FREE GIFTS (VALUE OF $54)",
+   "prompt": "Black wood-panel background. Left: the shoe huge. Right: three stacked rounded gift panels each with a wrapped gift icon and big bold \"FREE\" in green, with no price on it. Top: heavy white headline \"BLACK FRIDAY\" with yellow \"+ FREE GIFTS\". Bottom right: huge \"VALUE OF $54\" in white and a green pill \"FREE SHIPPING\". Do not draw any specific gift products, only wrapped boxes. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin. Do NOT show any dollar amounts anywhere except the single bold \"VALUE OF $54\".",
+   "benchmark": "strikethrough_split",
+   "tags": []
+  },
+  {
+   "id": "B48_05_we_miscalculated_card",
+   "group": "black_friday",
+   "persona": "comfort_only",
+   "lang": "en",
+   "colorway": "black_white",
+   "angle": "Text card: apology/miscalculated founder note",
+   "based_on": "Black Friday inspo PDF: #39 We Miscalculated Badly",
+   "headline": "We miscalculated. 60% off sitewide plus free gifts is a lot.",
+   "prompt": "Dark teal-green gradient text card. Large bold white centered text: \"We miscalculated.\" then \"60% off sitewide plus $54 of free gifts is a lot.\" then \"Free shipping. 30-day wear test trial.\" then \"-The Comfort Wear Team\". A small sparkle emoji. The shoe pair small but sharp at the bottom. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "statement_list",
+   "tags": []
+  },
+  {
+   "id": "B48_06_hsa_fsa_year_end",
+   "group": "black_friday",
+   "persona": "comfort_only",
+   "lang": "en",
+   "colorway": "navy_blue",
+   "angle": "Minimal reminder card with HSA/FSA",
+   "based_on": "Black Friday inspo PDF: #14 FSA may expire soon",
+   "headline": "Year-end reminder: FSA funds may expire soon.",
+   "prompt": "Soft off-white background with a thin warm border. Centered large heavy text: \"Year-End Reminder:\" in black, then \"FSA Funds May Expire Soon\" with \"FSA Funds\" in muted tan, then bold \"HSA/FSA ELIGIBLE\" and \"60% OFF SITEWIDE\". The shoe huge in the middle on a soft floor shadow. Tiny grey footnote \"Eligibility varies by plan.\" All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "hsa_minimal_9x16",
+   "tags": []
+  },
+  {
+   "id": "B48_07_cart_unlocked",
+   "group": "black_friday",
+   "persona": "comfort_only",
+   "lang": "en",
+   "colorway": "black_white",
+   "angle": "Phone cart screen",
+   "based_on": "Black Friday inspo PDF: #16 cart screenshot",
+   "headline": "You've unlocked FREE SHIPPING + FREE GIFTS",
+   "prompt": "A clean phone shopping-cart screen on white. Top bar \"YOUR CART (2)\". A green banner \"You've unlocked FREE SHIPPING\" and a second \"You've unlocked FREE GIFTS\". Two line items each showing the shoe thumbnail, name \"Ortho Stretch Cushion Shoe\", and a green tag \"60% OFF\". A big green congratulations card \"Comfy walks are on their way\" with an OK button. Big green \"CHECKOUT\" button. Do not show any prices or totals. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "comments_social",
+   "tags": []
+  },
+  {
+   "id": "B48_08_clearance_hanging_tags",
+   "group": "black_friday",
+   "persona": "comfort_only",
+   "lang": "en",
+   "colorway": "red_burgundy",
+   "angle": "Red hanging-tag clearance",
+   "based_on": "Black Friday inspo PDF: #21 red clearance with hanging tags",
+   "headline": "CLEARANCE SALE",
+   "prompt": "Solid bright red background. Giant heavy white \"CLEARANCE\" hanging from strings by tag holes, then huge \"SALE\". Below: a diagonal stack of four shoes in different best-seller colorways, large and sharp. Bottom: white bold \"60% OFF SITEWIDE\" and a black pill \"FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "offer_block",
+   "tags": []
+  },
+  {
+   "id": "B48_09_es_la_venta_del_ano",
+   "group": "black_friday",
+   "persona": "gift_for_her",
+   "lang": "es",
+   "colorway": "black_purple",
+   "angle": "Spanish biggest sale of the year, Christmas ribbon",
+   "based_on": "Black Friday inspo PDF: #20 biggest sale of the year",
+   "headline": "LA VENTA MÁS GRANDE DEL AÑO",
+   "prompt": "Fondo navideño con listones rojos y verdes borrosos. Banda negra con titular blanco grande: \"LA VENTA MÁS GRANDE\" \"DEL AÑO\". Manos sostienen el par de zapatos, enorme y nítido. Abajo tres cajas con texto grande: \"60% DE DESCUENTO\", \"REGALOS GRATIS\", \"ENVÍO GRATIS\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "lifestyle_urgency",
+   "tags": []
+  },
+  {
+   "id": "B48_10_team_letter_christmas",
+   "group": "black_friday",
+   "persona": "active_retiree",
+   "lang": "en",
+   "colorway": "light_grey",
+   "angle": "Christmas letter with candy-stripe border",
+   "based_on": "Black Friday inspo PDF: #22 founder letter",
+   "headline": "Dear Comfort Wear Family,",
+   "prompt": "A cream paper letter with a red-and-green candy-stripe border. Handwritten-style serif greeting \"Dear Comfort Wear Family,\" then large readable short paragraphs: \"Thank you for letting us help your feet this year.\" \"Women tell us their feet finally don't hurt at the end of the day.\" Highlight in green: \"60% OFF SITEWIDE + FREE GIFTS (VALUE OF $54) + FREE SHIPPING\". Signature \"The Comfort Wear Team\". Small shoe pair at the bottom. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "statement_list",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "B48_11_skip_last_minute_rush",
+   "group": "black_friday",
+   "persona": "gift_for_her",
+   "lang": "en",
+   "colorway": "purple",
+   "angle": "Christmas gift reminder",
+   "based_on": "Black Friday inspo PDF: #23 skip the last minute rush",
+   "headline": "SKIP THE LAST-MINUTE RUSH",
+   "prompt": "Soft light grey background. Huge heavy purple-accented headline \"SKIP THE LAST-MINUTE RUSH\" in three lines. Black outlined pill \"60% OFF SITEWIDE\". The purple shoe huge, tilted. Bottom: solid purple bar \"ORDER YOUR GIFTS TODAY • FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "lifestyle_urgency",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "B48_12_best_buy_this_year",
+   "group": "black_friday",
+   "persona": "nurse",
+   "lang": "en",
+   "colorway": "black_purple",
+   "angle": "Facebook comment + yellow bar",
+   "based_on": "Black Friday inspo PDF: #27 best buy this year comment",
+   "headline": "Best buy this year.",
+   "prompt": "White background. Top heavy black headline with red underline \"Best buy this year.\" Facebook-style comment bubble from \"Laura A.\": \"Been wearing these for a month. 12-hour shifts and my heels don't hurt. All the good reviews are true!\" with a small reaction row. The shoe pair huge below. Bottom: a solid yellow bar with black bold \"60% OFF SITEWIDE\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "comments_offer",
+   "format": "fb_comment",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "B48_13_es_almacen_60",
+   "group": "black_friday",
+   "persona": "comfort_only",
+   "lang": "es",
+   "colorway": "black_white",
+   "angle": "Spanish warehouse photo with giant 60 balloons",
+   "based_on": "Black Friday inspo PDF: #31 55% balloons warehouse",
+   "headline": "NUESTRA MAYOR VENTA DEL VIERNES NEGRO",
+   "prompt": "Foto de almacén con cajas azules llenas de zapatos. Una mujer sonriente con los brazos arriba sostiene globos plateados gigantes \"60\" y \"%\" y \"OFF\". El par de zapatos grande en primer plano. Barra negra: \"NUESTRA MAYOR VENTA DEL VIERNES NEGRO\" y \"60% DE DESCUENTO EN TODO\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "warehouse_urgency",
+   "tags": []
+  },
+  {
+   "id": "B48_14_clearance_podium_features",
+   "group": "black_friday",
+   "persona": "steady_feet",
+   "lang": "en",
+   "colorway": "black_mint",
+   "angle": "Clearance on podium with feature icons",
+   "based_on": "Black Friday inspo PDF: #32 clearance podium",
+   "headline": "CLEARANCE SALE",
+   "prompt": "Soft grey-pink studio. Top: a white block with bold red \"CLEARANCE\" and \"SALE\". Four round feature icons with large bold labels \"Wide toe box\", \"Non-slip sole\", \"Easy slip-on\", \"Cushioned heel\". The shoe large on a round podium. Bottom: black bar \"60% OFF SITEWIDE\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "condition_icons",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "B48_15_quote_incredible",
+   "group": "black_friday",
+   "persona": "nurse",
+   "lang": "en",
+   "colorway": "all_black",
+   "angle": "Customer quote on top + black offer bar",
+   "based_on": "Black Friday inspo PDF: #34 quote + BUY 3 GET 3 FREE",
+   "headline": "These shoes are incredible! 12 hours on my feet and I'm still smiling.",
+   "prompt": "Black top panel with large white quote text: \"These shoes are incredible! Twelve hours on my feet and I'm still smiling.\" with small \"- Tonya R.\" The shoe pair on a warm wood surface, large and sharp, with an orange accent glow. Bottom: black bar with white heavy \"60% OFF SITEWIDE\" and a dashed box \"FREE GIFTS\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "comments_social",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "B48_16_es_triple_60",
+   "group": "black_friday",
+   "persona": "retail_warehouse",
+   "lang": "es",
+   "colorway": "all_black",
+   "angle": "Triple stacked giant 60% OFF over legs",
+   "based_on": "Black Friday inspo PDF: #36 triple 50% OFF",
+   "headline": "60% DE DESCUENTO",
+   "prompt": "Tight crop on a woman's legs and the shoe in a store aisle, blurred background. Huge heavy white stacked text three times: \"60% DE DESCUENTO\" \"60% DE DESCUENTO\" \"60% DE DESCUENTO\". Smaller bold \"VIERNES NEGRO\" and a white outlined button \"ENVÍO GRATIS\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "statement_list",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "B48_17_sticky_note_hand",
+   "group": "black_friday",
+   "persona": "restaurant",
+   "lang": "en",
+   "colorway": "red_burgundy",
+   "angle": "Hand holding orange sticky note",
+   "based_on": "Black Friday inspo PDF: #37 Black Friday sticky note",
+   "headline": "BLACK FRIDAY: 60% OFF",
+   "prompt": "Photo from above of the shoe on a concrete floor, a weathered hand holding a large orange sticky note over it with big hand-lettered text \"BLACK FRIDAY 60% OFF\". Top: heavy white-on-black bar \"DOUBLE SHIFT? DOUBLE THE COMFORT.\" Bottom: a pill \"FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "warehouse_urgency",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "B48_18_torn_paper_once_a_year",
+   "group": "black_friday",
+   "persona": "comfort_only",
+   "lang": "en",
+   "colorway": "navy_blue",
+   "angle": "Torn-paper black banner over wrinkled paper",
+   "based_on": "Black Friday inspo PDF: #38 torn paper Black Friday",
+   "headline": "THIS OFFER? ONLY ONCE A YEAR.",
+   "prompt": "Light wrinkled-paper background with a black torn-paper strip at the top. Small white \"THIS OFFER? ONLY ONCE A YEAR.\" over giant white \"BLACK FRIDAY\" and \"60% OFF SITEWIDE\". Four navy shoes arranged in a neat row, large and sharp. Bottom: bold black line \"FREE GIFTS (VALUE OF $54) + FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "offer_block",
+   "tags": []
+  },
+  {
+   "id": "B48_19_sole_forward_arrows",
+   "group": "black_friday",
+   "persona": "nurse",
+   "lang": "en",
+   "colorway": "black_mint",
+   "angle": "Sole-forward arrows",
+   "based_on": "Black Friday inspo PDF: #15 sole-forward arrows",
+   "headline": "Heel pain at hour 8? Meet 60% OFF.",
+   "prompt": "White background with a light blue wedge. Top: black headline \"HEEL PAIN AT HOUR 8?\" and red \"MEET 60% OFF.\" The shoe in a dramatic three-quarter view showing the sole, huge. Two black hand-drawn arrows with large bold labels \"Slip-resistant sole\" and \"Cushioned heel\". Bottom: black bar \"SITEWIDE • FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "callouts_white",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "B48_20_es_cuadricula_bows",
+   "group": "black_friday",
+   "persona": "comfort_only",
+   "lang": "es",
+   "colorway": "black_purple",
+   "angle": "Nine-shoe grid with red bows",
+   "based_on": "Black Friday inspo PDF: #25 grid of products with bows",
+   "headline": "EL VIERNES NEGRO LLEGÓ",
+   "prompt": "Fondo blanco. Titular \"EL VIERNES NEGRO LLEGÓ\" en azul marino pesado. Cuadrícula 3x3 con nueve zapatos grandes en los colores más vendidos, tres con moños rojos. En el centro, círculo blanco \"60% DE DESCUENTO EN TODO\". Abajo: \"REGALOS GRATIS • ENVÍO GRATIS\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "lifestyle_urgency",
+   "tags": []
+  },
+  {
+   "id": "B48_21_plus_size_black_friday",
+   "group": "black_friday",
+   "persona": "plus_size",
+   "lang": "en",
+   "colorway": "all_black",
+   "angle": "Plus-size condition-led bars + offer",
+   "based_on": "Black Friday inspo PDF: #13 deal breaking the internet + plus-size winners",
+   "headline": "Plus-size and on your feet? Black Friday is for you.",
+   "prompt": "Warm living-room floor scene, tight crop on a plus-size woman's legs and the shoe, about 45% of the frame. Headline in two solid black bars with huge white heavy text: \"PLUS-SIZE & ON YOUR FEET?\" \"BLACK FRIDAY IS FOR YOU.\" Right: a red circle \"60% OFF\". Bottom: two pills \"FREE GIFTS\" and \"FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "condition_icons",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "B48_22_teacher_black_friday",
+   "group": "black_friday",
+   "persona": "teacher",
+   "lang": "en",
+   "colorway": "red_burgundy",
+   "angle": "Teacher checklist + offer",
+   "based_on": "Black Friday inspo PDF: #8 + teacher checklist winner",
+   "headline": "Teachers: knees aching from standing? Black Friday is here.",
+   "prompt": "Soft light-grey gradient. Headline in heavy black \"TEACHERS: KNEES ACHING\" \"FROM STANDING?\" Large bold checklist with blue circles: \"Cushioned heel\", \"Arch support\", \"30-DAY WEAR TEST TRIAL\". The shoe pair huge. Bottom: red bar \"BLACK FRIDAY: 60% OFF SITEWIDE\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "list_white",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "B48_23_traveler_holiday_gifts",
+   "group": "black_friday",
+   "persona": "traveler",
+   "lang": "en",
+   "colorway": "black_mint",
+   "angle": "Traveler + free gifts",
+   "based_on": "Black Friday inspo PDF: #23 + traveler winners",
+   "headline": "Holiday trip? Pack comfy feet.",
+   "prompt": "Airport terminal, tight crop on a woman's legs and the shoe beside a suitcase, blurred background. Huge white heavy headline \"HOLIDAY TRIP?\" \"PACK COMFY FEET.\" with a solid black block \"60% OFF SITEWIDE + FREE GIFTS\" and a pill \"FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "lifestyle_legs_9x16",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "B48_24_cartoon_teacher_gifts",
+   "group": "black_friday",
+   "persona": "teacher",
+   "lang": "en",
+   "colorway": "light_grey",
+   "angle": "Cartoon teacher with shopping bags",
+   "based_on": "Black Friday inspo PDF: 3D animated Black Friday",
+   "headline": "Black Friday is the best homework.",
+   "prompt": "A still from a modern 3D animated feature film: a cheerful teacher carrying shopping bags and a wrapped gift in a bright shop window scene, big happy feet in the shoe in the foreground. Huge white rounded headline \"BLACK FRIDAY IS THE BEST HOMEWORK.\" and a red round badge \"60% OFF SITEWIDE\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin. The headline sits fully above the character in the top 30% of the canvas, nothing overlaps or covers the letters; the character and shoe stay in the lower 65%.",
+   "benchmark": "offer_block",
+   "format": "cartoon_3d",
+   "tags": []
+  },
+  {
+   "id": "B48_25_claymation_gift_wrapping",
+   "group": "black_friday",
+   "persona": "gift_for_her",
+   "lang": "en",
+   "colorway": "grey_pink",
+   "angle": "Claymation gift wrapping",
+   "based_on": "Black Friday inspo PDF: claymation gift scene",
+   "headline": "Wrap up comfy feet.",
+   "prompt": "A stop-motion claymation scene: plasticine hands wrapping a shoe box with the shoe inside, red ribbon and a tag reading \"FREE GIFTS\". Warm cozy table, snowy window. Huge cream headline \"WRAP UP COMFY FEET.\" and a red clay badge \"60% OFF SITEWIDE\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "hsa_minimal_9x16",
+   "format": "claymation",
+   "tags": []
+  },
+  {
+   "id": "B48_26_flat_illustration_countdown",
+   "group": "black_friday",
+   "persona": "comfort_only",
+   "lang": "en",
+   "colorway": "black_white",
+   "angle": "Flat vector Black Friday poster",
+   "based_on": "Black Friday inspo PDF: flat illustration poster",
+   "headline": "Black Friday, the comfy way.",
+   "prompt": "A modern flat vector poster: a woman with shopping bags and a laptop in a clean room, the shoe at natural proportions large in the foreground, limited black, white and red palette. Huge heavy headline \"BLACK FRIDAY, THE COMFY WAY.\" and a red block \"60% OFF SITEWIDE\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "offer_block",
+   "format": "flat_illustration",
+   "tags": []
+  },
+  {
+   "id": "B48_27_all_six_offers",
+   "group": "black_friday",
+   "persona": "comfort_only",
+   "lang": "en",
+   "colorway": "navy_blue",
+   "angle": "Checklist of all six offers",
+   "based_on": "Black Friday inspo PDF: list winner + user-provided offers",
+   "headline": "BLACK FRIDAY: EVERYTHING YOU GET",
+   "prompt": "Soft light background. Huge heavy black headline \"BLACK FRIDAY: EVERYTHING YOU GET\". Six large bold rows with solid royal blue check circles: \"60% OFF SITEWIDE\", \"FREE GIFTS (VALUE OF $54)\", \"FREE SHIPPING\", \"CLEARANCE SALE\", \"HSA/FSA ELIGIBLE\", \"30-DAY WEAR TEST TRIAL\". The shoe pair large at the bottom right. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+   "benchmark": "list_white",
+   "tags": []
+  }
+ ]
+}
