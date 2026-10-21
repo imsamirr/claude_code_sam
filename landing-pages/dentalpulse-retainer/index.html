@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DentalPULSE Retainer Listicle</title>
+<meta name="description" content="7 reasons retainer wearers are switching to the DentalPULSE Pod: 42,000 Hz ultrasonic cleaning with tap water, 99.9% of bacteria gone in 5 minutes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  /* Brand landing page: intentionally light-only to match the DentalPULSE store. */
+  :root {
+    color-scheme: light;
+    --blue: #1E73E8;
+    --blue-dark: #155BBE;
+    --navy: #0B1F3A;
+    --ink: #24344D;
+    --muted: #5B6B82;
+    --pale: #EEF5FE;
+    --pale-2: #F6F9FD;
+    --line: #DCE6F2;
+    --white: #FFFFFF;
+    --gold: #F5B301;
+    --red: #D93838;
+    --green: #12A15A;
+    --radius: 16px;
+    --max: 760px;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--white);
+    color: var(--ink);
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    padding-bottom: 84px;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; }
+  h1, h2, h3 { color: var(--navy); line-height: 1.15; margin: 0; letter-spacing: -0.02em; }
+  .wrap { max-width: var(--max); margin: 0 auto; padding: 0 16px; }
+
+  /* Top bar */
+  .topbar {
+    background: var(--navy); color: #fff; text-align: center;
+    font-size: 14px; font-weight: 600; padding: 9px 16px; letter-spacing: 0.01em;
+  }
+  .topbar strong { color: #8EC1FF; }
+  .brandbar { border-bottom: 1px solid var(--line); background: #fff; }
+  .brandbar .wrap { display: flex; align-items: center; justify-content: space-between; height: 56px; }
+  .logo { font-size: 21px; color: var(--navy); text-decoration: none; letter-spacing: -0.01em; }
+  .logo b { font-weight: 800; }
+  .brandbar .mini-cta {
+    font-size: 14px; font-weight: 700; color: #fff; background: var(--blue);
+    padding: 8px 14px; border-radius: 999px; text-decoration: none;
+  }
+
+  /* Hero */
+  .hero { padding: 28px 0 8px; }
+  .eyebrow {
+    display: inline-block; background: var(--pale); color: var(--blue);
+    font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    padding: 5px 12px; border-radius: 999px; margin-bottom: 14px;
+  }
+  .hero h1 { font-size: clamp(30px, 6.4vw, 46px); font-weight: 900; }
+  .hero h1 span { color: var(--blue); }
+  .sub { font-size: 19px; color: var(--muted); margin: 14px 0 18px; }
+  .sub strong { color: var(--navy); }
+  .byline { display: flex; align-items: center; gap: 10px; font-size: 14px; color: var(--muted); margin-bottom: 20px; }
+  .byline .dot { width: 34px; height: 34px; border-radius: 50%; background: var(--pale); display: grid; place-items: center; color: var(--blue); font-weight: 800; }
+  .hero-img { border-radius: var(--radius); overflow: hidden; background: var(--pale-2); }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 14px 0; }
+  .stat { background: var(--pale); border-radius: 12px; padding: 12px 6px; text-align: center; }
+  .stat b { display: block; color: var(--blue); font-size: 20px; font-weight: 900; line-height: 1.1; }
+  .stat span { font-size: 12px; color: var(--navy); font-weight: 600; line-height: 1.25; display: block; margin-top: 3px; }
+  @media (max-width: 520px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+
+  .btn {
+    display: block; text-align: center; text-decoration: none;
+    background: var(--blue); color: #fff; font-weight: 800; font-size: 19px;
+    padding: 17px 20px; border-radius: 12px; box-shadow: 0 6px 18px rgba(30,115,232,.28);
+    transition: background .15s ease, transform .15s ease;
+  }
+  .btn:hover { background: var(--blue-dark); transform: translateY(-1px); }
+  .btn small { display: block; font-weight: 600; font-size: 13px; opacity: .9; margin-top: 2px; }
+  .trust { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 16px; font-size: 13px; color: var(--muted); font-weight: 600; margin: 12px 0 0; }
+  .trust span::before { content: "✓ "; color: var(--green); font-weight: 800; }
+  .stars { color: var(--gold); letter-spacing: 1px; }
+
+  /* Ticker */
+  .ticker { background: var(--navy); color: #fff; overflow: hidden; white-space: nowrap; margin: 28px 0 8px; }
+  .ticker-track { display: inline-block; padding: 11px 0; animation: scroll 32s linear infinite; font-weight: 700; font-size: 14px; }
+  .ticker-track span { margin: 0 18px; }
+  .ticker-track span::before { content: "●"; color: var(--blue); margin-right: 18px; font-size: 9px; vertical-align: middle; }
+  @keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) { .ticker-track { animation: none; } }
+
+  /* Reasons */
+  .reason { padding: 40px 0 8px; border-bottom: 1px solid var(--line); }
+  .reason:last-of-type { border-bottom: 0; }
+  .num {
+    display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: 50%;
+    background: var(--blue); color: #fff; font-weight: 900; font-size: 20px; margin-bottom: 12px;
+  }
+  .reason h2 { font-size: clamp(24px, 4.6vw, 31px); font-weight: 800; margin-bottom: 14px; }
+  .reason p { margin: 0 0 14px; }
+  .reason .img { border-radius: var(--radius); overflow: hidden; margin: 18px 0; background: var(--pale-2); }
+  .reason .img img { width: 100%; }
+  .callout {
+    background: var(--pale); border-left: 4px solid var(--blue); border-radius: 10px;
+    padding: 14px 16px; margin: 16px 0; color: var(--navy); font-weight: 600;
+  }
+  .quote { font-style: italic; color: var(--navy); }
+  ul.checks { list-style: none; padding: 0; margin: 10px 0 16px; }
+  ul.checks li { padding-left: 30px; position: relative; margin: 8px 0; }
+  ul.checks li::before {
+    content: "✓"; position: absolute; left: 0; top: 1px; width: 21px; height: 21px; border-radius: 50%;
+    background: var(--blue); color: #fff; font-size: 12px; font-weight: 800; display: grid; place-items: center;
+  }
+  .inline-cta { margin: 20px 0 26px; }
+
+  /* Compare table */
+  .section { padding: 44px 0 10px; }
+  .section h2 { font-size: clamp(26px, 5vw, 34px); font-weight: 900; text-align: center; margin-bottom: 8px; }
+  .section .lede { text-align: center; color: var(--muted); margin: 0 0 22px; }
+  .compare { width: 100%; border-collapse: separate; border-spacing: 0; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; font-size: 15px; }
+  .compare th, .compare td { padding: 13px 10px; text-align: center; border-bottom: 1px solid var(--line); }
+  .compare tr:last-child td { border-bottom: 0; }
+  .compare th { background: var(--pale-2); color: var(--navy); font-size: 13px; font-weight: 800; }
+  .compare th.us { background: var(--blue); color: #fff; }
+  .compare td:first-child { text-align: left; font-weight: 600; color: var(--navy); }
+  .compare td.us { background: #F2F8FF; }
+  .y { color: var(--green); font-weight: 900; font-size: 18px; }
+  .n { color: var(--red); font-weight: 900; font-size: 18px; }
+  .compare-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  @media (max-width: 600px) { .compare { min-width: 560px; font-size: 14px; } .compare td:first-child { min-width: 150px; } }
+
+  /* Reviews */
+  .reviews { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  @media (max-width: 600px) { .reviews { grid-template-columns: 1fr; } }
+  .review { border: 1px solid var(--line); border-radius: 14px; padding: 16px; background: #fff; }
+  .review .stars { font-size: 16px; }
+  .review h3 { font-size: 16px; margin: 6px 0 4px; }
+  .review p { margin: 0; font-size: 15px; }
+  .review .who { font-size: 13px; color: var(--muted); margin-top: 10px; font-weight: 600; }
+
+  /* Offer */
+  .offer { background: var(--pale); border-radius: 20px; padding: 26px 18px; margin: 44px 0 10px; }
+  .offer h2 { text-align: center; font-size: clamp(26px, 5vw, 34px); font-weight: 900; }
+  .offer .lede { text-align: center; color: var(--muted); margin: 8px 0 18px; }
+  .packs { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 600px) { .packs { grid-template-columns: 1fr; } }
+  .pack { background: #fff; border: 2px solid var(--line); border-radius: 16px; padding: 16px; position: relative; display: flex; flex-direction: column; }
+  .pack.best { border-color: var(--blue); }
+  .pack .tag { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--blue); color: #fff; font-size: 12px; font-weight: 800; padding: 4px 12px; border-radius: 999px; white-space: nowrap; text-transform: uppercase; letter-spacing: .04em; }
+  .pack img { border-radius: 12px; background: var(--pale-2); margin-bottom: 12px; aspect-ratio: 4 / 3; object-fit: contain; width: 100%; height: auto; }
+  .pack h3 { font-size: 19px; }
+  .price { margin: 6px 0 4px; font-size: 26px; font-weight: 900; color: var(--navy); }
+  .price s { font-size: 16px; color: var(--muted); font-weight: 600; margin-left: 6px; }
+  .price .save { font-size: 13px; background: #E3F6EC; color: var(--green); padding: 3px 8px; border-radius: 999px; margin-left: 6px; vertical-align: middle; }
+  .pack ul { padding-left: 18px; margin: 6px 0 14px; font-size: 15px; flex: 1; }
+  .pack .btn { font-size: 17px; padding: 14px; }
+  .guarantee { display: flex; gap: 14px; align-items: center; margin-top: 18px; background: #fff; border-radius: 14px; padding: 14px 16px; }
+  .seal { flex: none; width: 64px; height: 64px; border-radius: 50%; background: var(--navy); color: #fff; display: grid; place-items: center; text-align: center; font-size: 10px; font-weight: 800; line-height: 1.1; border: 3px solid var(--gold); }
+  .seal b { font-size: 20px; display: block; color: var(--gold); }
+  .guarantee p { margin: 0; font-size: 15px; }
+
+  /* FAQ */
+  details { border-bottom: 1px solid var(--line); padding: 4px 0; }
+  summary { cursor: pointer; list-style: none; font-weight: 700; color: var(--navy); padding: 14px 30px 14px 0; position: relative; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; position: absolute; right: 4px; top: 10px; font-size: 24px; color: var(--blue); font-weight: 500; }
+  details[open] summary::after { content: "–"; }
+  details p { margin: 0 0 14px; color: var(--ink); }
+
+  /* Final CTA */
+  .final { text-align: center; padding: 44px 0 20px; }
+  .final h2 { font-size: clamp(28px, 5.6vw, 40px); font-weight: 900; }
+  .final p { color: var(--muted); }
+  .features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 22px 0; }
+  @media (max-width: 600px) { .features { grid-template-columns: repeat(2, 1fr); } }
+  .feature { background: var(--pale-2); border: 1px solid var(--line); border-radius: 12px; padding: 14px 10px; font-size: 14px; font-weight: 700; color: var(--navy); }
+  .feature i { font-style: normal; display: block; font-size: 22px; margin-bottom: 4px; }
+
+  footer { border-top: 1px solid var(--line); margin-top: 30px; padding: 22px 0; font-size: 12px; color: var(--muted); text-align: center; }
+  footer a { color: var(--muted); }
+
+  /* Sticky bar */
+  .sticky {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
+    background: rgba(255,255,255,.97); backdrop-filter: blur(6px);
+    border-top: 1px solid var(--line); box-shadow: 0 -6px 20px rgba(11,31,58,.08);
+    transform: translateY(110%); transition: transform .25s ease;
+  }
+  .sticky.show { transform: none; }
+  .sticky .wrap { display: flex; align-items: center; gap: 12px; padding-top: 10px; padding-bottom: calc(10px + env(safe-area-inset-bottom)); }
+  .sticky img { width: 46px; height: 46px; border-radius: 10px; object-fit: cover; background: var(--pale-2); }
+  .sticky .txt { flex: 1; min-width: 0; line-height: 1.25; }
+  .sticky .txt b { display: block; color: var(--navy); font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .sticky .txt span { font-size: 12px; color: var(--muted); font-weight: 600; }
+  .sticky .btn { font-size: 15px; padding: 12px 16px; flex: none; box-shadow: none; }
+</style>
+</head>
+<body>
+
+<div class="topbar">🦷 <strong>40% OFF</strong> sale on now · Try it risk-free for 120 days</div>
+
+<header class="brandbar">
+  <div class="wrap">
+    <a class="logo" href="https://dentalpulsepro.com">Dental<b>PULSE</b></a>
+    <a class="mini-cta" href="#offer">Get 40% Off</a>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Retainer care · 2026</span>
+    <h1>7 Reasons Retainer Wearers Are Ditching the Toothbrush for the <span>DentalPULSE Pod</span></h1>
+    <p class="sub">Your retainer spends 8 hours a night in your mouth. <strong>A quick rinse and a scrub isn't getting it clean</strong>, and that cloudy film is the proof.</p>
+    <div class="byline"><div class="dot">D</div><div>By the DentalPULSE team · <span class="stars">★★★★★</span> Rated 4.8/5</div></div>
+
+    <div class="hero-img"><img src="img/milky_clear.jpg" alt="A milky, cloudy retainer after 6 months of brushing next to a crystal-clear retainer after the DentalPULSE Pod" width="800" height="1000"></div>
+
+    <div class="stats">
+      <div class="stat"><b>42,000 Hz</b><span>ultrasonic cleaning</span></div>
+      <div class="stat"><b>99.9%</b><span>of bacteria eliminated</span></div>
+      <div class="stat"><b>5 min</b><span>one-button cycle</span></div>
+      <div class="stat"><b>0</b><span>tablets or chemicals</span></div>
+    </div>
+
+    <a class="btn" href="#offer">Get My Retainer Clear Again<small>40% OFF · 120-Day Money-Back Guarantee</small></a>
+    <div class="trust"><span>Dentist-recommended</span><span>Clinicians' Choice</span><span>Tap water only</span></div>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>42,000 Hz ultrasonic</span><span>Eliminates 99.9% of bacteria</span><span>Tap water only</span><span>5-minute cycle</span><span>No tablets, no subscriptions</span><span>Clinical-grade at home</span><span>Clear retainers, aligners &amp; wire retainers</span>
+    <span>42,000 Hz ultrasonic</span><span>Eliminates 99.9% of bacteria</span><span>Tap water only</span><span>5-minute cycle</span><span>No tablets, no subscriptions</span><span>Clinical-grade at home</span><span>Clear retainers, aligners &amp; wire retainers</span>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <article class="reason">
+    <div class="num">1</div>
+    <h2>Brushing your retainer is scratching it, and the scratches are what turn it cloudy</h2>
+    <p>Most of us were told to "just brush it" at the orthodontist. But toothpaste is abrasive, and a clear retainer is soft plastic. Every scrub leaves micro-scratches you can't see.</p>
+    <p>Those scratches are where the trouble starts. They trap plaque, minerals and bacteria, and over a few months your once-invisible retainer goes <strong>milky, dull and faintly yellow</strong>.</p>
+    <div class="callout">The DentalPULSE Pod never touches your retainer with bristles. It cleans with 42,000 Hz sound waves and plain tap water, so there's nothing to scratch it.</div>
+  </article>
+
+  <article class="reason">
+    <div class="num">2</div>
+    <h2>That white film? It's back by lunchtime, because a brush can't reach where it lives</h2>
+    <p>Run a fingernail along the inside of your retainer. That chalky, slightly slimy layer builds up in the tooth wells, along the edges and, on wire retainers, right where the wire meets the acrylic.</p>
+    <p>A toothbrush skims the flat surfaces. It can't get into the grooves, and it definitely can't get under the wire.</p>
+    <div class="img"><img src="img/wire_gunk.jpg" alt="Close-up of buildup where the wire meets the acrylic on a Hawley retainer, where a brush can't reach" width="800" height="1000" loading="lazy"></div>
+    <p>Ultrasonic cleaning works differently. At 42,000 vibrations per second, it creates millions of microscopic bubbles that collapse against every surface the water touches: <strong>inside each tooth well, around every clasp, under the wire.</strong></p>
+    <p class="quote">"Always seeing something, like a film, left on my appliance even after brushing."</p>
+  </article>
+
+  <article class="reason">
+    <div class="num">3</div>
+    <h2>Fizzy tablets mean chemicals every night, and they can leave your retainer brittle</h2>
+    <p>Cleaning tablets were the "upgrade" from brushing. Drop one in, wait, rinse, repeat. But you're soaking something that goes in your mouth for hours in a chemical bath every night, then buying more every month.</p>
+    <p>And plenty of people find the film still sits in the grooves afterwards. One of our customers put it plainly:</p>
+    <div class="callout">"Stains won't come out, and the tablets made the retainer fragile."</div>
+    <div class="img"><img src="img/tablets_vs_pod.jpg" alt="Comparison: a nightly tablet soak versus the DentalPULSE Pod with tap water" width="800" height="1000" loading="lazy"></div>
+    <p>The DentalPULSE Pod uses <strong>tap water only</strong>. No tablets, no chemicals, no subscription. Fill it, drop your retainer in, press the button. Five minutes later, you're done.</p>
+  </article>
+
+  <article class="reason">
+    <div class="num">4</div>
+    <h2>It eliminates 99.9% of bacteria in a single 5-minute cycle</h2>
+    <p>This is the part that sold most of our customers. The DentalPULSE Pod's clinical-grade 42,000 Hz cleaning <strong>eliminates 99.9% of bacteria in one 5-minute cycle</strong>, the same kind of ultrasonic cleaning used in dental offices, built for your bathroom counter.</p>
+    <ul class="checks">
+      <li>One button, one 5-minute cycle</li>
+      <li>Works on clear plastic retainers, wire (Hawley) retainers and clear aligners</li>
+      <li>Also cleans night guards, mouth guards and dentures, so the whole household can use it</li>
+    </ul>
+    <div class="img"><img src="img/pod_open.jpg" alt="The DentalPULSE Pod with its lid open and a clear aligner going into the stainless-steel basin" width="900" height="900" loading="lazy"></div>
+  </article>
+
+  <article class="reason">
+    <div class="num">5</div>
+    <h2>Not all pods are equal: 6 of 7 we tested left live bacteria behind</h2>
+    <p>If you've seen cheap "ultrasonic" cleaners online, you're not wrong to be skeptical. Many of our customers tried one first. We wanted to know why so many people felt they "didn't visibly clean anything."</p>
+    <p>So we ran a <strong>90-day side-by-side lab test of 7 leading ultrasonic cleaners</strong>. Six of the seven left live bacteria behind. DentalPULSE came out #1.</p>
+    <div class="callout">The difference is power and build. A pod that only buzzes isn't the same as one that runs a true 42,000 Hz cycle and is built to run every day.</div>
+    
+  </article>
+
+  <article class="reason">
+    <div class="num">6</div>
+    <h2>A replacement retainer costs hundreds. Keeping yours clear costs $99.95</h2>
+    <p>When a retainer gets cloudy, smelly or cracked from harsh cleaning, most people end up back at the orthodontist paying for a new one. If you're a parent of a teen, you've probably done it more than once.</p>
+    <div class="img"><img src="img/price_math.jpg" alt="New retainer: $300. Keeping yours like new: $99.95." width="800" height="1000" loading="lazy"></div>
+    <p>Gentle daily ultrasonic cleaning keeps buildup from forming in the first place, so your retainer stays <strong>clear, odor-free and in good shape for longer</strong>. No more monthly tablet orders, either.</p>
+    <p style="font-size:14px;color:var(--muted)">Honest note: if your retainer already has deep, set-in yellowing from years of use, one cycle won't make it brand new. Daily cleaning stops new buildup, and most customers see it get clearer over time.</p>
+  </article>
+
+  <article class="reason">
+    <div class="num">7</div>
+    <h2>It goes where you go, so you never have to wrap it in a napkin again</h2>
+    <p>Retainers and aligners get lost at restaurants, left on lunch trays and rinsed in airport sinks. The <strong>DentalPULSE Travel Pod</strong> is a small round clamshell that comes in the Ultimate Cleaning Bundle, so your retainer stays clean and protected away from home too.</p>
+    <div class="img"><img src="img/travel_pod.jpg" alt="The DentalPULSE Travel Pod, a small round white clamshell case" width="900" height="900" loading="lazy"></div>
+    <p>Here's what retainer and aligner wearers tell us after switching:</p>
+    <ul class="checks">
+      <li>"My retainer is clear again!"</li>
+      <li>"Retainer clear, not milky."</li>
+      <li>"No more smell."</li>
+      <li>"Much cleaner without scrubbing."</li>
+    </ul>
+    <div class="inline-cta"><a class="btn" href="#offer">See Today's 40% Off Offer<small>120-Day Money-Back Guarantee</small></a></div>
+  </article>
+
+</div>
+
+<section class="section">
+  <div class="wrap">
+    <h2>The Honest Comparison</h2>
+    <p class="lede">How the DentalPULSE Pod stacks up against the usual retainer routines.</p>
+    <div class="compare-scroll">
+      <table class="compare">
+        <thead>
+          <tr><th></th><th class="us">DentalPULSE Pod</th><th>Brush + toothpaste</th><th>Fizzy tablets</th><th>Cheap pods</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Eliminates 99.9% of bacteria</td><td class="us y">✓</td><td class="n">✕</td><td class="n">✕</td><td class="n">✕</td></tr>
+          <tr><td>Reaches grooves &amp; under wires</td><td class="us y">✓</td><td class="n">✕</td><td class="y">✓</td><td class="y">✓</td></tr>
+          <tr><td>No scratching</td><td class="us y">✓</td><td class="n">✕</td><td class="y">✓</td><td class="y">✓</td></tr>
+          <tr><td>No chemicals</td><td class="us y">✓</td><td class="y">✓</td><td class="n">✕</td><td class="y">✓</td></tr>
+          <tr><td>Nothing to re-buy</td><td class="us y">✓</td><td class="n">✕</td><td class="n">✕</td><td class="y">✓</td></tr>
+          <tr><td>Done in 5 minutes</td><td class="us y">✓</td><td class="y">✓</td><td class="n">✕</td><td class="y">✓</td></tr>
+          <tr><td>42,000 Hz clinical-grade</td><td class="us y">✓</td><td class="n">✕</td><td class="n">✕</td><td class="n">✕</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2>Clear Again. No Smell. No Tablets.</h2>
+    <p class="lede"><span class="stars">★★★★★</span> Rated 4.8/5</p>
+    <div class="reviews">
+      <div class="review"><div class="stars">★★★★★</div><h3>My retainer is clear again!</h3><p>I wasn't sure if it would really work. My retainer is clear again!</p><div class="who">Retainer wearer</div></div>
+      <div class="review"><div class="stars">★★★★★</div><h3>Clear, not milky</h3><p>Retainer clear, not milky. Clean, clear and odor free.</p><div class="who">Retainer wearer</div></div>
+      <div class="review"><div class="stars">★★★★★</div><h3>No white film!</h3><p>Always seeing something, like a film, left on my appliance even after brushing. No white film!</p><div class="who">Aligner wearer</div></div>
+      <div class="review"><div class="stars">★★★★★</div><h3>Much cleaner without scrubbing</h3><p>Much cleaner without scrubbing. No more smell.</p><div class="who">DentalPULSE customer</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <section class="offer" id="offer">
+    <h2>Get 40% Off Today</h2>
+    <p class="lede">Every order is backed by our 120-Day Money-Back Guarantee.</p>
+    <div class="packs">
+      <div class="pack best">
+        <span class="tag">Best for retainers</span>
+        <img src="img/ultimate_bundle.jpg" alt="Ultimate Cleaning Bundle: DentalPULSE Pod, Travel Pod and a box of retainer cleaner tablets" width="900" height="900" loading="lazy">
+        <h3>Ultimate Cleaning Bundle</h3>
+        <div class="price">$169.95<s>$300</s><span class="save">Save $130</span></div>
+        <ul>
+          <li>DentalPULSE Pod</li>
+          <li>DentalPULSE Travel Pod</li>
+          <li>Antibacterial Retainer Cleaner tablets (30)</li>
+        </ul>
+        <a class="btn" href="https://dentalpulsepro.com/products/ultimate-cleaning-bundle">Get the Bundle</a>
+      </div>
+      <div class="pack">
+        <span class="tag">40% Off</span>
+        <img src="img/pod.jpg" alt="The DentalPULSE Pod, a white ribbed dome" width="900" height="900" loading="lazy">
+        <h3>DentalPULSE Pod</h3>
+        <div class="price">$99.95</div>
+        <ul>
+          <li>42,000 Hz ultrasonic cleaning</li>
+          <li>Eliminates 99.9% of bacteria in 5 minutes</li>
+          <li>Tap water only, no tablets</li>
+        </ul>
+        <a class="btn" href="https://dentalpulsepro.com">Get the Pod</a>
+      </div>
+    </div>
+    <div class="guarantee">
+      <div class="seal"><div><b>120</b>DAY<br>GUARANTEE</div></div>
+      <p><strong>Try it risk-free for 120 days.</strong> Use it on your retainer every day. If it isn't clearer and fresher than your old routine, send it back for your money back.</p>
+    </div>
+  </section>
+</div>
+
+<section class="section">
+  <div class="wrap">
+    <h2>Questions, Answered</h2>
+    <details><summary>Will it work on my type of retainer?</summary><p>Yes. The Pod cleans clear plastic retainers, wire (Hawley) retainers and clear aligners like Invisalign. It also handles night guards, mouth guards and dentures.</p></details>
+    <details><summary>Is ultrasonic cleaning safe for my retainer?</summary><p>Yes. There are no bristles, no abrasives and no chemicals, just sound waves and tap water. It's far gentler than scrubbing with toothpaste.</p></details>
+    <details><summary>Do I need tablets or cleaning solution?</summary><p>No. Tap water is all you need. The 30 tablets in the Ultimate Cleaning Bundle are optional, for when you want an extra boost.</p></details>
+    <details><summary>How long does a cycle take?</summary><p>One 5-minute cycle at the push of a button. Run it while you brush your teeth.</p></details>
+    <details><summary>My retainer is already yellow. Will this fix it?</summary><p>It removes the daily film, bacteria and buildup, and most customers see their retainer get clearer over time. Deep yellowing that has set into old plastic may not fully reverse, which is why it's best to start daily cleaning early.</p></details>
+    <details><summary>I tried a cheap ultrasonic cleaner and it didn't work. Why is this different?</summary><p>In our 90-day side-by-side lab test of 7 leading ultrasonic cleaners, 6 of 7 left live bacteria behind. The DentalPULSE Pod ranked #1, with clinical-grade 42,000 Hz cleaning that eliminates 99.9% of bacteria.</p></details>
+    <details><summary>What if I don't like it?</summary><p>You're covered by our 120-Day Money-Back Guarantee. Try it for up to 120 days, and if you're not happy, send it back for a refund.</p></details>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>Keep the Retainer. Lose the Film.</h2>
+    <p>Clinical-grade cleaning at home, with nothing but tap water.</p>
+    <div class="features">
+      <div class="feature"><i>🔊</i>42,000 Hz ultrasonic</div>
+      <div class="feature"><i>🦠</i>Eliminates 99.9% of bacteria</div>
+      <div class="feature"><i>⏱️</i>5-minute cycle</div>
+      <div class="feature"><i>💧</i>Tap water only</div>
+      <div class="feature"><i>🦷</i>Dentist-recommended</div>
+      <div class="feature"><i>🛡️</i>120-day guarantee</div>
+    </div>
+    <a class="btn" href="#offer">Get 40% Off Now<small>Try it risk-free for 120 days</small></a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    © 2026 DentalPULSE · <a href="https://dentalpulsepro.com/policies/terms-of-service">Terms of Service</a> · <a href="https://dentalpulsepro.com/policies/privacy-policy">Privacy Policy</a><br>
+    Bacteria claim refers to one 5-minute cleaning cycle. Lab comparison refers to DentalPULSE's 90-day side-by-side test of 7 leading ultrasonic cleaners. Customer quotes are from DentalPULSE's post-purchase survey. Not intended to diagnose, treat or prevent any disease.
+  </div>
+</footer>
+
+<div class="sticky" id="sticky">
+  <div class="wrap">
+    <img src="img/pod.jpg" alt="">
+    <div class="txt"><b>DentalPULSE Pod</b><span>40% OFF · 120-day guarantee</span></div>
+    <a class="btn" href="#offer">Get 40% Off</a>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var bar = document.getElementById('sticky');
+    var offer = document.getElementById('offer');
+    function update() {
+      var past = window.scrollY > 600;
+      var r = offer.getBoundingClientRect();
+      var atOffer = r.top < window.innerHeight && r.bottom > 0;
+      bar.classList.toggle('show', past && !atOffer);
+    }
+    window.addEventListener('scroll', update, { passive: true });
+    update();
+  })();
+</script>
+</body>
+</html>
