@@ -1,0 +1,614 @@
+<title>DentalPULSE Wholesale</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: white clinical page in centered 1120px bands; one pale-blue band and one navy band carry the rhythm.
+   Single light theme on purpose: this drops into the store's light Shopify theme. */
+:root {
+  --dpw-paper: #FFFFFF;
+  --dpw-mist: #EEF4FD;
+  --dpw-line: #D6E2F3;
+  --dpw-ink: #0B1F3A;
+  --dpw-ink-soft: #4A5D78;
+  --dpw-blue: #1E73E8;
+  --dpw-blue-deep: #155BBD;
+  --dpw-navy: #0B1F3A;
+  --dpw-on-navy: #E8F0FC;
+  --dpw-on-navy-soft: #A9BCD8;
+  --dpw-germ: #D9822B;
+  --dpw-ok: #1E8A5B;
+  --dpw-display: "Plus Jakarta Sans", "Helvetica Neue", Arial, sans-serif;
+  --dpw-body: "Plus Jakarta Sans", "Helvetica Neue", Arial, sans-serif;
+  --dpw-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --dpw-radius: 14px;
+  color-scheme: light;
+}
+body { background: var(--dpw-paper); color: var(--dpw-ink); }
+
+.dpw { background: var(--dpw-paper); color: var(--dpw-ink); font-family: var(--dpw-body); font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+.dpw *, .dpw *::before, .dpw *::after { box-sizing: border-box; }
+.dpw img { max-width: 100%; height: auto; display: block; }
+.dpw h1, .dpw h2, .dpw h3 { font-family: var(--dpw-display); color: inherit; margin: 0; text-wrap: balance; letter-spacing: -0.02em; }
+.dpw p { margin: 0; }
+.dpw a { color: var(--dpw-blue); }
+
+.dpw-band { padding-block: clamp(56px, 8vw, 104px); padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.dpw-band--mist { background: var(--dpw-mist); }
+.dpw-band--navy { background: var(--dpw-navy); color: var(--dpw-on-navy); }
+.dpw-wrap { max-width: 1120px; margin: 0 auto; display: grid; gap: clamp(32px, 4vw, 56px); }
+
+.dpw-eyebrow { font-family: var(--dpw-mono); font-size: 13px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--dpw-blue); }
+.dpw-band--navy .dpw-eyebrow { color: #7FB0F5; }
+.dpw-h2 { font-size: clamp(30px, 4vw, 46px); line-height: 1.1; font-weight: 800; }
+.dpw-lede { font-size: clamp(17px, 1.6vw, 19px); color: var(--dpw-ink-soft); max-width: 62ch; }
+.dpw-band--navy .dpw-lede { color: var(--dpw-on-navy-soft); }
+.dpw-head { display: grid; gap: 14px; max-width: 760px; }
+
+.dpw-btn { display: inline-flex; align-items: center; gap: 10px; background: var(--dpw-blue); color: #FFFFFF !important; text-decoration: none; font-family: var(--dpw-display); font-weight: 700; font-size: 16px; padding: 15px 26px; border-radius: 999px; border: 0; cursor: pointer; transition: background .15s ease, transform .15s ease; }
+.dpw-btn:hover { background: var(--dpw-blue-deep); transform: translateY(-1px); }
+.dpw-btn:focus-visible, .dpw input:focus-visible, .dpw select:focus-visible, .dpw textarea:focus-visible, .dpw summary:focus-visible { outline: 3px solid var(--dpw-blue); outline-offset: 2px; }
+.dpw-btn svg { width: 16px; height: 16px; }
+.dpw-cta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; }
+.dpw-cta-note { font-size: 14px; color: var(--dpw-ink-soft); }
+
+/* Placeholder terms: dashed underline until confirmed. Delete the class once the number is final. */
+.dpw .tbd { text-decoration: underline dashed #D9822B; text-underline-offset: 4px; }
+
+/* Hero */
+.dpw-hero { padding-top: clamp(40px, 6vw, 80px); }
+.dpw-hero .dpw-wrap { grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); align-items: center; }
+.dpw-hero h1 { font-size: clamp(38px, 5.6vw, 66px); line-height: 1.02; font-weight: 800; }
+.dpw-hero h1 em { font-style: normal; color: var(--dpw-blue); }
+.dpw-hero-copy { display: grid; gap: 22px; min-width: 0; }
+.dpw-hero-media { position: relative; border-radius: 24px; overflow: hidden; background: var(--dpw-mist); aspect-ratio: 1 / 1; max-width: 100%; }
+.dpw-hero-media img { width: 100%; height: 100%; object-fit: cover; }
+.dpw-readout { position: absolute; left: 16px; bottom: 16px; display: flex; gap: 8px; flex-wrap: wrap; }
+.dpw-readout span { font-family: var(--dpw-mono); font-size: 13px; background: rgba(255,255,255,.92); color: var(--dpw-ink); padding: 6px 10px; border-radius: 8px; }
+.dpw-trust { display: flex; flex-wrap: wrap; gap: 10px 26px; padding-top: 8px; border-top: 1px solid var(--dpw-line); font-size: 14px; font-weight: 600; color: var(--dpw-ink-soft); }
+.dpw-trust span { display: inline-flex; align-items: center; gap: 8px; }
+.dpw-trust svg { width: 16px; height: 16px; color: var(--dpw-blue); flex: none; }
+
+/* Lab test: 7 pods */
+.dpw-lab .dpw-wrap { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); align-items: center; }
+.dpw-lab-copy { display: grid; gap: 18px; min-width: 0; }
+.dpw-lab-big { font-family: var(--dpw-display); font-weight: 800; font-size: clamp(64px, 9vw, 112px); line-height: .9; letter-spacing: -0.04em; color: var(--dpw-ink); }
+.dpw-lab-big small { display: block; font-size: 18px; letter-spacing: 0; font-weight: 600; color: var(--dpw-ink-soft); margin-top: 10px; }
+.dpw-pods { background: var(--dpw-paper); border: 1px solid var(--dpw-line); border-radius: 20px; padding: clamp(18px, 3vw, 30px); display: grid; gap: 12px; min-width: 0; }
+.dpw-pod-row { display: grid; grid-template-columns: 112px minmax(0, 1fr) auto; align-items: center; gap: 14px; font-size: 14px; }
+.dpw-pod-name { font-weight: 600; white-space: nowrap; }
+.dpw-pod-dots { display: flex; flex-wrap: wrap; gap: 4px; }
+.dpw-pod-dots i { width: 10px; height: 10px; border-radius: 50%; background: var(--dpw-germ); opacity: .85; }
+.dpw-pod-dots i.c { background: var(--dpw-line); opacity: 1; }
+.dpw-pod-result { font-family: var(--dpw-mono); font-size: 12px; text-align: right; white-space: nowrap; color: var(--dpw-germ); }
+.dpw-pod-row--us { background: var(--dpw-mist); border-radius: 10px; padding: 10px 12px; margin: 4px -12px 0; }
+.dpw-pod-row--us .dpw-pod-name { color: var(--dpw-blue); }
+.dpw-pod-row--us .dpw-pod-result { color: var(--dpw-ok); font-weight: 500; }
+.dpw-pods-foot { font-size: 12px; color: var(--dpw-ink-soft); border-top: 1px solid var(--dpw-line); padding-top: 12px; }
+
+/* Opportunity grid */
+.dpw-grid4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; border-top: 1px solid var(--dpw-line); }
+.dpw-grid4 > div { padding: 26px 24px 4px 0; display: grid; gap: 10px; align-content: start; }
+.dpw-grid4 > div + div { padding-left: 24px; border-left: 1px solid var(--dpw-line); }
+.dpw-grid4 h3 { font-size: 19px; font-weight: 700; line-height: 1.25; }
+.dpw-grid4 p { font-size: 15px; color: var(--dpw-ink-soft); }
+.dpw-ico { width: 40px; height: 40px; border-radius: 10px; background: var(--dpw-mist); color: var(--dpw-blue); display: grid; place-items: center; }
+.dpw-ico svg { width: 20px; height: 20px; }
+
+/* Specs (navy) */
+.dpw-specs .dpw-wrap { grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); align-items: start; }
+.dpw-specs-left { display: grid; gap: 22px; min-width: 0; }
+.dpw-specs-img { border-radius: 20px; overflow: hidden; aspect-ratio: 1 / 1; max-width: 100%; }
+.dpw-specs-img img { width: 100%; height: 100%; object-fit: cover; }
+.dpw-spec-list { display: grid; gap: 0; min-width: 0; }
+.dpw-spec { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 20px; padding: 24px 0; border-top: 1px solid rgba(169,188,216,.25); }
+.dpw-spec:last-child { border-bottom: 1px solid rgba(169,188,216,.25); }
+.dpw-spec-val { font-family: var(--dpw-mono); font-size: clamp(24px, 2.6vw, 30px); font-weight: 500; color: #FFFFFF; line-height: 1.1; }
+.dpw-spec-val small { display: block; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--dpw-on-navy-soft); margin-top: 6px; }
+.dpw-spec h3 { font-size: 19px; font-weight: 700; color: #FFFFFF; margin-bottom: 6px; }
+.dpw-spec p { font-size: 15px; color: var(--dpw-on-navy-soft); }
+
+/* Appliances / who */
+.dpw-who { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.dpw-who-card { background: var(--dpw-paper); border: 1px solid var(--dpw-line); border-radius: var(--dpw-radius); padding: 24px; display: grid; gap: 8px; align-content: start; }
+.dpw-who-card .dpw-tag { font-family: var(--dpw-mono); font-size: 12px; color: var(--dpw-blue); letter-spacing: .04em; }
+.dpw-who-card h3 { font-size: 19px; font-weight: 700; }
+.dpw-who-card p { font-size: 15px; color: var(--dpw-ink-soft); }
+.dpw-who-foot { font-size: 15px; color: var(--dpw-ink-soft); max-width: 70ch; }
+
+/* Range */
+.dpw-range { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.dpw-prod { display: grid; gap: 14px; align-content: start; }
+.dpw-prod-img { border-radius: var(--dpw-radius); overflow: hidden; aspect-ratio: 1 / 1; background: var(--dpw-mist); max-width: 100%; }
+.dpw-prod-img img { width: 100%; height: 100%; object-fit: cover; }
+.dpw-prod h3 { font-size: 20px; font-weight: 700; }
+.dpw-prod p { font-size: 15px; color: var(--dpw-ink-soft); }
+.dpw-prod .dpw-msrp { font-family: var(--dpw-mono); font-size: 13px; color: var(--dpw-ink); }
+
+/* Terms */
+.dpw-terms .dpw-wrap { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); align-items: start; }
+.dpw-terms-left { display: grid; gap: 18px; min-width: 0; }
+.dpw-checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-top: 1px solid var(--dpw-line); }
+.dpw-checks li { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 12px; padding: 16px 0; border-bottom: 1px solid var(--dpw-line); font-weight: 600; }
+.dpw-checks li span { display: block; font-weight: 400; font-size: 15px; color: var(--dpw-ink-soft); }
+.dpw-checks svg { width: 22px; height: 22px; color: var(--dpw-blue); margin-top: 2px; }
+
+/* Steps */
+.dpw-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; counter-reset: dpwstep; }
+.dpw-step { border-top: 3px solid var(--dpw-blue); padding-top: 20px; display: grid; gap: 8px; align-content: start; }
+.dpw-step-n { font-family: var(--dpw-mono); font-size: 13px; color: var(--dpw-blue); }
+.dpw-step h3 { font-size: 22px; font-weight: 800; }
+.dpw-step p { font-size: 15px; color: var(--dpw-ink-soft); }
+
+/* Patient quotes */
+.dpw-quotes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.dpw-quote { background: var(--dpw-paper); border-radius: var(--dpw-radius); padding: 26px; display: grid; gap: 14px; align-content: space-between; border: 1px solid var(--dpw-line); }
+.dpw-quote blockquote { margin: 0; font-family: var(--dpw-display); font-size: 20px; font-weight: 600; line-height: 1.35; letter-spacing: -0.01em; }
+.dpw-quote figcaption { font-size: 13px; color: var(--dpw-ink-soft); font-family: var(--dpw-mono); }
+.dpw-stars { color: var(--dpw-blue); letter-spacing: 2px; font-size: 15px; }
+
+/* FAQ */
+.dpw-faq { display: grid; gap: 0; border-top: 1px solid var(--dpw-line); max-width: 860px; }
+.dpw-faq details { border-bottom: 1px solid var(--dpw-line); }
+.dpw-faq summary { cursor: pointer; list-style: none; padding: 20px 40px 20px 0; position: relative; font-weight: 700; font-size: 18px; }
+.dpw-faq summary::-webkit-details-marker { display: none; }
+.dpw-faq summary::after { content: "+"; position: absolute; right: 4px; top: 50%; transform: translateY(-50%); font-family: var(--dpw-mono); font-size: 22px; color: var(--dpw-blue); }
+.dpw-faq details[open] summary::after { content: "–"; }
+.dpw-faq details p { padding: 0 0 22px; color: var(--dpw-ink-soft); max-width: 70ch; }
+
+/* Form */
+.dpw-apply .dpw-wrap { grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr); align-items: start; }
+.dpw-apply-left { display: grid; gap: 18px; min-width: 0; }
+.dpw-contact { font-size: 15px; color: var(--dpw-ink-soft); }
+.dpw-form { background: var(--dpw-paper); border: 1px solid var(--dpw-line); border-radius: 20px; padding: clamp(20px, 3.5vw, 36px); display: grid; gap: 22px; min-width: 0; }
+.dpw-fieldset { border: 0; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.dpw-fieldset legend { font-family: var(--dpw-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--dpw-blue); margin-bottom: 12px; padding: 0; }
+.dpw-field { display: grid; gap: 6px; min-width: 0; }
+.dpw-field--full { grid-column: 1 / -1; }
+.dpw-field label, .dpw-field .dpw-label { font-size: 14px; font-weight: 600; }
+.dpw-field label .opt, .dpw-field .dpw-label .opt { font-weight: 400; color: var(--dpw-ink-soft); }
+.dpw input[type="text"], .dpw input[type="email"], .dpw input[type="tel"], .dpw input[type="url"], .dpw input[type="number"], .dpw select, .dpw textarea {
+  width: 100%; font: inherit; font-size: 16px; color: var(--dpw-ink); background: var(--dpw-paper); border: 1px solid #B9CBE4; border-radius: 10px; padding: 12px 14px; min-height: 48px; appearance: none; -webkit-appearance: none; }
+.dpw select { background-image: linear-gradient(45deg, transparent 50%, var(--dpw-ink-soft) 50%), linear-gradient(135deg, var(--dpw-ink-soft) 50%, transparent 50%); background-position: calc(100% - 20px) 50%, calc(100% - 15px) 50%; background-size: 5px 5px; background-repeat: no-repeat; padding-right: 40px; }
+.dpw textarea { min-height: 110px; resize: vertical; }
+.dpw input:user-invalid, .dpw select:user-invalid { border-color: #C2410C; }
+.dpw-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.dpw-chip { position: relative; }
+.dpw-chip input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.dpw-chip span { display: inline-block; padding: 9px 14px; border: 1px solid #B9CBE4; border-radius: 999px; font-size: 14px; font-weight: 600; color: var(--dpw-ink); background: var(--dpw-paper); transition: background .12s, border-color .12s; }
+.dpw-chip input:checked + span { background: var(--dpw-mist); border-color: var(--dpw-blue); color: var(--dpw-blue-deep); }
+.dpw-chip input:focus-visible + span { outline: 3px solid var(--dpw-blue); outline-offset: 2px; }
+.dpw-consent { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 10px; font-size: 14px; color: var(--dpw-ink-soft); align-items: start; }
+.dpw-consent input { width: 18px; height: 18px; margin: 2px 0 0; accent-color: var(--dpw-blue); }
+.dpw-error { color: #C2410C; font-size: 14px; font-weight: 600; }
+.dpw-success { background: var(--dpw-mist); border: 1px solid var(--dpw-blue); border-radius: 20px; padding: clamp(24px, 4vw, 40px); display: grid; gap: 12px; }
+.dpw-success h3 { font-size: 26px; font-weight: 800; }
+.dpw-success p { color: var(--dpw-ink-soft); }
+
+@media (max-width: 900px) {
+  .dpw-hero .dpw-wrap, .dpw-lab .dpw-wrap, .dpw-specs .dpw-wrap, .dpw-terms .dpw-wrap, .dpw-apply .dpw-wrap { grid-template-columns: minmax(0, 1fr); }
+  .dpw-hero-media { max-width: 520px; }
+  .dpw-specs-img { max-width: 420px; }
+  .dpw-grid4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .dpw-grid4 > div:nth-child(3) { padding-left: 0; border-left: 0; }
+  .dpw-grid4 > div:nth-child(n+3) { border-top: 1px solid var(--dpw-line); }
+  .dpw-who, .dpw-quotes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .dpw-range, .dpw-steps { grid-template-columns: minmax(0, 1fr); }
+  .dpw-range .dpw-prod { grid-template-columns: 140px minmax(0, 1fr); align-items: center; }
+}
+@media (max-width: 600px) {
+  .dpw { font-size: 16px; }
+  .dpw-grid4, .dpw-who, .dpw-quotes, .dpw-fieldset { grid-template-columns: minmax(0, 1fr); }
+  .dpw-grid4 > div, .dpw-grid4 > div + div { padding-left: 0; border-left: 0; }
+  .dpw-grid4 > div + div { border-top: 1px solid var(--dpw-line); }
+  .dpw-pod-row { grid-template-columns: 84px minmax(0, 1fr); }
+  .dpw-pod-result { grid-column: 2; text-align: left; margin-top: -6px; }
+  .dpw-pod-name { white-space: normal; }
+  .dpw-spec { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+  .dpw-range .dpw-prod { grid-template-columns: 96px minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) { .dpw-btn { transition: none; } .dpw-btn:hover { transform: none; } }
+</style>
+
+<div class="dpw" id="dpw-top">
+
+  <!-- HERO -->
+  <section class="dpw-band dpw-hero">
+    <div class="dpw-wrap">
+      <div class="dpw-hero-copy">
+        <p class="dpw-eyebrow">Wholesale for dental practices</p>
+        <h1>Send every patient home with a <em>cleaner appliance.</em></h1>
+        <p class="dpw-lede">Stock the DentalPULSE Pod at your front desk. Aligners, retainers, night guards and dentures come back to their next appointment clear instead of cloudy, and your practice earns a margin on every unit.</p>
+        <div class="dpw-cta-row">
+          <a class="dpw-btn" href="#dpw-apply">Apply for wholesale
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <span class="dpw-cta-note">Reviewed by a real person within <span class="tbd">2 business days</span>.</span>
+        </div>
+        <div class="dpw-trust">
+          <span><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1.2l2 4.3 4.7.5-3.5 3.2 1 4.6L8 11.5 3.8 13.8l1-4.6L1.3 6l4.7-.5z"/></svg>Rated 4.8/5 by patients</span>
+          <span><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 1.5l5.5 2v4c0 3.3-2.3 6-5.5 7-3.2-1-5.5-3.7-5.5-7v-4z" stroke="currentColor" stroke-width="1.6"/><path d="M5.5 8l1.8 1.8L10.8 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Clinicians' Choice</span>
+          <span><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M1 8c1.5-3 3-3 4.5 0s3 3 4.5 0 3-3 4.5 0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Clinical-grade 42,000 Hz</span>
+        </div>
+      </div>
+      <div class="dpw-hero-media">
+        <img src="images/pod-open.jpg" alt="A clear aligner being placed into the open DentalPULSE Pod" width="1000" height="1000">
+        <div class="dpw-readout" aria-hidden="true"><span>42,000 Hz</span><span>05:00 cycle</span><span>Tap water only</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LAB TEST -->
+  <section class="dpw-band dpw-band--mist dpw-lab">
+    <div class="dpw-wrap">
+      <div class="dpw-lab-copy">
+        <p class="dpw-eyebrow">Why this pod</p>
+        <div class="dpw-lab-big">6 of 7<small>leading ultrasonic pods left live bacteria behind.</small></div>
+        <p class="dpw-lede">Your patients are already buying cleaners online, and most of what they find doesn't do the job. In a 90-day lab test of 7 leading cleaners, DentalPULSE was the one that eliminated 99.9% of bacteria. When you recommend it, you're putting your name behind the one that passed.</p>
+      </div>
+      <figure class="dpw-pods" aria-label="Lab test results for 7 ultrasonic cleaners" style="margin:0">
+        <div class="dpw-pod-row"><span class="dpw-pod-name">Pod A</span><span class="dpw-pod-dots" data-live="9"></span><span class="dpw-pod-result">bacteria left</span></div>
+        <div class="dpw-pod-row"><span class="dpw-pod-name">Pod B</span><span class="dpw-pod-dots" data-live="7"></span><span class="dpw-pod-result">bacteria left</span></div>
+        <div class="dpw-pod-row"><span class="dpw-pod-name">Pod C</span><span class="dpw-pod-dots" data-live="11"></span><span class="dpw-pod-result">bacteria left</span></div>
+        <div class="dpw-pod-row"><span class="dpw-pod-name">Pod D</span><span class="dpw-pod-dots" data-live="6"></span><span class="dpw-pod-result">bacteria left</span></div>
+        <div class="dpw-pod-row"><span class="dpw-pod-name">Pod E</span><span class="dpw-pod-dots" data-live="8"></span><span class="dpw-pod-result">bacteria left</span></div>
+        <div class="dpw-pod-row"><span class="dpw-pod-name">Pod F</span><span class="dpw-pod-dots" data-live="5"></span><span class="dpw-pod-result">bacteria left</span></div>
+        <div class="dpw-pod-row dpw-pod-row--us"><span class="dpw-pod-name">DentalPULSE</span><span class="dpw-pod-dots" data-live="0"></span><span class="dpw-pod-result">99.9% eliminated</span></div>
+        <figcaption class="dpw-pods-foot">90-day lab test of 7 leading ultrasonic cleaners. Other brands shown unnamed. Dots are illustrative.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- OPPORTUNITY -->
+  <section class="dpw-band">
+    <div class="dpw-wrap">
+      <div class="dpw-head">
+        <p class="dpw-eyebrow">For your practice</p>
+        <h2 class="dpw-h2">A product your patients ask about, sold where they already trust you.</h2>
+        <p class="dpw-lede">Patients ask how to keep their appliance clean at almost every delivery appointment. Now you can hand them the answer.</p>
+      </div>
+      <div class="dpw-grid4">
+        <div>
+          <div class="dpw-ico"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2v16M14 5.5C14 4 12.2 3 10 3S6 4 6 5.8c0 4 8 2.4 8 6.6C14 14.3 12.2 15.5 10 15.5S6 14.4 6 12.8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+          <h3>A new line on the invoice</h3>
+          <p>Sell at the front desk, add it to treatment packages, or include it as a premium welcome gift. Your margin, your pricing.</p>
+        </div>
+        <div>
+          <div class="dpw-ico"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="7.5" stroke="currentColor" stroke-width="1.7"/><path d="M6.5 10.2l2.3 2.3 4.7-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Clearer trays at check-ins</h3>
+          <p>A 5-minute daily clean in tap water. No brushing that scratches, no tablets that leave a film.</p>
+        </div>
+        <div>
+          <div class="dpw-ico"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="3" y="7" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M7 7V5.5a3 3 0 016 0V7" stroke="currentColor" stroke-width="1.7"/></svg></div>
+          <h3>Small counter footprint</h3>
+          <p>One display unit on the front desk does the selling. No floor space or shelving needed.</p>
+        </div>
+        <div>
+          <div class="dpw-ico"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 15c2-1 3.5-1 5 0s3 1 5 0 3-1 4 0M3 10c2-1 3.5-1 5 0s3 1 5 0 3-1 4 0M3 5c2-1 3.5-1 5 0s3 1 5 0 3-1 4 0" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+          <h3>One device, every appliance</h3>
+          <p>Aligners, retainers, night guards, dentures and partials, sleep and snore devices. One SKU covers your whole patient list.</p>
+        </div>
+      </div>
+      <div class="dpw-cta-row"><a class="dpw-btn" href="#dpw-apply">Apply for wholesale</a></div>
+    </div>
+  </section>
+
+  <!-- SPECS -->
+  <section class="dpw-band dpw-band--navy dpw-specs">
+    <div class="dpw-wrap">
+      <div class="dpw-specs-left">
+        <p class="dpw-eyebrow">The product</p>
+        <h2 class="dpw-h2">Built to the standard you'd hold it to.</h2>
+        <p class="dpw-lede">You're recommending this to patients, so the specs have to hold up. Here's what's inside the Pod.</p>
+        <div class="dpw-specs-img"><img src="images/pod.jpg" alt="The DentalPULSE Pod, closed" width="1000" height="1000" loading="lazy"></div>
+      </div>
+      <div class="dpw-spec-list">
+        <div class="dpw-spec">
+          <div class="dpw-spec-val">42,000<small>Hz ultrasonic</small></div>
+          <div><h3>Clinical-grade cavitation</h3><p>Microscopic bubbles reach the grooves and attachment wells a toothbrush can't, without scratching the surface.</p></div>
+        </div>
+        <div class="dpw-spec">
+          <div class="dpw-spec-val">99.9%<small>bacteria eliminated</small></div>
+          <div><h3>Lab-tested, not assumed</h3><p>Verified in a 90-day test against 7 leading cleaners. It was the only one that didn't leave live bacteria behind.</p></div>
+        </div>
+        <div class="dpw-spec">
+          <div class="dpw-spec-val">05:00<small>minute cycle</small></div>
+          <div><h3>Fits a real morning</h3><p>One button, one 5-minute cycle. Patients do it while they shower, so they actually keep doing it.</p></div>
+        </div>
+        <div class="dpw-spec">
+          <div class="dpw-spec-val">H₂O<small>tap water only</small></div>
+          <div><h3>No tablets, no chemicals</h3><p>No effervescent tablets that cloud clear trays or make retainers brittle, and no refill subscription for patients to forget.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO -->
+  <section class="dpw-band">
+    <div class="dpw-wrap">
+      <div class="dpw-head">
+        <p class="dpw-eyebrow">Every chair in your practice</p>
+        <h2 class="dpw-h2">If you dispense a removable appliance, your patients need one.</h2>
+      </div>
+      <div class="dpw-who">
+        <div class="dpw-who-card"><span class="dpw-tag">Orthodontics</span><h3>Aligner starts</h3><p>Hand it over with the first set of trays. Cleaner attachments, less odor, fewer "why is my tray cloudy" calls.</p></div>
+        <div class="dpw-who-card"><span class="dpw-tag">Orthodontics</span><h3>Retainer delivery</h3><p>Retainers are meant to last for years. Add a Pod to debond day and they stay clear instead of milky.</p></div>
+        <div class="dpw-who-card"><span class="dpw-tag">General dentistry</span><h3>Night guards</h3><p>Bruxism patients wear theirs every night. A daily clean keeps the guard from turning yellow and cloudy.</p></div>
+        <div class="dpw-who-card"><span class="dpw-tag">Prosthodontics</span><h3>Dentures and partials</h3><p>Lifts food debris and adhesive residue without scrubbing. A welcome change for patients with limited dexterity.</p></div>
+        <div class="dpw-who-card"><span class="dpw-tag">Dental sleep medicine</span><h3>Sleep and snore devices</h3><p>Oral appliances for sleep apnea get a daily clean without harsh soaks that wear the material.</p></div>
+        <div class="dpw-who-card"><span class="dpw-tag">Pediatric and family</span><h3>Parents of teens</h3><p>Parents want the retainer they paid for to last. A Pod at pickup is an easy yes.</p></div>
+      </div>
+      <p class="dpw-who-foot">We work with independent orthodontists, general and cosmetic dentists, prosthodontists, denture clinics, dental sleep practices and multi-location groups.</p>
+    </div>
+  </section>
+
+  <!-- RANGE -->
+  <section class="dpw-band dpw-band--mist">
+    <div class="dpw-wrap">
+      <div class="dpw-head">
+        <p class="dpw-eyebrow">The wholesale range</p>
+        <h2 class="dpw-h2">Start with the Pod. Add the Travel Pod for patients on the go.</h2>
+      </div>
+      <div class="dpw-range">
+        <div class="dpw-prod">
+          <div class="dpw-prod-img"><img src="images/pod.jpg" alt="DentalPULSE Pod" width="1000" height="1000" loading="lazy"></div>
+          <div><h3>DentalPULSE Pod</h3><p>The everyday 42,000 Hz home cleaner for every appliance type.</p><p class="dpw-msrp">Retail $99.95</p></div>
+        </div>
+        <div class="dpw-prod">
+          <div class="dpw-prod-img"><img src="images/travel-pod.jpg" alt="DentalPULSE Travel Pod" width="1000" height="1000" loading="lazy"></div>
+          <div><h3>DentalPULSE Travel Pod</h3><p>A compact clamshell for aligner and retainer wearers who travel or clean at work.</p><p class="dpw-msrp tbd">Retail $XX.XX</p></div>
+        </div>
+        <div class="dpw-prod">
+          <div class="dpw-prod-img"><img src="images/denture-gift-bundle.jpg" alt="DentalPULSE Pod Denture Bundle with travel bag, denture case and warranty card" width="1000" height="1000" loading="lazy"></div>
+          <div><h3>Pod Denture Bundle</h3><p>The Pod plus a travel bag, denture case and brush. Made for denture clinics and new-denture deliveries.</p><p class="dpw-msrp">Retail $180</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TERMS -->
+  <section class="dpw-band dpw-terms">
+    <div class="dpw-wrap">
+      <div class="dpw-terms-left">
+        <p class="dpw-eyebrow">Partnership, not just wholesale</p>
+        <h2 class="dpw-h2">Easy to start. Easy to reorder.</h2>
+        <p class="dpw-lede">We set up practices to sell from day one, with materials your front-desk team can use without training.</p>
+        <div class="dpw-cta-row"><a class="dpw-btn" href="#dpw-apply">Apply for wholesale</a></div>
+      </div>
+      <ul class="dpw-checks">
+        <li><svg viewBox="0 0 22 22" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="9.5" stroke="currentColor" stroke-width="1.6"/><path d="M7 11.3l2.7 2.7L15 8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div>Practice pricing with healthy margins<span>Tiered wholesale pricing <span class="tbd">up to 50% off retail</span>, with better rates as volume grows.</span></div></li>
+        <li><svg viewBox="0 0 22 22" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="9.5" stroke="currentColor" stroke-width="1.6"/><path d="M7 11.3l2.7 2.7L15 8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div>Low opening order<span>Start with <span class="tbd">12 units</span>. Reorder in packs of <span class="tbd">6</span>.</span></div></li>
+        <li><svg viewBox="0 0 22 22" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="9.5" stroke="currentColor" stroke-width="1.6"/><path d="M7 11.3l2.7 2.7L15 8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div>Counter display and patient handouts<span>Front-desk display, care cards and digital assets for your website and socials.</span></div></li>
+        <li><svg viewBox="0 0 22 22" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="9.5" stroke="currentColor" stroke-width="1.6"/><path d="M7 11.3l2.7 2.7L15 8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div>Patients are covered too<span>Every Pod carries our 120-day money-back guarantee, so recommending it carries no risk.</span></div></li>
+        <li><svg viewBox="0 0 22 22" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="9.5" stroke="currentColor" stroke-width="1.6"/><path d="M7 11.3l2.7 2.7L15 8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div>A real person on your account<span>One contact for orders, restocks and questions. No ticket queue.</span></div></li>
+        <li><svg viewBox="0 0 22 22" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="9.5" stroke="currentColor" stroke-width="1.6"/><path d="M7 11.3l2.7 2.7L15 8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div>Multi-location pricing<span>DSOs and groups get one account, consolidated billing and shipping to each office.</span></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- STEPS -->
+  <section class="dpw-band dpw-band--mist">
+    <div class="dpw-wrap">
+      <div class="dpw-head">
+        <p class="dpw-eyebrow">How it works</p>
+        <h2 class="dpw-h2">From application to front desk in three steps.</h2>
+      </div>
+      <div class="dpw-steps">
+        <div class="dpw-step"><span class="dpw-step-n">Step 1</span><h3>Apply</h3><p>Tell us about your practice and the appliances you dispense. It takes about two minutes.</p></div>
+        <div class="dpw-step"><span class="dpw-step-n">Step 2</span><h3>Get your pricing</h3><p>Our wholesale team reviews every application and sends your price sheet within <span class="tbd">2 business days</span>.</p></div>
+        <div class="dpw-step"><span class="dpw-step-n">Step 3</span><h3>Launch</h3><p>Your opening order ships with the counter display and patient materials, ready for your next delivery appointment.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PATIENT QUOTES -->
+  <section class="dpw-band">
+    <div class="dpw-wrap">
+      <div class="dpw-head">
+        <p class="dpw-eyebrow">What patients tell us</p>
+        <h2 class="dpw-h2">Rated 4.8/5 by the people who wear the appliances.</h2>
+        <p class="dpw-lede">From our post-purchase survey of DentalPULSE owners.</p>
+      </div>
+      <div class="dpw-quotes">
+        <figure class="dpw-quote" style="margin:0"><div class="dpw-stars" aria-label="5 stars">★★★★★</div><blockquote>"My retainer is clear again! Clear, not milky."</blockquote><figcaption>Retainer wearer</figcaption></figure>
+        <figure class="dpw-quote" style="margin:0"><div class="dpw-stars" aria-label="5 stars">★★★★★</div><blockquote>"My night guard is noticeably cleaner and brighter."</blockquote><figcaption>Night guard wearer</figcaption></figure>
+        <figure class="dpw-quote" style="margin:0"><div class="dpw-stars" aria-label="5 stars">★★★★★</div><blockquote>"Certainly cleans all the residue from denture paste. Much cleaner without scrubbing."</blockquote><figcaption>Denture wearer</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="dpw-band dpw-band--mist">
+    <div class="dpw-wrap">
+      <div class="dpw-head">
+        <p class="dpw-eyebrow">Good to know</p>
+        <h2 class="dpw-h2">Wholesale questions, answered.</h2>
+      </div>
+      <div class="dpw-faq">
+        <details><summary>Who can apply?</summary><p>Licensed dental practices in the US: orthodontists, general and cosmetic dentists, prosthodontists, denture clinics, dental sleep practices, and multi-location groups. We may ask for your practice license or NPI number to verify.</p></details>
+        <details><summary>What's the minimum order?</summary><p>Opening orders start at <span class="tbd">12 units</span>. Reorders start at <span class="tbd">6 units</span>.</p></details>
+        <details><summary>What are the payment terms?</summary><p>Payment is due on your first order. <span class="tbd">Net-30 terms</span> are available for established accounts.</p></details>
+        <details><summary>Can I set my own retail price?</summary><p>Yes. We share a suggested retail price of $99.95 and ask partners not to advertise below it online. In your practice, you can sell it, bundle it into treatment fees, or include it as a gift.</p></details>
+        <details><summary>What if a patient's Pod has a problem?</summary><p>Every Pod carries our 120-day money-back guarantee. Patients can contact us directly, or you can send them our way and we handle it.</p></details>
+        <details><summary>Will there be another stockist near me?</summary><p>We look at every area case by case so partner practices aren't competing with each other on the same street.</p></details>
+        <details><summary>Can I use the Pod in-office instead of reselling it?</summary><p>Yes. Some practices use Pods chairside to clean appliances during appointments. Mention it in your application and we'll quote for in-office use.</p></details>
+        <details><summary>What happens after I apply?</summary><p>A member of our wholesale team reviews every application personally and gets back to you within <span class="tbd">2 business days</span> with pricing and next steps.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPLY -->
+  <section class="dpw-band dpw-apply" id="dpw-apply">
+    <div class="dpw-wrap">
+      <div class="dpw-apply-left">
+        <p class="dpw-eyebrow">Apply</p>
+        <h2 class="dpw-h2">Become a DentalPULSE practice partner.</h2>
+        <p class="dpw-lede">Tell us about your practice. We'll reply with wholesale pricing and next steps within <span class="tbd">2 business days</span>.</p>
+        <p class="dpw-contact">Prefer email? Write to <strong class="tbd">wholesale@dentalpulsepro.com</strong></p>
+      </div>
+
+      <div>
+        <div class="dpw-success" id="dpw-success" hidden>
+          <h3>Thanks, your application is in.</h3>
+          <p>Our wholesale team will review it and email you within <span class="tbd">2 business days</span> with pricing and next steps.</p>
+          <p id="dpw-preview-note" hidden><strong>Preview mode:</strong> nothing was sent. On your Shopify store this form sends the application to your store's contact inbox.</p>
+        </div>
+
+        <form class="dpw-form" id="dpw-form" method="post" action="/contact#dpw-apply" accept-charset="UTF-8" novalidate>
+          <input type="hidden" name="form_type" value="contact">
+          <input type="hidden" name="utf8" value="✓">
+          <input type="hidden" name="contact[tags]" value="wholesale-application">
+          <input type="hidden" name="contact[Appliances dispensed]" id="dpw-appliances-out" value="">
+
+          <fieldset class="dpw-fieldset">
+            <legend>Your practice</legend>
+            <div class="dpw-field dpw-field--full"><label for="dpw-practice">Practice name</label><input type="text" id="dpw-practice" name="contact[Practice name]" required autocomplete="organization"></div>
+            <div class="dpw-field"><label for="dpw-type">Practice type</label>
+              <select id="dpw-type" name="contact[Practice type]" required>
+                <option value="">Select one</option>
+                <option>Orthodontist</option>
+                <option>General or family dentist</option>
+                <option>Cosmetic dentist</option>
+                <option>Prosthodontist or denture clinic</option>
+                <option>Dental sleep medicine</option>
+                <option>Pediatric dentist</option>
+                <option>DSO or multi-location group</option>
+                <option>Dental lab</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="dpw-field"><label for="dpw-locations">Number of locations</label>
+              <select id="dpw-locations" name="contact[Locations]" required>
+                <option value="">Select one</option>
+                <option>1</option><option>2 to 5</option><option>6 to 20</option><option>21 or more</option>
+              </select>
+            </div>
+            <div class="dpw-field dpw-field--full"><label for="dpw-website">Practice website <span class="opt">(optional)</span></label><input type="url" id="dpw-website" name="contact[Website]" placeholder="https://" autocomplete="url"></div>
+            <div class="dpw-field"><label for="dpw-city">City</label><input type="text" id="dpw-city" name="contact[City]" required autocomplete="address-level2"></div>
+            <div class="dpw-field"><label for="dpw-state">State</label><input type="text" id="dpw-state" name="contact[State]" required autocomplete="address-level1"></div>
+            <div class="dpw-field dpw-field--full"><label for="dpw-npi">NPI or license number <span class="opt">(optional, speeds up approval)</span></label><input type="text" id="dpw-npi" name="contact[NPI or license]" inputmode="numeric"></div>
+          </fieldset>
+
+          <fieldset class="dpw-fieldset">
+            <legend>Your details</legend>
+            <div class="dpw-field"><label for="dpw-name">Full name</label><input type="text" id="dpw-name" name="contact[name]" required autocomplete="name"></div>
+            <div class="dpw-field"><label for="dpw-role">Role</label>
+              <select id="dpw-role" name="contact[Role]" required>
+                <option value="">Select one</option>
+                <option>Doctor or owner</option>
+                <option>Practice or office manager</option>
+                <option>Treatment coordinator</option>
+                <option>Purchasing</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="dpw-field"><label for="dpw-email">Work email</label><input type="email" id="dpw-email" name="contact[email]" required autocomplete="email"></div>
+            <div class="dpw-field"><label for="dpw-phone">Phone</label><input type="tel" id="dpw-phone" name="contact[phone]" required autocomplete="tel"></div>
+          </fieldset>
+
+          <fieldset class="dpw-fieldset">
+            <legend>Your patients</legend>
+            <div class="dpw-field dpw-field--full">
+              <span class="dpw-label" id="dpw-appl-label">Appliances you dispense <span class="opt">(select all that apply)</span></span>
+              <div class="dpw-chips" role="group" aria-labelledby="dpw-appl-label">
+                <label class="dpw-chip"><input type="checkbox" id="dpw-a1" value="Clear aligners"><span>Clear aligners</span></label>
+                <label class="dpw-chip"><input type="checkbox" id="dpw-a2" value="Retainers"><span>Retainers</span></label>
+                <label class="dpw-chip"><input type="checkbox" id="dpw-a3" value="Night guards"><span>Night guards</span></label>
+                <label class="dpw-chip"><input type="checkbox" id="dpw-a4" value="Dentures and partials"><span>Dentures and partials</span></label>
+                <label class="dpw-chip"><input type="checkbox" id="dpw-a5" value="Sleep or snore devices"><span>Sleep or snore devices</span></label>
+                <label class="dpw-chip"><input type="checkbox" id="dpw-a6" value="Sports guards"><span>Sports guards</span></label>
+              </div>
+            </div>
+            <div class="dpw-field"><label for="dpw-volume">Appliances delivered per month</label>
+              <select id="dpw-volume" name="contact[Appliances per month]" required>
+                <option value="">Select one</option>
+                <option>Under 10</option><option>10 to 25</option><option>26 to 50</option><option>51 to 100</option><option>More than 100</option>
+              </select>
+            </div>
+            <div class="dpw-field"><label for="dpw-use">How you'd use the Pods</label>
+              <select id="dpw-use" name="contact[Intended use]" required>
+                <option value="">Select one</option>
+                <option>Resell to patients</option>
+                <option>Include in treatment fees or as a gift</option>
+                <option>Use in-office</option>
+                <option>A mix of these</option>
+              </select>
+            </div>
+            <div class="dpw-field"><label for="dpw-qty">Estimated opening order <span class="opt">(units)</span></label>
+              <select id="dpw-qty" name="contact[Opening order]" required>
+                <option value="">Select one</option>
+                <option>12 to 24</option><option>25 to 50</option><option>51 to 100</option><option>More than 100</option><option>Not sure yet</option>
+              </select>
+            </div>
+            <div class="dpw-field"><label for="dpw-source">How did you hear about us? <span class="opt">(optional)</span></label>
+              <select id="dpw-source" name="contact[Heard about us]">
+                <option value="">Select one</option>
+                <option>A patient brought one in</option>
+                <option>Colleague referral</option>
+                <option>Social media</option>
+                <option>Search</option>
+                <option>Trade show or study club</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="dpw-field dpw-field--full"><label for="dpw-msg">Anything else we should know? <span class="opt">(optional)</span></label><textarea id="dpw-msg" name="contact[body]" placeholder="Questions, timing, or details about your practice"></textarea></div>
+          </fieldset>
+
+          <label class="dpw-consent" for="dpw-consent"><input type="checkbox" id="dpw-consent" name="contact[Consent]" value="Yes" required><span>I confirm I'm applying on behalf of a licensed dental practice, and I agree to be contacted about wholesale.</span></label>
+          <p class="dpw-error" id="dpw-error" role="alert" hidden></p>
+          <div class="dpw-cta-row"><button type="submit" class="dpw-btn">Submit application</button><span class="dpw-cta-note">Takes about two minutes.</span></div>
+        </form>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+(function () {
+  // Bacteria dots for the lab-test figure (illustrative, 12 slots per pod).
+  document.querySelectorAll('.dpw-pod-dots').forEach(function (el) {
+    var live = parseInt(el.getAttribute('data-live'), 10) || 0;
+    var html = '';
+    for (var i = 0; i < 12; i++) html += '<i' + (i < live ? '' : ' class="c"') + '></i>';
+    el.innerHTML = html;
+  });
+
+  var form = document.getElementById('dpw-form');
+  var success = document.getElementById('dpw-success');
+  var err = document.getElementById('dpw-error');
+  var onShopify = typeof window.Shopify !== 'undefined';
+
+  function showSuccess(preview) {
+    form.hidden = true;
+    success.hidden = false;
+    document.getElementById('dpw-preview-note').hidden = !preview;
+    success.scrollIntoView({ block: 'center' });
+  }
+
+  // Shopify redirects back with ?contact_posted=true after a successful submit.
+  if (/[?&]contact_posted=true/.test(window.location.search)) showSuccess(false);
+
+  form.addEventListener('submit', function (e) {
+    var picked = Array.prototype.map.call(form.querySelectorAll('.dpw-chips input:checked'), function (c) { return c.value; });
+    document.getElementById('dpw-appliances-out').value = picked.join(', ');
+
+    var firstBad = Array.prototype.find.call(form.elements, function (f) { return f.willValidate && !f.checkValidity(); });
+    if (firstBad) {
+      e.preventDefault();
+      var label = form.querySelector('label[for="' + firstBad.id + '"]');
+      var name = label ? label.childNodes[0].textContent.trim() : 'This field';
+      err.textContent = firstBad.type === 'email' && firstBad.value
+        ? 'Enter a valid email address, like name@practice.com.'
+        : firstBad.type === 'checkbox'
+          ? 'Tick the confirmation box to submit your application.'
+          : name + ' is required. Fill it in to submit your application.';
+      err.hidden = false;
+      firstBad.focus();
+      return;
+    }
+    err.hidden = true;
+    if (!onShopify) { e.preventDefault(); showSuccess(true); }
+  });
+})();
+</script>
