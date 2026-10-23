@@ -1,6 +1,6 @@
 {
   "week": "2026-W44-fri",
-  "notes": "Seasonal slot: travel 'we tested 5 shoes' ranking (Kyro 293: C$58k, 2.15 ROAS; Kyro 369: C$67k; Kyro 373: C$61k), which performed well late October to early November last year. Competitors named at the user's request; claims are taken from the winning scripts. The Friday routine adds the remaining concepts for this week and keeps these.",
+  "notes": "Seasonal slot: travel 'we tested 5 shoes' ranking (Kyro 293: C$58k, 2.15 ROAS; Kyro 369: C$67k; Kyro 373: C$61k), which performed well late October to early November last year. Competitors named at the user's request; claims are taken from the winning scripts. The Friday 2026-10-23 run keeps these 7 and adds 33 more to fill the batch of 40 (mixed offer stack, foot-pain leads, cartoon/native formats, Spanish).",
   "concepts": [
     {
       "id": "W44_01_tested_5_travel_shoes_ranking",
@@ -25,7 +25,9 @@
             "ms": 900
           }
         ]
-      }
+      },
+      "benchmark": "list_white",
+      "tags": []
     },
     {
       "id": "W44_02_travel_scorecard",
@@ -36,7 +38,9 @@
       "angle": "Comparison scorecard: what matters on a sightseeing day",
       "based_on": "Kyro 293/369 test criteria (cobblestones, 8–10 hour days, swelling, weight)",
       "headline": "Which travel shoe survives a full day of sightseeing?",
-      "prompt": "Clean comparison-table ad on white. Headline at top in bold black: \"Which travel shoe survives\" second line in purple: \"a full day of sightseeing?\" A table with four columns: \"Nike Air Max\", \"Hoka\", \"Skechers\", \"Comfort Wear\" (column headers are text only, no shoe pictures; only the last column, highlighted in light lavender, shows the shoe from the reference photo above it). Four rows with labels on the left: \"Cobblestones\", \"8+ hours\", \"Room for swelling\", \"Light in your suitcase\". The Comfort Wear column has a green check in every row; the other columns have mostly red X marks (Nike: X, X, X, check; Hoka: X, check, X, X; Skechers: X, X, check, check). Large, legible cells."
+      "prompt": "Clean comparison-table ad on white. Headline at top in bold black: \"Which travel shoe survives\" second line in purple: \"a full day of sightseeing?\" A table with four columns: \"Nike Air Max\", \"Hoka\", \"Skechers\", \"Comfort Wear\" (column headers are text only, no shoe pictures; only the last column, highlighted in light lavender, shows the shoe from the reference photo above it). Four rows with labels on the left: \"Cobblestones\", \"8+ hours\", \"Room for swelling\", \"Light in your suitcase\". The Comfort Wear column has a green check in every row; the other columns have mostly red X marks (Nike: X, X, X, check; Hoka: X, check, X, X; Skechers: X, X, check, check). Large, legible cells.",
+      "benchmark": "list_white",
+      "tags": []
     },
     {
       "id": "W44_03_worst_travel_advice",
@@ -47,7 +51,9 @@
       "angle": "Contrarian hook: 'just wear your comfy sneakers' is the worst travel advice",
       "based_on": "Kyro 373 'The worst travel advice I ever got was just wear your comfortable sneakers' (C$61k)",
       "headline": "The worst travel advice I ever got: \"Just wear your comfy sneakers.\"",
-      "prompt": "Photo-real ad on a sunny Lisbon street with yellow trams and cobblestones: a woman in her 50s with a crossbody bag walking happily uphill, wearing the shoe from the reference photo. Top headline in bold white with soft shadow: \"The worst travel advice I ever got:\" second line in bold: \"“Just wear your comfy sneakers.”\""
+      "prompt": "Photo-real ad on a sunny Lisbon street with yellow trams and cobblestones: a woman in her 50s with a crossbody bag walking happily uphill, wearing the shoe from the reference photo. Top headline in bold white with soft shadow: \"The worst travel advice I ever got:\" second line in bold: \"“Just wear your comfy sneakers.”\"",
+      "benchmark": "lifestyle_legs_9x16",
+      "tags": []
     },
     {
       "id": "W44_04_three_trips_postcards",
@@ -58,7 +64,9 @@
       "angle": "Trip-by-trip story told as postcards",
       "based_on": "Kyro 373 'I wore Hokas in Lisbon… I wore Nikes in Paris… Three trips since then, no pain, no benches'",
       "headline": "Lisbon in Hokas. Paris in Nikes. Then I found these.",
-      "prompt": "Ad with three vintage travel postcards stacked at slight angles on a light wooden table. Postcard 1 (Lisbon tram photo) with handwritten text: \"Lisbon in Hokas: heel pain by day 2\". Postcard 2 (Eiffel Tower photo) with handwritten text: \"Paris in Nikes: swollen by 3pm\". Postcard 3 (Portuguese coast photo) with handwritten text: \"Portugal in Comfort Wear: no benches needed\" and the shoe from the reference photo resting next to it. Headline at top in bold black: \"Then I found these.\""
+      "prompt": "Ad with three vintage travel postcards stacked at slight angles on a light wooden table. Postcard 1 (Lisbon tram photo) with handwritten text: \"Lisbon in Hokas: heel pain by day 2\". Postcard 2 (Eiffel Tower photo) with handwritten text: \"Paris in Nikes: swollen by 3pm\". Postcard 3 (Portuguese coast photo) with handwritten text: \"Portugal in Comfort Wear: no benches needed\" and the shoe from the reference photo resting next to it. Headline at top in bold black: \"Then I found these.\"",
+      "benchmark": "lifestyle_legs_9x16",
+      "tags": []
     },
     {
       "id": "W44_05_carry_on_flat_lay",
@@ -69,7 +77,9 @@
       "angle": "Packing flat-lay: the one pair that goes everywhere",
       "based_on": "Vessi 'No more backup shoes. One pair.' (70–100 days); Kyro 293 'nice enough for restaurants, comfortable enough for eight hours of exploring'",
       "headline": "10 days in Italy. 1 pair of shoes.",
-      "prompt": "Overhead flat-lay photo of an open carry-on suitcase on a white bed: neatly folded women's clothes, passport, sunglasses, a guidebook, and the pair of shoes from the reference photo placed prominently. Headline at the top in bold black: \"10 days in Italy.\" second line in purple: \"1 pair of shoes.\" Small black text at the bottom: \"Nice enough for dinner. Comfy enough for 8 hours of exploring.\""
+      "prompt": "Overhead flat-lay photo of an open carry-on suitcase on a white bed: neatly folded women's clothes, passport, sunglasses, a guidebook, and the pair of shoes from the reference photo placed prominently. Headline at the top in bold black: \"10 days in Italy.\" second line in purple: \"1 pair of shoes.\" Small black text at the bottom: \"Nice enough for dinner. Comfy enough for 8 hours of exploring.\"",
+      "benchmark": "lifestyle_legs_9x16",
+      "tags": []
     },
     {
       "id": "W44_06_es_probamos_5_zapatos",
@@ -80,7 +90,9 @@
       "angle": "Spanish · ranked test of 5 travel shoes",
       "based_on": "Kyro 293 ranking (2.15 ROAS) + Spanish ad history",
       "headline": "Probamos 5 zapatos para viajar. Solo uno aguantó todo el día.",
-      "prompt": "Ranking ad on warm cream with a faint cobblestone street photo at the top. Headline in bold black: \"Probamos 5 zapatos para viajar.\" second line in purple: \"Solo uno aguantó todo el día.\" Five ranked rows as white rounded cards: \"5 Sandalias: sin protección\" red X, \"4 Nike Air Max: punta angosta\" red X, \"3 Hoka: inestables en piedra\" red X, \"2 Skechers: se aplanan en la tarde\" red X, and a purple-bordered highlighted card \"1 Comfort Wear: firmes y con espacio\" green check with the shoe from the reference photo beside it."
+      "prompt": "Ranking ad on warm cream with a faint cobblestone street photo at the top. Headline in bold black: \"Probamos 5 zapatos para viajar.\" second line in purple: \"Solo uno aguantó todo el día.\" Five ranked rows as white rounded cards: \"5 Sandalias: sin protección\" red X, \"4 Nike Air Max: punta angosta\" red X, \"3 Hoka: inestables en piedra\" red X, \"2 Skechers: se aplanan en la tarde\" red X, and a purple-bordered highlighted card \"1 Comfort Wear: firmes y con espacio\" green check with the shoe from the reference photo beside it.",
+      "benchmark": "list_white",
+      "tags": []
     },
     {
       "id": "W44_07_holiday_airport_steps",
@@ -91,7 +103,604 @@
       "angle": "Holiday travel: airports and long layovers (Thanksgiving season)",
       "based_on": "Travel persona; seasonal timing (Thanksgiving travel), Kyro 293 'walk further, longer'",
       "headline": "3 terminals. 1 layover. 18,000 steps before Thanksgiving dinner.",
-      "prompt": "Photo-real ad in a busy, bright airport terminal with fall decorations: a woman in her 40s pulling a carry-on, walking fast toward a gate, wearing the shoe from the reference photo. Top headline in bold white with shadow: \"3 terminals. 1 layover.\" second line: \"18,000 steps before Thanksgiving dinner.\""
+      "prompt": "Photo-real ad in a busy, bright airport terminal with fall decorations: a woman in her 40s pulling a carry-on, walking fast toward a gate, wearing the shoe from the reference photo. Top headline in bold white with shadow: \"3 terminals. 1 layover.\" second line: \"18,000 steps before Thanksgiving dinner.\"",
+      "benchmark": "lifestyle_legs_9x16",
+      "tags": []
+    },
+    {
+      "id": "W44_08_pf_flip_the_sole",
+      "group": "net_new",
+      "persona": "comfort_only",
+      "lang": "en",
+      "colorway": "black_purple",
+      "angle": "Plantar fasciitis / heel pain: sole-forward hero that makes the viewer flip the shoe over (inspo: Carol Bennett 'Flip your shoe over and look at the sole')",
+      "based_on": "Latest inspo pull: Carol Bennett 'Flip your shoe over and look at the sole' (13-16 days running, dozens of variants); survey PF 25%",
+      "headline": "Heel pain? Flip your shoe over.",
+      "prompt": "Clean light grey studio background. Huge heavy black headline across the full width, two lines: \"HEEL PAIN?\" / \"FLIP YOUR SHOE OVER.\" Below it, one big hero image: the shoe from the reference photo turned onto its side and tilted up so its chunky rocker midsole and lug outsole are the star, at true natural proportions, sharp knit texture, filling about 50% of the frame, with a soft shadow. Two thin black hand-drawn curved arrows with large bold labels: \"CUSHIONED HEEL\" pointing to the heel and \"SLIP-RESISTANT GRIP\" pointing to the outsole. A solid purple rounded pill at the bottom with white text \"FEELS DIFFERENT. IN A GOOD WAY.\" All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "callouts_white",
+      "tags": [
+        "FP"
+      ],
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {
+            "edit": "Remove the pill and both arrow labels, keep headline and shoe",
+            "ms": 900
+          },
+          {
+            "edit": "Remove the headline, keep only the shoe on the grey background",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "W44_09_cortisone_fb_comment",
+      "group": "net_new",
+      "persona": "active_retiree",
+      "lang": "en",
+      "colorway": "all_black",
+      "angle": "Heel pain after treatments that didn't stick, told as a real Facebook comment thread (inspo: Carol Bennett '3 cortisone shots' story)",
+      "based_on": "Latest inspo pull: Carol Bennett '3 cortisone shots and her prep cook fixed it' (13-16 days running); 'Didn't buy yet' comments winner (3.05 ROAS); survey PF 25%",
+      "headline": "3 cortisone shots and my heels still hurt.",
+      "prompt": "White background. Huge heavy black headline across the width: \"3 CORTISONE SHOTS.\" / \"HEELS STILL HURT.\" Below, two stacked Facebook-style comments with large readable text. First comment by \"Linda P.\": \"3 cortisone shots and my heels still hurt every morning. These are the first shoes I can wear all day.\" Second comment by \"Barb S.\": \"Same here. Ordered a second pair.\" On the right side, a tight crop of a mature woman's ankle and the all-black shoe, huge and sharp, overlapping the comments. One solid black pill under the comments: \"READ WHAT WOMEN SAY\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "comments_social",
+      "format": "fb_comment",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_10_plus_nurse_badge_offer",
+      "group": "net_new",
+      "persona": "plus_size",
+      "lang": "en",
+      "colorway": "black_purple",
+      "angle": "Offer stack as a hospital ID badge on a lanyard, plus-size nurse with swollen feet by hour 10 (format: badge/lanyard)",
+      "based_on": "Offer winners (RTGv1_O1 40% OFF Sitewide, 3.86 ROAS); plus-size theme-park/nurse winners (Kyro 170, $106k); survey swollen feet",
+      "headline": "Swollen feet by hour 10?",
+      "prompt": "Tall layout, bright break-room background softly blurred. Top: huge heavy black headline \"SWOLLEN FEET\" / \"BY HOUR 10?\" Center: a large white hospital ID badge hanging on a navy lanyard (no logo, no photo, no name), on the badge three stacked huge bold lines on solid purple bars with white text: \"40% OFF\" (biggest), \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". Bottom half: a tight crop of a plus-size nurse's legs in navy scrubs seated, wearing the shoe from the reference photo, the shoe about 40% of the frame, sharp knit texture. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "offer_block",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "W44_11_teacher_permission_slip_offer",
+      "group": "net_new",
+      "persona": "teacher",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "angle": "Offer stack as a school permission slip with checkboxes, teacher knees and back from standing (format: permission slip form)",
+      "based_on": "Offer winners (RTGv1_O1 40% OFF Sitewide, 3.86 ROAS); teacher persona PF 29%; 'knees and back from standing' survey language",
+      "headline": "Permission slip for your feet.",
+      "prompt": "Warm classroom desk scene, softly blurred background. A large paper permission-slip form fills the upper two-thirds, handwritten-style heavy title \"PERMISSION SLIP FOR YOUR FEET\" in black, below it three huge checked boxes with bold lines: \"40% OFF\" (biggest), \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\", and a signature line. Bottom third: a tight low-angle crop of a teacher's legs in dark trousers wearing the shoe from the reference photo, the shoe about 40% of the frame. Small friendly line above the form in black: \"Knees and back aching?\" All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "offer_block",
+      "tags": [
+        "FP",
+        "OFFER"
+      ],
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {
+            "edit": "Remove the three checked boxes and their lines, keep title and shoe",
+            "ms": 900
+          },
+          {
+            "edit": "Remove the form title, keep the desk scene and shoe",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "W44_12_housekeeper_shipping_box_offer",
+      "group": "net_new",
+      "persona": "housekeeping",
+      "lang": "en",
+      "colorway": "all_black",
+      "angle": "Offer stack printed on an open shipping box, housekeeper with swollen feet (format: unboxing flat-lay)",
+      "based_on": "Offer winners; survey housekeeping PF 35% (highest); Notion 'women 60+ feet swell'",
+      "headline": "Swollen feet? Help is in the box.",
+      "prompt": "Top-down flat-lay on a light wooden floor. A cardboard shipping box open at the top with a pair of the shoe from the reference photo resting on tissue paper, the pair about 45% of the frame, true proportions, sharp knit texture. Brown packing tape and the box flaps carry huge bold black lines: \"40% OFF\" (biggest), \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". Huge heavy headline at the top in black on a clean area: \"SWOLLEN FEET?\" / \"HELP IS IN THE BOX.\" All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "pills_offer_studio",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "W44_13_pf_hand_arrows_offer",
+      "group": "net_new",
+      "persona": "comfort_only",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "angle": "Plantar fasciitis lead with a hand holding the shoe and three black hand-drawn arrows to the offer lines (format: hand + arrows)",
+      "based_on": "Offer winners (RTGv1_O1 40% OFF Sitewide, 3.86 ROAS); Dear Nurses hand-drawn arrows ($208k); survey PF 25%",
+      "headline": "Plantar fasciitis? Hold these.",
+      "prompt": "Clean white background. Huge heavy black headline across the width: \"PLANTAR FASCIITIS?\" / \"HOLD THESE.\" A woman's hand holding the shoe from the reference photo by the heel in the center, the shoe about 45% of the frame, true proportions. Three thin black hand-drawn curved arrows from the shoe pointing to three large bold labels on solid navy blue rounded blocks with white text: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "callouts_white",
+      "tags": [
+        "FP",
+        "OFFER"
+      ],
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {
+            "edit": "Remove the three arrows and the offer blocks, keep headline and hand with shoe",
+            "ms": 900
+          },
+          {
+            "edit": "Remove the headline, keep only the hand and the shoe",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "W44_14_bunion_guarantee_seal",
+      "group": "net_new",
+      "persona": "active_retiree",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "angle": "Bunion pain lead with a giant guarantee seal as the hero (inspo: Stepprs 'Walk on Clouds - Or It's FREE')",
+      "based_on": "Latest inspo pull: Stepprs 'Walk on Clouds - Or It's FREE' (15 days); survey bunions 7%; approved guarantee wording",
+      "headline": "Bunions? Try them 30 days.",
+      "prompt": "Soft light grey gradient background. Huge heavy black headline across the width: \"BUNIONS?\" / \"TRY THEM 30 DAYS.\" Center: the pair of shoes from the reference photo large and sharp, about 45% of the frame, slightly angled, wide toe box visible. Overlapping the lower right of the shoes: a big solid red round seal with white text in three stacked lines: \"30-DAY\" \"MONEY-BACK\" \"GUARANTEE\". Beneath it two large solid black pills with white text: \"40% OFF\" and \"FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "offer_block",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "W44_15_scratch_card_heel_trip",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "black_white",
+      "angle": "Scratch-off card reveal of the offer stack, traveler heel pain on sightseeing days (format: scratch-off card)",
+      "based_on": "Travel winners (Kyro 293 $58k, 2.15 ROAS); offer winners (3.86 ROAS); survey PF 25%",
+      "headline": "Heels aching in Rome? Scratch.",
+      "prompt": "Tall layout: a sunlit cobblestone street softly blurred at the top and bottom. Center: a big silver scratch-off card held at an angle, partly scratched to reveal three huge bold lines on a white strip: \"40% OFF\" (biggest), \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". Huge heavy headline at the top in white on a dark area: \"HEELS ACHING\" / \"IN ROME?\" Lower third: a tight crop of a woman's legs in cropped travel trousers walking, wearing the shoe from the reference photo, the shoe about 40% of the frame, sharp knit texture. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "lifestyle_urgency",
+      "tags": [
+        "FP",
+        "OFFER"
+      ],
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {
+            "edit": "Cover the revealed offer lines with the silver scratch coating, keep the card",
+            "ms": 900
+          },
+          {
+            "edit": "Remove the card entirely, keep the street and shoe",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "W44_16_nurse_back_pain_big_type",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "black_mint",
+      "angle": "Back pain after a 12-hour shift: shoe + huge type offer, urgency-style (Almost sold out layout)",
+      "based_on": "Almost sold out winner ($8.7k, 3.97 ROAS); nurse winners; databank 'knees and back'",
+      "headline": "Back pain after 12 hours?",
+      "prompt": "Tight low-angle crop of a nurse's legs in dark teal scrubs walking down a bright hospital corridor, softly blurred, the turquoise-accent shoe from the reference photo sharp at the lower right, about 45% of the frame. Huge heavy black headline top left on a light area: \"BACK PAIN\" / \"AFTER 12 HOURS?\" Beneath the shoe, a solid black block with three huge white lines: \"40% OFF\" (biggest), \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "lifestyle_urgency",
+      "tags": [
+        "FP",
+        "OFFER"
+      ],
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {
+            "edit": "Remove the black offer block, keep headline, legs and shoe",
+            "ms": 900
+          },
+          {
+            "edit": "Remove the headline, keep only the legs and shoe",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "W44_17_traveler_ticket_stub_offer",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "all_black",
+      "angle": "Offer stack as an admit-one ticket stub on a museum and monument day (format: ticket stub)",
+      "based_on": "Travel winners (Kyro 293/373); offer winners; Notion 'testing shoes in Europe'",
+      "headline": "Admit one to all-day walking.",
+      "prompt": "Bright sunny plaza softly blurred. Huge heavy white headline at the top over a clear sky: \"ADMIT ONE TO\" / \"ALL-DAY WALKING.\" Center: a big cream ticket stub with a perforated edge, three huge bold black lines: \"40% OFF\" (biggest), \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". Bottom half: a tight crop of a woman's legs in light trousers walking on stone, wearing the all-black shoe from the reference photo, the shoe about 40% of the frame, sharp knit texture. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "lifestyle_urgency",
+      "tags": [
+        "OFFER"
+      ]
+    },
+    {
+      "id": "W44_18_wide_feet_wide_toe_box",
+      "group": "net_new",
+      "persona": "plus_size",
+      "lang": "en",
+      "colorway": "purple",
+      "angle": "Wide feet and a wide toe box as the whole story: feature photo with 3 big pills (inspo: VIVAIA 'Square Toe. Wide Fit. All Day.')",
+      "based_on": "Latest inspo pull: VIVAIA 'Square Toe. Wide Fit. All Day.' (22 days); Mortons toe benchmark; survey bunions 7%, wide-fit language",
+      "headline": "Wide feet? Wide toe box. All day.",
+      "prompt": "Soft lavender gradient background. Huge heavy black headline across the width: \"WIDE FEET?\" / \"WIDE TOE BOX. ALL DAY.\" Center: the purple pair of shoes from the reference photo, shown from a three-quarter front angle so the roomy toe box is clear, about 50% of the frame, true proportions, sharp knit texture. Three large solid purple rounded pills with white text: \"ROOMY TOE BOX\", \"STRETCH-KNIT UPPER\", \"NO-TIE LACES\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "pills_gradient",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_19_gift_mom_heels_kitchen",
+      "group": "net_new",
+      "persona": "gift_for_her",
+      "lang": "en",
+      "colorway": "grey_pink",
+      "angle": "Gift for mom whose heels hurt on the kitchen floor in slippers (inspo: KURU 'Time for Better Slippers' + gifting)",
+      "based_on": "Latest inspo pull: KURU 'Time for Better Slippers' (14-15 days); gift_for_her grow persona; survey adult-child buyers",
+      "headline": "Mom's heels hurt. Slippers don't help.",
+      "prompt": "Warm kitchen with a tile floor, softly blurred. Tight low-angle crop of an older woman's legs in soft grey lounge trousers standing at the counter, wearing the grey-pink shoe from the reference photo, the shoe about 45% of the frame, sharp knit texture. Huge heavy black headline at the top on a light area: \"MOM'S HEELS HURT.\" / \"SLIPPERS DON'T HELP.\" Solid dark rounded pill at the bottom with white text: \"GIVE HER COMFORT THAT STAYS\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "lifestyle_legs_9x16",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_20_retro_cartoon_ladies_tired_feet",
+      "group": "net_new",
+      "persona": "comfort_only",
+      "lang": "en",
+      "colorway": "light_grey",
+      "angle": "No diagnosis, just tired feet by 3 o'clock, as a 1950s magazine ad (retro cartoon)",
+      "based_on": "Survey 22% 'no foot pain, only need comfort'; cartoon rule; databank 'Compliance / Vanity'",
+      "headline": "Ladies! Tired feet by 3 o'clock?",
+      "prompt": "A vintage 1950s illustrated magazine ad in warm limited-color print style with halftone texture: a smiling housewife in a retro dress sitting on a sofa with her feet up, the light grey modern shoe from the reference photo in vivid modern color and detail beside her, large and recognizable at true proportions. Huge heavy headline banner at the top: \"LADIES! TIRED FEET\" / \"BY 3 O'CLOCK?\" Large bold burst at the bottom: \"NO DIAGNOSIS NEEDED. JUST COMFORT.\" All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "statement_list",
+      "format": "retro_cartoon",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_21_walker_comic_knees",
+      "group": "net_new",
+      "persona": "walker_weightloss",
+      "lang": "en",
+      "colorway": "purple",
+      "angle": "Knees ache on the walking goal, 4-panel comic (walker_weightloss grow persona)",
+      "based_on": "Weight-loss walker video ($417, 2.18 ROAS); winner 'I lost 50lbs+ walking 20,000+ steps' ($93k); survey 'knee pain from standing'",
+      "headline": "20,000 steps. Knees said yes.",
+      "prompt": "A 4-panel comic strip with a huge bold title at the top: \"20,000 STEPS. KNEES SAID YES.\" Panel 1: a woman in her 50s checking a step counter, \"Day 1!\" Panel 2: she rubs her knee on a park path, \"Ouch.\" Panel 3: she ties on the purple shoe from the reference photo, large and recognizable, \"New shoes.\" Panel 4: she walks happily, \"Day 90!\" Speech text large and bold. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "transformation",
+      "format": "comic_strip",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_22_nurse_heavy_legs_pills",
+      "group": "winning",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "black_purple",
+      "angle": "Occupation headline + feature pills + shoe pair on a gradient (Game-changer layout), heavy swollen legs by hour 10",
+      "based_on": "Game-changer for long shifts ($120k); nurse winners; Notion 'nurses varicose veins' theme; survey swollen feet",
+      "headline": "Heavy, swollen legs by hour 10?",
+      "prompt": "Brand purple-to-blue gradient background. Huge heavy white headline across the width, two lines: \"HEAVY, SWOLLEN LEGS\" / \"BY HOUR 10?\" The black-purple pair of shoes from the reference photo large at the center-left, about 50% of the frame, true proportions, with one curved black arrow. Three large solid purple pills with white text on the right: \"STRETCH-KNIT UPPER\", \"CUSHIONED HEEL\", \"NO-TIE LACES\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "pills_gradient",
+      "tags": [
+        "FP"
+      ],
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {
+            "edit": "Remove the three pills and the arrow, keep headline and shoes",
+            "ms": 900
+          },
+          {
+            "edit": "Remove the headline, keep only the gradient and shoes",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "W44_23_nurse_break_room_cartoon",
+      "group": "winning",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "all_black",
+      "angle": "Hour 10 break-room scene as a 3D animated film still (nurse x heel pain, cartoon_3d)",
+      "based_on": "Nurse winners; Emily RN testimonial ($4,169, 2.93 ROAS); cartoon rule",
+      "headline": "Hour 10. Feet up. Finally.",
+      "prompt": "A soft 3D animated-film style scene of a friendly nurse in teal scrubs sitting in a hospital break room with her feet up on a chair, the all-black shoe from the reference photo huge in the foreground, recognizable at true proportions, warm lighting. Huge heavy headline at the top: \"HOUR 10. FEET UP.\" / \"FINALLY.\" One solid pill at the bottom with white text: \"NO MORE HEEL PAIN\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "callouts_white",
+      "format": "cartoon_3d",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_24_traveler_400_steps_knees",
+      "group": "winning",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "angle": "Stairs and hills: knee pain on a hilltop-castle trip, legs-and-feet lifestyle crop",
+      "based_on": "Kyro 293/373 travel winners; named-best lifestyle layout; survey knee pain from standing/walking",
+      "headline": "400 stone steps. Knees said nothing.",
+      "prompt": "Tight low-angle crop of a woman's legs in cropped travel trousers climbing worn stone steps in an old European town, golden light, softly blurred background, the navy shoe from the reference photo sharp in the foreground, about 50% of the frame, true proportions. Huge heavy white headline at the top over the dark upper area: \"400 STONE STEPS.\" / \"KNEES SAID NOTHING.\" One solid royal blue pill at the bottom with white text: \"GRIP THAT HOLDS\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "lifestyle_legs_9x16",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_25_teacher_bus_duty_grip",
+      "group": "winning",
+      "persona": "teacher",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "angle": "Bus duty on wet pavement: slip-resistant grip, teacher legs-and-feet lifestyle",
+      "based_on": "Teacher persona (survey n=775); named-best teacher lifestyle layout; slip-resistant grip claim; Notion teacher shoes",
+      "headline": "Bus duty. Wet pavement. No slips.",
+      "prompt": "Tight low-angle crop of a teacher's legs in dark trousers standing on a wet school pavement after rain with yellow bus lines, softly blurred background, the red-burgundy shoe from the reference photo sharp in the foreground, about 50% of the frame, lug outsole visible. Huge heavy white headline at the top on a dark area: \"BUS DUTY.\" / \"WET PAVEMENT.\" Under the shoe a solid red pill with white text: \"SLIP-RESISTANT GRIP\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "lifestyle_legs_9x16",
+      "tags": []
+    },
+    {
+      "id": "W44_26_teacher_lesson_plan",
+      "group": "winning",
+      "persona": "teacher",
+      "lang": "en",
+      "colorway": "black_purple",
+      "angle": "A teacher's lesson plan for sore feet: three steps on a lined notebook page (format: lesson plan)",
+      "based_on": "Teachers favorite-shoes video ($2,157, 1.95 ROAS); survey teachers PF 29%; Notion teachers",
+      "headline": "Lesson plan for sore feet.",
+      "prompt": "A lined notebook page on a teacher's desk fills the upper half, heavy handwritten black title \"LESSON PLAN FOR SORE FEET\" and three large numbered lines with checkboxes: \"1. STAND ALL DAY\" \"2. ARCH SUPPORT\" \"3. FEET STILL HAPPY\". Lower half: the black-purple pair of shoes from the reference photo sitting on the desk, large and sharp, about 45% of the frame, with a red apple beside them. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "list_white",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_27_plus_trustpilot_flatten",
+      "group": "winning",
+      "persona": "plus_size",
+      "lang": "en",
+      "colorway": "all_black",
+      "angle": "At my size shoes flatten in months: plus-size reviewers on Trustpilot-style cards",
+      "based_on": "Plus-size winners (Kyro 170 $106k); Trustpilot language; survey 'cheap quality' 11%, no arch support 11%",
+      "headline": "Shoes flat in 3 months at my size.",
+      "prompt": "Clean white background. Huge heavy black headline across the width: \"FLAT IN 3 MONTHS\" / \"AT MY SIZE?\" Below, two stacked Trustpilot-style review cards that are large and fill the full width, with very large readable text (review text at least 1/30 of the canvas height). Card 1, \"Tamara W.\", five green stars, bold title \"Still cushioned\", text \"Still supportive after months.\" Card 2, \"Gloria H.\", five green stars, bold title \"No more heel pain\", text \"I stand all day. My heels feel good.\" At the bottom, a large pair of the all-black shoe from the reference photo, about 35% of the frame, true proportions. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "comments_social",
+      "format": "trustpilot",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_28_plus_trip_story_card",
+      "group": "winning",
+      "persona": "plus_size",
+      "lang": "en",
+      "colorway": "black_mint",
+      "angle": "She almost ruined her trip because of her shoes: advertorial story card (inspo: Carol Bennett '$4,200 trip' story)",
+      "based_on": "Latest inspo pull: Carol Bennett 'She almost ruined a $4,200 trip because of her shoes' (11 days); plus-size traveler winners (TOFV1_KW1, 5.65 ROAS)",
+      "headline": "She almost ruined her trip over her shoes.",
+      "prompt": "A native news-feed advertorial card: heavy black headline across the top \"SHE ALMOST RUINED\" / \"HER TRIP OVER HER SHOES.\" A large candid photo of a plus-size woman in her 50s laughing on a European waterfront promenade, tight crop from the knees down showing the black-turquoise shoe from the reference photo sharp and large, about 45% of the frame. Under the photo a large bold caption: \"Sore feet. Day 1. Then she switched.\" and a solid dark pill \"WIDE TOE BOX. ROOM TO SWELL.\" All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "lifestyle_legs_9x16",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_29_plus_teacher_flat_illustration",
+      "group": "winning",
+      "persona": "plus_size",
+      "lang": "en",
+      "colorway": "grey_pink",
+      "angle": "Plus-size teacher whose feet swell by recess, flat vector illustration",
+      "based_on": "Plus-size winners; teacher persona; cartoon rule; Notion 'teacher feet widen after 50'",
+      "headline": "Feet swollen by recess?",
+      "prompt": "A flat vector illustration in a soft pastel palette: a plus-size teacher in a cardigan at a classroom whiteboard, the grey-pink shoe from the reference photo drawn large and recognizable at the lower center at true proportions. Huge heavy headline at the top: \"FEET SWOLLEN\" / \"BY RECESS?\" Three large solid pink rounded pills with white text: \"STRETCH-KNIT UPPER\", \"ROOMY TOE BOX\", \"SOFT HEEL\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "pills_gradient",
+      "format": "flat_illustration",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_30_es_neuropatia_dedos_dormidos",
+      "group": "net_new",
+      "persona": "steady_feet",
+      "lang": "es",
+      "colorway": "light_grey",
+      "angle": "Spanish: numb or tingling toes, lifestyle legs with a wide toe box and grip (no medical claim)",
+      "based_on": "Survey neuropathy 10%; Mayo Clinic Connect slip-on language; Spanish ad history",
+      "headline": "¿Dedos dormidos? Más espacio.",
+      "prompt": "Tight low-angle crop of an older woman's legs in light trousers walking on a sunny sidewalk, softly blurred background, the light grey shoe from the reference photo sharp in the foreground, about 50% of the frame. Titular enorme y pesado en blanco con sombra suave sobre una zona oscura: \"¿DEDOS DORMIDOS?\" / \"MÁS ESPACIO.\" Una píldora sólida azul oscuro abajo con texto blanco: \"AGARRE QUE NO RESBALA\". Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "lifestyle_legs_9x16",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_31_es_cupon_recortable_oferta",
+      "group": "net_new",
+      "persona": "active_retiree",
+      "lang": "es",
+      "colorway": "navy_blue",
+      "angle": "Spanish: offer stack as a cut-out coupon with scissors, heel pain lead (format: clip-out coupon)",
+      "based_on": "Offer winners (3.86 ROAS); survey PF 25%; Spanish ad history",
+      "headline": "¿Talones adoloridos? Recorta esto.",
+      "prompt": "Fondo crema claro. Titular enorme y pesado en negro: \"¿TALONES ADOLORIDOS?\" / \"RECORTA ESTO.\" Un cupón grande con borde de tijeras punteado, sobre fondo blanco, con tres líneas enormes en negrita: \"40% OFF\" (el más grande), \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\" (estas tres líneas se escriben exactamente así, en inglés). A la derecha el zapato azul marino del referente, enorme y nítido, about 45% of the frame, proporciones reales. Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "offer_block",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "W44_32_es_caja_envio_oferta",
+      "group": "net_new",
+      "persona": "housekeeping",
+      "lang": "es",
+      "colorway": "black_purple",
+      "angle": "Spanish: offer stack on an open shipping box, housekeeping, tired feet at the end of the shift",
+      "based_on": "Offer winners; survey housekeeping PF 35%, strong Spanish-speaking overlap",
+      "headline": "Tus pies lo merecen. Ábrela.",
+      "prompt": "Vista desde arriba sobre piso de madera clara: una caja de cartón abierta con el par de zapatos negro-morado del referente sobre papel de seda, el par ocupa ~45% del cuadro, proporciones reales, textura de tejido nítida. La cinta y las solapas llevan tres líneas enormes en negrita: \"40% OFF\" (el más grande), \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\" (estas tres líneas se escriben exactamente así, en inglés). Titular enorme y pesado en negro arriba: \"TUS PIES LO MERECEN.\" / \"ÁBRELA.\" Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "pills_offer_studio",
+      "tags": [
+        "OFFER"
+      ]
+    },
+    {
+      "id": "W44_33_es_claymation_abuela_parque",
+      "group": "net_new",
+      "persona": "active_retiree",
+      "lang": "es",
+      "colorway": "purple",
+      "angle": "Spanish: grandmother walking in the park with her grandkid, claymation (cartoon)",
+      "based_on": "Survey active retirees (27%); W42 'grandkids can't keep up' concept; cartoon rule",
+      "headline": "Ahora los nietos no me alcanzan.",
+      "prompt": "A handmade claymation scene: a smiling abuela with a clay grandchild walking hand in hand on a park path with clay trees, the purple shoe from the reference photo giant in the foreground, recognizable at true proportions, soft fingerprints visible in the clay. Titular enorme en negro arriba: \"AHORA LOS NIETOS\" / \"NO ME ALCANZAN.\" Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "lifestyle_legs_9x16",
+      "format": "claymation",
+      "tags": []
+    },
+    {
+      "id": "W44_34_es_comic_espalda_housekeeping",
+      "group": "net_new",
+      "persona": "housekeeping",
+      "lang": "es",
+      "colorway": "all_black",
+      "angle": "Spanish: lower-back pain from standing and bending all shift, 4-panel comic",
+      "based_on": "Survey housekeeping PF 35%; databank 'knees and back'; Spanish ad history",
+      "headline": "Espalda baja. Pies. Culpa de los zapatos.",
+      "prompt": "Tira cómica de 4 viñetas con título grande en negrita arriba: \"ESPALDA BAJA. PIES. ¿LOS ZAPATOS?\" Viñeta 1: una mujer en uniforme de limpieza agachada con un carrito, \"¡Mi espalda!\" Viñeta 2: se toca los talones, \"¡Mis pies!\" Viñeta 3: mira el zapato negro del referente, grande y reconocible, \"Son los zapatos.\" Viñeta 4: sonríe parada derecha, \"Mejor.\" Texto grande y en negrita. Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "statement_list",
+      "format": "comic_strip",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_35_es_x_post_sin_diagnostico",
+      "group": "net_new",
+      "persona": "comfort_only",
+      "lang": "es",
+      "colorway": "grey_pink",
+      "angle": "Spanish: no diagnosis, just tired feet, as a real X post with a photo",
+      "based_on": "Survey 22% 'no foot pain, only need comfort'; tweet-pains static ($415, 3.10 ROAS); Spanish ad history",
+      "headline": "No tengo diagnóstico. Solo pies cansados.",
+      "prompt": "Un post de X con foto. Texto del post: \"No tengo ningún diagnóstico. Solo quiero zapatos que no me maten los pies a las 2 de la tarde.\" Nombre \"Rosa M.\" y usuario \"@rosa_mtz\". La foto adjunta: un par de zapatos gris con rosa del referente en el piso de una cocina, grandes y nítidos, ocupando ~45% de la foto. Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "comments_social",
+      "format": "x_post",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_36_es_fb_comentario_plus_talla",
+      "group": "net_new",
+      "persona": "plus_size",
+      "lang": "es",
+      "colorway": "red_burgundy",
+      "angle": "Spanish: plus-size woman with heel pain, real Facebook comment thread",
+      "based_on": "Plus-size winners (Kyro 170 $106k); 'Didn't buy yet' comments winner (3.05 ROAS); Spanish ad history",
+      "headline": "Talla grande. Talones felices.",
+      "prompt": "Fondo blanco. Titular enorme y pesado en negro: \"¿TALLA GRANDE Y\" / \"TALONES ADOLORIDOS?\" Debajo, dos comentarios apilados estilo Facebook con texto grande y legible. Comentario de \"Marisol G.\": \"Soy talla grande y paso todo el día de pie. Estos son los primeros zapatos que no me duelen.\" Comentario de \"Yolanda R.\": \"Compré el segundo par.\" A la derecha, un primer plano de la pierna de una mujer curvilínea y el zapato rojo del referente, enorme y nítido, solapado con los comentarios. Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "comments_social",
+      "format": "fb_comment",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_37_es_sello_garantia_30_dias",
+      "group": "net_new",
+      "persona": "plus_size",
+      "lang": "es",
+      "colorway": "black_white",
+      "angle": "Spanish: giant 30-day guarantee seal with a plus-size traveler, family-trip framing",
+      "based_on": "Latest inspo pull: Stepprs 'Walk on Clouds - Or It's FREE'; plus-size traveler winners (TOFV1_KW1, 5.65 ROAS); Spanish ad history",
+      "headline": "Pruébalos 30 días. Camina todo el viaje.",
+      "prompt": "Fondo gris claro suave. Titular enorme y pesado en negro: \"PRUÉBALOS 30 DÍAS.\" / \"CAMINA TODO EL VIAJE.\" Al centro, el par de zapatos negro con blanco del referente, grande y nítido, ~45% del cuadro. Un sello redondo sólido rojo con texto blanco: \"30-DAY\" \"MONEY-BACK\" \"GUARANTEE\" (exactamente así, en inglés), y dos píldoras negras con texto blanco: \"40% OFF\" y \"FREE SHIPPING\". Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "offer_block",
+      "tags": [
+        "OFFER"
+      ]
+    },
+    {
+      "id": "W44_38_es_anime_enfermera_madrugada",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "es",
+      "colorway": "black_purple",
+      "angle": "Spanish: night-shift nurse on a 3 a.m. break, soft anime frame, heels hurt",
+      "based_on": "Spanish nurse video ($1,258, 2.61 ROAS); nurse winners; cartoon rule",
+      "headline": "3 de la mañana. Receso. Talones.",
+      "prompt": "A soft hand-painted anime film frame: a nurse in teal scrubs sitting on a bench in a quiet hospital hallway at night with warm lamp light, the black-purple shoe from the reference photo large in the foreground at true proportions. Titular enorme y pesado en blanco arriba: \"3 DE LA MAÑANA.\" / \"¿TUS TALONES?\" Una píldora sólida morada abajo con texto blanco: \"SIN DOLOR DE TALÓN\". Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "callouts_white",
+      "format": "anime_soft",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W44_39_es_maestra_mano_flechas_oferta",
+      "group": "net_new",
+      "persona": "teacher",
+      "lang": "es",
+      "colorway": "black_white",
+      "angle": "Spanish: teacher knees and feet, a hand holding the shoe with three hand-drawn arrows to the offer lines (format: hand + arrows)",
+      "based_on": "Offer winners (3.86 ROAS); Dear Nurses hand-drawn arrows ($208k); survey teachers PF 29%; Spanish ad history",
+      "headline": "Maestras: ¿pies cansados de pie?",
+      "prompt": "Fondo blanco limpio. Titular enorme y pesado en negro: \"MAESTRAS:\" / \"¿PIES CANSADOS?\" Una mano de mujer sosteniendo el zapato negro con blanco del referente por el talón, al centro, ~45% del cuadro. Tres flechas negras curvas dibujadas a mano apuntan a tres bloques sólidos azul marino con texto blanco grande en negrita: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\" (exactamente así, en inglés). Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "callouts_white",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "W44_40_es_postit_rodillas_abuela",
+      "group": "net_new",
+      "persona": "active_retiree",
+      "lang": "es",
+      "colorway": "black_purple",
+      "angle": "Spanish: knee pain after walking with the grandkids, handwritten post-it confession on the fridge (format: post-it)",
+      "based_on": "Survey knee pain from standing; active-retiree persona; Spanish ad history",
+      "headline": "Mis rodillas me lo recuerdan.",
+      "prompt": "Una puerta de refrigerador blanca con una nota post-it amarilla grande escrita a mano en letras grandes y negras: \"HOY CAMINÉ CON LOS NIETOS. MIS RODILLAS ME LO RECUERDAN.\" Abajo de la nota, sobre el piso de la cocina, el par de zapatos negro-morado del referente, grande y nítido, ~45% del cuadro. Una píldora sólida morada con texto blanco: \"MÁS AMORTIGUACIÓN\". Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "statement_list",
+      "tags": [
+        "FP"
+      ]
     }
   ]
 }
