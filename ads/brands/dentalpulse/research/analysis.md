@@ -138,3 +138,12 @@ Mostly oral-care DTC (quip, usmile, LIVFRESH, hismile, GuruNanda, Smile/Snoopy).
 17. **Surreal mouth-head character / big-energy headline** (quip, 57-91d): pattern interrupt, not used (off-brand for 60+ denture audience).
 18. **Bundle line-drawing how-to and "BUY 4 GET 6 FREE" yellow burst** (hismile, 16-17d): offer tiles; we use the gift stack instead (no invented multi-buy).
 Takeaway: the longest-running tiles are still bold-type-over-real-photo and native UI (reminder pop-up, cart); keep ~65% top-of-funnel.
+
+## 10. New formats from the Oct 23 competitor pull (Atria `most_impressions`, 1,001 ads; sheets `competitor_ads_1/2.jpg`)
+Quip, usmile, hismile, LIVFRESH, GuruNanda dominate. New or newly useful formats (used in W44-fri):
+19. **Breakup letter to the old product** (GuruNanda "Dear Cluttered Toiletry Bag, Goodbye."): teal letter card, sign-off line. Used as "Dear Polident, goodbye."
+20. **3D cartoon workplace panic with a speech bubble** (hismile "SOMEONE CHECK THIS ORDER", Pixar-style, offer burst at the bottom): cartoon_3d scene + bold speech bubble. Used for bacteria "SOMEONE CHECK THIS BATHROOM".
+21. **Comment-keyword CTA** ("COMMENT 'GUMS' BELOW TO LEARN MORE", LIVFRESH): minimal, text over product. Not used (needs a comment bot).
+22. **Back-to-school / campus code tiles** (GuruNanda "SEMESTER GLOW-UP", "Good habits go where they go"): seasonal parent/teen tile; relevant to retainers.
+23. **Instructional line-drawing how-to with 1-2-3 steps** (hismile SWÖSH): used as an Ikea-style how-to.
+Takeaway unchanged: bold type over real photo, native UI, big offer burst. Pop-art/mouth-head characters stay off-brand for 60+ wearers.
