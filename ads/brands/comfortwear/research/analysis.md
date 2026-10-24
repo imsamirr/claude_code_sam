@@ -271,3 +271,8 @@ claims we avoid ("recommended by podiatrists", "free returns"); iterations keep 
 ## 14. Single-size 4:5, higher quality, 2026-10-18
 
 User rule: ship one size only, 4:5, rendered once at high quality (`generate.py --layout feed`, default quality `high`). No 9:16. Measured cost ≈ $0.22 per ad (3-ad test), vs ≈ $0.13 for the old medium 9:16 + 4:5 pair. Sheets (`review.py csv`) now have one "Image (4:5)" column.
+
+## 15. One 4:5 file and trend-first research, 2026-10-23
+
+1. **One file per ad:** 4:5 only (`--layout feed`, the default). No 9:16, no duplicate sizes. (The 2026-W44-fri batch was rendered with native 9:16 + 4:5 per an older routine prompt; the `_v1.png` 9:16 files there are unused.)
+2. **Trending static formats:** every run, mine Atria for the newest static formats (inspo + competitors, newest and fastest-rising first), contact-sheet them, and list 'formats trending now' here with who runs them, days running and what to borrow. Net-new batches use at least 5 of them.
