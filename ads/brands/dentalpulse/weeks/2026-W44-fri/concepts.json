@@ -14,40 +14,26 @@
    "no_product": true
   },
   {
-   "id": "W44_02_den_dentist_pull_quote",
-   "group": "net_new",
-   "persona": "denture_wearer",
+   "id": "W44_02_den_us_vs_other_pods",
+   "group": "winning",
+   "persona": "switcher",
    "colorway": "pod",
    "funnel": "tof",
-   "angle": "Authority pull-quote: unnamed dentist portrait with big quote",
-   "based_on": "Notion DEN232 German dentist authority + 'Tablets and brushing clean the SURFACE' (Denture Stomatitis page). Dentist framed as recommendation, no name/count; analysis §7 #5 big-quote format.",
-   "headline": "\"Tablets and brushing only clean the surface.\"",
-   "prompt": "A magazine-style portrait of a friendly middle-aged dentist in a white coat standing in a bright clinic, arms folded, the white DentalPULSE ultrasonic cleaner from the reference photo on the counter beside them. A huge bold navy quote over the upper part of the image: \"Tablets and brushing only clean the surface.\" and a small blue caption under it: \"A dentist on ultrasonic cleaning\". Clean editorial look. Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words."
+   "angle": "Split us-vs-other-pods spec table (blue DentalPULSE half, white OTHER PODS half, green checks vs red X)",
+   "based_on": "OWN TOP SPEND: DEN_IMG_COMPARISON_US_VS_THEM_01_LP_LISTICLE_V1, $14,701 spend, ROAS 1.89 (#1 static); claims limited to approved_claims (UV/'plastic tanks'/'30-day returns' dropped as unverified).",
+   "headline": "DentalPULSE vs. other pods.",
+   "prompt": "A clean two-column comparison graphic. Left half solid bright blue with a white title \"DentalPULSE\" and the white DentalPULSE ultrasonic cleaner from the reference photo below it, then four white lines with green check circles: \"Eliminates 99.9% of bacteria in one 5-minute cycle\", \"True 42,000 Hz ultrasonic\", \"No tablets, no chemicals, no subscriptions\", \"120-day money-back guarantee\". Right half white with a black title \"OTHER PODS\" and a generic black unbranded round pod (clearly different from ours, no logo) above four dark lines with red X circles: \"6 of 7 leave live bacteria\", \"Often need tablets\", \"One cycle isn't enough\", \"Same claims, no proof\". Big bold headline strip across the top: \"DentalPULSE vs. other pods.\" Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words."
   },
   {
-   "id": "W44_03_den_conspiracy_corkboard",
+   "id": "W44_03_den_rankings_bar_chart",
    "group": "winning",
-   "persona": "denture_wearer",
+   "persona": "switcher",
    "colorway": "pod",
    "funnel": "tof",
-   "angle": "Conspiracy corkboard with red string: who made tablets the answer?",
-   "based_on": "Notion DEN234 'handful of corporations' + DEN265 LFS tablet conspiracy; controversial big-pharma enemy.",
-   "headline": "Who decided tablets were the only way to clean dentures?",
-   "prompt": "A detective-style corkboard with red string connecting pinned items: a blue-and-white denture tablet box (generic, unbranded), a tub of pool chemical, a bottle of laundry bleach, and a drugstore shelf photo, plus index cards with handwritten marker text \"Pool chemicals?\" \"Bleach?\" \"1930s\". In the center, pinned with a green pin, the white DentalPULSE ultrasonic cleaner from the reference photo with a card \"Water + sound\". A bold headline strip across the top: \"Who decided tablets were the only way to clean dentures?\" Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words.",
-   "gif": {
-    "build": true,
-    "first_ms": 2400,
-    "frames": [
-     {
-      "edit": "Remove the green-pinned ultrasonic cleaner and its card from the center",
-      "ms": 900
-     },
-     {
-      "edit": "Also remove the red strings",
-      "ms": 900
-     }
-    ]
-   }
+   "angle": "Ranking bar chart: Ultrasonic Denture Cleaner Rankings 2026",
+   "based_on": "OWN TOP SPEND: 'Dental Ultrasonic Cleaner Rankings 2026' bar-chart static, $10,272, ROAS 1.81 (IMG_DEN64); approved 90-day 7-cleaner test (6 of 7 leave live bacteria, DentalPULSE #1). Competitor equivalent: Denture Care Tips 'Top Ultrasonic Denture Cleaners Ranked' tier list.",
+   "headline": "Ultrasonic cleaner rankings 2026: 6 of 7 left live bacteria.",
+   "prompt": "A light-grey infographic. Big black bold headline: \"Ultrasonic cleaner rankings 2026: 6 of 7 left live bacteria.\" Under it a bar chart of 7 podium-style navy bars with gold fills and five-star rows, the tallest bar on the left topped by the white DentalPULSE ultrasonic cleaner from the reference photo with a gold \"#1\" tag, and six shorter bars topped by six different generic unbranded pods (black, green, purple, grey; no logos) each with a small red label \"live bacteria left\". Clean, newsy, no brand names other than DentalPULSE. Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words."
   },
   {
    "id": "W44_04_den_polaroid_dads_cup",
@@ -73,15 +59,15 @@
    "prompt": "A solid deep-teal letter-style ad. Big white headline: \"Dear Polident, goodbye.\" Under it left-aligned white body text: \"You told me it was working. The water turned blue. The film stayed.\" then \"Love, my dentures (clean now).\" At the bottom right the white DentalPULSE ultrasonic cleaner from the reference photo with a small label \"Ultrasonic cleaner. Tap water only.\""
   },
   {
-   "id": "W44_06_den_thumbnail_regret",
-   "group": "net_new",
+   "id": "W44_06_den_never_scrub_lifestyle",
+   "group": "winning",
    "persona": "denture_wearer",
    "colorway": "pod_open",
    "funnel": "tof",
-   "angle": "YouTube-thumbnail style: shocked face, arrow to brown water",
-   "based_on": "Notion DEN239 'Why I regret buying this ultrasonic cleaner' (reverse psychology); brown water proof DEN255.",
-   "headline": "I regret buying this ultrasonic cleaner.",
-   "prompt": "A YouTube-thumbnail-style image: an older man in his 60s with an exaggerated shocked expression pointing with a big red arrow at the open DentalPULSE ultrasonic cleaner from the reference photo showing murky brown water in the steel basin with a denture. Giant bold white text with black outline across the top: \"I regret buying this ultrasonic cleaner.\" and smaller yellow text at the bottom: \"...10 years too late.\" High contrast, punchy. Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words. The appliance shown is a full denture (pink gums, teeth), never a clear aligner tray."
+   "angle": "Lifestyle hero: hand lowering a denture into the open cleaner on a warm wood counter, 4-word headline at the bottom",
+   "based_on": "OWN TOP SPEND: 11/15 'Never brush your dentures again' image, $11,989, ROAS 1.75 (story ad). Same composition, new line (attacks scrubbing + tablets).",
+   "headline": "Never scrub your dentures again.",
+   "prompt": "A warm lifestyle photo on a wooden kitchen counter: a hand lowering a pink-gum denture into the open DentalPULSE ultrasonic cleaner from the reference photo (lid up, steel basin), a small white pot with wooden spoons in the background, soft window light. A dark gradient at the bottom with large white text: \"Never scrub your dentures again.\" with \"scrub\" in bold. Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words."
   },
   {
    "id": "W44_07_den_calendar_7_days",
@@ -109,37 +95,39 @@
    }
   },
   {
-   "id": "W44_08_den_filmstrip_bubbles",
-   "group": "net_new",
+   "id": "W44_08_den_giant_40_off_type",
+   "group": "winning",
    "persona": "denture_wearer",
-   "colorway": "pod_open",
-   "funnel": "tof",
-   "angle": "Slow-motion filmstrip: cavitation bubbles lifting grime",
-   "based_on": "Feedback §8: 'show the invisible' (buyers saw no vibrations); mechanism cavitation (Notion §3).",
-   "headline": "Watch the bubbles lift it off.",
-   "prompt": "A black filmstrip layout with four photo frames in a row showing close-ups of the open steel basin of the DentalPULSE ultrasonic cleaner from the reference photo, a denture submerged: frame 1 clear water, frame 2 tiny bubbles forming on the denture, frame 3 dense cavitation bubbles with grime lifting off, frame 4 murky brownish water. Small white captions under frames: \"0:00\" \"1:00\" \"3:00\" \"5:00\". Bold white headline on top: \"Watch the bubbles lift it off.\" Timer caption must say 5:00 at the last frame. Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words. The appliance shown is a full denture (pink gums, teeth), never a clear aligner tray."
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "angle": "Giant repeated '40% OFF' typography on sky blue with the product (own best ROAS)",
+   "based_on": "OWN TOP SPEND: 'Denture - 40% OFF _LP_PDP_V3', $11,908, ROAS 3.3 (best ROAS of all top spenders), headline '40% Off + Free Gifts'. Iteration with the Pod Denture Bundle (small gifts) + 120-day guarantee.",
+   "headline": "40% OFF + free gifts.",
+   "prompt": "A bright sky-blue vertical gradient background filled with giant repeated bold condensed \"40% OFF\" text in fading white-to-blue rows, the top one solid dark blue and huge. In the center the DentalPULSE Pod Denture Bundle from the reference photo: the large white cleaner with the two much smaller gifts (small black travel bag and small dark case) beside it. Below the product a white pill: \"+ 3 free gifts\" and a thin line \"120-Day Money-Back Guarantee\". Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words."
   },
   {
-   "id": "W44_09_den_slime_callout",
+   "id": "W44_09_den_grimy_denture_hand",
    "group": "winning",
    "persona": "denture_wearer",
    "colorway": "pod",
    "funnel": "tof",
-   "angle": "Macro texture shot with arrow callouts (biofilm)",
-   "based_on": "Feedback headlines: 'Still slimy after soaking? That's biofilm' + 'Dentures weren't free of plaque'; bacteria explicit.",
-   "headline": "Still slimy after soaking? That's biofilm, not clean.",
-   "prompt": "A gross macro close-up photo of a denture's gum-line and teeth with a visible slimy yellowish biofilm film and stringy residue, glossy, in a gloved fingertip's hold. Three hand-drawn red arrows with labels: \"bacteria film\" \"stuck residue\" \"yellow stain\". Bold white headline with dark shadow across the top: \"Still slimy after soaking? That's biofilm, not clean.\" A small white DentalPULSE ultrasonic cleaner from the reference photo in the bottom corner. Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words."
+   "angle": "Lo-fi macro: grimy denture held in a hand, minimal text (top-impression format)",
+   "based_on": "COMPETITOR TOP IMPRESSION: Denture Care Tips lo-fi grimy denture (top 0.4%, 140 days) and Anna Janeston calculus-covered denture in hand (top 0.0%); our story ads 'Read This If You Wear Dentures' ($7-12K each, ROAS 1.75-2.3) carry this exact promise.",
+   "headline": "Read this if you wear dentures.",
+   "prompt": "A real, unpolished close-up phone photo of a hand holding an upper denture with thick yellowish-brown calculus and film on the gums and between the teeth, harsh bathroom light, slightly blurry edges, grimy and gross. A small plain white bold caption at the top left in a simple sans font: \"Read this if you wear dentures.\" No product, no logos.",
+   "no_product": true
   },
   {
-   "id": "W44_10_den_ikea_how_to",
-   "group": "net_new",
+   "id": "W44_10_den_two_papers_kitchen_table",
+   "group": "winning",
    "persona": "denture_wearer",
-   "colorway": "pod_open",
+   "colorway": "pod",
    "funnel": "tof",
-   "angle": "IKEA-style line-drawing 3 steps how-to",
-   "based_on": "Atria Oct 23: hismile SWÖSH line-drawing how-to; feedback 'stop scrubbing', 5-minute cycle, tap water only.",
-   "headline": "Cleaning dentures, in 3 steps.",
-   "prompt": "A clean black line-drawing instruction-manual layout on white, IKEA style, three numbered panels: \"1\" a hand dropping a denture into the open DentalPULSE ultrasonic cleaner, \"2\" a finger pressing the button with a small \"5 min\" clock, \"3\" a hand lifting out a clean denture with sparkles; with tiny captions \"Add tap water\" \"Press start\" \"Done. No scrubbing.\" Bold headline at the top: \"Cleaning dentures, in 3 steps.\" Line art except the cleaner drawn matching the reference with accurate shape. Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words. The appliance shown is a full denture (pink gums, teeth), never a clear aligner tray. Panels 1 and 3 and the bottom photo (if any) show only the denture, no second photo."
+   "angle": "Kitchen-table photo of two pieces of paper: dentist's quote vs a drawer of denture products",
+   "based_on": "OWN TOP SPEND: IMG_DEN64 'read this before you consider ultrasonic cleaners' native ad ('I sat at my kitchen table staring at two pieces of paper. Dentist's quote $2,400. A drawer of...'), $10,272 ROAS 1.81 and iterations up to ROAS 3.19.",
+   "headline": "Dentist's quote: $2,400. My dentures just needed a real clean.",
+   "prompt": "A real kitchen-table photo, warm daylight: on a wooden table two pieces of paper side by side, the left a typed dentist's estimate with \"Replacement dentures: $2,400\" circled in red pen, the right a drawer pulled open nearby full of denture tablet boxes, brushes and adhesive tubes. A coffee mug beside them. Handwritten bold black marker headline across the top of the photo: \"Dentist's quote: $2,400. My dentures just needed a real clean.\"",
+   "no_product": true
   },
   {
    "id": "W44_11_den_comic_grandson_kiss",
@@ -189,29 +177,15 @@
    "prompt": "A clean e-commerce popup modal floating over a blurred pharmacy shelf photo. Modal with a big close X at the top right, bold headline: \"Wait. Before you buy another box of tablets.\" Under it the white DentalPULSE ultrasonic cleaner from the reference photo, a blue pill: \"40% OFF - $99.95\" and a blue button \"Get the ultrasonic cleaner\" with a small line \"120-Day Money-Back Guarantee\"."
   },
   {
-   "id": "W44_15_den_forever_calculator",
-   "group": "net_new",
-   "persona": "switcher",
+   "id": "W44_15_den_quote_save_badge",
+   "group": "winning",
+   "persona": "denture_wearer",
    "colorway": "pod",
    "funnel": "offer",
-   "angle": "Calculator screen: tablets forever vs one price",
-   "based_on": "Feedback: 'On a fixed budget?' objection, 45% buy tablets; offer $99.95. No invented tablet prices.",
-   "headline": "Tablets: ∞. This: $99.95. Once.",
-   "prompt": "A phone calculator app screenshot, dark mode, the display reading \"∞\" with a tiny label above \"Denture tablets, every month\", and below it a second line of the display reading \"$99.95\" with label \"The ultrasonic cleaner, once\". Bold headline at the top: \"Tablets: ∞. This: $99.95. Once.\" The white DentalPULSE ultrasonic cleaner from the reference photo sits on a kitchen table below the phone, small green tag \"40% OFF\". Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words. The appliance shown is a full denture (pink gums, teeth), never a clear aligner tray.",
-   "gif": {
-    "build": true,
-    "first_ms": 2400,
-    "frames": [
-     {
-      "edit": "Remove the second display line and the product",
-      "ms": 900
-     },
-     {
-      "edit": "Also remove the 40% OFF tag",
-      "ms": 900
-     }
-    ]
-   }
+   "angle": "Big customer quote over the product with a 'Save 40%' badge (Sonic Dental top-impression format)",
+   "based_on": "COMPETITOR: Sonic Dental 'I put my retainers in Sonic Pro, wait 3 mins & they're brand new' + 'Save £20' badge (top 0.5%, 194 days). Quote from survey: 'My teeth are back to their white color' (real customer language).",
+   "headline": "\"My dentures are back to their white color.\"",
+   "prompt": "A soft lilac-grey studio background with the white DentalPULSE ultrasonic cleaner from the reference photo large in the lower center. Big bold navy quote in the upper area: \"My dentures are back to their white color.\" with a small attribution \"Linda R.\" and five gold stars. A round navy badge overlapping the product: \"Save 40%\" and a small white pill at the bottom: \"$99.95 - 120-day money-back guarantee\". Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words."
   },
   {
    "id": "W44_16_den_guarantee_brown_water",
@@ -225,15 +199,15 @@
    "prompt": "A close photo of the open DentalPULSE ultrasonic cleaner from the reference photo with murky brown water in the steel basin and a denture, a bold round rubber-stamp graphic overlapping the corner reading \"120-DAY MONEY-BACK GUARANTEE\". Big headline at the top: \"Too good to be true? Try it for 120 days.\" A small blue pill: \"40% OFF - $99.95\". Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words. The appliance shown is a full denture (pink gums, teeth), never a clear aligner tray."
   },
   {
-   "id": "W44_17_den_shelf_tag",
+   "id": "W44_17_den_not_tablet_aisle",
    "group": "net_new",
    "persona": "denture_wearer",
    "colorway": "pod",
-   "funnel": "offer",
-   "angle": "Pharmacy shelf-edge price tag: move the tablets out of the aisle",
-   "based_on": "Notion DEN249 'it just wasn't in the tablet aisle'; offer 40% OFF.",
+   "funnel": "tof",
+   "angle": "Pharmacy shelf photo, product in the tablet aisle (no price)",
+   "based_on": "Notion DEN249 'it just wasn't in the tablet aisle'; Anna Janeston top-impression pharmacy-shelf photo.",
    "headline": "Not in the tablet aisle.",
-   "prompt": "A real drugstore shelf photo shot at an angle: rows of generic blue denture-tablet boxes, and in the middle one space where the white DentalPULSE ultrasonic cleaner from the reference photo stands with a bright yellow shelf-edge price tag below it reading \"$99.95 - 40% OFF\" and \"Ultrasonic cleaner\". A big bold white-on-black banner above the shelf: \"Not in the tablet aisle.\" Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words."
+   "prompt": "A real drugstore shelf photo shot at an angle: rows of generic blue denture-tablet boxes, and in the middle one space where the white DentalPULSE ultrasonic cleaner from the reference photo stands. A big bold white-on-black banner above the shelf: \"Not in the tablet aisle.\" Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words."
   },
   {
    "id": "W44_18_den_santa_letter",
@@ -431,15 +405,15 @@
    }
   },
   {
-   "id": "W44_33_ret_bedtime_checklist",
+   "id": "W44_33_one_cleaner_for_every_appliance",
    "group": "net_new",
    "persona": "retainer",
    "colorway": "pod",
    "funnel": "tof",
-   "angle": "Bedtime-routine checklist app: skincare done, retainer just rinsed",
-   "based_on": "Feedback 'retainer: dull, buildup in crevice'; native habit-tracker UI.",
-   "headline": "Skincare, flossed... retainer \"rinsed\".",
-   "prompt": "A phone screenshot of a generic nighttime-routine checklist app, no logos, soft lavender UI. Rows: \"Skincare\" with a green check, \"Floss\" with a green check, \"Retainer\" with a yellow warning chip \"just rinsed\" and an unchecked box. Bold headline above the phone: \"Skincare, flossed... retainer \\\"rinsed\\\".\" Beside the phone, the white DentalPULSE ultrasonic cleaner from the reference photo on a bathroom shelf. Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words."
+   "angle": "'Which oral appliance do you wear?' grid quiz tile (Zima top-impression format)",
+   "based_on": "COMPETITOR: Zima 'Which oral appliance do you wear?' quiz tile (top 17.8%, 22d, 20.3%) with 6 appliance icons; all appliances in one cleaner (survey: dentures 57%, night guard 20%, retainer 13%, aligner 7%).",
+   "headline": "Dentures. Night guards. Retainers. Aligners. One cleaner.",
+   "prompt": "A soft pale-blue gradient tile. Bold navy headline: \"Dentures. Night guards. Retainers. Aligners. One cleaner.\" Below it a 2x2 grid of rounded white cards with realistic appliance photos labeled \"Dentures\", \"Night guard\", \"Retainer\", \"Aligner\", and under the grid the white DentalPULSE ultrasonic cleaner from the reference photo centered with a small blue pill \"Ultrasonic. Tap water. 5 minutes.\" Absolutely no other text anywhere: no feature rows, icon bars, badges, bottom banners, captions, stats or footers beyond the exact quoted words."
   },
   {
    "id": "W44_34_ret_science_fair",
