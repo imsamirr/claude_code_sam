@@ -102,3 +102,71 @@ Pulled with `atria_pull.py competitors` (brand.json → `competitor_brands`). Lo
 6. A starter-pack flat-lay ("the denture wearer's starter pack").
 7. Big-number typography (99.9%, 42,000, 6 of 7).
 8. A timely callout (GLP-1 bad breath, holiday visits, New Year clean start).
+
+## 7. Top-impression statics in the category (Atria, sorted by most impressions, Oct 13)
+Pulled with `atria_pull.py competitors` (now `order=most_impressions`), filtered to oral-care/dental ads (`data/competitor_top_dental.csv`, sheets in `sheets/competitor_top_dental_*.jpg`). The formats that get the most delivery right now:
+1. **Insult/shock product shot with sticky notes**: Asuno "DON'T BE SUCH AN IDIOT" with yellow post-its reading "70% OFF / TODAY ONLY" (top 0.1%).
+2. **Lo-fi real photo, no designed text**: Denture Care Tips' grimy denture on a lace doily (top 0.4%, 129 days) and a retainer with red bumps. The copy lives in the primary text: "Read This If You Wear Dentures 👆", a first-person near-death story.
+3. **Medical imaging / scan before-after**: "MRI Confirms…", a CBCT jaw scan with an arrow, X-ray grids with red highlighted areas, petri dish "99.9% mold-spore reduction" before/after (barnakl).
+4. **Price-anchor replacement**: Remi "Lost your $600 night guard? Replace it for $99." with 4 icon benefits; Remi "$627 of dental care. Yours for $250." bundle flat-lay.
+5. **Big quote + product with press styling**: Sonic Dental "I put my retainers in Sonic Pro, wait 3 mins & they're brand new." with a save badge; Holymouthwash "8 years. 4 dentists. Nobody mentioned estrogen once."
+6. **Real-world sign / object with text**: a yard sign reading "THE SMELL IS MADE IN THE GUT, NOT THE MOUTH."
+7. **Advertorial card with data**: "Her Periodontist Quoted £4,000… 8 Weeks Later, Her Numbers Looked Like This" (tooth-chart numbers, "Read Article").
+8. **Native UI**: an iOS reminder pop-up ("Change your brush head every 3 months"), a dating-app profile, Hismile cart screenshots.
+9. **Founder letter**: Remi "WE'RE SAYING GOODBYE" letter with founder signature (tariff angle).
+10. **Stat pictogram**: "1 in 3 women snore every single night" with a row of people icons.
+11. **News split-face**: "NEWS — DOCTORS STUNNED: the 'jawbone restore' dentists don't talk about".
+12. **Offer tiles**: "53% OFF ENDS SOON" with a hand holding the product and arrows to benefits; Hismile "BUY 3 GET 2 FREE" / "BUY 4 GET 6 FREE"; dark Sonic Dental "Limited Time Sale" with award seals and "4.8/5".
+13. **Objection headline**: "Yes, it's really ODORLESS".
+
+**What to take:** rotate across these formats so no two concepts in a batch look alike. Keep ~65% top-of-funnel (problem, enemy, controversy, imaging/proof) and ~35% offer tiles.
+
+## 8. Oct 13 user feedback (rules now in brand.json → copy_rules, naming_rule, program.appliance_mix)
+- **Formats looked too similar.** Use the §7 top-impression formats plus the Notion brief formats (`notion_brief.md` §6).
+- **Say "ultrasonic cleaner"**, not just "Pod", for unaware audiences.
+- **Make bacteria and yellow stains explicit.** These are the #1 and #2 purchase reasons; see `feedback_deep_dive.md`.
+- **Copy:** direct response, aggressive and controversial (see `notion_brief.md` §2 and §8).
+- **Products:** no Travel Pod concepts. The Ultimate Cleaning Bundle appears only in offer creatives. The denture case is drawn much smaller than the cleaner, and the warranty is not shown as a physical item.
+- **Appliance mix:** 50% dentures; the other 50% is night guards ~50%, retainers ~30%, aligners ~15%, apnea ~5%.
+- **9:16 versions:** extended seamlessly. The generator now outpaints across the seam, and layouts keep backgrounds running to the edges.
+
+## 9. New formats from the Oct 16 competitor pull (Atria `most_impressions`, `data/competitor_ads.csv`, 1,010 ads; sheets `competitor_ads_1/2.jpg`)
+Mostly oral-care DTC (quip, usmile, LIVFRESH, hismile, GuruNanda, Smile/Snoopy). New or newly useful formats:
+14. **Couple/humor hook over a real bathroom photo**: LIVFRESH "HE SAID IT WAS TOO EXPENSIVE. Now he keeps using mine." (bold yellow type, small BUY 2 GET 1 tag). Used in W43 as a denture spouse offer.
+15. **Notebook-paper confession**: "I DIDN'T REALIZE HOW BAD I FELT" handwritten on lined paper with the product beside it (also the §6 cheat sheet / post-it family). Used as the denture cheat sheet.
+16. **Split "healthy vs inflamed" close-up with a "you can see the difference" headline** (GuruNanda); **Reactive vs Proactive** split (LIVFRESH): good template for us-vs-them tables.
+17. **Surreal mouth-head character / big-energy headline** (quip, 57-91d): pattern interrupt, not used (off-brand for 60+ denture audience).
+18. **Bundle line-drawing how-to and "BUY 4 GET 6 FREE" yellow burst** (hismile, 16-17d): offer tiles; we use the gift stack instead (no invented multi-buy).
+Takeaway: the longest-running tiles are still bold-type-over-real-photo and native UI (reminder pop-up, cart); keep ~65% top-of-funnel.
+
+## 10. New formats from the Oct 23 competitor pull (Atria `most_impressions`, 1,001 ads; sheets `competitor_ads_1/2.jpg`)
+Quip, usmile, hismile, LIVFRESH, GuruNanda dominate. New or newly useful formats (used in W44-fri):
+19. **Breakup letter to the old product** (GuruNanda "Dear Cluttered Toiletry Bag, Goodbye."): teal letter card, sign-off line. Used as "Dear Polident, goodbye."
+20. **3D cartoon workplace panic with a speech bubble** (hismile "SOMEONE CHECK THIS ORDER", Pixar-style, offer burst at the bottom): cartoon_3d scene + bold speech bubble. Used for bacteria "SOMEONE CHECK THIS BATHROOM".
+21. **Comment-keyword CTA** ("COMMENT 'GUMS' BELOW TO LEARN MORE", LIVFRESH): minimal, text over product. Not used (needs a comment bot).
+22. **Back-to-school / campus code tiles** (GuruNanda "SEMESTER GLOW-UP", "Good habits go where they go"): seasonal parent/teen tile; relevant to retainers.
+23. **Instructional line-drawing how-to with 1-2-3 steps** (hismile SWÖSH): used as an Ikea-style how-to.
+Takeaway unchanged: bold type over real photo, native UI, big offer burst. Pop-art/mouth-head characters stay off-brand for 60+ wearers.
+
+## 11. Own top spenders + other ultrasonic cleaner brands (Atria, pulled Oct 24; user feedback: "analyze other ultrasonic brands, other dental brands and our top-spending ads")
+Pulled with `atria_pull.py winners`, `current` and the new `atria_pull.py ultrasonic` (brand.json -> `ultrasonic_queries`; 2,693 ads, 1,135 relevant: Zima Dental 236, Denture Care Tips 202, Anna Janeston 176, Ploise 84, SmileTherapy 21, Sonic Dental 17, Pop On 16, Remi 20). Sheets: `winning_statics_raw_1.jpg`, `ultrasonic_top_images_1-4.jpg`.
+
+### Our top-spend statics (lifetime, all LP_LISTICLE / ADVERTORIAL / PDP)
+| Spend | ROAS | Creative | Format to iterate |
+|---|---|---|---|
+| $14.7K (+ 6 more variants, $5-14K each) | 1.9-2.4 | "Top 7 Ultrasonic Cleaners For Dentures" / "DentalPULSE Pod vs OTHER PODS" | blue/white split spec table, green checks vs red X; "Top 7" ranking |
+| $12.0K, $11.9K, $11.6K, $7.2K | 1.75-2.3 | "Read This If You Wear Dentures" story (image: hand lowering a denture into the open Pod on a wood counter, "Never brush your dentures again") | warm lifestyle hero, 4-word headline at the bottom |
+| $11.9K | **3.3** | "Denture - 40% OFF" PDP: giant repeated "40% OFF" type on sky blue + Pod | big-type offer tile (best ROAS) |
+| $10.3K | 1.8-3.2 | "read this before you consider ultrasonic cleaners" kitchen-table story (dentist $2,400 quote vs drawer of products); "Dental Ultrasonic Cleaner Rankings 2026" bar chart | price-anchor paper photo; ranking bar chart |
+Current 30-day winners are mostly video: "6 of 7 pods leave live bacteria" (DEN81/DEN32, $7-7.5K, ROAS 2.3-2.6), "You've Been Lied To" (DEN24), "Evil Polident" (DEN226), and static IMG_DEN64 iterations (ROAS 2.6-3.2) and IMG_DEN62 (ROAS 3.9).
+**Lesson: the money is in product-forward, comparison/ranking, big-type offer and warm lifestyle statics with a plain headline. Novelty formats (gimmick UI, retro, props) are the minority and must not outnumber these.**
+
+### Other ultrasonic brands (what they run)
+- **Zima Dental (236 ads):** "NEVER BRUSH YOUR RETAINER AGAIN" with the pod colour stack + award badge or Trustpilot stars; "Which oral appliance do you wear? Take our quiz" 6-icon grid; "SAVE $60 / FREE GIFT when you buy" black tile; "This is how to do Invisalign right" GQ-style editorial card; POV / GRWM creator stills; "Yes, the Dental Pod is back" colour pattern; "Star of the clean girl starter pack" flat-lay.
+- **Sonic Dental (17):** quote + "Save £20" badge + press logos; before/after split "From cloudy to crystal clear" (03:00 timer - we must show 5:00); "Limited Time Sale" purple tiles with product in a palm; "Wireless. 3 mins. No brushing!".
+- **Ploise (84) / Denture Care Tips (202) / Anna Janeston (176):** same media-buyer network: advertorial masthead cards ("The Denture Brief"), lo-fi grimy denture photos (top 0.0-0.4%), "NOTHING/DOCTORS STUNNED" news split-face, tier list "Best Ultrasonic Denture Cleaners of 2025-2026" (S to F grid), "Over 40,000 Denture Wearers Switched From Tablets To This" over a pod, FB-comment wall "Real People. Real Results.", "THE CLEAN LIE" (denture in blue tablet water with a magnified circle), "Old me / New me" split, "I Stopped Using Efferdent!" with FB comment. (Counts/"dentists" claims are theirs; ours stay in approved_claims.)
+- **SmileTherapy (21):** "50% OFF" in giant type (blue/orange/teal variants) with the pod, "Buy 2 for 1", incoming-call "Visible Buildup Is Calling", a cartoon-avatar quote tile.
+- **Pop On (16):** dark-to-white split with callout lines to features (Removes odor-causing bacteria / Lifts deep stains / Targets plaque buildup), "VIP SALE $139 -> $89 + free gift" with a 5:00 countdown.
+
+### What to take (numbered for routines)
+1. **Us-vs-others split table** (blue vs white, checks vs X) with only approved claims. 2. **Ranking bar chart / tier list**, ours #1. 3. **Warm lifestyle hero** (hand + open Pod + wood counter), headline <= 6 words. 4. **Giant repeated offer type** on blue with the Pod (+ small gifts). 5. **Product with feature callout lines** (Pop On). 6. **Quote + "Save 40%" badge** over the product (Sonic). 7. **Quiz/appliance grid** (Zima). 8. **Lo-fi grimy denture / calculus macro** with minimal text. 9. **Kitchen-table two-papers price-anchor photo**. 10. **FB comment wall / Real People Real Results**. 11. **Before/after split cloudy to crystal clear** (5:00, not 3:00). 12. **Editorial card** (GQ/news style) for aligners. 13. **Colour-stack / pattern product shot** with a badge (use only our one white Pod).

@@ -1,6 +1,6 @@
 ---
 name: static-ads
-description: Run a brand's Meta static ad program from ads/brands/<brand>/: onboard a new brand (intake questions, product references, claims, personas, Atria + competitor research, Drive folder, Slack, twice-weekly routine), then each run research → write → render (9:16 with content in the 4:5 safe area, plus 4:5 crop) → QA → Drive sheet → Slack DM. Two batch types: iteration batches (big-swing iterations of current and seasonal winners only) and net-new batches. Native Facebook/Trustpilot/X formats, cartoon/animation formats, competitor-inspired formats, English and native US-Spanish copy, build-up GIFs after approval. Use for "set up static ads for my other brand", "onboard <brand>", "make this week's statics", "iteration batch", "net-new concepts", "competitor research", "Spanish statics", "cartoon ads", "turn these into GIFs", or a scheduled static-ads routine.
+description: Run a brand's Meta static ad program from ads/brands/<brand>/: onboard a new brand (intake questions, product references, claims, personas, Atria + competitor research, Drive folder, Slack, twice-weekly routine), then each run research → write → render (single size, 4:5, high quality) → QA → Drive sheet → Slack DM. Two batch types: iteration batches (big-swing iterations of current and seasonal winners only) and net-new batches. Native Facebook/Trustpilot/X formats, cartoon/animation formats, competitor-inspired formats, English and native US-Spanish copy, build-up GIFs after approval. Use for "set up static ads for my other brand", "onboard <brand>", "make this week's statics", "iteration batch", "net-new concepts", "competitor research", "Spanish statics", "cartoon ads", "turn these into GIFs", or a scheduled static-ads routine.
 ---
 
 # Static ads
@@ -13,8 +13,9 @@ Engine: `ads/generate.py` (render), `ads/review.py` (sheets, verdicts, cost, CSV
 - `dentalpulse/`: ultrasonic appliance cleaner. Product-scope limits, approved aggressive claims,
   appliance mix, old-method "enemy", competitor playbook (research/analysis.md §6), cartoon formats.
 
-Every deliverable is 1 static per concept (no variations): a 9:16 PNG (Stories/Reels) with all content
-inside the centered 4:5 area, plus the 4:5 crop (feed). GIFs only for statics the user approves.
+Every deliverable is 1 static per concept (no variations) in ONE size, 4:5 (1088x1360, feed), rendered once
+at high quality with `--layout feed` (the default; user rule 2026-10-18: no 9:16). The file is
+`<id>_vN.png`. GIFs only for statics the user approves.
 
 ## Batch types (sizes and days from `brand.json` → `program`)
 
@@ -44,7 +45,9 @@ unique forever. (Comfort Wear's `weeks/2026-W42` and `2026-W43` predate the `-tu
 5. **The enemy**: what customers used before (toothbrush, Polident, vinegar…) and whether those may be
    named or shown (`old_methods`). Competitors: who they are (`competitor_brands`) and whether naming
    is allowed (default: competitor pods/products unbranded).
-6. **Data**: feedback/survey sheet link, Atria ad-account name, asset folder in Drive.
+6. **Data**: feedback/survey sheet link, Atria ad-account name, asset folder in Drive, and the team's
+   **creative strategy briefs / research docs** (Notion, Google Docs): read them, don't guess the strategy.
+   Also ask what the product should be called for cold audiences (e.g. "ultrasonic cleaner", not "Pod").
 7. **Languages** (Spanish or not), **cadence** (default Tue iterations 20 + Fri net-new 40), **delivery**
    (Drive folder, Slack id or channel).
 
@@ -69,11 +72,17 @@ unique forever. (Comfort Wear's `weeks/2026-W42` and `2026-W43` predate the `-tu
      top ads. Note formats (comparison, listicle, native advertorial, offer) and which product/persona
      carries spend; check whether ROAS is readable (`program.roas_note`).
    - **Competitors**: set `competitor_brands` (direct competitors + 8–12 adjacent DTC brands in the
-     category), run `atria_pull.py competitors`, then `contact_sheet.py competitor_ads.csv --by brand`.
+     category) and `inspo_queries`, run `atria_pull.py competitors` (sorted by **most impressions**, so
+     you see what gets delivery now), filter to the category, then `contact_sheet.py <csv> --per 40`.
      Read every page; write a "formats to borrow" playbook: per brand the longest-running formats and
      hooks, then a numbered "what to take" list (name the incumbent, before/after in hand, shock headline,
      native UI frames, premium offer tile, starter pack, big numbers, timely callouts…).
-   - **Survey/feedback sheet**: download via Drive (`download_file_content`, text/csv). Keep only
+   - **Creative briefs (Notion etc.)**: delegate a read-only subagent to digest every monthly brief,
+     research and competitor page into `research/notion_brief.md` (concepts to test, controversial lines,
+     mechanism, proof, formats, offers, 20 sharpest hooks, citations). Briefs drive the net-new concepts.
+   - **Survey/feedback sheet**: delegate a deep dive (counts per segment, purchase reasons, frustrations,
+     objections, wins verbatim, 1–2★ themes, headline banks) into `research/feedback_deep_dive.md`;
+     download via Drive (`download_file_content`, text/csv). Keep only
      aggregates and short anonymous quotes; never commit raw rows, emails or order numbers. Pull: appliance
      or use-case split, ages, previous method, frustrations, objections, wins in their words, who noticed,
      and the negatives to design around (claims that disappointed people).
@@ -106,7 +115,10 @@ When the user adds a rule later ("only these products", "5-minute cycles", "50/2
 analysis.md, any affected concepts (re-render), **every routine prompt** (update_trigger with the full
 prompt), and this skill.
 
-## 1. Research refresh (each run, short)
+## 1. Research refresh (each run)
+
+**User rules 2026-10-23 (Comfort Wear, apply to every brand unless told otherwise):** (a) one 4:5 file per creative, no 9:16, no second file: always `--layout feed`; (b) spend real effort on Atria for the newest trending static formats every run (`inspo` + `competitors`, newest/fastest-rising first, contact-sheet and read every page, log a 'formats trending now' list in `research/analysis.md`, use at least 5 per net-new batch).
+
 
 - Read `brand.json`, `research/analysis.md` and `feedback.json` (approved/rejected and why).
 - **Iteration runs**: `atria_pull.py current` (last `iterate_when.days` days, spend ≥ `min_spend`,
@@ -114,6 +126,12 @@ prompt), and this skill.
   `seasonal --week <current week>` (top spenders by spend in the same window last year, ±7 days).
 - **Net-new runs**: `atria_pull.py inspo`, and refresh `competitors` + the playbook when the brand has
   one (new long-running formats only).
+- **Every run (user rule Oct 24, DentalPULSE)**: analyze our own top-spend statics (`winners` + `current`, with the
+  thumbnails via `contact_sheet.py winning_statics_raw.csv`) AND other brands in the category: run
+  `atria_pull.py ultrasonic --brand <brand>` (brand.json -> `ultrasonic_queries`, no brand filter, images and video),
+  filter, `contact_sheet.py --by brand`, read every page, and update analysis.md. At least 40% of a batch must be
+  product-forward iterations of the proven top-spend/top-impression formats (comparison tables, ranking charts,
+  lifestyle hero, big-type offer, quote + badge); gimmick formats are the minority.
 - If Atria returns 401, `ATRIA_API_KEY` isn't set: say so and use existing data. Never look for keys.
 
 ## 2. Write the batch
@@ -148,7 +166,29 @@ formats. `"group": "iteration"`.
 
 ### Rules for every batch
 
-- **Mix**: follow `program.mix` exactly (count it before rendering).
+- **Quality benchmark (user rule, Oct 13)**: every concept sets `"benchmark"` to the closest key in
+  `brand.json` → `benchmarks` (the brand's own top statics in `reference/benchmarks/`); `generate.py`
+  attaches it as a style/quality reference and adds `quality_bar`. Write prompts the way the winners look:
+  shoe as the hero (35–60% of the frame, often a pair), tight legs/feet crops, one huge heavy headline,
+  ≤3 solid pills/blocks/arrows. Default render quality is medium (budget). In QA, put each render next to its
+  benchmark and re-render anything that looks like generic AI stock, has a small shoe or a weak headline.
+
+- **Mix**: follow `program.mix` exactly (count it before rendering), plus the funnel split
+  (default ~65% top-of-funnel with no price, ~35% offer-based) and `copy_rules` / `naming_rule`.
+  Also apply `program.angle_rules` (winning angles, mix-and-match, foot-pain share), `program.offer`
+  (offer-stack share and exact wording) and `colorway_priority` (best sellers vs test colors) when the
+  brand has them; count each before rendering.
+- **Variety (user rule)**: every concept in a batch uses a different format. Rotate across the
+  top-impression category formats (analysis.md) and the briefs' formats: insult/shock headline + sticky-note
+  offer, lo-fi real photo with minimal text, imaging/petri/microscope proof, price-anchor replacement,
+  value-stack bundle flat-lay, big quote over product, real-world sign, advertorial article card, native UI
+  (iOS reminder, cart, texts), founder letter, stat pictogram, news split-face, hand + arrows offer,
+  ranking grid / report card, post-it confession, timeline, gift static, cartoon formats.
+- **Direct response**: pain in the customer's words → agitate → mechanism → proof/offer. Make the top
+  purchase reasons explicit and visual (for DentalPULSE: bacteria and yellow stains). Controversial
+  enemy framing is welcome when the brand asks for it.
+- **No-product concepts**: lo-fi/native images that shouldn't show the product set `"no_product": true`
+  (generate.py then drops the product-fidelity rule and tells the model not to show it).
 - **Unique**: no two concepts share persona + angle. Mix formats: lifestyle photo, product + callouts,
   split/before-after, ranked list/scorecard, native comment/review/post, phone UI (texts, notes, cart,
   incoming call), big-number type, shock close-up, starter-pack flat-lay, premium offer tile, cartoon.
@@ -185,8 +225,16 @@ python ads/generate.py --brand <brand> --week ../format_examples <ids>    # form
 python ads/review.py cost --brand <brand> --week <folder>                 # actual spend
 ```
 
-Measured gpt-image-2 cost per static ≈ $0.08 (medium 4:5 render + low 9:16 extension); GIF ≈ $0.14.
-`--quality high` only for product close-ups. Shell gotcha: never `pkill -f`/`pgrep -f` a pattern that
+Default `--layout feed` (user rule, Oct 18): one native 4:5 render per ad at the default `high` quality
+(headline upper third, product/scene large in the middle, copy or offer lower; edge-to-edge scene, at least
+6% margin around text). No 9:16 is made. Older layouts (`native` 9:16 + 4:5 re-layout, `extend` outpaint)
+remain available by flag but are not used. `generate.py` center-crops instead of stretching when the API
+returns another aspect ratio, so the shoe is never squashed. If the image API rejects a prompt for safety
+(e.g. chemicals + mouth = "self-harm"), reframe the visual and retry.
+
+Cost: one high-quality 4:5 render ≈ $0.22 per ad (measured Oct 18; the old medium 9:16 + 4:5 pair was
+≈ $0.13). Check `review.py cost` after every batch and report cost per ad. GIF ≈ $0.14.
+Use `--quality medium` only if the user asks to cut cost. Shell gotcha: never `pkill -f`/`pgrep -f` a pattern that
 also appears in your own command line (it kills or matches the shell itself); wait on renders by
 counting `*_4x5.png` files instead.
 
@@ -201,6 +249,13 @@ counting `*_4x5.png` files instead.
 - wrong product facts (e.g. a 3-minute timer), claims outside `approved_claims`;
 - wrong people using the product, distorted hands/mouths/appliances;
 - weak before/after (the "before" must look clearly worse);
+- a product forced into a `no_product` concept, two copies of the product, bundle items at the wrong scale
+  (accessories must look smaller than the hero product), non-physical items (warranties) shown as objects;
+- a 4:5 with cut-off copy, less than ~6% margin around text, or blurred/empty/filler bands;
+- a compressed, flattened, shortened or stretched shoe, or a shoe that's too small in the scene;
+- supporting text (labels, pills, checklist, offer lines) too small to read for the audience (Comfort Wear:
+  women 60+, see the legibility rule in `quality_bar`);
+- purple headline/body text (purple is a small accent only);
 - a native format that doesn't look like the real platform, or competitor logos.
 `review.py sheet` with ids overwrites page 1: delete `_preview_*` and rebuild the full sheets at the end.
 
@@ -216,7 +271,7 @@ prompt. Rejected concepts get one regeneration with the fix; approved GIF candid
 2. Drive: subfolder "<folder>" under `drive_folder_id` (reuse if present), then a Google Sheet
    "<folder> concepts" from `python ads/review.py csv --brand <brand> --week <folder>` (create_file,
    `textContent`, `contentMimeType: text/csv`; trash an older sheet for the same folder first). Images
-   are too large for the Drive connector, so the sheet links to each 9:16/4:5/GIF on GitHub.
+   are too large for the Drive connector, so the sheet links to each 4:5/GIF on GitHub.
 3. Slack: DM `slack.notify_channel_id`: "**<Brand> <batch type> ready: <folder> (<n> concepts)**", links
    to the sheet, Drive folder and GitHub output folder, then one line: mix split · source ads
    (iterations) · competitor formats · cartoon count · Spanish count · GIF candidates · image cost.

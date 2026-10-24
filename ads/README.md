@@ -1,6 +1,6 @@
 # Static ad pipeline
 
-Research → personas → weekly concepts → 9:16 statics (+ GIFs) → review loop, rendered with
+Research → personas → weekly concepts → 4:5 statics (+ GIFs) → review loop, rendered with
 OpenAI's image model (`gpt-image-2`). Works for any brand. The full process is in the
 `static-ads` skill (`.claude/skills/static-ads/SKILL.md`).
 
@@ -42,10 +42,7 @@ python ads/generate.py --brand comfortwear C17                       # a library
 python ads/generate.py ... --extra "make the headline bigger" --quality medium
 ```
 
-**Format:** every ad is rendered at 4:5 (1088×1360). Its background is then extended to 9:16
-(1088×1920) and the original 4:5 pixels are pasted back on top, so text and product always
-sit inside the 4:5 safe area. Each concept writes `<id>_v1.png` (9:16, Stories/Reels) and
-`<id>_v1_4x5.png` (feed). There's one static per concept; a rerun after a rejection makes `_v2`.
+**Format (since 2026-10-18):** one size, 4:5 (1088×1360), rendered once at high quality (`--layout feed`, the default; ≈ $0.22/ad). Each concept writes `<id>_v1.png`; a rerun after a rejection makes `_v2`. Older flags: `--layout native` (9:16 + 4:5) and `--layout extend`.
 
 **GIFs:** a concept with a `gif` block gets `<id>_v1.gif` (544×960). With `"build": true`, each
 edit removes one element from the finished static and the GIF plays in reverse, so it builds up
@@ -66,7 +63,7 @@ Render GIFs only for approved statics (`--gif-only <ids>`).
 ## Review loop
 
 ```bash
-python ads/review.py sheet --week 2026-W42                 # 9:16 contact sheets, 4:5 area dashed in red
+python ads/review.py sheet --week 2026-W42                 # contact sheets
 python ads/review.py log W42_05_teacher_cute_and_comfy_v1 approve "warm classroom, shoe reads as stylish"
 python ads/review.py log W42_11_step_counter_weightloss_v1 reject "progress ring doesn't match 10,000"
 python ads/review.py summary

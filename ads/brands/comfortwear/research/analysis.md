@@ -153,7 +153,7 @@ Source: "ComfortWear Customer Feedback (Responses)" Google Sheet, **18,406 respo
 60% got the wrong size (33% too small, 27% too big; nurses are about the same at 59%). Average comfort among these unhappy customers is **2.98/5 when the fit was right vs 1.71 when it was too small** and 2.13 when too big. Since the miss goes both ways, "size up" isn't the fix. The fix is a better way to choose. Quotes: *"don't offer a half size option if it is the same as the whole size"*, *"your guide don't give the right sizes"*, *"I should have ordered a 1/2 size larger, when I walk my toes hit the tip"*.
 
 **2. The free-text complaints are mostly operational.**
-Of 2,666 written answers: refunds/returns 25%, size/fit 24%, shipping/delivery 19%, cheap quality 11%, no arch support 11%, "not really orthopedic / misleading" 7%. This matches the Trustpilot 1★ pattern. **Ads must not promise fast shipping, easy returns or a money-back guarantee**, and claims like "orthopedic" or "podiatrist-approved" invite *"Be truthful about how they're orthopedic approved"*.
+Of 2,666 written answers: refunds/returns 25%, size/fit 24%, shipping/delivery 19%, cheap quality 11%, no arch support 11%, "not really orthopedic / misleading" 7%. This matches the Trustpilot 1★ pattern. **Ads must not promise fast shipping or easy returns** (update 2026-10-13: the user approved the offer stack "40% OFF + 30-DAY MONEY-BACK GUARANTEE + FREE SHIPPING", so those exact words are allowed), and claims like "orthopedic" or "podiatrist-approved" invite *"Be truthful about how they're orthopedic approved"*.
 
 **3. Who they are.**
 Age: 47% are 65+ and 38% are 50–65. Job: retired 27%, nurse/healthcare 18%, retail/cashier 8%, food service 6%, teachers 4%. Foot problem: plantar fasciitis 25%, **"no foot pain, only need comfort" 22%**, arthritis 11%, neuropathy 10%, bunions 7%. Where they found us: Facebook 63%, Google 17%.
@@ -234,3 +234,45 @@ First pull (Sep 11 – Oct 10, 2026), all videos, all prospecting:
 
 The "2026's Favorite/Best Shoes For <audience>" headline format appears in 4 of 5. Some source copy uses
 claims we avoid ("recommended by podiatrists", "free returns"); iterations keep the angle but drop those.
+
+
+## 12. Creative-director feedback, 2026-10-13 (applied to brand.json, generate.py and the routine)
+
+1. **Shoes looked compressed.** Cause: `generate.py` stretched the API image when its aspect ratio differed from the target. It now center-crops instead, and a prompt rule forbids squashed or shortened shoes.
+2. **9:16s had cut or blurred tops and bottoms.** Cause: the 9:16 was a 4:5 ad with outpainted background. Now the 9:16 is composed for its full height and the 4:5 is re-laid out from it (`--layout native`).
+3. **Too much purple text.** Cause: the palette asked for purple headlines. Text is now black, navy or white; purple is a small, occasional accent.
+4. **Colors:** test all colors, weighted to the best sellers (in order): Black/Purple, All Black, White Blue, Black/White, Red, Turquoise/Black, about 80/20 (`colorway_priority`).
+5. **Offer creatives:** ~30% of each batch shows "40% OFF + 30-DAY MONEY-BACK GUARANTEE + FREE SHIPPING".
+6. **Angles:** nurses, travel, teachers, plus-size (mix and match), and ≥40% of each batch leads with a foot-pain problem from the survey and reviews.
+
+## 13. Quality benchmarks, 2026-10-13 (`reference/benchmarks/`, keys in brand.json → `benchmarks`)
+
+18 images: 10 the creative director picked as the quality bar, plus 8 top $5k+ winners pulled from Atria. Performance from Atria (WearOrtho, monthly top-50 windows since Jan 2024) where the ad name could be matched:
+
+| Benchmark | Proven by |
+|---|---|
+| Dear Nurses callouts (`callouts_white`) | $208k at 2.92 ROAS, $27 CPA, plus a $22k ad set at 17.8 ROAS: the most efficient big static |
+| Didn't buy yet comments (`comments_offer`, `comments_social`) | $50k at 3.05 ROAS, still active (RTGv1_C3) |
+| Almost sold out (`lifestyle_urgency`) | $8.7k at 3.97 ROAS, $25 CPA |
+| 12-hour shift list (`list_white`) | $858k across 8 ads |
+| Shoes for 12-hour shifts diagram (`diagram_grey`) | $457k |
+| Warning warehouse (`warehouse_urgency`) | $19k at 3.31 ROAS |
+| HSA/FSA, Brooks split, Morton's, Built for 12h, teachers.org, Ditch the Hokas, PF anatomy | recent/creative-director picks (newer names don't match the older ad naming; spend not attributed) |
+
+**What every benchmark shares (the bar):**
+1. **The shoe is real studio-grade product photography**: crisp knit, exact colorway, true proportions, usually 40–60% of the frame. When a person appears it's only legs/feet, and the shoe still dominates.
+2. **One message, read in 1 second**: a big headline (often 2 lines with a weight or color change on the key words), then at most one supporting line.
+3. **Structure from solid shapes**: solid headline bars (Brooks, Morton's), solid pills with check icons (Built for 12h), a solid offer block or circle (Ditch the Hokas, 40% OFF circle), thin hand-drawn arrows (Dear Nurses). No translucent overlays.
+4. **Backgrounds are plain or quiet**: white, soft grey, soft gradient (HSA), or a real room or street softly out of focus.
+5. **Proof devices are native and specific**: real-looking Facebook comments with names and reactions; competitor named in the headline with X vs check rows; condition named in the headline with a small pain inset.
+6. **Offer elements are compact**: a circle, ribbon, block or single line ("40% OFF", "Try risk-free"), never the whole canvas.
+7. **Two text colors max**: black/white plus one accent (brand purple, royal blue or red) as a solid fill or for the key words of the headline.
+
+## 14. Single-size 4:5, higher quality, 2026-10-18
+
+User rule: ship one size only, 4:5, rendered once at high quality (`generate.py --layout feed`, default quality `high`). No 9:16. Measured cost ≈ $0.22 per ad (3-ad test), vs ≈ $0.13 for the old medium 9:16 + 4:5 pair. Sheets (`review.py csv`) now have one "Image (4:5)" column.
+
+## 15. One 4:5 file and trend-first research, 2026-10-23
+
+1. **One file per ad:** 4:5 only (`--layout feed`, the default). No 9:16, no duplicate sizes. (The 2026-W44-fri batch was rendered with native 9:16 + 4:5 per an older routine prompt; the `_v1.png` 9:16 files there are unused.)
+2. **Trending static formats:** every run, mine Atria for the newest static formats (inspo + competitors, newest and fastest-rising first), contact-sheet them, and list 'formats trending now' here with who runs them, days running and what to borrow. Net-new batches use at least 5 of them.

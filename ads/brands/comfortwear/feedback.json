@@ -1,0 +1,37 @@
+[
+  {
+    "image": "X42_01_nurse_heel_pain_hour_8_v1",
+    "concept": "X42_01_nurse_heel_pain_hour_8",
+    "verdict": "reject",
+    "notes": "quality below the brand benchmark: looks like generic AI stock, shoe too small, headline not big/heavy enough; match the winning statics' polish",
+    "date": "2026-10-13"
+  },
+  {
+    "image": "X42_02_travel_offer_cobblestones_v1",
+    "concept": "X42_02_travel_offer_cobblestones",
+    "verdict": "reject",
+    "notes": "quality below the brand benchmark: looks like generic AI stock, shoe too small, headline not big/heavy enough; match the winning statics' polish",
+    "date": "2026-10-13"
+  },
+  {
+    "image": "X42_03_plus_size_teacher_fb_comment_v1",
+    "concept": "X42_03_plus_size_teacher_fb_comment",
+    "verdict": "reject",
+    "notes": "quality below the brand benchmark: looks like generic AI stock, shoe too small, headline not big/heavy enough; match the winning statics' polish",
+    "date": "2026-10-13"
+  },
+  {
+    "image": "X42_04_by_3pm_checklist_v1",
+    "concept": "X42_04_by_3pm_checklist",
+    "verdict": "reject",
+    "notes": "quality below the brand benchmark: looks like generic AI stock, shoe too small, headline not big/heavy enough; match the winning statics' polish",
+    "date": "2026-10-13"
+  },
+  {
+    "image": "X42_05_nurse_offer_sticky_notes_v1",
+    "concept": "X42_05_nurse_offer_sticky_notes",
+    "verdict": "reject",
+    "notes": "quality below the brand benchmark: looks like generic AI stock, shoe too small, headline not big/heavy enough; match the winning statics' polish",
+    "date": "2026-10-13"
+  }
+]

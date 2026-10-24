@@ -1,0 +1,302 @@
+{
+ "concepts": [
+  {
+   "id": "T42_01_den_six_of_seven_incoming_call",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "angle": "Native UI: incoming call from 'Your Dentures' delivering the 6-of-7 lab result",
+   "based_on": "Iteration of _DEN_VID_DEN81 '6 of 7 pods can't remove bacteria' (video, comparison; $7,589 spend, ROAS 2.27)",
+   "headline": "6 of 7 pods leave live bacteria.",
+   "prompt": "A realistic iPhone incoming-call screen over a soft blurred dark background (native iOS look, no Apple logo). Caller name large in white: \"Your Dentures\". Under it small grey: \"mobile\". Center: a round caller photo of the DentalPULSE Pod from the reference photo. Above the buttons a white line: \"6 of 7 pods leave live bacteria.\" and a smaller grey line \"90-day lab test. DentalPULSE was #1.\" Bottom: red decline button labeled \"Keep soaking\" and green accept button labeled \"Try the Pod\".",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the green and red buttons and their labels",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the grey line '90-day lab test. DentalPULSE was #1.' and the white line above it",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T42_02_den_six_of_seven_dark_offer",
+   "group": "iteration",
+   "persona": "switcher",
+   "lang": "en",
+   "colorway": "pod",
+   "angle": "Premium dark hand+glow offer tile for the 6-of-7 lab result with 40% OFF",
+   "based_on": "Iteration of VID_DEN32_COMPARISON_IT_02 '6 of 7 pods leave live bacteria' (video, comparison; $6,015 spend, ROAS 2.71)",
+   "headline": "6 of 7 pods leave live bacteria. This one doesn't.",
+   "prompt": "Premium black background. A hand holding the DentalPULSE Pod from the reference photo, lit by a soft blue glow ring around the dome. Headline top in bold white: \"6 of 7 pods leave live bacteria. This one doesn't.\" Below the hand, a gold-and-navy seal reading \"Clinicians' Choice\", a blue pill reading \"40% OFF · $99.95\" and a small line \"120-Day Money-Back Guarantee\", and a small white line \"Eliminates 99.9% of bacteria in 5 minutes\"."
+  },
+  {
+   "id": "T42_03_den_lied_to_comic",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "format": "comic_strip",
+   "angle": "Comic strip: toothbrush and Polident 'lied' to the denture wearer",
+   "based_on": "Iteration of VID_DEN24_COMPARISON 'You've Been Lied To' (video, anti-tablet/brush; $4,516 spend, ROAS 2.00)",
+   "headline": "Your toothbrush and Polident lied to you.",
+   "prompt": "A 4-panel webcomic strip. Panel 1: a grey-haired man holding his dentures next to a toothbrush and a Polident tablet box that both have smug cartoon faces; bubble from toothbrush: \"Spotless!\". Panel 2: the same man squinting at his dentures under a magnifier showing grime; bubble: \"Liars.\" Panel 3: he drops the dentures into the open DentalPULSE Pod from the reference photo (cartoon style); bubble: \"5 minutes.\" Panel 4: he grins with sparkling white dentures; bubble: \"Eliminates 99.9% of bacteria.\" Headline above the strip in bold navy: \"Your toothbrush and Polident lied to you.\""
+  },
+  {
+   "id": "T42_04_den_lied_to_shock_closeup",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "angle": "Shock close-up headline: what the toothbrush leaves behind",
+   "based_on": "Iteration of VID_DEN24_COMPARISON 'You've Been Lied To' (video, anti-tablet/brush; $4,516 spend, ROAS 2.00)",
+   "headline": "This is what your toothbrush leaves behind.",
+   "prompt": "Extreme macro photo of a realistic upper denture (natural teeth, pink gums) with a hand-held toothbrush beside it; microscopic-style scratch grooves and grey biofilm visible between the teeth, slightly gross but realistic. Bold white headline with dark shadow on a plain dark-grey top band: \"This is what your toothbrush leaves behind.\" Bottom corner: small DentalPULSE Pod from the reference photo with a blue pill \"Eliminates 99.9% of bacteria\"."
+  },
+  {
+   "id": "T42_05_den_quote_x_post",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod_open",
+   "format": "x_post",
+   "angle": "X post: the $2,400 dentist quote vs a drawer of tablets",
+   "based_on": "Iteration of IMG_DEN64 native advertorial 'read this before you consider ultrasonic cleaners' (image; $2,079 spend, ROAS 2.94; sibling 51_3 $1,291, ROAS 3.13)",
+   "headline": "dentist quoted me $2,400 for new dentures",
+   "prompt": "An X post from display name \"Ray T.\" with handle \"@raythelathe\". Post text: \"dentist quoted me $2,400 for new dentures.\n\nthen i counted the tablets, brushes and cleanings in my drawer. bought a pod that does it in 5 min with tap water. 99.9% of bacteria gone. my dentures look new.\" Attached photo with rounded corners: a clean denture resting in the open DentalPULSE Pod from the reference photo. Engagement row: 212 replies, 1.4K reposts, 18K likes."
+  },
+  {
+   "id": "T42_06_den_drawer_vs_pod_offer",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "angle": "Flat-lay: drawer of old methods vs one Pod with 40% OFF",
+   "based_on": "Iteration of IMG_DEN64 native advertorial 'read this before you consider ultrasonic cleaners' (image; $2,079 spend, ROAS 2.94; sibling 51_3 $1,291, ROAS 3.13)",
+   "headline": "The drawer of denture stuff vs. one Pod.",
+   "prompt": "Top-down split flat-lay on a wood table. Left half labeled \"The drawer\": a Polident box, an Efferdent box, a toothbrush, a vinegar bottle, a bleach bottle, dish soap, a denture cup. Right half labeled \"The Pod\": the DentalPULSE Pod from the reference photo alone on clean white. Headline across top in bold navy on a white band: \"The drawer of denture stuff vs. one Pod.\" Bottom: on a solid full-width white band (keep it off the wood/white seam), a blue pill reading \"40% OFF · $99.95\" and a small line \"120-Day Money-Back Guarantee\". Do not show any text other than the quoted words.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the blue pill and guarantee line at the bottom",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the Pod and its 'The Pod' label from the right half, leaving it empty white",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T42_07_den_number_one_big_type",
+   "group": "iteration",
+   "persona": "switcher",
+   "lang": "en",
+   "colorway": "pod",
+   "angle": "Big-number typography '#1' from the 90-day test",
+   "based_on": "Iteration of TOFv1 DEN209 '#1 Dentures Cleaner' (video, 90-day test; $2,342 spend, ROAS 1.84)",
+   "headline": "#1",
+   "prompt": "Bold typographic ad on pale blue: a gigantic navy \"#1\" filling the upper half. Under it in blue: \"in a 90-day lab test of 7 ultrasonic dental cleaners\". Below, the DentalPULSE Pod from the reference photo with a gold-and-navy \"Clinicians' Choice\" seal, and a row of five gold stars with \"Rated 4.8/5\"."
+  },
+  {
+   "id": "T42_08_den_polident_1930s_cartoon",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "format": "retro_cartoon",
+   "angle": "1930s rubber-hose cartoon: old tablet era vs the Pod",
+   "based_on": "Iteration of TOFv1 DEN226 'Why tablets are not good / evil Polident' (video, anti-tablet; $1,120 spend, ROAS 1.99)",
+   "headline": "Dentures cleaned like it's 1935?",
+   "prompt": "Sepia 1930s rubber-hose cartoon still with an old-timey title card. A bendy grinning Polident tablet box mascot with white gloves fizzes and burps in a glass of water holding a cartoon denture. Bursting through the scene in modern full blue and white color, the DentalPULSE Pod from the reference photo kicks the tablet out. Title card lettering: \"Dentures cleaned like it's 1935?\" Subline in a ribbon: \"Eliminates 99.9% of bacteria in 5 minutes\"."
+  },
+  {
+   "id": "T42_09_den_caregiver_comment",
+   "group": "iteration",
+   "persona": "denture_caregiver",
+   "lang": "en",
+   "colorway": "pod_open",
+   "format": "fb_comment",
+   "angle": "Facebook comment: adult child who nearly bought the first Amazon pod",
+   "based_on": "Iteration of TOFv1 DEN209 '#1 Dentures Cleaner' (video, 90-day test; $2,342 spend, ROAS 1.84)",
+   "headline": "I almost bought the first pod I found.",
+   "prompt": "A realistic Facebook mobile comment thread on white: first comment by \"Karen S.\" (profile photo of a woman in her 40s): \"I almost bought the first pod I found on Amazon for my dad's dentures. Then I read the 90 day test. 6 of 7 left live bacteria. We got the DentalPULSE one. Dad says they feel brand new.\" A second indented reply by \"Mike D.\": \"Same here, got it for my mom.\" Reaction pills with counts 214 and 31, grey 'Like Reply' rows. Below the thread, a small photo of the open DentalPULSE Pod from the reference photo."
+  },
+  {
+   "id": "T42_10_den_top7_clay_podium",
+   "group": "iteration",
+   "persona": "switcher",
+   "lang": "en",
+   "colorway": "pod",
+   "format": "claymation",
+   "angle": "Claymation podium: DentalPULSE #1 of 7",
+   "based_on": "Iteration of IMG_DEN62 'Top 7 Ultrasonic Cleaners for Dentures' (image, ranking; $708 spend, ROAS 3.36)",
+   "headline": "We ranked 7 ultrasonic cleaners. This one won.",
+   "prompt": "Stop-motion claymation still: a handmade plasticine podium with seven plain unbranded round grey pod gadgets lined up on a shelf behind, and on top of the #1 step the DentalPULSE Pod from the reference photo (clearly white and ribbed) wearing a tiny clay gold medal, with a clay grandma and grandpa cheering with clay dentures grins. Headline on a clay banner: \"We ranked 7 ultrasonic cleaners. This one won.\" Small clay plaque: \"6 of 7 pods leave live bacteria\"."
+  },
+  {
+   "id": "T42_11_ng_held_up_six_of_seven",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod_open",
+   "angle": "Held-up before/after through torn paper for night guards",
+   "based_on": "Iteration of VID_DEN32_COMPARISON_IT_02 '6 of 7 pods leave live bacteria' (video, comparison; $6,015 spend, ROAS 2.71)",
+   "headline": "6 of 7 pods left bacteria. We're the one that didn't.",
+   "prompt": "Two hands bursting through a torn white paper wall, each holding a realistic clear night guard: left a yellow cloudy stained guard labeled \"Soap + brush\", right a crystal clear guard labeled \"DentalPULSE\". The open DentalPULSE Pod from the reference photo sits at the bottom center. Headline at top on a white band in bold navy: \"6 of 7 pods left bacteria. We're the one that didn't.\"",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the open Pod at the bottom and the labels on the guards",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the right hand and its clear night guard",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T42_12_ng_soap_vs_pod_split",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "angle": "Split screen: hand soap + toothbrush vs the Pod",
+   "based_on": "Iteration of VID_DEN24_COMPARISON 'You've Been Lied To' (video, anti-tablet/brush; $4,516 spend, ROAS 2.00)",
+   "headline": "Hand soap vs. 42,000 Hz.",
+   "prompt": "Vertical split screen. Left: a bathroom sink with a hand holding a yellowed night guard, a pump bottle of hand soap and a toothbrush, grey-dim tone, label \"Soap + brush\". Right: bright clean, the DentalPULSE Pod from the reference photo with its lid open and a clear night guard inside the steel basin, tiny blue ultrasonic ripple lines, label \"42,000 Hz\". Headline across the top on a white band, navy: \"Hand soap vs. 42,000 Hz.\" Keep all text off the dark/split seam."
+  },
+  {
+   "id": "T42_13_ng_replacement_quote_3d",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod_open",
+   "format": "cartoon_3d",
+   "angle": "3D animated: replacement-guard price anchor vs the Pod",
+   "based_on": "Iteration of IMG_DEN64 native advertorial 'read this before you consider ultrasonic cleaners' (image; $2,079 spend, ROAS 2.94; sibling 51_3 $1,291, ROAS 3.13)",
+   "headline": "A new night guard: $500. This Pod: $99.95.",
+   "prompt": "A still from a 3D animated film: a cute worried cartoon woman in pajamas holding a cloudy yellow night guard, with a floating dentist price tag \"$500\" over her head; beside her the DentalPULSE Pod from the reference photo glows with a soft sparkle and a small \"40% OFF\" tag. Headline on top in bold navy rounded sans: \"A new night guard: $500. This Pod: $99.95.\" Bottom pill: a blue pill reading \"40% OFF · $99.95\" and a small line \"120-Day Money-Back Guarantee\"."
+  },
+  {
+   "id": "T42_14_ng_trustpilot_saved_me",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "format": "trustpilot",
+   "angle": "Trustpilot review cards for grinders",
+   "based_on": "Iteration of TOFv1 DEN209 '#1 Dentures Cleaner' (video, 90-day test; $2,342 spend, ROAS 1.84)",
+   "headline": "Saved me from wasting my money.",
+   "prompt": "Two stacked Trustpilot-style review cards on a pale background, each with initials avatar, five green square star tiles, bold title, text and date. Card 1: \"Dana K.\" US, title \"Saved me from wasting my money\", text \"I grind my teeth and my night guard looked gross and cloudy. I almost bought the first cheap pod I found. This one is noticeably cleaner and brighter after 5 minutes.\" 3 days ago. Card 2: \"Chris P.\" US, title \"Looks and feels cleaner\", text \"Less build up. No more smell.\" 1 week ago. Below the cards, the DentalPULSE Pod from the reference photo."
+  },
+  {
+   "id": "T42_15_ng_grinder_starter_pack",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "travel_pod",
+   "angle": "Starter-pack flat-lay with 40% OFF + guarantee",
+   "based_on": "Iteration of Denture - 40% OFF _LP_PDP_V3 (image, offer; $958 spend, ROAS 2.02)",
+   "headline": "The grinder's starter pack",
+   "prompt": "Top-down flat-lay on a soft grey surface with numbered callouts 1-3: (1) a clear night guard in an open case, (2) the DentalPULSE Travel Pod from the reference photo, (3) a glass of tap water. Headline top in bold navy: \"The grinder's starter pack\". Bottom: a blue pill reading \"40% OFF · $99.95\" and a small line \"120-Day Money-Back Guarantee\"."
+  },
+  {
+   "id": "T42_16_al_imessage_six_of_seven",
+   "group": "iteration",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "pod_open",
+   "angle": "iMessage thread delivering the 6-of-7 result for aligners",
+   "based_on": "Iteration of _DEN_VID_DEN81 '6 of 7 pods can't remove bacteria' (video, comparison; $7,589 spend, ROAS 2.27)",
+   "headline": "Which pod? The one 6 of 7 couldn't beat.",
+   "prompt": "A realistic iPhone Messages screenshot (no Apple logo), friend named \"Ella\". Grey bubble: \"which pod do i get for my invisalign??\" Blue bubble: \"the DentalPULSE. 6 of 7 pods leave live bacteria, this one didn't\" Grey: \"does it work on the white film?\" Blue: \"5 minutes, tap water, clear again\" with an attached photo bubble of a clear aligner in the open DentalPULSE Pod from the reference photo. Headline above the phone on white, bold navy: \"Which pod? The one 6 of 7 couldn't beat.\""
+  },
+  {
+   "id": "T42_17_al_brushing_scratches_callouts",
+   "group": "iteration",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "pod",
+   "angle": "Macro with callouts: brushing scratches aligners, tablets mask",
+   "based_on": "Iteration of VID_DEN24_COMPARISON 'You've Been Lied To' (video, anti-tablet/brush; $4,516 spend, ROAS 2.00)",
+   "headline": "Brushing scratches. Tablets mask.",
+   "prompt": "Close macro photo of a realistic clear aligner tray (thin transparent full-arch shape) on a dark slate surface with a toothbrush beside it. Three thin white callout lines with labels: \"Brush scratches\", \"Tablets only mask odor\", \"Film in the grooves\". Headline at top in bold white on the dark top area: \"Brushing scratches. Tablets mask.\" Bottom: the DentalPULSE Pod from the reference photo with a blue pill \"Clinical-grade. 99.9% of bacteria gone.\""
+  },
+  {
+   "id": "T42_18_re_top7_dark_offer",
+   "group": "iteration",
+   "persona": "retainer",
+   "lang": "en",
+   "colorway": "pod_open",
+   "angle": "Dark premium offer tile with #1 ranking for retainers",
+   "based_on": "Iteration of IMG_DEN62 'Top 7 Ultrasonic Cleaners for Dentures' (image, ranking; $708 spend, ROAS 3.36)",
+   "headline": "Ranked #1 of 7 for retainers.",
+   "prompt": "Premium black background with a soft blue glow. A hand holding the open DentalPULSE Pod from the reference photo with a clear retainer inside. Headline top in bold white: \"Ranked #1 of 7 for retainers.\" Gold-and-navy seal \"Clinicians' Choice\" and five gold stars \"Rated 4.8/5\". Bottom: a blue pill reading \"40% OFF · $99.95\" and a small line \"120-Day Money-Back Guarantee\".",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the offer pill and guarantee line",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the seal and stars",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T42_19_re_teen_parent_x_post",
+   "group": "iteration",
+   "persona": "retainer",
+   "lang": "en",
+   "colorway": "pod",
+   "format": "x_post",
+   "angle": "X post from a parent who nearly bought a cheap pod",
+   "based_on": "Iteration of TOFv1 DEN209 '#1 Dentures Cleaner' (video, 90-day test; $2,342 spend, ROAS 1.84)",
+   "headline": "bought my teen the pod that won the 90 day test",
+   "prompt": "An X post from display name \"Amy R.\" with handle \"@amyrunsonlattes\". Post text: \"bought my teen the pod that won the 90 day test. almost grabbed a cheap one first. 6 of 7 left live bacteria.\n\nher retainer smelled like a gym bag. now it's clear again in 5 minutes. worth every penny of $99.95\". Attached photo with rounded corners: the DentalPULSE Pod from the reference photo on a bathroom counter with a clear retainer in a case. Engagement row: 41 replies, 380 reposts, 6.2K likes."
+  },
+  {
+   "id": "T42_20_al_held_up_offer",
+   "group": "iteration",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "pod",
+   "angle": "Hands holding yellow vs clear aligner with 40% OFF CTA",
+   "based_on": "Iteration of TOFv1 DEN209 '#1 Dentures Cleaner' (video, 90-day test; $2,342 spend, ROAS 1.84)",
+   "headline": "Same aligners. 5 minutes apart.",
+   "prompt": "Bright photo: a smiling woman in her 30s holds up two realistic clear aligner trays toward the camera, one in each hand. Left: cloudy with white film, label \"Before\". Right: crystal clear, label \"After 5 min\". The DentalPULSE Pod from the reference photo on the counter. Headline top on white band, bold navy: \"Same aligners. 5 minutes apart.\" Bottom: a blue pill reading \"40% OFF · $99.95\" and a small line \"120-Day Money-Back Guarantee\".",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the blue pill and guarantee line",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the Before/After labels",
+      "ms": 900
+     }
+    ]
+   }
+  }
+ ]
+}
