@@ -1,9 +1,14 @@
-# RECLAIM landing page (draft)
+# RECLAIM product page (draft)
 
-`index.html` is a draft product landing page for RECLAIM Cortisol Balance + Hydration. It follows the structure and visual system of Blume's SuperBelly product page: lime announcement bar, gallery + subscription buy box with perk tiles, plum ticker, split photo/copy bands, full-bleed ingredient carousel, plum comparison table, warm gradient band, outlined UGC grid and a blush footer.
+`index.html` follows the section order of Blume's SuperBelly product page: lime bar, header, breadcrumb,
+gallery + buy box (subscription box with perk tiles, accordions, shaker promo), plum ticker, "Midlife has been hard on our cortisol"
+split with cited stats, ingredient carousel, "Benefits you can feel" split, orange band, plum comparison table,
+three cards, FAQ with references, blush footer.
 
-Assets: `reclaim-pouch.webp` (pack shot) and `reclaim-pouch-cutout.webp` (same shot with the background removed, used in the staged scenes). Glasses, sachets, fruit and the shaker are inline SVG placeholders until real photography exists.
+Images in `img/` were generated with `generate_images.py` (OpenAI gpt-image-2, using `reclaim-pouch.webp` as the product
+reference). Re-run one with `python landing/reclaim/generate_images.py pdp-1-hero` after deleting or to overwrite it.
+`sec-meet.webp` is a spare wide shot not used on the page yet.
 
-- Copy follows the approved draft, sections 1–14.
-- Bracketed placeholders show as yellow dashed chips. Internal guidance shows as "Draft note" callouts. The floating **Hide draft notes** button previews the page as a customer would see it, and also hides the reviews section, which stays hidden until there are real reviews.
-- The file is a page body without `<html>`/`<head>` (it was published as a claude.ai Artifact, which adds those). To paste it into Shopify/Replo, lift the `<style>` block and the sections.
+Yellow dashed chips are unconfirmed facts (price, doses, terms, NPN). "Draft note" boxes are internal guidance.
+The **Hide draft notes** button shows the customer view and hides the reviews placeholder.
+The page is a body fragment (published as a claude.ai Artifact, which adds `<html>`/`<head>`).
