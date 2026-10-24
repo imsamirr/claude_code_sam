@@ -126,6 +126,12 @@ prompt), and this skill.
   `seasonal --week <current week>` (top spenders by spend in the same window last year, ±7 days).
 - **Net-new runs**: `atria_pull.py inspo`, and refresh `competitors` + the playbook when the brand has
   one (new long-running formats only).
+- **Every run (user rule Oct 24, DentalPULSE)**: analyze our own top-spend statics (`winners` + `current`, with the
+  thumbnails via `contact_sheet.py winning_statics_raw.csv`) AND other brands in the category: run
+  `atria_pull.py ultrasonic --brand <brand>` (brand.json -> `ultrasonic_queries`, no brand filter, images and video),
+  filter, `contact_sheet.py --by brand`, read every page, and update analysis.md. At least 40% of a batch must be
+  product-forward iterations of the proven top-spend/top-impression formats (comparison tables, ranking charts,
+  lifestyle hero, big-type offer, quote + badge); gimmick formats are the minority.
 - If Atria returns 401, `ATRIA_API_KEY` isn't set: say so and use existing data. Never look for keys.
 
 ## 2. Write the batch

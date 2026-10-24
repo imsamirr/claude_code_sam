@@ -99,7 +99,8 @@
       "size": 40,
       "net_new": 32,
       "winning": 8,
-      "spanish": 0
+      "spanish": 0,
+      "top_spend_share": 0.4
     },
     "winning_personas": [
       "denture_wearer",
@@ -119,7 +120,8 @@
     },
     "roas_note": "Comparison/listicle ads send traffic to an advertorial (LP_LISTICLE); ROAS is the account's reported figure.",
     "offer": "Current offer: 40% OFF sale, $99.95, 120-day money-back guarantee. Use it on offer tiles and as a CTA line on ~30% of concepts.",
-    "mix": "Every batch: 50% dentures (incl. partials, caregiver/gift buyer), 50% other appliances weighted by the feedback sheet: night guards ~50% of that half, retainers ~30%, aligners/Invisalign ~15%, sleep-apnea/snore guards ~5%."
+    "mix": "Every batch: 50% dentures (incl. partials, caregiver/gift buyer), 50% other appliances weighted by the feedback sheet: night guards ~50% of that half, retainers ~30%, aligners/Invisalign ~15%, sleep-apnea/snore guards ~5%.",
+    "research_rule": "User Oct 24: EVERY batch (Tue and Fri) must first (1) read our top-spend ads (winners + current) and rebuild the proven formats, (2) run atria_pull.py ultrasonic + competitors and read the contact sheets of OTHER ultrasonic cleaner brands (Zima, Sonic Dental, Ploise, SmileTherapy, Pop On, Denture Care Tips) and other dental brands, and (3) write the batch so that at least 40% of concepts are product-forward iterations of those proven top-spend / top-impression formats (analysis.md section 11 'What to take'), the rest novelty/Notion formats."
   },
   "drive_folder_id": "1czcREwJ7CCml8-ZrrezzypAD9GLnwcxV",
   "slack": {
@@ -257,5 +259,39 @@
     "Dentures: push yellow → white hard ('white as the day I got them' is a real result). Night guards/retainers/aligners: frame yellow/cloudy/milky as bacteria + film ('that yellow is bacteria', 'stops it turning yellow', 'clear again', 'no white film') — do NOT promise years of set-in yellow vanish in one cycle (night-guard yellow-stain buyers were the least satisfied).",
     "Show the invisible: brown water, debris lifting, cavitation bubbles — several unhappy buyers saw 'no vibrations, just noise'.",
     "Funnel mix every batch: ~65% top-of-funnel (problem/enemy/mechanism/controversy, no price) and ~35% offer-based (40% OFF $99.95 + gifts + 120-day guarantee; bundles)."
+  ],
+  "ultrasonic_queries": [
+    "Zima Dental",
+    "Zima ultrasonic cleaner",
+    "Sonic Dental",
+    "Ploise",
+    "oPro ultrasonic",
+    "Novapod",
+    "MyNovaPod",
+    "iSonic ultrasonic",
+    "GuruNanda ultrasonic",
+    "Dr. B ultrasonic",
+    "Smile Therapy",
+    "Retainer Brite",
+    "ultrasonic retainer cleaner",
+    "ultrasonic denture cleaner",
+    "ultrasonic night guard cleaner",
+    "ultrasonic aligner cleaner",
+    "dental pod",
+    "retainer cleaner pod",
+    "clean your retainer",
+    "clean your dentures",
+    "denture cleaning",
+    "denture tablets",
+    "night guard cleaning",
+    "invisalign cleaning",
+    "UV retainer cleaner",
+    "jewelry ultrasonic cleaner dentures",
+    "Polident",
+    "Efferdent",
+    "Fixodent",
+    "denture adhesive",
+    "sleep apnea device cleaner",
+    "mouth guard cleaner"
   ]
 }

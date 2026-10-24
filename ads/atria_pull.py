@@ -9,6 +9,7 @@
     python ads/atria_pull.py current   # any ad in the last 30 days with >= $300 spend and ROAS >= 1.8
     python ads/atria_pull.py inspo       # image ads, rising impressions, launched last 30 days
     python ads/atria_pull.py competitors # top-impression ads: competitor_brands + inspo_queries keywords
+    python ads/atria_pull.py ultrasonic  # ultrasonic-cleaner brands + dental-appliance category (brand.json → ultrasonic_queries), images and video
 
 Writes CSVs to ads/brands/<brand>/research/data/. Atria returns at most 50 ads per date window, so
 spend is summed across monthly (winners) or weekly (losers) windows; ads
@@ -165,6 +166,38 @@ def inspo(api, acc, args):
     write_csv("inspiration_raw.csv", rows, list(rows[0]) if rows else ["brand"])
 
 
+def ultrasonic(api, acc, args):
+    """Ads from other ultrasonic cleaner brands (Zima, Sonic Dental, Ploise, oPro, Novapod, iSonic...) and
+    the dental-appliance category (denture/retainer/night guard/aligner cleaners). Queries come from
+    brand.json -> ultrasonic_queries; no brand filter, so any advertiser running them shows up. Images and
+    video, top by impressions, plus most_recent for what is new. Writes ultrasonic_ads.csv.
+    """
+    seen = {}
+    for query in args.ultra_queries:
+        for fmt in ("image", "video"):
+            for order in ("most_impressions", "best_match"):
+                try:
+                    items = api.get("ad-library/search", {"query": query, "display_format": fmt,
+                                                          "order": order, "page_size": 50})["items"]
+                except Exception as e:
+                    print(f"  {query} {fmt} {order}: {e}")
+                    continue
+                for it in items:
+                    seen.setdefault(it["id"], {**it, "query": query, "fmt": fmt})
+                time.sleep(0.6)
+    rows = []
+    for it in seen.values():
+        latest = (it.get("impression_rank") or {}).get("latest_rank") or {}
+        rows.append({"brand": it["brand_name"], "query": it["query"], "format": it["fmt"],
+                     "impression_percentile": latest.get("percentile"), "impression_rank": latest.get("rank"),
+                     "days_running": it["days_running"], "status": it.get("status"), "title": it.get("title"),
+                     "body": (it.get("body") or "")[:900],
+                     "image_url": (it.get("images") or [{}])[0].get("url") or it.get("thumbnail_url"),
+                     "landing_url": it.get("link_url")})
+    rows.sort(key=lambda r: (r["impression_percentile"] if r["impression_percentile"] is not None else 9))
+    write_csv("ultrasonic_ads.csv", rows, list(rows[0]) if rows else ["brand"])
+
+
 def competitors(api, acc, args):
     """Top-impression ads from competitor and adjacent brands (brand.json → competitor_brands), plus the
     top-impression image ads for each category keyword (inspo_queries). Atria ranks by impressions, so these
@@ -261,7 +294,7 @@ def rising(api, acc, args):
 def main():
     load_dotenv()
     p = argparse.ArgumentParser()
-    p.add_argument("what", choices=["winners", "losers", "inspo", "seasonal", "rising", "current", "competitors"])
+    p.add_argument("what", choices=["winners", "losers", "inspo", "seasonal", "rising", "current", "competitors", "ultrasonic"])
     p.add_argument("--days", type=int, default=30, help="rising: look-back window in days")
     p.add_argument("--min-spend-rising", type=float, default=300, help="rising: minimum spend in the window")
     p.add_argument("--min-roas", type=float, default=1.8, help="rising: minimum ROAS in the window")
@@ -280,13 +313,14 @@ def main():
     args.account = args.account or brand.get("atria_account", ACCOUNT_NAME)
     args.queries = brand.get("inspo_queries", INSPO_QUERIES)
     args.competitors = brand.get("competitor_brands", [])
+    args.ultra_queries = brand.get("ultrasonic_queries", [])
     # Without ATRIA_API_KEY the request relies on a network secret the proxy attaches.
     api = Atria(os.getenv("ATRIA_API_KEY"))
     acc = api.account_id(args.account)
     if not args.week:
         y, w, _ = (dt.date.today() + dt.timedelta(days=7)).isocalendar()
         args.week = f"{y}-W{w:02d}"
-    {"winners": winners, "losers": losers, "inspo": inspo, "seasonal": seasonal, "rising": rising, "current": rising, "competitors": competitors}[args.what](api, acc, args)
+    {"winners": winners, "losers": losers, "inspo": inspo, "seasonal": seasonal, "rising": rising, "current": rising, "competitors": competitors, "ultrasonic": ultrasonic}[args.what](api, acc, args)
 
 
 if __name__ == "__main__":
