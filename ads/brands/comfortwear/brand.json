@@ -283,7 +283,8 @@
       "share": 0.3,
       "rule": "User rule 2026-10-13: ~30% of every batch are offer-style creatives showing the full stack (40% OFF, 30-DAY MONEY-BACK GUARANTEE, FREE SHIPPING) as the hero, in varied formats (offer tile, stamp/seal, sticky notes, receipt, shoe + big type, warehouse/last-chance). Mix offer statics into the winning angles (nurse, travel, teacher, plus-size) and foot-pain hooks."
     },
-    "layout_note": "User rule 2026-10-18 (replaces 2026-10-13): ONE size only, 4:5 (feed), rendered once at high quality (generate.py --layout feed, the default); no 9:16. Compose natively for 4:5 using the full frame. Shoes never look compressed."
+    "layout_note": "User rule 2026-10-23 (reconfirms 2026-10-18): ONE file per creative, 4:5 only. Render with `generate.py --layout feed` (the default); never `--layout native`/`extend`, no 9:16 file. Compose natively for 4:5 using the full frame. Shoes never look compressed. This overrides any older prompt text asking for native 9:16 + 4:5. Quality/budget: the user's 2026-10-13 budget rule (medium, ~$0.10-0.20 per ad) still applies unless told otherwise.",
+    "trend_research": "User rule 2026-10-23: spend real effort on the Atria MCP/API for the NEWEST TRENDING STATIC formats every run, not just current/seasonal winners. Run `atria_pull.py inspo` (all inspo_queries) and `competitors`; sort by newest launch / fastest rank_delta_7d / most impressions; contact-sheet the image statics (`contact_sheet.py`), read every page, and write a short 'formats trending now' list (format name, who runs it, days running, what to borrow) into research/analysis.md. Net-new batches use at least 5 of these new formats (not 3); iteration batches take their big-swing formats from the same list. Name the trending source ad in based_on."
   },
   "colorway_template": "The shoe is the {label} colorway shown in the reference photo.",
   "colorway_priority": {

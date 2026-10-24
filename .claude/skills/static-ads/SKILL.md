@@ -115,7 +115,10 @@ When the user adds a rule later ("only these products", "5-minute cycles", "50/2
 analysis.md, any affected concepts (re-render), **every routine prompt** (update_trigger with the full
 prompt), and this skill.
 
-## 1. Research refresh (each run, short)
+## 1. Research refresh (each run)
+
+**User rules 2026-10-23 (Comfort Wear, apply to every brand unless told otherwise):** (a) one 4:5 file per creative, no 9:16, no second file: always `--layout feed`; (b) spend real effort on Atria for the newest trending static formats every run (`inspo` + `competitors`, newest/fastest-rising first, contact-sheet and read every page, log a 'formats trending now' list in `research/analysis.md`, use at least 5 per net-new batch).
+
 
 - Read `brand.json`, `research/analysis.md` and `feedback.json` (approved/rejected and why).
 - **Iteration runs**: `atria_pull.py current` (last `iterate_when.days` days, spend ≥ `min_spend`,
