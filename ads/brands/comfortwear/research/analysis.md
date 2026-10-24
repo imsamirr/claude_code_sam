@@ -276,3 +276,7 @@ User rule: ship one size only, 4:5, rendered once at high quality (`generate.py 
 
 1. **One file per ad:** 4:5 only (`--layout feed`, the default). No 9:16, no duplicate sizes. (The 2026-W44-fri batch was rendered with native 9:16 + 4:5 per an older routine prompt; the `_v1.png` 9:16 files there are unused.)
 2. **Trending static formats:** every run, mine Atria for the newest static formats (inspo + competitors, newest and fastest-rising first), contact-sheet them, and list 'formats trending now' here with who runs them, days running and what to borrow. Net-new batches use at least 5 of them.
+
+### Formats trending now (Atria inspo pull 2026-10-24, statics ≤3 days old)
+
+Shoe-in-the-trash lo-fi UGC (hand + old shoe in a bin) · "Would You Rather? A vs B" poll · "Hour One / Hour Six / Hour Twelve" 3-band stack (foam collapse, Stand+/Flexitec) · struck-through quote "Foot pain is just part of the job. It doesn't have to be." (STAND+) · story-text testimonial on a solid color/confetti card · Problem vs Answer two-column table (neuropathy) · Ice packs vs X split with X/check rows · woman pointing at shoe + "10 reasons" advertorial (Wide Comfort Shoes) · lo-fi real-life photos (break room, car after shift, worn insoles on a table) · BOGO full-bleed color block · customer-quotes bullet list ("We keep hearing the same thing…"). Carol Bennett story-post statics ("not wearing real orthopedic shoes", "$4,200 trip") jumped +50 ranks in 7 days.
