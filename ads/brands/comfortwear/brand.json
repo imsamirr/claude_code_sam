@@ -290,7 +290,8 @@
       "winners_first": "Before writing, analyze the previous winners for these two themes: atria_pull.py current + seasonal, winning_statics.csv, research/analysis.md (sections 1, 7, 12, 13), research/data/video_transcripts.md, and the winning nurse/travel statics (Dear Nurses $208k, 12-hour shift list $858k, shoes for 12h shifts diagram $457k, Game-changer $120k, Kyro 293/369/373 travel, TOFV1_KW1 plus-size theme-park 5.65 ROAS, Emily RN). Every concept's based_on names the winner it builds on (name, spend, ROAS) and what was kept (hook, format, proof).",
       "spanish_twins": "Every concept has a Spanish twin: same layout, format, colorway and visual, copy written natively for US Latinos (tu, family/coworker framing), not translated. Twin id = the English id with '_es' inserted after the number (e.g. W46_03_es_slug), lang es, field twin_of = the English id. A batch's size counts concept PAIRS (Tue 20 = 10 EN + 10 ES twins; Fri 40 = 20 + 20); adjust to the user's wishes if they say otherwise. Spanish does not need its own new angle.",
       "note": "Interpretation to confirm with the user: pairs count inside the batch size so the image budget stays the same.",
-      "copy_playbook": "User rule 2026-10-26: before writing nurse/travel concepts, read research/copy_playbook_nurse_travel.md (winning copy patterns from our top ads + competitor messaging) and apply its section 4 rules to every headline, quote and callout. Re-check it against the latest Atria current/competitors pulls each run and update the playbook with new competitor lines."
+      "copy_playbook": "User rule 2026-10-26: before writing nurse/travel concepts, read research/copy_playbook_nurse_travel.md (winning copy patterns from our top ads + competitor messaging) and apply its section 4 rules to every headline, quote and callout. Re-check it against the latest Atria current/competitors pulls each run and update the playbook with new competitor lines.",
+      "competitor_focus": "Also read research/competitor_focus_2026-10-26.md (WearStand, Clove, Hike Footwear, Snibbs; inspiration: Hollow Socks, Viasox) before writing nurse, travel and Black Friday concepts."
     },
     "black_friday_week_2026_11_09": {
       "rule": "User rule 2026-10-26. The week of Nov 9 (batches written for that week: Fri 2026-11-06 net-new, folder 2026-W46-fri, and Tue 2026-11-10 iteration, folder 2026-W46-tue) are BLACK FRIDAY specific concepts. Keep the nurse + travel themes and Spanish twins, foot-pain leads and 4:5-only rules. The standard '40% OFF + 30-DAY MONEY-BACK GUARANTEE + FREE SHIPPING' stack is NOT used in these concepts.",
@@ -410,5 +411,15 @@
       "use_for": "studio leg + shoe on white, 40% OFF circle, headline with colored second line, 5 check pills, 'try risk-free' button"
     }
   },
-  "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference."
+  "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
+  "competitor_brands": [
+    "Hike Footwear",
+    "WearStand",
+    "Clove",
+    "Snibbs",
+    "Hollow Socks",
+    "Viasox",
+    "Orthora"
+  ],
+  "competitor_notes": "Atria searches by keyword/domain, not brand name. Query by domain to find ads: hike-footwear.com, goclove.com (brand 'Clove'), hollowsocks.com, viasox.com, wearstand.com / 'WearStand' (STAND+). Snibbs has almost no data. Latest read: research/competitor_focus_2026-10-26.md and data/competitor_focus_2026-10-26.csv."
 }
