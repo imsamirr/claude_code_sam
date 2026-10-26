@@ -280,3 +280,9 @@ User rule: ship one size only, 4:5, rendered once at high quality (`generate.py 
 ### Formats trending now (Atria inspo pull 2026-10-24, statics ≤3 days old)
 
 Shoe-in-the-trash lo-fi UGC (hand + old shoe in a bin) · "Would You Rather? A vs B" poll · "Hour One / Hour Six / Hour Twelve" 3-band stack (foam collapse, Stand+/Flexitec) · struck-through quote "Foot pain is just part of the job. It doesn't have to be." (STAND+) · story-text testimonial on a solid color/confetti card · Problem vs Answer two-column table (neuropathy) · Ice packs vs X split with X/check rows · woman pointing at shoe + "10 reasons" advertorial (Wide Comfort Shoes) · lo-fi real-life photos (break room, car after shift, worn insoles on a table) · BOGO full-bleed color block · customer-quotes bullet list ("We keep hearing the same thing…"). Carol Bennett story-post statics ("not wearing real orthopedic shoes", "$4,200 trip") jumped +50 ranks in 7 days.
+
+## 16. Two-week focus and Black Friday week, 2026-10-26
+
+- **Oct 26 – Nov 8 runs:** nurse and travel (Disney, Europe) only; analyze previous winners first; each concept gets a Spanish twin (`_es` id, `twin_of`).
+- **Week of Nov 9:** Black Friday concepts. One offer per concept: "60% OFF SITEWIDE" OR "BUY 2 PAIRS, GET 2 FREE GIFTS" (3-pack cushioned socks + free travel bag). The 40% / 30-day / free-shipping stack is not used that week.
+- Full rules: `brand.json` → `program.focus_2026_10_26`, `program.black_friday_week_2026_11_09`.

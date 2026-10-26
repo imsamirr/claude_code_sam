@@ -117,6 +117,9 @@ prompt), and this skill.
 
 ## 1. Research refresh (each run)
 
+**Standing focus (Comfort Wear, user rule 2026-10-26):** see `brand.json` → `program.focus_2026_10_26` (nurse + travel [Disney/Europe] only, analyze previous winners first, every concept has a Spanish twin) and `program.black_friday_week_2026_11_09` (week of Nov 9: Black Friday concepts, "60% OFF SITEWIDE" OR "BUY 2 PAIRS, GET 2 FREE GIFTS" [3-pack cushioned socks + free travel bag], never both in one concept).
+
+
 **User rules 2026-10-23 (Comfort Wear, apply to every brand unless told otherwise):** (a) one 4:5 file per creative, no 9:16, no second file: always `--layout feed`; (b) spend real effort on Atria for the newest trending static formats every run (`inspo` + `competitors`, newest/fastest-rising first, contact-sheet and read every page, log a 'formats trending now' list in `research/analysis.md`, use at least 5 per net-new batch).
 
 
