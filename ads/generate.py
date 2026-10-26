@@ -133,6 +133,17 @@ BENCHMARK_RULE = (
 )
 
 
+UGC_RULE = ("This must look like a real, unedited phone photo or a real screenshot taken by an ordinary person, "
+            "not an ad render: natural uneven daylight or indoor light, slightly imperfect framing and focus falloff, "
+            "real everyday surroundings, real middle-aged and older women with natural skin, visible creases and "
+            "ordinary hands, real clothing, ordinary clutter. No studio lighting, no glossy or airbrushed look, no "
+            "perfect stock-photo faces, no dramatic color grading, no 3D render look. Text overlays are simple "
+            "and flat like a phone editing app, handwritten notes or stickers look hand-made. The shoe stays the exact "
+            "product from the reference at true proportions.")
+UGC_BENCH_RULE = ("The SECOND attached image is a past ad of this brand: use it only as a loose reference for how big and "
+                  "bold the headline and labels are; do NOT match its glossy studio look.")
+
+
 def benchmark_for(bdir, brand, concept):
     """The brand ad attached as a quality/style reference: concept['benchmark'] names a key in brand.json."""
     key = concept.get("benchmark")
@@ -170,13 +181,16 @@ def build_prompt(bdir, brand, concept, extra, layout_rule=FORMAT_RULE):
     if concept.get("format") in ILLUSTRATED:
         # Cartoon/animation formats: drop the photo-quality rule, keep the product recognizable.
         rules = [r for r in rules if "photography" not in r.lower()] + [ILLUSTRATED_RULE]
+    ugc = concept.get("style") == "ugc"
+    if ugc:
+        rules = [r for r in rules if "photography" not in r.lower()] + [UGC_RULE]
     parts += rules
     lang = concept.get("lang", "en")
     if lang != "en":
         parts.append(brand["language_rules"][lang])
-    parts += brand.get("quality_bar", [])
+    parts += brand.get("quality_bar_ugc", []) if ugc and brand.get("quality_bar_ugc") else brand.get("quality_bar", [])
     if benchmark_for(bdir, brand, concept):
-        parts.append(BENCHMARK_RULE)
+        parts.append(UGC_BENCH_RULE if ugc else BENCHMARK_RULE)
     prefs = learned_preferences(bdir, concept["id"])
     if prefs:
         parts.append(prefs)

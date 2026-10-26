@@ -59,3 +59,20 @@ Sources: our own winners (`winning_statics.csv`, `current_winners.csv`, `rising_
 7. **Offers**: static offer lines stay short ("40% OFF", etc.). BF week: 60% sitewide OR buy 2 pairs, get 2 free gifts (3-pack cushioned socks, free travel bag), never both.
 8. **Spanish twin**: keep the same scene and structure, rewrite the voice: tú, family/income stakes ("mi familia depende de mi ingreso"), comadre/coworker recommendation, "turno de 12 horas", "me duelen los talones". Never literal translation.
 9. **Headline bank (adapt, don't copy)**: "Hour 6 is when it starts." / "Fine at breakfast. Hour 8 is the real test." / "The walk to my car used to take 5 minutes." / "Three nurses on my floor asked." / "Lisbon in Hokas. Paris in Nikes. Then these." / "20,000 steps before lunch." / "Not the one on the bench."
+
+## 5. Pattern review v2 (2026-10-26): what long-running winners and competitors have in common
+
+Read from the 40 longest-running shoe/foot statics in Atria (`data/longrun_statics.csv`, sheets `longrun_statics_*.jpg`; 160-570 days live) plus our own winners.
+
+1. **Features and benefits are always on the image.** Our winners (Dear Nurses callouts, 12-hour shift list, diagram, "Flash sale" with toe-box/arch/cushioning icons) and competitors (Clove pills, FitVille, Hike, "Built for hard concrete floors" bullet list: 12-hour comfort, arch support for standing all day, cushioning that doesn't collapse mid-shift, slip-resistant outsole, wide toe box) all list 3-5 short body-part benefits. Our v1 tests dropped them for scenes and wordplay.
+2. **The real-looking ads run longest.** Stepprs (401 days): insoles on a wooden floor with handwritten sticky notes; a cardboard box with a handwritten "Buy 4 Get 4 Free" sign; a hand holding a sock with a story Q&A sticker; a woman's selfie at her kitchen counter; bare feet close-ups; a hand holding a candy bar. Phone-shot, uneven light, ordinary rooms, real older hands and feet. Glossy composites (our v1: studio-lit scenes, castle cartoons, perfect lighting) read as ads.
+3. **Offers are quiet, small and often handwritten.** Stepprs: a sticky note "Now up to 60% off, ends in 48 hrs, 90 day money back guarantee". Our own long-runners: "$59.95 / 12-hour shift shoes / today only" as a small top line, "40% OFF + FREE SHIPPING" as small text under the shoe, one underlined line at the bottom of the comments ad. WearStand runs no discount at all, just a stock stamp. The big full-width offer block belongs to short-run promo templates.
+4. **Copy is 3-7 plain words and says the thing.** "Dear Nurses, work 12-hour shifts pain-free." "Built for hard concrete floors." "Say goodbye to plantar fasciitis." "Neuropathy relief in 14 days." "End bunion pain in 30 days or your money back." "You'll forget us." "Foot Relief." "Selling out in 4 days." No wordplay, no props-as-jokes.
+5. **One clear product shot, nothing else competing**: a single hero shoe/pair, labeled, on a plain or real surface.
+
+### v2 rules (also in `brand.json` → `program.creative_rules_v2` and `quality_bar_ugc`)
+- `"style": "ugc"` on new concepts: generate.py swaps the polished-photography rules for a "real phone photo" rule and attaches the benchmark only as a loose size/weight reference.
+- Every concept: 3-4 feature/benefit labels (arch support, cushioned heel, wide toe box, slip-resistant grip, stretch-knit upper, firm sole), hand-drawn arrows or sticky notes.
+- Offer: one small line/sticky/sticker in a corner; Black Friday = one small tag, either 60% sitewide or buy 2 get 2 gifts.
+- Headline: <= 7 words, problem or benefit, plain words ("Heel pain after 12-hour shifts?", "Cobblestones hurt. These don't.", "Swollen feet after flying?").
+- Banned headline devices: permission slip, admit one, be the one who, lesson plan, hour-8-is-the-test style puns.

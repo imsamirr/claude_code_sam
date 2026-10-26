@@ -301,6 +301,13 @@
       },
       "either_or": "Each concept uses offer A OR offer B, never both on the same concept. Split roughly evenly across the batch; a concept's Spanish twin uses the same offer. Offer concepts are most of the batch (BF week); non-offer concepts still lead with foot pain/nurse/travel hooks and a small BF tag.",
       "do_not": "Do not name prices or a dollar value for the gifts, do not combine the 60% with the gifts, do not use 'quick/fast shipping' or easy-returns wording."
+    },
+    "creative_rules_v2": {
+      "rule": "User rule 2026-10-26 (replaces the polished-ad look for new concepts). Fixes four issues in the test batches: (1) no features/benefits on the ad, (2) looks AI, not real, (3) offer too loud, (4) copy too clever. Set `\"style\": \"ugc\"` on a concept to apply generate.py's UGC rule and brand.json -> quality_bar_ugc; default for all new nurse/travel/Black Friday concepts.",
+      "features": "Every concept shows 3-4 plain feature/benefit labels (body part + benefit).",
+      "real": "Phone-photo / screenshot / handwritten-note look, real environments, real women 55+, imperfect framing. Native formats (fb_comment, trustpilot, x_post, text thread) are real UI. Illustrations only for the cartoon share.",
+      "offer": "One small line, sticker or handwritten note; never the hero. Standard: '40% OFF + FREE SHIPPING' and '30-DAY MONEY-BACK GUARANTEE' as one small line or two small stickers (exact words). Black Friday: one small tag, either '60% OFF SITEWIDE' or 'BUY 2 PAIRS, GET 2 FREE GIFTS' (3-pack cushioned socks + free travel bag), never both.",
+      "copy": "Headline max 7 words, everyday words, problem or benefit first. Patterns that win: '[Problem]?', 'Dear [Role], [benefit].', '[Outcome] in [number].', 'Built for [place/situation].', 'Say goodbye to [problem].', 'You'll forget you're wearing them.' Banned: wordplay, metaphors, props-as-jokes (permission slip, admit one, be the one who, lesson plan)."
     }
   },
   "colorway_template": "The shoe is the {label} colorway shown in the reference photo.",
@@ -421,5 +428,13 @@
     "Viasox",
     "Orthora"
   ],
-  "competitor_notes": "Atria searches by keyword/domain, not brand name. Query by domain to find ads: hike-footwear.com, goclove.com (brand 'Clove'), hollowsocks.com, viasox.com, wearstand.com / 'WearStand' (STAND+). Snibbs has almost no data. Latest read: research/competitor_focus_2026-10-26.md and data/competitor_focus_2026-10-26.csv."
+  "competitor_notes": "Atria searches by keyword/domain, not brand name. Query by domain to find ads: hike-footwear.com, goclove.com (brand 'Clove'), hollowsocks.com, viasox.com, wearstand.com / 'WearStand' (STAND+). Snibbs has almost no data. Latest read: research/competitor_focus_2026-10-26.md and data/competitor_focus_2026-10-26.csv.",
+  "quality_bar_ugc": [
+    "REAL, NOT AI (user rule 2026-10-26): the ad must read as a real phone photo, screenshot or hand-made note from a real customer or coworker, like the long-running competitor statics (Stepprs sticky notes on insoles, handwritten cardboard sign, selfie at a kitchen counter, hand holding the product, break-room and car-seat photos). No glossy studio render look.",
+    "The shoe is still the hero and clearly visible (about 30-50% of the frame), sharp enough to see the knit and square pattern, true natural proportions, worn on a real foot or held in a real hand or sitting in the real scene.",
+    "FEATURES AND BENEFITS are always on the image: 3 or 4 short plain labels tied to a body part or problem (for example Arch support, Cushioned heel, Wide toe box, Slip-resistant grip, Stretch-knit upper, No-tie laces), as arrow callouts on the shoe, a check list, or handwritten notes.",
+    "The OFFER is subtle: one small line, sticker or handwritten note in a corner or along the bottom edge, never a full-width block, circle or headline. Text stays readable (at least about 1/30 of the canvas height).",
+    "Headline is plain and direct: at most 7 words, everyday words, states the problem or the benefit. No wordplay, no metaphors. One headline plus labels, nothing else.",
+    "Legibility for women 60+: all supporting text large, bold, high contrast, max 4-5 words per label; fewer labels rather than smaller text."
+  ]
 }

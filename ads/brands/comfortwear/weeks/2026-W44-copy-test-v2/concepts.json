@@ -1,0 +1,232 @@
+{
+  "week": "2026-W44-copy-test-v2",
+  "notes": "2026-10-26 v2 of copy-test after feedback: features on every ad, real phone-photo look (style ugc), subtle offer, plain copy. 4:5, medium.",
+  "concepts": [
+    {
+      "id": "R44_01_nurse_heel_pain_callouts",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "black_purple",
+      "theme": "nurse",
+      "style": "ugc",
+      "angle": "Real phone photo of a nurse's feet in the break room with 3 hand-drawn feature arrows (v2: real look, features, plain copy, no offer)",
+      "based_on": "Dear Nurses callouts winner ($208k, 2.92 ROAS) + Emily RN heel pain (3.05 ROAS); competitor real-photo statics (Stepprs, Treatmedy)",
+      "headline": "Heel pain after 12-hour shifts?",
+      "prompt": "An unedited phone photo taken from above by a nurse sitting in a hospital break room, looking down at her own feet in navy scrub pants wearing the black-purple shoe from the reference photo, on a worn linoleum floor with a chair leg and a paper cup visible, uneven overhead fluorescent light. The shoe is about 40% of the frame. A plain white headline typed on the photo at the top like a phone editing app: \"HEEL PAIN AFTER 12-HOUR SHIFTS?\" Three hand-drawn black marker arrows (slightly wobbly) pointing at the shoe with handwritten-style labels: \"CUSHIONED HEEL\", \"ARCH SUPPORT\", \"SLIP-RESISTANT GRIP\". All text is large bold, high contrast, max 5 words per label. No other text anywhere.",
+      "benchmark": "callouts_white",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "R44_01_es_nurse_heel_pain_callouts",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "es",
+      "colorway": "black_purple",
+      "theme": "nurse",
+      "style": "ugc",
+      "angle": "Real phone photo of a nurse's feet in the break room with 3 hand-drawn feature arrows (v2: real look, features, plain copy, no offer)",
+      "based_on": "Dear Nurses callouts winner ($208k, 2.92 ROAS) + Emily RN heel pain (3.05 ROAS); competitor real-photo statics (Stepprs, Treatmedy)",
+      "headline": "¿Dolor de talón después de 12 horas?",
+      "prompt": "Una foto de celular sin editar tomada desde arriba por una enfermera sentada en la sala de descanso de un hospital, mirando sus propios pies en pantalón de uniforme azul marino con el zapato negro-morado del referente, sobre un piso de linóleo gastado con la pata de una silla y un vaso de papel a la vista, luz fluorescente pareja. El zapato ocupa ~40% del cuadro. Un titular blanco simple escrito sobre la foto como en una app de edición del celular arriba: \"¿DOLOR DE TALÓN DESPUÉS DE 12 HORAS?\" Tres flechas dibujadas a mano con marcador negro (algo chuecas) apuntan al zapato con etiquetas estilo manuscrito: \"TALÓN ACOLCHADO\", \"SOPORTE DE ARCO\", \"SUELA ANTIDERRAPANTE\". Todo el texto es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta. Ningún otro texto.",
+      "benchmark": "callouts_white",
+      "twin_of": "R44_01_nurse_heel_pain_callouts",
+      "tags": [
+        "FP",
+        "ES"
+      ]
+    },
+    {
+      "id": "R44_02_nurse_locker_sticky_notes",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "theme": "nurse",
+      "style": "ugc",
+      "angle": "Hospital locker with the shoe and 3 handwritten sticky notes of features, offer as one small sticky (v2, subtle offer)",
+      "based_on": "Stepprs sticky-notes-on-product static (401 days, top 0.3%); our offer winners (RTGv1_O1 3.86 ROAS); Emily RN",
+      "headline": "Nurses: feet hurt by hour 8?",
+      "prompt": "An unedited phone photo of the inside of a hospital staff locker: the navy shoe from the reference photo sitting on the locker shelf next to a lanyard and a stethoscope, about 35% of the frame, uneven light. Three small yellow sticky notes handwritten in black marker stuck on the locker door: \"ARCH SUPPORT\", \"CUSHIONED HEEL\", \"WIDE TOE BOX\". Plain white typed headline at the top like a phone editing app: \"NURSES: FEET HURT BY HOUR 8?\" In the bottom-right corner one small white handwritten-style sticky note, smaller than the others, with three tiny lines: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". All text is large bold, high contrast, max 5 words per label. No other text anywhere.",
+      "benchmark": "warehouse_urgency",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "R44_02_es_nurse_locker_sticky_notes",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "es",
+      "colorway": "navy_blue",
+      "theme": "nurse",
+      "style": "ugc",
+      "angle": "Hospital locker with the shoe and 3 handwritten sticky notes of features, offer as one small sticky (v2, subtle offer)",
+      "based_on": "Stepprs sticky-notes-on-product static (401 days, top 0.3%); our offer winners (RTGv1_O1 3.86 ROAS); Emily RN",
+      "headline": "Enfermeras: ¿pies adoloridos a la hora 8?",
+      "prompt": "Una foto de celular sin editar del interior de un casillero de personal de hospital: el zapato azul marino del referente sobre la repisa junto a un cordón de gafete y un estetoscopio, ~35% del cuadro, luz pareja. Tres notas adhesivas amarillas escritas a mano con marcador negro pegadas en la puerta: \"SOPORTE DE ARCO\", \"TALÓN ACOLCHADO\", \"PUNTERA ANCHA\". Titular blanco simple tipo app de celular arriba: \"ENFERMERAS: ¿PIES ADOLORIDOS A LA HORA 8?\" En la esquina inferior derecha una nota adhesiva blanca pequeña escrita a mano, más chica que las demás, con tres líneas pequeñas escritas exactamente así en inglés: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". Todo el texto es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta. Ningún otro texto.",
+      "benchmark": "warehouse_urgency",
+      "twin_of": "R44_02_nurse_locker_sticky_notes",
+      "tags": [
+        "FP",
+        "OFFER",
+        "ES"
+      ]
+    },
+    {
+      "id": "R44_03_europe_cobblestones_feet",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "theme": "travel",
+      "style": "ugc",
+      "angle": "Real phone photo of feet on cobblestones with 3 feature labels (travel, no offer)",
+      "based_on": "Kyro 293/369/373 cobblestone winners (C$58-67k); Vessi 'Float over cobblestones'; Dear Nurses callouts",
+      "headline": "Cobblestones hurt. These don't.",
+      "prompt": "An unedited phone photo looking down at a woman's feet in light trousers standing on old European cobblestones in uneven afternoon sun, a bit of a café chair leg and a scooter wheel at the edge, wearing the red-burgundy shoe from the reference photo, about 45% of the frame. Plain white typed headline at the top like a phone editing app: \"COBBLESTONES HURT. THESE DON'T.\" Three simple handwritten-style labels with thin hand-drawn arrows: \"FIRM SOLE\", \"CUSHIONED HEEL\", \"WIDE TOE BOX\". All text is large bold, high contrast, max 5 words per label. No other text anywhere.",
+      "benchmark": "callouts_white",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "R44_03_es_europe_cobblestones_feet",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "es",
+      "colorway": "red_burgundy",
+      "theme": "travel",
+      "style": "ugc",
+      "angle": "Real phone photo of feet on cobblestones with 3 feature labels (travel, no offer)",
+      "based_on": "Kyro 293/369/373 cobblestone winners (C$58-67k); Vessi 'Float over cobblestones'; Dear Nurses callouts",
+      "headline": "Los adoquines duelen. Estos no.",
+      "prompt": "Una foto de celular sin editar mirando hacia abajo los pies de una mujer en pantalón claro parada sobre adoquines europeos antiguos con sol desigual de tarde, un poco de la pata de una silla de café y una rueda de scooter en el borde, con el zapato rojo del referente, ~45% del cuadro. Titular blanco simple tipo app de celular arriba: \"LOS ADOQUINES DUELEN. ESTOS NO.\" Tres etiquetas estilo manuscrito con flechas delgadas dibujadas a mano: \"SUELA FIRME\", \"TALÓN ACOLCHADO\", \"PUNTERA ANCHA\". Todo el texto es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta. Ningún otro texto.",
+      "benchmark": "callouts_white",
+      "twin_of": "R44_03_europe_cobblestones_feet",
+      "tags": [
+        "FP",
+        "ES"
+      ]
+    },
+    {
+      "id": "R44_04_themepark_swollen_feet_bench",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "black_white",
+      "theme": "travel",
+      "style": "ugc",
+      "angle": "Real phone photo of a plus-size woman's feet on a theme-park bench with 3 feature labels (travel, no offer)",
+      "based_on": "Plus-size theme-park video TOFV1_KW1 (5.65 ROAS); Viasox 'Foot & ankle swelling? Start here'; 'Dear Nurses' callouts",
+      "headline": "Swollen feet at the park?",
+      "prompt": "An unedited phone photo taken from above by a plus-size woman sitting on a bench at a generic theme park (no characters, no logos), looking down at her own feet and legs in capri leggings, wearing the black-white shoe from the reference photo, a paper map and a water bottle beside her, uneven bright sun, about 40% of the frame is the shoe. Plain white typed headline at the top like a phone editing app: \"SWOLLEN FEET AT THE PARK?\" Three handwritten-style labels with thin arrows: \"STRETCH-KNIT UPPER\", \"WIDE TOE BOX\", \"CUSHIONED HEEL\". All text is large bold, high contrast, max 5 words per label. No other text anywhere.",
+      "benchmark": "callouts_white",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "R44_04_es_themepark_swollen_feet_bench",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "es",
+      "colorway": "black_white",
+      "theme": "travel",
+      "style": "ugc",
+      "angle": "Real phone photo of a plus-size woman's feet on a theme-park bench with 3 feature labels (travel, no offer)",
+      "based_on": "Plus-size theme-park video TOFV1_KW1 (5.65 ROAS); Viasox 'Foot & ankle swelling? Start here'; 'Dear Nurses' callouts",
+      "headline": "¿Pies hinchados en el parque?",
+      "prompt": "Una foto de celular sin editar tomada desde arriba por una mujer curvilínea sentada en una banca de un parque de diversiones genérico (sin personajes ni logos), mirando sus propios pies y piernas en leggings capri, con el zapato negro con blanco del referente, un mapa de papel y una botella de agua a su lado, sol fuerte desigual, el zapato ocupa ~40% del cuadro. Titular blanco simple tipo app de celular arriba: \"¿PIES HINCHADOS EN EL PARQUE?\" Tres etiquetas estilo manuscrito con flechas delgadas: \"TEJIDO ELÁSTICO\", \"PUNTERA ANCHA\", \"TALÓN ACOLCHADO\". Todo el texto es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta. Ningún otro texto.",
+      "benchmark": "callouts_white",
+      "twin_of": "R44_04_themepark_swollen_feet_bench",
+      "tags": [
+        "FP",
+        "ES"
+      ]
+    },
+    {
+      "id": "R44_05_bf_nurse_2_pairs_2_gifts",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "all_black",
+      "theme": "blackfriday",
+      "style": "ugc",
+      "angle": "Black Friday gifts offer only, subtle: bed flat-lay phone photo with handwritten labels, 2 features (v2)",
+      "based_on": "Hollow Socks 'Buy 2 Get 2 FREE'; Clove gifts with purchase; Stepprs handwritten note; our feature-label winners",
+      "headline": "Nurses: tired feet after 12 hours?",
+      "prompt": "An unedited phone photo from above of a made bed with a grey blanket: two pairs of the all-black shoe from the reference photo side by side at true proportions (about 40% of the frame), a 3-pack of black cushioned socks in a plain paper band and a plain navy duffel travel bag next to them, no brand logos. Plain white typed headline at the top like a phone editing app: \"NURSES: TIRED FEET AFTER 12 HOURS?\" Two handwritten-style labels with thin arrows on the shoes: \"ARCH SUPPORT\", \"CUSHIONED HEEL\". In the bottom-left corner one small handwritten note card, smaller than the headline, reading: \"BLACK FRIDAY: BUY 2 PAIRS, GET 2 FREE GIFTS\" and two tiny handwritten tags pointing to the socks and the bag: \"3-PACK CUSHIONED SOCKS\", \"FREE TRAVEL BAG\". No other offer text. All text is large bold, high contrast, max 5 words per label. No other text anywhere.",
+      "benchmark": "warehouse_urgency",
+      "tags": [
+        "FP",
+        "OFFER",
+        "BF"
+      ]
+    },
+    {
+      "id": "R44_05_es_bf_nurse_2_pairs_2_gifts",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "es",
+      "colorway": "all_black",
+      "theme": "blackfriday",
+      "style": "ugc",
+      "angle": "Black Friday gifts offer only, subtle: bed flat-lay phone photo with handwritten labels, 2 features (v2)",
+      "based_on": "Hollow Socks 'Buy 2 Get 2 FREE'; Clove gifts with purchase; Stepprs handwritten note; our feature-label winners",
+      "headline": "Enfermeras: ¿pies cansados después de 12 horas?",
+      "prompt": "Una foto de celular sin editar desde arriba de una cama tendida con cobija gris: dos pares del zapato todo negro del referente lado a lado a proporciones reales (~40% del cuadro), un paquete de 3 calcetines acolchados negros con banda de papel liso y una bolsa de viaje azul marino lisa a su lado, sin logos. Titular blanco simple tipo app de celular arriba: \"ENFERMERAS: ¿PIES CANSADOS DESPUÉS DE 12 HORAS?\" Dos etiquetas estilo manuscrito con flechas delgadas en los zapatos: \"SOPORTE DE ARCO\", \"TALÓN ACOLCHADO\". En la esquina inferior izquierda una tarjeta pequeña escrita a mano, más chica que el titular: \"VIERNES NEGRO: COMPRA 2 PARES, LLÉVATE 2 REGALOS GRATIS\" y dos etiquetas pequeñas a mano que apuntan a los calcetines y la bolsa: \"PAQUETE DE 3 CALCETINES ACOLCHADOS\", \"BOLSA DE VIAJE GRATIS\". Ningún otro texto de oferta. Todo el texto es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta. Ningún otro texto.",
+      "benchmark": "warehouse_urgency",
+      "twin_of": "R44_05_bf_nurse_2_pairs_2_gifts",
+      "tags": [
+        "FP",
+        "OFFER",
+        "BF",
+        "ES"
+      ]
+    },
+    {
+      "id": "R44_06_bf_flight_swollen_60",
+      "group": "net_new",
+      "persona": "plus_size",
+      "lang": "en",
+      "colorway": "black_mint",
+      "theme": "blackfriday",
+      "style": "ugc",
+      "angle": "Black Friday sitewide offer only, subtle: airport phone photo of feet with 3 feature labels (v2)",
+      "based_on": "Viasox 'Foot & Ankle Swelling? Start Here'; Stepprs small handwritten offer; plus-size traveler winners (5.65 ROAS)",
+      "headline": "Swollen feet after flying?",
+      "prompt": "An unedited phone photo taken looking down by a plus-size woman waiting at an airport gate, her feet in black leggings wearing the black-turquoise shoe from the reference photo next to a carry-on wheel on a carpeted floor, uneven terminal light, the shoe about 40% of the frame. Plain white typed headline at the top like a phone editing app: \"SWOLLEN FEET AFTER FLYING?\" Three handwritten-style labels with thin arrows: \"STRETCH-KNIT UPPER\", \"WIDE TOE BOX\", \"CUSHIONED HEEL\". In the bottom-right corner one small black sticker-style tag, smaller than the labels, with white text: \"BLACK FRIDAY: 60% OFF SITEWIDE\". No other offer text. All text is large bold, high contrast, max 5 words per label. No other text anywhere.",
+      "benchmark": "warehouse_urgency",
+      "tags": [
+        "FP",
+        "OFFER",
+        "BF"
+      ]
+    },
+    {
+      "id": "R44_06_es_bf_flight_swollen_60",
+      "group": "net_new",
+      "persona": "plus_size",
+      "lang": "es",
+      "colorway": "black_mint",
+      "theme": "blackfriday",
+      "style": "ugc",
+      "angle": "Black Friday sitewide offer only, subtle: airport phone photo of feet with 3 feature labels (v2)",
+      "based_on": "Viasox 'Foot & Ankle Swelling? Start Here'; Stepprs small handwritten offer; plus-size traveler winners (5.65 ROAS)",
+      "headline": "¿Pies hinchados después de volar?",
+      "prompt": "Una foto de celular sin editar tomada mirando hacia abajo por una mujer curvilínea esperando en una puerta de embarque, sus pies en leggings negros con el zapato negro con turquesa del referente junto a la rueda de una maleta de mano sobre alfombra, luz pareja de la terminal, el zapato ocupa ~40% del cuadro. Titular blanco simple tipo app de celular arriba: \"¿PIES HINCHADOS DESPUÉS DE VOLAR?\" Tres etiquetas estilo manuscrito con flechas delgadas: \"TEJIDO ELÁSTICO\", \"PUNTERA ANCHA\", \"TALÓN ACOLCHADO\". En la esquina inferior derecha una etiqueta negra pequeña tipo sticker, más chica que las etiquetas, con texto blanco: \"VIERNES NEGRO: 60% DE DESCUENTO EN TODO\". Ningún otro texto de oferta. Todo el texto es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta. Ningún otro texto.",
+      "benchmark": "warehouse_urgency",
+      "twin_of": "R44_06_bf_flight_swollen_60",
+      "tags": [
+        "FP",
+        "OFFER",
+        "BF",
+        "ES"
+      ]
+    }
+  ]
+}
