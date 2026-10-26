@@ -76,3 +76,11 @@ Read from the 40 longest-running shoe/foot statics in Atria (`data/longrun_stati
 - Offer: one small line/sticky/sticker in a corner; Black Friday = one small tag, either 60% sitewide or buy 2 get 2 gifts.
 - Headline: <= 7 words, problem or benefit, plain words ("Heel pain after 12-hour shifts?", "Cobblestones hurt. These don't.", "Swollen feet after flying?").
 - Banned headline devices: permission slip, admit one, be the one who, lesson plan, hour-8-is-the-test style puns.
+
+## 6. Feedback from the Atria MCP analysis thread (2026-10-26)
+
+- Winning statics = white background, one big shoe, "12-hour shifts" in the headline, arrows to conditions by name (plantar fasciitis, bunions / hallux valgus, blood circulation). Verified: Dear Nurses Features $229k at 4.34 ROAS; 12-hour shift list $858k; "Last chance" / "$59.95 12-hour shift shoes" / "Selling out in 4 days" all run this clean white layout for 200+ days.
+- Sale statics show the strike-through price ($90 -> $59.95) on three colors.
+- Losing statics are designed brand pieces (navy condensed headline, icon badges, SHOP NOW button in the image): they read as ads.
+- "Your running shoes weren't made for 12-hour shifts. These were." is a strong line that was ignored in a bad layout: reuse it in the winning layout.
+- Rule: about half of new concepts use the white-background winning layout, the rest the real phone-photo look; both with features, plain headline, small offer. See `brand.json` -> `program.creative_rules_v2`.
