@@ -543,6 +543,10 @@
     "approved_Q48_03": {
       "file": "weeks/2026-W48-bf-batch4/output/Q48_03_yes_its_pricey_gifts_v1.png",
       "use_for": "OWN render (user asked for a 60% version 2026-10-27): yes it's pricey"
+    },
+    "approved_Q48_06": {
+      "file": "weeks/2026-W48-bf-batch4/output/Q48_06_may_never_again_price_v1.png",
+      "use_for": "OWN render (user asked for White Blue and Black/Purple versions 2026-10-27): may never again, $120 -> $59.95"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",

@@ -111,6 +111,38 @@
       "tags": [],
       "copy_of": "Q48_03_yes_its_pricey_gifts_v1",
       "revision": "new (user 2026-10-27): Q48_03 with 60% OFF SITEWIDE instead of the buy-2 gifts; shoes only"
+    },
+    {
+      "id": "Q48_08_may_never_again_price_navy",
+      "persona": "comfort_only",
+      "colorway": "navy_blue",
+      "benchmark": "approved_Q48_06",
+      "offer": "A_sitewide",
+      "angle": "Big-statement Black Friday: we may never do this again, $120 struck -> $59.95",
+      "based_on": "User reference: Sculpiflex 'WE WILL NEVER DO THIS AGAIN! $369 -> $99'",
+      "headline": "WE MAY NEVER DO THIS AGAIN!",
+      "prompt": "Light grey seamless studio background. Yellow caution tape printed with black \"BLACK FRIDAY\" runs diagonally down the left and right edges. Top: huge heavy black all-caps headline on two lines \"WE MAY NEVER\" / \"DO THIS AGAIN!\". Below: a red rounded box with white heavy text \"$120\" with a thick white strike-through line across it, a bold black arrow pointing right, then a bright green rounded box with white heavy text \"$59.95\". Center: a pair of the navy shoes with bright blue accents (White Blue) from the product reference, large and sharp at true proportions, soft shadow. Bottom: heavy black italic all-caps \"60% OFF SITEWIDE THIS BLACK FRIDAY\". No promo code, no other prices. All text is large, bold and high contrast for readers aged 60+; nothing small or thin. Compared with the second attached image: same layout, headline, price boxes, caution tape and bottom line; only the shoe color changes.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "copy_of": "Q48_06_may_never_again_price_v1",
+      "revision": "new (user 2026-10-27): Q48_06 with the navy shoes with bright blue accents (White Blue)"
+    },
+    {
+      "id": "Q48_09_may_never_again_price_bp",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "benchmark": "approved_Q48_06",
+      "offer": "A_sitewide",
+      "angle": "Big-statement Black Friday: we may never do this again, $120 struck -> $59.95",
+      "based_on": "User reference: Sculpiflex 'WE WILL NEVER DO THIS AGAIN! $369 -> $99'",
+      "headline": "WE MAY NEVER DO THIS AGAIN!",
+      "prompt": "Light grey seamless studio background. Yellow caution tape printed with black \"BLACK FRIDAY\" runs diagonally down the left and right edges. Top: huge heavy black all-caps headline on two lines \"WE MAY NEVER\" / \"DO THIS AGAIN!\". Below: a red rounded box with white heavy text \"$120\" with a thick white strike-through line across it, a bold black arrow pointing right, then a bright green rounded box with white heavy text \"$59.95\". Center: a pair of the black-and-purple shoes from the product reference, large and sharp at true proportions, soft shadow. Bottom: heavy black italic all-caps \"60% OFF SITEWIDE THIS BLACK FRIDAY\". No promo code, no other prices. All text is large, bold and high contrast for readers aged 60+; nothing small or thin. Compared with the second attached image: same layout, headline, price boxes, caution tape and bottom line; only the shoe color changes.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "copy_of": "Q48_06_may_never_again_price_v1",
+      "revision": "new (user 2026-10-27): Q48_06 with the black-and-purple shoes"
     }
   ]
 }
