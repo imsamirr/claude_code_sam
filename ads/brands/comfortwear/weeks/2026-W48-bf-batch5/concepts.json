@@ -86,6 +86,54 @@
       "headline": "YOU WEREN'T SUPPOSED TO SEE THIS",
       "prompt": "Plain light warm-grey background. Top center: heavy dark charcoal all-caps headline on two lines \"YOU WEREN'T\" / \"SUPPOSED TO SEE THIS\". Below, dark grey text on two lines: \"Our code leaked ahead of schedule, and now you get 24 hours to grab the deal.\" Then dark grey all-caps \"USE CODE\", then a white rounded pill with a thick dark outline holding heavy dark all-caps \"LEAKED10\". Then heavy coral-red all-caps \"FOR EXTRA 10% OFF\". Bottom: on the left, one black-and-purple shoe from the attached product reference; on the right, one navy shoe with bright blue accents from the reference; both large, sharp, at true proportions, angled slightly toward the center. Do NOT show the red/burgundy shoe. Between the two shoes, heavy dark all-caps text on two lines: \"TOTAL 70% OFF +\" / \"FREE SHIPPING\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
       "revision": "new (user 2026-10-27)"
+    },
+    {
+      "id": "R48_07_advertorial_nurse_gifts",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "offer": "B_gifts",
+      "angle": "Advertorial Black Friday alert, nurse on break, buy-2 gifts",
+      "based_on": "User reference: Hollow Socks 'BLACK FRIDAY ALERT: the premium alpaca socks...' advertorial (shared in chat 2026-10-27)",
+      "headline": "BLACK FRIDAY ALERT:",
+      "prompt": "White top section like a news article header: red heavy all-caps \"BLACK FRIDAY ALERT:\" then a bold black two-line headline \"The cushioned shoes made for 12-hour shifts come with 2 FREE gifts now\", then small blue italic text \"Ad feature by ComfortWear\". Middle: a wide real photo of a nurse about 55 in navy scrubs with a lanyard badge (no readable hospital name) sitting on a bench in a bright hospital staff courtyard on her break, holding a coffee cup, legs stretched out toward the camera, wearing the black-and-purple shoes from the product reference (large, sharp, exact product), softly blurred hospital building behind. No doctors, no white coats. Below the photo: a full-width black bar with a small red circle holding a white exclamation mark and white text \"Black Friday! \" + bold \"BUY 2 PAIRS, GET A FREE 3-PACK OF SOCKS + TRAVEL BAG\". Compared with the second attached image: same layout, header, type sizes and black bar; only the headline, photo and bar text change as written here. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "benchmark": "approved_R48_05",
+      "copy_of": "R48_05_advertorial_alert_gifts_v1",
+      "revision": "new (user 2026-10-27): R48_05 variant"
+    },
+    {
+      "id": "R48_08_advertorial_travel_60",
+      "persona": "traveler",
+      "colorway": "black_purple",
+      "offer": "A_sitewide",
+      "angle": "Advertorial Black Friday alert, trail walker, 60% off sitewide",
+      "based_on": "User reference: Hollow Socks 'BLACK FRIDAY ALERT: the premium alpaca socks...' advertorial (shared in chat 2026-10-27)",
+      "headline": "BLACK FRIDAY ALERT:",
+      "prompt": "White top section like a news article header: red heavy all-caps \"BLACK FRIDAY ALERT:\" then a bold black two-line headline \"The cushioned walking shoes made for long days are 60% OFF now\", then small blue italic text \"Ad feature by ComfortWear\". Middle: a wide real photo on a sunny scenic walking trail of a fit woman about 60 in a sun hat and light hiking clothes sitting on a rock to rest, legs stretched out toward the camera, wearing the black-and-purple shoes from the product reference (large, sharp, exact product). Below the photo: a full-width black bar with a small red circle holding a white exclamation mark and white text \"Black Friday! \" + bold \"60% OFF SITEWIDE\". Compared with the second attached image: same layout, header, type sizes and black bar; only the headline, photo and bar text change as written here. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "benchmark": "approved_R48_05",
+      "copy_of": "R48_05_advertorial_alert_gifts_v1",
+      "revision": "new (user 2026-10-27): R48_05 variant"
+    },
+    {
+      "id": "R48_09_advertorial_nurse_60",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "offer": "A_sitewide",
+      "angle": "Advertorial Black Friday alert, nurse on break, 60% off sitewide",
+      "based_on": "User reference: Hollow Socks 'BLACK FRIDAY ALERT: the premium alpaca socks...' advertorial (shared in chat 2026-10-27)",
+      "headline": "BLACK FRIDAY ALERT:",
+      "prompt": "White top section like a news article header: red heavy all-caps \"BLACK FRIDAY ALERT:\" then a bold black two-line headline \"The cushioned shoes made for 12-hour shifts are 60% OFF now\", then small blue italic text \"Ad feature by ComfortWear\". Middle: a wide real photo of a nurse about 55 in navy scrubs with a lanyard badge (no readable hospital name) sitting on a bench in a bright hospital staff courtyard on her break, holding a coffee cup, legs stretched out toward the camera, wearing the black-and-purple shoes from the product reference (large, sharp, exact product), softly blurred hospital building behind. No doctors, no white coats. Below the photo: a full-width black bar with a small red circle holding a white exclamation mark and white text \"Black Friday! \" + bold \"60% OFF SITEWIDE\". Compared with the second attached image: same layout, header, type sizes and black bar; only the headline, photo and bar text change as written here. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "benchmark": "approved_R48_05",
+      "copy_of": "R48_05_advertorial_alert_gifts_v1",
+      "revision": "new (user 2026-10-27): R48_05 variant"
     }
   ]
 }

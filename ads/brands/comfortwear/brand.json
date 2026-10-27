@@ -556,6 +556,10 @@
     "bf_leaked": {
       "file": "reference/benchmarks/bf_ref_leaked_code.jpg",
       "use_for": "FORMAT ref (other brand): light warm-grey, heavy dark 'YOU WEREN'T SUPPOSED TO SEE THIS', short explainer line, 'USE CODE' + outlined code pill, coral 'FOR EXTRA 20% OFF', two products bottom-left and bottom-right with a 'TOTAL 70% OFF + FREE SHIPPING' line between them"
+    },
+    "approved_R48_05": {
+      "file": "weeks/2026-W48-bf-batch5/output/R48_05_advertorial_alert_gifts_v1.png",
+      "use_for": "OWN render (user asked for nurse and 60% versions 2026-10-27): advertorial Black Friday alert"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
