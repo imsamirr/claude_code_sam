@@ -1,0 +1,82 @@
+{
+  "week": "2026-W48-bf-offers",
+  "notes": "Black Friday offer statics from 5 user-supplied format references (2026-10-27): shelf hero, split SAVE 60%, buy/get winter scene, pink 60% card, customer collage. Lead offer EITHER 60% OFF SITEWIDE (O48_01, 02, 04) OR buy 2 pairs + free socks and travel bag (O48_03, 05). No prices, promo codes or unconfirmed counts (the refs' '£29.99', 'Code BF10', '200,000+ pairs', 'sold out 3x' and '30,000+' are not used). No SHOP NOW buttons, no doctor imagery.",
+  "concepts": [
+    {
+      "id": "O48_01_shelf_60_off",
+      "persona": "comfort_only",
+      "colorway": "black_white",
+      "benchmark": "bf_shelf",
+      "offer": "A_sitewide",
+      "angle": "Premium studio shelf hero: Black Friday 60% off on the shoe pair, features underneath",
+      "based_on": "User reference: 'Black Friday Sale. 60% Off Genuine Suede Clogs' shelf ad",
+      "headline": "Black Friday Sale.",
+      "prompt": "Warm beige seamless studio background, soft daylight from the left. Top center, a heavy black sans headline \"Black Friday Sale.\" Under it one line: a solid red rounded box with white text \"60% OFF\" followed by black text \"Sitewide.\" Under that, a black rounded pill with white text \"Ortho Stretch Cushion Shoes\". Middle: a pair of the black-and-white shoes from the product reference standing on a floating cream travertine stone shelf that casts a long hard diagonal shadow down-left; the pair is large and sharp (about half the image width). A small red hang tag on a string from one shoe's pull tab reads \"60% OFF\" in white. Bottom center, two lines of black text: \"Arch Support • Wide Toe Box • Stretch Knit\" and \"Free Shipping & Returns\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "O48_02_split_save_60_nurse",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "benchmark": "bf_split",
+      "offer": "A_sitewide",
+      "angle": "Split panel: big SAVE 60% on the left, nurse legs in scrubs wearing the shoes on the right",
+      "based_on": "User reference: everstride 'SAVE UP TO 60% OFF' split socks ad",
+      "headline": "SAVE 60% OFF",
+      "prompt": "Square-ish split layout. A white banner across the top with heavy black all-caps \"BLACK FRIDAY\" and red \"SALE\". Left 45%: solid black panel with huge left-aligned heavy text stacked on four lines: white \"SAVE\", \"60%\" in bright yellow, white \"OFF\", then smaller white \"SITEWIDE\". Under it, white text \"Made for 12-hour shifts\". Right 55%: a real photo cropped from the knees down of a woman in navy scrub pants standing on a hospital hallway floor, wearing the navy shoes with bright blue accents from the product reference, sharp and large, background softly blurred. A red circular hang tag with a string hangs in the lower right reading \"60% OFF\" in white. No buttons, no logo. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "O48_03_buy2_gifts_snow",
+      "persona": "traveler",
+      "colorway": "black_purple",
+      "benchmark": "bf_buy_get",
+      "offer": "B_gifts",
+      "logo": true,
+      "angle": "Winter scene buy-2 offer: shoe pair large with the free socks and logo travel bag",
+      "based_on": "User reference: 'Black Friday Sale, Buy 1 Pair Get 1 Free' slipper ad on snowy deck",
+      "headline": "BUY 2 PAIRS, GET 2 FREE GIFTS",
+      "prompt": "Outdoor winter scene: soft blurred snowy pine trees and pale blue sky, light snowflakes, a weathered wooden deck in the foreground with a little snow. Top: a red rounded pill with white all-caps \"BLACK FRIDAY SALE\" overlapping a wide white rounded banner with heavy black all-caps \"BUY 2 PAIRS, GET 2 FREE GIFTS\". Below the banner, white text with a soft shadow: \"FREE 3-Pack Socks + FREE Travel Bag\". Center: a pair of the black-and-purple shoes from the product reference, large and sharp, one standing and one tilted to show the sole, on the deck. Beside them, a rolled 3-pack of plain cushioned socks and a light grey zip travel bag about as wide as one shoe, with the ComfortWear logo from the attached logo image printed clearly on its front. Bottom-right corner, a small white pill holding six colored dots (black/purple, black, navy, white, burgundy, turquoise). All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "O48_04_pink_biggest_sale",
+      "persona": "comfort_only",
+      "colorway": "grey_pink",
+      "benchmark": "bf_pink",
+      "offer": "A_sitewide",
+      "angle": "Soft pink beauty-style offer card: biggest sale of the year, huge 60% OFF",
+      "based_on": "User reference: Luna&Skin pink 'Black Friday Sale, 60% OFF' ad",
+      "headline": "BLACK FRIDAY SALE",
+      "prompt": "Soft pastel pink gradient studio background. Top half: a pair of the grey-and-pink shoes from the product reference, large and sharp, standing on two stacked clean white display boxes, soft shadow. Below, centered: heavy black all-caps \"BLACK FRIDAY SALE\"; then a rounded pill with a purple-to-blue gradient and white all-caps \"OUR BIGGEST SALE OF THE YEAR\"; black all-caps \"DON'T MISS\"; then a huge heavy black \"60% OFF\". Bottom: a full-width purple-to-pink gradient bar with white all-caps \"FREE SHIPPING & RETURNS\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "O48_05_collage_buy2_gifts",
+      "persona": "mixed",
+      "colorway": "all_black",
+      "benchmark": "bf_collage",
+      "offer": "B_gifts",
+      "angle": "Customer photo collage (nurse, traveler, teacher, plus-size, grandmother) around a black Black Friday box with the buy-2 gifts offer",
+      "based_on": "User reference: Somnilys Black Friday customer-collage pillow ad",
+      "headline": "BLACK FRIDAY",
+      "prompt": "A collage grid of six real, casual smartphone-style photos of women aged 50-70 happily holding up or wearing the all-black shoes from the product reference (shoe always clearly visible and correct): a nurse in navy scrubs in a hospital break room, a traveler with a suitcase at an airport gate, a teacher in a classroom, a plus-size woman on a park path, a grandmother in her kitchen, a woman sitting on a bed holding the pair. No doctors, no white coats. In the center, overlapping the grid, a solid black rounded box with: big red condensed all-caps \"BLACK FRIDAY\", white text \"The Ortho Stretch Cushion Shoe\", smaller white \"For long days on your feet\", then red all-caps \"BUY 2 PAIRS\" and white all-caps \"GET 2 FREE GIFTS\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    }
+  ]
+}

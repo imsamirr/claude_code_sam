@@ -212,7 +212,8 @@ def build_prompt(bdir, brand, concept, extra, layout_rule=FORMAT_RULE):
     if not letter:  # the letter style replaces the shoe-hero/headline quality bar with LETTER_RULE
         parts += brand.get("quality_bar_ugc", []) if ugc and brand.get("quality_bar_ugc") else brand.get("quality_bar", [])
     if benchmark_for(bdir, brand, concept):
-        parts.append(LETTER_BENCH_RULE if letter else UGC_BENCH_RULE if ugc else BENCHMARK_RULE)
+        # format_ref: the benchmark is another brand's ad the user supplied as a layout to recreate
+        parts.append(LETTER_BENCH_RULE if letter or concept.get("format_ref") else UGC_BENCH_RULE if ugc else BENCHMARK_RULE)
     if concept.get("logo") and brand.get("logo_file"):
         parts.append(LOGO_RULE)
     prefs = learned_preferences(bdir, concept["id"])

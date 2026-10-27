@@ -442,6 +442,26 @@
     "bf_formal_apology": {
       "file": "reference/benchmarks/bf_ref_formal_apology.jpg",
       "use_for": "FORMAT ref (other brand): plain white formal apology letter, centered bold title, short paragraphs, italic line, handwritten signature + title"
+    },
+    "bf_shelf": {
+      "file": "reference/benchmarks/bf_ref_shelf_clogs_9x16.jpg",
+      "use_for": "FORMAT ref (other brand): warm beige studio, big black 'Black Friday Sale.' title, red box offer word, black pill, product on a floating stone shelf with hard shadow, red hang tag, two small feature lines at the bottom"
+    },
+    "bf_split": {
+      "file": "reference/benchmarks/bf_ref_split_save60.jpg",
+      "use_for": "FORMAT ref (other brand): white top banner 'BLACK FRIDAY SALE', left black panel with huge white/yellow 'SAVE 60% OFF', right lifestyle photo of legs, red circular hang tag"
+    },
+    "bf_buy_get": {
+      "file": "reference/benchmarks/bf_ref_buy1get1_snow.jpg",
+      "use_for": "FORMAT ref (other brand): red pill 'BLACK FRIDAY SALE' over a white banner with the buy/get offer, product pair large on a snowy wooden deck, color swatch dots bottom-right"
+    },
+    "bf_pink": {
+      "file": "reference/benchmarks/bf_ref_pink_60off.jpg",
+      "use_for": "FORMAT ref (other brand): soft pink gradient, product on white boxes top half, 'BLACK FRIDAY SALE', gradient pill line, huge '60% OFF', gradient bottom bar"
+    },
+    "bf_collage": {
+      "file": "reference/benchmarks/bf_ref_ugc_collage_9x16.jpg",
+      "use_for": "FORMAT ref (other brand): grid of real customer photos holding the product, center black box with red 'BLACK FRIDAY', product line and red offer"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
