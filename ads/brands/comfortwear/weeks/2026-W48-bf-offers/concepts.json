@@ -93,6 +93,38 @@
       "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
       "copy_of": "O48_03_buy2_gifts_snow_v1",
       "revision": "new (user 2026-10-27): O48_03 with a Black/Purple pair and a White Blue pair, socks and travel bag removed"
+    },
+    {
+      "id": "O48_07_biggest_sale_navy",
+      "persona": "comfort_only",
+      "colorway": "navy_blue",
+      "benchmark": "approved_O48_04",
+      "offer": "A_sitewide",
+      "angle": "Biggest-sale 60% card in navy_blue, background tinted to the shoe",
+      "based_on": "User reference: Luna&Skin pink 'Black Friday Sale, 60% OFF' ad",
+      "headline": "BLACK FRIDAY SALE",
+      "prompt": "Soft studio background in a very light, airy pale blue (almost white, a soft ice-blue tint) gradient, very light so the shoes and black text pop. Top half: a pair of the navy shoes with bright blue accents from the product reference, large and sharp, standing on two stacked clean white display boxes, soft shadow. Below, centered: heavy black all-caps \"BLACK FRIDAY SALE\"; then a rounded pill with a navy-to-bright-blue gradient and white all-caps \"OUR BIGGEST SALE OF THE YEAR\"; then black all-caps \"DON'T MISS\"; then a huge heavy black \"60% OFF\". Bottom: a full-width navy-to-bright-blue gradient bar with white all-caps \"FREE SHIPPING & RETURNS\". Compared with the second attached image: same layout, words, type and sizes; only the shoe color, the background tint and the pill/bar gradient colors change. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "copy_of": "O48_04_pink_biggest_sale_v1",
+      "revision": "new (user 2026-10-27): O48_04 with the navy shoes with bright blue accents and a very light matching background"
+    },
+    {
+      "id": "O48_08_biggest_sale_red",
+      "persona": "comfort_only",
+      "colorway": "red_burgundy",
+      "benchmark": "approved_O48_04",
+      "offer": "A_sitewide",
+      "angle": "Biggest-sale 60% card in red_burgundy, background tinted to the shoe",
+      "based_on": "User reference: Luna&Skin pink 'Black Friday Sale, 60% OFF' ad",
+      "headline": "BLACK FRIDAY SALE",
+      "prompt": "Soft studio background in a very light, airy pale blush red (almost white, a soft rose tint) gradient, very light so the shoes and black text pop. Top half: a pair of the red/burgundy shoes from the product reference, large and sharp, standing on two stacked clean white display boxes, soft shadow. Below, centered: heavy black all-caps \"BLACK FRIDAY SALE\"; then a rounded pill with a burgundy-to-red gradient and white all-caps \"OUR BIGGEST SALE OF THE YEAR\"; then black all-caps \"DON'T MISS\"; then a huge heavy black \"60% OFF\". Bottom: a full-width burgundy-to-red gradient bar with white all-caps \"FREE SHIPPING & RETURNS\". Compared with the second attached image: same layout, words, type and sizes; only the shoe color, the background tint and the pill/bar gradient colors change. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "copy_of": "O48_04_pink_biggest_sale_v1",
+      "revision": "new (user 2026-10-27): O48_04 with the red/burgundy shoes and a very light matching background"
     }
   ]
 }
