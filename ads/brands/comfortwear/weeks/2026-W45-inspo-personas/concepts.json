@@ -144,6 +144,38 @@
       "based_on": "User reference: 'DESIGNED TO PREVENT FALLS IN ADULTS 65+' stacked-shoe ad (shared in chat 2026-10-27, not saved as a file; fall-prevention claim replaced)",
       "headline": "DESIGNED FOR 12-HOUR SHIFTS ON HARD FLOORS",
       "prompt": "Soft pale blue-grey studio gradient background. Top center: heavy black all-caps \"DESIGNED FOR\", then heavy dark navy all-caps \"12-HOUR SHIFTS\", then heavy black italic all-caps \"ON HARD FLOORS\". Below, a row of three white rounded outline pills with a check mark and dark text: \"Arch Support\", \"Slip-Resistant Grip\", \"Room To Swell\". Center: a tidy vertical stack of shoes from the attached product reference, large and sharp at true proportions: on top a pair of the black-and-purple shoes lying on their sides, in the middle one shoe turned over to show its lug outsole and rocker sole, at the bottom a pair of the navy with bright blue accents shoes. Only use the colors named here. Right side, overlapping the stack, a round navy badge with white heavy \"40% OFF\". Bottom: dark text \"Love Them \" + bold \"Or Your Money Back\" + \" · Free Shipping\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin."
+    },
+    {
+      "id": "S45_11_forget_feet_nurse_bp",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "approved_S45_03",
+      "offer": "none",
+      "angle": "Nurse version of 'forget about your feet': hour-12 payoff headline, taped notes in nurse review language",
+      "based_on": "S45_03 layout + winning nurse statics: audience/12-hour shift in the headline (7 of top 10, $858k '12-hour shift' list, 4.34 ROAS 'Dear Nurses'), the C$857k 'Emily, RN' testimonial ('4 12s in a row', 'slip-resistant which is a necessity for us', rotates Black Purple + White Blue), script line 'No more limping to my car after a 12-hour shift', Trustpilot 'Great for my 12 hour shifts'",
+      "headline": "The best thing these do is make you forget about your feet. Even at hour 12.",
+      "prompt": "Pale soft lavender-grey background with a faint paper texture. Top center: a three-line headline in bold red serif type: \"The best thing these do\" / \"is make you forget\" / \"about your feet.\" and under it, a fourth line in heavy black serif italic: \"Even at hour 12.\" Center: one black-and-purple shoe from the product reference seen from directly above (top-down view showing the wide toe box and laces), very large and sharp, with a soft shadow. Around it, four pieces of torn beige masking tape stuck at slight angles, each with black handwritten marker text: top-left \"Made for 3 12s in a row.\", top-right \"Grips wet hospital floors.\", bottom-left \"Room for feet that swell by hour 8.\", bottom-right \"No more limping to my car.\" No price, no offer, no logo. Compared with the second attached image: same background, red serif headline style, top-down shoe and taped-note look; only the shoe color, the extra headline line and the four notes change as written here. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": [],
+      "copy_of": "S45_03_forget_feet_plus_v1",
+      "revision": "new (user 2026-10-27): nurse version of S45_03"
+    },
+    {
+      "id": "S45_12_forget_feet_nurse_navy",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "benchmark": "approved_S45_03",
+      "offer": "none",
+      "angle": "Nurse version of 'forget about your feet': hour-12 payoff headline, taped notes in nurse review language",
+      "based_on": "S45_03 layout + winning nurse statics: audience/12-hour shift in the headline (7 of top 10, $858k '12-hour shift' list, 4.34 ROAS 'Dear Nurses'), the C$857k 'Emily, RN' testimonial ('4 12s in a row', 'slip-resistant which is a necessity for us', rotates Black Purple + White Blue), script line 'No more limping to my car after a 12-hour shift', Trustpilot 'Great for my 12 hour shifts'",
+      "headline": "The best thing these do is make you forget about your feet. Even at hour 12.",
+      "prompt": "Pale soft lavender-grey background with a faint paper texture. Top center: a three-line headline in bold red serif type: \"The best thing these do\" / \"is make you forget\" / \"about your feet.\" and under it, a fourth line in heavy black serif italic: \"Even at hour 12.\" Center: one navy shoe with bright blue accents (White Blue) from the product reference seen from directly above (top-down view showing the wide toe box and laces), very large and sharp, with a soft shadow. Around it, four pieces of torn beige masking tape stuck at slight angles, each with black handwritten marker text: top-left \"Made for 3 12s in a row.\", top-right \"Grips wet hospital floors.\", bottom-left \"Room for feet that swell by hour 8.\", bottom-right \"No more limping to my car.\" No price, no offer, no logo. Compared with the second attached image: same background, red serif headline style, top-down shoe and taped-note look; only the shoe color, the extra headline line and the four notes change as written here. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": [],
+      "copy_of": "S45_03_forget_feet_plus_v1",
+      "revision": "new (user 2026-10-27): nurse version of S45_03"
     }
   ]
 }

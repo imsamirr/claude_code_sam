@@ -584,6 +584,10 @@
     "search_bar": {
       "file": "reference/benchmarks/ref_search_bar_insets.jpg",
       "use_for": "FORMAT ref (other brand): blurred garden photo of a smiling older woman holding one shoe toward the camera, white search bar with a question, three inset photos with purple caption bars, red round discount badge, white trust bar"
+    },
+    "approved_S45_03": {
+      "file": "weeks/2026-W45-inspo-personas/output/S45_03_forget_feet_plus_v1.png",
+      "use_for": "OWN render (user asked for a nurse version 2026-10-27): forget about your feet, taped notes"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
