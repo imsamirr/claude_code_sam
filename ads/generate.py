@@ -152,6 +152,9 @@ LETTER_RULE = ("This is a text-first native ad: a plain typed letter, email, fou
 LETTER_BENCH_RULE = ("The SECOND attached image is the FORMAT reference (another brand's ad): recreate its layout, structure, "
                      "type treatment, emphasis style and overall feel closely, but use only the words in the description. "
                      "Never show that brand's product, name, logo or signature.")
+LOGO_RULE = ("The LAST attached image is the brand's own logo. Wherever the description says to show the logo, reproduce "
+             "it exactly (same wordmark, letter shapes, icon and color), clean and fully legible, printed naturally on "
+             "that surface; nowhere else. This overrides the no-logos rule for this logo only.")
 UGC_BENCH_RULE = ("The SECOND attached image is a past ad of this brand: use it only as a loose reference for how big and "
                   "bold the headline and labels are; do NOT match its glossy studio look.")
 
@@ -173,6 +176,9 @@ def input_images(bdir, brand, concept, ref, ref_bytes):
     bench = benchmark_for(bdir, brand, concept)
     if bench:
         images.append((f"benchmark{bench.suffix}", bench.read_bytes()))
+    if concept.get("logo") and brand.get("logo_file"):
+        logo = bdir / brand["logo_file"]
+        images.append((f"logo{logo.suffix}", logo.read_bytes()))
     return images
 
 
@@ -207,6 +213,8 @@ def build_prompt(bdir, brand, concept, extra, layout_rule=FORMAT_RULE):
         parts += brand.get("quality_bar_ugc", []) if ugc and brand.get("quality_bar_ugc") else brand.get("quality_bar", [])
     if benchmark_for(bdir, brand, concept):
         parts.append(LETTER_BENCH_RULE if letter else UGC_BENCH_RULE if ugc else BENCHMARK_RULE)
+    if concept.get("logo") and brand.get("logo_file"):
+        parts.append(LOGO_RULE)
     prefs = learned_preferences(bdir, concept["id"])
     if prefs:
         parts.append(prefs)
