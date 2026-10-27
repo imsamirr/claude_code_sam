@@ -510,6 +510,26 @@
     "bf_alert_post": {
       "file": "reference/benchmarks/bf_ref_alert_text_post.jpg",
       "use_for": "FORMAT ref (other brand): native text post on an orange-to-pink gradient, centered white bold caps text with siren emojis, pointing emojis, link line, cartoon avatar of a woman with glasses giving thumbs up bottom-right"
+    },
+    "bf_caution_lux": {
+      "file": "reference/benchmarks/bf_ref_caution_tape_luxury.jpg",
+      "use_for": "FORMAT ref (other brand): black marble luxury scene, yellow 'BLACK FRIDAY' caution tape across corners, gold 'BLACK FRIDAY SALE' title, product on a podium with gold ribbon and a gold hang tag, gold-outline pill at the bottom"
+    },
+    "bf_never_again": {
+      "file": "reference/benchmarks/bf_ref_never_again_price.jpg",
+      "use_for": "FORMAT ref (other brand): light grey, huge black 'WE WILL NEVER DO THIS AGAIN!', red box -> arrow -> green box comparison, product with box center, caution tape on the side edges, bold italic line at the bottom"
+    },
+    "bf_pricey": {
+      "file": "reference/benchmarks/bf_ref_yes_its_pricey.jpg",
+      "use_for": "FORMAT ref (other brand): white text-first ad, heavy orange-outlined 'YES, IT'S PRICEY' title, short paragraph and bullet list with bold phrases, product pack bottom-right, retro red/blue offset offer text bottom-left"
+    },
+    "bf_quote_pills": {
+      "file": "reference/benchmarks/bf_ref_quote_pills.jpg",
+      "use_for": "FORMAT ref (other brand): pale pink, customer quote headline in caps with the second half bold, side-view shoe large center, round burgundy discount badge, 2x2 burgundy check-pills, black bar at the bottom"
+    },
+    "bf_heavier_insets": {
+      "file": "reference/benchmarks/bf_ref_heavier_woman_insets.jpg",
+      "use_for": "FORMAT ref (other brand): plus-size legs in leggings wearing the shoes on the right, white-boxed headline with one bold phrase, 2x2 inset photos with small labels on the left, dark discount box, thin bottom trust bar"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
