@@ -462,6 +462,10 @@
     "bf_collage": {
       "file": "reference/benchmarks/bf_ref_ugc_collage_9x16.jpg",
       "use_for": "FORMAT ref (other brand): grid of real customer photos holding the product, center black box with red 'BLACK FRIDAY', product line and red offer"
+    },
+    "approved_L48_07": {
+      "file": "weeks/2026-W48-bf-letters/output/L48_07_final_hours_general_v1.png",
+      "use_for": "OWN approved render (user asked for colorway variants 2026-10-27): Black Friday final hours, general foot-pain copy"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",

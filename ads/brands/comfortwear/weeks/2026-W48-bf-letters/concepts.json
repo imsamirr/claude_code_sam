@@ -109,6 +109,38 @@
       "headline": "BLACK FRIDAY FINAL HOURS",
       "prompt": "Dark charcoal background with a soft vignette. Top, a bold red all-caps headline with a red siren emoji 🚨 on each side: \"BLACK FRIDAY FINAL HOURS\". Below, left-aligned paragraphs in clean white sans, large and easy to read, with the named phrases in bold white: Paragraph 1: \"Our \" + bold \"60% OFF SITEWIDE\" + \" Black Friday sale ends soon. This might be your last chance this year.\" Paragraph 2: \"Why do so many women order 2, 3, even 4 pairs? Because the \" + bold \"arch support holds up all day long\" + \", the wide toe box gives bunions room, and the cushion doesn't flatten by lunch.\" Paragraph 3: \"Once the sale ends, it's back to full price.\" Paragraph 4: bold \"If you're reading this, it's still on. Don't wait.\" Bottom-left, a white handwritten-style signature: \"The ComfortWear Team\". Bottom-right, a pair of the black-and-purple shoes from the product reference at true proportions, about one third of the image width, with a red starburst sticker overlapping the corner reading \"60% OFF\" in white.",
       "revision": "new (user 2026-10-27): general comfort/foot-pain version of L48_03"
+    },
+    {
+      "id": "L48_08_final_hours_general_red",
+      "group": "black_friday",
+      "persona": "comfort_only",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "style": "letter",
+      "benchmark": "approved_L48_07",
+      "offer": "A_sitewide",
+      "angle": "General comfort/foot-pain version of final hours: why women order 2, 3, even 4 pairs",
+      "based_on": "L48_03 final-hours format + Trustpilot \"bought a second pair\" for a general audience",
+      "headline": "BLACK FRIDAY FINAL HOURS",
+      "prompt": "Dark charcoal background with a soft vignette. Top, a bold red all-caps headline with a red siren emoji 🚨 on each side: \"BLACK FRIDAY FINAL HOURS\". Below, left-aligned paragraphs in clean white sans, large and easy to read, with the named phrases in bold white: Paragraph 1: \"Our \" + bold \"60% OFF SITEWIDE\" + \" Black Friday sale ends soon. This might be your last chance this year.\" Paragraph 2: \"Why do so many women order 2, 3, even 4 pairs? Because the \" + bold \"arch support holds up all day long\" + \", the wide toe box gives bunions room, and the cushion doesn't flatten by lunch.\" Paragraph 3: \"Once the sale ends, it's back to full price.\" Paragraph 4: bold \"If you're reading this, it's still on. Don't wait.\" Bottom-left, a white handwritten-style signature: \"The ComfortWear Team\". Bottom-right, one shoe (same angle and size as in the second attached image) of the red/burgundy shoes from the product reference at true proportions, about one third of the image width, with a red starburst sticker overlapping the corner reading \"60% OFF\" in white.",
+      "revision": "new (user 2026-10-27): L48_07 re-made with the red/burgundy shoe",
+      "copy_of": "L48_07_final_hours_general_v1"
+    },
+    {
+      "id": "L48_09_final_hours_general_navy",
+      "group": "black_friday",
+      "persona": "comfort_only",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "style": "letter",
+      "benchmark": "approved_L48_07",
+      "offer": "A_sitewide",
+      "angle": "General comfort/foot-pain version of final hours: why women order 2, 3, even 4 pairs",
+      "based_on": "L48_03 final-hours format + Trustpilot \"bought a second pair\" for a general audience",
+      "headline": "BLACK FRIDAY FINAL HOURS",
+      "prompt": "Dark charcoal background with a soft vignette. Top, a bold red all-caps headline with a red siren emoji 🚨 on each side: \"BLACK FRIDAY FINAL HOURS\". Below, left-aligned paragraphs in clean white sans, large and easy to read, with the named phrases in bold white: Paragraph 1: \"Our \" + bold \"60% OFF SITEWIDE\" + \" Black Friday sale ends soon. This might be your last chance this year.\" Paragraph 2: \"Why do so many women order 2, 3, even 4 pairs? Because the \" + bold \"arch support holds up all day long\" + \", the wide toe box gives bunions room, and the cushion doesn't flatten by lunch.\" Paragraph 3: \"Once the sale ends, it's back to full price.\" Paragraph 4: bold \"If you're reading this, it's still on. Don't wait.\" Bottom-left, a white handwritten-style signature: \"The ComfortWear Team\". Bottom-right, one shoe (same angle and size as in the second attached image) of the navy with bright blue accents (White Blue) shoes from the product reference at true proportions, about one third of the image width, with a red starburst sticker overlapping the corner reading \"60% OFF\" in white.",
+      "revision": "new (user 2026-10-27): L48_07 re-made with the navy with bright blue accents (White Blue) shoe",
+      "copy_of": "L48_07_final_hours_general_v1"
     }
   ]
 }

@@ -155,6 +155,9 @@ LETTER_BENCH_RULE = ("The SECOND attached image is the FORMAT reference (another
 LOGO_RULE = ("The LAST attached image is the brand's own logo. Wherever the description says to show the logo, reproduce "
              "it exactly (same wordmark, letter shapes, icon and color), clean and fully legible, printed naturally on "
              "that surface; nowhere else. This overrides the no-logos rule for this logo only.")
+COPY_BENCH_RULE = ("The SECOND attached image is this brand's own approved ad: reproduce it as exactly as possible (layout, "
+                   "every word, type, sizes, colors, signature, stickers), changing only what the description says. "
+                   "The shoe still matches the FIRST attached product reference exactly.")
 UGC_BENCH_RULE = ("The SECOND attached image is a past ad of this brand: use it only as a loose reference for how big and "
                   "bold the headline and labels are; do NOT match its glossy studio look.")
 
@@ -213,7 +216,9 @@ def build_prompt(bdir, brand, concept, extra, layout_rule=FORMAT_RULE):
         parts += brand.get("quality_bar_ugc", []) if ugc and brand.get("quality_bar_ugc") else brand.get("quality_bar", [])
     if benchmark_for(bdir, brand, concept):
         # format_ref: the benchmark is another brand's ad the user supplied as a layout to recreate
-        parts.append(LETTER_BENCH_RULE if letter or concept.get("format_ref") else UGC_BENCH_RULE if ugc else BENCHMARK_RULE)
+        # copy_of: the benchmark is one of our own approved renders, re-made with a change (e.g. another colorway)
+        parts.append(COPY_BENCH_RULE if concept.get("copy_of") else
+                     LETTER_BENCH_RULE if letter or concept.get("format_ref") else UGC_BENCH_RULE if ugc else BENCHMARK_RULE)
     if concept.get("logo") and brand.get("logo_file"):
         parts.append(LOGO_RULE)
     prefs = learned_preferences(bdir, concept["id"])
