@@ -143,6 +143,38 @@
       "tags": [],
       "copy_of": "Q48_06_may_never_again_price_v1",
       "revision": "new (user 2026-10-27): Q48_06 with the black-and-purple shoes"
+    },
+    {
+      "id": "Q48_10_caution_tape_luxury_red",
+      "persona": "comfort_only",
+      "colorway": "red_burgundy",
+      "benchmark": "approved_Q48_01",
+      "offer": "A_sitewide",
+      "angle": "Luxury black-marble Black Friday hero with caution tape, 60% off sitewide",
+      "based_on": "User reference: 'BLACK FRIDAY SALE, up to 75% off' caution-tape luxury jar ad",
+      "headline": "BLACK FRIDAY SALE",
+      "prompt": "Dark luxury scene: black marble floor and backdrop with soft gold rim light, a little gold dust and light haze. Yellow caution tape printed with black \"BLACK FRIDAY\" crosses the top-left and bottom-right corners diagonally. Top center: big shiny gold heavy all-caps \"BLACK FRIDAY SALE\"; below it white all-caps \"60% OFF SITEWIDE\" with \"60% OFF\" in gold. Center: a pair of the red/burgundy shoes from the product reference on a black marble podium, large and sharp at true proportions, with a loose gold satin ribbon beside them and a small gold hang tag on one shoe reading \"60% OFF\". Bottom center: a black rounded pill with a thin gold outline and gold all-caps \"FREE SHIPPING & RETURNS\". No promo code, no footnote. All text is large, bold and high contrast for readers aged 60+; nothing small or thin. Compared with the second attached image: same layout, words, gold type, caution tape, podium, ribbon and tag; only the shoe color changes.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "copy_of": "Q48_01_caution_tape_luxury_60_v1",
+      "revision": "new (user 2026-10-27): Q48_01 with the red/burgundy shoes"
+    },
+    {
+      "id": "Q48_11_caution_tape_luxury_navy",
+      "persona": "comfort_only",
+      "colorway": "navy_blue",
+      "benchmark": "approved_Q48_01",
+      "offer": "A_sitewide",
+      "angle": "Luxury black-marble Black Friday hero with caution tape, 60% off sitewide",
+      "based_on": "User reference: 'BLACK FRIDAY SALE, up to 75% off' caution-tape luxury jar ad",
+      "headline": "BLACK FRIDAY SALE",
+      "prompt": "Dark luxury scene: black marble floor and backdrop with soft gold rim light, a little gold dust and light haze. Yellow caution tape printed with black \"BLACK FRIDAY\" crosses the top-left and bottom-right corners diagonally. Top center: big shiny gold heavy all-caps \"BLACK FRIDAY SALE\"; below it white all-caps \"60% OFF SITEWIDE\" with \"60% OFF\" in gold. Center: a pair of the navy shoes with bright blue accents (White Blue) from the product reference on a black marble podium, large and sharp at true proportions, with a loose gold satin ribbon beside them and a small gold hang tag on one shoe reading \"60% OFF\". Bottom center: a black rounded pill with a thin gold outline and gold all-caps \"FREE SHIPPING & RETURNS\". No promo code, no footnote. All text is large, bold and high contrast for readers aged 60+; nothing small or thin. Compared with the second attached image: same layout, words, gold type, caution tape, podium, ribbon and tag; only the shoe color changes.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "copy_of": "Q48_01_caution_tape_luxury_60_v1",
+      "revision": "new (user 2026-10-27): Q48_01 with the navy shoes with bright blue accents (White Blue)"
     }
   ]
 }

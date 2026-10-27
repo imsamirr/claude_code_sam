@@ -547,6 +547,10 @@
     "approved_Q48_06": {
       "file": "weeks/2026-W48-bf-batch4/output/Q48_06_may_never_again_price_v1.png",
       "use_for": "OWN render (user asked for White Blue and Black/Purple versions 2026-10-27): may never again, $120 -> $59.95"
+    },
+    "approved_Q48_01": {
+      "file": "weeks/2026-W48-bf-batch4/output/Q48_01_caution_tape_luxury_60_v1.png",
+      "use_for": "OWN render (user asked for Red and White Blue versions 2026-10-27): caution tape luxury 60%"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",

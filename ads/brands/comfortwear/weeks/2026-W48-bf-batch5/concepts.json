@@ -1,0 +1,74 @@
+{
+  "week": "2026-W48-bf-batch5",
+  "notes": "Black Friday batch 5 from 5 references the user shared in chat 2026-10-27 (they were not saved as files, so prompts describe the layouts): don't-buy-these, quote + pills (nurse/60% take), email screenshot, secret to happy feet, advertorial alert. Lead offer EITHER 60% OFF SITEWIDE (R48_01, 02, 04) OR buy 2 pairs + free socks and travel bag (R48_03, 05). Dropped from the refs: '80,000+ feet' and star rating, 'zero foot pain', 'sold out 3x', 'made in the USA', 'warmer than wool'. R48_02 quote is Trustpilot 5-star language ('Great for my 12 hour shifts').",
+  "concepts": [
+    {
+      "id": "R48_01_dont_buy_these_60",
+      "persona": "comfort_only",
+      "colorway": "black_white",
+      "offer": "A_sitewide",
+      "angle": "Reverse-psychology hook: don't buy these shoes, unless you want comfier feet and more energy at the end of the day",
+      "based_on": "User reference: Solebrace 'DON'T BUY THESE INSOLES' dark curtain ad (shared in chat 2026-10-27)",
+      "headline": "DON'T BUY THESE SHOES",
+      "prompt": "Moody dark charcoal studio with a soft draped dark curtain backdrop and a warm rim light, a dark wooden tabletop in the foreground. Top center: huge heavy white all-caps headline on two lines \"DON'T BUY\" / \"THESE SHOES\". Under it, white text on two lines: \"Unless you want comfier feet and a bit more energy left when you get home.\" Center: a pair of the black-and-white shoes from the product reference standing on the wooden table, large and sharp (about 65% of the image width), soft spotlight on them. Bottom center: a dark rounded pill with white heavy text \"BLACK FRIDAY: 60% OFF SITEWIDE\". No star ratings, no customer counts. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": []
+    },
+    {
+      "id": "R48_02_quote_pills_nurse_60",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "benchmark": "bf_quote_pills",
+      "format_ref": true,
+      "offer": "A_sitewide",
+      "angle": "Nurse quote headline from Trustpilot language over a side-view shoe, 60% off badge, feature pills",
+      "based_on": "User reference: barefoot-shoe Disney quote + pills ad (second time; Q48_04 was the travel/gifts take) + Trustpilot 5-star language 'Great for my 12 hour shifts'",
+      "headline": "GREAT FOR MY 12 HOUR SHIFTS.",
+      "prompt": "Pale soft blue background. Top center, a quote headline in black all-caps on two lines with curly quote marks: regular weight \"“GREAT FOR MY\" and heavy bold \"12 HOUR SHIFTS.”\" Under it, small dark text \"– ComfortWear customer\". Center: one navy shoe with bright blue accents from the product reference in a clean side view facing left, very large (about 75% of the image width) and sharp. Upper right, a round navy badge with white heavy text \"60% OFF\". Below the shoe, a 2x2 grid of navy rounded pills, each with a white check-circle icon and white text: \"Arch Support\", \"Slip-Resistant Grip\", \"Stretch Knit\", \"Wide Toe Box\". Bottom: a full-width black bar with white all-caps text \"ENJOY YOUR SHIFTS \" + bold \"AGAIN\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": []
+    },
+    {
+      "id": "R48_03_email_bundle_gifts",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "logo": true,
+      "offer": "B_gifts",
+      "angle": "Native email screenshot: the deal every comfort-lover has been waiting for, buy 2 pairs and get 2 free gifts",
+      "based_on": "User reference: Sunday Golf Black Friday email-screenshot ad (shared in chat 2026-10-27)",
+      "headline": "The deal every comfort-lover's been waiting for...",
+      "prompt": "A realistic phone screenshot of an opened email in a generic modern mail app, light mode, white background, no real app logos. Top: a thin toolbar with a back arrow and archive/trash/mail icons in grey. Large black subject line: \"The deal every comfort-lover's been waiting for...\". A small grey \"Inbox\" tag. Sender row: a round dark navy avatar with white \"CW\", bold \"ComfortWear\", grey \"4:20 PM\", grey \"to me\". Email body in black sans, large and easy to read: \"Dear ComfortWear Family,\" / \"Long days are hard on your feet. That's why, this \" + bold \"Black Friday, when you buy 2 pairs you get 2 FREE gifts.\" / \"Here's what you get:\" / \"1️⃣ A 3-pack of cushioned socks\" / \"2️⃣ A ComfortWear travel bag\" / \"Plus free shipping & returns.\" / \"Grab yours before the gifts are gone.\" Bottom 40%: a bright studio photo on a soft green rug of a smiling woman about 62 relaxing in a leather armchair with her feet up on an ottoman, wearing the black-and-purple shoes from the product reference (large, sharp, exact product), with a rolled 3-pack of plain socks and a light grey zip travel bag printed with the ComfortWear logo from the attached logo image on the floor beside her, plus a second pair of the shoes. All email text BIG for readers aged 60+.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": []
+    },
+    {
+      "id": "R48_04_secret_happy_feet_60",
+      "persona": "comfort_only",
+      "colorway": "all_black",
+      "offer": "A_sitewide",
+      "angle": "'The secret to happy feet': shoe pair with a Black Friday 60% off seal and arrow feature list",
+      "based_on": "User reference: Hollow Socks 'THE SECRET TO HAPPY FEET' 40% off seal ad (shared in chat 2026-10-27)",
+      "headline": "THE SECRET TO HAPPY FEET",
+      "prompt": "Warm light beige wall with a soft blurred green plant on the left and a clean white tabletop. Top center: heavy white all-caps \"THE SECRET TO\" and below it \"HAPPY FEET\" in white inside a solid black box. Center-left: a pair of the all-black shoes from the product reference on the white table, one shoe angled to show the sole profile, large and sharp (about 55% of the image width). Overlapping the upper-left of the shoes, a round red-and-white seal badge with a ring of small text \"BLACK FRIDAY SALE\" and big center text \"60% OFF\". Right side: a vertical list in heavy black all-caps, each line starting with a small arrow: \"→ ARCH SUPPORT THAT HOLDS UP\", \"→ WIDE TOE BOX\", \"→ STRETCHES WHEN FEET SWELL\", \"→ RIDICULOUSLY COMFY\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": []
+    },
+    {
+      "id": "R48_05_advertorial_alert_gifts",
+      "persona": "traveler",
+      "colorway": "black_purple",
+      "offer": "B_gifts",
+      "angle": "Advertorial-style Black Friday alert over a real walking-trail photo, buy-2 free gifts bar",
+      "based_on": "User reference: Hollow Socks 'BLACK FRIDAY ALERT: the premium alpaca socks...' advertorial (shared in chat 2026-10-27)",
+      "headline": "BLACK FRIDAY ALERT:",
+      "prompt": "White top section like a news article header: red heavy all-caps \"BLACK FRIDAY ALERT:\" then a bold black two-line headline \"The cushioned walking shoes made for long days come with 2 FREE gifts now\", then small blue italic text \"Ad feature by ComfortWear\". Middle: a wide real photo on a sunny scenic walking trail of a fit woman about 60 in a sun hat and light hiking clothes sitting on a rock to rest, legs stretched out toward the camera, wearing the black-and-purple shoes from the product reference (large, sharp, exact product). Below the photo: a full-width black bar with a small red circle holding a white exclamation mark and white text \"Black Friday! \" + bold \"BUY 2 PAIRS, GET A FREE 3-PACK OF SOCKS + TRAVEL BAG\". White space below. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": []
+    }
+  ]
+}
