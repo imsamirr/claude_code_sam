@@ -94,6 +94,23 @@
       "tags": [],
       "copy_of": "Q48_02_may_never_again_60_v1",
       "revision": "new (user 2026-10-27): Q48_02 with a $120 strikethrough and $59.95 sale price in the boxes"
+    },
+    {
+      "id": "Q48_07_yes_its_pricey_60",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "style": "letter",
+      "benchmark": "approved_Q48_03",
+      "offer": "A_sitewide",
+      "angle": "'Yes, it's pricey' honest note, then 60% off sitewide for Black Friday",
+      "based_on": "User reference: WorkFit 'YES, IT'S PRICEY' insoles text ad",
+      "headline": "YES, IT'S PRICEY",
+      "prompt": "Plain white background. Top: a huge heavy black all-caps title with a thick orange outline and slight drop shadow: \"YES, IT'S PRICEY\". Below, left-aligned black text: bold \"We could make it cheaper. But then it'd be... well, cheap.\" Then a bullet list, each bullet with the named part in bold: \"It wouldn't have \" + bold \"real arch support that holds up all day.\" / \"It wouldn't have \" + bold \"a wide toe box that gives bunions room.\" / \"It wouldn't have \" + bold \"stretch knit that gives when feet swell.\" Then bold \"It wouldn't be ComfortWear.\" Then \"But right now, for Black Friday:\". Bottom-left: heavy retro red all-caps text with a blue offset shadow, two lines: \"60% OFF\" / \"SITEWIDE\". Bottom-right: a pair of the black-and-purple shoes from the product reference, large, at true proportions, about 45% of the image width, soft shadow. No socks, no bag. All body text BIG for readers aged 60+: each line about 1/26 of the image height. Compared with the second attached image: same title, paragraph, bullets, type and shoes; the gifts line becomes \"But right now, for Black Friday:\", the retro red offer reads \"60% OFF\" / \"SITEWIDE\", and the socks and travel bag are removed.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "copy_of": "Q48_03_yes_its_pricey_gifts_v1",
+      "revision": "new (user 2026-10-27): Q48_03 with 60% OFF SITEWIDE instead of the buy-2 gifts; shoes only"
     }
   ]
 }
