@@ -77,6 +77,22 @@
       "lang": "en",
       "format_ref": true,
       "tags": []
+    },
+    {
+      "id": "O48_06_buy2_two_pairs_snow",
+      "persona": "traveler",
+      "benchmark": "approved_O48_03",
+      "offer": "B_gifts",
+      "angle": "Snowy-deck buy-2 offer showing the two pairs you buy (Black/Purple + White Blue); no gift objects",
+      "based_on": "User reference: 'Black Friday Sale, Buy 1 Pair Get 1 Free' slipper ad on snowy deck",
+      "headline": "BUY 2 PAIRS, GET 2 FREE GIFTS",
+      "prompt": "Outdoor winter scene: soft blurred snowy pine trees and pale blue sky, light snowflakes, a weathered wooden deck in the foreground with a little snow. Top: a red rounded pill with white all-caps \"BLACK FRIDAY SALE\" overlapping a wide white rounded banner with heavy black all-caps \"BUY 2 PAIRS, GET 2 FREE GIFTS\". Below the banner, white text with a soft shadow: \"FREE 3-Pack Socks + FREE Travel Bag\". On the deck: TWO PAIRS of shoes (four shoes) from the attached product reference, large and sharp at true proportions: on the left a pair of the BLACK-AND-PURPLE shoes, on the right a pair of the NAVY shoes with bright blue accents. Each pair stands side by side, slightly angled toward the center. Do NOT show the red/burgundy shoe from the reference. No socks, no bag, no other objects. Bottom-right corner, a small white pill holding six colored dots (black/purple, black, navy, white, burgundy, turquoise). Compared with the second attached image: same background, banner, text and color dots; the single shoe, socks and travel bag are replaced by the two pairs. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+      "copy_of": "O48_03_buy2_gifts_snow_v1",
+      "revision": "new (user 2026-10-27): O48_03 with a Black/Purple pair and a White Blue pair, socks and travel bag removed"
     }
   ]
 }
