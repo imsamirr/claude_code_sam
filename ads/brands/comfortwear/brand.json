@@ -486,6 +486,10 @@
     "approved_O48_05": {
       "file": "weeks/2026-W48-bf-offers/output/O48_05_collage_buy2_gifts_v1.png",
       "use_for": "OWN render (user asked for a 60% version 2026-10-27): customer collage"
+    },
+    "approved_O48_06": {
+      "file": "weeks/2026-W48-bf-offers/output/O48_06_buy2_two_pairs_snow_v1.png",
+      "use_for": "OWN render (user asked for the pairs closer and bigger 2026-10-27): snowy deck two pairs"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
