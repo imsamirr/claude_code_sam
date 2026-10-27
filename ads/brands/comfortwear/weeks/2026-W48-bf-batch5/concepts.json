@@ -134,6 +134,55 @@
       "benchmark": "approved_R48_05",
       "copy_of": "R48_05_advertorial_alert_gifts_v1",
       "revision": "new (user 2026-10-27): R48_05 variant"
+    },
+    {
+      "id": "R48_10_email_nurse_gifts",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "offer": "B_gifts",
+      "angle": "Email screenshot for nurses, buy-2 gifts",
+      "based_on": "User reference: Sunday Golf Black Friday email-screenshot ad (shared in chat 2026-10-27)",
+      "headline": "The deal every comfort-lover's been waiting for...",
+      "prompt": "A realistic phone screenshot of an opened email in a generic modern mail app, light mode, white background, no real app logos. Top: a thin toolbar with a back arrow and archive/trash/mail icons in grey. Large black subject line: \"The deal every nurse has been waiting for...\". A small grey \"Inbox\" tag. Sender row: a round dark navy avatar with white \"CW\", bold \"ComfortWear\", grey \"4:20 PM\", grey \"to me\". Email body in black sans, large and easy to read: \"Dear ComfortWear Family,\" / \"12-hour shifts are hard on your feet. That's why, this \" + bold \"Black Friday, when you buy 2 pairs you get 2 FREE gifts.\" / \"Here's what you get:\" / \"1️⃣ A 3-pack of cushioned socks\" / \"2️⃣ A ComfortWear travel bag\" / \"Plus free shipping & returns.\" / \"Grab yours before the gifts are gone.\" Bottom 40%: a bright, real photo of a smiling nurse about 55 in navy scrubs with a lanyard badge (no readable hospital name) relaxing at home after her shift in a leather armchair with her feet up on an ottoman, holding a mug, wearing the black-and-purple shoes from the product reference (large, sharp, exact product), with a rolled 3-pack of plain socks and a light grey zip travel bag printed with the ComfortWear logo from the attached logo image on the floor beside her, plus a second pair of the shoes. No doctors, no white coats. Compared with the second attached image: same mail-app layout, type and sizes; only the subject, body and photo change as written here. All email text BIG for readers aged 60+.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "logo": true,
+      "benchmark": "approved_R48_03",
+      "copy_of": "R48_03_email_bundle_gifts_v1",
+      "revision": "new (user 2026-10-27): R48_03 variant"
+    },
+    {
+      "id": "R48_11_email_nurse_60",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "offer": "A_sitewide",
+      "angle": "Email screenshot for nurses, 60% off sitewide",
+      "based_on": "User reference: Sunday Golf Black Friday email-screenshot ad (shared in chat 2026-10-27)",
+      "headline": "The deal every comfort-lover's been waiting for...",
+      "prompt": "A realistic phone screenshot of an opened email in a generic modern mail app, light mode, white background, no real app logos. Top: a thin toolbar with a back arrow and archive/trash/mail icons in grey. Large black subject line: \"The deal every nurse has been waiting for...\". A small grey \"Inbox\" tag. Sender row: a round dark navy avatar with white \"CW\", bold \"ComfortWear\", grey \"4:20 PM\", grey \"to me\". Email body in black sans, large and easy to read: \"Dear ComfortWear Family,\" / \"12-hour shifts are hard on your feet. That's why, this \" + bold \"Black Friday, everything is 60% OFF SITEWIDE.\" / \"Every pair. Every color.\" / \"Plus free shipping & returns and our 30-day money-back guarantee.\" / \"Grab yours before the sale ends.\" Bottom 40%: a bright, real photo of a smiling nurse about 55 in navy scrubs with a lanyard badge (no readable hospital name) relaxing at home after her shift in a leather armchair with her feet up on an ottoman, holding a mug, wearing the black-and-purple shoes from the product reference (large, sharp, exact product), with a second pair of the shoes on the floor beside her. No socks, no bag. No doctors, no white coats. Compared with the second attached image: same mail-app layout, type and sizes; only the subject, body and photo change as written here. All email text BIG for readers aged 60+.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "benchmark": "approved_R48_03",
+      "copy_of": "R48_03_email_bundle_gifts_v1",
+      "revision": "new (user 2026-10-27): R48_03 variant"
+    },
+    {
+      "id": "R48_12_email_comfort_60",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "offer": "A_sitewide",
+      "angle": "Email screenshot for comfort-lovers, 60% off sitewide",
+      "based_on": "User reference: Sunday Golf Black Friday email-screenshot ad (shared in chat 2026-10-27)",
+      "headline": "The deal every comfort-lover's been waiting for...",
+      "prompt": "A realistic phone screenshot of an opened email in a generic modern mail app, light mode, white background, no real app logos. Top: a thin toolbar with a back arrow and archive/trash/mail icons in grey. Large black subject line: \"The deal every comfort-lover's been waiting for...\". A small grey \"Inbox\" tag. Sender row: a round dark navy avatar with white \"CW\", bold \"ComfortWear\", grey \"4:20 PM\", grey \"to me\". Email body in black sans, large and easy to read: \"Dear ComfortWear Family,\" / \"Long days are hard on your feet. That's why, this \" + bold \"Black Friday, everything is 60% OFF SITEWIDE.\" / \"Every pair. Every color.\" / \"Plus free shipping & returns and our 30-day money-back guarantee.\" / \"Grab yours before the sale ends.\" Bottom 40%: a bright studio photo on a soft green rug of a smiling woman about 62 relaxing in a leather armchair with her feet up on an ottoman, holding a mug, wearing the black-and-purple shoes from the product reference (large, sharp, exact product), with a second pair of the shoes on the floor beside her. No socks, no bag. Compared with the second attached image: same mail-app layout, type and sizes; only the subject, body and photo change as written here. All email text BIG for readers aged 60+.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "benchmark": "approved_R48_03",
+      "copy_of": "R48_03_email_bundle_gifts_v1",
+      "revision": "new (user 2026-10-27): R48_03 variant"
     }
   ]
 }
