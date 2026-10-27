@@ -52,10 +52,11 @@
       "angle": "'The secret to happy feet': shoe pair with a Black Friday 60% off seal and arrow feature list",
       "based_on": "User reference: Hollow Socks 'THE SECRET TO HAPPY FEET' 40% off seal ad (shared in chat 2026-10-27)",
       "headline": "THE SECRET TO HAPPY FEET",
-      "prompt": "Warm light beige wall with a soft blurred green plant on the left and a clean white tabletop. Top center: heavy white all-caps \"THE SECRET TO\" and below it \"HAPPY FEET\" in white inside a solid black box. Center-left: a pair of the all-black shoes from the product reference on the white table, one shoe angled to show the sole profile, large and sharp (about 55% of the image width). Overlapping the upper-left of the shoes, a round red-and-white seal badge with a ring of small text \"BLACK FRIDAY SALE\" and big center text \"60% OFF\". Right side: a vertical list in heavy black all-caps, each line starting with a small arrow: \"→ ARCH SUPPORT THAT HOLDS UP\", \"→ WIDE TOE BOX\", \"→ STRETCHES WHEN FEET SWELL\", \"→ RIDICULOUSLY COMFY\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "prompt": "Warm light beige wall with a soft blurred green plant on the left and a clean white tabletop. Top center: heavy white all-caps \"THE SECRET TO\" and below it \"HAPPY FEET\" in white inside a solid black box. Center-left: a pair of the all-black shoes from the product reference on the white table, one shoe angled to show the sole profile, large and sharp (about 55% of the image width). Overlapping the upper-left of the shoes, a round red-and-white seal badge with a ring of small text \"BLACK FRIDAY SALE\" and big center text \"60% OFF\". Right side: a vertical list in heavy black all-caps, each line starting with a small arrow: \"→ ARCH SUPPORT THAT HOLDS UP\", \"→ WIDE TOE BOX\", \"→ STRETCHES WHEN FEET SWELL\", \"→ RIDICULOUSLY COMFY\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. The seal's ring text reads exactly \"BLACK FRIDAY SALE • BLACK FRIDAY SALE •\" spelled correctly all the way around, with no partial or garbled words. All four list lines are fully visible to the right of the shoes, never covered by them, each starting with an arrow.",
       "group": "black_friday",
       "lang": "en",
-      "tags": []
+      "tags": [],
+      "revision": "new; v2: v1 seal ring had a garbled 'BLACLE' and the last list line overlapped the shoe"
     },
     {
       "id": "R48_05_advertorial_alert_gifts",
