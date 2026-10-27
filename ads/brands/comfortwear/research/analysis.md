@@ -286,3 +286,9 @@ Shoe-in-the-trash lo-fi UGC (hand + old shoe in a bin) · "Would You Rather? A v
 - **Oct 26 – Nov 8 runs:** nurse and travel (Disney, Europe) only; analyze previous winners first; each concept gets a Spanish twin (`_es` id, `twin_of`).
 - **Week of Nov 9:** Black Friday concepts. One offer per concept: "60% OFF SITEWIDE" OR "BUY 2 PAIRS, GET 2 FREE GIFTS" (3-pack cushioned socks + free travel bag). The 40% / 30-day / free-shipping stack is not used that week.
 - Full rules: `brand.json` → `program.focus_2026_10_26`, `program.black_friday_week_2026_11_09`.
+
+### Formats trending now (Atria inspo pull 2026-10-27) and Tue 2026-W44 sources
+
+Newest/fastest-rising statics and story ads: Carol Bennett story posts (+240 ranks in 7 days, "F*ck this comfort sneaker", podiatrist-style senior sneaker), Glov Beauty "It's fluid, not fat" swelling explainer (11 days), Stepprs "Walk on Clouds, or it's FREE" insole quote cards, Cuurt customer-quote checklist ("Wake up pain-free, not hobbling down stairs"), VIVAIA "10,000 steps and beyond" minimal lifestyle, Buy-1-Get-1 color blocks (Konjoun, True Nutra, Tiny Explorings), 8-week timeline/plan lists. Used in T44: three-band hour timeline, swelling explainer (flight), customer-quote native cards.
+
+Tue 2026-W44 iteration sources (`current` 2026-09-27..10-26, 18 ads; `seasonal --week 2026-W44`, 2025 ROAS unreadable): Emily RN video $4,005 / 2.99 and Kyro390 $4,841 / 2.01 (nurse PF), H3 40% OFF static $2,517 / 3.08, C3 reviews static $1,844 / 2.84, I6 warehouse $1,160 / 4.24, C1 Trusted By Nurses $860 / 3.40, TOFV1_KW1 plus-size travel $2,243 / 4.39, Kyro293 travel $2,230 / 3.09, JV1/JW1 travel $1,897 / $784, seasonal Kyro253 travel $32.6k.
