@@ -157,6 +157,22 @@
       "prompt": "Clean white background. Top, a very large bold red all-caps headline across the width: \"WE'RE SAYING GOODBYE\". Below, two left-aligned paragraphs in bold-ish black sans, large and easy to read. Paragraph 1: \"At ComfortWear, we believe women shouldn't have to choose between cute and comfortable. Say goodbye to heel pain, crushed toes and sneakers that give up by noon.\" Paragraph 2: \"And say goodbye to full price: \" + bold \"60% OFF SITEWIDE for Black Friday.\" Nothing else in the paragraph (no gifts, no shipping line). Under that, a handwritten black signature reading \"ComfortWear\" and below it small black text \"ComfortWear | Shoes for long days\". Bottom third: on white, a large pair of the navy shoes with bright blue accents from the product reference, side by side and centered, at true proportions, soft shadow. No socks, no bag, no other objects. Compared with the second attached image: same headline, paragraph 1, signature and type; paragraph 2 changes as written here, and the socks and travel bag are replaced by the shoe pair.",
       "revision": "new (user 2026-10-27): L48_04 with only the 60% OFF SITEWIDE offer",
       "copy_of": "L48_04_saying_goodbye_gifts_v2"
+    },
+    {
+      "id": "L48_11_did_we_mess_up_60",
+      "group": "black_friday",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "black_purple",
+      "style": "letter",
+      "benchmark": "approved_L48_02",
+      "offer": "A_sitewide",
+      "angle": "'Uh-oh, did we mess up?' note: we went too far with 60% off sitewide; white background",
+      "based_on": "User reference 'Uh-oh... did we mess up?' (Onecompress founder note) + existing B48_05 'We miscalculated' angle + copy playbook rule 6 (arch that holds, wide toe box, cushion that doesn't go flat)",
+      "headline": "UH-OH... DID WE MESS UP?",
+      "prompt": "Plain clean WHITE background (no gradient, no tint). Top center, a big rounded friendly black display headline on two lines: \"UH-OH... DID WE\" and \"MESS UP?\" followed by a sweating-smile emoji 😅. Below, left-aligned short paragraphs in a clean dark sans, blank lines between them: \"Hey there,\" / \"We may have gotten a little too generous this Black Friday.\" / bold \"60% OFF SITEWIDE.\" followed by \" Every pair, every color.\" / \"Here's the problem: these aren't cheap sneakers. Real arch support, a wide toe box, and a cushion that doesn't go flat by hour 4.\" / \"At 60% off, we can't keep this going for long.\" / \"Don't wait.\" / then on its own line \"The ComfortWear Team\". All body text is BIG for readers aged 60+: each body line about 1/24 of the image height, bold-ish weight, near-black, with the same even gap between every paragraph. Bottom-right corner, the same pair of black-and-purple shoes as in the second attached image, at true proportions, about one third of the image width, soft shadow. No socks, no bag, no other objects. Compared with the second attached image: same headline, layout, type and shoes; the background becomes plain white and the body copy is exactly as written here (no gifts, no shipping line).",
+      "revision": "new (user 2026-10-27): L48_02 with only the 60% OFF SITEWIDE offer and a plain white background",
+      "copy_of": "L48_02_did_we_mess_up_gifts_v2"
     }
   ]
 }
