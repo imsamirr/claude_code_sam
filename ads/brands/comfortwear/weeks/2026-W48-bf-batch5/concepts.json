@@ -183,6 +183,54 @@
       "benchmark": "approved_R48_03",
       "copy_of": "R48_03_email_bundle_gifts_v1",
       "revision": "new (user 2026-10-27): R48_03 variant"
+    },
+    {
+      "id": "R48_13_i_regret_these_red",
+      "persona": "comfort_only",
+      "colorway": "red_burgundy",
+      "offer": "A_sitewide",
+      "angle": "Reverse-psychology hook 'I REGRET THESE SHOES' in red_burgundy, 60% off sitewide",
+      "based_on": "User reference: Solebrace 'DON'T BUY THESE INSOLES' dark curtain ad (shared in chat 2026-10-27)",
+      "headline": "I REGRET THESE SHOES",
+      "prompt": "Moody dark charcoal studio with a soft draped dark curtain backdrop and a warm rim light, a dark wooden tabletop in the foreground. Top center: huge heavy white all-caps headline on two lines \"I REGRET\" / \"THESE SHOES\". Under it, white text: \"Only that I didn't buy them years sooner.\" Center: a pair of the red/burgundy shoes from the product reference standing on the wooden table, large and sharp (about 65% of the image width), soft spotlight on them. Bottom center: a dark rounded pill with white heavy text \"BLACK FRIDAY: 60% OFF SITEWIDE\". No star ratings, no customer counts. Compared with the second attached image: same scene, layout, type and pill; only the headline, the line under it and the shoe color change as written here. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "benchmark": "approved_R48_01",
+      "copy_of": "R48_01_dont_buy_these_60_v1",
+      "revision": "new (user 2026-10-27): R48_01 with a different headline and shoe color"
+    },
+    {
+      "id": "R48_14_skip_these_navy",
+      "persona": "comfort_only",
+      "colorway": "navy_blue",
+      "offer": "A_sitewide",
+      "angle": "Reverse-psychology hook 'SKIP THESE SHOES' in navy_blue, 60% off sitewide",
+      "based_on": "User reference: Solebrace 'DON'T BUY THESE INSOLES' dark curtain ad (shared in chat 2026-10-27)",
+      "headline": "SKIP THESE SHOES",
+      "prompt": "Moody dark charcoal studio with a soft draped dark curtain backdrop and a warm rim light, a dark wooden tabletop in the foreground. Top center: huge heavy white all-caps headline on two lines \"SKIP\" / \"THESE SHOES\". Under it, white text: \"Unless you want long days that don't end with sore, tired feet.\" Center: a pair of the navy shoes with bright blue accents (White Blue) from the product reference standing on the wooden table, large and sharp (about 65% of the image width), soft spotlight on them. Bottom center: a dark rounded pill with white heavy text \"BLACK FRIDAY: 60% OFF SITEWIDE\". No star ratings, no customer counts. Compared with the second attached image: same scene, layout, type and pill; only the headline, the line under it and the shoe color change as written here. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "benchmark": "approved_R48_01",
+      "copy_of": "R48_01_dont_buy_these_60_v1",
+      "revision": "new (user 2026-10-27): R48_01 with a different headline and shoe color"
+    },
+    {
+      "id": "R48_15_so_comfy_dont_buy_bp",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "offer": "A_sitewide",
+      "angle": "Reverse-psychology hook 'SO COMFY DON'T BUY' in black_purple, 60% off sitewide",
+      "based_on": "User reference: Solebrace 'DON'T BUY THESE INSOLES' dark curtain ad (shared in chat 2026-10-27)",
+      "headline": "SO COMFY DON'T BUY",
+      "prompt": "Moody dark charcoal studio with a soft draped dark curtain backdrop and a warm rim light, a dark wooden tabletop in the foreground. Top center: huge heavy white all-caps headline on two lines \"SO COMFY\" / \"DON'T BUY\". Under it, white text: \"Unless you're ready to never want to take them off.\" Center: a pair of the black-and-purple shoes from the product reference standing on the wooden table, large and sharp (about 65% of the image width), soft spotlight on them. Bottom center: a dark rounded pill with white heavy text \"BLACK FRIDAY: 60% OFF SITEWIDE\". No star ratings, no customer counts. Compared with the second attached image: same scene, layout, type and pill; only the headline, the line under it and the shoe color change as written here. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "benchmark": "approved_R48_01",
+      "copy_of": "R48_01_dont_buy_these_60_v1",
+      "revision": "new (user 2026-10-27): R48_01 with a different headline and shoe color"
     }
   ]
 }
