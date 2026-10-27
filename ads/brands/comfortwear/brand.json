@@ -490,6 +490,26 @@
     "approved_O48_06": {
       "file": "weeks/2026-W48-bf-offers/output/O48_06_buy2_two_pairs_snow_v1.png",
       "use_for": "OWN render (user asked for the pairs closer and bigger 2026-10-27): snowy deck two pairs"
+    },
+    "bf_stage": {
+      "file": "reference/benchmarks/bf_ref_stage_spotlight_9x16.jpg",
+      "use_for": "FORMAT ref (other brand): dark stage with spotlights and black/gold balloons, huge 'BLACK' white + 'FRIDAY' red condensed title, product on a round podium, red offer box, two red-plus benefit rows"
+    },
+    "bf_ends_soon": {
+      "file": "reference/benchmarks/bf_ref_ends_soon_blocks.jpg",
+      "use_for": "FORMAT ref (other brand): blue 'BLACK FRIDAY ENDS SOON' block + black headline block on top, huge left-aligned offer stack with a coupon ticket, product right, blue 'FINAL HOURS' tab bottom-right"
+    },
+    "bf_band": {
+      "file": "reference/benchmarks/bf_ref_lifestyle_band_9x16.jpg",
+      "use_for": "FORMAT ref (other brand): real lifestyle photo with a hand holding the product, a black band across the upper third with huge white 'UP TO 52% OFF' and 'BLACK FRIDAY SALE' below, small dark oval label"
+    },
+    "bf_risk_free": {
+      "file": "reference/benchmarks/bf_ref_risk_free_pink.jpg",
+      "use_for": "FORMAT ref (other brand): soft pink background, 'Try 60 Days' + big purple 'Risk-Free' headline, three products center, accessories around, orange sticker, row of white outline pills at the bottom"
+    },
+    "bf_alert_post": {
+      "file": "reference/benchmarks/bf_ref_alert_text_post.jpg",
+      "use_for": "FORMAT ref (other brand): native text post on an orange-to-pink gradient, centered white bold caps text with siren emojis, pointing emojis, link line, cartoon avatar of a woman with glasses giving thumbs up bottom-right"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
