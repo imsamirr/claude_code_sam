@@ -95,8 +95,9 @@ def learned_preferences(bdir, concept_id):
     # this concept's own feedback first, then the most recent general feedback
     fb.sort(key=lambda f: f["date"], reverse=True)
     fb.sort(key=lambda f: f["concept"] != concept_id)
-    liked = [f["notes"] for f in fb if f["verdict"] == "approve"][:8]
-    disliked = [f["notes"] for f in fb if f["verdict"] == "reject"][:8]
+    # dict.fromkeys drops repeated notes (e.g. one verdict logged on a whole batch) but keeps the order
+    liked = list(dict.fromkeys(f["notes"] for f in fb if f["verdict"] == "approve"))[:8]
+    disliked = list(dict.fromkeys(f["notes"] for f in fb if f["verdict"] == "reject"))[:8]
     lines = []
     if liked:
         lines.append("The creative director approved past ads for: " + "; ".join(liked) + ".")
@@ -140,6 +141,17 @@ UGC_RULE = ("This must look like a real, unedited phone photo or a real screensh
             "perfect stock-photo faces, no dramatic color grading, no 3D render look. Text overlays are simple "
             "and flat like a phone editing app, handwritten notes or stickers look hand-made. The shoe stays the exact "
             "product from the reference at true proportions.")
+LETTER_RULE = ("This is a text-first native ad: a plain typed letter, email, founder note or announcement, like the "
+               "attached format reference. It must read as a real note, not a designed ad: plain background, simple "
+               "system-style sans or serif type, left-aligned short paragraphs with blank lines between them, bold or "
+               "underline only on the key phrases the description names. Render every quoted word exactly, in order, "
+               "with nothing added. Body text is large for readers aged 60+: each line at least about 1/32 of the canvas "
+               "height, dark text on a light background (or white on dark), generous margins, never small or light grey. "
+               "If the description shows the product, it is the exact shoe from the product reference at true natural "
+               "proportions, placed where the description says.")
+LETTER_BENCH_RULE = ("The SECOND attached image is the FORMAT reference (another brand's ad): recreate its layout, structure, "
+                     "type treatment, emphasis style and overall feel closely, but use only the words in the description. "
+                     "Never show that brand's product, name, logo or signature.")
 UGC_BENCH_RULE = ("The SECOND attached image is a past ad of this brand: use it only as a loose reference for how big and "
                   "bold the headline and labels are; do NOT match its glossy studio look.")
 
@@ -176,21 +188,25 @@ def build_prompt(bdir, brand, concept, extra, layout_rule=FORMAT_RULE):
     rules = brand["prompt_rules"]
     if concept.get("no_product"):
         # Native/lo-fi images without the product: drop the product-fidelity rule (always the first rule).
-        rules = rules[1:] + ["The attached reference photo is for brand context only: do NOT show that device or any "
-                             "cleaning machine anywhere in this image."]
+        rules = rules[1:] + ["The attached product reference photo is for brand context only: do NOT show that "
+                             "product (or anything resembling it) anywhere in this image."]
     if concept.get("format") in ILLUSTRATED:
         # Cartoon/animation formats: drop the photo-quality rule, keep the product recognizable.
         rules = [r for r in rules if "photography" not in r.lower()] + [ILLUSTRATED_RULE]
     ugc = concept.get("style") == "ugc"
+    letter = concept.get("style") == "letter"
     if ugc:
         rules = [r for r in rules if "photography" not in r.lower()] + [UGC_RULE]
+    if letter:
+        rules = [r for r in rules if "photography" not in r.lower()] + [LETTER_RULE]
     parts += rules
     lang = concept.get("lang", "en")
     if lang != "en":
         parts.append(brand["language_rules"][lang])
-    parts += brand.get("quality_bar_ugc", []) if ugc and brand.get("quality_bar_ugc") else brand.get("quality_bar", [])
+    if not letter:  # the letter style replaces the shoe-hero/headline quality bar with LETTER_RULE
+        parts += brand.get("quality_bar_ugc", []) if ugc and brand.get("quality_bar_ugc") else brand.get("quality_bar", [])
     if benchmark_for(bdir, brand, concept):
-        parts.append(UGC_BENCH_RULE if ugc else BENCHMARK_RULE)
+        parts.append(LETTER_BENCH_RULE if letter else UGC_BENCH_RULE if ugc else BENCHMARK_RULE)
     prefs = learned_preferences(bdir, concept["id"])
     if prefs:
         parts.append(prefs)

@@ -339,7 +339,8 @@
     "Arch support, cushioned heel, wide toe box, stretch-knit upper, slip-resistant grip, elastic no-tie laces",
     "BLACK FRIDAY 2026 (user-provided 2026-10-19, valid for the B48 Black Friday batch only): \"60% OFF SITEWIDE\", \"FREE GIFTS (VALUE OF $54)\", \"FREE SHIPPING\", \"CLEARANCE SALE\", \"HSA/FSA ELIGIBLE\", \"30-DAY WEAR TEST TRIAL\". Do not name the gift items or show prices until confirmed.",
     "BLACK FRIDAY 2026 (user-provided 2026-10-19, valid for the B48 Black Friday batch only): \"60% OFF SITEWIDE\", \"FREE GIFTS (VALUE OF $54)\", \"FREE SHIPPING\", \"CLEARANCE SALE\", \"HSA/FSA ELIGIBLE\", \"30-DAY WEAR TEST TRIAL\". Do not name the gift items or show prices until confirmed.",
-    "BLACK FRIDAY week of Nov 9 (user-provided 2026-10-26): EITHER \"60% OFF SITEWIDE\" OR \"BUY 2 PAIRS, GET 2 FREE GIFTS\" (gifts: \"3-PACK CUSHIONED SOCKS\" and \"FREE TRAVEL BAG\"). Never both in one concept; do not combine with the 40% OFF stack."
+    "BLACK FRIDAY week of Nov 9 (user-provided 2026-10-26): EITHER \"60% OFF SITEWIDE\" OR \"BUY 2 PAIRS, GET 2 FREE GIFTS\" (gifts: \"3-PACK CUSHIONED SOCKS\" and \"FREE TRAVEL BAG\"). Never both in one concept; do not combine with the 40% OFF stack.",
+    "BLACK FRIDAY 2026 offer facts (user-provided 2026-10-27): \"60% OFF SITEWIDE\"; \"BUY 2 PAIRS, GET A FREE 3-PACK OF SOCKS + FREE TRAVEL BAG\"; \"FREE SHIPPING & RETURNS\"; \"30-DAY MONEY-BACK GUARANTEE\" (free). User: no need to fit all of it on one ad. Keep the Oct 26 rule: the lead offer is EITHER 60% OFF OR the buy-2 gifts, never both; free shipping & returns and the 30-day guarantee may appear as small supporting lines. 'Free shipping & returns' is the approved wording (never 'easy' or 'fast')."
   ],
   "quality_bar": [
     "Match the quality of the brand's own top-performing ads (the benchmark image): polished commercial e-commerce production, crisp and bright, nothing that looks like generic AI stock art.",
@@ -421,6 +422,26 @@
     "pills_offer_studio": {
       "file": "reference/benchmarks/built_for_12h_shifts_pills_1x1.jpg",
       "use_for": "studio leg + shoe on white, 40% OFF circle, headline with colored second line, 5 check pills, 'try risk-free' button"
+    },
+    "bf_notice": {
+      "file": "reference/benchmarks/bf_ref_notice_communique.jpg",
+      "use_for": "FORMAT ref (other brand): urgent white notice with warning triangle, bold caps title, underlined key phrases, red offer line; text only"
+    },
+    "bf_oops_letter": {
+      "file": "reference/benchmarks/bf_ref_did_we_mess_up_letter.jpg",
+      "use_for": "FORMAT ref (other brand): 'Uh-oh... did we mess up?' founder note on soft gradient, rounded display headline + emoji, short paragraphs, small product bottom-right"
+    },
+    "bf_final_hours": {
+      "file": "reference/benchmarks/bf_ref_final_hours_text.jpg",
+      "use_for": "FORMAT ref (other brand): dark background, red 'FINAL HOURS' title with sirens, white body with bold highlights, product + starburst bottom-right, script signature"
+    },
+    "bf_goodbye": {
+      "file": "reference/benchmarks/bf_ref_saying_goodbye.jpg",
+      "use_for": "FORMAT ref (other brand): white, big red 'WE'RE SAYING GOODBYE' headline, two black paragraphs, handwritten signature, product row along the bottom"
+    },
+    "bf_formal_apology": {
+      "file": "reference/benchmarks/bf_ref_formal_apology.jpg",
+      "use_for": "FORMAT ref (other brand): plain white formal apology letter, centered bold title, short paragraphs, italic line, handwritten signature + title"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",

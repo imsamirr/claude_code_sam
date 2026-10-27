@@ -1,0 +1,78 @@
+{
+  "week": "2026-W48-bf-letters",
+  "notes": "Black Friday letter/notice statics from 5 user-supplied format references (2026-10-27): urgent notice, 'did we mess up' founder note, final hours, saying goodbye, formal apology. Lead offer is EITHER 60% OFF SITEWIDE (L48_01, 03, 05) OR buy 2 pairs + free socks and travel bag (L48_02, 04); free shipping & returns and the 30-day money-back guarantee as small supporting lines. Signed 'The ComfortWear Team' (no founder name given). The notice is signed by ComfortWear, not a made-up institute. Text sized for readers 60+.",
+  "concepts": [
+    {
+      "id": "L48_01_notice_from_the_team",
+      "group": "black_friday",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "black_purple",
+      "style": "letter",
+      "no_product": true,
+      "benchmark": "bf_notice",
+      "offer": "A_sitewide",
+      "angle": "Urgent public-notice format, signed by the brand: the everyday foot problems customers report, then ComfortWear as the answer, then the Black Friday line in red",
+      "based_on": "User reference 'Communiqué du centre français de l'hygiène intime' (urgent notice format) + survey problems (heel pain 25%, swelling, toe room) + copy playbook rule 1 (who + pain with a number)",
+      "headline": "A NOTICE FROM THE COMFORTWEAR TEAM.",
+      "prompt": "Plain white tall background, like a typed public notice. Upper-middle, a large yellow warning triangle icon with a black exclamation mark. Below it, centered, a bold black all-caps title on two lines: \"A NOTICE FROM THE\" and \"COMFORTWEAR TEAM.\" Then left-aligned paragraphs in a clean bold-ish black sans, large and easy to read, with a blank line between paragraphs. Paragraph 1: \"Nurses and travelers keep telling us the same thing: \" followed by an underlined phrase \"heel pain by hour 6, swollen feet by dinner, and toes crushed in narrow sneakers.\" Paragraph 2: \"What it costs: cut-short walks, ruined trips, limping to the car after a 12-hour shift.\" Paragraph 3: \"For anyone dealing with this, there is a comfortable answer: ComfortWear. Real arch support, a wide toe box and stretch knit that gives when feet swell.\" Paragraph 4 in bold red: \"BLACK FRIDAY: 60% OFF SITEWIDE.\" and next line in bold red \"Free shipping & returns.\" Nothing else on the image."
+    },
+    {
+      "id": "L48_02_did_we_mess_up_gifts",
+      "group": "black_friday",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "black_purple",
+      "style": "letter",
+      "benchmark": "bf_oops_letter",
+      "offer": "B_gifts",
+      "angle": "'Uh-oh, did we mess up?' founder-style note: we were too generous with the buy-2 gifts; product quality as the reason it can't last",
+      "based_on": "User reference 'Uh-oh... did we mess up?' (Onecompress founder note) + existing B48_05 'We miscalculated' angle + copy playbook rule 6 (arch that holds, wide toe box, cushion that doesn't go flat)",
+      "headline": "UH-OH... DID WE MESS UP?",
+      "prompt": "Soft pale mint-to-light-blue vertical gradient background. Top center, a big rounded friendly black display headline on two lines: \"UH-OH... DID WE\" and \"MESS UP?\" followed by a sweating-smile emoji 😅. Below, left-aligned short paragraphs in a clean dark sans, large and easy to read, blank lines between them: \"Hey there,\" / \"We may have gotten a little too generous this Black Friday.\" / \"Buy 2 pairs and you get 2 FREE gifts: a 3-pack of cushioned socks AND a travel bag.\" / \"Here's the problem: these aren't cheap sneakers. Real arch support, a wide toe box, and a cushion that doesn't go flat by hour 4.\" / \"So when the gifts are gone, they're gone.\" / \"Free shipping & returns. 30-day money-back guarantee.\" / \"Don't wait.\" / then on its own line \"The ComfortWear Team\". Bottom-right corner, a small natural photo of one pair of the black-and-purple shoes from the product reference with a rolled 3-pack of plain socks and a small zip travel bag beside it, all at true proportions, about one fifth of the image width."
+    },
+    {
+      "id": "L48_03_final_hours_60",
+      "group": "black_friday",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "style": "letter",
+      "benchmark": "bf_final_hours",
+      "offer": "A_sitewide",
+      "angle": "Black Friday final hours: why nurses order 2, 3, even 4 pairs (arch that holds through a 12, room for bunions, cushion that lasts), then the deadline",
+      "based_on": "User reference 'Black Friday final hours' (Bloom & Bond) + script line 'three other nurses on my floor ordered them' (203 UGC, 3.05 ROAS) + Trustpilot 'bought a second pair'",
+      "headline": "BLACK FRIDAY FINAL HOURS",
+      "prompt": "Dark charcoal background with a soft vignette. Top, a bold red all-caps headline with a red siren emoji 🚨 on each side: \"BLACK FRIDAY FINAL HOURS\". Below, left-aligned paragraphs in clean white sans, large and easy to read, with the named phrases in bold white: Paragraph 1: \"Our \" + bold \"60% OFF SITEWIDE\" + \" Black Friday sale ends soon. This might be your last chance this year.\" Paragraph 2: \"Why do nurses order 2, 3, even 4 pairs? Because the \" + bold \"arch support holds through a 12-hour shift\" + \", the wide toe box gives bunions room, and the cushion doesn't flatten by lunch.\" Paragraph 3: \"Once the sale ends, it's back to full price.\" Paragraph 4: bold \"If you're reading this, it's still on. Don't wait.\" Bottom-left, a white handwritten-style signature: \"The ComfortWear Team\". Bottom-right, a pair of the red/burgundy shoes from the product reference at true proportions, about one third of the image width, with a red starburst sticker overlapping the corner reading \"60% OFF\" in white."
+    },
+    {
+      "id": "L48_04_saying_goodbye_gifts",
+      "group": "black_friday",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "style": "letter",
+      "benchmark": "bf_goodbye",
+      "offer": "B_gifts",
+      "angle": "'We're saying goodbye' brand note: goodbye to heel pain and crushed toes, and goodbye to the Black Friday gifts soon",
+      "based_on": "User reference 'We're saying goodbye' (Frøya) + creative_rules_v2 winning pattern 'Say goodbye to [problem]' + survey 'comfortable or cute, hardly ever both'",
+      "headline": "WE'RE SAYING GOODBYE",
+      "prompt": "Clean white background. Top, a very large bold red all-caps headline across the width: \"WE'RE SAYING GOODBYE\". Below, two left-aligned paragraphs in bold-ish black sans, large and easy to read. Paragraph 1: \"At ComfortWear, we believe women shouldn't have to choose between cute and comfortable. Say goodbye to heel pain, crushed toes and sneakers that give up by noon.\" Paragraph 2: \"And say goodbye to our Black Friday gifts soon: \" + bold \"buy 2 pairs and get a FREE 3-pack of cushioned socks and a FREE travel bag.\" + \" Free shipping & returns.\" Under that, a handwritten black signature reading \"ComfortWear\" and below it small black text \"ComfortWear | Shoes for long days\". Bottom third: a clean row on white with a pair of the navy shoes with bright blue accents from the product reference in the center, at true proportions and large, a rolled 3-pack of plain socks on the left and a small zip travel bag on the right."
+    },
+    {
+      "id": "L48_05_formal_apology_60",
+      "group": "black_friday",
+      "persona": "comfort_only",
+      "lang": "en",
+      "colorway": "all_black",
+      "style": "letter",
+      "no_product": true,
+      "benchmark": "bf_formal_apology",
+      "offer": "A_sitewide",
+      "angle": "Formal apology to everyone who paid full price or reads this too late; the 60% sale and the guarantee as the 'good news'",
+      "based_on": "User reference 'A formal apology from Anaconda' + existing B48_10 team-letter angle (signed by the team, no founder name)",
+      "headline": "A FORMAL APOLOGY FROM COMFORTWEAR",
+      "prompt": "Plain white background like a printed letter. Top center, a bold black all-caps title on two lines: \"A FORMAL APOLOGY FROM\" and \"COMFORTWEAR\". Below, left-aligned short paragraphs in a clean black sans, large and easy to read, blank lines between them: \"Hi,\" / \"We want to say sorry to everybody who reads this too late.\" / \"Our biggest sale of the year is now live: 60% OFF SITEWIDE for Black Friday.\" / \"We know many of you already bought a pair at full price this year. That's on us.\" / \"The good news: if you haven't shopped yet, there's still time. Free shipping & returns, plus our 30-day money-back guarantee.\" / then in italics: \"If you missed this by a day... we are genuinely sorry.\" At the bottom-left, a black handwritten signature reading \"The ComfortWear Team\" with a short line under it. Nothing else on the image."
+    }
+  ]
+}
