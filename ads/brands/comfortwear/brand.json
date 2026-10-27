@@ -466,6 +466,10 @@
     "approved_L48_07": {
       "file": "weeks/2026-W48-bf-letters/output/L48_07_final_hours_general_v1.png",
       "use_for": "OWN approved render (user asked for colorway variants 2026-10-27): Black Friday final hours, general foot-pain copy"
+    },
+    "approved_L48_04": {
+      "file": "weeks/2026-W48-bf-letters/output/L48_04_saying_goodbye_gifts_v2.png",
+      "use_for": "OWN render (user asked for a 60%-only version 2026-10-27): We're saying goodbye"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",

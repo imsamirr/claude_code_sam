@@ -141,6 +141,22 @@
       "prompt": "Dark charcoal background with a soft vignette. Top, a bold red all-caps headline with a red siren emoji 🚨 on each side: \"BLACK FRIDAY FINAL HOURS\". Below, left-aligned paragraphs in clean white sans, large and easy to read, with the named phrases in bold white: Paragraph 1: \"Our \" + bold \"60% OFF SITEWIDE\" + \" Black Friday sale ends soon. This might be your last chance this year.\" Paragraph 2: \"Why do so many women order 2, 3, even 4 pairs? Because the \" + bold \"arch support holds up all day long\" + \", the wide toe box gives bunions room, and the cushion doesn't flatten by lunch.\" Paragraph 3: \"Once the sale ends, it's back to full price.\" Paragraph 4: bold \"If you're reading this, it's still on. Don't wait.\" Bottom-left, a white handwritten-style signature: \"The ComfortWear Team\". Bottom-right, one shoe (same angle and size as in the second attached image) of the navy with bright blue accents (White Blue) shoes from the product reference at true proportions, about one third of the image width, with a red starburst sticker overlapping the corner reading \"60% OFF\" in white.",
       "revision": "new (user 2026-10-27): L48_07 re-made with the navy with bright blue accents (White Blue) shoe",
       "copy_of": "L48_07_final_hours_general_v1"
+    },
+    {
+      "id": "L48_10_saying_goodbye_60",
+      "group": "black_friday",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "style": "letter",
+      "benchmark": "approved_L48_04",
+      "offer": "A_sitewide",
+      "angle": "'We're saying goodbye' brand note, 60% OFF SITEWIDE only (no gifts, no shipping line)",
+      "based_on": "User reference 'We're saying goodbye' (Frøya) + creative_rules_v2 winning pattern 'Say goodbye to [problem]' + survey 'comfortable or cute, hardly ever both'",
+      "headline": "WE'RE SAYING GOODBYE",
+      "prompt": "Clean white background. Top, a very large bold red all-caps headline across the width: \"WE'RE SAYING GOODBYE\". Below, two left-aligned paragraphs in bold-ish black sans, large and easy to read. Paragraph 1: \"At ComfortWear, we believe women shouldn't have to choose between cute and comfortable. Say goodbye to heel pain, crushed toes and sneakers that give up by noon.\" Paragraph 2: \"And say goodbye to full price: \" + bold \"60% OFF SITEWIDE for Black Friday.\" Nothing else in the paragraph (no gifts, no shipping line). Under that, a handwritten black signature reading \"ComfortWear\" and below it small black text \"ComfortWear | Shoes for long days\". Bottom third: on white, a large pair of the navy shoes with bright blue accents from the product reference, side by side and centered, at true proportions, soft shadow. No socks, no bag, no other objects. Compared with the second attached image: same headline, paragraph 1, signature and type; paragraph 2 changes as written here, and the socks and travel bag are replaced by the shoe pair.",
+      "revision": "new (user 2026-10-27): L48_04 with only the 60% OFF SITEWIDE offer",
+      "copy_of": "L48_04_saying_goodbye_gifts_v2"
     }
   ]
 }
