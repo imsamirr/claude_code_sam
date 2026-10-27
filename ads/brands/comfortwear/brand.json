@@ -341,7 +341,8 @@
     "BLACK FRIDAY 2026 (user-provided 2026-10-19, valid for the B48 Black Friday batch only): \"60% OFF SITEWIDE\", \"FREE GIFTS (VALUE OF $54)\", \"FREE SHIPPING\", \"CLEARANCE SALE\", \"HSA/FSA ELIGIBLE\", \"30-DAY WEAR TEST TRIAL\". Do not name the gift items or show prices until confirmed.",
     "BLACK FRIDAY week of Nov 9 (user-provided 2026-10-26): EITHER \"60% OFF SITEWIDE\" OR \"BUY 2 PAIRS, GET 2 FREE GIFTS\" (gifts: \"3-PACK CUSHIONED SOCKS\" and \"FREE TRAVEL BAG\"). Never both in one concept; do not combine with the 40% OFF stack.",
     "BLACK FRIDAY 2026 offer facts (user-provided 2026-10-27): \"60% OFF SITEWIDE\"; \"BUY 2 PAIRS, GET A FREE 3-PACK OF SOCKS + FREE TRAVEL BAG\"; \"FREE SHIPPING & RETURNS\"; \"30-DAY MONEY-BACK GUARANTEE\" (free). User: no need to fit all of it on one ad. Keep the Oct 26 rule: the lead offer is EITHER 60% OFF OR the buy-2 gifts, never both; free shipping & returns and the 30-day guarantee may appear as small supporting lines. 'Free shipping & returns' is the approved wording (never 'easy' or 'fast').",
-    "BLACK FRIDAY price boxes (user-provided 2026-10-27, for Q48_06): strikethrough \"$120\" -> sale price \"$59.95\". Note: $59.95 vs $120 is ~50% off, and the standing price claim is \"$59.95 (was $90)\"; confirm the reference price before running."
+    "BLACK FRIDAY price boxes (user-provided 2026-10-27, for Q48_06): strikethrough \"$120\" -> sale price \"$59.95\". Note: $59.95 vs $120 is ~50% off, and the standing price claim is \"$59.95 (was $90)\"; confirm the reference price before running.",
+    "BLACK FRIDAY promo code (user-provided 2026-10-27): code \"LEAKED10\" = \"EXTRA 10% OFF\", shown as \"TOTAL 70% OFF + FREE SHIPPING\". Note: 60% then an extra 10% compounds to 64%, unless the code adds 10 points; confirm before running."
   ],
   "quality_bar": [
     "Match the quality of the brand's own top-performing ads (the benchmark image): polished commercial e-commerce production, crisp and bright, nothing that looks like generic AI stock art.",
@@ -551,6 +552,10 @@
     "approved_Q48_01": {
       "file": "weeks/2026-W48-bf-batch4/output/Q48_01_caution_tape_luxury_60_v1.png",
       "use_for": "OWN render (user asked for Red and White Blue versions 2026-10-27): caution tape luxury 60%"
+    },
+    "bf_leaked": {
+      "file": "reference/benchmarks/bf_ref_leaked_code.jpg",
+      "use_for": "FORMAT ref (other brand): light warm-grey, heavy dark 'YOU WEREN'T SUPPOSED TO SEE THIS', short explainer line, 'USE CODE' + outlined code pill, coral 'FOR EXTRA 20% OFF', two products bottom-left and bottom-right with a 'TOTAL 70% OFF + FREE SHIPPING' line between them"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
