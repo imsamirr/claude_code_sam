@@ -588,6 +588,26 @@
     "approved_S45_03": {
       "file": "weeks/2026-W45-inspo-personas/output/S45_03_forget_feet_plus_v1.png",
       "use_for": "OWN render (user asked for a nurse version 2026-10-27): forget about your feet, taped notes"
+    },
+    "quote_box": {
+      "file": "reference/benchmarks/ref_quote_box_price.jpg",
+      "use_for": "FORMAT ref (other brand): cream background, huge red quote top-left, '– Literally everyone', struck old price + big red price, red closing line, shoes in an open kraft box on the right"
+    },
+    "split_offer": {
+      "file": "reference/benchmarks/ref_split_half_price.jpg",
+      "use_for": "FORMAT ref (other brand): left cream panel with color dots, huge black title, maroon offer bar, short line, 3 check rows, maroon round badge, small footer; right lifestyle photo of crossed legs on a park bench wearing the shoes"
+    },
+    "arent_cheap": {
+      "file": "reference/benchmarks/ref_arent_cheap.jpg",
+      "use_for": "FORMAT ref (other brand): white, huge dark-green serif 'OUR SHOES AREN'T CHEAP.', three bullet sentences (last one bold green), smiling woman portrait bottom-left, product bottom-right"
+    },
+    "hsa_fsa": {
+      "file": "reference/benchmarks/ref_hsa_fsa.jpg",
+      "use_for": "FORMAT ref (other brand): warm yellow, huge black 'HSA/FSA ACCEPTED', short line with one bold phrase, two round icon rows, white check card, product large bottom-right on a pale blue surface"
+    },
+    "chain_icons": {
+      "file": "reference/benchmarks/ref_chain_icons.jpg",
+      "use_for": "FORMAT ref (other brand): white, two-line black headline, row of 5 simple flat icons with labels and down arrows, big shoe side view center, short bold side line, blue pill offer button"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
