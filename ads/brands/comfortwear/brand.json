@@ -530,6 +530,10 @@
     "bf_heavier_insets": {
       "file": "reference/benchmarks/bf_ref_heavier_woman_insets.jpg",
       "use_for": "FORMAT ref (other brand): plus-size legs in leggings wearing the shoes on the right, white-boxed headline with one bold phrase, 2x2 inset photos with small labels on the left, dark discount box, thin bottom trust bar"
+    },
+    "approved_P48_05": {
+      "file": "weeks/2026-W48-bf-batch3/output/P48_05_alert_post_gifts_v1.png",
+      "use_for": "OWN render (user asked for a 60% version 2026-10-27): Black Friday alert text post"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",

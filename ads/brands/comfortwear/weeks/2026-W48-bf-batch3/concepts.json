@@ -77,6 +77,23 @@
       "lang": "en",
       "format_ref": true,
       "tags": []
+    },
+    {
+      "id": "P48_06_alert_post_60",
+      "persona": "comfort_only",
+      "style": "letter",
+      "no_product": true,
+      "benchmark": "approved_P48_05",
+      "offer": "A_sitewide",
+      "angle": "Native fan-style text post: 'Have you heard?' Black Friday alert, 60% off sitewide",
+      "based_on": "User reference: GroundingWell 'BLACK FRIDAY ALERT' native text post",
+      "headline": "BLACK FRIDAY ALERT",
+      "prompt": "Square-ish native social text post on a smooth orange-to-hot-pink vertical gradient. Centered white heavy text, large, with blank lines between blocks: \"🚨 BLACK FRIDAY ALERT 🚨\" / \"Have you heard? ComfortWear is doing 60% OFF SITEWIDE this Black Friday!!!\" / \"Every pair, every color of their comfy shoes!!!\" / \"👇👇👇\" / underlined \"comfortorthowear.com\". Bottom-right corner, the same friendly cartoon avatar as in the second attached image (smiling woman around 65, short grey hair, red glasses, two thumbs up). No shoe, no logo. Compared with the second attached image: same background, type, emojis, link and avatar; only the two middle text blocks change to the words above.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "copy_of": "P48_05_alert_post_gifts_v1",
+      "revision": "new (user 2026-10-27): P48_05 with 60% OFF SITEWIDE instead of the buy-2 gifts"
     }
   ]
 }
