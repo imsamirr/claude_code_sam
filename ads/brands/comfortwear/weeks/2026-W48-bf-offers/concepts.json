@@ -125,6 +125,22 @@
       "tags": [],
       "copy_of": "O48_04_pink_biggest_sale_v1",
       "revision": "new (user 2026-10-27): O48_04 with the red/burgundy shoes and a very light matching background"
+    },
+    {
+      "id": "O48_09_collage_60_off",
+      "persona": "mixed",
+      "colorway": "all_black",
+      "benchmark": "approved_O48_05",
+      "offer": "A_sitewide",
+      "angle": "Customer photo collage with a black Black Friday box, 60% OFF SITEWIDE",
+      "based_on": "User reference: Somnilys Black Friday customer-collage pillow ad",
+      "headline": "BLACK FRIDAY",
+      "prompt": "A collage grid of six real, casual smartphone-style photos of women aged 50-70 happily holding up or wearing the all-black shoes from the product reference (shoe always clearly visible and correct): a nurse in navy scrubs in a hospital break room, a traveler with a suitcase at an airport gate, a teacher in a classroom, a plus-size woman on a park path, a grandmother in her kitchen, a woman sitting on a bed holding the pair. No doctors, no white coats. In the center, overlapping the grid, a solid black rounded box with: big red condensed all-caps \"BLACK FRIDAY\", white text \"The Ortho Stretch Cushion Shoe\", smaller white \"For long days on your feet\", then a huge red heavy all-caps \"60% OFF\" and white all-caps \"SITEWIDE\" under it. All text is large, bold and high contrast for readers aged 60+; nothing small or thin. Compared with the second attached image: same six photos, box, layout and type; only the offer lines at the bottom of the box change to \"60% OFF\" / \"SITEWIDE\". Make the shoes in every photo a little larger and clearly the exact product.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "copy_of": "O48_05_collage_buy2_gifts_v1",
+      "revision": "new (user 2026-10-27): O48_05 with 60% OFF SITEWIDE instead of the buy-2 gifts"
     }
   ]
 }

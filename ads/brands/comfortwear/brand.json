@@ -482,6 +482,10 @@
     "approved_O48_04": {
       "file": "weeks/2026-W48-bf-offers/output/O48_04_pink_biggest_sale_v1.png",
       "use_for": "OWN render (user asked for White Blue and Red versions 2026-10-27): pink biggest-sale 60% card"
+    },
+    "approved_O48_05": {
+      "file": "weeks/2026-W48-bf-offers/output/O48_05_collage_buy2_gifts_v1.png",
+      "use_for": "OWN render (user asked for a 60% version 2026-10-27): customer collage"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
