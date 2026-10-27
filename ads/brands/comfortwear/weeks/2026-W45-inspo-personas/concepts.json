@@ -26,11 +26,12 @@
       "angle": "Theme-park walking day: walking all day at Disney? side-view shoe with feature pills",
       "based_on": "User reference: barefoot-shoe 'I spent the whole day at Disney...' quote + pills ad (made a question, not a quote, so no invented testimonial)",
       "headline": "WALKING ALL DAY AT DISNEY?",
-      "prompt": "Pale soft pink background. Top center, black all-caps headline on two lines: regular weight \"WALKING ALL DAY AT DISNEY?\" and heavy bold \"YOUR FEET WILL THANK YOU.\" No castles, no characters, no park logos. Center: one red/burgundy shoe from the product reference in a clean side view facing left, very large (about 75% of the image width) and sharp. Upper right, a round burgundy badge with white heavy text \"40% OFF\". Below the shoe, a 2x2 grid of burgundy rounded pills, each with a white check-circle icon and white text: \"Cushioned Rocker Sole\", \"Slip-Resistant Grip\", \"Stretch Knit\", \"Wide Toe Box\". Bottom: a full-width black bar with white all-caps text \"ENJOY THE PARKS \" + bold \"AGAIN\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "prompt": "Pale soft pink background. Top center, black all-caps headline on two lines: regular weight \"WALKING ALL DAY AT DISNEY?\" and heavy bold \"YOUR FEET WILL THANK YOU.\" No castles, no characters, no park logos. Center: one red/burgundy shoe from the product reference in a clean side view facing left, very large (about 75% of the image width) and sharp. Upper right, a round burgundy badge with white heavy text \"40% OFF\". Below the shoe, a 2x2 grid of burgundy rounded pills, each with a white check-circle icon and white text: \"Cushioned Rocker Sole\", \"Slip-Resistant Grip\", \"Stretch Knit\", \"Wide Toe Box\". Bottom: a full-width black bar with white all-caps text \"ENJOY THE PARKS \" + bold \"AGAIN\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. Spell every word exactly: \"WALKING\" is W-A-L-K-I-N-G (seven letters).",
       "group": "persona_inspo",
       "lang": "en",
       "format_ref": true,
-      "tags": []
+      "tags": [],
+      "revision": "v2: v1 misspelled WALKING as 'WALKINIG'"
     },
     {
       "id": "S45_03_forget_feet_plus",
