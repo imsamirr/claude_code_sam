@@ -110,6 +110,9 @@ def reference_for(bdir, brand, concept):
     """Resolve the product photo: explicit reference_image, else the concept's colorway."""
     if concept.get("reference_image"):
         return bdir / concept["reference_image"]
+    if concept.get("no_product") and not concept.get("colorway"):
+        # text-only ads still send a product photo for brand context (the prompt says not to show it)
+        return bdir / next(iter(brand["colorways"].values()))["file"]
     colorway = concept["colorway"]
     persona = brand.get("personas", {}).get(concept.get("persona"), {})
     allowed = persona.get("colorways", "any")
