@@ -568,6 +568,22 @@
     "approved_R48_01": {
       "file": "weeks/2026-W48-bf-batch5/output/R48_01_dont_buy_these_60_v1.png",
       "use_for": "OWN render (user asked for 3 colorway + copy variants 2026-10-27): don't buy these shoes"
+    },
+    "four_reasons": {
+      "file": "reference/benchmarks/ref_four_reasons_hand.jpg",
+      "use_for": "FORMAT ref (other brand): sage green, white caps title '4 REASONS...', four white pills with green check emoji, a hand holding one shoe up bottom-right, small offer stack bottom-left"
+    },
+    "forget_feet": {
+      "file": "reference/benchmarks/ref_forget_feet_tape.jpg",
+      "use_for": "FORMAT ref (other brand): pale lavender, red serif headline, huge top-down insole/sole center, four handwritten labels on torn masking tape around it"
+    },
+    "every_day_colors": {
+      "file": "reference/benchmarks/ref_every_day_three_colors.jpg",
+      "use_for": "FORMAT ref (other brand): warm beige, dark brown two-line headline with one underlined word, italic subline, three shoes in a row leaning on a wall, round brown discount badge, two dark check pills, thin trust bar"
+    },
+    "search_bar": {
+      "file": "reference/benchmarks/ref_search_bar_insets.jpg",
+      "use_for": "FORMAT ref (other brand): blurred garden photo of a smiling older woman holding one shoe toward the camera, white search bar with a question, three inset photos with purple caption bars, red round discount badge, white trust bar"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
