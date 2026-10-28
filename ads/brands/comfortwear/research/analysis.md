@@ -310,3 +310,8 @@ Nurse is the whole top: "2024's Favorite Nurse Shoes" images at $858k / $457k / 
 | What-to-expect timeline, product in hand | The Outgoing Co (supplement, 42d) | Sets honest expectations | "What to expect at Disney" |
 | We-tested counter photo + sticky note | Lumexa (supplement, 27d) | Static version of our "we tested 5" videos | "We tested the top 4 nurse shoes." |
 | Not yet used: Week 1/2/3 progression + seal (Lymphoria, 42d), apology founder letter (RYZE, Tiny Explorings), shock headline + customer results (Rhea, 28d), persona-page off-topic real photo + story (Linda Baker etc.), X-ray on lightbox (Melissa Hayes), mirror-selfie progression (50 Plus and Fabulous), age-bracket program grid (Muscle Booster). |
+
+
+## 18. Feedback sheet mined, 2026-10-28
+
+Full results: `feedback_pain_points_2026-10-28.md`. 18,452 answers (22% are 4–5★, so §9's 'only 1–3★' note is outdated). Plantar fasciitis 27% (down from 34.5% in 2023–24), 'no pain, just comfort' 22% and rising to 32% in 2026, arthritis 12%, tired feet 12%, neuropathy 11%, bunions 9%, wide feet rising to 4.4%. Insoles/orthotics are the #1 thing they tried (13%). Guardrails: sizing (only 40% good fit), don't overclaim the toe box, explain the rocker sole, guarantee is 30 days.
