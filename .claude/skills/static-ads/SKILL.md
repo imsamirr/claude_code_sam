@@ -17,6 +17,20 @@ Every deliverable is 1 static per concept (no variations) in ONE size, 4:5 (1088
 at high quality with `--layout feed` (the default; user rule 2026-10-18: no 9:16). The file is
 `<id>_vN.png`. GIFs only for statics the user approves.
 
+## DentalPULSE quality rules (user, Oct 28: supersede every older DentalPULSE rule below)
+
+These are encoded in `ads/brands/dentalpulse/brand.json` (`program`, `copy_rules`, `quality_bar`, `font_style`, `typography`, `banned_formats`, `inspiration_rule`) and `ads/atria_pull.py inspiration`; follow them on every run.
+
+1. **Inspiration = curated Atria pull only.** `python ads/atria_pull.py inspiration --brand dentalpulse` returns STATIC images that are currently ACTIVE, launched in the last 45 days, have run at least 7 days (everything launched in the last 7 days is excluded) and whose impressions are GROWING week over week (impression_trend rising and reach/rank improving over 7 days). It searches oral-care AND health & wellness brands (`inspiration_queries`). Contact-sheet it (`contact_sheet.py inspiration_curated.csv --by query --per 3`), read every page, and log "formats growing now" in `research/analysis.md` (section 13 has the Oct 28 read). Borrow formats and hooks from this list, not from old competitor pulls.
+2. **Iterations** come from what performed well for us in the past as statics: `winners` (lifetime top-spend statics), `current`, `seasonal`. Rebuild the proven static formats (comparison table / ranking, warm lifestyle hero, giant "40% OFF" type, quote + badge, native advertorial paper photo) as real photographs, not as new gimmicks.
+3. **No cartoon, animation, illustration, comic, meme or funny ads.** `generate.py` refuses `banned_formats`. Allowed: real photos, real-looking screenshots/native UI (X post, text messages, FB comment, Trustpilot card), documents/lab reports, imaging/macro photos, clean typographic layouts. Tone is serious and credible.
+4. **Direct-response copy** (brand.json `copy_rules`): customer pain in their words, agitate, mechanism, proof, one clear CTA. Specific promises, numbers, imperatives. No jokes or puns.
+5. **Mix: 50% dentures / 25% night guards / 25% aligners + retainers.** Tuesday 20 = 10/5/5; Friday 40 = 20/10/10. **Funnel: 70% top-of-funnel (no price) / 30% offer-driven.**
+6. **Current offer (use only in the 30%):** 40% OFF sitewide, FREE shipping, FREE dental case, FREE travel bag with every order, 120-day money-back guarantee, Pod $99.95. Show the case and bag as small items next to the Pod (`denture_gift_bundle` reference).
+7. **Customer language first.** Re-read `research/feedback_deep_dive.md` (Oct 28 refresh: 180 responses) before writing; bacteria (64%) and yellow stains (39%; 68% of night guard buyers) must be explicit; never promise set-in yellow vanishes in one cycle; answer the price objection with the offer and the skepticism objection with the 6-of-7 lab test + guarantee.
+8. **Photoreal, not AI-looking.** Real camera light and texture, natural skin and hands, believable appliances, no glossy 3D look (brand.json `quality_bar`). Use `"style": "ugc"` for lo-fi/native photos. In QA, reject anything that looks rendered, plastic, over-saturated or symmetrical-perfect.
+9. **Website typography:** Inter for headlines (SemiBold/Bold, sentence case) and body, Barlow Bold for big numbers and prices; navy #0E283C or white text; blue #1188FF as the only accent; palette from dentalpulsepro.com. Reject any ad with serif, script, rounded-cartoon or decorative lettering (except genuine handwritten-note or native-UI formats).
+
 ## Batch types (sizes and days from `brand.json` → `program`)
 
 | Batch | Default day | Folder | Ids | Content |
@@ -127,9 +141,8 @@ prompt), and this skill.
 - **Iteration runs**: `atria_pull.py current` (last `iterate_when.days` days, spend ≥ `min_spend`,
   ROAS ≥ `min_roas`, any format), `rising` (same filter, only ads launched in the window), and
   `seasonal --week <current week>` (top spenders by spend in the same window last year, ±7 days).
-- **Net-new runs**: `atria_pull.py inspo`, and refresh `competitors` + the playbook when the brand has
-  one (new long-running formats only).
-- **Every run (user rule Oct 24, DentalPULSE)**: analyze our own top-spend statics (`winners` + `current`, with the
+- **Net-new runs**: DentalPULSE: `atria_pull.py inspiration` (curated criteria above) is the inspiration source; other brands: `atria_pull.py inspo`, and refresh `competitors` + the playbook when the brand has one (new long-running formats only).
+- **Every run (DentalPULSE; the Oct 28 criteria above replace the competitor/ultrasonic pulls as the inspiration source, keep this for our own winners)**: analyze our own top-spend statics (`winners` + `current`, with the
   thumbnails via `contact_sheet.py winning_statics_raw.csv`) AND other brands in the category: run
   `atria_pull.py ultrasonic --brand <brand>` (brand.json -> `ultrasonic_queries`, no brand filter, images and video),
   filter, `contact_sheet.py --by brand`, read every page, and update analysis.md. At least 40% of a batch must be
@@ -177,7 +190,7 @@ formats. `"group": "iteration"`.
   benchmark and re-render anything that looks like generic AI stock, has a small shoe or a weak headline.
 
 - **Mix**: follow `program.mix` exactly (count it before rendering), plus the funnel split
-  (default ~65% top-of-funnel with no price, ~35% offer-based) and `copy_rules` / `naming_rule`.
+  (`program.funnel_mix`; default ~65% top-of-funnel with no price, ~35% offer-based; DentalPULSE 70/30) and `copy_rules` / `naming_rule`.
   Also apply `program.angle_rules` (winning angles, mix-and-match, foot-pain share), `program.offer`
   (offer-stack share and exact wording) and `colorway_priority` (best sellers vs test colors) when the
   brand has them; count each before rendering.
@@ -186,7 +199,7 @@ formats. `"group": "iteration"`.
   offer, lo-fi real photo with minimal text, imaging/petri/microscope proof, price-anchor replacement,
   value-stack bundle flat-lay, big quote over product, real-world sign, advertorial article card, native UI
   (iOS reminder, cart, texts), founder letter, stat pictogram, news split-face, hand + arrows offer,
-  ranking grid / report card, post-it confession, timeline, gift static, cartoon formats.
+  ranking grid / report card, post-it confession, timeline, gift static (cartoon formats only for brands without `banned_formats`; DentalPULSE: never).
 - **Direct response**: pain in the customer's words → agitate → mechanism → proof/offer. Make the top
   purchase reasons explicit and visual (for DentalPULSE: bacteria and yellow stains). Controversial
   enemy framing is welcome when the brand asks for it.
@@ -210,7 +223,7 @@ formats. `"group": "iteration"`.
   tweet-style ads use `"format": "x_post"`. Give exact names, handle, text, date and counts. Review text
   comes from real customer language (survey/reviews); names first name + last initial; no TrustScore,
   overall rating, "Verified" badges or platform logos.
-- **Cartoon/animation formats (user rule)**: ~15–20% of every batch sets `"format"` to `cartoon_3d`,
+- **Cartoon/animation formats (not DentalPULSE: banned Oct 28; other brands only)**: ~15–20% of every batch sets `"format"` to `cartoon_3d`,
   `comic_strip`, `flat_illustration`, `claymation`, `retro_cartoon` or `anime_soft`. `generate.py`
   swaps the photo-quality rule for an illustration rule that keeps the product recognizable. Mix styles.
   Proven ideas: product as hero while cute cartoon germs flee; 4-panel comic (problem → friend's
@@ -259,7 +272,8 @@ counting `*_4x5.png` files instead.
 - supporting text (labels, pills, checklist, offer lines) too small to read for the audience (Comfort Wear:
   women 60+, see the legibility rule in `quality_bar`);
 - purple headline/body text (purple is a small accent only);
-- a native format that doesn't look like the real platform, or competitor logos.
+- a native format that doesn't look like the real platform, or competitor logos;
+- (DentalPULSE) anything that looks AI-generated or rendered (plastic skin, glossy 3D, melted/duplicated letters, impossible hands or appliances, oversaturated glow), any cartoon/comic/joke tone, copy that isn't direct response, fonts other than Inter/Barlow (serif, script, rounded display), an offer that doesn't match the current offer exactly, or a concept whose appliance/funnel mix is off (50/25/25, 70/30).
 `review.py sheet` with ids overwrites page 1: delete `_preview_*` and rebuild the full sheets at the end.
 
 ## 5. Verdicts

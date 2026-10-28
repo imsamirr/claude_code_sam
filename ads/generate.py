@@ -165,6 +165,9 @@ def input_images(bdir, brand, concept, ref, ref_bytes):
 
 
 def build_prompt(bdir, brand, concept, extra, layout_rule=FORMAT_RULE):
+    if concept.get("format") in brand.get("banned_formats", []):
+        raise SystemExit(f"{concept['id']}: format '{concept['format']}' is banned for this brand "
+                         f"({brand.get('banned_style_note', 'see brand.json banned_formats')}). Rewrite the concept.")
     parts = [layout_rule, concept["prompt"]]
     if concept.get("colorway") and not concept.get("no_product"):
         template = brand.get("colorway_template", "The product is the {label} shown in the reference photo.")
@@ -183,7 +186,7 @@ def build_prompt(bdir, brand, concept, extra, layout_rule=FORMAT_RULE):
         rules = [r for r in rules if "photography" not in r.lower()] + [ILLUSTRATED_RULE]
     ugc = concept.get("style") == "ugc"
     if ugc:
-        rules = [r for r in rules if "photography" not in r.lower()] + [UGC_RULE]
+        rules = [r for r in rules if "photography" not in r.lower()] + [brand.get("ugc_rule", UGC_RULE)]
     parts += rules
     lang = concept.get("lang", "en")
     if lang != "en":
