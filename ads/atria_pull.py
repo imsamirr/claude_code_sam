@@ -8,6 +8,8 @@
     python ads/atria_pull.py rising    # new ads (last 30 days) with >= $300 spend and ROAS >= 1.8
     python ads/atria_pull.py current   # any ad in the last 30 days with >= $300 spend and ROAS >= 1.8
     python ads/atria_pull.py inspo       # image ads, rising impressions, launched last 30 days
+    python ads/atria_pull.py inspiration # CURATED inspiration (user rule Oct 28): active static ads launched 7-45 days ago,
+                                         # impressions growing week over week, oral care + health & wellness queries
     python ads/atria_pull.py competitors # top-impression ads: competitor_brands + inspo_queries keywords
     python ads/atria_pull.py wellness    # health & wellness image ads (any category), 45 days, active, 10+ days running
     python ads/atria_pull.py ultrasonic  # ultrasonic-cleaner brands + dental-appliance category (brand.json → ultrasonic_queries), images and video
@@ -165,6 +167,86 @@ def inspo(api, acc, args):
                      "image_url": (it.get("images") or [{}])[0].get("url"), "landing_url": it.get("link_url")})
     rows.sort(key=lambda r: r["impression_percentile"] if r["impression_percentile"] is not None else 9)
     write_csv("inspiration_raw.csv", rows, list(rows[0]) if rows else ["brand"])
+
+def _num(x):
+    try:
+        return float(x)
+    except (TypeError, ValueError):
+        return None
+
+
+def inspiration(api, acc, args):
+    """Curated inspiration ads (user rule Oct 28). An ad qualifies only if ALL of these hold:
+      - static image, currently active (status == active)
+      - launched within the last --launched-within days (default 45)
+      - ran at least --min-days days (default 7): start_date at least 7 days ago, so ads launched in the last 7 days are excluded
+      - impressions growing week over week: Atria impression_trend == rising AND (reach grew over 7d OR impression rank improved over 7d)
+    Queries come from brand.json -> inspiration_queries (oral care + health & wellness). Writes inspiration_curated.csv
+    (sorted by impression percentile, best first) and prints how many ads each filter removed."""
+    today = dt.date.today()
+    since = (today - dt.timedelta(days=args.launched_within)).isoformat()
+    newest = today - dt.timedelta(days=args.min_days)
+    seen, stats = {}, {"fetched": 0, "not_image/active": 0, "too_new(<%dd)" % args.min_days: 0, "too_old": 0,
+                       "not_growing": 0, "non_english": 0}
+    for q in args.inspiration_queries:
+        cursor = None
+        for _ in range(args.pages):
+            params = {"query": q, "display_format": "image", "impression_trend": "rising", "launched_after": since,
+                      "status": "active", "order": "most_impressions", "page_size": 50}
+            if cursor:
+                params["cursor"] = cursor
+            try:
+                data = api.get("ad-library/search", params)
+            except Exception as e:  # keep going: one bad query must not kill the pull
+                print(f"  {q}: {e}")
+                break
+            for it in data.get("items", []):
+                stats["fetched"] += 1
+                if it.get("status") != "active" or it.get("media_format", "image") != "image":
+                    stats["not_image/active"] += 1
+                    continue
+                start = (it.get("start_date") or "")[:10]
+                if not start:
+                    stats["too_old"] += 1
+                    continue
+                started = dt.date.fromisoformat(start)
+                if started > newest or (it.get("days_running") or 0) < args.min_days:
+                    stats["too_new(<%dd)" % args.min_days] += 1
+                    continue
+                if started < today - dt.timedelta(days=args.launched_within):
+                    stats["too_old"] += 1
+                    continue
+                if it.get("language") not in (None, "en"):
+                    stats["non_english"] += 1
+                    continue
+                rank = it.get("impression_rank") or {}
+                reach = it.get("reach") or {}
+                grew = (it.get("impression_trend") == "rising"
+                        and ((_num(reach.get("delta_7d")) or 0) > 0 or (_num(rank.get("rank_delta_7d")) or 0) < 0
+                             or (_num(rank.get("percentile_change_7d")) or 0) < 0))
+                if not grew:
+                    stats["not_growing"] += 1
+                    continue
+                seen.setdefault(it["id"], {**it, "query": q})
+            cursor = data.get("cursor")
+            if not cursor or len(data.get("items", [])) < 50:
+                break
+            time.sleep(0.8)
+        time.sleep(0.8)
+    rows = []
+    for it in seen.values():
+        rank = it.get("impression_rank") or {}
+        latest = rank.get("latest_rank") or {}
+        reach = it.get("reach") or {}
+        rows.append({"brand": it["brand_name"], "query": it["query"], "start_date": (it.get("start_date") or "")[:10],
+                     "days_running": it["days_running"], "impression_percentile": latest.get("percentile"),
+                     "rank_delta_7d": rank.get("rank_delta_7d"), "percentile_change_7d": rank.get("percentile_change_7d"),
+                     "reach_pct_change_7d": reach.get("pct_change_7d"), "reach_latest": reach.get("latest"),
+                     "title": it.get("title"), "body": (it.get("body") or "")[:600], "cta": it.get("cta_text"),
+                     "image_url": (it.get("images") or [{}])[0].get("url"), "landing_url": it.get("link_url")})
+    rows.sort(key=lambda r: r["impression_percentile"] if r["impression_percentile"] is not None else 9)
+    print("Filter log:", stats, "-> kept", len(rows))
+    write_csv("inspiration_curated.csv", rows, list(rows[0]) if rows else ["brand"])
 
 
 def wellness(api, acc, args):
@@ -343,7 +425,7 @@ def rising(api, acc, args):
 def main():
     load_dotenv()
     p = argparse.ArgumentParser()
-    p.add_argument("what", choices=["winners", "losers", "inspo", "seasonal", "rising", "current", "competitors", "ultrasonic", "wellness"])
+    p.add_argument("what", choices=["winners", "losers", "inspo", "inspiration", "seasonal", "rising", "current", "competitors", "ultrasonic", "wellness"])
     p.add_argument("--days", type=int, default=30, help="rising: look-back window in days")
     p.add_argument("--min-spend-rising", type=float, default=300, help="rising: minimum spend in the window")
     p.add_argument("--min-roas", type=float, default=1.8, help="rising: minimum ROAS in the window")
@@ -352,6 +434,9 @@ def main():
     p.add_argument("--top", type=int, default=15, help="seasonal: how many top-spending ads to keep")
     p.add_argument("--min-spend", type=float, default=5000)
     p.add_argument("--max-spend", type=float, default=200)
+    p.add_argument("--launched-within", type=int, default=45, help="inspiration: ads launched in the last N days")
+    p.add_argument("--min-days", type=int, default=7, help="inspiration: must have run at least N days (excludes ads launched in the last N days)")
+    p.add_argument("--pages", type=int, default=2, help="inspiration: result pages (50 ads each) per query")
     p.add_argument("--brand", default=os.getenv("ADS_BRAND", "comfortwear"))
     p.add_argument("--account", help="ad account name in Atria (default: brand.json → atria_account)")
     args = p.parse_args()
@@ -361,6 +446,7 @@ def main():
     brand = json.loads((bdir / "brand.json").read_text())
     args.account = args.account or brand.get("atria_account", ACCOUNT_NAME)
     args.queries = brand.get("inspo_queries", INSPO_QUERIES)
+    args.inspiration_queries = brand.get("inspiration_queries", args.queries)
     args.competitors = brand.get("competitor_brands", [])
     args.ultra_queries = brand.get("ultrasonic_queries", [])
     args.wellness = brand.get("wellness", {})
@@ -370,7 +456,7 @@ def main():
     if not args.week:
         y, w, _ = (dt.date.today() + dt.timedelta(days=7)).isocalendar()
         args.week = f"{y}-W{w:02d}"
-    {"winners": winners, "losers": losers, "inspo": inspo, "seasonal": seasonal, "rising": rising, "current": rising, "competitors": competitors, "ultrasonic": ultrasonic, "wellness": wellness}[args.what](api, acc, args)
+    {"winners": winners, "losers": losers, "inspo": inspo, "inspiration": inspiration, "seasonal": seasonal, "rising": rising, "current": rising, "competitors": competitors, "ultrasonic": ultrasonic, "wellness": wellness}[args.what](api, acc, args)
 
 
 if __name__ == "__main__":

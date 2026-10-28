@@ -3,8 +3,8 @@
   "product": "The DentalPULSE Pod: an ultrasonic cleaner for dentures, night guards, retainers and aligners. Advertise ONLY the Pod (user rule Oct 13: no Travel Pod concepts; no Pod Max; no standalone tablet boxes). Exception: offer-based creatives for the Ultimate Cleaning Bundle show its contents as sold (Pod + Travel Pod + 30-tablet box), and Pod Denture Bundle offers show the Pod with its free gifts.",
   "price": "$99.95 (current price, 40% OFF sale)",
   "audience": "Adults who wear a removable oral appliance (clear aligners/Invisalign, retainers incl. permanent/wire, dentures, night/mouth guards, sleep apnea devices), plus parents of teens with retainers and adult children buying for a parent with dentures. Men and women.",
-  "palette": "clean bright white and soft pale blue backgrounds, DentalPULSE blue (#1E73E8) for headlines and pills, dark navy (#0B1F3A) body text, occasional black premium backgrounds",
-  "font_style": "clean modern sans-serif (like Inter/SF Pro), bold headlines, generous white space, clinical-but-friendly",
+  "palette": "Website palette (dentalpulsepro.com): bright DentalPULSE blue #1188FF (buttons, accents, highlights), deep navy #0E283C (headlines and body text), pale sky-blue #E1EDF5 and white backgrounds, near-black #151515 for body, teal #008FA0 only as a tiny accent. Clean, bright, clinical-but-warm; occasional black premium backgrounds.",
+  "font_style": "Typography follows the website: Inter for everything (headlines Inter SemiBold/Bold 600-700 in sentence case, tight tracking; body and labels Inter Regular 400-500), Barlow Bold/SemiBold only for big numerals and prices (40% OFF, $99.95). Navy #0E283C or white text, blue #1188FF for one highlighted word or a button. No script, serif, handwriting or decorative fonts unless the format itself is a native screenshot or a handwritten paper note.",
   "website": "dentalpulsepro.com",
   "prompt_rules": [
     "The product MUST be the exact DentalPULSE device in the attached reference photo, unchanged. The Pod: a smooth matte-white rounded dome with fine vertical ribbing all around the body, a thin horizontal seam near the base, a slightly domed top cap with the 'DentalPULSE' wordmark (black, 'Dental' regular + 'PULSE' bold); when open, a round white hinged lid flips up from the back (the inside of the lid has four small square light points) over a brushed stainless-steel cleaning basin. Keep proportions and every detail; only change angle, lighting and setting. Do not invent buttons, screens, displays, colors or logos. Show no other DentalPULSE products (no Pod Max, no Travel Pod, no tablet boxes) unless the reference photo is a bundle, in which case show exactly the bundle's items at their true relative sizes.",
@@ -14,11 +14,11 @@
     "The cleaning cycle is always 5 minutes: any timer, clock or copy shows 5 minutes (05:00), never 3 minutes."
   ],
   "claims_to_avoid": [
-    "shipping speed or free shipping/returns beyond the 120-day guarantee (not confirmed)",
     "invented counts: customers, units sold, reviews, 'X,000 dentists'; press logos or other awards",
     "a strike-through 'was' price other than the store's compare-at prices ($180 Pod Denture Bundle, $300 Ultimate Cleaning Bundle)",
     "naming or showing logos of competitor ultrasonic pods (Zima, Sonic Dental, GuruNanda, oPro, Novapod): show them unbranded",
-    "medical treatment claims (cures infections, prevents disease)"
+    "medical treatment claims (cures infections, prevents disease)",
+    "shipping speed/delivery-date promises (e.g. 'ships in 24 hours', 'arrives by'): not confirmed; free shipping itself IS approved"
   ],
   "colorways": {
     "pod": {
@@ -112,16 +112,17 @@
       "retainer",
       "denture_caregiver"
     ],
-    "appliance_mix": "Every batch: 50% dentures (incl. partials, caregiver/gift buyer), 50% other appliances weighted by the feedback sheet: night guards ~50% of that half, retainers ~30%, aligners/Invisalign ~15%, sleep-apnea/snore guards ~5%.",
+    "appliance_mix": "Every batch: 50% dentures (incl. partials, caregiver/gift buyer), 25% night guards (incl. sleep-apnea/snore guards), 25% aligners + retainers (about half each). Tuesday 20 = 10 dentures / 5 night guards / 5 aligners+retainers; Friday 40 = 20 / 10 / 10.",
     "iterate_when": {
       "days": 30,
       "min_spend": 300,
       "min_roas": 1.8
     },
     "roas_note": "Comparison/listicle ads send traffic to an advertorial (LP_LISTICLE); ROAS is the account's reported figure.",
-    "offer": "Current offer: 40% OFF sale, $99.95, 120-day money-back guarantee. Use it on offer tiles and as a CTA line on ~30% of concepts.",
-    "mix": "Every batch: 50% dentures (incl. partials, caregiver/gift buyer), 50% other appliances weighted by the feedback sheet: night guards ~50% of that half, retainers ~30%, aligners/Invisalign ~15%, sleep-apnea/snore guards ~5%.",
-    "research_rule": "User Oct 24: EVERY batch (Tue and Fri) must first (1) read our top-spend ads (winners + current) and rebuild the proven formats, (2) run atria_pull.py ultrasonic + competitors and read the contact sheets of OTHER ultrasonic cleaner brands (Zima, Sonic Dental, Ploise, SmileTherapy, Pop On, Denture Care Tips) and other dental brands, and (3) write the batch so that at least 40% of concepts are product-forward iterations of those proven top-spend / top-impression formats (analysis.md section 11 'What to take'), the rest novelty/Notion formats."
+    "offer": "Current offer (user, Oct 28): 40% OFF SITEWIDE, FREE SHIPPING, FREE dental case and FREE travel bag with every order (120-day money-back guarantee). Use on ~30% of concepts; the Pod price stays $99.95 where a price is shown. The 1-year warranty is a small text line at most, never a physical item or big badge.",
+    "mix": "Every batch: 50% dentures (incl. partials, caregiver/gift buyer), 25% night guards (incl. sleep-apnea/snore guards), 25% aligners + retainers (about half each). Tuesday 20 = 10 dentures / 5 night guards / 5 aligners+retainers; Friday 40 = 20 / 10 / 10.",
+    "research_rule": "User Oct 28 - EVERY batch: (1) run `atria_pull.py inspiration` and read the contact sheets (static, active, launched 7-45 days ago, impressions growing WoW; oral care + health & wellness brands); (2) re-read our own top-spend statics (`winners` + `current`) and rebuild the proven formats (comparison table / ranking chart, warm lifestyle hero, giant 40% OFF type, quote + badge, native advertorial); (3) re-read research/feedback_deep_dive.md (customer words); (4) write direct-response copy; no cartoon/animation/humor; (5) render photoreal with the website fonts (brand.json -> font_style, quality_bar).",
+    "funnel_mix": "70% top-of-funnel (no price, no discount: problem, proof, mechanism, authority) and 30% offer-driven (current offer below)."
   },
   "drive_folder_id": "1czcREwJ7CCml8-ZrrezzypAD9GLnwcxV",
   "slack": {
@@ -131,13 +132,7 @@
   "format_guides": {
     "fb_comment": "Render the testimonial as a real Facebook mobile comment thread, pixel-faithful to the current Facebook app: light grey rounded comment bubble on white, small round profile photo on the left (realistic person matching the persona), commenter name in bold dark text (first name + last initial), comment text in Facebook's system sans font at normal comment size, a grey row under the bubble reading like \"2d   Like   Reply\", and a small overlapping reaction pill (like/love icons + a count) at the bubble's lower right. Optionally 2–3 stacked comments with replies indented. Plain, native, not designed; no Facebook logo.",
     "trustpilot": "Render the testimonial as a real Trustpilot review card, faithful to Trustpilot's current design: white card with thin light-grey border, reviewer row with a small round initials avatar, reviewer first name + last initial and country code, a row of five green square star tiles with white stars (Trustpilot green #00B67A), a short bold review title, the review text in a clean sans font, and a small grey date. Show individual review cards only: no Trustpilot logo, no TrustScore, no overall rating or review count, no 'Verified' badge.",
-    "x_post": "Render as a real X (formerly Twitter) post screenshot, faithful to the current X app in light mode: white background, round profile photo top-left, display name in bold black, then grey @handle and \"· 3h\", the post text in X's Chirp-like sans at native size (black, left-aligned, no quotation marks), optionally an attached photo with rounded corners, then a grey engagement row with the reply, repost, like and view icons and small counts, all in X's thin grey icon style. No blue verification checkmark, no X logo, no 'Twitter' bird. It must read as a genuine X post, not a designed graphic.",
-    "cartoon_3d": "Render as a still frame from a modern 3D animated feature film: soft global illumination, rounded appealing character designs with expressive eyes, rich but tasteful color, cinematic depth of field, subsurface skin shading. Characters look stylized-cute, not realistic.",
-    "comic_strip": "Render as a modern webcomic strip: 3 or 4 panels with thin black borders and white gutters, clean confident ink outlines, flat colors with light shading, round speech bubbles containing exactly the quoted lines, simple expressive characters. Panel order reads left to right, top to bottom.",
-    "flat_illustration": "Render as a modern flat vector editorial illustration: simple geometric characters with minimal facial features, a limited 4–5 color palette from the brand colors, soft subtle grain texture, generous negative space, clean sans-serif type.",
-    "claymation": "Render as a stop-motion claymation still: characters and props sculpted from plasticine with visible fingerprint texture and slightly imperfect edges, handmade miniature set, warm soft studio lighting, shallow depth of field.",
-    "retro_cartoon": "Render as a 1930s rubber-hose cartoon still: black-and-white or sepia ink with one accent color, bendy limbs, pie-cut eyes, white gloves, wobbly hand-inked lines, vintage film grain and vignette, old-timey title card lettering.",
-    "anime_soft": "Render as a frame from a soft hand-painted anime film: lush painterly backgrounds, gentle watercolor light, clean line art for characters, warm nostalgic mood."
+    "x_post": "Render as a real X (formerly Twitter) post screenshot, faithful to the current X app in light mode: white background, round profile photo top-left, display name in bold black, then grey @handle and \"· 3h\", the post text in X's Chirp-like sans at native size (black, left-aligned, no quotation marks), optionally an attached photo with rounded corners, then a grey engagement row with the reply, repost, like and view icons and small counts, all in X's thin grey icon style. No blue verification checkmark, no X logo, no 'Twitter' bird. It must read as a genuine X post, not a designed graphic."
   },
   "format_guides_note": "Testimonial/review ads use fb_comment or trustpilot; tweet-style ads use x_post. Cartoon/animation formats (user rule, Oct 11: use them, both brands): cartoon_3d, comic_strip, flat_illustration, claymation, retro_cartoon, anime_soft. Aim for ~15–20% of every batch.",
   "inspo_queries": [
@@ -198,10 +193,10 @@
     "Dentist endorsements without numbers: 'Dentist-recommended', 'Recommended by dentists', a dentist character/quote framed as a recommendation (no invented names or counts)",
     "Clinicians' Choice badge: a clean gold/navy seal reading \"Clinicians' Choice\"",
     "120-day money-back guarantee (\"120-Day Money-Back Guarantee\", \"Try it risk-free for 120 days\")",
-    "40% OFF sale: \"40% OFF\" with the current price \"$99.95\" (do not invent a strike-through original price)",
-    "Bundle prices from the store: Pod Denture Bundle $99.95 (compare-at $180, save $80, 3 free gifts); Ultimate Cleaning Bundle $169.95 (compare-at $300, save $130)"
+    "Current offer: 40% OFF sitewide, FREE shipping, FREE dental case, FREE travel bag with your order (user, Oct 28; site banner 'FALL SALE - UP TO 40% OFF', 'FREE SHIPPING & RETURNS')",
+    "Pod price $99.95 (40% OFF); store compare-at prices only where already approved: Pod Denture Bundle $99.95 (was $180), Ultimate Cleaning Bundle $169.95 (was $300) - bundles only in offer creatives"
   ],
-  "claims_note": "User Oct 11: be aggressive with approved_claims. Later Oct 11: dentist endorsements, Clinicians' Choice badge, 120-day money-back guarantee and the 40% OFF sale ($99.95 current price) approved. Still unconfirmed: shipping speed/free shipping, customer or units-sold counts, dentist counts, review counts, press logos.",
+  "claims_note": "User Oct 11: be aggressive with approved_claims. Later Oct 11: dentist endorsements, Clinicians' Choice badge, 120-day money-back guarantee and the 40% OFF sale ($99.95 current price) approved. Still unconfirmed: shipping speed/free shipping, customer or units-sold counts, dentist counts, review counts, press logos. Oct 28: free shipping, free dental case, free travel bag and 40% OFF sitewide confirmed by the user; delivery-speed promises still unconfirmed.",
   "old_methods": {
     "note": "User rule: the 'before' / enemy is the old routine. Name it directly.",
     "methods": [
@@ -249,16 +244,28 @@
       ],
       "best_for": "aligners, retainers, night guards (home + on the go)",
       "colorway": "ultimate_bundle"
+    },
+    "current": {
+      "discount": "40% OFF sitewide",
+      "includes": [
+        "FREE shipping",
+        "FREE dental case",
+        "FREE travel bag"
+      ],
+      "guarantee": "120-day money-back guarantee",
+      "price": "$99.95",
+      "colorway": "denture_gift_bundle (Pod + small travel bag + small dental case; gifts drawn much smaller than the Pod)",
+      "url": "https://dentalpulsepro.com/products/dental-clean-pod"
     }
   },
   "naming_rule": "Call it an \"ultrasonic cleaner\" (e.g. \"the DentalPULSE ultrasonic cleaner\", \"this $99 ultrasonic cleaner\") in most headlines, especially top-of-funnel for unaware audiences who don't know what a 'Pod' is. Use \"the Pod\" only as a secondary/brand reference or in offer/retargeting copy.",
   "copy_rules": [
-    "Direct response, aggressive, specific. Lead with the pain in the customer's words, agitate, then the mechanism, then proof/offer. Short punchy lines, numbers, imperatives.",
-    "Controversial is welcome (user Oct 13): attack Polident/Efferdent tablets ('pool chemicals and bleach', 'Do not place in mouth — read that again'), brushing/soap/vinegar/bleach, 'big pharma kept this from you', cheap pods that 'look like they work'. Use verbatim hooks from research/notion_brief.md §2 and §8 and feedback_deep_dive.md §9.",
-    "Make BACTERIA and YELLOW STAINS explicit in the creative (they are the #1 and #2 purchase reasons in the feedback sheet: 68% and 40%). Visualize them: biofilm close-ups, petri dishes, brown/murky water after a cycle, yellow vs white.",
-    "Dentures: push yellow → white hard ('white as the day I got them' is a real result). Night guards/retainers/aligners: frame yellow/cloudy/milky as bacteria + film ('that yellow is bacteria', 'stops it turning yellow', 'clear again', 'no white film') — do NOT promise years of set-in yellow vanish in one cycle (night-guard yellow-stain buyers were the least satisfied).",
-    "Show the invisible: brown water, debris lifting, cavitation bubbles — several unhappy buyers saw 'no vibrations, just noise'.",
-    "Funnel mix every batch: ~65% top-of-funnel (problem/enemy/mechanism/controversy, no price) and ~35% offer-based (40% OFF $99.95 + gifts + 120-day guarantee; bundles)."
+    "DIRECT RESPONSE ONLY (user rule Oct 28): lead with the customer's pain in their own words (feedback_deep_dive.md), agitate it with a specific consequence, give the mechanism (ultrasonic cavitation reaches what brushing/soaking can't), prove it (lab test, approved claims, real customer quote), then one clear call to action. Headline = a specific promise, a sharp problem statement or a proof claim; short punchy lines; imperatives; numbers.",
+    "NO humor, jokes, memes, puns, cartoons or animation. Tone is serious, credible, urgent and respectful to a 60+ audience.",
+    "Controversy is allowed but factual: attack tablets (Polident/Efferdent), brushing, soap, vinegar, bleach and cheap pods using approved or Notion-sourced statements; flag unverified health stats (pneumonia/dementia %) in based_on and do not use them in the image.",
+    "Make BACTERIA and YELLOW STAINS explicit and visual (they are the #1 and #2 purchase reasons: 68% and 40%): real macro/biofilm photos, petri dishes, brown/murky water after a cycle, yellow vs white. Dentures: push yellow -> white hard ('as white as when I first got them'). Night guards/retainers/aligners: yellow/cloudy = bacteria + film; 'stops it turning yellow', 'clear again', 'no white film'; never promise set-in yellow disappears in one cycle.",
+    "Use the customers' words: 'never felt clean', 'still see food on it', 'is it actually clean?', 'gross yellow and cloudy', 'tablets made it brittle', 'as white as when I first got it', 'clear again', 'no white film', 'no more smell'. Answer the top objections: price (show the offer), 'too good to be true / fake reviews' (guarantee + real quotes), 'every pod is the same' (6 of 7 lab test).",
+    "Funnel mix every batch: 70% top-of-funnel (no price) and 30% offer-driven. Offer-driven copy states the current offer exactly: 40% OFF sitewide, free shipping, free dental case, free travel bag, 120-day guarantee."
   ],
   "ultrasonic_queries": [
     "Zima Dental",
@@ -293,5 +300,65 @@
     "denture adhesive",
     "sleep apnea device cleaner",
     "mouth guard cleaner"
-  ]
+  ],
+  "typography": {
+    "source": "https://dentalpulsepro.com/products/dental-clean-pod (Shopify theme CSS: --font-heading Inter 500, --font-accent Inter 700, --font-body Inter 400; page-builder sections use Barlow 400-600; Google Fonts loaded: Inter, Barlow, DM Sans, Montserrat)",
+    "headline": "Inter SemiBold/Bold, sentence case, navy #0E283C on light or white on dark/photo",
+    "body": "Inter Regular/Medium",
+    "numbers_prices": "Barlow Bold",
+    "button": "Inter Bold white on #1188FF, rounded"
+  },
+  "banned_formats": [
+    "cartoon_3d",
+    "comic_strip",
+    "flat_illustration",
+    "claymation",
+    "retro_cartoon",
+    "anime_soft"
+  ],
+  "banned_style_note": "User rule Oct 28: NO cartoon, animation, illustration, comic, meme or funny/joke ads. Real photographs, real screenshots/native UI, documents and clean graphic layouts only; serious, credible, direct-response tone.",
+  "format_guides_disabled": {
+    "cartoon_3d": "Render as a still frame from a modern 3D animated feature film: soft global illumination, rounded appealing character designs with expressive eyes, rich but tasteful color, cinematic depth of field, subsurface skin shading. Characters look stylized-cute, not realistic.",
+    "comic_strip": "Render as a modern webcomic strip: 3 or 4 panels with thin black borders and white gutters, clean confident ink outlines, flat colors with light shading, round speech bubbles containing exactly the quoted lines, simple expressive characters. Panel order reads left to right, top to bottom.",
+    "flat_illustration": "Render as a modern flat vector editorial illustration: simple geometric characters with minimal facial features, a limited 4–5 color palette from the brand colors, soft subtle grain texture, generous negative space, clean sans-serif type.",
+    "claymation": "Render as a stop-motion claymation still: characters and props sculpted from plasticine with visible fingerprint texture and slightly imperfect edges, handmade miniature set, warm soft studio lighting, shallow depth of field.",
+    "retro_cartoon": "Render as a 1930s rubber-hose cartoon still: black-and-white or sepia ink with one accent color, bendy limbs, pie-cut eyes, white gloves, wobbly hand-inked lines, vintage film grain and vignette, old-timey title card lettering.",
+    "anime_soft": "Render as a frame from a soft hand-painted anime film: lush painterly backgrounds, gentle watercolor light, clean line art for characters, warm nostalgic mood."
+  },
+  "quality_bar": [
+    "REALISM (user rule Oct 28: images must look like real photographs, NOT AI): shoot it like a professional product/lifestyle photographer with a real camera and real light: natural directional window or softbox light, believable soft shadows, shallow depth of field only where a real lens would give it, subtle film/sensor grain, true-to-life colors (no oversaturation, no HDR glow, no neon rim light, no airbrushed or plastic skin).",
+    "Surfaces and objects must have real texture and small imperfections: wood grain, marble veining, water droplets, fingerprints on steel, slightly worn edges, ordinary clutter. Hands, fingers, teeth, gums and faces are anatomically exact with natural skin pores and wrinkles; people look like ordinary real 55-75 year-olds (or real 30-50 year-olds for night guard/aligner), never stock-model perfect.",
+    "Dentures, night guards, retainers and aligners look like real dental appliances (real acrylic gloss, visible tooth detail, wire clasps on partials), never toy-like, melted or symmetrical-perfect.",
+    "Prefer real photography, real screenshots, scanned paper and clean layouts. Absolutely no cartoon, 3D-animation, illustration, comic, emoji, meme or joke styling.",
+    "TYPOGRAPHY: set all headline and body text in Inter (SemiBold/Bold headlines, sentence case; Regular body) and any big numbers or prices in Barlow Bold, navy #0E283C or white, with #1188FF as the only accent color. Text is crisp, perfectly spelled, tightly aligned, with generous margins, and sits on clean areas of the image for strong contrast; headline large enough to read on a phone at arm's length. No distorted, melted or duplicated letters.",
+    "Layout stays simple: one headline, one supporting line at most, the product or proof large. No clutter, no more than three small labels, no stock-photo ad clichés (no thumbs-up, no glowing aura, no floating sparkles)."
+  ],
+  "ugc_rule": "This must look like a real, unedited phone photo or real screenshot taken by an ordinary person, not an ad render: natural uneven daylight or indoor light, slightly imperfect framing, real everyday surroundings (bathroom counter, kitchen table, bedside table), real ordinary people with natural skin, visible creases and ordinary hands, ordinary clutter. No studio lighting, no glossy or airbrushed look, no 3D-render look. Text overlays are simple, flat and in Inter like a phone editing app; handwritten notes look hand-made. The Pod stays the exact product from the reference at true proportions.",
+  "inspiration_queries": [
+    "teeth whitening",
+    "oral care",
+    "mouthwash",
+    "bad breath",
+    "gum health",
+    "dental probiotic",
+    "electric toothbrush",
+    "water flosser",
+    "denture cleaner",
+    "dentures",
+    "retainer cleaner",
+    "night guard",
+    "teeth grinding",
+    "invisalign aligners",
+    "supplement for seniors",
+    "joint pain",
+    "sleep apnea snoring",
+    "hearing health",
+    "vision health",
+    "gut health",
+    "skin care wrinkles",
+    "blood sugar",
+    "back pain relief",
+    "brain health memory"
+  ],
+  "inspiration_rule": "User rule Oct 28 - inspiration ads must be: STATIC images, currently ACTIVE, launched in the last 45 days, running at least 7 days (exclude anything launched in the last 7 days), with impressions GROWING week over week (Atria impression_trend rising and reach/rank improving over 7 days). Pull them with `python ads/atria_pull.py inspiration --brand dentalpulse` (oral care AND health & wellness brands, see inspiration_queries), contact-sheet the CSV and read every page; borrow only formats/hooks seen in that curated list, not from older competitor pulls."
 }

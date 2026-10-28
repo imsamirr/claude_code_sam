@@ -319,3 +319,15 @@ Social proof from other people is weak. Most buyers clean a private appliance an
 - **"Switching from Zima / an Amazon pod?"** Only run this with specific, provable differences (basin size, no tablets, power demo). The skepticism here is high.
 - **"Every brand looks the same."** Answer with a side-by-side water-agitation demo, not adjectives.
 - **"On a fixed budget?"** Compare against tablet cost over 12 months, because 45% of buyers came from tablets.
+
+---
+
+## 10. Refresh, Oct 28 2026 (180 responses, 9 Sep to 11 Oct; sheet link: DentalPULSE Feedback (Responses))
+Aggregates only. +13 responses since the first pass; nothing contradicts sections 1-9.
+- **Appliance:** denture/partial 99 (55%), night guard/mouth guard 41 (23%), retainer 25 (14%), aligner 12 (7%), other 3 (2%). Aligner+retainer together are 21% of buyers, night guard 23%.
+- **Reasons to buy:** bacteria 116 of 180 (64%; denture 71%, aligner 83%, night guard 59%, retainer 40%), yellow stains/brighter 70 (39%; **night guard 68%**, retainer 40%, denture 28%), food debris 46 (26%), smell 28 (16%).
+- **Satisfaction:** 74 five-star, 33 four, 22 three, 14 two, 37 one. Averages: aligner 4.17, denture 3.74, retainer 3.32, night guard 3.07 (night guard buyers who came for yellow are the least satisfied: set-in yellow does not vanish).
+- **Before:** tablets/soaks about 69 (38%), toothbrush/toothpaste 44 (24%), soap 6, another pod/device 19.
+- **Age:** 99 of 119 who answered are 60+, 16 are 50-60.
+- **New complaints to design around:** "does not get cleaner or look cleaner than my cheaper ultrasonic" (night guard), "stains did not budge", "still a few cloudy spots", "clean the first few days, then doesn't clean as well", price/cost is the top objection again ("expense", "price"), "so many competing machines". Copy must therefore (1) sell prevention + bacteria rather than stain removal for night guards/retainers, (2) prove difference vs other pods with the 6-of-7 lab test, (3) answer price with the offer (40% OFF sitewide, free shipping, free dental case + travel bag, 120-day guarantee).
+- **Wins in their words (new):** "Retainers appear clearer... fit tighter", "the color is clear again and the odor is gone", "visible debris at the bottom of the bowl after the cycle" (a proof visual: debris and brown water), "No bad taste".
