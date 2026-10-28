@@ -117,18 +117,22 @@ prompt), and this skill.
 
 ## 1. Research refresh (each run)
 
-**Standing focus (Comfort Wear, user rule 2026-10-26):** see `brand.json` → `program.focus_2026_10_26` (nurse + travel [Disney/Europe] only, analyze previous winners first, every concept has a Spanish twin) and `program.black_friday_week_2026_11_09` (week of Nov 9: Black Friday concepts, "60% OFF SITEWIDE" OR "BUY 2 PAIRS, GET 2 FREE GIFTS" [3-pack cushioned socks + free travel bag], never both in one concept).
-
-
-**User rules 2026-10-23 (Comfort Wear, apply to every brand unless told otherwise):** (a) one 4:5 file per creative, no 9:16, no second file: always `--layout feed`; (b) spend real effort on Atria for the newest trending static formats every run (`inspo` + `competitors`, newest/fastest-rising first, contact-sheet and read every page, log a 'formats trending now' list in `research/analysis.md`, use at least 5 per net-new batch).
-
+**Comfort Wear standing rules (user, 2026-10-28; override every older focus line, incl. the Oct 26 nurse+travel-only and Spanish-twin rules).** Full text in `brand.json` → `program.focus_2026_10_28`, `wellness`, `paused_personas`.
+- **English only.** No Spanish concepts or twins until the user says otherwise.
+- **Angles** (audience × pain × format): Nurse / 12-hour shifts ~35%, Travel incl. Disney + Europe ~25%, Plus-size women ~20% (mostly mash-ups: plus-size nurse, plus-size at Disney), test slot ~20% for new pain points. Pains: plantar fasciitis first, bunions second, then swollen feet, knee/back from standing, neuropathy, arthritis, "just want comfort", plus any new ones in the feedback sheet. ≥60% lead with a named pain in the customer's words. **Teacher is paused**: write none unless `atria_pull.py current` shows a teacher ad at ≥$300 spend and ≥1.8 ROAS (then say so in Slack). Reweight each run from Atria `current`, verdicts and the seasonal pull.
+- **Research every run, in this order:** (1) our statics with **≥$10k spend** (`winning_statics.csv`, refresh with `atria_pull.py winners`) and `current` + `seasonal` winners: write down their patterns; (2) our **winning video scripts** (`research/data/video_transcripts.md`) for hooks, objections, story beats, customer phrases; (3) **`atria_pull.py wellness`**: OTHER health & wellness brands, not only footwear (socks, knee sleeves, supplements, grounding sheets, back-pain devices, heat/red light…): image, active, launched in the last 45 days, running 10+ days, max 2 per brand, off-niche dropped. Contact-sheet it (`contact_sheet.py inspiration_wellness_45d.csv --per 40`) and **Read every page**; (4) write a dated "formats found this run" table in `research/analysis.md` (format, brand, category, days running, why it works, our version) and the shared patterns of our winners vs the inspiration.
+- **New formats every run.** Formats come from THIS run's Atria research, not from a fixed list. Each concept sets `format_name` (slug) and `format_source` (inspiration brand, category, days running). A format already in `research/format_ledger.json` may not be reused; only our own proven layouts (`wellness.proven_layouts`, named `proven:<slug>`) may repeat, max ~30% of a batch. Run `python ads/format_ledger.py --brand <b> check --week <folder>` before rendering (must print OK) and `add --week <folder>` after shipping. `based_on` names the inspiration ad AND the winner/script it is paired with, plus why.
+- **Copy: direct response.** Pain in her words → agitate (what she tried, what it cost) → mechanism (arch, heel cushion, wide toe box, grip) → proof (peer, number, story) → one offer line. Headline ≤ ~8 plain words, specific (a number, a place, a shift length). No puns.
+- **Look: realistic, NOT AI.** Real phone-photo scenes (uneven light, skin/fabric texture, grain, imperfect framing) or clean graphic layouts copied from the inspiration ad, never glossy composites. Full-bleed: the headline sits ON the image (sky, wall, floor), never in a separate band stacked above a photo. Natural walking stance (mid-stride, not two shoes planted side by side). **Poppins** for every typeset word (ExtraBold headlines, SemiBold labels); never condensed (Impact/Bebas/Anton) or script fonts; handwriting only on a real object (sticky note, cardboard sign). Legibility for women 60+ still applies. In QA, re-render anything with the wrong font, an invented slogan, or a headline that doesn't flow into the image.
+- **Offer** (~30% of a batch): "40% OFF" + "FREE SHIPPING" + "30-DAY MONEY-BACK GUARANTEE"; "HSA/FSA ELIGIBLE" + "UP TO 30% SAVINGS" may replace or join it. A line, pill or seal, never the whole ad. Black Friday week uses its own offers (`program.black_friday_week_2026_11_09`).
+- Render one 4:5 per concept with `--quality medium` (~$0.08/ad). Older rules below still apply where they don't conflict.
 
 - Read `brand.json`, `research/analysis.md` and `feedback.json` (approved/rejected and why).
 - **Iteration runs**: `atria_pull.py current` (last `iterate_when.days` days, spend ≥ `min_spend`,
   ROAS ≥ `min_roas`, any format), `rising` (same filter, only ads launched in the window), and
   `seasonal --week <current week>` (top spenders by spend in the same window last year, ±7 days).
-- **Net-new runs**: `atria_pull.py inspo`, and refresh `competitors` + the playbook when the brand has
-  one (new long-running formats only).
+- **Net-new runs**: `atria_pull.py wellness` (brands with a `wellness` block; else `inspo`), and refresh `competitors` + the playbook when the brand has
+  one (new long-running formats only). Iteration runs also pull `wellness` for their big-swing formats.
 - **Every run (user rule Oct 24, DentalPULSE)**: analyze our own top-spend statics (`winners` + `current`, with the
   thumbnails via `contact_sheet.py winning_statics_raw.csv`) AND other brands in the category: run
   `atria_pull.py ultrasonic --brand <brand>` (brand.json -> `ultrasonic_queries`, no brand filter, images and video),
@@ -226,6 +230,8 @@ python ads/generate.py --brand <brand> --week <folder> <ids>              # para
 python ads/generate.py --brand <brand> --week <folder> --gif-only <ids>   # GIFs for approved statics
 python ads/generate.py --brand <brand> --week ../format_examples <ids>    # format tests
 python ads/review.py cost --brand <brand> --week <folder>                 # actual spend
+python ads/format_ledger.py --brand <brand> check --week <folder>         # new formats only (before render)
+python ads/format_ledger.py --brand <brand> add --week <folder>           # record them (after shipping)
 ```
 
 Default `--layout feed` (user rule, Oct 18): one native 4:5 render per ad at the default `high` quality

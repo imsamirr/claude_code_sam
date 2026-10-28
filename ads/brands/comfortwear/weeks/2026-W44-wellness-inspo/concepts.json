@@ -16,7 +16,9 @@
    "tags": [
     "FP",
     "OFFER"
-   ]
+   ],
+   "format_name": "blame_shift_reasons_guarantee",
+   "format_source": "Osteva (joint supplement, 11d)"
   },
   {
    "id": "I44_02_4_stages_nurse_heel_pain",
@@ -32,7 +34,9 @@
    "tags": [
     "FP",
     "OFFER"
-   ]
+   ],
+   "format_name": "four_stage_ladder",
+   "format_source": "Linda Baker (edema mineral, 33-38d)"
   },
   {
    "id": "I44_03_5_signs_plantar_fasciitis",
@@ -47,7 +51,9 @@
    "prompt": "Soft warm white background. Headline top left in two lines: a huge orange-red numeral \"5\" and black Poppins ExtraBold \"Signs it's plantar fasciitis\". Left side, five checklist rows each with a square orange-red check box and a bold black line: \"First steps out of bed hurt\", \"Stabbing pain in the heel\", \"Worse after sitting\", \"Worse by end of the day\", \"Insoles didn't fix it\". Right side: a real wooden artist mannequin standing on a round wooden base, photographed in soft light, bending to hold its heel, with a glowing red pain burst with thin radiating lines at the heel. Bottom third: the all-black shoe from the reference photo, a pair, large and sharp (about 35% of the frame), with two thin black arrows to labels \"Firm arch support\" and \"Cushioned heel\". Small black line at the very bottom: \"30-DAY MONEY-BACK GUARANTEE\". All typeset text is Poppins (Poppins ExtraBold headlines, Poppins SemiBold labels), never a script, serif or novelty font. Photographic parts must look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing, no plastic HDR glow. All supporting text is large and bold (every line at least 1/25 of the canvas height, max 6 words per line), high contrast. Text colors are black, deep navy or white, plus at most one accent color for key words or solid fills. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No logos, no icon badges, no buttons, no other text than quoted. FONT CHECK: every typeset word uses Poppins: wide, round, geometric letters (round 'o', single-story 'a' not required), never a condensed or narrow font, never Impact, Bebas, Anton, Oswald or League Gothic.",
    "tags": [
     "FP"
-   ]
+   ],
+   "format_name": "symptom_checklist_mannequin",
+   "format_source": "Osteva (knee sleeve, 15d)"
   },
   {
    "id": "I44_04_heat_map_money_back",
@@ -62,7 +68,9 @@
    "prompt": "Solid deep navy background. Headline across the top in a white solid bar with heavy black Poppins ExtraBold text: \"COMFORTABLE 12-HOUR SHIFTS\" and under it in white Poppins ExtraBold on the navy: \"OR YOUR MONEY BACK\". Middle: three thermal-camera images of the bottom of a woman's foot side by side, rainbow heat-map colors, labeled underneath in white \"HOUR 1\", \"HOUR 6\", \"HOUR 12\"; the heel and ball of the foot go from blue to bright red as the hours increase. Bottom half: the black-white shoe from the reference photo, a pair, large and sharp (about 40% of the frame) on a light hospital floor surface, with three thin white arrows to white labels: \"Cushioned heel\", \"Arch support\", \"Wide toe box\". Small white line at the bottom: \"30-DAY MONEY-BACK GUARANTEE · FREE SHIPPING\". All typeset text is Poppins (Poppins ExtraBold headlines, Poppins SemiBold labels), never a script, serif or novelty font. Photographic parts must look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing, no plastic HDR glow. All supporting text is large and bold (every line at least 1/25 of the canvas height, max 6 words per line), high contrast. Text colors are black, deep navy or white, plus at most one accent color for key words or solid fills. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No logos, no icon badges, no buttons, no other text than quoted. FONT CHECK: every typeset word uses Poppins: wide, round, geometric letters (round 'o', single-story 'a' not required), never a condensed or narrow font, never Impact, Bebas, Anton, Oswald or League Gothic.",
    "tags": [
     "FP"
-   ]
+   ],
+   "format_name": "thermal_heat_map_guarantee",
+   "format_source": "Hollow Socks (compression socks, 21d)"
   },
   {
    "id": "I44_05_what_to_expect_disney",
@@ -77,7 +85,9 @@
    "prompt": "Solid soft sky-blue background. Headline at top left in white Poppins ExtraBold, two lines: \"WHAT TO\" \"EXPECT\". Left 40%: a real phone photo of a woman's hand holding the red-burgundy shoe from the reference photo up to the camera, large and sharp, true proportions, slight motion and natural light. Right 60%: a vertical white timeline line with three white circle nodes and white rounded pill labels with navy text: pill \"FIRST STEP\" then white text \"Rocker sole feels new. Day 1.\"; pill \"FIRST PARK DAY\" then \"20,000 steps. No bench breaks.\"; pill \"FIRST WEEK\" then \"You forget you're wearing them.\" At the bottom a white rounded pill with navy Poppins ExtraBold text: \"40% OFF NOW\". All typeset text is Poppins (Poppins ExtraBold headlines, Poppins SemiBold labels), never a script, serif or novelty font. Photographic parts must look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing, no plastic HDR glow. All supporting text is large and bold (every line at least 1/25 of the canvas height, max 6 words per line), high contrast. Text colors are black, deep navy or white, plus at most one accent color for key words or solid fills. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No logos, no icon badges, no buttons, no other text than quoted.",
    "tags": [
     "OFFER"
-   ]
+   ],
+   "format_name": "what_to_expect_timeline",
+   "format_source": "The Outgoing Co (supplement, 42d)"
   },
   {
    "id": "I44_06_we_tested_4_nurse_shoes",
@@ -94,7 +104,9 @@
     "FP",
     "OFFER"
    ],
-   "style": "ugc"
+   "style": "ugc",
+   "format_name": "we_tested_sticky_note",
+   "format_source": "Lumexa (supplement, 27d)"
   }
  ]
 }

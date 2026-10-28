@@ -9,6 +9,7 @@
     python ads/atria_pull.py current   # any ad in the last 30 days with >= $300 spend and ROAS >= 1.8
     python ads/atria_pull.py inspo       # image ads, rising impressions, launched last 30 days
     python ads/atria_pull.py competitors # top-impression ads: competitor_brands + inspo_queries keywords
+    python ads/atria_pull.py wellness    # health & wellness image ads (any category), 45 days, active, 10+ days running
     python ads/atria_pull.py ultrasonic  # ultrasonic-cleaner brands + dental-appliance category (brand.json → ultrasonic_queries), images and video
 
 Writes CSVs to ads/brands/<brand>/research/data/. Atria returns at most 50 ads per date window, so
@@ -166,6 +167,54 @@ def inspo(api, acc, args):
     write_csv("inspiration_raw.csv", rows, list(rows[0]) if rows else ["brand"])
 
 
+def wellness(api, acc, args):
+    """Health & wellness inspiration across categories, not just our own (user rule 2026-10-28): image ads,
+    active, launched in the last `wellness.launched_days` days, running at least `wellness.min_days_running`
+    days, for every keyword in brand.json -> wellness.queries (socks, knee sleeves, supplements, grounding,
+    back-pain devices, foot pain...). Drops off-niche brands/words (wellness.exclude), keeps at most
+    `wellness.per_brand` ads per brand, sorts by impressions. Writes inspiration_wellness_<days>d.csv;
+    contact-sheet it and read every page before writing concepts.
+    """
+    cfg = args.wellness
+    days, min_days, per_brand = cfg.get("launched_days", 45), cfg.get("min_days_running", 10), cfg.get("per_brand", 2)
+    exclude = [w.lower() for w in cfg.get("exclude", [])]
+    since = (dt.date.today() - dt.timedelta(days=days)).isoformat()
+    seen = {}
+    for q in cfg.get("queries", []):
+        for order in ("most_impressions", "best_match"):
+            try:
+                items = api.get("ad-library/search", {"query": q, "display_format": "image", "launched_after": since,
+                                                      "status": "active", "order": order, "page_size": 50})["items"]
+            except Exception as e:
+                print(f"  {q} {order}: {e}")
+                continue
+            for it in items:
+                seen.setdefault(it["id"], {**it, "query": q})
+            time.sleep(0.6)
+    rows = []
+    for it in seen.values():
+        if (it.get("days_running") or 0) < min_days:
+            continue
+        text = f"{it.get('brand_name', '')} {it.get('title') or ''} {it.get('body') or ''}".lower()
+        if any(w in text for w in exclude):
+            continue
+        rank = it.get("impression_rank") or {}
+        latest = rank.get("latest_rank") or {}
+        rows.append({"brand": it["brand_name"], "query": it["query"], "days_running": it["days_running"],
+                     "impression_percentile": latest.get("percentile"), "rank_delta_7d": rank.get("rank_delta_7d"),
+                     "title": " ".join((it.get("title") or "").split()),
+                     "body": " ".join((it.get("body") or "").split())[:400],
+                     "image_url": (it.get("images") or [{}])[0].get("url"), "landing_url": it.get("link_url")})
+    rows.sort(key=lambda r: r["impression_percentile"] if r["impression_percentile"] is not None else 9)
+    kept, per = [], {}
+    for r in rows:
+        if per.get(r["brand"], 0) < per_brand:
+            per[r["brand"]] = per.get(r["brand"], 0) + 1
+            kept.append(r)
+    print(f"{len(seen)} ads found, {len(kept)} kept ({min_days}+ days running, max {per_brand} per brand)")
+    write_csv(f"inspiration_wellness_{days}d.csv", kept, list(kept[0]) if kept else ["brand"])
+
+
 def ultrasonic(api, acc, args):
     """Ads from other ultrasonic cleaner brands (Zima, Sonic Dental, Ploise, oPro, Novapod, iSonic...) and
     the dental-appliance category (denture/retainer/night guard/aligner cleaners). Queries come from
@@ -294,7 +343,7 @@ def rising(api, acc, args):
 def main():
     load_dotenv()
     p = argparse.ArgumentParser()
-    p.add_argument("what", choices=["winners", "losers", "inspo", "seasonal", "rising", "current", "competitors", "ultrasonic"])
+    p.add_argument("what", choices=["winners", "losers", "inspo", "seasonal", "rising", "current", "competitors", "ultrasonic", "wellness"])
     p.add_argument("--days", type=int, default=30, help="rising: look-back window in days")
     p.add_argument("--min-spend-rising", type=float, default=300, help="rising: minimum spend in the window")
     p.add_argument("--min-roas", type=float, default=1.8, help="rising: minimum ROAS in the window")
@@ -314,13 +363,14 @@ def main():
     args.queries = brand.get("inspo_queries", INSPO_QUERIES)
     args.competitors = brand.get("competitor_brands", [])
     args.ultra_queries = brand.get("ultrasonic_queries", [])
+    args.wellness = brand.get("wellness", {})
     # Without ATRIA_API_KEY the request relies on a network secret the proxy attaches.
     api = Atria(os.getenv("ATRIA_API_KEY"))
     acc = api.account_id(args.account)
     if not args.week:
         y, w, _ = (dt.date.today() + dt.timedelta(days=7)).isocalendar()
         args.week = f"{y}-W{w:02d}"
-    {"winners": winners, "losers": losers, "inspo": inspo, "seasonal": seasonal, "rising": rising, "current": rising, "competitors": competitors, "ultrasonic": ultrasonic}[args.what](api, acc, args)
+    {"winners": winners, "losers": losers, "inspo": inspo, "seasonal": seasonal, "rising": rising, "current": rising, "competitors": competitors, "ultrasonic": ultrasonic, "wellness": wellness}[args.what](api, acc, args)
 
 
 if __name__ == "__main__":

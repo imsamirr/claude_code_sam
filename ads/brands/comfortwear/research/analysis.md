@@ -292,3 +292,21 @@ Shoe-in-the-trash lo-fi UGC (hand + old shoe in a bin) · "Would You Rather? A v
 Newest/fastest-rising statics and story ads: Carol Bennett story posts (+240 ranks in 7 days, "F*ck this comfort sneaker", podiatrist-style senior sneaker), Glov Beauty "It's fluid, not fat" swelling explainer (11 days), Stepprs "Walk on Clouds, or it's FREE" insole quote cards, Cuurt customer-quote checklist ("Wake up pain-free, not hobbling down stairs"), VIVAIA "10,000 steps and beyond" minimal lifestyle, Buy-1-Get-1 color blocks (Konjoun, True Nutra, Tiny Explorings), 8-week timeline/plan lists. Used in T44: three-band hour timeline, swelling explainer (flight), customer-quote native cards.
 
 Tue 2026-W44 iteration sources (`current` 2026-09-27..10-26, 18 ads; `seasonal --week 2026-W44`, 2025 ROAS unreadable): Emily RN video $4,005 / 2.99 and Kyro390 $4,841 / 2.01 (nurse PF), H3 40% OFF static $2,517 / 3.08, C3 reviews static $1,844 / 2.84, I6 warehouse $1,160 / 4.24, C1 Trusted By Nurses $860 / 3.40, TOFV1_KW1 plus-size travel $2,243 / 4.39, Kyro293 travel $2,230 / 3.09, JV1/JW1 travel $1,897 / $784, seasonal Kyro253 travel $32.6k.
+
+## 17. New rules and wellness inspiration, 2026-10-28
+
+User rules: English only; angles = nurse (~35%), travel incl. Disney (~25%), plus-size mash-ups (~20%), test slot for new pains (~20%); plantar fasciitis then bunions lead the pains; teacher paused (re-enable only on an Atria `current` winner); Poppins for all text; realistic, not AI; headline on the image, not in a band; direct-response copy; offer = 40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE, HSA/FSA ELIGIBLE up to 30% savings. Inspiration comes from ALL health & wellness brands (`atria_pull.py wellness`), and every run must bring formats not yet in `format_ledger.json`. Full rules: `brand.json` → `program.focus_2026_10_28`, `wellness`.
+
+### Patterns in our $10k+ statics (winning_statics.csv)
+Nurse is the whole top: "2024's Favorite Nurse Shoes" images at $858k / $457k / $230k / $120k / $90k, "2023's Best Shoes For Nurses" $198k, then offer statics ("Save Up To 40% OFF" $152k / $125k / $115k, "Walk Pain-Free or Money Back" $93k, "500,000+ Happy Customers" $50k, "40% OFF TODAY + FREE Shipping" $33k, "48 HOURS LEFT" $19k). Shared: white or very light ground, one big shoe, the occupation or condition named in a heavy geometric sans (Poppins/Montserrat), 3-6 body-part benefits as arrows, checks or plus-bullets, offer as one line or a compact seal.
+
+### Formats found 2026-10-28 (45 days, image, active, 10+ days running; read 48)
+| Format | Brand (category, days) | Why it works | Our version (tested in weeks/2026-W44-wellness-inspo) |
+|---|---|---|---|
+| Blame-shift + 3 reasons + guarantee | Osteva (joint supplement, 11d) | Takes the blame off her and names a cause | "It's not your age. It's your shoes." |
+| 4-stage ladder of failed fixes | Linda Baker (edema mineral, 33-38d) | Walks her own failed attempts in order | "4 stages of nurse heel pain" |
+| Symptom checklist + wooden mannequin | Osteva (knee sleeve, 15d) | Self-diagnosis quiz, crafted not AI look | "5 signs it's plantar fasciitis" |
+| Thermal heat-map + money-back headline | Hollow Socks (socks, 21d) | Makes invisible pain visible; risk reversal | "Comfortable 12-hour shifts, or your money back" |
+| What-to-expect timeline, product in hand | The Outgoing Co (supplement, 42d) | Sets honest expectations | "What to expect at Disney" |
+| We-tested counter photo + sticky note | Lumexa (supplement, 27d) | Static version of our "we tested 5" videos | "We tested the top 4 nurse shoes." |
+| Not yet used: Week 1/2/3 progression + seal (Lymphoria, 42d), apology founder letter (RYZE, Tiny Explorings), shock headline + customer results (Rhea, 28d), persona-page off-topic real photo + story (Linda Baker etc.), X-ray on lightbox (Melissa Hayes), mirror-selfie progression (50 Plus and Fabulous), age-bracket program grid (Muscle Booster). |
