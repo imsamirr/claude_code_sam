@@ -339,7 +339,10 @@
     "Arch support, cushioned heel, wide toe box, stretch-knit upper, slip-resistant grip, elastic no-tie laces",
     "BLACK FRIDAY 2026 (user-provided 2026-10-19, valid for the B48 Black Friday batch only): \"60% OFF SITEWIDE\", \"FREE GIFTS (VALUE OF $54)\", \"FREE SHIPPING\", \"CLEARANCE SALE\", \"HSA/FSA ELIGIBLE\", \"30-DAY WEAR TEST TRIAL\". Do not name the gift items or show prices until confirmed.",
     "BLACK FRIDAY 2026 (user-provided 2026-10-19, valid for the B48 Black Friday batch only): \"60% OFF SITEWIDE\", \"FREE GIFTS (VALUE OF $54)\", \"FREE SHIPPING\", \"CLEARANCE SALE\", \"HSA/FSA ELIGIBLE\", \"30-DAY WEAR TEST TRIAL\". Do not name the gift items or show prices until confirmed.",
-    "BLACK FRIDAY week of Nov 9 (user-provided 2026-10-26): EITHER \"60% OFF SITEWIDE\" OR \"BUY 2 PAIRS, GET 2 FREE GIFTS\" (gifts: \"3-PACK CUSHIONED SOCKS\" and \"FREE TRAVEL BAG\"). Never both in one concept; do not combine with the 40% OFF stack."
+    "BLACK FRIDAY week of Nov 9 (user-provided 2026-10-26): EITHER \"60% OFF SITEWIDE\" OR \"BUY 2 PAIRS, GET 2 FREE GIFTS\" (gifts: \"3-PACK CUSHIONED SOCKS\" and \"FREE TRAVEL BAG\"). Never both in one concept; do not combine with the 40% OFF stack.",
+    "BLACK FRIDAY 2026 offer facts (user-provided 2026-10-27): \"60% OFF SITEWIDE\"; \"BUY 2 PAIRS, GET A FREE 3-PACK OF SOCKS + FREE TRAVEL BAG\"; \"FREE SHIPPING & RETURNS\"; \"30-DAY MONEY-BACK GUARANTEE\" (free). User: no need to fit all of it on one ad. Keep the Oct 26 rule: the lead offer is EITHER 60% OFF OR the buy-2 gifts, never both; free shipping & returns and the 30-day guarantee may appear as small supporting lines. 'Free shipping & returns' is the approved wording (never 'easy' or 'fast').",
+    "BLACK FRIDAY price boxes (user-provided 2026-10-27, for Q48_06): strikethrough \"$120\" -> sale price \"$59.95\". Note: $59.95 vs $120 is ~50% off, and the standing price claim is \"$59.95 (was $90)\"; confirm the reference price before running.",
+    "BLACK FRIDAY promo code (user-provided 2026-10-27): code \"LEAKED10\" = \"EXTRA 10% OFF\", shown as \"TOTAL 70% OFF + FREE SHIPPING\". Note: 60% then an extra 10% compounds to 64%, unless the code adds 10 points; confirm before running."
   ],
   "quality_bar": [
     "Match the quality of the brand's own top-performing ads (the benchmark image): polished commercial e-commerce production, crisp and bright, nothing that looks like generic AI stock art.",
@@ -421,6 +424,190 @@
     "pills_offer_studio": {
       "file": "reference/benchmarks/built_for_12h_shifts_pills_1x1.jpg",
       "use_for": "studio leg + shoe on white, 40% OFF circle, headline with colored second line, 5 check pills, 'try risk-free' button"
+    },
+    "bf_notice": {
+      "file": "reference/benchmarks/bf_ref_notice_communique.jpg",
+      "use_for": "FORMAT ref (other brand): urgent white notice with warning triangle, bold caps title, underlined key phrases, red offer line; text only"
+    },
+    "bf_oops_letter": {
+      "file": "reference/benchmarks/bf_ref_did_we_mess_up_letter.jpg",
+      "use_for": "FORMAT ref (other brand): 'Uh-oh... did we mess up?' founder note on soft gradient, rounded display headline + emoji, short paragraphs, small product bottom-right"
+    },
+    "bf_final_hours": {
+      "file": "reference/benchmarks/bf_ref_final_hours_text.jpg",
+      "use_for": "FORMAT ref (other brand): dark background, red 'FINAL HOURS' title with sirens, white body with bold highlights, product + starburst bottom-right, script signature"
+    },
+    "bf_goodbye": {
+      "file": "reference/benchmarks/bf_ref_saying_goodbye.jpg",
+      "use_for": "FORMAT ref (other brand): white, big red 'WE'RE SAYING GOODBYE' headline, two black paragraphs, handwritten signature, product row along the bottom"
+    },
+    "bf_formal_apology": {
+      "file": "reference/benchmarks/bf_ref_formal_apology.jpg",
+      "use_for": "FORMAT ref (other brand): plain white formal apology letter, centered bold title, short paragraphs, italic line, handwritten signature + title"
+    },
+    "bf_shelf": {
+      "file": "reference/benchmarks/bf_ref_shelf_clogs_9x16.jpg",
+      "use_for": "FORMAT ref (other brand): warm beige studio, big black 'Black Friday Sale.' title, red box offer word, black pill, product on a floating stone shelf with hard shadow, red hang tag, two small feature lines at the bottom"
+    },
+    "bf_split": {
+      "file": "reference/benchmarks/bf_ref_split_save60.jpg",
+      "use_for": "FORMAT ref (other brand): white top banner 'BLACK FRIDAY SALE', left black panel with huge white/yellow 'SAVE 60% OFF', right lifestyle photo of legs, red circular hang tag"
+    },
+    "bf_buy_get": {
+      "file": "reference/benchmarks/bf_ref_buy1get1_snow.jpg",
+      "use_for": "FORMAT ref (other brand): red pill 'BLACK FRIDAY SALE' over a white banner with the buy/get offer, product pair large on a snowy wooden deck, color swatch dots bottom-right"
+    },
+    "bf_pink": {
+      "file": "reference/benchmarks/bf_ref_pink_60off.jpg",
+      "use_for": "FORMAT ref (other brand): soft pink gradient, product on white boxes top half, 'BLACK FRIDAY SALE', gradient pill line, huge '60% OFF', gradient bottom bar"
+    },
+    "bf_collage": {
+      "file": "reference/benchmarks/bf_ref_ugc_collage_9x16.jpg",
+      "use_for": "FORMAT ref (other brand): grid of real customer photos holding the product, center black box with red 'BLACK FRIDAY', product line and red offer"
+    },
+    "approved_L48_07": {
+      "file": "weeks/2026-W48-bf-letters/output/L48_07_final_hours_general_v1.png",
+      "use_for": "OWN approved render (user asked for colorway variants 2026-10-27): Black Friday final hours, general foot-pain copy"
+    },
+    "approved_L48_04": {
+      "file": "weeks/2026-W48-bf-letters/output/L48_04_saying_goodbye_gifts_v2.png",
+      "use_for": "OWN render (user asked for a 60%-only version 2026-10-27): We're saying goodbye"
+    },
+    "approved_L48_02": {
+      "file": "weeks/2026-W48-bf-letters/output/L48_02_did_we_mess_up_gifts_v2.png",
+      "use_for": "OWN render (user asked for a 60%-only, white-background version 2026-10-27): Uh-oh did we mess up"
+    },
+    "approved_O48_03": {
+      "file": "weeks/2026-W48-bf-offers/output/O48_03_buy2_gifts_snow_v1.png",
+      "use_for": "OWN render (user asked for a two-pair version 2026-10-27): buy 2 pairs, snowy deck"
+    },
+    "approved_O48_04": {
+      "file": "weeks/2026-W48-bf-offers/output/O48_04_pink_biggest_sale_v1.png",
+      "use_for": "OWN render (user asked for White Blue and Red versions 2026-10-27): pink biggest-sale 60% card"
+    },
+    "approved_O48_05": {
+      "file": "weeks/2026-W48-bf-offers/output/O48_05_collage_buy2_gifts_v1.png",
+      "use_for": "OWN render (user asked for a 60% version 2026-10-27): customer collage"
+    },
+    "approved_O48_06": {
+      "file": "weeks/2026-W48-bf-offers/output/O48_06_buy2_two_pairs_snow_v1.png",
+      "use_for": "OWN render (user asked for the pairs closer and bigger 2026-10-27): snowy deck two pairs"
+    },
+    "bf_stage": {
+      "file": "reference/benchmarks/bf_ref_stage_spotlight_9x16.jpg",
+      "use_for": "FORMAT ref (other brand): dark stage with spotlights and black/gold balloons, huge 'BLACK' white + 'FRIDAY' red condensed title, product on a round podium, red offer box, two red-plus benefit rows"
+    },
+    "bf_ends_soon": {
+      "file": "reference/benchmarks/bf_ref_ends_soon_blocks.jpg",
+      "use_for": "FORMAT ref (other brand): blue 'BLACK FRIDAY ENDS SOON' block + black headline block on top, huge left-aligned offer stack with a coupon ticket, product right, blue 'FINAL HOURS' tab bottom-right"
+    },
+    "bf_band": {
+      "file": "reference/benchmarks/bf_ref_lifestyle_band_9x16.jpg",
+      "use_for": "FORMAT ref (other brand): real lifestyle photo with a hand holding the product, a black band across the upper third with huge white 'UP TO 52% OFF' and 'BLACK FRIDAY SALE' below, small dark oval label"
+    },
+    "bf_risk_free": {
+      "file": "reference/benchmarks/bf_ref_risk_free_pink.jpg",
+      "use_for": "FORMAT ref (other brand): soft pink background, 'Try 60 Days' + big purple 'Risk-Free' headline, three products center, accessories around, orange sticker, row of white outline pills at the bottom"
+    },
+    "bf_alert_post": {
+      "file": "reference/benchmarks/bf_ref_alert_text_post.jpg",
+      "use_for": "FORMAT ref (other brand): native text post on an orange-to-pink gradient, centered white bold caps text with siren emojis, pointing emojis, link line, cartoon avatar of a woman with glasses giving thumbs up bottom-right"
+    },
+    "bf_caution_lux": {
+      "file": "reference/benchmarks/bf_ref_caution_tape_luxury.jpg",
+      "use_for": "FORMAT ref (other brand): black marble luxury scene, yellow 'BLACK FRIDAY' caution tape across corners, gold 'BLACK FRIDAY SALE' title, product on a podium with gold ribbon and a gold hang tag, gold-outline pill at the bottom"
+    },
+    "bf_never_again": {
+      "file": "reference/benchmarks/bf_ref_never_again_price.jpg",
+      "use_for": "FORMAT ref (other brand): light grey, huge black 'WE WILL NEVER DO THIS AGAIN!', red box -> arrow -> green box comparison, product with box center, caution tape on the side edges, bold italic line at the bottom"
+    },
+    "bf_pricey": {
+      "file": "reference/benchmarks/bf_ref_yes_its_pricey.jpg",
+      "use_for": "FORMAT ref (other brand): white text-first ad, heavy orange-outlined 'YES, IT'S PRICEY' title, short paragraph and bullet list with bold phrases, product pack bottom-right, retro red/blue offset offer text bottom-left"
+    },
+    "bf_quote_pills": {
+      "file": "reference/benchmarks/bf_ref_quote_pills.jpg",
+      "use_for": "FORMAT ref (other brand): pale pink, customer quote headline in caps with the second half bold, side-view shoe large center, round burgundy discount badge, 2x2 burgundy check-pills, black bar at the bottom"
+    },
+    "bf_heavier_insets": {
+      "file": "reference/benchmarks/bf_ref_heavier_woman_insets.jpg",
+      "use_for": "FORMAT ref (other brand): plus-size legs in leggings wearing the shoes on the right, white-boxed headline with one bold phrase, 2x2 inset photos with small labels on the left, dark discount box, thin bottom trust bar"
+    },
+    "approved_P48_05": {
+      "file": "weeks/2026-W48-bf-batch3/output/P48_05_alert_post_gifts_v1.png",
+      "use_for": "OWN render (user asked for a 60% version 2026-10-27): Black Friday alert text post"
+    },
+    "approved_Q48_02": {
+      "file": "weeks/2026-W48-bf-batch4/output/Q48_02_may_never_again_60_v1.png",
+      "use_for": "OWN render (user asked for $120 -> $59.95 price boxes 2026-10-27): may never do this again"
+    },
+    "approved_Q48_03": {
+      "file": "weeks/2026-W48-bf-batch4/output/Q48_03_yes_its_pricey_gifts_v1.png",
+      "use_for": "OWN render (user asked for a 60% version 2026-10-27): yes it's pricey"
+    },
+    "approved_Q48_06": {
+      "file": "weeks/2026-W48-bf-batch4/output/Q48_06_may_never_again_price_v1.png",
+      "use_for": "OWN render (user asked for White Blue and Black/Purple versions 2026-10-27): may never again, $120 -> $59.95"
+    },
+    "approved_Q48_01": {
+      "file": "weeks/2026-W48-bf-batch4/output/Q48_01_caution_tape_luxury_60_v1.png",
+      "use_for": "OWN render (user asked for Red and White Blue versions 2026-10-27): caution tape luxury 60%"
+    },
+    "bf_leaked": {
+      "file": "reference/benchmarks/bf_ref_leaked_code.jpg",
+      "use_for": "FORMAT ref (other brand): light warm-grey, heavy dark 'YOU WEREN'T SUPPOSED TO SEE THIS', short explainer line, 'USE CODE' + outlined code pill, coral 'FOR EXTRA 20% OFF', two products bottom-left and bottom-right with a 'TOTAL 70% OFF + FREE SHIPPING' line between them"
+    },
+    "approved_R48_05": {
+      "file": "weeks/2026-W48-bf-batch5/output/R48_05_advertorial_alert_gifts_v1.png",
+      "use_for": "OWN render (user asked for nurse and 60% versions 2026-10-27): advertorial Black Friday alert"
+    },
+    "approved_R48_03": {
+      "file": "weeks/2026-W48-bf-batch5/output/R48_03_email_bundle_gifts_v1.png",
+      "use_for": "OWN render (user asked for nurse and 60% versions 2026-10-27): email screenshot"
+    },
+    "approved_R48_01": {
+      "file": "weeks/2026-W48-bf-batch5/output/R48_01_dont_buy_these_60_v1.png",
+      "use_for": "OWN render (user asked for 3 colorway + copy variants 2026-10-27): don't buy these shoes"
+    },
+    "four_reasons": {
+      "file": "reference/benchmarks/ref_four_reasons_hand.jpg",
+      "use_for": "FORMAT ref (other brand): sage green, white caps title '4 REASONS...', four white pills with green check emoji, a hand holding one shoe up bottom-right, small offer stack bottom-left"
+    },
+    "forget_feet": {
+      "file": "reference/benchmarks/ref_forget_feet_tape.jpg",
+      "use_for": "FORMAT ref (other brand): pale lavender, red serif headline, huge top-down insole/sole center, four handwritten labels on torn masking tape around it"
+    },
+    "every_day_colors": {
+      "file": "reference/benchmarks/ref_every_day_three_colors.jpg",
+      "use_for": "FORMAT ref (other brand): warm beige, dark brown two-line headline with one underlined word, italic subline, three shoes in a row leaning on a wall, round brown discount badge, two dark check pills, thin trust bar"
+    },
+    "search_bar": {
+      "file": "reference/benchmarks/ref_search_bar_insets.jpg",
+      "use_for": "FORMAT ref (other brand): blurred garden photo of a smiling older woman holding one shoe toward the camera, white search bar with a question, three inset photos with purple caption bars, red round discount badge, white trust bar"
+    },
+    "approved_S45_03": {
+      "file": "weeks/2026-W45-inspo-personas/output/S45_03_forget_feet_plus_v1.png",
+      "use_for": "OWN render (user asked for a nurse version 2026-10-27): forget about your feet, taped notes"
+    },
+    "quote_box": {
+      "file": "reference/benchmarks/ref_quote_box_price.jpg",
+      "use_for": "FORMAT ref (other brand): cream background, huge red quote top-left, '– Literally everyone', struck old price + big red price, red closing line, shoes in an open kraft box on the right"
+    },
+    "split_offer": {
+      "file": "reference/benchmarks/ref_split_half_price.jpg",
+      "use_for": "FORMAT ref (other brand): left cream panel with color dots, huge black title, maroon offer bar, short line, 3 check rows, maroon round badge, small footer; right lifestyle photo of crossed legs on a park bench wearing the shoes"
+    },
+    "arent_cheap": {
+      "file": "reference/benchmarks/ref_arent_cheap.jpg",
+      "use_for": "FORMAT ref (other brand): white, huge dark-green serif 'OUR SHOES AREN'T CHEAP.', three bullet sentences (last one bold green), smiling woman portrait bottom-left, product bottom-right"
+    },
+    "hsa_fsa": {
+      "file": "reference/benchmarks/ref_hsa_fsa.jpg",
+      "use_for": "FORMAT ref (other brand): warm yellow, huge black 'HSA/FSA ACCEPTED', short line with one bold phrase, two round icon rows, white check card, product large bottom-right on a pale blue surface"
+    },
+    "chain_icons": {
+      "file": "reference/benchmarks/ref_chain_icons.jpg",
+      "use_for": "FORMAT ref (other brand): white, two-line black headline, row of 5 simple flat icons with labels and down arrows, big shoe side view center, short bold side line, blue pill offer button"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
@@ -441,5 +628,6 @@
     "The OFFER is subtle: one small line, sticker or handwritten note in a corner or along the bottom edge, never a full-width block, circle or headline. Text stays readable (at least about 1/30 of the canvas height).",
     "Headline is plain and direct: at most 7 words, everyday words, states the problem or the benefit. No wordplay, no metaphors. One headline plus labels, nothing else.",
     "Legibility for women 60+: all supporting text large, bold, high contrast, max 4-5 words per label; fewer labels rather than smaller text."
-  ]
+  ],
+  "logo_file": "reference/logo_comfortwear.png"
 }

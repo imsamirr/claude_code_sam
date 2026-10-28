@@ -95,8 +95,9 @@ def learned_preferences(bdir, concept_id):
     # this concept's own feedback first, then the most recent general feedback
     fb.sort(key=lambda f: f["date"], reverse=True)
     fb.sort(key=lambda f: f["concept"] != concept_id)
-    liked = [f["notes"] for f in fb if f["verdict"] == "approve"][:8]
-    disliked = [f["notes"] for f in fb if f["verdict"] == "reject"][:8]
+    # dict.fromkeys drops repeated notes (e.g. one verdict logged on a whole batch) but keeps the order
+    liked = list(dict.fromkeys(f["notes"] for f in fb if f["verdict"] == "approve"))[:8]
+    disliked = list(dict.fromkeys(f["notes"] for f in fb if f["verdict"] == "reject"))[:8]
     lines = []
     if liked:
         lines.append("The creative director approved past ads for: " + "; ".join(liked) + ".")
@@ -109,6 +110,9 @@ def reference_for(bdir, brand, concept):
     """Resolve the product photo: explicit reference_image, else the concept's colorway."""
     if concept.get("reference_image"):
         return bdir / concept["reference_image"]
+    if concept.get("no_product") and not concept.get("colorway"):
+        # text-only ads still send a product photo for brand context (the prompt says not to show it)
+        return bdir / next(iter(brand["colorways"].values()))["file"]
     colorway = concept["colorway"]
     persona = brand.get("personas", {}).get(concept.get("persona"), {})
     allowed = persona.get("colorways", "any")
@@ -140,6 +144,23 @@ UGC_RULE = ("This must look like a real, unedited phone photo or a real screensh
             "perfect stock-photo faces, no dramatic color grading, no 3D render look. Text overlays are simple "
             "and flat like a phone editing app, handwritten notes or stickers look hand-made. The shoe stays the exact "
             "product from the reference at true proportions.")
+LETTER_RULE = ("This is a text-first native ad: a plain typed letter, email, founder note or announcement, like the "
+               "attached format reference. It must read as a real note, not a designed ad: plain background, simple "
+               "system-style sans or serif type, left-aligned short paragraphs with blank lines between them, bold or "
+               "underline only on the key phrases the description names. Render every quoted word exactly, in order, "
+               "with nothing added. Body text is large for readers aged 60+: each line at least about 1/32 of the canvas "
+               "height, dark text on a light background (or white on dark), generous margins, never small or light grey. "
+               "If the description shows the product, it is the exact shoe from the product reference at true natural "
+               "proportions, placed where the description says.")
+LETTER_BENCH_RULE = ("The SECOND attached image is the FORMAT reference (another brand's ad): recreate its layout, structure, "
+                     "type treatment, emphasis style and overall feel closely, but use only the words in the description. "
+                     "Never show that brand's product, name, logo or signature.")
+LOGO_RULE = ("The LAST attached image is the brand's own logo. Wherever the description says to show the logo, reproduce "
+             "it exactly (same wordmark, letter shapes, icon and color), clean and fully legible, printed naturally on "
+             "that surface; nowhere else. This overrides the no-logos rule for this logo only.")
+COPY_BENCH_RULE = ("The SECOND attached image is this brand's own approved ad: reproduce it as exactly as possible (layout, "
+                   "every word, type, sizes, colors, signature, stickers), changing only what the description says. "
+                   "The shoe still matches the FIRST attached product reference exactly.")
 UGC_BENCH_RULE = ("The SECOND attached image is a past ad of this brand: use it only as a loose reference for how big and "
                   "bold the headline and labels are; do NOT match its glossy studio look.")
 
@@ -161,6 +182,9 @@ def input_images(bdir, brand, concept, ref, ref_bytes):
     bench = benchmark_for(bdir, brand, concept)
     if bench:
         images.append((f"benchmark{bench.suffix}", bench.read_bytes()))
+    if concept.get("logo") and brand.get("logo_file"):
+        logo = bdir / brand["logo_file"]
+        images.append((f"logo{logo.suffix}", logo.read_bytes()))
     return images
 
 
@@ -176,21 +200,30 @@ def build_prompt(bdir, brand, concept, extra, layout_rule=FORMAT_RULE):
     rules = brand["prompt_rules"]
     if concept.get("no_product"):
         # Native/lo-fi images without the product: drop the product-fidelity rule (always the first rule).
-        rules = rules[1:] + ["The attached reference photo is for brand context only: do NOT show that device or any "
-                             "cleaning machine anywhere in this image."]
+        rules = rules[1:] + ["The attached product reference photo is for brand context only: do NOT show that "
+                             "product (or anything resembling it) anywhere in this image."]
     if concept.get("format") in ILLUSTRATED:
         # Cartoon/animation formats: drop the photo-quality rule, keep the product recognizable.
         rules = [r for r in rules if "photography" not in r.lower()] + [ILLUSTRATED_RULE]
     ugc = concept.get("style") == "ugc"
+    letter = concept.get("style") == "letter"
     if ugc:
         rules = [r for r in rules if "photography" not in r.lower()] + [UGC_RULE]
+    if letter:
+        rules = [r for r in rules if "photography" not in r.lower()] + [LETTER_RULE]
     parts += rules
     lang = concept.get("lang", "en")
     if lang != "en":
         parts.append(brand["language_rules"][lang])
-    parts += brand.get("quality_bar_ugc", []) if ugc and brand.get("quality_bar_ugc") else brand.get("quality_bar", [])
+    if not letter:  # the letter style replaces the shoe-hero/headline quality bar with LETTER_RULE
+        parts += brand.get("quality_bar_ugc", []) if ugc and brand.get("quality_bar_ugc") else brand.get("quality_bar", [])
     if benchmark_for(bdir, brand, concept):
-        parts.append(UGC_BENCH_RULE if ugc else BENCHMARK_RULE)
+        # format_ref: the benchmark is another brand's ad the user supplied as a layout to recreate
+        # copy_of: the benchmark is one of our own approved renders, re-made with a change (e.g. another colorway)
+        parts.append(COPY_BENCH_RULE if concept.get("copy_of") else
+                     LETTER_BENCH_RULE if letter or concept.get("format_ref") else UGC_BENCH_RULE if ugc else BENCHMARK_RULE)
+    if concept.get("logo") and brand.get("logo_file"):
+        parts.append(LOGO_RULE)
     prefs = learned_preferences(bdir, concept["id"])
     if prefs:
         parts.append(prefs)
