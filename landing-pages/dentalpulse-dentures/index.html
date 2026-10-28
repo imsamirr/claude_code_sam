@@ -198,6 +198,18 @@ h3{font-size:22px;font-weight:800}
 footer{border-top:1px solid var(--line);margin-top:30px;padding-block:22px 40px;text-align:center;color:var(--muted);font-size:13px}
 footer a{color:var(--muted)}
 
+
+.topbar{margin-inline:-16px;background:var(--red);color:#fff;text-align:center;font-size:15px;font-weight:600;padding:9px 16px;letter-spacing:.01em}
+.topbar b{font-weight:900}
+.deal .ends{color:var(--red);font-size:17px}
+.hurry{background:var(--red-bg);border:1px dashed var(--red);border-radius:8px;padding:10px 12px;text-align:center;font-weight:800;color:var(--red);font-size:15px;margin:0 0 12px}
+.btn{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.025)}}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--navy);color:#fff;padding:10px 16px calc(10px + env(safe-area-inset-bottom, 0px));box-shadow:0 -4px 16px rgba(11,31,58,.25)}
+.sticky small{display:block;color:var(--hl);font-weight:700;font-size:13px}
+.sticky a{background:var(--green);color:#fff;text-decoration:none;font-weight:900;padding:12px 18px;border-radius:8px;white-space:nowrap}
+footer{padding-bottom:90px}
+@media (prefers-reduced-motion:reduce){.btn{animation:none}}
 @media (max-width:420px){
   .hero-panel{grid-template-columns:66px 1fr 66px}
   .hero-col svg{width:34px;height:34px}
@@ -211,6 +223,7 @@ footer a{color:var(--muted)}
 </head>
 <body>
 <main class="wrap">
+<div class="topbar"><b>TODAY ONLY:</b> 40% OFF + 3 FREE Gifts · Sale ends at midnight</div>
 
 <!-- ============ HERO ============ -->
 <section>
@@ -305,14 +318,14 @@ footer a{color:var(--muted)}
   <h2>Unlike Brushing &amp; Tablets That Only Clean The Surfaces They Touch…</h2>
   <p><b>The DentalPULSE Pod</b> turns tap water into millions of microscopic bubbles that burst against every surface of your denture and <b>eliminate 99.9% of bacteria in one 5-minute cycle.</b></p>
   <div class="badge-wrap">
-    <img src="img/cavitation.jpg" alt="Micro-bubbles surrounding a denture inside the Pod's stainless-steel basin" width="1200" height="800" loading="lazy">
+    <img src="img/intro.jpg" alt="A denture in clear water inside the Pod's stainless-steel basin" width="900" height="900" loading="lazy">
     <div class="shield">Eliminates<strong>99.9%</strong>Bacteria</div>
   </div>
   <p>The bubbles reach between the teeth, into the grooves of the gum line, under the clasps of your partial, and <b>ALL</b> the places a brush has <b>NEVER</b> been able to reach.</p>
   <div class="mosaic">
     <img src="img/step2.jpg" alt="" width="900" height="600" loading="lazy">
     <img src="img/prob_food.jpg" alt="" width="600" height="600" loading="lazy">
-    <img src="img/cavitation.jpg" alt="" width="1200" height="800" loading="lazy">
+    <img src="img/step4.jpg" alt="" width="900" height="600" loading="lazy">
   </div>
   <div class="bluebox">Just add tap water, drop your dentures in, and run one 5-minute cycle. Rinse and wear.</div>
   <p>That's it.</p>
@@ -321,11 +334,11 @@ footer a{color:var(--muted)}
 
   <article class="review">
     <div class="review-head">
-      <div><h4>"White again!"</h4><div class="stars" aria-label="5 stars">★★★★★</div></div>
-      <div class="avatar" aria-hidden="true">DP</div>
+      <div><h4>"As white as when I first got it!"</h4><div class="stars" aria-label="5 stars">★★★★★</div></div>
+      <div class="avatar" aria-hidden="true">60+</div>
     </div>
-    <p>Now it is as white as when I first got it! My husband noticed they were white again.</p>
-    <div class="who">DentalPULSE customer <span>Verified buyer</span></div>
+    <p>My denture lost its whiteness and was turning yellow with Polident tablets. Now it is as white as it was when I first got it! My teeth are back to their white color and I don't worry about bacteria. My husband noticed they were white again.</p>
+    <div class="who">Denture wearer, 60+ · Used Polident tablets <span>Verified buyer</span></div>
   </article>
 </section>
 
@@ -333,9 +346,9 @@ footer a{color:var(--muted)}
 <section>
   <h2 class="center">There's Still 4 More Reasons Why Denture Wearers Everywhere Love The DentalPULSE Pod…</h2>
   <div class="grid6">
-    <img src="img/life1.jpg" alt="Grandmother holding the DentalPULSE Pod" width="600" height="600" loading="lazy">
+    <img src="img/step1.jpg" alt="Pouring tap water into the Pod" width="900" height="600" loading="lazy">
     <img src="img/life2.jpg" alt="The Pod on a bedside table" width="600" height="600" loading="lazy">
-    <img src="img/life3.jpg" alt="Grandfather placing his denture in the Pod" width="600" height="600" loading="lazy">
+    <img src="img/step2.jpg" alt="Placing a denture in the Pod" width="900" height="600" loading="lazy">
     <img src="img/step4.jpg" alt="Woman holding a clean denture" width="900" height="600" loading="lazy">
     <img src="img/intro.jpg" alt="The open Pod with a denture inside" width="900" height="900" loading="lazy">
     <img src="img/step3.jpg" alt="The Pod on a bathroom counter" width="900" height="600" loading="lazy">
@@ -364,11 +377,19 @@ footer a{color:var(--muted)}
 
   <article class="review">
     <div class="review-head">
-      <div><h4>"Cleans all the residue from denture paste"</h4><div class="stars" aria-label="5 stars">★★★★★</div></div>
-      <div class="avatar" aria-hidden="true">DP</div>
+      <div><h4>"Much cleaner without scrubbing"</h4><div class="stars" aria-label="5 stars">★★★★★</div></div>
+      <div class="avatar" aria-hidden="true">★</div>
     </div>
-    <p>Certainly cleans all the residue from denture paste.</p>
-    <div class="who">DentalPULSE customer <span>Verified buyer</span></div>
+    <p>Getting the old adhesive off with a soft toothbrush was so time consuming. Now my dentures are much cleaner without scrubbing. My wife noticed the difference.</p>
+    <div class="who">Denture wearer · Used a soft toothbrush <span>Verified buyer</span></div>
+  </article>
+  <article class="review">
+    <div class="review-head">
+      <div><h4>"So clean and ZERO stains"</h4><div class="stars" aria-label="5 stars">★★★★★</div></div>
+      <div class="avatar" aria-hidden="true">★</div>
+    </div>
+    <p>Toothpaste and a brush couldn't get into the tight spots. Now my dentures are so clean, with zero stains!</p>
+    <div class="who">Denture wearer · Used toothpaste &amp; a brush <span>Verified buyer</span></div>
   </article>
   <p>And that's just the first reason why people LOVE the DentalPULSE Pod… there's still 3 more. Including how it's…</p>
 
@@ -394,7 +415,7 @@ footer a{color:var(--muted)}
 
   <h3>What's Inside The DentalPULSE Pod?</h3>
   <div class="ingredient">
-    <header><img src="img/cavitation.jpg" alt="" width="1200" height="800" loading="lazy"><h3>42,000 Hz Ultrasonic Waves</h3></header>
+    <header><img src="img/intro.jpg" alt="" width="1200" height="800" loading="lazy"><h3>42,000 Hz Ultrasonic Waves</h3></header>
     <p>Clinical-grade ultrasonic power does the heavy lifting.</p>
     <p>It shakes loose food, dissolves the grip of old adhesive, and rips through the slimy biofilm clinging to your denture. Then the bubbles carry it all away into the water.</p>
   </div>
@@ -432,8 +453,8 @@ footer a{color:var(--muted)}
   </div>
 
   <div class="cta-block">
-    <div class="deal">New Customer Discount: <em>40% OFF</em> + 3 FREE Gifts<br>Limited Time</div>
-    <a class="btn" href="#offer">Try The DentalPULSE Pod<small>120-Day Money-Back Guarantee</small></a>
+    <div class="deal">TODAY ONLY: <em>40% OFF</em> + 3 FREE Gifts<br><span class="ends">Ends at midnight tonight</span></div>
+    <a class="btn" href="#offer">YES! Claim My 40% OFF Now →<small>Sale ends at midnight · 120-Day Money-Back Guarantee</small></a>
     <div class="risk"><span>100% Risk Free</span><span>Rated 4.8/5</span></div>
   </div>
 </section>
@@ -453,11 +474,19 @@ footer a{color:var(--muted)}
   <p>It came out <b>#1 in the 90-day lab test</b>: clinical-grade 42,000 Hz power that eliminates 99.9% of bacteria in one 5-minute cycle.</p>
   <article class="review">
     <div class="review-head">
-      <div><h4>"Much cleaner without scrubbing"</h4><div class="stars" aria-label="5 stars">★★★★★</div></div>
-      <div class="avatar" aria-hidden="true">DP</div>
+      <div><h4>"Took all the plaque off"</h4><div class="stars" aria-label="5 stars">★★★★★</div></div>
+      <div class="avatar" aria-hidden="true">60+</div>
     </div>
-    <p>Much cleaner without scrubbing.</p>
-    <div class="who">DentalPULSE customer <span>Verified buyer</span></div>
+    <p>I had a cheaper version and it wasn't removing the plaque. The DentalPULSE Pod gave them a deep clean and took all the plaque off. My wife noticed.</p>
+    <div class="who">Denture wearer, 60+ · Switched from a cheaper pod <span>Verified buyer</span></div>
+  </article>
+  <article class="review">
+    <div class="review-head">
+      <div><h4>"Cleaned a lot better than my Amazon one"</h4><div class="stars" aria-label="5 stars">★★★★★</div></div>
+      <div class="avatar" aria-hidden="true">60+</div>
+    </div>
+    <p>I had a cleaner from Amazon. It just didn't clean very well. The DentalPULSE Pod cleaned a lot better.</p>
+    <div class="who">Denture wearer, 60+ · Switched from an Amazon cleaner <span>Verified buyer</span></div>
   </article>
   <p>There's still 2 more reasons why the DentalPULSE Pod is essential for denture wearers… including:</p>
 </section>
@@ -504,16 +533,24 @@ footer a{color:var(--muted)}
 
   <article class="review">
     <div class="review-head">
-      <div><h4>"No more smell"</h4><div class="stars" aria-label="5 stars">★★★★★</div></div>
-      <div class="avatar" aria-hidden="true">DP</div>
+      <div><h4>"No more smell!"</h4><div class="stars" aria-label="5 stars">★★★★★</div></div>
+      <div class="avatar" aria-hidden="true">60+</div>
     </div>
-    <p>No more smell.</p>
-    <div class="who">DentalPULSE customer <span>Verified buyer</span></div>
+    <p>I was brushing them with Steradent paste. Too messy. Now there's no more smell and it cleans very well. My family noticed, especially my grandchildren.</p>
+    <div class="who">Denture wearer, 60+ · Used a brush &amp; Steradent <span>Verified buyer</span></div>
+  </article>
+  <article class="review">
+    <div class="review-head">
+      <div><h4>"My denture isn't slimy anymore"</h4><div class="stars" aria-label="5 stars">★★★★★</div></div>
+      <div class="avatar" aria-hidden="true">60+</div>
+    </div>
+    <p>Polident only gave them an adequate clean. Now my denture isn't slimy anymore, and my husband noticed the difference.</p>
+    <div class="who">Denture wearer, 60+ · Used Polident <span>Verified buyer</span></div>
   </article>
 
   <div class="cta-block">
-    <div class="deal">New Customer Discount: <em>40% OFF</em> + 3 FREE Gifts<br>Limited Time</div>
-    <a class="btn" href="#offer">Try The DentalPULSE Pod<small>120-Day Money-Back Guarantee</small></a>
+    <div class="deal">TODAY ONLY: <em>40% OFF</em> + 3 FREE Gifts<br><span class="ends">Ends at midnight tonight</span></div>
+    <a class="btn" href="#offer">YES! Claim My 40% OFF Now →<small>Sale ends at midnight · 120-Day Money-Back Guarantee</small></a>
     <div class="risk"><span>100% Risk Free</span><span>Rated 4.8/5</span></div>
   </div>
 </section>
@@ -589,7 +626,8 @@ footer a{color:var(--muted)}
         <li>1-Year Warranty ($14 value) <b>FREE</b></li>
       </ul>
     </div>
-    <a class="btn" href="https://dentalpulsepro.com/products/dentalpulse-pod-denture-bundle-gifts">Claim My 40% OFF + Free Gifts →</a>
+    <p class="hurry">Sale ends at midnight tonight. Free gifts ($58 value) are only included while the sale runs.</p>
+    <a class="btn" href="https://dentalpulsepro.com/products/dentalpulse-pod-denture-bundle-gifts">YES! Claim My 40% OFF + Free Gifts →</a>
     <div class="risk"><span>120-Day Money-Back Guarantee</span><span>Secure Checkout</span></div>
   </div>
 
@@ -600,6 +638,38 @@ footer a{color:var(--muted)}
   <p class="center b">But I don't think that's gonna happen because…</p>
   <h2 class="center">Denture Wearers Rate The DentalPULSE Pod <span style="color:var(--blue)">4.8/5</span></h2>
   <p class="center"><span class="stars" style="font-size:28px">★★★★★</span></p>
+  <article class="review">
+    <div class="review-head">
+      <div><h4>"Impeccable. 100% recommended!"</h4><div class="stars" aria-label="5 stars">★★★★★</div></div>
+      <div class="avatar" aria-hidden="true">★</div>
+    </div>
+    <p>I used Polident tablets and didn't know anything better existed until I found the DentalPULSE Pod. My dentures are now impeccable. 100% recommended! My husband noticed too.</p>
+    <div class="who">Denture wearer · Used Polident tablets <span>Verified buyer</span></div>
+  </article>
+  <article class="review">
+    <div class="review-head">
+      <div><h4>"I could still see food on them before"</h4><div class="stars" aria-label="5 stars">★★★★★</div></div>
+      <div class="avatar" aria-hidden="true">★</div>
+    </div>
+    <p>With a toothbrush and tablets you could still see food on the denture. Now my dentures are cleaner and smell cleaner.</p>
+    <div class="who">Denture wearer · Used a toothbrush &amp; tablets <span>Verified buyer</span></div>
+  </article>
+  <article class="review">
+    <div class="review-head">
+      <div><h4>"No more buying tablets"</h4><div class="stars" aria-label="5 stars">★★★★★</div></div>
+      <div class="avatar" aria-hidden="true">★</div>
+    </div>
+    <p>What frustrated me most was having to keep buying Polident tablets. Now I don't need anything else to keep my dentures clean. My partner noticed.</p>
+    <div class="who">Denture wearer · Used Polident tablets <span>Verified buyer</span></div>
+  </article>
+  <article class="review">
+    <div class="review-head">
+      <div><h4>"They feel fresh"</h4><div class="stars" aria-label="5 stars">★★★★★</div></div>
+      <div class="avatar" aria-hidden="true">★</div>
+    </div>
+    <p>I used Steradent tablets, then brushed them with Steradent paste. Too many things to use. Now my dentures are cleaner and they feel fresh. My friends have noticed.</p>
+    <div class="who">Denture wearer · Used Steradent <span>Verified buyer</span></div>
+  </article>
   <div class="seal-row">
     <div class="seal">Clinicians' Choice</div>
     <div><h3>Dentist-Recommended</h3><p>Clinical-grade ultrasonic cleaning, the same technology dental offices trust, now on your bathroom counter.</p></div>
@@ -626,7 +696,8 @@ footer a{color:var(--muted)}
   <p class="b">But, You Must Act Fast…</p>
   <p>We can only hold this discount for a limited time.</p>
   <p>When the timer below hits 00:00, today's price is released to the next person in line…</p>
-  <p>So don't delay! Claim your bundle right now.</p>
+  <p>So don't delay! Every night you wait is another night your dentures soak in bacteria-filled water.</p>
+  <p class="b">Claim your bundle right now.</p>
 
   <div class="timer" role="timer" aria-live="off">
     <div class="lbl">40% OFF · Sale Ends In:</div>
@@ -637,8 +708,8 @@ footer a{color:var(--muted)}
     </div>
   </div>
   <div class="cta-block">
-    <div class="deal">New Customer Discount: <em>40% OFF</em> + 3 FREE Gifts<br>Limited Time</div>
-    <a class="btn" href="#offer">Try The DentalPULSE Pod<small>120-Day Money-Back Guarantee</small></a>
+    <div class="deal">TODAY ONLY: <em>40% OFF</em> + 3 FREE Gifts<br><span class="ends">Ends at midnight tonight</span></div>
+    <a class="btn" href="#offer">YES! Claim My 40% OFF Now →<small>Sale ends at midnight · 120-Day Money-Back Guarantee</small></a>
     <div class="risk"><span>100% Risk Free</span><span>Rated 4.8/5</span></div>
   </div>
   <p>And remember, if the Pod doesn't work, you don't like it, or you don't think it makes your dentures cleaner and fresher…</p>
@@ -647,17 +718,9 @@ footer a{color:var(--muted)}
   <p>Simply claim your bundle and let the DentalPULSE Pod keep your dentures cleaner, fresher and whiter-looking!</p>
   <div class="important">
     <b>IMPORTANT</b>
-    Once this sale ends, it's back to regular pricing and you'll miss this special discount!
+    When the timer hits 00:00, today's 40% discount ends and the 3 free gifts ($58 value) are no longer included. Don't miss out!
   </div>
-  <div class="timer" role="timer" aria-live="off">
-    <div class="lbl">DON'T MISS OUT · Sale Ends In:</div>
-    <div class="clock">
-      <div><b data-t="h">00</b><small>Hours</small></div><span class="colon">:</span>
-      <div><b data-t="m">00</b><small>Minutes</small></div><span class="colon">:</span>
-      <div><b data-t="s">00</b><small>Seconds</small></div>
-    </div>
-  </div>
-  <a class="btn" href="#offer">Claim My 40% OFF + Free Gifts →</a>
+  <a class="btn" href="#offer" style="margin-top:18px">YES! Claim My 40% OFF Before Midnight →</a>
   <div class="risk"><span>120-Day Money-Back Guarantee</span><span>100% Risk Free</span></div>
 </section>
 
@@ -669,6 +732,7 @@ footer a{color:var(--muted)}
   <p>These statements are not intended to diagnose, treat, cure or prevent any disease.</p>
 </footer>
 </main>
+<div class="sticky" id="sticky" hidden><div><b>40% OFF + 3 Free Gifts</b><small>Ends at midnight tonight</small></div><a href="#offer">Claim Now →</a></div>
 
 <script>
 // Countdown to local midnight (the "today only" sale window).
@@ -682,6 +746,9 @@ footer a{color:var(--muted)}
     cells.forEach(function(c){c.textContent=v[c.dataset.t]});
   }
   tick();setInterval(tick,1000);
+  var st=document.getElementById('sticky'),offer=document.getElementById('offer');
+  function onScroll(){var r=offer.getBoundingClientRect();st.hidden=!(window.scrollY>900&&(r.bottom<0||r.top>window.innerHeight));}
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
   document.getElementById('yr').textContent=new Date().getFullYear();
 })();
 </script>
