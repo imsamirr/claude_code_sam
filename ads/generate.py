@@ -132,7 +132,8 @@ ILLUSTRATED_RULE = ("This ad is an illustration, not a photo: render the whole s
 BENCHMARK_RULE = (
     "The FIRST attached image is the product reference. The SECOND attached image is one of this brand's own "
     "top-performing ads: match its production quality, photo realism, product size and sharpness, typography "
-    "weight and scale, and layout cleanliness. Do not copy its words, and only follow its layout as far as the "
+    "weight and scale, and layout cleanliness. NEVER copy any of its words, headlines, offers or badges; the only "
+    "words allowed in the image are the quoted words in the description. Only follow its layout as far as the "
     "description above asks."
 )
 
@@ -162,7 +163,9 @@ COPY_BENCH_RULE = ("The SECOND attached image is this brand's own approved ad: r
                    "every word, type, sizes, colors, signature, stickers), changing only what the description says. "
                    "The shoe still matches the FIRST attached product reference exactly.")
 UGC_BENCH_RULE = ("The SECOND attached image is a past ad of this brand: use it only as a loose reference for how big and "
-                  "bold the headline and labels are; do NOT match its glossy studio look.")
+                  "bold the headline and labels are; do NOT match its glossy studio look. NEVER copy any of its words, "
+                  "headlines, offers or badges (e.g. 'Almost sold out', award or teacher lines): the only words allowed "
+                  "in the image are the quoted words in the description.")
 
 
 def benchmark_for(bdir, brand, concept):

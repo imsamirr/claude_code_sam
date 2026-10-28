@@ -691,28 +691,46 @@
    "plantar fasciitis",
    "foot pain",
    "bunions",
-   "orthopedic shoes",
-   "nurse shoes",
    "heel pain",
    "wide toe box",
-   "insoles"
+   "insoles",
+   "orthopedic shoes",
+   "circulation",
+   "inflammation",
+   "joint pain",
+   "foot cream",
+   "pain relief patch"
   ],
   "exclude": [
-   "scalp",
-   "hair",
-   "skincare",
-   "coffee",
-   "kids",
-   "toddler",
    "baby",
-   "insect",
-   "mozzie",
-   "leggings",
+   "coffee",
+   "costco",
    "erection",
+   "hair",
+   "hyatt",
+   "insect",
+   "insurance",
+   "investor",
+   "jacquemus",
+   "kids",
    "kinky",
+   "leggings",
    "libido",
+   "luggage",
+   "mozzie",
+   "oxford",
+   "real estate",
+   "resort",
+   "scalp",
    "sesame street",
-   "oxford"
+   "skincare",
+   "swarovski",
+   "toddler",
+   "tumbler",
+   "uber",
+   "villa",
+   "webinar",
+   "winnie"
   ],
   "proven_layouts": [
    "dear_nurses_callouts",
@@ -721,6 +739,7 @@
    "sale_strikethrough_three_colors",
    "comments_offer"
   ],
-  "note": "Search terms span footwear AND adjacent wellness (socks, knee/back devices, supplements, grounding, heat/red light). Add new terms when a run finds a category worth mining; add brands/words to exclude when they waste slots."
+  "note": "Search terms span footwear AND adjacent wellness (socks, knee/back devices, supplements, grounding, heat/red light). Add new terms when a run finds a category worth mining; add brands/words to exclude when they waste slots.",
+  "rule": "User rule 2026-10-28: inspiration is chosen OBJECTIVELY from data. Search only health & wellness category keywords (never our angle words: nurse, travel, Disney, etc. Those belong in our copy, not the search). Filters: image, active, launched <=45 days, running >=10 days, impressions rising, direct-response copy (offer, CTA, guarantee, number or problem hook), off-niche excluded, max 2 per brand. Rank by 7-day impression growth (places climbed), then impression share. Take formats from the top of the ranked list in order; skip a row only when its format is already in format_ledger.json, it shows another brand's licensed IP, or it would need a claim we can't make. Log the rank and growth number of every source in based_on."
  }
 }

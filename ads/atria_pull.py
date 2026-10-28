@@ -250,50 +250,65 @@ def inspiration(api, acc, args):
 
 
 def wellness(api, acc, args):
-    """Health & wellness inspiration across categories, not just our own (user rule 2026-10-28): image ads,
-    active, launched in the last `wellness.launched_days` days, running at least `wellness.min_days_running`
-    days, for every keyword in brand.json -> wellness.queries (socks, knee sleeves, supplements, grounding,
-    back-pain devices, foot pain...). Drops off-niche brands/words (wellness.exclude), keeps at most
-    `wellness.per_brand` ads per brand, sorts by impressions. Writes inspiration_wellness_<days>d.csv;
-    contact-sheet it and read every page before writing concepts.
+    """Objective health & wellness inspiration (user rules 2026-10-28). Data only, no hand-picking:
+    image ads, active, launched in the last `wellness.launched_days` days (45), running at least
+    `wellness.min_days_running` days (10), impressions RISING, found with health & wellness category
+    keywords only (brand.json -> wellness.queries; never our own angle words like nurse/travel/Disney).
+    Keeps only DIRECT-RESPONSE ads (title/body has an offer, CTA, guarantee, number or problem hook:
+    wellness.dr_signals), drops off-niche ads (wellness.exclude), max `wellness.per_brand` per brand, and
+    ranks by impression growth: growth = -rank_delta_7d (places climbed in 7 days), then impression share.
+    Writes inspiration_wellness_<days>d.csv with a `growth_rank` column; formats are taken from the top
+    of this list in order, skipping only formats already in research/format_ledger.json.
     """
+    import re
     cfg = args.wellness
     days, min_days, per_brand = cfg.get("launched_days", 45), cfg.get("min_days_running", 10), cfg.get("per_brand", 2)
     exclude = [w.lower() for w in cfg.get("exclude", [])]
+    dr = re.compile(cfg.get("dr_signals", r"%|\$|off\b|free|guarantee|money.back|risk.free|buy \d|get \d|shop|order|try|today|tonight|sale|deal|save|ends|limited|relief|pain|\?"), re.I)
     since = (dt.date.today() - dt.timedelta(days=days)).isoformat()
     seen = {}
     for q in cfg.get("queries", []):
         for order in ("most_impressions", "best_match"):
             try:
                 items = api.get("ad-library/search", {"query": q, "display_format": "image", "launched_after": since,
-                                                      "status": "active", "order": order, "page_size": 50})["items"]
+                                                      "status": "active", "impression_trend": "rising",
+                                                      "order": order, "page_size": 50})["items"]
             except Exception as e:
                 print(f"  {q} {order}: {e}")
                 continue
             for it in items:
                 seen.setdefault(it["id"], {**it, "query": q})
             time.sleep(0.6)
-    rows = []
+    rows, drop = [], {"days": 0, "off_niche": 0, "not_dr": 0}
     for it in seen.values():
         if (it.get("days_running") or 0) < min_days:
+            drop["days"] += 1
             continue
         text = f"{it.get('brand_name', '')} {it.get('title') or ''} {it.get('body') or ''}".lower()
         if any(w in text for w in exclude):
+            drop["off_niche"] += 1
+            continue
+        if not dr.search(f"{it.get('title') or ''} {it.get('body') or ''}"):
+            drop["not_dr"] += 1
             continue
         rank = it.get("impression_rank") or {}
         latest = rank.get("latest_rank") or {}
+        delta = rank.get("rank_delta_7d")
         rows.append({"brand": it["brand_name"], "query": it["query"], "days_running": it["days_running"],
-                     "impression_percentile": latest.get("percentile"), "rank_delta_7d": rank.get("rank_delta_7d"),
+                     "growth_7d": -delta if delta is not None else None, "rank_delta_7d": delta,
+                     "impression_percentile": latest.get("percentile"),
                      "title": " ".join((it.get("title") or "").split()),
                      "body": " ".join((it.get("body") or "").split())[:400],
                      "image_url": (it.get("images") or [{}])[0].get("url"), "landing_url": it.get("link_url")})
-    rows.sort(key=lambda r: r["impression_percentile"] if r["impression_percentile"] is not None else 9)
+    rows.sort(key=lambda r: (-(r["growth_7d"] if r["growth_7d"] is not None else -1e9),
+                             r["impression_percentile"] if r["impression_percentile"] is not None else 9))
     kept, per = [], {}
     for r in rows:
         if per.get(r["brand"], 0) < per_brand:
             per[r["brand"]] = per.get(r["brand"], 0) + 1
+            r["growth_rank"] = len(kept) + 1
             kept.append(r)
-    print(f"{len(seen)} ads found, {len(kept)} kept ({min_days}+ days running, max {per_brand} per brand)")
+    print(f"{len(seen)} rising ads found; dropped {drop}; {len(kept)} kept (max {per_brand} per brand), ranked by 7-day impression growth")
     write_csv(f"inspiration_wellness_{days}d.csv", kept, list(kept[0]) if kept else ["brand"])
 
 
