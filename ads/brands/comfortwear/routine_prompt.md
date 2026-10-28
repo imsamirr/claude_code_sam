@@ -20,7 +20,7 @@ Check today's weekday in America/New_York (`TZ=America/New_York date +%A`):
 - Friday -> NET-NEW batch: folder weeks/<coming ISO week>-fri, ids W<ww>_nn_slug, 40 concepts: ~32 net_new + ~8 winning (nurse, traveler, plus_size) in proven layouts. Don't repeat angles from this week's Tuesday or earlier folders.
 - Any other day: say so and stop.
 
-Native formats: reviews -> fb_comment or trustpilot, tweets -> x_post; real customer language; first name + last initial; no platform logos, TrustScore or verified badges. Cartoon/animation formats only when this run's research shows a reason (no fixed quota).
+Native formats: reviews -> fb_comment or trustpilot, tweets -> x_post; real customer language; first name + last initial; no platform logos, TrustScore or verified badges. Cartoon/animation statics: no quota. Use one only if this run's inspiration research (image, active, launched <= 45 days, running 10+ days, health & wellness) surfaces an illustrated or animated static worth borrowing; it then counts as a new format.
 
 Steps:
 1. Log feedback: for each earlier folder in the Drive folder "Comfort Wear – Weekly Static Ads" (brand.json -> drive_folder_id), read its "<folder> concepts" sheet and log every filled Verdict/Notes row with `python ads/review.py log <stem>_v1 approve|reject "<notes>"`. For approved concepts with a gif block, render GIFs (`python ads/generate.py --week <folder> --gif-only <ids>`).

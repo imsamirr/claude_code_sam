@@ -9,12 +9,13 @@ Engine: `ads/generate.py` (render), `ads/review.py` (sheets, verdicts, cost, CSV
 (research), `ads/contact_sheet.py` (thumbnail grids of any Atria CSV). Each brand lives in
 `ads/brands/<brand>/`; **everything brand-specific is in its `brand.json`**: read it first on every run.
 `ads/README.md` has the commands. Two fully worked brands to copy from:
-- `comfortwear/`: women's orthopedic shoes. Colorways per persona, Spanish, seasonal travel.
+- `comfortwear/`: women's orthopedic shoes. Colorways per persona, wellness-wide inspiration pull, format ledger,
+  customer-voice mining (English only since 2026-10-28; see its standing rules below).
 - `dentalpulse/`: ultrasonic appliance cleaner. Product-scope limits, approved aggressive claims,
   appliance mix, old-method "enemy", competitor playbook (research/analysis.md §6), cartoon formats.
 
 Every deliverable is 1 static per concept (no variations) in ONE size, 4:5 (1088x1360, feed), rendered once
-at high quality with `--layout feed` (the default; user rule 2026-10-18: no 9:16). The file is
+with `--layout feed` (the default; user rule 2026-10-18: no 9:16) at `--quality medium` (user budget rule; ~$0.08/ad). The file is
 `<id>_vN.png`. GIFs only for statics the user approves.
 
 ## Batch types (sizes and days from `brand.json` → `program`)
@@ -125,6 +126,7 @@ prompt), and this skill.
 - **Copy: direct response.** Pain in her words → agitate (what she tried, what it cost) → mechanism (arch, heel cushion, wide toe box, grip) → proof (peer, number, story) → one offer line. Headline ≤ ~8 plain words, specific (a number, a place, a shift length). No puns.
 - **Look: realistic, NOT AI.** Real phone-photo scenes (uneven light, skin/fabric texture, grain, imperfect framing) or clean graphic layouts copied from the inspiration ad, never glossy composites. Full-bleed: the headline sits ON the image (sky, wall, floor), never in a separate band stacked above a photo. Natural walking stance (mid-stride, not two shoes planted side by side). **Poppins** for every typeset word (ExtraBold headlines, SemiBold labels); never condensed (Impact/Bebas/Anton) or script fonts; handwriting only on a real object (sticky note, cardboard sign). Legibility for women 60+ still applies. In QA, re-render anything with the wrong font, an invented slogan, or a headline that doesn't flow into the image.
 - **Offer** (~30% of a batch): "40% OFF" + "FREE SHIPPING" + "30-DAY MONEY-BACK GUARANTEE"; "HSA/FSA ELIGIBLE" + "UP TO 30% SAVINGS" may replace or join it. A line, pill or seal, never the whole ad. Black Friday week uses its own offers (`program.black_friday_week_2026_11_09`).
+- **Cartoon/animation statics: no quota.** Only when this run's inspiration research (same criteria: image, active, launched ≤45 days, 10+ days running, health & wellness) surfaces an illustrated/animated static worth borrowing; it then counts as a new format in the ledger (`program.cartoon_rule`).
 - Render one 4:5 per concept with `--quality medium` (~$0.08/ad). Older rules below still apply where they don't conflict.
 
 - Read `brand.json`, `research/analysis.md` and `feedback.json` (approved/rejected and why).
@@ -159,14 +161,14 @@ prompt), and this skill.
 Sources: `current_winners.csv` (rising first), then `seasonal_<week>.csv`. Each concept names its source
 ad in `based_on` (name, spend, ROAS) and keeps its **concept and angle** (audience, problem, promise, core
 hook). **No net-new ideas.** Make **big swings**: move the angle into a static format the source never
-used (from inspo, the competitor playbook, native and cartoon formats), and re-aim winners at the other
+used (a NEW format from this run's inspiration research, see the format ledger), and re-aim winners at the other
 products/use cases in `program.mix`. Name the new format in `angle`. 2–4 per strong ad, at least 8
 formats. `"group": "iteration"`.
 
 ### Net-new batch: mostly net new
 
 - `netnew_batch.net_new` concepts `"group": "net_new"`: new angles, personas and formats weighted to
-  `grow_personas`; at least 3 formats from the latest inspo pull and (if present) 5 from the competitor
+  `grow_personas`; every format new to the format ledger and discovered in this run's research (`wellness` pull, else `inspo`; plus, if present, the competitor
   playbook.
 - `netnew_batch.winning` concepts `"group": "winning"` in proven formats for `winning_personas`.
 - No angle repeats from this week's iteration batch or any earlier folder.
@@ -185,7 +187,8 @@ formats. `"group": "iteration"`.
   Also apply `program.angle_rules` (winning angles, mix-and-match, foot-pain share), `program.offer`
   (offer-stack share and exact wording) and `colorway_priority` (best sellers vs test colors) when the
   brand has them; count each before rendering.
-- **Variety (user rule)**: every concept in a batch uses a different format. Rotate across the
+- **Variety (user rule)**: every concept in a batch uses a different format, and (Comfort Wear) every format is new
+  to the ledger and comes from this run's research. The list below is history/examples, not a menu: the
   top-impression category formats (analysis.md) and the briefs' formats: insult/shock headline + sticky-note
   offer, lo-fi real photo with minimal text, imaging/petri/microscope proof, price-anchor replacement,
   value-stack bundle flat-lay, big quote over product, real-world sign, advertorial article card, native UI
@@ -208,13 +211,16 @@ formats. `"group": "iteration"`.
   possible. Use `approved_claims` at the strength the user asked for; nothing from `claims_to_avoid`;
   product facts exactly (e.g. 5 minutes). Name the old method (`old_methods`) when allowed; competitor
   products stay unbranded unless the user allows names.
-- **Spanish** (if enabled): written natively as US Latinos talk (`tú`, Mexican-leaning everyday
+- **Spanish** (if enabled; Comfort Wear: disabled since 2026-10-28): written natively as US Latinos talk (`tú`, Mexican-leaning everyday
   phrasing, family/coworker framing, US number format), never translated or Spain-style.
 - **Native formats (user rule)**: testimonials/reviews use `"format": "fb_comment"` or `"trustpilot"`;
   tweet-style ads use `"format": "x_post"`. Give exact names, handle, text, date and counts. Review text
   comes from real customer language (survey/reviews); names first name + last initial; no TrustScore,
   overall rating, "Verified" badges or platform logos.
-- **Cartoon/animation formats (user rule)**: ~15–20% of every batch sets `"format"` to `cartoon_3d`,
+- **Cartoon/animation formats: no quota (Comfort Wear user rule 2026-10-28).** Use one ONLY when this run's
+  inspiration research (same criteria: image, active, launched ≤45 days, 10+ days running, health & wellness)
+  surfaces an illustrated/animated static worth borrowing; it then counts as a new format (`format_name`,
+  `format_source`). Brands without that rule keep their own share. Styles available via `"format"`: `cartoon_3d`,
   `comic_strip`, `flat_illustration`, `claymation`, `retro_cartoon` or `anime_soft`. `generate.py`
   swaps the photo-quality rule for an illustration rule that keeps the product recognizable. Mix styles.
   Proven ideas: product as hero while cute cartoon germs flee; 4-panel comic (problem → friend's
@@ -234,15 +240,15 @@ python ads/format_ledger.py --brand <brand> check --week <folder>         # new 
 python ads/format_ledger.py --brand <brand> add --week <folder>           # record them (after shipping)
 ```
 
-Default `--layout feed` (user rule, Oct 18): one native 4:5 render per ad at the default `high` quality
+Default `--layout feed` (user rule, Oct 18): one native 4:5 render per ad; pass `--quality medium` (the script default is `high`)
 (headline upper third, product/scene large in the middle, copy or offer lower; edge-to-edge scene, at least
 6% margin around text). No 9:16 is made. Older layouts (`native` 9:16 + 4:5 re-layout, `extend` outpaint)
 remain available by flag but are not used. `generate.py` center-crops instead of stretching when the API
 returns another aspect ratio, so the shoe is never squashed. If the image API rejects a prompt for safety
 (e.g. chemicals + mouth = "self-harm"), reframe the visual and retry.
 
-Cost: one high-quality 4:5 render ≈ $0.22 per ad (measured Oct 18; the old medium 9:16 + 4:5 pair was
-≈ $0.13). Check `review.py cost` after every batch and report cost per ad. GIF ≈ $0.14.
+Cost: one medium 4:5 render ≈ $0.08 per ad (measured 2026-10-27/28; high ≈ $0.22). Check `review.py cost` after every
+batch and report cost per ad. GIF ≈ $0.14.
 Use `--quality medium` only if the user asks to cut cost. Shell gotcha: never `pkill -f`/`pgrep -f` a pattern that
 also appears in your own command line (it kills or matches the shell itself); wait on renders by
 counting `*_4x5.png` files instead.
@@ -283,7 +289,7 @@ prompt. Rejected concepts get one regeneration with the fix; approved GIF candid
    are too large for the Drive connector, so the sheet links to each 4:5/GIF on GitHub.
 3. Slack: DM `slack.notify_channel_id`: "**<Brand> <batch type> ready: <folder> (<n> concepts)**", links
    to the sheet, Drive folder and GitHub output folder, then one line: mix split · source ads
-   (iterations) · competitor formats · cartoon count · Spanish count · GIF candidates · image cost.
+   (iterations) · new formats and their inspiration ads · angle and pain split · offer count · Spanish count (if enabled) · GIF candidates · image cost.
    Mention anything skipped. Also DM rule/format changes the user should know about.
 
 ## Routine prompt template (one routine per brand; fill every <…>; see the live DentalPULSE routine)
@@ -304,16 +310,16 @@ User rules:
 - Claims: <how aggressive; approved_claims>; keep out claims_to_avoid.
 - The enemy is <old methods, named/unnamed>; competitors <unbranded/named>.
 - Borrow formats from research/analysis.md <playbook section>.
-- Cartoon/animation formats: ~15–20% of every batch (3–4 Tue, 6–8 Fri): cartoon_3d, comic_strip,
-  flat_illustration, claymation, retro_cartoon, anime_soft. Examples in format_examples/.
+- Formats: NEW every run, discovered in this run's inspiration pull (`atria_pull.py wellness` or `inspo`),
+  checked with `format_ledger.py check`. Cartoon/animation only when the research surfaces one (no quota).
 
 Check today's weekday in America/New_York:
 - Tuesday → ITERATION batch: folder weeks/<current ISO week>-tue, ids T<ww>_nn_slug, <n> concepts
   (<mix counts>), ONLY iterations of `atria_pull.py current` + `seasonal --week <current week>`
-  winners, big-swing formats from inspo/competitor playbook/cartoon; based_on names the source ad.
+  winners, big-swing NEW formats from this run's inspiration research; based_on names the source ad.
 - Friday → NET-NEW batch: refresh `atria_pull.py competitors` (if the brand has competitor_brands);
   folder weeks/<coming ISO week>-fri, ids W<ww>_nn_slug, <n> concepts (<mix counts>): ~80% net_new
-  (grow personas, ≥3 inspo formats, ≥5 playbook formats), ~20% winning personas. Don't repeat angles
+  (grow personas, all formats new to the ledger), ~20% winning personas. Don't repeat angles
   from earlier folders (<list one-off folders>).
 - Any other day: say so and stop.
 
