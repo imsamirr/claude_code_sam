@@ -1,0 +1,99 @@
+{
+ "week": "2026-W45-plus-disney",
+ "notes": "5 statics, plus-size x Disney (user 2026-10-28). Angle from our winners TOFV1_KW1 (4.39 ROAS) and Kyro 170; formats = next 5 usable in growth-rank order (#77, #80, #84, #89, #104) from research/data/inspiration_wellness_45d.csv. #5 is illustrated because its source is.",
+ "concepts": [
+  {
+   "id": "PD45_01_stretch_knit_macro",
+   "group": "net_new",
+   "persona": "plus_size",
+   "theme": "plus-size x Disney",
+   "lang": "en",
+   "colorway": "black_purple",
+   "benchmark": "lifestyle_legs_9x16",
+   "format_name": "knit_macro_statement",
+   "format_source": "#77 by 7-day impression growth: Flytex 'Support without a hinge, a strap or a frame' (knee sleeve, +15, 20d): tight macro of the knit on the body, one statement, small 'see why' line",
+   "based_on": "Inspiration #77 by 7-day impression growth: Flytex 'Support without a hinge, a strap or a frame' (knee sleeve, +15, 20d): tight macro of the knit on the body, one statement, small 'see why' line. Paired with: TOFV1_KW1 plus-size Disney ($2,243, 4.39 ROAS: 'A Disney day can mean miles of walking, hours standing in lines… hour 8 can be a very different story'; wide toe box, roomier fit when feet swell, 30 days risk-free) + Kyro 170 ($106k: 'I weigh 250 pounds… my doctor said I'd never walk normally again')",
+   "angle": "plus-size x Disney: Support that stretches when your feet swell.",
+   "headline": "Support that stretches when your feet swell.",
+   "prompt": "Tight real macro phone photo, low angle, of a plus-size woman's foot and ankle on sunny theme-park pavement in the black-purple shoe: the stretch-knit upper and grid pattern fill about 55% of the frame, sharp, her capri leggings and a blurred crowd and generic castle behind in warm late-afternoon light. Headline in white Poppins ExtraBold on the soft blurred upper area, two lines the same size: \"Support that stretches\" \"when your feet swell.\" Under it one white Poppins SemiBold line: \"Hour 1 to hour 12 of a park day.\" At the bottom a small white line with an arrow: \"See why Denise wore them all 3 days →\". FONT: every typeset word is Poppins (ExtraBold headlines, SemiBold labels): wide, round, geometric letters, never condensed (no Bebas, Anton, Oswald, Impact), never script. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. TEXT RULE: all text black, deep navy or white with strong contrast, never purple or other colored words (an accent color may only fill a solid pill or bar behind white text); every line of the headline is the same size and weight; labels share one large uniform size (at least 1/25 of the canvas height). The plus-size woman is shown warmly and respectfully: real body, flattering everyday clothes, confident, never as a joke or a 'before' shot. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed or tiny. No Disney characters, logos, mouse ears or trademarks; the park is a generic sunny theme park. No icon badges, no buttons, no star ratings, no other text than quoted.",
+   "tags": [
+    "FP"
+   ],
+   "style": "ugc"
+  },
+  {
+   "id": "PD45_02_return_policy_disney",
+   "group": "net_new",
+   "persona": "plus_size",
+   "theme": "plus-size x Disney",
+   "lang": "en",
+   "colorway": "navy_blue",
+   "benchmark": "lifestyle_legs_9x16",
+   "format_name": "return_policy_statement",
+   "format_source": "#80 by 7-day impression growth: NoctiFlo 'Our return policy is simple…' (circulation, +14, 19d): calm serif-free statement about the guarantee beside one product on a soft pale background",
+   "based_on": "Inspiration #80 by 7-day impression growth: NoctiFlo 'Our return policy is simple…' (circulation, +14, 19d): calm serif-free statement about the guarantee beside one product on a soft pale background. Paired with: TOFV1_KW1 plus-size Disney ($2,243, 4.39 ROAS: 'A Disney day can mean miles of walking, hours standing in lines… hour 8 can be a very different story'; wide toe box, roomier fit when feet swell, 30 days risk-free) + Kyro 170 ($106k: 'I weigh 250 pounds… my doctor said I'd never walk normally again')",
+   "angle": "plus-size x Disney: Our return policy is simple.",
+   "headline": "Our return policy is simple.",
+   "prompt": "Soft pale warm-grey background with a faint watermark texture. Left half: black Poppins text, left-aligned, the first two lines ExtraBold and the same size: \"Our return policy\" \"is simple.\" then in Poppins SemiBold: \"Wear them for a full Disney day.\" \"Feet still hurt? Send them back.\" \"30 days. No questions.\" Right half: the navy-blue shoe, a pair, standing upright, large and sharp (about 45% of the frame), soft shadow. Small black line at the bottom: \"40% OFF · FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\". FONT: every typeset word is Poppins (ExtraBold headlines, SemiBold labels): wide, round, geometric letters, never condensed (no Bebas, Anton, Oswald, Impact), never script. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. TEXT RULE: all text black, deep navy or white with strong contrast, never purple or other colored words (an accent color may only fill a solid pill or bar behind white text); every line of the headline is the same size and weight; labels share one large uniform size (at least 1/25 of the canvas height). The plus-size woman is shown warmly and respectfully: real body, flattering everyday clothes, confident, never as a joke or a 'before' shot. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed or tiny. No Disney characters, logos, mouse ears or trademarks; the park is a generic sunny theme park. No icon badges, no buttons, no star ratings, no other text than quoted.",
+   "tags": [
+    "FP",
+    "OFFER"
+   ]
+  },
+  {
+   "id": "PD45_03_im_58_240_grandkids",
+   "group": "net_new",
+   "persona": "plus_size",
+   "theme": "plus-size x Disney",
+   "lang": "en",
+   "colorway": "red_burgundy",
+   "benchmark": "lifestyle_legs_9x16",
+   "format_name": "first_person_age_result_tiles",
+   "format_source": "#84 by 7-day impression growth: Natural Wellness Magazine 'I Quit Coffee at 62 and My Brain Has Never Been This Sharp' (cacao, +11, 16d): first-person age + result headline, product, 4 small benefit tiles",
+   "based_on": "Inspiration #84 by 7-day impression growth: Natural Wellness Magazine 'I Quit Coffee at 62 and My Brain Has Never Been This Sharp' (cacao, +11, 16d): first-person age + result headline, product, 4 small benefit tiles. Paired with: TOFV1_KW1 plus-size Disney ($2,243, 4.39 ROAS: 'A Disney day can mean miles of walking, hours standing in lines… hour 8 can be a very different story'; wide toe box, roomier fit when feet swell, 30 days risk-free) + Kyro 170 ($106k: 'I weigh 250 pounds… my doctor said I'd never walk normally again')",
+   "angle": "plus-size x Disney: I'm 58, 240 lbs, and I outwalked my grandkids at Disney.",
+   "headline": "I'm 58, 240 lbs, and I outwalked my grandkids at Disney.",
+   "prompt": "Deep navy background. Headline at the top in white Poppins ExtraBold, three lines the same size: \"I'm 58, 240 lbs, and I\" \"outwalked my grandkids\" \"at Disney.\" Center: a real phone photo cut-out of the red-burgundy shoe, a pair, large and sharp (about 40% of the frame). Below, a 2x2 grid of rounded dark tiles, each with a small real macro photo of the shoe part and a white bold label: \"Wide toe box\", \"Cushioned heel\", \"Room to swell\", \"Grippy sole\". Small white line at the bottom: \"— Linda K., 3 park days in Florida\". FONT: every typeset word is Poppins (ExtraBold headlines, SemiBold labels): wide, round, geometric letters, never condensed (no Bebas, Anton, Oswald, Impact), never script. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. TEXT RULE: all text black, deep navy or white with strong contrast, never purple or other colored words (an accent color may only fill a solid pill or bar behind white text); every line of the headline is the same size and weight; labels share one large uniform size (at least 1/25 of the canvas height). The plus-size woman is shown warmly and respectfully: real body, flattering everyday clothes, confident, never as a joke or a 'before' shot. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed or tiny. No Disney characters, logos, mouse ears or trademarks; the park is a generic sunny theme park. No icon badges, no buttons, no star ratings, no other text than quoted.",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "PD45_04_less_sitting_more_rides",
+   "group": "net_new",
+   "persona": "plus_size",
+   "theme": "plus-size x Disney",
+   "lang": "en",
+   "colorway": "black_white",
+   "benchmark": "lifestyle_legs_9x16",
+   "format_name": "elegant_lifestyle_two_line",
+   "format_source": "#89 by 7-day impression growth: Charix 'Less effort. More style.' (shoes, +10, 34d): elegant candid lifestyle photo, two short serif-free lines, small offer tag",
+   "based_on": "Inspiration #89 by 7-day impression growth: Charix 'Less effort. More style.' (shoes, +10, 34d): elegant candid lifestyle photo, two short serif-free lines, small offer tag. Paired with: TOFV1_KW1 plus-size Disney ($2,243, 4.39 ROAS: 'A Disney day can mean miles of walking, hours standing in lines… hour 8 can be a very different story'; wide toe box, roomier fit when feet swell, 30 days risk-free) + Kyro 170 ($106k: 'I weigh 250 pounds… my doctor said I'd never walk normally again')",
+   "angle": "plus-size x Disney: Less sitting. More rides.",
+   "headline": "Less sitting. More rides.",
+   "prompt": "Warm candid real phone photo: a stylish plus-size woman in her 50s in a flowing white sundress and sunglasses, sitting for a moment on a low stone wall in a sunny theme park, legs crossed elegantly, her feet in the black-white shoe large and sharp in the lower third (about 30% of the frame), palm trees and a blurred crowd behind. Headline in white Poppins ExtraBold (wide geometric letters, NOT condensed, NOT tall and narrow) on the bright upper-left area, two lines the same size: \"Less sitting.\" \"More rides.\" At the bottom a solid white rounded tag with black Poppins SemiBold text: \"40% OFF · FREE SHIPPING\". FONT: every typeset word is Poppins (ExtraBold headlines, SemiBold labels): wide, round, geometric letters, never condensed (no Bebas, Anton, Oswald, Impact), never script. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. TEXT RULE: all text black, deep navy or white with strong contrast, never purple or other colored words (an accent color may only fill a solid pill or bar behind white text); every line of the headline is the same size and weight; labels share one large uniform size (at least 1/25 of the canvas height). The plus-size woman is shown warmly and respectfully: real body, flattering everyday clothes, confident, never as a joke or a 'before' shot. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed or tiny. No Disney characters, logos, mouse ears or trademarks; the park is a generic sunny theme park. No icon badges, no buttons, no star ratings, no other text than quoted.",
+   "tags": [
+    "OFFER"
+   ],
+   "style": "ugc"
+  },
+  {
+   "id": "PD45_05_bigger_body_feet_love_cartoon",
+   "group": "net_new",
+   "persona": "plus_size",
+   "theme": "plus-size x Disney",
+   "lang": "en",
+   "colorway": "all_black",
+   "benchmark": "lifestyle_legs_9x16",
+   "format_name": "if_you_have_x_cartoon_body_part",
+   "format_source": "#104 by 7-day impression growth: PureCompress 'If You Have Bigger Legs, Your Knees Will Love These.' (compression, +7, 15d): conditional headline to a bigger body + 3D cartoon body part in pain + product + 3 spec rows",
+   "based_on": "Inspiration #104 by 7-day impression growth: PureCompress 'If You Have Bigger Legs, Your Knees Will Love These.' (compression, +7, 15d): conditional headline to a bigger body + 3D cartoon body part in pain + product + 3 spec rows. Paired with: TOFV1_KW1 plus-size Disney ($2,243, 4.39 ROAS: 'A Disney day can mean miles of walking, hours standing in lines… hour 8 can be a very different story'; wide toe box, roomier fit when feet swell, 30 days risk-free) + Kyro 170 ($106k: 'I weigh 250 pounds… my doctor said I'd never walk normally again')",
+   "angle": "plus-size x Disney: Carry a little more? Your feet will love these at Disney.",
+   "headline": "Carry a little more? Your feet will love these at Disney.",
+   "prompt": "Dark blue gradient background. Headline at the top left in white Poppins ExtraBold, three lines the same size: \"Carry a little more?\" \"Your feet will love\" \"these at Disney.\" Right side: a cute expressive 3D animated cartoon foot with big eyes, sweating and grimacing, standing on theme-park pavement next to a melting ice-cream cone. Lower left: a real photo of a woman's hand holding up the all-black shoe, large and sharp (about 35% of the frame). Three rows of white Poppins SemiBold text at the lower right, each with a small white line icon: \"Wide toe box\", \"Cushioned for 20,000 steps\", \"Stretch knit for swelling\". FONT: every typeset word is Poppins (ExtraBold headlines, SemiBold labels): wide, round, geometric letters, never condensed (no Bebas, Anton, Oswald, Impact), never script. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. TEXT RULE: all text black, deep navy or white with strong contrast, never purple or other colored words (an accent color may only fill a solid pill or bar behind white text); every line of the headline is the same size and weight; labels share one large uniform size (at least 1/25 of the canvas height). The plus-size woman is shown warmly and respectfully: real body, flattering everyday clothes, confident, never as a joke or a 'before' shot. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed or tiny. No Disney characters, logos, mouse ears or trademarks; the park is a generic sunny theme park. No icon badges, no buttons, no star ratings, no other text than quoted.",
+   "tags": [
+    "FP"
+   ]
+  }
+ ]
+}
