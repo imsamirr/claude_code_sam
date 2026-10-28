@@ -29,7 +29,7 @@ from pathlib import Path
 
 import requests
 from dotenv import load_dotenv
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 
 ADS_DIR = Path(__file__).resolve().parent
 API_URL = "https://api.openai.com/v1/images/edits"
@@ -193,6 +193,16 @@ def build_prompt(bdir, brand, concept, extra, layout_rule=FORMAT_RULE):
         raise SystemExit(f"{concept['id']}: format '{concept['format']}' is banned for this brand "
                          f"({brand.get('banned_style_note', 'see brand.json banned_formats')}). Rewrite the concept.")
     parts = [layout_rule, concept["prompt"]]
+    ov = concept.get("overlay")
+    if ov:
+        where = "top" if ov.get("pos", "top") == "top" else "bottom"
+        parts.append(f"Leave the {where} 34% of the canvas as a calm, uncluttered area (plain wall, sky, backdrop or soft out-of-focus "
+                     f"background; no product, no busy detail) because a headline will be added there afterwards. Do NOT render the headline "
+                     f"or any caption/tagline text yourself; render only the small labels explicitly quoted above, if any.")
+    shapes = brand.get("appliance_shapes", {})
+    for key in ([concept["appliance"]] if isinstance(concept.get("appliance"), str) else concept.get("appliance", [])):
+        if key in shapes:
+            parts.append(shapes[key])
     if concept.get("colorway") and not concept.get("no_product"):
         template = brand.get("colorway_template", "The product is the {label} shown in the reference photo.")
         parts.append(template.format(label=brand['colorways'][concept['colorway']]['label']))
@@ -295,10 +305,81 @@ def render_native(bdir, brand, concept, ref, ref_bytes, args, api_key):
     return content, full
 
 
+FONT_DIR = ADS_DIR / "fonts"
+OVERLAY_DEFAULT = {"headline_px": 72, "sub_px": 38, "margin": 72, "max_lines": 3, "line_gap": 1.12,
+                   "headline_font": "inter-latin-700-normal.woff", "sub_font": "inter-latin-500-normal.woff",
+                   "num_font": "barlow-latin-700-normal.woff"}
+
+
+def _wrap(draw, text, font, width):
+    lines, cur = [], ""
+    for word in text.split():
+        trial = (cur + " " + word).strip()
+        if draw.textlength(trial, font=font) <= width or not cur:
+            cur = trial
+        else:
+            lines.append(cur)
+            cur = word
+    if cur:
+        lines.append(cur)
+    return lines
+
+
+def overlay_text(img, concept, brand):
+    """Set the headline (and optional sub line) in the brand font at ONE fixed size on every ad (user rule Oct 28:
+    headline size must be identical across a batch). concept['overlay'] = {headline, sub?, pos: top|bottom, tone: dark|light}.
+    Text is drawn by us (exact spelling, real Inter), not by the image model."""
+    ov = concept.get("overlay")
+    if not ov:
+        return img
+    spec = {**OVERLAY_DEFAULT, **brand.get("overlay_spec", {})}
+    w, h = img.size
+    hf = ImageFont.truetype(str(FONT_DIR / spec["headline_font"]), spec["headline_px"])
+    sf = ImageFont.truetype(str(FONT_DIR / spec["sub_font"]), spec["sub_px"])
+    d0 = ImageDraw.Draw(img)
+    width = w - 2 * spec["margin"]
+    hl = _wrap(d0, ov["headline"], hf, width)
+    if len(hl) > spec["max_lines"]:
+        raise ValueError(f"headline wraps to {len(hl)} lines (max {spec['max_lines']}): shorten it: {ov['headline']!r}")
+    sl = _wrap(d0, ov["sub"], sf, width) if ov.get("sub") else []
+    hh = round(spec["headline_px"] * spec["line_gap"])
+    sh = round(spec["sub_px"] * 1.25)
+    block = hh * len(hl) + (18 + sh * len(sl) if sl else 0)
+    top = ov.get("pos", "top") == "top"
+    y0 = spec["margin"] if top else h - spec["margin"] - block
+    light = ov.get("tone", "dark") == "light"
+    # soft scrim so the text always has contrast, without hiding the photo
+    scrim_h = block + spec["margin"] * 2
+    scrim = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(scrim)
+    rgb, peak = ((11, 31, 58), 0.72) if light else ((255, 255, 255), 0.80)
+    if ov.get("scrim", True):
+        for i in range(scrim_h):
+            t = 1 - i / scrim_h if top else i / scrim_h
+            a = int(255 * peak * min(1, t * 1.6))
+            yy = i if top else h - scrim_h + i
+            sd.line([(0, yy), (w, yy)], fill=rgb + (a,))
+    img = Image.alpha_composite(img.convert("RGBA"), scrim)
+    d = ImageDraw.Draw(img)
+    col = (255, 255, 255) if light else (14, 40, 60)
+    accent = (17, 136, 255)
+    y = y0
+    for ln in hl:
+        d.text((spec["margin"], y), ln, font=hf, fill=col)
+        y += hh
+    if sl:
+        y += 18
+        for ln in sl:
+            d.text((spec["margin"], y), ln, font=sf, fill=(235, 242, 250) if light else (14, 40, 60))
+            y += sh
+    return img.convert("RGB")
+
+
 def render_feed(bdir, brand, concept, ref, ref_bytes, args, api_key):
     """One 4:5 render, composed natively (user rule, Oct 18: single size, 4:5 only)."""
-    return call_api(build_prompt(bdir, brand, concept, args.extra, FEED_RULE),
-                    input_images(bdir, brand, concept, ref, ref_bytes), args, api_key, size=CONTENT, kind="feed")
+    img = call_api(build_prompt(bdir, brand, concept, args.extra, FEED_RULE),
+                   input_images(bdir, brand, concept, ref, ref_bytes), args, api_key, size=CONTENT, kind="feed")
+    return overlay_text(img, concept, brand)
 
 
 def extend_to_9x16(content, args, api_key):

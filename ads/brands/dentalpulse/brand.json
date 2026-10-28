@@ -11,7 +11,10 @@
     "Oral appliances (clear aligners, retainers, dentures, night guards) must look anatomically correct and realistic: clear aligners are thin transparent trays shaped like a full upper or lower arch; dentures have realistic pink gums and natural teeth. No distorted mouths or teeth on people.",
     "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos.",
-    "The cleaning cycle is always 5 minutes: any timer, clock or copy shows 5 minutes (05:00), never 3 minutes."
+    "The cleaning cycle is always 5 minutes: any timer, clock or copy shows 5 minutes (05:00), never 3 minutes.",
+    "SCALE (user rule Oct 28): the DentalPULSE Pod is always visibly LARGER than any dental appliance in the frame. A real appliance is about 40% of the Pod's width or less (a denture, night guard, retainer or aligner is palm-sized; the Pod is a domed countertop device). Never draw an appliance as big as or bigger than the Pod, and never let it dwarf the Pod.",
+    "APPLIANCE MATCH (user rule Oct 28): the appliance in the picture must be exactly the one the headline names. If the ad says dentures, show real dentures (pink acrylic gums with a full row of teeth), not a night guard, retainer or aligner. If it says night guard, retainer or aligner, show that appliance with its correct shape (see the appliance accuracy note). Never mix appliances in one image.",
+    "ONE IDEA, INSTANTLY CLEAR: the ad must be understood in two seconds with no explanation. No parody objects, joke labels, pharmacy-bottle gags or puzzles."
   ],
   "claims_to_avoid": [
     "invented counts: customers, units sold, reviews, 'X,000 dentists'; press logos or other awards",
@@ -31,7 +34,7 @@
     },
     "denture_gift_bundle": {
       "file": "reference/denture_gift_bundle.png",
-      "label": "DentalPULSE Pod Denture Bundle: the white DentalPULSE ultrasonic cleaner (the large hero item) plus two free gifts that are much smaller than it: a black zip travel bag with a clear front window and DentalPULSE logo, and a small smoky dark-grey denture case with a strap and a blue denture brush (palm-sized, about a quarter the width of the cleaner). The 1-year warranty is NOT a physical item: never show a warranty shield, card or badge as a product; at most a small text line \"1-year warranty included\"."
+      "label": "DentalPULSE Pod Denture Bundle: the white DentalPULSE ultrasonic cleaner is the clear hero (largest object) with the two free gifts in front of it, both fully visible and easy to read: a black zip travel bag with a clear front window and DentalPULSE logo (about half the Pod's width) and a smoky dark-grey denture case with a strap and a blue denture brush (about one third of the Pod's width). Gifts are clearly smaller than the Pod but never tiny. The 1-year warranty is NOT a physical item: never show a warranty shield, card or badge as a product; at most a small text line."
     },
     "ultimate_bundle": {
       "file": "reference/ultimate_bundle.png",
@@ -265,7 +268,9 @@
     "Controversy is allowed but factual: attack tablets (Polident/Efferdent), brushing, soap, vinegar, bleach and cheap pods using approved or Notion-sourced statements; flag unverified health stats (pneumonia/dementia %) in based_on and do not use them in the image.",
     "Make BACTERIA and YELLOW STAINS explicit and visual (they are the #1 and #2 purchase reasons: 68% and 40%): real macro/biofilm photos, petri dishes, brown/murky water after a cycle, yellow vs white. Dentures: push yellow -> white hard ('as white as when I first got them'). Night guards/retainers/aligners: yellow/cloudy = bacteria + film; 'stops it turning yellow', 'clear again', 'no white film'; never promise set-in yellow disappears in one cycle.",
     "Use the customers' words: 'never felt clean', 'still see food on it', 'is it actually clean?', 'gross yellow and cloudy', 'tablets made it brittle', 'as white as when I first got it', 'clear again', 'no white film', 'no more smell'. Answer the top objections: price (show the offer), 'too good to be true / fake reviews' (guarantee + real quotes), 'every pod is the same' (6 of 7 lab test).",
-    "Funnel mix every batch: 70% top-of-funnel (no price) and 30% offer-driven. Offer-driven copy states the current offer exactly: 40% OFF sitewide, free shipping, free dental case, free travel bag, 120-day guarantee."
+    "Funnel mix every batch: 70% top-of-funnel (no price) and 30% offer-driven. Offer-driven copy states the current offer exactly: 40% OFF sitewide, free shipping, free dental case, free travel bag, 120-day guarantee.",
+    "BACTERIA + YELLOW STAINS ON EVERY AD (user rule Oct 28, from the feedback sheet: bacteria is the #1 reason to buy at 64%, yellow stains #2 at 39%, 68% for night guards): every concept's picture must SHOW bacteria or yellow/stain/film (macro of yellow-stained or filmy appliance, brown debris water, petri dish, UV biofilm, yellow vs clean) and its headline must say bacteria, yellow/stain/film or what is left on the appliance. Offer ads show it too (a yellow vs clean pair next to the offer). Dentures: yellow to white, bacteria and food. Night guards: gross yellow and cloudy = bacteria + film, 'stops it turning yellow'. Retainers: milky/cloudy/yellow film, 'clear again'. Aligners: white film, smell.",
+    "Headlines are max 3 lines at the fixed overlay size (about 60 characters): short, specific, direct response."
   ],
   "ultrasonic_queries": [
     "Zima Dental",
@@ -360,5 +365,21 @@
     "back pain relief",
     "brain health memory"
   ],
-  "inspiration_rule": "User rule Oct 28 - inspiration ads must be: STATIC images, currently ACTIVE, launched in the last 45 days, running at least 7 days (exclude anything launched in the last 7 days), with impressions GROWING week over week (Atria impression_trend rising and reach/rank improving over 7 days). Pull them with `python ads/atria_pull.py inspiration --brand dentalpulse` (oral care AND health & wellness brands, see inspiration_queries), contact-sheet the CSV and read every page; borrow only formats/hooks seen in that curated list, not from older competitor pulls."
+  "inspiration_rule": "User rule Oct 28 - inspiration ads must be: STATIC images, currently ACTIVE, launched in the last 45 days, running at least 7 days (exclude anything launched in the last 7 days), with impressions GROWING week over week (Atria impression_trend rising and reach/rank improving over 7 days). Pull them with `python ads/atria_pull.py inspiration --brand dentalpulse` (oral care AND health & wellness brands, see inspiration_queries), contact-sheet the CSV and read every page; borrow only formats/hooks seen in that curated list, not from older competitor pulls.",
+  "appliance_shapes": {
+    "denture_full": "APPLIANCE ACCURACY (dentures): this is a real FULL DENTURE and nothing else: a horseshoe-shaped base of pink gum-colored acrylic carrying a complete row of 14 natural-looking, slightly uneven off-white teeth. An UPPER denture has a broad pink acrylic palate plate joining the two sides; a LOWER denture is an open U-shape with no palate. Glossy acrylic, believable gum contours. It is NOT a night guard, retainer or aligner: no clear plastic tray, no metal wire.",
+    "denture_partial": "APPLIANCE ACCURACY (partial denture): a real PARTIAL DENTURE: a pink acrylic gum base holding only a few replacement teeth, with thin metal clasps (wire hooks) that grip the neighboring teeth. Not a clear tray.",
+    "night_guard": "APPLIANCE ACCURACY (night guard): a real NIGHT GUARD / bruxism mouth guard: a thick, rigid, hard-acrylic horseshoe-shaped tray that fits over the whole upper (or lower) row of teeth, about 2-3 mm thick with a flat, smooth biting surface, shallow tooth indentations on the top and a thick rounded rim; clear or slightly milky/translucent, much thicker and more solid than an aligner. No pink gum material, no wire, no teeth.",
+    "retainer_hawley": "APPLIANCE ACCURACY (retainer): a real HAWLEY RETAINER: a pink (or clear-and-colored) acrylic plate that sits against the palate, with a thin stainless-steel wire arching across the front of the teeth and small wire loops/clasps at the sides. No tooth row, not a clear tray.",
+    "retainer_clear": "APPLIANCE ACCURACY (retainer): a real CLEAR (Essix-style) RETAINER: a thin, transparent, vacuum-formed horseshoe-shaped tray that hugs the shape of the teeth with fine tooth contours, thin smooth edges, no attachments. Retainers usually come in a small plastic case.",
+    "aligner": "APPLIANCE ACCURACY (aligner): a real CLEAR ALIGNER (Invisalign-style): a very thin, flexible, crystal-clear horseshoe-shaped tray with detailed tooth contours (each tooth shape visible), thin trimmed edges following the gum line, and a few tiny raised bumps (attachments). Thinner and more detailed than a night guard."
+  },
+  "overlay_spec": {
+    "headline_px": 72,
+    "sub_px": 38,
+    "margin": 72,
+    "max_lines": 3,
+    "line_gap": 1.12,
+    "note": "Every designed ad gets its headline set by generate.py in Inter Bold at exactly 72 px (1088 px canvas), max 3 lines, left aligned, same size on every ad; sub line Inter Medium 38 px. Native screenshots (X post, FB comment, Trustpilot, iOS) keep their own UI text and carry no overlay."
+  }
 }

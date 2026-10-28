@@ -32,6 +32,12 @@ These are encoded in `ads/brands/dentalpulse/brand.json` (`program`, `copy_rules
 8. **Photoreal, not AI-looking.** Real camera light and texture, natural skin and hands, believable appliances, no glossy 3D look (brand.json `quality_bar`). Use `"style": "ugc"` for lo-fi/native photos. In QA, reject anything that looks rendered, plastic, over-saturated or symmetrical-perfect.
 9. **Website typography:** Inter for headlines (SemiBold/Bold, sentence case) and body, Barlow Bold for big numbers and prices; navy #0E283C or white text; blue #1188FF as the only accent; palette from dentalpulsepro.com. Reject any ad with serif, script, rounded-cartoon or decorative lettering (except genuine handwritten-note or native-UI formats).
 
+10. **Appliance accuracy (user feedback Oct 28).** Every concept sets `"appliance"` (`denture_full`, `denture_partial`, `night_guard`, `retainer_hawley`, `retainer_clear`, `aligner`); `generate.py` appends the correct shape description from brand.json `appliance_shapes`. If the headline says dentures the picture shows real dentures (pink acrylic gums + full tooth row); a night guard is a thick rigid horseshoe tray; a Hawley retainer has the acrylic palate plate + wire; a clear retainer/aligner is a thin tray. Never mix appliances.
+11. **Scale:** the Pod is always clearly larger than any appliance in frame (appliance about 40% of the Pod's width or less). Free gifts in offer shots must be clearly visible: travel bag about half the Pod's width, case about one third (never tiny). Reject any ad where an appliance looks as big as the Pod or a gift is hard to see.
+12. **One fixed headline size.** Designed ads use `"overlay": {"headline", "sub"?, "pos": "top|bottom", "tone": "dark|light"}`: `generate.py` sets the text itself in real Inter Bold at 72 px (sub line Inter Medium 38 px), max 3 lines (about 60-70 characters), same size on every ad (fonts in `ads/fonts/`). The prompt must not contain the headline; the model leaves a calm 34% band for it. Native screenshots (X post, FB comment, Trustpilot, iOS) keep their own UI text and have no overlay. `headline` in concepts.json equals the overlay headline.
+13. **Bacteria and yellow stains on EVERY ad.** The picture must show it (yellow/stained/filmy appliance macro, brown debris water, petri/UV biofilm, yellow vs clean pair; offer ads too) and the headline names bacteria, yellow/stain/film or what is left on the appliance. Use the feedback sheet's words (`research/feedback_deep_dive.md`).
+14. **No gimmicks that need explaining** (pharmacy-bottle parodies, joke labels, puzzles). Two-second rule: one idea, instantly clear.
+
 ## Batch types (sizes and days from `brand.json` → `program`)
 
 | Batch | Default day | Folder | Ids | Content |
@@ -287,7 +293,7 @@ counting `*_4x5.png` files instead.
   women 60+, see the legibility rule in `quality_bar`);
 - any purple or other colored text, or a headline whose lines differ in size or weight (Comfort Wear rule 2026-10-28);
 - a native format that doesn't look like the real platform, or competitor logos;
-- (DentalPULSE) anything that looks AI-generated or rendered (plastic skin, glossy 3D, melted/duplicated letters, impossible hands or appliances, oversaturated glow), any cartoon/comic/joke tone, copy that isn't direct response, fonts other than Inter/Barlow (serif, script, rounded display), an offer that doesn't match the current offer exactly, or a concept whose appliance/funnel mix is off (50/25/25, 70/30).
+- (DentalPULSE) wrong or mixed appliance shapes, an appliance as big as the Pod, tiny/unclear gifts, headline sizes that differ between ads, no visible bacteria/yellow, a blank or empty photo area, anything that looks AI-generated or rendered (plastic skin, glossy 3D, melted/duplicated letters, impossible hands or appliances, oversaturated glow), any cartoon/comic/joke tone, copy that isn't direct response, fonts other than Inter/Barlow (serif, script, rounded display), an offer that doesn't match the current offer exactly, or a concept whose appliance/funnel mix is off (50/25/25, 70/30).
 `review.py sheet` with ids overwrites page 1: delete `_preview_*` and rebuild the full sheets at the end.
 
 ## 5. Verdicts

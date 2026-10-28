@@ -15,6 +15,10 @@ User rules (all mandatory):
 - **Mix:** 50% dentures / 25% night guards / 25% aligners + retainers. 70% top-of-funnel (no price) / 30% offer-driven.
 - **Current offer (the 30% only):** 40% OFF sitewide, FREE shipping, FREE dental case, FREE travel bag with your order, 120-day money-back guarantee, Pod $99.95.
 - **Look:** photoreal, NOT AI-looking (brand.json quality_bar); typography follows the website: Inter (headlines SemiBold/Bold sentence case, body Regular), Barlow Bold for big numbers/prices, navy #0E283C/white text, blue #1188FF accent.
+- **Appliance accuracy + scale:** set `"appliance"` on every concept (brand.json appliance_shapes); dentures must be real dentures; the Pod is always larger than any appliance; free travel bag ~half the Pod's width, case ~one third.
+- **Fixed headline size:** designed ads use `"overlay"` (generate.py sets Inter Bold 72 px, max 3 lines); native screenshots have none.
+- **Bacteria + yellow stains on every ad:** shown in the picture and named in the headline (feedback sheet language).
+- **No gimmick labels/parodies;** two-second rule.
 - **Variety:** every concept in a batch uses a different format.
 - Native formats: reviews -> fb_comment/trustpilot, tweets -> x_post; real customer language; first name + last initial; no platform logos/TrustScore/verified badges.
 
