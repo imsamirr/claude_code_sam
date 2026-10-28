@@ -140,6 +140,7 @@ prompt), and this skill.
 - **Copy: direct response.** Pain in her words → agitate (what she tried, what it cost) → mechanism (arch, heel cushion, wide toe box, grip) → proof (peer, number, story) → one offer line. Headline ≤ ~8 plain words, specific (a number, a place, a shift length). No puns.
 - **Look: realistic, NOT AI.** Real phone-photo scenes (uneven light, skin/fabric texture, grain, imperfect framing) or clean graphic layouts copied from the inspiration ad, never glossy composites. Full-bleed: the headline sits ON the image (sky, wall, floor), never in a separate band stacked above a photo. Natural walking stance (mid-stride, not two shoes planted side by side). **Poppins** for every typeset word (ExtraBold headlines, SemiBold labels); never condensed (Impact/Bebas/Anton) or script fonts; handwriting only on a real object (sticky note, cardboard sign). Legibility for women 60+ still applies. In QA, re-render anything with the wrong font, an invented slogan, or a headline that doesn't flow into the image.
 - **Offer** (~30% of a batch): "40% OFF" + "FREE SHIPPING" + "30-DAY MONEY-BACK GUARANTEE"; "HSA/FSA ELIGIBLE" + "UP TO 30% SAVINGS" may replace or join it. A line, pill or seal, never the whole ad. Black Friday week uses its own offers (`program.black_friday_week_2026_11_09`).
+- **Readable, uniform text (user 2026-10-28).** All text black, deep navy or white; never purple or other colored words (an accent color may only fill a pill/bar/block behind white text). Every line of one headline is the same size, weight and color: no oversized first word, no smaller second line, no regular/bold mixing. Supporting text is one uniform, large size. QA: re-render any ad with colored words, a headline with mixed sizes, or small text.
 - **Cartoon/animation statics: no quota.** Only when this run's inspiration research (same criteria: image, active, launched ≤45 days, 10+ days running, health & wellness) surfaces an illustrated/animated static worth borrowing; it then counts as a new format in the ledger (`program.cartoon_rule`).
 - Render one 4:5 per concept with `--quality medium` (~$0.08/ad). Older rules below still apply where they don't conflict.
 
@@ -284,7 +285,7 @@ counting `*_4x5.png` files instead.
 - a compressed, flattened, shortened or stretched shoe, or a shoe that's too small in the scene;
 - supporting text (labels, pills, checklist, offer lines) too small to read for the audience (Comfort Wear:
   women 60+, see the legibility rule in `quality_bar`);
-- purple headline/body text (purple is a small accent only);
+- any purple or other colored text, or a headline whose lines differ in size or weight (Comfort Wear rule 2026-10-28);
 - a native format that doesn't look like the real platform, or competitor logos;
 - (DentalPULSE) anything that looks AI-generated or rendered (plastic skin, glossy 3D, melted/duplicated letters, impossible hands or appliances, oversaturated glow), any cartoon/comic/joke tone, copy that isn't direct response, fonts other than Inter/Barlow (serif, script, rounded display), an offer that doesn't match the current offer exactly, or a concept whose appliance/funnel mix is off (50/25/25, 70/30).
 `review.py sheet` with ids overwrites page 1: delete `_preview_*` and rebuild the full sheets at the end.
