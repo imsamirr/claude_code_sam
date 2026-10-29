@@ -1,0 +1,81 @@
+{
+  "week": "2026-W45-inspo-batch4",
+  "notes": "Standard statics from 5 user references (2026-10-29), nurse and travel (Europe + Disney) angles. Dropped from refs: medical outcome claims (overpronation gone, snore-free, neuropathy relief), 'ends tonight', '53% off', 'up to', buttons, '20x more powerful' style stats. Price only from approved claims ($59.95, was $90).",
+  "concepts": [
+    {
+      "id": "V45_01_problem_solution_nurse",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "problem_solution_v",
+      "offer": "none",
+      "angle": "Nurse problem/solution: your shoes shouldn't go flat by hour 6",
+      "based_on": "User reference: aion PROBLEM/SOLUTION weighted-vest ad + nurse winners and Orthora 'by hour 6' line",
+      "headline": "YOUR SHOES SHOULDN'T GO FLAT BY HOUR 6.",
+      "prompt": "Split layout. Left 45%: solid black panel. In the middle, a white rounded outline pill with white all-caps \"PROBLEM\". Under it, heavy white all-caps text on four lines \"YOUR SHOES\" / \"SHOULDN'T\" (this word in warm gold) / \"GO FLAT BY\" / \"HOUR 6.\" and a thick white up arrow below. Right 55%: soft khaki-beige panel. Top: a white rounded pill with heavy dark all-caps \"SOLUTION\", under it dark text \"ComfortWear\" and \"Ortho Stretch Cushion Shoes\". Center: a pair of the black-and-purple shoes from the product reference, large and sharp at true proportions, soft shadow. Under them, dark text on three lines: \"Arch support and cushion made to last 12-hour shifts on hard hospital floors.\" All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "V45_02_europe_days_price",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "benchmark": "week_progress",
+      "offer": "price_strike",
+      "angle": "Europe trip: day 1 cobblestones, day 4 museums, day 9 still walking; love them or your money back; $59.95",
+      "based_on": "User reference: kids insole 'WEEK 0 / 5 / 9' progress + price ad (medical progress swapped for trip days) + travel copy rules (cobblestones, museums, 20,000 steps)",
+      "headline": "WALK EUROPE ALL DAY",
+      "prompt": "Dark charcoal background with a soft spotlight. Top center: huge heavy orange-red all-caps headline on two lines \"WALK EUROPE\" / \"ALL DAY\", then heavy white all-caps \"OR YOUR MONEY BACK\". Below, three rounded photo panels side by side, each a real close-up photo from the knees down of a woman about 60 walking in the navy shoes with bright blue accents from the product reference (shoes sharp and correct), with an orange-red caption bar in white heavy all-caps: (1) on old cobblestones in a sunny European street, \"DAY 1\"; (2) on a polished museum floor, \"DAY 4\"; (3) on a hillside village path with a sea view, \"DAY 9\". Lower left: white heavy all-caps \"SPECIAL DEAL\", then a huge heavy orange-red \"$59.95\" with a smaller white \"$90\" beside it with a strike-through line, then heavy white all-caps \"FREE SHIPPING & RETURNS\". Lower right: one navy shoe from the product reference, large and sharp at true proportions, angled toward the text. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "V45_03_disney_callouts",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "benchmark": "callouts_badge",
+      "offer": "standard_40",
+      "angle": "Disney: park-day ready from day one, four callouts on a big shoe, 40% off badge, try risk-free 30 days",
+      "based_on": "User reference: snore guard 'SNORE-FREE FROM NIGHT ONE' callout ad + Disney/theme-park angle",
+      "headline": "PARK-DAY READY FROM DAY ONE",
+      "prompt": "A softly blurred warm photo background of a sunny theme-park street with families in the distance (no castles, no characters, no logos). Top-left: heavy white all-caps headline with a soft shadow on three lines \"PARK-DAY READY\" / \"FROM DAY\" / \"ONE\". Center: one red/burgundy shoe from the product reference, very large (about 70% of the image width), sharp, at true proportions, resting on a low stone ledge. Four thin white callout lines with small dots on the shoe lead to white text labels: upper-left \"Cushioned Rocker Sole\", lower-left \"Stretch Knit That Gives\", upper-right \"Wide, Roomy Toe Box\", lower-right \"No-Tie Bungee Laces\". Top-right: a round navy badge with a thin white ring, small white \"TODAY\" and big white \"40% OFF\". Bottom-right: heavy white text \"Try them risk-free for 30 days!\" All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "V45_04_notes_wish_knew_nurse",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "notes_app",
+      "offer": "standard_40",
+      "angle": "Notes-app list: things I wish I already knew about ComfortWear (nurse)",
+      "based_on": "User reference: Antinol 'Things I wish I already knew' notes-app ad + Emily RN winner testimonial language + approved claims (HSA/FSA, 30-day guarantee)",
+      "headline": "Things I wish I already knew about ComfortWear",
+      "prompt": "Background: a softly blurred real photo of a hospital hallway with a nurse in navy scrubs walking away. In front, a large white rounded phone notes-app card (generic notes app, no real app logos) with a small yellow \"< All Notes\" at the top-left and share/more icons at the top-right. Bold black title on two lines \"Things I wish I already\" / \"knew about ComfortWear\". Then a list, each line with a yellow check-circle icon and black text: \"Made for 3 12s in a row\" / \"Slip-resistant on wet floors\" / \"Wide toe box for feet that swell\" / \"Arch support that doesn't go flat\" / \"HSA/FSA eligible\" / \"30 days to try, or your money back\". Bottom of the card: a pair of the black-and-purple shoes from the product reference, large and sharp at true proportions. Overlapping the card's lower-right edge, a round red badge with white \"TODAY\" and big white \"40% OFF\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "V45_05_qa_europe_travel",
+      "persona": "traveler",
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+      "benchmark": "qa_three",
+      "offer": "none",
+      "angle": "Travel Q&A: walk Europe without sore feet; three questions with arrow answers, three colors",
+      "based_on": "User reference: 'Get Relief From Neuropathy Pain' Q&A shoe ad (medical claim swapped for travel) + travel copy rules",
+      "headline": "Walk Europe Without Sore Feet",
+      "prompt": "Clean white background with a very pale pink tint. Top-left: heavy dusty-mauve headline on two lines \"Walk Europe\" / \"Without Sore Feet\". Left side, three question rows, each with a small mauve line icon in a pale square, a bold dark question and a mauve arrow answer under it: (1) cobblestone icon, \"Cobblestones all day?\" / \"→ Cushioned rocker sole.\"; (2) toe icon, \"Room for my toes?\" / \"→ A wide, roomy toe box.\"; (3) airplane icon, \"Feet swell on the flight?\" / \"→ Stretch knit that gives.\" Right side: three shoes from the attached product reference, large and sharp at true proportions: top-right one black-and-purple shoe worn on a foot with grey joggers, stepping; lower-right a navy shoe with bright blue accents and a red/burgundy shoe side by side. Bottom-left: heavy mauve all-caps \"ORTHO STRETCH\". No buttons. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    }
+  ]
+}

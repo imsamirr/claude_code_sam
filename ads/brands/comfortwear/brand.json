@@ -664,6 +664,26 @@
     "approved_R48_06": {
       "file": "weeks/2026-W48-bf-batch5/output/R48_06_leaked_code_70_v1.png",
       "use_for": "OWN render (user asked for a 60% + extra 10% version 2026-10-29): leaked code"
+    },
+    "problem_solution_v": {
+      "file": "reference/benchmarks/ref_problem_solution_vertical.png",
+      "use_for": "FORMAT ref (other brand): split, left black panel with 'PROBLEM' pill, white caps statement with one accent word, up arrow; right khaki panel with 'SOLUTION' pill, brand + product name, product large, one-line description"
+    },
+    "week_progress": {
+      "file": "reference/benchmarks/ref_week_progress_price.png",
+      "use_for": "FORMAT ref (other brand): dark background, big orange caps headline + white subline, three photo panels with orange caption bars, special deal price with strike-through, product right"
+    },
+    "callouts_badge": {
+      "file": "reference/benchmarks/ref_callouts_badge.png",
+      "use_for": "FORMAT ref (other brand): product huge on a soft bedroom-tone photo, white caps headline top-left, four callout lines with dots to the product, navy round sale badge top-right, closing line bottom-right"
+    },
+    "notes_app": {
+      "file": "reference/benchmarks/ref_notes_app_list.png",
+      "use_for": "FORMAT ref (other brand): phone notes-app card over a blurred lifestyle photo, bold title 'Things I wish I already knew about X', yellow check list, product pack bottom, red round discount badge"
+    },
+    "qa_three": {
+      "file": "reference/benchmarks/ref_qa_three_shoes.png",
+      "use_for": "FORMAT ref (other brand): white/pale pink, mauve headline, three question rows with small icons and arrow answers, three shoes (one worn on a foot) on the right, brand name bottom-left"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
