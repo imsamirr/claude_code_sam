@@ -1,0 +1,297 @@
+category,row_in_sheet,order,date,tracking,days_in_transit,status
+Stuck > 10 days,46291,#OW1644751,2026-07-16,YT2620100705750705,101 Days,In transit
+Stuck > 10 days,48544,#OW1647004,2026-08-05,YT2621900704422860,83 Days,In transit
+Stuck > 10 days,49404,#OW1647864,2026-08-13,YT2622901001151763,73 Days,In transit
+Stuck > 10 days,51417,#OW1649877,2026-09-01,YT2624600704560647,56 Days,In transit
+Stuck > 10 days,53728,#OW1652188,2026-09-26,YT2627100705665419,31 Days,In transit
+Stuck > 10 days,53835,#OW1652295,2026-09-27,YT2627201000580533,30 Days,In transit
+Stuck > 10 days,54173,#OW1652633,2026-10-02,YT2627900705920460,23 Days,In transit
+Stuck > 10 days,54675,#OW1653135,2026-10-06,YT2628101000678510,21 Days,In transit
+Stuck > 10 days,54954,#OW1653414,2026-10-09,YT2628500705120258,17 Days,In transit
+Stuck > 10 days,55003,#OW1653463,2026-10-09,YT2628500705124524,17 Days,In transit
+Stuck > 10 days,55058,#OW1653518,2026-10-10,YT2628600707111964,16 Days,In transit
+Stuck > 10 days,55068,#OW1653528,2026-10-10,YT2628601001160236,16 Days,In transit
+Stuck > 10 days,55179,#OW1653639,2026-10-11,YT2628600706059297,16 Days,In transit
+Stuck > 10 days,55189,#OW1653649,2026-10-11,YT2628600706059388,16 Days,In transit
+Stuck > 10 days,55266,#OW1653726,2026-10-13,YT2628801000525583,14 Days,In transit
+Stuck > 10 days,55269,#OW1653729,2026-10-13,YT2628800703438482,14 Days,In transit
+Stuck > 10 days,55270,#OW1653730,2026-10-13,YT2628800703456286,14 Days,In transit
+Stuck > 10 days,55307,#OW1653767,2026-10-13,YT2628800703636515,14 Days,In transit
+Stuck > 10 days,55372,#OW1653832,2026-10-14,YT2628900703594316,13 Days,In transit
+Stuck > 10 days,55405,#OW1653865,2026-10-14,YT2628900703431519,13 Days,In transit
+Stuck > 10 days,55411,#OW1653871,2026-10-14,YT2628900703631571,13 Days,In transit
+Stuck > 10 days,55424,#OW1653884,2026-10-15,YT2629000702861516,12 Days,In transit
+Stuck > 10 days,55435,#OW1653895,2026-10-15,YT2629000703596327,12 Days,In transit
+Stuck > 10 days,55463,#OW1653923,2026-10-15,YT2629000703396470,12 Days,In transit
+Stuck > 10 days,55474,#OW1653933,2026-10-15,YT2629001000584297,12 Days,In transit
+Stuck > 10 days,55491,#OW1653951,2026-10-15,YT2629000703629730,12 Days,In transit
+Stuck > 10 days,55515,#OW1653975,2026-10-16,YT2629100703660816,11 Days,In transit
+Stuck > 10 days,55519,#OW1653979,2026-10-16,YT2629100703664115,11 Days,In transit
+Stuck > 10 days,55531,#OW1653991,2026-10-16,YT2629100703624374,11 Days,In transit
+Stuck > 10 days,55566,#OW1654026,2026-10-16,YT2629101000807050,11 Days,In transit
+Stuck > 10 days,55583,#OW1654043,2026-10-16,YT2629100703478904,11 Days,In transit
+Stuck > 10 days,55595,#OW1654055,2026-10-17,YT2629100703430038,11 Days,In transit
+Stuck > 10 days,55647,#OW1654107,2026-10-17,YT2629100703625322,11 Days,In transit
+Stuck > 10 days,55690,#OW1654150,2026-10-17,YT2629101000606593,11 Days,In transit
+Stuck > 10 days,55701,#OW1654161,2026-10-17,YT2629100703625629,11 Days,In transit
+Stuck > 10 days,55711,#OW1654171,2026-10-17,YT2629100703674189,11 Days,In transit
+Returned to sender,56149,#OW1654609,2026-10-21,YT2629601000814022,6 Days,Returned to sender
+Fulfilled But Not Shipped,52403,#OW1650863,2026-09-12,YT2625701001198070,45 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,53626,#OW1652086,2026-09-25,YT2627101000949011,31 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,55586,#OW1654046,2026-10-17,YT2629101000605660,11 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56090,#OW1654550,2026-10-21,YT2629600704960941,6 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56119,#OW1654579,2026-10-21,YT2629601000855728,6 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56292,#OW1654752,2026-10-23,YT2629901000654174,3 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56298,#OW1654758,2026-10-23,YT2629900705463402,3 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56321,#OW1654781,2026-10-23,YT2629901000638367,3 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56408,#OW1654868,2026-10-23,YT2629901000654752,3 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56477,#OW1654937,2026-10-24,YT2630001000741407,2 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56613,#OW1655073,2026-10-25,YT2630001000546012,2 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56654,#OW1655114,2026-10-25,YT2630001000542045,2 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56658,#OW1655118,2026-10-25,YT2630001000740011,2 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56670,#OW1655130,2026-10-25,YT2630000703773907,2 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56692,#OW1655152,2026-10-25,YT2630001000760688,2 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56702,#OW1655162,2026-10-26,YT2630100703703910,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56703,#OW1655163,2026-10-26,YT2630100703635468,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56705,#OW1655165,2026-10-26,YT2630101000751834,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56706,#OW1655166,2026-10-26,YT2630101000751842,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56707,#OW1655167,2026-10-26,YT2630100703704033,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56708,#OW1655168,2026-10-26,YT2630100703704108,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56709,#OW1655169,2026-10-26,YT2630101000552968,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56710,#OW1655170,2026-10-26,YT2630100703704231,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56712,#OW1655172,2026-10-26,YT2630101000552984,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56717,#OW1655177,2026-10-26,YT2630101000751883,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56718,#OW1655178,2026-10-26,YT2630101000751891,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56719,#OW1655179,2026-10-26,YT2630101000751917,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56720,#OW1655180,2026-10-26,YT2630101000714303,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56723,#OW1655183,2026-10-26,YT2630101000553040,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56724,#OW1655184,2026-10-26,YT2630101000553057,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56725,#OW1655185,2026-10-26,YT2630101000751966,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56727,#OW1655187,2026-10-26,YT2630100703903908,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56729,#OW1655189,2026-10-26,YT2630101000553081,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56731,#OW1655191,2026-10-26,YT2630100703704587,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56732,#OW1655192,2026-10-26,YT2630100703704678,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56733,#OW1655193,2026-10-26,YT2630101000553099,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56734,#OW1655194,2026-10-26,YT2630101000553107,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56735,#OW1655195,2026-10-26,YT2630101000752006,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56738,#OW1655198,2026-10-26,YT2630100703904187,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56740,#OW1655200,2026-10-26,YT2630101000752121,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56741,#OW1655201,2026-10-26,YT2630100703904260,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56742,#OW1655202,2026-10-26,YT2630101000752147,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56745,#OW1655205,2026-10-26,YT2630100703904419,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56747,#OW1655207,2026-10-26,YT2630101000752170,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56749,#OW1655209,2026-10-26,YT2630100703705055,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56751,#OW1655211,2026-10-26,YT2630101000553289,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56757,#OW1655217,2026-10-26,YT2630101000752329,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56758,#OW1655218,2026-10-26,YT2630100703904625,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56760,#OW1655220,2026-10-26,YT2630101000553388,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56761,#OW1655221,2026-10-26,YT2630100703635963,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56762,#OW1655222,2026-10-26,YT2630101000752345,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56764,#OW1655224,2026-10-26,YT2630100703705303,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56765,#OW1655225,2026-10-26,YT2630101000752378,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56767,#OW1655227,2026-10-26,YT2630101000752386,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56769,#OW1655229,2026-10-26,YT2630100703905002,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56770,#OW1655230,2026-10-26,YT2630101000553438,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56772,#OW1655232,2026-10-26,YT2630101000515155,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56773,#OW1655233,2026-10-26,YT2630101000752410,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56774,#OW1655234,2026-10-26,YT2630100703705600,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56777,#OW1655237,2026-10-26,YT2630101000752444,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56778,#OW1655238,2026-10-26,YT2630100703905218,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56781,#OW1655241,2026-10-26,YT2630101000553503,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56782,#OW1655242,2026-10-26,YT2630100703705915,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56783,#OW1655243,2026-10-26,YT2630101000752477,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56784,#OW1655244,2026-10-26,YT2630101000752485,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56787,#OW1655247,2026-10-26,YT2630100703905937,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56788,#OW1655248,2026-10-26,YT2630100703906174,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56789,#OW1655249,2026-10-26,YT2630100703706673,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56791,#OW1655251,2026-10-26,YT2630100703444507,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56796,#OW1655256,2026-10-26,YT2630100703906463,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56800,#OW1655260,2026-10-26,YT2630100703643553,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56801,#OW1655261,2026-10-26,YT2630101000753145,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56803,#OW1655263,2026-10-26,YT2630100703707127,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56804,#OW1655264,2026-10-26,YT2630100703707234,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56805,#OW1655265,2026-10-26,YT2630101000554196,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56808,#OW1655268,2026-10-27,YT2630201000739159,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56809,#OW1655269,2026-10-27,YT2630200703769273,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56810,#OW1655270,2026-10-27,YT2630200703708453,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56811,#OW1655271,2026-10-27,YT2630200703776526,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56812,#OW1655272,2026-10-27,YT2630201000540722,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56813,#OW1655273,2026-10-27,YT2630201000739175,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56814,#OW1655274,2026-10-27,YT2630200703968107,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56815,#OW1655275,2026-10-27,YT2630201000739217,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56816,#OW1655276,2026-10-27,YT2630200703769539,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56817,#OW1655277,2026-10-27,YT2630201000540789,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56818,#OW1655278,2026-10-27,YT2630201000540797,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56819,#OW1655279,2026-10-27,YT2630100702982416,1 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56820,#OW1655280,2026-10-27,YT2630201000540813,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56821,#OW1655281,2026-10-27,YT2630201000540821,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56822,#OW1655282,2026-10-27,YT2630200703968289,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56823,#OW1655283,2026-10-27,YT2630201000540854,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56824,#OW1655284,2026-10-27,YT2630201000540896,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56825,#OW1655285,2026-10-27,YT2630201000739316,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56826,#OW1655286,2026-10-27,YT2630201000540920,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56827,#OW1655287,2026-10-27,YT2630200703968362,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56828,#OW1655288,2026-10-27,YT2630200703968453,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56829,#OW1655289,2026-10-27,YT2630201000540946,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56830,#OW1655290,2026-10-27,YT2630200703968552,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56832,#OW1655292,2026-10-27,YT2630200703968651,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56833,#OW1655293,2026-10-27,YT2630201000540979,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56834,#OW1655294,2026-10-27,YT2630201000540987,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56835,#OW1655295,2026-10-27,YT2630201000541001,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56836,#OW1655296,2026-10-27,YT2630200703770032,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56837,#OW1655297,2026-10-27,YT2630200703968859,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56838,#OW1655298,2026-10-27,YT2630201000739399,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56839,#OW1655299,2026-10-27,YT2630201000739407,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56840,#OW1655300,2026-10-27,YT2630200703770230,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56841,#OW1655301,2026-10-27,YT2630201000541050,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56842,#OW1655302,2026-10-27,YT2630201000541084,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56843,#OW1655303,2026-10-27,YT2630201000541092,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56844,#OW1655304,2026-10-27,YT2630201000739464,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56845,#OW1655305,2026-10-27,YT2630201000739498,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56846,#OW1655306,2026-10-27,YT2630201000739506,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56847,#OW1655307,2026-10-27,YT2630201000541134,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56848,#OW1655308,2026-10-27,YT2630201000541167,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56849,#OW1655309,2026-10-27,YT2630201000541217,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56850,#OW1655310,2026-10-27,YT2630200703969048,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56851,#OW1655311,2026-10-27,YT2630200703969170,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56852,#OW1655312,2026-10-27,YT2630201000541241,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56853,#OW1655313,2026-10-27,YT2630201000739654,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56854,#OW1655314,2026-10-27,YT2630201000739662,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56855,#OW1655315,2026-10-27,YT2630201000739696,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56856,#OW1655316,2026-10-27,YT2630200703770560,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56857,#OW1655317,2026-10-27,YT2630200703770685,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56858,#OW1655318,2026-10-27,YT2630201000739704,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56859,#OW1655319,2026-10-27,YT2630201000739712,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56860,#OW1655320,2026-10-27,YT2630201000739720,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56861,#OW1655321,2026-10-27,YT2630200703704684,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56862,#OW1655322,2026-10-27,YT2630201000739738,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56863,#OW1655323,2026-10-27,YT2630201000739753,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56864,#OW1655324,2026-10-27,YT2630201000749125,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56865,#OW1655325,2026-10-27,YT2630201000541324,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56866,#OW1655326,2026-10-27,YT2630200703969543,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56867,#OW1655327,2026-10-27,YT2630200703969659,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56868,#OW1655328,2026-10-27,YT2630201000541332,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56869,#OW1655329,2026-10-27,YT2630201000739811,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56870,#OW1655330,2026-10-27,YT2630201000541357,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56871,#OW1655331,2026-10-27,YT2630201000739845,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56872,#OW1655332,2026-10-27,YT2630201000541365,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56873,#OW1655333,2026-10-27,YT2630201000739878,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56874,#OW1655334,2026-10-27,YT2630201000541399,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56875,#OW1655335,2026-10-27,YT2630200703969782,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56876,#OW1655336,2026-10-27,YT2630201000739902,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56877,#OW1655337,2026-10-27,YT2630200703969915,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56878,#OW1655338,2026-10-27,YT2630201000739936,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56879,#OW1655339,2026-10-27,YT2630200703708750,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56880,#OW1655340,2026-10-27,YT2630201000739977,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56881,#OW1655341,2026-10-27,YT2630201000541472,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56882,#OW1655342,2026-10-27,YT2630201000740009,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56883,#OW1655343,2026-10-27,YT2630201000541498,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56884,#OW1655344,2026-10-27,YT2630201000740025,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56885,#OW1655345,2026-10-27,YT2630201000740033,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56886,#OW1655346,2026-10-27,YT2630201000740058,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56887,#OW1655347,2026-10-27,YT2630201000541530,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56888,#OW1655348,2026-10-27,YT2630200703771287,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56889,#OW1655349,2026-10-27,YT2630201000740082,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56890,#OW1655350,2026-10-27,YT2630201000541548,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56891,#OW1655351,2026-10-27,YT2630200703907899,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56892,#OW1655352,2026-10-27,YT2630200703771436,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56893,#OW1655353,2026-10-27,YT2630201000740116,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56894,#OW1655354,2026-10-27,YT2630200703970301,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56895,#OW1655355,2026-10-27,YT2630201000541589,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56896,#OW1655356,2026-10-27,YT2630201000740132,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56897,#OW1655357,2026-10-27,YT2630201000541639,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56898,#OW1655358,2026-10-27,YT2630200703970442,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56899,#OW1655359,2026-10-27,YT2630200703771790,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56900,#OW1655360,2026-10-27,YT2630201000740199,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56901,#OW1655361,2026-10-27,YT2630200703771899,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56902,#OW1655362,2026-10-27,YT2630201000740215,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56904,#OW1655364,2026-10-27,YT2630200703772012,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56905,#OW1655365,2026-10-27,YT2630201000740249,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56906,#OW1655366,2026-10-27,YT2630201000740272,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56907,#OW1655367,2026-10-27,YT2630201000541787,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56908,#OW1655368,2026-10-27,YT2630201000541852,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56909,#OW1655369,2026-10-27,YT2630201000740371,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56910,#OW1655370,2026-10-27,YT2630201000740413,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56911,#OW1655371,2026-10-27,YT2630201000541993,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56912,#OW1655372,2026-10-27,YT2630201000542009,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56913,#OW1655373,2026-10-27,YT2630201000550531,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56914,#OW1655374,2026-10-27,YT2630201000542041,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56915,#OW1655375,2026-10-27,YT2630201000542090,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56916,#OW1655376,2026-10-27,YT2630201000542108,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56917,#OW1655377,2026-10-27,YT2630200703709501,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56918,#OW1655378,2026-10-27,YT2630200703970921,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56919,#OW1655379,2026-10-27,YT2630200703971010,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56920,#OW1655380,2026-10-27,YT2630201000542116,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56921,#OW1655381,2026-10-27,YT2630201000740512,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56922,#OW1655382,2026-10-27,YT2630201000740520,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56923,#OW1655383,2026-10-27,YT2630201000740538,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56924,#OW1655384,2026-10-27,YT2630200703781930,0 Days,Fulfilled But Not Shipped
+Fulfilled But Not Shipped,56925,#OW1655385,2026-10-27,YT2630201000740553,0 Days,Fulfilled But Not Shipped
+No Tracking,54346,#OW1652806,2026-10-03,,,
+No Tracking,54818,#OW1653278,2026-10-08,,,In transit
+No Tracking,55201,#OW1653661,2026-10-12,,,
+No Tracking,55242,#OW1653702,2026-10-12,,,
+No Tracking,55246,#OW1653706,2026-10-12,,,
+No Tracking,55271,#OW1653731,2026-10-13,,,
+No Tracking,55410,#OW1653870,2026-10-14,,,
+No Tracking,55415,#OW1653876,2026-10-15,,,
+No Tracking,55416,#OW1653875,2026-10-15,,,
+No Tracking,55462,#OW1653922,2026-10-15,,,
+No Tracking,55499,#OW1653959,2026-10-16,,,
+No Tracking,55500,#OW1653960,2026-10-16,,,
+No Tracking,55648,#OW1654108,2026-10-17,,,
+No Tracking,55718,#OW1654178,2026-10-17,,,
+No Tracking,55719,#OW1654179,2026-10-17,,,
+No Tracking,55720,#OW1654180,2026-10-17,,,
+No Tracking,55721,#OW1654181,2026-10-17,,,
+No Tracking,55722,#OW1654182,2026-10-17,,,
+No Tracking,55723,#OW1654183,2026-10-17,,,
+No Tracking,55724,#OW1654184,2026-10-17,,,
+No Tracking,55725,#OW1654185,2026-10-17,,,
+No Tracking,55726,#OW1654186,2026-10-17,,,
+No Tracking,55727,#OW1654187,2026-10-17,,,
+No Tracking,55728,#OW1654188,2026-10-17,,,
+No Tracking,55730,#OW1654190,2026-10-18,,,
+No Tracking,55731,#OW1654191,2026-10-18,,,
+No Tracking,55853,#OW1654313,2026-10-18,,,
+No Tracking,55862,#OW1654322,2026-10-19,,,
+No Tracking,55863,#OW1654323,2026-10-19,,,
+No Tracking,55920,#OW1654380,2026-10-19,,,
+No Tracking,55936,#OW1654396,2026-10-20,,,
+No Tracking,55937,#OW1654397,2026-10-20,,,
+No Tracking,55974,#OW1654434,2026-10-20,,,
+No Tracking,55995,#OW1654455,2026-10-20,,,
+No Tracking,56036,#OW1654496,2026-10-21,,,
+No Tracking,56037,#OW1654497,2026-10-21,,,
+No Tracking,56038,#OW1654498,2026-10-21,,,
+No Tracking,56039,#OW1654499,2026-10-21,,,
+No Tracking,56040,#OW1654500,2026-10-21,,,
+No Tracking,56041,#OW1654501,2026-10-21,,,
+No Tracking,56159,#OW1654619,2026-10-22,,,
+No Tracking,56160,#OW1654620,2026-10-22,,,
+No Tracking,56181,#OW1654641,2026-10-22,,,
+No Tracking,56190,#OW1654650,2026-10-22,,,
+No Tracking,56266,#OW1654726,2026-10-23,,,
+No Tracking,56291,#OW1654751,2026-10-23,,,
+No Tracking,56329,#OW1654789,2026-10-23,,,
+No Tracking,56369,#OW1654829,2026-10-23,,,
+No Tracking,56411,#OW1654871,2026-10-23,,,
+No Tracking,56416,#OW1654876,2026-10-23,,,
+No Tracking,56425,#OW1654884,2026-10-24,,,
+No Tracking,56426,#OW1654886,2026-10-24,,,
+No Tracking,56543,#OW1655003,2026-10-25,,,
+No Tracking,56544,#OW1655004,2026-10-25,,,
+No Tracking,56545,#OW1655005,2026-10-25,,,
+No Tracking,56546,#OW1655006,2026-10-25,,,
+No Tracking,56647,#OW1655107,2026-10-25,,,
+No Tracking,56698,#OW1655158,2026-10-26,,,
+No Tracking,56699,#OW1655159,2026-10-26,,,
+No Tracking,56700,#OW1655161,2026-10-26,,,
+No Tracking,56701,#OW1655160,2026-10-26,,,
+No Tracking,56730,#OW1655190,2026-10-26,,,
+No Tracking,56744,#OW1655204,2026-10-26,,,
+No Tracking,56786,#OW1655246,2026-10-26,,,
+No Tracking,56806,#OW1655266,2026-10-27,,,
+No Tracking,56807,#OW1655267,2026-10-27,,,
+No Tracking,56831,#OW1655291,2026-10-27,,,
+No Tracking,56903,#OW1655363,2026-10-27,,,
