@@ -84,6 +84,54 @@
       "tags": [],
       "copy_of": "U45_03_problems_solution_v1",
       "revision": "new (user 2026-10-29): nurse variation of U45_03, one shoe"
+    },
+    {
+      "id": "U45_06_paint_flat_sneakers_bp",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "approved_U45_04",
+      "offer": "none",
+      "angle": "Nurse: please stop working 12-hour shifts in flat sneakers",
+      "based_on": "User reference: 'PLEASE BUY BACTERIA FILTERS FOR YOUR CPAP' MS-Paint-style ad + nurse 12-hour winners",
+      "headline": "PLEASE STOP WORKING 12-HOUR SHIFTS IN FLAT SNEAKERS",
+      "prompt": "A screenshot of a generic retro 1990s paint-program window (grey title bar reading \"untitled - Paint\" with minimize/maximize/close boxes, a menu row \"File Edit View Image Options Help\", a narrow tool palette on the left, a color palette strip at the bottom, a grey status bar). On the white canvas, wobbly hand-drawn black mouse-drawn all-caps text on four lines: \"PLEASE STOP\" / \"WORKING 12-HOUR\" / \"SHIFTS IN\" / \"FLAT SNEAKERS\". Below, on the right, a pasted real product photo of one black-and-purple shoe from the product reference, large and sharp at true proportions; on the left, a wobbly hand-drawn black circle around a small rough sketch of a worn, flattened cheap sneaker, and a wobbly black arrow pointing to the shoe. No real software logos. Compared with the second attached image: same window, wobbly mouse-drawn lettering style and layout; only the words, the circled sketch and the shoe change as written here.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": [],
+      "copy_of": "U45_04_paint_please_nurse_v1",
+      "revision": "new (user 2026-10-29): variation of U45_04"
+    },
+    {
+      "id": "U45_07_paint_40_off_navy",
+      "persona": "comfort_only",
+      "colorway": "navy_blue",
+      "benchmark": "approved_U45_04",
+      "offer": "standard_40",
+      "angle": "Sale: please buy your comfy shoes now, 40% off sitewide",
+      "based_on": "User reference: 'PLEASE BUY BACTERIA FILTERS FOR YOUR CPAP' MS-Paint-style ad + nurse 12-hour winners",
+      "headline": "PLEASE BUY YOUR COMFY SHOES NOW. THEY'RE 40% OFF SITEWIDE",
+      "prompt": "A screenshot of a generic retro 1990s paint-program window (grey title bar reading \"untitled - Paint\" with minimize/maximize/close boxes, a menu row \"File Edit View Image Options Help\", a narrow tool palette on the left, a color palette strip at the bottom, a grey status bar). On the white canvas, wobbly hand-drawn black mouse-drawn all-caps text on four lines: \"PLEASE BUY\" / \"YOUR COMFY SHOES\" / \"NOW. THEY'RE\" / \"40% OFF SITEWIDE\". Below, on the right, a pasted real product photo of one navy with bright blue accents shoe from the product reference, large and sharp at true proportions; on the left, a wobbly hand-drawn red circle around the words \"40% OFF\" in the text and a scribbled red underline, plus a small wobbly black note \"+ free shipping\", and a wobbly black arrow pointing to the shoe. No real software logos. Compared with the second attached image: same window, wobbly mouse-drawn lettering style and layout; only the words, the circled sketch and the shoe change as written here.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": [],
+      "copy_of": "U45_04_paint_please_nurse_v1",
+      "revision": "new (user 2026-10-29): variation of U45_04"
+    },
+    {
+      "id": "U45_08_paint_black_friday_bw",
+      "persona": "comfort_only",
+      "colorway": "black_white",
+      "benchmark": "approved_U45_04",
+      "offer": "A_sitewide",
+      "angle": "Black Friday: please don't miss our sale, 60% off sitewide",
+      "based_on": "User reference: 'PLEASE BUY BACTERIA FILTERS FOR YOUR CPAP' MS-Paint-style ad + nurse 12-hour winners",
+      "headline": "PLEASE DON'T MISS OUR BLACK FRIDAY SALE 60% OFF SITEWIDE (this last line in wobbly red)",
+      "prompt": "A screenshot of a generic retro 1990s paint-program window (grey title bar reading \"untitled - Paint\" with minimize/maximize/close boxes, a menu row \"File Edit View Image Options Help\", a narrow tool palette on the left, a color palette strip at the bottom, a grey status bar). On the white canvas, wobbly hand-drawn black mouse-drawn all-caps text on four lines: \"PLEASE DON'T\" / \"MISS OUR\" / \"BLACK FRIDAY SALE\" / \"60% OFF SITEWIDE\" (this last line in wobbly red). Below, on the right, a pasted real product photo of one black-and-white shoe from the product reference, large and sharp at true proportions; on the left, a wobbly hand-drawn red circle around \"60% OFF\", and a wobbly black arrow pointing to the shoe. No real software logos. Compared with the second attached image: same window, wobbly mouse-drawn lettering style and layout; only the words, the circled sketch and the shoe change as written here.",
+      "group": "black_friday",
+      "lang": "en",
+      "tags": [],
+      "copy_of": "U45_04_paint_please_nurse_v1",
+      "revision": "new (user 2026-10-29): variation of U45_04"
     }
   ]
 }
