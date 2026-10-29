@@ -6,16 +6,18 @@
       "id": "U45_01_whiteboard_hokas",
       "persona": "comfort_only",
       "colorway": "black_purple",
-      "benchmark": "whiteboard",
+      "benchmark": "approved_U45_01",
       "offer": "none",
       "angle": "Whiteboard before/after: my Hokas after 6 months (flat, worn out) vs ComfortWear (clean, supportive)",
       "based_on": "User reference: Scandi gum whiteboard before/after; user asked for worn-out Hokas vs our shoe (Hoka named in text only, like the 'Ditch the Hokas' winner)",
       "headline": "Comfort that doesn't fall apart.",
-      "prompt": "A real photo of a white dry-erase whiteboard with a black frame standing on a wooden kitchen counter, bright kitchen softly blurred behind. On the board, everything hand-drawn in black marker: a vertical divider line down the middle. Left heading \"My Hokas\" / \"after 6 months\"; under it a simple marker sketch of a generic worn-out running sneaker (no logos, no brand marks) shaded dirty grey-brown with scribbles, a squashed flat sole, a torn upper and frayed laces, with curved arrows to labels \"Flat cushion\" (top) and \"Torn upper\" (bottom). Right heading \"ComfortWear\" / \"after 6 months\"; under it a simple clean marker sketch of a sock-style knit sneaker with bungee laces and a chunky rocker sole, a few light-blue sparkle strokes around it, with curved arrows to labels \"Still supportive\" (top) and \"Wide toe box\" (bottom). Across the bottom of the board in big marker letters: \"Comfort that doesn't fall apart.\" and smaller under it \"Ortho Stretch Cushion Shoes\". In front of the board on the counter: a real pair of the black-and-purple shoes from the product reference, clean and shiny, large and sharp at true proportions. No Hoka logo anywhere, no other brand marks. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "prompt": "A real photo of a white dry-erase whiteboard with a black frame standing on a wooden kitchen counter, bright kitchen softly blurred behind. On the board, everything hand-drawn in black marker: a vertical divider line down the middle. Left heading \"My Hokas\" / \"after 6 months\"; under it a detailed marker-and-color-pencil sketch of a worn-out maximalist running shoe with the instantly recognizable oversized look of a popular cushioned running brand: an extremely thick, chunky, oversized foam midsole that is taller than the upper, a pronounced rocker shape curving up at the toe and heel, a flared heel, a breathable engineered mesh upper with a padded collar and heel pull tab, colored in faded bright running-shoe colors (light blue upper, white midsole with a bright orange-yellow accent stripe), now dirty and grey-stained, the thick foam visibly compressed, creased and squashed flat on one side, the mesh torn at the toe, frayed laces. No logo, no swoosh-like or wordmark shapes, no brand letters on the shoe itself; the brand is named only by the handwritten heading, with curved arrows to labels \"Flat cushion\" (top) and \"Torn upper\" (bottom). Right heading \"ComfortWear\" / \"after 6 months\"; under it a simple clean marker sketch of a sock-style knit sneaker with bungee laces and a chunky rocker sole, a few light-blue sparkle strokes around it, with curved arrows to labels \"Still supportive\" (top) and \"Wide toe box\" (bottom). Across the bottom of the board in big marker letters: \"Comfort that doesn't fall apart.\" and smaller under it \"Ortho Stretch Cushion Shoes\". In front of the board on the counter: a real pair of the black-and-purple shoes from the product reference, clean and shiny, large and sharp at true proportions. No Hoka logo anywhere, no other brand marks. All text is large, bold and high contrast for readers aged 60+; nothing small or thin. Compared with the second attached image: identical board, headings, labels, bottom lines and real shoes in front; only the left sketch changes to the chunky maximalist running shoe described here.",
       "group": "persona_inspo",
       "lang": "en",
       "format_ref": true,
-      "tags": []
+      "tags": [],
+      "copy_of": "U45_01_whiteboard_hokas_v1",
+      "revision": "v2 (user 2026-10-29): left sketch should look like real Hokas (oversized maximalist midsole silhouette, no logo)"
     },
     {
       "id": "U45_02_sticky_notes_nurse",
