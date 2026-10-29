@@ -27,11 +27,12 @@
       "angle": "Lo-fi sticky notes on the shoes on a bed: must-have for hospital floors, 40% off + free shipping, 30-day guarantee",
       "based_on": "User reference: sticky notes on sneakers on a bed + nurse winners ('hospital floors', 12-hour shifts)",
       "headline": "A Must Have If You Stand On Hospital Floors All Day",
-      "prompt": "A casual real smartphone photo from above: a pair of the all-black shoes from the product reference lying on rumpled white bed sheets in soft daylight, one shoe slightly overlapping the other, large and sharp at true proportions. Three square yellow sticky notes stuck onto the shoes, each with black handwritten marker text: on the upper shoe \"A Must Have If You Stand On Hospital Floors All Day\"; on the right \"40% OFF + Free Shipping Today!\"; on the lower shoe \"30-Day Money Back Guarantee ♡\". Real, unpolished, slightly imperfect handwriting; no other text, no logos.",
+      "prompt": "A casual real smartphone photo from above: a pair of the all-black shoes from the product reference lying on rumpled white bed sheets in soft daylight, one shoe slightly overlapping the other, large and sharp at true proportions. Three square yellow sticky notes stuck onto the shoes, each with black handwritten marker text: on the upper shoe \"A Must Have If You Stand On Hospital Floors All Day\"; on the right \"40% OFF + Free Shipping Today!\"; on the lower shoe \"30-Day Money Back Guarantee ♡\". Real, unpolished, slightly imperfect handwriting; no other text, no logos. The photo fills the whole image edge to edge: NO headline, title or any typed text anywhere; the only words are the handwriting on the three sticky notes.",
       "group": "persona_inspo",
       "lang": "en",
       "format_ref": true,
-      "tags": []
+      "tags": [],
+      "revision": "v2: v1 added a big typed headline repeating the first sticky note"
     },
     {
       "id": "U45_03_problems_solution",
