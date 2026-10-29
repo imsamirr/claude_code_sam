@@ -238,15 +238,15 @@
       "persona": "comfort_only",
       "lang": "en",
       "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
-      "benchmark": "approved_R48_06",
+      "benchmark": "approved_R48_16",
       "offer": "A_sitewide_plus_code",
       "tags": [],
       "angle": "Leaked code for BFCM: 60% off sitewide + LEAKED10 for an extra 10% off",
       "based_on": "User reference: Kaliteas 'YOU WEREN'T SUPPOSED TO SEE THIS / LEAKED20' ad; code and offer from the user 2026-10-27",
       "headline": "YOU WEREN'T SUPPOSED TO SEE THIS",
-      "prompt": "Plain light warm-grey background. Top center: heavy dark charcoal all-caps headline on two lines \"YOU WEREN'T\" / \"SUPPOSED TO SEE THIS\". Below, dark grey text on two lines: \"Our code leaked ahead of schedule, and now you get 24 hours to grab the deal.\" Then a dark rounded bar with white heavy all-caps \"BLACK FRIDAY: 60% OFF SITEWIDE\". Then dark grey all-caps \"PLUS USE CODE\", then a white rounded pill with a thick dark outline holding heavy dark all-caps \"LEAKED10\". Then heavy coral-red all-caps \"FOR AN EXTRA 10% OFF\". Bottom: on the left one black-and-purple shoe and on the right one navy shoe with bright blue accents from the attached product reference, both fully inside the frame with margin at the edges, large, sharp, true proportions, angled slightly toward the center. Do NOT show the red/burgundy shoe. Between the two shoes, heavy dark all-caps \"+ FREE SHIPPING\". Compared with the second attached image: same background, headline, type and code pill; the offer lines change as written here and both shoes stay fully in frame. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
-      "revision": "new (user 2026-10-29): R48_06 reworked for BFCM 60% + extra 10%",
-      "copy_of": "R48_06_leaked_code_70_v1"
+      "prompt": "Plain light warm-grey background. Top center: heavy dark charcoal all-caps headline on two lines \"YOU WEREN'T\" / \"SUPPOSED TO SEE THIS\". Below, dark grey text on two lines: \"Our code leaked ahead of schedule, and now you get 24 hours to grab the deal.\" Then a dark rounded bar with white heavy all-caps \"BLACK FRIDAY: 60% OFF SITEWIDE\". Then dark grey all-caps \"PLUS USE CODE\", then a white rounded pill with a thick dark outline holding heavy dark all-caps \"LEAKED10\". Then heavy coral-red all-caps \"FOR AN EXTRA 10% OFF\". Bottom: on the left one black-and-purple shoe and on the right one navy shoe with bright blue accents from the attached product reference, SMALLER than in the second attached image: each shoe about 35% of the image width, both completely inside the frame with a clear empty margin (about 6% of the width) between each shoe and the left/right edges, sharp, true proportions, angled slightly toward the center, on the same ground line. Do NOT show the red/burgundy shoe. Between the two shoes, heavy dark all-caps \"+ FREE SHIPPING\". Compared with the second attached image: identical background, headline, text, bar, code pill and layout; only the two shoes are smaller and fully inside the frame. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "revision": "new (user 2026-10-29): R48_06 reworked for BFCM 60% + extra 10%; v2 (user 2026-10-29): shoes smaller, fully in frame",
+      "copy_of": "R48_16_leaked_code_60_plus_10_v1"
     }
   ]
 }

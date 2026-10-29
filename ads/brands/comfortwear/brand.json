@@ -700,6 +700,10 @@
     "wordart_poster": {
       "file": "reference/benchmarks/ref_wordart_poster.png",
       "use_for": "FORMAT ref (other brand): homemade printed-poster look, rainbow WordArt headline, navy Comic-style subline, product photo on a floral tablecloth, serif bottom line, clip-art accents and a yellow starburst"
+    },
+    "approved_R48_16": {
+      "file": "weeks/2026-W48-bf-batch5/output/R48_16_leaked_code_60_plus_10_v1.png",
+      "use_for": "OWN render (user asked for smaller shoes fully in frame 2026-10-29): leaked code 60% + 10%"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
