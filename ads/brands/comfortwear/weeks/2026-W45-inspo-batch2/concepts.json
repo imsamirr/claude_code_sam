@@ -22,16 +22,17 @@
       "id": "T45_02_split_heavier_feet",
       "persona": "plus_size",
       "colorway": "all_black",
-      "benchmark": "split_offer",
+      "benchmark": "approved_T45_02",
       "offer": "standard_40",
       "angle": "Plus-size split: the shoe built for the pressure heavier feet actually feel, crossed legs on a park bench",
       "based_on": "User reference: 'TODAY ONLY HALF PRICE / the first shoe built for the pressure heavier feet actually feel' split ad (urgency and 50% swapped for the standard 40% offer)",
-      "headline": "MADE FOR HEAVIER FEET",
-      "prompt": "Split layout. Left 50%: warm cream panel. At the top, four small round color dots in white circles (black/purple, all black, navy/blue, red). Huge heavy black all-caps title on two lines \"MADE FOR\" / \"HEAVIER FEET\". Under it a full-width maroon bar with white all-caps \"40% OFF TODAY\". Then dark text on three lines: \"The shoe built for the pressure heavier feet actually feel.\" Then three rows, each with a dark check-circle icon and dark text: \"Wide, Stable Base\", \"Arch Support That Holds Up\", \"Room For Swollen Feet\". Bottom-left: small dark text \"Free Shipping | 30-Day Money-Back Guarantee\". Right 50%: a real photo of a plus-size woman about 60 in a long linen skirt sitting on a park bench with her legs crossed, cropped from the waist down, wearing the all-black shoes from the product reference, large and sharp, park path and greenery softly blurred. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "headline": "MADE FOR PLUS-SIZED",
+      "prompt": "Split layout. Left 50%: warm cream panel. At the top, four small round color dots in white circles (black/purple, all black, navy/blue, red). Huge heavy black all-caps title on two lines \"MADE FOR\" / \"PLUS-SIZED\". Under it a full-width maroon bar with white all-caps \"40% OFF TODAY\". Then dark text on three lines: \"The shoe built for the pressure heavier feet actually feel.\" Then three rows, each with a dark check-circle icon and dark text: \"Wide, Stable Base\", \"Arch Support That Holds Up\", \"Room For Swollen Feet\". Bottom-left: small dark text \"Free Shipping | 30-Day Money-Back Guarantee\". Right 50%: a real photo of a clearly plus-size woman about 60 (US size 20-22, full soft thighs, full calves and ankles, a rounded belly and hips visible above her lap) in a long linen skirt and a cream top, sitting on a park bench with her legs crossed, cropped from the chest down, wearing the all-black shoes from the product reference, large and sharp, park path and greenery softly blurred. Natural, flattering and respectful, not a slim model. Compared with the second attached image: same layout, colors, type, offer bar, check rows and footer; only the title's second line changes to \"PLUS-SIZED\" and the woman is clearly plus-size. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
       "group": "persona_inspo",
       "lang": "en",
-      "format_ref": true,
-      "tags": []
+      "tags": [],
+      "copy_of": "T45_02_split_heavier_feet_v1",
+      "revision": "v2 (user 2026-10-29): headline 'MADE FOR PLUS-SIZED' and a clearly plus-size model"
     },
     {
       "id": "T45_03_arent_cheap_nurse",
