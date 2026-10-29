@@ -1,0 +1,551 @@
+{
+  "id": "V01_50_year_history",
+  "title": "WHAT 50 YEARS OF SHOES DID TO YOUR FEET",
+  "headline_lines": [
+    "WHAT 50 YEARS OF SHOES",
+    "DID TO YOUR FEET"
+  ],
+  "brand": "comfortwear",
+  "product_ref": "reference/shoe_light_grey.png",
+  "voice": {
+    "model": "gpt-4o-mini-tts",
+    "voice": "sage",
+    "instructions": "Warm, confident American woman narrating an animated history explainer, like a popular YouTube explainer. Friendly and clear with a little dry wit on the punchlines. Short natural pauses only. Never salesy or shouty.",
+    "speed": 1.25
+  },
+  "music": {
+    "style": "gentle acoustic storybook underscore, soft fingerpicked guitar, light piano, warm, nostalgic, documentary, 85 bpm",
+    "prompt": "Calm, warm, curious instrumental bed for an animated history lesson narration. No vocals, no big drops, steady and unobtrusive.",
+    "volume": 0.12
+  },
+  "style": "Soft hand-drawn storybook illustration in colored pencil and gentle watercolor on warm cream paper, delicate brown-grey ink outlines, muted warm palette (cream, sage green, ochre, dusty blue) with soft lavender accents, cozy detailed backgrounds, characters with simple round cream-colored faces, small dot eyes, tiny smiles and rosy cheeks; calm, warm, nostalgic children's picture-book feel, vertical 4:5 composition with the main subject centered. No cute blob mascots, no faces on objects or body parts, no extra creatures. Absolutely no text, letters, numbers, signs or logos anywhere in the image.",
+  "characters": {
+    "grandma": "Grandma: a kind woman about 70 with a round cream face, rosy cheeks, silver-grey hair in a high bun, a lavender cardigan over a white collared blouse, grey slacks.",
+    "kid": "A small curious girl about 6 with a round cream face, short dark bob haircut and a mustard-yellow T-shirt.",
+    "nurse": "A woman nurse in her 40s with a round cream face, brown hair in a ponytail, navy blue scrubs and a lanyard.",
+    "shoe": "The Comfort Wear shoe exactly as in the attached product photo (light grey stretch-knit sock-style upper with a small dot pattern on the side, elastic bungee laces with black toggles, pull tab at the heel, chunky white rocker midsole with a wavy profile, grey lug outsole), drawn in the same colored-pencil storybook style but faithful in shape and details."
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "vo": "Crocs gave you clenched toes.",
+      "prompt": "A plain dark-teal foam clog with holes and no heel strap (no logo) on a cream background; a bare foot inside it with toes visibly curled and gripping down; a few small sprigs of plants beside it.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "s02",
+      "vo": "Skechers gave you foam that goes flat by lunch.",
+      "prompt": "A plain black memory-foam sneaker (no logo) next to a squashed, flattened foam insole that looks like a pancake, a tiny wall clock above showing noon, cream background with little plants.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "s03",
+      "vo": "Hokas gave you a running shoe for a job where nobody runs.",
+      "prompt": "A woman nurse standing still behind a hospital nurses' station wearing bright chunky running sneakers (no logo), looking tired; a small race finish-line ribbon drawn faintly in the corner like a thought.",
+      "refs": [
+        "nurse"
+      ],
+      "move": "left"
+    },
+    {
+      "id": "s04",
+      "vo": "And three hundred dollar orthotics gave you a second bill.",
+      "prompt": "A hard plastic custom orthotic insert lying on a desk next to a long paper receipt curling off the table and a piggy bank looking sad.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "s05",
+      "vo": "Here's the fifty-year history behind all four,",
+      "prompt": "An open old scrapbook on a wooden table showing drawings of four generic shoes (a clog, a black sneaker, a chunky running shoe and a plastic insert), a child's hands turning the page, pencils and old photos around.",
+      "refs": [],
+      "move": "down"
+    },
+    {
+      "id": "s06",
+      "vo": "explained like you're five.",
+      "prompt": "Grandma sits in a cozy armchair by a sunny window holding a small chalkboard with a simple drawing of a footprint; the little girl sits cross-legged on the rug listening with wide eyes.",
+      "refs": [
+        "grandma",
+        "kid"
+      ],
+      "move": "in"
+    },
+    {
+      "id": "c1",
+      "kind": "card",
+      "title": "Chapter 1:",
+      "subtitle": "For 2 million years",
+      "vo": "Chapter one. For two million years,"
+    },
+    {
+      "id": "s07",
+      "vo": "the human foot was wide. Wide at the toes, so they could spread out and balance you, like fingers on a hand.",
+      "prompt": "A bare human foot standing on soft earth, toes naturally spread wide like fingers on an open hand drawn faintly beside it for comparison, a few leaves and pebbles.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "s08",
+      "vo": "A strong arch, working like a spring with every step.",
+      "prompt": "Side view of a bare foot mid-step on a dirt path with a gentle curved arch, a small coiled spring drawn beside the arch as a playful comparison.",
+      "refs": [],
+      "move": "right"
+    },
+    {
+      "id": "s09",
+      "vo": "Farmers. Weavers. Grandmothers carrying water. On their feet from sunrise to sunset.",
+      "prompt": "An ancient village scene: a woman farmer in a field, a weaver at a loom in a doorway, and an older woman carrying a clay water pot on her shoulder, all barefoot, warm sunrise light.",
+      "refs": [],
+      "move": "left"
+    },
+    {
+      "id": "s10",
+      "vo": "The foot was built to stand. Shoes just had to stay out of its way.",
+      "prompt": "A simple pair of soft wide leather moccasins resting beside a bare footprint on a flat stone, morning light, plants around.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "c2",
+      "kind": "card",
+      "title": "Chapter 2:",
+      "subtitle": "The 1970s. Shoes go jogging.",
+      "vo": "Chapter two. The nineteen seventies. Shoes go jogging."
+    },
+    {
+      "id": "s11",
+      "vo": "Jogging becomes a national craze.",
+      "prompt": "A 1970s park with joggers in headbands, short shorts and tube socks running along a path, retro cars in the distance, warm golden light.",
+      "refs": [],
+      "move": "right"
+    },
+    {
+      "id": "s12",
+      "vo": "Shoe companies race to build the perfect running shoe. Light. Narrow. A soft wedge of foam under the heel.",
+      "prompt": "A 1970s shoe workshop: a cobbler at a workbench gluing a thick foam wedge under the heel of a slim, narrow retro running shoe; shoe lasts and foam blocks on shelves.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "s13",
+      "vo": "Built for one job: a thirty-minute jog. And for runners, it works.",
+      "prompt": "A happy retro jogger finishing a short run, checking a wristwatch, sweatband on, slim running shoes, park bench and trees.",
+      "refs": [],
+      "move": "left"
+    },
+    {
+      "id": "s14",
+      "vo": "But nobody asks a simple question.",
+      "prompt": "Grandma (younger, about 40, same face, hair in the same bun but brown-grey) in a 1970s shoe store holding a slim running shoe and raising one eyebrow, curious.",
+      "refs": [
+        "grandma"
+      ],
+      "move": "in"
+    },
+    {
+      "id": "s15",
+      "vo": "What about the people who don't run? Who stand, for eight, ten, twelve hours, on concrete?",
+      "prompt": "Three women standing at work on hard grey concrete floors in a row of small vignettes: a nurse in navy scrubs at a bedside, a cashier at a register, a waitress holding plates; their feet drawn slightly tired with small sweat drops.",
+      "refs": [
+        "nurse"
+      ],
+      "move": "right"
+    },
+    {
+      "id": "s16",
+      "vo": "Nobody asks, because nobody's selling that shoe.",
+      "prompt": "A tall store shelf full of only slim running shoes, one empty gap on the shelf with a small spotlight shining on the empty space.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "c3",
+      "kind": "card",
+      "title": "Chapter 3:",
+      "subtitle": "The '80s and '90s. The shelf wins.",
+      "vo": "Chapter three. The eighties and nineties. The shelf wins."
+    },
+    {
+      "id": "s17",
+      "vo": "Here's the part of history nobody tells you. Shoes aren't designed for your feet. They're designed for the shelf.",
+      "prompt": "A bright shoe store: a store clerk carefully arranging shiny, sleek, pointy-toed shoes on glowing display shelves like trophies, shoppers admiring them.",
+      "refs": [],
+      "move": "left"
+    },
+    {
+      "id": "s18",
+      "vo": "Every year, a new model. New colors. Air pockets. Gel pods.",
+      "prompt": "Floating playful objects on cream paper: a clear air bubble pocket, a blue gel pod, colorful paint swatches, and a shoe box with a bow, arranged like a catalog page.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "s19",
+      "vo": "None of it is for your foot. All of it is for the shelf.",
+      "prompt": "A shoe sitting on a little podium under a spotlight while a bare tired foot sits on the floor beside it, ignored, a tiny bandage on one toe.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "s20",
+      "vo": "And narrow looks sleek on a shelf. So, year by year, one thing quietly disappears from every store in America.",
+      "prompt": "A sequence of five shoes in a row from left to right, each one a little narrower and more pointed at the toe than the last, like an evolution chart, on cream paper.",
+      "refs": [],
+      "move": "right"
+    },
+    {
+      "id": "s21",
+      "vo": "Room for your toes.",
+      "prompt": "Close-up of a bare foot's outline drawn inside a narrow pointed shoe outline, toes overlapping and squeezed, little red pressure marks at the big toe joint.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "c4",
+      "kind": "card",
+      "title": "Chapter 4:",
+      "subtitle": "The '90s. Memory foam.",
+      "vo": "Chapter four. The nineties. Memory foam."
+    },
+    {
+      "id": "s22",
+      "vo": "Skechers puts memory foam in shoes. They feel amazing in the store. That's the trick.",
+      "prompt": "Grandma (about 45) trying on a soft black sneaker (no logo) in a shoe store, pressing her thumb into a pillowy foam insole and smiling, a salesman nodding beside her.",
+      "refs": [
+        "grandma"
+      ],
+      "move": "in"
+    },
+    {
+      "id": "s23",
+      "vo": "The store is where the sale happens. Hour four of your day is where the truth happens.",
+      "prompt": "Split scene: on the left a bright shoe store with a cash register; on the right the same woman at work at hour four, leaning on a counter and shifting her weight, a wall clock behind her.",
+      "refs": [
+        "grandma"
+      ],
+      "move": "right"
+    },
+    {
+      "id": "s24",
+      "vo": "Memory foam is like a pillow. Press it all day, and it stays pressed.",
+      "prompt": "A fluffy pillow with a deep hand-shaped dent pressed into it next to a foam insole with a deep flattened heel dent, side by side on cream paper.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "s25",
+      "vo": "By lunch, you're standing on a pancake.",
+      "prompt": "A funny drawing of a tired foot standing on a flat pancake (with a pat of butter) instead of an insole, inside the outline of a sneaker, a lunch tray nearby.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "c5",
+      "kind": "card",
+      "title": "Chapter 5:",
+      "subtitle": "2002. The plastic clog.",
+      "vo": "Chapter five. Two thousand two. The plastic clog."
+    },
+    {
+      "id": "s26",
+      "vo": "A foam clog arrives. Finally, room for your toes. But no back.",
+      "prompt": "A colorful display of plain foam clogs with holes (no logo) on a store table, one pastel-green clog in front with its open heel clearly visible.",
+      "refs": [],
+      "move": "left"
+    },
+    {
+      "id": "s27",
+      "vo": "So your heel slides around, and your toes grip down with every step just to keep it on.",
+      "prompt": "Side cutaway of a foot inside an open-back foam clog, the heel lifting out of the clog and the toes curled hard downward gripping, small motion lines.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "s28",
+      "vo": "Make a fist with your hand. Hold it.",
+      "prompt": "Close-up of a woman's hand clenched tightly in a fist, knuckles slightly pale, soft cream background.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "s29",
+      "vo": "That's what your toes are doing, thousands of steps a day.",
+      "prompt": "A woman's bare foot seen from the side with its toes curled down hard like a clenched fist, wearing an open-back pastel foam clog, walking down a long hospital hallway, faint footprints trailing behind into the distance.",
+      "refs": [],
+      "move": "right"
+    },
+    {
+      "id": "s30",
+      "vo": "America buys hundreds of millions of pairs. The feet disagree. They just can't say so yet.",
+      "prompt": "A huge mountain of pastel foam clogs in a warehouse, with one small bare foot sitting on top with a grumpy little frown drawn on its big toe.",
+      "refs": [],
+      "move": "up"
+    },
+    {
+      "id": "c6",
+      "kind": "card",
+      "title": "Chapter 6:",
+      "subtitle": "The 2010s. Running shoes go to work.",
+      "vo": "Chapter six. The twenty-tens. Running shoes go to work."
+    },
+    {
+      "id": "s31",
+      "vo": "Nurses, teachers and cashiers start wearing marathon shoes to work. If a marathon runner trusts it, it must be good, right?",
+      "prompt": "A busy hospital hallway where a nurse in navy scrubs, a teacher with a tote bag and a cashier in a vest all walk wearing bright neon chunky running sneakers (no logos), a marathon poster-like drawing with only a runner silhouette on the wall.",
+      "refs": [
+        "nurse"
+      ],
+      "move": "left"
+    },
+    {
+      "id": "s32",
+      "vo": "Here's the science, in simple words. A running shoe is built to soak up bounce, for an hour or two of running.",
+      "prompt": "A simple diagram-style drawing: a plain unbranded running shoe (completely blank sides, no logo, no letters, no stripes) bouncing off the ground with curved bounce lines, and a small stopwatch beside it, cream paper.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "s33",
+      "vo": "Standing is different. There's no bounce. Just pressure. Hour after hour.",
+      "prompt": "A nurse standing still at a hospital bedside, with heavy downward arrows drawn softly over her feet pressing into the floor, a clock on the wall.",
+      "refs": [
+        "nurse"
+      ],
+      "move": "in"
+    },
+    {
+      "id": "s34",
+      "vo": "And the toe box? Still shaped for a narrow, fast foot. Not your foot at the end of a double shift.",
+      "prompt": "Top-down view of a slim running shoe with a faint outline of a wider, slightly swollen foot drawn over it spilling past the edges of the shoe.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "s35",
+      "vo": "Price? A hundred and seventy dollars.",
+      "prompt": "A worried woman nurse holding an open wallet with a single coin inside, a shiny running shoe box on the counter in front of her.",
+      "refs": [
+        "nurse"
+      ],
+      "move": "in"
+    },
+    {
+      "id": "c7",
+      "kind": "card",
+      "title": "Chapter 7:",
+      "subtitle": "The final insult. The $300 fix.",
+      "vo": "Chapter seven. The final insult. The three hundred dollar fix."
+    },
+    {
+      "id": "s36",
+      "vo": "By now, millions of people have aching heels, angry bunions and swollen feet by the end of the day. So the industry sells them the fix.",
+      "prompt": "A waiting room full of tired older women and nurses sitting with their shoes off, rubbing their heels and feet, an empty chair in the middle.",
+      "refs": [],
+      "move": "right"
+    },
+    {
+      "id": "s37",
+      "vo": "Insoles. Inserts. Custom orthotics, for three hundred, four hundred dollars.",
+      "prompt": "A glass display case of hard plastic orthotic inserts and gel insoles lit like expensive jewelry in a pharmacy, a middle-aged woman pharmacist in a white coat standing behind it.",
+      "refs": [],
+      "move": "left"
+    },
+    {
+      "id": "s38",
+      "vo": "Read that again. You buy a shoe that doesn't support you. Then you pay again for a piece of plastic to put inside it.",
+      "prompt": "Grandma (about 60) sitting on the edge of her bed pulling a stiff plastic insert out of one shoe, with two other pairs of shoes waiting beside her on the floor.",
+      "refs": [
+        "grandma"
+      ],
+      "move": "in"
+    },
+    {
+      "id": "s39",
+      "vo": "And move it from shoe, to shoe, to shoe.",
+      "prompt": "A single plastic orthotic insert drawn three times in motion, hopping between three different shoes lined up on a closet floor, with small curved arrows.",
+      "refs": [],
+      "move": "right"
+    },
+    {
+      "id": "s40",
+      "vo": "It's like buying a chair with no seat, then renting the cushion.",
+      "prompt": "A funny drawing of a wooden chair with no seat, and a small cushion wearing a little price tag string hanging beside it, cream paper.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "c8",
+      "kind": "card",
+      "title": "Chapter 8:",
+      "subtitle": "Today.",
+      "vo": "Chapter eight. Today."
+    },
+    {
+      "id": "s41",
+      "vo": "Fifty years of narrower, flatter, built for the shelf. Toes squeezed into points they were never shaped for.",
+      "prompt": "A tall stack of fifty years of shoes piled like a tower, getting narrower and more pointed toward the top, beside a bare wide foot looking up at it.",
+      "refs": [],
+      "move": "up"
+    },
+    {
+      "id": "s42",
+      "vo": "And millions of people limp to the car after a shift.",
+      "prompt": "A nurse in navy scrubs limping across a dark hospital parking lot at night toward her car, holding her bag, one hand on a light pole.",
+      "refs": [
+        "nurse"
+      ],
+      "move": "left"
+    },
+    {
+      "id": "s43",
+      "vo": "Sit on the edge of the bed rubbing their heels.",
+      "prompt": "Grandma (today, about 70) sitting on the edge of her bed in the evening, rubbing her heel with both hands, slippers on the floor, warm lamp light.",
+      "refs": [
+        "grandma"
+      ],
+      "move": "in"
+    },
+    {
+      "id": "s44",
+      "vo": "And say the same wrong thing: I'm just getting old.",
+      "prompt": "Close-up of Grandma sighing with a small resigned smile, holding a cup of tea, looking out a window.",
+      "refs": [
+        "grandma"
+      ],
+      "move": "in"
+    },
+    {
+      "id": "s45",
+      "vo": "No. Your feet spent fifty years in shoes built for a shelf. That's not aging. That's history. And history can be changed.",
+      "prompt": "The little girl gently handing Grandma an old history book with a footprint drawn on its cover, Grandma smiling in surprise, cozy living room.",
+      "refs": [
+        "grandma",
+        "kid"
+      ],
+      "move": "in"
+    },
+    {
+      "id": "c9",
+      "kind": "card",
+      "title": "The last chapter:",
+      "subtitle": "Going back.",
+      "vo": "The last chapter. Going back."
+    },
+    {
+      "id": "s46",
+      "vo": "Going back means a shoe shaped like a foot again. No new model every year. No hundred-and-seventy-dollar price tag. No three-hundred-dollar insert.",
+      "prompt": "A tidy workbench with a wide, foot-shaped paper pattern and a measuring tape, a crossed-out plastic insert and a crossed-out fancy shoe box drawn lightly to the side.",
+      "refs": [],
+      "move": "in"
+    },
+    {
+      "id": "s47",
+      "vo": "One company decided to build it anyway.",
+      "prompt": "Warm workshop scene: a woman designer sketching a wide, foot-shaped shoe on paper at a drafting table, knit yarn spools and a foot model beside her.",
+      "refs": [],
+      "move": "right"
+    },
+    {
+      "id": "s48",
+      "vo": "Comfort Wear makes the Ortho Stretch.",
+      "prompt": "The Comfort Wear shoe as the hero, shown in side profile on a small wooden pedestal on cream paper with soft lavender light behind it and a few small plants.",
+      "refs": [
+        "shoe"
+      ],
+      "move": "in"
+    },
+    {
+      "id": "s49",
+      "vo": "Wide at the toes, with a stretch-knit upper that gives where bunions and swelling need room.",
+      "prompt": "Clean top-down view of the Comfort Wear shoe on a cream background; inside it a faint dotted outline of a relaxed foot shows the toes spread comfortably with room to spare at the front; the knit gently stretches at the side of the big toe. Simple, centered, nothing else in the scene.",
+      "refs": [
+        "shoe"
+      ],
+      "move": "in"
+    },
+    {
+      "id": "s50",
+      "vo": "Arch support built right in. Nothing extra to buy. Nothing to move from shoe to shoe.",
+      "prompt": "Gentle cutaway drawing of the Comfort Wear shoe revealing a contoured arch under the foot, a discarded plastic insert lying in a small trash basket nearby.",
+      "refs": [
+        "shoe"
+      ],
+      "move": "right"
+    },
+    {
+      "id": "s51",
+      "vo": "A real back that hugs your heel, so your toes can finally let go.",
+      "prompt": "Close-up side view of a woman's foot fully inside the Comfort Wear shoe (foot hidden by the shoe, only the ankle visible), the heel held snugly by the shoe's back and pull tab; next to it a woman's relaxed open hand, palm up, as a calm comparison to the earlier fist. Cream background.",
+      "refs": [
+        "shoe"
+      ],
+      "move": "in"
+    },
+    {
+      "id": "s52",
+      "vo": "And a cushioned rocker sole made for standing, not sprinting. So hour twelve feels a lot more like hour one.",
+      "prompt": "The nurse in navy scrubs wearing the Comfort Wear shoes walking happily down a hospital hallway at the end of a shift, a wall clock showing late time, she is smiling.",
+      "refs": [
+        "nurse",
+        "shoe"
+      ],
+      "move": "left"
+    },
+    {
+      "id": "s53",
+      "vo": "Here's what customers tell us. Great for my twelve-hour shifts. Fits my extra-wide feet. The toe room sold me.",
+      "prompt": "Grandma and the nurse and a teacher standing together on a sunny sidewalk, all wearing the Comfort Wear shoes, chatting and laughing.",
+      "refs": [
+        "grandma",
+        "nurse",
+        "shoe"
+      ],
+      "move": "right"
+    },
+    {
+      "id": "s54",
+      "vo": "Right now, the Ortho Stretch is fifty-nine ninety-five, down from ninety.",
+      "prompt": "The Comfort Wear shoe resting on top of its open shoe box with tissue paper on a wooden table, a small tag string with no writing, soft morning light.",
+      "refs": [
+        "shoe"
+      ],
+      "move": "in",
+      "overlay": "$59.95 (was $90)"
+    },
+    {
+      "id": "s55",
+      "vo": "So here's your homework. Wear them for one full day.",
+      "prompt": "Grandma wearing the Comfort Wear shoes, sitting at a kitchen table with an open notebook and a pencil, a calendar on the wall with one day circled, the little girl watching.",
+      "refs": [
+        "grandma",
+        "kid",
+        "shoe"
+      ],
+      "move": "in"
+    },
+    {
+      "id": "s56",
+      "vo": "Then put your old shoes back on for one hour. You'll feel fifty years of history in a single step.",
+      "prompt": "A woman's two hands (no faces) holding up an old, flattened, worn-out black sneaker next to the Comfort Wear shoe in a cozy hallway, comparing them side by side.",
+      "refs": [
+        "shoe"
+      ],
+      "move": "in"
+    },
+    {
+      "id": "s57",
+      "vo": "Tap below, check the size guide, and get your pair. That's the end of the lesson.",
+      "prompt": "Grandma walking happily in a sunny garden path wearing the Comfort Wear shoes, holding the little girl's hand, both smiling.",
+      "refs": [
+        "grandma",
+        "kid",
+        "shoe"
+      ],
+      "move": "out",
+      "overlay": "comfortorthowear.com"
+    }
+  ]
+}
