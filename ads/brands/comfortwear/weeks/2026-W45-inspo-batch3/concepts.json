@@ -1,0 +1,67 @@
+{
+  "week": "2026-W45-inspo-batch3",
+  "notes": "Standard statics from user references (2026-10-29): whiteboard Hoka before/after, sticky notes on bed (nurse), problems/solution split, retro paint meme (nurse). Hoka named in text only, worn shoe drawn generic with no logos. Offer only where the ref had one (standard 40% + free shipping, 30-day guarantee, never 45). Leaked-code BFCM version is R48_16 in 2026-W48-bf-batch5.",
+  "concepts": [
+    {
+      "id": "U45_01_whiteboard_hokas",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "benchmark": "whiteboard",
+      "offer": "none",
+      "angle": "Whiteboard before/after: my Hokas after 6 months (flat, worn out) vs ComfortWear (clean, supportive)",
+      "based_on": "User reference: Scandi gum whiteboard before/after; user asked for worn-out Hokas vs our shoe (Hoka named in text only, like the 'Ditch the Hokas' winner)",
+      "headline": "Comfort that doesn't fall apart.",
+      "prompt": "A real photo of a white dry-erase whiteboard with a black frame standing on a wooden kitchen counter, bright kitchen softly blurred behind. On the board, everything hand-drawn in black marker: a vertical divider line down the middle. Left heading \"My Hokas\" / \"after 6 months\"; under it a simple marker sketch of a generic worn-out running sneaker (no logos, no brand marks) shaded dirty grey-brown with scribbles, a squashed flat sole, a torn upper and frayed laces, with curved arrows to labels \"Flat cushion\" (top) and \"Torn upper\" (bottom). Right heading \"ComfortWear\" / \"after 6 months\"; under it a simple clean marker sketch of a sock-style knit sneaker with bungee laces and a chunky rocker sole, a few light-blue sparkle strokes around it, with curved arrows to labels \"Still supportive\" (top) and \"Wide toe box\" (bottom). Across the bottom of the board in big marker letters: \"Comfort that doesn't fall apart.\" and smaller under it \"Ortho Stretch Cushion Shoes\". In front of the board on the counter: a real pair of the black-and-purple shoes from the product reference, clean and shiny, large and sharp at true proportions. No Hoka logo anywhere, no other brand marks. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "U45_02_sticky_notes_nurse",
+      "persona": "nurse",
+      "colorway": "all_black",
+      "benchmark": "sticky_bed",
+      "style": "ugc",
+      "offer": "standard_40",
+      "angle": "Lo-fi sticky notes on the shoes on a bed: must-have for hospital floors, 40% off + free shipping, 30-day guarantee",
+      "based_on": "User reference: sticky notes on sneakers on a bed + nurse winners ('hospital floors', 12-hour shifts)",
+      "headline": "A Must Have If You Stand On Hospital Floors All Day",
+      "prompt": "A casual real smartphone photo from above: a pair of the all-black shoes from the product reference lying on rumpled white bed sheets in soft daylight, one shoe slightly overlapping the other, large and sharp at true proportions. Three square yellow sticky notes stuck onto the shoes, each with black handwritten marker text: on the upper shoe \"A Must Have If You Stand On Hospital Floors All Day\"; on the right \"40% OFF + Free Shipping Today!\"; on the lower shoe \"30-Day Money Back Guarantee ♡\". Real, unpolished, slightly imperfect handwriting; no other text, no logos.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "U45_03_problems_solution",
+      "persona": "comfort_only",
+      "colorway": "navy_blue",
+      "benchmark": "problems_solution",
+      "offer": "none",
+      "angle": "Problems vs solution split: heel pain, swollen feet, crushed toes -> ComfortWear",
+      "based_on": "User reference: papmd PROBLEMS / SOLUTION split + survey problems (heel pain 25%, swelling, toe room)",
+      "headline": "PROBLEMS / SOLUTION",
+      "prompt": "Square-ish split layout. Left half: white background, heavy black all-caps title \"PROBLEMS\". Below it, three stacked items, each a simple black line-art icon with a heavy black all-caps label under it: (1) a foot with small red pain lines at the heel, \"HEEL PAIN BY NOON\"; (2) a puffy swollen foot and ankle, \"SWOLLEN FEET\"; (3) toes squeezed inside a narrow shoe outline, \"CRUSHED TOES\". Right half: deep navy-to-blue vertical gradient, heavy white all-caps title \"SOLUTION\", under it a white tilted paper tag with dark script text \"ComfortWear Ortho Stretch\". Below, a pair of the navy shoes with bright blue accents from the product reference, large and sharp at true proportions, angled slightly, soft shadow, overlapping a little into the white half. No price, no logo. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "U45_04_paint_please_nurse",
+      "persona": "nurse",
+      "colorway": "red_burgundy",
+      "benchmark": "paint_window",
+      "offer": "none",
+      "angle": "Retro paint-program meme: please buy shoes with arch support for your 12-hour shifts",
+      "based_on": "User reference: 'PLEASE BUY BACTERIA FILTERS FOR YOUR CPAP' MS-Paint-style ad + nurse 12-hour winners",
+      "headline": "PLEASE BUY SHOES WITH ARCH SUPPORT FOR YOUR 12-HOUR SHIFTS",
+      "prompt": "A screenshot of a generic retro 1990s paint-program window (grey title bar reading \"untitled - Paint\" with minimize/maximize/close boxes, a menu row \"File Edit View Image Options Help\", a narrow tool palette on the left, a color palette strip at the bottom, a grey status bar). On the white canvas, wobbly hand-drawn black mouse-drawn all-caps text on four lines: \"PLEASE BUY\" / \"SHOES WITH ARCH\" / \"SUPPORT FOR YOUR\" / \"12-HOUR SHIFTS\". Below, on the right, a pasted real product photo of one red/burgundy shoe from the product reference, large and sharp at true proportions; on the left, a wobbly hand-drawn black circle around a small rough sketch of a nurse's tired foot, and a wobbly black arrow from the circle to the shoe. No real software logos.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    }
+  ]
+}

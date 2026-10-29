@@ -373,7 +373,8 @@
     "BLACK FRIDAY week of Nov 9 (user-provided 2026-10-26): EITHER \"60% OFF SITEWIDE\" OR \"BUY 2 PAIRS, GET 2 FREE GIFTS\" (gifts: \"3-PACK CUSHIONED SOCKS\" and \"FREE TRAVEL BAG\"). Never both in one concept; do not combine with the 40% OFF stack.",
     "BLACK FRIDAY 2026 offer facts (user-provided 2026-10-27): \"60% OFF SITEWIDE\"; \"BUY 2 PAIRS, GET A FREE 3-PACK OF SOCKS + FREE TRAVEL BAG\"; \"FREE SHIPPING & RETURNS\"; \"30-DAY MONEY-BACK GUARANTEE\" (free). User: no need to fit all of it on one ad. Keep the Oct 26 rule: the lead offer is EITHER 60% OFF OR the buy-2 gifts, never both; free shipping & returns and the 30-day guarantee may appear as small supporting lines. 'Free shipping & returns' is the approved wording (never 'easy' or 'fast').",
     "BLACK FRIDAY price boxes (user-provided 2026-10-27, for Q48_06): strikethrough \"$120\" -> sale price \"$59.95\". Note: $59.95 vs $120 is ~50% off, and the standing price claim is \"$59.95 (was $90)\"; confirm the reference price before running.",
-    "BLACK FRIDAY promo code (user-provided 2026-10-27): code \"LEAKED10\" = \"EXTRA 10% OFF\", shown as \"TOTAL 70% OFF + FREE SHIPPING\". Note: 60% then an extra 10% compounds to 64%, unless the code adds 10 points; confirm before running."
+    "BLACK FRIDAY promo code (user-provided 2026-10-27): code \"LEAKED10\" = \"EXTRA 10% OFF\", shown as \"TOTAL 70% OFF + FREE SHIPPING\". Note: 60% then an extra 10% compounds to 64%, unless the code adds 10 points; confirm before running.",
+    "BLACK FRIDAY promo code (user 2026-10-29): \"LEAKED10\" = \"EXTRA 10% OFF\" on top of 60% OFF SITEWIDE. Show as '60% OFF SITEWIDE + EXTRA 10% OFF', not 'TOTAL 70%' (stacked it is ~64%)."
   ],
   "quality_bar": [
     "Match the quality of the brand's own top-performing ads (the benchmark image): polished commercial e-commerce production, crisp and bright, nothing that looks like generic AI stock art.",
@@ -643,6 +644,26 @@
     "approved_T45_02": {
       "file": "weeks/2026-W45-inspo-batch2/output/T45_02_split_heavier_feet_v1.png",
       "use_for": "OWN render (user asked for 'MADE FOR PLUS-SIZED' + a plus-size model 2026-10-29): plus-size split"
+    },
+    "whiteboard": {
+      "file": "reference/benchmarks/ref_whiteboard_before_after.jpg",
+      "use_for": "FORMAT ref (other brand): real whiteboard on a kitchen counter, hand-drawn marker before/after split with arrows and labels, marker headline + subline, real product in front of the board"
+    },
+    "sticky_bed": {
+      "file": "reference/benchmarks/ref_sticky_notes_bed.jpg",
+      "use_for": "FORMAT ref (other brand): lo-fi phone photo, shoe pair on rumpled white bed sheets, three yellow sticky notes with handwritten marker text stuck on the shoes"
+    },
+    "problems_solution": {
+      "file": "reference/benchmarks/ref_problems_solution.jpg",
+      "use_for": "FORMAT ref (other brand): split, left white 'PROBLEMS' with three black line icons + caps labels, right navy gradient 'SOLUTION' with a white script tag and the product large"
+    },
+    "paint_window": {
+      "file": "reference/benchmarks/ref_paint_window.png",
+      "use_for": "FORMAT ref (other brand): retro 90s paint-program window, wobbly mouse-drawn caps text, hand-drawn circle around a product photo with an arrow"
+    },
+    "approved_R48_06": {
+      "file": "weeks/2026-W48-bf-batch5/output/R48_06_leaked_code_70_v1.png",
+      "use_for": "OWN render (user asked for a 60% + extra 10% version 2026-10-29): leaked code"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
