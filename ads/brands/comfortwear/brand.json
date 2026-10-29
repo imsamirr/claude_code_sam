@@ -684,6 +684,22 @@
     "qa_three": {
       "file": "reference/benchmarks/ref_qa_three_shoes.png",
       "use_for": "FORMAT ref (other brand): white/pale pink, mauve headline, three question rows with small icons and arrow answers, three shoes (one worn on a foot) on the right, brand name bottom-left"
+    },
+    "icons_around": {
+      "file": "reference/benchmarks/ref_icons_around_product.png",
+      "use_for": "FORMAT ref (other brand): deep berry-to-pink gradient, big white two-line headline, italic offer line with sparkles, product center, three round white icons with labels on each side"
+    },
+    "fall_callouts": {
+      "file": "reference/benchmarks/ref_fall_callouts.png",
+      "use_for": "FORMAT ref (other brand): warm rust-orange gradient with autumn leaves, small 'FALL SALE', big white caps headline, product center with three callout lines, yellow offer lines, brand name bottom"
+    },
+    "ours_theirs": {
+      "file": "reference/benchmarks/ref_ours_theirs.png",
+      "use_for": "FORMAT ref (other brand): split navy 'OURS' vs cream 'THEIRS' with a wavy divider, product on each side, three comparison rows"
+    },
+    "wordart_poster": {
+      "file": "reference/benchmarks/ref_wordart_poster.png",
+      "use_for": "FORMAT ref (other brand): homemade printed-poster look, rainbow WordArt headline, navy Comic-style subline, product photo on a floral tablecloth, serif bottom line, clip-art accents and a yellow starburst"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
