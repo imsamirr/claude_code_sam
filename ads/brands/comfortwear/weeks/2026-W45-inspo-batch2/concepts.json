@@ -12,11 +12,12 @@
       "angle": "Playful quote: 'Great for my 12-hour shifts.' – literally every nurse on my floor; $90 struck to $59.95, pair in a ComfortWear box",
       "based_on": "User reference: Hike 'My knee pain was gone in a few days. – Literally everyone' box ad + Trustpilot 5-star 'Great for my 12 hour shifts' + script 'three other nurses on my floor ordered them'",
       "headline": "“Great for my 12-hour shifts.”",
-      "prompt": "Warm cream background. Top-left: a huge heavy red sans quote on three lines \"“Great for my\" / \"12-hour\" / \"shifts.”\" Under it, black text \"– Literally every nurse on my floor\". Lower-left: black \"$90\" with a thick black strike-through line, under it a huge heavy red \"$59.95\", then heavy red text on two lines \"Free shipping\" / \"& returns\". Right side: a tall open kraft cardboard shoe box standing upright with the ComfortWear logo from the attached logo image printed vertically on its front in black, and a pair of the red/burgundy shoes from the product reference sticking out of the top, large and sharp at true proportions. No other text. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "prompt": "Warm cream background. Top-left: a huge heavy red sans quote on three lines \"“Great for my\" / \"12-hour\" / \"shifts.”\" Under it, black text \"– Literally every nurse on my floor\". Lower-left: black \"$120\" with a thick black strike-through line, under it a huge heavy red \"$59.95\", then heavy red text on two lines \"Free shipping\" / \"& returns\". Right side: a tall open kraft cardboard shoe box standing upright with the ComfortWear logo from the attached logo image printed vertically on its front in black, and a pair of the red/burgundy shoes from the product reference sticking out of the top, large and sharp at true proportions. No other text. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
       "group": "persona_inspo",
       "lang": "en",
       "format_ref": true,
-      "tags": []
+      "tags": [],
+      "revision": "price v2 (user 2026-10-29): strike-through $90 -> $120"
     },
     {
       "id": "T45_02_split_heavier_feet",

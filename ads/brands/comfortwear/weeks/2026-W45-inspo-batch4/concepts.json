@@ -26,11 +26,12 @@
       "angle": "Europe trip: day 1 cobblestones, day 4 museums, day 9 still walking; love them or your money back; $59.95",
       "based_on": "User reference: kids insole 'WEEK 0 / 5 / 9' progress + price ad (medical progress swapped for trip days) + travel copy rules (cobblestones, museums, 20,000 steps)",
       "headline": "WALK EUROPE ALL DAY",
-      "prompt": "Dark charcoal background with a soft spotlight. Top center: huge heavy orange-red all-caps headline on two lines \"WALK EUROPE\" / \"ALL DAY\", then heavy white all-caps \"OR YOUR MONEY BACK\". Below, three rounded photo panels side by side, each a real close-up photo from the knees down of a woman about 60 walking in the navy shoes with bright blue accents from the product reference (shoes sharp and correct), with an orange-red caption bar in white heavy all-caps: (1) on old cobblestones in a sunny European street, \"DAY 1\"; (2) on a polished museum floor, \"DAY 4\"; (3) on a hillside village path with a sea view, \"DAY 9\". Lower left: white heavy all-caps \"SPECIAL DEAL\", then a huge heavy orange-red \"$59.95\" with a smaller white \"$90\" beside it with a strike-through line, then heavy white all-caps \"FREE SHIPPING & RETURNS\". Lower right: one navy shoe from the product reference, large and sharp at true proportions, angled toward the text. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "prompt": "Dark charcoal background with a soft spotlight. Top center: huge heavy orange-red all-caps headline on two lines \"WALK EUROPE\" / \"ALL DAY\", then heavy white all-caps \"OR YOUR MONEY BACK\". Below, three rounded photo panels side by side, each a real close-up photo from the knees down of a woman about 60 walking in the navy shoes with bright blue accents from the product reference (shoes sharp and correct), with an orange-red caption bar in white heavy all-caps: (1) on old cobblestones in a sunny European street, \"DAY 1\"; (2) on a polished museum floor, \"DAY 4\"; (3) on a hillside village path with a sea view, \"DAY 9\". Lower left: white heavy all-caps \"SPECIAL DEAL\", then a huge heavy orange-red \"$59.95\" with a smaller white \"$120\" beside it with a strike-through line, then heavy white all-caps \"FREE SHIPPING & RETURNS\". Lower right: one navy shoe from the product reference, large and sharp at true proportions, angled toward the text. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
       "group": "persona_inspo",
       "lang": "en",
       "format_ref": true,
-      "tags": []
+      "tags": [],
+      "revision": "price v2 (user 2026-10-29): strike-through $90 -> $120"
     },
     {
       "id": "V45_03_disney_callouts",
