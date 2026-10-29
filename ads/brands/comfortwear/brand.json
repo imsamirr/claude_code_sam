@@ -716,6 +716,26 @@
     "approved_U45_04": {
       "file": "weeks/2026-W45-inspo-batch3/output/U45_04_paint_please_nurse_v1.png",
       "use_for": "OWN render (user asked for 3 more versions 2026-10-29): retro Paint meme"
+    },
+    "three_stage": {
+      "file": "reference/benchmarks/ref_three_stage_body.png",
+      "use_for": "FORMAT ref (other brand): black headline bar + 'or your money back' line, three same-pose panels in a row with orange circles and month labels, product below"
+    },
+    "deserves_bar": {
+      "file": "reference/benchmarks/ref_deserves_offer_bar.png",
+      "use_for": "FORMAT ref (other brand): bright home lifestyle photo, outlined small caps label + huge navy two-line headline, red/navy split offer bar at the bottom"
+    },
+    "checklist_gradient": {
+      "file": "reference/benchmarks/ref_checklist_gradient.png",
+      "use_for": "FORMAT ref (other brand): peach-to-pink gradient, small kicker line, big serif headline with italic words, green-check list on the left, product large right, yellow offer pill bottom"
+    },
+    "will_not": {
+      "file": "reference/benchmarks/ref_will_not_reverse.png",
+      "use_for": "FORMAT ref (other brand): moody dark-blue bedroom photo, small kicker, big serif 'This will NOT...' headline, product center, round discount badge, reversal punchline below"
+    },
+    "thermal_three": {
+      "file": "reference/benchmarks/ref_thermal_three.png",
+      "use_for": "FORMAT ref (other brand): black background, white-box headline + white subline, three legs in a row with labels under each"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
