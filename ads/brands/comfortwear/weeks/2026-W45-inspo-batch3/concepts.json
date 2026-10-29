@@ -40,16 +40,18 @@
       "id": "U45_03_problems_solution",
       "persona": "comfort_only",
       "colorway": "navy_blue",
-      "benchmark": "problems_solution",
+      "benchmark": "approved_U45_03",
       "offer": "none",
       "angle": "Problems vs solution split: heel pain, swollen feet, crushed toes -> ComfortWear",
       "based_on": "User reference: papmd PROBLEMS / SOLUTION split + survey problems (heel pain 25%, swelling, toe room)",
       "headline": "PROBLEMS / SOLUTION",
-      "prompt": "Square-ish split layout. Left half: white background, heavy black all-caps title \"PROBLEMS\". Below it, three stacked items, each a simple black line-art icon with a heavy black all-caps label under it: (1) a foot with small red pain lines at the heel, \"HEEL PAIN BY NOON\"; (2) a puffy swollen foot and ankle, \"SWOLLEN FEET\"; (3) toes squeezed inside a narrow shoe outline, \"CRUSHED TOES\". Right half: deep navy-to-blue vertical gradient, heavy white all-caps title \"SOLUTION\", under it a white tilted paper tag with dark script text \"ComfortWear Ortho Stretch\". Below, a pair of the navy shoes with bright blue accents from the product reference, large and sharp at true proportions, angled slightly, soft shadow, overlapping a little into the white half. No price, no logo. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "prompt": "Square-ish split layout. Left half: white background, heavy black all-caps title \"PROBLEMS\". Below it, three stacked items, each a simple black line-art icon with a heavy black all-caps label under it: (1) a foot with small red pain lines at the heel, \"HEEL PAIN BY NOON\"; (2) a puffy swollen foot and ankle, \"SWOLLEN FEET\"; (3) toes squeezed inside a narrow shoe outline, \"CRUSHED TOES\". Right half: deep navy-to-blue vertical gradient, heavy white all-caps title \"SOLUTION\", under it a white tilted paper tag with dark script text \"ComfortWear Ortho Stretch\". Below, ONE single navy shoe with bright blue accents from the product reference (not a pair), large (about 85% of the right panel's width), sharp, true proportions, side three-quarter view facing left, soft shadow, slightly overlapping into the white half. No price, no logo. Compared with the second attached image: identical layout, icons, labels, titles and tag; only the pair becomes one single shoe. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
       "group": "persona_inspo",
       "lang": "en",
       "format_ref": true,
-      "tags": []
+      "tags": [],
+      "copy_of": "U45_03_problems_solution_v1",
+      "revision": "v2 (user 2026-10-29): one shoe instead of a pair"
     },
     {
       "id": "U45_04_paint_please_nurse",
@@ -65,6 +67,23 @@
       "lang": "en",
       "format_ref": true,
       "tags": []
+    },
+    {
+      "id": "U45_05_problems_solution_nurse",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "approved_U45_03",
+      "offer": "none",
+      "angle": "Nurse problems vs solution: heel pain by hour 6, swollen feet by hour 10, slipping on wet floors -> ComfortWear",
+      "based_on": "U45_03 layout + nurse winners (12-hour shifts, slip-resistant, hour-6 language)",
+      "headline": "PROBLEMS / SOLUTION (nurse)",
+      "prompt": "Square-ish split layout. Left half: white background, heavy black all-caps title \"PROBLEMS\". Below it, three stacked items, each a simple black line-art icon with a heavy black all-caps label under it: (1) a foot with small red pain lines at the heel, \"HEEL PAIN BY HOUR 6\"; (2) a puffy swollen foot and ankle, \"SWOLLEN FEET BY HOUR 10\"; (3) a shoe sliding on a wet floor with a small water splash, \"SLIPPING ON WET FLOORS\". Right half: deep plum-to-purple vertical gradient, heavy white all-caps title \"SOLUTION\", under it a white tilted paper tag with dark script text on two lines \"ComfortWear\" / \"For 12-Hour Shifts\". Below, ONE single black-and-purple shoe from the product reference (not a pair), large (about 85% of the right panel's width), sharp, true proportions, side three-quarter view facing left, soft shadow, slightly overlapping into the white half. No price, no logo. Compared with the second attached image: same layout, icon style, title type and tag style; the labels, tag text, right-panel color and shoe change as written here. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [],
+      "copy_of": "U45_03_problems_solution_v1",
+      "revision": "new (user 2026-10-29): nurse variation of U45_03, one shoe"
     }
   ]
 }
