@@ -54,13 +54,14 @@
       "benchmark": "street_callouts",
       "offer": "standard_40",
       "headline": "MADE FOR / PLUS-SIZE WOMEN",
-      "prompt": "A real street photo on a sunny sidewalk, cropped from the shins down: a plus-size woman about 60 with full calves and thick ankles in dark wide-leg jeans, wearing a pair of the all-black shoes from the product reference, large and sharp at true proportions, background softly blurred. Upper middle: a white rounded box with heavy red-magenta all-caps headline on two lines \"MADE FOR / PLUS-SIZE WOMEN\". Three small white rounded boxes with bold black text placed around the shoes: \"Wide, stable base\" (left), \"Room for feet that swell\" (right), \"Cushion that doesn't flatten\" (lower left). Lower right: a round magenta badge with small white \"TODAY\" and big white \"40% OFF\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere.",
+      "prompt": "A real street photo on a sunny sidewalk, cropped from the shins down: a clearly plus-size woman about 60, US size 22-24, cropped from mid-thigh down so her full figure shows: thick full thighs and wide full calves filling dark stretch jeans rolled at the ankle, thick soft ankles, standing with feet apart, wearing a pair of the all-black shoes from the product reference, large and sharp at true proportions, background softly blurred. Upper middle: a white rounded box with heavy red-magenta all-caps headline on two lines \"MADE FOR / PLUS-SIZE WOMEN\". Three small white rounded boxes with bold black text placed around the shoes: \"Wide, stable base\" (left), \"Room for feet that swell\" (right), \"Cushion that doesn't flatten\" (lower left). Lower right: a round magenta badge with small white \"TODAY\" and big white \"40% OFF\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere.",
       "group": "persona_inspo",
       "lang": "en",
       "format_ref": true,
       "tags": [],
       "angle": "MADE FOR / PLUS-SIZE WOMEN",
-      "based_on": "User refs 2026-10-30 (ComfoFeet neuropathy callouts, 'Diabetic men over 50+' title ad) + survey (neuropathy 10%, 85% are 50+), Trustpilot 5-star 'didn't worsen my diabetic nerve pain'"
+      "based_on": "User refs 2026-10-30 (ComfoFeet neuropathy callouts, 'Diabetic men over 50+' title ad) + survey (neuropathy 10%, 85% are 50+), Trustpilot 5-star 'didn't worsen my diabetic nerve pain'",
+      "revision": "v2: v1 legs/ankles looked slim"
     },
     {
       "id": "PL_02_title_plus",
