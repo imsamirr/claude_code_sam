@@ -137,6 +137,22 @@
       "angle": "LIMPING TO YOUR CAR? IT'S NOT THE JOB. IT'S THE SHOES.",
       "copy_of": "TF_05_handwritten_limping_v1",
       "revision": "new (user 2026-10-30): TF_05 in Black/Purple"
+    },
+    {
+      "id": "TF_10_be_gone_nurse",
+      "persona": "nurse",
+      "colorway": "red_burgundy",
+      "benchmark": "approved_TF_07",
+      "offer": "guarantee",
+      "headline": "STAND ALL 12 HOURS. CHART. CODE. REPEAT. TIRED FEET BE GONE.",
+      "prompt": "Warm cream background with a soft glow behind the shoe. Top: huge heavy maroon all-caps headline on three lines \"STAND ALL 12 HOURS.\" / \"CHART. CODE. REPEAT.\" / \"TIRED FEET BE GONE.\" Center: a pair of the red/burgundy shoes from the product reference, large and sharp at true proportions. Four round maroon icons with cream line drawings and bold maroon labels, each with a thin curved arrow to the shoes: upper-left arch icon \"Arch support\", upper-right toes icon \"Wide toe box\", lower-left tread icon \"Slip-resistant grip\", lower-right stretch icon \"Stretch knit\". Small maroon text above the bar \"ComfortWear Ortho Stretch · Made for 12-hour shifts\". Bottom: a full-width maroon rounded bar with cream text \"30-day money-back guarantee\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere. Compared with the second attached image: identical layout, colors, icons, labels and guarantee bar; only the headline and the small line above the bar change as written here.",
+      "group": "tof_aggressive",
+      "lang": "en",
+      "tags": [],
+      "based_on": "User refs 2026-10-30 (armadilo, aion, glowdrop, belt callouts, 4-shoe offer) + winners: Emily RN '4 12s in a row', 'slip-resistant is a necessity', '12-hour shift' headline winners ($858k), script 'no more limping to my car', Trustpilot 'Great for my 12 hour shifts', travel playbook (cobblestones, 20,000 steps, Disney)",
+      "angle": "STAND ALL SHIFT. WALK ALL TRIP. TIRED FEET BE GONE.",
+      "copy_of": "TF_07_be_gone_v1",
+      "revision": "new (user 2026-10-30): nurse version of TF_07"
     }
   ]
 }
