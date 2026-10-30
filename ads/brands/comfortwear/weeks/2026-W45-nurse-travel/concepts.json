@@ -224,10 +224,11 @@
       "headline": "Swollen feet after the flight?",
       "angle": "Long-haul flights and layovers: feet swell, security lines, slip-on",
       "based_on": "Proven comments_offer layout; travel winner 'Shoes made for long flights'; Trustpilot 5★ language",
-      "prompt": "Top 55%: a real photo of a woman about 60 sitting at an airport gate with a carry-on, legs crossed at the ankle, wearing the black-and-purple shoes from the product reference, sharp, true proportions, window with a plane behind. White bold text with shadow on the photo: \"Swollen feet after the flight?\" Bottom 45%: two stacked light-grey Facebook-style comment bubbles with small round profile photos: bold \"Carol M.\" \"Wore them through a 9-hour flight and a 3-hour layover. Slipped right off at security, slipped right back on.\" and bold \"Denise R.\" \"The knit stretches when my feet swell. First trip I didn't need to change shoes.\" Then a black rounded bar with white text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere.",
+      "prompt": "Top 55%: a real photo of a woman about 60 sitting at an airport gate with a carry-on, legs crossed at the ankle, wearing the black-and-purple shoes from the product reference, sharp, true proportions, window with a plane behind. White bold text with shadow on the photo: \"Swollen feet after the flight?\" Bottom 45%: two stacked light-grey Facebook-style comment bubbles with small round profile photos: bold \"Carol M.\" \"Wore them through a 9-hour flight and a 3-hour layover. Slipped right off at security, slipped right back on.\" and bold \"Denise R.\" \"The knit stretches when my feet swell. First trip I didn't need to change shoes.\" Then a black rounded bar with white text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere. The offer bar sits fully inside the frame with at least 6% empty margin below it; shrink the photo and comments if needed so nothing is cut off at the bottom.",
       "group": "net_new",
       "lang": "en",
-      "tags": []
+      "tags": [],
+      "revision": "v2: v1 offer bar was cut off at the bottom edge"
     },
     {
       "id": "TV_05_favorite_travel_strike",
