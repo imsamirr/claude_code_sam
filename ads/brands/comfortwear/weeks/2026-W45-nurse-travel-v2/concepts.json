@@ -10,12 +10,13 @@
       "format_source": "Stepprs '12 years of nerve pain gone instantly' written on the sole (top 2.0%, 407 days)",
       "headline": "12 YEARS OF 12s. FINALLY COMFORTABLE.",
       "angle": "Nurse with years of 12-hour shifts: message written on the sole of her foot",
-      "prompt": "A real, warm close-up photo in a living room: a woman's bare foot raised toward the camera showing the sole, with thick black marker handwriting written directly on the sole in four lines: \"12 YEARS\" / \"OF 12s.\" / \"FINALLY\" / \"COMFORTABLE.\" Next to the foot, a pair of the black-and-purple shoes from the product reference resting on a soft rug, large, sharp, true proportions. Navy scrub pants visible at the ankle. Natural window light, realistic skin texture. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere.",
+      "prompt": "A real, warm close-up photo in a living room: a woman's bare foot raised toward the camera showing the sole, with thick black marker handwriting written directly on the sole in four lines: \"12 YEARS\" / \"OF 12s.\" / \"FINALLY\" / \"COMFORTABLE.\" Next to the foot, a pair of the black-and-purple shoes from the product reference resting on a soft rug, large, sharp, true proportions. Navy scrub pants visible at the ankle. Natural window light, realistic skin texture. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere. The ONLY words in the whole image are the handwriting on the sole: no typed headline, no title, no other text.",
       "offer": "none",
       "group": "net_new",
       "lang": "en",
       "tags": [],
-      "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language"
+      "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language",
+      "revision": "v2: v1 added a typed headline repeating the handwriting"
     },
     {
       "id": "NV_02_sticky_notes_hospital",
@@ -161,12 +162,13 @@
       "format_source": "Stepprs warning tape + crossed list (top 13.5%)",
       "headline": "WARNING: DON'T WALK EUROPE IN THESE",
       "angle": "Warning tape: what travelers pack that ruins day 3",
-      "prompt": "Black background. Top: a yellow-and-black hazard-tape banner with heavy black all-caps \"WARNING\", under it bold black text on yellow \"DON'T WALK EUROPE IN THESE:\". Left: four items in bold white text, each crossed out with a thick red strike line: \"Flat sneakers\", \"Running shoes\", \"Sandals\", \"Brand-new shoes\". Right: one navy shoe with bright blue accents from the product reference, large, sharp, true proportions, angled. Lower right: a red starburst with white heavy text \"20,000 STEPS\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere.",
+      "prompt": "Black background. Top: a yellow-and-black hazard-tape banner with heavy black all-caps \"WARNING\", under it bold black text on yellow \"DON'T WALK EUROPE IN THESE:\". Left: four items in bold white text, each crossed out with a thick red strike line: \"Flat sneakers\", \"Running shoes\", \"Sandals\", \"New shoes\". Right: one navy shoe with bright blue accents from the product reference, large, sharp, true proportions, angled. Lower right: a red starburst with white heavy text \"20,000 STEPS\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere. Each crossed-out item is ONE short line with the strike line through the whole item.",
       "offer": "none",
       "group": "net_new",
       "lang": "en",
       "tags": [],
-      "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language"
+      "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language",
+      "revision": "v2: v1 'Brand-new shoes' wrapped and only half was struck through"
     },
     {
       "id": "TV2_04_sole_steps",
@@ -176,12 +178,13 @@
       "format_source": "Stepprs text written on the sole (top 2.0%, 407 days)",
       "headline": "20,000 STEPS. ZERO BENCH BREAKS.",
       "angle": "Traveler's bare sole with the day's result written on it, hotel balcony",
-      "prompt": "A real warm close-up photo on a hotel balcony at sunset with a sea view softly blurred: a woman's bare foot raised toward the camera showing the sole, with thick black marker handwriting on the sole in four lines: \"20,000\" / \"STEPS.\" / \"ZERO BENCH\" / \"BREAKS.\" Next to the foot on the tiled floor, a pair of the black-and-purple shoes from the product reference, large, sharp, true proportions. Realistic skin texture. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere.",
+      "prompt": "A real warm close-up photo on a hotel balcony at sunset with a sea view softly blurred: a woman's bare foot raised toward the camera showing the sole, with thick black marker handwriting on the sole in four lines: \"20,000\" / \"STEPS.\" / \"ZERO BENCH\" / \"BREAKS.\" Next to the foot on the tiled floor, a pair of the black-and-purple shoes from the product reference, large, sharp, true proportions. Realistic skin texture. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere. The ONLY words in the whole image are the handwriting on the sole: no typed headline, no title, no other text.",
       "offer": "none",
       "group": "net_new",
       "lang": "en",
       "tags": [],
-      "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language"
+      "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language",
+      "revision": "v2: v1 added a typed headline repeating the handwriting"
     }
   ]
 }
