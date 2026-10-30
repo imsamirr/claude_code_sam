@@ -46,6 +46,54 @@
       "tags": [],
       "angle": "20,000 steps at Disney. Zero regrets.",
       "based_on": "User refs 2026-10-30: Clove 'FSA/HSA eligible', Truemed x-ray 'Bunions? Your HSA/FSA covers it', Truemed '20,000 steps at Disney. Zero regrets.'; approved claim HSA/FSA eligible"
+    },
+    {
+      "id": "HD_04_disney_zero_regrets_black_purple",
+      "persona": "traveler",
+      "colorway": "black_purple",
+      "benchmark": "approved_HD_03",
+      "offer": "none",
+      "headline": "20,000 steps at Disney. Zero regrets.",
+      "prompt": "Background: soft white puffy quilted cushion, like a giant pillow, filling the frame, soft studio light. Upper third: dark charcoal two-line headline, bold on the key words: bold \"20,000 steps\" + regular \" at Disney.\" / bold \"Zero\" + regular \" regrets.\" Center: a pair of the black-and-purple shoes from the product reference resting on the cushion, slightly angled, large and sharp at true proportions, soft shadow. No button, no logo. All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere. Compared with the second attached image: identical cushion background, headline and layout; only the shoe color changes.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": [],
+      "angle": "20,000 steps at Disney. Zero regrets.",
+      "based_on": "User refs 2026-10-30: Clove 'FSA/HSA eligible', Truemed x-ray 'Bunions? Your HSA/FSA covers it', Truemed '20,000 steps at Disney. Zero regrets.'; approved claim HSA/FSA eligible",
+      "copy_of": "HD_03_disney_zero_regrets_v1",
+      "revision": "new (user 2026-10-30): HD_03 in black_purple"
+    },
+    {
+      "id": "HD_05_disney_zero_regrets_red_burgundy",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "benchmark": "approved_HD_03",
+      "offer": "none",
+      "headline": "20,000 steps at Disney. Zero regrets.",
+      "prompt": "Background: soft white puffy quilted cushion, like a giant pillow, filling the frame, soft studio light. Upper third: dark charcoal two-line headline, bold on the key words: bold \"20,000 steps\" + regular \" at Disney.\" / bold \"Zero\" + regular \" regrets.\" Center: a pair of the red/burgundy shoes from the product reference resting on the cushion, slightly angled, large and sharp at true proportions, soft shadow. No button, no logo. All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere. Compared with the second attached image: identical cushion background, headline and layout; only the shoe color changes.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": [],
+      "angle": "20,000 steps at Disney. Zero regrets.",
+      "based_on": "User refs 2026-10-30: Clove 'FSA/HSA eligible', Truemed x-ray 'Bunions? Your HSA/FSA covers it', Truemed '20,000 steps at Disney. Zero regrets.'; approved claim HSA/FSA eligible",
+      "copy_of": "HD_03_disney_zero_regrets_v1",
+      "revision": "new (user 2026-10-30): HD_03 in red_burgundy"
+    },
+    {
+      "id": "HD_06_disney_zero_regrets_black_white",
+      "persona": "traveler",
+      "colorway": "black_white",
+      "benchmark": "approved_HD_03",
+      "offer": "none",
+      "headline": "20,000 steps at Disney. Zero regrets.",
+      "prompt": "Background: soft white puffy quilted cushion, like a giant pillow, filling the frame, soft studio light. Upper third: dark charcoal two-line headline, bold on the key words: bold \"20,000 steps\" + regular \" at Disney.\" / bold \"Zero\" + regular \" regrets.\" Center: a pair of the black-and-white shoes from the product reference resting on the cushion, slightly angled, large and sharp at true proportions, soft shadow. No button, no logo. All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere. Compared with the second attached image: identical cushion background, headline and layout; only the shoe color changes.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": [],
+      "angle": "20,000 steps at Disney. Zero regrets.",
+      "based_on": "User refs 2026-10-30: Clove 'FSA/HSA eligible', Truemed x-ray 'Bunions? Your HSA/FSA covers it', Truemed '20,000 steps at Disney. Zero regrets.'; approved claim HSA/FSA eligible",
+      "copy_of": "HD_03_disney_zero_regrets_v1",
+      "revision": "new (user 2026-10-30): HD_03 in black_white"
     }
   ]
 }
