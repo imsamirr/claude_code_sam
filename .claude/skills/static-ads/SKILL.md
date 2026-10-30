@@ -204,9 +204,8 @@ They are our biggest competitors and write very direct-response copy. Each run:
 `generate.py --provider auto` (default): Kie.ai (`KIE_API_KEY` or `KIE_AI`), same gpt-image-2 model, 2K, ~$0.05/ad;
 falls back to OpenAI at high quality (~$0.22/ad) when the key is missing, and says which it used. Kie has
 no 4:5, so it renders 3:4 and crops to 4:5 (the prompt keeps text and product off the top/bottom 5%).
-Quality is checked exactly as before (QA list in §4). On the first Kie batch, compare each ad with an
-OpenAI render of the same concept and switch back with `--provider openai` if Kie is visibly worse
-(shoe fidelity, text sharpness). Never drop to medium quality to save money: use Kie instead.
+Quality is checked exactly as before (QA list in §4). Tested 2026-10-30 (HD_02 text-heavy x-ray, HD_04 product hero): text sharpness and shoe fidelity matched OpenAI
+high, so Kie is the default. If one Kie render fails QA, re-render that one with `--provider openai`. Never drop to medium quality to save money: use Kie instead.
 
 - Read `brand.json`, `research/analysis.md` and `feedback.json` (approved/rejected and why).
 - **Iteration runs**: `atria_pull.py current` (last `iterate_when.days` days, spend ≥ `min_spend`,
@@ -414,3 +413,59 @@ skill's QA list; 5) commit/push, Drive subfolder + "<folder> concepts" sheet; 6)
 of the summary; 7) short summary with counts, sources, re-renders, cost, Atria status, links.
 If this run's extra instructions say TEST RUN, do only what they say and nothing else.
 ```
+
+
+## 7. Live requests from reference images (user, 2026-10-27 to 10-30)
+
+Most live work is: the user pastes 1-5 ads from other brands ("make these for our shoes", "nurse version",
+"60% off version", "make it in red and White Blue"). Workflow and lessons:
+
+**Setting up**
+- Save each reference to `reference/benchmarks/<prefix>_ref_<slug>.<ext>`, register it in `brand.json` →
+  `benchmarks` with a `use_for` description, and set `"format_ref": true` on the concept. generate.py then
+  attaches it as a LAYOUT reference and forbids copying any of its words or adding unrequested headlines.
+- If an image only came through in chat (not saved as a file), describe the layout in the prompt instead.
+- Words come from §1b (our winners, briefs, scripts, reviews) and §1c (Hike/Stepprs patterns), never from the
+  reference. State what you changed from the reference and why (claims, prices, codes, counts, logos).
+- One folder per request batch: `weeks/<YYYY>-W<ww>-<tag>` with a short id prefix (e.g. `O48_`, `TF_`, `HD_`).
+- Black Friday letter/notice formats: `"style": "letter"` (plain typed note, big body text, bold key phrases).
+- Brand logo on an object (travel bag, shoe box): `"logo": true` (attaches `reference/logo_comfortwear.png`).
+
+**Variants of an approved render** ("same but red", "60% version", "nurse version", "pastel background")
+- Register the approved PNG as `benchmarks.approved_<ID>` and create a new concept with
+  `"benchmark": "approved_<ID>", "copy_of": "<ID>_vN"`; end the prompt with "Compared with the second attached
+  image: identical …; only X changes." generate.py then copies that render exactly except the change.
+- A fix of the same concept bumps the version (`_v2`, `_v3`); a new color/offer/persona is a new id.
+- When the shoe color changes, adapt accent colors to match the shoe unless the user says otherwise; offer it.
+- Drop the approved-render benchmark when it is the cause of the problem (it pulled bodies slim and shoes long).
+
+**QA lessons from these rounds (check every image for these)**
+- The model copies the reference's own words or repeats our headline (top + bottom, typed text over handwriting,
+  a question both as headline and in the card). Re-render with "the ONLY text is …".
+- Curved/ring text and long wobbly words garble (BLACCK, WALKINIG, BLACLE): use straight text in badges and add
+  "spell X exactly".
+- Top-down shoes come out elongated: use a three-quarter view.
+- "Worn-out / before" shoes come out as OUR shoe or with brand-like stripes/swooshes: say "plain generic unbranded
+  lace-up sneaker, NOT a sock-knit shoe, no stripes or logo shapes".
+- Plus-size models come out slim unless the body is described explicitly (US size 22-24, full thighs/calves/hips,
+  belly, crop that shows the figure).
+- Pairs drift to the frame edge or overlap: give width % and margin ("each ~35% of width, 6% margin").
+- Small inset photos often show a wrong shoe; the hero shoe must be checked separately from insets.
+- Theme-park scenes may add a castle: say "no castles, characters or park logos" every time.
+
+**Compliance defaults (flag, don't silently drop)**
+- Competitors: names in text only, no logos; compare design features, never unverifiable claims ("collapses after
+  2 months"); no made-up scores or customer counts.
+- Prices/discounts must add up: flag "$120 → $59.95" next to "40% OFF" (that is ~50%), and stacked codes
+  (60% + 10% = ~64%, not 70%). Strike-through price is $120 (user, 2026-10-29), never $90.
+- Native FB/Reddit/X posts with invented names: flag that real quotes (with permission) are safest.
+- Medical framing: no cure/relief/prevents-falls claims; condition words only in a customer quote; "sensitive feet"
+  not "your neuropathy" (Meta personal-attributes policy).
+- Source labels: "ComfortWear Comfort Guide", never a fake news or review site; HSA/FSA: "eligibility may vary".
+
+**Delivering**
+- Send every checked image with SendUserFile (`display: render`) as soon as it lands, with a table of what it says
+  and what changed; hold back and re-render failures instead of sending them.
+- When asked for "everything revised", copy the final version of each requested fix/variant into
+  `revised_<date>/` (numbered, plain-English names + README index), zip it and send the zip (images stay
+  gitignored there; the week folders keep the originals).
