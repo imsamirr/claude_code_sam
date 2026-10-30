@@ -52,16 +52,17 @@
       "id": "V45_04_notes_wish_knew_nurse",
       "persona": "nurse",
       "colorway": "black_purple",
-      "benchmark": "notes_app",
+      "benchmark": "approved_V45_04",
       "offer": "standard_40",
       "angle": "Notes-app list: things I wish I already knew about ComfortWear (nurse)",
       "based_on": "User reference: Antinol 'Things I wish I already knew' notes-app ad + Emily RN winner testimonial language + approved claims (HSA/FSA, 30-day guarantee)",
       "headline": "Things I wish I already knew about ComfortWear",
-      "prompt": "Background: a softly blurred real photo of a hospital hallway with a nurse in navy scrubs walking away. In front, a large white rounded phone notes-app card (generic notes app, no real app logos) with a small yellow \"< All Notes\" at the top-left and share/more icons at the top-right. Bold black title on two lines \"Things I wish I already\" / \"knew about ComfortWear\". Then a list, each line with a yellow check-circle icon and black text: \"Made for 3 12s in a row\" / \"Slip-resistant on wet floors\" / \"Wide toe box for feet that swell\" / \"Arch support that doesn't go flat\" / \"HSA/FSA eligible\" / \"30 days to try, or your money back\". Bottom of the card: a pair of the black-and-purple shoes from the product reference, large and sharp at true proportions. Overlapping the card's lower-right edge, a round red badge with white \"TODAY\" and big white \"40% OFF\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "prompt": "Background: a softly blurred real photo of a hospital hallway with a nurse in navy scrubs walking away. In front, a large white rounded phone notes-app card (generic notes app, no real app logos) with a small yellow \"< All Notes\" at the top-left and share/more icons at the top-right. Bold black title on THREE lines \"Things I wish\" / \"I already knew about\" / \"ComfortWear\", sized so every line sits fully INSIDE the white card with a clear margin (at least 5% of the card width) on both sides; no letter may touch or cross the card edge. Then a list, each line with a yellow check-circle icon and black text: \"Made for 3 12s in a row\" / \"Slip-resistant on wet floors\" / \"Wide toe box for feet that swell\" / \"Arch support that doesn't go flat\" / \"HSA/FSA eligible\" / \"30 days to try, or your money back\". Bottom of the card: a pair of the black-and-purple shoes from the product reference, large and sharp at true proportions. Overlapping the card's lower-right edge, a round red badge with white \"TODAY\" and big white \"40% OFF\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. Compared with the second attached image: identical card, list, shoe, badge and background; only the title is re-set on three lines so it fits completely inside the card.",
       "group": "persona_inspo",
       "lang": "en",
-      "format_ref": true,
-      "tags": []
+      "tags": [],
+      "copy_of": "V45_04_notes_wish_knew_nurse_v1",
+      "revision": "v2 (user 2026-10-30): title spilled past the card edge; now 3 lines inside the card"
     },
     {
       "id": "V45_05_qa_europe_travel",
