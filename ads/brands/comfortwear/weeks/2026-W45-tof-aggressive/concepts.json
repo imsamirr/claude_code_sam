@@ -153,6 +153,38 @@
       "angle": "STAND ALL SHIFT. WALK ALL TRIP. TIRED FEET BE GONE.",
       "copy_of": "TF_07_be_gone_v1",
       "revision": "new (user 2026-10-30): nurse version of TF_07"
+    },
+    {
+      "id": "TF_11_four_colors_nurse",
+      "persona": "nurse",
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+      "benchmark": "approved_TF_08",
+      "offer": "standard_40",
+      "headline": "12-HOUR SHIFT SHOES: 40% OFF EVERY COLOR",
+      "prompt": "Clean white background. Four single shoes of the same model from the attached product reference, sharp, true proportions, soft reflections: top-left black-and-purple, top-right navy with bright blue accents, bottom-left red/burgundy, bottom-right all black. Middle, between the rows: heavy black condensed all-caps on two lines \"12-HOUR SHIFT SHOES:\" / \"40% OFF EVERY COLOR\", then a pink rounded pill with heavy white all-caps \"FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere. Compared with the second attached image: identical layout, shoes and pill; only the two headline lines change as written here.",
+      "group": "tof_aggressive",
+      "lang": "en",
+      "tags": [],
+      "based_on": "Winning nurse statics lead with the shift: '12-HOUR SHIFT SHOES' ($858k), 'Shoes for 12-hour shifts. Made for nurses' ($457k)",
+      "angle": "NURSES & TRAVELERS: 40% OFF EVERY BEST-SELLER",
+      "copy_of": "TF_08_four_colors_offer_v1",
+      "revision": "new (user 2026-10-30): persona version of TF_08"
+    },
+    {
+      "id": "TF_12_four_colors_travel",
+      "persona": "traveler",
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+      "benchmark": "approved_TF_08",
+      "offer": "standard_40",
+      "headline": "20,000-STEP TRAVEL SHOES: 40% OFF EVERY COLOR",
+      "prompt": "Clean white background. Four single shoes of the same model from the attached product reference, sharp, true proportions, soft reflections: top-left black-and-purple, top-right navy with bright blue accents, bottom-left red/burgundy, bottom-right all black. Middle, between the rows: heavy black condensed all-caps on two lines \"20,000-STEP TRAVEL SHOES:\" / \"40% OFF EVERY COLOR\", then a pink rounded pill with heavy white all-caps \"FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere. Compared with the second attached image: identical layout, shoes and pill; only the two headline lines change as written here.",
+      "group": "tof_aggressive",
+      "lang": "en",
+      "tags": [],
+      "based_on": "Travel playbook + winning travel scripts: steps-per-day, Disney/Europe days; number-led headline like the nurse winners",
+      "angle": "NURSES & TRAVELERS: 40% OFF EVERY BEST-SELLER",
+      "copy_of": "TF_08_four_colors_offer_v1",
+      "revision": "new (user 2026-10-30): persona version of TF_08"
     }
   ]
 }
