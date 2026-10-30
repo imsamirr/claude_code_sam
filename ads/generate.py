@@ -11,6 +11,8 @@ Layout:
     ads/brands/<brand>/weeks/<week>/concepts.json   a weekly batch
     ...and output/ next to whichever concepts.json was used.
 
+Provider: --provider kie runs the same gpt-image-2 through kie.ai (KIE_API_KEY), about $0.05 per ad at 2K.
+
 Usage:
     python ads/generate.py --brand comfortwear --week 2026-W41          # whole weekly batch
     python ads/generate.py --brand comfortwear --week 2026-W41 W41_03   # one concept
@@ -26,6 +28,8 @@ import json
 import os
 import re
 from pathlib import Path
+
+import time
 
 import requests
 from dotenv import load_dotenv
@@ -261,7 +265,64 @@ def log_usage(args, kind, quality, usage):
         f.write(json.dumps({"kind": kind, "quality": quality, "cost_usd": round(cost, 4), **usage}) + "\n")
 
 
+KIE_API = "https://api.kie.ai/api/v1/jobs"
+KIE_UPLOAD = "https://kieai.redpandaai.co/api/file-base64-upload"
+KIE_PRICE = {"1K": 0.03, "2K": 0.05, "4K": 0.08}   # gpt-image-2 on kie.ai, USD per image (kie.ai/gpt-image-2)
+
+
+def kie_ratio(size):
+    """Closest aspect ratio kie's gpt-image-2 offers (no 4:5): 3:4 for the feed, 9:16 for the tall size."""
+    return "9:16" if size[1] / size[0] > 1.5 else "3:4"
+
+
+def call_kie(prompt, images, args, size, kind):
+    """Same gpt-image-2 model via kie.ai (about $0.05 per 2K image vs about $0.21 direct). Inputs are uploaded
+    as temporary files (kie deletes them after 24h), the 3:4 result is center-cropped to 4:5 by fit()."""
+    key = os.getenv("KIE_API_KEY")
+    if not key:
+        raise RuntimeError("KIE_API_KEY is not set (add it to the cloud environment's secrets)")
+    auth = {"Authorization": f"Bearer {key}"}
+    urls = []
+    for name, blob in images:
+        r = requests.post(KIE_UPLOAD, headers=auth, timeout=120, json={
+            "base64Data": "data:image/png;base64," + base64.b64encode(blob).decode(),
+            "uploadPath": "comfortwear-ads", "fileName": f"{int(time.time() * 1000)}_{name}"})
+        body = r.json()
+        if body.get("code") != 200:
+            raise RuntimeError(f"kie upload failed: {str(body)[:300]}")
+        urls.append(body["data"]["downloadUrl"])
+    if kie_ratio(size) == "3:4":
+        prompt += ("\n\nThe image is 3:4 and will be cropped to 4:5: keep every word and the product inside the "
+                   "middle 90% of the height, with only background in the top and bottom 5%.")
+    r = requests.post(f"{KIE_API}/createTask", headers=auth, timeout=60, json={
+        "model": "gpt-image-2-image-to-image",
+        "input": {"prompt": prompt, "input_urls": urls, "aspect_ratio": kie_ratio(size),
+                  "resolution": args.kie_resolution}})
+    body = r.json()
+    if body.get("code") != 200:
+        raise RuntimeError(f"kie createTask failed: {str(body)[:300]}")
+    task = body["data"]["taskId"]
+    for _ in range(180):  # up to 15 minutes
+        time.sleep(5)
+        data = requests.get(f"{KIE_API}/recordInfo", headers=auth, params={"taskId": task}, timeout=60).json().get("data") or {}
+        state = data.get("state")
+        if state == "success":
+            result = json.loads(data["resultJson"]) if isinstance(data.get("resultJson"), str) else data.get("resultJson", {})
+            img = requests.get(result["resultUrls"][0], timeout=120).content
+            with open(args.usage_log, "a") as f:
+                f.write(json.dumps({"kind": kind, "quality": f"kie-{args.kie_resolution}",
+                                    "cost_usd": KIE_PRICE[args.kie_resolution], "task_id": task}) + "\n")
+            return fit(Image.open(io.BytesIO(img)).convert("RGB"), size)
+        if state == "fail":
+            raise RuntimeError(f"kie task failed: {data.get('failMsg') or data.get('failCode')}")
+    raise RuntimeError(f"kie task {task} timed out")
+
+
 def call_api(prompt, images, args, api_key, size=CONTENT, mask=None, kind="static", quality=None):
+    if args.provider == "kie":
+        if mask:
+            raise RuntimeError("--provider kie has no mask support: use --layout feed or native")
+        return call_kie(prompt, images, args, size, kind)
     files = [("image[]", (name, blob, "image/png")) for name, blob in images]
     if mask:
         files.append(("mask", ("mask.png", mask, "image/png")))
@@ -493,6 +554,9 @@ def main():
     p.add_argument("--gif-quality", default="medium", help="GIF frames (shown at 544x960, 200 colors)")
     p.add_argument("--model", default=os.getenv("OPENAI_IMAGE_MODEL", "gpt-image-2"))
     p.add_argument("--extra", default="", help="extra instruction appended to every prompt")
+    p.add_argument("--provider", choices=["openai", "kie"], default=os.getenv("ADS_PROVIDER", "openai"),
+                   help="openai (direct, ~$0.21/ad at high) or kie (same gpt-image-2 via kie.ai, ~$0.05/ad at 2K; needs KIE_API_KEY)")
+    p.add_argument("--kie-resolution", choices=["1K", "2K", "4K"], default="2K")
     args = p.parse_args()
     args.feed_quality = args.feed_quality or args.quality
 

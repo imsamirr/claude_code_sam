@@ -1,0 +1,51 @@
+{
+  "week": "2026-W45-hsa-disney",
+  "notes": "HSA/FSA + Disney statics (user 2026-10-30). Dropped: American Podiatric Medical Association seal (not ours), 'easy to clean', SHOP NOW button. 'Your HSA/FSA covers it' softened to 'Pay with your HSA/FSA' plus a small eligibility-may-vary line.",
+  "concepts": [
+    {
+      "id": "HD_01_fsa_hsa_nurse",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "fsa_lifestyle",
+      "offer": "hsa",
+      "headline": "FSA/HSA ELIGIBLE.",
+      "prompt": "A real low-angle photo on a hospital parking-garage floor in late-afternoon sun with long shadows of railings: a nurse's legs mid-stride in heather-grey scrub joggers, cropped at the knee, wearing the black-and-purple shoes from the product reference, very large and sharp at true proportions, one heel lifted. Lower left: small white text \"ComfortWear\", then huge heavy white all-caps on two lines \"FSA/HSA\" / \"ELIGIBLE.\", then a white rounded pill with dark text \"Pay with pre-tax dollars\". No seals, no association logos. All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [],
+      "angle": "FSA/HSA ELIGIBLE.",
+      "based_on": "User refs 2026-10-30: Clove 'FSA/HSA eligible', Truemed x-ray 'Bunions? Your HSA/FSA covers it', Truemed '20,000 steps at Disney. Zero regrets.'; approved claim HSA/FSA eligible"
+    },
+    {
+      "id": "HD_02_xray_bunions_hsa",
+      "persona": "comfort_only",
+      "colorway": "black_white",
+      "benchmark": "xray_hsa",
+      "offer": "hsa",
+      "headline": "Bunions? Pay for them with your HSA/FSA.",
+      "prompt": "Upper 60%: light grey background with a thin white square grid. Centered, a top-down translucent grey outline of a shoe with a wide, rounded toe box, and inside it a realistic black-and-white x-ray of foot bones, the big toe joint angled outward like a bunion, with room to spare around the toes. Four white dashed curved arrows around the outline pointing outward to show the extra room. Lower 40%: white panel. Left: dark text \"Bunions?\" then heavy black two-line \"Pay with your\" / \"HSA/FSA.\" Right, overlapping the panel edge: one black-and-white shoe from the product reference in side view, large and sharp at true proportions. Bottom center tiny grey text \"HSA/FSA eligibility may vary by plan.\" All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [],
+      "angle": "Bunions? Pay for them with your HSA/FSA.",
+      "based_on": "User refs 2026-10-30: Clove 'FSA/HSA eligible', Truemed x-ray 'Bunions? Your HSA/FSA covers it', Truemed '20,000 steps at Disney. Zero regrets.'; approved claim HSA/FSA eligible"
+    },
+    {
+      "id": "HD_03_disney_zero_regrets",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "benchmark": "disney_cushion",
+      "offer": "none",
+      "headline": "20,000 steps at Disney. Zero regrets.",
+      "prompt": "Background: soft white puffy quilted cushion, like a giant pillow, filling the frame, soft studio light. Upper third: dark charcoal two-line headline, bold on the key words: bold \"20,000 steps\" + regular \" at Disney.\" / bold \"Zero\" + regular \" regrets.\" Center: a pair of the navy shoes with bright blue accents from the product reference resting on the cushion, slightly angled, large and sharp at true proportions, soft shadow. No button, no logo. All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [],
+      "angle": "20,000 steps at Disney. Zero regrets.",
+      "based_on": "User refs 2026-10-30: Clove 'FSA/HSA eligible', Truemed x-ray 'Bunions? Your HSA/FSA covers it', Truemed '20,000 steps at Disney. Zero regrets.'; approved claim HSA/FSA eligible"
+    }
+  ]
+}

@@ -852,6 +852,18 @@
     "approved_TF2_08": {
       "file": "weeks/2026-W45-tof-aggressive-2/output/TF2_08_strike_nurse_v1.png",
       "use_for": "OWN render (user asked for an x-ray plantar fasciitis inset 2026-10-30): strike list nurse"
+    },
+    "fsa_lifestyle": {
+      "file": "reference/benchmarks/ref_fsa_lifestyle_9x16.png",
+      "use_for": "FORMAT ref: low-angle street photo of legs mid-stride in joggers, shoes large, shadows of blinds; small brand wordmark, huge white caps 'FSA/HSA ELIGIBLE.', white pill line"
+    },
+    "xray_hsa": {
+      "file": "reference/benchmarks/ref_xray_bunions_hsa.png",
+      "use_for": "FORMAT ref: grey grid background, x-ray of foot bones inside a translucent top-down shoe outline with dashed arrows, white lower panel with two-line question + bold answer, shoe side view bottom-right, tiny disclaimer"
+    },
+    "disney_cushion": {
+      "file": "reference/benchmarks/ref_disney_zero_regrets_9x16.jpg",
+      "use_for": "FORMAT ref: soft white puffy quilted cushion background, two-line dark headline with bold words, pair of shoes resting on the cushion"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
