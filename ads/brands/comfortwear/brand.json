@@ -848,6 +848,10 @@
     "approved_TF_10": {
       "file": "weeks/2026-W45-tof-aggressive/output/TF_10_be_gone_nurse_v1.png",
       "use_for": "OWN render (user asked for White Blue and Black/Purple 2026-10-30): be gone nurse"
+    },
+    "approved_TF2_08": {
+      "file": "weeks/2026-W45-tof-aggressive-2/output/TF2_08_strike_nurse_v1.png",
+      "use_for": "OWN render (user asked for an x-ray plantar fasciitis inset 2026-10-30): strike list nurse"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",

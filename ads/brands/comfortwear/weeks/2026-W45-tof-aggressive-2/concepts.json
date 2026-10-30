@@ -148,6 +148,22 @@
       "tags": [],
       "angle": "Built for 20,000-step days",
       "based_on": "User refs 2026-10-30 (pick your level, FB group post, Reddit thread, X post, strike list) + Emily RN winner ('4 12s in a row', 'slip-resistant is a necessity', 'bought a second pair'), scripts ('limping to my car'), Trustpilot, travel playbook"
+    },
+    {
+      "id": "TF2_10_strike_nurse_xray",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "approved_TF2_08",
+      "offer": "standard_40",
+      "headline": "Built for 12-hour shifts",
+      "prompt": "Clean white background. Top: a thin black full-width bar with white bold all-caps \"⚠ 40% OFF TODAY ONLY ⚠\". Below, a huge heavy black headline on one or two lines \"Built for 12-hour shifts\". Then four left-aligned rows, each: grey struck-through \"Too Tight\" then bold royal-blue \"Wide Toe Box\" / grey struck-through \"Flat by Hour 6\" then bold royal-blue \"Cushioned Rocker Sole\" / grey struck-through \"Slippery Floors\" then bold royal-blue \"Slip-Resistant Grip\" / grey struck-through \"Laces to Retie\" then bold royal-blue \"No-Tie Bungee Laces\". Bottom-left: one black-and-purple shoe from the product reference in side view, large (about 60% of the width), sharp, true proportions. Right, overlapping slightly: a round white inset with a thin grey border showing an x-ray style image of a human foot in side view on a dark blue-black background: glowing pale-blue translucent foot outline with the bones clearly visible, and a bright red-orange glowing band along the bottom of the foot from the heel bone to the toes (the plantar fascia), with an intense red glow at the heel where it attaches, like a medical scan showing heel pain; no text inside the inset. All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere. Compared with the second attached image: identical bar, headline, four rows and shoe; only the round inset changes to the x-ray foot described here.",
+      "group": "tof_aggressive",
+      "lang": "en",
+      "tags": [],
+      "angle": "Built for 12-hour shifts",
+      "based_on": "User refs 2026-10-30 (pick your level, FB group post, Reddit thread, X post, strike list) + Emily RN winner ('4 12s in a row', 'slip-resistant is a necessity', 'bought a second pair'), scripts ('limping to my car'), Trustpilot, travel playbook",
+      "copy_of": "TF2_08_strike_nurse_v1",
+      "revision": "new (user 2026-10-30): TF2_08 with an x-ray plantar fasciitis inset"
     }
   ]
 }
