@@ -1,0 +1,81 @@
+{
+  "week": "2026-W45-neuropathy-plus",
+  "notes": "Neuropathy/sensitive-feet and plus-size statics (user 2026-10-30). No medical claims (no 'say goodbye to neuropathy', 'reduces burning and tingling', 'doctor recommended', 'pain free', 'diabetic shoe'). Meta personal-attributes policy: no 'you have neuropathy/diabetes' wording; condition named only in a customer quote or as 'sensitive feet'. NP_03 quote is paraphrased from Trustpilot language: replace with the verbatim review before running. Offer = standard 40% (BOGO and 50% not approved).",
+  "concepts": [
+    {
+      "id": "NP_01_street_sensitive",
+      "persona": "comfort_only",
+      "colorway": "navy_blue",
+      "benchmark": "street_callouts",
+      "offer": "standard_40",
+      "headline": "GENTLE ON / SENSITIVE FEET",
+      "prompt": "A real street photo on a sunny sidewalk, cropped from the shins down: a woman about 65 in dark jeans and thin grey socks, wearing a pair of the navy with bright blue accents shoes from the product reference, large and sharp at true proportions, background softly blurred. Upper middle: a white rounded box with heavy red-magenta all-caps headline on two lines \"GENTLE ON / SENSITIVE FEET\". Three small white rounded boxes with bold black text placed around the shoes: \"Soft knit, no stiff seams\" (left), \"Wide toe box, no pinching\" (right), \"Cushioned rocker sole\" (lower left). Lower right: a round magenta badge with small white \"TODAY\" and big white \"40% OFF\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [],
+      "angle": "GENTLE ON / SENSITIVE FEET",
+      "based_on": "User refs 2026-10-30 (ComfoFeet neuropathy callouts, 'Diabetic men over 50+' title ad) + survey (neuropathy 10%, 85% are 50+), Trustpilot 5-star 'didn't worsen my diabetic nerve pain'"
+    },
+    {
+      "id": "NP_02_title_sensitive",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "benchmark": "big_title_bar",
+      "offer": "standard_40",
+      "headline": "WOMEN OVER 60 WITH SENSITIVE FEET",
+      "prompt": "Soft pale blue-to-white gradient background. Top: huge heavy royal-blue condensed all-caps \"WOMEN OVER 60\", under it heavy red condensed all-caps \"WITH SENSITIVE FEET\". Center: one black-and-purple shoe from the product reference, angled three-quarter view, very large (about 80% of the width), sharp, true proportions, soft shadow. Bottom: a royal-blue rounded bar with heavy white condensed all-caps \"40% OFF + FREE SHIPPING\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [],
+      "angle": "WOMEN OVER 60 WITH SENSITIVE FEET",
+      "based_on": "User refs 2026-10-30 (ComfoFeet neuropathy callouts, 'Diabetic men over 50+' title ad) + survey (neuropathy 10%, 85% are 50+), Trustpilot 5-star 'didn't worsen my diabetic nerve pain'"
+    },
+    {
+      "id": "NP_03_quote_nerve",
+      "persona": "comfort_only",
+      "colorway": "black_white",
+      "benchmark": "big_title_bar",
+      "offer": "guarantee",
+      "headline": "“They didn't make my nerve pain worse. Finally.”",
+      "prompt": "Soft warm cream background. Top: big heavy black serif quote on three lines with curly quotes \"“They didn't make\" / \"my nerve pain worse.\" / and in deep red \"Finally.”\", then dark text \"– ComfortWear customer\". Center: a pair of the black-and-white shoes from the product reference, large, sharp, true proportions, soft shadow. Under them three short rows with small dark check marks: \"Soft stretch knit\", \"Roomy, wide toe box\", \"Cushioned sole\". Bottom: a deep red rounded bar with white bold \"Try them 30 days. Love them or your money back.\" All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [],
+      "angle": "“They didn't make my nerve pain worse. Finally.”",
+      "based_on": "User refs 2026-10-30 (ComfoFeet neuropathy callouts, 'Diabetic men over 50+' title ad) + survey (neuropathy 10%, 85% are 50+), Trustpilot 5-star 'didn't worsen my diabetic nerve pain'"
+    },
+    {
+      "id": "PL_01_street_plus",
+      "persona": "plus_size",
+      "colorway": "all_black",
+      "benchmark": "street_callouts",
+      "offer": "standard_40",
+      "headline": "MADE FOR / PLUS-SIZE WOMEN",
+      "prompt": "A real street photo on a sunny sidewalk, cropped from the shins down: a plus-size woman about 60 with full calves and thick ankles in dark wide-leg jeans, wearing a pair of the all-black shoes from the product reference, large and sharp at true proportions, background softly blurred. Upper middle: a white rounded box with heavy red-magenta all-caps headline on two lines \"MADE FOR / PLUS-SIZE WOMEN\". Three small white rounded boxes with bold black text placed around the shoes: \"Wide, stable base\" (left), \"Room for feet that swell\" (right), \"Cushion that doesn't flatten\" (lower left). Lower right: a round magenta badge with small white \"TODAY\" and big white \"40% OFF\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [],
+      "angle": "MADE FOR / PLUS-SIZE WOMEN",
+      "based_on": "User refs 2026-10-30 (ComfoFeet neuropathy callouts, 'Diabetic men over 50+' title ad) + survey (neuropathy 10%, 85% are 50+), Trustpilot 5-star 'didn't worsen my diabetic nerve pain'"
+    },
+    {
+      "id": "PL_02_title_plus",
+      "persona": "plus_size",
+      "colorway": "red_burgundy",
+      "benchmark": "big_title_bar",
+      "offer": "standard_40",
+      "headline": "PLUS-SIZE WOMEN OVER 50",
+      "prompt": "Soft pale blue-to-white gradient background. Top: huge heavy royal-blue condensed all-caps \"PLUS-SIZE WOMEN\", under it heavy red condensed all-caps \"OVER 50\". Center: one red/burgundy shoe from the product reference, angled three-quarter view, very large (about 80% of the width), sharp, true proportions, soft shadow. Bottom: a royal-blue rounded bar with heavy white condensed all-caps \"40% OFF + FREE SHIPPING\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [],
+      "angle": "PLUS-SIZE WOMEN OVER 50",
+      "based_on": "User refs 2026-10-30 (ComfoFeet neuropathy callouts, 'Diabetic men over 50+' title ad) + survey (neuropathy 10%, 85% are 50+), Trustpilot 5-star 'didn't worsen my diabetic nerve pain'"
+    }
+  ]
+}

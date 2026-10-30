@@ -824,6 +824,14 @@
     "strike_list": {
       "file": "reference/benchmarks/ref_strike_list_offer.jpg",
       "use_for": "FORMAT ref: white, thin black top bar '⚠ LIMITED TIME', huge black headline, four rows of grey struck-through problem + bold blue benefit, big shoe bottom-left, round close-up inset right"
+    },
+    "street_callouts": {
+      "file": "reference/benchmarks/ref_lifestyle_callouts_badge_9x16.jpg",
+      "use_for": "FORMAT ref: street photo cropped at the shins, shoes large, white box headline with red caps text, three small white-box black callout labels, round magenta % off badge"
+    },
+    "big_title_bar": {
+      "file": "reference/benchmarks/ref_big_title_offer_bar_9x16.jpg",
+      "use_for": "FORMAT ref: pale gradient, huge blue condensed caps line + red caps line, one big shoe angled, blue rounded offer bar at the bottom"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
