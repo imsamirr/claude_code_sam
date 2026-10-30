@@ -12,7 +12,7 @@
     "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos.",
     "The cleaning cycle is always 5 minutes: any timer, clock or copy shows 5 minutes (05:00), never 3 minutes.",
-    "SCALE (user rule Oct 28): the DentalPULSE Pod is always visibly LARGER than any dental appliance in the frame. A real appliance is about 40% of the Pod's width or less (a denture, night guard, retainer or aligner is palm-sized; the Pod is a domed countertop device). Never draw an appliance as big as or bigger than the Pod, and never let it dwarf the Pod.",
+    "REAL-WORLD SIZE (user rule Oct 30, replaces the Oct 28 scale rule): the DentalPULSE Pod is a SMALL bathroom-counter gadget, about 12 cm (4.7 in) wide and 10 cm (4 in) tall, roughly the size of a large coffee mug or a grapefruit. It sits in one adult palm; when someone holds it, their hand wraps around much of it and fingers reach past its sides; it is never bigger than a person's head, never a large machine or appliance. On a counter it is smaller than a box of tissues, about the height of a soap dispenser. A full denture is about 6-7 cm wide (about HALF the Pod's width) and fits inside its basin; a night guard, retainer or aligner is about half the Pod's width too. Keep every object at these true proportions.",
     "APPLIANCE MATCH (user rule Oct 28): the appliance in the picture must be exactly the one the headline names. If the ad says dentures, show real dentures (pink acrylic gums with a full row of teeth), not a night guard, retainer or aligner. If it says night guard, retainer or aligner, show that appliance with its correct shape (see the appliance accuracy note). Never mix appliances in one image.",
     "ONE IDEA, INSTANTLY CLEAR: the ad must be understood in two seconds with no explanation. No parody objects, joke labels, pharmacy-bottle gags or puzzles."
   ],
@@ -386,5 +386,88 @@
     "Zima Dental",
     "Sonic Dental"
   ],
-  "core_competitors_note": "User, 2026-10-30: Zima Dental and Sonic Dental are DentalPULSE's main rivals. Study them EVERY run (atria_pull.py rivals → research/core_competitors.md) and write ≥20% of each batch as direct answers/upgrades to their strongest current angles with OUR approved claims only. Never their logos or brand names shown negatively on the image; compare design features, not unverifiable claims; no invented scores."
+  "core_competitors_note": "User, 2026-10-30: Zima Dental and Sonic Dental are DentalPULSE's main rivals. Study them EVERY run (atria_pull.py rivals → research/core_competitors.md) and write ≥20% of each batch as direct answers/upgrades to their strongest current angles with OUR approved claims only. Never their logos or brand names shown negatively on the image; compare design features, not unverifiable claims; no invented scores.",
+  "benchmarks": {
+    "rv_z_fr_yellow_to_pod": {
+      "file": "reference/benchmarks/rv_ref_z_fr_yellow_to_pod.jpg",
+      "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-10-30, 0d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_z_soldout_callouts": {
+      "file": "reference/benchmarks/rv_ref_z_soldout_callouts.jpg",
+      "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-10-30, 0d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_z_dads_dentures": {
+      "file": "reference/benchmarks/rv_ref_z_dads_dentures.jpg",
+      "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-10-30, 0d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_i_rockefeller_sepia": {
+      "file": "reference/benchmarks/rv_ref_i_rockefeller_sepia.jpg",
+      "use_for": "LAYOUT reference only (Wellness Today, insp pull 2026-10-30, 15d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_i_think_again_faces": {
+      "file": "reference/benchmarks/rv_ref_i_think_again_faces.jpg",
+      "use_for": "LAYOUT reference only (Invisalign, insp pull 2026-10-30, 11d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_i_2027_deadline": {
+      "file": "reference/benchmarks/rv_ref_i_2027_deadline.jpg",
+      "use_for": "LAYOUT reference only (Invisalign, insp pull 2026-10-30, 7d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_i_price_drop_sign": {
+      "file": "reference/benchmarks/rv_ref_i_price_drop_sign.jpg",
+      "use_for": "LAYOUT reference only (Adam Herman, insp pull 2026-10-30, 7d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_i_did_the_research": {
+      "file": "reference/benchmarks/rv_ref_i_did_the_research.jpg",
+      "use_for": "LAYOUT reference only (Try Primals, insp pull 2026-10-30, 8d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_i_sunday_dinner": {
+      "file": "reference/benchmarks/rv_ref_i_sunday_dinner.jpg",
+      "use_for": "LAYOUT reference only (Locale, insp pull 2026-10-30, 18d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_i_doctor_quote_pink": {
+      "file": "reference/benchmarks/rv_ref_i_doctor_quote_pink.jpg",
+      "use_for": "LAYOUT reference only (Invisalign UK & Ireland, insp pull 2026-10-30, 13d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_s_palm_window_sale": {
+      "file": "reference/benchmarks/rv_ref_s_palm_window_sale.jpg",
+      "use_for": "LAYOUT reference only (Sonic Dental, riv pull 2026-10-30, 27d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_i_handheld_window_callouts": {
+      "file": "reference/benchmarks/rv_ref_i_handheld_window_callouts.jpg",
+      "use_for": "LAYOUT reference only (Primals, insp pull 2026-10-30, 9d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_i_looking_for_callouts": {
+      "file": "reference/benchmarks/rv_ref_i_looking_for_callouts.jpg",
+      "use_for": "LAYOUT reference only (Get.jcked, insp pull 2026-10-30, 7d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_i_thought_bubble_bar": {
+      "file": "reference/benchmarks/rv_ref_i_thought_bubble_bar.jpg",
+      "use_for": "LAYOUT reference only (Primal Edge, insp pull 2026-10-30, 16d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_z_award_seals_grey": {
+      "file": "reference/benchmarks/rv_ref_z_award_seals_grey.jpg",
+      "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-10-30, 0d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_z_pastel_rating": {
+      "file": "reference/benchmarks/rv_ref_z_pastel_rating.jpg",
+      "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-10-30, 6d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_z_60_value_hand": {
+      "file": "reference/benchmarks/rv_ref_z_60_value_hand.jpg",
+      "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-10-30, 21d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_i_goat_red_sale": {
+      "file": "reference/benchmarks/rv_ref_i_goat_red_sale.jpg",
+      "use_for": "LAYOUT reference only (Glowvani, insp pull 2026-10-30, 13d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_i_habits_frame": {
+      "file": "reference/benchmarks/rv_ref_i_habits_frame.jpg",
+      "use_for": "LAYOUT reference only (Dr. Rosenberg, insp pull 2026-10-30, 9d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_i_comfort_food_bar": {
+      "file": "reference/benchmarks/rv_ref_i_comfort_food_bar.jpg",
+      "use_for": "LAYOUT reference only (Gut Feelings, insp pull 2026-10-30, 9d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    }
+  },
+  "scale_note": "Oct 30 user feedback: 'Dental Pod is supposed to look smaller when being held by someone, not like a giant machine. It's a bathroom counter product.'"
 }

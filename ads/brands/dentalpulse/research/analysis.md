@@ -235,3 +235,8 @@ Inspiration: 2,228 ads fetched; 1,102 launched <7 days ago removed, 22 not growi
 - Night guards need "THICK rigid ~3 mm tray, bulkier than an aligner".
 - Every ad, offers included, needs a visibly yellow or cloudy appliance in the picture.
 - Split/cascade layouts must keep the top 34–40% empty for the overlay headline.
+
+## 13d. Oct 30 redo: real-world size + one reference ad per concept (`weeks/2026-W44-rivals-v2`)
+User feedback on the rivals batch: (1) the Pod looked like a giant machine (it's a mug-sized counter gadget), (2) the ads looked the same (every one was a counter photo + fixed top headline). Fix: each of the 20 concepts recreates ONE different reference ad (8 Zima/Sonic statics + 12 growing statics from the curated Atria inspiration pull, saved as `reference/benchmarks/rv_ref_*.jpg`) via `benchmark` + `format_ref`, with the copy pattern adapted to our angle (10 dentures / 5 night guards / 5 retainers+aligners; 14 TOF / 6 offer). Text is rendered in the image, following each reference's treatment, instead of the fixed overlay.
+- Lessons: floating appliances above the Pod render too big unless the prompt gives the width relative to the Pod ("about 60% of the Pod's width"); "cloudy" alone renders a clean tray, so spell out "amber tint, milky film, chalky spots"; "star tiles" renders Trustpilot-green, so ask for plain gold stars. Hand-held shots (RV_11/12/07) show the true size best; use at least 3 per batch.
+- 5 of 20 re-rendered; cost $1.25 (25 Kie calls).
