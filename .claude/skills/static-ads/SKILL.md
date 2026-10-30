@@ -15,7 +15,7 @@ Engine: `ads/generate.py` (render), `ads/review.py` (sheets, verdicts, cost, CSV
   appliance mix, old-method "enemy", competitor playbook (research/analysis.md §6), cartoon formats.
 
 Every deliverable is 1 static per concept (no variations) in ONE size, 4:5 (1088x1360, feed), rendered once
-with `--layout feed` (the default; user rule 2026-10-18: no 9:16) at `--quality medium` (user budget rule; ~$0.08/ad). The file is
+with `--layout feed` (the default; user rule 2026-10-18: no 9:16) via `--provider auto` (Kie.ai ~$0.05/ad, else OpenAI high ~$0.22/ad; see §1). The file is
 `<id>_vN.png`. GIFs only for statics the user approves.
 
 ## DentalPULSE quality rules (user, Oct 28: supersede every older DentalPULSE rule below)
@@ -148,7 +148,65 @@ prompt), and this skill.
 - **Offer** (~30% of a batch): "40% OFF" + "FREE SHIPPING" + "30-DAY MONEY-BACK GUARANTEE"; "HSA/FSA ELIGIBLE" + "UP TO 30% SAVINGS" may replace or join it. A line, pill or seal, never the whole ad. Black Friday week uses its own offers (`program.black_friday_week_2026_11_09`).
 - **Readable, uniform text (user 2026-10-28).** All text black, deep navy or white; never purple or other colored words (an accent color may only fill a pill/bar/block behind white text). Every line of one headline is the same size, weight and color: no oversized first word, no smaller second line, no regular/bold mixing. Supporting text is one uniform, large size. QA: re-render any ad with colored words, a headline with mixed sizes, or small text.
 - **Cartoon/animation statics: no quota.** Only when this run's inspiration research (same criteria: image, active, launched ≤45 days, 10+ days running, health & wellness) surfaces an illustrated/animated static worth borrowing; it then counts as a new format in the ledger (`program.cartoon_rule`).
-- Render one 4:5 per concept with `--quality medium` (~$0.08/ad). Older rules below still apply where they don't conflict.
+- Render one 4:5 per concept with the default `--provider auto` (Kie.ai gpt-image-2 at 2K, ~$0.05/ad; OpenAI at high quality, ~$0.22/ad, only when `KIE_API_KEY` is missing). Older rules below still apply where they don't conflict.
+
+### 1a. Atria research: exact criteria per pull (user, 2026-10-30)
+
+Every pull writes a CSV to `research/data/`; contact-sheet it and **Read every page** before writing.
+
+| Pull | What it answers | Filters (exact) | Ranking | Output |
+|---|---|---|---|---|
+| `winners` | What has worked for us, ever | our ad account; statics only (IMAGE); lifetime spend ≥ $5k (`--min-spend`); since 2024 | spend, high → low | `winning_statics_raw.csv` (+ headline and primary text) |
+| `current` | What works for us right now | our account; any format; last 30 days; spend ≥ $300; ROAS ≥ 1.8 | spend | `current_winners.csv` |
+| `rising` | Our new ads taking off | as `current`, but only ads launched in the window | spend | `rising_winners.csv` |
+| `seasonal --week W` | What won this time last year | our account; same ISO week last year ±7 days | spend, top 15 | `seasonal_<week>.csv` |
+| `losers` | What to avoid | our statics; spend < $200; paused at ad level; last 12 months | spend, low → high | `losing_statics.csv` |
+| `wellness` | New formats to borrow (objective) | Atria ad library; **health & wellness category keywords only** (`wellness.queries`, never our angle words); image; **active**; launched ≤ 45 days ago; running ≥ 10 days; impression trend **rising**; title/body has a direct-response signal (%, $, free, guarantee, money-back, buy N, today, sale, pain, question…); off-niche words dropped (`wellness.exclude`); max 2 ads per brand | **7-day impression growth** (places climbed), then impression share → `growth_rank` | `inspiration_wellness_45d.csv` |
+| `rivals` | What Hike + Stepprs are doing | `core_competitors`; image **and** video; active and inactive; both Atria orders (most impressions, best match); brand-matched; full copy kept | competitor → active first → days running (longest first) | `core_competitors_<date>.csv` |
+| `competitors` | Wider category | `competitor_brands` + `inspo_queries`; image and video | impression percentile | `competitor_ads.csv` |
+
+How to use the wellness list: take formats **from the top of `growth_rank` in order**. Skip a row only if
+its format is already in `research/format_ledger.json`, it depends on another brand's licensed IP, or it
+needs a claim we can't make; write the skip reason in `analysis.md`. No picking by taste. A long-running
+ad (60+ days, still active) is a stronger signal than a new one; an ad whose impressions are falling is a
+weak one even if it is old. Note for each borrowed format: brand, category, days running, growth, and why it works.
+
+### 1b. Our own copy that works (read EVERY run, before writing a single headline)
+
+1. **Winning statics' copy**: `winning_statics.csv` (headline + primary text of every ≥$5k static) and
+   `current_winners.csv`. Write down the 3–5 copy patterns that repeat (e.g. "12-hour shift" in the
+   headline, named audience, testimonial-first primary text, checklist ✅ rows, $ strike-through).
+2. **Winning briefs and scripts**: the Notion "Scripts 2026" winning briefs, the angle databank
+   (`research/data/notion_angles.md`) and our winning video scripts (`research/data/video_transcripts.md`):
+   hooks, objections, story beats and the exact customer phrases. Keep a dated digest in
+   `research/winning_briefs.md` (refresh from Notion each Friday run).
+3. **Customer voice**: `research/feedback_pain_points_*.md`, Trustpilot 5★ language, the copy playbook
+   (`research/copy_playbook_nurse_travel.md`).
+4. Every concept's `based_on` names the winning static, brief or script line its copy comes from, and
+   `headline` must trace back to a real pattern or phrase from 1–3. Reference images give the LAYOUT;
+   the WORDS come from here.
+
+### 1c. Core competitors: Hike Footwear and Stepprs (EVERY run, user rule 2026-10-30)
+
+They are our biggest competitors and write very direct-response copy. Each run:
+1. `python ads/atria_pull.py rivals`, then contact-sheet their statics and Read every page.
+2. Read the full copy of every **active** ad; transcribe (Atria `transcribe_library_ad`) their 2–3
+   longest-running active videos if not already done.
+3. Update `research/core_competitors.md` with a dated section: hooks, offers and guarantees, proof devices
+   (numbers, testimonials, doctors, studies), claims, formats, CTA style, and **what changed since the last
+   run** (new ads, ads they stopped).
+4. Write at least ~20% of each batch as direct answers or upgrades to their strongest current angles,
+   matching their DR intensity (specific numbers, named pain, agitation, risk reversal) with OUR approved
+   claims only: never their claims we can't back, their brand names in a negative way, or their logos.
+
+### Image provider and quality (user, 2026-10-30)
+
+`generate.py --provider auto` (default): Kie.ai (`KIE_API_KEY`), same gpt-image-2 model, 2K, ~$0.05/ad;
+falls back to OpenAI at high quality (~$0.22/ad) when the key is missing, and says which it used. Kie has
+no 4:5, so it renders 3:4 and crops to 4:5 (the prompt keeps text and product off the top/bottom 5%).
+Quality is checked exactly as before (QA list in §4). On the first Kie batch, compare each ad with an
+OpenAI render of the same concept and switch back with `--provider openai` if Kie is visibly worse
+(shoe fidelity, text sharpness). Never drop to medium quality to save money: use Kie instead.
 
 - Read `brand.json`, `research/analysis.md` and `feedback.json` (approved/rejected and why).
 - **Iteration runs**: `atria_pull.py current` (last `iterate_when.days` days, spend ≥ `min_spend`,
@@ -261,16 +319,16 @@ python ads/format_ledger.py --brand <brand> check --week <folder>         # new 
 python ads/format_ledger.py --brand <brand> add --week <folder>           # record them (after shipping)
 ```
 
-Default `--layout feed` (user rule, Oct 18): one native 4:5 render per ad; pass `--quality medium` (the script default is `high`)
+Default `--layout feed` (user rule, Oct 18): one native 4:5 render per ad via `--provider auto` (see §1 Image provider)
 (headline upper third, product/scene large in the middle, copy or offer lower; edge-to-edge scene, at least
 6% margin around text). No 9:16 is made. Older layouts (`native` 9:16 + 4:5 re-layout, `extend` outpaint)
 remain available by flag but are not used. `generate.py` center-crops instead of stretching when the API
 returns another aspect ratio, so the shoe is never squashed. If the image API rejects a prompt for safety
 (e.g. chemicals + mouth = "self-harm"), reframe the visual and retry.
 
-Cost: one medium 4:5 render ≈ $0.08 per ad (measured 2026-10-27/28; high ≈ $0.22). Check `review.py cost` after every
+Cost: Kie.ai 2K ≈ $0.05 per ad; OpenAI high ≈ $0.22 (measured 2026-10-27/30); OpenAI medium ≈ $0.08 (not used: quality too low). Check `review.py cost` after every
 batch and report cost per ad. GIF ≈ $0.14.
-Use `--quality medium` only if the user asks to cut cost. Shell gotcha: never `pkill -f`/`pgrep -f` a pattern that
+Shell gotcha: never `pkill -f`/`pgrep -f` a pattern that
 also appears in your own command line (it kills or matches the shell itself); wait on renders by
 counting `*_4x5.png` files instead.
 

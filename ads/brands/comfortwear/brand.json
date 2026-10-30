@@ -877,6 +877,7 @@
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
   "competitor_brands": [
     "Hike Footwear",
+    "Stepprs",
     "WearStand",
     "Clove",
     "Snibbs",
@@ -974,5 +975,10 @@
     ],
     "note": "Search terms span footwear AND adjacent wellness (socks, knee/back devices, supplements, grounding, heat/red light). Add new terms when a run finds a category worth mining; add brands/words to exclude when they waste slots.",
     "rule": "User rule 2026-10-28: inspiration is chosen OBJECTIVELY from data. Search only health & wellness category keywords (never our angle words: nurse, travel, Disney, etc. Those belong in our copy, not the search). Filters: image, active, launched <=45 days, running >=10 days, impressions rising, direct-response copy (offer, CTA, guarantee, number or problem hook), off-niche excluded, max 2 per brand. Rank by 7-day impression growth (places climbed), then impression share. Take formats from the top of the ranked list in order; skip a row only when its format is already in format_ledger.json, it shows another brand's licensed IP, or it would need a claim we can't make. Log the rank and growth number of every source in based_on."
-  }
+  },
+  "core_competitors": [
+    "Hike Footwear",
+    "Stepprs"
+  ],
+  "core_competitor_rule": "User rule 2026-10-30: Hike Footwear and Stepprs are our biggest competitors and write very direct-response copy. Study them EVERY run (python ads/atria_pull.py rivals): read every active ad's full copy, contact-sheet their statics, transcribe their top 2-3 longest-running videos, and keep research/core_competitors.md current (hooks, offers, guarantees, proof devices, claims, formats, what's new since last run). Borrow their DR structure and intensity, never their claims we can't make, their names or their logos."
 }

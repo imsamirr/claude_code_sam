@@ -12,6 +12,7 @@
                                          # impressions growing week over week, oral care + health & wellness queries
     python ads/atria_pull.py competitors # top-impression ads: competitor_brands + inspo_queries keywords
     python ads/atria_pull.py wellness    # health & wellness image ads (any category), 45 days, active, 10+ days running
+    python ads/atria_pull.py rivals      # EVERY ad (image + video) from brand.json -> core_competitors (Hike, Stepprs), full copy
     python ads/atria_pull.py ultrasonic  # ultrasonic-cleaner brands + dental-appliance category (brand.json → ultrasonic_queries), images and video
 
 Writes CSVs to ads/brands/<brand>/research/data/. Atria returns at most 50 ads per date window, so
@@ -382,6 +383,45 @@ def competitors(api, acc, args):
     write_csv("competitor_ads.csv", rows, list(rows[0]) if rows else ["brand"])
 
 
+def rivals(api, acc, args):
+    """Deep study of the core competitors (brand.json -> core_competitors; Comfort Wear: Hike Footwear, Stepprs).
+    Pulls their ads in every order Atria offers (most impressions, best match), images AND videos, active and
+    inactive, keeps only that brand's ads, and saves the FULL title/body so the copy can be studied line by line.
+    Writes research/data/core_competitors_<date>.csv sorted by brand, then status (active first), then days running
+    (longest first: the ads they keep paying for are the ones that work)."""
+    seen = {}
+    for name in args.core_competitors:
+        key = name.lower().replace(" ", "").replace("-", "")
+        for fmt in ("image", "video"):
+            for order in ("most_impressions", "best_match"):
+                try:
+                    items = api.get("ad-library/search", {"query": name, "display_format": fmt, "order": order,
+                                                          "page_size": 50})["items"]
+                except Exception as e:
+                    print(f"  {name} {fmt} {order}: {e}")
+                    continue
+                for it in items:
+                    if key in (it.get("brand_name") or "").lower().replace(" ", "").replace("-", ""):
+                        seen.setdefault(it["id"], {**it, "competitor": name, "fmt": fmt})
+                time.sleep(0.6)
+    rows = []
+    for it in seen.values():
+        rank = it.get("impression_rank") or {}
+        latest = rank.get("latest_rank") or {}
+        rows.append({"competitor": it["competitor"], "brand": it.get("brand_name"), "format": it["fmt"],
+                     "status": it.get("status"), "days_running": it.get("days_running"),
+                     "start_date": it.get("start_date"), "impression_percentile": latest.get("percentile"),
+                     "rank_delta_7d": rank.get("rank_delta_7d"), "atria_id": it["id"],
+                     "title": " ".join((it.get("title") or "").split()),
+                     "body": " ".join((it.get("body") or "").split()),
+                     "image_url": (it.get("images") or [{}])[0].get("url") or it.get("thumbnail_url"),
+                     "landing_url": it.get("link_url")})
+    rows.sort(key=lambda r: (r["competitor"], r["status"] != "active", -(r["days_running"] or 0)))
+    counts = {n: sum(r["competitor"] == n for r in rows) for n in args.core_competitors}
+    print(f"{len(rows)} ads: {counts}")
+    write_csv(f"core_competitors_{dt.date.today()}.csv", rows, list(rows[0]) if rows else ["competitor"])
+
+
 def seasonal(api, acc, args):
     """Top-spending ads (all formats) in the same calendar window last year as the target week.
 
@@ -440,7 +480,7 @@ def rising(api, acc, args):
 def main():
     load_dotenv()
     p = argparse.ArgumentParser()
-    p.add_argument("what", choices=["winners", "losers", "inspo", "inspiration", "seasonal", "rising", "current", "competitors", "ultrasonic", "wellness"])
+    p.add_argument("what", choices=["winners", "losers", "inspo", "inspiration", "seasonal", "rising", "current", "competitors", "ultrasonic", "wellness", "rivals"])
     p.add_argument("--days", type=int, default=30, help="rising: look-back window in days")
     p.add_argument("--min-spend-rising", type=float, default=300, help="rising: minimum spend in the window")
     p.add_argument("--min-roas", type=float, default=1.8, help="rising: minimum ROAS in the window")
@@ -463,6 +503,7 @@ def main():
     args.queries = brand.get("inspo_queries", INSPO_QUERIES)
     args.inspiration_queries = brand.get("inspiration_queries", args.queries)
     args.competitors = brand.get("competitor_brands", [])
+    args.core_competitors = brand.get("core_competitors", [])
     args.ultra_queries = brand.get("ultrasonic_queries", [])
     args.wellness = brand.get("wellness", {})
     # Without ATRIA_API_KEY the request relies on a network secret the proxy attaches.
@@ -471,7 +512,7 @@ def main():
     if not args.week:
         y, w, _ = (dt.date.today() + dt.timedelta(days=7)).isocalendar()
         args.week = f"{y}-W{w:02d}"
-    {"winners": winners, "losers": losers, "inspo": inspo, "inspiration": inspiration, "seasonal": seasonal, "rising": rising, "current": rising, "competitors": competitors, "ultrasonic": ultrasonic, "wellness": wellness}[args.what](api, acc, args)
+    {"winners": winners, "losers": losers, "inspo": inspo, "inspiration": inspiration, "seasonal": seasonal, "rising": rising, "current": rising, "competitors": competitors, "ultrasonic": ultrasonic, "wellness": wellness, "rivals": rivals}[args.what](api, acc, args)
 
 
 if __name__ == "__main__":

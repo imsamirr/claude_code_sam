@@ -554,11 +554,15 @@ def main():
     p.add_argument("--gif-quality", default="medium", help="GIF frames (shown at 544x960, 200 colors)")
     p.add_argument("--model", default=os.getenv("OPENAI_IMAGE_MODEL", "gpt-image-2"))
     p.add_argument("--extra", default="", help="extra instruction appended to every prompt")
-    p.add_argument("--provider", choices=["openai", "kie"], default=os.getenv("ADS_PROVIDER", "openai"),
-                   help="openai (direct, ~$0.21/ad at high) or kie (same gpt-image-2 via kie.ai, ~$0.05/ad at 2K; needs KIE_API_KEY)")
+    p.add_argument("--provider", default=os.getenv("ADS_PROVIDER", "auto"), choices=["auto", "openai", "kie"],
+                   help="auto (default, user rule 2026-10-30): kie.ai when KIE_API_KEY is set, else OpenAI at high quality. "
+                        "kie = same gpt-image-2 via kie.ai, ~$0.05/ad at 2K; openai = direct, ~$0.21/ad at high")
     p.add_argument("--kie-resolution", choices=["1K", "2K", "4K"], default="2K")
     args = p.parse_args()
     args.feed_quality = args.feed_quality or args.quality
+    if args.provider == "auto":
+        args.provider = "kie" if os.getenv("KIE_API_KEY") else "openai"
+    print(f"Image provider: {args.provider}" + (f" ({args.kie_resolution})" if args.provider == "kie" else f" ({args.quality})"), flush=True)
 
     # Without OPENAI_API_KEY the request goes out unauthenticated, which works
     # when the key is configured as a network secret the proxy attaches.
