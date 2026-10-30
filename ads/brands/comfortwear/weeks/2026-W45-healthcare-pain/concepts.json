@@ -171,7 +171,7 @@
       "colorway": "black_white",
       "benchmark": "t_anti_x",
       "headline": "I TRIED EVERYTHING FOR MY HEEL PAIN",
-      "prompt": "White background. Top: huge heavy navy condensed text \"I TRIED EVERYTHING\" and under it bold red condensed text \"FOR MY HEEL PAIN\". Below, a left-aligned list, each line starting with a bold red X: \"Gel insoles\"; \"Ibuprofen before every shift\"; \"Running shoes\"; \"$300 orthotics\". Then one line with a bold green check: \"Shoes built for 12s\". Bottom half: the black shoe with white sole and white accents from the product reference, three-quarter view, large, on white. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "prompt": "White background. Top, centered with wide side margins (text no wider than 80% of the image): large heavy navy condensed text \"I TRIED EVERYTHING\" and under it bold red condensed text \"FOR MY HEEL PAIN\". Below, a left-aligned list, each line starting with a bold red X: \"Gel insoles\"; \"Ibuprofen before every shift\"; \"Running shoes\"; \"$300 orthotics\". Then one line with a bold green check: \"Shoes built for 12s\". Bottom half: the black shoe with white sole and white accents from the product reference, three-quarter view, large, on white. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
       "offer": "none",
       "group": "net_new",
       "lang": "en",
@@ -189,7 +189,7 @@
       "colorway": "black_purple",
       "benchmark": "t_collage_offer",
       "headline": "Why nurses on my floor switched.",
-      "prompt": "Bright hospital break room, real photo, low angle: four nurses in navy and black scrubs standing side by side, shown from the knees down, each wearing a different pair of shoes from the product reference colors: black with purple accents, black with white sole and white accents, all black, and navy with bright blue accents, all sharp and true proportions on a light floor. Top: a white band with heavy black text on two lines \"Why nurses on my floor\" / \"switched.\" Under it bold dark text \"It started with one nurse's heel pain.\" Bottom: a black band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "prompt": "Bright hospital break room, real photo, low angle: four nurses in navy and black scrubs standing side by side, shown from the knees down, each wearing one of the four pairs shown in the product reference, left to right: black with purple accents, black with white accents and white sole, all black, navy with bright blue accents. All four are EXACTLY the same shoe model as the reference (same knit pattern, same bungee laces, same rocker sole), only the colors differ; no stripes, no air bubbles, no other shoe designs; sharp and true proportions on a light floor. Top: a white band with heavy black text, centered with wide side margins, on two lines \"Why nurses on my floor\" / \"switched.\" (text no wider than 80% of the image) Under it bold dark text \"It started with one nurse's heel pain.\" Bottom: a black band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
       "offer": "standard",
       "group": "net_new",
       "lang": "en",
@@ -199,7 +199,8 @@
         "foot_pain"
       ],
       "angle": "Peer proof on the unit",
-      "based_on": "Copy playbook: 'Three other nurses on my floor ordered them after seeing mine' (winner script); nurse colorway rule shows all 4"
+      "based_on": "Copy playbook: 'Three other nurses on my floor ordered them after seeing mine' (winner script); nurse colorway rule shows all 4",
+      "reference_image": "reference/shoes_four_nurse_colors.png"
     },
     {
       "id": "HC_12_hsa_pf_nurse",
