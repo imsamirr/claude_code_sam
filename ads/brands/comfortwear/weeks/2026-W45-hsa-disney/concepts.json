@@ -94,6 +94,36 @@
       "based_on": "User refs 2026-10-30: Clove 'FSA/HSA eligible', Truemed x-ray 'Bunions? Your HSA/FSA covers it', Truemed '20,000 steps at Disney. Zero regrets.'; approved claim HSA/FSA eligible",
       "copy_of": "HD_03_disney_zero_regrets_v1",
       "revision": "new (user 2026-10-30): HD_03 in black_white"
+    },
+    {
+      "id": "HD_07_vs_hoka_disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "benchmark": "vs_split",
+      "format_ref": true,
+      "offer": "none",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": [],
+      "headline": "Why Your Hokas Aren't Made For Disney Days",
+      "angle": "Disney comparison: Hokas vs Ortho Stretch",
+      "based_on": "User ref 2026-10-30: 'Why your Hokas are not made for 12-hour hospital shifts' split; competitor named in text only, drawn without logos; unverifiable claims (collapses after 2 months, 500,000+ customers) replaced",
+      "prompt": "Split background: left half light grey, right half pale blue. Top: a royal-blue rounded box with white bold two-line title \"Why Your Hokas Aren't Made\" / \"For 20,000-Step Disney Days\". Left column: one chunky max-cushion lace-up running shoe with an extra-thick rocker foam midsole and engineered mesh upper in bright blue with orange accents (no logos, no wordmarks, no brand marks), large; under it heavy black all-caps \"HOKAS\"; then four stacked boxes: grey box with a red ❌ and white text \"Built for running, not standing in lines\" / grey box with a red ❌ and white text \"Laces to retie all day\" / grey box with a red ❌ and white text \"Snug fit when feet swell in the heat\" / grey box with a red ❌ and white text \"Narrower toe box\". Right column: a pair of the navy shoes with bright blue accents from the product reference, large and sharp at true proportions; under it heavy black all-caps \"ORTHO STRETCH\"; then four stacked boxes: royal-blue box with a white ✓ and white text \"Cushion for 20,000 steps\" / royal-blue box with a white ✓ and white text \"Stretch knit for swollen feet\" / royal-blue box with a white ✓ and white text \"No-tie bungee laces\" / royal-blue box with a white ✓ and white text \"Wide, roomy toe box\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere."
+    },
+    {
+      "id": "HD_08_vs_brooks_disney",
+      "persona": "traveler",
+      "colorway": "black_purple",
+      "benchmark": "vs_split",
+      "format_ref": true,
+      "offer": "none",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": [],
+      "headline": "Why Your Brooks Aren't Made For Disney Days",
+      "angle": "Disney comparison: Brooks vs Ortho Stretch",
+      "based_on": "User ref 2026-10-30: 'Why your Hokas are not made for 12-hour hospital shifts' split; competitor named in text only, drawn without logos; unverifiable claims (collapses after 2 months, 500,000+ customers) replaced",
+      "prompt": "Split background: left half light grey, right half pale blue. Top: a royal-blue rounded box with white bold two-line title \"Why Your Brooks Aren't Made\" / \"For 20,000-Step Disney Days\". Left column: one sleek everyday lace-up running shoe with a medium foam midsole and soft mesh upper in grey with teal accents (no logos, no wordmarks, no brand marks), large; under it heavy black all-caps \"BROOKS\"; then four stacked boxes: grey box with a red ❌ and white text \"Built for running, not standing in lines\" / grey box with a red ❌ and white text \"Laces to retie all day\" / grey box with a red ❌ and white text \"Snug fit when feet swell in the heat\" / grey box with a red ❌ and white text \"Narrower toe box\". Right column: a pair of the black-and-purple shoes from the product reference, large and sharp at true proportions; under it heavy black all-caps \"ORTHO STRETCH\"; then four stacked boxes: royal-blue box with a white ✓ and white text \"Cushioned rocker sole for park days\" / royal-blue box with a white ✓ and white text \"Stretch knit for swollen feet\" / royal-blue box with a white ✓ and white text \"No-tie bungee laces\" / royal-blue box with a white ✓ and white text \"Wide, roomy toe box\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere."
     }
   ]
 }

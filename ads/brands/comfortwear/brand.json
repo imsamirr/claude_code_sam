@@ -868,6 +868,10 @@
     "approved_HD_03": {
       "file": "weeks/2026-W45-hsa-disney/output/HD_03_disney_zero_regrets_v1.png",
       "use_for": "OWN render (user asked for 3 colorway variants 2026-10-30): 20,000 steps at Disney"
+    },
+    "vs_split": {
+      "file": "reference/benchmarks/ref_vs_hoka_split_9x16.png",
+      "use_for": "FORMAT ref: blue title box 'Why Your X Are Not Made For Y', left grey column competitor shoe + 4 grey ❌ boxes, right blue column our shoe + 4 blue ✓ boxes"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
