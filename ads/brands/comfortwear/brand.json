@@ -764,6 +764,26 @@
     "new_report_closeup": {
       "file": "reference/benchmarks/ref_new_report_closeup.jpg",
       "use_for": "FORMAT ref (other brand): striking close-up photo, 'NEW REPORT' + heavy white caps 'WE RANKED THE TOP 5...' headline, light-orange subline bar, tiny disclaimer bottom-right"
+    },
+    "factory_caption": {
+      "file": "reference/benchmarks/ref_factory_caption.jpg",
+      "use_for": "FORMAT ref (other brand): real factory production line photo with products on a steel table, black caption boxes with white serif caps text at the bottom"
+    },
+    "writing_on_leg": {
+      "file": "reference/benchmarks/ref_writing_on_leg.png",
+      "use_for": "FORMAT ref (other brand): phone photo from above of legs on a bed, black marker handwriting on the thigh, product lying next to the legs"
+    },
+    "more_trick": {
+      "file": "reference/benchmarks/ref_more_trick_closeup.png",
+      "use_for": "FORMAT ref (other brand): curiosity caption in heavy black text with grey '... more' on white, extreme close-up photo below"
+    },
+    "poll_card": {
+      "file": "reference/benchmarks/ref_poll_card.png",
+      "use_for": "FORMAT ref (other brand): moody lifestyle photo background, white poll card with black header 'Which X matters most to you?' and four grey option rows"
+    },
+    "dont_wait": {
+      "file": "reference/benchmarks/ref_dont_wait_offer.png",
+      "use_for": "FORMAT ref (other brand): warm kitchen lifestyle photo, big dark two-line headline + subline, red starburst % off, round guarantee badge, ribbon label, product right"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
