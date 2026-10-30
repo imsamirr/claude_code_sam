@@ -171,6 +171,18 @@ needs a claim we can't make; write the skip reason in `analysis.md`. No picking 
 ad (60+ days, still active) is a stronger signal than a new one; an ad whose impressions are falling is a
 weak one even if it is old. Note for each borrowed format: brand, category, days running, growth, and why it works.
 
+**Inspiration priority (user, 2026-10-30, after a batch looked too plain).** The wellness growth list alone surfaced
+off-target ads (dog pads, lenders) and our concepts drifted to plain white "product + labels" layouts. Order now:
+(1) Hike + Stepprs highest-impression and longest-running ACTIVE statics (`rivals` + contact sheet), (2)
+`competitors` top-impression statics, (3) the wellness list, using only rows that are visibly direct-response and
+eye-catching on the contact sheet: bold color fields, huge type, real feet/people, text written on a body part or
+object, sticky notes, warning tape, strike-through self-talk, split before/after, huge price/offer. Plain white
+product-and-callouts layouts only when they are our own proven winners. Every batch: at least half the concepts
+use one of these high-energy devices.
+**Nurse colors (user, 2026-10-30):** nurse/healthcare concepts use ONLY Black/Purple, Black/White, All Black,
+White Blue. **Text spacing:** every text element ≥7% of the width from every edge, with clear space around it;
+QA rejects text that touches or crowds an edge.
+
 ### 1b. Our own copy that works (read EVERY run, before writing a single headline)
 
 1. **Winning statics' copy**: `winning_statics.csv` (headline + primary text of every ≥$5k static) and

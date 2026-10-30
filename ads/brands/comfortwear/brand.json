@@ -13,7 +13,8 @@
     "Add nothing the description doesn't ask for: no extra feature lists, icon callouts, price tags, badges, panels or captions. Never show other brands' logos or products; competitors appear as text names only.",
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos.",
     "Never add icon badges, SHOP NOW or other call-to-action buttons, logo lockups or a designed brand header to the image; keep it plain.",
-    "READABLE TEXT (user rule 2026-10-28): all text is black, deep navy or white with strong contrast against its background; no purple or other colored words anywhere. Every line of the headline is set at exactly the same size and weight. Labels, pills and list rows all share one size, large enough for women 60+ to read on a phone (at least 1/25 of the canvas height)."
+    "READABLE TEXT (user rule 2026-10-28): all text is black, deep navy or white with strong contrast against its background; no purple or other colored words anywhere. Every line of the headline is set at exactly the same size and weight. Labels, pills and list rows all share one size, large enough for women 60+ to read on a phone (at least 1/25 of the canvas height).",
+    "Text spacing (user rule 2026-10-30): every text element sits at least 7% of the image width away from every edge (left, right, top, bottom) and has clear empty space around it; generous line spacing; never let text touch, crowd or run off an edge, a photo border or another element."
   ],
   "claims_to_avoid": [
     "'orthopedic approved', 'podiatrist recommended', 'doctor recommended' or any cure/treatment claim",
@@ -64,11 +65,12 @@
       "source": "Biggest historical winners; 12% of survey jobs; PF 27%, 'just comfort' 26%",
       "colorways": [
         "black_purple",
-        "all_black",
-        "navy_blue",
         "black_white",
-        "black_mint"
-      ]
+        "all_black",
+        "navy_blue"
+      ],
+      "test_colorways": [],
+      "colorway_rule": "User rule 2026-10-30: nurse/healthcare images use ONLY Black/Purple, Black/White, All Black, White Blue (navy_blue)."
     },
     "cna_caregiver": {
       "name": "CNA / home health aide / caregiver",
@@ -382,7 +384,8 @@
     "Lifestyle shots crop tight on legs and feet (knee or mid-calf down), low camera angle, background softly blurred; faces are optional and never compete with the shoe.",
     "Typography: one very large, heavy headline across nearly the full width, max 2 lines, high contrast, directly on a clean area of the image or on a solid shape. No translucent boxes, no drop-shadowed text over busy areas, no small headline.",
     "Few elements: headline + product + at most 3 supporting elements (solid rounded pills, a solid offer block, or black hand-drawn curved arrows pointing at shoe features). Generous spacing, aligned edges.",
-    "Legibility for women 60+ (user rule 2026-10-13): all supporting text (feature/benefit labels, arrow callouts, pills, checklist rows, offer lines, comments) is large and bold enough to read on a phone at arm's length: at least about 1/25 of the canvas height per line (about 75px tall on the 9:16, 55px on the 4:5), high contrast, no light or thin weights, max 4-5 words per label. Use fewer, shorter labels rather than smaller text."
+    "Legibility for women 60+ (user rule 2026-10-13): all supporting text (feature/benefit labels, arrow callouts, pills, checklist rows, offer lines, comments) is large and bold enough to read on a phone at arm's length: at least about 1/25 of the canvas height per line (about 75px tall on the 9:16, 55px on the 4:5), high contrast, no light or thin weights, max 4-5 words per label. Use fewer, shorter labels rather than smaller text.",
+    "Text spacing (user rule 2026-10-30): every text element sits at least 7% of the image width away from every edge (left, right, top, bottom) and has clear empty space around it; generous line spacing; never let text touch, crowd or run off an edge, a photo border or another element."
   ],
   "benchmarks": {
     "callouts_white": {
@@ -964,7 +967,19 @@
       "uber",
       "villa",
       "webinar",
-      "winnie"
+      "winnie",
+      "dog",
+      "puppy",
+      "pet",
+      "vet",
+      "lender",
+      "mortgage",
+      "loan",
+      "home buyer",
+      "intimate",
+      "vagina",
+      "neck lift",
+      "forearm"
     ],
     "proven_layouts": [
       "dear_nurses_callouts",
@@ -980,5 +995,7 @@
     "Hike Footwear",
     "Stepprs"
   ],
-  "core_competitor_rule": "User rule 2026-10-30: Hike Footwear and Stepprs are our biggest competitors and write very direct-response copy. Study them EVERY run (python ads/atria_pull.py rivals): read every active ad's full copy, contact-sheet their statics, transcribe their top 2-3 longest-running videos, and keep research/core_competitors.md current (hooks, offers, guarantees, proof devices, claims, formats, what's new since last run). Borrow their DR structure and intensity, never their claims we can't make, their names or their logos."
+  "core_competitor_rule": "User rule 2026-10-30: Hike Footwear and Stepprs are our biggest competitors and write very direct-response copy. Study them EVERY run (python ads/atria_pull.py rivals): read every active ad's full copy, contact-sheet their statics, transcribe their top 2-3 longest-running videos, and keep research/core_competitors.md current (hooks, offers, guarantees, proof devices, claims, formats, what's new since last run). Borrow their DR structure and intensity, never their claims we can't make, their names or their logos.",
+  "nurse_colorways_rule": "User rule 2026-10-30: any nurse/healthcare concept uses ONLY black_purple, black_white, all_black or navy_blue (White Blue). Never red, turquoise or test colors for nurses.",
+  "inspiration_priority": "User rule 2026-10-30: the wellness pull alone produced off-target, low-energy inspiration. Inspiration order: (1) core competitors' (Hike, Stepprs) highest-impression and longest-running ACTIVE statics (atria_pull.py rivals + contact sheet), (2) competitor_brands top-impression statics (atria_pull.py competitors), (3) the wellness growth list, using only rows that are visibly direct-response and eye-catching on the contact sheet (bold color, huge type, real feet/people, written-on-object, warning tape, strike-through, split before/after, big price/offer). Reject plain white product-and-labels layouts unless they are our own proven winners."
 }

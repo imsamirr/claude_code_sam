@@ -24,3 +24,21 @@
 {"kind": "feed", "quality": "medium", "cost_usd": 0.0782, "input_tokens": 4444, "input_tokens_details": {"image_tokens": 2801, "text_tokens": 1643}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 6031}
 {"kind": "feed", "quality": "medium", "cost_usd": 0.0786, "input_tokens": 4526, "input_tokens_details": {"image_tokens": 2801, "text_tokens": 1725}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 6113}
 {"kind": "feed", "quality": "medium", "cost_usd": 0.0783, "input_tokens": 4449, "input_tokens_details": {"image_tokens": 2801, "text_tokens": 1648}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 6036}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "e49d2fab9f3e07abfb9b5cae3061856c"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "01bd6b7d104a2ef0d0d83e6137f28244"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "2cd01cb690edacaef2e889a8f823ee77"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "cb5ce506502d81623724fecf5911245c"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "173f50b5476fabd361e5dee240315e4f"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "0e406afb5abed7de664828a2718646c6"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "baaff5f989dd30145eb621d8a68c7071"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "3b38302ee0c5621682308ac08b8b25ab"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "50c357c85902e1250dcfec5f8a105966"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "7deb0b35f2fceb7995d247cc223503dd"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "84260f0103c45e7806ed67b5dc7bc544"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "cfbd821f8529ba80eaa2a6b39c77ee9b"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "0772b702f600e69ef70bd73c34f02698"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "d55be22633038877bbffce691ec17d6a"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "a04a93529c9667b7e5b3dbba8214ee4f"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "4df78da215dedabf1a7127ef7d70a325"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "81c28dada3fe99473bdb735f34f851fa"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "0b55622b260dca1fd02f8f280b7a1e32"}
