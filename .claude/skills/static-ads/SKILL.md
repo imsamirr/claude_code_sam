@@ -201,7 +201,7 @@ They are our biggest competitors and write very direct-response copy. Each run:
 
 ### Image provider and quality (user, 2026-10-30)
 
-`generate.py --provider auto` (default): Kie.ai (`KIE_API_KEY`), same gpt-image-2 model, 2K, ~$0.05/ad;
+`generate.py --provider auto` (default): Kie.ai (`KIE_API_KEY` or `KIE_AI`), same gpt-image-2 model, 2K, ~$0.05/ad;
 falls back to OpenAI at high quality (~$0.22/ad) when the key is missing, and says which it used. Kie has
 no 4:5, so it renders 3:4 and crops to 4:5 (the prompt keeps text and product off the top/bottom 5%).
 Quality is checked exactly as before (QA list in §4). On the first Kie batch, compare each ad with an

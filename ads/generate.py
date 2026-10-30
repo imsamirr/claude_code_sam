@@ -278,9 +278,9 @@ def kie_ratio(size):
 def call_kie(prompt, images, args, size, kind):
     """Same gpt-image-2 model via kie.ai (about $0.05 per 2K image vs about $0.21 direct). Inputs are uploaded
     as temporary files (kie deletes them after 24h), the 3:4 result is center-cropped to 4:5 by fit()."""
-    key = os.getenv("KIE_API_KEY")
+    key = os.getenv("KIE_API_KEY") or os.getenv("KIE_AI")
     if not key:
-        raise RuntimeError("KIE_API_KEY is not set (add it to the cloud environment's secrets)")
+        raise RuntimeError("KIE_API_KEY / KIE_AI is not set (add it to the cloud environment's secrets)")
     auth = {"Authorization": f"Bearer {key}"}
     urls = []
     for name, blob in images:
@@ -561,7 +561,7 @@ def main():
     args = p.parse_args()
     args.feed_quality = args.feed_quality or args.quality
     if args.provider == "auto":
-        args.provider = "kie" if os.getenv("KIE_API_KEY") else "openai"
+        args.provider = "kie" if (os.getenv("KIE_API_KEY") or os.getenv("KIE_AI")) else "openai"
     print(f"Image provider: {args.provider}" + (f" ({args.kie_resolution})" if args.provider == "kie" else f" ({args.quality})"), flush=True)
 
     # Without OPENAI_API_KEY the request goes out unauthenticated, which works
