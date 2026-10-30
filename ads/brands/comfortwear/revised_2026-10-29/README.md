@@ -20,6 +20,7 @@ Final version of every ad you asked me to fix or make a new version of in chat. 
 - 14 - Price 120 - Walk Europe day 1-4-9.png  (source: weeks/2026-W45-inspo-batch4/output/V45_02_europe_days_price_v2.png)
 - 15 - Price 120 - hand price drop (check 40 vs 50).png  (source: weeks/2026-W45-fri/output/W45_15_hand_price_drop_v2.png)
 - 16 - Price 120 - Europe walking shoes (check 40 vs 50).png  (source: weeks/2026-W45-fri/output/W45_36_europe_walking_sale_v2.png)
+- 17 - Things I wish I knew - headline fits the card.png  (source: weeks/2026-W45-inspo-batch4/output/V45_04_notes_wish_knew_nurse_v2.png)
 
 ## 2. New versions you asked for
 
