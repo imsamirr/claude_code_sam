@@ -6,3 +6,5 @@
 {"kind": "feed", "quality": "high", "cost_usd": 0.2237, "input_tokens": 4374, "input_tokens_details": {"image_tokens": 2983, "text_tokens": 1391}, "output_tokens": 6431, "output_tokens_details": {"image_tokens": 6431, "text_tokens": 0}, "total_tokens": 10805}
 {"kind": "feed", "quality": "high", "cost_usd": 0.2172, "input_tokens": 3645, "input_tokens_details": {"image_tokens": 2031, "text_tokens": 1614}, "output_tokens": 6431, "output_tokens_details": {"image_tokens": 6431, "text_tokens": 0}, "total_tokens": 10076}
 {"kind": "feed", "quality": "high", "cost_usd": 0.2172, "input_tokens": 3626, "input_tokens_details": {"image_tokens": 2031, "text_tokens": 1595}, "output_tokens": 6431, "output_tokens_details": {"image_tokens": 6431, "text_tokens": 0}, "total_tokens": 10057}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "bb9bd3b30b1263c0c5c494091244e3ef"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "79c177b18075baac3cc22132661319d1"}
