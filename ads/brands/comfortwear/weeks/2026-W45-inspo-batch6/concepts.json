@@ -26,11 +26,12 @@
       "angle": "Plus-size: your feet deserve a break; woman relaxing at home in the shoes, red/navy offer bar",
       "based_on": "User reference: 'YOUR NECK DESERVES A MASSAGE' lifestyle + split offer bar",
       "headline": "YOUR FEET DESERVE A BREAK",
-      "prompt": "A bright, real photo of a smiling plus-size woman about 62 (clearly full-figured) relaxing on a light sofa in a sunny living room, legs stretched out on a footstool toward the camera, wearing the all-black shoes from the product reference, large and sharp at true proportions. Top center: a small navy outlined box with navy all-caps \"YOUR FEET\", then huge heavy navy all-caps two-line headline \"DESERVE A\" / \"BREAK\". Bottom: a full-width split bar; left part solid red with heavy white \"40% OFF\" and smaller white \"TODAY\"; right part solid navy with a small white truck icon and heavy white all-caps \"FREE SHIPPING\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "prompt": "A bright, real photo of a smiling clearly plus-size woman about 62, US size 22-24, with a full round body, soft rounded belly, wide hips filling the sofa seat, thick full thighs and calves relaxing on a light sofa in a sunny living room, legs stretched out on a footstool toward the camera, wearing the all-black shoes from the product reference, large and sharp at true proportions. Top center: a small navy outlined box with navy all-caps \"YOUR FEET\", then huge heavy navy all-caps two-line headline \"DESERVE A\" / \"BREAK\". Bottom: a full-width split bar; left part solid red with heavy white \"40% OFF\" and smaller white \"TODAY\"; right part solid navy with a small white truck icon and heavy white all-caps \"FREE SHIPPING\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
       "group": "persona_inspo",
       "lang": "en",
       "format_ref": true,
-      "tags": []
+      "tags": [],
+      "revision": "v2: v1 model was only slightly full-figured"
     },
     {
       "id": "X45_03_checklist_stand_all_day",

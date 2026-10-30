@@ -62,10 +62,11 @@
       "headline": "We Put 4 Popular Walking Shoes to the Test at Disney",
       "angle": "Editorial comparison card: we put 4 popular walking shoes to the test at Disney",
       "based_on": "User reference (chat 2026-10-30): editorial 'We Put Two Popular Reverse Osmosis Systems to the Test' card",
-      "prompt": "Background: a softly blurred sunny theme-park street (no castles, no characters, no logos). In front, a large white rounded article card: a top bar with a hamburger icon and bold black text \"COMFORTWEAR GUIDE\", a thin grey line, a small breadcrumb \"TRAVEL  →  PARK DAYS\", then a bold black serif headline on two lines \"We Put 4 Popular Walking Shoes\" / \"to the Test at Disney\", a small grey \"2026\" between two thin lines, then a pale-lavender highlight bar with bold italic navy text \"Hoka Bondi, Brooks Ghost, Nike Air Max & Ortho Stretch Compared\". Below, two rounded photos side by side: left, a close-up of feet in a chunky pale-grey max-cushion running shoe (no logos) on hot park pavement; right, a close-up of feet in the red/burgundy shoes from the product reference (sharp, correct) walking past a churro cart. No Disney logos. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "prompt": "Background: a softly blurred sunny theme-park street (no castles, no characters, no logos). In front, a large white rounded article card: a top bar with a hamburger icon and bold black text \"COMFORTWEAR GUIDE\", a thin grey line, a small breadcrumb \"TRAVEL  →  PARK DAYS\", then a bold black serif headline on two lines \"We Put 4 Popular Walking Shoes\" / \"to the Test at Disney\", a small grey \"2026\" between two thin lines, then a pale-lavender highlight bar with bold italic navy text \"Hoka Bondi, Brooks Ghost, Nike Air Max & Ortho Stretch Compared\". Below, two rounded photos side by side: left, a close-up of feet in a traditional LACE-UP max-cushion running shoe with a very thick, flared, oversized white foam midsole (taller than the upper), engineered mesh upper in pale grey with regular flat laces tied in a bow, clearly NOT a sock-knit shoe and nothing like the product reference, no logos, on hot park pavement; right, a close-up of feet in the red/burgundy shoes from the product reference (sharp, correct) walking past a churro cart. No Disney logos. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
       "group": "persona_inspo",
       "lang": "en",
-      "tags": []
+      "tags": [],
+      "revision": "v2: v1 left photo looked like our knit shoe instead of a Hoka-style runner"
     },
     {
       "id": "Z45_06_last_chance_warehouse",
