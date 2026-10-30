@@ -14,7 +14,8 @@
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos.",
     "Never add icon badges, SHOP NOW or other call-to-action buttons, logo lockups or a designed brand header to the image; keep it plain.",
     "READABLE TEXT (user rule 2026-10-28): all text is black, deep navy or white with strong contrast against its background; no purple or other colored words anywhere. Every line of the headline is set at exactly the same size and weight. Labels, pills and list rows all share one size, large enough for women 60+ to read on a phone (at least 1/25 of the canvas height).",
-    "Text spacing (user rule 2026-10-30): every text element sits at least 7% of the image width away from every edge (left, right, top, bottom) and has clear empty space around it; generous line spacing; never let text touch, crowd or run off an edge, a photo border or another element."
+    "Text spacing (user rule 2026-10-30): every text element sits at least 7% of the image width away from every edge (left, right, top, bottom) and has clear empty space around it; generous line spacing; never let text touch, crowd or run off an edge, a photo border or another element.",
+    "Shoe contrast (user rule 2026-10-30): never put a dark shoe (black, navy, black/purple) on a dark background. Use a light or mid-tone background (light grey, cream, pale tint, bright color) or a clearly lit surface so the shoe's shape, knit and sole stand out."
   ],
   "claims_to_avoid": [
     "'orthopedic approved', 'podiatrist recommended', 'doctor recommended' or any cure/treatment claim",
@@ -385,7 +386,8 @@
     "Typography: one very large, heavy headline across nearly the full width, max 2 lines, high contrast, directly on a clean area of the image or on a solid shape. No translucent boxes, no drop-shadowed text over busy areas, no small headline.",
     "Few elements: headline + product + at most 3 supporting elements (solid rounded pills, a solid offer block, or black hand-drawn curved arrows pointing at shoe features). Generous spacing, aligned edges.",
     "Legibility for women 60+ (user rule 2026-10-13): all supporting text (feature/benefit labels, arrow callouts, pills, checklist rows, offer lines, comments) is large and bold enough to read on a phone at arm's length: at least about 1/25 of the canvas height per line (about 75px tall on the 9:16, 55px on the 4:5), high contrast, no light or thin weights, max 4-5 words per label. Use fewer, shorter labels rather than smaller text.",
-    "Text spacing (user rule 2026-10-30): every text element sits at least 7% of the image width away from every edge (left, right, top, bottom) and has clear empty space around it; generous line spacing; never let text touch, crowd or run off an edge, a photo border or another element."
+    "Text spacing (user rule 2026-10-30): every text element sits at least 7% of the image width away from every edge (left, right, top, bottom) and has clear empty space around it; generous line spacing; never let text touch, crowd or run off an edge, a photo border or another element.",
+    "Shoe contrast (user rule 2026-10-30): never put a dark shoe (black, navy, black/purple) on a dark background. Use a light or mid-tone background (light grey, cream, pale tint, bright color) or a clearly lit surface so the shoe's shape, knit and sole stand out."
   ],
   "benchmarks": {
     "callouts_white": {

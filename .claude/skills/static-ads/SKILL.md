@@ -182,7 +182,7 @@ product-and-callouts layouts only when they are our own proven winners. Every ba
 use one of these high-energy devices.
 **Nurse colors (user, 2026-10-30):** nurse/healthcare concepts use ONLY Black/Purple, Black/White, All Black,
 White Blue. **Text spacing:** every text element ≥7% of the width from every edge, with clear space around it;
-QA rejects text that touches or crowds an edge.
+QA rejects text that touches or crowds an edge. **Shoe contrast:** never a dark shoe on a dark background; light or mid-tone backgrounds so the shoe is clearly visible.
 
 ### 1b. Our own copy that works (read EVERY run, before writing a single headline)
 

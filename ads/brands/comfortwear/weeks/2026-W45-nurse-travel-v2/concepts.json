@@ -57,12 +57,13 @@
       "format_source": "Hike 'My knees are bone on bone but I'll be fine!' strikethrough (active, 4 days, Hike's newest DR push)",
       "headline": "My feet are killing me but I've got 2 more 12s!",
       "angle": "Nurse self-talk with crossed-out words: the denial every nurse knows",
-      "prompt": "Solid deep forest-green background. Left-aligned huge bold white text on five lines: \"My feet are\" / \"killing me\" with a thick bright lime-green strike line through it / \"done\" with a thick lime-green strike line through it / \"but I've got\" / \"2 more 12s!\" Below, smaller bold white text: \"Built for 12-hour shifts. 40% OFF.\" Lower right: a pair of the black-and-white shoes from the product reference on a plain white shoe box, large, sharp, true proportions. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere.",
+      "prompt": "Solid light sage-green background. Left-aligned huge bold deep forest-green text on five lines: \"My feet are\" / \"killing me\" with a thick bright red strike line through it / \"done\" with a thick lime-green strike line through it / \"but I've got\" / \"2 more 12s!\" Below, smaller bold deep forest-green text: \"Built for 12-hour shifts. 40% OFF.\" Lower right: a pair of the black-and-white shoes from the product reference on a plain white shoe box, large, sharp, true proportions. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere. The shoe must stand out clearly against the light background, every detail of the knit and sole visible.",
       "offer": "none",
       "group": "net_new",
       "lang": "en",
       "tags": [],
-      "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language"
+      "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language",
+      "revision": "; v3 (user 2026-10-30): background too dark to see the shoe, now light"
     },
     {
       "id": "NV_05_warning_tape_shift",
@@ -72,12 +73,13 @@
       "format_source": "Stepprs 'WARNING: STOP! Don't get faked' warning tape + crossed list (top 13.5%)",
       "headline": "WARNING: STOP SURVIVING YOUR SHIFT ON THESE",
       "angle": "Warning tape: the things nurses try (running shoes, drugstore insoles, ice buckets) crossed out",
-      "prompt": "Black background. Top: a yellow-and-black hazard-tape banner with heavy black all-caps \"WARNING\", under it bold black text on yellow \"STOP SURVIVING YOUR SHIFT ON THESE:\". Left: a vertical list of four items in bold white text, each crossed out with a thick red strike line: \"Running shoes\", \"Drugstore insoles\", \"Ice buckets\", \"Hoping it gets better\". Right: one black-and-purple shoe from the product reference, large, sharp, true proportions, angled. Lower right: a red starburst with white heavy text \"BUILT FOR 12s\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere.",
+      "prompt": "Clean light-grey studio background with a soft white glow behind the shoe. Top: a yellow-and-black hazard-tape banner with heavy black all-caps \"WARNING\", under it bold black text on yellow \"STOP SURVIVING YOUR SHIFT ON THESE:\". Left: a vertical list of four items in bold black text, each crossed out with a thick red strike line: \"Running shoes\", \"Drugstore insoles\", \"Ice buckets\", \"Hoping it gets better\". Right: one black-and-purple shoe from the product reference, large, sharp, true proportions, angled. Lower right: a red starburst with white heavy text \"BUILT FOR 12s\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere. The shoe must stand out clearly against the light background, every detail of the knit and sole visible.",
       "offer": "none",
       "group": "net_new",
       "lang": "en",
       "tags": [],
-      "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language"
+      "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language",
+      "revision": "; v3 (user 2026-10-30): background too dark to see the shoe, now light"
     },
     {
       "id": "NV_06_tried_everything_nurse",
@@ -132,12 +134,13 @@
       "format_source": "Hike 'At 73, I tried everything. This worked.' (active)",
       "headline": "At 66, I walked Rome for 9 days. My feet held up.",
       "angle": "Traveler walking a Rome cobblestone street; red box payoff",
-      "prompt": "A real sunny photo of a smiling woman about 66 in linen pants walking down a Rome cobblestone street with old ochre buildings, full figure, wearing the red/burgundy shoes from the product reference, sharp, true proportions. Top left, large bold dark text \"At 66, I walked\" / \"Rome for 9 days.\" and under it a solid red box with heavy white text \"My feet held up.\" All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere.",
+      "prompt": "A real sunny photo of a low-angle close-up on a Rome cobblestone street with old ochre buildings softly blurred behind: a woman's legs in rolled linen pants mid-stride, cropped from just above the knee down, her feet and the red/burgundy shoes from the product reference large and sharp in the lower half of the frame (shoes about 45% of the image width), true proportions. Top left, large bold dark text \"At 66, I walked\" / \"Rome for 9 days.\" and under it a solid red box with heavy white text \"My feet held up.\" All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere.",
       "offer": "none",
       "group": "net_new",
       "lang": "en",
       "tags": [],
-      "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language"
+      "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language",
+      "revision": "; v2 (user 2026-10-30): crop closer on legs and feet"
     },
     {
       "id": "TV2_02_strikethrough_disney",
@@ -147,12 +150,13 @@
       "format_source": "Hike 'My knees are bone on bone but I'll be fine!' strikethrough (active)",
       "headline": "My feet are killing me but the park closes at 11!",
       "angle": "Disney self-talk with crossed-out words",
-      "prompt": "Solid deep navy background. Left-aligned huge bold white text on five lines: \"My feet are\" / \"killing me\" with a thick bright turquoise strike line / \"done\" with a thick turquoise strike line / \"but the park\" / \"closes at 11!\" Below, smaller bold white text: \"Made for 20,000-step park days.\" Lower right: a pair of the turquoise-and-black shoes from the product reference on a plain white shoe box, large, sharp, true proportions. No castles, no characters, no logos. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere.",
+      "prompt": "Solid light sky-blue background. Left-aligned huge bold deep navy text on five lines: \"My feet are\" / \"killing me\" with a thick bright turquoise strike line / \"done\" with a thick turquoise strike line / \"but the park\" / \"closes at 11!\" Below, smaller bold deep navy text: \"Made for 20,000-step park days.\" Lower right: a pair of the turquoise-and-black shoes from the product reference on a plain white shoe box, large, sharp, true proportions. No castles, no characters, no logos. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere. The shoe must stand out clearly against the light background, every detail of the knit and sole visible.",
       "offer": "none",
       "group": "net_new",
       "lang": "en",
       "tags": [],
-      "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language"
+      "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language",
+      "revision": "; v3 (user 2026-10-30): background too dark to see the shoe, now light"
     },
     {
       "id": "TV2_03_warning_europe",
@@ -162,13 +166,13 @@
       "format_source": "Stepprs warning tape + crossed list (top 13.5%)",
       "headline": "WARNING: DON'T WALK EUROPE IN THESE",
       "angle": "Warning tape: what travelers pack that ruins day 3",
-      "prompt": "Black background. Top: a yellow-and-black hazard-tape banner with heavy black all-caps \"WARNING\", under it bold black text on yellow \"DON'T WALK EUROPE IN THESE:\". Left: four items in bold white text, each crossed out with a thick red strike line: \"Flat sneakers\", \"Running shoes\", \"Sandals\", \"New shoes\". Right: one navy shoe with bright blue accents from the product reference, large, sharp, true proportions, angled. Lower right: a red starburst with white heavy text \"20,000 STEPS\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere. Each crossed-out item is ONE short line with the strike line through the whole item.",
+      "prompt": "Clean light-grey studio background with a soft white glow behind the shoe. Top: a yellow-and-black hazard-tape banner with heavy black all-caps \"WARNING\", under it bold black text on yellow \"DON'T WALK EUROPE IN THESE:\". Left: four items in bold black text, each crossed out with a thick red strike line: \"Flat sneakers\", \"Running shoes\", \"Sandals\", \"New shoes\". Right: one navy shoe with bright blue accents from the product reference, large, sharp, true proportions, angled. Lower right: a red starburst with white heavy text \"20,000 STEPS\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere. Each crossed-out item is ONE short line with the strike line through the whole item. The shoe must stand out clearly against the light background, every detail of the knit and sole visible.",
       "offer": "none",
       "group": "net_new",
       "lang": "en",
       "tags": [],
       "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language",
-      "revision": "v2: v1 'Brand-new shoes' wrapped and only half was struck through"
+      "revision": "v2: v1 'Brand-new shoes' wrapped and only half was struck through; v3 (user 2026-10-30): background too dark to see the shoe, now light"
     },
     {
       "id": "TV2_04_sole_steps",
@@ -178,13 +182,13 @@
       "format_source": "Stepprs text written on the sole (top 2.0%, 407 days)",
       "headline": "20,000 STEPS. ZERO BENCH BREAKS.",
       "angle": "Traveler's bare sole with the day's result written on it, hotel balcony",
-      "prompt": "A real warm close-up photo on a hotel balcony at sunset with a sea view softly blurred: a woman's bare foot raised toward the camera showing the sole, with thick black marker handwriting on the sole in four lines: \"20,000\" / \"STEPS.\" / \"ZERO BENCH\" / \"BREAKS.\" Next to the foot on the tiled floor, a pair of the black-and-purple shoes from the product reference, large, sharp, true proportions. Realistic skin texture. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere. The ONLY words in the whole image are the handwriting on the sole: no typed headline, no title, no other text.",
+      "prompt": "A real warm close-up photo on a hotel balcony at sunset with a sea view softly blurred: a woman's bare foot raised toward the camera showing the sole, with thick black marker handwriting on the sole in four lines: \"20,000\" / \"STEPS.\" / \"ZERO BENCH\" / \"BREAKS.\" Next to the foot on the tiled floor, a pair of the black-and-purple shoes from the product reference placed close to the camera, at the SAME distance from the camera as the foot, so each shoe looks slightly LONGER than the bare foot (a shoe is always bigger than the foot that wears it), sharp, true proportions. Realistic skin texture. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge of the image. No other text anywhere. The ONLY words in the whole image are the handwriting on the sole: no typed headline, no title, no other text. ",
       "offer": "none",
       "group": "net_new",
       "lang": "en",
       "tags": [],
       "based_on": "Hike/Stepprs active statics contact sheet 2026-10-30 (rivals pull); copy from Emily RN winner, travel winners, survey/Trustpilot language",
-      "revision": "v2: v1 added a typed headline repeating the handwriting"
+      "revision": "v2: v1 added a typed headline repeating the handwriting; v3 (user 2026-10-30): shoes looked smaller than the foot"
     }
   ]
 }
