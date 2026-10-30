@@ -419,7 +419,7 @@ def rivals(api, acc, args):
     rows.sort(key=lambda r: (r["competitor"], r["status"] != "active", -(r["days_running"] or 0)))
     counts = {n: sum(r["competitor"] == n for r in rows) for n in args.core_competitors}
     print(f"{len(rows)} ads: {counts}")
-    write_csv(f"core_competitors_{dt.date.today()}.csv", rows, list(rows[0]) if rows else ["competitor"])
+    write_csv(f"{args.out_prefix}_{dt.date.today()}.csv", rows, list(rows[0]) if rows else ["competitor"])
 
 
 def seasonal(api, acc, args):
@@ -494,6 +494,7 @@ def main():
     p.add_argument("--pages", type=int, default=2, help="inspiration: result pages (50 ads each) per query")
     p.add_argument("--brand", default=os.getenv("ADS_BRAND", "comfortwear"))
     p.add_argument("--account", help="ad account name in Atria (default: brand.json → atria_account)")
+    p.add_argument("--wide", action="store_true", help="rivals: also pull brand.json -> angle_rivals (angle-gap study)")
     args = p.parse_args()
     global DATA_DIR
     bdir = Path(__file__).resolve().parent / "brands" / args.brand
@@ -503,7 +504,8 @@ def main():
     args.queries = brand.get("inspo_queries", INSPO_QUERIES)
     args.inspiration_queries = brand.get("inspiration_queries", args.queries)
     args.competitors = brand.get("competitor_brands", [])
-    args.core_competitors = brand.get("core_competitors", [])
+    args.core_competitors = brand.get("core_competitors", []) + (brand.get("angle_rivals", []) if args.wide else [])
+    args.out_prefix = "angle_rivals" if args.wide else "core_competitors"
     args.ultra_queries = brand.get("ultrasonic_queries", [])
     args.wellness = brand.get("wellness", {})
     # Without ATRIA_API_KEY the request relies on a network secret the proxy attaches.

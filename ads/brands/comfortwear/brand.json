@@ -925,6 +925,22 @@
     "t_candid_nurse": {
       "file": "reference/benchmarks/trend_Kirsty_nurse.jpg",
       "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Kirsty Phillips candid phone photo of a nurse at a nurses' station, no text (advertorial image)"
+    },
+    "g_over60_callouts": {
+      "file": "reference/benchmarks/gap_Armadilo_over60.jpg",
+      "use_for": "ANGLE-GAP format ref (Armadilo, active, Oct 2026): \"Hey Walkers Over 60!\" age callout, left column of thin-line spec callouts pointing at a walking shoe, light background"
+    },
+    "g_first_then_soon": {
+      "file": "reference/benchmarks/gap_Konjoun_first_then_soon.jpg",
+      "use_for": "ANGLE-GAP format ref (Konjoun, scaling 20+ variants Oct 2026): white, headline, FIRST / THEN / SOON three-step sketch timeline, product photo below"
+    },
+    "g_asleep_wakes": {
+      "file": "reference/benchmarks/gap_Konjoun_asleep.jpg",
+      "use_for": "ANGLE-GAP format ref (Konjoun, scaling Oct 2026): dark warm background, top review-star strip, huge two-tone condensed headline, three icon bullets left, product right, bottom offer bar"
+    },
+    "g_face_split": {
+      "file": "reference/benchmarks/gap_Stepprs_face_split.jpg",
+      "use_for": "ANGLE-GAP format ref (Stepprs, active): big red condition headline, same woman two faces side by side (pain vs relief) with WITHOUT / WITH pills and round inset icons, bottom offer bar"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
@@ -1047,5 +1063,23 @@
   ],
   "core_competitor_rule": "User rule 2026-10-30: Hike Footwear and Stepprs are our biggest competitors and write very direct-response copy. Study them EVERY run (python ads/atria_pull.py rivals): read every active ad's full copy, contact-sheet their statics, transcribe their top 2-3 longest-running videos, and keep research/core_competitors.md current (hooks, offers, guarantees, proof devices, claims, formats, what's new since last run). Borrow their DR structure and intensity, never their claims we can't make, their names or their logos.",
   "nurse_colorways_rule": "User rule 2026-10-30: any nurse/healthcare concept uses ONLY black_purple, black_white, all_black or navy_blue (White Blue). Never red, turquoise or test colors for nurses.",
-  "inspiration_priority": "User rule 2026-10-30: the wellness pull alone produced off-target, low-energy inspiration. Inspiration order: (1) core competitors' (Hike, Stepprs) highest-impression and longest-running ACTIVE statics (atria_pull.py rivals + contact sheet), (2) competitor_brands top-impression statics (atria_pull.py competitors), (3) the wellness growth list, using only rows that are visibly direct-response and eye-catching on the contact sheet (bold color, huge type, real feet/people, written-on-object, warning tape, strike-through, split before/after, big price/offer). Reject plain white product-and-labels layouts unless they are our own proven winners."
+  "inspiration_priority": "User rule 2026-10-30: the wellness pull alone produced off-target, low-energy inspiration. Inspiration order: (1) core competitors' (Hike, Stepprs) highest-impression and longest-running ACTIVE statics (atria_pull.py rivals + contact sheet), (2) competitor_brands top-impression statics (atria_pull.py competitors), (3) the wellness growth list, using only rows that are visibly direct-response and eye-catching on the contact sheet (bold color, huge type, real feet/people, written-on-object, warning tape, strike-through, split before/after, big price/offer). Reject plain white product-and-labels layouts unless they are our own proven winners.",
+  "angle_rivals": [
+    "Footstr",
+    "Orthofeet",
+    "Kuru",
+    "Vionic",
+    "OrthoFit",
+    "Snibbs",
+    "Clove",
+    "WearStand",
+    "Bright Footwear",
+    "Musabela",
+    "Armadilo",
+    "Konjoun",
+    "Stryde",
+    "Foamr",
+    "Viasox"
+  ],
+  "angle_gap_rule": "User rule 2026-10-30: if Hike, Stepprs, Footstr or other comfort-shoe brands are testing an angle we have NOT tested, propose and test it (with our claims only). Every run: python ads/atria_pull.py rivals --wide, compare against research/angle_gaps.md 'tested' list, add 1-3 gap-angle concepts per batch."
 }
