@@ -784,6 +784,26 @@
     "dont_wait": {
       "file": "reference/benchmarks/ref_dont_wait_offer.png",
       "use_for": "FORMAT ref (other brand): warm kitchen lifestyle photo, big dark two-line headline + subline, red starburst % off, round guarantee badge, ribbon label, product right"
+    },
+    "strike_callouts": {
+      "file": "reference/benchmarks/ref_strike_callouts.jpg",
+      "use_for": "FORMAT ref: white, two-line black headline with bold words, one big shoe center, four curved hand-drawn arrows to labels, each label = grey struck-through problem over bold benefit, black bottom bar with price | brand"
+    },
+    "dont_need_another": {
+      "file": "reference/benchmarks/ref_dont_need_another.jpg",
+      "use_for": "FORMAT ref: light grey, brand wordmark top, grey rounded box with 🚫 caps headline (last words in accent color), product center, round stat badge left, curved arrow to a ✅ line below"
+    },
+    "handwritten_minimal": {
+      "file": "reference/benchmarks/ref_handwritten_minimal.jpg",
+      "use_for": "FORMAT ref: plain light grey, hand-drawn marker caps text in maroon, a doodled smile, product right, offer line lower left"
+    },
+    "be_gone_callouts": {
+      "file": "reference/benchmarks/ref_be_gone_callouts.jpg",
+      "use_for": "FORMAT ref: warm cream, huge maroon three-part caps headline, product center, four round maroon icons with labels and curved arrows, maroon guarantee bar at the bottom"
+    },
+    "four_shoes_offer": {
+      "file": "reference/benchmarks/ref_four_shoes_offer.jpg",
+      "use_for": "FORMAT ref: white, four shoes in two rows (top and bottom), big black condensed caps offer lines in the middle, pink pill sub-offer"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",

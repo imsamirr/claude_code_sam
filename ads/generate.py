@@ -155,7 +155,8 @@ LETTER_RULE = ("This is a text-first native ad: a plain typed letter, email, fou
                "proportions, placed where the description says.")
 LETTER_BENCH_RULE = ("The SECOND attached image is the FORMAT reference (another brand's ad): recreate its layout, structure, "
                      "type treatment, emphasis style and overall feel closely, but use only the words in the description. "
-                     "Never show that brand's product, name, logo or signature.")
+                     "Never show that brand's product, name, logo or signature. Never copy or show ANY word from that reference "
+                     "image, never add a headline or caption the description does not ask for, and render each quoted text exactly once.")
 LOGO_RULE = ("The LAST attached image is the brand's own logo. Wherever the description says to show the logo, reproduce "
              "it exactly (same wordmark, letter shapes, icon and color), clean and fully legible, printed naturally on "
              "that surface; nowhere else. This overrides the no-logos rule for this logo only.")
