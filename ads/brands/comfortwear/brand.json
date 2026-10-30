@@ -744,6 +744,26 @@
     "approved_V45_04": {
       "file": "weeks/2026-W45-inspo-batch4/output/V45_04_notes_wish_knew_nurse_v1.png",
       "use_for": "OWN render (user: headline spills out of the notes card 2026-10-30): notes-app list"
+    },
+    "we_tested": {
+      "file": "reference/benchmarks/ref_we_tested_sticky.jpg",
+      "use_for": "FORMAT ref (other brand): several competing products in a row on a kitchen counter, yellow sticky note in front with handwritten 'We Tested the Top...'"
+    },
+    "warehouse": {
+      "file": "reference/benchmarks/ref_warehouse_too_much.jpg",
+      "use_for": "FORMAT ref (other brand): phone photo in a warehouse with pallets of product, hand holding one product to camera, white caption boxes 'We Made Too Much X' + 'please help us empty our warehouse', red circle offer"
+    },
+    "we_compared": {
+      "file": "reference/benchmarks/ref_we_compared_row.jpg",
+      "use_for": "FORMAT ref (other brand): products standing in a row against white tile, dark gradient bottom with heavy white caps + orange accent words, underlined 'See the full comparison' line"
+    },
+    "new_report": {
+      "file": "reference/benchmarks/ref_new_report_ranked.jpg",
+      "use_for": "FORMAT ref (other brand): advertorial, natural kitchen photo of a person dealing with the problem, small site label top-left, 'NEW REPORT' kicker, heavy white caps 'WE RANKED 5...' headline and subline over a dark bottom gradient"
+    },
+    "new_report_closeup": {
+      "file": "reference/benchmarks/ref_new_report_closeup.jpg",
+      "use_for": "FORMAT ref (other brand): striking close-up photo, 'NEW REPORT' + heavy white caps 'WE RANKED THE TOP 5...' headline, light-orange subline bar, tiny disclaimer bottom-right"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
