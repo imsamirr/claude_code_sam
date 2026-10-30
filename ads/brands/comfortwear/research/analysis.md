@@ -354,3 +354,23 @@ Full results: `feedback_pain_points_2026-10-28.md`. 18,452 answers (22% are 4–
 | age_bracket_grid | Tkofitlife / Muscle Booster '28-Day Chair Tai Chi at my age' (knee sleeve, 11-18d) | W45_32 What your feet need at 50, 60 and 70. |
 
 Patterns shared by the inspiration ads: real phone photos of ordinary objects or people (clock, fridge, trash can, group photo), a single surprising statement or a question as the headline, a timestamp or number, sticker/tilted text blocks over a real photo, and illustration styles (pencil sketch, engraving) for mechanism ads. Our $10k+ statics share: white ground, one big shoe, occupation or condition named, 3-6 body-part benefits, small offer line. Each W45 concept pairs one inspiration format with one winner or script.
+
+## 15. Trending statics deep dive (2026-10-30, Atria MCP)
+
+Searches: image, active, launched since Sep 1, running 7+ days, impression trend rising / rank climbing over 14 days, queries foot pain shoes, nurse shoes 12-hour shift, walking shoes travel, shoes + themes (before/after, us vs them, post-it, negative marketing, testimonial, statistics, comparison). Read 25 creatives.
+What is rising right now in footwear/foot pain (and why it beats our plain layouts):
+| Format | Advertiser (signal) | Device |
+|---|---|---|
+| "Dear Chefs, work doubles pain free" + strike-through feature list | Armadilo (+52 places in 7d) | named audience letter + ~~problem~~ → benefit pairs |
+| "Dear Chefs, your clogs weigh a ton. These don't." | Armadilo (+45 in 14d) | insult the current shoe, 4 hand arrows, price bar |
+| Week 0 / 4 / 9 alignment panels, "gone or your money back" | Footstr (+19 in 14d) | red→green line on legs, progress over time |
+| iPad photo of side-by-side feet + sticky note "How I fixed…" | Footstr | real-life proof photo, handwritten story |
+| Big banner + time-step pills (5 min / 15 min / 5 days / 2 weeks) | Foot Health Club | outcome timeline |
+| "In 2026 I felt every rock… first time in 20 years" | Konjoun | first-time-in-years + illustrated cross-sections |
+| "ANTI-GRANDPA WALKING SHOES" | OrthoFit | identity negation, plus list |
+| "You didn't outgrow your shoes. Your feet swelled." | Senior Health Guide (+101 in 14d) | real phone before/after feet |
+| "DON'T BUY BAREFOOT SHOES" engraving | Tiffany Mccomb (+30 in 14d) | negative marketing, vintage illustration |
+| Colorway collage + "This offer won't last forever" | Musabela (+39 in 14d) | lifestyle grid + urgency |
+| Shoes fanned in a circle, "Stabbing heel pain? There's a fix" | Bright Footwear | product burst + question headline |
+| Candid nurse at the nurses' station | Kirsty Phillips advertorial | real scene, no text |
+Takeaway: winners pair a NAMED audience or a sharp insult/negation with visible proof (lines, before/after, timeline) and real-life photography; plain "shoe + labels" layouts are not in the rising set.
