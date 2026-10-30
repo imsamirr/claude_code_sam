@@ -187,3 +187,20 @@ New formats used in W44-tue (not used before): S-to-F tier list, lab-report page
 7. **Spec-callout product shot** (supplement bottle with 5 ingredient callouts, "Up to 64% OFF" badge, money-back seal). For us: Pod + 4 benefit callouts (99.9% bacteria, tap water only, 5 minutes, no tablets).
 8. **Deadline/urgency angle** (Invisalign "use your FSA funds before they expire Dec 31", "Fall Sale", "ends tonight"): use real urgency only (current 40% sitewide offer; no fake countdowns).
 **Not used any more:** cartoon / animation / comic / mascot / meme / joke formats (several appear in the pull, e.g. a cartoon bad-breath tile, but the user ruled them out) and anything launched in the last 7 days.
+
+## 13b. Oct 30 inspiration run (Friday W45 net-new): `atria_pull.py inspiration`
+2,223 ads fetched; 1,131 launched <7 days ago removed, 35 not growing, 51 non-English; **474 kept** (`data/inspiration_curated.csv`, sheets `sheets/inspiration_curated_1-4.jpg`, all four pages read). Search is fuzzy: most hits are off-niche (pets, SaaS, apparel); formats below are the ones that transfer.
+**Formats growing now (used in W45-fri):**
+1. **Day 1 vs Day 30 split with bullets** (Ploise denture ad, top 46.9%, 7d) -> W45_01 cups.
+2. **Real macro of upper + lower denture stack** (denture cleaner, top 43.1%, 8d) and clinical lab-bench photo (top 28.8%, 12d) -> W45_04, W45_06.
+3. **Plain apology text card** ("We're sorry", 8d) -> W45_02.
+4. **Clipboard grading ("I graded 5 ... only 1 passed")** (blood sugar, 9d) -> W45_03.
+5. **Yellow sticky-note offer on a product shot** (back pain/skin care, 8d) -> W45_28.
+6. **Big-number price tiles / "Buy 5 Get 8"** -> W45_34, W45_40.
+7. **Black tile with three stacked products + "3 for $20"** (gut health, 21.4%) -> W45_16.
+8. **Spec callout lines around a hand-held product** (usmile, 8d) -> W45_19.
+9. **Real photo with one-line promise over a mouth/tongue macro** (bad breath, 18d) and store-window deal sign (denture cleaner, 7d) -> W45_07, W45_20.
+10. **Invisalign big-smile split photo, festive gift tiles, quadrant chart** -> W45_39, W45_30, W45_13.
+Skipped: cartoons/anime/memes, sexual or pet imagery, anything launched in the last 7 days.
+**Own winners re-read** (`current`, Oct 30 window): VID_DEN32 $8.8K/2.16, DEN81 H3 $5.9K/2.31, TOFv1_I13 $6.4K/1.88, DEN24 $3.1K/2.34, IMG_DEN64 51_3 $1.4K/3.19, IMG_DEN62 $0.9K/3.53, Denture 40% OFF $0.3K/2.05 (lifetime $11.9K/3.3). W45-fri keeps 7 proven formats: warm hero, quote+badge, native story photo, ranking quadrant, giant 40% type, FB comment wall, us-vs-other-pods table.
+**Render lesson (W45):** the image model renders "yellow" as pink-white unless the prompt says mustard/brown and "different from clean at first glance"; native UI prompts need `no_product` + "screen fills the canvas" or they come back as Pod ads.
