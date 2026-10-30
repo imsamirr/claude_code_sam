@@ -228,7 +228,7 @@
       "group": "net_new",
       "lang": "en",
       "tags": [],
-      "revision": "v2: v1 offer bar was cut off at the bottom edge"
+      "revision": "v2: v1 offer bar was cut off at the bottom edge; v3: v2 still cropped top and bottom (Kie 3:4 center-crop) — generate.py now pads instead of cropping"
     },
     {
       "id": "TV_05_favorite_travel_strike",

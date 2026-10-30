@@ -292,8 +292,8 @@ def call_kie(prompt, images, args, size, kind):
             raise RuntimeError(f"kie upload failed: {str(body)[:300]}")
         urls.append(body["data"]["downloadUrl"])
     if kie_ratio(size) == "3:4":
-        prompt += ("\n\nThe image is 3:4 and will be cropped to 4:5: keep every word and the product inside the "
-                   "middle 90% of the height, with only background in the top and bottom 5%.")
+        prompt += ("\n\nThe image is 3:4: keep at least 4% empty margin above the top line of text and below the "
+                   "bottom element, and plain continuous background along the left and right edges.")
     r = requests.post(f"{KIE_API}/createTask", headers=auth, timeout=60, json={
         "model": "gpt-image-2-image-to-image",
         "input": {"prompt": prompt, "input_urls": urls, "aspect_ratio": kie_ratio(size),
@@ -312,7 +312,7 @@ def call_kie(prompt, images, args, size, kind):
             with open(args.usage_log, "a") as f:
                 f.write(json.dumps({"kind": kind, "quality": f"kie-{args.kie_resolution}",
                                     "cost_usd": KIE_PRICE[args.kie_resolution], "task_id": task}) + "\n")
-            return fit(Image.open(io.BytesIO(img)).convert("RGB"), size)
+            return fit_pad(Image.open(io.BytesIO(img)).convert("RGB"), size)
         if state == "fail":
             raise RuntimeError(f"kie task failed: {data.get('failMsg') or data.get('failCode')}")
     raise RuntimeError(f"kie task {task} timed out")
@@ -357,6 +357,21 @@ def fit(img, size):
     if img.size != size:
         print(f"  note: API returned {w}x{h}; center-cropped to {tw}:{th} instead of stretching")
     return img.resize(size, Image.LANCZOS)
+
+
+def fit_pad(img, size):
+    """Kie returns 3:4 for our 4:5: cropping cut off headlines and offer bars at the top/bottom, so keep the
+    whole image and fill the thin side gaps (~3% each side) with a blurred, stretched copy of itself."""
+    from PIL import ImageFilter
+    tw, th = size
+    w, h = img.size
+    if w * th >= h * tw:          # not taller than the target: the normal crop is fine
+        return fit(img, size)
+    nw = round(w * th / h)
+    fg = img.resize((nw, th), Image.LANCZOS)
+    bg = img.resize(size, Image.LANCZOS).filter(ImageFilter.GaussianBlur(40))
+    bg.paste(fg, ((tw - nw) // 2, 0))
+    return bg
 
 
 def render_native(bdir, brand, concept, ref, ref_bytes, args, api_key):
