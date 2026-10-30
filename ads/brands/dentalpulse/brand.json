@@ -12,7 +12,7 @@
     "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos.",
     "The cleaning cycle is always 5 minutes: any timer, clock or copy shows 5 minutes (05:00), never 3 minutes.",
-    "REAL-WORLD SIZE (user rule Oct 30, replaces the Oct 28 scale rule): the DentalPULSE Pod is a SMALL bathroom-counter gadget, about 12 cm (4.7 in) wide and 10 cm (4 in) tall, roughly the size of a large coffee mug or a grapefruit. It sits in one adult palm; when someone holds it, their hand wraps around much of it and fingers reach past its sides; it is never bigger than a person's head, never a large machine or appliance. On a counter it is smaller than a box of tissues, about the height of a soap dispenser. A full denture is about 6-7 cm wide (about HALF the Pod's width) and fits inside its basin; a night guard, retainer or aligner is about half the Pod's width too. Keep every object at these true proportions.",
+    "REAL-WORLD SIZE + SETTING (user rules Oct 30, replace all earlier scale rules): the DentalPULSE Pod is a compact BATHROOM-COUNTER device, 132.5 x 110 x 85 mm (store spec; about 13 cm wide, 8.5 cm tall, 200 ml stainless basin): on a vanity it is about as wide as a hand towel folded small, lower than a soap dispenser, smaller than a tissue box; never a big machine. NOBODY HOLDS THE POD: no hands on, around or under it, no palms, no lifting; it always rests on a surface. It lives in the BATHROOM: vanity counter by the sink, bathroom shelf, mirror cabinet ledge, bathroom windowsill, or a plain designed background. NEVER kitchens, dining tables, cafes, coffee/food scenes, bedrooms, offices or outdoors. A full denture is about 6 cm wide (about HALF the Pod's width) and fits inside its basin; a night guard, retainer or aligner is about half the Pod's width too. Keep every object at these true proportions.",
     "APPLIANCE MATCH (user rule Oct 28): the appliance in the picture must be exactly the one the headline names. If the ad says dentures, show real dentures (pink acrylic gums with a full row of teeth), not a night guard, retainer or aligner. If it says night guard, retainer or aligner, show that appliance with its correct shape (see the appliance accuracy note). Never mix appliances in one image.",
     "ONE IDEA, INSTANTLY CLEAR: the ad must be understood in two seconds with no explanation. No parody objects, joke labels, pharmacy-bottle gags or puzzles."
   ],
@@ -467,7 +467,87 @@
     "rv_i_comfort_food_bar": {
       "file": "reference/benchmarks/rv_ref_i_comfort_food_bar.jpg",
       "use_for": "LAYOUT reference only (Gut Feelings, insp pull 2026-10-30, 9d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_xray_red_arrow": {
+      "file": "reference/benchmarks/rv_ref_b2_xray_red_arrow.jpg",
+      "use_for": "LAYOUT reference only (Sarah Peekmill static, 11d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_open_box_sticky_note": {
+      "file": "reference/benchmarks/rv_ref_b2_open_box_sticky_note.jpg",
+      "use_for": "LAYOUT reference only (Shape Lab static, 8d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_were_sorry_letter": {
+      "file": "reference/benchmarks/rv_ref_b2_were_sorry_letter.jpg",
+      "use_for": "LAYOUT reference only (ButcherCrowd static, 44d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_ugc_counter_product": {
+      "file": "reference/benchmarks/rv_ref_b2_ugc_counter_product.jpg",
+      "use_for": "LAYOUT reference only (Luna's Health Essentials static, 8d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_not_like_the_others": {
+      "file": "reference/benchmarks/rv_ref_b2_not_like_the_others.jpg",
+      "use_for": "LAYOUT reference only (Wonderly static, 8d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_price_cascade_arrows": {
+      "file": "reference/benchmarks/rv_ref_b2_price_cascade_arrows.jpg",
+      "use_for": "LAYOUT reference only (Merchynt static, 16d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_dark_spec_diagram": {
+      "file": "reference/benchmarks/rv_ref_b2_dark_spec_diagram.jpg",
+      "use_for": "LAYOUT reference only (Farmers Defense static, 8d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_ugc_sink_phone_photo": {
+      "file": "reference/benchmarks/rv_ref_b2_ugc_sink_phone_photo.jpg",
+      "use_for": "LAYOUT reference only (Karen Whitfield static, 7d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_mirror_reflection": {
+      "file": "reference/benchmarks/rv_ref_b2_mirror_reflection.jpg",
+      "use_for": "LAYOUT reference only (First Day static, 31d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_caption_handwritten_notes": {
+      "file": "reference/benchmarks/rv_ref_b2_caption_handwritten_notes.jpg",
+      "use_for": "LAYOUT reference only (Love Wellness static, 13d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_woman_pointing_headline": {
+      "file": "reference/benchmarks/rv_ref_b2_woman_pointing_headline.jpg",
+      "use_for": "LAYOUT reference only (Navien Optisleep static, 32d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_quote_bracket_save_pill": {
+      "file": "reference/benchmarks/rv_ref_b2_quote_bracket_save_pill.jpg",
+      "use_for": "LAYOUT reference only (Manna Vitality static, 37d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_strike_price_pill_headline": {
+      "file": "reference/benchmarks/rv_ref_b2_strike_price_pill_headline.jpg",
+      "use_for": "LAYOUT reference only (bobbie static, 8d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_editorial_not_another": {
+      "file": "reference/benchmarks/rv_ref_b2_editorial_not_another.jpg",
+      "use_for": "LAYOUT reference only (RenewaSkin Shop static, 15d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_two_photo_month_labels": {
+      "file": "reference/benchmarks/rv_ref_b2_two_photo_month_labels.jpg",
+      "use_for": "LAYOUT reference only (Simply Beautiful Hair static, 7d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_buy_x_get_y_stack": {
+      "file": "reference/benchmarks/rv_ref_b2_buy_x_get_y_stack.jpg",
+      "use_for": "LAYOUT reference only (Try Boxhero static, 23d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_graded_clipboard": {
+      "file": "reference/benchmarks/rv_ref_b2_graded_clipboard.jpg",
+      "use_for": "LAYOUT reference only (Dr. Andrew Robertson, PhD static, 9d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_uv_light_reveal": {
+      "file": "reference/benchmarks/rv_ref_b2_uv_light_reveal.jpg",
+      "use_for": "LAYOUT reference only (Denture Care Tips static, 12d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_stacked_raw_photos": {
+      "file": "reference/benchmarks/rv_ref_b2_stacked_raw_photos.jpg",
+      "use_for": "LAYOUT reference only (Denture Care Tips static, 8d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_b2_day1_vs_day30_split": {
+      "file": "reference/benchmarks/rv_ref_b2_day1_vs_day30_split.jpg",
+      "use_for": "LAYOUT reference only (Denture Care Tips static, 7d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
     }
   },
-  "scale_note": "Oct 30 user feedback: 'Dental Pod is supposed to look smaller when being held by someone, not like a giant machine. It's a bathroom counter product.'"
+  "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots)."
 }
