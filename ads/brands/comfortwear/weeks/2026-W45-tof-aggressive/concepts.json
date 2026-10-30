@@ -185,6 +185,38 @@
       "angle": "NURSES & TRAVELERS: 40% OFF EVERY BEST-SELLER",
       "copy_of": "TF_08_four_colors_offer_v1",
       "revision": "new (user 2026-10-30): persona version of TF_08"
+    },
+    {
+      "id": "TF_13_be_gone_nurse_navy",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "benchmark": "approved_TF_10",
+      "offer": "guarantee",
+      "headline": "STAND ALL 12 HOURS. CHART. CODE. REPEAT. TIRED FEET BE GONE.",
+      "prompt": "Soft very light cool blue-cream background with a soft glow behind the shoe. Top: huge heavy deep navy all-caps headline on three lines \"STAND ALL 12 HOURS.\" / \"CHART. CODE. REPEAT.\" / \"TIRED FEET BE GONE.\" Center: a pair of the navy shoes with bright blue accents from the product reference, large and sharp at true proportions. Four round deep navy icons with cream line drawings and bold deep navy labels, each with a thin curved arrow to the shoes: upper-left arch icon \"Arch support\", upper-right toes icon \"Wide toe box\", lower-left tread icon \"Slip-resistant grip\", lower-right stretch icon \"Stretch knit\". Small deep navy text above the bar \"ComfortWear Ortho Stretch · Made for 12-hour shifts\". Bottom: a full-width deep navy rounded bar with cream text \"30-day money-back guarantee\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere. Compared with the second attached image: identical layout, words, icons, arrows and bar; only the shoe color changes, and every maroon element (headline, icons, labels, bar) becomes deep navy to match the shoes.",
+      "group": "tof_aggressive",
+      "lang": "en",
+      "tags": [],
+      "based_on": "User refs 2026-10-30 (armadilo, aion, glowdrop, belt callouts, 4-shoe offer) + winners: Emily RN '4 12s in a row', 'slip-resistant is a necessity', '12-hour shift' headline winners ($858k), script 'no more limping to my car', Trustpilot 'Great for my 12 hour shifts', travel playbook (cobblestones, 20,000 steps, Disney)",
+      "angle": "STAND ALL SHIFT. WALK ALL TRIP. TIRED FEET BE GONE.",
+      "copy_of": "TF_10_be_gone_nurse_v1",
+      "revision": "new (user 2026-10-30): TF_10 in navy_blue"
+    },
+    {
+      "id": "TF_14_be_gone_nurse_bp",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "approved_TF_10",
+      "offer": "guarantee",
+      "headline": "STAND ALL 12 HOURS. CHART. CODE. REPEAT. TIRED FEET BE GONE.",
+      "prompt": "Soft very light lavender-cream background with a soft glow behind the shoe. Top: huge heavy deep plum purple all-caps headline on three lines \"STAND ALL 12 HOURS.\" / \"CHART. CODE. REPEAT.\" / \"TIRED FEET BE GONE.\" Center: a pair of the black-and-purple shoes from the product reference, large and sharp at true proportions. Four round deep plum purple icons with cream line drawings and bold deep plum purple labels, each with a thin curved arrow to the shoes: upper-left arch icon \"Arch support\", upper-right toes icon \"Wide toe box\", lower-left tread icon \"Slip-resistant grip\", lower-right stretch icon \"Stretch knit\". Small deep plum purple text above the bar \"ComfortWear Ortho Stretch · Made for 12-hour shifts\". Bottom: a full-width deep plum purple rounded bar with cream text \"30-day money-back guarantee\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere. Compared with the second attached image: identical layout, words, icons, arrows and bar; only the shoe color changes, and every maroon element (headline, icons, labels, bar) becomes deep plum purple to match the shoes.",
+      "group": "tof_aggressive",
+      "lang": "en",
+      "tags": [],
+      "based_on": "User refs 2026-10-30 (armadilo, aion, glowdrop, belt callouts, 4-shoe offer) + winners: Emily RN '4 12s in a row', 'slip-resistant is a necessity', '12-hour shift' headline winners ($858k), script 'no more limping to my car', Trustpilot 'Great for my 12 hour shifts', travel playbook (cobblestones, 20,000 steps, Disney)",
+      "angle": "STAND ALL SHIFT. WALK ALL TRIP. TIRED FEET BE GONE.",
+      "copy_of": "TF_10_be_gone_nurse_v1",
+      "revision": "new (user 2026-10-30): TF_10 in black_purple"
     }
   ]
 }
