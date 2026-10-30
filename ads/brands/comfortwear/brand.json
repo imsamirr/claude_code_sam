@@ -832,6 +832,10 @@
     "big_title_bar": {
       "file": "reference/benchmarks/ref_big_title_offer_bar_9x16.jpg",
       "use_for": "FORMAT ref: pale gradient, huge blue condensed caps line + red caps line, one big shoe angled, blue rounded offer bar at the bottom"
+    },
+    "approved_TF_05": {
+      "file": "weeks/2026-W45-tof-aggressive/output/TF_05_handwritten_limping_v1.png",
+      "use_for": "OWN render (user asked for a Black/Purple version 2026-10-30): limping to your car handwritten"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",

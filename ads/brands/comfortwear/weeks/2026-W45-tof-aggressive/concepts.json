@@ -121,6 +121,22 @@
       "tags": [],
       "based_on": "User refs 2026-10-30 (armadilo, aion, glowdrop, belt callouts, 4-shoe offer) + winners: Emily RN '4 12s in a row', 'slip-resistant is a necessity', '12-hour shift' headline winners ($858k), script 'no more limping to my car', Trustpilot 'Great for my 12 hour shifts', travel playbook (cobblestones, 20,000 steps, Disney)",
       "angle": "NURSES & TRAVELERS: 40% OFF EVERY BEST-SELLER"
+    },
+    {
+      "id": "TF_09_handwritten_limping_bp",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "approved_TF_05",
+      "offer": "standard_40",
+      "headline": "LIMPING TO YOUR CAR? IT'S NOT THE JOB. IT'S THE SHOES.",
+      "prompt": "Plain light grey background. Hand-drawn marker all-caps text in deep maroon, slightly uneven like real handwriting: top \"LIMPING TO YOUR CAR\" / \"AFTER A 12?\", below it \"IT'S NOT THE JOB.\" / \"IT'S THE SHOES.\", then a small doodled smiley face. Right: one black-and-purple shoe from the product reference, large and sharp at true proportions, soft shadow. Lower left, same maroon marker: \"40% OFF TODAY\" / \"+ FREE SHIPPING\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. No other text anywhere. Compared with the second attached image: identical layout, handwriting, smiley and offer; only the shoe color changes.",
+      "group": "tof_aggressive",
+      "lang": "en",
+      "tags": [],
+      "based_on": "User refs 2026-10-30 (armadilo, aion, glowdrop, belt callouts, 4-shoe offer) + winners: Emily RN '4 12s in a row', 'slip-resistant is a necessity', '12-hour shift' headline winners ($858k), script 'no more limping to my car', Trustpilot 'Great for my 12 hour shifts', travel playbook (cobblestones, 20,000 steps, Disney)",
+      "angle": "LIMPING TO YOUR CAR? IT'S NOT THE JOB. IT'S THE SHOES.",
+      "copy_of": "TF_05_handwritten_limping_v1",
+      "revision": "new (user 2026-10-30): TF_05 in Black/Purple"
     }
   ]
 }
