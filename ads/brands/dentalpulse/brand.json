@@ -547,6 +547,46 @@
     "rv_b2_day1_vs_day30_split": {
       "file": "reference/benchmarks/rv_ref_b2_day1_vs_day30_split.jpg",
       "use_for": "LAYOUT reference only (Denture Care Tips static, 7d, Atria curated inspiration 2026-10-30). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_c_tier_list": {
+      "file": "reference/benchmarks/rv_ref_c_tier_list.jpg",
+      "use_for": "LAYOUT reference only (Denture Care Tips static 'Top Ultrasonic Cleaners For Dentures And Retainers', Atria ultrasonic_relevant.csv). Comparison format. Recreate its structure for a DentalPULSE ad; never copy its words, product or brand; other cleaners appear unbranded."
+    },
+    "rv_c_tested_ranked_cups": {
+      "file": "reference/benchmarks/rv_ref_c_tested_ranked_cups.jpg",
+      "use_for": "LAYOUT reference only (Denture Care Tips static 'Don’t Waste Your Money—These Are the Only Ultrasonic UV Dent', Atria ultrasonic_relevant.csv). Comparison format. Recreate its structure for a DentalPULSE ad; never copy its words, product or brand; other cleaners appear unbranded."
+    },
+    "rv_c_tested_leading_man": {
+      "file": "reference/benchmarks/rv_ref_c_tested_leading_man.jpg",
+      "use_for": "LAYOUT reference only (Denture Care Tips static 'Top Ultrasonic Cleaners For Dentures And Retainers', Atria ultrasonic_relevant.csv). Comparison format. Recreate its structure for a DentalPULSE ad; never copy its words, product or brand; other cleaners appear unbranded."
+    },
+    "rv_c_considering_two_column": {
+      "file": "reference/benchmarks/rv_ref_c_considering_two_column.jpg",
+      "use_for": "LAYOUT reference only (Barbara's Cat Diary static 'Flea Season Sale: Up to 40% Off', Atria ultrasonic_relevant.csv). Comparison format. Recreate its structure for a DentalPULSE ad; never copy its words, product or brand; other cleaners appear unbranded."
+    },
+    "rv_c_comparing_checklist": {
+      "file": "reference/benchmarks/rv_ref_c_comparing_checklist.jpg",
+      "use_for": "LAYOUT reference only (Barbara's Cat Diary static 'Flea Season Sale: Up to 40% Off', Atria ultrasonic_relevant.csv). Comparison format. Recreate its structure for a DentalPULSE ad; never copy its words, product or brand; other cleaners appear unbranded."
+    },
+    "rv_c_lost_600_icons": {
+      "file": "reference/benchmarks/rv_ref_c_lost_600_icons.jpg",
+      "use_for": "LAYOUT reference only (Remi Wellness static 'Replace It For Under $100', Atria ultrasonic_relevant.csv). Comparison format. Recreate its structure for a DentalPULSE ad; never copy its words, product or brand; other cleaners appear unbranded."
+    },
+    "rv_c_skeptical_60_days": {
+      "file": "reference/benchmarks/rv_ref_c_skeptical_60_days.jpg",
+      "use_for": "LAYOUT reference only (Barbara's Cat Diary static 'Flea Season Sale: Up to 40% Off', Atria ultrasonic_relevant.csv). Comparison format. Recreate its structure for a DentalPULSE ad; never copy its words, product or brand; other cleaners appear unbranded."
+    },
+    "rv_c_trash_the_old": {
+      "file": "reference/benchmarks/rv_ref_c_trash_the_old.jpg",
+      "use_for": "LAYOUT reference only (Anna Janeston static 'My pharmacist told me', Atria ultrasonic_relevant.csv). Comparison format. Recreate its structure for a DentalPULSE ad; never copy its words, product or brand; other cleaners appear unbranded."
+    },
+    "rv_c_which_is_best": {
+      "file": "reference/benchmarks/rv_ref_c_which_is_best.jpg",
+      "use_for": "LAYOUT reference only (Denture Care Tips static 'Top Ultrasonic Cleaners For Dentures And Retainers', Atria ultrasonic_relevant.csv). Comparison format. Recreate its structure for a DentalPULSE ad; never copy its words, product or brand; other cleaners appear unbranded."
+    },
+    "rv_c_not_on_their_fur": {
+      "file": "reference/benchmarks/rv_ref_c_not_on_their_fur.jpg",
+      "use_for": "LAYOUT reference only (Barbara's Cat Diary static 'Flea Season Sale: Up to 40% Off', Atria ultrasonic_relevant.csv). Comparison format. Recreate its structure for a DentalPULSE ad; never copy its words, product or brand; other cleaners appear unbranded."
     }
   },
   "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots)."

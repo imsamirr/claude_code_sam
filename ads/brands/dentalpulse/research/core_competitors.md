@@ -31,3 +31,8 @@ User rule (2026-10-30): these are our two main rivals. Study them on every run (
 ### Guardrails
 - No Zima or Sonic logos or names on images. "Other pods", "the $180 pod" and "pods that need tablets" are fine. Primary text may name them only if the user approves.
 - Don't claim their product fails, breaks, or that their dentist counts are fake. Compare design features we can verify: tap water vs tablets, 5-minute cycle, guarantee length, what's included.
+
+## Comparison ads (user request, Oct 30): `weeks/2026-W44-compare`
+10 "us vs other ultrasonic cleaners" statics on comparison layouts from the category (Denture Care Tips tier list / "tested & ranked" / "I tested the leading cleaners", Repellix "Considering…?" two-column, checklist and guarantee cards, Remi icon callouts).
+- Others are ALWAYS unbranded generic devices (no logos, names, brand colors or pastel dome pods).
+- Comparison lines are limited to what we can prove: approved lab test (6 of 7 pods left live bacteria; ours #1), rivals bundling tablets (Zima "90 free tablets", Sonic Spa + 12 tablets), Sonic "up to 30% off"; ours tap water only, 5-minute cycle, 120-day guarantee, 40% + free case & bag. No rival price, guarantee or cycle claims (unverified).
