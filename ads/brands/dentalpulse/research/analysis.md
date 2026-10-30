@@ -204,3 +204,34 @@ New formats used in W44-tue (not used before): S-to-F tier list, lab-report page
 Skipped: cartoons/anime/memes, sexual or pet imagery, anything launched in the last 7 days.
 **Own winners re-read** (`current`, Oct 30 window): VID_DEN32 $8.8K/2.16, DEN81 H3 $5.9K/2.31, TOFv1_I13 $6.4K/1.88, DEN24 $3.1K/2.34, IMG_DEN64 51_3 $1.4K/3.19, IMG_DEN62 $0.9K/3.53, Denture 40% OFF $0.3K/2.05 (lifetime $11.9K/3.3). W45-fri keeps 7 proven formats: warm hero, quote+badge, native story photo, ranking quadrant, giant 40% type, FB comment wall, us-vs-other-pods table.
 **Render lesson (W45):** the image model renders "yellow" as pink-white unless the prompt says mustard/brown and "different from clean at first glance"; native UI prompts need `no_product` + "screen fills the canvas" or they come back as Pod ads.
+
+## 13c. Oct 30 one-off rivals batch (`weeks/2026-W44-rivals`): `atria_pull.py inspiration` + `rivals`
+Inspiration: 2,228 ads fetched; 1,102 launched <7 days ago removed, 22 not growing, 40 non-English; **487 kept** (sheets 1–4 read). Rivals: Zima Dental 85 ads, Sonic Dental 41 (`research/core_competitors.md`).
+**New formats used (not in earlier DentalPULSE batches):**
+- mass-quantity kitchen table (bad-breath brand, top 0.1%, 7d) → R44_01
+- "WE'RE NOT LIKE THE OTHERS." statement (top 2.9%, 8d) → R44_02
+- vertical price cascade with arrows (top 3.2%, 16d) → R44_03
+- "Not Another Cream…Dermatologists Recommend" editorial + seal (top 1.3%, 15d) → R44_04
+- MARCH/AUGUST photo split (top 1.3%, 7d) → R44_05
+- BREAKING NEWS lower third (top 2.4%, 8d) → R44_06
+- hand over sink lo-fi (top 0.6%, 7d) → R44_08
+- quote + savings pill + free-gift value (top 2.4%, 8d) → R44_09
+- mirror inspection (top 1.0%, 31d) → R44_11
+- TAKE THE QUIZ button (top 2.4%, 8d) → R44_12
+- X-ray red circles (top 1.3%, 7d) → R44_14 (UV)
+- clean blue "buy one get one" layout (top 1.3%, 8d) → R44_15
+- hand-written callouts (top 5.2%, 13d) → R44_16
+- dark tile + round seal (top 1.1%, 9d) → R44_20
+
+**Rival upgrades:**
+- Sonic's pod-on-palm sale tile, with proof added → R44_10
+- Zima "Dad's dentures" → R44_07
+- Zima "Never brush again" → R44_13, R44_16
+- Zima "Clean Girl Starter Pack" → R44_17
+- Zima Pod Go / Sonic Pro+Go → R44_19
+
+**Render lessons:**
+- The `pod_open` reference carries an aligner, so denture ads use `pod` (closed) or say "no aligner anywhere; lid empty".
+- Night guards need "THICK rigid ~3 mm tray, bulkier than an aligner".
+- Every ad, offers included, needs a visibly yellow or cloudy appliance in the picture.
+- Split/cascade layouts must keep the top 34–40% empty for the overlay headline.

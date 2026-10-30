@@ -381,5 +381,10 @@
     "max_lines": 3,
     "line_gap": 1.12,
     "note": "Every designed ad gets its headline set by generate.py in Inter Bold at exactly 72 px (1088 px canvas), max 3 lines, left aligned, same size on every ad; sub line Inter Medium 38 px. Native screenshots (X post, FB comment, Trustpilot, iOS) keep their own UI text and carry no overlay."
-  }
+  },
+  "core_competitors": [
+    "Zima Dental",
+    "Sonic Dental"
+  ],
+  "core_competitors_note": "User, 2026-10-30: Zima Dental and Sonic Dental are DentalPULSE's main rivals. Study them EVERY run (atria_pull.py rivals → research/core_competitors.md) and write ≥20% of each batch as direct answers/upgrades to their strongest current angles with OUR approved claims only. Never their logos or brand names shown negatively on the image; compare design features, not unverifiable claims; no invented scores."
 }

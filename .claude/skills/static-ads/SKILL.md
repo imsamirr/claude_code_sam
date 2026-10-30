@@ -186,7 +186,7 @@ weak one even if it is old. Note for each borrowed format: brand, category, days
    `headline` must trace back to a real pattern or phrase from 1–3. Reference images give the LAYOUT;
    the WORDS come from here.
 
-### 1c. Core competitors: Hike Footwear and Stepprs (EVERY run, user rule 2026-10-30)
+### 1c. Core competitors (EVERY run, user rule 2026-10-30): Comfort Wear → Hike Footwear and Stepprs; DentalPULSE → Zima Dental and Sonic Dental (brand.json `core_competitors`; DentalPULSE notes in `research/core_competitors.md`)
 
 They are our biggest competitors and write very direct-response copy. Each run:
 1. `python ads/atria_pull.py rivals`, then contact-sheet their statics and Read every page.
