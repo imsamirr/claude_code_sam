@@ -212,6 +212,18 @@ They are our biggest competitors and write very direct-response copy. Each run:
    matching their DR intensity (specific numbers, named pain, agitation, risk reversal) with OUR approved
    claims only: never their claims we can't back, their brand names in a negative way, or their logos.
 
+### 1d. Angle gaps (EVERY run, user rule 2026-10-30): test what competitors test and we don't
+1. `python ads/atria_pull.py rivals --wide` (core_competitors + brand.json `angle_rivals`: Footstr, Orthofeet,
+   Kuru, Vionic, OrthoFit, Konjoun, Armadilo, Stryde, etc.) → `data/angle_rivals_<date>.csv`.
+2. Tag every ad's title+body by angle (keyword map, e.g. knee/hip/back, morning first steps, hands-free,
+   age call-out, style, scarcity, anti-counterfeit, reason-why discount) weighted by days running; tag our own
+   concepts (`weeks/*/concepts.json`) and account ads the same way.
+3. Update `research/angle_gaps.md` with a dated table: angle, competitor volume and weight, ours, who pushes it,
+   verdict (GAP / skip with reason: claim risk, wrong product, needs landing page / ask user).
+4. Put 1–3 GAP-angle concepts in every batch (tag `angle_gap`), each with a saved competitor format ref.
+   Reason-why, scarcity and counterfeit angles need a TRUE fact: add `needs_confirmation` and ask the user
+   before launch. Offers we don't run (BOGO etc.) go to the user as a question, never into an ad.
+
 ### Image provider and quality (user, 2026-10-30)
 
 `generate.py --provider auto` (default): Kie.ai (`KIE_API_KEY` or `KIE_AI`), same gpt-image-2 model, 2K, ~$0.05/ad;
