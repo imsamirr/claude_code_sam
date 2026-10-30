@@ -104,13 +104,13 @@
       "headline": "WE RANKED THE TOP 5 SHOES FOR HEALTHCARE WORKERS IN 2026",
       "angle": "Close-up shock advertorial: WE RANKED THE TOP 5 SHOES FOR HEALTHCARE WORKERS IN 2026",
       "based_on": "User reference: 'WE RANKED THE TOP 5 CORTISOL DETOX SUPPLEMENTS' close-up advertorial (no body/medical shock imagery)",
-      "prompt": "A striking, extreme close-up real photo filling the frame: a badly worn-out cheap work sneaker on a shiny hospital floor, its foam midsole crushed flat and creased, the insole collapsed at the heel, scuffed toe, frayed laces (generic shoe, no logos), dramatic side light. Small white all-caps text top-center \"COMFORTWEAR COMFORT GUIDE\". The lower third darkens. Bottom-left: heavy white all-caps \"NEW REPORT\", then a heavy white condensed all-caps headline on three lines: \"WE RANKED THE TOP 5 SHOES FOR HEALTHCARE WORKERS IN 2026\", then a light-orange rounded bar with dark text \"We ranked the top 5 for 12-hour shifts.\". Bottom-right tiny white text \"Based on our own comparison\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. The worn-out shoe is a plain generic sneaker (a cheap flat lace-up running shoe with tie laces and a thin flat sole), clearly NOT a sock-knit shoe and nothing like the attached product reference: no bungee laces, no square-grid knit pattern, no chunky rocker sole.",
+      "prompt": "A striking, extreme close-up real photo filling the frame: a badly worn-out cheap work sneaker on a shiny hospital floor, its foam midsole crushed flat and creased, the insole collapsed at the heel, scuffed toe, frayed laces (generic shoe, no logos), dramatic side light. Small white all-caps text top-center \"COMFORTWEAR COMFORT GUIDE\". The lower third darkens. Bottom-left: heavy white all-caps \"NEW REPORT\", then a heavy white condensed all-caps headline on three lines: \"WE RANKED THE TOP 5 SHOES FOR HEALTHCARE WORKERS IN 2026\", then a light-orange rounded bar with dark text \"We ranked the top 5 for 12-hour shifts.\". Bottom-right tiny white text \"Based on our own comparison\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. The worn-out shoe is a plain generic sneaker (a cheap flat lace-up running shoe with tie laces and a thin flat sole), clearly NOT a sock-knit shoe and nothing like the attached product reference: no bungee laces, no square-grid knit pattern, no chunky rocker sole. The worn shoe's side panels are completely plain and solid: no stripes of any kind, no diagonal bands, no swoosh, no logo shapes; a plain unbranded upper.",
       "group": "persona_inspo",
       "lang": "en",
       "format_ref": true,
       "tags": [],
       "no_product": true,
-      "revision": "v2: v1 drew OUR shoe as the worn-out one; now a generic old sneaker"
+      "revision": "v2: v1 drew OUR shoe as the worn-out one; now a generic old sneaker; v3: v2 shoe had three parallel side stripes that read as a real brand"
     },
     {
       "id": "Y45_08_closeup_plus",
@@ -136,13 +136,13 @@
       "headline": "WE RANKED THE TOP 5 SHOES FOR WALKING TRIPS IN 2026",
       "angle": "Close-up shock advertorial: WE RANKED THE TOP 5 SHOES FOR WALKING TRIPS IN 2026",
       "based_on": "User reference: 'WE RANKED THE TOP 5 CORTISOL DETOX SUPPLEMENTS' close-up advertorial (no body/medical shock imagery)",
-      "prompt": "A striking, extreme close-up real photo filling the frame: a dusty, worn-out flat sneaker on old European cobblestones, its thin sole peeling at the toe and the cushion squashed flat (generic shoe, no logos), warm late-afternoon light. Small white all-caps text top-center \"COMFORTWEAR COMFORT GUIDE\". The lower third darkens. Bottom-left: heavy white all-caps \"NEW REPORT\", then a heavy white condensed all-caps headline on three lines: \"WE RANKED THE TOP 5 SHOES FOR WALKING TRIPS IN 2026\", then a light-orange rounded bar with dark text \"We ranked the top 5 for long sightseeing days.\". Bottom-right tiny white text \"Based on our own comparison\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. The worn-out shoe is a plain generic sneaker (a cheap flat lace-up running shoe with tie laces and a thin flat sole), clearly NOT a sock-knit shoe and nothing like the attached product reference: no bungee laces, no square-grid knit pattern, no chunky rocker sole.",
+      "prompt": "A striking, extreme close-up real photo filling the frame: a dusty, worn-out flat sneaker on old European cobblestones, its thin sole peeling at the toe and the cushion squashed flat (generic shoe, no logos), warm late-afternoon light. Small white all-caps text top-center \"COMFORTWEAR COMFORT GUIDE\". The lower third darkens. Bottom-left: heavy white all-caps \"NEW REPORT\", then a heavy white condensed all-caps headline on three lines: \"WE RANKED THE TOP 5 SHOES FOR WALKING TRIPS IN 2026\", then a light-orange rounded bar with dark text \"We ranked the top 5 for long sightseeing days.\". Bottom-right tiny white text \"Based on our own comparison\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin. The worn-out shoe is a plain generic sneaker (a cheap flat lace-up running shoe with tie laces and a thin flat sole), clearly NOT a sock-knit shoe and nothing like the attached product reference: no bungee laces, no square-grid knit pattern, no chunky rocker sole. The worn shoe's side panels are completely plain and solid: no stripes of any kind, no diagonal bands, no swoosh, no logo shapes; a plain unbranded upper.",
       "group": "persona_inspo",
       "lang": "en",
       "format_ref": true,
       "tags": [],
       "no_product": true,
-      "revision": "v2: v1 drew OUR shoe as the worn-out one; now a generic old sneaker"
+      "revision": "v2: v1 drew OUR shoe as the worn-out one; now a generic old sneaker; v3: v2 shoe had three parallel side stripes that read as a real brand"
     }
   ]
 }
