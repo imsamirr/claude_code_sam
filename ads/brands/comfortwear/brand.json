@@ -804,6 +804,26 @@
     "four_shoes_offer": {
       "file": "reference/benchmarks/ref_four_shoes_offer.jpg",
       "use_for": "FORMAT ref: white, four shoes in two rows (top and bottom), big black condensed caps offer lines in the middle, pink pill sub-offer"
+    },
+    "pick_level": {
+      "file": "reference/benchmarks/ref_pick_your_level.jpg",
+      "use_for": "FORMAT ref: lifestyle legs photo right, red tag + huge black caps title + 'PICK YOUR LEVEL' left, three stacked tinted cards (blue/yellow/pink) with small photo, colored level name, spec and one line"
+    },
+    "fb_group_post": {
+      "file": "reference/benchmarks/ref_fb_group_post.jpg",
+      "use_for": "FORMAT ref: native Facebook group post screenshot: avatar, name ▶ group, time, post text, one real photo, reaction row and Like/Comment/Share"
+    },
+    "reddit_post": {
+      "file": "reference/benchmarks/ref_reddit_post.jpg",
+      "use_for": "FORMAT ref: native Reddit thread screenshot: subreddit + user, bold post title, vote/comment row, one top reply with bold last sentence"
+    },
+    "x_dark": {
+      "file": "reference/benchmarks/ref_x_post_dark.jpg",
+      "use_for": "FORMAT ref: dark-mode X post, avatar + name + handle, large white text paragraph, nothing else"
+    },
+    "strike_list": {
+      "file": "reference/benchmarks/ref_strike_list_offer.jpg",
+      "use_for": "FORMAT ref: white, thin black top bar '⚠ LIMITED TIME', huge black headline, four rows of grey struck-through problem + bold blue benefit, big shoe bottom-left, round close-up inset right"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
