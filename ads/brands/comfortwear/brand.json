@@ -877,6 +877,54 @@
     "vs_split": {
       "file": "reference/benchmarks/ref_vs_hoka_split_9x16.png",
       "use_for": "FORMAT ref: blue title box 'Why Your X Are Not Made For Y', left grey column competitor shoe + 4 grey ❌ boxes, right blue column our shoe + 4 blue ✓ boxes"
+    },
+    "t_dear_strike": {
+      "file": "reference/benchmarks/trend_Armadilo_dontsit.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Armadilo 'Dear Chefs, work doubles pain free' white, strike-through features list, shoe + top view, price pill (climbed 52 places in 7d)"
+    },
+    "t_dear_heavy": {
+      "file": "reference/benchmarks/trend_Armadilo_dontsit2.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Armadilo 'Dear Chefs, your clogs weigh a ton. These don't.' shoe with 4 hand arrows, black price bar"
+    },
+    "t_week_progress": {
+      "file": "reference/benchmarks/trend_Footstr_flat.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Footstr Week 0/4/9 three-panel legs with red→green alignment line, 'gone or your money back', dark special-deal bar"
+    },
+    "t_ipad_sticky": {
+      "file": "reference/benchmarks/trend_Footstr_heel.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Footstr real photo of an iPad comparing two side-view feet with red/green drawn lines + handwritten sticky note"
+    },
+    "t_timeline_pills": {
+      "file": "reference/benchmarks/trend_FootHealthClub.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Foot Health Club bold banner headline + product + 4 stacked time-step pills (5 min / 15 min / 5 days / 2 weeks)"
+    },
+    "t_first_time_years": {
+      "file": "reference/benchmarks/trend_Konjoun.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Konjoun 'In 2026 I felt every rock... first time in 20 years' illustrated cross-section panels Year 1-20 / Week 1 / Week 4 + icons"
+    },
+    "t_anti_x": {
+      "file": "reference/benchmarks/trend_OrthoFit_negative.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): OrthoFit 'ANTI-GRANDPA WALKING SHOES' two-color headline, orange plus list, big shoe"
+    },
+    "t_swelled_split": {
+      "file": "reference/benchmarks/trend_SeniorHealth_swelled.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Senior Health 'You didn't outgrow your shoes. Your feet swelled' real phone before/after feet split (climbed 101 places in 14d)"
+    },
+    "t_dont_buy_engraving": {
+      "file": "reference/benchmarks/trend_Tiffany_barefootproblem.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): 'DON'T BUY BAREFOOT SHOES' vintage engraving illustration, red pain marks on feet, aged paper"
+    },
+    "t_collage_offer": {
+      "file": "reference/benchmarks/trend_Musabela_BOGO.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Musabela lifestyle collage of colorways + offer bar 'This offer won't last forever'"
+    },
+    "t_fan_circle": {
+      "file": "reference/benchmarks/trend_Bright_heelpain.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Bright Footwear shoes fanned in a circle on pale blue, 'STABBING HEEL PAIN? THERE'S A FIX', offer in the middle"
+    },
+    "t_candid_nurse": {
+      "file": "reference/benchmarks/trend_Kirsty_nurse.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Kirsty Phillips candid phone photo of a nurse at a nurses' station, no text (advertorial image)"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
