@@ -212,6 +212,8 @@ They are our biggest competitors and write very direct-response copy. Each run:
    matching their DR intensity (specific numbers, named pain, agitation, risk reversal) with OUR approved
    claims only: never their claims we can't back, their brand names in a negative way, or their logos.
 
+- **Black Friday theme (user 2026-10-31, Comfort Wear):** every Black Friday ad is WHITE + RED with a little GOLD (brand.json `program.black_friday_week_2026_11_09.theme`, benchmark `bf_theme_brand`): light backgrounds, red offer bands/pills/tags with white text, black only for body text, small gold accents. No black bands, no dark backgrounds, no purple/blue accents.
+
 ### 1d. Angle gaps (EVERY run, user rule 2026-10-30): test what competitors test and we don't
 1. `python ads/atria_pull.py rivals --wide` (core_competitors + brand.json `angle_rivals`: Footstr, Orthofeet,
    Kuru, Vionic, OrthoFit, Konjoun, Armadilo, Stryde, etc.) → `data/angle_rivals_<date>.csv`.

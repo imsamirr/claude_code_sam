@@ -305,7 +305,8 @@
         "B_gifts": "\"BUY 2 PAIRS, GET 2 FREE GIFTS\" with the gifts shown/named as \"3-PACK CUSHIONED SOCKS\" and \"FREE TRAVEL BAG\""
       },
       "either_or": "Each concept uses offer A OR offer B, never both on the same concept. Split roughly evenly across the batch; a concept's Spanish twin uses the same offer. Offer concepts are most of the batch (BF week); non-offer concepts still lead with foot pain/nurse/travel hooks and a small BF tag.",
-      "do_not": "Do not name prices or a dollar value for the gifts, do not combine the 60% with the gifts, do not use 'quick/fast shipping' or easy-returns wording."
+      "do_not": "Do not name prices or a dollar value for the gifts, do not combine the 60% with the gifts, do not use 'quick/fast shipping' or easy-returns wording.",
+      "theme": "BLACK FRIDAY BRAND THEME (user 2026-10-31): the ad's color theme is WHITE and RED with a little GOLD. Use white or very light backgrounds, bold red (#D7141A style) for the main offer bands, pills, tags and key words, white text on red, black only for body text, and small gold accents (a few gold confetti pieces, a thin gold ribbon or gold star details). No black bands, no dark backgrounds, no other accent colors (no purple or blue text or bands). Reference: reference/benchmarks/bf_theme_brand.jpg (our own BF hero: white 'BLACK' + red 'FRIDAY', red offer box, red '+' pills, gold balloons/gifts; keep our light backgrounds so dark shoes stay visible)."
     },
     "creative_rules_v2": {
       "rule": "User rule 2026-10-26 (replaces the polished-ad look for new concepts). Fixes four issues in the test batches: (1) no features/benefits on the ad, (2) looks AI, not real, (3) offer too loud, (4) copy too clever. Set `\"style\": \"ugc\"` on a concept to apply generate.py's UGC rule and brand.json -> quality_bar_ugc; default for all new nurse/travel/Black Friday concepts.",
@@ -942,6 +943,10 @@
     "g_face_split": {
       "file": "reference/benchmarks/gap_Stepprs_face_split.jpg",
       "use_for": "ANGLE-GAP format ref (Stepprs, active): big red condition headline, same woman two faces side by side (pain vs relief) with WITHOUT / WITH pills and round inset icons, bottom offer bar"
+    },
+    "bf_theme_brand": {
+      "file": "reference/benchmarks/bf_theme_brand.jpg",
+      "use_for": "OUR Black Friday theme (user 2026-10-31): white + red with a little gold; red offer box with white '60% OFF SITEWIDE', red '+' pills for supporting lines, gold accents. Use light backgrounds for our ads."
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
