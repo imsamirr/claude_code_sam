@@ -1,0 +1,341 @@
+{
+ "week": "2026-W43-tue",
+ "concepts": [
+  {
+   "id": "T43_01_den_petri_grid_6of7",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "colorway": "pod",
+   "funnel": "tof",
+   "angle": "Lab-results petri-dish grid: 6 of 7 cleaners leave growth, one comes out clean (format: medical imaging / petri proof)",
+   "based_on": "VID_DEN32_COMPARISON_IT_02_LP_LISTICLE_V2 '6 of 7 pods leave live bacteria' (video, $7,458 spend, 2.55 ROAS) Competitor pods stay unbranded; approved claim '6 of 7 pods leave live bacteria' + '99.9%'.",
+   "headline": "6 of 7 ultrasonic cleaners leave live bacteria on your dentures.",
+   "prompt": "Top-down lab photo of a white lab bench with seven round petri dishes in a 4 plus 3 grid, each dish labeled only with a small white sticker number 1 to 7. Six dishes show thick yellow-cream bacterial colonies and fuzzy growth; the seventh dish, marked with a green check circle, is perfectly clear. Beside the clear dish stands the white DentalPULSE ultrasonic cleaner from the reference photo. A pair of clean dentures with natural pink gums sits at the edge of the bench. Bold navy headline in the upper third: \"6 of 7 ultrasonic cleaners leave live bacteria on your dentures.\" Small blue line at the bottom: \"90-day lab test. Tap water. 5 minutes.\" No brand names or logos anywhere.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the green check circle and the small blue line at the bottom",
+      "ms": 900
+     },
+     {
+      "edit": "Make dishes 2 through 7 all clear, with no colonies",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T43_02_den_lied_to_comic",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "angle": "4-panel webcomic: brush + tablet 'advice' vs the sound-wave cleaner (format: comic_strip)",
+   "based_on": "VID_DEN24_COMPARISON_IT_02 'You've Been Lied To' (video, $3,897 spend, 2.10 ROAS) Anti-tablet/brush 'outdated advice' angle kept; no stat claims.",
+   "headline": "You've been lied to about cleaning dentures.",
+   "prompt": "Four-panel comic strip. Bold headline strip above the panels: \"You've been lied to about cleaning dentures.\" Panel 1: a cheerful grandmother scrubbing dentures with a toothbrush, speech bubble: \"Brush and a tablet. That's what they told me.\" Panel 2: dentures in a glass with a fizzing blue tablet and cartoon germs laughing at the bottom of the glass, bubble from the germs: \"Still here!\" Panel 3: her grandson hands her the white DentalPULSE ultrasonic cleaner from the reference photo and says in a bubble: \"Try sound waves, Grandma.\" Panel 4: brown water in the cleaner basin and sparkling white dentures, grandma grinning, bubble: \"Wow. That was all on my dentures?\"",
+   "format": "comic_strip"
+  },
+  {
+   "id": "T43_03_den_notes_research",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "colorway": "pod",
+   "funnel": "tof",
+   "angle": "Native iOS-style Notes page: 3 weeks of research on every way to clean dentures (format: native UI notes)",
+   "based_on": "IMG_DEN64_NATIVEAD_51_3 'read this before you consider ultrasonic cleaners' (static, $1,404 spend, 3.19 ROAS; 51_12 sibling $2,425, 2.59) Native-advertorial voice ('I spent three weeks looking into every way there is to clean a set of dentures') re-skinned as a phone Notes page.",
+   "headline": "I researched every way to clean dentures for 3 weeks.",
+   "prompt": "Screenshot of a phone Notes app page on a cream paper-textured note, no app logos. Big bold title: \"I researched every way to clean dentures for 3 weeks.\" Below, a typed list with checkmarks and crosses: \"Tablets: pool chemicals + bleach, film stays\", \"Brush + soap: scratches, misses the pores\", \"Vinegar: still yellow\", \"Cheap pods: 6 of 7 leave live bacteria\", then in green: \"Ultrasonic cleaner, tap water, 5 minutes: brown water on cycle 1\". At the bottom an inserted photo of the white DentalPULSE ultrasonic cleaner from the reference photo on a bathroom counter. Phone status bar at the top with time 9:41. The only pill allowed is none; no extra pill under the photo. IMPORTANT: render ONLY the exact quoted words; no other text anywhere: no extra pills, icon rows, feature lists, taglines, captions, footnotes or brand panels. Full-bleed scene to the bottom edge.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the inserted product photo at the bottom",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the last green line and the cheap pods line",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T43_04_den_podium_top7",
+   "group": "iteration",
+   "persona": "switcher",
+   "colorway": "pod",
+   "funnel": "tof",
+   "angle": "3D podium ranking of ultrasonic cleaners with unbranded rivals and ours on #1 (format: ranking podium, trophy)",
+   "based_on": "IMG_DEN62_PROBSOL_ITERATION_02 'Top 7 Ultrasonic Cleaners for Dentures' (static, $774 spend, 3.93 ROAS; TOFv1_A30 $556, 2.38) Rankings static 'Top 7 Ultrasonic Cleaners for Dentures' re-skinned as a podium; rivals unbranded; Clinicians' Choice seal approved.",
+   "headline": "The #1 ultrasonic denture cleaner of 7 tested.",
+   "prompt": "Clean studio render of a three-step winners podium on a pale blue background with confetti. On the top step labeled \"1\" stands the white DentalPULSE ultrasonic cleaner from the reference photo with a gold trophy ribbon and a small navy-and-gold seal reading \"Clinicians' Choice\". On steps 2 and 3 stand two generic unbranded grey plastic pods with no logos, looking dull. Bold navy headline in the upper third: \"The #1 ultrasonic denture cleaner of 7 tested.\" Small line under the podium: \"Rated 4.8/5\" with five gold stars.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the Clinicians' Choice seal and the gold stars line",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the two lower-step grey pods and the confetti",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T43_05_den_retro_1930s",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "colorway": "pod",
+   "funnel": "tof",
+   "angle": "1930s rubber-hose cartoon: 90 years of tablets vs the modern ultrasonic cleaner breaking out in color (format: retro_cartoon)",
+   "based_on": "TOFv1_BC1 DEN226 'Why tablets are not good, nostalgia, evil Polident' (video, $1,528 spend, 1.83 ROAS) Nostalgia/anti-tablet hook; 'pool chemicals and bleach' framing per user rule - verify persulfate wording with compliance before launch.",
+   "headline": "Since the 1930s they've sold you pool chemicals.",
+   "prompt": "Black-and-white 1930s rubber-hose cartoon still with vintage film grain and a vignette, old-timey title-card lettering across the top reading \"Since the 1930s they've sold you pool chemicals.\" A bendy-limbed cartoon grandpa with pie-cut eyes and white gloves holds a glass of dentures fizzing with a blue tablet while a cartoon skull-and-crossbones warning floats over the glass. In the foreground, in full modern color and bursting out of the black-and-white scene, stands the white DentalPULSE ultrasonic cleaner from the reference photo, with sparkling white dentures rising from it. Small old-timey caption at the bottom: \"Tap water. 5 minutes.\"",
+   "format": "retro_cartoon"
+  },
+  {
+   "id": "T43_06_den_x_post_brown_water",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "angle": "X post with attached photo: brown water after the first cycle (format: x_post)",
+   "based_on": "TOFv1_BX3 DEN267 HOOK 1 'I thought my dentures were clean... until I tried this' (video, $324 spend, 2.02 ROAS) Hook 'I thought my dentures were clean' + brown-water proof from the product-page reviews; real-customer voice.",
+   "headline": "I brushed them. I soaked them. I thought they were clean. Then the water turned brown.",
+   "prompt": "Render as a real X post screenshot. Display name \"Linda M.\", handle \"@lindam_1952\", \"· 3h\". Post text exactly: \"I brushed them. I soaked them. I thought my dentures were clean. Then the water turned brown.\" Attached rounded photo: the open lid of the white DentalPULSE ultrasonic cleaner from the reference photo showing murky brown water in the steel basin with a set of dentures partly visible, taken on a phone in a bathroom. Engagement row with small counts 1.2K replies 3,418 reposts 21K likes.",
+   "format": "x_post"
+  },
+  {
+   "id": "T43_07_den_bacteria_heatmap",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "colorway": "pod",
+   "funnel": "tof",
+   "angle": "Thermal-style bacteria heat-map scan of a denture, before vs after one 5-minute cycle (format: medical imaging)",
+   "based_on": "_DEN_VID_DEN81_H3 REVISED '6 of 7 pods can't remove bacteria' (video, $6,999 spend, 2.28 ROAS; H1 variant $824, 3.81 ROAS) Approved claim 'Eliminates 99.9% of bacteria' in one 5-minute cycle; heat-map is illustrative (flag: not a lab image).",
+   "headline": "Same denture. Before and after one 5-minute cycle.",
+   "prompt": "Medical-imaging style graphic on a dark navy background. Two side-by-side scan panels of the same upper denture viewed from below. Left panel labeled \"BEFORE\" glows red, orange and yellow with dense hot spots in the pores and along the gum line. Right panel labeled \"AFTER 5 MIN\" is cool blue and almost black, with a tiny few faint dots. A thin legend bar along the bottom shows low to high bacteria. Bold white headline in the upper third: \"Same denture. Before and after one 5-minute cycle.\" Small white line: \"Eliminates 99.9% of bacteria.\" A small photo of the white DentalPULSE ultrasonic cleaner from the reference photo in the bottom center.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the small product photo and the legend bar",
+      "ms": 900
+     },
+     {
+      "edit": "Turn the left panel's hot spots down to light orange only",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T43_08_den_pharmacy_aisle",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "colorway": "pod",
+   "funnel": "offer",
+   "angle": "Pharmacy aisle: tablet shelf with a red 'stop' sale-sign for the ultrasonic cleaner (format: real-world shelf sign + offer)",
+   "based_on": "Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $666 spend, 2.15 ROAS) Offer static '40% Off + Free Gifts' (40% OFF $99.95, 120-day guarantee).",
+   "headline": "Skip the tablet aisle.",
+   "prompt": "Realistic photo of a drugstore denture-care aisle shot at an angle. The shelves hold generic unbranded white-and-blue denture tablet boxes with no readable brand names. A large red shelf-talker sign hanging over the aisle reads in bold white type: \"Skip the tablet aisle.\" Directly beneath it a smaller white sign: \"40% OFF - $99.95 - 120-day guarantee\". In the center foreground on the shelf stands the white DentalPULSE ultrasonic cleaner from the reference photo, lit by the store lights. Shot on a phone, natural. The photo fills the whole frame down to the bottom edge with no white panel; place the offer sign fully inside the frame with every word visible. IMPORTANT: render ONLY the exact quoted words; no other text anywhere: no extra pills, icon rows, feature lists, taglines, captions, footnotes or brand panels. Full-bleed scene to the bottom edge."
+  },
+  {
+   "id": "T43_09_den_text_gift_mom",
+   "group": "iteration",
+   "persona": "denture_caregiver",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "angle": "iMessage-style text thread: daughter sends mom the Pod Denture Bundle (format: native UI texts + gift)",
+   "based_on": "Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $666 spend, 2.15 ROAS) Offer '40% Off + Free Gifts' + Pod Denture Bundle $99.95 (compare-at $180); denture_caregiver persona.",
+   "headline": "Mom, I ordered you something for your dentures.",
+   "prompt": "Screenshot of a phone text-message thread with no app logos. Grey and blue bubbles. Top contact name: \"Mom\". Daughter (blue): \"Mom, I ordered you something for your dentures.\" Mom (grey): \"Ordered what?\" Daughter (blue): \"Ultrasonic cleaner. Tap water, 5 minutes. No more tablets.\" Mom (grey): \"Oh honey. You shouldn't have.\" Daughter (blue): \"It's $99.95 with a free travel bag and case. 120-day guarantee.\" Below the thread a link preview card with a photo of the Pod Denture Bundle from the reference photo: the cleaner large, with a SMALL travel bag and a SMALL denture case much smaller than the cleaner. No warranty badge."
+  },
+  {
+   "id": "T43_10_den_wanted_poster",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "colorway": "pod",
+   "funnel": "offer",
+   "angle": "Old West 'WANTED' poster for denture tablets with the cleaner as the sheriff's fix (format: wanted poster, controversy)",
+   "based_on": "TOFv1_BC1 DEN226 'Why tablets are not good, nostalgia, evil Polident' (video, $1,528 spend, 1.83 ROAS) Anti-tablet angle; claims kept to 'pool chemicals, bleach, film stays' per notion_brief (verify). Offer 40% OFF $99.95.",
+   "headline": "WANTED: denture tablets.",
+   "prompt": "A weathered parchment wanted poster nailed to a wooden wall. Big black western lettering at the top: \"WANTED: denture tablets.\" Under it a drawn sketch of a fizzing blue tablet in a mugshot frame, and typed lines: \"Charged with: pool chemicals, bleach, and leaving the film behind.\" At the bottom a red stamp: \"40% OFF - $99.95 - 120-day guarantee\" and next to the poster stands the white DentalPULSE ultrasonic cleaner from the reference photo like the hero. No brand names. Place the red stamp across the lower-left of the poster, fully inside the frame and not covered by the cleaner. IMPORTANT: render ONLY the exact quoted words; no other text anywhere: no extra pills, icon rows, feature lists, taglines, captions, footnotes or brand panels. Full-bleed scene to the bottom edge."
+  },
+  {
+   "id": "T43_11_ng_evidence_bag",
+   "group": "iteration",
+   "persona": "night_guard",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "angle": "Forensic evidence bag + swab: Exhibit A, your 'clean' night guard (format: evidence / crime-scene)",
+   "based_on": "VID_DEN24_COMPARISON_IT_02 'You've Been Lied To' (video, $3,897 spend, 2.10 ROAS) 'You've been lied to' angle for night guards; yellow = bacteria + film (no promise to remove set-in yellow).",
+   "headline": "Exhibit A: your 'clean' night guard.",
+   "prompt": "Crime-scene style photo on a grey table: a clear plastic evidence bag with a red tape seal containing a yellowed cloudy night guard with a visible film, next to a lab swab and a numbered yellow evidence marker card reading \"A\". Behind it a corkboard with tiny red pins. Bold white-and-red headline in the upper third: \"Exhibit A: your 'clean' night guard.\" Small label at the bottom: \"That yellow is bacteria and film.\" the white DentalPULSE ultrasonic cleaner from the reference photo stands on the table at the right edge, open.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the small label at the bottom and the corkboard",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the swab and the evidence marker card",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T43_12_ng_dating_profile",
+   "group": "iteration",
+   "persona": "night_guard",
+   "colorway": "pod",
+   "funnel": "tof",
+   "angle": "Dating-app profile of a night guard: swipe left on hand soap (format: native UI dating profile)",
+   "based_on": "IMG_DEN62_PROBSOL_ITERATION_02 'Top 7 Ultrasonic Cleaners for Dentures' (static, $774 spend, 3.93 ROAS; TOFv1_A30 $556, 2.38) Rankings/comparison angle (old methods vs ultrasonic) re-skinned as a dating profile.",
+   "headline": "Swipe left on hand soap.",
+   "prompt": "Screenshot of a dating-app style profile card, no logos. Large photo area showing a clear night guard on a white bathroom shelf next to the white DentalPULSE ultrasonic cleaner from the reference photo. Name line: \"Night Guard, 3 yrs\". Bio: \"8 hours a night in your mouth. Hobbies: growing bacteria. Dealbreakers: hand soap, toothpaste, a rinse and a prayer. Looking for: sound waves.\" Round red X button on the left and a green heart on the right. Bold headline above the card: \"Swipe left on hand soap.\"",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the bio text",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the red X and green heart buttons",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T43_13_ng_pictogram_6of7",
+   "group": "iteration",
+   "persona": "night_guard",
+   "colorway": "pod",
+   "funnel": "tof",
+   "angle": "Stat pictogram: 7 pod icons, 6 red and 1 blue (format: stat pictogram)",
+   "based_on": "VID_DEN32_COMPARISON_IT_02_LP_LISTICLE_V2 '6 of 7 pods leave live bacteria' (video, $7,458 spend, 2.55 ROAS) Approved 90-day lab-test claim '6 of 7 pods leave live bacteria'; competitors unbranded.",
+   "headline": "6 of 7 ultrasonic cleaners leave live bacteria on your night guard.",
+   "prompt": "Clean infographic on a white background. Bold navy headline in the upper third: \"6 of 7 ultrasonic cleaners leave live bacteria on your night guard.\" A row of seven simple pod icons: six are grey with a red bacteria germ and a red X, one is DentalPULSE blue with a green check. Under the row, a large photo of the white DentalPULSE ultrasonic cleaner from the reference photo next to a clean clear night guard. Small line at the bottom: \"90-day side-by-side lab test.\""
+  },
+  {
+   "id": "T43_14_ng_claymation_spa",
+   "group": "iteration",
+   "persona": "night_guard",
+   "colorway": "pod",
+   "funnel": "offer",
+   "angle": "Claymation spa day for a night guard in the cleaner (format: claymation, offer)",
+   "based_on": "Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $666 spend, 2.15 ROAS) Offer static '40% Off + Free Gifts' (40% OFF $99.95, 120-day guarantee) as a claymation scene.",
+   "headline": "Spa day for your night guard.",
+   "prompt": "Stop-motion claymation still: a plasticine night guard character with a cute face and cucumber slices on its eyes relaxes in the steel basin of the white DentalPULSE ultrasonic cleaner from the reference photo (open lid) filled with bubbly water, tiny clay bacteria running away out the sides. Handmade miniature bathroom set, soft warm lighting. Headline in chunky clay-lettered type above: \"Spa day for your night guard.\" Clay price tag hanging from the lid: \"40% OFF - $99.95 - 120-day guarantee\". IMPORTANT: render ONLY the exact quoted words; no other text anywhere: no extra pills, icon rows, feature lists, taglines, captions, footnotes or brand panels. Full-bleed scene to the bottom edge.",
+   "format": "claymation",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the clay price tag",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the cucumber slices and the running bacteria",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T43_15_ng_vintage_ad",
+   "group": "iteration",
+   "persona": "night_guard",
+   "colorway": "pod",
+   "funnel": "offer",
+   "angle": "1950s vintage print advertisement: grind all night, clean in 5 minutes (format: vintage magazine ad, offer)",
+   "based_on": "Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $666 spend, 2.15 ROAS) Offer static '40% Off + Free Gifts' re-skinned as a 1950s print ad.",
+   "headline": "Grind all night. Clean in 5 minutes.",
+   "prompt": "A 1950s vintage magazine print advertisement, illustrated in mid-century painted style with halftone texture and slightly aged paper. A smiling woman in a pastel robe holds a clean night guard up to the light beside the white DentalPULSE ultrasonic cleaner from the reference photo. Big retro lettering across the top: \"Grind all night. Clean in 5 minutes.\" A starburst badge in the corner: \"40% OFF - $99.95 - 120-day guarantee\". IMPORTANT: render ONLY the exact quoted words; no other text anywhere: no extra pills, icon rows, feature lists, taglines, captions, footnotes or brand panels. Full-bleed scene to the bottom edge."
+  },
+  {
+   "id": "T43_16_ret_nutrition_label",
+   "group": "iteration",
+   "persona": "retainer",
+   "colorway": "pod",
+   "funnel": "tof",
+   "angle": "Parody 'Nutrition Facts' label of a retainer case (format: parody label / hazard)",
+   "based_on": "_DEN_VID_DEN81_H3 REVISED '6 of 7 pods can't remove bacteria' (video, $6,999 spend, 2.28 ROAS; H1 variant $824, 3.81 ROAS) Lab-test bacteria theme; retainer case as the gross object (not a literal count claim).",
+   "headline": "What's really in your retainer case.",
+   "prompt": "Product-style photo: a grey retainer case lying open next to a black-and-white parody \"Nutrition Facts\" label reading \"Serving size: 1 retainer case. Bacteria: 100%. Biofilm: 100%. Yeast: lots. Smell: yes.\" Bold headline in the upper third: \"What's really in your retainer case.\" A clear retainer with a cloudy film sits on the case. At the right side, the white DentalPULSE ultrasonic cleaner from the reference photo. IMPORTANT: render ONLY the exact quoted words; no other text anywhere: no extra pills, icon rows, feature lists, taglines, captions, footnotes or brand panels. Full-bleed scene to the bottom edge. Keep the Nutrition Facts label flat, upright and fully inside the frame, not rotated, with all five lines fully readable.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the nutrition label",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T43_17_ret_fb_comment_tablets",
+   "group": "iteration",
+   "persona": "retainer",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "angle": "Facebook comment thread: tablets made my retainer brittle (format: fb_comment)",
+   "based_on": "IMG_DEN64_NATIVEAD_51_3 'read this before you consider ultrasonic cleaners' (static, $1,404 spend, 3.19 ROAS; 51_12 sibling $2,425, 2.59) Native-advertorial voice re-skinned as real-customer comments; survey quote 'tablets made the retainer fragile'.",
+   "headline": "Tablets made my retainer brittle. Never again.",
+   "prompt": "Render as a Facebook mobile comment thread. Comment 1 by \"Kayla R.\": \"Tablets made my retainer brittle and it still looked cloudy.\" Reply by \"Dana W.\": \"Same. This ultrasonic cleaner got mine clear again. No tablets, just tap water.\" Reply by \"Kayla R.\": \"Ordering today.\" Each with small round profile photos of women in their twenties and thirties, Like Reply row, and tiny reaction pills.",
+   "format": "fb_comment",
+   "no_product": true
+  },
+  {
+   "id": "T43_18_ret_cartoon_bundle",
+   "group": "iteration",
+   "persona": "retainer",
+   "colorway": "ultimate_bundle",
+   "funnel": "offer",
+   "angle": "Cute 3D-animated retainer character opens the Ultimate Cleaning Bundle (format: cartoon_3d, offer)",
+   "based_on": "Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $666 spend, 2.15 ROAS) Offer static; Ultimate Cleaning Bundle $169.95 (was $300, save $130) shown only in offer creatives.",
+   "headline": "Save $130 on the Ultimate Cleaning Bundle.",
+   "prompt": "Still frame from a 3D animated feature film: a cute cartoon clear retainer character with big eyes happily opens the Ultimate Cleaning Bundle from the reference photo (the Pod, the Travel Pod and the box of tablets, at their true relative sizes), sparkles in the air. Chunky bold headline above: \"Save $130 on the Ultimate Cleaning Bundle.\" Price pill: \"$169.95\" with small \"was $300\" and \"120-day guarantee\".",
+   "format": "cartoon_3d"
+  },
+  {
+   "id": "T43_19_al_work_chat",
+   "group": "iteration",
+   "persona": "aligner",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "angle": "Work chat screenshot: coworker asks about the smell from your aligners (format: native UI team chat)",
+   "based_on": "TOFv1_BX3 DEN267 HOOK 1 'I thought my dentures were clean... until I tried this' (video, $324 spend, 2.02 ROAS) 'I thought it was clean' hook; survey aligner quotes 'no more smell', 'white film'.",
+   "headline": "Nobody tells you your aligners smell.",
+   "prompt": "Screenshot of a generic work team-chat app with no logos. Channel name \"#general\". A message from \"Jess\": \"Anyone else smell something in the break room?\" A reply from \"Tom\": \"It's the aligners lol\" Then a reply from \"Jess\": \"ok I need help\" Below, a reply from \"Amy\": \"Ultrasonic cleaner. Tap water. 5 min. No white film.\" . Bold headline above: \"Nobody tells you your aligners smell.\" IMPORTANT: render ONLY the exact quoted words; no other text anywhere: no extra pills, icon rows, feature lists, taglines, captions, footnotes or brand panels. Full-bleed scene to the bottom edge. The chat is a compact card in the upper-left and the ONLY cleaner in the image is one large cleaner on the right (open lid, a hand lowering a clear aligner in). No inset photo, no second cleaner."
+  },
+  {
+   "id": "T43_20_al_shelf_bundle",
+   "group": "iteration",
+   "persona": "aligner",
+   "colorway": "ultimate_bundle",
+   "funnel": "offer",
+   "angle": "Bathroom shelf lifestyle shot with sticker burst for the Ultimate Cleaning Bundle (format: lifestyle photo + sticker)",
+   "based_on": "Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $666 spend, 2.15 ROAS) Offer static; Ultimate Cleaning Bundle $169.95 (was $300) offer-only.",
+   "headline": "Clean aligners at home and on the go.",
+   "prompt": "Lifestyle photo of a bright bathroom shelf with the Ultimate Cleaning Bundle from the reference photo (the Pod, the Travel Pod and the box of tablets, true relative sizes), a pair of clear aligners in the Pod's open lid, soft morning light. Large bold headline in the upper third: \"Clean aligners at home and on the go.\" A round yellow sticker in the corner: \"Save $130\" and below it a navy pill: \"$169.95 - 120-day guarantee\"."
+  }
+ ],
+ "notes": "Tuesday iteration batch W43 (Oct 20 2026). 20 concepts: 10 dentures / 5 night guards / 3 retainers / 2 aligners; 13 top-of-funnel + 7 offer. Iterations of Atria current winners (seasonal W43 pull returned 0 rows). 4 cartoon formats."
+}

@@ -1,0 +1,82 @@
+{
+  "week": "2026-W45-inspo-batch2",
+  "notes": "Standard (non-Black-Friday) statics from 5 user references (2026-10-27), aimed at nurses, plus-size and general comfort. Prices only from approved claims ($59.95, was $90). Dropped from refs: knee-pain cure quote, 'while stock lasts', 'today only'/'ends tonight'/'half price', 'pressure relief'/'swelling support' claims, '70% off clearance', 'rated 4.8 by 500,000+ workers', exploded sole layers (internals not in our product photos).",
+  "concepts": [
+    {
+      "id": "T45_01_quote_box_nurse",
+      "persona": "nurse",
+      "colorway": "red_burgundy",
+      "logo": true,
+      "benchmark": "quote_box",
+      "offer": "price_strike",
+      "angle": "Playful quote: 'Great for my 12-hour shifts.' – literally every nurse on my floor; $90 struck to $59.95, pair in a ComfortWear box",
+      "based_on": "User reference: Hike 'My knee pain was gone in a few days. – Literally everyone' box ad + Trustpilot 5-star 'Great for my 12 hour shifts' + script 'three other nurses on my floor ordered them'",
+      "headline": "“Great for my 12-hour shifts.”",
+      "prompt": "Warm cream background. Top-left: a huge heavy red sans quote on three lines \"“Great for my\" / \"12-hour\" / \"shifts.”\" Under it, black text \"– Literally every nurse on my floor\". Lower-left: black \"$120\" with a thick black strike-through line, under it a huge heavy red \"$59.95\", then heavy red text on two lines \"Free shipping\" / \"& returns\". Right side: a tall open kraft cardboard shoe box standing upright with the ComfortWear logo from the attached logo image printed vertically on its front in black, and a pair of the red/burgundy shoes from the product reference sticking out of the top, large and sharp at true proportions. No other text. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [],
+      "revision": "price v2 (user 2026-10-29): strike-through $90 -> $120"
+    },
+    {
+      "id": "T45_02_split_heavier_feet",
+      "persona": "plus_size",
+      "colorway": "all_black",
+      "offer": "standard_40",
+      "angle": "Plus-size split: the shoe built for the pressure heavier feet actually feel, crossed legs on a park bench",
+      "based_on": "User reference: 'TODAY ONLY HALF PRICE / the first shoe built for the pressure heavier feet actually feel' split ad (urgency and 50% swapped for the standard 40% offer)",
+      "headline": "MADE FOR PLUS-SIZED",
+      "prompt": "Split layout. Left 50%: warm cream panel. At the top, four small round color dots in white circles (black/purple, all black, navy/blue, red). Huge heavy black all-caps title on two lines \"MADE FOR\" / \"PLUS-SIZED\". Under it a full-width maroon bar with white all-caps \"40% OFF TODAY\". Then dark text on three lines: \"The shoe built for the pressure heavier feet actually feel.\" Then three rows, each with a dark check-circle icon and dark text: \"Wide, Stable Base\", \"Arch Support That Holds Up\", \"Room For Swollen Feet\". Bottom-left: small dark text \"Free Shipping | 30-Day Money-Back Guarantee\". Right 50%: a real photo of a plus-size woman about 60, US size 22-24, seen from the chest down sitting on a park bench: a full round body, a soft rounded belly and wide hips filling the bench seat, thick full thighs under a long linen skirt, wide full calves and thick ankles, legs crossed at the ankle (not at the knee), wearing the all-black shoes from the product reference, large and sharp. Her body clearly reads as plus-size at first glance, natural and dignified, never a slim model. Park path and greenery softly blurred. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": [],
+      "revision": "v2 (user 2026-10-29): headline 'MADE FOR PLUS-SIZED' and a clearly plus-size model; v3: v2 model still looked only slightly fuller (slim template pulled it back); template dropped and body described explicitly"
+    },
+    {
+      "id": "T45_03_arent_cheap_nurse",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "arent_cheap",
+      "offer": "none",
+      "angle": "Nurse value framing: our shoes aren't cheap; don't buy ComfortWear if you want a pair that's flat by hour 6",
+      "based_on": "User reference: Valenza 'OUR SHOES AREN'T CHEAP' ad + approved 'Yes, it's pricey' angle (Q48_03) + nurse language (12s, hour 6, slip-resistant)",
+      "headline": "OUR SHOES AREN'T CHEAP.",
+      "prompt": "Clean white background with a faint soft grey wave pattern. Top-left: huge heavy dark green serif all-caps headline on two lines \"OUR SHOES\" / \"AREN'T CHEAP.\" Below, three left-aligned bullet sentences with small grey dot bullets, dark grey text: \"If you want a $20 pair that's flat by hour 6, don't buy ComfortWear.\" / \"If you want to limp to your car after every 12, don't buy ComfortWear.\" / bold dark green: \"If you want arch support and grip that last your whole shift, ComfortWear is for you.\" Bottom-left: a real portrait of a smiling nurse about 55 in navy scrubs, shoulders up, no readable hospital name. Bottom-right: a pair of the black-and-purple shoes from the product reference, large and sharp at true proportions, soft shadow. No offer, no logo. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "T45_04_hsa_fsa_accepted",
+      "persona": "comfort_only",
+      "colorway": "navy_blue",
+      "benchmark": "hsa_fsa",
+      "offer": "hsa",
+      "angle": "HSA/FSA accepted: use pre-tax dollars on better shoes for long days",
+      "based_on": "User reference: 'HSA/FSA ACCEPTED' pillow ad + approved claim 'HSA/FSA eligible' + Trustpilot 'HSA payment accepted' + benchmark hsa_minimal_9x16",
+      "headline": "HSA/FSA ACCEPTED",
+      "prompt": "Warm sunny yellow background. Top-left: huge heavy black all-caps headline on two lines \"HSA/FSA\" / \"ACCEPTED\", then a short teal underline. Under it, dark text on two lines: \"Use your HSA or FSA to invest in \" + bold \"happier feet.\" Left side, two rows each with a round white icon with a teal outline and dark text beside it: (1) icon with teal text \"HSA FSA\", label \"Pay with your HSA or FSA\"; (2) a simple teal piggy-bank icon, label \"Use pre-tax dollars\". Below them a white rounded card with a teal check-circle icon and dark text \"A smarter way to stay on your feet\". Bottom-right: a pair of the navy shoes with bright blue accents from the product reference standing on a pale blue surface, large and sharp at true proportions (about half the image width), soft shadow. No price, no logo. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "T45_05_chain_nurse_shift",
+      "persona": "nurse",
+      "colorway": "black_white",
+      "benchmark": "chain_icons",
+      "offer": "standard_40",
+      "angle": "Cause-and-effect chain for nurses: wrong shoes -> sore arches -> heel pain -> aching knees -> can't sleep; start at your feet",
+      "based_on": "User reference: 'It starts with your shoes. It ends with your whole body.' icon-chain ad + survey (heel pain 25%) + nurse winners' 12-hour framing",
+      "headline": "It starts with your shoes. It ends with your whole shift.",
+      "prompt": "Clean white background. Top: heavy black two-line headline \"It starts with your shoes.\" / \"It ends with your whole shift.\" Below, a row of five simple flat cartoon icons in soft colors, each with a black label underneath and a small black down arrow under the label: (1) a pair of flat worn-out sneakers, \"Wrong shoes\"; (2) a flat foot outline, \"Sore arches\"; (3) a foot with a red glowing heel, \"Heel pain\"; (4) a leg with a red dot on the knee, \"Aching knees\"; (5) a tired woman in navy scrubs in bed, \"Can't sleep\". Center: one black-and-white shoe from the product reference in clean side view, very large (about 70% of the image width) and sharp. To its right, heavy black text on two lines \"Start at\" / \"your feet.\" Bottom: a solid blue rounded pill with white heavy all-caps \"40% OFF + FREE SHIPPING\". No ratings, no worker counts. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    }
+  ]
+}

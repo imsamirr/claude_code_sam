@@ -1,0 +1,161 @@
+{
+  "week": "2026-W45-angle-gaps",
+  "notes": "Angles competitors are testing that we have not (angle-gap study 2026-10-30). Our claims only.",
+  "concepts": [
+    {
+      "id": "AG_01_hey_ladies_over_60",
+      "persona": "active_retiree",
+      "colorway": "navy_blue",
+      "benchmark": "g_over60_callouts",
+      "headline": "Hey Ladies Over 60!",
+      "prompt": "Clean off-white background. Top-left, heavy dark navy text on two lines: \"Hey Ladies\" / \"Over 60!\" (the second line extra bold). Below it two short dark lines: \"Every step on hard floors adds up.\" and, on a soft yellow highlighter swipe, \"Put a cushioned rocker sole in between.\" Right half: a close crop of an older woman's legs in light khaki slacks walking on a sidewalk wearing the navy shoes with bright blue accents from the product reference. Left column: four thin grey leader lines pointing at the shoe, each with a two-line label in dark text: \"Slip On,\" / \"No Bending\"; \"Wide\" / \"Toe Box\"; \"Cushioned\" / \"Rocker Sole\"; \"Non-Slip\" / \"Grip\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "none",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "angle_gap"
+      ],
+      "angle": "Age call-out + hands-free (no bending) for 60+",
+      "based_on": "Angle-gap study 2026-10-30 (research/angle_gaps.md): Armadilo 'Hey Walkers Over 60!' (active image); hands-free/slip-on angle: Armadilo 72 ads, Konjoun 63, Hike 20; we have 4"
+    },
+    {
+      "id": "AG_02_still_bending_over",
+      "persona": "active_retiree",
+      "colorway": "black_purple",
+      "benchmark": "g_face_split",
+      "headline": "STILL BENDING OVER TO TIE YOUR SHOES?",
+      "prompt": "White background. Top: huge heavy black condensed text on two lines \"STILL BENDING OVER\" / \"TO TIE YOUR SHOES?\". Middle: two side-by-side photo panels of the same smiling woman about 65 with short grey hair, cardigan, in a bright entryway. Left panel: she is bent over on a bench straining to tie a laced sneaker, a black pill label on top \"EVERY MORNING\". Right panel: she stands upright smiling, slipping her foot straight into the black shoe with purple accents and bungee laces from the product reference, a purple pill label on top \"JUST SLIP THEM ON\". Bottom: a black band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "angle_gap"
+      ],
+      "angle": "Hands-free / no-bending",
+      "based_on": "Angle-gap study 2026-10-30 (research/angle_gaps.md): Hike/Konjoun/Armadilo hands-free + Stepprs WITHOUT/WITH face-split format; survey: 47% of buyers 65+"
+    },
+    {
+      "id": "AG_03_pf_face_split",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "benchmark": "g_face_split",
+      "headline": "PLANTAR FASCIITIS",
+      "prompt": "White background. Top: huge heavy red condensed headline \"PLANTAR FASCIITIS\". Below: the same woman about 55 shown twice side by side, waist up, in a bright kitchen. Left: wincing in pain, eyes squeezed, hand reaching toward her heel, a dark grey pill label above her \"IN FLAT SNEAKERS\" and a round inset at the bottom showing a foot with a glowing red heel. Right: relaxed and smiling, a purple pill label above her \"IN ORTHO STRETCH\" and a round inset at the bottom showing the black shoe with purple accents from the product reference. Bottom: a black band with white bold text \"40% OFF + FREE SHIPPING\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "angle_gap"
+      ],
+      "angle": "Plantar fasciitis heel pain, emotional face split",
+      "based_on": "Angle-gap study 2026-10-30 (research/angle_gaps.md): Stepprs 'PLANTAR FASCIITIS without/with' (active image, top percentile); Stepprs first-steps/morning angle 71 ads"
+    },
+    {
+      "id": "AG_04_not_age_its_shoes",
+      "persona": "active_retiree",
+      "colorway": "black_white",
+      "benchmark": "g_asleep_wakes",
+      "headline": "THEY SAID IT WAS AGE. IT WAS MY SHOES.",
+      "prompt": "Warm light sand background. Top strip in thin dark text with five dark stars: \"FROM WOMEN WHO STOPPED BLAMING THEIR AGE\". Huge heavy condensed headline on two lines, first line black \"THEY SAID IT WAS AGE.\" second line deep orange \"IT WAS MY SHOES.\" Left column: three simple dark line icons with dark bold two-line text: \"Toes finally have\" / \"room to spread\"; \"Arch support that\" / \"holds all day\"; \"Cushioned rocker sole,\" / \"not flat foam\". Right 45% of the width only: the black shoe with white sole and white accents from the product reference, three-quarter view, sized so it never overlaps or touches any text; the icon column text stays fully visible on clean background. Bottom: a black bar with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "angle_gap"
+      ],
+      "angle": "Reframe: it's not aging, it's your shoes",
+      "based_on": "Angle-gap study 2026-10-30 (research/angle_gaps.md): Konjoun 'The Shoe Damage Doctors Never Explain' (20+ new variants in 5 days = scaling) and 'They were told it was aging... It was the shoe'"
+    },
+    {
+      "id": "AG_05_first_then_soon",
+      "persona": "active_retiree",
+      "colorway": "navy_blue",
+      "benchmark": "g_first_then_soon",
+      "headline": "What Women Over 60 Notice First When They Switch",
+      "prompt": "Pure white background. Top: heavy dark navy text on two lines \"What Women Over 60 Notice\" / \"First When They Switch\". Below: three columns, each with a small hand-drawn sketch icon in navy and light blue line art, connected by dashed arrows. Column labels in bold caps: \"FIRST\", \"THEN\", \"SOON\". Under each, bold dark text: \"Toes have room\" / \"Feet aren't throbbing by dinner\" / \"You walk further without planning around your feet\". Sketches: toes spreading in a wide shoe; a woman with feet up relaxed on a sofa; a woman walking happily in a park. Bottom half: the navy shoe with bright blue accents from the product reference, large, side view, on white. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "none",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "angle_gap"
+      ],
+      "angle": "Progression story for 60+",
+      "based_on": "Angle-gap study 2026-10-30 (research/angle_gaps.md): Konjoun 'What Men Notice First When They Stop Cushioning' FIRST/THEN/SOON (scaling); we have never used a time-progression for retirees"
+    },
+    {
+      "id": "AG_06_we_made_too_many",
+      "persona": "active_retiree",
+      "colorway": "red_burgundy",
+      "benchmark": "t_dear_heavy",
+      "headline": "We made too many. Now they're 40% off.",
+      "prompt": "Soft cream background. A photo of neat stacks of shoe boxes in a small warehouse with several pairs of the red/burgundy shoes from the product reference lined up in front, true proportions. Top: heavy black text on two lines \"We made too many.\" / \"Now they're 40% off.\" Below in smaller dark bold text: \"Better on your feet than on our shelves.\" Bottom: a dark band with white bold text \"FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "angle_gap"
+      ],
+      "angle": "Reason-why discount (overstock)",
+      "based_on": "Angle-gap study 2026-10-30 (research/angle_gaps.md): OrthoFit 'We Made Too Many - Now They're 50% Off' (86 days active)",
+      "needs_confirmation": "Only run if it is true that we over-ordered stock (otherwise it is a deceptive reason-why)."
+    },
+    {
+      "id": "AG_07_only_sold_here",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "t_dear_strike",
+      "headline": "Only sold at comfortorthowear.com",
+      "prompt": "Clean white background. Left: the genuine black shoe with purple accents from the product reference, sharp and true proportions, with a green check circle beside it and dark bold label \"THE REAL ONE\". Right: a dull blurry grey copy of a similar knit sneaker, flattened and saggy, with a red X circle and label \"MARKETPLACE COPY\". Top: heavy black text on two lines \"Looks the same.\" / \"Doesn't feel the same.\" Bottom: dark bold text \"Only sold at comfortorthowear.com\" then a black band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "angle_gap"
+      ],
+      "angle": "Buy direct / anti-knockoff",
+      "based_on": "Angle-gap study 2026-10-30 (research/angle_gaps.md): Stepprs 'Avoid Counterfeits' (456d), Stryde 'Sold by us. Not by them.' (54d), Clove Amazon",
+      "needs_confirmation": "Only run if knockoffs of our shoe are really sold on Amazon/Temu/etc. and we are not on those marketplaces."
+    },
+    {
+      "id": "AG_08_cute_or_comfy",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "benchmark": "g_over60_callouts",
+      "headline": "Comfortable or cute? Why not both.",
+      "prompt": "Bright, airy sunny cafe terrace. A stylish woman about 60 in cropped white trousers and a navy striped top sits with crossed ankles, wearing the red/burgundy shoes from the product reference, crisp, true proportions, the shoes are the focus in the lower half. Top-left in heavy dark text on two lines: \"Comfortable or cute?\" / \"Why not both.\" Below it smaller dark bold text: \"Wide toe box. Arch support. No 'orthopedic' look.\" The text sits on a soft white panel so it reads clearly. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "none",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "angle_gap"
+      ],
+      "angle": "Style: comfort that doesn't look orthopedic",
+      "based_on": "Angle-gap study 2026-10-30 (research/angle_gaps.md): Hike 'You should not have to choose between looking elegant and feeling safe' (79d); OrthoFit style angle 75 ads; teacher survey 'comfortable or cute, hardly ever both'"
+    },
+    {
+      "id": "AG_09_hard_floors_knees",
+      "persona": "nurse",
+      "colorway": "black_white",
+      "benchmark": "g_over60_callouts",
+      "headline": "12 hours on hard floors. Your knees feel every step.",
+      "prompt": "Light grey-blue background. Top, centered, with wide side margins: heavy black text on three lines \"12 hours on\" / \"hard floors.\" / \"Your knees feel every step.\" (the last line slightly smaller so it fits with clear space at both sides) Below in bold dark text on a soft yellow highlighter swipe: \"Put a cushioned rocker sole in between.\" Right: close crop of a nurse's lower legs in navy scrubs walking on a shiny hospital hallway floor, wearing the black shoes with white sole and white accents from the product reference. Left column: three thin grey leader lines pointing at the shoe with two-line dark labels: \"Rocker\" / \"Sole\"; \"Arch\" / \"Support\"; \"Slip-Resistant\" / \"Grip\". Bottom: dark band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "angle_gap"
+      ],
+      "angle": "Knee/joint load from hard floors (problem framing only, no cure claim)",
+      "based_on": "Angle-gap study 2026-10-30 (research/angle_gaps.md): Knee/hip/back is the #1 competitor angle by volume (452 ads: Stryde, Konjoun, Footstr); we have 51 mentions but never as the lead"
+    }
+  ]
+}

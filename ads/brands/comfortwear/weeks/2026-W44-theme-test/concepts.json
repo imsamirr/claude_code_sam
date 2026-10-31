@@ -1,0 +1,330 @@
+{
+  "week": "2026-W44-theme-test",
+  "notes": "2026-10-26 understanding test: 3 nurse + 3 travel + 3 Black Friday concepts, each with a Spanish twin. 4:5 only, medium.",
+  "concepts": [
+    {
+      "id": "Y44_01_nurse_shift_chart_note",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "all_black",
+      "theme": "nurse",
+      "angle": "Nurse foot pain told as a patient chart / EHR note: 'Chief complaint: heel pain, hour 11' (nurse terms: charting, shift, floor)",
+      "based_on": "Last-Oct '10 Reasons Healthcare Workers' statics (~$39k, $26k, $21k spend); Kyro390 nurse plantar-fasciitis video ($4.6k, 1.96 ROAS); 12-HOUR SHIFT SHOES list ($858k): kept the nurse-benefit list + heel-pain hook, new chart format",
+      "headline": "Chief complaint: heel pain.",
+      "prompt": "A clean white electronic-health-record style screen: a thin light-grey header bar (no logo, no text in it), then huge heavy black headline \"CHIEF COMPLAINT:\" / \"HEEL PAIN, HOUR 11.\" Below it a large bold checklist of three rows with big green check boxes: \"12-HOUR SHIFT\", \"ARCH SUPPORT\", \"CUSHIONED HEEL\". Bottom half: the all-black pair of shoes from the reference photo, huge, sharp, true proportions, about 45% of the frame, with a soft shadow on white. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "list_white",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "Y44_01_es_nurse_shift_chart_note",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "es",
+      "colorway": "all_black",
+      "theme": "nurse",
+      "angle": "Nurse foot pain told as a patient chart / EHR note: 'Chief complaint: heel pain, hour 11' (nurse terms: charting, shift, floor)",
+      "based_on": "Last-Oct '10 Reasons Healthcare Workers' statics (~$39k, $26k, $21k spend); Kyro390 nurse plantar-fasciitis video ($4.6k, 1.96 ROAS); 12-HOUR SHIFT SHOES list ($858k): kept the nurse-benefit list + heel-pain hook, new chart format",
+      "headline": "Motivo de consulta: dolor de talón.",
+      "prompt": "Una pantalla limpia y blanca estilo expediente médico electrónico: barra gris clara arriba (sin logo ni texto), luego titular enorme y pesado en negro \"MOTIVO DE CONSULTA:\" / \"DOLOR DE TALÓN, HORA 11.\" Debajo una lista grande en negrita de tres filas con casillas verdes marcadas: \"TURNO DE 12 HORAS\", \"SOPORTE DE ARCO\", \"TALÓN ACOLCHADO\". Mitad inferior: el par de zapatos negro del referente, enorme, nítido, proporciones reales, ~45% del cuadro, con sombra suave sobre fondo blanco. Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "list_white",
+      "twin_of": "Y44_01_nurse_shift_chart_note",
+      "tags": [
+        "FP",
+        "ES"
+      ]
+    },
+    {
+      "id": "Y44_02_nurse_handoff_report_offer",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "black_purple",
+      "theme": "nurse",
+      "angle": "Offer stack as a shift handoff report (patient: your feet), nurse heel pain (nurse terms: handoff, SBAR-style, unit)",
+      "based_on": "Kyro390 nurse plantar-fasciitis video ($4.6k, 1.96 ROAS; Spanish version $3.3k, 2.18); offer winners (RTGv1_O1 40% OFF Sitewide, 3.86 ROAS): kept the nurse heel-pain hook, new handoff-sheet format",
+      "headline": "Handoff: your feet need relief.",
+      "prompt": "A white clipboard sheet photographed on a hospital nurses' station, softly blurred monitors behind. Huge heavy black headline on the sheet: \"HANDOFF REPORT:\" / \"YOUR FEET.\" Three large bold rows with purple labels: \"SITUATION: HEEL PAIN\", \"BACKGROUND: 12-HOUR SHIFTS\", \"PLAN: THESE SHOES\". At the bottom a solid purple block with three stacked large bold white lines: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". The black-purple pair of shoes from the reference photo sits large on the desk in front of the clipboard, about 35% of the frame, true proportions. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "offer_block",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "Y44_02_es_nurse_handoff_report_offer",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "es",
+      "colorway": "black_purple",
+      "theme": "nurse",
+      "angle": "Offer stack as a shift handoff report (patient: your feet), nurse heel pain (nurse terms: handoff, SBAR-style, unit)",
+      "based_on": "Kyro390 nurse plantar-fasciitis video ($4.6k, 1.96 ROAS; Spanish version $3.3k, 2.18); offer winners (RTGv1_O1 40% OFF Sitewide, 3.86 ROAS): kept the nurse heel-pain hook, new handoff-sheet format",
+      "headline": "Reporte de turno: tus pies necesitan alivio.",
+      "prompt": "Una hoja blanca en una tablilla sobre un puesto de enfermería de hospital, monitores desenfocados al fondo. Titular enorme y pesado en negro en la hoja: \"REPORTE DE TURNO:\" / \"TUS PIES.\" Tres filas grandes en negrita con etiquetas moradas: \"SITUACIÓN: DOLOR DE TALÓN\", \"HISTORIA: TURNOS DE 12 HORAS\", \"PLAN: ESTOS ZAPATOS\". Abajo un bloque sólido morado con tres líneas grandes en blanco, escritas exactamente así en inglés: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". El par de zapatos negro-morado del referente grande sobre el escritorio frente a la tablilla, ~35% del cuadro, proporciones reales. Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "offer_block",
+      "twin_of": "Y44_02_nurse_handoff_report_offer",
+      "tags": [
+        "FP",
+        "OFFER",
+        "ES"
+      ]
+    },
+    {
+      "id": "Y44_03_nurse_night_rounds_anime",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "theme": "nurse",
+      "angle": "Night-shift rounds at 3 a.m., soft anime frame, heels pounding (nurse terms: rounds, night shift, the floor)",
+      "based_on": "Spanish nurse video TOFV1_HI16 ($3.3k, 2.18 ROAS) + Kyro390 nurse page ($4.6k, 1.96); Emily RN '4 12s in a row' hook: kept the night-shift / heel-pain hook, new anime format",
+      "headline": "3 a.m. rounds. Heels still fine.",
+      "prompt": "A soft hand-painted anime film frame: a nurse in navy scrubs walking down a dim hospital corridor on night rounds, warm light from a nurses' station, the navy shoe from the reference photo huge in the foreground at a low angle, recognizable at true proportions, about 45% of the frame. Huge heavy white headline at the top: \"3 A.M. ROUNDS.\" / \"HEELS STILL FINE.\" One solid royal blue pill at the bottom with white text: \"12-HOUR SHIFT COMFORT\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "lifestyle_urgency",
+      "format": "anime_soft",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "Y44_03_es_nurse_night_rounds_anime",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "es",
+      "colorway": "navy_blue",
+      "theme": "nurse",
+      "angle": "Night-shift rounds at 3 a.m., soft anime frame, heels pounding (nurse terms: rounds, night shift, the floor)",
+      "based_on": "Spanish nurse video TOFV1_HI16 ($3.3k, 2.18 ROAS) + Kyro390 nurse page ($4.6k, 1.96); Emily RN '4 12s in a row' hook: kept the night-shift / heel-pain hook, new anime format",
+      "headline": "Rondas de las 3 a.m. Talones bien.",
+      "prompt": "Un cuadro de película anime suave pintado a mano: una enfermera en uniforme azul marino caminando por un pasillo de hospital tenue durante la ronda de noche, luz cálida del puesto de enfermería, el zapato azul marino del referente enorme en primer plano con ángulo bajo, reconocible y a proporciones reales, ~45% del cuadro. Titular enorme y pesado en blanco arriba: \"RONDAS DE 3 A.M.\" / \"TALONES BIEN.\" Una píldora sólida azul con texto blanco abajo: \"COMODIDAD EN TURNOS DE 12 HORAS\". Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "lifestyle_urgency",
+      "twin_of": "Y44_03_nurse_night_rounds_anime",
+      "format": "anime_soft",
+      "tags": [
+        "FP",
+        "ES"
+      ]
+    },
+    {
+      "id": "Y44_04_themepark_queue_sign",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "black_white",
+      "theme": "travel",
+      "angle": "Theme-park queue wait-time sign: '90 min wait. Swollen feet? Not today.' (theme-park travel, plus-size friendly)",
+      "based_on": "Plus-size theme-park video TOFV1_KW1 ($1.1k at 5.65 ROAS); Kyro 253 travel winner (~$32-45k last Oct); W42 25k-steps theme-park concept: kept the park-day-on-your-feet hook, new queue-sign format",
+      "headline": "90-minute wait. Swollen feet? Not today.",
+      "prompt": "A sunny theme-park queue line softly blurred in the background (generic park, no characters, no logos). In the center a big dark queue-sign board with huge bold white lettering and a glowing yellow number: \"WAIT TIME: 90 MIN\", and below it in white \"SWOLLEN FEET? NOT TODAY.\" Lower half: a tight crop of a plus-size woman's legs in shorts standing in line wearing the black-white shoe from the reference photo, the shoe about 45% of the frame, sharp knit texture. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "lifestyle_urgency",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "Y44_04_es_themepark_queue_sign",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "es",
+      "colorway": "black_white",
+      "theme": "travel",
+      "angle": "Theme-park queue wait-time sign: '90 min wait. Swollen feet? Not today.' (theme-park travel, plus-size friendly)",
+      "based_on": "Plus-size theme-park video TOFV1_KW1 ($1.1k at 5.65 ROAS); Kyro 253 travel winner (~$32-45k last Oct); W42 25k-steps theme-park concept: kept the park-day-on-your-feet hook, new queue-sign format",
+      "headline": "90 minutos de fila. ¿Pies hinchados? Hoy no.",
+      "prompt": "Una fila de parque de diversiones soleada y desenfocada al fondo (parque genérico, sin personajes ni logos). Al centro un letrero oscuro grande con letras enormes en blanco y un número amarillo brillante: \"ESPERA: 90 MIN\", y abajo en blanco \"¿PIES HINCHADOS? HOY NO.\" Mitad inferior: un primer plano de las piernas de una mujer curvilínea en shorts esperando en la fila con el zapato negro con blanco del referente, ~45% del cuadro, textura nítida. Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "lifestyle_urgency",
+      "twin_of": "Y44_04_themepark_queue_sign",
+      "tags": [
+        "FP",
+        "ES"
+      ]
+    },
+    {
+      "id": "Y44_05_europe_cobblestone_sign_offer",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "theme": "travel",
+      "angle": "Europe: a cobblestone street sign 'Cobblestones ahead', heel and arch pain on sightseeing days, with the offer stack (travel)",
+      "based_on": "Kyro 293/369/373 travel ranking + cobblestone winners (C$58-67k each, 2.15 ROAS); Kyro 296_2 ($723 at 4.93 ROAS); offer winners (3.86 ROAS): kept the cobblestones/Europe hook, new street-sign + offer format",
+      "headline": "Cobblestones ahead. Heels ready.",
+      "prompt": "A charming European old-town cobblestone street in golden light, softly blurred. Huge heavy white headline at the top over the sky: \"COBBLESTONES AHEAD.\" / \"HEELS READY.\" In the middle a solid navy road-sign-shaped panel with three stacked large bold white lines: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". Lower third: a tight crop of a woman's legs walking on cobblestones, the navy shoe from the reference photo sharp, about 40% of the frame. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "offer_block",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "Y44_05_es_europe_cobblestone_sign_offer",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "es",
+      "colorway": "navy_blue",
+      "theme": "travel",
+      "angle": "Europe: a cobblestone street sign 'Cobblestones ahead', heel and arch pain on sightseeing days, with the offer stack (travel)",
+      "based_on": "Kyro 293/369/373 travel ranking + cobblestone winners (C$58-67k each, 2.15 ROAS); Kyro 296_2 ($723 at 4.93 ROAS); offer winners (3.86 ROAS): kept the cobblestones/Europe hook, new street-sign + offer format",
+      "headline": "Adoquines adelante. Talones listos.",
+      "prompt": "Una calle empedrada encantadora de un casco antiguo europeo con luz dorada, desenfocada. Titular enorme y pesado en blanco arriba sobre el cielo: \"ADOQUINES ADELANTE.\" / \"TALONES LISTOS.\" En medio un panel sólido azul marino con forma de letrero de carretera con tres líneas grandes en blanco, escritas exactamente así en inglés: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". Tercio inferior: un primer plano de las piernas de una mujer caminando sobre adoquines, el zapato azul marino del referente nítido, ~40% del cuadro. Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "offer_block",
+      "twin_of": "Y44_05_europe_cobblestone_sign_offer",
+      "tags": [
+        "FP",
+        "OFFER",
+        "ES"
+      ]
+    },
+    {
+      "id": "Y44_06_europe_rome_fb_comments",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "theme": "travel",
+      "angle": "Europe: real Facebook comments from women who walked Rome/Paris on 20,000 steps a day without sore heels (travel testimonials)",
+      "based_on": "'Didn't buy yet' comments winners (3.05 ROAS, $50k); Kyro 293/373 travel proof; Trustpilot travel language: kept native-comment proof, travel hook",
+      "headline": "20,000 steps in Rome. No heel pain.",
+      "prompt": "White background. Huge heavy black headline across the width: \"20,000 STEPS IN ROME.\" / \"NO HEEL PAIN.\" Below, two stacked Facebook-style comments with large readable text. Comment by \"Carol D.\": \"Walked Rome and Paris in these. Cobblestones and no sore heels!\" Comment by \"Patty L.\": \"Best travel shoes I've owned.\" On the right, a tight crop of a woman's leg and the red-burgundy shoe from the reference photo, huge and sharp, overlapping the comments. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "comments_social",
+      "format": "fb_comment",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "Y44_06_es_europe_rome_fb_comments",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "es",
+      "colorway": "red_burgundy",
+      "theme": "travel",
+      "angle": "Europe: real Facebook comments from women who walked Rome/Paris on 20,000 steps a day without sore heels (travel testimonials)",
+      "based_on": "'Didn't buy yet' comments winners (3.05 ROAS, $50k); Kyro 293/373 travel proof; Trustpilot travel language: kept native-comment proof, travel hook",
+      "headline": "20,000 pasos en Roma. Sin dolor de talón.",
+      "prompt": "Fondo blanco. Titular enorme y pesado en negro: \"20,000 PASOS EN ROMA.\" / \"SIN DOLOR DE TALÓN.\" Debajo dos comentarios apilados estilo Facebook con texto grande y legible. Comentario de \"Carmen D.\": \"Caminé Roma y París con estos. ¡Adoquines y sin talones adoloridos!\" Comentario de \"Lupita L.\": \"Los mejores zapatos de viaje que he tenido.\" A la derecha, un primer plano de la pierna de una mujer y el zapato rojo del referente, enorme y nítido, solapado con los comentarios. Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado. No offer line, no banner, no pill and no other text below the comments or shoe.",
+      "benchmark": "comments_social",
+      "twin_of": "Y44_06_europe_rome_fb_comments",
+      "format": "fb_comment",
+      "tags": [
+        "FP",
+        "ES"
+      ]
+    },
+    {
+      "id": "Y44_07_bf_nurse_60_sitewide",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "black_purple",
+      "theme": "blackfriday",
+      "angle": "Black Friday for 12-hour feet: nurse legs in the corridor + '60% OFF SITEWIDE' block (offer A only)",
+      "based_on": "Almost-sold-out lifestyle winner ($8.7k, 3.97 ROAS); Ditch the Hokas offer block; B48 Black Friday batch; nurse winners: kept nurse legs + solid offer block",
+      "headline": "Black Friday for 12-hour feet.",
+      "prompt": "Tight low-angle crop of a nurse's legs in royal blue scrubs walking in a bright hospital corridor, softly blurred, the black-purple shoe from the reference photo sharp, about 45% of the frame. Top: black bar with huge heavy white headline \"BLACK FRIDAY\" / \"FOR 12-HOUR FEET.\" Right middle: a solid purple block with one huge white line \"60% OFF SITEWIDE\". No other offer text. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "offer_block",
+      "tags": [
+        "FP",
+        "OFFER",
+        "BF"
+      ]
+    },
+    {
+      "id": "Y44_07_es_bf_nurse_60_sitewide",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "es",
+      "colorway": "black_purple",
+      "theme": "blackfriday",
+      "angle": "Black Friday for 12-hour feet: nurse legs in the corridor + '60% OFF SITEWIDE' block (offer A only)",
+      "based_on": "Almost-sold-out lifestyle winner ($8.7k, 3.97 ROAS); Ditch the Hokas offer block; B48 Black Friday batch; nurse winners: kept nurse legs + solid offer block",
+      "headline": "Viernes Negro para pies de 12 horas.",
+      "prompt": "Un primer plano bajo de las piernas de una enfermera en uniforme azul rey caminando por un pasillo de hospital luminoso y desenfocado, el zapato negro-morado del referente nítido, ~45% del cuadro. Arriba: barra negra con titular enorme y pesado en blanco \"VIERNES NEGRO\" / \"PARA PIES DE 12 HORAS.\" A la derecha: un bloque sólido morado con una línea enorme en blanco \"60% DE DESCUENTO EN TODO\". Sin ningún otro texto de oferta. Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "offer_block",
+      "twin_of": "Y44_07_bf_nurse_60_sitewide",
+      "tags": [
+        "FP",
+        "OFFER",
+        "BF",
+        "ES"
+      ]
+    },
+    {
+      "id": "Y44_08_bf_europe_buy2_gifts",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "black_mint",
+      "theme": "blackfriday",
+      "angle": "Black Friday Europe trip: buy 2 pairs, get 2 free gifts (3-pack cushioned socks + free travel bag), flat-lay (offer B only)",
+      "based_on": "Travel winners (Kyro 293/373, 2.15 ROAS); carry-on flat-lay (W44_05); B48 gifts concepts: kept packing/Europe hook, new gift flat-lay",
+      "headline": "Pack for Europe. 2 pairs, 2 free gifts.",
+      "prompt": "Top-down flat-lay on a light linen surface with a passport and a small guidebook. Center: two pairs of the black-turquoise shoe from the reference photo, large and sharp, about 40% of the frame. Beside them a plain navy travel bag and a 3-pack of cushioned socks in a simple wrapper (no brand logos). Huge heavy black headline at the top: \"PACK FOR EUROPE.\" Solid black pill under it with white text \"BUY 2 PAIRS, GET 2 FREE GIFTS\". Two big white labels pointing to the gifts: \"3-PACK CUSHIONED SOCKS\" and \"FREE TRAVEL BAG\". No other offer text. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "pills_offer_studio",
+      "tags": [
+        "OFFER",
+        "BF"
+      ]
+    },
+    {
+      "id": "Y44_08_es_bf_europe_buy2_gifts",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "es",
+      "colorway": "black_mint",
+      "theme": "blackfriday",
+      "angle": "Black Friday Europe trip: buy 2 pairs, get 2 free gifts (3-pack cushioned socks + free travel bag), flat-lay (offer B only)",
+      "based_on": "Travel winners (Kyro 293/373, 2.15 ROAS); carry-on flat-lay (W44_05); B48 gifts concepts: kept packing/Europe hook, new gift flat-lay",
+      "headline": "Empaca para Europa. 2 pares, 2 regalos.",
+      "prompt": "Vista desde arriba sobre una superficie de lino claro con un pasaporte y una guía pequeña. Al centro dos pares del zapato negro con turquesa del referente, grandes y nítidos, ~40% del cuadro. Junto a ellos una bolsa de viaje azul marino lisa y un paquete de 3 calcetines acolchados en envoltura sencilla (sin logos). Titular enorme y pesado en negro arriba: \"EMPACA PARA EUROPA.\" Debajo una píldora negra sólida con texto blanco \"COMPRA 2 PARES, LLÉVATE 2 REGALOS GRATIS\". Dos etiquetas blancas grandes apuntan a los regalos: \"PAQUETE DE 3 CALCETINES ACOLCHADOS\" y \"BOLSA DE VIAJE GRATIS\". Sin ningún otro texto de oferta. Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "pills_offer_studio",
+      "twin_of": "Y44_08_bf_europe_buy2_gifts",
+      "tags": [
+        "OFFER",
+        "BF",
+        "ES"
+      ]
+    },
+    {
+      "id": "Y44_09_bf_themepark_60_cartoon",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "purple",
+      "theme": "blackfriday",
+      "angle": "Black Friday theme-park day as a cute 3D animated still, '60% OFF SITEWIDE' (offer A only)",
+      "based_on": "Plus-size theme-park video TOFV1_KW1 (5.65 ROAS); B48 cartoon concepts; cartoon rule: kept the theme-park-day hook, new cartoon_3d BF format",
+      "headline": "Black Friday. Park days. Happy feet.",
+      "prompt": "A soft 3D animated-film style scene of a happy woman in her 50s walking through a bright generic theme park with balloons and a castle-like tower in the background, the purple shoe from the reference photo huge in the foreground at true proportions, recognizable. Huge heavy headline at the top in white on a dark purple bar: \"BLACK FRIDAY.\" / \"PARK DAYS. HAPPY FEET.\" A solid red burst at the bottom with one huge white line \"60% OFF SITEWIDE\". No other offer text. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "offer_block",
+      "format": "cartoon_3d",
+      "tags": [
+        "OFFER",
+        "BF"
+      ]
+    },
+    {
+      "id": "Y44_09_es_bf_themepark_60_cartoon",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "es",
+      "colorway": "purple",
+      "theme": "blackfriday",
+      "angle": "Black Friday theme-park day as a cute 3D animated still, '60% OFF SITEWIDE' (offer A only)",
+      "based_on": "Plus-size theme-park video TOFV1_KW1 (5.65 ROAS); B48 cartoon concepts; cartoon rule: kept the theme-park-day hook, new cartoon_3d BF format",
+      "headline": "Viernes Negro. Días de parque. Pies felices.",
+      "prompt": "Una escena suave estilo película animada 3D de una mujer feliz de unos 50 años caminando por un parque de diversiones genérico y luminoso con globos y una torre tipo castillo al fondo, el zapato morado del referente enorme en primer plano a proporciones reales y reconocible. Titular enorme y pesado en blanco sobre una barra morada oscura arriba: \"VIERNES NEGRO.\" / \"DÍAS DE PARQUE. PIES FELICES.\" Una explosión roja sólida abajo con una línea enorme en blanco \"60% DE DESCUENTO EN TODO\". Sin ningún otro texto de oferta. Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "offer_block",
+      "twin_of": "Y44_09_bf_themepark_60_cartoon",
+      "format": "cartoon_3d",
+      "tags": [
+        "OFFER",
+        "BF",
+        "ES"
+      ]
+    }
+  ]
+}

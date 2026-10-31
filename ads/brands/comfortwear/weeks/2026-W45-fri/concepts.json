@@ -1,0 +1,798 @@
+{
+  "week": "2026-W45-fri",
+  "notes": "Net-new batch run 2026-10-28 under the 2026-10-28 rules (English only; nurse 14 / travel+Disney 10 / plus-size 8 / test 8; formats new to the ledger from the 45-day wellness pull; 8 proven layouts). Replaces this Friday's scheduled run.",
+  "concepts": [
+    {
+      "id": "W45_01_night_clock_first_step",
+      "group": "net_new",
+      "persona": "nurse",
+      "theme": "nurse x plantar fasciitis",
+      "lang": "en",
+      "colorway": "black_purple",
+      "benchmark": "lifestyle_urgency",
+      "format_name": "night_clock_photo",
+      "format_source": "Vitality Extracts (sleep spray, 32d) + Budpop (sleep, 20d): dark bedside alarm-clock photo",
+      "based_on": "Inspiration: Vitality Extracts (sleep spray, 32d) + Budpop (sleep, 20d): dark bedside alarm-clock photo. Paired with: Emily RN script B6 ($99.9k CAD, 3.05) 'aching heels'; survey 'sore foot in the morning', PF 27%",
+      "angle": "nurse x plantar fasciitis: 5:12 AM. The first step hurts most.",
+      "headline": "5:12 AM. The first step hurts most.",
+      "prompt": "Dark, quiet bedroom before dawn, real phone photo. On the nightstand a red digital alarm clock reading \"5:12\". Folded navy scrubs and a hospital badge on a chair. In the lower half on the wooden floor, lit by a warm bedside lamp, the black-purple shoe, a pair, about 40% of the frame. Headline on the dark wall above in white Poppins ExtraBold, two lines: \"5:12 AM.\" \"The first step hurts most.\" Three white labels with thin white arrows to the shoe: \"Firm arch support\", \"Cushioned heel\", \"Slip on, no bending\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "FP"
+      ],
+      "style": "ugc"
+    },
+    {
+      "id": "W45_02_night_shift_morning_feet",
+      "group": "net_new",
+      "persona": "nurse",
+      "theme": "nurse x swelling / standing",
+      "lang": "en",
+      "colorway": "black_white",
+      "benchmark": "lifestyle_legs_9x16",
+      "format_name": "two_beat_nurse_corridor_photo",
+      "format_source": "WELLX 'Night shift. Morning legs.' (compression, 15d): nurse with linen cart in a hospital corridor, two-beat headline",
+      "based_on": "Inspiration: WELLX 'Night shift. Morning legs.' (compression, 15d): nurse with linen cart in a hospital corridor, two-beat headline. Paired with: 12-hour shift list ($858k); survey 'my feet swell and hurt from being on them all day'",
+      "angle": "nurse x swelling / standing: Night shift. Morning feet.",
+      "headline": "Night shift. Morning feet.",
+      "prompt": "Candid phone photo in a long hospital corridor at the end of a night shift, early grey light from a window. A woman nurse in her 50s in teal scrubs leans on a linen cart, smiling tiredly; low camera angle so her legs and the black-white shoes (a pair) are large in the lower 40% of the frame, crossed naturally. Headline in the empty upper wall area, black Poppins ExtraBold italic, two lines: \"Night shift.\" \"Morning feet.\" Three black labels with thin arrows to the shoe: \"Room to swell\", \"Cushioned heel\", \"Slip-resistant grip\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "FP"
+      ],
+      "style": "ugc"
+    },
+    {
+      "id": "W45_03_put_on_7am_at_7pm",
+      "group": "net_new",
+      "persona": "nurse",
+      "theme": "nurse x standing all day",
+      "lang": "en",
+      "colorway": "all_black",
+      "benchmark": "pills_gradient",
+      "format_name": "timestamp_result_list",
+      "format_source": "NorthAlpine 'Put it on at 8am. By 8:01' (shapewear, 39d): timestamp headline + 4 result rows",
+      "based_on": "Inspiration: NorthAlpine 'Put it on at 8am. By 8:01' (shapewear, 39d): timestamp headline + 4 result rows. Paired with: B6 script 'no more limping to my car'; survey 'pain in feet and knees after standing 12 hours'",
+      "angle": "nurse x standing all day: Put them on at 7 AM. At 7 PM:",
+      "headline": "Put them on at 7 AM. At 7 PM:",
+      "prompt": "Split layout: left 55% solid warm mustard-yellow (#F2C14E), right 45% a real phone photo of a nurse's legs in black scrubs standing on a hospital floor wearing the all-black shoe, a pair, large and sharp. On the yellow, black Poppins ExtraBold headline: \"Put them on at 7 AM.\" then on a black block in white: \"At 7 PM:\". Below, four rows, each a small black line icon and bold black text: \"Heels still fine\", \"No limp to the car\", \"Knees not aching\", \"Ready for tomorrow\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "FP"
+      ],
+      "style": "ugc",
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {
+            "edit": "Remove the last two rows of text and their icons. Keep everything else identical.",
+            "ms": 900
+          },
+          {
+            "edit": "Also remove the first two rows and the black 'At 7 PM:' block. Keep everything else identical.",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "W45_04_reddit_r_nursing_3_12s",
+      "group": "net_new",
+      "persona": "nurse",
+      "theme": "nurse x plantar fasciitis",
+      "lang": "en",
+      "colorway": "black_white",
+      "benchmark": "list_white",
+      "format_name": "reddit_thread",
+      "format_source": "Señorita Drinks r/AlcoholFree thread (27d): native Reddit post + top reply",
+      "based_on": "Inspiration: Señorita Drinks r/AlcoholFree thread (27d): native Reddit post + top reply. Paired with: Kyro 154/99 nurse testimonial scripts; T44 Emily RN '3 12s in a row'",
+      "angle": "nurse x plantar fasciitis: What shoes survive 3 12s in a row?",
+      "headline": "What shoes survive 3 12s in a row?",
+      "prompt": "Pixel-faithful screenshot of a Reddit (NOT X/Twitter) mobile post in light mode with Reddit-style upvote/downvote arrows and grey comment counts, no Reddit logo: small grey line \"r/nursing · 9h\", bold post title in black: \"What shoes actually survive 3 12s in a row? My plantar fasciitis is back.\" Vote and comment counts \"412\" and \"236\". Below, the top reply from \"icu_mama_rn\", indented: \"ICU nurse, 26 years. Switched to these 6 months ago. Firm arch, wide toe box. I stopped limping to my car.\" Under the reply an attached real phone photo with rounded corners: the black-white shoe, a pair, on a hospital floor next to a med cart, about 35% of the canvas. Reply counts \"1.1k\". Readable text, large for a phone. All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. This is a Reddit thread, not an X post: no display-name/handle header, no repost or view icons.",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W45_05_half_our_unit_group",
+      "group": "net_new",
+      "persona": "nurse",
+      "theme": "nurse x peer proof",
+      "lang": "en",
+      "colorway": "black_mint",
+      "benchmark": "lifestyle_urgency",
+      "format_name": "group_photo_peer_proof",
+      "format_source": "Maggie's Tanks / Dr. Margaret Foster (apparel, 33d): real group photo of five ordinary older women",
+      "based_on": "Inspiration: Maggie's Tanks / Dr. Margaret Foster (apparel, 33d): real group photo of five ordinary older women. Paired with: Playbook 'three nurses on my floor ordered them'; Kyro 154 testimonials",
+      "angle": "nurse x peer proof: Half our unit wears them now.",
+      "headline": "Half our unit wears them now.",
+      "prompt": "Real, slightly imperfect group phone photo in a hospital hallway: five women nurses aged 40 to 65, different body types and ethnicities, in mixed scrub colors, standing in a row and laughing. The camera is low, so all their feet are visible and every nurse wears the black-turquoise shoe, the front pair sharp and large. Headline across the top on the pale wall in black Poppins ExtraBold: \"Half our unit wears them now.\" Bottom line in black: \"Firm arch · Wide toe box · Non-slip\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [],
+      "style": "ugc"
+    },
+    {
+      "id": "W45_06_insoles_in_the_trash",
+      "group": "net_new",
+      "persona": "comfort_only",
+      "theme": "test x insoles enemy",
+      "lang": "en",
+      "colorway": "all_black",
+      "benchmark": "warehouse_urgency",
+      "format_name": "trash_can_toss",
+      "format_source": "Adam Herman (supplement, 21d): hand tossing old bottles into a metal trash can, lo-fi",
+      "based_on": "Inspiration: Adam Herman (supplement, 21d): hand tossing old bottles into a metal trash can, lo-fi. Paired with: Feedback: insoles/orthotics are the #1 thing they tried (13%); Kyro 172 'what the industry doesn't want you to know'",
+      "angle": "test x insoles enemy: Done moving insoles from shoe to shoe.",
+      "headline": "Done moving insoles from shoe to shoe.",
+      "prompt": "Lo-fi phone photo looking down into a kitchen trash can: a woman's hand drops a pair of worn, flattened, discolored foam insoles onto other trash. On the tile floor next to the can, the all-black shoe, a pair, large and sharp (about 35% of the frame). Headline on the clean tile area at the top in black Poppins ExtraBold: \"Done moving insoles\" \"from shoe to shoe.\" Two black labels with arrows to the shoe: \"Arch support built in\", \"Cushioned heel built in\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "FP"
+      ],
+      "style": "ugc"
+    },
+    {
+      "id": "W45_07_struck_bigger_shoes_wide",
+      "group": "net_new",
+      "persona": "plus_size",
+      "theme": "plus-size x wide feet",
+      "lang": "en",
+      "colorway": "black_mint",
+      "benchmark": "versus_split_9x16",
+      "format_name": "struck_phrase_headline",
+      "format_source": "NeuroMD 'Your back needs another failed solution' (TENS, 24d): headline with a struck-through phrase",
+      "based_on": "Inspiration: NeuroMD 'Your back needs another failed solution' (TENS, 24d): headline with a struck-through phrase. Paired with: Survey: wide feet rising 2% -> 4.4%; plus-size Kyro 170 script ($106k)",
+      "angle": "plus-size x wide feet: Your feet don't need bigger shoes. They need room.",
+      "headline": "Your feet don't need bigger shoes. They need room.",
+      "prompt": "Real phone photo, plus-size woman sitting on a bench in a sunny park, tight crop from the knees down, wearing the black-turquoise shoe, a pair, large and sharp, showing the roomy rounded toe box. Headline on the bright upper area in black Poppins ExtraBold: \"Your feet don't need\" then \"bigger shoes.\" with a thick red hand-drawn strike line through \"bigger shoes.\" then \"They need room.\" Three black labels with arrows: \"Wide toe box\", \"Stretch-knit upper\", \"True to your size\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "FP"
+      ],
+      "style": "ugc"
+    },
+    {
+      "id": "W45_08_over_60_which_one_glow",
+      "group": "net_new",
+      "persona": "active_retiree",
+      "theme": "test x arthritis / neuropathy / bunions",
+      "lang": "en",
+      "colorway": "light_grey",
+      "benchmark": "condition_icons",
+      "format_name": "pain_glow_feet_checklist",
+      "format_source": "OrthoFit Store 'Senior Womans Comfort Sneaker that may target' (footwear, 24d): real older feet with red pain glow + long checklist",
+      "based_on": "Inspiration: OrthoFit Store 'Senior Womans Comfort Sneaker that may target' (footwear, 24d): real older feet with red pain glow + long checklist. Paired with: Survey: 47% aged 65+, arthritis 12%, neuropathy 11% (15% of retirees), bunions 9%",
+      "angle": "test x arthritis / neuropathy / bunions: Over 60? Which one is you?",
+      "headline": "Over 60? Which one is you?",
+      "prompt": "White background. Headline top left in navy Poppins ExtraBold, both lines exactly the same size: \"Over 60?\" \"Which one is you?\" Left column, five rows with green check boxes and bold black text: \"Heel pain in the morning\", \"Bunions\", \"Numb, tingly toes\", \"Swollen by evening\", \"Achy knees and back\". Right half: a real close photo of an older woman's bare feet on a wooden floor with soft red glow spots on the heel, the bunion and the toes. Bottom: the light-grey shoe, a pair, large (about 30% of the frame) with label \"Made for all of these\". Small black line at the very bottom: \"40% OFF · FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "W45_09_quote_13hr_shift_checklist",
+      "group": "net_new",
+      "persona": "nurse",
+      "theme": "nurse x multi-condition",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "benchmark": "list_white",
+      "format_name": "quote_condition_checklist",
+      "format_source": "Sweet Home Australia '\"My only Nurse shoes that lasted 14hrs.\"' (footwear, 41-42d): quote headline + condition checklist + shoe on foot",
+      "based_on": "Inspiration: Sweet Home Australia '\"My only Nurse shoes that lasted 14hrs.\"' (footwear, 41-42d): quote headline + condition checklist + shoe on foot. Paired with: Survey verbatim 'No back or feet pain after a 13hr shift'; Dear Nurses callouts ($229k, 4.34)",
+      "angle": "nurse x multi-condition: \"No back or feet pain after a 13-hour shift.\"",
+      "headline": "\"No back or feet pain after a 13-hour shift.\"",
+      "prompt": "Charcoal grey background. Headline at the top in white Poppins ExtraBold with quote marks, two lines: \"No back or feet pain\" \"after a 13-hour shift.\" Left half, six rows with white check circles, bold white text: \"Plantar fasciitis\", \"Bunions\", \"Morton's neuroma\", \"Flat feet\", \"Swollen feet\", \"Back pain from standing\". Right half: a real photo of a nurse's ankle in navy scrubs wearing the navy-blue shoe, large and sharp, side view. Small white line at the bottom: \"40% OFF · FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "FP",
+        "OFFER"
+      ],
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {
+            "edit": "Remove the last three checklist rows. Keep everything else identical.",
+            "ms": 900
+          },
+          {
+            "edit": "Also remove the first three checklist rows. Keep everything else identical.",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "W45_10_disney_quote_feature_branches",
+      "group": "net_new",
+      "persona": "plus_size",
+      "theme": "plus-size x Disney",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "benchmark": "callouts_white",
+      "format_name": "quote_feature_branches",
+      "format_source": "FineRoot Organics 'I haven't felt this good in years' (turmeric, 31d): customer quote headline + avatar + branch callouts",
+      "based_on": "Inspiration: FineRoot Organics 'I haven't felt this good in years' (turmeric, 31d): customer quote headline + avatar + branch callouts. Paired with: TOFV1_KW1 plus-size Disney video (4.39 ROAS); Kyro 170 plus-size script",
+      "angle": "plus-size x Disney: \"My first Disney trip where my feet kept up.\"",
+      "headline": "\"My first Disney trip where my feet kept up.\"",
+      "prompt": "Warm cream background. Headline across the top in black Poppins ExtraBold with quote marks: \"My first Disney trip where my feet kept up.\" Under it a small round photo of a smiling plus-size woman in her 50s and \"Denise R., 58\" in black. Below-left the red-burgundy shoe, a pair, large and sharp (about 40% of the frame). From the shoe, four thin curved branch lines lead right to four rounded cream tags with bold black text: \"Wide toe box\", \"Room to swell\", \"Cushioned heel\", \"Grippy sole\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W45_11_three_park_days_mirror",
+      "group": "net_new",
+      "persona": "traveler",
+      "theme": "Disney x swelling",
+      "lang": "en",
+      "colorway": "black_purple",
+      "benchmark": "lifestyle_legs_9x16",
+      "format_name": "mirror_selfie_triptych",
+      "format_source": "50 Plus and Fabulous (collagen, 31d): three real bathroom mirror selfies side by side",
+      "based_on": "Inspiration: 50 Plus and Fabulous (collagen, 31d): three real bathroom mirror selfies side by side. Paired with: TOFV1_KW1 Disney (4.39); TOFV1_JV1 travel ($1.9k, 2.03)",
+      "angle": "Disney x swelling: 3 park days. Same shoes.",
+      "headline": "3 park days. Same shoes.",
+      "prompt": "Three tall real phone mirror selfies side by side in a hotel bathroom, same woman in her 50s in different casual outfits and a park lanyard, phone in hand, each mirror photo framed from the hips down with the phone held at waist height, so her legs and the black-purple shoe (a pair) fill the lower half of each photo, large and sharp; each photo captioned underneath in black Poppins Bold: \"Day 1\", \"Day 2\", \"Day 3\". Headline across the top white strip of the canvas in black Poppins ExtraBold: \"3 park days. Same shoes.\" Bottom line in black bold: \"Wide toe box · Cushioned heel · Room to swell\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [],
+      "style": "ugc"
+    },
+    {
+      "id": "W45_12_lisbon_day_4_snapshot",
+      "group": "net_new",
+      "persona": "traveler",
+      "theme": "Europe x heel pain",
+      "lang": "en",
+      "colorway": "black_white",
+      "benchmark": "lifestyle_legs_9x16",
+      "format_name": "landmark_snapshot_caption",
+      "format_source": "Natalie Brooks / persona pages (19-23d): plain travel snapshot with a landmark sign, story-style caption",
+      "based_on": "Inspiration: Natalie Brooks / persona pages (19-23d): plain travel snapshot with a landmark sign, story-style caption. Paired with: Kyro 373 ($61k) 'I wore Hokas in Lisbon... stabbing heel pain'",
+      "angle": "Europe x heel pain: Lisbon, day 4. My heels? Fine.",
+      "headline": "Lisbon, day 4. My heels? Fine.",
+      "prompt": "Real travel phone snapshot on a steep Lisbon cobblestone street with a yellow tram behind and azulejo tiles, bright afternoon sun. A woman's legs from mid-calf down in white linen pants stand on the cobblestones wearing the black-white shoe, a pair, large and sharp in the lower half. White Poppins ExtraBold caption with a soft shadow on the sky area: \"Lisbon, day 4.\" \"24,000 steps.\" \"My heels? Fine.\" (all three lines white, same size) Two white labels with arrows: \"Firm, stable sole\", \"Cushioned heel\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "FP"
+      ],
+      "style": "ugc"
+    },
+    {
+      "id": "W45_13_disney_fridge_note",
+      "group": "net_new",
+      "persona": "traveler",
+      "theme": "Disney x family",
+      "lang": "en",
+      "colorway": "grey_pink",
+      "benchmark": "hsa_minimal_9x16",
+      "format_name": "fridge_note_photo",
+      "format_source": "Rosabella Beetroot (supplement, 19d): blurry kitchen fridge with magnets and a handwritten note",
+      "based_on": "Inspiration: Rosabella Beetroot (supplement, 19d): blurry kitchen fridge with magnets and a handwritten note. Paired with: TOFV1_KW1 Disney (4.39); seasonal 2025 travel winner Kyro 253 ($32.6k)",
+      "angle": "Disney x family: Disney packing list, item #1.",
+      "headline": "Disney packing list, item #1.",
+      "prompt": "Real phone photo of a home fridge door with magnets, a child's crayon drawing of a castle, and a handwritten paper note held by a magnet that reads in blue pen: \"Mom - pack your comfy shoes for Disney!\". On the kitchen floor in front of the fridge, the grey-pink shoe, a pair, large and sharp (about 35% of the frame). Headline in black Poppins ExtraBold on the plain fridge area: \"Disney packing list,\" \"item #1.\" Two black labels with arrows to the shoe: \"Wide toe box\", \"All-day cushion\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [],
+      "style": "ugc"
+    },
+    {
+      "id": "W45_14_heels_after_trip_guarantee",
+      "group": "net_new",
+      "persona": "traveler",
+      "theme": "travel x heel pain x guarantee",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "benchmark": "pills_offer_studio",
+      "format_name": "conditional_guarantee_headline",
+      "format_source": "Grünanda 'If your balance doesn't improve after 2 walks, we'll buy your boots back' (footwear, 44d)",
+      "based_on": "Inspiration: Grünanda 'If your balance doesn't improve after 2 walks, we'll buy your boots back' (footwear, 44d). Paired with: Benchmark 'Walk Pain-Free or Money Back' ($93k static); Kyro 293 travel ($58k)",
+      "angle": "travel x heel pain x guarantee: Heels still sore after your trip? Send them back.",
+      "headline": "Heels still sore after your trip? Send them back.",
+      "prompt": "Deep navy studio background with soft light. Headline at the top in white Poppins ExtraBold, three lines all exactly the same size: \"If your heels still hurt\" \"after 30 days of walking,\" \"send them back.\" The navy-blue shoe, a pair, large and sharp in the center on a pale stone surface (about 40% of the frame). Under it, white Poppins ExtraBold: \"30-DAY MONEY-BACK GUARANTEE\" and a smaller white line \"40% OFF · FREE SHIPPING\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "W45_15_hand_price_drop",
+      "group": "net_new",
+      "persona": "plus_size",
+      "theme": "plus-size x offer",
+      "lang": "en",
+      "colorway": "purple",
+      "benchmark": "pills_offer_studio",
+      "format_name": "hand_held_price_drop",
+      "format_source": "Aurivita (supplement, 12d): product held in a real hand on soft pink, big struck price, 3 benefit rows",
+      "based_on": "Inspiration: Aurivita (supplement, 12d): product held in a real hand on soft pink, big struck price, 3 benefit rows. Paired with: Sale statics 'Save Up To 40% OFF' ($152k/$125k/$115k); approved price $59.95 (was $90)",
+      "angle": "plus-size x offer: $90 $59.95: built for long days on your feet.",
+      "headline": "$90 $59.95: built for long days on your feet.",
+      "prompt": "Soft pink background. A real woman's hand holds up the purple shoe toward the camera, large and sharp, true proportions. Top: a small red pill \"40% OFF\" then a big grey \"$120\" with a thick strike line next to a huge black Poppins ExtraBold \"$59.95\". Below the shoe, left aligned, bold black text: \"Built for long days on your feet.\" then three rows with small check marks: \"Wide toe box\", \"Arch support\", \"Free shipping\". Small black line at the bottom: \"30-DAY MONEY-BACK GUARANTEE\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "OFFER"
+      ],
+      "revision": "price v2 (user 2026-10-29): strike-through $90 -> $120"
+    },
+    {
+      "id": "W45_16_ms_paint_40_off",
+      "group": "net_new",
+      "persona": "nurse",
+      "theme": "nurse x offer",
+      "lang": "en",
+      "colorway": "black_purple",
+      "benchmark": "offer_block",
+      "format_name": "ms_paint_window",
+      "format_source": "Manna Vitality '71% OFF' (supplement, 29d): retro Windows Paint window with hand-scribbled red sale text",
+      "based_on": "Inspiration: Manna Vitality '71% OFF' (supplement, 29d): retro Windows Paint window with hand-scribbled red sale text. Paired with: 40% OFF statics ($152k); '40% OFF TODAY + FREE Shipping' ($33k)",
+      "angle": "nurse x offer: 40% OFF the nurse shoe.",
+      "headline": "40% OFF the nurse shoe.",
+      "prompt": "A faithful retro Windows Paint window (grey title bar reading \"nurse shoes 40% off - paint\", tool palette on the left, color palette at the bottom) on a white canvas. Inside the canvas: a hand-scribbled black \"40% OFF\" and black \"the nurse shoe\" below it, both lines the same size, with a mouse-drawn black underline, the black-purple shoe pasted in as a large photo cut-out (about 40% of the canvas), and black mouse-drawn arrows to three typed labels: \"Arch support\", \"Wide toe box\", \"Non-slip\". At the bottom of the canvas a typed line: \"FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "OFFER"
+      ],
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {
+            "edit": "Remove the red scribbled '40% OFF' text and its underline. Keep everything else identical.",
+            "ms": 900
+          },
+          {
+            "edit": "Also remove the three red arrows and their labels. Keep everything else identical.",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "W45_17_room_for_toes_9_colors",
+      "group": "net_new",
+      "persona": "comfort_only",
+      "theme": "test x bunions x HSA",
+      "lang": "en",
+      "colorway": "grey_pink",
+      "benchmark": "hsa_minimal_9x16",
+      "format_name": "color_swatch_row",
+      "format_source": "Cosy House Collection 'Goodbye night sweats' (bedding, 18d): headline + row of color dots + product + HSA/FSA pill",
+      "based_on": "Inspiration: Cosy House Collection 'Goodbye night sweats' (bedding, 18d): headline + row of color dots + product + HSA/FSA pill. Paired with: Benchmark HSA/FSA minimal static; survey bunions 9%, wide/roomy 5% of 'looking for'",
+      "angle": "test x bunions x HSA: Room for your toes. In 9 colors.",
+      "headline": "Room for your toes. In 9 colors.",
+      "prompt": "Calm off-white background with soft window light. Headline in navy Poppins: \"Room for your toes.\" (ExtraBold) then \"In 9 colors.\" Below it a row of nine small round color dots (black-purple, black, navy-blue, black-white, red, black-turquoise, purple, light grey, grey-pink). Center: the grey-pink shoe, a pair, large and sharp (about 40% of the frame) on a pale wooden floor. Under it a navy rounded pill with white text: \"HSA/FSA ELIGIBLE · UP TO 30% SAVINGS\" and a small navy line \"Wide toe box · Stretch-knit upper\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "W45_18_bye_squeezed_toes_stickers",
+      "group": "net_new",
+      "persona": "plus_size",
+      "theme": "plus-size x bunions",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "benchmark": "condition_icons",
+      "format_name": "sticker_speech_bubbles_photo",
+      "format_source": "Dr. Woof Apparel 'Bye-Bye, Varicose Veins! / Hello, Healthy Legs' (socks, 35d): real leg photo with die-cut sticker bubbles",
+      "based_on": "Inspiration: Dr. Woof Apparel 'Bye-Bye, Varicose Veins! / Hello, Healthy Legs' (socks, 35d): real leg photo with die-cut sticker bubbles. Paired with: Bunion pain 9%; Morton's toe benchmark; Kyro 373 'narrow toe box'",
+      "angle": "plus-size x bunions: Bye-bye, squeezed toes.",
+      "headline": "Bye-bye, squeezed toes.",
+      "prompt": "Real phone photo from above: a plus-size woman sitting on her bed with her legs stretched out, wearing the red-burgundy shoe, a pair, large and sharp. Two thick die-cut white sticker speech bubbles with black outline and black Poppins ExtraBold text placed on the photo: \"Bye-bye, squeezed toes!\" and \"Hello, room for bunions.\" A small white label with arrow to the toe box: \"Wide toe box\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "FP"
+      ],
+      "style": "ugc"
+    },
+    {
+      "id": "W45_19_swollen_by_3pm_tilted",
+      "group": "net_new",
+      "persona": "plus_size",
+      "theme": "plus-size nurse x swelling",
+      "lang": "en",
+      "colorway": "black_mint",
+      "benchmark": "lifestyle_legs_9x16",
+      "format_name": "tilted_sticker_headline",
+      "format_source": "Diabetic Sock Club 'SOCK MARKS? GONE FOR GOOD.' (socks, 13d): tilted red/white text blocks over a real leg photo",
+      "based_on": "Inspiration: Diabetic Sock Club 'SOCK MARKS? GONE FOR GOOD.' (socks, 13d): tilted red/white text blocks over a real leg photo. Paired with: 12-hour shift list ($858k); survey 'I stand 10 hours a day... swelling in my feet and ankles'",
+      "angle": "plus-size nurse x swelling: Swollen by 3 PM? Stretch to fit.",
+      "headline": "Swollen by 3 PM? Stretch to fit.",
+      "prompt": "Real phone photo of a plus-size nurse in grey scrubs sitting on a break-room bench, low angle, her feet in the black-turquoise shoe, a pair, large and sharp in the lower half. Over the upper half, three tilted solid blocks like stickers, all text exactly the same size: red block with white Poppins ExtraBold \"SWOLLEN BY 3 PM?\", red block with white \"STRETCH TO FIT.\" Two black labels with arrows: \"Stretch-knit upper\", \"Room to swell\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "FP"
+      ],
+      "style": "ugc"
+    },
+    {
+      "id": "W45_20_rome_marker_on_calf",
+      "group": "net_new",
+      "persona": "traveler",
+      "theme": "Europe x heel pain",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "benchmark": "lifestyle_urgency",
+      "format_name": "writing_on_skin",
+      "format_source": "Natural Wellness Journal (fascia supplement, 14d): marker handwriting on her leg, lying on a bed",
+      "based_on": "Inspiration: Natural Wellness Journal (fascia supplement, 14d): marker handwriting on her leg, lying on a bed. Paired with: Kyro 369 ($67k) 'by hour five testers were looking for somewhere to sit'; survey 'to walk in Europe on uneven terrain'",
+      "angle": "Europe x heel pain: 9 miles in Rome. Heels didn't hurt.",
+      "headline": "9 miles in Rome. Heels didn't hurt.",
+      "prompt": "Real phone photo of a woman in her 50s lying on a hotel bed after a day out, shot down her leg: on her bare calf, black marker handwriting in four lines: \"9 MILES IN ROME.\" \"HEELS DIDN'T HURT.\" Her foot wears the navy-blue shoe, large and sharp in the lower right (about 30% of the frame), a city map and a gelato cup on the white sheets. Small typed white line in Poppins at the bottom: \"Cushioned heel · Firm arch · Wide toe box\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. The ONLY words in the image are the marker handwriting on her calf and the small typed feature line; no headline, no award or teacher text.",
+      "tags": [
+        "FP"
+      ],
+      "style": "ugc"
+    },
+    {
+      "id": "W45_21_sketch_three_pains_quad",
+      "group": "net_new",
+      "persona": "comfort_only",
+      "theme": "test x PF / bunions / swelling",
+      "lang": "en",
+      "colorway": "all_black",
+      "benchmark": "list_white",
+      "format_name": "sketch_symptom_quadrant",
+      "format_source": "Purvival (detox, 42d): 2x2 grid of pencil-sketch symptom panels with a question each; 4th panel = product in a real hand",
+      "based_on": "Inspiration: Purvival (detox, 42d): 2x2 grid of pencil-sketch symptom panels with a question each; 4th panel = product in a real hand. Paired with: Survey pain mix; Kyro 172 '3 things' structure",
+      "angle": "test x PF / bunions / swelling: Heel pain? Squeezed toes? Swollen feet?",
+      "headline": "Heel pain? Squeezed toes? Swollen feet?",
+      "prompt": "A 2x2 grid on cream paper. Three panels are loose pencil sketches with light watercolor of an older woman: panel 1 sitting on the edge of her bed holding her heel, black Poppins Bold caption \"Heel pain at 6 AM?\"; panel 2 grimacing while slipping off a tight pointed shoe, caption \"Squeezed toes by noon?\"; panel 3 with her feet up on a stool, caption \"Swollen by 7 PM?\". Panel 4 is a real photo: a woman's hand holding the all-black shoe, large and sharp, caption in black \"Try these.\" All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W45_22_etched_anatomy_why_heel",
+      "group": "net_new",
+      "persona": "comfort_only",
+      "theme": "test x plantar fasciitis",
+      "lang": "en",
+      "colorway": "black_purple",
+      "benchmark": "anatomy_split",
+      "format_name": "engraved_anatomy_etching",
+      "format_source": "Yoga International 'Anatomy Trains' (course, 29d): vintage engraved anatomy line art on peach",
+      "based_on": "Inspiration: Yoga International 'Anatomy Trains' (course, 29d): vintage engraved anatomy line art on peach. Paired with: PF anatomy benchmark; survey PF 27%, 'sore foot in the morning'",
+      "angle": "test x plantar fasciitis: Why your heel hurts most in the morning.",
+      "headline": "Why your heel hurts most in the morning.",
+      "prompt": "Soft peach background. Left: a vintage copper-plate engraving of a foot skeleton in red-brown line art with the plantar fascia band highlighted in deeper red. Headline top right in black Poppins ExtraBold: \"Why your heel\" \"hurts most in\" \"the morning.\" Under it in black Poppins: \"The band under your foot tightens overnight. Flat shoes pull it all day.\" Bottom right: the black-purple shoe, large and sharp (about 30% of the frame) with two black labels with arrows: \"Firm arch support\", \"Cushioned heel\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W45_23_engraving_nurse_mistake",
+      "group": "net_new",
+      "persona": "nurse",
+      "theme": "nurse x running-shoe enemy",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "benchmark": "anatomy_split",
+      "format_name": "vintage_engraving_scene",
+      "format_source": "Tiffany Mccomb 'The dangerous mistake in barefoot shoes?' (footwear, 39d): sepia engraving scene of an aching foot by a bed",
+      "based_on": "Inspiration: Tiffany Mccomb 'The dangerous mistake in barefoot shoes?' (footwear, 39d): sepia engraving scene of an aching foot by a bed. Paired with: Kyro 172 ($70k) 'running shoes don't provide enough support for hours on end'; Brooks vs recommended split",
+      "angle": "nurse x running-shoe enemy: The shoe mistake most nurses make.",
+      "headline": "The shoe mistake most nurses make.",
+      "prompt": "Sepia vintage engraving illustration: a tired nurse in old-fashioned scrubs sits on a locker-room bench rubbing her red, aching heel, a pair of generic running shoes on the floor. Headline across the top in a dark brown block with cream Poppins ExtraBold: \"The shoe mistake\" \"most nurses make.\" Bottom right corner: a modern full-color real photo of the red-burgundy shoe, large and sharp, breaking out of the sepia frame, with a cream label \"Built for 12-hour shifts, not running\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W45_24_three_moments_risk_free",
+      "group": "net_new",
+      "persona": "traveler",
+      "theme": "nurse + travel x PF x guarantee",
+      "lang": "en",
+      "colorway": "black_white",
+      "benchmark": "pills_offer_studio",
+      "format_name": "three_moment_line_icons",
+      "format_source": "Balmbare 'Stiff joints? Try it risk-free' (collagen, 31d): three line-art scenes with red pain spots + guarantee stamp",
+      "based_on": "Inspiration: Balmbare 'Stiff joints? Try it risk-free' (collagen, 31d): three line-art scenes with red pain spots + guarantee stamp. Paired with: B6 script; Kyro 373 'sitting on a bench'; 30-day guarantee",
+      "angle": "nurse + travel x PF x guarantee: Heel pain? Try them risk-free.",
+      "headline": "Heel pain? Try them risk-free.",
+      "prompt": "White background. Headline in black Poppins ExtraBold, both lines black and exactly the same size: \"Heel pain?\" \"Try them risk-free.\" Three simple black line-art scenes in a row with a small red pain spot on the heel: a woman stepping out of bed, a nurse at hour 10 of a shift, a traveler at mile 8 in a park, each with a bold caption: \"First steps\", \"Hour 10\", \"Mile 8\". Below, the black-white shoe, a pair, large and sharp (about 30% of the frame) next to a black rectangular stamp \"30-DAY MONEY-BACK GUARANTEE\". Small black line: \"40% OFF · FREE SHIPPING\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "W45_25_5_things_nurses_pf_list",
+      "group": "net_new",
+      "persona": "nurse",
+      "theme": "nurse x plantar fasciitis",
+      "lang": "en",
+      "colorway": "all_black",
+      "benchmark": "list_white",
+      "format_name": "advertorial_listicle_cover",
+      "format_source": "Secrets of Herbs 'The 6 Best Ways to Drain Lymph Fluid Naturally' (lymph, 29d): bold listicle title + illustrated legs + 'See the full list >>'",
+      "based_on": "Inspiration: Secrets of Herbs 'The 6 Best Ways to Drain Lymph Fluid Naturally' (lymph, 29d): bold listicle title + illustrated legs + 'See the full list >>'. Paired with: Kyro 172 '3 things' ($70k); feedback 'what they tried' list",
+      "angle": "nurse x plantar fasciitis: 5 things nurses with plantar fasciitis wish they knew.",
+      "headline": "5 things nurses with plantar fasciitis wish they knew.",
+      "prompt": "Clean white background. Big headline left in black Poppins ExtraBold, five lines all black, all lines the same size: \"5 things nurses\" \"with plantar\" \"fasciitis\" \"wish they knew\". Right: a clean medical illustration of two feet in profile with the heel highlighted. Below the headline a numbered list in bold black: \"1. Insoles go flat\", \"2. Running shoes aren't for standing\", \"3. Arch support matters most\". Bottom: the all-black shoe, large and sharp, and an underlined black line \"See all 5 >>\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W45_26_running_vs_12h_spec",
+      "group": "net_new",
+      "persona": "nurse",
+      "theme": "nurse x knee/back",
+      "lang": "en",
+      "colorway": "all_black",
+      "benchmark": "versus_split_9x16",
+      "format_name": "two_column_spec_list",
+      "format_source": "Everlab 'Is your current health check telling you anything?' (health test, 38d): two text columns on a rich color, standard vs ours",
+      "based_on": "Inspiration: Everlab 'Is your current health check telling you anything?' (health test, 38d): two text columns on a rich color, standard vs ours. Paired with: Brooks vs recommended split; Kyro 172 running shoes; survey 'knee, back and plantar fasciitis pain'",
+      "angle": "nurse x knee/back: Built for a 5K, or a 12-hour shift?",
+      "headline": "Built for a 5K, or a 12-hour shift?",
+      "prompt": "Rich deep burgundy-brown background. Headline at the top in cream Poppins ExtraBold: \"Built for a 5K,\" \"or a 12-hour shift?\" Two text columns: left heading \"A running shoe\" with cream rows \"Soft foam that flattens\", \"Narrow toe box\", \"Made to move fast\"; right heading \"This shoe\" in white bold with rows \"Firm arch all shift\", \"Wide toe box\", \"Grip on wet floors\"; every row large (at least 1/22 of the canvas height), headings and rows white. Under the right column, the all-black shoe, large and sharp (about 30% of the frame). All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W45_27_22000_steps_one_pair",
+      "group": "net_new",
+      "persona": "traveler",
+      "theme": "Disney x steps",
+      "lang": "en",
+      "colorway": "black_mint",
+      "benchmark": "hsa_minimal_9x16",
+      "format_name": "number_claim_minimal",
+      "format_source": "Kintoe '100 MILES. NO BLISTERS.' (socks, 42d): two stark number lines on a cool grey gradient, product row, 3 small labels",
+      "based_on": "Inspiration: Kintoe '100 MILES. NO BLISTERS.' (socks, 42d): two stark number lines on a cool grey gradient, product row, 3 small labels. Paired with: Kyro 293/369 step numbers; TOFV1_KW1 Disney",
+      "angle": "Disney x steps: 22,000 steps. One pair.",
+      "headline": "22,000 steps. One pair.",
+      "prompt": "Cool slate-grey studio gradient. Huge black Poppins ExtraBold headline centered, two lines: \"22,000 STEPS.\" \"ONE PAIR.\" Center: the black-turquoise shoe, a pair, large and sharp (about 45% of the frame), soft floor shadow. Under it three small bold black labels in a row: \"Cushioned heel\", \"Wide toe box\", \"Grippy sole\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": []
+    },
+    {
+      "id": "W45_28_yes_orthopedic_9_colors",
+      "group": "net_new",
+      "persona": "comfort_only",
+      "theme": "test x comfort only",
+      "lang": "en",
+      "colorway": "purple",
+      "benchmark": "lifestyle_legs_9x16",
+      "format_name": "yes_this_is_statement",
+      "format_source": "Fresh Reveal 'YES, THIS IS A COVER. IT COMES IN FIVE COLORS.' (home, 29d): cozy real lifestyle photo + surprising statement",
+      "based_on": "Inspiration: Fresh Reveal 'YES, THIS IS A COVER. IT COMES IN FIVE COLORS.' (home, 29d): cozy real lifestyle photo + surprising statement. Paired with: Survey: 'no pain, just comfort' 22% and rising to 32% in 2026; 'cute and comfortable' quotes",
+      "angle": "test x comfort only: Yes, these are comfort shoes. They come in 9 colors.",
+      "headline": "Yes, these are comfort shoes. They come in 9 colors.",
+      "prompt": "Warm cozy real phone photo: a woman in her 60s relaxing on a cream couch with a coffee mug, legs stretched onto an ottoman, wearing the purple shoe, a pair, large and sharp in the foreground (about 35% of the frame). Across the lower third in white Poppins ExtraBold with a soft shadow: \"YES, THESE ARE COMFORT SHOES.\" \"THEY COME IN 9 COLORS.\" (both lines all white, same size) All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [],
+      "style": "ugc"
+    },
+    {
+      "id": "W45_29_coworker_note_in_box",
+      "group": "net_new",
+      "persona": "nurse",
+      "theme": "nurse x gift / peer",
+      "lang": "en",
+      "colorway": "black_purple",
+      "benchmark": "comments_social",
+      "format_name": "unboxing_handwritten_card",
+      "format_source": "Mystery Shirt in a Box (apparel, 26d): open shipping box from above with a handwritten note card on top",
+      "based_on": "Inspiration: Mystery Shirt in a Box (apparel, 26d): open shipping box from above with a handwritten note card on top. Paired with: Playbook peer proof; survey 'my wife is a nurse... I wanted her comfortable'",
+      "angle": "nurse x gift / peer: \"For your 12s. Thank me at hour 10.\"",
+      "headline": "\"For your 12s. Thank me at hour 10.\"",
+      "prompt": "Real phone photo from above of an open brown shipping box on a kitchen counter, tissue paper folded back, the black-purple shoe, a pair, inside, large and sharp. On top, a handwritten white note card in blue pen: \"For your 12s. You'll thank me at hour 10. - Tasha\". Headline at the top on the counter area in black Poppins ExtraBold: \"Nurses are sending these\" \"to each other.\" Small black line at the bottom: \"Firm arch · Wide toe box · Non-slip\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [],
+      "style": "ugc"
+    },
+    {
+      "id": "W45_30_your_heels_deserve_offer",
+      "group": "net_new",
+      "persona": "nurse",
+      "theme": "nurse x heel pain x offer",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "benchmark": "offer_block",
+      "format_name": "body_part_pill_lifestyle",
+      "format_source": "Pain Relief Australia 'YOUR NECK DESERVES A MASSAGE' (massager, 14d): body-part pill + headline + relaxed woman + red offer bar",
+      "based_on": "Inspiration: Pain Relief Australia 'YOUR NECK DESERVES A MASSAGE' (massager, 14d): body-part pill + headline + relaxed woman + red offer bar. Paired with: Ditch the Hokas offer benchmark; 40% OFF statics ($152k)",
+      "angle": "nurse x heel pain x offer: Your heels deserve a better 12 hours.",
+      "headline": "Your heels deserve a better 12 hours.",
+      "prompt": "Real phone photo: a nurse in her 50s in navy scrubs leans back on a break-room couch with her eyes closed and a small smile, feet up on a chair, wearing the navy-blue shoe, a pair, large and sharp. Top: navy Poppins ExtraBold headline, both lines exactly the same size: \"YOUR HEELS DESERVE\" \"A BETTER 12 HOURS\". Bottom full-width bar: left red with white \"40% OFF TODAY\", right navy with white \"FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "FP",
+        "OFFER"
+      ],
+      "style": "ugc"
+    },
+    {
+      "id": "W45_31_no_laces_no_bending",
+      "group": "net_new",
+      "persona": "active_retiree",
+      "theme": "test x arthritis",
+      "lang": "en",
+      "colorway": "light_grey",
+      "benchmark": "hsa_minimal_9x16",
+      "format_name": "minimal_two_word_benefit",
+      "format_source": "Outback 'Opens fully.' (bag, 10d): two-word benefit, product on warm beige, lots of space",
+      "based_on": "Inspiration: Outback 'Opens fully.' (bag, 10d): two-word benefit, product on warm beige, lots of space. Paired with: Survey: arthritis 12%, slip-on/no laces in reasons; benchmark callouts 'no-tie laces'",
+      "angle": "test x arthritis: No laces. No bending.",
+      "headline": "No laces. No bending.",
+      "prompt": "Warm beige background, soft side light, lots of empty space. Small headline top left in black Poppins ExtraBold, two lines: \"No laces.\" \"No bending.\" Under it a smaller black line \"For hands and knees with arthritis.\" Center-bottom: a real photo of an older woman's foot sliding into the light-grey shoe, her hand only touching the pull tab, large and sharp (about 45% of the frame). One black label with arrow to the bungee laces: \"Elastic no-tie laces\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W45_32_feet_at_50_60_70_grid",
+      "group": "net_new",
+      "persona": "active_retiree",
+      "theme": "test x age",
+      "lang": "en",
+      "colorway": "grey_pink",
+      "benchmark": "condition_icons",
+      "format_name": "age_bracket_grid",
+      "format_source": "Tkofitlife / Muscle Booster '28-Day Chair Tai Chi at my age' (knee sleeve, 11-18d): four pastel age-bracket cards",
+      "based_on": "Inspiration: Tkofitlife / Muscle Booster '28-Day Chair Tai Chi at my age' (knee sleeve, 11-18d): four pastel age-bracket cards. Paired with: Survey: ages 65+ 47%, 50-65 38%; condition mix by age",
+      "angle": "test x age: What your feet need at 50, 60 and 70.",
+      "headline": "What your feet need at 50, 60 and 70.",
+      "prompt": "Headline at the top in black Poppins ExtraBold, both lines black and the same size: \"What your feet need\" \"at 50, 60 and 70\". Three pastel cards in a row (mint, lavender, peach), each with a big age \"50s\", \"60s\", \"70+\" and two bold black lines: 50s \"Arch support\" \"Room for bunions\"; 60s \"Cushioned heel\" \"Room to swell\"; 70+ \"Grip that holds\" \"No-tie slip-on\". Bottom: the grey-pink shoe, a pair, large and sharp, with a small black line \"One shoe for all three.\" All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W45_33_dear_nurses_knees_back",
+      "group": "winning",
+      "persona": "nurse",
+      "theme": "nurse x knee/back",
+      "lang": "en",
+      "colorway": "black_purple",
+      "benchmark": "callouts_white",
+      "format_name": "proven:dear_nurses_callouts",
+      "format_source": "own proven layout",
+      "based_on": "Inspiration: own proven layout. Paired with: Dear Nurses callouts ($229k, 4.34 ROAS); survey 'pain in feet and knees after standing 12 hours'",
+      "angle": "nurse x knee/back: Dear Nurses, your knees and back start at your feet.",
+      "headline": "Dear Nurses, your knees and back start at your feet.",
+      "prompt": "Plain clean white background. Headline top left in black Poppins ExtraBold, all three lines the same size and color: \"Dear Nurses,\" \"your knees and back\" \"start at your feet.\" One big black-purple shoe in a three-quarter view, about 50% of the frame, soft shadow. Four thin hand-drawn black arrows to four labels: \"FIRM ARCH SUPPORT\", \"CUSHIONED HEEL\", \"WIDE TOE BOX\", \"SLIP-RESISTANT GRIP\". Nothing else. All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "FP"
+      ],
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {
+            "edit": "Remove the two lower arrows and their labels. Keep everything else identical.",
+            "ms": 900
+          },
+          {
+            "edit": "Also remove the two upper arrows and their labels. Keep everything else identical.",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "W45_34_disney_walking_shoes_list",
+      "group": "winning",
+      "persona": "traveler",
+      "theme": "Disney x swelling",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "benchmark": "list_white",
+      "format_name": "proven:shift_feature_list",
+      "format_source": "own proven layout",
+      "based_on": "Inspiration: own proven layout. Paired with: 12-hour shift list ($858k); TOFV1_KW1 Disney (4.39)",
+      "angle": "Disney x swelling: DISNEY WALKING SHOES",
+      "headline": "DISNEY WALKING SHOES",
+      "prompt": "Soft white-to-pale-lavender gradient. Black Poppins ExtraBold headline at the top on one or two lines, every word the same size: \"DISNEY WALKING SHOES\". Below, five rows each starting with an orange plus sign, bold black: \"+ Arch support for 20,000 steps\", \"+ Wide toe box for swelling feet\", \"+ Cushioned heel for long lines\", \"+ Grippy sole for wet paths\", \"+ Slip on, no laces\". Bottom half: the red-burgundy shoe in profile, large and sharp, soft reflection. Small black line at the bottom: \"40% OFF · FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "W45_35_plus_nurse_diagram",
+      "group": "winning",
+      "persona": "plus_size",
+      "theme": "plus-size nurse x PF",
+      "lang": "en",
+      "colorway": "all_black",
+      "benchmark": "diagram_grey",
+      "format_name": "proven:feature_diagram",
+      "format_source": "own proven layout",
+      "based_on": "Inspiration: own proven layout. Paired with: Shoes for 12-hour shifts diagram ($457k); Kyro 170 plus-size script ($106k)",
+      "angle": "plus-size nurse x PF: Shoes for 12-hour shifts. Made for plus-size nurses.",
+      "headline": "Shoes for 12-hour shifts. Made for plus-size nurses.",
+      "prompt": "Light grey background. Headline top left in black Poppins ExtraBold: \"Shoes for\" \"12-hour shifts.\" and a white rounded pill below with black bold \"Made for plus-size nurses\". Top right: a round inset of a heel with a red glow labeled \"HEEL PAIN\" and \"PLANTAR FASCIA\". Center: the all-black shoe in profile, large and sharp (about 50% of the frame) with three labeled pointer lines: \"WIDE TOE BOX\" \"room for swelling\", \"ARCH SUPPORT\" \"holds all shift\", \"SLIP-RESISTANT GRIP\" \"for wet floors\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W45_36_europe_walking_sale",
+      "group": "winning",
+      "persona": "traveler",
+      "theme": "Europe x offer",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "benchmark": "list_white",
+      "format_name": "proven:sale_strikethrough_three_colors",
+      "format_source": "own proven layout",
+      "based_on": "Inspiration: own proven layout. Paired with: '$59.95 12-hour shift shoes' static (235+ days); 'Save Up To 40% OFF' ($152k)",
+      "angle": "Europe x offer: Europe walking shoes. $59.95.",
+      "headline": "Europe walking shoes. $59.95.",
+      "prompt": "Plain clean white background. Black Poppins ExtraBold headline, every word the same size: \"EUROPE WALKING SHOES\". Under it a grey \"$120\" with a clear strike line next to a big black \"$59.95\". Center: the three shoes from the reference image as a large overlapping trio exactly as shown, true proportions (about 55% of the frame width). Below, three bold black labels in a row: \"COBBLESTONE GRIP\", \"ARCH SUPPORT\", \"WIDE TOE BOX\". Bottom line: \"40% OFF · FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "OFFER"
+      ],
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+      "revision": "price v2 (user 2026-10-29): strike-through $90 -> $120"
+    },
+    {
+      "id": "W45_37_plus_disney_comments_offer",
+      "group": "winning",
+      "persona": "plus_size",
+      "theme": "plus-size x Disney x swelling",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "benchmark": "comments_offer",
+      "format_name": "proven:comments_offer",
+      "format_source": "own proven layout",
+      "based_on": "Inspiration: own proven layout. Paired with: Didn't buy yet comments ($50k, 3.05 ROAS); TOFV1_KW1 plus-size Disney (4.39)",
+      "angle": "plus-size x Disney x swelling: Plus-size and planning Disney?",
+      "headline": "Plus-size and planning Disney?",
+      "prompt": "White background. Headline at the top in black Poppins ExtraBold: \"Plus-size and\" \"planning Disney?\" Left two thirds: three stacked real Facebook mobile comments (grey bubbles, round profile photos of women, names bold, \"2d  Like  Reply\" under each, a small reaction pill): \"Karen W.\": \"3 park days and my feet didn't swell up like usual.\"; \"Tammy L.\": \"Finally a wide toe box that fits my feet.\"; \"Rhonda P.\": \"Bought a second pair for the next trip.\" Right third: a tight photo of a plus-size woman's leg wearing the red-burgundy shoe, large. Bottom two lines in black bold, same size: \"40% OFF + FREE SHIPPING\" \"30-DAY MONEY-BACK GUARANTEE\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "FP",
+        "OFFER"
+      ],
+      "format": "fb_comment"
+    },
+    {
+      "id": "W45_38_dear_travelers_cobblestones",
+      "group": "winning",
+      "persona": "traveler",
+      "theme": "Europe x knees",
+      "lang": "en",
+      "colorway": "black_mint",
+      "benchmark": "callouts_white",
+      "format_name": "proven:dear_nurses_callouts",
+      "format_source": "own proven layout",
+      "based_on": "Inspiration: own proven layout. Paired with: Dear Nurses callouts layout ($229k, 4.34); Kyro 293 cobblestone script ($58k, 2.15)",
+      "angle": "Europe x knees: Dear Travelers, cobblestones all day, comfortably.",
+      "headline": "Dear Travelers, cobblestones all day, comfortably.",
+      "prompt": "Plain clean white background. Headline top left in black Poppins ExtraBold, all three lines the same size and color: \"Dear Travelers,\" \"cobblestones all day,\" \"comfortably.\" One big black-turquoise shoe in a three-quarter view, about 50% of the frame. Four thin hand-drawn black arrows to four labels: \"STABLE ON STONE\", \"CUSHIONED HEEL\", \"WIDE TOE BOX\", \"LIGHT IN YOUR BAG\". Nothing else. All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted. TEXT RULE: every word of the headline is the same size, weight and color (black, deep navy or white only); no colored words; all labels share one large uniform size.",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "W45_39_plus_on_feet_all_day_list",
+      "group": "winning",
+      "persona": "plus_size",
+      "theme": "plus-size x standing all day",
+      "lang": "en",
+      "colorway": "black_white",
+      "benchmark": "list_white",
+      "format_name": "proven:shift_feature_list",
+      "format_source": "own proven layout",
+      "based_on": "Inspiration: own proven layout. Paired with: 12-hour shift list ($858k); Kyro 170 '250 pounds, on my feet all day'",
+      "angle": "plus-size x standing all day: SHOES FOR WOMEN WHO STAND ALL DAY",
+      "headline": "SHOES FOR WOMEN WHO STAND ALL DAY",
+      "prompt": "Soft white-to-pale-pink gradient. Big black Poppins ExtraBold headline, two lines: \"SHOES FOR WOMEN\" \"WHO STAND ALL DAY\". Five rows each starting with an orange plus sign, bold black: \"+ Made for plus-size feet\", \"+ Firm arch that holds\", \"+ Cushioned heel\", \"+ Wide toe box\", \"+ Grip on slick floors\". Bottom half: the black-white shoe in profile, large and sharp. Small black line: \"40% OFF · FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "W45_40_nurses_with_bunions_diagram",
+      "group": "winning",
+      "persona": "nurse",
+      "theme": "nurse x bunions",
+      "lang": "en",
+      "colorway": "purple",
+      "benchmark": "diagram_grey",
+      "format_name": "proven:feature_diagram",
+      "format_source": "own proven layout",
+      "based_on": "Inspiration: own proven layout. Paired with: Shoes for 12-hour shifts diagram ($457k); survey bunions 8% of nurses",
+      "angle": "nurse x bunions: Shoes for nurses with bunions.",
+      "headline": "Shoes for nurses with bunions.",
+      "prompt": "Light grey background. Headline top left in black Poppins ExtraBold: \"Shoes for nurses\" \"with bunions.\" Top right: a round inset photo of a foot with a bunion, the joint glowing red, labeled \"BUNION\". Center: the purple shoe in profile, large and sharp (about 50% of the frame) with three labeled pointer lines: \"WIDE TOE BOX\" \"room for bunions\", \"STRETCH-KNIT UPPER\" \"no pressure points\", \"ARCH SUPPORT\" \"for 12-hour shifts\". All typeset text is Poppins (ExtraBold headlines, SemiBold labels), never condensed or script; handwriting only on a real object in the photo. Photographic parts look like genuine phone photos, NOT AI: natural uneven light, real skin and fabric texture, slight grain, imperfect framing. The headline sits on the image itself, not in a separate band. All supporting text large and bold (each line at least 1/25 of the canvas height, max 6 words per label), high contrast; text colors black, deep navy or white plus at most one accent. The shoe is the exact shoe from the reference photo, large, sharp, true natural proportions, never compressed, flattened or tiny; only women wear it. No logos, no icon badges, no buttons, no star ratings, no other text than quoted.",
+      "tags": [
+        "FP"
+      ]
+    }
+  ]
+}

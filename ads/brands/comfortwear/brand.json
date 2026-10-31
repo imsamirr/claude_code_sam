@@ -1,21 +1,26 @@
 {
   "name": "Comfort Wear",
   "product": "Ortho Stretch Cushion Shoe",
-  "price": "$59.95 (was $90)",
-  "palette": "white / soft lavender backgrounds, Comfort Wear purple (#7A2FE0) for headlines and pills, black body text",
-  "font_style": "bold geometric sans-serif headlines (like Poppins/Montserrat ExtraBold), clean sans body text",
+  "price": "$59.95 (was $120)",
+  "palette": "white, light grey, soft gradient or clean real-photo backgrounds. ALL text is black, deep navy or white (user rule 2026-10-28): never purple, red, blue or any other colored words, never one word colored differently from the rest. One accent color per ad (Comfort Wear purple #7A2FE0, royal blue or red) may only FILL a solid shape (a pill, bar, block or offer circle) with white text inside.",
+  "font_style": "Poppins everywhere (user rule 2026-10-28, matches our winning statics): Poppins ExtraBold/Black for the headline, set very large across nearly the full width, max 2-3 lines, tight leading; Poppins SemiBold/Bold for labels, pills, checklists and offer lines. Never a condensed font (Impact, Bebas, Anton, Oswald), never a script or handwritten font for typeset text; handwriting only on a real object in the photo (a sticky note, a cardboard sign). UNIFORM HEADLINE (user rule 2026-10-28): every line and every word of the same headline is the same font size, the same weight and the same color; no oversized first word, no smaller last line, no mixed regular/bold inside a headline. Supporting text (labels, pills, lists) is one consistent smaller size, never tiny.",
   "website": "comfortorthowear.com",
   "prompt_rules": [
     "The shoe MUST be the exact shoe in the attached studio reference photo, unchanged: same colors, stretch-knit sock-style upper with pull tab, grid-of-small-squares pattern on the side panel, elastic bungee laces with a round toggle, double-chevron logo on the inner collar, chunky rocker midsole with a wavy side profile, lug outsole. Keep its proportions and every detail; only change its angle, lighting and setting as the layout requires. Do not invent a different shoe, logo or sole.",
+    "Show the shoe at its true, natural proportions, exactly like the reference photo: full length from toe to heel, natural height, roomy toe box. Never squash, flatten, shorten, stretch, compress or crop the shoe, and never render it smaller than its natural size relative to the person or scene.",
     "This is a women's shoe: the person wearing it is always a woman (women's proportions and styling). Men may appear only as gift-givers or in the background, never wearing the shoe.",
     "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
     "Add nothing the description doesn't ask for: no extra feature lists, icon callouts, price tags, badges, panels or captions. Never show other brands' logos or products; competitors appear as text names only.",
-    "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
+    "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos.",
+    "Never add icon badges, SHOP NOW or other call-to-action buttons, logo lockups or a designed brand header to the image; keep it plain.",
+    "READABLE TEXT (user rule 2026-10-28): all text is black, deep navy or white with strong contrast against its background; no purple or other colored words anywhere. Every line of the headline is set at exactly the same size and weight. Labels, pills and list rows all share one size, large enough for women 60+ to read on a phone (at least 1/25 of the canvas height).",
+    "Text spacing (user rule 2026-10-30): every text element sits at least 7% of the image width away from every edge (left, right, top, bottom) and has clear empty space around it; generous line spacing; never let text touch, crowd or run off an edge, a photo border or another element.",
+    "Shoe contrast (user rule 2026-10-30): never put a dark shoe (black, navy, black/purple) on a dark background. Use a light or mid-tone background (light grey, cream, pale tint, bright color) or a clearly lit surface so the shoe's shape, knit and sole stand out."
   ],
   "claims_to_avoid": [
-    "money-back guarantee, free/easy returns or fast shipping (top complaints in reviews and the survey)",
     "'orthopedic approved', 'podiatrist recommended', 'doctor recommended' or any cure/treatment claim",
-    "specific review counts or star ratings unless confirmed"
+    "specific review counts or star ratings unless confirmed",
+    "fast/quick shipping speed or 'easy returns' wording (shipping and returns are top complaints); the approved offer stack below is fine"
   ],
   "colorways": {
     "black_purple": {
@@ -32,15 +37,15 @@
     },
     "navy_blue": {
       "file": "reference/shoe_navy_blue.png",
-      "label": "navy with bright blue accents (team name: WhiteBlue/BlueWhite)"
+      "label": "navy with bright blue accents (team name: White Blue)"
     },
     "red_burgundy": {
       "file": "reference/shoe_red_burgundy.png",
-      "label": "burgundy red"
+      "label": "red / burgundy"
     },
     "black_mint": {
       "file": "reference/shoe_black_mint.png",
-      "label": "black with mint accents"
+      "label": "black with turquoise accents (team name: Turquoise/Black)"
     },
     "purple": {
       "file": "reference/shoe_purple.png",
@@ -61,10 +66,12 @@
       "source": "Biggest historical winners; 12% of survey jobs; PF 27%, 'just comfort' 26%",
       "colorways": [
         "black_purple",
-        "all_black",
         "black_white",
+        "all_black",
         "navy_blue"
-      ]
+      ],
+      "test_colorways": [],
+      "colorway_rule": "User rule 2026-10-30: nurse/healthcare images use ONLY Black/Purple, Black/White, All Black, White Blue (navy_blue)."
     },
     "cna_caregiver": {
       "name": "CNA / home health aide / caregiver",
@@ -73,7 +80,8 @@
         "black_purple",
         "all_black",
         "black_white",
-        "navy_blue"
+        "navy_blue",
+        "black_mint"
       ]
     },
     "restaurant": {
@@ -83,7 +91,8 @@
         "all_black",
         "black_white",
         "black_purple",
-        "navy_blue"
+        "navy_blue",
+        "black_mint"
       ]
     },
     "retail_warehouse": {
@@ -94,7 +103,8 @@
         "navy_blue",
         "black_mint",
         "black_white",
-        "light_grey"
+        "light_grey",
+        "black_purple"
       ]
     },
     "housekeeping": {
@@ -104,7 +114,8 @@
         "all_black",
         "black_purple",
         "navy_blue",
-        "black_mint"
+        "black_mint",
+        "black_white"
       ]
     },
     "teacher": {
@@ -113,13 +124,14 @@
       "colorways": [
         "navy_blue",
         "red_burgundy",
+        "black_purple",
+        "black_mint",
         "all_black",
-        "black_purple"
+        "black_white"
       ],
       "test_colorways": [
         "purple",
-        "grey_pink",
-        "black_mint"
+        "grey_pink"
       ]
     },
     "stylist": {
@@ -159,7 +171,13 @@
         "black_white",
         "navy_blue",
         "red_burgundy",
-        "black_mint"
+        "black_mint",
+        "black_purple",
+        "all_black"
+      ],
+      "test_colorways": [
+        "light_grey",
+        "grey_pink"
       ]
     },
     "walker_weightloss": {
@@ -185,12 +203,26 @@
         "light_grey",
         "purple"
       ]
+    },
+    "plus_size": {
+      "name": "Plus-size / overweight woman on her feet (work, walking, travel)",
+      "source": "User 2026-10-13: proven winning angle. Winners: 'I lost 50lbs+ after walking 20,000 steps' ($93k), Kyro 170 'My doctor said I'd never walk normally again because of my weight' ($106k, 1.89 ROAS); Notion: 250lb woman rating shoes, sneakers for travel over 200lbs, nobody told heavy women shoes aren't designed for them",
+      "colorways": [
+        "all_black",
+        "black_purple",
+        "navy_blue",
+        "black_white",
+        "red_burgundy"
+      ],
+      "test_colorways": [
+        "purple"
+      ]
     }
   },
   "language_rules": {
     "es": "All on-image text is in Spanish exactly as written in quotes, as a Spanish-speaking person living in the USA would say it (neutral US Latino, Mexican-leaning, using 'tú'). Keep every accent and sign: á é í ó ú ñ ¿ ¡. Numbers in US format (12,000 not 12.000; $59.95). Do not translate brand names. Use only the Spanish text given in quotes: do not add feature lists, icons with captions, price tags, badges or extra panels."
   },
-  "audience": "Women only: the product is a women's shoe. Whoever wears the shoe in an ad is always a woman; men may appear only as gift-givers or background people, never wearing the product.",
+  "audience": "Women only: the product is a women's shoe. Whoever wears the shoe in an ad is always a woman; men may appear only as gift-givers or background people, never wearing the product. Core buyers are 50-65+ (survey: 47% are 65+), so every word on the ad must be easy to read for older eyes.",
   "drive_folder_id": "1EAtch1T-oTW95VSiIYYP38mCjmSHEvZh",
   "asana": {
     "project_id": "1203476664398273",
@@ -224,18 +256,19 @@
     "iteration_batch": {
       "weekday": "Tuesday",
       "size": 20,
-      "spanish": 6
+      "spanish": 0
     },
     "netnew_batch": {
       "weekday": "Friday",
       "size": 40,
       "net_new": 32,
       "winning": 8,
-      "spanish": 12
+      "spanish": 0
     },
     "winning_personas": [
       "nurse",
-      "cna_caregiver"
+      "traveler",
+      "plus_size"
     ],
     "grow_personas": [
       "housekeeping",
@@ -247,7 +280,815 @@
       "min_spend": 300,
       "min_roas": 1.8
     },
-    "roas_note": "ROAS is unreliable Feb–Dec 2025 (tracking break): rank older ads by spend."
+    "roas_note": "ROAS is unreliable Feb–Dec 2025 (tracking break): rank older ads by spend.",
+    "angle_rules": "[Partly superseded by focus_2026_10_28 where they conflict.] User rule 2026-10-13: the proven angles are healthcare workers (nurses), travel, teachers and overweight/plus-size women; mix and match them (e.g. a plus-size nurse, a teacher on a summer trip, a plus-size traveler). At least ~40% of every batch leads with a FOOT-PAIN problem in the customer's words, using the survey and review data (research/analysis.md section 9 and research/data/notion_angles.md): plantar fasciitis/heel pain (25% of survey), arthritis (11%), neuropathy (10%), bunions (7%), swollen feet, knee/back pain from standing, plus 'no diagnosis, just want comfort' (22%).",
+    "offer": {
+      "stack": "40% OFF + 30-DAY MONEY-BACK GUARANTEE + FREE SHIPPING",
+      "share": 0.3,
+      "rule": "[Superseded by focus_2026_10_28.offer: small line/pill/seal, HSA/FSA up to 30% savings allowed.] User rule 2026-10-13: ~30% of every batch are offer-style creatives showing the full stack (40% OFF, 30-DAY MONEY-BACK GUARANTEE, FREE SHIPPING) as the hero, in varied formats (offer tile, stamp/seal, sticky notes, receipt, shoe + big type, warehouse/last-chance). Mix offer statics into the winning angles (nurse, travel, teacher, plus-size) and foot-pain hooks."
+    },
+    "layout_note": "[Partly superseded by focus_2026_10_28 where they conflict.] User rule 2026-10-23 (reconfirms 2026-10-18): ONE file per creative, 4:5 only. Render with `generate.py --layout feed` (the default); never `--layout native`/`extend`, no 9:16 file. Compose natively for 4:5 using the full frame. Shoes never look compressed. This overrides any older prompt text asking for native 9:16 + 4:5. Quality/budget: the user's 2026-10-13 budget rule (medium, ~$0.10-0.20 per ad) still applies unless told otherwise.",
+    "trend_research": "[Partly superseded by focus_2026_10_28 where they conflict.] User rule 2026-10-23: spend real effort on the Atria MCP/API for the NEWEST TRENDING STATIC formats every run, not just current/seasonal winners. Run `atria_pull.py inspo` (all inspo_queries) and `competitors`; sort by newest launch / fastest rank_delta_7d / most impressions; contact-sheet the image statics (`contact_sheet.py`), read every page, and write a short 'formats trending now' list (format name, who runs it, days running, what to borrow) into research/analysis.md. Net-new batches use at least 5 of these new formats (not 3); iteration batches take their big-swing formats from the same list. Name the trending source ad in based_on.",
+    "focus_2026_10_26": {
+      "rule": "User rule 2026-10-26. Covers the Tue/Fri runs from 2026-10-27 through the weeks of Oct 26 and Nov 2 (ends before the Nov 9 Black Friday week). Concepts are ONLY two themes: (1) NURSE (healthcare): comfort, foot pain, nurse terms (12s, shifts, charting, rounds, unit, floor, scrubs, break room, night shift, travel nurse, CNA) and (2) TRAVEL: Disney/theme parks and Europe (cobblestones, airports, city days). Mash-ups with plus-size, teacher persona etc. are fine only inside these two themes. Keep the offer-stack share, foot-pain share (>=40%), colors, cartoon share, and 4:5-only rules.",
+      "winners_first": "Before writing, analyze the previous winners for these two themes: atria_pull.py current + seasonal, winning_statics.csv, research/analysis.md (sections 1, 7, 12, 13), research/data/video_transcripts.md, and the winning nurse/travel statics (Dear Nurses $208k, 12-hour shift list $858k, shoes for 12h shifts diagram $457k, Game-changer $120k, Kyro 293/369/373 travel, TOFV1_KW1 plus-size theme-park 5.65 ROAS, Emily RN). Every concept's based_on names the winner it builds on (name, spend, ROAS) and what was kept (hook, format, proof).",
+      "spanish_twins": "Every concept has a Spanish twin: same layout, format, colorway and visual, copy written natively for US Latinos (tu, family/coworker framing), not translated. Twin id = the English id with '_es' inserted after the number (e.g. W46_03_es_slug), lang es, field twin_of = the English id. A batch's size counts concept PAIRS (Tue 20 = 10 EN + 10 ES twins; Fri 40 = 20 + 20); adjust to the user's wishes if they say otherwise. Spanish does not need its own new angle.",
+      "note": "Interpretation to confirm with the user: pairs count inside the batch size so the image budget stays the same.",
+      "copy_playbook": "User rule 2026-10-26: before writing nurse/travel concepts, read research/copy_playbook_nurse_travel.md (winning copy patterns from our top ads + competitor messaging) and apply its section 4 rules to every headline, quote and callout. Re-check it against the latest Atria current/competitors pulls each run and update the playbook with new competitor lines.",
+      "competitor_focus": "Also read research/competitor_focus_2026-10-26.md (WearStand, Clove, Hike Footwear, Snibbs; inspiration: Hollow Socks, Viasox) before writing nurse, travel and Black Friday concepts.",
+      "status": "SUPERSEDED 2026-10-28 by program.focus_2026_10_28 (English only, no Spanish twins, wider angle list)."
+    },
+    "black_friday_week_2026_11_09": {
+      "rule": "User rule 2026-10-26. The week of Nov 9 (batches written for that week: Fri 2026-11-06 net-new, folder 2026-W46-fri, and Tue 2026-11-10 iteration, folder 2026-W46-tue) are BLACK FRIDAY specific concepts. Keep the focus_2026_10_28 angles (English only), foot-pain leads and 4:5-only rules. The standard '40% OFF + 30-DAY MONEY-BACK GUARANTEE + FREE SHIPPING' stack is NOT used in these concepts.",
+      "offers": {
+        "A_sitewide": "\"60% OFF SITEWIDE\" (plus 'BLACK FRIDAY')",
+        "B_gifts": "\"BUY 2 PAIRS, GET 2 FREE GIFTS\" with the gifts shown/named as \"3-PACK CUSHIONED SOCKS\" and \"FREE TRAVEL BAG\""
+      },
+      "either_or": "Each concept uses offer A OR offer B, never both on the same concept. Split roughly evenly across the batch; a concept's Spanish twin uses the same offer. Offer concepts are most of the batch (BF week); non-offer concepts still lead with foot pain/nurse/travel hooks and a small BF tag.",
+      "do_not": "Do not name prices or a dollar value for the gifts, do not combine the 60% with the gifts, do not use 'quick/fast shipping' or easy-returns wording.",
+      "theme": "BLACK FRIDAY BRAND THEME (user 2026-10-31): the ad's color theme is WHITE and RED with a little GOLD. Use white or very light backgrounds, bold red (#D7141A style) for the main offer bands, pills, tags and key words, white text on red, black only for body text, and small gold accents (a few gold confetti pieces, a thin gold ribbon or gold star details). No black bands, no dark backgrounds, no other accent colors (no purple or blue text or bands). Reference: reference/benchmarks/bf_theme_brand.jpg (our own BF hero: white 'BLACK' + red 'FRIDAY', red offer box, red '+' pills, gold balloons/gifts; keep our light backgrounds so dark shoes stay visible).",
+      "theme_banner": "User 2026-10-31: every Black Friday ad carries the theme banner: wide red rectangle with huge white condensed lead offer ('60% OFF SITEWIDE' or 'BUY 2 PAIRS, GET 2 FREE GIFTS'), then two rows each with a small red '+' square and a black bar with white text: 'FREE SHIPPING & RETURNS' / '30-DAY MONEY-BACK GUARANTEE'; gold confetti accents. 'BLACK' + red 'FRIDAY' for headlines. UPDATE 2026-10-31 (user: 'too overwhelming'): default to the COMPACT banner: one red (or white on red backgrounds) lead box with the offer + one small line 'Free shipping & returns · 30-day money-back guarantee'. Use the full 2-row '+' banner only on light, otherwise simple layouts."
+    },
+    "creative_rules_v2": {
+      "rule": "User rule 2026-10-26 (replaces the polished-ad look for new concepts). Fixes four issues in the test batches: (1) no features/benefits on the ad, (2) looks AI, not real, (3) offer too loud, (4) copy too clever. Set `\"style\": \"ugc\"` on a concept to apply generate.py's UGC rule and brand.json -> quality_bar_ugc; default for all new nurse/travel/Black Friday concepts.",
+      "features": "Every concept shows 3-4 plain feature/benefit labels (body part + benefit).",
+      "real": "Phone-photo / screenshot / handwritten-note look, real environments, real women 55+, imperfect framing. Native formats (fb_comment, trustpilot, x_post, text thread) are real UI. Illustrations only when the run's inspiration research surfaces one (program.cartoon_rule).",
+      "offer": "One small line, sticker or handwritten note; never the hero. Standard: '40% OFF + FREE SHIPPING' and '30-DAY MONEY-BACK GUARANTEE' as one small line or two small stickers (exact words). Black Friday: one small tag, either '60% OFF SITEWIDE' or 'BUY 2 PAIRS, GET 2 FREE GIFTS' (3-pack cushioned socks + free travel bag), never both.",
+      "copy": "Headline max 7 words, everyday words, problem or benefit first. Patterns that win: '[Problem]?', 'Dear [Role], [benefit].', '[Outcome] in [number].', 'Built for [place/situation].', 'Say goodbye to [problem].', 'You'll forget you're wearing them.' Banned: wordplay, metaphors, props-as-jokes (permission slip, admit one, be the one who, lesson plan).",
+      "proven_layouts": "Two proven families (user feedback 2026-10-26 from an Atria MCP analysis, verified in our winners): (A) WINNING LAYOUT = white or very light background, ONE big shoe (35-60% of the frame), '12-hour shifts' (or the situation) in the headline, thin hand-drawn arrows to named conditions/features (Dear Nurses callouts, $229k at 4.34 ROAS; 12-hour shift list $858k). (B) SALE STATIC = same white layout showing three colors with the strike-through price '$120' crossed out next to '$59.95' (standard-offer weeks only; no prices in Black Friday week). Use (A) for about half of new concepts and the UGC look for the rest.",
+      "avoid_designed_brand_look": "Losing statics (e.g. May batches) were well-designed brand pieces: navy condensed headline lockup, icon badges, a SHOP NOW button inside the image. They read as ads and get ignored. Never add icon badges, CTA/SHOP NOW buttons, logo lockups or a designed brand header. Keep it plain: shoe, headline, arrows, small offer line.",
+      "line_to_reuse": "'Your running shoes weren't made for 12-hour shifts. These were.' is a strong line that sat in a layout that got ignored: re-run it inside layout (A) (white, one big shoe, arrows).",
+      "condition_naming": "Name the conditions the winners name (plantar fasciitis, bunions, swollen feet) but as 'For plantar fasciitis' / 'Room for bunions' / 'Stretch fit for swollen feet' labels, not 'alleviates / heals / improves circulation' (claims_to_avoid: no cure or treatment claims). OPEN QUESTION for the user: use the winners' exact 'Alleviates Plantar Fasciitis / Helps with Hallux Valgus / Improves Blood Circulation' wording?"
+    },
+    "paused_personas": {
+      "teacher": "User 2026-10-28: the teacher angle has died. Do not write teacher concepts. Re-enable only when atria_pull.py current shows a teacher ad with spend >= $300 and ROAS >= 1.8 in the last 30 days; then say so in the Slack DM."
+    },
+    "focus_2026_10_28": {
+      "rule": "User rules 2026-10-28. Replace the Oct 26 focus. ENGLISH ONLY (no Spanish concepts or twins until the user says otherwise; batch sizes count English concepts).",
+      "angles": {
+        "audiences": "Nurse / 12-hour shifts (~35%); Travel incl. Disney and Europe (~25%); Plus-size women, mostly as mash-ups (plus-size nurse, plus-size at Disney) (~20%); test slot (~20%) for new pain points from the feedback sheet. Teacher is paused (program.paused_personas).",
+        "pains": "Lead with a named pain in the customer's words in >=60% of concepts (research/feedback_pain_points_2026-10-28.md). Order: plantar fasciitis / heel pain (27%, lead), bunions (9%, second), then 'no pain, just comfort' (22%, the fastest-growing group, 32% in 2026), arthritis (12%), standing all day / tired sore feet (12%), neuropathy (11%; 15% of retirees), back/knee pain after shifts, and new test pains: WIDE FEET (rising 2% -> 4.4%), Morton's neuroma / burning ball of foot, flat feet / fallen arches, swelling. Each run re-checks the sheet for new ones.",
+        "pairing": "Every concept = one audience x one pain x one format. No audience x pain pair twice in a batch.",
+        "reweight": "Each run: angles with a new Atria current winner (ROAS >= 1.8, $300+) get 2-3 more slots; angles with no winner in 30 days and rejected verdicts lose one; seasonal pull and Black Friday rules still apply.",
+        "tuesday_20": "7 nurse (4 PF, 2 knee/back, 1 bunions), 5 travel/Disney, 4 plus-size mash-ups, 4 test pains",
+        "friday_40": "same proportions doubled"
+      },
+      "research": [
+        "Our winners: winning_statics.csv rows with >= $10,000 spend (Atria winners pull) and current/seasonal winners; write down their patterns (layout, headline formula, labels, offer placement, font).",
+        "Our winning video scripts: research/data/video_transcripts.md (hooks, objections, story beats, customer phrases) feed the copy and the concept.",
+        "Customer voice: research/feedback_pain_points_2026-10-28.md (18,452 survey answers: pain shares and trends, what they tried, why they bought, verbatim phrases, guardrails). Re-mine the Drive sheet 'ComfortWear Customer Feedback (Responses)' (download text/csv; never commit raw rows) when it is more than a month old.",
+        "Inspiration from OTHER health & wellness brands, not just footwear: atria_pull.py wellness (brand.json -> wellness): image, active, launched in the last 45 days, running 10+ days, max 2 per brand, off-niche dropped. Contact-sheet and Read every page; log a dated 'formats found this run' table in research/analysis.md (format, brand, category, days running, why it works, how we'd use it).",
+        "Patterns: list what our winners share and what the inspiration ads share; each concept combines one of each."
+      ],
+      "formats": "Every scheduled run uses NEW formats discovered in that run's Atria research. Each concept sets format_name (slug) and format_source (inspiration brand, category, days running). Formats already in research/format_ledger.json may not be reused; only our own proven layouts (wellness.proven_layouts, named 'proven:<slug>') may repeat, max ~30% of a batch. Run `python ads/format_ledger.py check --week <folder>` before rendering and `add` after shipping.",
+      "copy": "Direct response: one pain in the customer's own words -> agitate (what she tried, what it cost her) -> mechanism (arch, heel cushion, wide toe box, grip) -> proof (peer, number, story) -> one offer line. Headline max ~8 words, plain, specific, a number or a named place/situation when possible. No wordplay or puns.",
+      "look": "Realistic, NOT AI: real phone-photo scenes (natural uneven light, skin and fabric texture, grain, imperfect framing) or clean graphic layouts copied from the inspiration ad; never glossy composites. Full-bleed: the headline sits ON the image (sky, wall, floor), never in a separate band stacked above a photo; subject may overlap the type. Shoe large, true proportions, walking stance looks natural (mid-stride, not planted side by side). Poppins for all typeset text. Text readability (user 2026-10-28): text only black, navy or white, never purple or other colored words (accent color only as a solid fill behind white text); every line of one headline is the same size and weight; supporting text one uniform size, large.",
+      "offer": "~30% of a batch shows the offer: '40% OFF' + 'FREE SHIPPING' + '30-DAY MONEY-BACK GUARANTEE'; 'HSA/FSA ELIGIBLE' + 'UP TO 30% SAVINGS' may replace or join it. Offer stays a line, pill or seal, never the whole ad.",
+      "enemies": "What they tried, most common first (feedback sheet): insoles/orthotics (13%), ibuprofen/pain pills, stretching, massage, ice/Epsom soaks, sneakers/running shoes, Hokas, creams, compression socks, Brooks, night splints, cortisone. Name them in ladders, 'tried everything' and switch ads; no competitor logos.",
+      "customer_language": "Use phrases from research/feedback_pain_points_2026-10-28.md section 4 ('On my feet all day on concrete floors', 'throbbing, burning, aching', 'after 10 hour days I can barely walk', 'buy expensive shoes every 3 months').",
+      "guardrails": "From the feedback sheet: never promise fit or 'extra wide'; say 'built for 12-hour shifts', not 'no pain for 12 hours'; set expectations for the rocker sole; guarantee always 30 days."
+    },
+    "cartoon_rule": "User rule 2026-10-28: no cartoon/animation quota. Use cartoon_3d, comic_strip, flat_illustration, claymation, retro_cartoon or anime_soft ONLY when this run's inspiration research (wellness criteria: image, active, launched <=45 days, 10+ days running, health & wellness) surfaces an illustrated/animated static worth borrowing; it then counts as a new format in the ledger."
   },
-  "colorway_template": "The shoe is the {label} colorway shown in the reference photo."
+  "colorway_template": "The shoe is the {label} colorway shown in the reference photo.",
+  "colorway_priority": {
+    "best_sellers": [
+      "black_purple",
+      "all_black",
+      "navy_blue",
+      "black_white",
+      "red_burgundy",
+      "black_mint"
+    ],
+    "test": [
+      "purple",
+      "grey_pink",
+      "light_grey"
+    ],
+    "rule": "User rule 2026-10-13: test ALL colors, weighted to the best sellers. Best sellers in order: Black/Purple, All Black, White Blue (navy_blue), Black/White, Red (red_burgundy), Turquoise/Black (black_mint). About 80% of every batch uses best sellers, spread across all six (each at least once per batch when the batch has 12+ concepts, none over ~20%); about 20% tests purple, grey_pink or light_grey."
+  },
+  "approved_claims": [
+    "Offer (user-approved 2026-10-28): \"40% OFF\" + \"FREE SHIPPING\" + \"30-DAY MONEY-BACK GUARANTEE\". Use these exact words; the guarantee is 30 days (never 45).",
+    "HSA/FSA (user-approved 2026-10-28): \"HSA/FSA ELIGIBLE\" with \"UP TO 30% SAVINGS\" (or 'up to 30% savings if eligible').",
+    "Price: $59.95 (was $120). Strike-through price changed from $90 to $120 by the user on 2026-10-29: never show $90 again.",
+    "HSA/FSA eligible",
+    "Arch support, cushioned heel, wide toe box, stretch-knit upper, slip-resistant grip, elastic no-tie laces",
+    "BLACK FRIDAY 2026 (user-provided 2026-10-19, valid for the B48 Black Friday batch only): \"60% OFF SITEWIDE\", \"FREE GIFTS (VALUE OF $54)\", \"FREE SHIPPING\", \"CLEARANCE SALE\", \"HSA/FSA ELIGIBLE\", \"30-DAY WEAR TEST TRIAL\". Do not name the gift items or show prices until confirmed.",
+    "BLACK FRIDAY 2026 (user-provided 2026-10-19, valid for the B48 Black Friday batch only): \"60% OFF SITEWIDE\", \"FREE GIFTS (VALUE OF $54)\", \"FREE SHIPPING\", \"CLEARANCE SALE\", \"HSA/FSA ELIGIBLE\", \"30-DAY WEAR TEST TRIAL\". Do not name the gift items or show prices until confirmed.",
+    "BLACK FRIDAY week of Nov 9 (user-provided 2026-10-26): EITHER \"60% OFF SITEWIDE\" OR \"BUY 2 PAIRS, GET 2 FREE GIFTS\" (gifts: \"3-PACK CUSHIONED SOCKS\" and \"FREE TRAVEL BAG\"). Never both in one concept; do not combine with the 40% OFF stack.",
+    "BLACK FRIDAY 2026 offer facts (user-provided 2026-10-27): \"60% OFF SITEWIDE\"; \"BUY 2 PAIRS, GET A FREE 3-PACK OF SOCKS + FREE TRAVEL BAG\"; \"FREE SHIPPING & RETURNS\"; \"30-DAY MONEY-BACK GUARANTEE\" (free). User: no need to fit all of it on one ad. Keep the Oct 26 rule: the lead offer is EITHER 60% OFF OR the buy-2 gifts, never both; free shipping & returns and the 30-day guarantee may appear as small supporting lines. 'Free shipping & returns' is the approved wording (never 'easy' or 'fast').",
+    "BLACK FRIDAY price boxes (user-provided 2026-10-27, for Q48_06): strikethrough \"$120\" -> sale price \"$59.95\". Note: $59.95 vs $120 is ~50% off; $120 is now the standard reference price (user 2026-10-29).",
+    "BLACK FRIDAY promo code (user-provided 2026-10-27): code \"LEAKED10\" = \"EXTRA 10% OFF\", shown as \"TOTAL 70% OFF + FREE SHIPPING\". Note: 60% then an extra 10% compounds to 64%, unless the code adds 10 points; confirm before running.",
+    "BLACK FRIDAY promo code (user 2026-10-29): \"LEAKED10\" = \"EXTRA 10% OFF\" on top of 60% OFF SITEWIDE. Show as '60% OFF SITEWIDE + EXTRA 10% OFF', not 'TOTAL 70%' (stacked it is ~64%)."
+  ],
+  "quality_bar": [
+    "Match the quality of the brand's own top-performing ads (the benchmark image): polished commercial e-commerce production, crisp and bright, nothing that looks like generic AI stock art.",
+    "The shoe is the hero: it fills roughly 35-60% of the frame, sharp enough to see the knit texture, square pattern and bungee laces; often shown as a pair. Never a small shoe inside a wide scene.",
+    "Lifestyle shots crop tight on legs and feet (knee or mid-calf down), low camera angle, background softly blurred; faces are optional and never compete with the shoe.",
+    "Typography: one very large, heavy headline across nearly the full width, max 2 lines, high contrast, directly on a clean area of the image or on a solid shape. No translucent boxes, no drop-shadowed text over busy areas, no small headline.",
+    "Few elements: headline + product + at most 3 supporting elements (solid rounded pills, a solid offer block, or black hand-drawn curved arrows pointing at shoe features). Generous spacing, aligned edges.",
+    "Legibility for women 60+ (user rule 2026-10-13): all supporting text (feature/benefit labels, arrow callouts, pills, checklist rows, offer lines, comments) is large and bold enough to read on a phone at arm's length: at least about 1/25 of the canvas height per line (about 75px tall on the 9:16, 55px on the 4:5), high contrast, no light or thin weights, max 4-5 words per label. Use fewer, shorter labels rather than smaller text.",
+    "Text spacing (user rule 2026-10-30): every text element sits at least 7% of the image width away from every edge (left, right, top, bottom) and has clear empty space around it; generous line spacing; never let text touch, crowd or run off an edge, a photo border or another element.",
+    "Shoe contrast (user rule 2026-10-30): never put a dark shoe (black, navy, black/purple) on a dark background. Use a light or mid-tone background (light grey, cream, pale tint, bright color) or a clearly lit surface so the shoe's shape, knit and sole stand out.",
+    "QA lesson 2026-10-30 (user: 'shoe looks really deformed', HC_02): ALL-BLACK shoes rendered large in three-quarter view come out bloated (balloon toe, oversized sole, laces in the wrong place). For all_black use a straight side profile like the reference photo, normal size (~40% of width), light rim lighting so the outline reads.",
+    "Design rules 2026-10-31 (user: too much text / shoe must be main element / BF too overwhelming): shoe = focal point 35-50% of canvas; max 3 elements (headline 10 words or fewer, 1 support element, 1 compact offer); 30 words or fewer and 6 text blocks or fewer; offer = big lead + ONE small terms line; on saturated backgrounds keep everything else calm (white text, one white offer box, no confetti/badges); ~30% empty space; min text 26px. render.js lint must show OK."
+  ],
+  "benchmarks": {
+    "callouts_white": {
+      "file": "reference/benchmarks/dear_nurses_callouts_1x1.jpg",
+      "use_for": "product on white with hand-drawn arrow callouts, checklists, clean educational layouts"
+    },
+    "lifestyle_legs_9x16": {
+      "file": "reference/benchmarks/named_best_teacher_shoes_lifestyle_9x16.jpg",
+      "use_for": "lifestyle legs/feet close-up with big headline, 9:16 flow, award/authority claims"
+    },
+    "offer_block": {
+      "file": "reference/benchmarks/ditch_the_hokas_offer_1x1.jpg",
+      "use_for": "offer ads: legs crop + solid offer block + pills, competitor switch"
+    },
+    "lifestyle_urgency": {
+      "file": "reference/benchmarks/almost_sold_out_lifestyle_1x1.jpg",
+      "use_for": "lifestyle walking shot with urgency headline, detail-shot strip, offer pill"
+    },
+    "anatomy_split": {
+      "file": "reference/benchmarks/shoe_for_plantar_fasciitis_anatomy_4x5.jpg",
+      "use_for": "foot-pain mechanism, anatomy vs shoe split, condition-led headline"
+    },
+    "list_white": {
+      "file": "reference/benchmarks/w_12_hour_shift_list_858k.jpg",
+      "use_for": "headline + feature list + big product on soft background ($858k winner)"
+    },
+    "diagram_grey": {
+      "file": "reference/benchmarks/w_shoes_for_12h_shifts_diagram_457k.jpg",
+      "use_for": "product diagram with labeled features and pain-area inset ($457k winner)"
+    },
+    "comments_social": {
+      "file": "reference/benchmarks/w_didnt_buy_yet_comments_3x_roas.jpg",
+      "use_for": "native comments / testimonial with product or legs on the side (3.05 ROAS)"
+    },
+    "warehouse_urgency": {
+      "file": "reference/benchmarks/w_warning_warehouse_3x_roas.jpg",
+      "use_for": "real-photo urgency/scarcity, lo-fi offer, stock/restock (3.31 ROAS)"
+    },
+    "strikethrough_split": {
+      "file": "reference/benchmarks/w_hoka_strikethrough_solution_90k.jpg",
+      "use_for": "us vs them, crossed-out alternatives + solution panel"
+    },
+    "statement_list": {
+      "file": "reference/benchmarks/w_ditching_my_hokas_list.jpg",
+      "use_for": "bold statement headline + bullet list + product"
+    },
+    "transformation": {
+      "file": "reference/benchmarks/w_lost_50lbs_walking_93k.jpg",
+      "use_for": "transformation/claim headline with product and social proof"
+    },
+    "pills_gradient": {
+      "file": "reference/benchmarks/w_game_changer_long_shifts_120k.jpg",
+      "use_for": "occupation headline + feature pills + product pair on brand gradient"
+    },
+    "hsa_minimal_9x16": {
+      "file": "reference/benchmarks/hsa_fsa_did_you_know_9x16.jpg",
+      "use_for": "minimal 'did you know' fact/benefit on soft gradient, one large studio shoe, centered text, 9:16"
+    },
+    "comments_offer": {
+      "file": "reference/benchmarks/didnt_buy_yet_comments_1x1.jpg",
+      "use_for": "stacked Facebook comments + large shoe/leg on the right + offer line; retargeting ($50k, 3.05 ROAS original)"
+    },
+    "versus_split_9x16": {
+      "file": "reference/benchmarks/brooks_vs_recommended_split_9x16.jpg",
+      "use_for": "competitor vs ours split columns with X/check pills, headline in solid bars, 9:16"
+    },
+    "condition_icons": {
+      "file": "reference/benchmarks/mortons_toe_relief_icons_4x5.jpg",
+      "use_for": "condition-led headline in solid bars, real-room shoe pair, pain inset circle, 4 feature photo tiles, offer ribbon"
+    },
+    "pills_offer_studio": {
+      "file": "reference/benchmarks/built_for_12h_shifts_pills_1x1.jpg",
+      "use_for": "studio leg + shoe on white, 40% OFF circle, headline with colored second line, 5 check pills, 'try risk-free' button"
+    },
+    "bf_notice": {
+      "file": "reference/benchmarks/bf_ref_notice_communique.jpg",
+      "use_for": "FORMAT ref (other brand): urgent white notice with warning triangle, bold caps title, underlined key phrases, red offer line; text only"
+    },
+    "bf_oops_letter": {
+      "file": "reference/benchmarks/bf_ref_did_we_mess_up_letter.jpg",
+      "use_for": "FORMAT ref (other brand): 'Uh-oh... did we mess up?' founder note on soft gradient, rounded display headline + emoji, short paragraphs, small product bottom-right"
+    },
+    "bf_final_hours": {
+      "file": "reference/benchmarks/bf_ref_final_hours_text.jpg",
+      "use_for": "FORMAT ref (other brand): dark background, red 'FINAL HOURS' title with sirens, white body with bold highlights, product + starburst bottom-right, script signature"
+    },
+    "bf_goodbye": {
+      "file": "reference/benchmarks/bf_ref_saying_goodbye.jpg",
+      "use_for": "FORMAT ref (other brand): white, big red 'WE'RE SAYING GOODBYE' headline, two black paragraphs, handwritten signature, product row along the bottom"
+    },
+    "bf_formal_apology": {
+      "file": "reference/benchmarks/bf_ref_formal_apology.jpg",
+      "use_for": "FORMAT ref (other brand): plain white formal apology letter, centered bold title, short paragraphs, italic line, handwritten signature + title"
+    },
+    "bf_shelf": {
+      "file": "reference/benchmarks/bf_ref_shelf_clogs_9x16.jpg",
+      "use_for": "FORMAT ref (other brand): warm beige studio, big black 'Black Friday Sale.' title, red box offer word, black pill, product on a floating stone shelf with hard shadow, red hang tag, two small feature lines at the bottom"
+    },
+    "bf_split": {
+      "file": "reference/benchmarks/bf_ref_split_save60.jpg",
+      "use_for": "FORMAT ref (other brand): white top banner 'BLACK FRIDAY SALE', left black panel with huge white/yellow 'SAVE 60% OFF', right lifestyle photo of legs, red circular hang tag"
+    },
+    "bf_buy_get": {
+      "file": "reference/benchmarks/bf_ref_buy1get1_snow.jpg",
+      "use_for": "FORMAT ref (other brand): red pill 'BLACK FRIDAY SALE' over a white banner with the buy/get offer, product pair large on a snowy wooden deck, color swatch dots bottom-right"
+    },
+    "bf_pink": {
+      "file": "reference/benchmarks/bf_ref_pink_60off.jpg",
+      "use_for": "FORMAT ref (other brand): soft pink gradient, product on white boxes top half, 'BLACK FRIDAY SALE', gradient pill line, huge '60% OFF', gradient bottom bar"
+    },
+    "bf_collage": {
+      "file": "reference/benchmarks/bf_ref_ugc_collage_9x16.jpg",
+      "use_for": "FORMAT ref (other brand): grid of real customer photos holding the product, center black box with red 'BLACK FRIDAY', product line and red offer"
+    },
+    "approved_L48_07": {
+      "file": "weeks/2026-W48-bf-letters/output/L48_07_final_hours_general_v1.png",
+      "use_for": "OWN approved render (user asked for colorway variants 2026-10-27): Black Friday final hours, general foot-pain copy"
+    },
+    "approved_L48_04": {
+      "file": "weeks/2026-W48-bf-letters/output/L48_04_saying_goodbye_gifts_v2.png",
+      "use_for": "OWN render (user asked for a 60%-only version 2026-10-27): We're saying goodbye"
+    },
+    "approved_L48_02": {
+      "file": "weeks/2026-W48-bf-letters/output/L48_02_did_we_mess_up_gifts_v2.png",
+      "use_for": "OWN render (user asked for a 60%-only, white-background version 2026-10-27): Uh-oh did we mess up"
+    },
+    "approved_O48_03": {
+      "file": "weeks/2026-W48-bf-offers/output/O48_03_buy2_gifts_snow_v1.png",
+      "use_for": "OWN render (user asked for a two-pair version 2026-10-27): buy 2 pairs, snowy deck"
+    },
+    "approved_O48_04": {
+      "file": "weeks/2026-W48-bf-offers/output/O48_04_pink_biggest_sale_v1.png",
+      "use_for": "OWN render (user asked for White Blue and Red versions 2026-10-27): pink biggest-sale 60% card"
+    },
+    "approved_O48_05": {
+      "file": "weeks/2026-W48-bf-offers/output/O48_05_collage_buy2_gifts_v1.png",
+      "use_for": "OWN render (user asked for a 60% version 2026-10-27): customer collage"
+    },
+    "approved_O48_06": {
+      "file": "weeks/2026-W48-bf-offers/output/O48_06_buy2_two_pairs_snow_v1.png",
+      "use_for": "OWN render (user asked for the pairs closer and bigger 2026-10-27): snowy deck two pairs"
+    },
+    "bf_stage": {
+      "file": "reference/benchmarks/bf_ref_stage_spotlight_9x16.jpg",
+      "use_for": "FORMAT ref (other brand): dark stage with spotlights and black/gold balloons, huge 'BLACK' white + 'FRIDAY' red condensed title, product on a round podium, red offer box, two red-plus benefit rows"
+    },
+    "bf_ends_soon": {
+      "file": "reference/benchmarks/bf_ref_ends_soon_blocks.jpg",
+      "use_for": "FORMAT ref (other brand): blue 'BLACK FRIDAY ENDS SOON' block + black headline block on top, huge left-aligned offer stack with a coupon ticket, product right, blue 'FINAL HOURS' tab bottom-right"
+    },
+    "bf_band": {
+      "file": "reference/benchmarks/bf_ref_lifestyle_band_9x16.jpg",
+      "use_for": "FORMAT ref (other brand): real lifestyle photo with a hand holding the product, a black band across the upper third with huge white 'UP TO 52% OFF' and 'BLACK FRIDAY SALE' below, small dark oval label"
+    },
+    "bf_risk_free": {
+      "file": "reference/benchmarks/bf_ref_risk_free_pink.jpg",
+      "use_for": "FORMAT ref (other brand): soft pink background, 'Try 60 Days' + big purple 'Risk-Free' headline, three products center, accessories around, orange sticker, row of white outline pills at the bottom"
+    },
+    "bf_alert_post": {
+      "file": "reference/benchmarks/bf_ref_alert_text_post.jpg",
+      "use_for": "FORMAT ref (other brand): native text post on an orange-to-pink gradient, centered white bold caps text with siren emojis, pointing emojis, link line, cartoon avatar of a woman with glasses giving thumbs up bottom-right"
+    },
+    "bf_caution_lux": {
+      "file": "reference/benchmarks/bf_ref_caution_tape_luxury.jpg",
+      "use_for": "FORMAT ref (other brand): black marble luxury scene, yellow 'BLACK FRIDAY' caution tape across corners, gold 'BLACK FRIDAY SALE' title, product on a podium with gold ribbon and a gold hang tag, gold-outline pill at the bottom"
+    },
+    "bf_never_again": {
+      "file": "reference/benchmarks/bf_ref_never_again_price.jpg",
+      "use_for": "FORMAT ref (other brand): light grey, huge black 'WE WILL NEVER DO THIS AGAIN!', red box -> arrow -> green box comparison, product with box center, caution tape on the side edges, bold italic line at the bottom"
+    },
+    "bf_pricey": {
+      "file": "reference/benchmarks/bf_ref_yes_its_pricey.jpg",
+      "use_for": "FORMAT ref (other brand): white text-first ad, heavy orange-outlined 'YES, IT'S PRICEY' title, short paragraph and bullet list with bold phrases, product pack bottom-right, retro red/blue offset offer text bottom-left"
+    },
+    "bf_quote_pills": {
+      "file": "reference/benchmarks/bf_ref_quote_pills.jpg",
+      "use_for": "FORMAT ref (other brand): pale pink, customer quote headline in caps with the second half bold, side-view shoe large center, round burgundy discount badge, 2x2 burgundy check-pills, black bar at the bottom"
+    },
+    "bf_heavier_insets": {
+      "file": "reference/benchmarks/bf_ref_heavier_woman_insets.jpg",
+      "use_for": "FORMAT ref (other brand): plus-size legs in leggings wearing the shoes on the right, white-boxed headline with one bold phrase, 2x2 inset photos with small labels on the left, dark discount box, thin bottom trust bar"
+    },
+    "approved_P48_05": {
+      "file": "weeks/2026-W48-bf-batch3/output/P48_05_alert_post_gifts_v1.png",
+      "use_for": "OWN render (user asked for a 60% version 2026-10-27): Black Friday alert text post"
+    },
+    "approved_Q48_02": {
+      "file": "weeks/2026-W48-bf-batch4/output/Q48_02_may_never_again_60_v1.png",
+      "use_for": "OWN render (user asked for $120 -> $59.95 price boxes 2026-10-27): may never do this again"
+    },
+    "approved_Q48_03": {
+      "file": "weeks/2026-W48-bf-batch4/output/Q48_03_yes_its_pricey_gifts_v1.png",
+      "use_for": "OWN render (user asked for a 60% version 2026-10-27): yes it's pricey"
+    },
+    "approved_Q48_06": {
+      "file": "weeks/2026-W48-bf-batch4/output/Q48_06_may_never_again_price_v1.png",
+      "use_for": "OWN render (user asked for White Blue and Black/Purple versions 2026-10-27): may never again, $120 -> $59.95"
+    },
+    "approved_Q48_01": {
+      "file": "weeks/2026-W48-bf-batch4/output/Q48_01_caution_tape_luxury_60_v1.png",
+      "use_for": "OWN render (user asked for Red and White Blue versions 2026-10-27): caution tape luxury 60%"
+    },
+    "bf_leaked": {
+      "file": "reference/benchmarks/bf_ref_leaked_code.jpg",
+      "use_for": "FORMAT ref (other brand): light warm-grey, heavy dark 'YOU WEREN'T SUPPOSED TO SEE THIS', short explainer line, 'USE CODE' + outlined code pill, coral 'FOR EXTRA 20% OFF', two products bottom-left and bottom-right with a 'TOTAL 70% OFF + FREE SHIPPING' line between them"
+    },
+    "approved_R48_05": {
+      "file": "weeks/2026-W48-bf-batch5/output/R48_05_advertorial_alert_gifts_v1.png",
+      "use_for": "OWN render (user asked for nurse and 60% versions 2026-10-27): advertorial Black Friday alert"
+    },
+    "approved_R48_03": {
+      "file": "weeks/2026-W48-bf-batch5/output/R48_03_email_bundle_gifts_v1.png",
+      "use_for": "OWN render (user asked for nurse and 60% versions 2026-10-27): email screenshot"
+    },
+    "approved_R48_01": {
+      "file": "weeks/2026-W48-bf-batch5/output/R48_01_dont_buy_these_60_v1.png",
+      "use_for": "OWN render (user asked for 3 colorway + copy variants 2026-10-27): don't buy these shoes"
+    },
+    "four_reasons": {
+      "file": "reference/benchmarks/ref_four_reasons_hand.jpg",
+      "use_for": "FORMAT ref (other brand): sage green, white caps title '4 REASONS...', four white pills with green check emoji, a hand holding one shoe up bottom-right, small offer stack bottom-left"
+    },
+    "forget_feet": {
+      "file": "reference/benchmarks/ref_forget_feet_tape.jpg",
+      "use_for": "FORMAT ref (other brand): pale lavender, red serif headline, huge top-down insole/sole center, four handwritten labels on torn masking tape around it"
+    },
+    "every_day_colors": {
+      "file": "reference/benchmarks/ref_every_day_three_colors.jpg",
+      "use_for": "FORMAT ref (other brand): warm beige, dark brown two-line headline with one underlined word, italic subline, three shoes in a row leaning on a wall, round brown discount badge, two dark check pills, thin trust bar"
+    },
+    "search_bar": {
+      "file": "reference/benchmarks/ref_search_bar_insets.jpg",
+      "use_for": "FORMAT ref (other brand): blurred garden photo of a smiling older woman holding one shoe toward the camera, white search bar with a question, three inset photos with purple caption bars, red round discount badge, white trust bar"
+    },
+    "approved_S45_03": {
+      "file": "weeks/2026-W45-inspo-personas/output/S45_03_forget_feet_plus_v1.png",
+      "use_for": "OWN render (user asked for a nurse version 2026-10-27): forget about your feet, taped notes"
+    },
+    "quote_box": {
+      "file": "reference/benchmarks/ref_quote_box_price.jpg",
+      "use_for": "FORMAT ref (other brand): cream background, huge red quote top-left, '– Literally everyone', struck old price + big red price, red closing line, shoes in an open kraft box on the right"
+    },
+    "split_offer": {
+      "file": "reference/benchmarks/ref_split_half_price.jpg",
+      "use_for": "FORMAT ref (other brand): left cream panel with color dots, huge black title, maroon offer bar, short line, 3 check rows, maroon round badge, small footer; right lifestyle photo of crossed legs on a park bench wearing the shoes"
+    },
+    "arent_cheap": {
+      "file": "reference/benchmarks/ref_arent_cheap.jpg",
+      "use_for": "FORMAT ref (other brand): white, huge dark-green serif 'OUR SHOES AREN'T CHEAP.', three bullet sentences (last one bold green), smiling woman portrait bottom-left, product bottom-right"
+    },
+    "hsa_fsa": {
+      "file": "reference/benchmarks/ref_hsa_fsa.jpg",
+      "use_for": "FORMAT ref (other brand): warm yellow, huge black 'HSA/FSA ACCEPTED', short line with one bold phrase, two round icon rows, white check card, product large bottom-right on a pale blue surface"
+    },
+    "chain_icons": {
+      "file": "reference/benchmarks/ref_chain_icons.jpg",
+      "use_for": "FORMAT ref (other brand): white, two-line black headline, row of 5 simple flat icons with labels and down arrows, big shoe side view center, short bold side line, blue pill offer button"
+    },
+    "approved_T45_02": {
+      "file": "weeks/2026-W45-inspo-batch2/output/T45_02_split_heavier_feet_v1.png",
+      "use_for": "OWN render (user asked for 'MADE FOR PLUS-SIZED' + a plus-size model 2026-10-29): plus-size split"
+    },
+    "whiteboard": {
+      "file": "reference/benchmarks/ref_whiteboard_before_after.jpg",
+      "use_for": "FORMAT ref (other brand): real whiteboard on a kitchen counter, hand-drawn marker before/after split with arrows and labels, marker headline + subline, real product in front of the board"
+    },
+    "sticky_bed": {
+      "file": "reference/benchmarks/ref_sticky_notes_bed.jpg",
+      "use_for": "FORMAT ref (other brand): lo-fi phone photo, shoe pair on rumpled white bed sheets, three yellow sticky notes with handwritten marker text stuck on the shoes"
+    },
+    "problems_solution": {
+      "file": "reference/benchmarks/ref_problems_solution.jpg",
+      "use_for": "FORMAT ref (other brand): split, left white 'PROBLEMS' with three black line icons + caps labels, right navy gradient 'SOLUTION' with a white script tag and the product large"
+    },
+    "paint_window": {
+      "file": "reference/benchmarks/ref_paint_window.png",
+      "use_for": "FORMAT ref (other brand): retro 90s paint-program window, wobbly mouse-drawn caps text, hand-drawn circle around a product photo with an arrow"
+    },
+    "approved_R48_06": {
+      "file": "weeks/2026-W48-bf-batch5/output/R48_06_leaked_code_70_v1.png",
+      "use_for": "OWN render (user asked for a 60% + extra 10% version 2026-10-29): leaked code"
+    },
+    "problem_solution_v": {
+      "file": "reference/benchmarks/ref_problem_solution_vertical.png",
+      "use_for": "FORMAT ref (other brand): split, left black panel with 'PROBLEM' pill, white caps statement with one accent word, up arrow; right khaki panel with 'SOLUTION' pill, brand + product name, product large, one-line description"
+    },
+    "week_progress": {
+      "file": "reference/benchmarks/ref_week_progress_price.png",
+      "use_for": "FORMAT ref (other brand): dark background, big orange caps headline + white subline, three photo panels with orange caption bars, special deal price with strike-through, product right"
+    },
+    "callouts_badge": {
+      "file": "reference/benchmarks/ref_callouts_badge.png",
+      "use_for": "FORMAT ref (other brand): product huge on a soft bedroom-tone photo, white caps headline top-left, four callout lines with dots to the product, navy round sale badge top-right, closing line bottom-right"
+    },
+    "notes_app": {
+      "file": "reference/benchmarks/ref_notes_app_list.png",
+      "use_for": "FORMAT ref (other brand): phone notes-app card over a blurred lifestyle photo, bold title 'Things I wish I already knew about X', yellow check list, product pack bottom, red round discount badge"
+    },
+    "qa_three": {
+      "file": "reference/benchmarks/ref_qa_three_shoes.png",
+      "use_for": "FORMAT ref (other brand): white/pale pink, mauve headline, three question rows with small icons and arrow answers, three shoes (one worn on a foot) on the right, brand name bottom-left"
+    },
+    "icons_around": {
+      "file": "reference/benchmarks/ref_icons_around_product.png",
+      "use_for": "FORMAT ref (other brand): deep berry-to-pink gradient, big white two-line headline, italic offer line with sparkles, product center, three round white icons with labels on each side"
+    },
+    "fall_callouts": {
+      "file": "reference/benchmarks/ref_fall_callouts.png",
+      "use_for": "FORMAT ref (other brand): warm rust-orange gradient with autumn leaves, small 'FALL SALE', big white caps headline, product center with three callout lines, yellow offer lines, brand name bottom"
+    },
+    "ours_theirs": {
+      "file": "reference/benchmarks/ref_ours_theirs.png",
+      "use_for": "FORMAT ref (other brand): split navy 'OURS' vs cream 'THEIRS' with a wavy divider, product on each side, three comparison rows"
+    },
+    "wordart_poster": {
+      "file": "reference/benchmarks/ref_wordart_poster.png",
+      "use_for": "FORMAT ref (other brand): homemade printed-poster look, rainbow WordArt headline, navy Comic-style subline, product photo on a floral tablecloth, serif bottom line, clip-art accents and a yellow starburst"
+    },
+    "approved_R48_16": {
+      "file": "weeks/2026-W48-bf-batch5/output/R48_16_leaked_code_60_plus_10_v1.png",
+      "use_for": "OWN render (user asked for smaller shoes fully in frame 2026-10-29): leaked code 60% + 10%"
+    },
+    "approved_U45_01": {
+      "file": "weeks/2026-W45-inspo-batch3/output/U45_01_whiteboard_hokas_v1.png",
+      "use_for": "OWN render (user asked for a Hoka-looking left sketch 2026-10-29): whiteboard before/after"
+    },
+    "approved_U45_03": {
+      "file": "weeks/2026-W45-inspo-batch3/output/U45_03_problems_solution_v2.png",
+      "use_for": "OWN render (user asked for one shoe + a nurse version 2026-10-29): problems/solution split"
+    },
+    "approved_U45_04": {
+      "file": "weeks/2026-W45-inspo-batch3/output/U45_04_paint_please_nurse_v1.png",
+      "use_for": "OWN render (user asked for 3 more versions 2026-10-29): retro Paint meme"
+    },
+    "three_stage": {
+      "file": "reference/benchmarks/ref_three_stage_body.png",
+      "use_for": "FORMAT ref (other brand): black headline bar + 'or your money back' line, three same-pose panels in a row with orange circles and month labels, product below"
+    },
+    "deserves_bar": {
+      "file": "reference/benchmarks/ref_deserves_offer_bar.png",
+      "use_for": "FORMAT ref (other brand): bright home lifestyle photo, outlined small caps label + huge navy two-line headline, red/navy split offer bar at the bottom"
+    },
+    "checklist_gradient": {
+      "file": "reference/benchmarks/ref_checklist_gradient.png",
+      "use_for": "FORMAT ref (other brand): peach-to-pink gradient, small kicker line, big serif headline with italic words, green-check list on the left, product large right, yellow offer pill bottom"
+    },
+    "will_not": {
+      "file": "reference/benchmarks/ref_will_not_reverse.png",
+      "use_for": "FORMAT ref (other brand): moody dark-blue bedroom photo, small kicker, big serif 'This will NOT...' headline, product center, round discount badge, reversal punchline below"
+    },
+    "thermal_three": {
+      "file": "reference/benchmarks/ref_thermal_three.png",
+      "use_for": "FORMAT ref (other brand): black background, white-box headline + white subline, three legs in a row with labels under each"
+    },
+    "approved_U45_05": {
+      "file": "weeks/2026-W45-inspo-batch3/output/U45_05_problems_solution_nurse_v1.png",
+      "use_for": "OWN render (user asked for a pastel background 2026-10-29): nurse problems/solution"
+    },
+    "approved_V45_04": {
+      "file": "weeks/2026-W45-inspo-batch4/output/V45_04_notes_wish_knew_nurse_v1.png",
+      "use_for": "OWN render (user: headline spills out of the notes card 2026-10-30): notes-app list"
+    },
+    "we_tested": {
+      "file": "reference/benchmarks/ref_we_tested_sticky.jpg",
+      "use_for": "FORMAT ref (other brand): several competing products in a row on a kitchen counter, yellow sticky note in front with handwritten 'We Tested the Top...'"
+    },
+    "warehouse": {
+      "file": "reference/benchmarks/ref_warehouse_too_much.jpg",
+      "use_for": "FORMAT ref (other brand): phone photo in a warehouse with pallets of product, hand holding one product to camera, white caption boxes 'We Made Too Much X' + 'please help us empty our warehouse', red circle offer"
+    },
+    "we_compared": {
+      "file": "reference/benchmarks/ref_we_compared_row.jpg",
+      "use_for": "FORMAT ref (other brand): products standing in a row against white tile, dark gradient bottom with heavy white caps + orange accent words, underlined 'See the full comparison' line"
+    },
+    "new_report": {
+      "file": "reference/benchmarks/ref_new_report_ranked.jpg",
+      "use_for": "FORMAT ref (other brand): advertorial, natural kitchen photo of a person dealing with the problem, small site label top-left, 'NEW REPORT' kicker, heavy white caps 'WE RANKED 5...' headline and subline over a dark bottom gradient"
+    },
+    "new_report_closeup": {
+      "file": "reference/benchmarks/ref_new_report_closeup.jpg",
+      "use_for": "FORMAT ref (other brand): striking close-up photo, 'NEW REPORT' + heavy white caps 'WE RANKED THE TOP 5...' headline, light-orange subline bar, tiny disclaimer bottom-right"
+    },
+    "factory_caption": {
+      "file": "reference/benchmarks/ref_factory_caption.jpg",
+      "use_for": "FORMAT ref (other brand): real factory production line photo with products on a steel table, black caption boxes with white serif caps text at the bottom"
+    },
+    "writing_on_leg": {
+      "file": "reference/benchmarks/ref_writing_on_leg.png",
+      "use_for": "FORMAT ref (other brand): phone photo from above of legs on a bed, black marker handwriting on the thigh, product lying next to the legs"
+    },
+    "more_trick": {
+      "file": "reference/benchmarks/ref_more_trick_closeup.png",
+      "use_for": "FORMAT ref (other brand): curiosity caption in heavy black text with grey '... more' on white, extreme close-up photo below"
+    },
+    "poll_card": {
+      "file": "reference/benchmarks/ref_poll_card.png",
+      "use_for": "FORMAT ref (other brand): moody lifestyle photo background, white poll card with black header 'Which X matters most to you?' and four grey option rows"
+    },
+    "dont_wait": {
+      "file": "reference/benchmarks/ref_dont_wait_offer.png",
+      "use_for": "FORMAT ref (other brand): warm kitchen lifestyle photo, big dark two-line headline + subline, red starburst % off, round guarantee badge, ribbon label, product right"
+    },
+    "strike_callouts": {
+      "file": "reference/benchmarks/ref_strike_callouts.jpg",
+      "use_for": "FORMAT ref: white, two-line black headline with bold words, one big shoe center, four curved hand-drawn arrows to labels, each label = grey struck-through problem over bold benefit, black bottom bar with price | brand"
+    },
+    "dont_need_another": {
+      "file": "reference/benchmarks/ref_dont_need_another.jpg",
+      "use_for": "FORMAT ref: light grey, brand wordmark top, grey rounded box with 🚫 caps headline (last words in accent color), product center, round stat badge left, curved arrow to a ✅ line below"
+    },
+    "handwritten_minimal": {
+      "file": "reference/benchmarks/ref_handwritten_minimal.jpg",
+      "use_for": "FORMAT ref: plain light grey, hand-drawn marker caps text in maroon, a doodled smile, product right, offer line lower left"
+    },
+    "be_gone_callouts": {
+      "file": "reference/benchmarks/ref_be_gone_callouts.jpg",
+      "use_for": "FORMAT ref: warm cream, huge maroon three-part caps headline, product center, four round maroon icons with labels and curved arrows, maroon guarantee bar at the bottom"
+    },
+    "four_shoes_offer": {
+      "file": "reference/benchmarks/ref_four_shoes_offer.jpg",
+      "use_for": "FORMAT ref: white, four shoes in two rows (top and bottom), big black condensed caps offer lines in the middle, pink pill sub-offer"
+    },
+    "pick_level": {
+      "file": "reference/benchmarks/ref_pick_your_level.jpg",
+      "use_for": "FORMAT ref: lifestyle legs photo right, red tag + huge black caps title + 'PICK YOUR LEVEL' left, three stacked tinted cards (blue/yellow/pink) with small photo, colored level name, spec and one line"
+    },
+    "fb_group_post": {
+      "file": "reference/benchmarks/ref_fb_group_post.jpg",
+      "use_for": "FORMAT ref: native Facebook group post screenshot: avatar, name ▶ group, time, post text, one real photo, reaction row and Like/Comment/Share"
+    },
+    "reddit_post": {
+      "file": "reference/benchmarks/ref_reddit_post.jpg",
+      "use_for": "FORMAT ref: native Reddit thread screenshot: subreddit + user, bold post title, vote/comment row, one top reply with bold last sentence"
+    },
+    "x_dark": {
+      "file": "reference/benchmarks/ref_x_post_dark.jpg",
+      "use_for": "FORMAT ref: dark-mode X post, avatar + name + handle, large white text paragraph, nothing else"
+    },
+    "strike_list": {
+      "file": "reference/benchmarks/ref_strike_list_offer.jpg",
+      "use_for": "FORMAT ref: white, thin black top bar '⚠ LIMITED TIME', huge black headline, four rows of grey struck-through problem + bold blue benefit, big shoe bottom-left, round close-up inset right"
+    },
+    "street_callouts": {
+      "file": "reference/benchmarks/ref_lifestyle_callouts_badge_9x16.jpg",
+      "use_for": "FORMAT ref: street photo cropped at the shins, shoes large, white box headline with red caps text, three small white-box black callout labels, round magenta % off badge"
+    },
+    "big_title_bar": {
+      "file": "reference/benchmarks/ref_big_title_offer_bar_9x16.jpg",
+      "use_for": "FORMAT ref: pale gradient, huge blue condensed caps line + red caps line, one big shoe angled, blue rounded offer bar at the bottom"
+    },
+    "approved_TF_05": {
+      "file": "weeks/2026-W45-tof-aggressive/output/TF_05_handwritten_limping_v1.png",
+      "use_for": "OWN render (user asked for a Black/Purple version 2026-10-30): limping to your car handwritten"
+    },
+    "approved_TF_07": {
+      "file": "weeks/2026-W45-tof-aggressive/output/TF_07_be_gone_v1.png",
+      "use_for": "OWN render (user asked for a nurse version 2026-10-30): be gone callouts"
+    },
+    "approved_TF_08": {
+      "file": "weeks/2026-W45-tof-aggressive/output/TF_08_four_colors_offer_v1.png",
+      "use_for": "OWN render (user asked for nurse and traveler versions 2026-10-30): four colors offer"
+    },
+    "approved_TF_10": {
+      "file": "weeks/2026-W45-tof-aggressive/output/TF_10_be_gone_nurse_v1.png",
+      "use_for": "OWN render (user asked for White Blue and Black/Purple 2026-10-30): be gone nurse"
+    },
+    "approved_TF2_08": {
+      "file": "weeks/2026-W45-tof-aggressive-2/output/TF2_08_strike_nurse_v1.png",
+      "use_for": "OWN render (user asked for an x-ray plantar fasciitis inset 2026-10-30): strike list nurse"
+    },
+    "fsa_lifestyle": {
+      "file": "reference/benchmarks/ref_fsa_lifestyle_9x16.png",
+      "use_for": "FORMAT ref: low-angle street photo of legs mid-stride in joggers, shoes large, shadows of blinds; small brand wordmark, huge white caps 'FSA/HSA ELIGIBLE.', white pill line"
+    },
+    "xray_hsa": {
+      "file": "reference/benchmarks/ref_xray_bunions_hsa.png",
+      "use_for": "FORMAT ref: grey grid background, x-ray of foot bones inside a translucent top-down shoe outline with dashed arrows, white lower panel with two-line question + bold answer, shoe side view bottom-right, tiny disclaimer"
+    },
+    "disney_cushion": {
+      "file": "reference/benchmarks/ref_disney_zero_regrets_9x16.jpg",
+      "use_for": "FORMAT ref: soft white puffy quilted cushion background, two-line dark headline with bold words, pair of shoes resting on the cushion"
+    },
+    "approved_HD_03": {
+      "file": "weeks/2026-W45-hsa-disney/output/HD_03_disney_zero_regrets_v1.png",
+      "use_for": "OWN render (user asked for 3 colorway variants 2026-10-30): 20,000 steps at Disney"
+    },
+    "vs_split": {
+      "file": "reference/benchmarks/ref_vs_hoka_split_9x16.png",
+      "use_for": "FORMAT ref: blue title box 'Why Your X Are Not Made For Y', left grey column competitor shoe + 4 grey ❌ boxes, right blue column our shoe + 4 blue ✓ boxes"
+    },
+    "t_dear_strike": {
+      "file": "reference/benchmarks/trend_Armadilo_dontsit.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Armadilo 'Dear Chefs, work doubles pain free' white, strike-through features list, shoe + top view, price pill (climbed 52 places in 7d)"
+    },
+    "t_dear_heavy": {
+      "file": "reference/benchmarks/trend_Armadilo_dontsit2.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Armadilo 'Dear Chefs, your clogs weigh a ton. These don't.' shoe with 4 hand arrows, black price bar"
+    },
+    "t_week_progress": {
+      "file": "reference/benchmarks/trend_Footstr_flat.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Footstr Week 0/4/9 three-panel legs with red→green alignment line, 'gone or your money back', dark special-deal bar"
+    },
+    "t_ipad_sticky": {
+      "file": "reference/benchmarks/trend_Footstr_heel.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Footstr real photo of an iPad comparing two side-view feet with red/green drawn lines + handwritten sticky note"
+    },
+    "t_timeline_pills": {
+      "file": "reference/benchmarks/trend_FootHealthClub.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Foot Health Club bold banner headline + product + 4 stacked time-step pills (5 min / 15 min / 5 days / 2 weeks)"
+    },
+    "t_first_time_years": {
+      "file": "reference/benchmarks/trend_Konjoun.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Konjoun 'In 2026 I felt every rock... first time in 20 years' illustrated cross-section panels Year 1-20 / Week 1 / Week 4 + icons"
+    },
+    "t_anti_x": {
+      "file": "reference/benchmarks/trend_OrthoFit_negative.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): OrthoFit 'ANTI-GRANDPA WALKING SHOES' two-color headline, orange plus list, big shoe"
+    },
+    "t_swelled_split": {
+      "file": "reference/benchmarks/trend_SeniorHealth_swelled.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Senior Health 'You didn't outgrow your shoes. Your feet swelled' real phone before/after feet split (climbed 101 places in 14d)"
+    },
+    "t_dont_buy_engraving": {
+      "file": "reference/benchmarks/trend_Tiffany_barefootproblem.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): 'DON'T BUY BAREFOOT SHOES' vintage engraving illustration, red pain marks on feet, aged paper"
+    },
+    "t_collage_offer": {
+      "file": "reference/benchmarks/trend_Musabela_BOGO.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Musabela lifestyle collage of colorways + offer bar 'This offer won't last forever'"
+    },
+    "t_fan_circle": {
+      "file": "reference/benchmarks/trend_Bright_heelpain.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Bright Footwear shoes fanned in a circle on pale blue, 'STABBING HEEL PAIN? THERE'S A FIX', offer in the middle"
+    },
+    "t_candid_nurse": {
+      "file": "reference/benchmarks/trend_Kirsty_nurse.jpg",
+      "use_for": "TRENDING FORMAT ref (Atria, rising, Oct 2026): Kirsty Phillips candid phone photo of a nurse at a nurses' station, no text (advertorial image)"
+    },
+    "g_over60_callouts": {
+      "file": "reference/benchmarks/gap_Armadilo_over60.jpg",
+      "use_for": "ANGLE-GAP format ref (Armadilo, active, Oct 2026): \"Hey Walkers Over 60!\" age callout, left column of thin-line spec callouts pointing at a walking shoe, light background"
+    },
+    "g_first_then_soon": {
+      "file": "reference/benchmarks/gap_Konjoun_first_then_soon.jpg",
+      "use_for": "ANGLE-GAP format ref (Konjoun, scaling 20+ variants Oct 2026): white, headline, FIRST / THEN / SOON three-step sketch timeline, product photo below"
+    },
+    "g_asleep_wakes": {
+      "file": "reference/benchmarks/gap_Konjoun_asleep.jpg",
+      "use_for": "ANGLE-GAP format ref (Konjoun, scaling Oct 2026): dark warm background, top review-star strip, huge two-tone condensed headline, three icon bullets left, product right, bottom offer bar"
+    },
+    "g_face_split": {
+      "file": "reference/benchmarks/gap_Stepprs_face_split.jpg",
+      "use_for": "ANGLE-GAP format ref (Stepprs, active): big red condition headline, same woman two faces side by side (pain vs relief) with WITHOUT / WITH pills and round inset icons, bottom offer bar"
+    },
+    "bf_theme_brand": {
+      "file": "reference/benchmarks/bf_theme_brand.jpg",
+      "use_for": "OUR Black Friday theme (user 2026-10-31): white + red with a little gold; red offer box with white '60% OFF SITEWIDE', red '+' pills for supporting lines, gold accents. Use light backgrounds for our ads."
+    }
+  },
+  "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
+  "competitor_brands": [
+    "Hike Footwear",
+    "Stepprs",
+    "WearStand",
+    "Clove",
+    "Snibbs",
+    "Hollow Socks",
+    "Viasox",
+    "Orthora"
+  ],
+  "competitor_notes": "Atria searches by keyword/domain, not brand name. Query by domain to find ads: hike-footwear.com, goclove.com (brand 'Clove'), hollowsocks.com, viasox.com, wearstand.com / 'WearStand' (STAND+). Snibbs has almost no data. Latest read: research/competitor_focus_2026-10-26.md and data/competitor_focus_2026-10-26.csv.",
+  "quality_bar_ugc": [
+    "REAL, NOT AI (user rule 2026-10-26): the ad must read as a real phone photo, screenshot or hand-made note from a real customer or coworker, like the long-running competitor statics (Stepprs sticky notes on insoles, handwritten cardboard sign, selfie at a kitchen counter, hand holding the product, break-room and car-seat photos). No glossy studio render look.",
+    "The shoe is still the hero and clearly visible (about 30-50% of the frame), sharp enough to see the knit and square pattern, true natural proportions, worn on a real foot or held in a real hand or sitting in the real scene.",
+    "FEATURES AND BENEFITS are always on the image: 3 or 4 short plain labels tied to a body part or problem (for example Arch support, Cushioned heel, Wide toe box, Slip-resistant grip, Stretch-knit upper, No-tie laces), as arrow callouts on the shoe, a check list, or handwritten notes.",
+    "The OFFER is subtle: one small line, sticker or handwritten note in a corner or along the bottom edge, never a full-width block, circle or headline. Text stays readable (at least about 1/30 of the canvas height).",
+    "Headline is plain and direct: at most 7 words, everyday words, states the problem or the benefit. No wordplay, no metaphors. One headline plus labels, nothing else.",
+    "Legibility for women 60+: all supporting text large, bold, high contrast, max 4-5 words per label; fewer labels rather than smaller text."
+  ],
+  "logo_file": "reference/logo_comfortwear.png",
+  "wellness": {
+    "launched_days": 45,
+    "min_days_running": 10,
+    "per_brand": 2,
+    "queries": [
+      "compression socks",
+      "swollen ankles",
+      "knee sleeve",
+      "knee pain",
+      "back pain relief",
+      "posture corrector",
+      "grounding sheets",
+      "joint supplement",
+      "collagen",
+      "magnesium",
+      "neuropathy relief",
+      "lymphatic drainage",
+      "varicose veins",
+      "red light therapy",
+      "massage gun",
+      "tens unit",
+      "heating pad",
+      "sciatica",
+      "hip pain",
+      "arthritis relief",
+      "menopause",
+      "sleep support",
+      "plantar fasciitis",
+      "foot pain",
+      "bunions",
+      "heel pain",
+      "wide toe box",
+      "insoles",
+      "orthopedic shoes",
+      "circulation",
+      "inflammation",
+      "joint pain",
+      "foot cream",
+      "pain relief patch"
+    ],
+    "exclude": [
+      "baby",
+      "coffee",
+      "costco",
+      "erection",
+      "hair",
+      "hyatt",
+      "insect",
+      "insurance",
+      "investor",
+      "jacquemus",
+      "kids",
+      "kinky",
+      "leggings",
+      "libido",
+      "luggage",
+      "mozzie",
+      "oxford",
+      "real estate",
+      "resort",
+      "scalp",
+      "sesame street",
+      "skincare",
+      "swarovski",
+      "toddler",
+      "tumbler",
+      "uber",
+      "villa",
+      "webinar",
+      "winnie",
+      "dog",
+      "puppy",
+      "pet",
+      "vet",
+      "lender",
+      "mortgage",
+      "loan",
+      "home buyer",
+      "intimate",
+      "vagina",
+      "neck lift",
+      "forearm"
+    ],
+    "proven_layouts": [
+      "dear_nurses_callouts",
+      "shift_feature_list",
+      "feature_diagram",
+      "sale_strikethrough_three_colors",
+      "comments_offer"
+    ],
+    "note": "Search terms span footwear AND adjacent wellness (socks, knee/back devices, supplements, grounding, heat/red light). Add new terms when a run finds a category worth mining; add brands/words to exclude when they waste slots.",
+    "rule": "User rule 2026-10-28: inspiration is chosen OBJECTIVELY from data. Search only health & wellness category keywords (never our angle words: nurse, travel, Disney, etc. Those belong in our copy, not the search). Filters: image, active, launched <=45 days, running >=10 days, impressions rising, direct-response copy (offer, CTA, guarantee, number or problem hook), off-niche excluded, max 2 per brand. Rank by 7-day impression growth (places climbed), then impression share. Take formats from the top of the ranked list in order; skip a row only when its format is already in format_ledger.json, it shows another brand's licensed IP, or it would need a claim we can't make. Log the rank and growth number of every source in based_on."
+  },
+  "core_competitors": [
+    "Hike Footwear",
+    "Stepprs"
+  ],
+  "core_competitor_rule": "User rule 2026-10-30: Hike Footwear and Stepprs are our biggest competitors and write very direct-response copy. Study them EVERY run (python ads/atria_pull.py rivals): read every active ad's full copy, contact-sheet their statics, transcribe their top 2-3 longest-running videos, and keep research/core_competitors.md current (hooks, offers, guarantees, proof devices, claims, formats, what's new since last run). Borrow their DR structure and intensity, never their claims we can't make, their names or their logos.",
+  "nurse_colorways_rule": "User rule 2026-10-30: any nurse/healthcare concept uses ONLY black_purple, black_white, all_black or navy_blue (White Blue). Never red, turquoise or test colors for nurses.",
+  "inspiration_priority": "User 2026-10-31: inspiration comes from ANY brand with proven statics (long-running 60+ days or rising on Atria), across categories (footwear, supplements, skincare, apparel, wellness, services), not only Hike/Stepprs (they stay a key input). Each ad copies ONE specific proven ad's layout closely. Previous rule kept: Hike Footwear + Stepprs studied every run.",
+  "angle_rivals": [
+    "Footstr",
+    "Orthofeet",
+    "Kuru",
+    "Vionic",
+    "OrthoFit",
+    "Snibbs",
+    "Clove",
+    "WearStand",
+    "Bright Footwear",
+    "Musabela",
+    "Armadilo",
+    "Konjoun",
+    "Stryde",
+    "Foamr",
+    "Viasox"
+  ],
+  "angle_gap_rule": "User rule 2026-10-30: if Hike, Stepprs, Footstr or other comfort-shoe brands are testing an angle we have NOT tested, propose and test it (with our claims only). Every run: python ads/atria_pull.py rivals --wide, compare against research/angle_gaps.md 'tested' list, add 1-3 gap-angle concepts per batch.",
+  "production_method": "User 2026-10-31 ('not a lot of effort', 'we need more depth'): DEPTH over volume. Batches of 5-8 with an art-direction brief each. COMPOSED pipeline: real product cutouts (reference/cutouts/), HTML layout with real fonts rendered by ads/compose/render.js (1080x1350), Kie only for text-free photo scenes (ads/compose/scene.py). QA each ad side by side with its inspiration ad; kill anything below that bar."
 }

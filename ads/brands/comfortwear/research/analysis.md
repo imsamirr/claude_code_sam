@@ -153,7 +153,7 @@ Source: "ComfortWear Customer Feedback (Responses)" Google Sheet, **18,406 respo
 60% got the wrong size (33% too small, 27% too big; nurses are about the same at 59%). Average comfort among these unhappy customers is **2.98/5 when the fit was right vs 1.71 when it was too small** and 2.13 when too big. Since the miss goes both ways, "size up" isn't the fix. The fix is a better way to choose. Quotes: *"don't offer a half size option if it is the same as the whole size"*, *"your guide don't give the right sizes"*, *"I should have ordered a 1/2 size larger, when I walk my toes hit the tip"*.
 
 **2. The free-text complaints are mostly operational.**
-Of 2,666 written answers: refunds/returns 25%, size/fit 24%, shipping/delivery 19%, cheap quality 11%, no arch support 11%, "not really orthopedic / misleading" 7%. This matches the Trustpilot 1★ pattern. **Ads must not promise fast shipping, easy returns or a money-back guarantee**, and claims like "orthopedic" or "podiatrist-approved" invite *"Be truthful about how they're orthopedic approved"*.
+Of 2,666 written answers: refunds/returns 25%, size/fit 24%, shipping/delivery 19%, cheap quality 11%, no arch support 11%, "not really orthopedic / misleading" 7%. This matches the Trustpilot 1★ pattern. **Ads must not promise fast shipping or easy returns** (update 2026-10-13: the user approved the offer stack "40% OFF + 30-DAY MONEY-BACK GUARANTEE + FREE SHIPPING", so those exact words are allowed), and claims like "orthopedic" or "podiatrist-approved" invite *"Be truthful about how they're orthopedic approved"*.
 
 **3. Who they are.**
 Age: 47% are 65+ and 38% are 50–65. Job: retired 27%, nurse/healthcare 18%, retail/cashier 8%, food service 6%, teachers 4%. Foot problem: plantar fasciitis 25%, **"no foot pain, only need comfort" 22%**, arthritis 11%, neuropathy 10%, bunions 7%. Where they found us: Facebook 63%, Google 17%.
@@ -234,3 +234,143 @@ First pull (Sep 11 – Oct 10, 2026), all videos, all prospecting:
 
 The "2026's Favorite/Best Shoes For <audience>" headline format appears in 4 of 5. Some source copy uses
 claims we avoid ("recommended by podiatrists", "free returns"); iterations keep the angle but drop those.
+
+
+## 12. Creative-director feedback, 2026-10-13 (applied to brand.json, generate.py and the routine)
+
+1. **Shoes looked compressed.** Cause: `generate.py` stretched the API image when its aspect ratio differed from the target. It now center-crops instead, and a prompt rule forbids squashed or shortened shoes.
+2. **9:16s had cut or blurred tops and bottoms.** Cause: the 9:16 was a 4:5 ad with outpainted background. Now the 9:16 is composed for its full height and the 4:5 is re-laid out from it (`--layout native`).
+3. **Too much purple text.** Cause: the palette asked for purple headlines. Text is now black, navy or white; purple is a small, occasional accent.
+4. **Colors:** test all colors, weighted to the best sellers (in order): Black/Purple, All Black, White Blue, Black/White, Red, Turquoise/Black, about 80/20 (`colorway_priority`).
+5. **Offer creatives:** ~30% of each batch shows "40% OFF + 30-DAY MONEY-BACK GUARANTEE + FREE SHIPPING".
+6. **Angles:** nurses, travel, teachers, plus-size (mix and match), and ≥40% of each batch leads with a foot-pain problem from the survey and reviews.
+
+## 13. Quality benchmarks, 2026-10-13 (`reference/benchmarks/`, keys in brand.json → `benchmarks`)
+
+18 images: 10 the creative director picked as the quality bar, plus 8 top $5k+ winners pulled from Atria. Performance from Atria (WearOrtho, monthly top-50 windows since Jan 2024) where the ad name could be matched:
+
+| Benchmark | Proven by |
+|---|---|
+| Dear Nurses callouts (`callouts_white`) | $208k at 2.92 ROAS, $27 CPA, plus a $22k ad set at 17.8 ROAS: the most efficient big static |
+| Didn't buy yet comments (`comments_offer`, `comments_social`) | $50k at 3.05 ROAS, still active (RTGv1_C3) |
+| Almost sold out (`lifestyle_urgency`) | $8.7k at 3.97 ROAS, $25 CPA |
+| 12-hour shift list (`list_white`) | $858k across 8 ads |
+| Shoes for 12-hour shifts diagram (`diagram_grey`) | $457k |
+| Warning warehouse (`warehouse_urgency`) | $19k at 3.31 ROAS |
+| HSA/FSA, Brooks split, Morton's, Built for 12h, teachers.org, Ditch the Hokas, PF anatomy | recent/creative-director picks (newer names don't match the older ad naming; spend not attributed) |
+
+**What every benchmark shares (the bar):**
+1. **The shoe is real studio-grade product photography**: crisp knit, exact colorway, true proportions, usually 40–60% of the frame. When a person appears it's only legs/feet, and the shoe still dominates.
+2. **One message, read in 1 second**: a big headline (often 2 lines with a weight or color change on the key words), then at most one supporting line.
+3. **Structure from solid shapes**: solid headline bars (Brooks, Morton's), solid pills with check icons (Built for 12h), a solid offer block or circle (Ditch the Hokas, 40% OFF circle), thin hand-drawn arrows (Dear Nurses). No translucent overlays.
+4. **Backgrounds are plain or quiet**: white, soft grey, soft gradient (HSA), or a real room or street softly out of focus.
+5. **Proof devices are native and specific**: real-looking Facebook comments with names and reactions; competitor named in the headline with X vs check rows; condition named in the headline with a small pain inset.
+6. **Offer elements are compact**: a circle, ribbon, block or single line ("40% OFF", "Try risk-free"), never the whole canvas.
+7. **Two text colors max**: black/white plus one accent (brand purple, royal blue or red) as a solid fill or for the key words of the headline.
+
+## 14. Single-size 4:5, higher quality, 2026-10-18
+
+User rule: ship one size only, 4:5, rendered once at high quality (`generate.py --layout feed`, default quality `high`). No 9:16. Measured cost ≈ $0.22 per ad (3-ad test), vs ≈ $0.13 for the old medium 9:16 + 4:5 pair. Sheets (`review.py csv`) now have one "Image (4:5)" column.
+
+## 15. One 4:5 file and trend-first research, 2026-10-23
+
+1. **One file per ad:** 4:5 only (`--layout feed`, the default). No 9:16, no duplicate sizes. (The 2026-W44-fri batch was rendered with native 9:16 + 4:5 per an older routine prompt; the `_v1.png` 9:16 files there are unused.)
+2. **Trending static formats:** every run, mine Atria for the newest static formats (inspo + competitors, newest and fastest-rising first), contact-sheet them, and list 'formats trending now' here with who runs them, days running and what to borrow. Net-new batches use at least 5 of them.
+
+### Formats trending now (Atria inspo pull 2026-10-24, statics ≤3 days old)
+
+Shoe-in-the-trash lo-fi UGC (hand + old shoe in a bin) · "Would You Rather? A vs B" poll · "Hour One / Hour Six / Hour Twelve" 3-band stack (foam collapse, Stand+/Flexitec) · struck-through quote "Foot pain is just part of the job. It doesn't have to be." (STAND+) · story-text testimonial on a solid color/confetti card · Problem vs Answer two-column table (neuropathy) · Ice packs vs X split with X/check rows · woman pointing at shoe + "10 reasons" advertorial (Wide Comfort Shoes) · lo-fi real-life photos (break room, car after shift, worn insoles on a table) · BOGO full-bleed color block · customer-quotes bullet list ("We keep hearing the same thing…"). Carol Bennett story-post statics ("not wearing real orthopedic shoes", "$4,200 trip") jumped +50 ranks in 7 days.
+
+## 16. Two-week focus and Black Friday week, 2026-10-26
+
+- **Oct 26 – Nov 8 runs:** nurse and travel (Disney, Europe) only; analyze previous winners first; each concept gets a Spanish twin (`_es` id, `twin_of`).
+- **Week of Nov 9:** Black Friday concepts. One offer per concept: "60% OFF SITEWIDE" OR "BUY 2 PAIRS, GET 2 FREE GIFTS" (3-pack cushioned socks + free travel bag). The 40% / 30-day / free-shipping stack is not used that week.
+- Full rules: `brand.json` → `program.focus_2026_10_26`, `program.black_friday_week_2026_11_09`.
+
+### Formats trending now (Atria inspo pull 2026-10-27) and Tue 2026-W44 sources
+
+Newest/fastest-rising statics and story ads: Carol Bennett story posts (+240 ranks in 7 days, "F*ck this comfort sneaker", podiatrist-style senior sneaker), Glov Beauty "It's fluid, not fat" swelling explainer (11 days), Stepprs "Walk on Clouds, or it's FREE" insole quote cards, Cuurt customer-quote checklist ("Wake up pain-free, not hobbling down stairs"), VIVAIA "10,000 steps and beyond" minimal lifestyle, Buy-1-Get-1 color blocks (Konjoun, True Nutra, Tiny Explorings), 8-week timeline/plan lists. Used in T44: three-band hour timeline, swelling explainer (flight), customer-quote native cards.
+
+Tue 2026-W44 iteration sources (`current` 2026-09-27..10-26, 18 ads; `seasonal --week 2026-W44`, 2025 ROAS unreadable): Emily RN video $4,005 / 2.99 and Kyro390 $4,841 / 2.01 (nurse PF), H3 40% OFF static $2,517 / 3.08, C3 reviews static $1,844 / 2.84, I6 warehouse $1,160 / 4.24, C1 Trusted By Nurses $860 / 3.40, TOFV1_KW1 plus-size travel $2,243 / 4.39, Kyro293 travel $2,230 / 3.09, JV1/JW1 travel $1,897 / $784, seasonal Kyro253 travel $32.6k.
+
+## 17. New rules and wellness inspiration, 2026-10-28
+
+User rules: English only; angles = nurse (~35%), travel incl. Disney (~25%), plus-size mash-ups (~20%), test slot for new pains (~20%); plantar fasciitis then bunions lead the pains; teacher paused (re-enable only on an Atria `current` winner); Poppins for all text; realistic, not AI; headline on the image, not in a band; direct-response copy; offer = 40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE, HSA/FSA ELIGIBLE up to 30% savings. Inspiration comes from ALL health & wellness brands (`atria_pull.py wellness`), and every run must bring formats not yet in `format_ledger.json`. Full rules: `brand.json` → `program.focus_2026_10_28`, `wellness`.
+
+### Patterns in our $10k+ statics (winning_statics.csv)
+Nurse is the whole top: "2024's Favorite Nurse Shoes" images at $858k / $457k / $230k / $120k / $90k, "2023's Best Shoes For Nurses" $198k, then offer statics ("Save Up To 40% OFF" $152k / $125k / $115k, "Walk Pain-Free or Money Back" $93k, "500,000+ Happy Customers" $50k, "40% OFF TODAY + FREE Shipping" $33k, "48 HOURS LEFT" $19k). Shared: white or very light ground, one big shoe, the occupation or condition named in a heavy geometric sans (Poppins/Montserrat), 3-6 body-part benefits as arrows, checks or plus-bullets, offer as one line or a compact seal.
+
+### Formats found 2026-10-28 (45 days, image, active, 10+ days running; read 48)
+| Format | Brand (category, days) | Why it works | Our version (tested in weeks/2026-W44-wellness-inspo) |
+|---|---|---|---|
+| Blame-shift + 3 reasons + guarantee | Osteva (joint supplement, 11d) | Takes the blame off her and names a cause | "It's not your age. It's your shoes." |
+| 4-stage ladder of failed fixes | Linda Baker (edema mineral, 33-38d) | Walks her own failed attempts in order | "4 stages of nurse heel pain" |
+| Symptom checklist + wooden mannequin | Osteva (knee sleeve, 15d) | Self-diagnosis quiz, crafted not AI look | "5 signs it's plantar fasciitis" |
+| Thermal heat-map + money-back headline | Hollow Socks (socks, 21d) | Makes invisible pain visible; risk reversal | "Comfortable 12-hour shifts, or your money back" |
+| What-to-expect timeline, product in hand | The Outgoing Co (supplement, 42d) | Sets honest expectations | "What to expect at Disney" |
+| We-tested counter photo + sticky note | Lumexa (supplement, 27d) | Static version of our "we tested 5" videos | "We tested the top 4 nurse shoes." |
+| Not yet used: Week 1/2/3 progression + seal (Lymphoria, 42d), apology founder letter (RYZE, Tiny Explorings), shock headline + customer results (Rhea, 28d), persona-page off-topic real photo + story (Linda Baker etc.), X-ray on lightbox (Melissa Hayes), mirror-selfie progression (50 Plus and Fabulous), age-bracket program grid (Muscle Booster). |
+
+
+## 18. Feedback sheet mined, 2026-10-28
+
+Full results: `feedback_pain_points_2026-10-28.md`. 18,452 answers (22% are 4–5★, so §9's 'only 1–3★' note is outdated). Plantar fasciitis 27% (down from 34.5% in 2023–24), 'no pain, just comfort' 22% and rising to 32% in 2026, arthritis 12%, tired feet 12%, neuropathy 11%, bunions 9%, wide feet rising to 4.4%. Insoles/orthotics are the #1 thing they tried (13%). Guardrails: sizing (only 40% good fit), don't overclaim the toe box, explain the rocker sole, guarantee is 30 days.
+
+
+### Formats found this run, 2026-10-28 (net-new batch 2026-W45-fri; wellness pull, 367 kept, read the top 160)
+| Format | Inspiration (category, days running) | Our concept |
+|---|---|---|
+| night_clock_photo | Vitality Extracts (sleep spray, 32d) + Budpop (sleep, 20d) | W45_01 5:12 AM. The first step hurts most. |
+| two_beat_nurse_corridor_photo | WELLX 'Night shift. Morning legs.' (compression, 15d) | W45_02 Night shift. Morning feet. |
+| timestamp_result_list | NorthAlpine 'Put it on at 8am. By 8 | W45_03 Put them on at 7 AM. At 7 PM: |
+| reddit_thread | Señorita Drinks r/AlcoholFree thread (27d) | W45_04 What shoes survive 3 12s in a row? |
+| group_photo_peer_proof | Maggie's Tanks / Dr. Margaret Foster (apparel, 33d) | W45_05 Half our unit wears them now. |
+| trash_can_toss | Adam Herman (supplement, 21d) | W45_06 Done moving insoles from shoe to shoe. |
+| struck_phrase_headline | NeuroMD 'Your back needs another failed solution' (TENS, 24d) | W45_07 Your feet don't need bigger shoes. They need room. |
+| pain_glow_feet_checklist | OrthoFit Store 'Senior Womans Comfort Sneaker that may target' (footwear, 24d) | W45_08 Over 60? Which one is you? |
+| quote_condition_checklist | Sweet Home Australia '"My only Nurse shoes that lasted 14hrs."' (footwear, 41-42d) | W45_09 "No back or feet pain after a 13-hour shift." |
+| quote_feature_branches | FineRoot Organics 'I haven't felt this good in years' (turmeric, 31d) | W45_10 "My first Disney trip where my feet kept up." |
+| mirror_selfie_triptych | 50 Plus and Fabulous (collagen, 31d) | W45_11 3 park days. Same shoes. |
+| landmark_snapshot_caption | Natalie Brooks / persona pages (19-23d) | W45_12 Lisbon, day 4. My heels? Fine. |
+| fridge_note_photo | Rosabella Beetroot (supplement, 19d) | W45_13 Disney packing list, item #1. |
+| conditional_guarantee_headline | Grünanda 'If your balance doesn't improve after 2 walks, we'll buy your boots back' (footwear, 44d) | W45_14 Heels still sore after your trip? Send them back. |
+| hand_held_price_drop | Aurivita (supplement, 12d) | W45_15 $90 $59.95: built for long days on your feet. |
+| ms_paint_window | Manna Vitality '71% OFF' (supplement, 29d) | W45_16 40% OFF the nurse shoe. |
+| color_swatch_row | Cosy House Collection 'Goodbye night sweats' (bedding, 18d) | W45_17 Room for your toes. In 9 colors. |
+| sticker_speech_bubbles_photo | Dr. Woof Apparel 'Bye-Bye, Varicose Veins! / Hello, Healthy Legs' (socks, 35d) | W45_18 Bye-bye, squeezed toes. |
+| tilted_sticker_headline | Diabetic Sock Club 'SOCK MARKS? GONE FOR GOOD.' (socks, 13d) | W45_19 Swollen by 3 PM? Stretch to fit. |
+| writing_on_skin | Natural Wellness Journal (fascia supplement, 14d) | W45_20 9 miles in Rome. Heels didn't hurt. |
+| sketch_symptom_quadrant | Purvival (detox, 42d) | W45_21 Heel pain? Squeezed toes? Swollen feet? |
+| engraved_anatomy_etching | Yoga International 'Anatomy Trains' (course, 29d) | W45_22 Why your heel hurts most in the morning. |
+| vintage_engraving_scene | Tiffany Mccomb 'The dangerous mistake in barefoot shoes?' (footwear, 39d) | W45_23 The shoe mistake most nurses make. |
+| three_moment_line_icons | Balmbare 'Stiff joints? Try it risk-free' (collagen, 31d) | W45_24 Heel pain? Try them risk-free. |
+| advertorial_listicle_cover | Secrets of Herbs 'The 6 Best Ways to Drain Lymph Fluid Naturally' (lymph, 29d) | W45_25 5 things nurses with plantar fasciitis wish they knew. |
+| two_column_spec_list | Everlab 'Is your current health check telling you anything?' (health test, 38d) | W45_26 Built for a 5K, or a 12-hour shift? |
+| number_claim_minimal | Kintoe '100 MILES. NO BLISTERS.' (socks, 42d) | W45_27 22,000 steps. One pair. |
+| yes_this_is_statement | Fresh Reveal 'YES, THIS IS A COVER. IT COMES IN FIVE COLORS.' (home, 29d) | W45_28 Yes, these are comfort shoes. They come in 9 colors. |
+| unboxing_handwritten_card | Mystery Shirt in a Box (apparel, 26d) | W45_29 "For your 12s. Thank me at hour 10." |
+| body_part_pill_lifestyle | Pain Relief Australia 'YOUR NECK DESERVES A MASSAGE' (massager, 14d) | W45_30 Your heels deserve a better 12 hours. |
+| minimal_two_word_benefit | Outback 'Opens fully.' (bag, 10d) | W45_31 No laces. No bending. |
+| age_bracket_grid | Tkofitlife / Muscle Booster '28-Day Chair Tai Chi at my age' (knee sleeve, 11-18d) | W45_32 What your feet need at 50, 60 and 70. |
+
+Patterns shared by the inspiration ads: real phone photos of ordinary objects or people (clock, fridge, trash can, group photo), a single surprising statement or a question as the headline, a timestamp or number, sticker/tilted text blocks over a real photo, and illustration styles (pencil sketch, engraving) for mechanism ads. Our $10k+ statics share: white ground, one big shoe, occupation or condition named, 3-6 body-part benefits, small offer line. Each W45 concept pairs one inspiration format with one winner or script.
+
+## 15. Trending statics deep dive (2026-10-30, Atria MCP)
+
+Searches: image, active, launched since Sep 1, running 7+ days, impression trend rising / rank climbing over 14 days, queries foot pain shoes, nurse shoes 12-hour shift, walking shoes travel, shoes + themes (before/after, us vs them, post-it, negative marketing, testimonial, statistics, comparison). Read 25 creatives.
+What is rising right now in footwear/foot pain (and why it beats our plain layouts):
+| Format | Advertiser (signal) | Device |
+|---|---|---|
+| "Dear Chefs, work doubles pain free" + strike-through feature list | Armadilo (+52 places in 7d) | named audience letter + ~~problem~~ → benefit pairs |
+| "Dear Chefs, your clogs weigh a ton. These don't." | Armadilo (+45 in 14d) | insult the current shoe, 4 hand arrows, price bar |
+| Week 0 / 4 / 9 alignment panels, "gone or your money back" | Footstr (+19 in 14d) | red→green line on legs, progress over time |
+| iPad photo of side-by-side feet + sticky note "How I fixed…" | Footstr | real-life proof photo, handwritten story |
+| Big banner + time-step pills (5 min / 15 min / 5 days / 2 weeks) | Foot Health Club | outcome timeline |
+| "In 2026 I felt every rock… first time in 20 years" | Konjoun | first-time-in-years + illustrated cross-sections |
+| "ANTI-GRANDPA WALKING SHOES" | OrthoFit | identity negation, plus list |
+| "You didn't outgrow your shoes. Your feet swelled." | Senior Health Guide (+101 in 14d) | real phone before/after feet |
+| "DON'T BUY BAREFOOT SHOES" engraving | Tiffany Mccomb (+30 in 14d) | negative marketing, vintage illustration |
+| Colorway collage + "This offer won't last forever" | Musabela (+39 in 14d) | lifestyle grid + urgency |
+| Shoes fanned in a circle, "Stabbing heel pain? There's a fix" | Bright Footwear | product burst + question headline |
+| Candid nurse at the nurses' station | Kirsty Phillips advertorial | real scene, no text |
+Takeaway: winners pair a NAMED audience or a sharp insult/negation with visible proof (lines, before/after, timeline) and real-life photography; plain "shoe + labels" layouts are not in the rising set.

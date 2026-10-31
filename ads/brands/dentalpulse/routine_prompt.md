@@ -1,0 +1,30 @@
+# DentalPULSE routine prompt (v2, Oct 28 2026) - paste into the routine "DentalPULSE weekly statics" (trig_01LoR9bkHByFXEBh68gwbz8V)
+
+Build this run's DentalPULSE static ads batch so it is complete by 9am Eastern today.
+
+Repo: imsamirr/claude_code_sam. If it is not already in the working directory, clone it first (`git clone https://github.com/imsamirr/claude_code_sam && cd claude_code_sam`). Then run `git fetch origin claude/clever-albattani-90x4ya && git checkout claude/clever-albattani-90x4ya` and work on that branch; push to it when done (never to another branch, no PR). Install Python deps if missing: `python3 -m pip install -q requests python-dotenv pillow pandas` (if PIL fails to import, use a venv: `python3 -m venv --system-site-packages /tmp/venv && /tmp/venv/bin/pip install -U --ignore-installed pillow`).
+
+Follow the `static-ads` skill (.claude/skills/static-ads/SKILL.md), especially its section "DentalPULSE quality rules (Oct 28)", for brand `dentalpulse` (always pass `--brand dentalpulse`). Read FIRST: ads/brands/dentalpulse/brand.json (program, copy_rules, quality_bar, font_style, typography, banned_formats, approved_claims, claims_to_avoid, offers), research/analysis.md (sections 5-8, 11, 13), research/feedback_deep_dive.md (customer language, incl. the Oct 28 refresh) and research/notion_brief.md (concepts, controversial lines, hooks). English only.
+
+User rules (all mandatory):
+- **Inspiration:** run `python ads/atria_pull.py inspiration --brand dentalpulse` (static images, active, launched 7-45 days ago, running >= 7 days, nothing launched in the last 7 days, impressions growing week over week; oral care AND health & wellness brands), then `python ads/contact_sheet.py --brand dentalpulse inspiration_curated.csv --by query --per 3` and read every page. Add the formats growing now to analysis.md section 13. Borrow formats only from this list and from our own past winners.
+- **Iterations** (Tuesday): rebuild what performed well for us as statics (`winners`, `current`, `seasonal`), as real photographs; name the source ad (name, spend, ROAS) in based_on.
+- **No cartoon, animation, illustration, comic, meme, joke or funny ads.** Real photos, real native screenshots, documents/lab reports, macro/imaging photos, clean type layouts. Serious, credible.
+- **Direct-response copy:** customer pain in their words -> agitate -> mechanism -> proof -> CTA. Specific, aggressive, controversial but factual (tablets/Polident/Efferdent, brushing, soap, vinegar, bleach, cheap pods). Bacteria and yellow stains explicit and visual. Never promise set-in yellow vanishes in one cycle (night guards/retainers/aligners: "stops it turning yellow", "clear again", "no white film"). Flag unverified health stats in based_on; keep claims_to_avoid out.
+- **Products:** ONLY the DentalPULSE Pod; say "ultrasonic cleaner" in most headlines. Cycle is always 5 minutes. No Travel Pod/Pod Max/standalone tablets as hero. Gifts shown small (dental case, travel bag); warranty never a physical item.
+- **Mix:** 50% dentures / 25% night guards / 25% aligners + retainers. 70% top-of-funnel (no price) / 30% offer-driven.
+- **Current offer (the 30% only):** 40% OFF sitewide, FREE shipping, FREE dental case, FREE travel bag with your order, 120-day money-back guarantee, Pod $99.95.
+- **Look:** photoreal, NOT AI-looking (brand.json quality_bar); typography follows the website: Inter (headlines SemiBold/Bold sentence case, body Regular), Barlow Bold for big numbers/prices, navy #0E283C/white text, blue #1188FF accent.
+- **Appliance accuracy + scale:** set `"appliance"` on every concept (brand.json appliance_shapes); dentures must be real dentures; the Pod is always larger than any appliance; free travel bag ~half the Pod's width, case ~one third.
+- **Fixed headline size:** designed ads use `"overlay"` (generate.py sets Inter Bold 72 px, max 3 lines); native screenshots have none.
+- **Bacteria + yellow stains on every ad:** shown in the picture and named in the headline (feedback sheet language).
+- **No gimmick labels/parodies;** two-second rule.
+- **Variety:** every concept in a batch uses a different format.
+- Native formats: reviews -> fb_comment/trustpilot, tweets -> x_post; real customer language; first name + last initial; no platform logos/TrustScore/verified badges.
+
+Check today's weekday in America/New_York (`TZ=America/New_York date +%A`):
+- **Tuesday -> ITERATION batch:** folder `weeks/<current ISO week>-tue`, ids `T<ww>_nn_slug`, 20 concepts (10 dentures, 5 night guards, 5 aligners/retainers; 14 TOF + 6 offer), ONLY iterations of `atria_pull.py current --brand dentalpulse` and `seasonal --brand dentalpulse --week <current week>` winners (plus `winners` for lifetime top statics), group "iteration".
+- **Friday -> NET-NEW batch:** folder `weeks/<coming ISO week>-fri`, ids `W<ww>_nn_slug`, 40 concepts (20 dentures, 10 night guards, 10 aligners/retainers; 28 TOF + 12 offer): mostly Notion brief concepts (notion_brief.md section 1) and feedback headlines, ~8 in our proven winning static formats. Don't repeat angles from earlier folders.
+- Any other day: say so and stop.
+
+Steps: 1) log Drive-sheet verdicts (Drive folder id in brand.json) with `python ads/review.py log`, GIFs for approved candidates; 2) research (Atria 401 -> continue with existing files, never search for keys); 3) write concepts.json (keep headline equal to the on-image headline; 3-8 GIF candidates, build-up GIFs only); 4) render (`generate.py ... xargs -P 8`), build sheets, read every page, re-render anything failing the skill's QA list (misspellings, AI look, wrong fonts, cartoon tone, wrong product/offer, 3-minute timer, oversized case/bag); 5) commit + push, Drive subfolder + "<folder> concepts" sheet; 6) Slack DM U04PZNV9FV0: "**DentalPULSE <Tuesday iterations|Friday net-new> ready: <folder> (<n> concepts)**" + links + one summary line (appliance split, TOF/offer split, formats, source ads/inspiration ads, GIF candidates, image cost); 7) short summary. If Slack/Drive tools are missing, say so at the top. If this run's extra instructions say TEST RUN, do only what they say.
