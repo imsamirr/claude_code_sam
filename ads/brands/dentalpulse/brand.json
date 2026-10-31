@@ -587,6 +587,18 @@
     "rv_c_not_on_their_fur": {
       "file": "reference/benchmarks/rv_ref_c_not_on_their_fur.jpg",
       "use_for": "LAYOUT reference only (Barbara's Cat Diary static 'Flea Season Sale: Up to 40% Off', Atria ultrasonic_relevant.csv). Comparison format. Recreate its structure for a DentalPULSE ad; never copy its words, product or brand; other cleaners appear unbranded."
+    },
+    "rv_p_research_tile": {
+      "file": "reference/benchmarks/rv_ref_p_research_tile.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Oct 31: Primals 'FOR DADS WHO DID THE RESEARCH' green tile: banner, quoted myth-busting statement, 'This bundle fixes both.', product row, handwritten callouts + big handwritten discount, red button). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_p_macro_split": {
+      "file": "reference/benchmarks/rv_ref_p_macro_split.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Oct 31: Primals dark macro split: grimy white old product (brown residue ring, water drops) vs clean new product, dark felt background, no text). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_p_whiteboard": {
+      "file": "reference/benchmarks/rv_ref_p_whiteboard.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Oct 31: Primals bathroom whiteboard: marker doodles 'Before… → After!' + handwritten line, product in front by the sink). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
     }
   },
   "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots)."
