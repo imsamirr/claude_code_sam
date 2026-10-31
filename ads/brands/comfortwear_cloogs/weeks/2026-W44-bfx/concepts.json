@@ -1,0 +1,116 @@
+{
+ "week": "2026-W44-bfx",
+ "notes": "Black Friday offer ads in the user's Comfort Wear BF template (research/bf_theme_reference.webp): black spotlit stage, gold/black balloons, white BLACK + red FRIDAY, red banners. Offer: Buy 1 Get 1 Free; Buy 2 Get 2 Free + 2 Free Gifts. Replaces the earlier white/red/gold rule.",
+ "concepts": [
+  {
+   "id": "F44_01_podium_hero_two_tier",
+   "group": "offer",
+   "persona": "deal_hunter",
+   "lang": "en",
+   "reference_image": "reference/cloog_lineup.png",
+   "angle": "Exact template layout: podium hero with the two-tier offer",
+   "based_on": "Comfort Wear BF 60%-off template (user, 2026-10-31)",
+   "headline": "BLACK FRIDAY · BUY 1, GET 1 FREE",
+   "prompt": "At the top, huge white condensed caps \"BLACK\" and directly under it huge red caps \"FRIDAY\". Below, a round glossy black podium holding two pairs of Cloog slippers from the reference sheet, one dusty rose pink pair and one sage green pair. Under the podium, a wide red banner with huge white caps: \"BUY 1, GET 1 FREE\". Under it, two black bars each with a red plus square: \"BUY 2, GET 2 FREE\" and \"+ 2 FREE GIFTS\". Nothing else. Comfort Wear Black Friday theme (match it exactly): a glossy black studio stage lit by two bright spotlights from the top corners that make the scene glow, so it reads premium and well-lit, not murky; floating metallic gold and glossy black balloons with thin gold strings at the sides; black gift boxes with gold ribbons and a few gold confetti flecks on the floor. Typography: massive bold condensed sans-serif caps, white for 'BLACK' and bright red (#E10600) for 'FRIDAY' and key offer words; offer lines sit in solid bright-red rectangular banners with white bold caps, and secondary lines sit in black bars with a red square holding a white plus sign at the left. The slippers are brightly lit and the hero of the frame."
+  },
+  {
+   "id": "F44_02_tier_cards_best_deal",
+   "group": "offer",
+   "persona": "deal_hunter",
+   "lang": "en",
+   "reference_image": "reference/cloog_lineup.png",
+   "angle": "Two stacked tier cards, gold BEST DEAL ribbon on tier 2",
+   "based_on": "Pluffi mix & match bundle tile + offer ladders",
+   "headline": "Buy 1 get 1 free / Buy 2 get 2 free + 2 free gifts (BEST DEAL)",
+   "prompt": "At the top, white caps \"BLACK\" and red caps \"FRIDAY\" on one line, smaller than usual. Below, two stacked offer cards with glossy black surfaces and thin gold borders. Card 1: one navy blue pair of Cloog slippers from the reference sheet on the left, and on the right white caps \"BUY 1\" and red caps \"GET 1 FREE\". Card 2, larger and glowing, with a gold ribbon corner label \"BEST DEAL\": two pairs (taupe brown and burnt orange) plus two small black gift boxes with gold bows on the left, and on the right white caps \"BUY 2\" and red caps \"GET 2 FREE\" and a gold line \"+ 2 FREE GIFTS\". Nothing else. Comfort Wear Black Friday theme (match it exactly): a glossy black studio stage lit by two bright spotlights from the top corners that make the scene glow, so it reads premium and well-lit, not murky; floating metallic gold and glossy black balloons with thin gold strings at the sides; black gift boxes with gold ribbons and a few gold confetti flecks on the floor. Typography: massive bold condensed sans-serif caps, white for 'BLACK' and bright red (#E10600) for 'FRIDAY' and key offer words; offer lines sit in solid bright-red rectangular banners with white bold caps, and secondary lines sit in black bars with a red square holding a white plus sign at the left. The slippers are brightly lit and the hero of the frame."
+  },
+  {
+   "id": "F44_03_pay_2_take_4_equation",
+   "group": "offer",
+   "persona": "deal_hunter",
+   "lang": "en",
+   "reference_image": "reference/cloog_lineup.png",
+   "angle": "Visual equation: 2 pairs + 2 pairs + 2 gifts",
+   "based_on": "Big-number math tiles (HappyFlops 2+1 GRATIS)",
+   "headline": "PAY FOR 2. TAKE HOME 4. + 2 FREE GIFTS",
+   "prompt": "At the top, white caps \"BLACK\" and red caps \"FRIDAY\". In the middle, a visual equation on a glossy black floor under the spotlights: two pairs of Cloog slippers from the reference sheet (pink and grey), a big red plus sign, two more pairs (green and blue) with a small red \"FREE\" tag on each, another big red plus sign, and two black gift boxes with gold ribbons with a small gold \"FREE\" tag. Below, a red banner with white caps: \"PAY FOR 2. TAKE HOME 4.\" and under it a black bar with a red plus square: \"+ 2 FREE GIFTS\". Nothing else. Comfort Wear Black Friday theme (match it exactly): a glossy black studio stage lit by two bright spotlights from the top corners that make the scene glow, so it reads premium and well-lit, not murky; floating metallic gold and glossy black balloons with thin gold strings at the sides; black gift boxes with gold ribbons and a few gold confetti flecks on the floor. Typography: massive bold condensed sans-serif caps, white for 'BLACK' and bright red (#E10600) for 'FRIDAY' and key offer words; offer lines sit in solid bright-red rectangular banners with white bold caps, and secondary lines sit in black bars with a red square holding a white plus sign at the left. The slippers are brightly lit and the hero of the frame."
+  },
+  {
+   "id": "F44_04_unboxing_flatlay",
+   "group": "offer",
+   "persona": "gift_buyer",
+   "lang": "en",
+   "reference_image": "reference/cloog_lineup.png",
+   "angle": "Top-down unboxing of the 4-pair + 2-gift haul on black",
+   "based_on": "Pluffi bed flat-lay haul, re-staged in the BF theme",
+   "headline": "BUY 2, GET 2 FREE + 2 FREE GIFTS",
+   "prompt": "Top-down photo on a glossy black surface with two spotlight pools of light and gold confetti. In the center, a big open black gift box with a gold satin ribbon holding four pairs of Cloog slippers from the reference sheet (pink, green, taupe, orange), plus two small black gift boxes with gold bows beside it. Gold and black balloons enter from the top corners. At the top, white caps \"BLACK\" and red caps \"FRIDAY\". At the bottom, a red banner with white caps: \"BUY 2, GET 2 FREE\" and a black bar with a red plus square: \"+ 2 FREE GIFTS\". Nothing else. Comfort Wear Black Friday theme (match it exactly): a glossy black studio stage lit by two bright spotlights from the top corners that make the scene glow, so it reads premium and well-lit, not murky; floating metallic gold and glossy black balloons with thin gold strings at the sides; black gift boxes with gold ribbons and a few gold confetti flecks on the floor. Typography: massive bold condensed sans-serif caps, white for 'BLACK' and bright red (#E10600) for 'FRIDAY' and key offer words; offer lines sit in solid bright-red rectangular banners with white bold caps, and secondary lines sit in black bars with a red square holding a white plus sign at the left. The slippers are brightly lit and the hero of the frame."
+  },
+  {
+   "id": "F44_05_receipt_four_pairs",
+   "group": "offer",
+   "persona": "deal_hunter",
+   "lang": "en",
+   "reference_image": "reference/cloog_lineup.png",
+   "angle": "Long store receipt: 2 paid, 2 free pairs, 2 free gifts",
+   "based_on": "Native receipt/phone-UI formats from the skill",
+   "headline": "Receipt: 2 pairs paid, 2 pairs FREE, 2 gifts FREE",
+   "prompt": "A long white paper store receipt curls down the center of the black stage under a spotlight, slightly angled, crisp thermal-print text. Receipt header \"COMFORT WEAR\" then lines: \"Cloog Cloud Slippers – Pink\", \"Cloog Cloud Slippers – Green\", \"Cloog Cloud Slippers – Taupe ..... FREE\", \"Cloog Cloud Slippers – Blue ..... FREE\", \"Free gift ..... FREE\", \"Free gift ..... FREE\", then a bold line \"BLACK FRIDAY: BUY 2, GET 2 FREE\". No prices or totals. Beside the receipt, two pairs of Cloog slippers from the reference sheet and a black gift box with a gold ribbon. At the top, white caps \"BLACK\" and red caps \"FRIDAY\". Nothing else. Comfort Wear Black Friday theme (match it exactly): a glossy black studio stage lit by two bright spotlights from the top corners that make the scene glow, so it reads premium and well-lit, not murky; floating metallic gold and glossy black balloons with thin gold strings at the sides; black gift boxes with gold ribbons and a few gold confetti flecks on the floor. Typography: massive bold condensed sans-serif caps, white for 'BLACK' and bright red (#E10600) for 'FRIDAY' and key offer words; offer lines sit in solid bright-red rectangular banners with white bold caps, and secondary lines sit in black bars with a red square holding a white plus sign at the left. The slippers are brightly lit and the hero of the frame."
+  },
+  {
+   "id": "F44_06_pick_any_4_spotlights",
+   "group": "offer",
+   "persona": "cozy_homebody",
+   "lang": "en",
+   "reference_image": "reference/cloog_lineup.png",
+   "angle": "All six colors on a long stage, each under its own spotlight",
+   "based_on": "Pluffi 'guests ask about' color lineup + 11-colors callout",
+   "headline": "PICK ANY 4. PAY FOR 2. + 2 FREE GIFTS",
+   "prompt": "At the top, white caps \"BLACK\" and red caps \"FRIDAY\". Below, a long glossy black stage with six Cloog slippers from the reference sheet standing in a row (navy blue, sage green, dusty rose pink, slate grey, taupe brown, burnt orange), each lit by its own narrow spotlight beam from above. Below the stage, a red banner with white caps: \"PICK ANY 4. PAY FOR 2.\" and a black bar with a red plus square: \"+ 2 FREE GIFTS\". Nothing else. Comfort Wear Black Friday theme (match it exactly): a glossy black studio stage lit by two bright spotlights from the top corners that make the scene glow, so it reads premium and well-lit, not murky; floating metallic gold and glossy black balloons with thin gold strings at the sides; black gift boxes with gold ribbons and a few gold confetti flecks on the floor. Typography: massive bold condensed sans-serif caps, white for 'BLACK' and bright red (#E10600) for 'FRIDAY' and key offer words; offer lines sit in solid bright-red rectangular banners with white bold caps, and secondary lines sit in black bars with a red square holding a white plus sign at the left. The slippers are brightly lit and the hero of the frame."
+  },
+  {
+   "id": "F44_07_any_day_vs_black_friday",
+   "group": "offer",
+   "persona": "deal_hunter",
+   "lang": "en",
+   "reference_image": "reference/cloog_lineup.png",
+   "angle": "Split: any other day 1 pair vs Black Friday 2 pairs",
+   "based_on": "HappyFlops X/check comparison split",
+   "headline": "Any other day: 1 pair. Black Friday: 2 pairs.",
+   "prompt": "A vertical split down the middle of the black stage. Left half, dim and plain: one single grey Cloog slipper pair from the reference sheet on the floor with a small grey caption above it \"ANY OTHER DAY: 1 PAIR\". Right half, blazing under a spotlight with gold balloons and confetti: two pairs of Cloog slippers (pink and taupe) on a black podium with a red caption above \"BLACK FRIDAY: 2 PAIRS\". At the top across both halves, white caps \"BLACK\" and red caps \"FRIDAY\". At the bottom, a red banner with white caps: \"BUY 1, GET 1 FREE\". Nothing else. Comfort Wear Black Friday theme (match it exactly): a glossy black studio stage lit by two bright spotlights from the top corners that make the scene glow, so it reads premium and well-lit, not murky; floating metallic gold and glossy black balloons with thin gold strings at the sides; black gift boxes with gold ribbons and a few gold confetti flecks on the floor. Typography: massive bold condensed sans-serif caps, white for 'BLACK' and bright red (#E10600) for 'FRIDAY' and key offer words; offer lines sit in solid bright-red rectangular banners with white bold caps, and secondary lines sit in black bars with a red square holding a white plus sign at the left. The slippers are brightly lit and the hero of the frame."
+  },
+  {
+   "id": "F44_08_one_for_you_one_for_mom",
+   "group": "offer",
+   "persona": "gift_buyer",
+   "lang": "en",
+   "reference_image": "reference/cloog_lineup.png",
+   "angle": "Gift tags: 'For me' / 'For Mom' on the BOGO pairs",
+   "based_on": "Pluffi 'all she wanted was warm feet' gift angle",
+   "headline": "1 FOR YOU. 1 FOR MOM. BUY 1, GET 1 FREE",
+   "prompt": "On a glossy black podium under two spotlights, two pairs of Cloog slippers from the reference sheet: a taupe brown pair with a small gold gift tag on a ribbon that reads \"For me\" and a dusty rose pink pair with a gold gift tag that reads \"For Mom\", a black gift box with a gold bow beside them. At the top, huge white caps \"1 FOR YOU.\" and huge red caps \"1 FOR MOM.\" Under the podium, a red banner with white caps: \"BUY 1, GET 1 FREE\" and a black bar with a red plus square: \"BLACK FRIDAY ONLY\". Nothing else. Comfort Wear Black Friday theme (match it exactly): a glossy black studio stage lit by two bright spotlights from the top corners that make the scene glow, so it reads premium and well-lit, not murky; floating metallic gold and glossy black balloons with thin gold strings at the sides; black gift boxes with gold ribbons and a few gold confetti flecks on the floor. Typography: massive bold condensed sans-serif caps, white for 'BLACK' and bright red (#E10600) for 'FRIDAY' and key offer words; offer lines sit in solid bright-red rectangular banners with white bold caps, and secondary lines sit in black bars with a red square holding a white plus sign at the left. The slippers are brightly lit and the hero of the frame."
+  },
+  {
+   "id": "F44_09_golden_ticket",
+   "group": "offer",
+   "persona": "deal_hunter",
+   "lang": "en",
+   "reference_image": "reference/cloog_lineup.png",
+   "angle": "Shiny golden ticket holding the top-tier deal",
+   "based_on": "Premium offer tile (skill format list)",
+   "headline": "GOLDEN DEAL: BUY 2, GET 2 FREE + 2 FREE GIFTS",
+   "prompt": "At the top, white caps \"BLACK\" and red caps \"FRIDAY\". In the center, a large shiny embossed metallic gold ticket floats at a slight angle with scalloped edges and a perforated stub, under a spotlight with sparkles. Printed on the ticket in dark red and black caps: \"GOLDEN DEAL\" then \"BUY 2, GET 2 FREE\" then \"+ 2 FREE GIFTS\". In front of the ticket at the bottom, one sage green pair of Cloog slippers from the reference sheet resting on a black podium. Nothing else. Comfort Wear Black Friday theme (match it exactly): a glossy black studio stage lit by two bright spotlights from the top corners that make the scene glow, so it reads premium and well-lit, not murky; floating metallic gold and glossy black balloons with thin gold strings at the sides; black gift boxes with gold ribbons and a few gold confetti flecks on the floor. Typography: massive bold condensed sans-serif caps, white for 'BLACK' and bright red (#E10600) for 'FRIDAY' and key offer words; offer lines sit in solid bright-red rectangular banners with white bold caps, and secondary lines sit in black bars with a red square holding a white plus sign at the left. The slippers are brightly lit and the hero of the frame."
+  },
+  {
+   "id": "F44_10_family_stack_tower",
+   "group": "offer",
+   "persona": "gift_buyer",
+   "lang": "en",
+   "reference_image": "reference/cloog_lineup.png",
+   "angle": "Tower of 4 pairs stacked like presents: stock up for the family",
+   "based_on": "HappyFlops/Pluffi family pairs ('for him, her & the little one')",
+   "headline": "THE WHOLE FAMILY SORTED. BUY 2, GET 2 FREE + 2 FREE GIFTS",
+   "prompt": "On a glossy black podium, a playful tower of four pairs of Cloog slippers from the reference sheet stacked neatly on top of each other (burnt orange at the bottom, then navy blue, then sage green, dusty rose pink on top) with a gold bow on the very top, flanked by gold and black balloons and black gift boxes with gold ribbons. At the top, white caps \"THE WHOLE FAMILY,\" and red caps \"SORTED.\" Under the podium, a red banner with white caps: \"BUY 2, GET 2 FREE\" and a black bar with a red plus square: \"+ 2 FREE GIFTS\". Nothing else. Comfort Wear Black Friday theme (match it exactly): a glossy black studio stage lit by two bright spotlights from the top corners that make the scene glow, so it reads premium and well-lit, not murky; floating metallic gold and glossy black balloons with thin gold strings at the sides; black gift boxes with gold ribbons and a few gold confetti flecks on the floor. Typography: massive bold condensed sans-serif caps, white for 'BLACK' and bright red (#E10600) for 'FRIDAY' and key offer words; offer lines sit in solid bright-red rectangular banners with white bold caps, and secondary lines sit in black bars with a red square holding a white plus sign at the left. The slippers are brightly lit and the hero of the frame."
+  }
+ ]
+}

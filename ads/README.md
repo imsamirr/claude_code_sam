@@ -1,7 +1,7 @@
 # Static ad pipeline
 
-Research → personas → weekly concepts → 9:16 statics (+ GIFs) → review loop, rendered with
-OpenAI's image model (`gpt-image-2`). Works for any brand. The full process is in the
+Research → personas → weekly concepts → 4:5 statics (+ GIFs) → review loop, rendered through the
+Kie.ai API (GPT Image 2 image-to-image). Works for any brand. The full process is in the
 `static-ads` skill (`.claude/skills/static-ads/SKILL.md`).
 
 ```
@@ -28,7 +28,7 @@ ads/
 Keys go in `.env` at the repo root (gitignored) or as environment secrets:
 
 ```
-OPENAI_API_KEY=sk-...
+KIE_AI=...                     # Kie.ai API key (KIE_API_KEY also works)
 ATRIA_API_KEY=atria-sk_...
 ```
 
@@ -39,17 +39,17 @@ python ads/generate.py --brand comfortwear --week 2026-W42           # the whole
 python ads/generate.py --brand comfortwear --week 2026-W42 W42_05    # one concept
 python ads/generate.py --brand comfortwear --week 2026-W42 --gif-only   # GIFs for concepts that define one
 python ads/generate.py --brand comfortwear C17                       # a library concept
-python ads/generate.py ... --extra "make the headline bigger" --quality medium
+python ads/generate.py ... --extra "make the headline bigger" --resolution 4K
 ```
 
-**Format:** every ad is rendered at 4:5 (1088×1360). Its background is then extended to 9:16
-(1088×1920) and the original 4:5 pixels are pasted back on top, so text and product always
-sit inside the 4:5 safe area. Each concept writes `<id>_v1.png` (9:16, Stories/Reels) and
-`<id>_v1_4x5.png` (feed). There's one static per concept; a rerun after a rejection makes `_v2`.
+**Format:** every ad is one 4:5 image (1088×1360, feed). No 9:16 versions. Each concept writes
+`<id>_v1.png`; a rerun after a rejection makes `_v2`. (Batches before 2026-10-31 have a 9:16
+`<id>_v1.png` plus `<id>_v1_4x5.png`.) The reference photo is uploaded to Kie, a
+`gpt-image-2-image-to-image` task runs with `aspect_ratio: 4:5`, and the result is polled and saved.
 
 **GIFs:** a concept with a `gif` block gets `<id>_v1.gif` (544×960). With `"build": true`, each
 edit removes one element from the finished static and the GIF plays in reverse, so it builds up
-and ends on the full ad. All frames share the static's extended edges.
+and ends on the full ad. GIFs are 544×680.
 
 **Personas and colors:** each concept names a `persona` and a `colorway`. The colorway picks the
 reference photo, and `generate.py` warns if it's outside the persona's palette in `brand.json`.
@@ -57,16 +57,15 @@ reference photo, and `generate.py` warns if it's outside the persona's palette i
 **Spanish:** `"lang": "es"` adds the brand's Spanish rules (US Latino voice, accents kept, US
 number format). Write Spanish concepts natively; don't translate English ones.
 
-**Cost:** a static is 2 calls: a medium 4:5 render (~$0.06) and a low-quality extension (~$0.02).
-A GIF adds about $0.14. A week of 40 statics plus 8 GIFs comes to about $4.30, vs about $18.60
-with everything at high. Every call is logged to `output/_usage.jsonl`; see
-`python ads/review.py cost --week <week>`. Flags: `--quality`, `--extend-quality`, `--gif-quality`.
-Render GIFs only for approved statics (`--gif-only <ids>`).
+**Cost:** about 6 Kie credits per static at 1K (~$0.03 at $0.005/credit; set `KIE_USD_PER_CREDIT` if
+your rate differs) and about a minute per task; GIF frames cost the same. Every task is logged to
+`output/_usage.jsonl` with its credits; see `python ads/review.py cost --week <week>`. Flags:
+`--resolution 1K|4K` (2K doesn't support 4:5).
 
 ## Review loop
 
 ```bash
-python ads/review.py sheet --week 2026-W42                 # 9:16 contact sheets, 4:5 area dashed in red
+python ads/review.py sheet --week 2026-W42                 # contact sheets of unreviewed ads
 python ads/review.py log W42_05_teacher_cute_and_comfy_v1 approve "warm classroom, shoe reads as stylish"
 python ads/review.py log W42_11_step_counter_weightloss_v1 reject "progress ring doesn't match 10,000"
 python ads/review.py summary

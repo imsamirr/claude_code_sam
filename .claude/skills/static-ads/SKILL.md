@@ -1,6 +1,6 @@
 ---
 name: static-ads
-description: Run a brand's Meta static ad program from ads/brands/<brand>/: onboard a new brand (intake questions, product references, claims, personas, Atria + competitor research, Drive folder, Slack, twice-weekly routine), then each run research → write → render (9:16 with content in the 4:5 safe area, plus 4:5 crop) → QA → Drive sheet → Slack DM. Two batch types: iteration batches (big-swing iterations of current and seasonal winners only) and net-new batches. Native Facebook/Trustpilot/X formats, cartoon/animation formats, competitor-inspired formats, English and native US-Spanish copy, build-up GIFs after approval. Use for "set up static ads for my other brand", "onboard <brand>", "make this week's statics", "iteration batch", "net-new concepts", "competitor research", "Spanish statics", "cartoon ads", "turn these into GIFs", or a scheduled static-ads routine.
+description: Run a brand's Meta static ad program from ads/brands/<brand>/: onboard a new brand (intake questions, product references, claims, personas, Atria + competitor research, Drive folder, Slack, twice-weekly routine), then each run research → write → render (4:5 only, via the Kie.ai API) → QA → Drive sheet → Slack DM. Two batch types: iteration batches (big-swing iterations of current and seasonal winners only) and net-new batches. Native Facebook/Trustpilot/X formats, cartoon/animation formats, competitor-inspired formats, English and native US-Spanish copy, build-up GIFs after approval. Use for "set up static ads for my other brand", "onboard <brand>", "make this week's statics", "iteration batch", "net-new concepts", "competitor research", "Spanish statics", "cartoon ads", "turn these into GIFs", or a scheduled static-ads routine.
 ---
 
 # Static ads
@@ -13,8 +13,10 @@ Engine: `ads/generate.py` (render), `ads/review.py` (sheets, verdicts, cost, CSV
 - `dentalpulse/`: ultrasonic appliance cleaner. Product-scope limits, approved aggressive claims,
   appliance mix, old-method "enemy", competitor playbook (research/analysis.md §6), cartoon formats.
 
-Every deliverable is 1 static per concept (no variations): a 9:16 PNG (Stories/Reels) with all content
-inside the centered 4:5 area, plus the 4:5 crop (feed). GIFs only for statics the user approves.
+Every deliverable is 1 static per concept (no variations): a single 4:5 PNG (1088×1360, feed). No 9:16
+versions (user rule, 2026-10-31). Images are rendered through the **Kie.ai API** (GPT Image 2
+image-to-image, `aspect_ratio: 4:5`), key in `KIE_AI`; never call OpenAI directly. GIFs only for statics
+the user approves.
 
 ## Batch types (sizes and days from `brand.json` → `program`)
 
@@ -185,10 +187,11 @@ python ads/generate.py --brand <brand> --week ../format_examples <ids>    # form
 python ads/review.py cost --brand <brand> --week <folder>                 # actual spend
 ```
 
-Measured gpt-image-2 cost per static ≈ $0.08 (medium 4:5 render + low 9:16 extension); GIF ≈ $0.14.
-`--quality high` only for product close-ups. Shell gotcha: never `pkill -f`/`pgrep -f` a pattern that
+Kie cost per static ≈ 6 credits (~$0.03 at 1K, ~1 min per task; run up to 10 in parallel); a GIF frame
+costs the same. `--resolution 4K` only for product close-ups (2K doesn't support 4:5). Reference images
+are uploaded to Kie's file store per run (they expire after 24h). Shell gotcha: never `pkill -f`/`pgrep -f` a pattern that
 also appears in your own command line (it kills or matches the shell itself); wait on renders by
-counting `*_4x5.png` files instead.
+counting the `*_v1.png` files instead.
 
 ## 4. QA (always, before anything is shown or posted)
 
@@ -216,7 +219,7 @@ prompt. Rejected concepts get one regeneration with the fix; approved GIF candid
 2. Drive: subfolder "<folder>" under `drive_folder_id` (reuse if present), then a Google Sheet
    "<folder> concepts" from `python ads/review.py csv --brand <brand> --week <folder>` (create_file,
    `textContent`, `contentMimeType: text/csv`; trash an older sheet for the same folder first). Images
-   are too large for the Drive connector, so the sheet links to each 9:16/4:5/GIF on GitHub.
+   are too large for the Drive connector, so the sheet links to each 4:5 PNG/GIF on GitHub.
 3. Slack: DM `slack.notify_channel_id`: "**<Brand> <batch type> ready: <folder> (<n> concepts)**", links
    to the sheet, Drive folder and GitHub output folder, then one line: mix split · source ads
    (iterations) · competitor formats · cartoon count · Spanish count · GIF candidates · image cost.

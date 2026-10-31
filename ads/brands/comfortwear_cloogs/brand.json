@@ -3,7 +3,7 @@
   "product": "Cloog Cloud Slippers (unisex corduroy fleece-lined slip-on slipper clog). Advertise only Cloogs; no other Comfort Wear shoes in these ads.",
   "price": "$89.95 regular",
   "audience": "Unisex (W 4.5–13 / M 3.5–12), but the core buyer is women 35–70 shopping for themselves or as gifts. Wearers are mostly women; men may wear them in gift-for-him and couple scenes.",
-  "palette": "Everyday ads: warm cream / oatmeal backgrounds, cozy taupe and soft white, Comfort Wear purple (#7A2FE0) for headlines and pills. Black Friday / sale ads (user rule): white/red/gold theme instead: bright white or cream backgrounds, red (#D62828) and metallic gold (#D4A63A) headlines, pills and accents, never dark or black backgrounds and no purple.",
+  "palette": "Everyday ads: warm cream / oatmeal backgrounds, cozy taupe and soft white, Comfort Wear purple (#7A2FE0) for headlines and pills. Black Friday ads (user template, research/bf_theme_reference.webp): glossy black spotlit stage kept bright, gold and black balloons, black gift boxes with gold ribbons, white 'BLACK' + red 'FRIDAY' condensed caps, offers in red banners, secondary lines in black bars with a red plus square; no purple.",
   "font_style": "bold geometric sans-serif headlines (like Poppins/Montserrat ExtraBold), clean sans body text",
   "website": "comfortorthowear.com",
   "prompt_rules": [
@@ -22,11 +22,11 @@
     "Machine washable (cold, air dry)",
     "Lightweight",
     "Unisex, sizes W 4.5–13 / M 3.5–12",
-    "Black Friday offer (confirmed 2026-10-31): Cloogs 'Buy 1, Get 1 FREE'. Sitewide BF is 60% off; keep it off Cloog ads so the offers don't conflict."
+    "Black Friday Cloog offer (user, 2026-10-31): 'Buy 1, Get 1 Free' and 'Buy 2, Get 2 Free + 2 Free Gifts' (gift contents unspecified: show wrapped boxes only). Sitewide BF is 60% off; keep it off Cloog ads.",
+    "Free shipping & returns and 30-day money-back guarantee appear on the user's own BF template, so they are allowed on BF ads."
   ],
   "claims_note": "From the product page (2026-10-31). Wide toe box/foot-pain relief is on the page FAQ but keep it soft ('feels like a hug for your feet'), never medical. Customer quotes from the page reviews may be paraphrased in native formats.",
   "claims_to_avoid": [
-    "money-back guarantee, free returns/exchanges or shipping speed (Comfort Wear rule: top complaints)",
     "'Trusted by 500,000+ customers' and 'Rated 4.87/5' until confirmed for ads",
     "'orthopedic', 'podiatrist/doctor recommended' or any cure/treatment claim (plantar fasciitis, bunions)",
     "waterproof or rain/snow use (page says avoid rain)",

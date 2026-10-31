@@ -1,9 +1,8 @@
-"""Generate static (and optional GIF) ads for a brand with OpenAI's image model.
+"""Generate static (and optional GIF) ads for a brand through the Kie.ai API (GPT Image 2).
 
-Every ad is rendered as a 4:5 image (1088x1360), then its background is
-extended to a 9:16 vertical (1088x1920) and the original 4:5 pixels are put
-back on top. So all text and product are guaranteed to sit in the 4:5 safe
-area, the 9:16 runs in Stories/Reels, and the _4x5.png runs in feed.
+Every ad is one 4:5 image (1088x1360) for feed placements; there is no 9:16 version.
+The product reference photo is uploaded to Kie's file store, a gpt-image-2-image-to-image
+task is created with aspect_ratio 4:5, and the result is polled and downloaded.
 
 Layout:
     ads/brands/<brand>/brand.json         brand, colorways, personas, language rules
@@ -18,14 +17,17 @@ Usage:
     python ads/generate.py --brand comfortwear --week 2026-W41 --gif    # also render GIFs
     python ads/generate.py --brand comfortwear C17                      # from the library
     python ads/generate.py ... --extra "make the headline bigger"
+
+Key: KIE_AI (or KIE_API_KEY) in the environment or .env.
 """
 
 import argparse
-import base64
+import hashlib
 import io
 import json
 import os
 import re
+import time
 from pathlib import Path
 
 import requests
@@ -33,19 +35,14 @@ from dotenv import load_dotenv
 from PIL import Image
 
 ADS_DIR = Path(__file__).resolve().parent
-API_URL = "https://api.openai.com/v1/images/edits"
-SIZE = (1088, 1920)           # 9:16 deliverable
-CONTENT = (1088, 1360)        # 4:5 safe area, centered in SIZE
-TOP = (SIZE[1] - CONTENT[1]) // 2
-FEATHER = 48                  # px blended where the 4:5 content meets the extended edges
+KIE_API = "https://api.kie.ai/api/v1/jobs"
+KIE_UPLOAD = "https://kieai.redpandaai.co/api/file-stream-upload"
+MODEL = "gpt-image-2-image-to-image"
+CONTENT = (1088, 1360)        # 4:5, the only deliverable
+USD_PER_CREDIT = float(os.getenv("KIE_USD_PER_CREDIT", "0.005"))
 FORMAT_RULE = (
     "Vertical 4:5 canvas (even if the description below says square or 9:16). Keep text at least "
     "4% away from the edges."
-)
-EXTEND_PROMPT = (
-    "Fill only the transparent top and bottom areas by naturally continuing the image's background "
-    "(same scene, colors, lighting and perspective). Do not add any text, logos, people, products "
-    "or new objects there."
 )
 
 
@@ -122,57 +119,53 @@ def build_prompt(bdir, brand, concept, extra):
     return "\n\n".join(parts)
 
 
-# USD per 1M tokens for gpt-image-2 (text in, image in, image out); check OpenAI's pricing page
-PRICES = {"text": 5.0, "image": 8.0, "output": 30.0}
-
-
-def log_usage(args, kind, quality, usage):
-    d = usage.get("input_tokens_details", {})
-    cost = (d.get("text_tokens", 0) * PRICES["text"] + d.get("image_tokens", 0) * PRICES["image"]
-            + usage.get("output_tokens", 0) * PRICES["output"]) / 1e6
+def log_usage(args, kind, task):
+    credits = task.get("creditsConsumed") or 0
     with open(args.usage_log, "a") as f:
-        f.write(json.dumps({"kind": kind, "quality": quality, "cost_usd": round(cost, 4), **usage}) + "\n")
+        f.write(json.dumps({"kind": kind, "quality": args.resolution, "credits": credits,
+                            "cost_usd": round(credits * USD_PER_CREDIT, 4), "task_id": task.get("taskId"),
+                            "seconds": task.get("costTime")}) + "\n")
 
 
-def call_api(prompt, images, args, api_key, size=CONTENT, mask=None, kind="static", quality=None):
-    files = [("image[]", (name, blob, "image/png")) for name, blob in images]
-    if mask:
-        files.append(("mask", ("mask.png", mask, "image/png")))
-    resp = requests.post(API_URL, headers={"Authorization": f"Bearer {api_key}"} if api_key else {},
-                         files=files, timeout=600,
-                         data={"model": args.model, "prompt": prompt, "quality": quality or args.quality,
-                               "n": "1", "size": f"{size[0]}x{size[1]}"})
-    if resp.status_code != 200:
-        raise RuntimeError(f"{resp.status_code}: {resp.text[:500]}")
-    body = resp.json()
-    log_usage(args, kind, quality or args.quality, body.get("usage", {}))
-    img = Image.open(io.BytesIO(base64.b64decode(body["data"][0]["b64_json"]))).convert("RGB")
-    return img if img.size == size else img.resize(size, Image.LANCZOS)
+_uploaded = {}
 
 
-def extend_to_9x16(content, args, api_key):
-    """Outpaint the background above and below the 4:5 ad, then put the original pixels back.
+def upload(name, blob, api_key):
+    """Kie takes input images as URLs: upload once per run (files expire after 24h)."""
+    key = hashlib.sha1(blob).hexdigest()
+    if key not in _uploaded:
+        r = requests.post(KIE_UPLOAD, headers={"Authorization": f"Bearer {api_key}"}, timeout=300,
+                          files={"file": (f"{key[:12]}_{Path(name).stem}.png", blob, "image/png")},
+                          data={"uploadPath": "ads-inputs"})
+        body = r.json()
+        if body.get("code") != 200:
+            raise RuntimeError(f"upload failed: {body.get('msg')}")
+        _uploaded[key] = body["data"]["downloadUrl"]
+    return _uploaded[key]
 
-    The model redraws the whole canvas, so only its top and bottom bands are kept; the 4:5
-    content is pasted over them unchanged, with a short vertical feather to hide the seam.
-    """
-    canvas = Image.new("RGBA", SIZE, (0, 0, 0, 0))
-    canvas.paste(content.convert("RGBA"), (0, TOP))
-    blob = png_bytes(canvas)
-    edges = call_api(EXTEND_PROMPT, [("canvas.png", blob)], args, api_key, size=SIZE, mask=blob,
-                     kind="extend", quality=args.extend_quality)
-    return composite(content, edges)
 
-
-def composite(content, edges):
-    alpha = Image.new("L", CONTENT, 255)
-    for i in range(FEATHER):
-        v = int(255 * (i + 1) / FEATHER)
-        alpha.paste(v, (0, i, CONTENT[0], i + 1))
-        alpha.paste(v, (0, CONTENT[1] - 1 - i, CONTENT[0], CONTENT[1] - i))
-    out = edges.copy()
-    out.paste(content, (0, TOP), alpha)
-    return out
+def call_api(prompt, images, args, api_key, kind="static"):
+    headers = {"Authorization": f"Bearer {api_key}"}
+    urls = [upload(name, blob, api_key) for name, blob in images]
+    r = requests.post(f"{KIE_API}/createTask", headers=headers, timeout=120, json={
+        "model": MODEL, "input": {"prompt": prompt, "input_urls": urls,
+                                  "aspect_ratio": "4:5", "resolution": args.resolution}}).json()
+    if r.get("code") != 200:
+        raise RuntimeError(f"createTask {r.get('code')}: {r.get('msg')}")
+    task = r["data"]["taskId"]
+    deadline, wait = time.time() + 900, 5
+    while time.time() < deadline:
+        time.sleep(wait)
+        wait = min(wait + 2, 15)
+        d = requests.get(f"{KIE_API}/recordInfo", headers=headers, params={"taskId": task}, timeout=60).json()["data"]
+        if d["state"] == "fail":
+            raise RuntimeError(f"task {task} failed: {d.get('failCode')} {d.get('failMsg')}")
+        if d["state"] == "success":
+            log_usage(args, kind, d)
+            url = json.loads(d["resultJson"])["resultUrls"][0]
+            img = Image.open(io.BytesIO(requests.get(url, timeout=120).content)).convert("RGB")
+            return img if img.size == CONTENT else img.resize(CONTENT, Image.LANCZOS)
+    raise RuntimeError(f"task {task} timed out")
 
 
 def png_bytes(img):
@@ -181,12 +174,7 @@ def png_bytes(img):
     return buf.getvalue()
 
 
-def save_static(content, full, out_dir, stem):
-    full.save(out_dir / f"{stem}.png")
-    content.save(out_dir / f"{stem}_4x5.png")
-
-
-def render_gif(content, full, ref_bytes, concept, out_dir, stem, args, api_key):
+def render_gif(content, ref_bytes, concept, out_dir, stem, args, api_key):
     """Each later frame is an edit of the previous one, so layout and copy stay put.
 
     concept["gif"] = {"first_ms": 2200, "build": true,
@@ -199,21 +187,19 @@ def render_gif(content, full, ref_bytes, concept, out_dir, stem, args, api_key):
     for i, step in enumerate(gif["frames"], start=2):
         print(f"  gif frame {i}/{len(gif['frames']) + 1}", flush=True)
         prompt = (
-            "Edit this ad. Keep everything identical (layout, background, every word of text, the shoe, "
+            "Edit this ad. Keep everything identical (layout, background, every word of text, the product, "
             f"lighting, framing) except this change: {step['edit']} "
             "The product must still match the second image exactly. " + FORMAT_RULE
         )
         frame = call_api(prompt, [("frame.png", png_bytes(frames[-1])), ("product.png", ref_bytes)], args, api_key,
-                         kind="gif", quality=args.gif_quality)
+                         kind="gif")
         frames.append(frame)
-        composite(frame, full).save(out_dir / f"{stem}_f{i}.png")
+        frame.save(out_dir / f"{stem}_f{i}.png")
         durations.append(step.get("ms", 1400))
     if gif.get("build"):
         # frames were made by removing elements from the finished ad; play them back so it builds up
         frames, durations = frames[::-1], durations[1:][::-1] + durations[:1]
-    # every frame reuses the static's extended top and bottom, so only the 4:5 area changes
-    frames = [composite(f, full) for f in frames]
-    small = [f.resize((544, 960), Image.LANCZOS).quantize(colors=200, method=Image.Quantize.MEDIANCUT) for f in frames]
+    small = [f.resize((544, 680), Image.LANCZOS).quantize(colors=200, method=Image.Quantize.MEDIANCUT) for f in frames]
     small[0].save(out_dir / f"{stem}.gif", save_all=True, append_images=small[1:],
                   duration=durations, loop=0, optimize=True)
     print(f"  saved {stem}.gif ({len(frames)} frames)")
@@ -233,16 +219,14 @@ def main():
     p.add_argument("--week", help="weekly batch folder, e.g. 2026-W41 (default: the brand's concept library)")
     p.add_argument("--gif", action="store_true", help="also render GIFs for concepts that define them")
     p.add_argument("--gif-only", action="store_true", help="render GIFs from existing statics without regenerating them")
-    p.add_argument("--quality", default="medium", help="main 4:5 render: low | medium | high (high for product close-ups)")
-    p.add_argument("--extend-quality", default="low", help="9:16 background extension (outside the safe area)")
-    p.add_argument("--gif-quality", default="medium", help="GIF frames (shown at 544x960, 200 colors)")
-    p.add_argument("--model", default=os.getenv("OPENAI_IMAGE_MODEL", "gpt-image-2"))
+    p.add_argument("--resolution", default="1K", choices=["1K", "4K"],
+                   help="Kie output resolution (2K does not support 4:5); saved at 1088x1360 either way")
     p.add_argument("--extra", default="", help="extra instruction appended to every prompt")
     args = p.parse_args()
 
-    # Without OPENAI_API_KEY the request goes out unauthenticated, which works
-    # when the key is configured as a network secret the proxy attaches.
-    api_key = os.getenv("OPENAI_API_KEY")
+    api_key = os.getenv("KIE_AI") or os.getenv("KIE_API_KEY")
+    if not api_key:
+        raise SystemExit("Set KIE_AI (or KIE_API_KEY) to your Kie.ai API key.")
 
     bdir, brand = load_brand(args.brand)
     cpath = concepts_path(bdir, args.week)
@@ -259,16 +243,16 @@ def main():
         try:
             if args.gif_only:
                 stem = f"{c['id']}_v{versions(out_dir, c['id'])[-1]}"
-                content = Image.open(out_dir / f"{stem}_4x5.png").convert("RGB")
-                full = Image.open(out_dir / f"{stem}.png").convert("RGB")
+                content = Image.open(out_dir / f"{stem}.png").convert("RGB")
+                if content.size != CONTENT:  # older batches: stem.png was 9:16, the 4:5 lived in _4x5.png
+                    content = Image.open(out_dir / f"{stem}_4x5.png").convert("RGB")
             else:
                 stem = f"{c['id']}_v{(versions(out_dir, c['id']) or [0])[-1] + 1}"
                 content = call_api(build_prompt(bdir, brand, c, args.extra), [(ref.name, ref_bytes)], args, api_key)
-                full = extend_to_9x16(content, args, api_key)
-                save_static(content, full, out_dir, stem)
-                print(f"  saved {(out_dir / stem).relative_to(ADS_DIR.parent)}.png (+ _4x5)")
+                content.save(out_dir / f"{stem}.png")
+                print(f"  saved {(out_dir / stem).relative_to(ADS_DIR.parent)}.png")
             if (args.gif or args.gif_only) and c.get("gif"):
-                render_gif(content, full, ref_bytes, c, out_dir, stem, args, api_key)
+                render_gif(content, ref_bytes, c, out_dir, stem, args, api_key)
         except Exception as e:
             print(f"  failed: {e}")
 
