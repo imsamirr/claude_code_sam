@@ -1,0 +1,343 @@
+{
+  "week": "2026-W45-never-made",
+  "notes": "20 never-made concepts (user 2026-10-31): new formats (none in format_ledger) and angles, following all criteria.",
+  "concepts": [
+    {
+      "id": "NX_01_patient_wristband",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "headline": "ALLERGIES: RUNNING SHOES",
+      "prompt": "Close real photo of a nurse's ankle in navy scrub pants on a bright hospital floor, wearing the black shoe with purple accents from the product reference; around her ankle is a white hospital patient ID wristband with a red allergy tag, printed in clear black type: \"NAME: MY FEET\" / \"SHIFT: 3 12s IN A ROW\" and on the red tag \"ALLERGIES: RUNNING SHOES\". Top in heavy black text on two lines \"Diagnosis:\" / \"heel pain by hour 8.\" Also, a large clean callout card (white with a red header strip) floating beside the ankle with a thin line pointing to the wristband, magnifying it so the text is big and readable: red strip \"ALLERGIES\", white body in heavy black \"RUNNING SHOES\". Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Nurse humor, PF",
+      "format_name": "hospital_wristband",
+      "based_on": "Nurse insider vocabulary (copy playbook); PF 27.5% of nurses (feedback sheet)"
+    },
+    {
+      "id": "NX_02_sbar_handoff",
+      "persona": "nurse",
+      "colorway": "black_white",
+      "headline": "SBAR for your feet",
+      "prompt": "Top in heavy black text on two lines \"Your feet need\" / \"a better report.\" A clipboard on a nurses' station counter holding a printed shift handoff sheet titled in heavy black text \"SBAR: YOUR FEET\". Four labeled rows in large bold type: \"S  Heel pain by hour 8\"; \"B  3 12s in a row, running shoes\"; \"A  Cushion flat by hour 6\"; \"R  Arch support + wide toe box + rocker sole\" (the R row highlighted in soft yellow). Beside the clipboard on the counter, the black shoe with white sole and white accents from the product reference, side view. Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Nurse insider (handoff report), PF",
+      "format_name": "sbar_handoff_clipboard",
+      "based_on": "Nurse words: handoff, report (copy playbook §4); enemy 'foam collapses by hour 4-6'"
+    },
+    {
+      "id": "NX_03_room_whiteboard",
+      "persona": "nurse",
+      "colorway": "all_black",
+      "headline": "Today's goal: walk to my car without limping.",
+      "prompt": "A patient-room whiteboard on a hospital wall, written in blue and red dry-erase marker in neat handwriting: \"YOUR NURSE TODAY: Me\"; \"SHIFT: 7a - 7p\"; \"TODAY'S GOAL: walk to my car without limping\" (underlined in red). Below the whiteboard, on the light floor, the all-black shoe from the product reference in side profile with soft rim light. Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Limping-to-the-car scene, nurse",
+      "format_name": "patient_room_whiteboard",
+      "based_on": "Emily RN / Spanish nurse winner 'limping to my car' tipping-point scene"
+    },
+    {
+      "id": "NX_04_tsa_bin",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "headline": "Slip off. Slip on. Keep walking.",
+      "prompt": "Real photo at an airport security checkpoint: a grey security bin on the rollers holding a folded cardigan, a passport and the navy shoes with bright blue accents from the product reference, sharp, true proportions. Top in heavy black text on two lines \"Slip off. Slip on.\" / \"Keep walking.\" Below in bold dark text: \"No laces to tie at security. Cushioned for the terminal walk.\" Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made"
+      ],
+      "angle": "Travel: airport security, slip-on",
+      "format_name": "airport_security_bin",
+      "based_on": "Travel playbook 'from take-off to landing'; hands-free gap angle"
+    },
+    {
+      "id": "NX_05_passport_steps",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "headline": "Rome: 21,000 steps. Paris: 19,000.",
+      "prompt": "Top-down photo of an open passport page with colorful ink entry stamps, next to it the red/burgundy shoes from the product reference on a light linen surface. Handwritten in blue ink in the passport margin: \"Rome: 21,000 steps\" / \"Paris: 19,000 steps\" / \"Lisbon hills: yes\". Top in heavy black text on two lines \"Stamp your passport.\" / \"Not your heels.\" Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made"
+      ],
+      "angle": "Europe trip step counts",
+      "format_name": "passport_page_handwriting",
+      "based_on": "Travel winners: step numbers in the headline, Kyro 293/369 trip diary (Lisbon, Paris)"
+    },
+    {
+      "id": "NX_06_four_surfaces",
+      "persona": "traveler",
+      "colorway": "black_mint",
+      "headline": "One shoe. Every floor you'll stand on.",
+      "prompt": "Clean white background. A 2x2 grid of square photos, each a close crop of the black shoe with turquoise accents from the product reference standing on a different surface, with a bold dark label under each: \"ROME COBBLESTONES\", \"PARK CONCRETE\", \"HOSPITAL TILE\", \"CRUISE DECK\". Top in heavy black text on two lines \"One shoe.\" / \"Every floor you'll stand on.\" Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made"
+      ],
+      "angle": "Surface grid: travel + work",
+      "format_name": "surface_tile_grid",
+      "based_on": "Nurse-to-traveler bridge (Kyro 154/99); Vessi cobblestones"
+    },
+    {
+      "id": "NX_07_wait_time_sign",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "headline": "WAIT TIME: 90 MIN",
+      "prompt": "Real photo in a bright theme-park queue (generic, no logos or characters): a classic rustic wooden wait-time sign reading in big white letters \"WAIT TIME: 90 MIN\". In the foreground, low angle, a woman's feet standing in the queue wearing the navy shoes with bright blue accents from the product reference, sharp. Top in heavy black text on two lines \"Your feet in the\" / \"90-minute line.\" Below in bold dark text \"Fine at breakfast. Still fine at the fireworks.\" Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Disney queue standing pain",
+      "format_name": "wait_time_sign",
+      "based_on": "Disney winner TOFV1_KW1 5.65 ROAS 'fine at breakfast, different story at hour 8'"
+    },
+    {
+      "id": "NX_08_bathroom_scale",
+      "persona": "plus_size",
+      "colorway": "black_purple",
+      "headline": "Every pound lands on your feet.",
+      "prompt": "Bright bathroom, real photo from above: a plain white bathroom scale (blank display) with the black shoes with purple accents from the product reference placed neatly on it. Top in heavy black text on two lines \"Every pound lands\" / \"on your feet.\" Below in bold dark text \"Give them a wide, stable base and a sole built for all day.\" Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Plus-size load on feet",
+      "format_name": "bathroom_scale_product",
+      "based_on": "Hike plus-size 'Built to carry extra weight comfortably' (49 days); plus-size persona"
+    },
+    {
+      "id": "NX_09_pancake_foam",
+      "persona": "plus_size",
+      "colorway": "black_white",
+      "headline": "Your sneakers by month two:",
+      "prompt": "Split image, light background. Left: a flat, squashed, sad-looking pancake on a plate, labeled in bold dark text \"YOUR SNEAKERS BY MONTH TWO\". Right: the black shoe with white sole and white accents from the product reference, side view, with a thin arrow to the sole labeled \"CUSHIONED ROCKER SOLE\" and another to the midfoot labeled \"ARCH SUPPORT\". Top in heavy black text \"Flat foam = sore feet.\" Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Foam goes flat (plus-size / all-day)",
+      "format_name": "food_metaphor_split",
+      "based_on": "Stepprs 'insoles that go flat' / 'Dead Foam'; plus-size 'cushion that doesn't flatten' counter (core_competitors.md)"
+    },
+    {
+      "id": "NX_10_foot_forecast",
+      "persona": "nurse",
+      "colorway": "all_black",
+      "headline": "Your foot forecast for a 12.",
+      "prompt": "A clean weather-app style card on a soft sky-blue background, titled in heavy black text \"YOUR FOOT FORECAST\". Two rows of hourly forecast icons with bold labels: row 1 \"IN RUNNING SHOES\": HOUR 1 sun, HOUR 6 cloud, HOUR 12 thunderstorm; row 2 \"IN ORTHO STRETCH\": HOUR 1 sun, HOUR 6 sun, HOUR 12 sun with small clouds. Below the card, the all-black shoe from the product reference in side profile with soft rim light. Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Hour timeline as weather forecast",
+      "format_name": "weather_app_forecast",
+      "based_on": "Hour 1/6/12 contrast (our banded winners); Orthora 'by hour 6'"
+    },
+    {
+      "id": "NX_11_dictionary_nurse_feet",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "headline": "nurse feet (n.)",
+      "prompt": "Cream paper background styled like a dictionary page. Heavy black serif word \"nurse feet\" with a small grey phonetic line \"/ nurs feet /\" and \"(noun)\", then the definition in large dark serif: \"the throbbing you feel the second you sit down in your car after a 12.\" Below, in smaller dark italic: \"see also: limping to the parking garage.\" Bottom area: the navy shoe with bright blue accents from the product reference, side view, with bold dark text \"Shoes built for 12s.\" Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Nurse feet definition",
+      "format_name": "dictionary_entry",
+      "based_on": "Nurse insider scene; feedback 'Pain in feet and knees after standing for 12 hours'"
+    },
+    {
+      "id": "NX_12_cost_per_shift",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "headline": "Less than 40¢ a shift.",
+      "prompt": "Clean white background. Top in heavy black text on two lines \"Less than 40¢\" / \"a shift.\" Middle: a simple big calculator-style equation in bold dark type: \"$59.95 / 156 shifts a year = 38¢\", with \"$120\" shown struck through in grey above \"$59.95\" in red. Right/below: the black shoe with purple accents from the product reference, three-quarter side view. Small bold dark text: \"3 12s a week. Arch support every one.\" All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "price_strike",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Price per shift math",
+      "format_name": "cost_per_use_math",
+      "based_on": "Price anchor pattern ('$300 orthotics', '$400 shoes'); $120 -> $59.95 rule"
+    },
+    {
+      "id": "NX_13_found_flyer",
+      "persona": "nurse",
+      "colorway": "all_black",
+      "headline": "FOUND: shoes that last a whole 12.",
+      "prompt": "Real photo of a cork bulletin board in a hospital break room with push pins and staff notices (blurred). Center: a white printed flyer with heavy black text \"FOUND:\" / \"shoes that last a whole 12.\" and below \"Ask the nurse who stopped limping.\" with a photo of the all-black shoe from the product reference in side profile on the flyer, and a row of tear-off tabs at the bottom each reading \"comfortorthowear.com\" (two tabs already torn off). All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "none",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Break-room flyer peer proof",
+      "format_name": "tear_off_flyer",
+      "based_on": "Peer proof 'three nurses on my floor ordered them' (winner script)"
+    },
+    {
+      "id": "NX_14_trace_your_foot",
+      "persona": "comfort_only",
+      "colorway": "navy_blue",
+      "headline": "Trace your foot. Now trace your sneaker.",
+      "prompt": "Top-down photo on white paper: a woman's bare foot outline traced in black marker, with a narrow sneaker insole outline in red marker on top of it so the toes and bunion area clearly stick out past the red line; next to it, a navy outline that matches the foot, labeled in bold navy \"ORTHO STRETCH TOE BOX\". Beside the drawing, the navy shoe with bright blue accents from the product reference, top view. Top in heavy black text on two lines \"Trace your foot.\" / \"Now trace your sneaker.\" Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Toe box DIY test (bunions)",
+      "format_name": "foot_tracing_test",
+      "based_on": "Bunions 8.7% (second pain); 'wide toe box' winners"
+    },
+    {
+      "id": "NX_15_pain_scale",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "headline": "Where are your feet at hour 12?",
+      "prompt": "White background. Top in heavy black text on two lines \"Where are your feet\" / \"at hour 12?\" Middle: a clean horizontal 0-10 pain rating scale like on a hospital wall chart, numbers 0 to 10 in bold, a color bar from green to red, simple line faces from smiling to crying above the numbers; a dark arrow points between 7 and 8. Below in bold dark text: \"Above a 4? Your shoes are the first thing to change.\" Bottom: the black shoe with purple accents from the product reference, side view. Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Nurse pain scale (they use it daily)",
+      "format_name": "hospital_pain_scale",
+      "based_on": "Nurse insider; PF lead; no outcome claim (question only)"
+    },
+    {
+      "id": "NX_16_car_shoes_on",
+      "persona": "nurse",
+      "colorway": "black_white",
+      "headline": "I used to take my shoes off before I started the car.",
+      "prompt": "Real phone photo from the passenger seat at dusk in a hospital parking garage: a smiling nurse in navy scrubs in the driver's seat, her feet visible in the footwell still wearing the black shoes with white sole and white accents from the product reference. White band at the top with heavy black text on two lines \"I used to take my shoes off\" / \"before I started the car.\" Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Post-shift car scene",
+      "format_name": "car_footwell_photo",
+      "based_on": "Winner scene 'limping to my car'; feedback 'No back or feet pain after a 13hr shift' (customer voice)",
+      "style": "ugc"
+    },
+    {
+      "id": "NX_17_lock_screen_disney",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "headline": "Disney day 1: 24,118 steps.",
+      "prompt": "A realistic phone lock screen held in a hand outside a sunny hotel, wallpaper of a family by a pool. Large clock \"9:12\". A stack of notification cards with readable bold text: Health: \"24,118 steps today\"; Messages from Daughter: \"Mom how are your feet??\"; Messages from Mom: \"Fine! Ready for day 2\". Below the phone, the red/burgundy shoes from the product reference on the hotel balcony floor. Top in heavy black text \"Disney day 1:\" Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made"
+      ],
+      "angle": "Disney lock-screen proof",
+      "format_name": "lock_screen_notifications",
+      "based_on": "Disney/family angle; step-number headlines (travel playbook)"
+    },
+    {
+      "id": "NX_18_barefoot_at_62",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "headline": "Barefoot shoes at 62? Your heels have questions.",
+      "prompt": "Clean white background. Two side-view cross-section illustrations of a foot inside a shoe in rounded cards: left card labeled \"PAPER-THIN SOLE\" shows a heel pressing almost straight onto the ground with a red glow at the heel; right card labeled \"CUSHIONED ROCKER SOLE\" shows the black shoe with purple accents from the product reference with a thick cushioned sole and arch support under the foot. Top in heavy black text on two lines \"Barefoot shoes at 62?\" / \"Your heels have questions.\" Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Counter the barefoot trend (Hike, Konjoun)",
+      "format_name": "sole_cross_section_vs",
+      "based_on": "Angle gap: barefoot/zero-drop 197 competitor ads (Hike, Konjoun); our counter in core_competitors.md"
+    },
+    {
+      "id": "NX_19_insole_pulled_out",
+      "persona": "comfort_only",
+      "colorway": "black_white",
+      "headline": "Insoles go in. The pinch stays.",
+      "prompt": "Light grey background. Left: a narrow generic grey sneaker with a gel insole half pulled out of it, red marks drawn where the toes would pinch. Right: the black shoe with white sole and white accents from the product reference, side view, with a green check. Top in heavy black text on two lines \"Insoles go in.\" / \"The pinch stays.\" Below in bold dark text: \"Arch support built in. Room for your toes.\" Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Counter insoles (Stepprs)",
+      "format_name": "insole_pullout_compare",
+      "based_on": "Stepprs core angle (insoles); our counter: 'we are the whole shoe' (core_competitors.md)"
+    },
+    {
+      "id": "NX_20_nurse_badge_reel",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "headline": "3 12s. 0 limps.",
+      "prompt": "Close real photo of a nurse's hip in navy scrubs: a retractable badge reel clipped to her pocket with a fun round badge-buddy card reading in big bold black text \"3 12s. 0 limps.\". Lower in the frame, her feet on the bright hospital floor wearing the navy shoes with bright blue accents from the product reference, sharp. Top in heavy black text on two lines \"The badge reel\" / \"says it all.\" Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, never overlapping text; an all-black shoe is shown in side profile with soft rim light. Text colors black, navy, white and one accent; not overly colorful. Spell every word exactly as written. No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "never_made",
+        "foot_pain_lead"
+      ],
+      "angle": "Badge buddy (nurse culture)",
+      "format_name": "badge_reel_card",
+      "based_on": "Nurse culture (badge buddies); 3 12s from Emily RN winner"
+    }
+  ]
+}

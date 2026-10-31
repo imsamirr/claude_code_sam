@@ -212,6 +212,25 @@ They are our biggest competitors and write very direct-response copy. Each run:
    matching their DR intensity (specific numbers, named pain, agitation, risk reversal) with OUR approved
    claims only: never their claims we can't back, their brand names in a negative way, or their logos.
 
+- **Black Friday theme (user 2026-10-31, Comfort Wear):** every Black Friday ad is WHITE + RED with a little GOLD (brand.json `program.black_friday_week_2026_11_09.theme`, benchmark `bf_theme_brand`): light backgrounds, red offer bands/pills/tags with white text, black only for body text, small gold accents. No black bands, no dark backgrounds, no purple/blue accents.
+
+### Production method v2 (user 2026-10-31: "not a lot of effort", "we need more depth")
+- Inspiration: ANY brand with proven statics (60+ days running or rising on Atria), across categories, not only Hike/Stepprs. Each ad names ONE specific proven ad and copies its layout closely (structure, hierarchy, density) with our product and copy.
+- Depth over volume: batches of 5-8, each with a short art-direction brief (scroll-stop element, hierarchy, one proof point), 2-3 variations when useful.
+- Composed pipeline: real product cutouts `reference/cutouts/` (never a redrawn shoe when a cutout works), layout in HTML with real fonts rendered by `node ads/compose/render.js in.html out.png` (1080x1350), Kie only for text-free photo scenes `python ads/compose/scene.py out.png "<scene>" [ref.png]`.
+- QA: render a side-by-side with the inspiration ad (`compare_*.jpg`) and kill anything below that bar before showing.
+
+### Design rules (user feedback 2026-10-31: "too much text", "shoe should be the main element", "Black Friday one is too overwhelming")
+Every ad is checked against these BEFORE it is shown. `node ads/compose/render.js` prints a lint line for each render; fix every WARN.
+1. **One focal point: the shoe.** The real cutout or photo fills 35-50% of the canvas, sharp, never behind text. In a scene, shoot it close and low (the product is the hero, not the room).
+2. **Three things max:** one headline (10 words or fewer), at most one support element (3 short bullets OR one line OR a notification), one offer block. Lint: 30 words or fewer, 6 text blocks or fewer.
+3. **Compact offer:** the lead offer big (e.g. "60% OFF SITEWIDE" or "40% OFF"), the supporting terms on ONE small line under it ("Free shipping & returns · 30-day money-back guarantee"). No stacked bars, no second banner, no price card plus offer bar plus chips at once.
+4. **Calm the rest when the background is loud.** On a saturated background (red Black Friday), use white text, one white offer box and no confetti, kicker boxes or extra badges. Default to light backgrounds; a saturated background is the exception.
+5. **Space:** about 30% of the canvas stays empty. Text never closer than 7% to an edge (lint checks the actual text).
+6. **Readable for 60+:** smallest text 26px at 1080 wide (lint), headline 80-110px, high contrast, at most two colors plus black/white.
+7. **Squint test:** blur your eyes at the 3 contact-sheet sizes. You should see the shoe, then the headline, then the offer, in that order. If anything else competes, remove it.
+8. **Compare with the inspiration ad side by side.** Ours should be as clean as or cleaner than the winner. If it's busier, cut.
+
 ### 1d. Angle gaps (EVERY run, user rule 2026-10-30): test what competitors test and we don't
 1. `python ads/atria_pull.py rivals --wide` (core_competitors + brand.json `angle_rivals`: Footstr, Orthofeet,
    Kuru, Vionic, OrthoFit, Konjoun, Armadilo, Stryde, etc.) → `data/angle_rivals_<date>.csv`.
