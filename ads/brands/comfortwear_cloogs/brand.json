@@ -1,0 +1,179 @@
+{
+  "name": "Comfort Wear",
+  "product": "Cloog Cloud Slippers (unisex corduroy fleece-lined slip-on slipper clog). Advertise only Cloogs; no other Comfort Wear shoes in these ads.",
+  "price": "$89.95 regular",
+  "audience": "Unisex (W 4.5–13 / M 3.5–12), but the core buyer is women 35–70 shopping for themselves or as gifts. Wearers are mostly women; men may wear them in gift-for-him and couple scenes.",
+  "palette": "warm cream / oatmeal backgrounds, cozy taupe and soft white, Comfort Wear purple (#7A2FE0) for headlines and pills; Black Friday ads may use black backgrounds with white and purple type",
+  "font_style": "bold geometric sans-serif headlines (like Poppins/Montserrat ExtraBold), clean sans body text",
+  "website": "comfortorthowear.com",
+  "prompt_rules": [
+    "The slipper MUST be the exact Cloog slipper in the attached studio reference photo, unchanged: a closed-toe slip-on slipper clog with a wide-wale ribbed corduroy-plush upper; the vertical ribs on the toe box meet a diagonal chevron of ribs across the instep; a thick rolled ribbed collar around the heel; a fluffy cream sherpa fleece lining that shows around the whole collar and inside; a thick, rounded, smooth off-white platform sole with no text. Keep its proportions, colors and every detail; only change angle, lighting and setting. Do not invent a different slipper, add straps, laces, buckles, a heel strap, logos or a slide/open-back shape.",
+    "Wearers are mostly women (adult women's proportions and styling); a man may wear them only when the concept says so. Show them indoors (home, couch, kitchen, bed) or on quick dry trips outside (porch, mailbox, car); never in rain, snow or puddles.",
+    "Render every word of on-image text exactly as written in quotes, spelled correctly, and no other text.",
+    "Add nothing the description doesn't ask for: no extra feature lists, icon callouts, price tags, badges, star ratings, panels or captions. Never show other brands' logos or products as branded; competitor slippers, when shown, are visibly different (flat, worn-out, open-back or foam clog) and unbranded.",
+    "High-end e-commerce lifestyle photography, warm cozy light, sharp focus, natural soft shadows, no watermarks, no extra logos."
+  ],
+  "approved_claims": [
+    "Cloud-like comfort",
+    "Cushioned sole",
+    "Extra-fleece (sherpa) lining",
+    "Non-slip grip",
+    "Indoor & outdoor (dry days)",
+    "Machine washable (cold, air dry)",
+    "Lightweight",
+    "Unisex, sizes W 4.5–13 / M 3.5–12",
+    "Black Friday offer: 'Up to 40% off' (PLACEHOLDER until the user confirms the BF offer)"
+  ],
+  "claims_note": "From the product page (2026-10-31). Wide toe box/foot-pain relief is on the page FAQ but keep it soft ('feels like a hug for your feet'), never medical. Customer quotes from the page reviews may be paraphrased in native formats.",
+  "claims_to_avoid": [
+    "money-back guarantee, free returns/exchanges or shipping speed (Comfort Wear rule: top complaints)",
+    "'Trusted by 500,000+ customers' and 'Rated 4.87/5' until confirmed for ads",
+    "'orthopedic', 'podiatrist/doctor recommended' or any cure/treatment claim (plantar fasciitis, bunions)",
+    "waterproof or rain/snow use (page says avoid rain)",
+    "a specific sale price or a percentage other than the confirmed BF offer"
+  ],
+  "old_methods": "Flat, worn-out slippers that go flat in weeks; open-back slides you shuffle in; cold bare feet / socks on hard floors; foam clogs. Competitor slippers (HappyFlops, Pluffi) stay unbranded on-image.",
+  "competitor_brands": [
+    "HappyFlops",
+    "Pluffi"
+  ],
+  "colorways": {
+    "blue": {
+      "file": "reference/cloog_blue.png",
+      "label": "navy blue"
+    },
+    "green": {
+      "file": "reference/cloog_green.png",
+      "label": "sage/forest green"
+    },
+    "pink": {
+      "file": "reference/cloog_pink.png",
+      "label": "dusty rose pink"
+    },
+    "grey": {
+      "file": "reference/cloog_grey.png",
+      "label": "slate blue-grey"
+    },
+    "taupe": {
+      "file": "reference/cloog_taupe.png",
+      "label": "taupe brown"
+    },
+    "orange": {
+      "file": "reference/cloog_orange.png",
+      "label": "burnt orange"
+    }
+  },
+  "colorway_template": "The slipper is the {label} Cloog colorway shown in the reference photo.",
+  "personas": {
+    "cozy_homebody": {
+      "name": "Homebody who lives in loungewear (WFH, couch, coffee)",
+      "source": "Product page lifestyle shots; competitor ads lead with couch/cozy",
+      "colorways": "any"
+    },
+    "cold_feet": {
+      "name": "Woman whose feet are always cold on hard floors",
+      "source": "Winter slipper category hook; reviews 'keep my feet warm without getting too hot'",
+      "colorways": "any"
+    },
+    "sore_feet_morning": {
+      "name": "Achy feet first thing in the morning (no medical claim)",
+      "source": "Review Jennifer P.: 'foot problems ... first thing in the morning'",
+      "colorways": [
+        "taupe",
+        "grey",
+        "blue",
+        "pink"
+      ]
+    },
+    "gift_buyer": {
+      "name": "Black Friday / holiday gift buyer for mom, grandma, partner, family",
+      "source": "Review Joanna D.: 'bought for friends and family, then treated myself'",
+      "colorways": [
+        "pink",
+        "taupe",
+        "green",
+        "orange"
+      ]
+    },
+    "grandma_65": {
+      "name": "Grandma / active retiree 65+, wants steady non-slip steps",
+      "source": "Comfort Wear core wearer 65+; non-slip grip claim",
+      "colorways": [
+        "grey",
+        "pink",
+        "blue",
+        "taupe"
+      ]
+    },
+    "busy_mom": {
+      "name": "Busy mom: school run, mailbox, chores without changing shoes",
+      "source": "Review Susan S.: 'pop outside without changing shoes'",
+      "colorways": [
+        "green",
+        "taupe",
+        "grey",
+        "orange"
+      ]
+    },
+    "deal_hunter": {
+      "name": "Black Friday deal hunter stocking up",
+      "source": "BF season; competitor offer tiles",
+      "colorways": "any"
+    },
+    "slipper_switcher": {
+      "name": "Burned by slippers that went flat / fell apart in a year",
+      "source": "Review Jennifer P.: 'used to replace my slippers every year or two'",
+      "colorways": "any"
+    },
+    "couple": {
+      "name": "Matching pairs for couples / the whole family",
+      "source": "Unisex sizing; gift-for-family reviews",
+      "colorways": "any"
+    }
+  },
+  "language_rules": {
+    "es": "All on-image text is in Spanish exactly as written in quotes, as a Spanish-speaking person living in the USA would say it (neutral US Latino, Mexican-leaning, using 'tú'). Keep every accent and sign: á é í ó ú ñ ¿ ¡. Numbers in US format (12,000 not 12.000; $59.95). Do not translate brand names. Use only the Spanish text given in quotes: do not add feature lists, icons with captions, price tags, badges or extra panels."
+  },
+  "atria_account": "WearOrtho",
+  "inspo_queries": [
+    "cozy slippers",
+    "cloud slippers",
+    "sherpa slippers",
+    "house shoes",
+    "slipper clogs",
+    "winter slippers",
+    "fleece slippers",
+    "Black Friday slippers"
+  ],
+  "program": {
+    "schedule": "none yet (launch batch by hand)",
+    "mix": "Launch: 10 offer-led (Black Friday) / 10 comfort-led indoor wear",
+    "winning_personas": [
+      "cozy_homebody",
+      "gift_buyer"
+    ],
+    "grow_personas": [
+      "cold_feet",
+      "slipper_switcher",
+      "grandma_65"
+    ],
+    "cartoon_share": "15–20% of every batch in cartoon/animation formats"
+  },
+  "drive_folder_id": "1EAtch1T-oTW95VSiIYYP38mCjmSHEvZh",
+  "slack": {
+    "notify_channel_id": "U04PZNV9FV0",
+    "notify_name": "Samir (DM)"
+  },
+  "format_guides": {
+    "fb_comment": "Render the testimonial as a real Facebook mobile comment thread, pixel-faithful to the current Facebook app: light grey rounded comment bubble on white, small round profile photo on the left (realistic woman matching the persona), commenter name in bold dark text (first name + last initial), comment text in Facebook's system sans font at normal comment size, a grey row under the bubble reading like \"2d   Like   Reply\", and a small overlapping reaction pill (like/love icons + a count) at the bubble's lower right. Optionally 2–3 stacked comments with replies indented. Plain, native, not designed; no Facebook logo.",
+    "trustpilot": "Render the testimonial as a real Trustpilot review card, faithful to Trustpilot's current design: white card with thin light-grey border, reviewer row with a small round initials avatar, reviewer first name + last initial and country code, a row of five green square star tiles with white stars (Trustpilot green #00B67A), a short bold review title, the review text in a clean sans font, and a small grey date. Show individual review cards only: no Trustpilot logo, no TrustScore, no overall rating or review count, no 'Verified' badge.",
+    "x_post": "Render as a real X (formerly Twitter) post screenshot, faithful to the current X app in light mode: white background, round profile photo top-left, display name in bold black, then grey @handle and \"· 3h\", the post text in X's Chirp-like sans at native size (black, left-aligned, no quotation marks), optionally an attached photo with rounded corners, then a grey engagement row with the reply, repost, like and view icons and small counts, all in X's thin grey icon style. No blue verification checkmark, no X logo, no 'Twitter' bird. It must read as a genuine X post, not a designed graphic.",
+    "cartoon_3d": "Render as a still frame from a modern 3D animated feature film: soft global illumination, rounded appealing character designs with expressive eyes, rich but tasteful color, cinematic depth of field, subsurface skin shading. Characters look stylized-cute, not realistic.",
+    "comic_strip": "Render as a modern webcomic strip: 3 or 4 panels with thin black borders and white gutters, clean confident ink outlines, flat colors with light shading, round speech bubbles containing exactly the quoted lines, simple expressive characters. Panel order reads left to right, top to bottom.",
+    "flat_illustration": "Render as a modern flat vector editorial illustration: simple geometric characters with minimal facial features, a limited 4–5 color palette from the brand colors, soft subtle grain texture, generous negative space, clean sans-serif type.",
+    "claymation": "Render as a stop-motion claymation still: characters and props sculpted from plasticine with visible fingerprint texture and slightly imperfect edges, handmade miniature set, warm soft studio lighting, shallow depth of field.",
+    "retro_cartoon": "Render as a 1930s rubber-hose cartoon still: black-and-white or sepia ink with one accent color, bendy limbs, pie-cut eyes, white gloves, wobbly hand-inked lines, vintage film grain and vignette, old-timey title card lettering.",
+    "anime_soft": "Render as a frame from a soft hand-painted anime film: lush painterly backgrounds, gentle watercolor light, clean line art for characters, warm nostalgic mood."
+  },
+  "format_guides_note": "Testimonial/review ads use fb_comment or trustpilot; tweet-style ads use x_post. Cartoon/animation formats (user rule, Oct 11: use them, both brands): cartoon_3d, comic_strip, flat_illustration, claymation, retro_cartoon, anime_soft. Aim for ~15–20% of every batch."
+}

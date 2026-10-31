@@ -1,0 +1,115 @@
+{
+ "week": "2026-W44-bf",
+ "notes": "Cloog Cloud Slippers launch + Black Friday batch. 10 offer-led (B44_01–10) / 10 comfort-led indoor wear (B44_11–20). Formats borrowed from HappyFlops and Pluffi (research/analysis.md). Offer text 'Up to 40% OFF' is a PLACEHOLDER until the BF offer is confirmed. Lineup concepts use reference/cloog_lineup.png (all six colors).",
+ "concepts": [
+  {"id": "B44_01_bf_secret_deal_burst", "group": "offer", "persona": "deal_hunter", "lang": "en", "reference_image": "reference/cloog_lineup.png",
+   "angle": "Loud Black Friday burst tile", "based_on": "Pluffi 'Black Friday Secret Deal' red sunburst tile (13d, active)",
+   "headline": "BLACK FRIDAY · Up to 40% OFF",
+   "prompt": "Bold Black Friday offer graphic, square-feeling composition centered in the frame. Background: deep red with radiating sunburst rays from the center. At the top, huge chunky white display letters with a thin dark outline: \"BLACK FRIDAY\". Under it, smaller white bold caps: \"CLOOG CLOUD SLIPPERS\". In the middle, enormous bright yellow outlined letters on two lines: \"UP TO\" and \"40% OFF\". At the bottom, two Cloog slippers from the reference sheet floating side by side, angled toward each other, one sage green and one dusty rose pink, with soft drop shadows, connected by two curved white hand-drawn arrows. Nothing else."},
+
+  {"id": "B44_02_sticky_note_flatlay", "group": "offer", "persona": "deal_hunter", "lang": "en", "reference_image": "reference/cloog_lineup.png",
+   "angle": "Authentic phone-photo flat-lay on a bed with handwritten sticky notes", "based_on": "Pluffi bed flat-lay with sticky notes '52% off / free gifts / cheapest they will ever be' (6–7d, active, 2 versions)",
+   "headline": "Cheapest they'll be all year!!",
+   "prompt": "Casual top-down smartphone photo of a rumpled white duvet on a bed in soft daylight. Laid out in a loose row: four pairs of Cloog slippers from the reference sheet in navy blue, sage green, dusty rose pink and taupe brown. Above them, a long pink paper strip taped at an angle with black marker handwriting: \"Cheapest they'll be all year!!\" with the word \"Cheapest\" underlined. Below the slippers, a yellow square sticky note in marker: \"Up to 40% off\", and a second yellow sticky note: \"Black Friday\" next to a small kraft gift box with a red ribbon. Real handwriting, slightly uneven, natural shadows, looks like a real customer photo, not a designed ad.",
+   "gif": {"build": true, "first_ms": 2400, "frames": [
+     {"edit": "Remove the two yellow sticky notes and the gift box, leaving plain duvet.", "ms": 900},
+     {"edit": "Remove the pink paper strip with handwriting, leaving plain duvet.", "ms": 900}]}},
+
+  {"id": "B44_03_sorry_cold_feet", "group": "offer", "persona": "cold_feet", "lang": "en", "colorway": "taupe",
+   "angle": "'Sorry' apology headline turned on cold feet", "based_on": "Pluffi 'Sorry, Pluffi fans. Our sale is ending today' (9d, active)",
+   "headline": "Sorry, cold feet. Your time is up.",
+   "prompt": "Clean minimal product ad on a soft light-grey seamless studio background. At the top, large bold black serif-style headline on two lines: \"Sorry, cold feet.\" then \"Your time is up.\" Below it, a smaller black line: \"Black Friday is here.\" In the center, one large Cloog slipper from the reference photo in side profile, sharp and detailed, sitting on a white surface with a soft shadow. At the bottom, a thin black rectangular outline box containing bold black text: \"UP TO 40% OFF\". Nothing else."},
+
+  {"id": "B44_04_mom_text_notification", "group": "offer", "persona": "gift_buyer", "lang": "en", "colorway": "pink",
+   "angle": "Mom's iPhone notification asking for the pink pair", "based_on": "HappyFlops iMessage notification 'MAMMA: OMG did you see the buy 3 pay 2 deal' (100d)",
+   "headline": "Mom: Did you see Cloogs are up to 40% off?? Get me the pink ones",
+   "prompt": "Warm lifestyle photo, cozy living room in late-afternoon light: a woman in her 60s with grey hair, wearing an oatmeal knit cardigan and grey joggers, relaxes on a cream sofa with her feet up on an ottoman wearing the pink Cloog slippers from the reference photo, holding a mug. Overlaid in the upper-middle of the frame, a realistic iOS lock-screen message notification banner: frosted white rounded rectangle, small green Messages app icon, bold sender name \"Mom\", grey \"now\" at the right, and the message text: \"Did you see Cloogs are up to 40% off for Black Friday?? Get me the pink ones\". Native iPhone look, no other text."},
+
+  {"id": "B44_05_gift_for_always_cold", "group": "offer", "persona": "gift_buyer", "lang": "en", "colorway": "orange",
+   "angle": "Quoted gift headline with arrow callouts and offer bar", "based_on": "Pluffi '\"The best gift idea for people with cold feet\"' arrow-callout tile (6d)",
+   "headline": "\"The best gift for anyone who's always cold\"",
+   "prompt": "Product callout ad on a very pale lavender background. At the top, a small purple pill label with white text: \"CLOOG CLOUD SLIPPERS\". Below, a big bold headline in Comfort Wear purple, centered, in quotation marks on three lines: \"The best gift for anyone who's always cold\". In the center, one large Cloog slipper from the reference photo in three-quarter view. Three small dark-purple handwritten-style labels with dashed curved arrows pointing at the slipper: \"Extra-fleece lining\" pointing to the sherpa collar, \"Cushioned sole\" pointing to the sole, \"Machine washable\" pointing to the upper. At the bottom, bold purple caps: \"BLACK FRIDAY: UP TO 40% OFF\". Nothing else."},
+
+  {"id": "B44_06_his_and_hers_done", "group": "offer", "persona": "couple", "lang": "en", "reference_image": "reference/cloog_lineup.png",
+   "angle": "Matching his & hers pairs under the tree", "based_on": "Pluffi 'comfiest slippers for him, her & the little one' (45d, active) + HappyFlops gift-box scene 'the spring gift they'll actually use every day' (79d)",
+   "headline": "His & hers. Gift list: done.",
+   "prompt": "Cozy holiday photo: close-up of a couple's lower legs side by side on a fluffy rug by a lit Christmas tree with warm fairy lights and wrapped gifts. The man (on the left, dark grey sweatpants) wears the taupe brown Cloog slippers and the woman (on the right, cream knit joggers) wears the dusty rose pink Cloog slippers, both exactly as in the reference sheet, toes touching playfully. Torn red wrapping paper and an open gift box beside them. At the top, large bold white headline with a soft shadow: \"His & hers.\" second line: \"Gift list: done.\" At the bottom, a purple rounded pill with white bold text: \"Black Friday · Up to 40% off\". Nothing else."},
+
+  {"id": "B44_07_big_number_black_tile", "group": "offer", "persona": "deal_hunter", "lang": "en", "colorway": "grey",
+   "angle": "Huge type-only number tile with color dots", "based_on": "HappyFlops '40% RABATT' tile with color swatch column (135d, active) + 'DO 40% ZNIŻKI' type tile (83d)",
+   "headline": "UP TO 40% OFF",
+   "prompt": "Minimal premium offer tile on a solid matte black background. Top, small white tracked-out caps: \"BLACK FRIDAY\". Center-left, gigantic bold white rounded sans-serif numbers stacked: \"UP TO\" (smaller) above \"40%\" (huge) above \"OFF\". On the right side, one slate blue-grey Cloog slipper from the reference photo, angled diagonally and dramatically lit with a soft rim light. Down the far left edge, a vertical row of six small solid circles in navy blue, sage green, dusty rose, slate grey, taupe brown and burnt orange. Bottom, small white text: \"Cloog Cloud Slippers\". Nothing else."},
+
+  {"id": "B44_08_claymation_grandma_gift", "group": "offer", "persona": "grandma_65", "lang": "en", "colorway": "pink", "format": "claymation",
+   "angle": "Claymation grandma opening her Black Friday gift", "based_on": "Skill-proven cartoon idea (claymation gift scenes) + Pluffi gift angle 'all she wanted was warm feet'",
+   "headline": "All Grandma wanted was warm feet.",
+   "prompt": "Stop-motion claymation scene in a tiny handmade living room with a knitted armchair and a little clay Christmas tree. A sweet clay grandma with white bun hair and round glasses sits in the armchair, beaming, holding up a pair of pink Cloog slippers (sculpted in clay but keeping the exact ribbed corduroy look, cream fleece collar and thick off-white sole) she just pulled out of a gift box, with clay wrapping paper on the floor. At the top, chunky white clay-sculpted letters: \"All Grandma wanted\" second line \"was warm feet.\" At the bottom, a clay purple banner with white letters: \"Black Friday: up to 40% off\". Nothing else."},
+
+  {"id": "B44_09_fb_comment_stock_up", "group": "offer", "persona": "gift_buyer", "lang": "en", "colorway": "green", "format": "fb_comment",
+   "angle": "Facebook comment thread: bought for family, then treated myself", "based_on": "Product-page review Joanna D. ('bought for friends and family, then treated myself'); Pluffi 'Loved by happy feet' social proof",
+   "headline": "Bought 4 pairs for the family... then kept one for me",
+   "prompt": "Top half: a casual phone photo of four sage green Cloog slippers from the reference photo lined up on a wooden floor by a front door, slightly messy, real-life lighting. Bottom half: a Facebook comment thread on white. First comment by \"Linda M.\" with a round profile photo of a smiling woman in her 50s: \"Are these the slippers everyone is talking about??\" Under it, an indented reply by \"Karen T.\" with a profile photo of a woman in her 60s: \"Yes!! Bought 4 pairs for the family in the Black Friday sale... then kept one for me. So soft and cushy.\" Reaction pill with like and love icons and \"248\" on Karen's comment, and grey \"1d  Like  Reply\" rows. Nothing else."},
+
+  {"id": "B44_10_cart_gift_list", "group": "offer", "persona": "busy_mom", "lang": "en", "reference_image": "reference/cloog_lineup.png",
+   "angle": "Phone checkout screen: whole gift list in one cart", "based_on": "Competitor offer tiles + skill native phone-UI format (cart)",
+   "headline": "My whole gift list. One cart. 2 minutes.",
+   "prompt": "Photo of a woman's hand holding an iPhone over a cozy blanket on her lap, the screen sharp and readable. The screen shows a clean white shopping-cart page titled \"Your cart\" with three rows, each a small square thumbnail of a Cloog slipper from the reference sheet and a name: \"Cloog Cloud Slippers – Pink\", \"Cloog Cloud Slippers – Taupe\", \"Cloog Cloud Slippers – Green\", each with \"Qty 1\". Under the rows, a green line: \"Black Friday savings applied\" and a big black rounded button \"Checkout\". No prices. Above the phone, large bold dark headline on the cream blanket area: \"My whole gift list.\" second line in purple: \"One cart. 2 minutes.\" Nothing else."},
+
+  {"id": "B44_11_regular_vs_cloog_split", "group": "comfort", "persona": "slipper_switcher", "lang": "en", "colorway": "blue",
+   "angle": "Side-by-side 'regular slippers vs Cloogs' checklist", "based_on": "HappyFlops 'Enkle tøfler vs HappyFlops' X/check comparison on green (124d, active)",
+   "headline": "Regular slippers vs Cloogs",
+   "prompt": "Split comparison ad on a deep forest-green background divided by a thin dashed vertical line. Left column header in small white caps: \"REGULAR SLIPPERS\", with a flat, thin, worn-out grey open-back terry slipper (clearly a different generic slipper, squashed and pilled, no logo). Below it four rows each with a red circle X icon and white text: \"Go flat in weeks\", \"Thin, cold sole\", \"Slide on hard floors\", \"Hand wash only\". Right column header in small white caps: \"CLOOGS\", with the navy blue Cloog slipper from the reference photo looking plump and new. Below it four rows each with a green circle check icon and white text: \"Cloud-cushioned sole\", \"Extra-fleece lining\", \"Non-slip grip\", \"Machine washable\". Nothing else.",
+   "gif": {"build": true, "first_ms": 2400, "frames": [
+     {"edit": "Remove the four green-check rows in the right column, leaving plain green background.", "ms": 900},
+     {"edit": "Remove the navy Cloog slipper and the CLOOGS header, leaving plain green background.", "ms": 900}]}},
+
+  {"id": "B44_12_slippers_guests_ask_about", "group": "comfort", "persona": "cozy_homebody", "lang": "en", "reference_image": "reference/cloog_lineup.png",
+   "angle": "'The slippers guests ask about' hand-held hero + color lineup + icon row", "based_on": "Pluffi 'The slipper guests ask about' (10d, active)",
+   "headline": "The slippers guests always ask about",
+   "prompt": "Clean e-commerce ad on a warm cream background. Top: bold dark-brown headline: \"The slippers guests always ask about\" and under it a smaller grey italic line: \"Wait, where did you get those?\" Left: a woman's hand holding up one sage green Cloog slipper from the reference sheet, large and close. Right: the other five colors in a neat overlapping row (navy blue, dusty rose pink, slate grey, taupe brown, burnt orange). Below, a row of three simple thin-line icons with short captions: a cloud icon \"Cushioned sole\", a snowflake icon \"Extra-fleece lining\", a footprint icon \"Non-slip grip\". Nothing else.",
+   "gif": {"build": true, "first_ms": 2400, "frames": [
+     {"edit": "Remove the row of five slippers on the right, leaving plain cream background.", "ms": 900},
+     {"edit": "Remove the three icons and their captions, leaving plain cream background.", "ms": 900}]}},
+
+  {"id": "B44_13_stop_buying_flat_slippers", "group": "comfort", "persona": "slipper_switcher", "lang": "en", "colorway": "taupe",
+   "angle": "Warning callout pointing at the old flat slipper", "based_on": "HappyFlops '!!IKKE VELG DISSE!!' (don't choose these) warning sticker + arrow (84d, active)",
+   "headline": "!! STOP buying slippers that go flat !!",
+   "prompt": "Two-part vertical photo ad on white. Top half: a sad, flattened, worn-out generic beige terry slipper with a squashed thin sole and frayed edges, lying on a cold grey tile floor (clearly not the Cloog, no logo). Over it, a white rounded sticker label with bold red text: \"!! STOP buying slippers that go flat !!\" and a hand-drawn black arrow pointing down at the old slipper. Bottom half: the taupe brown Cloog slipper from the reference photo on a soft rug in warm light, plump fleece collar and thick cushioned sole, with a small purple pill label: \"Get these instead\". Nothing else."},
+
+  {"id": "B44_14_x_post_wore_to_store", "group": "comfort", "persona": "cozy_homebody", "lang": "en", "colorway": "grey", "format": "x_post",
+   "angle": "X post: 'bought house slippers, now wearing them to the grocery store'", "based_on": "Pluffi '\"Oops… I wore them outside!\"' (115d) + product-page review 'wearing them into town'",
+   "headline": "bought slippers for around the house. now I'm wearing them to the grocery store.",
+   "prompt": "An X post screenshot. Display name \"Jess 🧦\" with handle \"@jessathome\" and \"· 3h\". Post text: \"bought slippers for around the house. now I'm wearing them to the grocery store. send help\". Attached photo with rounded corners: a casual phone shot looking down at a woman's feet in the slate grey Cloog slippers from the reference photo and grey sweatpants, standing on a supermarket floor next to a shopping cart wheel. Engagement row: \"412\" replies, \"1.8K\" reposts, \"24K\" likes, \"610K\" views."},
+
+  {"id": "B44_15_trustpilot_first_steps", "group": "comfort", "persona": "sore_feet_morning", "lang": "en", "colorway": "blue", "format": "trustpilot",
+   "angle": "Trustpilot review card over bedside morning photo", "based_on": "Product-page review Jennifer P. ('first thing in the morning... like a little hug for my feet'); HappyFlops review-card + product (91d)",
+   "headline": "My first steps in the morning used to be the worst part of my day.",
+   "prompt": "Background: soft morning light in a bedroom, a woman's bare feet just slipping into the navy blue Cloog slippers from the reference photo next to the bed on a light wood floor, rumpled white sheets visible. Overlaid in the upper half, a Trustpilot-style review card: reviewer initials avatar \"JP\", name \"Jennifer P.\" and \"US\", five green star tiles, bold title \"Finally look forward to mornings\", review text: \"My first steps out of bed used to be the worst part of my day. Now I slip into these and it feels like a hug for my feet.\" and a small grey date \"Oct 28, 2026\". Nothing else."},
+
+  {"id": "B44_16_comic_always_cold", "group": "comfort", "persona": "cold_feet", "lang": "en", "colorway": "orange", "format": "comic_strip",
+   "angle": "4-panel comic: cold tile floor → friend's tip → slip on → never taking them off", "based_on": "Skill-proven 4-panel comic; Pluffi 'gift for anyone who's always cold' (385d, active)",
+   "headline": "I'm never taking these off.",
+   "prompt": "A 4-panel webcomic in a 2x2 grid. Panel 1: a woman in pajamas tiptoes across a pale blue kitchen tile floor holding a coffee, shivering, with wavy cold lines around her bare feet; speech bubble: \"Why are my feet ALWAYS cold?\". Panel 2: her friend on the couch points at her own cozy slippers; speech bubble: \"Get Cloogs.\". Panel 3: close-up of the woman's feet sliding into the burnt orange Cloog slippers, little sparkles; tiny caption bubble: \"...oh.\". Panel 4: the woman curled up blissfully on the couch under a blanket with the orange Cloogs on, hearts floating; speech bubble: \"I'm never taking these off.\" Nothing else."},
+
+  {"id": "B44_17_cartoon_cloud_walk", "group": "comfort", "persona": "cozy_homebody", "lang": "en", "colorway": "green", "format": "cartoon_3d",
+   "angle": "3D animated: every step around the house lands on a cloud", "based_on": "Pluffi 'feels like walking on a soft cloud' / 'Slip into cloud nine' (371–423d, active)",
+   "headline": "Like walking on a cloud. Literally.",
+   "prompt": "A still from a modern 3D animated film: a cute stylized young woman in a big cozy sweater walks happily down a warm wooden hallway of her home holding a mug, wearing the sage green Cloog slippers. Under each slipper, small puffy white clouds bloom where she steps, as if the floor is made of clouds. Warm golden-hour light through a window, plants, a rug. At the top, big rounded bold white letters with a soft purple shadow: \"Like walking on a cloud.\" and under it smaller: \"Literally.\" Nothing else."},
+
+  {"id": "B44_18_sherpa_macro_big_type", "group": "comfort", "persona": "cold_feet", "lang": "en", "colorway": "taupe",
+   "angle": "Shock close-up of the sherpa lining with big type", "based_on": "Pluffi in-bed hand close-up (290d, active); product-page texture shots",
+   "headline": "Your feet's new favorite place.",
+   "prompt": "Extreme macro close-up of the inside of the taupe brown Cloog slipper from the reference photo: the thick fluffy cream sherpa fleece lining and rolled collar fill most of the frame, every fiber visible, ribbed taupe corduroy plush on the left edge, soft warm side light. In the empty creamy area at the top, a large bold dark-brown headline: \"Your feet's new\" second line \"favorite place.\" Bottom, small purple text: \"Cloog Cloud Slippers\". Nothing else.",
+   "quality": "high"},
+
+  {"id": "B44_19_grandma_steady_kitchen", "group": "comfort", "persona": "grandma_65", "lang": "en", "colorway": "grey",
+   "angle": "Grandma baking with grandkid on hardwood: soft and steady", "based_on": "Comfort Wear core 65+ wearer; product-page 'non-slip grip... safe and steady'; HappyFlops testimonial-overlay lifestyle (106d)",
+   "headline": "Soft as a cloud. Steady on every floor.",
+   "prompt": "Warm, candid lifestyle photo in a bright home kitchen with light hardwood floors: a grandmother in her late 60s with short silver hair, wearing a soft cardigan and slacks, stands at the counter rolling cookie dough with her smiling granddaughter (about 7) on a step stool beside her. The grandmother wears the slate grey Cloog slippers from the reference photo, clearly visible. At the top, bold dark headline: \"Soft as a cloud.\" second line in purple: \"Steady on every floor.\" Nothing else."},
+
+  {"id": "B44_20_day_in_cloogs_timeline", "group": "comfort", "persona": "busy_mom", "lang": "en", "colorway": "green", "format": "flat_illustration",
+   "angle": "Flat-illustrated 'a day in Cloogs' timeline: coffee to mailbox to bed", "based_on": "Product-page 'first morning coffee to your last trip to bed'; HappyFlops 'from morning errands to the walk home'",
+   "headline": "7am to 10pm. Never took them off.",
+   "prompt": "Flat vector editorial illustration on a warm cream background, four small vignettes stacked vertically along a dotted timeline on the left with times. \"7am\": a woman in a robe pouring coffee in the kitchen. \"12pm\": the same woman at a laptop on the couch. \"3pm\": she steps out on a dry front porch to grab the mail. \"10pm\": she sits on the edge of her bed, about to switch off a lamp. In every vignette she wears the same sage green Cloog slippers. Big bold dark headline at the top: \"7am to 10pm.\" second line in purple: \"Never took them off.\" Nothing else."}
+ ]
+}
