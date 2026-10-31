@@ -20,10 +20,13 @@ const path = require('path');
       const cs = getComputedStyle(el);
       if (cs.display === 'none' || cs.visibility === 'hidden') continue;
       const txt = own.map(n => n.textContent.trim()).join(' ');
+      if (!/[A-Za-z0-9]/.test(txt)) continue;  // icon-only marks (✕, ✓, +) are not text blocks
       words += txt.split(/\s+/).filter(t => /[A-Za-z0-9$%]/.test(t)).length;
       minFont = Math.min(minFont, parseFloat(cs.fontSize));
       const rg = document.createRange(); rg.selectNodeContents(el); const b = rg.getBoundingClientRect();
-      blocks.push(txt.slice(0, 30));
+      const li = el.closest('li,ul,ol');  // a bullet list counts as one block
+      const key = li ? (li.closest('ul,ol') || li) : el;
+      if (!blocks.includes(key)) blocks.push(key);
       if (b.left < mx - 1 || b.top < my - 1 || b.right > W - mx + 1 || b.bottom > H - my + 1) out.push(txt.slice(0, 40));
     }
     let img = 0;
