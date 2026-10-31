@@ -214,6 +214,12 @@ They are our biggest competitors and write very direct-response copy. Each run:
 
 - **Black Friday theme (user 2026-10-31, Comfort Wear):** every Black Friday ad is WHITE + RED with a little GOLD (brand.json `program.black_friday_week_2026_11_09.theme`, benchmark `bf_theme_brand`): light backgrounds, red offer bands/pills/tags with white text, black only for body text, small gold accents. No black bands, no dark backgrounds, no purple/blue accents.
 
+### Production method v2 (user 2026-10-31: "not a lot of effort", "we need more depth")
+- Inspiration: ANY brand with proven statics (60+ days running or rising on Atria), across categories, not only Hike/Stepprs. Each ad names ONE specific proven ad and copies its layout closely (structure, hierarchy, density) with our product and copy.
+- Depth over volume: batches of 5-8, each with a short art-direction brief (scroll-stop element, hierarchy, one proof point), 2-3 variations when useful.
+- Composed pipeline: real product cutouts `reference/cutouts/` (never a redrawn shoe when a cutout works), layout in HTML with real fonts rendered by `node ads/compose/render.js in.html out.png` (1080x1350), Kie only for text-free photo scenes `python ads/compose/scene.py out.png "<scene>" [ref.png]`.
+- QA: render a side-by-side with the inspiration ad (`compare_*.jpg`) and kill anything below that bar before showing.
+
 ### 1d. Angle gaps (EVERY run, user rule 2026-10-30): test what competitors test and we don't
 1. `python ads/atria_pull.py rivals --wide` (core_competitors + brand.json `angle_rivals`: Footstr, Orthofeet,
    Kuru, Vionic, OrthoFit, Konjoun, Armadilo, Stryde, etc.) → `data/angle_rivals_<date>.csv`.
