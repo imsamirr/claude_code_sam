@@ -59,7 +59,6 @@ gift stacks, B2G1/BOGO bundles. These need a confirmed offer.
 
 ## 4. Open items for the user
 
-- Confirm the Black Friday offer. Renders use the placeholder "Up to 40% OFF". If it's BOGO, B2G1 or
-  $ off, the offer concepts get re-rendered.
+- Black Friday offer confirmed 2026-10-31: Cloogs are Buy 1, Get 1 FREE (sitewide BF is 60% off, not used on Cloog ads).
 - Confirm whether the money-back guarantee, free returns, "500,000+ customers" and "4.87/5" may appear
   in ads.
