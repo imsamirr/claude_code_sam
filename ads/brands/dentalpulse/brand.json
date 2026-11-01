@@ -599,6 +599,26 @@
     "rv_p_whiteboard": {
       "file": "reference/benchmarks/rv_ref_p_whiteboard.jpg",
       "use_for": "LAYOUT reference only (user-supplied, Oct 31: Primals bathroom whiteboard: marker doodles 'Before… → After!' + handwritten line, product in front by the sink). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_cw_lineup_band": {
+      "file": "reference/benchmarks/rv_ref_cw_lineup_band.jpg",
+      "use_for": "LAYOUT reference only (user-supplied Comfort Wear comparison ad, Nov 1: lineup of products against a tiled wall with handwritten tent-card labels + bold black band headline 'WE COMPARED… THE RESULTS SURPRISED US.' (orange line) + 'See the full comparison →'). Recreate its structure for a DentalPULSE ad; never copy its words, products or brand names; other cleaners are unbranded."
+    },
+    "rv_cw_guide_report": {
+      "file": "reference/benchmarks/rv_ref_cw_guide_report.jpg",
+      "use_for": "LAYOUT reference only (user-supplied Comfort Wear comparison ad, Nov 1: 'COMFORT GUIDE' masthead, gross worn-product macro, NEW REPORT + huge 'WE RANKED THE TOP 5…' headline, peach pill, 'Based on our own comparison'). Recreate its structure for a DentalPULSE ad; never copy its words, products or brand names; other cleaners are unbranded."
+    },
+    "rv_cw_sticky_lineup": {
+      "file": "reference/benchmarks/rv_ref_cw_sticky_lineup.jpg",
+      "use_for": "LAYOUT reference only (user-supplied Comfort Wear comparison ad, Nov 1: product lineup on a counter with handwritten tent cards + big yellow sticky note 'We compared the top…'). Recreate its structure for a DentalPULSE ad; never copy its words, products or brand names; other cleaners are unbranded."
+    },
+    "rv_cw_pain_report": {
+      "file": "reference/benchmarks/rv_ref_cw_pain_report.jpg",
+      "use_for": "LAYOUT reference only (user-supplied Comfort Wear comparison ad, Nov 1: person in pain at home + NEW REPORT '…WE RANKED 5 POPULAR…' headline + sub + 'Find out which one ranked #1.' + product corner). Recreate its structure for a DentalPULSE ad; never copy its words, products or brand names; other cleaners are unbranded."
+    },
+    "rv_cw_whiteboard_6months": {
+      "file": "reference/benchmarks/rv_ref_cw_whiteboard_6months.jpg",
+      "use_for": "LAYOUT reference only (user-supplied Comfort Wear comparison ad, Nov 1: whiteboard split 'My X after 6 months | Ours after 6 months' marker drawings with arrow labels + tagline, product in front). Recreate its structure for a DentalPULSE ad; never copy its words, products or brand names; other cleaners are unbranded."
     }
   },
   "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots)."
