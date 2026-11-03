@@ -245,3 +245,21 @@ User feedback on the rivals batch: (1) the Pod looked like a giant machine (it's
 User rejected RV_18 (red studio tile), RV_19 (flower frame), RV_20 (coffee/croissant table) and the palm shots: the Pod is a bathroom-counter device (store spec 132.5 x 110 x 85 mm, 200 ml basin), it always rests on a surface, nobody holds it, and every photo is set in a real bathroom. Rebuilt 20 concepts on 20 NEW reference ads from the curated pull (`rv_b2_*`): microscope + red arrow, unboxing with a sticky-note offer, "We're sorry" letter, raw vanity/sink phone photos, "We're not like the other 6", price cascade to "$0 tablets", dark spec diagram, mirror moment, caption + handwritten notes, quote-bracket save pill, "buy the Pod, gifts on us", editorial "Not another tablet", two-photo split, "I tested 5 ways… only 1 passed" clipboard, BUY 1 / GET 3, UV-light reveal, stacked before/after, diagonal VS split, pointing presenter.
 - Lessons: appliances in the foreground render bigger than the Pod; say "beside it, same distance from the camera, half its width". Night guards held up to the light render thin and pale; ask for "deep mustard-yellow, almost brown at the edges". Hands may hold other things (clipboard, UV torch, the appliance), never the Pod.
 - 6 of 20 re-rendered (2 twice).
+
+## 13f. Nov 3 inspiration run (Tuesday W45 iterations): `atria_pull.py inspiration`
+2,260 ads fetched; 1,171 launched <7 days ago removed, 46 not growing, 23 non-English; **440 kept** (`data/inspiration_curated.csv`, sheets `sheets/inspiration_curated_1-4.jpg`, all four read). Mostly off-niche; formats that transfer (all used in `weeks/2026-W45-tue`, each as a different layout reference, `rv_t2_*`):
+1. **Three-circle timeline with red arrows** (artery supplement, 26d, top 0.8%) -> T45_01 lab-proof macro circles.
+2. **Dark-mode X post** (grounding shoes, 7d, top 2.4%) -> T45_02 (Ray story).
+3. **"What happens when you ditch X" + huge headline + pill callouts** (denture-cleaner-search ear cleaner, 23d, top 2.4%) -> T45_03.
+4. **Risk-reversal serif headline "or we'll buy it back"** (fascia supplement, 15d, top 2.4%) -> T45_04.
+5. **Clean price tile "Fall price $195 $165, $30 Off Your Order, Shop Now"** (7d, top 2.9%) -> T45_05.
+6. **Struck prices turned FREE row** (New Chapter, 20d, top 3.4%) -> T45_06.
+7. **Lo-fi tablet-box photo** (Denture Care Tips, 16d) -> T45_09.
+8. **Solid navy product tile** (collagen, 14d, top 6.7%) -> T45_10.
+9. **What's Out / What's In columns** (mineral toothpaste, 11d, top 2.2%) -> T45_12.
+10. **Product + before/after polaroids** (hair, 14d, top 8.7%) -> T45_13.
+11. **Felt letter board photo** (sleep patches, 12d, top 8.5%) -> T45_14.
+12. **Deadline highlighter tile** and **"Think X can't...? Think again."** two-photo (Invisalign, 7d / 11d) -> T45_15, T45_18.
+13. **Product + highlighted bullets** (probiotic, 11d, top 6.1%) -> T45_19; **vertical callouts + round discount badge** (toothbrush, 19d, top 3.9%) -> T45_20.
+Skipped: cartoons, a news-chyron deepfake, sexual imagery, anything launched in the last 7 days.
+**Own winners re-read (current, Oct 4-Nov 2, 12 ads):** VID_DEN32 $9.7K/2.30, TOFv1_I13 $7.3K/1.82, DEN81 H3 $5.9K/2.16, IMG_DEN64 51_12 $3.0K/2.32 and 51_3 $1.4K/3.08, VID_DEN24 $2.6K/2.60, DEN81 H1 $1.5K/3.27, IMG_DEN62 $0.95K/3.36, TOFv1_A30 $0.8K/2.07. Seasonal W45 (2025) is tiny (<$300 each): "Read This If You Wear Dentures" $162/2.62, "I tell everyone, invisalign dirtier" $56/2.52.

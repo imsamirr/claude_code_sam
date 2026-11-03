@@ -39,3 +39,29 @@ User rule (2026-10-30): these are our two main rivals. Study them on every run (
 
 ## Comparison round 2 (user request, Nov 1): `weeks/2026-W45-compare2`
 User supplied 5 Comfort Wear comparison ads (lineup + black band, "Comfort Guide / New report / We ranked…", sticky-note lineup, pain shot + report, "after 6 months" whiteboard). Applied to DentalPULSE with the account's winning lab-test messaging (Atria, last 14d: "6 of 7 pods leave/can't remove live bacteria" ROAS 2.2–2.4, "You've Been Lied To" 2.8, "#1 Dentures Cleaner" 2.2; night-guard comparisons 0.65–0.85, so dentures first). Tent cards read "Pod 1–6 / Pod A–C" (we don't know which brands were in the lab test, so no rival names); whiteboards compare against tablets/brushing, not a named rival.
+
+## 2026-11-03 (Tuesday W45 read: 147 ads; Zima 96 = 50 video + 46 image, 93 active; Sonic 51 = 50 image + 1 video, all active)
+**Since Oct 30:** 110 new ads, 89 stopped. Sheet: `sheets/core_competitors_2026-11-03_1.jpg` (first 20) plus a full-thumbnail check of every ad launched in the last 4 days.
+
+### Sonic Dental: Black Friday takeover, now "UP TO 40% OFF"
+- ~45 of 51 ads are one creative family: **"Black Friday: Up to 40% Off"** (EN / FR / DE copy: "the easiest upgrade your smile will get all year. Treat yourself or tick off the gift list early. Limited time only.") in 6 tiles: 3 pods on rippled water, pod under water bubbles, pod on a palm on black, dark tile with a scrolling "BLACK FRIDAY SALE" ticker band, white tile + "4.8/5 Reviews.io" strip, black tile with the tablet box. All launched in the last 1-2 days.
+- **Changed:** they moved from "Up to 30% (35%)" to "Up to 40%", so the sale gap is gone. Still "up to": ours is a flat 40% sitewide + FREE case + FREE travel bag + FREE shipping + 120-day guarantee.
+- New claim line on the one non-sale ad: "#1 Aligner Cleaner Worldwide... 1,000+ dental clinics, 250,000 Sonic Pros sold... in just 3 minutes a day." (counts are theirs; we cannot use counts; our cycle is 5 minutes and we frame it as thoroughness).
+- Proof devices: none (no pain, no macro, no customer language). Still zero denture content.
+
+### Zima Dental: authority + gifting + "5 minute cycle" copy
+- Hooks unchanged: "Trusted by 20,000+ Dentists." (33d), "As recommended by 11,000+ Dentists" (24d), "Rated 5 stars by customers worldwide" (11d, "Soaking your aligners in a cup isn't cutting it"), "Stocked by 3500+ Dental Offices", "1M+ Happy Customers. Award-winning."
+- **New statics:** "The gift he'll actually use every night" (gifting, pastel pods with bows, Trustpilot-style "Excellent" bar), the notification static ("My daughter lovesss this! Get both and save 10%"), a **callout photo that now says "42,000 Hz Ultrasound / 5 Minute Cycle / Removes buildup and lifts stains / Approved by dentists"** (they copy our cycle length and Hz), "Yes, the Dental Pod is back" patterns in 3 languages, "$60 value on us", "Save 10% with the Starter Bundle", "only 1,000 pods left!", a French half-yellow denture ("Pour des gouttières propres").
+- **Pod Go** (cordless, "3-minute cleaning cycle", free carry case) is live in image and video; the 360 Bundle (ultrasonic + dual UV) and an incoming-call static ("A retainer that's clean AND protected is calling").
+- Videos: dentist UGC (retainer cleaning hack from Dental School), "I almost gave up on my retainer..." tablets + brushing never worked.
+- Offer: free shipping + free returns, "Save 10%" bundles, scarcity ("limited stock"). Smaller than our 40% + 2 gifts.
+
+### Answers written this run (rival field set on the concept; 5 of 20 = 25%)
+| Their angle | Our answer (approved claims only) | Concept |
+|---|---|---|
+| Sonic dark ticker "Up to 40% OFF" | "40% OFF everything. Not up to." + free case/bag + yellow night guard proof | T45_11 |
+| Sonic water tile "Up to 40% OFF" | same flat-40% answer on aligners, with a cloudy aligner | T45_16 |
+| Zima notification (word-of-mouth text) | spouse text about dentures "white again" (customer-quote based) | T45_07 |
+| Zima gift tile | "The gift Mom will actually use every night" (denture caregiver) | T45_08 |
+| Zima callout photo (42,000 Hz, 5 min) | same callouts + tap water only + lab test #1 of 7 + "lifts the white film" | T45_17 |
+Guardrails kept: no logos or names on images; no claims that their products fail; no counts.
