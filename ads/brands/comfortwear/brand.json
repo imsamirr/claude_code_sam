@@ -949,6 +949,78 @@
     "bf_theme_brand": {
       "file": "reference/benchmarks/bf_theme_brand.jpg",
       "use_for": "OUR Black Friday theme (user 2026-10-31): white + red with a little gold; red offer box with white '60% OFF SITEWIDE', red '+' pills for supporting lines, gold accents. Use light backgrounds for our ads."
+    },
+    "rv45_cheat_code": {
+      "file": "reference/benchmarks/rv45_ref_cheat_code.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (OrthoFlexx wellness growth_rank 1, 11d, growth_7d +294): OrthoFlexx \"Your 12-hour shift cheat code\": giant black heavy headline, product pair centre, 4 curved hand-drawn arrows with short labels, clean white"
+    },
+    "rv45_clipboard": {
+      "file": "reference/benchmarks/rv45_ref_clipboard.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (4Patriots wellness growth_rank 2, 10d, growth_7d +235): 4Patriots \"What 2,240 watt-hours actually runs\": clipboard on a surface, bold ruled list rows, product below, red handwritten line at bottom"
+    },
+    "rv45_receipt": {
+      "file": "reference/benchmarks/rv45_ref_receipt.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (TheraPexa wellness growth_rank 18, 18d, growth_7d +73): TheraPexa \"What you've spent on your shoulders so far\": paper receipt with struck-through items and a circled total, product at the bottom right, red offer line"
+    },
+    "rv45_arrow_box": {
+      "file": "reference/benchmarks/rv45_ref_arrow_box.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (BRUNT Workwear wellness growth_rank 5, 21d, growth_7d +158): BRUNT \"The 90 degree advantage\": extreme close-up photo, one huge black hand-drawn arrow, red boxed italic label"
+    },
+    "rv45_plantar_q": {
+      "file": "reference/benchmarks/rv45_ref_plantar_q.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (OrthoFlexx wellness growth_rank 8, 11d, growth_7d +145): OrthoFlexx \"Plantar fasciitis? No more dreading the first steps\": all-caps heavy black question headline on top, product floating centre"
+    },
+    "rv45_warning_stamp": {
+      "file": "reference/benchmarks/rv45_ref_warning_stamp.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (FEM+ Nutrition wellness growth_rank 23, 14d, growth_7d +63): FEM+ \"WARNING\" red stamp headline, bold bullet list, three small inset body photos with red glow, red button bar"
+    },
+    "rv45_night_row": {
+      "file": "reference/benchmarks/rv45_ref_night_row.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (Konjoun Barefoot wellness growth_rank 16, 13d, growth_7d +78): Konjoun \"Which one keeps you up at night?\": row of five illustrated feet each with a symptom caption, big serif question, product bottom, orange bar"
+    },
+    "rv45_stacked_words": {
+      "file": "reference/benchmarks/rv45_ref_stacked_words.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (Down To Ground wellness growth_rank 3, 41d, growth_7d +192): Down To Ground (41d, growth +192): four stacked small all-caps symptom words, soft lifestyle photo below, trust line"
+    },
+    "rv45_soft_calm": {
+      "file": "reference/benchmarks/rv45_ref_soft_calm.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (Inner Dose wellness growth_rank 13, 17d, growth_7d +102): Inner Dose: soft sage-green field, two-line calm headline top, product centre, bottom strip with offer and code"
+    },
+    "rv45_four_tabs": {
+      "file": "reference/benchmarks/rv45_ref_four_tabs.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (Peak Footwear wellness growth_rank 14, 15d, growth_7d +96): Peak Footwear: four navy feature tabs across the top, product in a scenic photo, bold headline"
+    },
+    "rv45_slip_quote": {
+      "file": "reference/benchmarks/rv45_ref_slip_quote.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (HIKE Footwear wellness growth_rank 12, 13d, growth_7d +103): Hike \"Slip these on and feel your feet come back to life\": warm cream field, handwritten-style quote on top, single shoe, small caption bottom"
+    },
+    "rv45_heavier_gradient": {
+      "file": "reference/benchmarks/rv45_ref_heavier_gradient.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (Hike Footwear 'Heavier body. Happier feet.' active 0d): Hike: saturated gradient field, small pill on top, two-line all-caps headline, one shoe floating, small footer pills"
+    },
+    "rv45_gift_mom": {
+      "file": "reference/benchmarks/rv45_ref_gift_mom.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (Hike Footwear 'Our biggest sale for Mom' active 2d): Hike \"Our biggest sale for Mom\": pink flower background, white pair held up, white boxed headline, red round badge"
+    },
+    "rv45_ugc_caption": {
+      "file": "reference/benchmarks/rv45_ref_ugc_caption.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (Hike Footwear '@hike FINALLY put them on sale' UGC caption, active 0d): Hike UGC: legs-and-shoes phone photo from above, white caption text box with red offer pill, strip of colour thumbnails at the bottom"
+    },
+    "rv45_giant_pct": {
+      "file": "reference/benchmarks/rv45_ref_giant_pct.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (Hike Footwear giant '50% OFF' + pill, active 0d): Hike: purple pill on top, giant heavy percent numerals, one shoe floating, three check-mark features, bottom bar"
+    },
+    "rv45_fake_warning": {
+      "file": "reference/benchmarks/rv45_ref_fake_warning.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 run (Stepprs 'Stop! Don't get faked' active 21d): yellow/black warning-tape top, big WARNING, struck-through retailer names list, product at right, red starburst offer"
+    },
+    "rv45_quote_legs_insets": {
+      "file": "reference/benchmarks/rv45_ref_quote_legs_insets.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 (Hike \"My Mom's Falls Stopped After Wearing These\" active 6d): tilted quote headline on top, legs-and-shoes photo, row of four small square inset feature photos at the bottom"
+    },
+    "rv45_repeat_stack": {
+      "file": "reference/benchmarks/rv45_ref_repeat_stack.jpg",
+      "use_for": "LAYOUT ref 2026-11-03 (Apnee wellness list): same bold headline repeated on 6 lines, fading/overlapped by the product in the centre, small footer"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",

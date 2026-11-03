@@ -29,3 +29,19 @@ User rule 2026-10-30: our biggest competitors, very direct-response copy. Refres
 4. Challenge close: "You've seen the ads. The only question is whether you want to keep limping to your car after every 12."
 5. Specific numbers: hours, steps, days on trips, pairs bought; age in testimonials ("– Linda, 61") only from real reviews.
 6. Stacked offer line, ours exactly: "40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE".
+
+## 2026-11-03 (Tuesday run: 256 ads; Hike 96 / 77 active, Stepprs 160 / 142 active; 85 ads new since 10-30, 88 gone)
+
+### What changed since 2026-10-30
+- **Hike Footwear** went fully into fear/claims mode and scarcity: "Biggest sale of the year. Last 200 pairs. Ends midnight. Prevents falls and slips. Relieves knee pain and swelling. Restores natural balance" (3 static copies, 5d), "Last Chance. 40% Off. Sale ends at midnight" (HF Stride), "Over 14 million adults fall every year" / "Prevent Falls With Better Balance" (6d), "The Best Gift For Mom", "Free Shipping All Orders" (seniors, grip, 'confidence in every step'). Plus-size push is now 3 ads ("Unbeatable comfort for heavier women", "Built to carry extra weight comfortably"). New product: ROOTSIE grounding shoe ("copper grounding plug", electrical-charge claims; we cannot match). New video line "Best Walking Shoe 2026!" (HF Stride, 3 copies, 26-29d). Longest active video still "Strengthen Your Feet Naturally" (82d). Winter boot "Cozely" gift video.
+- **Stepprs** flipped to Black Friday: "Black Friday is here - our biggest one yet. Save up to 75%... Stock is limited!" on ~10 new videos plus statics (0d). Evergreen untouched: "Walk on Clouds - Or It's FREE" plantar fasciitis testimonial (410d, 8+ copies), "Your Feet Deserve Better! ... Avoid Counterfeits" (410d). New 12-hour-shift testimonials ("Gary: 12 hour shifts 4 days on 4 days off, feet feel 10 times better" 7d; "Terry: processing plant 12hrs" 20d) with "Finish a 12hr shift with zero pain".
+
+### Hooks, offers, proof (current)
+- Hooks: risk reversal as title ("Walk on Clouds - Or It's FREE"), named enemy (stiff narrow shoes, thick cushioning blocks feedback), identity call-out ("heavier women", "seniors", "12 hour shifts 4 days on"), scarcity ("Last 200 pairs", "Ends midnight", "Stock is limited").
+- Offers: Hike up to 50-70% off + free shipping + 30-day guarantee; Stepprs up to 60-75% + free gift + guarantee.
+- Proof: first-name + "Verified Customer" quotes with job and hours; "Dr. Thomas"; "25,000+ / 4 million+ happy"; "Google rated 4.8".
+- Claims we do NOT copy: prevents falls, relieves knee pain/swelling, restores balance, zero pain, instant relief, doctor recommended, grounding, 90-day guarantee.
+- Videos: Atria transcription not re-run this run (the 82d Hike video and Stepprs 461d testimonials are unchanged from 10-30; copy fully visible above).
+
+### Our answers in the 2026-W45 Tuesday batch (>=20%)
+Plus-size "heavier women" answered with wide stable base + cushion (our approved features only); fall-fear answered with "grip" (slip-resistant outsole) without any fall-prevention claim; "Walk on Clouds or it's FREE" answered with our 30-day money-back guarantee line; Stepprs 12-hr shift testimonial structure answered with job + hours + tried-insoles-first quote; scarcity answered with real offer terms only (no "last 200 pairs").
