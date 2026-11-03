@@ -374,3 +374,28 @@ What is rising right now in footwear/foot pain (and why it beats our plain layou
 | Shoes fanned in a circle, "Stabbing heel pain? There's a fix" | Bright Footwear | product burst + question headline |
 | Candid nurse at the nurses' station | Kirsty Phillips advertorial | real scene, no text |
 Takeaway: winners pair a NAMED audience or a sharp insult/negation with visible proof (lines, before/after, timeline) and real-life photography; plain "shoe + labels" layouts are not in the rising set.
+
+## 2026-11-03 (Tuesday iteration run): formats found this run
+
+Atria status: OK (current pull needed one retry). Wellness pull: 2,003 rising ads, 170 kept after filters, ranked by 7-day growth. Rows skipped in the top 57, with reasons: ranks 2/11 (4Patriots power station: borrowed only the clipboard list FORMAT, #2), 3 (Down To Ground: used, #3), 4/7 Evolv + 10 Everstride (Buy 3 Get 5 / BOGO offers we do not run), 6/9 NeuroMD, 13/20 Inner Dose (supplement/cream claims; only #13 layout borrowed), 15 Peak Footwear 1+1 (BOGO), 19 Dr. Squatch (free bag = Black Friday only), 21+ lymphatic/supplements (off-niche claims). Rank 58 (Apnée) used for the repeated-headline stack because ranks 24-57 are other categories with no transferable layout.
+
+| Format (slug) | Brand, category, days running | Growth | Why it works | Our version (concept) |
+|---|---|---|---|---|
+| shift_cheat_code_arrows | OrthoFlexx insoles, 11d | rank 1, +294 | Huge two-line headline + product pair + 4 curved arrow labels, zero clutter | T45_01 nurse PF |
+| clipboard_ruled_list_total | 4Patriots, 10d (33d twin) | rank 2, +235 | Looks like a real document; list "what X actually runs" makes the claim concrete | T45_02 nurse "what 3 12s add up to" |
+| stacked_symptom_words_over_photo | Down To Ground, 41d | rank 3, +192 | Four short symptom words = instant self-recognition, long-runner | T45_16 nurse knee/back |
+| closeup_arrow_red_label_box | BRUNT Workwear, 21d | rank 5, +158 | Extreme close-up + one huge arrow + boxed label | T45_04 bunions |
+| bold_condition_question_floating_shoe | OrthoFlexx, 11d | rank 8, +145 | Condition as a question in giant type | T45_05 PF first steps |
+| slip_on_quote_cream_hero | Hike, 13d | rank 12, +103 | One quote line + one shoe | T45_10 hands-free |
+| soft_sage_pedestal_two_line_calm | Inner Dose, 17d | rank 13, +102 | Calm field, two-line pain headline | T45_19 ball-of-foot |
+| four_tab_header_shoe_scene | Peak Footwear, 15d | rank 14, +96 | Four feature tabs, product in a scene | T45_17 wide feet |
+| symptom_row_which_keeps_you_up | Konjoun, 13d | rank 16, +78 | Row of symptoms, "which one" question | T45_07 night pain (gap) |
+| receipt_struck_spent_list | TheraPexa, 18d | rank 18, +73 | Receipt of everything tried, struck through, ending on the winner | T45_03 |
+| warning_stamp_symptom_insets | FEM+, 14d | rank 23, +63 | Warning stamp + symptom insets | T45_06 swelling |
+| repeated_headline_stack_fade | Apnée, 10d | rank 58, +21 | Repetition = rhythm, stops scroll | T45_18 |
+| Hike/Stepprs statics (rivals, see core_competitors.md) | gradient two-line, UGC caption + thumbs, giant % numerals, gift-for-mom pink flowers, quote tilted + 4 insets, warning tape + struck sites, testimonial + checks | active 0-410d | - | T45_08, 09, 14, 12, 20, 11, 13 |
+
+Shared patterns: winners and inspiration both use (1) a named condition or situation as the first words, (2) one big focal product, (3) at most 4 short labels, (4) a document-like or native device (clipboard, receipt, stamp, tabs). Our winners add the job + hours ("3 12s in a row") and a first-person quote; inspiration adds high-contrast color fields and one struck-through or circled element.
+
+### Own copy that works (SKILL 1b, this run)
+Patterns from winning_statics.csv / current_winners.csv: "12-hour shift" + audience in the headline ($857k, $457k statics), checklist rows of approved features, "$ strike-through 40% OFF TODAY + FREE Shipping" (RTGv1_H3 2.86 ROAS), "48 HOURS LEFT - 40% OFF" urgency (4.19 ROAS), Emily RN first-person script (3.07), Plus-Sized Traveling (4.02/5.65). Every headline above traces to one of these or a customer phrase (feedback sheet: "3 12s", "limping to my car", "room for my bunions", "burning pain in the palm of my foot", "pain in feet and knees after standing for 12 hours", "my feet swell").
