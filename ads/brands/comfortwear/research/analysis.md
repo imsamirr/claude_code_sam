@@ -399,3 +399,31 @@ Shared patterns: winners and inspiration both use (1) a named condition or situa
 
 ### Own copy that works (SKILL 1b, this run)
 Patterns from winning_statics.csv / current_winners.csv: "12-hour shift" + audience in the headline ($857k, $457k statics), checklist rows of approved features, "$ strike-through 40% OFF TODAY + FREE Shipping" (RTGv1_H3 2.86 ROAS), "48 HOURS LEFT - 40% OFF" urgency (4.19 ROAS), Emily RN first-person script (3.07), Plus-Sized Traveling (4.02/5.65). Every headline above traces to one of these or a customer phrase (feedback sheet: "3 12s", "limping to my car", "room for my bunions", "burning pain in the palm of my foot", "pain in feet and knees after standing for 12 hours", "my feet swell").
+
+## 14. Formats found 2026-11-06 (Friday run, Black Friday week batch 2026-W46-fri)
+
+Sources: `atria_pull.py wellness` (151 rows, ranked by 7-day impression growth), `rivals` (Hike, Stepprs), `rivals --wide`. Our account pulls: `current` (14 ads), `rising`, `seasonal 2026-W46` ran; the `winners` and `losers` pulls failed (Atria retries) so winning_statics.csv from earlier runs was used. Notion refresh (winning_briefs.md) not possible: no Notion connector in this session; used research/data/notion_angles.md and video_transcripts.md.
+
+| growth rank | Brand (days) | Format | Why it works | Our version |
+|---|---|---|---|---|
+| 1 Cellumove, 4 BioRoot, 11 BioRoot | before/after body photos | skipped: needs result claims | | |
+| 2 Hike (12d) | split "40 years of thick foam" | skipped: already in ledger (cause_split_red_circle) | | |
+| 3 Zanskar (10d) | numbered circle callouts on plinth | clear mechanism at a glance | W46_06 |
+| 5 Evolv (13d) | "Oops, we stacked too many" overstock | reason-why story | W46_23 (needs_confirmation) |
+| 6 ReliveX (10d) | "I never thought I'd fall for a ... ad" + 3 icon rows | skeptic-converted | W46_07 |
+| 7 Zanskar (10d) | red buy-N pill + chips + CTA bar | offer clarity | W46_38 |
+| 8 Feel (16d) | BREAKING NEWS + highlighter | news authority | W46_04 |
+| 9 OrthoFlexx (11d) | PF question headline | skipped: ledger (rv45_plantar_q) | | |
+| 10 OrthoFlexx (11d) | review card over street photo | proof + context | W46_05 |
+| 12 Peak (18d) | 4-tab header | skipped: ledger | | |
+| 13 Evolv (17d) | "Black Friday coming soon" VIP list | skipped: needs a list we do not have | | |
+| 14/15 Sorviq (23-24d) | suitcase scene + tag banner; Buy 2 Get 2 Free marker | gifts offer in a scene | W46_16, W46_10 |
+| 16 The Vibit (22d) | symptom questions answered by product name | agitate in her words | W46_01 |
+| 17-19 NeuroMD, Lymphatic | illustration / Spanish | skipped: cartoon not worth borrowing, Spanish paused | | |
+| 20 Peak (30d) | golden ticket banner | gold fits our BF theme | W46_15 |
+| 23 Pure Frequencies (11d) | "For people who walk like this before 8 AM" | morning PF, relatable | W46_02 |
+| 24 Earthing Harmony | grounding claims | skipped: claim risk | | |
+
+Rival statics borrowed (Hike/Stepprs priority): Stepprs early-BF banner (W46_03), 5-pairs repeated word (W46_10), Hike honest letter (W46_09), Hike gift for mom (W46_21).
+Shared patterns: our winners (Emily RN $4.1k 3.10, TOFV1_KW1 3.71, Warning-Warehouse 4.36, 40% OFF TODAY + FREE Shipping 2.85) use job + hours + what she tried + one offer line; the inspiration ads add a named kicker, repeated structure and a single big offer block.
+Seasonal (2025 BF week) top spenders had ROAS below 0.2 (tracking break); used for themes only: "Podiatrist recommended" video (claim, not used), "10 Reasons Healthcare Workers" statics (nurse list format).

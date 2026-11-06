@@ -45,3 +45,17 @@ User rule 2026-10-30: our biggest competitors, very direct-response copy. Refres
 
 ### Our answers in the 2026-W45 Tuesday batch (>=20%)
 Plus-size "heavier women" answered with wide stable base + cushion (our approved features only); fall-fear answered with "grip" (slip-resistant outsole) without any fall-prevention claim; "Walk on Clouds or it's FREE" answered with our 30-day money-back guarantee line; Stepprs 12-hr shift testimonial structure answered with job + hours + tried-insoles-first quote; scarcity answered with real offer terms only (no "last 200 pairs").
+
+## 2026-11-06 (Friday run: 266 ads; Hike 98 / 77 active images+videos, Stepprs 168; 141 new since 11-03, 131 gone)
+
+### What changed since 2026-11-03
+- **Stepprs went all-in on early Black Friday:** "SOME IDIOT STARTED BLACK FRIDAY EARLY / Stand all day without foot pain / Get 5 for 75% off" (red banner over bare feet on a warehouse floor, 3d), "EARLY BLACK FRIDAY OFFER" with sticky note "Get 5 for 75% off" (2d), sticky-note BF sale insole (3d), meme statics ("I'll skip the 75% off deal"), 5-pairs-for-price-of-2 on repeated outlined word backgrounds (31d, still running). Evergreen "Walk on Clouds - Or It's FREE" testimonial still 413-464d (many copies): Michelle PF + 10-hour shifts + "first time in years".
+- **Hike Footwear:** "Half-price comfort / Fall season sale / Last chance, ends midnight / Last 200 pairs / Our biggest sale of the year", "Comfort for heavier women", "Foot pain relief PROGRAM" 30-day timeline, "36% OFF selling out", gift-for-mom ("Worried about mom slipping this winter? Get her these."), the long honest letter "These aren't exactly stylish", barefoot "Strengthen your feet naturally" video 85d, "Best Walking Shoe 2026!" 39d.
+- Hooks: risk reversal as title, named enemy (thick foam, stiff narrow shoes), identity call-out (heavier women, nurses/12-hr shifts 4-on-4-off), scarcity (200 pairs, midnight, 48 hours).
+- Offers: Stepprs 5 for price of 2 / up to 75% + guarantee 90d; Hike up to 50% + 30-day guarantee + free shipping.
+- Proof: first-name + "Verified Customer", "Dr. Thomas", "25,000+ / 100,000+ happy customers", Google 4.8, "5.5 million pairs sold".
+- Claims we do NOT copy: prevents falls, relieves knee pain/swelling, restores balance, instant relief, "pain gone", doctor/podiatrist recommended, grounding, 75% off, 90-day guarantee.
+- Videos: no new Atria transcription this run (Hike 85d and Stepprs 464d testimonials unchanged since 10-30; full copy read above).
+
+### Our answers in the 2026-W46 Friday batch (>= 20%)
+W46_01 (Stepprs morning-PF testimonial hook), W46_03 (Stepprs early-BF stand-all-day banner), W46_09 (Hike honest letter, style), W46_10 (Stepprs 5-pairs repeated word, our Buy 2 get 2 free gifts), W46_20 and W46_37 (Hike/Armadilo hands-free entry), W46_21 (Hike gift for mom), W46_25 (Hike heavier women), W46_36 (Stepprs "or it's FREE" -> our 30-day money-back guarantee). All with OUR approved claims and the BF offers only.
