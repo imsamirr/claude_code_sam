@@ -1006,5 +1006,285 @@
   "first_id": "T45_20_nurse_wet_floors_grip",
   "format_source": "Hike 'My Mom's Falls Stopped...' active 6d; fall-fear cluster 198 competitor ads",
   "date": "2026-11-03"
+ },
+ {
+  "format_name": "question_answer_repeat_list",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_01_heel_first_step_repeat",
+  "format_source": "The Vibit (heel/foot roller, growth_rank 16, +79, 22d) + Stepprs morning PF angle (458d)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "for_people_who_walk_like_this_scene",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_02_nurse_before_7am",
+  "format_source": "Pure Frequencies (growth_rank 23, +36, 11d)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "red_banner_big_white_text_floor_photo",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_03_stand_12_early_bf",
+  "format_source": "Stepprs \"Some idiot started Black Friday early\" (3d, top rival)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "breaking_news_highlighter_headline",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_04_breaking_news_running_shoes",
+  "format_source": "Feel (growth_rank 8, +149, 16d)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "review_card_over_street_photo",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_05_game_changer_12s_card",
+  "format_source": "OrthoFlexx (growth_rank 10, +144, 11d)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "numbered_callout_circles_product_plinth",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_06_five_things_in_every_pair",
+  "format_source": "Zanskar (growth_rank 3, +187, 10d)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "never_thought_id_fall_for_ad_icon_rows",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_07_never_thought_shoe_ad",
+  "format_source": "ReliveX (growth_rank 6, +154, 10d)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "shift_calendar_grid",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_08_four_12s_in_a_row_calendar",
+  "format_source": "Stepprs Gary \"12 hour shifts, 4 on 4 off\" (7d) + Emily RN",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "honest_long_letter_ad",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_09_not_orthopedic_looking_letter",
+  "format_source": "Hike Footwear \"These aren't exactly stylish\" letter (active) ",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "repeated_outline_word_background_buy_get",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_10_two_pairs_two_gifts_repeat",
+  "format_source": "Stepprs \"5 PAIRS FOR THE PRICE OF 2\" (31d)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "low_battery_body_part_icons",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_11_hour_11_battery",
+  "format_source": "own idea (phone battery UI) after Vibit symptom list",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "whats_in_my_bag_flatlay_list",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_12_whats_in_my_12s_bag",
+  "format_source": "own idea, flatlay after Sorviq suitcase scene (growth_rank 14)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "imessage_coworker_thread",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_13_coworker_text_what_shoes",
+  "format_source": "Stepprs testimonial structure + native iMessage UI",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "pain_scale_faces_chart",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_14_pain_scale_hour_12",
+  "format_source": "own idea (hospital 0-10 pain scale) for plus-size nurse",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "golden_ticket_banner",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_15_golden_ticket_20k_steps",
+  "format_source": "Peak Footwear golden ticket (growth_rank 20, +45, 30d)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "open_suitcase_hanging_tag_banner",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_16_open_suitcase_tag",
+  "format_source": "Sorviq suitcase scene (growth_rank 14, +96, 23d)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "boarding_pass_card",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_17_now_boarding_20k_steps",
+  "format_source": "own idea; Kyro 99 Barcelona video",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "handwritten_postcard_back",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_18_postcard_from_rome",
+  "format_source": "own idea; Europe angle",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "theme_park_wait_time_sign",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_19_wait_time_sign_hour_8",
+  "format_source": "own idea; TOFV1_KW1 winner copy \"hour 8 can be a very different story\"",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "airport_security_tray_photo",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_20_security_tray_slip_on",
+  "format_source": "Hike / Armadilo hands-free step-in angle (angle_rivals 2026-11-06)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "doorstep_box_gift_tag",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_21_doorstep_gift_for_mom",
+  "format_source": "Hike \"Worried about mom... get her these\" (2d)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "hotel_bedside_day_counter_photo",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_22_hotel_day_3_heels",
+  "format_source": "own idea; Stepprs morning PF angle",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "oops_overstock_reveal_banner",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_23_oops_too_many_bags",
+  "format_source": "Evolv \"Oops, we stacked too many\" (growth_rank 5, +161, 13d)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "pinned_world_map_cities",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_24_one_shoe_six_cities",
+  "format_source": "own idea; Europe/Disney travel winners",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "gold_laurel_award_headline",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_25_plus_size_travel_laurel",
+  "format_source": "Hike heavier-women ads (active, 3 new) + our TOFV1_KW1 winner",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "marked_paper_park_map",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_26_hour_8_park_map",
+  "format_source": "TOFV1_NH3 Disney overweight park day (1.96 ROAS)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "incoming_call_from_my_feet",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_27_my_feet_calling",
+  "format_source": "own idea; customer voice \"my feet hurt so bad I can barely walk\"",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "two_women_bench_photo_two_pairs",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_28_two_pairs_for_sister",
+  "format_source": "Stepprs 5-pairs (31d)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "hand_stretching_knit_closeup",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_29_stretch_knit_room",
+  "format_source": "own idea; wide-feet test slot (rising 4.4%)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "map_pin_on_foot_photo",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_30_ball_of_foot_pin",
+  "format_source": "own idea; Morton's neuroma test (feedback 1.7%)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "wet_footprint_tile",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_31_wet_footprint_test",
+  "format_source": "own idea; flat feet test (feedback 2.3%)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "sock_line_macro_question",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_32_sock_line_3pm",
+  "format_source": "Viasox/Glov swelling angle; our TOFV1_KW1 copy",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "medicine_cabinet_tried_everything",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_33_shelf_of_things_i_tried",
+  "format_source": "Stepprs \"tried so many insoles\"; feedback enemy list",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "sidewalk_chalkboard_sign",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_34_sidewalk_chalkboard_special",
+  "format_source": "own idea; feedback \"no pain just comfort\" 31.7%",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "foot_outline_vs_shoe_outline",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_35_trace_your_foot",
+  "format_source": "Hike \"your feet were not designed for narrow shoes\" angle",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "punch_card_30_day",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_36_punch_card_30_days",
+  "format_source": "Stepprs \"Walk on clouds or it is FREE\" (413d) answered with 30-day guarantee",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "knotted_laces_vs_pull_tab_split",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_37_pull_tab_no_bending",
+  "format_source": "Hike Stride \"hands-off entry\" (active)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "buy_n_red_pill_check_chips_cta_bar",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_38_buy_two_cta_bar",
+  "format_source": "Zanskar buy-3 (growth_rank 7, +149, 10d)",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "work_schedule_printout_circled",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_39_black_friday_on_concrete",
+  "format_source": "Stepprs concrete/12-hour shift ads",
+  "date": "2026-11-06"
+ },
+ {
+  "format_name": "hotel_key_card_sleeve_note",
+  "folder": "2026-W46-fri",
+  "first_id": "W46_40_sixteen_rooms_key_card",
+  "format_source": "Survey housekeeping PF 35% (grow persona)",
+  "date": "2026-11-06"
  }
 ]

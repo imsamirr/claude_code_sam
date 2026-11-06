@@ -1021,6 +1021,62 @@
     "rv45_repeat_stack": {
       "file": "reference/benchmarks/rv45_ref_repeat_stack.jpg",
       "use_for": "LAYOUT ref 2026-11-03 (Apnee wellness list): same bold headline repeated on 6 lines, fading/overlapped by the product in the centre, small footer"
+    },
+    "rv46_key_ingredients": {
+      "file": "reference/benchmarks/rv46_key_ingredients.jpg",
+      "use_for": "LAYOUT ref 2026-11-06 run: WELLNESS growth #3 Zanskar 10d: numbered key-ingredient circle callouts around product on plinth"
+    },
+    "rv46_never_thought": {
+      "file": "reference/benchmarks/rv46_never_thought.jpg",
+      "use_for": "LAYOUT ref 2026-11-06 run: WELLNESS growth #6 ReliveX 10d: \"I never thought I'd fall for...\" headline + three icon rows beside product"
+    },
+    "rv46_buy3_cta": {
+      "file": "reference/benchmarks/rv46_buy3_cta.jpg",
+      "use_for": "LAYOUT ref 2026-11-06 run: WELLNESS growth #7 Zanskar 10d: red buy-N pill, row of product boxes, four check chips, red CTA bar"
+    },
+    "rv46_breaking_news": {
+      "file": "reference/benchmarks/rv46_breaking_news.jpg",
+      "use_for": "LAYOUT ref 2026-11-06 run: WELLNESS growth #8 Feel 16d: BREAKING NEWS kicker, highlighter-marked headline, starburst"
+    },
+    "rv46_game_changer_card": {
+      "file": "reference/benchmarks/rv46_game_changer_card.jpg",
+      "use_for": "LAYOUT ref 2026-11-06 run: WELLNESS growth #10 OrthoFlexx 11d: white quote card over street walking photo, three icons below"
+    },
+    "rv46_suitcase_tag": {
+      "file": "reference/benchmarks/rv46_suitcase_tag.jpg",
+      "use_for": "LAYOUT ref 2026-11-06 run: WELLNESS growth #14 Sorviq 23d: open suitcase scene with big hanging-tag banner"
+    },
+    "rv46_question_repeat": {
+      "file": "reference/benchmarks/rv46_question_repeat.jpg",
+      "use_for": "LAYOUT ref 2026-11-06 run: WELLNESS growth #16 The Vibit 22d: list of symptom questions each answered with the product name"
+    },
+    "rv46_golden_ticket": {
+      "file": "reference/benchmarks/rv46_golden_ticket.jpg",
+      "use_for": "LAYOUT ref 2026-11-06 run: WELLNESS growth #20 Peak Footwear 30d: gold ticket banner over a shoe"
+    },
+    "rv46_before_8am": {
+      "file": "reference/benchmarks/rv46_before_8am.jpg",
+      "use_for": "LAYOUT ref 2026-11-06 run: WELLNESS growth #23 Pure Frequencies 11d: \"For people who walk like this before 8 AM\" over lifestyle scene"
+    },
+    "rv46_oops_stack": {
+      "file": "reference/benchmarks/rv46_oops_stack.jpg",
+      "use_for": "LAYOUT ref 2026-11-06 run: WELLNESS growth #5 Evolv 13d: \"Oops, we stacked too many\" overstock reveal, red buy-get banner"
+    },
+    "rv46_hike_letter": {
+      "file": "reference/benchmarks/rv46_hike_letter.jpg",
+      "use_for": "LAYOUT ref 2026-11-06 run: RIVAL Hike Footwear: long honest-letter text ad \"These aren't exactly stylish\" with foot diagrams"
+    },
+    "rv46_hike_mom": {
+      "file": "reference/benchmarks/rv46_hike_mom.jpg",
+      "use_for": "LAYOUT ref 2026-11-06 run: RIVAL Hike Footwear 2d: \"Worried about mom slipping this winter? Get her these.\" gift-for-mom"
+    },
+    "rv46_stepprs_early_bf": {
+      "file": "reference/benchmarks/rv46_stepprs_early_bf.jpg",
+      "use_for": "LAYOUT ref 2026-11-06 run: RIVAL Stepprs 3d: red banner \"Some idiot started Black Friday early\" over bare feet on floor + product + big white text"
+    },
+    "rv46_stepprs_5pairs": {
+      "file": "reference/benchmarks/rv46_stepprs_5pairs.jpg",
+      "use_for": "LAYOUT ref 2026-11-06 run: RIVAL Stepprs 31d: giant \"5 PAIRS FOR THE PRICE OF 2\" over repeated outlined background word + product pair"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",

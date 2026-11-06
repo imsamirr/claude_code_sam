@@ -55,3 +55,19 @@ Change vs 2026-10-30 (keyword tags on title+body; ads / weight = ads x days runn
 | Posture, grounding, circulation | - | - | Hike (ROOTSIE grounding, new) | 0 | skip: claim risk / other product |
 
 Gap concepts in the batch: T45_07 night pain, T45_12 gift for mom, T45_11 counterfeit (needs_confirmation), T45_10 hands-free. Black Friday: Stepprs and Hike are already running 60-75% BF; our BF batches come with the Nov 6 / Nov 10 runs.
+
+## 2026-11-06: 2,161 ads from 17 brands (keyword tags, ads now (was 11-03); weight = ads x days running)
+
+| Angle | Ads now (was) | Weight | Pushing it | Ours | Verdict |
+|---|---|---|---|---|---|
+| Black Friday / Cyber Monday | 147 (71) | 349 | Stepprs 91, Konjoun 32, Footstr 16, Armadilo 6 | whole batch | Answered: all W46 ads carry our BF offer |
+| Gift for mom / holiday | 60 (32 on narrower tag) | 730 | Hike, Stepprs, Footstr | W46_21 | **GAP tested W46_21** |
+| Reason-why discount (overstock / "oops") | 47 (65) | 959 | Evolv (growth rank 5), Footstr, OrthoFit | 0 | **GAP W46_23, needs_confirmation** (true reason required) |
+| Hands-free / slip-on | 58 (63) | 745 | Armadilo, Hike Stride | few | tested W46_20, W46_37 |
+| Style / not orthopedic-looking | 115 (126) | 3,799 | OrthoFit, Hike letter | 18 | **GAP tested W46_09** |
+| Scarcity (last 200 pairs, ends midnight) | 35 (42) | 745 | Hike, Konjoun | 2 | ASK USER: no true stock/deadline fact; none used |
+| BOGO / buy N get N | 430 (414) | 12,558 | Stepprs 5-for-2, Evolv, Sorviq | gifts offer B | Our BF offer B (buy 2 pairs, 2 free gifts), no BOGO price math |
+| Anti-counterfeit | 12 (13) | 1,687 | Stepprs, Konjoun | 3 | skip: no true knockoff fact |
+| Morning first steps | 143 (134) | 14,501 | Stepprs, Konjoun | 18 | tested W46_01/02/22 |
+| Knee / hip / back | 651 (597) | 19,489 | Footstr, Konjoun, Stryde | 51 | W46_11 problem framing only |
+| Fall / balance, posture, grounding | 192 / - | 5,983 | Hike, Armadilo | 0 | skip: claim risk |
