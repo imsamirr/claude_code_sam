@@ -699,6 +699,166 @@
   "rv_t2_zima_callout_photo": {
    "file": "reference/benchmarks/rv_ref_t2_zima_callout_photo.jpg",
    "use_for": "LAYOUT reference only (top-down product photo with small callout labels and leader lines). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_ploise_real_people": {
+   "file": "reference/benchmarks/rv_ref_w46_ploise_real_people.jpg",
+   "use_for": "LAYOUT reference only (Ploise, insp pull 2026-11-06, 41d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_efferdent_fb_post": {
+   "file": "reference/benchmarks/rv_ref_w46_efferdent_fb_post.jpg",
+   "use_for": "LAYOUT reference only (Denture Care Tips, insp pull 2026-11-06, 33d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_zima_before_after_hands": {
+   "file": "reference/benchmarks/rv_ref_w46_zima_before_after_hands.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-11-06, 11d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_zima_fr_denture_arrow": {
+   "file": "reference/benchmarks/rv_ref_w46_zima_fr_denture_arrow.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-11-06, 0d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_zima_three_personas": {
+   "file": "reference/benchmarks/rv_ref_w46_zima_three_personas.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-11-06, 5d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_paper_towel_lofi": {
+   "file": "reference/benchmarks/rv_ref_w46_paper_towel_lofi.jpg",
+   "use_for": "LAYOUT reference only (Hair Growth Secrets, insp pull 2026-11-06, 7d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_raw_denture_macro": {
+   "file": "reference/benchmarks/rv_ref_w46_raw_denture_macro.jpg",
+   "use_for": "LAYOUT reference only (Anna Janeston, insp pull 2026-11-06, 7d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_walkfit_plan_poster": {
+   "file": "reference/benchmarks/rv_ref_w46_walkfit_plan_poster.jpg",
+   "use_for": "LAYOUT reference only (WalkFit, insp pull 2026-11-06, 10d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_webinar_two_scans": {
+   "file": "reference/benchmarks/rv_ref_w46_webinar_two_scans.jpg",
+   "use_for": "LAYOUT reference only (Dan Henry, insp pull 2026-11-06, 8d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_amish_hack_diagram": {
+   "file": "reference/benchmarks/rv_ref_w46_amish_hack_diagram.jpg",
+   "use_for": "LAYOUT reference only (The Amish Ways, insp pull 2026-11-06, 8d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_relesium_take_shot": {
+   "file": "reference/benchmarks/rv_ref_w46_relesium_take_shot.jpg",
+   "use_for": "LAYOUT reference only (Relesium, insp pull 2026-11-06, 24d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_salesape_notes_card": {
+   "file": "reference/benchmarks/rv_ref_w46_salesape_notes_card.jpg",
+   "use_for": "LAYOUT reference only (Salesape, insp pull 2026-11-06, 21d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_pawira_notes_badge": {
+   "file": "reference/benchmarks/rv_ref_w46_pawira_notes_badge.jpg",
+   "use_for": "LAYOUT reference only (Pawira, insp pull 2026-11-06, 25d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_ranked_article_card": {
+   "file": "reference/benchmarks/rv_ref_w46_ranked_article_card.jpg",
+   "use_for": "LAYOUT reference only (Health & Tech Reviews, insp pull 2026-11-06, 29d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_ledisa_callout_offer": {
+   "file": "reference/benchmarks/rv_ref_w46_ledisa_callout_offer.jpg",
+   "use_for": "LAYOUT reference only (Ledisa, insp pull 2026-11-06, 8d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_kinusaiga_price_tile": {
+   "file": "reference/benchmarks/rv_ref_w46_kinusaiga_price_tile.jpg",
+   "use_for": "LAYOUT reference only (Kinusaiga, insp pull 2026-11-06, 10d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_kineon_move_bar": {
+   "file": "reference/benchmarks/rv_ref_w46_kineon_move_bar.jpg",
+   "use_for": "LAYOUT reference only (KineonLabs, insp pull 2026-11-06, 7d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_dentalist_includes": {
+   "file": "reference/benchmarks/rv_ref_w46_dentalist_includes.jpg",
+   "use_for": "LAYOUT reference only (The Dentalist, insp pull 2026-11-06, 23d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_cleardose_plus_free": {
+   "file": "reference/benchmarks/rv_ref_w46_cleardose_plus_free.jpg",
+   "use_for": "LAYOUT reference only (ClearDose, insp pull 2026-11-06, 11d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_vitruvi_perfect_gift": {
+   "file": "reference/benchmarks/rv_ref_w46_vitruvi_perfect_gift.jpg",
+   "use_for": "LAYOUT reference only (VITRUVI, insp pull 2026-11-06, 7d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_sonic_marble_box": {
+   "file": "reference/benchmarks/rv_ref_w46_sonic_marble_box.jpg",
+   "use_for": "LAYOUT reference only (Sonic Dental, riv pull 2026-11-06, 5d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_sonic_purple_pill": {
+   "file": "reference/benchmarks/rv_ref_w46_sonic_purple_pill.jpg",
+   "use_for": "LAYOUT reference only (Sonic Dental, riv pull 2026-11-06, 0d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_sonic_spec_icons": {
+   "file": "reference/benchmarks/rv_ref_w46_sonic_spec_icons.jpg",
+   "use_for": "LAYOUT reference only (Sonic Dental, riv pull 2026-11-06, 0d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_zima_never_brush_grey": {
+   "file": "reference/benchmarks/rv_ref_w46_zima_never_brush_grey.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-11-06, 7d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_primal_weeks_arrows": {
+   "file": "reference/benchmarks/rv_ref_w46_primal_weeks_arrows.jpg",
+   "use_for": "LAYOUT reference only (Primal Edge, insp pull 2026-11-06, 10d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_seed_bullets_sink": {
+   "file": "reference/benchmarks/rv_ref_w46_seed_bullets_sink.jpg",
+   "use_for": "LAYOUT reference only (Seed, insp pull 2026-11-06, 8d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_detox_root_cause": {
+   "file": "reference/benchmarks/rv_ref_w46_detox_root_cause.jpg",
+   "use_for": "LAYOUT reference only (SinclairKennally, insp pull 2026-11-06, 19d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_smile_before_offer": {
+   "file": "reference/benchmarks/rv_ref_w46_smile_before_offer.jpg",
+   "use_for": "LAYOUT reference only (smileactives, insp pull 2026-11-06, 8d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_kin_quote_dark": {
+   "file": "reference/benchmarks/rv_ref_w46_kin_quote_dark.jpg",
+   "use_for": "LAYOUT reference only (KIN Super Supps, insp pull 2026-11-06, 8d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_serovital_quote_card": {
+   "file": "reference/benchmarks/rv_ref_w46_serovital_quote_card.jpg",
+   "use_for": "LAYOUT reference only (SeroVital, insp pull 2026-11-06, 7d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_zima_boots_podium": {
+   "file": "reference/benchmarks/rv_ref_w46_zima_boots_podium.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-11-06, 1d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_zima_fr_scatter": {
+   "file": "reference/benchmarks/rv_ref_w46_zima_fr_scatter.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-11-06, 1d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_zima_save10_black": {
+   "file": "reference/benchmarks/rv_ref_w46_zima_save10_black.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-11-06, 0d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_zima_1000_left": {
+   "file": "reference/benchmarks/rv_ref_w46_zima_1000_left.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-11-06, 0d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_zima_testimonial_card": {
+   "file": "reference/benchmarks/rv_ref_w46_zima_testimonial_card.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-11-06, 0d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_sonic_reviews_tile": {
+   "file": "reference/benchmarks/rv_ref_w46_sonic_reviews_tile.jpg",
+   "use_for": "LAYOUT reference only (Sonic Dental, riv pull 2026-11-06, 5d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_sonic_tablet_box_open": {
+   "file": "reference/benchmarks/rv_ref_w46_sonic_tablet_box_open.jpg",
+   "use_for": "LAYOUT reference only (Sonic Dental, riv pull 2026-11-06, 5d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_kineon_stop_masking": {
+   "file": "reference/benchmarks/rv_ref_w46_kineon_stop_masking.jpg",
+   "use_for": "LAYOUT reference only (KineonLabs, insp pull 2026-11-06, 7d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_oakcha_vs_boxes": {
+   "file": "reference/benchmarks/rv_ref_w46_oakcha_vs_boxes.jpg",
+   "use_for": "LAYOUT reference only (Oakcha, insp pull 2026-11-06, 23d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46_zima_ring_diagram": {
+   "file": "reference/benchmarks/rv_ref_w46_zima_ring_diagram.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-11-06, 0d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
   }
  },
  "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots)."

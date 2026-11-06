@@ -65,3 +65,33 @@ User supplied 5 Comfort Wear comparison ads (lineup + black band, "Comfort Guide
 | Zima gift tile | "The gift Mom will actually use every night" (denture caregiver) | T45_08 |
 | Zima callout photo (42,000 Hz, 5 min) | same callouts + tap water only + lab test #1 of 7 + "lifts the white film" | T45_17 |
 Guardrails kept: no logos or names on images; no claims that their products fail; no counts.
+
+## 2026-11-06 (Friday W46 read: 148 ads; Zima 97 = 51 video + 46 image; Sonic 51 = 50 image + 1 video; 142 active)
+**Since Nov 3:** 61 new ads (Zima 53, mostly dentist-UGC video; Sonic 8), 60 stopped (Zima 52). Sheets: `sheets/core_competitors_2026-11-06_1-2.jpg`; full copy of every active ad read from `data/core_competitors_2026-11-06.csv`.
+
+### Sonic Dental: still one Black Friday family, no proof
+- ~47 of 51 ads: "Black Friday: Up to 40% Off" in EN/FR/DE (rippled-water 3-pod tile, dark marble pod + tablet box "BLACK FRIDAY / UP TO 40% OFF", pod on black "LIMITED TIME SALE NOW LIVE / UP TO 30% OFF" pill, "SAVE UP TO 25%" spec-callout tile with five appliance icons, dentist-in-chair photo). Copy: "the easiest upgrade your smile will get all year. Treat yourself or tick off the gift list early. Limited time only."
+- Still "up to". New copy lines: "Say goodbye to bacteria and germs", "Say Goodbye to Grimy Retainers" (trusted by 500,000 customers, ultrasonic + UVC, "just add water"), "#1 Aligner Cleaner Worldwide" (1,000+ clinics, 250,000 sold, "3 minutes a day"), and the new cordless **Sonic Odyssey** ("clean aligners, retainers, dentures, mouthguards"; first time they name dentures). Their tablet box is still in the sale tiles.
+- Proof devices: none (no macro, no customer language). Counts are theirs; we cannot use counts.
+
+### Zima Dental: dentist authority, restock scarcity, UK/FR/DE rollouts
+- Hooks: "As recommended by 11,000+ Dentists" (27d, still the longest-running image), "Rated 5 stars by customers worldwide / Removes plaque, Lifts yellow stains, Destroys bad smells" (23d), "Trusted by 20,000+ Dentists" (18d + 5 new videos), "Double Award-Winner. 5* Reviews. HSA/FSA Eligible." (dentist UGC), "Stocked by 3500+ Dental Offices", FR "Recommandé par plus de 7000 dentistes", DE "Von über 8000 Zahnärzten empfohlen" (the count changes per language).
+- Statics now: "Yes, the Dental Pod is back / now portable" pattern tiles, "only 1,000 pods left! Shop now", "3x SOLD OUT. DENTAL POD IS BACK IN STOCK!" callout, "Save 10% with The Starter Bundle" black tile, "$60 value, on us" (Pro + free gift + free delivery), "The Clean Girl Starter Pack", "The gift he'll actually use every night" (Trustpilot Excellent bar), "The best way to keep Dad's dentures clean." (navy tile, the only denture static, 11d), "Never Brush Your Retainer Again" (3 formats: grey callout diagram, French, Trustpilot photo), "Now available in Boots!" with a Dental Industry Awards seal (new retail proof), "Ultrasonic + UV tech in one bundle" (360 Bundle).
+- Pod Go ("3-minute cleaning cycle, up to 2 weeks per charge, free carry case") is the new product push; videos: dentist hacks ("Stop brushing your retainers", "Stop rinsing retainers", "Look at the difference in these 2 retainer cleaning methods", "This is why cleaning tablets won't finish the job" which now attacks tablets, "Are your retainers now disgusting? Listen to this."). Offers: free shipping + free returns, Save 10%, scarcity. All smaller than 40% + free case + free travel bag.
+
+### Answers written this run (rival field set on 12 of 40 = 30%)
+| Their angle | Our answer (approved claims only) | Concept |
+|---|---|---|
+| Sonic "UP TO 40% OFF" dark marble tile + tablet box | "BLACK FRIDAY: 40% OFF. Not 'up to'." + free case/bag + yellow night guard | W46_21 |
+| Sonic purple "Limited time sale now live" + "Say goodbye to bacteria" (no proof) | petri dish of bacteria + 6-of-7 lab test | W46_22 |
+| Sonic "SAVE UP TO 25%" five-icon spec tile | one cleaner for four appliances, four approved specs | W46_23 |
+| Zima "Never brush your retainer again" grey overhead | night guard version with Clinicians' Choice seal + film proof | W46_24 |
+| Zima "Restore your retainer to new" before/after hands | dentures before/after hands + 5 minutes | W46_03 |
+| Zima FR half-yellow denture tile | yellow-to-white denture tile in English | W46_04 |
+| Zima three-persona columns | Soaker / Brusher / Ultrasonic columns | W46_05 |
+| Zima "Boots / award seal" retail tile | lab-test #1 of 7 + Clinicians' Choice seal (no retailer logos) | W46_31 |
+| Zima "Save 10% Starter Bundle" black tile | 40% OFF + free case + free bag, aligner | W46_33 |
+| Zima Pod Go "3-minute cycle" / "only 1,000 left" | "5 minutes. Because biofilm takes more than a rinse." (no scarcity claim) | W46_34 |
+| Sonic white "UP TO 40%" + reviews strip | "40% OFF. Not up to." + Rated 4.8/5 | W46_36 |
+| Sonic tablet box beside the pod / Zima "90 free tablets" | "No tablets in the box. Tap water only." | W46_37 |
+Guardrails kept: no logos or names on images, no claims that their products fail, no counts.
