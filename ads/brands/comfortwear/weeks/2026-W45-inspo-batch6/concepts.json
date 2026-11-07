@@ -1,0 +1,82 @@
+{
+  "week": "2026-W45-inspo-batch6",
+  "notes": "Standard statics from 5 user references (2026-10-29): nurse, plus-size and Disney angles. Medical/body outcome claims in the refs (chest fat eliminated, snoring eliminated, unclog legs, thermal circulation, doctor-recommended seals, 'last 24 hours') replaced with shift/park-day timelines and the standard 40% offer + 30-day guarantee. No $120 strike-through used while the 40%-vs-50% question is open.",
+  "concepts": [
+    {
+      "id": "X45_01_hour_1_6_12_nurse",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "three_stage",
+      "offer": "guarantee",
+      "angle": "Wear them for a 12-hour shift or your money back: hour 1 / hour 6 / hour 12 panels, same nurse, still standing",
+      "based_on": "User reference: 'PEITOS MASCULINOS ELIMINADOS / MAIO JUNHO JULHO' three-stage ad (body-change claim replaced by a shift timeline) + nurse 'by hour 6' language",
+      "headline": "12-HOUR SHIFT TESTED",
+      "prompt": "Light grey seamless background. Top: a solid black bar with heavy white all-caps \"12-HOUR SHIFT TESTED\", under it heavy black all-caps \"OR YOUR MONEY BACK\". Middle: three tall photo panels in a row of the same nurse in navy scrubs, shown from the knees down, standing on a hospital floor in the black-and-purple shoes from the product reference (sharp, correct, true proportions), each with a thin orange circle drawn around her shoes, and a heavy black all-caps label under each panel: \"HOUR 1\", \"HOUR 6\", \"HOUR 12\". In the first panel a wall clock reads 7:00, in the second 1:00, in the third 7:00 with a darker window. Bottom: a pair of the black-and-purple shoes from the product reference, large and sharp, beside a small white card with heavy black text \"30-day money-back guarantee\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "X45_02_feet_deserve_plus",
+      "persona": "plus_size",
+      "colorway": "all_black",
+      "benchmark": "deserves_bar",
+      "offer": "standard_40",
+      "angle": "Plus-size: your feet deserve a break; woman relaxing at home in the shoes, red/navy offer bar",
+      "based_on": "User reference: 'YOUR NECK DESERVES A MASSAGE' lifestyle + split offer bar",
+      "headline": "YOUR FEET DESERVE A BREAK",
+      "prompt": "A bright, real photo of a smiling clearly plus-size woman about 62, US size 22-24, with a full round body, soft rounded belly, wide hips filling the sofa seat, thick full thighs and calves relaxing on a light sofa in a sunny living room, legs stretched out on a footstool toward the camera, wearing the all-black shoes from the product reference, large and sharp at true proportions. Top center: a small navy outlined box with navy all-caps \"YOUR FEET\", then huge heavy navy all-caps two-line headline \"DESERVE A\" / \"BREAK\". Bottom: a full-width split bar; left part solid red with heavy white \"40% OFF\" and smaller white \"TODAY\"; right part solid navy with a small white truck icon and heavy white all-caps \"FREE SHIPPING\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [],
+      "revision": "v2: v1 model was only slightly full-figured"
+    },
+    {
+      "id": "X45_03_checklist_stand_all_day",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "benchmark": "checklist_gradient",
+      "offer": "standard_40",
+      "angle": "The comfiest way to stand all day: a stretch shoe with real arch support; six green checks",
+      "based_on": "User reference: German washable-duvet checklist ad + nurse winners' checklist format ($858k '12-hour shift' list)",
+      "headline": "The comfiest way to stand all day",
+      "prompt": "Soft peach-to-pink vertical gradient background. Top center: small dark navy text \"The comfiest way to stand all day:\", then a big dark navy serif headline on two lines with the italic words in italics: \"a *stretch* shoe with\" / \"*real* arch support...\". Left: a list of six rows, each a green check-circle icon and dark navy text: \"Made for 12-hour shifts\", \"Wide, roomy toe box\", \"Slip-resistant grip\", \"Stretch knit that gives\", \"No laces to tie\", \"Lightweight\". Right: a pair of the navy shoes with bright blue accents from the product reference, large and sharp at true proportions, soft shadow. Bottom center: a warm yellow rounded pill with dark text \"Grab yours: \" + bold \"40% OFF + Free Shipping\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "X45_04_will_not_shorter_shift",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "will_not",
+      "offer": "standard_40",
+      "angle": "Reversal hook: this will NOT make your 12-hour shift shorter... it will just feel that way",
+      "based_on": "User reference: 'This Will NOT Reduce Snoring... It will completely eliminate it' pillow ad (medical reversal swapped for a nurse-shift reversal)",
+      "headline": "This Will NOT Make Your Shift Shorter...",
+      "prompt": "Moody dark blue photo of a quiet hospital break room at night, soft window light, a bench in the foreground. Top: small white text \"For nurses on 12-hour shifts\", then a big white serif headline on two lines \"This Will NOT Make\" / \"Your Shift Shorter...\". Center: a pair of the black-and-purple shoes from the product reference resting on the bench, large and sharp at true proportions, softly lit. Right, overlapping: a round dark navy badge with a thin silver ring, heavy white \"40% OFF\" and small white \"TODAY\". Below the shoes, white text \"It'll just \" + soft purple \"feel\" + white \" that way.\" Bottom: small white text \"30-day money-back guarantee\". No seals, no certification badges, no doctor claims. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "X45_05_park_morning_night",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "benchmark": "thermal_three",
+      "offer": "guarantee",
+      "angle": "Disney park day: morning / afternoon / closing time, same comfy shoes, or your money back",
+      "based_on": "User reference: 'UNCLOG YOUR LEGS OR YOUR MONEY BACK' three-leg ad on black (medical thermal claim replaced by a park-day timeline)",
+      "headline": "WALK DISNEY ALL DAY",
+      "prompt": "Solid black background. Top center: a white box with heavy black condensed all-caps \"WALK DISNEY ALL DAY\", under it heavy white all-caps \"OR YOUR MONEY BACK\". Below, three tall photo cut-outs in a row of the same woman's legs from the knees down in light capri pants, wearing the red/burgundy shoes from the product reference (sharp, correct, true proportions), each standing on a short patch of sunny theme-park pavement (no castles, no characters, no logos): the first in bright morning light, the second in midday sun, the third under warm evening string lights. White all-caps labels under each: \"9 AM\", \"3 PM\", \"10 PM\". No heat maps, no medical imagery. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    }
+  ]
+}

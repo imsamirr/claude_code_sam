@@ -1,0 +1,297 @@
+{
+ "week": "2026-W44-test2",
+ "concepts": [
+  {
+   "id": "X44_01_den_split_table",
+   "group": "iteration",
+   "persona": "switcher",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "angle": "Us-vs-other-pods split spec table (proven $14.7K top-spend format), real product photos",
+   "based_on": "Iteration of TOFv1_I13 '#1 Dentures Cleaner (Clinical Grade At-Home)' (video, $5,876 spend, ROAS 1.80) + VID_DEN32_COMPARISON_IT_02 '6 of 7 pods leave live bacteria' (video, $7,878 spend, ROAS 2.22) Approved claims only; competitor pod unbranded.",
+   "headline": "The ultrasonic cleaner that passed the lab test.",
+   "prompt": "Clean two-column comparison graphic, left half bright DentalPULSE blue #1188FF, right half white. Left column header \"DentalPULSE\" with a real photograph of the white DentalPULSE Pod from the reference photo; right column header \"Other pods\" with a real photograph of a generic black round plastic pod cleaner with no logo or text. Left column rows with white check marks: \"Eliminates 99.9% of bacteria\", \"42,000 Hz ultrasonic cleaning\", \"One 5-minute cycle\", \"Tap water only. No tablets\". Right column rows with red X marks: \"Left live bacteria in the lab test\", \"Weaker cleaning power\", \"Needs tablets or brushing\", \"Falls apart in months\". A full-width solid white band across the very top holds the headline in Inter Bold navy #0E283C, entirely inside the white band and never crossing the blue half: \"The ultrasonic cleaner that passed the lab test.\" The blue/white split begins below the band. IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the right column rows and red X marks",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the generic black pod photo",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "X44_02_den_ranking_chart",
+   "group": "iteration",
+   "persona": "switcher",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "angle": "Ranking bar chart with real product photos (top-spend 'Top 7' format, ROAS 3.44)",
+   "based_on": "Iteration of IMG_DEN62_PROBSOL 'Top 7 Ultrasonic Cleaners for Dentures' (static, $896 spend, ROAS 3.44) Approved claim: #1 of 7 in the 90-day lab test; bars illustrative, no invented percentages.",
+   "headline": "Ultrasonic denture cleaners, ranked by our 90-day lab test.",
+   "prompt": "Clean infographic on a very light grey #F5F5F5 background: bold navy Inter Bold headline at the top: \"Ultrasonic denture cleaners, ranked by our 90-day lab test.\" Below, a horizontal bar chart of seven rows. Row 1 is the longest bar in DentalPULSE blue #1188FF with a small real photo of the white DentalPULSE Pod from the reference photo and the label \"DentalPULSE\"; rows 2 to 7 are progressively shorter grey bars labeled \"Pod A\" to \"Pod F\", each with a small photo of a different generic unbranded pod (black, grey, mint, white round and square cleaners) with no logos. A small blue badge on row 1: \"#1 of 7\". No numbers or percentages on the bars. IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_03_den_hero_hand",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "angle": "Warm lifestyle hero: hand lowering dentures into the open cleaner (proven $12K hero format)",
+   "based_on": "Iteration of VID_DEN24_COMPARISON_IT_02 'You've Been Lied To' (video, $3,237 spend, ROAS 2.34) + Seasonal 2025 '11/6 Never brush retainer again - Listicle' (static, $55 spend, ROAS 2.60) Anti-brushing enemy.",
+   "headline": "Never brush your dentures again.",
+   "prompt": "Real lifestyle photograph, warm natural window light: a wood kitchen counter with a cream tile backsplash and a cup of toothbrushes slightly out of focus; an older person's real hand (natural skin, small age spots) lowers a clean upper denture with natural pink gums and white teeth into the open white DentalPULSE Pod from the reference photo (lid up, brushed stainless basin). Soft dark gradient at the bottom with a large white Inter Bold headline: \"Never brush your dentures again.\" and a small white Inter Regular line: \"Ultrasonic cleaner. 5 minutes. Tap water.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the small white line under the headline",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the hand and denture so the cleaner is empty",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "X44_04_den_brown_water",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "style": "ugc",
+   "angle": "Brown-water proof: real phone photo of the basin after the first cycle (feedback: 'visible debris at the bottom')",
+   "based_on": "Iteration of VID_DEN32_COMPARISON_IT_02 '6 of 7 pods leave live bacteria' (video, $7,878 spend, ROAS 2.22) + feedback 'the water was BROWN after the first cycle' Illustrative proof photo; results vary.",
+   "headline": "First cycle. This came off my 'clean' dentures.",
+   "prompt": "Unedited phone photo looking down into the open white DentalPULSE Pod from the reference photo on a bathroom counter: the stainless steel basin holds murky brown-grey water with visible flecks of debris and tiny bubbles, a clean denture partly visible at the edge. Slightly uneven bathroom light, natural framing. A plain white Inter SemiBold caption with soft shadow in the lower third: \"First cycle. This came off my 'clean' dentures.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_05_den_kitchen_table_story",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "style": "ugc",
+   "angle": "Real kitchen-table photo of a 71-year-old with the research stack, insider story caption (curated #1 format; source native ad 'Ray, 71')",
+   "based_on": "Iteration of IMG_DEN64 native ad 'read this before you consider ultrasonic cleaners' (static, $2,712 spend, ROAS 2.58; 51_3 $1,395, ROAS 3.33) No invented dentist; first name only.",
+   "headline": "I spent 3 weeks researching how to clean dentures. Tablets and brushing only clean the surface.",
+   "prompt": "Unedited candid photo in a lived-in kitchen, afternoon light: a real 71-year-old man in a plain flannel shirt with natural wrinkles sits at the table looking at the camera, a case of dentures and the white DentalPULSE Pod from the reference photo on the table in front of him next to a stack of printed pages and a mug. A plain white Inter SemiBold caption on a soft dark gradient across the bottom: \"I spent 3 weeks researching how to clean dentures. Tablets and brushing only clean the surface.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_06_den_x_post",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "format": "x_post",
+   "angle": "Native X post with a photo attached (real customer language)",
+   "based_on": "Iteration of VID_DEN24_COMPARISON_IT_02 'You've Been Lied To' (video, $3,237 spend, ROAS 2.34) + DEN267 'I thought my dentures were clean' Real-sounding customer post; no verified checkmark.",
+   "headline": "Soaked my dentures in tablets every night for 11 years. First cycle in this ultrasonic cleaner, the water turned brown.",
+   "prompt": "A real X (Twitter) post screenshot in light mode: white background, round profile photo of a smiling older man, display name \"Gary R.\" in bold, grey handle \"@garyr_ohio\" and \"3h\". Post text in black: \"Soaked my dentures in tablets every night for 11 years. First cycle in this ultrasonic cleaner, the water turned brown.\" Below it an attached rounded photo of the open white DentalPULSE Pod from the reference photo with murky brown water in the basin. Grey engagement row with reply, repost, like and view icons and small counts \"148\", \"92\", \"2.1K\", \"61K\". IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text, no real platform logos, no verified badges. Native app UI uses the platform's own system font. Must look like a real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_07_den_uv_arrow",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "angle": "Imaging-style macro with a red arrow (curated #3 format); illustrative",
+   "based_on": "Iteration of _DEN_VID_DEN81_H3 '6 of 7 pods can't remove bacteria' (video, $6,059 spend, ROAS 2.28) Illustrative macro/UV photo, no stats.",
+   "headline": "That's bacteria. Tablets don't remove it.",
+   "prompt": "Close-up macro photograph of a denture's tooth surface and gum line under a blacklight in a dark room: the acrylic glows with mottled orange-green patches of biofilm along the gum line and between the teeth. A single bold red arrow points to the glowing patches. Headline in Inter Bold white across the top on the dark area: \"That's bacteria. Tablets don't remove it.\" and a small Inter Medium white line at the bottom: \"Ultrasonic cleaning reaches what soaking can't.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_08_den_quote_badge",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "offer",
+   "angle": "Big customer quote over product, yellow vs white dentures, current-offer badge (quote + badge format)",
+   "based_on": "Iteration of TOFv1_I13 '#1 Dentures Cleaner (Clinical Grade At-Home)' (video, $5,876 spend, ROAS 1.80) + Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $378 spend, ROAS 3.04; lifetime $11.9K, ROAS 3.3) Quote adapted from real survey wins; first name + last initial.",
+   "headline": "“As white as when I first got them.”",
+   "prompt": "Premium real photograph on a bright bathroom counter in natural light: on the left a slightly yellow-stained set of dentures, on the right a bright clean white set, the white DentalPULSE Pod from the reference photo between them. Huge Inter Bold navy #0E283C quote across the top third: \"“As white as when I first got them.”\" and a small Inter Medium line: \"Linda K., denture wearer\". A round blue #1188FF badge at the lower right with Barlow Bold numerals: \"40% OFF\" and below it in Inter: \"+ free shipping\". Five gold stars and \"Rated 4.8/5\" at the lower left. IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_09_den_everything_flatlay",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "angle": "Value-stack flat-lay: what you get with the order (Pod + free dental case + free travel bag)",
+   "based_on": "Iteration of Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $378 spend, ROAS 3.04; lifetime $11.9K, ROAS 3.3) Current offer exact; gifts drawn small.",
+   "headline": "40% OFF sitewide. Free shipping. Free case + travel bag.",
+   "prompt": "Overhead real product photograph on a light oak table in soft daylight: the DentalPULSE Pod Denture Bundle from the reference photo, the white Pod large in the center, the small black zip travel bag and the small smoky dark-grey denture case beside it, both much smaller than the Pod. Along the top in Inter Bold navy #0E283C: \"40% OFF sitewide. Free shipping. Free case + travel bag.\" and a small line at the bottom in Inter Medium: \"Pod $99.95. 120-day money-back guarantee.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_10_den_fb_comment",
+   "group": "iteration",
+   "persona": "denture_caregiver",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "offer",
+   "format": "fb_comment",
+   "angle": "Native Facebook comment thread with a brand reply stating the current offer",
+   "based_on": "Iteration of TOFv1_I13 '#1 Dentures Cleaner (Clinical Grade At-Home)' (video, $5,876 spend, ROAS 1.80) Real customer language; no platform logos.",
+   "headline": "Bought it for my mom's dentures. She says they look new again.",
+   "prompt": "A real Facebook mobile comment thread, light mode, white background: first comment with a small round profile photo of a woman in her 50s, bold name \"Karen S.\", grey bubble text \"Bought it for my mom's dentures. She says they look new again.\", under it \"2d  Like  Reply\" and a small reaction pill with \"86\". Indented reply with a small round blue circle avatar named \"DentalPULSE\": \"Love this, Karen! 40% OFF sitewide + free shipping, free dental case and free travel bag this week.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text, no real platform logos, no verified badges. Native app UI uses the platform's own system font. Must look like a real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_11_ng_trustpilot",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "format": "trustpilot",
+   "angle": "Real review card (Trustpilot style), customer words",
+   "based_on": "Iteration of TOFv1_I13 '#1 Dentures Cleaner (Clinical Grade At-Home)' (video, $5,876 spend, ROAS 1.80) Real survey language ('noticeably cleaner and brighter'); no TrustScore/logo.",
+   "headline": "My night guard is noticeably cleaner and brighter.",
+   "prompt": "A single Trustpilot-style review card on a very light grey page: white card with thin light-grey border, small round initials avatar \"MT\", name \"Mike T.\" and \"US\", a row of five green #00B67A square star tiles with white stars, bold title \"Noticeably cleaner and brighter\", review text \"My old night guard looked gross, yellow and cloudy. Now it looks and feels cleaner and smells better. 5 minutes and tap water, no scrubbing.\" and a small grey date \"Oct 14, 2026\". Nothing else on the page. IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text, no real platform logos, no verified badges. Native app UI uses the platform's own system font. Must look like a real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_12_ng_soap_photo",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "style": "ugc",
+   "no_product": true,
+   "angle": "Real photo: hand soap on a night guard + caption (curated authority caption format; enemy = soap)",
+   "based_on": "Iteration of VID_DEN24_COMPARISON_IT_02 'You've Been Lied To' (video, $3,237 spend, ROAS 2.34) Enemy: hand soap ('soap isn't a disinfectant').",
+   "headline": "Soap isn't a disinfectant. Your night guard sits in your mouth 8 hours a night.",
+   "prompt": "Unedited phone photo at a bathroom sink: a real hand with visible creases pumps hand soap onto a clear night guard with a slightly yellow cloudy tint held over the basin; a toothbrush on the counter. Natural uneven vanity lighting. A plain white Inter SemiBold caption with soft shadow in the lower third: \"Soap isn't a disinfectant. Your night guard sits in your mouth 8 hours a night.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_13_ng_editorial",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "angle": "Editorial advertorial card (native article look) with a real photo",
+   "based_on": "Iteration of IMG_DEN64 native ad 'read this before you consider ultrasonic cleaners' (static, $2,712 spend, ROAS 2.58; 51_3 $1,395, ROAS 3.33) Prevention framing; generic masthead.",
+   "headline": "Why your night guard turns yellow, and the 5-minute habit that slows it.",
+   "prompt": "An online news-article style card: small grey Inter masthead \"ORAL HEALTH DAILY\" at the top, a large real photograph below it of a clear night guard with a faint yellow film on a marble counter next to the open white DentalPULSE Pod from the reference photo, then a bold Inter Bold navy headline: \"Why your night guard turns yellow, and the 5-minute habit that slows it.\" and a grey Inter Regular dek: \"It is not age. It is bacteria and film building up in the scratches.\" with a blue #1188FF button \"Read the article\". IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_14_ng_price_anchor",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "offer",
+   "angle": "Bedside real photo, price anchor: protect the guard you paid hundreds for (curated price-anchor format)",
+   "based_on": "Iteration of IMG_DEN64 native ad 'read this before you consider ultrasonic cleaners' (static, $2,712 spend, ROAS 2.58; 51_3 $1,395, ROAS 3.33) + Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $378 spend, ROAS 3.04; lifetime $11.9K, ROAS 3.3) Anchor is generic ('hundreds'), no invented price; offer exact.",
+   "headline": "Your night guard cost hundreds. Keep it clean for 40% off.",
+   "prompt": "Real photograph of a bedside table in soft lamp light: a night guard case open with a clear night guard, the white DentalPULSE Pod from the reference photo beside it, a glass of water and a phone. Headline in Inter Bold white over a soft dark gradient at the top: \"Your night guard cost hundreds. Keep it clean for 40% off.\" and at the bottom in Inter Medium white: \"40% OFF sitewide + free shipping. Pod $99.95. 120-day guarantee.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_15_ng_rx_label",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "offer",
+   "angle": "Real pharmacy-bottle label photo: directions 1 cycle (5 minutes) nightly + offer tag",
+   "based_on": "Iteration of Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $378 spend, ROAS 3.04; lifetime $11.9K, ROAS 3.3) Parody label, no medical claim.",
+   "headline": "Directions: 5 minutes, nightly.",
+   "prompt": "Photo on a bedside table: an amber pharmacy pill bottle with a white label reading \"DentalPULSE ultrasonic cleaner\", \"Directions: 1 cycle (5 minutes) nightly for night guards\", \"Refills: none needed. Tap water only.\" Beside it the white DentalPULSE Pod from the reference photo with a clear night guard on its lid and a small paper tag \"40% OFF + free shipping\". Headline in Inter Bold navy #0E283C across the top on a clean light wall: \"Directions: 5 minutes, nightly.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_16_ret_callouts",
+   "group": "iteration",
+   "persona": "retainer",
+   "lang": "en",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "angle": "Product callouts on a real photo (supplement-style spec callouts); seasonal winner re-aim",
+   "based_on": "Iteration of Seasonal 2025 '11/6 No Scrubbing Retainers - Listicle' (static, $34 spend, ROAS 4.39) + Seasonal 2025 '11/6 Never brush retainer again - Listicle' (static, $55 spend, ROAS 2.60) Headline says 5 minutes (source said 3).",
+   "headline": "Clean retainers. No brushing.",
+   "prompt": "Real product photograph, bright bathroom shelf in window light: the white DentalPULSE Pod from the reference photo with lid open and a clear retainer lying in the steel basin. Thin navy callout lines to four small white rounded labels in Inter Medium: \"Eliminates 99.9% of bacteria\", \"No brushing, no scratches\", \"No white film\", \"One 5-minute cycle\". Headline across the top in Inter Bold navy #0E283C: \"Clean retainers. No brushing.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the four callout lines and labels",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the retainer from the basin",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "X44_17_ret_case_lofi",
+   "group": "iteration",
+   "persona": "retainer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "style": "ugc",
+   "no_product": true,
+   "angle": "Lo-fi gross real photo: retainer case with white buildup (no product)",
+   "based_on": "Iteration of Seasonal 2025 '11/6 Never brush retainer again - Listicle' (static, $55 spend, ROAS 2.60) No price; parent/adult persona.",
+   "headline": "Your retainer case is a petri dish.",
+   "prompt": "Unedited phone photo on a bathroom counter: an open blue plastic retainer case with a clear retainer inside, a cloudy film of water, white calcium-like buildup and a thin slimy residue in the corners, harsh vanity light. A plain white Inter SemiBold caption with soft shadow at the bottom: \"Your retainer case is a petri dish.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_18_al_before_after",
+   "group": "iteration",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "angle": "Before/after macro split (curated #5 format): cloudy vs clear tray, small BEFORE/AFTER labels",
+   "based_on": "Iteration of _DEN_VID_DEN81_H3 '6 of 7 pods can't remove bacteria' (video, $6,059 spend, ROAS 2.28) Film = bacteria framing; real-looking, no miracle promise.",
+   "headline": "Cloudy aligners? That white film is bacteria.",
+   "prompt": "Real macro photograph split vertically down the middle on a white bathroom counter: on the left a clear aligner tray with a cloudy white film and spots, small label \"Before\" in Inter Medium; on the right a crystal clear aligner tray, small label \"After 1 cycle\" in Inter Medium. Sharp natural daylight. Headline across the top in Inter Bold navy #0E283C: \"Cloudy aligners? That white film is bacteria.\" and at the bottom in Inter Medium: \"Ultrasonic cleaner. 5 minutes. Tap water.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_19_al_ios_reminder",
+   "group": "iteration",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "angle": "Native iPhone lock-screen notification stack (curated native-UI format)",
+   "based_on": "Iteration of VID_DEN24_COMPARISON_IT_02 'You've Been Lied To' (video, $3,237 spend, ROAS 2.34) Real wear-time norm 20-22h; no invented stats.",
+   "headline": "Your aligners were in your mouth 22 hours today. Last cleaned: never.",
+   "prompt": "A realistic iPhone lock screen in light mode over a blurred wallpaper: large time \"7:42\" and date \"Wednesday, October 28\", and a stack of two iOS notifications with rounded translucent cards: first \"Reminder\" \"Your aligners were in your mouth 22 hours today. Last cleaned: never.\" and second \"DentalPULSE\" \"Clean them in 5 minutes. 40% OFF sitewide + free shipping.\" Use the iOS system font. IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text, no real platform logos, no verified badges. Native app UI uses the platform's own system font. Must look like a real screenshot, not an AI render."
+  },
+  {
+   "id": "X44_20_al_giant_offer",
+   "group": "iteration",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "angle": "Giant repeated 40% OFF type with the Pod + free dental case + travel bag (best-ROAS offer format)",
+   "based_on": "Iteration of Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $378 spend, ROAS 3.04; lifetime $11.9K, ROAS 3.3) Current offer exact; gifts small.",
+   "headline": "40% OFF. Free case. Free travel bag.",
+   "prompt": "Real product photograph on a seamless pale-blue backdrop #E1EDF5: the DentalPULSE Pod Denture Bundle from the reference photo (white Pod large, the small black travel bag and small smoky dark-grey case much smaller beside it). Behind it giant Barlow Bold \"40% OFF\" repeated three times, the top solid blue #1188FF, lower ones fading. Inter Bold navy line at the bottom: \"40% OFF. Free case. Free travel bag.\" and in Inter Regular: \"Free shipping. 120-day money-back guarantee.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. All designed text is Inter (clean modern grotesque sans), numerals/prices in Barlow Bold; never serif, script or rounded display fonts. Must look like a real unretouched photograph or real screenshot, not an AI render."
+  }
+ ],
+ "notes": "Wednesday Oct 28 on-demand test of the v2 skill rules: iterations of current/seasonal/winner statics, 10/5/5 mix, 14 TOF / 6 offer, no cartoon, photoreal, Inter/Barlow. Inspiration: atria inspiration (457 curated ads)."
+}

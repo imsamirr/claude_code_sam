@@ -1,0 +1,44 @@
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0782, "input_tokens": 4441, "input_tokens_details": {"image_tokens": 2801, "text_tokens": 1640}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 6028}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0753, "input_tokens": 4068, "input_tokens_details": {"image_tokens": 2441, "text_tokens": 1627}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5655}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0771, "input_tokens": 4300, "input_tokens_details": {"image_tokens": 2677, "text_tokens": 1623}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5887}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0773, "input_tokens": 4329, "input_tokens_details": {"image_tokens": 2677, "text_tokens": 1652}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5916}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0784, "input_tokens": 4476, "input_tokens_details": {"image_tokens": 2801, "text_tokens": 1675}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 6063}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.078, "input_tokens": 4399, "input_tokens_details": {"image_tokens": 2801, "text_tokens": 1598}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5986}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0774, "input_tokens": 4350, "input_tokens_details": {"image_tokens": 2677, "text_tokens": 1673}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5937}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0752, "input_tokens": 4051, "input_tokens_details": {"image_tokens": 2441, "text_tokens": 1610}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5638}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.077, "input_tokens": 4271, "input_tokens_details": {"image_tokens": 2677, "text_tokens": 1594}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5858}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0773, "input_tokens": 4340, "input_tokens_details": {"image_tokens": 2677, "text_tokens": 1663}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5927}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0771, "input_tokens": 4287, "input_tokens_details": {"image_tokens": 2677, "text_tokens": 1610}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5874}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.078, "input_tokens": 4394, "input_tokens_details": {"image_tokens": 2801, "text_tokens": 1593}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5981}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0798, "input_tokens": 4615, "input_tokens_details": {"image_tokens": 3042, "text_tokens": 1573}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 6202}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0779, "input_tokens": 4380, "input_tokens_details": {"image_tokens": 2801, "text_tokens": 1579}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5967}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0777, "input_tokens": 4402, "input_tokens_details": {"image_tokens": 2677, "text_tokens": 1725}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5989}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.078, "input_tokens": 4402, "input_tokens_details": {"image_tokens": 2801, "text_tokens": 1601}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5989}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0774, "input_tokens": 4350, "input_tokens_details": {"image_tokens": 2677, "text_tokens": 1673}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5937}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0773, "input_tokens": 4341, "input_tokens_details": {"image_tokens": 2677, "text_tokens": 1664}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5928}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0768, "input_tokens": 4239, "input_tokens_details": {"image_tokens": 2677, "text_tokens": 1562}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5826}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0772, "input_tokens": 4314, "input_tokens_details": {"image_tokens": 2677, "text_tokens": 1637}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5901}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0756, "input_tokens": 4128, "input_tokens_details": {"image_tokens": 2441, "text_tokens": 1687}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 5715}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0801, "input_tokens": 4665, "input_tokens_details": {"image_tokens": 3042, "text_tokens": 1623}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 6252}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0783, "input_tokens": 4452, "input_tokens_details": {"image_tokens": 2801, "text_tokens": 1651}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 6039}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0782, "input_tokens": 4444, "input_tokens_details": {"image_tokens": 2801, "text_tokens": 1643}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 6031}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0786, "input_tokens": 4526, "input_tokens_details": {"image_tokens": 2801, "text_tokens": 1725}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 6113}
+{"kind": "feed", "quality": "medium", "cost_usd": 0.0783, "input_tokens": 4449, "input_tokens_details": {"image_tokens": 2801, "text_tokens": 1648}, "output_tokens": 1587, "output_tokens_details": {"image_tokens": 1587, "text_tokens": 0}, "total_tokens": 6036}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "e49d2fab9f3e07abfb9b5cae3061856c"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "01bd6b7d104a2ef0d0d83e6137f28244"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "2cd01cb690edacaef2e889a8f823ee77"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "cb5ce506502d81623724fecf5911245c"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "173f50b5476fabd361e5dee240315e4f"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "0e406afb5abed7de664828a2718646c6"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "baaff5f989dd30145eb621d8a68c7071"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "3b38302ee0c5621682308ac08b8b25ab"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "50c357c85902e1250dcfec5f8a105966"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "7deb0b35f2fceb7995d247cc223503dd"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "84260f0103c45e7806ed67b5dc7bc544"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "cfbd821f8529ba80eaa2a6b39c77ee9b"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "0772b702f600e69ef70bd73c34f02698"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "d55be22633038877bbffce691ec17d6a"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "a04a93529c9667b7e5b3dbba8214ee4f"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "4df78da215dedabf1a7127ef7d70a325"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "81c28dada3fe99473bdb735f34f851fa"}
+{"kind": "feed", "quality": "kie-2K", "cost_usd": 0.05, "task_id": "0b55622b260dca1fd02f8f280b7a1e32"}

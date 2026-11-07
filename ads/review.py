@@ -9,7 +9,7 @@
     python ads/review.py csv --week 2026-W43              # concept list + image links, for the Drive sheet
 
 All commands take --brand (default: comfortwear, or $ADS_BRAND). Sheets show
-each 9:16 ad with dashed lines marking the 4:5 safe area; "GIF" marks ads that
+each 9:16 ad with dashed lines at 12% / 82% height (Stories/Reels UI zones); "GIF" marks ads that
 also have an animated version. Verdicts live in ads/brands/<brand>/feedback.json.
 generate.py reads the notes and adds them to every prompt, so later rounds
 follow what was approved and avoid what wasn't.
@@ -77,9 +77,9 @@ def sheet(bdir, week, prefixes):
             draw.text((x + 6, y + 6), name[:30], fill="black", font=font(15))
             draw.text((x + 6, y + 22), name[30:60], fill="black", font=font(15))
             canvas.paste(im, (x + 4, y + label))
-            safe = int(im.width * 5 / 4)
-            top = y + label + (im.height - safe) // 2
-            for yy in (top, top + safe):
+            # Stories/Reels UI zones: text, faces and product should stay between these lines
+            top = y + label
+            for yy in ((top + int(im.height * 0.12), top + int(im.height * 0.82)) if im.height > im.width * 1.5 else ()):
                 dashed(draw, yy, x + 4, x + 4 + im.width, (230, 40, 40))
         path = out / f"_preview_{dt.date.today()}_{page // per_page + 1}.jpg"
         canvas.save(path, quality=88)
@@ -122,7 +122,7 @@ def concept_csv(bdir, week, repo_url):
     buf = io.StringIO()
     w = csv.writer(buf)
     w.writerow(["ID", "Group", "Persona", "Language", "Colorway", "Headline", "Angle", "Based on",
-                "GIF candidate", "9:16 image", "4:5 image", "GIF", "Verdict", "Notes"])
+                "GIF candidate", "Image (4:5)", "GIF", "Verdict", "Notes"])
     for c in concepts:
         out = wdir / "output"
         stems = sorted(p.stem for p in out.glob(f"{c['id']}_v*.png") if STATIC.fullmatch(p.stem))
@@ -131,7 +131,7 @@ def concept_csv(bdir, week, repo_url):
         fb = verdicts.get(c["id"], {})
         w.writerow([c["id"], c.get("group", ""), c["persona"], c.get("lang", "en"), c.get("colorway", ""),
                     c["headline"], c["angle"], c["based_on"], "yes" if c.get("gif") else "",
-                    link(f"{stem}.png"), link(f"{stem}_4x5.png"), link(f"{stem}.gif"),
+                    link(f"{stem}_4x5.png") or link(f"{stem}.png"), link(f"{stem}.gif"),
                     fb.get("verdict", ""), fb.get("notes", "")])
     print(buf.getvalue(), end="")
 

@@ -1,6 +1,6 @@
 ---
 name: static-ads
-description: Run a brand's Meta static ad program from ads/brands/<brand>/: onboard a new brand (intake questions, product references, claims, personas, Atria + competitor research, Drive folder, Slack, twice-weekly routine), then each run research → write → render (9:16 with content in the 4:5 safe area, plus 4:5 crop) → QA → Drive sheet → Slack DM. Two batch types: iteration batches (big-swing iterations of current and seasonal winners only) and net-new batches. Native Facebook/Trustpilot/X formats, cartoon/animation formats, competitor-inspired formats, English and native US-Spanish copy, build-up GIFs after approval. Use for "set up static ads for my other brand", "onboard <brand>", "make this week's statics", "iteration batch", "net-new concepts", "competitor research", "Spanish statics", "cartoon ads", "turn these into GIFs", or a scheduled static-ads routine.
+description: Run a brand's Meta static ad program from ads/brands/<brand>/: onboard a new brand (intake questions, product references, claims, personas, Atria + competitor research, Drive folder, Slack, twice-weekly routine), then each run research → write → render (single size, 4:5, high quality) → QA → Drive sheet → Slack DM. Two batch types: iteration batches (big-swing iterations of current and seasonal winners only) and net-new batches. Native Facebook/Trustpilot/X formats, cartoon/animation formats, competitor-inspired formats, English and native US-Spanish copy, build-up GIFs after approval. Use for "set up static ads for my other brand", "onboard <brand>", "make this week's statics", "iteration batch", "net-new concepts", "competitor research", "Spanish statics", "cartoon ads", "turn these into GIFs", or a scheduled static-ads routine.
 ---
 
 # Static ads
@@ -9,12 +9,35 @@ Engine: `ads/generate.py` (render), `ads/review.py` (sheets, verdicts, cost, CSV
 (research), `ads/contact_sheet.py` (thumbnail grids of any Atria CSV). Each brand lives in
 `ads/brands/<brand>/`; **everything brand-specific is in its `brand.json`**: read it first on every run.
 `ads/README.md` has the commands. Two fully worked brands to copy from:
-- `comfortwear/`: women's orthopedic shoes. Colorways per persona, Spanish, seasonal travel.
+- `comfortwear/`: women's orthopedic shoes. Colorways per persona, wellness-wide inspiration pull, format ledger,
+  customer-voice mining (English only since 2026-10-28; see its standing rules below).
 - `dentalpulse/`: ultrasonic appliance cleaner. Product-scope limits, approved aggressive claims,
   appliance mix, old-method "enemy", competitor playbook (research/analysis.md §6), cartoon formats.
 
-Every deliverable is 1 static per concept (no variations): a 9:16 PNG (Stories/Reels) with all content
-inside the centered 4:5 area, plus the 4:5 crop (feed). GIFs only for statics the user approves.
+Every deliverable is 1 static per concept (no variations) in ONE size, 4:5 (1088x1360, feed), rendered once
+with `--layout feed` (the default; user rule 2026-10-18: no 9:16) via `--provider auto` (Kie.ai ~$0.05/ad, else OpenAI high ~$0.22/ad; see §1). The file is
+`<id>_vN.png`. GIFs only for statics the user approves.
+
+## DentalPULSE quality rules (user, Oct 28: supersede every older DentalPULSE rule below)
+
+These are encoded in `ads/brands/dentalpulse/brand.json` (`program`, `copy_rules`, `quality_bar`, `font_style`, `typography`, `banned_formats`, `inspiration_rule`) and `ads/atria_pull.py inspiration`; follow them on every run.
+
+1. **Inspiration = curated Atria pull only.** `python ads/atria_pull.py inspiration --brand dentalpulse` returns STATIC images that are currently ACTIVE, launched in the last 45 days, have run at least 7 days (everything launched in the last 7 days is excluded) and whose impressions are GROWING week over week (impression_trend rising and reach/rank improving over 7 days). It searches oral-care AND health & wellness brands (`inspiration_queries`). Contact-sheet it (`contact_sheet.py inspiration_curated.csv --by query --per 3`), read every page, and log "formats growing now" in `research/analysis.md` (section 13 has the Oct 28 read). Borrow formats and hooks from this list, not from old competitor pulls.
+2. **Iterations** come from what performed well for us in the past as statics: `winners` (lifetime top-spend statics), `current`, `seasonal`. Rebuild the proven static formats (comparison table / ranking, warm lifestyle hero, giant "40% OFF" type, quote + badge, native advertorial paper photo) as real photographs, not as new gimmicks.
+3. **No cartoon, animation, illustration, comic, meme or funny ads.** `generate.py` refuses `banned_formats`. Allowed: real photos, real-looking screenshots/native UI (X post, text messages, FB comment, Trustpilot card), documents/lab reports, imaging/macro photos, clean typographic layouts. Tone is serious and credible.
+4. **Direct-response copy** (brand.json `copy_rules`): customer pain in their words, agitate, mechanism, proof, one clear CTA. Specific promises, numbers, imperatives. No jokes or puns.
+5. **Mix: 50% dentures / 25% night guards / 25% aligners + retainers.** Tuesday 20 = 10/5/5; Friday 40 = 20/10/10. **Funnel: 70% top-of-funnel (no price) / 30% offer-driven.**
+6. **Current offer (use only in the 30%):** 40% OFF sitewide, FREE shipping, FREE dental case, FREE travel bag with every order, 120-day money-back guarantee, Pod $99.95. Show the case and bag as small items next to the Pod (`denture_gift_bundle` reference).
+7. **Customer language first.** Re-read `research/feedback_deep_dive.md` (Oct 28 refresh: 180 responses) before writing; bacteria (64%) and yellow stains (39%; 68% of night guard buyers) must be explicit; never promise set-in yellow vanishes in one cycle; answer the price objection with the offer and the skepticism objection with the 6-of-7 lab test + guarantee.
+8. **Photoreal, not AI-looking.** Real camera light and texture, natural skin and hands, believable appliances, no glossy 3D look (brand.json `quality_bar`). Use `"style": "ugc"` for lo-fi/native photos. In QA, reject anything that looks rendered, plastic, over-saturated or symmetrical-perfect.
+9. **Website typography:** Inter for headlines (SemiBold/Bold, sentence case) and body, Barlow Bold for big numbers and prices; navy #0E283C or white text; blue #1188FF as the only accent; palette from dentalpulsepro.com. Reject any ad with serif, script, rounded-cartoon or decorative lettering (except genuine handwritten-note or native-UI formats).
+
+10. **Appliance accuracy (user feedback Oct 28).** Every concept sets `"appliance"` (`denture_full`, `denture_partial`, `night_guard`, `retainer_hawley`, `retainer_clear`, `aligner`); `generate.py` appends the correct shape description from brand.json `appliance_shapes`. If the headline says dentures the picture shows real dentures (pink acrylic gums + full tooth row); a night guard is a thick rigid horseshoe tray; a Hawley retainer has the acrylic palate plate + wire; a clear retainer/aligner is a thin tray. Never mix appliances.
+11. **Real-world size + setting (user, Oct 30; replaces earlier scale rules):** the Pod is a compact bathroom-counter device, 132.5 x 110 x 85 mm (store spec). It always rests on a surface: NOBODY holds it (no hands, palms or lifting). Bathroom settings only (vanity by the sink, shelf, mirror cabinet, bathroom windowsill) or a plain designed background; never kitchens, dining tables, cafes, coffee/food scenes, bedrooms or outdoors. A denture/night guard/retainer is about HALF the Pod's width and fits in its basin; give that ratio in every prompt. Free gifts in offer shots stay clearly visible (travel bag about the Pod's size, case about half). Rejected examples: weeks/2026-W44-rivals-v2 RV_11, RV_12, RV_07 (handheld), RV_09, RV_20 (dining/coffee table), RV_18, RV_19 (generic studio tile / flower frame with no bathroom).
+11b. **Different-looking ads (user, Oct 30):** each concept recreates ONE specific ad from this run's Atria research (rival or curated inspiration) as a layout reference: save it to `reference/benchmarks/rv_ref_<slug>.jpg`, register it in brand.json `benchmarks`, and set `"benchmark"` + `"format_ref": true`. Copy that ad's structure, type treatment, background and copy PATTERN (adapted to our angle, mostly dentures), never its words. When the reference's text is not a top headline (signs, split labels, bars, quotes), render the text in the image instead of using `overlay`. No two ads in a batch share a reference or a background/composition; QA the contact sheet for sameness.
+12. **One fixed headline size.** Designed ads use `"overlay": {"headline", "sub"?, "pos": "top|bottom", "tone": "dark|light"}`: `generate.py` sets the text itself in real Inter Bold at 72 px (sub line Inter Medium 38 px), max 3 lines (about 60-70 characters), same size on every ad (fonts in `ads/fonts/`). The prompt must not contain the headline; the model leaves a calm 34% band for it. Native screenshots (X post, FB comment, Trustpilot, iOS) keep their own UI text and have no overlay. `headline` in concepts.json equals the overlay headline.
+13. **Bacteria and yellow stains on EVERY ad.** The picture must show it (yellow/stained/filmy appliance macro, brown debris water, petri/UV biofilm, yellow vs clean pair; offer ads too) and the headline names bacteria, yellow/stain/film or what is left on the appliance. Use the feedback sheet's words (`research/feedback_deep_dive.md`).
+14. **No gimmicks that need explaining** (pharmacy-bottle parodies, joke labels, puzzles). Two-second rule: one idea, instantly clear.
 
 ## Batch types (sizes and days from `brand.json` → `program`)
 
@@ -44,7 +67,9 @@ unique forever. (Comfort Wear's `weeks/2026-W42` and `2026-W43` predate the `-tu
 5. **The enemy**: what customers used before (toothbrush, Polident, vinegar…) and whether those may be
    named or shown (`old_methods`). Competitors: who they are (`competitor_brands`) and whether naming
    is allowed (default: competitor pods/products unbranded).
-6. **Data**: feedback/survey sheet link, Atria ad-account name, asset folder in Drive.
+6. **Data**: feedback/survey sheet link, Atria ad-account name, asset folder in Drive, and the team's
+   **creative strategy briefs / research docs** (Notion, Google Docs): read them, don't guess the strategy.
+   Also ask what the product should be called for cold audiences (e.g. "ultrasonic cleaner", not "Pod").
 7. **Languages** (Spanish or not), **cadence** (default Tue iterations 20 + Fri net-new 40), **delivery**
    (Drive folder, Slack id or channel).
 
@@ -69,11 +94,17 @@ unique forever. (Comfort Wear's `weeks/2026-W42` and `2026-W43` predate the `-tu
      top ads. Note formats (comparison, listicle, native advertorial, offer) and which product/persona
      carries spend; check whether ROAS is readable (`program.roas_note`).
    - **Competitors**: set `competitor_brands` (direct competitors + 8–12 adjacent DTC brands in the
-     category), run `atria_pull.py competitors`, then `contact_sheet.py competitor_ads.csv --by brand`.
+     category) and `inspo_queries`, run `atria_pull.py competitors` (sorted by **most impressions**, so
+     you see what gets delivery now), filter to the category, then `contact_sheet.py <csv> --per 40`.
      Read every page; write a "formats to borrow" playbook: per brand the longest-running formats and
      hooks, then a numbered "what to take" list (name the incumbent, before/after in hand, shock headline,
      native UI frames, premium offer tile, starter pack, big numbers, timely callouts…).
-   - **Survey/feedback sheet**: download via Drive (`download_file_content`, text/csv). Keep only
+   - **Creative briefs (Notion etc.)**: delegate a read-only subagent to digest every monthly brief,
+     research and competitor page into `research/notion_brief.md` (concepts to test, controversial lines,
+     mechanism, proof, formats, offers, 20 sharpest hooks, citations). Briefs drive the net-new concepts.
+   - **Survey/feedback sheet**: delegate a deep dive (counts per segment, purchase reasons, frustrations,
+     objections, wins verbatim, 1–2★ themes, headline banks) into `research/feedback_deep_dive.md`;
+     download via Drive (`download_file_content`, text/csv). Keep only
      aggregates and short anonymous quotes; never commit raw rows, emails or order numbers. Pull: appliance
      or use-case split, ages, previous method, frustrations, objections, wins in their words, who noticed,
      and the negatives to design around (claims that disappointed people).
@@ -106,14 +137,132 @@ When the user adds a rule later ("only these products", "5-minute cycles", "50/2
 analysis.md, any affected concepts (re-render), **every routine prompt** (update_trigger with the full
 prompt), and this skill.
 
-## 1. Research refresh (each run, short)
+## 1. Research refresh (each run)
+
+**Comfort Wear standing rules (user, 2026-10-28; override every older focus line, incl. the Oct 26 nurse+travel-only and Spanish-twin rules).** Full text in `brand.json` → `program.focus_2026_10_28`, `wellness`, `paused_personas`.
+- **English only.** No Spanish concepts or twins until the user says otherwise.
+- **Angles** (audience × pain × format): Nurse / 12-hour shifts ~35%, Travel incl. Disney + Europe ~25%, Plus-size women ~20% (mostly mash-ups: plus-size nurse, plus-size at Disney), test slot ~20% for new pain points. Pains (from 18,452 feedback answers, `research/feedback_pain_points_2026-10-28.md`): plantar fasciitis first (27%), bunions second (9%), then "no pain, just comfort" (22%, fastest-growing), arthritis, tired feet from standing, neuropathy, back/knee after shifts; test slot: wide feet (rising), Morton's neuroma / burning ball of foot, flat feet, swelling. Name what she already tried (insoles first, then pills, stretching, ice, running shoes/Hokas) and use her phrases. Guardrails: never promise fit or "extra wide", say "built for 12-hour shifts" not "no pain for 12 hours", set expectations for the rocker sole. ≥60% lead with a named pain in the customer's words. **Teacher is paused**: write none unless `atria_pull.py current` shows a teacher ad at ≥$300 spend and ≥1.8 ROAS (then say so in Slack). Reweight each run from Atria `current`, verdicts and the seasonal pull.
+- **Research every run, in this order:** (1) our statics with **≥$10k spend** (`winning_statics.csv`, refresh with `atria_pull.py winners`) and `current` + `seasonal` winners: write down their patterns; (2) the customer voice in `research/feedback_pain_points_*.md` (re-mine the Drive feedback sheet monthly; aggregates and short anonymous quotes only) and our **winning video scripts** (`research/data/video_transcripts.md`) for hooks, objections, story beats, customer phrases; (3) **`atria_pull.py wellness`**: direct-response ads from ANY health & wellness brand, chosen OBJECTIVELY from data (user rule 2026-10-28): search only health & wellness category keywords (`wellness.queries`; never our angle words like nurse/travel/Disney, which belong in our copy, not the search); filters image, active, launched ≤45 days, running 10+ days, impressions rising, direct-response copy (offer/CTA/guarantee/number/problem hook), off-niche dropped, max 2 per brand; ranked by 7-day impression growth (`growth_rank`). Take formats from the TOP of that ranked list in order; skip a row only if its format is already in the ledger, it relies on another brand's licensed IP, or it needs a claim we can't make, and log the skip reason. No hand-picking by taste. Contact-sheet it (`contact_sheet.py inspiration_wellness_45d.csv --per 40`) and **Read every page**; (4) write a dated "formats found this run" table in `research/analysis.md` (format, brand, category, days running, why it works, our version) and the shared patterns of our winners vs the inspiration.
+- **New formats every run.** Formats come from THIS run's Atria research, not from a fixed list. Each concept sets `format_name` (slug) and `format_source` (inspiration brand, category, days running). A format already in `research/format_ledger.json` may not be reused; only our own proven layouts (`wellness.proven_layouts`, named `proven:<slug>`) may repeat, max ~30% of a batch. Run `python ads/format_ledger.py --brand <b> check --week <folder>` before rendering (must print OK) and `add --week <folder>` after shipping. `based_on` names the inspiration ad with its growth rank and numbers (growth_7d, days running) AND the winner/script it is paired with, plus why.
+- **Copy: direct response.** Pain in her words → agitate (what she tried, what it cost) → mechanism (arch, heel cushion, wide toe box, grip) → proof (peer, number, story) → one offer line. Headline ≤ ~8 plain words, specific (a number, a place, a shift length). No puns.
+- **Look: realistic, NOT AI.** Real phone-photo scenes (uneven light, skin/fabric texture, grain, imperfect framing) or clean graphic layouts copied from the inspiration ad, never glossy composites. Full-bleed: the headline sits ON the image (sky, wall, floor), never in a separate band stacked above a photo. Natural walking stance (mid-stride, not two shoes planted side by side). **Poppins** for every typeset word (ExtraBold headlines, SemiBold labels); never condensed (Impact/Bebas/Anton) or script fonts; handwriting only on a real object (sticky note, cardboard sign). Legibility for women 60+ still applies. In QA, re-render anything with the wrong font, an invented slogan, or a headline that doesn't flow into the image.
+- **Offer** (~30% of a batch): "40% OFF" + "FREE SHIPPING" + "30-DAY MONEY-BACK GUARANTEE"; "HSA/FSA ELIGIBLE" + "UP TO 30% SAVINGS" may replace or join it. A line, pill or seal, never the whole ad. Black Friday week uses its own offers (`program.black_friday_week_2026_11_09`).
+- **Readable, uniform text (user 2026-10-28).** All text black, deep navy or white; never purple or other colored words (an accent color may only fill a pill/bar/block behind white text). Every line of one headline is the same size, weight and color: no oversized first word, no smaller second line, no regular/bold mixing. Supporting text is one uniform, large size. QA: re-render any ad with colored words, a headline with mixed sizes, or small text.
+- **Cartoon/animation statics: no quota.** Only when this run's inspiration research (same criteria: image, active, launched ≤45 days, 10+ days running, health & wellness) surfaces an illustrated/animated static worth borrowing; it then counts as a new format in the ledger (`program.cartoon_rule`).
+- Render one 4:5 per concept with the default `--provider auto` (Kie.ai gpt-image-2 at 2K, ~$0.05/ad; OpenAI at high quality, ~$0.22/ad, only when `KIE_API_KEY` is missing). Older rules below still apply where they don't conflict.
+
+### 1a. Atria research: exact criteria per pull (user, 2026-10-30)
+
+Every pull writes a CSV to `research/data/`; contact-sheet it and **Read every page** before writing.
+
+| Pull | What it answers | Filters (exact) | Ranking | Output |
+|---|---|---|---|---|
+| `winners` | What has worked for us, ever | our ad account; statics only (IMAGE); lifetime spend ≥ $5k (`--min-spend`); since 2024 | spend, high → low | `winning_statics_raw.csv` (+ headline and primary text) |
+| `current` | What works for us right now | our account; any format; last 30 days; spend ≥ $300; ROAS ≥ 1.8 | spend | `current_winners.csv` |
+| `rising` | Our new ads taking off | as `current`, but only ads launched in the window | spend | `rising_winners.csv` |
+| `seasonal --week W` | What won this time last year | our account; same ISO week last year ±7 days | spend, top 15 | `seasonal_<week>.csv` |
+| `losers` | What to avoid | our statics; spend < $200; paused at ad level; last 12 months | spend, low → high | `losing_statics.csv` |
+| `wellness` | New formats to borrow (objective) | Atria ad library; **health & wellness category keywords only** (`wellness.queries`, never our angle words); image; **active**; launched ≤ 45 days ago; running ≥ 10 days; impression trend **rising**; title/body has a direct-response signal (%, $, free, guarantee, money-back, buy N, today, sale, pain, question…); off-niche words dropped (`wellness.exclude`); max 2 ads per brand | **7-day impression growth** (places climbed), then impression share → `growth_rank` | `inspiration_wellness_45d.csv` |
+| `rivals` | What Hike + Stepprs are doing | `core_competitors`; image **and** video; active and inactive; both Atria orders (most impressions, best match); brand-matched; full copy kept | competitor → active first → days running (longest first) | `core_competitors_<date>.csv` |
+| `competitors` | Wider category | `competitor_brands` + `inspo_queries`; image and video | impression percentile | `competitor_ads.csv` |
+
+How to use the wellness list: take formats **from the top of `growth_rank` in order**. Skip a row only if
+its format is already in `research/format_ledger.json`, it depends on another brand's licensed IP, or it
+needs a claim we can't make; write the skip reason in `analysis.md`. No picking by taste. A long-running
+ad (60+ days, still active) is a stronger signal than a new one; an ad whose impressions are falling is a
+weak one even if it is old. Note for each borrowed format: brand, category, days running, growth, and why it works.
+
+**Inspiration priority (user, 2026-10-30, after a batch looked too plain).** The wellness growth list alone surfaced
+off-target ads (dog pads, lenders) and our concepts drifted to plain white "product + labels" layouts. Order now:
+(1) Hike + Stepprs highest-impression and longest-running ACTIVE statics (`rivals` + contact sheet), (2)
+`competitors` top-impression statics, (3) the wellness list, using only rows that are visibly direct-response and
+eye-catching on the contact sheet: bold color fields, huge type, real feet/people, text written on a body part or
+object, sticky notes, warning tape, strike-through self-talk, split before/after, huge price/offer. Plain white
+product-and-callouts layouts only when they are our own proven winners. Every batch: at least half the concepts
+use one of these high-energy devices.
+**Nurse colors (user, 2026-10-30):** nurse/healthcare concepts use ONLY Black/Purple, Black/White, All Black,
+White Blue. **Text spacing:** every text element ≥7% of the width from every edge, with clear space around it;
+QA rejects text that touches or crowds an edge. **Shoe contrast:** never a dark shoe on a dark background; light or mid-tone backgrounds so the shoe is clearly visible.
+
+### 1b. Our own copy that works (read EVERY run, before writing a single headline)
+
+1. **Winning statics' copy**: `winning_statics.csv` (headline + primary text of every ≥$5k static) and
+   `current_winners.csv`. Write down the 3–5 copy patterns that repeat (e.g. "12-hour shift" in the
+   headline, named audience, testimonial-first primary text, checklist ✅ rows, $ strike-through).
+2. **Winning briefs and scripts**: the Notion "Scripts 2026" winning briefs, the angle databank
+   (`research/data/notion_angles.md`) and our winning video scripts (`research/data/video_transcripts.md`):
+   hooks, objections, story beats and the exact customer phrases. Keep a dated digest in
+   `research/winning_briefs.md` (refresh from Notion each Friday run).
+3. **Customer voice**: `research/feedback_pain_points_*.md`, Trustpilot 5★ language, the copy playbook
+   (`research/copy_playbook_nurse_travel.md`).
+4. Every concept's `based_on` names the winning static, brief or script line its copy comes from, and
+   `headline` must trace back to a real pattern or phrase from 1–3. Reference images give the LAYOUT;
+   the WORDS come from here.
+
+### 1c. Core competitors (EVERY run, user rule 2026-10-30): Comfort Wear → Hike Footwear and Stepprs; DentalPULSE → Zima Dental and Sonic Dental (brand.json `core_competitors`; DentalPULSE notes in `research/core_competitors.md`)
+
+They are our biggest competitors and write very direct-response copy. Each run:
+1. `python ads/atria_pull.py rivals`, then contact-sheet their statics and Read every page.
+2. Read the full copy of every **active** ad; transcribe (Atria `transcribe_library_ad`) their 2–3
+   longest-running active videos if not already done.
+3. Update `research/core_competitors.md` with a dated section: hooks, offers and guarantees, proof devices
+   (numbers, testimonials, doctors, studies), claims, formats, CTA style, and **what changed since the last
+   run** (new ads, ads they stopped).
+4. Write at least ~20% of each batch as direct answers or upgrades to their strongest current angles,
+   matching their DR intensity (specific numbers, named pain, agitation, risk reversal) with OUR approved
+   claims only: never their claims we can't back, their brand names in a negative way, or their logos.
+
+- **Black Friday theme (user 2026-10-31, Comfort Wear):** every Black Friday ad is WHITE + RED with a little GOLD (brand.json `program.black_friday_week_2026_11_09.theme`, benchmark `bf_theme_brand`): light backgrounds, red offer bands/pills/tags with white text, black only for body text, small gold accents. No black bands, no dark backgrounds, no purple/blue accents.
+
+### Production method v2 (user 2026-10-31: "not a lot of effort", "we need more depth")
+- Inspiration: ANY brand with proven statics (60+ days running or rising on Atria), across categories, not only Hike/Stepprs. Each ad names ONE specific proven ad and copies its layout closely (structure, hierarchy, density) with our product and copy.
+- Depth over volume: batches of 5-8, each with a short art-direction brief (scroll-stop element, hierarchy, one proof point), 2-3 variations when useful.
+- Composed pipeline: real product cutouts `reference/cutouts/` (never a redrawn shoe when a cutout works), layout in HTML with real fonts rendered by `node ads/compose/render.js in.html out.png` (1080x1350), Kie only for text-free photo scenes `python ads/compose/scene.py out.png "<scene>" [ref.png]`.
+- QA: render a side-by-side with the inspiration ad (`compare_*.jpg`) and kill anything below that bar before showing.
+
+### Design rules (user feedback 2026-10-31: "too much text", "shoe should be the main element", "Black Friday one is too overwhelming")
+Every ad is checked against these BEFORE it is shown. `node ads/compose/render.js` prints a lint line for each render; fix every WARN.
+1. **One focal point: the shoe.** The real cutout or photo fills 35-50% of the canvas, sharp, never behind text. In a scene, shoot it close and low (the product is the hero, not the room).
+2. **Three things max:** one headline (10 words or fewer), at most one support element (3 short bullets OR one line OR a notification), one offer block. Lint: 30 words or fewer, 6 text blocks or fewer.
+3. **Compact offer:** the lead offer big (e.g. "60% OFF SITEWIDE" or "40% OFF"), the supporting terms on ONE small line under it ("Free shipping & returns · 30-day money-back guarantee"). No stacked bars, no second banner, no price card plus offer bar plus chips at once.
+4. **Calm the rest when the background is loud.** On a saturated background (red Black Friday), use white text, one white offer box and no confetti, kicker boxes or extra badges. Default to light backgrounds; a saturated background is the exception.
+5. **Space:** about 30% of the canvas stays empty. Text never closer than 7% to an edge (lint checks the actual text).
+6. **Readable for 60+:** smallest text 26px at 1080 wide (lint), headline 80-110px, high contrast, at most two colors plus black/white.
+7. **Squint test:** blur your eyes at the 3 contact-sheet sizes. You should see the shoe, then the headline, then the offer, in that order. If anything else competes, remove it.
+8. **Compare with the inspiration ad side by side.** Ours should be as clean as or cleaner than the winner. If it's busier, cut.
+
+### 1d. Angle gaps (EVERY run, user rule 2026-10-30): test what competitors test and we don't
+1. `python ads/atria_pull.py rivals --wide` (core_competitors + brand.json `angle_rivals`: Footstr, Orthofeet,
+   Kuru, Vionic, OrthoFit, Konjoun, Armadilo, Stryde, etc.) → `data/angle_rivals_<date>.csv`.
+2. Tag every ad's title+body by angle (keyword map, e.g. knee/hip/back, morning first steps, hands-free,
+   age call-out, style, scarcity, anti-counterfeit, reason-why discount) weighted by days running; tag our own
+   concepts (`weeks/*/concepts.json`) and account ads the same way.
+3. Update `research/angle_gaps.md` with a dated table: angle, competitor volume and weight, ours, who pushes it,
+   verdict (GAP / skip with reason: claim risk, wrong product, needs landing page / ask user).
+4. Put 1–3 GAP-angle concepts in every batch (tag `angle_gap`), each with a saved competitor format ref.
+   Reason-why, scarcity and counterfeit angles need a TRUE fact: add `needs_confirmation` and ask the user
+   before launch. Offers we don't run (BOGO etc.) go to the user as a question, never into an ad.
+
+### Image provider and quality (user, 2026-10-30)
+
+`generate.py --provider auto` (default): Kie.ai (`KIE_API_KEY` or `KIE_AI`), same gpt-image-2 model, 2K, ~$0.05/ad;
+falls back to OpenAI at high quality (~$0.22/ad) when the key is missing, and says which it used. Kie has
+no 4:5, so it renders 3:4 and crops to 4:5 (the prompt keeps text and product off the top/bottom 5%).
+Quality is checked exactly as before (QA list in §4). Tested 2026-10-30 (HD_02 text-heavy x-ray, HD_04 product hero): text sharpness and shoe fidelity matched OpenAI
+high, so Kie is the default. If one Kie render fails QA, re-render that one with `--provider openai`. Never drop to medium quality to save money: use Kie instead.
 
 - Read `brand.json`, `research/analysis.md` and `feedback.json` (approved/rejected and why).
 - **Iteration runs**: `atria_pull.py current` (last `iterate_when.days` days, spend ≥ `min_spend`,
   ROAS ≥ `min_roas`, any format), `rising` (same filter, only ads launched in the window), and
   `seasonal --week <current week>` (top spenders by spend in the same window last year, ±7 days).
-- **Net-new runs**: `atria_pull.py inspo`, and refresh `competitors` + the playbook when the brand has
-  one (new long-running formats only).
+- **Net-new runs**: DentalPULSE: `atria_pull.py inspiration` (curated criteria above) is the inspiration source; other brands: `atria_pull.py wellness` (brands with a `wellness` block; else `inspo`), and refresh `competitors` + the playbook when the brand has
+  one (new long-running formats only). Iteration runs also pull `wellness` for their big-swing formats (not DentalPULSE: it uses `inspiration`).
+- **Every run (DentalPULSE; the Oct 28 criteria above replace the competitor/ultrasonic pulls as the inspiration source, keep this for our own winners)**: analyze our own top-spend statics (`winners` + `current`, with the
+  thumbnails via `contact_sheet.py winning_statics_raw.csv`) AND other brands in the category: run
+  `atria_pull.py ultrasonic --brand <brand>` (brand.json -> `ultrasonic_queries`, no brand filter, images and video),
+  filter, `contact_sheet.py --by brand`, read every page, and update analysis.md. At least 40% of a batch must be
+  product-forward iterations of the proven top-spend/top-impression formats (comparison tables, ranking charts,
+  lifestyle hero, big-type offer, quote + badge); gimmick formats are the minority.
 - If Atria returns 401, `ATRIA_API_KEY` isn't set: say so and use existing data. Never look for keys.
 
 ## 2. Write the batch
@@ -134,21 +283,44 @@ prompt), and this skill.
 Sources: `current_winners.csv` (rising first), then `seasonal_<week>.csv`. Each concept names its source
 ad in `based_on` (name, spend, ROAS) and keeps its **concept and angle** (audience, problem, promise, core
 hook). **No net-new ideas.** Make **big swings**: move the angle into a static format the source never
-used (from inspo, the competitor playbook, native and cartoon formats), and re-aim winners at the other
+used (a NEW format from this run's inspiration research, see the format ledger), and re-aim winners at the other
 products/use cases in `program.mix`. Name the new format in `angle`. 2–4 per strong ad, at least 8
 formats. `"group": "iteration"`.
 
 ### Net-new batch: mostly net new
 
 - `netnew_batch.net_new` concepts `"group": "net_new"`: new angles, personas and formats weighted to
-  `grow_personas`; at least 3 formats from the latest inspo pull and (if present) 5 from the competitor
+  `grow_personas`; every format new to the format ledger and discovered in this run's research (`wellness` pull, else `inspo`; plus, if present, the competitor
   playbook.
 - `netnew_batch.winning` concepts `"group": "winning"` in proven formats for `winning_personas`.
 - No angle repeats from this week's iteration batch or any earlier folder.
 
 ### Rules for every batch
 
-- **Mix**: follow `program.mix` exactly (count it before rendering).
+- **Quality benchmark (user rule, Oct 13)**: every concept sets `"benchmark"` to the closest key in
+  `brand.json` → `benchmarks` (the brand's own top statics in `reference/benchmarks/`); `generate.py`
+  attaches it as a style/quality reference and adds `quality_bar`. Write prompts the way the winners look:
+  shoe as the hero (35–60% of the frame, often a pair), tight legs/feet crops, one huge heavy headline,
+  ≤3 solid pills/blocks/arrows. Default render: `--provider auto` (Kie.ai 2K, else OpenAI high). In QA, put each render next to its
+  benchmark and re-render anything that looks like generic AI stock, has a small shoe or a weak headline.
+
+- **Mix**: follow `program.mix` exactly (count it before rendering), plus the funnel split
+  (`program.funnel_mix`; default ~65% top-of-funnel with no price, ~35% offer-based; DentalPULSE 70/30) and `copy_rules` / `naming_rule`.
+  Also apply `program.angle_rules` (winning angles, mix-and-match, foot-pain share), `program.offer`
+  (offer-stack share and exact wording) and `colorway_priority` (best sellers vs test colors) when the
+  brand has them; count each before rendering.
+- **Variety (user rule)**: every concept in a batch uses a different format, and (Comfort Wear) every format is new
+  to the ledger and comes from this run's research. The list below is history/examples, not a menu: the
+  top-impression category formats (analysis.md) and the briefs' formats: insult/shock headline + sticky-note
+  offer, lo-fi real photo with minimal text, imaging/petri/microscope proof, price-anchor replacement,
+  value-stack bundle flat-lay, big quote over product, real-world sign, advertorial article card, native UI
+  (iOS reminder, cart, texts), founder letter, stat pictogram, news split-face, hand + arrows offer,
+  ranking grid / report card, post-it confession, timeline, gift static (cartoon formats only for brands without `banned_formats`; DentalPULSE: never).
+- **Direct response**: pain in the customer's words → agitate → mechanism → proof/offer. Make the top
+  purchase reasons explicit and visual (for DentalPULSE: bacteria and yellow stains). Controversial
+  enemy framing is welcome when the brand asks for it.
+- **No-product concepts**: lo-fi/native images that shouldn't show the product set `"no_product": true`
+  (generate.py then drops the product-fidelity rule and tells the model not to show it).
 - **Unique**: no two concepts share persona + angle. Mix formats: lifestyle photo, product + callouts,
   split/before-after, ranked list/scorecard, native comment/review/post, phone UI (texts, notes, cart,
   incoming call), big-number type, shock close-up, starter-pack flat-lay, premium offer tile, cartoon.
@@ -161,13 +333,16 @@ formats. `"group": "iteration"`.
   possible. Use `approved_claims` at the strength the user asked for; nothing from `claims_to_avoid`;
   product facts exactly (e.g. 5 minutes). Name the old method (`old_methods`) when allowed; competitor
   products stay unbranded unless the user allows names.
-- **Spanish** (if enabled): written natively as US Latinos talk (`tú`, Mexican-leaning everyday
+- **Spanish** (if enabled; Comfort Wear: disabled since 2026-10-28): written natively as US Latinos talk (`tú`, Mexican-leaning everyday
   phrasing, family/coworker framing, US number format), never translated or Spain-style.
 - **Native formats (user rule)**: testimonials/reviews use `"format": "fb_comment"` or `"trustpilot"`;
   tweet-style ads use `"format": "x_post"`. Give exact names, handle, text, date and counts. Review text
   comes from real customer language (survey/reviews); names first name + last initial; no TrustScore,
   overall rating, "Verified" badges or platform logos.
-- **Cartoon/animation formats (user rule)**: ~15–20% of every batch sets `"format"` to `cartoon_3d`,
+- **Cartoon/animation formats: never for DentalPULSE (banned Oct 28, brand.json `banned_formats`).** For other brands: Use one ONLY when this run's
+  inspiration research (same criteria: image, active, launched ≤45 days, 10+ days running, health & wellness)
+  surfaces an illustrated/animated static worth borrowing; it then counts as a new format (`format_name`,
+  `format_source`). Brands without that rule keep their own share. Styles available via `"format"`: `cartoon_3d`,
   `comic_strip`, `flat_illustration`, `claymation`, `retro_cartoon` or `anime_soft`. `generate.py`
   swaps the photo-quality rule for an illustration rule that keeps the product recognizable. Mix styles.
   Proven ideas: product as hero while cute cartoon germs flee; 4-panel comic (problem → friend's
@@ -183,10 +358,20 @@ python ads/generate.py --brand <brand> --week <folder> <ids>              # para
 python ads/generate.py --brand <brand> --week <folder> --gif-only <ids>   # GIFs for approved statics
 python ads/generate.py --brand <brand> --week ../format_examples <ids>    # format tests
 python ads/review.py cost --brand <brand> --week <folder>                 # actual spend
+python ads/format_ledger.py --brand <brand> check --week <folder>         # new formats only (before render)
+python ads/format_ledger.py --brand <brand> add --week <folder>           # record them (after shipping)
 ```
 
-Measured gpt-image-2 cost per static ≈ $0.08 (medium 4:5 render + low 9:16 extension); GIF ≈ $0.14.
-`--quality high` only for product close-ups. Shell gotcha: never `pkill -f`/`pgrep -f` a pattern that
+Default `--layout feed` (user rule, Oct 18): one native 4:5 render per ad via `--provider auto` (see §1 Image provider)
+(headline upper third, product/scene large in the middle, copy or offer lower; edge-to-edge scene, at least
+6% margin around text). No 9:16 is made. Older layouts (`native` 9:16 + 4:5 re-layout, `extend` outpaint)
+remain available by flag but are not used. `generate.py` center-crops instead of stretching when the API
+returns another aspect ratio, so the shoe is never squashed. If the image API rejects a prompt for safety
+(e.g. chemicals + mouth = "self-harm"), reframe the visual and retry.
+
+Cost: Kie.ai 2K ≈ $0.05 per ad; OpenAI high ≈ $0.22 (measured 2026-10-27/30); OpenAI medium ≈ $0.08 (not used: quality too low). Check `review.py cost` after every
+batch and report cost per ad. GIF ≈ $0.14.
+Shell gotcha: never `pkill -f`/`pgrep -f` a pattern that
 also appears in your own command line (it kills or matches the shell itself); wait on renders by
 counting `*_4x5.png` files instead.
 
@@ -201,7 +386,15 @@ counting `*_4x5.png` files instead.
 - wrong product facts (e.g. a 3-minute timer), claims outside `approved_claims`;
 - wrong people using the product, distorted hands/mouths/appliances;
 - weak before/after (the "before" must look clearly worse);
-- a native format that doesn't look like the real platform, or competitor logos.
+- a product forced into a `no_product` concept, two copies of the product, bundle items at the wrong scale
+  (accessories must look smaller than the hero product), non-physical items (warranties) shown as objects;
+- a 4:5 with cut-off copy, less than ~6% margin around text, or blurred/empty/filler bands;
+- a compressed, flattened, shortened or stretched shoe, or a shoe that's too small in the scene;
+- supporting text (labels, pills, checklist, offer lines) too small to read for the audience (Comfort Wear:
+  women 60+, see the legibility rule in `quality_bar`);
+- any purple or other colored text, or a headline whose lines differ in size or weight (Comfort Wear rule 2026-10-28);
+- a native format that doesn't look like the real platform, or competitor logos;
+- (DentalPULSE) wrong or mixed appliance shapes, an appliance as big as the Pod, tiny/unclear gifts, headline sizes that differ between ads, no visible bacteria/yellow, a blank or empty photo area, anything that looks AI-generated or rendered (plastic skin, glossy 3D, melted/duplicated letters, impossible hands or appliances, oversaturated glow), any cartoon/comic/joke tone, copy that isn't direct response, fonts other than Inter/Barlow (serif, script, rounded display), an offer that doesn't match the current offer exactly, or a concept whose appliance/funnel mix is off (50/25/25, 70/30).
 `review.py sheet` with ids overwrites page 1: delete `_preview_*` and rebuild the full sheets at the end.
 
 ## 5. Verdicts
@@ -216,10 +409,10 @@ prompt. Rejected concepts get one regeneration with the fix; approved GIF candid
 2. Drive: subfolder "<folder>" under `drive_folder_id` (reuse if present), then a Google Sheet
    "<folder> concepts" from `python ads/review.py csv --brand <brand> --week <folder>` (create_file,
    `textContent`, `contentMimeType: text/csv`; trash an older sheet for the same folder first). Images
-   are too large for the Drive connector, so the sheet links to each 9:16/4:5/GIF on GitHub.
+   are too large for the Drive connector, so the sheet links to each 4:5/GIF on GitHub.
 3. Slack: DM `slack.notify_channel_id`: "**<Brand> <batch type> ready: <folder> (<n> concepts)**", links
    to the sheet, Drive folder and GitHub output folder, then one line: mix split · source ads
-   (iterations) · competitor formats · cartoon count · Spanish count · GIF candidates · image cost.
+   (iterations) · new formats and their inspiration ads · angle and pain split · offer count · Spanish count (if enabled) · GIF candidates · image cost.
    Mention anything skipped. Also DM rule/format changes the user should know about.
 
 ## Routine prompt template (one routine per brand; fill every <…>; see the live DentalPULSE routine)
@@ -240,16 +433,16 @@ User rules:
 - Claims: <how aggressive; approved_claims>; keep out claims_to_avoid.
 - The enemy is <old methods, named/unnamed>; competitors <unbranded/named>.
 - Borrow formats from research/analysis.md <playbook section>.
-- Cartoon/animation formats: ~15–20% of every batch (3–4 Tue, 6–8 Fri): cartoon_3d, comic_strip,
-  flat_illustration, claymation, retro_cartoon, anime_soft. Examples in format_examples/.
+- Formats: NEW every run, discovered in this run's inspiration pull (`atria_pull.py wellness` or `inspo`),
+  checked with `format_ledger.py check`. Cartoon/animation only when the research surfaces one (no quota).
 
 Check today's weekday in America/New_York:
 - Tuesday → ITERATION batch: folder weeks/<current ISO week>-tue, ids T<ww>_nn_slug, <n> concepts
   (<mix counts>), ONLY iterations of `atria_pull.py current` + `seasonal --week <current week>`
-  winners, big-swing formats from inspo/competitor playbook/cartoon; based_on names the source ad.
+  winners, big-swing NEW formats from this run's inspiration research; based_on names the source ad.
 - Friday → NET-NEW batch: refresh `atria_pull.py competitors` (if the brand has competitor_brands);
   folder weeks/<coming ISO week>-fri, ids W<ww>_nn_slug, <n> concepts (<mix counts>): ~80% net_new
-  (grow personas, ≥3 inspo formats, ≥5 playbook formats), ~20% winning personas. Don't repeat angles
+  (grow personas, all formats new to the ledger), ~20% winning personas. Don't repeat angles
   from earlier folders (<list one-off folders>).
 - Any other day: say so and stop.
 
@@ -264,3 +457,59 @@ skill's QA list; 5) commit/push, Drive subfolder + "<folder> concepts" sheet; 6)
 of the summary; 7) short summary with counts, sources, re-renders, cost, Atria status, links.
 If this run's extra instructions say TEST RUN, do only what they say and nothing else.
 ```
+
+
+## 7. Live requests from reference images (user, 2026-10-27 to 10-30)
+
+Most live work is: the user pastes 1-5 ads from other brands ("make these for our shoes", "nurse version",
+"60% off version", "make it in red and White Blue"). Workflow and lessons:
+
+**Setting up**
+- Save each reference to `reference/benchmarks/<prefix>_ref_<slug>.<ext>`, register it in `brand.json` →
+  `benchmarks` with a `use_for` description, and set `"format_ref": true` on the concept. generate.py then
+  attaches it as a LAYOUT reference and forbids copying any of its words or adding unrequested headlines.
+- If an image only came through in chat (not saved as a file), describe the layout in the prompt instead.
+- Words come from §1b (our winners, briefs, scripts, reviews) and §1c (Hike/Stepprs patterns), never from the
+  reference. State what you changed from the reference and why (claims, prices, codes, counts, logos).
+- One folder per request batch: `weeks/<YYYY>-W<ww>-<tag>` with a short id prefix (e.g. `O48_`, `TF_`, `HD_`).
+- Black Friday letter/notice formats: `"style": "letter"` (plain typed note, big body text, bold key phrases).
+- Brand logo on an object (travel bag, shoe box): `"logo": true` (attaches `reference/logo_comfortwear.png`).
+
+**Variants of an approved render** ("same but red", "60% version", "nurse version", "pastel background")
+- Register the approved PNG as `benchmarks.approved_<ID>` and create a new concept with
+  `"benchmark": "approved_<ID>", "copy_of": "<ID>_vN"`; end the prompt with "Compared with the second attached
+  image: identical …; only X changes." generate.py then copies that render exactly except the change.
+- A fix of the same concept bumps the version (`_v2`, `_v3`); a new color/offer/persona is a new id.
+- When the shoe color changes, adapt accent colors to match the shoe unless the user says otherwise; offer it.
+- Drop the approved-render benchmark when it is the cause of the problem (it pulled bodies slim and shoes long).
+
+**QA lessons from these rounds (check every image for these)**
+- The model copies the reference's own words or repeats our headline (top + bottom, typed text over handwriting,
+  a question both as headline and in the card). Re-render with "the ONLY text is …".
+- Curved/ring text and long wobbly words garble (BLACCK, WALKINIG, BLACLE): use straight text in badges and add
+  "spell X exactly".
+- Top-down shoes come out elongated: use a three-quarter view.
+- "Worn-out / before" shoes come out as OUR shoe or with brand-like stripes/swooshes: say "plain generic unbranded
+  lace-up sneaker, NOT a sock-knit shoe, no stripes or logo shapes".
+- Plus-size models come out slim unless the body is described explicitly (US size 22-24, full thighs/calves/hips,
+  belly, crop that shows the figure).
+- Pairs drift to the frame edge or overlap: give width % and margin ("each ~35% of width, 6% margin").
+- Small inset photos often show a wrong shoe; the hero shoe must be checked separately from insets.
+- Theme-park scenes may add a castle: say "no castles, characters or park logos" every time.
+
+**Compliance defaults (flag, don't silently drop)**
+- Competitors: names in text only, no logos; compare design features, never unverifiable claims ("collapses after
+  2 months"); no made-up scores or customer counts.
+- Prices/discounts must add up: flag "$120 → $59.95" next to "40% OFF" (that is ~50%), and stacked codes
+  (60% + 10% = ~64%, not 70%). Strike-through price is $120 (user, 2026-10-29), never $90.
+- Native FB/Reddit/X posts with invented names: flag that real quotes (with permission) are safest.
+- Medical framing: no cure/relief/prevents-falls claims; condition words only in a customer quote; "sensitive feet"
+  not "your neuropathy" (Meta personal-attributes policy).
+- Source labels: "ComfortWear Comfort Guide", never a fake news or review site; HSA/FSA: "eligibility may vary".
+
+**Delivering**
+- Send every checked image with SendUserFile (`display: render`) as soon as it lands, with a table of what it says
+  and what changed; hold back and re-render failures instead of sending them.
+- When asked for "everything revised", copy the final version of each requested fix/variant into
+  `revised_<date>/` (numbered, plain-English names + README index), zip it and send the zip (images stay
+  gitignored there; the week folders keep the originals).
