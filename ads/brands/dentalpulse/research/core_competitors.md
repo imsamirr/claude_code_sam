@@ -95,3 +95,17 @@ Guardrails kept: no logos or names on images; no claims that their products fail
 | Sonic white "UP TO 40%" + reviews strip | "40% OFF. Not up to." + Rated 4.8/5 | W46_36 |
 | Sonic tablet box beside the pod / Zima "90 free tablets" | "No tablets in the box. Tap water only." | W46_37 |
 Guardrails kept: no logos or names on images, no claims that their products fail, no counts.
+
+## 2026-11-10 (Tuesday W46 read: 149 ads; Zima 96 = 50 video + 46 image; Sonic 53 = 52 image + 1 video; 142 active)
+**Since Nov 6:** 52 new ads, 51 stopped. Sheets: `sheets/core_competitors_2026-11-10_1-2.jpg` (all read); full copy of every active ad read from `data/core_competitors_2026-11-10.csv`.
+- **Sonic:** still the "Black Friday: Up to 40% Off" family (EN/FR/DE, now 10d, ~45 ads). New: **Sonic Odyssey** cordless (names aligners, retainers, dentures, mouthguards), "Save up to 39% Pro + Go Bundle" white "Complete duo" tile, "#1 Aligner Cleaner Worldwide" (counts are theirs, "3 minutes a day"), "Say Goodbye to Grimy Retainers" (500,000 customers). Longest image: "Up to 30% Off" (146d). No proof devices, no customer language.
+- **Zima:** hooks unchanged (11,000+ / 20,000+ dentists, 3500+ dental offices, "Rated 5 stars", Double Award-Winner). New statics: incoming-call UI "A retainer that's clean AND protected is calling", "Cleaner retainers with Zima's 360 Bundle" quote + stars + "150,000+ happy customers", pink "Starter Bundle / Exclusive offer / Don't miss out" sticker tile, "THE clean girl routine" numbered starter pack (18d), kaleidoscope "now online at John Lewis" / "now portable" pattern tiles, Pod Go (3-minute cycle, free carry case). Still retainer-first; the only denture static is "The best way to keep Dad's dentures clean".
+### Answers written this run (rival field set on 5 of 20 = 25%)
+| Their angle | Our answer (approved claims only) | Concept |
+|---|---|---|
+| Zima "clean girl" starter pack flat-lay | numbered "yellow denture rescue kit": Pod + free case + free bag, 40% OFF | T46_09 |
+| Zima pink "Starter Bundle / Exclusive offer" sticker tile (Save 10%) | "The Denture Bundle: 40% OFF + free case and bag" | T46_10 |
+| Sonic "Complete duo / Save up to 39%" white tile | "Night guard in. Bacteria out. 40% OFF." (flat 40%, not "up to") | T46_15 |
+| Sonic "Black Friday: Up to 40% Off" family | giant BLACK / 40% OFF / FRIDAY on aligners + free gifts | T46_16 |
+| Zima incoming-call "clean AND protected" | "Your retainer's white film is calling..." with decline/accept and the 5-minute answer | T46_19 |
+Guardrails kept: no logos or names on images, no claims that their products fail, no counts.

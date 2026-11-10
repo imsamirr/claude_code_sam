@@ -1,0 +1,420 @@
+{
+ "week": "2026-W46-tue",
+ "concepts": [
+  {
+   "id": "T46_01_den_smell_ribbon",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "smell_get_ribbon",
+   "benchmark": "rv_w46t_odrx_smell_ribbon",
+   "format_ref": true,
+   "angle": "Loud \"X SMELL? GET Y\" two-line hook with a Dentist-recommended ribbon",
+   "based_on": "Source: IMG_DEN64 'read this before you consider ultrasonic cleaners' 51_12 ($3.4K, ROAS 2.42; 51_3 $1.7K, 2.36). Reference: Clarifion 'CAT PEE SMELL? GET ODRX' cyan static (24d, top 4.4%). Dentist-recommended = approved claim (no counts).",
+   "headline": "Denture slime? Get an ultrasonic cleaner.",
+   "prompt": "Recreate the layout of the SECOND attached image: a bright cyan-blue static. The left half is a flat bright blue (#1188FF) text field, the right half is a real photo of a white bathroom vanity with a tiled wall. On the blue field, huge heavy white text on two lines \"DENTURE SLIME?\" and under it a smaller white \"GET AN\" then a huge navy #0E283C \"ULTRASONIC CLEANER\" on two lines. In the photo (right and lower), the white DentalPULSE Pod from the first reference image rests on the vanity with a mustard-yellow slimy full denture beside it (half the Pod width). A pink-to-blue ribbon banner at the bottom left reads \"Dentist-recommended\" in white bold, with \"Tap water. 5 minutes.\" in small white under it. IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: every stained denture is UNMISTAKABLY yellow at first glance (mustard-yellow to brown stain on the teeth, dull yellow-beige film on the gums), clearly different from a clean denture. The appliance is a real full denture with pink gums and a full tooth row; no aligner anywhere, the Pod lid is closed or empty."
+  },
+  {
+   "id": "T46_02_den_shelf_no_tablets",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "shelf_caption_top",
+   "benchmark": "rv_w46t_shelf_better_none_junk",
+   "format_ref": true,
+   "angle": "Bathroom-shelf product photo with a two-line caption: slimy yellow dentures, none of the tablets",
+   "based_on": "Source: VID_DEN24 'You've Been Lied To' ($2.6K, ROAS 2.87: brush + tablet is outdated). Reference: California Naturals 'Better hair. None of the junk.' shower-shelf photo (13d, top 2.4%). No hands in our version.",
+   "headline": "Slimy, yellow dentures? None of the tablets.",
+   "prompt": "Recreate the layout of the SECOND attached image: a real phone-style photo of a white tiled bathroom wall with a recessed tile shelf (niche); two lines of small bold dark text at the top-left of the tile wall, \"SLIMY, YELLOW DENTURES?\" and \"NONE OF THE TABLETS.\" (like text printed on the wall). On the shelf the white DentalPULSE Pod from the first reference image, closed, and next to it a mustard-yellow slimy full denture resting on the shelf (half the Pod width). No hands, no bottles. Soft daylight from the side, slightly grainy. IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: every stained denture is UNMISTAKABLY yellow at first glance (mustard-yellow to brown stain on the teeth, dull yellow-beige film on the gums), clearly different from a clean denture. The appliance is a real full denture with pink gums and a full tooth row; no aligner anywhere, the Pod lid is closed or empty."
+  },
+  {
+   "id": "T46_03_den_love_this_arrow",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "love_this_arrow",
+   "benchmark": "rv_w46t_love_this_arrow",
+   "format_ref": true,
+   "angle": "\"People with X love this\" + arrow to the Pod, 3 proof lines",
+   "based_on": "Source: DEN81 H1 '6 of 7 pods can't remove bacteria' ($1.6K, ROAS 2.94). Reference: Nova 'Women with Gluteal Tendinopathy love this' arrow ad (17d, top 2.7%). Customer words: 'never felt clean', 'still see food on it'.",
+   "headline": "Denture wearers sick of tablets love this",
+   "prompt": "Recreate the layout of the SECOND attached image: a deep dark-green (#0F3B33) static. Top-left big white bold headline \"Denture wearers sick of tablets love this\" with a thin light-green curved arrow pointing down-right to the product. Lower right: the white DentalPULSE Pod from the first reference image photographed on a bathroom vanity in front of the dark green tile wall, with a mustard-yellow slimy full denture beside it (half the Pod width). On the left, three short white lines \"Kills 99.9% of bacteria\" / \"Lifts the yellow film\" / \"Tap water only, no tablets\", and at the bottom-left bold white \"CLEAN IN 5 MINUTES\". IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: every stained denture is UNMISTAKABLY yellow at first glance (mustard-yellow to brown stain on the teeth, dull yellow-beige film on the gums), clearly different from a clean denture. The appliance is a real full denture with pink gums and a full tooth row; no aligner anywhere, the Pod lid is closed or empty.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the three white text lines on the left and the bottom headline.",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the curved arrow and headline, leaving the Pod and denture on the vanity.",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T46_04_den_blue_link_headline",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "blue_link_headline",
+   "benchmark": "rv_w46t_blue_link_headline",
+   "format_ref": true,
+   "angle": "Native headline with a blue underlined teaser line over a real bathroom photo",
+   "based_on": "Source: IMG_DEN64 51_3 ($1.7K, ROAS 2.36) advertorial story. Reference: WolfRoots groomer ad with blue underlined headline (8d, top 1.2%). Teaser headline; the photo shows the mechanism. Person is an actor-style stock look: flag.",
+   "headline": "Most dentures end up slimy and yellow. Except the ones whose owners do one thing most people won't try.",
+   "prompt": "Recreate the layout of the SECOND attached image: a white top band with two lines of bold black Inter text \"Most dentures end up slimy and yellow.\" then a blue underlined link-style line \"Except the ones whose owners do one thing most people won't try.\" Under it a real wide photo of a real home bathroom: a friendly 70-year-old woman with grey hair standing at the vanity, smiling at the camera, both hands resting at her sides (not touching anything); on the counter in front of her the white DentalPULSE Pod from the first reference image (lid closed) and a mustard-yellow slimy full denture on a small dish beside it (half the Pod width). IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: every stained denture is UNMISTAKABLY yellow at first glance (mustard-yellow to brown stain on the teeth, dull yellow-beige film on the gums), clearly different from a clean denture. The appliance is a real full denture with pink gums and a full tooth row; no aligner anywhere, the Pod lid is closed or empty."
+  },
+  {
+   "id": "T46_05_den_sticky_note_yellow",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "sticky_note_object",
+   "benchmark": "rv_w46t_dryer_sticky_note",
+   "format_ref": true,
+   "angle": "Lo-fi object photo + sticky note + 3-reasons line + button",
+   "based_on": "Source: seasonal '11/5 Denture Native 4' ($75, ROAS 5.72 this week last year; lifetime $12.0K, 2.30) + DEN24 tablet enemy. Reference: Get.jcked 'The dryer shrunk it. Again.' (8d). Polident named as the old method (allowed).",
+   "headline": "The tablets turned them yellow. Again.",
+   "prompt": "Recreate the layout of the SECOND attached image: a lo-fi real phone photo with an off-white wall. A huge heavy white-on-dark-grey headline across the top \"THE TABLETS TURNED THEM YELLOW. AGAIN.\" with a small white line under it \"Every denture wearer who soaks overnight has said it.\" The photo: a mustard-yellow slimy full denture resting on the white edge of a bathroom sink next to the closed white DentalPULSE Pod from the first reference image (denture half the Pod width), a small yellow sticky note stuck on the tiled wall behind reading \"TABLETS' FAULT\". Bottom: white text \"Here are 3 reasons dentures stay yellow and slimy after soaking: film, bacteria, and grooves a brush can't reach.\" and a rounded blue #1188FF button \"SEE THE 5-MINUTE FIX >\". IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: every stained denture is UNMISTAKABLY yellow at first glance (mustard-yellow to brown stain on the teeth, dull yellow-beige film on the gums), clearly different from a clean denture. The appliance is a real full denture with pink gums and a full tooth row; no aligner anywhere, the Pod lid is closed or empty.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the sticky note and the bottom text and button.",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the headline.",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T46_06_den_kraft_questions",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "kraft_handwritten",
+   "benchmark": "rv_w46t_kraft_handwritten",
+   "format_ref": true,
+   "angle": "Handwritten questions on kraft paper, top-down lo-fi photo",
+   "based_on": "Source: TOFv1_A30 'Top 7 Ultrasonic Cleaners for Dentures' ($877, ROAS 2.28) + DEN81 H3 lab test ($5.8K, 1.96). Reference: Wonderly 'Before I drive over' kraft-paper note (7d, top 8.5%). 6-of-7 lab test is an approved claim.",
+   "headline": "Before you buy another pod: does it leave live bacteria?",
+   "prompt": "Recreate the layout of the SECOND attached image: a top-down raw phone photo of brown kraft paper taped to a white bathroom tile floor with blue painter's tape. Handwritten in black marker (handwriting is correct here) \"BEFORE YOU BUY ANOTHER POD:\" then three lines \"Does it need tablets?\" / \"Does it leave live bacteria?\" / \"Is there a 120-day guarantee?\" and in smaller handwriting at the bottom \"DentalPULSE: tap water, 5 minutes, #1 in a 90-day lab test of 7.\" At the top edge of the paper rest the closed white DentalPULSE Pod from the first reference image and a mustard-yellow slimy full denture beside it (half the Pod width). A pair of grey house slippers visible at the bottom edge. IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: every stained denture is UNMISTAKABLY yellow at first glance (mustard-yellow to brown stain on the teeth, dull yellow-beige film on the gums), clearly different from a clean denture. The appliance is a real full denture with pink gums and a full tooth row; no aligner anywhere, the Pod lid is closed or empty."
+  },
+  {
+   "id": "T46_07_den_sceptical_card",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "highlighted_quote_card",
+   "benchmark": "rv_w46t_purple_sceptical_card",
+   "format_ref": true,
+   "angle": "Skeptic-turned-fan quote card: two photos, highlighted quote, stars",
+   "based_on": "Source: seasonal '11/5 Denture Native - Story - Advertorial 1' ($514, ROAS 1.65) + feedback 'my wife noticed first'. Reference: Dr Dent 'Sceptical man upgrades morning routine' purple card (24d). Quote is an invented persona: use a real customer quote with permission.",
+   "headline": "Skeptical denture wearer swaps tablets for a 5-minute ultrasonic cleaner.",
+   "prompt": "Recreate the layout of the SECOND attached image: a deep navy-to-blue gradient vertical card. Top: a header on a pale highlighted bar in white-on-blue \"Skeptical Denture Wearer Swaps Tablets for a 5-Minute Ultrasonic Cleaner\". Under it a small quote in white: \"I figured it was an internet gimmick. Then my husband noticed my dentures were white again, no slime.\" with the phrase \"my dentures were white again, no slime\" highlighted yellow. Two side-by-side rounded photos: left a mustard-yellow slimy denture on a bathroom counter with a small white tag \"Yellow film\"; right a clean white-bright denture beside the closed white DentalPULSE Pod from the first reference image (denture half the Pod width) with a small tag \"5 minutes, tap water\". Under the photos five plain gold stars and \"Rated 4.8/5\". IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: every stained denture is UNMISTAKABLY yellow at first glance (mustard-yellow to brown stain on the teeth, dull yellow-beige film on the gums), clearly different from a clean denture. The appliance is a real full denture with pink gums and a full tooth row; no aligner anywhere, the Pod lid is closed or empty."
+  },
+  {
+   "id": "T46_08_den_trial_40",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "denture_full",
+   "format_name": "giant_numeral_trial",
+   "benchmark": "rv_w46t_trial_70_orange",
+   "format_ref": true,
+   "angle": "Giant numeral + guarantee line + pill row over a warm bathroom product shot",
+   "based_on": "Source: 'Denture - 40% OFF' PDP static (lifetime $12.1K, ROAS 3.27). Reference: Pillow Haven '70% off. 100 nights to try it.' (13d, top 1.9%). 120-day guarantee + 40% sitewide = approved.",
+   "headline": "40% off. 120 days to try it.",
+   "prompt": "Recreate the layout of the SECOND attached image: a warm amber-lit bathroom background (soft evening vanity light, dark tile wall). Huge white Barlow Bold \"40%\" at the top, under it bold white \"off. 120 days to try it.\" and a smaller light line \"If your dentures are still yellow and slimy, send it back.\" In the lower half the white DentalPULSE Pod with its two free gifts (black travel bag, dark denture case) on the vanity and a mustard-yellow slimy full denture in front (half the Pod width). A dark rounded pill at the bottom with three items \"Shop now\" | \"Free shipping\" | \"120-day guarantee\". IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: every stained denture is UNMISTAKABLY yellow at first glance (mustard-yellow to brown stain on the teeth, dull yellow-beige film on the gums), clearly different from a clean denture. The appliance is a real full denture with pink gums and a full tooth row; no aligner anywhere, the Pod lid is closed or empty.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the bottom pill and the small guarantee line.",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the giant 40% headline text.",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T46_09_den_starter_pack",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "denture_full",
+   "format_name": "numbered_flatlay",
+   "benchmark": "rv_w46t_zima_starter_pack",
+   "format_ref": true,
+   "angle": "Rival answer: numbered flat-lay starter pack with free gifts and yellow-to-clean proof",
+   "based_on": "Source: '40% Off + Free Gifts' offer static (lifetime $0.4K, ROAS 3.04). Reference: Zima 'THE clean girl routine' starter-pack flat-lay (18d). Answers their starter-pack/gifting angle with 40% + free case + free bag.",
+   "headline": "The yellow denture rescue kit",
+   "rival": "Zima \"clean girl\" starter-pack flat-lay (18d)",
+   "prompt": "Recreate the layout of the SECOND attached image: a light off-white bathroom marble counter shot overhead (flat-lay) with a small light-blue rounded pill-tag at the top reading \"40% OFF\" above a big two-line dark title \"THE yellow denture\" / \"rescue kit\". Items arranged with small numbers in parentheses: (01) the white DentalPULSE Pod (closed), (02) the black zip travel bag with clear window, (03) the smoky dark-grey denture case with a blue denture brush, (04) a mustard-yellow slimy full denture (half the Pod width). A light-blue rounded pill at the bottom \"Free case + free travel bag + free shipping\". Nothing else. IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: every stained denture is UNMISTAKABLY yellow at first glance (mustard-yellow to brown stain on the teeth, dull yellow-beige film on the gums), clearly different from a clean denture. The appliance is a real full denture with pink gums and a full tooth row; no aligner anywhere, the Pod lid is closed or empty.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the numbers and the bottom pill.",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the title and the 40% OFF tag.",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T46_10_den_bundle_sticker",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "denture_full",
+   "format_name": "exclusive_bundle_sticker",
+   "benchmark": "rv_w46t_zima_starter_bundle",
+   "format_ref": true,
+   "angle": "Rival answer: Exclusive Bundle tile with round sticker, 40% + free gifts",
+   "based_on": "Source: 'Denture - 40% OFF' PDP static (lifetime $12.1K, ROAS 3.27). Reference: Zima 'The Starter Bundle / Exclusive offer / Don't miss out' pink tile (0d). Their offer is Save 10%; ours 40% + free case + free travel bag.",
+   "headline": "The Denture Bundle: 40% OFF + free case and bag",
+   "rival": "Zima Starter Bundle \"Save 10%\" pink tile (0d)",
+   "prompt": "Recreate the layout of the SECOND attached image: a pale grey bathroom counter with soft window light and a blurred white tile wall. Top: small grey caps \"ULTRASONIC CLEANER + FREE CASE + FREE TRAVEL BAG\", under it a big navy title \"The Denture Bundle\" and a rounded outlined pill \"40% OFF SITEWIDE\". Large in the middle: the white DentalPULSE Pod (closed) with the black travel bag beside it (about the Pod size) and the open smoky dark-grey denture case in front showing a mustard-yellow slimy full denture inside (the case is about half the Pod width). A round blue #1188FF sticker at the upper right, slightly rotated, reading \"FREE SHIPPING\". Small navy line at the bottom \"Yellow film out in 5 minutes. Tap water only.\". IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: every stained denture is UNMISTAKABLY yellow at first glance (mustard-yellow to brown stain on the teeth, dull yellow-beige film on the gums), clearly different from a clean denture. The appliance is a real full denture with pink gums and a full tooth row; no aligner anywhere, the Pod lid is closed or empty."
+  },
+  {
+   "id": "T46_11_ng_three_lines",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "night_guard",
+   "format_name": "macro_three_lines",
+   "benchmark": "rv_w46t_necklace_three_lines",
+   "format_ref": true,
+   "angle": "Close macro photo with three stacked short lines bottom-left",
+   "based_on": "Source: seasonal '11/11 I tell everyone, invisalign dirtier' ($148, ROAS 0.95) + feedback 'my old night guard looked gross yellow and cloudy' (night guard buyers: yellow 71%). Reference: Simple & Dainty 'Sleep in it. Shower in it. Live in it.' (32d). Never promises set-in yellow vanishes in one cycle.",
+   "headline": "Clench in it all night. Clean it in 5 minutes. No more yellow film.",
+   "prompt": "Recreate the layout of the SECOND attached image: a real close-up macro photo, shallow depth of field, soft window light: a thick rigid mustard-yellow night guard (almost brown at the edges, milky film) resting on a white ceramic bathroom sink ledge, with the white DentalPULSE Pod from the first reference image blurred softly beside it in the background (the night guard about half the Pod width). Bottom-left over a soft darker area, three short stacked lines of small white text: \"Clench in it all night.\" / \"Clean it in 5 minutes.\" / \"No more yellow film.\" and under them a tiny line \"DentalPULSE ultrasonic cleaner\". IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: the night guard is a thick rigid horseshoe-shaped tray about 3 mm thick, bulkier than an aligner, UNMISTAKABLY dirty at first glance: deep mustard-yellow, almost brown at the edges, with milky film and chalky white spots. No aligner, no denture, no wire anywhere; the Pod lid is closed or empty."
+  },
+  {
+   "id": "T46_12_ng_loud_yellow",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "night_guard",
+   "format_name": "loud_yellow_rounded_photo",
+   "benchmark": "rv_w46t_yellow_stop_living",
+   "format_ref": true,
+   "angle": "Loud yellow field with heavy headline and rounded photo",
+   "based_on": "Source: VID_DEN24 'You've Been Lied To' ($2.6K, ROAS 2.87) re-aimed at night guards + feedback 'gross yellow and cloudy' (68% of night guard buyers). Reference: Sakoon 'Stop living with daily pain' loud yellow static (9d, top 1.5%). Yellow field is the reference palette.",
+   "headline": "Stop sleeping in a yellow, bacteria-coated night guard.",
+   "prompt": "Recreate the layout of the SECOND attached image: a flat bright yellow (#F2E52B) static. Huge heavy black italic-weight Inter ExtraBold headline at the top on three lines \"STOP SLEEPING IN A YELLOW, BACTERIA-COATED NIGHT GUARD.\" Under it a large rounded-corner photo: a real bathroom vanity with the white DentalPULSE Pod from the first reference image and a deep mustard-yellow thick night guard beside it (half the Pod width); in the lower part of the photo a black italic text line \"BACTERIA + FILM GONE IN 5 MINUTES\". A black rounded button at the bottom \"SEE HOW IT WORKS >\". IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: the night guard is a thick rigid horseshoe-shaped tray about 3 mm thick, bulkier than an aligner, UNMISTAKABLY dirty at first glance: deep mustard-yellow, almost brown at the edges, with milky film and chalky white spots. No aligner, no denture, no wire anywhere; the Pod lid is closed or empty.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the button and the line inside the photo.",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the headline.",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T46_13_ng_this_is_how",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "night_guard",
+   "format_name": "photo_left_big_text_right",
+   "benchmark": "rv_w46t_this_is_how_i",
+   "format_ref": true,
+   "angle": "Product photo left, huge bold first-person text right",
+   "based_on": "Source: seasonal '11/6 No Scrubbing Retainers' ($90, ROAS 1.64) + feedback 'it did not stop the guard from discoloring', 'tablets made it fragile'. Reference: Clarifion 'This is how I eliminate the cat pee smell in my home' (11d). Promise limited to stopping the yellowing, never set-in stains in one cycle.",
+   "headline": "This is how I stop my night guard turning yellow in 5 minutes.",
+   "prompt": "Recreate the layout of the SECOND attached image: a light grey static. The left third is a tall photo of a white bathroom wall shelf with the white DentalPULSE Pod from the first reference image on it and a deep mustard-yellow thick night guard resting beside it (half the Pod width), cropped tight. The right two thirds are huge heavy left-aligned black text on several lines \"THIS IS HOW I STOP MY NIGHT GUARD TURNING YELLOW IN 5 MINUTES\" with the words \"TURNING YELLOW\" in blue #1188FF, and a small line at the bottom right \"Tap water only. No tablets.\" IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: the night guard is a thick rigid horseshoe-shaped tray about 3 mm thick, bulkier than an aligner, UNMISTAKABLY dirty at first glance: deep mustard-yellow, almost brown at the edges, with milky film and chalky white spots. No aligner, no denture, no wire anywhere; the Pod lid is closed or empty."
+  },
+  {
+   "id": "T46_14_ng_venn",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "night_guard",
+   "format_name": "venn_two_circles",
+   "benchmark": "rv_w46t_venn_two_circles",
+   "format_ref": true,
+   "angle": "Venn diagram: brushing vs tablets, what is left in the overlap",
+   "based_on": "Source: DEN81 H4 \"6 of 7 pods can't remove bacteria\" ($3.2K, ROAS 2.28) re-aimed at night guards + tablet/brush enemy. Reference: We Feed Raw Venn circles (7d). No unverifiable claims: only what brushing and tablets visibly leave.",
+   "headline": "Brushing misses the grooves. Tablets leave the film. Ultrasound reaches both.",
+   "prompt": "Recreate the layout of the SECOND attached image: a clean white static with two large overlapping thin dark-outline circles. Left circle text \"Brushing misses the grooves.\" Right circle text \"Tablets leave the film.\" In the overlap lens a real photo of a bathroom vanity with a deep mustard-yellow thick night guard (half the Pod width) beside the white DentalPULSE Pod from the first reference image. Below the circles a bold blue #1188FF line \"ULTRASOUND REACHES BOTH.\" and a small navy line \"5-minute ultrasonic cleaner. Tap water only.\" IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: the night guard is a thick rigid horseshoe-shaped tray about 3 mm thick, bulkier than an aligner, UNMISTAKABLY dirty at first glance: deep mustard-yellow, almost brown at the edges, with milky film and chalky white spots. No aligner, no denture, no wire anywhere; the Pod lid is closed or empty."
+  },
+  {
+   "id": "T46_15_ng_complete_duo",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "night_guard",
+   "format_name": "white_overhead_oval_button",
+   "benchmark": "rv_w46t_sonic_complete_duo",
+   "format_ref": true,
+   "angle": "Rival answer: white overhead tile with oval button, 40% not \"up to\"",
+   "based_on": "Source: '40% Off + Free Gifts' ($0.4K, ROAS 3.04) re-aimed at night guards. Reference: Sonic 'The complete duo / Save up to 39%' (0d). Ours: a flat 40% plus free case, free travel bag.",
+   "headline": "Night guard in. Bacteria out. 40% OFF.",
+   "rival": "Sonic \"Complete duo / Save up to 39%\" tile (0d)",
+   "prompt": "Recreate the layout of the SECOND attached image: a clean near-white overhead (top-down) photo on a white bathroom marble counter. Top: tiny navy caps \"THE COMPLETE CLEAN\", then bold navy \"Night guard in. Bacteria out.\" and a smaller line \"Save 40% on every order, not up to.\" Centre: the white DentalPULSE Pod (closed) with its free gifts, the black zip travel bag and the smoky dark-grey denture case with blue brush, and a deep mustard-yellow thick night guard (half the Pod width) on the counter next to them. A small outlined oval button at the bottom \"Shop 40% off\". IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: the night guard is a thick rigid horseshoe-shaped tray about 3 mm thick, bulkier than an aligner, UNMISTAKABLY dirty at first glance: deep mustard-yellow, almost brown at the edges, with milky film and chalky white spots. No aligner, no denture, no wire anywhere; the Pod lid is closed or empty."
+  },
+  {
+   "id": "T46_16_al_black_friday",
+   "group": "iteration",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "aligner",
+   "format_name": "giant_type_black_tag",
+   "benchmark": "rv_w46t_smileset_black_friday",
+   "format_ref": true,
+   "angle": "Rival answer: black field, ghost aligner outlines, giant BLACK / tag / FRIDAY",
+   "based_on": "Source: 'Denture - 40% OFF' PDP static (lifetime $12.1K, ROAS 3.27) re-aimed at aligners. Reference: SmileSet 'BLACK SALE FRIDAY' (10d, top 3.6%). Answers Sonic's 'Black Friday: up to 40% off' with a flat 40% + free gifts.",
+   "headline": "Black Friday: 40% OFF",
+   "rival": "Sonic \"Black Friday: up to 40%\" family (10d, ~45 ads)",
+   "prompt": "Recreate the layout of the SECOND attached image: a black static. Upper 60%: faint translucent grey outlines of clear aligner trays scattered on black, and giant white heavy Inter text \"BLACK\" over \"FRIDAY\" with a blue #1188FF rotated tag between them reading \"40% OFF\". Lower 40%: a dark moody real photo of a bathroom vanity with the white DentalPULSE Pod and its two free gifts (black travel bag, dark denture case) and a thin amber-yellow aligner with milky film in front (half the Pod width), and a small white line \"Free case. Free travel bag. Free shipping.\" IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: the clear aligner is a thin trimmed tray with visible tooth contours, UNMISTAKABLY dirty at first glance: strong amber-yellow tint like weak tea, thick milky film and chalky white spots, nothing like a clean clear tray. No denture or night guard anywhere.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the bottom white line.",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the 40% OFF tag.",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T46_17_al_sink_lofi",
+   "group": "iteration",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "aligner",
+   "format_name": "lofi_sink_overlay",
+   "benchmark": "rv_w46t_sink_lofi_clutter",
+   "format_ref": true,
+   "angle": "Raw cluttered-sink phone photo with a headline overlay",
+   "based_on": "Source: seasonal '11/6 Never brush retainer again - Listicle' ($321, ROAS 0.89, same week last year) + feedback 'white film', 'always seeing something left on my appliance'. Reference: Primals 'Look closely at the bristle' lo-fi sink photo (11d).",
+   "headline": "White film on your aligner? That's bacteria. 5 minutes, tap water.",
+   "overlay": {
+    "headline": "White film on your aligner? That's bacteria. 5 minutes, tap water.",
+    "pos": "top",
+    "tone": "dark"
+   },
+   "style": "ugc",
+   "prompt": "Recreate the layout of the SECOND attached image: a raw unedited phone photo of a slightly cluttered real bathroom counter by the sink (toothpaste tube with cap off, a glass, a folded hand towel, water drops on the counter), taken from above at an angle in uneven indoor light. On the counter the closed white DentalPULSE Pod from the first reference image rests beside the sink, and a thin aligner heavily coated in milky white film with an amber-yellow tint lies on the counter next to it (half the Pod width). No text inside the photo; the headline is added separately in a clear band at the top. IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: the clear aligner is a thin trimmed tray with visible tooth contours, UNMISTAKABLY dirty at first glance: strong amber-yellow tint like weak tea, thick milky film and chalky white spots, nothing like a clean clear tray. No denture or night guard anywhere."
+  },
+  {
+   "id": "T46_18_hawley_uv_before_after",
+   "group": "iteration",
+   "persona": "retainer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "retainer_hawley",
+   "format_name": "scan_before_after",
+   "benchmark": "rv_w46t_thermal_before_after",
+   "format_ref": true,
+   "angle": "Quote headline over two UV-scan style images labelled Before / After",
+   "based_on": "Source: seasonal '11/5 Denture Native 4' style proof + feedback 'no more smell' (a win customers name). Reference: DogSuppy thermal Before/After (32d, top 4.3%). UV scans are ILLUSTRATIVE imagery (flag); quote is a feedback paraphrase.",
+   "headline": "\"My retainer finally smells like nothing.\"",
+   "prompt": "Recreate the layout of the SECOND attached image: a deep navy (#0A1B33) static. Top centre white quote text \"\\\"My retainer finally smells like nothing.\\\"\" Below it two images side by side, like UV-light photographs of a pink Hawley retainer with a steel wire: left glowing with orange-red fluorescent biofilm patches over the acrylic and wire; right the same retainer almost completely dark with only faint blue sheen. A thin horizontal gradient scale bar under them from red to blue, with white labels \"Before\" under the left and \"After 5 minutes\" under the right, and a small grey line at the bottom \"UV light photo, illustrative. DentalPULSE ultrasonic cleaner, tap water only.\" IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: the Hawley retainer (pink acrylic palate plate with a steel wire across the front) is UNMISTAKABLY dirty at first glance: deep mustard-yellow and brown stain on the pink acrylic, dull filmy buildup, chalky spots and a tarnished wire. No tooth row, no aligner."
+  },
+  {
+   "id": "T46_19_ret_incoming_call",
+   "group": "iteration",
+   "persona": "retainer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "retainer_clear",
+   "format_name": "incoming_call_ui",
+   "benchmark": "rv_w46t_zima_incoming_call",
+   "format_ref": true,
+   "angle": "Rival answer: incoming-call UI with decline/accept",
+   "based_on": "Source: seasonal '11/6 No Scrubbing Retainers' ($90, ROAS 1.64) + feedback 'retainer was dull and buildup in the crevice'. Reference: Zima 'A retainer that's clean AND protected is calling' (0d). Ours is about film + bacteria with a visible before object.",
+   "headline": "Your retainer's white film is calling...",
+   "rival": "Zima incoming-call \"A retainer that's clean AND protected\" (0d)",
+   "prompt": "Recreate the layout of the SECOND attached image: a dark grey iPhone-style incoming-call screen filling the canvas. Top centre white text \"Your retainer's white film\" then \"is calling...\". In the centre two small round dark photos: left a clear retainer with an amber-yellow tint and thick milky film on a bathroom counter (labelled under it \"Soak it again?\"), right the closed white DentalPULSE Pod from the first reference image on the same counter (labelled \"Clean it in 5 minutes?\"). Below them a red round decline button and a green round accept button with tiny labels. Bottom white line \"Tap water only. No tablets.\". IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: the clear retainer is a thin vacuum-formed tray, UNMISTAKABLY dirty at first glance: strong amber-yellow tint, thick milky film and chalky white spots, nothing like a clean clear tray. No denture or night guard anywhere; the Pod lid is closed or empty."
+  },
+  {
+   "id": "T46_20_ret_free_gifts_box",
+   "group": "iteration",
+   "persona": "retainer",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "retainer_clear",
+   "format_name": "overhead_open_box_badge",
+   "benchmark": "rv_w46t_limited_offer_box",
+   "format_ref": true,
+   "angle": "Overhead open box of free items with round badge",
+   "based_on": "Source: '40% Off + Free Gifts' offer static (lifetime $0.4K, ROAS 3.04) re-aimed at retainers. Reference: Babylist 'Limited offer' free-items box (15d). Gifts shown clearly: travel bag about Pod size, case about half.",
+   "headline": "Free case + free travel bag with your Pod",
+   "prompt": "Recreate the layout of the SECOND attached image: a pale sky-blue bathroom tile countertop shot overhead. An open plain cardboard shipping box (no logos) with the white DentalPULSE Pod, the black zip travel bag with clear window (about the Pod size) and the smoky dark-grey denture case with a blue brush spilling out of it (about half the Pod width). Top-left on the tile, straight bold navy text on two lines \"FREE CASE +\" and \"FREE TRAVEL BAG\". A round blue #1188FF badge at the bottom-right \"40% OFF\". A thin clear retainer with an amber-yellow tint and thick milky film lies on the tile beside the box (half the Pod width). Small navy line at the bottom-left \"Free shipping. 120-day guarantee.\". IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. CRITICAL COLOR: the clear retainer is a thin vacuum-formed tray, UNMISTAKABLY dirty at first glance: strong amber-yellow tint, thick milky film and chalky white spots, nothing like a clean clear tray. No denture or night guard anywhere; the Pod lid is closed or empty."
+  }
+ ]
+}

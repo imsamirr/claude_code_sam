@@ -859,6 +859,86 @@
   "rv_w46_zima_ring_diagram": {
    "file": "reference/benchmarks/rv_ref_w46_zima_ring_diagram.jpg",
    "use_for": "LAYOUT reference only (Zima Dental, riv pull 2026-11-06, 0d running). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_odrx_smell_ribbon": {
+   "file": "reference/benchmarks/rv_ref_w46t_odrx_smell_ribbon.jpg",
+   "use_for": "LAYOUT reference only (cyan \"X SMELL? GET Y\" with ribbon (24d, top 4.4%)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_shelf_better_none_junk": {
+   "file": "reference/benchmarks/rv_ref_w46t_shelf_better_none_junk.jpg",
+   "use_for": "LAYOUT reference only (bathroom shelf product photo with two-line caption top (13d)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_love_this_arrow": {
+   "file": "reference/benchmarks/rv_ref_w46t_love_this_arrow.jpg",
+   "use_for": "LAYOUT reference only (dark green \"people with X love this\" + curved arrow + product (17d, top 2.7%)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_blue_link_headline": {
+   "file": "reference/benchmarks/rv_ref_w46t_blue_link_headline.jpg",
+   "use_for": "LAYOUT reference only (native headline with blue underlined phrase over a photo (8d, top 1.2%)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_dryer_sticky_note": {
+   "file": "reference/benchmarks/rv_ref_w46t_dryer_sticky_note.jpg",
+   "use_for": "LAYOUT reference only (lo-fi object photo with sticky note, headline top, reasons line + orange button (8d)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_kraft_handwritten": {
+   "file": "reference/benchmarks/rv_ref_w46t_kraft_handwritten.jpg",
+   "use_for": "LAYOUT reference only (handwritten question list on kraft paper, top-down lo-fi photo (7d, top 8.5%)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_purple_sceptical_card": {
+   "file": "reference/benchmarks/rv_ref_w46t_purple_sceptical_card.jpg",
+   "use_for": "LAYOUT reference only (purple card, two photos, highlighted quote + stars (24d)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_trial_70_orange": {
+   "file": "reference/benchmarks/rv_ref_w46t_trial_70_orange.jpg",
+   "use_for": "LAYOUT reference only (giant \"70%\" numeral + trial line + pill row on product (13d, top 1.9%)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_necklace_three_lines": {
+   "file": "reference/benchmarks/rv_ref_w46t_necklace_three_lines.jpg",
+   "use_for": "LAYOUT reference only (close macro photo with three short stacked lines bottom-left (32d)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_yellow_stop_living": {
+   "file": "reference/benchmarks/rv_ref_w46t_yellow_stop_living.jpg",
+   "use_for": "LAYOUT reference only (loud yellow field, heavy italic headline, rounded photo + button (9d)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_this_is_how_i": {
+   "file": "reference/benchmarks/rv_ref_w46t_this_is_how_i.jpg",
+   "use_for": "LAYOUT reference only (product photo left, huge left-aligned bold text right with red phrase (11d)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_venn_two_circles": {
+   "file": "reference/benchmarks/rv_ref_w46t_venn_two_circles.jpg",
+   "use_for": "LAYOUT reference only (two overlapping circles with a photo in the overlap and red caption (7d)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_smileset_black_friday": {
+   "file": "reference/benchmarks/rv_ref_w46t_smileset_black_friday.jpg",
+   "use_for": "LAYOUT reference only (black field, translucent aligner outlines, giant BLACK / SALE tag / FRIDAY (10d, top 3.6%)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_sink_lofi_clutter": {
+   "file": "reference/benchmarks/rv_ref_w46t_sink_lofi_clutter.jpg",
+   "use_for": "LAYOUT reference only (raw phone photo of a cluttered bathroom counter, no text (11d)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_thermal_before_after": {
+   "file": "reference/benchmarks/rv_ref_w46t_thermal_before_after.jpg",
+   "use_for": "LAYOUT reference only (quote headline, two heat-map scans labelled Before / After on navy (32d, top 4.3%)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_limited_offer_box": {
+   "file": "reference/benchmarks/rv_ref_w46t_limited_offer_box.jpg",
+   "use_for": "LAYOUT reference only (overhead open box of free items, tilted LIMITED OFFER, round items badge (15d)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_zima_starter_pack": {
+   "file": "reference/benchmarks/rv_ref_w46t_zima_starter_pack.jpg",
+   "use_for": "LAYOUT reference only (Zima \"clean girl routine\" numbered flat-lay (18d)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_zima_starter_bundle": {
+   "file": "reference/benchmarks/rv_ref_w46t_zima_starter_bundle.jpg",
+   "use_for": "LAYOUT reference only (Zima pink pod, EXCLUSIVE OFFER pill and round sticker (0d)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_zima_incoming_call": {
+   "file": "reference/benchmarks/rv_ref_w46t_zima_incoming_call.jpg",
+   "use_for": "LAYOUT reference only (Zima incoming-call UI (decline/accept) (0d)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w46t_sonic_complete_duo": {
+   "file": "reference/benchmarks/rv_ref_w46t_sonic_complete_duo.jpg",
+   "use_for": "LAYOUT reference only (Sonic white \"The complete duo\" tile with oval button (0d)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
   }
  },
  "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots)."
