@@ -227,7 +227,7 @@ Every ad is checked against these BEFORE it is shown. `node ads/compose/render.j
 3. **Compact offer:** the lead offer big (e.g. "60% OFF SITEWIDE" or "40% OFF"), the supporting terms on ONE small line under it ("Free shipping & returns · 30-day money-back guarantee"). No stacked bars, no second banner, no price card plus offer bar plus chips at once.
 4. **Calm the rest when the background is loud.** On a saturated background (red Black Friday), use white text, one white offer box and no confetti, kicker boxes or extra badges. Default to light backgrounds; a saturated background is the exception.
 5. **Space:** about 30% of the canvas stays empty. Text never closer than 7% to an edge (lint checks the actual text).
-6. **Readable for 60+:** smallest text 26px at 1080 wide (lint), headline 80-110px, high contrast, at most two colors plus black/white.
+6. **Readable for 60+ (user 2026-11-10: "make the text bigger"):** smallest text 30px at 1080 wide (lint), body/bullets 31-36px, headline 80-120px, high contrast, at most two colors plus black/white.
 7. **Squint test:** blur your eyes at the 3 contact-sheet sizes. You should see the shoe, then the headline, then the offer, in that order. If anything else competes, remove it.
 8. **Compare with the inspiration ad side by side.** Ours should be as clean as or cleaner than the winner. If it's busier, cut.
 

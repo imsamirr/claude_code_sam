@@ -35,7 +35,7 @@ const path = require('path');
   }, [+w, +h]);
   const warn = [];
   if (r.words > 30) warn.push(`too many words (${r.words} > 30)`);
-  if (r.minFont < 26) warn.push(`text too small for 60+ readers (${r.minFont}px < 26px)`);
+  if (r.minFont < 30) warn.push(`text too small for 60+ readers (${r.minFont}px < 30px)`);
   if (r.blocks > 6) warn.push(`too many text blocks (${r.blocks} > 6)`);
   if (r.outside.length) warn.push(`text inside the 7% margin: ${r.outside.join(' | ')}`);
   console.log(`${path.basename(out)}: ${r.words} words, min text ${r.minFont}px, ${r.blocks} text blocks, largest image ${r.productArea}% of canvas` + (warn.length ? `\n  WARN ${warn.join('\n  WARN ')}` : '  OK'));
