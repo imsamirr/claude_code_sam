@@ -71,3 +71,27 @@ Gap concepts in the batch: T45_07 night pain, T45_12 gift for mom, T45_11 counte
 | Morning first steps | 143 (134) | 14,501 | Stepprs, Konjoun | 18 | tested W46_01/02/22 |
 | Knee / hip / back | 651 (597) | 19,489 | Footstr, Konjoun, Stryde | 51 | W46_11 problem framing only |
 | Fall / balance, posture, grounding | 192 / - | 5,983 | Hike, Armadilo | 0 | skip: claim risk |
+
+## 2026-11-10: 2,061 ads from 17 brands (keyword tags on title+body; ads now (was 11-06); weight = ads x days running, active 1.5x)
+
+Atria note: the Hike "most impressions" image query failed after retries in the wide pull (Hike is covered by the dedicated `rivals` pull, 100 ads).
+
+| Angle | Ads now (was) | Weight | Pushing it | Ours | Verdict |
+|---|---|---|---|---|---|
+| Guarantee / risk-free as the headline ("30 days. Zero risk.", "Walk on clouds or it's FREE") | 614 (654) | 30,691 | Stepprs, Konjoun, Stryde, Orthofeet, Hike (whole-ad risk reversal, new 11-10) | punch card, small lines | **GAP: guarantee as the whole ad, tested T46_07** (our 30-day wording only) |
+| Golf / pickleball / hobby comfort | 51 (84) | 3,159 | Kuru, WearStand, OrthoFit, Viasox | 1 | **GAP: tested T46_20** (retiree "just comfort") |
+| Reason-why discount (overstock / "oops") | 73 (54) | 1,684 | Footstr, OrthoFit, Viasox, Konjoun | 0 live | GAP, **needs a TRUE reason: ASK USER**; none used |
+| Black Friday / Cyber Monday | 209 (147) | 760 | Stepprs, Konjoun, Armadilo, Foamr | whole batch | answered (our BF offers A/B) |
+| BOGO / buy N get N | 334 (326) | 17,101 | Armadilo, Konjoun, Stryde | offer B (buy 2 pairs, 2 free gifts) | no BOGO price math |
+| Gift for mom / holiday | 104 (119) | 2,045 | Clove, OrthoFit, Viasox, Hike | tested W46_21 | covered; not repeated |
+| Style / not orthopedic-looking | 94 (102) | 4,099 | OrthoFit, Foamr, Viasox | tested W46_09 | covered |
+| Hands-free / slip-on | 54 (52) | 1,195 | Armadilo, Musabela, OrthoFit | tested | covered |
+| Morning first steps | 76 (93) | 18,551 | Stepprs, Konjoun, OrthoFit | 18+ | covered |
+| Plus-size / heavier women | 6 (9) | 113 | Hike (new "Last chance, built for heavier women", 2d), Musabela | 67 | we lead; answered T46_13 |
+| Night / sleep pain | 85 (125) | 3,592 | Footstr, Hike, Konjoun | tested | covered |
+| Swelling | 174 (170) | 4,143 | Armadilo, OrthoFit, Viasox | few | test slot T46_18 (comfort-fit wording only) |
+| Ball of foot / burning | 3 (6) | 53 | Armadilo, OrthoFit | few | tiny for competitors; our customers say it: test slot T46_17 |
+| Fall / balance / posture / grounding / doctor-clinical / anti-counterfeit | 391 / - / 186 / 11 | 18,568 / - / 7,133 / 2,632 | Hike, Armadilo, Kuru, Stepprs | 0 | skip: claim risk or no true fact |
+| Knee / hip / back | 385 (418) | 17,299 | Footstr, Konjoun, Stryde | 51 | problem framing only, T46_04 |
+
+Gap concepts this batch: T46_07 (guarantee as the whole ad, Hike "30 days. Zero risk." format), T46_20 (golf / pickleball comfort, WearStand/OrthoFit angle). No reason-why or scarcity concept (no true fact): **ask Samir whether there is a true overstock/inventory reason or a real BF end time**.

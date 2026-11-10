@@ -427,3 +427,13 @@ Sources: `atria_pull.py wellness` (151 rows, ranked by 7-day impression growth),
 Rival statics borrowed (Hike/Stepprs priority): Stepprs early-BF banner (W46_03), 5-pairs repeated word (W46_10), Hike honest letter (W46_09), Hike gift for mom (W46_21).
 Shared patterns: our winners (Emily RN $4.1k 3.10, TOFV1_KW1 3.71, Warning-Warehouse 4.36, 40% OFF TODAY + FREE Shipping 2.85) use job + hours + what she tried + one offer line; the inspiration ads add a named kicker, repeated structure and a single big offer block.
 Seasonal (2025 BF week) top spenders had ROAS below 0.2 (tracking break); used for themes only: "Podiatrist recommended" video (claim, not used), "10 Reasons Healthcare Workers" statics (nurse list format).
+
+## 2026-11-10 (Tuesday iteration run, Black Friday week, batch 2026-W46-tue)
+
+Atria: `current` (12 ads), `rivals` (257), `rivals --wide` (2,061; Hike image query failed after retries), `wellness` (174 rows, ranked by 7-day growth) and `seasonal 2026-W46` worked; `winners` and `rising` calls hit retry failures so winning_statics.csv from earlier runs was used. No Notion refresh (Friday task). Seasonal 2025 BF-week ads all have ROAS < 0.2 (tracking break): themes only.
+
+Wellness list: top ranks 1, 5, 7-8, 10-11 (lymphatic/supplement claims, BOGO offers, Hike posture/gift) skipped for claims or offers we do not run. Formats borrowed (growth rank): VIVAIA photo-over-deal-card (2), Senzio block question + giant % (20), Ape Born timestamp chips (19), ReabTec round BF stickers (9), Over 60 steam message (36), Lonvera five-vs-one (46), Total Relief whiteboard (67), Mark Callahan lecture slide (98), Life with menopause "Women with X love this" (100). Rival statics borrowed: Hike half-price legs panel, 30-days-zero-risk, red field legs, BF cardboard box, heavier-women lavender; Stepprs sticky-note flat lay and "no more pain." Our proven layouts: comments_offer (C3 $1,962, 3.61), dear_nurses_callouts ($139k, 1.79), shift_feature_list.
+
+Own copy patterns (SKILL 1b): job + hours + named condition in the headline ("3 12s in a row", $857k testimonial), risk-free 30-day close (Emily RN, ROAS 3.26), offer line "BLACK FRIDAY 60% OFF + FREE GIFT" (C3, 3.61), "hour 8" Disney story (KW1, 3.07), checklist of approved features.
+
+Result: 20 concepts, 17 new formats + 3 proven, 16 foot-pain-led, 12 offer ads (7 sitewide, 5 gifts), 7 competitor answers, 2 angle gaps, Kie.ai 2K at $0.05/ad ($1.00 total, 4 re-rendered: 3 for text/overlap fixes... included in cost log).
