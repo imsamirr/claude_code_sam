@@ -1,0 +1,84 @@
+{
+  "week": "2026-W44-trend-test",
+  "notes": "2026-10-24 test: 5 concepts built from newest trending Atria statics; 4:5 only, one file per ad, medium quality.",
+  "concepts": [
+    {
+      "id": "Z44_01_nurse_old_sneakers_in_the_trash",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "black_purple",
+      "angle": "Lo-fi 'I threw them out' photo: worn-out sneakers in a trash can, the new shoe beside it, heel pain lead (trending: hand/shoe-in-the-trash UGC)",
+      "based_on": "Atria trend pull 2026-10-24: lo-fi hand-holding-shoe-in-trash static (22.7% impression pctile, 2 days running); survey PF 25%",
+      "headline": "Heel pain? Old sneakers: trash.",
+      "prompt": "A raw, phone-snapped real photo in a hospital staff break room: a worn, flattened pair of grey sneakers sitting in an open grey trash can in the lower left, and on the floor right next to it the black-purple pair of shoes from the reference photo, large, sharp and true to proportion, about 45% of the frame. A woman's hand in teal scrub cuffs points at the trash can. Top: huge heavy white headline on a dark solid black bar: \"HEEL PAIN?\" / \"OLD SNEAKERS: TRASH.\" Natural lighting, slightly imperfect framing like a real UGC photo. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin. No pills, labels, badges or any other text anywhere except the two-line headline.",
+      "benchmark": "warehouse_urgency",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "Z44_02_teacher_would_you_rather_offer",
+      "group": "net_new",
+      "persona": "teacher",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "angle": "'Would you rather?' A/B poll: another pair of supportive sneakers vs this shoe, with the full offer stack, teacher knees and back (trending: Would You Rather poll)",
+      "based_on": "Atria trend pull 2026-10-24: 'Would You Rather? A or B' poll static (43.2% pctile, new today); offer winners (3.86 ROAS); survey teachers PF 29%",
+      "headline": "Would you rather ache or walk?",
+      "prompt": "Light sky-blue gradient background. Big heavy dark navy headline at the top: \"WOULD YOU RATHER...\" Two equal halves split by a thin vertical line. Left half: a plain grey generic sneaker photo (not our shoe, no logo) with large bold text \"KEEP KNEES ACHING\" and a big solid navy circle with a white letter \"A\". Right half: the navy shoe from the reference photo, large, sharp, true proportions, about 40% of the frame, with large bold text \"STAND ALL DAY, NO ACHE\" and a big solid royal blue circle with white letter \"B\". Bottom: a solid royal blue block across the width with three stacked large bold white lines: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "strikethrough_split",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "Z44_03_es_hora_1_6_12_ilustracion",
+      "group": "net_new",
+      "persona": "housekeeping",
+      "lang": "es",
+      "colorway": "all_black",
+      "angle": "Spanish: three stacked bands 'Hora 1 / Hora 6 / Hora 12' showing the shoe still holding at the end of the shift, flat illustration (trending: Hour One / Hour Six / Hour Twelve stack)",
+      "based_on": "Atria trend pull 2026-10-24: 'Hour One / Hour Six / Hour Twelve' 3-band static, 'Stand all day without foot pain' (new, 2 days); survey housekeeping PF 35%",
+      "headline": "Hora 12. Todavía de pie.",
+      "prompt": "Una ilustración vectorial plana limpia con tres bandas horizontales apiladas del mismo tamaño en colores sólidos (gris, azul marino, negro). Titular enorme y pesado en blanco arriba: \"HORA 12.\" / \"TODAVÍA DE PIE.\" Cada banda muestra una mujer de limpieza en uniforme de pie con el zapato negro del referente, grande y reconocible a proporciones reales, y una etiqueta grande: banda 1 \"HORA 1\" con \"Se siente bien\", banda 2 \"HORA 6\" con \"Sigue firme\", banda 3 \"HORA 12\" con \"Sin dolor de talón\". Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado.",
+      "benchmark": "diagram_grey",
+      "format": "flat_illustration",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "Z44_04_foot_pain_part_of_the_job_offer",
+      "group": "net_new",
+      "persona": "cna_caregiver",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "angle": "Struck-through quote 'Foot pain is just part of the job.' then 'It doesn't have to be.' over a dark real photo of the shoe, with the offer stack (trending: strikethrough-quote on a moody photo)",
+      "based_on": "Atria trend pull 2026-10-24: STAND+ '\"Foot pain is just part of the job.\" It doesn't have to be.' (60.1% pctile, 2 days); offer winners; survey PF 25%",
+      "headline": "Foot pain isn't part of the job.",
+      "prompt": "A moody dark real photo of a caregiver's legs in dark scrubs on a locker-room bench, the red-burgundy shoe from the reference photo sharp in the foreground, about 40% of the frame, true proportions, lit with a soft rim light. Huge heavy white quote at the top with a clean strikethrough line through it: \"FOOT PAIN IS JUST PART OF THE JOB.\" Under it in bold yellow-white: \"IT DOESN'T HAVE TO BE.\" At the bottom a solid red block with three stacked large bold white lines: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "warehouse_urgency",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "Z44_05_plus_traveler_story_text_card",
+      "group": "net_new",
+      "persona": "plus_size",
+      "lang": "en",
+      "colorway": "purple",
+      "angle": "First-person story text on a solid color card, plus-size traveler with swollen feet in Lisbon (trending: story-text testimonial on a bold color background)",
+      "based_on": "Atria trend pull 2026-10-24: nurse story-text testimonial on a green confetti card (81.4% pctile, new today); plus-size traveler winners (TOFV1_KW1, 5.65 ROAS); survey swollen feet",
+      "headline": "My feet swelled. I kept walking.",
+      "prompt": "A solid brand purple background with a few subtle white confetti dots. Large heavy white story-style text in a rounded sans font filling the upper two-thirds, left aligned: \"I'M PLUS-SIZE, MY FEET SWELL ON TRIPS. I WALKED 14,000 STEPS IN LISBON AND I FINALLY FELT FINE.\" Bottom third: the purple shoe from the reference photo on a white rounded tile, large, sharp, true proportions, about 40% of the frame. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin.",
+      "benchmark": "transformation",
+      "tags": [
+        "FP"
+      ]
+    }
+  ]
+}

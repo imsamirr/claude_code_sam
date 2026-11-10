@@ -1,0 +1,307 @@
+{
+ "week": "2026-W42-tue",
+ "notes": "Tuesday iteration batch: iterations of current winners (Atria current, spend>=$300, ROAS>=1.8) and last-October seasonal winners.",
+ "concepts": [
+  {
+   "id": "T42_01_emily_rn_fb_comment",
+   "group": "iteration",
+   "persona": "nurse",
+   "lang": "en",
+   "colorway": "black_purple",
+   "angle": "Emily RN testimonial → real Facebook comment thread",
+   "based_on": "Emily RN nurse testimonial video RTGv1_B6 / 203_Iteration_UGC_OrthoStretch ($4,169, 2.93 ROAS)",
+   "headline": "I have worn them up to 4 12s in a row at the ER.",
+   "prompt": "Facebook comment thread on white. Comment 1 by \"Emily R.\", round profile photo of a smiling nurse in her 30s: \"I'm a nurse with plantar fasciitis. Other shoes always hurt my feet after 3 12s in a row. I switched 2 years ago and I have worn them up to 4 12s in a row at the ER. I rotate between 2 pairs. So affordable on nurse wages.\" Under it \"2d   Like   Reply\" and a reaction pill with count \"412\". Indented reply by \"Tasha W.\": \"Ordering mine tonight, thank you!!\" with \"1d   Like   Reply\". Below the thread, a clean photo of the shoe from the reference photo on a light surface.",
+   "format": "fb_comment"
+  },
+  {
+   "id": "T42_02_emily_rn_trustpilot",
+   "group": "iteration",
+   "persona": "nurse",
+   "lang": "en",
+   "colorway": "navy_blue",
+   "angle": "Emily RN testimonial → Trustpilot review cards",
+   "based_on": "Emily RN nurse testimonial video RTGv1_B6 / 203_Iteration_UGC_OrthoStretch ($4,169, 2.93 ROAS)",
+   "headline": "Switched 2 years ago. Never going back.",
+   "prompt": "Soft lavender background. Bold black headline at top: \"What nurses say after switching\". Two stacked Trustpilot review cards. Card 1: reviewer \"Emily R.\", \"US\", five green stars, title \"Switched 2 years ago. Never going back.\", text \"Other shoes hurt after 3 12s in a row. I have worn these up to 4 12s in a row at the ER. So affordable on nurse wages.\", date \"Sep 30, 2026\". Card 2: reviewer \"Brianna K.\", \"US\", five green stars, title \"Bought a second pair\", text \"Rotating two pairs now. My feet thank me after every shift.\", date \"Oct 4, 2026\". Bottom: the shoe from the reference photo in side profile.",
+   "format": "trustpilot"
+  },
+  {
+   "id": "T42_03_emily_rn_comic",
+   "group": "iteration",
+   "persona": "nurse",
+   "lang": "en",
+   "colorway": "black_white",
+   "angle": "Emily RN story → 4-panel webcomic (shift, pain, switch, 4 12s in a row)",
+   "based_on": "Emily RN nurse testimonial video RTGv1_B6 / 203_Iteration_UGC_OrthoStretch ($4,169, 2.93 ROAS)",
+   "headline": "3 12s in a row used to wreck me. Now it's 4.",
+   "prompt": "A 4-panel webcomic strip, all characters women. Panel 1: a tired nurse in scrubs slumped on a bench, bubble \"3 12s in a row. My feet are done.\". Panel 2: a coworker nurse points at her worn sneakers, bubble \"Try the shoes I wear.\". Panel 3: a box opened on a kitchen table showing the shoe from the reference photo, caption box \"2 years ago\". Panel 4: the nurse smiling walking down a hospital hall wearing the shoe from the reference photo, bubble \"Now I work 4 12s in a row.\"",
+   "format": "comic_strip"
+  },
+  {
+   "id": "T42_04_emily_rn_es_comentario",
+   "group": "iteration",
+   "persona": "nurse",
+   "lang": "es",
+   "colorway": "black_purple",
+   "angle": "Spanish: Emily RN testimonial rewritten natively as a Facebook comment thread",
+   "based_on": "Emily RN nurse testimonial video RTGv1_B6 / 203_Iteration_UGC_OrthoStretch ($4,169, 2.93 ROAS)",
+   "headline": "Soy enfermera y aguanto 4 turnos de 12 horas seguidos.",
+   "prompt": "Facebook comment thread on white, in Spanish. Comment 1 by \"Yesenia R.\", round profile photo of a smiling Latina nurse: \"Soy enfermera y tengo fascitis plantar. Con otros zapatos me dolían los pies después de 3 turnos de 12 horas. Me cambié hace 2 años y ya aguanto 4 turnos de 12 horas seguidos en emergencias. Y están baratos para lo que ganamos las enfermeras.\" Under it \"2 d   Me gusta   Responder\" and a reaction pill with count \"386\". Indented reply by \"Lupita M.\": \"¿Dónde los compraste? Los necesito 🙏\". Below the thread, the shoe from the reference photo on a light surface.",
+   "format": "fb_comment"
+  },
+  {
+   "id": "T42_05_teacher_3d_classroom",
+   "group": "iteration",
+   "persona": "teacher",
+   "lang": "en",
+   "colorway": "navy_blue",
+   "angle": "Teachers favorite-shoes angle → 3D animated film still of a teacher at day's end",
+   "based_on": "Teachers mash-up video COM174 '2026's Favorite Shoes For Teachers' ($2,157, 1.95 ROAS)",
+   "headline": "Teaching on your feet all day is hard enough.",
+   "prompt": "A still from a modern 3D animated feature film: a cheerful female teacher character in a cardigan at the end of the school day, in a sunny classroom with colorful desks and a chalkboard, kicking up a foot with a happy sigh, close focus on her feet wearing the shoe from the reference photo. Headline at top in bold white rounded sans with soft shadow: \"Teaching on your feet all day is hard enough.\"",
+   "format": "cartoon_3d"
+  },
+  {
+   "id": "T42_06_teacher_x_post",
+   "group": "iteration",
+   "persona": "teacher",
+   "lang": "en",
+   "colorway": "red_burgundy",
+   "angle": "Teachers favorite-shoes angle → X post from a teacher",
+   "based_on": "Teachers mash-up video COM174 '2026's Favorite Shoes For Teachers' ($2,157, 1.95 ROAS)",
+   "headline": "Teacher shoes should survive recess duty.",
+   "prompt": "An X post screenshot centered on a light grey background. Display name \"Ms. Carter | 3rd grade\", handle \"@mscarter_teaches\". Post text: \"teacher shoes should survive recess duty, bus duty, and a 40 minute copy machine line. found mine.\" Attached photo below the text: a teacher's feet in the shoe from the reference photo on a school hallway floor beside a lunch box. Engagement counts: 96 replies, 1.4K reposts, 21K likes, 380K views.",
+   "format": "x_post"
+  },
+  {
+   "id": "T42_07_teacher_chalkboard_ranking",
+   "group": "iteration",
+   "persona": "teacher",
+   "lang": "en",
+   "colorway": "navy_blue",
+   "angle": "Teachers favorite-shoes angle → hand-chalked board ranking what teachers need",
+   "based_on": "Teachers mash-up video COM174 '2026's Favorite Shoes For Teachers' ($2,157, 1.95 ROAS)",
+   "headline": "What teachers need from a shoe",
+   "prompt": "A classroom chalkboard with hand-drawn chalk lettering. Chalk headline: \"What teachers need from a shoe\". Chalk ranked list: \"1. Cushion for 7 hours standing\", \"2. Easy on, easy off\", \"3. Looks fine with pants or a dress\". At the bottom, the shoe from the reference photo sitting on the chalk ledge with a red apple beside it.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the ranked list items 2 and 3.",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the entire ranked list and the apple, leaving headline and shoe.",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T42_08_nurse_es_arcilla",
+   "group": "iteration",
+   "persona": "nurse",
+   "lang": "es",
+   "colorway": "all_black",
+   "angle": "Spanish nurse favorite-shoes angle → claymation scene of a nurse after her turno",
+   "based_on": "Spanish nurse video TOFV1_HI16 'Los zapatos de enfermería favoritos de 2026' ($1,258, 2.61 ROAS)",
+   "headline": "Los zapatos de enfermería favoritos de 2026.",
+   "prompt": "Claymation still: a smiling Latina nurse clay character in dark scrubs sitting on a hospital bench after her shift, putting her feet up, wearing the shoe from the reference photo, handmade clay hospital hallway behind her. Headline in handmade clay-letter style at the top: \"Los zapatos de enfermería favoritos de 2026.\"",
+   "format": "claymation"
+  },
+  {
+   "id": "T42_09_nurse_es_x_post",
+   "group": "iteration",
+   "persona": "nurse",
+   "lang": "es",
+   "colorway": "black_purple",
+   "angle": "Spanish nurse favorite-shoes angle → Spanish X post from a nurse",
+   "based_on": "Spanish nurse video TOFV1_HI16 'Los zapatos de enfermería favoritos de 2026' ($1,258, 2.61 ROAS)",
+   "headline": "Si trabajas 12 horas de pie, esto te interesa.",
+   "prompt": "An X post screenshot centered on a light grey background. Display name \"Marisol | enfermera\", handle \"@marisol_enfermera\". Post text: \"si trabajas 12 horas de pie, esto te interesa. mis pies por fin llegan vivos al final del turno\". Attached photo below the text: a nurse's feet in navy scrubs wearing the shoe from the reference photo on a hospital floor. Engagement counts: 58 respuestas, 2.1 K reposts, 19 K me gusta, 410 K vistas.",
+   "format": "x_post"
+  },
+  {
+   "id": "T42_10_travel_flat_poster",
+   "group": "iteration",
+   "persona": "traveler",
+   "lang": "en",
+   "colorway": "black_white",
+   "angle": "Travel shoes angle → flat vector travel poster, 50,000 steps",
+   "based_on": "Travel video TOFV1_JV1 '2026's Favorite Shoes For Traveling' ($1,099, 2.28 ROAS)",
+   "headline": "Shoes made for 50,000+ steps.",
+   "prompt": "A modern flat vector travel poster illustration with a limited palette of purple, lavender, cream and black and subtle grain: a woman traveler from behind with a small backpack walking cobblestone streets toward a stylized European skyline, a large flat illustration of the shoe from the reference photo in the foreground. Bold headline: \"Shoes made for 50,000+ steps.\"",
+   "format": "flat_illustration"
+  },
+  {
+   "id": "T42_11_travel_boarding_pass",
+   "group": "iteration",
+   "persona": "traveler",
+   "lang": "en",
+   "colorway": "navy_blue",
+   "angle": "Travel shoes angle → boarding pass layout",
+   "based_on": "Travel video TOFV1_JV1 '2026's Favorite Shoes For Traveling' ($1,099, 2.28 ROAS)",
+   "headline": "Gate 22. Flight delayed. Feet fine.",
+   "prompt": "A flat-lay of a large airline boarding pass on a white surface with a lavender tint, no airline logo. Boarding pass text: big title \"Gate 22. Flight delayed. Feet fine.\", small fields \"PASSENGER: Traveler\", \"GATE: 22\", \"STATUS: Delayed\". Beside the boarding pass, the shoe from the reference photo and a passport.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the passport and the small fields on the boarding pass.",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the shoe, leaving only the boarding pass with the title.",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T42_12_themepark_polaroids",
+   "group": "iteration",
+   "persona": "traveler",
+   "lang": "en",
+   "colorway": "black_mint",
+   "angle": "Plus-size theme-park day angle → polaroid scrapbook of a park day",
+   "based_on": "Plus-size theme-park travel video TOFV1_KW1 ($335, 7.15 ROAS)",
+   "headline": "Hour 8 of the park day. Still smiling.",
+   "prompt": "A scrapbook flat-lay of four polaroid photos taped to a lavender background: a plus-size woman in her 40s at a theme park gate, laughing in a line, eating a snack on a bench, and a close polaroid of her feet in the shoe from the reference photo. Handwritten caption on the bottom polaroid: \"Hour 8 of the park day. Still smiling.\" No other text anywhere: no title, no slogan, no pill, no badge; the only words in the image are the handwritten caption."
+  },
+  {
+   "id": "T42_13_parque_comentario",
+   "group": "iteration",
+   "persona": "traveler",
+   "lang": "es",
+   "colorway": "red_burgundy",
+   "angle": "Spanish: plus-size theme-park angle → Facebook comment about a family trip",
+   "based_on": "Plus-size theme-park travel video TOFV1_KW1 ($335, 7.15 ROAS)",
+   "headline": "Caminamos todo el día en el parque.",
+   "prompt": "Top half: a photo of the shoe from the reference photo on a theme-park sidewalk, blurred castle-like colorful park behind. Bottom half: a Facebook comment thread in Spanish. Comment by \"Carmen L.\" with a round profile photo: \"Caminamos todo el día en el parque con los niños y mis pies aguantaron. Ya son mis zapatos de viaje.\" Under it \"3 d   Me gusta   Responder\" and a reaction pill with count \"254\". Indented reply by \"Diana P.\": \"¡Los quiero para nuestro viaje a Orlando!\" with the row under it reading exactly \"2 d   Me gusta   Responder\" (all Spanish, no English words in the thread)",
+   "format": "fb_comment"
+  },
+  {
+   "id": "T42_14_senior_walk",
+   "group": "iteration",
+   "persona": "steady_feet",
+   "lang": "en",
+   "colorway": "light_grey",
+   "angle": "Senior shoes angle → lifestyle photo of an older woman walking confidently",
+   "based_on": "Senior page video RD_Senior 'Expert Recommended Shoes For Seniors' ($543, 1.82 ROAS)",
+   "headline": "Made for women who refuse to slow down.",
+   "prompt": "Photo-real vertical ad: a confident woman in her late 60s with silver hair, in a light jacket and slacks, walking briskly along a sunny park path, full body, shoes clearly visible and sharp, wearing the shoe from the reference photo. Bold headline at top in black with a purple highlight: \"Made for women who refuse to slow down.\""
+  },
+  {
+   "id": "T42_15_abuela_carta",
+   "group": "iteration",
+   "persona": "active_retiree",
+   "lang": "es",
+   "colorway": "grey_pink",
+   "angle": "Spanish: senior shoes angle → handwritten letter from an abuela",
+   "based_on": "Senior page video RD_Senior 'Expert Recommended Shoes For Seniors' ($543, 1.82 ROAS)",
+   "headline": "Ya me puse mis zapatos. Vamos a caminar.",
+   "prompt": "A handwritten letter on cream paper lying on a wooden table beside a coffee cup, blue-ink cursive handwriting: \"Ya me puse mis zapatos. Vamos a caminar.\" Next to the letter, the shoe from the reference photo with a small sprig of flowers. Warm natural window light."
+  },
+  {
+   "id": "T42_16_walker_trustpilot",
+   "group": "iteration",
+   "persona": "walker_weightloss",
+   "lang": "en",
+   "colorway": "purple",
+   "angle": "Weight-loss walker angle → Trustpilot cards from new walkers",
+   "based_on": "Weight-loss video TOFV1_JW2 'Best Shoes For Weight Loss' ($417, 2.18 ROAS)",
+   "headline": "Getting my steps in is easier now.",
+   "prompt": "White background with soft purple accents. Bold black headline at top: \"New walkers are saying\". Two stacked Trustpilot review cards. Card 1: reviewer \"Dana S.\", \"US\", five green stars, title \"Getting my steps in is easier now\", text \"Started walking to lose weight and my feet used to hurt after 20 minutes. Now I do an hour.\", date \"Oct 6, 2026\". Card 2: reviewer \"Pam T.\", \"US\", five green stars, title \"Day 40 of my walking streak\", text \"Light and cushiony. I actually look forward to my walks.\", date \"Sep 27, 2026\". Bottom: the shoe from the reference photo in side profile.",
+   "format": "trustpilot"
+  },
+  {
+   "id": "T42_17_walker_es_app_pasos",
+   "group": "iteration",
+   "persona": "walker_weightloss",
+   "lang": "es",
+   "colorway": "black_mint",
+   "angle": "Spanish: weight-loss angle → fitness-app screen of a walking streak",
+   "based_on": "Weight-loss video TOFV1_JW2 'Best Shoes For Weight Loss' ($417, 2.18 ROAS)",
+   "headline": "Mi racha de 30 días caminando.",
+   "prompt": "A smartphone screenshot of a generic fitness step-counter app on a clean white screen (no app brand logo): large title \"Mi racha de 30 días caminando.\", a big ring chart with \"12,480 pasos\", a row of 7 purple check circles for the week. At the bottom of the screen a photo card of the shoe from the reference photo on a sidewalk.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the photo card at the bottom of the screen.",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the row of purple check circles and change \"12,480 pasos\" to \"3,200 pasos\".",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T42_18_notes_app_pains",
+   "group": "iteration",
+   "persona": "comfort_only",
+   "lang": "en",
+   "colorway": "purple",
+   "angle": "Tweet-pains static → Notes-app list of everyday foot complaints",
+   "based_on": "Tweet-pains static COM111 ($413, 3.30 ROAS)",
+   "headline": "My feet hurt by 2pm. Every day.",
+   "prompt": "A smartphone Notes app screenshot, pale yellow paper, no brand logo. Title: \"My feet hurt by 2pm. Every day.\" Checklist below: \"Heels burn after lunch\", \"Arches ache on tile floors\", \"Cheap insoles went flat in a month\". At the bottom, a photo of the shoe from the reference photo on a light surface with a last line \"Trying these.\"",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the photo of the shoe and the last line.",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the third checklist item.",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T42_19_nurse_magazine_cover",
+   "group": "iteration",
+   "persona": "nurse",
+   "lang": "en",
+   "colorway": "all_black",
+   "angle": "10-reasons nurse listicle → magazine cover layout",
+   "based_on": "10 Reasons Healthcare Workers' statics, seasonal last Oct (~$38.6k spend)",
+   "headline": "10 Reasons Nurses Love These",
+   "prompt": "A glossy magazine cover with a masthead reading \"SHIFT\" in large purple letters. A smiling nurse in black scrubs holding a coffee, with the shoe from the reference photo visible at full length. Cover lines: \"10 Reasons Nurses Love These\" in large bold type, plus \"12-hour shifts, made easier\". No barcode, no dates."
+  },
+  {
+   "id": "T42_20_travel_route_steps",
+   "group": "iteration",
+   "persona": "traveler",
+   "lang": "en",
+   "colorway": "black_white",
+   "angle": "Kyro 253 travel winner → map route of a sightseeing day with step counter",
+   "based_on": "Kyro 253 travel video, seasonal last Oct ($39.8k spend)",
+   "headline": "Travel smart. Travel comfortably.",
+   "prompt": "A stylized illustrated city map with a dotted purple walking route connecting four landmark pins, and a big step counter badge reading \"28,431 steps\". In the lower corner a cutout of the shoe from the reference photo. Headline at top: \"Travel smart. Travel comfortably.\"",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the step counter badge and the shoe cutout.",
+      "ms": 900
+     },
+     {
+      "edit": "Remove two landmark pins and the dotted route segments.",
+      "ms": 900
+     }
+    ]
+   }
+  }
+ ]
+}

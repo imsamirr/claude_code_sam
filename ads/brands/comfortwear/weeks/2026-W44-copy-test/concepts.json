@@ -1,0 +1,218 @@
+{
+  "week": "2026-W44-copy-test",
+  "notes": "2026-10-26: 6 concepts (2 nurse, 2 travel, 2 Black Friday) written with copy_playbook_nurse_travel.md + competitor_focus_2026-10-26.md, each with a Spanish twin. 4:5, medium.",
+  "concepts": [
+    {
+      "id": "V44_01_nurse_walk_to_my_car",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "black_purple",
+      "theme": "nurse",
+      "angle": "Nurse: the parking-lot walk after a 12 (tipping-point scene), heel pain lead",
+      "based_on": "Emily RN 203 UGC ($99.9k, 3.05 ROAS) 'No more limping to my car after a 12-hour shift'; Spanish nurse script ($48k) 'apenas pude llegar a mi coche'; Orthora 'the final painful walk to your car'. Kept: the car-walk scene + shift number; new: lifestyle legs at dusk",
+      "headline": "The walk to my car used to take forever.",
+      "prompt": "Tight low-angle crop of a nurse's legs in navy scrubs walking across a hospital parking lot at dusk with a car and a lamp post softly blurred behind, the black-purple shoe from the reference photo sharp in the foreground, about 50% of the frame. Huge heavy white headline at the top over the dark sky: \"THE WALK TO MY CAR\" / \"USED TO TAKE FOREVER.\" One solid purple pill at the bottom with white text: \"AFTER A 12-HOUR SHIFT\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin. No other text.",
+      "benchmark": "lifestyle_legs_9x16",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "V44_01_es_nurse_walk_to_my_car",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "es",
+      "colorway": "black_purple",
+      "theme": "nurse",
+      "angle": "Nurse: the parking-lot walk after a 12 (tipping-point scene), heel pain lead",
+      "based_on": "Emily RN 203 UGC ($99.9k, 3.05 ROAS) 'No more limping to my car after a 12-hour shift'; Spanish nurse script ($48k) 'apenas pude llegar a mi coche'; Orthora 'the final painful walk to your car'. Kept: the car-walk scene + shift number; new: lifestyle legs at dusk",
+      "headline": "Caminar al carro después del turno ya no duele.",
+      "prompt": "Un primer plano bajo de las piernas de una enfermera en uniforme azul marino caminando por el estacionamiento de un hospital al atardecer, con un carro y un poste de luz desenfocados al fondo, el zapato negro-morado del referente nítido en primer plano, ~50% del cuadro. Titular enorme y pesado en blanco arriba sobre el cielo oscuro: \"CAMINAR AL CARRO\" / \"YA NO ME DUELE.\" Una píldora sólida morada abajo con texto blanco: \"DESPUÉS DE 12 HORAS\". Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado. Ningún otro texto.",
+      "benchmark": "lifestyle_legs_9x16",
+      "twin_of": "V44_01_nurse_walk_to_my_car",
+      "tags": [
+        "FP",
+        "ES"
+      ]
+    },
+    {
+      "id": "V44_02_nurse_unit_group_chat_offer",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "theme": "nurse",
+      "angle": "Nurse peer proof: group text from the unit asking where she got her shoes, plus the offer stack (Spanish twin = WhatsApp comadre chat)",
+      "based_on": "Emily RN 'three other nurses on my floor ordered them' (3.05 ROAS); 'Didn't buy yet' comments ($50k, 3.05 ROAS); Orthora 'give the free pair to the coworker who's been limping'. Kept: peer contagion; new: native text-thread format",
+      "headline": "Three nurses on my floor asked.",
+      "prompt": "Clean white background. Huge heavy black headline at the top: \"THREE NURSES\" / \"ON MY FLOOR ASKED.\" Left two-thirds: a phone group-chat screen with large readable text bubbles (light grey and blue), no app logo: grey bubble \"Where did you get those?? My heels are dying\" from \"Kayla\"; blue bubble \"Ortho Stretch. 12s feel different\"; grey bubble \"Ordering tonight\" from \"Marisol\". Right third: a nurse's leg in navy scrubs and the navy shoe from the reference photo, huge and sharp, overlapping the chat. At the bottom a solid royal blue block with three stacked large bold white lines: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin. No other text.",
+      "benchmark": "comments_offer",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "V44_02_es_nurse_unit_group_chat_offer",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "es",
+      "colorway": "navy_blue",
+      "theme": "nurse",
+      "angle": "Nurse peer proof: group text from the unit asking where she got her shoes, plus the offer stack (Spanish twin = WhatsApp comadre chat)",
+      "based_on": "Emily RN 'three other nurses on my floor ordered them' (3.05 ROAS); 'Didn't buy yet' comments ($50k, 3.05 ROAS); Orthora 'give the free pair to the coworker who's been limping'. Kept: peer contagion; new: native text-thread format",
+      "headline": "Tres enfermeras de mi piso me preguntaron.",
+      "prompt": "Fondo blanco limpio. Titular enorme y pesado en negro arriba: \"TRES ENFERMERAS\" / \"DE MI PISO PREGUNTARON.\" Dos tercios izquierdos: una pantalla de chat de grupo estilo WhatsApp con burbujas de texto grandes y legibles, sin logo: burbuja de \"Kayla\" \"Comadre, ¿dónde compraste esos zapatos? Mis talones me matan\"; burbuja verde \"Ortho Stretch. Los turnos de 12 se sienten distinto\"; burbuja de \"Marisol\" \"Los pido hoy\". Tercio derecho: la pierna de una enfermera en uniforme azul marino y el zapato azul marino del referente, enorme y nítido, solapado con el chat. Abajo un bloque sólido azul con tres líneas grandes en blanco, escritas exactamente así en inglés: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado. Ningún otro texto.",
+      "benchmark": "comments_offer",
+      "twin_of": "V44_02_nurse_unit_group_chat_offer",
+      "tags": [
+        "FP",
+        "OFFER",
+        "ES"
+      ]
+    },
+    {
+      "id": "V44_03_travel_fine_at_breakfast_split",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "black_white",
+      "theme": "travel",
+      "angle": "Travel / theme park: same woman, same shoes, 8:00 AM vs 4:00 PM split, 'fine at breakfast, hour 8 is the real test'",
+      "based_on": "Plus-size theme-park video TOFV1_KW1 (5.65 ROAS) 'might feel fine at breakfast but hour 8 can be a very different story'; Viasox 'Foot & ankle swelling? Start here'; Kyro 373 'swollen by three in the afternoon'. Kept: breakfast vs hour 8; new: time-stamp split",
+      "headline": "Fine at breakfast. Hour 8 is the test.",
+      "prompt": "A clean vertical split in half. Huge heavy black headline across the top: \"FINE AT BREAKFAST.\" / \"HOUR 8 IS THE TEST.\" Left half labeled with a big solid black pill \"8:00 AM\": a tight crop of a woman's legs in capri leggings walking in a sunny theme-park plaza (generic, no characters, no logos), wearing a generic grey flat sneaker. Right half labeled with a big solid royal blue pill \"4:00 PM\": same plaza, the black-white shoe from the reference photo sharp and large, about 45% of the half, with a white check circle. Soft shadows, true proportions. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin. No other text.",
+      "benchmark": "strikethrough_split",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "V44_03_es_travel_fine_at_breakfast_split",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "es",
+      "colorway": "black_white",
+      "theme": "travel",
+      "angle": "Travel / theme park: same woman, same shoes, 8:00 AM vs 4:00 PM split, 'fine at breakfast, hour 8 is the real test'",
+      "based_on": "Plus-size theme-park video TOFV1_KW1 (5.65 ROAS) 'might feel fine at breakfast but hour 8 can be a very different story'; Viasox 'Foot & ankle swelling? Start here'; Kyro 373 'swollen by three in the afternoon'. Kept: breakfast vs hour 8; new: time-stamp split",
+      "headline": "Bien en el desayuno. A las 4, otra historia.",
+      "prompt": "Una división vertical limpia por la mitad. Titular enorme y pesado en negro arriba: \"BIEN EN EL DESAYUNO.\" / \"A LAS 4, OTRA HISTORIA.\" Mitad izquierda con una píldora negra sólida \"8:00 AM\": un primer plano de las piernas de una mujer en leggings capri caminando en una plaza soleada de un parque de diversiones (genérico, sin personajes ni logos), con un tenis gris genérico. Mitad derecha con una píldora azul rey sólida \"4:00 PM\": la misma plaza, el zapato negro con blanco del referente nítido y grande, ~45% de la mitad, con un círculo blanco con palomita. Sombras suaves, proporciones reales. Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado. Ningún otro texto.",
+      "benchmark": "strikethrough_split",
+      "twin_of": "V44_03_travel_fine_at_breakfast_split",
+      "tags": [
+        "FP",
+        "ES"
+      ]
+    },
+    {
+      "id": "V44_04_europe_not_the_bench",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "theme": "travel",
+      "angle": "Europe: cobblestone street with an empty bench, 'Not the one on the bench' (trip-diary consequence)",
+      "based_on": "Kyro 373 ($61k, 1.53 ROAS) 'Spent the last two days sitting on a bench... three trips since, no pain, no benches'; Kyro 293 outcome line; Vessi cobblestones. Kept: the bench as the cost of bad shoes; new: lifestyle with bench",
+      "headline": "Be the one who isn't on the bench.",
+      "prompt": "A beautiful European old-town street in warm late-afternoon light, an empty wooden bench with a travel bag on it softly blurred at the left. Foreground: a tight low-angle crop of a woman's legs in light trousers walking on cobblestones past the bench, wearing the red-burgundy shoe from the reference photo sharp and large, about 45% of the frame. Huge heavy white headline at the top over the dark archway: \"BE THE ONE WHO\" / \"ISN'T ON THE BENCH.\" One solid red pill at the bottom with white text: \"WALK THE WHOLE TRIP\". All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin. No other text.",
+      "benchmark": "lifestyle_urgency",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "V44_04_es_europe_not_the_bench",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "es",
+      "colorway": "red_burgundy",
+      "theme": "travel",
+      "angle": "Europe: cobblestone street with an empty bench, 'Not the one on the bench' (trip-diary consequence)",
+      "based_on": "Kyro 373 ($61k, 1.53 ROAS) 'Spent the last two days sitting on a bench... three trips since, no pain, no benches'; Kyro 293 outcome line; Vessi cobblestones. Kept: the bench as the cost of bad shoes; new: lifestyle with bench",
+      "headline": "No seas la que se queda en la banca.",
+      "prompt": "Una hermosa calle de casco antiguo europeo con luz cálida de tarde, una banca de madera vacía con una maleta encima desenfocada a la izquierda. Primer plano: un primer plano bajo de las piernas de una mujer en pantalón claro caminando sobre adoquines junto a la banca, con el zapato rojo del referente nítido y grande, ~45% del cuadro. Titular enorme y pesado en blanco arriba sobre el arco oscuro: \"NO SEAS LA QUE\" / \"SE QUEDA EN LA BANCA.\" Una píldora sólida roja abajo con texto blanco: \"CAMINA TODO EL VIAJE\". Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado. Ningún otro texto.",
+      "benchmark": "lifestyle_urgency",
+      "twin_of": "V44_04_europe_not_the_bench",
+      "tags": [
+        "FP",
+        "ES"
+      ]
+    },
+    {
+      "id": "V44_05_bf_buy2_take_home_4",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "all_black",
+      "theme": "blackfriday",
+      "angle": "Black Friday gifts offer (B only): 'Buy 2 pairs, take home 4 things', counted pack shot on a hospital locker shelf",
+      "based_on": "Hollow Socks 'pay for 3, take home 6' + 'Buy 2 Get 2 FREE'; Clove free pens/badge reels with purchase; Viasox counted bundles. Kept: counted free-gift math; new: nurse locker shot",
+      "headline": "Buy 2 pairs. Take home 4 things.",
+      "prompt": "A hospital staff locker interior, shelf and hook, softly blurred. On the shelf: two pairs of the all-black shoe from the reference photo, large and sharp, about 40% of the frame; beside them a 3-pack of cushioned socks in a plain wrapper and a plain navy travel bag hanging on the hook (no brand logos). Four big solid circles with white numbers 1, 2, 3, 4 sitting on the two shoe pairs, the socks and the bag. Huge heavy white headline on a solid black bar at the top: \"BUY 2 PAIRS.\" / \"TAKE HOME 4 THINGS.\" Under it a solid red pill: \"BUY 2 PAIRS, GET 2 FREE GIFTS\". Two white labels with arrows: \"3-PACK CUSHIONED SOCKS\" and \"FREE TRAVEL BAG\". No other offer text. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin. No other text.",
+      "benchmark": "pills_offer_studio",
+      "tags": [
+        "OFFER",
+        "BF"
+      ]
+    },
+    {
+      "id": "V44_05_es_bf_buy2_take_home_4",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "es",
+      "colorway": "all_black",
+      "theme": "blackfriday",
+      "angle": "Black Friday gifts offer (B only): 'Buy 2 pairs, take home 4 things', counted pack shot on a hospital locker shelf",
+      "based_on": "Hollow Socks 'pay for 3, take home 6' + 'Buy 2 Get 2 FREE'; Clove free pens/badge reels with purchase; Viasox counted bundles. Kept: counted free-gift math; new: nurse locker shot",
+      "headline": "Compra 2 pares. Llévate 4 cosas.",
+      "prompt": "El interior de un casillero de personal de hospital, repisa y gancho, desenfocado. En la repisa: dos pares del zapato todo negro del referente, grandes y nítidos, ~40% del cuadro; junto a ellos un paquete de 3 calcetines acolchados en envoltura sencilla y una bolsa de viaje azul marino lisa colgada del gancho (sin logos). Cuatro círculos sólidos grandes con números blancos 1, 2, 3, 4 sobre los dos pares, los calcetines y la bolsa. Titular enorme y pesado en blanco sobre una barra negra sólida arriba: \"COMPRA 2 PARES.\" / \"LLÉVATE 4 COSAS.\" Debajo una píldora roja sólida: \"COMPRA 2 PARES, LLÉVATE 2 REGALOS GRATIS\". Dos etiquetas blancas con flechas: \"PAQUETE DE 3 CALCETINES ACOLCHADOS\" y \"BOLSA DE VIAJE GRATIS\". Ningún otro texto de oferta. Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado. Ningún otro texto.",
+      "benchmark": "pills_offer_studio",
+      "twin_of": "V44_05_bf_buy2_take_home_4",
+      "tags": [
+        "OFFER",
+        "BF",
+        "ES"
+      ]
+    },
+    {
+      "id": "V44_06_bf_swollen_after_flight_60",
+      "group": "net_new",
+      "persona": "plus_size",
+      "lang": "en",
+      "colorway": "black_mint",
+      "theme": "blackfriday",
+      "angle": "Black Friday sitewide offer (A only): 'Swollen feet after the flight? Start here.' airport lifestyle, plus-size traveler",
+      "based_on": "Viasox 'Foot & Ankle Swelling? Start Here' (one hook across all bundles); Kyro 373 swollen by 3 pm; plus-size traveler winners (5.65 ROAS); B48 sitewide blocks. Kept: swelling hook + big block; new: airport lifestyle",
+      "headline": "Swollen feet after the flight? Start here.",
+      "prompt": "Tight low-angle crop of a plus-size woman's legs in black leggings walking through a bright airport terminal with a rolling carry-on, windows and planes softly blurred, the black-turquoise shoe from the reference photo sharp, about 45% of the frame. Top: huge heavy black headline on a light area: \"SWOLLEN FEET AFTER\" / \"THE FLIGHT? START HERE.\" At the right a solid black block with a small white tag \"BLACK FRIDAY\" and a huge turquoise-white line \"60% OFF SITEWIDE\". No other offer text. All supporting text is large bold, high contrast, max 5 words per label, nothing small or thin. No other text.",
+      "benchmark": "offer_block",
+      "tags": [
+        "FP",
+        "OFFER",
+        "BF"
+      ]
+    },
+    {
+      "id": "V44_06_es_bf_swollen_after_flight_60",
+      "group": "net_new",
+      "persona": "plus_size",
+      "lang": "es",
+      "colorway": "black_mint",
+      "theme": "blackfriday",
+      "angle": "Black Friday sitewide offer (A only): 'Swollen feet after the flight? Start here.' airport lifestyle, plus-size traveler",
+      "based_on": "Viasox 'Foot & Ankle Swelling? Start Here' (one hook across all bundles); Kyro 373 swollen by 3 pm; plus-size traveler winners (5.65 ROAS); B48 sitewide blocks. Kept: swelling hook + big block; new: airport lifestyle",
+      "headline": "¿Pies hinchados después del vuelo? Empieza aquí.",
+      "prompt": "Un primer plano bajo de las piernas de una mujer curvilínea en leggings negros caminando por la terminal luminosa de un aeropuerto con una maleta de mano, ventanales y aviones desenfocados, el zapato negro con turquesa del referente nítido, ~45% del cuadro. Arriba: titular enorme y pesado en negro sobre una zona clara: \"¿PIES HINCHADOS DESPUÉS\" / \"DEL VUELO? EMPIEZA AQUÍ.\" A la derecha un bloque negro sólido con una etiqueta blanca pequeña \"VIERNES NEGRO\" y una línea enorme blanca \"60% DE DESCUENTO EN TODO\". Ningún otro texto de oferta. Todo el texto de apoyo es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta, nada pequeño ni delgado. Ningún otro texto.",
+      "benchmark": "offer_block",
+      "twin_of": "V44_06_bf_swollen_after_flight_60",
+      "tags": [
+        "FP",
+        "OFFER",
+        "BF",
+        "ES"
+      ]
+    }
+  ]
+}

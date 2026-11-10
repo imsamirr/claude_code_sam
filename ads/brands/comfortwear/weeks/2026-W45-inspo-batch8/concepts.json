@@ -1,0 +1,100 @@
+{
+  "week": "2026-W45-inspo-batch8",
+  "notes": "User references 2026-10-30 (shared in chat, not saved as files): search-result comparison, podium lineup, editorial test card, last-chance warehouse, story apology. Competitors named only in text/labels (Hoka Bondi, Brooks Ghost, Nike Air Max), drawn without logos; no made-up scores (neutral category labels + 'Our pick'). Generic search UI with no Google branding; source label ComfortWear Comfort Guide.",
+  "concepts": [
+    {
+      "id": "Z45_01_search_nurse",
+      "persona": "nurse",
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+      "offer": "none",
+      "headline": "4 Popular Nurse Shoes Compared",
+      "angle": "Search-result comparison: best shoes for 12-hour nursing shifts",
+      "based_on": "User reference (chat 2026-10-30): search-result '5 Brain Supplements Compared' card; user-named Hoka Bondi, Brooks Ghost, Nike Air Max, Ortho Stretch",
+      "prompt": "A clean mobile search-results screenshot on white, generic (no Google logo, no real search-engine branding). Top: a rounded search bar with a grey magnifier icon and dark text \"best shoes for 12-hour nursing shifts\", a grey row of tabs \"All  Shopping  Images  Videos  News\". Below, a white result card with a soft shadow: a small round navy icon with white \"CW\", dark text \"ComfortWear Comfort Guide\" and grey \"comfortorthowear.com\"; a big bold royal-blue title on two lines \"4 Popular Nurse Shoes Compared\"; dark grey text \"See how they stack up on cushion, grip and toe room.\". Then a wide photo inside the card of four single shoes in a row on a light wood table: (1) a chunky max-cushion running shoe with an extra-thick rocker foam midsole and engineered mesh upper in pale grey, (2) a sleek everyday running shoe with a medium foam midsole and soft mesh upper in navy, (3) a retro running shoe with a visible clear air-bubble window in the heel and a white leather-and-mesh upper with grey accents, (4) the black-and-purple shoe from the attached product reference, exact and correct. None of the first three shoes shows any logo, swoosh, stripe mark or wordmark. All at the same scale and true proportions, each with a small white label on the table in front: \"Hoka Bondi\", \"Brooks Ghost\", \"Nike Air Max\", \"Ortho Stretch\". Bottom of the card: a full-width royal-blue rounded button with white bold \"Learn More  >\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": []
+    },
+    {
+      "id": "Z45_02_lineup_dont_waste",
+      "persona": "comfort_only",
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+      "offer": "none",
+      "headline": "DON'T WASTE MONEY ON THE WRONG WALKING SHOES",
+      "angle": "Podium lineup comparison: DON'T WASTE MONEY / ON THE WRONG / WALKING SHOES",
+      "based_on": "User reference (chat 2026-10-30): 'DON'T WASTE MONEY ON BASIC SCALES' podium lineup (numeric scores replaced by neutral category labels so no unbacked scores)",
+      "prompt": "Soft light-grey studio background with gentle gradient. Top center: heavy black all-caps headline on three lines \"DON'T WASTE MONEY / ON THE WRONG / WALKING SHOES\". Under it, dark text \"We compared 4 popular shoes for all-day wear.\" and bold italic dark text \"Here's what we found.\" Below, white display podium steps: three shoes on the upper step and one larger shoe front and center on the lower step: (1) a chunky max-cushion running shoe with an extra-thick rocker foam midsole and engineered mesh upper in pale grey, (2) a sleek everyday running shoe with a medium foam midsole and soft mesh upper in navy, (3) a retro running shoe with a visible clear air-bubble window in the heel and a white leather-and-mesh upper with grey accents, (4) the black-and-purple shoe from the attached product reference, exact and correct. None of the first three shoes shows any logo, swoosh, stripe mark or wordmark. All at the same scale and true proportions; the Ortho Stretch shoe is the large one front and center. Under each shoe a small rounded pill label with dark text: \"Hoka Bondi · Max-cushion runner\" (grey pill), \"Brooks Ghost · Everyday runner\" (grey pill), \"Nike Air Max · Lifestyle sneaker\" (grey pill), and under ours a bright green pill with heavy white text \"Ortho Stretch · OUR PICK\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": []
+    },
+    {
+      "id": "Z45_03_search_disney",
+      "persona": "traveler",
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+      "offer": "none",
+      "headline": "4 Popular Park-Day Shoes Compared",
+      "angle": "Search-result comparison: best walking shoes for Disney",
+      "based_on": "User reference (chat 2026-10-30): search-result '5 Brain Supplements Compared' card; user-named Hoka Bondi, Brooks Ghost, Nike Air Max, Ortho Stretch",
+      "prompt": "A clean mobile search-results screenshot on white, generic (no Google logo, no real search-engine branding). Top: a rounded search bar with a grey magnifier icon and dark text \"best walking shoes for Disney\", a grey row of tabs \"All  Shopping  Images  Videos  News\". Below, a white result card with a soft shadow: a small round navy icon with white \"CW\", dark text \"ComfortWear Comfort Guide\" and grey \"comfortorthowear.com\"; a big bold royal-blue title on two lines \"4 Popular Park-Day Shoes Compared\"; dark grey text \"See how they stack up for 20,000-step days.\". Then a wide photo inside the card of four single shoes in a row on a light wood table: (1) a chunky max-cushion running shoe with an extra-thick rocker foam midsole and engineered mesh upper in pale grey, (2) a sleek everyday running shoe with a medium foam midsole and soft mesh upper in navy, (3) a retro running shoe with a visible clear air-bubble window in the heel and a white leather-and-mesh upper with grey accents, (4) the navy with bright blue accents shoe from the attached product reference, exact and correct. None of the first three shoes shows any logo, swoosh, stripe mark or wordmark. All at the same scale and true proportions, each with a small white label on the table in front: \"Hoka Bondi\", \"Brooks Ghost\", \"Nike Air Max\", \"Ortho Stretch\". Bottom of the card: a full-width royal-blue rounded button with white bold \"Learn More  >\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": []
+    },
+    {
+      "id": "Z45_04_lineup_disney",
+      "persona": "traveler",
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+      "offer": "none",
+      "headline": "DON'T LET THE WRONG SHOES RUIN YOUR DISNEY TRIP",
+      "angle": "Podium lineup comparison: DON'T LET THE WRONG / SHOES RUIN YOUR / DISNEY TRIP",
+      "based_on": "User reference (chat 2026-10-30): 'DON'T WASTE MONEY ON BASIC SCALES' podium lineup (numeric scores replaced by neutral category labels so no unbacked scores)",
+      "prompt": "Soft pale-blue studio background with a faint warm glow, a few small cartoon-free sparkles (no castles, no characters, no logos). Top center: heavy black all-caps headline on three lines \"DON'T LET THE WRONG / SHOES RUIN YOUR / DISNEY TRIP\". Under it, dark text \"We compared 4 popular shoes for park days.\" and bold italic dark text \"Here's what we found.\" Below, white display podium steps: three shoes on the upper step and one larger shoe front and center on the lower step: (1) a chunky max-cushion running shoe with an extra-thick rocker foam midsole and engineered mesh upper in pale grey, (2) a sleek everyday running shoe with a medium foam midsole and soft mesh upper in navy, (3) a retro running shoe with a visible clear air-bubble window in the heel and a white leather-and-mesh upper with grey accents, (4) the red/burgundy shoe from the attached product reference, exact and correct. None of the first three shoes shows any logo, swoosh, stripe mark or wordmark. All at the same scale and true proportions; the Ortho Stretch shoe is the large one front and center. Under each shoe a small rounded pill label with dark text: \"Hoka Bondi · Max-cushion runner\" (grey pill), \"Brooks Ghost · Everyday runner\" (grey pill), \"Nike Air Max · Lifestyle sneaker\" (grey pill), and under ours a bright green pill with heavy white text \"Ortho Stretch · OUR PICK\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": []
+    },
+    {
+      "id": "Z45_05_editorial_disney_test",
+      "persona": "traveler",
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+      "offer": "none",
+      "headline": "We Put 4 Popular Walking Shoes to the Test at Disney",
+      "angle": "Editorial comparison card: we put 4 popular walking shoes to the test at Disney",
+      "based_on": "User reference (chat 2026-10-30): editorial 'We Put Two Popular Reverse Osmosis Systems to the Test' card",
+      "prompt": "Background: a softly blurred sunny theme-park street (no castles, no characters, no logos). In front, a large white rounded article card: a top bar with a hamburger icon and bold black text \"COMFORTWEAR GUIDE\", a thin grey line, a small breadcrumb \"TRAVEL  →  PARK DAYS\", then a bold black serif headline on two lines \"We Put 4 Popular Walking Shoes\" / \"to the Test at Disney\", a small grey \"2026\" between two thin lines, then a pale-lavender highlight bar with bold italic navy text \"Hoka Bondi, Brooks Ghost, Nike Air Max & Ortho Stretch Compared\". Below, two rounded photos side by side: left, a close-up of feet in a traditional LACE-UP max-cushion running shoe with a very thick, flared, oversized white foam midsole (taller than the upper), engineered mesh upper in pale grey with regular flat laces tied in a bow, clearly NOT a sock-knit shoe and nothing like the product reference, no logos, on hot park pavement; right, a close-up of feet in the red/burgundy shoes from the product reference (sharp, correct) walking past a churro cart. No Disney logos. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": [],
+      "revision": "v2: v1 left photo looked like our knit shoe instead of a Hoka-style runner"
+    },
+    {
+      "id": "Z45_06_last_chance_warehouse",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "offer": "standard_40",
+      "headline": "LAST CHANCE! HURRY BEFORE IT'S GONE!",
+      "angle": "Last-chance warehouse: shoe boxes on cartons, 40% off",
+      "based_on": "User reference (chat 2026-10-30): 'LAST CHANCE! HURRY BEFORE IT'S GONE!' warehouse cartons ad",
+      "prompt": "A real photo in a warehouse: stacked brown shipping cartons in the foreground and behind. On top of the front cartons, two plain white shoe boxes standing side by side with the lids leaning, each holding a pair of the black-and-purple shoes from the product reference (sharp, correct, true proportions). Top: a bright yellow banner with heavy black all-caps \"LAST CHANCE!\" and under it a red banner with heavy white italic all-caps \"HURRY BEFORE IT'S GONE!\". Bottom: a red rounded pill with heavy white \"40% OFF TODAY + FREE SHIPPING\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": []
+    },
+    {
+      "id": "Z45_07_apology_story",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "style": "letter",
+      "no_product": true,
+      "offer": "standard_40",
+      "headline": "WE WANT TO APOLOGIZE TO EVERYONE WHO PAID FULL PRICE",
+      "angle": "Instagram-story apology: we want to apologize to everyone who paid full price; 40% off this week",
+      "based_on": "User reference (chat 2026-10-30): teabox 'We want to apologize to everyone who bought...' story",
+      "prompt": "A plain black Instagram-story-style screen: at the top a thin white progress bar, a small round avatar with \"CW\" and white text \"comfortwear  1h\". Centered white text, large: heavy all-caps headline on three lines \"WE WANT TO APOLOGIZE TO\" / \"EVERYONE WHO PAID\" / \"FULL PRICE\". Then regular white paragraphs with blank lines: \"😅 Because we did not see this coming.\" / \"It is TRUE that our shoes have real arch support and a wide toe box, made for long days on your feet.\" / \"It's also true that they stretch when your feet swell.\" / \"So what's the problem? This week we're doing \" + bold \"40% OFF + FREE SHIPPING.\" / \"For 1 week only (we might sell out before then!)\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "tags": []
+    }
+  ]
+}
