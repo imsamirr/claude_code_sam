@@ -1286,5 +1286,124 @@
   "first_id": "W46_40_sixteen_rooms_key_card",
   "format_source": "Survey housekeeping PF 35% (grow persona)",
   "date": "2026-11-06"
+ },
+ {
+  "format_name": "steam_finger_message_on_glass",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_01_steam_3_12s_heels",
+  "format_source": "Over 60 & Thriving (health & wellness, growth rank 36, +42, 17d) 'Showering daily after 70?' written in shower steam",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "five_items_vs_one_hero_split",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_02_five_things_one_shoe",
+  "format_source": "Lonvera BoneFlex (growth rank 46, +30, 16d) 'Five Bottles, Or One.'; also answers Stepprs insoles",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "projected_lecture_slide_worst_vs_better",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_03_lecture_slide_wrong_shoes",
+  "format_source": "Mark Callahan 'Stop buying the wrong cinnamon' (growth rank 98, 18d): lecture-hall projection slide ranking WORST / BAD / BEST",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "hand_drawn_whiteboard_three_stages",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_04_whiteboard_3_stages_12s",
+  "format_source": "Total Relief Today (growth rank 67, 10d) 'The 3 last stages before...' marker whiteboard with sketches and arrow",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "sticky_notes_on_shoe_overhead_flatlay",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_05_sticky_notes_on_shoes",
+  "format_source": "Stepprs insole flat lay with two handwritten sticky notes (417d, top 0.2% impressions)",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "legs_left_headline_panel_check_pills",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_06_room_for_bunions",
+  "format_source": "Hike Footwear 'TODAY ONLY / HALF PRICE' (1d): legs photo left, headline panel right, three check pills",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "giant_guarantee_headline_card",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_07_30_days_money_back",
+  "format_source": "Hike Footwear '30 DAYS. ZERO RISK.' (0d): whole-ad risk reversal on a cream card",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "photo_over_solid_red_field_two_line",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_08_20000_steps_europe",
+  "format_source": "Hike Footwear 'Your favorite Hike shoes. One last chance.' (0d): legs photo over a solid red field",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "open_cardboard_box_bf_sign_sticky_note",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_09_bf_box_travel_bag",
+  "format_source": "Hike Footwear Black Friday cardboard box with handwritten sign and sticky note 'Buy 1 Get 1 Free' (0d, top 22%)",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "photo_top_cream_deal_card_bottom",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_12_heel_pain_day_4_rome",
+  "format_source": "VIVAIA Black Friday add-on deal (growth rank 2, +294, 10d): close-up photo above a cream deal card with product tiles",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "two_panel_breakfast_vs_hour_8",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_13_disney_hour_8",
+  "format_source": "Our winner KW1 script beat 'comfortable at breakfast, a different story at hour 8'; two-panel before/after photo structure from Hike 'Modern footwear' split",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "lavender_tag_headline_shoe_pair_side_labels",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_14_built_for_plus_size_nurses",
+  "format_source": "Hike Footwear 'Built for heavier women' lavender card (2d): tag pill, two-line headline, shoe pair with three side labels",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "round_offer_stickers_on_product_flatlay",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_16_stickers_on_shoes",
+  "format_source": "ReabTec (growth rank 9, +153, 12d): product flat lay on a bedsheet with round Black Friday stickers",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "timestamp_chips_over_floor_photo",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_17_hour_6_ball_of_foot",
+  "format_source": "Ape Born (growth rank 19, +82, 10d): time-stamped blue chips over a product photo with a round badge",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "red_block_question_percent_circle_badge_checks",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_18_feet_swell_by_3pm",
+  "format_source": "Senzio (growth rank 20, +77, 10d): full color block, question headline, giant 50% OFF, round product badge, four check pills",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "audience_condition_callout_arrow_headline",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_19_women_wide_feet_love_this",
+  "format_source": "Life with menopause / Nova (growth rank 100, 17d): 'Women with X love this' with a curved arrow to the product",
+  "date": "2026-11-10"
+ },
+ {
+  "format_name": "giant_statement_color_field_worn_vs_new",
+  "folder": "2026-W46-tue",
+  "first_id": "T46_20_pickleball_golf_comfort",
+  "format_source": "Stepprs 'no more pain.' (417d): giant lowercase statement on a solid color field with a worn boot beside the product",
+  "date": "2026-11-10"
  }
 ]

@@ -1077,6 +1077,70 @@
     "rv46_stepprs_5pairs": {
       "file": "reference/benchmarks/rv46_stepprs_5pairs.jpg",
       "use_for": "LAYOUT ref 2026-11-06 run: RIVAL Stepprs 31d: giant \"5 PAIRS FOR THE PRICE OF 2\" over repeated outlined background word + product pair"
+    },
+    "rv410_hike_half_price_legs": {
+      "file": "reference/benchmarks/rv410_hike_half_price_legs.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: RIVAL Hike 1d: legs photo left, right panel big \"TODAY ONLY\" + navy bar + 3 check pills + round % circle"
+    },
+    "rv410_hike_30days_zero_risk": {
+      "file": "reference/benchmarks/rv410_hike_30days_zero_risk.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: RIVAL Hike 0d: giant two-line guarantee headline on cream card, shoe trio, 4 checks, black guarantee pill"
+    },
+    "rv410_hike_red_field_last_chance": {
+      "file": "reference/benchmarks/rv410_hike_red_field_last_chance.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: RIVAL Hike 0d: solid red field, legs/feet photo top, two-line white text + small pill"
+    },
+    "rv410_hike_bf_cardboard_box": {
+      "file": "reference/benchmarks/rv410_hike_bf_cardboard_box.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: RIVAL Hike 0d (top 22%): open cardboard box of shoes with handwritten Black Friday Sale sign + yellow sticky note"
+    },
+    "rv410_hike_heavier_lavender": {
+      "file": "reference/benchmarks/rv410_hike_heavier_lavender.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: RIVAL Hike 2d: lavender field, tag pill, 2-line heavy headline, shoe pair with 3 small side labels, bottom band"
+    },
+    "rv410_stepprs_sticky_insole": {
+      "file": "reference/benchmarks/rv410_stepprs_sticky_insole.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: RIVAL Stepprs 417d (top 0.2%): overhead product flat lay on wood with two handwritten sticky notes"
+    },
+    "rv410_stepprs_no_more_pain": {
+      "file": "reference/benchmarks/rv410_stepprs_no_more_pain.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: RIVAL Stepprs 417d: solid orange field, giant lowercase two-word statement top right, worn work boot + product"
+    },
+    "rv410_steam_shower_message": {
+      "file": "reference/benchmarks/rv410_steam_shower_message.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: WELLNESS Over 60 & Thriving (growth rank 36, 17d): message finger-written in steam on glass"
+    },
+    "rv410_five_vs_one_split": {
+      "file": "reference/benchmarks/rv410_five_vs_one_split.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: WELLNESS Lonvera (growth rank 46, 16d): split five small items vs one hero product"
+    },
+    "rv410_lecture_slide_ranking": {
+      "file": "reference/benchmarks/rv410_lecture_slide_ranking.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: WELLNESS Mark Callahan (growth rank 98, 18d): projected lecture slide with WORST / BEST / BAD columns"
+    },
+    "rv410_whiteboard_three_stages": {
+      "file": "reference/benchmarks/rv410_whiteboard_three_stages.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: WELLNESS Total Relief Today (growth rank 67, 10d): hand-drawn marker whiteboard, three stages + arrow"
+    },
+    "rv410_women_with_arrow": {
+      "file": "reference/benchmarks/rv410_women_with_arrow.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: WELLNESS Life with menopause (growth rank 100, 17d): audience+condition headline with curved arrow to product, bold bottom line"
+    },
+    "rv410_block_question_percent_badge": {
+      "file": "reference/benchmarks/rv410_block_question_percent_badge.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: WELLNESS Senzio (growth rank 20, 10d): question headline, giant 50% OFF, round product badge, 4 check pills"
+    },
+    "rv410_photo_top_deal_card": {
+      "file": "reference/benchmarks/rv410_photo_top_deal_card.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: WELLNESS VIVAIA (growth rank 2, 10d): close-up photo top, cream deal card below with 3 product tiles"
+    },
+    "rv410_round_stickers_product": {
+      "file": "reference/benchmarks/rv410_round_stickers_product.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: WELLNESS ReabTec (growth rank 9, 12d): product flat lay on bedsheet with round Black Friday offer stickers"
+    },
+    "rv410_time_chips_ritual": {
+      "file": "reference/benchmarks/rv410_time_chips_ritual.jpg",
+      "use_for": "LAYOUT ref 2026-11-10 Tuesday run: WELLNESS Ape Born (growth rank 19, 10d): time-stamped blue chips over product photo + round discount badge"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
