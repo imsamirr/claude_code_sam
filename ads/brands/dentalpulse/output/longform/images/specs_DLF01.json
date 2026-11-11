@@ -1,22 +1,22 @@
 {
-  "DLF01_A": {
-    "copy": "Hook: Tuesday night in February, the back of the tablet box on the kitchen table under her reading glasses, a yellow highlighter uncapped beside it.",
-    "prompt": "Close-up phone photo taken from above at a slight angle by a 68-year-old woman sitting at her kitchen table in a rural Ohio farmhouse on a winter night, lit by a single overhead ceiling light with a little flash glare. On a worn oak table: the back panel of a flattened plain light-blue cardboard box of denture cleaning tablets, covered in rows of tiny gray print far too small to read, with a few lines streaked with yellow highlighter. A pair of tortoiseshell reading glasses rests folded on top of the box. Beside it a yellow highlighter with the cap off, a yellow legal pad, a chipped white coffee mug and a salt shaker. Dark window in the corner of the frame with frost at the edges. IMPORTANT: the box has no logo, no brand name and no readable words; all print is tiny and illegible. Ordinary household light, crooked framing, no cinematic glow.",
-    "size": "3:4"
-  },
-  "DLF01_B": {
-    "copy": "The old routine: a glass of blue fizzing water on the bathroom sink at night with a full upper denture soaking in it.",
-    "prompt": "Phone photo taken late at night with the flash at a small dated bathroom sink in an Ohio ranch house: almond-colored laminate counter, a chrome faucet with water spots, a folded hand towel. On the counter sits a clear drinking glass of water tinted bright blue, tiny bubbles rising and fizzing at the surface, with a full upper denture lying at the bottom: realistic pink acrylic gums and a full arch of natural-looking teeth, magnified slightly by the glass. Next to the glass: a denture brush, a tube of denture paste with no readable label, and a man's plain wristwatch. Mirror edge at the top of the frame showing only the dark doorway. IMPORTANT: the denture is anatomically realistic and not distorted. No logos, no brand names, no readable text anywhere. Harsh flash, slight motion blur, ordinary and unstyled.",
-    "size": "3:4"
-  },
-  "DLF01_C": {
-    "copy": "The legal pad: her handwritten checklist with highlighter, the cut-out back panel of the box clipped to the top.",
-    "prompt": "Phone photo taken from directly above of a yellow legal pad on a kitchen table in daylight. The pad is filled with neat cursive handwriting in blue ballpoint, numbered 1 to 6 down the left margin, some lines underlined twice and two lines streaked with yellow highlighter, plus a small hand-drawn molecule doodle in the margin. Clipped to the top of the pad with a black binder clip is a rectangle of light-blue cardboard cut out with scissors, covered in tiny illegible gray print with one highlighted strip. A pair of reading glasses and a pencil lie across the corner. Flat gray winter daylight from a nearby window, slightly overexposed. IMPORTANT: the handwriting is too small and slanted to read; only the numbers 1 to 6 are clear. No brand names, logos or readable printed text.",
-    "size": "3:4"
-  },
-  "DLF01_D": {
-    "copy": "Payoff: Walt, 71, laughing at Sunday dinner at his daughter's table, pot roast, chewing on both sides again.",
-    "prompt": "Candid phone photo taken by his daughter from across a crowded dining table on a Sunday afternoon in early spring in a modest Ohio home. A 71-year-old white man with a weathered face, short white hair and reading glasses pushed up on his head, wearing a red and black flannel shirt, laughing hard with his mouth open, a fork in his hand, a full plate of pot roast, carrots and mashed potatoes in front of him. His wife, 68, short silver hair and a cardigan, is beside him, looking at him and smiling. Mismatched serving dishes, a basket of rolls, a pie on the sideboard behind. Window light mixed with an overhead fixture, a little blur from his laughing. IMPORTANT: his teeth are realistic, even, natural-looking dentures; no distorted mouths or teeth. No logos or readable text. Ordinary, crooked, unposed family snapshot.",
-    "size": "3:4"
-  }
+ "DLF01_A": {
+  "copy": "Hook: Tuesday night in February, the back of the tablet box on the kitchen table under her reading glasses, a yellow highlighter uncapped beside it.",
+  "prompt": "Close-up phone photo taken from above at a slight angle by a 68-year-old woman sitting at her kitchen table in a rural Ohio farmhouse on a winter night, lit by a single overhead ceiling light with a little flash glare. On a worn oak table: the back panel of a flattened plain light-blue cardboard box of denture cleaning tablets, covered in rows of tiny gray print far too small to read, with a few lines streaked with yellow highlighter. A pair of tortoiseshell reading glasses rests folded on top of the box. Beside it a yellow highlighter with the cap off, a yellow legal pad, a chipped white coffee mug and a salt shaker. Dark window in the corner of the frame with frost at the edges. IMPORTANT: the box has no logo, no brand name and no readable words; all print is tiny and illegible. Ordinary household light, crooked framing, no cinematic glow.",
+  "size": "3:4"
+ },
+ "DLF01_B": {
+  "copy": "The old routine: a glass of blue fizzing water on the bathroom sink at night with a full upper denture soaking in it.",
+  "prompt": "Phone photo taken late at night with the flash at a small dated bathroom sink in an Ohio ranch house: almond-colored laminate counter, a chrome faucet with water spots, a folded hand towel. On the counter sits a clear drinking glass of water tinted bright blue, tiny bubbles rising and fizzing at the surface, with a full upper denture lying at the bottom: realistic pink acrylic gums and a full arch of natural-looking teeth, magnified slightly by the glass. Next to the glass: a denture brush, a tube of denture paste with no readable label, and a man's plain wristwatch. Mirror edge at the top of the frame showing only the dark doorway. IMPORTANT: the denture is anatomically realistic and not distorted. No logos, no brand names, no readable text anywhere. Harsh flash, slight motion blur, ordinary and unstyled.",
+  "size": "3:4"
+ },
+ "DLF01_C": {
+  "copy": "The legal pad: her handwritten checklist with highlighter, the cut-out back panel of the box clipped to the top.",
+  "prompt": "Phone photo taken from directly above of a yellow legal pad on a kitchen table in daylight. The pad is filled with neat cursive handwriting in blue ballpoint, numbered 1 to 6 down the left margin, some lines underlined twice and two lines streaked with yellow highlighter, plus a small hand-drawn molecule doodle in the margin. Clipped to the top of the pad with a black binder clip is a rectangle of light-blue cardboard cut out with scissors, covered in tiny illegible gray print with one highlighted strip. A pair of reading glasses and a pencil lie across the corner. Flat gray winter daylight from a nearby window, slightly overexposed. IMPORTANT: the handwriting is too small and slanted to read; only the numbers 1 to 6 are clear. No brand names, logos or readable printed text.",
+  "size": "3:4"
+ },
+ "DLF01_D": {
+  "copy": "Payoff: Walt, 71, laughing at Sunday dinner at his daughter's table, pot roast, chewing on both sides again.",
+  "prompt": "Candid phone photo taken by his daughter from across a crowded dining table on a Sunday afternoon in early spring in a modest Ohio home. A 71-year-old white man with a weathered face, short white hair and reading glasses pushed up on his head, wearing a red and black flannel shirt, laughing hard with his mouth open, a fork in his hand, a full plate of pot roast, carrots and mashed potatoes in front of him. His wife, 68, short silver hair and a cardigan, is beside him, looking at him and smiling. Mismatched serving dishes, a basket of rolls, a pie on the sideboard behind. Window light mixed with an overhead fixture, a little blur from his laughing. IMPORTANT: his teeth are realistic, even, natural-looking dentures; no distorted mouths or teeth. No logos or readable text. Ordinary, crooked, unposed family snapshot. IMPORTANT: no boxes, cartons or packaging anywhere on the table; only food, plates, glasses and a bread basket.",
+  "size": "3:4"
+ }
 }
