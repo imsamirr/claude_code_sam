@@ -1,0 +1,46 @@
+{
+  "LF01_A": {
+    "copy": "LF01 Five Days, Five Pairs — hook image (the fireworks bench)",
+    "prompt": "Taken at night by her daughter from about 15 feet away with harsh phone flash. A heavy-set plus-size woman (US size 22, about 52 years old, round face, shoulder-length brown hair, tired eyes) sits alone on a theme-park bench. Her sneakers are off and lying on the pavement next to her feet; she is in white socks. On her lap and piled beside her: shopping bags, a child's backpack, a light-up souvenir toy, water bottles, a folded stroller leaning on the bench. Behind her, out of focus, crowds of families walking away toward a faint colorful fireworks glow in the dark sky. Flash makes her look washed out, background dark and grainy. IMPORTANT: her feet are only in white socks; her sneakers are NOT on her feet, they sit untied on the pavement a foot away. The full frame is the photo itself: no app interface, no social media overlay, no captions, no usernames, no text of any kind.",
+    "size": "4:5"
+  },
+  "LF01_B": {
+    "copy": "LF01 — alt image (four failed pairs on the hotel carpet)",
+    "prompt": "Looking straight down at a beige hotel-room carpet with the corner of a bed and a rolling suitcase at the edge. Four pairs of worn women's sneakers lined up in a row, each pair with a strip of masking tape on the carpet in front of it, handwritten in black marker: \"DAY 1\", \"DAY 2\", \"DAY 3\", \"DAY 4\". Day 1: grey slip-on memory foam sneakers. Day 2: chunky thick-soled cushioned running shoes. Day 3: white and black gym sneakers. Day 4: light grey running shoes with a pointed toe. All generic and unbranded, dusty and scuffed from walking. A folded theme-park map brochure with no logos and a lanyard lie next to them. Warm yellow hotel lamp light.",
+    "size": "4:5"
+  },
+  "LF02_A": {
+    "copy": "LF02 The Shoe Graveyard — hook image (the bin)",
+    "prompt": "A clear plastic storage bin with a lid, sitting on the concrete floor of a cluttered suburban garage next to a lawnmower and paint cans. The bin is stuffed with worn-out women's work shoes: chunky cushioned running sneakers in navy and grey, a pair of black clogs, slip-on memory foam sneakers, white sneakers with collapsed heels, all scuffed, creased and stained from hospital shifts. A strip of masking tape across the lid with \"THE GRAVEYARD\" handwritten in thick black Sharpie. Single overhead garage bulb, flat dull light.",
+    "size": "4:5"
+  },
+  "LF02_B": {
+    "copy": "LF02 — alt image (7:40 a.m. in the parking garage)",
+    "prompt": "Point of view from the driver's seat of a car parked in a concrete hospital parking garage at early morning. A woman's tired feet in navy compression socks are propped up on the dashboard, legs in navy blue scrub pants. A hospital ID badge on a lanyard and a coffee cup in the cupholder. On the passenger-side floor, a pair of chunky cushioned running sneakers kicked off. Pale dawn light through the garage opening, slightly fogged windshield.",
+    "size": "4:5"
+  },
+  "LF03_A": {
+    "copy": "LF03 Wish You Were Here — hook image (her café chair at the bottom of the hill, no person)",
+    "prompt": "Phone photo taken sitting down at a small round metal café table on a sidewalk at the bottom of a very steep, narrow cobblestone street made of small white and black stones in an old European hillside city at sunset. On the table: an untouched glass of red wine and a phone face-down. Under the table on the cobblestones: a pair of chunky white sneakers, kicked off, one on its side, laces loose. Nobody is wearing them; no feet or people in the foreground. The steep street climbs away from the camera toward old stone castle walls on the hilltop, glowing in the sunset; a few tiny distant people walking up the hill. Pastel tiled buildings, laundry on balconies. Ordinary handheld photo, slightly crooked. No text.",
+    "size": "4:5"
+  },
+  "LF03_B": {
+    "copy": "LF03 — alt image (the 'Wish you were here' text over the view he sent)",
+    "prompt": "Phone photo taken from the top of an old stone castle wall at sunset, looking out over a European city of terracotta rooftops, church domes and a wide river glowing orange, a man's hand resting on the stone wall in the lower corner. Big sky with orange and pink clouds. Slight lens flare. The lower third of the frame is mostly calm sky-colored river and rooftops in shadow.",
+    "size": "4:5",
+    "overlay": {
+      "type": "imessage",
+      "time": "Today 7:42 PM",
+      "bubbles": [
+        {
+          "text": "Wish you were here.",
+          "me": false
+        },
+        {
+          "text": "I'm 200 feet below you. In my socks.",
+          "me": true
+        }
+      ]
+    }
+  }
+}

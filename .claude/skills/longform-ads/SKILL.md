@@ -91,3 +91,23 @@ If any row is missing, fix the copy before you deliver it.
   - which angle each copy uses and why
   - the claims decisions they need to make
   - any data gaps (untranscribable videos, credits spent)
+
+## 6. Story images (Kie.ai)
+
+Each copy gets 2 images, saved as `output/longform/images/<ID>_A` (main) and `<ID>_B` (alternate). Generate them with `python ads/longform_images.py --brand <brand> [IDs]`, which reads `output/longform/images/specs.json` and needs the `KIE_AI` key.
+
+- **Style:** match the long-form winners saved in Atria. Each image is an unedited amateur phone snapshot of ONE moment or object from the story (the bench, the bin, the abandoned café table). No studio look, no ad layout. Usually no product, and no text unless it's part of the scene (masking tape on a bin).
+- **Exact on-image text:** if the story needs it (for example a text message), draw it with the spec's `overlay` instead of asking the model.
+- **Before shipping, look at every image.** The model adds fake app interfaces and garbled captions, and keeps shoes on feet that should be bare. Add "IMPORTANT" lines to the prompt, or reframe the shot (an empty chair instead of the person), and re-render.
+
+## 7. Notion
+
+Create one card per copy on **👟 ComfortWear Creative Board** (data source `collection://fc6096bb-6bca-4768-8e0d-b62435082e48`).
+- **Title:** `LF<nn> | Long-Form Static | <Story> (<Angle>)`
+- **Fields:** Stage = In Review, Strategist = Samir
+- **Body, in order:**
+  - format, angle sources, headline, CTA, landing page, live offer
+  - both images: upload with `notion-create-file-upload`, then put each `![…](file-upload://…)` on its own line with a blank line before it
+  - the full primary text
+  - the offer swaps
+  - the alternate hooks
