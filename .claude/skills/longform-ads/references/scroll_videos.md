@@ -50,7 +50,10 @@ python ads/scroll_video.py --brand <brand> --spec <variations.json> --music <bed
 
 ### QA, in this order
 
-1. Tile sheets of every clip: no phone frame, no logos, no characters, the right setting.
+1. Tile sheets of every clip: no phone frame, no logos, no characters, the right setting. Also check:
+   - **Letterbox bars:** Veo sometimes returns 9:16 with black bars baked in. Run `cropdetect` on every clip; when it isn't `720:1280:0:0`, crop to 9:16 inside the bars and scale back to 720×1280.
+   - **Folded or bent geometry:** wide river and landscape scenes at 9:16 come back with the far bank bent up into a wall (LV01 failed this twice). Use an interior or close scene instead, or switch that video to a cheap-mode image.
+   - **The background matches the final script:** when a story detail is changed (for example frozen peas to a foot tub), update the `background` prompt too and regenerate the clips.
 2. Frames at 0.5s, 30s and 2 minutes, plus the last 10 seconds: the hook is visible at the start, the text is legible, and the CTA rests on screen at the end.
 3. Duration matches the voice.
 4. Spot-check that the voice is in sync with the text.
