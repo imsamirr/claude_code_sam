@@ -1003,6 +1003,26 @@
     "rv_t_overhead_tags": {
       "file": "reference/benchmarks/rv_ref_t_overhead_tags.jpg",
       "use_for": "LAYOUT reference only (Atria inspiration board Nov 10: Dr. Sarah Clarke: overhead spread of alternatives with handwritten tags). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_pm_problems_solution": {
+      "file": "reference/benchmarks/rv_ref_pm_problems_solution.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 11: PAP MD split: left white PROBLEMS column with 3 line icons + bold labels, right navy SOLUTION column with product photo and a small label pill). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_pm_sorry_letter_black": {
+      "file": "reference/benchmarks/rv_ref_pm_sorry_letter_black.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 11: PAP MD 'RE: BLACK FRIDAY … WE'RE SORRY!' letter on black: yellow warning triangle, red caps headline, white body, underlined white offer line, yellow guarantee line, signed by management). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_pm_sorry_letter_hand": {
+      "file": "reference/benchmarks/rv_ref_pm_sorry_letter_hand.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 11: PAP MD same letter on white with blue wave borders, handwritten-style font, red underline, yellow highlighter on guarantee line, logo top left). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_pm_sorry_letter_plain": {
+      "file": "reference/benchmarks/rv_ref_pm_sorry_letter_plain.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 11: PAP MD same letter plain white, black sans, underlined offer, yellow highlight on guarantee, praying-hands emoji, logo at bottom). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_pm_ms_paint": {
+      "file": "reference/benchmarks/rv_ref_pm_ms_paint.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 11: PAP MD crude MS Paint window: hand-typed caps request, product photos pasted in, crude circle and arrow drawn with the mouse). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
     }
   },
   "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots).",
