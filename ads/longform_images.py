@@ -117,8 +117,10 @@ def main():
     p.add_argument("--brand", default="comfortwear")
     p.add_argument("ids", nargs="*")
     a = p.parse_args()
-    out = Path(__file__).resolve().parent / "brands" / a.brand / "output" / "longform" / "images"
+    out = Path(__file__).resolve().parent / "brands" / a.brand / "output" / "longform" / "images"  # <brand>/output/longform/images
     specs = json.loads((out / "specs.json").read_text())
+    bfile = out.parents[2] / "brand.json"
+    rules = json.loads(bfile.read_text()).get("longform_program", {}).get("image_rules", []) if bfile.exists() else []
     key = os.getenv("KIE_AI") or sys.exit("KIE_AI not set")
     for sid, s in specs.items():
         if a.ids and sid not in a.ids:
@@ -127,7 +129,8 @@ def main():
         if final.exists() and not a.ids:
             continue
         print(f"{sid}: generating…", flush=True)
-        raw.write_bytes(kie(key, s["prompt"], s.get("size", "3:4")))
+        prompt = s["prompt"] + (" Brand rules: " + "; ".join(rules) + "." if rules else "")
+        raw.write_bytes(kie(key, prompt, s.get("size", "3:4")))
         img = phone_finish(Image.open(raw))
         if s.get("overlay", {}) and s["overlay"].get("type") == "imessage":
             img = imessage(img, s["overlay"])

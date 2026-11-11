@@ -311,6 +311,69 @@
       "Atria: own account longform pull (top spenders), saved ads incl. same-category competitors (Orthora), new library long-form + video transcripts",
       "Feedback summary sheet (Google Drive)",
       "Reddit (r/nursing, r/Teachers, r/plussize, r/disney/WDW, r/travel, r/Serverlife, r/PlantarFasciitis)"
-    ]
+    ],
+    "atria_account": "WearOrtho",
+    "category_terms": [
+      "nurse shoes",
+      "work shoes",
+      "comfort shoes",
+      "orthopedic shoes",
+      "plantar fasciitis",
+      "standing all day",
+      "wide toe box",
+      "swollen feet"
+    ],
+    "competitors_longform": [
+      "Orthora (page: '2026 Best Work Shoes')",
+      "Hike Footwear",
+      "Stepprs",
+      "Orthofeet",
+      "KURU",
+      "Vessi"
+    ],
+    "feedback_sheet": {
+      "name": "ComfortWear Customer Feedback (Responses)",
+      "file_id": "1qX2aoUaOvjqh40EQkhY3kYNcgm1nj2Lpjybes2J6FKI"
+    },
+    "reddit": {
+      "subreddits": [
+        "nursing",
+        "CNA",
+        "Teachers",
+        "Serverlife",
+        "AmazonFC",
+        "retailhell",
+        "PlantarFasciitis",
+        "plussize",
+        "WDW",
+        "travel",
+        "AskOldPeople",
+        "Menopause"
+      ],
+      "access_note": "reddit.com fetch is blocked from the cloud; archive mirrors (reddit.sentinel-team.org) and Mumsnet worked"
+    },
+    "notion": {
+      "data_source": "collection://fc6096bb-6bca-4768-8e0d-b62435082e48",
+      "board_name": "👟 ComfortWear Creative Board",
+      "title_format": "LF<nn> | Long-Form Static | <Story> (<Angle>)",
+      "properties": {
+        "Stage": "In Review",
+        "Strategist": "Samir"
+      }
+    },
+    "landing_pages": {
+      "travel": "/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+      "nurse": "/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+      "teacher": "/pages/the-5-best-shoes-for-teachers-and-educators-tested-across-480-hours",
+      "disney": "/pages/the-5-best-shoes-for-disney"
+    },
+    "image_rules": [
+      "women wear the shoe; men only as background or gift-givers",
+      "no competitor or car logos; describe shoes as plain smooth side panels",
+      "no castles, characters or theme-park landmarks",
+      "season and clothing must match the story"
+    ],
+    "schedule_trigger_id": "trig_01AfktTkVKQdqBERXt1LoV5k",
+    "output_dir": "output/longform"
   }
 }
