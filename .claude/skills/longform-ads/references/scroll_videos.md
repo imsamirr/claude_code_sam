@@ -71,3 +71,18 @@ Use the writer spec in `ads/brands/comfortwear/output/scroll_videos/scripts/WRIT
 - **Notion:** one card per angle, listing its 3 variations: script, caption, headline, landing page, Drive link.
 - **Video files:** 5-minute videos are 50–90MB, over Notion's 20MB single-part limit and too big for git. Upload them to the brand's Drive folder with `create_file` and a `sha256:<hash>:<path>` file reference (each needs the user's approval), and link them from the cards.
 - **Sample:** send one video with SendUserFile.
+
+
+## Cheap mode (default for the weekly batch, user decision 2026-11-11)
+
+- **Background:** one **dedicated** still image per video, made with Kie nano-banana-pro (about 15 credits) from the spec's `background_image_prompt`, then a slow zoom in and out on a 40-second seamless loop. This costs about 10× less than 2 Veo clips (about 130 credits, or about $0.70 per video).
+- **Never reuse images.** Never share one image across concepts, and never reuse the concept's static images A–D. Every video gets its own scene, in the same iPhone-realism style.
+- **Music:** the angle's bed from `ads/brands/<brand>/assets/music/<angle>.mp3` (Suno, made once). Mapping: europe, disney, plussize, nurse, over50.
+- **Voice:** none while Kie ElevenLabs is failing (Internal Error on 2026-11-11). The scroll runs at reading pace, about 2.4 words per second (`--no-voice`).
+- **File size:** rendered at 400 kbps, so a 5-minute video is about 19MB and can be attached directly to its Notion card.
+
+```bash
+python ads/scroll_video.py --brand <brand> --spec <scroll_specs.json> --music ads/brands/<brand>/assets/music/<angle>.mp3 --only render --no-voice <IDs>
+```
+
+**Kie balance:** check it first (`GET /api/v1/chat/credit`). A negative balance means every generation fails.

@@ -9,6 +9,9 @@ hook on screen at second 0 in the lower half, short paragraphs.
     python ads/scroll_video.py --brand comfortwear --spec x.json LV01 --only render  # reuse assets
 
 Spec (list): {"id","script","voice","background","caption","headline","landing_page", optional "text_color"}.
+Cheap mode: give "background_image_prompt" (a dedicated Kie nano-banana-pro image for THIS video, ~15 credits; never
+share one image across concepts) or "background_image" (a path); the still gets a slow zoom loop instead of Veo
+clips (~130 credits), and the render is capped at ~20MB so it can be attached to a Notion card.
 Assets land in ads/brands/<brand>/output/scroll_videos/<ID>/ and the final video in .../<ID>.mp4.
 Kie.ai (KIE_AI): veo3_fast for 3 background clips per video, Suno V4_5 for the music bed,
 ElevenLabs turbo for the voice; falls back to OpenAI gpt-4o-mini-tts (OPENAI_API_KEY) if Kie TTS fails.
@@ -207,25 +210,56 @@ def build_music_only(spec, d, out_root, paras, only, music):
         starts.append(t)
         t += len(p.split()) / WPS + 0.5
     total = t + 3.0
-    clips = [c for c in (d / "bg_0.mp4", d / "bg_1.mp4") if c.exists()]
-    if not clips:
-        raise RuntimeError("no background clips")
+    if spec.get("background_image_prompt") and not spec.get("background_image"):
+        img = d / "bg_image.jpg"
+        if not img.exists():
+            # one dedicated image per video (never shared across concepts), same iPhone-realism style as the statics
+            sys.path.insert(0, str(ADS))
+            from longform_images import kie as kie_image, phone_finish
+            raw = d / "bg_image_raw.png"
+            raw.write_bytes(kie_image(os.environ["KIE_AI"], spec["background_image_prompt"], "9:16"))
+            from PIL import Image as _I
+            _I.open(raw).convert("RGB").resize((W, H)).save(img, quality=90)
+        spec["background_image"] = str(img)
+    if spec.get("background_image"):
+        bg = image_bg(d, Path(spec["background_image"]))
+        clips = None
+    else:
+        clips = [c for c in (d / "bg_0.mp4", d / "bg_1.mp4") if c.exists()]
+        if not clips:
+            raise RuntimeError("no background clips")
     color = {"yellow": (255, 236, 64), "white": (255, 255, 255)}.get(spec.get("text_color", "white"))
     img, tops, text_h = layout(paras, color)
     img.save(d / "text.png")
     yexpr = scroll_expr(tops, starts, total, text_h)
-    bg = make_bg_loop(d, clips)
+    if clips:
+        bg = make_bg_loop(d, clips)
     final = out_root / f"{vid}.mp4"
+    rate = ["-crf", "28", "-maxrate", "400k", "-bufsize", "800k"] if spec.get("background_image") else \
+           ["-crf", "26", "-maxrate", "2500k", "-bufsize", "5000k"]
     music = music or (d / "music.mp3")
     fc = (f"[0:v]eq=brightness=-0.06:saturation=0.95,format=yuv420p[bgv];"
           f"[bgv][1:v]overlay=x=0:y='{yexpr}':eval=frame:shortest=0[v];"
           f"[2:a]volume=0.55,afade=t=in:st=0:d=1.5,afade=t=out:st={total - 3:.2f}:d=3[a]")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", bg, "-loop", "1", "-i", d / "text.png",
                     "-stream_loop", "-1", "-i", str(music), "-filter_complex", fc, "-map", "[v]", "-map", "[a]",
-                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast", "-crf", "26", "-maxrate", "2500k", "-bufsize", "5000k",
-                    "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", final], check=True)
+                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast", *rate,
+                    "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", final], check=True)
     (d / "voice_engine.txt").write_text("none (music only)")
     return final, total
+
+
+def image_bg(d, image):
+    """Cheap background: one still story image with a slow zoom in and out (Ken Burns), as a 40 s seamless loop.
+    Costs no extra Kie credits when the image already exists (e.g. a long-form concept's image A)."""
+    bg = d / "bg_loop.mp4"
+    half = 20 * FPS
+    zoom = f"if(lte(on,{half}),1+0.06*on/{half},1.06-0.06*(on-{half})/{half})"
+    vf = (f"scale={W * 2}:{H * 2}:force_original_aspect_ratio=increase,crop={W * 2}:{H * 2},"
+          f"zoompan=z='{zoom}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={2 * half}:s={W}x{H}:fps={FPS}")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-i", image, "-vf", vf, "-frames:v", str(2 * half),
+                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-pix_fmt", "yuv420p", bg], check=True)
+    return bg
 
 
 def make_bg_loop(d, clips):
@@ -368,6 +402,7 @@ def main():
     p.add_argument("--only", choices=["render", "assets"])
     p.add_argument("--tts", choices=["kie", "openai"], default="kie")
     p.add_argument("--no-voice", action="store_true", help="music-only render, scrolled at reading pace")
+    p.add_argument("--image", help="cheap mode: use this still image (slow zoom) as the background for the given IDs")
     p.add_argument("ids", nargs="*")
     a = p.parse_args()
     global TTS, NO_VOICE
@@ -380,6 +415,8 @@ def main():
     for s in specs:
         if a.ids and s["id"] not in a.ids:
             continue
+        if a.image:
+            s["background_image"] = a.image
         print(f"{s['id']}: building…", flush=True)
         f, t = build(s, out_root, a.only, music)
         print(f"  {f or 'assets ready'} ({t / 60:.1f} min)", flush=True)
