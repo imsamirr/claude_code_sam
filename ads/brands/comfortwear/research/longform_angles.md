@@ -74,14 +74,14 @@ Long-form copy must carry these. They are what Meta is buying.
 - It hid the mechanism inside a made-up mentor.
 - It dropped the trial/guarantee that every winner closes on.
 
-## 4. Claims decision needed (flagged to the user)
+## 4. Claims (confirmed by the user on 2026-11-11)
 
-`brand.json → claims_to_avoid` bans money-back guarantees, "500,000+" style counts, star ratings and "podiatrist recommended". Every winning video uses the first three (and two use a podiatrist narrator).
-
-The new copies use:
-- the **trial line** ("wear them 30 days… send them back"), marked `[GUARANTEE]` so it's one edit to remove;
-- the count, marked `[COUNT]`;
-- **no podiatrist persona**, no condition cures, and no star ratings.
+- **Confirmed and used:** 30-day money-back guarantee, 500,000+, HSA/FSA eligible. These are saved in `brand.json → confirmed_claims`.
+- **Offers:** follow the sale calendar in `brand.json → offers`:
+  - Black Friday: 60% off + free gifts, until Dec 5
+  - Christmas Sale: Dec 6–31 (% not given yet)
+  - New Year Sale: 40% off, Jan 1–15
+- **Still avoided:** podiatrist or doctor personas and claims, cure claims, star ratings, and free returns or fast shipping.
 
 ## 5. Copy set (2026-11-11)
 

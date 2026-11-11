@@ -46,7 +46,7 @@ Read **every qualifying family's full transcript and copy** in `longform_winners
    - the openers
    - the close: offer, trial, count, HSA/FSA
 3. **Below the bar.** List the angles that didn't qualify, so they aren't used as a base.
-4. **Claims conflicts.** Compare the winners against `brand.json → claims_to_avoid` and flag every conflict to the user. Never silently drop a winner's element.
+4. **Claims conflicts.** Compare the winners against `brand.json → claims_to_avoid` and `confirmed_claims`. Flag anything the winners say that isn't confirmed. Never silently drop a winner's element.
 
 ## 3. Write: one copy per top angle (default: the top 3 angles)
 
@@ -57,7 +57,7 @@ Each copy must keep the angle's **format**. If the winner is a comparison test, 
 - **Every enemy from the angle's table** shows up with its price and its failure mode, as the narrator's failed solutions.
 - **Brand placement:** named at 50–65% of the copy, through a person handing it over plus a criteria check. Give the price and the price inversion.
 - **Results:** shift-by-shift or day-by-day. Week one is honest. Pay off each loss planted earlier, and close on the winners' outcome line.
-- **Close:** the winners' offer, then `[GUARANTEE]` and `[COUNT]` placeholders when brand.json conflicts, `[CONFIRM]` for any offer detail that isn't verified, and 3 P.S. lines (a self-test, a bundle or second pair, a share).
+- **Close:** use `brand.json → offers` (the dated sale calendar) and `confirmed_claims` (guarantee, customer count, HSA/FSA). Write the close for the sale that's live on the launch date, naming its end date. Add an **"Offer swaps by date"** section with ready-to-paste closes for every later sale the ad could still be running in, plus a seasonal P.S. (for example a gift line at Christmas, or FSA dollars expiring Dec 31). Don't use placeholders: if an offer detail is missing from brand.json (like a sale %), write the line without the number and ask the user. Finish with 3 P.S. lines (a self-test, a bundle or second pair, a share).
 - **Also include:**
   - 3 alternate hooks, with at least one close to the top winner's hook
   - an image brief that follows brand.json `prompt_rules`

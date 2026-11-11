@@ -16,7 +16,7 @@
 - "slapped a sticker on a running shoe that says approved for work"
 - results: hour 8, week 2, extra shift, 4 twelves in a row, rotating Black Purple and White Blue
 - "built for the shift, not the 5k"
-- 40% off, HSA/FSA, 30-day trial
+- the dated sale, HSA/FSA, 30-day money-back
 
 **What's new:** the story. Marisol, the clinic-job application, the night charge nurse.
 
@@ -171,11 +171,11 @@ Hokas, Brooks, On Clouds: great shoes. For a 5k. Not for a twelve.
 
 Comfort Wear's Ortho Stretch Cushion Shoe was built for the shift, not the 5k. It has cushioning that holds all day, a built-in arch, a stretch knit upper that widens as you swell, and a grip made for mopped floors.
 
-Right now they're up to 40% off. [CONFIRM: Black Friday 60% off + free gifts] And they're HSA/FSA eligible. [CONFIRM]
+For Black Friday, they're 60% off, plus free gifts with your order, until December 5th. And they're HSA/FSA eligible.
 
-[GUARANTEE] Wear them on your hardest shifts for 30 days. If they don't change how your feet feel at hour twelve, send them back.
+Wear them on your hardest shifts for 30 days. If they don't change how your feet feel at hour twelve, send them back for 100% of your money back. That's our 30-day money-back guarantee.
 
-[COUNT] Over 500,000 nurses and healthcare workers have already switched.
+Over 500,000 nurses and healthcare workers have already switched.
 
 Tap Learn More and see why.
 
@@ -184,6 +184,32 @@ P.S. Try Deb's test on your next shift. Press your thumb into the side of your s
 P.P.S. Get two pairs and rotate them. That's the Deb method. Each pair gets a day off to air out, and you're never stuck when one's wet.
 
 P.P.P.S. If you've got a coworker who limps to the parking garage every morning, send her this. Somebody did it for me.
+
+---
+
+## Offer swaps by date
+
+The primary text above runs the **Black Friday Sale** close (live until Dec 5). Swap the offer paragraph block (offer, guarantee, count) on these dates:
+
+**Christmas Sale (Dec 6 to Dec 31, 2026):**
+
+Comfort Wear's Christmas Sale is on until December 31st. And they're HSA/FSA eligible. If you've got FSA dollars left, a lot of plans make you use them by December 31st. This is a good place to put them.
+
+Wear them on your hardest shifts for 30 days. If they don't change how your feet feel at hour twelve, send them back for 100% of your money back. That's our 30-day money-back guarantee.
+
+Over 500,000 nurses and healthcare workers have already switched.
+
+Also replace the last P.S. with:
+
+P.P.P.S. Know a nurse who's working Christmas? Somebody always is. Get her a pair. She'll think of you at hour twelve.
+
+**New Year Sale (Jan 1 to Jan 15, 2027):**
+
+For the New Year Sale, they're 40% off until January 15th. And they're HSA/FSA eligible. New year, new shifts. Don't start another year adding to the graveyard.
+
+Wear them on your hardest shifts for 30 days. If they don't change how your feet feel at hour twelve, send them back for 100% of your money back. That's our 30-day money-back guarantee.
+
+Over 500,000 nurses and healthcare workers have already switched.
 
 ---
 
@@ -213,5 +239,5 @@ P.P.P.S. If you've got a coworker who limps to the parking garage every morning,
 | "Slapped a sticker that says approved for work" (COM225) | Deb's villain line |
 | Hour 8 / week 2 back / ibuprofen / extra shift / 4 12s / rotate Black Purple + White Blue | Results timeline |
 | "Built for the shift, not the 5k" | Close |
-| 40% off, HSA/FSA, 30-day trial, 500k+ | Close (`[GUARANTEE]` and `[COUNT]` flagged) |
+| Dated offer (BF / Christmas / New Year), HSA/FSA, 30-day money-back, 500k+ | Close (dated offer + swaps) |
 | Brand position | Named at ~57% of the copy |

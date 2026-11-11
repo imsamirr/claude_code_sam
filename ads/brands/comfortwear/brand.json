@@ -13,9 +13,9 @@
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
   ],
   "claims_to_avoid": [
-    "money-back guarantee, free/easy returns or fast shipping (top complaints in reviews and the survey)",
+    "free/easy returns or fast shipping (top complaints in reviews and the survey)",
     "'orthopedic approved', 'podiatrist recommended', 'doctor recommended' or any cure/treatment claim",
-    "specific review counts or star ratings unless confirmed"
+    "star ratings (not confirmed)"
   ],
   "colorways": {
     "black_purple": {
@@ -249,5 +249,34 @@
     },
     "roas_note": "ROAS is unreliable Feb–Dec 2025 (tracking break): rank older ads by spend."
   },
-  "colorway_template": "The shoe is the {label} colorway shown in the reference photo."
+  "colorway_template": "The shoe is the {label} colorway shown in the reference photo.",
+  "confirmed_claims": {
+    "guarantee": "30-day money-back guarantee (100% of your money back)",
+    "customer_count": "500,000+",
+    "hsa_fsa": "HSA/FSA eligible",
+    "confirmed_by_user": "2026-11-11"
+  },
+  "offers": [
+    {
+      "name": "Black Friday Sale",
+      "start": "2026-11-01",
+      "end": "2026-12-05",
+      "line": "60% off, plus free gifts with your order",
+      "note": "60% + free gifts wording from live Black Friday ads (NH3, NG1)"
+    },
+    {
+      "name": "Christmas Sale",
+      "start": "2026-12-06",
+      "end": "2026-12-31",
+      "line": "Christmas Sale",
+      "note": "discount % not given yet; ask the user before quoting a number"
+    },
+    {
+      "name": "New Year Sale",
+      "start": "2027-01-01",
+      "end": "2027-01-15",
+      "line": "40% off"
+    }
+  ],
+  "offers_note": "Write the close for the offer live on the launch date, and add ready-to-paste swaps for every later offer the ad may still be running in. Always name the end date."
 }

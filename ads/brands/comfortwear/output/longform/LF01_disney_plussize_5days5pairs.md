@@ -12,7 +12,7 @@
 - swelling, so "fit at breakfast, tight by lunch"
 - "$60 beat the $180 pair"
 - "not the one on a bench watching"
-- the 40% off + 30-day trial close
+- the dated sale + 30-day money-back close
 
 **What's new:** the story. The test is something she lived through on her own trip, one shoe per park day.
 
@@ -222,11 +222,11 @@ You can fix it with the shoe.
 
 Comfort Wear's Ortho Stretch Cushion Shoe was built for people who stand on hard ground all day. It has a built-in arch that doesn't pack down, a wide toe box, a stretch knit top that gives as you swell, and it's light enough to forget about.
 
-Right now Comfort Wear is up to 40% off with free shipping. [CONFIRM: Black Friday 60% off + free gifts] [CONFIRM: HSA/FSA eligible]
+For Black Friday, Comfort Wear is 60% off, plus free gifts with your order, until December 5th. And they're HSA/FSA eligible.
 
-[GUARANTEE] Wear them for 30 days, on your longest days at home before the trip. If they don't feel different from anything else you've packed, send them back.
+Wear them for 30 days, on your longest days at home before the trip. If they don't feel different from anything else you've packed, send them back for 100% of your money back. That's our 30-day money-back guarantee.
 
-[COUNT] There's a reason over 500,000 people who live on their feet have already switched.
+There's a reason over 500,000 people who live on their feet have already switched.
 
 Tap Learn More to see them.
 
@@ -235,6 +235,32 @@ P.S. Order early enough to wear them for a couple of weeks before you fly. Your 
 P.P.S. If you've already bought the Hokas, keep them. They're great shoes for running. Just don't take them to stand in a seventy-minute line.
 
 P.P.P.S. To the grandmas: the fireworks look completely different from up front.
+
+---
+
+## Offer swaps by date
+
+The primary text above runs the **Black Friday Sale** close (live until Dec 5). Swap the offer paragraph block (offer, guarantee, count) on these dates:
+
+**Christmas Sale (Dec 6 to Dec 31, 2026):**
+
+Comfort Wear's Christmas Sale is on until December 31st. And they're HSA/FSA eligible. If you've got FSA dollars left this year, a lot of plans make you use them by December 31st.
+
+Wear them for 30 days, on your longest days at home before the trip. If they don't feel different from anything else you've packed, send them back for 100% of your money back. That's our 30-day money-back guarantee.
+
+There's a reason over 500,000 people who live on their feet have already switched.
+
+Also replace the last P.S. with:
+
+P.P.P.S. Shopping for the grandma who always ends up holding everybody's bags? This is the gift. Put a pair under the tree with the park tickets.
+
+**New Year Sale (Jan 1 to Jan 15, 2027):**
+
+For the New Year Sale, Comfort Wear is 40% off until January 15th. And they're HSA/FSA eligible. If a park trip is on your list this year, now is the time to get your feet ready for it.
+
+Wear them for 30 days, on your longest days at home before the trip. If they don't feel different from anything else you've packed, send them back for 100% of your money back. That's our 30-day money-back guarantee.
+
+There's a reason over 500,000 people who live on their feet have already switched.
 
 ---
 
@@ -265,5 +291,5 @@ P.P.P.S. To the grandmas: the fireworks look completely different from up front.
 | "Doesn't make shoes for athletes… people whose feet survive real life" | Bridge paragraph |
 | $60 vs $180 price inversion | "I had literally just spent $180…" |
 | "Not hurt less, didn't hurt" / "not on a bench watching" | Results and close |
-| 40% off, free shipping, 30-day trial, 500k+ | Close (`[GUARANTEE]` and `[COUNT]` flagged) |
+| Dated offer (BF / Christmas / New Year), HSA/FSA, 30-day money-back, 500k+ | Close (dated offer + swaps) |
 | Brand position | Named at ~62% of the copy |

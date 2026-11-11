@@ -23,7 +23,7 @@
 - 22,000 steps through an old city center, and "Not hurt less. Didn't hurt."
 - The bench, "watching other people see what you flew there to see"
 - The sister who calls to say thank you
-- 40% off, free shipping, 45-day trial
+- the dated sale, HSA/FSA, 30-day money-back (winners used 45 days; ours is 30)
 
 **What's new:** the story. A 40th anniversary trip to Lisbon, the husband's "Wish you were here" text, and a travel nurse met on a café bench.
 
@@ -188,11 +188,11 @@ Running shoes were built for smooth tracks and short runs. Europe is stone, hill
 
 Comfort Wear's Ortho Stretch Cushion Shoe was built for people who are on their feet all day. It has a sole firm enough for cobblestones, a wide toe box and a stretch knit top for swelling, built-in arch support that's still there at hour nine, and it's light enough to forget about.
 
-Right now Comfort Wear is up to 40% off with free shipping. [CONFIRM: Black Friday 60% off + free gifts]
+For Black Friday, Comfort Wear is 60% off, plus free gifts with your order, until December 5th. And they're HSA/FSA eligible.
 
-[GUARANTEE: Kyro369v2 and Kyro373 use 45 days] Try them for 45 days, which is more than enough time to put them through a real trip. If they don't hold up better than anything you've ever packed, send them back.
+Wear them for 30 days, which is plenty of time to put them through your own steepest hills before you fly. If they don't hold up better than anything you've ever packed, send them back for 100% of your money back. That's our 30-day money-back guarantee.
 
-[COUNT] Over 500,000 nurses and travelers have already switched.
+Over 500,000 nurses and travelers have already switched.
 
 You saved for this trip. Make sure you see all of it.
 
@@ -203,6 +203,32 @@ P.S. Wear them for at least two weeks before you fly. Walk the steepest hill nea
 P.P.S. Wear them on the plane. Your feet swell on every long flight, and you want a shoe that stretches with you, not one you have to pry off at baggage claim.
 
 P.P.P.S. If someone you love is flying to Europe soon, send this to them. My sister still thanks me.
+
+---
+
+## Offer swaps by date
+
+The primary text above runs the **Black Friday Sale** close (live until Dec 5). Swap the offer paragraph block (offer, guarantee, count) on these dates:
+
+**Christmas Sale (Dec 6 to Dec 31, 2026):**
+
+Comfort Wear's Christmas Sale is on until December 31st. And they're HSA/FSA eligible. If you've got FSA dollars left this year, a lot of plans make you use them by December 31st.
+
+Wear them for 30 days, which is plenty of time to put them through your own steepest hills before you fly. If they don't hold up better than anything you've ever packed, send them back for 100% of your money back. That's our 30-day money-back guarantee.
+
+Over 500,000 nurses and travelers have already switched.
+
+Also replace the last P.S. with:
+
+P.P.P.S. Is someone you love flying to Europe next year? Put a pair under the tree. My sister still thanks me.
+
+**New Year Sale (Jan 1 to Jan 15, 2027):**
+
+For the New Year Sale, Comfort Wear is 40% off until January 15th. And they're HSA/FSA eligible. If Europe is on your list for this year, start breaking them in now, and by spring they'll be ready for any hill.
+
+Wear them for 30 days, which is plenty of time to put them through your own steepest hills before you fly. If they don't hold up better than anything you've ever packed, send them back for 100% of your money back. That's our 30-day money-back guarantee.
+
+Over 500,000 nurses and travelers have already switched.
 
 ---
 
@@ -235,5 +261,5 @@ P.P.P.S. If someone you love is flying to Europe soon, send this to them. My sis
 | 22,000 steps through an old city center; "dinner along the river"; "Not hurt less. Didn't hurt." | Return trip, days one to three |
 | The bench, "watching what you flew there to see" | The café chair, and the close |
 | Sister calls to say thank you (Kyro373) | Ending |
-| 40% off, free shipping, 45-day trial, 500k+ | Close (`[GUARANTEE]` and `[COUNT]` flagged) |
+| Dated offer (BF / Christmas / New Year), HSA/FSA, 30-day money-back, 500k+ | Close (dated offer + swaps) |
 | Brand position | Named at ~53% of the copy |
