@@ -1,0 +1,23 @@
+{
+  "DLF02_A": {
+    "copy": "Hook: the victory selfie she took the morning of her final Invisalign check, trays in hand, before the X-rays showed two cavities.",
+    "prompt": "A mirror selfie taken by a 34-year-old South Asian American woman in her small apartment bathroom on a weekday morning in March, phone held at chest height, the phone itself mostly hidden by her hand. She has shoulder-length dark hair, a navy cardigan over a white tee, and a big open smile showing straight natural teeth. In her other hand, raised toward the mirror, she holds two thin clear plastic aligner trays shaped like a full upper and lower arch, slightly cloudy. Ordinary vanity light, slightly overexposed, a toothbrush cup, a hair tie and a folded hand towel on the counter, toothpaste flecks on the mirror. IMPORTANT: the aligners are realistic thin transparent trays shaped like full dental arches; her teeth and mouth look natural and undistorted. No logos or readable text on any product.",
+    "size": "3:4"
+  },
+  "DLF02_B": {
+    "copy": "Rock bottom: her own X-ray at the final check, the dentist pointing at the cavities and the deep spot on the lower molar.",
+    "prompt": "Photo taken from the patient's dental chair, slightly reclined, looking up and to the side at a wall-mounted monitor in a dental operatory. The monitor shows a grayscale bitewing dental X-ray of back teeth with two small bright white fillings and a darker shadow on a lower molar. A dentist's gloved hand in a light blue nitrile glove points at the dark spot with a pen. The patient's knee in dark jeans and a paper bib edge are in the bottom corner of the frame. Flat overhead clinic light, beige cabinet, a box of gloves on the counter. IMPORTANT: no software interface text, no logos, no clinic name, no readable words anywhere on the screen or walls; the X-ray looks like a real dental radiograph.",
+    "size": "3:4"
+  },
+  "DLF02_C": {
+    "copy": "The failed routine: a cloudy, scratched aligner set down on a napkin at the 3 o'clock iced-coffee run.",
+    "prompt": "Close-up phone photo taken from above at a small round cafe table on a cool spring afternoon. A plastic cup of iced coffee with milk swirls, condensation dripping, a plain clear plastic lid and a paper straw. Next to it on a crumpled white paper napkin lies one thin clear aligner tray shaped like a full upper dental arch, visibly cloudy and foggy with fine scratches and a faint white film in the tooth grooves. A phone face down and a lanyard work badge, face down, at the edge of the frame. Ordinary daylight from a window, slightly cool, a few coffee drips on the table. IMPORTANT: the cup and napkin have no logos or printed words; the aligner is anatomically realistic and clearly cloudy, not shiny.",
+    "size": "3:4"
+  },
+  "DLF02_D": {
+    "copy": "The new routine: her retainer going into the open Pod on the bathroom counter while the coffee brews.",
+    "prompt": "Phone photo taken from standing height in a small bright bathroom on a fall morning. On the white counter sits the white ribbed dome ultrasonic cleaner from the reference photo, lid flipped open, showing the brushed stainless-steel basin filled with clear tap water. A woman's hand with a thin gold ring is lowering a thin clear retainer shaped like a full upper dental arch into the water. Beside it: a toothbrush in a cup, a hair clip, a coffee mug with steam, and a folded hand towel. Ordinary window light, slightly overexposed. IMPORTANT: the cleaner looks exactly like the reference photo, unchanged, no screens or extra buttons; the retainer is anatomically realistic and clear.",
+    "size": "3:4",
+    "ref": "pod_open"
+  }
+}
