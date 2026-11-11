@@ -222,7 +222,7 @@ def build_music_only(spec, d, out_root, paras, only, music):
           f"[2:a]volume=0.55,afade=t=in:st=0:d=1.5,afade=t=out:st={total - 3:.2f}:d=3[a]")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", bg, "-loop", "1", "-i", d / "text.png",
                     "-stream_loop", "-1", "-i", str(music), "-filter_complex", fc, "-map", "[v]", "-map", "[a]",
-                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast", "-crf", "23",
+                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast", "-crf", "26", "-maxrate", "2500k", "-bufsize", "5000k",
                     "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", final], check=True)
     (d / "voice_engine.txt").write_text("none (music only)")
     return final, total
@@ -355,7 +355,7 @@ def build(spec, out_root, only=None, music=None):
            f"[bgv][1:v]overlay=x=0:y='{yexpr}':eval=frame:shortest=0[v]")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", bg, "-loop", "1", "-i", d / "text.png",
                     *a_inputs, "-filter_complex", vfc + ";" + afc, "-map", "[v]", "-map", "[a]",
-                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast", "-crf", "23",
+                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast", "-crf", "26", "-maxrate", "2500k", "-bufsize", "5000k",
                     "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", final], check=True)
     return final, total
 
