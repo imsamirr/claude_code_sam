@@ -33,6 +33,7 @@ W, H, FPS = 720, 1280, 30
 START_Y = 0.60      # the hook's top sits here at t=0 (fraction of H), like the examples
 READ_Y = 0.30       # a paragraph's top sits here when the voice starts reading it
 MUSIC_DB = -24      # music bed under the voice
+NO_VOICE = False    # --no-voice: music-only render
 TTS = "kie"         # "kie" (ElevenLabs via Kie, falls back to OpenAI) or "openai"
 CLIP_ANGLES = ["", ""]  # two takes of the SAME prompt = two moments of one place, crossfaded and looped
 
@@ -195,6 +196,57 @@ def scroll_expr(tops, starts, total_dur, text_h):
     return expr
 
 
+# ---------- music-only (no voice-over), like the FluffCo hotel-pillow ad ----------
+WPS = 2.4  # reading pace, words per second
+
+
+def build_music_only(spec, d, out_root, paras, only, music):
+    vid = spec["id"]
+    starts, t = [], 1.2
+    for p in paras:
+        starts.append(t)
+        t += len(p.split()) / WPS + 0.5
+    total = t + 3.0
+    clips = [c for c in (d / "bg_0.mp4", d / "bg_1.mp4") if c.exists()]
+    if not clips:
+        raise RuntimeError("no background clips")
+    color = {"yellow": (255, 236, 64), "white": (255, 255, 255)}.get(spec.get("text_color", "white"))
+    img, tops, text_h = layout(paras, color)
+    img.save(d / "text.png")
+    yexpr = scroll_expr(tops, starts, total, text_h)
+    bg = make_bg_loop(d, clips)
+    final = out_root / f"{vid}.mp4"
+    music = music or (d / "music.mp3")
+    fc = (f"[0:v]eq=brightness=-0.06:saturation=0.95,format=yuv420p[bgv];"
+          f"[bgv][1:v]overlay=x=0:y='{yexpr}':eval=frame:shortest=0[v];"
+          f"[2:a]volume=0.55,afade=t=in:st=0:d=1.5,afade=t=out:st={total - 3:.2f}:d=3[a]")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", bg, "-loop", "1", "-i", d / "text.png",
+                    "-stream_loop", "-1", "-i", str(music), "-filter_complex", fc, "-map", "[v]", "-map", "[a]",
+                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast", "-crf", "23",
+                    "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", final], check=True)
+    (d / "voice_engine.txt").write_text("none (music only)")
+    return final, total
+
+
+def make_bg_loop(d, clips):
+    bg = d / "bg_loop.mp4"
+    if len(clips) == 1:
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", clips[0], "-an", "-vf", f"scale={W}:{H},fps={FPS}",
+                        "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", bg], check=True)
+        return bg
+    inputs, fc = [], []
+    for i, c in enumerate(clips):
+        inputs += ["-i", str(c)]
+        fc.append(f"[{i}:v]scale={W}:{H},fps={FPS},setpts=PTS-STARTPTS[v{i}]")
+    prev, off = "[v0]", duration(clips[0]) - 1.0
+    for i in range(1, len(clips)):
+        fc.append(f"{prev}[v{i}]xfade=transition=fade:duration=1:offset={off:.2f}[x{i}]")
+        prev = f"[x{i}]"; off += duration(clips[i]) - 1.0
+    subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(fc), "-map", prev, "-an",
+                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", bg], check=True)
+    return bg
+
+
 # ---------- pipeline ----------
 def build(spec, out_root, only=None, music=None):
     vid = spec["id"]
@@ -227,6 +279,8 @@ def build(spec, out_root, only=None, music=None):
             engines = list(ex.map(one, range(len(groups))))
         (d / "voice_engine.txt").write_text(", ".join(f"s{i}:{e}" for i, e in enumerate(engines)))
     seg_paths = [d / f"vo_{gi:02d}.mp3" for gi in range(len(groups))]
+    if NO_VOICE or not all(p.exists() for p in seg_paths):
+        return build_music_only(spec, d, out_root, paras, only, music)
     # paragraph start times: section start + share of its duration by word count
     starts, t = [], 0.6
     durs = [duration(p) for p in seg_paths]
@@ -313,10 +367,12 @@ def main():
     p.add_argument("--music", help="music bed for every video in this run (default: generate one per angle file)")
     p.add_argument("--only", choices=["render", "assets"])
     p.add_argument("--tts", choices=["kie", "openai"], default="kie")
+    p.add_argument("--no-voice", action="store_true", help="music-only render, scrolled at reading pace")
     p.add_argument("ids", nargs="*")
     a = p.parse_args()
-    global TTS
+    global TTS, NO_VOICE
     TTS = a.tts
+    NO_VOICE = a.no_voice
     out_root = ADS / "brands" / a.brand / "output" / "scroll_videos"
     out_root.mkdir(parents=True, exist_ok=True)
     specs = json.loads(Path(a.spec).read_text())
