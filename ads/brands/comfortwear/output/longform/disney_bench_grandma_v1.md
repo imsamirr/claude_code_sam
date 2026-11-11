@@ -1,5 +1,7 @@
 # Comfort Wear: Long-Form Static, "The Bench" (Disney / plus-size grandma)
 
+> **SUPERSEDED** by LF01–LF03 (see research/longform_angles.md §3). Built on weak Disney cuts and dropped the competitor teardown.
+
 **Concept:** LF-DISNEY-01, "The Bench"
 **Persona:** Plus-size woman, 60s, grandmother, Disney trip booked. This merges the top-spend angles: plus-size park day (NH3/NG1), over-50 / grandparents (MO2), and standing-in-lines / heel (NE1).
 **Format:** Single static image + long primary text (~11k characters, ~2,100 words)

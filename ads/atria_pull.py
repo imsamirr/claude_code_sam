@@ -9,6 +9,7 @@
     python ads/atria_pull.py current   # any ad in the last 30 days with >= $300 spend and ROAS >= 1.8
     python ads/atria_pull.py inspo       # image ads, rising impressions, launched last 30 days
     python ads/atria_pull.py competitors # competitor + adjacent brands' ads (brand.json → competitor_brands)
+    python ads/atria_pull.py longform    # top PROSPECTING script families (last 90d) + copy + transcripts for long-form ads
 
 Writes CSVs to ads/brands/<brand>/research/data/. Atria returns at most 50 ads per date window, so
 spend is summed across monthly (winners) or weekly (losers) windows; ads
@@ -247,10 +248,124 @@ def rising(api, acc, args):
               "roas", "purchases", "headline", "primary_text", "thumbnail_url"])
 
 
+RTG_MARKERS = ("RTG", "RETARGET", "REMARKET", "WARM", "BOF")
+
+
+def is_retargeting(*names):
+    return any(m in (n or "").upper() for n in names for m in RTG_MARKERS)
+
+
+def transcript(api, acc, video_id, pay):
+    """Cached transcript (free); POST to transcribe on a cache miss only when pay=True (costs Atria credits)."""
+    path = f"ad-accounts/{acc}/videos/{video_id}/transcript"
+    try:
+        d = api.get(path)
+    except RuntimeError:
+        d = None
+    if (not d or d.get("status") != "success") and pay:
+        r = api.s.post(f"{BASE}/{path}", timeout=300).json()
+        d = r.get("data") if r.get("code") == 0 else None
+    t = ((d or {}).get("transcript") or {}).get("text") if d and d.get("status") == "success" else None
+    return " ".join(t.split()) if t else None
+
+
+def body_key(text):
+    """Script body without the hook (first ~60 words), used to merge hook variants of one script."""
+    words = (text or "").lower().split()
+    return " ".join(words[60:] if len(words) > 120 else words)
+
+
+def longform(api, acc, args):
+    """Top PROSPECTING ads (all formats) over the last --days, grouped into script families, with full
+    copy + transcripts, as source material for long-form static ads.
+
+    Retargeting is excluded (its ROAS reflects a warm audience, not the angle). A family = the same
+    script/copy with different hooks or duplicate ad IDs. Families qualify on combined spend >= --lf-min-spend
+    and ROAS >= the account's prospecting ROAS for the window x --lf-roas-factor, and are ranked by
+    spend x (ROAS / prospecting ROAS), so they need both scale and efficiency.
+    """
+    import difflib
+    end = dt.date.today() - dt.timedelta(days=1)
+    start = end - dt.timedelta(days=args.days - 1)
+    agg = aggregate(api, acc, start, end, "week")
+    pro = {k: r for k, r in agg.items() if not is_retargeting(r["ad_name"])}
+    base_roas = sum(r["revenue"] for r in pro.values()) / max(sum(r["spend"] for r in pro.values()), 1)
+    cands = sorted(((k, r) for k, r in pro.items() if r["spend"] >= args.lf_ad_floor), key=lambda kv: -kv[1]["spend"])
+    ads = []
+    for ad_id, r in cands[:args.lf_max_ads]:
+        d = api.get(f"ad-accounts/{acc}/ads/{ad_id}", {"period": "last_7d"})
+        if is_retargeting(d.get("campaign_name"), d.get("adset_name")):
+            continue
+        c = d.get("creative") or {}
+        vids = c.get("videos") or []
+        pay = args.transcribe and r["spend"] >= args.lf_transcribe_floor
+        tr = transcript(api, acc, vids[0]["video_id"], pay) if vids else None
+        ads.append({**r, "platform_ad_id": ad_id, "campaign": d.get("campaign_name"), "adset": d.get("adset_name"),
+                    "headline": c.get("title"), "primary_text": c.get("body") or "", "link_url": c.get("link_url"),
+                    "video_id": vids[0]["video_id"] if vids else "", "transcript": tr or ""})
+        time.sleep(0.5)
+    fams = []
+    for a in ads:  # videos merge only on transcript (shared primary text != same script); statics on copy
+        if a["format"] == "VIDEO":
+            key = "v:" + body_key(a["transcript"]) if a["transcript"] else ""
+        else:
+            key = "s:" + body_key((a["headline"] or "") + " " + a["primary_text"])
+        if not key:
+            fams.append({"key": f"untranscribed:{a['platform_ad_id']}", "ads": [a]})
+            continue
+        for f in fams:
+            if key and difflib.SequenceMatcher(None, key[:1500], f["key"][:1500]).ratio() >= 0.6:
+                f["ads"].append(a)
+                break
+        else:
+            fams.append({"key": key, "ads": [a]})
+    rows = []
+    for i, f in enumerate(fams, 1):
+        sp = sum(a["spend"] for a in f["ads"]); rev = sum(a["revenue"] for a in f["ads"])
+        pu = sum(a["purchases"] for a in f["ads"]); roas = rev / sp if sp else 0
+        lead = max(f["ads"], key=lambda a: a["spend"])
+        rows.append({"family": i, "lead_ad": lead["ad_name"], "n_ads": len(f["ads"]), "format": lead["format"],
+                     "spend": round(sp), "roas": round(roas, 2), "purchases": round(pu),
+                     "cpa": round(sp / pu, 2) if pu else "", "score": round(sp * roas / base_roas),
+                     "qualifies": sp >= args.lf_min_spend and roas >= base_roas * args.lf_roas_factor,
+                     "has_transcript": bool(lead["transcript"]), "ads": f["ads"]})
+    rows.sort(key=lambda r: (not r["qualifies"], -r["score"]))
+    write_csv("longform_winners.csv", rows, ["family", "qualifies", "score", "spend", "roas", "cpa", "purchases",
+              "n_ads", "format", "has_transcript", "lead_ad"])
+    md = [f"# Prospecting winners for long-form copy ({start} to {end})\n",
+          f"Prospecting ROAS baseline: {base_roas:.2f}. Qualify: family spend >= ${args.lf_min_spend:.0f} and ROAS >= "
+          f"{base_roas * args.lf_roas_factor:.2f}. Ranked by spend x ROAS/baseline. Retargeting excluded.\n"]
+    for r in [r for r in rows if r["qualifies"]]:
+        lead = max(r["ads"], key=lambda a: a["spend"])
+        md.append(f"\n## Family {r['family']}: {r['lead_ad']}\n\nSpend ${r['spend']:,} · ROAS {r['roas']} · CPA "
+                  f"${r['cpa']} · {r['purchases']} purchases · score {r['score']:,} · {r['n_ads']} ad(s)\n")
+        for a in sorted(r["ads"], key=lambda a: -a["spend"]):
+            md.append(f"- {a['ad_name']} ({a['platform_ad_id']}): ${a['spend']:,.0f}, ROAS "
+                      f"{a['revenue'] / a['spend']:.2f}, adset: {a['adset']}")
+        md.append(f"\n**Headline:** {lead['headline']}  \n**Landing page:** {lead['link_url']}\n")
+        md.append(f"**Primary text:**\n\n> " + lead["primary_text"].replace("\n", "\n> ") + "\n")
+        hooks = {a["transcript"][:300] for a in r["ads"] if a["transcript"]}
+        if lead["transcript"]:
+            md.append(f"**Transcript (lead ad):**\n\n{lead['transcript']}\n")
+        if len(hooks) > 1:
+            md.append("**Hook variants (first 300 chars):**\n\n" + "\n".join(f"- {h}…" for h in hooks) + "\n")
+        elif lead["format"] == "VIDEO" and not lead["transcript"]:
+            md.append(f"_No cached transcript (video {lead['video_id']}). Re-run with --transcribe to pay for one._\n")
+    path = DATA_DIR / "longform_winners.md"
+    path.write_text("\n".join(md))
+    print(f"Wrote {path}. {sum(r['qualifies'] for r in rows)} qualifying families of {len(rows)}.")
+
+
 def main():
     load_dotenv()
     p = argparse.ArgumentParser()
-    p.add_argument("what", choices=["winners", "losers", "inspo", "seasonal", "rising", "current", "competitors"])
+    p.add_argument("what", choices=["winners", "losers", "inspo", "seasonal", "rising", "current", "competitors", "longform"])
+    p.add_argument("--lf-min-spend", type=float, default=3000, help="longform: minimum combined family spend")
+    p.add_argument("--lf-roas-factor", type=float, default=0.95, help="longform: family ROAS must be >= prospecting ROAS x this")
+    p.add_argument("--lf-ad-floor", type=float, default=300, help="longform: ignore single ads under this spend")
+    p.add_argument("--lf-max-ads", type=int, default=60, help="longform: max ads to fetch copy/transcripts for")
+    p.add_argument("--lf-transcribe-floor", type=float, default=2000, help="longform: only pay to transcribe ads with at least this spend")
+    p.add_argument("--transcribe", action="store_true", help="longform: pay Atria credits to transcribe uncached videos")
     p.add_argument("--days", type=int, default=30, help="rising: look-back window in days")
     p.add_argument("--min-spend-rising", type=float, default=300, help="rising: minimum spend in the window")
     p.add_argument("--min-roas", type=float, default=1.8, help="rising: minimum ROAS in the window")
@@ -275,7 +390,10 @@ def main():
     if not args.week:
         y, w, _ = (dt.date.today() + dt.timedelta(days=7)).isocalendar()
         args.week = f"{y}-W{w:02d}"
-    {"winners": winners, "losers": losers, "inspo": inspo, "seasonal": seasonal, "rising": rising, "current": rising, "competitors": competitors}[args.what](api, acc, args)
+    if args.what == "longform" and args.days == 30:
+        args.days = 90  # longform default window
+    {"winners": winners, "losers": losers, "inspo": inspo, "seasonal": seasonal, "rising": rising, "current": rising,
+     "competitors": competitors, "longform": longform}[args.what](api, acc, args)
 
 
 if __name__ == "__main__":
