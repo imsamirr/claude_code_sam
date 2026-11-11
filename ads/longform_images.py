@@ -1,10 +1,10 @@
-"""Story images for long-form statics, generated with Kie.ai (google/nano-banana).
+"""Story images for long-form statics, generated with Kie.ai (nano-banana-pro), finished as 4:5 iPhone-style JPEGs.
 
 The style copies the long-form winners saved in Atria: an unedited phone snapshot of ONE moment
 or object from the story (the bench, the bin, the café chair). No studio look, no ad layout, and
 usually no product. Specs live in ads/brands/<brand>/output/longform/images/specs.json:
 
-    {"LF01_A": {"prompt": "...", "size": "4:5", "overlay": null}, ...}
+    {"LF01_A": {"prompt": "...", "size": "3:4", "overlay": null}, ...}
 
 An optional "overlay" draws exact text on top with PIL (for example iMessage bubbles), so text
 the story depends on is never left to the image model.
@@ -25,17 +25,22 @@ import requests
 from PIL import Image, ImageDraw, ImageFont
 
 API = "https://api.kie.ai/api/v1/jobs"
-STYLE = ("Unedited amateur smartphone photo, the kind a family member snaps and posts to Facebook: "
-         "imperfect framing, slightly crooked, ordinary or harsh on-camera lighting, a little digital noise and softness, "
-         "real everyday clutter, nothing staged. NOT cinematic, NOT professional, NOT an ad. "
-         "No logos, no brand names, no watermarks, no recognizable landmarks or characters. ")
+STYLE = ("A real, unremarkable snapshot straight from a regular person's phone camera roll. The image is the photo only, edge to edge, "
+         "with no captions, timestamps, camera labels, borders or interface of any kind. Native iPhone camera look: "
+         "everything in focus front to back (small phone sensor, NO shallow depth of field, NO bokeh), flat HDR processing with slightly "
+         "lifted shadows, a bit over-sharpened, mild JPEG compression, some noise in dark areas, white balance slightly off from the room "
+         "lighting, handheld and a little crooked, subject not perfectly centered, ordinary cluttered real-life surroundings. Not a "
+         "professional photo, not cinematic, no color grading, no dramatic lighting, no film look, no studio, not an ad, no text overlays, "
+         "no app interface, no borders. No logos, brand names, watermarks, recognizable landmarks or characters. ")
+MODEL = "nano-banana-pro"      # most photo-real on Kie.ai in a side-by-side test (2026-11-11)
+FEED = (1080, 1350)            # 4:5 feed size; renders are 3:4 and centre-cropped to this
 
 
 def kie(key, prompt, size):
     h = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
     r = requests.post(f"{API}/createTask", headers=h, timeout=60, json={
-        "model": "google/nano-banana",
-        "input": {"prompt": STYLE + prompt, "output_format": "png", "image_size": size}}).json()
+        "model": MODEL,
+        "input": {"prompt": STYLE + prompt, "aspect_ratio": size, "resolution": "1K"}}).json()
     if r.get("code") != 200:
         raise RuntimeError(r)
     tid = r["data"]["taskId"]
@@ -47,6 +52,17 @@ def kie(key, prompt, size):
         if d["state"] == "fail":
             raise RuntimeError(d.get("failMsg"))
     raise RuntimeError(f"timed out: {tid}")
+
+
+def phone_finish(img):
+    """Centre-crop a 3:4 render to 4:5 and resize to 1080x1350, like a feed upload."""
+    img = img.convert("RGB")
+    w, h = img.size
+    th = int(w * FEED[1] / FEED[0])
+    if th < h:
+        top = (h - th) // 2
+        img = img.crop((0, top, w, top + th))
+    return img.resize(FEED, Image.LANCZOS)
 
 
 def font(size, bold=False):
@@ -107,15 +123,16 @@ def main():
     for sid, s in specs.items():
         if a.ids and sid not in a.ids:
             continue
-        raw, final = out / f"{sid}_raw.png", out / f"{sid}.png"
+        raw, final = out / f"{sid}_raw.png", out / f"{sid}.jpg"
         if final.exists() and not a.ids:
             continue
         print(f"{sid}: generating…", flush=True)
-        raw.write_bytes(kie(key, s["prompt"], s.get("size", "4:5")))
-        img = Image.open(raw)
+        raw.write_bytes(kie(key, s["prompt"], s.get("size", "3:4")))
+        img = phone_finish(Image.open(raw))
         if s.get("overlay", {}) and s["overlay"].get("type") == "imessage":
             img = imessage(img, s["overlay"])
-        img.convert("RGB").save(final)
+        final = final.with_suffix(".jpg")
+        img.convert("RGB").save(final, quality=84)  # re-compressed like a phone photo uploaded to Facebook
         print(f"  saved {final}")
 
 
