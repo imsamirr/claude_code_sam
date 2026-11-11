@@ -1,23 +1,23 @@
 {
-  "DLF09_A": {
-    "copy": "Hook: three empty amber antifungal rinse bottles lined up on the bathroom windowsill in Mesa, her upper denture soaking in a blue tablet cup beside them.",
-    "prompt": "Phone photo taken by a 63-year-old woman standing at her bathroom counter in a Mesa, Arizona home in late summer, harsh bright desert sun through a small frosted window. On the white tiled windowsill stand three empty amber plastic pharmacy bottles with white caps, lined up neatly in a row, their white pharmacy labels turned away or blank. On the counter below sits a clear plastic denture cup of bright blue tablet water with an upper denture inside: realistic pink acrylic palate and a full arch of natural-looking teeth. A tube of hand lotion, a pair of reading glasses and a phone face down. Ordinary light, slightly overexposed window. IMPORTANT: the denture is an anatomically realistic upper arch, undistorted. No readable text, drug names, pharmacy names or logos anywhere.",
-    "size": "3:4"
-  },
-  "DLF09_B": {
-    "copy": "The mechanism: the hygienist holds Bev's upper denture under the operatory light, the fitting side blotched purple with disclosing dye in the shape of the red on her palate.",
-    "prompt": "Close-up phone photo taken by a patient from a dental chair, looking at a dental hygienist's hands in light purple nitrile gloves holding an upper denture upside down under the bright operatory light so the fitting side faces the camera. The pink acrylic palate surface is blotched with uneven patches of purple-violet disclosing dye spread across the inside of the plate, while the outer teeth are clean and white. A small cotton pellet and a tiny dappen dish of purple liquid on a tray at the edge of the frame. Hygienist's scrub top in teal, purple-framed glasses just visible at the top edge. Flat clinical light. IMPORTANT: the denture is an anatomically realistic upper arch with a palate; the purple stain is on the palate side only. No logos, clinic names or readable text.",
-    "size": "3:4"
-  },
-  "DLF09_C": {
-    "copy": "Payoff: Friday pizza night back on the patio once it dropped under 90; Bev, 63, mid-laugh with a slice, her grandkids Mateo (9) and Lily (6) beside her.",
-    "prompt": "Phone photo taken by her husband from across a backyard patio table in Mesa, Arizona on an early November evening, just after sunset, string lights on, ordinary porch light, a little flash. A 63-year-old Latina woman with short silver hair, small gold earrings and a coral short-sleeve blouse is mid-laugh, holding a slice of pepperoni pizza with stretched cheese, her mouth open in a natural smile showing realistic teeth. Beside her a 9-year-old boy in a plain gray t-shirt reaching for a slice and a 6-year-old girl in a plain yellow t-shirt pointing at her grandma and laughing. An open plain white pizza box, paper plates, a two-liter of soda with no label, a pool edge and a palo verde tree in the background. Warm weather clothing. IMPORTANT: faces and teeth look natural and undistorted; no logos, prints or readable text on the box, clothes or bottles; no cartoon characters.",
-    "size": "3:4"
-  },
-  "DLF09_D": {
-    "copy": "The new routine: sunrise, the windowsill empty, her upper denture going into the open Pod with tap water while the coffee brews.",
-    "ref": "pod_open",
-    "prompt": "Phone photo taken at sunrise in a Mesa, Arizona bathroom, soft early desert light through a small frosted window, the white tiled windowsill now empty. On the counter sits the white ribbed dome ultrasonic cleaner from the reference photo, its round white lid flipped open over the brushed stainless steel basin filled with plain tap water. An older woman's hand with a simple gold wedding band is lowering an upper denture with a realistic pink palate and a full arch of natural-looking teeth into the basin. A coffee mug steaming nearby, a hairbrush, reading glasses. IMPORTANT: the cleaner looks exactly like the reference photo, no added buttons, screens or colors; the denture is anatomically realistic. No readable text or logos other than what is on the reference device.",
-    "size": "3:4"
-  }
+ "DLF09_A": {
+  "copy": "Hook: Bev's upper denture under the bathroom light.",
+  "prompt": "Extreme close-up of the fitting (roof-of-mouth) side of an upper denture held in an older woman's hand: the pink acrylic is blotchy with a white-yellow slimy coating and reddish-brown stained patches, grime in the ridges; three amber pharmacy bottles with blank labels out of focus behind on a windowsill. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF09_B": {
+  "copy": "The mechanism: the hygienist holds Bev's upper denture under the operatory light, the fitting side blotched purple with disclosing dye in the shape of the red on her palate.",
+  "prompt": "Close-up phone photo taken by a patient from a dental chair, looking at a dental hygienist's hands in light purple nitrile gloves holding an upper denture upside down under the bright operatory light so the fitting side faces the camera. The pink acrylic palate surface is blotched with uneven patches of purple-violet disclosing dye spread across the inside of the plate, while the outer teeth are clean and white. A small cotton pellet and a tiny dappen dish of purple liquid on a tray at the edge of the frame. Hygienist's scrub top in teal, purple-framed glasses just visible at the top edge. Flat clinical light. IMPORTANT: the denture is an anatomically realistic upper arch with a palate; the purple stain is on the palate side only. No logos, clinic names or readable text.",
+  "size": "3:4"
+ },
+ "DLF09_C": {
+  "copy": "Payoff: Friday pizza night back on the patio once it dropped under 90; Bev, 63, mid-laugh with a slice, her grandkids Mateo (9) and Lily (6) beside her.",
+  "prompt": "Phone photo taken by her husband from across a backyard patio table in Mesa, Arizona on an early November evening, just after sunset, string lights on, ordinary porch light, a little flash. A 63-year-old Latina woman with short silver hair, small gold earrings and a coral short-sleeve blouse is mid-laugh, holding a slice of pepperoni pizza with stretched cheese, her mouth open in a natural smile showing realistic teeth. Beside her a 9-year-old boy in a plain gray t-shirt reaching for a slice and a 6-year-old girl in a plain yellow t-shirt pointing at her grandma and laughing. An open plain white pizza box, paper plates, a two-liter of soda with no label, a pool edge and a palo verde tree in the background. Warm weather clothing. IMPORTANT: faces and teeth look natural and undistorted; no logos, prints or readable text on the box, clothes or bottles; no cartoon characters.",
+  "size": "3:4"
+ },
+ "DLF09_D": {
+  "copy": "Proof: the first cycle with her upper denture.",
+  "ref": "pod_open",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. An upper denture sits in the murky water. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ }
 }

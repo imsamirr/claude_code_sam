@@ -1,7 +1,7 @@
 {
  "DLF02_A": {
-  "copy": "Hook: the victory selfie she took the morning of her final Invisalign check, trays in hand, before the X-rays showed two cavities.",
-  "prompt": "A mirror selfie taken by a 34-year-old South Asian American woman in her small apartment bathroom on a weekday morning in March, phone held at chest height, the phone itself mostly hidden by her hand. She has shoulder-length dark hair, a navy cardigan over a white tee, and a big open smile showing straight natural teeth. In her other hand, raised toward the mirror, she holds two thin clear plastic aligner trays shaped like a full upper and lower arch, slightly cloudy. Ordinary vanity light, slightly overexposed, a toothbrush cup, a hair tie and a folded hand towel on the counter, toothpaste flecks on the mirror. IMPORTANT: the aligners are realistic thin transparent trays shaped like full dental arches; her teeth and mouth look natural and undistorted. No logos or readable text on any product. IMPORTANT: only ONE person in the photo, and only her two hands: one holds the phone, the other holds the clear trays. No other hands or arms entering the frame.",
+  "copy": "Hook: her aligner tray after a 3 p.m. iced coffee, held up to the window.",
+  "prompt": "A woman's fingers holding a clear Invisalign-style aligner tray up against a bright office window: the tray is cloudy and scratched, brown coffee staining pooled inside the tooth cups, a white chalky film and a stringy wet residue inside, tiny food bits caught in the edges. An iced coffee cup out of focus behind. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
   "size": "3:4"
  },
  "DLF02_B": {
@@ -10,13 +10,13 @@
   "size": "3:4"
  },
  "DLF02_C": {
-  "copy": "The failed routine: a cloudy, scratched aligner set down on a napkin at the 3 o'clock iced-coffee run.",
-  "prompt": "Close-up phone photo taken from above at a small round cafe table on a cool spring afternoon. A plastic cup of iced coffee with milk swirls, condensation dripping, a plain clear plastic lid and a paper straw. Next to it on a crumpled white paper napkin lies one thin clear aligner tray shaped like a full upper dental arch, visibly cloudy and foggy with fine scratches and a faint white film in the tooth grooves. A phone face down and a lanyard work badge, face down, at the edge of the frame. Ordinary daylight from a window, slightly cool, a few coffee drips on the table. IMPORTANT: the cup and napkin have no logos or printed words; the aligner is anatomically realistic and clearly cloudy, not shiny.",
+  "copy": "The failed routine: the tray dropped on a caf\u00e9 napkin, coffee-soaked.",
+  "prompt": "A cloudy, scratched clear aligner tray lying on a coffee-stained paper napkin on a caf\u00e9 table next to a sweating iced coffee; the inside of the tray has a brown coffee film and white crusty buildup. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
   "size": "3:4"
  },
  "DLF02_D": {
-  "copy": "The new routine: her retainer going into the open Pod on the bathroom counter while the coffee brews.",
-  "prompt": "Phone photo taken from standing height in a small bright bathroom on a fall morning. On the white counter sits the white ribbed dome ultrasonic cleaner from the reference photo, lid flipped open, showing the brushed stainless-steel basin filled with clear tap water. A woman's hand with a thin gold ring is lowering a thin clear retainer shaped like a full upper dental arch into the water. Beside it: a toothbrush in a cup, a hair clip, a coffee mug with steam, and a folded hand towel. Ordinary window light, slightly overexposed. IMPORTANT: the cleaner looks exactly like the reference photo, unchanged, no screens or extra buttons; the retainer is anatomically realistic and clear.",
+  "copy": "Proof: the first cycle with her trays.",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A pair of clear aligner trays sits in the murky water. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
   "size": "3:4",
   "ref": "pod_open"
  }

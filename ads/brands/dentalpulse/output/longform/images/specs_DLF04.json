@@ -1,23 +1,23 @@
 {
-  "DLF04_A": {
-    "copy": "Hook: 9 p.m. on the fourth floor. Ray's teeth in the pink plastic cup on the tray table, his name on a strip of tape, the night nurse's routine.",
-    "prompt": "Phone photo taken at night by a woman sitting in the visitor's chair beside a hospital bed, about three feet away, flash off, room lit only by a dim wall light and the soft glow of a bedside monitor. On a beige rolling over-bed tray table in the foreground sits a small pink plastic hospital cup half full of water holding a full upper and lower denture, realistic pink acrylic gums and natural off-white teeth, slightly magnified through the water. A strip of white medical tape on the side of the cup with a few blurry handwritten pen marks, not readable. Also on the tray: a folded paper napkin, a plastic water pitcher with a bent straw, a pair of men's reading glasses. Behind, out of focus, the raised metal bed rail, a white blanket and the shoulder of an elderly man in a blue patterned hospital gown turned toward the wall. Ordinary hospital lighting, slight noise, a bit crooked. February, window behind is black. IMPORTANT: the dentures look anatomically real, a full upper and full lower set; no readable text, no hospital name, no logos anywhere; the monitor screen is only a dim out-of-focus glow with no numbers legible.",
-    "size": "3:4"
-  },
-  "DLF04_B": {
-    "copy": "The pride: Ray and Dot's 1973 wedding photo on the dresser at home, his reading glasses beside it, the reason he never let her see him without teeth.",
-    "prompt": "Phone photo taken at an angle from standing height of the top of an old honey-oak bedroom dresser in a modest Indiana farmhouse, winter afternoon light from a side window, a little overexposed. In the center, a framed 1970s wedding photo in a simple gold frame: a young lean man in a brown suit with wide lapels and a big toothy grin, and a young woman with a dark flipped hairdo in a plain white dress, slightly faded warm color print with a bit of glare on the glass. Around it: a man's folded handkerchief, a pocket knife, a small dish of coins, men's reading glasses, a bottle of hand lotion, a doily. IMPORTANT: realistic vintage print look, faces natural; no readable text, no logos, no brand names on the lotion bottle.",
-    "size": "3:4"
-  },
-  "DLF04_C": {
-    "copy": "The self-test: Ray's hands at the bathroom sink at home, holding his upper denture, a thumbnail run along the inside of the plate, a smear of film on the nail.",
-    "prompt": "Close-up phone photo taken over the shoulder of an elderly man standing at a small white bathroom sink in a 1970s house, morning, overhead vanity light, slightly crooked framing. His weathered, big-knuckled hands, a few old scars and age spots, flannel shirt cuff visible, hold a full upper denture with realistic pink acrylic palate and natural off-white teeth, tipped so we see the inside of the plate that sits against the roof of the mouth. His thumbnail has just been dragged along the inside of the palate, and a small grayish-white smear of film sits on the edge of the thumbnail. On the sink edge: a plain white plastic cup with blue-tinted water, a worn denture brush, a bar of soap. IMPORTANT: the denture is anatomically realistic, a full upper with palate; the hands look 79 years old; no logos or readable text on anything; no tablet box visible.",
-    "size": "3:4"
-  },
-  "DLF04_D": {
-    "copy": "Payoff: the Pod on Ray's bathroom counter in the morning, the dark round dental case beside it where his teeth sleep now, the pink hospital cup holding his reading glasses on the shelf.",
-    "ref": "pod",
-    "prompt": "Phone photo taken from standing height in a small, tidy older bathroom on a bright late-winter morning, sunlight through a frosted window, ordinary light, a little overexposed. On the beige laminate counter beside the sink sits the white ribbed dome ultrasonic cleaner from the reference photo, closed. Next to it, a smoky dark-grey round portable denture case, closed. Behind them on a small shelf, a pink plastic hospital cup with a strip of white tape on it holds a pair of men's reading glasses. Also on the counter: a folded green hand towel, a bar of soap in a dish, a man's comb. IMPORTANT: the cleaner looks exactly like the reference photo, no added buttons, screens, lights or colors; no readable text or logos other than what is on the reference device; no tablet boxes.",
-    "size": "3:4"
-  }
+ "DLF04_A": {
+  "copy": "Hook: Ray's teeth in the hospital cup at 9 p.m.",
+  "prompt": "Close-up of a pink plastic hospital cup on a beige tray table at night under a harsh overhead light: a full set of dentures in cloudy water, a slimy whitish film coating the teeth, yellow-brown buildup at the gumline, bits of food stuck between the teeth, a skin of scum on the water. A strip of tape on the cup with a handwritten name, too blurry to read. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF04_B": {
+  "copy": "The pride: Ray and Dot's 1973 wedding photo on the dresser at home, his reading glasses beside it, the reason he never let her see him without teeth.",
+  "prompt": "Phone photo taken at an angle from standing height of the top of an old honey-oak bedroom dresser in a modest Indiana farmhouse, winter afternoon light from a side window, a little overexposed. In the center, a framed 1970s wedding photo in a simple gold frame: a young lean man in a brown suit with wide lapels and a big toothy grin, and a young woman with a dark flipped hairdo in a plain white dress, slightly faded warm color print with a bit of glare on the glass. Around it: a man's folded handkerchief, a pocket knife, a small dish of coins, men's reading glasses, a bottle of hand lotion, a doily. IMPORTANT: realistic vintage print look, faces natural; no readable text, no logos, no brand names on the lotion bottle.",
+  "size": "3:4"
+ },
+ "DLF04_C": {
+  "copy": "The self-test: a thumbnail along the inside of Dad's plate.",
+  "prompt": "Extreme close-up of an old man's thumbnail scraping along the fitting side of an upper denture over a bathroom sink: a thick off-white smear of slimy film peeled up onto the thumbnail, yellowish residue left in the scraped line. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF04_D": {
+  "copy": "Proof: the first cycle with Dad's teeth.",
+  "ref": "pod_open",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A full upper denture sits in the murky water. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ }
 }

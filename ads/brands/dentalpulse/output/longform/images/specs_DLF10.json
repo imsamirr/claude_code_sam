@@ -1,23 +1,23 @@
 {
-  "DLF10_A": {
-    "copy": "Hook: the shoebox of 14 years of receipts on the dining table, the folded hospital statement on top, Hal's calculator and glasses beside it.",
-    "prompt": "Phone photo taken from a standing position looking down at a dining table in a single-story Arizona house, late afternoon, sun through a sliding glass door, slightly overexposed, crooked framing. A worn brown cardboard shoebox with the lid off, stuffed with faded store receipts sorted with rubber bands. On top of the pile, a folded multi-page hospital billing statement on white paper, its print too small and blurry to read, no logo. Beside the box: a beige desk calculator with a paper tape roll curling out, a yellow legal pad with columns of small handwritten numbers too small to read, a mechanical pencil, a pair of men's wire reading glasses, a mug of coffee on a placemat. IMPORTANT: no readable words, no hospital or store names, no logos anywhere; the numbers on the pad and receipts are blurred and illegible.",
-    "size": "3:4"
-  },
-  "DLF10_B": {
-    "copy": "The messenger: the bedside swallow test on day four, the applesauce, ice chips, water and crackers on June's tray table.",
-    "prompt": "Phone photo taken by a husband from the visitor's chair in a hospital room, daytime, flat overhead light and window light, slightly crooked. On a beige rolling over-bed tray table: a small cup of applesauce with a plastic spoon standing in it, a white foam cup of ice chips, a clear plastic cup of water, three saltine crackers on a napkin. Beyond the tray, a 70-year-old woman with short silver hair sits up in the hospital bed in a light blue patterned gown, a thin oxygen tube under her nose, her hands folded in her lap. At the edge of the frame, the forearm and hand of a young woman in navy scrubs holding a clipboard, face out of frame. IMPORTANT: no readable text, no hospital name, no logos; the older woman's face is calm and natural, mouth closed.",
-    "size": "3:4"
-  },
-  "DLF10_C": {
-    "copy": "The old routine: two denture cups on the double sink, his and hers, a box of tablets and a tube of adhesive between them.",
-    "prompt": "Phone photo taken from standing height at a double-sink bathroom vanity in an Arizona house, night, warm vanity bulbs, slight flash glare on the mirror edge. Two plain plastic denture cups sit one by each sink, each holding pale blue fizzy water with a full denture soaking inside, realistic pink acrylic gums and natural teeth. Between the sinks: a plain white box of denture cleansing tablets with a few foil-wrapped tablets beside it, and a tube of denture adhesive, both with blank generic packaging. Two worn denture brushes in a cup, a folded blue hand towel and a folded yellow hand towel. IMPORTANT: the dentures are anatomically realistic; no readable brand names or logos on any package; generic packaging only.",
-    "size": "3:4"
-  },
-  "DLF10_D": {
-    "copy": "Payoff: one Pod, two sets of teeth. The Pod between the his-and-hers towels where the two cups used to be, two denture cases beside it.",
-    "ref": "pod",
-    "prompt": "Phone photo taken from standing height at the same double-sink bathroom vanity in an Arizona house on a bright spring morning, sun through a small window, ordinary light, a little overexposed. In the middle of the counter, between the two sinks, sits the white ribbed dome ultrasonic cleaner from the reference photo, closed. On one side a folded blue hand towel, on the other a folded yellow hand towel. In front of it, two small closed round denture cases side by side, one dark grey and one white. A man's watch and a woman's pair of earrings on a little dish. The old denture cups are gone. IMPORTANT: the cleaner looks exactly like the reference photo, no added buttons, screens, lights or colors; no tablet boxes, no adhesive tubes; no readable text or logos other than what is on the reference device.",
-    "size": "3:4"
-  }
+ "DLF10_A": {
+  "copy": "Hook: two denture cups on the double sink, morning.",
+  "prompt": "Two plastic denture cups side by side on a cluttered double bathroom sink in the morning: murky water in both, slimy film floating, the dentures inside coated with whitish scum and yellow buildup, a squeezed adhesive tube with gooey residue on the counter, a plain unlabeled tablet box. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF10_B": {
+  "copy": "The messenger: the bedside swallow test on day four, the applesauce, ice chips, water and crackers on June's tray table.",
+  "prompt": "Phone photo taken by a husband from the visitor's chair in a hospital room, daytime, flat overhead light and window light, slightly crooked. On a beige rolling over-bed tray table: a small cup of applesauce with a plastic spoon standing in it, a white foam cup of ice chips, a clear plastic cup of water, three saltine crackers on a napkin. Beyond the tray, a 70-year-old woman with short silver hair sits up in the hospital bed in a light blue patterned gown, a thin oxygen tube under her nose, her hands folded in her lap. At the edge of the frame, the forearm and hand of a young woman in navy scrubs holding a clipboard, face out of frame. IMPORTANT: no readable text, no hospital name, no logos; the older woman's face is calm and natural, mouth closed.",
+  "size": "3:4"
+ },
+ "DLF10_C": {
+  "copy": "The ledger: the shoebox of receipts with the hospital statement on top.",
+  "prompt": "The shoebox of 14 years of receipts on a dining table, a folded hospital billing statement on top with numbers blurred, a calculator and reading glasses beside it, ordinary kitchen light. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF10_D": {
+  "copy": "Proof: the first cycle for June's teeth.",
+  "ref": "pod_open",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A full upper denture sits in the murky water; a second denture case waits beside the Pod. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ }
 }

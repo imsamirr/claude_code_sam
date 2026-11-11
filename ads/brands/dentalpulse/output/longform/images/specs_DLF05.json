@@ -1,23 +1,23 @@
 {
-  "DLF05_A": {
-    "copy": "Hook: the whole 90-day routine on one paper towel. Blue dish soap, the duck-handled baby toothbrush and her new upper denture with its soft liner, at the bathroom sink at 11:40 p.m.",
-    "prompt": "Close-up phone photo taken from above and slightly to the side by a 54-year-old woman standing at her small bathroom sink late at night, lit only by the vanity light, slightly harsh and yellow, with a little flash glare. On a folded white paper towel on the beige laminate counter lies a full upper denture: realistic pink acrylic gums, a full arch of natural-looking teeth, and a soft cream-pink liner on the fitting side that looks slightly grayish and scuffed at the edges, still wet. Next to it a small infant toothbrush with a chubby yellow plastic duck on the handle, bristles splayed, and a plain bottle of bright blue dish soap with a flip cap. A drinking glass of water, a hair clip and a wet washcloth on the faucet. IMPORTANT: the denture is anatomically realistic, an upper arch with a palate, not distorted. The dish soap bottle is plain with no label, logo or readable text.",
-    "size": "3:4"
-  },
-  "DLF05_B": {
-    "copy": "The 90-day count: a paper kitchen calendar with the days crossed off from late February to the last day of school, '90' circled.",
-    "prompt": "Phone photo taken straight on but slightly crooked of a cheap paper wall calendar pinned to a kitchen wall beside a refrigerator, in a modest rural Missouri home in spring. Days are crossed off with a black ballpoint pen in rows of X marks; one date near the end is circled twice in red marker with the number '90' written next to it by hand. A school district bus route sheet and a child's crayon drawing of a yellow school bus are held to the fridge with magnets at the edge of the frame. Ordinary daylight from a window, a little overexposed. IMPORTANT: only the handwritten '90' is legible; the calendar has no brand, photos, logos or other readable printed words; the drawing has no characters or text.",
-    "size": "3:4"
-  },
-  "DLF05_C": {
-    "copy": "Rock bottom: Lisa sitting in the driver's seat of her empty school bus at the last stop, 3:12 p.m., seen in the big interior mirror, lips pressed shut.",
-    "prompt": "Phone photo taken from the front passenger area of an empty yellow school bus in the afternoon, looking up at the large wide interior mirror mounted above the windshield. In the mirror we see a 54-year-old white woman bus driver with shoulder-length dyed auburn hair pulled back, reading glasses pushed up, a gray zip fleece over a navy t-shirt, sitting in the driver's seat, looking at herself with her lips pressed tightly closed, tired eyes. Through the windshield, a gravel driveway and a small house with a boy's back and a backpack running up it, out of focus. Bus interior details: green vinyl seat backs, a stop-arm switch panel, a clipboard. Flat spring daylight, slightly overexposed windshield. IMPORTANT: her mouth is closed, no teeth visible. No logos, district names, numbers or readable text anywhere; the steering wheel centre is plain and blank.",
-    "size": "3:4"
-  },
-  "DLF05_D": {
-    "copy": "Payoff routine: 5:20 a.m., the open Pod on her bathroom counter, her denture going in with tap water, coffee thermos beside it, before the route.",
-    "ref": "pod_open",
-    "prompt": "Phone photo taken at 5:20 a.m. in a small bathroom, overhead light on, still dark outside the little window. On the counter sits the white ribbed dome ultrasonic cleaner from the reference photo, its round white lid flipped open over the brushed stainless steel basin filled with plain tap water. A woman's hand with short unpainted nails is lowering a full upper denture with realistic pink gums and natural teeth into the basin. Beside it: a dented stainless coffee thermos, a lanyard with a blank plastic ID badge, a small travel case. The blue dish soap bottle is nowhere in sight. IMPORTANT: the cleaner looks exactly like the reference photo, no added buttons, screens or colors; the denture is anatomically realistic. No readable text or logos other than what is on the reference device.",
-    "size": "3:4"
-  }
+ "DLF05_A": {
+  "copy": "Hook: her new denture after a week of dish soap.",
+  "prompt": "Close-up on a paper towel at a bathroom sink at night: a new upper denture with a soft pink liner, the liner discolored with patchy white coating and greyish-brown stains, soap scum streaks, a tiny duck-handled baby toothbrush with splayed bristles beside it, a blue dish soap bottle out of focus behind. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF05_B": {
+  "copy": "The 90-day count: a paper kitchen calendar with the days crossed off from late February to the last day of school, '90' circled.",
+  "prompt": "Phone photo taken straight on but slightly crooked of a cheap paper wall calendar pinned to a kitchen wall beside a refrigerator, in a modest rural Missouri home in spring. Days are crossed off with a black ballpoint pen in rows of X marks; one date near the end is circled twice in red marker with the number '90' written next to it by hand. A school district bus route sheet and a child's crayon drawing of a yellow school bus are held to the fridge with magnets at the edge of the frame. Ordinary daylight from a window, a little overexposed. IMPORTANT: only the handwritten '90' is legible; the calendar has no brand, photos, logos or other readable printed words; the drawing has no characters or text.",
+  "size": "3:4"
+ },
+ "DLF05_C": {
+  "copy": "Rock bottom: Lisa sitting in the driver's seat of her empty school bus at the last stop, 3:12 p.m., seen in the big interior mirror, lips pressed shut.",
+  "prompt": "Phone photo taken from the front passenger area of an empty yellow school bus in the afternoon, looking up at the large wide interior mirror mounted above the windshield. In the mirror we see a 54-year-old white woman bus driver with shoulder-length dyed auburn hair pulled back, reading glasses pushed up, a gray zip fleece over a navy t-shirt, sitting in the driver's seat, looking at herself with her lips pressed tightly closed, tired eyes. Through the windshield, a gravel driveway and a small house with a boy's back and a backpack running up it, out of focus. Bus interior details: green vinyl seat backs, a stop-arm switch panel, a clipboard. Flat spring daylight, slightly overexposed windshield. IMPORTANT: her mouth is closed, no teeth visible. No logos, district names, numbers or readable text anywhere; the steering wheel centre is plain and blank.",
+  "size": "3:4"
+ },
+ "DLF05_D": {
+  "copy": "Proof: the first cycle with her denture.",
+  "ref": "pod_open",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. An upper denture with a pink liner sits in the murky water. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ }
 }

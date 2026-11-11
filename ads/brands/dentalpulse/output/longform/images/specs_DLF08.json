@@ -1,12 +1,12 @@
 {
  "DLF08_A": {
-  "copy": "Hook: Renee's handwritten three-column list on the kitchen counter, with Jake's cloudy retainer beside it.",
-  "prompt": "Phone photo taken from above at a slight angle on a kitchen counter at night under a ceiling light. A sheet of lined notebook paper with handwriting in blue ballpoint, divided into three columns by hand-drawn lines, short scribbled notes in each column, some words underlined and some crossed out, a pen lying across it. Next to the paper, an open small plastic retainer case holding one clear plastic retainer shaped like a full upper dental arch, visibly cloudy and milky with a white chalky crust along the edges. Reading glasses, a mug and a phone face down at the edges of the frame. IMPORTANT: the handwriting is messy and not legible, no readable words; the retainer is anatomically realistic. No logos. IMPORTANT: no date stamp, timestamp or any text in the corners of the photo.",
+  "copy": "Hook: Jake's retainer case opened in the car.",
+  "prompt": "Close-up of a teenager's open plastic retainer case in someone's hand in the back seat of a car: a cloudy clear retainer with chalky white crust in the ridges, a brownish slimy film pooled in the bottom of the case, crumbs and lint stuck to it. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
   "size": "3:4"
  },
  "DLF08_B": {
-  "copy": "The failed fix: the baking-soda scrub that scratched the retainer cloudy.",
-  "prompt": "Phone photo with flash taken in a teenage boy's cluttered bathroom at night. On the edge of the white sink: an open cardboard box of baking soda with a plain orange box and no readable label, a small pile of spilled white powder, a worn-out toothbrush with splayed bristles, and a clear plastic retainer shaped like a full upper dental arch that is cloudy, scratched and milky with dried white flaky residue. Wet sink, a deodorant stick and a hair gel tub in the background. IMPORTANT: no brand names, logos or readable text on any box or product; the retainer is anatomically realistic.",
+  "copy": "The failed fix: the baking-soda scrub.",
+  "prompt": "Close-up of a clear retainer on a bathroom counter after a baking-soda scrub: deeply scratched and frosted cloudy, white flaky crust in the grooves, gritty baking soda paste smeared around it, a splayed old toothbrush beside it. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
   "size": "3:4"
  },
  "DLF08_C": {
@@ -15,9 +15,9 @@
   "size": "3:4"
  },
  "DLF08_D": {
-  "copy": "The payoff routine: the Pod on Jake's bathroom counter, a 15-year-old's one-button habit.",
-  "prompt": "Phone photo taken from standing height in a teenage boy's bathroom on a November morning. On the counter sits the white ribbed dome ultrasonic cleaner from the reference photo, closed, next to an open small retainer case, a phone charging cable, a stick of deodorant, a hair product tub, and a toothbrush on the edge of the sink. A boy's hand in a grey hoodie sleeve is pressing the top of the cleaner. Ordinary bathroom light, a towel thrown over the shower rod in the background. IMPORTANT: the cleaner looks exactly like the reference photo, unchanged, no screens or extra buttons; no logos or readable text on the other products. IMPORTANT: the teen's deodorant and hair products are plain unlabeled grey and black containers with no logos or brand names.",
+  "copy": "Proof: the first cycle with Jake's retainer.",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A clear retainer sits in the murky water. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
   "size": "3:4",
-  "ref": "pod"
+  "ref": "pod_open"
  }
 }
