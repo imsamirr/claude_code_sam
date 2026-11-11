@@ -24,3 +24,8 @@ Thumbs.db
 
 # Local output
 output.csv
+
+# scroll video working assets and renders (large; delivered via Drive)
+ads/brands/*/output/scroll_videos/LV*/
+ads/brands/*/output/scroll_videos/*.mp4
+ads/brands/*/output/scroll_videos/scripts/*.mp3

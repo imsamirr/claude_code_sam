@@ -17,6 +17,7 @@ All brand facts live in `ads/brands/<brand>/brand.json`. Nothing brand-specific 
 - `references/copy_template.md`: the exact file layout for one concept, including the fidelity table.
 - `references/research_sources.md`: exact Atria, Drive and Reddit calls, filters and fallbacks.
 - `references/image_prompts.md`: the image style, prompt recipe, overlay use, and the failure list for QA.
+- `references/scroll_videos.md`: the **scrolling long-form video** format (a background loop, the story scrolling bottom to top, a voice-over and music) built with `ads/scroll_video.py` and Kie.ai Veo and Suno. Use it for "text scrolling video", "long form copy in a video", "make videos of our top video ads".
 
 ## 0. Non-negotiables
 
