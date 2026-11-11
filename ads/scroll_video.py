@@ -187,6 +187,9 @@ def chunks(paras, max_words=110):
 def scroll_expr(tops, starts, total_dur, text_h):
     """Piecewise-linear y(t) for the text layer: paragraph i's top reaches READ_Y*H when its voice starts."""
     pts = [(0.0, START_Y * H - tops[0])]
+    avg = (START_Y * H - tops[0] - (H * 0.55 - text_h)) / max(total_dur, 1)
+    min_first = (START_Y - READ_Y) * H / max(avg, 1)
+    starts = [max(t, min_first) if i == 0 else t for i, t in enumerate(starts)]
     for top, t in zip(tops, starts):
         if t > pts[-1][0] + 0.05:
             pts.append((t, READ_Y * H - top))
@@ -231,7 +234,11 @@ def build_music_only(spec, d, out_root, paras, only, music):
     color = {"yellow": (255, 236, 64), "white": (255, 255, 255)}.get(spec.get("text_color", "white"))
     img, tops, text_h = layout(paras, color)
     img.save(d / "text.png")
-    yexpr = scroll_expr(tops, starts, total, text_h)
+    # music-only: one constant reading-pace scroll, so the hook rises slowly from the lower half (like the examples)
+    y0 = START_Y * H - tops[0]
+    y1 = H * 0.55 - text_h
+    yexpr = f"{y0:.2f}+({(y1 - y0) / total:.4f})*t"
+    (d / "scroll_expr.txt").write_text(yexpr)
     if clips:
         bg = make_bg_loop(d, clips)
     final = out_root / f"{vid}.mp4"
