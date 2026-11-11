@@ -18,7 +18,8 @@
     "invented counts: customers, units sold, reviews, 'X,000 dentists'; press logos or other awards",
     "a strike-through 'was' price other than the store's compare-at prices ($180 Pod Denture Bundle, $300 Ultimate Cleaning Bundle)",
     "naming or showing logos of competitor ultrasonic pods (Zima, Sonic Dental, GuruNanda, oPro, Novapod): show them unbranded",
-    "medical treatment claims (cures infections, prevents disease)"
+    "medical treatment claims (cures infections, prevents disease)",
+    "that the Pod fits sleep apnea devices or large/bulky appliances (user 2026-11-11: may be too big)"
   ],
   "colorways": {
     "pod": {
@@ -193,7 +194,8 @@
     "Clinicians' Choice badge: a clean gold/navy seal reading \"Clinicians' Choice\"",
     "120-day money-back guarantee (\"120-Day Money-Back Guarantee\", \"Try it risk-free for 120 days\")",
     "40% OFF sale: \"40% OFF\" with the current price \"$99.95\" (do not invent a strike-through original price)",
-    "Bundle prices from the store: Pod Denture Bundle $99.95 (compare-at $180, save $80, 3 free gifts); Ultimate Cleaning Bundle $169.95 (compare-at $300, save $130)"
+    "Bundle prices from the store: Pod Denture Bundle $99.95 (compare-at $180, save $80, 3 free gifts); Ultimate Cleaning Bundle $169.95 (compare-at $300, save $130)",
+    "Medical-grade UV-C light (user 2026-11-11)"
   ],
   "claims_note": "User Oct 11: be aggressive with approved_claims. Later Oct 11: dentist endorsements, Clinicians' Choice badge, 120-day money-back guarantee and the 40% OFF sale ($99.95 current price) approved. Still unconfirmed: shipping speed/free shipping, customer or units-sold counts, dentist counts, review counts, press logos.",
   "old_methods": {
@@ -249,7 +251,8 @@
     "guarantee": "120-day money-back guarantee",
     "offer": "40% OFF ($99.95) with a FREE travel bag and FREE dental case",
     "confirmed_by_user": "2026-11-11",
-    "see_also": "approved_claims"
+    "see_also": "approved_claims",
+    "uv_c": "Medical-grade UV-C light (approved 2026-11-11)"
   },
   "longform_offers": [
     {
@@ -257,7 +260,7 @@
       "start": "2026-11-11",
       "end": null,
       "line": "40% off ($99.95) plus a free travel bag and a free dental case",
-      "note": "User 2026-11-11. No end date given: do not invent a deadline. Free gifts have no stated dollar value in long-form unless taken from offers.pod_denture_gift_bundle. Add dated swaps if a seasonal sale is confirmed."
+      "note": "Evergreen (user 2026-11-11): no end date, no deadline or countdown wording, no seasonal swaps. Gifts: free travel bag + free dental case."
     }
   ],
   "longform_program": {
@@ -327,11 +330,15 @@
       "no competitor logos (Zima, Sonic Dental, Novapod etc.); Polident/Efferdent boxes OK as the old method",
       "appliances anatomically correct; no distorted mouths or teeth",
       "the Pod only when the story reaches it, exact reference look",
-      "season and clothing match the story"
+      "season and clothing match the story",
+      "no sleep apnea devices or other oversized appliances in the Pod (may not fit; user 2026-11-11)"
     ],
     "learning": {
       "transcription": "Not authorized yet for DentalPULSE: use free transcripts only."
     },
-    "output_dir": "output/longform"
+    "output_dir": "output/longform",
+    "schedule": "Weekly, Thursday; starts 5:34 AM America/New_York so the batch is ready by 8:00 AM (user asked for Thursday 8am ET)",
+    "disease_angles": "User 2026-11-11: be as aggressive as possible on disease topics (pneumonia, aspiration pneumonia, denture stomatitis, mold, cavities). Disease facts come through the narrator's diagnosis and attributed, real research; the product claims stay its approved mechanical claims (99.9% bacteria, 42,000 Hz, medical-grade UV-C, tap water). Never write that DentalPULSE cures, treats or prevents a named disease (ad rejection/FTC risk).",
+    "schedule_trigger_id": "trig_01VF6YyHQywStphEunbFLygY"
   }
 }

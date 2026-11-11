@@ -6,7 +6,7 @@ Sources: `research/data/longform_winners.md` (own account), `research/longform_m
 
 Appliance mix: dentures 5, night guards 2, aligners/retainers 2, switcher (any appliance) 1.
 Offer in every close: 40% off ($99.95) + free travel bag + free dental case, 120-day money-back guarantee. No end date (none confirmed).
-Status: **proposed, awaiting user approval**.
+Status: **approved 2026-11-11** with changes: DLF06 → night guard + pneumonia; DLF09 → denture stomatitis; DLF10 → aspiration pneumonia. UV-C approved; offer evergreen; disease topics as aggressive as possible. Old DLF06 (dog), DLF09 (one-star switcher) and DLF10 (receipts) moved to the backlog.
 
 | ID | Persona / appliance | Angle and evidence | New story (narrator, setting) | Hook (line 1) and hook type | Borrowed format (source) | Image scenes A/B/C/D |
 |---|---|---|---|---|---|---|
@@ -32,6 +32,9 @@ Narrators: chemistry teacher, aligner patient, unit clerk, daughter, bus driver,
 - UV-C appears in our top winner transcripts but is not in `approved_claims`; leave it out until confirmed.
 
 ## Backlog (not in batch 1)
+- The dog knew: $750 night guard chewed (was DLF06).
+- The one-star reviewer switcher (was DLF09).
+- Receipts: 14 years of tablets for a couple (was DLF10; the receipts hook is reused in the new DLF10).
 - Germophobe night-guard ritual (Reddit 54).
 - Fixodent/adhesive "jelly in the morning" (feedback; overlaps DLF07).
 - "My dentist runs a machine like this twice a year" (feedback 4–6).
