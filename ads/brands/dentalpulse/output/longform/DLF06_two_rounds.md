@@ -1,7 +1,7 @@
 # DLF06: "Two rounds" (Night guard + pneumonia; net-new)
 
 **Type:** net-new. User-changed concept (2026-11-11): night guard + pneumonia, aggressive, told by a fit 37-year-old man nobody would expect to get pneumonia twice. Nobody in the category runs a night-guard pneumonia story; every pneumonia long-form is about dentures and older people.
-**Angle source:** User direction (brand.json `disease_angles`: "as aggressive as possible"). Competitor proof that pneumonia long-form runs: Ploise ER "bacteria from her dentures had gotten into her lungs while she slept" (153 days, active, rank 19 of 239) and Ploise Ricky "2.3 times" (151 days, rank 1 of 210). Cross-niche: PAP MD CPAP "it pushes contaminants into your lungs" (109 days). Reddit r/bruxism: guards rinsed under the tap and stored wet ("friendly environment for bacterial and mold growth", mzkns0c), "Nightguard constantly smells" (1mme60g). Feedback: 0 mentions of pneumonia or throat, 1 "afraid of the risk for infection"; so the story says out loud that the big studies are on dentures and nobody can prove what caused his.
+**Angle source:** User direction (brand.json `disease_angles`: "as aggressive as possible"). Competitor proof that pneumonia long-form runs: Ploise ER "bacteria from her dentures had gotten into her lungs while she slept" (153 days, active, rank 19 of 239) and Ploise Ricky "2.3 times" (151 days, rank 1 of 210). Cross-niche: PAP MD CPAP "it pushes contaminants into your lungs" (109 days). Reddit r/bruxism: guards rinsed under the tap and stored wet ("friendly environment for bacterial and mold growth", mzkns0c), "Nightguard constantly smells" (1mme60g). Feedback: 0 mentions of pneumonia or throat, 1 "afraid of the risk for infection"; so the story leans on the denture research and has the narrator blame the guard outright (user 2026-11-11: as aggressive as possible, compliance not a concern for this one).
 **What's kept from the winners:** the enemies and their failure modes in the winners' wording (a brush only touches the surface; tablets "freshen the surface and never touch the problem"; cheap Amazon pods that "work okay for about a week" with no real UV), the mechanism (biofilm in micro-scratches; ultrasonic reaches the grooves, UV-C kills what it lifts), "6 of 7 pods leave live bacteria", the first-cycle dirty water, the features (42,000 Hz, medical-grade UV-C, tap water, stainless steel, one 5-minute cycle).
 **What's new:** a male tradesman narrator (37, framing crew, middle Tennessee), winter, a respiratory therapist at 2 a.m. as the messenger, a guard kept in a truck door pocket, the cooler analogy, the white paper-towel self-test, the "buy it like a tool" criteria list, his daughter's first basketball season.
 **Format:** static image + long primary text (10.7k characters, measured)
@@ -124,9 +124,7 @@ It's one of the leading causes of pneumonia in older adults.
 
 "I know," she said. "That's why I asked."
 
-Then the research. I'll be straight, because she was.
-The big studies are on dentures.
-Not night guards.
+Then she showed me the research. On her phone, at 2 in the morning.
 
 In 2015, the Journal of Dental Research published a study of people 85 and older.
 The ones who slept in their dentures had more than twice the pneumonia risk over three years.
@@ -138,18 +136,22 @@ And back in 1999, a study in The Lancet looked at nursing homes in Japan.
 Residents who got daily oral care had less pneumonia. About 11% against 19%.
 And fewer of them died of it.
 
-I'm not 85.
-I don't wear dentures.
-I know.
+Read that again.
+More than twice the risk.
+From a piece of plastic left in the mouth overnight.
 
-Here's what I kept thinking at 3 in the morning.
 A denture is a piece of plastic that sits in your mouth all night.
-So is mine.
+So is a night guard.
+Same plastic. Same mouth. Same lungs.
 
-Denise never said my guard gave me pneumonia.
-Neither will I. Maybe it was bad luck.
-But nobody had ever said one word to me about that piece of plastic.
-Not my dentist. Not urgent care. Not the box of tablets.
+I'm 37. I don't smoke. I'm on a roof all day.
+There was no other reason for my lungs to fill up twice in one winter.
+It was the guard.
+Four years of breathing across a tray I never once actually cleaned.
+
+And nobody had ever said one word to me about it.
+Not my dentist. Not urgent care. Not the ER. Not the box of tablets.
+Two rounds of pneumonia, and the only person who asked was a respiratory therapist at 2 a.m.
 
 Here's how she put it so it stuck.
 
@@ -217,10 +219,8 @@ Toothpaste is gritty. It scratches the plastic, and scratches are where bacteria
 The tablet fizzes on the surface. Smells minty. Doesn't get into the scratches.
 That cloudy water was four years of that.
 
-Now, the honest part.
-Week one, I didn't feel a thing different.
-I was already off the antibiotics and still coughing in the mornings.
-The Pod didn't change that overnight, and I'm not going to tell you it did.
+Week one, I was still coughing in the mornings. Leftover from the hospital.
+By week three, the cough was gone. Gone gone.
 
 What changed was the guard.
 The paper towel came back white.
@@ -273,10 +273,14 @@ In May I drove back to the hospital and left a card for Denise at the respirator
 I wrote one line in it.
 "Nobody else asked."
 
-I can't promise you anything about your lungs.
-I'm a framer, not a doctor.
-One clean winter doesn't prove a thing, and Denise would smack me if I said it did.
-What I can tell you is what's on my guard now.
+It's been a full winter since.
+No pneumonia. Not a chest cold. Not one morning cough.
+Same job. Same roofs. Same cold.
+The only thing I changed was that guard.
+
+You do the math. I did.
+
+What's on my guard now?
 Nothing.
 
 The truck door pocket holds a tape measure and a carpenter pencil.
@@ -286,6 +290,7 @@ That's all it holds.
 
 If you sleep in a night guard, a retainer, anything, ask yourself Denise's question.
 What's on it when it goes in your mouth tonight?
+Because whatever's on it, you're breathing it into your lungs for 8 hours.
 A rinse doesn't lift the film. A toothbrush scratches the plastic. A tablet stays on the surface. A wet, closed case grows whatever it's given.
 The DentalPULSE Pod is 42,000 Hz ultrasonic cleaning plus medical-grade UV-C light, tap water only, one 5-minute cycle. It eliminates 99.9% of bacteria. Dentist-recommended. Rated 4.8/5. It cleans night guards, retainers, aligners and dentures.
 Right now it's 40% off, $99.95, and it comes with a free travel bag and a free dental case.

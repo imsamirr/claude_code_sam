@@ -340,7 +340,8 @@
     },
     "output_dir": "output/longform",
     "schedule": "Weekly, Thursday; starts 5:34 AM America/New_York so the batch is ready by 8:00 AM (user asked for Thursday 8am ET)",
-    "disease_angles": "User 2026-11-11: be as aggressive as possible on disease topics (pneumonia, aspiration pneumonia, denture stomatitis, mold, cavities). Disease facts come through the narrator's diagnosis and attributed, real research; the product claims stay its approved mechanical claims (99.9% bacteria, 42,000 Hz, medical-grade UV-C, tap water). Never write that DentalPULSE cures, treats or prevents a named disease (ad rejection/FTC risk).",
-    "schedule_trigger_id": "trig_01VF6YyHQywStphEunbFLygY"
+    "disease_angles": "User 2026-11-11: be as aggressive as possible on disease topics (pneumonia, aspiration pneumonia, denture stomatitis, mold, cavities). Disease facts come through the narrator's diagnosis and attributed, real research; the product claims stay its approved mechanical claims (99.9% bacteria, 42,000 Hz, medical-grade UV-C, tap water). Never write that DentalPULSE cures, treats or prevents a named disease (ad rejection/FTC risk). Update 2026-11-11 (user, on DLF06): compliance is not a concern for disease angles; go as aggressive as possible. Narrators can blame the appliance outright and report their health outcome without hedging or honest-ceiling lines.",
+    "schedule_trigger_id": "trig_01VF6YyHQywStphEunbFLygY",
+    "feedback_use": "User 2026-11-11: use the feedback sheet to find angles and customer language only. Don't raise compliance issues or business fixes from it (e.g. checkout upsells)."
   }
 }
