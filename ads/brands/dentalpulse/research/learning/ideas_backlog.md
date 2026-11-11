@@ -6,7 +6,7 @@ Sources: `research/data/longform_winners.md` (own account), `research/longform_m
 
 Appliance mix: dentures 5, night guards 2, aligners/retainers 2, switcher (any appliance) 1.
 Offer in every close: 40% off ($99.95) + free travel bag + free dental case, 120-day money-back guarantee. No end date (none confirmed).
-Status: **approved 2026-11-11** with changes: DLF06 → night guard + pneumonia; DLF09 → denture stomatitis; DLF10 → aspiration pneumonia. UV-C approved; offer evergreen; disease topics as aggressive as possible. Old DLF06 (dog), DLF09 (one-star switcher) and DLF10 (receipts) moved to the backlog.
+Status: **written 2026-11-11** (copies, 40 images, Notion cards In Review). **Approved 2026-11-11** with changes: DLF06 → night guard + pneumonia; DLF09 → denture stomatitis; DLF10 → aspiration pneumonia. UV-C approved; offer evergreen; disease topics as aggressive as possible. Old DLF06 (dog), DLF09 (one-star switcher) and DLF10 (receipts) moved to the backlog.
 
 | ID | Persona / appliance | Angle and evidence | New story (narrator, setting) | Hook (line 1) and hook type | Borrowed format (source) | Image scenes A/B/C/D |
 |---|---|---|---|---|---|---|
