@@ -81,7 +81,27 @@ Use the writer spec in `ads/brands/comfortwear/output/scroll_videos/scripts/WRIT
 - **Sample:** send one video with SendUserFile.
 
 
-## Cheap mode (default for the weekly batch, user decision 2026-11-11)
+## Still-image HQ mode (the default, user decision 2026-11-11: "the main purpose of the video is the text")
+
+The user rejected the first renders as poor quality. Those were 720p Veo backgrounds compressed to 380 kbps to fit Notion. Every video now uses the following.
+
+**Background.** One dedicated still photo per video from the spec's `background_image_prompt`, made with Kie nano-banana-pro at **2K, 9:16**. It's a moment from that story, in the iPhone-snapshot style. Never share one across videos. Check every photo for readable text (shirts, signs) and logos.
+
+**Render** (`build_still` in `scroll_video.py`):
+- 1080×1920, text at 1.5× the 720p sizes (69px Montserrat ExtraBold, 8px stroke)
+- **exactly 1 px per frame at 50 fps** (50 px/s, about 2.2 words a second). Whole-pixel steps don't shimmer; fractional speeds are rounded and judder.
+- the hook starts at 60% height and rises slowly; the CTA rests mid-screen for 3 seconds at the end
+- a light `gblur=sigma=2` on the photo. Detailed textures behind moving text otherwise double the file size (390MB vs 155MB on cobblestones), and the text is the ad.
+- x264 `-preset fast -crf 27 -maxrate 4500k`: crisp text at about 3–4.5 Mbps, so 5.5 minutes is about 120–180MB
+- the text layer is padded by one screen above and below, and the visible 1080×1920 window is cropped from it each frame. Overlaying the full 16k-pixel layer is 2–3× slower. Each video takes about 4 minutes to render.
+
+**Delivery.** Full files are 120–180MB, which is over the Notion (20MB) and Drive-from-Claude (10MB) upload limits:
+- send full files to the user with SendUserFile
+- on Notion, attach a **30-second full-quality hook preview** (`-t 30 -c:v copy`, about 15MB), plus a note saying the full file is in chat, with the brand's HQ Drive folder link for the user's upload
+- never put a re-compressed under-20MB full-length video on a card. That's what looked bad.
+- existing video blocks can't be matched by `update_content`. To swap videos, rewrite the card with `replace_content`.
+
+## Cheap mode (superseded by the HQ mode above)
 
 - **Background:** one **dedicated** still image per video, made with Kie nano-banana-pro (about 15 credits) from the spec's `background_image_prompt`, then a slow zoom in and out on a 40-second seamless loop. This costs about 10× less than 2 Veo clips (about 130 credits, or about $0.70 per video).
 - **Never reuse images.** Never share one image across concepts, and never reuse the concept's static images A–D. Every video gets its own scene, in the same iPhone-realism style.

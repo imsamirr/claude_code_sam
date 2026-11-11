@@ -144,9 +144,10 @@ def paragraphs(script):
 
 
 def layout(paras, color):
-    font = ImageFont.truetype(str(FONT), 46)
+    k = W / 720  # sizes are tuned at 720 wide and scale with the frame
+    font = ImageFont.truetype(str(FONT), round(46 * k))
     font.set_variation_by_name("ExtraBold")
-    maxw, lh, gap, stroke = int(W * 0.86), 56, 34, 5
+    maxw, lh, gap, stroke = int(W * 0.86), round(56 * k), round(34 * k), round(5 * k)
     probe = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
     blocks = []
     for p in paras:
@@ -206,8 +207,71 @@ def scroll_expr(tops, starts, total_dur, text_h):
 WPS = 2.4  # reading pace, words per second
 
 
+HQ_W, HQ_H, HQ_FPS = 1080, 1920, 50   # still-image renders: full HD, 1 px per frame at 50 fps = 50 px/s (~2.2 words/s)
+
+
+def still_image(spec, d):
+    """The video's own background photo (never shared across videos): a 2K Kie nano-banana-pro render, cropped to 9:16."""
+    if spec.get("background_image"):
+        src = Path(spec["background_image"])
+    else:
+        src = d / "bg_still_raw.png"
+        if not src.exists():
+            sys.path.insert(0, str(ADS))
+            from longform_images import kie as kie_image
+            src.write_bytes(kie_image(os.environ["KIE_AI"], spec["background_image_prompt"], "9:16", "2K"))
+    out = d / "bg_still.png"
+    im = Image.open(src).convert("RGB")
+    w, h = im.size
+    tw = min(w, int(h * HQ_W / HQ_H))
+    th = int(tw * HQ_H / HQ_W)
+    im = im.crop(((w - tw) // 2, (h - th) // 2, (w + tw) // 2, (h + th) // 2)).resize((HQ_W, HQ_H), Image.LANCZOS)
+    im.save(out)
+    return out
+
+
+def build_still(spec, d, out_root, paras, music):
+    """High-quality music-only render: a still photo, the story scrolling exactly 1 px per frame (no shimmer from
+    sub-pixel rounding), 1080x1920, near-lossless text. The text is the ad, so the bits go to the text."""
+    global W, H
+    vid = spec["id"]
+    bg = still_image(spec, d)
+    W, H = HQ_W, HQ_H
+    try:
+        color = {"yellow": (255, 236, 64), "white": (255, 255, 255)}.get(spec.get("text_color", "white"))
+        img, tops, text_h = layout(paras, color)
+    finally:
+        W, H = 720, 1280
+    # pad one screen above and below so the visible window can be cropped out of the tall text layer each frame
+    # (overlaying the whole 16k-px layer per frame is 2-3x slower)
+    padded = Image.new("RGBA", (HQ_W, img.height + 2 * HQ_H), (0, 0, 0, 0))
+    padded.paste(img, (0, HQ_H))
+    padded.save(d / "text_hq.png")
+    y0 = round(START_Y * HQ_H - tops[0])   # text-layer top at t=0 (the hook sits in the lower half)
+    y1 = round(HQ_H * 0.55 - text_h)       # the CTA rests mid-screen at the end
+    moving = y0 - y1                         # frames of movement (1 px each)
+    total = moving / HQ_FPS + 3.0            # then a 3 s hold on the CTA
+    final = out_root / f"{vid}.mp4"
+    music = music or (d / "music.mp3")
+    # a light blur on the photo: detailed textures (cobblestones) behind moving text otherwise double the file size
+    fc = (f"[0:v]gblur=sigma=2,eq=brightness=-0.05:saturation=0.95,format=yuv420p,loop=-1:1:0,fps={HQ_FPS}[bgv];"
+          f"[1:v]loop=-1:1:0,fps={HQ_FPS},crop={HQ_W}:{HQ_H}:0:'{HQ_H - y0}+min(n,{moving})'[tx];"
+          f"[bgv][tx]overlay=0:0:format=yuv420,format=yuv420p[v];"
+          f"[2:a]volume=0.55,afade=t=in:st=0:d=1.5,afade=t=out:st={total - 3:.2f}:d=3[a]")
+    # CRF 27: text stays crisp (checked against CRF 20 on zoomed crops), ~3 Mbps, ~130-150 MB for 5.5 min
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", bg, "-i", d / "text_hq.png",
+                    "-stream_loop", "-1", "-i", str(music), "-filter_complex", fc, "-map", "[v]", "-map", "[a]",
+                    "-t", f"{total:.2f}", "-c:v", "libx264", "-preset", "fast", "-crf", "27", "-maxrate", "4500k", "-bufsize", "9000k",
+                    "-profile:v", "high", "-g", str(HQ_FPS * 5), "-pix_fmt", "yuv420p",
+                    "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", final], check=True)
+    (d / "voice_engine.txt").write_text("none (music only, still image, HQ)")
+    return final, total
+
+
 def build_music_only(spec, d, out_root, paras, only, music):
     vid = spec["id"]
+    if spec.get("background_image_prompt") or spec.get("background_image"):
+        return build_still(spec, d, out_root, paras, music)
     starts, t = [], 1.2
     for p in paras:
         starts.append(t)

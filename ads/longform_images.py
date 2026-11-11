@@ -36,11 +36,11 @@ MODEL = "nano-banana-pro"      # most photo-real on Kie.ai in a side-by-side tes
 FEED = (1080, 1350)            # 4:5 feed size; renders are 3:4 and centre-cropped to this
 
 
-def kie(key, prompt, size):
+def kie(key, prompt, size, res="1K"):
     h = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
     r = requests.post(f"{API}/createTask", headers=h, timeout=60, json={
         "model": MODEL,
-        "input": {"prompt": STYLE + prompt, "aspect_ratio": size, "resolution": "1K"}}).json()
+        "input": {"prompt": STYLE + prompt, "aspect_ratio": size, "resolution": res}}).json()
     if r.get("code") != 200:
         raise RuntimeError(r)
     tid = r["data"]["taskId"]
