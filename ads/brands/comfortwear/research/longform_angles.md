@@ -13,6 +13,7 @@
 | **A** | **Travel / Disney: "we tested the shoes people actually pack"**, a comparison teardown | Kyro369v2 travel test ($75.4k · 1.40 · $70) + COM211 Disney cut ($2.8k · 1.72) · COM320 Disney 7-shoe test ($8.9k · **1.97** · $52) · **COM284 plus-size Disney survey ($5.1k · 3.22 · $33)** · NH3 plus-size park day ($4.9k · 1.59) · COM374 plus-size ($3.0k · 1.54) | **~$100k** | Biggest scaler in the account. The **plus-size + Disney** version is the most efficient ad in the account. |
 | **B** | **Nurse: "running shoes are built for a 5k, not a 12-hour shift"** | Aubrey "Don't waste money" UGC ($19.6k · 1.43) · Kyro390 testimonial-led ($13.9k · 1.61) · NurseNotRunners ($12.9k · 1.55) · COM225 Spanish scoreboard ($7.2k · 1.94 · $49) | **~$54k** | Steady, several scripts. Spanish is the most efficient. |
 | **C** | **Teacher: "you're not walking, you're planted"** | Teacher Hook1 test ($18.4k · 1.40) · TeacherTested scoreboard ($9.4k · 1.69) · COM51 teacher test ($4.7k · 1.49) | **~$32.5k** | Scoreboard format (scores + prices) beats the plain test. |
+| **A2** | **Travel to Europe: cobblestones vs running shoes** (lifetime; split out of A) | Kyro 99v3ss1, nurse on a Barcelona trip (**$241.7k · 1.87** lifetime) · Kyro369v2, Europe four-shoe test ($66.6k lifetime, $75.4k in 90d · 1.40) · Kyro373v3hook2, "worst travel advice" ($61.0k · 1.53) · Kyro_293_3, five-shoe Europe test with sandals (retargeting, $58.5k · 2.15) | **~$370k lifetime** | The strongest travel angle historically. Kyro369v2 is the Europe original that the Disney cuts reskinned. |
 | D | General foot pain listicle static (neuropathy/PF callouts) | Task158 ($5.4k · 1.37) | $5.4k | Weak, borderline. Not used. |
 
 **Below the bar** (for reference, don't build on these): TravelRetiree over-50 ($2.75k · 1.32), Hokas & Brooks worst for work, Spanish ($2.9k · 1.14), Nurse-wants-to-quit drama ($2.8k · 1.04), all PFParkDayHeel and Grandparents-at-Disney cuts (< $400, ROAS < 1).
@@ -81,3 +82,11 @@ The new copies use:
 - the **trial line** ("wear them 30 days… send them back"), marked `[GUARANTEE]` so it's one edit to remove;
 - the count, marked `[COUNT]`;
 - **no podiatrist persona**, no condition cures, and no star ratings.
+
+## 5. Copy set (2026-11-11)
+
+- **LF01**: Angle A, plus-size Disney ("Five Days, Five Pairs").
+- **LF02**: Angle B, nurse ("The Shoe Graveyard").
+- **LF03**: Angle A2, travel to Europe ("Wish You Were Here"). This replaced the teacher copy at the user's request; the teacher copy is still in git history.
+
+Europe source lines come from `data/video_transcripts.md`, which holds the lifetime top-10 videos.
