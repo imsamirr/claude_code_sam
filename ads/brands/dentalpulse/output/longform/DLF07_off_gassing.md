@@ -14,7 +14,7 @@
 **Offer:** 40% off ($99.95) plus a free travel bag and a free dental case; 120-day money-back guarantee. Evergreen.
 
 ## Images (4)
-- **A (main):** an open picture book on a child's bed under lamp light, an empty dent in the pillow beside it. **B:** a worn kitchen sponge on the edge of a sink (the analogy). **C:** Gail at a church fellowship-hall coffee table, talking with a hand near her mouth. **D:** Lily on Gail's lap on the bed, both laughing over the book. See `images/specs_DLF07.json`.
+- **A (main):** Hook: Gail's dentures in the closed jar, the sniff test. **B:** The analogy: the sour kitchen sponge. **C:** Gail at the coffee table in the church fellowship hall after choir practice, talking with a hand held near her mouth. **D:** Payoff: Lily, 6, on Gail's lap up by the pillow, both laughing over the owl book; the opening image reversed. See images/specs_DLF07.json.
 
 ---
 

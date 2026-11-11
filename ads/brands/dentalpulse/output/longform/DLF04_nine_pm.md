@@ -10,7 +10,7 @@
 **Landing page:** TBD (user will set)
 
 ## Images (4)
-- **A (main):** a full upper and lower denture in a pink plastic hospital cup of water on a rolling tray table at night, a strip of blank tape on the cup, the hospital bed rail and a dim monitor glow behind. **B:** the 1973 wedding photo of Ray and Dot on a dresser beside his reading glasses. **C:** Ray's weathered hands at the bathroom sink at home, holding his upper denture, a thumbnail on the inside of the plate. **D:** the closed Pod on Ray's bathroom counter in morning light, a dark round denture case beside it. See images/specs_DLF04.json.
+- **A (main):** Hook: Ray's teeth in the hospital cup at 9 p.m. **B:** The pride: Ray and Dot's 1973 wedding photo on the dresser at home, his reading glasses beside it, the reason he never let her see him without teeth. **C:** The self-test: a thumbnail along the inside of Dad's plate. **D:** Proof: the first cycle with Dad's teeth. See images/specs_DLF04.json.
 
 ---
 

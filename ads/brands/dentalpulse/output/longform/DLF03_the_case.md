@@ -10,7 +10,7 @@
 **Landing page:** TBD (user will set)
 
 ## Images (4)
-- **A (main):** phone-flash close-up of the open case hinge with black specks, a man's thumb holding it. **B:** the front-load washer door seal pulled back, black mildew (the analogy). **C:** Dana at 3 p.m. in her kitchen, scrubs top, tea mug, hand at her throat. **D:** the bookend reversed: a phone flashlight on the new, clean, dry case, the guard drying on a towel, the closed Pod behind. See images/specs_DLF03.json.
+- **A (main):** Hook: the hinge of the night guard case under Marcus's flashlight. **B:** The analogy: the front-load washer door seal pulled back. **C:** Dana's 'morning': 3 p.m. in February, kitchen, navy scrub top and pajama pants, mug of tea, hand at her throat, tired. **D:** Proof: the first cycle with her night guard. See images/specs_DLF03.json.
 
 ---
 

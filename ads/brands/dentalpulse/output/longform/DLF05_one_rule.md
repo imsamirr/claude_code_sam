@@ -10,7 +10,7 @@
 **Landing page:** TBD (user will set)
 
 ## Images (4)
-- **A (main):** a blue dish-soap bottle and a small duck-handled baby toothbrush next to a full upper denture on a paper towel at a bathroom sink, late at night. **B:** a paper wall calendar in a kitchen, February to May, days crossed off, "90" circled. **C:** Lisa in the driver's seat of a yellow school bus, lips pressed shut, seen in the big interior mirror. **D:** the open Pod on her bathroom counter at dawn, her denture going in. See images/specs_DLF05.json.
+- **A (main):** Hook: her new denture after a week of dish soap. **B:** The 90-day count: a paper kitchen calendar with the days crossed off from late February to the last day of school, '90' circled. **C:** Rock bottom: Lisa sitting in the driver's seat of her empty school bus at the last stop, 3:12 p.m., seen in the big interior mirror, lips pressed shut. **D:** Proof: the first cycle with her denture. See images/specs_DLF05.json.
 
 ---
 

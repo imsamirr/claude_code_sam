@@ -10,11 +10,7 @@
 **Landing page:** TBD (user will set)
 
 ## Images (4)
-- **A (main):** her smiling bathroom-mirror selfie on the morning of her final check, clear trays in her hand (the "victory" she posted before the X-rays).
-- **B:** the dental X-ray on the operatory monitor, two bright white fillings in the back teeth, a gloved hand pointing.
-- **C:** a cloudy, scratched aligner on a café napkin next to a sweaty iced coffee with a straw.
-- **D:** the open DentalPULSE Pod on her bathroom counter, a clear retainer going in, morning light.
-See images/specs_DLF02.json.
+- **A (main):** Hook: her aligner tray after a 3 p.m. iced coffee, held up to the window. **B:** Rock bottom: her own X-ray at the final check, the dentist pointing at the cavities and the deep spot on the lower molar. **C:** The failed routine: the tray dropped on a café napkin, coffee-soaked. **D:** Proof: the first cycle with her trays. See images/specs_DLF02.json.
 
 ---
 

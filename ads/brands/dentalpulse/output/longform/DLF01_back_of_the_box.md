@@ -15,7 +15,7 @@
 **Offer:** 40% off ($99.95) plus a free travel bag and a free dental case; 120-day money-back guarantee. Evergreen.
 
 ## Images (4)
-- **A (main):** reading glasses lying on the back panel of a plain blue tablet box, tiny print, kitchen table at night, highlighter and legal pad. **B:** a blue fizzing cup with a denture on the bathroom sink at night. **C:** her legal pad with highlighted notes and the cut-out back panel. **D:** Walt laughing at Sunday dinner over pot roast. See `images/specs_DLF01.json`.
+- **A (main):** Hook: Walt's overnight tablet cup at 6 a.m. **B:** The old routine, up close: the soaked denture lifted out of the blue water. **C:** The legal pad: her handwritten checklist with highlighter, the cut-out back panel of the box clipped to the top. **D:** Payoff: Walt, 71, laughing at Sunday dinner at his daughter's table, pot roast, chewing on both sides again. See images/specs_DLF01.json.
 
 ---
 

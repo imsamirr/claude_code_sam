@@ -10,11 +10,7 @@
 **Landing page:** TBD (user will set)
 
 ## Images (4)
-- **A (main):** her handwritten three-column list on the kitchen counter, a cloudy retainer in its open case beside it.
-- **B:** a cloudy, white-crusted clear retainer next to an open box of baking soda and an old toothbrush on a bathroom sink.
-- **C:** a teen's backpack on a car's back seat with a retainer case clipped to the strap, taken from the driver's seat.
-- **D:** the closed DentalPULSE Pod on a teen boy's bathroom counter, retainer case, deodorant and phone charger around it.
-See images/specs_DLF08.json.
+- **A (main):** Hook: Jake's retainer case opened in the car. **B:** The failed fix: the baking-soda scrub. **C:** The smell in the car: Jake's backpack in the back seat with the retainer case clipped to the strap, the window cracked. **D:** Proof: the first cycle with Jake's retainer. See images/specs_DLF08.json.
 
 ---
 

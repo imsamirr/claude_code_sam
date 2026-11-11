@@ -10,7 +10,7 @@
 **Landing page:** TBD (user will set)
 
 ## Images (4)
-- **A (main):** three empty amber pharmacy bottles lined up on a sunny bathroom windowsill in Arizona, an upper denture in a blue-tinted soak cup beside them. **B:** a hygienist's gloved hands holding an upper denture, the fitting side blotched purple with disclosing dye (the mechanism). **C:** Bev, 63, laughing with two grandkids over a pizza box on a backyard patio at dusk (the payoff). **D:** the open Pod on her bathroom counter at sunrise, her upper denture going in, the windowsill now empty. See images/specs_DLF09.json.
+- **A (main):** Hook: Bev's upper denture under the bathroom light. **B:** The mechanism: the hygienist holds Bev's upper denture under the operatory light, the fitting side blotched purple with disclosing dye in the shape of the red on her palate. **C:** Payoff: Friday pizza night back on the patio once it dropped under 90; Bev, 63, mid-laugh with a slice, her grandkids Mateo (9) and Lily (6) beside her. **D:** Proof: the first cycle with her upper denture. See images/specs_DLF09.json.
 
 ---
 

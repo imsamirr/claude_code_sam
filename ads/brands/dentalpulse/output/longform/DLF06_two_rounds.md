@@ -10,7 +10,7 @@
 **Landing page:** TBD (user will set)
 
 ## Images (4)
-- **A (main):** Mike in a hospital bed at night, nasal oxygen, a pulse clip on a work-scarred finger, watching a phone propped on the tray table. **B:** the open, grimy guard case in a pickup truck's door pocket with sawdust, a pencil and a tape measure. **C:** the self-test, a white paper towel with a yellowish smear next to the guard on a truck tailgate at dawn. **D:** the open Pod with the guard in it on a bathroom counter, work gloves and truck keys beside it, 5 a.m. See images/specs_DLF06.json.
+- **A (main):** Hook: Mike's night guard pulled from the truck door pocket. **B:** The failure: Mike in the hospital bed watching the game on his phone. **C:** The self-test: on the tailgate at dawn, a plain white paper towel with a yellowish slick smear next to the night guard he just wiped. **D:** Proof: the first cycle with his night guard. See images/specs_DLF06.json.
 
 ---
 

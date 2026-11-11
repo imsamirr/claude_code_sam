@@ -10,7 +10,7 @@
 **Landing page:** TBD (user will set)
 
 ## Images (4)
-- **A (main):** a worn shoebox of receipts on a dining table, a folded hospital statement on top (no readable names or logos), a desk calculator and reading glasses beside it, afternoon window light. **B:** the hospital tray table during the swallow test: a small cup of applesauce with a spoon, a cup of ice chips, a cup of water, a few saltine crackers, a woman's hands in a hospital gown resting nearby. **C:** two denture cups on a double bathroom sink, a box of denture tablets and a tube of adhesive between them, plain and generic. **D:** the closed Pod on the bathroom counter between two folded hand towels, one blue and one yellow, two denture cases beside it. See images/specs_DLF10.json.
+- **A (main):** Hook: two denture cups on the double sink, morning. **B:** The messenger: the bedside swallow test on day four, the applesauce, ice chips, water and crackers on June's tray table. **C:** The ledger: the shoebox of receipts with the hospital statement on top. **D:** Proof: the first cycle for June's teeth. See images/specs_DLF10.json.
 
 ---
 
