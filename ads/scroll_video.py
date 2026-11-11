@@ -89,10 +89,10 @@ KIE_VOICES = {"female": "Rachel", "male": "Brian"}
 OPENAI_VOICES = {"female": "sage", "male": "ash"}
 
 
-def tts_kie(text, gender, dest, wait=240):
+def tts_kie(text, gender, dest, wait=240, voice=None):
     r = requests.post(f"{KIE}/jobs/createTask", headers=kie_headers(), timeout=60, json={
         "model": "elevenlabs/text-to-speech-turbo-2-5",
-        "input": {"text": text, "voice": KIE_VOICES[gender], "stability": 0.45, "similarity_boost": 0.75}}).json()
+        "input": {"text": text, "voice": voice or KIE_VOICES[gender], "stability": 0.45, "similarity_boost": 0.75}}).json()
     if r.get("code") != 200:
         raise RuntimeError(r)
     tid = r["data"]["taskId"]
@@ -108,16 +108,24 @@ def tts_kie(text, gender, dest, wait=240):
 
 
 def tts_openai(text, gender, notes, dest):
-    r = requests.post("https://api.openai.com/v1/audio/speech", timeout=300,
+    for attempt in range(8):
+        r = _openai_tts_once(text, gender, notes)
+        if r.status_code not in (429, 500, 502, 503):
+            break
+        time.sleep(min(90, 5 * 2 ** attempt))
+    r.raise_for_status()
+    dest.write_bytes(r.content)
+    return dest
+
+
+def _openai_tts_once(text, gender, notes):
+    return requests.post("https://api.openai.com/v1/audio/speech", timeout=300,
                       headers={"Authorization": f"Bearer {os.environ['OPENAI_API_KEY']}"},
                       json={"model": "gpt-4o-mini-tts", "voice": OPENAI_VOICES[gender], "input": text,
                             "response_format": "mp3",
                             "instructions": (f"Voice: {notes}. Read like a real woman telling her own story to a friend: "
                                              "natural, warm, unhurried, conversational, with small pauses between "
                                              "paragraphs. Not an announcer, not salesy.")})
-    r.raise_for_status()
-    dest.write_bytes(r.content)
-    return dest
 
 
 def duration(path):
@@ -196,23 +204,28 @@ def build(spec, out_root, only=None, music=None):
     paras = paragraphs(spec["script"])
     # 1. voice by sections
     groups = chunks(paras)
-    seg_paths, used = [], None
     if only != "render":
-        for gi, g in enumerate(groups):
+        import concurrent.futures as cf
+        kv = spec.get("kie_voice", "Rachel")
+
+        def one(gi):
             p = d / f"vo_{gi:02d}.mp3"
             if p.exists():
-                seg_paths.append(p); continue
-            text = "\n\n".join(paras[i] for i in g)
-            try:
-                if TTS != "kie":
-                    raise RuntimeError("tts set to openai")
-                tts_kie(text, gender, p); used = used or "kie-elevenlabs"
-            except Exception as e:
-                if TTS == "kie":
-                    print(f"  {vid} kie tts failed ({e}); using openai", flush=True)
-                tts_openai(text, gender, spec.get("voice", ""), p); used = "openai-gpt-4o-mini-tts"
-            seg_paths.append(p)
-        (d / "voice_engine.txt").write_text(used or "cached")
+                return "cached"
+            text = "\n\n".join(paras[i] for i in groups[gi])
+            if TTS == "kie":
+                for attempt in range(2):
+                    try:
+                        tts_kie(text, gender, p, voice=kv)
+                        return "kie-elevenlabs"
+                    except Exception as e:
+                        print(f"  {vid} section {gi}: kie tts attempt {attempt + 1} failed ({e})", flush=True)
+            tts_openai(text, gender, spec.get("voice", ""), p)
+            return "openai-gpt-4o-mini-tts"
+
+        with cf.ThreadPoolExecutor(4) as ex:
+            engines = list(ex.map(one, range(len(groups))))
+        (d / "voice_engine.txt").write_text(", ".join(f"s{i}:{e}" for i, e in enumerate(engines)))
     seg_paths = [d / f"vo_{gi:02d}.mp3" for gi in range(len(groups))]
     # paragraph start times: section start + share of its duration by word count
     starts, t = [], 0.6

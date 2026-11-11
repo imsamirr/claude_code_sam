@@ -17,7 +17,8 @@
     "offer_swaps": {
       "christmas": "For the Christmas Sale, Comfort Wear is 60% off, plus 2 free gifts when you buy 2 pairs, until December 31st.",
       "new_year": "For the New Year Sale, Comfort Wear is 40% off with free shipping until January 15th."
-    }
+    },
+    "kie_voice": "Jessica"
   },
   {
     "id": "LV05",
@@ -37,7 +38,8 @@
     "offer_swaps": {
       "christmas": "For the Christmas Sale, Comfort Wear is 60% off, plus 2 free gifts when you buy 2 pairs, until December 31st.",
       "new_year": "For the New Year Sale, Comfort Wear is 40% off with free shipping until January 15th."
-    }
+    },
+    "kie_voice": "Aria"
   },
   {
     "id": "LV06",
@@ -57,6 +59,7 @@
     "offer_swaps": {
       "christmas": "For the Christmas Sale, Comfort Wear is 60% off, plus 2 free gifts when you buy 2 pairs, until December 31st.",
       "new_year": "For the New Year Sale, Comfort Wear is 40% off with free shipping until January 15th."
-    }
+    },
+    "kie_voice": "Rachel"
   }
 ]

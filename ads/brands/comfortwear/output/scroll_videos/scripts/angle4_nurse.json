@@ -17,7 +17,8 @@
     "alt_hooks": [
       "I've spent over a thousand dollars on nursing shoes in two and a half years. Hokas. Danskos. Brooks. Every pair died at the exact same time my contract did.\n\nThe pair that finally made it through two whole contracts cost sixty dollars.",
       "A charge nurse in Sacramento looked at my two-hundred-dollar shoes and laughed. Then she asked me one question I couldn't answer.\n\nI've worn the same sixty-dollar pair for seven months because of it."
-    ]
+    ],
+    "kie_voice": "Aria"
   },
   {
     "id": "LV11",
@@ -37,7 +38,8 @@
     "alt_hooks": [
       "I've coached hundreds of women through the hardest hour of their lives. Mine was always hour ten. And it was in my feet.\n\nIt took my sixteen-year-old son one sentence to tell me why.",
       "\"Mom, why do you wear running shoes to stand still?\"\n\nMy son asked me that the morning after the worst shift of my life. I'd spent five hundred and thirty dollars on shoes, and I didn't have an answer."
-    ]
+    ],
+    "kie_voice": "Rachel"
   },
   {
     "id": "LV12",
@@ -57,6 +59,7 @@
     "alt_hooks": [
       "Five hundred and thirty dollars. That's a car payment and groceries for me. I spent it on three pairs of nursing shoes, and they're all sitting in my closet, ruined.\n\nA seventy-eight-year-old patient told me why.",
       "\"Hija, why are you wearing running shoes? You're not running.\"\n\nI laughed. My patient didn't. She'd stood on a concrete factory floor for thirty-one years, and she was about to save me a lot of money."
-    ]
+    ],
+    "kie_voice": "Sarah"
   }
 ]
