@@ -244,5 +244,94 @@
       "best_for": "aligners, retainers, night guards (home + on the go)",
       "colorway": "ultimate_bundle"
     }
+  },
+  "confirmed_claims": {
+    "guarantee": "120-day money-back guarantee",
+    "offer": "40% OFF ($99.95) with a FREE travel bag and FREE dental case",
+    "confirmed_by_user": "2026-11-11",
+    "see_also": "approved_claims"
+  },
+  "longform_offers": [
+    {
+      "name": "40% OFF + free gifts (evergreen)",
+      "start": "2026-11-11",
+      "end": null,
+      "line": "40% off ($99.95) plus a free travel bag and a free dental case",
+      "note": "User 2026-11-11. No end date given: do not invent a deadline. Free gifts have no stated dollar value in long-form unless taken from offers.pod_denture_gift_bundle. Add dated swaps if a seasonal sale is confirmed."
+    }
+  ],
+  "longform_program": {
+    "split": "Batch 1 (user 2026-11-11): 10 NET-NEW concepts, 0 iterations (few proven DentalPULSE winners). Later batches: revisit once LF results exist.",
+    "weekly_output": 10,
+    "images_per_concept": 4,
+    "ids": "DLF<nn> in ad names (DentalPULSE long-form), start at DLF01",
+    "atria_account": "Dentalpulse",
+    "category_terms": [
+      "denture cleaner",
+      "retainer cleaner",
+      "night guard",
+      "aligner cleaner",
+      "invisalign",
+      "dentures",
+      "ultrasonic cleaner",
+      "teeth grinding",
+      "denture tablets",
+      "oral care"
+    ],
+    "competitors_longform": [
+      "MyNovaPod",
+      "Ploise",
+      "Zima Dental",
+      "Remi (Remi Dental)",
+      "Sonic Dental"
+    ],
+    "swipe_scope": "User 2026-11-11: don't limit to direct competitors. Swipe other niches and other dental/oral products.",
+    "owner_angle_ideas": [
+      "dental tablets contain chemicals (controversial)",
+      "cavities and root canals from uncleaned night guards/retainers/aligners",
+      "respiratory issues from night guards"
+    ],
+    "feedback_sheet": {
+      "name": "DentalPULSE feedback",
+      "file_id": "1xepNvWovrheKwSm76mchUfZbJ_GfF2f6uIwk5HLOKKU",
+      "gid": "1964641186"
+    },
+    "reddit": {
+      "subreddits": [
+        "Invisalign",
+        "orthodontics",
+        "braces",
+        "bruxism",
+        "TMJ",
+        "Dentures",
+        "Dentistry",
+        "askdentists",
+        "SleepApnea",
+        "CPAP",
+        "AgingParents",
+        "CaregiverSupport"
+      ],
+      "access_note": "reddit.com blocked from the cloud; use WebSearch site:reddit.com and archive mirrors"
+    },
+    "notion": {
+      "data_source": "collection://e2de1c8a-2656-4808-a62e-ac2f7196310e",
+      "board_name": "🦷 DentalPULSE Creative Board",
+      "title_format": "DLF<nn> | Long-Form Static | <Story> (<Angle>)",
+      "properties": {
+        "Stage": "In Review",
+        "Strategist": "Samir"
+      }
+    },
+    "landing_pages": {},
+    "image_rules": [
+      "no competitor logos (Zima, Sonic Dental, Novapod etc.); Polident/Efferdent boxes OK as the old method",
+      "appliances anatomically correct; no distorted mouths or teeth",
+      "the Pod only when the story reaches it, exact reference look",
+      "season and clothing match the story"
+    ],
+    "learning": {
+      "transcription": "Not authorized yet for DentalPULSE: use free transcripts only."
+    },
+    "output_dir": "output/longform"
   }
 }

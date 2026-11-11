@@ -110,5 +110,60 @@
   "competitor_brands": [
     "direct competitors",
     "plus 8–12 adjacent DTC brands in the category"
-  ]
+  ],
+  "longform_program": {
+    "_doc": "Read by the longform-ads skill. Fill every field during onboarding; see .claude/skills/longform-ads/references/brand_config.md.",
+    "atria_account": "<exact ad account name in Atria>",
+    "schedule": "Weekly, <day> <time> <IANA tz>",
+    "weekly_output": 10,
+    "split": "6 iterations on top-spending prospecting families + 4 net-new swings",
+    "images_per_concept": 4,
+    "ids": "LF<nn> in ad names, numbering continues from the highest existing LF file",
+    "category_terms": [
+      "<search terms for the category in the ad library>"
+    ],
+    "competitors_longform": [
+      "<direct competitors running long-form in the same category>"
+    ],
+    "feedback_sheet": {
+      "name": "<customer feedback / survey sheet>",
+      "file_id": "<Drive file id>"
+    },
+    "reddit": {
+      "subreddits": [
+        "<communities where the buyer talks>"
+      ],
+      "access_note": ""
+    },
+    "notion": {
+      "data_source": "collection://<id>",
+      "board_name": "<board>",
+      "title_format": "LF<nn> | Long-Form Static | <Story> (<Angle>)",
+      "properties": {
+        "Stage": "In Review"
+      }
+    },
+    "landing_pages": {
+      "<angle>": "/pages/<slug>"
+    },
+    "image_rules": [
+      "<who may appear with the product, logos to avoid, setting rules>"
+    ],
+    "output_dir": "output/longform"
+  },
+  "offers": [
+    {
+      "name": "<sale>",
+      "start": "YYYY-MM-DD",
+      "end": "YYYY-MM-DD",
+      "line": "<exact offer wording>",
+      "note": "<combination rules>"
+    }
+  ],
+  "confirmed_claims": {
+    "guarantee": "<exact>",
+    "customer_count": "<exact>",
+    "other": "<exact>",
+    "confirmed_by_user": "YYYY-MM-DD"
+  }
 }
