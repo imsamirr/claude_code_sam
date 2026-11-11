@@ -1,0 +1,23 @@
+{
+  "DLF06_A": {
+    "copy": "Hook: Mike, 37, in a hospital bed at night with nasal oxygen and a pulse clip on a work-scarred finger, watching his daughter's first basketball game on a phone propped on the tray table.",
+    "prompt": "Phone photo taken by his wife from the foot of a hospital bed on a Saturday morning in February, room lights half on, gray daylight through blinds. A fit 37-year-old white man with a short brown beard, sunburned neck and forearms, wearing a pale blue patterned hospital gown, lies propped up in the bed with clear nasal oxygen tubing under his nose and a gray pulse clip on one finger; his hands are rough and scarred like a carpenter's. He stares at a smartphone propped against a water cup on the rolling tray table in front of him; the phone screen shows only a blurry wooden gym floor and nothing readable. His eyes are wet and his jaw is tight. On the chair beside the bed: a folded tan canvas work jacket and dusty work boots. IMPORTANT: no readable text, hospital names, logos or monitor numbers anywhere; the jacket and boots are plain with no logos; the nasal cannula is realistic.",
+    "size": "3:4"
+  },
+  "DLF06_B": {
+    "copy": "The failure: the open guard case in the pickup truck's door pocket, sawdust, a carpenter pencil, a tape measure, the guard grimy and cloudy.",
+    "prompt": "Close-up phone photo taken from the driver's seat of a work pickup truck looking down into the driver's door pocket, early morning winter light through the window, slightly overexposed. In the pocket, among sawdust, wood shavings, a flat red carpenter pencil, a yellow tape measure with no brand, crumpled gas receipts with no readable text and a pair of worn leather work gloves, sits a cheap open gray plastic night guard case, and inside it a clear hard acrylic upper night guard (a thin horseshoe-shaped tray that covers only the biting surfaces of the upper teeth, with the faint impressions of the teeth on the inside, no wires, no straps) that looks cloudy, yellowish and filmy, with a speck of sawdust stuck to it. Water droplets on the inside of the case. IMPORTANT: the door panel and everything in it has no logos, brand names or readable text; the night guard is anatomically realistic and adult-sized.",
+    "size": "3:4"
+  },
+  "DLF06_C": {
+    "copy": "The self-test: on the tailgate at dawn, a plain white paper towel with a yellowish slick smear next to the night guard he just wiped.",
+    "prompt": "Phone photo looking down at the lowered tailgate of a dusty pickup truck at dawn in a Tennessee driveway in late February, cold blue light with a little frost on the grass at the edge of the frame. On the tailgate lies a single unfolded plain white paper towel with a clear yellowish, slightly greasy smear across the middle, and next to it a clear hard acrylic upper night guard (a thin horseshoe-shaped tray that covers only the biting surfaces of the upper teeth, with the faint impressions of the teeth on the inside, no wires, no straps). A man's work-roughened hand rests near it, holding a steaming plain metal coffee thermos. A folded tool belt lies at the edge of the frame. IMPORTANT: the smear is subtle and realistic, pale yellow-beige, not brown or bloody; the night guard is anatomically realistic. No logos, truck badges or readable text anywhere; the tailgate is plain.",
+    "size": "3:4"
+  },
+  "DLF06_D": {
+    "copy": "The new routine: 5 a.m., the open Pod on the bathroom counter with his night guard in tap water, work gloves and truck keys beside it.",
+    "ref": "pod_open",
+    "prompt": "Phone photo taken at 5 a.m. in a small ordinary bathroom, overhead light on, dark window. On the counter sits the white ribbed dome ultrasonic cleaner from the reference photo, lid open over the brushed stainless steel basin filled with plain tap water, and inside the basin lies a clear hard acrylic upper night guard (a thin horseshoe-shaped tray that covers only the biting surfaces of the upper teeth, with the faint impressions of the teeth on the inside, no wires, no straps), clear. Next to it on the counter: a pair of worn leather work gloves, a ring of truck keys, a plain steel coffee thermos and a carpenter pencil. A man's hand with sawdust-dry knuckles is about to press the button. IMPORTANT: the cleaner looks exactly like the reference photo, no added buttons, screens or colors; the night guard is anatomically realistic. No readable text or logos anywhere except what is on the reference device.",
+    "size": "3:4"
+  }
+}

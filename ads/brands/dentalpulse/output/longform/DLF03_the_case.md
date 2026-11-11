@@ -10,7 +10,7 @@
 **Landing page:** TBD (user will set)
 
 ## Images (4)
-- **A (main):** phone-flash close-up of the open case hinge with black specks, a man's thumb holding it. **B:** the front-load washer door seal pulled back, black mildew (the analogy). **C:** Dana at 3 p.m. in her kitchen, scrubs top, tea mug, hand at her throat. **D:** the clear guard drying on a clean towel next to the closed Pod on the nightstand, blackout curtain edge. See images/specs_DLF03.json.
+- **A (main):** phone-flash close-up of the open case hinge with black specks, a man's thumb holding it. **B:** the front-load washer door seal pulled back, black mildew (the analogy). **C:** Dana at 3 p.m. in her kitchen, scrubs top, tea mug, hand at her throat. **D:** the bookend reversed: a phone flashlight on the new, clean, dry case, the guard drying on a towel, the closed Pod behind. See images/specs_DLF03.json.
 
 ---
 

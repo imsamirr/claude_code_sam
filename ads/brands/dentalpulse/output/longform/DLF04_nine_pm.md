@@ -1,10 +1,10 @@
 # DLF04: "Nine p.m." (Dentures + pneumonia, sleeping in dentures, net-new)
 
 **Type:** net-new. A witness daughter learns, from a night nurse's 9 p.m. routine, why her proud father's 20 years of sleeping in his dentures mattered, and the family's pride loop resolves after the habit changes.
-**Angle source (evidence):** Reddit r/Dentures thread 1wzsu7v ("Dentures at night?", 65 comments): "I sleep in my tops a lot. I don't like my wife seeing me without them so I wear them almost all the time." (comment peerz44) and "the elderly, who can catch pneumonia from overnight wear and micro-aspiration" (comment pehe0cl). Research: Iinuma et al. 2015 (524 adults 85+, 3-year follow-up, overnight wearers about 2.3 times the pneumonia risk, plus more denture plaque and Candida); O'Donnell et al. 2016 (respiratory pathogens on the dentures of most, about 64%, of hospitalised elderly patients sampled). Feedback: 125 of 198 buyers bought for "bacteria" and that group is the happiest (4.16 stars); spouse noticing is the rare payoff (~22). Swipe: the NovaPod furious-wife hospital story ran 46 days vs 20 days for its product-first cut (pain-first wins); the CUURT witness-spouse template sits in the top 4% of 400 ads.
+**Angle source (evidence):** Reddit r/Dentures thread 1wzsu7v ("Dentures at night?", 65 comments): "I sleep in my tops a lot. I don't like my wife seeing me without them so I wear them almost all the time." (comment peerz44) and "the elderly, who can catch pneumonia from overnight wear and micro-aspiration" (comment pehe0cl). Research: Iinuma et al. 2015 (524 adults 85+, 3-year follow-up, overnight wearers more than twice the pneumonia risk, plus more denture plaque and Candida); O'Donnell et al. 2016 (respiratory pathogens on the dentures of most, about 64%, of hospitalised elderly patients sampled). Feedback: 125 of 198 buyers bought for "bacteria" and that group is the happiest (4.16 stars); spouse noticing is the rare payoff (~22). Swipe: the NovaPod furious-wife hospital story ran 46 days vs 20 days for its product-first cut (pain-first wins); the CUURT witness-spouse template sits in the top 4% of 400 ads.
 **What's kept from the winners:** witness narrator (a loved one watches the decline); a hospital rock bottom; an insider from outside the usual doctor who explains the overlooked thing; the tablet box as villain ("works on the surface"); biofilm in microscopic pores and scratches; brushing adds scratches; category before brand; a criteria list; the first-cycle cloudy water as proof; the $30 Amazon pod disqualified; "6 of 7 pods leave live bacteria".
 **What's new:** narrator Karen, 51, credit union branch manager, Evansville, Indiana; her father Ray, 79, retired lineman, and her mother Dot; February; the pride loop (he never let his wife see him without teeth); the nightly 9 p.m. timestamp as the spine; a cryptic loved-one hook; the hospital cup as the object bookend; mechanism focus is overnight wear plus the film on the denture.
-**Format:** static image + long primary text (~11.2k characters, measured)
+**Format:** static image + long primary text (~12.8k characters, measured)
 **Headline:** Why the nurse took Dad's teeth out at 9 p.m. Alternate: He slept in his teeth for 20 years. Here's what the nurse told me.
 **CTA:** Learn More
 **Landing page:** TBD (user will set)
@@ -48,7 +48,8 @@ Mom thought it was sweet. Very Ray.
 
 Here's what this winter took from him. Remember these. They matter later.
 
-Every Thursday at 6 a.m., Dad ate biscuits and gravy at the Lincoln Avenue diner with four retired linemen. Same booth for eleven years.
+Every Thursday at 6 a.m., Dad ate biscuits and gravy at the Lincoln Avenue diner with four retired linemen.
+Same booth for eleven years.
 In January he stopped going. The coughing embarrassed him.
 
 My daughter had her first baby in December. A boy named Wyatt.
@@ -113,7 +114,7 @@ That's a denture in a mouth at night. Warm. Wet. Lid on."
 
 Then she told me about the research.
 Back in 2015, researchers in Japan followed 524 people age 85 and older for three years.
-The ones who slept in their dentures had about 2.3 times the risk of pneumonia.
+The ones who slept in their dentures had more than twice the risk of pneumonia.
 They also had more plaque and more yeast on their dentures.
 
 "He's 79," I said.
@@ -139,10 +140,12 @@ He wasn't doing anything wrong. The box just can't reach where the problem lives
 
 On the third night I did something I'm not proud of and I'd do again.
 After Tasha put his teeth in the cup, I took the top plate out and looked at it under the bathroom light.
-It looked clean. Then I ran my thumbnail along the inside, the part that sits against the roof of his mouth.
+It looked clean.
+Then I ran my thumbnail along the inside, the part that sits against the roof of his mouth.
 A gray-white smear came off under my nail.
 Slick. Like the inside of a pot you didn't scrub.
-That was after his morning Polident. That was what had been sitting against my father's mouth all night, every night, for twenty years.
+That was after his morning Polident.
+That was what had been sitting against my father's mouth all night, every night, for twenty years.
 
 I sat on the closed toilet lid in that hospital bathroom and cried.
 
@@ -207,7 +210,8 @@ Dad leaned in close and looked for a long time.
 "That came off your teeth, Daddy."
 He didn't say anything else. He didn't have to.
 
-Then they went into the dental case that came with it, and he went to bed without them. Door locked, of course.
+Then they went into the dental case that came with it, and he went to bed without them.
+Door locked, of course.
 
 Week one wasn't magic. He forgot two nights. He grumbled that his mouth "felt naked."
 But he did it. 9 p.m. In the Pod, five minutes, then into the case. Morning, a rinse, back in.
@@ -230,7 +234,8 @@ Now. Remember the three things this winter took.
 
 The first Thursday in March, at 6 a.m., Dad walked into the Lincoln Avenue diner.
 Same booth. Biscuits and gravy.
-He told the others about the pink cup. Earl, who has worn a partial for thirty years, had his daughter call me to ask what the cleaner was called.
+He told the others about the pink cup.
+Earl, who has worn a partial for thirty years, had his daughter call me to ask what the cleaner was called.
 
 At Easter, Dad held Wyatt for an hour.
 No cough. Wyatt fell asleep on his chest.
@@ -298,4 +303,4 @@ Evergreen, no swaps. 40% off ($99.95) plus a FREE travel bag and a FREE dental c
 | Price inversion | $99.95 vs a week of hospital parking and coffee; the $30 pod that died | Skeptic beat |
 | Outcome lines | "The water went cloudy" (first-cycle proof, allowed); "the inside of the plate squeaked"; honest ceiling: "I can't promise you a cleaner would have kept Dad out of the hospital" | Results (~70–80%) |
 | Offer, claims | brand.json approved_claims, longform_offers (evergreen) | Close, P.S. stack |
-| Brand position | measured | ~58% |
+| Brand position | measured | ~63% |

@@ -1,0 +1,23 @@
+{
+  "DLF03_A": {
+    "copy": "Hook: Marcus's phone flashlight on the hinge of Dana's night guard case, black specks packed into the hinge and along the rim, the guard still inside.",
+    "prompt": "Extreme close-up phone photo taken with the phone's flash on, by a man standing at a small bathroom counter at about 8 a.m. in February, holding an open cheap small blue translucent plastic night guard case in his left hand, tilted toward the camera so the hinge faces the lens. The harsh flash lights the hinge: tiny black and dark green specks packed into the plastic hinge pin area and in a dotted line along the inside rim where the lid snaps shut, plus a faint gray slimy smear in one inside corner of the bottom half, with a few water droplets. Inside the case lies a clear hard acrylic upper night guard (a thin horseshoe-shaped tray that covers only the biting surfaces of the upper teeth, with the faint impressions of the teeth on the inside, no wires, no straps), slightly cloudy and yellowed, still wet. His thumb is a man's thumb with a short nail and a small cut, slightly out of focus at the edge. Background: a blurry bathroom sink, a toothbrush cup. IMPORTANT: the specks are small, realistic mildew specks, not cartoonish; the night guard is anatomically realistic and the right size for an adult mouth. No logos or readable text anywhere.",
+    "size": "3:4"
+  },
+  "DLF03_B": {
+    "copy": "The analogy: the front-load washer door seal pulled back, lined with black mold, the same specks Marcus recognized.",
+    "prompt": "Close-up phone photo taken with the flash in a cramped laundry closet of an ordinary Pennsylvania house in winter. A man's fingers pull back the gray rubber door gasket of a white front-loading washing machine, revealing the inner fold lined with black mold spots and a gray slimy film, some standing water and lint in the bottom of the fold. The round glass door is open at the edge of the frame. A plastic laundry basket with folded towels and a jug of detergent with a plain unlabeled white bottle sit out of focus behind. Flat, slightly harsh flash light, crooked framing. IMPORTANT: the washer has no brand name, logo or control panel text visible; the mold looks real and natural, not exaggerated.",
+    "size": "3:4"
+  },
+  "DLF03_C": {
+    "copy": "Dana's 'morning': 3 p.m. in February, kitchen, navy scrub top and pajama pants, mug of tea, hand at her throat, tired.",
+    "prompt": "Phone photo taken by her husband from across a small kitchen at 3 p.m. on a gray February afternoon, flat cold daylight from a window over the sink, overhead light on. A 42-year-old white woman with shoulder-length brown hair in a messy clip, no makeup, tired eyes, wearing a navy blue scrub top over gray pajama pants and thick socks, leans against the counter holding a plain white mug of tea in one hand and touching the front of her throat with the other, mid-swallow, grimacing slightly. On the counter: a bag of throat lozenges with no readable label, a small plastic humidifier box flattened for recycling, a hospital-style lanyard with a blank badge, car keys. Snow-dusted backyard through the window. IMPORTANT: the badge and every package are blank, no readable text or logos; she looks sick and worn out, not glamorous.",
+    "size": "3:4"
+  },
+  "DLF03_D": {
+    "copy": "Payoff and bookend: weeks later, Marcus shines his phone flashlight into the new, dry, open case: nothing. The guard dries on a towel next to the closed Pod.",
+    "ref": "pod",
+    "prompt": "Phone photo taken with the flash on a bathroom counter in late morning, ordinary overhead light. In the foreground a man's hand holds a smartphone with its flashlight lit (phone seen from the back, edge of frame, no screen visible) shining into a new open white plastic night guard case that is completely clean and dry, the hinge spotless. Beside it, a clear hard acrylic upper night guard (a thin horseshoe-shaped tray that covers only the biting surfaces of the upper teeth, with the faint impressions of the teeth on the inside, no wires, no straps) rests on a folded clean white hand towel, clear and dry. Behind them sits the white ribbed dome ultrasonic cleaner from the reference photo, lid closed. A toothbrush in a cup and a bar of soap at the edge. IMPORTANT: the cleaner looks exactly like the reference photo, no added buttons, screens or colors; the night guard is anatomically realistic; the case is plain with no text. No readable text or logos anywhere except what is on the reference device.",
+    "size": "3:4"
+  }
+}

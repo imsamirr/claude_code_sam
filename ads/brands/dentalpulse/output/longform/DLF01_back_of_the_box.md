@@ -8,7 +8,7 @@
 - Format: the Uproot Clean insider ("it wasn't you, it was the tablet", 60 days, active) and playbook hook 1, insider refusal ("I fill 214 prescriptions... I won't fill my own son's").
 **What's kept from the winners:** "the tablet works on the surface"; persulfate; "you pay for it forever"; brushing carves scratches where bacteria hide; the $30 Amazon pod that quits and has no UV; "6 of 7 pods leave live bacteria"; ultrasonic + medical-grade UV-C, tap water, one 5-minute cycle; the cloudy first-cycle water; "Whatever you're doing, keep doing it."
 **What's new:** narrator (Joan Brandt, 68, retired high school chemistry teacher, 31 years), witness-spouse format (Walt, 71, retired phone company lineman, dentures 12 years), setting (outside Mansfield, Ohio, February to September), hook type (insider refusal), open loops ("the one line on the box", the former student), analogy (bleached wooden cutting board), self-test (read the box out loud; the wet paper towel).
-**Format:** static image + long primary text (~12.5k characters, measured: 12,484)
+**Format:** static image + long primary text (~12.5k characters, measured: 12,489)
 **Headline:** I wouldn't let my husband soak his teeth in what's on the back of that box. Alternate: Read the back of your denture tablet box. Out loud.
 **CTA:** Learn More
 **Landing page:** TBD (user will set)
@@ -150,7 +150,7 @@ That's where Kayla comes in.
 
 Kayla sat in the third row of my fourth period, class of 2009.
 She's a dental hygienist now.
-In March, Walt had a cleaning at her office. I went with him, the box in my purse.
+In March, Walt had his yearly denture check at her office. I went with him, the box in my purse.
 She read my highlighted warning and laughed. Not at me.
 "Mrs. Brandt, you're the first person who's ever brought me the box."
 Then she said the thing that changed everything.
@@ -264,12 +264,11 @@ Beth caught my eye across the table. She didn't say a word. She didn't need to.
 That night, he kissed me goodnight.
 He hasn't missed a night since. He's very proud of himself.
 
-At his six-month checkup, the dentist looked at his gums for a long time.
+In September, we went back to Kayla's office for a recheck. The dentist looked at his gums for a long time.
 "No irritation at all. Whatever you're doing, keep doing it."
 Walt said, "My wife read the box."
 
-In September, Kayla cleaned his teeth again.
-Afterward she wet a white paper towel and ran it hard along the inside of his upper.
+Afterward Kayla wet a white paper towel and ran it hard along the inside of his upper.
 It came back white.
 She held it up for me like a test I'd passed.
 My sister threw out her buzzing cup that week.
@@ -330,4 +329,4 @@ Evergreen, no swaps. 40% off ($99.95) plus a free travel bag and a free dental c
 | Price inversion | Winners: "you pay for it forever"; feedback "having to purchase the tablets" | "Well over $600" of tablets vs $99.95 once |
 | Outcome lines | Winners: "Whatever you're doing, keep doing it" (15+ ads in playbook) | Six-month checkup |
 | Offer, claims | brand.json (`longform_offers`, approved_claims) | Close |
-| Brand position | n/a | ~65% (measured 64.6%) |
+| Brand position | n/a | ~65% (measured 64.7%) |
