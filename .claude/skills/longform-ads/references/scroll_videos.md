@@ -71,8 +71,13 @@ Use the writer spec in `ads/brands/comfortwear/output/scroll_videos/scripts/WRIT
 **Names:** dedupe them across the batch (narrators, messengers and towns) and against existing LF files. Never reuse a competitor's signature detail (for example Orthora's frozen peas).
 
 ## Delivery
-- **Notion:** one card per angle, listing its 3 variations: script, caption, headline, landing page, Drive link.
-- **Video files:** 5-minute videos are 50–90MB, over Notion's 20MB single-part limit and too big for git. Upload them to the brand's Drive folder with `create_file` and a `sha256:<hash>:<path>` file reference (each needs the user's approval), and link them from the cards.
+- **Notion:** one card per angle on the brand's board (Comfort Wear's is the "ComfortWear Video Board" database, data source `fc6096bb-…`), titled `LV01–03 | Scroll Video | <Angle>`. List the 3 variations on it, each with: story, headline, caption, the video, the full on-screen script, offer swaps and alternate hooks. Escape `$` as `\$` in the content, or Notion may read prices as math.
+- **Video files:** a 5-minute Veo render is 50–110MB. Compress a copy for Notion to about 18MB, under its 20MB single-part limit. Text stays sharp at this setting:
+  ```bash
+  ffmpeg -i LVxx.mp4 -c:v libx264 -preset veryfast -b:v 380k -maxrate 420k -bufsize 840k -c:a aac -b:a 64k -movflags +faststart notion/LVxx.mp4
+  ```
+  Call `notion-create-file-upload` with `content_type: "video/mp4"`, because the default `application/mp4` rejects a `video/mp4` POST. POST the file right away, and create the card within the hour. Embed it with `<video source="file-upload://<id>">LVxx video</video>`. For anything over 20MB, use Drive (`create_file` with a `sha256:<hash>:<path>` reference) and link to it.
+- **Before the final render, fact-check the on-screen text:** city and state pairs, spacing inside quotes, prices that add up. A mistake means re-rendering the video.
 - **Sample:** send one video with SendUserFile.
 
 
