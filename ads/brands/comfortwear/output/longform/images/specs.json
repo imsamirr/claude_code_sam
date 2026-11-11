@@ -42,5 +42,15 @@
         }
       ]
     }
+  },
+  "LF04_A": {
+    "copy": "LF04 Christmas Morning From the Couch: hook image (the photo grandma posted)",
+    "size": "3:4",
+    "prompt": "Christmas morning in an ordinary American living room, photo taken by a grandmother standing near the hallway. In the foreground on the carpet, two kids (a boy about 6 and a girl about 12) in pajamas tearing open presents in piles of wrapping paper next to a decorated Christmas tree; a dad on his knees putting batteries into a toy. In the back of the frame, on the couch, a tired woman of about 45 still wearing navy blue hospital scrubs and a hospital ID badge, sitting slumped with both bare feet in a large metal mixing bowl of ice water on the rug, watching the kids from a distance with a tired half-smile. Morning window light mixed with yellow lamp light and tree lights, a little cluttered, coffee mugs on the side table. Plain unbranded toys and boxes, no characters or logos."
+  },
+  "LF04_B": {
+    "copy": "LF04 alt image (7:50 a.m. Christmas morning in the hospital garage)",
+    "size": "3:4",
+    "prompt": "Taken from the driver's seat of a car parked in a concrete hospital parking garage just after dawn on Christmas morning. On the passenger seat: a pair of worn white and grey mesh work sneakers, the kind nurses wear, taken off, a hospital ID badge on a lanyard, and a small gift wrapped in red paper with a bow. A tiny Santa-hat air freshener hangs from the rear-view mirror. Pale early light through the garage opening, slightly dark and noisy phone exposure. IMPORTANT about the shoes: plain smooth side panels in a single solid color with no stripes, swooshes, letters or logos. Shot looking down at the passenger seat so only the edge of a plain steering wheel is visible; the steering wheel center pad is smooth and completely blank, with no emblem, badge or logo, and nothing on the dashboard carries a brand."
   }
 }

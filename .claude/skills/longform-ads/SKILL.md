@@ -48,6 +48,15 @@ Read **every qualifying family's full transcript and copy** in `longform_winners
 3. **Below the bar.** List the angles that didn't qualify, so they aren't used as a base.
 4. **Claims conflicts.** Compare the winners against `brand.json → claims_to_avoid` and `confirmed_claims`. Flag anything the winners say that isn't confirmed. Never silently drop a winner's element.
 
+## 2b. Same-category competitors' long-form (required)
+
+Every run, pull saved and new long-form statics from direct competitors in our category: `search_library_ads` with `scope=saved` plus a library search on the category (for Comfort Wear: nurse, work and comfort shoes, for example Orthora, which posts as "2026 Best Work Shoes"). Read each one in full with `get_library_ad`, and log its format, headline, image type and how it reveals the brand.
+
+- **Iterations:** put our proven angle into the competitor's format. Example: LF04 uses Orthora's kid witness, home-consequence image, hidden-coping list and late "EDIT:" reveal, applied to our nurse running-shoe mechanism.
+- **Net-new:** competitor angles we have never run.
+- **What can't be reused:** their story details, their distinctive lines (for Orthora: the frozen peas, the drawing, the thumb test, "restarting the clock") or their claims.
+- **Note the run days:** a competitor ad launched days ago is a format test, not a proven winner.
+
 ## 3. Write: one copy per top angle (default: the top 3 angles)
 
 Each copy must keep the angle's **format**. If the winner is a comparison test, the story has to *be* a test: one failed shoe per day, a closet graded with a rubric, a bin of dead pairs. Don't let a mentor character replace the test.
