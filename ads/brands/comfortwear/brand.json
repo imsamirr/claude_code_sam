@@ -261,15 +261,16 @@
       "name": "Black Friday Sale",
       "start": "2026-11-01",
       "end": "2026-12-05",
-      "line": "60% off, plus free gifts with your order",
-      "note": "60% + free gifts wording from live Black Friday ads (NH3, NG1)"
+      "line": "60% off sitewide",
+      "note": "Black Friday offers are EITHER 60% off sitewide OR buy-2-get-2-gifts, never combined (statics program rule). No dollar value for gifts, no fast-shipping or easy-returns wording.",
+      "alt_line": "buy 2 pairs, get 2 free gifts (3-pack cushioned socks + travel bag)"
     },
     {
       "name": "Christmas Sale",
       "start": "2026-12-06",
       "end": "2026-12-31",
-      "line": "Christmas Sale",
-      "note": "discount % not given yet; ask the user before quoting a number"
+      "line": "60% off, plus 2 free gifts when you buy 2 pairs",
+      "note": "confirmed by user 2026-11-11"
     },
     {
       "name": "New Year Sale",
@@ -280,8 +281,7 @@
   ],
   "offers_note": "Write the close for the offer live on the launch date, and add ready-to-paste swaps for every later offer the ad may still be running in. Always name the end date.",
   "longform_program": {
-    "daily_output": 6,
-    "split": "5 iterations + 1 net-new per day; every 5th day 4 + 2 (24/6 = 80/20 per 5-day cycle)",
+    "split": "6 iterations on top-spending prospecting families (each a different story, setting and image look) + 4 net-new swings (directions never tested)",
     "learning": {
       "daily_sources": [
         "Atria library: image ads >= 2k chars launched last 2 days (en)",
@@ -302,11 +302,15 @@
       "Notion Ad Angle Databank",
       "calendar moments"
     ],
-    "open_questions": [
-      "delivery channel",
-      "run time/days",
-      "Christmas Sale %",
-      "LF IDs in ad names"
+    "open_questions": [],
+    "schedule": "Weekly, Thursday 8:00 AM America/New_York",
+    "weekly_output": 10,
+    "images_per_concept": 4,
+    "ids": "LF<nn> in ad names (confirmed by user 2026-11-11), continue numbering from the highest existing LF file",
+    "research_sources": [
+      "Atria: own account longform pull (top spenders), saved ads incl. same-category competitors (Orthora), new library long-form + video transcripts",
+      "Feedback summary sheet (Google Drive)",
+      "Reddit (r/nursing, r/Teachers, r/plussize, r/disney/WDW, r/travel, r/Serverlife, r/PlantarFasciitis)"
     ]
   }
 }

@@ -186,7 +186,7 @@ They're not a running shoe with a nurse sticker on it. They're built for people 
 - a grip made for mopped floors
 - light enough that you forget they're on
 
-For Black Friday they're 60% off, plus free gifts with your order, until December 5th. And they're HSA/FSA eligible.
+For Black Friday they're 60% off sitewide until December 5th. And they're HSA/FSA eligible.
 
 Wear them for 30 days on your hardest shifts. If they don't change how your feet feel at hour twelve, send them back for 100% of your money back. That's their 30-day money-back guarantee.
 
@@ -202,7 +202,7 @@ Tonight, while you brush your teeth and do the dishes, stand still in your work 
 
 **Christmas Sale (Dec 6–31):**
 
-> They're on Christmas Sale until December 31st. And they're HSA/FSA eligible. If you've got FSA dollars left, a lot of plans make you use them by December 31st.
+> For the Christmas Sale, they're 60% off, plus 2 free gifts when you buy 2 pairs, until December 31st. One pair for your shifts, one for the nurse in your life who's working Christmas Eve too. And they're HSA/FSA eligible. If you've got FSA dollars left, a lot of plans make you use them by December 31st.
 
 Also add this line after the self-test:
 
@@ -210,7 +210,7 @@ Also add this line after the self-test:
 
 **New Year Sale (Jan 1–15):**
 
-> For the New Year Sale, they're 40% off until January 15th. And they're HSA/FSA eligible. Don't start another year of shift feet.
+> For the New Year Sale, they're 40% off with free shipping until January 15th. And they're HSA/FSA eligible. Don't start another year of shift feet.
 
 ---
 

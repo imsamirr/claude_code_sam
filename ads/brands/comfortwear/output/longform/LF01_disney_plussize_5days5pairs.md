@@ -222,7 +222,7 @@ You can fix it with the shoe.
 
 Comfort Wear's Ortho Stretch Cushion Shoe was built for people who stand on hard ground all day. It has a built-in arch that doesn't pack down, a wide toe box, a stretch knit top that gives as you swell, and it's light enough to forget about.
 
-For Black Friday, Comfort Wear is 60% off, plus free gifts with your order, until December 5th. And they're HSA/FSA eligible.
+For Black Friday, Comfort Wear is 60% off sitewide until December 5th. And they're HSA/FSA eligible.
 
 Wear them for 30 days, on your longest days at home before the trip. If they don't feel different from anything else you've packed, send them back for 100% of your money back. That's our 30-day money-back guarantee.
 
@@ -244,7 +244,7 @@ The primary text above runs the **Black Friday Sale** close (live until Dec 5). 
 
 **Christmas Sale (Dec 6 to Dec 31, 2026):**
 
-Comfort Wear's Christmas Sale is on until December 31st. And they're HSA/FSA eligible. If you've got FSA dollars left this year, a lot of plans make you use them by December 31st.
+For the Christmas Sale, Comfort Wear is 60% off, plus 2 free gifts when you buy 2 pairs, until December 31st. One pair for you, one for whoever's coming on the trip with you. And they're HSA/FSA eligible. If you've got FSA dollars left this year, a lot of plans make you use them by December 31st.
 
 Wear them for 30 days, on your longest days at home before the trip. If they don't feel different from anything else you've packed, send them back for 100% of your money back. That's our 30-day money-back guarantee.
 
@@ -256,7 +256,7 @@ P.P.P.S. Shopping for the grandma who always ends up holding everybody's bags? T
 
 **New Year Sale (Jan 1 to Jan 15, 2027):**
 
-For the New Year Sale, Comfort Wear is 40% off until January 15th. And they're HSA/FSA eligible. If a park trip is on your list this year, now is the time to get your feet ready for it.
+For the New Year Sale, Comfort Wear is 40% off with free shipping until January 15th. And they're HSA/FSA eligible. If a park trip is on your list this year, now is the time to get your feet ready for it.
 
 Wear them for 30 days, on your longest days at home before the trip. If they don't feel different from anything else you've packed, send them back for 100% of your money back. That's our 30-day money-back guarantee.
 

@@ -52,5 +52,45 @@
     "copy": "LF04 alt image (7:50 a.m. Christmas morning in the hospital garage)",
     "size": "3:4",
     "prompt": "Taken from the driver's seat of a car parked in a concrete hospital parking garage just after dawn on Christmas morning. On the passenger seat: a pair of worn white and grey mesh work sneakers, the kind nurses wear, taken off, a hospital ID badge on a lanyard, and a small gift wrapped in red paper with a bow. A tiny Santa-hat air freshener hangs from the rear-view mirror. Pale early light through the garage opening, slightly dark and noisy phone exposure. IMPORTANT about the shoes: plain smooth side panels in a single solid color with no stripes, swooshes, letters or logos. Shot looking down at the passenger seat so only the edge of a plain steering wheel is visible; the steering wheel center pad is smooth and completely blank, with no emblem, badge or logo, and nothing on the dashboard carries a brand."
+  },
+  "LF01_C": {
+    "copy": "LF01: swollen feet after a park day",
+    "prompt": "Looking down at a heavy-set woman's swollen feet and ankles propped on a hotel bedspread at night, deep red sock-line indentations around her ankles, a bit of puffiness over the tops of the feet, white socks pulled off and tossed beside them, a theme-park lanyard and a phone charging on the nightstand, a bag of ice from the hotel ice machine leaning against one ankle. Lamp light, slightly yellow. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
+    "size": "3:4"
+  },
+  "LF01_D": {
+    "copy": "LF01: payoff, up front at the fireworks",
+    "prompt": "Warm humid Florida night in spring, everyone in T-shirts, shorts and tank tops. Photo taken from slightly behind and to the side: a heavy-set plus-size woman in her 50s (clearly US size 22, wearing a loose T-shirt and capri pants) standing in the front row of a big crowd, holding a little girl about 6 on her hip, both looking up at colorful fireworks bursting in the night sky over palm trees, families around them with phones up recording. Phone night mode, a bit grainy. No castle, no characters, no logos. Any shoes have plain smooth side panels with no logos.",
+    "size": "3:4"
+  },
+  "LF02_C": {
+    "copy": "LF02: the mopped corner by bay six, 4 a.m.",
+    "prompt": "A hospital hallway corner at 4 a.m., freshly mopped floor still shiny and wet, a yellow plastic wet-floor caution sign (no readable text) standing near the corner, a crash cart parked against the wall, fluorescent lights reflecting on the wet linoleum, an empty IV pole. Taken quickly from waist height by a nurse, slightly tilted. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
+    "size": "3:4"
+  },
+  "LF02_D": {
+    "copy": "LF02: the pre-shift ritual in the car, 6:45 p.m.",
+    "prompt": "Inside a parked car at dusk in a hospital parking garage, a woman's hand in navy scrub sleeve holding two plain white pills over the cupholder, a large takeaway coffee cup, a hospital ID badge on a lanyard on the passenger seat, the dashboard clock area visible but no readable text. Dim garage lighting, a bit noisy. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
+    "size": "3:4"
+  },
+  "LF03_C": {
+    "copy": "LF03: swollen ankles on the long flight",
+    "prompt": "Looking down in an airplane economy seat footwell during a night flight: a woman's swollen ankles and feet squeezed into grey memory-foam slip-on sneakers, the tops of her feet puffing over the edges, a travel pillow and a small backpack shoved under the seat in front, a seatback tray with a plastic cup of water. Dim cabin lighting, blue reading-light cast, grainy. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
+    "size": "3:4"
+  },
+  "LF03_D": {
+    "copy": "LF03: payoff, at the top of the castle wall",
+    "prompt": "Photo taken by a tourist from a few steps behind: an older couple in their 60s, a woman with short silver hair in a cream cardigan and a man in a windbreaker, standing at the stone wall of an old castle at sunset with their arms around each other, looking out over terracotta rooftops and a river glowing orange, other tourists at the edges of the frame. Their backs to the camera. Ordinary phone sunset exposure, a little blown out. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
+    "size": "3:4"
+  },
+  "LF04_C": {
+    "copy": "LF04: payoff, pancakes at 7:50 a.m.",
+    "prompt": "An ordinary American kitchen at 7:50 in the morning: a woman of about 45 still in navy blue scrubs and a hospital ID badge standing at the stove flipping pancakes in a pan, a 12-year-old girl in pajamas leaning in the doorway holding a bottle of syrup, smiling a little, a 6-year-old boy at the kitchen table. Morning window light, dishes in the sink, kids' backpacks on chairs. Taken from the kitchen table by someone sitting down. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
+    "size": "3:4"
+  },
+  "LF04_D": {
+    "copy": "LF04: standing on the soccer sideline",
+    "prompt": "A kids' soccer game on a grassy field on a cool spring evening, photo taken from behind a woman of about 45 standing on the sideline in a puffy jacket over navy scrub pants, arms crossed, cheering, other parents sitting in folding chairs around her, little kids in bright jerseys running after the ball in the background. Ordinary phone photo, slightly overcast sky. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
+    "size": "3:4"
   }
 }

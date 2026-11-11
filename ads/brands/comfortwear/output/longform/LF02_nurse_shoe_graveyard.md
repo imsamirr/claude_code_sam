@@ -171,7 +171,7 @@ Hokas, Brooks, On Clouds: great shoes. For a 5k. Not for a twelve.
 
 Comfort Wear's Ortho Stretch Cushion Shoe was built for the shift, not the 5k. It has cushioning that holds all day, a built-in arch, a stretch knit upper that widens as you swell, and a grip made for mopped floors.
 
-For Black Friday, they're 60% off, plus free gifts with your order, until December 5th. And they're HSA/FSA eligible.
+For Black Friday, they're 60% off sitewide until December 5th. And they're HSA/FSA eligible.
 
 Wear them on your hardest shifts for 30 days. If they don't change how your feet feel at hour twelve, send them back for 100% of your money back. That's our 30-day money-back guarantee.
 
@@ -193,7 +193,7 @@ The primary text above runs the **Black Friday Sale** close (live until Dec 5). 
 
 **Christmas Sale (Dec 6 to Dec 31, 2026):**
 
-Comfort Wear's Christmas Sale is on until December 31st. And they're HSA/FSA eligible. If you've got FSA dollars left, a lot of plans make you use them by December 31st. This is a good place to put them.
+For the Christmas Sale, they're 60% off, plus 2 free gifts when you buy 2 pairs, until December 31st. Two pairs is the Deb method anyway. And they're HSA/FSA eligible. If you've got FSA dollars left, a lot of plans make you use them by December 31st. This is a good place to put them.
 
 Wear them on your hardest shifts for 30 days. If they don't change how your feet feel at hour twelve, send them back for 100% of your money back. That's our 30-day money-back guarantee.
 
@@ -205,7 +205,7 @@ P.P.P.S. Know a nurse who's working Christmas? Somebody always is. Get her a pai
 
 **New Year Sale (Jan 1 to Jan 15, 2027):**
 
-For the New Year Sale, they're 40% off until January 15th. And they're HSA/FSA eligible. New year, new shifts. Don't start another year adding to the graveyard.
+For the New Year Sale, they're 40% off with free shipping until January 15th. And they're HSA/FSA eligible. New year, new shifts. Don't start another year adding to the graveyard.
 
 Wear them on your hardest shifts for 30 days. If they don't change how your feet feel at hour twelve, send them back for 100% of your money back. That's our 30-day money-back guarantee.
 

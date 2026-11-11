@@ -103,7 +103,7 @@ If any row is missing, fix the copy before you deliver it.
 
 ## 6. Story images (Kie.ai)
 
-Each copy gets 2 images, saved as `output/longform/images/<ID>_A` (main) and `<ID>_B` (alternate). Generate them with `python ads/longform_images.py --brand <brand> [IDs]`, which reads `output/longform/images/specs.json` and needs the `KIE_AI` key.
+Each copy gets 4 images, each a different moment from the story: `output/longform/images/<ID>_A` (main), `_B`, `_C` and `_D`. Make the clothing and season match the story. Generate them with `python ads/longform_images.py --brand <brand> [IDs]`, which reads `output/longform/images/specs.json` and needs the `KIE_AI` key.
 
 - **Style:** match the long-form winners saved in Atria. Each image is an unedited amateur phone snapshot of ONE moment or object from the story (the bench, the bin, the abandoned café table). No studio look, no ad layout. Usually no product, and no text unless it's part of the scene (masking tape on a bin).
 - **Exact on-image text:** if the story needs it (for example a text message), draw it with the spec's `overlay` instead of asking the model.
