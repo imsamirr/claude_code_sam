@@ -81,6 +81,31 @@ def upload(tok, path, parent, mime="video/mp4", name=None):
     raise RuntimeError("upload ended without a final response")
 
 
+def replace(tok, path, file_id, mime="video/mp4"):
+    """Overwrite an existing Drive file's content in place (same file id, same link)."""
+    size = path.stat().st_size
+    h = {"Authorization": f"Bearer {tok}", "Content-Type": "application/json; charset=UTF-8",
+         "X-Upload-Content-Type": mime, "X-Upload-Content-Length": str(size)}
+    r = requests.patch(f"{UPLOAD}/{file_id}?uploadType=resumable&fields=id,webViewLink", headers=h, timeout=60, data="{}")
+    r.raise_for_status()
+    session = r.headers["Location"]
+    with open(path, "rb") as f:
+        start = 0
+        while start < size:
+            chunk = f.read(CHUNK)
+            end = start + len(chunk) - 1
+            r = requests.put(session, timeout=300, data=chunk,
+                             headers={"Content-Length": str(len(chunk)), "Content-Range": f"bytes {start}-{end}/{size}"})
+            if r.status_code in (200, 201):
+                return r.json()["webViewLink"]
+            if r.status_code != 308:
+                raise RuntimeError(f"replace failed ({r.status_code}): {r.text[:300]}")
+            rng = r.headers.get("Range")
+            start = int(rng.split("-")[1]) + 1 if rng else 0
+            f.seek(start)
+    raise RuntimeError("replace ended without a final response")
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--brand", required=True)
@@ -89,12 +114,19 @@ def main():
     p.add_argument("--check", action="store_true", help="only verify the credentials and the folder")
     p.add_argument("--folder-id", help="upload into this existing Drive folder (needs the full drive scope)")
     p.add_argument("--names", help="JSON file mapping local path -> Drive file name")
+    p.add_argument("--replace", help="JSON file mapping local path -> existing Drive file link or id: overwrite in place")
     p.add_argument("files", nargs="*")
     a = p.parse_args()
     tok = access_token()
     root = a.folder_id or folder_id(tok, a.folder or f"{a.brand.capitalize()} Long-Form Videos (auto)")
     parent = folder_id(tok, a.subfolder, root) if a.subfolder else root
     names = json.loads(Path(a.names).read_text()) if a.names else {}
+    if a.replace:
+        import re
+        for f, ref in json.loads(Path(a.replace).read_text()).items():
+            fid = re.search(r"/d/([^/]+)", ref).group(1) if "/d/" in ref else ref
+            print(f"{f}\t{replace(tok, Path(f), fid)}", flush=True)
+        return
     if a.check:
         print(f"ok: credentials work; folder https://drive.google.com/drive/folders/{parent}")
         return

@@ -39,6 +39,12 @@ python ads/scroll_video.py --brand <brand> --spec <variations.json> --music <bed
 ### Still-image backgrounds and music-only videos (added for DentalPULSE, 2026-11)
 - **`background_image`** (instead of `background`): a prompt for one calm, mid-to-dark 9:16 phone photo of the narrator's world. It's rendered with Kie `nano-banana-pro` at 2K, then given a slow breathing zoom over the whole video (no Veo). Keep the middle of the frame quiet, because white text sits on it.
 - **`"audio": "music"`**: no voice-over. The text scrolls at a fixed reading pace (`MUSIC_WPS` = 2.5 words a second, with the hook held for 2.5 seconds) and the music bed plays at −6 dB. Write these scripts with shorter paragraphs and more one-line cliffhangers.
+- **Quality (user feedback 2026-11-12: "blurry and a bit laggy"):**
+  - **Resolution and encoding:** render at 1080×1920 at 60 fps, with the text layer laid out at full resolution (the font and sizes scale with the width), x264 `medium` at CRF 17.
+  - **Motion:** music-only videos scroll by whole pixels: 1px every 3 frames during the 6-second ease-in, then exactly 1px per frame (60px/s). Fractional speeds make the text alternate 1px and 2px steps, which reads as stutter. The video's length follows from the text height.
+  - **Background:** still-image backgrounds are static. ffmpeg `zoompan` moves in whole-pixel steps and jitters.
+  - **Render time:** about 10–15 minutes per video on 4 cores.
+- **Background must match the copy (same feedback):** the photo shows the story's hook object (the jelly jar with the teeth in it, the moldy case hinge, the check next to the denture), large in the upper half, with a darker, simpler lower half for the text. Never a generic setting. Check every background for burned-in text or captions and re-render any that have them.
 - **Scroll speed (user feedback 2026-11-12):** the text must rise slowly from the first frame, like the references, never jump. Music-only videos scroll at one steady speed (story length ÷ runtime, about 35–40 px/s) after an ease-in at a third of that speed for the first 6 seconds. Voice videos stay at that steady speed until it reaches the voice's place, then follow the voice.
 - **Music beds:** without `--music`, one Suno bed is generated per spec file (`<stem>_music.mp3` next to it) and shared by its variations. Set `music_prompt` on the first variation to change the mood.
 - **ElevenLabs direct (2026-11-12):** the user added an ElevenLabs API key as the environment variable `ElevenLabKey`. Whenever it is set, `scroll_video.py` uses the ElevenLabs API directly first (`eleven_multilingual_v2`, Rachel for women and Brian for men, or `el_voice_id` in the spec), then falls back to Kie, then OpenAI. Use `--tts elevenlabs` to force it.
@@ -77,6 +83,7 @@ Use the writer spec in `ads/brands/comfortwear/output/scroll_videos/scripts/WRIT
 **Names:** dedupe them across the batch (narrators, messengers and towns) and against existing LF files. Never reuse a competitor's signature detail (for example Orthora's frozen peas).
 
 ## Delivery
+- **Replacing videos:** `--replace <map.json>` (local path → existing Drive link or file id) overwrites a file's content in place, so its link and the Notion links stay the same.
 - **Drive API uploader (2026-11-12):** `python ads/drive_upload.py --brand <brand> --folder-id <id> --names <map.json> <files>` uploads files of any size (resumable) and prints each Drive link. It needs `GDRIVE_CLIENT_ID`, `GDRIVE_CLIENT_SECRET` and `GDRIVE_REFRESH_TOKEN`, an OAuth refresh token for the Drive owner with the `drive` scope, set up through Google Cloud and the OAuth Playground. Use it instead of the Drive connector, which caps files at about 3 MB. The folder id and naming rule live in `brand.json → longform_program.scroll_videos`.
 
 - **Notion:** one card per angle, listing its 3 variations: script, caption, headline, landing page, Drive link.

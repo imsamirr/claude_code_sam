@@ -32,13 +32,15 @@ from PIL import Image, ImageDraw, ImageFont
 ADS = Path(__file__).resolve().parent
 FONT = ADS / "assets" / "fonts" / "Montserrat.ttf"
 KIE = "https://api.kie.ai/api/v1"
-W, H, FPS = 720, 1280, 30
+W, H, FPS = 1080, 1920, 60   # full-HD vertical; 60fps so the text can move exactly 1px per frame
 START_Y = 0.60      # the hook's top sits here at t=0 (fraction of H), like the examples
 READ_Y = 0.30       # a paragraph's top sits here when the voice starts reading it
 MUSIC_DB = -24      # music bed under the voice
 MUSIC_ONLY_DB = -6  # music bed when there is no voice ("audio": "music")
 MUSIC_WPS = 2.5     # reading pace (words per second) for music-only videos
 EASE_S = 6.0        # music-only: the text rises at a third of its speed for the first 6 seconds
+PX_PER_FRAME = 1    # music-only: steady scroll of exactly 1px per frame (60px/s): no stutter from fractional motion
+EASE_EVERY = 3      # during the ease-in the text moves 1px every 3 frames (20px/s)
 DEFAULT_MUSIC = ("soft, slow, emotional solo piano with a light ambient pad, intimate and reflective, "
                  "no drums, no vocals, understated, steady from start to end")
 TTS = "kie"         # "kie" (ElevenLabs via Kie, falls back to OpenAI) or "openai"
@@ -76,9 +78,11 @@ def veo_clip(prompt, dest):
 
 
 # ---------- still-image background (Kie nano-banana-pro) with a slow zoom ----------
-IMG_STYLE = ("A real, unremarkable vertical photo from a regular person's phone, edge to edge, no borders, no captions, no "
-             "text, no logos, no interface. Ordinary light, everything in focus, slightly imperfect framing. Calm, simple "
-             "composition with mid-to-dark tones and plenty of quiet space, because white text will sit on top of it. ")
+IMG_STYLE = ("A real, unedited vertical photo straight from a regular person's phone camera roll, edge to edge: no borders, "
+             "captions, text, logos, brand names or interface. Native phone-camera look, everything sharp front to back, a bit "
+             "of noise in the shadows, slightly crooked framing. The story's key object is large, sharp and clearly visible in the "
+             "UPPER HALF of the frame; the lower half is darker and simpler (a counter, a floor, a tabletop in shadow) because big "
+             "white text scrolls over it. Low-key, moody, realistic light; gross details stay realistic, never cartoonish. ")
 
 
 def still_image(prompt, dest):
@@ -231,9 +235,10 @@ def paragraphs(script):
 
 
 def layout(paras, color):
-    font = ImageFont.truetype(str(FONT), 46)
+    font = ImageFont.truetype(str(FONT), round(46 * W / 720))
     font.set_variation_by_name("ExtraBold")
-    maxw, lh, gap, stroke = int(W * 0.86), 56, 34, 5
+    k = W / 720
+    maxw, lh, gap, stroke = int(W * 0.86), round(56 * k), round(34 * k), round(5 * k)
     probe = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
     blocks = []
     for p in paras:
@@ -246,7 +251,7 @@ def layout(paras, color):
                 cur = t
         lines.append(cur)
         blocks.append(lines)
-    total = sum(len(b) * lh for b in blocks) + gap * (len(blocks) - 1) + 40
+    total = sum(len(b) * lh for b in blocks) + gap * (len(blocks) - 1) + round(40 * k)
     img = Image.new("RGBA", (W, total), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     tops, y = [], 10
@@ -254,7 +259,7 @@ def layout(paras, color):
         tops.append(y)
         for ln in lines:
             x = (W - d.textlength(ln, font=font)) / 2
-            d.text((x, y), ln, font=font, fill=color, stroke_width=stroke, stroke_fill=(0, 0, 0))
+            d.text((round(x), y), ln, font=font, fill=color, stroke_width=stroke, stroke_fill=(0, 0, 0))
             y += lh
         y += gap
     return img, tops, total
@@ -298,6 +303,19 @@ def scroll_expr(tops, starts, total_dur, text_h, constant=False):
         slope = (y1 - y0) / max(t1 - t0, 1e-3)
         expr = f"if(lt(t,{t1:.3f}),{y0:.2f}+({slope:.4f})*(t-{t0:.3f}),{expr})"
     return expr
+
+
+def integer_scroll(top0, text_h):
+    """Frame-exact y(n) for music-only videos: 1px every EASE_EVERY frames for EASE_S seconds, then PX_PER_FRAME px
+    every frame, ending with the last lines (CTA) resting mid-screen. Returns (ffmpeg expression in n, duration)."""
+    y0, end_y = round(START_Y * H - top0), round(H * 0.55 - text_h)
+    ef = int(EASE_S * FPS)
+    ease_px = ef // EASE_EVERY
+    steady_frames = max(0, (y0 - ease_px - end_y) // PX_PER_FRAME)
+    total_frames = ef + steady_frames + int(3 * FPS)  # 3s rest on the CTA
+    expr = (f"if(lt(n,{ef}),{y0}-floor(n/{EASE_EVERY}),"
+            f"max({end_y},{y0 - ease_px}-{PX_PER_FRAME}*(n-{ef})))")
+    return expr, total_frames / FPS
 
 
 # ---------- pipeline ----------
@@ -353,10 +371,10 @@ def build(spec, out_root, only=None, music=None):
     # paragraph start times: section start + share of its duration by word count
     starts, t = [], 0.6
     if music_only:
-        t = 2.5  # let the hook sit on screen before it starts moving
+        t = 2.5  # (paragraph start times are only informational for music-only videos)
         for p_ in paras:
             starts.append(t); t += len(p_.split()) / MUSIC_WPS + 0.45
-        total = t + 3.0
+        total = None  # set from the scroll distance once the text layer is laid out
     else:
         durs = [duration(p) for p in seg_paths]
         for g, du in zip(groups, durs):
@@ -371,7 +389,7 @@ def build(spec, out_root, only=None, music=None):
         if not img.exists() and only != "render":
             still_image(spec["background_image"], img)
         if only == "assets":
-            return None, total
+            return None, total or 0
     if only == "assets":
         for k, extra in enumerate(CLIP_ANGLES):
             c = d / f"bg_{k}.mp4"
@@ -394,7 +412,10 @@ def build(spec, out_root, only=None, music=None):
     color = {"yellow": (255, 236, 64), "white": (255, 255, 255)}.get(spec.get("text_color", "white"))
     img, tops, text_h = layout(paras, color)
     img.save(d / "text.png")
-    yexpr = scroll_expr(tops, starts, total, text_h, constant=music_only)
+    if music_only:
+        yexpr, total = integer_scroll(tops[0], text_h)
+    else:
+        yexpr = f"floor({scroll_expr(tops, starts, total, text_h)})"
     (d / "scroll_expr.txt").write_text(yexpr)
     # 4. voice track (silence for music-only videos)
     vo = d / "voice.m4a"
@@ -414,8 +435,8 @@ def build(spec, out_root, only=None, music=None):
     # 5. background loop: crossfade the clips, then loop to length
     bg = d / "bg_loop.mp4"
     if spec.get("background_image"):
-        if not (bg.exists() and duration(bg) >= total - 0.5):  # reuse the zoom loop when it is long enough
-            still_loop(d / "bg.jpg", total, bg)
+        bg = d / "bg_still.png"  # a still frame: no zoom, because zoompan's whole-pixel steps look jittery
+        Image.open(d / "bg.jpg").convert("RGB").resize((W, H), Image.LANCZOS).save(bg)
     elif len(clips) == 1:
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", clips[0], "-an", "-vf", f"scale={W}:{H},fps={FPS}", bg], check=True)
     else:
@@ -441,11 +462,12 @@ def build(spec, out_root, only=None, music=None):
     else:
         afc = "[2:a]anull[a]"
     vfc = (f"[0:v]eq=brightness=-0.06:saturation=0.95,format=yuv420p[bgv];"
-           f"[bgv][1:v]overlay=x=0:y='{yexpr}':eval=frame:shortest=0[v]")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", bg, "-loop", "1", "-i", d / "text.png",
+           f"[bgv][1:v]overlay=x=0:y='{yexpr}':eval=frame:shortest=0,fps={FPS}[v]")
+    bg_in = ["-loop", "1", "-framerate", str(FPS), "-i", str(bg)] if str(bg).endswith(".png") else ["-stream_loop", "-1", "-i", str(bg)]
+    subprocess.run(["ffmpeg", "-v", "error", "-y", *bg_in, "-loop", "1", "-framerate", str(FPS), "-i", d / "text.png",
                     *a_inputs, "-filter_complex", vfc + ";" + afc, "-map", "[v]", "-map", "[a]",
-                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast", "-crf", "23",
-                    "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", final], check=True)
+                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "medium", "-crf", "17",
+                    "-profile:v", "high", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", final], check=True)
     return final, total
 
 
