@@ -136,6 +136,7 @@ When an offer, claim or calendar changes:
 5. Commit.
 
 ## 4. Learning loop
+- **Weekly market study (Mondays, a scheduled task):** find other brands' long-form ads launched in the last 7 days in Atria (static ads with 2k+ characters of copy, 60s+ story videos, and especially scrolling-text videos). Study each brand's other ads in Atria or the Meta Ad Library, and re-check older hook-bank ads at 7, 14 and 30 days. Write `research/learning/market_study_<date>.md` and add test ideas to `ideas_backlog.md`. Then **update this skill** (playbook.md, scroll_videos.md, and SKILL.md for strongly evidenced rules only), citing evidence for every change, and log it in `CHANGELOG.md`. Thursday's batch reads the newest study.
 - **Ad names:** LF IDs go in ad names, so the next `longform` pull ties results back to each copy.
 - **Each run:** mark backlog ideas as `written`, then add next batch's table.
 - **Weekly:** fold what's working in `hook_loop_bank.csv` into `references/playbook.md`. That means hook types and open-loop types that survive, and which formats beat which in our account.

@@ -375,6 +375,8 @@
     ],
     "schedule_trigger_id": "trig_01AfktTkVKQdqBERXt1LoV5k",
     "output_dir": "output/longform",
-    "scroll_video_drive_folder": "1rdVCQGunFdbi3UPNo9F6guXJjfvrxjTE"
+    "scroll_video_drive_folder": "1rdVCQGunFdbi3UPNo9F6guXJjfvrxjTE",
+    "market_study_trigger_id": "trig_011ZJquwEETg3Es2LQseZ9jj",
+    "market_study_schedule": "Mondays 6:23am America/New_York: study other brands' new long-form (static + video), update the skill"
   }
 }
