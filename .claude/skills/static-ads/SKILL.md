@@ -166,6 +166,12 @@ Every pull writes a CSV to `research/data/`; contact-sheet it and **Read every p
 | `rivals` | What Hike + Stepprs are doing | `core_competitors`; image **and** video; active and inactive; both Atria orders (most impressions, best match); brand-matched; full copy kept | competitor → active first → days running (longest first) | `core_competitors_<date>.csv` |
 | `competitors` | Wider category | `competitor_brands` + `inspo_queries`; image and video | impression percentile | `competitor_ads.csv` |
 
+**Run every pull with `python ads/atria_pull.py all --brand <brand>` (user rule 2026-11-12).** It runs current, rising, winners, seasonal, wellness, rivals and rivals --wide
+one after another (Atria rate-limits per workspace, so never run pulls in parallel), honors `Retry-After` for up to 15 minutes per call, caches closed months for
+`winners`, writes CSVs atomically and records each pull in `research/data/pull_status.json`. **Read that file first**: a pull marked `FAILED` means its CSV is OLD
+(say so in the Slack summary and analysis.md; retry that one pull alone before continuing). Each pull also writes `data/new_since_last_<name>.csv` (ads not in the
+previous pull): look at those first so the research covers NEW ads, not just the current ones.
+
 How to use the wellness list: take formats **from the top of `growth_rank` in order**. Skip a row only if
 its format is already in `research/format_ledger.json`, it depends on another brand's licensed IP, or it
 needs a claim we can't make; write the skip reason in `analysis.md`. No picking by taste. A long-running
