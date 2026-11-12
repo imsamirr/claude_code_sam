@@ -8,3 +8,4 @@
   - From ComfortWear: HQ still-image scroll videos (now also used for `"audio": "music"` and `background_image` prompt specs), Veo QA checks, and the Notion hook-preview delivery.
 - Delivery: full scroll videos now go as download cards in the Claude chat (the user's choice). Notion cards carry the 30 s hook preview plus a note pointing to the chat; no Drive step.
 - ElevenLabs voice-over (env ElevenLabKey) for 1–2 concepts per run, hard-capped at 5,000 credits per run in scroll_video.py (Turbo v2.5, about 2,000 credits per video). Everything else stays music-only.
+- Full scroll videos now upload to Google Drive with `ads/drive_upload.py` (Drive API with the user's OAuth app; env GDRIVE_*), and each Notion card gets a per-video Drive download link. Chat download cards are the fallback.
