@@ -152,6 +152,32 @@ def tts_kie(text, gender, dest, wait=240, voice=None):
 EL_VOICES = {"female": "21m00Tcm4TlvDq8EpW7j", "male": "nPczCjzI2devNBz1zQrb"}  # ElevenLabs "Rachel" / "Brian"
 
 
+EL_MODEL = "eleven_turbo_v2_5"   # 0.5 credit per character (multilingual_v2 costs 1 per character)
+EL_RATE = {"eleven_turbo_v2_5": 0.5, "eleven_flash_v2_5": 0.5, "eleven_multilingual_v2": 1.0}
+VOICE_BUDGET = 5000              # max ElevenLabs credits per day (one routine run); user rule 2026-11-12
+
+
+def el_credits(text):
+    return int(len(text) * EL_RATE.get(EL_MODEL, 1.0)) + 1
+
+
+def budget_claim(out_root, credits):
+    """Reserve ElevenLabs credits in a per-day ledger shared by parallel processes. False if it would exceed the budget."""
+    import fcntl, datetime
+    ledger = out_root / "elevenlabs_credit_ledger.json"
+    ledger.touch(exist_ok=True)
+    with open(ledger, "r+") as f:
+        fcntl.flock(f, fcntl.LOCK_EX)
+        data = json.loads(f.read() or "{}")
+        day = datetime.date.today().isoformat()
+        used = data.get(day, 0)
+        if used + credits > VOICE_BUDGET:
+            return False, used
+        data[day] = used + credits
+        f.seek(0); f.truncate(); f.write(json.dumps(data, indent=1))
+        return True, used + credits
+
+
 def eleven_key():
     return os.getenv("ElevenLabKey") or os.getenv("ELEVENLABS_API_KEY")
 
@@ -162,7 +188,7 @@ def tts_eleven(text, gender, dest, voice_id=None):
     for attempt in range(5):
         r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{vid}?output_format=mp3_44100_128", timeout=300,
                           headers={"xi-api-key": eleven_key(), "Content-Type": "application/json"},
-                          json={"text": text, "model_id": "eleven_multilingual_v2",
+                          json={"text": text, "model_id": EL_MODEL,
                                 "voice_settings": {"stability": 0.45, "similarity_boost": 0.75, "style": 0.15}})
         if r.status_code not in (429, 500, 502, 503):
             break
@@ -282,6 +308,17 @@ def build(spec, out_root, only=None, music=None):
     gender = "male" if spec.get("voice", "").lower().startswith("male") else "female"
     paras = paragraphs(spec["script"])
     music_only = spec.get("audio") == "music"
+    if not music_only and only != "render" and (TTS == "elevenlabs" or (TTS == "kie" and eleven_key())) \
+            and not all((d / f"vo_{gi:02d}.mp3").exists() for gi in range(len(chunks(paras)))):
+        need = el_credits("\n\n".join(paras))
+        ok, used = budget_claim(out_root, need)
+        if not ok:
+            print(f"  {vid}: ElevenLabs budget ({VOICE_BUDGET} credits/day) would be exceeded "
+                  f"({used} used + {need} needed): rendering music-only", flush=True)
+            music_only = True
+            spec["audio_note"] = f"Voice skipped: ElevenLabs budget of {VOICE_BUDGET} credits per run reached."
+        else:
+            print(f"  {vid}: ElevenLabs credits reserved {need} (today {used}/{VOICE_BUDGET})", flush=True)
     # 1. voice by sections (skipped for music-only videos, which scroll at a fixed reading pace)
     groups = [] if music_only else chunks(paras)
     if only != "render" and not music_only:
@@ -413,6 +450,7 @@ def build(spec, out_root, only=None, music=None):
 
 
 def main():
+    global TTS, EL_MODEL, VOICE_BUDGET
     p = argparse.ArgumentParser()
     p.add_argument("--brand", default="comfortwear")
     p.add_argument("--spec", required=True)
@@ -420,10 +458,11 @@ def main():
     p.add_argument("--only", choices=["render", "assets"])
     p.add_argument("--tts", choices=["elevenlabs", "kie", "openai"], default="kie",
                    help="elevenlabs = direct API (env ElevenLabKey); kie also tries direct ElevenLabs first when that key is set")
+    p.add_argument("--el-model", default=EL_MODEL, choices=list(EL_RATE), help="ElevenLabs model (turbo = half the credits)")
+    p.add_argument("--voice-budget", type=int, default=VOICE_BUDGET, help="max ElevenLabs credits per day across all runs")
     p.add_argument("ids", nargs="*")
     a = p.parse_args()
-    global TTS
-    TTS = a.tts
+    TTS, EL_MODEL, VOICE_BUDGET = a.tts, a.el_model, a.voice_budget
     out_root = ADS / "brands" / a.brand / "output" / "scroll_videos"
     out_root.mkdir(parents=True, exist_ok=True)
     specs = json.loads(Path(a.spec).read_text())
