@@ -15,7 +15,9 @@ the story depends on is never left to the image model.
 """
 
 import argparse
+import base64
 import json
+from concurrent.futures import ThreadPoolExecutor
 import os
 import sys
 import time
@@ -36,11 +38,30 @@ MODEL = "nano-banana-pro"      # most photo-real on Kie.ai in a side-by-side tes
 FEED = (1080, 1350)            # 4:5 feed size; renders are 3:4 and centre-cropped to this
 
 
-def kie(key, prompt, size, res="1K"):
+UPLOAD = "https://kieai.redpandaai.co/api/file-base64-upload"
+REF_NOTE = (" The product in this photo MUST be the exact device in the attached reference image, unchanged in shape, ribbing, "
+            "color and wordmark; only the angle, lighting and setting change. Show no other products, boxes or packaging unless the scene asks for them. ")
+_ref_urls = {}
+
+
+def ref_url(key, path):
+    """Upload a reference photo to Kie's temporary file store once and return its URL."""
+    if path not in _ref_urls:
+        b64 = base64.b64encode(Path(path).read_bytes()).decode()
+        r = requests.post(UPLOAD, headers={"Authorization": f"Bearer {key}"}, timeout=120, json={
+            "base64Data": "data:image/png;base64," + b64, "uploadPath": "longform-refs", "fileName": Path(path).name}).json()
+        if not r.get("success"):
+            raise RuntimeError(r)
+        _ref_urls[path] = r["data"]["downloadUrl"]
+    return _ref_urls[path]
+
+
+def kie(key, prompt, size, refs=(), res="1K"):
     h = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
-    r = requests.post(f"{API}/createTask", headers=h, timeout=60, json={
-        "model": MODEL,
-        "input": {"prompt": STYLE + prompt, "aspect_ratio": size, "resolution": res}}).json()
+    inp = {"prompt": STYLE + prompt + (REF_NOTE if refs else ""), "aspect_ratio": size, "resolution": res}
+    if refs:
+        inp["image_input"] = list(refs)
+    r = requests.post(f"{API}/createTask", headers=h, timeout=60, json={"model": MODEL, "input": inp}).json()
     if r.get("code") != 200:
         raise RuntimeError(r)
     tid = r["data"]["taskId"]
@@ -112,31 +133,54 @@ def imessage(img, ov):
     return img
 
 
+def load_specs(out):
+    """specs.json plus any specs_*.json (one file per concept, so writers don't collide)."""
+    specs = {}
+    for f in sorted(out.glob("specs*.json")):
+        specs.update(json.loads(f.read_text()))
+    return specs
+
+
+def render(key, out, brand, rules, sid, s):
+    raw, final = out / f"{sid}_raw.png", out / f"{sid}.jpg"
+    prompt = s["prompt"] + (" Brand rules: " + "; ".join(rules) + "." if rules else "")
+    refs = []
+    if s.get("ref"):  # a colorway key from brand.json (e.g. "pod") or a path relative to the brand folder
+        cw = brand.get("colorways", {}).get(s["ref"], {})
+        refs = [ref_url(key, str(out.parents[2] / cw.get("file", s["ref"])))]
+    for attempt in range(3):
+        try:
+            raw.write_bytes(kie(key, prompt, s.get("size", "3:4"), refs))
+            break
+        except Exception as e:  # transient Kie failures: retry twice
+            print(f"{sid}: attempt {attempt + 1} failed: {e}", flush=True)
+            if attempt == 2:
+                return f"{sid}: FAILED"
+    img = phone_finish(Image.open(raw))
+    if s.get("overlay", {}) and s["overlay"].get("type") == "imessage":
+        img = imessage(img, s["overlay"])
+    img.convert("RGB").save(final, quality=84)  # re-compressed like a phone photo uploaded to Facebook
+    return f"{sid}: saved {final}"
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--brand", default="comfortwear")
-    p.add_argument("ids", nargs="*")
+    p.add_argument("--workers", type=int, default=6, help="parallel renders")
+    p.add_argument("ids", nargs="*", help="spec ids, or a concept prefix like DLF03")
     a = p.parse_args()
     out = Path(__file__).resolve().parent / "brands" / a.brand / "output" / "longform" / "images"  # <brand>/output/longform/images
-    specs = json.loads((out / "specs.json").read_text())
+    specs = load_specs(out)
     bfile = out.parents[2] / "brand.json"
-    rules = json.loads(bfile.read_text()).get("longform_program", {}).get("image_rules", []) if bfile.exists() else []
+    brand = json.loads(bfile.read_text()) if bfile.exists() else {}
+    rules = brand.get("longform_program", {}).get("image_rules", [])
     key = os.getenv("KIE_AI") or sys.exit("KIE_AI not set")
-    for sid, s in specs.items():
-        if a.ids and sid not in a.ids:
-            continue
-        raw, final = out / f"{sid}_raw.png", out / f"{sid}.jpg"
-        if final.exists() and not a.ids:
-            continue
-        print(f"{sid}: generating…", flush=True)
-        prompt = s["prompt"] + (" Brand rules: " + "; ".join(rules) + "." if rules else "")
-        raw.write_bytes(kie(key, prompt, s.get("size", "3:4")))
-        img = phone_finish(Image.open(raw))
-        if s.get("overlay", {}) and s["overlay"].get("type") == "imessage":
-            img = imessage(img, s["overlay"])
-        final = final.with_suffix(".jpg")
-        img.convert("RGB").save(final, quality=84)  # re-compressed like a phone photo uploaded to Facebook
-        print(f"  saved {final}")
+    todo = {sid: s for sid, s in specs.items()
+            if (any(sid == i or sid.startswith(i + "_") for i in a.ids) if a.ids else not (out / f"{sid}.jpg").exists())}
+    print(f"rendering {len(todo)} image(s) with {a.workers} workers", flush=True)
+    with ThreadPoolExecutor(a.workers) as ex:
+        for msg in ex.map(lambda kv: render(key, out, brand, rules, *kv), todo.items()):
+            print(msg, flush=True)
 
 
 if __name__ == "__main__":

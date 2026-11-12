@@ -1,0 +1,23 @@
+{
+ "DLF04_A": {
+  "copy": "Hook: Ray's teeth in the hospital cup at 9 p.m.",
+  "prompt": "Close-up of a pink plastic hospital cup on a beige tray table at night under a harsh overhead light: a full set of dentures in cloudy water, a slimy whitish film coating the teeth, yellow-brown buildup at the gumline, bits of food stuck between the teeth, a skin of scum on the water. A strip of tape on the cup with a handwritten name, too blurry to read. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF04_B": {
+  "copy": "The pride: Ray and Dot's 1973 wedding photo on the dresser at home, his reading glasses beside it, the reason he never let her see him without teeth.",
+  "prompt": "Phone photo taken at an angle from standing height of the top of an old honey-oak bedroom dresser in a modest Indiana farmhouse, winter afternoon light from a side window, a little overexposed. In the center, a framed 1970s wedding photo in a simple gold frame: a young lean man in a brown suit with wide lapels and a big toothy grin, and a young woman with a dark flipped hairdo in a plain white dress, slightly faded warm color print with a bit of glare on the glass. Around it: a man's folded handkerchief, a pocket knife, a small dish of coins, men's reading glasses, a bottle of hand lotion, a doily. IMPORTANT: realistic vintage print look, faces natural; no readable text, no logos, no brand names on the lotion bottle.",
+  "size": "3:4"
+ },
+ "DLF04_C": {
+  "copy": "The self-test: a thumbnail along the inside of Dad's plate.",
+  "prompt": "Extreme close-up of an old man's thumbnail scraping along the fitting side of an upper denture over a bathroom sink: a thick off-white smear of slimy film peeled up onto the thumbnail, yellowish residue left in the scraped line. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF04_D": {
+  "copy": "Proof: the first cycle with Dad's teeth.",
+  "ref": "pod_open",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A full upper denture sits in the murky water. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ }
+}

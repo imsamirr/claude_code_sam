@@ -36,6 +36,13 @@ python ads/scroll_video.py --brand <brand> --spec <variations.json> --music <bed
 | `offer_swaps`, `alt_hooks` | Dated offer replacements and alternate openings |
 | `text_color` | Optional: white or yellow |
 
+### Spec fields for still-image and music-only videos (from DentalPULSE, 2026-11; both brands)
+- **Background photo:** `background_image_prompt` (preferred) or `background_image` (older DentalPULSE specs put the prompt here; a path to an existing file is used as-is). It's rendered with Kie `nano-banana-pro` at 2K, then the HQ render below (no Veo). Keep the middle of the frame calm and mid-to-dark, because white text sits on it.
+- **`"audio": "music"`** (or `--no-voice`): no voice-over. It renders with the HQ still-image mode below (1 px per frame at 50 fps, about 2.2 words a second). Write these scripts with shorter paragraphs and more one-line cliffhangers.
+- **Scroll speed (user feedback 2026-11-12, both brands):** the text must rise slowly from the first frame, like the references, never jump. In HQ mode the hook starts at 60% height and rises at a steady 50 px/s. Voice videos stay at a steady speed until they reach the voice's place, then follow the voice.
+- **Music beds:** without `--music`, one Suno bed is generated per spec file (`<stem>_music.mp3` next to it) and shared by its variations. Set `music_prompt` on the first variation to change the mood.
+- **Voice availability (2026-11-12):** Kie's ElevenLabs models (turbo-2-5 and multilingual-v2) returned "Internal Error", and the OpenAI fallback needs account credits. Check both before a voice batch.
+
 ### What each stage does
 
 - **Voice:**
@@ -72,7 +79,7 @@ Use the writer spec in `ads/brands/comfortwear/output/scroll_videos/scripts/WRIT
 
 ## Delivery
 - **Notion:** one card per angle on the brand's board (Comfort Wear's is the "ComfortWear Video Board" database, data source `fc6096bb-…`), titled `LV01–03 | Scroll Video | <Angle>`. List the 3 variations on it, each with: story, headline, caption, the video, the full on-screen script, offer swaps and alternate hooks. Escape `$` as `\$` in the content, or Notion may read prices as math.
-- **Video files:** a 5-minute Veo render is 50–110MB. Compress a copy for Notion to about 18MB, under its 20MB single-part limit. Text stays sharp at this setting:
+- **Video files (superseded, see HQ mode below):** do NOT put an 18MB re-compressed full-length video on a card. The user rejected that quality. The command below is kept only for short clips:
   ```bash
   ffmpeg -i LVxx.mp4 -c:v libx264 -preset veryfast -b:v 380k -maxrate 420k -bufsize 840k -c:a aac -b:a 64k -movflags +faststart notion/LVxx.mp4
   ```

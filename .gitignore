@@ -32,3 +32,8 @@ ads/brands/*/output/scroll_videos/scripts/*.mp3
 ads/brands/*/output/scroll_videos/_rejected/
 ads/brands/*/output/scroll_videos/notion/
 ads/brands/*/output/scroll_videos/notion_hq/
+# scrolling long-form videos: finals go to Drive, intermediates are rebuildable
+ads/brands/*/output/scroll_videos/*.mp4
+ads/brands/*/output/scroll_videos/*/*.mp4
+ads/brands/*/output/scroll_videos/*/*.m4a
+ads/brands/*/output/scroll_videos/*/*.mp3

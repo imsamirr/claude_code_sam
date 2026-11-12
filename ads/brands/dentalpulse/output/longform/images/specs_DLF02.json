@@ -1,0 +1,23 @@
+{
+ "DLF02_A": {
+  "copy": "Hook: her aligner tray after a 3 p.m. iced coffee, held up to the window.",
+  "prompt": "A woman's fingers holding a clear Invisalign-style aligner tray up against a bright office window: the tray is cloudy and scratched, brown coffee staining pooled inside the tooth cups, a white chalky film and a stringy wet residue inside, tiny food bits caught in the edges. An iced coffee cup out of focus behind. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF02_B": {
+  "copy": "Rock bottom: her own X-ray at the final check, the dentist pointing at the cavities and the deep spot on the lower molar.",
+  "prompt": "Photo taken from the patient's dental chair, slightly reclined, looking up and to the side at a wall-mounted monitor in a dental operatory. The monitor shows a grayscale bitewing dental X-ray of back teeth with two small bright white fillings and a darker shadow on a lower molar. A dentist's gloved hand in a light blue nitrile glove points at the dark spot with a pen. The patient's knee in dark jeans and a paper bib edge are in the bottom corner of the frame. Flat overhead clinic light, beige cabinet, a box of gloves on the counter. IMPORTANT: no software interface text, no logos, no clinic name, no readable words anywhere on the screen or walls; the X-ray looks like a real dental radiograph. IMPORTANT: no boxes or packaging anywhere on the counter; nothing with printed brand names.",
+  "size": "3:4"
+ },
+ "DLF02_C": {
+  "copy": "The failed routine: the tray dropped on a caf\u00e9 napkin, coffee-soaked.",
+  "prompt": "A cloudy, scratched clear aligner tray lying on a coffee-stained paper napkin on a caf\u00e9 table next to a sweating iced coffee; the inside of the tray has a brown coffee film and white crusty buildup. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF02_D": {
+  "copy": "Proof: the first cycle with her trays.",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A pair of clear aligner trays sits in the murky water. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}

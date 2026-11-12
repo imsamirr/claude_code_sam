@@ -1,0 +1,23 @@
+{
+ "DLF03_A": {
+  "copy": "Hook: the hinge of the night guard case under Marcus's flashlight.",
+  "prompt": "Extreme close-up of an open plastic night guard case under a phone flashlight: dense black mold specks and fuzzy grey-green growth packed into the hinge and along the inner rim, a slimy wet film pooled in the bottom, the clear night guard inside is cloudy and yellowed with dark specks on it. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF03_B": {
+  "copy": "The analogy: the front-load washer door seal pulled back.",
+  "prompt": "A hand pulling back the rubber door seal of a front-load washing machine: thick black mold, slimy grey gunk and hair packed inside the fold, wet and glistening. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF03_C": {
+  "copy": "Dana's 'morning': 3 p.m. in February, kitchen, navy scrub top and pajama pants, mug of tea, hand at her throat, tired.",
+  "prompt": "Phone photo taken by her husband from across a small kitchen at 3 p.m. on a gray February afternoon, flat cold daylight from a window over the sink, overhead light on. A 42-year-old white woman with shoulder-length brown hair in a messy clip, no makeup, tired eyes, wearing a navy blue scrub top over gray pajama pants and thick socks, leans against the counter holding a plain white mug of tea in one hand and touching the front of her throat with the other, mid-swallow, grimacing slightly. On the counter: a bag of throat lozenges with no readable label, a small plastic humidifier box flattened for recycling, a hospital-style lanyard with a blank badge, car keys. Snow-dusted backyard through the window. IMPORTANT: the badge and every package are blank, no readable text or logos; she looks sick and worn out, not glamorous.",
+  "size": "3:4"
+ },
+ "DLF03_D": {
+  "copy": "Proof: the first cycle with her night guard.",
+  "ref": "pod_open",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A clear night guard sits in the murky water. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ }
+}

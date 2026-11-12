@@ -1,0 +1,23 @@
+{
+ "DLF06_A": {
+  "copy": "Hook: Mike's night guard pulled from the truck door pocket.",
+  "prompt": "A rough work-scarred man's hand holding a night guard up to the camera inside a pickup truck: the guard is yellowed and cloudy with brownish stains, sawdust stuck to a slimy film, dark grime in the tooth grooves; the open, dirty case sits in the door pocket with sawdust and a carpenter pencil. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF06_B": {
+  "copy": "The failure: Mike in the hospital bed watching the game on his phone.",
+  "prompt": "Hospital room at night, harsh fluorescent light: a tired, unshaven man of 37 in a hospital gown, nasal oxygen tubing, pulse clip on his finger, watching a phone in his hand, an untouched tray of food and a plastic water cup beside him. Plain room, no logos, no signs. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF06_C": {
+  "copy": "The self-test: on the tailgate at dawn, a plain white paper towel with a yellowish slick smear next to the night guard he just wiped.",
+  "prompt": "Phone photo looking down at the lowered tailgate of a dusty pickup truck at dawn in a Tennessee driveway in late February, cold blue light with a little frost on the grass at the edge of the frame. On the tailgate lies a single unfolded plain white paper towel with a clear yellowish, slightly greasy smear across the middle, and next to it a clear hard acrylic upper night guard (a thin horseshoe-shaped tray that covers only the biting surfaces of the upper teeth, with the faint impressions of the teeth on the inside, no wires, no straps). A man's work-roughened hand rests near it, holding a steaming plain metal coffee thermos. A folded tool belt lies at the edge of the frame. IMPORTANT: the smear is subtle and realistic, pale yellow-beige, not brown or bloody; the night guard is anatomically realistic. No logos, truck badges or readable text anywhere; the tailgate is plain. IMPORTANT: the white paper towel shows a clearly visible streak of yellowish-brown film where it was wiped inside the guard.",
+  "size": "3:4"
+ },
+ "DLF06_D": {
+  "copy": "Proof: the first cycle with his night guard.",
+  "ref": "pod_open",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A night guard sits in the murky water; work gloves and truck keys beside the Pod. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ }
+}

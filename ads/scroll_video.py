@@ -37,6 +37,8 @@ START_Y = 0.60      # the hook's top sits here at t=0 (fraction of H), like the 
 READ_Y = 0.30       # a paragraph's top sits here when the voice starts reading it
 MUSIC_DB = -24      # music bed under the voice
 NO_VOICE = False    # --no-voice: music-only render
+DEFAULT_MUSIC = ("soft, slow, emotional solo piano with a light ambient pad, intimate and reflective, "
+                 "no drums, no vocals, understated, steady from start to end")
 TTS = "kie"         # "kie" (ElevenLabs via Kie, falls back to OpenAI) or "openai"
 CLIP_ANGLES = ["", ""]  # two takes of the SAME prompt = two moments of one place, crossfaded and looped
 
@@ -212,14 +214,17 @@ HQ_W, HQ_H, HQ_FPS = 1080, 1920, 50   # still-image renders: full HD, 1 px per f
 
 def still_image(spec, d):
     """The video's own background photo (never shared across videos): a 2K Kie nano-banana-pro render, cropped to 9:16."""
-    if spec.get("background_image"):
-        src = Path(spec["background_image"])
+    bi = spec.get("background_image")
+    prompt = spec.get("background_image_prompt")
+    if bi and Path(bi).exists():
+        src = Path(bi)
     else:
+        prompt = prompt or bi  # older specs (DentalPULSE) put the photo prompt in "background_image"
         src = d / "bg_still_raw.png"
         if not src.exists():
             sys.path.insert(0, str(ADS))
             from longform_images import kie as kie_image
-            src.write_bytes(kie_image(os.environ["KIE_AI"], spec["background_image_prompt"], "9:16", "2K"))
+            src.write_bytes(kie_image(os.environ["KIE_AI"], prompt, "9:16", res="2K"))
     out = d / "bg_still.png"
     im = Image.open(src).convert("RGB")
     w, h = im.size
@@ -359,6 +364,8 @@ def build(spec, out_root, only=None, music=None):
     d.mkdir(parents=True, exist_ok=True)
     gender = "male" if spec.get("voice", "").lower().startswith("male") else "female"
     paras = paragraphs(spec["script"])
+    if NO_VOICE or spec.get("audio") == "music":  # music-only: still photo + HQ scroll, no TTS
+        return build_music_only(spec, d, out_root, paras, only, music)
     # 1. voice by sections
     groups = chunks(paras)
     if only != "render":
@@ -483,6 +490,12 @@ def main():
     out_root.mkdir(parents=True, exist_ok=True)
     specs = json.loads(Path(a.spec).read_text())
     music = a.music
+    if not music:  # one Suno bed per spec file, shared by its variations (generated once, then reused)
+        bed = Path(a.spec).with_name(Path(a.spec).stem + "_music.mp3")
+        if not bed.exists():
+            print(f"music bed: generating {bed.name}", flush=True)
+            suno(specs[0].get("music_prompt", DEFAULT_MUSIC), bed)
+        music = str(bed)
     for s in specs:
         if a.ids and s["id"] not in a.ids:
             continue

@@ -18,7 +18,8 @@
     "invented counts: customers, units sold, reviews, 'X,000 dentists'; press logos or other awards",
     "a strike-through 'was' price other than the store's compare-at prices ($180 Pod Denture Bundle, $300 Ultimate Cleaning Bundle)",
     "naming or showing logos of competitor ultrasonic pods (Zima, Sonic Dental, GuruNanda, oPro, Novapod): show them unbranded",
-    "medical treatment claims (cures infections, prevents disease)"
+    "medical treatment claims (cures infections, prevents disease)",
+    "that the Pod fits sleep apnea devices or large/bulky appliances (user 2026-11-11: may be too big)"
   ],
   "colorways": {
     "pod": {
@@ -193,7 +194,8 @@
     "Clinicians' Choice badge: a clean gold/navy seal reading \"Clinicians' Choice\"",
     "120-day money-back guarantee (\"120-Day Money-Back Guarantee\", \"Try it risk-free for 120 days\")",
     "40% OFF sale: \"40% OFF\" with the current price \"$99.95\" (do not invent a strike-through original price)",
-    "Bundle prices from the store: Pod Denture Bundle $99.95 (compare-at $180, save $80, 3 free gifts); Ultimate Cleaning Bundle $169.95 (compare-at $300, save $130)"
+    "Bundle prices from the store: Pod Denture Bundle $99.95 (compare-at $180, save $80, 3 free gifts); Ultimate Cleaning Bundle $169.95 (compare-at $300, save $130)",
+    "Medical-grade UV-C light (user 2026-11-11)"
   ],
   "claims_note": "User Oct 11: be aggressive with approved_claims. Later Oct 11: dentist endorsements, Clinicians' Choice badge, 120-day money-back guarantee and the 40% OFF sale ($99.95 current price) approved. Still unconfirmed: shipping speed/free shipping, customer or units-sold counts, dentist counts, review counts, press logos.",
   "old_methods": {
@@ -244,5 +246,102 @@
       "best_for": "aligners, retainers, night guards (home + on the go)",
       "colorway": "ultimate_bundle"
     }
+  },
+  "confirmed_claims": {
+    "guarantee": "120-day money-back guarantee",
+    "offer": "40% OFF ($99.95) with a FREE travel bag and FREE dental case",
+    "confirmed_by_user": "2026-11-11",
+    "see_also": "approved_claims",
+    "uv_c": "Medical-grade UV-C light (approved 2026-11-11)"
+  },
+  "longform_offers": [
+    {
+      "name": "40% OFF + free gifts (evergreen)",
+      "start": "2026-11-11",
+      "end": null,
+      "line": "40% off ($99.95) plus a free travel bag and a free dental case",
+      "note": "Evergreen (user 2026-11-11): no end date, no deadline or countdown wording, no seasonal swaps. Gifts: free travel bag + free dental case."
+    }
+  ],
+  "longform_program": {
+    "split": "Batch 1 (user 2026-11-11): 10 NET-NEW concepts, 0 iterations (few proven DentalPULSE winners). Later batches: revisit once LF results exist.",
+    "weekly_output": 10,
+    "images_per_concept": 4,
+    "ids": "DLF<nn> in ad names (DentalPULSE long-form), start at DLF01",
+    "atria_account": "Dentalpulse",
+    "category_terms": [
+      "denture cleaner",
+      "retainer cleaner",
+      "night guard",
+      "aligner cleaner",
+      "invisalign",
+      "dentures",
+      "ultrasonic cleaner",
+      "teeth grinding",
+      "denture tablets",
+      "oral care"
+    ],
+    "competitors_longform": [
+      "MyNovaPod",
+      "Ploise",
+      "Zima Dental",
+      "Remi (Remi Dental)",
+      "Sonic Dental"
+    ],
+    "swipe_scope": "User 2026-11-11: don't limit to direct competitors. Swipe other niches and other dental/oral products.",
+    "owner_angle_ideas": [
+      "dental tablets contain chemicals (controversial)",
+      "cavities and root canals from uncleaned night guards/retainers/aligners",
+      "respiratory issues from night guards"
+    ],
+    "feedback_sheet": {
+      "name": "DentalPULSE feedback",
+      "file_id": "1xepNvWovrheKwSm76mchUfZbJ_GfF2f6uIwk5HLOKKU",
+      "gid": "1964641186"
+    },
+    "reddit": {
+      "subreddits": [
+        "Invisalign",
+        "orthodontics",
+        "braces",
+        "bruxism",
+        "TMJ",
+        "Dentures",
+        "Dentistry",
+        "askdentists",
+        "SleepApnea",
+        "CPAP",
+        "AgingParents",
+        "CaregiverSupport"
+      ],
+      "access_note": "reddit.com blocked from the cloud; use WebSearch site:reddit.com and archive mirrors"
+    },
+    "notion": {
+      "data_source": "collection://e2de1c8a-2656-4808-a62e-ac2f7196310e",
+      "board_name": "🦷 DentalPULSE Creative Board",
+      "title_format": "DLF<nn> | Long-Form Static | <Story> (<Angle>)",
+      "properties": {
+        "Stage": "In Review",
+        "Strategist": "Samir"
+      }
+    },
+    "landing_pages": {},
+    "image_rules": [
+      "no competitor or brand logos or packaging of any kind",
+      "appliances anatomically correct; no distorted mouths or teeth",
+      "the Pod only when the story reaches it, exact reference look",
+      "season and clothing match the story",
+      "no sleep apnea devices or other oversized appliances in the Pod (may not fit; user 2026-11-11)",
+      "no dates, timestamps or text in the corners",
+      "every toiletry, box, bottle and package is plain white or plain grey with no printing, labels or brand names"
+    ],
+    "learning": {
+      "transcription": "Not authorized yet for DentalPULSE: use free transcripts only."
+    },
+    "output_dir": "output/longform",
+    "schedule": "Weekly, Thursday; starts 5:34 AM America/New_York so the batch is ready by 8:00 AM (user asked for Thursday 8am ET)",
+    "disease_angles": "User 2026-11-11: be as aggressive as possible on disease topics (pneumonia, aspiration pneumonia, denture stomatitis, mold, cavities). Disease facts come through the narrator's diagnosis and attributed, real research; the product claims stay its approved mechanical claims (99.9% bacteria, 42,000 Hz, medical-grade UV-C, tap water). Never write that DentalPULSE cures, treats or prevents a named disease (ad rejection/FTC risk). Update 2026-11-11 (user, on DLF06): compliance is not a concern for disease angles; go as aggressive as possible. Narrators can blame the appliance outright and report their health outcome without hedging or honest-ceiling lines.",
+    "schedule_trigger_id": "trig_01VF6YyHQywStphEunbFLygY",
+    "feedback_use": "User 2026-11-11: use the feedback sheet to find angles and customer language only. Don't raise compliance issues or business fixes from it (e.g. checkout upsells)."
   }
 }

@@ -1,0 +1,23 @@
+{
+ "DLF08_A": {
+  "copy": "Hook: Jake's retainer case opened in the car.",
+  "prompt": "Close-up of a teenager's open plastic retainer case in someone's hand in the back seat of a car: a cloudy clear retainer with chalky white crust in the ridges, a brownish slimy film pooled in the bottom of the case, crumbs and lint stuck to it. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF08_B": {
+  "copy": "The failed fix: the baking-soda scrub.",
+  "prompt": "Close-up of a clear retainer on a bathroom counter after a baking-soda scrub: deeply scratched and frosted cloudy, white flaky crust in the grooves, gritty baking soda paste smeared around it, a splayed old toothbrush beside it. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4"
+ },
+ "DLF08_C": {
+  "copy": "The smell in the car: Jake's backpack in the back seat with the retainer case clipped to the strap, the window cracked.",
+  "prompt": "Phone photo taken from the driver's seat, turned around toward the back seat of a family SUV on an October evening after school. A black school backpack sits on the seat with a small plastic retainer case clipped to the shoulder strap with a carabiner. A rolled-up sports hoodie and a water bottle next to it. The rear passenger window is cracked open a few inches; outside, dusk and bare-ish trees with orange leaves. Dome light on, slightly grainy. IMPORTANT: no people's faces, no logos on the backpack, case or car, no readable text.",
+  "size": "3:4"
+ },
+ "DLF08_D": {
+  "copy": "Proof: the first cycle with Jake's retainer.",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A clear retainer sits in the murky water. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}
