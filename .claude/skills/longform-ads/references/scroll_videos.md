@@ -77,6 +77,8 @@ Use the writer spec in `ads/brands/comfortwear/output/scroll_videos/scripts/WRIT
 **Names:** dedupe them across the batch (narrators, messengers and towns) and against existing LF files. Never reuse a competitor's signature detail (for example Orthora's frozen peas).
 
 ## Delivery
+- **Drive API uploader (2026-11-12):** `python ads/drive_upload.py --brand <brand> --folder-id <id> --names <map.json> <files>` uploads files of any size (resumable) and prints each Drive link. It needs `GDRIVE_CLIENT_ID`, `GDRIVE_CLIENT_SECRET` and `GDRIVE_REFRESH_TOKEN`, an OAuth refresh token for the Drive owner with the `drive` scope, set up through Google Cloud and the OAuth Playground. Use it instead of the Drive connector, which caps files at about 3 MB. The folder id and naming rule live in `brand.json → longform_program.scroll_videos`.
+
 - **Notion:** one card per angle, listing its 3 variations: script, caption, headline, landing page, Drive link.
 - **Video files:** 5-minute videos are 50–90MB, over Notion's 20MB single-part limit and too big for git. Upload them to the brand's Drive folder with `create_file` and a `sha256:<hash>:<path>` file reference (each needs the user's approval), and link them from the cards.
 - **Sample:** send one video with SendUserFile.

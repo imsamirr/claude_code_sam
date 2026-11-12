@@ -348,7 +348,8 @@
       "structure": "4 angles x 3 variations, DV numbering",
       "audio": "1-2 videos per run with ElevenLabs voice-over (eleven_turbo_v2_5) + music, the rest music only. Hard cap: 5,000 ElevenLabs credits per run (user 2026-11-12); --voice-budget enforces it.",
       "background": "still image (background_image) with slow zoom",
-      "delivery": "full files as SendUserFile download cards (Drive uploads from a session are capped at ~3 MB); one Notion card per angle"
+      "delivery": "Upload full-quality videos with ads/drive_upload.py (Drive API, env GDRIVE_CLIENT_ID/SECRET/REFRESH_TOKEN, full drive scope) into the Drive folder 'DentalPULSE - LFS Video' (drive_folder_id below), each file named '<Notion card title without (3 variations)> - DV<nn> <title>.mp4', and put each file's Drive link under its variation on the Notion card. SendUserFile only as a fallback if the upload fails.",
+      "drive_folder_id": "1Lh1fDwGSW9OnLrsrsj_-WtYKGzfX7gBO"
     }
   }
 }

@@ -56,12 +56,12 @@ def folder_id(tok, name, parent=None):
     return requests.post(f"{API}/files", headers=h, json=body, params={"fields": "id"}, timeout=60).json()["id"]
 
 
-def upload(tok, path, parent, mime="video/mp4"):
+def upload(tok, path, parent, mime="video/mp4", name=None):
     size = path.stat().st_size
     h = {"Authorization": f"Bearer {tok}", "Content-Type": "application/json; charset=UTF-8",
          "X-Upload-Content-Type": mime, "X-Upload-Content-Length": str(size)}
     r = requests.post(f"{UPLOAD}?uploadType=resumable&fields=id,webViewLink", headers=h, timeout=60,
-                      data=json.dumps({"name": path.name, "parents": [parent]}))
+                      data=json.dumps({"name": name or path.name, "parents": [parent]}))
     r.raise_for_status()
     session = r.headers["Location"]
     with open(path, "rb") as f:
@@ -87,16 +87,19 @@ def main():
     p.add_argument("--folder", help="folder name (default: '<Brand> Long-Form Videos (auto)')")
     p.add_argument("--subfolder", help="optional subfolder, e.g. the batch date 2026-11-19")
     p.add_argument("--check", action="store_true", help="only verify the credentials and the folder")
+    p.add_argument("--folder-id", help="upload into this existing Drive folder (needs the full drive scope)")
+    p.add_argument("--names", help="JSON file mapping local path -> Drive file name")
     p.add_argument("files", nargs="*")
     a = p.parse_args()
     tok = access_token()
-    root = folder_id(tok, a.folder or f"{a.brand.capitalize()} Long-Form Videos (auto)")
+    root = a.folder_id or folder_id(tok, a.folder or f"{a.brand.capitalize()} Long-Form Videos (auto)")
     parent = folder_id(tok, a.subfolder, root) if a.subfolder else root
+    names = json.loads(Path(a.names).read_text()) if a.names else {}
     if a.check:
         print(f"ok: credentials work; folder https://drive.google.com/drive/folders/{parent}")
         return
     for f in a.files:
-        link = upload(tok, Path(f), parent)
+        link = upload(tok, Path(f), parent, name=names.get(f))
         print(f"{f}\t{link}", flush=True)
 
 
