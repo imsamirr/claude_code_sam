@@ -36,6 +36,12 @@ python ads/scroll_video.py --brand <brand> --spec <variations.json> --music <bed
 | `offer_swaps`, `alt_hooks` | Dated offer replacements and alternate openings |
 | `text_color` | Optional: white or yellow |
 
+### Still-image backgrounds and music-only videos (added for DentalPULSE, 2026-11)
+- **`background_image`** (instead of `background`): a prompt for one calm, mid-to-dark 9:16 phone photo of the narrator's world. It's rendered with Kie `nano-banana-pro` at 2K, then given a slow breathing zoom over the whole video (no Veo). Keep the middle of the frame quiet, because white text sits on it.
+- **`"audio": "music"`**: no voice-over. The text scrolls at a fixed reading pace (`MUSIC_WPS` = 2.5 words a second, with the hook held for 2.5 seconds) and the music bed plays at −6 dB. Write these scripts with shorter paragraphs and more one-line cliffhangers.
+- **Music beds:** without `--music`, one Suno bed is generated per spec file (`<stem>_music.mp3` next to it) and shared by its variations. Set `music_prompt` on the first variation to change the mood.
+- **Voice availability (2026-11-12):** Kie's ElevenLabs models (turbo-2-5 and multilingual-v2) returned "Internal Error", and the OpenAI fallback needs account credits. Check both before a voice batch.
+
 ### What each stage does
 
 - **Voice:**
