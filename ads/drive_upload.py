@@ -4,6 +4,7 @@ Credentials come from the environment (the user's own OAuth app + refresh token,
     GDRIVE_CLIENT_ID, GDRIVE_CLIENT_SECRET, GDRIVE_REFRESH_TOKEN
 
     python ads/drive_upload.py --folder <folderId> file1.mp4 file2.mp4 ...   # prints JSON lines: name, id, link
+    python ads/drive_upload.py --folder <folderId> 'LV01.mp4::LV01 - <Concept title> - <Angle>.mp4'   # name it like the Notion card
     python ads/drive_upload.py --folder <folderId> --check                     # verify access to the folder
 
 Re-uploading a name that already exists in the folder updates that file in place (same link), so links on
@@ -43,17 +44,18 @@ def find(tok, folder, name):
     return files[0]["id"] if files else None
 
 
-def upload(tok, folder, path, mime="video/mp4"):
+def upload(tok, folder, path, mime="video/mp4", name=None):
     path = Path(path)
+    name = name or path.name
     size = path.stat().st_size
-    existing = find(tok, folder, path.name)
+    existing = find(tok, folder, name.replace("'", "\\'"))
     h = {"Authorization": f"Bearer {tok}", "Content-Type": "application/json; charset=UTF-8",
          "X-Upload-Content-Type": mime, "X-Upload-Content-Length": str(size)}
     if existing:
         r = requests.patch(f"{UPLOAD}/{existing}?uploadType=resumable&supportsAllDrives=true", headers=h, json={}, timeout=60)
     else:
         r = requests.post(f"{UPLOAD}?uploadType=resumable&supportsAllDrives=true", headers=h,
-                          json={"name": path.name, "parents": [folder]}, timeout=60)
+                          json={"name": name, "parents": [folder]}, timeout=60)
     r.raise_for_status()
     session = r.headers["Location"]
     pos = 0
@@ -100,7 +102,8 @@ def main():
         return
     for f in a.files:
         t0 = time.time()
-        res = upload(access_token(), a.folder, f)  # fresh token per file (access tokens last 1 hour)
+        path, _, name = f.partition("::")  # "LV01.mp4::LV01 - The Woman on the Boat - Europe Travel Shoe Test.mp4"
+        res = upload(access_token(), a.folder, path, name=name or None)  # fresh token per file (tokens last 1 hour)
         res["secs"] = round(time.time() - t0)
         print(json.dumps(res), flush=True)
 
