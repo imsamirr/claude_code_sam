@@ -235,6 +235,76 @@ def still_image(spec, d):
     return out
 
 
+# ---------- ElevenLabs voice-over (direct API, key in env ElevenLabKey) with a hard per-run credit cap ----------
+EL_MODEL = "eleven_turbo_v2_5"          # half the credits of multilingual_v2 (0.5 credit per character)
+EL_RATE = 0.5                           # credits per character for EL_MODEL
+EL_BUDGET = int(os.getenv("ELEVENLABS_RUN_BUDGET", "5000"))   # user rule 2026-11-12: max 5,000 credits per run
+EL_MAX_VOICED = int(os.getenv("ELEVENLABS_MAX_VOICED", "2"))  # and only 1-2 voiced concepts per run
+EL_VOICES = {"Rachel": "21m00Tcm4TlvDq8ikWAM", "Matilda": "XrExE9yKIg1WjnnlVkGX", "Aria": "9BWtsMINqrJLrRacOk9x",
+             "Jessica": "cgSgspJ2msm6clMCkdW9", "Laura": "FGY2WhTYpPnrIDTdsKH5"}
+
+
+def el_key():
+    return os.getenv("ElevenLabKey") or os.getenv("ELEVENLABS_API_KEY")
+
+
+def el_voice_for(spec):
+    """spec["el_voice"] wins; otherwise pick by the narrator's age in spec["voice"] (e.g. "female, ~60s")."""
+    if spec.get("el_voice") in EL_VOICES:
+        return spec["el_voice"]
+    m = re.search(r"(\d{2})", spec.get("voice", ""))
+    age = int(m.group(1)) if m else 50
+    return "Matilda" if age >= 55 else ("Jessica" if age < 42 else "Rachel")
+
+
+def speech_text(paras):
+    """The on-screen story, normalized so TTS reads symbols naturally."""
+    t = "\n\n".join(paras)
+    t = t.replace("HSA/FSA", "HSA and FSA").replace("100%", "one hundred percent").replace("%", " percent")
+    return t
+
+
+def el_ledger(out_root):
+    """Credits spent today (UTC), shared by every invocation in a batch run (the batch renders one video per call)."""
+    f = out_root / "_elevenlabs_ledger.json"
+    day = time.strftime("%Y-%m-%d", time.gmtime())
+    data = json.loads(f.read_text()) if f.exists() else {}
+    return f, day, data, data.get(day, {"credits": 0, "videos": []})
+
+
+def el_voiceover(spec, d, out_root, paras):
+    """Return (path, seconds) of the voice track, or None if there is no key, no request, or it would break the budget."""
+    if not spec.get("voiceover") or not el_key():
+        return None
+    text = speech_text(paras)
+    cost = round(len(text) * EL_RATE)
+    f, day, data, today = el_ledger(out_root)
+    if spec["id"] not in today["videos"]:
+        if len(today["videos"]) >= EL_MAX_VOICED or today["credits"] + cost > EL_BUDGET:
+            print(f"  voice-over skipped for {spec['id']}: today {today['credits']} credits / {len(today['videos'])} videos, "
+                  f"this one ~{cost} (cap {EL_BUDGET} credits, {EL_MAX_VOICED} videos) -> music only", flush=True)
+            return None
+    out = d / "voice_el.mp3"
+    if not out.exists():
+        name = el_voice_for(spec)
+        r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{EL_VOICES[name]}?output_format=mp3_44100_128",
+                          headers={"xi-api-key": el_key()}, timeout=600,
+                          json={"text": text, "model_id": EL_MODEL,
+                                "voice_settings": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.25,
+                                                   "use_speaker_boost": True}})
+        if not r.ok:
+            print(f"  ElevenLabs failed ({r.status_code}): {r.text[:200]} -> music only", flush=True)
+            return None
+        out.write_bytes(r.content)
+        today["credits"] += cost
+        today["videos"].append(spec["id"])
+        data[day] = today
+        f.write_text(json.dumps(data, indent=1))
+        (d / "voice_engine.txt").write_text(f"ElevenLabs {EL_MODEL} {name}, ~{cost} credits")
+        print(f"  voice-over: ElevenLabs {name}, ~{cost} credits (today {today['credits']}/{EL_BUDGET})", flush=True)
+    return out, duration(out)
+
+
 def build_still(spec, d, out_root, paras, music):
     """High-quality music-only render: a still photo, the story scrolling exactly 1 px per frame (no shimmer from
     sub-pixel rounding), 1080x1920, near-lossless text. The text is the ad, so the bits go to the text."""
@@ -255,20 +325,31 @@ def build_still(spec, d, out_root, paras, music):
     y0 = round(START_Y * HQ_H - tops[0])   # text-layer top at t=0 (the hook sits in the lower half)
     y1 = round(HQ_H * 0.55 - text_h)       # the CTA rests mid-screen at the end
     moving = y0 - y1                         # frames of movement (1 px each)
-    total = moving / HQ_FPS + 3.0            # then a 3 s hold on the CTA
+    voice = el_voiceover(spec, d, out_root, paras)
+    fps = HQ_FPS
+    if voice:  # keep exactly 1 px per frame, and pick the frame rate so the scroll lasts as long as the narration
+        fps = max(24, min(60, round(moving / (voice[1] + 1.0))))
+    total = max(moving / fps + 3.0, (voice[1] + 2.5) if voice else 0)   # then a hold on the CTA
     final = out_root / f"{vid}.mp4"
     music = music or (d / "music.mp3")
     # a light blur on the photo: detailed textures (cobblestones) behind moving text otherwise double the file size
-    fc = (f"[0:v]gblur=sigma=2,eq=brightness=-0.05:saturation=0.95,format=yuv420p,loop=-1:1:0,fps={HQ_FPS}[bgv];"
-          f"[1:v]loop=-1:1:0,fps={HQ_FPS},crop={HQ_W}:{HQ_H}:0:'{HQ_H - y0}+min(n,{moving})'[tx];"
-          f"[bgv][tx]overlay=0:0:format=yuv420,format=yuv420p[v];"
-          f"[2:a]volume=0.55,afade=t=in:st=0:d=1.5,afade=t=out:st={total - 3:.2f}:d=3[a]")
+    fc = (f"[0:v]gblur=sigma=2,eq=brightness=-0.05:saturation=0.95,format=yuv420p,loop=-1:1:0,fps={fps}[bgv];"
+          f"[1:v]loop=-1:1:0,fps={fps},crop={HQ_W}:{HQ_H}:0:'{HQ_H - y0}+min(n,{moving})'[tx];"
+          f"[bgv][tx]overlay=0:0:format=yuv420,format=yuv420p[v];")
+    inputs = ["-i", bg, "-i", d / "text_hq.png", "-stream_loop", "-1", "-i", str(music)]
+    if voice:  # narration up front, the music bed far underneath
+        inputs += ["-i", str(voice[0])]
+        fc += (f"[2:a]volume=0.12,afade=t=in:st=0:d=1.5,afade=t=out:st={total - 3:.2f}:d=3[m];"
+               f"[3:a]adelay=400|400,apad[vo];[vo][m]amix=inputs=2:duration=longest:normalize=0[a]")
+    else:
+        fc += f"[2:a]volume=0.55,afade=t=in:st=0:d=1.5,afade=t=out:st={total - 3:.2f}:d=3[a]"
     # CRF 27: text stays crisp (checked against CRF 20 on zoomed crops), ~3 Mbps, ~130-150 MB for 5.5 min
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", bg, "-i", d / "text_hq.png",
-                    "-stream_loop", "-1", "-i", str(music), "-filter_complex", fc, "-map", "[v]", "-map", "[a]",
+    subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", fc, "-map", "[v]", "-map", "[a]",
                     "-t", f"{total:.2f}", "-c:v", "libx264", "-preset", "fast", "-crf", "27", "-maxrate", "4500k", "-bufsize", "9000k",
-                    "-profile:v", "high", "-g", str(HQ_FPS * 5), "-pix_fmt", "yuv420p",
+                    "-profile:v", "high", "-g", str(fps * 5), "-pix_fmt", "yuv420p",
                     "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", final], check=True)
+    if voice:
+        return final, total
     (d / "voice_engine.txt").write_text("none (music only, still image, HQ)")
     return final, total
 
@@ -364,7 +445,8 @@ def build(spec, out_root, only=None, music=None):
     d.mkdir(parents=True, exist_ok=True)
     gender = "male" if spec.get("voice", "").lower().startswith("male") else "female"
     paras = paragraphs(spec["script"])
-    if NO_VOICE or spec.get("audio") == "music":  # music-only: still photo + HQ scroll, no TTS
+    if NO_VOICE or spec.get("audio") == "music" or spec.get("background_image_prompt") or spec.get("background_image"):
+        # HQ still-image mode (music only, or ElevenLabs voice-over when spec["voiceover"] is true, within the credit cap)
         return build_music_only(spec, d, out_root, paras, only, music)
     # 1. voice by sections
     groups = chunks(paras)

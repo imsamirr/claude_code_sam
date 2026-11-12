@@ -121,3 +121,13 @@ python ads/scroll_video.py --brand <brand> --spec <scroll_specs.json> --music ad
 ```
 
 **Kie balance:** check it first (`GET /api/v1/chat/credit`). A negative balance means every generation fails.
+
+## Voice-over with ElevenLabs (user rules 2026-11-12: at most 5,000 credits per run, 1–2 voiced concepts)
+
+- **Key:** env `ElevenLabKey` (direct ElevenLabs API, not Kie). It can't read the account or list voices, so the voice IDs are fixed in `EL_VOICES` (US voices: Rachel, Matilda, Aria, Jessica, Laura).
+- **Opt in per video** with `"voiceover": true` in the spec. Pick the **1–2 concepts with the strongest hooks** for voice. Every other video stays music-only.
+- **Voice choice:** `"el_voice": "<name>"`, or by default from the narrator's age in `"voice"`: 55+ gets Matilda, under 42 gets Jessica, everyone else Rachel.
+- **Cost:** the model is `eleven_turbo_v2_5`, at 0.5 credit per character, so a 700-word script is about 2,000 credits.
+- **Hard caps in the script:** 5,000 credits and 2 voiced videos per UTC day, tracked in `output/scroll_videos/_elevenlabs_ledger.json` across separate invocations. Override with `ELEVENLABS_RUN_BUDGET` / `ELEVENLABS_MAX_VOICED` only if the user raises the limit.
+- **Over the cap:** the video falls back to music-only and the log says so. Report the credits used in the run summary.
+- **Render:** the whole script is read in one request, so the narration flows naturally. Symbols are spoken naturally (HSA and FSA, percent). The text still moves exactly 1 px per frame, with the frame rate (24–60) chosen so the scroll lasts as long as the narration. The music bed plays at about −18 dB under the voice.
