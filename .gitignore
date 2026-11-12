@@ -24,3 +24,9 @@ Thumbs.db
 
 # Local output
 output.csv
+
+# scrolling long-form videos: finals go to Drive, intermediates are rebuildable
+ads/brands/*/output/scroll_videos/*.mp4
+ads/brands/*/output/scroll_videos/*/*.mp4
+ads/brands/*/output/scroll_videos/*/*.m4a
+ads/brands/*/output/scroll_videos/*/*.mp3

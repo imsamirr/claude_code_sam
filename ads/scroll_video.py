@@ -8,7 +8,9 @@ hook on screen at second 0 in the lower half, short paragraphs.
     python ads/scroll_video.py --brand comfortwear --spec <variations.json> [IDs]   # full pipeline
     python ads/scroll_video.py --brand comfortwear --spec x.json LV01 --only render  # reuse assets
 
-Spec (list): {"id","script","voice","background","caption","headline","landing_page", optional "text_color"}.
+Spec (list): {"id","script","voice","background" (Veo prompt) or "background_image" (still photo prompt, slow zoom),
+"caption","headline", optional "audio" ("voice" default, or "music" = no voice-over, fixed reading pace),
+"text_color", "music_prompt"}. Without --music, one Suno bed per spec file is made next to it (<stem>_music.mp3).
 Assets land in ads/brands/<brand>/output/scroll_videos/<ID>/ and the final video in .../<ID>.mp4.
 Kie.ai (KIE_AI): veo3_fast for 3 background clips per video, Suno V4_5 for the music bed,
 ElevenLabs turbo for the voice; falls back to OpenAI gpt-4o-mini-tts (OPENAI_API_KEY) if Kie TTS fails.
@@ -33,6 +35,10 @@ W, H, FPS = 720, 1280, 30
 START_Y = 0.60      # the hook's top sits here at t=0 (fraction of H), like the examples
 READ_Y = 0.30       # a paragraph's top sits here when the voice starts reading it
 MUSIC_DB = -24      # music bed under the voice
+MUSIC_ONLY_DB = -6  # music bed when there is no voice ("audio": "music")
+MUSIC_WPS = 2.5     # reading pace (words per second) for music-only videos
+DEFAULT_MUSIC = ("soft, slow, emotional solo piano with a light ambient pad, intimate and reflective, "
+                 "no drums, no vocals, understated, steady from start to end")
 TTS = "kie"         # "kie" (ElevenLabs via Kie, falls back to OpenAI) or "openai"
 CLIP_ANGLES = ["", ""]  # two takes of the SAME prompt = two moments of one place, crossfaded and looped
 
@@ -65,6 +71,40 @@ def veo_clip(prompt, dest):
         if d.get("successFlag") in (2, 3):
             raise RuntimeError(f"veo failed: {d.get('errorMessage')}")
     raise RuntimeError("veo timeout")
+
+
+# ---------- still-image background (Kie nano-banana-pro) with a slow zoom ----------
+IMG_STYLE = ("A real, unremarkable vertical photo from a regular person's phone, edge to edge, no borders, no captions, no "
+             "text, no logos, no interface. Ordinary light, everything in focus, slightly imperfect framing. Calm, simple "
+             "composition with mid-to-dark tones and plenty of quiet space, because white text will sit on top of it. ")
+
+
+def still_image(prompt, dest):
+    r = requests.post(f"{KIE}/jobs/createTask", headers=kie_headers(), timeout=60, json={
+        "model": "nano-banana-pro", "input": {"prompt": IMG_STYLE + prompt, "aspect_ratio": "9:16", "resolution": "2K"}}).json()
+    if r.get("code") != 200:
+        raise RuntimeError(f"image: {r}")
+    tid = r["data"]["taskId"]
+    for _ in range(80):
+        time.sleep(5)
+        d = requests.get(f"{KIE}/jobs/recordInfo", headers=kie_headers(), params={"taskId": tid}, timeout=60).json()["data"]
+        if d["state"] == "success":
+            return get(json.loads(d["resultJson"])["resultUrls"][0], dest)
+        if d["state"] == "fail":
+            raise RuntimeError(d.get("failMsg"))
+    raise RuntimeError("image timeout")
+
+
+def still_loop(img, total, dest):
+    """A slow, gentle zoom (1.00 -> 1.12 and back) over the whole video, rendered at 2x then scaled down to avoid jitter."""
+    frames = int(total * FPS) + FPS
+    z = "1.06-0.06*cos(2*PI*on/{p})".format(p=max(int(70 * FPS), 1))
+    vf = (f"scale={W * 2}:{H * 2}:force_original_aspect_ratio=increase,crop={W * 2}:{H * 2},"
+          f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={frames}:s={W * 2}x{H * 2}:fps={FPS},"
+          f"scale={W}:{H}")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(img), "-vf", vf, "-frames:v", str(frames),
+                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", str(dest)], check=True)
+    return dest
 
 
 # ---------- music (Suno via Kie) ----------
@@ -202,9 +242,10 @@ def build(spec, out_root, only=None, music=None):
     d.mkdir(parents=True, exist_ok=True)
     gender = "male" if spec.get("voice", "").lower().startswith("male") else "female"
     paras = paragraphs(spec["script"])
-    # 1. voice by sections
-    groups = chunks(paras)
-    if only != "render":
+    music_only = spec.get("audio") == "music"
+    # 1. voice by sections (skipped for music-only videos, which scroll at a fixed reading pace)
+    groups = [] if music_only else chunks(paras)
+    if only != "render" and not music_only:
         import concurrent.futures as cf
         kv = spec.get("kie_voice", "Rachel")
 
@@ -229,14 +270,26 @@ def build(spec, out_root, only=None, music=None):
     seg_paths = [d / f"vo_{gi:02d}.mp3" for gi in range(len(groups))]
     # paragraph start times: section start + share of its duration by word count
     starts, t = [], 0.6
-    durs = [duration(p) for p in seg_paths]
-    for g, du in zip(groups, durs):
-        words = [len(paras[i].split()) for i in g]
-        acc = 0
-        for i, w in zip(g, words):
-            starts.append(t + du * acc / sum(words)); acc += w
-        t += du + 0.35
-    total = t + 2.5
+    if music_only:
+        t = 2.5  # let the hook sit on screen before it starts moving
+        for p_ in paras:
+            starts.append(t); t += len(p_.split()) / MUSIC_WPS + 0.45
+        total = t + 3.0
+    else:
+        durs = [duration(p) for p in seg_paths]
+        for g, du in zip(groups, durs):
+            words = [len(paras[i].split()) for i in g]
+            acc = 0
+            for i, w in zip(g, words):
+                starts.append(t + du * acc / sum(words)); acc += w
+            t += du + 0.35
+        total = t + 2.5
+    if spec.get("background_image"):
+        img = d / "bg.jpg"
+        if not img.exists() and only != "render":
+            still_image(spec["background_image"], img)
+        if only == "assets":
+            return None, total
     if only == "assets":
         for k, extra in enumerate(CLIP_ANGLES):
             c = d / f"bg_{k}.mp4"
@@ -245,15 +298,15 @@ def build(spec, out_root, only=None, music=None):
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", c, "-vf", "fps=2,scale=90:-2,tile=8x2", "-frames:v", "1",
                             d / f"bg_{k}_tiles.jpg"], check=True)
         return None, total
-    # 2. background clips
+    # 2. background: a still image with a slow zoom, or Veo clips
     clips = []
-    for k, extra in enumerate(CLIP_ANGLES):
+    for k, extra in enumerate([] if spec.get("background_image") else CLIP_ANGLES):
         c = d / f"bg_{k}.mp4"
         if not c.exists() and only != "render":
             veo_clip(spec["background"] + extra, c)
         if c.exists():
             clips.append(c)
-    if not clips:
+    if not clips and not spec.get("background_image"):
         raise RuntimeError("no background clips")
     # 3. text layer
     color = {"yellow": (255, 236, 64), "white": (255, 255, 255)}.get(spec.get("text_color", "white"))
@@ -261,7 +314,11 @@ def build(spec, out_root, only=None, music=None):
     img.save(d / "text.png")
     yexpr = scroll_expr(tops, starts, total, text_h)
     (d / "scroll_expr.txt").write_text(yexpr)
-    # 4. voice track
+    # 4. voice track (silence for music-only videos)
+    vo = d / "voice.m4a"
+    if music_only:
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-t", f"{total:.2f}",
+                        "-c:a", "aac", "-b:a", "160k", vo], check=True)
     lst = d / "vo_list.txt"
     sil = d / "sil.mp3"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", "0.35", sil], check=True)
@@ -269,12 +326,14 @@ def build(spec, out_root, only=None, music=None):
     for p in seg_paths:
         lines += [f"file '{p.name}'", f"file '{sil.name}'"]
     lst.write_text("\n".join(lines))
-    vo = d / "voice.m4a"
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-af", "adelay=250|250",
-                    "-ar", "44100", "-ac", "2", "-c:a", "aac", "-b:a", "160k", vo], check=True, cwd=d)
+    if not music_only:
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-af", "adelay=250|250",
+                        "-ar", "44100", "-ac", "2", "-c:a", "aac", "-b:a", "160k", vo], check=True, cwd=d)
     # 5. background loop: crossfade the clips, then loop to length
     bg = d / "bg_loop.mp4"
-    if len(clips) == 1:
+    if spec.get("background_image"):
+        still_loop(d / "bg.jpg", total, bg)
+    elif len(clips) == 1:
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", clips[0], "-an", "-vf", f"scale={W}:{H},fps={FPS}", bg], check=True)
     else:
         inputs, fc, prev, off = [], [], "[0:v]", 0.0
@@ -293,7 +352,8 @@ def build(spec, out_root, only=None, music=None):
     a_inputs = ["-i", str(vo)]
     if Path(music).exists():
         a_inputs += ["-stream_loop", "-1", "-i", str(music)]
-        afc = (f"[2:a]volume=1.0[vo];[3:a]volume={10 ** (MUSIC_DB / 20):.4f},afade=t=out:st={total - 3:.2f}:d=3[mu];"
+        mdb = MUSIC_ONLY_DB if music_only else MUSIC_DB
+        afc = (f"[2:a]volume=1.0[vo];[3:a]volume={10 ** (mdb / 20):.4f},afade=t=in:d=1.5,afade=t=out:st={total - 3:.2f}:d=3[mu];"
                f"[vo][mu]amix=inputs=2:duration=first:dropout_transition=0[a]")
     else:
         afc = "[2:a]anull[a]"
@@ -321,6 +381,13 @@ def main():
     out_root.mkdir(parents=True, exist_ok=True)
     specs = json.loads(Path(a.spec).read_text())
     music = a.music
+    if not music:  # one Suno bed per spec file, shared by its variations
+        bed = Path(a.spec).with_name(Path(a.spec).stem + "_music.mp3")
+        if not bed.exists() and a.only != "render":
+            print(f"music bed: generating {bed.name}", flush=True)
+            suno(specs[0].get("music_prompt", DEFAULT_MUSIC), bed)
+        if bed.exists():
+            music = str(bed)
     for s in specs:
         if a.ids and s["id"] not in a.ids:
             continue
