@@ -13,7 +13,8 @@ Spec (list): {"id","script","voice","background" (Veo prompt) or "background_ima
 "text_color", "music_prompt"}. Without --music, one Suno bed per spec file is made next to it (<stem>_music.mp3).
 Assets land in ads/brands/<brand>/output/scroll_videos/<ID>/ and the final video in .../<ID>.mp4.
 Kie.ai (KIE_AI): veo3_fast for 3 background clips per video, Suno V4_5 for the music bed,
-ElevenLabs turbo for the voice; falls back to OpenAI gpt-4o-mini-tts (OPENAI_API_KEY) if Kie TTS fails.
+Voice: ElevenLabs direct (env ElevenLabKey / ELEVENLABS_API_KEY, eleven_multilingual_v2) first when the key is set,
+then ElevenLabs via Kie, then OpenAI gpt-4o-mini-tts (OPENAI_API_KEY). Optional spec "el_voice_id" picks the voice.
 """
 
 import argparse
@@ -148,6 +149,29 @@ def tts_kie(text, gender, dest, wait=240, voice=None):
     raise RuntimeError("kie tts timeout")
 
 
+EL_VOICES = {"female": "21m00Tcm4TlvDq8EpW7j", "male": "nPczCjzI2devNBz1zQrb"}  # ElevenLabs "Rachel" / "Brian"
+
+
+def eleven_key():
+    return os.getenv("ElevenLabKey") or os.getenv("ELEVENLABS_API_KEY")
+
+
+def tts_eleven(text, gender, dest, voice_id=None):
+    """ElevenLabs direct API (key in env ElevenLabKey or ELEVENLABS_API_KEY)."""
+    vid = voice_id or EL_VOICES[gender]
+    for attempt in range(5):
+        r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{vid}?output_format=mp3_44100_128", timeout=300,
+                          headers={"xi-api-key": eleven_key(), "Content-Type": "application/json"},
+                          json={"text": text, "model_id": "eleven_multilingual_v2",
+                                "voice_settings": {"stability": 0.45, "similarity_boost": 0.75, "style": 0.15}})
+        if r.status_code not in (429, 500, 502, 503):
+            break
+        time.sleep(min(60, 5 * 2 ** attempt))
+    r.raise_for_status()
+    dest.write_bytes(r.content)
+    return dest
+
+
 def tts_openai(text, gender, notes, dest):
     for attempt in range(8):
         r = _openai_tts_once(text, gender, notes)
@@ -269,7 +293,13 @@ def build(spec, out_root, only=None, music=None):
             if p.exists():
                 return "cached"
             text = "\n\n".join(paras[i] for i in groups[gi])
-            if TTS == "kie":
+            if TTS == "elevenlabs" or (TTS == "kie" and eleven_key()):
+                try:
+                    tts_eleven(text, gender, p, spec.get("el_voice_id"))
+                    return "elevenlabs-direct"
+                except Exception as e:
+                    print(f"  {vid} section {gi}: elevenlabs failed ({e}); falling back", flush=True)
+            if TTS in ("kie", "elevenlabs"):
                 for attempt in range(2):
                     try:
                         tts_kie(text, gender, p, voice=kv)
@@ -388,7 +418,8 @@ def main():
     p.add_argument("--spec", required=True)
     p.add_argument("--music", help="music bed for every video in this run (default: generate one per angle file)")
     p.add_argument("--only", choices=["render", "assets"])
-    p.add_argument("--tts", choices=["kie", "openai"], default="kie")
+    p.add_argument("--tts", choices=["elevenlabs", "kie", "openai"], default="kie",
+                   help="elevenlabs = direct API (env ElevenLabKey); kie also tries direct ElevenLabs first when that key is set")
     p.add_argument("ids", nargs="*")
     a = p.parse_args()
     global TTS
