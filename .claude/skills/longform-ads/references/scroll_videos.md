@@ -96,7 +96,7 @@ The user rejected the first renders as poor quality. Those were 720p Veo backgro
 - the text layer is padded by one screen above and below, and the visible 1080×1920 window is cropped from it each frame. Overlaying the full 16k-pixel layer is 2–3× slower. Each video takes about 4 minutes to render.
 
 **Delivery.** Full files are 120–180MB, which is over the Notion (20MB) and Drive-from-Claude (10MB) upload limits:
-- send full files to the user with SendUserFile
+- send full files to the user with SendUserFile. The user drags them into `longform_program.scroll_video_drive_folder` (the Drive connector caps uploads at 10MB, and the user declined to give a Drive API token). Once they are there, find each with `search_files` (`parentId = <folder>`) and put a per-file download link (`https://drive.google.com/uc?export=download&id=<id>`) on its card
 - on Notion, attach a **30-second full-quality hook preview** (`-t 30 -c:v copy`, about 15MB), plus a note saying the full file is in chat, with the brand's HQ Drive folder link for the user's upload
 - never put a re-compressed under-20MB full-length video on a card. That's what looked bad.
 - existing video blocks can't be matched by `update_content`. To swap videos, rewrite the card with `replace_content`.
