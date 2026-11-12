@@ -298,6 +298,7 @@ def scroll_expr(tops, starts, total_dur, text_h, constant=False):
                 pts.append((t, target))
         end_y = min(pts[-1][1], end_y)
     pts.append((total_dur, end_y))
+    scroll_expr.last_pts = pts
     expr = f"{pts[-1][1]:.2f}"
     for (t0, y0), (t1, y1) in reversed(list(zip(pts, pts[1:]))):
         slope = (y1 - y0) / max(t1 - t0, 1e-3)
@@ -316,6 +317,50 @@ def integer_scroll(top0, text_h):
     expr = (f"if(lt(n,{ef}),{y0}-floor(n/{EASE_EVERY}),"
             f"max({end_y},{y0 - ease_px}-{PX_PER_FRAME}*(n-{ef})))")
     return expr, total_frames / FPS
+
+
+def frame_positions(total, music_only, top0, text_h):
+    """Exact integer y (top of the text layer) for every output frame."""
+    import numpy as np
+    nf = int(round(total * FPS))
+    n = np.arange(nf)
+    if music_only:
+        y0, end_y = round(START_Y * H - top0), round(H * 0.55 - text_h)
+        ef = int(EASE_S * FPS)
+        ease_px = ef // EASE_EVERY
+        y = np.where(n < ef, y0 - n // EASE_EVERY, np.maximum(end_y, y0 - ease_px - PX_PER_FRAME * (n - ef)))
+    else:
+        pts = scroll_expr.last_pts
+        y = np.floor(np.interp(n / FPS, [p[0] for p in pts], [p[1] for p in pts]))
+    return y.astype(int)
+
+
+def compose_video(bg_img, text_img, ys, audio_args, afc, total, out):
+    """Composite every frame in numpy (the text moves by whole pixels exactly as planned, no filter rounding or
+    frame-sync duplicates) and pipe raw RGB frames into x264."""
+    import numpy as np
+    bg = np.asarray(bg_img.convert("RGB").resize((W, H), Image.LANCZOS)).astype(np.uint16)
+    bg = (bg * 94 // 100)  # darken slightly so the white text pops
+    txt = np.asarray(text_img.convert("RGBA"))
+    th = txt.shape[0]
+    pad = np.zeros((H, W, 4), np.uint8)
+    tall = np.concatenate([pad, txt, pad])  # transparent margins above and below
+    rgb, alpha = tall[..., :3].astype(np.uint16), tall[..., 3:4].astype(np.uint16)
+    cmd = ["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
+           "-i", "-", *audio_args, "-filter_complex", afc, "-map", "0:v", "-map", "[a]", "-t", f"{total:.3f}",
+           "-c:v", "libx264", "-preset", "fast", "-crf", "17", "-profile:v", "high", "-pix_fmt", "yuv420p",
+           "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(out)]
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+    for y in ys:
+        s0 = H - y  # screen top in the padded layer
+        s0 = max(0, min(s0, th + H))
+        win_rgb, win_a = rgb[s0:s0 + H], alpha[s0:s0 + H]
+        frame = (bg * (255 - win_a) + win_rgb * win_a) // 255
+        proc.stdin.write(frame.astype(np.uint8).tobytes())
+    proc.stdin.close()
+    if proc.wait() != 0:
+        raise RuntimeError("ffmpeg encode failed")
+    return out
 
 
 # ---------- pipeline ----------
@@ -452,6 +497,19 @@ def build(spec, out_root, only=None, music=None):
                         "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", bg], check=True)
     # 6. final composite
     final = out_root / f"{vid}.mp4"
+    if spec.get("background_image"):
+        music_p = music or (d / "music.mp3")
+        a_args = ["-i", str(vo)]
+        if Path(music_p).exists():
+            a_args += ["-stream_loop", "-1", "-i", str(music_p)]
+            mdb = MUSIC_ONLY_DB if music_only else MUSIC_DB
+            afc = (f"[1:a]volume=1.0[vo];[2:a]volume={10 ** (mdb / 20):.4f},afade=t=in:d=1.5,afade=t=out:st={total - 3:.2f}:d=3[mu];"
+                   f"[vo][mu]amix=inputs=2:duration=first:dropout_transition=0[a]")
+        else:
+            afc = "[1:a]anull[a]"
+        ys = frame_positions(total, music_only, tops[0], text_h)
+        compose_video(Image.open(d / "bg.jpg"), img, ys, a_args, afc, total, final)
+        return final, total
     music = music or (d / "music.mp3")
     a_inputs = ["-i", str(vo)]
     if Path(music).exists():

@@ -41,7 +41,8 @@ python ads/scroll_video.py --brand <brand> --spec <variations.json> --music <bed
 - **`"audio": "music"`**: no voice-over. The text scrolls at a fixed reading pace (`MUSIC_WPS` = 2.5 words a second, with the hook held for 2.5 seconds) and the music bed plays at −6 dB. Write these scripts with shorter paragraphs and more one-line cliffhangers.
 - **Quality (user feedback 2026-11-12: "blurry and a bit laggy"):**
   - **Resolution and encoding:** render at 1080×1920 at 60 fps, with the text layer laid out at full resolution (the font and sizes scale with the width), x264 `medium` at CRF 17.
-  - **Motion:** music-only videos scroll by whole pixels: 1px every 3 frames during the 6-second ease-in, then exactly 1px per frame (60px/s). Fractional speeds make the text alternate 1px and 2px steps, which reads as stutter. The video's length follows from the text height.
+  - **Motion:** music-only videos scroll by whole pixels: 1px every 3 frames during the 6-second ease-in, then exactly 1px per frame (60px/s). The video's length follows from the text height.
+  - **How frames are built:** with a still background, every frame is composed in numpy and piped to x264 (`compose_video`). ffmpeg's `overlay` rounds y to even pixels on 4:2:0 video, and its frame sync duplicates frames, which turns a 1px/frame scroll into 2px every other frame (visible stutter). Measured after the fix: exactly 1px every frame.
   - **Background:** still-image backgrounds are static. ffmpeg `zoompan` moves in whole-pixel steps and jitters.
   - **Render time:** about 10–15 minutes per video on 4 cores.
 - **Background must match the copy (same feedback):** the photo shows the story's hook object (the jelly jar with the teeth in it, the moldy case hinge, the check next to the denture), large in the upper half, with a darker, simpler lower half for the text. Never a generic setting. Check every background for burned-in text or captions and re-render any that have them.
