@@ -39,6 +39,7 @@ python ads/scroll_video.py --brand <brand> --spec <variations.json> --music <bed
 ### Still-image backgrounds and music-only videos (added for DentalPULSE, 2026-11)
 - **`background_image`** (instead of `background`): a prompt for one calm, mid-to-dark 9:16 phone photo of the narrator's world. It's rendered with Kie `nano-banana-pro` at 2K, then given a slow breathing zoom over the whole video (no Veo). Keep the middle of the frame quiet, because white text sits on it.
 - **`"audio": "music"`**: no voice-over. The text scrolls at a fixed reading pace (`MUSIC_WPS` = 2.5 words a second, with the hook held for 2.5 seconds) and the music bed plays at −6 dB. Write these scripts with shorter paragraphs and more one-line cliffhangers.
+- **Scroll speed (user feedback 2026-11-12):** the text must rise slowly from the first frame, like the references, never jump. Music-only videos scroll at one steady speed (story length ÷ runtime, about 35–40 px/s) after an ease-in at a third of that speed for the first 6 seconds. Voice videos stay at that steady speed until it reaches the voice's place, then follow the voice.
 - **Music beds:** without `--music`, one Suno bed is generated per spec file (`<stem>_music.mp3` next to it) and shared by its variations. Set `music_prompt` on the first variation to change the mood.
 - **Voice availability (2026-11-12):** Kie's ElevenLabs models (turbo-2-5 and multilingual-v2) returned "Internal Error", and the OpenAI fallback needs account credits. Check both before a voice batch.
 

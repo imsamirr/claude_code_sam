@@ -37,6 +37,7 @@ READ_Y = 0.30       # a paragraph's top sits here when the voice starts reading 
 MUSIC_DB = -24      # music bed under the voice
 MUSIC_ONLY_DB = -6  # music bed when there is no voice ("audio": "music")
 MUSIC_WPS = 2.5     # reading pace (words per second) for music-only videos
+EASE_S = 6.0        # music-only: the text rises at a third of its speed for the first 6 seconds
 DEFAULT_MUSIC = ("soft, slow, emotional solo piano with a light ambient pad, intimate and reflective, "
                  "no drums, no vocals, understated, steady from start to end")
 TTS = "kie"         # "kie" (ElevenLabs via Kie, falls back to OpenAI) or "openai"
@@ -220,13 +221,27 @@ def chunks(paras, max_words=110):
     return groups
 
 
-def scroll_expr(tops, starts, total_dur, text_h):
-    """Piecewise-linear y(t) for the text layer: paragraph i's top reaches READ_Y*H when its voice starts."""
-    pts = [(0.0, START_Y * H - tops[0])]
-    for top, t in zip(tops, starts):
-        if t > pts[-1][0] + 0.05:
-            pts.append((t, READ_Y * H - top))
-    end_y = min(pts[-1][1], H * 0.55 - text_h)  # finish with the last lines (CTA) resting mid-screen
+def scroll_expr(tops, starts, total_dur, text_h, constant=False):
+    """y(t) for the text layer. The text rises slowly from the first frame, like the reference ads.
+
+    constant=True (music-only): one steady speed from the hook's start position to the CTA resting mid-screen.
+    Otherwise (voice): piecewise-linear so paragraph i reaches READ_Y*H when its voice starts, except that
+    anchors are skipped until the steady speed itself brings the text to the reading line (no fast jump at the start).
+    """
+    y0, end_y = START_Y * H - tops[0], H * 0.55 - text_h  # finish with the last lines (CTA) resting mid-screen
+    pts = [(0.0, y0)]
+    if constant:  # ease in: a third of the steady speed for the first EASE_S seconds, like the references
+        v = (y0 - end_y) / total_dur
+        pts.append((EASE_S, y0 - v * EASE_S / 3))
+    if not constant:
+        v = (y0 - end_y) / total_dur  # the steady speed (px/s)
+        for top, t in zip(tops, starts):
+            target = READ_Y * H - top
+            if (y0 - target) / v > t:  # the steady scroll hasn't got this paragraph to the reading line yet
+                continue
+            if t > pts[-1][0] + 0.05:
+                pts.append((t, target))
+        end_y = min(pts[-1][1], end_y)
     pts.append((total_dur, end_y))
     expr = f"{pts[-1][1]:.2f}"
     for (t0, y0), (t1, y1) in reversed(list(zip(pts, pts[1:]))):
@@ -312,7 +327,7 @@ def build(spec, out_root, only=None, music=None):
     color = {"yellow": (255, 236, 64), "white": (255, 255, 255)}.get(spec.get("text_color", "white"))
     img, tops, text_h = layout(paras, color)
     img.save(d / "text.png")
-    yexpr = scroll_expr(tops, starts, total, text_h)
+    yexpr = scroll_expr(tops, starts, total, text_h, constant=music_only)
     (d / "scroll_expr.txt").write_text(yexpr)
     # 4. voice track (silence for music-only videos)
     vo = d / "voice.m4a"
@@ -332,7 +347,8 @@ def build(spec, out_root, only=None, music=None):
     # 5. background loop: crossfade the clips, then loop to length
     bg = d / "bg_loop.mp4"
     if spec.get("background_image"):
-        still_loop(d / "bg.jpg", total, bg)
+        if not (bg.exists() and duration(bg) >= total - 0.5):  # reuse the zoom loop when it is long enough
+            still_loop(d / "bg.jpg", total, bg)
     elif len(clips) == 1:
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", clips[0], "-an", "-vf", f"scale={W}:{H},fps={FPS}", bg], check=True)
     else:
