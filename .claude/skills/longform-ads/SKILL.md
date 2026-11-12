@@ -12,6 +12,7 @@ All brand facts live in `ads/brands/<brand>/brand.json`. Nothing brand-specific 
 **Scripts:** in this repo, use `ads/atria_pull.py` and `ads/longform_images.py`. Portable copies are in `scripts/` for use in another repo: put them in `<repo>/ads/` with the `ads/brands/<brand>/` layout. They need `requests`, `python-dotenv` and `pillow`, plus `ATRIA_API_KEY` and `KIE_AI`.
 
 **References** (read when the step says to):
+- `references/direct_response.md`: **read first for every concept.** Awareness and sophistication, the one belief, problem and solution mechanisms, the 6 lead types, proof stacking, objections, the offer value equation, DR tags, and the **copy scorecard** (ship at 16/20 or above).
 - `references/playbook.md`: the craft, from about 95 winning long-form ads and a swipe file. Structure with % positions, 14 hook formulas, open-loop patterns, mechanism and bridge patterns, length norms, and what separates long runners from short-lived ads.
 - `references/brand_config.md`: the `brand.json` fields this skill reads, and how to fill them for a new brand.
 - `references/copy_template.md`: the exact file layout for one concept, including the fidelity table.
@@ -91,6 +92,8 @@ Use the `longform_program.split` mix (default for a 10-concept batch: **6 iterat
 - **Save the table** to `research/learning/ideas_backlog.md` under the batch date, with the backlog below it. If the user swaps an idea, update the row and move the old idea to the backlog.
 
 ### 2.3 Write
+**Before writing each concept,** decide and record its DR tags (`references/direct_response.md` §9): awareness level, lead type, one-belief sentence, problem and solution mechanisms, messenger, proof and offer. **After writing,** grade it with the scorecard (§10). Rewrite until it scores 16/20 or above with no 0s on items 1–4, and put the score and tags in the file and on the Notion card. Rotate lead types across the batch.
+
 Follow `references/playbook.md` and lay out each file exactly as in `references/copy_template.md`.
 - **Format:** if the source winner is a test or comparison, the story *is* a test (one failed product per day, a graded closet, a bin of dead pairs). Don't let a mentor character replace the format.
 - **Narrator and messenger:** the narrator comes from the winning persona. The messenger is from the narrator's world (a coworker, patient, stranger, group post) and says the mechanism close to the winners' wording.
@@ -136,6 +139,7 @@ When an offer, claim or calendar changes:
 5. Commit.
 
 ## 4. Learning loop
+- **DR results:** once concepts have spend, compare results by DR tag (awareness, lead, mechanism) and record what wins for each brand in `research/longform_angles.md` under "What wins (DR tags)". The data overrides the frameworks.
 - **Weekly market study (Mondays, a scheduled task):** find other brands' long-form ads launched in the last 7 days in Atria (static ads with 2k+ characters of copy, 60s+ story videos, and especially scrolling-text videos). Study each brand's other ads in Atria or the Meta Ad Library, and re-check older hook-bank ads at 7, 14 and 30 days. Write `research/learning/market_study_<date>.md` and add test ideas to `ideas_backlog.md`. Then **update this skill** (playbook.md, scroll_videos.md, and SKILL.md for strongly evidenced rules only), citing evidence for every change, and log it in `CHANGELOG.md`. Thursday's batch reads the newest study.
 - **Ad names:** LF IDs go in ad names, so the next `longform` pull ties results back to each copy.
 - **Each run:** mark backlog ideas as `written`, then add next batch's table.
