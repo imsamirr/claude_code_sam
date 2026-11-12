@@ -37,3 +37,4 @@ ads/brands/*/output/scroll_videos/*.mp4
 ads/brands/*/output/scroll_videos/*/*.mp4
 ads/brands/*/output/scroll_videos/*/*.m4a
 ads/brands/*/output/scroll_videos/*/*.mp3
+ads/brands/*/output/scroll_videos/elevenlabs_credit_ledger.json

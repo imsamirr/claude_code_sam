@@ -8,13 +8,13 @@ hook on screen at second 0 in the lower half, short paragraphs.
     python ads/scroll_video.py --brand comfortwear --spec <variations.json> [IDs]   # full pipeline
     python ads/scroll_video.py --brand comfortwear --spec x.json LV01 --only render  # reuse assets
 
-Spec (list): {"id","script","voice","background","caption","headline","landing_page", optional "text_color"}.
-Cheap mode: give "background_image_prompt" (a dedicated Kie nano-banana-pro image for THIS video, ~15 credits; never
-share one image across concepts) or "background_image" (a path); the still gets a slow zoom loop instead of Veo
-clips (~130 credits), and the render is capped at ~20MB so it can be attached to a Notion card.
+Spec (list): {"id","script","voice","background" (Veo prompt) or "background_image" (still photo prompt, slow zoom),
+"caption","headline", optional "audio" ("voice" default, or "music" = no voice-over, fixed reading pace),
+"text_color", "music_prompt"}. Without --music, one Suno bed per spec file is made next to it (<stem>_music.mp3).
 Assets land in ads/brands/<brand>/output/scroll_videos/<ID>/ and the final video in .../<ID>.mp4.
 Kie.ai (KIE_AI): veo3_fast for 3 background clips per video, Suno V4_5 for the music bed,
-ElevenLabs turbo for the voice; falls back to OpenAI gpt-4o-mini-tts (OPENAI_API_KEY) if Kie TTS fails.
+Voice: ElevenLabs direct (env ElevenLabKey / ELEVENLABS_API_KEY, eleven_multilingual_v2) first when the key is set,
+then ElevenLabs via Kie, then OpenAI gpt-4o-mini-tts (OPENAI_API_KEY). Optional spec "el_voice_id" picks the voice.
 """
 
 import argparse
@@ -32,11 +32,15 @@ from PIL import Image, ImageDraw, ImageFont
 ADS = Path(__file__).resolve().parent
 FONT = ADS / "assets" / "fonts" / "Montserrat.ttf"
 KIE = "https://api.kie.ai/api/v1"
-W, H, FPS = 720, 1280, 30
+W, H, FPS = 1080, 1920, 60   # full-HD vertical; 60fps so the text can move exactly 1px per frame
 START_Y = 0.60      # the hook's top sits here at t=0 (fraction of H), like the examples
 READ_Y = 0.30       # a paragraph's top sits here when the voice starts reading it
 MUSIC_DB = -24      # music bed under the voice
-NO_VOICE = False    # --no-voice: music-only render
+MUSIC_ONLY_DB = -6  # music bed when there is no voice ("audio": "music")
+MUSIC_WPS = 2.5     # reading pace (words per second) for music-only videos
+EASE_S = 6.0        # music-only: the text rises at a third of its speed for the first 6 seconds
+PX_PER_FRAME = 1    # music-only: steady scroll of exactly 1px per frame (60px/s): no stutter from fractional motion
+EASE_EVERY = 3      # during the ease-in the text moves 1px every 3 frames (20px/s)
 DEFAULT_MUSIC = ("soft, slow, emotional solo piano with a light ambient pad, intimate and reflective, "
                  "no drums, no vocals, understated, steady from start to end")
 TTS = "kie"         # "kie" (ElevenLabs via Kie, falls back to OpenAI) or "openai"
@@ -71,6 +75,42 @@ def veo_clip(prompt, dest):
         if d.get("successFlag") in (2, 3):
             raise RuntimeError(f"veo failed: {d.get('errorMessage')}")
     raise RuntimeError("veo timeout")
+
+
+# ---------- still-image background (Kie nano-banana-pro) with a slow zoom ----------
+IMG_STYLE = ("A real, unedited vertical photo straight from a regular person's phone camera roll, edge to edge: no borders, "
+             "captions, text, logos, brand names or interface. Native phone-camera look, everything sharp front to back, a bit "
+             "of noise in the shadows, slightly crooked framing. The story's key object is large, sharp and clearly visible in the "
+             "UPPER HALF of the frame; the lower half is darker and simpler (a counter, a floor, a tabletop in shadow) because big "
+             "white text scrolls over it. Low-key, moody, realistic light; gross details stay realistic, never cartoonish. ")
+
+
+def still_image(prompt, dest):
+    r = requests.post(f"{KIE}/jobs/createTask", headers=kie_headers(), timeout=60, json={
+        "model": "nano-banana-pro", "input": {"prompt": IMG_STYLE + prompt, "aspect_ratio": "9:16", "resolution": "2K"}}).json()
+    if r.get("code") != 200:
+        raise RuntimeError(f"image: {r}")
+    tid = r["data"]["taskId"]
+    for _ in range(80):
+        time.sleep(5)
+        d = requests.get(f"{KIE}/jobs/recordInfo", headers=kie_headers(), params={"taskId": tid}, timeout=60).json()["data"]
+        if d["state"] == "success":
+            return get(json.loads(d["resultJson"])["resultUrls"][0], dest)
+        if d["state"] == "fail":
+            raise RuntimeError(d.get("failMsg"))
+    raise RuntimeError("image timeout")
+
+
+def still_loop(img, total, dest):
+    """A slow, gentle zoom (1.00 -> 1.12 and back) over the whole video, rendered at 2x then scaled down to avoid jitter."""
+    frames = int(total * FPS) + FPS
+    z = "1.06-0.06*cos(2*PI*on/{p})".format(p=max(int(70 * FPS), 1))
+    vf = (f"scale={W * 2}:{H * 2}:force_original_aspect_ratio=increase,crop={W * 2}:{H * 2},"
+          f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={frames}:s={W * 2}x{H * 2}:fps={FPS},"
+          f"scale={W}:{H}")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(img), "-vf", vf, "-frames:v", str(frames),
+                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", str(dest)], check=True)
+    return dest
 
 
 # ---------- music (Suno via Kie) ----------
@@ -113,6 +153,79 @@ def tts_kie(text, gender, dest, wait=240, voice=None):
     raise RuntimeError("kie tts timeout")
 
 
+EL_VOICES = {"female": "21m00Tcm4TlvDq8ikWAM", "male": "nPczCjzI2devNBz1zQrb"}  # ElevenLabs "Rachel" / "Brian" (Rachel id fixed 2026-11-12)
+# named US voices tested with this account (2026-11-12); specs can pick one with "el_voice": "<name>"
+EL_VOICE_NAMES = {"Rachel": "21m00Tcm4TlvDq8ikWAM", "Matilda": "XrExE9yKIg1WjnnlVkGX", "Aria": "9BWtsMINqrJLrRacOk9x",
+                  "Jessica": "cgSgspJ2msm6clMCkdW9", "Laura": "FGY2WhTYpPnrIDTdsKH5", "Brian": "nPczCjzI2devNBz1zQrb"}
+
+
+def normalize_spec(s, no_voice=False):
+    """Make ComfortWear-style specs work here too (both brands share this script):
+    background_image_prompt -> background_image (a photo prompt); "voiceover": true -> "audio": "voice";
+    no "audio" field -> music-only (voice is opt-in, user rule: 1-2 voiced videos per run); "el_voice" name -> el_voice_id."""
+    if s.get("background_image_prompt") and not s.get("background_image"):
+        s["background_image"] = s["background_image_prompt"]
+    if "audio" not in s:
+        s["audio"] = "voice" if s.get("voiceover") else "music"
+    if no_voice:
+        s["audio"] = "music"
+    if s["audio"] != "music" and not s.get("el_voice_id"):
+        name = s.get("el_voice")
+        if name not in EL_VOICE_NAMES and not s.get("voice", "").lower().startswith("male"):
+            m = re.search(r"(\d{2})", s.get("voice", ""))
+            age = int(m.group(1)) if m else 50
+            name = "Matilda" if age >= 55 else ("Jessica" if age < 42 else "Rachel")
+        if name in EL_VOICE_NAMES:
+            s["el_voice_id"] = EL_VOICE_NAMES[name]
+    return s
+
+
+EL_MODEL = "eleven_turbo_v2_5"   # 0.5 credit per character (multilingual_v2 costs 1 per character)
+EL_RATE = {"eleven_turbo_v2_5": 0.5, "eleven_flash_v2_5": 0.5, "eleven_multilingual_v2": 1.0}
+VOICE_BUDGET = 5000              # max ElevenLabs credits per day (one routine run); user rule 2026-11-12
+
+
+def el_credits(text):
+    return int(len(text) * EL_RATE.get(EL_MODEL, 1.0)) + 1
+
+
+def budget_claim(out_root, credits):
+    """Reserve ElevenLabs credits in a per-day ledger shared by parallel processes. False if it would exceed the budget."""
+    import fcntl, datetime
+    ledger = out_root / "elevenlabs_credit_ledger.json"
+    ledger.touch(exist_ok=True)
+    with open(ledger, "r+") as f:
+        fcntl.flock(f, fcntl.LOCK_EX)
+        data = json.loads(f.read() or "{}")
+        day = datetime.date.today().isoformat()
+        used = data.get(day, 0)
+        if used + credits > VOICE_BUDGET:
+            return False, used
+        data[day] = used + credits
+        f.seek(0); f.truncate(); f.write(json.dumps(data, indent=1))
+        return True, used + credits
+
+
+def eleven_key():
+    return os.getenv("ElevenLabKey") or os.getenv("ELEVENLABS_API_KEY")
+
+
+def tts_eleven(text, gender, dest, voice_id=None):
+    """ElevenLabs direct API (key in env ElevenLabKey or ELEVENLABS_API_KEY)."""
+    vid = voice_id or EL_VOICES[gender]
+    for attempt in range(5):
+        r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{vid}?output_format=mp3_44100_128", timeout=300,
+                          headers={"xi-api-key": eleven_key(), "Content-Type": "application/json"},
+                          json={"text": text, "model_id": EL_MODEL,
+                                "voice_settings": {"stability": 0.45, "similarity_boost": 0.75, "style": 0.15}})
+        if r.status_code not in (429, 500, 502, 503):
+            break
+        time.sleep(min(60, 5 * 2 ** attempt))
+    r.raise_for_status()
+    dest.write_bytes(r.content)
+    return dest
+
+
 def tts_openai(text, gender, notes, dest):
     for attempt in range(8):
         r = _openai_tts_once(text, gender, notes)
@@ -146,9 +259,9 @@ def paragraphs(script):
 
 
 def layout(paras, color):
-    k = W / 720  # sizes are tuned at 720 wide and scale with the frame
-    font = ImageFont.truetype(str(FONT), round(46 * k))
+    font = ImageFont.truetype(str(FONT), round(46 * W / 720))
     font.set_variation_by_name("ExtraBold")
+    k = W / 720
     maxw, lh, gap, stroke = int(W * 0.86), round(56 * k), round(34 * k), round(5 * k)
     probe = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
     blocks = []
@@ -162,7 +275,7 @@ def layout(paras, color):
                 cur = t
         lines.append(cur)
         blocks.append(lines)
-    total = sum(len(b) * lh for b in blocks) + gap * (len(blocks) - 1) + 40
+    total = sum(len(b) * lh for b in blocks) + gap * (len(blocks) - 1) + round(40 * k)
     img = Image.new("RGBA", (W, total), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     tops, y = [], 10
@@ -170,7 +283,7 @@ def layout(paras, color):
         tops.append(y)
         for ln in lines:
             x = (W - d.textlength(ln, font=font)) / 2
-            d.text((x, y), ln, font=font, fill=color, stroke_width=stroke, stroke_fill=(0, 0, 0))
+            d.text((round(x), y), ln, font=font, fill=color, stroke_width=stroke, stroke_fill=(0, 0, 0))
             y += lh
         y += gap
     return img, tops, total
@@ -187,16 +300,27 @@ def chunks(paras, max_words=110):
     return groups
 
 
-def scroll_expr(tops, starts, total_dur, text_h):
-    """Piecewise-linear y(t) for the text layer: paragraph i's top reaches READ_Y*H when its voice starts."""
-    pts = [(0.0, START_Y * H - tops[0])]
-    avg = (START_Y * H - tops[0] - (H * 0.55 - text_h)) / max(total_dur, 1)
-    min_first = (START_Y - READ_Y) * H / max(avg, 1)
-    starts = [max(t, min_first) if i == 0 else t for i, t in enumerate(starts)]
-    for top, t in zip(tops, starts):
-        if t > pts[-1][0] + 0.05:
-            pts.append((t, READ_Y * H - top))
-    end_y = min(pts[-1][1], H * 0.55 - text_h)  # finish with the last lines (CTA) resting mid-screen
+def scroll_expr(tops, starts, total_dur, text_h, constant=False):
+    """y(t) for the text layer. The text rises slowly from the first frame, like the reference ads.
+
+    constant=True (music-only): one steady speed from the hook's start position to the CTA resting mid-screen.
+    Otherwise (voice): piecewise-linear so paragraph i reaches READ_Y*H when its voice starts, except that
+    anchors are skipped until the steady speed itself brings the text to the reading line (no fast jump at the start).
+    """
+    y0, end_y = START_Y * H - tops[0], H * 0.55 - text_h  # finish with the last lines (CTA) resting mid-screen
+    pts = [(0.0, y0)]
+    if constant:  # ease in: a third of the steady speed for the first EASE_S seconds, like the references
+        v = (y0 - end_y) / total_dur
+        pts.append((EASE_S, y0 - v * EASE_S / 3))
+    if not constant:
+        v = (y0 - end_y) / total_dur  # the steady speed (px/s)
+        for top, t in zip(tops, starts):
+            target = READ_Y * H - top
+            if (y0 - target) / v > t:  # the steady scroll hasn't got this paragraph to the reading line yet
+                continue
+            if t > pts[-1][0] + 0.05:
+                pts.append((t, target))
+        end_y = min(pts[-1][1], end_y)
     pts.append((total_dur, end_y))
     expr = f"{pts[-1][1]:.2f}"
     for (t0, y0), (t1, y1) in reversed(list(zip(pts, pts[1:]))):
@@ -205,237 +329,17 @@ def scroll_expr(tops, starts, total_dur, text_h):
     return expr
 
 
-# ---------- music-only (no voice-over), like the FluffCo hotel-pillow ad ----------
-WPS = 2.4  # reading pace, words per second
-
-
-HQ_W, HQ_H, HQ_FPS = 1080, 1920, 50   # still-image renders: full HD, 1 px per frame at 50 fps = 50 px/s (~2.2 words/s)
-
-
-def still_image(spec, d):
-    """The video's own background photo (never shared across videos): a 2K Kie nano-banana-pro render, cropped to 9:16."""
-    bi = spec.get("background_image")
-    prompt = spec.get("background_image_prompt")
-    if bi and Path(bi).exists():
-        src = Path(bi)
-    else:
-        prompt = prompt or bi  # older specs (DentalPULSE) put the photo prompt in "background_image"
-        src = d / "bg_still_raw.png"
-        if not src.exists():
-            sys.path.insert(0, str(ADS))
-            from longform_images import kie as kie_image
-            src.write_bytes(kie_image(os.environ["KIE_AI"], prompt, "9:16", res="2K"))
-    out = d / "bg_still.png"
-    im = Image.open(src).convert("RGB")
-    w, h = im.size
-    tw = min(w, int(h * HQ_W / HQ_H))
-    th = int(tw * HQ_H / HQ_W)
-    im = im.crop(((w - tw) // 2, (h - th) // 2, (w + tw) // 2, (h + th) // 2)).resize((HQ_W, HQ_H), Image.LANCZOS)
-    im.save(out)
-    return out
-
-
-# ---------- ElevenLabs voice-over (direct API, key in env ElevenLabKey) with a hard per-run credit cap ----------
-EL_MODEL = "eleven_turbo_v2_5"          # half the credits of multilingual_v2 (0.5 credit per character)
-EL_RATE = 0.5                           # credits per character for EL_MODEL
-EL_BUDGET = int(os.getenv("ELEVENLABS_RUN_BUDGET", "5000"))   # user rule 2026-11-12: max 5,000 credits per run
-EL_MAX_VOICED = int(os.getenv("ELEVENLABS_MAX_VOICED", "2"))  # and only 1-2 voiced concepts per run
-EL_VOICES = {"Rachel": "21m00Tcm4TlvDq8ikWAM", "Matilda": "XrExE9yKIg1WjnnlVkGX", "Aria": "9BWtsMINqrJLrRacOk9x",
-             "Jessica": "cgSgspJ2msm6clMCkdW9", "Laura": "FGY2WhTYpPnrIDTdsKH5"}
-
-
-def el_key():
-    return os.getenv("ElevenLabKey") or os.getenv("ELEVENLABS_API_KEY")
-
-
-def el_voice_for(spec):
-    """spec["el_voice"] wins; otherwise pick by the narrator's age in spec["voice"] (e.g. "female, ~60s")."""
-    if spec.get("el_voice") in EL_VOICES:
-        return spec["el_voice"]
-    m = re.search(r"(\d{2})", spec.get("voice", ""))
-    age = int(m.group(1)) if m else 50
-    return "Matilda" if age >= 55 else ("Jessica" if age < 42 else "Rachel")
-
-
-def speech_text(paras):
-    """The on-screen story, normalized so TTS reads symbols naturally."""
-    t = "\n\n".join(paras)
-    t = t.replace("HSA/FSA", "HSA and FSA").replace("100%", "one hundred percent").replace("%", " percent")
-    return t
-
-
-def el_ledger(out_root):
-    """Credits spent today (UTC), shared by every invocation in a batch run (the batch renders one video per call)."""
-    f = out_root / "_elevenlabs_ledger.json"
-    day = time.strftime("%Y-%m-%d", time.gmtime())
-    data = json.loads(f.read_text()) if f.exists() else {}
-    return f, day, data, data.get(day, {"credits": 0, "videos": []})
-
-
-def el_voiceover(spec, d, out_root, paras):
-    """Return (path, seconds) of the voice track, or None if there is no key, no request, or it would break the budget."""
-    if not spec.get("voiceover") or not el_key():
-        return None
-    text = speech_text(paras)
-    cost = round(len(text) * EL_RATE)
-    f, day, data, today = el_ledger(out_root)
-    if spec["id"] not in today["videos"]:
-        if len(today["videos"]) >= EL_MAX_VOICED or today["credits"] + cost > EL_BUDGET:
-            print(f"  voice-over skipped for {spec['id']}: today {today['credits']} credits / {len(today['videos'])} videos, "
-                  f"this one ~{cost} (cap {EL_BUDGET} credits, {EL_MAX_VOICED} videos) -> music only", flush=True)
-            return None
-    out = d / "voice_el.mp3"
-    if not out.exists():
-        name = el_voice_for(spec)
-        r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{EL_VOICES[name]}?output_format=mp3_44100_128",
-                          headers={"xi-api-key": el_key()}, timeout=600,
-                          json={"text": text, "model_id": EL_MODEL,
-                                "voice_settings": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.25,
-                                                   "use_speaker_boost": True}})
-        if not r.ok:
-            print(f"  ElevenLabs failed ({r.status_code}): {r.text[:200]} -> music only", flush=True)
-            return None
-        out.write_bytes(r.content)
-        today["credits"] += cost
-        today["videos"].append(spec["id"])
-        data[day] = today
-        f.write_text(json.dumps(data, indent=1))
-        (d / "voice_engine.txt").write_text(f"ElevenLabs {EL_MODEL} {name}, ~{cost} credits")
-        print(f"  voice-over: ElevenLabs {name}, ~{cost} credits (today {today['credits']}/{EL_BUDGET})", flush=True)
-    return out, duration(out)
-
-
-def build_still(spec, d, out_root, paras, music):
-    """High-quality music-only render: a still photo, the story scrolling exactly 1 px per frame (no shimmer from
-    sub-pixel rounding), 1080x1920, near-lossless text. The text is the ad, so the bits go to the text."""
-    global W, H
-    vid = spec["id"]
-    bg = still_image(spec, d)
-    W, H = HQ_W, HQ_H
-    try:
-        color = {"yellow": (255, 236, 64), "white": (255, 255, 255)}.get(spec.get("text_color", "white"))
-        img, tops, text_h = layout(paras, color)
-    finally:
-        W, H = 720, 1280
-    # pad one screen above and below so the visible window can be cropped out of the tall text layer each frame
-    # (overlaying the whole 16k-px layer per frame is 2-3x slower)
-    padded = Image.new("RGBA", (HQ_W, img.height + 2 * HQ_H), (0, 0, 0, 0))
-    padded.paste(img, (0, HQ_H))
-    padded.save(d / "text_hq.png")
-    y0 = round(START_Y * HQ_H - tops[0])   # text-layer top at t=0 (the hook sits in the lower half)
-    y1 = round(HQ_H * 0.55 - text_h)       # the CTA rests mid-screen at the end
-    moving = y0 - y1                         # frames of movement (1 px each)
-    voice = el_voiceover(spec, d, out_root, paras)
-    fps = HQ_FPS
-    if voice:  # keep exactly 1 px per frame, and pick the frame rate so the scroll lasts as long as the narration
-        fps = max(24, min(60, round(moving / (voice[1] + 1.0))))
-    total = max(moving / fps + 3.0, (voice[1] + 2.5) if voice else 0)   # then a hold on the CTA
-    final = out_root / f"{vid}.mp4"
-    music = music or (d / "music.mp3")
-    # a light blur on the photo: detailed textures (cobblestones) behind moving text otherwise double the file size
-    fc = (f"[0:v]gblur=sigma=2,eq=brightness=-0.05:saturation=0.95,format=yuv420p,loop=-1:1:0,fps={fps}[bgv];"
-          f"[1:v]loop=-1:1:0,fps={fps},crop={HQ_W}:{HQ_H}:0:'{HQ_H - y0}+min(n,{moving})'[tx];"
-          f"[bgv][tx]overlay=0:0:format=yuv420,format=yuv420p[v];")
-    inputs = ["-i", bg, "-i", d / "text_hq.png", "-stream_loop", "-1", "-i", str(music)]
-    if voice:  # narration up front, the music bed far underneath
-        inputs += ["-i", str(voice[0])]
-        fc += (f"[2:a]volume=0.12,afade=t=in:st=0:d=1.5,afade=t=out:st={total - 3:.2f}:d=3[m];"
-               f"[3:a]adelay=400|400,apad[vo];[vo][m]amix=inputs=2:duration=longest:normalize=0[a]")
-    else:
-        fc += f"[2:a]volume=0.55,afade=t=in:st=0:d=1.5,afade=t=out:st={total - 3:.2f}:d=3[a]"
-    # CRF 27: text stays crisp (checked against CRF 20 on zoomed crops), ~3 Mbps, ~130-150 MB for 5.5 min
-    subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", fc, "-map", "[v]", "-map", "[a]",
-                    "-t", f"{total:.2f}", "-c:v", "libx264", "-preset", "fast", "-crf", "27", "-maxrate", "4500k", "-bufsize", "9000k",
-                    "-profile:v", "high", "-g", str(fps * 5), "-pix_fmt", "yuv420p",
-                    "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", final], check=True)
-    if voice:
-        return final, total
-    (d / "voice_engine.txt").write_text("none (music only, still image, HQ)")
-    return final, total
-
-
-def build_music_only(spec, d, out_root, paras, only, music):
-    vid = spec["id"]
-    if spec.get("background_image_prompt") or spec.get("background_image"):
-        return build_still(spec, d, out_root, paras, music)
-    starts, t = [], 1.2
-    for p in paras:
-        starts.append(t)
-        t += len(p.split()) / WPS + 0.5
-    total = t + 3.0
-    if spec.get("background_image_prompt") and not spec.get("background_image"):
-        img = d / "bg_image.jpg"
-        if not img.exists():
-            # one dedicated image per video (never shared across concepts), same iPhone-realism style as the statics
-            sys.path.insert(0, str(ADS))
-            from longform_images import kie as kie_image, phone_finish
-            raw = d / "bg_image_raw.png"
-            raw.write_bytes(kie_image(os.environ["KIE_AI"], spec["background_image_prompt"], "9:16"))
-            from PIL import Image as _I
-            _I.open(raw).convert("RGB").resize((W, H)).save(img, quality=90)
-        spec["background_image"] = str(img)
-    if spec.get("background_image"):
-        bg = image_bg(d, Path(spec["background_image"]))
-        clips = None
-    else:
-        clips = [c for c in (d / "bg_0.mp4", d / "bg_1.mp4") if c.exists()]
-        if not clips:
-            raise RuntimeError("no background clips")
-    color = {"yellow": (255, 236, 64), "white": (255, 255, 255)}.get(spec.get("text_color", "white"))
-    img, tops, text_h = layout(paras, color)
-    img.save(d / "text.png")
-    # music-only: one constant reading-pace scroll, so the hook rises slowly from the lower half (like the examples)
-    y0 = START_Y * H - tops[0]
-    y1 = H * 0.55 - text_h
-    yexpr = f"{y0:.2f}+({(y1 - y0) / total:.4f})*t"
-    (d / "scroll_expr.txt").write_text(yexpr)
-    if clips:
-        bg = make_bg_loop(d, clips)
-    final = out_root / f"{vid}.mp4"
-    rate = ["-crf", "28", "-maxrate", "400k", "-bufsize", "800k"] if spec.get("background_image") else \
-           ["-crf", "26", "-maxrate", "2500k", "-bufsize", "5000k"]
-    music = music or (d / "music.mp3")
-    fc = (f"[0:v]eq=brightness=-0.06:saturation=0.95,format=yuv420p[bgv];"
-          f"[bgv][1:v]overlay=x=0:y='{yexpr}':eval=frame:shortest=0[v];"
-          f"[2:a]volume=0.55,afade=t=in:st=0:d=1.5,afade=t=out:st={total - 3:.2f}:d=3[a]")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", bg, "-loop", "1", "-i", d / "text.png",
-                    "-stream_loop", "-1", "-i", str(music), "-filter_complex", fc, "-map", "[v]", "-map", "[a]",
-                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast", *rate,
-                    "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", final], check=True)
-    (d / "voice_engine.txt").write_text("none (music only)")
-    return final, total
-
-
-def image_bg(d, image):
-    """Cheap background: one still story image with a slow zoom in and out (Ken Burns), as a 40 s seamless loop.
-    Costs no extra Kie credits when the image already exists (e.g. a long-form concept's image A)."""
-    bg = d / "bg_loop.mp4"
-    half = 20 * FPS
-    zoom = f"if(lte(on,{half}),1+0.06*on/{half},1.06-0.06*(on-{half})/{half})"
-    vf = (f"scale={W * 2}:{H * 2}:force_original_aspect_ratio=increase,crop={W * 2}:{H * 2},"
-          f"zoompan=z='{zoom}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={2 * half}:s={W}x{H}:fps={FPS}")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-i", image, "-vf", vf, "-frames:v", str(2 * half),
-                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-pix_fmt", "yuv420p", bg], check=True)
-    return bg
-
-
-def make_bg_loop(d, clips):
-    bg = d / "bg_loop.mp4"
-    if len(clips) == 1:
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", clips[0], "-an", "-vf", f"scale={W}:{H},fps={FPS}",
-                        "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", bg], check=True)
-        return bg
-    inputs, fc = [], []
-    for i, c in enumerate(clips):
-        inputs += ["-i", str(c)]
-        fc.append(f"[{i}:v]scale={W}:{H},fps={FPS},setpts=PTS-STARTPTS[v{i}]")
-    prev, off = "[v0]", duration(clips[0]) - 1.0
-    for i in range(1, len(clips)):
-        fc.append(f"{prev}[v{i}]xfade=transition=fade:duration=1:offset={off:.2f}[x{i}]")
-        prev = f"[x{i}]"; off += duration(clips[i]) - 1.0
-    subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(fc), "-map", prev, "-an",
-                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", bg], check=True)
-    return bg
+def integer_scroll(top0, text_h):
+    """Frame-exact y(n) for music-only videos: 1px every EASE_EVERY frames for EASE_S seconds, then PX_PER_FRAME px
+    every frame, ending with the last lines (CTA) resting mid-screen. Returns (ffmpeg expression in n, duration)."""
+    y0, end_y = round(START_Y * H - top0), round(H * 0.55 - text_h)
+    ef = int(EASE_S * FPS)
+    ease_px = ef // EASE_EVERY
+    steady_frames = max(0, (y0 - ease_px - end_y) // PX_PER_FRAME)
+    total_frames = ef + steady_frames + int(3 * FPS)  # 3s rest on the CTA
+    expr = (f"if(lt(n,{ef}),{y0}-floor(n/{EASE_EVERY}),"
+            f"max({end_y},{y0 - ease_px}-{PX_PER_FRAME}*(n-{ef})))")
+    return expr, total_frames / FPS
 
 
 # ---------- pipeline ----------
@@ -445,12 +349,21 @@ def build(spec, out_root, only=None, music=None):
     d.mkdir(parents=True, exist_ok=True)
     gender = "male" if spec.get("voice", "").lower().startswith("male") else "female"
     paras = paragraphs(spec["script"])
-    if NO_VOICE or spec.get("audio") == "music" or spec.get("background_image_prompt") or spec.get("background_image"):
-        # HQ still-image mode (music only, or ElevenLabs voice-over when spec["voiceover"] is true, within the credit cap)
-        return build_music_only(spec, d, out_root, paras, only, music)
-    # 1. voice by sections
-    groups = chunks(paras)
-    if only != "render":
+    music_only = spec.get("audio") == "music"
+    if not music_only and only != "render" and (TTS == "elevenlabs" or (TTS == "kie" and eleven_key())) \
+            and not all((d / f"vo_{gi:02d}.mp3").exists() for gi in range(len(chunks(paras)))):
+        need = el_credits("\n\n".join(paras))
+        ok, used = budget_claim(out_root, need)
+        if not ok:
+            print(f"  {vid}: ElevenLabs budget ({VOICE_BUDGET} credits/day) would be exceeded "
+                  f"({used} used + {need} needed): rendering music-only", flush=True)
+            music_only = True
+            spec["audio_note"] = f"Voice skipped: ElevenLabs budget of {VOICE_BUDGET} credits per run reached."
+        else:
+            print(f"  {vid}: ElevenLabs credits reserved {need} (today {used}/{VOICE_BUDGET})", flush=True)
+    # 1. voice by sections (skipped for music-only videos, which scroll at a fixed reading pace)
+    groups = [] if music_only else chunks(paras)
+    if only != "render" and not music_only:
         import concurrent.futures as cf
         kv = spec.get("kie_voice", "Rachel")
 
@@ -459,7 +372,13 @@ def build(spec, out_root, only=None, music=None):
             if p.exists():
                 return "cached"
             text = "\n\n".join(paras[i] for i in groups[gi])
-            if TTS == "kie":
+            if TTS == "elevenlabs" or (TTS == "kie" and eleven_key()):
+                try:
+                    tts_eleven(text, gender, p, spec.get("el_voice_id"))
+                    return "elevenlabs-direct"
+                except Exception as e:
+                    print(f"  {vid} section {gi}: elevenlabs failed ({e}); falling back", flush=True)
+            if TTS in ("kie", "elevenlabs"):
                 for attempt in range(2):
                     try:
                         tts_kie(text, gender, p, voice=kv)
@@ -473,18 +392,28 @@ def build(spec, out_root, only=None, music=None):
             engines = list(ex.map(one, range(len(groups))))
         (d / "voice_engine.txt").write_text(", ".join(f"s{i}:{e}" for i, e in enumerate(engines)))
     seg_paths = [d / f"vo_{gi:02d}.mp3" for gi in range(len(groups))]
-    if NO_VOICE or not all(p.exists() for p in seg_paths):
-        return build_music_only(spec, d, out_root, paras, only, music)
     # paragraph start times: section start + share of its duration by word count
     starts, t = [], 0.6
-    durs = [duration(p) for p in seg_paths]
-    for g, du in zip(groups, durs):
-        words = [len(paras[i].split()) for i in g]
-        acc = 0
-        for i, w in zip(g, words):
-            starts.append(t + du * acc / sum(words)); acc += w
-        t += du + 0.35
-    total = t + 2.5
+    if music_only:
+        t = 2.5  # (paragraph start times are only informational for music-only videos)
+        for p_ in paras:
+            starts.append(t); t += len(p_.split()) / MUSIC_WPS + 0.45
+        total = None  # set from the scroll distance once the text layer is laid out
+    else:
+        durs = [duration(p) for p in seg_paths]
+        for g, du in zip(groups, durs):
+            words = [len(paras[i].split()) for i in g]
+            acc = 0
+            for i, w in zip(g, words):
+                starts.append(t + du * acc / sum(words)); acc += w
+            t += du + 0.35
+        total = t + 2.5
+    if spec.get("background_image"):
+        img = d / "bg.jpg"
+        if not img.exists() and only != "render":
+            still_image(spec["background_image"], img)
+        if only == "assets":
+            return None, total or 0
     if only == "assets":
         for k, extra in enumerate(CLIP_ANGLES):
             c = d / f"bg_{k}.mp4"
@@ -493,23 +422,30 @@ def build(spec, out_root, only=None, music=None):
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", c, "-vf", "fps=2,scale=90:-2,tile=8x2", "-frames:v", "1",
                             d / f"bg_{k}_tiles.jpg"], check=True)
         return None, total
-    # 2. background clips
+    # 2. background: a still image with a slow zoom, or Veo clips
     clips = []
-    for k, extra in enumerate(CLIP_ANGLES):
+    for k, extra in enumerate([] if spec.get("background_image") else CLIP_ANGLES):
         c = d / f"bg_{k}.mp4"
         if not c.exists() and only != "render":
             veo_clip(spec["background"] + extra, c)
         if c.exists():
             clips.append(c)
-    if not clips:
+    if not clips and not spec.get("background_image"):
         raise RuntimeError("no background clips")
     # 3. text layer
     color = {"yellow": (255, 236, 64), "white": (255, 255, 255)}.get(spec.get("text_color", "white"))
     img, tops, text_h = layout(paras, color)
     img.save(d / "text.png")
-    yexpr = scroll_expr(tops, starts, total, text_h)
+    if music_only:
+        yexpr, total = integer_scroll(tops[0], text_h)
+    else:
+        yexpr = f"floor({scroll_expr(tops, starts, total, text_h)})"
     (d / "scroll_expr.txt").write_text(yexpr)
-    # 4. voice track
+    # 4. voice track (silence for music-only videos)
+    vo = d / "voice.m4a"
+    if music_only:
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-t", f"{total:.2f}",
+                        "-c:a", "aac", "-b:a", "160k", vo], check=True)
     lst = d / "vo_list.txt"
     sil = d / "sil.mp3"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", "0.35", sil], check=True)
@@ -517,12 +453,15 @@ def build(spec, out_root, only=None, music=None):
     for p in seg_paths:
         lines += [f"file '{p.name}'", f"file '{sil.name}'"]
     lst.write_text("\n".join(lines))
-    vo = d / "voice.m4a"
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-af", "adelay=250|250",
-                    "-ar", "44100", "-ac", "2", "-c:a", "aac", "-b:a", "160k", vo], check=True, cwd=d)
+    if not music_only:
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-af", "adelay=250|250",
+                        "-ar", "44100", "-ac", "2", "-c:a", "aac", "-b:a", "160k", vo], check=True, cwd=d)
     # 5. background loop: crossfade the clips, then loop to length
     bg = d / "bg_loop.mp4"
-    if len(clips) == 1:
+    if spec.get("background_image"):
+        bg = d / "bg_still.png"  # a still frame: no zoom, because zoompan's whole-pixel steps look jittery
+        Image.open(d / "bg.jpg").convert("RGB").resize((W, H), Image.LANCZOS).save(bg)
+    elif len(clips) == 1:
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", clips[0], "-an", "-vf", f"scale={W}:{H},fps={FPS}", bg], check=True)
     else:
         inputs, fc, prev, off = [], [], "[0:v]", 0.0
@@ -541,50 +480,56 @@ def build(spec, out_root, only=None, music=None):
     a_inputs = ["-i", str(vo)]
     if Path(music).exists():
         a_inputs += ["-stream_loop", "-1", "-i", str(music)]
-        afc = (f"[2:a]volume=1.0[vo];[3:a]volume={10 ** (MUSIC_DB / 20):.4f},afade=t=out:st={total - 3:.2f}:d=3[mu];"
+        mdb = MUSIC_ONLY_DB if music_only else MUSIC_DB
+        afc = (f"[2:a]volume=1.0[vo];[3:a]volume={10 ** (mdb / 20):.4f},afade=t=in:d=1.5,afade=t=out:st={total - 3:.2f}:d=3[mu];"
                f"[vo][mu]amix=inputs=2:duration=first:dropout_transition=0[a]")
     else:
         afc = "[2:a]anull[a]"
     vfc = (f"[0:v]eq=brightness=-0.06:saturation=0.95,format=yuv420p[bgv];"
-           f"[bgv][1:v]overlay=x=0:y='{yexpr}':eval=frame:shortest=0[v]")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", bg, "-loop", "1", "-i", d / "text.png",
+           f"[bgv][1:v]overlay=x=0:y='{yexpr}':eval=frame:shortest=0,fps={FPS}[v]")
+    bg_in = ["-loop", "1", "-framerate", str(FPS), "-i", str(bg)] if str(bg).endswith(".png") else ["-stream_loop", "-1", "-i", str(bg)]
+    subprocess.run(["ffmpeg", "-v", "error", "-y", *bg_in, "-loop", "1", "-framerate", str(FPS), "-i", d / "text.png",
                     *a_inputs, "-filter_complex", vfc + ";" + afc, "-map", "[v]", "-map", "[a]",
-                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast", "-crf", "26", "-maxrate", "2500k", "-bufsize", "5000k",
-                    "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", final], check=True)
+                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "medium", "-crf", "17",
+                    "-profile:v", "high", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", final], check=True)
     return final, total
 
 
 def main():
+    global TTS, EL_MODEL, VOICE_BUDGET
     p = argparse.ArgumentParser()
     p.add_argument("--brand", default="comfortwear")
     p.add_argument("--spec", required=True)
     p.add_argument("--music", help="music bed for every video in this run (default: generate one per angle file)")
     p.add_argument("--only", choices=["render", "assets"])
-    p.add_argument("--tts", choices=["kie", "openai"], default="kie")
-    p.add_argument("--no-voice", action="store_true", help="music-only render, scrolled at reading pace")
-    p.add_argument("--image", help="cheap mode: use this still image (slow zoom) as the background for the given IDs")
+    p.add_argument("--tts", choices=["elevenlabs", "kie", "openai"], default="kie",
+                   help="elevenlabs = direct API (env ElevenLabKey); kie also tries direct ElevenLabs first when that key is set")
+    p.add_argument("--el-model", default=EL_MODEL, choices=list(EL_RATE), help="ElevenLabs model (turbo = half the credits)")
+    p.add_argument("--voice-budget", type=int, default=VOICE_BUDGET, help="max ElevenLabs credits per day across all runs")
+    p.add_argument("--no-voice", action="store_true", help="force music-only for every video in this call")
     p.add_argument("ids", nargs="*")
     a = p.parse_args()
-    global TTS, NO_VOICE
-    TTS = a.tts
-    NO_VOICE = a.no_voice
+    TTS, EL_MODEL, VOICE_BUDGET = a.tts, a.el_model, a.voice_budget
     out_root = ADS / "brands" / a.brand / "output" / "scroll_videos"
     out_root.mkdir(parents=True, exist_ok=True)
     specs = json.loads(Path(a.spec).read_text())
     music = a.music
-    if not music:  # one Suno bed per spec file, shared by its variations (generated once, then reused)
+    if not music:  # one Suno bed per spec file, shared by its variations
         bed = Path(a.spec).with_name(Path(a.spec).stem + "_music.mp3")
-        if not bed.exists():
+        if not bed.exists() and a.only != "render":
             print(f"music bed: generating {bed.name}", flush=True)
             suno(specs[0].get("music_prompt", DEFAULT_MUSIC), bed)
-        music = str(bed)
+        if bed.exists():
+            music = str(bed)
     for s in specs:
         if a.ids and s["id"] not in a.ids:
             continue
-        if a.image:
-            s["background_image"] = a.image
+        normalize_spec(s, a.no_voice)
+        only = a.only
+        if only == "render" and s["audio"] == "voice" and not (out_root / s["id"] / "voice.m4a").exists():
+            only = None  # a voiced spec needs its narration generated first (budget-capped inside build)
         print(f"{s['id']}: building…", flush=True)
-        f, t = build(s, out_root, a.only, music)
+        f, t = build(s, out_root, only, music)
         print(f"  {f or 'assets ready'} ({t / 60:.1f} min)", flush=True)
 
 

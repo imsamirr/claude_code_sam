@@ -336,12 +336,20 @@
       "every toiletry, box, bottle and package is plain white or plain grey with no printing, labels or brand names"
     ],
     "learning": {
-      "transcription": "Not authorized yet for DentalPULSE: use free transcripts only."
+      "transcription": "Authorized by user 2026-11-12: spend Atria credits to transcribe other brands' library videos and our own ads. Always call get_library_ad_transcript (free) first; transcribe_library_ad / --transcribe only when none exists."
     },
     "output_dir": "output/longform",
-    "schedule": "Weekly, Thursday; starts 5:34 AM America/New_York so the batch is ready by 8:00 AM (user asked for Thursday 8am ET)",
+    "schedule": "Weekly, Thursday 3:34 AM America/New_York: 10 long-form statics + 12 scrolling videos, ready by 8:00 AM (user 2026-11-12)",
     "disease_angles": "User 2026-11-11: be as aggressive as possible on disease topics (pneumonia, aspiration pneumonia, denture stomatitis, mold, cavities). Disease facts come through the narrator's diagnosis and attributed, real research; the product claims stay its approved mechanical claims (99.9% bacteria, 42,000 Hz, medical-grade UV-C, tap water). Never write that DentalPULSE cures, treats or prevents a named disease (ad rejection/FTC risk). Update 2026-11-11 (user, on DLF06): compliance is not a concern for disease angles; go as aggressive as possible. Narrators can blame the appliance outright and report their health outcome without hedging or honest-ceiling lines.",
     "schedule_trigger_id": "trig_01VF6YyHQywStphEunbFLygY",
-    "feedback_use": "User 2026-11-11: use the feedback sheet to find angles and customer language only. Don't raise compliance issues or business fixes from it (e.g. checkout upsells)."
+    "feedback_use": "User 2026-11-11: use the feedback sheet to find angles and customer language only. Don't raise compliance issues or business fixes from it (e.g. checkout upsells).",
+    "scroll_videos": {
+      "weekly_output": 12,
+      "structure": "4 angles x 3 variations, DV numbering",
+      "audio": "1-2 videos per run with ElevenLabs voice-over (eleven_turbo_v2_5) + music, the rest music only. Hard cap: 5,000 ElevenLabs credits per run (user 2026-11-12); --voice-budget enforces it.",
+      "background": "still image (background_image) with slow zoom",
+      "delivery": "Upload full-quality videos with ads/drive_upload.py (Drive API, env GDRIVE_CLIENT_ID/SECRET/REFRESH_TOKEN, full drive scope) into the Drive folder 'DentalPULSE - LFS Video' (drive_folder_id below), each file named '<Notion card title without (3 variations)> - DV<nn> <title>.mp4', and put each file's Drive link under its variation on the Notion card. SendUserFile only as a fallback if the upload fails.",
+      "drive_folder_id": "1Lh1fDwGSW9OnLrsrsj_-WtYKGzfX7gBO"
+    }
   }
 }

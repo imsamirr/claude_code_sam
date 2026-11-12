@@ -1,21 +1,23 @@
-"""Upload large files (scroll videos) to Google Drive with the Drive API, resumable, in chunks.
+"""Upload large files (the 40-70 MB scrolling videos) to Google Drive with the Drive API, no size cap.
 
-Credentials come from the environment (the user's own OAuth app + refresh token, set 2026-11-12):
+Credentials (OAuth for the Drive owner's own account, scope drive.file), as environment variables:
     GDRIVE_CLIENT_ID, GDRIVE_CLIENT_SECRET, GDRIVE_REFRESH_TOKEN
 
-    python ads/drive_upload.py --folder <folderId> file1.mp4 file2.mp4 ...   # prints JSON lines: name, id, link
-    python ads/drive_upload.py --folder <folderId> 'LV01.mp4::LV01 - <Concept title> - <Angle>.mp4'   # name it like the Notion card
-    python ads/drive_upload.py --folder <folderId> --check                     # verify access to the folder
+With the drive.file scope the app can only see files and folders it created itself, so by default the
+videos go into a folder this script creates and reuses: "<Brand> Long-Form Videos (auto)" in My Drive.
+It can be moved or shared freely in Drive afterwards; the app keeps access to it.
 
-Re-uploading a name that already exists in the folder updates that file in place (same link), so links on
-Notion cards stay valid.
+    python ads/drive_upload.py --brand dentalpulse ads/brands/dentalpulse/output/scroll_videos/DV13.mp4 ...
+    python ads/drive_upload.py --brand dentalpulse --check          # verify the credentials only
+
+Prints one line per file: "<local path>\t<Drive view link>". Re-uploading the same file name replaces nothing;
+it adds a new file, so name versions clearly (e.g. DV01_voice.mp4).
 """
 
 import argparse
 import json
 import os
 import sys
-import time
 from pathlib import Path
 
 import requests
@@ -23,89 +25,118 @@ import requests
 TOKEN_URL = "https://oauth2.googleapis.com/token"
 API = "https://www.googleapis.com/drive/v3"
 UPLOAD = "https://www.googleapis.com/upload/drive/v3/files"
-CHUNK = 32 * 1024 * 1024  # multiple of 256 KiB
+CHUNK = 8 * 1024 * 1024  # resumable upload chunk (multiple of 256 KiB)
 
 
 def access_token():
+    need = ["GDRIVE_CLIENT_ID", "GDRIVE_CLIENT_SECRET", "GDRIVE_REFRESH_TOKEN"]
+    missing = [k for k in need if not os.getenv(k)]
+    if missing:
+        sys.exit(f"missing environment variables: {', '.join(missing)}")
     r = requests.post(TOKEN_URL, timeout=60, data={
         "client_id": os.environ["GDRIVE_CLIENT_ID"], "client_secret": os.environ["GDRIVE_CLIENT_SECRET"],
         "refresh_token": os.environ["GDRIVE_REFRESH_TOKEN"], "grant_type": "refresh_token"})
-    if not r.ok:
-        sys.exit(f"token refresh failed: {r.status_code} {r.text[:300]}")
+    if r.status_code != 200:
+        sys.exit(f"token refresh failed ({r.status_code}): {r.text[:300]}")
     return r.json()["access_token"]
 
 
-def find(tok, folder, name):
-    q = f"'{folder}' in parents and name = '{name}' and trashed = false"
-    r = requests.get(f"{API}/files", headers={"Authorization": f"Bearer {tok}"}, timeout=60,
-                     params={"q": q, "fields": "files(id,name)", "supportsAllDrives": "true", "includeItemsFromAllDrives": "true"})
-    r.raise_for_status()
-    files = r.json().get("files", [])
-    return files[0]["id"] if files else None
+def folder_id(tok, name, parent=None):
+    """Find (or create) a folder this app created, by name."""
+    h = {"Authorization": f"Bearer {tok}"}
+    q = f"name = '{name}' and mimeType = 'application/vnd.google-apps.folder' and trashed = false"
+    if parent:
+        q += f" and '{parent}' in parents"
+    r = requests.get(f"{API}/files", headers=h, params={"q": q, "fields": "files(id,name)"}, timeout=60).json()
+    if r.get("files"):
+        return r["files"][0]["id"]
+    body = {"name": name, "mimeType": "application/vnd.google-apps.folder"}
+    if parent:
+        body["parents"] = [parent]
+    return requests.post(f"{API}/files", headers=h, json=body, params={"fields": "id"}, timeout=60).json()["id"]
 
 
-def upload(tok, folder, path, mime="video/mp4", name=None):
-    path = Path(path)
-    name = name or path.name
+def upload(tok, path, parent, mime="video/mp4", name=None):
     size = path.stat().st_size
-    existing = find(tok, folder, name.replace("'", "\\'"))
     h = {"Authorization": f"Bearer {tok}", "Content-Type": "application/json; charset=UTF-8",
          "X-Upload-Content-Type": mime, "X-Upload-Content-Length": str(size)}
-    if existing:
-        r = requests.patch(f"{UPLOAD}/{existing}?uploadType=resumable&supportsAllDrives=true", headers=h, json={}, timeout=60)
-    else:
-        r = requests.post(f"{UPLOAD}?uploadType=resumable&supportsAllDrives=true", headers=h,
-                          json={"name": name, "parents": [folder]}, timeout=60)
+    r = requests.post(f"{UPLOAD}?uploadType=resumable&fields=id,webViewLink", headers=h, timeout=60,
+                      data=json.dumps({"name": name or path.name, "parents": [parent]}))
     r.raise_for_status()
     session = r.headers["Location"]
-    pos = 0
     with open(path, "rb") as f:
-        while pos < size:
-            f.seek(pos)
-            data = f.read(CHUNK)
-            end = pos + len(data) - 1
-            for attempt in range(5):
-                try:
-                    r = requests.put(session, data=data, timeout=600,
-                                     headers={"Content-Length": str(len(data)), "Content-Range": f"bytes {pos}-{end}/{size}"})
-                    break
-                except requests.RequestException:
-                    time.sleep(2 ** attempt)
-            else:
-                raise RuntimeError(f"{path.name}: chunk at {pos} failed 5 times")
+        start = 0
+        while start < size:
+            chunk = f.read(CHUNK)
+            end = start + len(chunk) - 1
+            r = requests.put(session, timeout=300, data=chunk,
+                             headers={"Content-Length": str(len(chunk)), "Content-Range": f"bytes {start}-{end}/{size}"})
             if r.status_code in (200, 201):
-                pos = size
-                fid = r.json()["id"]
-            elif r.status_code == 308:
-                rng = r.headers.get("Range")
-                pos = int(rng.split("-")[1]) + 1 if rng else 0
-            else:
-                raise RuntimeError(f"{path.name}: upload failed {r.status_code} {r.text[:300]}")
-    meta = requests.get(f"{API}/files/{fid}", headers={"Authorization": f"Bearer {tok}"}, timeout=60,
-                        params={"fields": "id,name,size,webViewLink", "supportsAllDrives": "true"}).json()
-    return {"name": meta["name"], "id": fid, "size_mb": round(int(meta.get("size", size)) / 1e6),
-            "link": meta.get("webViewLink", f"https://drive.google.com/file/d/{fid}/view"),
-            "download": f"https://drive.google.com/uc?export=download&id={fid}"}
+                return r.json()["webViewLink"]
+            if r.status_code != 308:
+                raise RuntimeError(f"upload failed ({r.status_code}): {r.text[:300]}")
+            rng = r.headers.get("Range")
+            start = int(rng.split("-")[1]) + 1 if rng else 0
+            f.seek(start)
+    raise RuntimeError("upload ended without a final response")
+
+
+def replace(tok, path, file_id, mime="video/mp4"):
+    """Overwrite an existing Drive file's content in place (same file id, same link)."""
+    size = path.stat().st_size
+    h = {"Authorization": f"Bearer {tok}", "Content-Type": "application/json; charset=UTF-8",
+         "X-Upload-Content-Type": mime, "X-Upload-Content-Length": str(size)}
+    r = requests.patch(f"{UPLOAD}/{file_id}?uploadType=resumable&fields=id,webViewLink", headers=h, timeout=60, data="{}")
+    r.raise_for_status()
+    session = r.headers["Location"]
+    with open(path, "rb") as f:
+        start = 0
+        while start < size:
+            chunk = f.read(CHUNK)
+            end = start + len(chunk) - 1
+            r = requests.put(session, timeout=300, data=chunk,
+                             headers={"Content-Length": str(len(chunk)), "Content-Range": f"bytes {start}-{end}/{size}"})
+            if r.status_code in (200, 201):
+                return r.json()["webViewLink"]
+            if r.status_code != 308:
+                raise RuntimeError(f"replace failed ({r.status_code}): {r.text[:300]}")
+            rng = r.headers.get("Range")
+            start = int(rng.split("-")[1]) + 1 if rng else 0
+            f.seek(start)
+    raise RuntimeError("replace ended without a final response")
 
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--folder", required=True)
-    p.add_argument("--check", action="store_true")
+    p.add_argument("--brand", default="comfortwear")
+    p.add_argument("--folder", help="folder name (default: '<Brand> Long-Form Videos (auto)'), or an existing folder ID")
+    p.add_argument("--subfolder", help="optional subfolder, e.g. the batch date 2026-11-19")
+    p.add_argument("--check", action="store_true", help="only verify the credentials and the folder")
+    p.add_argument("--folder-id", help="upload into this existing Drive folder (needs the full drive scope)")
+    p.add_argument("--names", help="JSON file mapping local path -> Drive file name")
+    p.add_argument("--replace", help="JSON file mapping local path -> existing Drive file link or id: overwrite in place")
     p.add_argument("files", nargs="*")
     a = p.parse_args()
     tok = access_token()
+    import re as _re
+    if a.folder and not a.folder_id and _re.fullmatch(r"[A-Za-z0-9_-]{25,}", a.folder):  # an ID, not a name
+        a.folder_id, a.folder = a.folder, None
+    root = a.folder_id or folder_id(tok, a.folder or f"{a.brand.capitalize()} Long-Form Videos (auto)")
+    parent = folder_id(tok, a.subfolder, root) if a.subfolder else root
+    names = json.loads(Path(a.names).read_text()) if a.names else {}
+    if a.replace:
+        import re
+        for f, ref in json.loads(Path(a.replace).read_text()).items():
+            fid = re.search(r"/d/([^/]+)", ref).group(1) if "/d/" in ref else ref
+            print(f"{f}\t{replace(tok, Path(f), fid)}", flush=True)
+        return
     if a.check:
-        r = requests.get(f"{API}/files/{a.folder}", headers={"Authorization": f"Bearer {tok}"}, timeout=60,
-                         params={"fields": "id,name,capabilities(canAddChildren)", "supportsAllDrives": "true"})
-        print(r.status_code, r.text[:300])
+        print(f"ok: credentials work; folder https://drive.google.com/drive/folders/{parent}")
         return
     for f in a.files:
-        t0 = time.time()
-        path, _, name = f.partition("::")  # "LV01.mp4::LV01 - The Woman on the Boat - Europe Travel Shoe Test.mp4"
-        res = upload(access_token(), a.folder, path, name=name or None)  # fresh token per file (tokens last 1 hour)
-        res["secs"] = round(time.time() - t0)
-        print(json.dumps(res), flush=True)
+        f, _, inline = f.partition("::")  # also accepts "path.mp4::Drive name.mp4"
+        link = upload(access_token(), Path(f), parent, name=inline or names.get(f))  # fresh token per file
+        print(f"{f}\t{link}", flush=True)
 
 
 if __name__ == "__main__":

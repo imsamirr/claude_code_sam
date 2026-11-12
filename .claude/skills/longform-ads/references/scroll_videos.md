@@ -36,11 +36,20 @@ python ads/scroll_video.py --brand <brand> --spec <variations.json> --music <bed
 | `offer_swaps`, `alt_hooks` | Dated offer replacements and alternate openings |
 | `text_color` | Optional: white or yellow |
 
-### Spec fields for still-image and music-only videos (from DentalPULSE, 2026-11; both brands)
-- **Background photo:** `background_image_prompt` (preferred) or `background_image` (older DentalPULSE specs put the prompt here; a path to an existing file is used as-is). It's rendered with Kie `nano-banana-pro` at 2K, then the HQ render below (no Veo). Keep the middle of the frame calm and mid-to-dark, because white text sits on it.
-- **`"audio": "music"`** (or `--no-voice`): no voice-over. It renders with the HQ still-image mode below (1 px per frame at 50 fps, about 2.2 words a second). Write these scripts with shorter paragraphs and more one-line cliffhangers.
-- **Scroll speed (user feedback 2026-11-12, both brands):** the text must rise slowly from the first frame, like the references, never jump. In HQ mode the hook starts at 60% height and rises at a steady 50 px/s. Voice videos stay at a steady speed until they reach the voice's place, then follow the voice.
+- **Spec fields:** `background_image` holds the photo prompt; ComfortWear's `background_image_prompt` is mapped to it. `"audio": "music"` or `"voice"`. ComfortWear's `"voiceover": true` maps to `"audio": "voice"`, and a spec with no `audio` field is **music-only** (voice is opt-in). `--no-voice` forces music-only. `el_voice_id`, or `el_voice` (a name: Rachel, Matilda, Aria, Jessica, Laura, Brian), picks the voice. The default comes from the narrator's age and gender.
+### Still-image backgrounds, music-only and voice specs (both brands, shared script merged 2026-11-12)
+- **`background_image`** (instead of `background`): a prompt for one calm, mid-to-dark 9:16 phone photo of the narrator's world. It's rendered with Kie `nano-banana-pro` at 2K, then given a slow breathing zoom over the whole video (no Veo). Keep the middle of the frame quiet, because white text sits on it.
+- **`"audio": "music"`**: no voice-over. The text scrolls at a fixed reading pace (`MUSIC_WPS` = 2.5 words a second, with the hook held for 2.5 seconds) and the music bed plays at −6 dB. Write these scripts with shorter paragraphs and more one-line cliffhangers.
+- **Quality (user feedback 2026-11-12: "blurry and a bit laggy"):**
+  - **Resolution and encoding:** render at 1080×1920 at 60 fps, with the text layer laid out at full resolution (the font and sizes scale with the width), x264 `medium` at CRF 17.
+  - **Motion:** music-only videos scroll by whole pixels: 1px every 3 frames during the 6-second ease-in, then exactly 1px per frame (60px/s). Fractional speeds make the text alternate 1px and 2px steps, which reads as stutter. The video's length follows from the text height.
+  - **Background:** still-image backgrounds are static. ffmpeg `zoompan` moves in whole-pixel steps and jitters.
+  - **Render time:** about 10–15 minutes per video on 4 cores.
+- **Background must match the copy (same feedback):** the photo shows the story's hook object (the jelly jar with the teeth in it, the moldy case hinge, the check next to the denture), large in the upper half, with a darker, simpler lower half for the text. Never a generic setting. Check every background for burned-in text or captions and re-render any that have them.
+- **Scroll speed (user feedback 2026-11-12):** the text must rise slowly from the first frame, like the references, never jump. Music-only videos scroll at one steady speed (story length ÷ runtime, about 35–40 px/s) after an ease-in at a third of that speed for the first 6 seconds. Voice videos stay at that steady speed until it reaches the voice's place, then follow the voice.
 - **Music beds:** without `--music`, one Suno bed is generated per spec file (`<stem>_music.mp3` next to it) and shared by its variations. Set `music_prompt` on the first variation to change the mood.
+- **ElevenLabs direct (2026-11-12):** the user added an ElevenLabs API key as the environment variable `ElevenLabKey`. Whenever it is set, `scroll_video.py` uses the ElevenLabs API directly first (`eleven_multilingual_v2`, Rachel for women and Brian for men, or `el_voice_id` in the spec), then falls back to Kie, then OpenAI. Use `--tts elevenlabs` to force it.
+- **ElevenLabs credit cap (user rule 2026-11-12):** at most 5,000 ElevenLabs credits per run. The default model is `eleven_turbo_v2_5` at 0.5 credit per character, so a ~700-word script costs about 2,000 credits and at most 2 voice videos fit per run; every other video is music-only. `scroll_video.py` enforces this: each voice video reserves its credits in a per-day ledger (`elevenlabs_credit_ledger.json`, shared by parallel processes), and one that would go over `--voice-budget` (default 5000) is rendered music-only with an `audio_note`. Check the real usage with `GET https://api.elevenlabs.io/v1/user/subscription` (`character_count`) before and after.
 - **Voice availability (2026-11-12):** Kie's ElevenLabs models (turbo-2-5 and multilingual-v2) returned "Internal Error", and the OpenAI fallback needs account credits. Check both before a voice batch.
 
 ### What each stage does
@@ -85,10 +94,15 @@ Use the writer spec in `ads/brands/comfortwear/output/scroll_videos/scripts/WRIT
   ```
   Call `notion-create-file-upload` with `content_type: "video/mp4"`, because the default `application/mp4` rejects a `video/mp4` POST. POST the file right away, and create the card within the hour. Embed it with `<video source="file-upload://<id>">LVxx video</video>`. For anything over 20MB, use Drive (`create_file` with a `sha256:<hash>:<path>` reference) and link to it.
 - **Before the final render, fact-check the on-screen text:** city and state pairs, spacing inside quotes, prices that add up. A mistake means re-rendering the video.
+- **Replacing videos:** `--replace <map.json>` (local path → existing Drive link or file id) overwrites a file's content in place, so its link and the Notion links stay the same.
+- **Drive API uploader (2026-11-12):** `python ads/drive_upload.py --brand <brand> --folder-id <id> --names <map.json> <files>` (also accepts `--folder <id>` and `"<path>::<Drive name>"` arguments) uploads files of any size (resumable) and prints each Drive link. It needs `GDRIVE_CLIENT_ID`, `GDRIVE_CLIENT_SECRET` and `GDRIVE_REFRESH_TOKEN`, an OAuth refresh token for the Drive owner with the `drive` scope, set up through Google Cloud and the OAuth Playground. Use it instead of the Drive connector, which caps files at about 3 MB. The folder id and naming rule live in `brand.json → longform_program.scroll_videos`.
+
 - **Sample:** send one video with SendUserFile.
 
 
 ## Still-image HQ mode (the default, user decision 2026-11-11: "the main purpose of the video is the text")
+
+> **Implementation note (shared script merged 2026-11-12):** the shared `scroll_video.py` now renders at **1080×1920, 60 fps**: whole-pixel scroll (1 px per frame after a 6-second ease-in), a static background and x264 CRF 17. The 50 fps, blur and CRF 27 details below describe the earlier ComfortWear-only version. Delivery rules (Drive, hook previews, naming) still apply.
 
 The user rejected the first renders as poor quality. Those were 720p Veo backgrounds compressed to 380 kbps to fit Notion. Every video now uses the following.
 
@@ -128,6 +142,6 @@ python ads/scroll_video.py --brand <brand> --spec <scroll_specs.json> --music ad
 - **Opt in per video** with `"voiceover": true` in the spec. Pick the **1–2 concepts with the strongest hooks** for voice. Every other video stays music-only.
 - **Voice choice:** `"el_voice": "<name>"`, or by default from the narrator's age in `"voice"`: 55+ gets Matilda, under 42 gets Jessica, everyone else Rachel.
 - **Cost:** the model is `eleven_turbo_v2_5`, at 0.5 credit per character, so a 700-word script is about 2,000 credits.
-- **Hard caps in the script:** 5,000 credits and 2 voiced videos per UTC day, tracked in `output/scroll_videos/_elevenlabs_ledger.json` across separate invocations. Override with `ELEVENLABS_RUN_BUDGET` / `ELEVENLABS_MAX_VOICED` only if the user raises the limit.
+- **Hard caps in the script:** 5,000 credits and 2 voiced videos per UTC day, tracked in `output/scroll_videos/elevenlabs_credit_ledger.json` (shared script; per brand, per day) across separate invocations. Override with `ELEVENLABS_RUN_BUDGET` / `ELEVENLABS_MAX_VOICED` only if the user raises the limit.
 - **Over the cap:** the video falls back to music-only and the log says so. Report the credits used in the run summary.
 - **Render:** the whole script is read in one request, so the narration flows naturally. Symbols are spoken naturally (HSA and FSA, percent). The text still moves exactly 1 px per frame, with the frame rate (24–60) chosen so the scroll lasts as long as the narration. The music bed plays at about −18 dB under the voice.
