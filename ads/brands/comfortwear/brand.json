@@ -219,6 +219,23 @@
   },
   "format_guides_note": "Testimonial/review ads use fb_comment or trustpilot; tweet-style ads use x_post. Cartoon/animation formats (user rule, Oct 11: use them, both brands): cartoon_3d, comic_strip, flat_illustration, claymation, retro_cartoon, anime_soft. Aim for ~15–20% of every batch.",
   "atria_account": "WearOrtho",
+  "video_deep_dive": {
+    "atria_account_id": "a829d015648d481fb70eb471556cdb77",
+    "meta_ad_account_id": "act_471512623576169",
+    "currency": "CAD",
+    "timezone": "America/Toronto",
+    "ignore_accounts": ["WearOrtho V2 (no spend)"],
+    "top_spend_min": 5000,
+    "new_launch_min_spend": 100,
+    "new_launch_min_roas": 1.6,
+    "comparison_min_spend": 1500,
+    "expert": "podiatrist",
+    "product_label": "ComfortWear shoe",
+    "graphics_label": "medical / foot-anatomy",
+    "slack_recipients": [{"name": "Samir (DM)", "id": "U04PZNV9FV0"}],
+    "pending_recipients": "Mica: not in Slack yet",
+    "schedule": "Mon 7:43am America/Toronto (scheduled task 'WearOrtho weekly creative deep dive', trig_01UpF6xwkG3g2yKYVtQ4LznX)"
+  },
   "program": {
     "schedule": "Tue + Fri 5:50am America/New_York (routine 'Comfort Wear weekly statics', trig_01UPZqhi5EjEjs2g3yMjMd2F)",
     "iteration_batch": {

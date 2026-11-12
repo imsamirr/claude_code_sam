@@ -46,6 +46,22 @@
     "es": "All on-image text is in Spanish exactly as written in quotes, as a Spanish-speaking person living in the USA would say it (neutral US Latino, Mexican-leaning, using 'tú'). Keep every accent and sign: á é í ó ú ñ ¿ ¡. Numbers in US format. Do not translate brand names."
   },
   "atria_account": "exact ad-account name in Atria",
+  "video_deep_dive": {
+    "atria_account_id": "Atria ad-account id (list_ad_accounts -> id)",
+    "meta_ad_account_id": "act_...",
+    "currency": "CAD/USD",
+    "timezone": "IANA zone, e.g. America/Toronto",
+    "ignore_accounts": [],
+    "top_spend_min": 5000,
+    "new_launch_min_spend": 100,
+    "new_launch_min_roas": 1.6,
+    "comparison_min_spend": 1500,
+    "expert": "authority figure to track in frames (podiatrist, dentist...)",
+    "product_label": "how the product is named in frames/scripts",
+    "graphics_label": "how-it-works graphic type (medical, cleaning, ...)",
+    "slack_recipients": [{"name": "Name", "id": "Slack user id"}],
+    "schedule": "weekday + time + tz, scheduled task name + trigger id once created"
+  },
   "program": {
     "schedule": "e.g. Tue + Fri 5:50am America/New_York (stagger brands ~15 min apart; routine name + trigger id once created)",
     "iteration_batch": {
