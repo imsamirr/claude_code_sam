@@ -432,7 +432,7 @@ prompt. Rejected concepts get one regeneration with the fix; approved GIF candid
    "<folder> concepts" from `python ads/review.py csv --brand <brand> --week <folder>` (create_file,
    `textContent`, `contentMimeType: text/csv`; trash an older sheet for the same folder first). Images
    are too large for the Drive connector, so the sheet links to each 4:5/GIF on GitHub.
-3. Slack: DM `slack.notify_channel_id`: "**<Brand> <batch type> ready: <folder> (<n> concepts)**", links
+3. Slack (user rule 2026-11-13: ALWAYS, after every batch, scheduled or by hand): DM Samir (`slack.notify_channel_id`, U04PZNV9FV0) with the Google Drive subfolder link FIRST (the one-line first message line after the title), then the other links. DM `slack.notify_channel_id`: "**<Brand> <batch type> ready: <folder> (<n> concepts)**", links
    to the sheet, Drive folder, Notion review task and GitHub output folder, then one line: mix split · source ads
    (iterations) · new formats and their inspiration ads · angle and pain split · offer count · Spanish count (if enabled) · GIF candidates · image cost.
    Mention anything skipped. Also DM rule/format changes the user should know about.
