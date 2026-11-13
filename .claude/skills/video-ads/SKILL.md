@@ -68,6 +68,15 @@ write keeps the winner's *angle and proof points* and moves it into the short na
   end). Product facts and claims only from brand.json; nothing from `claims_to_avoid` (Comfort
   Wear: no guarantees, review counts or star ratings, no medical/podiatrist claims on screen).
 - Respect the audience: celebrate, don't mock (plus-size: no "struggling to fit" punchlines).
+- **Scene = caption (user rule)**: every scene must show what its caption/VO line names. "Nike
+  Air Max: 5/10" plays over Nike Air Max footage, "Hokas" over Hokas, "slip-resistant" over the
+  outsole, "3 nurses on my floor" over a nurse at work. If the only clip of a competitor has
+  burned-in text, put the caption exactly over it (measure its y on a frame) with `"delay": -0.25`
+  so it's covered from the first visible frame. Competitor shoes may appear when named (this
+  overrides the statics' "no other brands' products" rule).
+- **Unique concepts (user rule)**: every video in a batch has its own concept (angle + format +
+  hook). Don't make two videos for the same angle in one batch, and spread footage so the same
+  clip isn't the hook or hero of more than one video.
 - **Congruence (user rule)**: every scene must fit the concept's audience and setting. A
   "plus-size Disney" ad shows only plus-size women and/or Disney, including the product shots
   (use a plus-size creator such as Larissa for those). No generic feet, car or home b-roll that
@@ -137,7 +146,10 @@ credits**), save it next to edit.json and set `"music": {"file": "<path>", "gain
 
 ## 5. QA (always, before showing anything)
 
-Run the automated checks first (all must be clean):
+`python ads/video/qa.py <id>.mp4` runs all of the checks below and writes `<id>_qa.png`: one frame
+from the middle of every scene, 9:16 on top and 4:5 below. Read it. It must print PASS.
+
+The same checks by hand:
 ```bash
 ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames,avg_frame_rate -of csv=p=0 <id>.mp4   # frames == 30 x duration
 ffprobe -v error -select_streams v:0 -show_entries packet=pts_time -of csv=p=0 <id>.mp4 | sort -n | awk 'NR>1{d=$1-p; if (d>0.0345||d<0.032) print "gap",p,$1} {p=$1}'   # no output
@@ -162,7 +174,25 @@ and Read them. Fix and re-render anything with:
 3. If the brand has Drive/Slack delivery set up (`drive_folder_id`, `slack`) and the user wants
    it, mirror the static-ads delivery (Drive folder for the week, Slack DM with links).
 
-## Iterating
+## Iterating on the account's winners ("iterate our top ads")
+
+1. Pull winners from Atria: `list_ad_accounts` → `list_ad_account_ads period=last_14d
+   metrics=spend,roas,purchases,cost_per_purchase,ctr_all` (sorted by spend), keep the user's
+   threshold (Comfort Wear Nov 2026: **$1,000+ spend and ROAS > 1.7 over 14 days**, top 5 by
+   spend). Check every connected account for the brand (WearOrtho, WearOrtho V2).
+2. Study each: `get_ad_account_ad` (copy, headline, landing page, video URL),
+   `get_ad_account_video_transcript` (free), download and watch the video as a sheet. Statics
+   count too: their headline + proof points become a product-demo video.
+3. One iteration per winner: keep its **angle, audience and proof points**, move it into a
+   different short-form inspo format, and keep its landing page and language. Match formats to
+   winners: rating/ranking → "Brand: x/10" captions; testimonial UGC → header + story captions
+   with first-person VO; doctor/expert ratings in Spanish → Spanish meme flip (text only); a winner
+   already iterated → a second, different format (one-liner over montage); a static → product demo
+   with the static's feature icons as pills, offer left to the end card.
+4. Record `based_on` (ad name, spend, ROAS) in every edit.json, and drop claims from the source
+   that are in `claims_to_avoid` (guarantees, podiatrist, review counts).
+
+## Iterating on our own ads
 
 Hook tests are cheap: copy the folder to `V<ww>_nn_<slug>_h2`, change only the first clip and
 caption, re-render. Log what the user approves/rejects in `ads/brands/<brand>/video/feedback.md`

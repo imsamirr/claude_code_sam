@@ -546,6 +546,9 @@ def build(edit_path, sheet_every=1.5, feed=True):
               + f", {len(edit.get('captions', []))} captions")
         for i, (a, b) in enumerate(win):
             print(f"   clip {i}: {a:6.2f} - {b:6.2f}  {clips[i]['src']}")
+        (out_dir / f"{vid}_timeline.json").write_text(json.dumps(
+            {"total": round(total, 3), "scenes": [{"src": clips[i]["src"], "start": round(a, 3), "end": round(b, 3)}
+                                                  for i, (a, b) in enumerate(win)]}, indent=1))
         for o in outs:
             print("  ", o)
         return outs
