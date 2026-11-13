@@ -247,8 +247,7 @@ and Read them. Fix and re-render anything with:
 with the Drive API instead (uses `GDRIVE_CLIENT_ID/SECRET/REFRESH_TOKEN` from the environment,
 resumable, shared drives OK, re-run safe):
 ```bash
-W=$(python ads/video/drive_upload.py <drive_folder_id> --mkdir "<YYYY>-W<ww>")
-python ads/video/drive_upload.py $W ads/brands/<brand>/video/<week>/*/V*.mp4      # 9:16 only
+python ads/video/drive_upload.py <drive_folder_id> ads/brands/<brand>/video/<week>/*/V*.mp4   # straight into the folder (user rule: no week subfolders)
 ```
 
 1. Commit the ad folder (edit.json + renders) and `footage.csv`; push to the working branch.
