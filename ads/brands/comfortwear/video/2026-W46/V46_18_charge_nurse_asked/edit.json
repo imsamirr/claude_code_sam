@@ -1,0 +1,77 @@
+{
+  "id": "V46_18_charge_nurse_asked",
+  "version": 1,
+  "created": "2026-11-13",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): one static first-person caption, 2-4 real shots, music only, no voiceover, 10-16 s + end card; 9:16 with content inside 4:5.",
+  "angle": "Nurse whose feet/back no longer wreck her after a 12 (HF2 'my feet are not hurting… finally found the pair that survives the 12-hour shift').",
+  "format": "F8 'My [person] asked…' 👀 one-liner, walk → shoes → car (Omnilux/Softari ref), one creator",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/upbeat_pop_vlog_105bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "walk": "drive:1VitoOhH6-LRMwH9Eb_WgdxgMszS7FxVY",
+    "shoes": "drive:1qScn_mNkIz0-EXbkUwM9WMbRYiv18SmL",
+    "car": "drive:1g2bHBsle4dkQOY8cm8XDmzW03mHTNpmr"
+  },
+  "source_notes": {
+    "walk": "2026/Simone/Nurse POV Lifestyle (owned creator)",
+    "shoes": "2026/Simone/Nurse POV Body 5 Visual (owned creator)",
+    "car": "2026/Simone/Nurse POV Body 6 (owned creator)"
+  },
+  "clips": [
+    {
+      "gain": 0,
+      "src": "walk",
+      "in": 14.6,
+      "out": 17.6
+    },
+    {
+      "gain": 0,
+      "src": "shoes",
+      "in": 46.0,
+      "out": 50.0,
+      "keep_clear": [
+        [
+          0.5,
+          0.9
+        ]
+      ]
+    },
+    {
+      "gain": 0,
+      "src": "car",
+      "in": 1.0,
+      "out": 4.2,
+      "zoom": 1.2,
+      "focus_y": 0.55
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        2
+      ],
+      "style": "box",
+      "y": 0.3,
+      "size": 44,
+      "width": 0.84,
+      "fade": 0,
+      "text": "My charge nurse asked why I'm not limping to my car after 12s anymore 👀\n\nit's the shoes, Linda. it was always the shoes 😮‍💨"
+    }
+  ],
+  "persona": "nurse",
+  "based_on": "TOFv1_HF2 | 807_Aubrey_New UGC_Ortho_Stretch_Shoe_Don’t Waste Spent Money_9X16 HOOK 03 (top, $1,848 spend, ROAS 1.69, WearOrtho, 7d to 2026-11-12). Keeps its angle; new format/hook/story.",
+  "primary_text": "\"I've worn the popular shoes. They always ended up hurting my feet after three 12s in a row. These are by far the most comfortable.\"\n\n👣 Wide toe box for long shifts\n🦶 Arch support + cushioning that holds up on concrete\n🛡️ Slip-resistant, a must on hospital floors\n\nAnd affordable on a nurse's paycheck. Tap 'Shop Now'.",
+  "headline": "Nurse Shoes That Survive The 12-Hour Shift",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers"
+}

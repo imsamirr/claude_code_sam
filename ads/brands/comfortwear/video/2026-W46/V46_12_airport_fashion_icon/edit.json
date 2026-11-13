@@ -1,0 +1,78 @@
+{
+  "id": "V46_12_airport_fashion_icon",
+  "version": 1,
+  "created": "2026-11-13",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): one static first-person caption, 2-4 real shots, music only, no voiceover, 10-16 s + end card; 9:16 with content inside 4:5.",
+  "angle": "Travel: long airport walks/connecting flights without sore feet (JW1 'long flights, 50,000+ steps').",
+  "format": "F27 'I may never be ___… but ___ babe 💋' one-liner over an airport walk (Dr. Woof Apparel ref)",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/confident_strut_95bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "concourse": "drive:1QZpqUYVWCM2nyjipQ7mRlYgqd63tLZpQ",
+    "follow": "drive:10rTjvuIj8WOx0cwLhI3yPHFEOtIZYFnb",
+    "pov": "drive:14UgcxPZTC4I-S2fqPwB4GH2Mn92cVXIv",
+    "walkpast": "drive:1pJwDG1cpOL-8VKtrn_s-RarcaJ-J2q3L"
+  },
+  "source_notes": {
+    "concourse": "Jennifer Adcock / travel / airport walking ortho (owned creator)",
+    "follow": "Jennifer Adcock / travel / airport walking ortho 5 (owned creator)",
+    "pov": "Jennifer Adcock / travel / overheadshot ortho (owned creator)",
+    "walkpast": "Jennifer Adcock / travel / airport walking ortho 2 (owned creator)"
+  },
+  "clips": [
+    {
+      "gain": 0,
+      "src": "concourse",
+      "in": 1.5,
+      "out": 5.6
+    },
+    {
+      "gain": 0,
+      "src": "follow",
+      "in": 0.0,
+      "out": 2.8,
+      "focus_y": 0.6
+    },
+    {
+      "gain": 0,
+      "src": "pov",
+      "in": 0.0,
+      "out": 2.6
+    },
+    {
+      "gain": 0,
+      "src": "walkpast",
+      "in": 1.0,
+      "out": 2.9
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        3
+      ],
+      "style": "box",
+      "y": 0.42,
+      "size": 44,
+      "width": 0.84,
+      "fade": 0,
+      "text": "I may never be an airport fashion icon… but my feet survived terminal B to terminal F babe 💋"
+    }
+  ],
+  "persona": "travel",
+  "based_on": "TOFV1_JW1 | COM320_HO1 (avatar) (top, $5,487 spend, ROAS 1.68, WearOrtho, 7d to 2026-11-12). Keeps its angle; new format/hook/story.",
+  "primary_text": "Gate change. Terminal B to terminal F. My feet: unbothered 💋\n\n✈️ All-day comfort for long flights and longer layovers\n🦶 Arch support + cushioning that doesn't quit at hour 8\n🌬️ Breathable, lightweight stretch knit\n\nTravel smart. Travel comfortably. Tap 'Shop Now'.",
+  "headline": "2026's Favorite Shoes For Traveling",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer"
+}

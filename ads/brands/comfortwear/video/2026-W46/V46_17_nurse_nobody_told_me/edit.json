@@ -1,0 +1,75 @@
+{
+  "id": "V46_17_nurse_nobody_told_me",
+  "version": 1,
+  "created": "2026-11-13",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): one static first-person caption, 2-4 real shots, music only, no voiceover, 10-16 s + end card; 9:16 with content inside 4:5.",
+  "angle": "Nurse wasting money on $150-$200 running shoes that die in 2 months; running shoes are the wrong shoe for 12s on concrete (HF2).",
+  "format": "F4 'Nobody told me…' confession, problem → putting on → smile (Flo Pilates ref), one creator",
+  "music": {
+    "file": "ads/brands/comfortwear/video/2026-W46/V46_03_enfermeras_meme/vo/music_nurse_bed.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "runners_off": "drive:1w1Co3vhSMQ7fK7aH-Vv1PCqxX3Z7Pme2",
+    "puton": "drive:1ry0fho3zyx8-QjgT0t0chC8HGcLCb3H6"
+  },
+  "source_notes": {
+    "runners_off": "MISC B-ROLL/Nurses (owned agency)",
+    "puton": "MISC B-ROLL/Nurses (owned agency)"
+  },
+  "clips": [
+    {
+      "gain": 0,
+      "src": "runners_off",
+      "in": 4.0,
+      "out": 8.0
+    },
+    {
+      "gain": 0,
+      "src": "puton",
+      "in": 3.0,
+      "out": 6.5,
+      "keep_clear": [
+        [
+          0.55,
+          0.95
+        ]
+      ]
+    },
+    {
+      "gain": 0,
+      "src": "puton",
+      "in": 19.0,
+      "out": 23.0,
+      "zoom": 1.1,
+      "focus_y": 0.6
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        2
+      ],
+      "style": "box",
+      "y": 0.45,
+      "size": 44,
+      "width": 0.84,
+      "fade": 0,
+      "text": "Nobody told me running shoes are made for running… not for standing on concrete for 12 hours 🫠 I stopped buying a new $150 pair every 2 months and switched to these stretchy ones"
+    }
+  ],
+  "persona": "nurse",
+  "based_on": "TOFv1_HF2 | 807_Aubrey_New UGC_Ortho_Stretch_Shoe_Don’t Waste Spent Money_9X16 HOOK 03 (top, $1,848 spend, ROAS 1.69, WearOrtho, 7d to 2026-11-12). Keeps its angle; new format/hook/story.",
+  "primary_text": "\"$180 Hokas. $150 Brooks. All in my closet, done after two months.\"\n\nRunning shoes are built for running. Nurses stand and walk on concrete for 12 hours.\n\n👣 Wide toe box for feet that swell by hour 8\n🦶 Arch support + cushioned heels\n🛡️ Slip-resistant soles for hospital floors\n\nStop wasting money on the wrong shoe. Tap 'Shop Now'.",
+  "headline": "Nurse Shoes Made For 12-Hour Shifts",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers"
+}

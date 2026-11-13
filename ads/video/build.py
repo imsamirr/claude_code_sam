@@ -598,7 +598,10 @@ def build(edit_path, sheet_every=1.5, feed=False):
                     for fb in face_boxes(parts[i], t - offs[i]):
                         fh = fb[1] - fb[0]
                         blocks.append((fb[0] - 0.12 * fh, fb[1] + 0.12 * fh, fb[2] - 0.05, fb[3] + 0.05))
-            for i in {scene_at(s + 0.01), scene_at(max(s, e - 0.01))}:
+            # every scene the caption spans (not only the first and last), so a static caption over
+            # 3-4 shots respects each shot's keep_clear bands
+            for i in {scene_at(s + 0.01), scene_at(max(s, e - 0.01)),
+                      *[k for k, (a, b) in enumerate(win) if a < e and s < b and k < len(clips)]}:
                 for y0, y1 in clips[i].get("keep_clear", []):
                     blocks.append((y0, y1, 0.0, 1.0))
             for (ps, pe, py0, py1) in placed_boxes:

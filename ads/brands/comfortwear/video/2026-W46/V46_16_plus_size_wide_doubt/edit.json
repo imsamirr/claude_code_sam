@@ -1,0 +1,77 @@
+{
+  "id": "V46_16_plus_size_wide_doubt",
+  "version": 1,
+  "created": "2026-11-13",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): one static first-person caption, 2-4 real shots, music only, no voiceover, 10-16 s + end card; 9:16 with content inside 4:5.",
+  "angle": "Plus-size women at Disney: hours of walking; regular sneakers squeeze by hour 8; wide toe box + roomy fit (KW1).",
+  "format": "F11 doubter's quote, then 'me after switching:' over a plus-size park montage (Speak ref)",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/confident_strut_95bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "dapper": "tiktok:7501454442781297962",
+    "friends": "tiktok:7472166128354069802",
+    "twirl": "drive:1XVtEFqRfZeXVfH1RY9QzIWSr-XUOgRIE"
+  },
+  "source_notes": {
+    "dapper": "third-party TikTok creators @plussizeparkhoppers (Dapper Day, Main Street); rights to confirm",
+    "friends": "third-party TikTok creators @plussizeparkhoppers (Tomorrowland dance); rights to confirm",
+    "twirl": "Youtube/Tiktok Content snaptik_7308437939355208990 (third-party TikTok creator); rights to confirm"
+  },
+  "clips": [
+    {
+      "gain": 0,
+      "src": "dapper",
+      "in": 34.0,
+      "out": 37.6
+    },
+    {
+      "gain": 0,
+      "src": "friends",
+      "in": 8.0,
+      "out": 10.6,
+      "zoom": 2.2,
+      "focus_y": 1.0
+    },
+    {
+      "gain": 0,
+      "src": "friends",
+      "in": 15.0,
+      "out": 19.0
+    },
+    {
+      "gain": 0,
+      "src": "twirl",
+      "in": 0.0,
+      "out": 4.5
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        3
+      ],
+      "style": "box",
+      "y": 0.25,
+      "size": 44,
+      "width": 0.84,
+      "fade": 0,
+      "text": "\"cute sneakers just don't come in wide\" 🙄\n\nme at the parks after switching to stretchy Comfort Wears:"
+    }
+  ],
+  "persona": "plus_size_disney",
+  "based_on": "TOFV1_KW1 | COM284_HO1 (top, $1,785 spend, ROAS 1.7, WearOrtho, 7d to 2026-11-12). Keeps its angle; new format/hook/story.",
+  "primary_text": "Wide feet, cute shoes, 9 hours at the parks. All three 💅\n\nYour regular 'comfy sneakers' feel fine at breakfast. Hour 8 is a different story.\n\n👣 Wide toe box gives your toes room instead of squeezing them\n🦶 Supportive cushioning for hours of walking and standing\n☀️ Roomier, breathable fit for when feet swell after a long day\n\nTap 'Shop Now' before your next trip.",
+  "headline": "2026's Favorite Shoes For Plus-Sized Traveling",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer"
+}

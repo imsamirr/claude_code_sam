@@ -1,0 +1,53 @@
+{
+  "id": "V46_14_park_mom_hour11_dance",
+  "version": 1,
+  "created": "2026-11-13",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): one static first-person caption, 2-4 real shots, music only, no voiceover, 10-16 s + end card; 9:16 with content inside 4:5.",
+  "angle": "Disney/park day: 8-10 hours on your feet; the shoe you pick decides how the day ends (JW1 Disney shoe test), told as a daughter gifting her mom.",
+  "format": "F10 'Me at hour 11…' adapted to a single long take (Happy Tuesdays 120 d single-shot ref), one caption",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/park_whimsical_100bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "mom": "tiktok:7370846899156307242"
+  },
+  "source_notes": {
+    "mom": "third-party TikTok creator (grandma dancing at Tomorrowland Terrace); rights to confirm"
+  },
+  "clips": [
+    {
+      "gain": 0,
+      "src": "mom",
+      "in": 3.0,
+      "out": 13.5
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        0
+      ],
+      "style": "box",
+      "y": 0.62,
+      "size": 44,
+      "width": 0.84,
+      "fade": 0,
+      "text": "my mom at hour 11 of park day still dancing like it's 9am because I finally got her out of her old sneakers and into stretchy Comfort Wears 😭🫶"
+    }
+  ],
+  "persona": "disney_gift",
+  "based_on": "TOFV1_JW1 | COM320_HO1 (avatar) (top, $5,487 spend, ROAS 1.68, WearOrtho, 7d to 2026-11-12). Keeps its angle; new format/hook/story.",
+  "primary_text": "Hour 11 of park day and she's still dancing 😭\n\nCobblestones, lines, staircases… a park day is 8, 9, 10 hours on your feet. Most sneakers are built for the gym, not for that.\n\n👣 Wide toe box so feet have room when they swell\n🦶 Arch support + cushioning for all-day walking\n🌬️ Breathable stretch knit that slips right on\n\nGet a pair for you AND your mom. Tap 'Shop Now'.",
+  "headline": "2026's Favorite Shoes For Traveling",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer"
+}

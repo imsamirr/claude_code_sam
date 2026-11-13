@@ -1,0 +1,88 @@
+{
+  "id": "V46_13_pro_tip_vacation_shoes",
+  "version": 1,
+  "created": "2026-11-13",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): one static first-person caption, 2-4 real shots, music only, no voiceover, 10-16 s + end card; 9:16 with content inside 4:5.",
+  "angle": "Travel: don't wreck a trip breaking in stiff shoes; pack stretchy ones (NK2 'Shoes made for traveling').",
+  "format": "F26 'Pro tip:' one caption, problem → shoe in hand → payoff (Savannah Bell ref)",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/park_whimsical_100bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "limp": "drive:1p2rq5HilJPJgzCLZCV2UTdGvST0hO9bO",
+    "showshoe": "drive:1ENvoYDGxQo7-hZjd4hjzIc1fnLndEb4h",
+    "dance": "drive:1P6gRZowcyFs3Yd96r6aVenHdafu6uNzn"
+  },
+  "source_notes": {
+    "limp": "Jennifer Adcock / travel / pulling suitcase limp (owned creator; old non-CW shoes)",
+    "showshoe": "Jennifer Adcock / travel / showing shoe (owned creator)",
+    "dance": "Jennifer Adcock / travel / happy dance 2 (owned creator)"
+  },
+  "clips": [
+    {
+      "gain": 0,
+      "src": "limp",
+      "in": 2.5,
+      "out": 6.6,
+      "keep_clear": [
+        [
+          0.6,
+          0.95
+        ]
+      ]
+    },
+    {
+      "gain": 0,
+      "src": "showshoe",
+      "in": 4.0,
+      "out": 8.0,
+      "keep_clear": [
+        [
+          0.42,
+          0.9
+        ]
+      ]
+    },
+    {
+      "gain": 0,
+      "src": "dance",
+      "in": 0.0,
+      "out": 3.2,
+      "focus_y": 0.52,
+      "keep_clear": [
+        [
+          0.75,
+          0.95
+        ]
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        2
+      ],
+      "style": "box",
+      "y": 0.4,
+      "size": 44,
+      "width": 0.84,
+      "fade": 0,
+      "text": "Pro tip: don't debut stiff new shoes on vacation 🧳 pack stretchy ones that feel broken in from day one. it saves your trip AND your mood 😂"
+    }
+  ],
+  "persona": "travel",
+  "based_on": "TOFV1_NK2 | COM367_HO1 (new, $223 spend, ROAS 1.97, WearOrtho, 7d to 2026-11-12). Keeps its angle; new format/hook/story.",
+  "primary_text": "Learned this one the hard way at the airport 🙃\n\n✈️ Comfortable from the first step, no break-in week\n🦶 Arch support + cushioning for all-day sightseeing\n🌬️ Breathable stretch knit for hot days and swollen feet\n\nTravel smart. Travel comfortably. Tap 'Shop Now'.",
+  "headline": "2026's Favorite Shoes For Traveling",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer"
+}

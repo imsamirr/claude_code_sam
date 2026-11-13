@@ -1,0 +1,76 @@
+{
+  "id": "V46_20_enfermera_nueva_meme",
+  "version": 1,
+  "created": "2026-11-13",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): one static first-person caption, 2-4 real shots, music only, no voiceover, 10-16 s + end card; 9:16 with content inside 4:5.",
+  "angle": "Enfermeras: los tenis de correr no aguantan 12 horas (HI16 ratings: Hoka 3/10, Nike 'tenis para correr, no para 12 horas de pie').",
+  "format": "F15 'Mi reacción cuando…' deadpan meme → tilt to her own shoes (Arctic Goddess ref), one creator",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/park_whimsical_100bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 4.0
+  },
+  "sources": {
+    "deadpan": "drive:12KhCXfXclxaX1JiKg9yLa3YMUWBc3Rjr",
+    "lookdown": "drive:1TuFw2Q6zD6HgnbtL69qDuxjWjZafzeAW",
+    "shoes": "drive:1cETq8bFlMVyhqMU334FYNFDK9ia_F-02"
+  },
+  "source_notes": {
+    "deadpan": "2024/November 2024/Nurse shifts IMG_3799 (owned)",
+    "lookdown": "2024/November 2024/Nurse shifts IMG_3778 (owned)",
+    "shoes": "2024/November 2024/Nurse shifts IMG_3820 2 (owned)"
+  },
+  "clips": [
+    {
+      "gain": 0,
+      "src": "deadpan",
+      "in": 1.5,
+      "out": 6.0
+    },
+    {
+      "gain": 0,
+      "src": "lookdown",
+      "in": 0.0,
+      "out": 2.5
+    },
+    {
+      "gain": 0,
+      "src": "shoes",
+      "in": 9.0,
+      "out": 12.5,
+      "keep_clear": [
+        [
+          0.55,
+          0.85
+        ]
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        2
+      ],
+      "style": "box",
+      "y": 0.55,
+      "size": 44,
+      "width": 0.84,
+      "fade": 0,
+      "text": "Mi cara cuando la enfermera nueva llega a su primer turno de 12 horas con tenis de correr nuevecitos 👀 mija, para la hora 4 me vas a pedir el link"
+    }
+  ],
+  "persona": "nurse_es",
+  "based_on": "TOFV1_HI16 | Nurse | COM225_Kyro390 - Iteration - Spanish Version_Ortho_Everyday User_No Offer_AI_Iteration_Expert - Doctor_Jed_Julieta_H2 (top, $1,847 spend, ROAS 2.26, WearOrtho, 7d to 2026-11-12). Keeps its angle; new format/hook/story.",
+  "primary_text": "Para la hora 4 nos va a pedir el link 👀\n\nLos tenis de correr son para correr. No están hechos para pasar 12 horas de pie, y encima son estrechos.\n\n✅ Puntera ancha: el pie tiene espacio cuando se hincha\n✅ Soporte del arco + amortiguación en los talones\n✅ Suela antideslizante para pisos de hospital\n\n¡Compra ahora!",
+  "headline": "Los zapatos de enfermería favoritos de 2026",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/los-5-mejores-zapatos-para-maestros-y-educadores",
+  "lang": "es"
+}
