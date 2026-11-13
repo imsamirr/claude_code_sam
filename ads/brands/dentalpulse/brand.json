@@ -939,6 +939,166 @@
   "rv_w46t_sonic_complete_duo": {
    "file": "reference/benchmarks/rv_ref_w46t_sonic_complete_duo.jpg",
    "use_for": "LAYOUT reference only (Sonic white \"The complete duo\" tile with oval button (0d)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_old_me_new_me": {
+   "file": "reference/benchmarks/rv_ref_w47_old_me_new_me.jpg",
+   "use_for": "LAYOUT reference only (Ventamin, curated inspiration 2026-11-13, 16d running: Old me / new me columns: years of nightly soaking vs one ultrasonic cleaner). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_arrow_labels_grid": {
+   "file": "reference/benchmarks/rv_ref_w47_arrow_labels_grid.jpg",
+   "use_for": "LAYOUT reference only (Morning Would, curated inspiration 2026-11-13, 25d running: Honest-review spec callouts with arrows, Pod + yellow denture on graph paper). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_two_hands_columns": {
+   "file": "reference/benchmarks/rv_ref_w47_two_hands_columns.jpg",
+   "use_for": "LAYOUT reference only (Ryoko, curated inspiration 2026-11-13, 7d running: Two-column side-by-side: brush in hand vs Pod on the counter). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_reddit_post": {
+   "file": "reference/benchmarks/rv_ref_w47_reddit_post.jpg",
+   "use_for": "LAYOUT reference only (Topinjuryclaims TX, curated inspiration 2026-11-13, 10d running: Native forum question post with photo proof). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_editorial_more_headline": {
+   "file": "reference/benchmarks/rv_ref_w47_editorial_more_headline.jpg",
+   "use_for": "LAYOUT reference only (Wellness & Medical Journal, curated inspiration 2026-11-13, 8d running: News-feed style long headline with '...more' over one big proof photo). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_whiteboard_handwriting": {
+   "file": "reference/benchmarks/rv_ref_w47_whiteboard_handwriting.jpg",
+   "use_for": "LAYOUT reference only (Janine Porter, curated inspiration 2026-11-13, 7d running: Handwritten line on the bathroom mirror, Pod and yellow denture on the vanity). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_candid_portrait": {
+   "file": "reference/benchmarks/rv_ref_w47_candid_portrait.jpg",
+   "use_for": "LAYOUT reference only (Vascular Health Report, curated inspiration 2026-11-13, 8d running: Raw candid portrait, clean upper in hand vs yellow lower on the counter). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_icons_day_photos": {
+   "file": "reference/benchmarks/rv_ref_w47_icons_day_photos.jpg",
+   "use_for": "LAYOUT reference only (Malvay, curated inspiration 2026-11-13, 15d running: Checklist around the product + Day 1/7/14 denture photos (answers Zima's 'removes plaque, lifts yellow stains' checklist with visible proof)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_three_scans_price": {
+   "file": "reference/benchmarks/rv_ref_w47_three_scans_price.jpg",
+   "use_for": "LAYOUT reference only (The Cancer Survivor Journal, curated inspiration 2026-11-13, 11d running: Three micrograph circles comparing methods, product below). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_yellow_x_check_table": {
+   "file": "reference/benchmarks/rv_ref_w47_yellow_x_check_table.jpg",
+   "use_for": "LAYOUT reference only (Noobru, curated inspiration 2026-11-13, 14d running: X vs check comparison table: tablets vs ultrasonic cleaner, ranked seal). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_raw_flatlay_papers": {
+   "file": "reference/benchmarks/rv_ref_w47_raw_flatlay_papers.jpg",
+   "use_for": "LAYOUT reference only (True Money Saver - Kati Kiefer, curated inspiration 2026-11-13, 10d running: Raw overhead flat-lay of the tablet routine's leftovers, Pod at the edge). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_no_x_just_y_split": {
+   "file": "reference/benchmarks/rv_ref_w47_no_x_just_y_split.jpg",
+   "use_for": "LAYOUT reference only (Denture Care Tips, curated inspiration 2026-11-13, 19d running: Headline band + two macro photos split, product in the right photo). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_zima_beginner_expert": {
+   "file": "reference/benchmarks/rv_ref_w47_zima_beginner_expert.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental, rivals pull 2026-11-13, 0d (FR): headline, 'beginner level' toothbrush, 'expert level' pod, product name at the bottom, cream background). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_zima_vs_circles": {
+   "file": "reference/benchmarks/rv_ref_w47_zima_vs_circles.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental, rivals pull 2026-11-13, 11d, top 0.0%: two round photos with a VS chip, two tall panels underneath, pale blue). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_bogo_arrows": {
+   "file": "reference/benchmarks/rv_ref_w47_bogo_arrows.jpg",
+   "use_for": "LAYOUT reference only (Primal-Storm, curated inspiration 2026-11-13, 36d running: Giant FREE GIFTS type, 'Buy this / Get these free' arrows). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_gift_tag_price": {
+   "file": "reference/benchmarks/rv_ref_w47_gift_tag_price.jpg",
+   "use_for": "LAYOUT reference only (TryMone, curated inspiration 2026-11-13, 7d running: Holiday gift with a price tag). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_strike_price_hand_note": {
+   "file": "reference/benchmarks/rv_ref_w47_strike_price_hand_note.jpg",
+   "use_for": "LAYOUT reference only (The Smile Authority, curated inspiration 2026-11-13, 21d running: Big strike-through price + hand-held clean denture + handwritten arrow note). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_kit_free_badges": {
+   "file": "reference/benchmarks/rv_ref_w47_kit_free_badges.jpg",
+   "use_for": "LAYOUT reference only (The Boot Buddy, curated inspiration 2026-11-13, 8d running: Kit with FREE badges and a strike price on bright blue). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_sonic_limited_dark": {
+   "file": "reference/benchmarks/rv_ref_w47_sonic_limited_dark.jpg",
+   "use_for": "LAYOUT reference only (Sonic Dental, rivals pull 2026-11-13, 149d, top 0.3%: dark 'Limited Time Sale' tile: product hero, two award seals bottom-left, 4.8/5 rating bottom-right). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_bill_list_split": {
+   "file": "reference/benchmarks/rv_ref_w47_bill_list_split.jpg",
+   "use_for": "LAYOUT reference only (SISTERLY, curated inspiration 2026-11-13, 10d running: Itemized bill list vs one-time product, split panel). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_one_switch_stages": {
+   "file": "reference/benchmarks/rv_ref_w47_one_switch_stages.jpg",
+   "use_for": "LAYOUT reference only (Everlasting Comfort, curated inspiration 2026-11-13, 8d running: Three-stage strip with dashed line, product below). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_zima_grid_pattern": {
+   "file": "reference/benchmarks/rv_ref_w47_zima_grid_pattern.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental, rivals pull 2026-11-13, 2d, top 17.4%: overhead grid pattern of open basins on grey with one white line centered). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_ama_bubbles": {
+   "file": "reference/benchmarks/rv_ref_w47_ama_bubbles.jpg",
+   "use_for": "LAYOUT reference only (WonderBiotics, curated inspiration 2026-11-13, 8d running: Ask-me-anything bubble stack over a real hand-held appliance photo). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_notes_checklist": {
+   "file": "reference/benchmarks/rv_ref_w47_notes_checklist.jpg",
+   "use_for": "LAYOUT reference only (Trainual, curated inspiration 2026-11-13, 16d running: iOS Notes checklist of bad advice + embedded photo). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_face_quote": {
+   "file": "reference/benchmarks/rv_ref_w47_face_quote.jpg",
+   "use_for": "LAYOUT reference only (Bescher Beauty, curated inspiration 2026-11-13, 8d running: Close portrait with an italic quote bottom-left). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_counter_icons_button": {
+   "file": "reference/benchmarks/rv_ref_w47_counter_icons_button.jpg",
+   "use_for": "LAYOUT reference only (usmile, curated inspiration 2026-11-13, 10d running: Bright counter shot + icon row + button). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_label_strips": {
+   "file": "reference/benchmarks/rv_ref_w47_label_strips.jpg",
+   "use_for": "LAYOUT reference only (Veria Travel, curated inspiration 2026-11-13, 9d running: Stacked label-tape strips top and bottom around a calm product photo). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_coupon_barcode": {
+   "file": "reference/benchmarks/rv_ref_w47_coupon_barcode.jpg",
+   "use_for": "LAYOUT reference only (Once Upon a Farm, curated inspiration 2026-11-13, 7d running: Torn coupon ticket with barcode). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_repeat_type_flash": {
+   "file": "reference/benchmarks/rv_ref_w47_repeat_type_flash.jpg",
+   "use_for": "LAYOUT reference only (Trybello, curated inspiration 2026-11-13, 7d running: Repeated fading offer type behind the product). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_sonic_purple_waves": {
+   "file": "reference/benchmarks/rv_ref_w47_sonic_purple_waves.jpg",
+   "use_for": "LAYOUT reference only (Sonic Dental, rivals pull 2026-11-13, 148d, top 18.2%: dark tile with purple light waves, 'Limited Time Sale' headline, product pair, outlined SHOP NOW pill). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_quote_labels_cluster": {
+   "file": "reference/benchmarks/rv_ref_w47_quote_labels_cluster.jpg",
+   "use_for": "LAYOUT reference only (Morning Would, curated inspiration 2026-11-13, 25d running: Big quote headline over a product cluster with floating labels). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_zima_icon_list_pink": {
+   "file": "reference/benchmarks/rv_ref_w47_zima_icon_list_pink.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental, rivals pull 2026-11-13, 3d, top 24.5%: two-line headline (first line colored), four icon bullets, product with appliance below, soft grey wall). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_zima_back_in_stock": {
+   "file": "reference/benchmarks/rv_ref_w47_zima_back_in_stock.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental, rivals pull 2026-11-13, 0d, top 16.6% (FR): 'Back in stock' headline + sub line, product group, round blue sticker top right, award seal + rating bottom-left). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_raw_shelf_photo": {
+   "file": "reference/benchmarks/rv_ref_w47_raw_shelf_photo.jpg",
+   "use_for": "LAYOUT reference only (sarahhhhhhhbk with Protein.com UK, curated inspiration 2026-11-13, 7d running: Raw unstyled shelf photo with one caption). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_flatlay_condensed": {
+   "file": "reference/benchmarks/rv_ref_w47_flatlay_condensed.jpg",
+   "use_for": "LAYOUT reference only (Wink Scrubs, curated inspiration 2026-11-13, 7d running: Overhead flat-lay with a huge condensed headline bottom-left). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_handwritten_badge": {
+   "file": "reference/benchmarks/rv_ref_w47_handwritten_badge.jpg",
+   "use_for": "LAYOUT reference only (Jevi, curated inspiration 2026-11-13, 7d running: Handwritten headline + arrow to the product + round badge). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_dark_round_badge": {
+   "file": "reference/benchmarks/rv_ref_w47_dark_round_badge.jpg",
+   "use_for": "LAYOUT reference only (AquaTru, curated inspiration 2026-11-13, 9d running: Product hero with header line, big headline and a round number badge). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_starred_items_list": {
+   "file": "reference/benchmarks/rv_ref_w47_starred_items_list.jpg",
+   "use_for": "LAYOUT reference only (Neck Pain Relief with the Groove Pillow, curated inspiration 2026-11-13, 22d running: Starred items list beside the product set). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_bf_hand_tag": {
+   "file": "reference/benchmarks/rv_ref_w47_bf_hand_tag.jpg",
+   "use_for": "LAYOUT reference only (Shiny Smile Veneers, curated inspiration 2026-11-13, 9d running: Hand-held appliance + hanging price tag, dark holiday sale). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47_sonic_trio_percent": {
+   "file": "reference/benchmarks/rv_ref_w47_sonic_trio_percent.jpg",
+   "use_for": "LAYOUT reference only (Sonic Dental, rivals pull 2026-11-13, 95d, top 11.9%: 'UP TO 25% off' giant number over a row of three products, press bar at the bottom). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
   }
  },
  "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots).",

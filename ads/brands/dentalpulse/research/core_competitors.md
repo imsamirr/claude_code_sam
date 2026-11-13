@@ -109,3 +109,23 @@ Guardrails kept: no logos or names on images, no claims that their products fail
 | Sonic "Black Friday: Up to 40% Off" family | giant BLACK / 40% OFF / FRIDAY on aligners + free gifts | T46_16 |
 | Zima incoming-call "clean AND protected" | "Your retainer's white film is calling..." with decline/accept and the 5-minute answer | T46_19 |
 Guardrails kept: no logos or names on images, no claims that their products fail, no counts.
+
+## 2026-11-13 (Friday W47 read: 144 ads; Zima 95 = 49 video + 46 image; Sonic 49 = 47 image + 2 video; 135 active)
+**Since Nov 10:** 24 new ads, 29 stopped. Sheets: `sheets/core_competitors_2026-11-13_1-2.jpg` (both read); full copy of every active ad read from `data/core_competitors_2026-11-13.csv`.
+- **Sonic:** the "Black Friday: Up to 40% Off" family (EN/FR/DE, ~40 statics, 0-13d) still carries the account: dark bathroom vanity with a tablet box, rippled water splash, "BLACK FRIDAY SALE" label. Evergreen tiles keep running: "Up to 30% Off" (149d, top 0.3%: dark "Limited Time Sale" with two award seals + 4.8/5) and "Up to 35% Off" (148d, purple light waves). New: **Sonic Odyssey** cordless (+UVC, "8-10 cleans per charge", "Over 1 million units sold", "Ultrasonic Cleaning. Anywhere.") with a five-appliance icon strip and a three-colour "UP TO 25% off" trio over a press bar (95d). Still no customer language, no proof beyond awards/press.
+- **Zima:** hooks unchanged (11,000+ / 20,000+ / 7,000+ (FR) / 8,000+ (DE) dentists, 3500+ dental offices, 1M+ customers, Double Award-Winner, HSA/FSA eligible, Free shipping in the US). New this week: copy "The Dental Pod: ✔️ Removes plaque ✔️ Lifts yellow stains ✔️ Destroys bad smells" (29d, top 2%), "Look at the difference in these 2 retainer cleaning methods" (video), UCLA dental-student testimonial (video), "Pod vs Cloudy Retainers" horse-sketch joke tile (11d), FR "Niveau débutant / Niveau expert" ladder, "De retour en stock" with award seal + Trustpilot, kaleidoscope / grid pattern "Yes, the Dental Pod is back / now portable / now at John Lewis", pink "Never Brush Your Retainer Again" icon list (3d, top 24.5%). **Pod Go** (3-minute cycle, cordless, free carry case) is pushed hard. Still retainer-first; dentures only in "Dad's dentures".
+- **What changed:** Zima now names yellow stains and smell explicitly (our territory) but shows no proof; Sonic's whole account is "up to" discounts. Both keep tablets in their bundles.
+### Answers written this run (rival field on 10 of 40 = 25%)
+| Their angle | Our answer (approved claims only) | Concept |
+|---|---|---|
+| Zima 'Removes plaque, lifts yellow stains' checklist (no proof) | day-by-day photos + approved claims | W47_08 |
+| Zima/Sonic tablets bundled with their pods | tap water only + 6-of-7 lab test | W47_10 |
+| Zima 'beginner vs expert' tile | denture version with 99.9% claim | W47_13 |
+| Zima 'Pod vs cloudy retainers' sketch | real-photo denture proof | W47_14 |
+| Sonic dark 'Limited Time Sale' + award seals | flat 40% + Clinicians' Choice | W47_19 |
+| Zima 'Yes, the Dental Pod is…' pattern tile | brown-water proof | W47_22 |
+| Sonic 'Up to 35% / Limited Time Sale' | flat 40% + free gifts | W47_30 |
+| Zima 'Never brush your retainer' icon list | approved 99.9% + visible film | W47_32 |
+| Zima dentist-count authority + award | 'Dentist-recommended' + Clinicians' Choice | W47_33 |
+| Sonic 'Up to 25% off' trio | flat 40% + free gifts | W47_40 |
+Guardrails kept: no logos or names on images, compare features/offers only, no counts or invented scores.
