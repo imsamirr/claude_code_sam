@@ -287,7 +287,8 @@
       "voice": "Harper",
       "why": "User asked for a high-quality woman in her 30s. Harper: median pitch ~198 Hz, expressive (4.4 semitone movement), conversational pace; Olivia measured lower/flatter (172 Hz, 2.5 st).",
       "atria_project_id": "22d464a7-e8cc-4602-8d1e-ded899a1a1f4",
-      "cost": "~1 credit (~$0.01) per take"
+      "cost": "~1 credit (~$0.01) per take",
+      "note": "Not used by default since the Nov 13 format rule (organic captions + music). Keep for ads the user asks to voice."
     },
     "rules": [
       "Always blur Skechers logos and markings on their shoes (clip 'blur' boxes; check frames).",
@@ -297,7 +298,8 @@
       "Scenes match captions (Nike line = Nike scene). Competitor shoes may be shown when named; Skechers branding blurred.",
       "Black Friday end card for creatives made on/before 2026-11-23, regular card after.",
       "Third-party TikTok clips from individual creators are OK to use (user, 2026-11-13). Never use other brands' own content (brand ads/promos).",
-      "Deliver 9:16 only (no separate 4:5 file). All text and key content (faces, product, action) must sit inside the centered 4:5 area (y 285-1635 of 1920). End cards stay as supplied (user, 2026-11-13)."
+      "Deliver 9:16 only (no separate 4:5 file). All text and key content (faces, product, action) must sit inside the centered 4:5 area (y 285-1635 of 1920). End cards stay as supplied (user, 2026-11-13).",
+      "FORMAT (user, Nov 13): organic-post style like the user's Atria refs: one static first-person caption (POV / thank-you + EDIT / 'when…' / 'Nobody told me…' / 'Heard you were looking…'), 2-4 real shots, music only, no voiceover, 10-16 s + end card."
     ],
     "drive_folder_id": "1bhhpYqkbtYJI1hOzoSN_-VFxqCkmsI3C",
     "drive_folder_name": "Comfort Wear – Short-Form Video Ads (subfolder per week + 'End cards')"

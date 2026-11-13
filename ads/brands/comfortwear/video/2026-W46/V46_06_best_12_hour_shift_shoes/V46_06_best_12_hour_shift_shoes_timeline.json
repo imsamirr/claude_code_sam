@@ -1,50 +1,25 @@
 {
- "total": 28.867,
+ "total": 15.267,
  "scenes": [
   {
-   "src": "money",
-   "start": 0.0,
-   "end": 3.683
-  },
-  {
    "src": "thumbs",
-   "start": 3.683,
-   "end": 5.35
-  },
-  {
-   "src": "show",
-   "start": 5.35,
-   "end": 9.183
+   "start": 0.0,
+   "end": 3.9
   },
   {
    "src": "couch",
-   "start": 9.183,
-   "end": 11.95
+   "start": 3.9,
+   "end": 7.7
   },
   {
    "src": "onehand",
-   "start": 11.95,
-   "end": 16.017
-  },
-  {
-   "src": "trash",
-   "start": 16.017,
-   "end": 18.15
-  },
-  {
-   "src": "steps10k",
-   "start": 18.15,
-   "end": 21.017
-  },
-  {
-   "src": "steps",
-   "start": 21.017,
-   "end": 24.033
+   "start": 7.7,
+   "end": 11.433
   },
   {
    "src": "_end_card",
-   "start": 24.033,
-   "end": 28.867
+   "start": 11.433,
+   "end": 15.267
   }
  ]
 }

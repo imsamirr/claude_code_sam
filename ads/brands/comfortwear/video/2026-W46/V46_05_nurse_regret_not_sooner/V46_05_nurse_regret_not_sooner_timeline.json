@@ -1,50 +1,25 @@
 {
- "total": 28.867,
+ "total": 15.267,
  "scenes": [
   {
-   "src": "happy",
-   "start": 0.0,
-   "end": 3.717
-  },
-  {
    "src": "stairs_pain",
-   "start": 3.717,
-   "end": 7.35
-  },
-  {
-   "src": "shoes_off",
-   "start": 7.35,
-   "end": 10.117
-  },
-  {
-   "src": "hold",
-   "start": 10.117,
-   "end": 13.65
+   "start": 0.0,
+   "end": 3.9
   },
   {
    "src": "puton",
-   "start": 13.65,
-   "end": 15.85
+   "start": 3.9,
+   "end": 7.7
   },
   {
    "src": "car",
-   "start": 15.85,
-   "end": 18.383
-  },
-  {
-   "src": "patient",
-   "start": 18.383,
-   "end": 20.983
-  },
-  {
-   "src": "show",
-   "start": 20.983,
-   "end": 24.033
+   "start": 7.7,
+   "end": 11.433
   },
   {
    "src": "_end_card",
-   "start": 24.033,
-   "end": 28.867
+   "start": 11.433,
+   "end": 15.267
   }
  ]
 }

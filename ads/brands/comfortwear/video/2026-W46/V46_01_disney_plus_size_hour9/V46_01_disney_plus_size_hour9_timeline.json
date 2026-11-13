@@ -1,50 +1,30 @@
 {
- "total": 30.267,
+ "total": 16.167,
  "scenes": [
   {
-   "src": "group",
-   "start": 0.0,
-   "end": 3.483
-  },
-  {
    "src": "garage",
-   "start": 3.483,
-   "end": 6.117
-  },
-  {
-   "src": "thumbsdown",
-   "start": 6.117,
-   "end": 9.45
-  },
-  {
-   "src": "shoe",
-   "start": 9.45,
-   "end": 12.717
-  },
-  {
-   "src": "stretch",
-   "start": 12.717,
-   "end": 15.183
+   "start": 0.0,
+   "end": 3.2
   },
   {
    "src": "puton",
-   "start": 15.183,
-   "end": 18.083
+   "start": 3.2,
+   "end": 5.8
   },
   {
    "src": "dance",
-   "start": 18.083,
-   "end": 21.917
+   "start": 5.8,
+   "end": 9.6
   },
   {
    "src": "fireworks",
-   "start": 21.917,
-   "end": 25.433
+   "start": 9.6,
+   "end": 12.333
   },
   {
    "src": "_end_card",
-   "start": 25.433,
-   "end": 30.267
+   "start": 12.333,
+   "end": 16.167
   }
  ]
 }

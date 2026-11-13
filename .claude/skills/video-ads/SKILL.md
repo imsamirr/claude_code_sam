@@ -1,6 +1,6 @@
 ---
 name: video-ads
-description: Make short-form video ads (one 9:16 file per ad, all content inside the 4:5 area so it also runs in feed) for a brand in ads/brands/<brand>/ by editing existing footage from the brand's Google Drive asset folder. Studies inspiration ads from Atria (downloads and watches them), pulls the brand's own winning angles from its Atria ad account, inventories and triages Drive footage, writes a native-style script (text-on-screen story captions, POV/meme formats, no voiceover by default), cuts it with ffmpeg via an edit.json, QAs frames, and delivers. Use for "make me a video ad", "short-form ad from our footage", "<angle> video", "UGC edit", "iterate this video winner into short form", "TikTok/Reels ad", or when the user sends Atria inspiration ad links for video.
+description: Make short-form video ads in the organic-post style (one static first-person caption, 2-4 real shots, music, no voiceover; one 9:16 file with all content inside the 4:5 area) for a brand in ads/brands/<brand>/ by editing existing footage from the brand's Google Drive asset folder. Studies inspiration ads from Atria (downloads and watches them), pulls the brand's own winning angles from its Atria ad account, inventories and triages Drive footage, writes a native-style script (text-on-screen story captions, POV/meme formats, no voiceover by default), cuts it with ffmpeg via an edit.json, QAs frames, and delivers. Use for "make me a video ad", "short-form ad from our footage", "<angle> video", "UGC edit", "iterate this video winner into short form", "TikTok/Reels ad", or when the user sends Atria inspiration ad links for video.
 ---
 
 # Video ads (short form, from existing footage)
@@ -66,6 +66,35 @@ write keeps the winner's *angle and proof points* and moves it into the short na
    before spend. Prefer owned footage for the product shots, always.
 
 ## 3. Script → edit.json
+
+**THE FORMAT (user rule, Nov 13 2026, from the user's references — this overrides everything below
+it about voiceover, word-chunk subtitles, hook headers and DR beat lists):** the ads must look like an
+organic post from a real person, not an ad.
+- **One static caption** for the whole video (or two stacked blocks, like EllaOla's "POV…" on top and
+  "Then we started…" lower). White rounded box, black text, ~44px, 2–5 lines. It does not change per
+  scene.
+- **No voiceover.** Trending-style music only (`"music": {..., "gain": 0.45, "duck": false}`).
+- **10–16 s of content**, 2–4 real shots that tell one story: problem moment → product → payoff.
+  The shots carry the story; the caption is the person's first-person post.
+- **Copy = a confession or meme sentence, specific and emotional, product named casually:**
+  - POV: "POV: your kid gets bad sleep so YOU get bad sleep too. … Then we started giving him X. We're
+    both finally sleeping through the night!" (EllaOla)
+  - Thank-you + EDIT: "Me getting X after Y 😭 To the woman who told me about Z… THANK YOU 🙏 EDIT:
+    Since everyone keeps asking, I linked it below." (Auto Accident)
+  - "when…" run-on: "when someone's kid has been sleeping in their bed for 2 years… but they get them
+    a sleep pod and…" (Hug Sleep Pod)
+  - "POV: [doing nothing] just got [result] 😮‍💨" (Basic Buzz)
+  - "Nobody told me X could be this affordable. Ditch the $40 classes and do this instead… If you don't
+    see results in 2 weeks, get a full refund" (Flo Pilates)
+  - "Heard you were looking for a solution to your morning neck pain…" (Groove Pillow)
+  - Letter to someone: "I'm so sorry we ignored the signs…" (KatKin, long version: caption changes
+    per shot as a story)
+- No feature lists, no "10/10", no big brand pills or offer callouts in the video; the offer lives on
+  the end card. One idea, said like a person would post it.
+- Captions sit where they cover no face or action; the engine samples faces every 0.25 s
+  (YuNet model `ads/video/models/yunet.onnx`) and, if no single y is clear for the whole caption,
+  places it per shot.
+
 
 **Direct-response copy (user rule: aggressive DR).** Study the references (user's Atria links +
 `search_library_ads` with `order=best_match`, `active_since` last ~75 days, `min_days_running`

@@ -1,183 +1,72 @@
 {
   "id": "V46_06_best_12_hour_shift_shoes",
-  "version": 3,
+  "version": 4,
   "created": "2026-11-13",
   "end_card": "auto",
-  "end_card_seconds": 5.0,
+  "end_card_seconds": 4.0,
   "transition": "fade",
-  "transition_duration": 0.22,
+  "transition_duration": 0.2,
   "loudness": -14,
   "avoid_faces": true,
-  "persona": "nurse",
-  "colorway": "black_purple",
-  "angle": "Price objection -> Black Friday 60% off + 2 free gifts -> 'best 12-hour shift shoes' + 3 features -> toss the old shoes -> deadline.",
-  "format": "aggressive DR objection-reply (Orthora 'too expensive for me' comment hook), offer callout, VO-synced subtitles, nurse music bed",
-  "voiceover": {
-    "file": "vo/harper_dr.mp3",
-    "mode": "continuous",
-    "tempo": 1.04,
-    "lead": 0.15,
-    "tail": 0.35,
-    "segments": [
-      [
-        0,
-        3.42
-      ],
-      [
-        3.95,
-        5.16
-      ],
-      [
-        5.71,
-        9.19
-      ],
-      [
-        9.7,
-        12.12
-      ],
-      [
-        12.55,
-        16.38
-      ],
-      [
-        16.8,
-        18.57
-      ],
-      [
-        19.07,
-        21.56
-      ],
-      [
-        22.05,
-        24.57
-      ]
-    ],
-    "lines": [
-      "I'd try ComfortWear, but nurse shoes are way too expensive.",
-      "Well, it's your lucky day.",
-      "Black Friday just dropped: 60% off, plus two free gifts.",
-      "These are the best 12-hour shift shoes I've ever worn.",
-      "Wide toe box, real arch support, and comfort that lasts your whole shift.",
-      "So toss the shoes that keep hurting you.",
-      "10,000 steps, and my feet still feel great.",
-      "Black Friday ends soon, so tap the link before it's gone."
-    ],
-    "sub": {
-      "style": "box",
-      "size": 58,
-      "width": 0.86,
-      "y": 0.68,
-      "max_words": 4
-    },
-    "script": "I'd try ComfortWear, but nurse shoes are way too expensive. Well, it's your lucky day. Black Friday just dropped: 60% off, plus two free gifts. These are the best 12-hour shift shoes I've ever worn. Wide toe box, real arch support, and comfort that lasts your whole shift. So toss the shoes that keep hurting you. 10,000 steps, and my feet still feel great. Black Friday ends soon, so tap the link before it's gone.",
-    "voice": "Harper (Atria, microsoft/mai-voice-2.1)"
-  },
+  "format_rules": "Organic-post style (user refs Nov 13): no voiceover, one static first-person caption for the whole video, 2-4 real shots, music only, 10-15s + end card.",
+  "angle": "Price objection flipped: nobody told me shoes this comfortable were only $60; ditch $150 running shoes; wide toe box, arch support, slip-on.",
+  "format": "'Nobody told me X could be this affordable. Ditch Y and do this instead' caption (ref: Flo Pilates), 3 shots of one creator, music",
   "music": {
     "file": "vo/music_nurse_bed.mp3",
-    "gain": 0.15,
-    "duck": true,
-    "start": 3.0
+    "gain": 0.45,
+    "duck": false,
+    "start": 2.0
   },
   "sources": {
-    "money": "drive:1M2piTshpYvFAO0577Rbmtv7z63dTEBUs",
     "thumbs": "drive:1AMN9wSQJGfaXVI4-wPjMcTgrBin-CY0A",
-    "show": "drive:1vkvMu2L20Kwy0wl9pvtbznLww7oRrAXx",
     "couch": "drive:1uk0bE5MbBW5uw-oNh6JROp7GNqRXBr0y",
-    "onehand": "drive:1WBOQArdPWL6w5KaQb524hfNW0oNESKwP",
-    "trash": "drive:1GW8hze5j-jkoyepRl7Nx6Hv0-zIETYcU",
-    "steps10k": "drive:1K1UEwDbCxbMGF8UjN7FISI_FjxXK2Ocn",
-    "steps": "drive:1PQYQ6ihXNj2kvMaxehVa3QaZ59-Hh9Zv"
+    "onehand": "drive:1WBOQArdPWL6w5KaQb524hfNW0oNESKwP"
   },
   "source_notes": {
-    "money": "MISC B-ROLL/Nurses (owned)",
     "thumbs": "MISC B-ROLL/Nurses (owned)",
-    "show": "MISC B-ROLL/Nurses (owned)",
     "couch": "MISC B-ROLL/Nurses (owned)",
-    "onehand": "MISC B-ROLL/Nurses (owned)",
-    "trash": "MISC B-ROLL/Nurses (owned)",
-    "steps10k": "MISC B-ROLL/Nurses (owned)",
-    "steps": "MISC B-ROLL/Nurses (owned)"
+    "onehand": "MISC B-ROLL/Nurses (owned)"
   },
   "clips": [
     {
-      "src": "money",
-      "in": 11.0,
-      "gain": 0
-    },
-    {
       "src": "thumbs",
       "in": 3.0,
-      "gain": 0
-    },
-    {
-      "src": "show",
-      "in": 3.0,
+      "out": 7.0,
       "gain": 0
     },
     {
       "src": "couch",
       "in": 3.0,
+      "out": 7.0,
       "gain": 0
     },
     {
       "src": "onehand",
       "in": 3.0,
+      "out": 7.0,
       "gain": 0,
       "shift_y": 0.11
-    },
-    {
-      "src": "trash",
-      "in": 8.5,
-      "gain": 0
-    },
-    {
-      "src": "steps10k",
-      "in": 2.0,
-      "gain": 0,
-      "shift_y": 0.11
-    },
-    {
-      "src": "steps",
-      "in": 12.0,
-      "gain": 0,
-      "keep_clear": [
-        [
-          0.08,
-          0.6
-        ]
-      ],
-      "shift_y": 0.06
     }
   ],
   "captions": [
     {
-      "clip": 0,
-      "text": "Reply to comment: \"I'd try them but nurse shoes are too expensive 😩\"",
-      "style": "dark",
-      "y": 0.22,
-      "size": 52,
-      "width": 0.9
-    },
-    {
-      "clip": 2,
-      "text": "60% OFF + 2 FREE GIFTS 🎁",
-      "style": "brand",
-      "y": 0.26,
-      "size": 76,
-      "width": 0.9
-    },
-    {
-      "clip": 7,
-      "text": "ENDS SOON ⏰",
-      "style": "brand",
-      "y": 0.74,
-      "size": 80,
-      "width": 0.9
+      "clips": [
+        0,
+        2
+      ],
+      "text": "Nobody told me nurse shoes this comfortable were only $60. Ditch the $150 running shoes and wear these for your next 12 🙌 Wide toe box, real arch support, and they slip right on.",
+      "style": "box",
+      "y": 0.3,
+      "size": 44,
+      "width": 0.84,
+      "fade": 0
     }
   ],
+  "persona": "nurse",
+  "based_on": "Top-5 winner #5 RTGv1_H3 static Ortho-Stretch-Cushion-Shoe-#753_2 'FLASH SALE! Best 12-hour shift shoes / Wide toe-box / Arch support / 12-hour comfort / 40% off + free shipping' ($1,222, 2.93 ROAS, last 14d). Static -> video: same headline and three proof points; the Black Friday end card carries the offer.",
   "primary_text": "The best 12-hour shift shoes, now in our Black Friday sale.\n\n👟 Wide toe-box: room for your toes to spread\n🦶 Arch support under every step\n⏱️ 12-hour comfort, first patient to last\n\nTap 'Shop Now'!",
   "headline": "Best 12-Hour Shift Shoes",
   "cta": "SHOP_NOW",
   "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
-  "based_on": "Top-5 winner #5 RTGv1_H3 static Ortho-Stretch-Cushion-Shoe-#753_2 'FLASH SALE! Best 12-hour shift shoes / Wide toe-box / Arch support / 12-hour comfort / 40% off + free shipping' ($1,222, 2.93 ROAS, last 14d). Static -> video: same headline and three proof points; the Black Friday end card carries the offer."
+  "colorway": "black_purple"
 }

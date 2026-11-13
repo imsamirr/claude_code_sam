@@ -1,165 +1,93 @@
 {
   "id": "V46_01_disney_plus_size_hour9",
-  "version": 5,
+  "version": 6,
   "created": "2026-11-13",
   "end_card": "auto",
-  "end_card_seconds": 5.0,
+  "end_card_seconds": 4.0,
   "transition": "fade",
-  "transition_duration": 0.22,
+  "transition_duration": 0.2,
   "loudness": -14,
   "avoid_faces": true,
-  "persona": "traveler",
-  "colorway": "purple",
-  "angle": "Plus-size women at Disney: gym sneakers are built narrow and the foam goes flat under your weight; wide toe box + stretch knit + cushioned sole; Black Friday urgency.",
-  "format": "aggressive DR: callout hook header, VO-synced word-chunk subtitles (HealthyFeet/Orthora style), 8 fast cuts, low ducked music, Black Friday end card",
-  "rules": "Plus-size Disney concept: plus-size women and/or Disney in every scene. No clip shared with any other ad in the batch.",
-  "voiceover": {
-    "file": "vo/harper_dr.mp3",
-    "mode": "continuous",
-    "tempo": 1.05,
-    "lead": 0.15,
-    "tail": 0.35,
-    "segments": [
-      [
-        0,
-        3.26
-      ],
-      [
-        3.74,
-        6.03
-      ],
-      [
-        6.51,
-        9.53
-      ],
-      [
-        10.04,
-        13.01
-      ],
-      [
-        13.46,
-        15.65
-      ],
-      [
-        16.06,
-        18.66
-      ],
-      [
-        19.15,
-        22.61
-      ],
-      [
-        23.27,
-        26.26
-      ]
-    ],
-    "lines": [
-      "If you're plus-size and going to Disney, do not wear your gym sneakers.",
-      "By hour five, they're done, and so are your feet.",
-      "Most sneakers are built narrow, and the foam goes flat under your weight.",
-      "These have a wide toe box that actually gives your feet room to swell.",
-      "The knit stretches with you, instead of squeezing.",
-      "And the cushioned sole is built for 12-hour park days.",
-      "22,000 steps later, I was still dancing in front of the castle.",
-      "Black Friday pricing won't last, so grab yours before your trip."
-    ],
-    "sub": {
-      "style": "box",
-      "size": 58,
-      "width": 0.86,
-      "y": 0.68,
-      "max_words": 4
-    },
-    "script": "If you're plus-size and going to Disney, do not wear your gym sneakers. By hour five, they're done, and so are your feet. Most sneakers are built narrow, and the foam goes flat under your weight. These have a wide toe box that actually gives your feet room to swell. The knit stretches with you, instead of squeezing. And the cushioned sole is built for twelve-hour park days. 22,000 steps later, I was still dancing in front of the castle. Black Friday pricing won't last, so grab yours before your trip.",
-    "voice": "Harper (Atria, microsoft/mai-voice-2.1)"
-  },
+  "format_rules": "Organic-post style (user refs Nov 13): no voiceover, one static first-person caption for the whole video, 2-4 real shots, music only, 10-15s + end card.",
+  "angle": "Plus-size at Disney: sneakers give out by noon; switched to wide toe box shoes; 22,000 steps and still dancing at the castle.",
+  "format": "POV two-block caption (ref: EllaOla 'POV: your kid gets bad sleep so YOU get bad sleep too… Then we started…'), 4 shots, music",
   "music": {
     "file": "vo/music_park_bed.mp3",
-    "gain": 0.15,
-    "duck": true
+    "gain": 0.45,
+    "duck": false,
+    "start": 2.0
   },
   "sources": {
-    "group": "drive:1O2ny98nZUOIjf_QHSPxSfhvlKZMjaA5a",
     "garage": "drive:1mVOWjLngmF_snC6XCmzC2Z9iITUQ6aVg",
-    "thumbsdown": "drive:1-y7Pe1tu3fe6JpLucrXuy_AMOHk4DfiF",
-    "shoe": "drive:1ygiK3dyWGJ506O8l7V6aVR6b-TIVW1uJ",
-    "stretch": "drive:1dpPJdTB-tMXwfr4dwBWg1OIzKMdnkGj4",
-    "puton": "drive:1byBvvKrX3Qbi0fmLdJ6GLFjl00zZuH76",
+    "puton": "drive:1bCDBe1QkczeV01sUOqVI6GC7l_IhBuTe",
     "dance": "drive:1R8eMYeZrKkgIN3bFU9PIpYYGGqj5Yx-8",
     "fireworks": "drive:1dezapqHlZYMIZIlmZmVjpWOlSgx7qVp6"
   },
   "source_notes": {
-    "group": "TikTok: plus-size friends in Minnie ears at Disney's BoardWalk",
-    "garage": "TikTok: exhausted in the Disney parking garage at night",
-    "thumbsdown": "MISC B-ROLL/Retail Workers/Broll overweight lady giving thumbs down while holding non-CW shoes.MOV",
-    "shoe": "Larissa/Purple shoes/IMG_0932.MOV",
-    "stretch": "Larissa/Purple shoes/IMG_0933.MOV",
-    "puton": "MISC B-ROLL/Retail Workers/Broll overweight female putting on CW shoes.MOV",
-    "dance": "TikTok: plus-size group dancing at Cinderella Castle",
-    "fireworks": "TikTok: plus-size woman in Minnie ears under fireworks"
+    "garage": "TikTok creator: exhausted in the Disney parking garage",
+    "puton": "Larissa (plus-size creator) pulling on the purple shoe",
+    "dance": "TikTok creator: plus-size group dancing at Cinderella Castle",
+    "fireworks": "TikTok creator: plus-size woman in Minnie ears under fireworks"
   },
   "clips": [
     {
-      "src": "group",
-      "in": 0.0,
-      "zoom": 1.3,
-      "focus_y": 1.0,
-      "gain": 0
-    },
-    {
       "src": "garage",
-      "in": 4.2,
+      "in": 4.3,
+      "out": 7.6,
       "gain": 0,
       "shift_y": 0.05
     },
     {
-      "src": "thumbsdown",
-      "in": 7.6,
-      "gain": 0
-    },
-    {
-      "src": "shoe",
-      "in": 11.3,
-      "gain": 0
-    },
-    {
-      "src": "stretch",
-      "in": 8.6,
-      "gain": 0
-    },
-    {
       "src": "puton",
-      "in": 4.4,
+      "in": 0.4,
+      "out": 3.2,
       "gain": 0
     },
     {
       "src": "dance",
       "in": 3.0,
+      "out": 7.0,
       "gain": 0
     },
     {
       "src": "fireworks",
       "in": 13.4,
-      "eq": "brightness=0.1:contrast=1.08:saturation=1.15",
-      "gain": 0
+      "out": 16.4,
+      "gain": 0,
+      "eq": "brightness=0.1:contrast=1.08:saturation=1.15"
     }
   ],
   "captions": [
     {
       "clips": [
         0,
-        0
+        3
       ],
-      "text": "PLUS-SIZE & GOING TO DISNEY? 🚨",
-      "style": "dark",
-      "y": 0.24,
-      "size": 66,
-      "width": 0.92
+      "text": "POV: you're plus-size at Disney and your \"comfy\" sneakers give out by noon 😩 I was sitting on every bench in the park",
+      "style": "box",
+      "y": 0.27,
+      "size": 44,
+      "width": 0.84,
+      "fade": 0
+    },
+    {
+      "clips": [
+        1,
+        3
+      ],
+      "text": "Then I switched to these wide toe box shoes. 22,000 steps later I was still dancing in front of the castle 🏰",
+      "style": "box",
+      "y": 0.68,
+      "size": 44,
+      "width": 0.84,
+      "fade": 0
     }
   ],
+  "persona": "traveler",
+  "based_on": "Own winner COM284_HO1 'plus-size women at Disney' (CA$5.1k, 2.89 ROAS, last 30d) cut down to short form; structure from inspo Dr. Woof 'Flight compression socks for men' (persistent header + story captions) and 'Vets wearing scrubs made for human med' (meme problem -> flip).",
   "primary_text": "Disney days are 10–12 hours on your feet. Most \"comfy\" sneakers are built narrow, and by the afternoon parade your feet have swollen and your toes are fighting the shoe.\n\nThe ComfortWear Ortho Stretch Shoe was made for long days:\n👣 Wide toe box so your toes aren't crushed as your feet swell\n🧶 Stretch-knit upper that gives instead of squeezing\n☁️ Cushioned rocker sole for 20,000-step park days\n\nFrom rope drop to fireworks 🎆",
   "headline": "Disney Shoes For Plus-Size Women",
   "cta": "SHOP_NOW",
   "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
-  "based_on": "Own winner COM284_HO1 'plus-size women at Disney' (CA$5.1k, 2.89 ROAS, last 30d) cut down to short form; structure from inspo Dr. Woof 'Flight compression socks for men' (persistent header + story captions) and 'Vets wearing scrubs made for human med' (meme problem -> flip)."
+  "colorway": "purple"
 }

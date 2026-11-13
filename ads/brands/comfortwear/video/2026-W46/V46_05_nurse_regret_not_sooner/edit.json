@@ -1,172 +1,72 @@
 {
   "id": "V46_05_nurse_regret_not_sooner",
-  "version": 3,
+  "version": 4,
   "created": "2026-11-13",
   "end_card": "auto",
-  "end_card_seconds": 5.0,
+  "end_card_seconds": 4.0,
   "transition": "fade",
-  "transition_duration": 0.22,
+  "transition_duration": 0.2,
   "loudness": -14,
   "avoid_faces": true,
-  "persona": "nurse",
-  "colorway": "black_purple",
-  "angle": "Nurse testimonial: $60, mad I didn't buy sooner; feet gave out by hour 8; wide toe box, arch support, slip-resistant, slip-on; coworkers bought them; CTA.",
-  "format": "aggressive DR UGC testimonial: callout hook header, VO-synced subtitles, one creator's full day (stairs pain -> shoes -> car), nurse music bed",
-  "voiceover": {
-    "file": "vo/harper_dr.mp3",
-    "mode": "continuous",
-    "tempo": 1.04,
-    "lead": 0.15,
-    "tail": 0.35,
-    "segments": [
-      [
-        0,
-        3.46
-      ],
-      [
-        3.97,
-        7.3
-      ],
-      [
-        7.75,
-        10.21
-      ],
-      [
-        10.64,
-        13.93
-      ],
-      [
-        14.31,
-        16.15
-      ],
-      [
-        16.69,
-        18.86
-      ],
-      [
-        19.27,
-        21.59
-      ],
-      [
-        21.99,
-        24.58
-      ]
-    ],
-    "lines": [
-      "I spent $60 on these, and honestly, I'm mad I didn't do it sooner.",
-      "I work 12-hour shifts on concrete, and my feet used to give out by hour 8.",
-      "I'd sit on the stairs after every shift just to get my shoes off.",
-      "These have a wide toe box, real arch support, and they're slip-resistant.",
-      "They slip right on, no laces to tie.",
-      "Now I walk out to my car after a 12 like it's nothing.",
-      "Three nurses on my floor already ordered them after seeing mine.",
-      "If your feet hurt every shift, stop scrolling and grab a pair."
-    ],
-    "sub": {
-      "style": "box",
-      "size": 58,
-      "width": 0.86,
-      "y": 0.68,
-      "max_words": 4
-    },
-    "script": "I spent $60 on these, and honestly, I'm mad I didn't do it sooner. I work 12-hour shifts on concrete, and my feet used to give out by hour 8. I'd sit on the stairs after every shift just to get my shoes off. These have a wide toe box, real arch support, and they're slip-resistant. They slip right on, no laces to tie. Now I walk out to my car after a 12 like it's nothing. Three nurses on my floor already ordered them after seeing mine. If your feet hurt every shift, stop scrolling and grab a pair.",
-    "voice": "Harper (Atria, microsoft/mai-voice-2.1)",
-    "sub_overrides": {
-      "0": {
-        "y": 0.745
-      }
-    }
-  },
+  "format_rules": "Organic-post style (user refs Nov 13): no voiceover, one static first-person caption for the whole video, 2-4 real shots, music only, 10-15s + end card.",
+  "angle": "Nurse limping to her car after every 12 for years; a coworker tells her about $60 shoes; walks out after a double like it's nothing.",
+  "format": "'when…' run-on story caption (ref: Hug Sleep Pod 'when someone's kid has been sleeping in their bed…'), 3 shots of one creator, music",
   "music": {
     "file": "vo/music_nurse_bed.mp3",
-    "gain": 0.15,
-    "duck": true
+    "gain": 0.45,
+    "duck": false,
+    "start": 2.0
   },
   "sources": {
-    "happy": "drive:13LwlT7BJ66EL76shZGzHwZLjykTnVdUi",
     "stairs_pain": "drive:1XuYC3j_426LTCY0tBhNtCth7_qH4B-VS",
-    "shoes_off": "drive:1w1Co3vhSMQ7fK7aH-Vv1PCqxX3Z7Pme2",
-    "hold": "drive:1gcQvgkM0IrvkBLN7mPwFeBHhDU55Skkg",
     "puton": "drive:1CwBcnrIAz7sTF7zCFBH0HvakBB-gdHD8",
-    "car": "drive:1sH2ZVDJS9SY938uAl745RHCMfRr0k27t",
-    "patient": "drive:1TH8fC-iqSKUMYDcIZ5au_2y-5diegpNl",
-    "show": "drive:1MOBZmhq1i87e5Zz8IqLd6b_10GqeoL5R"
+    "car": "drive:1sH2ZVDJS9SY938uAl745RHCMfRr0k27t"
   },
   "source_notes": {
-    "happy": "MISC B-ROLL/Nurses (owned)",
     "stairs_pain": "MISC B-ROLL/Nurses (owned)",
-    "shoes_off": "MISC B-ROLL/Nurses (owned)",
-    "hold": "MISC B-ROLL/Nurses (owned)",
     "puton": "MISC B-ROLL/Nurses (owned)",
-    "car": "MISC B-ROLL/Nurses (owned)",
-    "patient": "MISC B-ROLL/Nurses (owned)",
-    "show": "MISC B-ROLL/Nurses (owned)"
+    "car": "MISC B-ROLL/Nurses (owned)"
   },
   "clips": [
     {
-      "src": "happy",
-      "in": 0.8,
-      "gain": 0,
-      "keep_clear": [
-        [
-          0.15,
-          0.62
-        ]
-      ]
-    },
-    {
       "src": "stairs_pain",
-      "in": 1.0,
-      "gain": 0
-    },
-    {
-      "src": "shoes_off",
       "in": 1.5,
-      "gain": 0
-    },
-    {
-      "src": "hold",
-      "in": 1.0,
+      "out": 5.5,
       "gain": 0
     },
     {
       "src": "puton",
       "in": 2.0,
+      "out": 6.0,
       "gain": 0
     },
     {
       "src": "car",
       "in": 19.0,
-      "gain": 0
-    },
-    {
-      "src": "patient",
-      "in": 5.0,
+      "out": 23.0,
       "gain": 0,
-      "shift_y": 0.07
-    },
-    {
-      "src": "show",
-      "in": 1.5,
-      "gain": 0
+      "shift_y": 0.09
     }
   ],
   "captions": [
     {
       "clips": [
         0,
-        0
+        2
       ],
-      "text": "Nurses: don't make my mistake 😭",
-      "style": "dark",
-      "y": 0.665,
-      "size": 56,
-      "width": 0.92
+      "text": "when you've been limping to your car after every 12-hour shift for 3 years… but your coworker tells you about these $60 shoes and you walk out after a double like it's nothing 😭",
+      "style": "box",
+      "y": 0.3,
+      "size": 44,
+      "width": 0.84,
+      "fade": 0
     }
   ],
+  "persona": "nurse",
+  "based_on": "Top-5 winner #4 RTGv1_B6 203_Iteration_UGC_OrthoStretch_H1 'I spent $60 on these shoes for my nursing job, and I regret not buying them sooner' ($1,930, 3.42 ROAS, last 14d, retargeting). Same testimonial angle and proof points, cut to ~20s native format; guarantee/podiatrist lines dropped (claims_to_avoid).",
   "primary_text": "\"I'm a nurse and I work 12-hour shifts on concrete floors. My feet used to be done by hour 8. I spent $60 on these and I regret not buying them sooner.\"\n\n👣 Wide toe box for long shifts\n🦶 Real arch support and cushioned heels\n🛡️ Slip-resistant for hospital floors\n\nNo more limping to your car after a 12.",
   "headline": "Nurse Shoes For 12-Hour Shifts",
   "cta": "SHOP_NOW",
   "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
-  "based_on": "Top-5 winner #4 RTGv1_B6 203_Iteration_UGC_OrthoStretch_H1 'I spent $60 on these shoes for my nursing job, and I regret not buying them sooner' ($1,930, 3.42 ROAS, last 14d, retargeting). Same testimonial angle and proof points, cut to ~20s native format; guarantee/podiatrist lines dropped (claims_to_avoid)."
+  "colorway": "black_purple"
 }

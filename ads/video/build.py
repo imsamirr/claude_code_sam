@@ -350,21 +350,19 @@ def probe_audio_duration(path):
 
 
 _CASCADES = None
+_YUNET = None
+YUNET_MODEL = Path(__file__).resolve().parent / "models" / "yunet.onnx"
 
 
 def face_boxes(path, t):
     """Face boxes (y0, y1, x0, x1 as fractions of the frame) in the frame of `path` at t seconds.
-    Frontal + profile (both directions) Haar cascades; used to keep captions off faces."""
-    global _CASCADES
+    YuNet DNN detector (ads/video/models/yunet.onnx: robust to expressions, motion, profiles);
+    falls back to OpenCV Haar cascades if the model or cv2.FaceDetectorYN is missing."""
+    global _CASCADES, _YUNET
     try:
         import cv2
     except ImportError:
         return []
-    if _CASCADES is None:
-        d = cv2.data.haarcascades
-        _CASCADES = [cv2.CascadeClassifier(d + n) for n in
-                     ("haarcascade_frontalface_default.xml", "haarcascade_profileface.xml",
-                      "haarcascade_frontalface_alt2.xml")]
     cap = cv2.VideoCapture(str(path))
     cap.set(cv2.CAP_PROP_POS_MSEC, max(0.0, t) * 1000)
     ok, frame = cap.read()
@@ -372,6 +370,18 @@ def face_boxes(path, t):
     if not ok:
         return []
     h, w = frame.shape[:2]
+    if YUNET_MODEL.exists() and hasattr(cv2, "FaceDetectorYN"):
+        sw, sh = 360, int(360 * h / w)
+        if _YUNET is None or _YUNET[1] != (sw, sh):
+            _YUNET = (cv2.FaceDetectorYN.create(str(YUNET_MODEL), "", (sw, sh), 0.6, 0.3, 5000), (sw, sh))
+        _, faces = _YUNET[0].detect(cv2.resize(frame, (sw, sh)))
+        return [] if faces is None else [(r[1] / sh, (r[1] + r[3]) / sh, r[0] / sw, (r[0] + r[2]) / sw)
+                                         for r in faces]
+    if _CASCADES is None:
+        d = cv2.data.haarcascades
+        _CASCADES = [cv2.CascadeClassifier(d + n) for n in
+                     ("haarcascade_frontalface_default.xml", "haarcascade_profileface.xml",
+                      "haarcascade_frontalface_alt2.xml")]
     small = cv2.resize(frame, (w // 3, h // 3))
     gray = cv2.equalizeHist(cv2.cvtColor(small, cv2.COLOR_BGR2GRAY))
     sw, sh = gray.shape[1], gray.shape[0]
@@ -556,21 +566,25 @@ def build(edit_path, sheet_every=1.5, feed=False):
         # it spans), a clip's "keep_clear" bands, or another caption on screen at the same time;
         # then it moves to the nearest clear y in 0.17..0.76.
         placed_boxes = []
-        for j, cap in enumerate(caps_all):
+
+        def resolve(cap):
             if "clip" in cap or "clips" in cap:
                 a, b = cap.get("clips", [cap.get("clip")] * 2)
                 if max(a, b) >= n_content:
-                    raise SystemExit(f"caption {j}: clip index {max(a, b)} out of range (0..{n_content - 1})")
-                s, e = win[a][0], win[b][1]
+                    raise SystemExit(f"caption clip index {max(a, b)} out of range (0..{n_content - 1})")
+                s0, e0 = win[a][0], win[b][1]
             else:
-                s, e = float(cap["start"]), min(float(cap["end"]), total)
-            s, e = max(0.0, s + float(cap.get("delay", 0))), min(e, total)
-            png = tmp / f"cap_{j:02d}.png"
-            ch, cw = render_caption(cap, png)
+                s0, e0 = float(cap["start"]), min(float(cap["end"]), total)
+            return max(0.0, s0 + float(cap.get("delay", 0))), min(e0, total)
+
+        def find_y(cap, s, e, ch, cw):
+            """Nearest y to the requested one that keeps the caption off faces (sampled every 0.25 s),
+            keep_clear bands and other captions, inside the 4:5 area. None if no y is clear."""
             want = float(cap.get("y", 0.3))
             blocks = []
             if cap.get("avoid_faces", edit.get("avoid_faces", True)):
-                for t in [s + (e - s) * f for f in (0.1, 0.4, 0.7, 0.95)]:
+                nst = max(4, min(80, int((e - s) / 0.25)))
+                for t in [s + (e - s) * (k + 0.5) / nst for k in range(nst)]:
                     i = scene_at(t)
                     for fb in face_boxes(parts[i], t - offs[i]):
                         fh = fb[1] - fb[0]
@@ -581,20 +595,40 @@ def build(edit_path, sheet_every=1.5, feed=False):
             for (ps, pe, py0, py1) in placed_boxes:
                 if ps < e and s < pe:
                     blocks.append((py0 - 0.006, py1 + 0.006, 0.0, 1.0))
-            x0f, x1f = (W - cw) / 2 / W, (W + cw) / 2 / W
-            hf = ch / H
-
-            def clear(yc):
-                y0, y1 = yc - hf / 2, yc + hf / 2
-                return all(not (y0 < b1 and b0 < y1 and x0f < bx1 and bx0 < x1f) for b0, b1, bx0, bx1 in blocks)
-            cands = sorted({round(want + d * sgn, 3) for d in [k * 0.01 for k in range(0, 60)] for sgn in (1, -1)},
-                           key=lambda yc: abs(yc - want))
+            x0f, x1f, hf = (W - cw) / 2 / W, (W + cw) / 2 / W, ch / H
             lo, hi = SAFE_TOP + 0.02 + hf / 2, SAFE_BOT - 0.03 - hf / 2   # inside the 4:5 area, clear of UI
-            cands = [yc for yc in cands if lo <= yc <= hi]
-            yc = next((c for c in cands if clear(c)), min(max(want, lo), hi))
-            if abs(yc - want) > 0.005:
-                print(f"   caption {j} '{cap['text'][:28]}': y {want:.2f} -> {yc:.2f} (face/keep-clear)")
-            placed_boxes.append((s, e, yc - hf / 2, yc + hf / 2))
+            cands = sorted({round(want + d * sg, 3) for d in [k * 0.01 for k in range(60)] for sg in (1, -1)},
+                           key=lambda yc: abs(yc - want))
+            for yc in cands:
+                if lo <= yc <= hi and all(not (yc - hf / 2 < b1 and b0 < yc + hf / 2 and x0f < bx1 and bx0 < x1f)
+                                          for b0, b1, bx0, bx1 in blocks):
+                    return yc
+            return None
+
+        # a caption with no clear y across all its scenes is split per scene (it moves at the cuts)
+        segments = []
+        for j, cap in enumerate(caps_all):
+            s, e = resolve(cap)
+            png = tmp / f"cap_{j:02d}.png"
+            ch, cw = render_caption(cap, png)
+            yc = find_y(cap, s, e, ch, cw)
+            if yc is not None:
+                segments.append((cap, png, ch, s, e, yc))
+                placed_boxes.append((s, e, yc - ch / H / 2, yc + ch / H / 2))
+                continue
+            cuts = sorted({s, e, *[a for a, _ in win if s < a < e]})
+            print(f"   caption {j} '{cap['text'][:28]}': no single clear y, placed per scene")
+            for s1, e1 in zip(cuts, cuts[1:]):
+                y1 = find_y(cap, s1, e1, ch, cw)
+                if y1 is None:
+                    y1 = min(max(float(cap.get("y", 0.3)), SAFE_TOP + 0.02 + ch / H / 2), SAFE_BOT - 0.03 - ch / H / 2)
+                    print(f"     WARNING {s1:.1f}-{e1:.1f}s: still overlaps a face; move or shorten it")
+                segments.append((cap, png, ch, s1, e1, y1))
+                placed_boxes.append((s1, e1, y1 - ch / H / 2, y1 + ch / H / 2))
+
+        for j, (cap, png, ch, s, e, yc) in enumerate(segments):
+            if abs(yc - float(cap.get("y", 0.3))) > 0.005:
+                print(f"   caption '{cap['text'][:28]}' {s:.1f}-{e:.1f}s: y {float(cap.get('y', 0.3)):.2f} -> {yc:.2f}")
             y = int(H * yc - ch / 2)
             k = n + j
             inputs += ["-loop", "1", "-framerate", str(FPS), "-t", f"{total:.3f}", "-i", str(png)]
@@ -608,7 +642,7 @@ def build(edit_path, sheet_every=1.5, feed=False):
             g.append(f"[{vl}][cp{j}]overlay=0:{y}:eof_action=pass:enable='between(t,{s:.3f},{e:.3f})'[vc{j}]")
             vl = f"vc{j}"
 
-        next_in = n + len(caps_all)
+        next_in = n + len(segments)
         A = "aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo"
 
         # voiceover: continuous mode plays the whole take once (natural flow); "lines" mode places

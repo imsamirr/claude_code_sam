@@ -1,70 +1,30 @@
 {
- "total": 31.533,
+ "total": 15.067,
  "scenes": [
   {
    "src": "gate",
    "start": 0.0,
-   "end": 1.783
-  },
-  {
-   "src": "crowd",
-   "start": 1.783,
-   "end": 3.817
-  },
-  {
-   "src": "hoka",
-   "start": 3.817,
-   "end": 5.583
-  },
-  {
-   "src": "crawl",
-   "start": 5.583,
-   "end": 8.183
-  },
-  {
-   "src": "airmax",
-   "start": 8.183,
-   "end": 10.183
-  },
-  {
-   "src": "airmax",
-   "start": 10.183,
-   "end": 13.283
-  },
-  {
-   "src": "skechers",
-   "start": 13.283,
-   "end": 15.15
-  },
-  {
-   "src": "insole",
-   "start": 15.15,
-   "end": 17.283
-  },
-  {
-   "src": "features",
-   "start": 17.283,
-   "end": 19.217
+   "end": 2.5
   },
   {
    "src": "walk",
-   "start": 19.217,
-   "end": 21.85
-  },
-  {
-   "src": "castle_night",
-   "start": 21.85,
-   "end": 24.65
+   "start": 2.5,
+   "end": 5.5
   },
   {
    "src": "coaster",
-   "start": 24.65,
-   "end": 26.7
+   "start": 5.5,
+   "end": 7.9
+  },
+  {
+   "src": "castle_night",
+   "start": 7.9,
+   "end": 11.233
   },
   {
    "src": "_end_card",
-   "start": 26.7,
-   "end": 31.533
+   "start": 11.233,
+   "end": 15.067
   }
  ]
 }
