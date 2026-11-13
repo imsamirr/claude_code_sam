@@ -411,6 +411,9 @@ def pick_end_card(edit, edit_path):
         hit = next((c for c in cards if c["name"] == want), None)
         return (hit or {"name": want, "file": want})
     day = str(edit.get("created") or date.today().isoformat())
+    lang = edit.get("lang", "en")
+    same = [c for c in cards if c.get("lang", "en") == lang]
+    cards = same or [c for c in cards if c.get("lang", "en") == "en"]
     for c in cards:
         if (c.get("from") or c.get("until")) and c.get("from", "0000") <= day <= c.get("until", "9999"):
             return c

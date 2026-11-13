@@ -53,7 +53,8 @@ write keeps the winner's *angle and proof points* and moves it into the short na
 3. **Shortlist sheets**: `python ads/video/build.py --sheet drive:<id> --every 0.5` per clip; note
    usable in/out ranges, framing, and **burned-in creator text** (crop it out with `zoom` +
    `focus_y`, or skip the clip). Record each in `footage.csv`.
-4. **Rights**: tag every clip `owned_creator`, `owned_agency`, `ai_generated` or
+4. **Rights (user rule, Comfort Wear)**: third-party TikToks from individual creators are OK;
+   never use other brands' own content (their ads, promos, product videos). Tag every clip `owned_creator`, `owned_agency`, `ai_generated` or
    `third_party_tiktok`. Snaptik/TikTok downloads are other people's videos: tell the user in the
    delivery message which shots are third-party so they can confirm permission/whitelisting
    before spend. Prefer owned footage for the product shots, always.
@@ -116,6 +117,9 @@ the render frame by frame.
   "plus-size Disney" ad shows only plus-size women and/or Disney, including the product shots
   (use a plus-size creator such as Larissa for those). No generic feet, car or home b-roll that
   breaks the world of the ad.
+- **Spanish ads**: `"lang": "es"` picks the Spanish end card automatically (`video.end_cards[].lang`).
+  New Spanish cards are rebuilt from the English one with `ads/video/make_end_card_es.py`
+  (inpaints the English elements, redraws them in Spanish, animates the build).
 - **End card (user rule)**: set `"end_card": "auto"` and `"created": "<YYYY-MM-DD>"`. The engine
   appends the brand's card from `brand.json` → `video.end_cards`: Comfort Wear uses the Black
   Friday card for creatives made **on or before 2026-11-23**, the regular card after. The last

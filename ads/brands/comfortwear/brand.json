@@ -267,6 +267,13 @@
         "note": "Black Friday 2026: 60% off + 2 free gifts. User rule: every creative made on or before 2026-11-23 ends on this card."
       },
       {
+        "name": "black_friday_es",
+        "lang": "es",
+        "file": "ads/brands/comfortwear/video/end_cards/black_friday_2026_es.mp4",
+        "until": "2026-11-23",
+        "note": "Spanish (US) Black Friday card, rebuilt from the English card by ads/video/make_end_card_es.py: '¡ya llegó!', '60% DE DESCUENTO + 2 REGALOS GRATIS', OFERTA tapes, '30 DÍAS GARANTÍA DE DEVOLUCIÓN', 'ENVÍO GRATIS EN TODOS LOS PEDIDOS'."
+      },
+      {
         "name": "regular",
         "file": "ads/brands/comfortwear/video/end_cards/regular.mp4",
         "vo": "ads/brands/comfortwear/video/end_cards/regular_vo.mp3",
@@ -274,7 +281,7 @@
         "note": "Evergreen: 'Take advantage of discounts, 40% off sitewide'. Used for creatives made after 2026-11-23."
       }
     ],
-    "end_card_rule": "edit.json \"end_card\": \"auto\" picks by the edit's \"created\" date (default today).",
+    "end_card_rule": "edit.json \"end_card\": \"auto\" picks by the edit's \"created\" date (default today) and \"lang\" (es -> Spanish card; falls back to English). No Spanish regular card yet.",
     "voiceover": {
       "provider": "Atria ad_maker_generate_speech (microsoft/mai-voice-2.1)",
       "voice": "Harper",
@@ -288,7 +295,8 @@
       "Never cover the main elements (faces/eyes, the product, the action) with text: captions auto-move off detected faces; check the QA strip.",
       "Aggressive direct-response copy: callout hook, agitate, name the enemy, mechanism, proof, offer + urgency, hard CTA.",
       "Scenes match captions (Nike line = Nike scene). Competitor shoes may be shown when named; Skechers branding blurred.",
-      "Black Friday end card for creatives made on/before 2026-11-23, regular card after."
+      "Black Friday end card for creatives made on/before 2026-11-23, regular card after.",
+      "Third-party TikTok clips from individual creators are OK to use (user, 2026-11-13). Never use other brands' own content (brand ads/promos)."
     ]
   }
 }
