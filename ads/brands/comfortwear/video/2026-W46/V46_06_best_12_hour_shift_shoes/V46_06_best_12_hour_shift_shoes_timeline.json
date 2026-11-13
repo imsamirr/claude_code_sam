@@ -1,0 +1,35 @@
+{
+ "total": 21.085,
+ "scenes": [
+  {
+   "src": "showoff2",
+   "start": 0.0,
+   "end": 4.105
+  },
+  {
+   "src": "features",
+   "start": 4.105,
+   "end": 8.05
+  },
+  {
+   "src": "features",
+   "start": 8.05,
+   "end": 11.355
+  },
+  {
+   "src": "wheelchair",
+   "start": 11.355,
+   "end": 14.145
+  },
+  {
+   "src": "feet",
+   "start": 14.145,
+   "end": 16.26
+  },
+  {
+   "src": "_end_card",
+   "start": 16.26,
+   "end": 21.085
+  }
+ ]
+}
