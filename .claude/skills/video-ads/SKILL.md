@@ -110,15 +110,25 @@ credits**), save it next to edit.json and set `"music": {"file": "<path>", "gain
 1. Voice from `brand.json` → `video.voiceover` (Comfort Wear: **Harper**, chosen for "a high-quality
    woman in her 30s"). Speech needs an Atria project id (`ad_maker_create_video_project` once,
    saved in brand.json); `ad_maker_generate_speech` then `ad_maker_get_task` for the mp3 URL.
-2. Write one line per scene, conversational and in the audience's voice. Generate the whole
-   script as **one take** (consistent delivery) with ` ... ` between lines so each line ends in a
-   clear pause. Save it in the ad folder as `vo/<voice>_main.mp3`.
-3. Add `"voiceover": {"file": "vo/<voice>_main.mp3", "lead": 0.12, "tail": 0.3}`. The engine splits
-   the take at its pauses (the line count must equal the scene count), **sizes each scene to fit
-   its line** (it rewrites `out`; give enough source footage after `in`, and a clip `min` for
-   scenes that should hold longer), and places each line at its scene's start. The end card's own
-   line (`video.end_cards[].vo`, recorded once per card in the same voice) plays over the card, so
-   the spoken offer always matches the card on screen.
+2. **Sound human (user rule)**: write it the way a person talks to a friend: contractions, small
+   connectors ("Okay, so…", "Turns out,", "And yes,"), commas where she'd breathe, one sentence
+   per scene, normal punctuation. **Never** put ` ... ` between lines (it makes ~1s robotic gaps).
+   Generate the whole script as **one take** and save it as `vo/<voice>_natural.mp3`.
+3. Add `"voiceover": {"file": "vo/<voice>_natural.mp3", "mode": "continuous", "tempo": 1.05,
+   "lead": 0.15, "tail": 0.35}`. Continuous mode plays the take unbroken and **cuts the picture in
+   the breath between sentences** (the n-1 longest pauses = sentence ends; commas stay inside a
+   line). It rewrites each clip's `out`, so give enough source footage after `in`. `tempo` (pitch
+   kept) trims a long read; keep it at 1.0–1.08. `"mode": "lines"` places each line at its scene
+   start instead (more robotic; only for very short scenes). The end card's own line
+   (`video.end_cards[].vo`, recorded once per card in the same voice) plays over the card, so the
+   spoken offer always matches the card on screen.
+   **Music bed (user rule: low volume, so the VO isn't monotone)**: generate an instrumental with
+   Atria `ad_maker_generate_music` (elevenlabs/music, ~$0.60, 30–35s, prompt: genre/instruments
+   matching the ad's world, "sits under a voiceover, no vocals, no drops, steady energy") into
+   `vo/music_<slug>.mp3`, then `"music": {"file": "vo/music_<slug>.mp3", "gain": 0.15, "duck": true}`
+   → the bed sits ~16 dB under the voice and ducks further while she talks. Trending TikTok songs
+   are not cleared for paid ads: those get added at upload from TikTok's Commercial Music Library
+   / Meta Sound Collection, on a music-free export (`"music"` removed).
 4. Make captions say the same words as the voice (shortened is fine).
 5. QA the sync: `ffmpeg -i <id>.mp4 -af silencedetect=noise=-38dB:d=0.25 -f null -` and check
    every spoken stretch sits inside its scene window (printed by the build); loudness about -14

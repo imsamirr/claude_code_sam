@@ -1,10 +1,10 @@
 {
   "id": "V46_01_disney_plus_size_hour9",
-  "version": 3,
+  "version": 4,
   "created": "2026-11-13",
   "persona": "traveler",
   "angle": "Plus-size women at Disney: 'comfy' sneakers give out by the end of the park day; ComfortWear's wide toe box, stretch knit and cushioning get you to the fireworks.",
-  "format": "native story captions (persistent callout header + changing story line) with a female voiceover (Harper, 30s), 8 scenes + end card, soft crossfades",
+  "format": "native story captions (persistent callout header + changing story line) with a natural, continuous female voiceover (Harper) and a low ducked music bed; 8 scenes + end card, soft crossfades",
   "based_on": "Own winner COM284_HO1 'plus-size women at Disney' (CA$5.1k, 2.89 ROAS, last 30d) cut down to short form; structure from inspo Dr. Woof 'Flight compression socks for men' (persistent header + story captions) and 'Vets wearing scrubs made for human med' (meme problem -> flip).",
   "rules": "Plus-size Disney concept: every scene shows plus-size women and/or Disney (user, 2026-11-13).",
   "colorway": "purple",
@@ -86,8 +86,7 @@
       "in": 13.6,
       "out": 16.6,
       "eq": "brightness=0.06:contrast=1.05:saturation=1.12",
-      "gain": 0,
-      "min": 2.6
+      "gain": 0
     }
   ],
   "captions": [
@@ -120,7 +119,7 @@
     },
     {
       "clip": 2,
-      "text": "so we found ones that are 👇",
+      "text": "so we found some that are 👇",
       "style": "box",
       "y": 0.62,
       "size": 64,
@@ -128,7 +127,7 @@
     },
     {
       "clip": 3,
-      "text": "a wide toe box for when your feet swell",
+      "text": "a wide toe box for when your feet start to swell",
       "style": "box",
       "y": 0.68,
       "size": 64,
@@ -136,7 +135,7 @@
     },
     {
       "clip": 4,
-      "text": "stretchy knit that gives instead of squeezing",
+      "text": "the stretchy knit actually gives instead of squeezing",
       "style": "box",
       "y": 0.7,
       "size": 64,
@@ -144,7 +143,7 @@
     },
     {
       "clip": 5,
-      "text": "cushioned sole for 12-hour park days",
+      "text": "cushioned sole made for 12-hour park days",
       "style": "box",
       "y": 0.6,
       "size": 64,
@@ -152,7 +151,7 @@
     },
     {
       "clip": 6,
-      "text": "cushioned sole made for 12-hour park days",
+      "text": "hour 12 and I'm still twirling ✨",
       "style": "box",
       "y": 0.7,
       "size": 64,
@@ -160,7 +159,7 @@
     },
     {
       "clip": 7,
-      "text": "front row for fireworks 🎆",
+      "text": "front row for the fireworks 🎆",
       "style": "box",
       "y": 0.33,
       "size": 64,
@@ -173,11 +172,19 @@
   "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
   "loudness": -14,
   "voiceover": {
-    "file": "vo/harper_main.mp3",
+    "file": "vo/harper_natural.mp3",
+    "mode": "continuous",
+    "tempo": 1.05,
+    "lead": 0.15,
+    "tail": 0.35,
+    "gain": 1.0,
     "voice": "Harper (Atria, microsoft/mai-voice-2.1)",
-    "script": "Me after twenty-two thousand steps at Disney in my \"comfy\" sneakers. / Turns out most sneakers just aren't made for curvy-girl park days. / So we found ones that are. / A wide toe box, for when your feet swell. / Stretchy knit that gives, instead of squeezing. / And a cushioned sole, made for twelve-hour park days. / Hour twelve, and I'm still twirling. / Front row for fireworks. // end card: card's own line",
-    "lead": 0.12,
-    "tail": 0.3,
-    "gain": 1.0
+    "script": "Okay, so this was me after twenty-two thousand steps at Disney, in my \"comfy\" sneakers. Turns out, most sneakers just aren't made for curvy-girl park days. So we found some that are. They've got a wide toe box, for when your feet start to swell. The stretchy knit actually gives, instead of squeezing. And the cushioned sole is made for twelve-hour park days. Hour twelve, and I'm still twirling. And yes, I got front row for the fireworks."
+  },
+  "music": {
+    "file": "vo/music_park_bed.mp3",
+    "gain": 0.15,
+    "duck": true,
+    "source": "Atria ad_maker_generate_music (elevenlabs/music), instrumental, royalty-free generation: light whimsical theme-park bed (pizzicato, glockenspiel, ukulele, claps, ~100 BPM)"
   }
 }
