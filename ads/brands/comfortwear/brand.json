@@ -302,6 +302,30 @@
       "FORMAT (user, Nov 13): organic-post style like the user's Atria refs: one static first-person caption (POV / thank-you + EDIT / 'when…' / 'Nobody told me…' / 'Heard you were looking…'), 2-4 real shots, music only, no voiceover, 10-16 s + end card."
     ],
     "drive_folder_id": "1bhhpYqkbtYJI1hOzoSN_-VFxqCkmsI3C",
-    "drive_folder_name": "Comfort Wear – Short-Form Video Ads (subfolder per week + 'End cards')"
+    "drive_folder_name": "Comfort Wear – Short-Form Video Ads (subfolder per week + 'End cards')",
+    "weekly": {
+      "atria_accounts": [
+        "WearOrtho",
+        "WearOrtho V2"
+      ],
+      "winners": {
+        "top_min_spend": 1000,
+        "top_min_roas": 1.6,
+        "new_min_spend": 200,
+        "new_min_roas": 1.6,
+        "days": 7
+      },
+      "videos_per_batch": 10,
+      "weekday": "Thursday"
+    },
+    "notion": {
+      "database": "👟 ComfortWear Creative Board",
+      "data_source": "collection://fc6096bb-6bca-4768-8e0d-b62435082e48",
+      "title_prefix": "SF",
+      "stage": "In Review",
+      "strategist": "Samir"
+    },
+    "music_library": "ads/brands/comfortwear/video/music/",
+    "drive_inventory": "ads/brands/comfortwear/video/drive_inventory.tsv"
   }
 }

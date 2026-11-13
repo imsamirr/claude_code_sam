@@ -79,7 +79,16 @@ def run(cmd, quiet=True):
 # ---------------------------------------------------------------- sources
 
 def resolve_source(spec):
-    """Return a local path for 'drive:<id>' or a repo-relative/absolute path."""
+    """Return a local path for 'drive:<id>', 'tiktok:<video id>' or a repo-relative/absolute path."""
+    if spec.startswith("tiktok:"):
+        vid = spec.split(":", 1)[1].strip()
+        CACHE.mkdir(parents=True, exist_ok=True)
+        out = CACHE / f"tiktok_{vid}.mp4"
+        if not out.exists():
+            print(f"  downloading TikTok {vid} ...", flush=True)
+            run(["yt-dlp", "--impersonate", "chrome", "-q", "--no-warnings", "-f", "b[ext=mp4]/b",
+                 "-o", str(out), f"https://www.tiktok.com/@x/video/{vid}"])
+        return out
     if spec.startswith("drive:"):
         fid = spec.split(":", 1)[1]
         CACHE.mkdir(parents=True, exist_ok=True)
