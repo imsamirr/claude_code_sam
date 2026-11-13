@@ -1,0 +1,55 @@
+{
+ "total": 29.475,
+ "scenes": [
+  {
+   "src": "gate",
+   "start": 0.0,
+   "end": 2.585
+  },
+  {
+   "src": "hoka",
+   "start": 2.585,
+   "end": 4.58
+  },
+  {
+   "src": "crawl",
+   "start": 4.58,
+   "end": 7.398
+  },
+  {
+   "src": "airmax",
+   "start": 7.398,
+   "end": 9.477
+  },
+  {
+   "src": "airmax",
+   "start": 9.477,
+   "end": 13.206
+  },
+  {
+   "src": "shoe",
+   "start": 13.206,
+   "end": 15.019
+  },
+  {
+   "src": "stretch",
+   "start": 15.019,
+   "end": 18.795
+  },
+  {
+   "src": "shoe",
+   "start": 18.795,
+   "end": 21.071
+  },
+  {
+   "src": "castle_night",
+   "start": 21.071,
+   "end": 24.65
+  },
+  {
+   "src": "_end_card",
+   "start": 24.65,
+   "end": 29.475
+  }
+ ]
+}

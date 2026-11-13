@@ -1,0 +1,40 @@
+{
+ "total": 24.004,
+ "scenes": [
+  {
+   "src": "thumbs",
+   "start": 0.0,
+   "end": 3.007
+  },
+  {
+   "src": "mirror2",
+   "start": 3.007,
+   "end": 4.766
+  },
+  {
+   "src": "pain",
+   "start": 4.766,
+   "end": 9.377
+  },
+  {
+   "src": "showoff",
+   "start": 9.377,
+   "end": 13.162
+  },
+  {
+   "src": "car",
+   "start": 13.162,
+   "end": 15.682
+  },
+  {
+   "src": "wheelchair",
+   "start": 15.682,
+   "end": 19.179
+  },
+  {
+   "src": "_end_card",
+   "start": 19.179,
+   "end": 24.004
+  }
+ ]
+}
