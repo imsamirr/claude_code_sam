@@ -49,6 +49,7 @@ import subprocess
 import sys
 import tempfile
 import unicodedata
+from datetime import date
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -260,43 +261,82 @@ def render_caption(cap, out_png):
 # ---------------------------------------------------------------- clips
 
 def cut_clip(i, clip, src_path, meta, tmp):
+    """Cut one clip to an exact-length 1080x1920 30fps intermediate (near-lossless) with an audio
+    track of the same length (silence when muted), so every join downstream is frame-exact."""
     zin, zout = float(clip["in"]), float(clip["out"])
     speed = float(clip.get("speed", 1.0))
     zoom = float(clip.get("zoom", 1.0))
-    push = float(clip.get("push", 0.0))
     fx, fy = float(clip.get("focus", 0.5)), float(clip.get("focus_y", 0.5))
+    if clip.get("push"):
+        print(f"  clip {i}: 'push' is ignored (per-frame rescaling jitters); use a static 'zoom'")
     dur = (zout - zin) / speed
-    # scale to cover 1080x1920 (times zoom, plus room for the push), then crop at the focus point
     cover = max(W / meta["w"], H / meta["h"]) * zoom
     sw, sh = math.ceil(meta["w"] * cover / 2) * 2, math.ceil(meta["h"] * cover / 2) * 2
-    vf = [f"setpts=(PTS-STARTPTS)/{speed}", f"scale={sw}:{sh}:flags=lanczos"]
-    if push:
-        # grow the frame a little every frame (eval=frame), then take a fixed 1080x1920 window
-        k = f"(1+{push}*t/{dur:.3f})"
-        vf.append(f"scale=w='trunc({sw}*{k}/2)*2':h='trunc({sh}*{k}/2)*2':eval=frame:flags=bicubic")
-        vf.append(f"crop={W}:{H}:x='(in_w-{W})*{fx}':y='(in_h-{H})*{fy}'")
-    else:
-        vf.append(f"crop={W}:{H}:{int((sw - W) * fx)}:{int((sh - H) * fy)}")
+    # constant 30 fps first (sources are 25/29.97/VFR/60), then a single high-quality resize + crop
+    vf = [f"setpts=(PTS-STARTPTS)/{speed}", f"fps={FPS}", f"scale={sw}:{sh}:flags=lanczos",
+          f"crop={W}:{H}:{int((sw - W) * fx)}:{int((sh - H) * fy)}"]
     if clip.get("hflip"):
         vf.append("hflip")
     if clip.get("eq"):
         vf.append(f"eq={clip['eq']}")
-    vf += [f"fps={FPS}", "setsar=1", "format=yuv420p"]
+    vf += ["setsar=1", "format=yuv420p", f"trim=duration={dur:.4f}", "setpts=PTS-STARTPTS"]
     out = tmp / f"clip_{i:02d}.mp4"
     gain = float(clip.get("gain", 1.0))
-    cmd = ["ffmpeg", "-v", "error", "-y", "-ss", f"{zin:.3f}", "-t", f"{zout - zin:.3f}", "-i", str(src_path)]
+    cmd = ["ffmpeg", "-v", "error", "-y", "-ss", f"{zin:.3f}", "-t", f"{zout - zin + 0.1:.3f}", "-i", str(src_path)]
+    pad = f"apad,atrim=duration={dur:.4f},asetpts=PTS-STARTPTS"
     if meta["audio"] and gain > 0:
-        af = [f"atempo={speed}"] if speed != 1.0 else []
-        af += [f"volume={gain}", "aresample=48000", "aformat=channel_layouts=stereo"]
-        cmd += ["-filter_complex", f"[0:v]{','.join(vf)}[v];[0:a]{','.join(af)}[a]",
-                "-map", "[v]", "-map", "[a]"]
+        af = ([f"atempo={speed}"] if speed != 1.0 else []) + [
+            f"volume={gain}", "aresample=48000", "aformat=sample_fmts=fltp:channel_layouts=stereo", pad]
+        fc = f"[0:v]{','.join(vf)}[v];[0:a]{','.join(af)}[a]"
     else:
-        cmd += ["-f", "lavfi", "-t", f"{dur:.3f}", "-i", "anullsrc=r=48000:cl=stereo",
-                "-filter_complex", f"[0:v]{','.join(vf)}[v]", "-map", "[v]", "-map", "1:a"]
-    cmd += ["-t", f"{dur:.3f}", "-c:v", "libx264", "-preset", "medium", "-crf", "17",
-            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", str(out)]
+        cmd += ["-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo"]
+        fc = f"[0:v]{','.join(vf)}[v];[1:a]aformat=sample_fmts=fltp:channel_layouts=stereo,{pad}[a]"
+    cmd += ["-filter_complex", fc, "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium",
+            "-crf", "10", "-r", str(FPS), "-c:a", "pcm_s16le", str(out.with_suffix(".mov"))]
     run(cmd)
-    return out, dur
+    return out.with_suffix(".mov"), dur
+
+
+def brand_dir(edit_path):
+    for d in edit_path.parents:
+        if (d / "brand.json").exists():
+            return d
+    return None
+
+
+def pick_end_card(edit, edit_path):
+    """Resolve edit['end_card'] ('auto', a card name, or a path) from brand.json video.end_cards.
+    'auto' picks the first card whose from/until window (inclusive) contains the edit's 'created'
+    date (default: today); cards without a window are the fallback."""
+    want = edit.get("end_card")
+    if not want:
+        return None
+    bdir = brand_dir(edit_path)
+    cards = json.loads((bdir / "brand.json").read_text()).get("video", {}).get("end_cards", []) if bdir else []
+    if want != "auto":
+        hit = next((c for c in cards if c["name"] == want), None)
+        return (hit or {"name": want, "file": want})
+    day = str(edit.get("created") or date.today().isoformat())
+    for c in cards:
+        if (c.get("from") or c.get("until")) and c.get("from", "0000") <= day <= c.get("until", "9999"):
+            return c
+    return next((c for c in cards if not c.get("from") and not c.get("until")), None)
+
+
+def windows(durs, fades):
+    """Clip start offsets in the crossfaded timeline and each clip's 'on screen' window
+    (switching at the middle of each crossfade)."""
+    offs, length = [], 0.0
+    for i, d in enumerate(durs):
+        off = 0.0 if i == 0 else length - fades[i]
+        offs.append(off)
+        length = off + d
+    win = []
+    for i in range(len(durs)):
+        a = 0.0 if i == 0 else offs[i] + fades[i] / 2
+        b = length if i == len(durs) - 1 else offs[i + 1] + fades[i + 1] / 2
+        win.append((a, b))
+    return offs, win, length
 
 
 # ---------------------------------------------------------------- build
@@ -308,58 +348,99 @@ def build(edit_path, sheet_every=1.5, feed=True):
     vid = edit["id"]
     tmp = Path(tempfile.mkdtemp(prefix="vid_"))
     try:
-        srcs = {k: resolve_source(v) for k, v in edit["sources"].items()}
+        clips = [dict(c) for c in edit["clips"]]
+        sources = dict(edit["sources"])
+        n_content = len(clips)
+        card = pick_end_card(edit, edit_path)
+        if card:
+            sources["_end_card"] = card["file"]
+        srcs = {k: resolve_source(v) for k, v in sources.items()}
         metas = {k: probe(p) for k, p in srcs.items()}
-        parts, total = [], 0.0
-        for i, clip in enumerate(edit["clips"]):
+        if card:
+            secs = float(edit.get("end_card_seconds") or card.get("seconds") or metas["_end_card"]["dur"])
+            clips.append({"src": "_end_card", "in": 0, "out": min(secs, metas["_end_card"]["dur"] - 0.05),
+                          "gain": card.get("gain", 1.0),
+                          "transition": edit.get("end_card_transition", "fade"),
+                          "transition_duration": edit.get("end_card_transition_duration", 0.35)})
+        parts, durs, fades = [], [], []
+        for i, clip in enumerate(clips):
             meta = metas[clip["src"]]
             if float(clip["out"]) > meta["dur"] + 0.05:
                 raise SystemExit(f"clip {i}: out {clip['out']} > source '{clip['src']}' duration {meta['dur']:.2f}")
             p, d = cut_clip(i, clip, srcs[clip["src"]], meta, tmp)
             parts.append(p)
-            total += d
-        lst = tmp / "list.txt"
-        lst.write_text("".join(f"file '{p}'\n" for p in parts))
-        base = tmp / "base.mp4"
-        run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(base)])
+            durs.append(d)
+            t = clip.get("transition", edit.get("transition", "fade"))
+            f = 1.0 / FPS if t == "cut" else float(clip.get("transition_duration", edit.get("transition_duration", 0.25)))
+            fades.append(0.0 if i == 0 else min(f, d / 2, durs[i - 1] / 2))
+            clip["_t"] = "fade" if t == "cut" else t
+        offs, win, total = windows(durs, fades)
 
-        # captions -> PNG overlays
-        inputs, chains, label = ["-i", str(base)], [], "0:v"
+        inputs = []
+        for p in parts:
+            inputs += ["-i", str(p)]
+        n = len(parts)
+        g = [f"[{i}:v]settb=AVTB,setpts=PTS-STARTPTS[v{i}];[{i}:a]asetpts=PTS-STARTPTS[a{i}]" for i in range(n)]
+        vl, al = "v0", "a0"
+        for i in range(1, n):
+            g.append(f"[{vl}][v{i}]xfade=transition={clips[i]['_t']}:duration={fades[i]:.4f}:offset={offs[i]:.4f}[vx{i}]")
+            g.append(f"[{al}][a{i}]acrossfade=d={fades[i]:.4f}:c1=tri:c2=tri[ax{i}]")
+            vl, al = f"vx{i}", f"ax{i}"
+
+        # captions: timed by clip index ("clip": i or "clips": [a, b]) or explicit start/end;
+        # each fades in/out over CAP_FADE except a caption that is on screen at t=0 (the hook)
+        CAP_FADE = 0.12
         for j, cap in enumerate(edit.get("captions", [])):
+            if "clip" in cap or "clips" in cap:
+                a, b = cap.get("clips", [cap.get("clip")] * 2)
+                if max(a, b) >= n_content:
+                    raise SystemExit(f"caption {j}: clip index {max(a, b)} out of range (0..{n_content - 1})")
+                s, e = win[a][0], win[b][1]
+            else:
+                s, e = float(cap["start"]), min(float(cap["end"]), total)
+            s, e = s + float(cap.get("delay", 0)), min(e, total)
             png = tmp / f"cap_{j:02d}.png"
             ch = render_caption(cap, png)
             y = int(H * cap.get("y", 0.3) - ch / 2)
-            inputs += ["-i", str(png)]
-            end = min(float(cap["end"]), total)
-            chains.append(f"[{label}][{j + 1}:v]overlay=0:{y}:enable='between(t,{cap['start']},{end})'[c{j}]")
-            label = f"c{j}"
-        n_in = len(edit.get("captions", [])) + 1
+            k = n + j
+            inputs += ["-loop", "1", "-framerate", str(FPS), "-t", f"{total:.3f}", "-i", str(png)]
+            fx = ["format=rgba"]
+            if s > 0.01:
+                fx.append(f"fade=t=in:st={s:.3f}:d={CAP_FADE}:alpha=1")
+            if e < total - 0.01:
+                fx.append(f"fade=t=out:st={e - CAP_FADE:.3f}:d={CAP_FADE}:alpha=1")
+            g.append(f"[{k}:v]{','.join(fx)}[cp{j}]")
+            g.append(f"[{vl}][cp{j}]overlay=0:{y}:eof_action=pass:enable='between(t,{s:.3f},{e:.3f})'[vc{j}]")
+            vl = f"vc{j}"
 
-        # audio: clip audio (+ optional music bed), then loudness normalization
         music = edit.get("music")
-        a_chain = "[0:a]anull[a0]"
         if music and music.get("file"):
-            mpath = resolve_source(music["file"])
-            inputs += ["-stream_loop", "-1", "-i", str(mpath)]
-            a_chain = (f"[{n_in}:a]volume={music.get('gain', 0.25)},atrim=0:{total:.3f},"
-                       f"afade=t=out:st={max(0, total - 0.6):.3f}:d=0.6[m];[0:a][m]amix=inputs=2:normalize=0[a0]")
+            inputs += ["-stream_loop", "-1", "-i", str(resolve_source(music["file"]))]
+            m = n + len(edit.get("captions", []))
+            g.append(f"[{m}:a]aformat=sample_fmts=fltp:channel_layouts=stereo,volume={music.get('gain', 0.25)},"
+                     f"atrim=0:{total:.3f},afade=t=out:st={max(0, total - 0.6):.3f}:d=0.6[mus];"
+                     f"[{al}][mus]amix=inputs=2:normalize=0[amix]")
+            al = "amix"
         loud = edit.get("loudness", -14)
-        a_chain += f";[a0]loudnorm=I={loud}:TP=-1.5:LRA=11,aresample=48000[aout]"
-        fc = ";".join(chains + [a_chain]) if chains else f"[0:v]null[vout];{a_chain}"
-        vout = f"[{label}]" if chains else "[vout]"
+        g.append(f"[{al}]loudnorm=I={loud}:TP=-1.5:LRA=11,aresample=48000[aout]")
+        g.append(f"[{vl}]format=yuv420p[vout]")
         final = out_dir / f"{vid}.mp4"
-        run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", fc, "-map", vout, "-map", "[aout]",
-             "-c:v", "libx264", "-preset", "slow", "-crf", "18", "-profile:v", "high", "-pix_fmt", "yuv420p",
+        run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(g),
+             "-map", "[vout]", "-map", "[aout]", "-r", str(FPS), "-c:v", "libx264", "-preset", "slow",
+             "-crf", "17", "-profile:v", "high", "-pix_fmt", "yuv420p", "-g", str(FPS * 2),
              "-movflags", "+faststart", "-c:a", "aac", "-b:a", "192k", "-t", f"{total:.3f}", str(final)])
         outs = [final]
         if feed:
             f45 = out_dir / f"{vid}_4x5.mp4"
             run(["ffmpeg", "-v", "error", "-y", "-i", str(final), "-vf", f"crop={W}:{FEED_H}:0:{(H - FEED_H) // 2}",
-                 "-c:v", "libx264", "-preset", "slow", "-crf", "18", "-pix_fmt", "yuv420p",
+                 "-c:v", "libx264", "-preset", "slow", "-crf", "17", "-pix_fmt", "yuv420p", "-g", str(FPS * 2),
                  "-movflags", "+faststart", "-c:a", "copy", str(f45)])
             outs.append(f45)
         outs.append(sheet(final, out_dir / f"{vid}_sheet.jpg", every=sheet_every))
-        print(f"{vid}: {total:.1f}s, {len(edit['clips'])} clips, {len(edit.get('captions', []))} captions")
+        print(f"{vid}: {total:.2f}s, {n_content} clips" + (f" + end card '{card['name']}'" if card else "")
+              + f", {len(edit.get('captions', []))} captions")
+        for i, (a, b) in enumerate(win):
+            print(f"   clip {i}: {a:6.2f} - {b:6.2f}  {clips[i]['src']}")
         for o in outs:
             print("  ", o)
         return outs

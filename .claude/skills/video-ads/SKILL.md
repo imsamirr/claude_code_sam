@@ -68,8 +68,23 @@ write keeps the winner's *angle and proof points* and moves it into the short na
   end). Product facts and claims only from brand.json; nothing from `claims_to_avoid` (Comfort
   Wear: no guarantees, review counts or star ratings, no medical/podiatrist claims on screen).
 - Respect the audience: celebrate, don't mock (plus-size: no "struggling to fit" punchlines).
-- Caption timings must match the cumulative clip boundaries (sum of `(out-in)/speed`). Set the
-  last captions' `end` to 99 (clamped to the video length).
+- **Congruence (user rule)**: every scene must fit the concept's audience and setting. A
+  "plus-size Disney" ad shows only plus-size women and/or Disney, including the product shots
+  (use a plus-size creator such as Larissa for those). No generic feet, car or home b-roll that
+  breaks the world of the ad.
+- **End card (user rule)**: set `"end_card": "auto"` and `"created": "<YYYY-MM-DD>"`. The engine
+  appends the brand's card from `brand.json` → `video.end_cards`: Comfort Wear uses the Black
+  Friday card for creatives made **on or before 2026-11-23**, the regular card after. The last
+  scene's captions end where the card starts (don't put text over the card).
+- **Time captions by scene**, not by seconds: `"clip": 3` (one scene) or `"clips": [0, 7]` (a
+  header across scenes). The engine works out the times, including crossfades, so captions switch
+  exactly with the picture. Captions fade in/out over 0.12s (the first one is on screen at t=0).
+- **Caption size (user rule)**: story captions `size` 64, `width` 0.88; header `size` 60.
+- **Transitions (user rule)**: scenes join with a 0.25s crossfade (`"transition": "fade"`,
+  `"transition_duration": 0.25` at the top level; per clip `"transition": "cut"` for a hard cut
+  or any ffmpeg xfade name). The end card fades in over 0.35s.
+- **No glitches (user rule)**: never use `push` (per-frame rescaling jitters; it is ignored now);
+  use a static `zoom`. Every clip is converted to a constant 30 fps before scaling.
 - Keep caption `y` between 0.18 and 0.72 (inside the 4:5 feed crop, clear of the TikTok/Reels UI),
   and off faces and the product. Persistent header at y≈0.2 in `dark` style; story captions in
   `box`; brand name as a `brand` pill on the last shot.
@@ -93,7 +108,13 @@ credits**), save it next to edit.json and set `"music": {"file": "<path>", "gain
 
 ## 5. QA (always, before showing anything)
 
-Read `<id>_sheet.jpg`, then pull full-size frames at the middle of every cut from both the 9:16 and
+Run the automated checks first (all must be clean):
+```bash
+ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames,avg_frame_rate -of csv=p=0 <id>.mp4   # frames == 30 x duration
+ffprobe -v error -select_streams v:0 -show_entries packet=pts_time -of csv=p=0 <id>.mp4 | sort -n | awk 'NR>1{d=$1-p; if (d>0.0345||d<0.032) print "gap",p,$1} {p=$1}'   # no output
+ffmpeg -i <id>.mp4 -vf freezedetect=n=0.002:d=0.3 -map 0:v -f null - 2>&1 | grep freeze_start   # no output (except a static end card)
+```
+Then read `<id>_sheet.jpg`, then pull full-size frames at the middle of every cut from both the 9:16 and
 the 4:5 file (`ffmpeg -ss <t> -i <file> -frames:v 1 -vf scale=360:-2 f.png`, `hstack` 4 per row)
 and Read them. Fix and re-render anything with:
 - burned-in creator text, watermarks, other brands' logos as the hero;

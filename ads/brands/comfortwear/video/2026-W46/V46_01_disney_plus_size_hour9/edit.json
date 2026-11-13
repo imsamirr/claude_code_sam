@@ -1,69 +1,76 @@
 {
   "id": "V46_01_disney_plus_size_hour9",
+  "version": 2,
+  "created": "2026-11-13",
   "persona": "traveler",
-  "angle": "Plus-size women at Disney: 'comfy' sneakers give out by hour 9; ComfortWear's wide toe box, stretch knit and cushioning get you to the fireworks.",
-  "format": "native story captions (persistent callout header + changing story line), 8 cuts, ~17s, no voiceover",
-  "based_on": "Own winner COM284_HO1 'plus-size women at Disney' (CA$5.1k, 2.89 ROAS, last 30d) cut down to short form; structure from inspo Dr. Woof 'Flight compression socks for men' (persistent header + story captions) and 'Vets wearing scrubs made for human med' (meme problem -> us flip).",
-  "colorway": "black_purple",
+  "angle": "Plus-size women at Disney: 'comfy' sneakers give out by the end of the park day; ComfortWear's wide toe box, stretch knit and cushioning get you to the fireworks.",
+  "format": "native story captions (persistent callout header + changing story line), 8 scenes + end card, soft crossfades, no voiceover",
+  "based_on": "Own winner COM284_HO1 'plus-size women at Disney' (CA$5.1k, 2.89 ROAS, last 30d) cut down to short form; structure from inspo Dr. Woof 'Flight compression socks for men' (persistent header + story captions) and 'Vets wearing scrubs made for human med' (meme problem -> flip).",
+  "rules": "Plus-size Disney concept: every scene shows plus-size women and/or Disney (user, 2026-11-13).",
+  "colorway": "purple",
+  "end_card": "auto",
+  "end_card_seconds": 5.0,
+  "transition": "fade",
+  "transition_duration": 0.25,
   "sources": {
-    "crawl": "drive:1Jv0NoQ1N3hmcsZ-G5UExEWEeQSue0Ebz",
-    "swollen": "drive:1jRAlap9D6E6NuWe9NeCEaMEe7I_IGnoQ",
+    "garage": "drive:1mVOWjLngmF_snC6XCmzC2Z9iITUQ6aVg",
+    "group": "drive:1O2ny98nZUOIjf_QHSPxSfhvlKZMjaA5a",
     "squad": "drive:1T7RbC29qY1KVQNVn1R-12HB0x0CovXUb",
-    "features": "drive:1owdM16_KfPBA7iiTDFZ0HA3l0Faza8Wg",
-    "heel": "drive:1Jj0OStvW1kZ8-c_tbb5jzMyDv30QOaQC",
-    "walk": "drive:12Ion1MF47V9_TnqTdJJ4sOM04KJSZeja",
+    "shoe": "drive:1ygiK3dyWGJ506O8l7V6aVR6b-TIVW1uJ",
+    "stretch": "drive:1dpPJdTB-tMXwfr4dwBWg1OIzKMdnkGj4",
+    "pose": "drive:17W-4Ss7wqQawLPNLTNMAu6TL6FMTytJr",
     "twirl": "drive:1XVtEFqRfZeXVfH1RY9QzIWSr-XUOgRIE",
     "fireworks": "drive:1dezapqHlZYMIZIlmZmVjpWOlSgx7qVp6"
   },
   "source_notes": {
-    "crawl": "Youtube/Tiktok Content/snaptik_7516751375980580126_v3 (1).mp4 - woman crawling to an Epcot sign at night",
-    "swollen": "Youtube/Tiktok Content/snaptik_7661801701602610463_v3.mp4 - swollen foot on dashboard",
-    "squad": "Youtube/Tiktok Content/snaptik_7584225946362760461_v3.mp4 - plus-size friends walking Main Street (creator text at top is cropped out by zoom)",
-    "features": "2025/Larissa content/showing shoe features.MOV",
-    "heel": "2025/Larissa content/close up of ankle sock.MOV",
-    "walk": "2025/Larissa content/outside close up of shoes.MOV",
+    "garage": "Youtube/Tiktok Content/snaptik_7476378874712968491_v3.mp4 - woman in Mickey sweatshirt + Minnie ears walking through the Disney parking garage at night, exhausted",
+    "group": "Youtube/Tiktok Content/snaptik_7350800677989322026_v3 (1).mp4 - plus-size friends with Minnie ears walking at Disney's BoardWalk (blurred sticker top-left cropped by zoom)",
+    "squad": "Youtube/Tiktok Content/snaptik_7584225946362760461_v3.mp4 - plus-size friends walking Main Street USA (creator text cropped by zoom)",
+    "shoe": "2025/Larissa content/Purple shoes/IMG_0932.MOV - plus-size creator holds the purple shoe side-on",
+    "stretch": "2025/Larissa content/Purple shoes/IMG_0933.MOV - stretching the knit upper with her fingers",
+    "pose": "2025/Larissa content/Purple shoes/IMG_0920.MOV - full-body pose/dance in purple shoes",
     "twirl": "Youtube/Tiktok Content/snaptik_7308437939355208990_v3 (1).mp4 - plus-size woman twirling at Sleeping Beauty Castle",
     "fireworks": "Youtube/Tiktok Content/snaptik_7519992767892737310_v3.mp4 - plus-size woman with Minnie ears under fireworks"
   },
   "clips": [
     {
-      "src": "crawl",
-      "in": 0.3,
-      "out": 2.7,
-      "push": 0.06,
+      "src": "garage",
+      "in": 4.3,
+      "out": 6.9,
       "gain": 0
     },
     {
-      "src": "swollen",
-      "in": 0.7,
-      "out": 2.6,
-      "push": 0.05,
+      "src": "group",
+      "in": 0.0,
+      "out": 2.3,
+      "zoom": 1.3,
+      "focus_y": 1.0,
       "gain": 0
     },
     {
       "src": "squad",
       "in": 5.6,
-      "out": 7.5,
+      "out": 7.6,
       "zoom": 1.32,
       "focus_y": 1.0,
       "gain": 0
     },
     {
-      "src": "features",
-      "in": 2.0,
-      "out": 4.3,
+      "src": "shoe",
+      "in": 1.9,
+      "out": 3.5,
       "gain": 0
     },
     {
-      "src": "heel",
-      "in": 1.0,
-      "out": 3.1,
+      "src": "stretch",
+      "in": 8.6,
+      "out": 10.9,
       "gain": 0
     },
     {
-      "src": "walk",
-      "in": 43.0,
-      "out": 45.2,
+      "src": "pose",
+      "in": 2.9,
+      "out": 5.6,
       "gain": 0
     },
     {
@@ -78,100 +85,85 @@
       "src": "fireworks",
       "in": 13.6,
       "out": 16.6,
-      "push": 0.05,
       "eq": "brightness=0.06:contrast=1.05:saturation=1.12",
       "gain": 0
     }
   ],
   "captions": [
     {
-      "start": 0.0,
-      "end": 99,
+      "clips": [
+        0,
+        7
+      ],
       "text": "Disney shoes for plus-size women 🏰",
       "style": "dark",
       "y": 0.205,
-      "size": 50,
-      "width": 0.92
+      "size": 60,
+      "width": 0.94
     },
     {
-      "start": 0.0,
-      "end": 2.4,
-      "text": "me at hour 9 in my \"comfy\" sneakers 💀",
+      "clip": 0,
+      "text": "me after 22,000 steps at Disney in my \"comfy\" sneakers 💀",
+      "style": "box",
+      "y": 0.64,
+      "size": 64,
+      "width": 0.88
+    },
+    {
+      "clip": 1,
+      "text": "most sneakers aren't made for curvy girl park days 😩",
       "style": "box",
       "y": 0.42,
-      "size": 50,
-      "width": 0.78
+      "size": 64,
+      "width": 0.88
     },
     {
-      "start": 2.4,
-      "end": 4.3,
-      "text": "my feet by the afternoon parade 😭",
+      "clip": 2,
+      "text": "so we found ones that are 👇",
       "style": "box",
-      "y": 0.58,
-      "size": 50,
-      "width": 0.78
+      "y": 0.62,
+      "size": 64,
+      "width": 0.88
     },
     {
-      "start": 4.3,
-      "end": 6.2,
-      "text": "so I switched before our next trip 👇",
-      "style": "box",
-      "y": 0.58,
-      "size": 50,
-      "width": 0.78
-    },
-    {
-      "start": 6.2,
-      "end": 8.5,
+      "clip": 3,
       "text": "wide toe box for when your feet swell",
       "style": "box",
-      "y": 0.62,
-      "size": 50,
-      "width": 0.78
+      "y": 0.68,
+      "size": 64,
+      "width": 0.88
     },
     {
-      "start": 8.5,
-      "end": 10.6,
+      "clip": 4,
       "text": "stretchy knit that gives instead of squeezing",
       "style": "box",
-      "y": 0.62,
-      "size": 50,
-      "width": 0.78
+      "y": 0.7,
+      "size": 64,
+      "width": 0.88
     },
     {
-      "start": 10.6,
-      "end": 12.8,
-      "text": "cushioned sole for 20,000-step days",
+      "clip": 5,
+      "text": "cushioned sole for 12-hour park days",
       "style": "box",
-      "y": 0.62,
-      "size": 50,
-      "width": 0.78
+      "y": 0.6,
+      "size": 64,
+      "width": 0.88
     },
     {
-      "start": 12.8,
-      "end": 15.4,
+      "clip": 6,
       "text": "hour 12 and I'm still twirling ✨",
       "style": "box",
       "y": 0.7,
-      "size": 50,
-      "width": 0.78
+      "size": 64,
+      "width": 0.88
     },
     {
-      "start": 15.4,
-      "end": 99,
+      "clip": 7,
       "text": "front row for fireworks 🎆",
       "style": "box",
-      "y": 0.31,
-      "size": 50,
-      "width": 0.78
-    },
-    {
-      "start": 15.9,
-      "end": 99,
-      "text": "ComfortWear Ortho Stretch Shoe",
-      "style": "brand",
-      "y": 0.7,
-      "size": 46
+      "y": 0.33,
+      "size": 64,
+      "width": 0.88
     }
   ],
   "primary_text": "Disney days are 10–12 hours on your feet. Most \"comfy\" sneakers are built narrow, and by the afternoon parade your feet have swollen and your toes are fighting the shoe.\n\nThe ComfortWear Ortho Stretch Shoe was made for long days:\n👣 Wide toe box so your toes aren't crushed as your feet swell\n🧶 Stretch-knit upper that gives instead of squeezing\n☁️ Cushioned rocker sole for 20,000-step park days\n\nFrom rope drop to fireworks 🎆",

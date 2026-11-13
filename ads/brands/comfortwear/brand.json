@@ -256,6 +256,20 @@
     "footage_library": "video/footage.csv",
     "notes": "Product footage: Larissa (2025/Larissa content, black/purple, curvy creator, 4K) and Rosa Pinto (black/white). 'Youtube/Tiktok Content' = third-party TikTok downloads for Disney/plus-size/travel/competitor b-roll: confirm rights before spend.",
     "default_caption_style": "TikTok classic: white rounded box, black Inter SemiBold ~50px; persistent header in dark box; brand pill #7A2FE0",
-    "audio": "No baked-in music by default; add licensed sound at upload or generate via Atria (ask first)."
+    "audio": "No baked-in music by default; add licensed sound at upload or generate via Atria (ask first).",
+    "end_cards": [
+      {
+        "name": "black_friday",
+        "file": "ads/brands/comfortwear/video/end_cards/black_friday_2026.mp4",
+        "until": "2026-11-23",
+        "note": "Black Friday 2026: 60% off + 2 free gifts. User rule: every creative made on or before 2026-11-23 ends on this card."
+      },
+      {
+        "name": "regular",
+        "file": "ads/brands/comfortwear/video/end_cards/regular.mp4",
+        "note": "Evergreen: 'Take advantage of discounts, 40% off sitewide'. Used for creatives made after 2026-11-23."
+      }
+    ],
+    "end_card_rule": "edit.json \"end_card\": \"auto\" picks by the edit's \"created\" date (default today)."
   }
 }
