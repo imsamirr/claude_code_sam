@@ -1,0 +1,71 @@
+{
+  "id": "V46_14_park_hour11_no_regrets",
+  "version": 1,
+  "created": "2026-11-13",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): one static first-person caption, 2-4 real shots, music only, no voiceover, 10-16 s + end card; 9:16 with content inside 4:5.",
+  "angle": "Disney/park day: 8-10+ hours on your feet; the shoe you pick decides how tomorrow feels (JW1 Disney shoe test).",
+  "format": "F10 'Me at hour 11… knowing…' over one creator's day-to-night park montage (Happy Tuesdays ref), one caption",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/park_whimsical_100bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "day": "drive:1xNHPc3ojUlvS4hlwWwkfsO44zKCBThXE"
+  },
+  "source_notes": {
+    "day": "Youtube/Tiktok Content snaptik_7642158210899660063 \"12 hours at Disneyland\" (third-party TikTok creator); rights to confirm"
+  },
+  "clips": [
+    {
+      "gain": 0,
+      "src": "day",
+      "in": 47.3,
+      "out": 50.3
+    },
+    {
+      "gain": 0,
+      "src": "day",
+      "in": 51.8,
+      "out": 54.8
+    },
+    {
+      "gain": 0,
+      "src": "day",
+      "in": 60.0,
+      "out": 63.0
+    },
+    {
+      "gain": 0,
+      "src": "day",
+      "in": 67.8,
+      "out": 69.9
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        3
+      ],
+      "style": "box",
+      "y": 0.3,
+      "size": 44,
+      "width": 0.84,
+      "fade": 0,
+      "text": "Me at hour 11 of park day knowing my feet won't be wrecked tomorrow because I wore my stretchy Comfort Wears instead of my cute-but-evil sneakers 💅"
+    }
+  ],
+  "persona": "disney",
+  "based_on": "TOFV1_JW1 | COM320_HO1 (avatar) (top, $5,487 spend, ROAS 1.68, WearOrtho, 7d to 2026-11-12). Keeps its angle; new format/hook/story.",
+  "primary_text": "Hour 11. Still dancing. Feet still fine tomorrow 💅\n\nCobblestones, lines, staircases… a park day is 8, 9, 10 hours on your feet. Gym sneakers weren't built for that.\n\n👣 Wide toe box so feet have room when they swell\n🦶 Arch support + cushioning for all-day walking\n🌬️ Breathable stretch knit that slips right on\n\nTap 'Shop Now' before your next park day.",
+  "headline": "2026's Favorite Shoes For Traveling",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer"
+}

@@ -19,27 +19,25 @@
   "sources": {
     "ice": "drive:1Ukqgr9qVb6D7eZ2y9Xg4BVOJO2Utqkj2",
     "stretch": "drive:1bvYSpL8GQYGDdqm2psq-fn4MgexVLxMd",
-    "hold": "drive:13cI_7uy1IfBe9gkLyL2Syw21HpUfmJXV",
-    "feetup": "drive:1LHkR5V1Jt8IEREPExyxqd6L2IvWazKNB"
+    "hold": "drive:13cI_7uy1IfBe9gkLyL2Syw21HpUfmJXV"
   },
   "source_notes": {
     "ice": "2026/Olivia/951 ShoesFor12HourShifts BROLL ICING_1 (owned creator)",
     "stretch": "2026/Olivia/951 BROLL ADAPTIVE STRETCH FABRIC_3 (owned creator)",
-    "hold": "2026/Olivia/951 BROLL (owned creator)",
-    "feetup": "2026/Olivia/951 BROLL LIGHTWEIGHT_3 (owned creator)"
+    "hold": "2026/Olivia/951 BROLL (owned creator)"
   },
   "clips": [
     {
       "gain": 0,
       "src": "ice",
-      "in": 0.5,
-      "out": 4.0
+      "in": 0.3,
+      "out": 4.8
     },
     {
       "gain": 0,
       "src": "stretch",
       "in": 0.5,
-      "out": 4.0,
+      "out": 4.5,
       "keep_clear": [
         [
           0.5,
@@ -50,21 +48,21 @@
     {
       "gain": 0,
       "src": "hold",
-      "in": 0.5,
-      "out": 2.8
-    },
-    {
-      "gain": 0,
-      "src": "feetup",
-      "in": 0.0,
-      "out": 2.6
+      "in": 0.3,
+      "out": 3.3,
+      "keep_clear": [
+        [
+          0.6,
+          0.8
+        ]
+      ]
     }
   ],
   "captions": [
     {
       "clips": [
         0,
-        3
+        2
       ],
       "style": "box",
       "y": 0.45,

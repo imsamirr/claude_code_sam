@@ -1,0 +1,25 @@
+{
+ "total": 17.633,
+ "scenes": [
+  {
+   "src": "runners_off",
+   "start": 0.0,
+   "end": 3.867
+  },
+  {
+   "src": "puton",
+   "start": 3.867,
+   "end": 7.1
+  },
+  {
+   "src": "puton",
+   "start": 7.1,
+   "end": 10.8
+  },
+  {
+   "src": "_end_card",
+   "start": 10.8,
+   "end": 17.633
+  }
+ ]
+}

@@ -36,14 +36,6 @@
     {
       "gain": 0,
       "src": "friends",
-      "in": 8.0,
-      "out": 10.6,
-      "zoom": 2.2,
-      "focus_y": 1.0
-    },
-    {
-      "gain": 0,
-      "src": "friends",
       "in": 15.0,
       "out": 19.0
     },
@@ -58,7 +50,7 @@
     {
       "clips": [
         0,
-        3
+        2
       ],
       "style": "box",
       "y": 0.25,

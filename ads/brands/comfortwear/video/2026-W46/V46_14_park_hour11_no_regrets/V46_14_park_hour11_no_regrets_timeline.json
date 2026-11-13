@@ -1,0 +1,30 @@
+{
+ "total": 16.967,
+ "scenes": [
+  {
+   "src": "day",
+   "start": 0.0,
+   "end": 2.867
+  },
+  {
+   "src": "day",
+   "start": 2.867,
+   "end": 5.6
+  },
+  {
+   "src": "day",
+   "start": 5.6,
+   "end": 8.333
+  },
+  {
+   "src": "day",
+   "start": 8.333,
+   "end": 10.133
+  },
+  {
+   "src": "_end_card",
+   "start": 10.133,
+   "end": 16.967
+  }
+ ]
+}

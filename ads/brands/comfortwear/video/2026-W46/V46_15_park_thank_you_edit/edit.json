@@ -18,26 +18,26 @@
   },
   "sources": {
     "castlewalk": "tiktok:7529981006107954446",
-    "courtyard": "drive:1cRmDZwCSMatrapOxxOaeRWgLqs6cNG__"
+    "epcot": "tiktok:7383816165354736927"
   },
   "source_notes": {
     "castlewalk": "third-party TikTok creator (walking toward the castle); rights to confirm",
-    "courtyard": "Youtube/Tiktok Content snaptik_7542308149504609567 (third-party TikTok creator); rights to confirm"
+    "epcot": "third-party TikTok creators @plussizeparkhoppers (Epcot walk); rights to confirm"
   },
   "clips": [
     {
       "gain": 0,
       "src": "castlewalk",
       "in": 3.2,
-      "out": 7.4,
+      "out": 7.2,
       "zoom": 1.3,
       "focus_y": 1.0
     },
     {
       "gain": 0,
-      "src": "courtyard",
-      "in": 1.2,
-      "out": 7.7
+      "src": "epcot",
+      "in": 21.8,
+      "out": 28.8
     }
   ],
   "captions": [
@@ -47,7 +47,7 @@
         1
       ],
       "style": "box",
-      "y": 0.3,
+      "y": 0.31,
       "size": 44,
       "width": 0.84,
       "fade": 0,
