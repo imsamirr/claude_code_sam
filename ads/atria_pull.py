@@ -538,9 +538,9 @@ def rising(api, acc, args):
                      "audience": "retargeting" if name.upper().startswith("RTG") else "prospecting",
                      "headline": c.get("title"), "primary_text": (c.get("body") or "")[:800]})
         time.sleep(0.7)
-    rows.sort(key=lambda r: -r["roas"] * r["spend"])
+    rows.sort(key=(lambda r: -r["spend"]) if getattr(args, "sort_spend", False) else (lambda r: -r["roas"] * r["spend"]))
     print(f"Window {start} to {end}: {len(rows)} {'' if before is None else 'new '}ads with spend >= ${args.min_spend_rising:.0f} and ROAS >= {args.min_roas}")
-    write_csv("current_winners.csv" if before is None else "rising_winners.csv", rows, ["platform_ad_id", "ad_name", "format", "audience", "status", "spend",
+    write_csv(getattr(args, "out", None) or ("current_winners.csv" if before is None else "rising_winners.csv"), rows, ["platform_ad_id", "ad_name", "format", "audience", "status", "spend",
               "roas", "purchases", "headline", "primary_text", "thumbnail_url"])
 
 
@@ -561,6 +561,8 @@ def main():
     p.add_argument("--pages", type=int, default=2, help="inspiration: result pages (50 ads each) per query")
     p.add_argument("--brand", default=os.getenv("ADS_BRAND", "comfortwear"))
     p.add_argument("--account", help="ad account name in Atria (default: brand.json → atria_account)")
+    p.add_argument("--out", help="current/rising: output CSV name (default current_winners.csv / rising_winners.csv)")
+    p.add_argument("--sort-spend", dest="sort_spend", action="store_true", help="current/rising: sort by spend")
     p.add_argument("--wide", action="store_true", help="rivals: also pull brand.json -> angle_rivals (angle-gap study)")
     args = p.parse_args()
     global DATA_DIR
@@ -586,16 +588,19 @@ def main():
         run_one(fns, args.what, api, acc, args)
         return
     # all: sequential (the rate limit is per workspace), isolated failures, status file for the routine to read
-    plan = [("current", {}), ("rising", {"days": args.days}), ("winners", {}), ("seasonal", {}), ("wellness", {}),
+    plan = [("current", {}), ("rising", {"days": args.days}),
+            # user rule 2026-11-13: last-7-day top spenders ($5k+, any ROAS) and ads launched in the last 7 days ($200+, ROAS 1.8+)
+            ("current", {"days": 7, "min_spend_rising": 5000, "min_roas": 0, "out": "top7_spenders.csv", "sort_spend": True, "_label": "top7_spenders"}),
+            ("rising", {"days": 7, "min_spend_rising": 200, "min_roas": 1.8, "out": "new7_winners.csv", "_label": "new7_winners"}), ("winners", {}), ("seasonal", {}), ("wellness", {}),
             ("rivals", {"wide": False, "out_prefix": "core_competitors"}), ("rivals", {"wide": True, "out_prefix": "angle_rivals"})]
     ok = True
     for what, over in plan:
         a = argparse.Namespace(**{**vars(args), **over, "what": what})
-        if what == "rising":
+        if what in ("rising", "current") and "min_spend_rising" not in over:
             a.min_spend_rising, a.min_roas = args.min_spend_rising, args.min_roas
         if what == "rivals":
             a.core_competitors = brand.get("core_competitors", []) + (brand.get("angle_rivals", []) if over["wide"] else [])
-        label = what + (" --wide" if over.get("wide") else "")
+        label = over.get("_label") or what + (" --wide" if over.get("wide") else "")
         ok &= run_one(fns, what, api, acc, a, label=label, swallow=True)
         time.sleep(5)
     print("ALL PULLS OK" if ok else "SOME PULLS FAILED: see data/pull_status.json (do not treat the old CSVs as fresh)")

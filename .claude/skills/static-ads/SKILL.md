@@ -158,6 +158,10 @@ prompt), and this skill.
 2. **Learn from the repo before writing**: `research/analysis.md`, `core_competitors.md`, `angle_gaps.md`, `format_ledger.json`, `feedback.json` (approved/rejected and why), previous `weeks/*/concepts.json` (angles and headlines already used) and `reference/benchmarks/`. Do not repeat angles, formats or headlines.
 3. **Notion**: read the "Scripts 2026" winning briefs and angle databank through the Notion connector each run (not only Fridays) and refresh `research/winning_briefs.md`.
 
+### 50/50 split and our current winners (user rule 2026-11-13, every batch, Tuesday and Friday)
+- **Half (50%) iterations of what is winning for us right now**, moved into NEW static formats found in this run's research of other brands. Sources, in order: `data/top7_spenders.csv` (our ads with $5,000+ spend in the last 7 days, `atria_pull.py all` makes it; if it is empty, say so and rerun `current --days 7 --min-spend-rising 1000 --min-roas 0 --sort-spend --out top7_spenders.csv` for the top 10), `data/new7_winners.csv` (ads launched in the last 7 days with $200+ spend and ROAS 1.8+: the NEW winners; empty is possible, say so), then `current_winners.csv` / `rising_winners.csv` (30 days) and the seasonal pull. Keep each source ad's audience, pain and hook; change the format. Video winners count: iterate their hook/script into a static. `based_on` names source ad, spend, ROAS.
+- **Other half (50%) completely new**: new angles (audience x pain, `angle_gap` tests) AND new formats from the research. Tuesday 20 = 10 + 10; Friday 40 = 20 + 20. Tag `group` as `iteration` or `net_new`. The batch-type table above is superseded where it differs.
+
 ### 1a. Atria research: exact criteria per pull (user, 2026-10-30)
 
 Every pull writes a CSV to `research/data/`; contact-sheet it and **Read every page** before writing.
@@ -165,6 +169,8 @@ Every pull writes a CSV to `research/data/`; contact-sheet it and **Read every p
 | Pull | What it answers | Filters (exact) | Ranking | Output |
 |---|---|---|---|---|
 | `winners` | What has worked for us, ever | our ad account; statics only (IMAGE); lifetime spend ≥ $5k (`--min-spend`); since 2024 | spend, high → low | `winning_statics_raw.csv` (+ headline and primary text) |
+| `top7_spenders` | Our biggest spenders this week | our account; any format; last 7 days; spend >= $5,000 (any ROAS) | spend | `top7_spenders.csv` |
+| `new7_winners` | Brand-new winners | our account; any format; launched in the last 7 days (no spend in the 60 days before); spend >= $200; ROAS >= 1.8 | ROAS x spend | `new7_winners.csv` |
 | `current` | What works for us right now | our account; any format; last 30 days; spend ≥ $300; ROAS ≥ 1.8 | spend | `current_winners.csv` |
 | `rising` | Our new ads taking off | as `current`, but only ads launched in the window | spend | `rising_winners.csv` |
 | `seasonal --week W` | What won this time last year | our account; same ISO week last year ±7 days | spend, top 15 | `seasonal_<week>.csv` |
@@ -419,7 +425,7 @@ prompt. Rejected concepts get one regeneration with the fix; approved GIF candid
 ## 6. Save and deliver (every batch, live or scheduled)
 
 1. Commit the batch folder, `feedback.json`, brand/research changes; push to the working branch.
-2. **Drive + Notion review hand-off (user rule 2026-11-13).** Create ONE new subfolder "<folder>" inside Drive folder `1Rg813t55l6VE0Pg7hCYIGkbIn3kQe2Nr` (brand.json `drive_folder_id`; https://drive.google.com/drive/folders/1Rg813t55l6VE0Pg7hCYIGkbIn3kQe2Nr), upload every static (PNG) plus the "<folder> concepts" sheet there, and create ONE Notion task on the **ComfortWear Board** for Samir: title "Review <folder> statics (<n> concepts)", status To Do, body with the Drive subfolder link, the concepts sheet link and the GitHub output link, and the one-line batch summary. Exactly one subfolder and one Notion task per run (reuse both if they already exist). If Drive upload of images is blocked by size, upload what fits and link the GitHub folder; if the Notion connector is unavailable, say so at the top of the Slack DM and still put the task text in the DM.
+2. **Drive + Notion review hand-off (user rule 2026-11-13).** Create ONE new subfolder "<folder>" inside Drive folder `1Rg813t55l6VE0Pg7hCYIGkbIn3kQe2Nr` (brand.json `drive_folder_id`; https://drive.google.com/drive/folders/1Rg813t55l6VE0Pg7hCYIGkbIn3kQe2Nr), upload every static (PNG) plus the "<folder> concepts" sheet there, and create ONE Notion task on the **ComfortWear Board** for Samir: title "Review <folder> statics (<n> concepts)", status "Review" (the board's field name), body with the Drive subfolder link, the concepts sheet link and the GitHub output link, and the one-line batch summary. Exactly one subfolder and one Notion task per run (reuse both if they already exist). If Drive upload of images is blocked by size, upload what fits and link the GitHub folder; if the Notion connector is unavailable, say so at the top of the Slack DM and still put the task text in the DM.
    (Older detail follows.) Drive: subfolder "<folder>" under `drive_folder_id` (reuse if present), then a Google Sheet
    "<folder> concepts" from `python ads/review.py csv --brand <brand> --week <folder>` (create_file,
    `textContent`, `contentMimeType: text/csv`; trash an older sheet for the same folder first). Images
