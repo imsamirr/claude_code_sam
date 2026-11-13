@@ -249,5 +249,13 @@
     },
     "roas_note": "ROAS is unreliable Feb–Dec 2025 (tracking break): rank older ads by spend."
   },
-  "colorway_template": "The shoe is the {label} colorway shown in the reference photo."
+  "colorway_template": "The shoe is the {label} colorway shown in the reference photo.",
+  "video": {
+    "asset_folder_id": "12_b2FLRfBKPWOUyCXS3mTa62sJ1qUGFy",
+    "asset_folder_name": "New Content",
+    "footage_library": "video/footage.csv",
+    "notes": "Product footage: Larissa (2025/Larissa content, black/purple, curvy creator, 4K) and Rosa Pinto (black/white). 'Youtube/Tiktok Content' = third-party TikTok downloads for Disney/plus-size/travel/competitor b-roll: confirm rights before spend.",
+    "default_caption_style": "TikTok classic: white rounded box, black Inter SemiBold ~50px; persistent header in dark box; brand pill #7A2FE0",
+    "audio": "No baked-in music by default; add licensed sound at upload or generate via Atria (ask first)."
+  }
 }

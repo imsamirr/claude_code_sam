@@ -96,3 +96,25 @@ team's "WhiteBlue"), red burgundy (3), all black (6), black/purple (7), purple (
 black/mint (15), black/white (21, "BlackWhite"), grey/pink (26).
 
 On-image text is rendered by the image model, so check spelling on every ad before approving.
+
+# Video ads (short form, from existing footage)
+
+The `video-ads` skill (`.claude/skills/video-ads/SKILL.md`) has the full process.
+
+```
+ads/video/
+  build.py      edit.json -> <id>.mp4 (1080x1920), <id>_4x5.mp4 (feed), <id>_sheet.jpg (QA)
+  triage.py     contact pages for a batch of raw clips (drive:<id> or paths)
+  fonts/        Inter (OFL) for captions, bundled so every machine renders the same
+ads/brands/<brand>/video/
+  footage.csv                    tagged footage library (rights, best in/out, burned-in text)
+  <YYYY>-W<ww>/<id>/edit.json    one ad: sources, clips, captions, copy; renders sit next to it
+```
+
+```bash
+python ads/video/build.py ads/brands/comfortwear/video/2026-W46/V46_01_disney_plus_size_hour9/edit.json
+python ads/video/build.py --sheet drive:<fileId> --every 0.5     # watch a raw clip as a contact sheet
+python ads/video/triage.py clips.tsv out_dir/                     # triage a whole folder
+```
+Needs `ffmpeg` and Pillow. Drive sources (`drive:<fileId>`) download into `ads/.cache/footage/`
+(gitignored); the files must be shared by link.
