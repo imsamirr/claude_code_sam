@@ -281,6 +281,14 @@
       "why": "User asked for a high-quality woman in her 30s. Harper: median pitch ~198 Hz, expressive (4.4 semitone movement), conversational pace; Olivia measured lower/flatter (172 Hz, 2.5 st).",
       "atria_project_id": "22d464a7-e8cc-4602-8d1e-ded899a1a1f4",
       "cost": "~1 credit (~$0.01) per take"
-    }
+    },
+    "rules": [
+      "Always blur Skechers logos and markings on their shoes (clip 'blur' boxes; check frames).",
+      "Every creative in a batch uses different scenes: no source clip in more than one ad (ads/video/check_batch.py).",
+      "Never cover the main elements (faces/eyes, the product, the action) with text: captions auto-move off detected faces; check the QA strip.",
+      "Aggressive direct-response copy: callout hook, agitate, name the enemy, mechanism, proof, offer + urgency, hard CTA.",
+      "Scenes match captions (Nike line = Nike scene). Competitor shoes may be shown when named; Skechers branding blurred.",
+      "Black Friday end card for creatives made on/before 2026-11-23, regular card after."
+    ]
   }
 }

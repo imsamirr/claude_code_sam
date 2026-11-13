@@ -1,91 +1,145 @@
 {
   "id": "V46_01_disney_plus_size_hour9",
-  "version": 4,
+  "version": 5,
   "created": "2026-11-13",
-  "persona": "traveler",
-  "angle": "Plus-size women at Disney: 'comfy' sneakers give out by the end of the park day; ComfortWear's wide toe box, stretch knit and cushioning get you to the fireworks.",
-  "format": "native story captions (persistent callout header + changing story line) with a natural, continuous female voiceover (Harper) and a low ducked music bed; 8 scenes + end card, soft crossfades",
-  "based_on": "Own winner COM284_HO1 'plus-size women at Disney' (CA$5.1k, 2.89 ROAS, last 30d) cut down to short form; structure from inspo Dr. Woof 'Flight compression socks for men' (persistent header + story captions) and 'Vets wearing scrubs made for human med' (meme problem -> flip).",
-  "rules": "Plus-size Disney concept: every scene shows plus-size women and/or Disney (user, 2026-11-13).",
-  "colorway": "purple",
   "end_card": "auto",
   "end_card_seconds": 5.0,
   "transition": "fade",
-  "transition_duration": 0.25,
+  "transition_duration": 0.22,
+  "loudness": -14,
+  "avoid_faces": true,
+  "persona": "traveler",
+  "colorway": "purple",
+  "angle": "Plus-size women at Disney: gym sneakers are built narrow and the foam goes flat under your weight; wide toe box + stretch knit + cushioned sole; Black Friday urgency.",
+  "format": "aggressive DR: callout hook header, VO-synced word-chunk subtitles (HealthyFeet/Orthora style), 8 fast cuts, low ducked music, Black Friday end card",
+  "rules": "Plus-size Disney concept: plus-size women and/or Disney in every scene. No clip shared with any other ad in the batch.",
+  "voiceover": {
+    "file": "vo/harper_dr.mp3",
+    "mode": "continuous",
+    "tempo": 1.05,
+    "lead": 0.15,
+    "tail": 0.35,
+    "segments": [
+      [
+        0,
+        3.26
+      ],
+      [
+        3.74,
+        6.03
+      ],
+      [
+        6.51,
+        9.53
+      ],
+      [
+        10.04,
+        13.01
+      ],
+      [
+        13.46,
+        15.65
+      ],
+      [
+        16.06,
+        18.66
+      ],
+      [
+        19.15,
+        22.61
+      ],
+      [
+        23.27,
+        26.26
+      ]
+    ],
+    "lines": [
+      "If you're plus-size and going to Disney, do not wear your gym sneakers.",
+      "By hour five, they're done, and so are your feet.",
+      "Most sneakers are built narrow, and the foam goes flat under your weight.",
+      "These have a wide toe box that actually gives your feet room to swell.",
+      "The knit stretches with you, instead of squeezing.",
+      "And the cushioned sole is built for 12-hour park days.",
+      "22,000 steps later, I was still dancing in front of the castle.",
+      "Black Friday pricing won't last, so grab yours before your trip."
+    ],
+    "sub": {
+      "style": "box",
+      "size": 58,
+      "width": 0.86,
+      "y": 0.68,
+      "max_words": 4
+    },
+    "script": "If you're plus-size and going to Disney, do not wear your gym sneakers. By hour five, they're done, and so are your feet. Most sneakers are built narrow, and the foam goes flat under your weight. These have a wide toe box that actually gives your feet room to swell. The knit stretches with you, instead of squeezing. And the cushioned sole is built for twelve-hour park days. 22,000 steps later, I was still dancing in front of the castle. Black Friday pricing won't last, so grab yours before your trip.",
+    "voice": "Harper (Atria, microsoft/mai-voice-2.1)"
+  },
+  "music": {
+    "file": "vo/music_park_bed.mp3",
+    "gain": 0.15,
+    "duck": true
+  },
   "sources": {
-    "garage": "drive:1mVOWjLngmF_snC6XCmzC2Z9iITUQ6aVg",
     "group": "drive:1O2ny98nZUOIjf_QHSPxSfhvlKZMjaA5a",
-    "squad": "drive:1T7RbC29qY1KVQNVn1R-12HB0x0CovXUb",
+    "garage": "drive:1mVOWjLngmF_snC6XCmzC2Z9iITUQ6aVg",
+    "thumbsdown": "drive:1-y7Pe1tu3fe6JpLucrXuy_AMOHk4DfiF",
     "shoe": "drive:1ygiK3dyWGJ506O8l7V6aVR6b-TIVW1uJ",
     "stretch": "drive:1dpPJdTB-tMXwfr4dwBWg1OIzKMdnkGj4",
-    "pose": "drive:17W-4Ss7wqQawLPNLTNMAu6TL6FMTytJr",
-    "twirl": "drive:1XVtEFqRfZeXVfH1RY9QzIWSr-XUOgRIE",
+    "puton": "drive:1byBvvKrX3Qbi0fmLdJ6GLFjl00zZuH76",
+    "dance": "drive:1R8eMYeZrKkgIN3bFU9PIpYYGGqj5Yx-8",
     "fireworks": "drive:1dezapqHlZYMIZIlmZmVjpWOlSgx7qVp6"
   },
   "source_notes": {
-    "garage": "Youtube/Tiktok Content/snaptik_7476378874712968491_v3.mp4 - woman in Mickey sweatshirt + Minnie ears walking through the Disney parking garage at night, exhausted",
-    "group": "Youtube/Tiktok Content/snaptik_7350800677989322026_v3 (1).mp4 - plus-size friends with Minnie ears walking at Disney's BoardWalk (blurred sticker top-left cropped by zoom)",
-    "squad": "Youtube/Tiktok Content/snaptik_7584225946362760461_v3.mp4 - plus-size friends walking Main Street USA (creator text cropped by zoom)",
-    "shoe": "2025/Larissa content/Purple shoes/IMG_0932.MOV - plus-size creator holds the purple shoe side-on",
-    "stretch": "2025/Larissa content/Purple shoes/IMG_0933.MOV - stretching the knit upper with her fingers",
-    "pose": "2025/Larissa content/Purple shoes/IMG_0920.MOV - full-body pose/dance in purple shoes",
-    "twirl": "Youtube/Tiktok Content/snaptik_7308437939355208990_v3 (1).mp4 - plus-size woman twirling at Sleeping Beauty Castle",
-    "fireworks": "Youtube/Tiktok Content/snaptik_7519992767892737310_v3.mp4 - plus-size woman with Minnie ears under fireworks"
+    "group": "TikTok: plus-size friends in Minnie ears at Disney's BoardWalk",
+    "garage": "TikTok: exhausted in the Disney parking garage at night",
+    "thumbsdown": "MISC B-ROLL/Retail Workers/Broll overweight lady giving thumbs down while holding non-CW shoes.MOV",
+    "shoe": "Larissa/Purple shoes/IMG_0932.MOV",
+    "stretch": "Larissa/Purple shoes/IMG_0933.MOV",
+    "puton": "MISC B-ROLL/Retail Workers/Broll overweight female putting on CW shoes.MOV",
+    "dance": "TikTok: plus-size group dancing at Cinderella Castle",
+    "fireworks": "TikTok: plus-size woman in Minnie ears under fireworks"
   },
   "clips": [
     {
-      "src": "garage",
-      "in": 4.3,
-      "out": 6.9,
-      "gain": 0
-    },
-    {
       "src": "group",
       "in": 0.0,
-      "out": 2.3,
       "zoom": 1.3,
       "focus_y": 1.0,
       "gain": 0
     },
     {
-      "src": "squad",
-      "in": 5.6,
-      "out": 7.6,
-      "zoom": 1.32,
-      "focus_y": 1.0,
+      "src": "garage",
+      "in": 4.2,
+      "gain": 0
+    },
+    {
+      "src": "thumbsdown",
+      "in": 7.6,
       "gain": 0
     },
     {
       "src": "shoe",
-      "in": 12.0,
-      "out": 3.5,
+      "in": 11.3,
       "gain": 0
     },
     {
       "src": "stretch",
       "in": 8.6,
-      "out": 10.9,
       "gain": 0
     },
     {
-      "src": "pose",
-      "in": 2.9,
-      "out": 5.6,
+      "src": "puton",
+      "in": 4.4,
       "gain": 0
     },
     {
-      "src": "twirl",
-      "in": 0.0,
-      "out": 2.6,
-      "zoom": 1.1,
-      "focus_y": 0.6,
+      "src": "dance",
+      "in": 3.0,
       "gain": 0
     },
     {
       "src": "fireworks",
-      "in": 13.6,
-      "out": 16.6,
-      "eq": "brightness=0.06:contrast=1.05:saturation=1.12",
+      "in": 13.4,
+      "eq": "brightness=0.1:contrast=1.08:saturation=1.15",
       "gain": 0
     }
   ],
@@ -93,98 +147,18 @@
     {
       "clips": [
         0,
-        7
+        0
       ],
-      "text": "Disney shoes for plus-size women 🏰",
+      "text": "PLUS-SIZE & GOING TO DISNEY? 🚨",
       "style": "dark",
-      "y": 0.205,
-      "size": 60,
-      "width": 0.94
-    },
-    {
-      "clip": 0,
-      "text": "me after 22,000 steps at Disney in my \"comfy\" sneakers 💀",
-      "style": "box",
-      "y": 0.64,
-      "size": 64,
-      "width": 0.88
-    },
-    {
-      "clip": 1,
-      "text": "most sneakers just aren't made for curvy-girl park days 😩",
-      "style": "box",
-      "y": 0.42,
-      "size": 64,
-      "width": 0.88
-    },
-    {
-      "clip": 2,
-      "text": "so we found some that are 👇",
-      "style": "box",
-      "y": 0.62,
-      "size": 64,
-      "width": 0.88
-    },
-    {
-      "clip": 3,
-      "text": "a wide toe box for when your feet start to swell",
-      "style": "box",
-      "y": 0.68,
-      "size": 64,
-      "width": 0.88
-    },
-    {
-      "clip": 4,
-      "text": "the stretchy knit actually gives instead of squeezing",
-      "style": "box",
-      "y": 0.7,
-      "size": 64,
-      "width": 0.88
-    },
-    {
-      "clip": 5,
-      "text": "cushioned sole made for 12-hour park days",
-      "style": "box",
-      "y": 0.6,
-      "size": 64,
-      "width": 0.88
-    },
-    {
-      "clip": 6,
-      "text": "hour 12 and I'm still twirling ✨",
-      "style": "box",
-      "y": 0.7,
-      "size": 64,
-      "width": 0.88
-    },
-    {
-      "clip": 7,
-      "text": "front row for the fireworks 🎆",
-      "style": "box",
-      "y": 0.33,
-      "size": 64,
-      "width": 0.88
+      "y": 0.24,
+      "size": 66,
+      "width": 0.92
     }
   ],
   "primary_text": "Disney days are 10–12 hours on your feet. Most \"comfy\" sneakers are built narrow, and by the afternoon parade your feet have swollen and your toes are fighting the shoe.\n\nThe ComfortWear Ortho Stretch Shoe was made for long days:\n👣 Wide toe box so your toes aren't crushed as your feet swell\n🧶 Stretch-knit upper that gives instead of squeezing\n☁️ Cushioned rocker sole for 20,000-step park days\n\nFrom rope drop to fireworks 🎆",
   "headline": "Disney Shoes For Plus-Size Women",
   "cta": "SHOP_NOW",
   "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
-  "loudness": -14,
-  "voiceover": {
-    "file": "vo/harper_natural.mp3",
-    "mode": "continuous",
-    "tempo": 1.05,
-    "lead": 0.15,
-    "tail": 0.35,
-    "gain": 1.0,
-    "voice": "Harper (Atria, microsoft/mai-voice-2.1)",
-    "script": "Okay, so this was me after twenty-two thousand steps at Disney, in my \"comfy\" sneakers. Turns out, most sneakers just aren't made for curvy-girl park days. So we found some that are. They've got a wide toe box, for when your feet start to swell. The stretchy knit actually gives, instead of squeezing. And the cushioned sole is made for twelve-hour park days. Hour twelve, and I'm still twirling. And yes, I got front row for the fireworks."
-  },
-  "music": {
-    "file": "vo/music_park_bed.mp3",
-    "gain": 0.15,
-    "duck": true,
-    "source": "Atria ad_maker_generate_music (elevenlabs/music), instrumental, royalty-free generation: light whimsical theme-park bed (pizzicato, glockenspiel, ukulele, claps, ~100 BPM)"
-  }
+  "based_on": "Own winner COM284_HO1 'plus-size women at Disney' (CA$5.1k, 2.89 ROAS, last 30d) cut down to short form; structure from inspo Dr. Woof 'Flight compression socks for men' (persistent header + story captions) and 'Vets wearing scrubs made for human med' (meme problem -> flip)."
 }

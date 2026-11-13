@@ -54,7 +54,8 @@ def main():
             f = tmp / f"{kind}{i:02d}.png"
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{t:.2f}", "-i", str(src), "-frames:v", "1",
                             "-vf", "scale=240:-2,pad=240:428:0:(oh-ih)/2", str(f)])
-            files.append(f)
+            if f.exists():
+                files.append(f)
     n = len(times)
     out = Path(a.out) if a.out else v.with_name(v.stem + "_qa.png")
     inputs = sum((["-i", str(f)] for f in files), [])
@@ -64,7 +65,7 @@ def main():
         f"{(i % n) * 240}_{(i // n) * 428}" for i in range(len(files)))
     subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", fc, str(out)])
     for f in files:
-        f.unlink()
+        f.unlink(missing_ok=True)
     tmp.rmdir()
     print(f"strip ({rows} rows x {n} scenes): {out}")
 

@@ -1,40 +1,50 @@
 {
- "total": 24.004,
+ "total": 28.959,
  "scenes": [
   {
-   "src": "thumbs",
+   "src": "happy",
    "start": 0.0,
-   "end": 3.007
+   "end": 3.722
   },
   {
-   "src": "mirror2",
-   "start": 3.007,
-   "end": 4.766
+   "src": "stairs_pain",
+   "start": 3.722,
+   "end": 7.385
   },
   {
-   "src": "pain",
-   "start": 4.766,
-   "end": 9.377
+   "src": "shoes_off",
+   "start": 7.385,
+   "end": 10.173
   },
   {
-   "src": "showoff",
-   "start": 9.377,
-   "end": 13.162
+   "src": "hold",
+   "start": 10.173,
+   "end": 13.726
+  },
+  {
+   "src": "puton",
+   "start": 13.726,
+   "end": 15.938
   },
   {
    "src": "car",
-   "start": 13.162,
-   "end": 15.682
+   "start": 15.938,
+   "end": 18.481
   },
   {
-   "src": "wheelchair",
-   "start": 15.682,
-   "end": 19.179
+   "src": "patient",
+   "start": 18.481,
+   "end": 21.101
+  },
+  {
+   "src": "show",
+   "start": 21.101,
+   "end": 24.134
   },
   {
    "src": "_end_card",
-   "start": 19.179,
-   "end": 24.004
+   "start": 24.134,
+   "end": 28.959
   }
  ]
 }

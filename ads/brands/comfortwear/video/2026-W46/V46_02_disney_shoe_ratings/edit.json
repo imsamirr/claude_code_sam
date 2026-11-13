@@ -1,63 +1,97 @@
 {
   "id": "V46_02_disney_shoe_ratings",
-  "version": 2,
+  "version": 3,
   "created": "2026-11-13",
-  "persona": "traveler",
-  "angle": "Disney trip: popular sneakers fail by lunch (Hokas heavy/knees, Nike narrow toe box); ComfortWear's wide toe box and arch support last to the fireworks.",
-  "format": "rating format (persistent header + 'Brand: x/10' captions), natural first-person voiceover (Harper) + low ducked park music bed, 9 scenes + end card",
-  "based_on": "Top-5 winner #1 TOFV1_JW1 COM320_HO1 'If you're traveling to Disney, you need to see this... we tested the 7 most popular shoes' ($8,833, 1.77 ROAS, last 14d). Short-form iteration: same angle and proof points, rating captions from COM225's 'X de 10' structure, persistent header from Dr. Woof 'Flight compression socks for men'.",
-  "rules": "Disney/travel concept. Scenes match captions (user rule 2026-11-13: Nike caption = Nike scene), so Hoka and Nike Air Max are shown when named.",
-  "colorway": "purple",
   "end_card": "auto",
   "end_card_seconds": 5.0,
   "transition": "fade",
-  "transition_duration": 0.25,
+  "transition_duration": 0.22,
+  "loudness": -14,
+  "avoid_faces": true,
+  "persona": "traveler",
+  "colorway": "black_purple",
+  "angle": "Disney trip shoe test: Hoka 4/10 (heavy, knees), Nike Air Max 5/10 (narrow toe box), Skechers 6/10 (memory foam goes flat), ComfortWear 10/10.",
+  "format": "aggressive DR rating format: big score callouts over each competitor (shown when named), VO-synced subtitles, 12 fast cuts, park music bed",
+  "rules": "Scenes match captions. Skechers logos and markings always blurred (user rule 2026-11-13). No clip shared with another ad.",
   "voiceover": {
-    "file": "vo/harper_natural.mp3",
+    "file": "vo/harper_dr.mp3",
     "mode": "continuous",
-    "tempo": 1.07,
+    "tempo": 1.06,
     "lead": 0.15,
     "tail": 0.35,
-    "voice": "Harper (Atria, microsoft/mai-voice-2.1)",
     "segments": [
       [
-        0.0,
-        2.28
+        0,
+        1.63
       ],
       [
-        2.93,
-        4.63
+        1.88,
+        3.65
       ],
       [
-        4.85,
-        7.51
+        4.23,
+        5.56
       ],
       [
-        8.0,
-        9.76
+        6.08,
+        8.31
       ],
       [
-        10.2,
-        13.79
+        8.85,
+        10.44
       ],
       [
-        14.15,
-        15.69
+        11.01,
+        13.73
       ],
       [
-        16.13,
-        19.68
+        14.3,
+        15.76
       ],
       [
-        20.22,
-        22.18
+        16.26,
+        18.0
       ],
       [
-        22.59,
-        25.84
+        18.53,
+        20.09
+      ],
+      [
+        20.57,
+        22.82
+      ],
+      [
+        23.47,
+        26.0
+      ],
+      [
+        26.26,
+        27.94
       ]
     ],
-    "script": "If you're going to Disney, please don't make my mistakes. Hokas? Four out of ten. Super cushy at rope drop, but by lunch my knees were done. Nike Air Max? Five out of ten. Cute, but that narrow toe box had me hunting for a bench by hour five. These? Ten out of ten. The toe box is actually wide, so your feet can swell and still feel fine. And the arch support doesn't quit at two p.m. Twenty-two thousand steps, and my feet were still happy at the fireworks."
+    "lines": [
+      "Stop packing running shoes for Disney.",
+      "I tested the popular ones, so you don't have to.",
+      "Hokas, four out of ten.",
+      "Super cushy at first, but by lunch my knees were done.",
+      "Nike Air Max, five out of ten.",
+      "That narrow toe box had me hunting for a bench by hour five.",
+      "Skechers, six out of ten.",
+      "Comfy, until the memory foam goes flat.",
+      "ComfortWear, ten out of ten.",
+      "The toe box is wide, and the arch support doesn't quit.",
+      "22,000 steps, and my feet were fine at the fireworks.",
+      "Don't ruin the trip you saved all year for."
+    ],
+    "sub": {
+      "style": "box",
+      "size": 58,
+      "width": 0.86,
+      "y": 0.68,
+      "max_words": 4
+    },
+    "script": "Stop packing running shoes for Disney. I tested the popular ones, so you don't have to. Hokas, four out of ten. Super cushy at first, but by lunch my knees were done. Nike Air Max, five out of ten. That narrow toe box had me hunting for a bench by hour five. Skechers, six out of ten. Comfy, until the memory foam goes flat. ComfortWear, ten out of ten. The toe box is wide, and the arch support doesn't quit. 22,000 steps, and my feet were fine at the fireworks. Don't ruin the trip you saved all year for.",
+    "voice": "Harper (Atria, microsoft/mai-voice-2.1)"
   },
   "music": {
     "file": "vo/music_park_bed.mp3",
@@ -67,75 +101,108 @@
   },
   "sources": {
     "gate": "drive:17m8IV5Oqk2QznwPWirAf37F3qH3XhwAd",
-    "crawl": "drive:1Jv0NoQ1N3hmcsZ-G5UExEWEeQSue0Ebz",
-    "shoe": "drive:1ygiK3dyWGJ506O8l7V6aVR6b-TIVW1uJ",
-    "stretch": "drive:1dpPJdTB-tMXwfr4dwBWg1OIzKMdnkGj4",
-    "castle_night": "drive:1ZAePg70h7ZZX0IPiDJ0jF2MMNVAjKoX4",
+    "crowd": "drive:1cRmDZwCSMatrapOxxOaeRWgLqs6cNG__",
     "hoka": "drive:1cNPCsQlHu1br_vNmwRRHuietWySiXVGd",
-    "airmax": "drive:1rYxwSTxuNJbvX1flpiiQYh4XnY9jwqkw"
+    "crawl": "drive:1Jv0NoQ1N3hmcsZ-G5UExEWEeQSue0Ebz",
+    "airmax": "drive:1rYxwSTxuNJbvX1flpiiQYh4XnY9jwqkw",
+    "skechers": "drive:1WIVxZq8yWBoVo2O6mp38J7y95SUrW9fO",
+    "features": "drive:1owdM16_KfPBA7iiTDFZ0HA3l0Faza8Wg",
+    "walk": "drive:12Ion1MF47V9_TnqTdJJ4sOM04KJSZeja",
+    "castle_night": "drive:1ZAePg70h7ZZX0IPiDJ0jF2MMNVAjKoX4",
+    "coaster": "drive:1QoBN_4tB43huk-PcKG03D9oSaihjCnnq",
+    "insole": "drive:11AlXlmZA2dFRAFN3RCFibfZXnGCQ6a5H"
   },
   "source_notes": {
-    "gate": "Youtube/Tiktok Content/snaptik_7605141907424955681_v3.mp4 - driving up to the Disneyland gate",
-    "crawl": "Youtube/Tiktok Content/snaptik_7516751375980580126_v3 (1).mp4 - woman crawling to an Epcot sign at night",
-    "shoe": "2025/Larissa content/Purple shoes/IMG_0932.MOV",
-    "stretch": "2025/Larissa content/Purple shoes/IMG_0933.MOV",
-    "castle_night": "Youtube/Tiktok Content/snaptik_7667841427031870740_v3.mp4 - castle with fireworks at night",
-    "hoka": "Youtube/Tiktok Content/hoka.mp4 - Hoka Bondi unboxing (clean)",
-    "airmax": "Youtube/Tiktok Content/nike air maax.mp4 - Nike Air Max box + on-foot; burned-in text at y 0.47-0.53 is covered by our caption"
+    "gate": "TikTok: driving up to the Disneyland gate",
+    "crowd": "TikTok: castle courtyard crowd",
+    "hoka": "TikTok/hoka.mp4 Hoka Bondi",
+    "crawl": "TikTok: crawling to the Epcot sign at night",
+    "airmax": "TikTok/nike air maax.mp4 (burned text covered by score/caption at y 0.50)",
+    "skechers": "TikTok/sketchers.mp4 (logos blurred)",
+    "features": "Larissa/showing shoe features.MOV (black/purple)",
+    "walk": "Larissa/outside close up of shoes.MOV",
+    "castle_night": "TikTok: castle + fireworks",
+    "coaster": "TikTok: Toy Story coaster, hands up",
+    "insole": "MISC B-ROLL/Nurses/Broll nurse dismayed taking off the insole of a non-CW shoes.MOV (owned)"
   },
   "clips": [
     {
       "src": "gate",
       "in": 0.0,
-      "out": 3.0,
+      "gain": 0
+    },
+    {
+      "src": "crowd",
+      "in": 1.0,
       "gain": 0
     },
     {
       "src": "hoka",
       "in": 1.0,
-      "out": 3.5,
       "gain": 0
     },
     {
       "src": "crawl",
-      "in": 0.3,
-      "out": 3.4,
+      "in": 0.2,
       "gain": 0
     },
     {
       "src": "airmax",
       "in": 0.0,
-      "out": 2.5,
       "gain": 0
     },
     {
       "src": "airmax",
       "in": 7.0,
-      "out": 11.5,
       "gain": 0
     },
     {
-      "src": "shoe",
-      "in": 12.0,
-      "out": 14.0,
-      "gain": 0
+      "src": "skechers",
+      "in": 7.6,
+      "gain": 0,
+      "blur": [
+        {
+          "box": [
+            0.0,
+            0.22,
+            0.62,
+            0.66
+          ],
+          "strength": 30
+        }
+      ],
+      "transition": "cut"
     },
     {
-      "src": "stretch",
-      "in": 8.4,
-      "out": 12.0,
-      "gain": 0
+      "src": "insole",
+      "in": 4.4,
+      "gain": 0,
+      "transition": "cut"
     },
     {
-      "src": "shoe",
-      "in": 8.8,
-      "out": 11.8,
+      "src": "features",
+      "in": 2.0,
+      "gain": 0,
+      "keep_clear": [
+        [
+          0.27,
+          0.56
+        ]
+      ]
+    },
+    {
+      "src": "walk",
+      "in": 42.5,
       "gain": 0
     },
     {
       "src": "castle_night",
       "in": 6.0,
-      "out": 10.0,
+      "gain": 0
+    },
+    {
+      "src": "coaster",
+      "in": 2.0,
       "gain": 0
     }
   ],
@@ -143,92 +210,62 @@
     {
       "clips": [
         0,
-        8
+        0
       ],
-      "text": "Rating Disney shoes after 22,000 steps 🏰",
+      "text": "I tested the top Disney shoes so you don't have to 🏰",
       "style": "dark",
-      "y": 0.205,
-      "size": 58,
-      "width": 0.94
-    },
-    {
-      "clip": 0,
-      "text": "if you're going to Disney, don't make my mistakes 😭",
-      "style": "box",
-      "y": 0.62,
-      "size": 64,
-      "width": 0.88
-    },
-    {
-      "clip": 1,
-      "text": "Hokas: 4/10",
-      "style": "box",
-      "y": 0.7,
-      "size": 84,
-      "width": 0.88
+      "y": 0.25,
+      "size": 60,
+      "width": 0.92
     },
     {
       "clip": 2,
-      "text": "cushy at rope drop… knees done by lunch",
+      "text": "HOKA: 4/10 ❌",
       "style": "box",
-      "y": 0.36,
-      "size": 64,
-      "width": 0.88
-    },
-    {
-      "clip": 3,
-      "text": "Nike Air Max: 5/10",
-      "style": "box",
-      "y": 0.502,
+      "y": 0.3,
       "size": 84,
-      "width": 0.88,
-      "delay": -0.25
+      "width": 0.9
     },
     {
       "clip": 4,
-      "text": "that narrow toe box had me hunting for a bench by hour 5 🪑",
+      "text": "NIKE AIR MAX: 5/10 ❌",
       "style": "box",
-      "y": 0.5,
-      "size": 64,
-      "width": 0.88,
-      "delay": -0.25
+      "y": 0.502,
+      "size": 84,
+      "width": 0.9,
+      "avoid_faces": false,
+      "fade": 0
     },
     {
       "clip": 5,
-      "text": "ComfortWear: 10/10 ✅",
+      "text": "narrow toe box 👎",
       "style": "box",
-      "y": 0.68,
-      "size": 72,
-      "width": 0.88
+      "y": 0.5,
+      "size": 80,
+      "width": 0.9,
+      "avoid_faces": false,
+      "fade": 0
     },
     {
       "clip": 6,
-      "text": "wide toe box so your feet can swell and still feel fine",
+      "text": "SKECHERS: 6/10 ❌",
       "style": "box",
-      "y": 0.7,
-      "size": 64,
-      "width": 0.88
-    },
-    {
-      "clip": 7,
-      "text": "arch support that doesn't quit at 2pm",
-      "style": "box",
-      "y": 0.66,
-      "size": 64,
-      "width": 0.88
+      "y": 0.78,
+      "size": 84,
+      "width": 0.9
     },
     {
       "clip": 8,
-      "text": "22,000 steps and happy feet at the fireworks 🎆",
-      "style": "box",
-      "y": 0.66,
-      "size": 64,
-      "width": 0.88
+      "text": "COMFORTWEAR: 10/10 ✅",
+      "style": "brand",
+      "y": 0.74,
+      "size": 84,
+      "width": 0.9
     }
   ],
   "primary_text": "Disney means 8–10 hours on your feet: cobblestones, lines, and miles between rides. Most sneakers are built for running, not for standing in line at hour seven.\n\nThe ComfortWear Ortho Stretch Shoe:\n👣 Wide toe box, so swollen feet still have room\n🦶 Arch support that's still there at the fireworks\n☁️ Cushioned rocker sole for 20,000-step park days\n\nPack the shoes that make it to the fireworks 🎆",
   "headline": "2026's Favorite Shoes For Disney Trips",
   "cta": "SHOP_NOW",
   "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
-  "loudness": -14
+  "based_on": "Top-5 winner #1 TOFV1_JW1 COM320_HO1 'If you're traveling to Disney, you need to see this... we tested the 7 most popular shoes' ($8,833, 1.77 ROAS, last 14d). Short-form iteration: same angle and proof points, rating captions from COM225's 'X de 10' structure, persistent header from Dr. Woof 'Flight compression socks for men'."
 }

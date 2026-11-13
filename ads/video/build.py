@@ -134,7 +134,8 @@ def sheet(path, out, every=2.0, cols=6, width=240):
 def is_emoji(ch):
     cp = ord(ch)
     return (0x1F000 <= cp <= 0x1FAFF or 0x2600 <= cp <= 0x27BF or 0x2B00 <= cp <= 0x2BFF
-            or cp in (0x200D, 0xFE0F, 0x2764))
+            or 0x2300 <= cp <= 0x23FF or 0x2190 <= cp <= 0x21FF or 0x2934 <= cp <= 0x2935
+            or cp in (0x200D, 0xFE0F, 0x2764, 0x203C, 0x2049, 0x2122, 0x2139, 0x3030, 0x303D))
 
 
 def runs(text):
@@ -256,7 +257,7 @@ def render_caption(cap, out_png):
     full = Image.new("RGBA", (W, canvas.height), (0, 0, 0, 0))
     full.alpha_composite(canvas, ((W - canvas.width) // 2 if align == "center" else 0, 0))
     full.save(out_png)
-    return full.height
+    return full.height, canvas.width
 
 
 # ---------------------------------------------------------------- clips
@@ -270,7 +271,7 @@ def cut_clip(i, clip, src_path, meta, tmp):
     fx, fy = float(clip.get("focus", 0.5)), float(clip.get("focus_y", 0.5))
     if clip.get("push"):
         print(f"  clip {i}: 'push' is ignored (per-frame rescaling jitters); use a static 'zoom'")
-    dur = (zout - zin) / speed
+    dur = max(2, round((zout - zin) / speed * FPS)) / FPS   # whole frames: keeps the xfade chain exact
     cover = max(W / meta["w"], H / meta["h"]) * zoom
     sw, sh = math.ceil(meta["w"] * cover / 2) * 2, math.ceil(meta["h"] * cover / 2) * 2
     # constant 30 fps first (sources are 25/29.97/VFR/60), then a single high-quality resize + crop
@@ -285,13 +286,26 @@ def cut_clip(i, clip, src_path, meta, tmp):
     gain = float(clip.get("gain", 1.0))
     cmd = ["ffmpeg", "-v", "error", "-y", "-ss", f"{zin:.3f}", "-t", f"{zout - zin + 0.1:.3f}", "-i", str(src_path)]
     pad = f"apad,atrim=duration={dur:.4f},asetpts=PTS-STARTPTS"
+    # blur boxes (logos, other brands' markings): [{"box": [x0, y0, x1, y1], "t": [a, b], "strength": 28}]
+    # box in fractions of the 1080x1920 output frame, t in seconds of this clip's output (optional)
+    vchain = f"[0:v]{','.join(vf)}[vb0]"
+    for bi, bl in enumerate(clip.get("blur", [])):
+        x0, y0, x1, y1 = bl["box"]
+        bx, by = int(x0 * W) // 2 * 2, int(y0 * H) // 2 * 2
+        bw, bh = max(8, int((x1 - x0) * W) // 2 * 2), max(8, int((y1 - y0) * H) // 2 * 2)
+        st = int(bl.get("strength", 28))
+        st = min(st, bw // 2 - 1, bh // 2 - 1)
+        en = f":enable='between(t,{bl['t'][0]},{bl['t'][1]})'" if bl.get("t") else ""
+        vchain += (f";[vb{bi}]split[vs{bi}a][vs{bi}b];[vs{bi}b]crop={bw}:{bh}:{bx}:{by},boxblur={st}:3"
+                   f"[vbb{bi}];[vs{bi}a][vbb{bi}]overlay={bx}:{by}{en}[vb{bi + 1}]")
+    vchain += f";[vb{len(clip.get('blur', []))}]null[v]"
     if meta["audio"] and gain > 0:
         af = ([f"atempo={speed}"] if speed != 1.0 else []) + [
             f"volume={gain}", "aresample=48000", "aformat=sample_fmts=fltp:channel_layouts=stereo", pad]
-        fc = f"[0:v]{','.join(vf)}[v];[0:a]{','.join(af)}[a]"
+        fc = f"{vchain};[0:a]{','.join(af)}[a]"
     else:
         cmd += ["-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo"]
-        fc = f"[0:v]{','.join(vf)}[v];[1:a]aformat=sample_fmts=fltp:channel_layouts=stereo,{pad}[a]"
+        fc = f"{vchain};[1:a]aformat=sample_fmts=fltp:channel_layouts=stereo,{pad}[a]"
     cmd += ["-filter_complex", fc, "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium",
             "-crf", "10", "-r", str(FPS), "-c:a", "pcm_s16le", str(out.with_suffix(".mov"))]
     run(cmd)
@@ -323,6 +337,58 @@ def speech_segments(path, silence_db=-40, min_pause=0.12, n=None):
 
 def probe_audio_duration(path):
     return float(run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)]).strip())
+
+
+_CASCADES = None
+
+
+def face_boxes(path, t):
+    """Face boxes (y0, y1, x0, x1 as fractions of the frame) in the frame of `path` at t seconds.
+    Frontal + profile (both directions) Haar cascades; used to keep captions off faces."""
+    global _CASCADES
+    try:
+        import cv2
+    except ImportError:
+        return []
+    if _CASCADES is None:
+        d = cv2.data.haarcascades
+        _CASCADES = [cv2.CascadeClassifier(d + n) for n in
+                     ("haarcascade_frontalface_default.xml", "haarcascade_profileface.xml",
+                      "haarcascade_frontalface_alt2.xml")]
+    cap = cv2.VideoCapture(str(path))
+    cap.set(cv2.CAP_PROP_POS_MSEC, max(0.0, t) * 1000)
+    ok, frame = cap.read()
+    cap.release()
+    if not ok:
+        return []
+    h, w = frame.shape[:2]
+    small = cv2.resize(frame, (w // 3, h // 3))
+    gray = cv2.equalizeHist(cv2.cvtColor(small, cv2.COLOR_BGR2GRAY))
+    sw, sh = gray.shape[1], gray.shape[0]
+    found = []
+    for k, cc in enumerate(_CASCADES):
+        for img, flip in ((gray, False), (cv2.flip(gray, 1), True)) if k == 1 else ((gray, False),):
+            for (x, y, fw, fh) in cc.detectMultiScale(img, 1.1, 6, minSize=(int(sw * 0.09), int(sw * 0.09))):
+                if flip:
+                    x = sw - x - fw
+                found.append((y / sh, (y + fh) / sh, x / sw, (x + fw) / sw))
+    return found
+
+
+def chunk_line(text, max_words=4):
+    """Split a VO line into short subtitle chunks, breaking after punctuation when possible."""
+    words, out, cur = text.split(), [], []
+    for wd in words:
+        cur.append(wd)
+        if len(cur) >= max_words or (wd[-1] in ",.?!:;—" and len(cur) >= 2):
+            out.append(" ".join(cur))
+            cur = []
+    if cur:
+        if out and len(cur) == 1 and len(out[-1].split()) < max_words + 1:
+            out[-1] += " " + cur[0]
+        else:
+            out.append(" ".join(cur))
+    return out
 
 
 def brand_dir(edit_path):
@@ -430,7 +496,8 @@ def build(edit_path, sheet_every=1.5, feed=True):
             durs.append(d)
             t = clip.get("transition", edit.get("transition", "fade"))
             f = 1.0 / FPS if t == "cut" else float(clip.get("transition_duration", edit.get("transition_duration", 0.25)))
-            fades.append(0.0 if i == 0 else min(f, d / 2, durs[i - 1] / 2))
+            f = 0.0 if i == 0 else min(f, d / 2, durs[i - 1] / 2)
+            fades.append(max(1, round(f * FPS)) / FPS if i else 0.0)
             clip["_t"] = "fade" if t == "cut" else t
         offs, win, total = windows(durs, fades)
 
@@ -445,10 +512,38 @@ def build(edit_path, sheet_every=1.5, feed=True):
             g.append(f"[{al}][a{i}]acrossfade=d={fades[i]:.4f}:c1=tri:c2=tri[ax{i}]")
             vl, al = f"vx{i}", f"ax{i}"
 
-        # captions: timed by clip index ("clip": i or "clips": [a, b]) or explicit start/end;
-        # each fades in/out over CAP_FADE except a caption that is on screen at t=0 (the hook)
-        CAP_FADE = 0.12
-        for j, cap in enumerate(edit.get("captions", [])):
+        # subtitles from the voiceover: one short chunk at a time, timed to the speech of each line
+        caps_all = [dict(c) for c in edit.get("captions", [])]
+        if vo and vo.get("lines"):
+            lines = vo["lines"]
+            if len(lines) != len(vo_segs):
+                raise SystemExit(f"voiceover.lines has {len(lines)} entries, take has {len(vo_segs)} lines")
+            lead = float(vo.get("lead", 0.12))
+            sub = {"style": "box", "size": 58, "width": 0.86, "y": 0.70, "fade": 0.0, **vo.get("sub", {})}
+            for i, (line, (a, b)) in enumerate(zip(lines, vo_segs)):
+                if not line:
+                    continue
+                t0 = (lead + a) if continuous else (win[i][0] + lead)
+                t1 = t0 + (b - a)
+                chunks = chunk_line(line, int(sub.get("max_words", 4)))
+                weights = [max(4, len(c)) for c in chunks]
+                tt = t0
+                for k, ch_text in enumerate(chunks):
+                    d = (t1 - t0) * weights[k] / sum(weights)
+                    end = tt + d if k < len(chunks) - 1 else min(t1 + 0.25, win[i][1])
+                    caps_all.append({**sub, "text": ch_text, "start": tt, "end": end, "_scene": i,
+                                     **(vo.get("sub_overrides", {}).get(str(i), {}))})
+                    tt += d
+
+        def scene_at(t):
+            return next((i for i, (a, b) in enumerate(win) if a <= t < b), len(win) - 1)
+
+        # captions: timed by clip index ("clip": i or "clips": [a, b]) or explicit start/end.
+        # Each is placed at its requested y unless that covers a face (Haar detection on the frames
+        # it spans), a clip's "keep_clear" bands, or another caption on screen at the same time;
+        # then it moves to the nearest clear y in 0.17..0.76.
+        placed_boxes = []
+        for j, cap in enumerate(caps_all):
             if "clip" in cap or "clips" in cap:
                 a, b = cap.get("clips", [cap.get("clip")] * 2)
                 if max(a, b) >= n_content:
@@ -456,22 +551,50 @@ def build(edit_path, sheet_every=1.5, feed=True):
                 s, e = win[a][0], win[b][1]
             else:
                 s, e = float(cap["start"]), min(float(cap["end"]), total)
-            s, e = s + float(cap.get("delay", 0)), min(e, total)
+            s, e = max(0.0, s + float(cap.get("delay", 0))), min(e, total)
             png = tmp / f"cap_{j:02d}.png"
-            ch = render_caption(cap, png)
-            y = int(H * cap.get("y", 0.3) - ch / 2)
+            ch, cw = render_caption(cap, png)
+            want = float(cap.get("y", 0.3))
+            blocks = []
+            if cap.get("avoid_faces", edit.get("avoid_faces", True)):
+                for t in [s + (e - s) * f for f in (0.1, 0.4, 0.7, 0.95)]:
+                    i = scene_at(t)
+                    for fb in face_boxes(parts[i], t - offs[i]):
+                        fh = fb[1] - fb[0]
+                        blocks.append((fb[0] - 0.12 * fh, fb[1] + 0.12 * fh, fb[2] - 0.05, fb[3] + 0.05))
+            for i in {scene_at(s + 0.01), scene_at(max(s, e - 0.01))}:
+                for y0, y1 in clips[i].get("keep_clear", []):
+                    blocks.append((y0, y1, 0.0, 1.0))
+            for (ps, pe, py0, py1) in placed_boxes:
+                if ps < e and s < pe:
+                    blocks.append((py0 - 0.006, py1 + 0.006, 0.0, 1.0))
+            x0f, x1f = (W - cw) / 2 / W, (W + cw) / 2 / W
+            hf = ch / H
+
+            def clear(yc):
+                y0, y1 = yc - hf / 2, yc + hf / 2
+                return all(not (y0 < b1 and b0 < y1 and x0f < bx1 and bx0 < x1f) for b0, b1, bx0, bx1 in blocks)
+            cands = sorted({round(want + d * sgn, 3) for d in [k * 0.01 for k in range(0, 60)] for sgn in (1, -1)},
+                           key=lambda yc: abs(yc - want))
+            cands = [yc for yc in cands if 0.17 + hf / 2 <= yc <= 0.76 - hf / 2 or yc == want]
+            yc = next((c for c in cands if clear(c)), want)
+            if abs(yc - want) > 0.005:
+                print(f"   caption {j} '{cap['text'][:28]}': y {want:.2f} -> {yc:.2f} (face/keep-clear)")
+            placed_boxes.append((s, e, yc - hf / 2, yc + hf / 2))
+            y = int(H * yc - ch / 2)
             k = n + j
             inputs += ["-loop", "1", "-framerate", str(FPS), "-t", f"{total:.3f}", "-i", str(png)]
+            fade = float(cap.get("fade", 0.12))
             fx = ["format=rgba"]
-            if s > 0.01:
-                fx.append(f"fade=t=in:st={s:.3f}:d={CAP_FADE}:alpha=1")
-            if e < total - 0.01:
-                fx.append(f"fade=t=out:st={e - CAP_FADE:.3f}:d={CAP_FADE}:alpha=1")
+            if fade and s > 0.01:
+                fx.append(f"fade=t=in:st={s:.3f}:d={fade}:alpha=1")
+            if fade and e < total - 0.01:
+                fx.append(f"fade=t=out:st={e - fade:.3f}:d={fade}:alpha=1")
             g.append(f"[{k}:v]{','.join(fx)}[cp{j}]")
             g.append(f"[{vl}][cp{j}]overlay=0:{y}:eof_action=pass:enable='between(t,{s:.3f},{e:.3f})'[vc{j}]")
             vl = f"vc{j}"
 
-        next_in = n + len(edit.get("captions", []))
+        next_in = n + len(caps_all)
         A = "aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo"
 
         # voiceover: continuous mode plays the whole take once (natural flow); "lines" mode places
@@ -543,7 +666,7 @@ def build(edit_path, sheet_every=1.5, feed=True):
             outs.append(f45)
         outs.append(sheet(final, out_dir / f"{vid}_sheet.jpg", every=sheet_every))
         print(f"{vid}: {total:.2f}s, {n_content} clips" + (f" + end card '{card['name']}'" if card else "")
-              + f", {len(edit.get('captions', []))} captions")
+              + f", {len(caps_all)} captions")
         for i, (a, b) in enumerate(win):
             print(f"   clip {i}: {a:6.2f} - {b:6.2f}  {clips[i]['src']}")
         (out_dir / f"{vid}_timeline.json").write_text(json.dumps(

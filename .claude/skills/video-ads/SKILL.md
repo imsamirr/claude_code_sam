@@ -60,6 +60,41 @@ write keeps the winner's *angle and proof points* and moves it into the short na
 
 ## 3. Script → edit.json
 
+**Direct-response copy (user rule: aggressive DR).** Study the references (user's Atria links +
+`search_library_ads` with `order=best_match`, `active_since` last ~75 days, `min_days_running`
+14+, the category's pains as query) and read their transcripts. The structure that wins
+(Orthora nurse shoes, WideStep, Koprez, Stepprs, Wooten):
+1. **Callout hook** that names the audience and a command or warning: "If you're plus-size and going
+   to Disney, do not wear your gym sneakers." / "Nurses: don't make my mistake." / objection reply
+   ("I'd try them but they're too expensive" → "Well, it's your lucky day").
+2. **Agitate** with a specific, felt moment: "by hour five", "sit on the stairs just to get my shoes off".
+3. **Name the enemy**: running shoes, narrow toe boxes, memory foam that goes flat, $150 brand shoes.
+4. **Mechanism**: one feature per beat, each tied to the pain (wide toe box → room to swell).
+5. **Proof**: personal numbers (22,000 steps, 10,000 steps, 3 nurses on my floor), no unconfirmed counts.
+6. **Offer + urgency + hard CTA**: the current offer (Black Friday 60% off + 2 free gifts), "ends soon",
+   "stop scrolling and grab a pair", "tap the link before it's gone".
+Visual style: a hook header in the first second, VO-synced word-chunk subtitles (2–4 words) low in the
+frame, a cut every 1.5–3 s, a big callout (score, offer, "ENDS SOON") on key beats.
+
+**Subtitles from the voiceover**: in `voiceover` add `"lines": [...]` (one string per scene, the exact
+words, numbers as digits) and `"sub": {"style": "box", "size": 58, "y": 0.68, "max_words": 4}`; the
+engine times chunks to the speech of each line. Pass `"segments"` explicitly when short beats
+("Hokas, four out of ten.") would confuse automatic sentence detection.
+
+**Scenes (user rules)**: no source clip appears in more than one ad of the batch; run
+`python ads/video/check_batch.py ads/brands/<brand>/video/<week>/` before rendering. Build a big
+enough pool first (triage the brand's B-roll folders: creators with full scene sets — pain, shoes
+off, putting on, car, at work — make the strongest testimonials).
+**Text never covers the main elements (user rule)**: captions are moved off faces automatically (OpenCV
+face detection, `pip install opencv-python-headless==4.10.0.84`; OpenCV 5 lacks the detector), off
+other captions, and off a clip's `"keep_clear": [[y0, y1]]` bands (use for the product). Still read
+the QA strip for eyes, product and action.
+**Blur competitor branding (user rule: always blur Skechers logos/markings)**: per clip
+`"blur": [{"box": [x0, y0, x1, y1], "t": [a, b], "strength": 28}]` (fractions of the 1080×1920
+frame, optional seconds within the clip). Find the logo on gridded frames
+(`drawgrid=w=108:h=192`) over the chosen window, prefer windows where the logo stays put, and check
+the render frame by frame.
+
 - **Angle** from the winner + persona from brand.json. **Format** from the inspo list above.
 - 15–20s, 6–9 cuts. **Hook in the first frame** (strongest visual + caption visible at t=0).
   Order: problem (1–2 cuts) → turn ("so I switched…") → product proof on the body (2–3 cuts, one
