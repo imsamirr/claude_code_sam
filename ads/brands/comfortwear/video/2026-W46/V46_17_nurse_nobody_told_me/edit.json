@@ -1,6 +1,6 @@
 {
   "id": "V46_17_nurse_nobody_told_me",
-  "version": 1,
+  "version": 2,
   "created": "2026-11-13",
   "end_card": "auto",
   "transition": "fade",
@@ -58,12 +58,13 @@
         0,
         2
       ],
-      "style": "box",
+      "style": "classic",
       "y": 0.45,
-      "size": 44,
-      "width": 0.84,
+      "size": 50,
+      "width": 0.86,
       "fade": 0,
-      "text": "Nobody told me running shoes are made for running… not for standing on concrete for 12 hours 🫠 I stopped buying a new $150 pair every 2 months and switched to these stretchy ones"
+      "text": "Nobody told me running shoes are made for running… not for standing on concrete for 12 hours 🫠 I stopped buying a new $150 pair every 2 months and switched to these stretchy ones",
+      "font": "classic"
     }
   ],
   "persona": "nurse",
@@ -71,5 +72,6 @@
   "primary_text": "\"$180 Hokas. $150 Brooks. All in my closet, done after two months.\"\n\nRunning shoes are built for running. Nurses stand and walk on concrete for 12 hours.\n\n👣 Wide toe box for feet that swell by hour 8\n🦶 Arch support + cushioned heels\n🛡️ Slip-resistant soles for hospital floors\n\nStop wasting money on the wrong shoe. Tap 'Shop Now'.",
   "headline": "Nurse Shoes Made For 12-Hour Shifts",
   "cta": "SHOP_NOW",
-  "link": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers"
+  "link": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+  "caption_style": "TikTok Classic-font white text with thin outline (Flo Pilates 'Nobody told me…')"
 }

@@ -1,6 +1,6 @@
 {
   "id": "V46_12_airport_fashion_icon",
-  "version": 1,
+  "version": 2,
   "created": "2026-11-13",
   "end_card": "auto",
   "transition": "fade",
@@ -61,12 +61,13 @@
         0,
         3
       ],
-      "style": "box",
+      "style": "shadow",
       "y": 0.42,
-      "size": 44,
-      "width": 0.84,
+      "size": 42,
+      "width": 0.8,
       "fade": 0,
-      "text": "I may never be an airport fashion icon… but my feet survived terminal B to terminal F babe 💋"
+      "text": "I may never be an airport fashion icon… but my feet survived terminal B to terminal F babe 💋",
+      "weight": "Medium"
     }
   ],
   "persona": "travel",
@@ -74,5 +75,6 @@
   "primary_text": "Gate change. Terminal B to terminal F. My feet: unbothered 💋\n\n✈️ All-day comfort for long flights and longer layovers\n🦶 Arch support + cushioning that doesn't quit at hour 8\n🌬️ Breathable, lightweight stretch knit\n\nTravel smart. Travel comfortably. Tap 'Shop Now'.",
   "headline": "2026's Favorite Shoes For Traveling",
   "cta": "SHOP_NOW",
-  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer"
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+  "caption_style": "plain white text, soft shadow, no box (Groove Pillow 'Heard you were looking…')"
 }

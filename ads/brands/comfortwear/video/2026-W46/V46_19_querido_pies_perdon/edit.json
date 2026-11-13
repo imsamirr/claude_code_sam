@@ -1,6 +1,6 @@
 {
   "id": "V46_19_querido_pies_perdon",
-  "version": 1,
+  "version": 2,
   "created": "2026-11-13",
   "end_card": "auto",
   "transition": "fade",
@@ -64,12 +64,13 @@
         0,
         2
       ],
-      "style": "box",
+      "style": "shadow",
       "y": 0.45,
-      "size": 44,
-      "width": 0.84,
+      "size": 40,
+      "width": 0.8,
       "fade": 0,
-      "text": "Queridos pies: perdón por tantos turnos de 12 horas en tenis de correr 😔 ya les compré unos elásticos que sí aguantan todo el turno ❤️ perdón por tardar tanto"
+      "text": "Queridos pies: perdón por tantos turnos de 12 horas en tenis de correr 😔 ya les compré unos elásticos que sí aguantan todo el turno ❤️ perdón por tardar tanto",
+      "weight": "SemiBold"
     }
   ],
   "persona": "nurse_es",
@@ -78,5 +79,6 @@
   "headline": "Los zapatos de enfermería favoritos de 2026",
   "cta": "SHOP_NOW",
   "link": "https://comfortorthowear.com/pages/los-5-mejores-zapatos-para-maestros-y-educadores",
-  "lang": "es"
+  "lang": "es",
+  "caption_style": "small plain white letter text with shadow (KatKin 'I'm so sorry we ignored the signs')"
 }

@@ -1,6 +1,6 @@
 {
   "id": "V46_11_rome_only_shoes_packed",
-  "version": 1,
+  "version": 2,
   "created": "2026-11-13",
   "end_card": "auto",
   "transition": "fade",
@@ -55,7 +55,7 @@
         0,
         2
       ],
-      "style": "box",
+      "style": "glass",
       "y": 0.25,
       "size": 44,
       "width": 0.84,
@@ -68,5 +68,6 @@
   "primary_text": "Packed ONE pair of shoes for 10 days in Rome. Zero regrets 😂\n\n✈️ All-day comfort from the flight to the cobblestones\n🦶 Arch support + cushioning for 20,000-step days\n🌬️ Breathable stretch knit that moves with your feet\n\nTravel smart. Travel comfortably. Tap 'Shop Now'.",
   "headline": "2026's Favorite Shoes For Traveling",
   "cta": "SHOP_NOW",
-  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer"
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+  "caption_style": "translucent dark box (TikTok's dark text background)"
 }

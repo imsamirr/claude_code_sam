@@ -1,6 +1,6 @@
 {
   "id": "V46_18_charge_nurse_asked",
-  "version": 1,
+  "version": 2,
   "created": "2026-11-13",
   "end_card": "auto",
   "transition": "fade",
@@ -63,9 +63,10 @@
       "style": "box",
       "y": 0.3,
       "size": 44,
-      "width": 0.84,
+      "width": 0.4,
       "fade": 0,
-      "text": "My charge nurse asked why I'm not limping to my car after 12s anymore 👀\n\nit's the shoes, Linda. it was always the shoes 😮‍💨"
+      "text": "My charge nurse asked why I'm not limping to my car after 12s anymore 👀\n\nit's the shoes, Linda. it was always the shoes 😮‍💨",
+      "x": 0.73
     }
   ],
   "persona": "nurse",
@@ -73,5 +74,6 @@
   "primary_text": "\"I've worn the popular shoes. They always ended up hurting my feet after three 12s in a row. These are by far the most comfortable.\"\n\n👣 Wide toe box for long shifts\n🦶 Arch support + cushioning that holds up on concrete\n🛡️ Slip-resistant, a must on hospital floors\n\nAnd affordable on a nurse's paycheck. Tap 'Shop Now'.",
   "headline": "Nurse Shoes That Survive The 12-Hour Shift",
   "cta": "SHOP_NOW",
-  "link": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers"
+  "link": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+  "caption_style": "narrow column of per-line white boxes beside the subject (Hug Sleep Pod 'when someone's kid…')"
 }

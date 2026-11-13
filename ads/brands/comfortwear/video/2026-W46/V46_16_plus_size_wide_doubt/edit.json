@@ -1,6 +1,6 @@
 {
   "id": "V46_16_plus_size_wide_doubt",
-  "version": 1,
+  "version": 2,
   "created": "2026-11-13",
   "end_card": "auto",
   "transition": "fade",
@@ -52,12 +52,13 @@
         0,
         2
       ],
-      "style": "box",
+      "style": "outline",
       "y": 0.25,
-      "size": 44,
+      "size": 50,
       "width": 0.84,
       "fade": 0,
-      "text": "\"cute sneakers just don't come in wide\" 🙄\n\nme at the parks after switching to stretchy Comfort Wears:"
+      "text": "\"cute sneakers just don't come in wide\" 🙄\n\nme at the parks after switching to stretchy Comfort Wears:",
+      "weight": "Black"
     }
   ],
   "persona": "plus_size_disney",
@@ -65,5 +66,6 @@
   "primary_text": "Wide feet, cute shoes, 9 hours at the parks. All three 💅\n\nYour regular 'comfy sneakers' feel fine at breakfast. Hour 8 is a different story.\n\n👣 Wide toe box gives your toes room instead of squeezing them\n🦶 Supportive cushioning for hours of walking and standing\n☀️ Roomier, breathable fit for when feet swell after a long day\n\nTap 'Shop Now' before your next trip.",
   "headline": "2026's Favorite Shoes For Plus-Sized Traveling",
   "cta": "SHOP_NOW",
-  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer"
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+  "caption_style": "heavy white meme text with black stroke (reaction-meme look, Speak/Crown & Paw)"
 }

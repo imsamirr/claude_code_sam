@@ -1,6 +1,6 @@
 {
   "id": "V46_13_pro_tip_vacation_shoes",
-  "version": 1,
+  "version": 2,
   "created": "2026-11-13",
   "end_card": "auto",
   "transition": "fade",
@@ -71,12 +71,14 @@
         0,
         2
       ],
-      "style": "box",
+      "style": "serif",
       "y": 0.4,
-      "size": 44,
-      "width": 0.84,
+      "size": 56,
+      "width": 0.82,
       "fade": 0,
-      "text": "Pro tip: don't debut stiff new shoes on vacation 🧳 pack stretchy ones that feel broken in from day one. it saves your trip AND your mood 😂"
+      "text": "Pro tip: don't debut stiff new shoes on vacation 🧳 pack stretchy ones that feel broken in from day one. it saves your trip AND your mood 😂",
+      "font": "serif",
+      "weight": "SemiBold"
     }
   ],
   "persona": "travel",
@@ -84,5 +86,6 @@
   "primary_text": "Learned this one the hard way at the airport 🙃\n\n✈️ Comfortable from the first step, no break-in week\n🦶 Arch support + cushioning for all-day sightseeing\n🌬️ Breathable stretch knit for hot days and swollen feet\n\nTravel smart. Travel comfortably. Tap 'Shop Now'.",
   "headline": "2026's Favorite Shoes For Traveling",
   "cta": "SHOP_NOW",
-  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer"
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+  "caption_style": "serif white text with soft shadow (Savannah Bell 'Pro tip:', Instagram Classic)"
 }

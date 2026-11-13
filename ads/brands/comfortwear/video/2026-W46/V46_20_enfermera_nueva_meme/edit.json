@@ -1,6 +1,6 @@
 {
   "id": "V46_20_enfermera_nueva_meme",
-  "version": 1,
+  "version": 2,
   "created": "2026-11-13",
   "end_card": "auto",
   "transition": "fade",
@@ -58,12 +58,15 @@
         0,
         2
       ],
-      "style": "box",
+      "style": "classic",
       "y": 0.55,
-      "size": 44,
+      "size": 50,
       "width": 0.84,
       "fade": 0,
-      "text": "Mi cara cuando la enfermera nueva llega a su primer turno de 12 horas con tenis de correr nuevecitos 👀 mija, para la hora 4 me vas a pedir el link"
+      "text": "Mi cara cuando la enfermera nueva llega a su primer turno de 12 horas con tenis de correr nuevecitos 👀 mija, para la hora 4 me vas a pedir el link",
+      "font": "classic",
+      "weight": "SemiBold",
+      "lower": true
     }
   ],
   "persona": "nurse_es",
@@ -72,5 +75,6 @@
   "headline": "Los zapatos de enfermería favoritos de 2026",
   "cta": "SHOP_NOW",
   "link": "https://comfortorthowear.com/pages/los-5-mejores-zapatos-para-maestros-y-educadores",
-  "lang": "es"
+  "lang": "es",
+  "caption_style": "lowercase TikTok Classic-font meme caption with thin outline (casual reaction-meme look)"
 }

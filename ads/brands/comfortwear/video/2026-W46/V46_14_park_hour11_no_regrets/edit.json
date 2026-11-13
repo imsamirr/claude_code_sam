@@ -1,6 +1,6 @@
 {
   "id": "V46_14_park_hour11_no_regrets",
-  "version": 1,
+  "version": 2,
   "created": "2026-11-13",
   "end_card": "auto",
   "transition": "fade",
@@ -54,12 +54,13 @@
         0,
         3
       ],
-      "style": "box",
+      "style": "shadow",
       "y": 0.3,
-      "size": 44,
-      "width": 0.84,
+      "size": 50,
+      "width": 0.86,
       "fade": 0,
-      "text": "Me at hour 11 of park day knowing my feet won't be wrecked tomorrow because I wore my stretchy Comfort Wears instead of my cute-but-evil sneakers 💅"
+      "text": "Me at hour 11 of park day knowing my feet won't be wrecked tomorrow because I wore my stretchy Comfort Wears instead of my cute-but-evil sneakers 💅",
+      "font": "helvetica"
     }
   ],
   "persona": "disney",
@@ -67,5 +68,6 @@
   "primary_text": "Hour 11. Still dancing. Feet still fine tomorrow 💅\n\nCobblestones, lines, staircases… a park day is 8, 9, 10 hours on your feet. Gym sneakers weren't built for that.\n\n👣 Wide toe box so feet have room when they swell\n🦶 Arch support + cushioning for all-day walking\n🌬️ Breathable stretch knit that slips right on\n\nTap 'Shop Now' before your next park day.",
   "headline": "2026's Favorite Shoes For Traveling",
   "cta": "SHOP_NOW",
-  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer"
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+  "caption_style": "bold Helvetica-style white text with drop shadow (Happy Tuesdays 'Me in the rave knowing…')"
 }
