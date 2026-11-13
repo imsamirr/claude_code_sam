@@ -206,6 +206,15 @@ and Read them. Fix and re-render anything with:
 
 ## 6. Deliver
 
+**Drive upload (user rule: finished videos go to the brand's Drive video folder,
+`brand.json` → `video.drive_folder_id`).** The Drive connector caps each call at ~3 MB, so upload
+with the Drive API instead (uses `GDRIVE_CLIENT_ID/SECRET/REFRESH_TOKEN` from the environment,
+resumable, shared drives OK, re-run safe):
+```bash
+W=$(python ads/video/drive_upload.py <drive_folder_id> --mkdir "<YYYY>-W<ww>")
+python ads/video/drive_upload.py $W ads/brands/<brand>/video/<week>/*/V*.mp4      # 9:16 + 4:5
+```
+
 1. Commit the ad folder (edit.json + renders) and `footage.csv`; push to the working branch.
 2. `SendUserFile` the 9:16 MP4 (`display: render`) and the sheet; in the message give: the
    script (shot → caption table), source winner + inspo it borrows from, primary text/headline,
