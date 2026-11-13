@@ -1,0 +1,131 @@
+{
+  "id": "V46_03_enfermeras_meme",
+  "version": 2,
+  "created": "2026-11-13",
+  "end_card": "auto",
+  "end_card_seconds": 5.0,
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "persona": "nurse",
+  "lang": "es",
+  "colorway": "black_purple / black_mint (owned nurse b-roll)",
+  "angle": "Nurses wearing running shoes for 12-hour shifts vs. shoes made FOR nurses (wide toe box, arch support, slip-resistant sole); pick up an extra shift without dread.",
+  "format": "meme flip (Dr. Woof 'Vets wearing scrubs made for human med 💀 -> us: made FOR VETS 💅'), Spanish on-screen text only, nurse music bed, 6 scenes + end card",
+  "based_on": "Top-5 winner #2 TOFV1_HI16 COM225 Kyro390 Spanish 'Los Hoka 3 de 10… los diseñamos para enfermeras que hacen turnos de 12 horas' ($3,448, 1.93 ROAS, last 14d). Same angle (running shoes vs. made for nurses) and proof points (punta ancha, soporte de arco, antideslizante, turno extra) in the meme-flip format.",
+  "music": {
+    "file": "vo/music_nurse_bed.mp3",
+    "gain": 0.5,
+    "duck": false,
+    "start": 2.0
+  },
+  "sources": {
+    "catch": "drive:1qXUZEF3G--0Np14ps2YQ2vzaEd89Slkv",
+    "puton": "drive:12dl74gmGt7qfWUTgR-I9OzTW3LTvjPn9",
+    "dance": "drive:1SgYMsXASVe5hy0ZQ663GkHq8UH6FgLFi",
+    "selfie": "drive:1t4VX9PJE9yh_940o0SGxmgvCuxg5llNI",
+    "pain2": "drive:1oWG6cslbaVVQRO0_lBVl1laGYxBCy8MQ",
+    "walkhappy": "drive:1h_sa7xMHg3j7jUDxvW-pMkoOsMCH1QOE"
+  },
+  "source_notes": {
+    "catch": "MISC B-ROLL/Nurses/Broll nurse happily catching CW shoes .MOV",
+    "puton": "MISC B-ROLL/Nurses/Broll nurse happily putting on CW shoes.MOV",
+    "dance": "MISC B-ROLL/Nurses/Broll nurse dancing in CW shoes.MOV",
+    "selfie": "MISC B-ROLL/Nurses/Broll nurse doing mirror selfie in CW shoes.MOV",
+    "pain2": "MISC B-ROLL/Nurses/Broll nurse in pain while massaging foot.MOV",
+    "walkhappy": "MISC B-ROLL/Nurses/Broll nurse happily walkig outside w/ the CW shoes on.MOV"
+  },
+  "clips": [
+    {
+      "src": "pain2",
+      "in": 2.0,
+      "out": 5.0,
+      "gain": 0
+    },
+    {
+      "src": "catch",
+      "in": 3.4,
+      "out": 5.6,
+      "gain": 0
+    },
+    {
+      "src": "selfie",
+      "in": 0.0,
+      "out": 2.7,
+      "gain": 0
+    },
+    {
+      "src": "puton",
+      "in": 4.5,
+      "out": 7.6,
+      "gain": 0
+    },
+    {
+      "src": "walkhappy",
+      "in": 4.0,
+      "out": 7.0,
+      "gain": 0
+    },
+    {
+      "src": "dance",
+      "in": 3.0,
+      "out": 6.0,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clip": 0,
+      "text": "Enfermeras en turnos de 12 horas con tenis de correr 💀",
+      "style": "box",
+      "y": 0.3,
+      "size": 64,
+      "width": 0.88
+    },
+    {
+      "clip": 1,
+      "text": "nosotras:",
+      "style": "box",
+      "y": 0.3,
+      "size": 84,
+      "width": 0.88
+    },
+    {
+      "clip": 2,
+      "text": "tenis hechos PARA ENFERMERAS 💅",
+      "style": "box",
+      "y": 0.3,
+      "size": 64,
+      "width": 0.88
+    },
+    {
+      "clip": 3,
+      "text": "punta ancha ✔️ soporte de arco ✔️ suela antideslizante ✔️",
+      "style": "box",
+      "y": 0.3,
+      "size": 64,
+      "width": 0.88
+    },
+    {
+      "clip": 4,
+      "text": "¿turno extra? sin miedo 😌",
+      "style": "box",
+      "y": 0.3,
+      "size": 64,
+      "width": 0.88
+    },
+    {
+      "clip": 5,
+      "text": "nosotras en la hora 12 💃",
+      "style": "box",
+      "y": 0.3,
+      "size": 64,
+      "width": 0.88
+    }
+  ],
+  "primary_text": "Los tenis para correr no están hechos para turnos de 12 horas. Los nuestros sí. 💅\n\n✅ Punta ancha para que el pie no se apriete\n✅ Soporte de arco de verdad\n✅ Suela antideslizante para el piso del hospital\n\n¡Compra ahora!",
+  "headline": "Los tenis de enfermería favoritos de 2026",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/los-5-mejores-zapatos-para-maestros-y-educadores",
+  "note": "End card is the English Black Friday card (no Spanish card supplied)."
+}

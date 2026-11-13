@@ -1,0 +1,176 @@
+{
+  "id": "V46_06_best_12_hour_shift_shoes",
+  "version": 2,
+  "created": "2026-11-13",
+  "end_card": "auto",
+  "end_card_seconds": 5.0,
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "persona": "nurse",
+  "colorway": "black_purple",
+  "angle": "Best 12-hour shift shoes: wide toe box, arch support, 12-hour comfort (the static's three icons), on real nurses.",
+  "format": "product demo with feature pills (LuxeLight 'Why did I not get this sooner' demo + the static's 3 icons), natural VO (Harper) + low ducked music bed, 5 scenes + end card (offer lives on the end card)",
+  "based_on": "Top-5 winner #5 RTGv1_H3 static Ortho-Stretch-Cushion-Shoe-#753_2 'FLASH SALE! Best 12-hour shift shoes / Wide toe-box / Arch support / 12-hour comfort / 40% off + free shipping' ($1,222, 2.93 ROAS, last 14d). Static -> video: same headline and three proof points; the Black Friday end card carries the offer.",
+  "voiceover": {
+    "file": "vo/harper_natural.mp3",
+    "mode": "continuous",
+    "tempo": 1.0,
+    "lead": 0.15,
+    "tail": 0.4,
+    "segments": [
+      [
+        0.0,
+        3.63
+      ],
+      [
+        4.28,
+        7.25
+      ],
+      [
+        8.55,
+        10.95
+      ],
+      [
+        11.46,
+        13.86
+      ],
+      [
+        14.13,
+        15.71
+      ]
+    ],
+    "script": "Okay, if you're looking for the best twelve-hour shift shoes, it's these. The toe box is wide, so your toes can actually spread out. There's real arch support under every single step. And they're still comfy from your first patient to your last. Seriously, your feet will thank you."
+  },
+  "music": {
+    "file": "vo/music_nurse_bed.mp3",
+    "gain": 0.15,
+    "duck": true,
+    "start": 3.0
+  },
+  "sources": {
+    "features": "drive:1owdM16_KfPBA7iiTDFZ0HA3l0Faza8Wg",
+    "wheelchair": "drive:1RxhkrmN8z52-SyB3a9GTLB4Z8YiiR16M",
+    "showoff2": "drive:1xVPox0G4KOi8ZhOMuUcI5RfZng-aForC",
+    "feet": "drive:1AaPJqkGPcZb5_2DRABlOQ-r_G4ChJ_HQ"
+  },
+  "source_notes": {
+    "features": "2025/Larissa content/showing shoe features.MOV (black/purple)",
+    "wheelchair": "MISC B-ROLL/Nurses/Broll nurse pushing an elderly in a wheelchair while wearing CW shoes.MOV",
+    "showoff2": "MISC B-ROLL/Nurses/Broll nurse happily showing off CW shoes while holding it.MOV",
+    "feet": "MISC B-ROLL/Nurses/Broll nurse in CW shoes doing tiptoe, hop, walk in place .MOV (burgundy)"
+  },
+  "clips": [
+    {
+      "src": "showoff2",
+      "in": 1.0,
+      "out": 6.0,
+      "gain": 0
+    },
+    {
+      "src": "features",
+      "in": 7.8,
+      "out": 12.0,
+      "gain": 0
+    },
+    {
+      "src": "features",
+      "in": 1.8,
+      "out": 5.5,
+      "gain": 0
+    },
+    {
+      "src": "wheelchair",
+      "in": 3.0,
+      "out": 8.0,
+      "gain": 0
+    },
+    {
+      "src": "feet",
+      "in": 18.0,
+      "out": 22.0,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        4
+      ],
+      "text": "Best 12-hour shift shoes 👟",
+      "style": "dark",
+      "y": 0.205,
+      "size": 60,
+      "width": 0.94
+    },
+    {
+      "clip": 0,
+      "text": "looking for the best 12-hour shift shoes? it's these 👇",
+      "style": "box",
+      "y": 0.68,
+      "size": 64,
+      "width": 0.88
+    },
+    {
+      "clip": 1,
+      "text": "WIDE TOE-BOX",
+      "style": "brand",
+      "y": 0.31,
+      "size": 58,
+      "width": 0.88
+    },
+    {
+      "clip": 1,
+      "text": "so your toes can actually spread out",
+      "style": "box",
+      "y": 0.7,
+      "size": 64,
+      "width": 0.88
+    },
+    {
+      "clip": 2,
+      "text": "ARCH SUPPORT",
+      "style": "brand",
+      "y": 0.31,
+      "size": 58,
+      "width": 0.88
+    },
+    {
+      "clip": 2,
+      "text": "under every single step",
+      "style": "box",
+      "y": 0.7,
+      "size": 64,
+      "width": 0.88
+    },
+    {
+      "clip": 3,
+      "text": "12-HOUR COMFORT",
+      "style": "brand",
+      "y": 0.31,
+      "size": 58,
+      "width": 0.88
+    },
+    {
+      "clip": 3,
+      "text": "from your first patient to your last",
+      "style": "box",
+      "y": 0.7,
+      "size": 64,
+      "width": 0.88
+    },
+    {
+      "clip": 4,
+      "text": "your feet will thank you 🫶",
+      "style": "box",
+      "y": 0.4,
+      "size": 64,
+      "width": 0.88
+    }
+  ],
+  "primary_text": "The best 12-hour shift shoes, now in our Black Friday sale.\n\n👟 Wide toe-box: room for your toes to spread\n🦶 Arch support under every step\n⏱️ 12-hour comfort, first patient to last\n\nTap 'Shop Now'!",
+  "headline": "Best 12-Hour Shift Shoes",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1"
+}
