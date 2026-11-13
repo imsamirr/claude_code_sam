@@ -1,0 +1,56 @@
+{
+ "week": "2026-W44-quality-test",
+ "concepts": [
+  {
+   "id": "Q44_01_den_macro_film",
+   "group": "test",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "style": "ugc",
+   "no_product": true,
+   "angle": "Real phone macro photo of a 'clean' denture with visible yellow film and a glass of murky water (gross macro, minimal text)",
+   "based_on": "Curated inspiration (Oct 28): macro/gross real photo with one direct line (e.g. real tongue photo 'Say goodbye to bad breath in 7 days', top 1-4%); feedback 'You could still see food on the denture', 'denture lost its whiteness'",
+   "headline": "You brush them. You soak them. This is still on them.",
+   "prompt": "Unedited phone photo taken at a bathroom sink under a harsh vanity light: an older person's real hand (visible wrinkles, age spots, a plain wedding band) holds a set of upper dentures with natural pink acrylic gums, up close to the camera so yellow-brown film and stain in the tooth grooves and along the gum line is clearly visible; on the sink edge a glass of cloudy water with a dissolved blue tablet residue. Shallow natural focus, slightly imperfect framing. A plain white Inter SemiBold caption with a soft shadow across the lower third: \"You brush them. You soak them. This is still on them.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. Typography: Inter (clean modern grotesque sans), never serif, script or rounded display fonts."
+  },
+  {
+   "id": "Q44_02_den_offer_40_sitewide",
+   "group": "test",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "angle": "Giant repeated 40% OFF type (our best-ROAS static) with the Pod + free dental case and travel bag, current offer exactly",
+   "based_on": "Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $378 spend, ROAS 3.04; lifetime $11.9K, ROAS 3.3); curated inspiration: giant repeated sale type behind one product",
+   "headline": "40% OFF sitewide + free shipping",
+   "prompt": "A real product photograph on a seamless pale-blue studio backdrop (#E1EDF5) with soft natural shadows: the DentalPULSE Pod Denture Bundle from the reference photo, the white Pod large in the center, the small black zip travel bag and the small smoky dark-grey denture case at its base, both clearly much smaller than the Pod. Behind the product, giant repeated bold condensed numerals \"40% OFF\" in Barlow Bold stacked three times, the top one solid blue #1188FF and the lower two fading to pale. At the bottom a navy #0E283C Inter Bold line: \"40% OFF sitewide + free shipping\" and under it in Inter Regular: \"Free dental case + free travel bag. 120-day money-back guarantee.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. Typography: Inter (clean modern grotesque sans), never serif, script or rounded display fonts."
+  },
+  {
+   "id": "Q44_03_ng_yellow_macro",
+   "group": "test",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "angle": "Real macro photo of a yellowed, cloudy night guard next to the cleaner, direct-response headline (yellow = bacteria + film, prevention framing)",
+   "based_on": "Feedback: night guard 'gross yellow and cloudy' (68% of NG buyers cite yellow); curated inspiration: real photo + plain caption authority/pain format; no promise to reverse set-in yellow",
+   "headline": "That yellow film on your night guard is bacteria. Brushing can't reach it.",
+   "prompt": "Real lifestyle product photograph on a marble bathroom counter in soft window light: in the foreground a used clear night guard with a yellowed, cloudy film and tiny scratches, in sharp macro detail; behind it, slightly out of focus, the white DentalPULSE Pod from the reference photo with its lid open. Natural color, subtle film grain, no glow. Headline in Inter Bold navy #0E283C on a clean pale area at the top: \"That yellow film on your night guard is bacteria. Brushing can't reach it.\" and a small Inter Medium line at the bottom: \"Ultrasonic cleaner. 5 minutes. Tap water only.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. Typography: Inter (clean modern grotesque sans), never serif, script or rounded display fonts."
+  },
+  {
+   "id": "Q44_04_al_callouts",
+   "group": "test",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "angle": "Pop On-style product callouts on a real photo: cloudy aligner film = bacteria; four approved-claim callouts",
+   "based_on": "Curated inspiration: spec-callout product shot (supplement bottle with ingredient callouts); feedback: aligner 'white film', 'No white film!' (aligner buyers 4.17 avg, bacteria 83%)",
+   "headline": "Cloudy aligners? That white film is bacteria.",
+   "prompt": "Realistic product photograph on a bright white bathroom shelf: the white DentalPULSE Pod from the reference photo with its lid open and a pair of clear aligner trays resting in the stainless steel basin, in soft natural window light with a gentle real shadow. Four thin navy callout lines from the product to small white rounded labels set in Inter Medium: \"Eliminates 99.9% of bacteria\", \"No white film\", \"No brushing, no tablets\", \"One 5-minute cycle\". Headline across the top in Inter Bold navy #0E283C: \"Cloudy aligners? That white film is bacteria.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text anywhere, no logos, no competitor names. Typography: Inter (clean modern grotesque sans), never serif, script or rounded display fonts."
+  }
+ ],
+ "notes": "Oct 28 quality test under the new realism/typography/no-cartoon rules; not a production batch."
+}

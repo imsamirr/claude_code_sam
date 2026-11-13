@@ -1,0 +1,337 @@
+{
+ "week": "2026-W43-tue",
+ "notes": "Tuesday iteration batch: only iterations of Atria current winners (last 30 days, spend>=$300, ROAS>=1.8) and last October's top-spend seasonal ads. 'podiatrist/expert recommended', review counts and free-returns wording dropped.",
+ "concepts": [
+  {
+   "id": "T43_01_nurse_pf_locker_sticky_offer",
+   "persona": "nurse",
+   "lang": "en",
+   "colorway": "black_purple",
+   "benchmark": "warehouse_urgency",
+   "angle": "Emily RN plantar-fasciitis nurse video → lo-fi photo of a hospital locker covered in handwritten sticky notes carrying the full offer stack",
+   "based_on": "RTGv1_B6 | 203_Iteration_UGC_OrthoStretch_H1 nurse plantar fasciitis video ($4,064, 2.92 ROAS)",
+   "headline": "Nurse with plantar fasciitis? Read this.",
+   "prompt": "Real, slightly lo-fi phone photo of a grey hospital staff locker door in a corridor, softly blurred background. Across the top on the dark locker, a very large heavy white headline in 2 lines: \"Nurse with plantar fasciitis? Read this.\" Three big square yellow sticky notes stuck slightly crooked on the locker, each handwritten in thick black marker, one line each: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". On the floor in front of the locker, a pair of the shoe from the reference photo, large (about 45% of the frame), sharp knit texture, one shoe angled to show the side profile. All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the third sticky note (FREE SHIPPING) from the locker. Keep everything else identical.",
+      "ms": 900
+     },
+     {
+      "edit": "Also remove the second sticky note (30-DAY MONEY-BACK GUARANTEE). Keep everything else identical.",
+      "ms": 900
+     }
+    ]
+   },
+   "group": "iteration"
+  },
+  {
+   "id": "T43_02_nurse_heel_pressure_map",
+   "persona": "nurse",
+   "lang": "en",
+   "colorway": "navy_blue",
+   "benchmark": "anatomy_split",
+   "angle": "Nurse plantar-fasciitis testimonial → foot-scan pressure map vs shoe split (mechanism format)",
+   "based_on": "RTGv1_B3 | Kyro_293_3_V2 nurse plantar fasciitis video ($2,171, 3.12 ROAS)",
+   "headline": "12 hours on your heels.",
+   "prompt": "Clean light-grey studio background. One very large heavy deep-navy headline across the width in 2 lines: \"12 hours on your heels.\" Left half: a bare-foot pressure scan illustration of a sole with the heel glowing hot red-orange and the ball of the foot yellow, under it a large bold label \"Hour 12 heel\". A thin vertical divider. Right half: the shoe from the reference photo in large side profile (about 40% of the frame) with two thick black hand-drawn curved arrows pointing at the heel and the arch, labels in large bold black: \"Cushioned heel\" and \"Arch support\". Nothing else. All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "group": "iteration"
+  },
+  {
+   "id": "T43_03_es_nurse_texts_talones",
+   "persona": "nurse",
+   "lang": "es",
+   "colorway": "all_black",
+   "benchmark": "comments_social",
+   "angle": "Spanish nurse favorite-shoes video → native iMessage thread between two nurses about heel pain, shoe photo below",
+   "based_on": "TOFV1_HI16 | Nurse | COM225_Kyro390 Spanish version video ($2,229, 2.16 ROAS)",
+   "headline": "¿Talones adoloridos después del turno?",
+   "prompt": "Clean white background. Very large heavy black headline across the top in 2 lines: \"¿Talones adoloridos después del turno?\" Below it, an iPhone Messages-style thread (no carrier, no logo) with two large chat bubbles, big bold text: a grey bubble on the left \"Ya no. Pruébate estos.\" and a blue bubble with white text on the right \"¡Mándame el link!\". Under the thread, a pair of the shoe from the reference photo, large (about 45% of the frame), sharp knit texture, on a light surface with a soft shadow. All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the blue chat bubble. Keep everything else identical.",
+      "ms": 900
+     },
+     {
+      "edit": "Also remove the grey chat bubble. Keep everything else identical.",
+      "ms": 900
+     }
+    ]
+   },
+   "group": "iteration"
+  },
+  {
+   "id": "T43_04_nurse_search_bar_stop_searching",
+   "persona": "nurse",
+   "lang": "en",
+   "colorway": "black_white",
+   "benchmark": "list_white",
+   "angle": "Nurse plantar-fasciitis testimonial → search-bar autocomplete 'best shoes for nurses with plantar fasciitis' answered by the shoe",
+   "based_on": "INT_05.28.26_Nurse Page_Kyro390v1_H5 nurse plantar fasciitis video ($3,550, 1.91 ROAS)",
+   "headline": "Nurses: stop searching.",
+   "prompt": "Soft white-to-lavender gradient background. At the top, a big rounded white search bar with a thin grey border and a magnifier icon (generic, no logo) containing large bold black text: \"best shoes for plantar fasciitis nurse\". Under it, a very large heavy black headline: \"Nurses: stop searching.\" Below, a pair of the shoe from the reference photo as the hero (about 50% of the frame, true proportions, sharp knit texture, soft floor shadow). One solid black rounded pill under the shoe with white large bold text \"12-hour comfort\". All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the black pill under the shoe. Keep everything else identical.",
+      "ms": 900
+     },
+     {
+      "edit": "Also remove the headline 'Nurses: stop searching.' Keep everything else identical.",
+      "ms": 900
+     }
+    ]
+   },
+   "group": "iteration"
+  },
+  {
+   "id": "T43_05_plus_nurse_receipt_offer",
+   "persona": "plus_size",
+   "lang": "en",
+   "colorway": "all_black",
+   "benchmark": "pills_offer_studio",
+   "angle": "Static '40% OFF TODAY + FREE shipping' offer → thermal-receipt format with the offer stack as line items, plus-size nurse heel-pain lead",
+   "based_on": "RTGv1_H3 | Ortho-Stretch-Cushion-Shoe-#753_2.jpg static ($2,560, 2.81 ROAS)",
+   "headline": "Heel pain at my size? Not on shift.",
+   "prompt": "Warm light-grey tabletop. Very large heavy black headline across the top in 2 lines: \"Heel pain at my size? Not on shift.\" On the left, a long white thermal-paper receipt slightly curled, line items in large bold black monospace text, one per line: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\", and a bold last line \"TOTAL: HAPPY FEET\". On the right, a pair of the shoe from the reference photo, large (about 45% of the frame), sharp knit texture, standing on the table. All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the last receipt line 'TOTAL: HAPPY FEET' and the FREE SHIPPING line. Keep everything else identical.",
+      "ms": 900
+     },
+     {
+      "edit": "Also remove the 30-DAY MONEY-BACK GUARANTEE line. Keep everything else identical.",
+      "ms": 900
+     }
+    ]
+   },
+   "group": "iteration"
+  },
+  {
+   "id": "T43_06_teacher_knees_price_tag_offer",
+   "persona": "teacher",
+   "lang": "en",
+   "colorway": "red_burgundy",
+   "benchmark": "offer_block",
+   "angle": "'40% OFF Sitewide' offer static → giant hang-tag on the shoe, teacher knees/back-from-standing lead",
+   "based_on": "RTGv1_O1 | Ortho Stretch 40% OFF Sitewide static ($1,512, 3.86 ROAS)",
+   "headline": "Teachers: knees aching from standing?",
+   "prompt": "Tight low-angle crop of a teacher's legs in dark trousers sitting at a classroom desk, wearing the shoe from the reference photo as a pair (shoes about 40% of the frame, sharp knit texture), classroom softly blurred. Very large heavy white headline across the top over the dark area, 2 lines: \"Teachers: knees aching from standing?\" A big solid red price tag with a string tied to the shoe, white heavy text \"40% OFF\". Two solid white rounded pills with large bold black text stacked at the bottom: \"30-DAY MONEY-BACK GUARANTEE\" and \"FREE SHIPPING\". All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "group": "iteration"
+  },
+  {
+   "id": "T43_07_es_caution_sign_offer",
+   "persona": "housekeeping",
+   "lang": "es",
+   "colorway": "black_mint",
+   "benchmark": "warehouse_urgency",
+   "angle": "Warehouse 'Warning, last chance' offer static → red caution sign on swollen feet, Spanish, full offer stack",
+   "based_on": "RTGv1_I6 | Warning-task_Warehouse static ($1,161, 3.79 ROAS)",
+   "headline": "¡Precaución! Pies hinchados.",
+   "prompt": "Real photo of a wooden crate in a warehouse, background softly blurred. On top of the crate a pair of the shoe from the reference photo, large (about 45% of the frame), sharp knit texture. Across the top, a solid red block with very large heavy white text in 2 lines: \"¡PRECAUCIÓN!\" and \"Pies hinchados.\" Below the shoes, three solid white rounded pills stacked, large bold black text: \"40% DE DESCUENTO\", \"GARANTÍA DE DEVOLUCIÓN DE 30 DÍAS\", \"ENVÍO GRATIS\". All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "group": "iteration"
+  },
+  {
+   "id": "T43_08_plus_lockscreen_swollen_offer",
+   "persona": "plus_size",
+   "lang": "en",
+   "colorway": "black_purple",
+   "benchmark": "lifestyle_urgency",
+   "angle": "'Selling out' offer static → phone lock-screen notification over a legs-and-shoes crop, swollen-feet lead",
+   "based_on": "RTGv1_I19 | SellingOut4Days static ($632, 3.25 ROAS)",
+   "headline": "Swollen feet by 3pm? Selling out.",
+   "prompt": "Tight crop of a plus-size woman's legs in black leggings walking on a city sidewalk, wearing the shoe from the reference photo as a pair (about 45% of the frame, sharp knit texture), background softly blurred. Very large heavy white headline over the dark leggings, 2 lines: \"Swollen feet by 3pm? Selling out.\" A big iPhone-style notification banner (generic rounded grey card, no app logo) with large bold black text: \"40% OFF\". Under it, two solid purple pills with white large bold text: \"30-DAY MONEY-BACK GUARANTEE\" and \"FREE SHIPPING\". All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "group": "iteration"
+  },
+  {
+   "id": "T43_09_plus_traveler_passport_offer",
+   "persona": "plus_size",
+   "lang": "en",
+   "colorway": "navy_blue",
+   "benchmark": "lifestyle_urgency",
+   "angle": "Plus-size theme-park travel video → passport page flat-lay with the offer stack as three travel ink stamps",
+   "based_on": "TOFV1_KW1 | COM284_HO1 plus-sized traveling video ($1,117, 5.65 ROAS)",
+   "headline": "Plus-size and walking all day? Pack these.",
+   "prompt": "Top-down flat-lay on a light wooden table: an open passport page with three big crooked ink stamps in red and navy ink, large bold stamped text: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". Next to the passport a pair of the shoe from the reference photo, large (about 45% of the frame), sharp knit texture. Very large heavy black headline across the top in 2 lines: \"Plus-size and walking all day? Pack these.\" All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the FREE SHIPPING stamp from the passport. Keep everything else identical.",
+      "ms": 900
+     },
+     {
+      "edit": "Also remove the 30-DAY MONEY-BACK GUARANTEE stamp. Keep everything else identical.",
+      "ms": 900
+     }
+    ]
+   },
+   "group": "iteration"
+  },
+  {
+   "id": "T43_10_plus_disney_anime",
+   "persona": "plus_size",
+   "lang": "en",
+   "colorway": "black_white",
+   "benchmark": "lifestyle_legs_9x16",
+   "format": "anime_soft",
+   "angle": "Plus-size theme-park video → soft hand-painted anime frame of a plus-size woman on a park day",
+   "based_on": "TOFV1_KW1 | COM284_HO1 plus-sized traveling video ($1,117, 5.65 ROAS)",
+   "headline": "Miles of walking. Feet still happy.",
+   "prompt": "Soft anime film frame, golden-hour theme park with a pastel castle in the distance. A plus-size woman in her 50s, seen from the low side, walking happily with a tote bag; her feet and the shoe from the reference photo are the hero in the foreground (shoe pair about 40% of the frame, recognizable knit grid pattern and rocker sole). Very large heavy white lettering in 2 lines at the top: \"Miles of walking. Feet still happy.\" All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "group": "iteration"
+  },
+  {
+   "id": "T43_11_plus_disney_fb_comments_swollen",
+   "persona": "plus_size",
+   "lang": "en",
+   "colorway": "all_black",
+   "benchmark": "comments_offer",
+   "format": "fb_comment",
+   "angle": "Plus-size theme-park video → native Facebook comments about swollen feet on a park day, big leg and shoe on the right",
+   "based_on": "TOFV1_KW1 | COM284_HO1 plus-sized traveling video ($1,117, 5.65 ROAS)",
+   "headline": "Plus-size and swollen feet?",
+   "prompt": "White background. Very large heavy black headline across the top: \"Plus-size and swollen feet?\" Three stacked Facebook comments on the left two thirds, each a grey rounded bubble with a round profile photo and big bold readable text, with \"2d   Like   Reply\" under each: \"Denise M.\": \"14 miles at Disney and my feet didn't swell. First time ever.\"; \"Carla T.\": \"Stretchy enough for my swollen feet. Ordering a second pair!\"; \"Joy W.\": \"Finally, a shoe that doesn't squeeze my toes.\" On the right, a large tight crop of a plus-size woman's leg wearing the shoe from the reference photo (about 40% of the frame). All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "group": "iteration"
+  },
+  {
+   "id": "T43_12_travel_claymation_50k_steps",
+   "persona": "traveler",
+   "lang": "en",
+   "colorway": "black_white",
+   "benchmark": "hsa_minimal_9x16",
+   "format": "claymation",
+   "angle": "Travel favorite-shoes video → claymation miniature European street with a clay traveler",
+   "based_on": "TOFV1_JV1 | Travel | COM211_h2 travel video ($1,578, 2.30 ROAS)",
+   "headline": "Shoes made for 50,000+ steps.",
+   "prompt": "Stop-motion claymation scene: a handmade plasticine miniature European cobblestone street with pastel buildings. A clay woman traveler with a small rolling suitcase walks toward the camera, her feet and the shoe from the reference photo sculpted large and clearly recognizable in the foreground (shoe pair about 40% of the frame, true proportions). Very large heavy white clay-lettered headline in 2 lines across the top: \"Shoes made for 50,000+ steps.\" All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "group": "iteration"
+  },
+  {
+   "id": "T43_13_travel_do_not_disturb_hanger",
+   "persona": "traveler",
+   "lang": "en",
+   "colorway": "light_grey",
+   "benchmark": "lifestyle_legs_9x16",
+   "angle": "Travel favorite-shoes video → hotel door-hanger 'Do not disturb' about tired feet after a 20,000-step day",
+   "based_on": "TOFV1_JV1 | Travel | COM211_h2 travel video ($1,578, 2.30 ROAS)",
+   "headline": "Do not disturb: feet recovering.",
+   "prompt": "Real photo of a hotel room door with a big solid red 'Do Not Disturb' door hanger on the handle, large bold white text in 2 lines: \"DO NOT DISTURB\" and \"Feet recovering.\" Below, on the carpet in front of the door, a pair of the shoe from the reference photo, large (about 45% of the frame), sharp knit texture, one shoe tilted to show the sole profile. Softly blurred hallway background. All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "group": "iteration"
+  },
+  {
+   "id": "T43_14_es_travel_retro_viaja_comodo",
+   "persona": "traveler",
+   "lang": "es",
+   "colorway": "red_burgundy",
+   "benchmark": "hsa_minimal_9x16",
+   "format": "retro_cartoon",
+   "angle": "Kyro 253 travel winner ('Travel smart. Travel comfortably.') → 1930s rubber-hose travel cartoon in Spanish",
+   "based_on": "@TF - Kyro_253_1_V3 travel video, last October (~$44,760 spend; seasonal pull 2026-W43)",
+   "headline": "Viaja inteligente. Viaja cómodo.",
+   "prompt": "1930s rubber-hose cartoon still, sepia ink with red accent. A bendy cartoon woman traveler in a sun hat strutting over cobblestones with a vintage suitcase; at her feet the shoe from the reference photo drawn large and clearly recognizable in modern color (the only colorful object, about 40% of the frame). Old-timey title-card lettering in 2 lines: \"Viaja inteligente.\" and \"Viaja cómodo.\" All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "group": "iteration"
+  },
+  {
+   "id": "T43_15_nurse_report_card",
+   "persona": "nurse",
+   "lang": "en",
+   "colorway": "black_purple",
+   "benchmark": "statement_list",
+   "angle": "'10 Reasons Healthcare Workers' listicle static → school-style report card graded A+ by nurses",
+   "based_on": "@NF - kyro 189v1ss1 '10 Reasons Healthcare Workers' static, last October (~$43,433 spend; seasonal pull 2026-W43)",
+   "headline": "The nurse shoe report card.",
+   "prompt": "Soft cream background. Very large heavy black headline across the top in 2 lines: \"The nurse shoe report card.\" A big white paper report card on the left with three large rows in bold black text and big red handwritten A+ marks: \"Arch support A+\", \"Slip-resistant grip A+\", \"Wide toe box A+\". On the right, the shoe from the reference photo, large (about 45% of the frame), sharp knit texture, in 3/4 view. All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "group": "iteration"
+  },
+  {
+   "id": "T43_16_es_comic_enfermera_sin_dolor",
+   "persona": "nurse",
+   "lang": "es",
+   "colorway": "black_mint",
+   "benchmark": "transformation",
+   "format": "comic_strip",
+   "angle": "'Finally, No More Foot Pain!' nurse-benefits static → 4-panel Spanish webcomic of a nurse's heel pain and the fix",
+   "based_on": "TOFv1_B1 | Nurse Benefits images v3 'Finally, No More Foot Pain!' static, last October ($7,531 spend; seasonal pull 2026-W43)",
+   "headline": "Por fin, sin dolor de talón.",
+   "prompt": "Modern webcomic page, 4 panels (2x2) with thin black borders. A big bold black headline banner at the top: \"Por fin, sin dolor de talón.\" Panel 1: a tired nurse in scrubs sits rubbing her heel, bubble \"¡Mis talones!\". Panel 2: a coworker hands her a shoebox, bubble \"Pruébate estos.\" Panel 3: close-up of the shoe from the reference photo on her feet, large and recognizable. Panel 4: the nurse smiling and walking, bubble \"¡Sin dolor!\" Speech bubbles use large bold lettering. All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "group": "iteration"
+  },
+  {
+   "id": "T43_17_teacher_arthritis_duty_schedule",
+   "persona": "teacher",
+   "lang": "en",
+   "colorway": "navy_blue",
+   "benchmark": "list_white",
+   "angle": "Teachers favorite-shoes video (arthritis + hours on your feet) → duty-schedule checklist lead with arthritis",
+   "based_on": "COM174_Kyro362Teacher_Ortho_Teacher mash-up video ($694, 2.11 ROAS)",
+   "headline": "Arthritis and a full day of standing.",
+   "prompt": "Clean white background with a soft blue gradient at the bottom. Very large heavy deep-navy headline across the top in 2 lines: \"Arthritis and a full day of standing.\" Under it, a big checklist of 3 rows each with a solid royal-blue check circle and large bold black text: \"Bus duty\", \"Recess duty\", \"Hall duty\". Below, a pair of the shoe from the reference photo as the hero (about 45% of the frame, sharp knit texture, true proportions) with a solid royal-blue rounded pill, white large bold text: \"No-tie laces\". All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "group": "iteration"
+  },
+  {
+   "id": "T43_18_es_trustpilot_pies_hinchados",
+   "persona": "steady_feet",
+   "lang": "es",
+   "colorway": "grey_pink",
+   "benchmark": "comments_social",
+   "format": "trustpilot",
+   "angle": "Senior-page video (stability, no laces) → Spanish Trustpilot review cards from older women with swollen feet",
+   "based_on": "RD_07.02.26_Senior Page_Side by Side video ($543, 1.82 ROAS)",
+   "headline": "Para pies hinchados.",
+   "prompt": "Soft light-grey background. Very large heavy black headline at the top: \"Para pies hinchados.\" Two stacked Trustpilot review cards: Card 1: reviewer \"Rosa G.\", \"US\", five green stars, bold title \"Ya no se me hinchan\", text \"Los uso todo el día y al final los pies siguen cómodos.\", date \"Oct 12, 2026\". Card 2: reviewer \"Lupe M.\", \"US\", five green stars, bold title \"Fáciles de poner\", text \"Sin cordones que amarrar. Perfectos para mis manos.\", date \"Oct 9, 2026\". Bottom: a pair of the shoe from the reference photo, large (about 35% of the frame). All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "group": "iteration"
+  },
+  {
+   "id": "T43_19_es_story_poll_pies_2pm",
+   "persona": "comfort_only",
+   "lang": "es",
+   "colorway": "light_grey",
+   "benchmark": "hsa_minimal_9x16",
+   "angle": "Tweet-pains static ('feet hurt by 2pm') → Spanish social-story poll sticker, no-diagnosis comfort lead",
+   "based_on": "INT_07.03.26_Comfort Shoes PDP_COM111_Tweet_Pains static ($415, 3.10 ROAS)",
+   "headline": "¿Te duelen los pies a las 2 pm?",
+   "prompt": "Soft light-grey gradient background in a social-story look (no app logo). A big white rounded poll sticker at the top with a very large heavy black question: \"¿Te duelen los pies a las 2 pm?\" and two large option buttons side by side, bold text: \"SÍ, TODOS LOS DÍAS\" and \"NO, CON ESTOS\". Below, a pair of the shoe from the reference photo as the hero (about 50% of the frame, true proportions, sharp knit texture, soft shadow). All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the two option buttons from the poll sticker. Keep everything else identical.",
+      "ms": 900
+     },
+     {
+      "edit": "Also remove the poll sticker question. Keep everything else identical.",
+      "ms": 900
+     }
+    ]
+   },
+   "group": "iteration"
+  },
+  {
+   "id": "T43_20_walker_x_post_heels_hurt",
+   "persona": "walker_weightloss",
+   "lang": "en",
+   "colorway": "purple",
+   "benchmark": "comments_social",
+   "format": "x_post",
+   "angle": "Weight-loss walker video ('shoes for weight loss') → X post from a woman whose heels hurt on her walking goal",
+   "based_on": "TOFV1_JW2 | Com255 Hk3 'Best Shoes For Weight Loss' video ($417, 2.18 ROAS)",
+   "headline": "My heels hurt after 20 minutes of walking.",
+   "prompt": "An X post screenshot centered on a light grey background. Display name \"Tina R.\", handle \"@tina_walks_it_off\". Post text in large readable type: \"trying to walk 10k steps a day to lose weight but my heels hurt after 20 minutes. nobody tells you the shoes matter this much. found a pair that finally keep up.\" Attached photo below the text: a woman's legs on a neighborhood sidewalk wearing the shoe from the reference photo (about 40% of the photo). Engagement counts: 58 replies, 1.1K reposts, 14K likes, 210K views. All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges.",
+   "group": "iteration"
+  }
+ ]
+}

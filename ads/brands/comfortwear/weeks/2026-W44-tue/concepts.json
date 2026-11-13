@@ -1,0 +1,388 @@
+{
+ "week": "2026-W44-tue",
+ "notes": "Tuesday iteration batch, focus_2026_10_26 (nurse + travel only, 10 EN + 10 ES twins), 4:5 feed layout, medium quality. Sources: atria_pull current (2026-09-27..10-26) + seasonal 2026-W44.",
+ "concepts": [
+  {
+   "id": "T44_01_nurse_pf_x_post",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "black_purple",
+   "benchmark": "comments_social",
+   "angle": "Emily RN plantar-fasciitis nurse story, moved into a real X post with a phone photo of the shoes on a break-room chair and 3 handwritten feature labels",
+   "based_on": "RTGv1_B6 | 203_Iteration_UGC_OrthoStretch_H1 nurse plantar fasciitis video ($4,005, 2.99 ROAS); kept: nurse + plantar fasciitis + 3 12s in a row + coworkers",
+   "format": "x_post",
+   "style": "ugc",
+   "headline": "I'm a nurse with plantar fasciitis. 3 12s in a row.",
+   "prompt": "An X post screenshot on a plain white background, faithful to the current X app in light mode. Round profile photo of a woman nurse in scrubs, display name \"Emily R.\", grey handle \"@emily_rn_nights\" and \"· 3h\". Post text in large readable black type, no quotation marks: \"nurse with plantar fasciitis here. 3 12s in a row used to wreck my heels. a coworker on my unit showed me these. i just did 4 in a row at the ER and walked to my car like a normal person.\" Attached photo below the text with rounded corners: a real phone photo of the shoe from the reference photo, large (about 45% of the photo), on a hospital break-room chair, with three handwritten black-marker labels with thin arrows pointing at it: \"Arch support\", \"Cushioned heel\", \"Slip-resistant grip\". Engagement row under the photo: 41 replies, 1.8K reposts, 22K likes, 310K views, thin grey icons. No blue checkmark, no X logo. All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges, no buttons.",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "T44_01_es_nurse_pf_x_post",
+   "lang": "es",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "black_purple",
+   "benchmark": "comments_social",
+   "angle": "Emily RN plantar-fasciitis nurse story, moved into a real X post with a phone photo of the shoes on a break-room chair and 3 handwritten feature labels",
+   "based_on": "RTGv1_B6 | 203_Iteration_UGC_OrthoStretch_H1 nurse plantar fasciitis video ($4,005, 2.99 ROAS); kept: nurse + plantar fasciitis + 3 12s in a row + coworkers",
+   "format": "x_post",
+   "style": "ugc",
+   "headline": "Soy enfermera con fascitis plantar. 3 turnos de 12.",
+   "prompt": "Captura de una publicación de X en pantalla, fiel a la app actual de X en modo claro, sobre fondo blanco liso. Foto de perfil redonda de una mujer enfermera en uniforme, nombre \"Emily R.\", usuario gris \"@emily_rn_nights\" y \"· 3h\". Texto de la publicación en letra negra grande y legible, sin comillas: \"soy enfermera con fascitis plantar. 3 turnos de 12 seguidos me destrozaban los talones. una compañera de mi piso me enseñó estos. ayer hice 4 turnos seguidos en urgencias y caminé a mi carro como una persona normal.\" Debajo del texto una foto adjunta con esquinas redondeadas: una foto real tomada con celular del zapato de la foto de referencia, grande (cerca del 45% de la foto), sobre una silla de la sala de descanso del hospital, con tres etiquetas escritas a mano con marcador negro y flechas delgadas que señalan el zapato: \"Soporte de arco\", \"Talón acolchado\", \"Suela antideslizante\". Fila de interacciones debajo: 41 respuestas, 1,8 mil reposts, 22 mil me gusta, 310 mil vistas, íconos grises delgados. Sin palomita azul, sin logo de X. Todo el texto de apoyo es grande y en negrita (cada línea de al menos 1/25 de la altura, máximo 5 palabras por etiqueta), alto contraste, sin letra fina ni pequeña. Los textos son solo negro, azul marino oscuro o blanco. El zapato mantiene sus proporciones reales, nunca comprimido, aplanado ni diminuto. Todo el texto en español exactamente como está entre comillas, con todos los acentos. Ningún otro texto, sin logos, sin insignias, sin botones.",
+   "twin_of": "T44_01_nurse_pf_x_post",
+   "tags": [
+    "FP",
+    "ES"
+   ]
+  },
+  {
+   "id": "T44_02_nurse_hour_1_6_12_stack",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "all_black",
+   "benchmark": "list_white",
+   "angle": "Kyro 390 nurse foot-pain story moved into a three-band 'Hour 1 / Hour 6 / Hour 12' timeline stack (trending format) that ends on the shoe",
+   "based_on": "INT_05.28.26_Nurse Page_Kyro390v1_H5 ($4,841, 2.01 ROAS); kept: nurse on a 12-hour shift, heel/knee pain builds, comfort that lasts; dropped 'Expert-Recommended'",
+   "headline": "Heels, knees, back. Hour 12 hurts.",
+   "prompt": "Three horizontal full-width bands stacked top to bottom on a clean light background, each with one huge heavy black label on the left and a tight real-photo crop of scrubs and feet on the right. Band 1: \"HOUR 1\" with a calm relaxed stance. Band 2: \"HOUR 6\" with the nurse shifting her weight, heels lifting. Band 3 (largest, about 40% of the canvas): \"HOUR 12\" and the all-black shoe from the reference photo, large and sharp, a pair, with three thin black hand-drawn arrows to large bold labels \"Arch support\", \"Cushioned heel\", \"Wide toe box\". At the very top one heavy black headline in two lines: \"Heels, knees, back.\" \"Hour 12 hurts.\" All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges, no buttons.",
+   "tags": [
+    "FP"
+   ],
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the three arrows and their labels around the shoe in the bottom band. Keep everything else identical.",
+      "ms": 900
+     },
+     {
+      "edit": "Also remove the bottom band (HOUR 12) so only HOUR 1 and HOUR 6 remain, extending the background. Keep everything else identical.",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T44_02_es_nurse_hour_1_6_12_stack",
+   "lang": "es",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "all_black",
+   "benchmark": "list_white",
+   "angle": "Kyro 390 nurse foot-pain story moved into a three-band 'Hour 1 / Hour 6 / Hour 12' timeline stack (trending format) that ends on the shoe",
+   "based_on": "INT_05.28.26_Nurse Page_Kyro390v1_H5 ($4,841, 2.01 ROAS); kept: nurse on a 12-hour shift, heel/knee pain builds, comfort that lasts; dropped 'Expert-Recommended'",
+   "headline": "Talones, rodillas, espalda. La hora 12 duele.",
+   "prompt": "Tres franjas horizontales de ancho completo apiladas sobre un fondo claro limpio, cada una con una etiqueta enorme en negro pesado a la izquierda y un recorte fotográfico real de uniforme y pies a la derecha. Franja 1: \"HORA 1\" con postura tranquila. Franja 2: \"HORA 6\" con la enfermera cambiando el peso, talones levantados. Franja 3 (la más grande, cerca del 40%): \"HORA 12\" y el zapato completamente negro de la referencia, grande y nítido, un par, con tres flechas delgadas negras dibujadas a mano hacia etiquetas grandes en negrita: \"Soporte de arco\", \"Talón acolchado\", \"Punta ancha\". Arriba un titular negro pesado en dos líneas: \"Talones, rodillas, espalda.\" \"La hora 12 duele.\" Todo el texto de apoyo es grande y en negrita (cada línea de al menos 1/25 de la altura, máximo 5 palabras por etiqueta), alto contraste, sin letra fina ni pequeña. Los textos son solo negro, azul marino oscuro o blanco. El zapato mantiene sus proporciones reales, nunca comprimido, aplanado ni diminuto. Todo el texto en español exactamente como está entre comillas, con todos los acentos. Ningún otro texto, sin logos, sin insignias, sin botones.",
+   "twin_of": "T44_02_nurse_hour_1_6_12_stack",
+   "tags": [
+    "FP",
+    "ES"
+   ]
+  },
+  {
+   "id": "T44_03_nurse_cardboard_sign_offer",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "plus_size",
+   "colorway": "navy_blue",
+   "benchmark": "warehouse_urgency",
+   "angle": "40% OFF static (H3) moved into a lo-fi phone photo: plus-size nurse holding a handwritten cardboard sign, foot-pain headline, offer stack as small sticky notes",
+   "based_on": "RTGv1_H3 | Ortho-Stretch-Cushion-Shoe-#753 static ($2,517, 3.08 ROAS, '40% OFF TODAY + FREE Shipping!'); kept: 40% off + free shipping offer to nurses",
+   "style": "ugc",
+   "headline": "Swollen feet by hour 10?",
+   "prompt": "Real, slightly lo-fi phone photo taken at a hospital nurses station: a smiling plus-size woman nurse in navy scrubs holds up a piece of brown cardboard with thick black marker handwriting: \"SWOLLEN FEET BY HOUR 10?\" (4 lines, very large). She sits on a stool with her feet forward, the navy-blue shoe from the reference photo in the lower third, large and sharp (about 35% of the frame), a pair. Three plain yellow sticky notes stuck on the counter edge in one row, each note large with thick black marker text at least 1/25 of the canvas height, clearly readable: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". There is NO headline banner or any text other than the cardboard sign, the three sticky notes and the three labels. Three handwritten black labels with thin arrows to the shoe: \"Stretch-knit upper\", \"Wide toe box\", \"Cushioned heel\". All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges, no buttons.",
+   "tags": [
+    "FP",
+    "OFFER"
+   ],
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the three sticky notes from the counter edge. Keep everything else identical.",
+      "ms": 900
+     },
+     {
+      "edit": "Also remove the three handwritten labels and arrows around the shoe. Keep everything else identical.",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T44_03_es_nurse_cardboard_sign_offer",
+   "lang": "es",
+   "group": "iteration",
+   "persona": "plus_size",
+   "colorway": "navy_blue",
+   "benchmark": "warehouse_urgency",
+   "angle": "40% OFF static (H3) moved into a lo-fi phone photo: plus-size nurse holding a handwritten cardboard sign, foot-pain headline, offer stack as small sticky notes",
+   "based_on": "RTGv1_H3 | Ortho-Stretch-Cushion-Shoe-#753 static ($2,517, 3.08 ROAS, '40% OFF TODAY + FREE Shipping!'); kept: 40% off + free shipping offer to nurses",
+   "style": "ugc",
+   "headline": "¿Pies hinchados a la hora 10?",
+   "prompt": "Foto real, algo casera, tomada con celular en un puesto de enfermería de hospital: una enfermera de talla grande sonriente con uniforme azul marino sostiene un cartón café con letras gruesas a mano en marcador negro: \"¿PIES HINCHADOS A LA HORA 10?\" (4 líneas, muy grande). Está sentada en un banco con los pies al frente, el zapato azul marino de la referencia en el tercio inferior, grande y nítido (cerca del 35% del cuadro), un par. Tres notas adhesivas amarillas pegadas en el borde del mostrador en una fila, cada nota grande con letras gruesas de marcador negro de al menos 1/25 de la altura del cuadro, muy legibles: \"40% DE DESCUENTO\", \"GARANTÍA DE DEVOLUCIÓN DE 30 DÍAS\", \"ENVÍO GRATIS\". Tres etiquetas negras escritas a mano con flechas delgadas hacia el zapato: \"Tejido elástico\", \"Punta ancha\", \"Talón acolchado\". Todo el texto de apoyo es grande y en negrita (cada línea de al menos 1/25 de la altura, máximo 5 palabras por etiqueta), alto contraste, sin letra fina ni pequeña. Los textos son solo negro, azul marino oscuro o blanco. El zapato mantiene sus proporciones reales, nunca comprimido, aplanado ni diminuto. Todo el texto en español exactamente como está entre comillas, con todos los acentos. Ningún otro texto, sin logos, sin insignias, sin botones.",
+   "twin_of": "T44_03_nurse_cardboard_sign_offer",
+   "tags": [
+    "FP",
+    "OFFER",
+    "ES"
+   ]
+  },
+  {
+   "id": "T44_04_nurse_trustpilot_limping_car",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "black_white",
+   "benchmark": "comments_offer",
+   "angle": "Customer-reviews static (didn't-buy-yet comments) moved into real Trustpilot review cards in nurse voice, with a tight legs-in-scrubs crop",
+   "based_on": "RTGv1_C3 | 661_Real_Static_Ortho_Stretch_Shoe_ObjectionHandling_CustomerReviews ($1,844, 2.84 ROAS); kept: customer reviews as social proof to nurses",
+   "format": "trustpilot",
+   "style": "ugc",
+   "headline": "No more limping to my car.",
+   "prompt": "Soft light-grey background. Very large heavy black headline across the top in two lines: \"No more limping\" \"to my car.\" Two stacked Trustpilot review cards (white card, thin grey border): Card 1: small round avatar with initials \"KD\", reviewer \"Karen D.\" \"US\", five green square star tiles, bold title \"Plantar fasciitis, 3 12s\", text \"I used to limp to my car after every shift. Four 12s in a row and my heels are fine.\", date \"Oct 14, 2026\". Card 2: avatar \"MS\", reviewer \"Marisol S.\" \"US\", five green stars, bold title \"Non-slip on my floor\", text \"Wet floors on the unit and I never slip. Wide toe box too.\", date \"Oct 8, 2026\". Bottom third: a tight low-angle crop of a nurse's legs in navy scrubs walking, wearing the black-white shoe from the reference photo, large and sharp (about 35% of the frame). No Trustpilot logo, no TrustScore, no verified badge. All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges, no buttons.",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "T44_04_es_nurse_trustpilot_limping_car",
+   "lang": "es",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "black_white",
+   "benchmark": "comments_offer",
+   "angle": "Customer-reviews static (didn't-buy-yet comments) moved into real Trustpilot review cards in nurse voice, with a tight legs-in-scrubs crop",
+   "based_on": "RTGv1_C3 | 661_Real_Static_Ortho_Stretch_Shoe_ObjectionHandling_CustomerReviews ($1,844, 2.84 ROAS); kept: customer reviews as social proof to nurses",
+   "format": "trustpilot",
+   "style": "ugc",
+   "headline": "Ya no cojeo hasta mi carro.",
+   "prompt": "Fondo gris claro suave. Titular negro enorme y pesado arriba en dos líneas: \"Ya no cojeo\" \"hasta mi carro.\" Dos tarjetas de reseña de Trustpilot apiladas (tarjeta blanca, borde gris fino): Tarjeta 1: avatar redondo con iniciales \"KD\", reseñadora \"Karen D.\" \"US\", cinco cuadros verdes con estrella, título en negrita \"Fascitis plantar, 3 de 12\", texto \"Antes cojeaba hasta mi carro después de cada turno. Cuatro turnos de 12 seguidos y mis talones están bien.\", fecha \"Oct 14, 2026\". Tarjeta 2: avatar \"MS\", reseñadora \"Marisol S.\" \"US\", cinco estrellas verdes, título en negrita \"Antideslizante en mi piso\", texto \"Pisos mojados en la unidad y nunca me resbalo. Y la punta es ancha.\", fecha \"Oct 8, 2026\". Tercio inferior: un recorte cercano de ángulo bajo de las piernas de una enfermera en uniforme azul marino caminando, con el zapato negro-blanco de la referencia, grande y nítido (cerca del 35% del cuadro). Sin logo de Trustpilot, sin TrustScore, sin insignia de verificado. Todo el texto de apoyo es grande y en negrita (cada línea de al menos 1/25 de la altura, máximo 5 palabras por etiqueta), alto contraste, sin letra fina ni pequeña. Los textos son solo negro, azul marino oscuro o blanco. El zapato mantiene sus proporciones reales, nunca comprimido, aplanado ni diminuto. Todo el texto en español exactamente como está entre comillas, con todos los acentos. Ningún otro texto, sin logos, sin insignias, sin botones.",
+   "twin_of": "T44_04_nurse_trustpilot_limping_car",
+   "tags": [
+    "FP",
+    "ES"
+   ]
+  },
+  {
+   "id": "T44_05_nurse_claymation_48_hours",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "black_purple",
+   "benchmark": "warehouse_urgency",
+   "angle": "'48 hours left' warehouse urgency static moved into a claymation scene: nurse clay figure with a wall calendar, shoe as hero, offer stack on three small clay signs",
+   "based_on": "RTGv1_I6 | Warning-task_Warehouse static ($1,160, 4.24 ROAS, '48 HOURS LEFT - 40% OFF'); kept: 48-hour urgency + 40% off for nurses",
+   "format": "claymation",
+   "headline": "48 hours left for nurses.",
+   "prompt": "Stop-motion claymation still, plasticine with fingerprint texture, a handmade miniature hospital hallway set, warm soft light. A clay nurse figure in scrubs checks a big wall calendar with the last two days circled in red. In the foreground, the black-purple shoe from the reference photo sculpted large and clearly recognizable (about 40% of the frame), a pair, same colors and chunky wavy white sole. Across the top a heavy headline in thick clay-letter style: \"48 HOURS LEFT\" and \"for nurses.\" Three small clay signs in a row along the bottom edge: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". Two clay arrow tags pointing at the shoe: \"Cushioned heel\", \"Arch support\". All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges, no buttons.",
+   "tags": [
+    "OFFER"
+   ]
+  },
+  {
+   "id": "T44_05_es_nurse_claymation_48_hours",
+   "lang": "es",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "black_purple",
+   "benchmark": "warehouse_urgency",
+   "angle": "'48 hours left' warehouse urgency static moved into a claymation scene: nurse clay figure with a wall calendar, shoe as hero, offer stack on three small clay signs",
+   "based_on": "RTGv1_I6 | Warning-task_Warehouse static ($1,160, 4.24 ROAS, '48 HOURS LEFT - 40% OFF'); kept: 48-hour urgency + 40% off for nurses",
+   "format": "claymation",
+   "headline": "Quedan 48 horas para enfermeras.",
+   "prompt": "Imagen fija de animación stop-motion de plastilina, con huellas dactilares en la textura, un set en miniatura hecho a mano de un pasillo de hospital, luz cálida y suave. Una figura de plastilina de enfermera en uniforme revisa un calendario grande de pared con los últimos dos días marcados en rojo. En primer plano, el zapato negro-morado de la referencia modelado en plastilina, grande y claramente reconocible (cerca del 40% del cuadro), un par, mismos colores y suela blanca ondulada y gruesa. Arriba un titular en letras de plastilina gruesas: \"QUEDAN 48 HORAS\" y \"para enfermeras.\" Tres letreros pequeños de plastilina en fila en la parte baja: \"40% DE DESCUENTO\", \"GARANTÍA DE DEVOLUCIÓN DE 30 DÍAS\", \"ENVÍO GRATIS\". Dos etiquetas de plastilina con flechas hacia el zapato: \"Talón acolchado\", \"Soporte de arco\". Todo el texto de apoyo es grande y en negrita (cada línea de al menos 1/25 de la altura, máximo 5 palabras por etiqueta), alto contraste, sin letra fina ni pequeña. Los textos son solo negro, azul marino oscuro o blanco. El zapato mantiene sus proporciones reales, nunca comprimido, aplanado ni diminuto. Todo el texto en español exactamente como está entre comillas, con todos los acentos. Ningún otro texto, sin logos, sin insignias, sin botones.",
+   "twin_of": "T44_05_nurse_claymation_48_hours",
+   "tags": [
+    "OFFER",
+    "ES"
+   ]
+  },
+  {
+   "id": "T44_06_dear_nurses_callouts_arthritis",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "all_black",
+   "benchmark": "callouts_white",
+   "angle": "'Trusted By Nurses' static moved into the winning Dear Nurses white layout: one big shoe, thin arrows to named conditions",
+   "based_on": "RTGv1_C1 | 528 Static Ortho Stretch Shoe ObjectionHandling ('Trusted By Nurses') ($860, 3.40 ROAS); winning layout reference: Dear Nurses callouts ($229k, 4.34 ROAS); kept: nurse trust + named conditions",
+   "headline": "Dear Nurses, work 12-hour shifts comfortably.",
+   "prompt": "Plain clean white background. Heavy black headline at the top in two lines, left aligned: \"Dear Nurses,\" (regular weight) then \"work 12-hour shifts comfortably.\" (bold). One big hero shoe in the center: the all-black shoe from the reference photo in a three-quarter side view, true proportions, about 50% of the frame, soft shadow. Four thin black hand-drawn curved arrows from the shoe to four large bold labels: \"FOR PLANTAR FASCIITIS\", \"ROOM FOR BUNIONS\", \"STRETCH FIT FOR SWOLLEN FEET\", \"SLIP-RESISTANT GRIP\". Nothing else. All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges, no buttons.",
+   "tags": [
+    "FP"
+   ],
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the two lower arrows and their labels. Keep everything else identical.",
+      "ms": 900
+     },
+     {
+      "edit": "Also remove the two upper arrows and their labels. Keep everything else identical.",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "T44_06_es_dear_nurses_callouts_arthritis",
+   "lang": "es",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "all_black",
+   "benchmark": "callouts_white",
+   "angle": "'Trusted By Nurses' static moved into the winning Dear Nurses white layout: one big shoe, thin arrows to named conditions",
+   "based_on": "RTGv1_C1 | 528 Static Ortho Stretch Shoe ObjectionHandling ('Trusted By Nurses') ($860, 3.40 ROAS); winning layout reference: Dear Nurses callouts ($229k, 4.34 ROAS); kept: nurse trust + named conditions",
+   "headline": "Estimada enfermera, trabaja turnos de 12 horas con comodidad.",
+   "prompt": "Fondo blanco limpio y liso. Titular negro pesado arriba en dos líneas, alineado a la izquierda: \"Estimada enfermera,\" (peso normal) y luego \"trabaja turnos de 12 horas con comodidad.\" (negrita). Un zapato grande en el centro: el zapato completamente negro de la referencia en vista de tres cuartos de lado, proporciones reales, cerca del 50% del cuadro, sombra suave. Cuatro flechas curvas delgadas negras dibujadas a mano del zapato a cuatro etiquetas grandes en negrita: \"PARA FASCITIS PLANTAR\", \"ESPACIO PARA JUANETES\", \"AJUSTE ELÁSTICO PARA PIES HINCHADOS\", \"SUELA ANTIDERRAPANTE\". Nada más. Todo el texto de apoyo es grande y en negrita (cada línea de al menos 1/25 de la altura, máximo 5 palabras por etiqueta), alto contraste, sin letra fina ni pequeña. Los textos son solo negro, azul marino oscuro o blanco. El zapato mantiene sus proporciones reales, nunca comprimido, aplanado ni diminuto. Todo el texto en español exactamente como está entre comillas, con todos los acentos. Ningún otro texto, sin logos, sin insignias, sin botones.",
+   "twin_of": "T44_06_dear_nurses_callouts_arthritis",
+   "tags": [
+    "FP",
+    "ES"
+   ]
+  },
+  {
+   "id": "T44_07_plus_travel_step_counter_park",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "plus_size",
+   "colorway": "red_burgundy",
+   "benchmark": "comments_social",
+   "angle": "Plus-size theme-park travel video moved into a phone Health-app step-counter screenshot with a real photo of the shoes on a park bench",
+   "based_on": "TOFV1_KW1 | COM284_HO1 '2026's Favorite Shoes For Plus-Sized Traveling' video ($2,243, 4.39 ROAS); kept: plus-size woman, theme-park day, miles of walking, swollen feet / wide fit",
+   "style": "ugc",
+   "headline": "22,000 steps at the park. Feet not swollen.",
+   "prompt": "A real phone screenshot look: iPhone-style Health step-count screen on a white background, with a large black \"22,418\" step count, a thin orange bar chart for the week with today's bar tallest, and a small caption \"Today\". Under it a large bold black headline in two lines: \"22,000 steps at the park.\" \"Feet not swollen.\" Below, a real phone photo of a plus-size woman's legs and feet sitting on a theme-park bench, wearing the red-burgundy shoe from the reference photo, large and sharp (about 40% of the frame), a pair, soft out-of-focus park crowd behind. Three handwritten black labels with thin arrows to the shoe: \"Wide toe box\", \"Room to swell\", \"Cushioned heel\". All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges, no buttons.",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "T44_07_es_plus_travel_step_counter_park",
+   "lang": "es",
+   "group": "iteration",
+   "persona": "plus_size",
+   "colorway": "red_burgundy",
+   "benchmark": "comments_social",
+   "angle": "Plus-size theme-park travel video moved into a phone Health-app step-counter screenshot with a real photo of the shoes on a park bench",
+   "based_on": "TOFV1_KW1 | COM284_HO1 '2026's Favorite Shoes For Plus-Sized Traveling' video ($2,243, 4.39 ROAS); kept: plus-size woman, theme-park day, miles of walking, swollen feet / wide fit",
+   "style": "ugc",
+   "headline": "22,000 pasos en el parque. Sin pies hinchados.",
+   "prompt": "Aspecto de captura de pantalla real de celular: pantalla de pasos de la app Salud estilo iPhone sobre fondo blanco, con un número grande en negro \"22,418\", una barra semanal delgada de color naranja con la barra de hoy más alta, y un pie de foto pequeño \"Hoy\". Debajo un titular negro grande y pesado en dos líneas: \"22,000 pasos en el parque.\" \"Sin pies hinchados.\" Abajo una foto real tomada con celular de las piernas y los pies de una mujer de talla grande sentada en una banca de un parque de diversiones, con el zapato rojo-vino de la referencia, grande y nítido (cerca del 40% del cuadro), un par, con la gente del parque desenfocada al fondo. Tres etiquetas negras escritas a mano con flechas delgadas hacia el zapato: \"Punta ancha\", \"Espacio para hinchazón\", \"Talón acolchado\". Todo el texto de apoyo es grande y en negrita (cada línea de al menos 1/25 de la altura, máximo 5 palabras por etiqueta), alto contraste, sin letra fina ni pequeña. Los textos son solo negro, azul marino oscuro o blanco. El zapato mantiene sus proporciones reales, nunca comprimido, aplanado ni diminuto. Todo el texto en español exactamente como está entre comillas, con todos los acentos. Ningún otro texto, sin logos, sin insignias, sin botones.",
+   "twin_of": "T44_07_plus_travel_step_counter_park",
+   "tags": [
+    "FP",
+    "ES"
+   ]
+  },
+  {
+   "id": "T44_08_travel_cartoon3d_cobblestones",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "traveler",
+   "colorway": "black_mint",
+   "benchmark": "lifestyle_legs_9x16",
+   "angle": "Kyro 293 travel shoe-test video moved into a 3D-animated cobblestone street scene with the shoe as hero",
+   "based_on": "RTGv1_B3 | Kyro_293_3_V2 travel video ($2,230, 3.09 ROAS); kept: European cobblestone days, 20,000 steps, tested shoes; dropped 'Podiatrist Recommended'",
+   "format": "cartoon_3d",
+   "headline": "Cobblestones hurt. These don't.",
+   "prompt": "Still frame from a modern 3D animated feature film: a cute stylized woman traveler in her late 50s with a sun hat and small carry-on walks happily down a sunlit European cobblestone street with pastel buildings and a cafe, soft global illumination. In the foreground, a huge hero closeup of her feet: the black-turquoise shoe from the reference photo, a pair, large and clearly recognizable (about 45% of the frame), exact colors, chunky wavy white sole. A very large heavy headline across the top in two lines: \"Cobblestones hurt.\" \"These don't.\" Three bold speech-tag labels pointing at the shoe: \"Cushioned heel\", \"Wide toe box\", \"Grippy sole\". All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges, no buttons.",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "T44_08_es_travel_cartoon3d_cobblestones",
+   "lang": "es",
+   "group": "iteration",
+   "persona": "traveler",
+   "colorway": "black_mint",
+   "benchmark": "lifestyle_legs_9x16",
+   "angle": "Kyro 293 travel shoe-test video moved into a 3D-animated cobblestone street scene with the shoe as hero",
+   "based_on": "RTGv1_B3 | Kyro_293_3_V2 travel video ($2,230, 3.09 ROAS); kept: European cobblestone days, 20,000 steps, tested shoes; dropped 'Podiatrist Recommended'",
+   "format": "cartoon_3d",
+   "headline": "Los adoquines duelen. Estos no.",
+   "prompt": "Imagen fija de una película moderna de animación 3D: una mujer viajera estilizada y simpática de unos 58 años con sombrero de sol y una maleta pequeña camina feliz por una calle europea de adoquines bajo el sol, con edificios en tonos pastel y un café, iluminación global suave. En primer plano, un acercamiento enorme de sus pies: el zapato negro-turquesa de la referencia, un par, grande y claramente reconocible (cerca del 45% del cuadro), colores exactos, suela blanca ondulada y gruesa. Un titular enorme y pesado arriba en dos líneas: \"Los adoquines duelen.\" \"Estos no.\" Tres etiquetas en negrita con flechas hacia el zapato: \"Talón acolchado\", \"Punta ancha\", \"Suela con agarre\". Todo el texto de apoyo es grande y en negrita (cada línea de al menos 1/25 de la altura, máximo 5 palabras por etiqueta), alto contraste, sin letra fina ni pequeña. Los textos son solo negro, azul marino oscuro o blanco. El zapato mantiene sus proporciones reales, nunca comprimido, aplanado ni diminuto. Todo el texto en español exactamente como está entre comillas, con todos los acentos. Ningún otro texto, sin logos, sin insignias, sin botones.",
+   "twin_of": "T44_08_travel_cartoon3d_cobblestones",
+   "tags": [
+    "FP",
+    "ES"
+   ]
+  },
+  {
+   "id": "T44_09_travel_notes_packing_list_offer",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "traveler",
+   "colorway": "light_grey",
+   "benchmark": "pills_offer_studio",
+   "angle": "'2026's Favorite Shoes For Traveling' video (take-off to landing) moved into an iPhone Notes packing-list screenshot where the shoe is the last checked item; offer stack as small note lines",
+   "based_on": "TOFV1_JV1 | Travel COM211_h2 video ($1,897, 2.03 ROAS) + TOFV1_JW1 COM320 ($784, 2.38); kept: travel smart, comfortable from take-off to landing, airport/20,000-step days",
+   "style": "ugc",
+   "headline": "Packing for Europe? Don't forget this.",
+   "prompt": "Realistic iPhone Notes app screenshot, cream paper background, a large bold black title \"Packing for Europe? Don't forget this.\" and a checklist with big round yellow check circles, each line in large bold black type: \"Passport\", \"Phone charger\", \"Carry-on only\", and the last line highlighted: \"Comfy walking shoes\". The upper third is the note; below the note, a real phone photo of a light-grey shoe from the reference photo, a pair, resting on a suitcase in an airport terminal, large and sharp (about 40% of the frame), softly blurred departure hall. Three handwritten black labels with thin arrows to the shoe: \"Cushioned heel\", \"Lightweight\", \"No-tie laces\". Along the bottom, three small plain white note lines in a row: \"40% OFF\", \"30-DAY MONEY-BACK GUARANTEE\", \"FREE SHIPPING\". All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges, no buttons.",
+   "tags": [
+    "OFFER"
+   ]
+  },
+  {
+   "id": "T44_09_es_travel_notes_packing_list_offer",
+   "lang": "es",
+   "group": "iteration",
+   "persona": "traveler",
+   "colorway": "light_grey",
+   "benchmark": "pills_offer_studio",
+   "angle": "'2026's Favorite Shoes For Traveling' video (take-off to landing) moved into an iPhone Notes packing-list screenshot where the shoe is the last checked item; offer stack as small note lines",
+   "based_on": "TOFV1_JV1 | Travel COM211_h2 video ($1,897, 2.03 ROAS) + TOFV1_JW1 COM320 ($784, 2.38); kept: travel smart, comfortable from take-off to landing, airport/20,000-step days",
+   "style": "ugc",
+   "headline": "¿Empacando para Europa? No olvides esto.",
+   "prompt": "Captura realista de la app Notas de iPhone, fondo de papel crema, un título grande en negro \"¿Empacando para Europa? No olvides esto.\" y una lista con círculos amarillos grandes de palomita, cada línea en negro grande y en negrita: \"Pasaporte\", \"Cargador\", \"Solo maleta de mano\", y la última línea resaltada: \"Zapatos cómodos para caminar\". El tercio superior es la nota; debajo, una foto real tomada con celular de un zapato gris claro de la referencia, un par, sobre una maleta en la terminal de un aeropuerto, grande y nítido (cerca del 40% del cuadro), con la sala de salidas desenfocada. Tres etiquetas negras escritas a mano con flechas delgadas hacia el zapato: \"Talón acolchado\", \"Ligero\", \"Sin amarrar\". Abajo, tres líneas pequeñas de nota blanca en una fila: \"40% DE DESCUENTO\", \"GARANTÍA DE DEVOLUCIÓN DE 30 DÍAS\", \"ENVÍO GRATIS\". Todo el texto de apoyo es grande y en negrita (cada línea de al menos 1/25 de la altura, máximo 5 palabras por etiqueta), alto contraste, sin letra fina ni pequeña. Los textos son solo negro, azul marino oscuro o blanco. El zapato mantiene sus proporciones reales, nunca comprimido, aplanado ni diminuto. Todo el texto en español exactamente como está entre comillas, con todos los acentos. Ningún otro texto, sin logos, sin insignias, sin botones.",
+   "twin_of": "T44_09_travel_notes_packing_list_offer",
+   "tags": [
+    "OFFER",
+    "ES"
+   ]
+  },
+  {
+   "id": "T44_10_travel_swollen_feet_flight_callouts",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "traveler",
+   "colorway": "grey_pink",
+   "benchmark": "diagram_grey",
+   "angle": "Seasonal travel winner 'Travel smart. Travel comfortably.' moved into a clean white explainer: swollen feet after a flight, one big shoe, arrows to features (trending 'it's fluid' swelling explainer format)",
+   "based_on": "@TF - Kyro_253_1_V3 travel ($32,554 on the 2025 seasonal window, ROAS unreadable); kept: take-off to landing comfort, long flights and walking days",
+   "headline": "Swollen feet after the flight?",
+   "prompt": "Plain clean white background. Heavy black headline at the top in two lines: \"Swollen feet\" \"after the flight?\" Under it one large bold line in black: \"Take-off to landing. Then 20,000 steps.\" One big hero shoe in the center: the grey-pink shoe from the reference photo in a three-quarter side view, true proportions, about 50% of the frame, soft shadow. Three thin black hand-drawn curved arrows from the shoe to three large bold labels: \"STRETCH FIT FOR SWOLLEN FEET\", \"WIDE TOE BOX\", \"CUSHIONED HEEL\". Nothing else. All supporting text is large and bold (every line at least 1/25 of the canvas height, max 5 words per label), high contrast, no thin or small type. Text colors are only black, deep navy or white. The shoe keeps its true natural proportions, never compressed, flattened or tiny. No other text, no logos, no extra badges, no buttons.",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "T44_10_es_travel_swollen_feet_flight_callouts",
+   "lang": "es",
+   "group": "iteration",
+   "persona": "traveler",
+   "colorway": "grey_pink",
+   "benchmark": "diagram_grey",
+   "angle": "Seasonal travel winner 'Travel smart. Travel comfortably.' moved into a clean white explainer: swollen feet after a flight, one big shoe, arrows to features (trending 'it's fluid' swelling explainer format)",
+   "based_on": "@TF - Kyro_253_1_V3 travel ($32,554 on the 2025 seasonal window, ROAS unreadable); kept: take-off to landing comfort, long flights and walking days",
+   "headline": "¿Pies hinchados después del vuelo?",
+   "prompt": "Fondo blanco limpio y liso. Titular negro pesado arriba en dos líneas: \"¿Pies hinchados\" \"después del vuelo?\" Debajo una línea grande en negrita negra: \"Del despegue al aterrizaje. Y luego 20,000 pasos.\" Un zapato grande en el centro: el zapato gris-rosa de la referencia en vista de tres cuartos de lado, proporciones reales, cerca del 50% del cuadro, sombra suave. Tres flechas curvas delgadas negras dibujadas a mano del zapato a tres etiquetas grandes en negrita: \"AJUSTE ELÁSTICO PARA PIES HINCHADOS\", \"PUNTA ANCHA\", \"TALÓN ACOLCHADO\". Nada más. Todo el texto de apoyo es grande y en negrita (cada línea de al menos 1/25 de la altura, máximo 5 palabras por etiqueta), alto contraste, sin letra fina ni pequeña. Los textos son solo negro, azul marino oscuro o blanco. El zapato mantiene sus proporciones reales, nunca comprimido, aplanado ni diminuto. Todo el texto en español exactamente como está entre comillas, con todos los acentos. Ningún otro texto, sin logos, sin insignias, sin botones.",
+   "twin_of": "T44_10_travel_swollen_feet_flight_callouts",
+   "tags": [
+    "FP",
+    "ES"
+   ]
+  }
+ ]
+}

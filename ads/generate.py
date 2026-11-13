@@ -1,9 +1,8 @@
 """Generate static (and optional GIF) ads for a brand with OpenAI's image model.
 
-Every ad is rendered as a 4:5 image (1088x1360), then its background is
-extended to a 9:16 vertical (1088x1920) and the original 4:5 pixels are put
-back on top. So all text and product are guaranteed to sit in the 4:5 safe
-area, the 9:16 runs in Stories/Reels, and the _4x5.png runs in feed.
+Default (--layout feed, user rule Oct 18): ONE size, 4:5 (1088x1360), one high-quality render per
+ad, saved as <id>_vN.png. Older layouts: --layout native composes a 9:16 (1088x1920) for Stories/Reels
+then re-lays it out as a 4:5; --layout extend renders 4:5 then outpaints above and below it.
 
 Layout:
     ads/brands/<brand>/brand.json         brand, colorways, personas, language rules
@@ -11,6 +10,8 @@ Layout:
     ads/brands/<brand>/concepts.json      concept library / backlog
     ads/brands/<brand>/weeks/<week>/concepts.json   a weekly batch
     ...and output/ next to whichever concepts.json was used.
+
+Provider: --provider kie runs the same gpt-image-2 through kie.ai (KIE_API_KEY), about $0.05 per ad at 2K.
 
 Usage:
     python ads/generate.py --brand comfortwear --week 2026-W41          # whole weekly batch
@@ -28,24 +29,55 @@ import os
 import re
 from pathlib import Path
 
+import time
+
 import requests
 from dotenv import load_dotenv
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 
 ADS_DIR = Path(__file__).resolve().parent
 API_URL = "https://api.openai.com/v1/images/edits"
 SIZE = (1088, 1920)           # 9:16 deliverable
 CONTENT = (1088, 1360)        # 4:5 safe area, centered in SIZE
 TOP = (SIZE[1] - CONTENT[1]) // 2
-FEATHER = 48                  # px blended where the 4:5 content meets the extended edges
+OVERLAP = 120                 # px of the 4:5 edge the outpaint may redraw, so the scene flows across the seam
+FEATHER = 40                  # only the outermost px blend into the outpaint (wider blends ghost nearby text)
 FORMAT_RULE = (
-    "Vertical 4:5 canvas (even if the description below says square or 9:16). Keep text at least "
-    "4% away from the edges."
+    "Vertical 4:5 canvas (even if the description below says square or 9:16). Keep all text, faces, "
+    "products, badges and UI cards at least 12% away from the top and bottom edges (those bands hold only "
+    "background). The scene or background "
+    "must run all the way to every edge: no borders, frames, white bands, solid header/footer strips or "
+    "panels touching the top or bottom edge, so the image can be extended upward and downward seamlessly."
+)
+VERTICAL_RULE = (
+    "Tall vertical 9:16 canvas (even if the description below says square or 4:5), designed for Instagram "
+    "and Facebook Stories/Reels. Compose for the full height so the ad flows top to bottom with no empty, "
+    "blurred or filler bands: spread the layout over the whole frame (for example headline in the upper "
+    "third, the product or scene large in the middle, supporting copy or offer in the lower-middle). "
+    "Background and scene run edge to edge. Keep text, faces and the product out of the top 12% and the "
+    "bottom 18% of the frame (app UI covers them), but fill those areas with real scene or background, "
+    "never blur or blank them."
+)
+FEED_RULE = (
+    "Vertical 4:5 canvas for the Facebook and Instagram feed (even if the description below says square or "
+    "9:16). Compose natively for 4:5 and use the full frame: headline in the upper third, the product or "
+    "scene large in the middle, supporting copy or offer in the lower part. Keep at least 6% margin around "
+    "all text and nothing cut off. Background and scene run edge to edge, with no blurred, empty or filler bands."
+)
+FEED_PROMPT = (
+    "Re-lay out the first image (a 9:16 ad) as the same ad on a 4:5 vertical canvas for the Facebook and "
+    "Instagram feed. Keep the identical headline and every word of copy (spelled exactly the same), the "
+    "same colors, fonts, scene, people and product, but rearrange spacing and sizes so everything fits "
+    "comfortably inside 4:5 with nothing cut off and nothing squeezed. Do not crop text, do not add "
+    "anything new. Keep at least 6% margin around all text. The product must still match the second "
+    "image exactly, at natural proportions."
 )
 EXTEND_PROMPT = (
-    "Fill only the transparent top and bottom areas by naturally continuing the image's background "
-    "(same scene, colors, lighting and perspective). Do not add any text, logos, people, products "
-    "or new objects there."
+    "Extend this image to a taller 9:16 frame. Fill the transparent top and bottom areas by continuing "
+    "the existing scene exactly: same surfaces, walls, sky, gradients, textures, lighting, grain and "
+    "perspective, so it reads as one continuous photo or illustration with no visible seam, band, "
+    "line, color shift or change in sharpness where old and new meet. Objects cut off at the edge "
+    "continue naturally. Do not add any text, logos, people, products or new objects."
 )
 
 
@@ -67,8 +99,9 @@ def learned_preferences(bdir, concept_id):
     # this concept's own feedback first, then the most recent general feedback
     fb.sort(key=lambda f: f["date"], reverse=True)
     fb.sort(key=lambda f: f["concept"] != concept_id)
-    liked = [f["notes"] for f in fb if f["verdict"] == "approve"][:8]
-    disliked = [f["notes"] for f in fb if f["verdict"] == "reject"][:8]
+    # dict.fromkeys drops repeated notes (e.g. one verdict logged on a whole batch) but keeps the order
+    liked = list(dict.fromkeys(f["notes"] for f in fb if f["verdict"] == "approve"))[:8]
+    disliked = list(dict.fromkeys(f["notes"] for f in fb if f["verdict"] == "reject"))[:8]
     lines = []
     if liked:
         lines.append("The creative director approved past ads for: " + "; ".join(liked) + ".")
@@ -81,6 +114,9 @@ def reference_for(bdir, brand, concept):
     """Resolve the product photo: explicit reference_image, else the concept's colorway."""
     if concept.get("reference_image"):
         return bdir / concept["reference_image"]
+    if concept.get("no_product") and not concept.get("colorway"):
+        # text-only ads still send a product photo for brand context (the prompt says not to show it)
+        return bdir / next(iter(brand["colorways"].values()))["file"]
     colorway = concept["colorway"]
     persona = brand.get("personas", {}).get(concept.get("persona"), {})
     allowed = persona.get("colorways", "any")
@@ -97,9 +133,85 @@ ILLUSTRATED_RULE = ("This ad is an illustration, not a photo: render the whole s
                     "recognizable as the product in the reference photo. Do not give the product a face unless asked.")
 
 
-def build_prompt(bdir, brand, concept, extra):
-    parts = [FORMAT_RULE, concept["prompt"]]
-    if concept.get("colorway"):
+BENCHMARK_RULE = (
+    "The FIRST attached image is the product reference. The SECOND attached image is one of this brand's own "
+    "top-performing ads: match its production quality, photo realism, product size and sharpness, typography "
+    "weight and scale, and layout cleanliness. NEVER copy any of its words, headlines, offers or badges; the only "
+    "words allowed in the image are the quoted words in the description. Only follow its layout as far as the "
+    "description above asks."
+)
+
+
+UGC_RULE = ("This must look like a real, unedited phone photo or a real screenshot taken by an ordinary person, "
+            "not an ad render: natural uneven daylight or indoor light, slightly imperfect framing and focus falloff, "
+            "real everyday surroundings, real middle-aged and older women with natural skin, visible creases and "
+            "ordinary hands, real clothing, ordinary clutter. No studio lighting, no glossy or airbrushed look, no "
+            "perfect stock-photo faces, no dramatic color grading, no 3D render look. Text overlays are simple "
+            "and flat like a phone editing app, handwritten notes or stickers look hand-made. The shoe stays the exact "
+            "product from the reference at true proportions.")
+LETTER_RULE = ("This is a text-first native ad: a plain typed letter, email, founder note or announcement, like the "
+               "attached format reference. It must read as a real note, not a designed ad: plain background, simple "
+               "system-style sans or serif type, left-aligned short paragraphs with blank lines between them, bold or "
+               "underline only on the key phrases the description names. Render every quoted word exactly, in order, "
+               "with nothing added. Body text is large for readers aged 60+: each line at least about 1/32 of the canvas "
+               "height, dark text on a light background (or white on dark), generous margins, never small or light grey. "
+               "If the description shows the product, it is the exact shoe from the product reference at true natural "
+               "proportions, placed where the description says.")
+LETTER_BENCH_RULE = ("The SECOND attached image is the FORMAT reference (another brand's ad): recreate its layout, structure, "
+                     "type treatment, emphasis style and overall feel closely, but use only the words in the description. "
+                     "Never show that brand's product, name, logo or signature. Never copy or show ANY word from that reference "
+                     "image, never add a headline or caption the description does not ask for, and render each quoted text exactly once.")
+LOGO_RULE = ("The LAST attached image is the brand's own logo. Wherever the description says to show the logo, reproduce "
+             "it exactly (same wordmark, letter shapes, icon and color), clean and fully legible, printed naturally on "
+             "that surface; nowhere else. This overrides the no-logos rule for this logo only.")
+COPY_BENCH_RULE = ("The SECOND attached image is this brand's own approved ad: reproduce it as exactly as possible (layout, "
+                   "every word, type, sizes, colors, signature, stickers), changing only what the description says. "
+                   "The shoe still matches the FIRST attached product reference exactly.")
+UGC_BENCH_RULE = ("The SECOND attached image is a past ad of this brand: use it only as a loose reference for how big and "
+                  "bold the headline and labels are; do NOT match its glossy studio look. NEVER copy any of its words, "
+                  "headlines, offers or badges (e.g. 'Almost sold out', award or teacher lines): the only words allowed "
+                  "in the image are the quoted words in the description.")
+
+
+def benchmark_for(bdir, brand, concept):
+    """The brand ad attached as a quality/style reference: concept['benchmark'] names a key in brand.json."""
+    key = concept.get("benchmark")
+    if not key:
+        return None
+    entry = brand.get("benchmarks", {}).get(key)
+    if not entry:
+        print(f"  note: unknown benchmark '{key}'")
+        return None
+    return bdir / entry["file"]
+
+
+def input_images(bdir, brand, concept, ref, ref_bytes):
+    images = [(ref.name, ref_bytes)]
+    bench = benchmark_for(bdir, brand, concept)
+    if bench:
+        images.append((f"benchmark{bench.suffix}", bench.read_bytes()))
+    if concept.get("logo") and brand.get("logo_file"):
+        logo = bdir / brand["logo_file"]
+        images.append((f"logo{logo.suffix}", logo.read_bytes()))
+    return images
+
+
+def build_prompt(bdir, brand, concept, extra, layout_rule=FORMAT_RULE):
+    if concept.get("format") in brand.get("banned_formats", []):
+        raise SystemExit(f"{concept['id']}: format '{concept['format']}' is banned for this brand "
+                         f"({brand.get('banned_style_note', 'see brand.json banned_formats')}). Rewrite the concept.")
+    parts = [layout_rule, concept["prompt"]]
+    ov = concept.get("overlay")
+    if ov:
+        where = "top" if ov.get("pos", "top") == "top" else "bottom"
+        parts.append(f"Leave the {where} 34% of the canvas as a calm, uncluttered area (plain wall, sky, backdrop or soft out-of-focus "
+                     f"background; no product, no busy detail) because a headline will be added there afterwards. Do NOT render the headline "
+                     f"or any caption/tagline text yourself; render only the small labels explicitly quoted above, if any.")
+    shapes = brand.get("appliance_shapes", {})
+    for key in ([concept["appliance"]] if isinstance(concept.get("appliance"), str) else concept.get("appliance", [])):
+        if key in shapes:
+            parts.append(shapes[key])
+    if concept.get("colorway") and not concept.get("no_product"):
         template = brand.get("colorway_template", "The product is the {label} shown in the reference photo.")
         parts.append(template.format(label=brand['colorways'][concept['colorway']]['label']))
     parts.append(f"Brand styling: {brand['palette']}; {brand['font_style']}.")
@@ -107,13 +219,32 @@ def build_prompt(bdir, brand, concept, extra):
     if guide:
         parts.append(guide)
     rules = brand["prompt_rules"]
+    if concept.get("no_product"):
+        # Native/lo-fi images without the product: drop the product-fidelity rule (always the first rule).
+        rules = rules[1:] + ["The attached product reference photo is for brand context only: do NOT show that "
+                             "product (or anything resembling it) anywhere in this image."]
     if concept.get("format") in ILLUSTRATED:
         # Cartoon/animation formats: drop the photo-quality rule, keep the product recognizable.
         rules = [r for r in rules if "photography" not in r.lower()] + [ILLUSTRATED_RULE]
+    ugc = concept.get("style") == "ugc"
+    letter = concept.get("style") == "letter"
+    if ugc:
+        rules = [r for r in rules if "photography" not in r.lower()] + [brand.get("ugc_rule", UGC_RULE)]
+    if letter:
+        rules = [r for r in rules if "photography" not in r.lower()] + [LETTER_RULE]
     parts += rules
     lang = concept.get("lang", "en")
     if lang != "en":
         parts.append(brand["language_rules"][lang])
+    if not letter:  # the letter style replaces the shoe-hero/headline quality bar with LETTER_RULE
+        parts += brand.get("quality_bar_ugc", []) if ugc and brand.get("quality_bar_ugc") else brand.get("quality_bar", [])
+    if benchmark_for(bdir, brand, concept):
+        # format_ref: the benchmark is another brand's ad the user supplied as a layout to recreate
+        # copy_of: the benchmark is one of our own approved renders, re-made with a change (e.g. another colorway)
+        parts.append(COPY_BENCH_RULE if concept.get("copy_of") else
+                     LETTER_BENCH_RULE if letter or concept.get("format_ref") else UGC_BENCH_RULE if ugc else BENCHMARK_RULE)
+    if concept.get("logo") and brand.get("logo_file"):
+        parts.append(LOGO_RULE)
     prefs = learned_preferences(bdir, concept["id"])
     if prefs:
         parts.append(prefs)
@@ -134,7 +265,64 @@ def log_usage(args, kind, quality, usage):
         f.write(json.dumps({"kind": kind, "quality": quality, "cost_usd": round(cost, 4), **usage}) + "\n")
 
 
+KIE_API = "https://api.kie.ai/api/v1/jobs"
+KIE_UPLOAD = "https://kieai.redpandaai.co/api/file-base64-upload"
+KIE_PRICE = {"1K": 0.03, "2K": 0.05, "4K": 0.08}   # gpt-image-2 on kie.ai, USD per image (kie.ai/gpt-image-2)
+
+
+def kie_ratio(size):
+    """Closest aspect ratio kie's gpt-image-2 offers (no 4:5): 3:4 for the feed, 9:16 for the tall size."""
+    return "9:16" if size[1] / size[0] > 1.5 else "3:4"
+
+
+def call_kie(prompt, images, args, size, kind):
+    """Same gpt-image-2 model via kie.ai (about $0.05 per 2K image vs about $0.21 direct). Inputs are uploaded
+    as temporary files (kie deletes them after 24h), the 3:4 result is center-cropped to 4:5 by fit()."""
+    key = os.getenv("KIE_API_KEY") or os.getenv("KIE_AI")
+    if not key:
+        raise RuntimeError("KIE_API_KEY / KIE_AI is not set (add it to the cloud environment's secrets)")
+    auth = {"Authorization": f"Bearer {key}"}
+    urls = []
+    for name, blob in images:
+        r = requests.post(KIE_UPLOAD, headers=auth, timeout=120, json={
+            "base64Data": "data:image/png;base64," + base64.b64encode(blob).decode(),
+            "uploadPath": "comfortwear-ads", "fileName": f"{int(time.time() * 1000)}_{name}"})
+        body = r.json()
+        if body.get("code") != 200:
+            raise RuntimeError(f"kie upload failed: {str(body)[:300]}")
+        urls.append(body["data"]["downloadUrl"])
+    if kie_ratio(size) == "3:4":
+        prompt += ("\n\nThe image is 3:4: keep at least 4% empty margin above the top line of text and below the "
+                   "bottom element, and plain continuous background along the left and right edges.")
+    r = requests.post(f"{KIE_API}/createTask", headers=auth, timeout=60, json={
+        "model": "gpt-image-2-image-to-image",
+        "input": {"prompt": prompt, "input_urls": urls, "aspect_ratio": kie_ratio(size),
+                  "resolution": args.kie_resolution}})
+    body = r.json()
+    if body.get("code") != 200:
+        raise RuntimeError(f"kie createTask failed: {str(body)[:300]}")
+    task = body["data"]["taskId"]
+    for _ in range(180):  # up to 15 minutes
+        time.sleep(5)
+        data = requests.get(f"{KIE_API}/recordInfo", headers=auth, params={"taskId": task}, timeout=60).json().get("data") or {}
+        state = data.get("state")
+        if state == "success":
+            result = json.loads(data["resultJson"]) if isinstance(data.get("resultJson"), str) else data.get("resultJson", {})
+            img = requests.get(result["resultUrls"][0], timeout=120).content
+            with open(args.usage_log, "a") as f:
+                f.write(json.dumps({"kind": kind, "quality": f"kie-{args.kie_resolution}",
+                                    "cost_usd": KIE_PRICE[args.kie_resolution], "task_id": task}) + "\n")
+            return fit_pad(Image.open(io.BytesIO(img)).convert("RGB"), size)
+        if state == "fail":
+            raise RuntimeError(f"kie task failed: {data.get('failMsg') or data.get('failCode')}")
+    raise RuntimeError(f"kie task {task} timed out")
+
+
 def call_api(prompt, images, args, api_key, size=CONTENT, mask=None, kind="static", quality=None):
+    if args.provider == "kie":
+        if mask:
+            raise RuntimeError("--provider kie has no mask support: use --layout feed or native")
+        return call_kie(prompt, images, args, size, kind)
     files = [("image[]", (name, blob, "image/png")) for name, blob in images]
     if mask:
         files.append(("mask", ("mask.png", mask, "image/png")))
@@ -147,7 +335,131 @@ def call_api(prompt, images, args, api_key, size=CONTENT, mask=None, kind="stati
     body = resp.json()
     log_usage(args, kind, quality or args.quality, body.get("usage", {}))
     img = Image.open(io.BytesIO(base64.b64decode(body["data"][0]["b64_json"]))).convert("RGB")
-    return img if img.size == size else img.resize(size, Image.LANCZOS)
+    return fit(img, size)
+
+
+def fit(img, size):
+    """Scale to `size` without distortion: center-crop to the target aspect first.
+
+    A plain resize between different aspect ratios squashes the product (e.g. a
+    2:3 return forced into 4:5 makes the shoe look compressed).
+    """
+    if img.size == size:
+        return img
+    tw, th = size
+    w, h = img.size
+    if w * th > h * tw:                      # too wide: trim the sides
+        nw = round(h * tw / th)
+        img = img.crop(((w - nw) // 2, 0, (w - nw) // 2 + nw, h))
+    elif w * th < h * tw:                    # too tall: trim top and bottom
+        nh = round(w * th / tw)
+        img = img.crop((0, (h - nh) // 2, w, (h - nh) // 2 + nh))
+    if img.size != size:
+        print(f"  note: API returned {w}x{h}; center-cropped to {tw}:{th} instead of stretching")
+    return img.resize(size, Image.LANCZOS)
+
+
+def fit_pad(img, size):
+    """Kie returns 3:4 for our 4:5: cropping cut off headlines and offer bars at the top/bottom, so keep the
+    whole image and fill the thin side gaps (~3% each side) with a blurred, stretched copy of itself."""
+    from PIL import ImageFilter
+    tw, th = size
+    w, h = img.size
+    if w * th >= h * tw:          # not taller than the target: the normal crop is fine
+        return fit(img, size)
+    nw = round(w * th / h)
+    fg = img.resize((nw, th), Image.LANCZOS)
+    bg = img.resize(size, Image.LANCZOS).filter(ImageFilter.GaussianBlur(40))
+    bg.paste(fg, ((tw - nw) // 2, 0))
+    return bg
+
+
+def render_native(bdir, brand, concept, ref, ref_bytes, args, api_key):
+    """Compose the 9:16 for its full height, then re-lay it out as the 4:5 feed version."""
+    full = call_api(build_prompt(bdir, brand, concept, args.extra, VERTICAL_RULE),
+                    input_images(bdir, brand, concept, ref, ref_bytes), args, api_key, size=SIZE)
+    # a half-size copy of the 9:16 is enough to re-lay it out and halves the input image tokens
+    small = full.resize((SIZE[0] // 2, SIZE[1] // 2), Image.LANCZOS)
+    content = call_api(FEED_PROMPT, [("ad_9x16.png", png_bytes(small)), (ref.name, ref_bytes)], args, api_key,
+                       size=CONTENT, kind="feed", quality=args.feed_quality)
+    return content, full
+
+
+FONT_DIR = ADS_DIR / "fonts"
+OVERLAY_DEFAULT = {"headline_px": 72, "sub_px": 38, "margin": 72, "max_lines": 3, "line_gap": 1.12,
+                   "headline_font": "inter-latin-700-normal.woff", "sub_font": "inter-latin-500-normal.woff",
+                   "num_font": "barlow-latin-700-normal.woff"}
+
+
+def _wrap(draw, text, font, width):
+    lines, cur = [], ""
+    for word in text.split():
+        trial = (cur + " " + word).strip()
+        if draw.textlength(trial, font=font) <= width or not cur:
+            cur = trial
+        else:
+            lines.append(cur)
+            cur = word
+    if cur:
+        lines.append(cur)
+    return lines
+
+
+def overlay_text(img, concept, brand):
+    """Set the headline (and optional sub line) in the brand font at ONE fixed size on every ad (user rule Oct 28:
+    headline size must be identical across a batch). concept['overlay'] = {headline, sub?, pos: top|bottom, tone: dark|light}.
+    Text is drawn by us (exact spelling, real Inter), not by the image model."""
+    ov = concept.get("overlay")
+    if not ov:
+        return img
+    spec = {**OVERLAY_DEFAULT, **brand.get("overlay_spec", {})}
+    w, h = img.size
+    hf = ImageFont.truetype(str(FONT_DIR / spec["headline_font"]), spec["headline_px"])
+    sf = ImageFont.truetype(str(FONT_DIR / spec["sub_font"]), spec["sub_px"])
+    d0 = ImageDraw.Draw(img)
+    width = w - 2 * spec["margin"]
+    hl = _wrap(d0, ov["headline"], hf, width)
+    if len(hl) > spec["max_lines"]:
+        raise ValueError(f"headline wraps to {len(hl)} lines (max {spec['max_lines']}): shorten it: {ov['headline']!r}")
+    sl = _wrap(d0, ov["sub"], sf, width) if ov.get("sub") else []
+    hh = round(spec["headline_px"] * spec["line_gap"])
+    sh = round(spec["sub_px"] * 1.25)
+    block = hh * len(hl) + (18 + sh * len(sl) if sl else 0)
+    top = ov.get("pos", "top") == "top"
+    y0 = spec["margin"] if top else h - spec["margin"] - block
+    light = ov.get("tone", "dark") == "light"
+    # soft scrim so the text always has contrast, without hiding the photo
+    scrim_h = block + spec["margin"] * 2
+    scrim = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(scrim)
+    rgb, peak = ((11, 31, 58), 0.72) if light else ((255, 255, 255), 0.80)
+    if ov.get("scrim", True):
+        for i in range(scrim_h):
+            t = 1 - i / scrim_h if top else i / scrim_h
+            a = int(255 * peak * min(1, t * 1.6))
+            yy = i if top else h - scrim_h + i
+            sd.line([(0, yy), (w, yy)], fill=rgb + (a,))
+    img = Image.alpha_composite(img.convert("RGBA"), scrim)
+    d = ImageDraw.Draw(img)
+    col = (255, 255, 255) if light else (14, 40, 60)
+    accent = (17, 136, 255)
+    y = y0
+    for ln in hl:
+        d.text((spec["margin"], y), ln, font=hf, fill=col)
+        y += hh
+    if sl:
+        y += 18
+        for ln in sl:
+            d.text((spec["margin"], y), ln, font=sf, fill=(235, 242, 250) if light else (14, 40, 60))
+            y += sh
+    return img.convert("RGB")
+
+
+def render_feed(bdir, brand, concept, ref, ref_bytes, args, api_key):
+    """One 4:5 render, composed natively (user rule, Oct 18: single size, 4:5 only)."""
+    img = call_api(build_prompt(bdir, brand, concept, args.extra, FEED_RULE),
+                   input_images(bdir, brand, concept, ref, ref_bytes), args, api_key, size=CONTENT, kind="feed")
+    return overlay_text(img, concept, brand)
 
 
 def extend_to_9x16(content, args, api_key):
@@ -158,8 +470,13 @@ def extend_to_9x16(content, args, api_key):
     """
     canvas = Image.new("RGBA", SIZE, (0, 0, 0, 0))
     canvas.paste(content.convert("RGBA"), (0, TOP))
-    blob = png_bytes(canvas)
-    edges = call_api(EXTEND_PROMPT, [("canvas.png", blob)], args, api_key, size=SIZE, mask=blob,
+    image = png_bytes(canvas)
+    # The mask also opens OVERLAP px inside the 4:5 edges, so the model redraws across the seam.
+    mask = canvas.copy()
+    clear = Image.new("RGBA", (SIZE[0], OVERLAP), (0, 0, 0, 0))
+    mask.paste(clear, (0, TOP))
+    mask.paste(clear, (0, TOP + CONTENT[1] - OVERLAP))
+    edges = call_api(EXTEND_PROMPT, [("canvas.png", image)], args, api_key, size=SIZE, mask=png_bytes(mask),
                      kind="extend", quality=args.extend_quality)
     return composite(content, edges)
 
@@ -167,7 +484,8 @@ def extend_to_9x16(content, args, api_key):
 def composite(content, edges):
     alpha = Image.new("L", CONTENT, 255)
     for i in range(FEATHER):
-        v = int(255 * (i + 1) / FEATHER)
+        t = (i + 1) / FEATHER
+        v = int(255 * t * t * (3 - 2 * t))  # smoothstep: no visible ramp edge
         alpha.paste(v, (0, i, CONTENT[0], i + 1))
         alpha.paste(v, (0, CONTENT[1] - 1 - i, CONTENT[0], CONTENT[1] - i))
     out = edges.copy()
@@ -182,6 +500,9 @@ def png_bytes(img):
 
 
 def save_static(content, full, out_dir, stem):
+    if full is None:                          # feed layout: the single 4:5 static is <stem>.png
+        content.save(out_dir / f"{stem}.png")
+        return
     full.save(out_dir / f"{stem}.png")
     content.save(out_dir / f"{stem}_4x5.png")
 
@@ -195,25 +516,30 @@ def render_gif(content, full, ref_bytes, concept, out_dir, stem, args, api_key):
     plays them in reverse, so it builds up and ends (and holds) on the full ad.
     """
     gif = concept["gif"]
-    frames, durations = [content], [gif.get("first_ms", 1400)]
+    feed = args.layout == "feed"
+    native = args.layout in ("native", "feed")
+    # feed: frames are edits of the 4:5; native: edits of the full 9:16; extend: edits of the 4:5, reusing the static's extended bands
+    base, size, rule = ((content, CONTENT, FEED_RULE) if feed else (full, SIZE, VERTICAL_RULE) if native
+                        else (content, CONTENT, FORMAT_RULE))
+    frames, durations = [base], [gif.get("first_ms", 1400)]
     for i, step in enumerate(gif["frames"], start=2):
         print(f"  gif frame {i}/{len(gif['frames']) + 1}", flush=True)
         prompt = (
             "Edit this ad. Keep everything identical (layout, background, every word of text, the shoe, "
             f"lighting, framing) except this change: {step['edit']} "
-            "The product must still match the second image exactly. " + FORMAT_RULE
+            "The product must still match the second image exactly. " + rule
         )
         frame = call_api(prompt, [("frame.png", png_bytes(frames[-1])), ("product.png", ref_bytes)], args, api_key,
-                         kind="gif", quality=args.gif_quality)
+                         size=size, kind="gif", quality=args.gif_quality)
         frames.append(frame)
-        composite(frame, full).save(out_dir / f"{stem}_f{i}.png")
+        (frame if native else composite(frame, full)).save(out_dir / f"{stem}_f{i}.png")
         durations.append(step.get("ms", 1400))
     if gif.get("build"):
         # frames were made by removing elements from the finished ad; play them back so it builds up
         frames, durations = frames[::-1], durations[1:][::-1] + durations[:1]
-    # every frame reuses the static's extended top and bottom, so only the 4:5 area changes
-    frames = [composite(f, full) for f in frames]
-    small = [f.resize((544, 960), Image.LANCZOS).quantize(colors=200, method=Image.Quantize.MEDIANCUT) for f in frames]
+    if not native:
+        frames = [composite(f, full) for f in frames]
+    small = [f.resize((544, 680) if feed else (544, 960), Image.LANCZOS).quantize(colors=200, method=Image.Quantize.MEDIANCUT) for f in frames]
     small[0].save(out_dir / f"{stem}.gif", save_all=True, append_images=small[1:],
                   duration=durations, loop=0, optimize=True)
     print(f"  saved {stem}.gif ({len(frames)} frames)")
@@ -233,12 +559,25 @@ def main():
     p.add_argument("--week", help="weekly batch folder, e.g. 2026-W41 (default: the brand's concept library)")
     p.add_argument("--gif", action="store_true", help="also render GIFs for concepts that define them")
     p.add_argument("--gif-only", action="store_true", help="render GIFs from existing statics without regenerating them")
-    p.add_argument("--quality", default="medium", help="main 4:5 render: low | medium | high (high for product close-ups)")
-    p.add_argument("--extend-quality", default="low", help="9:16 background extension (outside the safe area)")
+    p.add_argument("--quality", default=os.getenv("ADS_QUALITY", "high"), help="main render: low | medium | high (default high: a single 4:5 render per ad, user rule Oct 18)")
+    p.add_argument("--layout", choices=["feed", "native", "extend"], default=os.getenv("ADS_LAYOUT", "feed"),
+                   help="feed: ONE 4:5 render, composed natively (default, user rule Oct 18); native: compose the 9:16 for its full height, then re-lay out a 4:5 (default); "
+                        "extend: render 4:5 and outpaint background above/below (older method)")
+    p.add_argument("--feed-quality", default=None, help="native layout: the 4:5 re-layout render (default: same as --quality)")
+    p.add_argument("--reextend", action="store_true", help="extend layout only: rebuild the 9:16 from the existing 4:5")
+    p.add_argument("--extend-quality", default="medium", help="9:16 background extension (outside the safe area)")
     p.add_argument("--gif-quality", default="medium", help="GIF frames (shown at 544x960, 200 colors)")
     p.add_argument("--model", default=os.getenv("OPENAI_IMAGE_MODEL", "gpt-image-2"))
     p.add_argument("--extra", default="", help="extra instruction appended to every prompt")
+    p.add_argument("--provider", default=os.getenv("ADS_PROVIDER", "auto"), choices=["auto", "openai", "kie"],
+                   help="auto (default, user rule 2026-10-30): kie.ai when KIE_API_KEY is set, else OpenAI at high quality. "
+                        "kie = same gpt-image-2 via kie.ai, ~$0.05/ad at 2K; openai = direct, ~$0.21/ad at high")
+    p.add_argument("--kie-resolution", choices=["1K", "2K", "4K"], default="2K")
     args = p.parse_args()
+    args.feed_quality = args.feed_quality or args.quality
+    if args.provider == "auto":
+        args.provider = "kie" if (os.getenv("KIE_API_KEY") or os.getenv("KIE_AI")) else "openai"
+    print(f"Image provider: {args.provider}" + (f" ({args.kie_resolution})" if args.provider == "kie" else f" ({args.quality})"), flush=True)
 
     # Without OPENAI_API_KEY the request goes out unauthenticated, which works
     # when the key is configured as a network secret the proxy attaches.
@@ -257,16 +596,31 @@ def main():
         ref = reference_for(bdir, brand, c)
         ref_bytes = ref.read_bytes()
         try:
-            if args.gif_only:
+            if args.reextend:
                 stem = f"{c['id']}_v{versions(out_dir, c['id'])[-1]}"
                 content = Image.open(out_dir / f"{stem}_4x5.png").convert("RGB")
-                full = Image.open(out_dir / f"{stem}.png").convert("RGB")
+                extend_to_9x16(content, args, api_key).save(out_dir / f"{stem}.png")
+                print(f"  re-extended {stem}.png")
+                continue
+            if args.gif_only:
+                stem = f"{c['id']}_v{versions(out_dir, c['id'])[-1]}"
+                if (out_dir / f"{stem}_4x5.png").exists():
+                    content = Image.open(out_dir / f"{stem}_4x5.png").convert("RGB")
+                    full = Image.open(out_dir / f"{stem}.png").convert("RGB")
+                else:                         # feed layout: single 4:5 static
+                    content, full = Image.open(out_dir / f"{stem}.png").convert("RGB"), None
             else:
                 stem = f"{c['id']}_v{(versions(out_dir, c['id']) or [0])[-1] + 1}"
-                content = call_api(build_prompt(bdir, brand, c, args.extra), [(ref.name, ref_bytes)], args, api_key)
-                full = extend_to_9x16(content, args, api_key)
+                if args.layout == "feed":
+                    content, full = render_feed(bdir, brand, c, ref, ref_bytes, args, api_key), None
+                elif args.layout == "native":
+                    content, full = render_native(bdir, brand, c, ref, ref_bytes, args, api_key)
+                else:
+                    content = call_api(build_prompt(bdir, brand, c, args.extra),
+                                       input_images(bdir, brand, c, ref, ref_bytes), args, api_key)
+                    full = extend_to_9x16(content, args, api_key)
                 save_static(content, full, out_dir, stem)
-                print(f"  saved {(out_dir / stem).relative_to(ADS_DIR.parent)}.png (+ _4x5)")
+                print(f"  saved {(out_dir / stem).relative_to(ADS_DIR.parent)}.png" + ("" if full is None else " (+ _4x5)"))
             if (args.gif or args.gif_only) and c.get("gif"):
                 render_gif(content, full, ref_bytes, c, out_dir, stem, args, api_key)
         except Exception as e:

@@ -110,5 +110,11 @@
   "competitor_brands": [
     "direct competitors",
     "plus 8–12 adjacent DTC brands in the category"
+  ],
+  "naming_rule": "what to call the product for cold audiences (e.g. 'ultrasonic cleaner') vs brand name usage",
+  "copy_rules": [
+    "direct-response style and how aggressive/controversial to be",
+    "which pain points must be explicit and visual (top purchase reasons from the survey)",
+    "funnel split, e.g. ~65% top-of-funnel / ~35% offer"
   ]
 }
