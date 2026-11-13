@@ -44,6 +44,7 @@ y 0.18 and 0.72: that is inside the 4:5 feed crop and clear of the TikTok/Reels 
 import argparse
 import json
 import math
+import re
 import shutil
 import subprocess
 import sys
@@ -297,6 +298,28 @@ def cut_clip(i, clip, src_path, meta, tmp):
     return out.with_suffix(".mov"), dur
 
 
+def speech_segments(path, silence_db=-40, min_pause=0.25):
+    """(start, end) of each spoken line in a voiceover take, split at pauses >= min_pause."""
+    out = subprocess.run(["ffmpeg", "-v", "info", "-i", str(path), "-af",
+                          f"silencedetect=noise={silence_db}dB:d={min_pause}", "-f", "null", "-"],
+                         capture_output=True, text=True).stderr
+    dur = probe_audio_duration(path)
+    starts = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", out)]
+    ends = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", out)]
+    segs, cur = [], 0.0
+    for s, e in zip(starts, ends + [dur] * (len(starts) - len(ends))):
+        if s - cur > 0.15:
+            segs.append((cur, s))
+        cur = e
+    if dur - cur > 0.15:
+        segs.append((cur, dur))
+    return segs
+
+
+def probe_audio_duration(path):
+    return float(run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)]).strip())
+
+
 def brand_dir(edit_path):
     for d in edit_path.parents:
         if (d / "brand.json").exists():
@@ -362,6 +385,27 @@ def build(edit_path, sheet_every=1.5, feed=True):
                           "gain": card.get("gain", 1.0),
                           "transition": edit.get("end_card_transition", "fade"),
                           "transition_duration": edit.get("end_card_transition_duration", 0.35)})
+
+        # voiceover: split the take at its pauses (one line per content scene) and size each scene
+        # so its line fits: window = lead + line + tail (at least the clip's "min" seconds)
+        vo = edit.get("voiceover")
+        vo_path, vo_segs = None, []
+        if vo:
+            vo_path = edit_path.parent / vo["file"]
+            vo_path = vo_path if vo_path.exists() else resolve_source(vo["file"])
+            vo_segs = vo.get("segments") or speech_segments(vo_path, vo.get("silence_db", -40), vo.get("min_pause", 0.25))
+            if len(vo_segs) != n_content:
+                raise SystemExit(f"voiceover has {len(vo_segs)} lines but there are {n_content} scenes: "
+                                 f"{[(round(a, 2), round(b, 2)) for a, b in vo_segs]}")
+            lead, tail = float(vo.get("lead", 0.12)), float(vo.get("tail", 0.3))
+            nominal = [0.0] + [float(c.get("transition_duration", edit.get("transition_duration", 0.25)))
+                               if c.get("transition", edit.get("transition", "fade")) != "cut" else 1.0 / FPS
+                               for c in clips[1:]] + [0.0]
+            for i in range(n_content):
+                a, b = vo_segs[i]
+                window = max(float(clips[i].get("min", 1.6)), lead + (b - a) + tail)
+                d = window + nominal[i] / 2 + nominal[i + 1] / 2
+                clips[i]["out"] = round(float(clips[i]["in"]) + d * float(clips[i].get("speed", 1.0)), 3)
         parts, durs, fades = [], [], []
         for i, clip in enumerate(clips):
             meta = metas[clip["src"]]
@@ -413,14 +457,38 @@ def build(edit_path, sheet_every=1.5, feed=True):
             g.append(f"[{vl}][cp{j}]overlay=0:{y}:eof_action=pass:enable='between(t,{s:.3f},{e:.3f})'[vc{j}]")
             vl = f"vc{j}"
 
+        next_in = n + len(edit.get("captions", []))
         music = edit.get("music")
         if music and music.get("file"):
             inputs += ["-stream_loop", "-1", "-i", str(resolve_source(music["file"]))]
-            m = n + len(edit.get("captions", []))
-            g.append(f"[{m}:a]aformat=sample_fmts=fltp:channel_layouts=stereo,volume={music.get('gain', 0.25)},"
+            g.append(f"[{next_in}:a]aformat=sample_fmts=fltp:channel_layouts=stereo,volume={music.get('gain', 0.25)},"
                      f"atrim=0:{total:.3f},afade=t=out:st={max(0, total - 0.6):.3f}:d=0.6[mus];"
                      f"[{al}][mus]amix=inputs=2:normalize=0[amix]")
             al = "amix"
+            next_in += 1
+
+        # voiceover lines, each placed at the start of its scene; then the end card's line
+        placed = []
+        if vo_path:
+            inputs += ["-i", str(vo_path)]
+            vin, gain = next_in, float(vo.get("gain", 1.0))
+            next_in += 1
+            g.append(f"[{vin}:a]aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo,"
+                     f"volume={gain},asplit={len(vo_segs)}" + "".join(f"[vs{i}]" for i in range(len(vo_segs))))
+            for i, (a, b) in enumerate(vo_segs):
+                at = int((win[i][0] + float(vo.get("lead", 0.12))) * 1000)
+                g.append(f"[vs{i}]atrim={max(0, a - 0.04):.3f}:{b + 0.08:.3f},asetpts=PTS-STARTPTS,"
+                         f"afade=t=in:d=0.02,afade=t=out:st={b - a + 0.06:.3f}:d=0.06,adelay={at}:all=1[vp{i}]")
+                placed.append(f"[vp{i}]")
+            if card and card.get("vo"):
+                inputs += ["-i", str(resolve_source(card["vo"]))]
+                at = int((win[-1][0] + float(card.get("vo_delay", 0.35))) * 1000)
+                g.append(f"[{next_in}:a]aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo,"
+                         f"volume={gain},adelay={at}:all=1[vpcard]")
+                placed.append("[vpcard]")
+                next_in += 1
+            g.append(f"[{al}]{''.join(placed)}amix=inputs={len(placed) + 1}:normalize=0:duration=first[avo]")
+            al = "avo"
         loud = edit.get("loudness", -14)
         g.append(f"[{al}]loudnorm=I={loud}:TP=-1.5:LRA=11,aresample=48000[aout]")
         g.append(f"[{vl}]format=yuv420p[vout]")

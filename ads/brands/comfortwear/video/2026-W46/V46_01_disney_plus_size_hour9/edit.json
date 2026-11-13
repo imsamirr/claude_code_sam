@@ -1,10 +1,10 @@
 {
   "id": "V46_01_disney_plus_size_hour9",
-  "version": 2,
+  "version": 3,
   "created": "2026-11-13",
   "persona": "traveler",
   "angle": "Plus-size women at Disney: 'comfy' sneakers give out by the end of the park day; ComfortWear's wide toe box, stretch knit and cushioning get you to the fireworks.",
-  "format": "native story captions (persistent callout header + changing story line), 8 scenes + end card, soft crossfades, no voiceover",
+  "format": "native story captions (persistent callout header + changing story line) with a female voiceover (Harper, 30s), 8 scenes + end card, soft crossfades",
   "based_on": "Own winner COM284_HO1 'plus-size women at Disney' (CA$5.1k, 2.89 ROAS, last 30d) cut down to short form; structure from inspo Dr. Woof 'Flight compression socks for men' (persistent header + story captions) and 'Vets wearing scrubs made for human med' (meme problem -> flip).",
   "rules": "Plus-size Disney concept: every scene shows plus-size women and/or Disney (user, 2026-11-13).",
   "colorway": "purple",
@@ -57,7 +57,7 @@
     },
     {
       "src": "shoe",
-      "in": 1.9,
+      "in": 12.0,
       "out": 3.5,
       "gain": 0
     },
@@ -86,7 +86,8 @@
       "in": 13.6,
       "out": 16.6,
       "eq": "brightness=0.06:contrast=1.05:saturation=1.12",
-      "gain": 0
+      "gain": 0,
+      "min": 2.6
     }
   ],
   "captions": [
@@ -111,7 +112,7 @@
     },
     {
       "clip": 1,
-      "text": "most sneakers aren't made for curvy girl park days 😩",
+      "text": "most sneakers just aren't made for curvy-girl park days 😩",
       "style": "box",
       "y": 0.42,
       "size": 64,
@@ -127,7 +128,7 @@
     },
     {
       "clip": 3,
-      "text": "wide toe box for when your feet swell",
+      "text": "a wide toe box for when your feet swell",
       "style": "box",
       "y": 0.68,
       "size": 64,
@@ -151,7 +152,7 @@
     },
     {
       "clip": 6,
-      "text": "hour 12 and I'm still twirling ✨",
+      "text": "cushioned sole made for 12-hour park days",
       "style": "box",
       "y": 0.7,
       "size": 64,
@@ -170,5 +171,13 @@
   "headline": "Disney Shoes For Plus-Size Women",
   "cta": "SHOP_NOW",
   "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
-  "loudness": -14
+  "loudness": -14,
+  "voiceover": {
+    "file": "vo/harper_main.mp3",
+    "voice": "Harper (Atria, microsoft/mai-voice-2.1)",
+    "script": "Me after twenty-two thousand steps at Disney in my \"comfy\" sneakers. / Turns out most sneakers just aren't made for curvy-girl park days. / So we found ones that are. / A wide toe box, for when your feet swell. / Stretchy knit that gives, instead of squeezing. / And a cushioned sole, made for twelve-hour park days. / Hour twelve, and I'm still twirling. / Front row for fireworks. // end card: card's own line",
+    "lead": 0.12,
+    "tail": 0.3,
+    "gain": 1.0
+  }
 }

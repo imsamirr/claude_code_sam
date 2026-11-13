@@ -262,14 +262,25 @@
         "name": "black_friday",
         "file": "ads/brands/comfortwear/video/end_cards/black_friday_2026.mp4",
         "until": "2026-11-23",
+        "vo": "ads/brands/comfortwear/video/end_cards/black_friday_2026_vo.mp3",
+        "vo_text": "Black Friday is here! Sixty percent off, plus two free gifts. (Harper)",
         "note": "Black Friday 2026: 60% off + 2 free gifts. User rule: every creative made on or before 2026-11-23 ends on this card."
       },
       {
         "name": "regular",
         "file": "ads/brands/comfortwear/video/end_cards/regular.mp4",
+        "vo": "ads/brands/comfortwear/video/end_cards/regular_vo.mp3",
+        "vo_text": "Grab yours today, at forty percent off sitewide. (Harper)",
         "note": "Evergreen: 'Take advantage of discounts, 40% off sitewide'. Used for creatives made after 2026-11-23."
       }
     ],
-    "end_card_rule": "edit.json \"end_card\": \"auto\" picks by the edit's \"created\" date (default today)."
+    "end_card_rule": "edit.json \"end_card\": \"auto\" picks by the edit's \"created\" date (default today).",
+    "voiceover": {
+      "provider": "Atria ad_maker_generate_speech (microsoft/mai-voice-2.1)",
+      "voice": "Harper",
+      "why": "User asked for a high-quality woman in her 30s. Harper: median pitch ~198 Hz, expressive (4.4 semitone movement), conversational pace; Olivia measured lower/flatter (172 Hz, 2.5 st).",
+      "atria_project_id": "22d464a7-e8cc-4602-8d1e-ded899a1a1f4",
+      "cost": "~1 credit (~$0.01) per take"
+    }
   }
 }

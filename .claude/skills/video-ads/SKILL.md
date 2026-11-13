@@ -106,6 +106,25 @@ Collection / TikTok Commercial Music Library. If the user wants a bed baked in, 
 royalty-free track (Atria `ad_maker_generate_music`, ~$0.60 for 20s; **ask first, it spends
 credits**), save it next to edit.json and set `"music": {"file": "<path>", "gain": 0.5}`.
 
+**Voiceover** (when the user asks for one; ~1 Atria credit per take):
+1. Voice from `brand.json` → `video.voiceover` (Comfort Wear: **Harper**, chosen for "a high-quality
+   woman in her 30s"). Speech needs an Atria project id (`ad_maker_create_video_project` once,
+   saved in brand.json); `ad_maker_generate_speech` then `ad_maker_get_task` for the mp3 URL.
+2. Write one line per scene, conversational and in the audience's voice. Generate the whole
+   script as **one take** (consistent delivery) with ` ... ` between lines so each line ends in a
+   clear pause. Save it in the ad folder as `vo/<voice>_main.mp3`.
+3. Add `"voiceover": {"file": "vo/<voice>_main.mp3", "lead": 0.12, "tail": 0.3}`. The engine splits
+   the take at its pauses (the line count must equal the scene count), **sizes each scene to fit
+   its line** (it rewrites `out`; give enough source footage after `in`, and a clip `min` for
+   scenes that should hold longer), and places each line at its scene's start. The end card's own
+   line (`video.end_cards[].vo`, recorded once per card in the same voice) plays over the card, so
+   the spoken offer always matches the card on screen.
+4. Make captions say the same words as the voice (shortened is fine).
+5. QA the sync: `ffmpeg -i <id>.mp4 -af silencedetect=noise=-38dB:d=0.25 -f null -` and check
+   every spoken stretch sits inside its scene window (printed by the build); loudness about -14
+   LUFS with peaks under -1 dBFS (`-af ebur128=peak=true`). Can't hear it? Compare voices by
+   measurement (median pitch, pitch movement, pace) and say so.
+
 ## 5. QA (always, before showing anything)
 
 Run the automated checks first (all must be clean):
