@@ -1,0 +1,40 @@
+{
+ "total": 20.4,
+ "scenes": [
+  {
+   "src": "pain2",
+   "start": 0.0,
+   "end": 2.875
+  },
+  {
+   "src": "catch",
+   "start": 2.875,
+   "end": 4.825
+  },
+  {
+   "src": "selfie",
+   "start": 4.825,
+   "end": 7.275
+  },
+  {
+   "src": "puton",
+   "start": 7.275,
+   "end": 10.125
+  },
+  {
+   "src": "walkhappy",
+   "start": 10.125,
+   "end": 12.875
+  },
+  {
+   "src": "dance",
+   "start": 12.875,
+   "end": 15.575
+  },
+  {
+   "src": "_end_card",
+   "start": 15.575,
+   "end": 20.4
+  }
+ ]
+}
