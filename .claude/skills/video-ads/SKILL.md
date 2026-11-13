@@ -71,8 +71,11 @@ write keeps the winner's *angle and proof points* and moves it into the short na
 it about voiceover, word-chunk subtitles, hook headers and DR beat lists):** the ads must look like an
 organic post from a real person, not an ad.
 - **One static caption** for the whole video (or two stacked blocks, like EllaOla's "POV…" on top and
-  "Then we started…" lower). White rounded box, black text, ~44px, 2–5 lines. It does not change per
-  scene.
+  "Then we started…" lower), 2–5 lines. It does not change per scene. **Caption look varies by
+  reference (user rule, Nov 13)**: white box, narrow box column, translucent box, plain white text with
+  shadow, bold Helvetica with shadow, TikTok Classic font with thin outline, IG serif, meme stroke,
+  lowercase; see `ads/video/playbook.md` §7 for specs and the `style`/`font`/`x`/`lower` options. Never
+  ship a batch in one look.
 - **No voiceover.** Trending-style music only (`"music": {..., "gain": 0.45, "duck": false}`).
 - **10–16 s of content**, 2–4 real shots that tell one story: problem moment → product → payoff.
   The shots carry the story; the caption is the person's first-person post.

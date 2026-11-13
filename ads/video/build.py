@@ -36,8 +36,10 @@ Edit file schema (see the skill `video-ads` for the full guide):
   "music": {"file": "path.mp3", "gain": 0.25},  # optional; licensed tracks only
   "loudness": -14
 }
-Caption styles: box (white rounded box, black text: TikTok classic), outline (white text,
-black stroke), dark (black box, white text), brand (brand-colored pill, white text).
+Caption styles: box (white rounded box, black text: TikTok classic), glass (translucent black box),
+shadow (plain white text, soft shadow, no box), classic (white text, thin outline), outline (heavy
+meme stroke), dark (black box, white text), brand (brand-colored pill). Fonts: inter (default),
+classic, helvetica, serif. Full list in render_caption()'s docstring and the playbook.
 `y` is the caption's vertical center as a fraction of the 1920px frame. Keep captions between
 y 0.18 and 0.72: that is inside the 4:5 feed crop and clear of the TikTok/Reels UI.
 """
@@ -54,7 +56,7 @@ import unicodedata
 from datetime import date
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 ROOT = Path(__file__).resolve().parents[2]
 VIDEO_DIR = Path(__file__).resolve().parent
@@ -161,10 +163,26 @@ def runs(text):
     return out
 
 
+# caption font families (user refs, Nov 2026): inter = default; classic = TikTok "Classic"-like geometric
+# sans with single-storey a (Flo Pilates); helvetica = Arial/Helvetica bold (Happy Tuesdays, Groove);
+# serif = Instagram "Classic" serif (Savannah Bell). Variable fonts take a numeric weight.
+FAMILIES = {
+    "classic": ("Jost-VF.ttf", {"Regular": 450, "Medium": 500, "SemiBold": 560, "Bold": 640}),
+    "serif": ("CormorantGaramond-VF.ttf", {"Regular": 500, "Medium": 560, "SemiBold": 620, "Bold": 700}),
+    "helvetica": ("LiberationSans-Bold.ttf", None),
+}
+
+
 class Typesetter:
-    def __init__(self, size, weight="Bold"):
+    def __init__(self, size, weight="Bold", family="inter"):
         self.size = size
-        self.font = ImageFont.truetype(str(FONTS / f"Inter-{weight}.otf"), size)
+        if family in FAMILIES:
+            file, weights = FAMILIES[family]
+            self.font = ImageFont.truetype(str(FONTS / file), size)
+            if weights:
+                self.font.set_variation_by_axes([weights.get(weight, 500)])
+        else:
+            self.font = ImageFont.truetype(str(FONTS / f"Inter-{weight}.otf"), size)
         self.emoji = ImageFont.truetype(str(EMOJI_FONT), 109) if EMOJI_FONT.exists() else None
 
     def emoji_img(self, s):
@@ -238,18 +256,31 @@ class Typesetter:
 
 
 def render_caption(cap, out_png):
+    """Caption styles (see playbook "Caption styles"):
+    box    white rounded box per line, black text (TikTok Classic box; EllaOla, Hug Sleep Pod)
+    glass  translucent black box, white text (TikTok's dark background option)
+    dark   solid black box, white text;  brand  brand-colour pill
+    shadow plain white text with a soft drop shadow, no box (Groove Pillow, KatKin, Happy Tuesdays,
+           Savannah Bell serif)
+    classic white text with a thin black outline + light shadow (Flo Pilates "Nobody told me")
+    outline heavy white meme text with a thick black stroke (reaction memes)
+    Options: font (inter|classic|helvetica|serif), weight, size, width, align, x (centre 0..1, e.g.
+    0.27 for a narrow column left of the subject, Hug Sleep Pod), lower (true = lowercase the text)."""
     style = cap.get("style", "box")
     size = int(cap.get("size", 52))
     max_w = int(W * cap.get("width", 0.84))
-    ts = Typesetter(size, cap.get("weight", "Bold" if style != "box" else "SemiBold"))
+    family = cap.get("font", "serif" if style == "serif" else "inter")
+    default_w = {"box": "SemiBold", "glass": "SemiBold", "shadow": "SemiBold", "classic": "Medium"}.get(style, "Bold")
+    ts = Typesetter(size, cap.get("weight", default_w), family)
     pad_x, pad_y = int(size * 0.42), int(size * 0.20)
-    lines = ts.wrap(cap["text"], max_w - 2 * pad_x)
+    text = cap["text"].lower() if cap.get("lower") else cap["text"]
+    lines = ts.wrap(text, max_w - 2 * pad_x)
     asc, desc = ts.font.getmetrics()
-    line_h = int((asc + desc) * 1.02)
+    line_h = int((asc + desc) * float(cap.get("line_height", 1.02)))
     canvas = Image.new("RGBA", (W, line_h * len(lines) + 2 * pad_y + 40), (0, 0, 0, 0))
     d = ImageDraw.Draw(canvas)
     align = cap.get("align", "center")
-    colors = {"box": ("white", "black"), "dark": ("black", "white"),
+    colors = {"box": ("white", "black"), "dark": ("black", "white"), "glass": ((0, 0, 0, 150), "white"),
               "brand": (cap.get("color", BRAND_PURPLE), "white")}
     for i, line in enumerate(lines):
         lw = ts.width(line)
@@ -261,12 +292,27 @@ def render_caption(cap, out_png):
             d.rounded_rectangle([x - pad_x, y - pad_y + 2, x + lw + pad_x, y + line_h + pad_y - 4],
                                 radius=r, fill=bg)
             ts.draw_line(canvas, x, y, line, fg)
+        elif style in ("shadow", "serif"):
+            ts.draw_line(canvas, x, y, line, "white")
+        elif style == "classic":
+            ts.draw_line(canvas, x, y, line, "white", stroke=max(2, size // 24), stroke_fill=(0, 0, 0, 230))
         else:  # outline
             ts.draw_line(canvas, x, y, line, "white", stroke=max(3, size // 12), stroke_fill="black")
-    # merge the per-line boxes into one shape the way TikTok does (fill gaps between lines)
+    if style in ("shadow", "serif", "classic"):
+        # soft drop shadow from the text's own alpha, like TikTok/IG's text shadow
+        a = canvas.split()[3]
+        sh = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+        sh.putalpha(a.point(lambda v: int(v * float(cap.get("shadow", 0.75)))))
+        sh = sh.filter(ImageFilter.GaussianBlur(max(2, size * 0.09)))
+        base = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+        base.alpha_composite(sh, (0, max(1, size // 22)))
+        base.alpha_composite(canvas)
+        canvas = base
     canvas = canvas.crop(canvas.getbbox() or (0, 0, W, 10))
     full = Image.new("RGBA", (W, canvas.height), (0, 0, 0, 0))
-    full.alpha_composite(canvas, ((W - canvas.width) // 2 if align == "center" else 0, 0))
+    cx = float(cap.get("x", 0.5))
+    left = int(cx * W - canvas.width / 2) if align == "center" else 0
+    full.alpha_composite(canvas, (max(0, min(W - canvas.width, left)), 0))
     full.save(out_png)
     return full.height, canvas.width
 
@@ -607,7 +653,8 @@ def build(edit_path, sheet_every=1.5, feed=False):
             for (ps, pe, py0, py1) in placed_boxes:
                 if ps < e and s < pe:
                     blocks.append((py0 - 0.006, py1 + 0.006, 0.0, 1.0))
-            x0f, x1f, hf = (W - cw) / 2 / W, (W + cw) / 2 / W, ch / H
+            cxf = float(cap.get("x", 0.5))
+            x0f, x1f, hf = max(0.0, cxf - cw / 2 / W), min(1.0, cxf + cw / 2 / W), ch / H
             lo, hi = SAFE_TOP + 0.02 + hf / 2, SAFE_BOT - 0.03 - hf / 2   # inside the 4:5 area, clear of UI
             cands = sorted({round(want + d * sg, 3) for d in [k * 0.01 for k in range(60)] for sg in (1, -1)},
                            key=lambda yc: abs(yc - want))

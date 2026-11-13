@@ -347,3 +347,32 @@ UrbanStems `m1913804572673870` ("pov: she didn't expect flowers today", 15 d); p
 4. **Plus-size, kick transition:** a mirror shot in sweats, then a kick of the shoe toward the camera, then a cut to the full outfit. Caption: "wide feet but make it cute ✨". This is a fresh version of F11, not a repeat of "Nobody told me".
 5. **Travel, Trtl-style inner monologue on Thanksgiving travel:** a gate or plane-aisle shot with a changing box: "POV: terminal B to F in 14 min" / "everyone's limping" / "me in my stretchy ones" / "…should I tell them?". This rides "airport theory" without endorsing it.
 6. **Gift micro-loop (Bandou):** a 5 s overhead shot of a kid's hand finishing a sign, "MOM, REMEMBER YOUR COMFY SHOES FOR THE CRUISE", with the shoes beside the poster. It makes a fast BF gift ad.
+
+---
+
+## 7. Caption styles — measured from the references (2026-11-13)
+
+User note (Nov 13): the references use **several caption looks, not only the white box**. Each weekly batch
+rotates them (rule: **at least 5 different looks per 10 videos**, no look on more than 2 videos, and match the
+look to the format's reference). Frames pulled at full size from the reference MP4s; sizes converted from
+720×1280 to our 1080×1920. All are built into `ads/video/build.py` (`style`, `font`, `weight`, `x`, `lower`).
+
+| Look | Reference (Atria id) | What it looks like | edit.json caption |
+|---|---|---|---|
+| TikTok Classic box | EllaOla `m961645566525315`, Auto Accident `m1363956582376518`, Basic Buzz `m1668570404657353` | white rounded box per line, black semibold sans, ~44 px, upper third | `"style": "box", "size": 44` |
+| Narrow box column | Hug Sleep Pod `m1047219301474933` | same white boxes but 2–3 words per line in a tall column beside the subject (left/right third) | `"style": "box", "width": 0.4, "x": 0.27` (or 0.73) |
+| Translucent box | TikTok's dark text background | white text on ~60% black rounded box | `"style": "glass"` |
+| Plain text + soft shadow | Groove Pillow `m4105657463063866`, KatKin `m1551406382627956` | white medium/semibold sans, **no box**, soft dark shadow, small (~40 px), upper third or mid-frame | `"style": "shadow", "weight": "Medium", "size": 40-42` |
+| Bold Helvetica + shadow | Happy Tuesdays `m1979816196068779` | white Helvetica/Arial Bold ~56 px, soft drop shadow, upper third over a single long shot | `"style": "shadow", "font": "helvetica", "size": 50` |
+| TikTok Classic font, thin outline | Flo Pilates `m3208180722725044` | white geometric sans with single-storey "a" (TikTok "Classic" font), thin black outline + slight shadow, ~48 px | `"style": "classic", "font": "classic", "size": 50` |
+| Instagram serif | Savannah Bell `m1378188833895425`, Dr. Woof flare scrubs `m1090893143376539` | white Garamond-style serif with soft shadow, ~50-56 px, centred mid-frame | `"style": "serif", "font": "serif", "size": 56` |
+| Heavy meme stroke | Speak `m1590236226130305`, Crown & Paw `m1601996465043569` | white Black-weight sans with a thick black stroke | `"style": "outline", "weight": "Black"` |
+| Lowercase casual | creator posts generally | any of the above with `"lower": true` (texting voice) | add `"lower": true` |
+
+Fonts (OFL, in `ads/video/fonts/`): Inter (default), Jost (stand-in for TikTok "Classic"), Liberation Sans
+Bold (Helvetica/Arial metric clone), Cormorant Garamond (IG serif). Plain-text looks need a busy-background
+check in QA: if the text sits on white walls or sky, raise `"shadow"` (0..1, default 0.75) or switch to a box.
+
+**W46 batch (V46_11–20) uses 9 looks:** glass (11), plain shadow (12), serif (13), Helvetica shadow (14),
+box (15), meme stroke (16), Classic thin outline (17), box column (18), small letter shadow (19),
+lowercase Classic (20). Track which looks earn the best hook rate and thumb-stop in the weekly results.

@@ -24,6 +24,11 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
 - **The format** is the organic-post style in `video-ads` §3 and `ads/video/playbook.md`: one static
   first-person caption, 2–4 real shots, music only, no voiceover, 10–16 s + end card, 9:16 with all
   content inside the 4:5 area, captions never on faces/eyes/product/action.
+- **Caption looks rotate (user rule, Nov 13)**: the references use several caption styles, not only the
+  white box. Use **at least 5 different looks per batch** (no look on more than 2 videos), each matched to
+  its format's reference: box, narrow box column, translucent box, plain text + shadow, bold Helvetica +
+  shadow, TikTok Classic thin outline, IG serif, meme stroke, lowercase (`ads/video/playbook.md` §7, engine
+  options `style`/`font`/`weight`/`x`/`lower`). Record the look in each edit.json `caption_style`.
 - Each concept keeps its winner's angle, audience and proof points; it changes the format, hook and
   story. Use `claims_to_avoid` from brand.json.
 
