@@ -316,7 +316,8 @@
         "days": 7
       },
       "videos_per_batch": 10,
-      "weekday": "Thursday"
+      "weekday": "Thursday",
+      "schedule": "Thursdays 5:23am America/New_York (routine 'Comfort Wear weekly short-form videos', trig_017grBjsoXyggf5f6EmxrwJ8). Add the Notion connector to the routine in claude.ai → Routines."
     },
     "notion": {
       "database": "👟 ComfortWear Creative Board",
