@@ -153,6 +153,17 @@ prompt), and this skill.
 - **Cartoon/animation statics: no quota.** Only when this run's inspiration research (same criteria: image, active, launched ≤45 days, 10+ days running, health & wellness) surfaces an illustrated/animated static worth borrowing; it then counts as a new format in the ledger (`program.cartoon_rule`).
 - Render one 4:5 per concept with the default `--provider auto` (Kie.ai gpt-image-2 at 2K, ~$0.05/ad; OpenAI at high quality, ~$0.22/ad, only when `KIE_API_KEY` is missing). Older rules below still apply where they don't conflict.
 
+
+### Connectors and inspiration first (user rule 2026-11-13: Atria, Google Drive, Notion and the repo are all attached)
+
+1. **Study OTHER brands before creating anything.** Use the Atria connector/API to find strong, proven statics from any brand (footwear, supplements, skincare, apparel, wellness, services): image ads that are active and either long-running (60+ days) or rising (impressions growing, 10+ days), ranked by Atria's own signals, not by taste. Save the layout refs, contact-sheet them, read every page, and log the shortlist (brand, days running, why it works) in `research/analysis.md` and the "<folder> inspiration" sheet. Every concept recreates ONE named proven ad's layout with our product and our approved claims. A batch with no new inspiration research is not allowed: if Atria is down, say so and stop short of reusing old refs as "new".
+2. **Learn from the repo before writing**: `research/analysis.md`, `core_competitors.md`, `angle_gaps.md`, `format_ledger.json`, `feedback.json` (approved/rejected and why), previous `weeks/*/concepts.json` (angles and headlines already used) and `reference/benchmarks/`. Do not repeat angles, formats or headlines.
+3. **Notion**: read the "Scripts 2026" winning briefs and angle databank through the Notion connector each run (not only Fridays) and refresh `research/winning_briefs.md`.
+
+### 50/50 split and our current winners (user rule 2026-11-13, every batch, Tuesday and Friday)
+- **Half (50%) iterations of what is winning for us right now**, moved into NEW static formats found in this run's research of other brands. Sources, in order: `data/top7_spenders.csv` (our ads with $5,000+ spend in the last 7 days, `atria_pull.py all` makes it; if it is empty, say so and rerun `current --days 7 --min-spend-rising 1000 --min-roas 0 --sort-spend --out top7_spenders.csv` for the top 10), `data/new7_winners.csv` (ads launched in the last 7 days with $200+ spend and ROAS 1.8+: the NEW winners; empty is possible, say so), then `current_winners.csv` / `rising_winners.csv` (30 days) and the seasonal pull. Keep each source ad's audience, pain and hook; change the format. **Video winners: transcribe the WHOLE script first** (Atria MCP transcript tools, e.g. `transcribe_library_ad`; or the transcripts API) for every video in `top7_spenders.csv`, `new7_winners.csv` and `current_winners.csv`, append it to `research/data/video_transcripts.md` (ad name, spend, ROAS, full text) and read all of it before writing: work out what the ad is actually about (audience, pain, story beats, objections, proof, offer, CTA), then iterate that full message into a static, not just the opening hook. Skip a video only if it is already in the file; if transcription fails, say so and do not iterate that ad. `based_on` names source ad, spend, ROAS.
+- **Other half (50%) completely new**: new angles (audience x pain, `angle_gap` tests) AND new formats from the research. Tuesday 20 = 10 + 10; Friday 40 = 20 + 20. Tag `group` as `iteration` or `net_new`. The batch-type table above is superseded where it differs.
+
 ### 1a. Atria research: exact criteria per pull (user, 2026-10-30)
 
 Every pull writes a CSV to `research/data/`; contact-sheet it and **Read every page** before writing.
@@ -160,6 +171,8 @@ Every pull writes a CSV to `research/data/`; contact-sheet it and **Read every p
 | Pull | What it answers | Filters (exact) | Ranking | Output |
 |---|---|---|---|---|
 | `winners` | What has worked for us, ever | our ad account; statics only (IMAGE); lifetime spend ≥ $5k (`--min-spend`); since 2024 | spend, high → low | `winning_statics_raw.csv` (+ headline and primary text) |
+| `top7_spenders` | Our biggest spenders this week | our account; any format; last 7 days; spend >= $5,000 (any ROAS) | spend | `top7_spenders.csv` |
+| `new7_winners` | Brand-new winners | our account; any format; launched in the last 7 days (no spend in the 60 days before); spend >= $200; ROAS >= 1.8 | ROAS x spend | `new7_winners.csv` |
 | `current` | What works for us right now | our account; any format; last 30 days; spend ≥ $300; ROAS ≥ 1.8 | spend | `current_winners.csv` |
 | `rising` | Our new ads taking off | as `current`, but only ads launched in the window | spend | `rising_winners.csv` |
 | `seasonal --week W` | What won this time last year | our account; same ISO week last year ±7 days | spend, top 15 | `seasonal_<week>.csv` |
@@ -167,6 +180,12 @@ Every pull writes a CSV to `research/data/`; contact-sheet it and **Read every p
 | `wellness` | New formats to borrow (objective) | Atria ad library; **health & wellness category keywords only** (`wellness.queries`, never our angle words); image; **active**; launched ≤ 45 days ago; running ≥ 10 days; impression trend **rising**; title/body has a direct-response signal (%, $, free, guarantee, money-back, buy N, today, sale, pain, question…); off-niche words dropped (`wellness.exclude`); max 2 ads per brand | **7-day impression growth** (places climbed), then impression share → `growth_rank` | `inspiration_wellness_45d.csv` |
 | `rivals` | What Hike + Stepprs are doing | `core_competitors`; image **and** video; active and inactive; both Atria orders (most impressions, best match); brand-matched; full copy kept | competitor → active first → days running (longest first) | `core_competitors_<date>.csv` |
 | `competitors` | Wider category | `competitor_brands` + `inspo_queries`; image and video | impression percentile | `competitor_ads.csv` |
+
+**Run every pull with `python ads/atria_pull.py all --brand <brand>` (user rule 2026-11-12).** It runs current, rising, winners, seasonal, wellness, rivals and rivals --wide
+one after another (Atria rate-limits per workspace, so never run pulls in parallel), honors `Retry-After` for up to 15 minutes per call, caches closed months for
+`winners`, writes CSVs atomically and records each pull in `research/data/pull_status.json`. **Read that file first**: a pull marked `FAILED` means its CSV is OLD
+(say so in the Slack summary and analysis.md; retry that one pull alone before continuing). Each pull also writes `data/new_since_last_<name>.csv` (ads not in the
+previous pull): look at those first so the research covers NEW ads, not just the current ones.
 
 How to use the wellness list: take formats **from the top of `growth_rank` in order**. Skip a row only if
 its format is already in `research/format_ledger.json`, it depends on another brand's licensed IP, or it
@@ -229,7 +248,7 @@ Every ad is checked against these BEFORE it is shown. `node ads/compose/render.j
 3. **Compact offer:** the lead offer big (e.g. "60% OFF SITEWIDE" or "40% OFF"), the supporting terms on ONE small line under it ("Free shipping & returns · 30-day money-back guarantee"). No stacked bars, no second banner, no price card plus offer bar plus chips at once.
 4. **Calm the rest when the background is loud.** On a saturated background (red Black Friday), use white text, one white offer box and no confetti, kicker boxes or extra badges. Default to light backgrounds; a saturated background is the exception.
 5. **Space:** about 30% of the canvas stays empty. Text never closer than 7% to an edge (lint checks the actual text).
-6. **Readable for 60+:** smallest text 26px at 1080 wide (lint), headline 80-110px, high contrast, at most two colors plus black/white.
+6. **Readable for 60+ (user 2026-11-10: "make the text bigger"):** smallest text 30px at 1080 wide (lint), body/bullets 31-36px, headline 80-120px, high contrast, at most two colors plus black/white.
 7. **Squint test:** blur your eyes at the 3 contact-sheet sizes. You should see the shoe, then the headline, then the offer, in that order. If anything else competes, remove it.
 8. **Compare with the inspiration ad side by side.** Ours should be as clean as or cleaner than the winner. If it's busier, cut.
 
@@ -408,12 +427,13 @@ prompt. Rejected concepts get one regeneration with the fix; approved GIF candid
 ## 6. Save and deliver (every batch, live or scheduled)
 
 1. Commit the batch folder, `feedback.json`, brand/research changes; push to the working branch.
-2. Drive: subfolder "<folder>" under `drive_folder_id` (reuse if present), then a Google Sheet
+2. **Drive + Notion review hand-off (user rule 2026-11-13).** Create ONE new subfolder "<folder>" inside Drive folder `1Rg813t55l6VE0Pg7hCYIGkbIn3kQe2Nr` (brand.json `drive_folder_id`; https://drive.google.com/drive/folders/1Rg813t55l6VE0Pg7hCYIGkbIn3kQe2Nr), upload every static (PNG) plus the "<folder> concepts" sheet there, and create ONE Notion task on the **ComfortWear Board** for Samir: title "Review <folder> statics (<n> concepts)", status "In Review" (the board's status name), body with the Drive subfolder link, the concepts sheet link and the GitHub output link, and the one-line batch summary. Exactly one subfolder and one Notion task per run (reuse both if they already exist). If Drive upload of images is blocked by size, upload what fits and link the GitHub folder; if the Notion connector is unavailable, say so at the top of the Slack DM and still put the task text in the DM.
+   (Older detail follows.) Drive: subfolder "<folder>" under `drive_folder_id` (reuse if present), then a Google Sheet
    "<folder> concepts" from `python ads/review.py csv --brand <brand> --week <folder>` (create_file,
    `textContent`, `contentMimeType: text/csv`; trash an older sheet for the same folder first). Images
    are too large for the Drive connector, so the sheet links to each 4:5/GIF on GitHub.
 3. Slack: DM `slack.notify_channel_id`: "**<Brand> <batch type> ready: <folder> (<n> concepts)**", links
-   to the sheet, Drive folder and GitHub output folder, then one line: mix split · source ads
+   to the sheet, Drive folder, Notion review task and GitHub output folder, then one line: mix split · source ads
    (iterations) · new formats and their inspiration ads · angle and pain split · offer count · Spanish count (if enabled) · GIF candidates · image cost.
    Mention anything skipped. Also DM rule/format changes the user should know about.
 

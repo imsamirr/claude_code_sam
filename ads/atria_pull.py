@@ -26,6 +26,8 @@ import csv
 import json
 import datetime as dt
 import os
+import random
+import re
 import sys
 import time
 from pathlib import Path
@@ -49,18 +51,36 @@ class Atria:
         if key:
             self.s.headers["X-API-Key"] = key
 
-    def get(self, path, params=None):
-        for attempt in range(6):
-            r = self.s.get(f"{BASE}/{path}", params=params, timeout=180)
-            if r.status_code in (429, 502, 503, 504):
-                time.sleep(3 * 2 ** attempt)
-                continue
-            r.raise_for_status()
-            body = r.json()
-            if body.get("code") != 0:
-                raise RuntimeError(f"{path}: {body.get('code')} {body.get('message')}")
-            return body["data"]
-        raise RuntimeError(f"{path}: gave up after retries")
+    def get(self, path, params=None, max_wait=900):
+        """GET with retries: honors Retry-After on 429, backs off with jitter, survives network errors.
+        The Atria rate limit is per workspace, so a short wait is normally enough (gives up after max_wait seconds)."""
+        waited, attempt = 0.0, 0
+        while True:
+            wait = None
+            try:
+                r = self.s.get(f"{BASE}/{path}", params=params, timeout=180)
+                if r.status_code in (429, 502, 503, 504):
+                    try:
+                        ra = float(r.headers.get("Retry-After", 0))
+                    except ValueError:
+                        ra = 0
+                    wait = max(ra, min(3 * 2 ** attempt, 60)) + random.uniform(0, 2)
+                else:
+                    r.raise_for_status()
+                    body = r.json()
+                    if body.get("code") == 42901:  # rate limit reported in the body
+                        wait = min(3 * 2 ** attempt, 60) + random.uniform(0, 2)
+                    elif body.get("code") != 0:
+                        raise RuntimeError(f"{path}: {body.get('code')} {body.get('message')}")
+                    else:
+                        return body["data"]
+            except (requests.ConnectionError, requests.Timeout):
+                wait = min(3 * 2 ** attempt, 60) + random.uniform(0, 2)
+            attempt += 1
+            waited += wait
+            if waited > max_wait:
+                raise RuntimeError(f"{path}: gave up after {attempt} tries / {int(waited)}s of rate-limit waits")
+            time.sleep(wait)
 
     def account_id(self, name):
         for a in self.get("ad-accounts")["items"]:
@@ -87,9 +107,23 @@ def windows(start, end, step):
 
 
 def aggregate(api, acc, start, end, step):
+    """Sum top ads over windows. Closed monthly windows are cached (data/.agg_cache.json) so a failed run
+    resumes where it stopped and later runs only re-pull the current month."""
+    cache_path = DATA_DIR / ".agg_cache.json"
+    cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
     agg = {}
     for a, b in windows(start, end, step):
-        for it in api.top_ads(acc, a, b):
+        key = f"{step}:{a}:{b}"
+        if key in cache and b < dt.date.today() - dt.timedelta(days=35):
+            items = cache[key]
+        else:
+            items = api.top_ads(acc, a, b)
+            if b < dt.date.today() - dt.timedelta(days=35):
+                cache[key] = items
+                DATA_DIR.mkdir(parents=True, exist_ok=True)
+                cache_path.write_text(json.dumps(cache))
+            time.sleep(1.0)
+        for it in items:
             row = agg.setdefault(it["platform_ad_id"], {
                 "ad_name": it["ad_name"], "format": it["asset_format"], "status": it["status"],
                 "thumbnail_url": it["thumbnail_url"], "spend": 0.0, "revenue": 0.0,
@@ -102,18 +136,51 @@ def aggregate(api, acc, start, end, step):
             row["purchases"] += m.get("purchases") or 0
             row["impressions"] += m.get("impressions") or 0
             row["clicks"] += m.get("clicks_all") or 0
-        time.sleep(0.7)
     return agg
 
 
+ID_COLS = ("platform_ad_id", "atria_id", "image_url")
+
+
+def _ids(path):
+    try:
+        with open(path, newline="") as f:
+            rows = list(csv.DictReader(f))
+    except FileNotFoundError:
+        return None
+    col = next((c for c in ID_COLS if rows and c in rows[0]), None)
+    return (col, {r[col] for r in rows if r.get(col)}) if col else None
+
+
 def write_csv(name, rows, fields):
+    """Atomic write (temp file then replace), plus data/new_since_last_<stem>.csv listing ads not in the previous file
+    (for dated files such as core_competitors_<date>.csv the previous file is the latest other one with the same prefix)."""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     path = DATA_DIR / name
-    with open(path, "w", newline="") as f:
+    stem = path.stem
+    prev = path
+    if re.search(r"_\d{4}-\d{2}-\d{2}$", stem):
+        prefix = stem[:-11]
+        others = sorted(p for p in DATA_DIR.glob(f"{prefix}_????-??-??.csv") if p != path)
+        prev = others[-1] if others else None
+        stem = prefix
+    old = _ids(prev) if prev else None
+    tmp = path.with_suffix(".csv.tmp")
+    with open(tmp, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         w.writeheader()
         w.writerows(rows)
+    os.replace(tmp, path)
     print(f"Wrote {len(rows)} rows to {path}")
+    if old and rows:
+        col, ids = old
+        new_rows = [r for r in rows if r.get(col) and r[col] not in ids]
+        npath = DATA_DIR / f"new_since_last_{stem}.csv"
+        with open(npath, "w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+            w.writeheader()
+            w.writerows(new_rows)
+        print(f"  {len(new_rows)} ads are new since the previous pull -> {npath.name}")
 
 
 def winners(api, acc, args):
@@ -471,16 +538,16 @@ def rising(api, acc, args):
                      "audience": "retargeting" if name.upper().startswith("RTG") else "prospecting",
                      "headline": c.get("title"), "primary_text": (c.get("body") or "")[:800]})
         time.sleep(0.7)
-    rows.sort(key=lambda r: -r["roas"] * r["spend"])
+    rows.sort(key=(lambda r: -r["spend"]) if getattr(args, "sort_spend", False) else (lambda r: -r["roas"] * r["spend"]))
     print(f"Window {start} to {end}: {len(rows)} {'' if before is None else 'new '}ads with spend >= ${args.min_spend_rising:.0f} and ROAS >= {args.min_roas}")
-    write_csv("current_winners.csv" if before is None else "rising_winners.csv", rows, ["platform_ad_id", "ad_name", "format", "audience", "status", "spend",
+    write_csv(getattr(args, "out", None) or ("current_winners.csv" if before is None else "rising_winners.csv"), rows, ["platform_ad_id", "ad_name", "format", "audience", "status", "spend",
               "roas", "purchases", "headline", "primary_text", "thumbnail_url"])
 
 
 def main():
     load_dotenv()
     p = argparse.ArgumentParser()
-    p.add_argument("what", choices=["winners", "losers", "inspo", "inspiration", "seasonal", "rising", "current", "competitors", "ultrasonic", "wellness", "rivals"])
+    p.add_argument("what", choices=["winners", "losers", "inspo", "inspiration", "seasonal", "rising", "current", "competitors", "ultrasonic", "wellness", "rivals", "all"])
     p.add_argument("--days", type=int, default=30, help="rising: look-back window in days")
     p.add_argument("--min-spend-rising", type=float, default=300, help="rising: minimum spend in the window")
     p.add_argument("--min-roas", type=float, default=1.8, help="rising: minimum ROAS in the window")
@@ -494,6 +561,8 @@ def main():
     p.add_argument("--pages", type=int, default=2, help="inspiration: result pages (50 ads each) per query")
     p.add_argument("--brand", default=os.getenv("ADS_BRAND", "comfortwear"))
     p.add_argument("--account", help="ad account name in Atria (default: brand.json → atria_account)")
+    p.add_argument("--out", help="current/rising: output CSV name (default current_winners.csv / rising_winners.csv)")
+    p.add_argument("--sort-spend", dest="sort_spend", action="store_true", help="current/rising: sort by spend")
     p.add_argument("--wide", action="store_true", help="rivals: also pull brand.json -> angle_rivals (angle-gap study)")
     args = p.parse_args()
     global DATA_DIR
@@ -514,7 +583,51 @@ def main():
     if not args.week:
         y, w, _ = (dt.date.today() + dt.timedelta(days=7)).isocalendar()
         args.week = f"{y}-W{w:02d}"
-    {"winners": winners, "losers": losers, "inspo": inspo, "inspiration": inspiration, "seasonal": seasonal, "rising": rising, "current": rising, "competitors": competitors, "ultrasonic": ultrasonic, "wellness": wellness, "rivals": rivals}[args.what](api, acc, args)
+    fns = {"winners": winners, "losers": losers, "inspo": inspo, "inspiration": inspiration, "seasonal": seasonal, "rising": rising, "current": rising, "competitors": competitors, "ultrasonic": ultrasonic, "wellness": wellness, "rivals": rivals}
+    if args.what != "all":
+        run_one(fns, args.what, api, acc, args)
+        return
+    # all: sequential (the rate limit is per workspace), isolated failures, status file for the routine to read
+    plan = [("current", {}), ("rising", {"days": args.days}),
+            # user rule 2026-11-13: last-7-day top spenders ($5k+, any ROAS) and ads launched in the last 7 days ($200+, ROAS 1.8+)
+            ("current", {"days": 7, "min_spend_rising": 5000, "min_roas": 0, "out": "top7_spenders.csv", "sort_spend": True, "_label": "top7_spenders"}),
+            ("rising", {"days": 7, "min_spend_rising": 200, "min_roas": 1.8, "out": "new7_winners.csv", "_label": "new7_winners"}), ("winners", {}), ("seasonal", {}), ("wellness", {}),
+            ("rivals", {"wide": False, "out_prefix": "core_competitors"}), ("rivals", {"wide": True, "out_prefix": "angle_rivals"})]
+    ok = True
+    for what, over in plan:
+        a = argparse.Namespace(**{**vars(args), **over, "what": what})
+        if what in ("rising", "current") and "min_spend_rising" not in over:
+            a.min_spend_rising, a.min_roas = args.min_spend_rising, args.min_roas
+        if what == "rivals":
+            a.core_competitors = brand.get("core_competitors", []) + (brand.get("angle_rivals", []) if over["wide"] else [])
+        label = over.get("_label") or what + (" --wide" if over.get("wide") else "")
+        ok &= run_one(fns, what, api, acc, a, label=label, swallow=True)
+        time.sleep(5)
+    print("ALL PULLS OK" if ok else "SOME PULLS FAILED: see data/pull_status.json (do not treat the old CSVs as fresh)")
+
+
+def run_one(fns, what, api, acc, args, label=None, swallow=False):
+    """Run a pull and record the outcome in data/pull_status.json (ok/failed + time) so stale CSVs are never mistaken for fresh ones."""
+    label = label or what
+    path = DATA_DIR / "pull_status.json"
+    st = json.loads(path.read_text()) if path.exists() else {}
+    try:
+        fns[what](api, acc, args)
+        st[label] = {"status": "ok", "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
+        res = True
+    except Exception as e:  # noqa: BLE001
+        prev = st.get(label, {})
+        st[label] = {"status": "FAILED", "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+                     "error": str(e)[:300], "last_ok": prev.get("at") if prev.get("status") == "ok" else prev.get("last_ok")}
+        print(f"PULL FAILED: {label}: {e}")
+        res = False
+        if not swallow:
+            DATA_DIR.mkdir(parents=True, exist_ok=True)
+            path.write_text(json.dumps(st, indent=2))
+            raise
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(st, indent=2))
+    return res
 
 
 if __name__ == "__main__":
