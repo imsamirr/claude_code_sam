@@ -1,6 +1,6 @@
 ---
 name: video-ads
-description: Make short-form video ads (Reels/TikTok/Stories, 9:16 + 4:5 feed crop) for a brand in ads/brands/<brand>/ by editing existing footage from the brand's Google Drive asset folder. Studies inspiration ads from Atria (downloads and watches them), pulls the brand's own winning angles from its Atria ad account, inventories and triages Drive footage, writes a native-style script (text-on-screen story captions, POV/meme formats, no voiceover by default), cuts it with ffmpeg via an edit.json, QAs frames, and delivers. Use for "make me a video ad", "short-form ad from our footage", "<angle> video", "UGC edit", "iterate this video winner into short form", "TikTok/Reels ad", or when the user sends Atria inspiration ad links for video.
+description: Make short-form video ads (one 9:16 file per ad, all content inside the 4:5 area so it also runs in feed) for a brand in ads/brands/<brand>/ by editing existing footage from the brand's Google Drive asset folder. Studies inspiration ads from Atria (downloads and watches them), pulls the brand's own winning angles from its Atria ad account, inventories and triages Drive footage, writes a native-style script (text-on-screen story captions, POV/meme formats, no voiceover by default), cuts it with ffmpeg via an edit.json, QAs frames, and delivers. Use for "make me a video ad", "short-form ad from our footage", "<angle> video", "UGC edit", "iterate this video winner into short form", "TikTok/Reels ad", or when the user sends Atria inspiration ad links for video.
 ---
 
 # Video ads (short form, from existing footage)
@@ -13,7 +13,13 @@ Per brand, video work lives in `ads/brands/<brand>/video/`:
 - `footage.csv`: the tagged footage library (drive id, folder, seconds, **rights**, tags, best
   in/out ranges, burned-in text, notes). Read it first; add every clip you review.
 - `<YYYY>-W<ww>/<ID>_<slug>/edit.json`: one folder per ad, ids `V<ww>_nn_slug`, with its renders
-  next to it (`<id>.mp4`, `<id>_4x5.mp4`, `<id>_sheet.jpg`).
+  next to it (`<id>.mp4`, `<id>_sheet.jpg`, `<id>_timeline.json`).
+
+**Format (user rule): deliver 9:16 only, no separate 4:5 file. Every caption, graphic and key subject
+(faces, product, action) sits inside the centered 4:5 area (y 285–1635 of 1920)**, so one file runs
+in Reels/TikTok/Stories and feed. Captions are clamped there automatically. For a clip whose face sits
+above y 285, set `"shift_y": 0.05–0.14` (moves the picture down; the opened top band gets a blurred
+fill). End cards stay as supplied.
 
 Downloads cache in `ads/.cache/footage/` (gitignored). Drive files shared by link download with
 `drive:<fileId>` straight from the engine; no connector call needed.
@@ -133,7 +139,7 @@ the render frame by frame.
   or any ffmpeg xfade name). The end card fades in over 0.35s.
 - **No glitches (user rule)**: never use `push` (per-frame rescaling jitters; it is ignored now);
   use a static `zoom`. Every clip is converted to a constant 30 fps before scaling.
-- Keep caption `y` between 0.18 and 0.72 (inside the 4:5 feed crop, clear of the TikTok/Reels UI),
+- Keep caption `y` between 0.18 and 0.78 (inside the 4:5 area, clear of the TikTok/Reels UI; enforced),
   and off faces and the product. Persistent header at y≈0.2 in `dark` style; story captions in
   `box`; brand name as a `brand` pill on the last shot.
 - Also write `primary_text`, `headline`, `cta`, `link` in edit.json (reuse the winner's landing
@@ -146,7 +152,7 @@ the render frame by frame.
 ```bash
 python ads/video/build.py ads/brands/<brand>/video/<week>/<id>/edit.json --sheet-every 0.5
 ```
-~80s for an 18s ad. Outputs 1080×1920 H.264 30fps (-14 LUFS), the 1080×1350 feed crop, and a sheet.
+~80s for an 18s ad. Outputs 1080×1920 H.264 30fps (-14 LUFS) and a sheet (`--with-4x5` adds a crop file only if asked).
 
 **Audio**: TikTok downloads carry their creators' music; don't cut it together (choppy, and not
 licensed). Default: `gain: 0` on every clip and the music added at upload from Meta Sound
@@ -185,8 +191,9 @@ credits**), save it next to edit.json and set `"music": {"file": "<path>", "gain
 
 ## 5. QA (always, before showing anything)
 
-`python ads/video/qa.py <id>.mp4` runs all of the checks below and writes `<id>_qa.png`: one frame
-from the middle of every scene, 9:16 on top and 4:5 below. Read it. It must print PASS.
+`python ads/video/qa.py <id>.mp4` runs all of the checks below, lists **faces outside the 4:5 area**
+(fix with `shift_y`; ignore false hits on shoes/castles after looking), and writes `<id>_qa.png`: one
+frame from the middle of every scene with the 4:5 area outlined in green. Read it. It must print PASS.
 
 The same checks by hand:
 ```bash
@@ -194,11 +201,11 @@ ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_
 ffprobe -v error -select_streams v:0 -show_entries packet=pts_time -of csv=p=0 <id>.mp4 | sort -n | awk 'NR>1{d=$1-p; if (d>0.0345||d<0.032) print "gap",p,$1} {p=$1}'   # no output
 ffmpeg -i <id>.mp4 -vf freezedetect=n=0.002:d=0.3 -map 0:v -f null - 2>&1 | grep freeze_start   # no output (except a static end card)
 ```
-Then read `<id>_sheet.jpg`, then pull full-size frames at the middle of every cut from both the 9:16 and
-the 4:5 file (`ffmpeg -ss <t> -i <file> -frames:v 1 -vf scale=360:-2 f.png`, `hstack` 4 per row)
+Then read `<id>_sheet.jpg`, then pull full-size frames at the middle of every cut from the 9:16
+with the 4:5 area outlined (`ffmpeg -ss <t> -i <file> -frames:v 1 -vf scale=360:-2 f.png`, `hstack` 4 per row)
 and Read them. Fix and re-render anything with:
 - burned-in creator text, watermarks, other brands' logos as the hero;
-- captions on faces or on the product, orphan words/emoji on a line, text outside y 0.18–0.72;
+- captions on faces or on the product, orphan words/emoji on a line, text or faces outside the 4:5 area (y 0.15–0.85);
 - a caption that changes mid-shot or outlives its shot; an empty last half-second;
 - the wrong product/colorway, a product shot that doesn't show the feature its caption names;
 - dark or soft shots (`eq` brightness/contrast; avoid sub-720p sources for product shots);
@@ -212,7 +219,7 @@ with the Drive API instead (uses `GDRIVE_CLIENT_ID/SECRET/REFRESH_TOKEN` from th
 resumable, shared drives OK, re-run safe):
 ```bash
 W=$(python ads/video/drive_upload.py <drive_folder_id> --mkdir "<YYYY>-W<ww>")
-python ads/video/drive_upload.py $W ads/brands/<brand>/video/<week>/*/V*.mp4      # 9:16 + 4:5
+python ads/video/drive_upload.py $W ads/brands/<brand>/video/<week>/*/V*.mp4      # 9:16 only
 ```
 
 1. Commit the ad folder (edit.json + renders) and `footage.csv`; push to the working branch.

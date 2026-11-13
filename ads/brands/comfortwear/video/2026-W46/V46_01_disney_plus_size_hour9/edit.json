@@ -109,7 +109,8 @@
     {
       "src": "garage",
       "in": 4.2,
-      "gain": 0
+      "gain": 0,
+      "shift_y": 0.05
     },
     {
       "src": "thumbsdown",

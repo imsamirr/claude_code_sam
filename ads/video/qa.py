@@ -42,32 +42,39 @@ def main():
     ok = abs(frames - round(total * 30)) <= 1 and not gaps and not freezes_content and float(peak) <= -1.0
     print(f"{v.name}: {total:.2f}s  frames {frames} (expect {round(total * 30)})  gaps {len(gaps)}  "
           f"freezes in content {len(freezes_content)}  loudness {lufs} LUFS  peak {peak} dBFS  -> {'PASS' if ok else 'CHECK'}")
-    # strip: mid-scene frames from the 9:16, then the same times from the 4:5
+    # faces outside the 4:5 area (would be cut in feed placements), content scenes only
+    import sys as _s
+    _s.path.insert(0, str(Path(__file__).resolve().parent))
+    from build import face_boxes, SAFE_TOP, SAFE_BOT
+    warn = []
+    for i, sc in enumerate(tl["scenes"]):
+        if sc["src"] == "_end_card":
+            continue
+        for f in (0.25, 0.5, 0.75):
+            t = sc["start"] + (sc["end"] - sc["start"]) * f
+            for y0, y1, x0, x1 in face_boxes(v, t):
+                if y0 < SAFE_TOP - 0.005 or y1 > SAFE_BOT + 0.005:
+                    warn.append(f"scene {i} ({sc['src']}) t={t:.1f}s face y {y0:.2f}-{y1:.2f}")
+    print("faces outside 4:5: " + ("none" if not warn else "\n  " + "\n  ".join(sorted(set(warn)))))
+    # strip: mid-scene frames of the 9:16 with the 4:5 area outlined in green
     tmp = v.with_name("_qa")
     tmp.mkdir(exist_ok=True)
     times = [(s["start"] + s["end"]) / 2 for s in tl["scenes"]]
     files = []
-    for kind, src in (("v", v), ("f", v.with_name(v.stem + "_4x5.mp4"))):
-        if not src.exists():
-            continue
-        for i, t in enumerate(times):
-            f = tmp / f"{kind}{i:02d}.png"
-            subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{t:.2f}", "-i", str(src), "-frames:v", "1",
-                            "-vf", "scale=240:-2,pad=240:428:0:(oh-ih)/2", str(f)])
-            if f.exists():
-                files.append(f)
-    n = len(times)
+    for i, t in enumerate(times):
+        f = tmp / f"v{i:02d}.png"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{t:.2f}", "-i", str(v), "-frames:v", "1", "-vf",
+                        "drawbox=x=0:y=285:w=1080:h=1350:color=lime@0.85:t=6,scale=240:-2", str(f)])
+        if f.exists():
+            files.append(f)
     out = Path(a.out) if a.out else v.with_name(v.stem + "_qa.png")
     inputs = sum((["-i", str(f)] for f in files), [])
-    rows = len(files) // n
-    fc = "".join(f"[{i}:v]" for i in range(len(files)))
-    fc += f"xstack=inputs={len(files)}:layout=" + "|".join(
-        f"{(i % n) * 240}_{(i // n) * 428}" for i in range(len(files)))
-    subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", fc, str(out)])
+    subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex",
+                    "".join(f"[{i}:v]" for i in range(len(files))) + f"hstack=inputs={len(files)}", str(out)])
     for f in files:
         f.unlink(missing_ok=True)
     tmp.rmdir()
-    print(f"strip ({rows} rows x {n} scenes): {out}")
+    print(f"strip ({len(files)} scenes, 4:5 area outlined): {out}")
 
 
 if __name__ == "__main__":

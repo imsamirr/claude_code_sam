@@ -4,8 +4,9 @@ An edit file lists source footage, the clips cut from it, on-screen captions and
 audio plan. This script downloads Drive sources, cuts and reframes every clip to 9:16,
 burns in native-looking captions, mixes the audio and writes:
 
-    <id>.mp4         1080x1920, 30 fps, H.264/AAC, loudness-normalized (Reels/TikTok/Stories)
-    <id>_4x5.mp4     1080x1350 center crop (Meta feed); captions stay inside it by design
+    <id>.mp4         1080x1920, 30 fps, H.264/AAC, loudness-normalized. The only deliverable: all text and
+                     key content sit inside the centered 4:5 area (y 285-1635), so the same file runs in
+                     Reels/TikTok/Stories and in 4:5 feed placements (--with-4x5 writes a crop if wanted)
     <id>_sheet.jpg   contact sheet, one frame every `--sheet-every` seconds, for QA
 
 Usage:
@@ -62,6 +63,7 @@ FONTS = VIDEO_DIR / "fonts"
 EMOJI_FONT = Path("/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf")
 W, H, FPS = 1080, 1920, 30
 FEED_H = 1350
+SAFE_TOP, SAFE_BOT = (H - FEED_H) / 2 / H, (H + FEED_H) / 2 / H   # 4:5 area inside 9:16
 DRIVE_URL = "https://drive.usercontent.google.com/download?id={id}&export=download&confirm=t"
 BRAND_PURPLE = "#7A2FE0"
 
@@ -289,6 +291,14 @@ def cut_clip(i, clip, src_path, meta, tmp):
     # blur boxes (logos, other brands' markings): [{"box": [x0, y0, x1, y1], "t": [a, b], "strength": 28}]
     # box in fractions of the 1080x1920 output frame, t in seconds of this clip's output (optional)
     vchain = f"[0:v]{','.join(vf)}[vb0]"
+    # shift_y: move the picture down (fraction of H, max 0.14) so faces near the top land inside the
+    # 4:5 area; the band it opens at the top (outside 4:5) is filled with a blurred copy
+    sy = min(0.14, float(clip.get("shift_y", 0)))
+    if sy > 0:
+        sh = int(sy * H) // 2 * 2
+        vchain = (f"[0:v]{','.join(vf)}[vs0];[vs0]split[vsa][vsb];"
+                  f"[vsa]scale={int(W * 1.3) // 2 * 2}:-2,crop={W}:{H},boxblur=30:3[vsbg];"
+                  f"[vsb]crop={W}:{H - sh}:0:0[vsfg];[vsbg][vsfg]overlay=0:{sh}[vb0]")
     for bi, bl in enumerate(clip.get("blur", [])):
         x0, y0, x1, y1 = bl["box"]
         bx, by = int(x0 * W) // 2 * 2, int(y0 * H) // 2 * 2
@@ -438,7 +448,7 @@ def windows(durs, fades):
 
 # ---------------------------------------------------------------- build
 
-def build(edit_path, sheet_every=1.5, feed=True):
+def build(edit_path, sheet_every=1.5, feed=False):
     edit_path = Path(edit_path).resolve()
     edit = json.loads(edit_path.read_text())
     out_dir = edit_path.parent
@@ -579,8 +589,9 @@ def build(edit_path, sheet_every=1.5, feed=True):
                 return all(not (y0 < b1 and b0 < y1 and x0f < bx1 and bx0 < x1f) for b0, b1, bx0, bx1 in blocks)
             cands = sorted({round(want + d * sgn, 3) for d in [k * 0.01 for k in range(0, 60)] for sgn in (1, -1)},
                            key=lambda yc: abs(yc - want))
-            cands = [yc for yc in cands if 0.17 + hf / 2 <= yc <= 0.76 - hf / 2 or yc == want]
-            yc = next((c for c in cands if clear(c)), want)
+            lo, hi = SAFE_TOP + 0.02 + hf / 2, SAFE_BOT - 0.03 - hf / 2   # inside the 4:5 area, clear of UI
+            cands = [yc for yc in cands if lo <= yc <= hi]
+            yc = next((c for c in cands if clear(c)), min(max(want, lo), hi))
             if abs(yc - want) > 0.005:
                 print(f"   caption {j} '{cap['text'][:28]}': y {want:.2f} -> {yc:.2f} (face/keep-clear)")
             placed_boxes.append((s, e, yc - hf / 2, yc + hf / 2))
@@ -661,6 +672,8 @@ def build(edit_path, sheet_every=1.5, feed=True):
              "-crf", "17", "-profile:v", "high", "-pix_fmt", "yuv420p", "-g", str(FPS * 2),
              "-movflags", "+faststart", "-c:a", "aac", "-b:a", "192k", "-t", f"{total:.3f}", str(final)])
         outs = [final]
+        if not feed:
+            (out_dir / f"{vid}_4x5.mp4").unlink(missing_ok=True)
         if feed:
             f45 = out_dir / f"{vid}_4x5.mp4"
             run(["ffmpeg", "-v", "error", "-y", "-i", str(final), "-vf", f"crop={W}:{FEED_H}:0:{(H - FEED_H) // 2}",
@@ -686,7 +699,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("edit", nargs="?", help="path to edit.json")
     ap.add_argument("--sheet-every", type=float, default=1.5)
-    ap.add_argument("--no-4x5", action="store_true")
+    ap.add_argument("--with-4x5", action="store_true", help="also write a 4:5 crop (off by default)")
     ap.add_argument("--probe", help="drive:<id> or path: download and print size/duration")
     ap.add_argument("--sheet", help="drive:<id> or path: contact sheet of a raw source")
     ap.add_argument("--every", type=float, default=2.0, help="seconds between frames for --sheet")
@@ -700,7 +713,7 @@ def main():
         out = Path(a.out) if a.out else p.with_name(p.stem + "_sheet.jpg")
         print(sheet(p, out, every=a.every), probe(p))
     elif a.edit:
-        build(a.edit, a.sheet_every, feed=not a.no_4x5)
+        build(a.edit, a.sheet_every, feed=a.with_4x5)
     else:
         ap.print_help()
 

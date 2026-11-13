@@ -142,7 +142,8 @@
     {
       "src": "patient",
       "in": 5.0,
-      "gain": 0
+      "gain": 0,
+      "shift_y": 0.07
     },
     {
       "src": "show",

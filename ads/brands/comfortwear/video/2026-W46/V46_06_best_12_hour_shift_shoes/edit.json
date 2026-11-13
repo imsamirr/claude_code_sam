@@ -122,7 +122,8 @@
     {
       "src": "onehand",
       "in": 3.0,
-      "gain": 0
+      "gain": 0,
+      "shift_y": 0.11
     },
     {
       "src": "trash",
@@ -132,7 +133,8 @@
     {
       "src": "steps10k",
       "in": 2.0,
-      "gain": 0
+      "gain": 0,
+      "shift_y": 0.11
     },
     {
       "src": "steps",
@@ -143,7 +145,8 @@
           0.08,
           0.6
         ]
-      ]
+      ],
+      "shift_y": 0.06
     }
   ],
   "captions": [

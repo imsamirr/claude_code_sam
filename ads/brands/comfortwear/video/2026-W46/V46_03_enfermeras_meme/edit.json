@@ -46,7 +46,8 @@
       "src": "pain",
       "in": 1.0,
       "out": 3.8,
-      "gain": 0
+      "gain": 0,
+      "shift_y": 0.09
     },
     {
       "src": "drill",
