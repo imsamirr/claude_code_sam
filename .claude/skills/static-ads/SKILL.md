@@ -49,7 +49,7 @@ These are encoded in `ads/brands/dentalpulse/brand.json` (`program`, `copy_rules
 | **Net-new** | Friday | `weeks/<YYYY>-W<ww>-fri` (coming ISO week) | `W<ww>_nn_slug` | `netnew_batch.size` concepts: mostly net-new, a few in proven winning-persona formats. |
 | One-off (by hand) | any | `weeks/<YYYY>-W<ww>-<tag>` e.g. `-launch`, `-comp` | own letter, e.g. `L<ww>_`, `C<ww>_` | onboarding launch batch, competitor-inspired batch, seasonal pushes. List these folders in the routine prompt so runs don't repeat their angles. |
 
-If the target `concepts.json` already exists, keep its concepts and add until the batch is full. Ids are
+**If the target folder contains `DONE.json`, the batch was already delivered (run early by hand): say so in one line and STOP; do not create concepts, Drive folders, Notion tasks or Slack messages.** If the target `concepts.json` already exists, keep its concepts and add until the batch is full. Ids are
 unique forever. (Comfort Wear's `weeks/2026-W42` and `2026-W43` predate the `-tue`/`-fri` naming.)
 
 ## 0. Onboarding a new brand
