@@ -151,6 +151,13 @@ prompt), and this skill.
 - **Cartoon/animation statics: no quota.** Only when this run's inspiration research (same criteria: image, active, launched ≤45 days, 10+ days running, health & wellness) surfaces an illustrated/animated static worth borrowing; it then counts as a new format in the ledger (`program.cartoon_rule`).
 - Render one 4:5 per concept with the default `--provider auto` (Kie.ai gpt-image-2 at 2K, ~$0.05/ad; OpenAI at high quality, ~$0.22/ad, only when `KIE_API_KEY` is missing). Older rules below still apply where they don't conflict.
 
+
+### Connectors and inspiration first (user rule 2026-11-13: Atria, Google Drive, Notion and the repo are all attached)
+
+1. **Study OTHER brands before creating anything.** Use the Atria connector/API to find strong, proven statics from any brand (footwear, supplements, skincare, apparel, wellness, services): image ads that are active and either long-running (60+ days) or rising (impressions growing, 10+ days), ranked by Atria's own signals, not by taste. Save the layout refs, contact-sheet them, read every page, and log the shortlist (brand, days running, why it works) in `research/analysis.md` and the "<folder> inspiration" sheet. Every concept recreates ONE named proven ad's layout with our product and our approved claims. A batch with no new inspiration research is not allowed: if Atria is down, say so and stop short of reusing old refs as "new".
+2. **Learn from the repo before writing**: `research/analysis.md`, `core_competitors.md`, `angle_gaps.md`, `format_ledger.json`, `feedback.json` (approved/rejected and why), previous `weeks/*/concepts.json` (angles and headlines already used) and `reference/benchmarks/`. Do not repeat angles, formats or headlines.
+3. **Notion**: read the "Scripts 2026" winning briefs and angle databank through the Notion connector each run (not only Fridays) and refresh `research/winning_briefs.md`.
+
 ### 1a. Atria research: exact criteria per pull (user, 2026-10-30)
 
 Every pull writes a CSV to `research/data/`; contact-sheet it and **Read every page** before writing.
@@ -412,12 +419,13 @@ prompt. Rejected concepts get one regeneration with the fix; approved GIF candid
 ## 6. Save and deliver (every batch, live or scheduled)
 
 1. Commit the batch folder, `feedback.json`, brand/research changes; push to the working branch.
-2. Drive: subfolder "<folder>" under `drive_folder_id` (reuse if present), then a Google Sheet
+2. **Drive + Notion review hand-off (user rule 2026-11-13).** Create ONE new subfolder "<folder>" inside Drive folder `1Rg813t55l6VE0Pg7hCYIGkbIn3kQe2Nr` (brand.json `drive_folder_id`; https://drive.google.com/drive/folders/1Rg813t55l6VE0Pg7hCYIGkbIn3kQe2Nr), upload every static (PNG) plus the "<folder> concepts" sheet there, and create ONE Notion task on the **ComfortWear Board** for Samir: title "Review <folder> statics (<n> concepts)", status To Do, body with the Drive subfolder link, the concepts sheet link and the GitHub output link, and the one-line batch summary. Exactly one subfolder and one Notion task per run (reuse both if they already exist). If Drive upload of images is blocked by size, upload what fits and link the GitHub folder; if the Notion connector is unavailable, say so at the top of the Slack DM and still put the task text in the DM.
+   (Older detail follows.) Drive: subfolder "<folder>" under `drive_folder_id` (reuse if present), then a Google Sheet
    "<folder> concepts" from `python ads/review.py csv --brand <brand> --week <folder>` (create_file,
    `textContent`, `contentMimeType: text/csv`; trash an older sheet for the same folder first). Images
    are too large for the Drive connector, so the sheet links to each 4:5/GIF on GitHub.
 3. Slack: DM `slack.notify_channel_id`: "**<Brand> <batch type> ready: <folder> (<n> concepts)**", links
-   to the sheet, Drive folder and GitHub output folder, then one line: mix split · source ads
+   to the sheet, Drive folder, Notion review task and GitHub output folder, then one line: mix split · source ads
    (iterations) · new formats and their inspiration ads · angle and pain split · offer count · Spanish count (if enabled) · GIF candidates · image cost.
    Mention anything skipped. Also DM rule/format changes the user should know about.
 

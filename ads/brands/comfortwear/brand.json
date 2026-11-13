@@ -223,7 +223,7 @@
     "es": "All on-image text is in Spanish exactly as written in quotes, as a Spanish-speaking person living in the USA would say it (neutral US Latino, Mexican-leaning, using 'tú'). Keep every accent and sign: á é í ó ú ñ ¿ ¡. Numbers in US format (12,000 not 12.000; $59.95). Do not translate brand names. Use only the Spanish text given in quotes: do not add feature lists, icons with captions, price tags, badges or extra panels."
   },
   "audience": "Women only: the product is a women's shoe. Whoever wears the shoe in an ad is always a woman; men may appear only as gift-givers or background people, never wearing the product. Core buyers are 50-65+ (survey: 47% are 65+), so every word on the ad must be easy to read for older eyes.",
-  "drive_folder_id": "1EAtch1T-oTW95VSiIYYP38mCjmSHEvZh",
+  "drive_folder_id": "1Rg813t55l6VE0Pg7hCYIGkbIn3kQe2Nr",
   "asana": {
     "project_id": "1203476664398273",
     "project_name": "ComfortWear - Image Ads Process",
@@ -1283,5 +1283,7 @@
     "Viasox"
   ],
   "angle_gap_rule": "User rule 2026-10-30: if Hike, Stepprs, Footstr or other comfort-shoe brands are testing an angle we have NOT tested, propose and test it (with our claims only). Every run: python ads/atria_pull.py rivals --wide, compare against research/angle_gaps.md 'tested' list, add 1-3 gap-angle concepts per batch.",
-  "production_method": "User 2026-10-31 ('not a lot of effort', 'we need more depth'): DEPTH over volume. Batches of 5-8 with an art-direction brief each. COMPOSED pipeline: real product cutouts (reference/cutouts/), HTML layout with real fonts rendered by ads/compose/render.js (1080x1350), Kie only for text-free photo scenes (ads/compose/scene.py). QA each ad side by side with its inspiration ad; kill anything below that bar."
+  "production_method": "User 2026-10-31 ('not a lot of effort', 'we need more depth'): DEPTH over volume. Batches of 5-8 with an art-direction brief each. COMPOSED pipeline: real product cutouts (reference/cutouts/), HTML layout with real fonts rendered by ads/compose/render.js (1080x1350), Kie only for text-free photo scenes (ads/compose/scene.py). QA each ad side by side with its inspiration ad; kill anything below that bar.",
+  "drive_folder_id_legacy": "1EAtch1T-oTW95VSiIYYP38mCjmSHEvZh",
+  "review_delivery": "User 2026-11-13: every run creates ONE new subfolder named after the batch folder (e.g. 2026-W47-fri) inside Drive folder 1Rg813t55l6VE0Pg7hCYIGkbIn3kQe2Nr (https://drive.google.com/drive/folders/1Rg813t55l6VE0Pg7hCYIGkbIn3kQe2Nr), uploads the statics + '<folder> concepts' sheet there, and creates ONE Notion task on the 'ComfortWear Board' for Samir to review, containing the link to that Drive subfolder (plus the GitHub output link). One subfolder + one Notion task per run, never more."
 }
