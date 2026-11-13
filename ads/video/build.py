@@ -304,8 +304,13 @@ def render_caption(cap, out_png):
         sh = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
         sh.putalpha(a.point(lambda v: int(v * float(cap.get("shadow", 0.75)))))
         sh = sh.filter(ImageFilter.GaussianBlur(max(2, size * 0.09)))
+        # plus a tight dark halo so plain text stays readable on bright floors, walls and sky
+        halo = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+        halo.putalpha(a.filter(ImageFilter.MaxFilter(3)).point(lambda v: int(v * float(cap.get("halo", 0.55)))))
+        halo = halo.filter(ImageFilter.GaussianBlur(max(1, size * 0.035)))
         base = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
         base.alpha_composite(sh, (0, max(1, size // 22)))
+        base.alpha_composite(halo)
         base.alpha_composite(canvas)
         canvas = base
     canvas = canvas.crop(canvas.getbbox() or (0, 0, W, 10))

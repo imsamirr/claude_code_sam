@@ -1,0 +1,25 @@
+{
+ "total": 18.233,
+ "scenes": [
+  {
+   "src": "dapper",
+   "start": 0.0,
+   "end": 3.467
+  },
+  {
+   "src": "friends",
+   "start": 3.467,
+   "end": 7.2
+  },
+  {
+   "src": "twirl",
+   "start": 7.2,
+   "end": 11.4
+  },
+  {
+   "src": "_end_card",
+   "start": 11.4,
+   "end": 18.233
+  }
+ ]
+}

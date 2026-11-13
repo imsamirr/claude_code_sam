@@ -73,12 +73,13 @@
       ],
       "style": "serif",
       "y": 0.4,
-      "size": 56,
+      "size": 60,
       "width": 0.82,
       "fade": 0,
       "text": "Pro tip: don't debut stiff new shoes on vacation 🧳 pack stretchy ones that feel broken in from day one. it saves your trip AND your mood 😂",
       "font": "serif",
-      "weight": "SemiBold"
+      "weight": "Bold",
+      "shadow": 0.9
     }
   ],
   "persona": "travel",

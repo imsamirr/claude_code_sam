@@ -1,0 +1,20 @@
+{
+ "total": 17.4,
+ "scenes": [
+  {
+   "src": "castlewalk",
+   "start": 0.0,
+   "end": 3.867
+  },
+  {
+   "src": "epcot",
+   "start": 3.867,
+   "end": 10.567
+  },
+  {
+   "src": "_end_card",
+   "start": 10.567,
+   "end": 17.4
+  }
+ ]
+}

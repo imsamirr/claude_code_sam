@@ -63,11 +63,12 @@
       ],
       "style": "shadow",
       "y": 0.42,
-      "size": 42,
+      "size": 46,
       "width": 0.8,
       "fade": 0,
       "text": "I may never be an airport fashion icon… but my feet survived terminal B to terminal F babe 💋",
-      "weight": "Medium"
+      "weight": "SemiBold",
+      "shadow": 0.9
     }
   ],
   "persona": "travel",

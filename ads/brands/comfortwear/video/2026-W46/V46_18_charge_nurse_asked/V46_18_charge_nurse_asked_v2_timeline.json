@@ -1,0 +1,25 @@
+{
+ "total": 18.133,
+ "scenes": [
+  {
+   "src": "walk",
+   "start": 0.0,
+   "end": 2.867
+  },
+  {
+   "src": "shoes",
+   "start": 2.867,
+   "end": 7.6
+  },
+  {
+   "src": "car",
+   "start": 7.6,
+   "end": 11.3
+  },
+  {
+   "src": "_end_card",
+   "start": 11.3,
+   "end": 18.133
+  }
+ ]
+}

@@ -40,7 +40,7 @@
       "out": 4.5,
       "keep_clear": [
         [
-          0.5,
+          0.36,
           0.95
         ]
       ]
@@ -66,11 +66,12 @@
       ],
       "style": "shadow",
       "y": 0.45,
-      "size": 40,
+      "size": 42,
       "width": 0.8,
       "fade": 0,
       "text": "Queridos pies: perdón por tantos turnos de 12 horas en tenis de correr 😔 ya les compré unos elásticos que sí aguantan todo el turno ❤️ perdón por tardar tanto",
-      "weight": "SemiBold"
+      "weight": "SemiBold",
+      "shadow": 0.9
     }
   ],
   "persona": "nurse_es",
