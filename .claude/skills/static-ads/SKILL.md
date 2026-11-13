@@ -39,6 +39,8 @@ These are encoded in `ads/brands/dentalpulse/brand.json` (`program`, `copy_rules
 13. **Bacteria and yellow stains on EVERY ad.** The picture must show it (yellow/stained/filmy appliance macro, brown debris water, petri/UV biofilm, yellow vs clean pair; offer ads too) and the headline names bacteria, yellow/stain/film or what is left on the appliance. Use the feedback sheet's words (`research/feedback_deep_dive.md`).
 14. **No gimmicks that need explaining** (pharmacy-bottle parodies, joke labels, puzzles). Two-second rule: one idea, instantly clear.
 
+14b. **Delivery + research revision (user, Nov 13).** Before writing, study other brands' best-performing statics via the Atria connector (long-running, growing; oral care, ultrasonic, wellness) and the repo's learnings (research/*, earlier weeks, feedback.json). Every run delivers ONE new Drive subfolder inside "DentalPULSE - Statics" (brand.json `drive_folder_id`) containing every static (JPG copies), the GIFs and the concepts sheet, and ONE Notion review task on the DentalPULSE Board (brand.json `notion`) with the Drive subfolder link. Full wording in `ads/brands/dentalpulse/routine_prompt.md` (REVISION section).
+
 ## Batch types (sizes and days from `brand.json` → `program`)
 
 | Batch | Default day | Folder | Ids | Content |

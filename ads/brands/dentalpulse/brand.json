@@ -127,7 +127,7 @@
   "research_rule": "User Oct 28 - EVERY batch: (1) run `atria_pull.py inspiration` and read the contact sheets (static, active, launched 7-45 days ago, impressions growing WoW; oral care + health & wellness brands); (2) re-read our own top-spend statics (`winners` + `current`) and rebuild the proven formats (comparison table / ranking chart, warm lifestyle hero, giant 40% OFF type, quote + badge, native advertorial); (3) re-read research/feedback_deep_dive.md (customer words); (4) write direct-response copy; no cartoon/animation/humor; (5) render photoreal with the website fonts (brand.json -> font_style, quality_bar).",
   "funnel_mix": "70% top-of-funnel (no price, no discount: problem, proof, mechanism, authority) and 30% offer-driven (current offer below)."
  },
- "drive_folder_id": "1czcREwJ7CCml8-ZrrezzypAD9GLnwcxV",
+ "drive_folder_id": "1HWbnIm3_ACNv9SDM-BfHTWC-cznT1hpJ",
  "slack": {
   "notify_channel_id": "U04PZNV9FV0",
   "notify_name": "Samir (DM)"
@@ -941,5 +941,11 @@
    "use_for": "LAYOUT reference only (Sonic white \"The complete duo\" tile with oval button (0d)). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
   }
  },
- "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots)."
+ "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots).",
+ "drive_folder_note": "User, Nov 13: every run creates ONE new subfolder named after the batch folder (e.g. 2026-W46-tue) inside \"DentalPULSE - Statics\" (https://drive.google.com/drive/folders/1HWbnIm3_ACNv9SDM-BfHTWC-cznT1hpJ), uploads every static (JPG copy of each 4:5 PNG, via create_file with base64Content=\"sha256:<hash>:<absolute path inside the scratchpad dir>\", disableConversionToGoogleType true) plus the GIFs and the \"<folder> concepts\" sheet. Old folder 1czcREwJ7CCml8-ZrrezzypAD9GLnwcxV (W46-tue Drive subfolder 1NGiWgC1chgbBdLeljUxSDAHYOi0Er2ik holds the first sheet).",
+ "notion": {
+  "board": "DentalPULSE Board",
+  "url": "https://app.notion.com/p/4b035c961ddd4174a1b9b289fa7f87fc?v=3f223caff444819689a7000c9c653434",
+  "rule": "User, Nov 13: every run creates exactly ONE review task on this board, titled \"Review DentalPULSE statics: <folder> (<n> concepts)\", containing the Google Drive subfolder link, the concepts sheet link, the GitHub output link and a one-line summary (appliance split, TOF/offer, rival answers, GIF candidates, flags). Assign/leave it for the user to review."
+ }
 }
