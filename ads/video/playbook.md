@@ -294,3 +294,56 @@ UrbanStems `m1913804572673870` ("pov: she didn't expect flowers today", 15 d); p
 - No Disney characters, castle close-ups or logos as the focus, and avoid putting "Disney" in on-screen text of paid ads. Prefer "park day" or "the parks", and let the ad copy say Disney if legal is OK with it.
 - No jokes about patients, and no filming on hospital units or showing patient information.
 - Don't reuse a format from the last two weekly batches, or two formats with the same opening shot in one batch.
+
+---
+
+## 6. Weekly refresh — 2026-11-13 (W46 batch run)
+
+*Only items not already in sections 2 and 3. Trend sources had no post dated Nov 9–15. The newest are Tokchart (13 Nov), SocialPilot (to Nov 10), New Engen (Nov 4–5), B&T (2 Nov) and Virlo (29 Oct). Treat formats as "this fortnight", not "this week". Nurse, Disney, teacher and plus-size searches again found nothing dated November 2026.*
+
+**What's new this week (formats and messaging)**
+- **Feet-up "Ramalama" reveal:** the camera starts on the feet and tilts up on the beat to show the full look ([B&T, 2 Nov](https://www.bandt.com.au/tiktok-trends-dancing-boyfriends-outraged-mums-a-very-good-month-to-be-nicole-kidman/)). Built for shoes: open on the knit sneaker, tilt up to scrubs, a park outfit or a travel fit.
+- **Kick-a-shoe outfit transition** (MJ "You Rock My World" remix, peaking): go from casual to the full outfit in one cut by lifting a leg or kicking a shoe ([Virlo](https://virlo.ai/blog/current-tiktok-trends)). **Fan transition:** an overhead outfit change hidden behind a fan-blade wipe ([New Engen](https://newengen.com/tiktok-trends/)).
+- **"Pray For Me" slow-mo group entrance** in everyday places ([New Engen](https://newengen.com/tiktok-trends/)), such as three nurses walking out of the hospital doors at 7:15 pm. **Paparazzi bowing** (pose, then a deep bow on the drop; early stage) ([Virlo](https://virlo.ai/blog/current-tiktok-trends)).
+- **"Stop the wedding, but…" regret carousel** ([New Engen](https://newengen.com/tiktok-trends/)). The caption pattern is "stop the ___, but…", e.g. "stop the 12-hour shift, but… my feet aren't the problem anymore".
+- **"Answer in one word"** (friends or family answer one-word questions), **"dancing boyfriends"** (partner dancing unprompted, from the camera roll), **soft-launch walk** (partner's arm in frame, partner unseen) ([New Engen](https://newengen.com/tiktok-trends/), [B&T](https://www.bandt.com.au/tiktok-trends-dancing-boyfriends-outraged-mums-a-very-good-month-to-be-nicole-kidman/)).
+- **Black Friday window:** TikTok Shop's BFCM campaign runs **Nov 11–30** ([Retail Brew](https://www.retailbrew.com/stories/tiktok-shop-announces-three-week-black-friday-cyber-monday-promotions), [TikTok Newsroom](https://newsroom.tiktok.com/?lang=en&tag=product)). Live in Atria now:
+  - "If you waited until Black Friday you absolutely won…" (Peak, below)
+  - "Mom, remember…" kid's hand-drawn sign (Bandou)
+  - "gift idea for her" stocking open (ARDANT)
+- **Airport travel talk:** "airport theory" (arrive 15 min before the flight and sprint the terminal, still debated in 2026) ([Your Mileage May Vary, Mar 2026](https://yourmileagemayvary.com/2026/03/06/airport-theory-tiktok/), [Fodor's](https://www.fodors.com/news/news/what-is-the-airport-theory-tiktok-trend-its-causing-passengers-to-miss-their-flights)), "airport divorce" (couples split up after security) ([Faye](https://www.withfaye.com/blog/trip-planning-and-tips/airport-divorce-trend/)) and "check-in chicken" ([Fox 9](https://www.fox9.com/news/travelers-airports-playing-check-in-chicken-latest-flight-booking-trend)). "Airport tray aesthetic" dates from 2024; it is evergreen, not new ([Fox News](https://www.foxnews.com/travel/airport-tray-aesthetic-goes-viral-some-travelers-halt-security-checkpoints-photo-ops.amp)). The AAA 2026 Thanksgiving forecast isn't out yet; 2025 was a record 81.8M ([Lodging](https://lodgingmagazine.com/aaa-81-8-million-travelers-to-head-50-miles-or-more-from-home-over-thanksgiving/)).
+- **Nurse guardrail update:** the ANA refreshed its social-media principles on Oct 2, 2026 (professionalism, employer policy) ([NP Online](https://www.nursepractitioneronline.com/?p=78569)). That reinforces section 5: no units, no patients.
+
+**Sounds (ad-safety status)**
+- **New on the charts since section 3:**
+  - "Paper Moon Static" (Marnie Cusk): #8 in the US on 13 Nov and #1 worldwide on 7 Nov, at +42K videos a day and 2M total.
+  - "theclubrock" (Benny Bellson): 362K videos.
+  - "young & dumb" (GIRLSET): early, at 2.4K.
+  - "Ramalama (Bang Bang)" (Róisín Murphy): #1 in the US on 29 Oct.
+  - The rest of the US top 10 is unnamed "Original audio" ([Tokchart US](https://tokchart.com/tiktok-trending-sounds/united-states), [Tokchart growing](https://tokchart.com/growing)).
+  - Also: "Upside Down" (Diana Ross remix), sped-up "Paparazzi", "You Rock My World" remix ([Virlo](https://virlo.ai/blog/current-tiktok-trends)), Charli XCX "Rock Music" (edits) and Taylor Swift "New Romantics" (soft launch) ([New Engen](https://newengen.com/tiktok-trends/), [B&T](https://www.bandt.com.au/tiktok-trends-dancing-boyfriends-outraged-mums-a-very-good-month-to-be-nicole-kidman/)).
+- **Ad-safety:** none of these is confirmed in the CML or Meta Sound Collection. All are major-label tracks or unlicensed original audio, so use them only as **mood references**. The CML mostly excludes chart hits; the only check is Creative Center, then "Approved for business use" ([Third Chair](https://usethirdchair.com/blog/tiktok-commercial-library-what-brands-can-really-use), [Collabstr](https://www.collabstr.com/blog/tiktok-commercial-sounds)). Mood matches from section 4:
+  - Ramalama or "Paper Moon Static": "Confident strut", 90–100 bpm.
+  - Pray-For-Me slow-mo: "cinematic", "epic choir".
+  - Paparazzi bow and kick transition: "Hype", 120–130 bpm.
+
+**Fresh Atria references (Meta, active, run days as of 2026-11-13; frames pulled with ffmpeg)**
+- **Peak Footwear, bricepicks creator** `m2201536747069175`: 9 d, 9.0 s, rising (up 209 ranks in 14 d). **Format:** a meme B-roll (car driving through low clouds), then a static shot of the boot on a bench, with one TikTok Classic box: "If you waited until Black Friday season you absolutely won because Frost Flex is violently discounted right now 😭😭".
+  - Why it matters: it is a competitor shoe brand using our exact 2-shot recipe for Black Friday.
+  - Our version keeps the discount out of the caption (end card only).
+- **Trtl** `m1135354566085787`: 7 d, 16 s, rising (reach up 4.75x in 7 d). **Format:** on a plane, "POV: Your neighbor's a manspreader", then an inner-monologue box changes each shot ("There goe…" / "Sleep mask looks soft tho" / "…Ugh" / "…wonder if they're on sale?"). Why it matters: a fresh travel take on F30, and the envy beat sells the product without a claim.
+- **Camp Snap, Abbie Roe creator** `m29852577591027600`: 7 d, 19.9 s, rising (up 193 ranks). **Format:** a single small serif line, "pov: I gave my kid their own camcorder", over 7 wobbly kid-POV clips of a cozy home with holiday decor.
+  - Why it matters: it proves a quiet caption over raw, imperfect footage at 20 s, which fits a gift POV.
+- **Bandou** `m1095144203130410`: 7 d, **5.2 s**, rising (up 79 ranks). **Format:** overhead shot of a child's hand finishing a marker poster, "MOM REMEMBER TO BUY MY TRAVEL HEADPHONES!". Why it matters: the whole ad is the sign, a micro-loop gift reminder.
+- **ARDANT, affordableretailtherapy creator** `m1745510116553634`: 8 d, 9.5 s, stable. **Format:** 3 shots (stocking "gift idea for her ❤️🎄🎁", box open, on her) in plain shadow text. Why it matters: the simplest seasonal gift template.
+- **Competitor watch:** OrthoFit `m1381586057186500` (8 d, 19.8 s) and Kizik `m1381304880746182` (8 d, 7.2 s).
+  - OrthoFit sells wide feet plus stretchy knit, the same product promise as ours, but with VO and plantar-fasciitis claims, which we don't copy.
+  - Outway `m1124954780457780` (9 d, rising) is an "I cleaned out my drawer and didn't miss a single pair" hook. It would work as "cleaned out my shoe rack" for us.
+
+**Use in this batch**
+1. **Nurse, feet-up reveal (new format):** open on the knit sneakers on the parking-lot asphalt and tilt up on the downbeat to scrubs and a coffee. Caption: "7:14 pm. hour 12. still walking normal 🫡". Music: confident strut.
+2. **Nurse, slow-mo exit:** 2–3 coworkers walk out of the hospital doors in slow motion at shift end, then a cut to the shoes. Caption: "the night shift crew walking out like we didn't just do 12 hours 😮‍💨". No unit footage and no badges readable.
+3. **Disney/park, "if you waited" (Peak template):** shot 1 is a meme B-roll (a castle-free crowd or a sunset park walkway); shot 2 is the shoes on a hotel bench. Caption: "if you waited until now to buy your park-day shoes you honestly won 😭". The offer goes on the BF end card, never in the caption.
+4. **Plus-size, kick transition:** a mirror shot in sweats, then a kick of the shoe toward the camera, then a cut to the full outfit. Caption: "wide feet but make it cute ✨". This is a fresh version of F11, not a repeat of "Nobody told me".
+5. **Travel, Trtl-style inner monologue on Thanksgiving travel:** a gate or plane-aisle shot with a changing box: "POV: terminal B to F in 14 min" / "everyone's limping" / "me in my stretchy ones" / "…should I tell them?". This rides "airport theory" without endorsing it.
+6. **Gift micro-loop (Bandou):** a 5 s overhead shot of a kid's hand finishing a sign, "MOM, REMEMBER YOUR COMFY SHOES FOR THE CRUISE", with the shoes beside the poster. It makes a fast BF gift ad.
