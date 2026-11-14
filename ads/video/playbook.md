@@ -376,3 +376,28 @@ check in QA: if the text sits on white walls or sky, raise `"shadow"` (0..1, def
 **W46 batch (V46_11–20) uses 9 looks:** glass (11), plain shadow (12), serif (13), Helvetica shadow (14),
 box (15), meme stroke (16), Classic thin outline (17), box column (18), small letter shadow (19),
 lowercase Classic (20). Track which looks earn the best hook rate and thumb-stop in the weekly results.
+
+### Style log — new looks discovered each week (user rule, Nov 14: discover new styles every week)
+
+Every run adds **at least 2 caption looks we haven't used before**, found in fresh Atria ads (last 30 days,
+UGC/handheld, 0–30 s; build a preview grid of ~30 thumbnails and read the captions) or on TikTok, gets
+them into the engine if needed, uses them in that batch, and logs them here. Never drop a look because
+it's new; drop it when results say so.
+
+| Week | New look | Reference (Atria id) | How to make it |
+|---|---|---|---|
+| W46 (Nov 14) | Two-tone highlight: bold white text, key phrase in yellow, soft shadow | Frey UGC with VIVAIA `m1126173936822666` ("the shoes I'll be / **wearing this summer**") | any plain style, wrap the phrase in `*asterisks*` (`"accent": "#FFD84D"`) |
+| W46 | Colour box: yellow box, black text, plus a small blue tag lower | hoop `m2335826977165666` ("If your mom complains about her tired legs, give her this ⬇️") | `"style": "box", "bg": "#FFE14D"` |
+| W46 | Tall condensed all-caps, white with shadow | whit_laine with Glowco `m1767431788510673` ("BED TIME USED TO TAKE OVER AN HOUR") | `"style": "shadow", "font": "condensed", "upper": true, "size": 76` |
+| W46 (seen, not built yet) | Build-up list: short lines stack one by one at different heights ("Thought it was dairy / Thought it was gluten / …") | Fitness with Lu with PuraU `m2085545735429533` | one caption per scene with `"clips": [i, last]` and staggered `y` |
+| W46 (seen, not built yet) | Big all-caps header + small translucent question box lower | ugcbyamberb with Nurse Babes `m1429895862458769` ("CLOCKED OUT OF WORK. CLOCKED INTO MOM LIFE.") | two captions: `outline`/`shadow` upper + `glass` lower |
+| W46 (seen, not built yet) | Orange label pill above a long paragraph | Wooten Gear `m4489093394638384` ("EARLY BLACK FRIDAY" + "being married to a concreter is weird…") | `brand` pill with `color` + `shadow` paragraph |
+
+## 8. Script captions (user, Nov 14)
+
+The caption does **not** have to stay the same for the whole video. A script variant gives **each scene
+its own line**, and the lines read as one running story (problem → mechanism → turn → payoff), like
+KatKin's letter or a split sentence. Rules: one line per shot (≤ 12 words), the shot shows what its line
+says, the key phrase highlighted, same look for every line in the video, and each line stays on screen
+for the whole shot (≥ 2.4 s so it can be read). In edit.json: one caption per scene with `"clip": i`
+(see `V46_21_nurse_trash_script`). Use it for 3–5 of the 10 videos per batch; keep the rest single-caption.

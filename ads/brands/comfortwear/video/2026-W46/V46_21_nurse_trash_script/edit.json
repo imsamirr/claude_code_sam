@@ -1,0 +1,131 @@
+{
+  "id": "V46_21_nurse_trash_script",
+  "version": 1,
+  "created": "2026-11-14",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style, SCRIPT variant (user, Nov 14): one first-person caption line per scene that reads as a running story, 5 real shots of one creator, music only, no voiceover, ~14 s + end card; 9:16 with content inside 4:5.",
+  "angle": "Nurse wasting money on $180 running shoes that die in 2 months; running shoes are the wrong shoe for 12s on concrete (HF2 'Don't waste your money').",
+  "format": "Per-scene script captions (F30 running sentence / KatKin letter): each shot gets its own line, problem → mechanism → turn → payoff",
+  "caption_style": "NEW W46 look: bold white text with *yellow highlight* on the key phrase + soft shadow (VIVAIA 'the shoes I'll be wearing this summer' m1126173936822666)",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/upbeat_pop_vlog_105bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "trash": "drive:170ux_lLC0FNydq_jmblqj6LibSlgCsdD",
+    "insoles": "drive:11gphmjNykVKRtTihZErRw9_10nxSiHM5",
+    "couch": "drive:1C7_tSFSBpG1eDmmafYRXseRPP6_1bNRP",
+    "slipon": "drive:1WFer19Yo9Mv_VsgsDTqORpMDH4PTQZsX",
+    "dance": "drive:1dnPTmC7exF6vzCLkadV_ygVl14E9q_jT"
+  },
+  "source_notes": {
+    "trash": "2026/Olivia/951 Aubrey ShoesFor12HourShifts/BROLL USING OLD SHOES_4 (owned creator)",
+    "insoles": "2026/Olivia/951 Aubrey ShoesFor12HourShifts/BROLL BROKEN INSOLES_1 (owned creator)",
+    "couch": "2026/Olivia/951 Aubrey ShoesFor12HourShifts/BROLL CAN'T STAND-UP_2 (owned creator)",
+    "slipon": "2026/Olivia/951 Aubrey ShoesFor12HourShifts/BROLL SLIP-ON_2 (owned creator)",
+    "dance": "2026/Olivia/951 Aubrey ShoesFor12HourShifts/BROLL DANCING_4 (owned creator)"
+  },
+  "clips": [
+    {
+      "src": "trash",
+      "in": 0.0,
+      "out": 3.0,
+      "gain": 0
+    },
+    {
+      "src": "insoles",
+      "in": 3.0,
+      "out": 5.8,
+      "gain": 0
+    },
+    {
+      "src": "couch",
+      "in": 3.3,
+      "out": 6.3,
+      "gain": 0,
+      "shift_y": 0.1
+    },
+    {
+      "src": "slipon",
+      "in": 0.2,
+      "out": 2.9,
+      "gain": 0,
+      "focus_y": 0.7
+    },
+    {
+      "src": "dance",
+      "in": 0.5,
+      "out": 4.2,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clip": 0,
+      "text": "$180 running shoes. *2 months.* straight to the trash 🗑️",
+      "style": "shadow",
+      "font": "inter",
+      "weight": "ExtraBold",
+      "size": 58,
+      "width": 0.86,
+      "y": 0.3,
+      "shadow": 0.9
+    },
+    {
+      "clip": 1,
+      "text": "turns out running shoes are made for *running*… not 12 hours on concrete",
+      "style": "shadow",
+      "font": "inter",
+      "weight": "ExtraBold",
+      "size": 58,
+      "width": 0.86,
+      "y": 0.3,
+      "shadow": 0.9
+    },
+    {
+      "clip": 2,
+      "text": "3rd shift in a row and I couldn't even *get off the couch* 🫠",
+      "style": "shadow",
+      "font": "inter",
+      "weight": "ExtraBold",
+      "size": 58,
+      "width": 0.86,
+      "y": 0.5,
+      "shadow": 0.9
+    },
+    {
+      "clip": 3,
+      "text": "then a nurse on my floor put me onto *these stretchy ones*",
+      "style": "shadow",
+      "font": "inter",
+      "weight": "ExtraBold",
+      "size": 58,
+      "width": 0.86,
+      "y": 0.3,
+      "shadow": 0.9
+    },
+    {
+      "clip": 4,
+      "text": "3 twelves later and I'm *still dancing* 💃",
+      "style": "shadow",
+      "font": "inter",
+      "weight": "ExtraBold",
+      "size": 58,
+      "width": 0.86,
+      "y": 0.24,
+      "shadow": 0.9
+    }
+  ],
+  "persona": "nurse",
+  "based_on": "TOFv1_HF2 | 807_Aubrey_New UGC_Ortho_Stretch_Shoe_Don’t Waste Spent Money_9X16 HOOK 03 (top, $1,848 spend, ROAS 1.69, WearOrtho, 7d to 2026-11-12). Keeps its angle; script-caption format.",
+  "primary_text": "\"$180 Hokas. $150 Brooks. All in the trash after two months.\"\n\nRunning shoes are built for running. Nurses stand and walk on concrete for 12 hours.\n\n👣 Wide toe box for feet that swell by hour 8\n🦶 Arch support + cushioned heels\n🛡️ Slip-resistant soles for hospital floors\n\nStop wasting money on the wrong shoe. Tap 'Shop Now'.",
+  "headline": "Nurse Shoes Made For 12-Hour Shifts",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers"
+}

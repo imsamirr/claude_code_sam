@@ -29,6 +29,13 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
   its format's reference: box, narrow box column, translucent box, plain text + shadow, bold Helvetica +
   shadow, TikTok Classic thin outline, IG serif, meme stroke, lowercase (`ads/video/playbook.md` §7, engine
   options `style`/`font`/`weight`/`x`/`lower`). Record the look in each edit.json `caption_style`.
+- **Discover new looks every week (user rule, Nov 14)**: each run finds **≥ 2 caption looks not used
+  before** (fresh Atria UGC ads, preview grid of ~30 thumbnails; TikTok), builds them into
+  `ads/video/build.py` if needed, uses them in the batch and logs them in the playbook §7 style log.
+- **Script captions (user rule, Nov 14)**: the text doesn't have to stay the same all video. In 3–5 of the
+  10 videos give each scene its own line so the lines read as a running script (problem → mechanism →
+  turn → payoff), one caption per scene with `"clip": i`, key phrase in `*asterisks*` (playbook §8,
+  example `V46_21_nurse_trash_script`).
 - Each concept keeps its winner's angle, audience and proof points; it changes the format, hook and
   story. Use `claims_to_avoid` from brand.json.
 
@@ -42,7 +49,7 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
    `winners.md` (copy, headline, landing page, transcript). If none qualify, say so, stop, and still
    post the Notion card noting "no qualifying winners". If `ATRIA_API_KEY` is missing, use the Atria
    MCP (`list_ad_account_ads period=last_7d`) with the same thresholds.
-3. **Fresh research (short, every run)**: re-read `ads/video/playbook.md`; check what's new on TikTok
+3. **Fresh research (short, every run; includes ≥ 2 new caption looks, see Rules)**: re-read `ads/video/playbook.md`; check what's new on TikTok
    (WebSearch: trending formats/sounds this week, the winners' niches, e.g. "#nursesoftiktok trend
    this week") and 3–5 fresh organic-style ads in Atria (`search_library_ads`, `order: best_match`,
    `active_since` last 30 days, `min_days_running` 7, video 0–30 s). Append anything new and useful

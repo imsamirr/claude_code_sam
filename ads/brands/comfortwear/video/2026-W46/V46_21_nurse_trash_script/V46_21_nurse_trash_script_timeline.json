@@ -1,0 +1,35 @@
+{
+ "total": 20.8,
+ "scenes": [
+  {
+   "src": "trash",
+   "start": 0.0,
+   "end": 2.867
+  },
+  {
+   "src": "insoles",
+   "start": 2.867,
+   "end": 5.4
+  },
+  {
+   "src": "couch",
+   "start": 5.4,
+   "end": 8.133
+  },
+  {
+   "src": "slipon",
+   "start": 8.133,
+   "end": 10.567
+  },
+  {
+   "src": "dance",
+   "start": 10.567,
+   "end": 13.967
+  },
+  {
+   "src": "_end_card",
+   "start": 13.967,
+   "end": 20.8
+  }
+ ]
+}
