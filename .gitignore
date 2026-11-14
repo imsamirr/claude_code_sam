@@ -32,3 +32,5 @@ ads/video/projects/*/build/
 ads/video/projects/*/out/*.mp4
 ads/video/models/
 ads/video/projects/*/edit/*.wav
+ads/video/projects/*/reference/full/
+ads/video/projects/*/reference/ref/audio.mp3
