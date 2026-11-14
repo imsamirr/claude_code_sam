@@ -252,3 +252,265 @@ All 10 run the same headline ("Walk on Clouds—Or It's FREE.") over one of two 
 - Keep the old-vs-new step-in visible in one frame. The tighter cut drops the explicit old insole and still wins, so the meme labels carry it.
 - Single-creator show-and-tell (one product per shot) with zero graphics can run for over a year.
 
+---
+
+# THE XSTANCE (green "Triple Support System" orthotic insoles; 90-day guarantee; up to 42–55% off multi-pair)
+
+Nine of ten are **4–6.5 min long-form VSL-style ads**. The tenth is a 28 s Black Friday cut. They are built from three reusable script bodies, each with many hooks, plus one shared **UGC review tail** (~80–135 s) that sits after the CTA behind a persistent green "Click Below ↓" banner:
+- **Body A, "presenter explainer"** (01, 03, 08): a suited man talks selfie-style to camera, then mechanism (overpronation) → failed fixes → Triple Support System → multi-pair → 42% off.
+- **Body B, "customer story"** (02, 06, 09, 07): a first-person 300-lb worker or plus-size woman tells the same scripted odyssey (work shoes, concrete floors, cancelled Disneyland/Six Flags, podiatrist, Amazon insoles, $600 orthotics, forum testimonial, "Xstance Insoles 2.0 developed with foot surgeon Dr. Gregory Pomeroy", 90-day, ships from Utah, results timeline, bought 3–5 more pairs).
+- **Body C, "doctor at a podcast mic"** (04, 05): "If I wanted to stop morning heel pain starting today, here's what I'd do." An anti-list ("I wouldn't…"), then "fascia collapse" mechanism, then product.
+
+Per the brief, the first 60 s of each is analysed shot by shot, and the rest is summarised by section from the shot sheets and transcript.
+
+### the_xstance_01 — "3 Plantar Fasciitis MYTHS making the pain worse" → presenter explainer (Body A)
+**Data:** 409 days · active · impression rank **1 / 352** · stable · 12 dupes · 308.9s · 147 shots · avg 2.10s / median 1.47s · VO 195 wpm (200 wpm in first 60 s) · EN · 4:5 (720×900) · LP `/article/5-reasons` (advertorial)
+**Format / angle / persona:** myth-busting listicle hook → presenter explainer VSL → offer → UGC review reel. Persona: plantar fasciitis, morning heel pain, people who stand or walk all day, 50+.
+**Hook (0–3 s):**
+- Visual: full-frame close-up of a bare forefoot/sole with **red marker dots** on pressure points. A zig-zag steel-wire foot-acupressure tool is pressed and rocked across the toes (motion every frame). Hard cut at 3.2 s to a man in a teal tee and grey shorts doing a wall calf stretch. **No product until 89.3 s.**
+- Text hook: "3 Plantar Fasciitis MYTHS" (black) / "making the pain worse" (red). Bold sans (Montserrat/Inter Bold-like: double-story "a", geometric "o"), sentence case + "MYTHS" caps, on a white rounded pill. Glyph line ≈ 60 px, pill 4–15% from top, centred. It persists through the myth list. Each myth is added as a smaller white sub-pill below (≈ 30 px): "Stretching calves relieves tension" / "Putting ice stops the problem" / "Soft sneakers give proper support".
+- Verbal hook: "Three plantar fasciitis myths making the pain worse…" (0.00)
+- Audio: male VO (presenter) over light music · Hook archetype(s): myth-buster / "you're doing it wrong", numbered list (3), pain-point gross-out (marker dots on sole)
+- First hard cut at 3.2 s; 1 visual change in first 3 s (tool motion), 3 cuts by 10 s.
+**First 60 s, shot by shot:**
+| t | beat | VO (short) | visuals/B-roll | on-screen text |
+|---|---|---|---|---|
+| 0–3.2 | hook | "3 plantar fasciitis myths making the pain worse" | acupressure tool on marked sole | headline pill |
+| 3.2–4.8 | myth 1 | "stretching calves relieves tension" | man wall-stretching calves | + sub-pill myth 1 |
+| 4.8–7.2 | myth 2 | "putting ice on feet stops the problem" | man on sofa, feet on blue ice pack | sub-pill myth 2 |
+| 7.2–11.2 | myth 3 + pivot | "wearing soft sneakers gives proper support. Do this instead." | older man squeezing a soft sneaker | sub-pill myth 3 |
+| 11.2–14.6 | symptom call-out | "Most people don't realize this. If you wake up with stabbing heel pain," | grey-haired woman limping by car, hand on car; woman in pyjamas on bed edge | grey caption boxes begin |
+| 14.6–20.9 | symptoms | "feet ache after standing… barefoot across hard floors feels unbearable" | woman with garden hose; bare feet on hard floor; blonde wincing | "feels unbearable…" |
+| 19.9–24.6 | reframe | "it's NOT just aging, NOT just wear and tear, definitely NOT…" | man head in hands; heavy man limping; **presenter selfie (suit, blue tie, home office) first at 22.1** | NOT in caps |
+| 24.6–30.8 | truth | "The truth is… doesn't actually start in your heel" | X-ray with blue-gloved hand; foot with fascia overlay + red target; hands massaging heel | |
+| 30.8–39.9 | mechanism | "It starts with the way your foot moves… thick band… plantar fascia… feet roll too far inward" | presenter; 3D X-ray shoe glowing red; 3D fascia; skeleton foot model with pen | |
+| 39.9–47.8 | mechanism | "overpronation… tiny tears… inflammation, stiffness, pain with every step" | presenter; 3D tissue stretching; glowing X-ray foot; limping man; woman walking to car | |
+| 47.8–56.5 | analogy | "like pulling a rubber band until it snaps… arch collapses… irritated again and again" | presenter; **rubber band stretched across a slipper**; 3D arch collapse; foot on treadmill | |
+| 56.5–60 | re-agitate | "That's why so many people… stabbing heel pain in the morning" | presenter; woman in car park; man grimacing | "with Plantar Fasciitis struggle with:" |
+**Rest by section:** 60–72 symptom recap (orange fire overlay on the sole, "burning") + "not because they're getting older". 72–89 **failed fixes with red ❌ stickers** (ice pack, new shoes, cortisone shot, stretch, shoe, shot, "is going to fix PF for good"). **89.3 product reveal** "That's exactly why we created Xstance Insoles" (green insoles floating on a sparkle background), then a before/after heel-alignment graphic (red tilted line → green straight line). 95–139 "most insoles are soft OR hard, Xstance does both" → **"THE TRIPLE SUPPORT SYSTEM"** (green caps chapter title on a 3-panel split) with 3 named parts, each over its own B-roll and labelled in small spaced caps ("A PRECISION ARCH STABILIZER", "THE IMPACT CUSHIONING HEEL PAD", "A SOFT SILICONE COMFORT LAYER"). 139–153 "Still skeptical?" objection → "most insoles only solve PART of the problem". 153–162 90-day risk-free (cash handover, box packing, $100 bills). 162–190 **multi-pair logic**: "if you switch between sneakers, work shoes, slippers… progress gets undone", with an overpronation protractor graphic. 190–219 **offer**: "special multi-pair discount… up to 42% off" over a checkout screenshot (4 pairs save 41%, 5 pairs save 42%), a wall clock "For a LIMITED TIME", warehouse/boxes "thousands of orders per day… can't guarantee that'll be true tomorrow", PDP screenshot "$39.95 ~~$59.95~~" with "Click the link below", yellow "42% OFF" circle badge, red ✗ over a limping woman "Don't wait…", before/after heel graphic "FIX the root cause of Plantar Fasciitis today!" (7.8 s hold). **226.8–308.9 UGC review tail**: 4 selfie testimonials (9–37 s each). Captions switch to Oswald Bold white with black stroke (2 lines). A **persistent green bottom banner** "Click Below ↓ / UP TO 42% OFF FOR 24H" (white bold on #4CC97A-ish, arrows both sides, 85–97% from top). The last clip ends on a green-box "IT'S IMPROVING!".
+**B-roll inventory:** talking-head (presenter) ×~20 · problem visualisation (limping, wincing, holding feet, fire/red overlays) ×~25 · anatomy/3D/X-ray ×~12 · comparison/failed fixes with ✗ ×8 · product demo (finger pressing arch, insert into shoe, flex) ×~20 · lifestyle walking (diverse 50–70 y/o) ×~20 · offer/price card (checkout + PDP screenshots, 42% badge, clock) ×5 · testimonial clip (UGC selfie) ×4 long · stock (warehouse, cash, delivery) ×6
+**Transitions & motion:** ~97% hard cuts. Sticker graphics (red ✗ circles, red/green alignment lines, 42% badge, protractor). Split-screen 2–3 panel for the Triple Support System. No whip transitions.
+**Caption system:** body: white sentence-case rounded geometric sans (Google Sans/Outfit-like, regular) on a **semi-transparent dark-grey rounded box**, 2 lines, 3–7 words, glyph line ≈ 45–50 px, box 75–87% from top. Emphasis via CAPS words (NOT, PART, BOTH, RISK-FREE, LIMITED TIME, FIX). Hook uses a white pill headline. Tail uses Oswald stroke captions plus the green banner.
+**Pacing:** hook shots 1.6–4.1 s, body median ~1.5 s, offer holds 2–3 s, final FIX graphic 7.8 s, UGC tail 9–37 s per clip (one-take holds).
+**Offer & CTA:** guarantee 153 s, multi-pair rationale 162 s, **42% off at 194 s** (63% through), scarcity 199–209 s, "Click the link below" 209 s, banner restates "UP TO 42% OFF FOR 24H" for the last 90 s.
+**Steal this:**
+- "3 [condition] MYTHS making the pain worse" pill headline with myths stacked as sub-pills, then "Do this instead". The numbered list buys ~10 s of retention.
+- Put a persistent offer banner over a long UGC review reel after the CTA. It turns viewers who stay into a second CTA zone.
+- Use a "one pair isn't enough, you switch shoes" script beat to justify a multi-pair bundle (perfect for "a pair for work and a pair for home").
+
+### the_xstance_02 — "Don't put ice on Plantar Fasciitis — do this instead!" → 300-lb worker's story (Body B)
+**Data:** 369 days · active · rank **2 / 352** · stable · 10 dupes · 336.2s · 142 shots · avg 2.37s / median 1.64s · VO 188 wpm (191 in first 60 s) · EN · 4:5
+**Format / angle / persona:** "don't do X, do this instead" hook → first-person customer odyssey (heavy-set work-boot worker, concrete floors, dad) → discovery of Xstance via a testimonial → results → UGC tail. Persona: male worker 40s–50s (the women's version is 06/09).
+**Hook (0–3 s):**
+- Visual: 0–2.8 s close-up of bare legs stepping down into a blue plastic tub of ice water, with handheld wobble. Hard cut at 2.8 s to a bearded heavy man (charcoal Polo tee) talking head in a stone-fireplace living room. 3.3 s cut to him walking down garden steps with a **red circular heel-pain icon** sticker on his heel.
+- Text hook: "Don't put ice on Plantar Fasciitis" (appears 0.25 s), then "Do this instead!" (pops in at 2.0 s, scaling up). Black bold sans on white rounded boxes (TikTok-native style), glyph line ≈ 35 px, boxes 6–13% from top.
+- Verbal hook: "Don't put ice on plantar fasciitis, do this instead." (0.00)
+- Audio: male first-person VO (the "customer"), light music · Hook archetype(s): "don't do X" contrarian warning + "do this instead" curiosity, relatable home remedy
+- First hard cut at 2.8 s; 2 cuts in first 3.5 s.
+**First 60 s, shot by shot (condensed):**
+| t | beat | VO (short) | visuals/B-roll | on-screen text (word-by-word) |
+|---|---|---|---|---|
+| 0–2.8 | hook | "Don't put ice… do this instead" | feet into ice tub | white-box headlines |
+| 2.8–6.7 | intro | "I've struggled with heel pain from my work boots for about a year" | TH; walking down steps with red heel icon; POV boot on concrete; kneeling worker with hard hat | I've / struggled / **HEEL PAIN** (red caps) / my work / a year. |
+| 6.7–13.4 | who + why | "bigger guy at almost 300 pounds walking all day on concrete floors" | TH; man walking city pavement; hi-vis worker legs on wet concrete; man by van clutching foot (red icon) | bigger / walking / concrete |
+| 13.4–20.7 | first attack | "The first time… incapacitated me for a month… kept coming back" | **X-ray overlay on an ankle with red arrows**; man on sofa holding foot; TH; **yellow lightning bolts + red glow** on foot | The first time, / incapacitated / coming |
+| 20.7–26.4 | everything failed | "over the past 14 months I tried everything" | calendar macro; TH; **3-panel collage** (massage gun, splint, foot massager); man walking by fence | over / I tried / **EVERYTHING** (yellow) / nothing |
+| 26.4–33.7 | emotional cost | "We had to cancel our family trip to Disneyland… kids looking forward to it" | plane with red **CANCELED** stamp; Disneyland castle with red CANCELED stamp; TH; sad girl on suitcase; sad boy | to cancel / to Disneyland. / because / forward |
+| 33.7–43.6 | identity crisis | "Is this the life I'm going to live? Sidelined, frustrated, a burden to my family… I refused to accept this" | TH; **re-enacted moody shots** of him (maroon shirt, dim room, by truck) | "Is this / "Sidelined, / frustrated / my family? (all red) / I refused |
+| 43.6–55.2 | diagnosis + standard advice | "A podiatrist told me… ligament inflamed… suggested rest, icing, stretching, orthopedic shoes, braces" | doctor in white coat; 3D foot "Plantar Fasciitis." red; 3D fascia red with **PiP of the TH (bottom-right)**; legs; ice; stretch; orthopedic shoe; brace | A podiatrist / Plantar Fasciitis. / It's when / suggested / icing, / stretching, / orthopedic |
+| 55.2–60 | escalation | "next step was cortisone shots and custom orthotics" | syringe; plaster casting of foot; TH | If those / and / I tried |
+**Rest by section:** 60–104 failed purchases: orthopedic sneakers, **Amazon listing screenshot of Dr. Scholl's with TH PiP** "I ordered 5 brands from Amazon", red ✗ over flimsy/rigid insoles, night splints, painkillers, "$600 custom orthotics" (cash), forums/Facebook/YouTube/journals (laptop typing). 104–155 discovery: "stumbled across a testimonial… hundreds of comments… **Xstance Insoles 2.0**… with foot & ankle surgeon Dr. Gregory Pomeroy" (product first at ~116 s on a sparkle background). Features over hands-on demos with **green keyword captions** (arch, padding, Deep, heel-cup diagram with a coloured "shock wave"). 149–170 "what's a few more bucks" → website screenshot + review card ("Timothy Kernell, Gas Station Worker ★★★★★") → **90-day** (green) cash handoff → "shipped from Utah, received in 2 days". 170–212 results timeline: "by the end of my shift… next day 80% gone… after a week" → even knees and hips → "bought three more pairs so I wouldn't have to switch them". 212–247 mechanism recap + "don't make the same mistake I did… don't rely on pills" (red ✗ over pills/limping) → "**If Xstance insoles are still available, get yours now**". 254–336 UGC tail with green "Click Below / UP TO 42% OFF FOR 24H" banner.
+**B-roll inventory:** talking-head (customer) ×~35 · re-enactment of the narrator (moody alt wardrobe) ×6 · problem visualisation ×~20 · stock emotional (kids, castle, plane, calendar) ×6 · anatomy/3D/X-ray ×6 · competitor/failed fixes (Amazon screenshot, ✗ insoles, splints, orthotics) ×~12 · review/website screenshot ×3 · product demo ×~15 · testimonial clip ×4 (tail)
+**Transitions & motion:** hard cuts. Graphic stickers: red heel icon, yellow lightning, red CANCELED rubber stamps, red ✗, yellow arrows, product-feature icon bubbles. **Picture-in-picture talking head** over B-roll and screenshots. 3-panel collage for "EVERYTHING".
+**Caption system:** **word-by-word Oswald Bold** (tall condensed sans), white with black stroke + drop shadow, 1–2 words, glyph height ≈ 75–90 px incl. stroke, lower third (~81–88% from top). Colour-coded keywords: **red = pain/emotion**, **yellow = emphasis**, **green = product benefit / relief**. Hook uses TikTok-native white boxes.
+**Pacing:** 1–2 s cuts throughout the story. The TH is never on screen for more than ~2.5 s before cutting to illustrative B-roll. Tail clips hold 9–37 s.
+**Offer & CTA:** no discount spoken in the body. Guarantee at 155–166 s, CTA at 243 s ("if still available"), and the 42%/24H offer lives only in the tail banner.
+**Steal this:**
+- Colour-code word-by-word captions: red for pain words, green for relief and product words. Viewers read the emotional arc without sound.
+- Use an emotional-cost beat with stock + stamp graphics ("we had to cancel the family trip" + red CANCELED stamp). For WearOrtho: a grandchild's recital or a cruise excursion skipped.
+- Show a "failed fixes" montage with the Amazon competitor screenshot + PiP narrator, then the $600 custom-orthotic anchor.
+
+### the_xstance_03 — "Stop resting if your HIPS HURT — do this instead!" → hip-pain version of Body A
+**Data:** 385 days · active · rank **3 / 352** · stable · 11 dupes · 289.6s · 142 shots · avg 2.04s / median 1.36s · VO 204 wpm (229 in first 60 s) · EN · 4:5
+**Format / angle / persona:** Body A with the problem moved up the kinetic chain: hip pain caused by the feet ("7 out of 10 people overpronate"). Persona: 55+ women and men with hip, knee or lower-back ache. Ad copy: "Hips still aching no matter how much you rest, ice, stretch… or even take a pill?"
+**Hook (0–3 s):**
+- Visual: grey-haired woman in a white sweater with an orange shoulder bag bends stiffly over a stone garden bench, hands on the bench, and slowly lowers herself (0–2.47 s). Hard cut at 2.47 s to the same woman walking by a black car with a **red glow on her hip**.
+- Text hook: "Stop resting / if your **HIPS HURT**". Black bold sans + red heavy caps on a white rounded box, 4–14% from top, glyph line ≈ 55–60 px. At 1.75 s "Do this instead!" pops in as a sub-pill (≈ 30 px).
+- Verbal hook: "Stop resting if your hips hurt, do this instead." (0.00)
+- Audio: presenter VO · Hook archetype(s): counter-intuitive "stop doing X" + body-part call-out
+- First hard cut at 2.47 s.
+**First 60 s:** 2.5–14.3 symptom call-out with red hip glows (woman by car "Most people don't realize this…", man in a garden "hips ache when you stand or walk", woman with hose, man wincing in a chair "sharp pinch", hip close-up "deep soreness near the groin or outer hip", woman walking "stiff and tight", man rising from bed "when you get up from a chair", woman on stairs "or climb stairs") → 14.3–19.5 "NOT just aging / NOT just wear and tear / definitely NOT…" (man head in hands, limping man, presenter) → 19.5–24.2 "The truth is… doesn't actually start at your hips. It starts at your feet." (hip X-ray held up, **blue 3D skeleton**, hands on foot) → 24.2–36.3 mechanism (glowing X-ray shoe, presenter "for seven out of ten people", skeleton foot "roll far too inward", bare feet "This hidden problem", 3D weight-line foot "shifts your weight the wrong way", woman walking with **knee/hip anatomy bubble icons** "puts constant strain", knee X-ray overlay, hip glow) → 36.4–49.7 "like knocking over the first domino… foundation is off" + symptom re-list → 49.8–60 "Not because their hips are weak, but because their feet are out of alignment… worst part… limiting their mobility. So what do most people do?"
+**Rest by section:** 60–78 failed fixes (pain creams, anti-inflammatory pills, ice, hip braces, orthopedic shoes, red ✗) → 78 product "Xstance Insoles… take pressure off your hips" → 81–121 soft-vs-hard → Triple Support System → 121–141 skeptic + 90-day → 141–175 multi-pair logic → 175–200 **42% off**, checkout, clock, warehouse, PDP $39.95, "Don't wait until your **hip** pain gets worse", "Stop masking the symptoms", "FIX the real problem today!" (7 s) → 207.5–289.6 UGC tail + green banner (42% / 24H).
+**B-roll inventory:** same library as 01, plus hip-specific problem shots (red hip glows ×8, hip/knee anatomy ×4, domino).
+**Transitions & motion / Caption system / Pacing:** as 01 (grey translucent box captions ≈ 45–50 px at 75–87%; hard cuts; median 1.36 s, the fastest of the long-forms).
+**Offer & CTA:** as 01 (42% off at ~177 s, banner in tail).
+**Steal this:**
+- **Re-skin one script for a new body part** ("Stop resting if your HIPS / KNEES / BACK hurt"): swap ~25% of the B-roll and keep the mechanism → product → offer.
+- A red glow on the painful joint is cheap and makes the problem readable in 0.5 s.
+- The domino/foundation analogy works to sell "it starts in your feet" to hip or knee sufferers.
+
+### the_xstance_04 — "STOP CUSHIONING YOUR PLANTAR FASCIITIS" → doctor-at-podcast-mic anti-list (Body C, 9:16)
+**Data:** 298 days · active · rank **4 / 352** · stable · 3 dupes · 245.8s · 110 shots · avg 2.23s / median 1.47s · VO 184 wpm in first 60 s · EN · 9:16 · ad title "$40 vs $400 same support"
+**Format / angle / persona:** a white-coat "doctor" (grey hair, stethoscope, podcast mic, office) delivers "If I wanted to stop morning heel pain starting today, here's what I'd do" → 6 things he wouldn't do → "fascia collapse" mechanism → product → UGC tail. Body copy: custom orthotics $300–500 vs Xstance $40. Persona: morning heel pain, the "cushioned sneaker" crowd (Hoka/On).
+**Hook (0–3 s):**
+- Visual: **letterboxed**: top ~22% is a white title bar, video below. Extreme close-up of two thumbs digging into a heel/arch (deep massage, slightly gross). 2.7 s hard cut to a grey sculpted anatomical foot/ankle model with red calf muscle on a dark plinth. 5.2 s **split screen "INSTEAD, TRY THIS"**: left, a thick white foam insole under a pink sock; right, a bare heel standing on the Xstance green-rim insole (product at 5.2 s, unbranded).
+- Text hook: "STOP CUSHIONING YOUR" (black) / "**PLANTAR FASCIITIS**" (red, underlined), Arial Black / Helvetica Black caps, glyph lines ≈ 59 px and ≈ 65 px, 4–14% from top on white. 2.7 s it swaps to "THIS CAN / MAKE IT **WORSE**" (red WORSE). 5.2 s "INSTEAD, TRY THIS".
+- Verbal hook: "Stop cushioning your plantar fasciitis. This can make it worse and prevent you from recovering. Instead, try this." (0.00)
+- Audio: male doctor VO, light music · Hook archetype(s): contrarian enemy (the cushioning everyone buys), authority, "instead, try this" visual answer
+- First hard cut at 2.67 s; 2 headline swaps in first 7 s.
+**First 60 s:**
+| t | beat | VO (short) | visuals/B-roll | on-screen text |
+|---|---|---|---|---|
+| 0–7.1 | hook | (above) | massage → anatomy sculpture → split screen | 3 title-bar headlines |
+| 7.1–11.0 | promise | "If I wanted to stop morning heel pain starting today, here's what I'd do" | woman on bed rubbing heel (red glow); **"MORNING HEEL PAIN" red caps overlay**; 3D fascia; **doctor at mic** (10.0) | small captions |
+| 10.9–15.7 | anti-list 1 | "I wouldn't rely on cortisone shots. They quiet pain, not the cause." | injection into heel (red glow); syringe | First, / They quiet pain, / not the cause. |
+| 15.7–19.1 | anti-list 2 | "I wouldn't rely on therapy… not a muscle issue" | therapist hands on heel; doctor | |
+| 19.1–22.2 | anti-list 3 | "I wouldn't ice it. Numbing pain doesn't stop damage." | foot in ice bucket (frost overlay); ice pack; foot in ice | |
+| 22.2–25.7 | anti-list 4 | "I wouldn't use sleeves. Compression doesn't correct movement." | pulling on a blue compression sleeve; wrapping bandage | |
+| 25.7–35.8 | anti-list 5–6 | "soft insoles or cushioned sneakers… feel good at first, sure… too much cushioning can make the foot unstable" | squishy white foam insole; **HOKA sneaker on foot**; doctor; ripping foam; runner on road; 3D fascia stress | |
+| 35.8–42.3 | close loop | "Do I really need to say more? If the cause is still there, the pain always comes back." | doctor; woman walking in woods; woman on couch | |
+| 42.3–60 | mechanism | "here's what's actually happening… plantar fascia acts like a strong support band… foot rolls inward… repeatedly overloaded… micro tears… Cleveland Clinic calls this overpronation" | X-ray with pen; 3D foot red fascia; bone model; leg with weight-line + red heel; 3D fascia; sculpture; **Cleveland Clinic article screenshot "What is overpronation?"** | |
+**Rest by section:** 60–80 "I call it fascia collapse" → night repair / **morning re-tear** story (sleeping man, 3D tissue repair, woman waking, slipper first step, re-tear arrow, men wincing on bed edge) "Morning pain isn't the cause, it's the result". 80–92 all treatments miss the mark. 92–114 product ("That's why I recommend Xstance insoles"): stabilise arch, cushion heel, silicone layer. 114–128 proof: "300,000 people trust Xstance" (Trustpilot-style review screenshot + **6-face UGC grid**), shift workers (electrician, warehouse, linesman). 128–139 "**CONSISTENCY**" (green caps over a nurse in scrubs inserting insoles) → support in every pair. 139–157 90-day guarantee (checkout screenshot with "100% NO-RISK 90-DAY MONEY BACK GUARANTEE", pack, "you can return them within 90 days", cash) → "click below and try Xstance today". 157.7–245.8 UGC tail with green "Click Below / UP TO 55% OFF" banner.
+**B-roll inventory:** talking-head (pro/doctor) ×~14 · anatomy/3D/X-ray/sculpture ×~18 · problem visualisation ×~15 · failed treatments (shots, ice, sleeves, foam insoles, Hoka) ×~12 · press/authority screenshot (Cleveland Clinic) ×1 · review screenshot + UGC grid ×2 · lifestyle workers ×~8 · product demo ×~8 · offer (checkout) ×1 · testimonial clips ×6 (tail)
+**Transitions & motion:** hard cuts. Letterbox title bar for the first 7 s only. Split-screen comparison. Red glow overlays, frost overlay on ice shots.
+**Caption system:** small TikTok-auto-caption look: white sentence-case sans (SF/Proxima-like medium) with drop shadow, no box, 3–6 words in 1–2 lines, glyph line ≈ 30 px, **centred ~45–50% from top** (mid-frame). Single emphasis overlays in big red or green caps ("MORNING HEEL PAIN", "CONSISTENCY").
+**Pacing:** 0.9–2.5 s shots, doctor shots 1.5–2.4 s, the shortest body (157 s) of the long-forms.
+**Offer & CTA:** guarantee 139 s, CTA 155.6 s, no % in the body. "UP TO 55% OFF" only in the tail banner. The ad copy carries the "$40 vs $400" anchor.
+**Steal this:**
+- "Stop [the thing they already bought]": "STOP CUSHIONING YOUR PLANTAR FASCIITIS". The enemy is soft/memory-foam shoes, which is exactly WearOrtho's chance to sell *support + comfort*.
+- "If I wanted to fix X starting today, here's what I'd do… I wouldn't…" anti-list from a credentialed speaker. Each "I wouldn't" is a 3 s retention beat with its own B-roll.
+- Show a third-party authority screenshot (Cleveland Clinic page) on the mechanism claim.
+
+### the_xstance_05 — "This is the Plantar Fasciitis life hack I wish I knew sooner" (hammer on sole) → Body C, second doctor
+**Data:** 242 days · active · rank **5 / 352** · stable · 4 dupes · 300.1s · 111 shots · avg 2.70s / median 1.50s · VO 195 wpm in first 60 s · EN · 9:16
+**Format / angle / persona:** new 12.7 s hook + 04's doctor script re-shot with a **different presenter** (grey-haired man in a dark button-down, same podcast-mic set-up, open-plan office). Longer UGC tail (134 s).
+**Hook (0–3 s):**
+- Visual: a bare sole lying on a desk, marked in pen with 3 circled ✗ points joined by lines. A hand **taps/hammers the sole with a claw hammer** (motion blur on each strike, 0–3.9 s).
+- Text hook: "This is the Plantar Fasciitis / life hack I wish I knew sooner". Black bold sans on a white rounded box (TikTok-native), 2 lines, glyph ≈ 35–40 px, box ~22–31% from top.
+- Verbal hook: "This is the plantar fasciitis life hack I wish I knew sooner." (0.00)
+- Audio: male VO · Hook archetype(s): "life hack I wish I knew sooner", absurd/shock visual (hammer), pattern interrupt
+- First hard cut at 3.93 s.
+**First 60 s:** 3.9 man doing wall stretch "Doing this" → 5.9 man with ice pack under feet "Doing this" → 8.1 bright orange chunky cushioned sneaker "And this one?" → 10.4 **black text card** "Avoid those traps / and / do this instead" (white bold, centred) → 12.7 woman on bed rubbing heel (red glow) "If I wanted to stop" → 13.9 "MORNING HEEL PAIN" red overlay → 14.8 3D fascia "starting today," → 15.7 doctor #2 "here's what I'd do" → 16.6–41.4 the anti-list exactly as 04 (shots, therapy, ice, sleeves, soft insoles, Hoka) → 41.7–60 "Do I really need to say more?" + mechanism start (X-ray, fascia band).
+**Rest by section:** as 04 (+5.6 s): mechanism / fascia collapse → product → 300,000 → consistency → 90-day guarantee (green "MONEY BACK 100% GUARANTEE" seal on cash) → "click below and try Xstance today" (165.5 s) → **165.7–300 UGC tail** (5 selfie testimonials 19–39 s each, e.g. "So my name is Casey… game changer") with a **mid-frame green rounded box "UP TO 55% OFF / Tap below to try them risk-free for 90 days"** (~65–72% from top) and small white captions above it.
+**B-roll inventory / Transitions / Caption system:** as 04 (small centred white shadow captions ≈ 30 px; black text card transition; red glows).
+**Pacing:** 4 setup shots of 2.0–3.9 s before the doctor appears. The tail is 45% of runtime.
+**Offer & CTA:** guarantee ~150 s, CTA 163 s, 55% + "risk-free for 90 days" in the tail box.
+**Steal this:**
+- "Doing this… / Doing this… / And this one?" → black card "Avoid those traps and do this instead". A 10 s triple-mistake montage before the expert speaks.
+- Absurd-but-relevant demo as thumb-stop (hammer on a marked sole). For WearOrtho: a marker-drawn bunion or heel spot on a foot.
+- **Cast the same script with two different experts** to double the creative pool (04 + 05 both rank top 5).
+
+### the_xstance_06 — "Watch my PLANTAR FASCIITIS recovery" Day 1/7/14 split screen → woman's story (Body B)
+**Data:** 370 days · active · rank **6 / 352** · stable · 3 dupes · 378.9s · 161 shots · avg 2.35s / median 1.77s · VO 177 wpm in first 60 s · EN · 4:5
+**Format / angle / persona:** before/after recovery hook → plus-size woman (40s–50s, work shoes, concrete floors, mum) tells Body B → UGC tail. **Closest persona match to WearOrtho** (women, on feet all day, family stakes).
+**Hook (0–3 s):**
+- Visual: **side-by-side split screen** (thin white divider). Left: the woman in a grey tee and grey shorts limping down a dirt path with a red heel-pain icon on her foot. Right: the same woman in a navy tee and turquoise shorts striding confidently along a wooden deck with a US flag behind. Both walk toward camera. 2.6 s hard cut to full-frame "Day 1: Struggling to walk." (gravel yard, slow gait).
+- Text hook: "Watch my / **PLANTAR FASCIITIS** / recovery". Black bold small lines (≈ 35 px) + big red heavy caps (≈ 58 px) on a white rounded box, 5–16% from top. Day labels: black text on small white TikTok boxes at ~75% from top.
+- Verbal hook: "Watch my plantar fasciitis recovery. This is me on day one, day seven, and on day 14." (0.00)
+- Audio: female first-person VO · Hook archetype(s): before/after transformation, time-stamped progress (Day 1/7/14), "watch my…" vlog framing
+- First hard cut at 2.64 s; white flash transitions at 4.3 s and 5.6 s.
+**First 60 s:**
+| t | beat | VO (short) | visuals/B-roll | on-screen text |
+|---|---|---|---|---|
+| 0–2.6 | hook | "Watch my plantar fasciitis recovery" | split before/after | headline box |
+| 2.6–7.1 | progress proof | "This is me on day one, day seven, and on day 14" | Day 1 limping on gravel → white flash → Day 7 walking dog on a path → white flash → Day 14 playing with dog on deck | "Day 1: Struggling to walk." / "Day 7: Walked three blocks." / "Day 14: Pain completely gone." |
+| 7.1–8.2 | bridge | "Here's how I did it." | **black card** | "Here's how I did it…" (white bold, centred) |
+| 8.2–14.8 | backstory | "heel pain from my work shoes for nearly a year… plus-size woman walking all day on concrete floors" | TH in kitchen; limping on gravel with red heel icon; burgundy leggings + black sneakers at work; TH; legs walking in shop aisle; POV sneaker on concrete | Oswald 2-line captions |
+| 14.8–23.9 | first attack | "excruciating… sharp stabbing pain put me out of commission for a month" | on sofa with **yellow lightning + red glow**; TH; bare feet on bed edge → **red lightning bolt up the leg**; limping on dirt path with red icon | |
+| 23.9–31.4 | tried everything | "kept coming back… past 14 months I have tried everything" | TH; pink sneakers on path; TH; walking gravel; **3-panel collage** (massage ball, foam roller, massager) | "I have tried EVERYTHING" |
+| 31.4–42.6 | emotional cost | "cancel our family trip to Disneyland… our kids had been looking forward to that" | TH; passport + tickets with red CANCELED stamp; Disneyland castle; TH; boy close-up; bored girl | |
+| 42.6–54.5 | identity | "Is this what my life is going to be like? Always in pain, frustrated, a burden… I vowed to find a solution" | TH with **floating "?" graphics**; TH; slumped on sofa; TH | "Is this what my life is going to be like?" |
+| 54.5–60 | diagnosis | "A podiatrist diagnosed me with plantar fasciitis… ligament… inflamed" | doctor in white coat; fascia overlay with red target; 3D foot; 3D blue fascia | |
+**Rest by section:** 60–106 standard advice + failed fixes (rest, icing, stretching, orthopedic shoes, braces, cortisone, custom orthotics; On Running sneakers "I tried highly-rated orthopedic sneakers with cushioned soles"; Amazon screenshot "I bought five different brands"; red ✗ over flimsy/rigid insoles; night splint; painkillers; "$600 for the custom orthotics" with a cash pile and big yellow "600"; praying hands "hoped for a miracle"). 106–138 search online (laptop, forums) → testimonial discovery → "Xstance Insoles 2.0… with foot and ankle surgeon Dr. Gregory Pomeroy". 138–180 features (presenter woman holding the insole, heel-cup diagram, feature icon bubbles). 180–200 "I visited their official website" (website + review card) → **90-day** → "NO RISK!" → "They shipped from Utah, got them within 2 days" (warehouse, courier). 200–250 results (swapped insoles in work shoes → "felt comfortable right away" → end of shift → next day → week) → bought 3 more pairs. 250–288 mechanism recap + "If Xstance insoles are still available, get yours right now". 288–378.9 UGC tail with green banner.
+**B-roll inventory:** talking-head (customer, kitchen) ×~40 · re-enactment of narrator (limping, sofa, Day 1/7/14) ×~15 · stock emotional ×6 · anatomy ×5 · failed fixes ×~15 · website/review screenshots ×3 · product demo ×~15 · testimonial clips (tail) ×4
+**Transitions & motion:** hard cuts + white flashes between "Day" clips + black text card. Graphics: red heel icon, lightning, CANCELED stamp, floating "?" marks, $600 cash pile, 3-panel collage.
+**Caption system:** Oswald Bold white with black stroke/shadow, **2-line phrases** (4–8 words), glyph line ≈ 55–65 px, ~77–87% from top. "EVERYTHING" and "NO RISK!" set in caps.
+**Pacing:** hook 2.6 s, progress clips 1.3–1.7 s, body median 1.8 s, TH max ~4.4 s.
+**Offer & CTA:** guarantee ~184 s, multi-pair seeded at ~244 s ("bought three more pairs"), CTA ~284 s, 42%/24H in the tail banner.
+**Steal this:**
+- A **side-by-side before/after walking split** of the same woman, plus a "Watch my [condition] recovery" box. It is instantly understandable and very hard to scroll past.
+- Time-stamped progress labels ("Day 1: Struggling to walk. / Day 7: Walked three blocks. / Day 14: Pain completely gone.") with white-flash transitions, then a "Here's how I did it…" black card.
+- Plus-size, work-shoes, mum persona with a family-stakes beat. This maps directly to WearOrtho's nurse and teacher personas.
+
+### the_xstance_07 — "PLANTAR FASCIITIS HEALING JOURNEY: This is James's foot 4 weeks ago" → men's story (Body B, 9:16)
+**Data:** 114 days · active · rank **7 / 352** · stable · 13 dupes · 391.4s · 142 shots · avg 2.76s / median 1.70s · VO 229 wpm in first 60 s · EN · 9:16 · ad title "Stop stretching. Do this instead."
+**Format / angle / persona:** third-person before/after hook ("James's foot") → first-person story by a white-bearded man in a red plaid shirt (Six Flags instead of Disneyland). Persona: 300-lb work-boot man, 55+. The ad copy carries a separate nurse testimonial ("Sarah, 44, nurse").
+**Hook (0–3 s):**
+- Visual: 0–1.9 a man in a black work jacket and cap walks stiffly along a snowy garden path toward camera, with a **hand-drawn red circle** tracking his right foot. 1.9 cut to the same man in a red plaid shirt walking briskly down a carpeted hallway ("And this is now."). 2.9 cut back to the garden, walking freely past a pergola. Note: the hook man and the later talking head look similar but are not obviously the same person (likely assembled footage).
+- Text hook: title bar "**PLANTAR FASCIITIS**" (red Arial Black caps on white) / "**HEALING JOURNEY**" (black caps on white), two stacked white boxes, glyph ≈ 50–54 px, 5–11% from top. Word captions centred ~29%: "This **is** James's **foot** 4 **weeks** ago." (karaoke red) → "And **this** is **now.**" (yellow) → "**His** Plantar Fasciitis" (green).
+- Verbal hook: "This is James's foot four weeks ago, and this is now. His plantar fasciitis 100% healed." (0.00) → 5.7 "Here's what he did."
+- Audio: male VO · Hook archetype(s): before/after with tracked circle, named third-party proof, time-bound (4 weeks), "here's what he did" open loop
+- First hard cut at 1.9 s; 2 cuts in first 3 s.
+**First 60 s:** 5.8–6.9 **black card "Here's what he did."** → 6.9 TH (white beard, plaid, living room with flowers) "I started dealing with crippling heel pain from my work boots" (walking path with red heel glow; muddy work boots) → 10.0 "I'm a big guy… concrete floors take a real toll" (walking in boots; man on sofa with red foot) → 14.8 "felt like landing on a nail" (bare foot over a **bed of nails**) → 19.4–28.9 "calmed down… but after a long shift it always came back… tried every trick… nothing" (walking in snow, rubbing foot, hallway, walking away) → 26.3–36.5 "planned a day at Six Flags… had to back out… my kids… their faces" (TH; girl on suitcase; boy sad) → 36.7–46.8 "Is this really my life now? Always hurting… slowing everyone down" (TH eyes closed; **B&W re-enactment** in blue plaid; man on stairs gripping rail) → 46.8–60 "went to the foot doctor… plantar fasciitis… feet collapse inwards… unnatural tension" (doctor in white coat; X-ray with gloved pointer; 3D foot red ligament; 3D foot on insole; skeleton model; weight-line leg with red heel; glowing X-ray shoe).
+**Rest by section:** 60–92 advice + failed fixes (ice, stretch, better shoes, night brace, cortisone, custom insoles; On Running "those thick cushioned shoes for one day"; Amazon screenshot "I ordered a bunch"; soft ones ✗, too stiff ✗; splint) → 92–139 desperate research → "everyone was talking about Xstance Insoles 2.0" → 139–176 product: "made by [lab scientist at a scan screen] and built for folks who stand all day" (split screen workers) → "you just drop them in and go" → **6-face UGC grid** "Everyone said…" → Triple Support System (green numbered "2" overlays per feature) → website PDP screenshot ($49.95 → $29.95) → 90-day (cash, tape gun "send them back") → 176–257 results + "bought five more pairs… in all of my shoes" → mechanism recap (support holds, cushioning "takes the hit", 3D heel heal) → "So don't wait… If the Xstance insoles are still in stock, get a few pairs now" (PDP, green insoles on grass) → **257–391 UGC tail** (134 s) with mid-frame green "UP TO 55% OFF / Tap below to try them risk-free for 90 days" box.
+**B-roll inventory:** talking-head (customer) ×~35 · B&W/alt-wardrobe re-enactment ×5 · problem visualisation (bed of nails, red glows) ×~15 · stock emotional ×4 · anatomy/X-ray ×~8 · failed fixes + Amazon screenshot ×~12 · lab/scientist stock ×1 · UGC 6-face grid ×1 · PDP/website screenshots ×3 · product demo ×~15 · testimonial clips ×5 (tail)
+**Transitions & motion:** hard cuts, black text card, tracked red circle (hand-drawn style) in the hook, green numbers per feature, split screens, 6-up grid.
+**Caption system:** Oswald Bold white with black stroke, 1–3 words, glyph ≈ 60–75 px, lower third (~78–85%). Karaoke colour on the active word in the hook (red / yellow / green).
+**Pacing:** hook 1.9 + 1.0 + 2.9 s, body median 1.7 s, TH holds up to 5.2 s on emotional lines.
+**Offer & CTA:** guarantee ~170 s, multi-pair ~227 s, CTA ~253 s, 55% in the tail box.
+**Steal this:**
+- Use a "[CONDITION] HEALING JOURNEY" two-tone title bar + "This is [Name]'s foot 4 weeks ago / And this is now" + a red circle tracking the foot.
+- Use a black "Here's what he/she did." card as the hinge between proof and story (also used in 06).
+- Show a 6-face UGC grid on "everyone was talking about…".
+
+### the_xstance_08 — "Don't stretch your calves if you have PLANTAR FASCIITIS" → Body A (01 minus the myth list)
+**Data:** 366 days · active · rank **8 / 352** · stable · 4 dupes · 301.4s · 144 shots · avg 2.09s / median 1.46s · VO 211 wpm in first 60 s · EN · 4:5
+**Format / angle / persona:** **hook-swap of 01**. A single "don't do X" myth (3.7 s) replaces 01's 11 s three-myth list. Body = 01 from "Most people don't realize this…" (01's 11.2 s maps to 08's 3.7 s).
+**Hook (0–3 s):**
+- Visual: a woman (long hair, denim shorts, dark tee) doing a calf stretch against a white door in a home hallway, static camera (0–3.7 s).
+- Text hook: "Don't stretch your calves / if you have / **PLANTAR FASCIITIS**". Black bold + red heavy caps on a white rounded box, **mid-frame (~38–57% from top)** over her torso, glyph ≈ 35 px black / ≈ 55 px red. "Do this instead!" sub-pill at 3.0 s.
+- Verbal hook: "Don't stretch your calves if you have plantar fasciitis, do this instead." (0.00)
+- Audio: presenter VO · Hook archetype(s): "don't do X" warning on a common remedy
+- First hard cut at 3.74 s.
+**First 60 s:** identical to 01's 11.2–67.5 s (symptoms → NOT aging → truth → mechanism → rubber band → re-agitate → "Not because they're getting older…"), shifted −7.5 s.
+**Rest by section:** as 01 (−7.5 s): product reveal ~82 s, Triple Support, guarantee, multi-pair, 42% off ~187 s, CTA, UGC tail 219–301 s.
+**B-roll / Transitions / Captions / Pacing / Offer:** as 01.
+**Steal this:**
+- One myth beats three? Here no: 01 (3 myths, 11 s) is rank 1 and 08 (1 myth, 3.7 s) is rank 8. With an older audience, a **numbered myth list can out-perform a faster single warning**. Test both.
+- Put the headline box mid-frame over the action (not the top 15%) for a 4:5 placement.
+- Freeze a winning body and test 3–4 s "don't do [remedy]" hooks on it.
+
+### the_xstance_09 — "HOW TO: HEAL PLANTAR FASCIITIS (WORKS EVERY TIME)" infographic → woman's story (Body B)
+**Data:** **561 days** (longest-running Xstance in set) · active · rank **9 / 352** · stable · **36 dupes** · 373.1s · 155 shots · avg 2.41s / median 1.81s · VO 174 wpm in first 60 s · EN · 4:5
+**Format / angle / persona:** Pinterest-style "how-to" infographic thumb-stop, then 06's woman's story without the recovery montage.
+**Hook (0–3 s):**
+- Visual: a static pastel-pink graphic. "HOW TO:" / "HEAL **PLANTAR FASCIITIS**" / "(WORKS EVERY TIME)" in condensed caps (Bebas Neue/Oswald-like, the key words bold black), with a **2×3 icon grid** of flat illustrations: Rest And Avoid Overuse, Wear Supportive Footwear, Stretch Your Calves, Apply Ice To Affected Area, Support Your Arches, Educate Yourself. Glyph lines ≈ 50 / 79 / 50 px, 3–23% from top. At 2.25 s a **zoom-blur push into the "Wear Supportive Footwear" icon** transitions to the woman talking head (2.3 s). Product not until ~133 s.
+- Verbal hook: "If you have plantar fasciitis, watch this." (0.00) → "I've been dealing with heel pain from my work shoes for nearly a year now." (2.4)
+- Audio: female VO · Hook archetype(s): educational infographic / save-able checklist, "watch this" call-out
+- First hard cut at 2.3 s (zoom-blur).
+**First 60 s:** 06's backstory from "I've been dealing with heel pain…" (06's 8.2 s → 09's 2.3 s): work shoes, plus-size, concrete floors, first attack (lightning), "tried EVERYTHING" collage, Disneyland CANCELED, kids, "Is this what my life is going to be like?", podiatrist, fascia anatomy, standard advice list (rest, icing, stretching, orthopedic shoes, braces, cortisone, custom orthotics) at 55–66 s.
+**Rest by section:** as 06 (−5.9 s): failed fixes → discovery → features → 90-day → results → "bought 3 more pairs" → CTA ~278 s → UGC tail 282–373 s.
+**B-roll / Transitions / Captions / Pacing / Offer:** as 06 (Oswald 2-line captions ≈ 55–65 px at 77–87%).
+**Steal this:**
+- An **infographic hook that looks like a saved Pinterest/Facebook post** ("HOW TO: HEAL [X] (WORKS EVERY TIME)" + 6 icons). It reads as content, not an ad, and older audiences save and share these. One icon ("Wear Supportive Footwear") is the bridge to the product.
+- A zoom-blur push into the relevant icon gives a clean pattern-break transition into the story.
+- 36 dupes and 561 days: the most-iterated Xstance hook. Keep the format and rotate the icons and colours.
+
+### the_xstance_10 — Black Friday "Our craziest 24-hour sale is here" 28 s promo
+**Data:** 322 days · active · rank **10 / 352** · stable · 8 dupes · 27.8s · 20 shots · avg 1.39s / median 1.13s · VO 170 wpm · EN · 9:16
+**Format / angle / persona:** short sale-urgency promo: product insertion B-roll + multi-pair social proof + condition list + "price goes back up". Ad copy: Black Friday 55% off, "sold out in 6 hours last year", "most customers order 3–4 pairs".
+**Hook (0–3 s):**
+- Visual: 0–0.77 a hand lifts an Xstance green insole out of a blue/yellow Hoka. 0.77 top-down on two Hokas with Xstance insoles inside. 1.4 macro of a hand flexing the black/green insole. 2.5 a man's hands sliding the insole into a grey sneaker on a window ledge (city view). Product in frame 1.
+- Text hook: "OUR CRAZIEST 24-HOUR / SALE IS HERE AND THINGS / ARE FLYING OFF SHELVES". Black bold caps on white rounded box (TikTok-native), 3 lines, glyph ≈ 35 px, ~27–36% from top. Persists 0–4.7 s.
+- Verbal hook: "Black Friday savings are live. Xstance insoles are up to 55% off." (0.00)
+- Audio: female VO + upbeat music · Hook archetype(s): sale announcement, scarcity ("flying off shelves"), product-in-hand
+- First hard cut at 0.77 s; 3 cuts in first 3 s.
+**Beat map:**
+| t | beat | VO (short) | visuals/B-roll | on-screen text |
+|---|---|---|---|---|
+| 0–4.7 | hook / offer | "Black Friday savings are live… up to 55% off" | 4 insertion/handling shots incl. **nurse in blue scrubs inserting insole** (3.5 s) | sale box |
+| 4.7–9.2 | social proof | "People are grabbing multiple pairs because this is our biggest discount ever" | woman in kitchen holding insoles; older man with insole; grey-haired woman fanning 3 pairs | "People are grabbing multiple pairs" / "because this is our BIGGEST discount ever." |
+| 9.2–17.1 | conditions | "plantar fasciitis, heel pain, Achilles tightness, overpronation… travels into knees or hips" | red-tinted soles; hand on heel (red glow); red target on Achilles; heel with red tilt line; 3D blue body with red knees/hips | small white-box captions |
+| 17.1–21.1 | mechanism | "Xstance can make a REAL difference with its Triple Support System" | woman with 3 pairs; split product/foot | |
+| 21.1–24.5 | urgency | "Don't wait. Once the sale ends, the price goes back up." | woman "Don't wait!"; insoles on wood; insoles on road with flying cash | |
+| 24.5–27.8 | end card | "Take advantage of your 55% off now." | mint-green end card: XSTANCE wordmark, insole pair packshot, red "55% off" burst badge, footprint pattern | — |
+**B-roll inventory:** product handling/insert ×5 · testimonial-style holders ×4 · problem visualisation ×4 · anatomy ×1 · offer/price card ×1 · stock (cash) ×1
+**Transitions & motion:** 100% hard cuts at ~1.1 s. Red overlays. Packshot end card with badge.
+**Caption system:** small TikTok-native white rounded boxes with black sentence-case text (≈ 28–32 px), 1–2 lines, placed near the subject (35–75%). CAPS emphasis ("BIGGEST", "REAL").
+**Pacing:** 0.7–2.5 s shots, end card 3.4 s.
+**Offer & CTA:** 55% in the first VO line (0–4.6 s), multi-pair at 4.8 s, "price goes back up" at 22 s, end card.
+**Steal this:**
+- The **sale-announcement hook** box ("Our craziest 24-hour sale is here and things are flying off shelves") over product insertion B-roll, with the offer in the first VO line.
+- "People are grabbing multiple pairs" is a social-proof framing for the bundle.
+- Include a nurse-in-scrubs insertion shot even in a generic promo. Persona cues can be single 1 s shots.
+
