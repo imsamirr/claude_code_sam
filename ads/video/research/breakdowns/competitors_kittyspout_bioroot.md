@@ -267,3 +267,39 @@ Source notes:
 - (See 06.)
 - (See 06.)
 
+---
+
+## KittySpout
+
+### kittyspout_01 — "This fountain costs 3x more than other fountains" premium-price justification
+**Data:** 114 days · active · rank 2/1175 · stable · 116.9s · 31 shots · avg 3.77s / median 3.14s · VO 179 wpm · en (US, female creator VO)
+**Format / angle / persona:** Price-objection-first UGC voiceover over home B-roll. The ad states the high price, then proves it ("3x more… and it keeps selling out"). Material mechanism: 304 surgical stainless vs porous plastic. Stat: "1 in 3 cats develop kidney disease". Comparison vs $20 Amazon fountains. Offer: 50% off plus gifts plus a 365-day guarantee. Persona: a cat parent with several pets (2 cats + a bearded dragon).
+**Hook (0–3 s):**
+- Visual: one static 4.5 s shot, full frame. The stainless fountain (black wireless pump, spout running) sits on a wooden base on carpet by a sunny window with bamboo plants. The product is the hero from frame 0.
+- Text hook: builds **line by line in a cream (#FBF3E4-ish) rounded box** with black **heavy slab/serif bold** (Recoleta/Rockwell-like, high contrast, bracketed serifs): "This fountain costs" (0.0 s), then "3x more than" (1.0 s, larger), then "other fountains" (2.25 s). At ~21–31% from top; line 1 ≈ 46 px, line 2 is set larger. Box ≈ 610 px wide.
+- Verbal hook: "This cat fountain costs three times more than other cat fountains on Amazon, and it keeps selling out every single month." (0.0 s)
+- Audio: VO + soft music · Hook archetype(s): price confession / "why is this worth more" curiosity + social-proof scarcity.
+- First hard cut at 4.5 s; 0 cuts and 2 text builds in the first 3 s.
+**Beat map:**
+| t | beat | VO (short) | visuals/B-roll | on-screen text |
+|---|---|---|---|---|
+| 0–4.5 | hook | "costs three times more…" | static product hero | cream-box serif headline builds |
+| 4.5–10.7 | proof + promise | "keeps selling out every single month… why cat parents are going crazy" | **mobile PDP screenshot** (NEW badge, 4 colours, Trustpilot "Excellent"); fountain by plants | cream rounded-sans captions |
+| 10.7–21 | mechanism (material) | "304 medical grade stainless steel, same stuff as surgical tools" | macro of a steel bowl filling under a tap (10.2 s hold) | "The whole thing is made from" |
+| 21–30 | stakes (stat) | "One in three cats will develop kidney disease…" | ragdoll cats on a shelf with a tiny "Cat" label; cat by the fountain | "One in three cats will develop kidney disease in" |
+| 30–45 | enemy | "Plastic fountains are porous… mold, slime, bacteria… they get slimy, you clean them…" | dirty white plastic fountain with **animated germ stickers**; scrubbing in the sink; slimy hand | "Mold, slime, and bacteria…" |
+| 45–71 | solution + features | "Until I got the KittySpout… nothing clings… wireless… faucet flow… 135 oz" | fountain on the counter; cats + bearded dragon drinking; cat tree; "wireless so I put it wherever" | phrase captions |
+| 71–87 | proof + comparison | "#1 on Trustpilot… #1 vet-recommended… grab a $20 fountain on Amazon… cheap out now, pay in vet bills" | cats; **Amazon search results screen recording** (scroll); clear plastic fountain; vet carrier bag | "They all look the same, promise the same thing." "in vet bills later" |
+| 87–101 | offer | "biggest sale of the year, 50% off… free gifts… filters and cat toys… only through the link below" | cat by fountain; **"What's In The Box?" PDP accordion screenshot**; 10 s product hold | "This deal is only available through the link below" |
+| 101–113 | risk reversal | "365 day money back guarantee. Not 30 days, not 90 days…" | cat; macro clean water | "see that none of that gross buildup ever" |
+| 113.6–116.9 | CTA | "Click the link below before it sells out again." | cat on mat + **giant faded serif "Click below" + red "SOLD OUT" starburst stamp** | "Click the link below before it sells out again" |
+**B-roll inventory:** product hero/packshot ×6 · lifestyle (cats drinking, home) ×12 · problem visualisation (slimy plastic, germs) ×4 · comparison vs competitor (Amazon screen recording, cheap fountain) ×3 · review/UGC/PDP screenshot ×2 · ASMR/texture macro (water) ×2 · vet-bill visual (carrier) ×1.
+**Transitions & motion:** hard cuts; slow handheld; animated germ stickers on the plastic; a scrolling screen recording; the end "SOLD OUT" stamp punches in over the big serif "Click below".
+**Caption system:** hook in the cream rounded box with black heavy serif (brand-like, editorial). Running captions: off-white/cream bold rounded sans (Nunito/Poppins Bold-like) with a dark soft shadow, no box, 2 lines, 5–8 words per caption, line ≈ 39 px, at 62–67% from top. Consistent.
+**Pacing:** 3.6 s in the hook, ~4 s body, 2.2 s in the last 15 s. Holds sit on the steel macro (10.2 s) and the offer packshot (10.0 s).
+**Offer & CTA:** lands at 87 s: "50% off the Wireless Fountain 2.0 plus free gifts… replacement filters and cat toys", "only through the link below". Risk reversal at 101 s: "365-day money-back guarantee. Not 30 days, not 90 days." Close at 113.8 s on "before it sells out again", with the SOLD OUT stamp.
+**Steal this:**
+- Price-confession hook in an editorial serif box: "These shoes cost 3x more than Skechers… and they keep selling out." Then justify with material and mechanism.
+- Comparison via a **real Amazon search-results screen recording** ("they all look the same, promise the same thing") instead of naming competitors.
+- Guarantee copy contrast "Not 30 days, not 90 days: 365", plus a closing "SOLD OUT" stamp over a "Click below" super.
+
