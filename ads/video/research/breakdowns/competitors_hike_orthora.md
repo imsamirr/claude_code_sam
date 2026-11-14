@@ -38,6 +38,7 @@ That leaves 16 distinct creatives, 7 from Hike and 9 from Orthora.
 | 281–303 | future pacing + CTA 1 | "Picture yourself six months from now… Click the button below" | walking montage | — |
 | 303–331 | FAQ objections | "I've tried supportive shoes…" / "Do I have to exercise?" / "What if it doesn't work?" | presenter + B-roll | — |
 | 331–357 | close + CTA 2 | "Click below and claim your pair of HF Flow today" | fall at home (woman on kitchen floor), walking shoes | "Give your feet permission" |
+| 357–363 | end card | — | POV of light knit shoes on gravel | white "HIKE FOOTWEAR" logo, 5 yellow stars, green "SHOP NOW ›" pill |
 **B-roll inventory:** talking-head (pro/doctor) ~35; lifestyle seniors walking (park, supermarket, sidewalk, stairs) ~45; problem visualisation (cane, rail, fall on kitchen floor, armchair) ~15; anatomy/3D/X-ray ~10; POV walking/feet close-up ~20; product hero/demo ~10; review/PDP screenshot 1; guarantee graphic 1; split-screen 2-panel ~3.
 **Transitions & motion:** ~100% hard cuts. B-roll is mostly 2–3 s locked or slow-push stock-style (AI-generated look). The PiP circle is used only in the cold open. No SFX.
 **Caption system:** outlined phrase captions with no box. White with a heavy black stroke, sentence case, 2–5 words, 1–2 lines, centred. In the hook they sit in the bottom 10%; in the body (presenter) they move to the chest at 71–84%. **Yellow (#FFF200-ish) for rhetorical questions**, **ALL CAPS** for punchlines. Line ≈ 39–42 px; caps punchline ≈ 50 px.
@@ -538,12 +539,12 @@ All Orthora ads sell the same shoe: a black or white knit sneaker with a visible
 - **The product promise is the same trio in 10/10:** wide toe box, zero drop, thin flexible sole. 6/10 add **hands-free step-in** ("No bending, no laces, no losing your balance"; `_06`–`_10`).
 - **Persona is 55–75 women. Balance, steadiness and independence beat pain** in 7/10 (VSL, `_05`, `_07`–`_10`). Foot pain is secondary.
 - **The founder/overstock reason-why runs in 4/10** (`_06`–`_09`): "we made too many" or "moving warehouse costs more than selling at a loss". It always ends with **"Check below to see if your size is still available"** and a **thank-you line** ("thank you for letting us be part of your steps").
-- **Offers:** BOGO in 4/10 (`_07`–`_10`), % off in 2/10 (70% `_04`, 50% `_05`), "first-time buyer deal" in 3/10 (VSL). A **30-day guarantee** is in 8/10. The offer usually lands at **70–92% of runtime**; only `_04` and `_10` open on it.
+- **Offers:** BOGO in 4/10 (`_07`–`_10`), % off in 2/10 (70% `_04`, 50% `_05`), "first-time buyer deal" in 3/10 (VSL). A money-back guarantee is in 6/10 VOs (30-day in 5) and 8/10 counting the ad copy. The offer usually lands at **70–92% of runtime**; only `_04` and `_10` open on it.
 - **Captions:** the TikTok white rounded box with black sentence-case text (line ≈ 60 px, 2–8 words, 1–2 lines) is the house style in 5/10 (`_04`, `_06`–`_09`). The VSL uses outlined white with yellow questions and caps punchlines (3/10). The animated story uses a white box with magenta text. The mascot uses word-by-word caps.
 - **Cut rate:** the median shot is ~1.5–2.2 s (`_09` is 1.13 s after its re-cut). The VSL holds its first shot 7.7 s, but every other ad cuts before 3.5 s.
 - **B-roll mix:** many different real-looking 50–70-year-old women unboxing a cream HIKE drawstring bag or holding the shoe to camera (UGC); 2×2 testimonial grids (3/7 distinct); flat medical graphics on a green background with red glow and arrows (5/7 distinct); a laptop-on-PDP CTA shot (3/7).
 - **AI and animation are mainstream:** 2/7 distinct creatives are fully 3D-animated (`_05` Pixar-style story, `_10` talking shoe), and the VSL presenter and much of its B-roll look AI-generated.
-- **Branded end card in 8/10:** white "HF" logo, green "SHOP NOW!" pill, 5 yellow stars, over a shoe on feet. `_07`/`_09` build it with a colourway-grid stutter.
+- **Branded end card in 10/10:** a white "HF" or "HIKE FOOTWEAR" logo, green "SHOP NOW!" pill and 5 yellow stars over a shoe on feet (the BOGO plate in `_10`). `_07`/`_09` build it with a colourway-grid stutter.
 - **VO is fast:** 203–234 wpm (avg ≈ 215) on the founder and VSL ads.
 - **Hook archetypes:** story/mystery (VSL, `_05`), sale announcement (`_04`), founder confession or warning (`_06`, `_07`), reply-to-comment objection (`_09`), talking product (`_10`).
 
