@@ -1,0 +1,2602 @@
+[
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "TOFv1_GD2 | Kyro_293_1_V1",
+  "format": "VIDEO",
+  "status": "ACTIVE",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/39b7b9bdbbba3b2d4b97636ec7d750fa.jpg",
+  "spend": 774449.6,
+  "revenue": 609726.1399999999,
+  "purchases": 6869.0,
+  "impressions": 15137586.0,
+  "clicks": 755745.0,
+  "first": "2025-10-01",
+  "last": "2026-07-01",
+  "platform_ad_id": "120234483788550335",
+  "roas": 0.79,
+  "ctr_pct": 4.99,
+  "cpa": 112.75,
+  "headline": "Podiatrist Recommended",
+  "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+  "videos": [
+   {
+    "video_id": "3093534717486604",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/5449ea8c3e53251acfac8ed1a26a9695.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/39b7b9bdbbba3b2d4b97636ec7d750fa.jpg",
+    "duration": 111.833,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Podiatrist Recommended",
+   "body": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "3093534717486604",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/5449ea8c3e53251acfac8ed1a26a9695.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/39b7b9bdbbba3b2d4b97636ec7d750fa.jpg",
+     "duration": 111.833,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "TOFv1_GE1 | Kyro_293_3_V2",
+  "format": "VIDEO",
+  "status": "ACTIVE",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/e3793e94e0d877d9b278035c24b3722e.jpg",
+  "spend": 555893.07,
+  "revenue": 451900.64,
+  "purchases": 4929.0,
+  "impressions": 7298181.0,
+  "clicks": 380941.0,
+  "first": "2025-10-01",
+  "last": "2026-07-01",
+  "platform_ad_id": "120234483802110335",
+  "roas": 0.81,
+  "ctr_pct": 5.22,
+  "cpa": 112.78,
+  "headline": "Podiatrist Recommended",
+  "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+  "videos": [
+   {
+    "video_id": "847935491234906",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/8badf9d155bbd743945dd7543e08e076.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/e3793e94e0d877d9b278035c24b3722e.jpg",
+    "duration": 119.366,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Podiatrist Recommended",
+   "body": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "847935491234906",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/8badf9d155bbd743945dd7543e08e076.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/e3793e94e0d877d9b278035c24b3722e.jpg",
+     "duration": 119.366,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - Kyro 154v2ss2 - tesitmonial copy - 10 Reasons Healthcare Workers",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/244a810e3917a962df4e7a2c2c67b530.jpg",
+  "spend": 254703.94,
+  "revenue": 505484.95,
+  "purchases": 5387.0,
+  "impressions": 5186045.0,
+  "clicks": 320259.0,
+  "first": "2024-09-01",
+  "last": "2025-02-01",
+  "platform_ad_id": "120212028290820335",
+  "roas": 1.98,
+  "ctr_pct": 6.18,
+  "cpa": 47.28,
+  "headline": "2024's Favorite Nurse Shoes",
+  "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. \n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. \n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now: https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "videos": [
+   {
+    "video_id": "373981322454192",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/41dfadf39879eafd8a7a961480ed8c1d.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/244a810e3917a962df4e7a2c2c67b530.jpg",
+    "duration": 172.639,
+    "width": 1080,
+    "height": 1350
+   }
+  ],
+  "creative": {
+   "title": "2024's Favorite Nurse Shoes",
+   "body": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. \n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. \n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now: https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source={{site_source_name}}&tw_adid={{ad.id}}",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "373981322454192",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/41dfadf39879eafd8a7a961480ed8c1d.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/244a810e3917a962df4e7a2c2c67b530.jpg",
+     "duration": 172.639,
+     "width": 1080,
+     "height": 1350
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "Kyro 99v3ss1 - tesitmonial copy - 10 Reasons Healthcare Workers",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/aac69ec63bfd432c99185a8fec0f6935.jpg",
+  "spend": 241705.86,
+  "revenue": 453081.3499999999,
+  "purchases": 4995.0,
+  "impressions": 4749539.0,
+  "clicks": 279990.0,
+  "first": "2024-05-01",
+  "last": "2025-06-01",
+  "platform_ad_id": "120209176349550335",
+  "roas": 1.87,
+  "ctr_pct": 5.9,
+  "cpa": 48.39,
+  "headline": "2024's Favorite Nurse Shoes",
+  "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. \n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. \n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now: https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "videos": [
+   {
+    "video_id": "763333352456556",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/85a94e301a5c05c8f9eca0f6e21de761.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/aac69ec63bfd432c99185a8fec0f6935.jpg",
+    "duration": 114.35,
+    "width": 1080,
+    "height": 1350
+   }
+  ],
+  "creative": {
+   "title": "2024's Favorite Nurse Shoes",
+   "body": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. \n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. \n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now: https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source={{site_source_name}}&tw_adid={{ad.id}}",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "763333352456556",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/85a94e301a5c05c8f9eca0f6e21de761.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/aac69ec63bfd432c99185a8fec0f6935.jpg",
+     "duration": 114.35,
+     "width": 1080,
+     "height": 1350
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@TSSS - Kyro_258_2_V3 - emoji copy - all day H - Miracle advertorial - Copy",
+  "format": "VIDEO",
+  "status": "DISAPPROVED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/30d027724b935c7ec494fb0df4e26018.jpg",
+  "spend": 142670.73,
+  "revenue": 17830.54,
+  "purchases": 214.0,
+  "impressions": 1718165.0,
+  "clicks": 118406.0,
+  "first": "2025-08-01",
+  "last": "2026-01-01",
+  "platform_ad_id": "120231370112830335",
+  "roas": 0.12,
+  "ctr_pct": 6.89,
+  "cpa": 666.69,
+  "headline": "All-Day Comfort & Pain-Free \ud83d\udc5f",
+  "primary_text": "Ortho Stretch Cushion Shoes are so comfy and supportive, you'll never want to take them off!\n\n\ud83d\udc63Real Arch Support\n\ud83d\udc63Podiatrist Recommended\n\ud83d\udc63Made For Wide & Narrow Feet\n\ud83d\udc63Specialized ORTHO-TECH Insole For Your Foot\n\ud83d\udc63Slip-Resistant Grip\n\ud83d\udc63Cute Colors to Match Every Outfit\n\nOrder Here: \nhttps://comfortorthowear.com/pages/how-american-women-over-52-are-transforming-their-foot-health-naturally-no-costly-orthotics-no-painkillers-no-surgery",
+  "videos": [
+   {
+    "video_id": "2244132646039496",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/05c5a16b711340384433794b4a0cfe6e.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/30d027724b935c7ec494fb0df4e26018.jpg",
+    "duration": 140.65,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "All-Day Comfort & Pain-Free \ud83d\udc5f",
+   "body": "Ortho Stretch Cushion Shoes are so comfy and supportive, you'll never want to take them off!\n\n\ud83d\udc63Real Arch Support\n\ud83d\udc63Podiatrist Recommended\n\ud83d\udc63Made For Wide & Narrow Feet\n\ud83d\udc63Specialized ORTHO-TECH Insole For Your Foot\n\ud83d\udc63Slip-Resistant Grip\n\ud83d\udc63Cute Colors to Match Every Outfit\n\nOrder Here: \nhttps://comfortorthowear.com/pages/how-american-women-over-52-are-transforming-their-foot-health-naturally-no-costly-orthotics-no-painkillers-no-surgery",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "LEARN_MORE",
+   "link_url": null,
+   "images": [],
+   "videos": [
+    {
+     "video_id": "2244132646039496",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/05c5a16b711340384433794b4a0cfe6e.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/30d027724b935c7ec494fb0df4e26018.jpg",
+     "duration": 140.65,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - kyro 229v2ss3 - emoji copy - 10 Reasons Healthcare Workers - Copy",
+  "format": "VIDEO",
+  "status": "DISAPPROVED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/bf882955d5e7513c27075b6649d90d21.jpg",
+  "spend": 140709.7,
+  "revenue": 9340.359999999999,
+  "purchases": 104.0,
+  "impressions": 3859410.0,
+  "clicks": 195201.0,
+  "first": "2025-06-01",
+  "last": "2025-11-01",
+  "platform_ad_id": "120226277284180335",
+  "roas": 0.07,
+  "ctr_pct": 5.06,
+  "cpa": 1352.98,
+  "headline": "2025's Favorite Nurse Shoes",
+  "primary_text": "Finally! A shoe that offers More Than just cushioning exists!\n \nComfortWear's \"More Than\" Shoe delivers features such as premium arch support and heel cushioning, working together to address common foot problems and pave the way for pain-free movement!\n\n\u2705 Superior Arch Support\n\u2705 Promotes Healthy Habits\n\u2705 Premium, Breathable Materials\n\u2705 Reduces Heel and Sole Discomfort\n\u2705 Energizes Every Step\n\u2705 Alleviates Common Foot Conditions\n\nTry our footwear today risk-free for 45 days!",
+  "videos": [
+   {
+    "video_id": "689070990205171",
+    "url": null,
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/bf882955d5e7513c27075b6649d90d21.jpg",
+    "duration": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "creative": {
+   "title": "2025's Favorite Nurse Shoes",
+   "body": "Finally! A shoe that offers More Than just cushioning exists!\n \nComfortWear's \"More Than\" Shoe delivers features such as premium arch support and heel cushioning, working together to address common foot problems and pave the way for pain-free movement!\n\n\u2705 Superior Arch Support\n\u2705 Promotes Healthy Habits\n\u2705 Premium, Breathable Materials\n\u2705 Reduces Heel and Sole Discomfort\n\u2705 Energizes Every Step\n\u2705 Alleviates Common Foot Conditions\n\nTry our footwear today risk-free for 45 days!",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source={{site_source_name}}&tw_adid={{ad.id}}",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "689070990205171",
+     "url": null,
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/bf882955d5e7513c27075b6649d90d21.jpg",
+     "duration": null,
+     "width": null,
+     "height": null
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - Kyro 141v1ss2 - tesitmonial copy - 10 Reasons Healthcare Workers",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4afed538d9609cc89587934bfa34e03a.jpg",
+  "spend": 107754.23000000003,
+  "revenue": 209461.36,
+  "purchases": 2300.0,
+  "impressions": 4113789.0,
+  "clicks": 141406.0,
+  "first": "2024-08-01",
+  "last": "2024-11-01",
+  "platform_ad_id": "120211329324600335",
+  "roas": 1.94,
+  "ctr_pct": 3.44,
+  "cpa": 46.85,
+  "headline": "2024's Favorite Nurse Shoes",
+  "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. \n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. \n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now: https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "videos": [
+   {
+    "video_id": "534424482299108",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/3a646213-2c65-49c2-b974-99ff86640a47.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4afed538d9609cc89587934bfa34e03a.jpg",
+    "duration": 110.276,
+    "width": 1080,
+    "height": 1350
+   }
+  ],
+  "creative": {
+   "title": "2024's Favorite Nurse Shoes",
+   "body": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. \n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. \n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now: https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source={{site_source_name}}&tw_adid={{ad.id}}",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "534424482299108",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/3a646213-2c65-49c2-b974-99ff86640a47.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4afed538d9609cc89587934bfa34e03a.jpg",
+     "duration": 110.276,
+     "width": 1080,
+     "height": 1350
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - kyro 170v2ss1 -  73% copy - 10 Reasons Healthcare Workers",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d140c7bafa41584f4bba90d55c511923.jpg",
+  "spend": 106375.99,
+  "revenue": 201214.11000000002,
+  "purchases": 2155.0,
+  "impressions": 3082961.0,
+  "clicks": 166473.0,
+  "first": "2024-11-01",
+  "last": "2025-02-01",
+  "platform_ad_id": "120213027275530335",
+  "roas": 1.89,
+  "ctr_pct": 5.4,
+  "cpa": 49.36,
+  "headline": "2024's Favorite Nurse Shoes",
+  "primary_text": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+  "videos": [
+   {
+    "video_id": "888000836642392",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/fd57010466c30de5ce416dc2f1d7e57f.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d140c7bafa41584f4bba90d55c511923.jpg",
+    "duration": 122.489,
+    "width": 1080,
+    "height": 1350
+   }
+  ],
+  "creative": {
+   "title": "2024's Favorite Nurse Shoes",
+   "body": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source={{site_source_name}}&tw_adid={{ad.id}}",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "888000836642392",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/fd57010466c30de5ce416dc2f1d7e57f.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d140c7bafa41584f4bba90d55c511923.jpg",
+     "duration": 122.489,
+     "width": 1080,
+     "height": 1350
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "RTGv1_B6 | 203_Iteration_UGC_OrthoStretch_H1 V1 - Copy",
+  "format": "VIDEO",
+  "status": "ACTIVE",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/a228cb9f57f8eee1d3bda04e4a135bcb.jpg",
+  "spend": 104758.22000000002,
+  "revenue": 319921.34,
+  "purchases": 3168.0,
+  "impressions": 2249064.0,
+  "clicks": 96361.0,
+  "first": "2025-12-01",
+  "last": "2026-11-01",
+  "platform_ad_id": "120238264065860335",
+  "roas": 3.05,
+  "ctr_pct": 4.28,
+  "cpa": 33.07,
+  "headline": "Orthopedic Shoes | 40% OFF",
+  "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+  "videos": [
+   {
+    "video_id": "2546824439104741",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/cf2367f3fa12fbbff86c8ba3ef35b613.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/a228cb9f57f8eee1d3bda04e4a135bcb.jpg",
+    "duration": 70.984,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Orthopedic Shoes | 40% OFF",
+   "body": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": null,
+   "images": [],
+   "videos": [
+    {
+     "video_id": "2546824439104741",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/cf2367f3fa12fbbff86c8ba3ef35b613.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/a228cb9f57f8eee1d3bda04e4a135bcb.jpg",
+     "duration": 70.984,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@TF - Kyro_253_1_V3 travel - Copy",
+  "format": "VIDEO",
+  "status": "CAMPAIGN_PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/9e0a1f29a5e636c0a17e01aeea4dc751.jpg",
+  "spend": 97241.51,
+  "revenue": 4024.51,
+  "purchases": 56.0,
+  "impressions": 1078135.0,
+  "clicks": 79615.0,
+  "first": "2025-08-01",
+  "last": "2025-11-01",
+  "platform_ad_id": "120231843898340335",
+  "roas": 0.04,
+  "ctr_pct": 7.38,
+  "cpa": 1736.46,
+  "headline": "Travel smart. Travel comfortably.",
+  "primary_text": "Shoes made for long flights, traveling, and walking 50,000+ steps.\n\u2708\ufe0f All-Day Comfort: Travel comfortably without sore feet.\n\ud83e\uddb6 Superior Arch Support: Keeps your feet energized and supported\n\ud83c\udf2c\ufe0f Breathable & Lightweight: Stay fresh and comfortable from take-off to landing.\n\nTravel smart. Travel comfortably.\n\nGet your pair with 40% OFF today -> https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+  "videos": [
+   {
+    "video_id": "1300425304982650",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/e2be2fa188fa34091b9c54301ad2e0a1.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/9e0a1f29a5e636c0a17e01aeea4dc751.jpg",
+    "duration": 178.005,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Travel smart. Travel comfortably.",
+   "body": "Shoes made for long flights, traveling, and walking 50,000+ steps.\n\u2708\ufe0f All-Day Comfort: Travel comfortably without sore feet.\n\ud83e\uddb6 Superior Arch Support: Keeps your feet energized and supported\n\ud83c\udf2c\ufe0f Breathable & Lightweight: Stay fresh and comfortable from take-off to landing.\n\nTravel smart. Travel comfortably.\n\nGet your pair with 40% OFF today -> https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+   "caption": null,
+   "cta_text": "comfortorthowear.com/products/...",
+   "cta_type": "LEARN_MORE",
+   "link_url": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "1300425304982650",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/e2be2fa188fa34091b9c54301ad2e0a1.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/9e0a1f29a5e636c0a17e01aeea4dc751.jpg",
+     "duration": 178.005,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "TOFv1_HF7 | Kyro369v2 hook2 \u2013 Copy",
+  "format": "VIDEO",
+  "status": "ACTIVE",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/c4c96fc59752b2de967483f95ea306f9.jpg",
+  "spend": 92028.59000000001,
+  "revenue": 129251.52000000002,
+  "purchases": 1295.0,
+  "impressions": 815939.0,
+  "clicks": 50311.0,
+  "first": "2026-07-01",
+  "last": "2026-11-01",
+  "platform_ad_id": "120248757106940335",
+  "roas": 1.4,
+  "ctr_pct": 6.17,
+  "cpa": 71.06,
+  "headline": "2026's Best Shoes For Travel",
+  "primary_text": "Shoes made for long flights, traveling, and walking 50,000+ steps.\n\n\u2708\ufe0f All-Day Comfort: Travel comfortably without sore feet.\n\ud83e\uddb6 Superior Arch Support: Keeps your feet energized and supported\n\ud83c\udf2c\ufe0f Breathable & Lightweight: Stay fresh and comfortable from take-off to landing.\n\nTravel smart. Travel comfortably.\n\nGet your pair with 40% OFF today. Tap 'Show Now'.",
+  "videos": [
+   {
+    "video_id": "903750899372649",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/306de0e7f7709966540d29d8d6c3480a.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/c4c96fc59752b2de967483f95ea306f9.jpg",
+    "duration": 175.824,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "2026's Best Shoes For Travel",
+   "body": "Shoes made for long flights, traveling, and walking 50,000+ steps.\n\n\u2708\ufe0f All-Day Comfort: Travel comfortably without sore feet.\n\ud83e\uddb6 Superior Arch Support: Keeps your feet energized and supported\n\ud83c\udf2c\ufe0f Breathable & Lightweight: Stay fresh and comfortable from take-off to landing.\n\nTravel smart. Travel comfortably.\n\nGet your pair with 40% OFF today. Tap 'Show Now'.",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": null,
+   "images": [],
+   "videos": [
+    {
+     "video_id": "903750899372649",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/306de0e7f7709966540d29d8d6c3480a.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/c4c96fc59752b2de967483f95ea306f9.jpg",
+     "duration": 175.824,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - Kyro 155v3ss3 -  73% copy - 10 Reasons Healthcare Workers",
+  "format": "VIDEO",
+  "status": "ADSET_PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/f835f60710bae601a132ea8bdb1f689f.jpg",
+  "spend": 89410.25,
+  "revenue": 172412.04,
+  "purchases": 1835.0,
+  "impressions": 2108962.0,
+  "clicks": 85250.0,
+  "first": "2024-10-01",
+  "last": "2025-02-01",
+  "platform_ad_id": "120212090376110335",
+  "roas": 1.93,
+  "ctr_pct": 4.04,
+  "cpa": 48.72,
+  "headline": "2024's Favorite Nurse Shoes",
+  "primary_text": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+  "videos": [
+   {
+    "video_id": "1253802748955546",
+    "url": null,
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/f835f60710bae601a132ea8bdb1f689f.jpg",
+    "duration": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "creative": {
+   "title": "2024's Favorite Nurse Shoes",
+   "body": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source={{site_source_name}}&tw_adid={{ad.id}}",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "1253802748955546",
+     "url": null,
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/f835f60710bae601a132ea8bdb1f689f.jpg",
+     "duration": null,
+     "width": null,
+     "height": null
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - kyro 233v1ss2 - tesitmonial copy - 10 Reasons Healthcare Workers",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/67c6f7336e04fcf9f5e2064a46ff8878.jpg",
+  "spend": 79159.81,
+  "revenue": 1783.63,
+  "purchases": 19.0,
+  "impressions": 1467117.0,
+  "clicks": 66724.0,
+  "first": "2025-05-01",
+  "last": "2025-09-01",
+  "platform_ad_id": "120224821643160335",
+  "roas": 0.02,
+  "ctr_pct": 4.55,
+  "cpa": 4166.31,
+  "headline": "2025's Favorite Nurse Shoes",
+  "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. \n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. \n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now: https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "videos": [
+   {
+    "video_id": "2580452472303426",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4572076a-3060-4d40-8c13-ea813cb013e7.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/67c6f7336e04fcf9f5e2064a46ff8878.jpg",
+    "duration": 150.633,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "2025's Favorite Nurse Shoes",
+   "body": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. \n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. \n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now: https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source={{site_source_name}}&tw_adid={{ad.id}}",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "2580452472303426",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4572076a-3060-4d40-8c13-ea813cb013e7.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/67c6f7336e04fcf9f5e2064a46ff8878.jpg",
+     "duration": 150.633,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - kyro 172v1ss1 -  73% copy - 10 Reasons Healthcare Workers - Copy",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/33ed66001f9438ef325402cebbfeb224.jpg",
+  "spend": 70231.76,
+  "revenue": 132579.36,
+  "purchases": 1405.0,
+  "impressions": 2012411.0,
+  "clicks": 85375.0,
+  "first": "2024-11-01",
+  "last": "2025-01-01",
+  "platform_ad_id": "120213615394570335",
+  "roas": 1.89,
+  "ctr_pct": 4.24,
+  "cpa": 49.99,
+  "headline": "2024's Favorite Nurse Shoes",
+  "primary_text": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+  "videos": [
+   {
+    "video_id": "561259766455445",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/92c6f98c95162fea03318c78e3a47a35.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/33ed66001f9438ef325402cebbfeb224.jpg",
+    "duration": 100.433,
+    "width": 1080,
+    "height": 1350
+   }
+  ],
+  "creative": {
+   "title": "2024's Favorite Nurse Shoes",
+   "body": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source=%7B%7Bsite_source_name%7D%7D&tw_adid=%7B%7Bad.id%7D%7D",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "561259766455445",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/92c6f98c95162fea03318c78e3a47a35.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/33ed66001f9438ef325402cebbfeb224.jpg",
+     "duration": 100.433,
+     "width": 1080,
+     "height": 1350
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@TSSS - Kyro_258_2_V3 - emoji copy - all day H - Miracle advertorial",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/30d027724b935c7ec494fb0df4e26018.jpg",
+  "spend": 67508.06,
+  "revenue": 3180.2799999999993,
+  "purchases": 36.0,
+  "impressions": 1049819.0,
+  "clicks": 65243.0,
+  "first": "2025-08-01",
+  "last": "2025-10-01",
+  "platform_ad_id": "120230727716010335",
+  "roas": 0.05,
+  "ctr_pct": 6.21,
+  "cpa": 1875.22,
+  "headline": "All-Day Comfort & Pain-Free \ud83d\udc5f",
+  "primary_text": "Ortho Stretch Cushion Shoes are so comfy and supportive, you'll never want to take them off!\n\n\ud83d\udc63Real Arch Support\n\ud83d\udc63Podiatrist Recommended\n\ud83d\udc63Made For Wide & Narrow Feet\n\ud83d\udc63Specialized ORTHO-TECH Insole For Your Foot\n\ud83d\udc63Slip-Resistant Grip\n\ud83d\udc63Cute Colors to Match Every Outfit\n\nOrder Here: \nhttps://comfortorthowear.com/pages/how-american-women-over-52-are-transforming-their-foot-health-naturally-no-costly-orthotics-no-painkillers-no-surgery",
+  "videos": [
+   {
+    "video_id": "2244132646039496",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/05c5a16b711340384433794b4a0cfe6e.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/30d027724b935c7ec494fb0df4e26018.jpg",
+    "duration": 140.65,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "All-Day Comfort & Pain-Free \ud83d\udc5f",
+   "body": "Ortho Stretch Cushion Shoes are so comfy and supportive, you'll never want to take them off!\n\n\ud83d\udc63Real Arch Support\n\ud83d\udc63Podiatrist Recommended\n\ud83d\udc63Made For Wide & Narrow Feet\n\ud83d\udc63Specialized ORTHO-TECH Insole For Your Foot\n\ud83d\udc63Slip-Resistant Grip\n\ud83d\udc63Cute Colors to Match Every Outfit\n\nOrder Here: \nhttps://comfortorthowear.com/pages/how-american-women-over-52-are-transforming-their-foot-health-naturally-no-costly-orthotics-no-painkillers-no-surgery",
+   "caption": null,
+   "cta_text": "comfortorthowear.com",
+   "cta_type": "LEARN_MORE",
+   "link_url": "https://comfortorthowear.com/pages/finally-relieve-your-foot-pain-for-good-with-these-revolutionary-new-miracle-shoes",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "2244132646039496",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/05c5a16b711340384433794b4a0cfe6e.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/30d027724b935c7ec494fb0df4e26018.jpg",
+     "duration": 140.65,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "RTGv1_B3 | Kyro_293_3_V2",
+  "format": "VIDEO",
+  "status": "ACTIVE",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/39496acd44e1636b02dd459a41a820d7.jpg",
+  "spend": 61141.85999999999,
+  "revenue": 133473.53,
+  "purchases": 1371.0,
+  "impressions": 946593.0,
+  "clicks": 54432.0,
+  "first": "2025-10-01",
+  "last": "2026-11-01",
+  "platform_ad_id": "120235246032130335",
+  "roas": 2.18,
+  "ctr_pct": 5.75,
+  "cpa": 44.6,
+  "headline": "Podiatrist Recommended",
+  "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+  "videos": [
+   {
+    "video_id": "847935491234906",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/8badf9d155bbd743945dd7543e08e076.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/39496acd44e1636b02dd459a41a820d7.jpg",
+    "duration": 119.366,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Podiatrist Recommended",
+   "body": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": null,
+   "images": [],
+   "videos": [
+    {
+     "video_id": "847935491234906",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/8badf9d155bbd743945dd7543e08e076.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/39496acd44e1636b02dd459a41a820d7.jpg",
+     "duration": 119.366,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "TOFv5_CV3 | Kyro373v3hook2",
+  "format": "VIDEO",
+  "status": "DISAPPROVED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/1045e6ce681c12e3b74a6d1e227592dd.jpg",
+  "spend": 61031.24,
+  "revenue": 93380.82999999999,
+  "purchases": 1007.0,
+  "impressions": 759735.0,
+  "clicks": 53294.0,
+  "first": "2026-05-01",
+  "last": "2026-06-01",
+  "platform_ad_id": "120244202192290335",
+  "roas": 1.53,
+  "ctr_pct": 7.01,
+  "cpa": 60.61,
+  "headline": "2026's Best Shoes For Travelling",
+  "primary_text": "Shoes made for long flights, traveling, and walking 50,000+ steps.\n\n\u2708\ufe0f All-Day Comfort: Travel comfortably without sore feet.\n\ud83e\uddb6 Superior Arch Support: Keeps your feet energized and supported\n\ud83c\udf2c\ufe0f Breathable & Lightweight: Stay fresh and comfortable from take-off to landing.\n\nTravel smart. Travel comfortably.\n\nGet your pair with 40% OFF today. Tap 'Show Now'.",
+  "videos": [
+   {
+    "video_id": "1522301809413339",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/bb759b0f6690c7c095a19fe899d619f8.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/1045e6ce681c12e3b74a6d1e227592dd.jpg",
+    "duration": 111.283,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "2026's Best Shoes For Travelling",
+   "body": "Shoes made for long flights, traveling, and walking 50,000+ steps.\n\n\u2708\ufe0f All-Day Comfort: Travel comfortably without sore feet.\n\ud83e\uddb6 Superior Arch Support: Keeps your feet energized and supported\n\ud83c\udf2c\ufe0f Breathable & Lightweight: Stay fresh and comfortable from take-off to landing.\n\nTravel smart. Travel comfortably.\n\nGet your pair with 40% OFF today. Tap 'Show Now'.",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": null,
+   "images": [],
+   "videos": [
+    {
+     "video_id": "1522301809413339",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/bb759b0f6690c7c095a19fe899d619f8.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/1045e6ce681c12e3b74a6d1e227592dd.jpg",
+     "duration": 111.283,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "TOFv3_J6 | Nurse | 627_Kashif_Spanish_Ortho_Stretch_Shoe_Tested5ShoesWinner Hook 2",
+  "format": "VIDEO",
+  "status": "ACTIVE",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/b091a7333b706f8f0a5064e990694b83.jpg",
+  "spend": 59057.25999999999,
+  "revenue": 42148.93,
+  "purchases": 489.0,
+  "impressions": 2034608.0,
+  "clicks": 131248.0,
+  "first": "2025-11-01",
+  "last": "2026-07-01",
+  "platform_ad_id": "120236008480510335",
+  "roas": 0.71,
+  "ctr_pct": 6.45,
+  "cpa": 120.77,
+  "headline": "Recomendada por expertos",
+  "primary_text": "El 73% del personal sanitario experimenta dolor de pies. ComfortWear lo cambia todo.\n\n\u2705 Mejor soporte del arco para la fascia plantar\n\u2705 Amortiguaci\u00f3n para los talones\n\u2705 Puntera ancha para pies anchos\n\u2705Calzado n.\u00b0 1 recomendado por pod\u00f3logos\n\u2705 Env\u00edo y devoluciones GRATIS\n\nCompra ahora.",
+  "videos": [
+   {
+    "video_id": "1055758563698052",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d6821259ebedee594a02f26e3bcc3da6.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/b091a7333b706f8f0a5064e990694b83.jpg",
+    "duration": 93.833,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Recomendada por expertos",
+   "body": "El 73% del personal sanitario experimenta dolor de pies. ComfortWear lo cambia todo.\n\n\u2705 Mejor soporte del arco para la fascia plantar\n\u2705 Amortiguaci\u00f3n para los talones\n\u2705 Puntera ancha para pies anchos\n\u2705Calzado n.\u00b0 1 recomendado por pod\u00f3logos\n\u2705 Env\u00edo y devoluciones GRATIS\n\nCompra ahora.",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/10-razones-por-las-que-estos-zapatos-est-n-en-la-lista-de-deseos-de-todos-los-trabajadores-de-la-salud-en-2024",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "1055758563698052",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d6821259ebedee594a02f26e3bcc3da6.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/b091a7333b706f8f0a5064e990694b83.jpg",
+     "duration": 93.833,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - V2_Hook1_063_Spanish_OrthoStretch_5_FootPainCure - emoji copy - 10 Reasons Healthcare Spanish Workers",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/81512c30-8202-40b8-8120-6352d2f46d0f.jpg",
+  "spend": 47989.49,
+  "revenue": 73205.3,
+  "purchases": 803.0,
+  "impressions": 3140159.0,
+  "clicks": 148363.0,
+  "first": "2024-11-01",
+  "last": "2025-01-01",
+  "platform_ad_id": "120212738456150335",
+  "roas": 1.53,
+  "ctr_pct": 4.72,
+  "cpa": 59.76,
+  "headline": "Los zapatos de enfermera favoritos de 2024",
+  "primary_text": "Tenemos los zapatos m\u00e1s c\u00f3modos y con mayor soporte con un 40 % de descuento!\n\u2705 Se adapta a pies anchos y estrechos\n\u2705 Alivia la fascitis plantar, los juanetes y el dolor de neuropat\u00eda.\n\u2705 Zapatos recomendados por pod\u00f3logos\n\u2705 120.000 rese\u00f1as de 5 estrellas\n\u2705Env\u00edo y devoluciones gratis\nConsigue el tuyo ahora:\ncomfortorthowear.com/es",
+  "videos": [
+   {
+    "video_id": "547501387828338",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/b56ce655-070a-4bdb-a04e-12ee34f2b6ec.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/81512c30-8202-40b8-8120-6352d2f46d0f.jpg",
+    "duration": 362.37,
+    "width": 1024,
+    "height": 1280
+   }
+  ],
+  "creative": {
+   "title": "Los zapatos de enfermera favoritos de 2024",
+   "body": "Tenemos los zapatos m\u00e1s c\u00f3modos y con mayor soporte con un 40 % de descuento!\n\u2705 Se adapta a pies anchos y estrechos\n\u2705 Alivia la fascitis plantar, los juanetes y el dolor de neuropat\u00eda.\n\u2705 Zapatos recomendados por pod\u00f3logos\n\u2705 120.000 rese\u00f1as de 5 estrellas\n\u2705Env\u00edo y devoluciones gratis\nConsigue el tuyo ahora:\ncomfortorthowear.com/es",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/10-razones-por-las-que-estos-zapatos-est-n-en-la-lista-de-deseos-de-todos-los-trabajadores-de-la-salud-en-2024",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "547501387828338",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/b56ce655-070a-4bdb-a04e-12ee34f2b6ec.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/81512c30-8202-40b8-8120-6352d2f46d0f.jpg",
+     "duration": 362.37,
+     "width": 1024,
+     "height": 1280
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "Kyro 49_1-ss1 - 12h testim copy - voted 2023 best H - 10 Reasons Healthcare Advertorial - Copy",
+  "format": "VIDEO",
+  "status": "CAMPAIGN_PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/ca136eac-2e18-4d97-a9d0-c7a76a018e4b.jpg",
+  "spend": 46338.16999999999,
+  "revenue": 101209.09000000001,
+  "purchases": 1118.0,
+  "impressions": 2443562.0,
+  "clicks": 80638.0,
+  "first": "2024-01-01",
+  "last": "2024-04-01",
+  "platform_ad_id": "120204379722850335",
+  "roas": 2.18,
+  "ctr_pct": 3.3,
+  "cpa": 41.45,
+  "headline": "Voted 2024's Best Nurse Shoe",
+  "primary_text": "\u201cWorking 12-14 hour shifts 6 days a week, your feet start hurting real bad. My loving husband bought me these comfy shoes!! As a healthcare worker, helping people is my passion and these shoes do a great job at keeping me on my toes pain-free. Comfortable, supportive, and slip-resistant. I am so pleased with my gift and highly recommend other husbands to gift their nurse wives these shoes!!\u201d\n\n\ud83e\udd29 Pain Relief Beyond Belief\n\ud83d\udcaa Ultra Supportive Shoes\n\u2601\ufe0f Unmatched Comfort\n\ud83c\udfe1 Free Shipping & Returns",
+  "videos": [
+   {
+    "video_id": "1351058812960168",
+    "url": null,
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/ca136eac-2e18-4d97-a9d0-c7a76a018e4b.jpg",
+    "duration": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "creative": {
+   "title": "Voted 2024's Best Nurse Shoe",
+   "body": "\u201cWorking 12-14 hour shifts 6 days a week, your feet start hurting real bad. My loving husband bought me these comfy shoes!! As a healthcare worker, helping people is my passion and these shoes do a great job at keeping me on my toes pain-free. Comfortable, supportive, and slip-resistant. I am so pleased with my gift and highly recommend other husbands to gift their nurse wives these shoes!!\u201d\n\n\ud83e\udd29 Pain Relief Beyond Belief\n\ud83d\udcaa Ultra Supportive Shoes\n\u2601\ufe0f Unmatched Comfort\n\ud83c\udfe1 Free Shipping & Returns",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "1351058812960168",
+     "url": null,
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/ca136eac-2e18-4d97-a9d0-c7a76a018e4b.jpg",
+     "duration": null,
+     "width": null,
+     "height": null
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "TOFv3_A23 | [203_Iteration_UGC_OrthoStretch_H1 V1",
+  "format": "VIDEO",
+  "status": "WITH_ISSUES",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/f64243b02761f97c87bdfd96cb097d13.jpg",
+  "spend": 41533.47,
+  "revenue": 3321.7999999999997,
+  "purchases": 33.0,
+  "impressions": 1268608.0,
+  "clicks": 47869.0,
+  "first": "2025-11-01",
+  "last": "2025-12-01",
+  "platform_ad_id": "120235242924630335",
+  "roas": 0.08,
+  "ctr_pct": 3.77,
+  "cpa": 1258.59,
+  "headline": "Orthopedic Shoes | 40% OFF",
+  "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+  "videos": [
+   {
+    "video_id": "2546824439104741",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/cf2367f3fa12fbbff86c8ba3ef35b613.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/f64243b02761f97c87bdfd96cb097d13.jpg",
+    "duration": 70.984,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Orthopedic Shoes | 40% OFF",
+   "body": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "2546824439104741",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/cf2367f3fa12fbbff86c8ba3ef35b613.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/f64243b02761f97c87bdfd96cb097d13.jpg",
+     "duration": 70.984,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - 095_Spanish_Video_OrthoStretch_K170_H2 - emoji copy - 10 Reasons Healthcare Spanish Workers",
+  "format": "VIDEO",
+  "status": "DISAPPROVED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/a6bb2a8a5ff29e27bafd0eaba7cd4972.jpg",
+  "spend": 41291.72999999999,
+  "revenue": 168.61,
+  "purchases": 2.0,
+  "impressions": 1812815.0,
+  "clicks": 94386.0,
+  "first": "2025-02-01",
+  "last": "2025-05-01",
+  "platform_ad_id": "120215603779910335",
+  "roas": 0.0,
+  "ctr_pct": 5.21,
+  "cpa": 20645.86,
+  "headline": "Los zapatos de enfermera favoritos de 2025",
+  "primary_text": "Tenemos los zapatos m\u00e1s c\u00f3modos y con mayor soporte con un 40 % de descuento!\n\u2705 Se adapta a pies anchos y estrechos\n\u2705 Alivia la fascitis plantar, los juanetes y el dolor de neuropat\u00eda.\n\u2705 Zapatos recomendados por pod\u00f3logos\n\u2705 120.000 rese\u00f1as de 5 estrellas\n\u2705Env\u00edo y devoluciones gratis\nConsigue el tuyo ahora:\ncomfortorthowear.com/es",
+  "videos": [
+   {
+    "video_id": "1174962464049823",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/6dd2df245e587f8fe4a2b1cc6f010cc4.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/a6bb2a8a5ff29e27bafd0eaba7cd4972.jpg",
+    "duration": 138.809,
+    "width": 1024,
+    "height": 1280
+   }
+  ],
+  "creative": {
+   "title": "Los zapatos de enfermera favoritos de 2025",
+   "body": "Tenemos los zapatos m\u00e1s c\u00f3modos y con mayor soporte con un 40 % de descuento!\n\u2705 Se adapta a pies anchos y estrechos\n\u2705 Alivia la fascitis plantar, los juanetes y el dolor de neuropat\u00eda.\n\u2705 Zapatos recomendados por pod\u00f3logos\n\u2705 120.000 rese\u00f1as de 5 estrellas\n\u2705Env\u00edo y devoluciones gratis\nConsigue el tuyo ahora:\ncomfortorthowear.com/es",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": null,
+   "images": [],
+   "videos": [
+    {
+     "video_id": "1174962464049823",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/6dd2df245e587f8fe4a2b1cc6f010cc4.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/a6bb2a8a5ff29e27bafd0eaba7cd4972.jpg",
+     "duration": 138.809,
+     "width": 1024,
+     "height": 1280
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@TSSS - Kyro_258_2_V3 - emoji copy - all day H - Miracle advertorial",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/30d027724b935c7ec494fb0df4e26018.jpg",
+  "spend": 40339.31,
+  "revenue": 338.61,
+  "purchases": 4.0,
+  "impressions": 457725.0,
+  "clicks": 35329.0,
+  "first": "2025-11-01",
+  "last": "2025-11-01",
+  "platform_ad_id": "120235430375690335",
+  "roas": 0.01,
+  "ctr_pct": 7.72,
+  "cpa": 10084.83,
+  "headline": "All-Day Comfort & Pain-Free \ud83d\udc5f",
+  "primary_text": "Ortho Stretch Cushion Shoes are so comfy and supportive, you'll never want to take them off!\n\n\ud83d\udc63Real Arch Support\n\ud83d\udc63Podiatrist Recommended\n\ud83d\udc63Made For Wide & Narrow Feet\n\ud83d\udc63Specialized ORTHO-TECH Insole For Your Foot\n\ud83d\udc63Slip-Resistant Grip\n\ud83d\udc63Cute Colors to Match Every Outfit\n\nOrder Here: \nhttps://comfortorthowear.com/pages/how-american-women-over-52-are-transforming-their-foot-health-naturally-no-costly-orthotics-no-painkillers-no-surgery",
+  "videos": [
+   {
+    "video_id": "2244132646039496",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/05c5a16b711340384433794b4a0cfe6e.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/30d027724b935c7ec494fb0df4e26018.jpg",
+    "duration": 140.65,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "All-Day Comfort & Pain-Free \ud83d\udc5f",
+   "body": "Ortho Stretch Cushion Shoes are so comfy and supportive, you'll never want to take them off!\n\n\ud83d\udc63Real Arch Support\n\ud83d\udc63Podiatrist Recommended\n\ud83d\udc63Made For Wide & Narrow Feet\n\ud83d\udc63Specialized ORTHO-TECH Insole For Your Foot\n\ud83d\udc63Slip-Resistant Grip\n\ud83d\udc63Cute Colors to Match Every Outfit\n\nOrder Here: \nhttps://comfortorthowear.com/pages/how-american-women-over-52-are-transforming-their-foot-health-naturally-no-costly-orthotics-no-painkillers-no-surgery",
+   "caption": null,
+   "cta_text": "comfortorthowear.com",
+   "cta_type": "LEARN_MORE",
+   "link_url": "https://comfortorthowear.com/pages/finally-relieve-your-foot-pain-for-good-with-these-revolutionary-new-miracle-shoes",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "2244132646039496",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/05c5a16b711340384433794b4a0cfe6e.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/30d027724b935c7ec494fb0df4e26018.jpg",
+     "duration": 140.65,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "TOFv3_L132 | Kyro322v1_ss2",
+  "format": "VIDEO",
+  "status": "DISAPPROVED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d2105a131cf6255c96bc598f66b62ad7.jpg",
+  "spend": 37267.6,
+  "revenue": 41294.2,
+  "purchases": 446.0,
+  "impressions": 1026637.0,
+  "clicks": 81231.0,
+  "first": "2025-12-01",
+  "last": "2026-04-01",
+  "platform_ad_id": "120238159838960335",
+  "roas": 1.11,
+  "ctr_pct": 7.91,
+  "cpa": 83.56,
+  "headline": "Expert-Recommended",
+  "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+  "videos": [
+   {
+    "video_id": "1517946139255145",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/6e5ae132f7f96d78cc16947aa583f9d7.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d2105a131cf6255c96bc598f66b62ad7.jpg",
+    "duration": 142.4,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Expert-Recommended",
+   "body": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "1517946139255145",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/6e5ae132f7f96d78cc16947aa583f9d7.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d2105a131cf6255c96bc598f66b62ad7.jpg",
+     "duration": 142.4,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - kyro 219v3ss3 -  73% copy - 10 Reasons Healthcare Workers - Copy",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/04bb4802-03f5-49e9-b2b0-7bddc6d54a74.jpg",
+  "spend": 36669.90000000001,
+  "revenue": 0.0,
+  "purchases": 0.0,
+  "impressions": 1344128.0,
+  "clicks": 49927.0,
+  "first": "2025-04-01",
+  "last": "2025-06-01",
+  "platform_ad_id": "120220245316050335",
+  "roas": 0.0,
+  "ctr_pct": 3.71,
+  "cpa": null,
+  "headline": "2025's Favorite Nurse Shoes",
+  "primary_text": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+  "videos": [
+   {
+    "video_id": "29835175049414844",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4209098f-d996-4f23-b65d-6ed5f58a87df.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/04bb4802-03f5-49e9-b2b0-7bddc6d54a74.jpg",
+    "duration": 165.616,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "2025's Favorite Nurse Shoes",
+   "body": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source={{site_source_name}}&tw_adid={{ad.id}}",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "29835175049414844",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4209098f-d996-4f23-b65d-6ed5f58a87df.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/04bb4802-03f5-49e9-b2b0-7bddc6d54a74.jpg",
+     "duration": 165.616,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "TOFv3_J8 | Nurse | 627_Kashif_Spanish_Ortho_Stretch_Shoe_Tested5ShoesWinner Hook 1 - Copy update 12.18.25",
+  "format": "VIDEO",
+  "status": "CAMPAIGN_PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/fbbed35732f5868e96962fb851026e8a.jpg",
+  "spend": 34288.280000000006,
+  "revenue": 41973.770000000004,
+  "purchases": 468.0,
+  "impressions": 1304848.0,
+  "clicks": 70627.0,
+  "first": "2025-12-01",
+  "last": "2026-07-01",
+  "platform_ad_id": "120238264647800335",
+  "roas": 1.22,
+  "ctr_pct": 5.41,
+  "cpa": 73.27,
+  "headline": "Recomendada por expertos",
+  "primary_text": "El 73% del personal sanitario experimenta dolor de pies. ComfortWear lo cambia todo.\n\n\u2705 Mejor soporte del arco para la fascia plantar\n\u2705 Amortiguaci\u00f3n para los talones\n\u2705 Puntera ancha para pies anchos\n\u2705Calzado n.\u00b0 1 recomendado por pod\u00f3logos\n\u2705 Env\u00edo y devoluciones GRATIS\n\nCompra ahora!",
+  "videos": [
+   {
+    "video_id": "823993996897234",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/142edfdc240dbfe5af4b26c7110ce26c.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/fbbed35732f5868e96962fb851026e8a.jpg",
+    "duration": 95.433,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Recomendada por expertos",
+   "body": "El 73% del personal sanitario experimenta dolor de pies. ComfortWear lo cambia todo.\n\n\u2705 Mejor soporte del arco para la fascia plantar\n\u2705 Amortiguaci\u00f3n para los talones\n\u2705 Puntera ancha para pies anchos\n\u2705Calzado n.\u00b0 1 recomendado por pod\u00f3logos\n\u2705 Env\u00edo y devoluciones GRATIS\n\nCompra ahora!",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/10-razones-por-las-que-estos-zapatos-est-n-en-la-lista-de-deseos-de-todos-los-trabajadores-de-la-salud-en-2024",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "823993996897234",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/142edfdc240dbfe5af4b26c7110ce26c.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/fbbed35732f5868e96962fb851026e8a.jpg",
+     "duration": 95.433,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - Kyro 125v3ss3 -  73% copy - 10 Reasons Healthcare Workers",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/e94cf10b-e565-4e27-a061-dddfb711f2a1.jpg",
+  "spend": 34177.98,
+  "revenue": 69505.94999999998,
+  "purchases": 756.0,
+  "impressions": 1168069.0,
+  "clicks": 54661.0,
+  "first": "2024-07-01",
+  "last": "2024-10-01",
+  "platform_ad_id": "120210521020590335",
+  "roas": 2.03,
+  "ctr_pct": 4.68,
+  "cpa": 45.21,
+  "headline": "2024's Favorite Nurse Shoes",
+  "primary_text": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+  "videos": [
+   {
+    "video_id": "1029186878782295",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/dee37b18-bd55-4cd4-8cba-e00173737a99.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/e94cf10b-e565-4e27-a061-dddfb711f2a1.jpg",
+    "duration": 206.039,
+    "width": 1080,
+    "height": 1350
+   }
+  ],
+  "creative": {
+   "title": "2024's Favorite Nurse Shoes",
+   "body": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source={{site_source_name}}&tw_adid={{ad.id}}",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "1029186878782295",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/dee37b18-bd55-4cd4-8cba-e00173737a99.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/e94cf10b-e565-4e27-a061-dddfb711f2a1.jpg",
+     "duration": 206.039,
+     "width": 1080,
+     "height": 1350
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "kyro 224v3ss3 -  weight loss - Copy 3",
+  "format": "VIDEO",
+  "status": "DISAPPROVED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/bc62939af2da269725e4a75a76e9004c.jpg",
+  "spend": 33183.68,
+  "revenue": 3262.7299999999996,
+  "purchases": 32.0,
+  "impressions": 441620.0,
+  "clicks": 24819.0,
+  "first": "2025-08-01",
+  "last": "2025-12-01",
+  "platform_ad_id": "120231029021530335",
+  "roas": 0.1,
+  "ctr_pct": 5.62,
+  "cpa": 1036.99,
+  "headline": "Designed with comfort & style in mind",
+  "primary_text": "Ready to shed those extra pounds? Transform long walks into easy calorie-burners with ComfortWear shoes.\n\n\u2705 100% Comfortable & Supportive\n\u2705 Relieves Foot Pain\n\u2705 Fits Narrow & Wide Feet\n\nFree Shipping & Returns on all orders.\nShop now: comfortorthowear.com",
+  "videos": [
+   {
+    "video_id": "667455099262656",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/8817d381c5dc74c5e42f75e960874256.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/bc62939af2da269725e4a75a76e9004c.jpg",
+    "duration": 127.65,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Designed with comfort & style in mind",
+   "body": "Ready to shed those extra pounds? Transform long walks into easy calorie-burners with ComfortWear shoes.\n\n\u2705 100% Comfortable & Supportive\n\u2705 Relieves Foot Pain\n\u2705 Fits Narrow & Wide Feet\n\nFree Shipping & Returns on all orders.\nShop now: comfortorthowear.com",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/how-curvy-women-are-transforming-their-weight-foot-health",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "667455099262656",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/8817d381c5dc74c5e42f75e960874256.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/bc62939af2da269725e4a75a76e9004c.jpg",
+     "duration": 127.65,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "Kyro 41 best shoe nurses v3 - 12h shift copy - all day comfort H - 10 Reasons Healthcare Advertorial - Copy",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/ea2aea9da0afccae87847f2dc4403a1f.jpg",
+  "spend": 32691.520000000004,
+  "revenue": 66879.13,
+  "purchases": 734.0,
+  "impressions": 1850423.0,
+  "clicks": 34530.0,
+  "first": "2023-12-01",
+  "last": "2024-03-01",
+  "platform_ad_id": "120203512817590335",
+  "roas": 2.05,
+  "ctr_pct": 1.87,
+  "cpa": 44.54,
+  "headline": "All-Day Comfort & Pain-Free \ud83d\udc5f",
+  "primary_text": "\ud83d\udc99 Start working your 12 hour shift pain free \u2014 or your money back, guaranteed!\n\n\ud83e\ude7a Join the 70,000+ Nurses who have made the switch to ComfortWear shoes\n\n\ud83e\udde6 We have a 40% off limited time offer currently running!\n\nVisit our website now to learn more!\ncomfortorthowear.com",
+  "videos": [
+   {
+    "video_id": "886591199710930",
+    "url": null,
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/ea2aea9da0afccae87847f2dc4403a1f.jpg",
+    "duration": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "creative": {
+   "title": "All-Day Comfort & Pain-Free \ud83d\udc5f",
+   "body": "\ud83d\udc99 Start working your 12 hour shift pain free \u2014 or your money back, guaranteed!\n\n\ud83e\ude7a Join the 70,000+ Nurses who have made the switch to ComfortWear shoes\n\n\ud83e\udde6 We have a 40% off limited time offer currently running!\n\nVisit our website now to learn more!\ncomfortorthowear.com",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "LEARN_MORE",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "886591199710930",
+     "url": null,
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/ea2aea9da0afccae87847f2dc4403a1f.jpg",
+     "duration": null,
+     "width": null,
+     "height": null
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - Kyro 154v2ss2 - tesitmonial copy - 10 Reasons Healthcare Workers \u2013 Copy",
+  "format": "VIDEO",
+  "status": "DISAPPROVED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/244a810e3917a962df4e7a2c2c67b530.jpg",
+  "spend": 31344.65,
+  "revenue": 10683.21,
+  "purchases": 120.0,
+  "impressions": 529384.0,
+  "clicks": 43440.0,
+  "first": "2025-11-01",
+  "last": "2026-01-01",
+  "platform_ad_id": "120235931038750335",
+  "roas": 0.34,
+  "ctr_pct": 8.21,
+  "cpa": 261.21,
+  "headline": "2024's Favorite Nurse Shoes",
+  "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. \n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. \n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now: https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "videos": [
+   {
+    "video_id": "373981322454192",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/41dfadf39879eafd8a7a961480ed8c1d.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/244a810e3917a962df4e7a2c2c67b530.jpg",
+    "duration": 172.639,
+    "width": 1080,
+    "height": 1350
+   }
+  ],
+  "creative": {
+   "title": "2024's Favorite Nurse Shoes",
+   "body": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. \n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. \n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now: https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source={{site_source_name}}&tw_adid={{ad.id}}",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "373981322454192",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/41dfadf39879eafd8a7a961480ed8c1d.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/244a810e3917a962df4e7a2c2c67b530.jpg",
+     "duration": 172.639,
+     "width": 1080,
+     "height": 1350
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "Kyro 48_1-ss1 - 12h testim copy - voted 2023 best H - 10 Reasons Healthcare Advertorial - Copy",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4552d3ef15ce478927b1449cae4d5947.jpg",
+  "spend": 30566.290000000008,
+  "revenue": 62965.729999999996,
+  "purchases": 692.0,
+  "impressions": 1729328.0,
+  "clicks": 50549.0,
+  "first": "2024-01-01",
+  "last": "2024-03-01",
+  "platform_ad_id": "120204180786930335",
+  "roas": 2.06,
+  "ctr_pct": 2.92,
+  "cpa": 44.17,
+  "headline": "Voted 2024's Best Nurse Shoe",
+  "primary_text": "\u201cWorking 12-14 hour shifts 6 days a week, your feet start hurting real bad. My loving husband bought me these comfy shoes!! As a healthcare worker, helping people is my passion and these shoes do a great job at keeping me on my toes pain-free. Comfortable, supportive, and slip-resistant. I am so pleased with my gift and highly recommend other husbands to gift their nurse wives these shoes!!\u201d\n\n\ud83e\udd29 Pain Relief Beyond Belief\n\ud83d\udcaa Ultra Supportive Shoes\n\u2601\ufe0f Unmatched Comfort\n\ud83c\udfe1 Free Shipping & Returns",
+  "videos": [
+   {
+    "video_id": "390627610048204",
+    "url": null,
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4552d3ef15ce478927b1449cae4d5947.jpg",
+    "duration": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "creative": {
+   "title": "Voted 2024's Best Nurse Shoe",
+   "body": "\u201cWorking 12-14 hour shifts 6 days a week, your feet start hurting real bad. My loving husband bought me these comfy shoes!! As a healthcare worker, helping people is my passion and these shoes do a great job at keeping me on my toes pain-free. Comfortable, supportive, and slip-resistant. I am so pleased with my gift and highly recommend other husbands to gift their nurse wives these shoes!!\u201d\n\n\ud83e\udd29 Pain Relief Beyond Belief\n\ud83d\udcaa Ultra Supportive Shoes\n\u2601\ufe0f Unmatched Comfort\n\ud83c\udfe1 Free Shipping & Returns",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "390627610048204",
+     "url": null,
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4552d3ef15ce478927b1449cae4d5947.jpg",
+     "duration": null,
+     "width": null,
+     "height": null
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "kyro 224v3ss3 -  weight loss",
+  "format": "VIDEO",
+  "status": "DISAPPROVED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/bc62939af2da269725e4a75a76e9004c.jpg",
+  "spend": 30407.690000000002,
+  "revenue": 148.13,
+  "purchases": 2.0,
+  "impressions": 663464.0,
+  "clicks": 29464.0,
+  "first": "2025-04-01",
+  "last": "2025-06-01",
+  "platform_ad_id": "120221200746240335",
+  "roas": 0.0,
+  "ctr_pct": 4.44,
+  "cpa": 15203.85,
+  "headline": "Designed with comfort & style in mind",
+  "primary_text": "Ready to shed those extra pounds? Transform long walks into easy calorie-burners with ComfortWear shoes.\n\n\u2705 100% Comfortable & Supportive\n\u2705 Relieves Foot Pain\n\u2705 Fits Narrow & Wide Feet\n\nFree Shipping & Returns on all orders.\nShop now: comfortorthowear.com",
+  "videos": [
+   {
+    "video_id": "667455099262656",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/8817d381c5dc74c5e42f75e960874256.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/bc62939af2da269725e4a75a76e9004c.jpg",
+    "duration": 127.65,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Designed with comfort & style in mind",
+   "body": "Ready to shed those extra pounds? Transform long walks into easy calorie-burners with ComfortWear shoes.\n\n\u2705 100% Comfortable & Supportive\n\u2705 Relieves Foot Pain\n\u2705 Fits Narrow & Wide Feet\n\nFree Shipping & Returns on all orders.\nShop now: comfortorthowear.com",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/how-curvy-women-are-transforming-their-weight-foot-health",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "667455099262656",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/8817d381c5dc74c5e42f75e960874256.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/bc62939af2da269725e4a75a76e9004c.jpg",
+     "duration": 127.65,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "RTGv1_K30  | Kyro_299_2_V1",
+  "format": "VIDEO",
+  "status": "ACTIVE",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/982d7f8e153ca11fc151a914b078d067.jpg",
+  "spend": 28836.56,
+  "revenue": 102942.33999999998,
+  "purchases": 1046.0,
+  "impressions": 534919.0,
+  "clicks": 26924.0,
+  "first": "2025-11-01",
+  "last": "2026-06-01",
+  "platform_ad_id": "120235591384660335",
+  "roas": 3.57,
+  "ctr_pct": 5.03,
+  "cpa": 27.57,
+  "headline": "EARLY BLACK FRIDAY - 60% OFF!",
+  "primary_text": "Up to 60% OFF sitewide in our biggest sale ever! \ud83c\udf8a \n\nTired of foot pain and discomfort? These orthopaedic shoes are designed to provide the support and cushioning your feet need.\n\n\ud83d\udc5f Designed For Regular & Wide Feet\n\ud83e\uddb6 Relieves Plantar Fasciitis, Bunions, Neuropathy Pain\n\ud83d\udcaa Ultra Supportive Shoes\n\u2601\ufe0f Cloud-Like Comfort\n\ud83c\udfe1 Free Shipping & Returns\n\nGet yours now, tap 'Shop Now'.",
+  "videos": [
+   {
+    "video_id": "801454909311430",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/da7dc588369bf77f0436b41f60348366.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/982d7f8e153ca11fc151a914b078d067.jpg",
+    "duration": 88.6,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "EARLY BLACK FRIDAY - 60% OFF!",
+   "body": "Up to 60% OFF sitewide in our biggest sale ever! \ud83c\udf8a \n\nTired of foot pain and discomfort? These orthopaedic shoes are designed to provide the support and cushioning your feet need.\n\n\ud83d\udc5f Designed For Regular & Wide Feet\n\ud83e\uddb6 Relieves Plantar Fasciitis, Bunions, Neuropathy Pain\n\ud83d\udcaa Ultra Supportive Shoes\n\u2601\ufe0f Cloud-Like Comfort\n\ud83c\udfe1 Free Shipping & Returns\n\nGet yours now, tap 'Shop Now'.",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/finally-relieve-your-foot-pain-for-good-with-these-revolutionary-new-miracle-shoes",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "801454909311430",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/da7dc588369bf77f0436b41f60348366.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/982d7f8e153ca11fc151a914b078d067.jpg",
+     "duration": 88.6,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "Kyro_251_1_V1 sale",
+  "format": "VIDEO",
+  "status": "ADSET_PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/b0f0a3f2-5050-4220-9637-dca972327d24.jpg",
+  "spend": 28214.409999999993,
+  "revenue": 1410.9,
+  "purchases": 10.0,
+  "impressions": 518059.0,
+  "clicks": 21784.0,
+  "first": "2025-08-01",
+  "last": "2025-09-01",
+  "platform_ad_id": "120229216775700335",
+  "roas": 0.05,
+  "ctr_pct": 4.2,
+  "cpa": 2821.44,
+  "headline": "Save Up To 40% OFF",
+  "primary_text": "We have the most comfortable & supportive shoes at 40% OFF!\n\n\ud83d\udc5f Fits Wide & Narrow Feet\n\ud83e\uddb6 Relieves Plantar Fasciitis, Bunions, Neuropathy Pain\n\ud83d\udc69\u200d\u2695\ufe0f Podiatrist-Recommended Shoes\n\u2b50 120,000 5-star reviews\n\u2705 Free shipping & returns\n\nGet yours now \ud83d\udc49 comfortorthowear.com",
+  "videos": [
+   {
+    "video_id": "1056879893098463",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/16785fec-fdb4-4e14-a5d2-356dc25d509e.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/b0f0a3f2-5050-4220-9637-dca972327d24.jpg",
+    "duration": 119.4,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Save Up To 40% OFF",
+   "body": "We have the most comfortable & supportive shoes at 40% OFF!\n\n\ud83d\udc5f Fits Wide & Narrow Feet\n\ud83e\uddb6 Relieves Plantar Fasciitis, Bunions, Neuropathy Pain\n\ud83d\udc69\u200d\u2695\ufe0f Podiatrist-Recommended Shoes\n\u2b50 120,000 5-star reviews\n\u2705 Free shipping & returns\n\nGet yours now \ud83d\udc49 comfortorthowear.com",
+   "caption": null,
+   "cta_text": "comfortorthowear.com/products/...",
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "1056879893098463",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/16785fec-fdb4-4e14-a5d2-356dc25d509e.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/b0f0a3f2-5050-4220-9637-dca972327d24.jpg",
+     "duration": 119.4,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "Kyro 27 Gift v4 (wife works) - 73% healthcare workers copy - 2023 best H - Nurse advertorial",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d87b467f-cfcd-478e-bb84-71c34cff589e.jpg",
+  "spend": 28114.5,
+  "revenue": 51134.75,
+  "purchases": 587.0,
+  "impressions": 1114909.0,
+  "clicks": 27760.0,
+  "first": "2023-11-01",
+  "last": "2024-01-01",
+  "platform_ad_id": "120200787284450335",
+  "roas": 1.82,
+  "ctr_pct": 2.49,
+  "cpa": 47.9,
+  "headline": "2023's Best Shoes For Nurses",
+  "primary_text": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705#1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+  "videos": [
+   {
+    "video_id": "710864310934500",
+    "url": null,
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d87b467f-cfcd-478e-bb84-71c34cff589e.jpg",
+    "duration": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "creative": {
+   "title": "2023's Best Shoes For Nurses",
+   "body": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705#1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/nurse-reveals-the-secret-this-is-the-true-story-of-how-i-fixed-my-painful-swollen-feet",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "710864310934500",
+     "url": null,
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d87b467f-cfcd-478e-bb84-71c34cff589e.jpg",
+     "duration": null,
+     "width": null,
+     "height": null
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "Kyro 63_2-ss2 - 73% healthcare workers copy - 2023 best H - 10 Reasons Healthcare Advertorial - Copy 2",
+  "format": "VIDEO",
+  "status": "CAMPAIGN_PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4cd99bc2-2874-4832-90d0-ce9fcdc947e5.jpg",
+  "spend": 27884.860000000004,
+  "revenue": 64780.88000000002,
+  "purchases": 757.0,
+  "impressions": 1792820.0,
+  "clicks": 41300.0,
+  "first": "2024-02-01",
+  "last": "2024-04-01",
+  "platform_ad_id": "120205909903040335",
+  "roas": 2.32,
+  "ctr_pct": 2.3,
+  "cpa": 36.84,
+  "headline": "2024's Best Shoes For Nurses",
+  "primary_text": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705#1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+  "videos": [
+   {
+    "video_id": "795220902642328",
+    "url": null,
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4cd99bc2-2874-4832-90d0-ce9fcdc947e5.jpg",
+    "duration": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "creative": {
+   "title": "2024's Best Shoes For Nurses",
+   "body": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705#1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "795220902642328",
+     "url": null,
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4cd99bc2-2874-4832-90d0-ce9fcdc947e5.jpg",
+     "duration": null,
+     "width": null,
+     "height": null
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "627_Kashif_Spanish_Ortho_Stretch_Shoe_Tested5ShoesWinner Hook 2",
+  "format": "VIDEO",
+  "status": "DISAPPROVED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/b091a7333b706f8f0a5064e990694b83.jpg",
+  "spend": 27251.719999999994,
+  "revenue": 46487.640000000014,
+  "purchases": 518.0,
+  "impressions": 662035.0,
+  "clicks": 47202.0,
+  "first": "2026-02-01",
+  "last": "2026-06-01",
+  "platform_ad_id": "120240112381620335",
+  "roas": 1.71,
+  "ctr_pct": 7.13,
+  "cpa": 52.61,
+  "headline": "Recomendada por expertos",
+  "primary_text": "El 73% del personal sanitario experimenta dolor de pies. ComfortWear lo cambia todo.\n\n\u2705 Mejor soporte del arco para la fascia plantar\n\u2705 Amortiguaci\u00f3n para los talones\n\u2705 Puntera ancha para pies anchos\n\u2705Calzado n.\u00b0 1 recomendado por pod\u00f3logos\n\u2705 Env\u00edo y devoluciones GRATIS\n\nCompra ahora!",
+  "videos": [
+   {
+    "video_id": "907834758803031",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d6821259ebedee594a02f26e3bcc3da6.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/b091a7333b706f8f0a5064e990694b83.jpg",
+    "duration": 93.833,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Recomendada por expertos",
+   "body": "El 73% del personal sanitario experimenta dolor de pies. ComfortWear lo cambia todo.\n\n\u2705 Mejor soporte del arco para la fascia plantar\n\u2705 Amortiguaci\u00f3n para los talones\n\u2705 Puntera ancha para pies anchos\n\u2705Calzado n.\u00b0 1 recomendado por pod\u00f3logos\n\u2705 Env\u00edo y devoluciones GRATIS\n\nCompra ahora!",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/10-razones-por-las-que-estos-zapatos-est-n-en-la-lista-de-deseos-de-todos-los-trabajadores-de-la-salud-en-2024",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "907834758803031",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d6821259ebedee594a02f26e3bcc3da6.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/b091a7333b706f8f0a5064e990694b83.jpg",
+     "duration": 93.833,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "TOFv1_HF2 | 807_Aubrey_New UGC_Ortho_Stretch_Shoe_Don\u2019t Waste Spent Money_9X16 HOOK 03",
+  "format": "VIDEO",
+  "status": "ACTIVE",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4265e684e5b95c878f36a04e3a823fba.jpg",
+  "spend": 26771.73,
+  "revenue": 39509.56999999999,
+  "purchases": 381.0,
+  "impressions": 428182.0,
+  "clicks": 21842.0,
+  "first": "2026-07-01",
+  "last": "2026-11-01",
+  "platform_ad_id": "120248663004170335",
+  "roas": 1.48,
+  "ctr_pct": 5.1,
+  "cpa": 70.27,
+  "headline": "Expert-Recommended",
+  "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+  "videos": [
+   {
+    "video_id": "2621759884869852",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/82a8d91ee76cc698f7f4bf23e8ddfc69.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4265e684e5b95c878f36a04e3a823fba.jpg",
+    "duration": 143.533,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Expert-Recommended",
+   "body": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "2621759884869852",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/82a8d91ee76cc698f7f4bf23e8ddfc69.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/4265e684e5b95c878f36a04e3a823fba.jpg",
+     "duration": 143.533,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - kyro 162v1ss2 - tesitmonial copy - 10 Reasons Healthcare Workers",
+  "format": "VIDEO",
+  "status": "ADSET_PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/29e79876-1d06-47bd-8d6a-edb3d1afd29e.jpg",
+  "spend": 26678.25,
+  "revenue": 54273.32,
+  "purchases": 580.0,
+  "impressions": 705805.0,
+  "clicks": 26531.0,
+  "first": "2024-10-01",
+  "last": "2025-01-01",
+  "platform_ad_id": "120212709165040335",
+  "roas": 2.03,
+  "ctr_pct": 3.76,
+  "cpa": 46.0,
+  "headline": "2024's Favorite Nurse Shoes",
+  "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. \n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. \n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now: https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "videos": [
+   {
+    "video_id": "528113663269059",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/fba6962c-db2f-447f-8221-002ea5d32dca.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/29e79876-1d06-47bd-8d6a-edb3d1afd29e.jpg",
+    "duration": 72.172,
+    "width": 1080,
+    "height": 1350
+   }
+  ],
+  "creative": {
+   "title": "2024's Favorite Nurse Shoes",
+   "body": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. \n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. \n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now: https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": null,
+   "images": [],
+   "videos": [
+    {
+     "video_id": "528113663269059",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/fba6962c-db2f-447f-8221-002ea5d32dca.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/29e79876-1d06-47bd-8d6a-edb3d1afd29e.jpg",
+     "duration": 72.172,
+     "width": 1080,
+     "height": 1350
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - kyro 172v1ss1 -  73% copy - 10 Reasons Healthcare Workers - Copy",
+  "format": "VIDEO",
+  "status": "DISAPPROVED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/33ed66001f9438ef325402cebbfeb224.jpg",
+  "spend": 26307.770000000004,
+  "revenue": 29489.129999999997,
+  "purchases": 307.0,
+  "impressions": 907620.0,
+  "clicks": 33412.0,
+  "first": "2025-01-01",
+  "last": "2025-02-01",
+  "platform_ad_id": "120214857619770335",
+  "roas": 1.12,
+  "ctr_pct": 3.68,
+  "cpa": 85.69,
+  "headline": "2024's Favorite Nurse Shoes",
+  "primary_text": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+  "videos": [
+   {
+    "video_id": "561259766455445",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/92c6f98c95162fea03318c78e3a47a35.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/33ed66001f9438ef325402cebbfeb224.jpg",
+    "duration": 100.433,
+    "width": 1080,
+    "height": 1350
+   }
+  ],
+  "creative": {
+   "title": "2024's Favorite Nurse Shoes",
+   "body": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source=%7B%7Bsite_source_name%7D%7D&tw_adid=%7B%7Bad.id%7D%7D",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "561259766455445",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/92c6f98c95162fea03318c78e3a47a35.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/33ed66001f9438ef325402cebbfeb224.jpg",
+     "duration": 100.433,
+     "width": 1080,
+     "height": 1350
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "RTGv1_B2 | Kyro_293_1_V1",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/26ce732e400694502d31a488985488a0.jpg",
+  "spend": 25427.75,
+  "revenue": 31332.870000000003,
+  "purchases": 342.0,
+  "impressions": 584153.0,
+  "clicks": 34782.0,
+  "first": "2025-11-01",
+  "last": "2026-02-01",
+  "platform_ad_id": "120235245932510335",
+  "roas": 1.23,
+  "ctr_pct": 5.95,
+  "cpa": 74.35,
+  "headline": "Podiatrist Recommended",
+  "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+  "videos": [
+   {
+    "video_id": "3093534717486604",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/5449ea8c3e53251acfac8ed1a26a9695.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/26ce732e400694502d31a488985488a0.jpg",
+    "duration": 111.833,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Podiatrist Recommended",
+   "body": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": null,
+   "images": [],
+   "videos": [
+    {
+     "video_id": "3093534717486604",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/5449ea8c3e53251acfac8ed1a26a9695.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/26ce732e400694502d31a488985488a0.jpg",
+     "duration": 111.833,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "TOFv3_A19 | Kyro_296_2_V3 updated",
+  "format": "VIDEO",
+  "status": "WITH_ISSUES",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/62751fa5963c1e7235d468a91ebf2206.jpg",
+  "spend": 24515.83,
+  "revenue": 1680.45,
+  "purchases": 16.0,
+  "impressions": 695306.0,
+  "clicks": 58560.0,
+  "first": "2025-10-01",
+  "last": "2025-12-01",
+  "platform_ad_id": "120235193782920335",
+  "roas": 0.07,
+  "ctr_pct": 8.42,
+  "cpa": 1532.24,
+  "headline": "Orthopedic Shoes | 40% OFF",
+  "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+  "videos": [
+   {
+    "video_id": "711226541547045",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/cd252b6234540779182a480b5eb05600.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/62751fa5963c1e7235d468a91ebf2206.jpg",
+    "duration": 110.166,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Orthopedic Shoes | 40% OFF",
+   "body": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "711226541547045",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/cd252b6234540779182a480b5eb05600.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/62751fa5963c1e7235d468a91ebf2206.jpg",
+     "duration": 110.166,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "kazi zach 5 v1 -  73% copy - 10 Reasons Healthcare Workers - Copy",
+  "format": "VIDEO",
+  "status": "ADSET_PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/eda77f7e-2825-40a6-8550-15c086a8c2a4.jpg",
+  "spend": 24455.420000000002,
+  "revenue": 42913.07000000001,
+  "purchases": 474.0,
+  "impressions": 1859661.0,
+  "clicks": 55375.0,
+  "first": "2024-08-01",
+  "last": "2024-11-01",
+  "platform_ad_id": "120211298625980335",
+  "roas": 1.75,
+  "ctr_pct": 2.98,
+  "cpa": 51.59,
+  "headline": "2024's Favorite Nurse Shoes",
+  "primary_text": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+  "videos": [
+   {
+    "video_id": "502713092196178",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/764bbe45-ba30-487c-9e2d-53ca9a0a3c28.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/eda77f7e-2825-40a6-8550-15c086a8c2a4.jpg",
+    "duration": 257.671,
+    "width": 1024,
+    "height": 1280
+   }
+  ],
+  "creative": {
+   "title": "2024's Favorite Nurse Shoes",
+   "body": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source={{site_source_name}}&tw_adid={{ad.id}}",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "502713092196178",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/764bbe45-ba30-487c-9e2d-53ca9a0a3c28.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/eda77f7e-2825-40a6-8550-15c086a8c2a4.jpg",
+     "duration": 257.671,
+     "width": 1024,
+     "height": 1280
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@TF - Kyro_253_1_V3 travel",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/9e0a1f29a5e636c0a17e01aeea4dc751.jpg",
+  "spend": 24295.17,
+  "revenue": 158.01,
+  "purchases": 2.0,
+  "impressions": 310771.0,
+  "clicks": 24065.0,
+  "first": "2025-08-01",
+  "last": "2025-08-01",
+  "platform_ad_id": "120229395856460335",
+  "roas": 0.01,
+  "ctr_pct": 7.74,
+  "cpa": 12147.58,
+  "headline": "Travel smart. Travel comfortably.",
+  "primary_text": "Shoes made for long flights, traveling, and walking 50,000+ steps.\n\u2708\ufe0f All-Day Comfort: Travel comfortably without sore feet.\n\ud83e\uddb6 Superior Arch Support: Keeps your feet energized and supported\n\ud83c\udf2c\ufe0f Breathable & Lightweight: Stay fresh and comfortable from take-off to landing.\n\nTravel smart. Travel comfortably.\n\nGet your pair with 40% OFF today -> https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+  "videos": [
+   {
+    "video_id": "1300425304982650",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/e2be2fa188fa34091b9c54301ad2e0a1.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/9e0a1f29a5e636c0a17e01aeea4dc751.jpg",
+    "duration": 178.005,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "Travel smart. Travel comfortably.",
+   "body": "Shoes made for long flights, traveling, and walking 50,000+ steps.\n\u2708\ufe0f All-Day Comfort: Travel comfortably without sore feet.\n\ud83e\uddb6 Superior Arch Support: Keeps your feet energized and supported\n\ud83c\udf2c\ufe0f Breathable & Lightweight: Stay fresh and comfortable from take-off to landing.\n\nTravel smart. Travel comfortably.\n\nGet your pair with 40% OFF today -> https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+   "caption": null,
+   "cta_text": "comfortorthowear.com/products/...",
+   "cta_type": "LEARN_MORE",
+   "link_url": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "1300425304982650",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/e2be2fa188fa34091b9c54301ad2e0a1.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/9e0a1f29a5e636c0a17e01aeea4dc751.jpg",
+     "duration": 178.005,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - Kyro 125v1ss1 -  73% copy - 10 Reasons Healthcare Workers",
+  "format": "VIDEO",
+  "status": "DISAPPROVED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/cf2cdf746405504e36a03586db820ea3.jpg",
+  "spend": 23844.97,
+  "revenue": 56436.110000000015,
+  "purchases": 606.0,
+  "impressions": 1168694.0,
+  "clicks": 43532.0,
+  "first": "2024-07-01",
+  "last": "2024-09-01",
+  "platform_ad_id": "120210521020620335",
+  "roas": 2.37,
+  "ctr_pct": 3.72,
+  "cpa": 39.35,
+  "headline": "2024's Favorite Nurse Shoes",
+  "primary_text": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+  "videos": [
+   {
+    "video_id": "1552280172051195",
+    "url": null,
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/cf2cdf746405504e36a03586db820ea3.jpg",
+    "duration": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "creative": {
+   "title": "2024's Favorite Nurse Shoes",
+   "body": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source={{site_source_name}}&tw_adid={{ad.id}}",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "1552280172051195",
+     "url": null,
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/cf2cdf746405504e36a03586db820ea3.jpg",
+     "duration": null,
+     "width": null,
+     "height": null
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "kazi zach 5 v1 -  73% copy - 10 Reasons Healthcare Workers",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/eda77f7e-2825-40a6-8550-15c086a8c2a4.jpg",
+  "spend": 23737.700000000004,
+  "revenue": 57543.63999999999,
+  "purchases": 606.0,
+  "impressions": 2138366.0,
+  "clicks": 59915.0,
+  "first": "2024-07-01",
+  "last": "2024-08-01",
+  "platform_ad_id": "120210268651680335",
+  "roas": 2.42,
+  "ctr_pct": 2.8,
+  "cpa": 39.17,
+  "headline": "2024's Favorite Nurse Shoes",
+  "primary_text": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+  "videos": [
+   {
+    "video_id": "502713092196178",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/764bbe45-ba30-487c-9e2d-53ca9a0a3c28.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/eda77f7e-2825-40a6-8550-15c086a8c2a4.jpg",
+    "duration": 257.671,
+    "width": 1024,
+    "height": 1280
+   }
+  ],
+  "creative": {
+   "title": "2024's Favorite Nurse Shoes",
+   "body": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source={{site_source_name}}&tw_adid={{ad.id}}",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "502713092196178",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/764bbe45-ba30-487c-9e2d-53ca9a0a3c28.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/eda77f7e-2825-40a6-8550-15c086a8c2a4.jpg",
+     "duration": 257.671,
+     "width": 1024,
+     "height": 1280
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "TOFv5_AR20 | Senior | 929_Kashif_New UGC_Ortho_Stretch_Shoe_PodiatristRateShoes_@Samir Patel_SeniorAngle",
+  "format": "VIDEO",
+  "status": "DISAPPROVED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/7660a2450210f5620cddb146c875d8cf.jpg",
+  "spend": 22370.9,
+  "revenue": 33460.46,
+  "purchases": 364.0,
+  "impressions": 513712.0,
+  "clicks": 29559.0,
+  "first": "2026-05-01",
+  "last": "2026-06-01",
+  "platform_ad_id": "120244429009190335",
+  "roas": 1.5,
+  "ctr_pct": 5.75,
+  "cpa": 61.46,
+  "headline": "2026's Best Shoes For Seniors",
+  "primary_text": "\u201cI\u2019m in my fifties with excruciating foot pain so wanted something comfortable for everyday wear. These feel supportive, safe and without being bulky.\u201d ~ Michelle B. (\u2b50\u2b50\u2b50\u2b50\u2b50)\n\n\u2714 Slip-resistant sole grips any surface\n\u2714 Firm heel keeps you stable \n\u2714 Wide toe box for better balance \n\u2714 Lightweight design, no tripping on heavy shoes \n\u2714 Easy to wear, no laces\n\nMade for seniors who refuse to slow down. Walk with confidence again.\n\nShop now with 40% OFF + free shipping & returns.",
+  "videos": [
+   {
+    "video_id": "943958381565691",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/cc076e269b1057d83be97a05cf858385.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/7660a2450210f5620cddb146c875d8cf.jpg",
+    "duration": 88.7,
+    "width": 720,
+    "height": 1280
+   }
+  ],
+  "creative": {
+   "title": "2026's Best Shoes For Seniors",
+   "body": "\u201cI\u2019m in my fifties with excruciating foot pain so wanted something comfortable for everyday wear. These feel supportive, safe and without being bulky.\u201d ~ Michelle B. (\u2b50\u2b50\u2b50\u2b50\u2b50)\n\n\u2714 Slip-resistant sole grips any surface\n\u2714 Firm heel keeps you stable \n\u2714 Wide toe box for better balance \n\u2714 Lightweight design, no tripping on heavy shoes \n\u2714 Easy to wear, no laces\n\nMade for seniors who refuse to slow down. Walk with confidence again.\n\nShop now with 40% OFF + free shipping & returns.",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": null,
+   "images": [],
+   "videos": [
+    {
+     "video_id": "943958381565691",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/cc076e269b1057d83be97a05cf858385.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/7660a2450210f5620cddb146c875d8cf.jpg",
+     "duration": 88.7,
+     "width": 720,
+     "height": 1280
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "Kyro 45_2-ss3 - 12h shift copy - all day comfort H - 10 Reasons Healthcare Advertorial - Copy",
+  "format": "VIDEO",
+  "status": "PAUSED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/730c8592-b17b-4eaf-aaf5-93a55ee9527b.jpg",
+  "spend": 21648.19,
+  "revenue": 48888.270000000004,
+  "purchases": 529.0,
+  "impressions": 1037408.0,
+  "clicks": 20176.0,
+  "first": "2024-01-01",
+  "last": "2024-03-01",
+  "platform_ad_id": "120204030680790335",
+  "roas": 2.26,
+  "ctr_pct": 1.94,
+  "cpa": 40.92,
+  "headline": "All-Day Comfort & Pain-Free \ud83d\udc5f",
+  "primary_text": "\ud83d\udc99 Start working your 12 hour shift pain free \u2014 or your money back, guaranteed!\n\n\ud83e\ude7a Join the 70,000+ Nurses who have made the switch to ComfortWear shoes\n\n\ud83e\udde6 We have a 40% off limited time offer currently running!\n\nVisit our website now to learn more!\ncomfortorthowear.com",
+  "videos": [
+   {
+    "video_id": "393710866372615",
+    "url": null,
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/730c8592-b17b-4eaf-aaf5-93a55ee9527b.jpg",
+    "duration": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "creative": {
+   "title": "All-Day Comfort & Pain-Free \ud83d\udc5f",
+   "body": "\ud83d\udc99 Start working your 12 hour shift pain free \u2014 or your money back, guaranteed!\n\n\ud83e\ude7a Join the 70,000+ Nurses who have made the switch to ComfortWear shoes\n\n\ud83e\udde6 We have a 40% off limited time offer currently running!\n\nVisit our website now to learn more!\ncomfortorthowear.com",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "LEARN_MORE",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "393710866372615",
+     "url": null,
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/730c8592-b17b-4eaf-aaf5-93a55ee9527b.jpg",
+     "duration": null,
+     "width": null,
+     "height": null
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "TOFV1_HJ27 | JULYWK2_VID1_JACK_Teacher_Hook1",
+  "format": "VIDEO",
+  "status": "ACTIVE",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/528c9cb9ed4e5f3e2f2ba105bd8e2f3b.jpg",
+  "spend": 20828.269999999997,
+  "revenue": 34631.81,
+  "purchases": 313.0,
+  "impressions": 350307.0,
+  "clicks": 27936.0,
+  "first": "2026-08-01",
+  "last": "2026-09-01",
+  "platform_ad_id": "120248962900070335",
+  "roas": 1.66,
+  "ctr_pct": 7.97,
+  "cpa": 66.54,
+  "headline": "2026's Favorite Shoes For Teachers",
+  "primary_text": "Ortho Stretch Cushion Shoes are so comfy and supportive, you'll never want to take them off!\n\n\ud83d\udc63Real Arch Support\n\ud83d\udc63Podiatrist Recommended\n\ud83d\udc63Made For Wide & Narrow Feet\n\ud83d\udc63Specialized ORTHO-TECH Insole For Your Foot\n\ud83d\udc63Slip-Resistant Grip\n\ud83d\udc63Cute Colors to Match Every Outfit\n\nTap 'Shop more' to get your pair up to 40% off today.",
+  "videos": [
+   {
+    "video_id": "1462269062373088",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/3517c11f3cd66a63d0591a70daee4cc6.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/528c9cb9ed4e5f3e2f2ba105bd8e2f3b.jpg",
+    "duration": 172.313,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "creative": {
+   "title": "2026's Favorite Shoes For Teachers",
+   "body": "Ortho Stretch Cushion Shoes are so comfy and supportive, you'll never want to take them off!\n\n\ud83d\udc63Real Arch Support\n\ud83d\udc63Podiatrist Recommended\n\ud83d\udc63Made For Wide & Narrow Feet\n\ud83d\udc63Specialized ORTHO-TECH Insole For Your Foot\n\ud83d\udc63Slip-Resistant Grip\n\ud83d\udc63Cute Colors to Match Every Outfit\n\nTap 'Shop more' to get your pair up to 40% off today.",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/teaching-job-means-standing-all-day-these-shoes-help-foot-pain-swelling-and-heel-pain",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "1462269062373088",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/3517c11f3cd66a63d0591a70daee4cc6.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/528c9cb9ed4e5f3e2f2ba105bd8e2f3b.jpg",
+     "duration": 172.313,
+     "width": 1080,
+     "height": 1920
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - kyro 170v2ss1 -  73% copy - 10 Reasons Healthcare Workers \u2013 Copy",
+  "format": "VIDEO",
+  "status": "DISAPPROVED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d140c7bafa41584f4bba90d55c511923.jpg",
+  "spend": 20737.76,
+  "revenue": 10191.97,
+  "purchases": 112.0,
+  "impressions": 466922.0,
+  "clicks": 27598.0,
+  "first": "2025-11-01",
+  "last": "2026-02-01",
+  "platform_ad_id": "120235931029780335",
+  "roas": 0.49,
+  "ctr_pct": 5.91,
+  "cpa": 185.16,
+  "headline": "2024's Favorite Nurse Shoes",
+  "primary_text": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+  "videos": [
+   {
+    "video_id": "888000836642392",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/fd57010466c30de5ce416dc2f1d7e57f.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d140c7bafa41584f4bba90d55c511923.jpg",
+    "duration": 122.489,
+    "width": 1080,
+    "height": 1350
+   }
+  ],
+  "creative": {
+   "title": "2024's Favorite Nurse Shoes",
+   "body": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source={{site_source_name}}&tw_adid={{ad.id}}",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "888000836642392",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/fd57010466c30de5ce416dc2f1d7e57f.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/d140c7bafa41584f4bba90d55c511923.jpg",
+     "duration": 122.489,
+     "width": 1080,
+     "height": 1350
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - kyro 170v2ss1 -  73% copy - 10 Reasons Healthcare Workers - Copy",
+  "format": "VIDEO",
+  "status": "DISAPPROVED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/ea002241183bfe56d63f5eb904c86b25.jpg",
+  "spend": 20633.460000000003,
+  "revenue": 38306.58,
+  "purchases": 410.0,
+  "impressions": 493386.0,
+  "clicks": 28993.0,
+  "first": "2024-11-01",
+  "last": "2024-12-01",
+  "platform_ad_id": "120213615394580335",
+  "roas": 1.86,
+  "ctr_pct": 5.88,
+  "cpa": 50.33,
+  "headline": "2024's Favorite Nurse Shoes",
+  "primary_text": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+  "videos": [
+   {
+    "video_id": "888000836642392",
+    "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/fd57010466c30de5ce416dc2f1d7e57f.mp4",
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/ea002241183bfe56d63f5eb904c86b25.jpg",
+    "duration": 122.489,
+    "width": 1080,
+    "height": 1350
+   }
+  ],
+  "creative": {
+   "title": "2024's Favorite Nurse Shoes",
+   "body": "73% of healthcare workers experience foot pain. ComfortWear changes that.\n\n\u2705 Better Arch Support For Plantar Fascia\n\u2705 Cushioning For Your Heels\n\u2705 Wide Toe-Box For Wide Feet\n\u2705 #1 Recommended Shoes by Podiatrists\n\u2705 FREE Shipping & Returns",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source=%7B%7Bsite_source_name%7D%7D&tw_adid=%7B%7Bad.id%7D%7D",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "888000836642392",
+     "url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/fd57010466c30de5ce416dc2f1d7e57f.mp4",
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/ea002241183bfe56d63f5eb904c86b25.jpg",
+     "duration": 122.489,
+     "width": 1080,
+     "height": 1350
+    }
+   ]
+  }
+ },
+ {
+  "account": "WearOrtho",
+  "account_id": "a829d015648d481fb70eb471556cdb77",
+  "ad_name": "@NF - kyro 229v2ss3 - emoji copy - 10 Reasons Healthcare Workers",
+  "format": "VIDEO",
+  "status": "DISAPPROVED",
+  "thumbnail_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/bf882955d5e7513c27075b6649d90d21.jpg",
+  "spend": 20366.04,
+  "revenue": 157.64999999999998,
+  "purchases": 2.0,
+  "impressions": 659707.0,
+  "clicks": 28286.0,
+  "first": "2025-05-01",
+  "last": "2025-06-01",
+  "platform_ad_id": "120222856157110335",
+  "roas": 0.01,
+  "ctr_pct": 4.29,
+  "cpa": 10183.02,
+  "headline": "2025's Favorite Nurse Shoes",
+  "primary_text": "Finally! A shoe that offers More Than just cushioning exists!\n \nComfortWear's \"More Than\" Shoe delivers features such as premium arch support and heel cushioning, working together to address common foot problems and pave the way for pain-free movement!\n\n\u2705 Superior Arch Support\n\u2705 Promotes Healthy Habits\n\u2705 Premium, Breathable Materials\n\u2705 Reduces Heel and Sole Discomfort\n\u2705 Energizes Every Step\n\u2705 Alleviates Common Foot Conditions\n\nTry our footwear today risk-free for 45 days!",
+  "videos": [
+   {
+    "video_id": "689070990205171",
+    "url": null,
+    "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/bf882955d5e7513c27075b6649d90d21.jpg",
+    "duration": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "creative": {
+   "title": "2025's Favorite Nurse Shoes",
+   "body": "Finally! A shoe that offers More Than just cushioning exists!\n \nComfortWear's \"More Than\" Shoe delivers features such as premium arch support and heel cushioning, working together to address common foot problems and pave the way for pain-free movement!\n\n\u2705 Superior Arch Support\n\u2705 Promotes Healthy Habits\n\u2705 Premium, Breathable Materials\n\u2705 Reduces Heel and Sole Discomfort\n\u2705 Energizes Every Step\n\u2705 Alleviates Common Foot Conditions\n\nTry our footwear today risk-free for 45 days!",
+   "caption": null,
+   "cta_text": null,
+   "cta_type": "SHOP_NOW",
+   "link_url": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers?tw_source={{site_source_name}}&tw_adid={{ad.id}}",
+   "images": [],
+   "videos": [
+    {
+     "video_id": "689070990205171",
+     "url": null,
+     "preview_image_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/bf882955d5e7513c27075b6649d90d21.jpg",
+     "duration": null,
+     "width": null,
+     "height": null
+    }
+   ]
+  }
+ }
+]
