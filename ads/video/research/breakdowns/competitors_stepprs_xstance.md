@@ -192,7 +192,7 @@ All 10 run the same headline ("Walk on Clouds—Or It's FREE.") over one of two 
 - Visual: 0.00–0.47 real dissected foot (fascia/tendons) lifted with tweezers (shock). 0.47–1.1 AI-rendered sole with red nerve fibres, on a bed. 1.1–2.5 an older woman's swollen white foot with red toenails, a hand gripping the ankle, on a wood floor. 2.5–4.1 hands squeezing the white Stepprs massage-node foam (product at 2.5 s).
 - Text hook: none beyond captions. Single-word captions: "if" "have" "neuropathy" "from" **"TYPE 2 DIABETES"** "but" "use" "these" "massage".
 - Verbal hook: "If you have neuropathy from type 2 diabetes, but use these massage insoles for 7 days, this is what would happen." (0.00)
-- Audio: VO (male, steady) over a soft bed · Hook archetype(s): condition call-out + gross-out anatomy + "this is what would happen" open loop + time-bound promise
+- Audio: VO (male, steady) · Hook archetype(s): condition call-out + gross-out anatomy + "this is what would happen" open loop + time-bound promise
 - First hard cut at 0.47 s; 3 cuts in first 3 s.
 **Beat map:**
 | t | beat | VO (short) | visuals/B-roll | on-screen text |
@@ -270,7 +270,7 @@ Per the brief, the first 60 s of each is analysed shot by shot, and the rest is 
 - Visual: full-frame close-up of a bare forefoot/sole with **red marker dots** on pressure points. A zig-zag steel-wire foot-acupressure tool is pressed and rocked across the toes (motion every frame). Hard cut at 3.2 s to a man in a teal tee and grey shorts doing a wall calf stretch. **No product until 89.3 s.**
 - Text hook: "3 Plantar Fasciitis MYTHS" (black) / "making the pain worse" (red). Bold sans (Montserrat/Inter Bold-like: double-story "a", geometric "o"), sentence case + "MYTHS" caps, on a white rounded pill. Glyph line ≈ 60 px, pill 4–15% from top, centred. It persists through the myth list. Each myth is added as a smaller white sub-pill below (≈ 30 px): "Stretching calves relieves tension" / "Putting ice stops the problem" / "Soft sneakers give proper support".
 - Verbal hook: "Three plantar fasciitis myths making the pain worse…" (0.00)
-- Audio: male VO (presenter) over light music · Hook archetype(s): myth-buster / "you're doing it wrong", numbered list (3), pain-point gross-out (marker dots on sole)
+- Audio: male VO (presenter); faint music bed (not verified) · Hook archetype(s): myth-buster / "you're doing it wrong", numbered list (3), pain-point gross-out (marker dots on sole)
 - First hard cut at 3.2 s; 1 visual change in first 3 s (tool motion), 3 cuts by 10 s.
 **First 60 s, shot by shot:**
 | t | beat | VO (short) | visuals/B-roll | on-screen text |
@@ -305,7 +305,7 @@ Per the brief, the first 60 s of each is analysed shot by shot, and the rest is 
 - Visual: 0–2.8 s close-up of bare legs stepping down into a blue plastic tub of ice water, with handheld wobble. Hard cut at 2.8 s to a bearded heavy man (charcoal Polo tee) talking head in a stone-fireplace living room. 3.3 s cut to him walking down garden steps with a **red circular heel-pain icon** sticker on his heel.
 - Text hook: "Don't put ice on Plantar Fasciitis" (appears 0.25 s), then "Do this instead!" (pops in at 2.0 s, scaling up). Black bold sans on white rounded boxes (TikTok-native style), glyph line ≈ 35 px, boxes 6–13% from top.
 - Verbal hook: "Don't put ice on plantar fasciitis, do this instead." (0.00)
-- Audio: male first-person VO (the "customer"), light music · Hook archetype(s): "don't do X" contrarian warning + "do this instead" curiosity, relatable home remedy
+- Audio: male first-person VO (the "customer") · Hook archetype(s): "don't do X" contrarian warning + "do this instead" curiosity, relatable home remedy
 - First hard cut at 2.8 s; 2 cuts in first 3.5 s.
 **First 60 s, shot by shot (condensed):**
 | t | beat | VO (short) | visuals/B-roll | on-screen text (word-by-word) |
@@ -356,7 +356,7 @@ Per the brief, the first 60 s of each is analysed shot by shot, and the rest is 
 - Visual: **letterboxed**: top ~22% is a white title bar, video below. Extreme close-up of two thumbs digging into a heel/arch (deep massage, slightly gross). 2.7 s hard cut to a grey sculpted anatomical foot/ankle model with red calf muscle on a dark plinth. 5.2 s **split screen "INSTEAD, TRY THIS"**: left, a thick white foam insole under a pink sock; right, a bare heel standing on the Xstance green-rim insole (product at 5.2 s, unbranded).
 - Text hook: "STOP CUSHIONING YOUR" (black) / "**PLANTAR FASCIITIS**" (red, underlined), Arial Black / Helvetica Black caps, glyph lines ≈ 59 px and ≈ 65 px, 4–14% from top on white. 2.7 s it swaps to "THIS CAN / MAKE IT **WORSE**" (red WORSE). 5.2 s "INSTEAD, TRY THIS".
 - Verbal hook: "Stop cushioning your plantar fasciitis. This can make it worse and prevent you from recovering. Instead, try this." (0.00)
-- Audio: male doctor VO, light music · Hook archetype(s): contrarian enemy (the cushioning everyone buys), authority, "instead, try this" visual answer
+- Audio: male doctor VO · Hook archetype(s): contrarian enemy (the cushioning everyone buys), authority, "instead, try this" visual answer
 - First hard cut at 2.67 s; 2 headline swaps in first 7 s.
 **First 60 s:**
 | t | beat | VO (short) | visuals/B-roll | on-screen text |
@@ -493,7 +493,7 @@ Per the brief, the first 60 s of each is analysed shot by shot, and the rest is 
 - Visual: 0–0.77 a hand lifts an Xstance green insole out of a blue/yellow Hoka. 0.77 top-down on two Hokas with Xstance insoles inside. 1.4 macro of a hand flexing the black/green insole. 2.5 a man's hands sliding the insole into a grey sneaker on a window ledge (city view). Product in frame 1.
 - Text hook: "OUR CRAZIEST 24-HOUR / SALE IS HERE AND THINGS / ARE FLYING OFF SHELVES". Black bold caps on white rounded box (TikTok-native), 3 lines, glyph ≈ 35 px, ~27–36% from top. Persists 0–4.7 s.
 - Verbal hook: "Black Friday savings are live. Xstance insoles are up to 55% off." (0.00)
-- Audio: female VO + upbeat music · Hook archetype(s): sale announcement, scarcity ("flying off shelves"), product-in-hand
+- Audio: female VO over a music bed · Hook archetype(s): sale announcement, scarcity ("flying off shelves"), product-in-hand
 - First hard cut at 0.77 s; 3 cuts in first 3 s.
 **Beat map:**
 | t | beat | VO (short) | visuals/B-roll | on-screen text |
@@ -514,3 +514,52 @@ Per the brief, the first 60 s of each is analysed shot by shot, and the rest is 
 - "People are grabbing multiple pairs" is a social-proof framing for the bundle.
 - Include a nurse-in-scrubs insertion shot even in a generic promo. Persona cues can be single 1 s shots.
 
+---
+
+## Batch patterns
+
+### Stepprs (10 ads, 28–56 s, mean 41.6 s, all 9:16)
+- **There are 4 creative families, heavily recycled.** Egg-drop test (01, 05, 06, 07 = 4/10, plus egg clips reused inside 08 → 5/10 use the egg footage). POV-caption + founder sale montage (02, 09 share an identical 46 s body). Step-in meme + show-and-tell (03 is a 1.9 s-tighter re-cut of 10). Single creator review (04). AI-anatomy timeline (08).
+- **Why they last 384–472 days (01, 04, 05, 10).** (1) The hook is a **language-free physical demo** (eggs breaking, foam squashing) that needs no claim and can't go stale. (2) Everything verbal is a **modular ~20 s VO block** added late, so it can be re-voiced per persona (07 = steel-toe / concrete floors on 01's identical take) and pointed at persona landing pages (03 long-shift, 07 steel-toe, 08 neuropathy). (3) The concept is **reshot in new locations** (3 different kitchens/flats for the egg test) instead of being replaced. (4) The offer is evergreen ("up to 60%", "90-day money back", never a date). (5) Each entry collapses **13–25 near-duplicate variants**, so the brand is constantly refreshing delivery under the same idea. (6) Everything is shot on a phone in real homes, so it looks native, not like an ad.
+- **Delayed VO is the norm:** 8/10 have no VO for the first ≥2 s and 6/10 for ≥7 s (01/07 12.6 s, 05 23.1 s). Only 04 and 08 open with a spoken line. The egg ads also have **no on-screen text until the VO starts**.
+- **Product in frame by 3 s in 8/10** (03, 04, 10 at frame 1; 01, 06, 07 at 1.75 s edge-of-frame; 02, 08 at 2.5 s). The exceptions are 05 (~8 s) and 09 (10.3 s). 09 is the lower-ranked twin of 02 (rank 23 vs 3).
+- **Cut rate is bimodal:** long single takes (01, 05, 06, 07 avg 4–6 s, with a first cut at 24–40 s) or 1.0–1.5 s median montages (02, 04, 08, 09). 6/10 have zero hard cuts in the first 3 s. Motion inside the frame does the work.
+- **Captions:** 5/10 use **karaoke Montserrat ExtraBold ALL CAPS, white, active word on a solid brand-orange box**, glyph ≈ 40–46 px, centred 49–58% from top. 2/10 use white caps with black outline at 62–64%. 2/10 use lowercase TikTok-classic 1–2-word captions ≈ 41 px at 61–64%. 1/10 uses lowercase + CAPS keywords at 66–70%.
+- **Hook text, where present (5/10), is TikTok-native:** white rounded boxes with black text (03, 04, 10) or TikTok-classic white-with-outline (02, 09), placed 16–31% from top, with emoji in 4/5.
+- **Comparison vs a named competitor in 6/10:** Nike insoles in the egg test (4) and Amazon screenshots of Dr. Scholl's with prices (02, 09).
+- **Offer:** "up to 60% off" in 9/10 (04 uses "~$20 vs hundreds on shoes"). 90-day money-back spoken in 6/10. An animated **"SHOP NOW!" pill + cursor tap** CTA card in 4/10 (the egg family). Fake urgency ("only two days left until we have to sell everything") on 02/09 has run for 132 days.
+- **Brand-colour discipline:** orange insole, orange caption box, orange pouches, orange CTA backdrop. The product is recognisable in a 0.5 s glance even on a cluttered counter.
+- **End buttons:** 2/10 add a post-CTA payoff shot (06 dog eating the egg, 07 egg-smeared insoles). 01 ends on 3.2 s of black, which is wasted.
+
+### The Xstance (9 long-forms 245–391 s, mean 325 s ≈ 5.4 min; 1 × 28 s promo)
+- **3 script bodies × many hooks:** Body A presenter explainer (01, 03, 08), Body B first-person customer odyssey (02, 06, 07, 09), Body C doctor at podcast mic (04, 05). Hook-only swaps: 08 vs 01, 09 vs 06, 05 vs 04. Body re-skins: 03 = Body A for hips. Re-casts: 05 = Body C with a second doctor, 07 = Body B with a different man.
+- **10/10 have a text hook in frame 1. In 7/10 (01–06, 08) it is spoken verbatim as the first VO line.** 07, 09 and 10 pair a title or graphic with a different spoken line. Style: white rounded box/pill with black bold sans, plus a **red keyword line in 6/10** ("making the pain worse", "HIPS HURT", "PLANTAR FASCIITIS", "WORSE"). Position: top 4–16% in 7/10, mid-frame in 08, 10 and 05.
+- **Hook archetypes:** "don't do X / stop X → do this instead" in 6/10 (01, 02, 03, 04, 05, 08). Before/after transformation in 2/10 (06 split screen + Day 1/7/14, 07 "James's foot 4 weeks ago / now"). Educational infographic in 1/10 (09, the oldest at 561 days with 36 dupes). Sale announcement in 1/10 (10).
+- **First hard cut at 1.9–3.9 s in all 10.** 31–41 shots in the first 60 s (~1.7 s average). Body median 1.4–1.8 s. Talking-head shots are capped at ~2–5 s and immediately covered with illustrative B-roll.
+- **The product is hidden for 78–139 s in 8/9 long-forms** (only 04 shows it at 5 s in a split screen). They sell the mechanism and the failed alternatives first, which is the advertorial/VSL logic. The landing page is an article (`/article/5-reasons`).
+- **Every long-form uses the same skeleton:** symptom call-out → "it's NOT aging" → mechanism (overpronation / "fascia collapse") with 3D anatomy (10/10 use anatomy/X-ray) → **failed-fixes montage with red ✗ stickers** (9/9) → product + "Triple Support System" (3 named parts) → skeptic/objection → 90-day guarantee (10/10) → **multi-pair logic** (10/10: "one pair per shoe" / "I bought 3–5 more pairs" / "people are grabbing multiple pairs") → offer + scarcity → CTA.
+- **Authority layering:** suited presenter (3), white-coat doctor at mic (2), a named "foot & ankle surgeon Dr. Gregory Pomeroy" (4 story ads), a Cleveland Clinic page screenshot (04/05), the "Xstance Insoles 2.0" name.
+- **Emotional-cost beat** in 4/10 (story family): cancelled Disneyland/Six Flags trip with red "CANCELED" stamps, sad-kid stock, "Is this my life now?" with floating "?" or B&W re-enactment.
+- **Caption systems by family:** grey translucent rounded box + white geometric sans, ≈ 45–50 px at 75–87% (Body A). Oswald Bold white with black stroke, ≈ 55–90 px, lower third, with **colour-coded keywords** (red pain / yellow emphasis / green relief) (Body B + every UGC tail). Small centred TikTok-style white shadow text ≈ 30 px at ~45–50% (Body C).
+- **UGC review tail after the CTA in 9/9 long-forms**, 80–90 s (7) or 134 s (05, 07): 4–6 phone-selfie testimonials held 9–39 s each, under a **persistent green offer banner** ("Click Below ↓ UP TO 42% OFF FOR 24H" bottom 85–97%, or a mid-frame "UP TO 55% OFF / Tap below to try them risk-free for 90 days").
+- **Offer timing:** the discount is spoken late (42% at 177–194 s in Body A) or **never spoken** (Body B/C: only "if they're still available" + the tail banner). The short promo (10) puts 55% in the first line.
+- **Graphics kit (reused across all):** red heel-pain circle icon, red/orange glow on joints, yellow lightning, red ✗ circles, red→green alignment line on the heel, 42% yellow badge, checkout/PDP screenshots, Amazon competitor screenshots (4/10), 2–3 panel split screens, 6-face UGC grid, black text cards ("Here's how I did it…", "Avoid those traps…").
+
+---
+
+## What WearOrtho should take
+
+1. **Delayed-hero torture test** (stepprs_01, 05, 06): one handheld POV take where a generic flat shoe and a named competitor (e.g. Skechers) "fail" first, with OrthoStretch placed in frame from ~2 s but tested last (egg-under-the-heel stomp, heavy book drop, or palm press showing rebound). Use no text and no VO for the first 8–12 s, only natural sound. Then add karaoke captions (Montserrat ExtraBold caps, ≈ 40–46 px, mid-frame, active word on a ComfortWear brand-colour box) and a 20 s VO. End with a "button" shot (pet, grandchild, blooper) after the CTA (stepprs_06).
+2. **One demo, many voices** (stepprs_07, plus persona LPs on 03/08): keep the winning footage frozen and re-record only the use-case line ("perfect for 12-hour hospital shifts" / "for teachers on their feet all day" / "for airport walking"). Insert one persona B-roll shot exactly on that phrase and send each version to a persona landing page.
+3. **POV result-caption hook with the shoe reveal by 2.5 s** (stepprs_02 beats its own hook-swap stepprs_09, rank 3 vs 23): a nurse at her front door slips off her shoe and shows the footbed. TikTok-classic white text with outline, ≈ 46 px, 20–28% from top: "my 12 hour shift really just felt like 2 😮‍💨🙏 / Money well spent 👏". Keep the POV hold ≤ 7 s.
+4. **Meme labels over a step-in squish** (stepprs_03/10, and stepprs_04's headline): shin-height shot of two feet, with TikTok white boxes over each leg: "You after a 12-hr shift 🤮" / "Your feet in OrthoStretch 😮‍💨". Add an audible "oh my…", then "I was doing it in *this*" (old flat shoe reveal) at ~2.6 s.
+5. **Myth / "don't do X → do this instead" pill headline** (the_xstance_01, 02, 03, 08): white rounded pill, black bold line + red second line, glyph ≈ 55–60 px, top 4–15% (mid-frame for 4:5). Stack numbered myths as smaller sub-pills, and speak the headline verbatim as the first VO line. WearOrtho versions: "3 BUNION MYTHS making the pain worse", "Don't ice your plantar fasciitis. Do this instead!", "Stop resting if your HEELS HURT".
+6. **Make cushioning the enemy and position "support + comfort"** (the_xstance_04): a white letterbox title bar in Arial Black caps, "STOP BUYING SOFT SHOES FOR YOUR / PLANTAR FASCIITIS" (red, underlined). At ~5 s, a split screen "INSTEAD, TRY THIS": foam sneaker sinking vs OrthoStretch heel cup. Follow with an "If I wanted to fix morning heel pain starting today, here's what I'd do… I wouldn't…" anti-list from a credentialed speaker (podiatrist or nurse), one 3 s B-roll per "I wouldn't".
+7. **Side-by-side before/after walk + day labels** (the_xstance_06, 07; timeline logic from stepprs_08): the same woman limping (left) vs striding (right) with "Watch my PLANTAR FASCIITIS recovery". Then "Day 1: struggling to walk / Day 7: walked three blocks / Day 14: …" labels with white-flash transitions, and a black "Here's how I did it…" card before the story. Optional: an orange→green glow overlay on the foot to show pain becoming relief. (Keep the results language within claims we can substantiate.)
+8. **Colour-coded word captions for the story section** (the_xstance_02, 06): Oswald Bold white with black stroke, lower third (~80–88%), with **red for pain words, green for relief/product words, yellow for emphasis**. For a 45–75 audience prefer the 2-line phrase version (06, ≈ 55–65 px glyph) over 1-word karaoke.
+9. **"HOW TO: RELIEVE PLANTAR FASCIITIS (WORKS EVERY TIME)" infographic hook** (the_xstance_09, 561 days, 36 variants): a pastel save-able card with a 2×3 icon grid (rest, ice, stretch, *wear supportive shoes*, arch support, educate yourself). Zoom-blur into the "supportive shoes" icon at ~2.3 s, then cut to the testimonial or demo. It reads as content and earns saves and shares from older viewers.
+10. **Failed-fixes montage + price anchor** (the_xstance_02/06 and stepprs_02): ice packs, night splints, cortisone, "five brands from Amazon" (screenshot with narrator picture-in-picture), "$600 custom orthotics" (cash pile with a big yellow "600"), each with a red ✗ sticker at 0.8–1.5 s per shot. Then OrthoStretch as the answer at a fraction of the price.
+11. **Post-CTA UGC review reel under a persistent offer banner** (the_xstance_01, 04, 05): after the main CTA, run 3–5 real customer selfies (9–30 s each) with Oswald captions and a fixed green bottom band, "Click Below ↓ / UP TO X% OFF – 90-DAY TRIAL" (85–97% from top), or a mid-frame rounded box "Tap below to try them risk-free for 90 days". This is cheap to add to any long-form and extends watch time into a second CTA zone.
+12. **Multi-pair framing as logic, not just a discount** (the_xstance_01, stepprs_03, the_xstance_10): "If you only have one comfortable pair, your feet are unsupported the rest of the day: work, home, errands. That's why we made the 2-pair bundle." Seed it earlier with "I got one for every pair I own" and use "People are grabbing multiple pairs" over 3 quick "customer holding 2–3 pairs" shots.
+
+Compliance note: several competitor lines would be risky for WearOrtho to copy literally ("100% healed", "feel your toes again", neuropathy "without pills or surgery", "fixes plantar fasciitis for good"). Copy the structures, not the medical claims.
