@@ -197,13 +197,13 @@ That leaves 16 distinct creatives, 7 from Hike and 9 from Orthora.
 - Use the headline "Best Walking Shoe 2026!" (year-stamped "best of" headline).
 
 ### hike_footwear_09 — "Reply to Veronica's comment: I'm 66… too expensive for me" + `_07` re-cut
-**Data:** 33 days · active · rank **30** / 1559 · stable · 132.2 s · 126 shots · avg 1.05 s / median 1.13 s · VO 222 wpm (`_07` body) · en
+**Data:** 33 days · active · rank **30** / 1559 · stable · 132.2 s · 126 shots · avg 1.05 s / median 1.13 s · VO 221 wpm · en
 **Format / angle / persona:** a **TikTok "reply to comment" sticker** intro objection ("too expensive"), then the full `_07` founder/relocation/BOGO edit re-cut much faster (126 vs 71 shots). Persona: 66-year-old woman losing her balance who is price-sensitive.
 **Hook (0–3 s):**
 - Visual: an older Black woman in a purple cardigan walks unsteadily along a suburban sidewalk with a hand on her lower back (handheld, 0–3.5 s). At 3.5 s, a **beige HF Stride flat-lay** on a wood table (with a green tag); at 5.1 s, a hand holds a navy shoe; at ~6.6 s a **whip-blur transition** into the founder selfie.
 - Text hook: a **TikTok reply-comment sticker** (white card, grey "Reply to Veronica's comment" label, circular avatar, black bold text): "I'm 66 and I keep losing my balance as I age. I heard HF Stride can help, but they're too expensive for me". Card ≈ 264 px tall × 860 px wide, top-left at **34–48% from top**, persisting through 6.6 s.
-- Verbal hook: as `_07`, starting after the intro (the "founder of Hike Footwear" line lands ~7 s).
-- Audio: the intro is music only, then the `_07` VO · Hook archetype(s): reply to comment, price objection, age callout ("I'm 66").
+- Verbal hook: "I'm 66, and I keep losing my balance as I age. I heard HF Stride can help, but they're too expensive for me." (0.00; a female voice reads the comment aloud), then the founder line at 6.8 s.
+- Audio: comment read as VO, then the `_07` VO · Hook archetype(s): reply to comment, price objection, age callout ("I'm 66").
 - First hard cut at 3.5 s; 1 cut in the first 3.5 s.
 **Beat map:** 0–6.6 reply-comment intro (balance problem plus product) → 6.6–132 identical script to `_07` (relocation → reason-why → features → BOGO → CTA → thanks → colourway grid → HF end card), re-edited with **micro jump-cuts of 0.1–0.2 s** (e.g. 16.9–17.6 s is 6 cuts) that make a stutter/glitch rhythm.
 **B-roll inventory:** as `_07` plus 1 senior balance-problem clip and 2 product flat-lays. The last 15 s are 30 shots: a frame-stutter colourway grid and a stuttered "HF / SHOP NOW" card.
@@ -217,15 +217,22 @@ That leaves 16 distinct creatives, 7 from Hike and 9 from Orthora.
 - Use an age callout inside the comment ("I'm 66 and…") as the persona filter.
 
 ### hike_footwear_10 — Talking 3D shoe character: "I'm HF Stride, and right now you can get two of me" (BOGO)
-**Data:** 47 days · active · rank **32** / 1559 · stable · 57.8 s · 12 shots · avg 4.82 s / median 5.3 s · VO __WPM10__ wpm · en · 23 variants ("dupes": 23)
+**Data:** 47 days · active · rank **32** / 1559 · stable · 57.8 s · 12 shots · avg 4.82 s / median 5.3 s · VO 215 wpm · en · 23 variants ("dupes": 23)
 **Format / angle / persona:** **an AI-generated, Pixar-style talking shoe** (a navy HF Stride with cartoon eyes and mouth) narrates its own offer. Other shoe characters join; it moves through scenes (showroom, bedroom, stairs, sidewalk, design studio, family living room). Persona: broad (family, grandparents).
 **Hook (0–3 s):**
 - Visual: a full-frame 3D render. The navy knit shoe character sits on a pedestal in a showroom (a "UNLEASH YOUR GRIP." poster behind it), with its mouth animating. At ~3.25 s a giant green **"FREE"** pops in. The product is the character, so it is on screen from 0 s.
 - Text hook: **word-by-word kinetic caption**: "I'M" → "HF" → "STRIDE" → "AND" → "RIGHT" → "NOW"… White, heavy sans (Montserrat Black/Arial Black-like), ALL CAPS, dark drop shadow, one word at a time centred on the shoe at **48–51% from top**, line ≈ 56 px. "FREE" is a green heavy condensed word with a shadow, ≈ 308 px tall, at 10–26% from top.
-- Verbal hook: __VO10__ (0.00)
+- Verbal hook: "I'm HF Stride, and right now you can get two of me for the price of one." (0.00)
 - Audio: character VO plus a playful bed · Hook archetype(s): talking product mascot, offer-first.
 - First hard cut at 5.3 s; 0 cuts in the first 3 s (motion inside the shot only).
-**Beat map:** __BEAT10__
+**Beat map:**
+| t | beat | VO (short) | visuals/B-roll | on-screen text |
+|---|---|---|---|---|
+| 0–5 | hook = offer | "I'm HF Stride… two of me for the price of one" | talking shoe on showroom pedestal | word-by-word caps; giant green "FREE" |
+| 5–15 | problem (balance fears) | "I stop the wobbling when you stand up too fast… confidence on stairs… fear of uneven sidewalks… designed with podiatrists… Stability." | bedroom, stairs, cracked sidewalk, design studio with sketches | "STABILITY" |
+| 16–32 | features | "zero drop… toe box is wide… thin and flexible… hands-free… no bending, no laces" | close-up of a human foot stepping in; living room with sparkles | word captions |
+| 32–46 | proof + offer + risk reversal | "Over 1.4 million people… buy one, get one free… free shipping… 30-day money-back guarantee… Full refund" | street with sparkle "1.4 MILLION"; shoe box; shoe store | "1.4 MILLION" sparkle text |
+| 46–58 | gifting angle + CTA | "Keep one pair for yourself. Send the other to your mom, your sister… Grab me before I'm gone. Link is below." | family living room (grandparents and child, a row of shoe characters); end plate | green pill "BUY ONE GET ONE FREE", white box "LINK BELOW" |
 **B-roll inventory:** all 3D-rendered. Product-as-character in 12 scenes (showroom, bedroom, stairs, cracked sidewalk, design studio with sketches, human foot stepping in, living room with sparkles, street with a "1.4 MILLION" sparkle text, box, shoe store, family living room with grandparents and a child, end shot).
 **Transitions & motion:** hard cuts every ~5 s. Constant in-shot animation (mouth, eyes, bounce). Pop-in words and sparkles.
 **Caption system:** one ALL-CAPS word at a time, white with shadow, on the character. Key words ("FREE", "1.4 MILLION") are given oversized colour treatments.
