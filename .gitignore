@@ -25,3 +25,10 @@ Thumbs.db
 # Local output
 output.csv
 ads/video/research/media/
+ads/video/projects/*/reference/*.mp4
+ads/video/projects/*/assets/
+ads/video/projects/*/tiktok/
+ads/video/projects/*/build/
+ads/video/projects/*/out/*.mp4
+ads/video/models/
+ads/video/projects/*/edit/*.wav
