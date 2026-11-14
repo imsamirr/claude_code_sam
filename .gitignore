@@ -34,3 +34,4 @@ ads/video/models/
 ads/video/projects/*/edit/*.wav
 ads/video/projects/*/reference/full/
 ads/video/projects/*/reference/ref/audio.mp3
+ads/video/projects/*/edit/gfx/pk_*.png
