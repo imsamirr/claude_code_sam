@@ -200,7 +200,7 @@ class Typesetter:
 
     def width(self, line):
         w = 0
-        line = line.replace("*", "")
+        line = re.sub(r"(?<!\\)\*", "", line).replace("\\*", "*")   # \* = literal asterisk (Skech*rs)
         for e, s in runs(line):
             if e:
                 im = self.emoji_img(s)
@@ -248,7 +248,7 @@ class Typesetter:
         highlight state at the end of the line so it carries over line breaks."""
         d = ImageDraw.Draw(canvas)
         asc, desc = self.font.getmetrics()
-        for k, part in enumerate(line.split("*")):
+        for k, part in enumerate(p.replace("\\*", "*") for p in re.split(r"(?<!\\)\*", line)):
             if k:
                 on = not on
             for e, s in runs(part):

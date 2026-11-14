@@ -401,3 +401,6 @@ KatKin's letter or a split sentence. Rules: one line per shot (≤ 12 words), th
 says, the key phrase highlighted, same look for every line in the video, and each line stays on screen
 for the whole shot (≥ 2.4 s so it can be read). In edit.json: one caption per scene with `"clip": i`
 (see `V46_21_nurse_trash_script`). Use it for 3–5 of the 10 videos per batch; keep the rest single-caption.
+
+**Competitor names in scripts (user, Nov 14):** be direct, "$180 Hokas. 2 months." beats "$180 running shoes".
+Write Skechers as **Skech*rs** (escape it as `Skech\\*rs` in edit.json captions).

@@ -36,6 +36,9 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
   10 videos give each scene its own line so the lines read as a running script (problem → mechanism →
   turn → payoff), one caption per scene with `"clip": i`, key phrase in `*asterisks*` (playbook §8,
   example `V46_21_nurse_trash_script`).
+- **Name competitors directly (user rule, Nov 14)**: say "Hokas", "OnClouds", "Brooks", "Nike Air Max"
+  instead of "$180 running shoes". **Skechers is always written "Skech*rs"**; in an edit.json caption type
+  `Skech\\*rs` (a bare `*` toggles the yellow highlight). Still blur Skechers logos in the footage.
 - Each concept keeps its winner's angle, audience and proof points; it changes the format, hook and
   story. Use `claims_to_avoid` from brand.json.
 

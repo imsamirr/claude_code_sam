@@ -76,6 +76,9 @@ organic post from a real person, not an ad.
   shadow, bold Helvetica with shadow, TikTok Classic font with thin outline, IG serif, meme stroke,
   lowercase; see `ads/video/playbook.md` §7 for specs and the `style`/`font`/`x`/`lower` options. Never
   ship a batch in one look.
+- **Name competitors directly (user rule, Nov 14)**: say "Hokas", "OnClouds", "Brooks", "Nike Air Max"
+  instead of "$180 running shoes". **Skechers is always written "Skech*rs"**; in an edit.json caption type
+  `Skech\\*rs` (a bare `*` toggles the yellow highlight). Still blur Skechers logos in the footage.
 - **No voiceover.** Trending-style music only (`"music": {..., "gain": 0.45, "duck": false}`).
 - **10–16 s of content**, 2–4 real shots that tell one story: problem moment → product → payoff.
   The shots carry the story; the caption is the person's first-person post.
