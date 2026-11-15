@@ -86,7 +86,7 @@ def zoom_blur(f, tl, dur=0.18, amt=0.16):
 def red_x(f, tl, start=0.12):
     u = ease((tl - start) / 0.12)
     if u <= 0: return f
-    over = f.copy(); L = int(260 * u); c = (W // 2, int(H * 0.47))
+    over = f.copy(); L = int(250 * u); c = (W // 2, int(H * 0.5))
     for s in (1, -1):
         cv2.line(over, (c[0] - L, c[1] - L * s), (c[0] + L, c[1] + L * s), (235, 18, 18), 58, cv2.LINE_AA)
     return over

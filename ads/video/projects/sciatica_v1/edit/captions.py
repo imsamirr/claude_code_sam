@@ -19,7 +19,15 @@ def wrap(text, fnt=FONT, maxw=MAXW):
         t = (cur + " " + w).strip()
         if cur and tlen(t, fnt) > maxw: lines.append(cur); cur = w
         else: cur = t
-    return lines + ([cur] if cur else [])
+    lines = lines + ([cur] if cur else [])
+    if len(lines) == 2:   # balance the two lines (no single-word orphan line)
+        ws = text.split(); best = None
+        for k in range(1, len(ws)):
+            l1, l2 = " ".join(ws[:k]), " ".join(ws[k:])
+            m = max(tlen(l1, fnt), tlen(l2, fnt))
+            if m <= maxw and (best is None or m < best[0]): best = (m, [l1, l2])
+        if best: lines = best[1]
+    return lines
 
 @lru_cache(maxsize=1024)
 def caption(text, upper=False):
