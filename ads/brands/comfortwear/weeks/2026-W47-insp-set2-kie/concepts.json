@@ -1,0 +1,91 @@
+{
+  "week": "2026-W47-insp-set2-kie",
+  "notes": "User 2026-11-16: redo set-2 inspirations via Kie with reference-level polish.",
+  "concepts": [
+    {
+      "id": "K1_elephant_letter",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "i2_elephant",
+      "format_ref": true,
+      "style": "letter",
+      "no_product": true,
+      "headline": "LET'S ADDRESS THE ELEPHANT IN THE ROOM",
+      "offer": "A_sitewide",
+      "prompt": "A clean white text-only letter ad, recreating the reference layout exactly. Top-left: small heavy black wordmark \"ComfortWear\". Centered below it: a single 😤 emoji. Then a HUGE condensed high-contrast serif headline, all caps, centered, three lines: line 1 \"LET'S ADDRESS\" in black, lines 2-3 \"THE ELEPHANT\" / \"IN THE ROOM\" in deep royal blue; the headline fills about 82% of the width. Below it, centered body paragraphs in a clean sans-serif, regular weight, generous line spacing, each paragraph separated by a blank line: \"A certain pair of comfy sneakers, which will remain unnamed, may already be in your locker.\" / \"Their narrow front squeezes your toes, and by hour 8 your heels are screaminggg.\" / \"Ortho Stretch gives you a wide toe box, arch support and a cushioned rocker sole. YOUR FEET GET ANOTHER SHIFT.\" (only the last sentence of that paragraph in bold) / \"So we made it an easy choice:\" followed by the blue bold underlined line \"Black Friday, 60% off everything.\" / then the bold signature \"- ComfortWear Team\". Body text is large (about 3% of the image height per line) and the whole block is vertically balanced with even white space top and bottom. QUALITY BAR: match the polish of the reference ad exactly: same generous spacing, at least 7% clear margin between every text element and every edge, large crisp perfectly spelled text readable by women aged 60+, consistent alignment, nothing cramped, nothing touching anything else. Spell every quoted word exactly as written and render each quoted text exactly once. No other text, logos or words anywhere.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "K2_dont_wear_unless",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+      "benchmark": "i2_dont_unless",
+      "format_ref": true,
+      "headline": "DON'T WEAR THESE SHOES",
+      "offer": "A_sitewide",
+      "prompt": "Recreate the reference layout exactly on a soft peach-to-blush gradient background. Top-left: heavy black wordmark \"ComfortWear\" next to a small black box with white letters \"ORTHO STRETCH\". Left-aligned HUGE heavy rounded bold headline in deep red, four lines: \"DON'T\" / \"WEAR\" / \"THESE\" / \"SHOES\", filling the left 60% of the width. Under it small bold red caps \"UNLESS YOU WANT TO…\". Then four stacked outlined pills (red outline, white fill, red bold caps text, each with a red check mark): \"WALK TO YOUR CAR, NO LIMP\" / \"FINISH A 12 ON YOUR FEET\" / \"KEEP UP ON DISNEY DAY 2\" / \"GIVE YOUR TOES ROOM\". On the right, overlapping the right edge slightly like the packs in the reference: two of the shoes from the product reference (the black shoe with purple accents in front, the navy shoe with bright blue accents behind it), large, angled, with soft shadows, exact model, true proportions, never covering the pills. Bottom: a wide solid red rounded bar with big white condensed text \"BLACK FRIDAY · 60% OFF NOW\". QUALITY BAR: match the polish of the reference ad exactly: same generous spacing, at least 7% clear margin between every text element and every edge, large crisp perfectly spelled text readable by women aged 60+, consistent alignment, nothing cramped, nothing touching anything else. Spell every quoted word exactly as written and render each quoted text exactly once. No other text, logos or words anywhere.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "K3_porch_card",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+      "benchmark": "i2_card",
+      "format_ref": true,
+      "style": "ugc",
+      "headline": "BUY 2 PAIRS = FREE SOCKS + TRAVEL BAG",
+      "offer": "B_gifts",
+      "prompt": "A real candid phone photo recreating the reference scene: a snowy wooden porch table in winter daylight, white porch railing and snowy trees softly blurred behind, light snow on the table. Arranged on the table: TWO pairs of the shoes from the product reference (one pair black with purple accents, one pair navy with bright blue accents) standing side by side at the back, exact model, true proportions; in front a folded 3-pack of plain grey cushioned socks and a plain navy zip travel pouch, no logos. Propped in the front center like the reference card: a white card with big black hand-written marker letters, four lines: \"BUY 2 PAIRS =\" / \"FREE SOCKS +\" / \"TRAVEL BAG\" / \"RIGHT NOW!\", with hand-drawn red marker underlines under \"FREE SOCKS\" and \"TRAVEL BAG\". The card text is large and fills the card with even margins. QUALITY BAR: match the polish of the reference ad exactly: same generous spacing, at least 7% clear margin between every text element and every edge, large crisp perfectly spelled text readable by women aged 60+, consistent alignment, nothing cramped, nothing touching anything else. Spell every quoted word exactly as written and render each quoted text exactly once. No other text, logos or words anywhere.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "K4_hasnt_limped",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "benchmark": "i2_note",
+      "format_ref": true,
+      "headline": "IMAGINE NOT LIMPING IN FROM YOUR 12",
+      "offer": "A_sitewide",
+      "prompt": "Recreate the reference layout and mood exactly: a dim, warm, cozy home entryway at night with a glowing table lamp and soft string lights; on a wooden bench in the lower-center, the pair of navy shoes with bright blue accents and white rocker soles from the product reference, side by side, bright and clearly lit, large, exact model, beside folded navy scrubs. Leaning on the front shoe: a small cream folded note card with neat blue-ink handwriting \"Wear these to your 12 tomorrow. I miss you not limping. - J\". Centered headline in the upper third, white, two weights like the reference: line 1 thin/light \"IMAGINE NOT LIMPING IN\" and line 2 heavy bold larger \"FROM YOUR 12.\". Under it a thin white outlined rectangle with small white text \"Arch support built in.\" followed by an italic underlined serif phrase \"No insoles. Just the shoe.\". Bottom center: a white rounded pill button with bold red text \"BLACK FRIDAY · 60% OFF NOW\". QUALITY BAR: match the polish of the reference ad exactly: same generous spacing, at least 7% clear margin between every text element and every edge, large crisp perfectly spelled text readable by women aged 60+, consistent alignment, nothing cramped, nothing touching anything else. Spell every quoted word exactly as written and render each quoted text exactly once. No other text, logos or words anywhere.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "K5_detail_tiles",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "i2_tiles",
+      "format_ref": true,
+      "headline": "ARCH SUPPORT SHOES MADE FOR 12-HOUR SHIFTS",
+      "offer": "A_sitewide",
+      "prompt": "Recreate the reference layout exactly on a soft light-grey studio background. Upper-left: a 2x2 grid of rounded-corner square close-up detail photos of the black shoe with purple accents from the product reference, each with a beige rounded label chip under it in dark brown bold caps: top-left close-up of the white rocker sole \"ROCKER SOLE\", top-right close-up of the stretch-knit upper with purple dots \"STRETCH KNIT\", bottom-left top-down close-up of the roomy toe box \"WIDE TOE BOX\", bottom-right close-up of the bungee lace toggle \"NO-TIE LACES\". Upper-right: the full black shoe with purple accents, large, floating at a slight upward angle with a soft shadow, exact model, true proportions. Lower part, centered: huge two-line headline in black, line 1 regular weight \"ARCH SUPPORT SHOES\", line 2 heavy bold \"MADE FOR 12-HOUR SHIFTS\"; under it a smaller regular line \"Cushion and room for sore, swollen feet.\". Bottom: two solid rounded rectangle buttons side by side with big bold white caps text: left red \"BLACK FRIDAY 60% OFF\", right dark olive green \"FREE SHIPPING\". QUALITY BAR: match the polish of the reference ad exactly: same generous spacing, at least 7% clear margin between every text element and every edge, large crisp perfectly spelled text readable by women aged 60+, consistent alignment, nothing cramped, nothing touching anything else. Spell every quoted word exactly as written and render each quoted text exactly once. No other text, logos or words anywhere.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo",
+        "black_friday"
+      ]
+    }
+  ]
+}

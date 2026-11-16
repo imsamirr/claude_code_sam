@@ -1255,6 +1255,26 @@
     "rv413_kuru_save_box": {
       "file": "reference/benchmarks/rv413_kuru_save_box.jpg",
       "use_for": "LAYOUT ref 2026-11-13 Friday run: KURU Footwear (216d): Save Big on Heel Support"
+    },
+    "i2_elephant": {
+      "file": "reference/benchmarks/insp_Cuurt_elephant_letter.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-16: Cuurt letter ad: centered emoji, huge serif headline (line 1 black, lines 2-3 deep blue), centered body paragraphs with one bold line and one blue underlined offer line, bold signature"
+    },
+    "i2_dont_unless": {
+      "file": "reference/benchmarks/insp_CleanSimple_dont_use_unless.png",
+      "use_for": "USER-SENT FORMAT ref 2026-11-16: Clean Simple Eats: huge left-aligned heavy pink headline, small caps \"unless you want to\", stacked outlined check pills on the left, product packs overlapping on the right"
+    },
+    "i2_card": {
+      "file": "reference/benchmarks/insp_Hollow_free_card.png",
+      "use_for": "USER-SENT FORMAT ref 2026-11-16: Hollow: candid phone photo on a snowy porch table, products arranged, handwritten marker card with red underlines in the front"
+    },
+    "i2_note": {
+      "file": "reference/benchmarks/insp_snore_pillow_note.png",
+      "use_for": "USER-SENT FORMAT ref 2026-11-16: Snore pillow: dim warm bedroom, two-weight centered headline (thin line + bold line), thin outlined subline box with an italic underlined phrase, product center with a handwritten note card, small white pill CTA"
+    },
+    "i2_tiles": {
+      "file": "reference/benchmarks/insp_Hike_detail_tiles.png",
+      "use_for": "USER-SENT FORMAT ref 2026-11-16: Hike: 2x2 rounded close-up detail tiles with beige label chips on the left, large floating shoe on the right, huge two-line headline (thin line + bold line), subline, two solid green CTA buttons"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
