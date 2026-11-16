@@ -241,6 +241,9 @@ They are our biggest competitors and write very direct-response copy. Each run:
 - Composed pipeline: real product cutouts `reference/cutouts/` (never a redrawn shoe when a cutout works), layout in HTML with real fonts rendered by `node ads/compose/render.js in.html out.png` (1080x1350), Kie only for text-free photo scenes `python ads/compose/scene.py out.png "<scene>" [ref.png]`.
 - QA: render a side-by-side with the inspiration ad (`compare_*.jpg`) and kill anything below that bar before showing.
 
+### User-sent inspiration (user 2026-11-16)
+Recreate with Kie, not HTML: `format_ref: true` + the inspiration as `benchmark`, and a prompt that spells out every word, which words are bold/colored, the weight of each headline line, where each element sits, 7% margins and large type. Render 2 versions (`generate.py` twice), compare both with the inspiration, send the best. HTML compose only for small fixes on an approved render.
+
 ### Design rules (user feedback 2026-10-31: "too much text", "shoe should be the main element", "Black Friday one is too overwhelming")
 Every ad is checked against these BEFORE it is shown. `node ads/compose/render.js` prints a lint line for each render; fix every WARN.
 1. **One focal point: the shoe.** The real cutout or photo fills 35-50% of the canvas, sharp, never behind text. In a scene, shoot it close and low (the product is the hero, not the room).
