@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "created": "2026-11-16",
+  "end_card": "auto",
+  "end_card_seconds": 4.0,
+  "transition": "fade",
+  "transition_duration": 0.2,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style, no voiceover, one static caption, 2-4 real shots, music only, 9:16 with content inside 4:5, BF end card.",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "campaign": "Black Friday 2026 (60% off sitewide + buy 2 pairs, get 2 free gifts)",
+  "id": "B47_05_who_else_grabbed_deal",
+  "angle": "Social proof + urgency: everyone's grabbing a pair during the Black Friday deal; the text switches to the offer on the last shot.",
+  "format": "'who else grabbed ___ when they saw the crazy deal' caption with highlighted words, then the text block changes to the offer (ref: Hollow Socks m1684322083279542), product in hands → wearing → holding the pair up",
+  "music": {
+    "file": "../../music/park_whimsical_100bpm.mp3",
+    "gain": 0.38,
+    "duck": false,
+    "start": 12.0
+  },
+  "sources": {
+    "hands": "drive:1VVsSwFtFjR_gmhi412nnLh1QCQO4HBFk",
+    "stand": "drive:1ZnUMupaTYDlZvbvgg3awAhwkgR8ZIX8k",
+    "hold": "drive:1DA9hW5N77zII6op3UsooY3dzHs5-BeAR"
+  },
+  "source_notes": {
+    "hands": "577_unboxing_prdct demo (hands, teal pair)",
+    "stand": "Heather toes wiggling (red pair, standing)",
+    "hold": "Heather holding shoes happily"
+  },
+  "clips": [
+    {
+      "src": "hands",
+      "in": 41.5,
+      "out": 45.5,
+      "gain": 0
+    },
+    {
+      "src": "stand",
+      "in": 1.0,
+      "out": 4.0,
+      "gain": 0
+    },
+    {
+      "src": "hold",
+      "in": 8.4,
+      "out": 12.2,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        1
+      ],
+      "text": "who else grabbed Comfort Wear's stretch shoes when they saw *the crazy Black Friday deal* they're doing today? 😮",
+      "style": "shadow",
+      "y": 0.36,
+      "size": 54,
+      "width": 0.66,
+      "fade": 0
+    },
+    {
+      "clips": [
+        2,
+        2
+      ],
+      "text": "60% OFF + Buy 2 *Get 2 FREE Gifts* 🤗",
+      "style": "shadow",
+      "y": 0.7,
+      "size": 56,
+      "width": 0.8,
+      "fade": 0
+    }
+  ],
+  "persona": "general",
+  "primary_text": "Who else grabbed a pair (or two) when they saw this? 😮\n\n🔥 BLACK FRIDAY: 60% OFF SITEWIDE\n🎁 Buy 2 pairs, get 2 FREE gifts\n\n👣 Stretch-knit upper + wide toe box\n🦶 Cushioned arch support\n🛡️ Slip-resistant sole\n\nOur biggest sale of the year, while supplies last.",
+  "headline": "Buy 2, Get 2 Free Gifts + 60% Off"
+}

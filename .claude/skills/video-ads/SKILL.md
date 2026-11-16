@@ -73,6 +73,23 @@ organic post from a real person, not an ad.
 - **One static caption** for the whole video (or two stacked blocks, like EllaOla's "POV…" on top and
   "Then we started…" lower). White rounded box, black text, ~44px, 2–5 lines. It does not change per
   scene.
+- **Sale / offer formats (user refs, Nov 16 2026, Black Friday):** the offer can lead.
+  - *Offer banner on top + pain-point caption* (Primals): `"style": "banner"` with `lines`
+    (yellow "BLACK FRIDAY SALE", big "60% OFF SITEWIDE", small gift line), `"avoid_faces": false`,
+    y≈0.218; a short 2-line pain caption right under it (y≈0.335); every clip `"shift_y": 0.30` so the
+    footage starts below the text block (the band behind it is a blurred fill). Never put the banner over
+    a face or the shoes.
+  - *"Sorry to every ___ who paid full price…"* / *"my condolences…"* (Hollow Socks, Stepprs): box caption.
+  - *"When the ___ is on sale!!!!"* (TryFleur): `"style": "shadow"` (white text, soft shadow, no box).
+  - *"who else grabbed ___ when they saw *the crazy deal*…"* then the text block changes to the offer on
+    the last shot (Hollow Socks): shadow style, `*words*` in the text are drawn yellow
+    (`highlight_color`); two captions, `clips [0,1]` then `clips [2,2]`.
+  - *"What if I told you ___ is 60% OFF rn 👀 / Limited time only tho!!"* + a small label at the bottom
+    that changes every hard cut ("Wide toe box: included", "Buy 2 pairs: 2 FREE gifts 🎁",
+    `and "Limited time"`) (Cuurt): outline hook pinned top, `box` labels size ~46 at y≈0.765, 6–8 POV
+    product close-ups of ~1.7 s, `"transition": "cut"` (renders as a 2-frame fade; a 1-frame xfade
+    truncated the video).
+  - With faces near the top, push the picture down with `shift_y` (max 0.32) and put the text above.
 - **No voiceover.** Trending-style music only (`"music": {..., "gain": 0.45, "duck": false}`).
 - **10–16 s of content**, 2–4 real shots that tell one story: problem moment → product → payoff.
   The shots carry the story; the caption is the person's first-person post.

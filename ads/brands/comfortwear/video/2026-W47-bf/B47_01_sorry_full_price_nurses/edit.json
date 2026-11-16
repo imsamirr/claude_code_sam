@@ -1,0 +1,80 @@
+{
+  "id": "B47_01_sorry_full_price_nurses",
+  "version": 2,
+  "created": "2026-11-16",
+  "end_card": "auto",
+  "end_card_seconds": 4.0,
+  "transition": "fade",
+  "transition_duration": 0.2,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style, no voiceover, one static caption, 2-4 real shots, music only, 9:16 with content inside 4:5, BF end card.",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "campaign": "Black Friday 2026 (60% off sitewide + buy 2 pairs, get 2 free gifts)",
+  "angle": "Nurses who paid full price for work shoes this year; the shoes are literally 60% off + 2 free gifts now.",
+  "format": "'Sorry to all the ___ who bought ___' meme caption (refs: Hollow Socks m1803435660697596 'Sorry to all the hunters…', Stepprs m1801447591121724 'my condolences…'), package at door → unboxing → 2 pairs",
+  "music": {
+    "file": "../../music/upbeat_pop_vlog_105bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "door": "drive:1b7FebrcabJROpGsCECeosQPGzBdUoh9t",
+    "unbox": "drive:1DlLWU_G_g2Rs_NuEF73fkW5y2b9IlxCl",
+    "pairs": "drive:1OaWMEJM1vR215D1QpUw9OlHzOMoFu68J"
+  },
+  "source_notes": {
+    "door": "2026/Sara/Sara B-rolls PACKAGE AT DOOR",
+    "unbox": "2026/Sara/Sara B-rolls UNBOXING",
+    "pairs": "Broll top view of 2 pairs of CW shoes"
+  },
+  "clips": [
+    {
+      "src": "door",
+      "in": 1.8,
+      "out": 5.4,
+      "gain": 0
+    },
+    {
+      "src": "unbox",
+      "in": 12.5,
+      "out": 17.5,
+      "gain": 0,
+      "shift_y": 0.17
+    },
+    {
+      "src": "unbox",
+      "in": 19.0,
+      "out": 22.5,
+      "gain": 0,
+      "shift_y": 0.17
+    },
+    {
+      "src": "pairs",
+      "in": 0.0,
+      "out": 3.6,
+      "gain": 0,
+      "shift_y": 0.12
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        3
+      ],
+      "text": "Sorry to every nurse who paid full price for work shoes this year 😭 Comfort Wear is literally 60% off sitewide right now + buy 2 pairs, get 2 FREE gifts 🫠",
+      "style": "box",
+      "y": 0.235,
+      "size": 44,
+      "width": 0.88,
+      "fade": 0,
+      "avoid_faces": false
+    }
+  ],
+  "persona": "nurse",
+  "primary_text": "Sorry to every nurse who paid full price for work shoes this year 😭\n\nOur biggest Black Friday sale is live:\n🔥 60% OFF SITEWIDE\n🎁 Buy 2 pairs, get 2 FREE gifts\n\n👣 Wide toe box for 12-hour shifts\n🦶 Cushioned arch support\n🛡️ Slip-resistant soles\n\nWhile supplies last.",
+  "headline": "60% Off Sitewide + 2 Free Gifts"
+}

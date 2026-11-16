@@ -1,0 +1,71 @@
+{
+  "id": "B47_04_on_sale_happy_dance",
+  "version": 2,
+  "created": "2026-11-16",
+  "end_card": "auto",
+  "end_card_seconds": 4.0,
+  "transition": "fade",
+  "transition_duration": 0.2,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style, no voiceover, one static caption, 2-4 real shots, music only, 9:16 with content inside 4:5, BF end card.",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "campaign": "Black Friday 2026 (60% off sitewide + buy 2 pairs, get 2 free gifts)",
+  "angle": "Pure joy: the shoes that fixed her shift feet are 60% off + 2 free gifts.",
+  "format": "'When the ___ is on sale!!!!' celebration (ref: TryFleur m1145652514827485), white shadow text, nurse happy dance → gray pair",
+  "music": {
+    "file": "../../music/upbeat_pop_vlog_105bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 16.0
+  },
+  "sources": {
+    "dance": "drive:1FkR89sfdOnVaD40WP36k0W-ODkxLbi_7",
+    "gray": "drive:1xlMPARarf_1S1kLfP34jMboXBWD15sXs"
+  },
+  "source_notes": {
+    "dance": "2026/Sara/Sara B-rolls HAPPY DANCE",
+    "gray": "gray pair slider shot"
+  },
+  "clips": [
+    {
+      "src": "dance",
+      "in": 13.6,
+      "out": 19.6,
+      "gain": 0,
+      "shift_y": 0.17
+    },
+    {
+      "src": "dance",
+      "in": 23.2,
+      "out": 27.6,
+      "gain": 0,
+      "shift_y": 0.17
+    },
+    {
+      "src": "gray",
+      "in": 0.5,
+      "out": 4.5,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        2
+      ],
+      "text": "When the shoes that finally fixed your 12-hour-shift feet are 60% OFF and you get 2 FREE gifts!!!! 🙌",
+      "style": "shadow",
+      "y": 0.225,
+      "size": 48,
+      "width": 0.9,
+      "fade": 0,
+      "avoid_faces": false
+    }
+  ],
+  "persona": "nurse",
+  "primary_text": "When the shoes that finally fixed your shift feet are 60% off 🙌\n\n🔥 BLACK FRIDAY: 60% OFF SITEWIDE\n🎁 Buy 2 pairs, get 2 FREE gifts\n\nWide toe box, cushioned arch, slip-resistant sole. Stock up for you and your coworkers.",
+  "headline": "60% Off Sitewide Is Live"
+}

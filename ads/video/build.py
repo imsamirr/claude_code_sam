@@ -37,7 +37,9 @@ Edit file schema (see the skill `video-ads` for the full guide):
   "loudness": -14
 }
 Caption styles: box (white rounded box, black text: TikTok classic), outline (white text,
-black stroke), dark (black box, white text), brand (brand-colored pill, white text).
+black stroke), shadow (white text, soft drop shadow, no box), dark (black box, white text), brand
+(brand-colored pill, white text), banner (offer bar: full-width colored box with stacked "lines",
+each {text, size, color, weight}; set "avoid_faces": false to pin it, e.g. at the top of the 4:5 area).
 `y` is the caption's vertical center as a fraction of the 1920px frame. Keep captions between
 y 0.18 and 0.72: that is inside the 4:5 feed crop and clear of the TikTok/Reels UI.
 """
@@ -237,13 +239,69 @@ class Typesetter:
                 x += self.font.getlength(s)
 
 
+def render_banner(cap, out_png):
+    """Offer banner (Black Friday style): a full-width colored bar with stacked centered lines.
+    cap["lines"] = [{"text": "BLACK FRIDAY SALE", "size": 44, "color": "#FFE14D", "weight": "Black"}, ...]"""
+    width = int(W * cap.get("width", 0.92))
+    pad_y, gap = int(cap.get("pad", 22)), int(cap.get("gap", 6))
+    rows = []
+    for ln in cap["lines"]:
+        ts = Typesetter(int(ln.get("size", 48)), ln.get("weight", "Black"))
+        for t in ts.wrap(ln["text"], width - 60):
+            asc, desc = ts.font.getmetrics()
+            rows.append((ts, t, ln.get("color", "white"), asc + desc))
+    h = sum(r[3] for r in rows) + gap * (len(rows) - 1) + 2 * pad_y
+    img = Image.new("RGBA", (W, h + 12), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    x0 = (W - width) // 2
+    d.rounded_rectangle([x0 + 4, 10, x0 + width + 4, h + 10], radius=int(cap.get("radius", 18)),
+                        fill=(0, 0, 0, 90))  # soft drop shadow
+    d.rounded_rectangle([x0, 4, x0 + width, h + 4], radius=int(cap.get("radius", 18)),
+                        fill=cap.get("color", "#D7101E"))
+    y = 4 + pad_y
+    for ts, t, color, lh in rows:
+        ts.draw_line(img, (W - ts.width(t)) / 2, y, t, color)
+        y += lh + gap
+    img.save(out_png)
+    return img.height, width
+
+
 def render_caption(cap, out_png):
     style = cap.get("style", "box")
+    if style == "banner":
+        return render_banner(cap, out_png)
     size = int(cap.get("size", 52))
     max_w = int(W * cap.get("width", 0.84))
     ts = Typesetter(size, cap.get("weight", "Bold" if style != "box" else "SemiBold"))
     pad_x, pad_y = int(size * 0.42), int(size * 0.20)
-    lines = ts.wrap(cap["text"], max_w - 2 * pad_x)
+    # *highlighted words* (markers in the text) are drawn in cap["highlight_color"] (yellow default)
+    raw = [w for w in cap["text"].replace("\n", " \n ").split(" ") if w]
+    flags, words, on = [], [], False
+    for w in raw:
+        if w == "\n":
+            words.append(w)
+            flags.append(False)
+            continue
+        start, end = w.startswith("*"), w.rstrip(".,!?…").endswith("*")
+        on = on or start
+        words.append(w.replace("*", ""))
+        flags.append(on)
+        on = on and not end
+    text = " ".join(words).replace(" \n ", "\n")
+    hl_color = cap.get("highlight_color", "#FFD43B")
+    word_flags = [f for w, f in zip(words, flags) if w != "\n"]
+    lines = ts.wrap(text, max_w - 2 * pad_x)
+    space_w = ts.font.getlength(" ")
+
+    def draw(canvas_, x_, y_, line_, fill_, k_, **kw):
+        """Draw a line word by word when it has highlighted words; k_ = index of its first word."""
+        toks = line_.split(" ")
+        if not any(word_flags[k_:k_ + len(toks)]):
+            ts.draw_line(canvas_, x_, y_, line_, fill_, **kw)
+            return
+        for j_, tok in enumerate(toks):
+            ts.draw_line(canvas_, x_, y_, tok, hl_color if word_flags[k_ + j_] and fill_ == "white" else fill_, **kw)
+            x_ += ts.width(tok) + space_w
     asc, desc = ts.font.getmetrics()
     line_h = int((asc + desc) * 1.02)
     canvas = Image.new("RGBA", (W, line_h * len(lines) + 2 * pad_y + 40), (0, 0, 0, 0))
@@ -251,7 +309,10 @@ def render_caption(cap, out_png):
     align = cap.get("align", "center")
     colors = {"box": ("white", "black"), "dark": ("black", "white"),
               "brand": (cap.get("color", BRAND_PURPLE), "white")}
+    k = 0
     for i, line in enumerate(lines):
+        if i:
+            k += len(lines[i - 1].split(" "))
         lw = ts.width(line)
         x = (W - lw) / 2 if align == "center" else int(W * (1 - cap.get("width", 0.84)) / 2) + pad_x
         y = pad_y + i * line_h + 10
@@ -260,9 +321,15 @@ def render_caption(cap, out_png):
             r = int(size * 0.32)
             d.rounded_rectangle([x - pad_x, y - pad_y + 2, x + lw + pad_x, y + line_h + pad_y - 4],
                                 radius=r, fill=bg)
-            ts.draw_line(canvas, x, y, line, fg)
+            draw(canvas, x, y, line, fg, k)
+        elif style == "shadow":  # white text, soft dark shadow (no box): the TikTok "native" look
+            sh = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+            ts.draw_line(sh, x + 2, y + 3, line, (0, 0, 0, 230), stroke=max(2, size // 18), stroke_fill=(0, 0, 0, 230))
+            from PIL import ImageFilter
+            canvas.alpha_composite(sh.filter(ImageFilter.GaussianBlur(max(2, size // 14))))
+            draw(canvas, x, y, line, "white", k)
         else:  # outline
-            ts.draw_line(canvas, x, y, line, "white", stroke=max(3, size // 12), stroke_fill="black")
+            draw(canvas, x, y, line, "white", k, stroke=max(3, size // 12), stroke_fill="black")
     # merge the per-line boxes into one shape the way TikTok does (fill gaps between lines)
     canvas = canvas.crop(canvas.getbbox() or (0, 0, W, 10))
     full = Image.new("RGBA", (W, canvas.height), (0, 0, 0, 0))
@@ -300,9 +367,10 @@ def cut_clip(i, clip, src_path, meta, tmp):
     # blur boxes (logos, other brands' markings): [{"box": [x0, y0, x1, y1], "t": [a, b], "strength": 28}]
     # box in fractions of the 1080x1920 output frame, t in seconds of this clip's output (optional)
     vchain = f"[0:v]{','.join(vf)}[vb0]"
-    # shift_y: move the picture down (fraction of H, max 0.14) so faces near the top land inside the
-    # 4:5 area; the band it opens at the top (outside 4:5) is filled with a blurred copy
-    sy = min(0.14, float(clip.get("shift_y", 0)))
+    # shift_y: move the picture down (fraction of H, max 0.32) so faces near the top land inside the
+    # 4:5 area, or to open a header band under a pinned banner/caption (offer-on-top layout);
+    # the band it opens at the top is filled with a blurred copy
+    sy = min(0.32, float(clip.get("shift_y", 0)))
     if sy > 0:
         sh = int(sy * H) // 2 * 2
         vchain = (f"[0:v]{','.join(vf)}[vs0];[vs0]split[vsa][vsb];"
@@ -505,7 +573,7 @@ def build(edit_path, sheet_every=1.5, feed=False):
             vo_segs = [(a / tempo, b / tempo) for a, b in vo_segs]
             lead, tail = float(vo.get("lead", 0.12)), float(vo.get("tail", 0.3))
             nominal = [0.0] + [float(c.get("transition_duration", edit.get("transition_duration", 0.25)))
-                               if c.get("transition", edit.get("transition", "fade")) != "cut" else 1.0 / FPS
+                               if c.get("transition", edit.get("transition", "fade")) != "cut" else 2.0 / FPS
                                for c in clips[1:]] + [0.0]
             continuous = vo.get("mode", "continuous") == "continuous"
             if continuous:
@@ -527,7 +595,8 @@ def build(edit_path, sheet_every=1.5, feed=False):
             parts.append(p)
             durs.append(d)
             t = clip.get("transition", edit.get("transition", "fade"))
-            f = 1.0 / FPS if t == "cut" else float(clip.get("transition_duration", edit.get("transition_duration", 0.25)))
+            # "cut" = 2-frame fade: a 1-frame xfade truncates the render; 2 frames still reads as a cut
+            f = 2.0 / FPS if t == "cut" else float(clip.get("transition_duration", edit.get("transition_duration", 0.25)))
             f = 0.0 if i == 0 else min(f, d / 2, durs[i - 1] / 2)
             fades.append(max(1, round(f * FPS)) / FPS if i else 0.0)
             clip["_t"] = "fade" if t == "cut" else t
@@ -626,7 +695,7 @@ def build(edit_path, sheet_every=1.5, feed=False):
                 placed_boxes.append((s, e, yc - ch / H / 2, yc + ch / H / 2))
                 continue
             cuts = sorted({s, e, *[a for a, _ in win if s < a < e]})
-            print(f"   caption {j} '{cap['text'][:28]}': no single clear y, placed per scene")
+            print(f"   caption {j} '{cap.get('text', 'banner')[:28]}': no single clear y, placed per scene")
             for s1, e1 in zip(cuts, cuts[1:]):
                 y1 = find_y(cap, s1, e1, ch, cw)
                 if y1 is None:
@@ -637,7 +706,7 @@ def build(edit_path, sheet_every=1.5, feed=False):
 
         for j, (cap, png, ch, s, e, yc) in enumerate(segments):
             if abs(yc - float(cap.get("y", 0.3))) > 0.005:
-                print(f"   caption '{cap['text'][:28]}' {s:.1f}-{e:.1f}s: y {float(cap.get('y', 0.3)):.2f} -> {yc:.2f}")
+                print(f"   caption '{cap.get('text', 'banner')[:28]}' {s:.1f}-{e:.1f}s: y {float(cap.get('y', 0.3)):.2f} -> {yc:.2f}")
             y = int(H * yc - ch / 2)
             k = n + j
             inputs += ["-loop", "1", "-framerate", str(FPS), "-t", f"{total:.3f}", "-i", str(png)]
@@ -707,7 +776,7 @@ def build(edit_path, sheet_every=1.5, feed=False):
             g.append(f"{''.join(mix)}amix=inputs={len(mix)}:normalize=0:duration=first[amixed]")
             al = "amixed"
         loud = edit.get("loudness", -14)
-        g.append(f"[{al}]loudnorm=I={loud}:TP=-1.5:LRA=11,aresample=48000[aout]")
+        g.append(f"[{al}]loudnorm=I={loud}:TP=-1.5:LRA=11,aresample=48000,alimiter=limit=0.79:level=false:attack=2:release=40[aout]")
         g.append(f"[{vl}]format=yuv420p[vout]")
         final = out_dir / f"{vid}.mp4"
         run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(g),

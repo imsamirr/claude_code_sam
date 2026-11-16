@@ -1,0 +1,101 @@
+{
+  "id": "B47_02_nurse_limp_offer_banner",
+  "version": 2,
+  "created": "2026-11-16",
+  "end_card": "auto",
+  "end_card_seconds": 4.0,
+  "transition": "fade",
+  "transition_duration": 0.2,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style, no voiceover, one static caption, 2-4 real shots, music only, 9:16 with content inside 4:5, BF end card.",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "campaign": "Black Friday 2026 (60% off sitewide + buy 2 pairs, get 2 free gifts)",
+  "angle": "Pain point: nurses limping in the door after a 12 because of narrow, stiff shoes; offer pinned at the top.",
+  "format": "Offer banner on top (ref: Primals m982736441555206 red BF banner + pain-point caption), limp in the door → collapse in chair → the shoes",
+  "music": {
+    "file": "../../music/park_whimsical_100bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "limp": "drive:1mpHdtRwdIEl4Ob0queepBO90Oj04YH13",
+    "chair": "drive:1MgxY2cAIIPK_XDXAf89umP2k8pxH87pH",
+    "detail": "drive:1jBbdJ5bSUv7D31yS6ibo05JZtYV1ZyY3"
+  },
+  "source_notes": {
+    "limp": "2026/Sara/Sara B-rolls LIMPING",
+    "chair": "2026/Sara/Sara B-rolls LIMPING_CHAIR",
+    "detail": "2026/Sara/Sara B-rolls PRODUCT HANDLING DETAIL"
+  },
+  "clips": [
+    {
+      "src": "limp",
+      "in": 6.6,
+      "out": 10.6,
+      "gain": 0,
+      "shift_y": 0.3
+    },
+    {
+      "src": "chair",
+      "in": 11.4,
+      "out": 15.6,
+      "gain": 0,
+      "shift_y": 0.3
+    },
+    {
+      "src": "detail",
+      "in": 8.0,
+      "out": 12.5,
+      "gain": 0,
+      "shift_y": 0.3
+    }
+  ],
+  "captions": [
+    {
+      "style": "banner",
+      "clips": [
+        0,
+        2
+      ],
+      "avoid_faces": false,
+      "y": 0.218,
+      "fade": 0,
+      "width": 0.92,
+      "lines": [
+        {
+          "text": "BLACK FRIDAY SALE",
+          "size": 40,
+          "color": "#FFE14D"
+        },
+        {
+          "text": "60% OFF SITEWIDE",
+          "size": 76
+        },
+        {
+          "text": "+ BUY 2 PAIRS, GET 2 FREE GIFTS 🎁",
+          "size": 38,
+          "weight": "ExtraBold"
+        }
+      ]
+    },
+    {
+      "clips": [
+        0,
+        2
+      ],
+      "text": "Limping in the door after every 12? It's not your feet. It's the narrow, stiff shoes 😮‍💨",
+      "style": "box",
+      "y": 0.335,
+      "size": 42,
+      "width": 0.88,
+      "fade": 0,
+      "avoid_faces": false
+    }
+  ],
+  "persona": "nurse",
+  "primary_text": "If your feet are throbbing by hour 8 of a 12, it's not you. It's the narrow, stiff shoes.\n\nOrtho Stretch has a wide toe box, a cushioned arch and a slip-resistant sole, so you stop limping to your car after a shift.\n\n🔥 BLACK FRIDAY: 60% OFF SITEWIDE\n🎁 Buy 2 pairs, get 2 FREE gifts",
+  "headline": "Black Friday: 60% Off Nurse Shoes"
+}

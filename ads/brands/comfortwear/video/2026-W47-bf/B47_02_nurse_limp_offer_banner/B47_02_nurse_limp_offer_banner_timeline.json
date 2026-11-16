@@ -1,0 +1,25 @@
+{
+ "total": 15.967,
+ "scenes": [
+  {
+   "src": "limp",
+   "start": 0.0,
+   "end": 3.9
+  },
+  {
+   "src": "chair",
+   "start": 3.9,
+   "end": 7.9
+  },
+  {
+   "src": "detail",
+   "start": 7.9,
+   "end": 12.133
+  },
+  {
+   "src": "_end_card",
+   "start": 12.133,
+   "end": 15.967
+  }
+ ]
+}
