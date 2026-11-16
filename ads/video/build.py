@@ -36,10 +36,12 @@ Edit file schema (see the skill `video-ads` for the full guide):
   "music": {"file": "path.mp3", "gain": 0.25},  # optional; licensed tracks only
   "loudness": -14
 }
-Caption styles: box (white rounded box, black text: TikTok classic), outline (white text,
-black stroke), shadow (white text, soft drop shadow, no box), dark (black box, white text), brand
-(brand-colored pill, white text), banner (offer bar: full-width colored box with stacked "lines",
-each {text, size, color, weight}; set "avoid_faces": false to pin it, e.g. at the top of the 4:5 area).
+Caption styles: box (white rounded box, black text: TikTok classic), glass (translucent black box),
+shadow (plain white text, soft shadow, no box), classic (white text, thin outline), outline (heavy
+meme stroke), dark (black box, white text), brand (brand-colored pill). Fonts: inter (default),
+classic, helvetica, serif. Full list in render_caption()'s docstring and the playbook.
+banner = offer bar (full-width colored box with stacked "lines", each {text, size, color, weight});
+set "avoid_faces": false to pin it, e.g. at the top of the 4:5 area (Black Friday offer-on-top layout).
 `y` is the caption's vertical center as a fraction of the 1920px frame. Keep captions between
 y 0.18 and 0.72: that is inside the 4:5 feed crop and clear of the TikTok/Reels UI.
 """
@@ -56,7 +58,7 @@ import unicodedata
 from datetime import date
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 ROOT = Path(__file__).resolve().parents[2]
 VIDEO_DIR = Path(__file__).resolve().parent
@@ -163,10 +165,27 @@ def runs(text):
     return out
 
 
+# caption font families (user refs, Nov 2026): inter = default; classic = TikTok "Classic"-like geometric
+# sans with single-storey a (Flo Pilates); helvetica = Arial/Helvetica bold (Happy Tuesdays, Groove);
+# serif = Instagram "Classic" serif (Savannah Bell). Variable fonts take a numeric weight.
+FAMILIES = {
+    "classic": ("Jost-VF.ttf", {"Regular": 450, "Medium": 500, "SemiBold": 560, "Bold": 640}),
+    "serif": ("CormorantGaramond-VF.ttf", {"Regular": 500, "Medium": 560, "SemiBold": 620, "Bold": 700}),
+    "helvetica": ("LiberationSans-Bold.ttf", None),
+    "condensed": ("Oswald-VF.ttf", {"Regular": 400, "Medium": 500, "SemiBold": 600, "Bold": 700}),
+}
+
+
 class Typesetter:
-    def __init__(self, size, weight="Bold"):
+    def __init__(self, size, weight="Bold", family="inter"):
         self.size = size
-        self.font = ImageFont.truetype(str(FONTS / f"Inter-{weight}.otf"), size)
+        if family in FAMILIES:
+            file, weights = FAMILIES[family]
+            self.font = ImageFont.truetype(str(FONTS / file), size)
+            if weights:
+                self.font.set_variation_by_axes([weights.get(weight, 500)])
+        else:
+            self.font = ImageFont.truetype(str(FONTS / f"Inter-{weight}.otf"), size)
         self.emoji = ImageFont.truetype(str(EMOJI_FONT), 109) if EMOJI_FONT.exists() else None
 
     def emoji_img(self, s):
@@ -183,6 +202,7 @@ class Typesetter:
 
     def width(self, line):
         w = 0
+        line = re.sub(r"(?<!\\)\*", "", line).replace("\\*", "*")   # \* = literal asterisk (Skech*rs)
         for e, s in runs(line):
             if e:
                 im = self.emoji_img(s)
@@ -225,18 +245,25 @@ class Typesetter:
             lines += best
         return lines
 
-    def draw_line(self, canvas, x, y, line, fill, stroke=0, stroke_fill=None):
+    def draw_line(self, canvas, x, y, line, fill, stroke=0, stroke_fill=None, accent=None, on=False):
+        """Draw one line; text between *asterisks* is drawn in `accent` (highlight words). Returns the
+        highlight state at the end of the line so it carries over line breaks."""
         d = ImageDraw.Draw(canvas)
         asc, desc = self.font.getmetrics()
-        for e, s in runs(line):
-            if e:
-                im = self.emoji_img(s)
-                if im:
-                    canvas.alpha_composite(im, (int(x) + 2, int(y + (asc + desc - im.height) / 2)))
-                    x += im.width + 4
-            else:
-                d.text((x, y), s, font=self.font, fill=fill, stroke_width=stroke, stroke_fill=stroke_fill)
-                x += self.font.getlength(s)
+        for k, part in enumerate(p.replace("\\*", "*") for p in re.split(r"(?<!\\)\*", line)):
+            if k:
+                on = not on
+            for e, s in runs(part):
+                if e:
+                    im = self.emoji_img(s)
+                    if im:
+                        canvas.alpha_composite(im, (int(x) + 2, int(y + (asc + desc - im.height) / 2)))
+                        x += im.width + 4
+                else:
+                    d.text((x, y), s, font=self.font, fill=(accent if on and accent else fill),
+                           stroke_width=stroke, stroke_fill=stroke_fill)
+                    x += self.font.getlength(s)
+        return on
 
 
 def render_banner(cap, out_png):
@@ -267,52 +294,41 @@ def render_banner(cap, out_png):
 
 
 def render_caption(cap, out_png):
+    """Caption styles (see playbook "Caption styles"):
+    box    white rounded box per line, black text (TikTok Classic box; EllaOla, Hug Sleep Pod)
+    glass  translucent black box, white text (TikTok's dark background option)
+    dark   solid black box, white text;  brand  brand-colour pill
+    shadow plain white text with a soft drop shadow, no box (Groove Pillow, KatKin, Happy Tuesdays,
+           Savannah Bell serif)
+    classic white text with a thin black outline + light shadow (Flo Pilates "Nobody told me")
+    outline heavy white meme text with a thick black stroke (reaction memes)
+    banner offer bar with stacked lines (render_banner; Primals-style Black Friday banner)
+    Options: font (inter|classic|helvetica|serif|condensed), weight, size, width, align, x (centre 0..1,
+    e.g. 0.27 for a narrow column left of the subject, Hug Sleep Pod), lower / upper (force case),
+    bg / fg (box colours, e.g. yellow box "#FFE14D" + black text, hoop), *words in asterisks* drawn in
+    `accent` (default yellow #FFD84D: two-tone highlight, VIVAIA), condensed = tall all-caps look (Glowco)."""
     style = cap.get("style", "box")
     if style == "banner":
         return render_banner(cap, out_png)
     size = int(cap.get("size", 52))
     max_w = int(W * cap.get("width", 0.84))
-    ts = Typesetter(size, cap.get("weight", "Bold" if style != "box" else "SemiBold"))
+    family = cap.get("font", "serif" if style == "serif" else "inter")
+    default_w = {"box": "SemiBold", "glass": "SemiBold", "shadow": "SemiBold", "classic": "Medium"}.get(style, "Bold")
+    ts = Typesetter(size, cap.get("weight", default_w), family)
     pad_x, pad_y = int(size * 0.42), int(size * 0.20)
-    # *highlighted words* (markers in the text) are drawn in cap["highlight_color"] (yellow default)
-    raw = [w for w in cap["text"].replace("\n", " \n ").split(" ") if w]
-    flags, words, on = [], [], False
-    for w in raw:
-        if w == "\n":
-            words.append(w)
-            flags.append(False)
-            continue
-        start, end = w.startswith("*"), w.rstrip(".,!?…").endswith("*")
-        on = on or start
-        words.append(w.replace("*", ""))
-        flags.append(on)
-        on = on and not end
-    text = " ".join(words).replace(" \n ", "\n")
-    hl_color = cap.get("highlight_color", "#FFD43B")
-    word_flags = [f for w, f in zip(words, flags) if w != "\n"]
+    text = cap["text"].lower() if cap.get("lower") else cap["text"]
+    text = text.upper() if cap.get("upper") else text
     lines = ts.wrap(text, max_w - 2 * pad_x)
-    space_w = ts.font.getlength(" ")
-
-    def draw(canvas_, x_, y_, line_, fill_, k_, **kw):
-        """Draw a line word by word when it has highlighted words; k_ = index of its first word."""
-        toks = line_.split(" ")
-        if not any(word_flags[k_:k_ + len(toks)]):
-            ts.draw_line(canvas_, x_, y_, line_, fill_, **kw)
-            return
-        for j_, tok in enumerate(toks):
-            ts.draw_line(canvas_, x_, y_, tok, hl_color if word_flags[k_ + j_] and fill_ == "white" else fill_, **kw)
-            x_ += ts.width(tok) + space_w
     asc, desc = ts.font.getmetrics()
-    line_h = int((asc + desc) * 1.02)
+    line_h = int((asc + desc) * float(cap.get("line_height", 1.02)))
     canvas = Image.new("RGBA", (W, line_h * len(lines) + 2 * pad_y + 40), (0, 0, 0, 0))
     d = ImageDraw.Draw(canvas)
     align = cap.get("align", "center")
-    colors = {"box": ("white", "black"), "dark": ("black", "white"),
-              "brand": (cap.get("color", BRAND_PURPLE), "white")}
-    k = 0
+    colors = {"box": (cap.get("bg", "white"), cap.get("fg", "black")), "dark": ("black", "white"),
+              "glass": ((0, 0, 0, 150), "white"), "brand": (cap.get("color", BRAND_PURPLE), "white")}
+    accent = cap.get("accent", "#FFD84D")   # colour for *highlighted* words
+    hl = False
     for i, line in enumerate(lines):
-        if i:
-            k += len(lines[i - 1].split(" "))
         lw = ts.width(line)
         x = (W - lw) / 2 if align == "center" else int(W * (1 - cap.get("width", 0.84)) / 2) + pad_x
         y = pad_y + i * line_h + 10
@@ -321,19 +337,35 @@ def render_caption(cap, out_png):
             r = int(size * 0.32)
             d.rounded_rectangle([x - pad_x, y - pad_y + 2, x + lw + pad_x, y + line_h + pad_y - 4],
                                 radius=r, fill=bg)
-            draw(canvas, x, y, line, fg, k)
-        elif style == "shadow":  # white text, soft dark shadow (no box): the TikTok "native" look
-            sh = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
-            ts.draw_line(sh, x + 2, y + 3, line, (0, 0, 0, 230), stroke=max(2, size // 18), stroke_fill=(0, 0, 0, 230))
-            from PIL import ImageFilter
-            canvas.alpha_composite(sh.filter(ImageFilter.GaussianBlur(max(2, size // 14))))
-            draw(canvas, x, y, line, "white", k)
+            hl = ts.draw_line(canvas, x, y, line, fg, accent=cap.get("box_accent"), on=hl)
+        elif style in ("shadow", "serif"):
+            hl = ts.draw_line(canvas, x, y, line, "white", accent=accent, on=hl)
+        elif style == "classic":
+            hl = ts.draw_line(canvas, x, y, line, "white", stroke=max(2, size // 24), stroke_fill=(0, 0, 0, 230),
+                              accent=accent, on=hl)
         else:  # outline
-            draw(canvas, x, y, line, "white", k, stroke=max(3, size // 12), stroke_fill="black")
-    # merge the per-line boxes into one shape the way TikTok does (fill gaps between lines)
+            hl = ts.draw_line(canvas, x, y, line, "white", stroke=max(3, size // 12), stroke_fill="black",
+                              accent=accent, on=hl)
+    if style in ("shadow", "serif", "classic"):
+        # soft drop shadow from the text's own alpha, like TikTok/IG's text shadow
+        a = canvas.split()[3]
+        sh = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+        sh.putalpha(a.point(lambda v: int(v * float(cap.get("shadow", 0.75)))))
+        sh = sh.filter(ImageFilter.GaussianBlur(max(2, size * 0.09)))
+        # plus a tight dark halo so plain text stays readable on bright floors, walls and sky
+        halo = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+        halo.putalpha(a.filter(ImageFilter.MaxFilter(3)).point(lambda v: int(v * float(cap.get("halo", 0.55)))))
+        halo = halo.filter(ImageFilter.GaussianBlur(max(1, size * 0.035)))
+        base = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+        base.alpha_composite(sh, (0, max(1, size // 22)))
+        base.alpha_composite(halo)
+        base.alpha_composite(canvas)
+        canvas = base
     canvas = canvas.crop(canvas.getbbox() or (0, 0, W, 10))
     full = Image.new("RGBA", (W, canvas.height), (0, 0, 0, 0))
-    full.alpha_composite(canvas, ((W - canvas.width) // 2 if align == "center" else 0, 0))
+    cx = float(cap.get("x", 0.5))
+    left = int(cx * W - canvas.width / 2) if align == "center" else 0
+    full.alpha_composite(canvas, (max(0, min(W - canvas.width, left)), 0))
     full.save(out_png)
     return full.height, canvas.width
 
@@ -667,13 +699,17 @@ def build(edit_path, sheet_every=1.5, feed=False):
                     for fb in face_boxes(parts[i], t - offs[i]):
                         fh = fb[1] - fb[0]
                         blocks.append((fb[0] - 0.12 * fh, fb[1] + 0.12 * fh, fb[2] - 0.05, fb[3] + 0.05))
-            for i in {scene_at(s + 0.01), scene_at(max(s, e - 0.01))}:
+            # every scene the caption spans (not only the first and last), so a static caption over
+            # 3-4 shots respects each shot's keep_clear bands
+            for i in {scene_at(s + 0.01), scene_at(max(s, e - 0.01)),
+                      *[k for k, (a, b) in enumerate(win) if a < e and s < b and k < len(clips)]}:
                 for y0, y1 in clips[i].get("keep_clear", []):
                     blocks.append((y0, y1, 0.0, 1.0))
             for (ps, pe, py0, py1) in placed_boxes:
                 if ps < e and s < pe:
                     blocks.append((py0 - 0.006, py1 + 0.006, 0.0, 1.0))
-            x0f, x1f, hf = (W - cw) / 2 / W, (W + cw) / 2 / W, ch / H
+            cxf = float(cap.get("x", 0.5))
+            x0f, x1f, hf = max(0.0, cxf - cw / 2 / W), min(1.0, cxf + cw / 2 / W), ch / H
             lo, hi = SAFE_TOP + 0.02 + hf / 2, SAFE_BOT - 0.03 - hf / 2   # inside the 4:5 area, clear of UI
             cands = sorted({round(want + d * sg, 3) for d in [k * 0.01 for k in range(60)] for sg in (1, -1)},
                            key=lambda yc: abs(yc - want))

@@ -1,0 +1,30 @@
+{
+ "total": 17.267,
+ "scenes": [
+  {
+   "src": "concourse",
+   "start": 0.0,
+   "end": 3.967
+  },
+  {
+   "src": "follow",
+   "start": 3.967,
+   "end": 6.5
+  },
+  {
+   "src": "pov",
+   "start": 6.5,
+   "end": 8.833
+  },
+  {
+   "src": "walkpast",
+   "start": 8.833,
+   "end": 10.433
+  },
+  {
+   "src": "_end_card",
+   "start": 10.433,
+   "end": 17.267
+  }
+ ]
+}

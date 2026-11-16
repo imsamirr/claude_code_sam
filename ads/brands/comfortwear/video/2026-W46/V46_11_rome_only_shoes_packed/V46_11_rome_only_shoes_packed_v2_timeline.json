@@ -1,0 +1,25 @@
+{
+ "total": 17.133,
+ "scenes": [
+  {
+   "src": "selfie",
+   "start": 0.0,
+   "end": 3.367
+  },
+  {
+   "src": "square",
+   "start": 3.367,
+   "end": 7.1
+  },
+  {
+   "src": "steps",
+   "start": 7.1,
+   "end": 10.3
+  },
+  {
+   "src": "_end_card",
+   "start": 10.3,
+   "end": 17.133
+  }
+ ]
+}

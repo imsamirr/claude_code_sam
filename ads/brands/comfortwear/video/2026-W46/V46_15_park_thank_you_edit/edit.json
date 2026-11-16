@@ -1,0 +1,64 @@
+{
+  "id": "V46_15_park_thank_you_edit",
+  "version": 2,
+  "created": "2026-11-13",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): one static first-person caption, 2-4 real shots, music only, no voiceover, 10-16 s + end card; 9:16 with content inside 4:5.",
+  "angle": "Disney/park day walking 25k+ steps without stopping to rest (JW1).",
+  "format": "F2 'Thank you + EDIT' over a confident park walk (Auto Accident Compensation ref), 2 shots",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/upbeat_pop_vlog_105bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "castlewalk": "tiktok:7529981006107954446",
+    "epcot": "tiktok:7383816165354736927"
+  },
+  "source_notes": {
+    "castlewalk": "third-party TikTok creator (walking toward the castle); rights to confirm",
+    "epcot": "third-party TikTok creators @plussizeparkhoppers (Epcot walk); rights to confirm"
+  },
+  "clips": [
+    {
+      "gain": 0,
+      "src": "castlewalk",
+      "in": 3.2,
+      "out": 7.2,
+      "zoom": 1.3,
+      "focus_y": 1.0
+    },
+    {
+      "gain": 0,
+      "src": "epcot",
+      "in": 21.8,
+      "out": 28.8
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        1
+      ],
+      "style": "box",
+      "y": 0.31,
+      "size": 44,
+      "width": 0.84,
+      "fade": 0,
+      "text": "Me doing 28,000 steps on park day without stopping to sit every hour 😅 To the lady in the bag-check line who told me about her stretchy Comfort Wears… THANK YOU 🙏 EDIT: since everyone keeps asking, I linked them below"
+    }
+  ],
+  "persona": "disney",
+  "based_on": "TOFV1_JW1 | COM320_HO1 (avatar) (top, $5,487 spend, ROAS 1.68, WearOrtho, 7d to 2026-11-12). Keeps its angle; new format/hook/story.",
+  "primary_text": "28,000 steps. Zero sit-down breaks. Thank you, bag-check lady 🙏\n\nPark days mean cobblestones, staircases and hours in line. Running shoes are made for the gym, not that.\n\n👣 Wide toe box for feet that swell by afternoon\n🦶 Arch support + cushioning for all-day walking\n🌬️ Breathable stretch knit, no break-in\n\nHere's the link everyone asked for 👇 Tap 'Shop Now'.",
+  "headline": "2026's Favorite Shoes For Traveling",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+  "caption_style": "TikTok Classic white box (Auto Accident Compensation thank-you + EDIT, EllaOla)"
+}

@@ -1,0 +1,100 @@
+{
+  "window": [
+    "2026-11-06",
+    "2026-11-12"
+  ],
+  "rules": {
+    "top_min_spend": 1000,
+    "top_min_roas": 1.6,
+    "new_min_spend": 200,
+    "new_min_roas": 1.6,
+    "days": 7
+  },
+  "winners": [
+    {
+      "tier": "top",
+      "account": "WearOrtho",
+      "platform_ad_id": "120250381572280335",
+      "ad_name": "TOFV1_JW1 | COM320_HO1 (avatar)",
+      "format": "VIDEO",
+      "status": "ACTIVE",
+      "spend_7d": 5487.0,
+      "roas_7d": 1.68,
+      "purchases_7d": 96.0,
+      "headline": "2026's Favorite Shoes For Traveling",
+      "primary_text": "Shoes made for long flights, traveling, and walking 50,000+ steps.\n\n✈️ All-Day Comfort: Travel comfortably without sore feet.\n\n🦶 Superior Arch Support: Keeps your feet energized and supported\n\n🌬️ Breathable & Lightweight: Stay fresh and comfortable from take-off to landing.\n\nTravel smart. Travel comfortably.\n\nGet your pair with 40% OFF today, tap 'Shop Now'.",
+      "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+      "video_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/af2ccc100c0ecdf901a1746a6c0f034e.mp4",
+      "image_url": null,
+      "transcript": "If you're traveling to Disney, you need to see this.  When you're exploring Epcot, Magic Kingdom,  or Animal Kingdom, you're not just walking.  You're on cobblestones, climbing staircases,  standing in lines, and navigating uneven ground  for eight, nine, sometimes 10 hours straight.  So we tested the seven most popular shoes  people actually pack.  First up, Nike Air Max, around $130.  Seems like the obvious choice, right?  Comfortable at home, look decent enough for dinner out.  Nike built these for running tracks and gym floors, not cobblestone streets at Disney.  The toe box is narrow, fine for a 45-minute run, brutal for a full day of sightseeing.  By hour 5, both of our testers were looking for somewhere to sit.  Their feet didn't feel tired, they felt beaten up.  Next, On Cloud, $180.  Lightweight, good looking, but pay attention to the toe box, triangle shaped, not made  for your feet.  get real tight by the time it's lunch.  And you've still got another park to go.  Next, we tried hokas, the big ones, around $165.  For the first two hours, honestly, they felt great.  But here's how hokas fool you, going straight down,  like when you're running on a flat road.  On cobblestones, your foot rolls side to side  with every single step,  and all that foam gives you almost nothing for that.  You're actually less stable than you'd be in a flatter shoe.  are heavy, almost twice the weight of a normal shoe. By hour 7, you're not just fighting  tired feet, your legs are carrying that extra weight with every step you take. Our testers  said their knees hurt more than their feet by the end of the day.  Then you've got Brooks Ghost, $140. Cushioned, built for running and walking. Sounds like  a sensible choice, but here's the mistake. Just because a shoe feels comfortable walking,  doesn't mean it'll feel comfortable standing in line for an hour. Disney means standing  in line for an hour, walking to the next attraction, and standing again.  You need to judge that comfort standing still, too, because the line doesn't get shorter  when your feet start aching.  Next, Skechers, $90.  They're affordable, lightweight, and that memory foam feels amazing when you first put  them on.  But that's the problem nobody thinks about before Disney.  Memory foam goes flat under your weight during the day, and by the end of the day, you're  actually one of the worst things for your arch.  Then we tested Comfortwear, $60.  And this is where the tests stopped being a competition.  Comfortwear doesn't make shoes for athletes.  They make shoes for people whose feet  have to survive real life.  Nurses, healthcare workers, and travelers  who want to actually enjoy the trip  they've been saving for.  The sole is firm enough to protect you from cobblestones,  but flexible enough that you're not clomping around  like you're wearing hiking boots.  wide, your toes can actually spread out and do their job instead of getting crushed together  after mile three.  And the arch support doesn't quit at 2 p.m.  It's still there at hour nine when you're walking back from dinner along the river.  After a full day of testing, 22,000 steps through an old city center, our testers all  said the same thing.  Their feet didn't hurt.  Not hurt less, didn't hurt.  That means you're not the person cutting the day short because your feet gave out.  sitting on a bench watching other people see what you flew there to see. You're still going.  Right now, Comfortwear is 40% off with free shipping and you get 30 days to try them.  More than enough time to put them through a real trip. If they don't hold up better than  anything else you've ever packed, send them back. But based on everything we tested,  you'll never pack anything else."
+    },
+    {
+      "tier": "top",
+      "account": "WearOrtho",
+      "platform_ad_id": "120249959532680335",
+      "ad_name": "TOFV1_HI16 | Nurse | COM225_Kyro390 - Iteration - Spanish Version_Ortho_Everyday User_No Offer_AI_Iteration_Expert - Doctor_Jed_Julieta_H2",
+      "format": "VIDEO",
+      "status": "ACTIVE",
+      "spend_7d": 1846.7,
+      "roas_7d": 2.26,
+      "purchases_7d": 43.0,
+      "headline": "Los zapatos de enfermería favoritos de 2026",
+      "primary_text": "El 73% del personal sanitario experimenta dolor de pies. ComfortWear lo cambia todo.\n\n✅ Mejor soporte del arco para la fascia plantar\n✅ Amortiguación para los talones\n✅ Puntera ancha para pies anchos\n✅Calzado n.° 1 recomendado por podólogos\n✅ Envío y devoluciones GRATIS\n\nCompra ahora!",
+      "link": "https://comfortorthowear.com/pages/los-5-mejores-zapatos-para-maestros-y-educadores",
+      "video_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/9b1dab87682b67a077d0a1f8b2bbcfa4.mp4",
+      "image_url": null,
+      "transcript": "Los Hoka. 3 de 10. Tienen demasiado cojín. Para la hora 4, ya sientes que tu pie no puede sostenerte.  Los Crocs Classic. 7,8. Baratos, sí, pero cero soporte de arco. Para el almuerzo, el pie ya te está gritando.  Los Skechers Go Walk. 8,1. No es tan mal por 65 dólares, pero para la semana 3, se aplastan.  Los Nike Air Max.  8,2. Mira, son tenis para correr. No están hechos para pasar 12 horas de pie.  Encima son estrechos y el pie se te hincha como un globo.  Los Brooks.  8,3. Pesados. Hacen que hasta caminar te cueste más trabajo.  Por eso creamos Comfortwear. No diseñamos estos tenis para corredores de maratón.  Los diseñamos para enfermeras que hacen turnos de 12 horas, donde sentarse no es una opción.  Tienen punta ancha, o sea que a la hora 6, tu pie no está apretado como en una prisión.  Además, soporte de arco de verdad, para que no llegues cojeando al carro al final.  del turno. Y la suela antideslizante para que no hagas ese pasito raro cuando el piso  del hospital está recién trapeado. Y malla que respira, para que tu pie no se convierta  en una criatura del pantano a mitad de turno. Las demás marcas agarraron un tenis de correr  y le pegaron un sticker que dice aprobado para el trabajo. Los nuestros los hicimos  desde cero, pensando en el dolor real de las enfermeras. Por eso puedes agarrar un turno  extra sin que te dé pavor. Por eso las enfermeras están dejando sus joca de 180 dólares por  La mayoría de las marcas se asustan a los 30.  Si no sobreviven tus próximos 3 turnos de 12, los devuelves."
+    },
+    {
+      "tier": "top",
+      "account": "WearOrtho",
+      "platform_ad_id": "120248663004170335",
+      "ad_name": "TOFv1_HF2 | 807_Aubrey_New UGC_Ortho_Stretch_Shoe_Don’t Waste Spent Money_9X16 HOOK 03",
+      "format": "VIDEO",
+      "status": "ACTIVE",
+      "spend_7d": 1848.4,
+      "roas_7d": 1.69,
+      "purchases_7d": 33.0,
+      "headline": "Expert-Recommended",
+      "primary_text": "\"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.\n\nI switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.\n\nI rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages.\" - Emily, RN.\n\nShop Now!",
+      "link": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+      "video_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/82a8d91ee76cc698f7f4bf23e8ddfc69.mp4",
+      "image_url": null,
+      "transcript": "$180 for hookahs, $200 for dance costs, $150 for brooks. All sitting in my closet,  literally a garbage after just two months. But I finally found the pair that actually  survives the 12-hour shift. My feet are not hurting, my back pain is gone, and I'm not  buying new shoes every two months. Now here's what I've learned so you don't waste your money like I  did. First thing I learned, running shoes are the wrong type of shoe for nursing. They're built for  forward motion, short bursts, soft surfaces, and we are not running. We're standing and walking  on concrete for 12 hours. Second, the arch support needs to last hours, not 12 minutes.  Most shoes have foam arch support. It collapses halfway through your shift. You need reinforced  arch support that holds its shape under constant pressure. That's what keeps your knees, hips,  and back aligned. Lastly, and this is the one that nobody talks about, the toe box on the  shoe needs to be wide because your feet swell throughout the day and by 3 p.m. your toes are  crammed together in a tight shoe and that's making your bunions worse. It's causing nerve pain and  this is why your feet drop at the end of the shift. Every single expensive shoe I bought had a narrow  toe box. Honestly, I was ready to give up my career due to this foot pain, but then I came across this  brand called Comfortwear. They met every single standard. Cushioning designed for standing, not  running, reinforced arch support that lasts a full shift, wide toe box that gives your feet room to  breathe, and they're slipper resistant for vet hospital floors. First shift that I wore them,  I noticed the difference by hour eight. I didn't get that sharp pain from my plantar fasciitis.  By week two, my back pain that I've had for three years started going away. I stopped taking  ibuprofen before every shift, which is a huge win, and I've been wearing the same pair for  seven months now, and they still feel new like the day one. I actually picked up an extra shift last  week because I felt good enough to do it. If you have wasted money on expensive shoes that didn't  last or you're still dealing with foot pain and back pain after every shift, I can't recommend  Comfortwear enough. Over half a million healthcare workers have already switched. They're running 40%  off right now and there's a 45-day money-back guarantee, so if they don't survive your next  rotation, you get your money back. The link's below."
+    },
+    {
+      "tier": "top",
+      "account": "WearOrtho",
+      "platform_ad_id": "120250163666800335",
+      "ad_name": "TOFV1_KW1 | COM284_HO1",
+      "format": "VIDEO",
+      "status": "ACTIVE",
+      "spend_7d": 1785.0,
+      "roas_7d": 1.7,
+      "purchases_7d": 28.0,
+      "headline": "2026's Favorite Shoes For Plus-Sized Traveling",
+      "primary_text": "A Disney day can mean miles of walking, hours standing in lines, and very little time off your feet. Your regular “comfortable sneakers” might feel fine at breakfast but hour 8 can be a very different story.\n\nThat's why 500,000+ customers trust ComfortWear.\n\n👣 Wide toe box gives your toes room instead of squeezing them together\n🦶 Supportive cushioning for hours of walking and standing\n☀️ Roomier, breathable fit when your feet start feeling swollen after a long day\n⭐ Rated 4.9 stars by 500,000+ customers\n🛡️ Try them risk-free for 30 days\n\nFeel the difference or send them back.\n\nWhat customers are saying:\n\n“I bought these for a trip where I knew we’d be walking all day. Even after hours on my feet, I was surprised by how comfortable they still felt.”\n~ Karen L. (⭐⭐⭐⭐⭐)\n\n“My regular sneakers usually leave my toes feeling cramped after a lot of walking. I love how much more room these give my feet.”\n~ Patricia M. (⭐⭐⭐⭐⭐)\n\n“I wanted something comfortable enough for long days of sightseeing and standing around. These quickly became the shoes I reached for every morning.”\n~ Susan R. (⭐⭐⭐⭐⭐)\n\nFrom the first ride to the fireworks.\n12-hour comfort starts with what you put on your feet.\n\nTap ‘Learn more’ to discover how these on your feet can make standing, walking and traveling long hours painless.",
+      "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+      "video_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/fdf41c8db7a8f9ae3a62973716f84486.mp4",
+      "image_url": null,
+      "transcript": "We asked 500 plus size women who've been to Disney one simple question.  What shoes did they wear to Magic Kingdom, Epcot, and Animal Kingdom?  And the answers were almost identical every single time.  Most people start with Skechers.  They're affordable, lightweight, and that memory foam feels amazing when you first put them on.  But that's the problem nobody thinks about before Disney.  Memory foam goes flat under your weight during the day,  row support, which is actually one of the worst things for your arch.  Next, they tried the hokas, around $165 because the massive cushion looks impressive.  Those thick soles change the way your foot naturally rolls with every step, and a different  rolling pattern puts more pressure on the plantar fascia, not less.  On top of that, hokas are heavy, almost twice the weight of a normal shoe.  By lunch, you're not just fighting tired feet, your legs carry that extra weight with  every step.  knees hurt more than their feet by the end of the day.  Then you've got Nike Air Max, $130.  Probably the obvious choice.  They look good, they're comfortable,  and you can wear them basically anywhere,  but they're still athletic shoes.  And after hours of walking at Disney and waiting in line,  that narrower fit can become a problem  as your feet start swelling.  What felt perfectly fine that morning  can feel a whole lot tighter by lunch.  Next, On Clouds, expensive at $180.  Lightweight, good looking,  really comfortable for everyday wear.  But Disney is 10-12 hours of walking and standing  before you even make it to the fireworks.  And that's where people start realizing how narrow the toe box is.  For a woman over 200 pounds, you need a wide-fit shoe.  So what actually works?  After looking through hundreds of reviews on Reddit  and talking to plus-size who spend entire days on their feet,  the same answer kept coming up.  Comfort wear.  Not the fanciest, not the most expensive,  problems that actually matter when you're a plus-size woman spending an entire day at Disney.  The toe box is wide so your toes aren't being crushed together as your feet swell.  The cushioning is supportive without making the shoe feel huge and bulky.  And the stretch upper actually gives your feet more room as the day goes on.  That's the difference.  Most athletic shoes are designed around running and workouts.  Comfortwear is designed for plus-size women who have to stay on their feet for hours.  and standing all day.  Right now, Comfortwear is 40% off with free shipping, and you get 30 days to try them  – more than enough time to see how they feel through a real, full day on your feet.  If you're going to Disney, these might be the most important thing you pack."
+    },
+    {
+      "tier": "new",
+      "account": "WearOrtho",
+      "platform_ad_id": "120250726064280335",
+      "ad_name": "TOFV1_NK2 | COM367_HO1",
+      "format": "VIDEO",
+      "status": "ACTIVE",
+      "spend_7d": 222.62,
+      "roas_7d": 1.97,
+      "purchases_7d": 5.0,
+      "headline": "2026's Favorite Shoes For Traveling",
+      "primary_text": "Shoes made for long flights, traveling, and walking 50,000+ steps.\n\n✈️ All-Day Comfort: Travel comfortably without sore feet.\n\n🦶 Superior Arch Support: Keeps your feet energized and supported\n\n🌬️ Breathable & Lightweight: Stay fresh and comfortable from take-off to landing.\n\nTravel smart. Travel comfortably.\n\nGet your pair with 40% OFF today, tap 'Shop Now'.",
+      "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+      "video_url": "https://cdn.tryatria.com/analytics/a829d015648d481fb70eb471556cdb77/0fad05a989d878243cd9c04474722dd2.mp4",
+      "image_url": null,
+      "transcript": ""
+    }
+  ]
+}

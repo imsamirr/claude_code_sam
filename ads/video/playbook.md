@@ -294,3 +294,113 @@ UrbanStems `m1913804572673870` ("pov: she didn't expect flowers today", 15 d); p
 - No Disney characters, castle close-ups or logos as the focus, and avoid putting "Disney" in on-screen text of paid ads. Prefer "park day" or "the parks", and let the ad copy say Disney if legal is OK with it.
 - No jokes about patients, and no filming on hospital units or showing patient information.
 - Don't reuse a format from the last two weekly batches, or two formats with the same opening shot in one batch.
+
+---
+
+## 6. Weekly refresh — 2026-11-13 (W46 batch run)
+
+*Only items not already in sections 2 and 3. Trend sources had no post dated Nov 9–15. The newest are Tokchart (13 Nov), SocialPilot (to Nov 10), New Engen (Nov 4–5), B&T (2 Nov) and Virlo (29 Oct). Treat formats as "this fortnight", not "this week". Nurse, Disney, teacher and plus-size searches again found nothing dated November 2026.*
+
+**What's new this week (formats and messaging)**
+- **Feet-up "Ramalama" reveal:** the camera starts on the feet and tilts up on the beat to show the full look ([B&T, 2 Nov](https://www.bandt.com.au/tiktok-trends-dancing-boyfriends-outraged-mums-a-very-good-month-to-be-nicole-kidman/)). Built for shoes: open on the knit sneaker, tilt up to scrubs, a park outfit or a travel fit.
+- **Kick-a-shoe outfit transition** (MJ "You Rock My World" remix, peaking): go from casual to the full outfit in one cut by lifting a leg or kicking a shoe ([Virlo](https://virlo.ai/blog/current-tiktok-trends)). **Fan transition:** an overhead outfit change hidden behind a fan-blade wipe ([New Engen](https://newengen.com/tiktok-trends/)).
+- **"Pray For Me" slow-mo group entrance** in everyday places ([New Engen](https://newengen.com/tiktok-trends/)), such as three nurses walking out of the hospital doors at 7:15 pm. **Paparazzi bowing** (pose, then a deep bow on the drop; early stage) ([Virlo](https://virlo.ai/blog/current-tiktok-trends)).
+- **"Stop the wedding, but…" regret carousel** ([New Engen](https://newengen.com/tiktok-trends/)). The caption pattern is "stop the ___, but…", e.g. "stop the 12-hour shift, but… my feet aren't the problem anymore".
+- **"Answer in one word"** (friends or family answer one-word questions), **"dancing boyfriends"** (partner dancing unprompted, from the camera roll), **soft-launch walk** (partner's arm in frame, partner unseen) ([New Engen](https://newengen.com/tiktok-trends/), [B&T](https://www.bandt.com.au/tiktok-trends-dancing-boyfriends-outraged-mums-a-very-good-month-to-be-nicole-kidman/)).
+- **Black Friday window:** TikTok Shop's BFCM campaign runs **Nov 11–30** ([Retail Brew](https://www.retailbrew.com/stories/tiktok-shop-announces-three-week-black-friday-cyber-monday-promotions), [TikTok Newsroom](https://newsroom.tiktok.com/?lang=en&tag=product)). Live in Atria now:
+  - "If you waited until Black Friday you absolutely won…" (Peak, below)
+  - "Mom, remember…" kid's hand-drawn sign (Bandou)
+  - "gift idea for her" stocking open (ARDANT)
+- **Airport travel talk:** "airport theory" (arrive 15 min before the flight and sprint the terminal, still debated in 2026) ([Your Mileage May Vary, Mar 2026](https://yourmileagemayvary.com/2026/03/06/airport-theory-tiktok/), [Fodor's](https://www.fodors.com/news/news/what-is-the-airport-theory-tiktok-trend-its-causing-passengers-to-miss-their-flights)), "airport divorce" (couples split up after security) ([Faye](https://www.withfaye.com/blog/trip-planning-and-tips/airport-divorce-trend/)) and "check-in chicken" ([Fox 9](https://www.fox9.com/news/travelers-airports-playing-check-in-chicken-latest-flight-booking-trend)). "Airport tray aesthetic" dates from 2024; it is evergreen, not new ([Fox News](https://www.foxnews.com/travel/airport-tray-aesthetic-goes-viral-some-travelers-halt-security-checkpoints-photo-ops.amp)). The AAA 2026 Thanksgiving forecast isn't out yet; 2025 was a record 81.8M ([Lodging](https://lodgingmagazine.com/aaa-81-8-million-travelers-to-head-50-miles-or-more-from-home-over-thanksgiving/)).
+- **Nurse guardrail update:** the ANA refreshed its social-media principles on Oct 2, 2026 (professionalism, employer policy) ([NP Online](https://www.nursepractitioneronline.com/?p=78569)). That reinforces section 5: no units, no patients.
+
+**Sounds (ad-safety status)**
+- **New on the charts since section 3:**
+  - "Paper Moon Static" (Marnie Cusk): #8 in the US on 13 Nov and #1 worldwide on 7 Nov, at +42K videos a day and 2M total.
+  - "theclubrock" (Benny Bellson): 362K videos.
+  - "young & dumb" (GIRLSET): early, at 2.4K.
+  - "Ramalama (Bang Bang)" (Róisín Murphy): #1 in the US on 29 Oct.
+  - The rest of the US top 10 is unnamed "Original audio" ([Tokchart US](https://tokchart.com/tiktok-trending-sounds/united-states), [Tokchart growing](https://tokchart.com/growing)).
+  - Also: "Upside Down" (Diana Ross remix), sped-up "Paparazzi", "You Rock My World" remix ([Virlo](https://virlo.ai/blog/current-tiktok-trends)), Charli XCX "Rock Music" (edits) and Taylor Swift "New Romantics" (soft launch) ([New Engen](https://newengen.com/tiktok-trends/), [B&T](https://www.bandt.com.au/tiktok-trends-dancing-boyfriends-outraged-mums-a-very-good-month-to-be-nicole-kidman/)).
+- **Ad-safety:** none of these is confirmed in the CML or Meta Sound Collection. All are major-label tracks or unlicensed original audio, so use them only as **mood references**. The CML mostly excludes chart hits; the only check is Creative Center, then "Approved for business use" ([Third Chair](https://usethirdchair.com/blog/tiktok-commercial-library-what-brands-can-really-use), [Collabstr](https://www.collabstr.com/blog/tiktok-commercial-sounds)). Mood matches from section 4:
+  - Ramalama or "Paper Moon Static": "Confident strut", 90–100 bpm.
+  - Pray-For-Me slow-mo: "cinematic", "epic choir".
+  - Paparazzi bow and kick transition: "Hype", 120–130 bpm.
+
+**Fresh Atria references (Meta, active, run days as of 2026-11-13; frames pulled with ffmpeg)**
+- **Peak Footwear, bricepicks creator** `m2201536747069175`: 9 d, 9.0 s, rising (up 209 ranks in 14 d). **Format:** a meme B-roll (car driving through low clouds), then a static shot of the boot on a bench, with one TikTok Classic box: "If you waited until Black Friday season you absolutely won because Frost Flex is violently discounted right now 😭😭".
+  - Why it matters: it is a competitor shoe brand using our exact 2-shot recipe for Black Friday.
+  - Our version keeps the discount out of the caption (end card only).
+- **Trtl** `m1135354566085787`: 7 d, 16 s, rising (reach up 4.75x in 7 d). **Format:** on a plane, "POV: Your neighbor's a manspreader", then an inner-monologue box changes each shot ("There goe…" / "Sleep mask looks soft tho" / "…Ugh" / "…wonder if they're on sale?"). Why it matters: a fresh travel take on F30, and the envy beat sells the product without a claim.
+- **Camp Snap, Abbie Roe creator** `m29852577591027600`: 7 d, 19.9 s, rising (up 193 ranks). **Format:** a single small serif line, "pov: I gave my kid their own camcorder", over 7 wobbly kid-POV clips of a cozy home with holiday decor.
+  - Why it matters: it proves a quiet caption over raw, imperfect footage at 20 s, which fits a gift POV.
+- **Bandou** `m1095144203130410`: 7 d, **5.2 s**, rising (up 79 ranks). **Format:** overhead shot of a child's hand finishing a marker poster, "MOM REMEMBER TO BUY MY TRAVEL HEADPHONES!". Why it matters: the whole ad is the sign, a micro-loop gift reminder.
+- **ARDANT, affordableretailtherapy creator** `m1745510116553634`: 8 d, 9.5 s, stable. **Format:** 3 shots (stocking "gift idea for her ❤️🎄🎁", box open, on her) in plain shadow text. Why it matters: the simplest seasonal gift template.
+- **Competitor watch:** OrthoFit `m1381586057186500` (8 d, 19.8 s) and Kizik `m1381304880746182` (8 d, 7.2 s).
+  - OrthoFit sells wide feet plus stretchy knit, the same product promise as ours, but with VO and plantar-fasciitis claims, which we don't copy.
+  - Outway `m1124954780457780` (9 d, rising) is an "I cleaned out my drawer and didn't miss a single pair" hook. It would work as "cleaned out my shoe rack" for us.
+
+**Use in this batch**
+1. **Nurse, feet-up reveal (new format):** open on the knit sneakers on the parking-lot asphalt and tilt up on the downbeat to scrubs and a coffee. Caption: "7:14 pm. hour 12. still walking normal 🫡". Music: confident strut.
+2. **Nurse, slow-mo exit:** 2–3 coworkers walk out of the hospital doors in slow motion at shift end, then a cut to the shoes. Caption: "the night shift crew walking out like we didn't just do 12 hours 😮‍💨". No unit footage and no badges readable.
+3. **Disney/park, "if you waited" (Peak template):** shot 1 is a meme B-roll (a castle-free crowd or a sunset park walkway); shot 2 is the shoes on a hotel bench. Caption: "if you waited until now to buy your park-day shoes you honestly won 😭". The offer goes on the BF end card, never in the caption.
+4. **Plus-size, kick transition:** a mirror shot in sweats, then a kick of the shoe toward the camera, then a cut to the full outfit. Caption: "wide feet but make it cute ✨". This is a fresh version of F11, not a repeat of "Nobody told me".
+5. **Travel, Trtl-style inner monologue on Thanksgiving travel:** a gate or plane-aisle shot with a changing box: "POV: terminal B to F in 14 min" / "everyone's limping" / "me in my stretchy ones" / "…should I tell them?". This rides "airport theory" without endorsing it.
+6. **Gift micro-loop (Bandou):** a 5 s overhead shot of a kid's hand finishing a sign, "MOM, REMEMBER YOUR COMFY SHOES FOR THE CRUISE", with the shoes beside the poster. It makes a fast BF gift ad.
+
+---
+
+## 7. Caption styles — measured from the references (2026-11-13)
+
+User note (Nov 13): the references use **several caption looks, not only the white box**. Each weekly batch
+rotates them (rule: **at least 5 different looks per 10 videos**, no look on more than 2 videos, and match the
+look to the format's reference). Frames pulled at full size from the reference MP4s; sizes converted from
+720×1280 to our 1080×1920. All are built into `ads/video/build.py` (`style`, `font`, `weight`, `x`, `lower`).
+
+| Look | Reference (Atria id) | What it looks like | edit.json caption |
+|---|---|---|---|
+| TikTok Classic box | EllaOla `m961645566525315`, Auto Accident `m1363956582376518`, Basic Buzz `m1668570404657353` | white rounded box per line, black semibold sans, ~44 px, upper third | `"style": "box", "size": 44` |
+| Narrow box column | Hug Sleep Pod `m1047219301474933` | same white boxes but 2–3 words per line in a tall column beside the subject (left/right third) | `"style": "box", "width": 0.4, "x": 0.27` (or 0.73) |
+| Translucent box | TikTok's dark text background | white text on ~60% black rounded box | `"style": "glass"` |
+| Plain text + soft shadow | Groove Pillow `m4105657463063866`, KatKin `m1551406382627956` | white medium/semibold sans, **no box**, soft dark shadow, small (~40 px), upper third or mid-frame | `"style": "shadow", "weight": "Medium", "size": 40-42` |
+| Bold Helvetica + shadow | Happy Tuesdays `m1979816196068779` | white Helvetica/Arial Bold ~56 px, soft drop shadow, upper third over a single long shot | `"style": "shadow", "font": "helvetica", "size": 50` |
+| TikTok Classic font, thin outline | Flo Pilates `m3208180722725044` | white geometric sans with single-storey "a" (TikTok "Classic" font), thin black outline + slight shadow, ~48 px | `"style": "classic", "font": "classic", "size": 50` |
+| Instagram serif | Savannah Bell `m1378188833895425`, Dr. Woof flare scrubs `m1090893143376539` | white Garamond-style serif with soft shadow, ~50-56 px, centred mid-frame | `"style": "serif", "font": "serif", "size": 56` |
+| Heavy meme stroke | Speak `m1590236226130305`, Crown & Paw `m1601996465043569` | white Black-weight sans with a thick black stroke | `"style": "outline", "weight": "Black"` |
+| Lowercase casual | creator posts generally | any of the above with `"lower": true` (texting voice) | add `"lower": true` |
+
+Fonts (OFL, in `ads/video/fonts/`): Inter (default), Jost (stand-in for TikTok "Classic"), Liberation Sans
+Bold (Helvetica/Arial metric clone), Cormorant Garamond (IG serif). Plain-text looks need a busy-background
+check in QA: if the text sits on white walls or sky, raise `"shadow"` (0..1, default 0.75) or switch to a box.
+
+**W46 batch (V46_11–20) uses 9 looks:** glass (11), plain shadow (12), serif (13), Helvetica shadow (14),
+box (15), meme stroke (16), Classic thin outline (17), box column (18), small letter shadow (19),
+lowercase Classic (20). Track which looks earn the best hook rate and thumb-stop in the weekly results.
+
+### Style log — new looks discovered each week (user rule, Nov 14: discover new styles every week)
+
+Every run adds **at least 2 caption looks we haven't used before**, found in fresh Atria ads (last 30 days,
+UGC/handheld, 0–30 s; build a preview grid of ~30 thumbnails and read the captions) or on TikTok, gets
+them into the engine if needed, uses them in that batch, and logs them here. Never drop a look because
+it's new; drop it when results say so.
+
+| Week | New look | Reference (Atria id) | How to make it |
+|---|---|---|---|
+| W46 (Nov 14) | Two-tone highlight: bold white text, key phrase in yellow, soft shadow | Frey UGC with VIVAIA `m1126173936822666` ("the shoes I'll be / **wearing this summer**") | any plain style, wrap the phrase in `*asterisks*` (`"accent": "#FFD84D"`) |
+| W46 | Colour box: yellow box, black text, plus a small blue tag lower | hoop `m2335826977165666` ("If your mom complains about her tired legs, give her this ⬇️") | `"style": "box", "bg": "#FFE14D"` |
+| W46 | Tall condensed all-caps, white with shadow | whit_laine with Glowco `m1767431788510673` ("BED TIME USED TO TAKE OVER AN HOUR") | `"style": "shadow", "font": "condensed", "upper": true, "size": 76` |
+| W46 (seen, not built yet) | Build-up list: short lines stack one by one at different heights ("Thought it was dairy / Thought it was gluten / …") | Fitness with Lu with PuraU `m2085545735429533` | one caption per scene with `"clips": [i, last]` and staggered `y` |
+| W46 (seen, not built yet) | Big all-caps header + small translucent question box lower | ugcbyamberb with Nurse Babes `m1429895862458769` ("CLOCKED OUT OF WORK. CLOCKED INTO MOM LIFE.") | two captions: `outline`/`shadow` upper + `glass` lower |
+| W46 (seen, not built yet) | Orange label pill above a long paragraph | Wooten Gear `m4489093394638384` ("EARLY BLACK FRIDAY" + "being married to a concreter is weird…") | `brand` pill with `color` + `shadow` paragraph |
+
+## 8. Script captions (user, Nov 14)
+
+The caption does **not** have to stay the same for the whole video. A script variant gives **each scene
+its own line**, and the lines read as one running story (problem → mechanism → turn → payoff), like
+KatKin's letter or a split sentence. Rules: one line per shot (≤ 12 words), the shot shows what its line
+says, the key phrase highlighted, same look for every line in the video, and each line stays on screen
+for the whole shot (≥ 2.4 s so it can be read). In edit.json: one caption per scene with `"clip": i`
+(see `V46_21_nurse_trash_script`). Use it for 3–5 of the 10 videos per batch; keep the rest single-caption.
+
+**Competitor names in scripts (user, Nov 14):** be direct, "$180 Hokas. 2 months." beats "$180 running shoes".
+Write Skechers as **Skech*rs** (escape it as `Skech\\*rs` in edit.json captions).

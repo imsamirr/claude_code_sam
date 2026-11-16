@@ -1,0 +1,25 @@
+{
+ "total": 17.567,
+ "scenes": [
+  {
+   "src": "deadpan",
+   "start": 0.0,
+   "end": 5.367
+  },
+  {
+   "src": "lookdown",
+   "start": 5.367,
+   "end": 7.6
+  },
+  {
+   "src": "shoes",
+   "start": 7.6,
+   "end": 10.8
+  },
+  {
+   "src": "_end_card",
+   "start": 10.8,
+   "end": 17.567
+  }
+ ]
+}

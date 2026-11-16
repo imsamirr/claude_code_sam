@@ -71,8 +71,14 @@ write keeps the winner's *angle and proof points* and moves it into the short na
 it about voiceover, word-chunk subtitles, hook headers and DR beat lists):** the ads must look like an
 organic post from a real person, not an ad.
 - **One static caption** for the whole video (or two stacked blocks, like EllaOla's "POV…" on top and
-  "Then we started…" lower). White rounded box, black text, ~44px, 2–5 lines. It does not change per
-  scene.
+  "Then we started…" lower), 2–5 lines. It does not change per scene. **Caption look varies by
+  reference (user rule, Nov 13)**: white box, narrow box column, translucent box, plain white text with
+  shadow, bold Helvetica with shadow, TikTok Classic font with thin outline, IG serif, meme stroke,
+  lowercase; see `ads/video/playbook.md` §7 for specs and the `style`/`font`/`x`/`lower` options. Never
+  ship a batch in one look.
+- **Name competitors directly (user rule, Nov 14)**: say "Hokas", "OnClouds", "Brooks", "Nike Air Max"
+  instead of "$180 running shoes". **Skechers is always written "Skech*rs"**; in an edit.json caption type
+  `Skech\\*rs` (a bare `*` toggles the yellow highlight). Still blur Skechers logos in the footage.
 - **Sale / offer formats (user refs, Nov 16 2026, Black Friday):** the offer can lead.
   - *Offer banner on top + pain-point caption* (Primals): `"style": "banner"` with `lines`
     (yellow "BLACK FRIDAY SALE", big "60% OFF SITEWIDE", small gift line), `"avoid_faces": false`,
@@ -83,7 +89,7 @@ organic post from a real person, not an ad.
   - *"When the ___ is on sale!!!!"* (TryFleur): `"style": "shadow"` (white text, soft shadow, no box).
   - *"who else grabbed ___ when they saw *the crazy deal*…"* then the text block changes to the offer on
     the last shot (Hollow Socks): shadow style, `*words*` in the text are drawn yellow
-    (`highlight_color`); two captions, `clips [0,1]` then `clips [2,2]`.
+    (`accent`); two captions, `clips [0,1]` then `clips [2,2]`.
   - *"What if I told you ___ is 60% OFF rn 👀 / Limited time only tho!!"* + a small label at the bottom
     that changes every hard cut ("Wide toe box: included", "Buy 2 pairs: 2 FREE gifts 🎁",
     `and "Limited time"`) (Cuurt): outline hook pinned top, `box` labels size ~46 at y≈0.765, 6–8 POV
