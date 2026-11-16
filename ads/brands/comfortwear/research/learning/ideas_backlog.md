@@ -53,3 +53,16 @@ The weekly run uses the plan for its date unless the user changes it. Mark each 
 - Casino, airport and theme-park floor workers (feedback A9)
 - 35 years of fast food (feedback A10; lead on cushioning, not grip)
 - Skechers every 3 months, Hokas at $160 (feedback A7; sell on price, not durability)
+
+## From market study 2026-11-16
+
+Source: `research/learning/market_study_2026-11-16.md`, with evidence there. Live offer on Thursday 11-19 is the Black Friday Sale: 60% off sitewide OR buy-2-get-2-gifts, never combined, ending Dec 5. Add Christmas swaps.
+
+- **MS1 Re-hook test (statics):** our top LF body, unchanged, with 3 new openers: a sunk-cost object, professional irony and a silent spouse. Evidence: Jessica Whitney, Volosso, Sculptara (fixed body, rotated hook; 132–306 days).
+- **MS2 Scroll-video re-cut (scroll video):** a proven LF static, its full body, music only, about 4 words a second, over a still of the story's world. The full body is also the primary text. Test it against our 700-word, 2.5 words-a-second cut. Evidence: Estella #1 at 106 days; Naturva 188 days.
+- **MS3 Long vs short cut:** one Europe-travel story at 18–22k chars and a 9k cut of it, launched the same day. Evidence: Julia Bennett 31.6k at 268 days; EverWell 22.8k at rank 1.
+- **MS4 Late-EDIT nurse story:** criteria-first bridge, "the one pair that passed", then the Comfort Wear EDIT at about 90%. New narrator and opening image; no Orthora details (frozen peas, kid's drawing, couch). Evidence: Orthora blog relaunches rising; Koprez rank 1 without naming the brand.
+- **MS5 Our own self-test as discovery and CTA:** for example the arch bend or the outsole wear pattern, not Orthora's thumb press. Evidence: Orthora m4924210697806221.
+- **MS6 Left off the group trip (revenge / vindication, travel):** a vindication scene of about 15% of the body. Evidence: EverWell, Whisp (rank 1), Emma Livy.
+- **MS7 The rich client's one thing (net-new, women's):** a housekeeper or private nurse copies one thing from a wealthy client's closet. Evidence: Fleece nanny ad, rank 1.
+- **MS8 Christmas gift close:** "a pair for each person you love who stands all day", using the Dec 6+ swap. Evidence: TerraShell, rank 3 of 4,161.

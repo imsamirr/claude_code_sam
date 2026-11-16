@@ -14,7 +14,30 @@
 - **Frame:** 720×1280 at 30fps.
 - **Opening:** the hook sits in the lower half at second 0, then scrolls at reading pace (about 2.3–2.5 words per second, about 650–750 words in total).
 - **Text:** paragraphs of 1–3 short sentences, centered, about 86% of the frame width.
-- **Caption:** 1–3 sentences (the hook plus curiosity).
+- **Caption:** 1–3 sentences (the hook plus curiosity). *2026-11-16: this applies to Mode A only. In Mode B (a re-cut static), the long runners use the full story as the primary text; see the market study section below.*
+
+## Market study 2026-11-16: how long-running scroll videos are actually built
+
+Source: `ads/brands/comfortwear/research/learning/market_study_2026-11-16.md`. Frames were pulled from the video files and checked.
+
+| Ad | Run data | Length | Background | Audio | Pace |
+|---|---|---|---|---|---|
+| Herbal Health Findings / Estella, "wasn't really gout" (m3736136016541332) | **#1 of 551 at 106 days**; the same body ran as statics for 117–124 days | 469 s, 11.0k chars | a still of the ingredient (a black-garlic bowl), reused across stories | music only | about 4.0 words/s |
+| Estella, profane gout story (m1665310724979818) | new on 11-15 | 1,133 s, 28.8k chars | the same garlic still | music only | about 4.5 words/s |
+| American Health Support Community / Naturva, pulmonologist (m1130129209949753) | rank 1–2 of 133, reach up 140% in 7 days | 843 s, 21.9k chars | a still of the narrator's world (a lung-function test) | music only | about 4.3 words/s |
+| Naturva, "My Wife Passed by Choking…" (older) | **188 days** as a video; the 17.1k static ran 197 days, and the video launched about 10 days after it | 795 s | n/a | n/a | n/a |
+| Emma Livy / Bloomin, hysterectomy (m2200738350785208) | 43 days, now inactive; its static ran 47 days | 718 s | the hook object (a bruised belly) | music only | about 1.5 words/s (slow) |
+
+**What this changes (evidence-based, not yet tested in our account):**
+1. **Mode B, "proven-static re-cut," is the market's main scroll format.**
+   - The full long-form body (11–29k chars, P.S. stack included) scrolls unchanged.
+   - Every winner above re-cut a static that had already been running 1–4 weeks.
+   - Our 600–720-word written-for-scroll script is now **Mode A**. Keep it, but test B against it.
+2. **The pace is much faster than ours:** 4.0–4.5 words a second in the winners, against our 2.5. Nobody reads every word at that speed. The video works as a moving wall of text that signals "this is a real story", and the full text sits in the primary text too. The one slow example, 1.5 words a second, has retired. For Mode B, render with `python ads/scroll_video.py … --no-voice --px-per-frame 2` (added 2026-11-16). That's 120 px/s at 60 fps, still whole-pixel steps, about 4–4.5 words a second. The default of 1 px per frame (about 2.5 words a second) stays for Mode A.
+3. **In Mode B, the primary text is the full story,** not a 1–3 sentence caption.
+4. **Music only.** None of the scroll winners has a voice-over. Keep ElevenLabs voice for Mode A tests only.
+5. **The background only has to be calm and on-topic.** The hook object is good (our rule), but Estella reaches #1 with one ingredient still reused across stories. A still of the narrator's world (Naturva) works too. For us, that means a still of the shoes in the story's setting is acceptable.
+6. **Gap:** no footwear competitor runs scrolling-text videos. Orthora, Hike and Oobend run 300–600 s voice-over or 3D-cartoon story videos instead.
 
 ## Pipeline: `ads/scroll_video.py`
 

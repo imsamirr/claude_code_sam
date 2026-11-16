@@ -34,6 +34,7 @@ These are the lessons learned while building this program. Each one came from a 
 8. **Claims come from `confirmed_claims` only.** No doctor or specialist personas, no cure or treatment claims, no unconfirmed counts or star ratings. Don't promise a feature customers complain about (check the feedback research). Never imply the reader's religion, health condition or other personal attribute (Meta's personal-attributes policy). Tell it as the narrator's story.
 9. **Images must look like real phone photos** and show a different story moment each. No logos (product, competitor or car), no characters, no fake app interfaces, and season and clothing must match the story. Look at every image and re-render the failures.
 10. **Show the user the copy.** When they ask, paste the full primary text in chat. Every file and card includes the full text.
+11. **A proven body is an asset: re-hook it before replacing it** (market study 2026-11-16). Once an LF concept has spend and ROAS above the bar, its next iterations should include the **same body with only lines 1–2 changed** (3 new hook types), and a **music-only scroll-video re-cut of the full body** (Mode B in `references/scroll_videos.md`). The evidence is the market's long runners: Jessica Whitney's body ran 132–140 days with 3 openers; Volosso's ER-nurse body ran 284–306 days with 3+ openers, and its RV body was relaunched after 294 days; Naturva's 17k static ran 197 days and its video re-cut 188 days; Estella's re-cut is #1 of 551 at 106 days.
 
 ## 1. Onboard a new brand (once)
 
@@ -101,7 +102,7 @@ Follow `references/playbook.md` and lay out each file exactly as in `references/
 - **The product:** brand at 50–65% through, handed over by a person or a criteria check, or held back to a late "EDIT:" in an organic-post format. Give the price and the price inversion.
 - **Results:** day by day or shift by shift, with an honest week one. Pay off each loss set up earlier, then reverse the opening image.
 - **Close:** the live offer with its end date, the confirmed guarantee, count and other claims, and 3 P.S. lines (a self-test, a second unit or gift, a share). Then **offer swaps** by date, **3 alternate hooks**, and the **fidelity table**.
-- **Length:** 8–13k characters, grade 4–6 reading level, short lines. Measure the length and the brand's position (%) and report the real numbers.
+- **Length:** 8–13k characters, grade 4–6 reading level, short lines. When the story has enough real material, one concept per batch may test an 18–22k long cut against a 9k cut of the same story (market study 2026-11-16: a 31.6k ad active at 268 days; 22.8k and 16.3k ads at rank 1). Measure the length and the brand's position (%) and report the real numbers.
 
 ### 2.4 Images (4 per concept)
 Write specs in `<output_dir>/images/specs.json` (`<ID>_A` main, `_B`, `_C`, `_D`), one story moment each. Then:

@@ -496,7 +496,7 @@ def build(spec, out_root, only=None, music=None):
 
 
 def main():
-    global TTS, EL_MODEL, VOICE_BUDGET
+    global TTS, EL_MODEL, VOICE_BUDGET, PX_PER_FRAME
     p = argparse.ArgumentParser()
     p.add_argument("--brand", default="comfortwear")
     p.add_argument("--spec", required=True)
@@ -507,9 +507,13 @@ def main():
     p.add_argument("--el-model", default=EL_MODEL, choices=list(EL_RATE), help="ElevenLabs model (turbo = half the credits)")
     p.add_argument("--voice-budget", type=int, default=VOICE_BUDGET, help="max ElevenLabs credits per day across all runs")
     p.add_argument("--no-voice", action="store_true", help="force music-only for every video in this call")
+    p.add_argument("--px-per-frame", type=int, default=PX_PER_FRAME,
+                   help="music-only steady scroll speed in whole pixels per frame (1 = 60px/s, about 2.5 words/s; "
+                        "2 = 120px/s, about 4-4.5 words/s, the pace of the market's long-running full-static re-cuts)")
     p.add_argument("ids", nargs="*")
     a = p.parse_args()
     TTS, EL_MODEL, VOICE_BUDGET = a.tts, a.el_model, a.voice_budget
+    PX_PER_FRAME = max(1, a.px_per_frame)
     out_root = ADS / "brands" / a.brand / "output" / "scroll_videos"
     out_root.mkdir(parents=True, exist_ok=True)
     specs = json.loads(Path(a.spec).read_text())
