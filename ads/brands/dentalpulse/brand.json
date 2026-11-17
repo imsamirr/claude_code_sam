@@ -1099,6 +1099,86 @@
   "rv_w47_sonic_trio_percent": {
    "file": "reference/benchmarks/rv_ref_w47_sonic_trio_percent.jpg",
    "use_for": "LAYOUT reference only (Sonic Dental, rivals pull 2026-11-13, 95d, top 11.9%: 'UP TO 25% off' giant number over a row of three products, press bar at the bottom). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_eye_test_highlights": {
+   "file": "reference/benchmarks/rv_ref_w47t_eye_test_highlights.jpg",
+   "use_for": "LAYOUT reference only (Try Primals 'EYE TEST' apple tile, inspiration pull 2026-11-17, electric toothbrush query, 9d, top 3.6%: huge title on white, one object centered, three highlighter-strip lines, underlined link). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_quit_at_62_chips": {
+   "file": "reference/benchmarks/rv_ref_w47t_quit_at_62_chips.jpg",
+   "use_for": "LAYOUT reference only (Natural Wellness Magazine 'I Quit Coffee at 62' tile, inspiration pull 2026-11-17, water flosser query, 17d, top 2.8%: three-line first-person headline on a dark field, product photo, four white benefit chips with icons). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_old_phone_sms": {
+   "file": "reference/benchmarks/rv_ref_w47t_old_phone_sms.jpg",
+   "use_for": "LAYOUT reference only (Hydro Car Care old Nokia SMS close-up, inspiration pull 2026-11-17, oral care query, 20d, top 0.3%: a real old candybar phone, green LCD showing one text message, nothing else). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_dark_text_post_list": {
+   "file": "reference/benchmarks/rv_ref_w47t_dark_text_post_list.jpg",
+   "use_for": "LAYOUT reference only (The Job Search School dark text post, inspiration pull 2026-11-17, back pain relief query, 12d, top 5.1%: black background native post, avatar + name, bold opening line, short paragraphs, arrow list, closing proof paragraph). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_caption_box_fixed_it": {
+   "file": "reference/benchmarks/rv_ref_w47t_caption_box_fixed_it.jpg",
+   "use_for": "LAYOUT reference only (myota 'I was hitting my protein targets... This fixed it' raw photo, inspiration pull 2026-11-17, back pain relief query, 11d, top 1.8%: raw close-up product photo with a white caption box top-left and a small bullet caption box lower). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_candid_workshop_man": {
+   "file": "reference/benchmarks/rv_ref_w47t_candid_workshop_man.jpg",
+   "use_for": "LAYOUT reference only (Spy & Survival Briefing candid workshop photo, inspiration pull 2026-11-17, electric toothbrush query, 14d, top 2.3%: an older man in a dim room leaning over a small glowing device, documentary feel, no designed elements). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_fb_post_two_photos": {
+   "file": "reference/benchmarks/rv_ref_w47t_fb_post_two_photos.jpg",
+   "use_for": "LAYOUT reference only (TheraBox native post with two photos and a reply, inspiration pull 2026-11-17, oral care query, 9d, top 0.9%: white post card, avatar + name + handle, casual lowercase story, two photos side by side, one reply under it). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_split_bf_half_off": {
+   "file": "reference/benchmarks/rv_ref_w47t_split_bf_half_off.jpg",
+   "use_for": "LAYOUT reference only (Obvi 'BLACK FRIDAY / Still thinking about it? Now it's literally half off' tile, inspiration pull 2026-11-17, gut health query, 7d, top 3.1%: black field, giant white BLACK FRIDAY type, product centered, one line of copy, red offer pill). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_denture_wearers_freely": {
+   "file": "reference/benchmarks/rv_ref_w47t_denture_wearers_freely.jpg",
+   "use_for": "LAYOUT reference only (Anna Janeston / Zyara 'DENTURE WEARERS EAT FREELY AGAIN' tile, inspiration pull 2026-11-17, denture cleaner query, 7d, top 3.6%: two-size stacked call-out headline, couple photo behind, product center, price block left, bottom banner with a highlighted word). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_zima_hand_above_seal": {
+   "file": "reference/benchmarks/rv_ref_w47t_zima_hand_above_seal.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental FR 'Ne brossez plus jamais votre gouttière' tile, rivals pull 2026-11-17, 0d (new): light grey field, two-line bold caps headline top-left, one small sub line, a hand lowering the appliance from the top right, pods on the floor of the frame, award seal bottom right). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_four_panel_night_week": {
+   "file": "reference/benchmarks/rv_ref_w47t_four_panel_night_week.jpg",
+   "use_for": "LAYOUT reference only (Sedgeia 'THE LEAK FINALLY SEALED' tile, inspiration pull 2026-11-17, night guard query, 12d, top 0.8%: big two-line headline on a pale sage field over a 2x2 grid of photos labelled NIGHT / WEEK, small product column). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_wont_work_in_a_week": {
+   "file": "reference/benchmarks/rv_ref_w47t_wont_work_in_a_week.jpg",
+   "use_for": "LAYOUT reference only (Petscy 'No, It Won't Work in a Week.' tile, inspiration pull 2026-11-17, gum health query, 7d, top 0.5%: blunt honest headline, one sub line with a blue link phrase, product left, DAY 1 -> DAY 30 dot timeline right, 40% OFF + price + free shipping, round seal). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_two_panel_hard_part": {
+   "file": "reference/benchmarks/rv_ref_w47t_two_panel_hard_part.jpg",
+   "use_for": "LAYOUT reference only (Beeya 'Grinding isn't the hard part. / Sticking with it is.' two-panel tile, inspiration pull 2026-11-17, teeth grinding query, 20d, top 37.9%: two stacked warm photos, a short line on each, small button on the second). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_sonic_difference_timer": {
+   "file": "reference/benchmarks/rv_ref_w47t_sonic_difference_timer.jpg",
+   "use_for": "LAYOUT reference only (Sonic Dental DE 'Der Unterschied?' tile, rivals pull 2026-11-17, 133d, top 32%: light grey gradient, short question headline, round black timer, product right with appliances floating left, colored pill bottom). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_make_the_switch_pill": {
+   "file": "reference/benchmarks/rv_ref_w47t_make_the_switch_pill.jpg",
+   "use_for": "LAYOUT reference only (Dropps 'MAKE THE SWITCH TO A CLEAN HOME' tile, inspiration pull 2026-11-17, sleep apnea snoring query, 7d, top 1.7%: mint offer pill top, huge two-line headline, products resting on folded towels, thin label lines). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_toggle_off_on": {
+   "file": "reference/benchmarks/rv_ref_w47t_toggle_off_on.jpg",
+   "use_for": "LAYOUT reference only (Dr.Dent 'YELLOW TONES OFF / WHITE TEETH ON' tile, inspiration pull 2026-11-17, mouthwash query, 7d, top 9.1%: two giant toggle switches with OFF/ON words, product center-right, one button). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_think_again_two_faces": {
+   "file": "reference/benchmarks/rv_ref_w47t_think_again_two_faces.jpg",
+   "use_for": "LAYOUT reference only (Invisalign 'THINK ... ? THINK AGAIN.' tile, inspiration pull 2026-11-17, invisalign aligners query, 12d: bright blue field, caps question top, two rounded photos side by side, 'THINK AGAIN.' bottom left, product bottom right). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_mirror_tray_seconds": {
+   "file": "reference/benchmarks/rv_ref_w47t_mirror_tray_seconds.jpg",
+   "use_for": "LAYOUT reference only (Dr.Dent '30 seconds to a brighter-looking smile' tile, inspiration pull 2026-11-17, mouthwash query, 7d, top 8.5%: light textured field, two-line time-promise headline, product on a mirror tray, one blue button). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_zima_pov_story": {
+   "file": "reference/benchmarks/rv_ref_w47t_zima_pov_story.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental 'POV: you just found what was missing in your GRWM routine' story-style photo, rivals pull 2026-11-17, 0d (new): raw phone photo in story UI (progress bar, avatar, username), one white rounded caption bubble). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_w47t_countdown_tiles_kit": {
+   "file": "reference/benchmarks/rv_ref_w47t_countdown_tiles_kit.jpg",
+   "use_for": "LAYOUT reference only (Maeva 'OFFER ENDS SUNDAY / 42% off the Day-1 Starter Kit' tile, inspiration pull 2026-11-17, dental probiotic query, 7d, top 7%: dark field, row of four white number tiles, product center, big percent line, kit name, pill button, tiny return-price line). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
   }
  },
  "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots).",
