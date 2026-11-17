@@ -1275,6 +1275,86 @@
     "i2_tiles": {
       "file": "reference/benchmarks/insp_Hike_detail_tiles.png",
       "use_for": "USER-SENT FORMAT ref 2026-11-16: Hike: 2x2 rounded close-up detail tiles with beige label chips on the left, large floating shoe on the right, huge two-line headline (thin line + bold line), subline, two solid green CTA buttons"
+    },
+    "rv417_one_goal": {
+      "file": "reference/benchmarks/rv417_one_goal.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): OrthoFlexx, 18d running, wellness growth rank 1. Copy the layout only, never its words."
+    },
+    "rv417_tried_gave_up_stack": {
+      "file": "reference/benchmarks/rv417_tried_gave_up_stack.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): Vsock, 12d running, wellness growth rank 3. Copy the layout only, never its words."
+    },
+    "rv417_tried_everything_red_bar": {
+      "file": "reference/benchmarks/rv417_tried_everything_red_bar.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): OrthoFlexx, 18d running, wellness growth rank 5. Copy the layout only, never its words."
+    },
+    "rv417_friends_walk_caption": {
+      "file": "reference/benchmarks/rv417_friends_walk_caption.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): Everstride, 18d running, wellness growth rank 6. Copy the layout only, never its words."
+    },
+    "rv417_price_yes_really": {
+      "file": "reference/benchmarks/rv417_price_yes_really.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): Sorviq, 10d running, wellness growth rank 7. Copy the layout only, never its words."
+    },
+    "rv417_hand_story_textbox": {
+      "file": "reference/benchmarks/rv417_hand_story_textbox.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): Tiny Explorings, 40d running, wellness growth rank 9. Copy the layout only, never its words."
+    },
+    "rv417_red_flags_ring": {
+      "file": "reference/benchmarks/rv417_red_flags_ring.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): The Nerve Brand, 11d running, wellness growth rank 11. Copy the layout only, never its words."
+    },
+    "rv417_big_word_legs": {
+      "file": "reference/benchmarks/rv417_big_word_legs.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): Onecompress, 12d running, wellness growth rank 14. Copy the layout only, never its words."
+    },
+    "rv417_confession_list_worker": {
+      "file": "reference/benchmarks/rv417_confession_list_worker.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): Koprez, 17d running, wellness growth rank 15. Copy the layout only, never its words."
+    },
+    "rv417_not_typical_ripple": {
+      "file": "reference/benchmarks/rv417_not_typical_ripple.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): Hinge Health, 16d running, wellness growth rank 17. Copy the layout only, never its words."
+    },
+    "rv417_omg_reveal": {
+      "file": "reference/benchmarks/rv417_omg_reveal.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): Onecompress, 18d running, wellness growth rank 18. Copy the layout only, never its words."
+    },
+    "rv417_comment_circled_blocks": {
+      "file": "reference/benchmarks/rv417_comment_circled_blocks.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): Treatmedy, 16d running, wellness growth rank 28. Copy the layout only, never its words."
+    },
+    "rv417_calendar_date": {
+      "file": "reference/benchmarks/rv417_calendar_date.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): Wander Plus, 16d running, wellness growth rank 29. Copy the layout only, never its words."
+    },
+    "rv417_this_is_frame": {
+      "file": "reference/benchmarks/rv417_this_is_frame.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): Mothers Earth, 10d running, wellness growth rank 31. Copy the layout only, never its words."
+    },
+    "rv417_cheap_italic_plinths": {
+      "file": "reference/benchmarks/rv417_cheap_italic_plinths.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): Olevra., 20d running, wellness growth rank 32. Copy the layout only, never its words."
+    },
+    "rv417_stepprs_face_split": {
+      "file": "reference/benchmarks/rv417_stepprs_face_split.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): Stepprs, 39d running, wellness growth rank 33. Copy the layout only, never its words."
+    },
+    "rv417_didnt_fail_drawer": {
+      "file": "reference/benchmarks/rv417_didnt_fail_drawer.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): TheraPexa, 32d running, wellness growth rank 37. Copy the layout only, never its words."
+    },
+    "rv417_question_targets_checklist": {
+      "file": "reference/benchmarks/rv417_question_targets_checklist.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): The Vibit, 10d running, wellness growth rank 39. Copy the layout only, never its words."
+    },
+    "rv417_hike_40_this_week_refund": {
+      "file": "reference/benchmarks/rv417_hike_40_this_week_refund.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): HIKE Footwear, 0d running, wellness growth rank rival. Copy the layout only, never its words."
+    },
+    "rv417_hike_almost_sold_out": {
+      "file": "reference/benchmarks/rv417_hike_almost_sold_out.jpg",
+      "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): HIKE Footwear, 44d running, wellness growth rank rival. Copy the layout only, never its words."
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",

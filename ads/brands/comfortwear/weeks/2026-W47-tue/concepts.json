@@ -1,0 +1,549 @@
+{
+  "week": "2026-W47-tue",
+  "notes": "Tuesday batch 2026-11-17 (scheduled run). 20 concepts, 50/50 per split_2026_11_13: 10 iterations of current winners (JW1, NH3 top 7-day spenders; NJ1, NL1 new 7-day winners; KW1, B6, C1, C3, H3, I6, I19; seasonal W47 nurse statics) in new formats from this run's Atria wellness growth list + 10 net-new. Standard offer stack (BF theme is W48). English only, 4:5 feed, Kie.ai 2K.",
+  "concepts": [
+    {
+      "id": "T47_01_insoles_ice_still_heel_pain",
+      "lang": "en",
+      "group": "iteration",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "rv417_confession_list_worker",
+      "format_ref": true,
+      "format_name": "stacked_tried_list_confession_worker_photo",
+      "format_source": "Koprez (wellness growth rank 15, 17d running, +106 places in 7d)",
+      "angle": "Nurse x plantar fasciitis: stacked confession of what she tried over a real work photo (Koprez format). Answers Stepprs' \"I've tried so many insoles for my plantar fasciitis\" (their 424-day testimonial): insoles alone were not enough.",
+      "based_on": "SOURCE: RTGv1_C1 Emily RN static ($752, ROAS 4.47, 30d): \"I'm a nurse with plantar fasciitis... always ended up hurting my feet after 3 12s in a row\" + RTGv1_B6 ($4,152, 3.35). Customer voice: what she tried (insoles first, then ice, stretching). Competitor answer: Stepprs insole testimonial. Layout: Koprez rank 15.",
+      "headline": "Insoles. Ice. Stretching. Still heel pain after 3 12s?",
+      "offer": "none",
+      "tags": [
+        "FP",
+        "PF",
+        "nurse",
+        "competitor_answer",
+        "iteration"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. A real phone photo in a bright hospital hallway with light walls: a nurse in her 50s in navy scrubs sits on a bench, leaning forward to touch the heel of her black-with-purple shoe from the reference, shoe large and sharp in the lower right (about 35% of the frame). Upper left, stacked heavy text lines all the same size, left aligned, in black on the light wall: \"Insoles.\" \"Ice.\" \"Stretching.\" \"Still heel pain\" \"after 3 12s?\" No other text. Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc",
+      "competitor_answer": "Stepprs \"I've tried so many insoles for my plantar fasciitis\" (Walk on Clouds, 424d)",
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {
+            "edit": "Remove the text \"Still heel pain\" and \"after 3 12s?\"",
+            "ms": 900
+          },
+          {
+            "edit": "Remove the text \"Stretching.\"",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "T47_02_five_red_flags_12s",
+      "lang": "en",
+      "group": "iteration",
+      "persona": "nurse",
+      "colorway": "all_black",
+      "benchmark": "rv417_red_flags_ring",
+      "format_ref": true,
+      "format_name": "red_flag_icons_ring_around_product",
+      "format_source": "The Nerve Brand (wellness growth rank 11, 11d running, +144 places in 7d)",
+      "angle": "Nurse x knee/back pain: \"5 red flags\" ring of small red flag icons with short symptom labels around the shoe (Nerve Brand format).",
+      "based_on": "SOURCE: seasonal W47 \"10 Reasons Healthcare Workers\" nurse statics ($59,585 and $42,052 this week last year) + RTGv1_H3 \"Best 12-hour shift shoes\" ($2,676, ROAS 2.87). Labels are feedback-sheet phrases (\"pain in feet and knees after standing for 12 hours\", \"limping to my car\").",
+      "headline": "5 red flags your shoes can't handle 12s.",
+      "offer": "line",
+      "tags": [
+        "FP",
+        "knee_back",
+        "nurse",
+        "iteration"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. Very light warm grey background. Top: heavy black headline, two lines, same size: \"5 red flags your shoes\" / \"can't handle 12s.\" In the center the all-black shoe from the reference in a straight side profile, about 40% of the width, soft shadow, light rim light. Around it five small red flag icons, each with a short bold black label under it: \"Heel ache by hour 4\", \"Sore knees after shift\", \"Back aches at home\", \"Toes squeezed\", \"Limping to the car\". Bottom: one line in black heavy text \"40% OFF + FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\". TYPE (strict): every word is set in Poppins ExtraBold / Poppins SemiBold, a WIDE round geometric sans-serif; NEVER a condensed, narrow, compressed or tall-thin typeface (no Oswald, Bebas, Anton, Impact, League Gothic look). All lines of the headline have identical width style, size and weight. Keep every text element at least 8% of the image width away from the left, right, top and bottom edges. Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc"
+    },
+    {
+      "id": "T47_03_cheap_nurse_shoe_59",
+      "lang": "en",
+      "group": "iteration",
+      "persona": "nurse",
+      "colorway": "black_white",
+      "benchmark": "rv417_cheap_italic_plinths",
+      "format_ref": true,
+      "format_name": "cheap_italic_word_price_product_plinths",
+      "format_source": "Olevra. (wellness growth rank 32, 20d running, +43 places in 7d)",
+      "angle": "Nurse x plantar fasciitis + price: \"The cheap nurse shoe is only $59.95\" over the shoe on stone plinths (Olevra smart-ring format).",
+      "based_on": "SOURCE: RTGv1_B6 \"I spent $60\" UGC ($4,152, ROAS 3.35) and Emily RN \"so affordable if you're living on nurse wages\" (C1, 4.47). Price pattern from H3 \"$ strike-through\" ($2,676, 2.87). Layout: Olevra rank 32.",
+      "headline": "The cheap nurse shoe is only $59.95.",
+      "offer": "price",
+      "tags": [
+        "FP",
+        "PF",
+        "nurse",
+        "iteration",
+        "price"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. Soft neutral beige studio background. Top center, heavy black text, two lines, same size: \"The cheap nurse shoe\" / \"is only $59.95.\" (the word \"cheap\" in italic of the same heavy weight and size). Below it the black-and-white shoe from the reference standing on a round light stone plinth, a second shoe of the pair on a lower plinth beside it, both large and sharp (pair about 55% of the width). Under the plinths: \"Arch support · Wide toe box · Slip-resistant grip\" in heavy black text, then a small line \"Was $120\" with \"$120\" struck through, then \"FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\". Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc"
+    },
+    {
+      "id": "T47_04_price_yes_really_bunions",
+      "lang": "en",
+      "group": "iteration",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "format_ref": false,
+      "format_name": "giant_price_yes_really_product",
+      "format_source": "Sorviq (wellness growth rank 7, 10d running, +161 places in 7d)",
+      "angle": "Nurse x bunions: giant \"$59.95\" with \"for shoes that make room for bunions. Yes, really.\" next to the shoe (Sorviq \"$13 a tin. Yes, really.\" format). Answers Hike \"Half price comfort, $69.95 was $140\".",
+      "based_on": "SOURCE: RTGv1_I19 \"SELLING OUT IN 4 DAYS / $59 per pair\" static ($656, ROAS 1.96, new this pull) + RTGv1_I6 Warning 48 hours ($1,351, 3.66). Customer phrase \"room for my bunions\". Competitor answer: Hike half-price $69.95 statics. Layout: Sorviq rank 7.",
+      "headline": "$59.95. Room for your bunions. Yes, really.",
+      "offer": "price",
+      "tags": [
+        "FP",
+        "bunions",
+        "nurse",
+        "competitor_answer",
+        "iteration",
+        "price"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. Clean off-white background. A small red heavy label at top left: \"NURSE SHOES\". Huge heavy black \"$59.95\" across the left two-thirds, below it heavy black text: \"Room for your bunions.\" then \"Yes, really.\" The shoe sits ONLY in the lower half: the navy-and-bright-blue shoe from the reference in three-quarter view, large (about 45% of the width), lower right, with clear empty space between it and every text line. Bottom line in heavy black text: \"Was $120 · FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\" with \"$120\" struck through. The shoe sits in the lower right and never overlaps or touches any text; the text column stays in the left 55% of the width. IMPORTANT: the attached reference ad uses a condensed typeface; do NOT copy its typeface. Our ads use Poppins: wide, round, geometric letters (the letter O is a near-perfect circle), never tall and narrow. TYPE (strict): every word is set in Poppins ExtraBold / Poppins SemiBold, a WIDE round geometric sans-serif; NEVER a condensed, narrow, compressed or tall-thin typeface (no Oswald, Bebas, Anton, Impact, League Gothic look). All lines of the headline have identical width style, size and weight. Keep every text element at least 8% of the image width away from the left, right, top and bottom edges. Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc",
+      "competitor_answer": "Hike \"Half-price comfort / $69.95 was $140\" statics",
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {
+            "edit": "Remove \"Yes, really.\"",
+            "ms": 900
+          },
+          {
+            "edit": "Remove \"$59.95\"",
+            "ms": 900
+          }
+        ]
+      },
+      "layout_ref_note": "layout from rv417_price_yes_really described in the prompt; reference image not attached on the final render (it pulled condensed type / generic shoes)",
+      "benchmark_layout": "rv417_price_yes_really"
+    },
+    {
+      "id": "T47_05_er_nurse_comment_circled",
+      "lang": "en",
+      "group": "iteration",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "rv417_comment_circled_blocks",
+      "format_ref": true,
+      "format_name": "fb_comment_red_circle_stacked_text_blocks",
+      "format_source": "Treatmedy (wellness growth rank 28, 16d running, +52 places in 7d)",
+      "angle": "Nurse x knee/back: native Facebook comment at the top with one phrase circled in red, below it big text blocks and the shoe (Treatmedy format).",
+      "based_on": "SOURCE: RTGv1_C3 \"Didn't buy yet? Read what customers are saying\" comments static ($2,025, ROAS 3.91) + C1 Emily RN \"4 12s in a row at the ER\". Comment text from feedback-sheet phrases (\"pain in feet and knees after standing for 12 hours\").",
+      "headline": "Built for 12-hour shifts.",
+      "offer": "none",
+      "tags": [
+        "FP",
+        "knee_back",
+        "nurse",
+        "iteration",
+        "native"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. Light blue-grey background. Top: a white Facebook-style comment card (round avatar of a woman in her 50s, name \"Denise R.\", text in dark grey): \"ER nurse here. My feet, knees and back ached after every 12. These are the ONLY shoes that changed that!!!\" with a hand-drawn red ellipse around \"the ONLY shoes that changed that\", small grey \"Like Reply 3d\". Below, on the left, three solid navy blocks with white heavy text, same size: \"Built for\" / \"12-hour\" / \"shifts.\" On the right the black-with-purple shoe from the reference, large (about 40% of the width), three-quarter view. No platform logo, no star rating. Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc"
+    },
+    {
+      "id": "T47_06_didnt_fail_disney_drawer",
+      "lang": "en",
+      "group": "iteration",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "benchmark": "rv417_didnt_fail_drawer",
+      "format_ref": true,
+      "format_name": "you_didnt_fail_wrong_tools_drawer",
+      "format_source": "TheraPexa (wellness growth rank 37, 32d running, +38 places in 7d)",
+      "angle": "Disney x sore feet: \"You didn't fail at Disney. You packed the wrong shoes.\" over a drawer of worn generic running sneakers (TheraPexa format), our shoe on top.",
+      "based_on": "SOURCE: TOFV1_JW1 Disney 7-shoe test video ($5,476 last 7 days, ROAS 1.32; full transcript read): \"By hour 5, both of our testers were looking for somewhere to sit\", \"the line doesn't get shorter when your feet start aching\". Layout: TheraPexa rank 37.",
+      "headline": "You didn't fail at Disney. You packed the wrong shoes.",
+      "offer": "none",
+      "tags": [
+        "FP",
+        "sore_feet",
+        "disney",
+        "iteration"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. Cream background. Top, heavy black text, two lines, same size: \"You didn't fail at Disney.\" / \"You packed the wrong shoes.\" Middle: an overhead real photo of an open wooden drawer filled with worn plain generic unbranded lace-up running sneakers in grey and white (NOT sock-knit shoes, no stripes, no logo shapes) and flattened foam insoles; on top of them, clearly separate and larger, the burgundy-red shoe from the reference in three-quarter view. Bottom, heavy black text: \"Running shoes are built for 40-minute runs. Park days are 10 hours.\" Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc"
+    },
+    {
+      "id": "T47_07_this_is_a_travel_shoe",
+      "lang": "en",
+      "group": "iteration",
+      "persona": "traveler",
+      "colorway": "black_mint",
+      "benchmark": "rv417_this_is_frame",
+      "format_ref": true,
+      "format_name": "this_is_x_frame_vertical_side_text",
+      "format_source": "Mothers Earth (wellness growth rank 31, 10d running, +45 places in 7d)",
+      "angle": "Europe x cobblestones: \"THIS IS A TRAVEL SHOE.\" over a woman holding up the shoe on a cobblestone street, framed by vertical side text (Mothers Earth \"This is laundry detergent\" format).",
+      "based_on": "SOURCE: TOFV1_NJ1 Europe cobblestone test video (NEW winner: launched this week, $869, ROAS 2.03; full transcript read): \"Cobblestones in Lisbon, Barcelona, and Paris\", \"over 10 miles a day\", \"foam flattens out by hour 4\". Layout: Mothers Earth rank 31.",
+      "headline": "This is a travel shoe.",
+      "offer": "line",
+      "tags": [
+        "FP",
+        "sore_feet",
+        "europe",
+        "iteration"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. A real daytime photo on a sunny pale-stone cobblestone street in Lisbon with light buildings: a smiling woman in her 60s holds up the black-and-turquoise shoe from the reference toward the camera, shoe large and sharp (about 35% of the frame). The photo sits inside a thick solid white frame. Top band of the frame: heavy black \"THIS IS A TRAVEL SHOE.\" The frame is wide (side borders about 12% of the width each) so text sits well inside the canvas: left and right sides of the frame carry heavy black vertical text reading upward \"10 MILES ON COBBLESTONES\", centered in the border, at least 4% from the outer edge. Bottom band of the frame, heavy black: \"40% OFF + FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\". TYPE (strict): every word is set in Poppins ExtraBold / Poppins SemiBold, a WIDE round geometric sans-serif; NEVER a condensed, narrow, compressed or tall-thin typeface (no Oswald, Bebas, Anton, Impact, League Gothic look). All lines of the headline have identical width style, size and weight. Keep every text element at least 8% of the image width away from the left, right, top and bottom edges. Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc"
+    },
+    {
+      "id": "T47_08_not_your_typical_running_shoe",
+      "lang": "en",
+      "group": "iteration",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "benchmark": "rv417_not_typical_ripple",
+      "format_ref": true,
+      "format_name": "not_your_typical_minimal_ripple_rings",
+      "format_source": "Hinge Health (wellness growth rank 17, 16d running, +87 places in 7d)",
+      "angle": "Disney x heel pain: \"Not your typical running shoe.\" minimal leg-and-shoe photo with soft concentric rings at the heel and three thin-line labels (Hinge Health format).",
+      "based_on": "SOURCE: TOFV1_NL1 \"Hokas and Brooks are the worst shoes you can wear for Disney\" video (NEW winner: launched this week, $719, ROAS 1.82; full transcript read): \"built to move a runner forward for 40 minutes\", \"foam turning flat\" (brand names never used in statics). Layout: Hinge Health rank 17.",
+      "headline": "Not your typical running shoe. Built for 10-hour park days.",
+      "offer": "none",
+      "tags": [
+        "FP",
+        "PF",
+        "disney",
+        "iteration"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. Plain very light warm-grey background. Left side, heavy black text, left aligned, same size: \"Not your typical\" / \"running shoe.\" and below it smaller heavy black \"Built for 10-hour park days.\" Right side: a woman's lower leg in light khaki capris standing, wearing the navy-and-bright-blue shoe from the reference in side view, large (about 40% of the width), with three soft thin concentric light-blue rings around the heel. Three thin black lines lead from the shoe to short heavy black labels on the left: \"Cushioned heel\", \"Arch support\", \"Grip for wet paths\". Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc"
+    },
+    {
+      "id": "T47_09_disney_calendar_plus_size",
+      "lang": "en",
+      "group": "iteration",
+      "persona": "plus_size",
+      "colorway": "purple",
+      "benchmark": "rv417_calendar_date",
+      "format_ref": true,
+      "format_name": "calendar_page_product_on_date",
+      "format_source": "Wander Plus (wellness growth rank 29, 16d running, +48 places in 7d)",
+      "angle": "Plus-size x Disney x swelling: the shoe sitting on a big paper calendar with the trip date circled (Wander+ format).",
+      "based_on": "SOURCE: TOFV1_NH3 plus-size Disney park-day video ($5,131 last 7 days, ROAS 1.55; full transcript read): \"a park day is about 20,000 steps\", \"the shoes that fit at breakfast feel like they shrank two sizes\", \"the shoe is the part you can change before this trip\". Layout: Wander+ rank 29.",
+      "headline": "Disney in 3 weeks? Break them in now.",
+      "offer": "none",
+      "tags": [
+        "FP",
+        "swelling",
+        "plus_size",
+        "disney",
+        "iteration"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. Overhead real photo of a large pale pink and white paper wall calendar lying flat on a light table, big black date numbers; one date circled with a thick black marker and a small hand-drawn star next to it. The purple shoe from the reference lies across the circled date, large and sharp (about 40% of the frame), three-quarter view. Top, heavy black text, two lines, same size: \"Disney in 3 weeks?\" / \"Break them in now.\" Bottom right, heavy black text: \"Stretch-knit for feet that swell.\" / \"Built for plus-size park days.\" Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc",
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {
+            "edit": "Remove the shoe from the calendar",
+            "ms": 900
+          },
+          {
+            "edit": "Remove the bottom right text",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "T47_10_day_3_best_friend_plus_size",
+      "lang": "en",
+      "group": "iteration",
+      "persona": "plus_size",
+      "colorway": "grey_pink",
+      "format_ref": false,
+      "format_name": "friends_walk_back_photo_caption_sentence",
+      "format_source": "Everstride (wellness growth rank 6, 18d running, +161 places in 7d)",
+      "angle": "Plus-size x travel: two plus-size women walking side by side from behind on a trip, one caption sentence at the bottom (Everstride format).",
+      "based_on": "SOURCE: TOFV1_KW1 \"We asked 500 plus-sized women who've been to Disney\" ($6,130, ROAS 2.58, 30d; primary text \"hour 8 can be a very different story\") + MZ1/MZ2 plus-sized traveling. Customer voice: \"keep up with my family\". Layout: Everstride rank 6.",
+      "headline": "Day 3 of the trip. Still keeping up with your best friend.",
+      "offer": "none",
+      "tags": [
+        "comfort",
+        "plus_size",
+        "travel",
+        "iteration"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. A real candid phone photo, camera at knee height from the side and slightly behind, of two plus-size women in their 60s (US size 22-24, full calves and hips visible in cropped capri trousers) walking side by side on a bright pale cobblestone old-town street. The frame shows them from the hips down; their feet are the hero. BOTH wear the exact grey-and-pink shoe from the product reference (grey stretch-knit upper with the square dot pattern, pink accents, white wavy sole, bungee laces with toggles), each shoe large and sharp (about 20% of the width each), mid-stride. Never generic running sneakers. Bottom third over the light pavement, centered heavy white text with a soft shadow, three lines, same size: \"Day 3 of the trip.\" / \"Still keeping up\" / \"with your best friend.\" TYPE (strict): every word is set in Poppins ExtraBold / Poppins SemiBold, a WIDE round geometric sans-serif; NEVER a condensed, narrow, compressed or tall-thin typeface (no Oswald, Bebas, Anton, Impact, League Gothic look). All lines of the headline have identical width style, size and weight. Keep every text element at least 8% of the image width away from the left, right, top and bottom edges. Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc",
+      "layout_ref_note": "layout from rv417_friends_walk_caption described in the prompt; reference image not attached on the final render (it pulled condensed type / generic shoes)",
+      "benchmark_layout": "rv417_friends_walk_caption"
+    },
+    {
+      "id": "T47_11_one_goal_first_step",
+      "lang": "en",
+      "group": "net_new",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "benchmark": "rv417_one_goal",
+      "format_ref": true,
+      "format_name": "one_goal_giant_number_statement",
+      "format_source": "OrthoFlexx (wellness growth rank 1, 18d running, +292 places in 7d)",
+      "angle": "Nurse x plantar fasciitis (morning first step after a shift): \"You have 1 GOAL\" giant-number statement next to the shoe (OrthoFlexx format, growth rank 1).",
+      "based_on": "NEW FORMAT for the nurse PF angle. Copy from feedback phrases (\"first step out of bed\", \"3 12s\") and Notion COM121 \"Calling all nurses\". Layout: OrthoFlexx rank 1 (+292 places in 7 days).",
+      "headline": "You have 1 goal: get through 3 12s without dreading every step.",
+      "offer": "guarantee",
+      "tags": [
+        "FP",
+        "PF",
+        "nurse",
+        "net_new"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. Very light mint-blue flat background. Upper left, heavy black text left aligned: small line \"You have\", then a huge \"1 GOAL\", then \"To get through 3 12s\" / \"without dreading\" / \"every step.\" (these three lines the same size). Right side: the navy-and-bright-blue shoe from the reference, tilted slightly, large (about 40% of the width). Lower left, heavy black text: \"Arch support built in.\" / \"30-DAY MONEY-BACK GUARANTEE\". Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc"
+    },
+    {
+      "id": "T47_12_forty_off_not_comfier_refund",
+      "lang": "en",
+      "group": "net_new",
+      "persona": "nurse",
+      "colorway": "black_white",
+      "benchmark": "rv417_hike_40_this_week_refund",
+      "format_ref": true,
+      "format_name": "seated_legs_giant_percent_refund_bar",
+      "format_source": "HIKE Footwear (core competitor active static, 0d running)",
+      "angle": "Nurse x heel pain + offer: seated legs in light trousers with the shoe, giant \"40% OFF\", refund line and guarantee bar. Direct answer to Hike's new \"Before Black Friday 40% OFF only this week / No pain relief & better balance = FULL REFUND\".",
+      "based_on": "COMPETITOR ANSWER: Hike \"This Week Only: 40% Off Best-Sellers\" static (active, new). Our version uses only our approved offer and 30-day guarantee; no balance or pain-relief promise. Hook from Emily RN (C1, 4.47).",
+      "headline": "40% OFF. Not comfier after 30 days? Money back.",
+      "offer": "stack",
+      "tags": [
+        "FP",
+        "PF",
+        "nurse",
+        "competitor_answer",
+        "net_new",
+        "offer"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. Pale sky-blue background. Upper half: a real photo of a woman seated on an off-frame stool, her legs in light beige trousers crossed at the ankles, hands resting on her knee; BOTH shoes are worn ON HER FEET (feet inside the shoes, heels in the shoes), feet resting on the floor, the black-and-white shoes from the reference large and sharp (pair about 50% of the width), side view. Nothing floats. Lower half on the light background: small heavy black text \"FOR NURSES ON 12-HOUR SHIFTS\", then huge heavy red \"40% OFF\", then heavy black \"Not comfier after 30 days? Money back.\" At the bottom a solid navy bar with white heavy text \"FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\". TYPE (strict): every word is set in Poppins ExtraBold / Poppins SemiBold, a WIDE round geometric sans-serif; NEVER a condensed, narrow, compressed or tall-thin typeface (no Oswald, Bebas, Anton, Impact, League Gothic look). All lines of the headline have identical width style, size and weight. Keep every text element at least 8% of the image width away from the left, right, top and bottom edges. Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc",
+      "competitor_answer": "Hike \"Before Black Friday 40% OFF only this week, No pain relief = FULL REFUND\""
+    },
+    {
+      "id": "T47_13_omg_it_stretches_swelling",
+      "lang": "en",
+      "group": "net_new",
+      "persona": "comfort_only",
+      "colorway": "light_grey",
+      "benchmark": "rv417_omg_reveal",
+      "format_ref": true,
+      "format_name": "omg_reveal_big_statement_leg_photo",
+      "format_source": "Onecompress (wellness growth rank 18, 18d running, +84 places in 7d)",
+      "angle": "Test pain: swelling. \"OMG... it stretches.\" big reveal type next to a hand stretching the knit upper (Onecompress format, made light).",
+      "based_on": "NEW ANGLE in the test slot: swelling (\"my feet swell\" in the feedback sheet; NH3 transcript \"the shoes that fit at breakfast feel like they shrank two sizes\"). Layout: Onecompress rank 18, rebuilt on a light background (no dark backgrounds rule).",
+      "headline": "OMG... it stretches when your feet swell.",
+      "offer": "none",
+      "tags": [
+        "FP",
+        "swelling",
+        "test_pain",
+        "net_new"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. Light warm-grey background. Left side, very large heavy black text, left aligned, four lines, all exactly the same size, weight and letter width: \"OMG...\" / \"It stretches\" / \"when your feet\" / \"swell.\" Right side, a real close photo: a woman's hand gently pulling the stretch-knit upper of the light-grey shoe from the reference so the knit visibly stretches, shoe large (about 45% of the width), sharp knit texture. Small heavy black line bottom left: \"Stretch-knit upper · Wide toe box\". TYPE (strict): every word is set in Poppins ExtraBold / Poppins SemiBold, a WIDE round geometric sans-serif; NEVER a condensed, narrow, compressed or tall-thin typeface (no Oswald, Bebas, Anton, Impact, League Gothic look). All lines of the headline have identical width style, size and weight. Keep every text element at least 8% of the image width away from the left, right, top and bottom edges. Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc",
+      "gif": {
+        "build": true,
+        "first_ms": 2400,
+        "frames": [
+          {
+            "edit": "Remove the hand; the shoe knit is relaxed, not stretched",
+            "ms": 900
+          },
+          {
+            "edit": "Remove the words \"when your feet\" and \"swell.\"",
+            "ms": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "T47_14_heel_pain_disney_built_for",
+      "lang": "en",
+      "group": "net_new",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "benchmark": "rv417_question_targets_checklist",
+      "format_ref": true,
+      "format_name": "condition_question_built_for_checklist",
+      "format_source": "The Vibit (wellness growth rank 39, 10d running, +37 places in 7d)",
+      "angle": "Disney x plantar fasciitis: \"Heel pain at Disney? These are built for:\" + green-check list + shoe (Vibit \"Sciatica? These pods target:\" format).",
+      "based_on": "NEW FORMAT for travel x PF. List words from JW1/NL1 transcripts (\"standing in line for an hour\", \"afternoon shower... wet surfaces\", \"feet that swell\") and the 20,000-step Notion hook (COM320). Layout: The Vibit rank 39.",
+      "headline": "Heel pain at Disney? These are built for:",
+      "offer": "none",
+      "tags": [
+        "FP",
+        "PF",
+        "disney",
+        "net_new"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. White background. Top, heavy black text, two lines, same size, the longest line no wider than 80% of the canvas: \"Heel pain at Disney?\" / \"These are built for:\". Left column: five rows, each a solid green check box followed by heavy black text: \"20,000-step days\", \"Hours in line\", \"Wet park paths\", \"Feet that swell\", \"Day 3 and beyond\". Right side: the burgundy-red shoe from the reference in three-quarter view, large (about 40% of the width). No button. IMPORTANT: the attached reference ad uses a condensed typeface; do NOT copy its typeface. Our ads use Poppins: wide, round, geometric letters (the letter O is a near-perfect circle), never tall and narrow. TYPE (strict): every word is set in Poppins ExtraBold / Poppins SemiBold, a WIDE round geometric sans-serif; NEVER a condensed, narrow, compressed or tall-thin typeface (no Oswald, Bebas, Anton, Impact, League Gothic look). All lines of the headline have identical width style, size and weight. Keep every text element at least 8% of the image width away from the left, right, top and bottom edges. Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc"
+    },
+    {
+      "id": "T47_15_tried_walking_shoes_gave_up",
+      "lang": "en",
+      "group": "net_new",
+      "persona": "traveler",
+      "colorway": "all_black",
+      "benchmark": "rv417_tried_gave_up_stack",
+      "format_ref": true,
+      "format_name": "tried_x_gave_up_stacked_type_over_photo",
+      "format_source": "Vsock (wellness growth rank 3, 12d running, +215 places in 7d)",
+      "angle": "Europe x sore feet: huge stacked white type \"Tried walking shoes in Europe and gave up?\" over a bright packing photo (Vsock format).",
+      "based_on": "NEW FORMAT for the Europe angle. Copy from Notion COM18 \"I CRIED FROM FOOT PAIN IN EUROPE. I TRIED 5 SNEAKERS\" and NJ1 transcript (\"flattens out by hour 4 on cobblestones\"). Layout: Vsock rank 3.",
+      "headline": "Tried walking shoes in Europe and gave up? Try ComfortWear.",
+      "offer": "none",
+      "tags": [
+        "FP",
+        "sore_feet",
+        "europe",
+        "net_new"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. A bright real photo from above of an open light-grey suitcase on a white hotel bed, neatly packed clothes, the all-black shoe from the reference in a straight side profile on top of the clothes, large (about 40% of the width), light rim light, clearly visible against the light clothes. The top 40% of the image is a clean bright white wall and bed headboard area with no clutter. On it, huge heavy BLACK text, left aligned, same size: \"Tried walking\" / \"shoes in Europe\" / \"and gave up?\" Below in heavy black: \"Try ComfortWear.\" Bottom right a solid navy pill with white text \"Built for cobblestones\". IMPORTANT: the attached reference ad uses a condensed typeface; do NOT copy its typeface. Our ads use Poppins: wide, round, geometric letters (the letter O is a near-perfect circle), never tall and narrow. TYPE (strict): every word is set in Poppins ExtraBold / Poppins SemiBold, a WIDE round geometric sans-serif; NEVER a condensed, narrow, compressed or tall-thin typeface (no Oswald, Bebas, Anton, Impact, League Gothic look). All lines of the headline have identical width style, size and weight. Keep every text element at least 8% of the image width away from the left, right, top and bottom edges. Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc"
+    },
+    {
+      "id": "T47_16_roomy_plus_size_nurse",
+      "lang": "en",
+      "group": "net_new",
+      "persona": "plus_size",
+      "colorway": "black_purple",
+      "format_ref": false,
+      "format_name": "big_word_statement_legs_badge",
+      "format_source": "Onecompress (wellness growth rank 14, 12d running, +119 places in 7d)",
+      "angle": "Plus-size nurse x toe room: giant one-word statement \"Roomy.\" with legs in scrubs and a round offer badge (Onecompress \"Full leg\" format). Answers Hike \"Designed for heavier women\" (49d).",
+      "based_on": "NEW FORMAT for the plus-size nurse mash-up. Copy from Notion COM284 \"stop taking shoe advice from people who don't walk in your body\" and feedback \"room for my bunions\". Competitor answer: Hike \"Designed for / Engineered for heavier women\" statics. Layout: Onecompress rank 14.",
+      "headline": "Roomy. For plus-size nurses on 12-hour shifts.",
+      "offer": "stack",
+      "tags": [
+        "comfort",
+        "toe_room",
+        "plus_size",
+        "nurse",
+        "competitor_answer",
+        "net_new",
+        "offer"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. Clean off-white background. RIGHT half: a real photo of a plus-size nurse (US size 22-24, full hips, thighs and calves clearly visible) from the waist down in navy scrub pants, standing in a relaxed walking stance, camera low near the floor so the black-with-purple shoes from the reference are large and sharp in the lower half (pair about 45% of the width). LEFT half, starting 9% in from the left edge and never reaching the middle of the canvas, a large heavy black word \"Roomy.\" (about 30% of the canvas width) and below it heavy black text, two lines, same size: \"For plus-size nurses\" / \"on 12-hour shifts.\" Below that, in the left half, a solid navy circle badge with white heavy text \"40% OFF\". Bottom line heavy black: \"FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\". IMPORTANT: the attached reference ad uses a condensed typeface; do NOT copy its typeface. Our ads use Poppins: wide, round, geometric letters (the letter O is a near-perfect circle), never tall and narrow. TYPE (strict): every word is set in Poppins ExtraBold / Poppins SemiBold, a WIDE round geometric sans-serif; NEVER a condensed, narrow, compressed or tall-thin typeface (no Oswald, Bebas, Anton, Impact, League Gothic look). All lines of the headline have identical width style, size and weight. Keep every text element at least 8% of the image width away from the left, right, top and bottom edges. Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc",
+      "competitor_answer": "Hike \"Designed for heavier women\" (49d) and \"Engineered for heavier women\"",
+      "layout_ref_note": "layout from rv417_big_word_legs described in the prompt; reference image not attached on the final render (it pulled condensed type / generic shoes)",
+      "benchmark_layout": "rv417_big_word_legs"
+    },
+    {
+      "id": "T47_17_park_day_3_hand_story",
+      "lang": "en",
+      "group": "net_new",
+      "persona": "plus_size",
+      "colorway": "black_mint",
+      "benchmark": "rv417_hand_story_textbox",
+      "format_ref": true,
+      "format_name": "hand_held_product_story_textbox",
+      "format_source": "Tiny Explorings (wellness growth rank 9, 40d running, +145 places in 7d)",
+      "angle": "Plus-size x Disney x heel pain: a hand holding the shoe up in a hotel room with an Instagram-story style text box (Tiny Explorings format, 40 days running).",
+      "based_on": "NEW FORMAT for plus-size Disney. Copy from Notion COM365 \"your shoes deserve as much thought as your hotel\" and NH3 transcript \"by day three you're on a bench with the bags\". Layout: Tiny Explorings rank 9.",
+      "headline": "Plus-size mom at Disney: these got me through all 4 park days.",
+      "offer": "none",
+      "tags": [
+        "FP",
+        "sore_feet",
+        "plus_size",
+        "disney",
+        "net_new",
+        "native"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. A real phone photo in a bright hotel room with white bedding: a woman's hand holds up one black-and-turquoise shoe from the reference toward the camera, shoe large and sharp (about 45% of the frame). Above the shoe, an Instagram-story style black rounded text box with white heavy text, three lines: \"Plus-size mom at Disney here.\" / \"Last trip I was on a bench by day 2.\" / \"These got me through all 4 park days.\" Bottom left, a small solid white pill with black text \"Stretch-knit · Arch support\". TYPE (strict): every word is set in Poppins ExtraBold / Poppins SemiBold, a WIDE round geometric sans-serif; NEVER a condensed, narrow, compressed or tall-thin typeface (no Oswald, Bebas, Anton, Impact, League Gothic look). All lines of the headline have identical width style, size and weight. Keep every text element at least 8% of the image width away from the left, right, top and bottom edges. Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc"
+    },
+    {
+      "id": "T47_18_bunions_without_with_faces",
+      "lang": "en",
+      "group": "net_new",
+      "persona": "active_retiree",
+      "colorway": "red_burgundy",
+      "benchmark": "rv417_stepprs_face_split",
+      "format_ref": true,
+      "format_name": "two_face_reaction_split_without_with",
+      "format_source": "Stepprs (wellness growth rank 33, 39d running, +43 places in 7d)",
+      "angle": "Test pain: bunions, retiree. Two-panel face reaction split (wince vs relief) with \"Without / With\" tabs and the shoe on the right panel. Direct answer to Stepprs' \"PLANTAR FASCIITIS: without Stepprs / with Stepprs\" face split.",
+      "based_on": "COMPETITOR ANSWER: Stepprs face-split static (wellness growth rank 33, 39d). Bunions = second pain in the feedback sheet (9%). Words from customers: \"my toes don't rub anymore\".",
+      "headline": "Bunions rubbing in narrow shoes?",
+      "offer": "none",
+      "tags": [
+        "FP",
+        "bunions",
+        "test_pain",
+        "competitor_answer",
+        "net_new"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. Two side-by-side real photos on a light background. Top across both, heavy black text: \"Bunions rubbing in narrow shoes?\" Left panel: a woman in her 60s wincing, holding her foot in a tight plain generic unbranded flat sneaker (NOT a sock-knit shoe, no stripes or logo shapes); small black pill above \"IN NARROW SHOES\". Right panel: the same woman smiling and relaxed, the burgundy-red shoe from the reference on her foot in clear view, large; small black pill above \"IN COMFORTWEAR\". Bottom: one heavy black line \"Wide toe box · Stretch-knit upper\". Faces natural, real skin, not exaggerated. Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc",
+      "competitor_answer": "Stepprs \"Plantar fasciitis: without Stepprs / with Stepprs\" face split"
+    },
+    {
+      "id": "T47_19_over_60_wet_sidewalks_grip",
+      "lang": "en",
+      "group": "net_new",
+      "persona": "active_retiree",
+      "colorway": "all_black",
+      "benchmark": "rv417_tried_everything_red_bar",
+      "format_ref": true,
+      "format_name": "question_headline_shoe_red_guarantee_bar",
+      "format_source": "OrthoFlexx (wellness growth rank 5, 18d running, +170 places in 7d)",
+      "angle": "ANGLE GAP: age call-out + wet fall/winter sidewalks (competitors: Hike \"Wet leaves. Slushy parking lots. That first icy morning.\", Kuru/Armadilo age call-outs; 439 ads, weight 34,308). Grip framed only as \"slip-resistant grip\" (approved), no fall-prevention claim. OrthoFlexx white layout with red bottom guarantee bar.",
+      "based_on": "ANGLE GAP from rivals --wide 2026-11-17: age call-out (439 ads, top weight) + winter/wet (289 ads), led by Hike's new winter copy. Layout: OrthoFlexx rank 5.",
+      "headline": "Over 60 and walking on wet fall sidewalks?",
+      "offer": "guarantee",
+      "tags": [
+        "comfort",
+        "grip",
+        "test_pain",
+        "angle_gap",
+        "net_new"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. White background. Upper left, heavy black text, left aligned, three lines, same size: \"Over 60 and\" / \"walking on wet\" / \"fall sidewalks?\" Below it heavy black text, three short lines: \"Slip-resistant grip.\" / \"Arch support.\" / \"Wide toe box.\" Right side: the all-black shoe from the reference in a straight side profile, tilted to show the textured sole, large (about 40% of the width), light rim light, a few wet autumn leaves on the white surface near it. Bottom: a solid red bar across the width with white heavy text \"Try them for 30 days. 30-DAY MONEY-BACK GUARANTEE\". Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc",
+      "angle_gap": "age call-out + wet/winter sidewalks"
+    },
+    {
+      "id": "T47_20_back_in_stock_black_purple",
+      "lang": "en",
+      "group": "net_new",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "benchmark": "rv417_hike_almost_sold_out",
+      "format_ref": true,
+      "format_name": "overhead_pair_color_field_restock_pills",
+      "format_source": "HIKE Footwear (core competitor active static, 44d running)",
+      "angle": "ANGLE GAP: restock / scarcity (Hike \"Best Sellers. Almost Sold Out.\" 44d; Konjoun, Clove, Footstr; 56 ads, weight 7,285). Overhead pair on a solid blue field, headline with one word in a dark block, check lines, offer pills. NEEDS_CONFIRMATION: only usable if Black/Purple really was sold out and restocked.",
+      "based_on": "ANGLE GAP from rivals --wide 2026-11-17 (scarcity/restock, ours 3). Black/Purple is our #1 best seller (colorway_priority). Layout: Hike \"Best Sellers. Almost Sold Out.\" (44d).",
+      "headline": "Black/Purple is back in stock.",
+      "offer": "price",
+      "tags": [
+        "comfort",
+        "angle_gap",
+        "needs_confirmation",
+        "net_new",
+        "price"
+      ],
+      "prompt": "Standard Comfort Wear look: white or very light backgrounds (clean real-photo scene or clean graphic layout), no dark backgrounds. Red, navy or yellow may only FILL solid shapes (pills, bars, blocks) with white or black text. Layout copied from the attached reference ad (structure, hierarchy, type treatment), with our product and our words. Overhead real photo of the black-with-purple shoe pair from the reference lying on a solid soft light-blue background, pair large (about 55% of the width), sharp knit texture. Below, heavy black text centered, no wider than 76% of the canvas: \"BLACK/PURPLE IS\" and under it a solid navy block (no wider than 76% of the canvas) with white heavy text \"BACK IN STOCK\". Then three heavy black check lines: \"✓ Arch support  ✓ Wide toe box  ✓ Slip-resistant grip\". Bottom: two solid white rounded pills with black heavy text: \"$59.95 (was $120)\" with \"$120\" struck through, and \"30-DAY MONEY-BACK GUARANTEE\". TYPE (strict): every word is set in Poppins ExtraBold / Poppins SemiBold, a WIDE round geometric sans-serif; NEVER a condensed, narrow, compressed or tall-thin typeface (no Oswald, Bebas, Anton, Impact, League Gothic look). All lines of the headline have identical width style, size and weight. Keep every text element at least 8% of the image width away from the left, right, top and bottom edges. Keep the bottom 9% of the image free of any text. All text is black, deep navy or white (white only on red or navy fills), set in clean heavy Poppins-style sans-serif (never condensed or script; handwriting only where it is written on a real object in the photo), large and high contrast for readers 60+, every text element at least 7% of the image width from every edge with clear space around it. The shoe is the exact shoe from the product reference at true natural proportions (never squashed, bloated or stretched), sharp, about 35-45% of the frame, never overlapping text, never a dark shoe on a dark surface (light or mid-tone backgrounds). For an all-black shoe use a straight side profile at about 40% of the width with light rim lighting. Women only wear the shoe. The ONLY text in the image is exactly what is written in quotes; spell every word exactly; no logos, no extra badges, no other prices, no castles, characters or park logos.",
+      "style": "ugc",
+      "angle_gap": "scarcity/restock",
+      "needs_confirmation": "True restock of Black/Purple? Do not launch unless it was sold out and restocked."
+    }
+  ]
+}

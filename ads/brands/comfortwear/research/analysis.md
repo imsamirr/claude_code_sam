@@ -445,3 +445,41 @@ Atria (all pulls sequential, all OK): current 13, rising 2, winners 88, seasonal
 Other-brand statics studied (proven = long-running and top impression share): OrthoFit "Anti-Grandpa" (91d, 56d top 0.0%), OrthoFit "Half off. Free shipping. Real toe room." (94d), WearStand "You'll forget us" (204d), Kuru "Are your heels in hell?" (213d), Kuru "Save $40" box (216d), Orthofeet "60 days to wear them out" (58d) and "Right shoe for plantar fasciitis" diagram (143d), Stryde quote + price (64d); wellness: Pain Relief Australia "Don't keep putting comfort off", Neurivo WANTED classified, Biovitic torn notes, Sorviq sticky pad, honey gummies giant number + guarantee bar, Nyoris "Does what X can't", natural-wellness weak/strong table, mom-story quote card, Stepprs worker quote box, Hike (2d-0d) half-price icons, pink heavier-women, brown risk-free header, Trick-or-treat ribbon, never-returning still life.
 
 Result: 32 new formats + 8 proven layouts; 20 iterations (sources: top-7-day video winners, B6 Emily RN, HI16, KW1, H3, C3, I6, O1, C1) + 20 net-new (CNA, server, housekeeping, cashier, retiree x3, road-trip, steps, night-shift heel, wide feet, plus-size x4, flat feet, arthritis-prone stiffness, sensitive feet, walkers, stylist, morning first steps). 30 foot-pain-led, 16 offer ads (standard stack; Black Friday offers are for W48), 13 competitor answers, 2 angle gaps (style/anti-grandpa W47_03, not-your-age W47_27). Kie.ai 2K: 45 renders $2.25 ($0.05/ad); 5 re-rendered (condensed fonts x2, copied reference words, colored icons, margin), 2 Kie internal-error retries.
+
+## 2026-11-17 (Tuesday iteration run, folder 2026-W47-tue, 20 concepts, 50/50)
+
+Atria: `atria_pull.py all` ran sequentially, ALL PULLS OK (pull_status.json): current 13 (3 new: NJ1, NL1, I19), rising 3, top7_spenders 2 (JW1 $5,476 / 1.32, NH3 $5,131 / 1.55: only two ads above $5k in the last 7 days), new7_winners 3 (NJ1 $869 / 2.03, NL1 $719 / 1.82, NK2 $227 / 1.92, NK2 now paused), winners 88 (no new), seasonal (the all-pull wrote W48; W47 file from 11-13 used: 2025 "10 Reasons Healthcare Workers" nurse statics top spend, ROAS < 0.2 = tracking break, themes only), wellness 163 (133 new), rivals 248 (101 new), rivals --wide 2,152 (706 new). Video transcripts (Atria ad-account transcription, all full scripts, appended to `data/video_transcripts.md`): JW1, NH3, NJ1, NL1; NK2 timed out (not iterated). Notion "Scripts 2026" re-read (16 briefs) into `winning_briefs.md`. No Drive sheet verdicts were entered since the last runs (W46-tue, W46-fri, W47-fri sheets unmodified).
+
+### Formats found this run (wellness pull ranked by 7-day impression growth, taken in order; sheet `sheets/wellness_growth_1117_*.jpg`)
+| Rank | Brand, category, days | Growth (places, 7d) | Format | Why it works | Ours |
+|---|---|---|---|---|---|
+| 1 | OrthoFlexx insoles, 18d | +292 | "You have 1 GOAL" giant number statement | One goal = one pain, instantly | T47_11 |
+| 2 | Hike, 12d | +228 | 40 years of thick foam split | skipped: in ledger (cause_split_red_circle) | - |
+| 3 | Vsock socks, 12d | +215 | "TRIED X BEFORE AND GAVE UP? TRY Y" huge stacked type over photo | Speaks to the burned buyer | T47_15 |
+| 4 | Sorviq, 10d | +208 | "90% SOLD OUT" stamp grid | skipped: needs a scarcity fact | - |
+| 5 | OrthoFlexx, 18d | +170 | Question headline + product + red guarantee bar | Clear risk reversal | T47_19 |
+| 6 | Everstride socks, 18d | +161 | Friends walking from behind, one caption sentence | Life outcome, not product | T47_10 |
+| 7 | Sorviq, 10d | +161 | Giant price "Yes, really." | Price disbelief as the hook | T47_04 |
+| 8 | Nerve Brand, 11d | +147 | "2000% better absorption" | skipped: claim | - |
+| 9 | Tiny Explorings, 40d | +145 | Hand holds product + IG story text box | Native, first person | T47_17 |
+| 10 | Miracle de Paris, 16d | +145 | Stockists wanted notice | skipped: B2B, no transferable consumer angle | - |
+| 11 | Nerve Brand, 11d | +144 | "7 red flags" icon ring around product | Self-diagnosis checklist | T47_02 |
+| 12 | Everstride, 10d | +140 | Writing on the leg | skipped: in ledger (writing_on_skin) | - |
+| 13 | The Modern, 12d | +130 | "Missing half your foot" heat anatomy | skipped: claim (pain location/relief) | - |
+| 14 | Onecompress, 12d | +119 | One giant word + legs + badge | Bold, simple | T47_16 |
+| 15 | Koprez, 17d | +106 | Stacked "tried" list confession over worker photo | Her failed fixes + "12-hour shift" | T47_01 |
+| 16 | Pulsio, 12d | +103 | Free gift hero | skipped: gift offer not in our standard stack | - |
+| 17 | Hinge Health, 16d | +87 | "Not your typical X" minimal + rings | Category reframe | T47_08 |
+| 18 | Onecompress, 18d | +84 | "OMG... it's a..." reveal type (rebuilt light) | Surprise | T47_13 |
+| 19-27 | Vibit, Treatmedy, Dr. Squatch, Blackroll, WearStand, Joylux, Lymphoria, Cosy House | | | skipped: "gone in 30 days" claim, ledger (dont_buy, struck_phrase, not_x_its_y, illustrated_progress), gift offer, German, lead magnet, BF-only | - |
+| 28 | Treatmedy, 16d | +52 | FB comment with red circle + stacked text blocks | Proof first | T47_05 |
+| 29 | Wander+, 16d | +48 | Product on a calendar date | Trip countdown | T47_09 |
+| 31 | Mothers Earth, 10d | +45 | "THIS IS X." frame with vertical side text | Category claim, scroll stop | T47_07 |
+| 32 | Olevra, 20d | +43 | "The *cheap* X is only $60" on plinths | Owns the price objection | T47_03 |
+| 33 | Stepprs, 39d | +43 | Without / with face split | Emotion, rival format | T47_18 |
+| 37 | TheraPexa, 32d | +38 | "You didn't fail. You bought the wrong tools." drawer | Blame shift to the tool | T47_06 |
+| 39 | The Vibit, 10d | +37 | "X? These are built for:" check list | Self-selection | T47_14 |
+(30 Breescape, 34 Ape Born price math, 35 Breathe Right, 36 Vitality: ledger / unconfirmed prices / claims.) Rival layouts: Hike "Before Black Friday 40% OFF / FULL REFUND" (T47_12), Hike "Almost sold out" (T47_20).
+
+### Own copy that works (SKILL 1b, this run)
+Our winners now: travel/Disney videos carry the 7-day spend (JW1 7-shoe Disney test, NH3 plus-size park day, NJ1 Europe cobblestones, NL1 "running shoes are the worst for Disney"); the shared script spine is hours/steps (hour 4, hour 8, 20,000 steps, 10 hours) → why running-shoe foam fails (flattens, narrow toe box vs swelling, wet grip) → our features → "don't be the person on a bench" → 40% off + free shipping + 30 days. Statics: C1 Emily RN quote (4.47), C3 comments (3.91), I6 warehouse warning (3.66), H3 12-hour flash sale (2.87), I19 "$59 per pair" (1.96). Every T47 headline traces to these lines, Notion hooks (COM18, COM121, COM284, COM320, COM365) or feedback phrases.

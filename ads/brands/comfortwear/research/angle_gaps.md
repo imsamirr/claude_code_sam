@@ -95,3 +95,27 @@ Atria note: the Hike "most impressions" image query failed after retries in the 
 | Knee / hip / back | 385 (418) | 17,299 | Footstr, Konjoun, Stryde | 51 | problem framing only, T46_04 |
 
 Gap concepts this batch: T46_07 (guarantee as the whole ad, Hike "30 days. Zero risk." format), T46_20 (golf / pickleball comfort, WearStand/OrthoFit angle). No reason-why or scarcity concept (no true fact): **ask Samir whether there is a true overstock/inventory reason or a real BF end time**.
+
+## 2026-11-17: 2,152 ads from 17 brands (Hike 96, Stepprs 152, Footstr 133, Orthofeet 145, Kuru 117, Vionic 139, OrthoFit 169, Clove 73, WearStand 145, Musabela 133, Armadilo 154, Konjoun 197, Stryde 188, Foamr 140, Viasox 169; 706 new since 11-13). Keyword tags on title+body; weight = days running x (1.5 if active). "Ours" = all weeks/*/concepts.json headlines+angles.
+
+| Angle | Ads | Weight | Pushing it | Ours | Verdict |
+|---|---|---|---|---|---|
+| Guarantee / risk-free as the headline | 556 | 35,753 | Konjoun, Orthofeet, Stryde, Stepprs, Hike ("No pain relief = FULL REFUND", new) | 14 | covered (T46_07); answered again T47_12 |
+| Age call-out (over 60, seniors, retirees) | 439 | 34,308 | Kuru, Armadilo, Konjoun, OrthoFit, Hike | 20 | **GAP (combined with wet/winter): T47_19** |
+| Knee / hip / back | 574 | 30,441 | Stryde, Konjoun, Kuru, Footstr | 43 | covered (T47_02, T47_05 nurse framing) |
+| Morning first steps | 143 | 22,045 | Stepprs, Konjoun, Viasox, Hike | 12 | covered (T47_11) |
+| BOGO / buy N | 381 | 19,752 | Stryde, Viasox, Musabela, Konjoun | 15 | offer we don't run: no |
+| Fall / balance / stability | 284 | 16,089 | Stryde, Armadilo, Konjoun, Hike | 9 | skip: claim risk (grip wording only) |
+| Winter / cold / wet | 289 | 9,064 | Viasox, Footstr, Konjoun, Orthofeet, Hike winter boots | 34 (mostly "warm"/"ice" matches) | **GAP: wet fall sidewalks + grip, T47_19** |
+| Scarcity / restock / sold out | 56 | 7,285 | Konjoun, Clove, Footstr, WearStand, Hike (sold out 5x, last 190 pairs) | 3 | **GAP: T47_20, needs_confirmation (true restock?)** |
+| Style | 94 | 4,708 | Vionic, Viasox, OrthoFit, WearStand | 32 | covered |
+| HSA/FSA | 44 | 3,483 | WearStand, Kuru, Clove | 10 | covered |
+| Pickleball / golf | 31 | 2,388 | WearStand, OrthoFit, Kuru | 2 | tested T46_20 |
+| Counterfeit | 7 | 2,272 | Stepprs, Konjoun, Stryde | 2 | skip: needs a true fact (ask user) |
+| Reason-why discount (overstock) | 38 | 1,980 | Viasox, Footstr, OrthoFit, Konjoun | 13 | needs a TRUE reason: ask user |
+| Swelling | 57 | 1,970 | Viasox, Hike, Armadilo | 22 | test slot T47_13 (stretch-knit wording only) |
+| Neuropathy / diabetic | 30 / 13 | 1,290 / 688 | Konjoun, Stepprs, Viasox | 3 / 0 | skip: medical/personal-attribute risk |
+| Chef / kitchen / server | 34 | 751 | Footstr, Armadilo, WearStand | 8 | tested W47_22 |
+| Plus-size / heavier women | 5 | 105 | Hike, Musabela | 84 | we lead |
+
+Gap concepts this batch: **T47_19** (over 60 + wet fall sidewalks, slip-resistant grip only, no fall-prevention claim) and **T47_20** (Black/Purple "back in stock", Hike sold-out/restock format) **needs_confirmation: launch only if Black/Purple truly sold out and was restocked**.
