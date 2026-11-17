@@ -1,0 +1,50 @@
+{
+ "total": 17.8,
+ "scenes": [
+  {
+   "src": "box",
+   "start": 0.0,
+   "end": 2.367
+  },
+  {
+   "src": "top",
+   "start": 2.367,
+   "end": 4.0
+  },
+  {
+   "src": "inl",
+   "start": 4.0,
+   "end": 5.633
+  },
+  {
+   "src": "inl",
+   "start": 5.633,
+   "end": 7.267
+  },
+  {
+   "src": "sole",
+   "start": 7.267,
+   "end": 8.9
+  },
+  {
+   "src": "ins",
+   "start": 8.9,
+   "end": 10.533
+  },
+  {
+   "src": "hold",
+   "start": 10.533,
+   "end": 12.167
+  },
+  {
+   "src": "top",
+   "start": 12.167,
+   "end": 13.967
+  },
+  {
+   "src": "_end_card",
+   "start": 13.967,
+   "end": 17.8
+  }
+ ]
+}

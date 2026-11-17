@@ -1,0 +1,197 @@
+{
+  "created": "2026-11-16",
+  "end_card": "auto",
+  "end_card_seconds": 4.0,
+  "loudness": -14,
+  "avoid_faces": true,
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "campaign": "Black Friday 2026 (60% off sitewide + buy 2 pairs, get 2 free gifts)",
+  "id": "B47_06_what_if_i_told_you_included",
+  "version": 2,
+  "transition": "cut",
+  "format_rules": "Cuurt-style (ref m2112986682661639): fixed outlined hook on top for the whole video + a small white label at the bottom that changes on every hard cut ('___: included'), hands-on product close-ups, music only, BF end card. 9:16 with content inside 4:5.",
+  "angle": "Feature stack framed as a deal: every feature is 'included', and the Black Friday offer is the hook.",
+  "format": "'What if I told you…' hook + changing '___: included' labels (ref: Cuurt m2112986682661639), 8 fast POV product cuts",
+  "music": {
+    "file": "../../music/upbeat_pop_vlog_105bpm.mp3",
+    "gain": 0.36,
+    "duck": false,
+    "start": 30.0
+  },
+  "sources": {
+    "box": "drive:1Maef74wnnmg4727AYnlKgDzQ4ZKeCeBh",
+    "top": "drive:1s0bxjyH3N8BJvT-IhUnGWvq6zQNurTz5",
+    "inl": "drive:1H0SbedYIFDgHrL_TjF-evJ7D5D73-zEn",
+    "sole": "drive:1NRpYnWZmfvZX4Jb0ucSVPABOiGc_9QYX",
+    "ins": "drive:1YaExNmlOKNereiKmv3ymI7yhFvrYo48-",
+    "hold": "drive:1HF1VwcyeTs1Wt3lQQdy4FwCgJuBbeAfo"
+  },
+  "source_notes": {
+    "box": "MISC B-ROLL/Others/Broll opening comfortwear shoebox",
+    "top": "MISC B-ROLL/Others/Broll close up view of the CW shoes top view",
+    "inl": "MISC B-ROLL/Others/Broll close up view of the CW shoes' inside sole and the non-tie lace feature",
+    "sole": "MISC B-ROLL/Others/Broll close up view of the CW shoes' outside sole",
+    "ins": "MISC B-ROLL/Retail Workers/Broll close up of CW shoes insole",
+    "hold": "MISC B-ROLL/Retail Workers/Broll close up of the CW shoes while holding it"
+  },
+  "clips": [
+    {
+      "src": "box",
+      "in": 2.0,
+      "out": 4.4,
+      "gain": 0
+    },
+    {
+      "src": "top",
+      "in": 0.2,
+      "out": 1.9,
+      "gain": 0
+    },
+    {
+      "src": "inl",
+      "in": 12.2,
+      "out": 13.9,
+      "gain": 0
+    },
+    {
+      "src": "inl",
+      "in": 23.6,
+      "out": 25.3,
+      "gain": 0
+    },
+    {
+      "src": "sole",
+      "in": 14.0,
+      "out": 15.7,
+      "gain": 0
+    },
+    {
+      "src": "ins",
+      "in": 0.4,
+      "out": 2.1,
+      "gain": 0
+    },
+    {
+      "src": "hold",
+      "in": 0.2,
+      "out": 1.9,
+      "gain": 0
+    },
+    {
+      "src": "top",
+      "in": 14.0,
+      "out": 16.0,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        7
+      ],
+      "text": "What if I told you your new work shoes are 60% OFF rn 👀\n\nLimited time only tho!!",
+      "style": "outline",
+      "y": 0.24,
+      "size": 56,
+      "width": 0.9,
+      "fade": 0,
+      "avoid_faces": false
+    },
+    {
+      "clips": [
+        1,
+        1
+      ],
+      "text": "60% OFF: sitewide",
+      "style": "box",
+      "y": 0.765,
+      "size": 46,
+      "width": 0.86,
+      "fade": 0,
+      "avoid_faces": false
+    },
+    {
+      "clips": [
+        2,
+        2
+      ],
+      "text": "Wide toe box: included",
+      "style": "box",
+      "y": 0.765,
+      "size": 46,
+      "width": 0.86,
+      "fade": 0,
+      "avoid_faces": false
+    },
+    {
+      "clips": [
+        3,
+        3
+      ],
+      "text": "No-tie stretch laces: included",
+      "style": "box",
+      "y": 0.765,
+      "size": 46,
+      "width": 0.86,
+      "fade": 0,
+      "avoid_faces": false
+    },
+    {
+      "clips": [
+        4,
+        4
+      ],
+      "text": "Slip-resistant sole: included",
+      "style": "box",
+      "y": 0.765,
+      "size": 46,
+      "width": 0.86,
+      "fade": 0,
+      "avoid_faces": false
+    },
+    {
+      "clips": [
+        5,
+        5
+      ],
+      "text": "Cushioned insole: included",
+      "style": "box",
+      "y": 0.765,
+      "size": 46,
+      "width": 0.86,
+      "fade": 0,
+      "avoid_faces": false
+    },
+    {
+      "clips": [
+        6,
+        6
+      ],
+      "text": "Buy 2 pairs: 2 FREE gifts 🎁",
+      "style": "box",
+      "y": 0.765,
+      "size": 46,
+      "width": 0.86,
+      "fade": 0,
+      "avoid_faces": false
+    },
+    {
+      "clips": [
+        7,
+        7
+      ],
+      "text": "and \"Limited time\"",
+      "style": "box",
+      "y": 0.765,
+      "size": 46,
+      "width": 0.86,
+      "fade": 0,
+      "avoid_faces": false
+    }
+  ],
+  "persona": "general",
+  "primary_text": "What if I told you your new work shoes are 60% OFF right now? 👀\n\n✅ Wide toe box: included\n✅ No-tie stretch laces: included\n✅ Slip-resistant sole: included\n✅ Cushioned insole: included\n🎁 Buy 2 pairs: 2 FREE gifts\n\n🔥 BLACK FRIDAY: 60% OFF SITEWIDE. Limited time only.",
+  "headline": "60% Off Sitewide + 2 Free Gifts"
+}

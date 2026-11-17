@@ -1,0 +1,99 @@
+{
+  "id": "B47_03_swollen_feet_offer_banner",
+  "version": 2,
+  "created": "2026-11-16",
+  "end_card": "auto",
+  "end_card_seconds": 4.0,
+  "transition": "fade",
+  "transition_duration": 0.2,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style, no voiceover, one static caption, 2-4 real shots, music only, 9:16 with content inside 4:5, BF end card.",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "campaign": "Black Friday 2026 (60% off sitewide + buy 2 pairs, get 2 free gifts)",
+  "angle": "Pain point (plus-size): feet swell and shoes dig in by noon; stretch knit + wide toe box; offer pinned on top.",
+  "format": "Offer banner on top (ref: Primals m982736441555206), pain-point caption, slip-on POV → top-down feet → walking out",
+  "music": {
+    "file": "../../music/upbeat_pop_vlog_105bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 8.0
+  },
+  "sources": {
+    "puton": "drive:1L1DbENp5U21xOgpnaLw6zfqN6J7Bf7Vt",
+    "walk": "drive:1j44xBLLMbneoz8ox1wCCKIrUMS6OH7Ip"
+  },
+  "source_notes": {
+    "puton": "overweight female putting on CW shoes (POV)",
+    "walk": "overweight lady walking outside in CW shoes"
+  },
+  "clips": [
+    {
+      "src": "puton",
+      "in": 36.0,
+      "out": 40.5,
+      "gain": 0,
+      "shift_y": 0.3
+    },
+    {
+      "src": "puton",
+      "in": 63.0,
+      "out": 66.5,
+      "gain": 0,
+      "shift_y": 0.3
+    },
+    {
+      "src": "walk",
+      "in": 22.4,
+      "out": 26.8,
+      "gain": 0,
+      "shift_y": 0.3
+    }
+  ],
+  "captions": [
+    {
+      "style": "banner",
+      "clips": [
+        0,
+        2
+      ],
+      "avoid_faces": false,
+      "y": 0.218,
+      "fade": 0,
+      "width": 0.92,
+      "lines": [
+        {
+          "text": "BLACK FRIDAY SALE",
+          "size": 40,
+          "color": "#FFE14D"
+        },
+        {
+          "text": "60% OFF SITEWIDE",
+          "size": 76
+        },
+        {
+          "text": "+ BUY 2 PAIRS, GET 2 FREE GIFTS 🎁",
+          "size": 38,
+          "weight": "ExtraBold"
+        }
+      ]
+    },
+    {
+      "clips": [
+        0,
+        2
+      ],
+      "text": "If your feet swell and your shoes dig in by noon, it's not your feet. It's the shoes 😮‍💨",
+      "style": "box",
+      "y": 0.335,
+      "size": 42,
+      "width": 0.88,
+      "fade": 0,
+      "avoid_faces": false
+    }
+  ],
+  "persona": "plus_size",
+  "primary_text": "If your feet swell and your shoes start digging in by lunch, it's not your feet. It's the shoes.\n\nOrtho Stretch has a stretch-knit upper that gives where you need it, a wide toe box and a cushioned arch.\n\n🔥 BLACK FRIDAY: 60% OFF SITEWIDE\n🎁 Buy 2 pairs, get 2 FREE gifts",
+  "headline": "Black Friday: 60% Off + 2 Free Gifts"
+}

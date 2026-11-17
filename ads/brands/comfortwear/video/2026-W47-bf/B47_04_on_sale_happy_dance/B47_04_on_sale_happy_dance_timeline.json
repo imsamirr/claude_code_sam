@@ -1,0 +1,25 @@
+{
+ "total": 17.667,
+ "scenes": [
+  {
+   "src": "dance",
+   "start": 0.0,
+   "end": 5.9
+  },
+  {
+   "src": "dance",
+   "start": 5.9,
+   "end": 10.1
+  },
+  {
+   "src": "gray",
+   "start": 10.1,
+   "end": 13.833
+  },
+  {
+   "src": "_end_card",
+   "start": 13.833,
+   "end": 17.667
+  }
+ ]
+}

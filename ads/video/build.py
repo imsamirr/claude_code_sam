@@ -40,6 +40,8 @@ Caption styles: box (white rounded box, black text: TikTok classic), glass (tran
 shadow (plain white text, soft shadow, no box), classic (white text, thin outline), outline (heavy
 meme stroke), dark (black box, white text), brand (brand-colored pill). Fonts: inter (default),
 classic, helvetica, serif. Full list in render_caption()'s docstring and the playbook.
+banner = offer bar (full-width colored box with stacked "lines", each {text, size, color, weight});
+set "avoid_faces": false to pin it, e.g. at the top of the 4:5 area (Black Friday offer-on-top layout).
 `y` is the caption's vertical center as a fraction of the 1920px frame. Keep captions between
 y 0.18 and 0.72: that is inside the 4:5 feed crop and clear of the TikTok/Reels UI.
 """
@@ -264,6 +266,33 @@ class Typesetter:
         return on
 
 
+def render_banner(cap, out_png):
+    """Offer banner (Black Friday style): a full-width colored bar with stacked centered lines.
+    cap["lines"] = [{"text": "BLACK FRIDAY SALE", "size": 44, "color": "#FFE14D", "weight": "Black"}, ...]"""
+    width = int(W * cap.get("width", 0.92))
+    pad_y, gap = int(cap.get("pad", 22)), int(cap.get("gap", 6))
+    rows = []
+    for ln in cap["lines"]:
+        ts = Typesetter(int(ln.get("size", 48)), ln.get("weight", "Black"))
+        for t in ts.wrap(ln["text"], width - 60):
+            asc, desc = ts.font.getmetrics()
+            rows.append((ts, t, ln.get("color", "white"), asc + desc))
+    h = sum(r[3] for r in rows) + gap * (len(rows) - 1) + 2 * pad_y
+    img = Image.new("RGBA", (W, h + 12), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    x0 = (W - width) // 2
+    d.rounded_rectangle([x0 + 4, 10, x0 + width + 4, h + 10], radius=int(cap.get("radius", 18)),
+                        fill=(0, 0, 0, 90))  # soft drop shadow
+    d.rounded_rectangle([x0, 4, x0 + width, h + 4], radius=int(cap.get("radius", 18)),
+                        fill=cap.get("color", "#D7101E"))
+    y = 4 + pad_y
+    for ts, t, color, lh in rows:
+        ts.draw_line(img, (W - ts.width(t)) / 2, y, t, color)
+        y += lh + gap
+    img.save(out_png)
+    return img.height, width
+
+
 def render_caption(cap, out_png):
     """Caption styles (see playbook "Caption styles"):
     box    white rounded box per line, black text (TikTok Classic box; EllaOla, Hug Sleep Pod)
@@ -273,11 +302,14 @@ def render_caption(cap, out_png):
            Savannah Bell serif)
     classic white text with a thin black outline + light shadow (Flo Pilates "Nobody told me")
     outline heavy white meme text with a thick black stroke (reaction memes)
+    banner offer bar with stacked lines (render_banner; Primals-style Black Friday banner)
     Options: font (inter|classic|helvetica|serif|condensed), weight, size, width, align, x (centre 0..1,
     e.g. 0.27 for a narrow column left of the subject, Hug Sleep Pod), lower / upper (force case),
     bg / fg (box colours, e.g. yellow box "#FFE14D" + black text, hoop), *words in asterisks* drawn in
     `accent` (default yellow #FFD84D: two-tone highlight, VIVAIA), condensed = tall all-caps look (Glowco)."""
     style = cap.get("style", "box")
+    if style == "banner":
+        return render_banner(cap, out_png)
     size = int(cap.get("size", 52))
     max_w = int(W * cap.get("width", 0.84))
     family = cap.get("font", "serif" if style == "serif" else "inter")
@@ -367,9 +399,10 @@ def cut_clip(i, clip, src_path, meta, tmp):
     # blur boxes (logos, other brands' markings): [{"box": [x0, y0, x1, y1], "t": [a, b], "strength": 28}]
     # box in fractions of the 1080x1920 output frame, t in seconds of this clip's output (optional)
     vchain = f"[0:v]{','.join(vf)}[vb0]"
-    # shift_y: move the picture down (fraction of H, max 0.14) so faces near the top land inside the
-    # 4:5 area; the band it opens at the top (outside 4:5) is filled with a blurred copy
-    sy = min(0.14, float(clip.get("shift_y", 0)))
+    # shift_y: move the picture down (fraction of H, max 0.32) so faces near the top land inside the
+    # 4:5 area, or to open a header band under a pinned banner/caption (offer-on-top layout);
+    # the band it opens at the top is filled with a blurred copy
+    sy = min(0.32, float(clip.get("shift_y", 0)))
     if sy > 0:
         sh = int(sy * H) // 2 * 2
         vchain = (f"[0:v]{','.join(vf)}[vs0];[vs0]split[vsa][vsb];"
@@ -572,7 +605,7 @@ def build(edit_path, sheet_every=1.5, feed=False):
             vo_segs = [(a / tempo, b / tempo) for a, b in vo_segs]
             lead, tail = float(vo.get("lead", 0.12)), float(vo.get("tail", 0.3))
             nominal = [0.0] + [float(c.get("transition_duration", edit.get("transition_duration", 0.25)))
-                               if c.get("transition", edit.get("transition", "fade")) != "cut" else 1.0 / FPS
+                               if c.get("transition", edit.get("transition", "fade")) != "cut" else 2.0 / FPS
                                for c in clips[1:]] + [0.0]
             continuous = vo.get("mode", "continuous") == "continuous"
             if continuous:
@@ -594,7 +627,8 @@ def build(edit_path, sheet_every=1.5, feed=False):
             parts.append(p)
             durs.append(d)
             t = clip.get("transition", edit.get("transition", "fade"))
-            f = 1.0 / FPS if t == "cut" else float(clip.get("transition_duration", edit.get("transition_duration", 0.25)))
+            # "cut" = 2-frame fade: a 1-frame xfade truncates the render; 2 frames still reads as a cut
+            f = 2.0 / FPS if t == "cut" else float(clip.get("transition_duration", edit.get("transition_duration", 0.25)))
             f = 0.0 if i == 0 else min(f, d / 2, durs[i - 1] / 2)
             fades.append(max(1, round(f * FPS)) / FPS if i else 0.0)
             clip["_t"] = "fade" if t == "cut" else t
@@ -697,7 +731,7 @@ def build(edit_path, sheet_every=1.5, feed=False):
                 placed_boxes.append((s, e, yc - ch / H / 2, yc + ch / H / 2))
                 continue
             cuts = sorted({s, e, *[a for a, _ in win if s < a < e]})
-            print(f"   caption {j} '{cap['text'][:28]}': no single clear y, placed per scene")
+            print(f"   caption {j} '{cap.get('text', 'banner')[:28]}': no single clear y, placed per scene")
             for s1, e1 in zip(cuts, cuts[1:]):
                 y1 = find_y(cap, s1, e1, ch, cw)
                 if y1 is None:
@@ -708,7 +742,7 @@ def build(edit_path, sheet_every=1.5, feed=False):
 
         for j, (cap, png, ch, s, e, yc) in enumerate(segments):
             if abs(yc - float(cap.get("y", 0.3))) > 0.005:
-                print(f"   caption '{cap['text'][:28]}' {s:.1f}-{e:.1f}s: y {float(cap.get('y', 0.3)):.2f} -> {yc:.2f}")
+                print(f"   caption '{cap.get('text', 'banner')[:28]}' {s:.1f}-{e:.1f}s: y {float(cap.get('y', 0.3)):.2f} -> {yc:.2f}")
             y = int(H * yc - ch / 2)
             k = n + j
             inputs += ["-loop", "1", "-framerate", str(FPS), "-t", f"{total:.3f}", "-i", str(png)]
@@ -778,7 +812,7 @@ def build(edit_path, sheet_every=1.5, feed=False):
             g.append(f"{''.join(mix)}amix=inputs={len(mix)}:normalize=0:duration=first[amixed]")
             al = "amixed"
         loud = edit.get("loudness", -14)
-        g.append(f"[{al}]loudnorm=I={loud}:TP=-1.5:LRA=11,aresample=48000[aout]")
+        g.append(f"[{al}]loudnorm=I={loud}:TP=-1.5:LRA=11,aresample=48000,alimiter=limit=0.79:level=false:attack=2:release=40[aout]")
         g.append(f"[{vl}]format=yuv420p[vout]")
         final = out_dir / f"{vid}.mp4"
         run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(g),
