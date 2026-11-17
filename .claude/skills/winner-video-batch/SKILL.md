@@ -47,7 +47,8 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
 1. **Setup**: `git fetch && git checkout <branch>`; `pip install -q requests python-dotenv pillow
    opencv-python-headless==4.10.0.84 yt-dlp curl_cffi` (OpenCV 5 lacks the Haar fallback; YuNet model
    is in `ads/video/models/`). Folder: `ads/brands/<brand>/video/<YYYY>-W<ww>/` (ISO week of the run),
-   ids `V<ww>_01_<slug>` … `V<ww>_10_<slug>`.
+   ids `V<ww>_01_<slug>` … `V<ww>_10_<slug>`. Every batch gets its own new folder in the repo too: if `<YYYY>-W<ww>/` already
+   holds another batch, use `<YYYY>-W<ww>b/` (and continue the id numbering so ids never repeat).
 2. **Winners**: `python ads/video/select_winners.py --brand <brand> --out <week dir>/_winners` → read
    `winners.md` (copy, headline, landing page, transcript). If none qualify, say so, stop, and still
    post the Notion card noting "no qualifying winners". If `ATRIA_API_KEY` is missing, use the Atria
@@ -77,10 +78,13 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
    product or action between samples. Fix and re-render failures.
 8. **Deliver**:
    - Commit `<week dir>` (edits + mp4s + sheets), `footage.csv`, playbook changes; push.
-   - Drive: `python ads/video/drive_upload.py <video.drive_folder_id> <week dir>/*/V*.mp4` (straight into
-     the folder, no subfolders; needs GDRIVE_* env vars).
+   - Drive (user rule, Nov 17: **every batch gets its own new folder**, never loose files in the main
+     folder): `python ads/video/drive_upload.py <video.drive_folder_id> --batch "<YYYY>-W<ww> Weekly Batch
+     (V<ww>_01-10)" <week dir>/*/V*.mp4` creates the subfolder and uploads into it (needs GDRIVE_* env
+     vars). If that name already exists from another batch that week, add " b", " c". Use the subfolder
+     link it prints as the Notion Frame Link.
    - Notion: one card on the brand's board (`video.notion`): title `SF W<ww> | Short-Form Organic
-     Batch (10) | <angles>`, Stage `In Review`, Strategist from config, Frame Link = the Drive folder;
+     Batch (10) | <angles>`, Stage `In Review`, Strategist from config, Frame Link = the batch's Drive subfolder;
      body: winners table (ad, spend, ROAS, tier), then one row per video (id, winner, format, caption,
      Drive link), music used, anything skipped.
    - Final message: counts, winners, concepts, Drive + Notion links, cost, issues.

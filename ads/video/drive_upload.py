@@ -6,7 +6,13 @@ GDRIVE_REFRESH_TOKEN (an OAuth refresh token with a Drive scope).
 
 Usage:
     python ads/video/drive_upload.py <folderId> file1.mp4 [file2.mp4 ...]   # upload into folder
+    python ads/video/drive_upload.py <folderId> --batch "2026-W47" file1.mp4 ...   # make/reuse the batch
+                                                                                # subfolder, upload into it
     python ads/video/drive_upload.py <folderId> --mkdir "2026-W46"           # make a subfolder, print id
+    python ads/video/drive_upload.py <folderId> --list                       # list the folder
+    python ads/video/drive_upload.py <folderId> --move-into "2026-W46" name1.mp4 ...  # move files that
+                                                                                # sit in the folder into a subfolder
+User rule (Nov 17): every batch goes into its own subfolder of the brand's video folder (--batch).
 Files already in the folder with the same name are skipped (re-run safe); --replace overwrites.
 """
 
@@ -78,6 +84,12 @@ def upload(h, folder, path, replace_id=None):
     return r.json()["id"]
 
 
+def move(h, file_id, src, dst):
+    r = requests.patch(f"{API}/{file_id}", headers=h, timeout=60,
+                       params={"addParents": dst, "removeParents": src, "supportsAllDrives": "true", "fields": "id"})
+    r.raise_for_status()
+
+
 def main():
     args = sys.argv[1:]
     if len(args) < 2:
@@ -87,6 +99,25 @@ def main():
     if rest[0] == "--mkdir":
         print(mkdir(h, folder, rest[1]))
         return
+    if rest[0] == "--list":
+        for name, f in sorted(existing(h, folder).items()):
+            print(f"{f['id']}\t{name}\t{f.get('size', 'folder')}")
+        return
+    if rest[0] == "--move-into":
+        sub = mkdir(h, folder, rest[1])
+        have = existing(h, folder)
+        print(f"folder {rest[1]}: https://drive.google.com/drive/folders/{sub}")
+        for name in rest[2:]:
+            if name not in have:
+                print(f"miss  {name} (not in folder)")
+                continue
+            move(h, have[name]["id"], folder, sub)
+            print(f"moved {name}")
+        return
+    if rest[0] == "--batch":
+        folder = mkdir(h, folder, rest[1])
+        print(f"folder {rest[1]}: https://drive.google.com/drive/folders/{folder}")
+        rest = rest[2:]
     replace = "--replace" in rest
     files = [Path(p) for p in rest if p != "--replace"]
     have = existing(h, folder)

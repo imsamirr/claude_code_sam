@@ -300,10 +300,11 @@
    "Third-party TikTok clips from individual creators are OK to use (user, 2026-11-13). Never use other brands' own content (brand ads/promos).",
    "Deliver 9:16 only (no separate 4:5 file). All text and key content (faces, product, action) must sit inside the centered 4:5 area (y 285-1635 of 1920). End cards stay as supplied (user, 2026-11-13).",
    "FORMAT (user, Nov 13): organic-post style like the user's Atria refs: one static first-person caption (POV / thank-you + EDIT / 'when…' / 'Nobody told me…' / 'Heard you were looking…'), 2-4 real shots, music only, no voiceover, 10-16 s + end card.",
-   "Competitor names (user, 2026-11-14): name competitor brands directly in captions/scripts instead of prices (\"Hokas\", \"OnClouds\", \"Brooks\", \"Nike Air Max\", not \"$180 shoes\"). Skechers is ALWAYS written \"Skech*rs\" (in edit.json captions type it as Skech\\*rs, because a bare * starts a yellow highlight)."
+   "Competitor names (user, 2026-11-14): name competitor brands directly in captions/scripts instead of prices (\"Hokas\", \"OnClouds\", \"Brooks\", \"Nike Air Max\", not \"$180 shoes\"). Skechers is ALWAYS written \"Skech*rs\" (in edit.json captions type it as Skech\\*rs, because a bare * starts a yellow highlight).",
+   "Drive (user, 2026-11-17): every batch goes into its own new subfolder of the video folder (drive_upload.py --batch \"<YYYY>-W<ww> Weekly Batch (...)\"); never leave a batch's files loose in the main folder."
   ],
   "drive_folder_id": "1bhhpYqkbtYJI1hOzoSN_-VFxqCkmsI3C",
-  "drive_folder_name": "Comfort Wear – Short-Form Video Ads (subfolder per week + 'End cards')",
+  "drive_folder_name": "Comfort Wear – Short-Form Video Ads (one subfolder per batch, e.g. '2026-W46 Weekly Batch (V46_11-21)', + 'End cards')",
   "weekly": {
    "atria_accounts": [
     "WearOrtho",
