@@ -1,0 +1,81 @@
+{
+ "runs": [
+  {
+   "at": "2026-11-18T17:11:47",
+   "session": "comfortwear-statics-2026-W47-sb-ab-1",
+   "chat": "chat_2784985539e549ff81a9b3306733952d",
+   "url": "https://stefanbrain.com/chat/27849855-39e5-49ff-81a9-b3306733952d",
+   "concepts": [
+    {
+     "angle": "Nurse x plantar fasciitis: stacked confession answering insole limits",
+     "fb_description": "Arch support & heel cushion",
+     "fb_headline": "Built for Nurses on 12-Hour Shifts",
+     "headline": "Still limping. Until these.",
+     "id": "SB_T47_01_insoles_ice_still_heel_pain",
+     "on_image_text": [
+      "Thick insoles",
+      "Frozen bottles",
+      "Calf stretches"
+     ],
+     "primary_text": "By the third 12-hour shift, my heel felt like it was stepping on a hot nail every morning. I spent $70 on gel insoles that just slid around in my work clogs. I froze water bottles to roll under my feet before bed. I did calf stretches against the locker room wall. Nothing changed those brutal first steps out of bed. Then another nurse on floor 3 told me to stop cramming inserts into stiff shoes and try the Ortho Stretch Cushion Shoe. The arch support actually holds your foot in place. The heel cushion absorbs that concrete floor shock, and the wide toe box lets your toes spread out without rubbing. Three 12s in a row, and I walk to my car without limping.",
+     "why": "Based on RTGv1_C1 Emily RN 3 12s winner and Stepprs insole objection pattern"
+    },
+    {
+     "angle": "Nurse x knee and back pain: native Facebook comment with circled proof",
+     "fb_description": "Cushioned heel absorbs shock",
+     "fb_headline": "Zero Knee Pain After 12-Hour Shifts",
+     "headline": "Four 12s. Zero knee pain.",
+     "id": "SB_T47_05_er_nurse_comment_circled",
+     "on_image_text": [
+      "Emily R.",
+      "\"No knee pain on 12s.\"",
+      "No knee pain"
+     ],
+     "primary_text": "Standing on ER floor tiles for 12 hours does not just ruin your feet. By hour 8, that impact shoots straight up into your knees and lower back. Most work clogs are hard as bricks. Every step sends the vibration right up your shins. The Ortho Stretch Cushion Shoe has a thick cushioned heel that absorbs floor strike before it reaches your knees. Plus proper arch support so your joints stay aligned when you rush between rooms. No stiff knees in the morning. No hobbling to the shower after a long shift.",
+     "why": "Based on RTGv1_C3 comments static ($2,025, 3.91 ROAS) and nurse ER shift feedback"
+    },
+    {
+     "angle": "Traveler x Disney sore feet: 'didn't fail' drawer reframe",
+     "fb_description": "Built for 20,000 steps",
+     "fb_headline": "All-Day Comfort for Theme Parks",
+     "headline": "You didn't fail at Disney. You packed the wrong shoes.",
+     "id": "SB_T47_06_didnt_fail_disney_drawer",
+     "on_image_text": [
+      "Cushioned for all-day walking."
+     ],
+     "primary_text": "By 1 PM at the Magic Kingdom, you are scanning every bench in sight. Your phone says 14,000 steps. Your heels are pounding, your arches are throbbing, and the wait for Peter Pan is still 65 minutes. The line does not get shorter just because your feet hurt. Most running sneakers look cushioned, but their flat foam bottoms compress flat after two hours on concrete. The Ortho Stretch Cushion Shoe was built for massive walking days. The built-in arch support takes pressure off your plantar fascia, the wide toe box stops your toes from jamming, and the stretch upper never pinches swollen feet. Keep up with the grandkids all day without needing an afternoon ice bath.",
+     "why": "Based on TOFV1_JW1 Disney test video ($5,476 spend) and TheraPexa rank 37 layout"
+    },
+    {
+     "angle": "Nurse x heel pain + 40% off stack offer with comfort guarantee",
+     "fb_description": "30-Day Money-Back Guarantee",
+     "fb_headline": "40% OFF | Ortho Stretch Cushion Shoe",
+     "headline": "40% OFF",
+     "id": "SB_T47_12_forty_off_not_comfier_refund",
+     "on_image_text": [
+      "ATTENTION NURSES",
+      "Not comfier? Full refund.",
+      "FREE SHIPPING Â· 30-DAY MONEY-BACK GUARANTEE"
+     ],
+     "primary_text": "If you work 12-hour shifts on hospital floors, your feet take thousands of hard concrete strikes every day. We built the Ortho Stretch Cushion Shoe specifically to stop that end-of-shift heel ache. It gives you targeted arch support, a shock-absorbing cushioned heel, and a stretch-knit upper that accommodates swollen feet without pinching. Right now, get 40% OFF with FREE SHIPPING and our 30-DAY MONEY-BACK GUARANTEE. Wear them on your toughest shifts for a full month. If they are not the comfiest work shoes you have ever put on, send them back for a full refund. Now just $59.95 (was $120). HSA/FSA eligible for up to 30% savings.",
+     "why": "Answers Hike 40% off static using approved 30-day guarantee and C1 Emily RN hook"
+    },
+    {
+     "angle": "Active retiree over 60 x wet fall sidewalks with slip-resistant grip",
+     "fb_description": "30-Day Money-Back Guarantee",
+     "fb_headline": "Slip-Resistant Walking Shoes for 60 dialogue",
+     "headline": "Over 60? Wet leaves? Slick sidewalks?",
+     "id": "SB_T47_19_over_60_wet_sidewalks_grip",
+     "on_image_text": [
+      "Slip-resistant grip",
+      "Arch support",
+      "Cushioned heel",
+      "30-DAY MONEY-BACK GUARANTEE"
+     ],
+     "primary_text": "Morning walks do not stop when the weather turns cold and damp. Between damp leaves on pavement and wet morning mist, regular walking sneakers can feel slick underfoot. And if your shoes lack real arch support, every mile leaves your heels aching by lunch. The Ortho Stretch Cushion Shoe gives active women over 60 the steady footing they want. The slip-resistant grip outsole is designed for wet sidewalks and damp park paths. Inside, built-in arch support and a cushioned heel protect your joints with every stride. Plus, the stretch-knit upper and elastic no-tie laces mean no bending down to struggle with cold, knotted laces. Try them risk-free on your daily walks with our 30-DAY MONEY-BACK GUARANTEE.",
+     "why": "Fills competitor angle gap from Hike and Kuru on wet weather grip and age call-outs"
+    }
+   ]
+  }
+ ]
+}

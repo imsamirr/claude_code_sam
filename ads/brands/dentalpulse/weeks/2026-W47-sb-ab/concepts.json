@@ -1,0 +1,174 @@
+{
+ "concepts": [
+  {
+   "id": "SB_T47_02_den_quit_tablets_chips",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "quit_at_62_chips",
+   "benchmark": "rv_w47t_quit_at_62_chips",
+   "format_ref": true,
+   "angle": "First-person 'I quit X at <age>' confession + four proof chips (anti-tablet pillar)",
+   "based_on": "Source: VID_DEN24 'You've Been Lied To' (30d $2.5K, ROAS 2.82: brush + tablet is outdated, tablets only mask). Reference: Natural Wellness Magazine 'I Quit Coffee at 62' (17d, top 2.8%). Customer words: 'as white as when I first got them'.",
+   "copy_slots": [
+    "first-person headline quote (<=18 words)",
+    "4 proof chips (<=4 words each)"
+   ],
+   "ab_source": "T47_02_den_quit_tablets_chips",
+   "headline": "\"I quit denture tablets at 65. The yellow stains are gone and they're white again.\"",
+   "on_image_text": [
+    "Eliminates 99.9% bacteria",
+    "One 5-minute cycle",
+    "42,000 Hz ultrasound",
+    "Tap water only"
+   ],
+   "primary_text": "\"I soaked my dentures in Polident tablets every night for seven years, and they still turned yellow. They never felt completely clean, and by morning there was still that stubborn film along the gumline.\" Soaking tablets only mask odor with artificial mint. They do not remove the trapped food particles or bacteria hiding in microscopic grooves. In fact, brushing can scratch the acrylic, giving bacteria even more places to live. The DentalPULSE ultrasonic cleaner replaces the old soaking routine with 42,000 Hz clinical-grade technology. In one 5-minute cycle with plain tap water, microscopic cavitation bubbles reach deep into crevices where bristles and blue water cannot reach, eliminating 99.9% of bacteria and lifting stubborn yellow stains. \"My dentures are as white as when I first got them,\" one verified customer shared. \"No more smell, no scrubbing, and no buying boxes of tablets.\" Try the DentalPULSE ultrasonic cleaner risk-free with our 120-day money-back guarantee. Tap below to claim 40% off with free shipping and complimentary travel accessories today.",
+   "fb_headline": "5-Min Ultrasonic Denture Cleaner",
+   "fb_description": "Try risk-free for 120 days",
+   "copy_angle": "First-person confession: quitting soaking tablets for clinical ultrasonic cleaning.",
+   "copy_why": "Modeled on VID_DEN24 'You've Been Lied To' (ROAS 2.82) attacking tablet buildup, using customer verbatim 'as white as when I first got them'.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_837bfd9832fb42b08db653a34ceed3a4",
+   "prompt": "Recreate the layout of the SECOND attached image: a dark moody deep-navy (#0E283C) bathroom with dark tiles and a dark stone vanity, warm side light. Top: a three-line white headline in Inter Bold \"I quit denture tablets at 65. The yellow stains are gone and they're white again.\" Middle: on the dark vanity, on the left a glass of cloudy tablet water with a mustard-yellow stained full denture sitting in it and a few torn foil tablet wrappers beside it (plain, unbranded); on the right the closed white DentalPULSE Pod from the first reference image resting on the vanity, a clean white denture beside it (both dentures half the Pod's width). Bottom left: four white rounded chips in a 2x2 grid, each with a small navy line icon and navy Inter SemiBold text: \"Eliminates 99.9% bacteria\", \"One 5-minute cycle\", \"42,000 Hz ultrasound\", \"Tap water only\". CRITICAL COLOR: the dirty denture is UNMISTAKABLY yellow at first glance (mustard-yellow to brown stain on the teeth, dull yellow-beige film on the pink gums), clearly different from a clean denture. It is a real full denture with pink gums and a full tooth row; no aligner anywhere; the Pod lid is closed or its basin is empty of any tray. IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices and big numbers); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. Headline type is Inter Bold at normal letter width, never a condensed, narrow display face (not Bebas, Oswald or Impact). Keep every text element at least 7% from the canvas edges."
+  },
+  {
+   "id": "SB_T47_05_den_caption_fixed_it",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "caption_box_fixed_it",
+   "benchmark": "rv_w47t_caption_box_fixed_it",
+   "format_ref": true,
+   "angle": "UGC caption-box confession over a raw close-up: 'did everything right, still yellow; this fixed it'",
+   "based_on": "Source: '11/15 Never brush your dentures again - Story - Advertorial' (lifetime $12.0K, ROAS 1.75) + VID_DEN24 tablet enemy. Reference: myota caption-box photo (11d, top 1.8%). Customer words: 'never felt clean', 'turning yellow', 'no more smell'.",
+   "copy_slots": [
+    "UGC caption-box confession (<=22 words)",
+    "3 bullet lines (<=7 words each)"
+   ],
+   "ab_source": "T47_05_den_caption_fixed_it",
+   "headline": "I did everything right, but yellow stains stayed. This 5-minute ultrasonic cleaner fixed it.",
+   "on_image_text": [
+    "Eliminates 99.9% of trapped bacteria",
+    "Lifts deep yellow stains and film",
+    "One 5-minute cycle, tap water only"
+   ],
+   "primary_text": "You brush after every meal. You drop them in a tablet soak every night. Yet when you hold your dentures to the light, they are still turning yellow and never feel truly clean. Here is the problem: a standard toothbrush creates microscopic scratches in the acrylic where odor-causing bacteria multiply. And tablet water only sanitizes the surface, leaving trapped food debris and biofilm behind. The DentalPULSE ultrasonic cleaner uses 42,000 Hz soundwaves to do what brushes and effervescent tablets cannot. In one 5-minute cycle using only plain tap water, millions of microscopic cavitation bubbles lift built-up yellow stains and eliminate 99.9% of bacteria from every groove. No harsh chemicals. No daily scrubbing. Your dentures come out fresh, smooth, and clean. Try the DentalPULSE ultrasonic cleaner at home for 120 days. If your dentures are not visibly brighter and completely free of odor, return it for a full refund. Tap to get 40% off today.",
+   "fb_headline": "5-Minute Ultrasonic Denture Cleaner",
+   "fb_description": "Eliminates 99.9% of bacteria",
+   "copy_angle": "UGC caption confession: doing everything right, still yellow, fixed in 5 minutes.",
+   "copy_why": "Modeled on '11/15 Never brush your dentures again' ($12K spend) and customer feedback 'never felt clean' and 'turning yellow'.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_837bfd9832fb42b08db653a34ceed3a4",
+   "prompt": "Recreate the layout of the SECOND attached image: a raw, slightly imperfect close-up phone photo on a white bathroom vanity next to the sink (tap visible at the edge). The white DentalPULSE Pod from the first reference image rests on the vanity with its lid flipped open, its stainless basin holding murky brown-yellow water with flecks of debris; next to it on a folded washcloth a mustard-yellow stained full denture (half the Pod's width). Top left, a white rounded caption box with black Inter Medium text: \"I did everything right, but yellow stains stayed. This 5-minute ultrasonic cleaner fixed it.\" Lower left, a smaller white caption box with three black lines: \"- Eliminates 99.9% of trapped bacteria\", \"- Lifts deep yellow stains and film\", \"- One 5-minute cycle, tap water only\". CRITICAL COLOR: the dirty denture is UNMISTAKABLY yellow at first glance (mustard-yellow to brown stain on the teeth, dull yellow-beige film on the pink gums), clearly different from a clean denture. It is a real full denture with pink gums and a full tooth row; no aligner anywhere; the Pod lid is closed or its basin is empty of any tray. IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices and big numbers); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. Headline type is Inter Bold at normal letter width, never a condensed, narrow display face (not Bebas, Oswald or Impact). Keep every text element at least 7% from the canvas edges. COMPOSITION CHANGE: instead of an open lid, the Pod is CLOSED and rests on a bright bathroom WINDOWSILL with frosted glass and daylight behind it; in front of it a small white saucer holds a mustard-yellow, slimy full denture (half the Pod's width) and a used glass of cloudy tablet water stands beside it. No washcloth, no sink, no brown water."
+  },
+  {
+   "id": "SB_T47_09_den_no_more_yellow_offer",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "denture_full",
+   "format_name": "denture_wearers_freely",
+   "benchmark": "rv_w47t_denture_wearers_freely",
+   "format_ref": true,
+   "angle": "Denture-wearer call-out headline + price block + highlighted free-gift banner",
+   "based_on": "Source: 'Denture - 40% OFF' PDP (lifetime $12.1K, ROAS 3.27; headline '40% Off + Free Gifts') + new 'HALF PRICE TODAY ONLY - Gift PDP' ($316, 4.41). Reference: Zyara denture tile (7d, top 3.6%). $180 = store compare-at of the Pod Denture Bundle.",
+   "copy_slots": [
+    "top headline (<=10 words); the price tile is fixed and stays: '40% OFF', '$99.95' with '$180' struck through, 'FREE DENTAL CASE + FREE TRAVEL BAG' (on_image_text: [])"
+   ],
+   "ab_source": "T47_09_den_no_more_yellow_offer",
+   "headline": "Denture Wearers: End Yellow Stains And Bacteria In 5 Minutes",
+   "on_image_text": [],
+   "primary_text": "If your dentures are turning yellow and soaking tablets still leave an odor, you are not alone. Traditional brushing scratches delicate acrylic, while tablets only mask the bacteria hiding in hard-to-reach crevices. The DentalPULSE ultrasonic cleaner uses 42,000 Hz clinical soundwaves to lift stubborn yellow stains and eliminate 99.9% of bacteria in one 5-minute cycle using tap water alone. No harsh chemicals, no subscriptions, and no daily scrubbing. For a limited time, get the complete DentalPULSE Denture Bundle for just $99.95 (regularly $180): 40% OFF the DentalPULSE ultrasonic cleaner, FREE Portable Dental Case, FREE Protective Travel Bag, FREE Shipping & Returns, plus our 120-Day Risk-Free Money-Back Guarantee. Keep your dentures looking as white as the day you got them. Tap below to claim your bundle before current stock sells out.",
+   "fb_headline": "Denture Bundle: 40% Off + Free Gifts",
+   "fb_description": "$99.95 Today + Free Shipping",
+   "copy_angle": "Denture bundle offer: 40% off price drop with free case and travel bag.",
+   "copy_why": "Modeled on 'Denture - 40% OFF' PDP ($12.1K spend, ROAS 3.27) and current approved denture bundle promotion.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_837bfd9832fb42b08db653a34ceed3a4",
+   "prompt": "Recreate the layout of the SECOND attached image moved into a bathroom: a warm home bathroom with a large mirror; the top third of the image is the dark, out-of-focus upper wall and mirror (calm, no text there). In the soft-focus mid-ground a real smiling couple in their 70s stand at the mirror. Center foreground on the vanity: the white DentalPULSE Pod from the first reference image with a mustard-yellow stained full denture beside it (half the Pod's width) and the free travel bag and dental case in front. Left: a price block in Barlow Bold (wide, normal-width letters), \"40% OFF\" white, under it \"$99.95\" large white and a smaller grey struck-through \"$180\". Bottom: a full-width navy bar with white Inter Bold (normal width, NOT condensed) text \"FREE DENTAL CASE + FREE TRAVEL BAG\" where each word \"FREE\" has a yellow highlight behind it. CRITICAL COLOR: the dirty denture is UNMISTAKABLY yellow at first glance (mustard-yellow to brown stain on the teeth, dull yellow-beige film on the pink gums), clearly different from a clean denture. It is a real full denture with pink gums and a full tooth row; no aligner anywhere; the Pod lid is closed or its basin is empty of any tray. FREE GIFTS clearly visible in front of the Pod on the same surface: a black zip travel bag with a clear front window, about the Pod's size, and a smoky dark-grey dental case with a strap, about half the Pod's width. Both fully visible, neither tiny. No warranty card or badge object. IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices and big numbers); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. Headline type is Inter Bold at normal letter width, never a condensed, narrow display face (not Bebas, Oswald or Impact). Keep every text element at least 7% from the canvas edges. FONT FIX: every headline word is Inter Black/Bold at NORMAL, WIDE letter width like Helvetica Bold; it must NOT look like a tall narrow condensed font (no Bebas Neue, Oswald, Impact, Anton, League Gothic). SECOND FONT FIX: the big headline letters must be WIDE and round like Inter Black / Helvetica Black: each letter about as wide as it is tall, generous letter spacing; absolutely NOT the tall, narrow, condensed poster font of the reference image. The headline may use three lines and slightly smaller letters to stay wide. YELLOW FIX: the denture beside the Pod is in the front of the vanity, clearly visible, with strongly mustard-yellow to brown stained teeth and a dull yellow-beige film on the gums: it must look dirty and old at first glance, not white. PEOPLE FIX: the couple in the background simply smile at each other with their hands down; nobody holds a toothbrush or anything else.",
+   "overlay": {
+    "headline": "Denture Wearers: End Yellow Stains And Bacteria In 5 Minutes",
+    "pos": "top",
+    "tone": "light"
+   }
+  },
+  {
+   "id": "SB_T47_13_ng_hard_part_two_panel",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "night_guard",
+   "format_name": "two_panel_hard_part",
+   "benchmark": "rv_w47t_two_panel_hard_part",
+   "format_ref": true,
+   "angle": "Two-panel 'X isn't the hard part / Y is' reframe for night-guard wearers",
+   "based_on": "Source: seasonal '11/15 Black Friday Years of stains & smell' + VID_DEN24 'You've Been Lied To' (30d $2.5K, ROAS 2.82: soap/brush routine is outdated) re-aimed at night guards. Reference: Beeya two-panel (20d). Customer words: 'my old night guard looked gross yellow and cloudy'.",
+   "copy_slots": [
+    "two-panel layout: panel 1 line (<=7 words)",
+    "panel 2 line (<=6 words)",
+    "bottom proof line (<=8 words)"
+   ],
+   "ab_source": "T47_13_ng_hard_part_two_panel",
+   "headline": "Wearing your guard isn't the hard part.",
+   "on_image_text": [
+    "Stopping gross yellow bacteria is.",
+    "Eliminates 99.9% bacteria in 5 minutes."
+   ],
+   "primary_text": "Putting your night guard in before bed is easy. But waking up to a cloudy, yellow film and that stale morning odor? That is the part nobody warns you about. Most people try scrubbing with a toothbrush or soaking in mouthwash. But toothpaste contains abrasives that create tiny micro-scratches across the plastic. Those scratches trap saliva, plaque, and bacteria, making your night guard look gross yellow and cloudy no matter how hard you scrub. The DentalPULSE ultrasonic cleaner stops your night guard from turning yellow without abrasive brushing. Powered by 42,000 Hz soundwaves, it creates millions of microscopic bubbles that penetrate every groove in just 5 minutes using plain tap water. It eliminates 99.9% of bacteria, strips away white film, and keeps your guard clear again. Protect your smile without putting bacteria back into your mouth every night. Try the DentalPULSE ultrasonic cleaner for 120 days risk-free. Tap to shop our 40% off sale today.",
+   "fb_headline": "5-Min Ultrasonic Night Guard Cleaner",
+   "fb_description": "Eliminates 99.9% of bacteria",
+   "copy_angle": "Two-panel reframe: wearing the night guard is easy, stopping yellow bacteria is the hard part.",
+   "copy_why": "Modeled on Beeya two-panel format and customer voice 'my old night guard looked gross yellow and cloudy' (VID_DEN24).",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_837bfd9832fb42b08db653a34ceed3a4",
+   "prompt": "Recreate the layout of the SECOND attached image: two stacked real photos of equal height. TOP photo: warm morning light in a home bathroom, on a glass bathroom shelf beside a toothbrush cup lies a deep mustard-yellow, filmy night guard; top-left dark navy Inter SemiBold text \"Wearing your guard isn't the hard part.\" BOTTOM photo: the same bathroom vanity in soft light, the closed white DentalPULSE Pod from the first reference image resting on the marble with the same night guard beside it (half the Pod's width); right side dark navy Inter SemiBold text \"Stopping gross yellow bacteria is.\" and under it a small dark rounded button with white text \"Eliminates 99.9% bacteria in 5 minutes.\" CRITICAL COLOR: the dirty night guard is deep mustard-yellow, almost brown at the edges, with a thick milky film and chalky white spots. It is a thick rigid horseshoe tray about 3 mm thick, bulkier than an aligner; no teeth, no pink gums, no wire, no denture anywhere. IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices and big numbers); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. Headline type is Inter Bold at normal letter width, never a condensed, narrow display face (not Bebas, Oswald or Impact). Keep every text element at least 7% from the canvas edges."
+  },
+  {
+   "id": "SB_T47_17_al_think_again_photos",
+   "group": "iteration",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "aligner",
+   "format_name": "think_again_two_faces",
+   "benchmark": "rv_w47t_think_again_two_faces",
+   "format_ref": true,
+   "angle": "Caps myth question + two macro photos + 'THINK AGAIN.' (anti-brushing, with proof)",
+   "based_on": "Source: seasonal '11/6 Never brush retainer again - Listicle' ($266, same week last year) + DEN81 H3 ($5.7K, 1.98) bacteria proof. Rival answer: Zima 'NEVER BRUSH YOUR RETAINER AGAIN' (24.5%, new) and 'Stop brushing your retainers' videos -> the same promise plus the approved 99.9% claim and visible film. Reference: Invisalign blue tile (12d).",
+   "rival": "Zima 'Never brush your retainer again' + 'Stop brushing your retainers' videos -> same promise with the 99.9% claim and visible film",
+   "copy_slots": [
+    "top headline (<=8 words, all caps)",
+    "two photo labels, before then after (<=3 words each)",
+    "punch line (<=3 words)",
+    "bottom proof line (<=8 words)"
+   ],
+   "ab_source": "T47_17_al_think_again_photos",
+   "headline": "THINK BRUSHING REMOVES ALIGNER BACTERIA AND FILM?",
+   "on_image_text": [
+    "Brushed: cloudy film",
+    "Ultrasonic: clear again",
+    "THINK AGAIN.",
+    "Eliminates 99.9% bacteria in 5 minutes."
+   ],
+   "primary_text": "Your dentist told you to clean your clear aligners, so you grabbed a soft toothbrush. But now they look cloudy, smell strange by midday, and have a stubborn white film that will not budge. Brushing is actually making it worse. Toothbrush bristles scratch the delicate clear plastic, carving microscopic grooves where bacteria and plaque lock in. Even worse, toothpaste leaves an abrasive residue that causes aligners to turn yellow over time. The DentalPULSE ultrasonic cleaner gives you clinical-grade cleaning at home without brushing. Using 42,000 Hz soundwaves and plain tap water, it produces millions of microscopic cavitation bubbles that lift trapped residue and eliminate 99.9% of bacteria in one 5-minute cycle. No micro-scratches. No white film. It stops your aligners from turning yellow and keeps them crystal clear. Try the DentalPULSE ultrasonic cleaner risk-free for 120 days. If your aligners are not completely clean and odor-free, we will refund every penny. Tap to get 40% off today.",
+   "fb_headline": "5-Min Ultrasonic Aligner Cleaner",
+   "fb_description": "Eliminates 99.9% of bacteria",
+   "copy_angle": "Caps myth-busting question challenging brushing aligners with before/after macro proof.",
+   "copy_why": "Countering Zima's 'Never brush your retainer again' using DEN81 H3 bacteria proof and customer words 'no white film'.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_837bfd9832fb42b08db653a34ceed3a4",
+   "prompt": "Recreate the layout of the SECOND attached image: a bright blue (#1188FF) field. Top: white bold caps Inter headline on two lines \"THINK BRUSHING REMOVES ALIGNER BACTERIA AND FILM?\" Middle: two rounded-corner real macro photos side by side, each on a white bathroom counter: LEFT a freshly brushed thin aligner that still has an amber-yellow tint, milky film and chalky spots, small white label \"Brushed: cloudy film\"; RIGHT the same aligner crystal clear with no white film, small white label \"Ultrasonic: clear again\". Bottom left: big white bold \"THINK AGAIN.\" and under it small white text \"Eliminates 99.9% bacteria in 5 minutes.\" Bottom right: a rounded photo crop of a white bathroom vanity with the closed white DentalPULSE Pod from the first reference image resting on it. CRITICAL COLOR: the dirty aligner has a strong amber-yellow tint, a thick milky film and chalky white spots, clearly not crystal clear. It is a very thin clear tray with each tooth shape visible; no denture, no night guard anywhere. IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in clean Inter (bold for headlines; Barlow Bold for prices and big numbers); no other text, no logos except the DentalPULSE wordmark printed on the Pod, no competitor names or logos. Never copy any word from the reference image. Must look like a real photograph / real designed ad, not an AI render. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it, no hand touches it. It is a compact bathroom-counter device about 13 cm wide and 8.5 cm tall (lower than a soap dispenser, smaller than a tissue box), never a big machine. Every photo is set in a real home BATHROOM (vanity by the sink, shelf, mirror, tiles); no kitchen, dining table, food, coffee, bedroom, studio or outdoors. Any appliance is about HALF the Pod's width, placed beside it at the same distance from the camera. Headline type is Inter Bold at normal letter width, never a condensed, narrow display face (not Bebas, Oswald or Impact). Keep every text element at least 7% from the canvas edges. FONT FIX: every headline word is Inter Black/Bold at NORMAL, WIDE letter width like Helvetica Bold; it must NOT look like a tall narrow condensed font (no Bebas Neue, Oswald, Impact, Anton, League Gothic). Both headline lines are the same size and weight."
+  }
+ ]
+}
