@@ -12,6 +12,7 @@ commit the key.
     python ads/stefanbrain.py upload --brand <brand> <files...>     # stage + attach to the brand's product
     python ads/stefanbrain.py history --brand <brand>               # research/static_copy_history.md
     python ads/stefanbrain.py digest --brand <brand>                # research/ad_account_digest.md (no Atria calls)
+    python ads/stefanbrain.py market --brand <brand>                # research/atria_market_pack.md (no Atria calls)
     python ads/stefanbrain.py copy --brand <brand> --week <folder> [--ids ...] [--chunk 10]
     python ads/stefanbrain.py revise --brand <brand> --week <folder> --id <concept id> "<what to fix>"
 
@@ -431,6 +432,74 @@ def digest_cmd(args):
     print(f"Wrote {path} ({path.stat().st_size // 1024} KB)")
 
 
+MARKET_SOURCES = [  # (title, file glob: the newest match is used, row cap)
+    ("Core competitors: every ad we pulled (active first, longest-running first)", "core_competitors_*.csv", 250),
+    ("Wider competitor set (angle rivals): active, longest-running", "angle_rivals_*.csv", 300),
+    ("Other brands' long-running statics (proven formats)", "longrun_statics.csv", 120),
+    ("Proven ads from other brands", "proven_other_brands*.csv", 120),
+    ("Health & wellness statics growing now (ranked by 7-day impression growth)", "inspiration_wellness_45d.csv", 120),
+    ("Curated inspiration (growing statics)", "inspiration_curated.csv", 120),
+    ("Long-running inspiration from category brands", "brand_inspiration_longrunning.csv", 120),
+    ("Category competitors (top impressions)", "competitor_top_dental.csv", 120),
+    ("Ultrasonic-cleaner ads in the market", "ultrasonic_relevant.csv", 120),
+    ("Category competitors", "competitor_ads.csv", 150),
+]
+
+
+def market_cmd(args):
+    """Other brands' ads with their full copy, from the CSVs this repo's Atria pulls already wrote (newest
+    file of each kind; no Atria calls). De-duplicated by brand + copy; active and long-running first."""
+    import csv
+    data = ROOT / "brands" / args.brand / "research" / "data"
+    cfg = json.loads((ROOT / "brands" / args.brand / "brand.json").read_text())
+    csv.field_size_limit(10 ** 8)
+    out = [f"# {cfg['name']}: what competitors and other brands run (Atria)", "",
+           f"Built {dt.date.today()} from the repo's latest Atria pulls. Each ad: brand, format, status, days "
+           "running (long-running = the brand keeps paying for it), impression percentile (lower = more "
+           "impressions), then its headline and primary text. Use for patterns, hooks and formats; never copy "
+           "another brand's words, claims or names into our ads.", ""]
+    seen = set()
+    for title, pattern, cap in MARKET_SOURCES:
+        files = sorted(data.glob(pattern), key=lambda p: p.stat().st_mtime)
+        files = [f for f in files if not f.name.startswith("new_since_last")]
+        if not files:
+            continue
+        with open(files[-1], newline="") as f:
+            rows = list(csv.DictReader(f))
+
+        def key(r):
+            active = str(r.get("status", "")).upper() in ("ACTIVE", "TRUE", "1")
+            try:
+                days = float(r.get("days_running") or 0)
+            except ValueError:
+                days = 0
+            return (not active, -days)
+        rows.sort(key=key)
+        block, n = [], 0
+        for r in rows:
+            body = (r.get("body") or r.get("primary_text") or "").strip()
+            head = (r.get("title") or r.get("headline") or "").strip()
+            brand = r.get("brand") or r.get("competitor") or ""
+            k = (brand.lower(), (head + body)[:240].lower())
+            if not (head or body) or k in seen:
+                continue
+            seen.add(k)
+            meta = " · ".join(x for x in [brand, r.get("format", ""), r.get("status", ""),
+                                          f"{r['days_running']} days" if r.get("days_running") else "",
+                                          f"pct {r['impression_percentile']}" if r.get("impression_percentile") else "",
+                                          f"growth {r['growth_7d']}" if r.get("growth_7d") else ""] if x)
+            block.append(f"### {meta}\n" + (f"**Headline:** {head}\n" if head else "") +
+                         (f"\n{body[:1500]}\n" if body else ""))
+            n += 1
+            if n >= cap:
+                break
+        if block:
+            out += [f"## {title} ({n}, from {files[-1].name})", ""] + block
+    path = ROOT / "brands" / args.brand / "research" / "atria_market_pack.md"
+    path.write_text("\n".join(out))
+    print(f"Wrote {path} ({path.stat().st_size // 1024} KB)")
+
+
 def main():
     p = argparse.ArgumentParser()
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -456,6 +525,8 @@ def main():
     h.add_argument("--brand", required=True)
     g = sub.add_parser("digest")
     g.add_argument("--brand", required=True)
+    m = sub.add_parser("market")
+    m.add_argument("--brand", required=True)
     a = p.parse_args()
     if a.cmd == "status":
         print(call("account_status", {})[1])
@@ -474,6 +545,8 @@ def main():
         history_cmd(a)
     elif a.cmd == "digest":
         digest_cmd(a)
+    elif a.cmd == "market":
+        market_cmd(a)
 
 
 if __name__ == "__main__":

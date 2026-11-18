@@ -424,12 +424,15 @@ pick the sources, layouts, personas, mix and offers (§1, §2), and you own the 
    media buyer can paste them. The Slack summary line adds "copy: StefanBrain n/N".
 6. **Keep StefanBrain's knowledge fresh (every run, after delivery; no extra Atria calls):**
    `python ads/stefanbrain.py digest --brand <brand>` (rebuilds `research/ad_account_digest.md` from this run's
-   pull CSVs), `python ads/stefanbrain.py history --brand <brand>`, then `python ads/stefanbrain.py upload --brand
-   <brand> ads/brands/<brand>/research/ad_account_digest.md ads/brands/<brand>/research/static_copy_history.md`
+   pull CSVs), `python ads/stefanbrain.py market --brand <brand>` (rebuilds `research/atria_market_pack.md`:
+   competitors' and other brands' ads with full copy, from the same CSVs), `python ads/stefanbrain.py history
+   --brand <brand>`, then `python ads/stefanbrain.py upload --brand <brand> ads/brands/<brand>/research/ad_account_digest.md
+   ads/brands/<brand>/research/atria_market_pack.md ads/brands/<brand>/research/static_copy_history.md`
    plus any research file you materially changed this run (analysis.md, winning_briefs.md / notion_brief.md,
    core_competitors.md, research/data/video_transcripts.md). A re-uploaded name replaces the old copy.
-   **Never run `atria_pull.py export` in a routine**: Atria charges credits per API call and a full-history
-   export (thousands of calls) emptied the workspace's credits on 2026-11-18. Only by hand, with the user's OK.
+   Atria charges credits per API call (a full-history export emptied the workspace on 2026-11-18). The user
+   OK'd normal routine pulls going forward; run `atria_pull.py export` only by hand and bounded
+   (`--export-min-spend` high or `--since` recent).
 
 ## 3. Render
 

@@ -6,6 +6,7 @@ Learn the brand from the files on the Dentalpulsepro product before writing anyt
 - notion_brief.md, analysis.md: concepts, hooks and controversial lines that work, and what our winners have in common.
 - feedback_deep_dive.md, customer_voice_*.md: customers' own words. Use their phrases.
 - core_competitors.md: what Zima and Sonic run, and how we answer them.
+- atria_market_pack.md: what Zima, Sonic Dental, other ultrasonic cleaners and growing oral-care and wellness brands run right now, with their full copy, days running and impression rank. Learn patterns and formats from it; never copy their words or claims.
 - static_copy_history.md: every static ad we have already made, with the user's approve/reject reasons. Don't reuse those headlines.
 - brand.json: approved claims, claims to avoid, offers, copy rules and the naming rule.
 

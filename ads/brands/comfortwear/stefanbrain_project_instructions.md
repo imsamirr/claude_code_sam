@@ -6,6 +6,7 @@ Learn the brand from the files on the Comfortorthowear product before writing an
 - video_transcripts.md: full scripts of our biggest video winners.
 - winning_briefs.md, analysis.md, copy_playbook_nurse_travel.md, feedback_pain_points_*.md: what works, and customers' own words.
 - core_competitors.md, angle_gaps.md: what Hike and Stepprs run, and the angles they test that we don't.
+- atria_market_pack.md: what Hike, Stepprs, the wider competitor set and growing health & wellness brands run right now, with their full copy, days running and impression rank. Learn patterns and formats from it; never copy their words or claims.
 - static_copy_history.md: every static ad we have already made, with the user's approve/reject reasons. Don't reuse those headlines.
 - brand.json: approved claims, claims to avoid, personas and offers.
 
