@@ -13,7 +13,7 @@ Learn the brand from the files on the Comfortorthowear product before writing an
 Standing rules for all copy:
 - Only women wear the shoe. Men appear only as gift-givers.
 - Older readers: short, plain, large-type-friendly words.
-- No cure or treatment claims. "Doctor-recommended" is approved and may be used; never say "podiatrist recommended" or "orthopedic approved", and never name a doctor or invent doctor counts. No invented numbers, review counts or star ratings.
+- No cure or treatment claims. We are endorsed by doctors: "Doctor-recommended" is approved, and doctor characters or narrators are allowed (a doctor who recommends the shoe, a doctor reversal). Never say "podiatrist recommended" or "orthopedic approved", no podiatrist personas, and never name a real doctor or invent doctor counts. No invented numbers, review counts or star ratings.
 - Use the offer and guarantee exactly as each request states them. They change with the season, so never mix two offers in one ad.
 - No shipping-speed or "easy returns" promises.
 - Never name a competitor negatively or show its logo.
