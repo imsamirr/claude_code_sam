@@ -62,6 +62,7 @@ def call(tool, args, timeout=600):
                      f"stefanbrain.com network secret on this environment).")
         r.raise_for_status()
         break
+    r.encoding = "utf-8"  # event-stream replies carry no charset; requests would guess latin-1
     text = r.text
     if "text/event-stream" in r.headers.get("Content-Type", ""):
         text = "\n".join(l[6:] for l in r.text.splitlines() if l.startswith("data: "))
