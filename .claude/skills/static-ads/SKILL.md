@@ -226,7 +226,7 @@ QA rejects text that touches or crowds an edge. **Shoe contrast:** never a dark 
    (`research/data/notion_angles.md`) and our winning video scripts (`research/data/video_transcripts.md`):
    hooks, objections, story beats and the exact customer phrases. Keep a dated digest in
    `research/winning_briefs.md` (refresh from Notion each Friday run).
-3. **Customer voice**: `research/feedback_pain_points_*.md`, Trustpilot 5★ language, the copy playbook
+3. **Avatar and personas (user rule 2026-11-18, read before planning any concept):** `research/avatar_personas.md` (StefanBrain's avatar + persona research: who she is, each persona's pain in her words, failed fixes, objections, triggers, hooks, proof, formats, what to avoid) and `research/customer_survey_digest.md` (18,521 post-purchase survey answers: ages, jobs, foot problems, why they bought, what they tried, sizing and the expectation gap, verbatim quotes; `research/customer_survey_latest.md` has the latest numbers). Every concept names its persona from that file; respect its 'what to avoid' and expectation-gap rules (sizing runs small, never promise extra wide or instant relief). Plus **customer voice**: `research/feedback_pain_points_*.md`, Trustpilot 5★ language, the copy playbook
    (`research/copy_playbook_nurse_travel.md`).
 4. Every concept's `based_on` names the winning static, brief or script line its copy comes from, and
    `headline` must trace back to a real pattern or phrase from 1–3. Reference images give the LAYOUT;
@@ -430,6 +430,8 @@ pick the sources, layouts, personas, mix and offers (§1, §2), and you own the 
    ads/brands/<brand>/research/atria_market_pack.md ads/brands/<brand>/research/static_copy_history.md`
    plus any research file you materially changed this run (analysis.md, winning_briefs.md / notion_brief.md,
    core_competitors.md, research/data/video_transcripts.md). A re-uploaded name replaces the old copy.
+   **Customer survey (first run of each month, Comfort Wear):** `python ads/survey_digest.py --brand comfortwear` (Drive env
+   credentials; aggregates + anonymous quotes only) and upload `research/customer_survey_latest.md` the same way.
    Atria charges credits per API call (a full-history export emptied the workspace on 2026-11-18). The user
    OK'd normal routine pulls going forward; run `atria_pull.py export` only by hand and bounded
    (`--export-min-spend` high or `--since` recent).
