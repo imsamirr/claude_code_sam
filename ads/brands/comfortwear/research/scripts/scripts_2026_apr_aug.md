@@ -1002,3 +1002,407 @@ Video reference: (embedded on page)
 
 ---
 
+## COM45 — Kyro373v3Hook2 V4
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** AI + Existing Footage · **Angle:** Travel Angle · **Creator type:** Travel · **Product:** — · **Offer:** Memorial Day Sale · **Month:** May · **Created:** 2026-05-20 · **Learnings:** —
+
+(Editor instructions only — no new script copy.)
+
+| Shot | Script |
+|---|---|
+| ITERATION 1 | To this ad: Kyro373v3hook2.mp4 - Project 373 - Frame.io (https://next.frame.io/share/6f547134-b3bf-4715-a7fe-386295427862/view/96733f89-442a-4e3f-80d7-7a9bb7adbf98) <br><br> Add this zocle, only in the hook: https://drive.google.com/file/d/1WNYvhlUSrl8NVbftE5ZEV2Jqo7biwRgH/view?usp=drive_link |
+| ITERATION 2 | To this ad: (same Kyro373v3hook2 link) <br><br> Add this zocle, only in the hook: https://drive.google.com/file/d/1QHZkinEj5p14tqpsz_zaddMqTKfQTq2c/view?usp=drive_link |
+| ITERATION 3 | To this ad: (same Kyro373v3hook2 link) <br><br> Add this zocle, only in the hook: https://drive.google.com/file/d/1eN0-yatD8ZkjdrGa8vsv6_6FF0UI12Cp/view?usp=drive_link |
+
+---
+
+## COM46 — Kyro_293_3
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** AI + Existing Footage · **Angle:** Travel Angle · **Creator type:** Travel · **Product:** — · **Offer:** Memorial Day Sale · **Month:** May · **Created:** 2026-05-20 · **Learnings:** —
+
+(Editor instructions only — no new script copy.)
+
+| Shot | Script |
+|---|---|
+| ITERATION 1 | To this ad: ACH - [creator]- 293(3) SS2.mov - project 293 - Frame.io (https://next.frame.io/share/6727e52c-6fe9-4093-af2d-2ec50320ab5e/view/1ddab160-7a10-475e-ad3e-4e47d5b6d43d) <br><br> Add this zocle, only in the hook: https://drive.google.com/file/d/1WNYvhlUSrl8NVbftE5ZEV2Jqo7biwRgH/view?usp=drive_link |
+| ITERATION 2 | (identical to Iteration 1) |
+| ITERATION 3 | (identical to Iteration 1) |
+
+---
+
+## COM47 — CW_929 V2
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** AI + Existing Footage · **Angle:** Authority Figure · **Creator type:** Expert / Doctor · **Product:** — · **Offer:** Memorial Day Sale · **Month:** May · **Created:** 2026-05-20 · **Learnings:** —
+
+(Editor instructions only — no new script copy.)
+
+| Shot | Script |
+|---|---|
+| ITERATION 1 | To this ad: Hook 3.mp4 - Mar 19, 2026 - Frame.io (https://next.frame.io/share/00452833-cbd7-44c7-ba5b-2c666099d2c9/view/c1da62a8-7bbd-4943-8e16-fd8e1e617050) <br><br> Add this zocle, only in the hook: https://drive.google.com/file/d/1WNYvhlUSrl8NVbftE5ZEV2Jqo7biwRgH/view?usp=drive_link |
+| ITERATION 2 | (identical to Iteration 1) |
+| ITERATION 3 | (identical to Iteration 1) |
+
+---
+
+## COM48 — Travel Pointing Shoes
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** AI + Existing Footage · **Angle:** Travel Angle · **Creator type:** Travel · **Product:** — · **Offer:** No Offer · **Month:** May · **Created:** 2026-05-20 · **Learnings:** —
+
+Variation 1:
+
+Can you make similar to this the reference attached in comments but put Hokas, Skechers, New Balance and 3 of our shoes (Ortho Stretch Cushion Shoes, Flow Hands-Free, Daily Slip-On shoes) → https://comfortorthowear.com/collections/womens-orthotic-shoes
+
+Put woman pointing to each one at a time
+
+Headline: COMFIEST TRAVEL SHOES TO INVEST IN 2026
+
+Variation 2:
+
+Put background of lifestyle photos of Hokas, Skechers, New Balance and 3 of our ComfortWear Shoes (Ortho Stretch, FLow, Daily Shoes)
+
+Put AI avatar in middle pointing to each of those
+
+Headline: The best travel shoes to pack for Europe 🧳 ✨
+
+---
+
+## COM49 — Teacher Traveling Yapper
+
+**Status:** 🏆 Winner · **NN/IT:** Net New · **Execution:** UGC · **Angle:** Travel Angle · **Creator type:** Travel · **Product:** — · **Offer:** No Offer · **Month:** May · **Created:** 2026-05-21 · **Learnings:** —
+
+Script Read #1 - Sit on the couch, relaxed position, camera really close above torso holding shoes.
+
+Reference Video: https://app.foreplay.co/share/ads/dlfyPzgDFGbK7rv45a9i?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+Script:
+
+Hook 1: Please don’t wear your Skechers to Europe. I'm begging you.
+Hook 2: If you're a teacher in your 50s and you're planning any kind of trip this year, listen to me before you pack the shoes you wear to school.
+Hook 3: Hands down the best shoes if you're going on a trip with a lot of walking but you still want to look put together. And this isn't an ad, I just genuinely cannot stop telling people about them.
+
+I'm a teacher, so I'm on my feet all day. Two years ago I went to Rome in the shoes I wear to school, and by day three my arches were done. I ended up sitting on the hotel balcony for two days because I couldn't walk anymore.
+
+So for Portugal, I tried these. Eighteen thousand steps a day on cobblestone and hills, and my feet were fine. I wore them with dresses, with linen pants, with shorts. Dressed them up, dressed them down. I didn't even pack a second pair.
+
+They're called ComfortWear shoes. Its go a Wide toe box, the insole has an arch support that doesn't squish flat, and the top stretches with your foot. They were built for nurses, which is honestly why they work.
+
+They're forty percent off right now, under sixty dollars, with a forty-five day money-back guarantee. Link's in my bio. One of the best purchases I've made in years.
+
+---
+
+## COM50 — Plantar Fasciitis Travel Yapper
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** UGC · **Angle:** Travel Angle · **Creator type:** Travel · **Product:** — · **Offer:** No Offer · **Month:** May · **Created:** 2026-05-21 · **Learnings:** —
+
+Script Read #1 - Sit on the couch, relaxed position, camera really close above torso holding shoes.
+
+Reference Video: https://app.foreplay.co/share/ads/dlfyPzgDFGbK7rv45a9i?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+Script:
+
+Hook 1: If you have plantar fasciitis and you've stopped traveling because of your feet, please watch this.
+Hook 2: I have spent over eight hundred dollars on shoes that were supposed to help my plantar fasciitis…
+Hook 3: Hands down, if you have plantar fasciitis and you've been putting off traveling because of your feet, these are the shoes you need to get. I just got back from nine days in Italy and I did not wake up once with that stabbing heel pain. Not once.
+
+I've spent hundreds on shoes that were supposed to help. Hoka, Skechers, custom inserts. Every trip, same thing. You put your foot down in the morning and it feels like walking on glass.
+
+I almost canceled this trip. Italy is cobblestone everywhere. But I walked twenty thousand steps a day, and every morning my first step was just normal. I still can't quite believe it.
+
+They're called the ComfortWear Ortho Stretch. Here's what's different. The arch support is firm, it doesn't collapse like foam does, and that's the whole reason your heel hurts in the morning. The toe box is wide, and the laces adjust when your feet swell in the afternoon.
+
+Forty percent off, under sixty dollars, forty-five day money-back guarantee, and they're HSA and FSA eligible. Link's in my bio. If you've been canceling trips in your head because of your feet, just try them.
+
+---
+
+## COM51 — Teachers Iteration
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** AI + Existing Footage · **Angle:** Teachers · **Creator type:** Teachers and Nurses · **Product:** — · **Offer:** No Offer · **Month:** May · **Created:** 2026-05-21 · **Learnings:** —
+
+**PLEASE AVOID AI FOOTAGE DURING THE WHOLE AD!** Look for UGC footage from TikTok or Youtube. DON’T USE STOCK FOOTAGE EITHER.
+
+Video reference: (embedded on page)
+
+| Timestamp | On-Screen Text / Voiceover | Visual Description (THESE ARE IDEAS, FEEL FREE TO ADD WHATEVER YOU THINK IT’S GOING TO LOOK BETTER) |
+|---|---|---|
+| Hook | Teachers spend 8 hours a day on hard classroom floors <br> so we tested the 5 most popular shoes for educators. | |
+| Hook | By 2 PM most teachers can barely feel their feet. So we tested the 5 most popular shoes educators wear to see which one finally fixes that. | |
+| Hook | The average teacher walks 4 miles a day on concrete and linoleum. So we tested the 5 most popular shoes for educators to find out which ones actually hold up. | |
+| Hook | Nikes, Hokas, Skechers, Vans, Crocs. The 5 shoes you'll see in any teachers' lounge. We tested all of them on real classroom days to see which one actually survives. | |
+| Body | And the results might surprise you. <br> If you teach K–12, when you're running a classroom… | The scene cuts to a teacher smiling as she sets up her room before the bell, sliding on her shoes. A wide shot of a busy elementary classroom mid-lesson. Then a packed hallway during a passing period. |
+| Body | …you're not really walking. You're standing on concrete and linoleum for hours at a time. | A teacher takes a quick selfie video at her desk between classes. Cuts to a male teacher in a polo crossing a long, hard-floored hallway. POV looking down at feet planted on tile during a lesson. |
+| Body | So we tested what teachers actually wear. | Overhead shot of a teacher tote bag tipped over, spilling out a chaotic mix of shoes: sneakers, Crocs, Vans, slip-ons, an old pair of running shoes. |
+| Body | First up, regular sneakers like Nike. <br><br> They look obvious, right? Comfortable on a treadmill. But here's the problem. | Low-angle shot of a teacher in jeans walking through a classroom in mint green Nikes. Close-up of well-worn running soles. POV of feet on linoleum during a stand-up lesson. |
+| Body | They're built for running and gym workouts, not standing still on hard floors. <br><br> After a full day in the classroom, every teacher complained about their lower back and arches feeling destroyed. | Close-up of a Nike running tread. A teacher mirror selfie at the gym. POV walking on classroom floor. A teacher sits down on a kid-sized chair, painfully rubbing her lower back. Another teacher slumps into a staff-room chair and slips off her shoes. |
+| Body | Next, we tried chunky sneakers like Hoka. <br><br> These felt amazing through homeroom and first period. | A teacher holds up bright Hoka sneakers. Close-up of the chunky stack-height sole. She writes on the whiteboard wearing them, then walks confidently between rows of desks. |
+| Body | But they're actually too cushioned for teaching. <br><br> All that bounce makes you unstable when you're bending down to a student's desk. <br><br> Also they look like recovery shoes, not classroom shoes, and they wear your legs out faster when you're walking miles of hallway on duty. | A teacher bends awkwardly to help a kid at his desk, wobbling slightly. Close-up of cushioning compressing as the foot lands. A long POV down a hallway during passing period. A teacher checks the clock (1:45 PM) looking exhausted. |
+| Body | Then we tested Birkenstocks, the favorite of art teachers, counselors, and anyone who wants their outfit to look effortless. <br><br> They feel great walking out of the house. <br><br> But that cork footbed that's supposed to support you turns into a rock after three hours on linoleum. <br><br> The open toe means every glue stick, paint spill, and dropped pencil ends up on your skin. <br><br> They slap when you walk (the worst possible sound during silent reading or test days), and good luck running to a kid down the hallway: they fall off your heel before you finish the sentence. | A teacher slides on a pair of brown Birkenstocks at her desk. POV walking on linoleum, cork sole slapping lightly with each step. Close-up of the hard cork footbed against tile. A teacher winces as a glue stick rolls past her bare toes. Wide classroom shot during a silent test, the camera lingering on her feet as she tries to walk quietly. Final shot: a Birk slipping off her heel as she tries to walk fast. |
+| Body | Then we tested Skechers with their memory foam. <br><br> Comfortable at the morning bell, <br> but memory foam has a sneaky problem for teachers. | A teacher holds up a black Skechers slip-on next to her classroom door. Close-up of the sole tread. POV of feet on tile during morning announcements over the PA. |
+| Body | It compresses throughout the day and never bounces back until you take the shoes off. <br><br> So by 2 PM, when you're on recess duty or grading after the bell, you have the least support. | Hands squeeze the heel of a Skechers shoe (the foam stays flattened). A teacher walks out to a sunlit playground for recess duty. A wide shot of a teacher pacing the blacktop. A teacher walks back down a hallway toward her room, visibly limping. |
+| Body | Finally, we tested a new option that's been getting popular in staff rooms: The Ortho Stretch from ComfortWear. <br><br> This is where things got interesting. | POV of feet in black ComfortWear shoes walking past student desks. A teacher in a cardigan stands at the whiteboard wearing a maroon pair. The brand name "ComfortWear" appears on screen. |
+| Body | They're designed for people who stand on hard floors for hours: like nurses or teachers. <br><br> The sole is firm enough to protect your arches from concrete, but flexible enough that you can move fast when a kid needs you. <br><br> They have slip-resistant grip so you don't wipe out on a wet hallway. The material breathes so your feet don't overheat after lunch duty. And they look clean and professional, not athletic, not orthopedic. | A teacher adjusts the toggle laces on a black ComfortWear shoe. POV walking confidently down a hallway with a "Wet Floor" sign. A teacher kneels to help a student tie a shoe (the ComfortWear flexes naturally). Close-up of the slip-resistant tread. A teacher flexes the shoe in her hand to show how it bends. Overhead shot of feet in polka-dot socks, no sweat marks, on the classroom floor. POV walking past lockers in a clean professional outfit. |
+| Body | And here's the smart part. <br><br> They look polished enough for parent–teacher night, but comfortable enough for 8 hours of teaching. | A teacher smiles holding up a ComfortWear shoe at her desk. Cuts to her in a blazer at a parent–teacher conference, shaking a parent's hand. A teacher walks down the hallway with the shoes paired with slacks. A quick selfie video during a hallway transition. |
+| Body | After testing, every teacher who tried them said the same thing. <br><br> They could stand longer, move faster, without their feet, knees, or back hurting. <br><br> That means more energy for their students, and more left over for themselves at the end of the day. | A montage of different teachers happily walking through hallways, classrooms, and schoolyards in the shoes. Intercut with shots of teachers laughing with students, grading at the desk with a coffee, and stepping out the school door at the final bell. |
+| Body | Try them, you will thank yourself later. Believe me. | A teacher in her classroom looks delighted as she opens a ComfortWear box on her desk. She sits on a kid-sized chair to put them on. Teacher poses by a school door. Low-angle shot of the shoes on a hallway floor. Final shot: teacher smiling at her desk, holding the shoes, classroom decorations behind her. |
+
+---
+
+## COM52 — Sweaty feet Iteration
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** AI + Existing Footage · **Angle:** Sweaty feet · **Creator type:** Pains · **Product:** — · **Offer:** Ever green · **Month:** May · **Created:** 2026-05-21 · **Learnings:** —
+
+**PLEASE AVOID AI FOOTAGE DURING THE WHOLE AD!** Look for UGC footage from TikTok or Youtube. DON’T USE STOCK FOOTAGE EITHER.
+
+Video reference: (embedded on page)
+
+| Timestamp | On-Screen Text / Voiceover | Visual Description (THESE ARE IDEAS, FEEL FREE TO ADD WHATEVER YOU THINK IT’S GOING TO LOOK BETTER) |
+|---|---|---|
+| Hook | Think you just have to deal with sweaty feet all summer? <br><br> We tested five of the most popular shoes to find out which ones actually breathe. | |
+| Hook | Think you just have to live with that summer shoe smell? <br><br> We tested five of the most popular pairs to find the ones that don't trap odor. | |
+| Hook | The reason your feet smell isn't your feet. It's the foam in your shoes. <br><br> We tested 5 of the most popular pairs to find the only one that doesn't turn into a bacteria sponge. | |
+| Hook | You tried <br> Foot powders, antiperspirant sprays, Cedar inserts... And none of it worked, because the problem was never your feet. It was your shoes. <br><br> We tested 5 of the most popular pairs to find the only one that actually fixes it. | |
+| Body | And the results might surprise you: <br><br> if you dread taking your shoes off at a friend's house, if your socks are soaked by lunchtime... | Woman hesitating at a doorway, eyeing a "shoes-off" pile. Cuts to her glancing nervously at her watch. A close-up of a damp sock being peeled off. |
+| Body | ...it's not just sweat. It's odor, fungus, and the social anxiety that comes with it. | A woman fans herself in an office. Subtle shot of a foot powder bottle on a bathroom counter. A man discreetly checking his shoe smell and wincing. |
+| Body | So we tested what people with sweaty feet actually wear. | Overhead shot of a closet floor with mesh runners, canvas shoes, slip-ons, sandals, and ComfortWear all laid out. |
+| Body | First up, mesh sneakers like Nike. <br><br> They LOOK breathable, right? All those tiny holes in the upper. But here's the problem. | Close-up of a Nike mesh upper with light streaming through it. POV shot of feet in mesh runners walking on hot pavement. |
+| Body | The mesh sits on top of foam that traps moisture. <br><br> By lunch, your socks are soaked. By dinner, your shoes smell. <br><br> And by morning? They're still damp inside. | Hand pressing into foam with a water-like compression effect. Person peeling off a wet sock. A wince as someone smells a shoe. Damp shoes lined up by the door the next morning. |
+| Body | Next, we tried Skechers with memory foam. <br><br> Felt soft and cool the first hour. | A woman slipping into Skechers with a small smile of relief. Close-up of memory foam in the heel. |
+| Body | But memory foam acts like a sponge. <br><br> It absorbs every drop your feet release, then traps it. Bacteria multiplies inside. <br><br> Odor builds up. And no spray, no wash, no sun gets it out. | A hand squeezing memory foam like a wet sponge. A person spraying Lysol or Febreze into a shoe with frustration. Shoes drying in the sun, then a sniff, then a head shake. |
+| Body | Then we tested canvas shoes like Vans. <br><br> Casual, lightweight, summery. But canvas has its own sweaty problem. | Hand holding a canvas Vans shoe up to the sun. Close-up of the canvas weave (looks porous but isn't really). |
+| Body | Canvas isn't actually ventilated, it just feels light. <br><br> Sweat soaks straight into the fabric and stays there. Yellow stains form. Smell sets in fast. <br><br> And you can't really wash them clean. | POV of feet in canvas shoes on hot asphalt. Close-up of yellowed sweat stains on white canvas. Shoes coming out of a washing machine warped and discolored. |
+| Body | We also tried sandals, the "obvious" fix for hot feet. <br><br> Air everywhere, right? But sandals create new problems. <br><br> Blisters between your toes. <br> Zero support after an hour. <br> Sweaty soles slipping out of the straps. <br><br> And your feet are exposed to every dirty surface you walk on. | POV feet in sandals. Close-up of a red blister between toes. A foot slipping forward in a slide. Walking through a dirty subway platform / hot city sidewalk. A grimace at end of day rubbing the arch. |
+| Body | Finally, we tested these breathable everyday shoes that are getting popular: The Ortho Stretch from ComfortWear. <br><br> This is where things got interesting. | Hand adjusting toggle laces on a black ComfortWear shoe. POV walking confidently on a sunny sidewalk. Brand name "ComfortWear" appears on screen. |
+| Body | ComfortWear is built for people on their feet all day. <br><br> The upper has real airflow channels, not just decorative holes. <br><br> The lining wicks moisture away from your skin instead of holding it against you. <br><br> And the antimicrobial insole stops the bacteria that causes odor. <br><br> So even after 8 hours, your feet stay dry, cool, and fresh. | Close-up of the breathable upper with slow-mo air flow effect. Hand peeling back the insole to reveal the layer. Side-by-side: a soaked sock from a competitor vs. a dry sock from ComfortWear. A woman confidently slipping her shoes off at a friend's house, no hesitation. |
+| Body | And here's the smart part. <br><br> They look polished enough for the office, but cool enough for a 90-degree afternoon outside. | A woman in business casual walking through an office. Cut to her walking outside in bright summer sun looking comfortable. |
+| Body | After testing, everyone said the same thing: they forgot they had sweaty feet. <br><br> No more damp socks. No more smell anxiety. No more checking your shoes before you take them off in front of someone. | A montage: woman slipping shoes off at yoga studio without flinching. Man taking shoes off at airport security relaxed. Friends arriving at a dinner party, taking shoes off easily at the entrance. Smiling, dry feet. |
+| Body | Try them today, you will thank yourself later. | Promotional graphic with "$85 OFF" prominently displayed. Woman in her kitchen smiling as she opens the ComfortWear box. Sliding them on. Walking out the door into a summer afternoon. |
+| Body | (Music fades out) | White screen with the "ComfortWear" logo. Transitions to a product shot of three pairs in different colors with promotional graphics. ComfortWear / SUMMER PRICES END SOON ($85 OFF) / 45 DAYS MONEY BACK GUARANTEE / FREE SHIPPING ON ALL ORDERS / DOCTOR-RECOMMENDED. |
+
+---
+
+## COM53 — Back Pain Iteration
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** AI + Existing Footage · **Angle:** Back Pain · **Creator type:** Pains · **Product:** — · **Offer:** Ever green · **Month:** May · **Created:** 2026-05-21 · **Learnings:** —
+
+**PLEASE AVOID AI FOOTAGE DURING THE WHOLE AD!** Look for UGC footage from TikTok or Youtube. DON’T USE STOCK FOOTAGE EITHER.
+
+Video reference: (embedded on page)
+
+| Timestamp | On-Screen Text / Voiceover | Visual Description (THESE ARE IDEAS, FEEL FREE TO ADD WHATEVER YOU THINK IT’S GOING TO LOOK BETTER) |
+|---|---|---|
+| Hook | If you wake up stiff, sore, and feeling 10 years older than you are, it's probably not your mattress. <br><br> It's the shoes you wore yesterday. We tested five of the most popular ones to see how much they actually affect your spine. | |
+| Hook | Your back pain might not be your back. It’s probably your shoes. <br><br> We tested five of the most popular shoes to see how much they actually affect your spine. | |
+| Hook | A chiropractor told me my back pain wasn't coming from my back. It was coming from my shoes. <br><br> So I tested five of the most popular ones to see how much they actually affect your spine. | |
+| Hook | Your back pain might not be your back. It might be the 8,000 steps you took today **in the wrong shoes.** <br><br> We tested five of the most popular ones to see how much they actually affect your spine. | |
+| Body | And what we found changed how we think about back pain. If you wake up stiff, or feel the pain build throughout the day | Woman sitting on the edge of her bed in the morning, slowly rolling her shoulders, hand on lower back. Cut to a nurse mid-shift leaning against a wall, rubbing her lumbar. Cut to a mom carrying a toddler on her hip, posture clearly tilted. |
+| Body | it's probably not your mattress. Not your posture. Not your age. | Three quick rejection cuts: hand pulling back a comforter (rejected); woman trying to "sit up straight" at her desk (rejected); a calendar flipping pages (rejected). Each fades with a subtle red X. |
+| Body | It starts where you'd least expect it. Your feet. | Slow tilt down the woman's body, from her aching back, down her legs, ending on her bare feet on the hardwood floor. Subtle red glow pulses up from feet to lower back to suggest the kinetic chain. |
+| Body | First up, regular flats. <br><br> What most women wear all day. They feel like nothing on your foot. But that's the problem. | Woman slipping on black ballet flats by her front door. POV shot of feet in flats walking on a sidewalk. Close-up of the paper-thin sole bending almost in half between two fingers. |
+| Body | Zero arch support. Zero shock absorption. Every step sends impact straight up your legs and into your lower back. | Animated overlay: impact wave traveling up a leg silhouette into the lumbar spine, glowing red on contact. Cut back to the woman walking, slight wince at the hip with each step. Cut to her at 7pm, collapsed on the couch, rubbing her lower back. |
+| Body | Next, the drugstore "orthopedic" shoes. <br><br> The ones that promise comfort. They felt like walking on a cloud at first. | A pharmacy aisle with beige and black "comfort" shoes. Hand picking one up. Person sitting on a bench putting them on, eyes briefly closing in relief. |
+| Body | But too-soft cushioning is the opposite of support. Your foot collapses inward all day. Your hips rotate out of alignment. And by dinner, your lower back is worse than it was before. | Close-up: thumb pressing hard into squishy memory foam, the foam stays compressed. Animation: foot rolling inward, knee tracking in, hip rotating, spine tilting. Time-lapse: woman's posture deteriorating from 9am to 6pm at a standing desk. |
+| Body | Then we tested Crocs. <br><br> Every nurse's best friend. Soft, roomy, easy on the feet. But they hide a different kind of damage. | Hand grabbing a pair of Crocs off a shoe rack. Nurse putting them on in a hospital break room. POV walking down a hospital corridor. |
+| Body | Completely flat inside. <br> No real arch. <br> Your foot slides millimeters with every step. <br><br> So your ankles, knees, and hips overwork all day just to stabilize you. Guess where that tension ends up. | Close-up of the flat Croc footbed. Slow-motion: foot inside a Croc visibly sliding side-to-side as the person walks. Animated red tension traveling up ankle, knee, hip, lower back. Cut to person grabbing their lower back at the end of a shift. |
+| Body | We also tried Birkenstocks. The "natural support" crowd favorite. <br><br> That contoured cork footbed is real, but it's rock hard. No real shock absorption. Every heel strike travels straight into your spine. And the rigid design locks your foot into one position. It doesn't move with you. | Pair of Birkenstocks on a wooden floor. Close-up: finger pressing on cork, no give. POV walking in Birkenstocks on cement. Slow-motion heel strike with a shock wave illustrated traveling up the leg. Side-by-side: rigid cork outline vs. natural foot bend. |
+| Body | Finally, we tested these. Designed by people who actually live with back pain: Orto Stretch from ComfortWear. This is where everything changed. | Hands unboxing ComfortWear shoes. Close-up of the sole tread. Woman lacing them up on her bed, small smile starting. Brand name "ComfortWear" appears on screen. |
+| Body | These were built from the ground up to align your posture, not just cushion your foot. <br><br> A firm sole that absorbs shock without collapsing like foam. Deep arch support that lifts your foot back into neutral position. <br><br> From the ground up, your hips realign. Your spine decompresses. | Cross-section graphic of the ComfortWear sole: firm midsole, contoured arch. Animation: foot stepping in, arch lifting into place. Green-glowing alignment line traveling from foot up through knees, hips, into a now-straight spine. Cut to the same woman walking (same camera angle as earlier shots) but upright, no wince. |
+| Body | And here's what nobody tells you. <br><br> Relief from back pain often starts below the belt. <br><br> Not with pills. Not with stretches. | Hand putting a pill bottle back on the shelf. Hand pausing on a foam roller, then walking away. Close-up of a ComfortWear shoe being slipped on. Quick smile from the wearer. |
+| Body | After 30 days of testing, every participant reported less lower back pain, less morning stiffness, and more energy at the end of the day. One tester said: "I forgot what it felt like to stand up without wincing." | Montage: woman lifting her toddler with ease; nurse finishing her shift smiling; mom walking through a park; woman gardening; retiree on a hike. Ends on a tester at her kitchen counter, looking into camera with relaxed shoulders. |
+| Body | Right now you can get them 40% off, with free shipping. Try them for 45 days. If your back doesn't feel better, send them back. But based on our testing, you probably won't want to take them off. | Product shot of three pairs of ComfortWear with a "40% OFF" badge. Woman opening the package at her front door, smiling. Slipping them on at her kitchen counter. Walking out the front door upright, head high. |
+| Body | (Music fades out) | White screen with the ComfortWear logo. Transitions to a product shot: three pairs of shoes in different colors, with offer graphics and trust badges around them. Closing card: 40% off bundles / 45-day money back guarantee / free shipping / doctor-recommended for posture & back pain. |
+
+---
+
+## COM54 — TOFv5_AR20 | Senior | 929 Iteration 1
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** AI + Existing Footage · **Angle:** Iteration · **Creator type:** Expert / Doctor · **Product:** — · **Offer:** Ever green · **Month:** May · **Created:** 2026-05-21 · **Learnings:** —
+
+(Editor instructions only — no new script copy.) **PLEASE AVOID AI FOOTAGE DURING THE WHOLE AD!** Look for UGC footage from TikTok or Youtube. DON’T USE STOCK FOOTAGE EITHER. Video reference: Hook_3.mp4 (embedded on page)
+
+| Shot | Instruction |
+|---|---|
+| ITERATION 1 | Please just change the AI Creator, to another male doctor. <br><br> During the first 12 seconds, use the NEW creator, then you can use the same structure, with the old creator. |
+| ITERATION 2 | Please just change the AI Creator, **to another male doctor.** <br><br> During the first 12 seconds, use the NEW creator, then you can use the same structure, with the old creator. |
+| ITERATION 3 | Please just change the AI Creator, **to a female doctor.** <br><br> During the first 12 seconds, use the NEW creator, then you can use the same structure, with the old creator. |
+| ITERATION 4 | Please just change the AI Creator, **to another female doctor.** <br><br> During the first 12 seconds, use the NEW creator, then you can use the same structure, with the old creator. |
+
+---
+
+## COM55 — TOFv5_AR20 | Senior | 929 Iteration 2
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** AI + Existing Footage · **Angle:** Iteration · **Creator type:** Expert / Doctor · **Product:** — · **Offer:** Ever green · **Month:** May · **Created:** 2026-05-22 · **Learnings:** —
+
+(Editor instructions only — no new script copy.) **PLEASE AVOID AI FOOTAGE DURING THE WHOLE AD!** Look for UGC footage from TikTok or Youtube. DON’T USE STOCK FOOTAGE EITHER. Video reference: Hook_3.mp4 (embedded on page)
+
+| Shot | Instruction |
+|---|---|
+| ITERATION 1 | Test the same footage and creator. <br><br> Add a ASMR voice-over |
+| ITERATION 2 | Test the similar footage in the background, but the same creator, but on the left. <br><br> Add a FEMALE voice-over |
+| ITERATION 3 | Test the similar footage in the background, but with another male creator, but on the left. <br><br> Add a MALE voice-over |
+| ITERATION 4 | Test the similar footage in the background, but with a female creator, but on the left. <br><br> Add a FEMALE voice-over |
+
+---
+
+## COM56 — Top 5 Shoes - Creator [creator]
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** UGC · **Angle:** Iteration - Comparison · **Creator type:** Nurse · **Product:** — · **Offer:** Ever green · **Month:** May · **Created:** 2026-05-25 · **Learnings:** —
+
+Reference: (attached in comments)
+
+Hook 1: Miren mi colección de zapatos  Crocs, Skechers, Dansko, Hoka  Gasté más de $500 tratando de encontrar un zapato que aguantara mis turnos de 12 horas sin destruirme los pies
+
+Hook 2: Revisamos los 5 zapatos que más usan las enfermeras en sus turnos para ver cuál realmente ayuda con el dolor de pies. Lo que encontramos nos sorprendió.
+
+Hook 3: Gasté más de $500 probando los zapatos que toda enfermera recomienda, y el más barato les ganó a todos. Aquí está la clasificación para que no botes tu dinero como yo.
+
+Hook 4: Probamos los zapatos más populares entre enfermeras y el más caro quedó en segundo lugar, no lo vas a creer.
+
+Hook 5: Después de turnos de 12 horas en pisos de hospital, pensé que mis pies aguantarían cualquier cosa. Hasta que caminé 20,000 pasos al día de vacaciones. El más barato les ganó a todos.
+
+Script:
+
+Hoy los voy a clasificar de peor a mejor para que ustedes no desprendan su dinero como yo lo hice  Número 5, los crocs  Ya sé, todo el mundo los usa en el pabellón y sí, son fáciles de ponerse  Pero después de la hora 3, me están matando los talones  Cero soporte de arco  Y si tienes facilidades plantar como yo, los crocs la empiezan muchísimo  Se sienten como pantuflas sobre concreto  Número 4, Skechers Go Walk  Esta es una viscoelástica, se siente increíble en la tienda  Pero el problema es que se comprime y no vuelve a su forma durante el turno  Para la hora 6 ya no tiene ningún soporte y llegaba cojeando a mi carro cada noche con estos zapatos  Número 3, Dansko  Estos son los zapatos de enfermera profesionales que todos recomiendan  Y tienen buen soporte de arco  Eso se los reconozco, pero son muy pesados y muy rígidos  Al final de mi turno doble, mis piernas estaban agotadas solo de cargar con ellos  Y más de 130 estás pagando por el nombre  Número 2, Hoka Bondi  Estos cuestan 165 y honestamente la amortiguación se siente increíble las primeras 2 horas  Pero los hokas están diseñados para corredores, esfuerzos cortos, superficies suaves  No para enfermeras, paradas en concreto por 12 horas seguidas  Esa gruesa capa de espuma colapsa bajo una presión sostenida  Para la hora 8 mi facitis plantar estaba insoportable  Y el número 1, Comfortwear Ortho Stretch  A menos de 60 con el descuento  El zapato más asequible de toda la lista  Y el único diseñado específicamente para personas como nosotras  El soporte de arco no está pleno a mitad del turno  La puntera ancha le da espacio a tus pies para hincharse sin apretarte  Y son antideslizantes en los pies mojados del hospital  Los usé durante una rotación completa y mi dolor de facitis plantar bajó de un 9 a un 2  No voy a volver a los otros  Después de revisar miles de reseñas de enfermeras y trabajadores de la salud  El patrón es muy claro  El zapato más barato de esta lista supera a todo lo que cuesta 2 y 3 veces más  Porque fue hecho para lo que nosotras hacemos  Ahora mismo Comfortwear tiene un 40% de descuento con envío gratis  Usa los 45 días y tus pies no se sienten mejor  Los devuelves  Toca el enlace abajo
+
+B-ROLLS:
+- Creator packing a suitcase, tossing in 2-3 pairs of shoes (generic sneakers visible), zipping it shut. Quick, real, slightly messy.
+- POV walking shot on cobblestones / a crowded old-city street, phone-style handheld, feet not clearly visible, just motion and scenery.
+- Shoes on showing slip-resistant grip of shoes to the camera by lifting leg towards camera
+- Pressing thumbs down on the toe-box of the shoes
+- Walking on a big puddle of water with shoes on
+- Selfie of creator walking in shoes and holding camera
+- Put shoes on sitting down and tightening laces
+
+---
+
+## COM57 — Text Video Format
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Nurse · **Creator type:** Nurse · **Product:** — · **Offer:** Ever green · **Month:** May · **Created:** 2026-05-26 · **Learnings:** —
+
+Inspiration:  https://app.foreplay.co/share/ads/xGoDPpys6Gr7nvOfN2D0?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+Use same music background and put instagram: @shopcomfortwear
+
+**Variation 1:**
+
+Scene 1: (close-up of shoes and leaning into arch support)
+
+"Bought these on sale not expecting much. I've tried every brand and figured these would be just like the rest."
+
+"Skechers went flat in a week. Hokas were so tall they wrecked my balance. Brooks compressed under my arch by noon. These actually held all day?? like at all??"
+
+Scene 2:
+
+"they're ComfortWear if anyone's wondering"
+"I've spent more than $800 on shoes that flattened out. I wore these every day this week and my feet feel better than they have in months. not even being dramatic 😭"
+
+**Variation 2**:
+
+Scene 1:
+
+"Ordered these on sale because I needed new work shoes. Had no idea the arch support was built into the shoe itself until my first shift."
+"I've had plantar fasciitis for years. First few steps out of bed used to be brutal. Wore these for a full 12 and walked to my car without that stabbing heel pain?? for the first time in months."
+
+Scene 2:
+"they're ComfortWear btw"
+"I figured it'd take weeks to feel anything. My heel started easing up within the first few shifts. not even being dramatic 😭"
+
+Variation 3:
+
+Scene 1: Put scene of woman in plane or outside plane scene
+
+"The worst travel advice I ever got: just wear your comfortable sneakers."
+"Everyone told me the same thing before every trip. After 22 countries, I can tell you it's the worst advice you'll get."
+
+Scene 2: put scene of tiktok creator wearing hokas and then scene of it worn out and flattened (hide logos)
+"I wore Hokas in Lisbon. The foam bottomed out on the cobblestones by day two. Stabbing heel pain the rest of the trip."
+
+Scene 3: Put scene of tiktok creator wearing nikes and then limping (internal asset footage or youtube/tiktok footage only) (hide logos)
+"I wore Nikes in Paris. Narrow toe box, feet swollen by 3pm. Spent my last two days sitting on a bench."
+
+Scene 4: Put scene of running shoes being presented by a creator (youtube or tiktok) → put like a collage of this, up-close showing shoes (hide logos)
+
+"Here's what took me too long to learn. Running shoes are built for smooth surfaces and short bursts. Travel is the opposite. You're on stone and tile 8 to 10 miles a day."
+
+Scene 5:  Put scene of nurse wearing these shoes and showing content of ComfortWear shoes
+"A nurse friend finally set me straight. She said if these hold up through 12-hour hospital shifts, they hold up through anything."
+
+Scene 6: Scene of wide toe-box being shown and arch support
+"Wide toe box so your feet have room as they swell. Arch support that actually holds, not foam that collapses by hour four. Firm enough for cobblestones."
+
+Scene 7: Happy on vacation with comfortwear shoes (internal asset footage only)
+
+"Three trips since then. No pain, no benches, no afternoons lost."
+
+"They're ComfortWear. 40% off right now with a 45-day guarantee. If they don't change how you travel, send them back. I don't think you'll need to."
+
+---
+
+## COM58 — HSA/FSA
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** HSA · **Creator type:** Nurse · **Product:** — · **Offer:** HSA/FSA · **Month:** May · **Created:** 2026-05-27 · **Learnings:** —
+
+Inspiration:  https://app.foreplay.co/share/ads/RKprCCJ3FmsxzzRMPr3m?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+Hook 1: This is the smartest thing I've used my HSA on
+Hook 2: I had FSA funds about to expire. Spending them on this was the smartest thing I've done all year.
+Hook 3: I just found out my HSA covers the shoes I stand in for 12 hours. Why did nobody tell me this?
+
+Body:
+
+I always thought it was just for doctor visits and copays. Then it hit me, I could use it on the thing I'm standing in for 12 hours straight. So I got ComfortWear. Most work shoes squeeze your toes and the cushion goes flat by hour six, so your feet, knees, and back take the hit all shift. These do the opposite. Wide toe box so your feet have room as they swell, and firm arch support that actually holds instead of collapsing by noon. When your feet hold up, the rest of you does too. So this wasn't really a shoe purchase, it was me finally using my HSA on something that supports my body every single shift. If you've got HSA or FSA funds sitting there, they may cover these. Use them on something you actually feel.
+
+---
+
+## COM59 — July 4th Sale Started Early
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** AI · **Angle:** Retargeting · **Creator type:** None · **Product:** — · **Offer:** Ever green · **Month:** May · **Created:** 2026-05-27 · **Learnings:** —
+
+Inspiration:  https://app.foreplay.co/share/ads/jCTBX4jU21KDeIcnJ6l6?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+Hook 1: Okay don't tell my boss I'm telling you this early, but ComfortWear started their July 4th sale already. Like, way early. Everything's 40% off right now before it's supposed to go live.
+Hook 2: I'm probably gonna get in trouble for this, but the July 4th sale started early and it's 40% off.
+Hook 3: Okay, we f*cked up. We started the July 4th sale WAY too early and now it's 40% off before it's supposed to be. Don't tell my boss.
+
+Body:
+
+The Ortho Stretch, the Flow , [the Daily, all of it, 40% off.
+These basically never go on sale this deep, so if you've been sitting on it, this is the one. Go before someone tells them I let it out early. Free shipping and you get to use your HSA/FSA benefits.
+
+---
+
+## COM60 — Most Popular Shoes Ranked
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** AI + Existing Footage · **Angle:** Adults 65+ · **Creator type:** Senior +65 · **Product:** — · **Offer:** Ever green · **Month:** May · **Created:** 2026-05-27 · **Learnings:** —
+
+Inspiration : https://app.foreplay.co/share/ads/ATPTVmteqRgcxx1fRcA0?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+Hook 1: (Same as inspiration)
+Five shoes. One ranking, and the most popular shoe on the market didn't even make the top three. Before you spend another dollar on shoes for tired, aging feet, you need to see this.
+
+Hook 2: (put collage of Hoka & Skechers scenes side by side with AI avatar in the middle looking up at them)
+Hoka and Skechers are two of the worst shoes you can wear if you're worried about your balance. I know that'll upset people, so let me rank them.
+
+Hook 3 (Use AI Avatar:  https://app.foreplay.co/share/ads/Bvs0GtCqVvNtGH8QbDXc?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2):
+Do not wear these shoes if you’re dealing with foot pain.
+
+Hook 4: Similar hook to this reference:  https://app.foreplay.co/share/ads/XhiZ0VNYtB5ofdm4s3ks?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+After ranking the top 4 shoes for travel, Orthofeet, Skechers, brooks, Hokas, we decided to never recommend those if you have foot pain.
+
+Hook 5 (Use AI Avatar  https://app.foreplay.co/share/ads/Bvs0GtCqVvNtGH8QbDXc?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2):
+If you’d like to get rid of foot pain, here are 4 shoes you must avoid.
+
+Body:
+
+In fifth place, Orthofeet. Score 5 out of 10. $145 for podiatrist recommended, but reviews say the arch sits in the wrong spot and lacks support for all-day standing. The very thing they promise is what they fail to deliver.
+
+Number four, Skechers. Score 6 out of 10. Cheap and the memory foam feels amazing at first, but customers say it compresses fast and you end up on flat rubber with no support. The worst thing you can do to an aging arch.
+
+Number three, Brooks. Score 7 out of 10. $160 for a trusted brand, but the arch compresses under your weight. One reviewer said the pain came right back by the afternoon.
+
+Number two, Hoka. Score 7.5 out of 10. $170 for that famous cushioning, but it sits so tall it shifts your balance and strains your knees. Too much soft foam throws you off, and being thrown off is how falls start.
+
+And the number one shoe for feet that have changed with age, the ComfortWear Ortho Stretch. Score 9.5 out of 10. At under $60, here's what makes it different. Firm arch support that actually holds all day instead of collapsing by noon. Wide toe box so your toes spread naturally, critical for balance and for anyone with bunions or arthritis. Slip-resistant sole so you feel steady on every surface. Built for standing all day, not adapted from a running shoe.
+
+Over 500,000 people have already made the switch. Right now the Ortho Stretch is 40% off. If it doesn't improve how you feel on your feet, send it back, no questions asked. Tap below to check if your size is still in stock.
+
+---
+
