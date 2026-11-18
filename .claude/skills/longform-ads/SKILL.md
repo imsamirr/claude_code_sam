@@ -80,7 +80,7 @@ These are the lessons learned while building this program. Each one came from a 
   - `competitors_longform`
 
   Log each ad's hook, first 10 lines, open-loop type and run days to `research/learning/hook_loop_bank.csv`. Re-check earlier entries at 7, 14 and 30 days; the survivors are the signal.
-- **Avatar and personas (Comfort Wear, user rule 2026-11-18):** read `research/avatar_personas.md` and `research/customer_survey_digest.md` before planning; every narrator fits one of those personas and the copy respects their expectation-gap rules.
+- **Avatar and personas (Comfort Wear, user rule 2026-11-18):** read `research/avatar_personas.md` and `research/customer_survey_digest.md` before planning; every narrator fits one of those personas and the copy respects their expectation-gap rules. Then `research/voc_synthesis.md` (Trustpilot, Facebook/Instagram ad comments, Reddit, Amazon, YouTube: objections ranked, why they buy competitors, features, benefits, persona notes; sources in `research/voc/`): put the objection each concept answers and the competitor it beats into the StefanBrain brief.
 - **Customer voice:** the feedback sheet (`feedback_sheet`) and reviews. **Reddit:** `reddit.subreddits` (see the access notes).
 
 ### 2.2 Ideas table (show it to the user before writing a new batch)
