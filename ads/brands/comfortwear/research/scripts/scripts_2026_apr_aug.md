@@ -2883,3 +2883,688 @@ ComfortWear. Save even more with bundle discounts. 45-day money-back guarantee. 
 
 ---
 
+## COM125 — K229 Iteration
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Nurse · **Creator type:** Nurse · **Product:** Ortho · **Offer:** Ever green · **Month:** July · **Created:** 2026-07-01 · **Learnings:** —
+
+(Body lines are one sentence per line in Notion; blank lines collapsed.)
+
+Reference: https://drive.google.com/file/d/1-vnAh6dJvue8EQlU8AtA1CcJ1QGdlOwT/view?usp=sharing
+
+Hook 1: THESE ARE THE ONLY SHOES BUILT FOR 3-ON, 4-OFF ROTATIONS. (Make similar to reference)
+
+Hook 2: Think running shoes are the best for your 12-hour shoes? (AI avatar in the corner pointing at shoes just crumbling and flattening)
+
+Hook 3: We asked 500 nurses with plantar fasciitis one simple question: What shoes have you already tried? The answers were almost identical every single time. (Put 4-5 nurses running down the stairs)
+
+Hook 4: Okay, so you're clearly not a fan of most name-brand shoes for nurses. What shoes do you actually recommend for someone working 12-hour shifts? That's such a great question because there are so many options out there now. (AI scene of a garbage dump with brand name shoes inside. Put caption: Biggest mistake nurses make when buying shoes)
+
+Look at your shoes right now.
+Seriously.
+I did that last week with my worn-out $100 Skech*rs...
+And it finally hit me.
+They were never designed for what we do.
+Most shoes are designed for people working a normal 8-hour day.
+People who sit at desks.
+People who actually get to rest their feet throughout the day.
+Nursing isn't like that.
+We work 12-hour shifts.
+Three days in a row.
+Hours of non-stop standing.
+Walking.
+Turning.
+Lifting.
+Rushing.
+Last month, I tracked my steps during a typical shift.
+Over 47,000 steps.
+In a single day.
+No wonder regular shoes don't last.
+Even expensive running shoes start breaking down after a month or two.
+The cushioning flattens.
+The support disappears.
+And by the end of your third shift...
+Walking back to your car feels like the hardest part of the day.
+That was my reality.
+Until my charge nurse told me about ComfortWear.
+She said they completely changed how her feet felt during back-to-back shifts.
+I'll be honest...
+I was skeptical.
+But I ordered a pair anyway.
+And I noticed the difference on my very first shift.
+The cushioning stayed comfortable all day.
+Not just for the first hour.
+The arch support actually supports your feet instead of just looking good in the advertisement.
+The wide toe box gives your toes room to spread naturally.
+No more pinching.
+No more swollen feet by the end of the shift.
+The slip-resistant outsole gives you confidence on wet hospital floors.
+The breathable knit upper keeps your feet cool instead of overheating halfway through the day.
+And they're incredibly lightweight.
+By hour ten...
+It doesn't feel like I'm dragging bricks around anymore.
+Now I wear them every shift.
+And honestly...
+I even wear them on my days off.
+The craziest part?
+They're under $60.
+I've spent two or three times that on shoes that didn't even survive a couple of rotations.
+If you work long hours on your feet...
+Especially if you're working 3-on, 4-off rotations like I am...
+You owe it to yourself to try ComfortWear.
+Right now, you can get 40% OFF when you order through the link below.
+You'll notice the difference on day one.
+And by day three...
+You'll wonder how you ever worked without them.
+ComfortWear. Save even more with bundle discounts and gifts. 45-day money-back guarantee. Free returns & exchanges. Doctor-recommended.
+
+---
+
+## COM126 — LF Iteration K373
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** LF Ads · **Angle:** Travel · **Creator type:** Travel · **Product:** Ortho · **Offer:** Ever green · **Month:** July · **Created:** 2026-07-01 · **Learnings:** —
+
+Variation 1: Image: Put image of plane window with clouds outside. The ad copy is here: sub-page "Travel Shoes" (below).
+
+Variation 2: Image: Put image of nighttime building in Lisbon. Ad copy is here: sub-page "Travel - Competitor Shoes" (below).
+
+(Both sub-pages are one sentence per paragraph in Notion; blank lines collapsed. "Dr. Sara Adams" is the brand's on-screen/fictional specialist persona as written in the copy.)
+
+### Variation 1 copy — "Travel Shoes"
+
+Don't pack your "comfortable sneakers" for your next trip until you hear what they cost me.
+I'm not a bitter woman.
+So I won't drag anyone's name through the mud more than I have to.
+But after 22 countries, I think I've earned the right to give you one piece of advice.
+And it's the exact opposite of what everyone told me.
+Before every single trip, I heard the same thing.
+"Just wear your sneakers. They're comfortable."
+I believed it for years.
+Two ruined vacations later, I finally understand why it's the worst travel advice you will ever get.
+Lisbon was the first lesson.
+I wore my Hokas. The ones everyone swears by.
+They feel like clouds in the store.
+But Lisbon is cobblestone. Hill after hill of it.
+And that soft foam bottoms out fast on stone.
+By the second morning I had a stabbing pain in my heel that showed up with my very first step out of bed.
+It never left.
+I limped through the rest of the trip.
+Paris was supposed to be different.
+I wore my Nikes.
+Narrow through the toes.
+And by three in the afternoon my feet had swollen so much that every step pinched.
+I spent my last two days in one of the most beautiful cities on earth sitting on a bench.
+Watching everyone else enjoy the city I'd saved years to see.
+Two trips. Both partly stolen by my own shoes.
+And here's what I've learned since.
+I am not the only one this happens to.
+Talk to almost anyone who travels past 60, or anyone who spends a full day on their feet, and you'll hear the same story.
+Swollen feet by afternoon.
+Aching arches by evening.
+A heel that stabs on the first step out of bed.
+We all blamed our age, or our luck.
+Almost none of us blamed the one thing we had in common.
+Because here's the part that took me too long to see.
+The problem was never my feet.
+The problem was that I kept believing sneakers count as travel shoes.
+They don't.
+And once you understand why, you can't unsee it.
+Running shoes are built for one job.
+Smooth pavement, short bursts, then you take them off.
+That soft, bouncy foam is designed to spring back between runs.
+Travel is the exact opposite of a run.
+You're walking 8 to 10 miles a day.
+On stone, tile, and marble. Surfaces your feet have never touched before.
+And that pillowy foam that felt so good in the store?
+Picture a kitchen sponge.
+Press it once and it bounces right back.
+But stand your full weight on it, hour after hour, and it just… stays flat.
+That's what happens under your arch by about hour four.
+The cushion quietly collapses.
+And from there your feet are carrying you on nothing.
+It only gets worse the longer the day and the harder the surface.
+And your feet swell when you travel. They always do.
+Heat, long flights, hours upright.
+By afternoon your foot is bigger than it was at breakfast.
+And a narrow running shoe has nowhere left to give.
+I'd probably still be losing vacations to park benches if it weren't for a nurse friend of mine.
+She'd fought the same foot pain for years.
+Except her "trip" was a 12-hour hospital shift. On hard floors. Every shift.
+She told me she finally stopped fighting it when she found a pair called ComfortWear.
+"If they hold up through my shifts," she said, "they'll hold up through anything you can walk."
+That line stuck with me.
+If a shoe can carry a nurse through twelve hours on a hospital floor, cobblestone should be easy.
+She was right.
+And the difference wasn't subtle:
+✅ A wide toe box, so when my feet swell in the afternoon they finally have room to breathe instead of a wall to fight
+✅ Arch support that actually holds. Real structure under the arch, not foam that gives out by hour four
+✅ Firm enough for cobblestone, light enough that by mile six I forget I have shoes on at all
+Three trips since then.
+No stabbing heel.
+No pinched toes.
+No afternoons lost to a bench.
+I walked a full day through a city I'd only ever seen sitting down.
+And got back to the hotel wondering why I hadn't tried this years ago.
+What makes the difference is the part you can't see in a product photo.
+Most sneakers are built around soft foam. Because soft feels good for the ten seconds you try them on.
+ComfortWear is built the other way around.
+Structure first.
+A reinforced arch that stays put under your weight, so the support you feel at breakfast is still there at hour ten.
+And I have to be fair here.
+I was a Hoka person. A Nike person. A "whatever's on sale" person.
+Not every comfortable-looking shoe is built the same.
+The soft ones win the try-on and lose the trip.
+ComfortWear was designed with a foot-health specialist, Dr. Sara Adams, as a co-builder.
+Specifically for feet that are on the ground all day.
+That's a completely different goal than a shoe made to run a 5K and then come off.
+And it isn't just me and one nurse.
+Over 500,000 people are walking in these now.
+Travelers, retirees, nurses. Anyone whose feet have to last longer than a jog.
+Here's the part that made me wish I'd found them sooner.
+A pair of Hokas runs about $165.
+These are under $60. And right now they're 40% off.
+They're even HSA and FSA eligible, if that helps.
+The first thing I did was tell my sister before her Portugal trip.
+She thought I was being dramatic.
+Then she called me from Lisbon, standing on the same cobblestones that wrecked my heel, just to say thank you.
+If you order a pair before your next trip, here's what to expect.
+Day one, they feel supportive, not soft.
+That's the point. Soft is what failed you.
+By the end of your first long day of walking, you notice what's missing.
+The ache in your arch. The pinch across your toes.
+By the second or third day, the question that used to run on a loop, "where can I sit down," just… stops coming up.
+And somewhere on that trip you'll do what I did.
+Look down, realize you've forgotten you're even wearing shoes, and keep walking.
+The 40% off is running right now.
+I won't invent a countdown to rush you.
+But I already paid full price for two ruined vacations.
+This is the cheaper lesson.
+And you're not risking a thing to find out.
+They come with a 45-day guarantee.
+Walk in them, travel in them, and if they don't change how your feet feel at the end of a long day, send them back.
+You're out nothing.
+I really don't think you'll send them back.
+But do yourself one favor.
+Don't wait until you're the one on a bench in a city you crossed an ocean to see.
+Get the pair before the trip.
+Your feet, and every mile you actually get to walk, will thank you.
+
+You can find more information here: www.comfortorthowear.com
+
+### Variation 2 copy — "Travel - Competitor Shoes"
+
+Before you pack your favorite sneakers for Europe, read this.
+We put five of the most popular travel shoes through a full day on cobblestones.
+One of them surprised us.
+The other four didn't survive the afternoon.
+Here's the thing nobody tells you before that dream trip.
+When you explore a new city, you're not just walking.
+You're on stone, tile, and marble. Surfaces your feet have never touched before.
+For 8 to 10 hours. Day after day.
+And the shoe that feels perfect on your living room carpet is a completely different shoe by hour six on a hill in Lisbon.
+So we tested what travelers actually pack.
+Here's what held up, and what fell apart.
+First up, regular sneakers. The Nike type.
+Seems obvious, right? They're comfortable for walking around the block.
+But that's the problem.
+They're built for smooth surfaces. Gym floors. Running tracks. Short bursts, then you take them off.
+Put them on cobblestone for a full day and your feet feel every stone by dinner.
+Beaten up. Bruised. Done.
+Next, the chunky cushioned type. Think Hoka.
+These feel amazing for the first few hours.
+But here's the catch nobody warns you about.
+All that soft bounce actually works against you on uneven ground.
+The more the foam wobbles, the more your ankles fight to stay steady.
+Add a few hills through an old city center, and your legs tire twice as fast.
+They're also bulky in a carry-on when every inch counts.
+Then we looked at the memory-foam type. Skechers and the like.
+Soft and comfy the second you slip them on.
+But memory foam has a sneaky problem for travelers.
+It compresses as the day goes on. And it doesn't spring back until you take the shoes off.
+So by mid-afternoon, exactly when you're doing your most walking, you're standing on the least support you've had all day.
+That's the whole trap, actually.
+Running-shoe foam is designed to bounce back between short runs.
+Travel never gives it the chance to bounce back.
+Picture a kitchen sponge. Press it once, it pops right up.
+Stand your full weight on it hour after hour, and it just stays flat.
+That's your arch by about hour four. The cushion quietly gives out, and your feet finish the day carrying you on nothing.
+We also tried sandals, since half of travelers pack a pair.
+Great for the beach. Rough on everything else.
+No protection from uneven ground. Feet sliding with every step.
+And forget anything wet or slippery.
+They also read "tourist" the second you walk into a nice restaurant.
+Then we looked at the one built for a different job entirely.
+ComfortWear.
+This is where it got interesting.
+These weren't designed to run a 5K and then come off.
+They were built for people who have to stay on their feet for hours, on any surface, and still feel good at the end of it.
+The difference is in the parts you can't see in a product photo:
+✅ A firm, supportive sole that protects you from cobblestone, yet flexes enough that you never feel clunky
+✅ A reinforced arch that actually holds its shape under your weight, instead of collapsing by the afternoon
+✅ A wide toe box, so when your feet swell on a long travel day, they have room to breathe instead of a wall to fight
+✅ A breathable upper, so your feet don't overheat after eight hours of exploring
+And here's the smart part.
+They look put-together enough for a nice dinner, but carry you through a full day of walking without a single complaint from your feet.
+That's not an accident.
+ComfortWear was built with a foot-health specialist, Dr. Sara Adams, as a co-builder, specifically for feet that are on the ground all day.
+Which is a completely different goal than a shoe made for a jog around the park.
+After putting all five through a real day of travel, the takeaway was simple.
+In ComfortWear, you can walk further, and longer, before your feet start asking you to sit down.
+And that's the whole point of the trip, isn't it?
+To see more of the place you crossed an ocean to visit. Not to watch it go by from a bench.
+You're not the only one who's figured this out, either.
+Over 500,000 people are walking in these now.
+Travelers, retirees, nurses. Anyone whose feet have to last longer than a jog.
+Here's the part that makes it easy.
+A pair of Hokas runs about $165.
+These are under $60. And right now they're 40% off, with free shipping.
+They're even HSA and FSA eligible, if that helps.
+If you order a pair before your trip, here's what to expect.
+Day one, they feel supportive, not pillowy. That's the point. Soft is what fails you at hour four.
+By the end of your first long day of walking, you'll notice what's missing. The ache in your arches. The bruised feeling underfoot.
+By day two or three, the question that used to run on a loop, "where can I sit down," just stops coming up.
+And somewhere on that trip you'll look down and realize you've forgotten you're even wearing shoes.
+Then you'll keep walking.
+Try them for 45 days.
+Travel in them. Put them through a real day on real streets.
+If they don't make travel more comfortable, send them back. You're out nothing.
+But based on how they held up against the other four, you'll probably pack them for every trip after this one.
+Don't lose another vacation to the wrong pair of shoes.
+Get the pair before the trip.
+
+Shop now: www.comfortorthowear.com
+
+---
+
+## COM127 — Healthcare Workers Tested Dozen
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** AI + Existing Footage · **Angle:** Nurse · **Creator type:** Nurse · **Product:** Ortho · **Offer:** Ever green · **Month:** July · **Created:** 2026-07-02 · **Learnings:** —
+
+Reference:  https://app.foreplay.co/share/ads/PLkHGkh4MYZ2XdHVYrDT?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+Very important to follow the structure of this video. How the authority figure is present majority of the time
+
+Make sure AI avatar is a man with a lab coat and name tag has “Podiatrist” on it.
+
+Hook 1: We tested dozens of the shoes nurses actually wear on shift. Almost every single one failed the same way, at the same time.
+Hook 2: We asked 300 nurses with plantar fasciitis which shoes they wear for 12-hour shifts
+Hook 3: So this person is asking, “I’m a nurse with plantar fasciitis, should I wear skech*rs or H0kas?” Now that’s a good question, and the answer surprises a lot of you (use this style of hook:  https://app.foreplay.co/share/ads/a3h2Mj0z3GQnlTvSvZsA?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2)
+
+Here are 3 things you need to understand first.
+
+Number one. Most shoes are built for the wrong job.
+Skechers feel amazing on day one, then the memory foam compresses flat and never comes back.
+Hokas look impressive, but that tall foam bottoms out and your legs work harder just to stay steady.
+Danskos are rigid right where your foot needs to move.
+Running shoes are made for forward motion, short bursts, soft ground.
+You're not running. You're standing. On concrete. For twelve hours.
+
+Number two. Here's what's really happening to your feet on shift.
+Every shift you take around 47,000 steps.
+Each one lands on cushioning that's slowly collapsing under your weight.
+By hour four, the foam starts giving out.
+By hour six, the support is basically gone.
+By hour eight, you're walking on flat rubber.
+
+Keep watching, because I'm about to show you exactly what to check for before your next shift.
+
+Number three. The damage doesn't stop at your feet.
+When your foot loses support, the problem climbs.
+Your feet overwork, so your knees compensate.
+Your knees strain, so your hips shift.
+Your hips shift, so your lower back takes the hit.
+That's why your lower back feels like it's giving out at the end of a shift that started with nothing but sore feet.
+
+So you need one shoe that does all of this at once:
+— Cushioning built for standing all day
+— Arch support that holds its shape through hour twelve, not foam that quits by hour four
+— A wide toe box so your feet have room when they swell in the afternoon
+— A slip-resistant grip for wet, unpredictable hospital floors
+— And a price that’s affordable for healthcare
+
+One shoe checks every box: ComfortWear Ortho Stretch.
+
+Built for people who stand and walk all day, not for athletes.
+
+All-day comfort cushioning.
+
+Reinforced arch support that holds the entire 12 hours.
+
+A wide toe box for swollen feet.
+
+Non-slip grip for the floors you actually work on.
+
+And it's under $60, while the Hokas in your locker run about $165.
+
+More than 500,000 people who spend their days on their feet have already switched.
+
+Not because of a flashy logo.
+
+Not because of marketing.
+
+Because these were built around one thing: what your feet go through on a real shift.
+
+But here's the part most people get wrong.
+
+Most shoes sold for foot pain are still built on the same collapsing foam and the same narrow toe box.
+
+They just hide it better.
+
+And even the right shoe won't help if you order the wrong size, so get fitted properly the first time.
+
+That's why ComfortWear comes with a 45-day money-back guarantee and free returns.
+Wear them for a full rotation.
+If your feet and your back don't feel the difference, send them back for free.
+
+They're 40% off right now, under $60.
+And because they're HSA and FSA eligible, you may be able to cover them with pre-tax dollars.
+
+---
+
+## COM128 — Women with Osteoarthritis Falling
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Arthritis · **Creator type:** Senior +65 · **Product:** Ortho · **Offer:** Ever green · **Month:** July · **Created:** 2026-07-02 · **Learnings:** —
+
+Reference:   https://app.foreplay.co/share/ads/NU9wjkyipQ3v5PPjOWOY?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+Hook 1: I thought women with osteoarthritis keep falling because their joints are weak. What I found out was shocking. (similar to reference hook)
+Hook 2:  1 in 3 women over 60 keep falling because their joints are weak from osteoarthritis (put a study statistic style of hook with woman falling as the clip in the background)
+Hook 3: A podiatrist told me I would never be safe from falling because of my osteoarthritis  (hook style:  https://app.foreplay.co/share/ads/4yaceLue7xPb3J83Gr3a?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2)
+
+When I was diagnosed with foot and ankle osteoarthritis, my podiatrist told me the cartilage in my joints was wearing down, especially in my toe, midfoot, and ankles, causing stiffness, swelling, and pain every time I walked.
+
+After that, I couldn't think about anything else. I spent every walk looking down to the ground, second-guessing every step. I wasn't living anymore, I was just trying not to fall.
+
+But here's what nobody told me. Worn-down joints don't cause falls just because they hurt, they cause falls because stiff, arthritic joints can't react fast enough to keep you balanced.
+
+My daughter is a physical therapist. She lives out of state, so she didn't see how bad things had gotten until she visited me. That's when she noticed the thin foam insole shoes I was wearing that I thought were keeping me safe. She explained something I'd never heard before. As we age, wear-and-tear arthritis in the feet is incredibly common, especially in women over 60, and when the toe, midfoot, and ankles lose mobility, your balance system breaks down. But the actual problem isn't just the arthritis itself, it's the loss of stability. And the shoes I was wearing were making it even worse. Because when your feet are being impacted by each step you take, your body can't correct a misstep before it turns into a fall.
+
+I spent years afraid to live my life. I stopped walking as far. I avoided uneven ground. Not because I couldn't move, but because I was terrified of losing my balance.
+
+And that's when she finally brought me these ComfortWear shoes that changed everything. I looked at them and thought she was crazy. They looked ordinary. Simple, even. Then she walked me through them.
+
+The cushioning is built to hold its shape all day instead of collapsing by lunchtime, so your feet aren't pounding the ground with nothing underneath them. The support stays firm from morning to night, so nothing above your feet has to compensate. The toe box is wide, so stiff, achy toes have room to spread out naturally instead of getting crowded, and your feet feel planted and comfortable. The material stretches with your feet as they swell through the day, so nothing pinches or presses on those tender, arthritic spots by the afternoon. My feet are still my feet, arthritis and all. But I'm not dreading every walk anymore. The stiffness that used to greet me every afternoon eased up. I no longer fear off falling. Within a couple of weeks, I was walking further than I had in years. Within a month, I'd stopped planning my days around how much my feet could take.
+
+They didn't cure my osteoarthritis. The wear-and-tear is still there. I still see my doctor. But I'm not living in fear anymore. The fear faded. I feel steady again. Within weeks I was walking further than I had in years. Within a month, I stopped planning my life around the risk of falling.
+
+These shoes are called the Ortho Stretch Cushion by ComfotWear. You can try them with a 45-day trial. If you don't feel more stable and confident, send them back for a full refund.
+
+But I think you'll be like me. You'll wonder why nobody told you this sooner. Don't wait until a fall changes everything and it becomes too late
+
+---
+
+## COM129 — 4 Shoes Never Recommend to Neuropathy
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** AI + Existing Footage · **Angle:** Neuropathy · **Creator type:** Senior +65 · **Product:** Ortho · **Offer:** Ever green · **Month:** July · **Created:** 2026-07-03 · **Learnings:** —
+
+Reference:  https://app.foreplay.co/share/ads/iFimnVdX7h7xrpvgl7Wa?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+- Make sure to follow the same structure on how the AI avatar is presented across the entire video.
+
+Hook 1: Four shoes I would never recommend to women dealing with chronic foot pain. And I see women with plantar fasciitis, bunions, and neuropathy wearing these every single day.
+
+Hook 2: Here are 4 shoes I see women over 60 wearing every single day that is silently making their neuropathy worse ( https://app.foreplay.co/share/ads/rDZZub2wLVSo2wnTdFpG?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2)
+
+Hook 3: After testing 4 popular shoes on women with neuropathy, only one actually stopped the burning and tingling ( https://app.foreplay.co/share/ads/0LIfYb16aVcoQKSJI4JU?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2)
+
+Hook 4: Top 4 Shoes of 2026 that I don’t recommend for my patients with plantar fasciitis and neuropathy ( https://app.foreplay.co/share/ads/ehXw2YU7pTGNEEzqAeIy?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2)
+—-
+
+**Number one: Hoka Clifton, Score 6.5/10**
+
+I know they feel incredible in the store. That’s exactly the problem. The reviews said maximum cushioning. The price said serious shoe. And for the first few weeks, they delivered. That thick midsole felt like walking on clouds. But here is what nobody told you. That soft foam has zero structural integrity. It compresses under your foot and never fully recovers its shape. So the arch support you felt at 10 am is gone by noon.
+
+**Number two: Skechers Memory Foam**., **Score 5.4/10**
+
+These are the ones women reach for when the pain becomes daily and they want something that finally feels soft enough. And it does feel soft. That is exactly the problem. Memory foam has no structural integrity. It molds to the shape of your foot, which sounds like a feature until you realize it is also molding to every misalignment, every collapsed arch, every overpronation pattern your foot has developed. It is not supporting your foot. Now your plantar fascia is absorbing every impact with nothing underneath it.
+
+**Number three: Brooks, Score 5/10**
+
+This is what women graduate to when they decide to take their foot pain seriously. Maximum cushioning, elevated heel, rocker-shaped sole. Women tell me they feel relief in Brooks at first. What they are actually feeling is the foam absorbing the pain signal temporarily. That elevated heel drop keeps loading the forefoot with every step. The narrow toe box keeps compressing your bunions and the toes from the sides. They forget what months three through six felt like.
+
+**Number four: New Balance**. **Score 4.5/10**
+
+These are the ones women bring in after their doctor recommended them. And I understand why, the reputation is there, the wide width options exist, the price is reasonable. But that elevated heel creates a problem most women never connect to their pain. A raised heel tilts your entire weight forward onto the ball of the foot and toes with every step. If you have plantar fasciitis, that is the last place you want concentrated load. If you have bunions, that forward shift increases lateral pressure on the big toe joint with every stride. The shoe looks supportive, but the way it is built is working against you
+
+Women keep buying new versions of the same shoe expecting a different result, because no one told them the shape of the shoe is part of what is hurting them.
+
+So what do I actually recommend to women dealing with chronic foot pain?
+
+**ComfortWear, Score 9.5/10**
+
+Here is why this shoe design is different.
+
+The wide toe box gives the bunion real space. The toe box stays wide across the entire toe box area. So the bunion sits inside the shoe without making contact with the sidewall. No friction.
+
+The firm, non-collapsing insole provides structural arch support that holds its shape over months, not weeks. So the plantar fascia has the foundation it needs from the first step of the morning to the last step of the afternoon. And because the insole is removable, women who already have custom orthotics can drop them straight in — no compromise, no guesswork.
+
+The slip-resistant sole keeps weight distributed evenly and gives you grip on tile, hardwood, wet hospital floors, and cobblestone. No fear of falling or slipping for those worried about their balance.
+
+Women with chronic foot pain who make the switch describe the same progression. The first step out of bed stops being the worst moment of the day. They finish a 12-hour shift, and their feet are tired — not destroyed. Women who had quietly started declining things because standing meant pain start showing up again.
+
+If your foot pain has been getting worse despite trying shoe after shoe, it is not that comfort shoes do not work. It is that every shoe you have tried used cushioning to cover up a problem that was never fixed. The shape of the shoe was still compressing your bunion, still loading your plantar fascia, still squeezing tissue that was already inflamed.
+
+Over 500,000 women have already made the switch, and every pair comes with a 30-day money-back guarantee. Try them completely risk-free. Get them up to 40% off right now with free returns.
+
+---
+
+## COM130 — 4 Shoes Never Recommend Nurses with Plantar Fasciiits
+
+**Status:** Ready to Review · **NN/IT:** Iteration · **Execution:** AI + Existing Footage · **Angle:** Plantar Fasciitis · **Creator type:** Nurse · **Product:** Ortho · **Offer:** Ever green · **Month:** July · **Created:** 2026-07-03 · **Learnings:** —
+
+Reference:  https://app.foreplay.co/share/ads/iFimnVdX7h7xrpvgl7Wa?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+Hook 1: Here are four shoes I would never recommend to nurses with plantar fasciitis. And I see nurses clocking in for 12-hour shifts in these every single day.
+Hook 2: So this nurse asked, “what are the shoe brands you would avoid wearing for foot pain”. That’s a good question, and the answer surprises a lot of you who are wearing these brands. Here are 4 shoes I would never recommend to nurses struggling with foot pain ( https://app.foreplay.co/share/ads/a3h2Mj0z3GQnlTvSvZsA?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2)
+Hook 3: I’m a podiatrist, and here are 4 shoes I would never recommend to nurses with plantar fasciitis ( https://app.foreplay.co/share/ads/OHmm3AsFaU3sHZiausnf?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2) Message on hook: “I’m a podiatrist Don’t buy these shoes if you’re a nurse”
+
+**Number one: Hoka Clifton, score 7.5/10**
+
+I get it. Someone on your unit was wearing them. So you ordered a pair that same night. And honestly? The first few weeks felt like a miracle. But here is what nobody tells you. That thick sole rocks your weight forward with every step — straight onto the ball of your foot. When you are walking five miles across hard floors and answering call lights all shift, that is thousands of steps hammering the exact spot that already hurts the moment you get out of bed. And by month two or three, that foam is packed down flat. The cushioning you paid for is gone. And now your plantar fascia is absorbing every impact without the structure it needs underneath. Don’t blame your feet, it’s your shoes that failed.
+
+**Number two: Skechers Arch Fit, score 6.5/10**
+
+These are the ones nurses grab when the pain gets bad enough that soft is all that matters. And they are soft — right up until they are not. That memory foam wears out fast. We are talking weeks, not months. And while it is breaking down, it is not actually supporting your arch — it is just sinking into whatever shape your foot already has. If your arch has been collapsing after years of 12-hour shifts, the foam molds right into that collapse and calls it comfort. By hour six you are back on that hard floor with nothing under your heel but a flat piece of foam that used to be a shoe. The shoe looks supportive, but it’s working against you.
+
+**Number three: Brooks Ghost Max, score 6/10**
+
+This is the one nurses order when they decide enough is enough, and they are going to spend real money on a real shoe. And for the first couple of months, it feels like the right call. But that raised heel is doing something most nurses never connect to their plantar fasciitis. Every time you take a step, that heel lift is pushing your weight forward onto the front of your foot. Down the hallway to room 12. Back to the nurses station. Down to the supply room. Up to the next floor. Every single step of a 12-hour shift, your weight is being pushed forward onto the part of your foot that is already screaming. And when the foam breaks down — and it always does, right around month three — you are left with a shoe that is still built the wrong way and now has no cushioning left either.
+
+**Number four: New Balance Fresh Foam, score 5.5/10**
+
+These are the ones nurses buy after their podiatrist says to get something supportive with a wide toe box. And the intention is right. But that raised heel is the same problem as Brooks — it tilts your whole body weight forward onto the ball of your foot and your toes with every step. On a 12-hour shift where you are covering four to five miles, that adds up to thousands of reps loading the exact spot that is already inflamed. The shoe looks like it should be helping. The way it is built is making it worse.
+
+Here is what all four of these shoes have in common. They were built around cushioning as the answer to foot pain. But plantar fasciitis is not just a cushioning problem. The real issue is where the shoe puts your weight. A raised heel pushes it forward onto the wrong part of your foot. A narrow toe box squeezes your toes together for twelve hours straight. Soft foam breaks down and leaves you with nothing. Nurses keep replacing their shoes every three to six months — five hundred dollars a year, sometimes more — because nobody told them the shape of the shoe is part of what is causing the pain.
+
+So what do I actually recommend to nurses with plantar fasciitis?
+
+**ComfortWear, score 9.5/10**
+
+Here is what makes it different.
+
+The toe box is wide all the way across — it does not taper toward the front. Your toes have room to spread out naturally the way they are supposed to. No squeezing. No rubbing against the sidewall. No hot spots building up hour by hour through your shift.
+
+The insole is firm enough to actually hold your arch up — not just feel good for the first hour and then flatten out. It keeps its shape from the time you clock in to the time you clock out. And it comes out completely, so if you already have custom orthotics, you pull the stock insole, drop yours in, and you are done.
+
+The sole is flat and slip-resistant. Flat means your weight stays where it belongs — spread evenly across your whole foot, not pitched forward onto your heel or your toes. Slip-resistant means you are not white-knuckling it across a freshly mopped floor at 3am.
+
+And the upper is fluid-resistant. No mesh. No fabric that soaks up whatever ends up on a hospital floor. Just wipe it down at the end of your shift and you are good.
+
+Nurses who switch describe it the same way every time. The first step out of bed stops being the thing they dread. They make it to hour six without that burning feeling creeping in. They finish their shift, walk to their car, and their feet are tired — not destroyed. Nurses who had started seriously wondering how much longer they could do this job start feeling like they have got years left in them.
+
+If your foot pain keeps getting worse no matter what shoe you try, it is not your feet. It is that every shoe you have tried covered up the problem instead of fixing it. The shape was still wrong. Still pushing your weight onto your plantar fascia. Still squeezing your toes. Still breaking down by month three.
+
+Over 500,000 nurses and healthcare workers have already made the switch, and every pair comes with a 45-day money-back guarantee. Try them completely risk-free. Get them up to 40% off right now with free returns.
+
+---
+
+## COM131 — Black Women Over 200lbs
+
+**Status:** — · **NN/IT:** — · **Execution:** — · **Angle:** Overweight · **Creator type:** Black Women · **Product:** Ortho · **Offer:** — · **Month:** July · **Created:** 2026-07-06 · **Learnings:** —
+
+(No script text: the page body contains only a reference link.) Reference:  https://app.foreplay.co/share/ads/9enrh4qDz9RgH0IX44tX?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+---
+
+## COM132 — Stage Talking - Neuropathy (skid, non-slip grip needed)
+
+**Status:** — · **NN/IT:** — · **Execution:** — · **Angle:** Neuropathy · **Creator type:** Expert / Doctor · **Product:** Ortho · **Offer:** — · **Month:** July · **Created:** 2026-07-06 · **Learnings:** —
+
+(No script text: the page body contains only a reference link.) Reference:  https://app.foreplay.co/share/ads/CDhFxJaYr2HtYd20HfYH?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+---
+
+## COM133 — Doctor Recommendation for Nurse Working 12-Hour Shift
+
+**Status:** — · **NN/IT:** — · **Execution:** — · **Angle:** Nurse · **Creator type:** Nurse · **Product:** Ortho · **Offer:** — · **Month:** July · **Created:** 2026-07-06 · **Learnings:** —
+
+(No script text: reference link only.) Reference:  https://app.foreplay.co/share/ads/IWg1gfhVKPFNJQoSXTKn?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+---
+
+## COM134 — Why Top Brands Features Causing Plantar Fasciitis in Nurses
+
+**Status:** — · **NN/IT:** — · **Execution:** — · **Angle:** Plantar Fasciitis · **Creator type:** Nurse · **Product:** Ortho · **Offer:** — · **Month:** July · **Created:** 2026-07-06 · **Learnings:** —
+
+(No script text: reference link only.) Reference:  https://app.foreplay.co/share/ads/Zy8jL744gLCR6w6ZCxPt?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+---
+
+## COM135 — Do Not Wear These Shoes If You’re A Nurse Struggling with Plantar Fasciitis
+
+**Status:** — · **NN/IT:** — · **Execution:** — · **Angle:** Nurse · **Creator type:** Nurse · **Product:** Ortho · **Offer:** — · **Month:** July · **Created:** 2026-07-06 · **Learnings:** —
+
+(No script text: reference link only.) Reference:  https://app.foreplay.co/share/ads/tqxa2JL4ibwb3b8SZgey?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+---
+
+## COM136 — She Doesn’t Know It Yet, But These Shoes Will
+
+**Status:** — · **NN/IT:** — · **Execution:** — · **Angle:** Pain · **Creator type:** Everyday User · **Product:** Ortho · **Offer:** — · **Month:** July · **Created:** 2026-07-06 · **Learnings:** —
+
+(No script text: reference link and persona list only.) Reference:  https://app.foreplay.co/share/ads/hfeULVYWgEjJtZVFYVka?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+Variation 1: Nurse with plantar fasciitis/foot pain
+Variation 2: 65+ with neuropathy
+Variation 3: 65+ with bunions
+
+---
+
+## COM137 — I Replaced 3x Shoes
+
+**Status:** — · **NN/IT:** — · **Execution:** — · **Angle:** Nurse · **Creator type:** Nurse · **Product:** Ortho · **Offer:** — · **Month:** July · **Created:** 2026-07-06 · **Learnings:** —
+
+(No script text: reference link only.) Reference:  https://app.foreplay.co/share/ads/6xFkefAnTfq6GMcJUxst?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+---
+
+## COM138 — My Mom is 72 Cards Format
+
+**Status:** — · **NN/IT:** — · **Execution:** — · **Angle:** Foot Pain · **Creator type:** Senior +65 · **Product:** Ortho · **Offer:** — · **Month:** July · **Created:** 2026-07-06 · **Learnings:** —
+
+(No script text: reference link only.) Reference : https://app.foreplay.co/share/ads/g35lHJZs0M5wPS3hobO2?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+---
+
+## COM139 — I Found My Absolute Favorite Travel Shoes
+
+**Status:** — · **NN/IT:** — · **Execution:** — · **Angle:** Travel · **Creator type:** Travel · **Product:** Ortho · **Offer:** — · **Month:** July · **Created:** 2026-07-06 · **Learnings:** —
+
+(No script text: reference link only.) Reference:  https://app.foreplay.co/share/ads/8dxFnG7VUzl0h6IYb0SP?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+---
+
+## COM140 — Have You Wondered Why Nurses in 1960s Rarely Complained About Burning Tingling Feet?
+
+**Status:** — · **NN/IT:** — · **Execution:** — · **Angle:** Neuropathy · **Creator type:** Nurse · **Product:** Ortho · **Offer:** — · **Month:** July · **Created:** 2026-07-06 · **Learnings:** —
+
+(No script text: reference link only.) Reference:  https://app.foreplay.co/share/ads/hLtefJWFaAiMPa2GfcHE?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+---
+
+## COM141 — Travel & Pain
+
+**Status:** Ready to Review · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Several Pains · **Creator type:** Travel · **Product:** Ortho · **Offer:** No Offer · **Month:** July · **Created:** 2026-07-09 · **Learnings:** —
+
+Reference: (video embedded on page). **Add AI creators talking to the camera in different moments, don’t use ONLY existing footage + V.O**
+
+| Shot | Voiceover | Visual Description |
+|---|---|---|
+| Hook | 5 signs your travel shoes are wrecking your feet before you even land. | Make a hook like this one: https://app.frame.io/reviews/43b92073-e247-4b1c-bce8-b2e40dc6686b/e141044a-157b-42ef-9ac7-cce5e4c7b641?version=88a13e70-d1aa-4cef-b262-eeca3ff61525 |
+| Hook | I saved for a year for this trip, and my swollen feet and bunions almost ruined it. | Show a woman suffering in the plane |
+| Hook | If you love to fly but your feet swell up and your bunions start screaming halfway through the flight, you're wearing the wrong shoes. <br><br> Here are the 5 signs your travel shoes are the actual problem. | Creator to camera in an airport / boarding area, carry-on beside her. Quick cut to her feet in her seat. On-screen text: "5 signs." |
+| Body | Sign 1: your shoes feel tight by the time the plane lands. That's not in your head. <br><br> Your feet genuinely swell in the cabin, and stiff shoes have nowhere to give. | POV looking down at feet in a plane footwell. Close-up of a shoe pressing into the top of the foot. "1" graphic pops on. |
+| Body | Sign 2: your bunion starts throbbing after an hour. <br><br> When a shoe squeezes the sides, that bump gets pushed all trip, and by the time you land you're limping to baggage claim. | Close-up of the side of the foot / bunion area against a narrow shoe. Her shifting in her seat, wincing a little. "2" graphic. |
+| Body | Sign 3: you get those deep red lines pressed into your skin when you finally take your shoes off. <br><br> That's the shoe fighting your swelling for hours instead of moving with it. | She takes a shoe off in the hotel, shows the sock/skin indentation line. Slight grimace, a little laugh. "3" graphic. |
+| Body | Sign 4: you've already tried everything. <br> Sizing up, gel pads, the "comfort" sneakers everyone posts. Nothing holds up for a full day of walking. | Quick montage: a drawer of insoles, a trendy white sneaker tossed aside, her shaking her head. "4" graphic. |
+| Body | Here's what most travelers never realize: it's not your feet that are the problem. It's that normal shoes aren't built to move with a foot that swells and a toe that needs room. | Pattern-interrupt cut back to her face, calmer, talking straight to camera. Soft zoom in. |
+| Body | That's why I switched to ComfortWear. <br><br> The upper is a stretch knit, so it flexes as your feet swell instead of squeezing them. <br><br> The toe-box is wide, so your bunion isn't getting crushed for 8 hours. <br><br> And there's real anatomical arch support with a cushioned heel they call ORTHO-WEAR for the walking part of the trip. | Hand picks up the ComfortWear shoe, slips it on. Close-ups: stretch knit flexing, wide toe-box, hand pressing the cushioned heel. POV walking easily through the airport. Brand name on screen. |
+| Body | I did a whole travel day in these, flight plus sightseeing, and for the first time I didn't rip my shoes off the second I sat down. <br><br> No red lines, no throbbing bunion, no swollen tight feeling. | Montage: walking a plaza, climbing steps, back in the room she sits and does NOT grab her feet. Small relieved smile. |
+| Body | If you've got a trip coming up, do not fly in the wrong shoes again. They're $59 off right now with free shipping, and you get 30 days to try them. Wear them on a whole trip. If your feet aren't happier, send them back. | Product shot: 3 colors. Graphics: "$80 OFF / FREE SHIPPING / 45-DAY MONEY-BACK." She zips her suitcase with the ComfortWear box on top. |
+
+---
+
+## COM142 — Travel & Pain
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Several Pains · **Creator type:** Travel · **Product:** Ortho · **Offer:** No Offer · **Month:** July · **Created:** 2026-07-09 · **Learnings:** —
+
+Reference: (video embedded on page). **Add AI creators talking to the camera in different moments, don’t use ONLY existing footage + V.O**
+
+| Shot | Voiceover | Visual Description |
+|---|---|---|
+| Hook | This is the thing a nurse friend of mine told me about flying that I wish someone had told me twenty years ago. <br><br> You know that tight, swollen feeling halfway through a flight? <br><br> Your feet puff up, your shoes get tight, and if you've got a bunion, it starts throbbing like it's got a heartbeat of its own. | Creator to camera in an airport / boarding gate, carry-on beside her, warm and confiding like she's telling you a secret. Quick cut to her feet in a plane footwell, shifting around. |
+| Hook | This is the thing a nurse friend told me about flying that I wish I'd known twenty years ago | |
+| Hook | I tried everything to stop my feet hurting on flights, gel pads, sizing up, "comfort" sneakers. Here's what finally worked. | |
+| Body | Here's what almost nobody tells you: <br> your feet swelling on a flight is completely normal. <br><br> You're sitting still for hours in a pressurized cabin, so fluid settles into your feet and ankles. <br><br> Everybody's feet do it. It's not you. | Simple, calm b-roll: legs in an airplane seat, a hand pressing gently on the top of a slightly puffy foot, the little indent it leaves. On-screen text: "it's normal." |
+| Body | The actual problem is your shoes. <br><br> Most shoes are stiff and narrow, so when your feet swell, there's nowhere for them to go. <br><br> The shoe fights your foot for the whole flight, squeezes the bunion from the side, and by the time you land you're limping to baggage claim. | Close-up of a stiff shoe pressing into the top and sides of a foot. Cut to her taking a shoe off at the gate and rubbing the side of her foot near the bunion, wincing a little. |
+| Body | And if you love to travel, you know exactly what I mean. <br><br> You save up for months, you finally get there, and instead of looking around at where you are, you're sitting on a curb thinking about your feet. <br><br> I did that for years. I tried everything. | Emotional b-roll: arriving somewhere beautiful (a plaza, a coastline) but she's sitting down rubbing her foot, looking down instead of up. A montage of a drawer of gel pads, insoles, a trendy "comfort" sneaker tossed aside. |
+| Body | Sizing up. Gel pads. <br><br> The "comfort" sneakers everyone swears by online. Nothing held up for a full day of walking, and I honestly didn't know what else to do to make my feet stop hurting. | She shakes her head, half-laughing at herself, holding up an old insole. Quick cuts of failed solutions piling up. |
+| Body | Then my nurse friend put me onto ComfortWear, and the difference is the shoe is actually built to move with your feet. <br><br> The upper is a stretch knit, so as your feet swell, it flexes with them instead of squeezing. <br><br> The toe-box is wide, so your bunion finally has room instead of getting crushed for eight hours. | Pattern-interrupt cut back to her face, calmer, brighter. Hand picks up the ComfortWear shoe. Close-ups: stretch knit flexing over a hand, fingers showing the width of the toe-box, foot sliding in easily. Brand name on screen. |
+| Body | And underneath there's real anatomical arch support with a cushioned heel they call ORTHO-WEAR, so the walking part of the trip feels good too, not just the flight. <br><br> Plus they're light and breathable, and they look like normal shoes, not the clunky orthopedic kind. | POV walking easily through the airport, then down a cobblestone street. Close-up pressing the cushioned heel. Quick shots of the shoe in a couple of colors with a stylish travel outfit. |
+| Body | I wore them for a whole travel day, the flight plus a full day of sightseeing, and for the first time I didn't rip my shoes off the second I sat down. <br><br> No red lines pressed into my skin, no throbbing bunion, no tight swollen feeling. I forgot I was even wearing them. | Montage: walking a plaza, climbing steps, exploring. Back in the hotel she sits down and does NOT grab her feet, just smiles. Close-up of clean skin, no indent lines. |
+| Body | So if you've got a trip coming up, don't fly in the wrong shoes again. They're $59 off right now with free shipping, and you get 30 days to try them. Wear them on a whole trip. <br><br> If your feet aren't happier, send them back. Start actually enjoying travel again. | Product shot: 3 colors. Graphics: "$80 OFF / FREE SHIPPING / 45-DAY MONEY-BACK." She zips her suitcase with the ComfortWear box on top, grabs it and walks out. |
+
+---
+
+## COM143 — Travel & Pain
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Several Pains · **Creator type:** Travel · **Product:** Ortho · **Offer:** No Offer · **Month:** July · **Created:** 2026-07-09 · **Learnings:** —
+
+Reference: (video embedded on page). **Add AI creators talking to the camera in different moments, don’t use ONLY existing footage + V.O**
+
+| Variant | Voiceover | Visual | Text-On-Screen |
+|---|---|---|---|
+| Hook | This is how I got off a long-haul flight and walked straight into the city, instead of limping to the hotel with my shoes in my hand. | Replicate the reference with a woman talking to the camera | HOW I GOT OFF A LONG FLIGHT AND WALKED STRAIGHT INTO THE CITY... WITHOUT MY FEET SCREAMING |
+| Hook | If your feet swell up on every flight and your bunions throb the whole trip, I finally found something that actually helped. | Replicate the reference with an AI creator at a plane | IF YOUR FEET SWELL UP ON PLANES AND YOUR BUNIONS THROB THE WHOLE TRIP... THIS IS FOR YOU |
+| Hook | I saved up for years for this trip, and I refused to spend it the way I always do: sitting down because my feet couldn't take another step. | Replicate the reference with an AI creator at the airport | I SAVED UP FOR YEARS FOR THIS TRIP. I WASN'T GOING TO LET MY FEET RUIN IT AGAIN |
+| Body | Every long flight used to be the same story. My feet would swell up like balloons somewhere over the ocean, and by the time we landed I couldn't even get them back into my shoes. | Cut to a plane window seat. Close-up of feet slipped half out of shoes under the seat. Insert of an ankle looking puffy against the sock line. | Every long flight used to be the same story |
+| Body | And the bunions were the worst part. That joint on the side of my foot would rub and throb inside my normal shoes for the whole trip. Walking a museum? Forget it. I'd be looking for the next bench. | Close-up of a foot with a visible bunion, being gently rubbed. Cut to the creator sitting on a bench in a city square while others walk past, discreetly slipping a shoe off. | The bunions were the worst part |
+| Body | I honestly didn't know what else to try. Gel pads, wider sneakers, taking my shoes off mid-flight. Nothing really fixed it. And I love traveling. I save up all year for these trips. | Quick montage: a drawer of gel pads and old inserts, a pile of bulky sneakers, a hand tapping a savings jar or a screenshot of a booked flight. Ends on the creator looking a little defeated. | I honestly didn't know what else to try |
+| Body | Then a friend told me to try these Comfort Wear shoes, and I wish I'd known about them years ago. They're nothing like my old sneakers. The knit upper actually stretches, so when my feet swell, the shoe gives with them instead of choking them. | Close-up of the Comfort Wear shoe being lifted out of the box. Hands stretching the knit upper to show how far it gives. Foot sliding in easily. | Then I tried these Comfort Wear shoes |
+| Body | And there's a wide toe-box, so my bunion isn't getting squeezed with every step. Underneath, there's this heel cushioning and arch support that actually holds up. Supportive, but not stiff. My feet stayed comfortable the entire flight to London. | Overhead shot showing the roomy toe-box next to a narrow regular sneaker for comparison. Thumb pressing the cushioned insole, springing back. Creator walking an airport concourse comfortably, pulling her suitcase. | Wide toe-box + real cushioning |
+| Body | Turns out over 500,000 people wear them, they're rated 4.8 stars, and they're expert-recommended for exactly this kind of foot. I kept them on the whole flight and walked all day when I landed. | Quick product beauty shots in a few colors. Cut to the creator walking a cobblestone street, then standing comfortably taking a photo of a landmark. On-screen badges: 500,000+ customers, 4.8 stars, Expert-Recommended. | 500,000+ people. 4.8 stars. Expert-recommended |
+| Body | And they come with a 30-day money-back guarantee, so if you've got a trip coming up, you can just try them. If your feet aren't happier, send them back. | Creator lacing them up at a hotel room door, then stepping out into the street. Warm, relaxed energy. | 45-day money-back guarantee |
+| Body | If you're sick of swollen feet and aching bunions ruining trips you saved up for, don't wait until your next flight to sort it out. | Final selfie-style shot: creator at a scenic spot, on her feet, smiling, clearly still comfortable at the end of a long day. | Don't let swollen feet ruin another trip |
+| Body | (Music fades out) | End card: Comfort Wear logo, then the standard product shot (three pairs in different colors) with promo graphics. | COMFORT WEAR / MADE FOR SWOLLEN FEET & BUNIONS / EXPERT-RECOMMENDED / 45-DAY MONEY-BACK GUARANTEE / FREE SHIPPING |
+
+---
+
+## COM144 — Arthritis
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Pains · **Creator type:** Everyday User · **Product:** Ortho · **Offer:** No Offer · **Month:** July · **Created:** 2026-07-09 · **Learnings:** —
+
+Reference: (video embedded on page). **Add AI creators talking to the camera in different moments, don’t use ONLY existing footage + V.O**
+
+| Section | Voiceover | Visual |
+|---|---|---|
+| Hook | We asked 5 women over 60 who walk with arthritis to test the shoes everyone keeps recommending... and honestly, the results surprised us. | Woman (60s) on bed, lacing a shoe, rubbing top of foot. Phone-shot feel. |
+| Hook | My hands, my knees, my feet... arthritis took a lot. I wasn't giving up walking too | |
+| Hook | These won't cure your arthritis. No shoe will. But here's what they actually did for me. | |
+| Problem | When you have arthritis, it's not just the joint that hurts... it's every step on a hard floor sending a shock straight up through it. <br><br> Most shoes do nothing about that. Stiff, they squeeze right where you're already tender, and by afternoon you're counting the steps back to the couch. | Feet on hard tile, hand pressing a swollen foot joint, easing into a chair. |
+| #5 Running shoe (Hoka/Brooks) | The runners everyone swears by? Great if you're running. Built for pushing off, not standing and walking slow. One tester said her toes felt boxed in by hour three. | Hand lifts shoebox #5. |
+| #4 Nursing clog (Dansko) | Sturdy, sure. But rigid. No give where a swollen foot needs it. 'Like walking on a board,' one told us. | Shoebox #4. |
+| #3 Drugstore insole (Dr. Scholl's) | Cheaper, and it helps a little... but you're still stuck with whatever shoe you already own doing all the work. | Shoebox #3. |
+| #2 Orthopedic (Orthofeet) | This one got close. Good support. But most said the same two things: pricey, and it looks like something from a hospital gift shop. | Shoebox #2. |
+| #1 ComfortWear | The one four out of five kept reaching for. It came down to three things. <br><br> A wide toe box, so nothing presses on joints that are already sore. A soft heel cushion, so the floor stops fighting back. <br><br> And a stretch-knit top that moves with a foot that swells instead of squeezing it. One tester put it best: 'It's the first pair I forget I'm wearing.' | Woman flexes shoe, presses heel cushion, wiggles toes inside. |
+| Proof + CTA | No shoe is going to fix arthritis. Nothing will. <br><br> But walking on something soft instead of hard tile? That changes the whole day. <br><br> Over 500,000 people wear them. 4.8 stars. <br><br> 30 days to try them... if your feet don't thank you, send them back. <br><br> Tap below and see why they landed at number one. | Woman walks easily through living room, clean product shot. On-screen: 500,000+ · 4.8★ · 45-day money-back. |
+
+---
+
