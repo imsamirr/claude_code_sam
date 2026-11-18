@@ -164,6 +164,18 @@ prompt), and this skill.
 - **Half (50%) iterations of what is winning for us right now**, moved into NEW static formats found in this run's research of other brands. Sources, in order: `data/top7_spenders.csv` (our ads with $5,000+ spend in the last 7 days, `atria_pull.py all` makes it; if it is empty, say so and rerun `current --days 7 --min-spend-rising 1000 --min-roas 0 --sort-spend --out top7_spenders.csv` for the top 10), `data/new7_winners.csv` (ads launched in the last 7 days with $200+ spend and ROAS 1.8+: the NEW winners; empty is possible, say so), then `current_winners.csv` / `rising_winners.csv` (30 days) and the seasonal pull. Keep each source ad's audience, pain and hook; change the format. **Video winners: transcribe the WHOLE script first** (Atria MCP transcript tools, e.g. `transcribe_library_ad`; or the transcripts API) for every video in `top7_spenders.csv`, `new7_winners.csv` and `current_winners.csv`, append it to `research/data/video_transcripts.md` (ad name, spend, ROAS, full text) and read all of it before writing: work out what the ad is actually about (audience, pain, story beats, objections, proof, offer, CTA), then iterate that full message into a static, not just the opening hook. Skip a video only if it is already in the file; if transcription fails, say so and do not iterate that ad. `based_on` names source ad, spend, ROAS.
 - **Other half (50%) completely new**: new angles (audience x pain, `angle_gap` tests) AND new formats from the research. Tuesday 20 = 10 + 10; Friday 40 = 20 + 20. Tag `group` as `iteration` or `net_new`. The batch-type table above is superseded where it differs.
 
+### Backgrounds and Atria MCP research (user, 2026-11-18: "a lot of these are starting to look the same")
+- The API pulls (`atria_pull.py`) are not enough. Every run also searches the **Atria MCP**: `search_library_ads`
+  (image, active, US, en, `collapse_variants`, `order=most_impressions`; proven `min_days_running=60`; rising
+  `launched_after=today-45d` + `min_days_running=10` + `impression_trend=rising`; seasonal `theme=holiday_festival,
+  seasonal, post_it_notes, UGC`) and `search_ad_templates`. Contact-sheet and read every result, looking at the
+  BACKGROUND and setting, not only the layout.
+- Comfort Wear: `research/background_playbook.md` lists the background families with their Atria source ads. Every
+  concept sets `background` + `background_source`; plain studio fields at most 15% of a batch, no family over 20%,
+  3+ seasonal backgrounds in Nov-Dec (brand.json `program.background_rule_2026_11_18`). "Light background" means the
+  area around the shoe, not a white ad. Never start prompts with "white or very light backgrounds".
+- QA: put the batch contact sheet up and squint: if more than 3 ads share a background type, re-render.
+
 ### 1a. Atria research: exact criteria per pull (user, 2026-10-30)
 
 Every pull writes a CSV to `research/data/`; contact-sheet it and **Read every page** before writing.

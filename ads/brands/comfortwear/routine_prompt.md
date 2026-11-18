@@ -36,3 +36,6 @@ Steps:
 7. Finish with a short summary: counts by angle/pain/colorway, offer and pain-led counts, new formats and their inspiration ads, source ads used, re-renders and why, cost total and per ad, Atria status, the Drive sheet link and the Slack message link.
 
 If this run's extra instructions say TEST RUN, do only what they say and nothing else.
+
+
+BACKGROUNDS (user 2026-11-18): run Atria MCP search_library_ads (proven 60+ days, rising, seasonal/holiday/post-it/UGC themes) and search_ad_templates every run, contact-sheet the results and read the backgrounds; follow research/background_playbook.md: every concept sets background + background_source, plain studio fields max 15% of the batch, no family over 20%, 3+ seasonal backgrounds in Nov-Dec. Never use the prompt prefix "white or very light backgrounds".

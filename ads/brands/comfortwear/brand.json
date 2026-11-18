@@ -349,7 +349,8 @@
       "guardrails": "From the feedback sheet: never promise fit or 'extra wide'; say 'built for 12-hour shifts', not 'no pain for 12 hours'; set expectations for the rocker sole; guarantee always 30 days."
     },
     "cartoon_rule": "User rule 2026-10-28: no cartoon/animation quota. Use cartoon_3d, comic_strip, flat_illustration, claymation, retro_cartoon or anime_soft ONLY when this run's inspiration research (wellness criteria: image, active, launched <=45 days, 10+ days running, health & wellness) surfaces an illustrated/animated static worth borrowing; it then counts as a new format in the ledger.",
-    "split_2026_11_13": "User 2026-11-13: EVERY batch (Tue 20, Fri 40) is split 50/50: 50% ITERATIONS of our current winners (last-7-day top spenders $5,000+ via top7_spenders.csv, and ads launched in the last 7 days with $200+ spend and ROAS 1.8+ via new7_winners.csv; plus 30-day current/rising and seasonal) moved into NEW static formats found in this run's Atria research of other brands; 50% COMPLETELY NEW angles AND formats (net new). Tag group 'iteration' / 'net_new'; iterations name the source ad (name, spend, ROAS) in based_on. Video winners are transcribed in full (research/data/video_transcripts.md) before iterating, so the static carries the ad's whole message, not just its hook."
+    "split_2026_11_13": "User 2026-11-13: EVERY batch (Tue 20, Fri 40) is split 50/50: 50% ITERATIONS of our current winners (last-7-day top spenders $5,000+ via top7_spenders.csv, and ads launched in the last 7 days with $200+ spend and ROAS 1.8+ via new7_winners.csv; plus 30-day current/rising and seasonal) moved into NEW static formats found in this run's Atria research of other brands; 50% COMPLETELY NEW angles AND formats (net new). Tag group 'iteration' / 'net_new'; iterations name the source ad (name, spend, ROAS) in based_on. Video winners are transcribed in full (research/data/video_transcripts.md) before iterating, so the static carries the ad's whole message, not just its hook.",
+    "background_rule_2026_11_18": "User 2026-11-18 ('get more creative with the background, a lot of these look the same'): every concept sets 'background' (family from research/background_playbook.md + one-line description) and 'background_source' (the Atria ad it comes from). Per batch: plain studio fields (white/grey/pastel, family 12) on at most 15% of concepts (Tue 3, Fri 6), no family over 20%, at least 3 seasonal backgrounds (fall/holiday) in Nov-Dec. The 'light background' rule applies to the area around the shoe, not the whole ad: real places, textured props, saturated color fields (with light shoes), grayscale-plus-color and seasonal scenes are all allowed. Never use the old prefix 'white or very light backgrounds'. Research: run Atria MCP search_library_ads (proven 60+ days, rising, seasonal themes) and search_ad_templates every run and add new background families to the playbook."
   },
   "colorway_template": "The shoe is the {label} colorway shown in the reference photo.",
   "colorway_priority": {
@@ -1355,6 +1356,50 @@
     "rv417_hike_almost_sold_out": {
       "file": "reference/benchmarks/rv417_hike_almost_sold_out.jpg",
       "use_for": "FORMAT ref 2026-11-17 (Tue W47 run): HIKE Footwear, 44d running, wellness growth rank rival. Copy the layout only, never its words."
+    },
+    "bg_dr_clarke_wood_price_stickers": {
+      "file": "reference/benchmarks/bg_dr_clarke_wood_price_stickers.jpg",
+      "use_for": "BACKGROUND ref 2026-11-18 (Atria MCP search_library_ads / search_ad_templates): Dr. Sarah Clarke, 19d, rank 1 of 6, post-it theme: overhead real wood table, products with handwritten price stickers"
+    },
+    "bg_avalaine_warehouse_box_note": {
+      "file": "reference/benchmarks/bg_avalaine_warehouse_box_note.jpg",
+      "use_for": "BACKGROUND ref 2026-11-18 (Atria MCP search_library_ads / search_ad_templates): Avalaine, 166d, rank 1 of 143: product on a cardboard box in front of warehouse shelves, yellow sticky note"
+    },
+    "bg_sara_garret_misty_path": {
+      "file": "reference/benchmarks/bg_sara_garret_misty_path.jpg",
+      "use_for": "BACKGROUND ref 2026-11-18 (Atria MCP search_library_ads / search_ad_templates): Sara Garret, 136d, rank 1 of 179, seasonal: real misty river path, grey autumn morning, no product shot"
+    },
+    "bg_medtronic_cobalt_polaroid": {
+      "file": "reference/benchmarks/bg_medtronic_cobalt_polaroid.jpg",
+      "use_for": "BACKGROUND ref 2026-11-18 (Atria MCP search_library_ads / search_ad_templates): Medtronic, 19d rising, rank 1 of 8: saturated cobalt field, tilted polaroid photo, big white headline"
+    },
+    "bg_sourse_plum_field": {
+      "file": "reference/benchmarks/bg_sourse_plum_field.jpg",
+      "use_for": "BACKGROUND ref 2026-11-18 (Atria MCP search_library_ads / search_ad_templates): Sourse, 20d rising, rank 1 of 9: deep plum gradient field, product low center, white text"
+    },
+    "bg_ledisa_fall_leaves": {
+      "file": "reference/benchmarks/bg_ledisa_fall_leaves.jpg",
+      "use_for": "BACKGROUND ref 2026-11-18 (Atria MCP search_library_ads / search_ad_templates): Ledisa, fall sale, rank 1 of 246: warm amber field framed by real autumn leaves"
+    },
+    "bg_smileactives_fall_table": {
+      "file": "reference/benchmarks/bg_smileactives_fall_table.jpg",
+      "use_for": "BACKGROUND ref 2026-11-18 (Atria MCP search_library_ads / search_ad_templates): smileactives, 14d rising, rank 1 of 81: product on a wood surface, warm fall bokeh and maple leaves"
+    },
+    "bg_nb_grayscale_red_duotone": {
+      "file": "reference/benchmarks/bg_nb_grayscale_red_duotone.jpg",
+      "use_for": "BACKGROUND ref 2026-11-18 (Atria MCP search_library_ads / search_ad_templates): Atria template (New Balance shoes, seasonal/urgency): grayscale legs photo cut out on a solid red field, offer below"
+    },
+    "bg_boot_water_splash": {
+      "file": "reference/benchmarks/bg_boot_water_splash.jpg",
+      "use_for": "BACKGROUND ref 2026-11-18 (Atria MCP search_library_ads / search_ad_templates): Atria template (boots, problem/solution): shoe stepping into real water, splash, photo top + spec panel"
+    },
+    "bg_nancy_trash_can": {
+      "file": "reference/benchmarks/bg_nancy_trash_can.jpg",
+      "use_for": "BACKGROUND ref 2026-11-18 (Atria MCP search_library_ads / search_ad_templates): Nancy Anderson, 149d, rank 1 of 106: hand opening a real trash can full of the products it replaces"
+    },
+    "bg_summary_holiday_ornaments": {
+      "file": "reference/benchmarks/bg_summary_holiday_ornaments.jpg",
+      "use_for": "BACKGROUND ref 2026-11-18 (Atria MCP search_library_ads / search_ad_templates): Summary, 11d rising, holiday: deep red field with products hanging like ornaments"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
