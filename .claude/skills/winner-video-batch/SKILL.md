@@ -57,7 +57,7 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
    `winners.md` (copy, headline, landing page, transcript). If none qualify, say so, stop, and still
    post the Notion card noting "no qualifying winners". If `ATRIA_API_KEY` is missing, use the Atria
    MCP (`list_ad_account_ads period=last_7d`) with the same thresholds.
-3. **Avatar first (user rule 2026-11-18):** read `ads/brands/<brand>/research/avatar_personas.md` and `research/customer_survey_digest.md` (StefanBrain has them too); pick footage and caption looks that fit each concept's persona, and keep the expectation-gap rules (no extra-wide or instant-relief promises).
+3. **Avatar first (user rule 2026-11-18):** read `ads/brands/<brand>/research/avatar_personas.md` and `research/customer_survey_digest.md` (StefanBrain has them too); pick footage and caption looks that fit each concept's persona, and keep the expectation-gap rules (no extra-wide or instant-relief promises). Then `research/voc_synthesis.md` (Trustpilot, Facebook/Instagram ad comments, Reddit, Amazon, YouTube: objections ranked, why they buy competitors, features, benefits, persona notes; sources in `research/voc/`): put the objection each concept answers and the competitor it beats into the StefanBrain brief.
    **Fresh research (short, every run; includes ≥ 2 new caption looks, see Rules)**: re-read `ads/video/playbook.md`; check what's new on TikTok
    (WebSearch: trending formats/sounds this week, the winners' niches, e.g. "#nursesoftiktok trend
    this week") and 3–5 fresh organic-style ads in Atria (`search_library_ads`, `order: best_match`,
