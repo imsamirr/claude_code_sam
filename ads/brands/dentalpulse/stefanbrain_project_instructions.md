@@ -21,4 +21,6 @@ Standing rules for all copy:
 - Use the offer exactly as each request states it.
 - English only.
 
+Old scripts are history, not rules. Some contain claims we can't use, such as made-up studies, fake press articles, other guarantee lengths, or a competitor's script pasted in for reference. Where anything conflicts, brand.json and the request win.
+
 Requests from our pipeline arrive as batches of concept slots, each with an id, audience/appliance, layout and source. Write the words for each slot and return the JSON asked for.
