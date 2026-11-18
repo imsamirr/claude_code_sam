@@ -251,7 +251,7 @@
   },
   "colorway_template": "The shoe is the {label} colorway shown in the reference photo.",
   "confirmed_claims": {
-    "guarantee": "30-day money-back guarantee (100% of your money back)",
+    "guarantee": "30-day money-back guarantee: full refund within 30 days (100% of your money back; user confirmed 2026-11-18)",
     "customer_count": "500,000+",
     "hsa_fsa": "HSA/FSA eligible",
     "confirmed_by_user": "2026-11-11",
@@ -385,5 +385,8 @@
     "project_id": "proj_59a994cdb82b45a4b43afb8ba51c357a",
     "session_prefix": "comfortwear",
     "note": "StefanBrain writes all copy (user rule 2026-11-18): long-form via ads/stefanbrain.py write --kind longform (longform-ads §2.3), statics and short-form on their branches."
-  }
+  },
+  "approved_claims": [
+    "30-day money-back guarantee = FULL refund within 30 days (user confirmed 2026-11-18). Say it plainly in ads (e.g. 'return them within 30 days for a full refund'); never 45 days, never partial refunds, store credit or 'donate and send the receipt' wording."
+  ]
 }
