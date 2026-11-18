@@ -14,7 +14,7 @@
   ],
   "claims_to_avoid": [
     "free/easy returns or fast shipping (top complaints in reviews and the survey)",
-    "'orthopedic approved', 'podiatrist recommended' or any cure/treatment claim ('doctor-recommended' IS approved, user 2026-11-18)",
+    "'orthopedic approved' or any cure/treatment claim ('doctor-recommended' and 'podiatrist-recommended' ARE approved, user 2026-11-18)",
     "star ratings (not confirmed)"
   ],
   "colorways": {
@@ -255,7 +255,7 @@
     "customer_count": "500,000+",
     "hsa_fsa": "HSA/FSA eligible",
     "confirmed_by_user": "2026-11-11",
-    "doctor_endorsed": "Doctor-recommended / endorsed by doctors (user 2026-11-18: 'we are endorsed by doctors now'). 'Doctor-recommended' may be used in copy and badges, and doctor characters or narrators are allowed (a doctor who recommends the shoe, a doctor reversal, an ER doctor narrator). Still no 'podiatrist recommended', no named real doctors or invented doctor counts, no cure/treatment claims."
+    "doctor_endorsed": "Doctor-recommended / endorsed by doctors (user 2026-11-18: 'we are endorsed by doctors now'). 'Doctor-recommended' may be used in copy and badges, and doctor characters or narrators are allowed (a doctor who recommends the shoe, a doctor reversal, an ER doctor narrator). Podiatrists count as doctors here: 'podiatrist-recommended' and podiatrist characters or narrators are approved too (user, 2026-11-18). Still no named real doctors or invented doctor counts, no cure/treatment claims."
   },
   "offers": [
     {
