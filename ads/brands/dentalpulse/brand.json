@@ -351,5 +351,11 @@
       "delivery": "Upload full-quality videos with ads/drive_upload.py (Drive API, env GDRIVE_CLIENT_ID/SECRET/REFRESH_TOKEN, full drive scope) into the Drive folder 'DentalPULSE - LFS Video' (drive_folder_id below), each file named '<Notion card title without (3 variations)> - DV<nn> <title>.mp4', and put each file's Drive link under its variation on the Notion card. SendUserFile only as a fallback if the upload fails.",
       "drive_folder_id": "1Lh1fDwGSW9OnLrsrsj_-WtYKGzfX7gBO"
     }
+  },
+  "stefanbrain": {
+    "product_id": "dd7d907a-b8c5-4f27-8b6a-4cc347ee8778",
+    "project_id": "proj_9ba354c8bfc94079b53e4c1347b0bd1e",
+    "session_prefix": "dentalpulse",
+    "note": "StefanBrain writes all copy (user rule 2026-11-18): long-form via ads/stefanbrain.py write --kind longform (longform-ads §2.3), statics and short-form on their branches."
   }
 }
