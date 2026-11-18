@@ -14,7 +14,7 @@
  ],
  "claims_to_avoid": [
   "free/easy returns or fast shipping (top complaints in reviews and the survey)",
-  "'orthopedic approved', 'podiatrist recommended', 'doctor recommended' or any cure/treatment claim",
+  "'orthopedic approved', 'podiatrist recommended' or any cure/treatment claim ('doctor-recommended' IS approved, user 2026-11-18)",
   "specific review counts or star ratings unless confirmed"
  ],
  "colorways": {
@@ -343,6 +343,7 @@
   "note": "StefanBrain writes the concepts and copy for the weekly short-form batch (winner-video-batch skill step 4, ads/stefanbrain.py shortform) and the static batches. Brand knowledge lives on the StefanBrain product (files) and project (instructions)."
  },
  "approved_claims": [
-  "30-DAY MONEY-BACK GUARANTEE (user-approved 2026-11-18, same as the statics; always 30 days, never 45)"
+  "30-DAY MONEY-BACK GUARANTEE (user-approved 2026-11-18, same as the statics; always 30 days, never 45)",
+  "Doctor-recommended (user-approved 2026-11-18): 'Doctor-recommended' may be used in copy and on end cards/badges. Still no 'podiatrist recommended', 'orthopedic approved', named doctors, invented doctor counts, or cure/treatment claims."
  ]
 }
