@@ -79,8 +79,9 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
    - **Send back, don't rewrite**: a concept that breaks a hard rule (claims_to_avoid, a wrong offer) or
      can't be shot with real footage goes back to StefanBrain in the same chat:
      `python ads/stefanbrain.py followup --brand <brand> --chat <chat id from stefanbrain_concepts.json>
-     --shortform "Replace SF04: <why>. Return just that concept."` (waits for the answer). Fix a line
-     yourself only after a failed revision and mark it `"copy_source": "stefanbrain+edit"`.
+     --shortform "Replace SF04: <why>. Return just that concept."` (waits for the answer). If two revisions
+     fail, re-run `shortform` for that slot in a fresh session. Never write or edit the words yourself (user rule
+     2026-11-18: all copy ALWAYS goes through StefanBrain).
    - **Fallback**: if StefanBrain is unreachable (401/403, or still running after 50 min), write the
      concepts yourself as before (winner → format → caption → 2–4 shots, no caption reused from earlier
      batches) and say so at the top of the summary.

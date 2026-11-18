@@ -15,6 +15,8 @@ commit the key.
     python ads/stefanbrain.py market --brand <brand>                # research/atria_market_pack.md (no Atria calls)
     python ads/stefanbrain.py shortform --brand <brand> --week-dir <dir> [--n 10] [--focus "Disney"]
                                                                   # short-form video concepts + captions + copy
+    python ads/stefanbrain.py write --brand <brand> --session <label> --brief <brief.md> --out <file> [--kind longform|text]
+                                                                  # any other copy (long-form stories, scroll scripts, emails...)
     python ads/stefanbrain.py followup --brand <brand> --chat <chat id> [--shortform] "<message>"
                                                                   # same-chat follow-up (replace/revise), polls
     python ads/stefanbrain.py copy --brand <brand> --week <folder> [--ids ...] [--chunk 10]
@@ -607,6 +609,39 @@ def shortform_cmd(args):
     print(f"{len(res['concepts'])} concepts -> {wdir / 'stefanbrain_concepts.json'} · {sc.get('app_url')}")
 
 
+LONGFORM_SCHEMA = {"type": "object", "additionalProperties": False, "required": ["concepts"], "properties": {
+    "concepts": {"type": "array", "items": {
+        "type": "object", "additionalProperties": False,
+        "required": ["id", "headline", "primary_text", "alternate_hooks", "cta", "scroll_script", "persona", "why"],
+        "properties": {
+            "id": {"type": "string"}, "headline": {"type": "string"}, "primary_text": {"type": "string"},
+            "alternate_hooks": {"type": "array", "items": {"type": "string"}}, "cta": {"type": "string"},
+            "scroll_script": {"type": ["string", "null"]}, "persona": {"type": "string"}, "why": {"type": "string"}}}}}}
+
+
+def write_cmd(args):
+    """Any copy job beyond statics and short-form: the brief file holds the facts (concept rows, source-ad DNA,
+    offer with dates, confirmed claims, length limits). --kind longform returns per-concept JSON (primary text,
+    headline, 3 alternate hooks, CTA, scroll-video script); --kind text returns StefanBrain's answer as markdown."""
+    bdir, cfg, sb = brand_cfg(args.brand)
+    msg = Path(args.brief).read_text()
+    if len(msg) > 31000:
+        raise SystemExit(f"Brief is {len(msg)} chars (max ~31,000): split the concepts across several sessions.")
+    schema = LONGFORM_SCHEMA if args.kind == "longform" else None
+    sc = ask(msg, project=sb["project_id"], session=args.session, schema=schema,
+             key=f"{args.brand}-{args.session}-{abs(hash(msg)) % 10**8}")
+    out = Path(args.out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    if schema:
+        res = structured(sc)
+        out.write_text(json.dumps({"session": args.session, "chat": sc.get("chat"), "url": sc.get("app_url"), **res},
+                                  ensure_ascii=False, indent=1))
+        print(f"{len(res['concepts'])} concepts -> {out} · {sc.get('app_url')}")
+    else:
+        out.write_text(sc.get("answer") or sc.get("output") or sc.get("_text") or "")
+        print(f"-> {out} · chat {sc.get('chat')} · {sc.get('app_url')}")
+
+
 def followup_cmd(args):
     """A follow-up in an existing StefanBrain chat (e.g. 'Replace SF04: can't be shot'), polled to the end.
     --shortform constrains the answer to the short-form concept JSON; otherwise prints the text answer."""
@@ -652,6 +687,12 @@ def main():
     f.add_argument("--n", type=int, default=10)
     f.add_argument("--winners", help="winners.md (default: <week-dir>/_winners/winners.md)")
     f.add_argument("--focus", help="optional angle focus, e.g. Disney")
+    w2 = sub.add_parser("write")
+    w2.add_argument("--brand", required=True)
+    w2.add_argument("--session", required=True)
+    w2.add_argument("--brief", required=True)
+    w2.add_argument("--out", required=True)
+    w2.add_argument("--kind", choices=["longform", "text"], default="text")
     u2 = sub.add_parser("followup")
     u2.add_argument("--brand", required=True)
     u2.add_argument("--chat", required=True)
@@ -679,6 +720,8 @@ def main():
         market_cmd(a)
     elif a.cmd == "shortform":
         shortform_cmd(a)
+    elif a.cmd == "write":
+        write_cmd(a)
     elif a.cmd == "followup":
         followup_cmd(a)
 
