@@ -79,7 +79,7 @@ Write to the file path you are given. Use JSON: a list of exactly 3 objects, one
 
    Also add, after the script in a separate field `offer_swaps`, the Christmas line ("For the Christmas Sale, Comfort Wear is 60% off, plus 2 free gifts when you buy 2 pairs, until December 31st.") and the New Year line ("For the New Year Sale, Comfort Wear is 40% off with free shipping until January 15th.").
 7. **Claims guardrails:**
-   - No doctor or podiatrist narrators, and no "podiatrist recommended".
+   - Doctor narrators and "doctor-recommended" are allowed (we are endorsed by doctors; user, 2026-11-18). Still no podiatrist narrators, no "podiatrist recommended", and no named real doctors.
    - No cure or treatment claims. A narrator can name her own diagnosis but never say it was cured.
    - No star ratings.
    - No "easy slip-on" or "hands-free", and no extra-wide promises.

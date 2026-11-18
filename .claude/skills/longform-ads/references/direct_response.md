@@ -41,7 +41,7 @@ A strong ad sells two mechanisms:
 **Rules:**
 - Each failure in the story must map to a feature that fixes it (the fidelity table).
 - The mechanism must be **simple enough to repeat to a friend**. If it takes a diagram, it's too complex.
-- The mechanism is delivered by a **messenger** with earned authority (a 30-year mail carrier, a retired flight attendant, a patient), never a fake doctor.
+- The mechanism is delivered by a **messenger** with earned authority (a 30-year mail carrier, a retired flight attendant, a patient), never a fake doctor (exception: brands whose `confirmed_claims` allow doctor personas, e.g. Comfort Wear since 2026-11-18, may use a doctor character or narrator; no named real doctors, no cure claims).
 
 ## 4. Choose the lead (the first 10–15% of the copy)
 

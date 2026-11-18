@@ -333,7 +333,7 @@ P.S. [objection: already on meds]  P.P.S. [knockoffs/Amazon]  P.P.P.S. [send thi
 ## 13. Don't copy these (compliance)
 
 Several high performers use:
-- fabricated doctor personas
+- fabricated doctor personas (allowed only where the brand's `confirmed_claims` permit doctor personas: Comfort Wear since 2026-11-18)
 - made-up forum quotes
 - disease-treatment claims ("edema gone in 2 days")
 - medication-avoidance advice
