@@ -18,7 +18,7 @@
     "Shoe contrast (user rule 2026-10-30): never put a dark shoe (black, navy, black/purple) on a dark background. Use a light or mid-tone background (light grey, cream, pale tint, bright color) or a clearly lit surface so the shoe's shape, knit and sole stand out."
   ],
   "claims_to_avoid": [
-    "'orthopedic approved', 'podiatrist recommended', 'doctor recommended' or any cure/treatment claim",
+    "'orthopedic approved', 'podiatrist recommended' or any cure/treatment claim ('doctor-recommended' IS approved, user 2026-11-18)",
     "specific review counts or star ratings unless confirmed",
     "fast/quick shipping speed or 'easy returns' wording (shipping and returns are top complaints); the approved offer stack below is fine"
   ],
@@ -251,7 +251,12 @@
   },
   "format_guides_note": "Testimonial/review ads use fb_comment or trustpilot; tweet-style ads use x_post. Cartoon/animation formats (user rule, Oct 11: use them, both brands): cartoon_3d, comic_strip, flat_illustration, claymation, retro_cartoon, anime_soft. Aim for ~15–20% of every batch.",
   "atria_account": "WearOrtho",
-  "stefanbrain": {"product_id": "e5fa84f6-6ec9-4a2c-b24e-60fe2a0e1f60", "project_id": "proj_59a994cdb82b45a4b43afb8ba51c357a", "session_prefix": "comfortwear", "note": "StefanBrain writes the copy for every static batch (static-ads skill §2a, ads/stefanbrain.py copy). Brand knowledge lives on the StefanBrain product (files) and project (instructions)."},
+  "stefanbrain": {
+    "product_id": "e5fa84f6-6ec9-4a2c-b24e-60fe2a0e1f60",
+    "project_id": "proj_59a994cdb82b45a4b43afb8ba51c357a",
+    "session_prefix": "comfortwear",
+    "note": "StefanBrain writes the copy for every static batch (static-ads skill §2a, ads/stefanbrain.py copy). Brand knowledge lives on the StefanBrain product (files) and project (instructions)."
+  },
   "program": {
     "schedule": "Tue + Fri 5:50am America/New_York (routine 'Comfort Wear weekly statics', trig_01UPZqhi5EjEjs2g3yMjMd2F)",
     "iteration_batch": {
@@ -382,7 +387,8 @@
     "BLACK FRIDAY 2026 offer facts (user-provided 2026-10-27): \"60% OFF SITEWIDE\"; \"BUY 2 PAIRS, GET A FREE 3-PACK OF SOCKS + FREE TRAVEL BAG\"; \"FREE SHIPPING & RETURNS\"; \"30-DAY MONEY-BACK GUARANTEE\" (free). User: no need to fit all of it on one ad. Keep the Oct 26 rule: the lead offer is EITHER 60% OFF OR the buy-2 gifts, never both; free shipping & returns and the 30-day guarantee may appear as small supporting lines. 'Free shipping & returns' is the approved wording (never 'easy' or 'fast').",
     "BLACK FRIDAY price boxes (user-provided 2026-10-27, for Q48_06): strikethrough \"$120\" -> sale price \"$59.95\". Note: $59.95 vs $120 is ~50% off; $120 is now the standard reference price (user 2026-10-29).",
     "BLACK FRIDAY promo code (user-provided 2026-10-27): code \"LEAKED10\" = \"EXTRA 10% OFF\", shown as \"TOTAL 70% OFF + FREE SHIPPING\". Note: 60% then an extra 10% compounds to 64%, unless the code adds 10 points; confirm before running.",
-    "BLACK FRIDAY promo code (user 2026-10-29): \"LEAKED10\" = \"EXTRA 10% OFF\" on top of 60% OFF SITEWIDE. Show as '60% OFF SITEWIDE + EXTRA 10% OFF', not 'TOTAL 70%' (stacked it is ~64%)."
+    "BLACK FRIDAY promo code (user 2026-10-29): \"LEAKED10\" = \"EXTRA 10% OFF\" on top of 60% OFF SITEWIDE. Show as '60% OFF SITEWIDE + EXTRA 10% OFF', not 'TOTAL 70%' (stacked it is ~64%).",
+    "Doctor-recommended (user-approved 2026-11-18): 'Doctor-recommended' may be used in copy and on end cards/badges. Still no 'podiatrist recommended', 'orthopedic approved', named doctors, invented doctor counts, or cure/treatment claims."
   ],
   "quality_bar": [
     "Match the quality of the brand's own top-performing ads (the benchmark image): polished commercial e-commerce production, crisp and bright, nothing that looks like generic AI stock art.",
