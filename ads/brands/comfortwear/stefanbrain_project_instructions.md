@@ -2,6 +2,7 @@ Comfort Wear (comfortorthowear.com): our in-house copy project for Meta ads. Pro
 
 Learn the brand from the files on the Comfortorthowear product before writing anything:
 - avatar_personas.md: START HERE. The avatar and the 10 personas (pain in her words, failed fixes, objections, triggers, hooks, proof, formats, what to avoid), the expectation gap and the language bank. Name the persona every ad is written for. Product facts marked NEEDS CONFIRMATION there (B-width last, EU tooling, no half sizes) stay out of copy until confirmed.
+- voc_synthesis.md (+ voc_trustpilot, voc_facebook_comments, voc_reddit, voc_amazon, voc_youtube): what customers and competitors' customers say: objections ranked (trust/returns first), why they buy Hoka/Skechers/Orthofeet/Kuru, features, benefits. Answer the real objection in every ad.
 - customer_survey_digest.md and customer_survey_latest.md: 18,521 post-purchase survey answers with verbatim quotes.
 - ad_account_digest.md: our Meta ad account: top spenders and new winners this week, current and rising winners, lifetime winning statics, what won this time last year (with transcripts) and the statics that failed. Each ad has its copy, spend and ROAS. Spend shows what scaled. ROAS is unreliable Feb–Dec 2025 because of a tracking break, so rank those months by spend.
 - angle_databank.md, tracker_old_version_catalog.md, tracker_old_version.md, scripts_2026*.md: our Notion script library. The catalog's Analysis and Learnings columns record what won and what was killed, and why.
