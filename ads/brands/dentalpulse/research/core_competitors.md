@@ -129,3 +129,20 @@ Guardrails kept: no logos or names on images, no claims that their products fail
 | Zima dentist-count authority + award | 'Dentist-recommended' + Clinicians' Choice | W47_33 |
 | Sonic 'Up to 25% off' trio | flat 40% + free gifts | W47_40 |
 Guardrails kept: no logos or names on images, compare features/offers only, no counts or invented scores.
+
+## 2026-11-17 (Tuesday W47 read: 158 ads; Zima 100, Sonic 58)
+**Since Nov 13:** 55 new ads (Zima 30, Sonic 25). Sheets: `sheets/core_competitors_2026-11-17_1-2.jpg` (both read); full copy of every new/active ad read from `data/core_competitors_2026-11-17.csv`.
+- **Sonic:** the same discount machine. "Up to 30% Off" / "Up to 35% Off" / FR "Jusqu'à -30%" re-launched in many copies (0-153d; the 152d "Limited Time Sale" dark tile is still their top image at top 2.8%), "Black Friday: Up to 40% Off" now also as video, a "Sonic Pro Bundle, Up to 30% Off / Your retainers deserve this" tile (17d), and 6 new "Cutting Edge Ultrasonic & UVC technology / Clinical grade cleaning for your Aligners, Retainers, Guards, Dentures" videos (0-2d). DE "Der Unterschied?" tile (133d) sells a 03:00 timer + "30% sparen". Hand-held Pod in most statics. Still no customer language, no proof.
+- **Zima:** a wave of new short videos (2-5d): "Stop brushing your retainers and listen to dentist recommendations", "Your retainer doesn't renew itself", "What's in my cart as a dentist?", UCLA dental student, "busy mom" UGC, "Is it a nightmare to clean your retainers? ... doesn't remove cloudy biofilm" (dentist voice). Statics: FR "Ne brossez plus jamais votre gouttière" (hand lowering the aligner over stacked pods + award seal), "NEVER BRUSH YOUR RETAINER AGAIN" with Trustpilot stars (top 24.5%), "POV: you just found what was missing in your GRWM routine" story photo, John Lewis / Boots retail tiles, kaleidoscope "Yes, the Dental Pod is back". Authority counts now vary by ad (11,000+, 14,000, 20,000+ dentists; 7,000+ FR). Still retainer-first; dentures only in "Dad's dentures". The plaque / yellow stains / smell checklist video keeps running.
+- **What changed:** Zima moved to dentist/creator videos attacking brushing ("cloudy biofilm"); Sonic added UVC-tech videos and keeps every static on "up to" discounts. Both still sell tablets inside their bundles; neither shows a dirty appliance or debris.
+### Answers written this run (rival field on 7 of 20 = 35%)
+| Their angle | Our answer (approved claims only) | Concept |
+|---|---|---|
+| Zima "Stop brushing your retainers, listen to dentists" videos | dark native post "stop doing this one thing" + 6-of-7 lab proof | T47_04 |
+| Zima FR "Ne brossez plus jamais" hand + seal tile, dentist counts | "Never scrub your dentures again" + Clinicians' Choice + Dentist-recommended + flat 40% + gifts | T47_10 |
+| Zima "Lifts yellow stains" checklist (no proof) | honest "No, one cycle won't erase years of yellow" + guarantee | T47_12 |
+| Sonic "Der Unterschied?" 03:00 timer + tablets in kits | "The difference?" 05:00, no tablets, tap water, 99.9% | T47_14 |
+| Sonic "Up to 30/35/40% off" | flat 40% + free case + bag, "Make the switch" | T47_15 |
+| Zima "Never brush your retainer again" (24.5%) | "Think brushing gets your aligners clean? Think again." + 99.9% + visible film | T47_17 |
+| Zima "POV ... GRWM routine" story | same native POV with the brown-water debris proof | T47_19 |
+Guardrails kept: no logos or names on images, compare features/offers only, no counts or invented scores; we never say their products fail.
