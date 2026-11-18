@@ -415,11 +415,13 @@ pick the sources, layouts, personas, mix and offers (§1, §2), and you own the 
    rewrite StefanBrain's lines yourself. If a line breaks a hard rule (claims_to_avoid, a wrong product fact,
    an offer that isn't the current one, too long to read at the layout's size, a duplicate of another ad's
    headline), send it back: `python ads/stefanbrain.py revise --brand <brand> --week <folder> --id <id>
-   "<the rule it breaks>"` (same chat). After two failed revisions you may fix the line yourself and set
-   `copy_source: "stefanbrain+edit"`.
-4. **Fallback:** if StefanBrain is unreachable (401/403 = key missing on this environment; or a run still
-   going after 50 min), write the copy yourself per §1b, set `copy_source: "claude"`, and say so at the TOP
-   of the Slack DM. Never block the batch on it.
+   "<the rule it breaks>"` (same chat). If two revisions fail, re-ask in a fresh chat
+   (`python ads/stefanbrain.py copy --brand <brand> --week <folder> --ids <id> --force`). Never write or edit the
+   words yourself (user rule 2026-11-18: all copy ALWAYS goes through StefanBrain).
+4. **Fallback (last resort only):** if StefanBrain is unreachable (401/403 = key missing on this environment,
+   or a run still going after 50 min), retry once after 10 minutes; if it still fails, write the copy per §1b,
+   set `copy_source: "claude"`, say so at the TOP of the Slack DM, and send those concepts to StefanBrain for a
+   rewrite at the start of the next run.
 5. The Drive sheet (`review.py csv`) carries Primary text, FB headline, FB description and Copy by, so the
    media buyer can paste them. The Slack summary line adds "copy: StefanBrain n/N".
 6. **Keep StefanBrain's knowledge fresh (every run, after delivery; no extra Atria calls):**
