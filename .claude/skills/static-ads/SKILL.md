@@ -422,12 +422,14 @@ pick the sources, layouts, personas, mix and offers (§1, §2), and you own the 
    of the Slack DM. Never block the batch on it.
 5. The Drive sheet (`review.py csv`) carries Primary text, FB headline, FB description and Copy by, so the
    media buyer can paste them. The Slack summary line adds "copy: StefanBrain n/N".
-6. **Keep StefanBrain's knowledge fresh (Fridays, after delivery):** `python ads/atria_pull.py export --brand
-   <brand>` (~30–60 min, run it in the background while rendering), `python ads/stefanbrain.py history --brand
-   <brand>`, then `python ads/stefanbrain.py upload --brand <brand> ads/brands/<brand>/research/data/ad_account_export.md
-   ads/brands/<brand>/research/static_copy_history.md` plus any research file you materially changed this run
-   (analysis.md, winning_briefs.md / notion_brief.md, core_competitors.md). A re-uploaded name replaces the old
-   copy on the product. Don't commit `ad_account_export.*` more than once a week (large).
+6. **Keep StefanBrain's knowledge fresh (every run, after delivery; no extra Atria calls):**
+   `python ads/stefanbrain.py digest --brand <brand>` (rebuilds `research/ad_account_digest.md` from this run's
+   pull CSVs), `python ads/stefanbrain.py history --brand <brand>`, then `python ads/stefanbrain.py upload --brand
+   <brand> ads/brands/<brand>/research/ad_account_digest.md ads/brands/<brand>/research/static_copy_history.md`
+   plus any research file you materially changed this run (analysis.md, winning_briefs.md / notion_brief.md,
+   core_competitors.md, research/data/video_transcripts.md). A re-uploaded name replaces the old copy.
+   **Never run `atria_pull.py export` in a routine**: Atria charges credits per API call and a full-history
+   export (thousands of calls) emptied the workspace's credits on 2026-11-18. Only by hand, with the user's OK.
 
 ## 3. Render
 

@@ -1,7 +1,7 @@
 DentalPULSE (dentalpulsepro.com): our in-house copy project for Meta ads. Product: the DentalPULSE Pod, a compact bathroom-counter ultrasonic cleaner (42,000 Hz, one 5-minute cycle, tap water only) for dentures, night guards, retainers and aligners. It's sold to adults who wear a removable appliance, parents of teens with retainers, and adult children buying for a parent with dentures. Men and women, many 60+. Their top reasons to buy are bacteria (68%) and yellow stains (40%). The enemy is the old routine: brushing, Polident or Efferdent tablets, vinegar, bleach, soap, and cheap pods. Our core competitors are Zima Dental and Sonic Dental.
 
 Learn the brand from the files on the Dentalpulsepro product before writing anything:
-- ad_account_export.md: every Meta ad we have run since 2024 with $100+ spend. It has the copy, spend, ROAS, months live and the video transcript where one exists. Spend shows what scaled.
+- ad_account_digest.md: our Meta ad account: top spenders and new winners this week, current and rising winners, lifetime winning statics, what won this time last year (with transcripts) and the statics that failed. Each ad has its copy, spend and ROAS. Spend shows what scaled.
 - scripts/*.md: our Notion script library, DEN### scripts by month plus the creative tracker and idea board, with any results and learnings.
 - notion_brief.md, analysis.md: concepts, hooks and controversial lines that work, and what our winners have in common.
 - feedback_deep_dive.md, customer_voice_*.md: customers' own words. Use their phrases.

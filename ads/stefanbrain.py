@@ -11,6 +11,7 @@ commit the key.
     python ads/stefanbrain.py call <tool> '<json args>'
     python ads/stefanbrain.py upload --brand <brand> <files...>     # stage + attach to the brand's product
     python ads/stefanbrain.py history --brand <brand>               # research/static_copy_history.md
+    python ads/stefanbrain.py digest --brand <brand>                # research/ad_account_digest.md (no Atria calls)
     python ads/stefanbrain.py copy --brand <brand> --week <folder> [--ids ...] [--chunk 10]
     python ads/stefanbrain.py revise --brand <brand> --week <folder> --id <concept id> "<what to fix>"
 
@@ -347,6 +348,89 @@ def history_cmd(args):
     print(f"Wrote {path} ({path.stat().st_size // 1024} KB)")
 
 
+def digest_cmd(args):
+    """Our ad account as StefanBrain reads it, built only from the CSVs the routine's Atria pulls already
+    wrote (no extra Atria calls: Atria charges credits per API call). Each ad: name, format, spend, ROAS,
+    purchases, headline and primary text; seasonal rows add transcripts."""
+    import csv
+    data = ROOT / "brands" / args.brand / "research" / "data"
+    cfg = json.loads((ROOT / "brands" / args.brand / "brand.json").read_text())
+
+    def rows(name):
+        path = data / name
+        if not path.exists():
+            return []
+        with open(path, newline="") as f:
+            return list(csv.DictReader(f))
+
+    def num(x):
+        try:
+            return float(str(x).replace(",", "").replace("$", ""))
+        except ValueError:
+            return 0.0
+
+    def block(r, transcript=False):
+        spend = num(r.get("spend") or r.get("total_spend_cad") or r.get("spend_cad"))
+        roas = r.get("roas") or r.get("blended_roas") or ""
+        head = (f"### {r.get('ad_name') or r.get('example_ad_name') or r.get('platform_ad_id')}\n"
+                f"{r.get('format', '')} · {r.get('audience', '')} · {r.get('status', '')} · spend {spend:,.0f} · "
+                f"ROAS {roas} · purchases {r.get('purchases', '')}".replace(" ·  · ", " · "))
+        out = [head]
+        if r.get("headline"):
+            out.append(f"**Headline:** {r['headline'].strip()}")
+        if r.get("primary_text"):
+            out.append("**Primary text:** " + r["primary_text"].strip())
+        if transcript and r.get("transcript"):
+            out.append("**Transcript:** " + r["transcript"].strip())
+        return "\n\n".join(out) + "\n"
+
+    sections = [
+        ("Top spenders, last 7 days", "top7_spenders.csv", False, 40),
+        ("New winners, launched in the last 7 days", "new7_winners.csv", False, 40),
+        ("Current winners, last 30 days (spend $300+, ROAS 1.8+)", "current_winners.csv", False, 80),
+        ("Rising: launched in the last 30 days and already winning", "rising_winners.csv", False, 40),
+    ]
+    note = (cfg.get("program") or {}).get("roas_note", "")
+    out = [f"# {cfg['name']} ad account digest", "",
+           f"Built {dt.date.today()} from our Meta ad account (Atria pulls in research/data). Currency CAD. "
+           "Spend shows what scaled; ROAS is Meta-reported. " + (f"Note: {note}" if note else ""), ""]
+    seen = set()
+    for title, name, tr, cap in sections:
+        rs = rows(name)
+        if rs:
+            out += [f"## {title} ({min(len(rs), cap)})", ""] + [block(r, tr) for r in rs[:cap]]
+            seen |= {r.get("platform_ad_id") for r in rs[:cap]}
+    win = rows("winning_statics_raw.csv") or rows("winning_statics.csv")
+    win.sort(key=lambda r: -num(r.get("spend") or r.get("total_spend_cad")))
+    uniq, keys = [], set()
+    for r in win:
+        k = ((r.get("headline") or "").strip().lower(), (r.get("primary_text") or "")[:200].strip().lower())
+        if k in keys or r.get("platform_ad_id") in seen:
+            continue
+        keys.add(k)
+        uniq.append(r)
+    if uniq:
+        out += [f"## Lifetime winning statics ($5k+ spend since 2024, unique copy, top {min(len(uniq), 150)})", ""]
+        out += [block(r) for r in uniq[:150]]
+    seas = {}
+    for p in sorted(data.glob("seasonal_*.csv")):
+        for r in rows(p.name):
+            seas.setdefault(r.get("platform_ad_id"), {**r, "_week": p.stem.split("_", 1)[1]})
+    if seas:
+        out += ["## Seasonal: what won this time last year (by target week)", ""]
+        for r in sorted(seas.values(), key=lambda r: (r["_week"], -num(r.get("spend")))):
+            out.append(f"(target week {r['_week']})")
+            out.append(block(r, True))
+    los = rows("losing_statics.csv") or rows("losing_statics_raw.csv")
+    if los:
+        out += ["## Statics that failed (paused at under $200 spend)", ""]
+        out += [f"- {r.get('ad_name')} · spend {r.get('spend_cad') or r.get('spend')} · CTR {r.get('ctr_pct')}%"
+                for r in los[:120]]
+    path = ROOT / "brands" / args.brand / "research" / "ad_account_digest.md"
+    path.write_text("\n".join(out))
+    print(f"Wrote {path} ({path.stat().st_size // 1024} KB)")
+
+
 def main():
     p = argparse.ArgumentParser()
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -370,6 +454,8 @@ def main():
     r.add_argument("note")
     h = sub.add_parser("history")
     h.add_argument("--brand", required=True)
+    g = sub.add_parser("digest")
+    g.add_argument("--brand", required=True)
     a = p.parse_args()
     if a.cmd == "status":
         print(call("account_status", {})[1])
@@ -386,6 +472,8 @@ def main():
         revise_cmd(a)
     elif a.cmd == "history":
         history_cmd(a)
+    elif a.cmd == "digest":
+        digest_cmd(a)
 
 
 if __name__ == "__main__":

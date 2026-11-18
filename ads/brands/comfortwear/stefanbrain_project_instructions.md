@@ -1,7 +1,7 @@
 Comfort Wear (comfortorthowear.com): our in-house copy project for Meta ads. Product: the Ortho Stretch Cushion Shoe, a women's comfort shoe with arch support, a cushioned heel, a wide toe box, a stretch-knit upper, slip-resistant grip and elastic no-tie laces. We sell it through Meta ads to women on their feet all day: nurses on 12-hour shifts, teachers, retail and restaurant workers, travelers (Disney, Europe, cruises) and plus-size women, mostly 50 to 65+. Their pain is plantar fasciitis, heel pain, swelling, bunions and aching knees and back. Our biggest competitors are Hike Footwear and Stepprs.
 
 Learn the brand from the files on the Comfortorthowear product before writing anything:
-- ad_account_export.md: every Meta ad we have run since 2024 with $500+ spend. It has the copy, spend, ROAS, months live and the video transcript where one exists. Spend shows what scaled. ROAS is unreliable Feb–Dec 2025 because of a tracking break, so rank those months by spend.
+- ad_account_digest.md: our Meta ad account: top spenders and new winners this week, current and rising winners, lifetime winning statics, what won this time last year (with transcripts) and the statics that failed. Each ad has its copy, spend and ROAS. Spend shows what scaled. ROAS is unreliable Feb–Dec 2025 because of a tracking break, so rank those months by spend.
 - angle_databank.md, tracker_old_version_catalog.md, tracker_old_version.md, scripts_2026*.md: our Notion script library. The catalog's Analysis and Learnings columns record what won and what was killed, and why.
 - video_transcripts.md: full scripts of our biggest video winners.
 - winning_briefs.md, analysis.md, copy_playbook_nurse_travel.md, feedback_pain_points_*.md: what works, and customers' own words.

@@ -96,10 +96,16 @@ class Atria:
         })["items"]
 
     def cached_transcript(self, acc, video_id):
-        """Free cache lookup; never triggers a paid transcription. None when nothing is cached."""
+        """Free cache lookup; never triggers a paid transcription. None when nothing is cached. After a
+        402 (Atria credits/plan) it stops asking for the rest of the run."""
+        if getattr(self, "_no_transcripts", False):
+            return None
         try:
             data = self.get(f"ad-accounts/{acc}/videos/{video_id}/transcript")
-        except Exception:  # 40401 = nothing cached
+        except Exception as e:  # 40401 = nothing cached
+            if "402" in str(e):
+                self._no_transcripts = True
+                print("  transcripts: Atria returned 402 (credits/plan); skipping transcript lookups this run")
             return None
         t = data.get("transcript") if data.get("status", "success") == "success" else None
         if isinstance(t, dict):
@@ -588,7 +594,12 @@ def export(api, accounts, args):
         keep = sorted(((k, r) for k, r in agg.items() if r["spend"] >= args.export_min_spend),
                       key=lambda kv: -kv[1]["spend"])
         print(f"{name}: {len(agg)} ads seen, {len(keep)} with spend >= {args.export_min_spend:.0f}", flush=True)
+        cache_path = DATA_DIR / ".export_detail_cache.json"  # resumable: creative details per ad id
+        cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
         for i, (ad_id, r) in enumerate(keep):
+            if ad_id in cache:
+                rows.append({**r, **cache[ad_id]})
+                continue
             try:
                 detail = api.get(f"ad-accounts/{acc}/ads/{ad_id}", {"period": "last_7d"})
             except Exception as e:  # deleted ads can 404; keep the metrics row
@@ -598,16 +609,21 @@ def export(api, accounts, args):
             transcript = ""
             for v in (c.get("videos") or [])[:1]:
                 transcript = api.cached_transcript(acc, v["video_id"]) or ""
-            rows.append({**r, "account": name, "platform_ad_id": ad_id,
-                         "roas": round(r["revenue"] / r["spend"], 2) if r["spend"] else 0,
-                         "ctr_pct": round(100 * r["clicks"] / max(r["impressions"], 1), 2),
-                         "cpa": round(r["spend"] / r["purchases"], 2) if r["purchases"] else "",
-                         "headline": c.get("title") or "", "primary_text": c.get("body") or "",
-                         "cta": c.get("cta_type") or "", "link_url": c.get("link_url") or "",
-                         "transcript": transcript})
+            det = {"account": name, "platform_ad_id": ad_id,
+                   "headline": c.get("title") or "", "primary_text": c.get("body") or "",
+                   "cta": c.get("cta_type") or "", "link_url": c.get("link_url") or "", "transcript": transcript}
+            if detail:
+                cache[ad_id] = det
+            rows.append({**r, **det})
             if i % 50 == 0:
                 print(f"  {i}/{len(keep)}", flush=True)
+                cache_path.write_text(json.dumps(cache))
             time.sleep(0.5)
+        cache_path.write_text(json.dumps(cache))
+    for r in rows:
+        r["roas"] = round(r["revenue"] / r["spend"], 2) if r["spend"] else 0
+        r["ctr_pct"] = round(100 * r["clicks"] / max(r["impressions"], 1), 2)
+        r["cpa"] = round(r["spend"] / r["purchases"], 2) if r["purchases"] else ""
     rows.sort(key=lambda r: -r["spend"])
     for r in rows:
         r["spend"], r["purchases"] = round(r["spend"], 2), round(r["purchases"], 1)
