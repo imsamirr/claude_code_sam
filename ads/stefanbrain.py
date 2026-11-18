@@ -13,6 +13,10 @@ commit the key.
     python ads/stefanbrain.py history --brand <brand>               # research/static_copy_history.md
     python ads/stefanbrain.py digest --brand <brand>                # research/ad_account_digest.md (no Atria calls)
     python ads/stefanbrain.py market --brand <brand>                # research/atria_market_pack.md (no Atria calls)
+    python ads/stefanbrain.py shortform --brand <brand> --week-dir <dir> [--n 10] [--focus "Disney"]
+                                                                  # short-form video concepts + captions + copy
+    python ads/stefanbrain.py followup --brand <brand> --chat <chat id> [--shortform] "<message>"
+                                                                  # same-chat follow-up (replace/revise), polls
     python ads/stefanbrain.py copy --brand <brand> --week <folder> [--ids ...] [--chunk 10]
     python ads/stefanbrain.py revise --brand <brand> --week <folder> --id <concept id> "<what to fix>"
 
@@ -501,6 +505,120 @@ def market_cmd(args):
     print(f"Wrote {path} ({path.stat().st_size // 1024} KB)")
 
 
+SHORTFORM_SCHEMA = {"type": "object", "additionalProperties": False, "required": ["concepts"], "properties": {
+    "concepts": {"type": "array", "items": {
+        "type": "object", "additionalProperties": False,
+        "required": ["id", "title", "winner", "format", "caption_mode", "captions", "shots", "length_s",
+                     "music_mood", "primary_text", "fb_headline", "angle", "why"],
+        "properties": {
+            "id": {"type": "string"}, "title": {"type": "string"}, "winner": {"type": "string"},
+            "format": {"type": "string"}, "caption_mode": {"type": "string", "enum": ["static", "script"]},
+            "captions": {"type": "array", "items": {"type": "object", "additionalProperties": False,
+                                                    "required": ["shot", "text"],
+                                                    "properties": {"shot": {"type": "integer"}, "text": {"type": "string"}}}},
+            "shots": {"type": "array", "items": {"type": "string"}},
+            "length_s": {"type": "integer"}, "music_mood": {"type": "string"},
+            "primary_text": {"type": "string"}, "fb_headline": {"type": "string"},
+            "angle": {"type": "string"}, "why": {"type": "string"}}}}}}
+
+
+def shortform_cmd(args):
+    """Concepts, captions and Meta copy for the weekly short-form video batch (winner-video-batch §4).
+    The brief carries only facts StefanBrain can't see: this week's winners, the format limits, captions
+    already used, the unused footage, the live offer and the hard rules. Writes <week-dir>/stefanbrain_concepts.json."""
+    import csv
+    bdir, cfg, sb = brand_cfg(args.brand)
+    wdir = Path(args.week_dir)
+    video = cfg.get("video", {})
+    winners = ""
+    wpath = Path(args.winners) if args.winners else wdir / "_winners" / "winners.md"
+    if wpath.exists():
+        winners = wpath.read_text()[:9000]
+    used_caps, used_src = [], set()
+    for e in sorted((bdir / "video").glob("*/*/edit.json")):
+        if e.parent.parent == wdir:
+            continue
+        d = json.loads(e.read_text())
+        used_src |= set((d.get("sources") or {}).values())
+        for c in d.get("captions") or []:
+            t = c.get("text") if isinstance(c, dict) else None
+            if t and t not in used_caps:
+                used_caps.append(t)
+    footage = []
+    fpath = bdir / "video" / "footage.csv"
+    if fpath.exists():
+        for r in csv.DictReader(open(fpath, newline="")):
+            src = r["drive_id"] if r["drive_id"].startswith("tiktok:") else f"drive:{r['drive_id']}"
+            note = (r.get("notes") or "")
+            if src in used_src or r["drive_id"] in used_src or "Reject" in note or "AVOID" in note:
+                continue
+            if args.focus and args.focus.lower() not in (r.get("tags", "") + note).lower() and \
+                    not any(t in r.get("tags", "") for t in ("product", "on_foot", "feet", "shoes_closeup")):
+                continue
+            footage.append(f"- {r.get('tags', '')}: {note[:110]}")
+    today = dt.date.today().isoformat()
+    card = next((c for c in video.get("end_cards", []) if not c.get("lang") and
+                 (not c.get("until") or today <= c["until"])), {})
+    offer = card.get("note") or card.get("vo_text") or ""
+    rules = [r for r in video.get("rules", [])] + [f"Never claim: {c}" for c in cfg.get("claims_to_avoid", [])]
+    n = args.n
+    lines = [
+        f"Come up with and write {n} short-form video ads for {cfg['name']} ({cfg.get('product', '')}) for this "
+        f"week's batch{(' (focus: ' + args.focus + ')') if args.focus else ''}. You choose the ideas.",
+        "",
+        "Where they run: Meta Reels/Stories and TikTok-style placements, 9:16. Our format "
+        "(shortform_video_playbook.md in the product files has the proven formats, caption styles and trends): "
+        "organic-post style, 10-16 s + a 3-second end card, 2-4 real shots, music only, NO voiceover. Captions are "
+        "either ONE static first-person caption over all shots (caption_mode \"static\": one entry with shot 0) or a "
+        "running script with one short line per shot (caption_mode \"script\": shot 1..n). Readable in the time on "
+        "screen (static about 25 words max, script lines about 10 words). Emojis where a real creator would use "
+        "them. Key phrase may be marked *like this* (yellow highlight). Each concept a different format and hook.",
+        "",
+        "This week's winners in our ad account (iterate these; keep each winner's angle, audience and proof, "
+        "change format, hook and story; split the batch across winners roughly by spend x ROAS; name the winner "
+        "each concept builds on in `winner`):",
+        winners or "(winners file missing: use what's winning in ad_account_digest.md)",
+        "",
+        "Captions we already ran (don't repeat these ideas or lines):",
+        *[f"- {t[:160]}" for t in used_caps[-60:]],
+        "",
+        "Unused footage we can cut from (describe each shot as real footage like these; write \"source from "
+        "TikTok\" for a shot we don't have):",
+        *footage[:120],
+        "",
+        f"Live offer for the primary text (the end card shows it): {offer}",
+        "",
+        "Hard rules:", *[f"- {r}" for r in rules],
+        "",
+        f"Return ids SF01..SF{n:02d}.",
+    ]
+    msg = "\n".join(lines)
+    while len(msg) > 31000 and footage:
+        footage = footage[:-10]
+        lines = [l for l in lines if not l.startswith("- ") or l[2:] in "".join(footage) or not l.endswith(")")]
+        msg = "\n".join(lines)[:31000]
+    week = wdir.name
+    session = f"{sb.get('session_prefix', args.brand)}-shortform-{week}"
+    sc = ask(msg, project=sb["project_id"], session=session, schema=SHORTFORM_SCHEMA, key=f"{args.brand}-sf-{week}-{n}")
+    res = structured(sc)
+    out = {"session": session, "chat": sc.get("chat"), "url": sc.get("app_url"), **res}
+    wdir.mkdir(parents=True, exist_ok=True)
+    (wdir / "stefanbrain_concepts.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
+    print(f"{len(res['concepts'])} concepts -> {wdir / 'stefanbrain_concepts.json'} · {sc.get('app_url')}")
+
+
+def followup_cmd(args):
+    """A follow-up in an existing StefanBrain chat (e.g. 'Replace SF04: can't be shot'), polled to the end.
+    --shortform constrains the answer to the short-form concept JSON; otherwise prints the text answer."""
+    bdir, cfg, sb = brand_cfg(args.brand)
+    sc = ask(args.message, project=sb["project_id"], chat=args.chat,
+             schema=SHORTFORM_SCHEMA if args.shortform else None)
+    if args.shortform:
+        print(json.dumps(structured(sc), ensure_ascii=False, indent=1))
+    else:
+        print(sc.get("answer") or sc.get("output") or sc.get("_text"))
+
+
 def main():
     p = argparse.ArgumentParser()
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -528,6 +646,17 @@ def main():
     g.add_argument("--brand", required=True)
     m = sub.add_parser("market")
     m.add_argument("--brand", required=True)
+    f = sub.add_parser("shortform")
+    f.add_argument("--brand", required=True)
+    f.add_argument("--week-dir", required=True)
+    f.add_argument("--n", type=int, default=10)
+    f.add_argument("--winners", help="winners.md (default: <week-dir>/_winners/winners.md)")
+    f.add_argument("--focus", help="optional angle focus, e.g. Disney")
+    u2 = sub.add_parser("followup")
+    u2.add_argument("--brand", required=True)
+    u2.add_argument("--chat", required=True)
+    u2.add_argument("--shortform", action="store_true")
+    u2.add_argument("message")
     a = p.parse_args()
     if a.cmd == "status":
         print(call("account_status", {})[1])
@@ -548,6 +677,10 @@ def main():
         digest_cmd(a)
     elif a.cmd == "market":
         market_cmd(a)
+    elif a.cmd == "shortform":
+        shortform_cmd(a)
+    elif a.cmd == "followup":
+        followup_cmd(a)
 
 
 if __name__ == "__main__":
