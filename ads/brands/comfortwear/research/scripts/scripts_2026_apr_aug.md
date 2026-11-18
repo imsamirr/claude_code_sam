@@ -1,6 +1,20 @@
 # ComfortWear Scripts 2026 — Apr–Aug slice (Creative Strategy Tracker)
 
-<!-- HEADER-COUNTS-PLACEHOLDER -->
+**Source:** Notion → ComfortWear Hub → ComfortWear Creative Tracker → "📅 Scripts 2026" → **Creative Strategy Tracker** database (data source `collection://34b23caf-f444-8135-a7cf-000bf1574806`). Exported read-only; nothing in Notion was edited.
+
+**Slice:** rows **created 2026-04-23 through 2026-08-31** (by the row's "Created time"). Sept–Nov rows and the old tracker are exported separately.
+
+**Method:** the Query-Data-Source (SQL) allowance was exhausted, and the only saved view is filtered to Month = September, so rows were listed with Notion search restricted to this data source and to created-date windows, then every row page was fetched one by one. No row in this slice used a Shot List sub-database; scripts live in the page body (tables or plain text). Two copy blocks that lived in sub-pages (COM95, COM126) were fetched and included.
+
+**Counts**
+- Row pages listed in slice: **219** (210 distinct COM codes; 9 codes have a second page with the same code: COM65, COM194, COM195, COM196, COM197, COM200, COM212, COM213, COM214 — second pages are marked "(second page)").
+- Entries written below: **219** (one per page, in creation order).
+- Entries with script/copy text: **200**. Of these, **11** hold only an editor brief/instructions or analysis notes and no ad copy (see list at the end), so **189** contain actual ad copy (hooks, body, CTA, on-screen text).
+- Rows with no script text: **19** (listed at the end).
+- Codes not found in the database at all: COM30, COM169.
+- Status mix (all 219 entries): Launched 106 · 🏆 Winner 1 (COM49) · Ready to Launch 10 · Ready to Review 5 · Editing 76 · Creator Filming 2 · Waiting for Footage 2 · Writing 1 · Waiting for a Creator 1 · no status 15. The Learnings property is empty on every row in this slice.
+
+**Conventions:** each entry = `## COM### — <Concept>`, one properties line (Status · NN/IT · Execution style · Angle · Creator type (persona) · Product · Offer · Month · Created date · Learnings), then the script copied verbatim (all hook variants, body, CTA, on-screen text, visual/direction columns). Embedded videos/images are noted as "(video/image embedded on page)"; Google Drive footage links are shortened to "[Drive link]". Where a page repeats another page's script with only a word swapped (e.g. COM211, COM213/COM214 second pages, COM209), the entry states exactly what differs instead of repeating the full text. Privacy: strategist and video-editor names are dropped; creator/editor names appearing inside text are replaced with [creator] / [name] / [editor]; the founder sign-off was replaced with [founder]. Fictional characters written into scripts (e.g. Dr. Sara Adams, Eleanor, Mia, Walt, Peach/Strawberry/Banana, "David Bennett"/Claire, Dr. Jenson Hamel / Sara Friedman RN) are kept as written. Competitor spellings like "H0ka", "Br0ok$", "Skech*rs" are kept exactly as the writers obfuscated them.
 
 ## COM15 — Iteration of Kyro362v3 hook1
 
@@ -6188,3 +6202,34 @@ Reference: (video embedded on page).
 
 ---
 
+## Rows with no script text
+
+| COM | Reason |
+|---|---|
+| COM77 | Blank page (Grid-Like Statics) |
+| COM78 | Blank page |
+| COM79 | Blank page |
+| COM80 | Blank page |
+| COM100 | Copy lives in an external Google Doc (not readable from Notion) |
+| COM115 | Copy lives in an external Google Doc (not readable from Notion) |
+| COM131 | Reference link only |
+| COM132 | Reference link only |
+| COM133 | Reference link only |
+| COM134 | Reference link only |
+| COM135 | Reference link only |
+| COM136 | Reference link + persona list only |
+| COM137 | Reference link only |
+| COM138 | Reference link only |
+| COM139 | Reference link only |
+| COM140 | Reference link only |
+| COM206 | Blank page |
+| COM212 (first page, "Music Teacher Ad") | Blank page |
+| COM220 | Blank page |
+
+## Rows with instructions/brief only (written above, but no ad copy)
+
+COM45, COM46, COM47, COM54, COM55, COM64, COM88, COM90 (editor instructions only) · COM194 first page (iteration brief) · COM196 first page (reference-ad performance notes) · COM221 (AI avatar-swap brief; script is the reference ads).
+
+## Codes not found
+
+COM30 and COM169 did not appear in the database search for this date range.
