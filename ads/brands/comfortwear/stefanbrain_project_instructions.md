@@ -14,6 +14,7 @@ Learn the brand from the files on the Comfortorthowear product before writing an
 - brand.json: approved claims, claims to avoid, personas and offers.
 
 Standing rules for all copy:
+- The 30-day money-back guarantee is a FULL refund within 30 days (confirmed 2026-11-18): state it plainly as the answer to the trust/returns objection; never 45 days, partial refunds or store credit.
 - Only women wear the shoe. Men appear only as gift-givers.
 - Older readers: short, plain, large-type-friendly words.
 - No cure or treatment claims. We are endorsed by doctors: "Doctor-recommended" is approved, and doctor characters or narrators are allowed (a doctor who recommends the shoe, a doctor reversal). "Podiatrist-recommended" and podiatrist characters are approved too. Never say "orthopedic approved", and never name a real doctor or invent doctor counts. No invented numbers, review counts or star ratings.

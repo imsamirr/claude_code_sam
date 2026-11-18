@@ -388,7 +388,8 @@
     "BLACK FRIDAY price boxes (user-provided 2026-10-27, for Q48_06): strikethrough \"$120\" -> sale price \"$59.95\". Note: $59.95 vs $120 is ~50% off; $120 is now the standard reference price (user 2026-10-29).",
     "BLACK FRIDAY promo code (user-provided 2026-10-27): code \"LEAKED10\" = \"EXTRA 10% OFF\", shown as \"TOTAL 70% OFF + FREE SHIPPING\". Note: 60% then an extra 10% compounds to 64%, unless the code adds 10 points; confirm before running.",
     "BLACK FRIDAY promo code (user 2026-10-29): \"LEAKED10\" = \"EXTRA 10% OFF\" on top of 60% OFF SITEWIDE. Show as '60% OFF SITEWIDE + EXTRA 10% OFF', not 'TOTAL 70%' (stacked it is ~64%).",
-    "Doctor-recommended (user-approved 2026-11-18): 'Doctor-recommended' may be used in copy and on end cards/badges. Podiatrist-recommended and podiatrist characters are approved too (user, 2026-11-18). Still no 'orthopedic approved', named doctors, invented doctor counts, or cure/treatment claims."
+    "Doctor-recommended (user-approved 2026-11-18): 'Doctor-recommended' may be used in copy and on end cards/badges. Podiatrist-recommended and podiatrist characters are approved too (user, 2026-11-18). Still no 'orthopedic approved', named doctors, invented doctor counts, or cure/treatment claims.",
+    "30-day money-back guarantee = FULL refund within 30 days (user confirmed 2026-11-18). Say it plainly in ads (e.g. 'return them within 30 days for a full refund'); never 45 days, never partial refunds, store credit or 'donate and send the receipt' wording."
   ],
   "quality_bar": [
     "Match the quality of the brand's own top-performing ads (the benchmark image): polished commercial e-commerce production, crisp and bright, nothing that looks like generic AI stock art.",
