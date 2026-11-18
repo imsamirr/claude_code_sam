@@ -219,6 +219,10 @@
   },
   "format_guides_note": "Testimonial/review ads use fb_comment or trustpilot; tweet-style ads use x_post. Cartoon/animation formats (user rule, Oct 11: use them, both brands): cartoon_3d, comic_strip, flat_illustration, claymation, retro_cartoon, anime_soft. Aim for ~15–20% of every batch.",
   "atria_account": "WearOrtho",
+  "atria_accounts": [
+    "WearOrtho",
+    "WearOrtho V2"
+  ],
   "program": {
     "schedule": "Tue + Fri 5:50am America/New_York (routine 'Comfort Wear weekly statics', trig_01UPZqhi5EjEjs2g3yMjMd2F)",
     "iteration_batch": {
