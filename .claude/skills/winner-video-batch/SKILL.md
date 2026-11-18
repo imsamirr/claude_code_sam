@@ -41,6 +41,10 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
   `Skech\\*rs` (a bare `*` toggles the yellow highlight). Still blur Skechers logos in the footage.
 - Each concept keeps its winner's angle, audience and proof points; it changes the format, hook and
   story. Use `claims_to_avoid` from brand.json.
+- **End card is 3 seconds (user rule, Nov 18)**: `brand.json` → `video.end_cards[].seconds` = 3 (the offer
+  is fully on screen within the first second of every card). Don't override it per video.
+- **Bigger text without a background (user rule, Nov 18)**: `shadow`, `classic` and `outline` captions
+  render at **72 px or larger** in a heavy weight (build.py enforces the floor); box styles keep their sizes.
 
 ## Run (Thursday, or when asked)
 
@@ -58,8 +62,28 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
    this week") and 3–5 fresh organic-style ads in Atria (`search_library_ads`, `order: best_match`,
    `active_since` last 30 days, `min_days_running` 7, video 0–30 s). Append anything new and useful
    to the playbook under a dated heading.
-4. **Concepts**: write 10 concepts (winner → format → caption → 2–4 shots). Different format for
-   each, no caption reused from earlier batches (grep earlier `edit.json`s).
+4. **Concepts by StefanBrain (user rule 2026-11-18)**: StefanBrain (Stefan Georgi's copywriting AI, which
+   holds Comfort Wear's ad history, scripts, customer voice and this playbook) comes up with the 10 concepts
+   and writes every caption plus the Meta primary text and headline:
+   `python ads/stefanbrain.py shortform --brand <brand> --week-dir <week dir>` (reads `_winners/winners.md`,
+   every earlier caption, the unused footage in `footage.csv` and the live end-card offer; ~10–20 min;
+   writes `<week dir>/stefanbrain_concepts.json`; the key is a network secret on this environment).
+   Then for each concept:
+   - **Footage**: match every shot to an unused clip (step 5) that shows what the caption says. Swap a
+     named clip that `check_batch.py` flags as used for an unused one of the same moment.
+   - **Captions verbatim**: use StefanBrain's lines exactly in edit.json (`clip` per script line; one
+     `clips: [0, n]` caption for static), its `primary_text` and `fb_headline` as `primary_text` /
+     `headline`, and record `"copy_source": "stefanbrain"` + `stefanbrain_chat`. Pick the caption look per
+     the Rules (≥ 5 looks per batch).
+   - **Send back, don't rewrite**: a concept that breaks a hard rule (claims_to_avoid, a wrong offer) or
+     can't be shot with real footage goes back to StefanBrain in the same chat:
+     `python ads/stefanbrain.py followup --brand <brand> --chat <chat id from stefanbrain_concepts.json>
+     --shortform "Replace SF04: <why>. Return just that concept."` (waits for the answer). Fix a line
+     yourself only after a failed revision and mark it `"copy_source": "stefanbrain+edit"`.
+   - **Fallback**: if StefanBrain is unreachable (401/403, or still running after 50 min), write the
+     concepts yourself as before (winner → format → caption → 2–4 shots, no caption reused from earlier
+     batches) and say so at the top of the summary.
+   The Notion card's per-video rows add the caption and "copy: StefanBrain".
 5. **Footage** (new clips only; list what's taken with `check_batch.py --used ads/brands/<brand>/video`):
    - the brand's Drive: `video/footage.csv` (tagged) and `video/drive_inventory.tsv` (every file;
      search names), triage with `ads/video/triage.py`, sheet with `build.py --sheet`;

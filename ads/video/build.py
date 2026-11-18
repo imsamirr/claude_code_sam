@@ -311,9 +311,13 @@ def render_caption(cap, out_png):
     if style == "banner":
         return render_banner(cap, out_png)
     size = int(cap.get("size", 52))
+    no_bg = style in ("shadow", "classic", "outline")
+    if no_bg and not cap.get("keep_size"):
+        # user rule 2026-11-18: text without a background box is hard to read small; floor at 72 px
+        size = max(size, 72)
     max_w = int(W * cap.get("width", 0.84))
     family = cap.get("font", "serif" if style == "serif" else "inter")
-    default_w = {"box": "SemiBold", "glass": "SemiBold", "shadow": "SemiBold", "classic": "Medium"}.get(style, "Bold")
+    default_w = {"box": "SemiBold", "glass": "SemiBold", "shadow": "ExtraBold", "classic": "Bold"}.get(style, "Bold")
     ts = Typesetter(size, cap.get("weight", default_w), family)
     pad_x, pad_y = int(size * 0.42), int(size * 0.20)
     text = cap["text"].lower() if cap.get("lower") else cap["text"]

@@ -264,21 +264,24 @@
     "until": "2026-11-23",
     "vo": "ads/brands/comfortwear/video/end_cards/black_friday_2026_vo.mp3",
     "vo_text": "Black Friday is here! Sixty percent off, plus two free gifts. (Harper)",
-    "note": "Black Friday 2026: 60% off + 2 free gifts. User rule: every creative made on or before 2026-11-23 ends on this card."
+    "note": "Black Friday 2026: 60% off + 2 free gifts. User rule: every creative made on or before 2026-11-23 ends on this card.",
+    "seconds": 3
    },
    {
     "name": "black_friday_es",
     "lang": "es",
     "file": "ads/brands/comfortwear/video/end_cards/black_friday_2026_es.mp4",
     "until": "2026-11-23",
-    "note": "Spanish (US) Black Friday card, rebuilt from the English card by ads/video/make_end_card_es.py: '¡ya llegó!', '60% DE DESCUENTO + 2 REGALOS GRATIS', OFERTA tapes, '30 DÍAS GARANTÍA DE DEVOLUCIÓN', 'ENVÍO GRATIS EN TODOS LOS PEDIDOS'."
+    "note": "Spanish (US) Black Friday card, rebuilt from the English card by ads/video/make_end_card_es.py: '¡ya llegó!', '60% DE DESCUENTO + 2 REGALOS GRATIS', OFERTA tapes, '30 DÍAS GARANTÍA DE DEVOLUCIÓN', 'ENVÍO GRATIS EN TODOS LOS PEDIDOS'.",
+    "seconds": 3
    },
    {
     "name": "regular",
     "file": "ads/brands/comfortwear/video/end_cards/regular.mp4",
     "vo": "ads/brands/comfortwear/video/end_cards/regular_vo.mp3",
     "vo_text": "Grab yours today, at forty percent off sitewide. (Harper)",
-    "note": "Evergreen: 'Take advantage of discounts, 40% off sitewide'. Used for creatives made after 2026-11-23."
+    "note": "Evergreen: 'Take advantage of discounts, 40% off sitewide'. Used for creatives made after 2026-11-23.",
+    "seconds": 3
    }
   ],
   "end_card_rule": "edit.json \"end_card\": \"auto\" picks by the edit's \"created\" date (default today) and \"lang\" (es -> Spanish card; falls back to English). No Spanish regular card yet.",
@@ -301,7 +304,9 @@
    "Deliver 9:16 only (no separate 4:5 file). All text and key content (faces, product, action) must sit inside the centered 4:5 area (y 285-1635 of 1920). End cards stay as supplied (user, 2026-11-13).",
    "FORMAT (user, Nov 13): organic-post style like the user's Atria refs: one static first-person caption (POV / thank-you + EDIT / 'when…' / 'Nobody told me…' / 'Heard you were looking…'), 2-4 real shots, music only, no voiceover, 10-16 s + end card.",
    "Competitor names (user, 2026-11-14): name competitor brands directly in captions/scripts instead of prices (\"Hokas\", \"OnClouds\", \"Brooks\", \"Nike Air Max\", not \"$180 shoes\"). Skechers is ALWAYS written \"Skech*rs\" (in edit.json captions type it as Skech\\*rs, because a bare * starts a yellow highlight).",
-   "Drive (user, 2026-11-17): every batch goes into its own new subfolder of the video folder (drive_upload.py --batch \"<YYYY>-W<ww> Weekly Batch (...)\"); never leave a batch's files loose in the main folder."
+   "Drive (user, 2026-11-17): every batch goes into its own new subfolder of the video folder (drive_upload.py --batch \"<YYYY>-W<ww> Weekly Batch (...)\"); never leave a batch's files loose in the main folder.",
+   "End card: 3 seconds at the end (user, 2026-11-18). brand.json video.end_cards[].seconds = 3; the offer is fully on screen within the first second of every card.",
+   "Captions without a background box (shadow, classic, outline) render at 72 px or larger in a heavy weight so they read on busy footage (user, 2026-11-18; enforced in ads/video/build.py)."
   ],
   "drive_folder_id": "1bhhpYqkbtYJI1hOzoSN_-VFxqCkmsI3C",
   "drive_folder_name": "Comfort Wear – Short-Form Video Ads (one subfolder per batch, e.g. '2026-W46 Weekly Batch (V46_11-21)', + 'End cards')",
@@ -330,5 +335,11 @@
   },
   "music_library": "ads/brands/comfortwear/video/music/",
   "drive_inventory": "ads/brands/comfortwear/video/drive_inventory.tsv"
+ },
+ "stefanbrain": {
+  "product_id": "e5fa84f6-6ec9-4a2c-b24e-60fe2a0e1f60",
+  "project_id": "proj_59a994cdb82b45a4b43afb8ba51c357a",
+  "session_prefix": "comfortwear",
+  "note": "StefanBrain writes the concepts and copy for the weekly short-form batch (winner-video-batch skill step 4, ads/stefanbrain.py shortform) and the static batches. Brand knowledge lives on the StefanBrain product (files) and project (instructions)."
  }
 }
