@@ -1,0 +1,240 @@
+{
+  "week": "2026-W47-insp-set3",
+  "notes": "User 2026-11-18: 5 inspirations; 3 layouts x 4 angles (Disney, Disney plus-size, Europe, nurses) + 30 days zero risk + saying goodbye. BF 60% offer.",
+  "concepts": [
+    {
+      "id": "L1A_parks_disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "benchmark": "i3_two_parks",
+      "format_ref": true,
+      "headline": "TWO PARKS. ONE DAY. ZERO EXCUSES.",
+      "prompt": "Recreate the reference layout: low camera angle, a sunny theme-park main street at golden hour with palm trees and ornate generic pastel buildings, softly blurred filling the frame; in the lower-middle foreground on the pavement/floor, ONE pair of the navy knit shoes with bright blue accents from the product reference, side by side, large and sharp, warm light, soft shadows. Top: stacked headline strips like the reference: a white strip with heavy black caps \"TWO PARKS. ONE DAY.\"; under it a wider red strip with huge heavy white caps \"ZERO EXCUSES.\"; under it a smaller yellow strip with heavy black caps \"BLACK FRIDAY · 60% OFF\". Bottom center: a red rounded pill button with white bold text \"SHOP 60% OFF →\", under it small white text \"Use code\" with a white outlined chip \"LEAKED10\" and \"for an extra 10% off\", and under that small white text \"Free shipping & returns\". QUALITY BAR: match the polish of the reference exactly: same layout, hierarchy, type weights and spacing; at least 7% clear margin between all text and every edge; large, crisp, perfectly spelled text readable by women 60+; the shoes are EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright, never a different shoe, never a lace-up oxford or air-bubble sneaker. Spell every quoted word exactly and render each quoted text once. No other words, logos or signs anywhere (no theme-park names, characters or logos).",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo_set3",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "L1B_parks_plus",
+      "persona": "plus_size",
+      "colorway": "black_purple",
+      "benchmark": "i3_two_parks",
+      "format_ref": true,
+      "headline": "PLUS-SIZE FEET. PARK-SIZE DAYS.",
+      "prompt": "Recreate the reference layout: low camera angle, a sunny theme-park main street at golden hour with palm trees and ornate generic pastel buildings, softly blurred filling the frame; in the lower-middle foreground on the pavement/floor, ONE pair of the black knit shoes with purple accents from the product reference, side by side, large and sharp, warm light, soft shadows. Top: stacked headline strips like the reference: a white strip with heavy black caps \"PLUS-SIZE FEET.\"; under it a wider red strip with huge heavy white caps \"PARK-SIZE DAYS.\"; under it a smaller yellow strip with heavy black caps \"BLACK FRIDAY · 60% OFF\". Bottom center: a red rounded pill button with white bold text \"SHOP 60% OFF →\", under it small white text \"Use code\" with a white outlined chip \"LEAKED10\" and \"for an extra 10% off\", and under that small white text \"Free shipping & returns\". QUALITY BAR: match the polish of the reference exactly: same layout, hierarchy, type weights and spacing; at least 7% clear margin between all text and every edge; large, crisp, perfectly spelled text readable by women 60+; the shoes are EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright, never a different shoe, never a lace-up oxford or air-bubble sneaker. Spell every quoted word exactly and render each quoted text once. No other words, logos or signs anywhere (no theme-park names, characters or logos).",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo_set3",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "L1C_parks_europe",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "benchmark": "i3_two_parks",
+      "format_ref": true,
+      "headline": "ROME. PARIS. LISBON. ZERO SORE FEET.",
+      "prompt": "Recreate the reference layout: low camera angle, a narrow old European cobblestone street at golden hour with stone buildings, flower boxes and cafe tables, softly blurred filling the frame; in the lower-middle foreground on the pavement/floor, ONE pair of the burgundy red knit shoes from the product reference, side by side, large and sharp, warm light, soft shadows. Top: stacked headline strips like the reference: a white strip with heavy black caps \"ROME. PARIS. LISBON.\"; under it a wider red strip with huge heavy white caps \"ZERO SORE FEET.\"; under it a smaller yellow strip with heavy black caps \"BLACK FRIDAY · 60% OFF\". Bottom center: a red rounded pill button with white bold text \"SHOP 60% OFF →\", under it small white text \"Use code\" with a white outlined chip \"LEAKED10\" and \"for an extra 10% off\", and under that small white text \"Free shipping & returns\". QUALITY BAR: match the polish of the reference exactly: same layout, hierarchy, type weights and spacing; at least 7% clear margin between all text and every edge; large, crisp, perfectly spelled text readable by women 60+; the shoes are EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright, never a different shoe, never a lace-up oxford or air-bubble sneaker. Spell every quoted word exactly and render each quoted text once. No other words, logos or signs anywhere (no theme-park names, characters or logos).",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo_set3",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "L1D_parks_nurse",
+      "persona": "nurse",
+      "colorway": "black_white",
+      "benchmark": "i3_two_parks",
+      "format_ref": true,
+      "headline": "THREE 12s. ONE PAIR. ZERO EXCUSES.",
+      "prompt": "Recreate the reference layout: low camera angle, a long bright modern hospital corridor with soft window light, softly blurred filling the frame; in the lower-middle foreground on the pavement/floor, ONE pair of the black knit shoes with white accents from the product reference, side by side, large and sharp, warm light, soft shadows. Top: stacked headline strips like the reference: a white strip with heavy black caps \"THREE 12s. ONE PAIR.\"; under it a wider red strip with huge heavy white caps \"ZERO EXCUSES.\"; under it a smaller yellow strip with heavy black caps \"BLACK FRIDAY · 60% OFF\". Bottom center: a red rounded pill button with white bold text \"SHOP 60% OFF →\", under it small white text \"Use code\" with a white outlined chip \"LEAKED10\" and \"for an extra 10% off\", and under that small white text \"Free shipping & returns\". QUALITY BAR: match the polish of the reference exactly: same layout, hierarchy, type weights and spacing; at least 7% clear margin between all text and every edge; large, crisp, perfectly spelled text readable by women 60+; the shoes are EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright, never a different shoe, never a lace-up oxford or air-bubble sneaker. Spell every quoted word exactly and render each quoted text once. No other words, logos or signs anywhere (no theme-park names, characters or logos).",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo_set3",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "L2A_longdays_disney",
+      "persona": "traveler",
+      "colorway": "black_purple",
+      "benchmark": "i3_long_days",
+      "format_ref": true,
+      "headline": "THE SHOES FOR PARK DAYS",
+      "prompt": "Recreate the reference layout exactly: deep royal-blue background with a bright blue spotlight glow behind the shoe. Top: huge heavy white caps \"THE SHOES FOR\" and under it \"PARK DAYS\" in white on a bright blue highlight box. Center: ONE of the black knit shoes with purple accents from the product reference, very large, side view facing right, crisp rim light so it stands out from the blue, soft floor reflection. Right side overlapping the shoe toe area: a red circle badge with white bold text \"60% OFF\". Below the shoe: white text \"Stretch knit. Cushioned rocker sole. Arch support.\". Then a full-width bright blue bar with white text \"30-Day Money-Back Guarantee\". Bottom: a white footer band with the brand logo from the last attached image, centered. QUALITY BAR: match the polish of the reference exactly: same layout, hierarchy, type weights and spacing; at least 7% clear margin between all text and every edge; large, crisp, perfectly spelled text readable by women 60+; the shoes are EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright, never a different shoe, never a lace-up oxford or air-bubble sneaker. Spell every quoted word exactly and render each quoted text once. No other words, logos or signs anywhere (no theme-park names, characters or logos).",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo_set3",
+        "black_friday"
+      ],
+      "logo": true
+    },
+    {
+      "id": "L2B_longdays_plus",
+      "persona": "plus_size",
+      "colorway": "black_purple",
+      "benchmark": "i3_long_days",
+      "format_ref": true,
+      "headline": "THE SHOES FOR PLUS-SIZE PARK DAYS",
+      "prompt": "Recreate the reference layout exactly: deep royal-blue background with a bright blue spotlight glow behind the shoe. Top: huge heavy white caps \"THE SHOES FOR\" and under it \"PLUS-SIZE PARK DAYS\" in white on a bright blue highlight box. Center: ONE of the black knit shoes with purple accents from the product reference, very large, side view facing right, crisp rim light so it stands out from the blue, soft floor reflection. Right side overlapping the shoe toe area: a red circle badge with white bold text \"60% OFF\". Below the shoe: white text \"Stretch knit. Cushioned rocker sole. Arch support.\". Then a full-width bright blue bar with white text \"30-Day Money-Back Guarantee\". Bottom: a white footer band with the brand logo from the last attached image, centered. QUALITY BAR: match the polish of the reference exactly: same layout, hierarchy, type weights and spacing; at least 7% clear margin between all text and every edge; large, crisp, perfectly spelled text readable by women 60+; the shoes are EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright, never a different shoe, never a lace-up oxford or air-bubble sneaker. Spell every quoted word exactly and render each quoted text once. No other words, logos or signs anywhere (no theme-park names, characters or logos).",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo_set3",
+        "black_friday"
+      ],
+      "logo": true
+    },
+    {
+      "id": "L2C_longdays_europe",
+      "persona": "traveler",
+      "colorway": "black_white",
+      "benchmark": "i3_long_days",
+      "format_ref": true,
+      "headline": "THE SHOES FOR EUROPE TRIPS",
+      "prompt": "Recreate the reference layout exactly: deep royal-blue background with a bright blue spotlight glow behind the shoe. Top: huge heavy white caps \"THE SHOES FOR\" and under it \"EUROPE TRIPS\" in white on a bright blue highlight box. Center: ONE of the black knit shoes with white accents from the product reference, very large, side view facing right, crisp rim light so it stands out from the blue, soft floor reflection. Right side overlapping the shoe toe area: a red circle badge with white bold text \"60% OFF\". Below the shoe: white text \"Stretch knit. Cushioned rocker sole. Arch support.\". Then a full-width bright blue bar with white text \"30-Day Money-Back Guarantee\". Bottom: a white footer band with the brand logo from the last attached image, centered. QUALITY BAR: match the polish of the reference exactly: same layout, hierarchy, type weights and spacing; at least 7% clear margin between all text and every edge; large, crisp, perfectly spelled text readable by women 60+; the shoes are EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright, never a different shoe, never a lace-up oxford or air-bubble sneaker. Spell every quoted word exactly and render each quoted text once. No other words, logos or signs anywhere (no theme-park names, characters or logos).",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo_set3",
+        "black_friday"
+      ],
+      "logo": true
+    },
+    {
+      "id": "L2D_longdays_nurse",
+      "persona": "nurse",
+      "colorway": "black_white",
+      "benchmark": "i3_long_days",
+      "format_ref": true,
+      "headline": "THE SHOES FOR 12-HOUR SHIFTS",
+      "prompt": "Recreate the reference layout exactly: deep royal-blue background with a bright blue spotlight glow behind the shoe. Top: huge heavy white caps \"THE SHOES FOR\" and under it \"12-HOUR SHIFTS\" in white on a bright blue highlight box. Center: ONE of the black knit shoes with white accents from the product reference, very large, side view facing right, crisp rim light so it stands out from the blue, soft floor reflection. Right side overlapping the shoe toe area: a red circle badge with white bold text \"60% OFF\". Below the shoe: white text \"Stretch knit. Cushioned rocker sole. Arch support.\". Then a full-width bright blue bar with white text \"30-Day Money-Back Guarantee\". Bottom: a white footer band with the brand logo from the last attached image, centered. QUALITY BAR: match the polish of the reference exactly: same layout, hierarchy, type weights and spacing; at least 7% clear margin between all text and every edge; large, crisp, perfectly spelled text readable by women 60+; the shoes are EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright, never a different shoe, never a lace-up oxford or air-bubble sneaker. Spell every quoted word exactly and render each quoted text once. No other words, logos or signs anywhere (no theme-park names, characters or logos).",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo_set3",
+        "black_friday"
+      ],
+      "logo": true
+    },
+    {
+      "id": "L3A_comfort_disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "benchmark": "i3_comfort",
+      "format_ref": true,
+      "headline": "COMFORT FOR PARK DAYS",
+      "prompt": "Recreate the reference layout exactly: a real outdoor-style photo of a sunny theme-park main street with flower beds and generic pastel buildings, softly blurred; a woman's hand holds ONE pair of the navy knit shoes with bright blue accents from the product reference by their heel loops in the center of the frame, large and sharp, exact model. Top: a white box with heavy navy caps \"COMFORT FOR\" and under it, in a navy box, huge white caps \"PARK DAYS\". Under the headline a row of three white line icons in navy circles with two-line white labels: \"STRETCH KNIT\" / \"Breathable\"; \"NO-TIE LACES\" / \"Slip On, No Bending\"; \"ROCKER SOLE\" / \"All-Day Cushion\". Right side: a navy circle badge with white bold text \"60% OFF\". Lower center: a white plate with the brand logo from the last attached image. Bottom: a full-width white bar with navy bold text \"BLACK FRIDAY | 30-DAY MONEY-BACK GUARANTEE\". QUALITY BAR: match the polish of the reference exactly: same layout, hierarchy, type weights and spacing; at least 7% clear margin between all text and every edge; large, crisp, perfectly spelled text readable by women 60+; the shoes are EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright, never a different shoe, never a lace-up oxford or air-bubble sneaker. Spell every quoted word exactly and render each quoted text once. No other words, logos or signs anywhere (no theme-park names, characters or logos).",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo_set3",
+        "black_friday"
+      ],
+      "logo": true
+    },
+    {
+      "id": "L3B_comfort_plus",
+      "persona": "plus_size",
+      "colorway": "black_purple",
+      "benchmark": "i3_comfort",
+      "format_ref": true,
+      "headline": "COMFORT FOR PLUS-SIZE PARK DAYS",
+      "prompt": "Recreate the reference layout exactly: a real outdoor-style photo of a sunny theme-park main street with flower beds and generic pastel buildings, softly blurred; a woman's hand holds ONE pair of the black knit shoes with purple accents from the product reference by their heel loops in the center of the frame, large and sharp, exact model. Top: a white box with heavy navy caps \"COMFORT FOR\" and under it, in a navy box, huge white caps \"PLUS-SIZE PARK DAYS\". Under the headline a row of three white line icons in navy circles with two-line white labels: \"STRETCH KNIT\" / \"Breathable\"; \"NO-TIE LACES\" / \"Slip On, No Bending\"; \"ROCKER SOLE\" / \"All-Day Cushion\". Right side: a navy circle badge with white bold text \"60% OFF\". Lower center: a white plate with the brand logo from the last attached image. Bottom: a full-width white bar with navy bold text \"BLACK FRIDAY | 30-DAY MONEY-BACK GUARANTEE\". QUALITY BAR: match the polish of the reference exactly: same layout, hierarchy, type weights and spacing; at least 7% clear margin between all text and every edge; large, crisp, perfectly spelled text readable by women 60+; the shoes are EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright, never a different shoe, never a lace-up oxford or air-bubble sneaker. Spell every quoted word exactly and render each quoted text once. No other words, logos or signs anywhere (no theme-park names, characters or logos).",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo_set3",
+        "black_friday"
+      ],
+      "logo": true
+    },
+    {
+      "id": "L3C_comfort_europe",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "benchmark": "i3_comfort",
+      "format_ref": true,
+      "headline": "COMFORT FOR EUROPE TRIPS",
+      "prompt": "Recreate the reference layout exactly: a real outdoor-style photo of an old European cobblestone street with flower boxes and cafe tables, softly blurred; a woman's hand holds ONE pair of the burgundy red knit shoes from the product reference by their heel loops in the center of the frame, large and sharp, exact model. Top: a white box with heavy navy caps \"COMFORT FOR\" and under it, in a navy box, huge white caps \"EUROPE TRIPS\". Under the headline a row of three white line icons in navy circles with two-line white labels: \"STRETCH KNIT\" / \"Breathable\"; \"NO-TIE LACES\" / \"Slip On, No Bending\"; \"ROCKER SOLE\" / \"All-Day Cushion\". Right side: a navy circle badge with white bold text \"60% OFF\". Lower center: a white plate with the brand logo from the last attached image. Bottom: a full-width white bar with navy bold text \"BLACK FRIDAY | 30-DAY MONEY-BACK GUARANTEE\". QUALITY BAR: match the polish of the reference exactly: same layout, hierarchy, type weights and spacing; at least 7% clear margin between all text and every edge; large, crisp, perfectly spelled text readable by women 60+; the shoes are EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright, never a different shoe, never a lace-up oxford or air-bubble sneaker. Spell every quoted word exactly and render each quoted text once. No other words, logos or signs anywhere (no theme-park names, characters or logos).",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo_set3",
+        "black_friday"
+      ],
+      "logo": true
+    },
+    {
+      "id": "L3D_comfort_nurse",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "i3_comfort",
+      "format_ref": true,
+      "headline": "COMFORT FOR 12-HOUR SHIFTS",
+      "prompt": "Recreate the reference layout exactly: a real outdoor-style photo of a bright modern hospital corridor with window light, softly blurred; a woman's hand holds ONE pair of the black knit shoes with purple accents from the product reference by their heel loops in the center of the frame, large and sharp, exact model. Top: a white box with heavy navy caps \"COMFORT FOR\" and under it, in a navy box, huge white caps \"12-HOUR SHIFTS\". Under the headline a row of three white line icons in navy circles with two-line white labels: \"STRETCH KNIT\" / \"Breathable\"; \"NO-TIE LACES\" / \"Slip On, No Bending\"; \"ROCKER SOLE\" / \"All-Day Cushion\". Right side: a navy circle badge with white bold text \"60% OFF\". Lower center: a white plate with the brand logo from the last attached image. Bottom: a full-width white bar with navy bold text \"BLACK FRIDAY | 30-DAY MONEY-BACK GUARANTEE\". QUALITY BAR: match the polish of the reference exactly: same layout, hierarchy, type weights and spacing; at least 7% clear margin between all text and every edge; large, crisp, perfectly spelled text readable by women 60+; the shoes are EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright, never a different shoe, never a lace-up oxford or air-bubble sneaker. Spell every quoted word exactly and render each quoted text once. No other words, logos or signs anywhere (no theme-park names, characters or logos).",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo_set3",
+        "black_friday"
+      ],
+      "logo": true
+    },
+    {
+      "id": "L4_30days_zero_risk",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "benchmark": "i3_30days",
+      "format_ref": true,
+      "headline": "30 DAYS. ZERO RISK.",
+      "prompt": "Recreate the reference layout exactly: warm cream studio background with soft window shadows. Top center: a small dark-red rectangle tag with white caps \"BLACK FRIDAY · 60% OFF\". Huge heavy headline, two lines: \"30 DAYS.\" in black and \"ZERO RISK.\" in dark red. Under it italic dark text \"Wear them 30 days, completely risk-free.\". Center: THREE shoes from the product reference leaning side by side against the wall at a slight angle (left black with purple accents, middle navy with bright blue accents, right burgundy red), large, exact model, soft shadows. Below: a 2x2 checklist in dark text with check marks: \"Room for Your Toes\", \"Arch Support Built In\", \"Zero Tight Spots\", \"All-Day Comfort\". Bottom: a black rounded pill with white text \"30-Day Money-Back Guarantee\". QUALITY BAR: match the polish of the reference exactly: same layout, hierarchy, type weights and spacing; at least 7% clear margin between all text and every edge; large, crisp, perfectly spelled text readable by women 60+; the shoes are EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright, never a different shoe, never a lace-up oxford or air-bubble sneaker. Spell every quoted word exactly and render each quoted text once. No other words, logos or signs anywhere (no theme-park names, characters or logos).",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo_set3",
+        "black_friday"
+      ],
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png"
+    },
+    {
+      "id": "L5_saying_goodbye",
+      "persona": "comfort_only",
+      "colorway": "black_white",
+      "benchmark": "i3_goodbye",
+      "format_ref": true,
+      "headline": "WE ARE SAYING goodbye",
+      "prompt": "Recreate the reference layout exactly: very dark green background with a soft vignette. Top center: heavy white caps \"WE ARE SAYING\" and under it a huge bold white lowercase \"goodbye\". Under it a single broken-heart emoji. Then centered white text: \"Our black and white Ortho Stretch sold faster than we planned, and the last pairs are almost gone.\" and a second paragraph \"We're clearing out the remaining stock at 60% OFF before the price goes back up for good.\". Lower half: ONE black knit shoe with white accents and white rocker sole from the product reference, large, three-quarter view, with a strong soft rim light and a light floor glow so the black knit clearly separates from the dark background. QUALITY BAR: match the polish of the reference exactly: same layout, hierarchy, type weights and spacing; at least 7% clear margin between all text and every edge; large, crisp, perfectly spelled text readable by women 60+; the shoes are EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright, never a different shoe, never a lace-up oxford or air-bubble sneaker. Spell every quoted word exactly and render each quoted text once. No other words, logos or signs anywhere (no theme-park names, characters or logos).",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "user_inspo_set3",
+        "black_friday"
+      ],
+      "needs_confirmation": "Only run if All/Black-White stock really is low and the price goes back up after Black Friday."
+    }
+  ]
+}

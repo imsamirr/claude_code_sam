@@ -1400,6 +1400,26 @@
     "bg_summary_holiday_ornaments": {
       "file": "reference/benchmarks/bg_summary_holiday_ornaments.jpg",
       "use_for": "BACKGROUND ref 2026-11-18 (Atria MCP search_library_ads / search_ad_templates): Summary, 11d rising, holiday: deep red field with products hanging like ornaments"
+    },
+    "i3_goodbye": {
+      "file": "reference/benchmarks/insp3_goodbye.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-18: \"We are saying goodbye\": dark green vignette, bold white caps line + huge lowercase \"goodbye\", broken heart emoji, two centered short paragraphs, one shoe low center"
+    },
+    "i3_two_parks": {
+      "file": "reference/benchmarks/insp3_two_parks.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-18: \"Two parks. One day. Zero excuses.\": golden-hour street scene, pair of shoes on pavement in foreground, stacked headline strips (white strip black text, red strip white text, yellow strip), red pill CTA, code chip"
+    },
+    "i3_long_days": {
+      "file": "reference/benchmarks/insp3_long_days_blue.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-18: Orthora \"The shoes for long days\": deep blue spotlight, white heavy headline with blue highlight box on line 2, single black shoe large, red discount circle, subline, blue guarantee bar, brand logo footer"
+    },
+    "i3_comfort": {
+      "file": "reference/benchmarks/insp3_comfort_garden.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-18: Orthora \"Comfort for long days\": outdoor photo, hand holding a pair, navy headline box, three icon features row, blue discount circle, logo plate, bottom bar"
+    },
+    "i3_30days": {
+      "file": "reference/benchmarks/insp3_30days.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-18: \"30 days. Zero risk.\": warm cream studio, small red offer tag, huge black/dark-red two-line headline, italic subline, three shoes leaning on wall, 2x2 check list, black guarantee pill"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
