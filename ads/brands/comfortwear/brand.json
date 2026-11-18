@@ -1429,6 +1429,26 @@
     "i3_30days": {
       "file": "reference/benchmarks/insp3_30days.jpg",
       "use_for": "USER-SENT FORMAT ref 2026-11-18: \"30 days. Zero risk.\": warm cream studio, small red offer tag, huge black/dark-red two-line headline, italic subline, three shoes leaning on wall, 2x2 check list, black guarantee pill"
+    },
+    "cre_arrae": {
+      "file": "reference/benchmarks/cre_Arrae_other_guys.jpg",
+      "use_for": "CREATIVE INSPIRATION (Atria 2026-11-18, outside footwear, proven): Arrae (86 days, top-5 rank): vertical split of two real close-up photos, left \"the other guys\" grey label with 4 white pills with red X, right brand label with 4 pills with green checks"
+    },
+    "cre_dramy": {
+      "file": "reference/benchmarks/cre_DrAmy_two_faces.jpg",
+      "use_for": "CREATIVE INSPIRATION (Atria 2026-11-18, outside footwear, proven): Dr. Amy (39 days, most-saved): cream background, 3-line headline, small subline, two side-profile portraits facing each other labeled Unprepared/Prepared with tiny callouts, arrow between, product center bottom, underlined CTA"
+    },
+    "cre_huel": {
+      "file": "reference/benchmarks/cre_Huel_would_you_rather.jpg",
+      "use_for": "CREATIVE INSPIRATION (Atria 2026-11-18, outside footwear, proven): Huel (45 days, most-saved): pale mint background, \"Would You Rather\" headline, two products split by a thin vertical line, short caption under each (right caption bold)"
+    },
+    "cre_honeybook": {
+      "file": "reference/benchmarks/cre_HoneyBook_really.jpg",
+      "use_for": "CREATIVE INSPIRATION (Atria 2026-11-18, outside footwear, proven): HoneyBook (80 days): dark navy, small brand caps, big serif \"7 apps to book one event. Really?\", subline, cloud of colorful rounded pills along the bottom"
+    },
+    "cre_mammoth": {
+      "file": "reference/benchmarks/cre_HappyMammoth_biggest_deal.jpg",
+      "use_for": "CREATIVE INSPIRATION (Atria 2026-11-18, outside footwear, proven): Happy Mammoth (87 days): real warehouse photo, two product boxes on stacked cardboard, red alarm clock and green starburst \"last 48 hours\" sticker, huge serif \"Our biggest\" with red highlight, black ORDER NOW bar"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",

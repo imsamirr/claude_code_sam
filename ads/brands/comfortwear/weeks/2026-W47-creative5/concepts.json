@@ -1,0 +1,119 @@
+{
+  "week": "2026-W47-creative5",
+  "notes": "User 2026-11-18: 5 ads from creative, proven inspiration outside footwear. Copy by StefanBrain.",
+  "concepts": [
+    {
+      "id": "CR_01_other_guys_nurse",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "cre_arrae",
+      "format_ref": true,
+      "funnel": "offer",
+      "offer": "Black Friday: 60% OFF SITEWIDE (lead offer) + free shipping & returns + 30-day money-back guarantee",
+      "angle": "Running shoes vs Ortho Stretch for 12-hour nurse shifts",
+      "based_on": "Arrae 'the other guys vs arrae' split (86 days running, Atria top rank)",
+      "copy_slots": [
+        "left label (2-3 words naming the enemy, e.g. running shoes)",
+        "4 left pills: what goes wrong with them on a 12 (2-5 words each)",
+        "right label: Ortho Stretch",
+        "4 right pills: our benefit answers (2-5 words each)",
+        "small offer line"
+      ],
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "creative_inspo"
+      ]
+    },
+    {
+      "id": "CR_02_two_nurses_hour12",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "benchmark": "cre_dramy",
+      "format_ref": true,
+      "funnel": "tof",
+      "offer": "none",
+      "angle": "Two nurses, same 12-hour shift, very different walk to the car (wrong shoes vs Ortho Stretch)",
+      "based_on": "Dr. Amy 'Two waves. Two very different faces at 60.' Unprepared/Prepared (39 days, most-saved)",
+      "copy_slots": [
+        "3-line headline in the Dr. Amy rhythm (e.g. 'Same 12. Two very different walks to the car.')",
+        "1 short subline",
+        "2 portrait labels (1 word each, like Unprepared/Prepared)",
+        "2 tiny callouts per side (2-3 words)",
+        "underlined CTA (2-4 words)"
+      ],
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "creative_inspo"
+      ]
+    },
+    {
+      "id": "CR_03_would_you_rather_disney",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "benchmark": "cre_huel",
+      "format_ref": true,
+      "funnel": "offer",
+      "offer": "Black Friday: 60% OFF SITEWIDE (lead offer) + free shipping & returns + 30-day money-back guarantee",
+      "angle": "Disney trip: would you rather sit out day 2 with blisters/aching feet or walk every park",
+      "based_on": "Huel 'Would You Rather' split (45 days, most-saved)",
+      "copy_slots": [
+        "headline 'Would You Rather' (keep)",
+        "left caption under a pack of blister bandages + bench/ice (max 12 words)",
+        "right caption under Ortho Stretch, bold, includes the 60% Black Friday offer (max 16 words)"
+      ],
+      "copy_notes": "Left object is a box of blister bandages. No Disney trademarks in on-image text beyond the word Disney.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "creative_inspo"
+      ]
+    },
+    {
+      "id": "CR_04_really_fixes",
+      "persona": "nurse",
+      "colorway": "black_white",
+      "benchmark": "cre_honeybook",
+      "format_ref": true,
+      "funnel": "tof",
+      "offer": "none",
+      "angle": "Everything she stacks to survive a shift (insoles, compression socks, ice bottles, ibuprofen...) vs one pair of shoes",
+      "based_on": "HoneyBook '7 apps to book one event. Really?' (80 days)",
+      "copy_slots": [
+        "big headline in the pattern '<N> fixes to survive one 12. Really?'",
+        "subline (one sentence, names the simpler way)",
+        "8-10 pill words: the things she stacks (1-2 words each)"
+      ],
+      "copy_notes": "No medical claims; ibuprofen may be named only as something she tries.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "creative_inspo"
+      ]
+    },
+    {
+      "id": "CR_05_biggest_deal_bf",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+      "benchmark": "cre_mammoth",
+      "format_ref": true,
+      "funnel": "offer",
+      "offer": "Black Friday: 60% OFF SITEWIDE (lead offer) + free shipping & returns + 30-day money-back guarantee",
+      "angle": "Black Friday: our biggest comfort deal of the year",
+      "based_on": "Happy Mammoth 'Our biggest hormone balance deal!' warehouse + alarm clock (87 days)",
+      "copy_slots": [
+        "sticker text (2-4 words, urgency, must be true for Black Friday)",
+        "huge 2-line headline in the pattern 'Our biggest ___ deal!'",
+        "black bar CTA (2 words)"
+      ],
+      "copy_notes": "Only claim urgency that is true: Black Friday sale period. No 'last 48 hours' unless it is the real end.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "creative_inspo"
+      ]
+    }
+  ]
+}
