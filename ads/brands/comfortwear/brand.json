@@ -14,7 +14,7 @@
  ],
  "claims_to_avoid": [
   "free/easy returns or fast shipping (top complaints in reviews and the survey)",
-  "'orthopedic approved', 'podiatrist recommended' or any cure/treatment claim ('doctor-recommended' IS approved, user 2026-11-18)",
+  "'orthopedic approved' or any cure/treatment claim ('doctor-recommended' and 'podiatrist-recommended' ARE approved, user 2026-11-18)",
   "specific review counts or star ratings unless confirmed"
  ],
  "colorways": {
@@ -344,6 +344,6 @@
  },
  "approved_claims": [
   "30-DAY MONEY-BACK GUARANTEE (user-approved 2026-11-18, same as the statics; always 30 days, never 45)",
-  "Doctor-recommended (user-approved 2026-11-18): 'Doctor-recommended' may be used in copy and on end cards/badges. Still no 'podiatrist recommended', 'orthopedic approved', named doctors, invented doctor counts, or cure/treatment claims."
+  "Doctor-recommended (user-approved 2026-11-18): 'Doctor-recommended' may be used in copy and on end cards/badges. Podiatrist-recommended and podiatrist characters are approved too (user, 2026-11-18). Still no 'orthopedic approved', named doctors, invented doctor counts, or cure/treatment claims."
  ]
 }

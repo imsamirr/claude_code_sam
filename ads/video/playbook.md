@@ -28,7 +28,7 @@ The approved look (set A) is a **phone video that a real woman would post to her
 
 ## 2. Format library (30 formats)
 
-Each entry gives the template, real references (advertiser, Atria id, days running, length), a shot recipe and a ready Comfort Wear caption. Days running are as of 2026-11-13. All Comfort Wear lines avoid podiatrist claims ("doctor-recommended" is approved since 2026-11-18), review counts or stars, and cure or treatment language.
+Each entry gives the template, real references (advertiser, Atria id, days running, length), a shot recipe and a ready Comfort Wear caption. Days running are as of 2026-11-13. "Doctor-recommended" and "podiatrist-recommended" are approved since 2026-11-18; all Comfort Wear lines still avoid review counts or stars, and cure or treatment language.
 
 ### F1. POV: problem, then fix (two caption boxes)
 - **Template:** top box "POV: [pain in my words]. [what it cost me]." Bottom box appears on shot 2: "Then I started wearing [casual product name]. [payoff]."
@@ -287,7 +287,7 @@ UrbanStems `m1913804572673870` ("pov: she didn't expect flowers today", 15 d); p
 **Don't**
 - No price, discount, "60% off", feature list or logo card in the video body. (The end-card rule in `brand.json` needs your call; see section 1.)
 - The 30-day money-back guarantee is approved (user, 2026-11-18): say "30-day money-back guarantee", never another length. Still no free or easy returns and no fast shipping (Flo "full refund" or Dr. Woof "99-day" style lines don't carry over as-is).
-- "Doctor-recommended" is approved (user, 2026-11-18). Still no "podiatrist recommended", "orthopedic approved", "treats/fixes/cures [plantar fasciitis, neuropathy, bunions]", "pain-free" or "relief". Nurse Babes' "treat all foot conditions" is exactly what we must not say.
+- "Doctor-recommended" and "podiatrist-recommended" are approved (user, 2026-11-18). Still no "orthopedic approved", "treats/fixes/cures [plantar fasciitis, neuropathy, bunions]", "pain-free" or "relief". Nurse Babes' "treat all foot conditions" is exactly what we must not say.
 - No review counts, star ratings or "9/10" scores. Use word verdicts (F18).
 - No voiceover by default; music only.
 - Don't use trending commercial songs in paid ads, even if a competitor appears to. Match their mood with licensed tracks.
