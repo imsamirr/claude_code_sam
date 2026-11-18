@@ -1,119 +1,201 @@
 {
-  "week": "2026-W47-creative5",
-  "notes": "User 2026-11-18: 5 ads from creative, proven inspiration outside footwear. Copy by StefanBrain.",
-  "concepts": [
-    {
-      "id": "CR_01_other_guys_nurse",
-      "persona": "nurse",
-      "colorway": "black_purple",
-      "benchmark": "cre_arrae",
-      "format_ref": true,
-      "funnel": "offer",
-      "offer": "Black Friday: 60% OFF SITEWIDE (lead offer) + free shipping & returns + 30-day money-back guarantee",
-      "angle": "Running shoes vs Ortho Stretch for 12-hour nurse shifts",
-      "based_on": "Arrae 'the other guys vs arrae' split (86 days running, Atria top rank)",
-      "copy_slots": [
-        "left label (2-3 words naming the enemy, e.g. running shoes)",
-        "4 left pills: what goes wrong with them on a 12 (2-5 words each)",
-        "right label: Ortho Stretch",
-        "4 right pills: our benefit answers (2-5 words each)",
-        "small offer line"
-      ],
-      "group": "net_new",
-      "lang": "en",
-      "tags": [
-        "creative_inspo"
-      ]
-    },
-    {
-      "id": "CR_02_two_nurses_hour12",
-      "persona": "nurse",
-      "colorway": "navy_blue",
-      "benchmark": "cre_dramy",
-      "format_ref": true,
-      "funnel": "tof",
-      "offer": "none",
-      "angle": "Two nurses, same 12-hour shift, very different walk to the car (wrong shoes vs Ortho Stretch)",
-      "based_on": "Dr. Amy 'Two waves. Two very different faces at 60.' Unprepared/Prepared (39 days, most-saved)",
-      "copy_slots": [
-        "3-line headline in the Dr. Amy rhythm (e.g. 'Same 12. Two very different walks to the car.')",
-        "1 short subline",
-        "2 portrait labels (1 word each, like Unprepared/Prepared)",
-        "2 tiny callouts per side (2-3 words)",
-        "underlined CTA (2-4 words)"
-      ],
-      "group": "net_new",
-      "lang": "en",
-      "tags": [
-        "creative_inspo"
-      ]
-    },
-    {
-      "id": "CR_03_would_you_rather_disney",
-      "persona": "traveler",
-      "colorway": "red_burgundy",
-      "benchmark": "cre_huel",
-      "format_ref": true,
-      "funnel": "offer",
-      "offer": "Black Friday: 60% OFF SITEWIDE (lead offer) + free shipping & returns + 30-day money-back guarantee",
-      "angle": "Disney trip: would you rather sit out day 2 with blisters/aching feet or walk every park",
-      "based_on": "Huel 'Would You Rather' split (45 days, most-saved)",
-      "copy_slots": [
-        "headline 'Would You Rather' (keep)",
-        "left caption under a pack of blister bandages + bench/ice (max 12 words)",
-        "right caption under Ortho Stretch, bold, includes the 60% Black Friday offer (max 16 words)"
-      ],
-      "copy_notes": "Left object is a box of blister bandages. No Disney trademarks in on-image text beyond the word Disney.",
-      "group": "net_new",
-      "lang": "en",
-      "tags": [
-        "creative_inspo"
-      ]
-    },
-    {
-      "id": "CR_04_really_fixes",
-      "persona": "nurse",
-      "colorway": "black_white",
-      "benchmark": "cre_honeybook",
-      "format_ref": true,
-      "funnel": "tof",
-      "offer": "none",
-      "angle": "Everything she stacks to survive a shift (insoles, compression socks, ice bottles, ibuprofen...) vs one pair of shoes",
-      "based_on": "HoneyBook '7 apps to book one event. Really?' (80 days)",
-      "copy_slots": [
-        "big headline in the pattern '<N> fixes to survive one 12. Really?'",
-        "subline (one sentence, names the simpler way)",
-        "8-10 pill words: the things she stacks (1-2 words each)"
-      ],
-      "copy_notes": "No medical claims; ibuprofen may be named only as something she tries.",
-      "group": "net_new",
-      "lang": "en",
-      "tags": [
-        "creative_inspo"
-      ]
-    },
-    {
-      "id": "CR_05_biggest_deal_bf",
-      "persona": "comfort_only",
-      "colorway": "black_purple",
-      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
-      "benchmark": "cre_mammoth",
-      "format_ref": true,
-      "funnel": "offer",
-      "offer": "Black Friday: 60% OFF SITEWIDE (lead offer) + free shipping & returns + 30-day money-back guarantee",
-      "angle": "Black Friday: our biggest comfort deal of the year",
-      "based_on": "Happy Mammoth 'Our biggest hormone balance deal!' warehouse + alarm clock (87 days)",
-      "copy_slots": [
-        "sticker text (2-4 words, urgency, must be true for Black Friday)",
-        "huge 2-line headline in the pattern 'Our biggest ___ deal!'",
-        "black bar CTA (2 words)"
-      ],
-      "copy_notes": "Only claim urgency that is true: Black Friday sale period. No 'last 48 hours' unless it is the real end.",
-      "group": "net_new",
-      "lang": "en",
-      "tags": [
-        "creative_inspo"
-      ]
-    }
-  ]
+ "week": "2026-W47-creative5",
+ "notes": "User 2026-11-18: 5 ads from creative, proven inspiration outside footwear. Copy by StefanBrain.",
+ "concepts": [
+  {
+   "id": "CR_01_other_guys_nurse",
+   "persona": "nurse",
+   "colorway": "black_purple",
+   "benchmark": "cre_arrae",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "Black Friday: 60% OFF SITEWIDE (lead offer) + free shipping & returns + 30-day money-back guarantee",
+   "angle": "Running shoes vs Ortho Stretch for 12-hour nurse shifts",
+   "based_on": "Arrae 'the other guys vs arrae' split (86 days running, Atria top rank)",
+   "copy_slots": [
+    "left label (2-3 words naming the enemy, e.g. running shoes)",
+    "4 left pills: what goes wrong with them on a 12 (2-5 words each)",
+    "right label: Ortho Stretch",
+    "4 right pills: our benefit answers (2-5 words each)",
+    "small offer line"
+   ],
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "creative_inspo"
+   ],
+   "headline": "The Other Guys vs. Ortho Stretch",
+   "on_image_text": [
+    "Standard Running Shoes",
+    "Pinched toe box",
+    "Zero arch support",
+    "Hard heel strikes",
+    "Laces dig in",
+    "Ortho Stretch",
+    "Wide toe box",
+    "Anatomical arch support",
+    "Cushioned heel pillow",
+    "Elastic no-tie laces",
+    "Black Friday: 60% OFF Sitewide"
+   ],
+   "primary_text": "Running shoes are built for a 45-minute jog. They were never designed for a 12-hour shift on hospital concrete. By hour six, that narrow toe box is squeezing your bunions. By hour nine, the thin foam has completely flattened under your heels. And by 7 PM, your feet are throbbing so hard you can barely walk to your car. That is why so many nurses switched to the Ortho Stretch Cushion Shoe. Instead of pinching your forefoot, the wide toe box lets your toes spread out naturally. Instead of flimsy foam, you get built-in anatomical arch support and a cushioned heel designed for long hours on hard floors. The stretch-knit upper breathes and expands when your feet swell in the afternoon. And the elastic no-tie laces mean you never have to bend down to re-tie them with dirty gloves. Right now for Black Friday, take 60% OFF SITEWIDE with free shipping & returns. Wear them on your next shift with our 30-day wear test trial. If your feet do not feel the difference, return them within 30 days for a full refund.",
+   "fb_headline": "Nurse Shift Shoes: 60% OFF Sitewide",
+   "fb_description": "Free Shipping & Returns",
+   "copy_angle": "Running shoes vs. Ortho Stretch for 12-hour nurse shifts",
+   "copy_why": "Transplants the high-performing Arrae other-guys-vs split comparison to nurse footwear, contrasting runner-shoe foam collapse and narrow toe squeeze against all-shift arch support and a wide toe box.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_67a7e39e8ee04d859bea6373181f9553"
+  },
+  {
+   "id": "CR_02_two_nurses_hour12",
+   "persona": "nurse",
+   "colorway": "navy_blue",
+   "benchmark": "cre_dramy",
+   "format_ref": true,
+   "funnel": "tof",
+   "offer": "none",
+   "angle": "Two nurses, same 12-hour shift, very different walk to the car (wrong shoes vs Ortho Stretch)",
+   "based_on": "Dr. Amy 'Two waves. Two very different faces at 60.' Unprepared/Prepared (39 days, most-saved)",
+   "copy_slots": [
+    "3-line headline in the Dr. Amy rhythm (e.g. 'Same 12. Two very different walks to the car.')",
+    "1 short subline",
+    "2 portrait labels (1 word each, like Unprepared/Prepared)",
+    "2 tiny callouts per side (2-3 words)",
+    "underlined CTA (2-4 words)"
+   ],
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "creative_inspo"
+   ],
+   "headline": "Same 12-hour shift. Two very different walks to the car.",
+   "on_image_text": [
+    "The difference is what is under their feet.",
+    "Unprepared",
+    "Throbbing heel pain",
+    "Limping to car",
+    "Prepared",
+    "All-day arch support",
+    "Cushioned heel stride",
+    "See The Difference"
+   ],
+   "primary_text": "At 7:05 PM, two nurses clock out on the fourth floor. They walked the exact same 14,000 steps on hard concrete tile. They answered the same call lights, stood through the same rounds, and pushed the same heavy carts. Watch them head across the parking lot. The first nurse is leaning against her steering wheel. Her heels are burning. Her toes feel crushed inside standard athletic sneakers that lost their cushion by noon. She has to peel her shoes off before she can even start the engine. The second nurse walks straight to her car without limping. She is wearing the Ortho Stretch Cushion Shoe. The anatomical arch support kept her arches from collapsing under her body weight. The cushioned heel absorbed every hard strike on rock-hard hospital linoleum. And the wide toe box gave her toes room to spread without rubbing against stiff seams. Both worked the same grueling shift. Only one gets to go home without throbbing feet. Doctor-recommended for women on their feet all day. Try a pair for 30 days and feel the difference on your next shift.",
+   "fb_headline": "Same 12 Hours. A Different Walk Home.",
+   "fb_description": "Doctor-Recommended Comfort",
+   "copy_angle": "Two nurses, same 12-hour shift: unprepared vs. prepared walk to the car",
+   "copy_why": "Transplants Dr. Amy proven visual contrast rhythm to nurse shift fatigue, highlighting foot pain as the invisible burden resolved by proper footwear.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_67a7e39e8ee04d859bea6373181f9553"
+  },
+  {
+   "id": "CR_03_would_you_rather_disney",
+   "persona": "traveler",
+   "colorway": "red_burgundy",
+   "benchmark": "cre_huel",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "Black Friday: 60% OFF SITEWIDE (lead offer) + free shipping & returns + 30-day money-back guarantee",
+   "angle": "Disney trip: would you rather sit out day 2 with blisters/aching feet or walk every park",
+   "based_on": "Huel 'Would You Rather' split (45 days, most-saved)",
+   "copy_slots": [
+    "headline 'Would You Rather' (keep)",
+    "left caption under a pack of blister bandages + bench/ice (max 12 words)",
+    "right caption under Ortho Stretch, bold, includes the 60% Black Friday offer (max 16 words)"
+   ],
+   "copy_notes": "Left object is a box of blister bandages. No Disney trademarks in on-image text beyond the word Disney.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "creative_inspo"
+   ],
+   "headline": "Would You Rather",
+   "on_image_text": [
+    "Sit on a Disney bench nursing painful blisters by day two",
+    "Walk 20,000 steps in cushioned Ortho Stretch: 60% OFF sitewide this Black Friday"
+   ],
+   "primary_text": "You planned this Disney trip for months. You booked the flights. You got the park hopper passes. And by 2 PM on day two, you are sitting on a concrete bench near the castle while your family goes on Space Mountain without you. Your heels feel like you are walking on glass. Your bunions are pressed tight against stiff sneakers. And you are wondering how you are going to survive three more days of 20,000 steps. The Ortho Stretch Cushion Shoe was built so you never have to sit out family memories. The roomy wide toe box lets your toes spread out naturally without rubbing or blistering. The built-in anatomical arch support keeps your feet from flattening on hard asphalt. The thick cushioned heel absorbs every step from rope drop to fireworks. And the breathable stretch-knit upper expands when your feet swell in the Florida heat. Our Black Friday Sale is live right now: take 60% OFF SITEWIDE with free shipping & returns. Test them on your upcoming trip with our 30-day wear test trial. If they do not give you all-day comfort, return them within 30 days for a full refund.",
+   "fb_headline": "Disney Vacations: 60% OFF Ortho Stretch",
+   "fb_description": "Free Shipping & Returns",
+   "copy_angle": "Disney trip would-you-rather: sitting out with blisters vs. walking every park in cushioned comfort",
+   "copy_why": "Adapts Huel high-converting Would You Rather split benchmark to the Disney traveler persona, confronting the painful tradeoff between ruined vacation time and all-day walking comfort.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_67a7e39e8ee04d859bea6373181f9553"
+  },
+  {
+   "id": "CR_04_really_fixes",
+   "persona": "nurse",
+   "colorway": "black_white",
+   "benchmark": "cre_honeybook",
+   "format_ref": true,
+   "funnel": "tof",
+   "offer": "none",
+   "angle": "Everything she stacks to survive a shift (insoles, compression socks, ice bottles, ibuprofen...) vs one pair of shoes",
+   "based_on": "HoneyBook '7 apps to book one event. Really?' (80 days)",
+   "copy_slots": [
+    "big headline in the pattern '<N> fixes to survive one 12. Really?'",
+    "subline (one sentence, names the simpler way)",
+    "8-10 pill words: the things she stacks (1-2 words each)"
+   ],
+   "copy_notes": "No medical claims; ibuprofen may be named only as something she tries.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "creative_inspo"
+   ],
+   "headline": "8 fixes to survive one 12. Really?",
+   "on_image_text": [
+    "Or just one pair of shoes built for 12 hours on hard floors.",
+    "Gel insoles",
+    "Compression socks",
+    "Ice bottle",
+    "Ibuprofen",
+    "Blister tape",
+    "Arch wraps",
+    "Foot roller",
+    "Epsom salts"
+   ],
+   "primary_text": "Look inside the tote bag of any nurse working a 12-hour shift. You will find thick gel insoles stuffed into running shoes. Graduated compression socks pulled up tight. A frozen water bottle waiting in the breakroom freezer. A blister kit, arch wrap tape, and two ibuprofen tucked into a scrub pocket just in case. You are stacking six different bandaids because your sneakers were never built for hospital floors. Standard running shoes are designed for light jogging on a track. They taper in at the toes, cramp your bunions, and lose their cushioning three hours into your shift. The Ortho Stretch Cushion Shoe replaces that entire survival kit with one pair of shoes. The wide toe box gives your toes room to spread without chafing or blistering. The anatomical arch support stops your arches from flattening under your body weight. And the thick cushioned heel absorbs every hard step on unforgiving linoleum. Podiatrist-recommended for women who spend all day on their feet. Put them on for your next shift with our 30-day wear test trial. See how many fixes you can leave at home.",
+   "fb_headline": "8 Fixes To Survive A 12-Hour Shift?",
+   "fb_description": "Doctor-Recommended Design",
+   "copy_angle": "Stacking 8 survival fixes vs. one proper shoe for 12-hour shifts",
+   "copy_why": "Transplants HoneyBook proven multi-tool frustration pattern to the nurse routine of piling on insoles, compression socks, and ice just to endure a single shift.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_67a7e39e8ee04d859bea6373181f9553"
+  },
+  {
+   "id": "CR_05_biggest_deal_bf",
+   "persona": "comfort_only",
+   "colorway": "black_purple",
+   "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+   "benchmark": "cre_mammoth",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "Black Friday: 60% OFF SITEWIDE (lead offer) + free shipping & returns + 30-day money-back guarantee",
+   "angle": "Black Friday: our biggest comfort deal of the year",
+   "based_on": "Happy Mammoth 'Our biggest hormone balance deal!' warehouse + alarm clock (87 days)",
+   "copy_slots": [
+    "sticker text (2-4 words, urgency, must be true for Black Friday)",
+    "huge 2-line headline in the pattern 'Our biggest ___ deal!'",
+    "black bar CTA (2 words)"
+   ],
+   "copy_notes": "Only claim urgency that is true: Black Friday sale period. No 'last 48 hours' unless it is the real end.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "creative_inspo"
+   ],
+   "headline": "Our biggest comfort deal!",
+   "on_image_text": [
+    "Black Friday Sitewide",
+    "Shop Now"
+   ],
+   "primary_text": "If you have been waiting all year to try the Ortho Stretch Cushion Shoe, this is the moment. Our Black Friday Sitewide Sale is officially open. For a limited time, every pair is 60% OFF with free shipping & returns. Why thousands of women 50+ are picking up two and three pairs: Wide toe box that stops squeezing your toes and bunions. Podiatrist-recommended arch support that cradles your feet all day. Cushioned heel pillow that absorbs shock on hardwood and tile. Breathable stretch-knit upper with elastic no-tie laces that slip on in seconds. Whether you are walking around the block, running errands, or on your feet cooking and cleaning at home, your feet deserve real comfort. Regularly $120. Right now during Black Friday, get yours for $59.95. Try them risk-free with our 30-day wear test trial. Wear them everywhere. If your feet do not feel immediate comfort, return them within 30 days for a full refund.",
+   "fb_headline": "Our Biggest Comfort Deal: 60% OFF",
+   "fb_description": "Free Shipping & Returns",
+   "copy_angle": "Black Friday warehouse event: our biggest comfort deal of the year",
+   "copy_why": "Transplants Happy Mammoth proven high-urgency hero deal framework to the comfort-only buyer, pairing maximum seasonal savings with verified product benefits.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_67a7e39e8ee04d859bea6373181f9553"
+  }
+ ]
 }
