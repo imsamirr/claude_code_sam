@@ -1,0 +1,162 @@
+{
+  "week": "2026-W48-bf-unique",
+  "notes": "10 unique Black Friday concepts (user 2026-10-30). One lead offer per ad: 60% OFF SITEWIDE (6) or BUY 2 PAIRS, GET 2 FREE GIFTS (4). Formats not used in earlier B48/L48/O48/P48/Q48/R48 batches.",
+  "concepts": [
+    {
+      "id": "BF_01_receipt_nurse",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "headline": "BLACK FRIDAY RECEIPT",
+      "prompt": "BLACK FRIDAY BRAND THEME (user 2026-10-31): the ad's color theme is WHITE and RED with a little GOLD. Use white or very light backgrounds, bold red (#D7141A style) for the main offer bands, pills, tags and key words, white text on red, black only for body text, and small gold accents (a few gold confetti pieces, a thin gold ribbon or gold star details). No dark backgrounds (the only black allowed is the two thin bars of the offer banner), no other accent colors (no purple or blue text or bands). Light warm grey background. A long white thermal store receipt photographed slightly angled on the background, monospace black receipt type, clearly readable lines: header \"COMFORTWEAR\" then \"BLACK FRIDAY RECEIPT\", a dashed line, then line items: \"12-HOUR SHIFT ........ 1\", \"LIMPING TO MY CAR ..... 0\", \"STABBING HEEL PAIN .... 0\", \"ORTHO STRETCH ......... 1\". To the right of the receipt, the black shoe with purple accents from the product reference standing on the background, side view. Top of the image in heavy black text: \"Best thing I bought all year.\" Bottom ~28% of the image: the BLACK FRIDAY THEME BANNER copied exactly from the brand theme: a wide bold red rectangle with huge heavy white condensed text \"60% OFF SITEWIDE\"; directly under it two rows, each a small red square with a white plus sign \"+\" on the left followed by a black bar with heavy white condensed text: row 1 \"FREE SHIPPING & RETURNS\", row 2 \"30-DAY MONEY-BACK GUARANTEE\". The banner is left-aligned with 7% side margins. A few small gold confetti pieces around it. Keep everything above the banner, never overlapping it. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background behind the shoes so they stand out; shoes are shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, and never overlapping text. Spell every word exactly as written. No prices, no other text anywhere.",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "black_friday"
+      ],
+      "angle": "Receipt format, nurse PF",
+      "based_on": "New format (receipt); nurse vocabulary from copy playbook ('limping to my car', 'stabbing heel pain')"
+    },
+    {
+      "id": "BF_02_red_price_tag",
+      "persona": "comfort_only",
+      "colorway": "navy_blue",
+      "headline": "60% OFF SITEWIDE",
+      "prompt": "BLACK FRIDAY BRAND THEME (user 2026-10-31): the ad's color theme is WHITE and RED with a little GOLD. Use white or very light backgrounds, bold red (#D7141A style) for the main offer bands, pills, tags and key words, white text on red, black only for body text, and small gold accents (a few gold confetti pieces, a thin gold ribbon or gold star details). No dark backgrounds (the only black allowed is the two thin bars of the offer banner), no other accent colors (no purple or blue text or bands). Clean light grey studio background. The navy shoe with bright blue accents from the product reference, three-quarter side view, centered, with a large red paper price tag tied to its laces by a white string; the tag reads in heavy white text \"60% OFF\". Above, heavy condensed text \"BLACK\" in black and \"FRIDAY\" in red on one line.  Bottom ~28% of the image: the BLACK FRIDAY THEME BANNER copied exactly from the brand theme: a wide bold red rectangle with huge heavy white condensed text \"60% OFF SITEWIDE\"; directly under it two rows, each a small red square with a white plus sign \"+\" on the left followed by a black bar with heavy white condensed text: row 1 \"FREE SHIPPING & RETURNS\", row 2 \"30-DAY MONEY-BACK GUARANTEE\". The banner is left-aligned with 7% side margins. A few small gold confetti pieces around it. Keep everything above the banner, never overlapping it. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background behind the shoes so they stand out; shoes are shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, and never overlapping text. Spell every word exactly as written. No prices, no other text anywhere.",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "black_friday"
+      ],
+      "angle": "Iconic BF price tag",
+      "based_on": "New format (product + hanging sale tag); not used in B48/L48/O48/P48/Q48/R48"
+    },
+    {
+      "id": "BF_03_pf_face_split",
+      "persona": "comfort_only",
+      "colorway": "black_white",
+      "headline": "PLANTAR FASCIITIS? THIS IS YOUR SIGN.",
+      "prompt": "BLACK FRIDAY BRAND THEME (user 2026-10-31): the ad's color theme is WHITE and RED with a little GOLD. Use white or very light backgrounds, bold red (#D7141A style) for the main offer bands, pills, tags and key words, white text on red, black only for body text, and small gold accents (a few gold confetti pieces, a thin gold ribbon or gold star details). No dark backgrounds (the only black allowed is the two thin bars of the offer banner), no other accent colors (no purple or blue text or bands). White background. Top: huge heavy red condensed headline \"PLANTAR FASCIITIS?\" and under it heavy black \"THIS IS YOUR SIGN.\" Below: the same woman about 55 shown twice side by side, waist up, in a bright kitchen. Left: wincing, hand on her heel, a white pill label with red text above her \"EVERY MORNING\". Right: relaxed and smiling, a bold red pill label above her \"IN ORTHO STRETCH\" and a round inset at the bottom showing the black shoe with white sole and white accents from the product reference. Bottom ~28% of the image: the BLACK FRIDAY THEME BANNER copied exactly from the brand theme: first a line of heavy condensed text \"BLACK\" in black and \"FRIDAY\" in red, then a wide bold red rectangle with huge heavy white condensed text \"60% OFF SITEWIDE\"; directly under it two rows, each a small red square with a white plus sign \"+\" on the left followed by a black bar with heavy white condensed text: row 1 \"FREE SHIPPING & RETURNS\", row 2 \"30-DAY MONEY-BACK GUARANTEE\". The banner is left-aligned with 7% side margins. A few small gold confetti pieces around it. Keep everything above the banner, never overlapping it. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background behind the shoes so they stand out; shoes are shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, and never overlapping text. Spell every word exactly as written. No prices, no other text anywhere.",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "black_friday"
+      ],
+      "angle": "PF face split + BF",
+      "based_on": "Stepprs PF face split (active); feedback sheet PF 27%"
+    },
+    {
+      "id": "BF_04_unboxing_gifts",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "headline": "BUY 2 PAIRS, GET 2 FREE GIFTS",
+      "prompt": "BLACK FRIDAY BRAND THEME (user 2026-10-31): the ad's color theme is WHITE and RED with a little GOLD. Use white or very light backgrounds, bold red (#D7141A style) for the main offer bands, pills, tags and key words, white text on red, black only for body text, and small gold accents (a few gold confetti pieces, a thin gold ribbon or gold star details). No dark backgrounds (the only black allowed is the two thin bars of the offer banner), no other accent colors (no purple or blue text or bands). Top-down flat lay on a soft cream background: an open shoe box holding the black shoes with purple accents, next to a second pair, the navy shoes with bright blue accents (both pairs from the product reference, exact model), a neat folded 3-pack of plain cushioned grey socks, and a plain navy zip travel bag. Thin black arrows with bold labels: \"PAIR 1\", \"PAIR 2\", \"FREE 3-PACK CUSHIONED SOCKS\", \"FREE TRAVEL BAG\". Top: heavy condensed text \"BLACK\" in black and \"FRIDAY\" in red on one line. Bottom ~28% of the image: the BLACK FRIDAY THEME BANNER copied exactly from the brand theme: a wide bold red rectangle with huge heavy white condensed text \"BUY 2 PAIRS, GET 2 FREE GIFTS\"; directly under it two rows, each a small red square with a white plus sign \"+\" on the left followed by a black bar with heavy white condensed text: row 1 \"FREE SHIPPING & RETURNS\", row 2 \"30-DAY MONEY-BACK GUARANTEE\". The banner is left-aligned with 7% side margins. A few small gold confetti pieces around it. Keep everything above the banner, never overlapping it. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background behind the shoes so they stand out; shoes are shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, and never overlapping text. Spell every word exactly as written. No prices, no other text anywhere.",
+      "offer": "B_gifts",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "black_friday"
+      ],
+      "angle": "Unboxing flat lay of the bundle",
+      "based_on": "New format (labeled flat lay); offer B per program.black_friday_week_2026_11_09",
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png"
+    },
+    {
+      "id": "BF_05_work_pair_weekend_pair",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "headline": "One pair for my 12s. One for my days off.",
+      "prompt": "BLACK FRIDAY BRAND THEME (user 2026-10-31): the ad's color theme is WHITE and RED with a little GOLD. Use white or very light backgrounds, bold red (#D7141A style) for the main offer bands, pills, tags and key words, white text on red, black only for body text, and small gold accents (a few gold confetti pieces, a thin gold ribbon or gold star details). No dark backgrounds (the only black allowed is the two thin bars of the offer banner), no other accent colors (no purple or blue text or bands). Split photo, two equal halves with a thin white divider. Left half: a nurse's lower legs in navy scrubs on a bright hospital floor wearing the black shoes with purple accents from the product reference; white pill label \"FOR MY 12s\". Right half: the same woman's lower legs in light jeans on a sunny park path wearing the navy shoes with bright blue accents from the product reference; white pill label \"FOR MY DAYS OFF\". Top white band, heavy black text on two lines \"One pair for my 12s.\" / \"One for my days off.\" Bottom ~28% of the image: the BLACK FRIDAY THEME BANNER copied exactly from the brand theme: first a line of heavy condensed text \"BLACK\" in black and \"FRIDAY\" in red, then a wide bold red rectangle with huge heavy white condensed text \"BUY 2 PAIRS, GET 2 FREE GIFTS\"; directly under it two rows, each a small red square with a white plus sign \"+\" on the left followed by a black bar with heavy white condensed text: row 1 \"FREE SHIPPING & RETURNS\", row 2 \"30-DAY MONEY-BACK GUARANTEE\". The banner is left-aligned with 7% side margins. A few small gold confetti pieces around it. Keep everything above the banner, never overlapping it. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background behind the shoes so they stand out; shoes are shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, and never overlapping text. Spell every word exactly as written. No prices, no other text anywhere.",
+      "offer": "B_gifts",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "black_friday"
+      ],
+      "angle": "Why buy 2: work + weekend",
+      "based_on": "Copy playbook nurse vocabulary; buy-2 offer needs a reason to buy two",
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png"
+    },
+    {
+      "id": "BF_06_hey_ladies_over_60_bf",
+      "persona": "active_retiree",
+      "colorway": "navy_blue",
+      "headline": "Hey Ladies Over 60! Black Friday is here.",
+      "prompt": "BLACK FRIDAY BRAND THEME (user 2026-10-31): the ad's color theme is WHITE and RED with a little GOLD. Use white or very light backgrounds, bold red (#D7141A style) for the main offer bands, pills, tags and key words, white text on red, black only for body text, and small gold accents (a few gold confetti pieces, a thin gold ribbon or gold star details). No dark backgrounds (the only black allowed is the two thin bars of the offer banner), no other accent colors (no purple or blue text or bands). Clean off-white background. Top-left heavy dark navy text on three lines \"Hey Ladies\" / \"Over 60!\" / \"Black Friday is here.\" Right half: a close crop of an older woman's legs in light khaki slacks walking on a sidewalk wearing the navy shoes with bright blue accents from the product reference. Left column: three thin grey leader lines pointing at the shoe with two-line dark labels: \"Slip On,\" / \"No Bending\"; \"Wide\" / \"Toe Box\"; \"Cushioned\" / \"Rocker Sole\". Bottom ~28% of the image: the BLACK FRIDAY THEME BANNER copied exactly from the brand theme: a wide bold red rectangle with huge heavy white condensed text \"60% OFF SITEWIDE\"; directly under it two rows, each a small red square with a white plus sign \"+\" on the left followed by a black bar with heavy white condensed text: row 1 \"FREE SHIPPING & RETURNS\", row 2 \"30-DAY MONEY-BACK GUARANTEE\". The banner is left-aligned with 7% side margins. A few small gold confetti pieces around it. Keep everything above the banner, never overlapping it. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background behind the shoes so they stand out; shoes are shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, and never overlapping text. Spell every word exactly as written. No prices, no other text anywhere.",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "black_friday"
+      ],
+      "angle": "Age call-out BF",
+      "based_on": "Armadilo 'Hey Walkers Over 60!' gap format (angle_gaps.md)",
+      "benchmark": "g_over60_callouts",
+      "format_ref": true
+    },
+    {
+      "id": "BF_07_nurse_group_text",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "headline": "Nurse group chat Black Friday",
+      "prompt": "BLACK FRIDAY BRAND THEME (user 2026-10-31): the ad's color theme is WHITE and RED with a little GOLD. Use white or very light backgrounds, bold red (#D7141A style) for the main offer bands, pills, tags and key words, white text on red, black only for body text, and small gold accents (a few gold confetti pieces, a thin gold ribbon or gold star details). No dark backgrounds (the only black allowed is the two thin bars of the offer banner), no other accent colors (no purple or blue text or bands). A realistic iPhone screenshot of a group text chat named \"3 West Nurses\" on a white background, large readable chat bubbles: grey bubble from Jess: \"Girl. The shoes you wear for 12s are 60% off\"; blue bubble: \"The ones that stopped me limping to my car??\"; grey bubble from Jess: \"YES. Black Friday. Sitewide.\"; then a grey bubble with a photo of the black shoe with purple accents from the product reference on a hospital floor; blue bubble: \"Ordering 2 rn\". Above the phone screen on a white band, heavy black text \"Your coworker's Black Friday text:\". Bottom ~28% of the image: the BLACK FRIDAY THEME BANNER copied exactly from the brand theme: first a line of heavy condensed text \"BLACK\" in black and \"FRIDAY\" in red, then a wide bold red rectangle with huge heavy white condensed text \"60% OFF SITEWIDE\"; directly under it two rows, each a small red square with a white plus sign \"+\" on the left followed by a black bar with heavy white condensed text: row 1 \"FREE SHIPPING & RETURNS\", row 2 \"30-DAY MONEY-BACK GUARANTEE\". The banner is left-aligned with 7% side margins. A few small gold confetti pieces around it. Keep everything above the banner, never overlapping it. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background behind the shoes so they stand out; shoes are shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, and never overlapping text. Spell every word exactly as written. No prices, no other text anywhere.",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "black_friday"
+      ],
+      "angle": "Native nurse group chat",
+      "based_on": "New native format (iMessage group chat); playbook peer proof 'three nurses on my floor'",
+      "style": "ugc"
+    },
+    {
+      "id": "BF_08_christmas_list_mom",
+      "persona": "active_retiree",
+      "colorway": "red_burgundy",
+      "headline": "Mom's Christmas list",
+      "prompt": "BLACK FRIDAY BRAND THEME (user 2026-10-31): the ad's color theme is WHITE and RED with a little GOLD. Use white or very light backgrounds, bold red (#D7141A style) for the main offer bands, pills, tags and key words, white text on red, black only for body text, and small gold accents (a few gold confetti pieces, a thin gold ribbon or gold star details). No dark backgrounds (the only black allowed is the two thin bars of the offer banner), no other accent colors (no purple or blue text or bands). A real phone photo of a handwritten Christmas wish list on lined notepad paper on a wooden kitchen table with a small pine sprig and a red ribbon; neat blue-ink handwriting, title \"Mom's Christmas list\", items: \"1. Shoes that don't hurt my feet\" with a red heart drawn next to it, \"2. A trip to see the grandkids\", \"3. Nothing else, really\". Beside the notepad, the red/burgundy shoes from the product reference with a red bow on top. Top of the image, a white band with heavy black text \"Black Friday: one for her, one for you.\" Bottom ~28% of the image: the BLACK FRIDAY THEME BANNER copied exactly from the brand theme: a wide bold red rectangle with huge heavy white condensed text \"BUY 2 PAIRS, GET 2 FREE GIFTS\"; directly under it two rows, each a small red square with a white plus sign \"+\" on the left followed by a black bar with heavy white condensed text: row 1 \"FREE SHIPPING & RETURNS\", row 2 \"30-DAY MONEY-BACK GUARANTEE\". The banner is left-aligned with 7% side margins. A few small gold confetti pieces around it. Keep everything above the banner, never overlapping it. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background behind the shoes so they stand out; shoes are shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, and never overlapping text. Spell every word exactly as written. No prices, no other text anywhere.",
+      "offer": "B_gifts",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "black_friday"
+      ],
+      "angle": "Gifting for mom (buy 2: one for her)",
+      "based_on": "Persona gift_for_her; feedback 'comfort' 68.7% of what buyers look for; new handwritten list format",
+      "style": "ugc"
+    },
+    {
+      "id": "BF_09_disney_bag_packed",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "headline": "Going to Disney? Black Friday packed your bag.",
+      "prompt": "BLACK FRIDAY BRAND THEME (user 2026-10-31): the ad's color theme is WHITE and RED with a little GOLD. Use white or very light backgrounds, bold red (#D7141A style) for the main offer bands, pills, tags and key words, white text on red, black only for body text, and small gold accents (a few gold confetti pieces, a thin gold ribbon or gold star details). No dark backgrounds (the only black allowed is the two thin bars of the offer banner), no other accent colors (no purple or blue text or bands). Top-down photo of an open carry-on suitcase on a hotel bed, neatly packed with clothes, a mouse-ear-free plain park map, sunscreen, and on top the navy shoes with bright blue accents from the product reference, the free plain navy zip travel bag, and a folded 3-pack of grey cushioned socks. No theme-park logos or characters. Top band: heavy black text on two lines \"Going to Disney?\" / \"Black Friday packed your bag.\" Bottom ~28% of the image: the BLACK FRIDAY THEME BANNER copied exactly from the brand theme: a wide bold red rectangle with huge heavy white condensed text \"BUY 2 PAIRS, GET 2 FREE GIFTS\"; directly under it two rows, each a small red square with a white plus sign \"+\" on the left followed by a black bar with heavy white condensed text: row 1 \"FREE SHIPPING & RETURNS\", row 2 \"30-DAY MONEY-BACK GUARANTEE\". The banner is left-aligned with 7% side margins. A few small gold confetti pieces around it. Keep everything above the banner, never overlapping it. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background behind the shoes so they stand out; shoes are shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, and never overlapping text. Spell every word exactly as written. No prices, no other text anywhere.",
+      "offer": "B_gifts",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "black_friday"
+      ],
+      "angle": "Travel bundle (gifts = travel bag)",
+      "based_on": "Travel/Disney angle (TOFV1_KW1 5.65 ROAS); the travel-bag gift fits travelers"
+    },
+    {
+      "id": "BF_10_plus_size_bf",
+      "persona": "plus_size",
+      "colorway": "black_purple",
+      "headline": "Made for plus-size feet. Now 60% off.",
+      "prompt": "BLACK FRIDAY BRAND THEME (user 2026-10-31): the ad's color theme is WHITE and RED with a little GOLD. Use white or very light backgrounds, bold red (#D7141A style) for the main offer bands, pills, tags and key words, white text on red, black only for body text, and small gold accents (a few gold confetti pieces, a thin gold ribbon or gold star details). No dark backgrounds (the only black allowed is the two thin bars of the offer banner), no other accent colors (no purple or blue text or bands). Bright living room with soft daylight. A smiling plus-size woman about 55 with a full, curvy body (clearly US size 22-24, full arms, full thighs and wide hips) sits on a light sofa in leggings and a soft cardigan, her feet on a rug wearing the black shoes with purple accents from the product reference, sharp, true proportions, feet clearly visible in the lower third. Top-left on a white rounded panel heavy black text on two lines \"Made for plus-size feet.\" / \"Now 60% off.\" Bottom ~28% of the image: the BLACK FRIDAY THEME BANNER copied exactly from the brand theme: first a line of heavy condensed text \"BLACK\" in black and \"FRIDAY\" in red, then a wide bold red rectangle with huge heavy white condensed text \"60% OFF SITEWIDE\"; directly under it two rows, each a small red square with a white plus sign \"+\" on the left followed by a black bar with heavy white condensed text: row 1 \"FREE SHIPPING & RETURNS\", row 2 \"30-DAY MONEY-BACK GUARANTEE\". The banner is left-aligned with 7% side margins. A few small gold confetti pieces around it. Keep everything above the banner, never overlapping it. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or mid-tone background behind the shoes so they stand out; shoes are shown at true proportions exactly like the product reference (slim sock-knit upper, bungee laces, rocker sole), never bloated, squashed or stretched, and never overlapping text. Spell every word exactly as written. No prices, no other text anywhere.",
+      "offer": "A_sitewide",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "black_friday"
+      ],
+      "angle": "Plus-size BF",
+      "based_on": "Plus-size persona (Hike plus-size angle; Q48_05 heavier woman winner style)"
+    }
+  ]
+}

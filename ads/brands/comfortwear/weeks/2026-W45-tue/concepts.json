@@ -1,0 +1,388 @@
+{
+ "week": "2026-W45-tue",
+ "notes": "Tuesday iteration batch 2026-11-03, English only, 20 concepts, 4:5 feed, Kie.ai gpt-image-2 2K via --provider auto. Sources: Atria current (14 ads), rising (3), seasonal 2026-W45; formats from the 2026-11-03 wellness growth ranking and Hike/Stepprs statics. Known: several headlines render in a condensed face despite the Poppins instruction (01,05,10,11,14,18); re-rendered once.",
+ "concepts": [
+  {
+   "id": "T45_01_nurse_pf_cheat_code",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "black_purple",
+   "benchmark": "rv45_cheat_code",
+   "format_ref": true,
+   "format_name": "shift_cheat_code_arrows",
+   "format_source": "OrthoFlexx, insoles, 11d, growth_rank 1 (+294 places/7d)",
+   "angle": "Nurse plantar fasciitis + 12-hour shift: giant 'cheat code' headline with the shoe pair and four hand-drawn curved arrow labels",
+   "based_on": "RTGv1_B6 | 203_Iteration_UGC_OrthoStretch_H1 ($4,077, 3.07 ROAS; nurse plantar fasciitis, 3-4 12s in a row). Kept: nurse + PF + 12s. Format: OrthoFlexx rank 1 'Your 12-hour shift cheat code'. Copy pattern: '12-hour shift' headline of our $857k/$457k statics.",
+   "headline": "YOUR 12-HOUR SHIFT CHEAT CODE",
+   "prompt": "Clean pure white background, no scene. Top: huge heavy all-caps headline in two lines, black: \"YOUR 12-HOUR SHIFT\" / \"CHEAT CODE\". Centre: the shoe pair from the product reference, one shoe turned showing the cushioned heel and sole, the other showing the top, about 55% of the width. Four black hand-drawn curved arrows from short labels to the shoe: \"Arch support\", \"Cushioned heel\", \"Wide toe box\", \"Slip-resistant grip\". Under the shoes one line: \"For nurses with plantar fasciitis\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted. TYPEFACE: wide geometric sans-serif like Poppins ExtraBold; NOT condensed, NOT narrow, NOT Impact, NOT Bebas. SAFE AREA: keep every text block and label at least 8% of the width from the left and right edges and 8% of the height from the top and bottom edges.",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "T45_02_nurse_3_12s_add_up",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "black_white",
+   "benchmark": "rv45_clipboard",
+   "format_ref": true,
+   "format_name": "clipboard_ruled_list_total",
+   "format_source": "4Patriots, 10d, growth_rank 2 (+235)",
+   "angle": "Nurse: clipboard ruled list of what 3 12s in a row add up to, then the shoes built for it",
+   "based_on": "INT_05.28.26_Nurse Page_Kyro390v1_H5 ($5,298, 1.95 ROAS) + seasonal '@NF - 345 shift v3 - 10 Reasons Healthcare Workers' ($11,996, 2024/25 W45). Kept: 12s in a row, limping to the car (customer phrase). Format: 4Patriots clipboard list rank 2.",
+   "headline": "WHAT 3 12s IN A ROW ADD UP TO",
+   "prompt": "A real photo of a brown clipboard with a white sheet lying on a light table. Printed heavy black headline: \"WHAT 3 12s IN A ROW\" / \"ADD UP TO\". Ruled table with four rows, large black text: \"36 hours on your feet\", \"Tired heels by hour 6\", \"A long walk to your car\", \"Shoes built for 12-hour shifts\". Below the clipboard, the black-and-white shoe from the reference stands alone on the table, about 40% of the width, three-quarter view, light background around it. All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted. TYPEFACE: wide geometric sans-serif like Poppins ExtraBold; NOT condensed, NOT narrow, NOT Impact, NOT Bebas. SAFE AREA: keep every text block and label at least 8% of the width from the left and right edges and 8% of the height from the top and bottom edges.",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "T45_03_nurse_what_youve_spent_receipt",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "all_black",
+   "benchmark": "rv45_receipt",
+   "format_ref": true,
+   "format_name": "receipt_struck_spent_list",
+   "format_source": "TheraPexa, 18d, growth_rank 18 (+73); answers Stepprs insole angle",
+   "angle": "Nurse plantar fasciitis: paper receipt of everything she already tried, struck through, ending on the 40% OFF shoe (answers Stepprs 'tried so many insoles')",
+   "based_on": "RTGv1_H3 | Ortho-Stretch-Cushion-Shoe-#753_2 ($2,548, 2.86 ROAS, '40% OFF TODAY + FREE Shipping!'). Copy: feedback sheet 'insoles first, then pills, stretching, ice, running shoes'. Format: TheraPexa receipt rank 18. Competitor answered: Stepprs 'I've tried so many insoles for my plantar fasciitis' (410d).",
+   "headline": "WHAT YOU'VE SPENT ON YOUR HEELS",
+   "prompt": "A cream receipt paper laid on a light wooden table, shot from above. Black heavy headline on the receipt top: \"WHAT YOU'VE SPENT ON YOUR HEELS\". Five lines each struck through with a black marker: \"Insoles\", \"Ibuprofen\", \"Ice packs\", \"Stretching ball\", \"Running shoes\". Then a bold line \"Still limping.\". Bottom of the receipt: \"The shoe that finally helped\" and \"$120  $59.95\" with the $120 struck through, then one line \"40% OFF + FREE SHIPPING\" and a smaller line \"30-DAY MONEY-BACK GUARANTEE\". The all-black shoe from the reference stands beside the receipt on the right in straight side profile at about 35% of the width, on a pale wooden table. All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted.",
+   "tags": [
+    "FP",
+    "OFFER"
+   ]
+  },
+  {
+   "id": "T45_04_nurse_bunions_room_arrow",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "navy_blue",
+   "benchmark": "rv45_arrow_box",
+   "format_ref": true,
+   "format_name": "closeup_arrow_red_label_box",
+   "format_source": "BRUNT Workwear, 21d, growth_rank 5 (+158)",
+   "angle": "Nurse bunions: extreme close-up of the toe box on a hospital hallway floor with one huge black arrow and a boxed label",
+   "based_on": "RTGv1_C1 | Trusted By Nurses static ($863, 3.34 ROAS). Copy: customer phrase 'Room for my bunions without discomfort' (feedback sheet, bunions 9% second pain). Format: BRUNT 'The 90 degree advantage' close-up + arrow + label box.",
+   "headline": "ROOM FOR YOUR BUNIONS",
+   "prompt": "A real phone photo, low angle, extreme close-up of a nurse's foot in the navy-and-blue shoe from the reference, standing on a clean light hospital hallway floor with blurred scrub-clad legs far behind; the toe box fills the frame. One huge black hand-drawn arrow points at the roomy toe box. Bottom: a solid black rectangular label with white heavy italic-free sans-serif all-caps text \"ROOM FOR YOUR BUNIONS\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted.",
+   "tags": [
+    "FP"
+   ],
+   "style": "ugc"
+  },
+  {
+   "id": "T45_05_traveler_pf_first_steps",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "traveler",
+   "colorway": "black_mint",
+   "benchmark": "rv45_plantar_q",
+   "format_ref": true,
+   "format_name": "bold_condition_question_floating_shoe",
+   "format_source": "OrthoFlexx, 11d, growth_rank 8 (+145); Stepprs morning-first-steps angle",
+   "angle": "Traveler plantar fasciitis: giant question headline on a butter-yellow field with one floating shoe; answers Stepprs 'stabbing heel pain in the morning'",
+   "based_on": "TOFV1_JV1 | Travel | COM211_h2 ($1,943, 1.84 ROAS; '2026's Favorite Shoes For Traveling'). Copy: customer 'sore foot in the morning', winner pattern condition-first headline. Format: OrthoFlexx 'Plantar fasciitis? No more dreading the first steps' rank 8.",
+   "headline": "PLANTAR FASCIITIS? DREADING THE FIRST STEPS?",
+   "prompt": "Solid light butter-yellow background. Top: huge heavy black all-caps headline in three lines: \"PLANTAR FASCIITIS?\" / \"DREADING THE\" / \"FIRST STEPS?\". Centre-lower: one black-and-turquoise shoe from the reference floating, three-quarter view, about 50% of the width, soft shadow under it. Bottom line in black: \"Off the plane. Onto the cobblestones.\" and a small line \"30-DAY MONEY-BACK GUARANTEE\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted. TYPEFACE: wide geometric sans-serif like Poppins ExtraBold; NOT condensed, NOT narrow, NOT Impact, NOT Bebas. SAFE AREA: keep every text block and label at least 8% of the width from the left and right edges and 8% of the height from the top and bottom edges.",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "T45_06_traveler_swollen_flight_warning",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "traveler",
+   "colorway": "red_burgundy",
+   "benchmark": "rv45_warning_stamp",
+   "format_ref": true,
+   "format_name": "warning_stamp_symptom_insets",
+   "format_source": "FEM+ Nutrition, 14d, growth_rank 23 (+63)",
+   "angle": "Traveler swelling test-pain: WARNING stamp, three symptom phrases in her words and three foot insets",
+   "based_on": "RTGv1_B3 | Kyro_293_3_V2 ($2,225, 3.33 ROAS; travel test). Copy: feedback 'my feet swell and hurt from being on them all day'; Kyro 373 trip diary 'feet swollen by three'. Format: FEM+ warning stamp rank 23.",
+   "headline": "TIRED FEET AFTER EVERY FLIGHT?",
+   "prompt": "Off-white background. Top: a black outlined rubber-stamp rectangle with the word \"WARNING\" in black. Under it heavy black headline: \"TIRED FEET AFTER\" / \"EVERY FLIGHT?\". Three bullet rows in black: \"Swollen by dinner\", \"Burning heels at night\", \"Can't wait to kick them off\". Bottom half: three equal rounded photo insets of women's feet in socks and sandals resting on a hotel carpet, an airport seat and a hotel bed, and between them the red/burgundy shoe from the reference large (about 40% of the width) on a light surface. Bottom line: \"Built for travel days\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted. TYPEFACE: wide geometric sans-serif like Poppins ExtraBold; NOT condensed, NOT narrow, NOT Impact, NOT Bebas. SAFE AREA: keep every text block and label at least 8% of the width from the left and right edges and 8% of the height from the top and bottom edges.",
+   "tags": [
+    "FP",
+    "TEST"
+   ],
+   "style": "ugc"
+  },
+  {
+   "id": "T45_07_night_which_keeps_you_up",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "comfort_only",
+   "colorway": "black_purple",
+   "benchmark": "rv45_night_row",
+   "format_ref": true,
+   "format_name": "symptom_row_which_keeps_you_up",
+   "format_source": "Konjoun Barefoot, 13d, growth_rank 16 (+78)",
+   "angle": "ANGLE GAP night pain: row of five illustrated feet each with a symptom, 'which one keeps you up at night?'",
+   "based_on": "RTGv1_O1 | Ortho Stretch ($1,505, 3.71 ROAS). Copy: customer 'throbbing, burning, aching', 'burning pain in the palm of my foot'. Format: Konjoun 'Which one keeps you up at night?' rank 16 (illustrated static, 13d). Gap: night pain (33 -> 44 competitor ads), see research/angle_gaps.md 2026-11-03.",
+   "headline": "WHICH ONE KEEPS YOU UP AT NIGHT?",
+   "prompt": "Warm cream background. Top: big heavy black headline \"WHICH ONE KEEPS YOU\" / \"UP AT NIGHT?\". A row of four simple hand-drawn line illustrations of a bare foot, each with an orange-tinted glow on the sore spot and a short black caption underneath: \"Burning ball\", \"Stabbing heel\", \"Swollen ankle\", \"Aching arch\". Below, the black-and-purple shoe from the reference on a light surface, about 40% of the width. Bottom line: \"Built for sore feet. 30-DAY MONEY-BACK GUARANTEE\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted. TYPEFACE: wide geometric sans-serif like Poppins ExtraBold; NOT condensed, NOT narrow, NOT Impact, NOT Bebas. SAFE AREA: keep every text block and label at least 8% of the width from the left and right edges and 8% of the height from the top and bottom edges. The four captions are LARGE: at least 1/25 of the canvas height, bold black, not tiny.",
+   "tags": [
+    "FP",
+    "angle_gap"
+   ],
+   "angle_gap": "night_pain"
+  },
+  {
+   "id": "T45_08_plus_size_deserve_better_gradient",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "plus_size",
+   "colorway": "navy_blue",
+   "benchmark": "rv45_heavier_gradient",
+   "format_ref": true,
+   "format_name": "gradient_field_two_line_shoe_float",
+   "format_source": "Hike Footwear 'Heavier body. Happier feet.' active 0d (answer)",
+   "angle": "Plus-size: soft gradient field, two-line headline, one floating shoe; answers Hike 'heavier women' with wide toe box + cushioned heel",
+   "based_on": "TOFV1_KW1 | COM284_HO1 ($2,619, 4.02 ROAS; 2026's Favorite Shoes For Plus-Sized Traveling). Competitor answered: Hike 'Built to carry extra weight comfortably' (49d) and 'Heavier body. Happier feet.' Our approved features only.",
+   "headline": "PLUS-SIZE FEET DESERVE BETTER",
+   "prompt": "Smooth pale sky-blue to white vertical gradient field, no scene. Top: small white rounded pill with navy text \"PLUS-SIZE WOMEN\"; under it heavy navy all-caps headline in two lines \"PLUS-SIZE FEET\" / \"DESERVE BETTER\". Centre: the navy-and-blue shoe floating at three-quarter angle, about 50% of the width, soft shadow. Under the shoe two navy lines: \"Wide toe box. Cushioned heel.\" and a navy pill row \"FREE SHIPPING\" and \"30-DAY MONEY-BACK GUARANTEE\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted.",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "T45_09_plus_disney_20000_steps_caption",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "plus_size",
+   "colorway": "black_purple",
+   "benchmark": "rv45_ugc_caption",
+   "format_ref": true,
+   "format_name": "ugc_caption_legs_color_thumbs",
+   "format_source": "Hike Footwear '@hike FINALLY put them on sale' UGC caption, active 0d (answer)",
+   "angle": "Plus-size at Disney: phone photo of legs at a park with a white caption box, red offer pill and colour thumbnail strip",
+   "based_on": "TOFV1_KW1 | COM284_HO1 ($2,619, 4.02 ROAS) plus-size traveling + Kyro winner '20,000 steps'. Format: Hike UGC caption ad. Competitor answered: Konjoun/Hike 'shoes designed for heavier women's comfort'.",
+   "headline": "20,000 STEPS AT THE PARK. FEET HAPPY.",
+   "prompt": "A real phone photo from above of a plus-size woman's legs in capri leggings standing on a sunny theme-park walkway, wearing the black-and-purple shoes; full thighs and calves, natural. No castles, characters or park logos. Over the photo a white rectangular caption box with black heavy text \"20,000 steps at the park.\" / \"My feet are fine.\" Under it a red solid pill with white text \"40% OFF\". At the bottom a strip of six small square thumbnails showing the shoe in black/purple, all black, navy, black/white, red and turquoise. All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted.",
+   "tags": [
+    "FP",
+    "OFFER"
+   ],
+   "style": "ugc"
+  },
+  {
+   "id": "T45_10_traveler_slip_on_gate_rome",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "traveler",
+   "colorway": "grey_pink",
+   "benchmark": "rv45_slip_quote",
+   "format_ref": true,
+   "format_name": "slip_on_quote_cream_hero",
+   "format_source": "HIKE Footwear, 13d, growth_rank 12 (+103)",
+   "angle": "Traveler hands-free slip-on: warm cream hero with one quote-style line and a single shoe",
+   "based_on": "TOFV1_JW1 | COM320_HO1 avatar ($1,511, 2.69 ROAS; 2026's Favorite Shoes For Traveling). Format: Hike 'Slip these on and feel your feet come back to life' rank 12. Gap: hands-free (63 competitor ads).",
+   "headline": "SLIP ON AT THE GATE. STILL COMFORTABLE IN ROME.",
+   "prompt": "Warm cream paper-textured field. Top: heavy black headline in three lines \"SLIP ON AT THE GATE.\" / \"STILL COMFORTABLE\" / \"IN ROME.\". Centre: one grey-and-pink shoe from the reference, side three-quarter view, about 50% of the width, on a soft shadow. Under it small black line \"No bending. No-tie laces.\" and the line \"30-DAY MONEY-BACK GUARANTEE\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted. TYPEFACE: wide geometric sans-serif like Poppins ExtraBold; NOT condensed, NOT narrow, NOT Impact, NOT Bebas. SAFE AREA: keep every text block and label at least 8% of the width from the left and right edges and 8% of the height from the top and bottom edges.",
+   "tags": [
+    "FP",
+    "angle_gap"
+   ],
+   "angle_gap": "hands_free"
+  },
+  {
+   "id": "T45_11_traveler_fake_sites_warning",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "traveler",
+   "colorway": "black_white",
+   "benchmark": "rv45_fake_warning",
+   "format_ref": true,
+   "format_name": "warning_banner_fake_sites_struck",
+   "format_source": "Stepprs 'Stop! Don't get faked' active 21d (answer)",
+   "angle": "ANGLE GAP counterfeit: black-and-yellow warning banner, struck-through lookalike sites, 40% OFF starburst. NEEDS CONFIRMATION that lookalike/knockoff sites exist.",
+   "based_on": "RTGv1_I6 | Warning-task_Warehouse ($1,212, 4.19 ROAS; warning format). Competitor answered: Stepprs 'Fake Sites = Fake Comfort / Avoid Counterfeits' (410d). Gap: anti-counterfeit (13 competitor ads, Stepprs 456d).",
+   "headline": "WARNING: DON'T GET FAKED",
+   "prompt": "Top: black-and-yellow diagonal warning tape strip across the full width, over it a white sign with heavy black text \"WARNING\". Below on white: heavy black headline \"DON'T GET FAKED.\" and a medium-large bold line \"Only comfortorthowear.com sells the real thing.\". A list of three lines each struck through with a black line: \"Knockoff sites\", \"Lookalike shops\", \"Pop-up stores\". Right: the black-and-white shoe from the reference large (about 45% of the width). A black starburst badge with white text \"40% OFF\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted. TYPEFACE: wide geometric sans-serif like Poppins ExtraBold; NOT condensed, NOT narrow, NOT Impact, NOT Bebas. SAFE AREA: keep every text block and label at least 8% of the width from the left and right edges and 8% of the height from the top and bottom edges. The line about the website is large and bold, at least 1/25 of the canvas height.",
+   "tags": [
+    "OFFER",
+    "angle_gap"
+   ],
+   "angle_gap": "counterfeit",
+   "needs_confirmation": "Confirm lookalike/knockoff sites exist and comfortorthowear.com is the only authorized store before launch."
+  },
+  {
+   "id": "T45_12_gift_mom_on_her_feet_all_day",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "gift_for_her",
+   "colorway": "purple",
+   "benchmark": "rv45_gift_mom",
+   "format_ref": true,
+   "format_name": "gift_box_flowers_white_headline_box",
+   "format_source": "Hike Footwear 'Our biggest sale for Mom' active 2d / 'The Best Gift For Mom' 6d",
+   "angle": "ANGLE GAP gift for mom: pink-flower field, the pair coming out of a gift box, white boxed headline",
+   "based_on": "RTGv1_H3 | Ortho-Stretch-Cushion-Shoe-#753_2 ($2,548, 2.86 ROAS; 40% OFF TODAY + FREE Shipping). Gap: 'gift for mom' (competitor ads 105 -> 170 in 4 days; Hike, Stepprs, OrthoFit, Footstr).",
+   "headline": "FOR MOM, ON HER FEET ALL DAY",
+   "prompt": "Soft pink flower-garden background in daylight, shallow depth of field. Top: a white rectangular box with heavy navy all-caps text \"FOR MOM, ON HER\" / \"FEET ALL DAY\". Centre: an open white gift box with a pale ribbon from which the purple-and-white shoe pair from the reference stands out, large (about 50% of the width), sharp. Bottom: a white box with navy text \"40% OFF + FREE SHIPPING\" and small \"30-DAY MONEY-BACK GUARANTEE\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted.",
+   "tags": [
+    "OFFER",
+    "angle_gap"
+   ],
+   "angle_gap": "gift_for_mom"
+  },
+  {
+   "id": "T45_13_nurse_quote_check_offer",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "black_purple",
+   "benchmark": "rv45_clipboard",
+   "format_ref": true,
+   "format_name": "testimonial_quote_check_bullets_stacked_offer",
+   "format_source": "Stepprs 'Walk on Clouds' testimonial structure, active 410d (answer)",
+   "angle": "Nurse plantar fasciitis: first-person quote card with check rows and one stacked offer box (answers Stepprs job + hours + 'first time in years')",
+   "based_on": "RTGv1_B6 | 203_Iteration_UGC_OrthoStretch_H1 ($4,077, 3.07 ROAS): Emily RN script ('nurse with plantar fasciitis... 4 12s in a row at the ER'). Competitor answered: Stepprs testimonial 'I do 12 hour shifts... feet feel 10 times better' (7d) + 'Walk on Clouds or it's FREE'.",
+   "headline": "4 12s IN A ROW AT THE ER",
+   "prompt": "Light grey-white background. A big white quote card with a thin grey border. Heavy black quote text: \"Nurse with plantar fasciitis here. 4 12s in a row at the ER and I walked to my car like a normal person.\" and below it navy text \"Emily R., RN\". Under the quote three rows with a navy check mark each: \"Arch support\", \"Cushioned heel\", \"Slip-resistant grip\". Right of the rows the black-and-purple shoe, about 35% of the width, on the light background. Bottom: a solid navy box with white text \"40% OFF + FREE SHIPPING\" and under it \"30-DAY MONEY-BACK GUARANTEE\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted.",
+   "tags": [
+    "FP",
+    "OFFER"
+   ]
+  },
+  {
+   "id": "T45_14_traveler_giant_40_off",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "traveler",
+   "colorway": "all_black",
+   "benchmark": "rv45_giant_pct",
+   "format_ref": true,
+   "format_name": "giant_percent_numerals_shoe_float",
+   "format_source": "Hike Footwear giant '50% OFF' + pill active 0d (answer)",
+   "angle": "Offer: giant 40% OFF numerals over one floating shoe with a pill and three check features",
+   "based_on": "RTGv1_I6 | Warning-task_Warehouse ($1,212, 4.19 ROAS; '48 HOURS LEFT - 40% OFF'). Competitor answered: Hike 'Last Chance 50% OFF' (true offer only, no fake scarcity).",
+   "headline": "40% OFF FOR TRAVEL DAYS",
+   "prompt": "Cream background. Top: a solid navy rounded pill with white heavy text \"FOR LONG TRAVEL DAYS\". Under it giant heavy navy numerals \"40% OFF\" across the full width. Centre: the all-black shoe from the reference in straight side profile with light rim lighting, about 45% of the width, on a pale surface so its outline reads. Under it three navy check rows: \"Arch support\", \"Cushioned heel\", \"No-tie laces\". Bottom: a solid navy bar with white text \"FREE SHIPPING | 30-DAY MONEY-BACK GUARANTEE\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted. TYPEFACE: wide geometric sans-serif like Poppins ExtraBold; NOT condensed, NOT narrow, NOT Impact, NOT Bebas. SAFE AREA: keep every text block and label at least 8% of the width from the left and right edges and 8% of the height from the top and bottom edges.",
+   "tags": [
+    "OFFER"
+   ]
+  },
+  {
+   "id": "T45_15_disney_bench_20000_steps",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "traveler",
+   "colorway": "black_mint",
+   "benchmark": "rv45_ugc_caption",
+   "format_ref": true,
+   "format_name": "bench_photo_big_white_headline",
+   "format_source": "Onecompress, 14d (wellness list) + Hike UGC photo caption",
+   "angle": "Disney traveler: phone photo of the shoes on a park bench at golden hour, big white headline on the image",
+   "based_on": "TOFV1_KW1 ($2,619, 4.02 ROAS) + seasonal '@TF - Kyro_253_1_V3 travel' ($16,896 lifetime, W45 last year). Copy: Kyro '20,000 steps a day'; TOFV1_KW1 'fine at breakfast, hour 8 is different'.",
+   "headline": "FINE AT BREAKFAST. HOUR 8 AT DISNEY?",
+   "prompt": "A real phone photo at golden hour: a woman's tired legs in light jeans sitting on a theme-park bench, the black-and-turquoise shoes on her feet, blurred park path and trees behind; no castles, characters or logos. Big heavy white text with no box over the sky/path area at the top: \"FINE AT BREAKFAST.\" / \"HOUR 8 AT DISNEY?\". Bottom: a solid white pill with black text \"40% OFF + FREE SHIPPING\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted. TYPEFACE: wide geometric sans-serif like Poppins ExtraBold; NOT condensed, NOT narrow, NOT Impact, NOT Bebas. SAFE AREA: keep every text block and label at least 8% of the width from the left and right edges and 8% of the height from the top and bottom edges.",
+   "tags": [
+    "OFFER"
+   ],
+   "style": "ugc"
+  },
+  {
+   "id": "T45_16_nurse_stacked_symptoms_every_12",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "black_white",
+   "benchmark": "rv45_stacked_words",
+   "format_ref": true,
+   "format_name": "stacked_symptom_words_over_photo",
+   "format_source": "Down To Ground, 41d, growth_rank 3 (+192)",
+   "angle": "Nurse knee/back: four stacked symptom words in her phrases over a couch photo of her feet up after the shift",
+   "based_on": "Seasonal '@NF - 345 shift v3 - 10 Reasons Healthcare Workers' ($11,996, W45 2025) + customer phrase 'pain in feet and knees after standing for 12 hours'. Format: Down To Ground stacked symptom words rank 3 (41d, long-runner).",
+   "headline": "SORE FEET. ACHING KNEES. SORE BACK.",
+   "prompt": "White upper third with four stacked centred lines of heavy black all-caps text: \"SORE FEET.\" / \"ACHING KNEES.\" / \"SORE BACK.\" / \"AFTER EVERY 12.\". Below, a real phone photo: a nurse in navy scrubs on a living-room couch with her feet up on a coffee table, the black-and-white shoes on her feet, warm lamp light; the shoes are large and sharp in the foreground. All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted.",
+   "tags": [
+    "FP"
+   ],
+   "style": "ugc"
+  },
+  {
+   "id": "T45_17_wide_feet_four_tabs_autumn",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "plus_size",
+   "colorway": "light_grey",
+   "benchmark": "rv45_four_tabs",
+   "format_ref": true,
+   "format_name": "four_tab_header_shoe_scene",
+   "format_source": "Peak Footwear, 15d, growth_rank 14 (+96)",
+   "angle": "Wide-feet test pain (plus-size): four feature tabs across the top, one shoe on an autumn path",
+   "based_on": "RTGv1_C3 | 661_Real_Static_..._CustomerReviews_1 ($1,848, 3.15 ROAS). Copy: feedback 'wide toe box and good arch support', wide feet rising 2% -> 4.4%. Guardrail: roomy toe box, never 'extra wide'. Format: Peak Footwear tab header rank 14.",
+   "headline": "WIDE FEET? ROOM FOR YOUR TOES.",
+   "prompt": "Top: four equal navy rectangular tabs in a row with white heavy text: \"WIDE TOE BOX\", \"ARCH SUPPORT\", \"CUSHIONED HEEL\", \"SLIP-RESISTANT\". Below, a real photo of a leaf-covered park path in warm autumn light with the light-grey shoe from the reference large in the foreground (about 45% of the width), sharp, on the path. Bold white text with a soft dark scrim only behind it at the bottom: \"WIDE FEET? ROOM FOR YOUR TOES.\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted. TYPEFACE: wide geometric sans-serif like Poppins ExtraBold; NOT condensed, NOT narrow, NOT Impact, NOT Bebas. SAFE AREA: keep every text block and label at least 8% of the width from the left and right edges and 8% of the height from the top and bottom edges.",
+   "tags": [
+    "FP",
+    "TEST"
+   ],
+   "style": "ugc"
+  },
+  {
+   "id": "T45_18_plus_nurse_another_12_repeat",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "plus_size",
+   "colorway": "all_black",
+   "benchmark": "rv45_repeat_stack",
+   "format_ref": true,
+   "format_name": "repeated_headline_stack_fade",
+   "format_source": "Apnee Paris, 10d, growth_rank 58 (+21)",
+   "angle": "Plus-size nurse: 'ANOTHER 12.' repeated down the canvas, fading, with the shoe in front",
+   "based_on": "TOFV1_LI1 | COM296 nurse wants to quit ($554, 1.92 ROAS) + TOFV1_KW1 ($2,619, 4.02 ROAS plus-size). Format: Apnee repeated headline stack (rank 58; top-57 rows skipped: other product categories/BOGO).",
+   "headline": "ANOTHER 12-HOUR SHIFT.",
+   "prompt": "White background. The phrase \"ANOTHER 12-HOUR SHIFT.\" repeated six times in heavy black all-caps, one per line, filling the canvas top to bottom, each line lighter grey than the one above (the first nearly black, the last pale). In front, centred, overlapping the middle lines, the all-black shoe from the reference in straight side profile with light rim lighting, about 45% of the width, on a soft pale shadow. Bottom: black line \"Plus-size nurses: built for 12-hour shifts.\" and small \"FREE SHIPPING | 30-DAY MONEY-BACK GUARANTEE\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted.",
+   "tags": [
+    "FP"
+   ]
+  },
+  {
+   "id": "T45_19_burning_ball_of_foot_calm",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "comfort_only",
+   "colorway": "red_burgundy",
+   "benchmark": "rv45_soft_calm",
+   "format_ref": true,
+   "format_name": "soft_sage_pedestal_two_line_calm",
+   "format_source": "Inner Dose, 17d, growth_rank 13 (+102)",
+   "angle": "Morton's/burning ball-of-foot test pain: soft sage field, calm two-line headline, shoe on a pedestal, footer strip",
+   "based_on": "RTGv1_C3 | CustomerReviews ($1,848, 3.15 ROAS). Copy: customer 'burning pain in the palm of my foot', Morton's neuroma/ball-of-foot (1.7% survey). Format: Inner Dose soft calm layout rank 13. Guardrail: no relief claim, roomy toe box only.",
+   "headline": "BURNING IN THE BALL OF YOUR FOOT?",
+   "prompt": "Soft sage-green field. Top: heavy navy two-line headline \"BURNING IN THE BALL\" / \"OF YOUR FOOT?\" and under it one navy line \"Roomy toe box. Cushioned heel.\". Centre: the red/burgundy shoe on a round pale stone pedestal, about 45% of the width, soft studio light. Bottom: a solid white strip with navy text \"FREE SHIPPING | 30-DAY MONEY-BACK GUARANTEE\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted.",
+   "tags": [
+    "FP",
+    "TEST"
+   ]
+  },
+  {
+   "id": "T45_20_nurse_wet_floors_grip",
+   "lang": "en",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "navy_blue",
+   "benchmark": "rv45_quote_legs_insets",
+   "format_ref": true,
+   "format_name": "quote_headline_legs_four_inset_features",
+   "format_source": "Hike 'My Mom's Falls Stopped...' active 6d; fall-fear cluster 198 competitor ads",
+   "angle": "Nurse grip answer to Hike's fall hooks: tilted headline over legs on a wet hospital floor, four small feature insets (slip-resistant grip only, no fall-prevention claim)",
+   "based_on": "Seasonal '@NF - Nurse text images v9 - testim copy' ($10,962, W45 2025). Competitor answered: Hike fall-prevention ads (6d). Approved feature: slip-resistant grip.",
+   "headline": "WET FLOORS ALL SHIFT. THESE GRIP.",
+   "prompt": "Warm pale-yellow background. Top: a white rounded label tilted slightly with heavy black text \"WET FLOORS ALL SHIFT.\" / \"THESE GRIP.\". Centre: a real photo of a nurse's legs in navy scrubs walking on a glossy hospital floor beside a yellow wet-floor sign, wearing the navy-and-blue shoes (sharp, about 40% of the width). Bottom row: four equal small rounded square photos with a short black caption each: \"Slip-resistant grip\", \"Arch support\", \"Cushioned heel\", \"Wide toe box\". All text is black, deep navy or white, large, heavy and high contrast (Poppins-style clean sans-serif), every text element at least 7% of the width away from every edge. The shoe is sharp, at true natural proportions, never compressed. Never a dark shoe on a dark background. The ONLY text in the image is exactly what is written in quotes; no logos, no extra badges, no buttons, no prices unless quoted. TYPEFACE: wide geometric sans-serif like Poppins ExtraBold; NOT condensed, NOT narrow, NOT Impact, NOT Bebas. SAFE AREA: keep every text block and label at least 8% of the width from the left and right edges and 8% of the height from the top and bottom edges. Captions under the four insets are large and bold, at least 1/25 of the canvas height, max two words per line.",
+   "tags": [
+    "FP"
+   ],
+   "style": "ugc"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+  "week": "2026-W45-inspo-batch5",
+  "notes": "Standard statics from user references (2026-10-29; the Terra Lotus ref was sent twice, made once). Nurse, travel/Disney and 50+ angles. Dropped: 50% off, buy 2 get 2 free (BF only), 'made in USA', 'ship from China' style claims, menopause/medical claims. Competitor shown as a generic no-logo shoe.",
+  "concepts": [
+    {
+      "id": "W45_01_shift_bestie_icons",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "icons_around",
+      "offer": "standard_40",
+      "angle": "Nurse: your 12-hour shift's new bestie, six feature icons around the shoe",
+      "based_on": "User reference: Tally 'Your Bedtime's New Bestie' icons-around-product ad + nurse winners",
+      "headline": "Your 12-Hour Shift's New Bestie",
+      "prompt": "Deep plum-to-soft-pink vertical gradient background. Top center: big heavy white two-line headline \"Your 12-Hour Shift's\" / \"New Bestie\", then a bold italic white all-caps line with a small sparkle on each side: \"SAVE 40% TODAY + FREE SHIPPING\". Center: a pair of the black-and-purple shoes from the product reference, large and sharp at true proportions, soft shadow on a pink surface. Left column, three round white icons with plum line drawings and white labels under each: an arch-of-foot icon \"Arch support all shift\", a shoe-toe icon \"Wide toe box\", a non-slip tread icon \"Slip-resistant grip\". Right column, three round white icons with labels: a stretch arrows icon \"Stretch knit that gives\", a bungee-lace icon \"No laces to tie\", a calendar-check icon \"30-day money-back guarantee\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "W45_02_fall_after_50",
+      "persona": "comfort_only",
+      "colorway": "red_burgundy",
+      "benchmark": "fall_callouts",
+      "offer": "standard_40",
+      "angle": "Fall sale: for the foot pain that showed up after 50, three callouts, 40% off",
+      "based_on": "User reference: Ledisa 'FALL SALE / FOR THE MENOPOT THAT SHOWED UP AFTER 50' callout ad + survey (85% are 50+, heel pain 25%)",
+      "headline": "FOR THE FOOT PAIN THAT SHOWED UP AFTER 50",
+      "prompt": "Warm rust-orange to deep brown gradient background with a few soft-focus autumn maple leaves around the edges. Top: small white spaced all-caps \"FALL SALE\", then a big heavy white all-caps headline on three lines \"FOR THE FOOT PAIN\" / \"THAT SHOWED UP\" / \"AFTER 50\". Center: a pair of the red/burgundy shoes from the product reference, large and sharp at true proportions, soft shadow. Three thin white callout lines with small dots lead from the shoes to white all-caps labels: upper-right \"ARCH SUPPORT THAT HOLDS UP\", left \"STRETCHES WHEN FEET SWELL\", lower-right \"WIDE, ROOMY TOE BOX\". Bottom: heavy warm-yellow all-caps on two lines \"40% OFF\" / \"+ FREE SHIPPING\", and under it white spaced all-caps \"COMFORTWEAR\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "W45_03_ours_theirs_disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "benchmark": "ours_theirs",
+      "offer": "none",
+      "angle": "Ours vs theirs for theme-park days: our stretch shoe vs a typical narrow running shoe",
+      "based_on": "User reference: 'OURS vs THEIRS' night-glasses comparison + Disney/travel angle + 'Ditch the Hokas' winner (competitor as text only)",
+      "headline": "OURS vs THEIRS",
+      "prompt": "Split layout with a soft wavy vertical divider. Left half: deep navy panel, heavy cream all-caps \"OURS\" at the top; one navy shoe with bright blue accents from the product reference, large and sharp at true proportions. Right half: warm cream panel, heavy black all-caps \"THEIRS\"; one plain generic white-and-grey narrow running shoe with regular tie laces, no logos, no brand marks. Below, three comparison rows across both halves, white text on the left and black text on the right: \"Wide, Roomy Toe Box\" vs \"Narrow Toe Box\"; \"Stretch Knit Gives When Feet Swell\" vs \"Stiff Upper Pinches\"; \"No-Tie Bungee Laces\" vs \"Laces To Retie All Day\". Across the very bottom, small heavy all-caps on the navy side: \"BUILT FOR 20,000-STEP PARK DAYS\". All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    },
+    {
+      "id": "W45_04_wordart_worth_it",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "wordart_poster",
+      "offer": "hsa",
+      "angle": "Homemade WordArt poster: yes it costs more, so does everything that actually works; made for 12-hour shifts; HSA/FSA eligible",
+      "based_on": "User reference: Terra Lotus 'Yes, it's expensive' homemade poster + approved 'Yes it's pricey' angle + approved claim HSA/FSA eligible",
+      "headline": "Yes, they cost more.",
+      "prompt": "A homemade printed poster look on white paper with a thin grey double border. Top: a curved rainbow-gradient WordArt headline with a soft reflection under it: \"Yes, they cost more.\" Below, bold navy rounded comic-style text on two lines: \"So does everything\" / \"that actually works.\" Middle: a real snapshot-style photo with a thin dark frame of a pair of the black-and-purple shoes from the product reference standing on a floral tablecloth, sharp and correct. Bottom: big black serif text \"Made for 12-hour shifts\", and at the bottom-right a yellow starburst with small black text \"HSA/FSA eligible!\". A couple of simple clip-art accents (a small nurse cap, a small heart) near the photo corners. All text is large, bold and high contrast for readers aged 60+; nothing small or thin.",
+      "group": "persona_inspo",
+      "lang": "en",
+      "format_ref": true,
+      "tags": []
+    }
+  ]
+}

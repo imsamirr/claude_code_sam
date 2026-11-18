@@ -1,0 +1,419 @@
+{
+ "week": "2026-W44-test3",
+ "concepts": [
+  {
+   "id": "Y44_01_den_split_table",
+   "group": "iteration",
+   "persona": "switcher",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "overlay": {
+    "headline": "Other pods leave live bacteria. This one didn't.",
+    "sub": null,
+    "pos": "top",
+    "tone": "dark"
+   },
+   "angle": "Us-vs-other-pods split table: yellow, bacteria-ridden denture beside a black pod vs a white denture beside ours (proven top-spend comparison format)",
+   "based_on": "Iteration of TOFv1_I13 '#1 Dentures Cleaner' (video, $5,876 spend, ROAS 1.80) + VID_DEN32 '6 of 7 pods leave live bacteria' (video, $7,878 spend, ROAS 2.22) Approved claims; competitor pod unbranded.",
+   "headline": "Other pods leave live bacteria. This one didn't.",
+   "prompt": "Clean comparison graphic below a clear white top band: left half bright DentalPULSE blue #1188FF, right half white. Left column header \"DentalPULSE\" with a real photo of the white DentalPULSE Pod from the reference photo (large) and beside it, much smaller, a clean bright-white upper denture; right column header \"Other pods\" with a real photo of a generic black round plastic pod with no logo (large) and beside it, much smaller, an upper denture with clearly yellow-brown stained teeth and a dull yellowish film over the pink gums. Left rows with white check marks: \"Eliminates 99.9% of bacteria\", \"Lifts yellow stains and film\", \"One 5-minute cycle\", \"Tap water only. No tablets\". Right rows with red X marks: \"Left live bacteria in the lab test\", \"Yellow film stays\", \"Needs tablets or brushing\", \"Falls apart in months\". IMPORTANT: no text anywhere except the small quoted labels above (if any), spelled exactly, in a clean sans-serif like Inter; no logos, no competitor names. Must look like a real unretouched photograph, not an AI render. Realistic scale: the Pod is always clearly larger than any dental appliance.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the right column rows and red X marks",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the yellow denture and black pod from the right column",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "Y44_02_den_bacteria_chart",
+   "group": "iteration",
+   "persona": "switcher",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "overlay": {
+    "headline": "Live bacteria left on dentures after 7 ultrasonic cleaners",
+    "sub": null,
+    "pos": "top",
+    "tone": "dark"
+   },
+   "angle": "Ranking bar chart of live bacteria left after cleaning, real product photos (top-spend 'Top 7' format)",
+   "based_on": "Iteration of IMG_DEN62 'Top 7 Ultrasonic Cleaners for Dentures' (static, $896 spend, ROAS 3.44) Approved claim: #1 of 7 in the 90-day lab test; bars illustrative, no numbers.",
+   "headline": "Live bacteria left on dentures after 7 ultrasonic cleaners",
+   "prompt": "Clean infographic on a very light grey background below a white top band: a horizontal bar chart of seven rows where a SHORTER bar means FEWER live bacteria. Row 1 has the shortest bar in DentalPULSE blue #1188FF with a small real photo of the white DentalPULSE Pod from the reference photo and a small green badge \"Fewest\"; rows 2 to 7 have progressively longer red-orange bars labeled \"Pod A\" to \"Pod F\", each with a small photo of a different generic unbranded pod (black, grey, mint, white) with no logos, and a tiny petri-dish icon with yellow-cream colonies at the end of each bar (growing larger on longer bars). No numbers or percentages anywhere. IMPORTANT: no text anywhere except the small quoted labels above (if any), spelled exactly, in a clean sans-serif like Inter; no logos, no competitor names. Must look like a real unretouched photograph, not an AI render. Realistic scale: the Pod is always clearly larger than any dental appliance."
+  },
+  {
+   "id": "Y44_03_den_hero_hand",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "overlay": {
+    "headline": "Yellow dentures? Brushing misses the bacteria in the pores.",
+    "sub": "Ultrasonic cleaner. 5 minutes. Tap water.",
+    "pos": "top",
+    "tone": "dark"
+   },
+   "angle": "Warm lifestyle hero: a hand lowers a yellow-stained denture into the open cleaner (proven $12K hero format)",
+   "based_on": "Iteration of VID_DEN24 'You've Been Lied To' (video, $3,237 spend, ROAS 2.34) + Seasonal 2025 'Never brush retainer again' (static, $55 spend, ROAS 2.60) Anti-brushing enemy.",
+   "headline": "Yellow dentures? Brushing misses the bacteria in the pores.",
+   "prompt": "Real lifestyle photograph, warm natural window light, lower part of the frame: a wood kitchen counter with a cream tile backsplash and a cup of toothbrushes slightly out of focus. The white DentalPULSE Pod from the reference photo is large in the center with its lid open; an older person's real hand (natural skin, small age spots) lowers a single yellow-stained upper denture with pink acrylic gums into the steel basin. The denture is clearly small compared to the Pod (under half its width). IMPORTANT: no text anywhere except the small quoted labels above (if any), spelled exactly, in a clean sans-serif like Inter; no logos, no competitor names. Must look like a real unretouched photograph, not an AI render. Realistic scale: the Pod is always clearly larger than any dental appliance.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the hand and denture so the cleaner is empty",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "Y44_04_den_brown_water",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "style": "ugc",
+   "overlay": {
+    "headline": "First cycle: the water turned brown. That's what tablets leave behind.",
+    "sub": null,
+    "pos": "bottom",
+    "tone": "light"
+   },
+   "angle": "Brown-water proof: real phone photo looking into the basin after the first cycle (feedback: 'visible debris at the bottom')",
+   "based_on": "Iteration of VID_DEN32 '6 of 7 pods leave live bacteria' (video, $7,878 spend, ROAS 2.22) + feedback 'the water was BROWN after the first cycle' Illustrative; results vary.",
+   "headline": "First cycle: the water turned brown. That's what tablets leave behind.",
+   "prompt": "Unedited phone photo looking down into the open white DentalPULSE Pod from the reference photo on a bathroom counter, the Pod filling most of the frame: the stainless steel basin holds murky brown-yellow water with visible flecks of debris and tiny bubbles; a small clean pink-and-white upper denture rests at the edge of the basin, clearly small compared to the Pod. Slightly uneven bathroom light. IMPORTANT: no text anywhere except the small quoted labels above (if any), spelled exactly, in a clean sans-serif like Inter; no logos, no competitor names. Must look like a real unretouched photograph, not an AI render. Realistic scale: the Pod is always clearly larger than any dental appliance."
+  },
+  {
+   "id": "Y44_05_den_kitchen_story",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "style": "ugc",
+   "overlay": {
+    "headline": "Tablets and brushing only clean the surface. The bacteria stays.",
+    "sub": null,
+    "pos": "top",
+    "tone": "dark"
+   },
+   "angle": "Real kitchen-table photo of a 71-year-old holding a yellow-stained denture next to the Pod (curated authority-caption format; source 'Ray, 71')",
+   "based_on": "Iteration of IMG_DEN64 native ad (static, $2,712 spend, ROAS 2.58; 51_3 $1,395, ROAS 3.33) No invented dentist.",
+   "headline": "Tablets and brushing only clean the surface. The bacteria stays.",
+   "prompt": "Unedited candid photo in a lived-in kitchen, afternoon light, in the lower two thirds of the frame: a real 71-year-old man in a plain flannel shirt with natural wrinkles sits at the table holding up a yellow-stained, filmy upper denture in one hand, looking at the camera; on the table in front of him the white DentalPULSE Pod from the reference photo, clearly larger than the denture, and a stack of printed pages. IMPORTANT: no text anywhere except the small quoted labels above (if any), spelled exactly, in a clean sans-serif like Inter; no logos, no competitor names. Must look like a real unretouched photograph, not an AI render. Realistic scale: the Pod is always clearly larger than any dental appliance."
+  },
+  {
+   "id": "Y44_06_den_x_post",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format": "x_post",
+   "angle": "Native X post with a brown-water photo (real customer language)",
+   "based_on": "Iteration of VID_DEN24 'You've Been Lied To' (video, $3,237 spend, ROAS 2.34) + DEN267 'I thought my dentures were clean' Customer-voice post; no verified checkmark.",
+   "headline": "Soaked my dentures in tablets for 11 years. They still turned yellow. First cycle in this ultrasonic cleaner, the water turned brown.",
+   "prompt": "A real X (Twitter) post screenshot in light mode: white background, round profile photo of a smiling older man, display name \"Gary R.\" in bold, grey handle \"@garyr_ohio\" and \"3h\". Post text in black: \"Soaked my dentures in tablets for 11 years. They still turned yellow. First cycle in this ultrasonic cleaner, the water turned brown.\" Below it an attached rounded photo of the open white DentalPULSE Pod from the reference photo, the steel basin full of murky brown water with a small yellowed denture beside it. Grey engagement row with reply, repost, like and view icons and counts \"148\", \"92\", \"2.1K\", \"61K\". IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text, no real platform logos, no verified badges. Native app UI uses the platform's own system font. Must look like a real screenshot, not an AI render."
+  },
+  {
+   "id": "Y44_07_den_uv_bacteria",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "overlay": {
+    "headline": "That glow is bacteria. Tablets don't remove it.",
+    "sub": "Ultrasonic cleaning reaches what soaking can't.",
+    "pos": "top",
+    "tone": "light"
+   },
+   "angle": "UV-blacklight photo: a whole denture glowing with bacterial biofilm beside the Pod, red arrow (curated imaging format; illustrative)",
+   "based_on": "Iteration of DEN81 H3 '6 of 7 pods can't remove bacteria' (video, $6,059 spend, ROAS 2.28) Illustrative imaging; tablet claim is Notion DEN234 wording, verify.",
+   "headline": "That glow is bacteria. Tablets don't remove it.",
+   "prompt": "Dark-room photograph under blacklight on a black bench, lower two thirds of the frame: a whole upper denture (pink acrylic gums, full row of teeth) lies on the bench with mottled orange-green glowing patches of biofilm along the gum line and between the teeth, and a single bold red arrow pointing at the glow. Next to it stands the white DentalPULSE Pod from the reference photo, clearly about twice as wide as the denture, softly lit. IMPORTANT: no text anywhere except the small quoted labels above (if any), spelled exactly, in a clean sans-serif like Inter; no logos, no competitor names. Must look like a real unretouched photograph, not an AI render. Realistic scale: the Pod is always clearly larger than any dental appliance."
+  },
+  {
+   "id": "Y44_08_den_quote_badge",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "offer",
+   "appliance": "denture_full",
+   "overlay": {
+    "headline": "“As white as when I first got them.”",
+    "sub": null,
+    "pos": "top",
+    "tone": "dark"
+   },
+   "angle": "Big customer quote with a yellow vs white denture pair and the current-offer badge (quote + badge format)",
+   "based_on": "Iteration of TOFv1_I13 '#1 Dentures Cleaner' (video, $5,876 spend, ROAS 1.80) + Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $378 spend, ROAS 3.04; lifetime $11.9K, ROAS 3.3) Quote adapted from survey wins; first name + last initial.",
+   "headline": "“As white as when I first got them.”",
+   "prompt": "Premium real photograph on a bright bathroom counter in natural light, lower two thirds of the frame: the white DentalPULSE Pod from the reference photo large in the center; at its base two small upper dentures, the left one with strongly yellow-brown, tobacco-stained, dull teeth with brown stain lines and a yellowish film (the teeth must be obviously yellow, not white), the right one bright clean white, both clearly under half the Pod's width. A small Inter Medium label under the pair: \"Linda K., denture wearer\". A round blue #1188FF badge at the lower right with Barlow Bold numerals: \"40% OFF\" and below it \"+ free shipping\". IMPORTANT: no text anywhere except the small quoted labels above (if any), spelled exactly, in a clean sans-serif like Inter; no logos, no competitor names. Must look like a real unretouched photograph, not an AI render. Realistic scale: the Pod is always clearly larger than any dental appliance."
+  },
+  {
+   "id": "Y44_09_den_gifts_stain",
+   "group": "iteration",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "denture_full",
+   "overlay": {
+    "headline": "Yellow, filmy dentures? 40% OFF sitewide + free shipping.",
+    "sub": "Free dental case + free travel bag. 120-day guarantee.",
+    "pos": "top",
+    "tone": "dark"
+   },
+   "angle": "Value-stack flat-lay: Pod (hero) + free travel bag + free dental case, with a yellow-stained denture beside a clean one",
+   "based_on": "Iteration of Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $378 spend, ROAS 3.04; lifetime $11.9K, ROAS 3.3) Current offer exact; bag and case clearly visible.",
+   "headline": "Yellow, filmy dentures? 40% OFF sitewide + free shipping.",
+   "prompt": "Overhead real product photograph on a light oak table in soft daylight, lower two thirds of the frame: the DentalPULSE Pod Denture Bundle from the reference photo with the white Pod as the clear hero, the black zip travel bag (about half the Pod's width) and the smoky dark-grey denture case (about one third of the Pod's width) clearly visible in front of it; at the far right two small upper dentures, one yellow-stained, one white. Small Inter Medium labels: \"Free travel bag\", \"Free dental case\". IMPORTANT: no text anywhere except the small quoted labels above (if any), spelled exactly, in a clean sans-serif like Inter; no logos, no competitor names. Must look like a real unretouched photograph, not an AI render. Realistic scale: the Pod is always clearly larger than any dental appliance."
+  },
+  {
+   "id": "Y44_10_den_fb_comment",
+   "group": "iteration",
+   "persona": "denture_caregiver",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "offer",
+   "appliance": "denture_full",
+   "format": "fb_comment",
+   "angle": "Native Facebook comment thread with a brand reply stating the current offer",
+   "based_on": "Iteration of TOFv1_I13 '#1 Dentures Cleaner' (video, $5,876 spend, ROAS 1.80) Customer language ('turning yellow... white again'); no platform logos.",
+   "headline": "Her dentures were turning yellow. Now they're white again.",
+   "prompt": "A real Facebook mobile comment thread, light mode, white background: first comment with a small round profile photo of a woman in her 50s, bold name \"Karen S.\", grey bubble text \"Mom's dentures were turning yellow. Now they're white again and the smell is gone.\", under it \"2d  Like  Reply\" and a reaction pill \"86\". Indented reply with a small round blue avatar named \"DentalPULSE\": \"Love this, Karen! 40% OFF sitewide + free shipping, free dental case and free travel bag this week.\" IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text, no real platform logos, no verified badges. Native app UI uses the platform's own system font. Must look like a real screenshot, not an AI render."
+  },
+  {
+   "id": "Y44_11_ng_trustpilot",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "night_guard",
+   "format": "trustpilot",
+   "angle": "Review card in customer words: gross yellow and cloudy to cleaner",
+   "based_on": "Iteration of TOFv1_I13 '#1 Dentures Cleaner' (video, $5,876 spend, ROAS 1.80) Survey language; no TrustScore/logo.",
+   "headline": "My night guard was gross, yellow and cloudy.",
+   "prompt": "A single Trustpilot-style review card on a very light grey page: white card with thin light-grey border, small round initials avatar \"MT\", name \"Mike T.\" and \"US\", five green #00B67A square star tiles with white stars, bold title \"No longer yellow and cloudy\", review text \"My old night guard looked gross, yellow and cloudy and never felt clean. After a few weeks of 5-minute cycles it is noticeably cleaner and brighter, and it smells better.\" and a small grey date \"Oct 14, 2026\". Nothing else on the page. IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text, no real platform logos, no verified badges. Native app UI uses the platform's own system font. Must look like a real screenshot, not an AI render."
+  },
+  {
+   "id": "Y44_12_ng_soap_photo",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "night_guard",
+   "style": "ugc",
+   "no_product": true,
+   "overlay": {
+    "headline": "Soap doesn't kill night guard bacteria.",
+    "sub": "It sits in your mouth 8 hours a night.",
+    "pos": "top",
+    "tone": "dark"
+   },
+   "angle": "Real photo: hand soap on a yellow, filmy night guard (enemy: soap) with a bacteria caption",
+   "based_on": "Iteration of VID_DEN24 'You've Been Lied To' (video, $3,237 spend, ROAS 2.34) Enemy: hand soap.",
+   "headline": "Soap doesn't kill night guard bacteria.",
+   "prompt": "Unedited close-up phone photo at a bathroom sink, filling the whole frame from edge to edge with real scene detail (the sink basin, faucet and counter visible even behind the top area): a real hand with visible creases holds a thick, rigid, yellowed and cloudy night guard (a solid horseshoe-shaped hard-acrylic tray about 3 mm thick) under a stream of running water, while the other hand pumps hand soap from a pump bottle onto it; natural uneven vanity lighting, small water drops, a toothbrush on the counter. No empty or blank areas. IMPORTANT: no text anywhere, no logos. Must look like a real unretouched photograph, not an AI render."
+  },
+  {
+   "id": "Y44_13_ng_yellow_macro",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "appliance": "night_guard",
+   "overlay": {
+    "headline": "That yellow film on your night guard is bacteria.",
+    "sub": "Brushing can't reach it. Ultrasonic can.",
+    "pos": "top",
+    "tone": "dark"
+   },
+   "angle": "Real macro of a yellow, filmy night guard in front of the open Pod (yellow = bacteria + film framing)",
+   "based_on": "Iteration of Feedback: night guard 'gross yellow and cloudy' (68% of NG buyers cite yellow) + VID_DEN24 'You've Been Lied To' (video, $3,237 spend, ROAS 2.34) No promise to reverse set-in yellow.",
+   "headline": "That yellow film on your night guard is bacteria.",
+   "prompt": "Real photograph on a marble bathroom counter in soft window light, lower two thirds of the frame: the white DentalPULSE Pod from the reference photo with lid open, large; in front of it, resting on the marble, exactly one thick rigid clear night guard (no hands, no people, no second guard anywhere) with a visible yellow film and tiny scratches, sharp macro detail, clearly under half the Pod's width. Natural color, subtle grain, no glow. IMPORTANT: no text anywhere except the small quoted labels above (if any), spelled exactly, in a clean sans-serif like Inter; no logos, no competitor names. Must look like a real unretouched photograph, not an AI render. Realistic scale: the Pod is always clearly larger than any dental appliance.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the yellow night guard from the counter",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "Y44_14_ng_offer_bedside",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "offer",
+   "appliance": "night_guard",
+   "overlay": {
+    "headline": "Yellow, cloudy night guard? 40% OFF sitewide + free shipping.",
+    "sub": "Free dental case + free travel bag. 120-day guarantee.",
+    "pos": "top",
+    "tone": "light"
+   },
+   "angle": "Bedside photo: yellow, cloudy night guard in its case beside the Pod, current offer",
+   "based_on": "Iteration of Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $378 spend, ROAS 3.04; lifetime $11.9K, ROAS 3.3) Current offer exact.",
+   "headline": "Yellow, cloudy night guard? 40% OFF sitewide + free shipping.",
+   "prompt": "Real photograph of a bedside table in soft lamp light, lower two thirds of the frame: the white DentalPULSE Pod from the reference photo, large, with a yellowed cloudy thick night guard resting beside it on the table (about 40% of the Pod's width), an open night guard case, a glass of water. A small Inter Medium label: \"Pod $99.95\". IMPORTANT: no text anywhere except the small quoted labels above (if any), spelled exactly, in a clean sans-serif like Inter; no logos, no competitor names. Must look like a real unretouched photograph, not an AI render. Realistic scale: the Pod is always clearly larger than any dental appliance."
+  },
+  {
+   "id": "Y44_15_ng_before_after_offer",
+   "group": "iteration",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "offer",
+   "appliance": "night_guard",
+   "overlay": {
+    "headline": "Stop it turning yellow. 40% OFF sitewide.",
+    "sub": "Free shipping, free dental case, free travel bag.",
+    "pos": "top",
+    "tone": "dark"
+   },
+   "angle": "Before/after: yellow vs clean night guard flanking the Pod, 'stops it turning yellow' + offer",
+   "based_on": "Iteration of Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $378 spend, ROAS 3.04; lifetime $11.9K, ROAS 3.3) Prevention framing, no miracle promise.",
+   "headline": "Stop it turning yellow. 40% OFF sitewide.",
+   "prompt": "Real photograph on a bright white bathroom counter, lower two thirds of the frame: the white DentalPULSE Pod from the reference photo large in the center; on its left a thick rigid night guard that is yellowed and cloudy with a small label \"Before\", on its right a thick rigid night guard that is clear and clean with a small label \"After\", both clearly under half the Pod's width. A round blue #1188FF badge at the lower right with Barlow Bold \"40% OFF\" and \"+ free shipping\". IMPORTANT: no text anywhere except the small quoted labels above (if any), spelled exactly, in a clean sans-serif like Inter; no logos, no competitor names. Must look like a real unretouched photograph, not an AI render. Realistic scale: the Pod is always clearly larger than any dental appliance."
+  },
+  {
+   "id": "Y44_16_ret_callouts",
+   "group": "iteration",
+   "persona": "retainer",
+   "lang": "en",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "appliance": "retainer_clear",
+   "overlay": {
+    "headline": "Cloudy, milky retainer? That film is bacteria.",
+    "sub": null,
+    "pos": "top",
+    "tone": "dark"
+   },
+   "angle": "Callouts on a real photo: cloudy retainer in the basin, four bacteria/film claims (seasonal winner re-aim)",
+   "based_on": "Iteration of Seasonal 2025 'No Scrubbing Retainers' (static, $34 spend, ROAS 4.39) + Seasonal 2025 'Never brush retainer again' (static, $55 spend, ROAS 2.60) Headline 5 minutes (source said 3).",
+   "headline": "Cloudy, milky retainer? That film is bacteria.",
+   "prompt": "Real product photograph, bright bathroom shelf in window light, lower two thirds of the frame: the white DentalPULSE Pod from the reference photo, large, lid open, with one thin clear retainer with a cloudy milky film lying in the steel basin. Thin navy callout lines to four small white rounded labels in Inter Medium: \"Eliminates 99.9% of bacteria\", \"Clears the cloudy film\", \"No brushing, no scratches\", \"One 5-minute cycle\". IMPORTANT: no text anywhere except the small quoted labels above (if any), spelled exactly, in a clean sans-serif like Inter; no logos, no competitor names. Must look like a real unretouched photograph, not an AI render. Realistic scale: the Pod is always clearly larger than any dental appliance.",
+   "gif": {
+    "build": true,
+    "first_ms": 2400,
+    "frames": [
+     {
+      "edit": "Remove the four callout lines and labels",
+      "ms": 900
+     },
+     {
+      "edit": "Remove the retainer from the basin",
+      "ms": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "Y44_17_ret_case_lofi",
+   "group": "iteration",
+   "persona": "retainer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "retainer_hawley",
+   "style": "ugc",
+   "no_product": true,
+   "overlay": {
+    "headline": "Your retainer case is full of bacteria.",
+    "sub": "That yellow-white film is why it smells.",
+    "pos": "top",
+    "tone": "light"
+   },
+   "angle": "Lo-fi gross real photo: Hawley retainer in a case with yellow-white film and slime (no product)",
+   "based_on": "Iteration of Seasonal 2025 'Never brush retainer again' (static, $55 spend, ROAS 2.60) No price.",
+   "headline": "Your retainer case is full of bacteria.",
+   "prompt": "Unedited phone photo on a bathroom counter, lower two thirds of the frame: an open blue plastic retainer case with a pink acrylic Hawley retainer with a metal wire inside, covered in a yellowish-white film, cloudy water and slimy residue in the corners, harsh vanity light. IMPORTANT: no text anywhere except the small quoted labels above (if any), spelled exactly, in a clean sans-serif like Inter; no logos, no competitor names. Must look like a real unretouched photograph, not an AI render. Realistic scale: the Pod is always clearly larger than any dental appliance."
+  },
+  {
+   "id": "Y44_18_al_before_after",
+   "group": "iteration",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "pod_open",
+   "funnel": "tof",
+   "appliance": "aligner",
+   "overlay": {
+    "headline": "That white film on your aligners is bacteria.",
+    "sub": "Ultrasonic cleaner. 5 minutes. Tap water.",
+    "pos": "top",
+    "tone": "dark"
+   },
+   "angle": "Before/after macro split: cloudy filmy aligner vs clear aligner, with the Pod",
+   "based_on": "Iteration of DEN81 H3 '6 of 7 pods can't remove bacteria' (video, $6,059 spend, ROAS 2.28) Film = bacteria framing.",
+   "headline": "That white film on your aligners is bacteria.",
+   "prompt": "Real macro photograph on a white bathroom counter, lower two thirds of the frame: the white DentalPULSE Pod from the reference photo, large, lid open, and in front of it two thin clear aligner trays side by side, each clearly under half the Pod's width: the left one heavily cloudy, opaque white-yellow with a thick chalky film and obvious yellow-brown stained spots so it clearly looks dirty, small label \"Before\"; the right one crystal clear, small label \"After 1 cycle\". IMPORTANT: no text anywhere except the small quoted labels above (if any), spelled exactly, in a clean sans-serif like Inter; no logos, no competitor names. Must look like a real unretouched photograph, not an AI render. Realistic scale: the Pod is always clearly larger than any dental appliance."
+  },
+  {
+   "id": "Y44_19_al_ios_reminder",
+   "group": "iteration",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "aligner",
+   "angle": "Native iPhone lock-screen notifications naming the film",
+   "based_on": "Iteration of VID_DEN24 'You've Been Lied To' (video, $3,237 spend, ROAS 2.34) Wear-time norm 20-22h; no invented stats.",
+   "headline": "Your aligners were in your mouth 22 hours today. Last cleaned: never.",
+   "prompt": "A realistic iPhone lock screen in light mode over a blurred wallpaper of a bathroom counter: large time \"7:42\" and date \"Wednesday, October 28\", and a stack of two iOS notifications with rounded translucent cards: first \"Reminder\" \"Your aligners were in your mouth 22 hours today. Last cleaned: never.\" and second \"DentalPULSE\" \"That white film is bacteria. Clean it in 5 minutes. 40% OFF sitewide + free shipping.\" Use the iOS system font. IMPORTANT: render ONLY the exact quoted words, spelled exactly; no other text, no real platform logos, no verified badges. Native app UI uses the platform's own system font. Must look like a real screenshot, not an AI render."
+  },
+  {
+   "id": "Y44_20_al_giant_offer",
+   "group": "iteration",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "aligner",
+   "overlay": {
+    "headline": "Cloudy aligners? Kill the bacteria. 40% OFF sitewide.",
+    "sub": "Free shipping + free dental case + free travel bag.",
+    "pos": "bottom",
+    "tone": "dark"
+   },
+   "angle": "Giant repeated 40% OFF type with the Pod + clearly sized free case + travel bag and a cloudy-to-clear aligner pair",
+   "based_on": "Iteration of Denture - 40% OFF _LP_PDP_V3 '40% Off + Free Gifts' (static, $378 spend, ROAS 3.04; lifetime $11.9K, ROAS 3.3) Current offer exact; bag about half the Pod's width.",
+   "headline": "Cloudy aligners? Kill the bacteria. 40% OFF sitewide.",
+   "prompt": "Real product photograph on a seamless pale-blue backdrop #E1EDF5, top 62% of the frame only (keep everything in the bottom 38% completely empty of objects: plain pale-blue floor/backdrop): giant Barlow Bold \"40% OFF\" repeated three times in the top third (top one solid blue #1188FF, lower ones fading). Inside that top 62%, below the giant numerals, the DentalPULSE Pod Denture Bundle from the reference photo: the white Pod as the clear hero, the black zip travel bag (about half the Pod's width) and the smoky dark-grey case (about one third of the Pod's width) clearly visible and fully in frame in front of it, and two thin clear aligner trays, one cloudy and one clear, at the right, each under half the Pod's width. IMPORTANT: no text anywhere except the small quoted labels above (if any), spelled exactly, in a clean sans-serif like Inter; no logos, no competitor names. Must look like a real unretouched photograph, not an AI render. Realistic scale: the Pod is always clearly larger than any dental appliance."
+  }
+ ],
+ "notes": "Oct 28 v3: feedback applied (dentures are dentures, fixed headline size via overlay, correct appliance shapes, Pod larger than appliances, bigger gifts, bacteria/yellow on every ad, no gimmick labels)."
+}

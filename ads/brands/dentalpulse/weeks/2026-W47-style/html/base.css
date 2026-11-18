@@ -1,0 +1,8 @@
+@font-face{font-family:Inter;font-weight:500;src:url(/home/user/claude_code_sam/ads/fonts/inter-latin-500-normal.woff)}
+@font-face{font-family:Inter;font-weight:600;src:url(/home/user/claude_code_sam/ads/fonts/inter-latin-600-normal.woff)}
+@font-face{font-family:Inter;font-weight:700;src:url(/home/user/claude_code_sam/ads/fonts/inter-latin-700-normal.woff)}
+@font-face{font-family:Barlow;font-weight:700;src:url(/home/user/claude_code_sam/ads/fonts/barlow-latin-700-normal.woff)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px;overflow:hidden;font-family:Inter,sans-serif}
+.bg{position:absolute;inset:0;background-size:cover;background-position:center}
+.abs{position:absolute}

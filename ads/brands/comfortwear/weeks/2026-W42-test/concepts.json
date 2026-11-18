@@ -1,0 +1,68 @@
+{
+  "week": "2026-W42-test",
+  "notes": "5-concept test of the 2026-10-13 feedback: native 9:16 layout, natural shoe proportions, no purple text, best-seller colorways, offer stack, proven angles (nurse, travel, teacher, plus-size) mixed, foot-pain-led hooks.",
+  "concepts": [
+    {
+      "id": "X42_01_nurse_heel_pain_hour_8",
+      "group": "test",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "black_purple",
+      "angle": "Foot pain (plantar fasciitis / heel pain) x nurse; lifestyle photo with feature callouts",
+      "based_on": "'Dear Nurses, work 12-hour shifts pain-free' ($229,894, 4.34 ROAS) + survey: plantar fasciitis 25% + scripts 'running shoe cushioning lasts about 2 hours'",
+      "headline": "Heel pain by hour 8? Your shoes quit at hour 2.",
+      "prompt": "Tight lifestyle close-up in a bright hospital corridor with a polished floor, background softly blurred. A woman nurse in navy scrub pants is shown only from the knees down, mid-stride, low camera angle: the pair of black-and-purple shoes fills the lower half of the frame, huge and razor sharp, knit texture and purple square pattern clearly visible. Top area, very large heavy black sans headline across the full width, two lines: \"HEEL PAIN BY HOUR 8?\" and in a lighter weight \"Your shoes quit at hour 2.\" Three black hand-drawn curved arrows from short bold black labels to the shoes: \"Arch support that holds\", \"Cushioned heel\", \"Slip-resistant grip\". Lower area, one solid deep-navy rounded pill with white bold text: \"BUILT FOR 12-HOUR SHIFTS\".",
+      "benchmark": "lifestyle_urgency"
+    },
+    {
+      "id": "X42_02_travel_offer_cobblestones",
+      "group": "test",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "angle": "Offer stack x travel; real-scene hero with big offer type",
+      "based_on": "Travel videos Kyro 293/369 ($58k-$66k, 2.15 ROAS) + Vessi 'Float over cobblestones' (100 days running) + user offer rule",
+      "headline": "20,000 steps on cobblestones. Feet still happy at dinner.",
+      "prompt": "Tight lifestyle close-up on a sunny European cobblestone street, background softly blurred: a woman's legs in cream cropped trousers from the knees down, mid-step, low camera angle, the pair of navy shoes with bright blue accents large and sharp in the lower half of the frame. Top area, very large heavy white sans headline with no box, two lines: \"20,000 STEPS ON COBBLESTONES.\" and in a lighter weight \"Feet still happy at dinner.\" Right side, a solid purple rectangular offer block with huge white \"40%\" and smaller white \"OFF\". Below it two white rounded pills with bold black text: \"30-DAY MONEY-BACK GUARANTEE\" and \"FREE SHIPPING\".",
+      "benchmark": "offer_block"
+    },
+    {
+      "id": "X42_03_plus_size_teacher_fb_comment",
+      "group": "test",
+      "persona": "plus_size",
+      "lang": "en",
+      "colorway": "all_black",
+      "format": "fb_comment",
+      "angle": "Teacher x plus-size, arch and foot pain after a full school day; native Facebook comment thread",
+      "based_on": "Proven angles teacher + plus-size (Kyro 170 'my weight' $106k; 'I lost 50lbs+' $93k) + Trustpilot 5-star language (traveling teacher, extra-wide feet, 'feet aren't tired after a busy day')",
+      "headline": "I'm on my feet all day teaching and I'm not a small woman.",
+      "compliance_note": "Comment wording is close to real Trustpilot reviews; swap in verbatim review text before running.",
+      "prompt": "Clean white background. Top, a very large heavy black sans headline across the full width: \"Didn't buy yet?\" and on a second line in deep navy \"Read what teachers are saying.\" Left two-thirds: two stacked Facebook-style comments (light grey rounded bubbles, small round profile photo, bold name, grey \"Like  Reply\" row, small reaction count). Comment 1 by \"Lindsey T.\" with a photo of a smiling plus-size woman in her 40s: \"I'm on my feet 7-8 hours a day teaching and I'm not a small woman. These are the first shoes where my feet don't hurt at the end of the day.\" Comment 2 by \"Charmaine C.\": \"They fit my extra-wide feet. Bought a second pair!\" Right third: a woman's leg in dark jeans from the knee down, the all-black shoe large and sharp, cropped so it slightly overlaps the comments. Bottom, one solid black rounded pill with white bold text: \"BUILT FOR LONG SCHOOL DAYS\".",
+      "benchmark": "comments_social"
+    },
+    {
+      "id": "X42_04_by_3pm_checklist",
+      "group": "test",
+      "persona": "comfort_only",
+      "lang": "en",
+      "colorway": "red_burgundy",
+      "angle": "Foot-pain self-check (swelling, bunions, heel pain, arthritis); symptom checklist",
+      "based_on": "Survey foot problems (PF 25%, arthritis 11%, neuropathy 10%, bunions 7%) + Senzio 'Do you have plantar fasciitis?' checklist (rising) + ComfoFeet 'Swollen feet | Solution' (360 days)",
+      "headline": "Do your feet do this by 3pm?",
+      "prompt": "Clean very light grey background. Top, a very large heavy black sans headline across the full width, two lines: \"DO YOUR FEET DO THIS\" and \"BY 3PM?\" Below, a compact list of four rows, each with a bold empty square checkbox and bold black text: \"Swell until your shoes feel tight\", \"Rub right where your bunion is\", \"Ache in the heel with every step\", \"Make your knees and back pay for it\". Lower half: the red shoe in a crisp studio side profile, very large, filling most of the width, sharp knit texture, soft natural floor shadow. Bottom, one solid black rounded pill with white bold text: \"WIDE TOE BOX · ARCH SUPPORT · STRETCH KNIT\".",
+      "benchmark": "callouts_white"
+    },
+    {
+      "id": "X42_05_nurse_offer_sticky_notes",
+      "group": "test",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "black_mint",
+      "angle": "Offer stack x nurse; lo-fi sticky notes on the shoe box",
+      "based_on": "Stepprs sticky-note offer (386 days running) + warehouse 'WARNING' winner (3.31 ROAS) + user offer rule",
+      "headline": "For 12-hour shifts on hospital floors.",
+      "prompt": "Realistic bright photo in a hospital staff break room, background softly blurred. Center: the black shoe with turquoise accents in crisp side view, very large (about half the frame width and more), resting on top of an open plain cardboard shoe box. Three bright yellow sticky notes with thick handwritten black marker: a large one on the box \"40% OFF\", and two on the table in front \"30-DAY MONEY-BACK GUARANTEE\" and \"FREE SHIPPING\". Top area, very large heavy black sans headline on a solid white rounded rectangle: \"FOR 12-HOUR SHIFTS\" and in a lighter weight \"on hospital floors.\"",
+      "benchmark": "warehouse_urgency"
+    }
+  ]
+}

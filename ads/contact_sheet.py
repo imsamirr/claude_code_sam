@@ -21,7 +21,10 @@ ADS_DIR = Path(__file__).resolve().parent
 
 
 def pick(rows, by, per):
-    rank = lambda r: -float(r.get("days_running") or r.get("spend") or 0)
+    def rank(r):  # best first: impression percentile (lower = more impressions), else days running / spend
+        if r.get("impression_percentile") not in (None, ""):
+            return float(r["impression_percentile"])
+        return -float(r.get("days_running") or r.get("spend") or 0)
     groups = {}
     for r in rows:
         if r.get("image_url") or r.get("thumbnail_url"):
@@ -47,6 +50,7 @@ def tile(r, by):
     t = Image.new("RGB", (300, 410), "white")
     t.paste(im, (0, 30))
     label = " ".join(str(x) for x in (r.get(by, "") if by else "", r.get("format", "")[:1],
+                                      f"top {float(r['impression_percentile'])*100:.1f}%" if r.get("impression_percentile") not in (None, "") else "",
                                       f"{r['days_running']}d" if r.get("days_running") else "",
                                       f"${float(r['spend']):,.0f}" if r.get("spend") else "",
                                       f"ROAS {r['roas']}" if r.get("roas") else "") if x)

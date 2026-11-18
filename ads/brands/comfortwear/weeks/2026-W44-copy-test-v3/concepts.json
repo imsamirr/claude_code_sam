@@ -1,0 +1,112 @@
+{
+  "week": "2026-W44-copy-test-v3",
+  "notes": "2026-10-26 v3: winning white layout (A) and strike-through sale static (B) per Atria feedback. 4:5, medium.",
+  "concepts": [
+    {
+      "id": "Q44_01_nurse_running_shoes_12h_callouts",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "black_purple",
+      "theme": "nurse",
+      "angle": "Winning layout (A): white background, one big shoe, arrows to named conditions; strong line 'Your running shoes weren't made for 12-hour shifts. These were.'",
+      "based_on": "Dear Nurses Features ($229k, 4.34 ROAS); 12-hour shift list ($858k); Kyro 154/172 running-shoe argument ($254k / $70k videos)",
+      "headline": "Your running shoes weren't made for 12-hour shifts. These were.",
+      "prompt": "Plain clean white background. Heavy black headline at the top in two lines, left aligned: \"YOUR RUNNING SHOES WEREN'T MADE FOR 12-HOUR SHIFTS.\" then in second heavier line \"THESE WERE.\" One big hero shoe in the center, the black-purple shoe from the reference photo at a three-quarter side angle, true proportions, about 50% of the frame, soft shadow. Four thin black hand-drawn curved arrows from the shoe to four bold labels placed around it: \"FOR PLANTAR FASCIITIS\", \"ROOM FOR BUNIONS\", \"STRETCH FIT FOR SWOLLEN FEET\", \"SLIP-RESISTANT GRIP\". Nothing else. All text is large bold, high contrast, max 5 words per label. No icons, no badges, no buttons, no logo, no other text.",
+      "benchmark": "callouts_white",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "Q44_01_es_nurse_running_shoes_12h_callouts",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "es",
+      "colorway": "black_purple",
+      "theme": "nurse",
+      "angle": "Winning layout (A): white background, one big shoe, arrows to named conditions; strong line 'Your running shoes weren't made for 12-hour shifts. These were.'",
+      "based_on": "Dear Nurses Features ($229k, 4.34 ROAS); 12-hour shift list ($858k); Kyro 154/172 running-shoe argument ($254k / $70k videos)",
+      "headline": "Tus tenis de correr no se hicieron para turnos de 12 horas. Estos sí.",
+      "prompt": "Fondo blanco limpio y liso. Titular pesado en negro arriba en dos líneas, alineado a la izquierda: \"TUS TENIS DE CORRER NO SE HICIERON PARA TURNOS DE 12 HORAS.\" y en una segunda línea más pesada \"ESTOS SÍ.\" Un zapato grande en el centro, el zapato negro-morado del referente en ángulo tres cuartos de lado, proporciones reales, ~50% del cuadro, sombra suave. Cuatro flechas curvas delgadas dibujadas a mano en negro del zapato a cuatro etiquetas en negrita alrededor: \"PARA FASCITIS PLANTAR\", \"ESPACIO PARA JUANETES\", \"AJUSTE ELÁSTICO PARA PIES HINCHADOS\", \"SUELA ANTIDERRAPANTE\". Nada más. Todo el texto es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta. Sin íconos, sin insignias, sin botones, sin logo, ningún otro texto.",
+      "benchmark": "callouts_white",
+      "twin_of": "Q44_01_nurse_running_shoes_12h_callouts",
+      "tags": [
+        "FP",
+        "ES"
+      ]
+    },
+    {
+      "id": "Q44_02_nurse_12h_shift_shoes_sale_3_colors",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "en",
+      "colorway": "black_purple",
+      "theme": "nurse",
+      "angle": "Sale static (B): white background, three colors, strike-through $90 to $59.95, one small offer line",
+      "based_on": "'$59.95 12-hour shift shoes, today only' static (running 235+ days); 40% off sale statics ('ortho PDP', $125k at 2.63 ROAS); Last chance static ($64k, 2.16 ROAS)",
+      "headline": "12-hour shift shoes. $59.95.",
+      "prompt": "Plain clean white background. Heavy black headline at the top: \"12-HOUR SHIFT SHOES\". Right under it the price: a grey \"$90\" with a clear strike-through line next to a big bold black \"$59.95\". Center: the three shoes from the reference image arranged as a large overlapping trio, black-purple in front, navy-blue and red-burgundy behind, exactly as shown, true proportions, the trio filling about 55% of the frame width-wise and tall enough to see the knit clearly, soft shadows. Below the shoes three large bold black labels in one row: \"ARCH SUPPORT\" \"12-HOUR COMFORT\" \"NON-SLIP GRIP\" (each label at least 1/28 of the canvas height). At the bottom one line of text, at least 1/35 of the canvas height, readable: \"40% OFF · FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\". Nothing else. All text is large bold, high contrast. No icons, no badges, no buttons, no logo, no other text.",
+      "benchmark": "list_white",
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+      "tags": [
+        "FP",
+        "OFFER"
+      ]
+    },
+    {
+      "id": "Q44_02_es_nurse_12h_shift_shoes_sale_3_colors",
+      "group": "net_new",
+      "persona": "nurse",
+      "lang": "es",
+      "colorway": "black_purple",
+      "theme": "nurse",
+      "angle": "Sale static (B): white background, three colors, strike-through $90 to $59.95, one small offer line",
+      "based_on": "'$59.95 12-hour shift shoes, today only' static (running 235+ days); 40% off sale statics ('ortho PDP', $125k at 2.63 ROAS); Last chance static ($64k, 2.16 ROAS)",
+      "headline": "Zapatos para turnos de 12 horas. $59.95.",
+      "prompt": "Fondo blanco limpio y liso. Titular pesado en negro arriba: \"ZAPATOS PARA TURNOS DE 12 HORAS\". Justo debajo el precio: un \"$90\" gris claramente tachado junto a un \"$59.95\" grande y en negrita negro. Al centro: los tres zapatos de la imagen de referencia como un trío grande superpuesto, negro-morado al frente, azul marino y rojo-vino atrás, exactamente como se ven, proporciones reales, el trío ocupa ~55% del ancho del cuadro y es lo bastante alto para ver el tejido con claridad, sombras suaves. Debajo de los zapatos tres etiquetas grandes en negrita negro en una fila: \"SOPORTE DE ARCO\" \"COMODIDAD DE 12 HORAS\" \"SUELA ANTIDERRAPANTE\" (cada etiqueta de al menos 1/28 de la altura). Abajo una línea de texto legible, de al menos 1/35 de la altura, escrita exactamente así en inglés: \"40% OFF · FREE SHIPPING · 30-DAY MONEY-BACK GUARANTEE\". Nada más. Todo el texto es grande y en negrita, de alto contraste. Sin íconos, sin insignias, sin botones, sin logo, ningún otro texto.",
+      "benchmark": "list_white",
+      "reference_image": "reference/shoes_three_colors_bp_navy_red.png",
+      "twin_of": "Q44_02_nurse_12h_shift_shoes_sale_3_colors",
+      "tags": [
+        "FP",
+        "OFFER",
+        "ES"
+      ]
+    },
+    {
+      "id": "Q44_03_travel_walking_shoes_cobblestones_callouts",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "en",
+      "colorway": "navy_blue",
+      "theme": "travel",
+      "angle": "Winning layout (A) for travel: white background, one big shoe, arrows to named problems",
+      "based_on": "Dear Nurses Features ($229k, 4.34 ROAS); Kyro 293/369/373 cobblestone winners; Kyro 154 running-shoes argument",
+      "headline": "Your walking shoes weren't made for cobblestones. These were.",
+      "prompt": "Plain clean white background. Heavy black headline at the top in two lines, left aligned: \"YOUR WALKING SHOES WEREN'T MADE FOR COBBLESTONES.\" then in a second heavier line \"THESE WERE.\" One big hero shoe in the center, the navy shoe from the reference photo at a three-quarter side angle, true proportions, about 50% of the frame, soft shadow. Four thin black hand-drawn curved arrows from the shoe to four bold labels around it: \"FIRM SOLE FOR STONE\", \"FOR HEEL PAIN\", \"ROOM FOR BUNIONS\", \"STRETCH FIT FOR SWOLLEN FEET\". Nothing else. All text is large bold, high contrast, max 5 words per label. No icons, no badges, no buttons, no logo, no other text.",
+      "benchmark": "callouts_white",
+      "tags": [
+        "FP"
+      ]
+    },
+    {
+      "id": "Q44_03_es_travel_walking_shoes_cobblestones_callouts",
+      "group": "net_new",
+      "persona": "traveler",
+      "lang": "es",
+      "colorway": "navy_blue",
+      "theme": "travel",
+      "angle": "Winning layout (A) for travel: white background, one big shoe, arrows to named problems",
+      "based_on": "Dear Nurses Features ($229k, 4.34 ROAS); Kyro 293/369/373 cobblestone winners; Kyro 154 running-shoes argument",
+      "headline": "Tus zapatos de caminar no se hicieron para adoquines. Estos sí.",
+      "prompt": "Fondo blanco limpio y liso. Titular pesado en negro arriba en dos líneas, alineado a la izquierda: \"TUS ZAPATOS DE CAMINAR NO SE HICIERON PARA ADOQUINES.\" y en una segunda línea más pesada \"ESTOS SÍ.\" Un zapato grande en el centro, el zapato azul marino del referente en ángulo tres cuartos de lado, proporciones reales, ~50% del cuadro, sombra suave. Cuatro flechas curvas delgadas dibujadas a mano en negro del zapato a cuatro etiquetas en negrita alrededor: \"SUELA FIRME PARA PIEDRA\", \"PARA DOLOR DE TALÓN\", \"ESPACIO PARA JUANETES\", \"AJUSTE ELÁSTICO PARA PIES HINCHADOS\". Nada más. Todo el texto es grande y en negrita, de alto contraste, máximo 5 palabras por etiqueta. Sin íconos, sin insignias, sin botones, sin logo, ningún otro texto.",
+      "benchmark": "callouts_white",
+      "twin_of": "Q44_03_travel_walking_shoes_cobblestones_callouts",
+      "tags": [
+        "FP",
+        "ES"
+      ]
+    }
+  ]
+}

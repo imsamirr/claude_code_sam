@@ -1,0 +1,224 @@
+{
+  "week": "2026-W45-healthcare-pain",
+  "notes": "Healthcare worker + specific foot-pain conditions (user 2026-10-30). Nurse colors only. Conditions from feedback sheet (18,452 responses).",
+  "concepts": [
+    {
+      "id": "HC_01_pf_face_split_nurse",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "g_face_split",
+      "headline": "NURSES WITH PLANTAR FASCIITIS",
+      "prompt": "White background. Top: huge heavy red condensed headline on two lines \"NURSES WITH\" / \"PLANTAR FASCIITIS\". Below: the same nurse about 45 in navy scrubs at a bright hospital nurses' station, shown twice side by side, waist up. Left: wincing, eyes squeezed, leaning on the counter and lifting one heel, a dark grey pill label above her \"HOUR 10 IN RUNNING SHOES\", round inset at the bottom showing a foot with a glowing red heel. Right: relaxed and smiling, charting on a tablet, a purple pill label above her \"HOUR 10 IN ORTHO STRETCH\", round inset at the bottom showing the black shoe with purple accents from the product reference. Bottom: a black band with white bold text \"40% OFF + FREE SHIPPING\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "healthcare",
+        "foot_pain"
+      ],
+      "angle": "Plantar fasciitis, nurse face split",
+      "based_on": "Stepprs PF face split (active, top percentile) + feedback sheet: PF 27.5% of nurses; Emily RN winner 'I'm a nurse with plantar fasciitis'"
+    },
+    {
+      "id": "HC_02_stabbing_heel_xray",
+      "persona": "nurse",
+      "colorway": "all_black",
+      "benchmark": "g_asleep_wakes",
+      "headline": "THAT STABBING HEEL PAIN AFTER A 12?",
+      "prompt": "Warm light cream background. Top strip in thin dark text with five dark stars: \"FOR NURSES WHO LIMP TO THEIR CAR\". Huge heavy condensed headline on two lines, first line black \"THAT STABBING HEEL PAIN\" second line deep red \"AFTER A 12?\". Left column: a small blue-grey X-ray style illustration of a foot skeleton from the side with a glowing red spot under the heel; below it three simple dark line icons with dark bold two-line text: \"Cushioned heel\" / \"for every step\"; \"Arch support\" / \"that holds all shift\"; \"Rocker sole\" / \"rolls you forward\". Right 45% of the width: the all-black shoe from the product reference shown in a clean straight SIDE PROFILE exactly like the reference photo (same slim sock-knit upper, same bungee laces and toggle, same rocker sole height and tread), a normal realistic size that fills about 40% of the image width, softly lit with a light rim so the black knit texture and sole edge are clearly visible, never bloated, never oversized, never touching the text. Bottom: a black bar with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "healthcare",
+        "foot_pain"
+      ],
+      "angle": "Heel spur / stabbing heel pain",
+      "based_on": "Feedback sheet 'My heels hurt to the point I feel like I can't walk on them'; Spanish winner 'dagger in the heel'; user liked x-ray foot icon; Konjoun scaling format"
+    },
+    {
+      "id": "HC_03_bunions_12s",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "benchmark": "g_over60_callouts",
+      "headline": "Bunions + 12-hour shifts?",
+      "prompt": "Clean off-white background. Top-left, heavy dark navy text on two lines: \"Bunions +\" / \"12-hour shifts?\". Below it, on a soft yellow highlighter swipe, dark bold text: \"Room for my bunions without rubbing.\" and under it small dark text \"- ComfortWear customer, nurse\". Right half: a top-down close view of a nurse's feet in navy scrub pants standing on a light hospital floor wearing the navy shoes with bright blue accents from the product reference, the knit gently shaped around the big-toe joint, true proportions. Left column: three thin grey leader lines pointing at the shoe, each with a two-line dark label: \"Stretch knit\" / \"gives at the bunion\"; \"Wide\" / \"toe box\"; \"Arch\" / \"support\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "none",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "healthcare",
+        "foot_pain"
+      ],
+      "angle": "Bunions (second pain)",
+      "based_on": "Feedback sheet: bunions 8.3% of nurses, 'Room for my bunions without discomfort', 'Wide toe box and good arch support'; Armadilo callout format"
+    },
+    {
+      "id": "HC_04_dear_cnas_neuropathy",
+      "persona": "cna_caregiver",
+      "colorway": "black_white",
+      "benchmark": "t_dear_strike",
+      "headline": "Dear CNAs with neuropathy,",
+      "prompt": "White background. Top-left heavy black text on two lines: \"Dear CNAs with neuropathy,\" / \"Your shoes shouldn't add to it.\" Left column, four rows, each with a grey struck-through phrase then a bold navy phrase: \"Seams that rub\" -> \"Smooth stretch knit\"; \"Tight toe boxes\" -> \"Room to spread\"; \"Hard flat soles\" -> \"Cushioned rocker sole\"; \"Bending to tie\" -> \"No-tie laces\". Right: the black shoe with white sole and white accents from the product reference, side view, plus a smaller top-down view, true proportions. Bottom: a black pill with white bold text \"40% OFF + FREE SHIPPING\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "healthcare",
+        "foot_pain"
+      ],
+      "angle": "Neuropathy (burning, tingling, numb) for CNAs",
+      "based_on": "Feedback sheet: neuropathy 11.3% overall, CNA survey; Stepprs neuropathy testimonial ads; trending 'Dear ___' strike list"
+    },
+    {
+      "id": "HC_05_ball_of_foot_burning",
+      "persona": "nurse",
+      "colorway": "all_black",
+      "benchmark": "g_face_split",
+      "headline": "THE BURNING IN THE BALL OF YOUR FOOT BY HOUR 6",
+      "prompt": "Very light grey background. Top: heavy black condensed headline on three lines \"THE BURNING IN\" / \"THE BALL OF YOUR FOOT\" / \"BY HOUR 6?\" (the middle line deep red). Middle: two simple footprint pressure-map illustrations seen from below, side by side, each in a rounded white card: left card labeled on a dark grey pill \"FLAT SNEAKERS\" with a hot red and orange zone under the ball of the foot; right card labeled on a black pill \"ORTHO STRETCH\" with calm blue and green tones spread evenly. Bottom area: the all-black shoe from the product reference, side view, large, then dark bold text \"Cushioned rocker sole. Wide toe box.\" All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "none",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "healthcare",
+        "foot_pain"
+      ],
+      "angle": "Ball-of-foot burning (Morton's neuroma style)",
+      "based_on": "Feedback sheet: Morton's neuroma / ball-of-foot 1.7% (new test) 'burning in the ball of my foot'; face-split comparison format"
+    },
+    {
+      "id": "HC_06_flat_feet_arches",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "benchmark": "t_first_time_years",
+      "headline": "FLAT FEET? YOUR SHOES SHOULD DO THE HOLDING.",
+      "prompt": "Soft pastel blue background. Top: heavy dark navy condensed headline on three lines \"FLAT FEET?\" / \"YOUR SHOES SHOULD\" / \"DO THE HOLDING.\" Middle: two clean side-view anatomical foot illustrations in rounded cards: left labeled \"IN FLAT SNEAKERS\" shows the arch sagging flat to the ground with a red downward arrow; right labeled \"IN ORTHO STRETCH\" shows the arch held up by a contoured footbed with a green upward arrow. Bottom: the navy shoe with bright blue accents from the product reference, three-quarter view, and beside it dark bold text \"Arch support built in.\" / \"No insoles to swap.\" All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "none",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "healthcare",
+        "foot_pain"
+      ],
+      "angle": "Flat feet / fallen arches",
+      "based_on": "Feedback sheet: flat feet 2.3% (new test); Footstr flat-feet ads (79); 'support/arch' 20.9% of what buyers look for"
+    },
+    {
+      "id": "HC_07_heels_knees_back",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "g_first_then_soon",
+      "headline": "First my heels. Then my knees. Then my back.",
+      "prompt": "Pure white background. Top: heavy black text on two lines \"First my heels. Then my knees.\" / \"Then my back.\" with \"Then my back.\" in deep red. Below: three columns joined by dashed arrows, each a simple navy line sketch of a nurse in scrubs with one red glowing spot: at the heel, at the knee, at the lower back; bold caps labels \"HOUR 4\", \"HOUR 8\", \"HOUR 12\". Bottom half: the black shoe with purple accents from the product reference, side view, large, and dark bold text \"It starts at your feet. Start there.\" All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "none",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "healthcare",
+        "foot_pain"
+      ],
+      "angle": "Pain chain heels-knees-back (knee/back gap angle)",
+      "based_on": "Orthora long-runner 'First my heels. Then my arches. Then my knees and lower back'; feedback 'Pain in feet and knees after standing for 12 hours', back pain rising; Konjoun FIRST/THEN/SOON"
+    },
+    {
+      "id": "HC_08_hey_nurses_over_50",
+      "persona": "nurse",
+      "colorway": "all_black",
+      "benchmark": "g_over60_callouts",
+      "headline": "Hey Nurses Over 50!",
+      "prompt": "Clean off-white background. Top-left heavy black text on two lines: \"Hey Nurses\" / \"Over 50!\" (second line extra bold). Below two short dark lines: \"Arthritic feet. 12-hour floors.\" and, on a soft yellow highlighter swipe, \"No bending. No tying. No pinching.\" Right half: a close crop of a nurse's lower legs in black scrubs walking down a bright hospital hallway wearing the all-black shoes from the product reference. Left column: four thin grey leader lines pointing at the shoe, each with a two-line dark label: \"No-Tie\" / \"Laces\"; \"Wide\" / \"Toe Box\"; \"Cushioned\" / \"Rocker Sole\"; \"Slip-Resistant\" / \"Grip\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "none",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "healthcare",
+        "foot_pain"
+      ],
+      "angle": "Arthritis + age call-out for nurses",
+      "based_on": "Feedback sheet: arthritis 10.4% of nurses; ages 50-65 38%; Armadilo 'Hey Walkers Over 60!' gap format"
+    },
+    {
+      "id": "HC_09_emily_rn_quote",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "benchmark": "t_candid_nurse",
+      "headline": "I'm a nurse with plantar fasciitis.",
+      "prompt": "A candid phone photo in a bright hospital hallway: a smiling nurse about 40 in navy scrubs with a stethoscope, full body, standing casually, wearing the navy shoes with bright blue accents from the product reference, sharp and true proportions. Over the top third, a white rounded quote card with heavy black text: \"I'm a nurse with plantar fasciitis.\" and below it in bold dark text \"Popular shoes always hurt my feet after 3 12s in a row. These don't.\" Small dark text under the card: \"- Emily, RN\". Bottom: a navy band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "healthcare",
+        "foot_pain"
+      ],
+      "angle": "Winner iteration: Emily RN PF testimonial",
+      "based_on": "Our winner 203 UGC Emily RN ($4.2k-$100k spend, 2.9-3.05 ROAS) first line, as a static",
+      "style": "ugc"
+    },
+    {
+      "id": "HC_10_tried_everything_heel",
+      "persona": "nurse",
+      "colorway": "black_white",
+      "benchmark": "t_anti_x",
+      "headline": "I TRIED EVERYTHING FOR MY HEEL PAIN",
+      "prompt": "White background. Top, centered with wide side margins (text no wider than 80% of the image): large heavy navy condensed text \"I TRIED EVERYTHING\" and under it bold red condensed text \"FOR MY HEEL PAIN\". Below, a left-aligned list, each line starting with a bold red X: \"Gel insoles\"; \"Ibuprofen before every shift\"; \"Running shoes\"; \"$300 orthotics\". Then one line with a bold green check: \"Shoes built for 12s\". Bottom half: the black shoe with white sole and white accents from the product reference, three-quarter view, large, on white. All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "none",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "healthcare",
+        "foot_pain"
+      ],
+      "angle": "Tried-everything enemy list (PF)",
+      "based_on": "Kyro 172 'Three things the healthcare industry doesn't want you to know' (running shoes, painkillers, $400 shoes); Kyro 141 insoles; Carol Bennett 'wasn't the orthotics'"
+    },
+    {
+      "id": "HC_11_whole_unit_switched",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "t_collage_offer",
+      "headline": "Why nurses on my floor switched.",
+      "prompt": "Bright hospital break room, real photo, low angle: four nurses in navy and black scrubs standing side by side, shown from the knees down, each wearing one of the four pairs shown in the product reference, left to right: black with purple accents, black with white accents and white sole, all black, navy with bright blue accents. All four are EXACTLY the same shoe model as the reference (same knit pattern, same bungee laces, same rocker sole), only the colors differ; no stripes, no air bubbles, no other shoe designs; sharp and true proportions on a light floor. Top: a white band with heavy black text, centered with wide side margins, on two lines \"Why nurses on my floor\" / \"switched.\" (text no wider than 80% of the image) Under it bold dark text \"It started with one nurse's heel pain.\" Bottom: a black band with white bold text \"40% OFF + FREE SHIPPING + 30-DAY MONEY-BACK GUARANTEE\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "standard",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "healthcare",
+        "foot_pain"
+      ],
+      "angle": "Peer proof on the unit",
+      "based_on": "Copy playbook: 'Three other nurses on my floor ordered them after seeing mine' (winner script); nurse colorway rule shows all 4",
+      "reference_image": "reference/shoes_four_nurse_colors.png"
+    },
+    {
+      "id": "HC_12_hsa_pf_nurse",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "t_dear_heavy",
+      "headline": "Plantar fasciitis? Use your HSA/FSA.",
+      "prompt": "Soft lavender-grey pastel background. Top: heavy black text on two lines \"Plantar fasciitis?\" / \"Use your HSA/FSA.\" Below in bold dark text: \"Shoes built for 12-hour shifts.\" Center: the black shoe with purple accents from the product reference, three-quarter view, large, resting on a folded navy scrub top with a stethoscope beside it. Lower area: a white rounded card with bold black text \"HSA/FSA ELIGIBLE\" and below it \"UP TO 30% SAVINGS\", then very small dark text \"Eligibility may vary\". All text is huge, bold and high contrast for readers aged 60+, with at least 7% clear margin between every text element and every edge (the longest line spans at most 84% of the width). Light or pastel background so the shoe stands out; the shoe is shown at true proportions, never squashed or stretched, and never overlaps any text. Never copy any word, logo or product from the second attached image (it is only a layout reference). No other text anywhere.",
+      "offer": "hsa",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "healthcare",
+        "foot_pain"
+      ],
+      "angle": "HSA/FSA + PF for healthcare workers",
+      "based_on": "Approved HSA/FSA claim (2026-10-28); HD batch HSA concepts; PF lead"
+    }
+  ]
+}
