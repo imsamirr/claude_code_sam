@@ -90,6 +90,7 @@
  },
  "language_rules": {},
  "atria_account": "Dentalpulse",
+ "stefanbrain": {"product_id": "dd7d907a-b8c5-4f27-8b6a-4cc347ee8778", "project_id": "proj_9ba354c8bfc94079b53e4c1347b0bd1e", "session_prefix": "dentalpulse", "note": "StefanBrain writes the copy for every static batch (static-ads skill §2a, ads/stefanbrain.py copy). Brand knowledge lives on the StefanBrain product (files) and project (instructions)."},
  "program": {
   "schedule": "Tue + Fri 6:05am America/New_York (routine 'DentalPULSE weekly statics', trig_01LoR9bkHByFXEBh68gwbz8V)",
   "iteration_batch": {

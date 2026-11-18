@@ -122,7 +122,8 @@ def concept_csv(bdir, week, repo_url):
     buf = io.StringIO()
     w = csv.writer(buf)
     w.writerow(["ID", "Group", "Persona", "Language", "Colorway", "Headline", "Angle", "Based on",
-                "GIF candidate", "Image (4:5)", "GIF", "Verdict", "Notes"])
+                "GIF candidate", "Image (4:5)", "GIF", "Verdict", "Notes", "Primary text", "FB headline",
+                "FB description", "Copy by"])
     for c in concepts:
         out = wdir / "output"
         stems = sorted(p.stem for p in out.glob(f"{c['id']}_v*.png") if STATIC.fullmatch(p.stem))
@@ -132,7 +133,8 @@ def concept_csv(bdir, week, repo_url):
         w.writerow([c["id"], c.get("group", ""), c["persona"], c.get("lang", "en"), c.get("colorway", ""),
                     c["headline"], c["angle"], c["based_on"], "yes" if c.get("gif") else "",
                     link(f"{stem}_4x5.png") or link(f"{stem}.png"), link(f"{stem}.gif"),
-                    fb.get("verdict", ""), fb.get("notes", "")])
+                    fb.get("verdict", ""), fb.get("notes", ""), c.get("primary_text", ""),
+                    c.get("fb_headline", ""), c.get("fb_description", ""), c.get("copy_source", "claude")])
     print(buf.getvalue(), end="")
 
 

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "stefanbrain": {
+      "type": "http",
+      "url": "https://stefanbrain.com/api/developers/v1/mcp",
+      "headers": {
+        "Authorization": "Bearer ${STEFANBRAIN_API_KEY:-set-STEFANBRAIN_API_KEY}"
+      }
+    }
+  }
+}

@@ -387,6 +387,48 @@ formats. `"group": "iteration"`.
 - **GIF candidates**: 3–8 `gif` blocks where motion adds meaning. `"build": true`: each edit removes one
   element; the GIF plays in reverse and holds on the full static. 2–3 edits.
 
+## 2a. Copy by StefanBrain (user rule 2026-11-18: StefanBrain writes the copy for every batch, both brands)
+
+StefanBrain (Stefan Georgi's copywriting AI) writes every concept's words: the on-image headline and lines,
+the Meta primary text, headline and description. It already holds each brand's knowledge: the StefanBrain
+**product** (brand.json `stefanbrain.product_id`) carries the files (ad-account export with every ad's copy,
+spend, ROAS and video transcripts; past scripts from Notion; analysis, briefs, customer voice, competitors),
+the **project** (`stefanbrain.project_id`) carries the standing instructions. You still do the research,
+pick the sources, layouts, personas, mix and offers (§1, §2), and you own the image prompts and QA.
+
+1. **Plan the slots first.** Write concepts.json with everything except the final words: `id`, `group`,
+   `persona`, `format`/layout + `benchmark`, `appliance`/`colorway`, `funnel` (`"tof"` or `"offer"`),
+   `offer` (the exact offer stack for offer ads), `rival` / `angle_gap` when set, a working `angle`,
+   `based_on` (for iterations: source ad name, spend, ROAS **and its headline + primary text or the
+   transcript lines it is built on**, so StefanBrain keeps the source's DNA), and `copy_slots` when the
+   layout prints more than a headline (e.g. `["headline", "3 checklist rows", "offer pill"]`). Optional
+   `copy_notes` for a hard fact the slot needs (e.g. "night guard, not dentures"). No headline yet.
+2. **Ask StefanBrain:** `python ads/stefanbrain.py copy --brand <brand> --week <folder>` (10 concepts per
+   ask, asks run in parallel, each in its own chat `<brand>-statics-<folder>-<n>` inside the brand's
+   project; takes ~5–20 min; it polls). It sends only the facts StefanBrain can't see (placement, character
+   limits, approved claims, claims to avoid, offers, product facts, the slots) and no framework, tone or
+   sample copy: StefanBrain's own method writes. It fills `headline`, `on_image_text`, `primary_text`,
+   `fb_headline`, `fb_description`, `copy_angle`, `copy_why`, `copy_source: "stefanbrain"` and
+   `stefanbrain_chat`, and logs the raw answers in `weeks/<folder>/stefanbrain_copy.json`. Exit code 2
+   lists ids it missed: run `copy` again with `--ids`.
+3. **Use the words verbatim** in the image prompts (every on-image word in double quotes, as always). Don't
+   rewrite StefanBrain's lines yourself. If a line breaks a hard rule (claims_to_avoid, a wrong product fact,
+   an offer that isn't the current one, too long to read at the layout's size, a duplicate of another ad's
+   headline), send it back: `python ads/stefanbrain.py revise --brand <brand> --week <folder> --id <id>
+   "<the rule it breaks>"` (same chat). After two failed revisions you may fix the line yourself and set
+   `copy_source: "stefanbrain+edit"`.
+4. **Fallback:** if StefanBrain is unreachable (401/403 = key missing on this environment; or a run still
+   going after 50 min), write the copy yourself per §1b, set `copy_source: "claude"`, and say so at the TOP
+   of the Slack DM. Never block the batch on it.
+5. The Drive sheet (`review.py csv`) carries Primary text, FB headline, FB description and Copy by, so the
+   media buyer can paste them. The Slack summary line adds "copy: StefanBrain n/N".
+6. **Keep StefanBrain's knowledge fresh (Fridays, after delivery):** `python ads/atria_pull.py export --brand
+   <brand>` (~30–60 min, run it in the background while rendering), `python ads/stefanbrain.py history --brand
+   <brand>`, then `python ads/stefanbrain.py upload --brand <brand> ads/brands/<brand>/research/data/ad_account_export.md
+   ads/brands/<brand>/research/static_copy_history.md` plus any research file you materially changed this run
+   (analysis.md, winning_briefs.md / notion_brief.md, core_competitors.md). A re-uploaded name replaces the old
+   copy on the product. Don't commit `ad_account_export.*` more than once a week (large).
+
 ## 3. Render
 
 ```bash

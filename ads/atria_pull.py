@@ -10,6 +10,7 @@
     python ads/atria_pull.py inspo       # image ads, rising impressions, launched last 30 days
     python ads/atria_pull.py inspiration # CURATED inspiration (user rule Oct 28): active static ads launched 7-45 days ago,
                                          # impressions growing week over week, oral care + health & wellness queries
+    python ads/atria_pull.py export --brand <brand>  # full ad history (copy, metrics, cached transcripts) for StefanBrain
     python ads/atria_pull.py competitors # top-impression ads: competitor_brands + inspo_queries keywords
     python ads/atria_pull.py wellness    # health & wellness image ads (any category), 45 days, active, 10+ days running
     python ads/atria_pull.py rivals      # EVERY ad (image + video) from brand.json -> core_competitors (Hike, Stepprs), full copy
@@ -88,11 +89,22 @@ class Atria:
                 return a["id"]
         sys.exit(f"Ad account {name!r} not found in this Atria workspace.")
 
-    def top_ads(self, acc, start, stop):
+    def top_ads(self, acc, start, stop, offset=0):
         return self.get(f"ad-accounts/{acc}/ads", {
             "period": "custom", "date_start": str(start), "date_stop": str(stop),
-            "sort_by": "spend", "limit": 50,
+            "sort_by": "spend", "limit": 50, "offset": offset,
         })["items"]
+
+    def cached_transcript(self, acc, video_id):
+        """Free cache lookup; never triggers a paid transcription. None when nothing is cached."""
+        try:
+            data = self.get(f"ad-accounts/{acc}/videos/{video_id}/transcript")
+        except Exception:  # 40401 = nothing cached
+            return None
+        t = data.get("transcript") if data.get("status", "success") == "success" else None
+        if isinstance(t, dict):
+            t = t.get("text")
+        return t
 
 
 def windows(start, end, step):
@@ -544,10 +556,95 @@ def rising(api, acc, args):
               "roas", "purchases", "headline", "primary_text", "thumbnail_url"])
 
 
+def export(api, accounts, args):
+    """Full ad-account history for copywriting context (StefanBrain product files): every ad with
+    >= --export-min-spend since --since, all formats, with copy, summed metrics, months live, landing page
+    and the cached video transcript (free lookups only). Writes ad_account_export.csv and .md."""
+    yesterday = dt.date.today() - dt.timedelta(days=1)
+    rows = []
+    for name, acc in accounts:
+        agg = {}
+        for a, b in windows(dt.date.fromisoformat(args.since), yesterday, "month"):
+            items = []
+            for page in range(args.export_pages):
+                batch = api.top_ads(acc, a, b, offset=50 * page)
+                items += batch
+                time.sleep(0.7)
+                if len(batch) < 50:
+                    break
+            for it in items:
+                r = agg.setdefault(it["platform_ad_id"], {
+                    "ad_name": it["ad_name"], "format": it["asset_format"], "status": it["status"],
+                    "thumbnail_url": it["thumbnail_url"], "spend": 0.0, "revenue": 0.0, "purchases": 0.0,
+                    "impressions": 0, "clicks": 0, "first_seen": str(a)})
+                r["last_seen"] = str(b)
+                m = it["metrics"]
+                spend = m.get("spend") or 0
+                r["spend"] += spend
+                r["revenue"] += (m.get("roas") or 0) * spend
+                r["purchases"] += m.get("purchases") or 0
+                r["impressions"] += m.get("impressions") or 0
+                r["clicks"] += m.get("clicks_all") or 0
+        keep = sorted(((k, r) for k, r in agg.items() if r["spend"] >= args.export_min_spend),
+                      key=lambda kv: -kv[1]["spend"])
+        print(f"{name}: {len(agg)} ads seen, {len(keep)} with spend >= {args.export_min_spend:.0f}", flush=True)
+        for i, (ad_id, r) in enumerate(keep):
+            try:
+                detail = api.get(f"ad-accounts/{acc}/ads/{ad_id}", {"period": "last_7d"})
+            except Exception as e:  # deleted ads can 404; keep the metrics row
+                print(f"  {ad_id}: {e}")
+                detail = {}
+            c = detail.get("creative") or {}
+            transcript = ""
+            for v in (c.get("videos") or [])[:1]:
+                transcript = api.cached_transcript(acc, v["video_id"]) or ""
+            rows.append({**r, "account": name, "platform_ad_id": ad_id,
+                         "roas": round(r["revenue"] / r["spend"], 2) if r["spend"] else 0,
+                         "ctr_pct": round(100 * r["clicks"] / max(r["impressions"], 1), 2),
+                         "cpa": round(r["spend"] / r["purchases"], 2) if r["purchases"] else "",
+                         "headline": c.get("title") or "", "primary_text": c.get("body") or "",
+                         "cta": c.get("cta_type") or "", "link_url": c.get("link_url") or "",
+                         "transcript": transcript})
+            if i % 50 == 0:
+                print(f"  {i}/{len(keep)}", flush=True)
+            time.sleep(0.5)
+    rows.sort(key=lambda r: -r["spend"])
+    for r in rows:
+        r["spend"], r["purchases"] = round(r["spend"], 2), round(r["purchases"], 1)
+    fields = ["account", "platform_ad_id", "ad_name", "format", "status", "first_seen", "last_seen", "spend",
+              "roas", "purchases", "cpa", "impressions", "ctr_pct", "headline", "primary_text", "cta",
+              "link_url", "transcript", "thumbnail_url"]
+    write_csv("ad_account_export.csv", rows, fields)
+    with_t = sum(1 for r in rows if r["transcript"])
+    vids = sum(1 for r in rows if r["format"] == "VIDEO")
+    out = [f"# Ad account export: {', '.join(n for n, _ in accounts)}", "",
+           f"Source: Atria (Meta). Every ad with at least {args.export_min_spend:.0f} spend between "
+           f"{args.since} and {yesterday}, sorted by spend. Currency: account currency (CAD). ROAS and "
+           f"purchases are Meta-reported, summed over monthly windows. {len(rows)} ads, {vids} videos, "
+           f"{with_t} with transcripts. Status is the ad's status today.",
+           *([f"Note: {args.roas_note}"] if args.roas_note else []), ""]
+    for r in rows:
+        out += [f"## {r['ad_name']}",
+                f"{r['account']} · {r['format']} · {r['status']} · live {r['first_seen'][:7]} to "
+                f"{r['last_seen'][:7]} · spend {r['spend']:,.0f} · ROAS {r['roas']} · purchases "
+                f"{r['purchases']:g} · CPA {r['cpa']} · CTR {r['ctr_pct']}%", ""]
+        if r["headline"]:
+            out += [f"**Headline:** {r['headline']}", ""]
+        if r["primary_text"]:
+            out += ["**Primary text:**", "", r["primary_text"].strip(), ""]
+        if r["link_url"]:
+            out += [f"**Landing page:** {r['link_url']}", ""]
+        if r["transcript"]:
+            out += ["**Video transcript:**", "", r["transcript"].strip(), ""]
+    path = DATA_DIR / "ad_account_export.md"
+    path.write_text("\n".join(out))
+    print(f"Wrote {path} ({path.stat().st_size // 1024} KB)")
+
+
 def main():
     load_dotenv()
     p = argparse.ArgumentParser()
-    p.add_argument("what", choices=["winners", "losers", "inspo", "inspiration", "seasonal", "rising", "current", "competitors", "ultrasonic", "wellness", "rivals", "all"])
+    p.add_argument("what", choices=["winners", "losers", "inspo", "inspiration", "seasonal", "rising", "current", "competitors", "ultrasonic", "wellness", "rivals", "all", "export"])
     p.add_argument("--days", type=int, default=30, help="rising: look-back window in days")
     p.add_argument("--min-spend-rising", type=float, default=300, help="rising: minimum spend in the window")
     p.add_argument("--min-roas", type=float, default=1.8, help="rising: minimum ROAS in the window")
@@ -559,6 +656,9 @@ def main():
     p.add_argument("--launched-within", type=int, default=45, help="inspiration: ads launched in the last N days")
     p.add_argument("--min-days", type=int, default=7, help="inspiration: must have run at least N days (excludes ads launched in the last N days)")
     p.add_argument("--pages", type=int, default=2, help="inspiration: result pages (50 ads each) per query")
+    p.add_argument("--since", default="2024-01-01", help="export: first day")
+    p.add_argument("--export-min-spend", type=float, default=500, help="export: minimum spend since --since")
+    p.add_argument("--export-pages", type=int, default=2, help="export: pages of 50 ads per monthly window")
     p.add_argument("--brand", default=os.getenv("ADS_BRAND", "comfortwear"))
     p.add_argument("--account", help="ad account name in Atria (default: brand.json → atria_account)")
     p.add_argument("--out", help="current/rising: output CSV name (default current_winners.csv / rising_winners.csv)")
@@ -579,6 +679,11 @@ def main():
     args.wellness = brand.get("wellness", {})
     # Without ATRIA_API_KEY the request relies on a network secret the proxy attaches.
     api = Atria(os.getenv("ATRIA_API_KEY"))
+    args.roas_note = (brand.get("program") or {}).get("roas_note", "")
+    if args.what == "export":  # brand.json → atria_accounts: every account the brand has run ads in
+        names = brand.get("atria_accounts") or [args.account]
+        return run_one({"export": lambda api_, acc_, a: export(api_, [(n, api.account_id(n)) for n in names], a)},
+                       "export", api, None, args)
     acc = api.account_id(args.account)
     if not args.week:
         y, w, _ = (dt.date.today() + dt.timedelta(days=7)).isocalendar()

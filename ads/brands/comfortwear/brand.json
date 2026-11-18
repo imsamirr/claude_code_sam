@@ -251,6 +251,7 @@
   },
   "format_guides_note": "Testimonial/review ads use fb_comment or trustpilot; tweet-style ads use x_post. Cartoon/animation formats (user rule, Oct 11: use them, both brands): cartoon_3d, comic_strip, flat_illustration, claymation, retro_cartoon, anime_soft. Aim for ~15–20% of every batch.",
   "atria_account": "WearOrtho",
+  "stefanbrain": {"product_id": "e5fa84f6-6ec9-4a2c-b24e-60fe2a0e1f60", "project_id": "proj_59a994cdb82b45a4b43afb8ba51c357a", "session_prefix": "comfortwear", "note": "StefanBrain writes the copy for every static batch (static-ads skill §2a, ads/stefanbrain.py copy). Brand knowledge lives on the StefanBrain product (files) and project (instructions)."},
   "program": {
     "schedule": "Tue + Fri 5:50am America/New_York (routine 'Comfort Wear weekly statics', trig_01UPZqhi5EjEjs2g3yMjMd2F)",
     "iteration_batch": {
