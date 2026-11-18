@@ -1406,3 +1406,1480 @@ Over 500,000 people have already made the switch. Right now the Ortho Stretch is
 
 ---
 
+## COM61 — Neuropathy Authority Ranking
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** AI + Existing Footage · **Angle:** Neuropathy · **Creator type:** Neuropathy · **Product:** — · **Offer:** Ever green · **Month:** May · **Created:** 2026-05-27 · **Learnings:** —
+
+Inspiration:  https://app.foreplay.co/share/ads/XhiZ0VNYtB5ofdm4s3ks?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+Hook 1: After analyzing the top four shoes for neuropathy, New Balance, Hoka, Orthofeet, and Brooks, we decided to never recommend those to my patients, and here's why.
+
+Hook 2: After many years of 12+ hour shifts with neuropathy, I've tried a lot of shoes. Hokas, New Balance, Skechers, and custom orthotics. I finally found one that actually lasts a full 12 hour shift without making the burning worse.
+
+Hook 3: Do not wear these shoes if you’re dealing with neuropathy
+
+Hook 4: Here are the 3 shoes I don’t recommend if you’re planning on traveling with neuropathy pain
+
+Body:
+
+Hi, I'm Dr. Sara Adams, I spent the last 12 years helping women with neuropathy as a podiatrist, and today I'll reveal my number one recommendation to stop the burning and tingling.
+
+Number four, New Balance. Score 4.5 out of 10. Around $165 for a brand doctors recommend. But here's what most women don't know: the toe box is too narrow, and it presses in on the front of your foot exactly where neuropathy is most sensitive. Constant compression where you can least afford it, with every single step.
+
+Number three, Hoka. Score 5 out of 10. Around $170 for that famous cushioning. But all that soft foam packs down within months, and then you're walking on flat rubber. Worse, the inconsistent cushioning leaves soft spots and hard spots, and those dead spots are exactly what set the tingling off.
+
+Number two, Orthofeet. Score 5.8 out of 10. $180 and marketed straight at neuropathy. But here's the dirty secret: those stiff, rigid walls squeeze around your foot to hold it in place, and that constant pressure is the very thing that aggravates sensitive nerves. Women tell us they get a week of relief, then the burning comes right back. You're paying $180 to repeat the problem.
+
+And the number one shoe for neuropathy, the ComfortWear Ortho Stretch. Score 9.2 out of 10. At just under $60, here's what makes it different. The extra wide toe box gives the front of your foot room to spread instead of squeezing it, so there's no compression right where the nerves are most sensitive. The firm arch support holds all day instead of collapsing by noon, which means even pressure across your foot instead of the hard, dead spots that set the tingling off. The cushioning is built to hold its support for the long haul, not pack down in three months, so you're never back to walking on flat rubber. And the slip-resistant sole keeps you steady, because that unsteady, am-I-going-to-stumble feeling is one of the first things neuropathy takes from you.
+
+Right now the Ortho Stretch is 40% off with free shipping and a full 45-day trial. If they don't deliver, send them back for every penny. Most brands don't offer that because they know their shoes can't hold up to daily life with nerve pain. If you have neuropathy and you've tried the big brands without real relief, you owe it to your feet to try this. Don't let another night of burning and tingling tell you this is just how it has to be. Check below to see if your size is still available.
+
+---
+
+## COM62 — The passage of time
+
+**Status:** Ready to Launch · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Pains · **Creator type:** Multiple · **Product:** — · **Offer:** No Offer · **Month:** May · **Created:** 2026-05-28 · **Learnings:** —
+
+Reference: (image on page)
+
+| Target | Main Hook | Second Hooks | Visual Concept |
+|---|---|---|---|
+| Nurses | "30 years of 12-hour shifts. Same feet." | "What 12-hour shifts do to your feet after 30 years (and how to stop it)" | Same nurse at years 1, 5, 10, 20, 30 of service. Top row: feet progressively swollen, bunions, varicose veins, hunched posture. Bottom row: same progression, feet healthy, posture straight. |
+| Teachers | "Year 1 vs Year 25 in front of the classroom" | "After 25 graduating classes, my feet still feel like the first day of school" | Progression by years teaching (1, 5, 10, 20, 25). Close-up on feet, calves, lower back. Top: plantar fasciitis, varicose veins, curved lumbar. Bottom: feet and back intact. |
+| Hairstylists | "10,000 haircuts on your feet" | "Hairstylists who retire at 50 vs hairstylists still cutting at 70. The difference is below the knee." | Progression by haircuts done (500, 2K, 5K, 10K, 20K). Top: collapsed arch, knee turning inward, shoulder twisted from blow-dryer weight. Bottom: symmetric posture, arch supported. |
+| Flat Feet | "Flat feet at 20 vs flat feet at 60" | "I was born with flat feet. At 60 I walk better than my friends with normal arches." | Side view of the actual foot at ages 20, 30, 40, 50, 60. Top: progressive arch collapse, deformed toes, calluses. Bottom: arch held for 4 decades. |
+| 65+ | "Aging on your feet vs aging on a cane" | "The difference between reaching 85 with a cane or without one starts at your shoes" | Progression at ages 65, 70, 75, 80, 85. Top: progressive dependence (cane, walker, wheelchair). Bottom: same person walking independently, upright, active. |
+
+---
+
+## COM63 — Intense images
+
+**Status:** Ready to Launch · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Pains · **Creator type:** Multiple · **Product:** — · **Offer:** No Offer · **Month:** May · **Created:** 2026-05-28 · **Learnings:** —
+
+Reference:
+
+PLEASE USE THIS TYPE OF IMAGES:
+Adapt them for each variation, you will need to create several images. (image on page)
+
+| Avatar | Problem Visual (Top Panel) | Shoe Hero Shot (Middle Panel) | Transformation (Bottom Panel) | Hook |
+|---|---|---|---|---|
+| Nurses | Close-up illustration of swollen, red, throbbing foot with pressure points glowing | Cutaway of ComfortWear showing memory foam + arch support + wide toe box | Before: puffy foot at end of shift / After: same foot, normal size, smiling nurse | "The only shoe that ends your 12-hour shift the same size it started" |
+| Nurses | Animated bunion bulging against tight shoe, red pain waves | Side cutaway showing extra-wide toe box with bunion floating freely inside | Before: red angry bunion / After: calm, no pressure marks | "Stop fighting your bunion. Wear the shoe that makes room for it" |
+| Teachers | Foot stepping down with shockwave radiating up to lower back (highlighted in red) | Cross-section showing triple-density cushioning absorbing impact | Before: teacher hunched, holding back / After: standing tall, pain-free | "Your back pain ends where these shoes begin" |
+| Teachers | Plantar fascia stretched like a guitar string, about to snap, with red glow | Insole cutaway showing molded arch lifting and supporting the fascia | Before: woman wincing at first morning step / After: walking confidently barefoot... wait, in ComfortWear | "The shoe that makes your first morning step feel like your 100th" |
+| Hairstylists | Calf with visible varicose veins bulging, blood pooling animation | Shoe with elevated heel zone + graduated support diagram showing blood flow upward | Before: legs with spider veins and swelling / After: smooth legs, arrow showing circulation | "Stand 10 hours. Walk out with the same legs you walked in with" |
+| Hairstylists | Foot on fire emoji style, flames rising from sole, sweat drops | Cutaway showing breathable mesh + cooling gel layer + moisture-wicking lining | Before: red burning foot / After: cool blue foot, relaxed | "The shoe that turns 'my feet are on fire' into 'what foot pain?'" |
+| Flat Feet | Side profile of foot with completely collapsed arch, knee buckling inward, hip tilting | Hero shot with arch support highlighted, skeleton overlay showing proper alignment | Before: red dots all the way up leg (foot, knee, hip, back) / After: green aligned skeleton | "We don't sell shoes. We sell the arch you were supposed to be born with" |
+| Flat Feet | Footprint with no arch curve (just a blob) next to normal footprint | Insole cross-section showing built-in arch lift molded to flat foot | Before: flat wet footprint / After: footprint with proper arch curve | "Put these on and watch your footprint change in 30 days" |
+| 65+ | Elderly foot wobbling on uneven surface, fall-risk red zone highlighted | Sole cutaway showing wide non-slip grip + low-profile stability platform | Before: hand reaching for wall to balance / After: standing freely, hands at sides | "The shoe seniors trust more than their cane" |
+| 65+ | Diabetic foot with pressure sores, tight shoe leaving marks | Interior shot: seamless lining + extra depth + soft pressure-free fit | Before: foot with red marks and sores / After: smooth, mark-free foot | "Doctor-approved for diabetic feet. Grandkid-approved for style" |
+| 65+ | Painful joints lighting up red as foot hits hard ground | Triple-layer cushion diagram absorbing 80% of impact | Before: wincing while walking / After: walking the grandkids without stopping | "Walk like you're 50 again, even at 75" |
+
+---
+
+## COM64 — ITERATION 1 INT_05.13.26_Spanish Nurse Page_952_[creator]_New UGC_Ortho_Stretch_Shoe_Top5ShoesCreator_H1_V1
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** AI + Existing Footage · **Angle:** Comparison · **Creator type:** Nurse · **Product:** — · **Offer:** No Offer · **Month:** May · **Created:** 2026-05-29 · **Learnings:** —
+
+(Editor instructions only — V.O./captions reuse the reference video.) Reference: video embedded on page.
+
+| Iteration | On-Screen Text / Voiceover | Visual Description |
+|---|---|---|
+| ITERATION 1 | (The V.O & Captions are the same) | Film the creator talking on a green screen, and as she mentions each shoe, show the shoes she's talking about in the background. <br><br> Do this throughout the entire hook, until she starts listing each shoe ("#5 Crocs".... and onwards) |
+| ITERATION 2 | (The V.O & Captions are the same) | Replicate the video, only during the first 33 seconds, but with an AI-generated creator who is a nurse, more plus size, and looks Latina. <br><br> Make it as real as you can. |
+| ITERATION 3 | (The V.O & Captions are the same) | Make a split screen with the same creator talking to camera, but at the same time, with footage of nurses with severe foot pain. |
+| ITERATION 4 | (The V.O is the same) | Make the captions really eye-catching. Have them appear word by word, in different colors, typical TikTok style. |
+| ITERATION 5 | (The V.O & Captions are the same) | Replicate the video, only during the first 33 seconds, but with an AI-generated creator who is a nurse, more plus size, and afro american. <br><br> Make it as real as you can. |
+
+---
+
+## COM65 — ITERATION 2 INT_05.13.26_Spanish Nurse Page_952_[creator]_New UGC_Ortho_Stretch_Shoe_Top5ShoesCreator_H1_V1
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** UGC · **Angle:** Comparison · **Creator type:** Nurse · **Product:** — · **Offer:** No Offer · **Month:** May · **Created:** 2026-05-29 · **Learnings:** —
+
+(Note: two different pages in the tracker carry the code COM65; this is the first. Reference video embedded on page.)
+
+Visual for every row: "Please replicate exactly what the creator is doing on the original video. **The final video needs to look almost exactly as the original one.**"
+
+| Shot | On-Screen Text / Voiceover |
+|---|---|
+| Hook | Si usas Hokas y Skechers para tus shifts de 12 horas… pues estas perdiendo tiempo, dinero y salud. |
+| Hook | Como nurse, los Crocs, Skechers, Dansko, Hoka, me arruinaron los pies para mis shifts de 12 horas. <br><br> Casi pierdo mi trabajo por esta razón. |
+| Hook | "Miren mi colección de zapatos: Crocs, Skechers, Dansko, Hoka. Gasté más de quinientos tratando de encontrar un zapato que aguantara mis turnos de doce horas sin destruirme los pies." |
+| Body | "Hoy los voy a clasificar de peor a mejor para que ustedes no desperdicien su dinero como yo lo hice." |
+| Body | "Número cinco, los Crocs. Ya sé, todo el mundo los usa en el pabellón y sí, son fáciles de ponerse, pero después de la hora tres me están matando los talones. Cero soporte de arco." |
+| Body | "Y si tienes fascitis plantar como yo, los Crocs la empeoran muchísimo. Se sienten como pantuflas sobre concreto." |
+| Body | "Número cuatro, Skechers Go Walk. Esta espuma viscoelástica se siente increíble en la tienda, pero el problema es que se comprime y no vuelve a su forma durante el turno." |
+| Body | "Para la hora seis ya no tienes ningún soporte y llegaba cojeando a mi carro cada noche con estos zapatos." |
+| Body | "Número tres, Dansko. Estos son los zapatos de enfermera profesionales que todos recomiendan y tienen buen soporte de arco, eso se los reconozco, pero son muy pesados y muy rígidos." |
+| Body | "Al final de mi turno doble, mis piernas estaban agotadas solo de cargar con ellos y más de ciento treinta. Estás pagando por el nombre." |
+| Body | "Número dos, Hoka Bondi. Estos cuestan ciento sesenta y cinco y honestamente la amortiguación se siente increíble las primeras dos horas." |
+| Body | "Pero los Hoka están diseñados para corredores, esfuerzos cortos, superficies suaves, no para enfermeras paradas en concreto por doce horas seguidas. Esa gruesa capa de espuma colapsa bajo una presión sostenida." |
+| Body | "Para la hora ocho, mi fascitis plantar estaba insoportable." |
+| Body | "Y el número uno, ComfWear OrthoStretch a menos de sesenta con el descuento. El zapato más asequible de toda la lista y el único diseñado específicamente para personas como nosotras." |
+| Body | "El soporte de arco no se aplana a mitad del turno, la puntera ancha le da espacio a tus pies para hincharse sin apretarte y son antideslizantes en los pisos mojados del hospital." |
+| Body | "Los usé durante una rotación completa y mi dolor de fascitis plantar bajó de un nueve a un dos. No voy a volver a los otros." |
+| Body | "Después de revisar miles de reseñas de enfermeras y trabajadores de la salud, el patrón es muy claro: el zapato más barato de esta lista supera a todo lo que cuesta dos y tres veces más, porque fue hecho para lo que nosotras hacemos." |
+| Body | "Ahora mismo, ComfWear tiene un cuarenta por ciento de descuento con envío gratis." |
+| Body | "Úsalos cuarenta y cinco días y si tus pies no se sienten mejor, los devuelves. Toca el enlace abajo." |
+
+---
+
+## COM65 (second page) — ITERATION 1 TOFv4_BZ2 | 849_H2_[name]_New UGC_Ortho_Stretch_Shoe_WhatYouNeedToKnowBeforeBuying_v1
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** AI + Existing Footage · **Angle:** Iteration · **Creator type:** Nurse · **Product:** — · **Offer:** No Offer · **Month:** May · **Created:** 2026-05-29 · **Learnings:** —
+
+(Reference video embedded on page.) Visual for every row: "Use the same style of captions and footage of a nurse suffering, grabbing her fit. Don’t use the exact same, just a similar one, native."
+
+| Iteration | On-Screen Text / Voiceover (new hook) |
+|---|---|
+| ITERATION 1 | Sorry to say this, but if after your 12-hour shift your feet hurt, then your sneakers are BS. <br><br> H0kas and Sk*chers too. |
+| ITERATION 2 | I used to come home crying from pain after my 12-hour shifts. And I had paid almost $200 for a pair of Nike sneakers! |
+| ITERATION 3 | H0kas, Sk*chers, N1ke… All TERRIBLE if you're a nurse with constant foot pain. |
+| ITERATION 4 | I tried the famous H0kas, Sk*chers, N1ke for my foot pain. <br><br> Let me tell you about my experience so you don't have to waste your money. |
+
+---
+
+## COM67 — COM49 Iteration 1 Yapper
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** UGC · **Angle:** Travel · **Creator type:** Travel · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-01 · **Learnings:** —
+
+Script Read #1 - Sit on the couch, relaxed position, camera really close above torso holding shoes.
+
+Reference Video: https://app.foreplay.co/share/ads/dlfyPzgDFGbK7rv45a9i?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+Hook 1: Five 'comfortable' shoes I packed for Europe as a teacher. Four of them ruined a trip. The one that survived wasn't the one you'd expect. And if you've only got six weeks of summer, you don't get a do-over.
+
+Hook 2: Please don’t wear your Skechers to Europe. I'm begging you
+
+Hook 3: Foot pain cost me two summers of travel. I'm a teacher. Summers are all I have. And nobody told me my Skechers were the reason
+
+Hook 4: Three pairs of travel shoes a teacher should never pack. I tested all three in Europe, all three made my foot pain worse. And if your summer trip is the only week you've waited for all year, don’t pack the wrong shoes.
+
+Body:
+
+And this isn't even an ad, I just won't shut up about these to anyone who'll listen. So I'm a teacher, right, I'm on my feet from like seven in the morning till three, every single day, so I really thought my Skechers would be fine. Cool. Went to Rome two summers ago in them. Day three, I'm telling you, the memory foam in those things had compressed completely. Like flat. And I'm in the Piazza sitting on a bench because I cannot walk back to the hotel. Two days. I lost two days of Rome. So this year for Spain I was like okay I'm not doing that again, and I tried these ComfortWear shoes. 19,000 steps a day. On cobblestone. On tile. Up hills. And my feet were FINE. Genuinely fine. And like, I wore them with sundresses, jeans, linen pants, whatever. Didn't even pack a second pair which, if you know me is wild. They're called ComfortWear. Wide toe box, the arch literally doesn't squish flat by the end of the day, and the top stretches with your foot which sounds dumb but matters so much when your feet swell during travel days. They were made for nurses doing twelve-hour shifts which is why they hold up to literally anything. I got them for 40% off, so it ended up costing me just under sixty bucks. I’m not a fan of ordering shoes online, but this one had a 45-day money back so i figured why not. Best thing I've bought online in years, not even joking.”
+
+---
+
+## COM68 — Kyro390v1 Iteration 1
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** AI · **Angle:** Authority Figure · **Creator type:** Pains · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-03 · **Learnings:** —
+
+Reference: (video embedded on page)
+
+Raw ad here: https://next.frame.io/share/294d8ec2-3615-4f4e-8dbd-e4a992517bb0/e179a1af-90fe-4f1e-85c7-b0fc0978f97b
+
+Visual note on all three hooks: **We are going to iterate this ad, translating it to spanish. Please try to use the same creator, and style of editing, but change the background, so it’s not the exact same video. Don’t use AI footage, use organic footage from TikTok or Youtube.**
+
+| Shot | On-Screen Text / Voiceover | Visual Description |
+|---|---|---|
+| Hook | Hokas: 5.6 de 10. <br><br> Tienen demasiada goma espuma en la suela. <br> Después de 4 horas, los pies pierden la estabilidad que necesitan para caminar. | (see note above) |
+| Hook | Las enfermeras están dejando sus HOKAs de $180 por estas zapatillas. | (see note above) |
+| Hook | Las enfermeras están dejando sus Nikes de $180 por estas zapatillas. | (see note above) |
+| Body | Crocs Clásicas: 4 de 10. <br><br> Baratas, pero tienen CERO soporte de arco. <br> A la hora del almuerzo tus pies ya están gritando de dolor. | Crocs on hospital floor. Overlay "4 de 10.". Cut to nurse wincing in pain while massaging her foot in the break room. |
+| Body | Skechers: 6 de 10. <br> No están mal para $65 pero se aplastan a las tres semanas y dejan de ser funcionales… Osea perdes el dinero que invertiste. | Brand new Skechers vs. same shoes flattened three weeks later, side by side. Overlay "6 de 10.". |
+| Body | Nike Air Max: 5 de 10. <br><br> Son zapatillas para correr. No están hechas para estar parada 12 horas seguidas. <br><br> Son muy angostas, y los pies se te hinchan como globos a las 3 horas. | Nike Air Max in hospital hallway. Overlay "5 de 10.". Quick cut to swollen foot trying to squeeze into a narrow shoe. |
+| Body | Brooks: 3 de 10. <br> Son demasiado pesadas. <br> Te hacen trabajar las piernas DE MÁS solo por caminar! | Brooks on a scale showing weight. Overlay "3 de 10.". Cut to nurse walking with heavy legs in slow motion. |
+| Body | Por eso creamos Comfort Wear. <br><br> No diseñamos zapatillas para maratonistas, las diseñamos para enfermeras que hacen shifts de 12 horas donde sentarse no es una opción. | Product hero shot of Comfort Wear on clean background. Logo on screen. Cut to fast montage of nurses running between rooms, never pausing. |
+| Body | Tienen una punta ancha, para que tus pies no queden encerrados y no se te adormezcan a las 6 horas. | Side-by-side animation: foot compressed in narrow shoe vs. foot with room in Comfort Wear. Arrow pointing to the toe box. |
+| Body | Tienen más soporte de arco real, <br> así no terminás rengueando hasta el auto al final de tu shift. | Animated cross-section of the shoe showing arch support. Cut to nurse walking confidently to her car in a nighttime parking lot. |
+| Body | Y la suela antideslizante te protege de cuando los pisos están recién trapeados en el hospital. | POV of wet floor with "Wet Floor" sign. Foot wearing Comfort Wear steps down securely. Close-up of the sole tread pattern. |
+| Body | Las otras marcas agarraron una zapatilla de correr y pusieron que son "aptas para trabajar" en la caja y LISTO. <br><br> Las nuestras las creamos desde cero para enfermeras que lidian con dolor real, pensadas por y para ellas, de verdad. | Generic shoebox with "Work Approved" sticker being peeled off. Cut to technical blueprint of Comfort Wear with annotations. |
+| Body | Por eso, con ellas puedes agarrar un turno extra sin tener que padecerlo. | Nurse looking at shift board on hospital screen, smiles and grabs an extra one. Positive vibe, warm lighting. |
+| Body | Las enfermeras están dejando sus HOKAs de $180 por estas zapatillas. | Montage of real nurses (UGC style) tossing old HOKAs aside and slipping into Comfort Wear. |
+| Body | Además, te damos 45 días para probarlas. <br><br> La mayoría de las marcas se asusta a los 30. <br><br> Si no sobreviven tus próximos tres turnos seguidos, las devolvés. | Animated "45-day trial" badge on screen. Calendar marking off shifts. Final CTA with product plus "Try them today" button. |
+
+---
+
+## COM69 — COM49 Iteration 2 Spanish
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** AI + Existing Footage · **Angle:** Travel · **Creator type:** Teacher · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-03 · **Learnings:** —
+
+Reference: (video embedded on page)
+
+Visual note on all three hooks: **We are going to iterate this ad, translating it to spanish. Please try to use the same creator, and style of editing, but change the background, so it’s not the exact same video. Don’t use AI footage, use organic footage from TikTok or Youtube. Use the same bubble text from the original hook.**
+
+| Shot | On-Screen Text / Voiceover | Visual Description |
+|---|---|---|
+| Hook | Por favor, no dejes que tus Skechers se te arruinen tu viaje a Europa! Te lo ruego. | (see note above) |
+| Hook | Como maestra, que está parada todo el día, NECESITO que descartes tus Nike para viajar a Europa. Lo único que vas a lograr es un dolor insoportable de pies! | (see note above) |
+| Hook | Si eres maestra, sabes que el dolor de pies por estar paradas todo el día, es parte de nuestra profesión. <br><br> Por eso si vas a viajar a Europa, no dejes que tus Skechers se te arruinen tu viaje! Te lo ruego. | (see note above) |
+| Body | Soy maestra, así que estoy parada todo el día. | POV of teacher walking through a classroom, kids' desks in background. Shoes visible at bottom of frame. |
+| Body | Hace dos años fui a Roma con los zapatos que uso para dar clases, y al tercer día mis pies no daban más de dolor. | B-roll of Rome streets (Colosseum, cobblestones). Cut to woman sitting on a bench grabbing her foot in pain. |
+| Body | Terminé acostada en la cama del hotel dos días seguidos porque no podía caminar. Solo podía pensar en todo el dinero que había gastado en ese viaje… | Wide shot of a hotel balcony with European city view, woman sitting with feet up, looking defeated. |
+| Body | Así que para Portugal probé estas: | Hands holding up the Comfort Wear shoebox, then pulling shoes out. Bright, eye-level shot. |
+| Body | 18.000 pasos por día sobre adoquines <br> y subidas, y mis pies quedaron perfectos. | Quick cuts: cobblestone streets of Lisbon, steep hill, feet walking confidently in Comfort Wear shoes. |
+| Body | Las usé con vestidos, con pantalones de lino, con shorts. | Fast outfit transitions: dress, linen pants, shorts. Each cut shows the same shoes. |
+| Body | Se llaman Comfort Wear shoes | Clean product shot of the shoes on a neutral background, logo or branding visible. |
+| Body | Tienen la punta ancha | Top-down close-up of the toe box, finger pointing to the wide front area. |
+| Body | El soporte de arco de la plantilla, no se aplasta. | Close-up of insole being pressed with a thumb, springing back. Side angle. |
+| Body | Y la parte de arriba se estira con tu pie, para que te queden en la medida perfecta. | Close-up of hand stretching the upper material, showing flexibility. |
+| Body | Fueron diseñadas para enfermeras, que es honestamente la razón de por qué funcionan tan bien. | Quick clip of nurses walking in a hospital hallway, then back to the shoes. |
+| Body | Están 40% off ahora mismo, <br> menos de $60, con garantía de devolución de 45 días. | Bold on-screen text overlay: "40% OFF", "Under $60", "45-Day Money Back Guarantee" over product shot. |
+| Body | El link está abajo. | Animated arrow pointing down to the CTA, hand gesturing toward the bottom of the screen. |
+| Body | Una de las mejores compras que hice en años. | Creator on camera, smiling, holding the shoes up to the lens. Warm, natural lighting. |
+
+---
+
+## COM70 — [creator]_139 Iteration 1
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** AI + Existing Footage · **Angle:** Foot Pain · **Creator type:** Teacher · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-03 · **Learnings:** —
+
+Reference: (video embedded on page)
+
+USE THE ORIGINAL VIDEO: https://drive.google.com/file/d/1ILfPktBhmdXnqCd1Ic6PV7iP0VEi9xgS/view?usp=drive_link
+
+| Shot | On-Screen Text / Voiceover | Visual Description |
+|---|---|---|
+| Hook | The secret to happy feet | Use the same footage as in the original hook. <br><br> **We need to add another Creator pointing the footage we are seeing, in green screen, at the bottom, at the left.** <br><br> Also add captions during the whole ad and V.O. |
+| Hook | MY BIGGEST SECRET TO HAPPY FEET! | Use the same footage as in the original hook. <br><br> We need to add a Creator talking to the camera, in green screen, at the bottom, at the left. <br><br> Also add captions during the whole ad and V.O. |
+| Hook | MY BIGGEST SECRET IN 2026 TO AVOID FOOT PAIN | Use the same footage as in the original hook. <br><br> We need to add **another** Creator talking to the camera, in green screen, at the bottom, at the left. <br><br> Also add captions during the whole ad and V.O. |
+| Hook | DITCH THE HOOKAS, DITCH THE FOOT PAIN. | (same as above, **another** Creator) |
+| Hook | STOP SPENDING $180 IN SHOES THAT HURT. | (same as above, **another** Creator) |
+
+---
+
+## COM71 — Kyro390v1 New Hooks Iteration
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** AI + Existing Footage · **Angle:** Authority + Nurse · **Creator type:** Nurse · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-04 · **Learnings:** —
+
+**PROJECT 1**
+Hook 1: We reviewed the top five popular shoes for nurses.  Here's why you should not buy 95% of them.
+
+Hook 2: We asked 500 women with plantar fasciitis what shoes they tried first, and the results explain why your feet still hurt.
+
+Hook 3: These are the 5 worst shoes for women over 60  (reference:  https://app.foreplay.co/share/ads/oewS0n6XIKEKRmFyCT4X?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2)
+
+Hook 4: We took 10 nurses dealing with plantar fasciitis, and tested the top 5 shoes for their foot pain. Here are the results (reference:  https://app.foreplay.co/share/ads/u4h3n5mNaDPZiABcaISr?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2)
+
+Hook 5: No talking, just AI avatar in the corner with the caption “Podiatrist Rates Safest Shoes For Seniors”  (reference attached in comments)
+
+**PROJECT 2 (Change AI avatar to a female doctor, keep same background)**
+
+**Hook 6:** I have tried every shoe on this list. I spent over $400 trying to find something that didn't destroy my feet by the afternoon. Here is my honest ranking.
+
+Hook 7: We reviewed the top five popular shoes for diabetics with neuropathy.  Here's why you should not buy 95% of them.
+
+Hook 8: No hook, just start the body (same as reference)
+
+---
+
+## COM72 — Zack D Films Inspo
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** AI + Existing Footage · **Angle:** Travel Angle · **Creator type:** Travel · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-04 · **Learnings:** —
+
+Reference: (video embedded on page)
+
+| Shot | On-Screen Text / Voiceover | Visual Description |
+|---|---|---|
+| Hook | If you've tried gel inserts, compression socks, and stretching at the gate, and your feet still hurt after every trip, your feet isn’t the problem. | Quick cuts: insoles, compression socks, someone stretching at an airport. |
+| Hook | (same line) | *(For the same hook, use another, SUPER different, footage)* |
+| Hook | (same line) | *(For the same hook, use another, SUPER different, footage)* |
+| Body | You're treating the symptom. The shoe is the cause. | Close-up: foot rubbing a sore spot. |
+| Body | Take off whatever you're wearing right now. Put on a pair of ComfortWear instead. | Old shoes coming off, ComfortWear going on. |
+| Body | Notice the arch holds you up without pressing. Notice the heel cups your foot without squeezing. Notice the front gives your toes room to spread. | Three close-ups, one per benefit, slow and clear. |
+| Body | Walk one minute. Just one. | Walking through a living room or hallway, timer on screen. |
+| Body | That feeling? That's what your feet are supposed to feel like at hour ten of a travel day, not hour one. | HERO SHOT: ComfortWear in clean focus, brand name on screen. |
+| Body | You don't need a trick. You need the right shoe. | Side by side: tired feet in old shoes vs relaxed feet in ComfortWear. |
+| Body | ComfortWear. Designed so you don't have to think about your feet. | End card. |
+
+---
+
+## COM73 — Zack D Films Inspo
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** AI + Existing Footage · **Angle:** Travel Angle · **Creator type:** Travel · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-04 · **Learnings:** —
+
+Reference: (video embedded on page)
+
+| Shot | On-Screen Text / Voiceover | Visual Description |
+|---|---|---|
+| Hook | Before your next trip, do this 4-point check on the shoes you're about to pack. | Suitcase open on bed, a pair of shoes about to go in. |
+| Hook | (same line) | *(For the same hook, use another, SUPER different, footage)* |
+| Hook | (same line) | *(For the same hook, use another, SUPER different, footage)* |
+| Body | Before your next trip, do this 4-point check on the shoes you're about to pack. | Suitcase open on bed, a pair of shoes about to go in. |
+| Body | One. Press the arch. If it caves under your thumb, your foot will cave under your weight by hour four. | Thumb test on a generic shoe, insole collapsing. |
+| Body | Two. Squeeze the heel. If it folds, your heel will slide and blister. | Fingers folding a soft heel cup. |
+| Body | Three. Bend the toe box. If it bends in the middle instead of at the ball of the foot, it's fighting your stride. | Hands bending a shoe at the wrong spot. |
+| Body | Four. Press the tongue against the laces. If it's thin, the laces will dig in by hour six. | Finger pressing a thin tongue. |
+| Body | A shoe that passes all four. | HERO SHOT: ComfortWear placed on a clean surface, each of the four zones highlighted on screen with the brand mark. |
+| Body | This is what we built ComfortWear to do. Supported arch, structured heel, flex point at the ball, cushioned tongue. Every detail solving one reason your feet hurt when you travel. | Pan across the shoe showing each feature, then the full pair side by side. |
+| Body | Pack the ones that pass the test. ComfortWear. | End card with logo and CTA. |
+
+---
+
+## COM74 — Zack D Films Inspo
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** AI + Existing Footage · **Angle:** Nurses · **Creator type:** Nurse · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-04 · **Learnings:** —
+
+Reference: (video embedded on page)
+
+| Shot | On-Screen Text / Voiceover | Visual Description |
+|---|---|---|
+| Hook | Sit down on the edge of the bench at the end of your shift and untie the shoes you've been wearing all day, one lace at a time. | Nurse on locker room bench, fingers slowly loosening laces of worn-out sneakers. |
+| Hook | (same line) | *(For the same hook, use another, SUPER different, footage)* |
+| Hook | (same line) | *(For the same hook, use another, SUPER different, footage)* |
+| Body | Slide them off by pushing the heel back with your hand, not by using your other foot, and set them aside. | Old shoes pushed off and dropped to the floor, out of frame. |
+| Body | Reach into your bag and take out a pair of ComfortWear. | HERO SHOT: hands lifting ComfortWear out of the bag, slow reveal, brand mark catching the light. |
+| Body | Hold one in your hand and press your thumb into the arch of the insole, where the curve sits highest. It should push back firmly, not collapse. | Close-up: thumb pressing into the cushioned arch, insole responding. |
+| Body | Squeeze the heel cup between two fingers. It should resist. Run your hand along the outsole and feel the tread, deep enough that nothing on the floor can move you. | Three quick close-ups: heel cup, fingers along outsole tread, brand mark visible on each. |
+| Body | Slide your foot in without crushing the heel, stand up, and tap your heel against the floor twice so the foot sets all the way back. | Foot sliding in, person standing, two heel taps. |
+| Body | Lace them starting from the third eyelet up, not from the bottom, and finish with a single bow instead of a double knot. | Hands lacing from the middle, single bow tied. |
+| Body | Walk five steps across the room, slow, heel to toe. | Five careful steps, low angle on the ComfortWear. |
+| Body | If you don't feel the impact stop traveling up your shins and into your knees, adjust the laces, the position of your heel, and the speed of your first three steps until you forget the floor underneath you is concrete. | Nurse walking through hospital hallway, gait easy, shoulders dropped. |
+| Body | ComfortWear. The shoes that take the shift instead of letting it take you. | End card: pair of ComfortWear on clean background, logo, CTA. |
+
+---
+
+## COM75 — Why Nurses Choose CW
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** UGC · **Angle:** Nurses · **Creator type:** Nurse · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-04 · **Learnings:** —
+
+Reference: (video embedded on page)
+
+| Shot | On-Screen Text / Voiceover | Visual Description |
+|---|---|---|
+| Hook | This is why nurses are ditching their Hokas and Brooks for these ortho-style sneakers built for 12-hour shifts. | Open on creator (mid-30s, scrubs, hair up) in hospital parking lot or breakroom, holding ComfortWear shoe up to camera. Selfie-style, handheld. Quick B-roll cut: pile of worn-out Hokas and Brooks on the floor next to a fresh pair of ComfortWear. |
+| Hook | If you're a nurse and you're buying new Hokas like every three months because they just stop working, you have to hear this. <br><br> Half my unit's wearing these now and nobody's really talking about it. | A-Roll. |
+| Hook | So me and four other nurses on my floor did this thing where we each wore a different sneaker for a full 12-hour shift. Hoka, Brooks and Skechers and these ones. By hour 8, only one of us wasn't limping. Guess which one. | Show all the pair of the shoes you are talking. |
+| Razón 1: holds up all shift | First of all, not only do they hold up, they hold up all shift. <br><br> Like, you finish the 12 hour and your feet aren't on fire. <br><br> The arch support and heel cushion do the work your runners stopped doing around hour 6. | Cut to creator walking the hospital hallway in scrubs + ComfortWear. Overlay text: "Hour 12." Cut to close-up of the arch support insole (lifted out of shoe) and the heel cushion section, with a finger pressing into it to show squish. Quick clock animation: 6AM → 6PM. |
+| Razón 2: easiest switch | Second, hands down the easiest switch I've made. <br><br> No two-week break-in, no blisters, no pinching at the bunion. <br><br> Stretch-knit upper, wide toe-box, you slide them on and they feel right from minute one. <br><br> Just like your regular sneakers, except they were actually designed for standing, not running. | Creator slips foot into shoe in one motion (no untying). Close-up: thumb pulling at stretch-knit upper to show flex. Cut to top-down of wide toe-box next to a narrow runner for comparison. On-screen text: "Designed for standing. Not running." |
+| Razón 3: wallet | Third, these are gonna make your wallet say thank you. <br><br> Buying a new pair of Hokas every three months adds up ridiculously fast. <br><br> These are HSA/FSA eligible (so you can pay with pre-tax dollars), they start at $59, and they actually last. One pair, not three. | B-roll: stack of three Hoka boxes with price tags piling up, then knocked aside to reveal one ComfortWear box. Price overlay: "$59 / from $90." HSA/FSA badge graphic pops in. Creator shrugs at camera, half-smile. |
+| Razón 4: life off-shift | Finally, I can't tell you how much my life off-shift has changed since I switched. No more coming home and collapsing because my feet are throbbing. <br><br> I've got energy left for my kids, for groceries, for a walk that isn't bed to bathroom. | Soft-lit home footage: creator playing with kids, carrying grocery bags up porch steps, walking dog at golden hour. All in the same ComfortWear shoes. No staged smiles, just regular life. |
+| Mechanism | The combo is what does it: ORTHO-WEAR heel cushioning, anatomical arch support, wide toe-box, and a stretch-knit upper that moves with your foot. <br><br> That's why they hold up a 12-hour shift when other shoes tap out at hour 4. | Animated exploded-view of the shoe: heel cushion glowing, arch support highlighted, toe-box outlined, knit upper labeled. Each label flashes as creator names it. Cut back to creator holding the shoe, tapping each part. |
+| Authority + close | 500,000+ nurses wear them. <br> 4.8 stars. Expert-recommended. You have to try them. <br><br> There's a 45-day money-back guarantee, so if your feet don't feel the difference, you send them back. No questions. | Social proof stack on screen: "500,000+ customers," "4.8 stars," "Expert-Recommended," "HSA/FSA eligible," "45-Day Money-Back." Cut back to creator: direct to camera, holding shoe in one hand, slight nod. End card: ComfortWear logo + CTA button "Try Them Risk-Free." |
+
+---
+
+## COM76 — Choose CW!
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** UGC · **Angle:** Nurses · **Creator type:** Nurse · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-04 · **Learnings:** —
+
+Visual for the four hooks: "Selfie-mode walking out of work or down a hallway in scrubs. Talk straight to the camera, casual, like venting to a friend."
+
+| Shot | On-Screen Text / Voiceover | Visual Description |
+|---|---|---|
+| Hook | I spend more on nurse shoes in a year than I do on scrubs. And they still don't make it through a single 12-hour shift without my feet falling apart. | (selfie-mode, see above) |
+| Hook | I tested every shoe the nursing groups won't shut up about. Hokas, Brooks, Danskos, the whole list. Only one made it past month 2 of actual 12-hour shifts. | (selfie-mode) |
+| Hook | Let me do the math with you. Three pairs of Hokas a year at $155 each. That's $465 just to keep my feet functional. And by hour 8 they still hurt. | (selfie-mode) |
+| Hook | Nurses deserved shoes that actually survive a 12-hour shift, so we made them. | (selfie-mode) |
+| Big promise question | What would you do if I told you your feet wouldn't be throbbing by hour 8, your heel wouldn't stab you on the first step out of bed, and you'd stop tossing out a new pair of "nurse shoes" every 3 months? | Sit on the couch or bed in scrubs, phone propped up. Rub your foot while you talk. End by gesturing at the pile of old shoes next to you. |
+| Pain agitation | Forget runners that flatten by month 2, clogs that look supportive but have zero arch, "orthopedic" brands that look like they were made for your grandma, and changing the brand every six weeks hoping the next one is the one. | Quick phone shots of 4 old shoes lined up on the floor. Pick each one up as you name it, bend it in your hands to show how flat or stiff it is, then toss it aside. |
+| Product reveal | Meet the Ortho Stretch Cushion Shoes from ComfortWear: <br><br> a shoe built specifically for women who spend the whole shift on their feet. | Hold the ComfortWear box up to camera, open it, pull the shoe out. Turn it around in your hand so we see it from every angle. Natural light, kitchen counter or bed. |
+| Transformation snapshot | No more limping to the car after the shift. <br> No more dreading the first step out of bed. <br> You slip them on at the start of the shift, and by hour 10 your feet aren't the loudest thing in your body anymore. | Selfie clip walking to your car in the parking lot at the end of a shift, smiling. Cut to morning clip getting out of bed and taking the first step on camera. |
+| Ease of use | It's so easy to slot into the shifts you already work. Slip them on, lace them once, forget about them. | Phone on the floor pointing at your feet. Slip the shoes on, tie them once, stand up and walk out of frame. |
+| Affordability / longevity | Most pairs last our customers 8 to 12 months of full-time shifts, which makes them cheaper than the runners you're replacing every quarter. | Lay out 3 or 4 old runners on the floor next to one pair of ComfortWear. Point at the old ones one by one and say the price. End on the ComfortWear pair. |
+| Mechanism | We didn't reinvent the wheel. <br><br> We just put the four things your feet actually need into one shoe: ORTHO-WEAR heel-to-toe cushioning that absorbs the impact of a concrete hospital floor, anatomical arch support so your fascia stops screaming in the morning, a wide toe-box that doesn't squeeze your toes after 6 hours of swelling, <br><br> and a stretch knit upper that moves with your foot (because yes, they swell mid-shift, and your shoes should know that). | Hold the shoe close to the camera. Press the heel with your thumb to show the cushion. Tilt it to show the arch. Stick your hand inside the toe-box to show the room. Stretch the knit upper with your fingers. One feature at a time. |
+| Social proof + authority | Over 500,000 people wear them. 4.8 stars. Expert-recommended. <br><br> And because they're HSA/FSA eligible, you can use your pre-tax money on the one thing your job actually wears out: your feet. | Talking to camera, hold up your phone showing the reviews page or the HSA/FSA badge on the website. Scroll through reviews on camera. |
+| Testimonial | "I've tried every brand the nursing groups recommend. Hokas, Brooks, Danskos, the whole list. <br><br> These are the first ones I haven't replaced. My feet stopped hurting after the first week, and I haven't gone back." | Sit close to camera (couch or car), no makeup, scrubs on. Talk straight at the lens like you're sending a voice note to a coworker. |
+| Risk reversal | We back them with a 45-day money-back guarantee, so you can wear them on real shifts (not just around the house), and if they don't change how you feel walking to the car, send them back. | Hold the shoes up next to your face. Smile. Point to camera at the end, like "try them". Cap |
+
+---
+
+## COM77 — Grid-Like Statics
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Sitewide Sale · **Creator type:** None · **Product:** — · **Offer:** Ever green · **Month:** June · **Created:** 2026-06-08 · **Learnings:** —
+
+(No script text: the page body is blank.)
+
+---
+
+## COM78 — Shoe + Pain Point Headline
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Foot Pain · **Creator type:** Everyday User · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-08 · **Learnings:** —
+
+(No script text: the page body is blank.)
+
+---
+
+## COM79 — Shoe + Feature Benefit Bottom
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Foot Pain, Comparison, Fall Prevention · **Creator type:** Everyday User · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-08 · **Learnings:** —
+
+(No script text: the page body is blank.)
+
+---
+
+## COM80 — Whiteboard + Messaging
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Foot Pain, Back Pain, Comparison, Nurse · **Creator type:** Everyday User · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-08 · **Learnings:** —
+
+(No script text: the page body is blank.)
+
+---
+
+## COM81 — COM49 ITERATION 3
+
+**Status:** Ready to Launch · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Foot Pain + Travel · **Creator type:** Multiple · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-10 · **Learnings:** —
+
+Reference: (video embedded on page)
+
+**This is a hook iteration** — Raw footage here: https://drive.google.com/drive/u/2/folders/1PMbTYobksj-iQeDxqQmAYL5puYzJ9BgT
+
+| Shot | On-Screen Text / Voiceover | Visual Description |
+|---|---|---|
+| Hook | (Use the same V.O and headline she is saying, then instead of teacher, put **PE Teacher, change the V.O too**) | Put the creator talking in green screen and in the back, put footage from Rome |
+| Hook | (Use the same V.O and headline she is saying, then instead of teacher, put **Flight attendants, change the V.O too**) | Put the creator talking in green screen and in the back, put footage from a woman with extreme foot pain |
+| Hook | (Use the same V.O and headline she is saying, then instead of teacher, put **WAITRESS, change the V.O too**) | Put the creator talking in green screen and in the back, put footage from Barcelona |
+| Hook | (Use the same V.O and headline she is saying, then instead of teacher, put **Hairdressers, change the V.O too**) <br><br> **Warehouse and logistics workers** | Put the creator talking in green screen and in the back, put footage from Disney |
+| Hook | (Use the same V.O and headline she is saying, then instead of teacher, put **logistics worker, change the V.O too**) | Put the creator talking in green screen and in the back, put footage from feet extremely hurt |
+
+---
+
+## COM82 — COM49 ITERATION 4
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Foot Pain + Travel · **Creator type:** Multiple · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-10 · **Learnings:** —
+
+Reference: (video embedded on page)
+
+**Replicate the whole script, but with a latina creator talking to the camera. Use all the same footage, just change the parts where she is talking.** (Same note repeated as the visual for every row.)
+
+| Shot | On-Screen Text / Voiceover |
+|---|---|
+| Hook | Please don't let your sketchers your tear up. <br> I'm begging you. |
+| Hook | F**CK NIKE! For your next trip you need this! <br><br> (put the piiiiiip when F**CK) |
+| Hook | If you're a teacher in your 50s and you're planning any kind of trip this year, listen to me before you pack the shoes you wear to school. |
+| Body | I'm a teacher, so I'm on my feet all day. |
+| Body | Two years ago, I went to Rome in the shoes I wear to school, and by day three, my arches were done. |
+| Body | I ended up sitting on the hotel balcony for two days because I couldn't walk anymore. |
+| Body | So for Portugal, I tried these. |
+| Body | 18,000 steps a day on cobblestone and hills, and my feet were fine. |
+| Body | I wore them with dresses, with linen pants, with shorts. I dressed them up, dressed them down. |
+| Body | I didn't even pack a second pair. |
+| Body | They're called comfort wear shoes. It's a wide toe box. The insole has an arch support that doesn't squish flat, and the top stretches with your foot. |
+| Body | They were built for nurses, which is honestly why they work. |
+| Body | They're 40% off right now, under $60 with a 45-day money back guarantee. The link is below. |
+| Body | One of the best purchases I've made in years. |
+
+---
+
+## COM83 — Teacher travelling
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** UGC · **Angle:** Foot Pain + Travel · **Creator type:** Travel · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-11 · **Learnings:** —
+
+Reference: (video embedded on page)
+
+| Shot | On-Screen Text / Voiceover | Visual Description |
+|---|---|---|
+| Hook | I walked 40,000 steps on my last trip, so I tested 5 shoes everyone swears by for travel. Most of them I'd never pack again. | Creator talking to camera in a hotel room, 5 different shoes lined up on the bed behind her. Quick pan across them. |
+| Hook | These are the 5 shoes I tested for a Disney trip, ranked by how bad my feet hurt. | (same) |
+| Hook | Please don’t wear your Skechers to Europe. I’m begging you! | (same) |
+| Body | Quick context: I'm a teacher and the who explores a city on foot all day. <br><br> Museums, old towns, those streets made of stones that hate your ankles. By 4pm my feet usually decide they're done. | B-roll: POV walking on cobblestones, climbing stairs, a packed walking-tour group. Close-up of her wincing slightly mid-walk. |
+| Body | First, the cute white sneakers everyone posts. <br><br> Look, they photograph great. <br><br> But there's basically no arch under them. <br> After two hours on hard ground my heels were throbbing. <br><br> Fashion, not function. | Hand holds up a trendy white sneaker. POV walking, then a close-up of her rubbing her heel on a bench. A "5/10" graphic pops on screen. |
+| Body | Next, classic running shoes like Hoka. <br><br> Super cushioned for actual running. But all that soft foam tips you forward when you're standing in a museum line for 40 minutes. <br><br> My lower back felt it by day two. | Holds up a chunky running shoe. POV standing in a long line, shifting weight foot to foot. Hand pressing the squishy sole. "6/10" graphic. |
+| Body | Then the foldable flats I packed "to save space." <br><br> Zero support, zero cushion. It's basically walking a marathon in a sock. I got a blister by lunch on day one. | Pulls a thin flat out of a packing cube. Close-up of a blister forming. Her shaking her head. "3/10" graphic. |
+| Body | And the travel sandals. <br> Great for the beach, but the straps rubbed raw between my toes and there's no real heel support walking a whole city. | Holds a sandal. POV walking a hot sidewalk. Close-up of a red spot between toes. "4/10" graphic. |
+| Body | Last pair, ComfortWear. <br><br> These are made for people on their feet all day, not for the gym. They've got real anatomical arch support, a cushioned heel they call ORTHO-WEAR, and a wide toe-box so your toes aren't crushed by hour eight. | Hand picks up the ComfortWear shoe, slips it on. Close-up of the arch and toe-box. POV walking confidently down a stone street. Brand name appears on screen. "9/10" graphic. |
+| Body | I did a full sightseeing day in these. <br><br> Got back to the hotel and for the first time, I didn't rip my shoes off the second I sat down. <br><br> The stretch knit moves with your foot, so no rubbing, no blisters. | Montage: walking up steps, through a market, crossing a plaza. Back in hotel room, she sits and DOESN'T grab her feet. Small relieved smile. |
+| Body | If you're traveling soon, these are the only ones I'm repacking. <br><br> Right now they're $80 off with free shipping, and you get 45 days to try them. Walk a whole trip in them. If your feet aren't happier, send them back. | Product shot: 3 colors. Graphics: "$80 OFF / FREE SHIPPING / 45-DAY MONEY-BACK GUARANTEE." She zips up her suitcase with the ComfortWear box on top. |
+
+---
+
+## COM84 — Travel
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** UGC · **Angle:** Foot Pain + Travel · **Creator type:** Travel · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-11 · **Learnings:** —
+
+Reference: (video embedded on page)
+
+| Shot | Voiceover | Visual Description |
+|---|---|---|
+| Hook | I actually threw a pair of shoes in the hotel trash can on day three of my trip. Let me tell you why. | Creator to camera, sitting on a hotel bed, holding a pair of worn-out shoes. She drops them dramatically. |
+| Hook | I saved for a year for this trip, and my foot pain almost ruined it. | |
+| Hook | Nobody warned me that the wrong shoes can wreck a whole Euro Trip. | |
+| Hook | Day one of my trip my feet hurt. <br> Day three I gave up and bought new shoes. | |
+| Body | I'd been saving for this trip for a year. <br><br> First morning, I'm so excited, I walk out the door ready to see everything. By noon my heels were aching. <br><br> By dinner I could barely make it back to the room. | Warm B-roll: packing the night before, stepping out into a sunny street, a beautiful plaza. Then a slow shift: her slowing down, sitting on a curb rubbing her foot. |
+| Body | Day two I told myself it was normal. Pushed through. <br><br> But I was watching the clock, counting how long until I could sit down. I came all this way and I was thinking about my feet instead of where I was. | She's in front of a landmark but looking down at her feet, not the view. Close-up of a hand massaging an arch on a park bench. A little sigh. |
+| Body | Day three I gave up on those shoes. <br><br> Literally left them in the room. And I went and bought the only comfortable-looking pair I could find that morning: ComfortWear. | She tosses the old shoes in the trash. Cut to her trying on ComfortWear, lacing them up, taking a tentative first step in the hotel hallway. |
+| Body | And the difference was honestly kind of emotional. <br><br> They have this anatomical arch support and a cushioned heel, plus a wide toe-box so nothing's pinching. <br><br> First time on the trip I forgot about my feet and just looked up. | POV walking out into the city, then tilting up to take in a cathedral / skyline. She's smiling, looking around instead of down. Slow, happy walking montage. |
+| Body | I did a full day after that. <br><br> Climbed to a viewpoint, wandered for hours, stayed out past dark. Got back to the room and I didn't even take them off right away because they didn't hurt. <br><br> That had never happened to me on a trip. | Montage: climbing steps to a viewpoint, golden hour over the city, walking a lively night street. Back in the room, she sits, glances down, gives a surprised little laugh. |
+| Body | I'm not exaggerating when I say they kind of saved the rest of my trip. They're built for people on their feet all day, which apparently is exactly what a traveler is. | Soft close-up of the shoes by the door, packed and ready. Her looking through photos on her phone, genuinely happy ones this time. |
+| Body | If you've got a trip coming up, do not make my mistake. They're $80 off right now with free shipping and a 45-day guarantee. Try them on your trip. If your feet aren't happier, send them back. | Product shot: 3 colors. Graphics: "$80 OFF / FREE SHIPPING / 45-DAY MONEY-BACK GUARANTEE." She zips her suitcase, ComfortWear box on top, walks out the door. |
+
+---
+
+## COM85 — Podcast - Inverview
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** AI · **Angle:** Quality · **Creator type:** Everyday User · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-12 · **Learnings:** —
+
+Reference: (video embedded on page). Visual for every row: "Replicate the podcast/Interview Style. Replicate the style of captions too."
+
+| Shot | Voiceover |
+|---|---|
+| Hook | **Interviewer:** What brands would you never wear, and what brands would you recommend? |
+| Hook | **Interviewer:** Which shoes would you never put on, and which ones do you swear by? |
+| Hook | **Interviewer:** What shoes are a never-wear for you, and which ones would you tell people to buy instead? |
+| Hook | **Interviewer:** So which shoes do you stay away from, and which ones have actually earned a spot in your closet? |
+| Body | **Interviewee:** <br><br> Shoes I won't wear? You won't catch me in a Nike. <br> Converse, same thing. Most traditional footwear, it's just not happening for my feet. <br><br> And here's the thing people miss: there's a difference between a wide shoe and a wide toe box. A lot of these companies go "oh, I make a wide shoe," but the toes are still tapered. <br><br> That doesn't work for me. |
+| Body | **Interviewee:** <br><br> So what do I actually wear? Lately the ones I keep coming back to are ComfortWear. Same deal, the toe box is actually wide, your toes get to sit how they're supposed to. But what got me is they didn't stop there. <br><br> They've got real arch support built in and this heel cushioning, so if you're standing all day it's a different story by hour ten. That's the combo I tell people to look for. |
+
+---
+
+## COM86 — 3 Things I Stopped Doing Before Traveling After 68
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** UGC · **Angle:** Travel · **Creator type:** Travel · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-17 · **Learnings:** —
+
+Hook 1:  Three things I stopped doing before every trip after I turned 68.
+Hook 2: At 68, I walked 23 miles through Paris and still made it to dinner. Here are the three things I stopped doing before every trip that made that possible.
+Hook 3: I almost ruined my trip to Europe by packing my Skechers and Hokas. These are the three things I changed just in time (use AI avatar with tiktok comment bubble that says: **Which shoes should I bring for my Europe trip?**)
+
+Number one — I stopped packing my Skechers running shoes. For years, I thought they were the comfortable choice. But walking 20,000 steps a day through a new city on cobblestones? Those shoes left my feet, legs and back aching by dinner every single night. I'd come home from vacation more exhausted than before I left.
+
+Number two — I stopped popping painkillers just to get through a day of sightseeing. No more pills, creams, or foot massages, because I finally fixed the thing that was actually causing the pain.
+
+Number three — I stopped wasting $400 on “orthopedic” shoes from Amazon. You're paying for the brand. Same materials, sometimes worse.
+
+So what changed? I found ComfortWear's Ortho Stretch, orthopedic shoes designed for active women over 65, not borrowed from marathon runners. The cushioning doesn't flatten after an hour like regular shoes. The wide toe box means my toes aren't crammed by afternoon. The arch support actually holds. And they're light, so my legs don't get tired the way they used to.
+
+Last trip, I walked 23 miles through Paris and still felt good at dinner. That's why more than 500,000 women trust them.
+
+Right now they're 40% OFF with free returns & exchanges — click the link and the discount applies automatically. Don't let your feet decide where you can and can't go.
+
+---
+
+## COM87 — Only Shoes That Survived 12-Hour Shifts
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** UGC · **Angle:** Nurse · **Creator type:** Nurse · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-17 · **Learnings:** —
+
+Hook 1: These are the only shoes that survived my 12-hour shifts. (*Use similar hook footage as reference and editing style)
+Hook 2: My charge nurse threw her $165 hokas in the trash mid-shift and told me to do the same. (shoes being thrown in garbage and banner: “CHARGE NURSE THROWS $165 HOKAS IN GARBAGE”
+Hook 3:  Why do 80% of nurses end up suffering from plantar fasciitis pain? (tiktok or youtube scene of nurse limping and then the statistic appearing with the research papers in the side, making it seem like a research documentary hook)
+
+If you’re wearing Skechers or Hokas to work right now, they’re quietly wrecking your feet, knees and back. And nobody warns you.
+
+Most shoes are made for people who work eight-hour desk days and rest their feet in between. But I'm an ER nurse. I'm on my feet for 12 hours straight on concrete. Last shift I counted 47,000 steps. That's why running shoes fail us — the cushioning collapses by hour four, the arch support gives out halfway through, and by the end I could barely walk to my car.
+
+Then my charge nurse told me about ComfortWear. I was skeptical, ordered a pair anyway, didn't expect much. First shift, I felt the difference right away. The cushioning didn't fade. Real arch support, not marketing fluff. A wide toe box, so no more pinched, swollen toes by the end of the night. Slip-resistant for wet floors. And light enough that I'm not dragging bricks by hour ten.
+
+My one worry was sizing, ordering shoes online always feels like such a gamble. But they fit true to size, and if they’re even a little off, they offer free returns & exchanges. Over 500,000 healthcare workers commented that they’ve made the switch.
+
+Right now, they’re 40% off, under $60 and you can use your FSA HSA cards. It’s a risk-free purchase with a 45-day money back guarantee. Why wait?
+
+---
+
+## COM88 — Summer Sale Ads
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Offers · **Creator type:** Everyday User · **Product:** — · **Offer:** Sumer Sale · **Month:** June · **Created:** 2026-06-17 · **Learnings:** —
+
+(Editor instructions only — no script copy.) Variations 1–10 all read: "We need to add this lower-third/caption bar: https://drive.google.com/file/d/1dLDGq-V4GR8T6YjkEgWp21Vp4Tw_rPsS/view?usp=drive_link to this video: [a different Drive video per variation]. Put it at the bottom of the video, flush against the lower edge."
+
+Videos per variation: V1 https://drive.google.com/file/d/1ZJBna2iM9O4E5P7MEi_nyqm5-cMm_Idu · V2 https://drive.google.com/file/d/1A_FnOWI0zubcGDviaAUZCWEDbclVsjpa · V3 https://drive.google.com/file/d/13RqH9RDy5pPFpRfj1gmmq43IwU3yGFLh · V4 https://drive.google.com/file/d/1Xe_zABFw-QYc1NTEaHuDKqEK-LJZbTgA · V5 https://drive.google.com/file/d/1Yy7uojV1xP_MpNc7GZ3_O-0WkywYKRHh · V6 https://drive.google.com/file/d/1yTfeDPeT0LnbE8Fs71uxmQ90Bj2lRI4p · V7 https://drive.google.com/file/d/1QR8jXiIDr9wLvYPM4iFmmCpGPuR-E_9o · V8 https://drive.google.com/file/d/19_UYy0JYM6PB6g5vo7Hyd2zLaXDjahAD · V9 https://drive.google.com/file/d/1em0VSE3cLd32tuP44Op81Jkgj57jgV9x · V10 https://drive.google.com/file/d/1b0IN2MY6y93rwn04P8WIF36jfl7_rpLP
+
+---
+
+## COM89 — Weight Loss
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** UGC · **Angle:** Weight Loss · **Creator type:** Overweight · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-17 · **Learnings:** —
+
+Hook 1: My doctor said I'd never walk normally again because of my weight. It was so blunt I actually cried in the car.
+Hook 2: If you're carrying some extra weight and your feet are killing you by noon — I need you to hear this. It's not just the weight. It's your shoes making it worse.
+Hook 3: My doctor told me I'd just have to live with this foot pain forever if I didn’t lose weight.
+Hook 4: Skechers & Brooks flattened because of my weight (put scene of fat woman stepping in shoes and shoes are getting crushed)
+
+I weigh 250 pounds and I'm on my feet all day — nine hours a shift in a warehouse, the same unsupportive shoes for years. It got to the point where I could barely walk after work. And all my doctor said was lose weight and get surgery.
+
+I tried everything — expensive insoles, massages, taking it easy. Nothing worked.
+
+I found a forum of other curvy women swapping tips, and one name kept coming up — the Ortho Stretch Cushion Shoes by ComfortWear. I was skeptical. But they transformed how my days feel.
+
+First thing I noticed — the cushioning didn't bottom out. It actually held my weight without flattening like the foam in my old running shoes, which gives out in about two hours. The wide toe box gave my feet room as they swelled. The arch support spread the load instead of dumping it all on my heels.
+
+The plantar fasciitis I figured was just my life started easing within two weeks. No more limping to the couch after a shift.
+
+A few weeks in, the aching knees and back eased up. And here's the part I didn't expect — I started taking those evening walks. Not because anything changed about me. Because my feet finally let me.
+
+They've outlasted and outperformed every shoe and insole I've tried, at a fraction of the cost.
+
+With a 45-day money-back guarantee, there's zero risk. If they don't change how your feet feel, send them back.
+
+---
+
+## COM90 — Prime day sale Ads
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Offers · **Creator type:** Everyday User · **Product:** — · **Offer:** PRIME DAY SALE · **Month:** June · **Created:** 2026-06-17 · **Learnings:** —
+
+(Editor instructions only — no script copy.) Variations 1–10: "We need to add this lower-third/caption bar: [bar] to this video: [video]. Put it at the bottom of the video, flush against the lower edge." Bar for V1–V5: https://drive.google.com/file/d/1X0uoinLak4teLjoqvn4fk-l4RT3W8taL ; bar for V6–V10: https://drive.google.com/file/d/1RwLJmjE4pIVNNmWWhACkpgetx_hPZAhB . Videos are the same ten Drive videos as COM88, in the same order.
+
+---
+
+## COM91 — Offer Ads
+
+**Status:** Ready to Launch · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Travel · **Creator type:** Everyday User · **Product:** — · **Offer:** Sumer Sale · **Month:** June · **Created:** 2026-06-17 · **Learnings:** —
+
+Reference: (image on page). Each variation: **Instead of:** ~~"40% OFF / END TODAY / USE PROMO CODE… / FOR EXTRA…"~~ **Put:**
+
+| Variation | Copy | Visual Description |
+|---|---|---|
+| VARIATION 1 | Last Chance For <br> THE PERFECT TRAVEL SHOES <br><br> SUMMER SALE! <br> 40% OFF <br><br> We won’t do this again! | Replicate the same image, just change the colors of the background. Don’t use blue, use another one. |
+| VARIATION 2 | Last Chance For <br> THE PAIN-FREE SHOES <br><br> SUMMER SALE! <br> 40% OFF <br><br> We won’t do this again! | Replicate the same image, just change the colors of the background. Don’t use blue, use another one. **Don’t use the same for all VARS** |
+| VARIATION 3 | Last Chance For <br> THE SHOES YOU NEED FOR DISNEY <br><br> SUMMER SALE! <br> 40% OFF <br><br> We won’t do this again! | (same as V2) |
+| VARIATION 4 | Last Chance For <br> THE SHOES YOU NEED FOR EUROPE <br><br> SUMMER SALE! <br> 40% OFF <br><br> We won’t do this again! | (same as V2) |
+
+---
+
+## COM92 — Offer Ads
+
+**Status:** Ready to Launch · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Travel · **Creator type:** Everyday User · **Product:** — · **Offer:** Sumer Sale · **Month:** June · **Created:** 2026-06-17 · **Learnings:** —
+
+Reference: (image on page). Each variation: **Instead of:** ~~"Dear Nurses, Work 12-hour shifts pain-free"~~ **Put:** [headline] + CTA "Summer Sale 40% OFF / We won’t do this again." Visual for all: "Replicate the same image, but change the color of the shoes. Use 4 different shoes, don’t replicate the same shoes for the VARS."
+
+| Variation | Headline |
+|---|---|
+| VARIATION 1 | A pharmacist in Rome looked at my shoes <br> and told me exactly why my feet hurt on every trip |
+| VARIATION 2 | I'll never travel through Europe in running shoes again. |
+| VARIATION 3 | 47,000 steps through Rome in 3 days. Zero foot pain. |
+| VARIATION 4 | Why 50,000 frequent travelers won't fly without these sneakers |
+
+---
+
+## COM93 — Offer Ads
+
+**Status:** Ready to Launch · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Travel · **Creator type:** Everyday User · **Product:** — · **Offer:** Sumer Sale · **Month:** June · **Created:** 2026-06-17 · **Learnings:** —
+
+Reference: (image on page). Each variation: **Instead of:** ~~"Shoes for 12-hour shif / made for nurses"~~ **Put:** [headline] + CTA "40% OFF sitewide / We won’t do this again." Visual for all: "Replicate the same image, but change the color of the shoes. Use 4 different shoes, don’t replicate the same shoes for the VARS. **Replace the image, use another one, super intense: Area of Pain / Plantar Fascia**"
+
+| Variation | Headline |
+|---|---|
+| VARIATION 1 | Running shoes are built for running. Not for walking a city 8 hours a day. |
+| VARIATION 2 | The wrong shoes can wreck a trip you saved a year for. These won't. |
+| VARIATION 3 | Made for people on their feet all day. |
+| VARIATION 4 | The shoes your feet will thank you for after 40,000 steps abroad. |
+
+---
+
+## COM94 — Offer Ads
+
+**Status:** Ready to Launch · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Travel · **Creator type:** Everyday User · **Product:** — · **Offer:** Sumer Sale · **Month:** June · **Created:** 2026-06-17 · **Learnings:** —
+
+Reference: (image on page). Each variation: **Instead of:** ~~"12-Hour shift shoes"~~ **Put:** [headline] + "**Same Benefits.**" + CTA "40% OFF sitewide / We won’t do this again." Visual for all: "Replicate the same image, but change the color of the shoes. Use 4 different shoes, don’t replicate the same shoes for the VARS. **Use different colors, for the 4 different backgrounds.**"
+
+| Variation | Headline |
+|---|---|
+| VARIATION 1 | **Made for being on your feet all day, even on vacation.** |
+| VARIATION 2 | **Made for the days you walk a whole city.** |
+| VARIATION 3 | **Made for travelers who don't stop walking.** |
+| VARIATION 4 | **Made for 12 hours of sightseeing.** |
+
+---
+
+## COM95 — LF Comparison Style Ad
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Nurse · **Creator type:** Nurse · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-17 · **Learnings:** —
+
+(The page body is a single sub-page titled "Ad Copy:". Its full text follows. The narrator "Eleanor" and granddaughter "Mia" are fictional characters in the ad.)
+
+**Ad Copy:**
+
+The Walking Company quoted me $400 for a pair of “orthopedic” walking shoes. I’m a retired nurse working in retail now.
+
+I'd already wasted money on $400 shoes and $40 shoes. Neither had fixed my feet.
+
+I sat on the edge of my bed surrounded by shoeboxes. Eleven pairs. Each pair bought with the same hope, each shoved to the back of the closet within a month. Somewhere north of $900 in shoes that all ended the same way, aching arches by noon, a stabbing heel by dinner.
+
+Eleven pairs. And I still couldn't walk to the end of my own street without stopping.
+
+I'm Eleanor. Sixty-four. Retired nurse from Ohio. Forty years on hospital floors, twelve-hour shifts, more steps in a day than most people take in three.
+
+If anyone has earned the right to be cynical about a shoe that promises comfort, it's me. I've owned them all. I've stood in them all. And I've thrown most of them out.
+
+So this time I didn't accept the choice between $40 junk and a $400 logo.
+
+I investigated instead.
+
+I lined up every pair I'd ever tried. I read about how they're actually made — the foam, the soles, who manufactures them, what you're really paying for when the price triples. Then I wore each one on the same one-mile loop and timed exactly when the pain started.
+
+Here's what I found.
+
+**Option 1: The discount-rack sneakers — $40**
+
+Light. Bouncy. Felt wonderful in the aisle.
+
+Forty minutes into my loop the bottoms had already gone flat. There's a reason they're cheap — there's almost nothing inside them. A thin layer of foam over a flat board, no real arch structure. The “cushion” is air that crushes out by the time you've parked the car.
+
+**Verdict:** *Cheap because there's nothing in them. You're not buying a shoe, you're buying a month.*
+
+**Option 2: Skechers memory foam — about $65**
+
+The memory foam everybody swears by. And in the store, pressing it flat under your hand, it does feel incredible.
+
+But memory foam has a quiet problem. It compresses under your weight and it doesn't spring back until you take the shoe off. So by early afternoon — exactly when you're doing the most walking — you're standing on a flat, packed sole with nothing left under your arch. Worse the second week. Worse again the third.
+
+**Verdict:** *Comfortable in the store. Gone by the third wear.*
+
+**Option 3: Hoka — about $165**
+
+Everyone told me these were the answer. Big cushion, a runner's favorite.
+
+Here's what nobody mentions. They're built for running — for a quick heel-to-toe stride, thirty minutes at a time. That tall stack of foam is tuned to spring you forward, not to hold you up while you stand still or wander a museum for hours. All that height made me wobble on uneven ground, and they were the heaviest thing in my suitcase.
+
+**Verdict:** *A runner's shoe wearing a comfort label. Wrong tool for the job.*
+
+**Option 4: The $400 specialty “orthopedic” pair**
+
+I went in. Proper fitting, knowledgeable staff, genuine arch support — no complaints about the shoe itself.
+
+Then I looked at what I was actually paying for. The storefront on the nice street. The fitter working on commission. The brand on the box. Four hundred dollars — and very little of it was the part I'd actually be standing on.
+
+**Verdict:** *A good shoe carrying an indefensible markup. You're paying for the building, not the soles.*
+
+By the end I understood the real problem, and it wasn't my feet.
+
+Almost every shoe sold for “comfort” is built on foam designed for runners — foam meant to collapse and rebound through a short, fast stride. Stand on it, or walk a city all day, and it does exactly what it was built to do: it gives out. After that you're walking on a flat board, and all your weight slams into your heel and your arch. That's the stabbing pain. It's also why insoles never fixed it for me — you can't patch a shoe that's collapsing around the insert.
+
+I'd been buying running shoes for a job they were never made to do.
+
+**Option 5: ComfortWear Ortho Stretch — $59**
+
+This is where three weeks of digging led me.
+
+A small company that did the one thing none of the others did: built a shoe for people who stand and walk all day, instead of people who run for thirty minutes. Designed with a podiatrist, around the actual problem.
+
+The cushioning holds its shape all day instead of flattening by lunch. The arch support stays firm from morning to night. The upper is a stretch knit that gives as your feet swell instead of crushing your toes. A wide toe box. A sole that grips. And it's sold straight from the company — no main-street storefront, no commissioned fitter, no markup stacked on markup.
+
+That's why it's $59 and not $400. Not a cheaper shoe — a fairly priced one, built for the job and sold without everything that has nothing to do with your feet.
+
+I ordered them that evening.
+
+Three days later they arrived. I laced them up at the kitchen table — real laces, you set them to your own foot — and went out to walk my one-mile loop.
+
+I did the whole thing. Then I did it again.
+
+No stabbing. No flat board by minute forty. For the first time in years, my feet weren't the thing I was thinking about.
+
+Two weeks later, that first knife-step out of bed in the morning — the one I'd had for as long as I could remember — had quieted to almost nothing.
+
+And then came the part I'd actually been saving for.
+
+My granddaughter, Mia, is eight. For three years, whenever the family went somewhere that meant walking — the zoo, the fair, the botanical garden — I was the one on the bench. “You all go ahead. I'll wait here.”
+
+This spring we took her to the zoo. I walked the whole thing. Every loop, every exhibit, the long hill up to the big cats and back down.
+
+At bedtime she said, “Grandma, you stayed the whole time today.”
+
+She'd noticed. Three years of me on benches, and she'd noticed.
+
+I had to leave the room.
+
+In June I finally took the trip I'd been putting off because I was scared my feet would ruin it. Twenty-three miles on my own two feet through Paris, over four days. Cobblestones, museums, stairs, all of it. I came home and the only thing sore was my heart — from how much I'd been missing.
+
+My walking group noticed before I said a word. I'd gone from the one who turned back early to the one out front. They asked. I told them exactly what I've told you.
+
+There are five of us in those shoes now. Between us, if we'd each bought the $400 specialty pair, we'd have handed over two thousand dollars for the thing I paid $59 for.
+
+So here's what my investigation came down to.
+
+You do not have to choose between $40 shoes that fall apart and $400 shoes you're mostly paying a logo for. The pain isn't your age, and it isn't your feet. It's a running shoe being sold to you for a walking life — at a price built out of everything except the part you actually stand on.
+
+That's not a sales pitch. That's just what's under your foot, and what isn't.
+
+If you want to see them for yourself:
+
+**comfortorthowear.com — the Ortho Stretch**
+
+$59. More than 500,000 people already walking in them. A 45-day guarantee, with free returns and exchanges — so if the size is even a little off, you swap it, no fuss. Walk in them for six weeks. If they don't change how your days feel, send them back.
+
+**Eleanor M., 64**
+
+Retired Nurse · Ohio
+
+*Forty years on my feet. Eleven pairs in the closet. One that finally listened.*
+
+**P.S.** I kept the $400 specialty pair in the box for a month, telling myself I'd take them back. I never did — I gave them to my sister, who couldn't believe I was handing them over. She wears them now and loves them. But I told her the truth: the shoe's fine. It was never worth four hundred dollars. The only number that ever mattered was the twenty-three miles through Paris — the trip I almost didn't take.
+
+---
+
+## COM96 — Doctor’s POV
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** AI + Existing Footage · **Angle:** Pains · **Creator type:** Everyday User · **Product:** — · **Offer:** 40% Off · **Month:** June · **Created:** 2026-06-18 · **Learnings:** —
+
+Reference: (video embedded on page)
+
+| Shot | Voiceover | Visual Description |
+|---|---|---|
+| Hook | If your feet hurt at the end of the day, I need you to hear this. It's not normal, and it's not just your feet. | Split screen of the Doctor talking to the camera and the pains in black and white. |
+| Hook | Most people blame their age for the aches. 9 times out of 10, it's what they're standing on. | Split screen of the Doctor talking to the camera and the pains in black and white. **Don’t show the same footage for all of them.** |
+| Hook | As a doctor, the back pain I see most often doesn't start in the back. It starts in the feet. | (same) |
+| Hook | That tired, heavy feeling in your legs after a long day? It's your body sending you a warning. Here's what it means | (same) |
+| Body | Your feet are the foundation of everything. <br><br> When you step wrong, or when your shoes don't support you, your body compensates. <br><br> The first thing to take the load is your ankles. Then your knees. Then your hips. <br><br> And at the end of the day, that back pain you can't explain… a lot of the time it starts down here. | Doctor gesturing, pointing to his own body (ankle, knee, hip) |
+| Body | We spend hours on our feet, walking on hard surfaces, in sneakers that look nice but cushion nothing on the inside. <br><br> The body holds up… until it doesn't. <br><br> And that's when the fatigue shows up, the inflammation, that feeling of heavy feet even when you haven't done anything out of the ordinary. | Explanatory tone, clinical. B-roll: feet on hard floor, walking |
+| Body | The good news is that most of these aches don't need medication. <br><br> They need support. Footwear that cushions properly, respects the arch of your foot, and distributes pressure the way it should. <br><br> When the foundation is right, the whole chain above it works less. <br><br> That’s why I recommend this Shoes: <br> Ortho Stretch from ComfortWear. | Calmer, colleague-to-colleague tone. B-roll of sole/arch of the shoe |
+| Body | If you finish your day with tired feet or a tired back, take a look at what you're walking on. Sometimes the biggest change for your body starts with your feet. | Doctor looking at camera, calm tone |
+
+---
+
+## COM97 — My mom got diagnosed with…
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Pains · **Creator type:** Senior +65 · **Product:** — · **Offer:** 40% Off · **Month:** June · **Created:** 2026-06-19 · **Learnings:** —
+
+Reference: (video embedded on page)
+
+| Shot | Voiceover | Visual Description |
+|---|---|---|
+| Hook | My mom just healed from heel microfractures and has a wedding in February. <br><br> So we ranked 4 shoes she could actually last all night in. Number one surprised us. | |
+| Hook | We tested 4 shoes for a 56-year-old recovering from a heel injury who needed to survive a full wedding. Here's how they ranked. | Four boxes lined up |
+| Hook | We put 4 'comfortable' shoes to one test: an 8-hour wedding on a heel that just healed. Only one made it to the dancing. | |
+| Body | Number four: actual heels. Looked great in the photos. By the dinner, she wanted them off. For a healed heel, a hard no. | Heels, score "4/10" |
+| Body | Number three: ballet flats. Comfier, sure. But zero arch support. Flat all night means the heel pays for it the next morning. | Flats, "5/10" |
+| Body | Number two: her trusty running shoes. Easy on the feet... but you can't wear gray runners to a wedding. | Runners, "6/10" |
+| Body | Number one: ComfortWear. Black and clean enough to pass at any table. And inside, where it counts: anatomical arch support, ORTHO-WEAR heel cushioning, wide toe-box. Eight hours, no complaints. | ComfortWear, "9/10", inside close-up |
+| Body | She forgot she had them on by the dancing. 45-day returns, HSA and FSA eligible. Link's below if your mom's got a long day coming. | Product + CTA |
+
+---
+
+## COM98 — My wedding
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Pains · **Creator type:** Senior +65 · **Product:** — · **Offer:** 40% Off · **Month:** June · **Created:** 2026-06-19 · **Learnings:** —
+
+| Shot | Voiceover | Visual Description |
+|---|---|---|
+| Hook | My mom got diagnosed with microfractures in her heel this year. And in February we've got a wedding. | |
+| Hook | My mom asked me one thing for the wedding: find her shoes that won't wreck her feet. Her heel just healed from microfractures. | |
+| Hook | This is what I ended up putting on my mom for a family wedding... after she spent the whole year recovering from a heel injury. | |
+| Body | "She told me: 'I'm not showing up in the same old gray sneakers.' But six hours in heels wasn't happening either." | Old gray sneakers vs. a heel |
+| Body | "And that's when it hit me. Two bad options: suck up the pain to look presentable, or be comfy but look like she came from the gym." | "Neither works" gesture |
+| Body | "A wedding isn't one hour. It's the ceremony, the photos, the dinner, the dancing. Eight hours on her feet. For a heel that just healed, that's a lot." | B-roll: photos, table, dance floor |
+| Body | "So I found her something else. These are ComfortWear. Black, clean, they go with any dress. Inside: anatomical arch support, the heel cushioned with ORTHO-WEAR, and a wide toe-box so her toes aren't crammed all night." | Pair in hand, inside close-up, next to a dress |
+| Body | "She wore them eight hours around the house. Took them off and said: 'I didn't think about my feet once.' Coming from her, that's huge." | Mom standing comfortably |
+| Body | "45 days to return them if not, and you can pay with HSA or FSA. If your mom also deserves to make it to the dancing without kicking off her shoes... link's right here." | Product + CTA |
+
+---
+
+## COM99 — Morton’s feet
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Pains · **Creator type:** Morton's Feet · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-22 · **Learnings:** —
+
+Reference: (video Kyro_293_1_V1 embedded on page) — **Replicate these type of video. Same V.O, same music, style of footage, etc ⬆️**
+
+| Shot | Voiceover | Visual Description |
+|---|---|---|
+| Hook + pain | If you've got Morton's foot, that long second toe changes everything about how a shoe should fit. <br><br> And most of them get it wrong. | Show different people with Morton's foot, walking uncomfortably, in a lot of pain. |
+| Hook + pain | We tested what people with Morton's foot actually reach for, and only one actually worked! | Show a creator talking to camera. |
+| Hook + pain | If you've got Morton's foot, that long second toe means your shoes are probably crushing the wrong part of your foot all day. <br><br> We tested the most popular ones to see which actually leaves room for it. | Show a creator talking to camera on green screen with different shoes and people struggling with foot pain. |
+| Sit in the pain | With a Morton's foot, your weight lands on the wrong spot. <br><br> So the ball of your foot takes a pounding it was never built for. <br><br> That's the burning by the afternoon. The callus that keeps coming back. Some people get the numbness and tingling too. | Show other people with Morton's foot, walking uncomfortably, in a lot of pain. They can also be nurses. |
+| Set up the test | So we tested what people with Morton's foot actually reach for. <br><br> And the difference came down to one thing: room up front, and support where the ball of your foot lands. | Show different pairs of shoes from well-known brands like Nike, adidas, New Balance. |
+| Fail #2: chunky cushioned | First, the big cushioned ones like Hoka. <br><br> Soft for the first hour. <br><br> But all that squish under the ball of your foot just sinks. <br><br> There's nothing actually holding the pressure off the spot that hurts. By the afternoon you're right back where you started, just with a thicker sole. | Show the shoes and the pain. |
+| Fail #1: regular sneakers | Then, regular running sneakers. <br><br> They look like they'd work. But the toe box narrows to a point, so your long second toe is the first thing to hit the wall. All day, every step, it's getting pressed into the front of the shoe. | Show the shoes and the pain. |
+| Fail #3: memory foam | Then the memory foam slip-ons like New Balance. <br><br> They are comfy in the store, but memory foam just molds around the problem instead of fixing it, and the toe box is still narrow. So your toes are squeezed and the ball of your foot has nothing structured underneath it. | Show the shoes and the pain. |
+| Reveal: Comfort Wear | Finally we tried Comfort Wear. <br><br> This is where it got interesting. <br><br> The toe box is actually wide, so your long toe and the ball of your foot finally get room to spread out instead of getting jammed. <br><br> There's real arch support to take the load off the front of your foot. And the ORTHO-WEAR cushioning sits under the ball where you need it, not just under the heel. <br><br> The knit upper stretches too, so nothing presses down on that long toe. | Show the shoes and each of the features that make them work perfectly, and people enjoying wearing the shoes. |
+| Outcome | After testing, the people with Morton's foot said the same thing. <br><br> They could stand longer and finish the day without that burning in the ball of their foot. <br><br> A couple of them said it was the first shoe in years their toes didn't fight. | (same) |
+| CTA | Right now you can try them for 40% off with free shipping. <br><br> Wear them for 45 days. If the ball of your foot doesn't feel better, send them back, no questions asked. | Show the product and happy people using them. |
+
+---
+
+## COM100 — Morton’s feet | LF ADS
+
+**Status:** Ready to Launch · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Pains · **Creator type:** Morton's Feet · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-22 · **Learnings:** —
+
+(No script text in Notion: the copy lives in an external Google Doc, not exported.)
+
+Text: https://docs.google.com/document/d/1VailbNZjHvq7tAEkrSLI2VieABI5bmYhSTiPP-ybg-k/edit?tab=t.0
+
+Images: https://drive.google.com/drive/u/2/folders/1G2Qy5OaZJd77J_XKwGMwzA6Xsk7YAghu
+
+---
+
+## COM101 — COM49 Yapper Iteration
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** UGC · **Angle:** Travel · **Creator type:** Everyday User · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-23 · **Learnings:** —
+
+Reference:  https://app.foreplay.co/share/ads/y4j54XpLAfXQ37HJm67J?user=5NhB8d2wvkNB7FqJIMwdTrxpLxb2
+
+Script: (identical to the COM49 winner script, verbatim)
+
+Hook 1: Please don’t wear your Skechers to Europe. I'm begging you.
+Hook 2: If you're a teacher in your 50s and you're planning any kind of trip this year, listen to me before you pack the shoes you wear to school.
+Hook 3: Hands down the best shoes if you're going on a trip with a lot of walking but you still want to look put together. And this isn't an ad, I just genuinely cannot stop telling people about them.
+
+I'm a teacher, so I'm on my feet all day. Two years ago I went to Rome in the shoes I wear to school, and by day three my arches were done. I ended up sitting on the hotel balcony for two days because I couldn't walk anymore.
+
+So for Portugal, I tried these. Eighteen thousand steps a day on cobblestone and hills, and my feet were fine. I wore them with dresses, with linen pants, with shorts. Dressed them up, dressed them down. I didn't even pack a second pair.
+
+They're called ComfortWear shoes. Its go a Wide toe box, the insole has an arch support that doesn't squish flat, and the top stretches with your foot. They were built for nurses, which is honestly why they work.
+
+They're forty percent off right now, under sixty dollars, with a forty-five day money-back guarantee. Link's in my bio. One of the best purchases I've made in years.
+
+---
+
+## COM102 — 30 days
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** UGC · **Angle:** Comfortable · **Creator type:** Everyday User · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-23 · **Learnings:** —
+
+Reference: (video embedded on page). **Please watch this loom before editing!** https://www.loom.com/share/189bdbd3b7a5400e9acf44585579a30b
+
+| Shot | Script | Visual |
+|---|---|---|
+| Hook | I wore these sneakers every day for 30 days, and here's what actually happened. | Talking head, holding the sneakers up to camera. Casual, everyday clothes. |
+| Hook | If your feet are killing you by the end of the day, you need to see what 30 days in these did. | Talking head, rubbing a sore foot, then pointing at the sneakers. |
+| Hook | Nobody tells you your shoes are the reason your feet hurt. I found out the hard way. | Talking head, slightly serious, holding up an old worn-out shoe next to the new sneakers. |
+| Hook | I almost returned these on day 3. <br> By day 30 I bought a second pair. | Talking head, half-laughing, sneakers in hand. |
+| Body | After 30 days? My feet sit naturally now. No more squished toes, no more that burning ache by 3pm. | Close-up of relaxed, comfortable bare feet. Text overlay: "DAY 30" |
+| Body | No more peeling them off the second I got home. | B-roll slipping the sneakers on easily, walking around the house comfortably. |
+| Body | So if you start today, you'll forget what foot pain even felt like before the summer's over. | Walking outside in the sneakers, smiling. End card with product + CTA. |
+
+---
+
+## COM103 — COM61 ITERATION V1
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** AI + Existing Footage · **Angle:** Neuropathy · **Creator type:** Neuropathy · **Product:** — · **Offer:** Ever green · **Month:** June · **Created:** 2026-06-24 · **Learnings:** —
+
+Reference: **We need to iterate this ad:** https://next.frame.io/share/43cfea96-b00f-4b7a-a484-121dfa7444db/ **This iteration is super simple. Just delete the b-rolls and have the person talk to the camera. Here I will leave you the 4 variations of hooks. Always use the same creator talking to the camera, and**
+
+| Shot | Script |
+|---|---|
+| Hook | After analyzing the top four shoes for neuropathy, New Balance, Hoka, Orthofeet, and Brooks, we decided to never recommend those to my patients, and here's why. |
+| Hook | After many years of 12+ hour shifts with neuropathy, I've tried a lot of shoes. <br><br> Hokas, New Balance, Skechers, and custom orthotics. <br><br> I finally found one that actually lasts a full 12 hour shift without making the burning worse. |
+| Hook | Do not wear these shoes if you’re dealing with neuropathy. |
+| Hook | Here are the 3 shoes I don’t recommend if you’re planning on traveling with neuropathy pain |
+
+---
+
+## COM104 — Hook winners + Script winner
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** AI + Existing Footage · **Angle:** Comparison · **Creator type:** Everyday User · **Product:** — · **Offer:** Ever green · **Month:** June · **Created:** 2026-06-24 · **Learnings:** —
+
+| Shot | Script |
+|---|---|
+| Hook | Use this hook: https://drive.google.com/file/d/1MDcEAnjn38nU7yfYGRLO1_qW14pZyaGL/view <br><br> With this structure: https://drive.google.com/file/d/1pmoRjJKUCi7OQZeD5rNnC9TikHcT9c4s/view?usp=drive_link |
+| Hook | Use this hook: https://next.frame.io/share/00452833-cbd7-44c7-ba5b-2c666099d2c9/view/c1da62a8-7bbd-4943-8e16-fd8e1e617050 <br><br> With this structure: https://drive.google.com/file/d/1pmoRjJKUCi7OQZeD5rNnC9TikHcT9c4s/view?usp=drive_link |
+| Hook | Use this hook: https://www.facebook.com/61559262057258/posts/122220523172308735/ <br><br> After the hook please add a part where the same creator is talking to the camera, and make her saying: <br> **Look what this doctor said!** <br><br> (Create it with AI 👆🏻) <br><br> With this structure: https://drive.google.com/file/d/1pmoRjJKUCi7OQZeD5rNnC9TikHcT9c4s/view?usp=drive_link |
+
+---
+
+## COM105 — Napkin
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Pains · **Creator type:** Everyday User · **Product:** — · **Offer:** Ever green · **Month:** June · **Created:** 2026-06-25 · **Learnings:** —
+
+Reference: (image on page). (Line breaks inside each headline were lost in the Notion export; "<br>" marks where one line ends and the next begins.)
+
+| Shot | Headline | Visual |
+|---|---|---|
+| 1A | PLANTAR FASCIA (INFLAMED & TEARING) <br> NOTHING HOLDING THE ARCH UP <br> YOUR SHOES? DOING NOTHING. | Boceto a mano sobre servilleta del pie con 3 callouts con flechas; el zapato al costado sobre la mesa de trabajo. |
+| 1B | HEEL PAD (WORN FLAT) <br> EVERY STEP LANDS ON BONE <br> YOUR SHOES? ZERO CUSHION. | Mismo boceto tipo servilleta, callout al talón; producto al lado. |
+| 1C | 12 HOURS ON HOSPITAL FLOORS <br> ARCH COLLAPSING ALL SHIFT <br> YOUR SHOES? NOT BUILT FOR THIS. | Boceto a mano, ángulo nurse; zapato + credencial de hospital al costado. |
+| 1D | BUNION (PUSHED SIDEWAYS) <br> TOES CRAMMED ALL DAY <br> YOUR SHOES? TOO NARROW. | Boceto del pie con bunion y toe-box marcado; producto al lado. |
+
+---
+
+## COM106 — Features & Benefits
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Pains · **Creator type:** Everyday User · **Product:** — · **Offer:** Ever green · **Month:** June · **Created:** 2026-06-25 · **Learnings:** —
+
+Reference: (image on page)
+
+| Shot | Headline | Visual |
+|---|---|---|
+| A | "Stabbing heel pain at the first step every morning, for 3 years." <br> "Two weeks in these and my mornings don't hurt anymore." <br> All-Day Comfort · 12+ Hours Support · Expert-Recommended · Anatomical Arch | Hand holding the shoe, two text-box quotes (before/after) + 4 feature tags floating. |
+| B | "I'd come home from every shift with my feet throbbing." <br> "Now I finish 12 hours and still have legs left over." <br> ORTHO-WEAR Cushion · Wide Toe-Box · 4.8 Stars · Walk on Clouds | Same UGC shot; quotes + 4 tags. |
+| C | "Couldn't walk the dog without my heel screaming." <br> "First pair in years I actually forget I'm wearing." <br> Anatomical Arch · Comfort From Step One · 500K+ Customers · 45-Day Guarantee | Same UGC shot; quotes + 4 tags. |
+| D | "Concrete floors had my feet done by hour four." <br> "Now I close the whole shift without sitting down once." <br> Heel Cushioning · Stretch-Knit Upper · 12+ Hours · Expert-Recommended | Same UGC shot; quotes + 4 tags. |
+
+---
+
+## COM107 — Comparison
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Pains · **Creator type:** Everyday User · **Product:** — · **Offer:** Ever green · **Month:** June · **Created:** 2026-06-25 · **Learnings:** —
+
+Reference: (image on page)
+
+| Shot | Headline | Visual |
+|---|---|---|
+| A | THE COMFORT SHOE BUILT FOR ALL-DAY STANDING <br> ✕ Feet aching by hour 4 · ✕ Flat sole, zero arch · ✕ Sitting every break <br> ✓ 12+ hours on your feet · ✓ ORTHO-WEAR heel cushion · ✓ Anatomical arch all shift | Split screen: worn-out old shoe (left, red X's) vs ComfortWear (right, green checks), bold headline on top. |
+| B | #1 SHOE FOR NURSES ON 12-HOUR SHIFTS <br> ✕ Made for the gym, not the floor · ✕ Arch gone in a month · ✕ Narrow toe-box <br> ✓ Built for hospital floors · ✓ Holds shape 12+ months · ✓ Wide toe-box | Split: worn-out running shoe vs ComfortWear; checks/X's. |
+| C | THE SHOE FOR FEET THAT HURT EVERY MORNING <br> ✕ No real arch support · ✕ Heel lands bare · ✕ You dread the first step <br> ✓ Anatomical arch each step · ✓ Cushioned heel landing · ✓ Mornings that don't sting | Split comparison; 50+ focus. |
+| D | WHY BUY $400 ORTHOTICS? <br> ✕ Insoles bought separately · ✕ Wear flat in weeks · ✕ Still the wrong shoe <br> ✓ Arch + cushion built in · ✓ Holds shape 12+ months · ✓ Shoe and support together | Split: loose/worn insole vs ComfortWear. |
+
+---
+
+## COM108 — Simple
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Pains · **Creator type:** Everyday User · **Product:** — · **Offer:** Ever green · **Month:** June · **Created:** 2026-06-25 · **Learnings:** —
+
+Reference: (image on page)
+
+| Shot | Headline | Visual |
+|---|---|---|
+| A | feet that don't quit. | Product on a solid-color background, short lowercase line beside it. |
+| B | no more end-of-shift ache. | Same minimalist layout. |
+| C | like walking on clouds. | Same minimalist layout. |
+| D | your feet will thank you. | Same minimalist layout. |
+
+---
+
+## COM109 — Offer
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Pains · **Creator type:** Everyday User · **Product:** — · **Offer:** Ever green · **Month:** June · **Created:** 2026-06-25 · **Learnings:** —
+
+Reference: (image on page)
+
+| Shot | Headline | Visual |
+|---|---|---|
+| A | LAST CHANCE TO FIX DAD'S ACHING FEET <br><br> 60% OFF + code DAD for an extra 15% = 75% OFF <br><br> Sale ends tonight. | Product + stacked discount blocks (60% + code = 75%), urgency banner. |
+| B | THE SHOES YOUR FEET HAVE BEEN BEGGING FOR 60% OFF + code SHIFT for an extra 15% = 75% OFF Ends today. | Same promo layout. |
+| C | GIVE YOUR FEET A REASON TO STOP HURTING 60% OFF + code RELIEF for an extra 15% = 75% OFF Today only. | Same promo layout. |
+| D | THE GIFT THEY'LL FEEL EVERY SINGLE DAY 60% OFF + code GIFT for an extra 15% = 75% OFF Offer ends tonight. | Same promo layout. |
+
+---
+
+## COM110 — On Feet
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Pains · **Creator type:** Everyday User · **Product:** — · **Offer:** Ever green · **Month:** June · **Created:** 2026-06-25 · **Learnings:** —
+
+Reference: (image on page)
+
+| Shot | Headline | Visual |
+|---|---|---|
+| A | 8 YEARS OF HEEL PAIN, QUIET FOR THE FIRST TIME | Large bold text "printed" across the sole of a foot; product beside it. |
+| B | 12-HOUR SHIFTS WITHOUT THE END-OF-DAY ACHE | Same text-on-foot format. |
+| C | 10 YEARS OF MORNING HEEL PAIN, FINALLY EASING | Same text-on-foot format. |
+| D | FIRST STEP THIS MORNING DIDN'T HURT IN YEARS | Same text-on-foot format. |
+
+---
+
+## COM111 — Tweet
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Pains · **Creator type:** Everyday User · **Product:** — · **Offer:** Ever green · **Month:** June · **Created:** 2026-06-25 · **Learnings:** —
+
+Reference: (image on page). (The founder's first name in the sign-off is replaced with [founder].)
+
+| Shot | Headline | Visual |
+|---|---|---|
+| A | We're Saying Goodbye to This Price <br> Our biggest sale of the year is ending, and this is your last chance at 60% OFF. <br><br> ComfortWear shoes are built for people on their feet all day: ORTHO-WEAR heel cushioning, anatomical arch support, and a wide toe-box that finally gives your toes room. Over 500,000 people trust them, 4.8 stars. Don't wait. This price disappears soon. <br><br> Say goodbye to aching feet, not to your savings. <br><br> [founder], ComfortWear | Black background, warning-triangle icon, white text, founder signature at the bottom. |
+| B | This Is Your Last Chance <br> The 60% OFF sale is almost over, and I didn't want you to miss it. <br><br> These are the shoes for anyone who comes home with their feet throbbing: 12+ hours of comfort, arch support, heel cushioning, stretch-knit upper. <br><br> 500,000+ customers, 4.8 stars, 45-day money-back. <br><br> [founder], ComfortWear | Same founder-letter format. |
+| C | We're Closing Out Our Best Price of the Year <br> Last call for 60% OFF before it's gone. <br><br> If your feet hurt by the end of the day, this is the pair worth trying. Built for hard floors and long shifts, loved by 500,000+ people on their feet. <br><br> Try them 45 days, risk-free. <br><br> [founder], ComfortWear | Same founder-letter format. |
+| D | Saying Goodbye to 60% OFF <br> Our biggest discount of the year ends soon, and this is the moment. <br><br> ComfortWear was made for the people who stand all day and pay for it at night. <br><br> Anatomical arch, ORTHO-WEAR cushion, wide toe-box. 4.8 stars from 1,400+ reviews. <br><br> [founder], ComfortWear | Same founder-letter format. |
+
+---
+
+## COM112 — Post Its
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Pains · **Creator type:** Everyday User · **Product:** — · **Offer:** Ever green · **Month:** June · **Created:** 2026-06-25 · **Learnings:** —
+
+Reference: (image on page)
+
+| Shot | Headline (3 sticky notes) | Visual |
+|---|---|---|
+| A | A MUST IF YOU'RE ON YOUR FEET 12 HOURS A DAY! <br> 45-Day Money Back Guarantee ♥ <br><br> UP TO 60% OFF, ENDS IN 48 HRS | Flat-lay of the product with 3 handwritten sticky notes on top (use case, guarantee, discount). |
+| B | EVERY NURSE ON MY UNIT SWEARS BY THESE <br> 45-Day Money Back Guarantee ♥ <br><br> NURSE WEEK SALE, ENDS IN 48 HRS | Same flat-lay with sticky notes. |
+| C | FINALLY, SHOES THAT DON'T HURT MY HEELS <br> Try them 45 days, risk-free ♥ <br><br> UP TO 60% OFF, THIS WEEK ONLY | Same flat-lay with sticky notes. |
+| D | A MUST IF YOU STAND ON CONCRETE ALL DAY! <br> Love them or your money back, 45 days ♥ <br><br> UP TO 60% OFF, 48 HRS LEFT | Same flat-lay with sticky notes. |
+
+---
+
+## COM113 — Comparison
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Pains · **Creator type:** Everyday User · **Product:** — · **Offer:** Ever green · **Month:** June · **Created:** 2026-06-25 · **Learnings:** —
+
+Reference: (image on page)
+
+| Shot | Headline | Visual |
+|---|---|---|
+| A | EXPERT-RECOMMENDED FOR ALL-DAY PLANTAR FASCIITIS RELIEF <br><br> Anatomical Arch Support · Comfort From the First Wear · 45-Day Money Back Guarantee <br><br> ★★★★★ Trusted by 500,000+ people on their feet all day. 4.8 stars. | Before/after feet graphic + 3 benefit icons + row of stars + trust line. |
+| B | ORTHOPEDIC-LIKE SUPPORT YOUR FEET FEEL FROM STEP ONE <br> ORTHO-WEAR Heel Cushion <br> · Anatomical Arch <br> · 45-Day Guarantee <br> ★★★★★ 500,000+ customers. <br> 4.8 stars from 1,400+ reviews. | Same authority + icons + stars layout. |
+| C | BUILT FOR THE #1 CAUSE OF MORNING HEEL PAIN <br> Arch Support That Holds <br> · Cushioned Every Step <br> · Try It 45 Days Risk-Free <br><br> ★★★★★ Trusted by 500,000+ people with foot pain. | Same authority + icons + stars layout. |
+| D | THE SHOE EXPERTS RECOMMEND FOR FEET THAT NEVER SIT DOWN <br> Wide Toe-Box <br> · 12+ Hours of Cushion <br> · 45-Day Money Back <br> ★★★★★ 500,000+ on their feet trust ComfortWear. 4.8 stars. | Same authority + icons + stars layout. |
+
+---
+
+## COM114 — Features & Benefits
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Pains · **Creator type:** Everyday User · **Product:** — · **Offer:** Ever green · **Month:** June · **Created:** 2026-06-25 · **Learnings:** —
+
+Reference: (image on page)
+
+| Shot | Headline | Visual |
+|---|---|---|
+| A | finish 12-hour shifts WITHOUT THE END-OF-DAY ACHE <br> ★★★★★ Trusted by 500,000+ people on their feet all day. 4.8 stars. | Product resting on soft pillow-balls, bold headline on top, stars + trust line at the bottom. |
+| B | walk out of your shift with FEET THAT DON'T HURT <br> ★★★★★ 500,000+ workers on their feet swear by them. | Same pillow-balls layout. |
+| C | get through your whole day WITHOUT THINKING ABOUT YOUR FEET <br> ★★★★★ Trusted by 500,000+ people with foot pain. 4.8 stars. | Same pillow-balls layout. |
+| D | 12 hours on hard floors, FEET THAT STILL FEEL GOOD <br> ★★★★★ 500,000+ customers. 4.8 stars from 1,400+ reviews. | Same pillow-balls layout. |
+
+---
+
+## COM115 — LF Ads | Pain relief
+
+**Status:** Ready to Launch · **NN/IT:** Net New · **Execution:** LF Ads · **Angle:** Pains · **Creator type:** Everyday User · **Product:** — · **Offer:** Ever green · **Month:** June · **Created:** 2026-06-25 · **Learnings:** —
+
+(No script text in Notion: the copy lives in an external Google Doc, not exported.)
+
+Text: https://docs.google.com/document/d/1zXR2q7-04fDZp8JxKzJOOVwBsGZlSZno6KXB3JY59p8/edit?tab=t.0
+
+Images: https://drive.google.com/drive/folders/1zcGAcPceBPn_UF2AOMlixk8srYbycKkX?usp=drive_link
+
+---
+
+## COM116 — Bunions
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Bunions · **Creator type:** Everyday User · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-29 · **Learnings:** —
+
+Reference: https://drive.google.com/file/d/1Ah0QwpIM5Ax71waiQUrlpgG4UOBXmh8A/view?usp=drive_link
+
+| Shot | Script | Visual |
+|---|---|---|
+| Hook | Use the exact same video as in the reference. <br> Use it until he says “They don’t like that shit” | |
+| Hook | Voice over: If you struggle with bunions, you are wasting time and money! <br><br> The use the exact same video as in the reference. <br> Use it until he says “They don’t like that shit” | Show someone struggling while walking. |
+| Hook | Voice over: 5 shoes I would NEVER use, if I were struggling with bunions. <br><br> Use the exact same video as in the reference. <br> Use it until he says “They don’t like that shit” | Show someone struggling when they take their shoe off. |
+| Hook | Voice over: 3 sneakers bunion-sufferers should NEVER buy! <br><br> Use the exact same video as in the reference. <br> Use it until he says “They don’t like that shit” | Show a terrible bunion. |
+| Body | Do yourself a favor and get some wide toe box shoes, the kind that actually let your foot breathe. | Show a person using our shoes, with super super organic footage, as in the firsts seconds. |
+| Body | And look, I don't even care if you don't get ours, even though these are my favorites. I tried a bunch. | Show another pair of our shoes. |
+| Body | Some are super thin, barefoot-feeling, and some have a little more substance on the bottom for everyday. | Show someone using it. |
+| Body | But look, look at the toe box in here. | Show how comfortable they are. |
+| Body | Your foot can spread out, your toes split the way they're supposed to, nothing squeezing them. | Show our shoes again. |
+
+---
+
+## COM117 — Pains
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Pains · **Creator type:** Everyday User · **Product:** — · **Offer:** No Offer · **Month:** June · **Created:** 2026-06-30 · **Learnings:** —
+
+Reference: (video embedded on page)
+
+| Shot | Script | Visual |
+|---|---|---|
+| Hook | Plantar fasciitis, lower back pain, ingrown toenails. | Use Organic footage as in the reference. Copy the font, the music, the pacing, footage. All of it. |
+| Hook | Bunions, back pain, swelling feet. | Use **Another organic footage** as in the reference. Copy the font, the music, the pacing, footage. All of it. |
+| Hook | Morton's neuroma, knee pain and metatarsalgia. | Use **Another organic footage** as in the reference. Copy the font, the music, the pacing, footage. All of it. |
+| Body | There are so many reasons why the Comfort Wear Shoes are viral. | |
+| Body | Extremely comfortable. I forget I'm wearing them. | |
+| Body | Love the wide toe box. Flexible sole. | |
+| Body | Comes in a bunch of colors, but the pink is going quick. Link below. | |
+
+---
+
+## COM118 — K141 Iteration
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Foot Pain · **Creator type:** Senior +65 · **Product:** Ortho · **Offer:** Ever green · **Month:** July · **Created:** 2026-07-01 · **Learnings:** —
+
+Reference: https://drive.google.com/file/d/1rPULJgZyWQ0A8RKN_IdULFScS3YeHyIE/view?usp=sharing
+Make Hook 1 very similar to the reference, but not the same scene.
+
+Hook 1: MY DOCTOR SAID I'D HAVE TO LIVE WITH THIS FOOT PAIN FOREVER. (Find a similar scene like this of woman struggling to go down stairs. Youtube/Tiktok content)
+
+Hook 2: This was me just 3 months ago. Couldn’t go down the stairs, couldn’t walk.  (Put AI avatar sitting on kitchen table talking with a scene at the corner of the screen showing the scene from the reference video struggling to go down the stairs)
+
+Hook 3: If you’re a woman over 72 and your doctor told you that foot pain is normal for your age, he’s lying. (Put overweight woman struggling to walk or go down the stairs. Use content from tiktok/youtube)
+
+Think those expensive orthopedic insoles will ease your foot pain after nursing shifts? Nah. Or that avoiding activity and limiting movement will help? Nope.
+
+Two years ago, I started experiencing terrible foot pain after my 12-hour shifts.
+
+I couldn't figure out why it kept getting worse, and I thought I'd never find relief.
+
+I tried everything—expensive insoles, massages... but nothing worked. My feet still hurt.
+
+One day, I visited a podiatrist.
+
+He told me that first, I wasn't taking enough breaks during my shifts. And second, my running shoes weren't suitable for long hours of work.
+
+I was shocked.
+
+Aren't running shoes supposed to be made for being on your feet all day?
+
+But when I started looking for proper shoes, I got even more discouraged.
+
+Some were ridiculously expensive, but the reviews were terrible.
+
+Others were just plain ugly.
+
+I don't want to work in shoes that I don't even like.
+
+When I checked out yet another forum, I had pretty much given up on finding decent orthopedic shoes... but then I came across ComfortWear Shoes.
+
+And as soon as they arrived, I felt the difference.
+
+Look at this 100% premium orthopedic design.
+
+ComfortWear offers over 12 hours of comfort, while most running shoes' cushioning lasts only about 2 hours.
+
+Plus, they provide excellent arch support, plenty of room for your toes, and cushioning that really helps your heels.
+
+They distribute your weight evenly across your feet.
+
+They make your arches feel so much better.
+
+They're safe to wear, even on wet surfaces.
+
+Did I mention these shoes were specifically created for nurses, by nurses?
+
+No wonder they have so many 5-star reviews from women who spend all day on their feet.
+
+If you work on your feet all day, you need to try them.
+
+ComfortWear Shoes come with a 45-day money-back guarantee.
+
+That's actually 15 days longer than what 90% of brands offer.
+
+Plus, if you order right now, you'll get 40% OFF and Free Gifts.
+
+Choose your size and color, then order today using the link below.
+
+ComfortWear. Save even more with bundle discounts. 45-day money-back guarantee. Free returns and exchanges.. Doctor-recommended.
+
+---
+
+## COM119 — Real review - [creator]
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** UGC · **Angle:** Pains · **Creator type:** Everyday User · **Product:** Ortho · **Offer:** No Offer · **Month:** July · **Created:** 2026-07-01 · **Learnings:** —
+
+Reference: (video embedded on page)
+
+| Shot | Script | Visual |
+|---|---|---|
+| Hook | If you struggle with bunions or ingrown toenails, you need to see these shoes. | Creator talking straight to camera (phone selfie style), holding the shoes up next to her face. Quick close-up cut of the shoes. <br><br> Show the product to the camera. |
+| Hook | I used to dread taking my shoes off at the end of the day because of my bunions, until I found these shoes. | Replicate the organic style of the hook, as in the reference I left. Don’t do the exact same hook as the other ones. |
+| Hook | If your shoes are squishing your toes together all day, this is your sign to try these shoes. | (same) |
+| Hook | Nobody told me my shoes were making my bunions worse, <br><br> so I'm telling you: check out these shoes. | (same) |
+| Body | Comfort Wear shoes are probably the best thing that you could do for your foot health. <br><br> They have the wide toe box, so when your toes go in, they are gonna be nice and spread apart. <br><br> They're not gonna be pushing up against the sides causing those ingrown toenails, those inconvenient pinky pain, those bunions, or anything like that. | Top-down shot of foot sliding into the shoe. Close-up of toes spreading inside the wide toe box. Optional overlay text: "Wide toe box." |
+| Body | They have come a long way because they're actually really cute now. <br><br> These ones have amazing tread, so you can use them for hiking, nurse shifts, traveling, whatever. <br><br> I just was on a cruise, went to The Bahamas and wore these out in The Bahamas. <br><br> They look super cute on. They are SO comfortable. | B-roll of the shoes on: walking outside, quick pan of the tread/sole, travel/cruise clips (dock, beach, Bahamas). Full-body OOTD shot showing the shoes styled. |
+| Body | The feedback I have been getting is to size up. I'm typically an eight and a half. <br><br> They don't offer an eight and a half, and so I get the nines and they do fit me perfectly. | Creator back to camera talk. Close-up of the size label / box. On-screen text: "Size up." |
+| Body | These also have heel-to-toe cushioning, so that means when you're standing all day, the impact gets absorbed instead of traveling up your body. <br><br> A lot of times regular flat shoes let that shock hit your lower back, and if you have back pain like me, that is not good for your back. | Side-profile shot of foot pressing down, showing the cushioned sole. Slow-mo step / heel strike. Hand pressing the cushion to show give. |
+| Body | These also have built-in anatomical arch support, and that's done on purpose because your arches need support through a 12-hour day on your feet. <br><br> A lot of times we rely on cheap flimsy insoles we buy separately, and they flatten out fast. <br><br> Comfort Wear builds the arch support right in so you're supported all day instead of stacking insoles. | Close-up of the inside footbed / arch. Split shot: flimsy store insole vs. the built-in arch. Creator flexing the shoe to show the structured support. |
+| CTA | Anyways, I'm gonna link these ones. Definitely check out the different sizes that they have, the different colors. <br><br> I promise you, you will not be disappointed. | Creator back to camera, pointing down/tapping (link sticker gesture). Quick montage of the color options. End card with the shoes + CTA overlay. |
+
+---
+
+## COM120 — Demonstration - [creator]
+
+**Status:** Waiting for Footage · **NN/IT:** Net New · **Execution:** UGC · **Angle:** Pains · **Creator type:** Everyday User · **Product:** Ortho · **Offer:** No Offer · **Month:** July · **Created:** 2026-07-01 · **Learnings:** —
+
+Reference: (video embedded on page). Visual for all hooks: "Creator talking straight to camera, casual, holding a Comfort Wear shoe in hand."
+
+| Shot | Script | Visual |
+|---|---|---|
+| Hook | If you've never struggled with ingrown toenails or lower back pain, thank your lucky stars and keep on scrolling. <br> But if you have, this one's for you. | (see above) |
+| Hook | If your feet hurt by the end of the day and you have no idea why, it's probably your shoes. <br> Let me show you. | (see above) |
+| Hook | Nobody tells you this, but the shoes you're wearing right now might be the reason your toes and your lower back hurt. | (see above) |
+| Hook | I used to blame everything but my shoes for my back pain. Turns out the problem was staring at me the whole time. | (see above) |
+| Body | Just to give you an example, with a regular shoe, your toes are literally crunched together like this. | Close-up demo: hand squeezing toes together / showing a narrow regular shoe cramping the foot. |
+| Body | They are supposed to be nice and separated. <br> That's why these with the wide toe box are really nice. | Cut to Comfort Wear shoe, show the wide toe box, toes spreading out naturally inside. |
+| Body | Memory foam insole, great traction on the back, and super flexible laces. | Quick B-roll trio: pressing finger into the memory foam insole, flipping shoe to show the outsole tread, bending/twisting the shoe to show flexible laces. |
+| Body | I'm gonna go ahead and link them down below while they're still on a major discount. | Creator points down toward the link, on-screen discount callout / price tag graphic. |
+| Body | These are Comfort Wear for a reason, okay? | Creator holds both shoes up to camera, confident smile, light shrug. |
+
+---
+
+## COM121 — K189 Iteration
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Nurse · **Creator type:** Nurse · **Product:** Ortho · **Offer:** Ever green · **Month:** July · **Created:** 2026-07-01 · **Learnings:** —
+
+(Body lines are one sentence per line in Notion; blank lines between them are collapsed here. "Dr. Adams" is the ad's fictional on-screen doctor.)
+
+Reference: https://drive.google.com/file/d/1eBlgmm4JCLe1_f7Ol_Y0pxn8JYGSg4lQ/view?usp=sharing
+Make Hook 1 very similar to the reference, but not the same scene.
+
+Hook 1: THESE ARE THE ONLY SHOES THAT CAN HANDLE 12-HOUR SHIFTS.
+Hook 2: THIS IS WHY I TELL MY PATIENTS TO STOP WEARING SKECH*RS AND HOKAS
+Hook 3: Calling all nurses: Your back pain isn't 'part of the job'.
+Hook 4: These are the only shoes built for 3-on, 4-off rotation (https://drive.google.com/file/d/1-vnAh6dJvue8EQlU8AtA1CcJ1QGdlOwT/view?usp=sharing) make similar to this reference
+
+Hi, I'm Dr. Adams.
+For the past 20 years, I've treated patients with foot, knee, and back pain.
+Over the last five years, I've focused on one question:
+Why do people in professions like nursing, healthcare, retail, and hospitality develop so much foot and back pain?
+And the answer was eye-opening.
+Standing for 12 hours a day is already hard on your body.
+But wearing the wrong shoes makes it dramatically worse.
+Most people have no idea how much their footwear affects their long-term health.
+The wrong shoes don't just cause sore feet.
+They can contribute to plantar fasciitis, bunions, heel pain, knee pain, lower back pain, and chronic fatigue.
+So my team and I decided to investigate.
+We surveyed hundreds of nurses, baristas, retail workers, and other professionals who spend their entire shifts on their feet.
+We tested dozens of shoe designs, materials, insoles, and support systems to find out what actually works during long shifts.
+What we found surprised us.
+It's not just one feature.
+It's the combination of everything working together.
+First, the shoe has to be lightweight and breathable.
+Your feet shouldn't feel hot, heavy, or trapped after a few hours.
+Second, proper arch support is essential.
+Without it, your feet absorb far more stress than they should, especially if you struggle with plantar fasciitis.
+Third, a wide toe box is non-negotiable.
+When your toes are squeezed together, it increases pressure, swelling, discomfort, and can make bunions or hallux valgus even worse.
+Fourth, slip resistance matters.
+Whether you're working in a hospital, restaurant, or coffee shop, stable footing is essential on wet or slippery floors.
+And finally...
+It has to be affordable.
+No one should have to spend hundreds of dollars just to get through their workday without pain.
+After all of our research, one brand consistently stood out.
+ComfortWear Shoes.
+Here's why.
+Number 1: They're priced for everyday workers living on a budget.
+Most styles cost under $60, making them far more affordable than $300 running shoes or overpriced orthopedic shoes.
+Number 2: They're built for back-to-back 12-hour shifts.
+Unlike traditional running shoes, they're specifically designed for people who spend all day on their feet.
+Number 3: They provide excellent arch support.
+Helping reduce stress associated with plantar fasciitis, tired feet, and long hours of standing.
+Number 4: They feature a slip-resistant outsole.
+Giving you extra confidence on wet hospital floors, kitchens, cafés, and other slippery workplaces.
+Number 5: They include a roomy wide toe box.
+Giving your toes the space they need to reduce pressure, improve comfort, and accommodate bunions or hallux valgus.
+And number 6: They're one of the highest-rated comfort shoes available.
+Thousands of professionals choose ComfortWear because they deliver all-day cushioning without sacrificing support.
+If you're looking for a shoe that can actually get you through 12-hour shifts...
+ComfortWear is one of the best options I've seen.
+Try them for yourself.
+If you're not completely satisfied, you're protected by their 45-day money-back guarantee.
+So what are you waiting for?
+Click the link below and give your feet the relief they deserve.
+Your shifts may still be 12 hours long...
+But your foot pain doesn't have to be.
+ComfortWear. Save more with bundle discounts and free gifts. 45-day money-back guarantee. Free returns and exchanges. Doctor-recommended.
+
+---
+
+## COM122 — K154 Iteration
+
+**Status:** Launched · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Nurse Travelling · **Creator type:** Nurse · **Product:** Ortho · **Offer:** Ever green · **Month:** July · **Created:** 2026-07-01 · **Learnings:** —
+
+(Body lines are one sentence per line in Notion; blank lines collapsed.)
+
+Reference: https://drive.google.com/file/d/1XFckbaSL0RQjXNWCZoa5G-cV05mOXT3F/view?usp=sharing
+Keep hook 1 very similar as reference, but change scene so its not the same scene
+
+Hook 1: 3 THINGS I STOPPED DOING AFTER LEAVING NURSING. (use tiktok or youtube clip for the massage scene with guasha)
+
+Hook 2: I'm a former nurse, and these 3 simple changes saved my feet (AI avatar with nurse scrubs talking on screen and then does 3 with her fingers before the next scene which starts the body. Headline on screen: FORMER NURSE: 3 CHANGES FOR FOOT PAIN)
+
+Hook 3: My doctor told me I'd live with this foot pain forever. I stopped doing these 3 things instead. (put scene of nurse struggling to walk. Use tiktok/youtube clip)
+
+Number 1: I stopped wearing running shoes.
+Especially for long walks, vacations, and travel.
+I've always loved to travel.
+But after spending 15 years on my feet as a nurse...
+My feet just couldn't keep up anymore.
+When you're traveling, you're easily walking 20,000 steps a day.
+And then you add all those cobblestone streets instead of smooth sidewalks.
+Sure, they're beautiful...
+But my feet, legs, and back paid the price every single time.
+I'd come home more exhausted from vacation than I ever did after a hospital shift.
+But on my last trip...
+Everything changed.
+Because I packed my secret weapon.
+The same orthopedic shoes I used to wear during my nursing shifts.
+And honestly...
+They completely changed the way I travel.
+Number 2: I stopped taking painkillers and limping around.
+I don't rely on pain pills anymore.
+I don't use creams.
+And I don't book massages just to make it through the week.
+Because I finally fixed the thing that was causing my foot pain in the first place.
+Number 3: I stopped believing expensive shoes automatically meant better shoes.
+Those $300 or $400 orthopedic shoes you see online?
+Most of the time, you're paying for the brand.
+The most expensive insoles in the world won't help if the shoe itself isn't designed properly.
+So what's the solution?
+ComfortWear developed these shoes alongside leading orthopedists and chiropractors to support people who spend all day on their feet.
+Every feature has a purpose.
+The orthopedic design supports your entire foot instead of just one pressure point.
+The cushioning lasts over 12 hours.
+Most running shoes lose their comfort after about two hours.
+That's why I don't wear regular running shoes anymore.
+The extra-wide toe box gives your toes the room they actually need.
+Nothing feels squeezed or cramped.
+That means less swelling, better comfort, and less irritation throughout the day.
+They're lightweight.
+Breathable.
+Easy to clean.
+And the slip-resistant outsole gives you extra confidence on wet or slippery floors.
+It's no surprise they've earned more than 10,000 five-star reviews from nurses and other women who spend all day on their feet.
+The flexible knit material is soft, breathable, and even machine washable.
+So they stay looking—and smelling—fresh for a long time.
+These have honestly been a complete game changer for me.
+I'm obsessed.
+You really have to try them for yourself.
+Right now, if you order through the link below, you'll get 40% OFF every pair on the website.
+And If you buy 2 pairs, you get FREE gifts.
+Click the link below and see why so many nurses are switching to ComfortWear Shoes.
+ComfortWear. Save even more with bundle discounts. 45-day money-back guarantee. Free returns & exchanges. Doctor recommended.
+
+---
+
+## COM123 — Travel & Pain
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Bunions · **Creator type:** Everyday User · **Product:** Ortho · **Offer:** No Offer · **Month:** July · **Created:** 2026-07-01 · **Learnings:** —
+
+| Shot | Voiceover | Visual Description |
+|---|---|---|
+| Hook | Can we talk about how your feet basically double in size the second you get on a plane? Because I could not do it anymore. | AI Creator to camera, filming from her seat on a plane or in the airport. She points down at her feet. |
+| Hook | I’m a nurse**,** I save all year for these trips, and my bunions almost ruin every one of them. | |
+| Hook | I’m a teacher**,** I save all year for these trips, and my bunions almost ruin every one of them. | |
+| Hook | Nobody warns you that swollen feet and bunions can ruin a trip you saved a year for. | |
+| Body | I love traveling. Like, I save all year for these trips. <br><br> But every flight, my feet swell up, my shoes get tight, and by the time I land my bunions are on fire before the trip even starts. | Warm B-roll: packing her suitcase, boarding pass in hand, window seat, clouds. Then a close-up of her slipping a shoe half-off under the tray table, wincing. |
+| Body | And the bunions are the worst part. <br><br> Every cute travel shoe pushes right on them. <br><br> 2 hours of walking a new city and that bump on the side of my foot is throbbing. <br><br> I'd be looking at a cathedral and thinking about my feet. | Close-up of the side of the foot, shoe pressing on the bunion area. POV walking a cobblestone street, then her sitting on a step rubbing the side of her foot. |
+| Body | I genuinely did not know what else to do. <br><br> Gel pads, wider sizes, breaking shoes in for weeks. <br><br> Nothing worked. <br> I was ready to just accept that sore feet were the price of traveling. | Montage: a drawer of gel toe separators and pads, her tossing a shoe back in the closet, shaking her head. A little defeated shrug. |
+| Body | Then I found ComfortWear. <br><br> These are built for people on their feet all day, not for the gym. <br><br> They've got a wide toe-box so your toes actually spread out instead of getting crushed against your bunion. | Hand picks up the ComfortWear shoe, slips it on. Top-down close-up of toes spreading inside the wide toe-box. Overlay text: "Wide toe box." |
+| Body | And the upper is this stretch knit, so when my feet swell on the flight, the shoe moves with them instead of squeezing. <br><br> Plus a cushioned heel they call ORTHO-WEAR and real anatomical arch support, so a full walking day doesn't wreck me. | Hand flexing the stretchy upper to show the give. Close-up of the arch and the cushioned heel. POV walking confidently through an airport, then down a sunny street. |
+| Body | I wore these for a whole trip to Disney. <br><br> Long flight, full sightseeing days, the works. <br><br> First time ever I got back to the hotel and didn't rip my shoes off the second I sat down. <br><br> My bunions weren't screaming. | Montage: walking through a market, climbing steps to a viewpoint, crossing a plaza. Back in the hotel room, she sits and does NOT grab her feet. Small relieved smile. |
+| Body | If you love traveling but your feet don't, these are the only ones I'm packing now. <br><br> Walk a whole trip in them. If your feet aren't happier, send them back. | Product shot: 3 colors. Graphics: "$80 OFF / FREE SHIPPING / 45-DAY MONEY-BACK GUARANTEE." She zips her suitcase with the ComfortWear box on top. |
+
+---
+
+## COM124 — K258 Iteration
+
+**Status:** Launched · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Travel · **Creator type:** Everyday User · **Product:** Ortho · **Offer:** Ever green · **Month:** July · **Created:** 2026-07-01 · **Learnings:** —
+
+(Body lines are one sentence per line in Notion; blank lines collapsed.)
+
+Reference: https://drive.google.com/file/d/1a2dXTHgG1FBB8ObsKpYhyTfnP9opn69k/view?usp=sharing
+
+Hook 1: 3 THINGS I STOPPED DOING AFTER I TURNED 72.
+
+Hook 2: Stop wasting money on Skech*rs and H0kas. At age 72, I stopped doing these 3 things instead.
+
+Hook 3: HERE IS THE BEST TRAVEL ADVICE IF YOU HAVE FOOT PAIN AT AGE 72
+
+Number 1: I stopped wearing running shoes.
+Especially for long walks, vacations, and sightseeing.
+I've always loved to travel.
+But after spending 35 years on my feet as a nurse...
+My feet simply couldn't keep up anymore.
+When you travel, you're easily walking 20,000 steps a day.
+Exploring cities.
+Museums.
+Parks.
+Beautiful cobblestone streets.
+The memories were wonderful...
+But by the end of every day, my feet, legs, and back were aching.
+I'd come home more exhausted than when I left.
+But this last trip was different.
+Because I finally found my secret weapon.
+I discovered orthopedic shoes designed specifically for women over 65.
+Not the same running shoes I'd worn for decades.
+These were in a completely different league.
+Lightweight.
+Supportive.
+Comfortable.
+And made for aging feet that still want to stay active.
+It honestly changed everything.
+Number 2: I stopped taking painkillers and limping around.
+I don't rely on pain pills anymore.
+I don't use creams.
+And I don't schedule massages just to get through the week.
+Because I finally addressed the real cause of my foot pain.
+Number 3: I stopped believing expensive shoes automatically meant better shoes.
+Those $300 and $400 orthopedic shoes?
+Most of the time, you're paying for the brand.
+The most expensive insoles won't help if the shoe itself isn't built for comfort.
+So what's the solution?
+ComfortWear designed these shoes specifically with aging feet in mind.
+The cushioning stays supportive all day instead of flattening after an hour like ordinary shoes.
+The extra-wide toe box gives your toes the space they deserve.
+No squeezing.
+No cramping.
+Just natural comfort.
+If you have bunions, hammertoes, or swollen feet...
+You'll notice the difference immediately.
+The built-in arch support helps reduce pressure from arthritis, heel pain, and heel spurs.
+The slip-resistant outsole gives you extra confidence on smooth or wet surfaces.
+And at our age...
+That's something you truly appreciate.
+They're so lightweight that my legs don't feel tired by the end of the day anymore.
+The breathable knit material also helps keep my feet cool and reduces that afternoon swelling I used to get.
+That's why more than 50,000 women have already switched to ComfortWear.
+Just read the reviews.
+Women our age are finally enjoying walks, vacations, and everyday life again.
+Right now, ComfortWear is offering 40% OFF during their Summer Sale.
+Just click the link below and your discount will be applied automatically.
+Don't let foot pain decide where you can and can't go.
+Order your pair today and start enjoying every step again.
+ComfortWear. Save even more with bundle discounts. 45-day money-back guarantee. Free shipping on every order. Doctor recommended.
+
+---
+

@@ -1951,3 +1951,3525 @@ Try ComfortWear for 45 days, with free shipping and returns.
 
 Click below and feel the difference for yourself.
 
+## COM295 — Sneakers for Travel if you’re over 200lbs
+**Status:** Editing · **Type:** Net New · **Format:** Mash-Up · **Angle:** Plus-sized women · **Persona:** Overweight · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-06 · **Learnings:** —
+
+Hook 1: Women over 200lbs, think sneakers are the most comfortable shoes for travel?<br />Hook 2: Nobody tells women over 200 pounds that most of the “comfortable travel shoes” they're buying were never designed for what their feet actually go through on a trip to Europe.<br />Hook 3: We tested five of the most popular travel shoes for plus-sized women to see which one actually survives a full day of sightseeing.<br /><br />We tested five of the most popular ones to find out <i><b>(SKIP THIS PART FOR HOOK 3)</b></i><br /><br />And the results might surprise you.
+
+When you're exploring a new city, you're not just walking.
+
+You're on cobblestones, climbing old staircases, standing in museum lines,
+
+and walking on uneven ground for 15,000, sometimes 20,000 steps a day.
+
+And by the afternoon, your feet are swollen inside shoes that already felt snug when you left the hotel.<br /><br />So we tested the five most popular shoes women over 200lbs are packing
+
+<b>Hoka Bondi, 6 out of 10.</b>
+
+I know people love the cushioning.
+
+But for women over 200 pounds, all that thick foam can actually work against you when you're traveling.
+
+That might feel amazing walking around the airport.
+
+But try balancing on uneven cobblestones for six hours.
+
+Or walking downhill through Lisbon.
+
+For travel, you don't just need softness.
+
+You need stability.
+
+<b>Skechers Memory Foam, 5 out of 10.</b>
+
+Feels amazing for the first ten minutes.
+
+But memory foam compresses as you walk.
+
+So by the afternoon, after you've already done thousands of steps, the soft cushioning you loved in the morning is completely flat from your weight.
+
+And that's exactly when your feet are more swollen and need room and support the most.
+
+<b>Crocs — 3 out of 10.</b>
+
+Easy to slip on, but that's about the only benefit.
+
+Your foot slides around with every step, which isn't ideal when you're spending an entire day walking through Europe.
+
+Your heel isn't really locked in, so your foot is constantly working to keep the shoe underneath you, and there isn't much structured arch support helping out.
+
+<b>New Balance — 7 out of 10.</b>
+
+More supportive, but most models are still built for running, not eight-hour sightseeing days.
+
+The narrow front can feel fine at first, but once your feet start swelling, it tightens fast and can cut off circulation.
+
+Not my first choice for hills, stairs, and long days walking through Europe.
+
+<b>Then we tested ComfortWear - 8 out of 10. The strongest brand we tested.</b>
+
+And honestly, this was the pair that made the most sense for plus-sized women
+
+Because if you're over 200 pounds, you're not just looking for the softest shoe in the morning.
+
+You want something that still feels good after your feet have been carrying you around all day.
+
+The toe box is wide, so your toes have room to spread instead of being squeezed together.
+
+And the upper material stretches, which matters when your feet start swelling later in the day.
+
+Inside, you have arch support cushioning that feels stable instead of wobbly.
+
+The sole also has a non-slip grip, which gives you more confidence on cobblestones, hills, and uneven streets.
+
+And the whole shoe is lightweight, so you're not dragging around a heavy sneaker after eight hours of sightseeing.
+
+After testing them through full days of walking, the biggest difference was simple.
+
+Our testers could keep going.
+
+They weren't rushing back to the hotel because their shoes suddenly felt too tight.
+
+They weren't sitting down while everyone else kept exploring.
+
+They could actually enjoy the trip.
+
+And if you're a woman over 200 pounds planning Barcelona, Lisbon, Rome, or anywhere you're going to be walking all day, that's what matters.
+
+ComfortWear is 40% off right now with free shipping, and you get 30 days to try them before your trip
+
+## COM296 — Nurse wants to quit drama ad
+**Status:** Editing · **Type:** Net New · **Format:** AI · **Angle:** Nurse · **Persona:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-06 · **Learnings:** —
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+I was walking by my station, and overheard my coworkers tell the new girl—
+
+<b>\[COWORKER #1 — LIVE DIALOGUE\]</b>
+
+“Don’t be like Sarah.”
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+I was standing ten feet behind them in the dark.
+
+Which they didn’t know.
+
+I'd gone into the supply room to grab a few things before rounds, and as I was walking back, I heard my name.
+
+So I stopped.
+
+One of the newer nurses was asking who she should shadow on the floor.
+
+And I hear my coworker say—
+
+<b>\[COWORKER #1 — LIVE DIALOGUE\]</b>
+
+“Honestly, Sarah knows her stuff. She's been here forever, but don’t follow her after lunch.”
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+The other nurse laughed.
+
+<b>\[NEW NURSE — LIVE DIALOGUE\]</b>
+
+“What do you mean?”
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+And she goes—
+
+<b>\[COWORKER #1 — LIVE DIALOGUE\]</b>
+
+“Her feet are always killing her by then. I feel bad for her. She used to be everywhere. Now, you can tell those 12-hour shifts are catching up with her.”
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+That hurt. I’m not gonna lie, it hurt bad.
+
+Mostly because she was right.
+
+For months, I'd been hiding how bad my feet had gotten.
+
+My heels would ache halfway through the shift.
+
+By the afternoon, my feet would swell, and my shoes would start squeezing my toes.
+
+I'd sit every chance I got.
+
+And after work, that walk back to the parking lot felt endless.
+
+That night, I went to my manager and told her I was thinking about quitting.
+
+Seventeen years as a nurse…
+
+and I honestly thought my body just couldn't do it anymore.
+
+<b>\[MANAGER — LIVE DIALOGUE\]</b>
+
+“Sleep on it.”
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+Instead, I stayed up searching for what other nurses do when their feet can't handle 12-hour shifts.
+
+<b>\[ON-SCREEN — FACEBOOK/REDDIT COMMENTS\]</b>
+
+200 comments.
+
+<b>\[COMMENT #1 — ON-SCREEN / OPTIONAL VO\]</b>
+
+“Buy Hokas.”
+
+<b>\[COMMENT #2 — ON-SCREEN / OPTIONAL VO\]</b>
+
+“Buy Skechers.”
+
+<b>\[COMMENT #3 — ON-SCREEN / OPTIONAL VO\]</b>
+
+“Wear compression socks.”
+
+<b>\[COMMENT #4 — ON-SCREEN / OPTIONAL VO\]</b>
+
+“Rotate expensive insoles.”
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+I'd already tried most of it.
+
+Then I thought about Linda.
+
+She's 59, she's been nursing longer than me, and somehow she's still moving around the hospital at the end of a shift like she just got there.
+
+So the next morning I asked her—
+
+<b>\[SARAH — LIVE DIALOGUE\]</b>
+
+“How are you doing this at 59 when my feet are shot by hour six?”
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+She laughed and said—
+
+<b>\[LINDA — LIVE DIALOGUE\]</b>
+
+“I was you five years ago.”
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+Then she pointed at my shoes.
+
+<b>\[LINDA — LIVE DIALOGUE\]</b>
+
+“You're still buying running shoes.”
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+She showed me what she wears.
+
+ComfortWear.
+
+I remember looking at them and thinking,
+
+“Those are the shoes?”
+
+<b>\[LINDA — LIVE DIALOGUE\]</b>
+
+“Yeah. Look at the front.”
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+She showed me how much more room there was around the toes.
+
+Then she pulled at the material on top.
+
+<b>\[LINDA — LIVE DIALOGUE\]</b>
+
+“My feet swell too. These don’t start squeezing me halfway through the shift.”
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+That got my attention.
+
+She told me the support underneath was what made the biggest difference for her, especially after being on the floor for hours.
+
+Then she said—
+
+<b>\[LINDA — LIVE DIALOGUE\]</b>
+
+“Don't judge them after an hour. Judge them after a few back-to-back twelves.”
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+So I ordered a pair.
+
+I didn't tell anyone.
+
+First two hours, comfortable.
+
+But lots of shoes feel good for two hours.
+
+Hour eight came.
+
+This is when I would struggle and start limping.
+
+This time, I wasn’t.
+
+My feet were swollen a little, but my shoes weren’t squeezing them this time.
+
+I wore the same pair five days straight, and I didn’t have any foot pain or flare-ups.
+
+No limping.
+
+No complaining.
+
+No feeling hopeless.
+
+And by the end of the week, one of the nurses I'd overheard looked at me and said—
+
+<b>\[COWORKER #1 — LIVE DIALOGUE\]</b>
+
+“You're moving around a lot more lately.”
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+The next week, my manager asked if I'd decided about quitting.
+
+<b>\[MANAGER — LIVE DIALOGUE\]</b>
+
+“Have you decided what you’re going to do?”
+
+<b>\[SARAH — LIVE DIALOGUE\]</b>
+
+“I'm staying.”
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+Those nurses still don't know I heard them.
+
+But the woman they were talking about that night?
+
+The one limping to her car and wondering if she was too old for nursing?
+
+I don't feel like her anymore.
+
+And to anybody out here struggling to finish 12-hour shifts because of foot pain—
+
+listen.
+
+Your feet being wrecked is not age, and it’s not your feet.
+
+It’s the expensive shoes you thought would help but have no support.
+
+Everybody at your station is going to tell you—
+
+<b>\[COWORKERS — OPTIONAL MULTIPLE VOICES\]</b>
+
+“Buy Hokas, Buy OnClouds, My Nike Air Maxes are the best”
+
+<b>\[SARAH — VO / NARRATION\]</b>
+
+And they’re wrong.
+
+Don’t pick the most expensive ones.
+
+Linda told me about ComfortWear.
+
+I’ll leave the link below.
+
+They give you 30 days to send them back if they don’t work for you, so honestly, there’s no reason not to try a pair.
+
+## COM297 — 250lbs woman rating shoes
+**Status:** Editing · **Type:** Net New · **Format:** AI + Existing Footage · **Angle:** Plus-sized woman · **Persona:** Overweight · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-06 · **Learnings:** —
+
+Hook 1: Here are five shoes I would never spend another dollar on as a 250-pound woman. And I see plus-size women wearing these every day, thinking they will help them.
+
+Hook 2: Plus-sized women are tired of spending hundreds of dollars buying the Nikes, New Balance, and Hokas to work a full shift. Here are five of the popular shoes I tested.
+
+Hook 3: As a 250lbs woman, I tested five of the most popular shoes made for plus-sized women with foot pain<br /><br /><b>Number One, the Nike Air Monarch, 5 out of 10</b><br /><br />I bought these because they were wide and cheap, but the foam insole went flat under my heavier body<br /><br />Within two weeks, the inside of the sole flattened so low it felt like cardboard.<br /><br />My knee started tracking sideways every step.<br /><br />By month 2, I could barely walk to my car
+
+On top of that, there’s no grip underneath. 
+
+Not ideal for cobblestones or slippery floors
+
+At my age and weight, falling is not an option
+
+This shoe is designed for a 130-pound person
+
+Not for a woman who weighs 250 lbs
+
+<b>Number Two, New Balance, 6 out of 10</b>
+
+My doctor, recommended these, \$180<br /><br />Looks supportive, but look at the narrow toe-box
+
+Your feet are not triangle-shaped, so why buy a shoe that’s triangle-shaped?
+
+As someone who suffers from wide feet, I need a shoe that stretches with my feet and has a wider toe-box
+
+This shoe was never made for the amount of pressure a heavier woman goes through
+
+<b>Number Three, Brooks Ghost, 7 out of 10</b>
+
+This is what I bought when I got serious about walking for my health
+
+The rocker sole is supposed to be springy
+
+But under my weight, the rocker rolls the wrong way
+
+Every step, my body has to work overtime to stand straight
+
+on a shoe that keeps rocking underneath me. 
+
+By the end of the day, my legs, hips, and back were exhausted. 
+
+This shoe is meant for runners, not for bigger women like me that just needs support
+
+<b>Number Four, Hoka Bondi, 6 out of 10</b>
+
+I paid \$200 for these, hoping the extra cushion would finally save my feet, but look at the thick cushion sole on these and the narrow toe-box
+
+When a plus-sized body lands on a tall heel, the whole shoe wobbles, and your ankle rolls your feet
+
+Causing more danger than support
+
+Six weeks later, the side of the shoe was worn out from my foot rolling over
+
+<b>So what finally worked for me?<br /><br />ComfortWear Ortho Stretch</b>
+
+And I want to be honest, I wasn’t sure about these. 
+
+Another shoe with a foamy heel for a heavier woman? <br /><br />Let me explain why it works
+
+<b>First, there’s cushioning underneath AND a contoured insole for arch support.</b>
+
+The cushioned sole softens each step, while that contour provides support under the arch, preventing your foot from rolling over
+
+<b>Second, the front is wide.</b>
+
+My toes and feet have room to spread instead of being crowded together at the tip.
+
+Because when I’m standing or walking for hours, the last thing I want is the side of my shoe pressing into my little toe with every step.
+
+<b>Third, the upper stretches.</b>
+
+Watch this.
+
+The knit stretches with my foot shape. It can flex as I move instead of feeling like a stiff band over my feet.
+
+As my feet swell up, the material of the shoe expands adapting to the shape of my feet at any moment.<br /><br />My back finally stopped hurting within weeks of wearing these shoes. If you’re a plus-sized woman and your feet are killing you every night, try ComfortWear
+
+They’re 40% off with free shipping and they come with a 30-day money back guarantee.
+
+Click the button below, there’s still some stuck but the last batch sold out within 72 hours.
+
+## COM298 — Teacher feet changing after 50 (gets wider)
+**Status:** Editing · **Type:** Net New · **Format:** Mash-Up · **Angle:** Teacher · **Persona:** Menopause Women · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-06 · **Learnings:** —
+
+Hook 1: Why do teachers’ feet start swelling in their late 40s when they never did before?<br />Hook 2: Why do a teacher’s feet start feeling wider and more swollen in her late 40s when they never did before?<br /><br />It’s not the long hours standing at the whiteboard<br /><br />It’s something that changed on the inside
+
+<b>Think of your foot like a rubber band that slowly loses some of its tightness.</b>
+
+In your 20s and 30s, everything is held together more firmly.
+
+After 45, as your hormones shift, those tissues can loosen, so your foot spreads out and takes up more room.
+
+So the foot that used to fit comfortably inside a narrow leather work shoe starts taking up more space.
+
+By the last period, your feet are swollen and your bunions are rubbing against your leather shoes
+
+The fix is a wider shoe that gives your toes room to spread naturally.<br /><br />Most shoes teachers are forced to wear are leather or have a really rigid upper<br /><br />That’s what ComfortWear fixes.
+
+Instead of forcing your foot into a stiff shape, the front of the shoe is wide
+
+And the upper isn’t rigid leather
+
+It’s made from a soft stretch material that moves with your foot as it changes throughout the school day.
+
+So when your feet expand a little by 2 or 3 in the afternoon, the shoe isn’t fighting against them.
+
+Underneath, there’s supportive cushioning and arch support for all those hours spent standing, walking between desks, and teaching on hard floors.
+
+And because the shoe is lightweight, you’re not trading tight leather shoes for some huge, heavy orthopedic sneaker.
+
+You put them on before first period...<br /><br />And your feet feel the exact same by the time the final bell rings
+
+Your feet have probably been telling you for years that they need more room.<br /><br />School boards have approved these shoes to be dress-code compliant
+
+ComfortWear is 40% off right now with free returns in case your shoes don’t fit, so you get 30 days to try them.
+
+## COM299 — I went on a blind date in Paris
+**Status:** Editing · **Type:** Net New · **Format:** Mash-Up · **Angle:** Travel · **Persona:** Travel · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-06 · **Learnings:** —
+
+I went on a blind date in Paris.
+
+He showed up, looked at me, checked his phone, looked at me again and said,
+
+“There’s no way you’re 62.”
+
+I am.
+
+Here’s what happened.
+
+I’m 62.
+
+Divorced.
+
+After 20 years of marriage, my friends convinced me to take a solo trip through Europe.
+
+My friend Claire, who lives in Paris, said,
+
+“Come here. You need to eat, drink, cry, walk everywhere, and come back a new woman.”
+
+So I went.
+
+I wasn’t thinking about dating.
+
+And I definitely wasn’t thinking about shoes.
+
+But Claire had other plans.
+
+The first morning, she came to my hotel and watched me get ready.
+
+I had my whole shoe situation spread across the room.
+
+Hokas.
+
+Skechers.
+
+Brooks.
+
+Extra insoles.
+
+Compression socks.
+
+Basically every “comfortable” thing women our age are told to buy.
+
+She watched me stand there trying to decide which pair would hurt the least.
+
+Finally she said,
+
+“Can I be honest with you?”
+
+I said,
+
+“Sure.”
+
+She pointed at the pile and said,
+
+“You packed six different things for your feet, and none of them are built for what you’re about to do today.”
+
+I was a little offended.
+
+But she wasn’t being mean. She’s a nurse so she knows what’s a good pair of comfortable shoes
+
+She picked up my expensive running shoes.
+
+“These are built to move somebody forward while they run. You see the cushioning here, yeah, this is for runners”
+
+Then she picked up the Skechers.
+
+“The insoles in here are going to go flat on the cobblestones we have here”
+
+Then she pointed at my insoles.
+
+“And these are trying to fix shoes that probably weren’t right for you in the first place.”
+
+That hit me.
+
+Because she was right.
+
+I had spent years trying to find the shoe that would finally work.
+
+Hokas felt cushioned.
+
+Skechers felt soft.
+
+Brooks felt supportive in the store.
+
+Memory foam felt amazing for the first hour.
+
+But by hour six?
+
+Same story.
+
+My heels hurt.
+
+My arches ached.
+
+My toes felt squeezed.
+
+My feet would swell.
+
+My knees started bothering me.
+
+And by the end of a long day, my lower back felt tight from the way I was walking.
+
+I honestly thought that was just what being in my 60s felt like.
+
+Claire said,
+
+“Maybe it’s not just your age. Look at what you keep putting on your feet.”
+
+Then she said something I still think about.
+
+“Most shoes are made to impress you in the first ten steps.”
+
+“You need shoes that still feel good after walking long hours on cobblestone.”
+
+And in Paris…
+
+there’s a lot of walking.
+
+Cobblestones.
+
+Metro stairs.
+
+Standing in museums.
+
+Walking along the Seine.
+
+Little cafés.
+
+Shops.
+
+Train platforms.
+
+Old sidewalks.
+
+And somehow somebody is always saying,
+
+“It’s only another ten-minute walk.”
+
+That was my problem.
+
+I wasn’t running.
+
+I wasn’t training for a marathon.
+
+I was just trying to enjoy my life without thinking about my feet every five minutes.
+
+Then Claire pulled out a pair of shoes.
+
+ComfortWear.
+
+She said,
+
+“These are the ones I wear as a nurse working 12-hour shifts”
+
+Wide toe box.
+
+Support underneath the arch.
+
+Stable cushioning.
+
+Stretchy upper.
+
+Slip-resistant grip.
+
+I tried them that afternoon.
+
+And the first thing I noticed was the room.
+
+My toes could actually spread out.
+
+They weren’t being pushed together like they were in my other shoes.
+
+Then I noticed the upper.
+
+It had some stretch to it.
+
+So as my feet got a little more swollen later in the day, the shoe wasn’t suddenly squeezing them from every direction.
+
+And underneath?
+
+They didn’t feel ridiculously squishy.
+
+They felt stable.
+
+Like my foot actually had something underneath it instead of just sinking farther and farther into foam.
+
+We walked all over Paris that day.
+
+Cafés.
+
+Shops.
+
+Eiffel Tower
+
+The Louvre.
+
+Metro stations.
+
+Cobblestone streets.
+
+Along the Seine.
+
+Normally, I would’ve been looking for somewhere to sit by hour two.
+
+But this time…
+
+I wasn’t counting every step.
+
+That night, Claire told me she’d set me up on a blind date.
+
+I said,
+
+“No.”
+
+She said,
+
+“You’re going.”
+
+So I went.
+
+We met at this little restaurant not far from the Eiffel tower
+
+Nice guy.
+
+Funny.
+
+Charming.
+
+The kind of man who finishes dinner and says,
+
+“Do you want to walk for a bit?”
+
+Which normally would’ve made my stomach drop.
+
+He sat down, looked at me, then checked his phone where he had my profile open.
+
+Then looked at me again.
+
+“There’s no way you’re 63.”
+
+I laughed.
+
+He said,
+
+“No, seriously. I thought you lied on the app.”
+
+I said,
+
+“About being older?”
+
+He said,
+
+“No. About being younger.”
+
+Then later, while we were walking, he said something that almost made me cry.
+
+“You move like someone who still loves walking.”
+
+Because for years…
+
+I didn’t.
+
+I avoided long walks.
+
+I avoided travel days.
+
+I avoided plans where I knew I’d be standing too long.
+
+Not because I didn’t want to live.
+
+Because my feet turned everything into a negotiation.
+
+How far is it?
+
+Are there chairs?
+
+How long are we standing?
+
+Can we take a taxi?
+
+Can I lean on something?
+
+How much farther?
+
+Can we go back?
+
+But that night in Paris, wearing ComfortWear, I felt different.
+
+At the end of the date, he asked if I wanted to keep walking along the Seine.
+
+And for the first time in years…
+
+I didn’t calculate the distance.
+
+I just said,
+
+“Yes.”
+
+By the end of the trip, Claire looked at me walking through the airport and said,
+
+“You look different.”
+
+I said,
+
+“What do you mean?”
+
+She said,
+
+“You’re not walking like your feet are bothering you anymore.”
+
+That was it.
+
+That was the change.
+
+I didn’t change my body.
+
+I didn’t start some miracle exercise routine.
+
+I didn’t suddenly become younger.
+
+I changed what I was putting under my feet every day.
+
+And that changed the way I moved through the day.
+
+So if you’re layering solutions like I was…
+
+Running shoes.
+
+Memory foam.
+
+Insoles.
+
+Compression socks.
+
+Pain creams.
+
+And your feet are still begging you to sit down by the afternoon…
+
+maybe you don’t need another thing to add to the shoe.
+
+Maybe you need to look at the shoe itself.
+
+ComfortWear is made for people whose shoes feel great in the morning…
+
+then start failing them later in the day.
+
+There’s a wide toe box for when your feet need more room.
+
+A stretchy upper that has some give as your feet swell.
+
+Support underneath the arch.
+
+Stable cushioning.
+
+And slip-resistant grip for hard, uneven surfaces.
+
+It’s the kind of shoe you can wear walking around Paris…
+
+traveling…
+
+working…
+
+running errands…
+
+going to dinner…
+
+and just living your life without thinking about every single step.
+
+Right now ComfortWear is 40% off with free shipping.
+
+And you get a 30-day wear test.
+
+Don’t judge them walking around your living room for five minutes.
+
+Wear them through your real day.
+
+Hour four.
+
+Hour six.
+
+Hour eight.
+
+If they’re not right for you, send them back.
+
+But if you’re tired of your shoes making you move older than you feel…
+
+maybe it’s time to change what’s underneath you.
+
+Tap below while your size is still available.
+
+## COM300 — Same injuries keep showing up in Nurses
+**Status:** Editing · **Type:** Net New · **Format:** Mash-Up · **Angle:** Nurse · **Persona:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-06 · **Learnings:** —
+
+Hook 1: Why do the same three injuries keep showing up in healthcare workers, no matter how careful they are? <br />Hook 2: A new research found that 82% of nurses in 2026 reported feeling burnt out from their jobs <br />Hook 3: 3 signs your body might not be able to continue working 12-hour nursing shifts
+
+<br />back pain, foot pain, knee pain, and every single time, everyone blamed their age, or blamed the job<br /><br />Nobody blamed the shoe.<br /><br />So, I started looking closer at the OnClouds, Hokas, and Brooks. <br /><br />Here’s what I kept seeing. <br /><br />The toe-box on almost every one of these big brand shoe is shaped like a triangle<br /><br />It crushes the toes together<br /><br />Instead of letting them spread<br /><br />Then there's the insole cushioning.
+
+A lot of shoes feel incredibly soft when you first put them on at the store.
+
+That's why nurses buy Hokas, Skechers, and all these thick foam sneakers.
+
+But soft doesn't always mean supportive.
+
+After hours on your feet, your weight compresses the foam, and now your feet feel like they’re walking on cardboard with no arch support<br /><br />So your knees and back end up doing the work the foot should be doing<br /><br />Back Pain<br /><br />Foot Pain<br /><br />Knee Pain
+
+It was never the age, it was always the shoe.<br /><br />So I started paying attention to the nurses who weren’t rushing to sit down halfway through their shift. 
+
+And it kept coming back to what they were wearing.
+
+That's when I found ComfortWear.
+
+Wide toe box.
+
+So your toes actually have room to spread instead of being squeezed together for twelve hours.
+
+Supportive arch cushioning underneath that can last 12-hour hospital shifts without flattening
+
+And a stretch upper.
+
+So when your feet swell later in the shift, the shoe has some room to move with them instead of getting tighter and tighter.
+
+Plus, the bottom has a non-slip grip to help you feel more secure moving across hospital floors.
+
+That's the difference.
+
+The nurses who switched told me the same thing<br /><br />They’re working back to back 12s with no pain
+
+They went from calling in sick to picking up overtime shifts<br /><br />Nobody in the industry wanted to look at the shoe, everyone thought it was their age. <br /><br />I did. <br /><br />Wide toe-box
+
+Arch support
+
+Heel cushioning<br /><br />Try them with a 30 day money back guarantee
+
+## COM301 — COM807 + COM227
+**Status:** Editing · **Type:** Iteration · **Format:** Mash-Up · **Angle:** Nurse · **Persona:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-06 · **Learnings:** —
+
+_(Instruction only, no script copy:)_ Combine hook of 807 and body of COM 227
+
+## COM302 — Teacher Comparison Static
+**Status:** Editing · **Type:** Iteration · **Format:** Statics · **Angle:** Teacher · **Persona:** Teacher · **Product:** Daily Slip On · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-08 · **Learnings:** —
+
+REFERENCE AD: [https://app.tryatria.com/ad/m2453121115218354](https://app.tryatria.com/ad/m2453121115218354)
+
+Plus, add classroom background like this example: (example image on page)
+
+WHEN SHOWING COMFORTWEAR LET’S FEATURE THE [DAILY SLIP ON MODEL](https://comfortorthowear.com/products/daily-hands-free-shoes-black) IN BLACK AND/OR BEIGE
+
+### Variation 1 — Birkenstocks
+
+Headline:
+
+Why Your Birkenstocks Aren't Ideal for Teaching All Day
+
+| BIRKENSTOCKS | COMFORTWEAR |
+|---|---|
+| ❌ Hard rigid footbed  | ✅ Cushioned heel support |
+| ❌ Open-toe design | ✅ Classroom-ready style |
+| ❌ Buckles & straps | ✅ Hands-free slip-on |
+| ❌ Limited floor grip | ✅ Slip-resistant outsole |
+
+On the bottom: FREE Shipping \| 45 Days to Try
+
+### Variation 2 — Skechers
+
+Headline:
+
+Why Teachers Are Switching From Skechers
+
+| SKECHERS | COMFORTWEAR |
+|---|---|
+| ❌ Too sporty for work | ✅ Sleek, everyday style |
+| ❌ Soft ≠ Supportive | ✅ Built-in arch support |
+| ❌ Some styles feel tight | ✅ Stretchy, roomy fit |
+| ❌  Not all styles have grip | ✅ Slip-resistant outsole |
+
+On the bottom: FREE Shipping \| 45 Days to Try
+
+### Variation 3 — Clarks
+
+Headline:
+
+Why Your Clarks Hurt by 3 PM
+
+| CLARKS | COMFORTWEAR |
+|---|---|
+| ❌ Stiff dress shoes  | ✅ Flexible knit upper |
+| ❌ Tight toe box | ✅ Roomy toe box |
+| ❌ Hard on your heels | ✅ Shock-absorbing cushioning |
+| ❌ Style over comfort | ✅ Sleek style + support |
+
+On the bottom: FREE Shipping \| 45 Days to Try
+
+## COM303 — New Ranking Format - Nurses
+**Status:** Ready to Launch · **Type:** Iteration · **Format:** AI · **Angle:** Nurse · **Persona:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-08 · **Learnings:** —
+
+<b>REFERENCE VIDEO: </b>[<b>https://www.tiktok.com/@syaortodoncia/video/7662432883340234006</b>](https://www.tiktok.com/@syaortodoncia/video/7662432883340234006)
+
+---
+
+2 variations: V1 featuring a female doctor avatar + V2 male doctor avatar. Both in their offices, with the ranking overlay. NOTE: add pictures showing each  shoe model next to its corresponding ranking number (not <u>over</u> it like the example)
+
+---
+
+TOP SUPER:<b> DOCTOR RANKS THE BEST SHOES FOR NURSES</b>
+
+SUPER: <b>#6 NIKE AIR MAX</b>
+
+VO: Nike Air Max. Too narrow for swollen feet, and not really designed for standing through 12-hour nursing shifts. I'm putting these at number six.
+
+SUPER:<b> #3 SKECHERS GOWALK</b>
+
+VO: Skechers GoWalk. Lightweight and comfortable at first, but the soft structure might not give you enough support for long shifts. I'd give these the third spot.
+
+SUPER:<b> #5  CROCS CLASSIC</b>
+
+VO: Crocs. Affordable and easy to slip on, but not much arch support when you're on your feet all day. These go at number five.
+
+SUPER: <b>#2 BROOKS</b>
+
+VO: Brooks. Good cushioning, but some models can feel heavy. And after 12 hours walking hospital hallways, every extra ounce counts. Still, I'd rank these number two
+
+SUPER: <b>#4 HOKA</b>
+
+VO: Hoka. Plenty of cushioning, but that thick, high-stack sole can feel unstable when you're making quick turns and rushing between patients. I'd put these at number four.
+
+SUPER: <b># 1 COMFORTWEAR</b>
+
+VO:  Now these are definitely my number one pick.  The wide toe box gives your toes room to spread, even when your feet swell during long shifts.
+
+They're lightweight, with flexible cushioning that moves with your feet instead of making them feel trapped in stiff, bulky shoes.
+
+And the breathable design helps keep your feet feeling fresh from your first patient to your last.
+
+Plus, you get 45 days to try them, with free shipping and returns. I recommend them to all my patients. 
+
+## COM304 — COM275_HO2 Iteration
+**Status:** Editing · **Type:** Iteration · **Format:** Mash-Up · **Angle:** Teacher · **Persona:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-08 · **Learnings:** —
+
+Iteration of this ad : [https://fb.me/adspreview/facebook/2fDosvAJttwll0M](https://fb.me/adspreview/facebook/2fDosvAJttwll0M). 
+
+---
+
+CHANGE ORIGINAL HOOK TO\*: 
+
+1. VO: Our school expects us to look professional, so we have no choice but to work with sore feet.
+
+<i>Visual: greenscreen with avatar in the foreground saying the line + original footage from ad with comment box (0\:29-0\:33)</i>
+
+<i>Super: Comfiest shoes for teachers??</i>
+
+2. VO: Teachers, if your shoes look professional but leave your feet hurting, what exactly are you paying for?
+
+<i>Visual: greenscreen with avatar in the foreground saying the line + people wearing leather loafers and leather shoes in the background</i>
+
+<i>Super: Painful school days??</i>
+
+3. VO: Do any of you have suggestions for shoes brands/inserts that still look professional but won’t kill my feet?
+
+<i>Visual:</i> <i>greenscreen with avatar in the foreground saying the line + teachers at school in the background </i>
+
+<i>Super: Shoes recs for teachers? </i>
+
+\*Recreate the doctor avatar to reflect the new opening hooks
+
+AFTER THE HOOK: 
+
+<b>VO</b>: The problem is, most traditional dress shoes were designed around appearance, not around standing on hard classroom floors for 10 to 12 hours.
+
+<b>Visual</b>: same as original ad 
+
+<b>VO:</b> Hi, I'm Doctor Adams, podiatrist physician. 
+
+For the past 20 years, I've asked 500 teachers dealing with foot, knee, and back pain, what shoes they were wearing to school.
+
+Leather dress shoes, Birkenstocks, Danskos: big-name expensive shoes that cost \$120, even \$150, even \$250 a pair.
+
+<b>Visual:</b> same as original ad (avatar speaking to camera)
+
+<b>VO:</b> Leather dress shoes give you that polished professional look right away.
+
+Birkenstocks give you a wide roomy fit and a cork footbed.
+
+Danskos look like professional, supportive shoes.
+
+And yes, all three can seem like a good choice at the beginning of the school day.
+
+But the professional look is not good enough for a long day at school.
+
+Because by hour six, seven, or eight, you've been standing on hard classroom floors for most of the day.
+
+Your arches are tired, your heels are sore, your feet have started to swell.
+
+<b>VISUAL:</b> Keep the existing comparison footage. Transition from the teacher arriving at school to her tired feet at the end of the day.
+
+<b>VO</b>: Most teachers have no idea how much their footwear affects their long-term health.
+
+The wrong shoes don't just cause sore feet, they can contribute to plantar fasciitis, lower back pain, knee pain, and chronic depression.
+
+<b>VO:</b> So I started looking at a much more important question: which shoe is built around what a teacher's feet actually need at the end of a long day at school?
+
+Number one, you need an arch support that still feels supportive by the end of the day.
+
+Number two, wide toe box that has room for your feet as they swell.
+
+Number three, cushioning without feeling like your foot is sinking into a pillow.
+
+Number four, a lightweight shoe that doesn't make tired legs work even harder.
+
+And finally, a non slip grip for the wet hallways and cafeteria.
+
+And that's when one thing became very clear.
+
+The best teacher shoe isn't the one that feels good at 8 o'clock in the morning.
+
+It's the one that still feels good when that last bell rings.
+
+<b>VISUAL:</b> Keep the existing feature demonstrations and classroom footage. Match each feature to its corresponding close-up.
+
+VO: And after all of our research, one brand consistently stood out: ComfortWear.
+
+Here's why.
+
+Number one, they're actually affordable for teachers.
+
+Right now, they're under \$60 a pair.
+
+That makes them far more affordable than expensive dress shoes or premium clogs that can cost well over \$200.
+
+Number two, they're built for people who spend all day on their feet.
+
+Number three, they provide excellent arch support, helping reduce stress associated with and plantar fasciitis, tired feet, and long hours of standing.
+
+Number four, they have cushioning underneath the heel enough to reduce the impact of the concrete and linoleum floor from each step you take.
+
+Number five, they have a roomy wide toe box giving your toes the space they need.
+
+<b>VISUAL:</b> Keep the existing ComfortWear product reveal, price graphics, and feature demonstrations.
+
+<b>VO:</b> ComfortWear is one of the highest-rated comfort shoes available.
+
+Over 500,000 teachers choose ComfortWear because they deliver all day cushioning without sacrificing support.
+
+If you're looking for a shoe that can actually get you through the school year without any foot pain, this is one of the best options I've seen.
+
+Try them for yourself.
+
+If you're not completely satisfied, you're protected by their 30-day money-back guarantee.
+
+So what are you waiting for? Click the link below and give your feet the relief they deserve.
+
+<b>VISUAL:</b> Keep the existing closing footage, guarantee graphic, and final call to action.
+
+## COM305 — HL60 Retail Workers
+**Status:** Editing · **Type:** Iteration · **Format:** AI · **Angle:** Retail Workers · **Persona:** Retail Worker · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-08 · **Learnings:** —
+
+Ref ad: [https://fb.me/adspreview/facebook/2qNMLmuPO2N6TkP](https://fb.me/adspreview/facebook/2qNMLmuPO2N6TkP) 
+
+<i><b>Instructions: recreate a male podiatrist avatar (make it younger and more attractive), sitting in his office, like the original ad </b></i>
+
+|  | VO/Supers | Visual |
+|---|---|---|
+| HOOK 1 | Work at Walmart, Target, or any store where you're on your feet all shift? Here's where four popular shoes can fall short. | Avatar talking to camera <br /><br />TOP SUPER: <b>DOCTOR RANKS 4 SHOES FOR YOUR NEXT RETAIL SHIFT</b> |
+| HOOK 2 | <i>(Doctor Avatar reading quote in comment box):</i>  Somebody said “I work as a cashier and I'm on my feet for around 9 hours a day, with barely any chance to sit down.” | Avatar talking to camera + comment box w/ the text:<i><b> I work as a cashier and I'm on my feet for around 9 hours a day, with barely any chance to sit down.</b></i> |
+| HOOK 3 | Think spending \$180 gets you a better shoe for your next shift? Let’s compare it to a \$60 pair. | Avatar talking to camera <br /><br />TOP SUPER: <b>\$60 VS. \$180 — RETAIL WORK SHOES RANKED</b> |
+| Body | Hours at the register. Restocking shelves. Back to the stockroom. All on hard floors. |  |
+| Body | By closing, you're shifting from one leg to the other for relief. |  |
+| Body | Here's what to look for in a shoe: cushioning, support, room for your feet, and price. |  |
+| Body | Skechers. Lightweight cushioning. Easy slip-on design. | SUPER: SKECHERS - \$70- 5.1 |
+| Body | But many patients have told me that their Skechers wore out quickly, even when they alternated between two pairs. | <b>ON-SCREEN QUOTE: Reddit · r/WalmartEmployees:</b>“I bought 2 pairs of Skechers in May that I rotate and they already feel like they are wearing out.” |
+| Body | Brooks Ghost. The coworker recommendation. | SUPER: BROOKS - \$140 - 5.9 |
+| Body | But some Ghost 17 wearers report a tighter toe box and ankle rubbing. | <b>ON-SCREEN QUOTE — Reddit · r/brooks:</b>“the toe box seems a bit more narrow than previous models, I’ve been getting blisters on both feet.” |
+| Body | If your toes already feel squeezed, swelling through a long shift can make that pressure harder to tolerate. |  |
+| Body | Hokas. Plenty of cushioning. A premium price. | SUPER: HOKAS - \$180 - 7.5 |
+| Body | But a thick sole doesn't always mean greater stability. |  |
+| Body | The elevated cushioning can feel unstable, especially when walking on uneven surfaces or making quick turns. |  |
+| Body | Last but not least, ComfortWear. The lowest price here, with features that address your shift. | SUPER: COMFORTWEAR ORTHO STRETCH - \$60 - 9.3 |
+| Body | Hours planted at the register? Arch support helps support your feet while you stand. |  |
+| Body | Constant stockroom trips? The cushioned sole softens each step on hard floors. |  |
+| Body | And when your feet swell halfway through the day, the knit upper stretches with them, giving your toes room instead of squeezing tighter. |  |
+| Body | It's lightweight for all those trips through the aisles. And it looks like an everyday sneaker—nothing orthopedic-looking. |  |
+| Body | Support for standing. Cushioning for walking. Stretch when your feet need room. |  |
+| Body | Because clocking out shouldn't mean spending the rest of your evening waiting for your feet to recover. |  |
+| Body | Right now, they're 40% off, with a 30-day money-back guarantee. A full month to test them through real shifts. |  |
+| Body | Tap below while the sale is on. Your next shift is coming. Show up ready for it. |  |
+
+## COM306 — HL60 Restaurant Workers
+**Status:** Editing · **Type:** Iteration · **Format:** AI · **Angle:** Restaurant Workers · **Persona:** Restaurant Worker · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-08 · **Learnings:** —
+
+Ref ad: [https://fb.me/adspreview/facebook/2qNMLmuPO2N6TkP](https://fb.me/adspreview/facebook/2qNMLmuPO2N6TkP) 
+
+<i><b>Instructions: recreate a male podiatrist avatar (make it younger and more attractive), sitting in his office, like the original ad </b></i>
+
+|  | VO/Supers | Visual |
+|---|---|---|
+| HOOK 1 | Working a double shouldn't mean limping to your car. Servers and restaurant managers: here's where four work shoes can fall short. | <b>TOP SUPER:</b> DOCTOR RANKS 4 RESTAURANT WORK SHOES |
+| HOOK 2 | Before you spend \$180 of your tip money on work shoes, see what you're paying for—and what a \$60 pair offers | <b>TOP SUPER:</b> \$60 VS. \$180 — RESTAURANT WORK SHOES RANKED |
+| HOOK 3 | <i>(Doctor Avatar reading quote in comment box):</i>  Someone working at a restaurant said: “Often, I come home and collapse on my couch or bed and am unable to do literally anything else.” | Comment box w/text: Often, I come home and collapse on my couch or bed and am unable to do literally anything else 😩 |
+| Body | Running food. Clearing tables. Another trip to the kitchen. |  |
+| Body | Then standing at the POS or polishing silverware after the rush. |  |
+| Body | Your feet work through all of it. |  |
+| Body | Here's what your shoes should offer: grip, support, cushioning, a good fit, and a fair price. |  |
+| Body | Shoes for Crews. The familiar restaurant choice. | SUPER:<b> #4 SHOES FOR CREWS :\$50 — 5.1</b> |
+| Body | But this model weighs 12.2 ounces per shoe…If you're looking for something light for constant trips across the dining room, that's a trade-off worth noticing. |  |
+| Body | Skechers. Memory foam and slip-resistant soles. | SUPER:<b> #3 SKECHERS WORK:\$95 — 5.9</b> |
+| Body | But some of my patients said they have too little arch support. |  |
+| Body | Soft cushioning can feel comfortable at first. If your arch still feels unsupported, that's a drawback through a double on hard floors. |  |
+| Body | Hoka Bondi, the premium work shoe. | SUPER:<b> #2 HOKA BONDI SR \$180 — 7.5</b> |
+| Body | Cushioning and water-resistant leather—but some wearers find that leather upper runs warm. |  |
+| Body | On a long, hot shift, cushioning underneath doesn't solve discomfort above. |  |
+| Body | Comfortwear Ortho Stretch.  | SUPER:<b> #1 COMFORTWEAR ORTHO STRETCH: \$60 — 9.3</b> |
+| Body | Standing at the host stand or POS? Arch support helps support your feet through those stationary stretches. |  |
+| Body | Running food and clearing tables? The cushioned sole softens each step on hard floors. |  |
+| Body | Feet swelling into the second half of a double? The knit upper stretches with them, giving your toes room instead of squeezing tighter. |  |
+| Body | It's lightweight for those repeated trips across the dining room. And it looks like a clean, everyday sneaker. |  |
+| Body | Support while you stand. Cushioning while you walk. Stretch when your feet need room. |  |
+| Body | Because the last table leaving shouldn't mean your whole evening is over. |  |
+| Body | Right now, they're 40% off, with a 30-day money-back guarantee. A full month to test them through real shifts. |  |
+| Body | Tap below while the sale is on. Your next shift is coming. Show up ready for it. |  |
+
+## COM307 — Rating Travel Shoes Women 200+lbs
+**Status:** Editing · **Type:** Iteration · **Format:** AI · **Angle:** Overweight women · **Persona:** Overweight · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-08 · **Learnings:** —
+
+REFERENCE FOR THE AVATAR’S LEGS: [https://www.tiktok.com/@colleenmrg/video/7646834888510917902?q=shoes for wide feet&t=1791244485670](https://www.tiktok.com/@colleenmrg/video/7646834888510917902?q=shoes%20for%20wide%20feet&t=1791244485670)
+
+REFERENCE AD: [https://next.frame.io/share/29faac00-baea-487c-80ff-932dd490e334/bcd43850-7131-4071-80d5-f52d8f2dcbe4](https://next.frame.io/share/29faac00-baea-487c-80ff-932dd490e334/bcd43850-7131-4071-80d5-f52d8f2dcbe4) 
+
+BACKGROUND: European city, cobblestone street
+
+---
+
+<b>HOOK 1</b>
+
+Travel shoes I’ve tried as a woman over 200lbs
+
+<b>HOOK 2 </b>
+
+Rating travel shoes as a 200lbs girlie
+
+<b>HOOK 3 </b>
+
+I tested all these shoes on my trip so you don’t have to (200+ lb woman edition ✈️)
+
+<b>BODY</b>
+
+<b>NIKE AIR MAX — 5/10</b>
+
+Cute in all my vacation photos. But by the afternoon? My toes were squished.
+
+<b>HOKA BONDI — 6/10</b>
+
+Comfy at first. But all that cushion felt a little wobbly for me. Especially on cobblestone.
+
+<b>ON CLOUDS — 7/10</b>
+
+Still too narrow for my feet. And \$170 plus tax? That’s part of my hotel budget.
+
+<b>SKECHERS GO WALK — 4/10</b>
+
+Comfy out of the box. Didn’t hold up for the whole trip.
+
+<b>CROCS CLASSIC — 5/10</b>
+
+Roomy, yes. But I wanted more support for those all-day walking days.
+
+<b>COMFORTWEAR ORTHO STRETCH — 9/10</b>
+
+Room for my toes, stretch for when my feet swell, and support that feels stable. And actually cute with my travel outfits. Wish they had more colors!
+
+## COM308 — Native Style Review Nurse
+**Status:** Editing · **Type:** Net New · **Format:** UGC · **Angle:** Nurse · **Persona:** Nurse · **Product:** Ortho · **Offer:** 40% Off · **Month:** October · **Created:** 2026-10-08 · **Learnings:** —
+
+REF VIDEO: [https://www.tiktok.com/@abbyprofen.rn/video/7620245744863169822?q=nurses shoes&t=1791244040980](https://www.tiktok.com/@abbyprofen.rn/video/7620245744863169822?q=nurses%20shoes&t=1791244040980) 
+
+Use existing broll of a young nurse + AI generated voice for the voiceover (make sure she sounds Gen Z/young) 
+
+---
+
+|  | VO/CAPTIONS | Visuals |
+|---|---|---|
+| HOOK 1  | One of the older nurses on my floor told me to get these. And honestly? I should’ve listened sooner. | Open with an existing clip of the shoes worn with scrubs |
+| HOOK 2 | I thought I needed Hokas. The nurse who’s been doing this for twenty years said, ‘Girl, get these.’ | Nurse wearing Hokas. Cut to an older nurse wearing or showing CW shoes |
+| HOOK 3  | \$180 for Hokas, \$250 for Danskos… but there’s a \$60 shoe that beats them all. | Hoka footage, Danksos footage. Cut to CW  |
+| Body | They’re the ComfortWear Ortho Stretch. Are they the cutest shoes I own? No. | Show a clean product close-up, followed by a side view.  |
+| Body | But halfway through a twelve-hour shift, cute is no longer the priority. | Use existing footage of standing or walking in scrubs. Cut between two angles to keep the pace moving. |
+| Body | The cushioning is so good, and there’s actual arch support. Like, we’re not just standing on foam and hoping for the best  | Show a hand pressing the cushioning, followed by an insole close-up if available. Cut to a shot of Hokas super cushioned sole with a foot wobbling as she steps. |
+| Body | And the stretchy upper? My toes finally have some room. Nothing feels all squeezed in. | Use a close-up of a hand stretching the upper. Follow with a top-down view of the toe area, then a shot of the shoes being worn. |
+| Body | I’m already dealing with enough pressure on this floor. My toes don’t need to be part of it. |  |
+| Body | So yeah. Not my going-out shoes. But for twelve hours on the floor? These are staying in the rotation. | Show the shoes paired with scrubs, then two quick walking clips. End on the strongest on-foot angle. |
+| Body | They’re 40% off right now, with free shipping and a 30 day money back guarantee   | Product shot |
+| Body | If your shift shoes need an upgrade, check out the ComfortWear Ortho Stretch. | Nurse posing with shoes |
+
+## COM309 — Cobblestone Fatigue Drama
+**Status:** Editing · **Type:** Net New · **Format:** AI · **Angle:** Travelers 60+ · **Persona:** Travel · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-08 · **Learnings:** —
+
+REFERENCE AD 1 :[https://fb.me/adspreview/facebook/z1hCyCIX7yBzN3c](https://fb.me/adspreview/facebook/z1hCyCIX7yBzN3c) 
+
+REFERENCE AD 2:[https://app.tryatria.com/ad/m1780934459999831](https://app.tryatria.com/ad/m1780934459999831)7
+
+---
+
+- <b>Linda — early 70s:</b> Warm, stylish, and excited to travel. She hides her discomfort because she doesn’t want to slow her husband down or feel like a burden.
+- <b>George — early 70s:</b> An enthusiastic traveler who loves sharing experiences with Linda. Initially frustrated, he becomes gentle and understanding once she explains what’s wrong.
+- <b>Margaret — late 60s to early 70s:</b> Their outgoing, witty cruise friend. Practical and relatable, she shares her own experience and recommends ComfortWear like a friend passing along a good find.
+
+---
+
+<b>Setting:</b> A cozy cruise ship cabin docked in Portugal, with morning light coming through the window and excursion bags by the door.
+
+<b>What happens:</b> As George gets ready to explore, Linda admits that walking on cobblestones has left her sore and unsteady, prompting their friend Margaret to share her experience with ComfortWear.
+
+---
+
+<b>“I WAS WATCHING MY FEET”</b>
+
+<i>ComfortWear · Drama ad · Estimated runtime: 4:30–5:00</i>
+
+\[CRUISE CABIN. MORNING. GEORGE stands by the door with an excursion bag. LINDA sits on the bed, still barefoot.\]
+
+<b>GEORGE:</b>
+
+You’re really letting me go alone?
+
+<b>LINDA:</b>
+
+It’s one excursion, George.
+
+<b>GEORGE:</b>
+
+Yesterday you stayed in a café. Today you won’t leave the ship. You’ve had pictures of Portugal on our fridge for six years.
+
+<b>LINDA:</b>
+
+I know how long they’ve been there.
+
+<b>GEORGE:</b>
+
+Then what’s going on?
+
+\[She reaches for a chunky shoe, then puts it down.\]
+
+<b>LINDA:</b>
+
+I nearly fell twice yesterday.
+
+<b>GEORGE:</b>
+
+What? When?
+
+<b>LINDA:</b>
+
+On those cobblestone streets. All those uneven little stones? I kept stepping on one and wobbling sideways.
+
+\[FLASHBACK: Linda’s shoe rolls slightly on a raised cobblestone. She grabs George’s arm.\]
+
+<b>LINDA, VOICEOVER:</b>
+
+I was grabbing your arm, watching the ground… By the end, I was barely lifting my feet.
+
+\[She walks with short, cautious steps.\]
+
+<b>LINDA, VOICEOVER:</b>
+
+My feet hurt, my legs were exhausted, and then my lower back started aching.
+
+\[She lowers herself onto a bench, one hand against her lower back.\]
+
+\[BACK TO CABIN.\]
+
+<b>GEORGE:</b>
+
+Why didn’t you tell me?
+
+<b>LINDA:</b>
+
+You were so excited. I didn’t want to be the one saying we had to go back.
+
+<b>GEORGE:</b>
+
+I thought you weren’t enjoying it.
+
+<b>LINDA:</b>
+
+That beautiful church you kept taking pictures of? I barely looked at it.
+
+\[A beat.\]
+
+<b>LINDA:</b>
+
+I was watching my feet.
+
+\[A knock. Their friend MARGARET appears with a tote bag.\]
+
+<b>MARGARET:</b>
+
+Bus leaves in twenty. Why does everyone look like somebody’s getting divorced?
+
+<b>LINDA:</b>
+
+My shoes and I are considering it.
+
+<b>MARGARET:</b>
+
+Oh. Those cobblestones got you?
+
+<b>LINDA:</b>
+
+My whole body hurts.
+
+<b>MARGARET:</b>
+
+I remember. Fourteen days in Spain and Portugal on my last cruise. I spent half of it asking, “How much farther?”
+
+<b>LINDA:</b>
+
+But you were out all afternoon yesterday.
+
+<b>MARGARET:</b>
+
+In different shoes this time.
+
+\[She points to her ComfortWear shoes.\]
+
+<b>LINDA:</b>
+
+But these ARE my walking shoes. I bought them for this trip.
+
+\[She picks up her old shoe. Something catches her eye.\]
+
+<b>LINDA:</b>
+
+Oh, you’ve got to be kidding me.
+
+<b>GEORGE:</b>
+
+What?
+
+\[Close-up: The sole has started separating near the toe.\]
+
+<b>LINDA:</b>
+
+Look at this. That wasn’t there when we packed.
+
+<b>GEORGE:</b>
+
+You caught that toe on the stones a few times yesterday.
+
+<b>LINDA:</b>
+
+They’ve barely made it through the holiday.
+
+\[She puts the shoe down.\]
+
+<b>LINDA:</b>
+
+They felt so comfortable when I tried them on.
+
+<b>MARGARET:</b>
+
+You walked around the shop for five minutes?
+
+<b>LINDA:</b>
+
+Probably.
+
+<b>MARGARET:</b>
+
+I did the same thing. Then I wore mine for three hours on uneven cobblestones. Very different experience.
+
+<b>LINDA:</b>
+
+So what are yours?
+
+<b>MARGARET:</b>
+
+ComfortWear. Actually…
+
+\[She reaches into her tote and pulls out another pair.\]
+
+<b>MARGARET:</b>
+
+I brought my spare pair. You said at dinner your feet were sore.
+
+<b>LINDA:</b>
+
+You brought those for me?
+
+<b>MARGARET:</b>
+
+We’re the same size, aren’t we?
+
+<b>LINDA:</b>
+
+An eight?
+
+<b>MARGARET:</b>
+
+Try them.
+
+\[Margaret hands them over. Linda presses the cushioning inside.\]
+
+<b>LINDA:</b>
+
+Oh. That’s soft.
+
+<b>MARGARET:</b>
+
+Put your feet in. You’re not buying them with your hands.
+
+\[Linda laughs and slips them on.\]
+
+<b>MARGARET:</b>
+
+How’s the front? Can you move your toes?
+
+<b>LINDA:</b>
+
+Yes, actually. Mine were squeezing right across here.
+
+\[She gestures across the front of her foot.\]
+
+<b>MARGARET:</b>
+
+That’s what I like about these. Room for my toes, soft underneath, and my feet feel secure when I walk.
+
+\[Linda stands. George offers his hand; she takes it, then walks a few steps across the cabin.\]
+
+<b>LINDA:</b>
+
+These feel good. They’re not squeezing the sides.
+
+<b>MARGARET:</b>
+
+Take another little walk. How’s the fit at the back?
+
+\[Linda turns and walks back.\]
+
+<b>LINDA:</b>
+
+Good. My heel’s staying in place.
+
+\[She looks at herself in the mirror.\]
+
+<b>LINDA:</b>
+
+And they actually look nice with these trousers.
+
+<b>MARGARET:</b>
+
+You sound surprised. I do have taste.
+
+<b>LINDA:</b>
+
+I thought I’d have to choose between comfortable shoes and looking nice.
+
+<b>MARGARET:</b>
+
+You’ve seen me wearing these to dinner. Trousers, a little dress… Saves packing a pair for every outfit.
+
+<b>GEORGE:</b>
+
+Now that would help with the suitcase.
+
+\[Both women look at him.\]
+
+<b>GEORGE:</b>
+
+I’ll leave that alone.
+
+<b>LINDA:</b>
+
+And you wore them before the trip?
+
+<b>MARGARET:</b>
+
+Shopping, lunch, my usual walks. I wanted to know they suited me before I was halfway through an excursion.
+
+<b>LINDA:</b>
+
+Eight months planning this holiday, and I gave my shoes five minutes.
+
+\[She looks at her old pair.\]
+
+<b>LINDA:</b>
+
+I just don’t want every trip to end with me saying, “You go ahead.”
+
+\[George puts down his excursion bag.\]
+
+<b>GEORGE:</b>
+
+Then today we go together. Slowly. No chasing a tour guide.
+
+<b>LINDA:</b>
+
+Can we start with coffee?
+
+<b>MARGARET:</b>
+
+Finally. An itinerary I can support.
+
+\[Linda smiles.\]
+
+<b>LINDA:</b>
+
+Send me that website before we go.
+
+<b>MARGARET :</b>
+
+Already sent. And you can borrow those while we get coffee.
+
+\[Close-up: Linda’s phone displays ComfortWear. Cut to details of the shoes and travel outfit pairings.\]
+
+<b>VOICEOVER:</b>
+
+A few minutes trying on shoes can feel very different from a day exploring cobblestone streets.
+
+Before your next cruise or European getaway, discover ComfortWear women’s shoes. Find your pair and get to know them on your everyday walks before you pack.
+
+\[END CARD: ComfortWear shoes beside a suitcase.\]
+
+## COM310 — Feet Swell At The End Of The Day
+**Status:** Editing · **Type:** Net New · **Format:** AI + Existing Footage · **Angle:** Women 60+ · **Persona:** Foot Pain · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-08 · **Learnings:** —
+
+Follow this top spender’s structure and edit pacing: [https://fb.me/adspreview/facebook/24TR5gxBVxjXFR1](https://fb.me/adspreview/facebook/24TR5gxBVxjXFR1) 
+
+---
+
+<b>HOOK 1 </b>
+
+If you’re a woman over 60 with neuropathy, and pressure from your shoes makes already-sensitive feet feel even more uncomfortable by evening, this is for you.
+
+<b>HOOK 2 </b>
+
+If you’re a woman over 60 whose feet swell throughout the day, do your shoes fit at breakfast but squeeze by dinner? This is for you.
+
+<b>HOOK 3 </b>
+
+If you’re a woman over 60 with bunions, do you keep loosening your shoes, but they still press against the same painful spot? This is for you.
+
+<b>BODY </b>
+
+You put your shoes on at breakfast, and they feel fine.
+
+Then come the groceries. The gardening. Standing in the kitchen.
+
+By afternoon, your toes feel crowded, and you’re ready to take them off.
+
+Sound familiar?
+
+We compared four approaches to getting comfortable. Here’s our countdown.
+
+<b>Number four: putting your feet up.</b>
+
+A pillow under your feet. Time on the couch.
+
+It all feels good… but it means you have to stop what you’re doing. 
+
+And when your shoes go back on, the same tight spots are still there.
+
+<b>Number three: a foot soak.</b>
+
+After a long day, it can feel wonderful.
+
+But tomorrow, you’re wearing the same shoes. The same narrow front. The same pressure points.
+
+It’s relaxing, but it doesn’t fix the fit.
+
+<b>Number two: loosening your regular shoes.</b>
+
+You loosen the laces and think… okay, that’s better.
+
+But later, you’re adjusting them again.
+
+Because loosening the top doesn’t make the front any wider.
+
+The shoe feels looser, but your toes are still crowded.
+
+<b>Which brings us to number one: changing the shoes themselves. </b>
+
+This is where we started looking at what our feet actually needed from a shoe.
+
+First, room across the front.
+
+ComfortWear’s wide toe box gives your toes space to spread out, instead of keeping them pressed together.
+
+Because when the front feels cramped, you can adjust the laces all afternoon and still wish you had more room.
+
+Then there’s the adjustable closure.
+
+If the fit starts feeling snug, you can loosen it without taking the whole shoe off.
+
+You have a way to adjust the fit as your day goes on.
+
+Think about when you’d appreciate that.
+
+Standing in the checkout line. Finishing dinner. Going for a walk with your grandchildren.
+
+Those ordinary moments when you’d like to focus on what you’re doing, instead of the spot where your shoe keeps pressing.
+
+That’s why ComfortWear came first in our comparison. It addresses the fit you’re living with throughout the day.
+
+Putting your feet up can still feel lovely. But you shouldn’t have to wait until your shoes come off to get comfortable.
+
+ComfortWear offers a 30-day money-back guarantee and free shipping.
+
+Check the fit guide, choose your pair, and try them in your daily routine.
+
+## COM311 — Disney Statics
+**Status:** Editing · **Type:** Net New · **Format:** Statics · **Angle:** Disney · **Persona:** Disney · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-09 · **Learnings:** —
+
+iPhone Notes Format: (reference image on page)
+
+Variation 1:
+
+<b>Why I wish I wore better shoes for Disney</b>
+
+✓ Your feet WILL swell after 15,000+ steps
+
+✓ Thick, soft sneakers can feel heavy by hour 8
+
+✓ Narrow toe boxes get painful fast in long lines
+
+✓ Cobblestones + wet pavement need actual grip
+
+Variation 2: <br /><b><br />Why 200lbs Plus-Sized Women Need Better Shoes for Disney</b>
+
+✓ Your feet WILL swell after 15,000+ steps
+
+✓ Thick cushioning shoes cause balance issues
+
+✓ Narrow toe boxes get painful fast in long lines
+
+✓ Cobblestones + wet pavement need actual grip
+
+<br />Wide Trip Shoes POV Format: (Put disney cobblestone foors here or some sort of marking that we’re at Disney)<br /> (reference image on page)
+
+<br />Variation 1: <br /><br />Comment box: My 72 year old mom kept up with us the entire day at Disney <br /><br />LIGHT<br />ARCH SUPPORT<br />ROOMY TOE-BOX<br />NON-SLIP<br /><br />Variation 2: <br /><br />Comment box: Can confirm, no bunion pain with these shoes at Disney<br /><br />COMFORTABLE<br />ARCH SUPPORT
+
+NO FRICTION MATERIAL
+
+WIDE ROOMY TOE BOX
+
+Varaition 3: <br /><br />Comment box: Nurses here with plantar fasciitis. I wear these on my shifts and brought them to Disney. 10/10 comfort
+
+ARCH SUPPORT
+
+COMFORTABLE
+
+WIDE ROOMY TOE-BOX
+
+NON-SLIP 
+
+Woman in pain in front of Space Mountain Format (Put background of space mountain and woman is standing away from it in pain like example) (reference image on page)
+
+Variation 1: <br /><br />Is foot pain ruining your Disney trip? <br /><br />Foot Pain, Knee Pain, Back Pain, Hip Pain<br /><br />ComfortWear can fix that.<br /><br />Variation 2: 
+
+<br />Swollen feet at Disney for women over 200lbs?<br /><br />Put woman standing but her legs are swollen and shoes are really tight for her feet<br /><br />ComfortWear’s wide shoes fixes that.<br /><br />Variation 3: <br /><br />Planning a trip to Disney with 15,000+ steps per day?<br /><br />No Foot Pain<br />No Knee Pain
+
+No Back Pain
+
+ComfortWear is rated Disney’s #1 recommended shoe
+
+Variation 4: <br /><br />We tested & ranked 5 most comfortable shoes for Disney<br /><br />(Put Hokas, Skechers, OnCloud, Crocs, ComfortWear next to each other with Disney castle in the background. Put close-up is on the shoes)
+
+Put 2 feet here cartoon pixar style and put a comment bubble like they’re talking “Find out which one is ranked #1”
+
+## COM312 — Testing Shoes in Europe_Spanish Version
+**Status:** Editing · **Type:** Iteration · **Format:** UGC · **Angle:** Travel · **Persona:** Travel · **Product:** Ortho · **Offer:** 40% Off · **Month:** October · **Created:** 2026-10-09 · **Learnings:** —
+
+ORGINAL AD: [Link](https://drive.google.com/file/d/1yDo8kP5Ull0MsWiM4fKiDtAElRFVvzf2/view?usp=sharing)
+
+INSTRUCTIONS: Translate the ad linked above to Neutral/Latin American spanish. <u>Please make sure to choose that accent and NOT Spanish from Spain. </u>
+
+Script: 
+
+<b><u>HOOK:</u></b>
+
+First Opening Hook/Super: ¿CREES QUE TUS TENIS PUEDEN AGUANTAR 20.000 PASOS EN EUROPA? PUSIMOS A PRUEBA 4 MODELOS DISTINTOS 
+
+VO: 
+
+Probamos cuatro de los tenis más populares para viajar y descubrimos cuáles realmente resisten un día entero de turismo.
+
+Second Super: LOS RESULTADOS FUERON VERGONZOSOS 
+
+VO: 
+
+Lo que descubrimos cambiará la forma en la que empacas tu maleta.
+
+<b><u>BODY:</u></b>
+
+Cuando exploras una ciudad nueva, no se trata solamente de caminar.
+
+Recorres calles empedradas, subes escaleras antiguas, haces filas en museos y atraviesas terrenos irregulares durante ocho, nueve y, a veces, hasta diez horas seguidas.
+
+Por eso, decidimos probar cuatro de los tenis más populares que la gente suele llevar de viaje.
+
+<b>Primero, los Nike Air Max. Aproximadamente 130 dólares.</b>
+
+Parecen la opción más obvia, ¿verdad?
+
+Son cómodos para el día a día y tienen un diseño que incluso se ve bien para salir a cenar.
+
+Pero hay un problema. Nike diseñó estos zapatos para pistas de atletismo y pisos de gimnasio, no para calles empedradas de hace 400 años.
+
+La puntera es estrecha. Puede funcionar para correr durante 45 minutos, pero resulta muy incómoda para un día entero de turismo.
+
+Después de cinco horas, las dos personas que las probaron ya estaban buscando dónde sentarse. Sus pies no se sentían simplemente cansados. Se sentían completamente adoloridos.
+
+<b>Después, probamos los Hoka, esos modelos de suela gorda. Aproximadamente 165 dólares.</b>
+
+Durante las primeras dos horas, sinceramente, se sintieron increíbles.
+
+Pero aquí está el problema con los Hoka.<br />Toda esa amortiguación de la suela está diseñada para absorber el impacto vertical, como cuando corres sobre una superficie plana.
+
+En las calles empedradas, tus pies se mueven de un lado a otro con cada paso, y toda esa espuma prácticamente no ayuda con ese movimiento. De hecho, puedes sentirte menos estable que con un zapato de suela más baja.
+
+Además, los Hoka son pesados, casi el doble que unos tenis convencionales.
+
+Después de siete horas, no solo tienes que lidiar con el cansancio de tus pies. Tus piernas también tienen que cargar con ese peso adicional en cada paso.
+
+Al terminar el día, las personas que las probaron dijeron que les dolían más las rodillas que los pies.
+
+<b>Luego probamos los Skechers Memory Foam. Aproximadamente 70 dólares.</b>
+
+Son cómodos por la mañana, de eso no hay duda.
+
+Pero la espuma viscoelástica tiene un gran problema del que casi nadie habla cuando se trata de viajar. 
+
+Se comprime bajo el peso de tu cuerpo a lo largo del día y no recupera su forma hasta que te quitas los zapatos por la noche.
+
+Así que, al comenzar la tarde, justo cuando estás entrando a tu segundo museo o subiendo para disfrutar de esa vista por la que viajaste nueve horas, es cuando menos soporte tienes.
+
+La espuma ya perdió su capacidad de amortiguación, pero a tus pies todavía les queda mucho camino por recorrer.
+
+<b>Finalmente, probamos ComfortWear. Y aquí fue cuando la comparación dejó de ser una competencia.</b><br />ComfortWear no fabrica tenis para atletas. Fabrica tenis para personas cuyos pies tienen que soportar las exigencias de la vida real.
+
+Enfermeras, profesionales de la salud y viajeros que quieren disfrutar de verdad ese viaje para el que han estado ahorrando.
+
+La suela es lo suficientemente firme para proteger tus pies de las calles empedradas, pero también lo suficientemente flexible para que puedas caminar con naturalidad, sin sentir que llevas unas botas rígidas de senderismo.
+
+La puntera es amplia. Tus dedos tienen espacio para separarse y moverse naturalmente, en lugar de quedar apretados después de caminar varios kilómetros.
+
+Y el soporte del arco no desaparece a las dos de la tarde. Sigue ahí después de nueve horas, cuando regresas caminando de cenar junto al río.
+
+Después de un día completo de pruebas, con 22.000 pasos por el centro histórico de una ciudad, todas las personas que los probaron dijeron lo mismo: <b>No les dolían los pies.</b>
+
+No dijeron que les dolían menos. Dijeron que no les dolían.
+
+Eso significa que ya no tienes que ser la persona que termina el recorrido antes de tiempo porque sus pies no aguantan más.
+
+No tienes que quedarte sentada en un banco, viendo cómo los demás disfrutan de esos lugares que viajaste tan lejos para conocer. Puedes seguir explorando.
+
+<b>Ahora mismo, ComfortWear tiene un 40% de descuento, envío gratis y 45 días para probarlos.</b>
+
+Tiempo más que suficiente para ponerlos a prueba durante un viaje de verdad.
+
+Si no funcionan mejor que cualquier otro zapato que hayas llevado de viaje, puedes devolverlos.
+
+Pero después de todo lo que probamos, estamos convencidos de que no querrás volver a viajar con otros tenis.
+
+## COM313 — Podiatrist Rates Shoes Heavier Women_Spanish Version
+**Status:** Editing · **Type:** Iteration · **Format:** UGC · **Angle:** Overweight Women · **Persona:** Overweight · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-09 · **Learnings:** —
+
+ORGINAL AD: [LINK](https://drive.google.com/file/d/17PpWRXJBKiYCKPgrSjWUzaNucjXMF2B_/view?usp=drive_link)
+
+INSTRUCTIONS: Translate the ad linked above to Neutral/Latin American spanish. <u>Please make sure to choose that accent and NOT Spanish from Spain. </u>
+
+Script: 
+
+<b><u>HOOK:</u></b>
+
+PODÓLOGA EVALÚA ZAPATOS<br />PARA MUJERES DE MÁS DE 90 KG
+
+<b><u>BODY:</u></b>
+
+<b>Crocs: 3 de 10.</b>
+
+Son fáciles de poner, pero esa es prácticamente su única ventaja.
+
+Tus pies se deslizan dentro del zapato con cada paso, lo que puede provocar problemas de equilibrio y fricción.
+
+Para quienes tienen pies hinchados o sensibles, ese movimiento constante puede volverse muy incómodo al final del día. 
+
+En algunos casos, incluso he visto que provoca ampollas.
+
+<b>New Balance: 6 de 10.</b>
+
+La mayoría de sus modelos todavía utilizan un talón elevado, diseñado para correr.
+
+Esa diferencia de altura entre el talón y la parte delantera desplaza tu peso hacia adelante, aumentando la presión sobre la parte delantera de tus pies y haciendo que mantener el equilibrio sea más difícil de lo necesario.
+
+<b>Hoka Bondi: 4 de 10.</b><br />Sé que a muchas personas les encanta su amortiguación, pero para las mujeres de mayor peso, toda esa espuma puede terminar jugando en su contra.
+
+Estás caminando sobre una plataforma alta, gruesa y blanda, que se comprime constantemente bajo tus pies.
+
+Para la cuarta semana, la amortiguación pierde firmeza, lo que provoca menos estabilidad y una mayor sensación de desequilibrio.
+
+<b>Skechers Memory Foam: 2 de 10.</b>
+
+Se sienten increíbles durante los primeros diez minutos en la tienda, pero después la espuma comienza a aplanarse.
+
+Una vez que pierde su forma, tu pie se hunde dentro del tenis en lugar de recibir el soporte que necesita.
+
+Y para las mujeres que pesan más de 90 kilos, esto sucede todavía más rápido.
+
+Básicamente, al terminar el mes, es como si estuvieras caminando sobre cartón.
+
+<b>ComfortWear: 9 de 10.</b>
+
+Y estas son las razones.
+
+Primero, su espacio extra amplio para los dedos, uno de los más amplios que encontrarás en el mercado.
+
+Por fin, tus dedos pueden separarse de forma natural, en lugar de permanecer apretados durante todo el día.
+
+Para quienes tienen pies hinchados, sensibles, juanetes o problemas en los pies relacionados con la diabetes, ese espacio adicional puede marcar una enorme diferencia.
+
+<b>Segundo, su plantilla con soporte para el arco del pie.</b>
+
+Aquí es donde ComfortWear realmente se destaca.
+
+Muchos tenis se sienten increíblemente cómodos cuando te los pones por primera vez, pero eso no significa necesariamente que sigan brindándote soporte varias horas después.
+
+Para las mujeres de mayor peso, este soporte del arco permite dar pasos más suaves y controlados, reduciendo la tensión en las rodillas, las caderas y la zona lumbar.
+
+<b>Tercero, su tejido elástico y adaptable.</b>
+
+A medida que tus pies se hinchan durante el día, el material se expande con ellos.
+
+Sin rozaduras, sin presión excesiva y sin puntos de incomodidad.
+
+Además, el tejido es transpirable, lo que ayuda a mantener los pies sensibles más frescos y cómodos.
+
+<b>Cuarto, su diseño ligero y flexible.</b>
+
+La mayoría de los tenis diseñados para brindar comodidad se sienten voluminosos y pesados.
+
+Los ComfortWear, en cambio, se sienten tan ligeros que casi olvidas que los llevas puestos.
+
+Esto hace que caminar sea más fácil y menos agotador, desde la mañana hasta la noche.
+
+<b>Y finalmente, su sistema de cierre fácil.</b>
+
+Olvídate de luchar con los cordones o de tener dificultades para conseguir el ajuste adecuado.
+
+Simplemente ajústalos una vez y disfruta de una sensación de seguridad y comodidad cada vez que te los pongas.
+
+La mayoría de los zapatos nunca fueron diseñados pensando en las necesidades de las mujeres de mayor peso que tienen pies hinchados o sensibles. <b>ComfortWear sí.</b>
+
+Por eso, muchas mujeres finalmente están logrando caminar durante más tiempo, sentirse más cómodas y terminar el día sin esa necesidad desesperada de quitarse los zapatos.
+
+<b>Haz clic en el enlace de abajo para comprobar si tu talla todavía está disponible.</b>
+
+## COM314 — Nursing Shoe Collection_Spanish Version
+**Status:** Editing · **Type:** Iteration · **Format:** UGC · **Angle:** Nurse · **Persona:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-09 · **Learnings:** —
+
+ORIGINAL AD: [https://drive.google.com/file/d/1yf5X\_eu52wGA2bnxy12Xu2F7JkKLB-86/view?usp=drive\_link](https://drive.google.com/file/d/1yf5X_eu52wGA2bnxy12Xu2F7JkKLB-86/view?usp=drive_link) 
+
+Translated supers:
+
+OPENING HOOK: <b>Mi colección de zapatos para enfermería </b><i>(Como alguien que tiene fascitis plantar)</i>
+
+### Hoka Bondi
+
+<b>\$165 — 6.5/10</b>
+
+Cómodos durante las primeras 2 horas, pero después las plantillas se aplastan y pierden amortiguación.
+
+### Skechers Memory Foam
+
+<b>\$80 — 2/10</b>
+
+Las suelas se despegaron después de 3 semanas y la parte del talón me rozaba tanto que terminó provocándome ampollas.
+
+### Brooks Ghost
+
+<b>\$149 — 7/10</b>
+
+Cómodos para el ritmo intenso de urgencias, pero la puntera es demasiado estrecha. Hizo que mis juanetes empeoren. 
+
+### New Balance Fresh Foam
+
+<b>\$85 — 7.5/10</b>
+
+Súper cómodos! Pero literalmente solo me duraron 2 meses.
+
+### ComfortWear Ortho Stretch
+
+<b>\$59 — 9/10</b>
+
+Súper cómodos incluso para aguantar guardias seguidas de 12 horas. Tienen soporte para el arco, horma ancha y suela antideslizante. Muy recomendados!
+
+## COM315 — Doctor Recommends Against Hokas and Skechers_Spanish
+**Status:** Editing · **Type:** Iteration · **Format:** AI + Existing Footage · **Angle:** Nurse · **Persona:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-09 · **Learnings:** —
+
+ORIGINAL AD: [https://drive.google.com/file/d/1oOcTTVXyQZ2oTIgSJWa07aXjkUntpYqb/view?usp=sharing](https://drive.google.com/file/d/1oOcTTVXyQZ2oTIgSJWa07aXjkUntpYqb/view?usp=sharing) 
+
+INSTRUCTIONS: Translate the ad linked above to Neutral/Latin American spanish. <u>Please make sure to choose that accent and NOT Spanish from Spain. </u>
+
+Spanish script: 
+
+Hook: Por esta razón les digo a mis pacientes que hacen guardias de 12 horas que dejen de usar Skechers y Hokas 
+
+Body: 
+
+Hola, soy la doctora Adams.
+
+Durante los últimos 20 años, les he preguntado a 500 enfermeras que sufren dolor de pies, rodillas y espalda qué zapatos utilizan.
+
+Skechers, Hoka y tenis de marcas reconocidas que cuestan 120, 150 e incluso 180 dólares por par.
+
+Y todas me cuentan exactamente la misma historia:
+
+"Se sienten increíbles cuando comienzo mi turno, pero a mitad de la jornada ya no aguanto el dolor de pies".
+
+<b>Y ese es precisamente el problema.</b>
+
+Estar de pie durante 12 horas al día ya es bastante exigente para tu cuerpo, pero usar el calzado equivocado puede empeorar muchísimo la situación.
+
+La mayoría de las personas no tiene idea de cuánto puede afectar el calzado a su salud a largo plazo.
+
+Los zapatos inadecuados no solo provocan dolor de pies. También pueden contribuir a desarrollar fascitis plantar, juanetes, dolor de talones, rodillas, espalda baja y fatiga crónica.
+
+Por eso, mi equipo y yo decidimos investigar.
+
+Los Skechers te ofrecen esa sensación de comodidad inmediata gracias a su espuma viscoelástica.
+
+Los Hoka tienen una enorme cantidad de amortiguación debajo del pie.
+
+Y sí, ambos pueden sentirse muy cómodos al comienzo de la jornada.
+
+<b>Pero la amortiguación por sí sola no es suficiente para quienes trabajan en enfermería.</b>
+
+Porque después de seis, ocho o diez horas, tus pies ya han dado miles de pasos.
+
+Tus arcos están cansados, tus talones laten de dolor y tus dedos comienzan a sentirse apretados a medida que tus pies se hinchan.
+
+Y de repente, esos zapatos caros que parecían tan cómodos ya no se sienten para nada como a las siete de la mañana.
+
+Entonces, comencé a hacerme una pregunta mucho más importante:
+
+<b>¿Qué zapatos están realmente diseñados para lo que necesitan los pies de una enfermera al terminar un turno de 12 horas?</b>
+
+Primero, necesitas soporte para el arco del pie que siga brindando estabilidad incluso al final de tu jornada.
+
+Segundo, una horma amplia que deje suficiente espacio cuando tus pies comiencen a hincharse.
+
+Tercero, amortiguación, pero sin esa sensación de que tus pies se hunden en una almohada.
+
+Cuarto, zapatos ligeros que no obliguen a tus piernas cansadas a esforzarse todavía más.
+
+Y finalmente, una suela antideslizante para los pisos resbalosos de los hospitales.
+
+Y fue entonces cuando algo quedó muy claro:
+
+<b>Los mejores zapatos para enfermería no son los que se sienten bien durante la primera hora, sino los que siguen siendo cómodos después de 12 horas.</b>
+
+Después de toda nuestra investigación, hubo una marca que se destacó por encima de las demás:
+
+<b>ComfortWear.</b>
+
+Y estas son las razones.
+
+<b>1. Tienen un precio accesible para las enfermeras que necesitan cuidar su presupuesto.</b>
+
+Cuestan menos de 60 dólares por par, lo que los hace mucho más económicos que unos tenis para correr de 300 dólares o unos zapatos ortopédicos con precios excesivos.
+
+<b>2. Están diseñados para soportar turnos consecutivos de 12 horas.</b>
+
+A diferencia de los tenis tradicionales para correr, están pensados específicamente para personas que pasan todo el día de pie.
+
+<b>3. Ofrecen un excelente soporte para el arco del pie.</b>
+
+Esto ayuda a reducir la tensión asociada con la fascitis plantar, los pies cansados y las largas horas de pie.
+
+<b>4. Cuentan con una suela antideslizante.</b>
+
+Esto te brinda mayor seguridad al caminar sobre pisos mojados de hospitales, cocinas, cafeterías y otros lugares de trabajo con superficies resbalosas.
+
+<b>5. Tienen una puntera amplia que permite que tus dedos se muevan con libertad.</b>
+
+Les dan a tus pies el espacio que realmente necesitan.
+
+ComfortWear es uno de los zapatos cómodos mejor valorados del mercado.
+
+Más de 500.000 enfermeras eligen ComfortWear porque ofrecen amortiguación durante todo el día sin sacrificar el soporte.
+
+Si estás buscando un calzado que de verdad te ayude a aguantar guardias de 12 horas, ComfortWear es de las mejores opciones que he visto. 
+
+Pruébalos tú misma.
+
+ Si no quedas totalmente satisfecha, tienes la garantía de devolución de dinero de 30 días
+
+<b>¿Qué estás esperando?</b>
+
+Haz clic en el enlace de abajo y dale a tus pies el alivio que se merecen.
+
+## COM316 — Hokas and Brooks the worst shoes for work_Spanish
+**Status:** Editing · **Type:** Iteration · **Format:** UGC · **Angle:** Nurse · **Persona:** Nurse · **Product:** Ortho · **Offer:** 40% Off · **Month:** October · **Created:** 2026-10-09 · **Learnings:** —
+
+ORIGINAL AD: [https://drive.google.com/file/d/1kU1GyIM8je9fGMHpLbv8-S-dhaOjBuDV/view?usp=drive\_link](https://drive.google.com/file/d/1kU1GyIM8je9fGMHpLbv8-S-dhaOjBuDV/view?usp=drive_link)
+
+INSTRUCTIONS: Translate the ad linked above to Neutral/Latin American spanish. <u>Please make sure to choose that accent and NOT Spanish from Spain. </u>
+
+Spanish script: 
+
+Hook/super: HOKAS Y BROOKS SON LOS PEORES TENIS PARA TRABAJAR
+
+Vo: 
+
+Los Hoka, Brooks y On Cloud son tres de los peores tenis que puedes usar durante un turno de 12 horas.
+
+Sé que esto sonará polemico…
+
+Pero el problema no es la marca, sino el diseño.
+
+Estos tenis están diseñados para impulsar a un corredor hacia adelante durante 40 minutos, no para mantener a una enfermera de pie durante 12 horas sobre duros pisos de concreto.
+
+<b>Y hay tres razones por las que pueden destrozarte los pies.</b>
+
+<b>1. Están diseñados para correr.</b>
+
+La suela de espuma de estos tenis fue desarrollada para correr.
+
+Está hecha para impulsarte en cada paso, no para sostener tu peso mientras permaneces de pie durante 12 horas.
+
+Se sienten increíbles durante la primera semana, pero después de cuatro horas de uso, la espuma se comprime y pierde firmeza.
+
+Así que terminas teniendo menos soporte justo en el momento del día en que más te duelen los pies.
+
+<b>2. No son antideslizantes.</b>
+
+La mayoría de estos modelos no tienen suelas antideslizantes.
+
+Hoka, Brooks y On Cloud están diseñados para tener agarre sobre pavimento seco, no sobre un piso que alguien acaba de trapear.
+
+Basta con encontrarte una esquina mojada mientras corres a atender una emergencia para que termines siendo tú quien necesite atención médica.
+
+<b>3. La puntera es estrecha.</b>
+
+El espacio para los dedos es reducido y el material no se estira.
+
+Durante un turno de 12 horas, tus pies pueden hincharse hasta media talla.
+
+Así que los tenis siguen apretándolos cada vez más, hasta que tus dedos quedan completamente comprimidos y, a mitad del turno, están hinchados como salchichas.
+
+<b>Por eso ComfortWear decidió diseñar algo completamente diferente a unos tenis para correr.</b>
+
+Están hechos para personas que se ganan la vida trabajando de pie, no para quienes corren maratones.
+
+Tienen amortiguación que mantiene el soporte durante todo el día, un tejido elástico que se adapta a medida que tus pies se hinchan, una suela antideslizante para pisos mojados y un verdadero soporte estructural para el arco del pie.
+
+Todo esto ayuda a reducir la tensión en los talones asociada con la fascitis plantar, incluso al final de un turno de 12 horas.
+
+Más de 500.000 enfermeras y profesionales de la salud ya se cambiaron a ComfortWear.
+
+<b>Cinco estrellas. Diseñados para turnos de 12 horas, no para carreras de 5 kilómetros.</b>
+
+Úsalos durante tus turnos más exigentes por 30 días.
+
+Si no notas una diferencia en cómo se sienten tus pies, simplemente devuélvelos.
+
+Te reembolsamos el dinero.
+
+<b>Y ahora mismo tienen un 40% de descuento y son elegibles para comprar con fondos HSA y FSA.</b>
+
+Deja de pagar precios elevados por tenis de marcas reconocidas que nunca fueron diseñados para tus jornadas de trabajo.
+
+Haz clic en el enlace de abajo y consigue tu par mientras siga disponible el 40% de descuento.
+
+## COM317 — NobodyWantsToTellTeachersThis_Spanish
+**Status:** Editing · **Type:** Iteration · **Format:** UGC · **Angle:** Teachers · **Persona:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-09 · **Learnings:** —
+
+ORIGINAL AD: [https://drive.google.com/file/d/1DTAE6AmIjHdGDRAOMPnGnU05PtoN9biq/view?usp=drive\_link](https://drive.google.com/file/d/1DTAE6AmIjHdGDRAOMPnGnU05PtoN9biq/view?usp=drive_link)
+
+INSTRUCTIONS: Translate the ad linked above to Neutral/Latin American spanish. <u>Please make sure to choose that accent and NOT Spanish from Spain. </u>
+
+Spanish script: 
+
+SUPER/HOOK: Nadie quiere decirles esto a los maestros!! 
+
+VO: 
+
+Esto es lo que nadie quiere decirles a los maestros:
+
+<b>Tus pies no están destrozados por caminar. Están destrozados por estar de pie.</b>
+
+Seis horas al día, prácticamente en el mismo lugar, sobre pisos de concreto y linóleo.
+
+Por eso decidimos poner a prueba los zapatos que usan los maestros, pero enfrentándolos a lo que realmente viven durante su jornada escolar.
+
+Piensa en cómo es un día normal para ti.
+
+No estás caminando tranquilamente.
+
+Estás de pie frente al pizarrón, inclinado sobre el escritorio de un alumno, supervisando los pasillos o permaneciendo durante horas sobre los pisos más duros de toda la escuela.
+
+Eso es completamente diferente a caminar o correr, y casi ningún zapato está diseñado para soportarlo.
+
+Así que probamos algunos de los modelos que más suelen elegir los maestros.
+
+<b>Primero, los tenis para correr, como los Brooks que suelen recomendarles en las tiendas deportivas.</b>
+
+De verdad están muy bien hechos... para correr, y ese es el problema. 
+
+Están diseñados para impulsar a un corredor hacia adelante, no para mantenerte de pie sobre un piso duro durante seis horas. 
+
+Además, esa horma estrecha y puntiaguda ejerce presión justo donde más duele si tienes pies anchos o juanetes.
+
+Los maestros que participaron en nuestra prueba dijeron que por la tarde ya les dolían los pies.
+
+Y más de uno nos contó que un par viejo hasta se le había roto justo donde se apoya el juanete.
+
+<b>Después, probamos los tenis de suela gorda y máxima amortiguación, como los Hoka.</b>
+
+Durante las primeras horas de clase se sienten increíbles, gracias a toda esa espuma suave.
+
+Pero aquí está el problema para los maestros.
+
+Cuanto más alta y blanda es la suela, menos estabilidad puedes sentir cuando dejas de caminar y te agachas junto al escritorio de un alumno.
+
+Además, esa espuma acolchada se va comprimiendo después de pasar todo el día de pie.
+
+Y después de unos meses, terminas con unos tenis mucho más planos, que ya no ofrecen la misma amortiguación que cuando los compraste.
+
+<b>Luego, probamos los zuecos que tantos maestros con experiencia recomiendan, como los Dansko.</b>
+
+Estos sí están diseñados para personas que pasan todo el día de pie.
+
+Pero su plantilla rígida se siente extremadamente dura desde el primer día.
+
+Además, para ser zapatos que supuestamente debes usar durante toda la jornada, resultaron ser la opción más pesada de nuestra comparación.
+
+Los maestros que usan Dansko suelen quejarse de que sienten demasiado el peso y la rigidez del zapato durante todo el día.
+
+<b>Después, probamos esos zapatos que compras cuando decides tomarte en serio la comodidad de tus pies: los Vionic, una marca de calzado ortopédico diseñada por podólogos.</b>
+
+Hay que reconocerles algo: ofrecen un buen soporte para el arco del pie.
+
+Pero utilizan una plantilla rígida y moldeada con una forma fija.
+
+Y tus pies no mantienen exactamente la misma forma durante toda la jornada escolar.
+
+Se hinchan.
+
+Así que, cuando llega la hora de salida, esa plantilla ortopédica firme que te quedaba perfecta a las ocho de la mañana comienza a ejercer presión sobre unos pies que ya cambiaron de tamaño.<br /><br />Y pagaste un precio elevado por unos zapatos diseñados con criterios ortopédicos, pero que nunca fueron pensados específicamente para las exigencias de tu día de trabajo.
+
+<b>Y finalmente, probamos la que consideramos la mejor opción en general: Ortho Stretch de ComfortWear.</b>
+
+Fue la única opción de nuestra prueba que no estaba diseñada pensando en corredores, en un laboratorio o en actividades de fin de semana.
+
+Fue creada para personas que pasan todo el día de pie sobre pisos duros, como enfermeras y maestros.
+
+Su suela es lo suficientemente firme para proteger el arco de tus pies del impacto del concreto, pero también lo suficientemente flexible para moverte rápidamente cuando un alumno te necesita al otro lado del salón.
+
+Ofrece buen agarre incluso en pasillos mojados, y la malla exterior se adapta a medida que tus pies se hinchan durante el día, en lugar de seguir apretándolos.
+
+Además, su material transpirable ayuda a mantener tus pies frescos incluso durante las horas de supervisión del almuerzo.
+
+Y tienen un diseño limpio y profesional. No parecen tenis deportivos ni zapatos ortopédicos.
+
+<b>Son lo suficientemente elegantes para una reunión con padres de familia y lo suficientemente cómodos para dar clases durante ocho horas seguidas.</b>
+
+Después de un par de semanas, los maestros que cambiaron a ComfortWear coincidieron en algo:
+
+Por primera vez, llegaban al último timbre del día sintiendo que todavía les quedaba energía.
+
+Y no se trataba solamente de que ya no les dolieran los pies.
+
+Era energía de verdad.
+
+Esa misma energía que antes se les agotaba incluso antes del almuerzo.
+
+Ahora tenían más energía para sus alumnos y también para ellos mismos después de una larga jornada escolar.
+
+<b>Tus pies te van a acompañar hasta el último timbre del día, uses los zapatos que uses.</b>
+
+La verdadera pregunta es:
+
+<b>¿Cuánta energía te quedará cuando llegue ese momento?</b>
+
+Haz clic en el enlace de abajo y descubre por qué tantos maestros están cambiándose a ComfortWear.
+
+## COM318 — Ranking the 4 shoes every teacher buys_Spanish
+**Status:** Editing · **Type:** Iteration · **Format:** AI · **Angle:** Teachers · **Persona:** Teacher · **Product:** Ortho · **Offer:** 40% Off · **Month:** October · **Created:** 2026-10-09 · **Learnings:** —
+
+ORIGINAL AD: [https://drive.google.com/file/d/1lfMcvTO8CuGw\_U6AseCV5k-4ZTNRahYO/view?usp=drive\_link](https://drive.google.com/file/d/1lfMcvTO8CuGw_U6AseCV5k-4ZTNRahYO/view?usp=drive_link)
+
+INSTRUCTIONS: Translate the ad linked above to Neutral/Latin American spanish. <u>Please make sure to choose that accent and NOT Spanish from Spain. </u>
+
+Spanish Script: 
+
+SUPER/HOOK: EVALUAMOS LOS 4 TENIS QUE TODOS LOS MAESTROS COMPRAN
+
+VO:
+
+Maestros, los tenis que están a punto de comprar para el regreso a clases probablemente no sean los adecuados.
+
+Le puse calificación a los cuatro pares que todo el mundo compra, y el que se esperaba que ganara, no ganó
+
+Hay algo sobre el trabajo de los maestros que las marcas de calzado nunca tuvieron en cuenta:
+
+<b>Tu jornada consiste en pasar horas de pie.</b>
+
+Frente al pizarrón, inclinado sobre el escritorio de un alumno o supervisando los pasillos.
+
+Horas y horas sobre pisos de azulejo y linóleo.
+
+Por eso, evalué cada par teniendo en cuenta una sola cosa: <b>cómo se comportan durante una jornada escolar completa, desde el primer timbre hasta el último.</b>
+
+### Nike Air Max — \$130 \| 5.1
+
+Seamos sinceros, estos son tenis de moda.
+
+Esa cápsula de aire es pura amortiguación visual. Está ahí por estética, no para el arco.
+
+Por dentro, el pie queda casi plano—no hay nada que te dé soporte.
+
+Para la tercera hora de clases, tu arco ya está haciendo todo el trabajo solo.
+
+### Birkenstocks — \$110 \| 5.9
+
+Los favoritos de los profesores de arte.
+
+Hay que reconocer que su plantilla de corcho realmente ofrece soporte para el arco del pie.
+
+Pero el corcho se adapta a la forma de tu pie, no absorbe el impacto.
+
+Prácticamente hay cero amortiguación entre tus pies y el piso duro.
+
+Además, no tienen talón, así que vas apretando los dedos todo el día para que no se te salgan. 
+
+### Brooks Ghost — \$140 \| 6.8
+
+ La marca que siempre escuchas que recomiendan los podólogos. 
+
+Y para corredores sí los recomendamos... yo lo hago.
+
+Pero la punta es estrecha y se va haciendo cada vez más angosta.
+
+Eso genera presión justo donde más duele si tienes pies anchos o juanetes.
+
+Hay pacientes que me enseñan sus tenis viejos con un hoyo roto justo a la altura del juanete. 
+
+### Vionic — \$130 \| 7.5
+
+La marca diseñada por podólogos.
+
+La que seguramente esperarías que yo eligiera como ganadora.
+
+Y sí, ofrece un verdadero soporte para el arco del pie.
+
+Pero su plantilla es un molde rígido, con una forma fija.
+
+Y tus pies no mantienen la misma forma durante toda la jornada escolar.
+
+Se hinchan.
+
+Así que el soporte que te quedaba perfecto a las 8 de la mañana te termina apretando a la hora de salida. 
+
+### Y el ganador: ComfortWear Ortho Stretch — \$60 \| 9.3
+
+La calificación más alta de mi lista al precio más bajo.
+
+Y esta es la razón:
+
+Son los únicos tenis de esta comparación diseñados para personas que pasan todo el día de pie sobre pisos duros.
+
+El soporte del arco es estructural, por lo que sigue brindándote estabilidad al final de la jornada, igual que cuando comenzaste.
+
+La malla elástica se adapta a medida que tus pies se hinchan y deja espacio para los juanetes, en lugar de presionarlos.
+
+La suela absorbe el impacto contra el piso y su diseño antideslizante ofrece agarre incluso en pasillos recién encerados.
+
+Además, son ligeros, así que supervisar los pasillos no se convierte en un entrenamiento de piernas.
+
+Y se ven como unos tenis limpios y normales al frente del salón—nada con aspecto ortopédico.
+
+<b>Así es como unos tenis de 60 dólares obtuvieron una mejor calificación que los diseñados por profesionales de mi propia especialidad.</b>
+
+Porque ComfortWear fue creado pensando en tu jornada de trabajo. Los otros no.
+
+Por eso, más de 500.000 personas que trabajan de pie ya se cambiaron a ComfortWear.
+
+Y por eso cada vez es más común verlos en las salas de maestros.
+
+Los maestros que atiendo y que hicieron el cambio siempre me dicen prácticamente lo mismo:
+
+<b>"No volvería a usar otra cosa".</b>
+
+Ahora mismo, ComfortWear tiene una promoción especial de regreso a clases con un <b>40% de descuento</b>.
+
+Además, tienes una garantía de devolución de dinero de 30 días.
+
+Eso significa que tienes un mes completo de jornadas escolares reales para ponerlos a prueba.
+
+Haz clic en el enlace de abajo y pide los tuyos mientras está la oferta de regreso a clases
+
+<b>¡Tienes 180 días de clases por delante! Comienza el año escolar con los tenis que ganaron la comparación.</b>
+
+## COM319 — We asked 500 plus-sized nurses what shoes they wear
+**Status:** Editing · **Type:** Iteration · **Format:** AI + Existing Footage · **Angle:** Overweight Nurse · **Persona:** Nurse · **Product:** Ortho · **Offer:** 40% Off · **Month:** October · **Created:** 2026-10-13 · **Learnings:** —
+
+Hook 1: <b>We asked 500 plus-sized nurses with plantar fasciitis one simple question. </b>And the question was: <b>what shoes have you already tried? </b>The answers were almost identical every single time.<br /><br />Hook 2: We asked 500 nurses over 200lbs one simple question: And the question was: <b>what shoes have you already tried? </b>The answers were almost identical every single time.<br /><br />Hook 3: We asked 500 plus-sized nurses with plantar fasciitis one simple question: And the question was: <b>what shoes have you already tried? </b>The answers were almost identical every single time<br />
+
+Most nurses start with <b>Skechers</b> because they’re affordable and the memory foam feels amazing at first.
+
+But that soft feeling disappears eight hours later.
+
+And when you’re a plus-sized nurse working twelve-hour shifts, Skechers insoles go flat under your weight when you’re on your feet all day.<br />
+
+<b>So they move on to Hokas because the massive cushioning looks impressive.</b>
+
+You see them everywhere in the hospital. Your coworkers swear by them. So you buy a pair, hoping you’ve finally figured it out.
+
+<b>But here’s what nobody tells you about Hokas</b>
+
+Those thick soles change the way your foot naturally rolls with every step, and a different rolling pattern puts more pressure on the plantar fascia, not less.
+
+And when you’re a plus-sized nurse spending twelve hours walking, turning, and standing at bedsides, you need a shoe that feels right under your own weight.
+
+<b><br />Then you’ve got On Clouds.</b>
+
+Good-looking, but expensive
+
+and that toe box is too narrow for your feet, your toes are squeezed together before your shift even starts.
+
+As your feet swell, that tight fit can become painful pressure with every step.
+
+<b>And you’re only halfway through twelve hours.</b>
+
+<br />After looking through hundreds of reviews and talking to plus-sized nurses who spend entire days on their feet, the same answer kept coming up:
+
+<b><br />ComfortWear</b>
+
+Not the fanciest or the most expensive.
+
+But it brings together the features you’ve been looking for:
+
+<b>A wide toe box</b> that gives your toes room instead of crowding them together.
+
+<b>A supportive insole</b> with arch support
+
+<b>A flexible stretch upper</b> that gives as your feet need more room throughout the day.
+
+And a lightweight feel without a huge, bulky shoe.<br />
+
+<b>That’s the difference.</b>
+
+When you’re a plus-sized nurse, you need room, support, and flexibility through twelve hours of rounds, patient care, and standing on hard hospital floors.
+
+ComfortWear brings those features together in a lightweight shoe for just under \$60. 
+
+Double the comfort of the big expensive brands, but half the cost.
+
+Right now, ComfortWear is <b>40% off with free shipping</b>, and you get <b>30 days to try them.</b>
+
+More than enough time to see how they feel through a real full day on your feet.
+
+<b>If you’re working twelve-hour shifts, these might be the most important thing you put on before you clock in.</b>
+
+<b>Tap below to shop ComfortWear.</b>
+
+## COM320 — Disney authority figure
+**Status:** Editing · **Type:** Iteration · **Format:** AI + Existing Footage · **Angle:** Comparison Disney · **Persona:** Foot Pain · **Product:** Ortho · **Offer:** 40% Off · **Month:** October · **Created:** 2026-10-13 · **Learnings:** —
+
+Hook 1: If you’re traveling to Disney, you need to see this. (similar to reference attached)<br />Hook 2: I’ve tested all these shoes at Disney World so you don’t have to. Here are my top picks (put similar hook a this: [https://www.tiktok.com/@kcplanstravel/video/7494711957090700590?q=shoes for disney&t=1791925803322](https://www.tiktok.com/@kcplanstravel/video/7494711957090700590?q=shoes%20for%20disney&t=1791925803322))<br />Hook 3:  We asked 500 women with plantar fasciitis who've been to Disney one simple question. What shoes did they wear (hook caption: WE ASKED 500 WOMEN WITH PLANTAR FASCIITIS AT DISNEY ONE SIMPLE QUESTION)<br />Hook 4:  We tested 7 of the most popular shoes to see which one actually survives a full day of Disney. What we found will change how you pack. (Hook caption: THINK YOUR SNEAKERS CAN HANDLE 20,000 STEPS AT DISNEY? WE TESTED 7 SHOES)
+
+When you're exploring Epcot, Magic Kingdom, or Animal Kingdom, you're not just walking. You're on cobblestones, climbing staircases, standing in lines, and navigating uneven ground for 8, 9, sometimes 10 hours straight.
+
+So we tested the <b>seven</b> most popular shoes people actually pack.<br /><br />First up, Nike Air Max, around \$130. Seems like the obvious choice, right? Comfortable at home, look decent enough for dinner out.
+
+Problem is, Nike built these for running tracks and gym floors, not cobblestone streets at Disney. The toe box is narrow, fine for a 45-minute run, brutal for a full day of sightseeing.
+
+By hour 5, both of our testers were looking for somewhere to sit. Their feet didn't feel tired, they felt beaten up.
+
+<b><br /></b>Next, On Cloud, \$180. Lightweight. Good-looking.
+
+But pay attention to the toe box. Triangle-shaped. Not made for your feet
+
+What felt comfortable walking through the hotel lobby in the morning can get real tight by the time it's lunch. And you've still got another park to go.
+
+<br />Next we tried Hokas, the big ones, around \$165. For the first 2 hours, honestly, they felt great.
+
+But here's how hokas fool you. going straight down, like when you're running on a flat road.
+
+On cobblestones, your foot rolls side to side with every single step, and all that foam gives you almost nothing for that. You're actually less stable than you'd be in a flatter shoe.
+
+On top of that, hokas are heavy, almost twice the weight of a normal shoe. By hour seven, you're not just fighting tired feet. Your legs are carrying that extra weight with every step you take.
+
+Our testers said their knees hurt more than their feet by the end of the day.
+
+<b><br /></b>Then you've got Brooks Ghost, \$140. Cushioned. Built for running and walking. Sounds like a sensible choice.
+
+But here's the mistake: Just because a shoe feels comfortable walking doesn’t mean it’ll feel comfortable standing in line for an hour.
+
+Disney means standing in line for an hour, walking to the next attraction, and standing again. You need to judge that comfort standing still, too. Because the line doesn't get shorter when your feet start aching.
+
+<br />Next, Skechers, \$90
+
+They're affordable, lightweight, and that memory foam feels amazing when you first put them on.<br /><br />But that's the problem nobody thinks about before Disney.<br /><br />Memory foam goes flat under your weight during the day,<br /><br />And by the end of the day, you’re standing on flat rubber with zero support<br /><br />which is actually one of the worst things for your arch.
+
+Then we tested Comfortwear. \$60, <br /><br />and this is where the tests stopped being a competition.  Comfortwear doesn't make shoes for athletes.  <br /><br />They make shoes for people whose feet have to survive real life.  <br /><br />Nurses, healthcare workers, and travelers who want to actually enjoy the trip they've been saving for.  <br /><br />The sole is firm enough to protect you from cobblestones,  but flexible enough that you're not clomping around like you're wearing hiking boots.  <br /><br />The toe box is wide.  <br /><br />Your toes can actually spread out and do their job, instead of getting crushed together after mile three.  And the arch support doesn't quit at 2 p.m.  <br /><br />It's still there at hour 9, when you're walking back from dinner along the river.  <br /><br />After a full day of testing, 22,000 steps through an old city center,  our testers all said the same thing.  Their feet didn't hurt.  Not hurt less, didn't hurt.  <br /><br />That means you're not the person cutting the day short because your feet gave out.  You're not sitting on a bench watching other people see what you flew there to see.  <br /><br />You're still going.  Right now, Comfortwear is 40% off with free shipping,  <br /><br />and you get 30 days to try them.  <br /><br />More than enough time to put them through a real trip.  <br /><br />If they don't hold up better than anything else you've ever packed, send them back.  <br /><br />But based on everything we tested, you'll never pack anything else.
+
+## COM321 — Shoes I wouldn't buy as a diabetic (250lbs)
+**Status:** Editing · **Type:** Iteration · **Format:** AI + Existing Footage · **Angle:** Diabetic Neuropathy · **Persona:** Neuropathy · **Product:** Ortho · **Offer:** 40% Off · **Month:** October · **Created:** 2026-10-13 · **Learnings:** —
+
+Hook 1: This is a 72 year old woman with diabetic neuropathy who stopped taking the basement stairs<br /><br />Hook 2: This is a 250lbs diabetic woman with neuropathy who stopped climbing stairs without railings<br /><br />Hook 3: These 3 reasons made this 72 year old woman's diabetic neuropathy worse<br /><br />Her legs were fine, her shoes are the reason.<br /><br />Every week, I see women over 70 with diabetic neuropathy wearing the same shoes.<br /><br />They bought the Hokas, New Balance, Brooks, Orthofeet<br /><br />Over \$450 spent on these shoes and they’re still struggling to feel where they are stepping.<br /><br />when their feet already burn, tingle, or feel painfully sensitive, a shoe pressing in the wrong place can become one more thing they have to tolerate.
+
+So they loosen the laces.
+
+Try a bigger size.
+
+Buy something softer.
+
+And still find themselves thinking about their feet when they wanted to be enjoying their day.<br /><br />They are watching their independence get smaller <br /><br />no wet driveways no stairs without a rail the dog walk stopped months ago their whole world is shrinking to flat dry indoor floors
+
+They start getting depressed, their health deteriorates, and they wonder if there’s anything else they can do
+
+AND THERE IS<br /><br />Here is the problem nobody explains to them.
+
+Those expensive shoes all share the same three design flaws <br /><br />and when you have already lost sensation<br /><br />Those three design flaws cost you more than they cost anyone else<br /><br /><b>Number one</b>, you need to avoid wearing shoes with a tight, tapered toe box that can cause friction or squeeze your feet. <br /><br />A blister can form. The skin can break. And when diabetic neuropathy reduces your feeling, you may keep walking without realizing there’s an injury.<br /><br /><b>Number two,</b> stiff or inflexible material that don’t let your feet breathe. <br /><br /><b>Number three,</b> what’s underneath your foot.
+
+Pay attention to where the insole touches your foot. Does the arch support fit comfortably, or feel like a lump pressing in the wrong place?
+
+Because when your feet already feel sensitive, the last thing you want is another uncomfortable pressure point.
+
+When you can’t feel your feet properly, those three choices work against you, 
+
+not for you<br /><br />ComfortWear is built the opposite way
+
+<b>ComfortWear brings together room, flexibility, and support in one shoe.</b>
+
+A wide toe box gives your toes 40% more space to spread instead of crowding them together at the front, preventing rubbing and friction.
+
+A soft, stretchy upper across the top of your foot accommodates its shape instead of forcing it against tight material.
+
+Underneath, a cushioned insole provides arch support—so you can assess both the cushioning under your heel and how the support fits your arch.
+
+And lightweight construction keeps the shoe from feeling big and bulky when you’re walking through the grocery store or heading out to meet a friend.
+
+Each feature addresses something specific.<br /><br />It’s not about trying another expensive brand <br /><br />It’s about wearing a shoe that supports what your feet are actually feeling<br /><br />Within days, diabetic women are telling us they’re taking the stairs again, walking their dogs, going outside for a walk without looking at the ground
+
+Over 500,000 women dealing with diabetic neuropathy have already made the switch to ComfortWear<br /><br />You can get up to 40% off with free shipping and 30 days to test them out!<b><br /></b>
+
+Tap below to explore ComfortWear and choose your pair.
+
+## COM322 — Heavy woman shoe test
+**Status:** Editing · **Type:** Iteration · **Format:** AI + Existing Footage · **Angle:** Overweight · **Persona:** Foot Pain · **Product:** Ortho · **Offer:** 40% Off · **Month:** October · **Created:** 2026-10-13 · **Learnings:** —
+
+Hook 1: Nobody told plus-sized women that the hokas and skechers they’re buying are literally designed for someone half their weight. Here's what finally worked<br />Hook 2: Nobody told 250lbs women that the \$180 shoes they’re buying are literally designed for someone half their weight. Here’s what finally worked<br />Hook 3: Nobody told oversized women who work on their feet all day that the shoes they buy are causing their heel pain and swelling. Here’s what finally worked.<br />Hook 4: Plus-sized women are buying \$150 hokas, \$180 Brooks, \$70 crocs and still complain about their foot pain. Here’s what finally worked 
+
+So, they tried Hoka Bondi, Skechers Memory Foam, Brooks Ghost, Asics Nimbus and spent hundreds on the most comfortable shoes out there
+
+but they all failed the same way <br /><br />the real problem?<br /><br />most popular comfort shoes you try at the store are built for running long distances, casual walking, or short-term softness<br /><br />not for women over 200lbs working long hours who need support that lasts a full day on hard floors<br /><br />Skechers felt comfortable at first, then the memory foam flattened under real pressure<br /><br />Brooks felt supportive in the store, but by midday, the heel pain came back.<br /><br />Asics felt cushioned, but the triangle-shaped narrow toe box made the swelling worse<br /><br />Hokas were comfortable for the first few days, but I noticed the thick heel caused my foot to rollover causing even more pain
+
+By the afternoon, your feet ache, your knees hurt,<br /><br />your lower back tightens,<br /><br />and you start avoiding anything that requires standing<br /><br />Walking, shopping, cooking, working,<br /><br />even basic daily activities<br /><br />start feeling harder than they should.<br /><br />That doesn’t mean your body is broken.<br /><br />It means your shoes are not giving you enough support<br /><br />under real pressure.<br /><br />That's why ComfortWear
+
+was built differently. For hard floors, long days, standing, walking, pivoting, swelling,<br /><br />and support that needs to last past hour six. <br /><br />Women who had already tried Skechers, Asics,<br /><br />Brooks, Crocs, and insoles were skeptical because they had heard every promise<br /><br />before. <br /><br />But here's what they noticed. <br /><br />Hour one. ComfortWear feels stable and supportive, but of course,<br /><br />so did their old shoes at first. <br /><br />Hour four. Still supportive, their feet didn't feel like they were sinking into their shoes<br /><br />their toes had room, their arches still felt supported. <br /><br />Hour 8. That's where ComfortWear started to feel different <br /><br />because the cushioning didn’t feel like cardboard. <br /><br />The insole felt the same as hour 1 and their feet didn't feel crushed from the swelling. <br /><br />That's the part most shoes miss. <br /><br />Heavier women don't just need shoes that feel soft in the morning, they need shoes that  still feel supportive when the day gets hard. <br /><br />Here's what makes ComfortWear different. <br /><br />Stable cushioning helps absorb pressure without that sinking feeling. 
+
+Structured arch support helps keep your feet supported <br /><br />instead of rolling inward <br /><br />a wide toe box gives your toes room to spread when your feet swell 
+
+the slip resistant sole helps keep you steady on hospital floors, restaurant floors, classrooms,<br /><br />retail floors, warehouse floors, sidewalks and hard surfaces 
+
+and the lightweight design<br /><br />means less strain with every step no stiff clog feeling no narrow running shoe squeeze<br /><br />no memory foam that feels amazing for one hour and flat by lunch just real support for plus-sized women who are tired of shoes that collapse under pressure. <br /><br />So if you're a heavier woman and your shoes keep failing halfway through the day,<br /><br />you're not crazy. You're not broken. You're not asking for too much. You just need shoes built<br /><br />to support your feet under real pressure. Try ComfortWear risk-free for 30 days and compare them<br /><br />to your current shoes. Right now, ComfortWear is up to 40% off while sizes are still in stock. <br /><br />Click the link below before this offer ends.
+
+## COM323 — Hoka vs ComfortWear for Nurses
+**Status:** — · **Month:** October · **Created:** 2026-10-13 · **Learnings:** —
+
+_(Page body is blank — no script text.)_
+
+## COM324 — The real reason your nursing shifts are getting harder
+**Status:** Editing · **Type:** Iteration · **Format:** AI + Existing Footage · **Angle:** Nurse · **Persona:** Foot Pain · **Product:** Ortho · **Offer:** 40% Off · **Month:** October · **Created:** 2026-10-13 · **Learnings:** —
+
+<br />Hook 1: The real reason nurses’ 12-hour shifts are getting harder each year, explained like you’re five.<br /><br />Hook 2: The real reason nurses’ foot pain is getting worse every year, explained like you’re five
+
+Hook 3: Skechers. Hokas. Crocs. If you’re a nurse who keeps switching shoes but still developed horrible plantar fasciitis. Watch this. Explained like you’re five.
+
+<b>Step one.</b>
+
+You need shoes that can last back-to-back 12-hour shifts on your feet.
+
+So you do what everyone does.<br /><br />Buy the Skech\*rs, buy the Hokas, wear the Crocs
+
+You try them on.
+
+Feels soft at first. Cushioned. Comfortable.
+
+Sold.
+
+But you just made a twelve-hour decision based on five minutes at the store
+
+<b>Step two.</b>
+
+Now take those shoes to work at the hospital
+
+Walking between rooms. Working the ER. Helping patients. Then answering another call light before you’ve had a chance to sit down.
+
+That quick walk around the shoe store?
+
+It didn’t test any of this.
+
+<b>Step three.</b>
+
+A few hours in, you start noticing the shoe starts feeling more flat, almost like walking on cardboard
+
+If your feet swell, the narrow toe-box can start feeling tighter, causing circulation issues
+
+Your toes press together.
+
+The top of the shoe starts digging in.
+
+You loosen the laces. Look for a chance to sit.
+
+And you still have half a shift left.
+
+<b>Step four.</b>
+
+Then you get home.
+
+Your shoes come off before you’ve even put your bag down.
+
+Dinner still needs to be made. Your family wants your attention.
+
+But all you want is a chair.
+
+So you start searching again for shoes
+
+But you don’t need another shoe that wins the first five minutes.
+
+You need to find a pair that works through a nurse's 12-hour shift.<br /><br /><b>Step five.</b>
+
+That’s where ComfortWear’s Ortho Stretch Shoes come in.<br /><br />Made by nurses, for nurses. <br /><br />Doctor-approved and worn by over 500,000+ nurses who rated them the #1 comfortable shoe for healthcare in 2026.
+
+Start with the front.
+
+A wide toe box gives your toes room, instead of crowding them.
+
+Underneath, cushioning and arch support are made to last a full 12-hour shift<br /><br />Then the upper.
+
+Soft, stretchy material stretches across the top of your foot. If your feet swell, your shoes adapt to the swelling. <br /><br />No tightness, no pain.
+
+And a lightweight design that doesn’t feel big and bulky as you move from room to room.
+
+Roomy. Supportive. Flexibility.
+
+Features you can actually see and feel.
+
+<b>Step six.</b>
+
+Now give them a real test.
+
+Your rounds. Your time standing. Your walk back to the car.
+
+Notice how they fit at the start of your shift—and how they feel at the end.
+
+Because “comfortable” should mean more than “felt nice when I put them on.”
+
+Tap below to choose your pair and get 40% off
+
+## COM325 — We made too many shoes
+**Status:** Editing · **Type:** Net New · **Format:** AI · **Angle:** Retarget · **Persona:** General · **Product:** Ortho · **Offer:** Black Friday · **Month:** October · **Created:** 2026-10-13 · **Learnings:** —
+
+Version 1: ([https://app.tryatria.com/ad/m1860283514978464](https://app.tryatria.com/ad/m1860283514978464))
+
+Put AI avatar holding our shoes + shoes being shown on a table + warehouse on the bottom. Make it EXACT same like the reference video<br /><br />HEADLINE: <br /><br />60% OFF + FREE GIFTS (put this in a circle)
+
+<b>We Made Too Much ComfortWear Shoes</b>
+
+<b>PLEASE HELP US EMPTY OUR WAREHOUSE</b><br /><br />We ordered way too many ComfortWear shoes for Black Friday
+
+Yes, we seriously overproduced.
+
+This is the last chance to get the best deal we've ever run on ComfortWear.  
+
+Get up to 60% off sitewide during our Black Friday sale
+
+If you buy 2 pairs, we’ll add 2 FREE Gifts plus FREE shipping
+
+Go take full advantage of it right now,  because once this overstock is gone, it's gone.  
+
+This is your last chance.  
+
+You're not going to find a deal like this for a very long time.
+
+Version 2: [https://app.tryatria.com/ad/m1780824789934304](https://app.tryatria.com/ad/m1780824789934304)
+
+Put hand holding our shoes (make it same like reference)
+
+Headline: 
+
+60% OFF + FREE GIFTS (put this in circle)
+
+<b>we made too many shoes 😭</b>
+
+<b>PLEASE HELP US EMPTY OUR WAREHOUSE</b>
+
+I need to publicly apologize to anyone who has bought ComfortWear before, because I lied.  
+
+I told you that was the best price you would ever get on a pair.  
+
+And then, we overproduced. 
+
+So this is the last chance to get the best sale we have ever run on our website.  
+
+Go take full advantage of the 60% off Black Friday sale right now,  because once this overstock is gone, it's gone.  
+
+This is the last chance.  
+
+You will not find a deal like this again for a very long time.
+
+## COM326 — I bought my mom a trip to Europe, she only asked for shoes
+**Status:** — · **Month:** October · **Created:** 2026-10-13 · **Learnings:** —
+
+_(Page body is blank — no script text.)_
+
+## COM327 — Podiatrist ranking shoes (different personas on hook)
+**Status:** — · **Month:** October · **Created:** 2026-10-13 · **Learnings:** —
+
+_(Page body is blank — no script text.)_
+
+## COM328 — Disney Senior Statics
+**Status:** Editing · **Type:** Net New · **Format:** AI · **Angle:** Seniors at Disney · **Persona:** Senior +65 · **Product:** Ortho · **Offer:** 40% Off · **Month:** October · **Created:** 2026-10-13 · **Learnings:** —
+
+REFERENCE AD: [https://app.tryatria.com/ad/m1968209287172840](https://app.tryatria.com/ad/m1968209287172840) 
+
+MOCKUP I CREATED WITH CHATGPT: [https://drive.google.com/file/d/17-sbl741cPeeM2yjrbV97OCo8AMlN-Fq/view?usp=drive\_link](https://drive.google.com/file/d/17-sbl741cPeeM2yjrbV97OCo8AMlN-Fq/view?usp=drive_link) —> this is to have an idea of the layout. Let’s make different images/avatars/ Disney backgrounds and Ortho Stretch colors for each variation please
+
+---
+
+<b>V1</b>
+
+<u>Headline:</u>
+
+TAKING THE GRANDKIDS TO DISNEY?<br />PACK COMFORT FOR YOURSELF, TOO.
+
+<u>Subheadline:</u>
+
+More room for swollen feet. Less pressure on crowded toes. More moments with the grandkids.
+
+<u>CTA:</u>
+
+COMFORTWEAR<br />40% OFF + FREE SHIPPING
+
+Find Your Pair
+
+<b>V2</b>
+
+<u>Headline:</u>
+
+YOU’RE OVER 65.<br />DISNEY STILL EXPECTS 20,000 STEPS.
+
+<u>Subheadline:</u>
+
+Long park days can mean tired soles and swollen feet. Give yours cushioning underfoot and extra room at the toes.
+
+<u>CTA:</u>
+
+COMFORTWEAR<br />40% OFF + FREE SHIPPING
+
+Find Your Pair
+
+<b>V3</b>
+
+<u>Headline:</u>
+
+ARTHRITIS WASN’T<br />IN YOUR DISNEY PLANS.
+
+<u>Subheadline:</u>
+
+Give sensitive feet more room: a wide toe box reduces crowding, while a stretchy upper accommodates swelling without a restrictive fit.
+
+<u>CTA:</u>
+
+COMFORTWEAR<br />40% OFF + FREE SHIPPING
+
+Find Your Pair
+
+## COM329 — COM225_Spanish Female
+**Status:** Editing · **Type:** Iteration · **Format:** AI · **Angle:** Nurse · **Persona:** Expert / Doctor · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-13 · **Learnings:** —
+
+REFERENCE AD: [https://fb.me/adspreview/facebook/2bHYbntcPEWxlOE](https://fb.me/adspreview/facebook/2bHYbntcPEWxlOE) 
+
+INSTRUCTIONS: Keep the same structure of the Doctor Avatar talking to screen, but make it a female doctor sitting at a shoe store: 
+
+> 💡 Young and attractive female doctor, around 30–35 years old, wearing an open white coat over scrubs and natural makeup. Seated inside a modern shoe store, with sneakers displayed in the background. Vertical medium shot, looking at the camera, with natural gestures and a warm, confident tone, as if she were advising a friend.
+
+---
+
+<i><b>Also, change the script so we replace some of the brands we’ve been mentioning tirelessly with new ones: </b></i>
+
+Los Hoka. 3 de 10. Tienen demasiado cojín. Para la hora 4, ya sientes que tu pie no puede sostenerte.
+
+Los Dansko. 7,8. Un clásico entre enfermeras, sí, pero la suela rígida puede sentirse poco flexible. Si prefieres que el zapato acompañe cada paso, esa sensación te puede pesar durante el turno.
+
+Los Skechers Go Walk. 8,1. No es tan mal por 65 dólares, pero para la semana 3, la suela se aplasta.
+
+Los Clove. 8,2. A decir verdad, están hechos para personal de salud. Pero si la punta te queda justa, cuando el pie se hincha durante el turno, los dedos terminan apretados.
+
+Los Brooks. 8,3. Pesados. Hacen que hasta caminar te cueste más trabajo.
+
+Por eso creamos Comfortwear. No diseñamos estos tenis para corredores de maratón. Los diseñamos para enfermeras que hacen turnos de 12 horas, donde sentarse no es una opción.
+
+Tienen punta ancha, o sea que a la hora 6, tu pie no está apretado como en una prisión.
+
+Además, soporte de arco de verdad, para que no llegues cojeando al carro al final del turno.
+
+Y la suela antideslizante para que no hagas ese pasito raro cuando el piso del hospital está recién trapeado.
+
+Y malla que respira, para que tu pie no se convierta en una criatura del pantano a mitad de turno.
+
+Las demás marcas agarraron un tenis de correr y le pegaron un sticker que dice aprobado para el trabajo. Los nuestros los hicimos desde cero, pensando en el dolor real de las enfermeras.
+
+Por eso puedes agarrar un turno extra sin que te dé pavor.
+
+Por eso las enfermeras están dejando sus Hoka de 180 dólares por Comfortwear.
+
+Si no sobreviven tus próximos 3 turnos de 12, los devuelves.
+
+## COM330 — COM284_Spanish Version
+**Status:** Editing · **Type:** Iteration · **Format:** AI + Existing Footage · **Angle:** Plus size women Disney · **Persona:** Overweight · **Product:** Ortho · **Offer:** 40% Off · **Month:** October · **Created:** 2026-10-13 · **Learnings:** —
+
+INSTRUCTIONS: translate [COM284 ](https://fb.me/adspreview/facebook/24KvdBOFri63KD4)to Spanish 
+
+Spanish script: 
+
+Les hicimos una pregunta sencilla a 500 mujeres de talla grande que habían ido a Disney: ¿qué zapatos usaron para ir a Magic Kingdom, Epcot y Animal Kingdom?
+
+Y las respuestas fueron casi idénticas todas las veces.
+
+La mayoría empieza con Skechers. Son económicos, ligeros y esa espuma viscoelástica se siente increíble cuando te los pones por primera vez.
+
+Pero ese es el problema en el que nadie piensa antes de ir a Disney. La espuma viscoelástica se aplasta bajo tu peso durante el día, y hacia la tarde, estás caminando sobre una suela chata con nada de soporte, lo cual es una de las peores cosas para el arco del pie.
+
+Después probaron los Hoka, de unos 165 dólares, porque esa enorme amortiguación se ve impresionante.
+
+Esas suelas gruesas cambian la forma en que tu pie se mueve naturalmente con cada paso, y un patrón de movimiento distinto puede ejercer más presión sobre la fascia plantar, en vez de atenuarlo.
+
+Además, los Hoka son pesados, casi el doble que un zapato normal.
+
+Para la hora del almuerzo, no solo estás lidiando con pies cansados: tus piernas cargan con ese peso extra a cada paso.
+
+Todas dijeron que les dolían más las rodillas que los pies al final del día.
+
+Luego están los Nike Air Max, de 130 dólares. Probablemente la opción más obvia. Se ven bien, son cómodos y puedes usarlos prácticamente en cualquier lugar, pero siguen siendo zapatos deportivos.
+
+Y después de horas caminando por Disney y esperando en filas, ese ajuste más estrecho puede convertirse en un problema cuando tus pies empiezan a hincharse.
+
+Lo que se sentía perfectamente bien en la mañana puede sentirse mucho más apretado para la hora del almuerzo.
+
+Después están los On Cloud, caros, a 180 dólares. Ligeros, bonitos y muy cómodos para el día a día.
+
+Pero Disney implica entre 10 y 12 horas caminando y estando de pie, incluso antes de llegar a los fuegos artificiales.
+
+Y ahí es cuando la gente empieza a darse cuenta de lo estrecha que es la puntera.
+
+Si eres una mujer que pesa más de 200 libras, necesitas un zapato de horma ancha.
+
+Entonces, ¿qué funciona realmente?
+
+Después de revisar cientos de reseñas en Reddit y hablar con mujeres de talla grande que pasan días enteros de pie, la misma respuesta aparecía una y otra vez.
+
+ComfortWear.
+
+Ni los más elegantes ni los más caros, pero resueven los problemas que realmente importan cuando eres una mujer de talla grande que pasa un día entero en Disney.
+
+La puntera es ancha para que los dedos no se aprieten entre sí cuando se te hinchan los pies.
+
+La amortiguación brinda soporte sin hacer que el zapato se sienta enorme y voluminoso.
+
+Y la tela elástica realmente les da más espacio a tus pies a medida que avanza el día.
+
+Esa es la diferencia.
+
+La mayoría de los zapatos deportivos están diseñados para correr y entrenar.
+
+ComfortWear está diseñado para mujeres de talla grande que tienen que pasar horas de pie. Y en Disney, estás caminando y de pie todo el día. 
+
+Ahora mismo, ComfortWear tiene un 40 % de descuento y envío gratis, y tienes 30 días para probarlos: tiempo más que suficiente para ver cómo se sienten durante un día completo de verdad estando de pie.
+
+Si vas a Disney, estos zapatos podrían ser lo más importante que lleves en la maleta.
+
+## COM331 — We asked 500 Housekeepers
+**Status:** Editing · **Type:** Net New · **Format:** AI + Existing Footage · **Angle:** Housekeepers · **Persona:** Housekeepers · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-13 · **Learnings:** —
+
+REFERENCE AD: [https://fb.me/adspreview/facebook/1XqjkjkCZtUVua8](https://fb.me/adspreview/facebook/1XqjkjkCZtUVua8) 
+
+Adapt that same structure to the housekeeping target. Using the doctor avatar, too. 
+
+---
+
+<b>Hook 1: </b>
+
+We asked 500 women who work in housekeeping and cleaning one simple question:
+
+What are you looking for when buying shoes?
+
+---
+
+<b>Hook 2:</b>
+
+If you clean for a living, stop taking shoe advice from people who spend their workday sitting down. We asked 300 housekeepers what kind of shoes they prefer.
+
+---
+
+<b>Hook 3:</b>
+
+If you work in housekeeping, the wrong shoes can make an eight-hour shift feel twice as long. We interviewed 400 housekeepers about the shoes they wear to work
+
+---
+
+<b>Body:</b>
+
+The same things kept coming up.
+
+Comfort. Support. And shoes they could wear through a full shift.
+
+Because cleaning one room is one thing.
+
+But cleaning rooms, climbing stairs, and walking hallway after hallway for eight hours is something else.
+
+One housekeeper told us she takes more than 20,000 steps a day.
+
+Another said she spends eight to ten hours on her feet.
+
+And roughly one in three respondents in this group reported plantar fasciitis.
+
+So “comfortable when you first put them on” isn’t going to cut it. 
+
+The real question is: how do your feet feel when there are still three hours left on your shift?
+
+First, Skechers. Around \$100
+
+A familiar name. Plenty of styles. And an easy place to start when you’re looking for comfortable work shoes.
+
+But the weakness some cleaners describe shows up later.
+
+One housekeeper said hers felt fine at first. After a couple of months, she was dealing with heel and foot pain, even outside work.
+
+Another cleaning worker said their Skechers wore out quickly.
+
+You need that comfort to hold up.
+
+Next, Hoka. Around \$175
+
+The thick cushioning makes them an obvious option when your feet already hurt.
+
+But more cushioning doesn’t guarantee you’ve found the right shoe for your shift.
+
+One housekeeper in our survey described her Hokas as heavy. And in a housekeeping discussion on Reddit, another cleaner said hers left her feet hurting after five hours.
+
+That chunky sole might feel like a cloud at first, but some people find it less stable underfoot. And when you’re moving between rooms and climbing stairs all day, a secure fit and good traction matter.
+
+Then there’s New Balance. Around \$160
+
+Another name that comes up, with plenty of people who like them.
+
+But some workers are still adding something before those shoes feel right.
+
+Extra insoles. More heel padding. Another replacement when the inserts wear down.
+
+One custodian said they replace the insoles in their New Balance work shoes twice a year…That’s another recurring expense on top of the shoes.
+
+So, what actually works? 
+
+After looking through hundreds of reviews on Reddit, and talking to houskeepers who spend hours on end on their feet, the same answer kept coming up.
+
+ComfortWear. 
+
+Not the fanciest, not the most expensive, but the one that didn’t quit after hour 5 of the shift. 
+
+A roomy toe box gives your toes space instead of squeezing them together, especially when your feet feel swollen after a long day.
+
+A stretch upper flexes across the foot for a more adaptable fit.
+
+Plus, built-in arch support and heel cushioning bring support and softness together underfoot.
+
+Most popular shoes have been designed to run, exercise, or for casual wear. 
+
+Comfortwear is designed for working women who have to stay on their feet for hours.
+
+Because when they get home, the day isn’t always over. There’s dinner to cook. Kids who need help with homework. Errands that still need to get done.
+
+Right now, Comfortwear is 40% off with free shipping, and you get 30 days to try them.  – More than enough time to see how they feel on your routine. 
+
+Your need for comfort doesn’t end when your shift does. 
+
+Tap below to find your fit and give ComfortWear a try.
+
+## COM332 — Affordable Alternative
+**Status:** Editing · **Type:** Net New · **Format:** UGC · **Angle:** Women 60+ · **Persona:** Senior +65 · **Product:** Ortho · **Offer:** 40% Off · **Month:** October · **Created:** 2026-10-13 · **Learnings:** —
+
+<b>HOOK 1 (place text in a comment box and have the VO read it aloud): </b>
+
+“I’m 67, and I’ve \$430 spent on HOKAs, Brooks, and Skechers. My feet still hurt. But I finally found a \$60 alternative that alleviated my foot pain” 
+
+<b>HOOK 2( place text in a comment box and have the VO read it aloud): </b>
+
+I’m 72 with arthritis. My daughter swears by Hokas for the cushioning, but they didn’t work for me. Any affordable recs?
+
+<b>HOOK 3 (place text in a comment box and have the VO read it aloud): </b>
+
+I’m 69 and my feet have changed. Even my old favorite sneakers squeeze my toes now. Any comfortable recs that don’t cost a fortune?
+
+<b>BODY</b>
+
+Over the last few months, I feel like I’ve tried every shoe someone’s recommended.
+
+My daughter talked me into HOKAs. Then I spotted my friend wearing Brooks and decided to try those. And the lady at the shoe store recommended Skechers.
+
+“These are what a lot of the ladies your age buy,” she said.
+
+Well, apparently my feet didn’t get the memo.
+
+The HOKAs felt soft underneath. My daughter was right about the cushioning.
+
+But the pair I bought squeezed across the front. My toes felt crowded, and that thick cushion made me feel a little wobbly when I walked.
+
+Especially on uneven sidewalks. I kept worrying I’d roll an ankle.
+
+The Brooks? My heel kept slipping.
+
+I tightened the laces, then the top of my foot felt squeezed. I kept adjusting them, but never found that comfortable spot.
+
+And the Skechers? That memory foam felt wonderful at first.
+
+Soft, cushy—I thought I’d finally found my pair.
+
+But about three weeks in, it felt flat under my feet. That lovely cushion just wasn’t there anymore. My arches were aching again.
+
+Three recommendations. Three pairs. 430 dollars.
+
+I even tried insoles. But in most of the shoes, it just left less room for my feet.
+
+Then one evening, I came across an [article ](<https://www.maturitas.org/article/S0378-5122(16)30214-6/abstract>)about how our feet can change as we get older.
+
+They can get wider, especially across the front.
+
+That caught my attention. Because that was exactly where shoes had started feeling tight.
+
+It also talked about arthritis causing pain and stiffness, and other problems, like plantar fasciitis, that can cause heel and arch pain.
+
+I ended up reading the comments.
+
+Several women were recommending a brand I’d never heard of: ComfortWear Ortho Stretch.
+
+So I looked them up.
+
+The first thing I noticed? 60 dollars a pair.
+
+After what I’d already spent, that certainly got my attention.
+
+Then I looked at the design.
+
+A wide toe box, so there’s room across the front instead of my toes being squeezed together.
+
+Built-in arch support, which interested me after all that experimenting with inserts.
+
+A slip-resistant outsole for grip.
+
+And adjustable no-tie laces, so I can get a snug fit without having to tie and untie my shoes.
+
+So I decided to give them a chance.
+
+And since they arrived, they’re the pair I keep reaching for.
+
+My toes aren’t getting squashed. My arches feel more comfortable through my errands.
+
+I’ve even noticed my knees feel less worn out afterward, and my lower back hasn’t been bothering me as much.
+
+The other day, I finished shopping and stopped to browse another store.
+
+Then I realized I hadn’t thought about my feet the whole time.
+
+After months of planning outings around when my shoes would start hurting, that felt pretty wonderful.
+
+I just wish I’d found them before spending all that money on the other three pairs.
+
+Take a look at the ComfortWear. They even have a 30-day money-back guarantee, so you can test them over a full month and see if they’re good for you. 
+
+## COM333 — Grandparents at Disney
+**Status:** Editing · **Type:** Net New · **Format:** AI · **Angle:** Senior 65+ · **Persona:** Senior +65 · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-13 · **Learnings:** —
+
+REF VIDEO: [https://app.tryatria.com/ad/m1097070429354608](https://app.tryatria.com/ad/m1097070429354608) 
+
+---
+
+<b>CONCEPT</b>
+
+A grandmother’s long-awaited Disney trip turns painful when sore feet, aching knees, and lower-back discomfort leave her watching from a bench while her family continues without her. Her grandson’s innocent question—“Why did you come if you’re just going to sit?”—brings her fear of missing memories and slowing everyone down to the surface. That night, she decides to skip the next day, until her daughter offers the spare pair of ComfortWear shoes she packed for herself. The story follows Grandma trying them and rejoining the family, ending with her daughter realizing Grandma is up ahead, keeping pace with her grandson.
+
+<b>CHARACTERS / CASTING AVATARS</b>
+
+<b>GRANDMA</b> — Lead, late 60s to early 70s.<br />Warm, proud, and excited to share the trip with her grandson. She downplays her discomfort because she doesn’t want anyone rearranging the day around her. Cast someone expressive in quiet moments; her effort to smile through disappointment matters more than tears. Practical vacation clothes, matching family T-shirt, small crossbody bag.
+
+<b>OLIVER</b> — Grandson, 6–7<br />Affectionate, energetic, and completely absorbed in the trip. He genuinely wants Grandma beside him. His hurtful question comes from confusion and disappointment, without sarcasm or cruelty. Comfortable park clothes and a favorite Disney accessory.
+
+<b>DAUGHTER</b> — Late 30s to early 40s.<br />Caring and practical, juggling her son’s excitement with concern for her mother. She notices more than Grandma realizes. She wears ComfortWear herself and packed a spare pair; her recommendation should feel casual and familiar. She and Grandma wear the same shoe size.
+
+<b>GRANDPA</b> — Late 60s to early 70s.<br />Quietly attentive, with an easy familiarity built over years of marriage. He notices Grandma’s discomfort, carries her bag, and stays beside her without making a fuss. His final glance toward Grandma and Oliver communicates his relief.
+
+<b>OLIVER’S DAD</b> — Optional supporting role, late 30s to mid-40s.<br />Relaxed and involved. Accompanies Oliver on the first ride while Grandma rests, then stays in the background during the family scenes. No essential dialogue; this role can be removed for a smaller cast.
+
+---
+
+<b>SCENE 1 \| 0:00–0:20 — THE QUESTION</b>
+
+DIALOGUE:<br />GRANDSON: “Grandma, why did you come if you’re just going to sit?”
+
+DAUGHTER: “Oliver.”
+
+GRANDMA VO:<br />“It was our first day at Disney World.
+
+I’d promised my grandson I’d sit next to him on his favorite ride.
+
+And this was the third time I’d told him, ‘The next one.’”
+
+WHAT WE SEE:<br />Grandma sits on a bench at Magic Kingdom, with Cinderella Castle visible in the background. Oliver stands in front of her, wearing Mickey ears. Her daughter turns at his comment. Grandma attempts a smile.
+
+EDITOR NOTES:<br />Open directly on the grandson’s question. Establish the Disney World setting in the first shot, then move closer for Grandma’s reaction. Keep park ambience underneath. Oliver sounds confused and disappointed, not cruel.
+
+<b>SCENE 2 \| 0:20–0:43 — THE PROMISE</b>
+
+GRANDMA VO:<br />“For months, he’d been calling to tell me the plan.
+
+The rides. The snacks. The fireworks.
+
+Every call ended the same way.”
+
+OLIVER, ON VIDEO CALL:<br />“You’re sitting next to me, Grandma.”
+
+GRANDMA:<br />“I know. You saved my seat.”
+
+GRANDMA VO:<br />“I bought walking shoes especially for the trip.
+
+They felt comfortable around the house.
+
+I thought I was ready.”
+
+WHAT WE SEE:<br />Flashback: Oliver talks excitedly into a tablet. Grandma listens from home. Later, she packs her walking shoes beside the matching family T-shirts. Grandpa packs nearby.
+
+EDITOR NOTES:<br />Keep the video call natural and slightly imperfect. Introduce restrained music. Make the packing moment feel hopeful.
+
+<b>SCENE 3 \| 0:43–1:14 — “WHAT DID YOU EXPECT?”</b>
+
+GRANDMA VO:<br />“By lunchtime, the bottoms of my feet were sore.
+
+Standing in line made my knees ache. Then my lower back started tightening.
+
+I told myself, ‘You’re almost seventy. What did you expect?’
+
+My daughter was fine. Oliver was practically bouncing.
+
+When they turned around to check on me, I smiled.
+
+Then I pretended to look in a shop window.
+
+Anything to avoid asking everyone to stop again.”
+
+WHAT WE SEE:<br />Grandma shifts her weight in a queue. She rests a hand against her lower back. Oliver points excitedly toward the next attraction.
+
+Her daughter looks back. Grandma drops her hand and smiles. Later, Grandma stops at a shop window while the family waits a few steps ahead.
+
+EDITOR NOTES:<br />Build discomfort through small gestures. Show her hiding it when someone notices. Avoid medical animations or exaggerated limping.
+
+<b>SCENE 4 \| 1:14–1:39 — THE MOMENT SHE MISSES</b>
+
+DIALOGUE:<br />GRANDMA: “Go ahead, sweetheart. I’ll be right here.”
+
+GRANDMA VO:<br />“He wasn’t trying to hurt me.
+
+He just wanted me to come.
+
+My husband stayed on the bench with me.
+
+Later, our daughter sent a video.
+
+Oliver was laughing on the ride.
+
+I watched it twice.”
+
+HUSBAND:<br />“That’s the one you were doing together?”
+
+GRANDMA:<br />“Yes.”
+
+WHAT WE SEE:<br />Return to the opening bench scene. Oliver leaves with his parents. Grandma waves, then loosens her shoes.
+
+Grandpa sits beside her. Over her shoulder, we see Oliver riding beside his dad in the phone video.
+
+EDITOR NOTES:<br />Let Oliver’s laughter play through the phone speaker. Hold on Grandma after her answer. Keep her reaction subtle.
+
+<b>SCENE 5 — “GO WITHOUT ME”</b>
+
+GRANDMA VO:<br />“That night, my knees hurt getting up from the bed.
+
+Bending to untie my shoes made my back catch.
+
+When I finally got one off, I didn’t want to put it on again.”
+
+WHAT WE SEE:<br />Grandma sits on the bed, loosening her laces. She removes one shoe and rubs the bottom of her foot. Her daughter enters and notices.
+
+DIALOGUE:<br />DAUGHTER:<br />“Your feet are still hurting?”
+
+GRANDMA:<br />“The soles are sore. And these started squeezing across here after lunch.”
+
+\[She gestures across her toes.\]
+
+DAUGHTER:<br />“Did they feel like that before we came?”
+
+GRANDMA:<br />“I only wore them around the house. I thought they’d be fine.”
+
+\[She sets the shoe down.\]
+
+“Honestly, it’s my knees and my back, too. I think a whole day here is just too much for me now.”
+
+DAUGHTER:<br />“We can take more breaks tomorrow.”
+
+GRANDMA:<br />“Take Oliver without me.”
+
+DAUGHTER:<br />“Mom…”
+
+GRANDMA:<br />“He spent half today waiting for me. I don’t want him doing that again.”
+
+EDITOR NOTES:<br />Let the daughter notice Grandma rubbing her feet before asking about them. Show the pressure point Grandma indicates. Her age remains her explanation for the overall discomfort.
+
+<b>SCENE 6 — A REASON TO TRY</b>
+
+DIALOGUE:<br />DAUGHTER:<br />“I brought those stiff sneakers last time, remember? By the afternoon, I couldn’t wait to get them off.”
+
+GRANDMA:<br />“What did you wear today?”
+
+\[Her daughter gestures toward her own shoes.\]
+
+DAUGHTER:<br />“These. ComfortWear. More room up front, and I can loosen the strap when I need to.”
+
+\[Grandma looks at them.\]
+
+GRANDMA:<br />“I could’ve used that today.”
+
+DAUGHTER:<br />“I packed a spare pair. You’re still an eight, right?”
+
+GRANDMA:<br />“Eight.”
+
+DAUGHTER:<br />“Want to try them?”
+
+\[Grandma nods.\]
+
+WHAT WE SEE:<br />The daughter shows the toe area and strap on the ComfortWear shoes she has been wearing all day. She retrieves her spare pair from the adjoining room and hands them to Grandma.
+
+EDITOR NOTES:<br />Establish the daughter wearing ComfortWear in earlier park shots. Keep this exchange conversational; save the detailed feature demonstration for Scene 7. Grandma’s interest motivates the offer.
+
+<b>SCENE 7 \| APPROX. 45 SECONDS — TRYING THEM ON</b>
+
+DIALOGUE:<br />GRANDMA:<br />“These already feel roomier across here.”
+
+\[She gestures toward her toes.\]
+
+DAUGHTER:<br />“That’s the wide toe box. And feel this.”
+
+\[She gently stretches the knit upper.\]
+
+GRANDMA VO:<br />“The fabric had some give. It didn’t feel stiff across the top of my foot.
+
+Inside, the insole felt soft under my heels, with support beneath my arches.”
+
+\[Grandma fastens the strap.\]
+
+DAUGHTER:<br />“You can adjust that if your feet swell later.”
+
+GRANDMA:<br />“And no knots to keep bending down to tie.”
+
+GRANDMA VO:<br />“She showed me the slip-resistant grip underneath.
+
+Then I stood up.
+
+I walked to the door and back while she waited.”
+
+DIALOGUE:<br />DAUGHTER:<br />“How’s the fit?”
+
+GRANDMA:<br />“Better. Nothing’s squeezing my toes.”
+
+WHAT WE SEE:<br />Grandma puts on the spare pair while seated. Intercut with close-ups of the actual product:
+
+- Her toes settling into the wide toe box.<br />• The flexible knit upper gently stretching.<br />• The Cloud Cushion insole and arch contour.<br />• Her hand fastening and adjusting the strap.<br />• The outsole tread.
+
+She walks across the room and returns to her daughter.
+
+EDITOR NOTES:<br />Continue directly from the daughter handing her the spare pair. Keep the demonstration within their conversation. Use short feature labels and avoid medical graphics. Grandma is assessing the fit, without suggesting her knee and back pain disappear immediately.
+
+<b>SCENE 8 \| APPROX. 20 SECONDS — SHE CHANGES HER MIND</b>
+
+DIALOGUE:<br />DAUGHTER:<br />“We can start with breakfast. See how you feel.”
+
+\[Grandma looks toward the family shirts laid out for tomorrow.\]
+
+GRANDMA:<br />“Don’t tell Oliver I’m staying here yet.”
+
+DAUGHTER:<br />“I haven’t.”
+
+GRANDMA VO:<br />“I’d been so sure my age meant I couldn’t do another day.
+
+I wanted to give myself a chance.”
+
+WHAT WE SEE:<br />Grandma sits back down, keeping the ComfortWear shoes on. She picks up tomorrow’s family shirt and folds it beside them.
+
+Her daughter gives her a small smile.
+
+EDITOR NOTES:<br />Keep this moment quiet. Her decision is to try joining the family. Let the shirt visually reverse her earlier decision to stay behind.
+
+<b>SCENE 9 \| APPROX. 30 SECONDS — THE NEXT MORNING</b>
+
+DIALOGUE:<br />OLIVER, IN THE HOTEL LOBBY:<br />“Grandma! You’re coming?”
+
+GRANDMA:<br />“You still saving me that seat?”
+
+OLIVER:<br />“Yes!”
+
+GRANDMA VO:<br />“We started slowly.
+
+Breakfast. The walk into the park. Our first stop.
+
+I paid attention to how my feet felt.
+
+My toes had room, and the cushioning felt comfortable underfoot.
+
+When we sat down for water, I loosened the strap a little.”
+
+WHAT WE SEE:<br />Grandma joins the family in the lobby wearing ComfortWear and her matching shirt.
+
+At the park, she walks beside Grandpa. Later, seated with the family, she adjusts the strap before continuing.
+
+EDITOR NOTES:<br />Show a realistic pace and regular breaks. Keep the product visible naturally. Any sustained comfort or mobility improvement shown must match substantiated customer experience.
+
+<b>SCENE 10 \| APPROX. 20 SECONDS — HER DAUGHTER NOTICES</b>
+
+GRANDMA VO:<br />“Then Oliver spotted the ride.
+
+He took my hand and started telling me which part was his favorite.
+
+I was listening so closely, I didn’t notice we’d walked ahead.”
+
+DIALOGUE:<br />DAUGHTER, TO GRANDPA:<br />“Where’s Mom?”
+
+GRANDPA, LOOKING AHEAD:<br />“With Oliver.”
+
+WHAT WE SEE:<br />The daughter finishes putting water bottles into her bag, then looks back toward the benches.
+
+Grandpa points ahead. Grandma and Oliver are walking together toward the attraction entrance, talking.
+
+EDITOR NOTES:<br />Echo the earlier shot of Grandma falling behind. This time, she is beside Oliver at a normal walking pace. Hold briefly on her daughter’s relieved smile.
+
+<b>SCENE 11 \| APPROX. 20 SECONDS — THE SEAT HE SAVED</b>
+
+DIALOGUE:<br />OLIVER:<br />“Grandma, this side. I saved it.”
+
+GRANDMA:<br />“Good. Show me where to hold on.”
+
+GRANDMA VO:<br />“We still took breaks that day.
+
+But I got to share the moment he’d been planning for months.”
+
+WHAT WE SEE:<br />Oliver pats the seat beside him. Grandma sits down. He shows her where to hold the safety bar.
+
+Her daughter records them from a permitted position.
+
+EDITOR NOTES:<br />Let the dialogue breathe. Bring back Oliver’s laughter from the first phone video, now joined by Grandma’s.
+
+<b>SCENE 12 \| APPROX. 30–35 SECONDS — “I WAS IN THE MEMORY”</b>
+
+GRANDMA VO:<br />“Wearing ComfortWear made the rest of that trip so much more comfortable.
+
+I could walk beside Oliver, stand with him in line, and say yes when he asked me to come.
+
+We still took breaks. But I wasn’t spending every moment wondering how soon I could sit down again.
+
+My daughter sent me another video that afternoon.
+
+This time, I was right there beside him, laughing.
+
+I’m so glad I didn’t stay in that hotel room.
+
+If you’ve got a family trip coming up, try ComfortWear before you go.
+
+I’d packed for that vacation for weeks. These were the shoes I wished I’d packed.”
+
+WHAT WE SEE:<br />Grandma and Oliver walking hand in hand. The two talking in line. A family water break where Grandma is engaged and smiling.
+
+Cut to Grandma watching her daughter’s video: she and Oliver laughing together on the ride.
+
+Finish with a family photo that includes both grandparents, followed by the product end card.
+
+EDITOR NOTES:<br />Deliver the voiceover with warmth and relief. Let Grandma’s voice catch slightly on “I’m so glad I didn’t stay in that hotel room.”
+
+Keep the music gentle through the CTA. Show the product during the final two sentences, then hold the end card.
+
+The testimonial outcome must reflect substantiated customer experience.
+
+<b>END CARD</b>
+
+## COM334 — Just wear your Dr. Scholls and hokas mom
+**Status:** Editing · **Type:** Net New · **Format:** AI · **Angle:** Seniors at Disney · **Persona:** Senior +65 · **Product:** Ortho · **Offer:** Black Friday · **Month:** October · **Created:** 2026-10-16 · **Learnings:** —
+
+Hook 1: Just wear your Dr.Scholls insoles mom. At Disney?  Nope.<br />Hook 2: Just wear your Hokas mom. At Disney? Nope.<br />Hook 3: Just wear your OnClouds mom. At Disney? Nope.
+
+Whoever says that has never spent an entire day at Epcot walking to all the attractions
+
+First, the Dr. Scholl’s insoles. Put them in my sneakers. Walked around the kitchen. Wonderful.
+
+Unfortunately, my kitchen is not Magic Kingdom where I’m walking 20,000 steps daily
+
+By lunch, my toes still felt squeezed. I’d changed what was under my feet. Same cramped shoes around them.
+
+Next, I tried the Hokas.
+
+All that cushioning. I thought, finally. These look like they’re going to last and stay comfortable.
+
+But on me, they felt clunky and by the afternoon, the foam insole had gone flat and it felt like I was walking on cardboard
+
+Then, I also tried the OnClouds.
+
+Clouds. Lovely name. Very convincing in a shoe store
+
+By three o’clock, my toes were on fire. The tight narrow toe-box doesn’t work for an older lady like me. My feet have gotten wider over the years.
+
+Then, before our next trip, my sister-in-law came over wearing these.
+
+ComfortWear shoes. 
+
+She’s been dealing with plantar fasciitis for years, and these were the first pair of shoes that had not caused her feet to flare up.
+
+I ordered a pair. Wore them around before we left for Disney.
+
+Here’s what I liked.
+
+Room at the front, so my toes weren’t squeezed and cramped.
+
+Soft, stretchy knit material at the top. Good arch support underneath and cushioning at the heel.
+
+I’d been shopping for something soft to step on. I also needed room inside the shoe.
+
+And on that trip?
+
+After lunch, we kept going.
+
+At five, my granddaughter asked for one more ride.
+
+And I said yes.
+
+No little speech about Grandma’s feet. No sending everybody ahead.
+
+That night, I was beside her for the fireworks.
+
+I spent the whole show watching her face.
+
+For once, my feet weren’t the problem
+
+Turns out, the best shoes I packed weren’t the ones everybody told me to buy.
+
+They were the ones that fit what my feet actually needed.
+
+Right now, they’re running their Black Friday sale, 60% off sitewide
+
+Tap below to check out ComfortWear.
+
+Go get back in the family photo.
+
+## COM335 — Nurses dealing with swelling
+**Status:** Writing · **Type:** Net New · **Format:** AI + Existing Footage · **Angle:** Nurse · **Persona:** Swelling · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-16 · **Learnings:** —
+
+Hook 1: If your ankles swell by hour 6, it’s because blood is pooling in your feet<br />Hook 2: Nurses dealing with swelling: replacing your shoes will help more than compression socks<br />Hook 3: We asked 500 nurses dealing with swelling one simple question. What shoes are they wearing? And the answer was always the same. Hokas or Skechers.
+
+Gravity pulls the blood down your veins because your feet are inflamed.
+
+Your toes are squeezed. The top of your shoes feel tight. And you’ve still got five hours left.<br /><br />It’s not aging, it’s not your work hours, it’s your shoes.<br /><br />The fix? <br /><br />ComfortWear Shoes<br /><br />Not those \$200 Hokas, Skechers or Onclouds.<br /><br />They’re narrow, flat, and no arch support.<br /><br />Once your feet swell, they’re so tight you can’t even get take them off.<br /><br />ComfortWear has a wide toe-box so your feet have room to spread<br /><br />And a supportive insole comfortable enough you’ll wear them every single day<br /><br />Since your feet have enough room and have the support it needs, your feet are no longer inflamed.<br /><br />This allows blood to circulate back up to your legs and stops pooling before it starts
+
+Your feet feels supported, not squeezed
+
+The swelling just stops happening
+
+You get to the end of your 12-hour shift and your feet still look normal
+
+ You’re not limping to your car
+
+You’re not icing your legs at night
+
+The wide toe-box prevents blisters
+
+The arch support keeps them comfortable
+
+Over 500,000 happy healthcare workers
+
+Some nurses own more than 4 pairs
+
+Podiatrists recommend them
+
+Because nurses actually wear them for their back-to-back 12s
+
+Unlike Hokas or OnClouds
+
+Go to [c](http://comfortorthowearl.com)omfortorthowear.com
+
+Buy today and get 40% off right now
+
+## COM336 — Testing expensive shoes on cobblestone
+**Status:** Editing · **Type:** Net New · **Format:** AI + Existing Footage · **Angle:** Travel · **Persona:** Travel · **Product:** Ortho · **Offer:** No Offer · **Month:** October · **Created:** 2026-10-16 · **Learnings:** —
+
+Hook 1: Testing expensive travel shoes on cobblestones revealed something nobody talks about<br /><br />Price doesn’t equal how comfortable or durable a shoe will be during trips to Europe<br /><br />Here’s the truth
+
+Choosing a walking shoe for travel can be overwhelming and expensive. 
+
+So, a group of travel nurses and I who go international tested them all.
+
+Over 10 miles a day. 
+
+Cobblestones in Lisbon, Barcelona, and Paris
+
+Wet streets in Edinburgh and London
+
+Long walks in Italy
+
+We broke down what actually makes a shoe survive a real Europe trip
+
+First, durability on cobblestones.
+
+When you walk on cobblestones 
+
+Every step sends a small impact up through your foot into your knees and into your hips
+
+If you buy cheap shoes like Skech\*rs, the foam insole flattens immediately on cobblestones
+
+and that’s when the real problems start
+
+Most of the big-brand shoes people buy for travelling have a soft foam that feels great in the store
+
+But flattens out by hour 4 on cobblestones
+
+You need a reinforced arch support that stays firm for at least 12 hours a day
+
+Some of the most expensive shoes I tested 
+
+Hokas
+
+OnClouds
+
+Brooks
+
+New Balance
+
+were already breaking down by day 2 
+
+Second, the narrow toe-box
+
+When you’re traveling, your feet expand half a size from the swelling alone
+
+With a narrow triangle-shaped toe-box, you’ll be limping the whole travel day
+
+You need a wide toe-box and breathable stretch material so that the shoe can expand with your feet
+
+This is where the expensive shoes fail
+
+Third, a non-slip grip for wet surfaces
+
+Lisbon cobblestones are wet, so you need a shoe that can keep you on your feet and not cause any slips or falls
+
+For women that are 60+, slipping on vacation is not an option
+
+Finally, after testing all five travel-specific shoes, only one passed every test
+
+Comfortwear.<br /><br />This is where things got interesting.<br /><br />These are designed for people who need to be comfortable on their feet for hours on cobblestones<br /><br />They have a special sole that's firm enough to protect you from cobblestones and a non-slip grip to protect you from wet surfaces<br /><br />but flexible enough that you don't feel clunky.<br /><br />The material breathes so your feet don't overheat when you're walking around all day.<br /><br />And here's the smart part.<br /><br />They look nice enough for restaurants, but are comfortable enough for eight hours of exploring.<br /><br />After testing, everyone said the same thing.<br /><br />They could walk further, longer, without their feet hurting.<br /><br />That means seeing more of the places you've dreamed about visiting.<br /><br />Right now, you can get them for 40% off with free shipping.<br /><br />Try them for 30 days.<br /><br />Perfect timing if you're planning a trip to Europe<br /><br />If they don't make travel more comfortable, send them back.<br /><br />But honestly, based on our test, you'll probably pack them for every trip.
+
