@@ -472,3 +472,603 @@ Put clip of tiktok/youtube/instagram of nurse (version 1 and version 2) working 
 
 _(Page body is blank — no script text.)_
 
+## COM255 — Physical therapist rates shoes for overweight women
+**Status:** Editing · **Type:** Net New · **Format:** AI + Existing Footage · **Angle:** Comparison · **Persona:** Overweight · **Product:** Ortho · **Offer:** No Offer · **Month:** September · **Created:** 2026-09-15 · **Learnings:** —
+
+Hook 1: PHYSICAL THERAPIST RATES SHOES FOR WOMEN 180+ LBS<br />Hook 2: PHYSICAL THERAPIST RATES SHOES FOR PLUS-SIZED WOMEN<br />HOOK 3: PODIATRIST RATES SHOES FOR WOMEN 200+ LBS
+
+Crocs, 3 out of 10. <br /><br />Easy to slip on, but that's the only benefit. Your foot slides around with every step, creating balance issues and friction. For swollen or sensitive feet, that constant movement can become surprisingly uncomfortable by the end of the day. In some cases, I’ve seen it cause blisters too<br />
+
+New Balance, 6 out of 10.<br /><br />Most models still rely on a raised heel made for running. That heel drop shifts your weight forward, increasing pressure on the front of your feet and making balance harder than it needs to be.<br />
+
+Hoka Bondi 8, 4 out of 10. <br /><br />I know people love the cushioning, but for heavier women, all that foam can actually work against you. You're standing high off the ground on a thick, soft platform that's constantly compressing underneath you. By week 4, the cushioning goes flat causing less stability and more wobbling<br /><br />Skechers Memory Foam, 2 out of 10. <br /><br />Feels amazing for the first 10 minutes in the store. Then the foam starts flattening. Once it collapses, your foot sinks into the shoe instead of being supported by it. And for women over 180 pounds, that happens even faster. You’re basically walking on cardboard by the end of the month. 
+
+ComfortWear, 9 out of 10. <br /><br />Here's why.<br /><br />First, the extra wide toe box. One of the widest you'll find on the market. Your toes can finally spread naturally instead of being squeezed together all day. For swollen feet, sensitive feet, bunions, and diabetic feet, that extra room is a game changer.<br /><br />Second, the insole with arch support.
+
+This is where ComfortWear really stood out.
+
+A lot of shoes feel incredibly soft when you first put them on, but that doesn’t necessarily mean they’ll still feel supportive hours later.<br /><br />For heavier women, this arch support means smoother, more controlled steps, and less stress on the knees, hips, and lower back.<br /><br />Third, the adaptive stretch mesh upper. As your feet swell throughout the day, the material expands with them. No rubbing, no pinching, no pressure points.<br /><br />And it's incredibly breathable, helping keep sensitive feet cooler and more comfortable.<br /><br />Fourth, the lightweight, flexible design. Most comfort shoes feel bulky and heavy. ComfortWear feels almost weightless, making walking easier and less tiring from morning to night.<br /><br />And finally, the easy closure system. No fighting with laces, no struggling to get the fit right. Just adjust once and enjoy a secure, comfortable fit every time.<br /><br />Most shoes were never designed for heavier women with swollen, sensitive feet. ComfortWear is.<br /><br />That's why so many women are finally walking longer, feeling more comfortable, and ending the day without their feet begging to come out of their shoes.<br /><br />Check the link below to see if your size is still available.
+
+## COM256 — Here are shoes I would never recommend for women over 60 traveling
+**Status:** — · **Created:** 2026-09-15 · **Learnings:** —
+
+_(Page body is blank — no script text.)_
+
+## COM257 — Can shoes help with neuropathy
+**Status:** Editing · **Type:** Net New · **Format:** AI + Existing Footage · **Angle:** Neuropathy · **Persona:** Foot Pain · **Product:** Ortho · **Offer:** No Offer · **Month:** September · **Created:** 2026-09-15 · **Learnings:** —
+
+Hook 1: if you're dealing with neuropathy, this is worth knowing<br />Hook 2:  If you’re wearing H0kas and Skechers, but still have horrible neuropathy, this is worth knowing<br />Hook 3: If you think Dr scholls or orthotics will make your neuropathy better, think again<br /><br />Neuropathy can cause burning  tingling pins and needles and extra sensitivity in your feet <br /><br />which can make every step feel uncomfortable 
+
+That’s why <b>what your feet sit inside all day actually matters.</b>
+
+ComfortWear shoes have a <b>wide toe box</b> that gives sensitive toes more room instead of squeezing them together.
+
+And underneath, you get a <b>cushioned, supportive sole</b> designed to make every step feel more comfortable throughout the day.
+
+They’re also lightweight and breathable, so your feet don’t feel trapped inside a heavy, stiff shoe.
+
+So if you’re looking for a more comfortable shoe to wear every day, these are definitely worth trying<br /><br />Right now, you can get 40% off with free 3-pack socks<br /><br />So it’s the perfect time to replace your old shoes<br /><br />Tap below to grab yours, stock is limited
+
+## COM258 — Shoes great for running, not for nurses
+**Status:** Editing · **Type:** Net New · **Format:** AI + Existing Footage · **Angle:** Comparison · **Persona:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** September · **Created:** 2026-09-15 · **Learnings:** —
+
+Hook 1: These shoes are great for running, but watch what happens when we test them like a nurse.  <br />Hook 2: The \$180 Hokas are great for running, but 500 nurses gave it a 4/10<br />Hook 3: We looked at five popular shoes that nurses wear during shifts to see which one actually helps with foot pain. And what we found was pretty surprising.<br /><br />Most recommendations you'll find online tell nurses, teachers, restaurant and warehouse workers to buy running shoes. <br /><br />Hokas, Brooks, Skech\*rs, Asics, New Balance.  <br /><br />And at first, they feel comfortable.  <br /><br />But here's what most people don't know.  <br /><br />Running shoes are engineered for forward motion.  <br /><br />They're built to absorb impact while you move into the next step.  <br /><br />But shift workers don't move like runners.  <br /><br />They stand, they crouch, they twist, they stop,  and they turn side to side all day on hard floors.  <br /><br />So instead of judging these shoes by the first 10 steps, <br /><br />we tested them the way your feet actually experience a 12-hour shift.  <br /><br />Test #1: Standing All-Day<br /><br />Soft foam feels great at first, but when you stand in one place for hours, that foam can start to compress and flatten<br /><br />Once it flattens, your heel and arch take more pressure, which can also cause knee and back pain.  <br /><br />Test #2. Twist and Turn<br /><br />Nurses aren’t just walking straight all day<br /><br />You’re constantly turning between patients
+
+We looked at five popular shoes that nurses wear during shifts to see which one actually
+
+00:04helps with foot pain. And what we found was pretty surprising.
+
+and moving around beds<br /><br />This is where a lot of running shoes struggle.  <br /><br />They're designed to move forward, not to constantly twist, turn, and pivot on hard floors.  <br /><br />Test #3. Side-to-side stability. <br /><br />If your shoe lets your foot roll inward or shift around,  your knees, hips, and back have to compensate. And that extra work means extra pain.  <br /><br />Test #4: Hour 10 support. <br /><br />Because most shoes feel good in the first few steps, the real question is, are they still supporting you when your shift is almost over?  <br /><br />That's why soft isn't the same as supportive. <br /><br />A shoe can feel like clouds in the morning,  but if it collapses, wobbles, or lets your foot roll during your shift,  <br /><br />Your body pays for it later.  <br /><br />And here's where it gets interesting.  <br /><br />ComfortWear wasn't built like a running shoe.  <br /><br />It was designed for people who spend 12+ hours standing, twisting, stopping, and walking on hard floors.<br /><br />Stable cushioning helps absorb pressure  <br /><br />Structured arch support helps keep your feet aligned.  <br /><br />The wide toe box gives your feet room when they swell.  <br /><br />And the slip-resistant outsole helps keep every step steady on real wet hospital floors. <br /><br />So if your shoes feel fine in the morning, but by the end of your shift, your heels burn, your arches ache, your knees hurt, or your back feels destroyed, the problem may not be your body. <br /><br />You may just be wearing shoes built for the wrong kind of movement.<br /><br />If you've tried the shoes everyone recommends and your feet still hurt, you owe it to yourself to try ComfortWear<br /><br />And if they don't help reduce your long-shift discomfort, send them back for every penny.
+
+## COM259 — My wife came home from her nursing shift
+**Status:** Editing · **Type:** Net New · **Format:** AI + Existing Footage · **Angle:** Wife Shoes · **Persona:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** September · **Created:** 2026-09-15 · **Learnings:** —
+
+Hook 1: My wife came home from her 12-hour nursing shift, tired, limping, complaining about her foot again, so I bought her these.<br /><br />Hook 2: So my wife works 12-hour shifts at the hospital and comes home complaining about her sore feet every night. So I saw these shoes on Instagram and TikTok, and they're highly recommended by other healthcare workers.<br /><br />Hook 3: My wife is a nurse, and I was tired of seeing her spend 100s of dollars on hokas and skechers that only lasted 2 months.<br /><br />—<br /><br />Last Sunday, I finally went through our shoe closet<br /><br />and dumped every sneaker she’s worn over the last 12 months<br /><br />I counted 6 pairs. <br /><br />Hokas, Skechers, and 4 different Crocs. <br /><br />The hokas and skechers were completely flat, zero arch support and cushioning<br /><br />The crocs had mold growing on them, <br /><br />and shes been keeping them as backup like she was going to wear them again.<br /><br />So before we bought another pair, <br /><br />I did some research to find out what podiatrists look for in nursing shoes.<br /><br />You need wide room for your toes, <br /><br />support under the arches, <br /><br />a non-slip grip, <br /><br />and something breathable that didn’t leave your feet trapped in heat. <br /><br />In the research, Hokas were rated a 5 on 10, <br /><br />Skechers 4 on 10, <br /><br />Brooks 6 on 10, <br /><br />Crocs 2 on 10, <br /><br />and ComfortWear were rated 9 on 10. <br /><br />What caught my attention was how closely the ComfortWear features matched what podiatrists were recommending<br /><br />First, a built-in arch support and cushioning <br /><br />made to withstand back-to-back 12s <br /><br />without flattening or causing foot and back pain.<br /><br />Second, a wide toe-box, <br /><br />actual room in the front with soft and flexible material around her toes.<br /><br />The upper is a lightweight, breathable odor-free knit material, <br /><br />so she isn’t hauling around a heavy shoe that’s pressing against her feet.
+
+And they have a slip-resistant outsole <br /><br />another detail that matters when you’re buying shoes for hospital floors.
+
+Honestly, if your wife is a healthcare worker, <br /><br />these are the best shoes she’s ever worn. <br /><br />And they cost less than the H0kas you’ve been buying. <br /><br />If you still see the buy button below, that means the 40% off sale is still running. <br /><br />Just click the link below and grab a pair before they sell out.
+
+## COM260 — We tested hoka vs comfortwear
+**Status:** — · **Created:** 2026-09-15 · **Learnings:** —
+
+_(Page body is blank — no script text.)_
+
+## COM261 — What happens to your shoes in the ER
+**Status:** — · **Created:** 2026-09-15 · **Learnings:** —
+
+_(Page body is blank — no script text.)_
+
+## COM262 — 3 things to do for your PF
+**Status:** — · **Created:** 2026-09-15 · **Learnings:** —
+
+_(Page body is blank — no script text.)_
+
+## COM263 — If you’re a nurse on your feet all day
+**Status:** — · **Created:** 2026-09-15 · **Learnings:** —
+
+_(Page body is blank — no script text.)_
+
+## COM264 — Nurse rating 12-hour shift shoes
+**Status:** — · **Created:** 2026-09-15 · **Learnings:** —
+
+_(Page body is blank — no script text.)_
+
+## COM265 — Teacher rating shoes
+**Status:** — · **Created:** 2026-09-15 · **Learnings:** —
+
+_(Page body is blank — no script text.)_
+
+## COM266 — As a podiatrist, menopause
+**Status:** — · **Created:** 2026-09-15 · **Learnings:** —
+
+_(Page body is blank — no script text.)_
+
+## COM267 — Woman podiatrist rates shoes for teachers
+**Status:** Editing · **Type:** Iteration · **Format:** AI · **Angle:** Teacher · **Persona:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** September · **Created:** 2026-09-15 · **Learnings:** —
+
+This is an iteration of this ad, but let’s change the avatar to a woman. Make the woman a brunette wearing a while lab coat. Keep everything else the same. <br /><br />one issue was when Vionic 7/10 is mentioned, the text and numbers are placed at the same spot. Can you make hook 1 with black purple shoe at the end and hook 2 is the original white blue. <br /><br />Here is the ad: [https://next.frame.io/share/cbae6c12-cbc8-43d2-8d71-746288260c77/view/fefd8a4b-fb41-40a6-8bc6-3372621ca7de](https://next.frame.io/share/cbae6c12-cbc8-43d2-8d71-746288260c77/view/fefd8a4b-fb41-40a6-8bc6-3372621ca7de)  <br /><br />This is the original script: <br /><br />[https://experienced-gasosaurus-9c4.notion.site/COM216-3c723caff444805698fdfce75ad2f21c](https://experienced-gasosaurus-9c4.notion.site/COM216-3c723caff444805698fdfce75ad2f21c)
+
+Hook 1: Podiatrist rates shoes for teachers with plantar fasciitis<br />Hook 2: Podiatrist rates best and worst shoes for teachers with heel pain<br />Hook 3: Podiatrist rates shoes for teachers with back pain<br />Hook 4: Podiatrist rates shoes for teachers standing on concrete and tile
+
+Skechers memory foam, 2/10<br />Hoka Bondi, 6/10<br />Oncloud Surfer , 2/10<br />Dansko clogs, 4/10<br />Vionic, 7/10<br />Crocs, 1/10<br />Barefoot shoes, 0/10, again, too flat, no support at all<br />ComfortWear Flow Hands-Free, 8/10<br />Brooks Ghost, 4/10<br />OnCloud 6, 1/10, far too flexible and lacks any sort of stability<br />Birkenstock Clogs, 2/10<br />Skechers Run Lite, 3/10<b><br /></b>ComfortWear Ortho Stretch, 10/10 , probably my favorite recommendation for plantar fasciitis. Good arch support and comfortable all year long.<br /><br />Comment the shoes you’re wearing this school year for your plantar fasciitis and I’ll create a part 3<br />
+
+## COM268 — COM204_Shoe ranking feet only_nurse
+**Status:** Editing · **Type:** Iteration · **Format:** Mash-Up · **Angle:** Nurse · **Persona:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** September · **Created:** 2026-09-15 · **Learnings:** —
+
+[https://next.frame.io/share/7dd99f9d-0e19-45c2-ae20-54d62be8db24/view/0902fe29-7158-462f-94e4-d6edb7820bdf](https://next.frame.io/share/7dd99f9d-0e19-45c2-ae20-54d62be8db24/view/0902fe29-7158-462f-94e4-d6edb7820bdf)<br />Iteration of this ad, but make these changes: <br /><br />- The colorful text is a bit confusing. For the score + price, can you put it in white background color and black font for the text<br />- Make the brand + product name bigger than rest of text <br />- Put a bit more space between Product Name + Price/Rating + Description<br />
+
+We’re adding more shoes to this creative now: <br /><br />Hoka Bondi \$165 - 6.5/10 <br />comfortable for first 2 hours, but the insoles go flat and lose cushioning<br /><br />Skechers Memory Foam \$80 - 2/10<br />soles ripped off the shoe 3 weeks in, and the heels were rubbing against my feet and caused blisters<br /><br />Brooks Ghost \$149 - 7/10<br />comfortable for the ER rush, but toe-box is wayy too narrow. Made my bunions worse
+
+<br />On Cloudmaster \$189 - 7.5/10<br />looks stylish, but not comfortable considering the price. Very slippery on wet floors ☹️<br /><br />Asics Gel 1130 - \$120 - 6/10<br />comfy for 4 hours, but they look kind of ugly and no arch support<br /><br />Crocs - \$50 - 4/10  →<i> for [editor], use black crocs color here</i><br />cheap, and wide, but the holes are risky and they’re not comfortable at all
+
+<br />Dansko Kasi Clogs - \$100 - 7/10<br />lightweight and slip-resistant, but not comfortable for 12 hours<br /><br />ComfortWear Ortho Stretch - \$59 - 9/10 <br />Very comfortable for back to back 12s. Arch support, wide toe box and non-slip. Bought 2 pairs to rotate!
+
+## COM269 — As a floor nurse
+**Status:** Editing · **Type:** Net New · **Format:** UGC · **Angle:** Nurse · **Persona:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** September · **Created:** 2026-09-17 · **Learnings:** —
+
+Hook 1:  I've been a floor nurse for nine years and I only just found out why my feet never actually got better. <br /><br />Hook 2: Hokas, skechers and nike are running a scam on nurses. Let me tell you why<br /><br />Hook 3: Nurses, listen to this one. I stopped spending \$150 every 4 months on shoes, and my foot pain got better.<br /><br />I work 12 to 16 hour shifts usually, and my feet f\*\*\*ing hurt. <br /><br />I've tried the compression socks. <br /><br />I wear hokas and i’ve tried skechers and crocs, but after every shift, and honestly even halfway through, my feet were hurting so bad that it literally hurt to walk. <br /><br />I would get four hours into my shift and I would just feel this pressure and pain just shooting up my leg. <br /><br />But when I started calling in sick because the pain was so bad, that's when I'd honestly had enough. <br /><br />I wasn't going to leave a career I love because of foot pain. <br /><br />Popping painkillers before clocking in and soaking my feet every single night just so I didn't have to spend my days off recovering on the couch. <br /><br />It doesn't fix the real problem. <br /><br />And the only reason I broke out of that cycle is because a senior nurse who's been on the floor for 20 years saw me limping<br /><br />She pulled me aside and told me that every new pair of shoes we buy just restarts the same cycle because the foam collapses under a nurse's weight. <br /><br />I've kept the insole from my old shoes just to show you how flat they got. <i>(← this part, take out the insoles from an old shoe and show how flimsy and worn out they look)</i><br /><br />Running shoes are made for running, not 12 hours standing at a med cart or walking on hard vinyl. <br /><br />The foam doesn't get a chance to bounce back so it stays squished and it stays flat permanently. <br /><br />She told me to stop wasting money on the big brand shoes because they want us to keep buying new pairs every few months. They’re running a scam<br /><br />She told me she started wearing ComfortWear, they’re a small brand, but made for nurses specifically<br /><br />I tried them and oh my lord they are no joke. <br /><br />The difference was instant. <br /><br />These are actually built to push back up against your weight all day instead of pancaking. <br /><br />So it stops your foot from flattening out and keeps your heel from slamming into the hard bottom of your heels. <br /><br />It literally feels like you're standing on a shock absorber.<br /><br />This is actually the second pair that I've bought because I need a pair to work and a pair to run errands. Hell, I might even get a pair for wearing them at home.<br /><br />I'm linking the official page down below for you. <br /><br />They're actually running a 40% off sale at the moment and giving away 3 pairs of socks if you buy 2 pairs. <br /><br />Just make sure to buy it before they sell out.
+
+## COM270 — Cartoon Nurse can’t work, daughter can’t go to uni
+**Status:** — · **Created:** 2026-09-22 · **Learnings:** —
+
+_(Page body is blank — no script text.)_
+
+## COM271 — Nurses, why your PF keeps getting worse
+**Status:** — · **Created:** 2026-09-22 · **Learnings:** —
+
+_(Page body is blank — no script text.)_
+
+## COM272 — 3 things we redesigned for nurse shoes
+**Status:** — · **Created:** 2026-09-22 · **Learnings:** —
+
+_(Page body is blank — no script text.)_
+
+## COM273 — Teacher dress shoes conspiracy
+**Status:** Editing · **Type:** Net New · **Format:** AI + Existing Footage · **Angle:** Teacher · **Persona:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** September · **Created:** 2026-09-22 · **Learnings:** —
+
+Hook 1: Schools have changed almost everything in the last 70 years… except one ridiculous rule that may be making teachers' feet miserable<br /><br />Hook 2: For decades, teachers were told leather shoes looked professional. Nobody stopped to ask whether it’s causing foot pain that’s making teaching harder<br /><br />Hook 3: Teachers need to protest against wearing leather dress shoes at school just because they were designed to look professional. Never designed for what teachers actually do all day.<br /><br />—.<br /><br />Teachers are standing, running around on tile, linoleum, and concrete floors.
+
+For six, sometimes 12 hours at a time.
+
+And that's where the problem starts.
+
+Because a lot of traditional dress shoes give your feet almost the exact opposite of what foot specialists recommend when you're standing all day.
+
+A narrow front that squeezes your toes together.
+
+Tight material doesn't adapt when your feet start swelling.
+
+A hard sole between your heel and the classroom floor.
+
+And very little support underneath the arch.
+
+So what do podiatrists actually recommend for teachers?
+
+First, proper arch support
+
+After hours of standing on hard classroom floors, your plantar fascia can get overworked causing heel pain, which is why good arch support matters.
+
+Second, cushioning underneath the heel.
+
+Not a giant marshmallow running shoe like Hoka or Brooks<br /><br />Enough protection between your heel and the floor to absorb some of the impact from the hard classroom floor.
+
+Third, room for your foot to spread.
+
+Especially through the toes.
+
+Because teachers' feet don't stay the same size from first bell to last bell.
+
+They can swell throughout the day.
+
+So forcing them into a narrow shoe just creates more pressure which can cause extra strain on your lower back<br /><br />Teachers in public schools have been recommending ComfortWear. It’s a shoe designed for teachers. 
+
+Look at the difference.
+
+Instead of a leather upper, this material stretches around your foot as it changes throughout the school day.
+
+Instead of squeezing everything into a pointy dress-shoe shape, there's a roomy toe box that gives your toes space.
+
+Underneath, you've got structured arch support to help distribute pressure across the foot.
+
+You have cushioning between your heel and those hard classroom floors.
+
+And the non-slip sole still gives you the grip and stability you need when you're moving around the wet hallway
+
+But here's what matters for teachers.
+
+They don't look like giant running shoes.
+
+They don't look like orthopedic shoes.
+
+They're simple, clean, and professional enough to wear in front of a classroom.
+
+So if your school expects you to look professional, you shouldn't have to choose between that...
+
+and being able to walk comfortably when the final bell rings.
+
+After testing ComfortWear, every teacher who tried them said the same thing. <br /><br />They could stand longer, <br /><br />move faster, without their feet, knees, or back hurting. <br /><br />That means more energy for their students, and more leftover for themselves at the end of the day. <br /><br />Try them. You will thank yourself later. Believe me.
+
+## COM274 — African American Filipino 807 Iteration
+**Status:** Editing · **Type:** Net New · **Format:** AI + Existing Footage · **Angle:** Nurse · **Persona:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** September · **Created:** 2026-09-22 · **Learnings:** —
+
+I would like you to make this EXACT same ad again, but change the woman to:<br /><br />Version 1: African american black woman 40s<br />Version 2: Filipino woman in her 40s
+
+## COM275 — Dr Adams Asked 500 teachers
+**Status:** Editing · **Type:** Net New · **Format:** AI + Existing Footage · **Angle:** Teacher · **Persona:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** September · **Created:** 2026-09-22 · **Learnings:** —
+
+Hook 1: This is why I tell my patients who are teachers to stop wearing leather dress shoes to school
+
+Hook 2:  This is why I tell my patients who work at elementary schools to stop wearing Birkenstocks and Danskos<b><br /></b><br />Hi, I’m Dr. Adams.<br /><br />For the past 20 years, I’ve asked 500 teachers dealing with foot, knee, and back pain <br /><br />what shoes they were wearing to school.<br /><br />Leather dress shoes<br /><br />Birkenstocks<br /><br />Danskos<br /><br />Big-name expensive shoes that cost \$120, even \$150, even \$250 A PAIR
+
+And usually, they tell me the exact same story
+
+“Our school expects us to look professional so we have no choice but to work with sore feet”
+
+The problem is…
+
+Most traditional dress shoes were designed around appearance.
+
+Not around standing on hard classroom floors for 10-12 hours.
+
+Most teachers have no idea how much their footwear<br /><br />affects their long-term health.<br /><br />The wrong shoes don't just cause sore feet.<br /><br />They can contribute to plantar fasciitis, lower back pain, knee pain and chronic depression
+
+Leather dress shoes give you that polished, professional look right away
+
+Birkenstocks give you a wide, roomy fit and a cork footbed.
+
+Danskos look like professional, supportive shoes
+
+And yes, all three can seem like a good choice at the beginning of the school day.
+
+But the professional look is not good enough for a long day at school
+
+Because by hour six, seven, or eight...
+
+you’ve been standing on hard classroom floors for most of the day.
+
+Your arches are tired.
+
+Your heels are sore.
+
+Your feet have started to swell.
+
+So I started looking at a much more important question<br /><br />Which shoe is built around what a teacher's feet actually need at the end of a long day at school<br /><br />Number one, you need an arch support<br /><br />that still feels supportive by the end of the day<br /><br />Number two, wide toe box that has room for your feet<br /><br />as they swell.<br /><br />Number three, cushioning without feeling<br /><br />like your foot is sinking into a pillow.<br /><br />Number four, a lightweight shoe<br /><br />that doesn't make tired legs work even harder.<br /><br />And finally, a non-slip grip for the wet hallways and cafeteria.<br /><br />And that's when one thing became very clear.
+
+The best teacher shoe isn’t the one that feels good at 8:00 in the morning.
+
+It’s the one that still feels good when that last bell rings.
+
+And after all of our research, one brand consistently stood out.
+
+ComfortWear.
+
+Here’s why.
+
+Number one, they’re actually affordable for teachers.
+
+Right now, they’re under \$60 a pair.
+
+That makes them far more affordable than expensive dress shoes or premium clogs that can cost well over \$200.<br /><br />Number two, they're built for people who spend all day on their feet. <br /><br />Number three, they provide excellent arch support,<br /><br />helping reduce stress associated with<br /><br />and plantar fasciitis, tired feet, and long hours of standing.<br /><br />Number four, they have cushioning underneath the heel.<br /><br />Enough to reduce the impact of the concrete and linoleum floor from each step you take.<br /><br />Number five, they have a roomy-wide toe box,<br /><br />giving your toes the space they need<br /><br />ComfortWear is one of the highest-rated comfort shoes available.<br /><br />Over 500,000 teachers choose Comfortwear<br /><br />because they deliver all-day cushioning<br /><br />without sacrificing support.<br /><br />If you're looking for a shoe<br /><br />that can actually get you through the school year without any foot pain,<br /><br />this is one of the best options I've seen.<br /><br />Try them for yourself.<br /><br />If you're not completely satisfied,<br /><br />you're protected by their 30-day money-back guarantee.<br /><br />So what are you waiting for?<br /><br />Click the link below<br /><br />and give your feet the relief they deserve.
+
+## COM276 — Song AI cartoon Nurse plantar fasciitis losing job
+**Status:** Editing · **Type:** Net New · **Format:** AI Song · **Angle:** Nurse · **Persona:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** September · **Created:** 2026-09-23 · **Learnings:** —
+
+If your heel feels like a fire when you get out of bed...
+
+then starts burning halfway through a 12-hour shift...
+
+that’s your foot warning you before the pain gets bad enough to take you off the floor.
+
+Which means I lose my job.
+
+I’m the only income.
+
+My daughter can’t go to Penn State.
+
+She’s been dreaming about it since she was 12.
+
+My name is Linda.
+
+Nurse for 25 years.
+
+Right heel started hurting first thing in the morning.
+
+Wake up at five...
+
+step out of bed...
+
+sharp pain straight through my heel.
+
+First just in the morning.
+
+Then after work.
+
+Then halfway through my shift.
+
+Kind of a problem when standing for 12 hours is how you make a living.
+
+Tried the inserts.
+
+Didn’t work.
+
+Stretching.
+
+Ice.
+
+Pain relievers.
+
+Then I bought the \$180 running shoes everyone at the hospital recommended.
+
+HOKAs.
+
+Brooks.
+
+Big thick cushioning.
+
+Felt amazing at first.
+
+Four hours into my shift...
+
+same pain.
+
+The doctor told me if it kept getting worse...
+
+I’d have to cut back my hours and stay off my feet.
+
+Made it to my car before I started crying.
+
+Because cutting my hours means cutting my paycheck.
+
+And cutting my paycheck means telling my daughter...
+
+the school she’s worked toward for years might not happen.
+
+But I wasn’t gonna let that be the answer.
+
+Not with my daughter’s future on the line.
+
+I went home determined to find something better.
+
+Went home.
+
+Did the research.
+
+That’s when it clicked.
+
+I kept buying shoes because they felt soft.
+
+But soft wasn’t what my feet needed.
+
+I needed support under my arch.
+
+Cushioning under my heel.
+
+Room for my feet when they swell.
+
+And something that still supports me at hour twelve...
+
+not just hour one.
+
+Then another nurse texted me:
+
+“You need to see these.”
+
+They’re called ComfortWear.
+
+Built specifically for healthcare workers who work back-to-back 12s.
+
+Structured arch support.
+
+Wide toe box.
+
+Cushioned heel.
+
+Stretchy upper.
+
+Lightweight.
+
+Slip-resistant.
+
+I wore them for one 12-hour shift.
+
+Then another.
+
+Then another.
+
+And I stopped limping back to my car.
+
+I picked up an extra shift again.
+
+I didn’t have to choose between my feet...
+
+my paycheck...
+
+and her tuition.
+
+ComfortWear.
+
+30-day guarantee.
+
+Wear them through real shifts.
+
+If they’re not right for you...
+
+get your money back.
+
+Don’t wait until your heel decides how much longer you can keep working.
+
+## COM277 — 3 red flags why nurses bunions
+**Status:** — · **Created:** 2026-09-23 · **Learnings:** —
+
+Hook 1: Three red flags your nursing shoes are making your bunion pain worse...
+
+Hook 2: <br /><br />and what to change before your feet stay deformed forever
+
+As a podiatrist, I see these all the time in nurses working back to back shifts in the wrong shoes
+
+I went down a rabbit hole about bunions last night and what I found genuinely scared me. <br /><br />Ok, so I came across this video about bunions in healthcare
+
+and I cannot stop thinking about it.
+
+The red bump one got me.
+
+Because I always thought that discomfort on the side of my foot just meant:
+
+“My shoe rubbed a little.”
+
+Apparently...
+
+if you take your shoe off after work and that bunion is bright red...
+
+hot...
+
+or has a deep shoe mark pressed straight across it...
+
+your shoe has been pushing against that same spot for hours.
+
+And when you’re on your feet for a 12-hour shift...
+
+that pressure doesn’t get a break.
+
+That was red flag number one.
+
+Red flag number two got me even more.
+
+Your shoe feels fine when you clock in...
+
+but by lunch, it suddenly feels two sizes smaller.
+
+You loosen the laces.
+
+Pull at the sides.
+
+Maybe even slip your heel out when you’re charting just to give your foot some room.
+
+I thought that was normal.
+
+But your feet can swell through a long shift.
+
+And if you’re already starting the day with your bunion pressed against a narrow toe box...
+
+there’s nowhere for that swelling to go.
+
+So by hour eight...
+
+that little bump feels like it’s being squeezed in a vise.
+
+And then there’s red flag number three.
+
+This is the one nurses ignore the longest.
+
+You start changing how you walk.
+
+You roll onto the outside of your foot.
+
+You take shorter steps.
+
+You avoid pushing off through your big toe because that spot hurts.
+
+You don’t even realize you’re doing it.
+
+You just know that by the end of the shift...
+
+your foot is burning...
+
+your leg feels tired...
+
+and you cannot wait to rip that shoe off.
+
+And that’s when I realized something.
+
+I kept blaming my bunion.
+
+But I never asked whether my shoe was giving it any room.
+
+Because you can’t make a bunion disappear with a shoe.
+
+But you CAN stop forcing that bunion into a stiff, narrow space for 12 hours a day.
+
+So I started looking for something different.
+
+A wide toe box...
+
+so that bump isn’t jammed against the side of the shoe.
+
+A stretchy upper...
+
+so the material gives when my foot swells instead of digging into it.
+
+Support underneath the arch...
+
+so my foot feels supported through long hours of standing.
+
+Cushioning underneath the heel...
+
+without feeling like I’m sinking into a giant pillow.
+
+And something light enough that my shoes aren’t making tired legs work even harder.
+
+That’s when another nurse showed me ComfortWear.
+
+And the first thing I noticed was the toe box.
+
+Room.
+
+Actual room.
+
+My big toe wasn’t being shoved inward.
+
+That bunion wasn’t grinding against a hard seam.
+
+And the upper stretches.
+
+So instead of a stiff shoe pressing harder and harder as my feet swell...
+
+the shoe gives with my foot.
+
+There’s structured support underneath.
+
+Cushioning for those hard hospital floors.
+
+They’re lightweight.
+
+And there’s slip-resistant grip underneath for wet hallways and hospital floors.
+
+But the biggest difference for me?
+
+At the end of my shift...
+
+I wasn’t desperate to tear my shoes off.
+
+No angry red pressure mark carved across my bunion.
+
+No feeling like the side of my foot had been trapped in a clamp all afternoon.
+
+And I wasn’t spending the last few hours of my shift thinking about every single step.
+
+If any of those red flags sound familiar...
+
+the red, irritated bump after work...
+
+your shoes getting tighter as the shift goes on...
+
+or changing how you walk just to avoid pressing on that bunion...
+
+don’t just keep buying the same narrow shoes and hoping this pair will be different.
+
+Give your foot some room.
+
+ComfortWear gives you 45 days to try them through real shifts.
+
+Hour one.
+
+Hour six.
+
+Hour twelve.
+
+The link is below.
+
+## COM278 — I’m your plantar fasciitis
+**Status:** Editing · **Type:** Net New · **Format:** AI · **Angle:** PF Nurse · **Persona:** Plantar Fasciitis · **Product:** Ortho · **Offer:** No Offer · **Month:** September · **Created:** 2026-09-23 · **Learnings:** —
+
+ I'm your plantar fascia and every stretch is tearing me more.  <br /><br />Let me show you what's actually happening inside your foot right now.  <br /><br />If you don't deal with me, your body starts compensating.  <br /><br />Your gait changes, your knees break down, then your hips, then your lower back.  <br /><br />One woman ignored her heel pain for two years.  <br /><br />She ended up needing a walker at 58.  <br /><br />She was an active nurse working back to back 12 hour shifts<br /><br />she just didn't take me seriously until it was too late.  <br /><br />But if you understand what's actually causing this, you can get me back under control.  <br /><br />Most people, even doctors, think plantar fasciitis is inflammation.  <br /><br />So everything they throw at me is built to fight inflammation.  <br /><br />Ice, anti-inflammatories, cortisone shots, stretching.  <br /><br />We all attack inflammation!  <br /><br />But here's what the research shows.  <br /><br />I'm only inflamed for the first four weeks.  <br /><br />After that, I become something worse.  <br /><br />Tissue degeneration.  <br /><br />I barely get any blood flow, even when I'm healthy.  <br /><br />Once I'm damaged, blood flow drops even further.  <br /><br />No blood means no healing, no oxygen, no nutrients.  <br /><br />So every step tears you more.  <br /><br />You get weaker, you tear easier, you get even more weaker.  <br /><br />Scientists call this the degenerative spiral.  <br /><br />Once I'm trapped in it, I just keep breaking down until I can barely hold your weight without pain.  <br /><br />That's why you've been suffering, and that's why nothing you've tried has worked.  <br /><br />Stretching, ice, insoles, they were all designed for inflammation.  <br /><br />I don't have inflammation anymore.  <br /><br />I have degeneration.  <br /><br />The real problem is mechanical.  <br /><br />Stop the tearing and restore the blood flow.  <br /><br />And I can finally do what I've been trying to do all along.  <br /><br />That's exactly what this doctor built  <br /><br />A podiatrist named Dr Adams spent 20 years treating plantar fasciitis.  <br /><br />She watched her own mother lose her independence to it.  <br /><br />Nothing worked, so she built something herself.  <br /><br />That’s me. I’m ComfortWear’s Ortho Stretch Shoe. <br /><br />And I’m built differently from the running shoes most nurses are told to wear.<br /><br />I work in 5 ways. 
+
+First, my structured arch support. <br /><br />Think of it like an extra hand underneath your foot so your plantar fascia isn’t doing all the work by itself.<br /><br />Second, that’s my cushioned sole<br /><br />I sit between your sensitive heel and the hard floor <br /><br />I help soften the impact of every step.
+
+Third, look at the front of me, that’s my roomy toe box<br /><br />When your toes are squeezed together, your foot has less room to spread naturally<br /><br />I give them space<br /><br />So as you stand, walk, and your feet swell<br /><br />Your foot isn’t being crushed inside a narrow shoe while your plantar fascia is already in pain
+
+And finally, I’m lightweight.<br /><br />Because when your heel hurts, every extra bit of effort matters. <br /><br />I’m not here to make tired feet and legs drag around a heavy shoe for another six hours<br /><br />This support will allow blood flow to feed the tissue
+
+It will stop the tearing<br /><br />The degenerative spiral finally starts to turn the other way<br /><br />I will give your foot something it desperately needs during a long shift. <br /><br />Most people forget they're even wearing me within minutes.  <br /><br />The change comes in stages.  <br /><br />Day one, <br /><br />you feel the support instantly.  <br /><br />The ache starts to fade.  <br /><br />Week one, that stabbing first step out of bed softens.  <br /><br />Month one, for many people, the pain is gone completely.  <br /><br />Over 500,000 people have already broken out of the degenerative cycle.  <br /><br />Now it's your turn.  <br /><br />Right now, ComfortWear is 40% off.  <br /><br />And you're backed by a 30-day money-back guarantee.  <br /><br />Wear me for a full month.  <br /><br />If you don't feel lasting relief, you get every cent back.  No questions asked.  <br /><br />Your fascia won't rebuild itself.  <br /><br />Tap below and let ComfortWear fight your plantar fasciitis for you.
+
+## COM279 — #1 reason nurses quit
+**Status:** Editing · **Type:** Net New · **Format:** AI + Existing Footage · **Angle:** Nurse · **Persona:** Plantar Fasciitis · **Product:** Ortho · **Offer:** No Offer · **Month:** September · **Created:** 2026-09-23 · **Learnings:** —
+
+Hook #1: What's the number one reason nurses are forced to quit after 50?<br />Hook #2:  80% of nurses in America quit nursing by 50<br />Hook 3: In the 1940s, nurses would continue working till their 60s. In 2026, 90% of nurses quit by age 50. Why?<br /><br />I'll give you a hint, it’s not because they suddenly stopped loving nursing<br /><br />Look down, this is a human foot.  <br /><br />26 bones, 33 joints, over 100 muscles,  ligaments and tendons, all working together to support you every time you stand, walk, and move.<br /><br />When your feet starts hurting, you change the way you walk, your knees compensate, Then your lower back pays the price<br /><br />Go back to the 1940s…and nurse shoes looked very different. Simple, low profile, supportive where you need them, no foot pain, no complaining<br /><br />Then somewhere along the way…we did this<br /><br />Modern shoes are narrow, heavy, stacked with giant foam.  <br /><br />They squeeze your toes into a triangle and call it support.  <br /><br />They bury your feet in cushioning and add \$180 price tag on it.<br /><br />The damage shows up as foot pain, plantar fasciitis,  knee pain, back pain.  <br /><br />It's not your age, it's the shoe you’re wearing that’s not meant for a 12-hour hospital shift<br /><br />So we asked ourselves a question.  <br /><br />What if a nursing shoe was actually shaped around what happens to a nurse’s foot?  <br /><br />Wide where your toes need to spread  <br /><br />Flexible where your foot needs to flex<br /><br />Supportive enough for your arches<br /><br />Cushioned underneath your heel<br /><br />Stable enough for wet hospital floors<br /><br />This is ComfortWear, a shoe made ONLY for healthcare workers. <br /><br />Nurses who thought they had to retire are working past 50, nurses who were turning down overtime because of foot pain are picking up more shifts.<br /><br />Right now, buy a pair for 40% off and we’ll let you test them out for 30 days risk-free.  Link below.  We really want you to try them.
+
+## COM280 — Built shoes for nurses
+**Status:** Editing · **Type:** Net New · **Format:** AI + Existing Footage · **Angle:** Nurse · **Persona:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** September · **Created:** 2026-09-23 · **Learnings:** —
+
+Hook 1: Most nurse shoes are built the same way they were 20 years ago.  <br />Hook 2: Most shoes nurses wear were never designed around what happens to your feet during a 12-hour shift<br />Hook 3: Nurses are buying Nikes, Hokas, and Skechers, but they’re not made for 12-hour shifts.<br /><br />So, we started it over.  <br /><br />Every shoe nurses are buying does three things wrong.  <br /><br />First, the toe box is always too narrow.  <br /><br />Your toes get squeezed together, making your bunions worse<br /><br />Your feet can swell during a long shift. Your toes need more room.<br /><br />So we built a wider toe box.  Your toes spread naturally, and your foot has room when it swells.<br /><br />Second, the shoe industry confused soft with supportive.<br /><br />Step into a giant foam running shoe at the store and it feels great for the first 15 minutes.<br /><br />But softness and support are not the same thing. <br /><br />You need structured arch support to help support those long hours of standing.<br /><br />Then heel cushioning to help soften the pounding from tile, concrete and hospital floors.<br /><br />Your body aligns properly.  <br /><br />Your calves stop being cooked.  <br /><br />Thick foam feels soft in the store but flatten during back to back 12 hour shifts<br /><br />Your feet lose support, your back starts hurting, and now you’re struggling to finish your shift<br /><br />So we built firm Ortho Stretch by ComfortWear.  <br /><br />A shoe built around what nurses actually do.<br /><br />Wide toe box.  Arch Support. Heel Cushioning.  No crushed toes.  No calf pain.  No 12-hour shift pain.  And zero compromises.  That's ComfortWear.  And that's what we built.  Get your pair at [c](http://curt.com/)omfortorthowear.com.
+
