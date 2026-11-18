@@ -1,0 +1,66 @@
+{
+  "id": "SB47_D3_grandma_keeps_up",
+  "version": 1,
+  "created": "2026-11-18",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style: first-person captions, real shots, music only, no voiceover, ~10-14 s + end card; 9:16 with content inside 4:5.",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_eb61c86fb3624996ad4f455c459db4ba",
+  "link": "https://comfortorthowear.com/pages/the-5-best-shoes-for-disney",
+  "cta": "SHOP_NOW",
+  "angle": "Grandparent identity and pride in keeping pace with energetic children across long park days",
+  "format": "Multi-Generational / Family Stamina",
+  "based_on": "StefanBrain concept SF_D3: Touches the core emotional fear of older women (55-68) being a burden or missing out on key family memories due to heel pain.",
+  "primary_text": "Making memories with your grandkids shouldn't mean spending your afternoon stuck on a park bench. Comfort Wear's Ortho Stretch Cushion Shoe cushions every step with targeted arch support, shock-absorbing heels, and easy slip-on elastic laces. Black Friday Sale: 60% OFF + 2 FREE GIFTS, free shipping, and a 30-day money-back guarantee. Order today before holiday inventory runs out!",
+  "headline": "Walk All 4 Disney Parks With Zero Heel Throbbing",
+  "caption_style": "white rounded box, black text (TikTok classic box), one static caption",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/soft_acoustic_80bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "grandma": "drive:1WUCYA4k0L2DthOD_TuO0n_yeRfgHBQkM",
+    "shoes": "drive:1Jj0OStvW1kZ8-c_tbb5jzMyDv30QOaQC",
+    "castle": "drive:1EYu2PGz_wtCz2Qyzc6T871Sc7mOSDZCq"
+  },
+  "clips": [
+    {
+      "src": "grandma",
+      "in": 3.0,
+      "out": 7.5,
+      "gain": 0
+    },
+    {
+      "src": "shoes",
+      "in": 1.0,
+      "out": 3.6,
+      "gain": 0
+    },
+    {
+      "src": "castle",
+      "in": 3.0,
+      "out": 6.5,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        2
+      ],
+      "text": "Told my daughter I wouldn't slow down the grandkids at Magic Kingdom. *25,000 steps* later and my heels never throbbed once! 👟👵",
+      "style": "box",
+      "size": 50,
+      "width": 0.84,
+      "y": 0.3,
+      "fade": 0
+    }
+  ]
+}

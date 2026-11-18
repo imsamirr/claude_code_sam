@@ -1,0 +1,86 @@
+{
+  "id": "SB47_D5_stop_packing_three_pairs",
+  "version": 1,
+  "created": "2026-11-18",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style: first-person captions, real shots, music only, no voiceover, ~10-14 s + end card; 9:16 with content inside 4:5.",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_eb61c86fb3624996ad4f455c459db4ba",
+  "link": "https://comfortorthowear.com/pages/the-5-best-shoes-for-disney",
+  "cta": "SHOP_NOW",
+  "angle": "Contrarian travel advice calling out shoe overpacking and naming OnClouds, Brooks, and Skech*rs directly",
+  "format": "Travel Hack / The Multi-Pair Trap",
+  "based_on": "StefanBrain concept SF_D5: Disney travelers obsessively research what shoes to pack. Naming major competitor brands immediately validates their packing dilemma and positions Comfort Wear as the single complete solution.",
+  "primary_text": "You don't need to stuff three different pairs of sneakers into your suitcase hoping one will work. Comfort Wear's Ortho Stretch Cushion Shoe delivers all-day arch support, heel cushioning, and non-slip traction in a lightweight slip-on you can wear across all four parks. Black Friday: 60% OFF + 2 FREE GIFTS, free shipping, and a 30-day money-back guarantee. Tap Shop Now to claim this limited-time offer!",
+  "headline": "The Only Shoes You Need For A 4-Park Disney Trip",
+  "caption_style": "TikTok Classic: white text, thin black outline (script captions)",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/park_whimsical_100bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "gate": "drive:19qIYuWH-aavMOkWlg_PQCf9zUFByH6A1",
+    "stephanie": "tiktok:7634338191922728206",
+    "peoplemover": "tiktok:7499239485348105515"
+  },
+  "clips": [
+    {
+      "src": "gate",
+      "in": 4.0,
+      "out": 7.5,
+      "gain": 0
+    },
+    {
+      "src": "stephanie",
+      "in": 2.5,
+      "out": 6.5,
+      "gain": 0,
+      "zoom": 1.2,
+      "focus_y": 0.0
+    },
+    {
+      "src": "peoplemover",
+      "in": 4.5,
+      "out": 7.6,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clip": 0,
+      "text": "Stop packing OnClouds, Brooks, and Skech\\*rs for Disney... 🧳",
+      "style": "classic",
+      "font": "classic",
+      "size": 58,
+      "width": 0.86,
+      "y": 0.3
+    },
+    {
+      "clip": 1,
+      "text": "This *one pair of stretch slip-ons* lasted all 4 parks!",
+      "style": "classic",
+      "font": "classic",
+      "size": 58,
+      "width": 0.86,
+      "y": 0.3
+    },
+    {
+      "clip": 2,
+      "text": "*27,000 steps* a day and my feet felt incredible 🥳",
+      "style": "classic",
+      "font": "classic",
+      "size": 58,
+      "width": 0.86,
+      "y": 0.3
+    }
+  ],
+  "source_notes": {
+    "gate": "Main Street POV walk-in (arrival); replaces StefanBrain's 'driving up to the gate' clip, already used in V46_02"
+  }
+}

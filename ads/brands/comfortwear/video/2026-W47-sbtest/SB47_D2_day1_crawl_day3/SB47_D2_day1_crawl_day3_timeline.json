@@ -1,0 +1,25 @@
+{
+ "total": 15.333,
+ "scenes": [
+  {
+   "src": "crawl",
+   "start": 0.0,
+   "end": 3.267
+  },
+  {
+   "src": "feet",
+   "start": 3.267,
+   "end": 6.5
+  },
+  {
+   "src": "friends",
+   "start": 6.5,
+   "end": 8.5
+  },
+  {
+   "src": "_end_card",
+   "start": 8.5,
+   "end": 15.333
+  }
+ ]
+}

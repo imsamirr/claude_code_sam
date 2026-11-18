@@ -1,0 +1,25 @@
+{
+ "total": 16.733,
+ "scenes": [
+  {
+   "src": "grandma",
+   "start": 0.0,
+   "end": 4.367
+  },
+  {
+   "src": "shoes",
+   "start": 4.367,
+   "end": 6.7
+  },
+  {
+   "src": "castle",
+   "start": 6.7,
+   "end": 9.9
+  },
+  {
+   "src": "_end_card",
+   "start": 9.9,
+   "end": 16.733
+  }
+ ]
+}

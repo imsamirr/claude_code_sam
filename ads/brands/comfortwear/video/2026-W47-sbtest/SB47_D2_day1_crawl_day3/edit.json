@@ -1,0 +1,89 @@
+{
+  "id": "SB47_D2_day1_crawl_day3",
+  "version": 1,
+  "created": "2026-11-18",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style: first-person captions, real shots, music only, no voiceover, ~10-14 s + end card; 9:16 with content inside 4:5.",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_eb61c86fb3624996ad4f455c459db4ba",
+  "link": "https://comfortorthowear.com/pages/the-5-best-shoes-for-disney",
+  "cta": "SHOP_NOW",
+  "angle": "Visual contrast between brutal Day 1 sneaker agony and energetic Day 3 stamina in arch support shoes",
+  "format": "Expectation vs Reality / Multi-Day Contrast",
+  "based_on": "StefanBrain concept SF_D2: The extreme visual of crawling at Epcot immediately stops the scroll on Reels and TikTok, while the dance payoff proves physical endurance.",
+  "primary_text": "Theme park pavement takes no prisoners. The Comfort Wear Ortho Stretch Cushion Shoe is built for heavy walking with built-in arch support, deep heel cushioning, and a flexible stretch knit that expands with your feet all day long. Black Friday Offer: 60% OFF + 2 FREE GIFTS, free shipping, and our 30-day money-back guarantee. Tap below to claim yours today!",
+  "headline": "The Park Shoe Plus-Sized Travelers Swear By",
+  "caption_style": "bold white shadow text, *yellow highlight* key phrase (script captions)",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/upbeat_pop_vlog_105bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "crawl": "drive:1Jv0NoQ1N3hmcsZ-G5UExEWEeQSue0Ebz",
+    "feet": "drive:1T78AKSgn3t9ZW8rTYcvYR9qTqS5guTiY",
+    "friends": "drive:1T7RbC29qY1KVQNVn1R-12HB0x0CovXUb"
+  },
+  "clips": [
+    {
+      "src": "crawl",
+      "in": 0.0,
+      "out": 3.4,
+      "gain": 0
+    },
+    {
+      "src": "feet",
+      "in": 0.5,
+      "out": 4.0,
+      "gain": 0
+    },
+    {
+      "src": "friends",
+      "in": 5.5,
+      "out": 7.8,
+      "gain": 0,
+      "zoom": 1.32,
+      "focus_y": 1.0
+    }
+  ],
+  "captions": [
+    {
+      "clip": 0,
+      "text": "Day 1 in regular sneakers: crawling to the exit 💀",
+      "style": "shadow",
+      "font": "inter",
+      "weight": "ExtraBold",
+      "size": 58,
+      "width": 0.86,
+      "y": 0.3,
+      "shadow": 0.9
+    },
+    {
+      "clip": 1,
+      "text": "Day 3 in *stretchy arch-support* Comfort Wears:",
+      "style": "shadow",
+      "font": "inter",
+      "weight": "ExtraBold",
+      "size": 58,
+      "width": 0.86,
+      "y": 0.3,
+      "shadow": 0.9
+    },
+    {
+      "clip": 2,
+      "text": "Still dancing after *26,000 steps* on concrete! 🏰",
+      "style": "shadow",
+      "font": "inter",
+      "weight": "ExtraBold",
+      "size": 58,
+      "width": 0.86,
+      "y": 0.3,
+      "shadow": 0.9
+    }
+  ]
+}
