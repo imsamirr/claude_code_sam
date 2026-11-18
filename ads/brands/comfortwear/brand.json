@@ -13,7 +13,7 @@
   "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
  ],
  "claims_to_avoid": [
-  "money-back guarantee, free/easy returns or fast shipping (top complaints in reviews and the survey)",
+  "free/easy returns or fast shipping (top complaints in reviews and the survey)",
   "'orthopedic approved', 'podiatrist recommended', 'doctor recommended' or any cure/treatment claim",
   "specific review counts or star ratings unless confirmed"
  ],
@@ -341,5 +341,8 @@
   "project_id": "proj_59a994cdb82b45a4b43afb8ba51c357a",
   "session_prefix": "comfortwear",
   "note": "StefanBrain writes the concepts and copy for the weekly short-form batch (winner-video-batch skill step 4, ads/stefanbrain.py shortform) and the static batches. Brand knowledge lives on the StefanBrain product (files) and project (instructions)."
- }
+ },
+ "approved_claims": [
+  "30-DAY MONEY-BACK GUARANTEE (user-approved 2026-11-18, same as the statics; always 30 days, never 45)"
+ ]
 }
