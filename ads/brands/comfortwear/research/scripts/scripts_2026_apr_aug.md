@@ -4378,3 +4378,1009 @@ Don't start another school year limping. Walk into your classroom on day one on 
 
 ---
 
+## COM178 — 4 Shoes Make Plantar Fasciitis Worse for 60+
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Plantar Fasciitis · **Creator type:** Senior +65 · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-05 · **Learnings:** —
+
+Hook 1: Here are 4 shoes I see women over 60 wearing every single day that are quietly making their plantar fasciitis worse. And most of them have no idea.
+
+Hook 2: After testing different shoes for women with plantar fasciitis, only one actually stopped the sharp pain in the morning.
+
+Hook 3: Women over 60 are spending $185 on New Balance and $165 on Hokas trying to fix their plantar fasciitis. The $60 pair at the end beat them both.
+
+Number 1. Skech*rs Go Walk. They feel incredible the moment you put them on. That's exactly the problem. That soft foam compresses flat within an hour. And once it's flat, there's nothing left holding your arch up. So your plantar fascia takes the full load of every step. It stretches. It tears. And the pain comes right back. Feels like a pillow in the morning. Feels like a bruise by dinner.
+
+Number 2. Hoka Bondi, or any shoe that's all soft cushion. All that cushion feels like protection. But there's no firm arch underneath it, so your foot sinks and rolls inward with every step, pulling on the fascia over and over. Plus it's heavy, so your legs tire faster. Women spend close to $200 hoping to fix their heel pain. Most come back worse.
+
+Number 3. Brooks Ghost, These are built for one thing. A great running shoe, but that's the problem. It's built to flex and bend through the middle so you can run, and a shoe that bends through the arch gives your fascia nothing firm to rest on while you stand.
+
+Number 4. New Balance and the shoes everyone calls 'supportive.' They look sturdy. They feel solid. But the footbed under your arch is flat, and the cushion is soft and generic. There's no real arch shape doing any actual work. It feels supportive in the store. But by afternoon, it felt like walking on cardboard.
+
+So what do I actually point women toward? The same thing every time. ComfortWear Ortho Stretch.
+
+Firm, built-in arch support that holds its shape all day. Your plantar fascia finally gets to rest instead of stretching with every step.
+
+Deep cushioning right under the heel. That first painful step out of bed in the morning stops making you wince.
+
+Support that doesn't collapse and doesn't go rigid. Your feet feel as held-up at hour eight as they did at hour one.
+
+Wide toe box with a soft stretch upper. Your toes spread out and your feet have room as they swell, instead of getting squeezed by afternoon.
+
+And because the upper stretches, they slip right on. No bending over, no fighting with laces to start your day.
+
+The women who switch tell me the same thing within weeks. Less pain. More time on their feet. Less bracing for that next step.
+
+If your plantar fasciitis keeps coming back despite "supportive" shoes, look at what's on your feet first. ComfortWear Ortho Stretch is at the link below. Check your size before they're gone.
+
+---
+
+## COM179 — Iteration | TOFv1_HF7 | Kyro369v2 hook2 | Song
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** AI · **Angle:** Travel Angle · **Creator type:** Travel · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-05 · **Learnings:** — · (hooks only; body is the reference video "2026s Best Shoes For Travel")
+
+Reference: (video embedded on page).
+
+| Shot | Script | Visual |
+|---|---|---|
+| Hook 1 | (Replicate the hook of the reference) | Replicate this style of ad: (Facebook Ad Library link) |
+| Hook 2 | I spend $60 on these shoes for my trip to Rome and I regret not buying them sooner | |
+| Hook 3 | Think sneakers are the most comfortable shoes for travel? <br><br>We tested five of the most popular ones to find out | |
+
+---
+
+## COM180 — She's Not Retired. She's On Disability.
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Disability · **Creator type:** Neuropathy · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-06 · **Learnings:** —
+
+Hook 1: She's not retired. She's on disability. And most nights, her feet are on fire from her neuropathy
+
+Hook 2: Over 5,000 of you told us the same thing, my neuropathy made me go on disability. I was forced to retire and now I can’t afford supportive shoes.
+
+Hook 3 : THE SHOE MARKET HAS COMPLETELY IGNORED WOMEN ON DISABILITY WITH NEUROPATHY (reference: Atria ad link)
+
+Body:
+
+If you have neuropathy, you know the feeling. The burning. The pins and needles. The numb patches, and then the stabbing out of nowhere. Feet that are somehow numb and painful at the same time.
+
+And here's what nobody tells you: the wrong shoe makes all of it worse. A tight toe box presses right on the nerves that are already inflamed. Thin, hard soles wear out your feet by lunch.
+
+So you go looking for relief, and you find $150 "diabetic" shoes, $200 H0kas, and $400 orthotics your disability check was never going to cover. $1,540 a month doesn't stretch to $150 shoes. It just doesn't. You’re focused on covering basic needs, not buying premium shoes.
+
+That's why we made the ComfortWear Ortho Stretch. Built for sore, sensitive, neuropathy feet, and for a real budget.
+
+Designed specifically for neuropathy and keeping you comfortable.
+
+First, the wide toe box. Traditional shoes squeeze your toes together.  ComfortWear’s toe box is wide and open, so nothing squeezes the nerves that are already inflamed. Your toes just get to breathe.
+
+Second, The upper is a soft stretch knit with a breathable material. Nothing digs in, nothing rubs, and it gives your feet space when they swell. Most shoes have a stiff material that keeps your feet sweaty and confined, we’re like a pillow for your feet.
+
+Third, just look at this woman walking. The cushioning is supportive, so every step feels like walking on clouds instead of pounding on concrete.
+
+This doesn’t feel like a medical shoe, it feels like the most comfortable shoe you’ve ever worn, because it is.
+
+And the price? $59 right now. Not $150. Not $400. $59— because that's what your budget allows, and pain relief shouldn't be a luxury. They're HSA/FSA eligible, too.
+
+Here's the part that matters just as much: they don't look like medical shoes. No beige, no velcro, no "orthopedic" stamped down the side. They're stretch-knit and comfortable. They look like something you'd actually want to wear.
+
+Over 500,000 feet already served. You get 30 days — if they don't bring your feet some relief, send them back for every penny.
+
+You didn't choose neuropathy. You didn't choose the disability check. But you can choose what's on your feet tonight. ComfortWear is at the link below — $59 while the sale's on.
+
+---
+
+## COM181 — First Year Teacher
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-06 · **Learnings:** —
+
+Hook 1: As a first year teacher, nobody warned me about the foot pain that comes with it.
+Hook 2: 85% of teachers develop plantar fasciitis their first year of teaching.
+Hook 3: As a first year teacher, I tested 4 of the most popular shoes for foot pain, and the results might surprise you
+
+Body:
+
+I had no idea that standing on concrete floors and linoleum would wreck my feet by lunch. Someone on reddit was saying that I might have plantar fasciitis. I’d never even heard of that.
+
+So, I tried 4 different brand of shoes, spent $800 and only 1 ended up making my feet feel better.
+
+First shoe I tried were Nike’s. They seem like the obvious choice, right? Wrong! They feel great at the store, super cushiony, but by hour 2, the insoles go flat, and that stabbing pain comes back.
+
+2nd shoe were Skech*rs, now these are the ones all the teachers wear. Cheap, but not supportive! Comfortable for the first week, but they only lasted 1 month before collapsing. The memory foam completely flattened and didn’t bounce back. So everyday, by the first recess, my feet felt wrecked.
+
+3rd shoe, and these were really pricey, Hokas. Chunky sneakers, with padding. These felt amazing through homeroom and first period. But they're actually too cushiony for teaching. All that bounce makes you unstable when you're bending down to a student's desk. Also they look like recovery shoes, not classroom shoes, and they wear your legs out faster when you're walking miles of hallway on duty.
+
+Then, finally, I decided to give these internet shoes a try. They’re called ComfortWear. I saw a few teachers recommend them so I gave it a try.
+
+It's the only one in the test that wasn't built for a runner, a lab, or a weekend. It was built for people who stand on hard floors all day, like nurses and teachers.
+
+It’s got an insole that has an arch support that moulds to the shape of your feet. A wide toe-box for feet that swell throughout the day, and a non-slip grip for those wet hallways. They’re also breathable and lightweight. These have been the most comfortable throughout the 8 hours of teaching.
+
+Right now they're 40% off with a 30-day guarantee, over 500,000 people have switched. Protect the body that has to teach in it. Tap below.
+
+---
+
+## COM182 — Teacher Story Text Video
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-06 · **Learnings:** —
+
+**Variation 1:**
+
+**1st Slide**
+
+I ordered these because they were cute and on sale. This is my 3rd year teaching and my foot pain has gotten so bad. These have a built-in arch and ankle support.
+
+I’ve worn them every day this week and my feet feel better than they have in months. not even being dramatic 😭
+
+from @shopcomfortwear
+
+**2nd Slides**
+
+I bought these thinking they were just regular shoes. wore them for a full day of teaching and my feet actually didn;t hurt?? like at all??
+
+**Variation 2:** (use different shoe colors here or different scenes)
+
+**1st Slide**
+
+I’m on a substitute teacher salary, so I ordered these because they were cute and on sale. Ever since I started teaching elementary, my plantar fasciitis has gotten so bad. These have a built-in arch and ankle support.
+
+I’ve worn them every day this week and my feet feel better than they have in months. not even being dramatic 😭
+
+from @shopcomfortwear
+
+**2nd Slides**
+
+I bought these thinking they were just regular shoes. wore them for a full day of teaching and my feet actually didn;t hurt?? like at all??
+
+**Variation 3:** (use different shoe colors here or different scenes)
+
+**1st Slide**
+
+I’m a 20-year veteran teacher with plantar fasciitis, so I ordered these because reddit said they were supportive and comfortable. These have a built-in arch and ankle support. I got to use my HSA/FSA on them as well!
+
+I’ve worn them every day this week and my feet feel better than they have in months.
+
+from @shopcomfortwear
+
+**2nd Slides**
+
+Better than the Hokas and Skechrs. Best part is that it’s half the price. with free returns available. Its a no brainer
+
+---
+
+## COM183 — Teacher Slide Carrousel
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-06 · **Learnings:** —
+
+Make 2 versions of this;
+
+version 1:  **A video SLIDESHOW**
+version 2: Send me the seperate slides seperately
+
+Slide 1 (attached above):
+
+What’s the teaching shoe this year?? One that’s cute, comfortable, and helps with foot pain!!! I’ve already tried the 5  most popular shoe brands.
+
+Swipe to see my review →
+
+Slide 2 (Put Doc Martens):
+
+**Doc Martens (2/10)** is the "style trap", cute with everything, but the brutal break-in and hard flat sole make it a disaster on concrete. weeks of blisters. zero cushion.
+
+Slide 3 (Put Brooks):
+
+**Brooks (4/10)** the running-store special. Amazing for running, but no arch support and very narrow. Brutal for standing and walking all day on concrete.
+
+Slide 4 (Hoka):
+
+**Hokas (5.5/10):** felt like walking on clouds for the first period, but the foam went flat, and I wobbled to the bus stop at the end of the day. Super super expensive. Not good for teacher salary
+
+Slide 5 (SaS shoes)
+
+**SAS (7/10)**: All the 20 years+ teachers swear by them. They look like a old person shoe, but they’re actually supportive. But they weight a ton, and cost a fortune.
+
+Slide 6 (ComfortWear Shoes)
+
+**ComfortWear (9/10):** ok, these actually get it. Built for standing all-day. Actually comfortable, and has a wide toe-box for my bunions. It stretches when my feet swell too. I’m pregnant…so that’s helpful. HSA friendly too!
+
+---
+
+## COM184 — Overweight Teachers | Short video
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-06 · **Learnings:** —
+
+Reference: (video embedded on page).
+
+| Timestamp | Voiceover | Visual Description |
+|---|---|---|
+| Hook | I'm a teacher on my feet 8 hours a day, and I weigh 180 pounds. | Teacher, 40s, in her classroom after the bell, sitting on the edge of her desk, easing off one shoe. |
+| Hook | Because of my job and my being overweight, standing all day teaching classes sometimes turns into unbearable foot pain. | Show an overweight teacher, that can’t walk comfortably. |
+| Hook | I weigh 180 pounds and work as a teacher all day, every day, on my feet. <br><br>At the end of each day, I beg my husband for a foot massage so I can go back to work the next day. | Show an overweight teacher, with foot pain. |
+| Body | Every step lands harder. <br>By second period my feet are already begging for a chair. | POV of her feet on linoleum mid-lesson. Quick cut: hand rubbing the ball of her foot under the desk. |
+| Body | So after doing a lot of research, I switched to these sneakers from a brand called Comfort Wear. <br><br>They have wide toe box, real arch support, a heel cushion actually built to absorb impact. | She flexes a black ComfortWear shoe in her hands, presses the heel cushion, wiggles her toes in the wide toe box. |
+| Body | And I swear my feet just stopped being the loudest part of my day. I can FINALLY focus on the kids again. | She walks confidently between rows of desks, kneels to help a student, gets back up easily. |
+| Body | 30 days to try them. <br>If they don't hold up, send them back. | End Card of the product |
+
+---
+
+## COM185 — Overweight Teachers | Long video
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-06 · **Learnings:** —
+
+Reference: (video embedded on page).
+
+| Shot | Voiceover | Visual Description |
+|---|---|---|
+| Hook | I'm a teacher and I'm on my feet all day, but this year I gained a lot of weight and it's given me foot pain I can barely handle. | Teacher, 40s, sitting on the edge of her desk after the last bell, easing off one shoe, rubbing the ball of her foot. Empty classroom, natural light. |
+| Hook | The shame of gaining so much weight this past year, plus the foot pain it causes, means I barely have it in me to go to work anymore. <br><br>I want to quit teaching, the thing I actually love doing. | |
+| Hook | Sometimes I cry in the school bathroom because the foot pain is too much, and I feel like I can't keep standing there, teaching one more class. | |
+| Body | By second period my feet are already sore, and by the end of the day, I'm basically just counting down to my car. | POV looking down at her feet on linoleum mid-lesson. Wall clock reads 1:20. Cut to her the next morning, sitting on the edge of her bed, wincing slightly on the first step. |
+| Body | I've bought so many pairs trying to fix it:<br><br>Cute flats, that are flat by lunch. <br><br>Running shoes that felt great in the store but became useless 3 hours into actually teaching. <br><br>I even threw inserts in my old sneakers and it barely helped, the shoe itself just wasn't holding me up. | Overhead shot of a tote bag tipped over on her desk, shoes spilling out: ballet flats, running shoes, a pair with visible gel inserts sticking out. She holds one shoe, presses the flattened sole. |
+| Body | Another teacher of my school told me about Comfort Wear, said they're actually built for people who are on their feet all day and need more support than a regular shoe gives you, so I figured why not. | POV of feet in black ComfortWear walking past student desks. Brand name appears on screen. She turns the shoe over in her hands at her desk, curious. |
+| Body | The toe box has real room in it so nothing's squeezed, the heel cushion actually absorbs the impact instead of just sitting there, there's real arch support, and the top stretches with me instead of digging in. | Close-ups: she flexes the shoe, presses a thumb into the heel cushion, wiggles her toes in the wide toe box, stretches the knit upper with two hands. |
+| Body | I'm still teaching the same hours, nothing about my day changed, I just don't cry about my feet anymore. <br><br>And those first steps in the morning don't hurt like they used to… | She kneels easily to help a student at a low desk, stands back up without bracing on anything. Walks out the school door at the final bell, steady pace, no limp. |
+| Body | You get 30 days to try them, and if your feet don't feel a difference you can just send them back. | Clean product shot, three colorways. On-screen text: 500,000+ customers · 4.8★ · 45-day money-back · Free shipping. |
+
+---
+
+## COM186 — I Bought My Wife These Shoes | Short video
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-06 · **Learnings:** —
+
+Reference: (video embedded on page).
+
+| Shot | Voiceover | Visual |
+|---|---|---|
+| Hook | My wife's a first grade teacher, and every night around 6 she's just on the couch rubbing her feet before she can even say hi to me. | Husband, to camera, casual living room, phone-shot. Cut to wife on the couch in the background, unlacing her shoes, rubbing one foot. |
+| Hook | I got tired of watching my wife limp in from work every day, so I did something about it. | |
+| Hook | I bought this for my wife, a first grade teacher, and in just 30 days her back and foot pain eased up more than I expected. | |
+| Body | She's up the second that first bell rings, standing at the board, walking the rows, hallway duty, recess duty, 8 or 9 hours on a hard floor, and she barely gets to sit down. | B-roll: wife teaching at the whiteboard, walking between desks, standing at the classroom door during passing period, standing on the blacktop at recess. |
+| Body | I watched her go through shoe after shoe trying to fix it… <br>Cute flats that looked fine for a photo and killed her by lunch,<br><br>sneakers that were great for walking the dog and useless standing still on tile all day. | Close-ups of different shoes: flats and sneakers in a closet pile. Wife shifting her weight at the whiteboard, slightly wincing. |
+| Body | By Friday she wasn't just tired, she was short with the kids, short with me, and she'd say it herself: 'It's my feet. I can't think about anything else, sorry' | Wife at the kitchen table after school, head resting on her hand. Husband setting down a cup of coffee next to her. |
+| Body | So I start doing research, and read a reddit thread talking about these shoes from Comfort Wear.<br><br>What sold me was the toe box, it's actually got room in it so nothing's squeezed after hours on her feet. <br><br>The heel's cushioned enough that the floor stops hitting back. | Husband holding the shoes up to camera. Presses his thumb into the heel cushion. Flexes the wide toe box. Stretches the knit upper to show the give. |
+| Body | The first week she wore them, she came home and just sat down normal, no wincing, no immediately kicking them off, and she told me she forgot her feet even hurt that day. | Wife walking in the door after school, sitting on the couch normally, smiling. Husband in the kitchen doorway, watching, smiling too. |
+| Body | I'm not saying a shoe fixes everything, but if your teacher, your nurse, whoever's standing on their feet all day is coming home like that, it's worth trying, +500,000 people already have and you get 30 days to send them back if they don't work. | Clean product shot. On-screen text: 500,000+ customers · 4.8★ · 45-day money-back. Wife lacing up the shoes in the morning, smiling, heading out the door. |
+
+---
+
+## COM187 — I Bought My Wife These Shoes | Long video
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-06 · **Learnings:** — · (note: despite the "Long video" title, this page holds the shorter cut of COM186)
+
+Reference: (video embedded on page).
+
+| Timestamp | Voiceover | Visual |
+|---|---|---|
+| Hook | My wife's a teacher, and every night she's on the couch rubbing her feet before she even says hi. | Husband, to camera, phone-shot. Wife on the couch in the background, unlacing her shoes, rubbing one foot. |
+| Hook | I got tired of watching my wife limp in from work every day, so I did something about it. | |
+| Hook | I bought this for my wife, a first grade teacher, and in just 30 days her back and foot pain eased up more than I expected. | |
+| Body | 8 hours on her feet, hard floors, barely sits down, and I watched her go through shoe after shoe that just didn't help. | Quick cuts: wife teaching at the whiteboard, walking between desks, a pile of old shoes in the closet. |
+| Body | So I start doing research, and read a reddit thread talking about these shoes from Comfort Wear.<br><br>The toe box actually got room in it so nothing's squeezed after hours on her feet. <br><br>The heel's cushioned enough that the floor stops hitting back. | Husband holds the shoes to camera. Presses the heel cushion. Flexes the wide toe box. |
+| Body | The first week, she came home and just sat down normal, said she forgot her feet even hurt. | Wife walking in the door after school, sitting on the couch normally, smiling. |
+| Body | +500,000 people already tried them, you get 30 days to send them back if they don't work. | Product shot. On-screen text: 500,000+ customers · 4.8★ · 45-day money-back. |
+
+---
+
+## COM188 — COM51 | Iteration 1
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-07 · **Learnings:** — · (hook iterations on COM51; rest of the ad = original footage)
+
+Reference: (video embedded on page).
+
+| Shot | Script | Visual |
+|---|---|---|
+| Variation 1 | Overweight teachers spend 8 hours a day on hard classroom floors **(In red, same as the original)**<br><br>We tested the 5 most popular shoes for educators **(In white, same as the original)** | Use footage of overweight teachers, then use the same footage as the reference. (short link) |
+| Variation 2 | Teachers with arthritis spend 8 hours a day on hard classroom floors **(In red, same as the original)**<br><br>We tested the 5 most popular shoes for educators **(In white, same as the original)** | Use footage of teachers with arthritis, then use the same footage as the reference. (short link) |
+| Variation 3 | Older teachers with arthritis spend 8 hours a day on hard classroom floors **(In red, same as the original)**<br><br>We tested the 5 most popular shoes for educators **(In white, same as the original)** | Use footage of Old teachers, then use the same footage as the reference. (short link) |
+
+---
+
+## COM189 — COM51 | Iteration 2 | Older teachers
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-07 · **Learnings:** —
+
+Reference: (video embedded on page). Column notes: **Use big captions like in this video:** (short link) · **During the whole ad, use footage from WOMEN +60**
+
+| Timestamp | On-Screen Text / Voiceover | Visual Description |
+|---|---|---|
+| Hook | Veteran teachers spend 8 hours a day on hard classroom floors, year after year. <br><br>So we tested the 5 most popular shoes worn by educators over 60. | |
+| Hook | After 30 years of teaching, most educators can barely feel their feet by 2 PM. <br><br>So we tested the 5 most popular shoes older teachers wear to see which one finally fixes that. | |
+| Hook | The average teacher walks 4 miles a day on concrete and linoleum, and after decades on your feet, that adds up.<br><br>So we tested the 5 most popular shoes for veteran educators to find out which ones actually hold up. | |
+| Hook | N1kes, H0k4s, Birk3nst0ck$, Cr0cs are the 4 shoes you'll see in any teachers' lounge. <br><br>We tested all of them on real classroom days to see which one actually works for teachers with decades of standing behind them. | |
+| Body | And the results might surprise you.<br><br>If you've spent years, maybe decades, running a classroom… | The scene cuts to a silver-haired teacher smiling as she sets up her room before the bell, sliding on her shoes. A wide shot of a busy elementary classroom mid-lesson. Then a packed hallway during a passing period. |
+| Body | …you're not really walking. You're standing on concrete and linoleum for hours at a time, and after 20 or 30 years of it, your body remembers every one of them. | A teacher takes a quick video at her desk between classes. Cuts to a gray-haired teacher in a cardigan crossing a long, hard-floored hallway. POV looking down at feet planted on tile during a lesson. |
+| Body | So we tested what veteran teachers actually wear. | Overhead shot of a teacher tote bag tipped over, spilling out a mix of shoes: sneakers, Crocs, Birkenstocks, slip-ons, an old pair of walking shoes. |
+| Body | First up, regular sneakers like N1ke. They look comfortable for a walk around the block. <br><br>But here's the problem. | Low-angle shot of a teacher in slacks walking through a classroom in white Nikes. Close-up of well-worn soles. POV of feet on linoleum during a stand-up lesson. |
+| Body | They're built for walking and light exercise, not standing still on hard floors for years on end.<br><br>After a full day in the classroom, every teacher we talked to complained about their lower back, knees, and arches feeling worn down. | Close-up of a Nike tread. A teacher out for a neighborhood walk. POV walking on classroom floor. A teacher sits down, gently rubbing her lower back. Another teacher slumps into a staff-room chair and slips off her shoes. |
+| Body | Next, we tried chunky sneakers like H0k4s. <br>These felt great through homeroom and first period. | A teacher holds up a pair of Hoka sneakers. Close-up of the chunky stack-height sole. She writes on the whiteboard wearing them, then walks between rows of desks. |
+| Body | But they're actually too cushioned for teaching.<br><br>All that bounce makes you unsteady when you're bending down to help a student, and that matters more when balance isn't what it used to be.<br><br>Also, they wear your legs out faster when you're walking hallway duty for hours. | A teacher bends carefully to help a student at his desk, steadying herself on the desk. Close-up of cushioning compressing as the foot lands. A long POV down a hallway during passing period. A teacher checks the clock (1:45 PM) looking tired. |
+| Body | Then we tested Birk3nst0ck$, a longtime favorite of teachers who want something simple and reliable.<br><br>They feel great walking out of the house.<br><br>But that cork footbed that's supposed to support you turns hard and unforgiving after three hours on linoleum.The open toe means every glue stick, paint spill, or dropped pencil ends up on your skin.<br><br>They slap when you walk (not ideal during silent reading or testing days), and if you ever need to move quickly to a student down the hallway, they slip right off your heel. | A teacher slides on a pair of brown Birkenstocks at her desk. POV walking on linoleum, cork sole tapping lightly with each step. Close-up of the hard cork footbed against tile. A teacher winces as a glue stick rolls near her bare toes. Wide classroom shot during a silent test, camera lingering on her feet as she tries to walk quietly. Final shot: a Birk slipping off her heel as she tries to move quickly. |
+| Body | Finally, we tested a new option that's been getting popular in staff rooms: The Ortho Stretch from ComfortWear.<br><br>This is where things got interesting. | POV of feet in black ComfortWear shoes walking past student desks. A teacher in a cardigan stands at the whiteboard wearing a maroon pair. The brand name "ComfortWear" appears on screen. |
+| Body | They're designed for people who stand on hard floors for hours, year after year: like nurses or teachers.<br><br>The sole is firm enough to protect your arches, knees, and back from concrete, but flexible enough that you can still move steadily when a student needs you.<br><br>They have slip-resistant grip so you're not worried about a wet hallway. <br><br>The material breathes so your feet don't overheat after lunch duty. And they look clean and professional, not athletic, not orthopedic. | A teacher adjusts the toggle laces on a black ComfortWear shoe. POV walking confidently down a hallway with a "Wet Floor" sign. A teacher kneels carefully to help a student tie a shoe (the ComfortWear flexes naturally). Close-up of the slip-resistant tread. A teacher flexes the shoe in her hand to show how it bends. Overhead shot of feet on the classroom floor, no swelling visible around the ankles. POV walking past lockers in a clean, professional outfit. |
+| Body | And here's the smart part.<br><br>They look polished enough for parent-teacher night, but comfortable enough for 8 hours of teaching, even after decades in the classroom. | A teacher smiles holding up a ComfortWear shoe at her desk. Cuts to her in a blazer at a parent-teacher conference, shaking a parent's hand. A teacher walks down the hallway with the shoes paired with slacks. A quick video during a hallway transition. |
+| Body | After testing, every teacher who tried them said the same thing.<br><br>They could stand longer and move steadier, without their feet, knees, or back hurting by the end of the day.<br><br>That means more energy for their students, and more left over for themselves once the final bell rings. | A montage of different teachers walking comfortably through hallways, classrooms, and schoolyards in the shoes. Intercut with shots of teachers laughing with students, grading at the desk with a cup of tea, and stepping out the school door at the final bell. |
+| Body | Try them, you will thank yourself later. Believe me. | A teacher in her classroom looks delighted as she opens a ComfortWear box on her desk. She sits down to put them on. Teacher poses by a school door. Low-angle shot of the shoes on a hallway floor. Final shot: teacher smiling at her desk, holding the shoes, classroom decorations behind her. |
+
+---
+
+## COM190 — COM51 | Iteration 3 | Overweight teachers
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-07 · **Learnings:** —
+
+Reference: (video embedded on page). Column notes: **Use big captions like in this video:** (short link) · **During the whole ad, use footage from OVERWEIGHT WOMEN**
+
+| Timestamp | On-Screen Text / Voiceover | Visual Description |
+|---|---|---|
+| Hook | Teachers who carry more weight put more pressure through their feet every single step. <br><br>So we tested the 5 most popular shoes for educators over 250 pounds. | |
+| Hook | If you're a teacher over 200 pounds, you already know regular shoes break down fast on hard classroom floors. <br><br>So we tested the 5 most popular shoes to see which one actually holds up. | |
+| Hook | The heavier you are, the harder your shoes have to work, especially standing on concrete and linoleum all day. <br><br>So we tested the 5 most popular shoes for bigger-framed teachers to find out which ones survive a real classroom day. | |
+| Hook | N1k3s, H0kas, Birk3nst0ck$, Crocs. The 5 shoes you'll see in any teachers' lounge. <br><br>We tested all of them on real classroom days to see which one actually holds up under more weight. | |
+| Body | And the results might surprise you.<br><br><br>If you teach K–12 and you're carrying some extra weight, when you're running a classroom… | The scene cuts to a teacher smiling as she sets up her room before the bell, sliding on her shoes. A wide shot of a busy elementary classroom mid-lesson. Then a packed hallway during a passing period. |
+| Body | …every step puts more pressure through your feet, knees, and back than it does for someone lighter. <br><br>You're not really walking, you're standing on concrete and linoleum for hours, carrying more with every step. | A teacher takes a quick video at her desk between classes. Cuts to a male teacher in a polo crossing a long, hard-floored hallway. POV looking down at feet planted on tile during a lesson. |
+| Body | So we tested what teachers actually wear, and how those shoes hold up under more weight. | Overhead shot of a teacher tote bag tipped over, spilling out a chaotic mix of shoes: sneakers, Crocs, Vans, slip-ons, an old pair of running shoes. |
+| Body | First up, regular sneakers like N1k3s.<br><br>They look comfortable on a treadmill. <br>But here's the problem. | Low-angle shot of a teacher in jeans walking through a classroom in mint green Nikes. Close-up of well-worn running soles. POV of feet on linoleum during a stand-up lesson. |
+| Body | They're built for running and gym workouts, not for standing still on hard floors carrying more weight. <br><br>The cushioning breaks down faster than it's built for.<br><br>After a full day in the classroom, every teacher complained about their lower back and arches feeling destroyed. | Close-up of a Nike running tread, visibly compressed on one side. A teacher mirror selfie at the gym. POV walking on classroom floor. A teacher sits down on a kid-sized chair, painfully rubbing her lower back. Another teacher slumps into a staff-room chair and slips off her shoes. |
+| Body | Next, we tried chunky sneakers like H0kas.<br><br>These felt amazing through homeroom and first period. | A teacher holds up bright Hoka sneakers. Close-up of the chunky stack-height sole. She writes on the whiteboard wearing them, then walks confidently between rows of desks. |
+| Body | But they're actually too soft for someone carrying more weight.<br><br>All that bounce compresses further and makes you unstable when you're bending down to a student's desk. <br><br>They also wear out faster when there's more weight pressing into that foam with every step. | A teacher bends awkwardly to help a kid at his desk, wobbling slightly. Close-up of cushioning compressing further than usual as the foot lands. A long POV down a hallway during passing period. A teacher checks the clock (1:45 PM) looking exhausted. |
+| Body | Then we tested Birk3nst0ck$, the favorite of art teachers, counselors, and anyone who wants their outfit to look effortless.<br><br>They feel great walking out of the house.<br><br>But that cork footbed that's supposed to support you flattens out faster under more weight, and turns into a rock after three hours on linoleum.<br><br>The open toe means every glue stick, paint spill, and dropped pencil ends up on your skin.<br><br>They slap when you walk, and good luck running to a kid down the hallway: with more weight behind each step, they fall off your heel even faster. | A teacher slides on a pair of brown Birkenstocks at her desk. POV walking on linoleum, cork sole slapping with each step. Close-up of the hard cork footbed against tile. A teacher winces as a glue stick rolls past her bare toes. Wide classroom shot during a silent test, camera lingering on her feet as she tries to walk quietly. Final shot: a Birk slipping off her heel as she tries to walk fast. |
+| Body | Finally, we tested a new option that's been getting popular in staff rooms: The Ortho Stretch from ComfortWear.This is where things got interesting. | POV of feet in black ComfortWear shoes walking past student desks. A teacher in a cardigan stands at the whiteboard wearing a maroon pair. The brand name "ComfortWear" appears on screen. |
+| Body | They're built for people who put more pressure through their feet every day: whether that's from standing for hours, or from carrying more weight.<br><br>The anatomical arch support and heel cushioning are built to hold up through a full day, step after step, but the shoe still flexes enough that you can move fast when a kid needs you.<br><br>They have slip-resistant grip so you don't wipe out on a wet hallway. The material breathes so your feet don't overheat after lunch duty. And they look clean and professional, not athletic, not orthopedic. | A teacher adjusts the toggle laces on a black ComfortWear shoe. POV walking confidently down a hallway with a "Wet Floor" sign. A teacher kneels to help a student tie a shoe (the ComfortWear flexes naturally). Close-up of the slip-resistant tread. A teacher flexes the shoe in her hand to show how it bends. Overhead shot of feet in polka-dot socks, no sweat marks, on the classroom floor. POV walking past lockers in a clean professional outfit. |
+| Body | And here's the smart part.<br><br>They look polished enough for parent-teacher night, but built with the kind of arch support and cushioning that hold up for 8 hours of teaching. | A teacher smiles holding up a ComfortWear shoe at her desk. Cuts to her in a blazer at a parent-teacher conference, shaking a parent's hand. A teacher walks down the hallway with the shoes paired with slacks. A quick selfie video during a hallway transition. |
+| Body | After testing, every teacher who tried them said the same thing.<br><br>They could stand longer, move faster, without their feet, knees, or back hurting, no matter how much pressure came through with each step.<br><br>That means more energy for their students, and more left over for themselves at the end of the day. | A montage of different teachers happily walking through hallways, classrooms, and schoolyards in the shoes. Intercut with shots of teachers laughing with students, grading at the desk with a coffee, and stepping out the school door at the final bell. |
+| Body | Try them, you will thank yourself later. Believe me. | A teacher in her classroom looks delighted as she opens a ComfortWear box on her desk. She sits on a kid-sized chair to put them on. Teacher poses by a school door. Low-angle shot of the shoes on a hallway floor. Final shot: teacher smiling at her desk, holding the shoes, classroom decorations behind her. |
+
+---
+
+## COM191 — TOFV1_HJ27 | Iteration 1 | Older teachers
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-07 · **Learnings:** —
+
+Reference: (video embedded on page). Column notes: **Use big captions like in this video:** (short link) · **During the whole ad, use footage from OLD WOMEN**
+
+| Shot | On-Screen Text / Voiceover | Visual Description |
+|---|---|---|
+| Hook | Here's what no one wants to tell teachers over 60. <br><br>Your feet aren't wrecked from walking, they're wrecked from standing six hours a day in one spot on concrete and linoleum, decades of it by now. | |
+| Hook | We asked teachers over 60 to test the five most popular shoes for standing all day. This is the only one that didn't go back in the box. | |
+| Hook | Nobody tells veteran teachers that after decades on hard floors, the shoe is the problem of why your feet hurt. | |
+| Body | So we put the shoes teachers wear to the test against the day teachers actually have. | Overhead shot of five shoeboxes lined up on a classroom table, her hand reaching for the first one. |
+| Body | Think about your actual day. You're not strolling, you're planted at the whiteboard, over a student's shoulder, on duty in the hallway, standing still for hours on the hardest floors in the building. | Quick cuts: she stands at the whiteboard mid-lesson, leans over a student's desk to check his work, stands post at a hallway intersection during passing period, all on hard tile and linoleum. |
+| Body | After +30 years of that, your feet remember every one of those hours. | Close-up of her hand rubbing the arch of her foot, a faded "World's Best Teacher" ornament visible on a nearby shelf hinting at long tenure. |
+| Body | That's a completely different job than walking or running, and almost no shoe is built for it. | Split screen: a runner jogging outdoors vs. her standing still at the whiteboard for a full lesson. |
+| Body | So we tested the ones teachers reach for most. | She lines the five shoeboxes up on the table, camera pans across them. |
+| Body | First up, the running shoes. | Close-up of a pair of Brooks running shoes being lifted out of the box. |
+| Body | The Br00ks a lot of teachers get talked into at the running store, and they're genuinely well made for running. That's the problem. | She turns the Brooks over in her hands, examining the tread. A brief cut to a running-store display wall of the same shoe. |
+| Body | They're engineered to move a runner forward, not to hold you still on a hard floor for 6 hours. | POV of her feet in the Brooks, planted at the whiteboard, camera holds still to emphasize how "built to move" they look standing motionless. |
+| Body | And that narrow, tapered toe box presses right where it hurts if you've got a wide foot or a bunion, which by your sixties, plenty of teachers do. | Close-up of her pressing a thumb into the narrow toe box of the shoe, wincing slightly. |
+| Body | "Teachers in our test said theirs ached by the afternoon, and more than one said an old pair had literally worn a hole right where the bunion sits." | Cut to a worn, retired pair of running shoes on the table with a visible worn spot on the side, a testimonial-style text overlay of the quote. |
+| Body | Next, the chunky max cushion sneakers like H0k4s. | She sets the Brooks aside and lifts a pair of Hoka sneakers out of the second box. |
+| Body | These feel amazing through first period, all that soft foam. | She presses her thumb into the thick foam sole, it sinks and slowly rebounds. |
+| Body | But here's what that cushion does to a teacher, especially when steady footing matters more than it used to. | She steps into the Hokas and crouches down beside a low student desk, arms out slightly for balance. |
+| Body | The taller and softer the stack, the less steady you are the second you stop walking and crouch down to a student's desk, and that plush foam packs down under a full day of standing. | Slow-motion close-up of the thick sole compressing under her weight as she crouches, then a time-lapse-style cut showing the same shoe looking visibly flatter. |
+| Body | A few months in, it's a flatter, deader shoe than the one you bought. | Side-by-side comparison shot: a new Hoka box next to her own worn, flattened pair. |
+| Body | Then the clogs the veteran teachers swear by, like D4nsk0. | She lifts a pair of black Dansko clogs from the third box, turning them over. |
+| Body | These are genuinely built for people who stand all day, but that rigid foot bed is rock hard from day one. | Close-up as she presses her thumb into the sole and it doesn't give at all. |
+| Body | For a shoe you're supposed to wear all day, these were also the heaviest option on the list, and a heavier shoe is the last thing tired feet need after a long career on them. | She lifts one Dansko clog in each hand, visibly weighing them, brow raised. Cut to her walking down the hallway in them, a slight extra effort in her gait. |
+| Body | D4nsk0-wearing teachers complain that they're too aware of the shoe throughout the day. | Text overlay of a testimonial quote over a shot of her shifting her feet at the whiteboard, clearly noticing the shoe. |
+| Body | And then the one you buy when you decide to get serious about it, V1on1c, the podiatrist-designed orthopedic brand. | She opens the fourth box, a pair of Vionic shoes with a visible molded footbed, and lifts them out carefully like they were an investment. |
+| Body | Credit where it's due, there's real arch support in there, but it's a rigid, molded foot bed built to one fixed shape, and your feet don't hold one shape across a school day, especially not after sixty, when swelling is just part of the deal. | Close-up of the molded, rigid footbed. Cut to a split-screen: her foot at 8 AM next to her foot at 3 PM, visibly a little fuller by the end of the day. |
+| Body | They swell. | Simple close-up, her finger tracing the top of her foot where the shoe now presses. |
+| Body | So by dismissal, that firm orthotic that fit you at eight in the morning is pressing on feet that have changed size, and you paid a premium for a lab-designed shoe that was never actually designed for your specific day on your feet. | She eases the Vionic off at her desk at the end of the day, visible red pressure line across the top of her foot. The price tag/receipt sits on the desk nearby. |
+| Body | Then finally, the one we thought was the best all-around option, the Orthostretch from ComfortWear. | She opens the fifth and final box. POV of feet sliding into black ComfortWear shoes. Brand name appears on screen. |
+| Body | It's the only one in the test that wasn't built for a runner, a lab, or a weekend. | Quick cut back to the four other shoeboxes lined up, then to the ComfortWear pair standing apart from them. |
+| Body | It was built for people who stand on hard floors all day, like nurses and teachers, no matter how many years they've been doing it. | She walks confidently between rows of desks, steady, unhurried pace. |
+| Body | The sole is firm enough to protect your arches from concrete, but flexible enough to move fast when a kid needs you across the room. | She flexes the shoe in her hands, then a shot of her moving quickly across the room to help a student who raised a hand. |
+| Body | It grips a wet hallway so you don't go down, which matters more the longer you've been on your feet. | POV walking confidently past a "Wet Floor" caution sign in a hallway. |
+| Body | And the knit upper actually stretches as your feet swell through the day, instead of pressing back on them. | Close-up of the stretch-knit upper flexing and giving as her foot settles into it, no pressure line visible this time. |
+| Body | It breathes through lunch duty, and it looks clean and professional, not athletic, not orthopedic. | She's outside on recess/lunch duty, comfortable stance. Cut to a close-up of the shoe next to a blazer and slacks, clearly not a sneaker or a clog. |
+| Body | Polished enough for parent-teacher night, comfortable enough for eight straight hours of teaching. | She shakes a parent's hand at a parent-teacher conference table, wearing the same shoes, fully put-together. |
+| Body | After a couple of weeks, the teachers who switched, veterans with twenty, thirty, even forty years in the classroom, all landed on a version of the same sentence. | Montage: several teachers in their 50s and 60s, different classrooms, all wearing ComfortWear, smiling naturally. |
+| Body | For the first time in a long time, they were getting to the last bell with something left. | She walks out the school door at the final bell, upright, steady, no limp, bag on her shoulder. |
+| Body | Not just feet that didn't hurt, actual energy, the kind that used to be gone by lunch, more for their students and more for themselves after a long school day. | She laughs with a student at her desk after the bell, then a shot of her at home later that evening, relaxed, not immediately collapsed on the couch. |
+| Body | Your feet are going to carry you to that last bell either way. | Wide shot of the empty hallway, late afternoon light. |
+| Body | The only question is, how much of you is left when they do? | She looks back at her classroom from the doorway before heading out, calm and composed. |
+| Body | Tap below and see why teachers are making the switch. | Clean product shot, three colorways. On-screen text: 500,000+ customers · 4.8★ · 45-day money-back · Free shipping. |
+
+---
+
+## COM192 — TOFV1_HJ27 | Iteration 2 | Overweight teachers
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-07 · **Learnings:** —
+
+Reference: (video embedded on page). Column notes: **Use big captions like in this video:** (short link) · **During the whole ad, use footage from OVERWEIGHT WOMEN**. Note: on body rows the third column holds the writer's rationale for each change vs. COM191, not visuals; kept verbatim.
+
+| Shot | On-Screen Text / Voiceover | Visual Description / writer's notes |
+|---|---|---|
+| Hook | Here's what no one tells teachers who are carrying more weight than the shoe world plans for. <br><br>Your feet aren't wrecked from walking, they're wrecked from standing six hours a day in one spot on concrete and linoleum, holding up your full body weight the entire time. <br><br>So we put the shoes teachers wear to the test against the day teachers actually have, and against a body that's asking more of a shoe than most shoes are built to give. | |
+| Hook | Over 250 pounds and on your feet teaching 8 hours a day? <br><br>Then you already know most shoes give out on you long before the other teachers' shoes give out on them. <br><br>So we put the shoes teachers reach for most through a real day of standing on concrete and linoleum, and through real weight, to see which ones actually hold up. | |
+| Hook | I'm over 250 pounds and I used to think my feet hurt just because I was on them all day. <br><br>Turns out it's because I'm on them all day and most shoes aren't built to hold someone my size steady on a hard floor for 8 hours. <br><br>So I tested the shoes teachers actually recommend to see which ones could actually do that. | |
+| Body | You're not strolling, you're planted at the whiteboard, over a student's shoulder, on duty in the hallway, standing still for hours on the hardest floors in the building, carrying every pound of yourself the whole time. <br><br>That's a completely different job than walking or running, and almost no shoe is built to hold real weight steady for that long. So we tested the ones teachers reach for most. | Same beat, same rhythm. Added "carrying every pound of yourself" and swapped "built for it" to "built to hold real weight steady" to set up the weight angle for every product below. |
+| Body | First up, the running shoes. <br><br>The Brooks a lot of teachers get talked into at the running store, and they're genuinely well made for running. That's the problem. <br><br>They're engineered around a runner's stride and a runner's weight moving forward, not to hold a heavier frame still on a hard floor for six hours. That narrow, tapered toe box presses right where it hurts if you've got a wide foot or a bunion, and it only gets tighter as your feet spread and swell under more weight. <br><br>Teachers in our test said theirs ached by the afternoon, and more than one said an old pair had literally worn a hole right where the bunion sits. | Added that Brooks is tuned for a runner's weight and stride, not a heavier frame standing still. Tied the toe box squeeze to feet spreading more under load, not just "wide foot or bunion" in isolation. |
+| Body | Next, the chunky max cushion sneakers like Hoka. <br><br>These feel amazing through first period, all that soft foam. But here's what that cushion does when there's more weight sinking into it. <br><br>The taller and softer the stack, the less steady you are the second you stop walking and crouch down to a student's desk, and the more weight that foam has to carry, the faster it packs down under a full day of standing. <br><br>A few months in, it's a flatter, deader shoe than the one you bought, and it stopped giving you real support long before that. | This is the clearest physics point: more weight sinking into soft foam means faster pack-down and less stability. Made that explicit instead of leaving it general. |
+| Body | Then the clogs the veteran teachers swear by like Dansko. <br><br>These are genuinely built for people who stand all day, but that rigid foot bed is rock hard from day one. With more weight moving through that hard sole every step, it sends more of the impact straight back up into your feet, knees, and lower back instead of absorbing any of it. <br><br>For a shoe you're supposed to wear all day, these were also the heaviest option on the list. Dansko-wearing teachers complain that they're too aware of the shoe throughout the day. | Added that a rigid sole transmits more impact upward when there's more weight behind each step, connecting it to knees and lower back, which is a real pain point for this audience. |
+| Body | And then the one you buy when you decide to get serious about it, Vionic, the podiatrist-designed orthopedic brand. <br><br>Credit where it's due, there's real arch support in there, but it's a rigid, molded foot bed built to one fixed shape, and your feet don't hold one shape across a school day, they swell, and a fuller foot has even less room to move inside a mold that never flexes. <br><br>So by dismissal, that firm orthotic that fit you at eight in the morning is pressing on feet that have changed size, and you paid a premium for a lab-designed shoe that was never actually designed for your specific weight on your specific day. | Added "a fuller foot has even less room to move inside a mold that never flexes" and closed the beat on "your specific weight" instead of just "your specific day." |
+| Body | Then finally, the one we thought was the best all-around option, the Ortho stretch from Comfort Wear. <br><br>It's the only one in the test that wasn't built for a runner, a lab, or a weekend. It was built for people who stand on hard floors all day and need a shoe that can actually hold their full weight, like nurses and teachers. <br><br>The sole is firm enough to protect your arches from concrete and carry real weight without breaking down, but flexible enough to move fast when a kid needs you across the room. <br><br>It grips a wet hallway so you don't go down, and the knit upper actually stretches to fit a fuller foot and move with your feet as they swell through the day, instead of pressing back on them. <br><br>It breathes through lunch duty, and it looks clean and professional, not athletic, not orthopedic. Polished enough for parent-teacher night, comfortable enough for eight straight hours of teaching, no matter what you weigh. | This is where the product answers everything set up above: sole holds real weight without breaking down, knit stretches to fit a fuller foot. Closed with "no matter what you weigh" as the payoff line. |
+| Body | After a couple of weeks, the teachers who switched, teachers carrying real weight on their feet all day, all landed on a version of the same sentence. <br><br>For the first time, they were getting to the last bell with something left. Not just feet that didn't hurt, actual energy, the kind that used to be gone by lunch, more for their students and more for themselves after a long school day. | Small addition naming the audience again mid-beat without dwelling on it, keeps momentum toward the same emotional payoff as the original. |
+| Close + CTA | Your feet are going to carry you, and everything you weigh, to that last bell either way. <br><br>The only question is, how much of you is left when they do? Tap below and see why teachers are making the switch. | Added "and everything you weigh" to the closing line so the weight angle lands one last time right before the CTA. |
+
+---
+
+## COM193 — TOFV1_HJ27 | Iteration 3
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-07 · **Learnings:** —
+
+Reference: (video embedded on page). This is a hook iteration. Then you need to use the same script from the reference.
+
+| Shot | Script | Visual |
+|---|---|---|
+| ITERATION 1 | Voice-over & headline:<br>THE PAIN IN YOUR FEET IS SOMETHING YOU'RE CHOOSING EVERY DAY | Show a teacher in the classroom.<br><br>Put the headline in white with red background. |
+| ITERATION 2 | Voice-over & headline:<br>THE SWELLING IN YOUR FEET FROM STANDING ALL DAY IS OPTIONAL. | Show another teacher in the classroom.<br><br>Put the headline in white with red background. |
+| ITERATION 3 | Voice-over & headline:<br>TODAY YOU CAN PUT AN END TO THE SWELLING AND PAIN IN YOUR FEET. | Show another teacher in the classroom.<br><br>Put the headline in white with red background. |
+
+---
+
+## COM194 — Nurse Page Education Every Brand Work Approved Running Shoe
+
+**Status:** Writing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Nurse · **Creator type:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** — · **Created:** 2026-08-10 · **Learnings:** — · (brief only, no script copy)
+
+Iteration of RD_07.08.26_Nurse Page_Education_Every Brand Work Approved Running Shoe_V2 – Copy:
+
+- Re-use same hook, and put on different body
+- Organic video of nurse talking about the brands shes wearing and how its not helping her foot pain. Relatability right off the hook.
+
+---
+
+## COM195 — 807 [creator] Don’t Waste Spent Money
+
+**Status:** Creator Filming · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-10 · **Learnings:** —
+
+**Hook 1**: $180 Hokas. $200 Danskos. $150 Brooks. All sitting in my closet. All garbage after two months.
+
+**Hook 2:** 3 teachers at my school retired last year because of their knee pain. Their doctors all said the same thing: “The shoes you’re wearing is what’s making it worse”
+
+**Hook 3:** Ok so I’m a teacher, and I think I finally found the shoe to help with my plantar fasciitis. And surprise, it’s not skechers or hokas.
+
+**Hook 4:** So if you teach elementary, you’re not sitting down at your desk; you’re on your feet, standing or moving around. My doctor told me I had plantar fasciitis and that I needed to get $300 orthotics. With my paycheck, there’s no way I can afford those. So I did some digging.
+
+But I finally found a pair that actually survives a full day of teaching. My feet don't hurt anymore. My back pain is gone. And I'm not buying new shoes every two months.
+
+Here's what I learned so you don't waste your money like I did.
+
+First thing I learned - running shoes are the wrong type of shoe for teaching. They're built for forward motion. Short bursts. Soft surfaces. We're not running. We're standing and walking on concrete and linoleum for 8 hours, every day.
+
+Second - the arch support needs to last the whole day, not 12 minutes. Most shoes have foam arch support. It collapses halfway through your shift. You need reinforced arch support that holds its shape under constant pressure. That's what keeps your knees, hips, and back aligned.
+
+Lastly - and this is the one nobody talks about - the toe box needs to be wide. Your feet swell throughout the day. By 3pm, your toes are crammed together in a tight shoe and that's making your bunions worse. It's causing nerve pain. It's why your feet throb at the end of every day. Every single expensive shoe I bought had a narrow toe box
+
+Honestly, I was ready to give up my career due to this foot pain. Then, I came across this brand called ComfortWear.
+
+They met every single standard. Cushioning designed for standing, not running. Reinforced arch support that lasts a full day of teaching. Wide toe box that gives your feet room to breathe. And they're slip-resistant for the cafeteria or wet hallways.
+
+On the first day of school, I wore them; I noticed the difference by 2nd period. I didn’t get that sharp pain from my plantar fasciitis. By week two, my back pain that I'd had for three years started going away. I stopped taking painkillers with my coffee.
+
+I've been wearing the same pair for 4 months now. They still feel like day one. I actually volunteered to go on the field trip last week because I felt good enough to do it.
+
+If you've wasted money on expensive shoes that didn't last, or you're still dealing with foot pain and back pain after every shift, I can't recommend ComfortWear enough.
+
+Over 500,000 teachers have already switched. They're running 40% off right now, and there's a 30-day money-back guarantee. So if they don't survive your next day of teaching, you get your money back. Link's below
+
+---
+
+## COM196 — JULYWK2_VID1_Teacher_Hook1 (Teacher Cartoon Ad)
+
+**Status:** — · **NN/IT:** — · **Execution:** — · **Angle:** Teacher · **Creator type:** — · **Product:** — · **Offer:** — · **Month:** — · **Created:** 2026-08-10 · **Learnings:** — · (analysis notes on the reference ad only, no script copy)
+
+Iteration:
+
+TOFV1_HJ27 | JULYWK2_VID1_[creator]_Teacher_Hook1
+
+- Avg watch time 0:22. Hold rate 18%, Hook rate 65%
+- At the avg watch time, its a mans feet being shown with dress shoes. Not relevant thats why drop off?
+- "Nobody wants to tell teachers this" - Hook + organic video of teacher
+- 6 hours in 1 spot on concrete and linoleum (this is the pain point introduced)
+- The text in the editing is large, the content is very organic, lot of teacher content in here
+- Even when shoes are introduced, its like they put teacher scene for the shoe content too (in a way to show that teachers are wearing our shoes
+- 2:52sec video
+- Brooks are presented first, Hokas 2nd, Vionic 3rd, ComfortWear last
+- Only after the long intro (0:30 sec)
+- ComfortWear only presented at the end
+
+---
+
+## COM197 — Kyro369v2 hook2 Cartoon
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Travel · **Creator type:** Travel · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-10 · **Learnings:** —
+
+Can you make this a cartoon animation ad. Make sure to include a lot of Europe as the backgrounds. This needs to feel like a story, not a mashup.
+
+Hook 1: The worst travel advice I ever got was, ‘Just wear your comfortable sneakers. Everyone told me that before every trip. (Cartoon of woman staring out the window at the clouds)
+Hook 2: I tested 4 different popular travel shoes for my trip to Europe. I thought the expensive shoes would be the winner. (put footage of woman with thinking face and 4 different shoes mentioned below hovering over her head with background of Paris)
+Hook 3: If you’re traveling to Europe, but have plantar fasciitis, here are the top recommended shoes I tested and reviewed so you don’t have to. (walking and limping with red foot pain highlight on feet and on top is 4 shoes with question marks)
+
+I wore Hokas that I paid $165 in Lisbon. The cushion felt amazing at first, but on 400-year old cobblestones, your foot rolls side to side with every single step. You’re less stable than you’d be in a flatter shoe. No support for my feet, and I twisted by ankle on day 2.
+
+Then, I wore the $90 Skechers in Paris. I understand why people love that soft memory-foam feeling. But when you are walking all day, your weight ends up flattening the insole
+
+Finally, the Nikes that costed $120 because they felt great when I tried them on. But a running shoe is made for running, not walking on cobblestones. By 3PM, my feet were swelled up, and I spent part of one of the most beautiful trips of my life looking for a bench.
+
+That was the lesson it took me too long to learn: travel is not a quick walk around the mall. It’s eight or ten miles, on cobblestone, tiles, hills, slick street, then dinner after. Long days on your feet.
+
+A nurse friend told me about the shoes she wears during her 12-hour shifts. They’re called ComfortWear. She told me that “If they hold up through 12-hour hospital shifts, they’ll hold up through anything”.
+
+She was right. Wide toe box so your feet have room as they swell through the day from all the walking. Arch support that actually holds and mouds to your feet, not foam that collapses by hour four. The sole is firm enough to protect you from cobblestones steps, but light enough that you forget you're wearing them by mile six
+
+Right now, ComfortWear is 40% off! And, you get free returns within 30 days.
+
+---
+
+## COM194 — COM51 | Iteration 4 | Spanish (second page)
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-11 · **Learnings:** —
+
+Reference: (video embedded on page). We need to translate the original ad to spanish. I’m leaving the english version, so you can understand what we are saying. But use the same footage or super similar to the original one (the reference).
+
+| Timestamp | Spanish | English |
+|---|---|---|
+| Hook | Los profesores pasan 8 horas al día parados en pisos duros de las aulas, así que probamos las 5 zapatillas más populares entre educadores. | Teachers spend 8 hours a day on hard classroom floors<br>so we tested the 5 most popular shoes for educators. |
+| Hook | Para las 2 PM la mayoría de los profesores casi no sienten los pies. Así que probamos las 5 zapatillas más populares que usan los educadores para ver cuál realmente soluciona eso. | By 2 PM most teachers can barely feel their feet. So we tested the 5 most popular shoes educators wear to see which one finally fixes that. |
+| Hook | Un profesor promedio camina 4 millas por día sobre cemento duro. Así que probamos las 5 zapatillas más populares para educadores y descubrimos cuáles realmente aguantan. | The average teacher walks 4 miles a day on concrete and linoleum. So we tested the 5 most popular shoes for educators to find out which ones actually hold up. |
+| Hook | N1k3, H0k4, Cr0cs… Son algunos de los calzados que ves en cualquier sala de profesores. <br><br>Las probamos todas en días reales de clase para ver cuál sobrevive de verdad. Y los resultados te van a sorprender. | Nikes, Hokas, Skechers, Vans, Crocs. The 5 shoes you'll see in any teachers' lounge. We tested all of them on real classroom days to see which one actually survives.<br>And the results might surprise you. |
+| Body | Si enseñas en primaria o secundaria, cuando estas a cargo de un aula, estás parada sobre cemento duro, durante horas seguidas. <br>Por eso probamos lo que los profesores realmente usan. | If you teach K–12, when you're running a classroom…<br>…you're not really walking. You're standing on concrete and linoleum for hours at a time.<br><br>So we tested what teachers actually wear. |
+| Body | Primero, zapatillas comunes tipo N1k3. Son cómodas para la cinta de correr, pero ese es el problema: Están hechas para correr y entrenar, no para estar parada en pisos duros. <br><br>Después de un día completo en el colegio, todos los profesores se quejaron de dolores en la zona lumbar y los arcos de los pies destruidos. | First up, regular sneakers like Nike. <br><br>They look obvious, right? Comfortable on a treadmill. But here's the problem.<br>They're built for running and gym workouts, not standing still on hard floors. <br><br>After a full day in the classroom, every teacher complained about their lower back and arches feeling destroyed. |
+| Body | Después probamos zapatillas voluminosas tipo Hoka. Durante la primera hora de clase, ae sentían increíbles pero en realidad tienen DEMASIADA amortiguación para dar clases. <br><br>Todo ese rebote te desestabiliza cuando te agachás por ejemplo hacia el banco de un alumno. <br><br>Además parecen zapatillas ortopédicas, no son para nada lindas, y te cansan más las piernas cuando caminas kilómetros de pasillo en guardia. | Next, we tried chunky sneakers like Hoka. <br>These felt amazing through homeroom and first period.<br>But they're actually too cushioned for teaching. <br><br>All that bounce makes you unstable when you're bending down to a student's desk. <br><br>Also they look like recovery shoes, not classroom shoes, and they wear your legs out faster when you're walking miles of hallway on duty. |
+| Body | Después probamos las Birkenstock, la favorita de profesores de arte. <br><br>Se sienten geniales al salir de casa. <br>Pero esa plantilla de corcho que se supone te sostiene se convierte en piedra después de tres horas sobre pisos duros. <br><br>La punta abierta hace que cada mancha de pintura o lápiz caído, termine manchándote a ti. <br><br>Hacen ese ruido de chancleta al caminar (el peor sonido posible en lectura silenciosa o día de examen), y buena suerte si tienes que correr hacia un alumno en el pasillo: <br>se te salen del talón antes de terminar la frase. | Then we tested Birkenstocks, the favorite of art teachers, counselors, and anyone who wants their outfit to look effortless. <br><br>They feel great walking out of the house. <br><br>But that cork footbed that's supposed to support you turns into a rock after three hours on linoleum. <br><br>The open toe means every glue stick, paint spill, and dropped pencil ends up on your skin. <br><br>They slap when you walk (the worst possible sound during silent reading or test days), and good luck running to a kid down the hallway: they fall off your heel before you finish the sentence. |
+| Body | Finalmente, probamos una opción nueva que se está haciendo popular en las salas de profesores: las Ortho Stretch de ComfortWear. <br><br>Están diseñadas para personas que pasan horas paradas en pisos duros: como enfermeras o profesores. <br><br>La suela es firme para proteger tus arcos del cemento, pero flexible para que puedas moverte rápido cuando un alumno te necesita. <br><br>Tienen grip antideslizante para que no te resbales en un pasillo mojado. El material transpira para que tus pies no se sobrecalienten después de la guardia de almuerzo. Y se ven prolijas y profesionales, ni deportivas ni ortopédicas. | Finally, we tested a new option that's been getting popular in staff rooms: The Ortho Stretch from ComfortWear. <br><br>This is where things got interesting.<br><br>They're designed for people who stand on hard floors for hours: like nurses or teachers. <br><br>The sole is firm enough to protect your arches from concrete, but flexible enough that you can move fast when a kid needs you. <br><br>They have slip-resistant grip so you don't wipe out on a wet hallway. The material breathes so your feet don't overheat after lunch duty. And they look clean and professional, not athletic, not orthopedic. |
+| Body | Además, se ven lo suficientemente elegantes para la reunión de padres, pero cómodas para 8 horas de clase. | And here's the smart part. <br><br>They look polished enough for parent–teacher night, but comfortable enough for 8 hours of teaching. |
+| Body | Después de probarlas, todos los profesores que las usaron dijeron lo mismo: Podían estar más tiempo parados, moverse más rápido, sin que les duelan los pies, las rodillas o la espalda al final del día. <br><br>Tienes que probarlas, te lo vas a agradecer después. Creeme. | After testing, every teacher who tried them said the same thing. <br><br>They could stand longer, move faster, without their feet, knees, or back hurting. <br><br>That means more energy for their students, and more left over for themselves at the end of the day.<br><br>Try them, you will thank yourself later. Believe me. |
+
+---
+
+## COM195 — TOFV1_HJ27 | Iteration 4 | Spanish (second page)
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-11 · **Learnings:** — · (Spanish adaptation of COM191's TOFV1_HJ27 script)
+
+Reference: (video embedded on page). We need to translate the original ad to spanish. I’m leaving the english version, so you can understand what we are saying. But use the same footage or super similar to the original one (the reference).
+
+| Timestamp | Spanish |
+|---|---|
+| Hook | Nadie quiere que los profesores sepan esto!<br><br>Tus pies no están destruidos por caminar, <br>están destruidos por estar parada 6 horas al día en el mismo lugar, sobre cemento duro. <br><br>Así que pusimos a prueba las zapatillas que usan los profesores contra el día que realmente tienen los profesores. |
+| Hook | Pusimos a prueba las zapatillas que usan más de 500,000 maestras y descubrimos por qué todas tienen dolor de pies y espalda. |
+| Hook | La hinchazón en los pies y dolor de lumbar se volvió algo cotidiano en tus días… dejame decirte que es culpa de tus zapatillas. |
+| Body | Casi ninguna zapatilla está pensada para profesoras que están todo el día paradas en pisos duros. Así que decidimos probar el calzado que más eligen las profesoras y descubrir cuáles son las mejores para ellas. |
+| Body | Primero, las zapatillas de running. <br><br>Las Brooks están genuinamente hechas para correr, y justamente ese es el problema: no son para mantenerte quieta en un piso duro durante 6 horas. <br><br>Y su punta angosta presiona justo donde duele si tienes el pie ancho o un juanete. <br><br>Las profesoras de nuestra prueba dijeron que les dolía por la tarde, y más de una contó que un par viejo literalmente se había agujereado justo donde está el juanete. |
+| Body | Después, las zapatillas chunky, de amortiguación extra como las Hoka. <br><br>Se sienten increíbles durante la primera hora. <br>Pero cuanto más alta y blanda es la base, menos estable estás, y apenas dejás de caminar y te agachás al banco de un alumno, esa espuma mullida se comprime y te hace perder la estabilidad.<br><br>A los pocos meses, es una zapatilla más chata y más muerta que la que compraste. |
+| Body | Después los zuecos que las profesoras con más años ADORAN, como Dansko. <br><br>Están genuinamente hechas para gente que pasa el día parada, pero esa plantilla rígida es dura como piedra desde el primer día. <br><br>Para una zapatilla que se supone usás todo el día, también fueron la opción más pesada de la lista. <br><br>Las profesoras que usan Dansko se quejan de que sienten dolor durante todo el día. |
+| Body | Y finalmente: las Orthostretch de ComfortWear. <br><br>Es la única de la prueba que no fue diseñada para alguien que corre, para un laboratorio o para un fin de semana. <br><br>Fue diseñada para gente que pasa el día parada en pisos duros, como enfermeras y profesoras. <br><br>La suela es firme para proteger tus arcos del cemento, pero flexible para moverte rápido cuando un alumno te necesita del otro lado del salón. <br><br>Te sostienen bien si un pasillo está mojado, para que no te resbales, <br><br>y la parte superior tejida realmente se estira a medida que tus pies se hinchan durante el día, en vez de presionarlos. <br><br>Se ven prolijas y profesionales, ni deportivas ni ortopédicas. <br>Elegante para la reunión de padres, pero cómoda para 8 horas seguidas de clase. |
+| Cierre | Después de un par de semanas, las profesoras que se cambiaron a ComfortWear piensan lo mismo: Por primera vez, llegan a la última clase sin dolor de pies y cómodas.<br><br>Es hora de que las pruebes tu. No te pierdas vivir tus días sin dolor. |
+
+---
+
+## COM196 — Twitter Style Testimonial (second page)
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** Statics · **Angle:** Comparison · **Creator type:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-13 · **Learnings:** —
+
+[editor] to make Variation 1 (make with woman similar to reference but wearing a lab coat)
+
+Caption: Podiatrist Ranks Top 5 Shoes For Nurses 2026: Which Shoe Lasts 12-Hour Shifts?
+
+AI Avatar + Voiceover: **After 20 years as a podiatrist, I tested 5 of the most popular shoes — Skechers, Hokas, Brooks, New Balance and one nobody expected. The winner? Not the $150 one.**
+
+[editor] to make Variation 2: (Make with man with white lab coat outfit, but put him in his 50s)
+
+Caption: Senior Podiatrist ranked the top 5 shoes for travel. One of them beat them all - and no one saw it coming
+Sub-caption: He tested 5 shoes with 500 nurses who were travelling. Only one shoe stood out.
+
+AI Avatar + Voiceover: **After 20 years as a Podiatrist, I tested 5 of the most popular shoes for travel — Skechers, Hokas, Brooks, New Balance and one nobody expected. The winner? Not the $150 one.**
+
+---
+
+## COM197 — TOFV1_HJ27 | Iteration 5 | Nurses (second page)
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Nurses · **Creator type:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-13 · **Learnings:** —
+
+Reference: (video embedded on page).
+
+| Script Structure | Script | Visual |
+|---|---|---|
+| Hook | Your feet aren't wrecked from walking your unit. <br>They're wrecked from standing still at the bedside. | Replicate the big captions and same V.O |
+| Hook | Nurses take care of everyone, but who takes care of them when their feet hurt almost nonstop from standing all day? | |
+| Hook | "I can't wait for the day to be over so I can take my shoes off" <br>That's what 9 out of 10 nurses say. | |
+| Body | 12 hours a day in one spot on hospital tile and linoleum. <br><br>So we put the shoes nurses wear to the test against the shift nurses actually have. <br><br>Think about your actual shift. You're not strolling, you're at the bedside, pushing a med cart, crouched down checking a line, on your feet for twelve hours straight on the hardest floors in the building. <br><br>That's a completely different job than walking or running, and almost no shoe is built for it. So we tested the ones nurses reach for most. | |
+| Body | First up, the running shoes. <br><br>The Brooks a lot of nurses get talked into at the running store, and they're well made for running. That's the problem. <br><br>They're engineered to move a runner forward, not to hold you still on a hard floor for twelve hours, and that narrow toe box presses right where it hurts if you've got a wide foot or a bunion. <br><br>Nurses in our test said theirs ached before the shift was even half over, and more than one said an old pair had literally worn a hole right where the bunion sits. | Don’t name the brands,put PIIIIIP and Br00ks for example |
+| Body | Next, the chunky max cushion sneakers like Hoka. <br><br>These feel amazing through the first few hours of your shift, all that soft foam. But here's what that cushion does to a nurse. <br><br>The taller and softer the stack, the less steady you are the second you stop walking and crouch down at a bedside to check an IV line, and that plush foam packs down under a full twelve-hour shift. <br><br>A few months in, it's a flatter, deader shoe than the one you bought. | |
+| Body | Then the clogs the veteran nurses swear by, like Dansko. <br><br>These are built for people who stand all day, but that rigid footbed is rock hard from day one. <br><br>For a shoe you're supposed to wear a whole shift in, these were also the heaviest option on the list. Dansko-wearing nurses complain that they're too aware of the shoe throughout the shift. | Don’t name the brands,put PIIIIIP and Br00ks for example |
+| Body | And then the one you buy when you decide to get serious about it, Vionic, the podiatrist-designed orthopedic brand. <br><br>Credit where it's due, there's real arch support in there, but it's a rigid footbed built to one fixed shape, and your feet don't hold one shape across a 12-hour shift. They swell. <br><br>So by the end of your shift, that firm orthotic that fit you at 7am is pressing on feet that have changed size, and you paid a premium for a lab-designed shoe that was never actually designed for your specific shift on your feet. | Don’t name the brands,put PIIIIIP and Br00ks for example |
+| Body | Then the one we thought was the best all-around option, the Ortho Stretch from ComfortWear. <br><br>It's the only one in the test that wasn't built for a runner, a lab, or a weekend. It was built for people who stand and move fast on hard floors all shift, starting with nurses. | |
+| Body | The sole is firm enough to protect your arches from hospital tile, but flexible enough to move fast when a patient needs you across the room. <br><br>It grips a wet floor so you don't go down, and the knit upper actually stretches as your feet swell through a twelve-hour shift, instead of pressing back on them. <br><br>It breathes through a double, and it looks clean and professional, not athletic, not orthopedic. <br><br>Polished enough for report at the nurses' station, comfortable enough for twelve straight hours on the floor. | |
+| Body | After a couple of weeks, the nurses who switched all landed on a version of the same sentence: they were clocking out with something left. <br><br>Not just feet that didn't hurt, actual energy, the kind that used to be gone by lunch, more for their patients and more for themselves after a long shift. | |
+| Body | Your feet are going to carry you through that shift either way. <br><br>The only question is, how much of you is left when you clock out? Tap below and see why nurses are making the switch. | |
+
+---
+
+## COM198 — My neighbor
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Everyday user · **Creator type:** Everyday User · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-13 · **Learnings:** —
+
+Reference: (video embedded on page). Visual on every row: **Replicate the reference. Similar footage, same color of captions, everything.**
+
+| Beat | VO / Text on screen |
+|---|---|
+| Hook | Persona 1:<br>My neighbor keeps staring at my feet through the fence. Every time I step outside. |
+| Hook | Persona 1:<br>I found out my neighbor spies on me, every time I go out into my building's hallway. |
+| Hook | Persona 1:<br>My neighbor stares at me every time I walk by... scary. |
+| Body | Persona 1:<br>Not my face. Not my dog. My feet. |
+| Body | Persona 2:<br>She is wearing the same shoe, different color. Every day this week. |
+| Body | Persona 1:<br>I walked over and asked her straight up: "why do you keep staring at my feet?" |
+| Body | Persona 2:<br>I suffer from foot pain!!! |
+| Body | Persona 1:<br>I sent her the link. No explanation, just the link. |
+| Body | Persona 1:<br>She ordered three pairs. |
+| Body | Persona 1:<br>Now she's the one staring at someone else's feet at the dog park. |
+| Body | Persona 1:<br>Link's in my bio too. |
+| Body | Persona 1:<br>You're welcome. Also, stop staring. |
+
+---
+
+## COM199 — Pains
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** Mash-Up · **Angle:** Everyday user · **Creator type:** Everyday User · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-13 · **Learnings:** —
+
+Reference: (video embedded on page). Visual on every row: **Replicate the reference. Similar footage, same color of captions, everything.**
+
+| Script Structure | Script |
+|---|---|
+| Hook | I've had this ache in my heel for I don't even know how long anymore… I would say more than 6 years. |
+| Hook | I used to avoid looking down at my feet by the end of the day. I didn't want to see what they looked like. |
+| Hook | By the end of the day my feet used to swell up so much I could watch it happen if I sat and stared at them long enough. I used to do that sometimes, just watch it happen. |
+| Body | I bought these because I saw an ad at like two in the morning and I wasn't even really looking to buy anything. |
+| Body | I've been wearing them every day since. My heel doesn't do that thing anymore where it feels like something is pressing into the bone. |
+| CTA | I check my feet now. Like, actually look at them. I never used to look at my own feet. |
+
+---
+
+## COM200 — LF Ad
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Statics · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-13 · **Learnings:** —
+
+Reference: (image embedded on page). **Test 3 different images, and 3 different fonts.**
+
+Text:
+
+Your feet aren't wrecked from walking. They're wrecked from standing six hours a day on concrete and linoleum.
+
+Teachers don't walk through their day, they're planted at the whiteboard, crouched by a desk, on hallway duty. Almost no shoe is built for that. We tested the ones teachers reach for most.
+
+Running shoes like Brooks: built to move you forward, not hold you still. That narrow toe box presses right on a bunion. Teachers said theirs ached by afternoon.
+
+Max cushion sneakers like Hoka: soft at first period, but the taller the stack, the less steady you are when you stop and crouch. And that foam packs down fast, a few months in, it's flat and dead.
+
+Then the Orthostretch from ComfortWear. Firm enough to protect your arches, flexible enough to move fast. Grips a wet hallway. The knit upper stretches as your feet swell instead of fighting them. Looks clean, not athletic, not orthopedic.
+
+Teachers who switched all said some version of the same thing: for the first time, they got to the last bell with something left.
+
+---
+
+## COM200 — Top 5 Shoes 500 Nurses Rated (Podiatrist Podcast) (second page)
+
+**Status:** Editing · **NN/IT:** Net New · **Execution:** AI · **Angle:** Nurse · **Creator type:** Expert / Doctor · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-13 · **Learnings:** —
+
+This will be a podcast format with a Male podiatrist (Put name Dr. Jenson Hamel, Podiatrist) and host will be a female nurse (Put name Sara Friedman, RN).
+
+When other brand names are mentioned, put a picture of those shoes (just make sure you blur the Skechers logo one). ComfortWear is mentioned, put pictuer of shoe but when he talks about the features, turn it into a split screen and put b-rolls below.
+
+Hook 1 (host): What is the #1 problem you see nurses make with their feet?
+
+Hook 2 (podiatrist): We tested and ranked the top 5 shoes nurses wear for their 12-hour shifts
+
+Hook 3 (host): Nurses from the 1960s never complained about their foot pain, but everyone at my hospital complains about it. Why is that?
+
+Hook 4 (podiatrist): 85% of nurses in the USA are suffering from a foot pain condition called plantar fasciitis. Why? It’s always the same reason.
+
+—-
+
+**Podiatrist**: The nurses that come see me are buying shoes that feel amazing for the first five minutes at the store.
+
+**Host**: Oh. I do that.
+
+**PODIATRIST**: Everybody does. You put on a soft cushiony shoe in the store and you think your problems are over.
+
+**HOST**: And then by the end of my shift, I’m looking at the clock like, “Please don’t make me walk one more hallway.”
+
+**PODIATRIST**: Because the first five minutes are not the test. You’ll see how you really feel by hour 8.
+
+**HOST**: Wait, so I’m not imagining it? My shoes can feel great in the morning and terrible by 3pm?
+
+**PODIATRIST**: No, you are not imagining it. Nurses are on hard concrete floors, moving all day, and their feet can feel different later in a shift. A shoe can be soft at the start and still not be the right fit for a long day.
+
+**HOST**: Okay, then what are nurses actually wearing? Because everybody in my unit has a different answer.
+
+**PODIATRIST**: The names we kept hearing were Hoka, Brooks, New Balance, Skechers, and Crocs.
+
+**HOST**: That is literally my whole unit.
+
+**PODIATRIST:** So we had 500 nurses compare five of the most talked-about shoes for long shifts. Not just, “Which one feels soft?” We looked at what they liked once the shift was actually done.
+
+**PODIATRIST:** because “comfortable” means something very different when you are already 10 hours into a shift.
+
+**PODIATRIST:** Number five: Skechers. Nurses like that soft memory-foam feeling at the start. But a lot of nurses say the cushioning dissapears by hour 6. That’s the hour you need more support. You’re halfway into your shift and your feet are throbbing.
+
+**PODIATRIST**: Number four: New Balance. A lot of people like the more solid feel. But for a full shift, some nurses say they want something that feels less firm, but more supportive and comfortable by the end of the day.
+
+**PODIATRIST**: Number three: Brooks. A lot of nurses already own them because they are known as running shoes. They make sense for running. But standing and walking through a 12-hour shift is a different job. Some nurses told us they still wanted more long-shift support and room later in the day.
+
+**HOST**: Okay, what about Hoka? Because that’s the one nurses rave about online.
+
+**PODIATRIST**: Number two: Hoka. Nurses like the big cushion. But some also say they feel bulky, and they’re narrow at the toe-box. You need a wide toe-box for when your feet are swollen.
+
+**HOST**: Okay, so who came in first?
+
+**PODIATRIST**: Number one was ComfortWear Ortho Stretch.
+
+**HOST**: Really? Over all those big brands?
+
+**PODIATRIST**: Yes, really. Nurses liked that it gave their toes more room when their feet felt more swollen later in the day, there’s an arch support that moulds to your feet shape so that every step supports your feet, and a non-slip grip for the kind of floor they actually work on. The upper is also stretchy and breathable.
+
+**PODIATRIST**: Exactly. It’s made for people who are actually on their feet for hours.
+
+**HOST**: And it’s less expensive than Hoka?
+
+**PODIATRIST**: With the current offer on their website, it’s under $60, so really affordable for healthcare workers. Make sure you check the size chart, the best shoe is still the one that fits your foot correctly.
+
+**HOST**: Okay. I need these before my next shift.
+
+**PODIATRIST**: I’ll leave the link below has the full comparison, the fit guide, and the current trial details.
+
+---
+
+## COM201 — 851 [name] Teacher
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Teacher · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-14 · **Learnings:** —
+
+We need to make it similar to the reference, but now we need to incorporate TEACHER as the avatar. So the content will need to be creators with casual clothes + tiktok/youtube footage.
+
+———-
+
+Hook 1: We reviewed five of the most popular shoes teachers are wearing through the school day right now. Here's what we found.
+
+Hook 2: We asked 500 teachers with foot pain one simple question: what shoes have you already tried? The answers were almost identical, every single time.
+
+Hook 3: The worst advice I got before my first year of teaching was 'just wear comfortable sneakers.' Nine years and $600 later — here’s how I rank the 5 most popular shoes for teachers.
+
+Hook 4: I added it up: $620 on 'teacher shoes' in three years. Four pairs failed me. One didn't. Ranking them worst to best.
+
+5th Place - D0c Martens. Score: 2.1 out of 10. Price: around 170 dollars. They're cute with everything, and that matters when parents see you. But the break-in is weeks of blisters, and under that style is a hard, flat sole with zero cushion between you and the concrete.
+
+4th Place- Dansk0. Score: 4.5 out of 10. Price: around 145 dollars. The teacher who's been there 25 years swears by these. And honestly, the support is real. But they are SO heavy. I felt like I was stomping around in bricks all day. And every step on that tile floor went straight into my knees.
+
+3rd Place - Br0oks. Score: 5.1 out of 10. Price: around 140 dollars. The guy at the running store said these are perfect if you're on your feet all day. But teaching isn't running. I'm just... standing. At the board. On hallway duty. In the same spot for an hour. And running shoes go flat when you just stand in them..
+
+2nd Place - Hokas. Score 6 out of 10. Down $180. Yes, TikTok made me buy them too. Very cushiony, good grip on wet floors, and easy on your joints. But at 180 dollars, it costs nearly three times more than the number one shoe. The front is tight, the shoe is heavy, and other teachers keep telling me the cushioning goes flat after two to three months of daily wear.
+
+1st Place - ComfortWear Ortho Stretch Cushion. Score: 9.1 out of 10. This is the only shoe on this list that was actually made for people who stand all day. Not running. Standing. The cushion doesn't die when you're planted at the board for an hour. The arch support doesn't flatten out by lunch, which, fun fact, is why my back stopped hurting, not just my feet.
+
+The top is this stretchy knit, so at 2pm when my feet swell, the shoe just... gives them room? Instead of strangling them? Revolutionary.
+
+They're light. They’re non-slip, and super comfortable! I’ve tried the big brand shoes, but none of them compare to this.
+
+I've had one pair since January and they still feel new. They're under 60 dollars. And the trial is 30 days , that's all of back-to-school through October. Which is exactly when every other shoe I've owned died. So wear them through the hard part. If your feet still hurt, full refund.
+
+Link's in my bio. Your feet are gonna be so confused.
+
+---
+
+## COM202 — Compression Sock Objection
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** AI · **Angle:** Nurse · **Creator type:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-18 · **Learnings:** —
+
+Hook 1: This nurse just debunked why compression socks don’t help your feet for 12-hour shifts (Use AI Woman avatar) → caption to put: **compression socks for nurses debunked**
+
+Hook 2: This nurse just revealed how compression socks hasn’t helped her foot pain (Use AI Woman Avatar) → Caption to put: **compression socks doesn’t help nurses foot pain**
+
+Start of Tiktok Stitch:
+
+Add this video as the stitch (make sure to add her user name in there to give her credit) (TikTok link to a third-party nurse's video, omitted)
+
+End of Tiktok Stitch.
+
+Start of Host Talking Again:
+
+So she's right, and I want to be really clear, I still wear mine. Compression socks are great. They push blood back up out of your legs, that's why your calves feel lighter, and your ankles aren't swollen at the end of a shift. But it doesn’t help your feet.
+
+(this part here, put the graphic I attached and make creator point to the graph. Similar to the reference video)
+
+Look at how compression is actually engineered. The pressure is strongest right at your ankle, and it gets lighter the further up your calf it goes. That's the whole design, it's a pump for your circulation. Now look at where your pain actually is. The arch. The heel. The ball of your foot. Compression isn't doing anything down there. It was never supposed to
+
+Which means the fix isn't another layer on your leg. It's under your foot. You need a shoe with an arch support that doesn’t go flat from 12 hours of standing. This supports your feet where it matters. My feet swell so it was very important that I find shoes that have a wider toe-box.
+
+Now, I started wearing these shoes, they’re called ComfortWear. Since wearing them, I‘ve 100% noticed how much more energy I have after my rotations.
+
+They cover the important features I needed like the arch support, wide toe-box, non-slip grip, and still look cute.
+
+There are thousands of positive reviews as well.
+
+Don’t just listen to me, go check them out.
+
+If you’re also wearing compression socks and still suffering from foot pain, give these a shot.
+
+I’ll link them down below.
+
+---
+
+## COM203 — This is the best shoe
+
+**Status:** Creator Filming · **NN/IT:** Iteration · **Execution:** UGC · **Angle:** Nurse · **Creator type:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-18 · **Learnings:** —
+
+Hook 1 (selfie to the camera but point aggressively towards the camera. Watch reference video):  This is the best shoe for tired, achy feet after a 12-hour shift. And I know, because I've been a charge nurse for over 17 years working 12-hour shifts every day, so I know what I'm talking about.
+
+Hook 2 (selfie camera to the camera talking): I’ve bought skechers, hokas, brooks, but this is the best shoe I have ever worn for my 12-hour shifts. And I know, because I’ve been working as a pharmacist at the hospital for over 17 years.
+
+Hook 3: (look at camera and point at the top but keep space there so we can put images of the top shoe brands): I’ve worn and reviewed the top shoes nurses recommend, but only one came out comfortable. And it’s the one you would expect the least.
+
+Body:
+
+These are my ComfortWear Ortho Stretch Shoes and they're the most comfortable shoes I've ever worn. I actually found them on Instagram and paid 59 bucks for mine.
+
+So did I get scammed or are these legit?
+
+(try them on showing in front of mirror, put camera down towards shoes and walk)
+
+They’re legit.
+
+These check all my criterias for hospital shoes. Super comfy, cushioning made for standing and walking all-day on concrete floor.
+
+It’s got an arch support that lasts a full 12-hour shift. A wide toe box that gives your feet room to breathe. And they're slip-resistant for wet floors in case I have to rush for a code.
+
+Honestly, from one healthcare worker to another, you need to get these. With inflation going up, finding comfortable shoes on a nurse salary is hard. It’s only been 4 months, but so far they’ve been great. The cushioning is still the same as it was on day 1.
+
+I’ll leave a link down here so you can check it out
+
+---
+
+## COM204 — Shoe ranking feet only
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** AI · **Angle:** Nurse · **Creator type:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-19 · **Learnings:** —
+
+Use AI to make similar shoe collection video.
+
+Hook 1: My nursing shoe collection (as someone with plantar fasciitis)
+Hook 2: Rating my work shoes as a NICU nurse
+Hook 3: I tested and ranked all nursing shoes so you don’t have to
+Hook 4: Rating my work shoes as an elementary school teacher (wear casual clothes here)
+Hook 5: Here’s my shoe collection as a teacher (as someone with plantar fasciitis) (wear casual clothes here)
+
+Hoka Bondi $165 - 6.5/10
+Comfortable for first 2 hours, but the insoles go flat and lose cushioning
+
+Skechers Memory Foam $80 - 2/10
+Soles ripped off the shoe 3 weeks in, and the heels were rubbing against my feet and caused blisters
+
+Brooks Ghost $149 - 7/10
+Comfortable for the ER rush, but toe-box is wayy too narrow. Made my bunions worse
+
+New Balance Fresh Foam $85 - 7.5/10
+So comfortable, but literally only lasted 2 months
+
+ComfortWear Ortho Stretch - $59 - 9/10
+Very comfortable for back to back 12s. Arch support, wide toe box and non-slip. highly recommend!
+
+---
+
+## COM205 — Shoe ranking with scores
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Nurse · **Creator type:** Nurse · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-19 · **Learnings:** —
+
+Hook 1: Use same exact hook as reference 1
+
+First up: the classic Walmart shoes
+
+My first nursing school shoe, cheap but also really uncomfortable!
+
+Comfort: 3/10
+Cuteness: 6.5/10
+Practicality: 5/10
+
+Idk if it’s just me, but adding Dr. scholls insoles are NOT helpful
+
+Next up: Crocs
+
+Functional and easy to clean, but the holes are SO ANNOYING! EW..
+
+Comfort: 5.5/10
+Cuteness: 3/10
+Practicality: 7/10
+(Simple design and affordable)
+
+You know all the nurses get them: HOKAS
+
+Comfort: 7/10 (only 7 because they wear out so so fast)
+Cuteness: 6/10 (really bulky)
+Practicality: 8/10 (not waterproof, always scared of getting them dirty $$$)
+
+My ComfortWear shoes
+
+New brand from Tiktok, really comfy, and supportive
+
+Comfort: 11/10
+Cuteness: 8/10 (I got 3 colors to rotate them, super cute design)
+Practicality: 8/10 (not waterproof, but machine-washable)
+
+Best one so far!! Affordable and used my HSA/FSA for extra savings
+
+What’s your go-to??!
+
+---
+
+## COM206 — If you’re diabetic, you likely have neuropathy animation
+
+**Status:** — · **NN/IT:** — · **Execution:** — · **Angle:** — · **Creator type:** — · **Product:** — · **Offer:** — · **Month:** August · **Created:** 2026-08-19 · **Learnings:** —
+
+(Page is blank: no script text.)
+
+---
+
+## COM207 — TOFV1_HJ27 | Iteration 6 | Song
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Teachers · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-19 · **Learnings:** —
+
+Reference: (video "2026s Favorite Shoes For Teachers" embedded on page). **PLEASE MAKE THIS AD A SONG, LIKE THIS ONE:** (Foreplay ad link) — this same note fills the Visual Description column on every row. Column note: **ALWAYS USE MALE V.O**. Lyrics/VO = the COM191 TOFV1_HJ27 script, generalized from "over 60" to all teachers.
+
+| Shot | On-Screen Text / Voiceover |
+|---|---|
+| Hook | Here's what no one wants to tell teachers <br><br>Your feet aren't wrecked from walking, they're wrecked from standing six hours a day in one spot on concrete and linoleum, decades of it by now. |
+| Hook | We asked teachers to test the five most popular shoes for standing all day. This is the only one that didn't go back in the box. |
+| Hook | Nobody tells teachers that after decades on hard floors, the shoe is the problem of why your feet hurt. |
+| Body | So we put the shoes teachers wear to the test against the day teachers actually have. |
+| Body | Think about your actual day. You're not strolling, you're planted at the whiteboard, over a student's shoulder, on duty in the hallway, standing still for hours on the hardest floors in the building. |
+| Body | After +30 years of that, your feet remember every one of those hours. |
+| Body | That's a completely different job than walking or running, and almost no shoe is built for it. |
+| Body | So we tested the ones teachers reach for most. |
+| Body | First up, the running shoes. |
+| Body | The Br00ks a lot of teachers get talked into at the running store, and they're genuinely well made for running. That's the problem. |
+| Body | They're engineered to move a runner forward, not to hold you still on a hard floor for 6 hours. |
+| Body | And that narrow, tapered toe box presses right where it hurts if you've got a wide foot or a bunion, which by your sixties, plenty of teachers do. |
+| Body | "Teachers in our test said theirs ached by the afternoon, and more than one said an old pair had literally worn a hole right where the bunion sits." |
+| Body | Next, the chunky max cushion sneakers like H0k4s. |
+| Body | These feel amazing through first period, all that soft foam. |
+| Body | But here's what that cushion does to a teacher, especially when steady footing matters more than it used to. |
+| Body | The taller and softer the stack, the less steady you are the second you stop walking and crouch down to a student's desk, and that plush foam packs down under a full day of standing. |
+| Body | A few months in, it's a flatter, deader shoe than the one you bought. |
+| Body | Then the clogs the veteran teachers swear by, like D4nsk0. |
+| Body | These are genuinely built for people who stand all day, but that rigid foot bed is rock hard from day one. |
+| Body | For a shoe you're supposed to wear all day, these were also the heaviest option on the list, and a heavier shoe is the last thing tired feet need after a long career on them. |
+| Body | D4nsk0-wearing teachers complain that they're too aware of the shoe throughout the day. |
+| Body | And then the one you buy when you decide to get serious about it, V1on1c, the podiatrist-designed orthopedic brand. |
+| Body | Credit where it's due, there's real arch support in there, but it's a rigid, molded foot bed built to one fixed shape, and your feet don't hold one shape across a school day, especially not after sixty, when swelling is just part of the deal. |
+| Body | They swell. |
+| Body | So by dismissal, that firm orthotic that fit you at eight in the morning is pressing on feet that have changed size, and you paid a premium for a lab-designed shoe that was never actually designed for your specific day on your feet. |
+| Body | Then finally, the one we thought was the best all-around option, the Orthostretch from ComfortWear. |
+| Body | It's the only one in the test that wasn't built for a runner, a lab, or a weekend. |
+| Body | It was built for people who stand on hard floors all day, like nurses and teachers, no matter how many years they've been doing it. |
+| Body | The sole is firm enough to protect your arches from concrete, but flexible enough to move fast when a kid needs you across the room. |
+| Body | It grips a wet hallway so you don't go down, which matters more the longer you've been on your feet. |
+| Body | And the knit upper actually stretches as your feet swell through the day, instead of pressing back on them. |
+| Body | It breathes through lunch duty, and it looks clean and professional, not athletic, not orthopedic. |
+| Body | Polished enough for parent-teacher night, comfortable enough for eight straight hours of teaching. |
+| Body | After a couple of weeks, the teachers who switched, veterans with twenty, thirty, even forty years in the classroom, all landed on a version of the same sentence. |
+| Body | For the first time in a long time, they were getting to the last bell with something left. |
+| Body | Not just feet that didn't hurt, actual energy, the kind that used to be gone by lunch, more for their students and more for themselves after a long school day. |
+| Body | Your feet are going to carry you to that last bell either way. |
+| Body | The only question is, how much of you is left when they do? |
+| Body | Tap below and see why teachers are making the switch. |
+
+---
+
+## COM208 — TOFV1_HJ27 | Iteration 7 | Short version
+
+**Status:** Editing · **NN/IT:** Iteration · **Execution:** Mash-Up · **Angle:** Teachers · **Creator type:** Teacher · **Product:** Ortho · **Offer:** No Offer · **Month:** August · **Created:** 2026-08-19 · **Learnings:** —
+
+Reference: (video "2026s Favorite Shoes For Teachers" embedded on page). Column note: **ALWAYS USE MALE V.O**. Visual Description on every row: "Use the same size of fonts for the captions. Also use super accurate footage like the one we are seeing on the reference".
+
+| Shot | On-Screen Text / Voiceover |
+|---|---|
+| Hook | Here's what no one wants to tell teachers <br><br>Your feet aren't wrecked from walking, they're wrecked from standing six hours a day in one spot on concrete and linoleum, decades of it by now. |
+| Hook | We asked teachers to test the 5 most popular shoes for standing all day. This is the only one that didn't go back in the box. |
+| Hook | Nobody tells teachers that after decades on hard floors, the shoe is the problem of why your feet hurt. |
+| Body | The $155 Hokas felt great in the first period, but they were flat by June. |
+| Body | The $170 Danskos were the heaviest shoe on the list, and teachers never forgot they had them on. |
+| Body | The $125 Vionics had real arch support, but a shape that doesn't move as feet swell all day. |
+| Body | Then the Orthostretch from ComfortWear they are $60. Firm enough for your arches, flexible enough to move fast, with a knit upper that stretches as your feet swell. Clean enough for parent-teacher night, comfortable enough for eight hours of teaching. |
+| CTA | Teachers with thirty years in the classroom are getting to the last bell with something left. Tap below and see why. |
+
+---
+
