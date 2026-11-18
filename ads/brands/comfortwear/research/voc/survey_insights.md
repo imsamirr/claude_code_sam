@@ -25,7 +25,7 @@ Aggregated only (no emails / order numbers). Raw export kept out of the repo.
 - **Retired**: just comfort 24%, PF 17%, **neuropathy 14%**, arthritis 13%, bunions 9%
 
 ## ⚠️ Satisfaction reality check (affects which claims are believable)
-> **Selection bias:** per `research/analysis.md` §9, this form is mostly routed to customers who gave a low rating, so it over-represents unhappy buyers (Trustpilot is 52% 5★, 21% 1★). Read the scores as "why people end up unhappy", not overall satisfaction. The 4–5★ answers (~4,000) are still a large pool of positive language.
+> **Selection bias:** happy customers do answer (≈22% rate 4–5, ~4,000 answers; see `stefanbrain_kb/feedback_pain_points_2026-10-28.md`, which corrects analysis.md §9), but respondents skew unhappy versus Trustpilot (52% 5★, 21% 1★). Read the low scores as "why people end up unhappy", not overall satisfaction.
 
 - Comfort rating: **1/5 = 45.6%**, 2 = 17.2%, 3 = 15.2%, 4 = 7.8%, **5 = 14.2%** → only ~22% rate 4–5.
 - 2023 was worst (8% 4–5); 2024–2026 steady at ~21–25%.
