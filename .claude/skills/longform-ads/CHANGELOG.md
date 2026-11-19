@@ -34,3 +34,7 @@ Evidence: `ads/brands/comfortwear/research/learning/market_study_2026-11-16.md` 
 
 **scroll_video.py** (ads/ and skill scripts/)
 - New `--px-per-frame` flag. The default is 1 (Mode A); 2 gives Mode B at 120 px/s with whole-pixel steps.
+
+## 2026-11-19 (DentalPULSE Thursday run)
+- `scroll_video.py`: still background and text layer decoded once and cached with the `loop` filter (pixel-identical output, ~40× cheaper filter; renders were running at ~1 fps). New `SCROLL_X264_PRESET` env override (default medium).
+- `scroll_video.py`: logs ElevenLabs `character-cost` per voice section to `<ID>/el_costs.txt`, because the key can't read `/v1/user/subscription`.
