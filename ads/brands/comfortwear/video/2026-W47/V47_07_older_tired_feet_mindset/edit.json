@@ -1,0 +1,76 @@
+{
+  "id": "V47_07_older_tired_feet_mindset",
+  "version": 3,
+  "created": "2026-11-19",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": false,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card; 9:16 with content inside 4:5.",
+  "angle": "Older feet need supportive heel cushioning and gentle stretch uppers that slip on easily without bending over",
+  "format": "Before vs After / Mindset Shift",
+  "caption_style": "NEW W47: solid black box, tight lowercase lines, square corners (Stephanie Fankhauser x CALLIXE m1427513129046344)",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/upbeat_pop_vlog_105bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "hands": "drive:1IOJzBG8s3tdONiD-zCRhODVvhJ8vXXKE",
+    "pov": "drive:1T78AKSgn3t9ZW8rTYcvYR9qTqS5guTiY",
+    "grandma": "drive:1WUCYA4k0L2DthOD_TuO0n_yeRfgHBQkM"
+  },
+  "source_notes": {
+    "hands": "2025/Rosa Pinto hands showing upper/sole/insole (owned creator)",
+    "pov": "2025/Larissa content/pov sidewalk walking.MOV (owned creator)",
+    "grandma": "Youtube/Tiktok Content snaptik_7370846899156307242 grandma dancing with Minnie in white sneakers (third-party TikTok creator; rights to confirm)"
+  },
+  "clips": [
+    {
+      "src": "hands",
+      "in": 0.0,
+      "out": 3.4,
+      "gain": 0
+    },
+    {
+      "src": "pov",
+      "in": 3.0,
+      "out": 6.0,
+      "gain": 0
+    },
+    {
+      "src": "grandma",
+      "in": 3.0,
+      "out": 8.0,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "style": "dark",
+      "size": 50,
+      "weight": "Bold",
+      "width": 0.7,
+      "lower": true,
+      "radius": 6,
+      "y": 0.21,
+      "clips": [
+        0,
+        2
+      ],
+      "text": "I thought tired feet were just part of getting older 👵 then I found *doctor-recommended stretch shoes* with real arch support! 💃✨"
+    }
+  ],
+  "persona": "senior woman 60+ who thought tired feet came with age",
+  "based_on": "INT_07.03.26_General Foot Pain Page_COM55_TOFv5_AR20 - Senior - 929 Iteration 2_Iteration_Ever green_AI+ExistingFootage_Iteration_Expert - Doctor_Louella_Julieta_IT4_v1 (top, $1,210 spend, ROAS 2.26, 7d to 2026-11-18). StefanBrain concept SF07: keeps its angle; new format/hook/story.",
+  "primary_text": "Walking on hard floors in stiff, flat sneakers sends shock straight into your feet and joints. The Ortho Stretch Cushion Shoe provides supportive cushioning that cradles your heel and supports your arch with every step. The soft stretch-knit upper never pinches, and the elastic no-tie laces make slipping them on completely effortless. Doctor-recommended and loved by over 500,000 women. Black Friday deal: 60% OFF + 2 FREE Gifts. Try them for 30 days. Feel the difference or get a full refund.",
+  "headline": "Doctor-Recommended Walking Shoes",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/new-tired-of-daily-foot-pain-these-shoes-help-foot-pain-swelling-painful-heels-of1",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
+  "stefanbrain_concept": "SF07",
+  "stefanbrain_title": "Senior Mobility & Walking Comfort"
+}

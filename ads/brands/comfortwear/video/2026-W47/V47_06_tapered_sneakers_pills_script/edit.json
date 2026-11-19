@@ -1,0 +1,92 @@
+{
+  "id": "V47_06_tapered_sneakers_pills_script",
+  "version": 1,
+  "created": "2026-11-19",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card; 9:16 with content inside 4:5.",
+  "angle": "Narrow tapered sneakers squeeze toes and crowd arches; doctor-recommended wide anatomical toe box and deep heel cushioning allow natural foot spread",
+  "format": "Product Anatomy / Wide Toe Box Focus",
+  "caption_style": "NEW W47: caramel label pills, one per scene (hopeanddaisieslifeover50 x HIKE m1579510697555668)",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/soft_acoustic_80bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "massage": "drive:1uVrLpwetWR8ZPmOmOpC3uTl8mEHVKBbm",
+    "hero": "drive:1-R9UYXyEOz4KoXodpiv5uOE7X4fIM_qz",
+    "walk": "drive:1C7SwV9hp_gMjdhuaPDkfZ6c6OGfthEfC"
+  },
+  "source_notes": {
+    "massage": "951 ShoesFor12HourShifts/BROLL MASSAGING PAIN POINTS_4 bare sole close-up (owned creator)",
+    "hero": "2025/Rosa Pinto side-profile hero black/white (owned creator)",
+    "walk": "2025/Jennifer Adcock/travel walking stretching.MOV low-angle feet in the shoes (owned creator)"
+  },
+  "clips": [
+    {
+      "src": "massage",
+      "in": 0.0,
+      "out": 3.0,
+      "gain": 0
+    },
+    {
+      "src": "hero",
+      "in": 0.0,
+      "out": 3.05,
+      "gain": 0
+    },
+    {
+      "src": "walk",
+      "in": 0.5,
+      "out": 3.6,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "style": "brand",
+      "color": "#C68B59",
+      "size": 46,
+      "weight": "Bold",
+      "width": 0.8,
+      "y": 0.24,
+      "clip": 0,
+      "text": "If your feet feel exhausted every evening, stop wearing *tapered sneakers* 🛑"
+    },
+    {
+      "style": "brand",
+      "color": "#C68B59",
+      "size": 46,
+      "weight": "Bold",
+      "width": 0.8,
+      "y": 0.24,
+      "clip": 1,
+      "text": "Doctor-recommended with a *wide anatomical toe box* for natural toe spread 👣"
+    },
+    {
+      "style": "brand",
+      "color": "#C68B59",
+      "size": 46,
+      "weight": "Bold",
+      "width": 0.8,
+      "y": 0.24,
+      "clip": 2,
+      "text": "Supportive heel cushioning keeps you comfortable with every step ☁️"
+    }
+  ],
+  "persona": "woman 45-65 with tired feet every evening (General Foot Pain avatar)",
+  "based_on": "INT_07.03.26_General Foot Pain Page_COM55_TOFv5_AR20 - Senior - 929 Iteration 2_Iteration_Ever green_AI+ExistingFootage_Iteration_Expert - Doctor_Louella_Julieta_IT4_v1 (top, $1,210 spend, ROAS 2.26, 7d to 2026-11-18). StefanBrain concept SF06: keeps its angle; new format/hook/story.",
+  "primary_text": "Evening foot fatigue is often caused by two design flaws in everyday footwear: a narrow toe box that squeezes your toes together, and flat insoles that fail to support your arch. Comfort Wear Ortho Stretch shoes are doctor-recommended for all-day comfort: an anatomical wide toe box gives your toes room to spread naturally without friction, responsive arch support maintains its shape, and a cushioned heel absorbs impact. Breathable stretch-knit upper slips on without tying laces. Black Friday Special: 60% OFF + 2 FREE Gifts. Test them for 30 days risk-free. Feel the difference or send them back for a full refund.",
+  "headline": "Doctor-Recommended Comfort Shoes",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/new-tired-of-daily-foot-pain-these-shoes-help-foot-pain-swelling-painful-heels-of1",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
+  "stefanbrain_concept": "SF06",
+  "stefanbrain_title": "Wide Toe Box Sneaker Breakdown"
+}

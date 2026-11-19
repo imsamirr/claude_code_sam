@@ -1,0 +1,94 @@
+{
+  "id": "V47_05_charge_nurse_thank_you",
+  "version": 4,
+  "created": "2026-11-19",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card; 9:16 with content inside 4:5.",
+  "angle": "Sagging arches cause foot fatigue on hard floors; structured podiatrist-recommended contour provides all-shift stamina",
+  "format": "Thank You / Advice",
+  "caption_style": "Instagram serif (Savannah Bell / Dr. Woof), 72 px",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/soft_acoustic_80bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "tired": "drive:10uShHAyOWQo6vKfStK6OL0pw1GJ70FUd",
+    "shoes": "drive:1ML9nY7RZwhN84mkIIJ3HahajH8Tz-Mud",
+    "feetup": "drive:1LHkR5V1Jt8IEREPExyxqd6L2IvWazKNB"
+  },
+  "source_notes": {
+    "tired": "951 ShoesFor12HourShifts/BROLL MASSAGING PAIN POINTS_3 (owned creator)",
+    "shoes": "MISC B-ROLL ACH-ALX-189 nurse smiling with shoes + navy shoes on feet (owned agency)",
+    "feetup": "951 ShoesFor12HourShifts/BROLL LIGHTWEIGHT_3 feet up, smiling (owned creator)"
+  },
+  "clips": [
+    {
+      "src": "tired",
+      "in": 1.6,
+      "out": 6.0,
+      "gain": 0
+    },
+    {
+      "src": "shoes",
+      "in": 0.0,
+      "out": 1.95,
+      "gain": 0,
+      "shift_y": 0.12,
+      "speed": 0.8
+    },
+    {
+      "src": "feetup",
+      "in": 0.0,
+      "out": 2.65,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "style": "serif",
+      "font": "serif",
+      "size": 72,
+      "width": 0.86,
+      "y": 0.74,
+      "text": "To the charge nurse who saw me exhausted and told me to get *stretchy arch support shoes*… you saved my shifts! 🥹❤️🩺",
+      "clip": 0,
+      "weight": "Bold"
+    },
+    {
+      "style": "serif",
+      "font": "serif",
+      "size": 72,
+      "width": 0.86,
+      "y": 0.6,
+      "text": "To the charge nurse who saw me exhausted and told me to get *stretchy arch support shoes*… you saved my shifts! 🥹❤️🩺",
+      "clip": 1,
+      "weight": "Bold"
+    },
+    {
+      "style": "serif",
+      "font": "serif",
+      "size": 72,
+      "width": 0.86,
+      "y": 0.76,
+      "text": "To the charge nurse who saw me exhausted and told me to get *stretchy arch support shoes*… you saved my shifts! 🥹❤️🩺",
+      "clip": 2,
+      "weight": "Bold"
+    }
+  ],
+  "persona": "nurse after back-to-back 12s",
+  "based_on": "TOFv1_HF2 | 807_Aubrey_New UGC_Ortho_Stretch_Shoe_Don’t Waste Spent Money_9X16 HOOK 03 (top, $1,720 spend, ROAS 1.72, 7d to 2026-11-18). StefanBrain concept SF05: keeps its angle; new format/hook/story.",
+  "primary_text": "Tired of dragging your feet to your car after 3 12s in a row? When you stand on hard hospital floors for half a day, unsupportive shoes let your arches sag under constant pressure. The Ortho Stretch Cushion Shoe provides targeted, podiatrist-recommended arch support and deep heel cup cushioning to keep your feet and body properly supported. Over 500,000 healthcare pros and workers rely on Comfort Wear. Black Friday Sale: 60% OFF + 2 FREE Gifts today. 30 days risk-free, full refund guaranteed.",
+  "headline": "The Nurse Shoe For Long Shifts",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
+  "stefanbrain_concept": "SF05",
+  "stefanbrain_title": "Charge Nurse Advice For 12-Hour Shifts"
+}

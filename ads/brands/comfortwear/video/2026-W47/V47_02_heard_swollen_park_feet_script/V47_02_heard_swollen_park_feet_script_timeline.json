@@ -1,0 +1,25 @@
+{
+ "total": 11.133,
+ "scenes": [
+  {
+   "src": "swollen",
+   "start": 0.0,
+   "end": 2.667
+  },
+  {
+   "src": "stretch",
+   "start": 2.667,
+   "end": 5.6
+  },
+  {
+   "src": "mainst",
+   "start": 5.6,
+   "end": 8.3
+  },
+  {
+   "src": "_end_card",
+   "start": 8.3,
+   "end": 11.133
+  }
+ ]
+}

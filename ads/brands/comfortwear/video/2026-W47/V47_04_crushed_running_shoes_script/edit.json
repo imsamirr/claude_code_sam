@@ -1,0 +1,115 @@
+{
+  "id": "V47_04_crushed_running_shoes_script",
+  "version": 2,
+  "created": "2026-11-19",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card; 9:16 with content inside 4:5.",
+  "angle": "Running shoes collapse under constant pressure on concrete; 12-hour shifts demand reinforced arch support that holds its shape",
+  "format": "Closet Graveyard / Ditch the...",
+  "caption_style": "Two-tone highlight: Inter ExtraBold white + shadow, *yellow* key phrase (VIVAIA), 72 px",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/confident_strut_95bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "old": "drive:1AQnfCz89G0RaDHDewV8ND43BAEoYr-Wa",
+    "show": "drive:1MOBZmhq1i87e5Zz8IqLd6b_10GqeoL5R",
+    "hall": "drive:1vJvLvq-Gl0NE6xYxOwr-a4vkK8xdQsL8"
+  },
+  "source_notes": {
+    "old": "Olivia/951 ShoesFor12HourShifts/BROLL USING OLD SHOES_1 worn pink running shoes (owned creator; ASICS stripes blurred)",
+    "show": "MISC B-ROLL/Nurses nurse posing by a white door in black/white CW shoes (owned agency)",
+    "hall": "2024/November 2024/Nurse shifts IMG_3782 hallway walk toward camera (owned creator)"
+  },
+  "clips": [
+    {
+      "src": "old",
+      "in": 4.5,
+      "out": 7.4,
+      "gain": 0,
+      "blur": [
+        {
+          "box": [
+            0.0,
+            0.36,
+            0.46,
+            0.72
+          ],
+          "strength": 22
+        },
+        {
+          "box": [
+            0.56,
+            0.36,
+            1.0,
+            0.74
+          ],
+          "strength": 22
+        }
+      ]
+    },
+    {
+      "src": "show",
+      "in": 4.0,
+      "out": 7.2,
+      "gain": 0
+    },
+    {
+      "src": "hall",
+      "in": 3.0,
+      "out": 6.3,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "style": "shadow",
+      "font": "inter",
+      "weight": "ExtraBold",
+      "size": 72,
+      "width": 0.86,
+      "y": 0.24,
+      "shadow": 0.9,
+      "clip": 0,
+      "text": "Crushed another pair of pink running shoes after two months on concrete 🤦‍♀️"
+    },
+    {
+      "style": "shadow",
+      "font": "inter",
+      "weight": "ExtraBold",
+      "size": 72,
+      "width": 0.86,
+      "y": 0.52,
+      "shadow": 0.9,
+      "clip": 1,
+      "text": "Running shoe foam collapses under constant pressure. You need *reinforced arch support* 🩺"
+    },
+    {
+      "style": "shadow",
+      "font": "inter",
+      "weight": "ExtraBold",
+      "size": 72,
+      "width": 0.86,
+      "y": 0.24,
+      "shadow": 0.9,
+      "clip": 2,
+      "text": "Hour 12 in the ER and my feet still feel supported 🙌"
+    }
+  ],
+  "persona": "ER/hospital nurse doing 12s (avatar: nurse 30-55)",
+  "based_on": "TOFv1_HF2 | 807_Aubrey_New UGC_Ortho_Stretch_Shoe_Don’t Waste Spent Money_9X16 HOOK 03 (top, $1,720 spend, ROAS 1.72, 7d to 2026-11-18). StefanBrain concept SF04: keeps its angle; new format/hook/story.",
+  "primary_text": "If your closet is full of worn-out running shoes that flattened after just two months, you are wearing the wrong footwear for nursing. Running shoes are designed for forward motion on soft tracks, not 12 straight hours of standing on hospital concrete. Comfort Wear Ortho Stretch shoes are engineered specifically for long shifts: reinforced arch support that never collapses under pressure, a wide toe box that lets your toes spread naturally, and slip-resistant outsoles for slick hospital floors. Black Friday Deal: 60% OFF + 2 FREE Gifts. Try them risk-free for 30 days. Full refund if your feet do not love them.",
+  "headline": "The 12-Hour Shift Shoe For Nurses",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
+  "stefanbrain_concept": "SF04",
+  "stefanbrain_title": "Ditching Running Shoes For 12-Hour Nursing"
+}

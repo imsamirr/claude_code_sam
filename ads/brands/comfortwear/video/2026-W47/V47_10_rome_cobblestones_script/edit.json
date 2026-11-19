@@ -1,0 +1,91 @@
+{
+  "id": "V47_10_rome_cobblestones_script",
+  "version": 4,
+  "created": "2026-11-19",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card; 9:16 with content inside 4:5.",
+  "angle": "Featherlight stretch shoes with slip-resistant cobblestone traction beat heavy running sneakers",
+  "format": "Nobody told me...",
+  "caption_style": "Translucent box (glass) script captions, *yellow highlight* on key phrase",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/soft_acoustic_80bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "gate": "drive:1UePRzoB9LebqqQ8tfs9G_i6cMZsvBH6P",
+    "selfie": "drive:1ewO_l-nBiOOky4hcliSBDhqYim4Toha8",
+    "stpeter": "drive:1IxId47AKz17YXeXr8xWzUGsMPAdkGlFD"
+  },
+  "source_notes": {
+    "gate": "2025/Jennifer Adcock/travel/rubbing heel.MOV (owned creator)",
+    "selfie": "The Trip You Refuse To Ruin/B-Roll - Italy 4.MOV, Rome cobblestone selfie walk, shoes visible 4.5-6.5 (owned creator)",
+    "stpeter": "The Trip You Refuse To Ruin/B-Roll - Italy 8.MOV, St Peter's Square cobblestones (owned creator)"
+  },
+  "clips": [
+    {
+      "src": "gate",
+      "in": 1.4,
+      "out": 4.9,
+      "gain": 0,
+      "shift_y": 0.08
+    },
+    {
+      "src": "stpeter",
+      "in": 0.0,
+      "out": 3.8,
+      "gain": 0
+    },
+    {
+      "src": "selfie",
+      "in": 4.3,
+      "out": 7.3,
+      "gain": 0,
+      "shift_y": 0.3
+    }
+  ],
+  "captions": [
+    {
+      "style": "glass",
+      "size": 54,
+      "width": 0.86,
+      "y": 0.27,
+      "box_accent": "#FFD84D",
+      "clip": 0,
+      "text": "Nobody told me European cobblestones destroy your feet in sneakers 😩"
+    },
+    {
+      "style": "glass",
+      "size": 54,
+      "width": 0.86,
+      "y": 0.27,
+      "box_accent": "#FFD84D",
+      "clip": 1,
+      "text": "These *featherlight stretch shoes* have non-slip grip for cobblestones 👟✨"
+    },
+    {
+      "style": "glass",
+      "size": 54,
+      "width": 0.86,
+      "y": 0.27,
+      "box_accent": "#FFD84D",
+      "clip": 2,
+      "text": "25,000 steps through Rome and my arches feel amazing 🏛️🍕"
+    }
+  ],
+  "persona": "traveler (avatar: woman 45-65, Europe trip, 20k+ steps/day)",
+  "based_on": "TOFV1_OR3 | COM406_H1 (new, $202 spend, ROAS 2.64, 7d to 2026-11-18). StefanBrain concept SF10: keeps its angle; new format/hook/story.",
+  "primary_text": "Planning a trip with 20,000+ daily steps? Heavy running shoes make your legs feel like concrete, while stiff sneakers guarantee blisters on ancient cobblestones. The Ortho Stretch Cushion Shoe is the ultimate travel companion: featherlight construction prevents heavy-leg fatigue, a non-slip rubber outsole grips slick stone securely, and breathable stretch knit slips on and off effortlessly at airport security. Black Friday Deal: 60% OFF + 2 FREE Gifts. Try them risk-free for 30 days. Full refund if your feet are not thrilled.",
+  "headline": "The Best Cobblestone Walking Shoe",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
+  "stefanbrain_concept": "SF10",
+  "stefanbrain_title": "Cobblestone Walking Shoe Revelation"
+}

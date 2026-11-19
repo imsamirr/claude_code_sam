@@ -1,0 +1,25 @@
+{
+ "total": 11.3,
+ "scenes": [
+  {
+   "src": "massage",
+   "start": 0.0,
+   "end": 2.867
+  },
+  {
+   "src": "hero",
+   "start": 2.867,
+   "end": 5.667
+  },
+  {
+   "src": "walk",
+   "start": 5.667,
+   "end": 8.467
+  },
+  {
+   "src": "_end_card",
+   "start": 8.467,
+   "end": 11.3
+  }
+ ]
+}

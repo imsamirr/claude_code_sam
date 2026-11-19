@@ -1,0 +1,92 @@
+{
+  "id": "V47_02_heard_swollen_park_feet_script",
+  "version": 3,
+  "created": "2026-11-19",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card; 9:16 with content inside 4:5.",
+  "angle": "Adaptive 4-way stretch knit upper accommodates swollen feet while arch cushion supports hours of walking",
+  "format": "Heard you were looking...",
+  "caption_style": "TikTok Classic white box, script captions, *yellow highlight* in box",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/park_whimsical_100bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "swollen": "drive:1jRAlap9D6E6NuWe9NeCEaMEe7I_IGnoQ",
+    "stretch": "drive:1dpPJdTB-tMXwfr4dwBWg1OIzKMdnkGj4",
+    "mainst": "tiktok:7634338191922728206"
+  },
+  "source_notes": {
+    "swollen": "Youtube/Tiktok Content snaptik_7661801701602610463 swollen foot on dashboard (third-party TikTok creator; rights to confirm)",
+    "stretch": "2025/Larissa content/Purple shoes/IMG_0933.MOV stretching the knit (owned creator)",
+    "mainst": "TikTok @plussizeparkhoppers Stephanie on the Magic Kingdom hub path (burned captions cropped with zoom; third-party TikTok creator; rights to confirm)"
+  },
+  "clips": [
+    {
+      "src": "swollen",
+      "in": 0.4,
+      "out": 3.2,
+      "gain": 0
+    },
+    {
+      "src": "stretch",
+      "in": 8.4,
+      "out": 11.6,
+      "gain": 0,
+      "shift_y": 0.2
+    },
+    {
+      "src": "mainst",
+      "in": 2.3,
+      "out": 5.3,
+      "gain": 0,
+      "zoom": 1.22,
+      "focus_y": 0.15
+    }
+  ],
+  "captions": [
+    {
+      "style": "box",
+      "size": 50,
+      "width": 0.86,
+      "y": 0.27,
+      "box_accent": "#E0A800",
+      "clip": 0,
+      "text": "Heard you were looking for park shoes that don't squeeze swollen feet 👀"
+    },
+    {
+      "style": "box",
+      "size": 50,
+      "width": 0.86,
+      "y": 0.74,
+      "box_accent": "#E0A800",
+      "clip": 1,
+      "text": "This *4-way stretch knit* upper expands when your feet swell ☁️"
+    },
+    {
+      "style": "box",
+      "size": 50,
+      "width": 0.86,
+      "y": 0.27,
+      "box_accent": "#E0A800",
+      "clip": 2,
+      "text": "All 24,000 steps done and my feet feel supported 🥹🏰"
+    }
+  ],
+  "persona": "plus-size Disney traveler",
+  "based_on": "TOFV1_KW1 | COM284_HO1 (top, $2,202 spend, ROAS 2.26, 7d to 2026-11-18). StefanBrain concept SF02: keeps its angle; new format/hook/story.",
+  "primary_text": "When you are walking miles in the theme park heat, your feet naturally swell. In standard sneakers, that means squeezed toes and friction by early afternoon. The Ortho Stretch Cushion Shoe features an adaptive 4-way stretch knit upper that expands as your feet swell throughout the day. Paired with podiatrist-recommended arch support and supportive heel cushioning, you get all-day comfort. Black Friday Sale: 60% OFF + 2 FREE Gifts. Try them risk-free for 30 days with our full money-back guarantee.",
+  "headline": "Roomy Shoes For Swollen Feet At Disney",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
+  "stefanbrain_concept": "SF02",
+  "stefanbrain_title": "Swollen Theme Park Feet Solution"
+}

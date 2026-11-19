@@ -1,0 +1,25 @@
+{
+ "total": 14.033,
+ "scenes": [
+  {
+   "src": "crawl",
+   "start": 0.0,
+   "end": 3.267
+  },
+  {
+   "src": "sock",
+   "start": 3.267,
+   "end": 6.6
+  },
+  {
+   "src": "group",
+   "start": 6.6,
+   "end": 11.2
+  },
+  {
+   "src": "_end_card",
+   "start": 11.2,
+   "end": 14.033
+  }
+ ]
+}

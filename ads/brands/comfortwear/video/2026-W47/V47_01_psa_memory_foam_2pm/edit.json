@@ -1,0 +1,76 @@
+{
+  "id": "V47_01_psa_memory_foam_2pm",
+  "version": 2,
+  "created": "2026-11-19",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card; 9:16 with content inside 4:5.",
+  "angle": "Memory foam collapses under body weight vs non-collapsing arch support and wide toe box",
+  "format": "PSA / Warning",
+  "caption_style": "TikTok Classic font, thin outline (playbook §7 classic), 72 px floor, *yellow highlight*",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/upbeat_pop_vlog_105bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "crawl": "drive:1Jv0NoQ1N3hmcsZ-G5UExEWEeQSue0Ebz",
+    "sock": "drive:1Jj0OStvW1kZ8-c_tbb5jzMyDv30QOaQC",
+    "group": "drive:1O2ny98nZUOIjf_QHSPxSfhvlKZMjaA5a"
+  },
+  "source_notes": {
+    "crawl": "Youtube/Tiktok Content snaptik_7516751375980580126 Epcot crawl at night (third-party TikTok creator; rights to confirm)",
+    "sock": "2025/Larissa content/close up of ankle sock.MOV (owned creator, black/purple)",
+    "group": "Youtube/Tiktok Content snaptik_7350800677989322026 (1) plus-size friends with Minnie ears (third-party TikTok creator; rights to confirm)"
+  },
+  "clips": [
+    {
+      "src": "crawl",
+      "in": 0.0,
+      "out": 3.4,
+      "gain": 0
+    },
+    {
+      "src": "sock",
+      "in": 6.0,
+      "out": 9.6,
+      "gain": 0,
+      "focus_y": 0.5,
+      "shift_y": 0.28
+    },
+    {
+      "src": "group",
+      "in": 0.0,
+      "out": 4.9,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "style": "classic",
+      "font": "classic",
+      "size": 72,
+      "width": 0.88,
+      "y": 0.27,
+      "clips": [
+        0,
+        2
+      ],
+      "text": "PSA to fellow plus-size Disney girlies: memory foam collapses by 2 PM 😭 switch to *wide toe box stretch shoes* before your trip 🙌👟"
+    }
+  ],
+  "persona": "plus-size Disney traveler (avatar: plus-size woman 40-60 planning a park trip)",
+  "based_on": "TOFV1_KW1 | COM284_HO1 (top, $2,202 spend, ROAS 2.26, 7d to 2026-11-18). StefanBrain concept SF01: keeps its angle; new format/hook/story.",
+  "primary_text": "A full park day means 20,000+ steps and zero time off your feet. Standard memory foam flattens out under body weight by lunch, leaving your arches to take all the shock. Comfort Wear gives you a wide toe box so your toes can splay naturally, plus reinforced arch support that never collapses. Over 500,000 happy customers trust them. Black Friday Deal: 60% OFF + 2 FREE Gifts today. Try them risk-free for 30 days. Feel the difference or get a full refund.",
+  "headline": "Favorite Shoes For Plus-Size Disney",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
+  "stefanbrain_concept": "SF01",
+  "stefanbrain_title": "Plus-Size Disney Memory Foam Warning"
+}

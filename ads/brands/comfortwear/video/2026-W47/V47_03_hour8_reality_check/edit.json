@@ -1,0 +1,91 @@
+{
+  "id": "V47_03_hour8_reality_check",
+  "version": 2,
+  "created": "2026-11-19",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card; 9:16 with content inside 4:5.",
+  "angle": "Regular sneakers collapse after miles of park walking; wide toe box and reinforced cushioning sustain long hours on your feet",
+  "format": "Reality Check / The Hour 8 Rule",
+  "caption_style": "Bold Helvetica + shadow (Happy Tuesdays), 72 px floor",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/upbeat_pop_vlog_105bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "sneakers": "drive:1BUYLrdflqpnYFS68acz45pt-yq3kksu7",
+    "features": "drive:1NidD6y3D26gcKyMEFkE-fI9_a5Hh8gvd",
+    "pm": "tiktok:7499239485348105515"
+  },
+  "source_notes": {
+    "sneakers": "Youtube/Tiktok Content skechers in disney.mp4 4.0-6.8 (woman in white Skech*rs at the park; logos blurred) (third-party TikTok creator; rights to confirm)",
+    "features": "2025/Larissa content/catching shoe.MOV shoe next to her face (owned creator)",
+    "pm": "TikTok @plussizeparkhoppers PeopleMover chair dance (third-party TikTok creator; rights to confirm)"
+  },
+  "clips": [
+    {
+      "src": "sneakers",
+      "in": 4.0,
+      "out": 6.8,
+      "gain": 0,
+      "shift_y": 0.12
+    },
+    {
+      "src": "features",
+      "in": 7.0,
+      "out": 9.4,
+      "gain": 0,
+      "shift_y": 0.06
+    },
+    {
+      "src": "pm",
+      "in": 4.5,
+      "out": 7.6,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "style": "shadow",
+      "font": "helvetica",
+      "size": 72,
+      "width": 0.9,
+      "y": 0.62,
+      "text": "Normal sneakers feel fine at breakfast but *hour 8 at Disney* is brutal 😮‍💨 switch to wide toe box cushion shoes before your trip! 🏰👟",
+      "clip": 0
+    },
+    {
+      "style": "shadow",
+      "font": "helvetica",
+      "size": 72,
+      "width": 0.9,
+      "y": 0.72,
+      "text": "Normal sneakers feel fine at breakfast but *hour 8 at Disney* is brutal 😮‍💨 switch to wide toe box cushion shoes before your trip! 🏰👟",
+      "clip": 1
+    },
+    {
+      "style": "shadow",
+      "font": "helvetica",
+      "size": 72,
+      "width": 0.9,
+      "y": 0.66,
+      "text": "Normal sneakers feel fine at breakfast but *hour 8 at Disney* is brutal 😮‍💨 switch to wide toe box cushion shoes before your trip! 🏰👟",
+      "clip": 2
+    }
+  ],
+  "persona": "Disney trip planner (mom/wife 35-55)",
+  "based_on": "TOFV1_OP2 | COM417 (new, $205 spend, ROAS 2.04, 7d to 2026-11-18). StefanBrain concept SF03: keeps its angle; new format/hook/story.",
+  "primary_text": "A Disney day can mean miles of walking, hours standing in lines, and very little time off your feet. Your regular comfortable sneakers might feel fine at breakfast, but hour 8 can be a very different story. That is why over 500,000 customers trust Comfort Wear. Wide toe box gives your toes room instead of squeezing them together. Supportive cushioning for hours of walking and standing. Roomier, breathable fit when your feet swell after a long day. Black Friday Deal: 60% OFF + 2 FREE Gifts. Try them risk-free for 30 days. Feel the difference or send them back for a full refund.",
+  "headline": "2026's Favorite Shoes For Disney Trips",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/the-5-best-shoes-for-disney",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
+  "stefanbrain_concept": "SF03",
+  "stefanbrain_title": "The Disney Hour 8 Reality Check"
+}

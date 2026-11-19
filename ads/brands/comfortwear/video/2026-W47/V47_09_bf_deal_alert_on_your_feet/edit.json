@@ -1,0 +1,92 @@
+{
+  "id": "V47_09_bf_deal_alert_on_your_feet",
+  "version": 3,
+  "created": "2026-11-19",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": false,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card; 9:16 with content inside 4:5.",
+  "angle": "Annual 60% off discount plus 2 free gifts on doctor-recommended work shoes",
+  "format": "Black Friday Deal Alert / PSA",
+  "caption_style": "Colour box: yellow box, black text (hoop, W46 style log)",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/confident_strut_95bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "thumbs": "drive:1hSysEq7jf0k3sejNilAnmGZkWO6cNnRM",
+    "puton": "drive:12dl74gmGt7qfWUTgR-I9OzTW3LTvjPn9",
+    "mirror": "drive:1t4VX9PJE9yh_940o0SGxmgvCuxg5llNI"
+  },
+  "source_notes": {
+    "thumbs": "MISC B-ROLL/Nurses thumbs up holding shoes (owned agency)",
+    "puton": "MISC B-ROLL/Nurses putting on CW shoes (owned agency)",
+    "mirror": "MISC B-ROLL/Nurses mirror selfie in CW shoes (owned agency)"
+  },
+  "clips": [
+    {
+      "src": "thumbs",
+      "in": 1.3,
+      "out": 4.8,
+      "gain": 0,
+      "shift_y": 0.1
+    },
+    {
+      "src": "puton",
+      "in": 4.5,
+      "out": 7.6,
+      "gain": 0,
+      "shift_y": 0.12
+    },
+    {
+      "src": "mirror",
+      "in": 0.5,
+      "out": 4.0,
+      "gain": 0,
+      "shift_y": 0.12
+    }
+  ],
+  "captions": [
+    {
+      "style": "box",
+      "bg": "#FFE14D",
+      "size": 52,
+      "width": 0.86,
+      "y": 0.2,
+      "text": "If you work on your feet, Comfort Wear is *60% OFF + 2 FREE gifts* for Black Friday right now! 🙌👟🎁",
+      "clip": 0
+    },
+    {
+      "style": "box",
+      "bg": "#FFE14D",
+      "size": 52,
+      "width": 0.86,
+      "y": 0.2,
+      "text": "If you work on your feet, Comfort Wear is *60% OFF + 2 FREE gifts* for Black Friday right now! 🙌👟🎁",
+      "clip": 1
+    },
+    {
+      "style": "box",
+      "bg": "#FFE14D",
+      "size": 52,
+      "width": 0.86,
+      "y": 0.5,
+      "text": "If you work on your feet, Comfort Wear is *60% OFF + 2 FREE gifts* for Black Friday right now! 🙌👟🎁",
+      "clip": 2
+    }
+  ],
+  "persona": "nurse / works on her feet (warm audience)",
+  "based_on": "RTGv1_R7 | General Black Friday | COM325 (new, $213 spend, ROAS 3.7, 7d to 2026-11-18). StefanBrain concept SF09: keeps its angle; new format/hook/story.",
+  "primary_text": "The biggest sale of the year is officially here. If you have been waiting to try Comfort Wear's Ortho Stretch Cushion Shoe, now is your chance. Get 60% OFF + 2 FREE gifts, plus doctor-recommended arch support, a wide toe box, and elastic no-tie laces with slip-resistant soles. Over 500,000 customers trust Comfort Wear for 12-hour shifts and endless walking. Tap Shop Now to claim your deal today. 30-day risk-free trial with full refund guarantee.",
+  "headline": "60% OFF + 2 FREE Gifts Black Friday",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-black-friday-deal-2026",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
+  "stefanbrain_concept": "SF09",
+  "stefanbrain_title": "Work Shoes Black Friday Sale Alert"
+}

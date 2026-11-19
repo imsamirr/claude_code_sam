@@ -1,0 +1,91 @@
+{
+  "id": "V47_08_pov_running_shoes_in_line_script",
+  "version": 3,
+  "created": "2026-11-19",
+  "end_card": "auto",
+  "transition": "fade",
+  "transition_duration": 0.25,
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card; 9:16 with content inside 4:5.",
+  "angle": "Running shoes are engineered for 40-minute runs; static standing in lines compresses soft foam flat, requiring firm arch structure",
+  "format": "POV",
+  "caption_style": "Heavy meme stroke (Speak / Crown & Paw), outline Black weight, 72 px",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/park_whimsical_100bpm.mp3",
+    "gain": 0.45,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "hoka": "drive:1cNPCsQlHu1br_vNmwRRHuietWySiXVGd",
+    "purple": "drive:1ygiK3dyWGJ506O8l7V6aVR6b-TIVW1uJ",
+    "queue": "drive:1L7tIAMDqgRsUUxe8r5PFd1fkBGjDHL83"
+  },
+  "source_notes": {
+    "hoka": "Youtube/Tiktok Content hoka.mp4 Hoka Bondi held over its box (competitor shoe, named in caption) (third-party TikTok creator; rights to confirm)",
+    "purple": "2025/Larissa content/Purple shoes/IMG_0932.MOV (owned creator)",
+    "queue": "Youtube/Tiktok Content snaptik_7426130546218110238 plus-size creator in the coaster queue (burned captions cropped with zoom) (third-party TikTok creator; rights to confirm)"
+  },
+  "clips": [
+    {
+      "src": "hoka",
+      "in": 1.0,
+      "out": 4.0,
+      "gain": 0
+    },
+    {
+      "src": "purple",
+      "in": 12.0,
+      "out": 14.6,
+      "gain": 0
+    },
+    {
+      "src": "queue",
+      "in": 44.3,
+      "out": 47.2,
+      "gain": 0,
+      "zoom": 1.3,
+      "focus_y": 0.95
+    }
+  ],
+  "captions": [
+    {
+      "style": "outline",
+      "weight": "Black",
+      "size": 72,
+      "width": 0.88,
+      "y": 0.25,
+      "clip": 0,
+      "text": "POV: wearing running shoes to stand in line at Disney 🫠"
+    },
+    {
+      "style": "outline",
+      "weight": "Black",
+      "size": 72,
+      "width": 0.88,
+      "y": 0.78,
+      "clip": 1,
+      "text": "Running foam goes flat. You need *support built for standing* 👣"
+    },
+    {
+      "style": "outline",
+      "weight": "Black",
+      "size": 72,
+      "width": 0.88,
+      "y": 0.25,
+      "clip": 2,
+      "text": "10 hours standing in lines and my feet still feel fresh 🎡🥳"
+    }
+  ],
+  "persona": "plus-size Disney traveler",
+  "based_on": "TOFV1_NL1 | COM376_HO1 (top, $1,022 spend, ROAS 1.79, 7d to 2026-11-18). StefanBrain concept SF08: keeps its angle; new format/hook/story.",
+  "primary_text": "Hokas and running sneakers are engineered to bounce a runner forward on short runs. But when you are standing still on concrete waiting 70 minutes for an attraction, that bouncy foam compresses completely flat. That is why your feet feel completely exhausted before dinner. Comfort Wear Ortho Stretch shoes are built specifically for walking and prolonged standing: anatomical arch support that holds its shape under continuous body weight, a roomy toe box so your toes can relax and spread, and ultra-breathable stretch knit that keeps feet cool all day. Black Friday special: 60% OFF + 2 FREE Gifts. Test them risk-free for 30 days. Full refund if you do not love them.",
+  "headline": "The Best Shoes For Disney Lines",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/the-5-best-shoes-for-disney",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
+  "stefanbrain_concept": "SF08",
+  "stefanbrain_title": "Theme Park Line Standing Truth"
+}
