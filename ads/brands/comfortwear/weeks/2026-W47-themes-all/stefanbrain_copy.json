@@ -1,0 +1,647 @@
+{
+ "runs": [
+  {
+   "at": "2026-11-19T18:31:01",
+   "session": "comfortwear-statics-2026-W47-themes-all-1",
+   "chat": "chat_47534b71fdf745eb8f783ea4268f219c",
+   "url": "https://stefanbrain.com/chat/47534b71-fdf7-45eb-8f78-3ea4268f219c",
+   "concepts": [
+    {
+     "angle": "Healthcare x Black Friday 12-hour shift comfort",
+     "fb_description": "$59.95 Today + Free Shipping",
+     "fb_headline": "60% Off Sitewide | 12-Hour Shift",
+     "headline": "12-Hour Shift Comfort",
+     "id": "TA_IV_01_H",
+     "on_image_text": [
+      "Black Friday Sale",
+      "60% OFF SITEWIDE",
+      "Arch support • Heel cushion • Wide toe box",
+      "Built for 12-hour hospital floors.",
+      "HSA/FSA Eligible",
+      "30-Day Guarantee"
+     ],
+     "primary_text": "Twelve hours on hard hospital tile takes a toll on your heels and arches before your shift is even half over. The Ortho Stretch Cushion Shoe is built specifically for women on their feet all day. It pairs anatomically contoured arch support with a shock-absorbing heel and an extra-wide toe box so your toes never feel pinched. The breathable stretch-knit upper slips on in seconds with no-tie elastic laces. Our Black Friday Sale is live: take 60% OFF sitewide today. That brings them down to just $59.95 (regularly $120). Use code LEAKED10 at checkout for an extra 10% off. Try them on your next three shifts. If your feet do not thank you, return them within 30 days for a full refund. Free shipping & returns included.",
+     "why": "Grounds the six-color grid benchmark in hospital floor fatigue, answering the nurse shift foot-pain objection."
+    },
+    {
+     "angle": "Disney x Black Friday theme park endurance",
+     "fb_description": "$59.95 Sale + Free Shipping",
+     "fb_headline": "Theme Park Comfort: 60% Off Today",
+     "headline": "Theme Park Comfort",
+     "id": "TA_IV_01_D",
+     "on_image_text": [
+      "Black Friday Sale",
+      "60% OFF SITEWIDE",
+      "Arch support • Heel cushion • Wide toe box",
+      "Built for 20,000 park steps.",
+      "30-Day Guarantee",
+      "Free Shipping"
+     ],
+     "primary_text": "A full day at Disney means 20,000 steps on unforgiving concrete and standing in two-hour lines with the family. If your footwear lacks real support, your heels and arches start throbbing by early afternoon. The Ortho Stretch Cushion Shoe is engineered for marathon walking days. An anatomical arch cradle stabilizes every step, while the deep heel cushion absorbs the heavy impact of concrete pavement. The stretch-knit upper expands naturally as your feet swell in the Florida heat, and the wide toe box gives your toes plenty of room to spread out. Our Black Friday Sale is on now: get 60% OFF sitewide. Pick up your pair for just $59.95 (regularly $120). Add code LEAKED10 at checkout to save an extra 10%. Pack them for your next park trip. Wear them all day, and if you are not walking in complete comfort, return them within 30 days for a full refund.",
+     "why": "Targets the 20,000-step concrete fatigue and line-standing pain points prominent in Disney traveler reviews."
+    },
+    {
+     "angle": "Travel x Black Friday cobblestone comfort",
+     "fb_description": "$59.95 Today | Free Shipping",
+     "fb_headline": "Cobblestone Comfort: 60% Off Sale",
+     "headline": "All-Day Travel Comfort",
+     "id": "TA_IV_01_T",
+     "on_image_text": [
+      "Black Friday Sale",
+      "60% OFF SITEWIDE",
+      "Arch support • Heel cushion • Wide toe box",
+      "Built for cobblestones and airports.",
+      "HSA/FSA Eligible",
+      "30-Day Guarantee"
+     ],
+     "primary_text": "Walking Europe on ancient cobblestones will expose a bad pair of walking shoes in under two hours. Between airport terminals, endless flights of stairs, and historic walking tours, your feet take a continuous beating. The Ortho Stretch Cushion Shoe was made for travel days. The structured arch support keeps your foot properly aligned over uneven cobblestones, while the cushioned heel absorbs repeated shocks from hard ground. A roomy toe box prevents painful crowding during long flights, and elastic no-tie laces let you slip through airport security without bending down to tie anything. Our Black Friday Sale is live: take 60% OFF sitewide today. Get your pair for $59.95 instead of the standard $120 price. Use code LEAKED10 at checkout for an extra 10% off. Pack them on your next trip. Walk them everywhere for up to 30 days. If they do not keep your feet comfortable, return them for a full refund.",
+     "why": "Taps into the frequent survey motivation of buying supportive footwear for European walking tours and airport navigation."
+    },
+    {
+     "angle": "Disney x Black Friday park fatigue reframe",
+     "fb_description": "Built for 20,000 Park Steps",
+     "fb_headline": "Stop Dreading Disney: 60% Off",
+     "headline": "Stop dreading Disney.. Try this",
+     "id": "TA_IV_02_D",
+     "on_image_text": [
+      "60% OFF Sitewide Today"
+     ],
+     "primary_text": "Most people head to Disney expecting fun, but by 2 PM on day one, their heels are on fire from walking twelve miles on solid concrete. You see parents sitting on curbs rubbing their arches while the kids beg to keep going. You do not need to pack three different pairs of sneakers just to get through Magic Kingdom. The Ortho Stretch Cushion Shoe gives you the deep heel cushioning and built-in arch contour needed for 20,000 continuous park steps. The wide toe box gives swollen toes room to breathe in the heat, while the slip-resistant grip handles wet ride exits easily. Right now, take advantage of our Black Friday Sale: 60% OFF sitewide. That drops the price from $120 to just $59.95. Use checkout code LEAKED10 for an extra 10% off. Order your pair, wear them on your upcoming trip, and test them on the park pavement. If your feet are not thrilled, send them back within 30 days for a full refund.",
+     "why": "Transplants the 'Stop changing shoes.. Try this' interrupt to theme-park walking fatigue and packing multiple pairs."
+    },
+    {
+     "angle": "Travel x Black Friday cobblestone reframe",
+     "fb_description": "$59.95 Today + Free Shipping",
+     "fb_headline": "Cobblestone Walking: 60% Off Sale",
+     "headline": "Stop dreading cobblestones.. Try this",
+     "id": "TA_IV_02_T",
+     "on_image_text": [
+      "60% OFF Sitewide Today"
+     ],
+     "primary_text": "Nothing ruins a long-awaited European vacation faster than aching arches on day two. When you are walking five to ten miles across uneven cobblestones, flat sneakers and stiff walking shoes quickly lead to burning heels. Instead of stuffing your carry-on with three different pairs of backup shoes, bring the pair built for high-mileage sightseeing. The Ortho Stretch Cushion Shoe combines supportive arch contouring with a thick, shock-absorbing heel to cushion every step on stone streets. The wide toe box lets your toes relax without rubbing, and the lightweight stretch knit keeps your feet cool all day long. Plus, the elastic no-tie laces make passing through airport security effortless. Our Black Friday Sale is live: save 60% sitewide today. That brings them to $59.95 (regularly $120). Enter promo code LEAKED10 at checkout for an extra 10% off. Take them on your next trip. Walk every museum and cobblestone alley. If you do not love how your feet feel, return them within 30 days for a full refund.",
+     "why": "Adapts the 'Stop changing shoes' hero layout to European travel, replacing multiple packed backup sneakers with one supportive shoe."
+    },
+    {
+     "angle": "Healthcare x Black Friday condition checklist",
+     "fb_description": "Doctor-Recommended Comfort",
+     "fb_headline": "Hospital Shift Comfort: 60% Off",
+     "headline": "Hospital: All-Shift Comfort",
+     "id": "TA_IV_03_H",
+     "on_image_text": [
+      "60% OFF TODAY",
+      "✓ Plantar Fasciitis",
+      "✓ Heel Spurs",
+      "✓ Swollen Feet",
+      "✓ Aching Arches",
+      "✓ Bunions",
+      "★★★★★ Trusted by 500,000+ Women",
+      "30-Day Money-Back Guarantee"
+     ],
+     "primary_text": "Nurses know the feeling: hour nine of a twelve-hour shift, and every step on hard hospital flooring sends sharp throbs through your heels and arches. The Ortho Stretch Cushion Shoe is built for the physical demands of healthcare work. It features targeted arch support that cradles your midfoot, deep heel cushioning that absorbs shock with every stride, and a wide toe box that accommodates natural foot swelling during long shifts. The slip-resistant soles keep you sure-footed on slick clinic floors, and the elastic no-tie laces never come undone during an emergency. Our Black Friday Sale is live: take 60% OFF sitewide. That brings your pair down to $59.95 (regularly $120). Add promo code LEAKED10 at checkout for an extra 10% off. Over 500,000 women have made the switch. Wear them on your upcoming shifts with our 30-day wear test trial. If you are not completely comfortable, send them back within 30 days for a full refund.",
+     "why": "Transplants the beach checklist winner to 12-hour hospital shifts, listing the five foot conditions nurses battle on concrete."
+    },
+    {
+     "angle": "Disney x Black Friday condition checklist",
+     "fb_description": "$59.95 Today + Free Shipping",
+     "fb_headline": "Disney Walking Comfort: 60% Off",
+     "headline": "Disney: All-Day Comfort",
+     "id": "TA_IV_03_D",
+     "on_image_text": [
+      "60% OFF TODAY",
+      "✓ Plantar Fasciitis",
+      "✓ Heel Pain",
+      "✓ Swollen Feet",
+      "✓ Aching Arches",
+      "✓ Bunions",
+      "★★★★★ 500,000+ Happy Walkers",
+      "30-Day Money-Back Guarantee"
+     ],
+     "primary_text": "Walking ten to twelve miles across theme-park concrete is brutal on your feet, especially when standing in endless lines under the sun. If you struggle with heel pain, tight arches, or swollen feet, an ordinary sneaker will leave you looking for the nearest bench by lunch. The Ortho Stretch Cushion Shoe is designed to keep you walking with family all day long. Built-in anatomical arch support stabilizes your foot, a cushioned heel cup absorbs the pavement impact, and the wide toe box ensures your toes never rub or cramp. Breathable stretch-knit material keeps your feet cool, while slip-on elastic laces eliminate tying. Our Black Friday Sale is now live: get 60% OFF sitewide. Pick up your pair for $59.95 (regularly $120). Use code LEAKED10 at checkout for an additional 10% off. Over 500,000 women trust Comfort Wear. Try them on your upcoming trip with our 30-day money-back guarantee. If you do not love every step, return them for a full refund.",
+     "why": "Adapts the checklist layout to theme-park walking, assuring Disney travelers with foot conditions that they can keep up all day."
+    },
+    {
+     "angle": "Disney x Black Friday strike-through problem solver",
+     "fb_description": "$59.95 Today + Free Shipping",
+     "fb_headline": "All-Day Disney Walking: 60% Off",
+     "headline": "All-Day Park Walking",
+     "id": "TA_IV_04_D",
+     "on_image_text": [
+      "~Burning Heel Pain~",
+      "~Swollen Park Feet~",
+      "~Sore Aching Arches~",
+      "~Sitting on Benches~",
+      "~Leaving Disney Early~",
+      "✓ All-Day Park Walking",
+      "Ortho Stretch Cushion Shoe",
+      "Claim 60% Off"
+     ],
+     "primary_text": "When you plan a trip to Disney, you picture watching the fireworks with your family, not sitting on a concrete planter rubbing your burning heels while everyone else heads to the next ride. Theme park concrete is unforgiving. If your footwear does not support your arches and cushion your heel strikes, foot fatigue forces you back to the hotel hours before you are ready to leave. The Ortho Stretch Cushion Shoe was engineered for marathon walking days. Built-in anatomical arch support keeps your foot aligned, a thick shock-absorbing heel softens every step, and the stretch-knit fabric with a wide toe box prevents painful pinching when your feet swell in the afternoon heat. Our Black Friday Sale is happening now: get 60% OFF sitewide. That brings them down from $120 to just $59.95. Use code LEAKED10 at checkout for an extra 10% off. Keep up with the kids from rope drop to fireworks. Try them on your next trip for 30 days. If your feet do not feel amazing, return them for a full refund.",
+     "why": "Models the onecompress strike-through list against the exact pain sequence of theme-park foot fatigue and leaving early."
+    },
+    {
+     "angle": "Travel x Black Friday strike-through problem solver",
+     "fb_description": "$59.95 Today + Free Shipping",
+     "fb_headline": "Cobblestone Travel: 60% Off Sale",
+     "headline": "All-Day Sightseeing",
+     "id": "TA_IV_04_T",
+     "on_image_text": [
+      "~Cobblestone Foot Pain~",
+      "~Airport Terminal Sprints~",
+      "~Aching Heel Strikes~",
+      "~Packing Multiple Shoes~",
+      "~Heading Back Early~",
+      "✓ All-Day Sightseeing",
+      "Ortho Stretch Cushion Shoe",
+      "Shop Black Friday Sale"
+     ],
+     "primary_text": "Nothing cuts a dream European vacation short like feet that refuse to walk another block by 3 PM. When every street is paved with ancient, uneven cobblestones, standard walking shoes leave your arches strained and your heels aching. You should not have to sacrifice half your sightseeing time resting back at your hotel room. The Ortho Stretch Cushion Shoe is engineered for all-day international travel. An anatomically molded arch cradle keeps your gait stable over rugged cobblestones, while a high-rebound cushioned heel absorbs ground impact step after step. The breathable stretch upper accommodates in-flight foot swelling, and elastic no-tie laces speed you through airport security with zero fuss. Our Black Friday Sale is live: take 60% OFF sitewide today. Get your pair for $59.95 instead of $120. Enter code LEAKED10 at checkout for an extra 10% off. Pack them for your upcoming trip. Wear them on every tour for up to 30 days. If your feet are not completely supported, return them for a full refund.",
+     "why": "Models the strike-through problem solver against European travel obstacles like cobblestones, airport sprints, and cutting tours short."
+    },
+    {
+     "angle": "Disney x Black Friday HSA/FSA year-end unlock",
+     "fb_description": "Up to 30% Extra Savings",
+     "fb_headline": "HSA/FSA Eligible + 60% Off Sale",
+     "headline": "Can I use my HSA/FSA on shoes for Disney?",
+     "id": "TA_IV_05_D",
+     "on_image_text": [
+      "susan.b",
+      "Yes! HSA/FSA eligible with up to 30% savings plus 60% off sitewide.",
+      "*HSA/FSA eligibility may vary by plan."
+     ],
+     "primary_text": "If you have end-of-year HSA or FSA dollars sitting unused, do not let them go to waste. You can put those pre-tax funds toward the Ortho Stretch Cushion Shoe and get ready for your upcoming Disney trip. Walking ten to twelve miles a day across theme-park pavement demands real support. The Ortho Stretch Cushion Shoe combines an anatomical arch cradle, a deep shock-absorbing heel, and a wide toe box that prevents painful friction when your feet swell in the sun. Elastic no-tie laces make them easy to slide on every morning. Our Black Friday Sale is live: take 60% OFF sitewide today. That drops the price from $120 to just $59.95. Use code LEAKED10 at checkout for an extra 10% off. When you pay with HSA/FSA funds, eligible accounts can save up to an additional 30%. Wear them on every park day with zero risk. If you are not walking in complete comfort, return them within 30 days for a full refund.",
+     "why": "Models the Flux/Truemed comment bubble asking how to spend expiring HSA/FSA funds before year-end on theme-park walking support."
+    }
+   ]
+  },
+  {
+   "at": "2026-11-19T18:38:00",
+   "session": "comfortwear-statics-2026-W47-themes-all-2",
+   "chat": "chat_fef07694e66141de982edc9e7f227db0",
+   "url": "https://stefanbrain.com/chat/fef07694-e661-41de-982e-dc9e7f227db0",
+   "concepts": [
+    {
+     "angle": "Travel x Black Friday: HSA/FSA walking shoe for European cobblestones",
+     "fb_description": "HSA/FSA Eligible",
+     "fb_headline": "Cobblestone Comfort: 60% Off",
+     "headline": "Ortho Stretch Cushion Shoe: 60% off sitewide this Black Friday.",
+     "id": "TA_IV_05_T",
+     "on_image_text": [
+      "\"Can I use my HSA/FSA on Europe walking shoes?\"",
+      "susan.b",
+      "*HSA/FSA eligibility may vary by plan provider."
+     ],
+     "primary_text": "If you have a European trip booked for next spring, do not wait until you are packing to think about your footwear. Walking 15,000 to 20,000 steps a day across ancient stone streets and airport concourses will punish flat soles and stiff arches.\\n\\nThe Ortho Stretch Cushion Shoe was engineered for women who refuse to let heel pain or plantar fasciitis cut sightseeing short. It combines firm anatomical arch support, a shock-absorbing cushioned heel, a stretch-knit upper that never pinches bunions, and a wide toe box that accommodates natural end-of-day swelling.\\n\\nBest of all: it is HSA/FSA eligible, meaning you can put your pre-tax health funds to work before year-end.\\n\\nFor our early Black Friday event, take 60% OFF sitewide. Use code LEAKED10 at checkout for an extra 10% off. Every order includes free shipping and returns, backed by our 30-day money-back guarantee: wear them on your walks, and if your feet do not thank you, return them within 30 days for a full refund.",
+     "why": "Flux/Truemed comment bubble pattern answering year-end HSA/FSA spend objection for 20,000-step travelers"
+    },
+    {
+     "angle": "Theme park concrete walking vs sneaker industry arch failure",
+     "fb_description": "30-Day Money-Back Guarantee",
+     "fb_headline": "20,000 Steps Without Pain: 60% Off",
+     "headline": "Walking shoe industry lies about your theme park pain.",
+     "id": "TA_BF5_01_D",
+     "on_image_text": [
+      "Think tired theme park feet are just age? Or is it your footwear?",
+      "Ortho Stretch Cushion",
+      "60% OFF SITEWIDE"
+     ],
+     "primary_text": "A full day at Disney means standing on hard concrete for 12 hours, waiting in 60-minute lines, and logging over 20,000 steps before the fireworks even start.\\n\\nMost women blame their age or their joints when their heels start throbbing by 2 PM. But the real culprit is usually ordinary athletic sneakers that cushion your step without supporting your arch, letting your plantar fascia pull and stretch with every single stride.\\n\\nThe Ortho Stretch Cushion Shoe is built differently. A doctor-recommended anatomical arch bridge locks your foot in proper alignment, while a deep cushioned heel cup absorbs the impact of every concrete step. The stretch-knit upper never rubs bunions, and the wide toe box gives swollen feet room to breathe all afternoon.\\n\\nDo not spend your family vacation sitting on a park bench while everyone else makes memories.\\n\\nOur Black Friday Sale is live: take 60% OFF sitewide, plus get an extra 10% off with code LEAKED10. Every pair comes with free shipping and returns, plus our full 30-day money-back guarantee: wear them on your next 20,000-step day, and if your feet do not feel rested, return them within 30 days for a full refund.",
+     "why": "Muuv challenger pattern applied to 20,000-step Disney family trips"
+    },
+    {
+     "angle": "European cobblestone shock absorption vs collapsing memory foam",
+     "fb_description": "Free Shipping & Returns",
+     "fb_headline": "Europe Walking Shoes: 60% Off",
+     "headline": "Travel shoe industry lies about your pain.",
+     "id": "TA_BF5_01_T",
+     "on_image_text": [
+      "Think cobblestones always have to ruin your feet? Or is it your footwear?",
+      "Ortho Stretch Cushion",
+      "60% OFF SITEWIDE"
+     ],
+     "primary_text": "Walking uneven cobblestones in Rome, Paris, or London is brutal on flat-soled travel sneakers. By 3 PM, your heels feel like they are pounding bare stone, and your lower back aches before dinner even starts.\\n\\nBig travel shoe brands tell you to pack memory foam inserts. But soft foam just collapses after two hours of walking, leaving your plantar fascia unsupported against unforgiving stone streets.\\n\\nThe Ortho Stretch Cushion Shoe provides true structural comfort. The podiatrist-recommended arch support stabilizes your foot on irregular cobblestones, the shock-absorbing heel absorbs impact, and the breathable stretch-knit upper never chafes swollen feet after a long flight.\\n\\nKeep up with every walking tour and explore every alleyway without checking for the nearest bench.\\n\\nOur Black Friday event is on: save 60% OFF sitewide, and use code LEAKED10 for an extra 10% off. Shipped free with free returns, backed by our 30-day money-back guarantee: try them on your walks, and if you are not completely satisfied, return them within 30 days for a full refund.",
+     "why": "Muuv challenger pattern transplant targeting Europe sightseeing pain and memory foam failure"
+    },
+    {
+     "angle": "12-hour hospital floor fatigue relief with Black Friday torn-paper visual",
+     "fb_description": "Doctor-Recommended Comfort",
+     "fb_headline": "12-Hour Shift Comfort: 60% Off",
+     "headline": "BREAK INTO BLACK FRIDAY.",
+     "id": "TA_BF5_02_H",
+     "on_image_text": [
+      "Relief for 12-hour hospital shifts",
+      "60% OFF SITEWIDE",
+      "CODE: LEAKED10",
+      "Doctor Recommended",
+      "30-Day Guarantee"
+     ],
+     "primary_text": "If you work 12-hour shifts on polished hospital linoleum, you already know the drive home: sitting in your car in the parking deck, slipping your shoes off before you even turn the key because your heels are burning.\\n\\nHeavy clogs and rigid work shoes trap your toes, while squishy running sneakers break down after three weeks of relentless rounding.\\n\\nThe Ortho Stretch Cushion Shoe was designed specifically for healthcare workers on their feet all day. It features firm medical-grade arch support that prevents foot fatigue, a cushioned shock-absorbing heel that takes the sting out of hard floors, slip-resistant traction for wet hallways, and a flexible stretch-knit upper that accommodates end-of-shift swelling.\\n\\nOur Black Friday Sale is officially live.\\n\\nGet 60% OFF sitewide today, plus use code LEAKED10 at checkout for an extra 10% off. Your order includes free shipping and returns, backed by our 30-day money-back guarantee: wear them through your toughest shifts for 30 days, and if they do not relieve your foot fatigue, return them for a full refund.",
+     "why": "Pro Compression Break Into Black Friday burst-through product reveal for 12-hour shift nurses"
+    },
+    {
+     "angle": "All-day sightseeing endurance on cobblestones with Black Friday burst offer",
+     "fb_description": "Free Shipping & Returns",
+     "fb_headline": "Europe Travel Comfort: 60% Off",
+     "headline": "BREAK INTO BLACK FRIDAY.",
+     "id": "TA_BF5_02_T",
+     "on_image_text": [
+      "All-day comfort on European cobblestones",
+      "60% OFF SITEWIDE",
+      "CODE: LEAKED10",
+      "Podiatrist Recommended",
+      "30-Day Guarantee"
+     ],
+     "primary_text": "Walking across European cities sounds romantic until your heels hit stone streets on day two. When you are logging 18,000 steps through museums, train stations, and historic plazas, flimsy flats and stiff sneakers lead straight to aching arches and swollen ankles.\\n\\nThe Ortho Stretch Cushion Shoe gives you all-day sightseeing stamina. It delivers podiatrist-recommended arch support that keeps your feet aligned on uneven ground, a deep shock-cushion heel that absorbs heavy pavement impact, and elastic no-tie laces that make airport security effortless. Plus, the stretch-knit upper breathes easily and never rubs against bunions.\\n\\nPack light and walk everywhere without worrying about foot pain slowing you down.\\n\\nBreak into Black Friday with 60% OFF sitewide. Add code LEAKED10 for an extra 10% off at checkout. Shipped free with free returns, and protected by our 30-day money-back guarantee: test them on your longest walks, and if your feet do not feel amazing, return them within 30 days for a full refund.",
+     "why": "Pro Compression torn-paper seasonal offer burst applied to European walking travel"
+    },
+    {
+     "angle": "Escalating discount strike-through to 60% off for 12-hour hospital shifts",
+     "fb_description": "Save 60% | Black Friday Deal",
+     "fb_headline": "60% Off Hospital Shift Shoes",
+     "headline": "60% OFF SITEWIDE",
+     "id": "TA_BF5_03_H",
+     "on_image_text": [
+      "~30% OFF~  ~40% OFF~  ~50% OFF~",
+      "Black Friday Hospital Shift Sale."
+     ],
+     "primary_text": "We normally cap our nurse appreciation discounts at 30% or 40% off. But hospital floors are not getting any softer, and 12-hour shifts demand real relief.\\n\\nSo for Black Friday, we struck out the usual discounts and went straight to 60% OFF sitewide.\\n\\nThe Ortho Stretch Cushion Shoe is built for nurses who spend half their lives on concrete hospital floors. It delivers firm arch support that stops foot fatigue before hour six, a cushioned heel that protects knees and lower back from harsh impacts, and slip-resistant rubber soles that grip wet utility rooms and ER corridors. The stretch upper slides on with no-tie elastic laces, giving tired, swollen feet room to rest.\\n\\nDo not pay $120 when you can secure shift-long comfort for just $59.95.\\n\\nOrder today for 60% OFF sitewide, plus get an extra 10% off with code LEAKED10. Free shipping and returns included on every order. Backed by our 30-day money-back guarantee: wear them through your shifts, and if your feet do not feel the difference, return them within 30 days for a full refund.",
+     "why": "Direct-response percentage ladder pattern showing discount progression to Comfort Wear 60% offer"
+    },
+    {
+     "angle": "Struck percentage ladder to 60% off for 20,000-step theme park days",
+     "fb_description": "30-Day Money-Back Guarantee",
+     "fb_headline": "Disney Walking Shoes: 60% Off",
+     "headline": "60% OFF SITEWIDE",
+     "id": "TA_BF5_03_D",
+     "on_image_text": [
+      "~30% OFF~  ~40% OFF~  ~50% OFF~",
+      "Black Friday Disney Trip Sale."
+     ],
+     "primary_text": "If you are planning a Disney trip with the family, the hardest part is not the ticket price: it is surviving 20,000 steps on unyielding concrete without your feet giving out by lunchtime.\\n\\nOrdinary fashion sneakers lack the arch stability needed for 10 straight hours of walking and standing in line. That is why so many women end up limping back to the hotel before the evening parade.\\n\\nThe Ortho Stretch Cushion Shoe is engineered for high-mileage vacation days. It pairs doctor-recommended arch support with a deep shock-absorbing heel to cushion every step on theme park concrete. The wide toe box prevents pinched toes, while the stretch-knit fabric expands comfortably as your feet swell throughout the day.\\n\\nWe bypassed our usual seasonal discounts and opened our biggest sale of the year: 60% OFF sitewide.\\n\\nTake 60% OFF today, plus get an extra 10% off with promo code LEAKED10. Free shipping and returns on every order. Backed by our 30-day money-back guarantee: take them out for a full day of walking, and if your feet are not thrilled, return them within 30 days for a full refund.",
+     "why": "Percentage escalation discount ladder applied to Disney theme park family stamina"
+    },
+    {
+     "angle": "Holiday warehouse clearance for 20,000-step Disney theme park walkers",
+     "fb_description": "Was $120 | Now Only $59.95",
+     "fb_headline": "Theme Park Comfort: 60% Off Now",
+     "headline": "We Stocked Up For Black Friday.",
+     "id": "TA_BF5_04_D",
+     "on_image_text": [
+      "Built for 20,000-step Disney days.",
+      "We ramped up production for the holidays.",
+      "Our warehouse shelves are packed to the ceiling.",
+      "Now we need to clear space before year-end.",
+      "Get our best-selling comfort shoe at our lowest price.",
+      "Claim Your Pair: 60% OFF"
+     ],
+     "primary_text": "A family trip to Disney should be full of laughs and great photos, not constant searches for the nearest bench because your heels are throbbing.\\n\\nWhen you walk 20,000 steps across concrete and stand in lines for hours, standard running shoes flatten out and put intense pressure on your plantar fascia.\\n\\nThe Ortho Stretch Cushion Shoe was made to carry you through open-to-close park days. Its doctor-recommended arch support aligns your feet, while the cushioned heel absorbs repeated concrete shock. The soft stretch-knit upper prevents pressure on bunions, and the wide toe box lets your toes spread out naturally without pinching.\\n\\nWe loaded our warehouse with extra stock for the holiday rush, and now we are clearing pairs out sitewide.\\n\\nGrab yours for 60% OFF today (was $120, now just $59.95), plus take an extra 10% off with code LEAKED10. Free shipping and returns included. If your feet do not stay comfortable through your longest family days, return them within 30 days for a full refund under our 30-day money-back guarantee.",
+     "why": "OrthoFit warehouse overstock narrative adapted for Black Friday theme-park prep"
+    },
+    {
+     "angle": "Warehouse surplus clearance for European cobblestone travelers",
+     "fb_description": "Full 30-Day Money-Back Trial",
+     "fb_headline": "Europe Travel Shoes: 60% Off",
+     "headline": "Our Warehouse Is Completely Full.",
+     "id": "TA_BF5_04_T",
+     "on_image_text": [
+      "Made for walking Europe all day.",
+      "We built extra pairs for European travel season.",
+      "Now our shelves are overflowing before Black Friday.",
+      "To clear space fast, we slashed prices across the board.",
+      "Get our proven arch support shoe before stock thins out.",
+      "Shop Black Friday: 60% OFF"
+     ],
+     "primary_text": "Cobblestone streets in Europe have a reputation for ruining vacations. After three hours on ancient stone walkways, flat soles transmit every bump straight up your legs into your lower back.\\n\\nThe Ortho Stretch Cushion Shoe gives travelers proper foot mechanics. Podiatrist-recommended arch support braces your foot, the cushioned heel softens repeated impacts on hard pavement, and elastic laces let you slip them on and off at airport security in seconds. The stretch-knit upper flexes comfortably around bunions and sensitive spots.\\n\\nWe expanded our inventory ahead of the travel season, and now our warehouse is overflowing heading into Black Friday.\\n\\nTake advantage of our biggest sale of the year: 60% OFF sitewide (regularly $120, now $59.95). Enter code LEAKED10 at checkout for an extra 10% off. Free shipping and returns are included. Try them risk-free with our 30-day money-back guarantee: wear them on your travels, and if your feet are not thrilled, return them within 30 days for a full refund.",
+     "why": "OrthoFit warehouse overstock narrative transplant for European sightseeing preparation"
+    },
+    {
+     "angle": "Plus-size hospital shift support without arch collapse",
+     "fb_description": "Doctor-Recommended Support",
+     "fb_headline": "12-Hour Shift Relief: 60% Off",
+     "headline": "\"My Feet Do Not Ache After A 12-Hour Shift.\"",
+     "id": "TA_BF5_05_H",
+     "on_image_text": [
+      "\"I carry extra weight and stand on hospital floors all day. These shoes changed my shifts.\" - Brenda M., RN",
+      "Firm Arch Support",
+      "Deep Cushion Heel",
+      "Slip-Resistant Grip",
+      "Claim 60% OFF"
+     ],
+     "primary_text": "When you carry extra weight and work 12-hour shifts on hard hospital floors, gravity is working against you every minute. By hour four, regular sneakers collapse, your heel strikes the hard floor with zero shock absorption, and your lower back takes the blow.\\n\\nBrenda, a registered nurse, wrote to us:\\n\"I carry extra weight and stand on hospital floors all day. Most shoes give out after a month, leaving my plantar fascia burning. The Ortho Stretch Cushion Shoe is the first pair that actually holds its shape and keeps my feet comfortable until my shift ends.\"\\n\\nThe secret is the podiatrist-recommended arch bridge that will not crush under pressure, paired with a reinforced heel cup that absorbs high-impact steps on unyielding linoleum. The wide toe box gives your toes space to spread naturally, while the slip-resistant sole ensures stable footing around wet floors.\\n\\nDo not suffer through another shift on collapsed soles.\\n\\nFor Black Friday, get 60% OFF sitewide (regularly $120, now just $59.95). Use code LEAKED10 at checkout for an extra 10% off. Every pair comes with free shipping and returns, backed by our 30-day money-back guarantee: wear them through a full month of shifts, and if your feet do not feel supported, return them within 30 days for a full refund.",
+     "why": "Cuurt real-customer testimonial card showing extra-weight durability on 12-hour hospital floors"
+    }
+   ]
+  },
+  {
+   "at": "2026-11-19T18:38:00",
+   "session": "comfortwear-statics-2026-W47-themes-all-3",
+   "chat": "chat_de0be3c8a06747139a695aadbe5f6a74",
+   "url": "https://stefanbrain.com/chat/de0be3c8-a067-4713-9a69-5aadbe5f6a74",
+   "concepts": [
+    {
+     "angle": "Plus-size travel shoe test review x Black Friday",
+     "fb_description": "Free Shipping & Full Refund",
+     "fb_headline": "Black Friday: 60% Off Sitewide",
+     "headline": "\"I'm A 200 Lb Woman. 9 Hurt. 1 Didn't.\"",
+     "id": "TA_BF5_05_T",
+     "on_image_text": [
+      "\"Handled 8 miles of walking on cobblestones without collapsing.\" - Janette R., Verified Buyer",
+      "Anatomical Arch Support",
+      "Deep Heel Cushion",
+      "Extra Roomy Toe Box",
+      "BLACK FRIDAY: 60% OFF"
+     ],
+     "primary_text": "Most comfort shoes are tested on people who weigh 120 pounds. When you carry real weight over 8 miles of European cobblestones, standard foam compresses flat in two hours. Your arches sink inward, and your knees take every bit of shock. The Ortho Stretch Cushion Shoe is built with multi-density heel cushioning and anatomical arch support that will not flatten out by afternoon. The wide toe box lets your toes spread naturally, while the breathable stretch-knit upper flexes as your feet swell during long airport layovers and walking tours. Doctor-recommended for all-day walking. Try them risk-free for 30 days. If they do not keep you comfortable, send them back for a full refund. Black Friday Sitewide Sale: 60% OFF SITEWIDE with free shipping & returns. Use code LEAKED10 at checkout for an extra 10% off.",
+     "why": "Transplants Cuurt 240-lb review format using Janette Robertson's verified 200-lb customer review of failed comfort shoes vs Ortho Stretch on walking days."
+    },
+    {
+     "angle": "Disney 20,000-step park survival gear flat lay x Black Friday",
+     "fb_description": "Full Refund Within 30 Days",
+     "fb_headline": "Disney Park Days: 60% Off Shoes",
+     "headline": "WALKING 20,000 STEPS AT DISNEY? WHAT GOES ON YOUR FEET?",
+     "id": "TA_BF5_06_D",
+     "on_image_text": [
+      "Doctor-recommended arch support and heel cushion for all-day lines.",
+      "BLACK FRIDAY: 60% OFF SITEWIDE + FREE SHIPPING & RETURNS"
+     ],
+     "primary_text": "A full day at Disney means 20,000 steps on unyielding concrete and standing in 60-minute ride lines. Standard running sneakers are made for forward motion, not standing still on hard pavement. By 2 PM, typical foam bottoms out and your arches take the beating. The Ortho Stretch Cushion Shoe was built specifically for 12-hour days on your feet: anatomical arch support keeps your feet aligned in slow-moving queues, deep heel cushioning absorbs ground shock from morning rope drop to the evening fireworks, a wide toe box gives toes room to spread as feet naturally swell in Florida heat, and slip-resistant outsoles keep you steady on wet walkways after afternoon rain showers. Doctor-recommended for extended standing and walking. Test them on your feet for 30 days. If you are not completely satisfied, return them for a full refund. Black Friday Early Access: 60% OFF SITEWIDE with free shipping & returns included. Use code LEAKED10 for an extra 10% off.",
+     "why": "Models Stepprs flat lay layout with Disney park-day testing data showing 12-hour concrete fatigue and standing queue arch collapse."
+    },
+    {
+     "angle": "Europe cobblestone walking gear flat lay x Black Friday",
+     "fb_description": "Full 30-Day Money-Back Trial",
+     "fb_headline": "Europe Travel Shoes: 60% Off",
+     "headline": "WALKING 8 MILES ON COBBLESTONES? WHAT GOES ON YOUR FEET?",
+     "id": "TA_BF5_06_T",
+     "on_image_text": [
+      "Doctor-recommended arch support and heel cushion for all-day sightseeing.",
+      "BLACK FRIDAY: 60% OFF SITEWIDE + FREE SHIPPING & RETURNS"
+     ],
+     "primary_text": "European vacations are meant for exploring ancient cities, not nursing sore arches back at the hotel at 3 PM. Walking on uneven cobblestones and dashing across marble airport terminals puts twice the strain on your heels and knees. The Ortho Stretch Cushion Shoe protects your feet across miles of foreign pavement: anatomical arch support stabilizes your foot on uneven stones, shock-absorbing heel cushioning protects your joints from repetitive impact, a wide toe box prevents side pinching and rubbing during all-day walking tours, and a stretch-knit upper expands comfortably as feet swell from long flights. Doctor-recommended for long-distance travel and sightseeing. Pack them for your next trip and wear them for 30 days. If you are not completely satisfied, return them for a full refund. Black Friday Sitewide Event: 60% OFF SITEWIDE with free shipping & returns. Add code LEAKED10 for an extra 10% off.",
+     "why": "Adapts Stepprs flat lay layout for European vacation walking demands, targeting cobblestone impact and flight swelling."
+    },
+    {
+     "angle": "Founder confession letter on nurse inventory rush x Black Friday",
+     "fb_description": "30-Day Wear Test Trial",
+     "fb_headline": "12-Hour Shift Shoes: 60% Off",
+     "headline": "We f*cked up.",
+     "id": "TA_BF5_07_H",
+     "on_image_text": [
+      "To our hospital and clinic nurses,",
+      "We planned our holiday warehouse stock months ago, but we completely underestimated how many healthcare workers would order Black Purple for 12-hour floor shifts.",
+      "Hospital floors are merciless on feet. When word spread between shift rotations, our warehouse was cleaned out of popular sizes twice as fast as expected.",
+      "Instead of holding back pairs for Black Friday weekend, we are opening our 60% discount today so you can lock in your pair before inventory is gone.",
+      "Thank you for the work you do on your feet every single shift.",
+      "GET 60% OFF SITEWIDE"
+     ],
+     "primary_text": "Hospital floors do not give. 12 hours on linoleum and poured concrete will grind down cheap memory foam in two hours, leaving your heels throbbing and your lower back aching before your shift is half over. Nurses and healthcare workers have made ComfortWear Ortho Stretch their go-to shift shoe for three clear reasons: anatomical arch support stops arch collapse during nonstop rounds, multi-density heel cushioning absorbs floor shock step after step, a wide toe box prevents bunion pinching when feet swell by hour ten, and slip-resistant grip keeps you planted on freshly mopped floor tiles. Doctor-recommended and podiatrist-recommended for healthcare professionals. Wear them through your toughest shifts for 30 days. If your feet do not feel supported, return them for a full refund. Black Friday Warehouse Release: 60% OFF SITEWIDE with free shipping & returns. Enter code LEAKED10 at checkout for an extra 10% off.",
+     "why": "Models Stepprs 'We f*cked up' open-letter format grounded in healthcare customer feedback regarding 12-hour shift concrete fatigue and rapid Black Purple sellouts."
+    },
+    {
+     "angle": "Founder confession letter on theme park rush x Black Friday",
+     "fb_description": "Full 30-Day Money-Back Trial",
+     "fb_headline": "Disney Park Shoes: 60% Off",
+     "headline": "We f*cked up.",
+     "id": "TA_BF5_07_D",
+     "on_image_text": [
+      "To our theme park travelers,",
+      "We thought our holiday inventory of Navy Blue would comfortably cover everyone heading to Disney for family trips.",
+      "We were wrong. Parents and grandparents prepping for 20,000-step park days started ordering pairs weeks earlier than last year.",
+      "Rather than hold back inventory for a single weekend, we decided to drop our 60% off Black Friday discount right now so your family is prepared.",
+      "Pack them before rope drop, keep up with the kids, and never miss a parade.",
+      "GET 60% OFF SITEWIDE"
+     ],
+     "primary_text": "You planned this Disney trip for months. The tickets, the hotel, the dining reservations. The last thing you want is sitting on a park bench by 1 PM while the rest of the family walks ahead because your heels feel bruised from concrete. The Ortho Stretch Cushion Shoe was built for 10+ hours of continuous walking and line standing: anatomical arch support stops foot fatigue while waiting in 60-minute ride lines, deep heel cushioning absorbs shock across 20,000 steps of hard pavement, a wide toe box lets your toes spread freely without friction, and a stretch-knit upper accommodates heat-induced foot swelling as the Florida afternoon warms up. Doctor-recommended for full-day walking. Test them on your family vacation for 30 days. If you are not fully satisfied, send them back for a full refund. Black Friday Sitewide Early Access: 60% OFF SITEWIDE with free shipping & returns. Use code LEAKED10 for an extra 10% off.",
+     "why": "Transplants Stepprs open-letter format to family Disney travel demand, addressing the fear of sitting out on park benches."
+    },
+    {
+     "angle": "Clearance urgency x Disney theme park all-day support",
+     "fb_description": "Full 30-Day Money-Back Trial",
+     "fb_headline": "60% Off Disney Walking Shoes",
+     "headline": "60% OFF SITEWIDE",
+     "id": "TA_BF5_08_D",
+     "on_image_text": [
+      "BLACK FRIDAY CLEARANCE",
+      "Don't let 20,000 steps on theme park concrete cut family memories short. Doctor-recommended arch support and deep heel cushioning protect your joints from rope drop through the late-night fireworks.",
+      "FREE SHIPPING & RETURNS",
+      "30-DAY MONEY-BACK GUARANTEE"
+     ],
+     "primary_text": "When you take the family to Disney, you are on your feet for 12 straight hours. Running shoes cushion impact while you jog, but they pack down flat when you stand in 60-minute ride lines. That is why so many park visitors end up limping by the 3 PM parade. The ComfortWear Ortho Stretch Cushion Shoe is engineered for all-day standing and walking: deep heel cushioning absorbs hard pavement impact from rope drop to fireworks, built-in anatomical arch support keeps joints aligned in slow-moving queues, a wide toe box eliminates side friction and pressure on bunions, and a breathable stretch-knit upper flexes as feet swell in the Florida sun. Doctor-recommended for long days on concrete. Try them for 30 days on your park trip. If they do not keep your feet supported, return them for a full refund. Black Friday Sitewide Event: 60% OFF SITEWIDE with free shipping & returns. Use code LEAKED10 for an extra 10% off.",
+     "why": "Adapts Stepprs 'Ending It' bold offer layout for theme park planners, focusing on queue standing fatigue and concrete impact."
+    },
+    {
+     "angle": "Clearance urgency x European cobblestone travel walking",
+     "fb_description": "Full 30-Day Money-Back Trial",
+     "fb_headline": "Europe Travel Shoes: 60% Off",
+     "headline": "60% OFF SITEWIDE",
+     "id": "TA_BF5_08_T",
+     "on_image_text": [
+      "BLACK FRIDAY CLEARANCE",
+      "Cobblestones and airport terminals demand serious joint protection. Our doctor-recommended arch support and shock-absorbing heel cushioning keep your feet feeling fresh through every mile of European sightseeing.",
+      "FREE SHIPPING & RETURNS",
+      "30-DAY MONEY-BACK GUARANTEE"
+     ],
+     "primary_text": "Exploring European cities is unforgettable until uneven cobblestones and 8-mile walking days take a toll on your feet. Narrow sneakers and flat insoles force your arches to absorb every shock, leaving your knees and lower back throbbing before dinner. The Ortho Stretch Cushion Shoe delivers the support your body needs abroad: anatomical arch support stabilizes each stride across rugged cobblestones, shock-absorbing heel cushioning protects joints from hard stone pavement, a wide toe box ensures your toes never pinch or rub during museum tours, and a stretch-knit upper breathes easily and adapts to travel foot swelling. Doctor-recommended for walking tours and international travel. Test them for 30 days. If you are not completely satisfied, return them for a full refund. Black Friday Sitewide Sale: 60% OFF SITEWIDE with free shipping & returns. Enter code LEAKED10 at checkout for an extra 10% off.",
+     "why": "Models Stepprs clearance layout paired with international travel pain points: uneven cobblestone streets, airport terminal walks, and arch collapse."
+    },
+    {
+     "angle": "Year-end FSA/HSA balance capture x Disney park walking",
+     "fb_description": "Use Funds Before Dec 31",
+     "fb_headline": "FSA Eligible Disney Shoes: 60% Off",
+     "headline": "Using leftover FSA dollars during Black Friday so my feet survive 20,000 Disney steps.",
+     "id": "TA_BF5_09_D",
+     "on_image_text": [
+      "POV:",
+      "@disneypark_grandma",
+      "FSA Balance: $120.00",
+      "HSA/FSA ELIGIBLE (UP TO 30% SAVINGS) - USE BEFORE DEC 31* (*plan eligibility may vary)",
+      "60% OFF SITEWIDE"
+     ],
+     "primary_text": "If you have money sitting in your FSA or HSA account that expires on December 31, do not let it disappear back to your employer. You can use those pre-tax funds right now on doctor-recommended footwear before your next family trip. Pair our 60% off Black Friday sitewide sale with your HSA/FSA benefits for up to an additional 30% in savings. The Ortho Stretch Cushion Shoe was built to handle 20,000 steps on theme park concrete: anatomical arch support keeps your feet stable in long ride queues, deep heel cushioning absorbs continuous pavement impact, a wide toe box prevents toe cramping and bunion pressure, and a breathable stretch upper adjusts as feet swell in the Florida sun. Doctor-recommended. Covered by a 30-day wear test trial. If you are not completely satisfied, return them for a full refund. Year-End FSA/HSA + Black Friday Event: 60% OFF SITEWIDE with free shipping & returns. Use code LEAKED10 for an extra 10% off.",
+     "why": "Adapts Instagram story POV format targeting expiring pre-tax health funds paired with Black Friday discounts for family theme park trips."
+    },
+    {
+     "angle": "Year-end FSA/HSA balance capture x European travel prep",
+     "fb_description": "Use Pre-Tax Dollars By Dec 31",
+     "fb_headline": "FSA Travel Shoes: 60% Off Sale",
+     "headline": "Using leftover FSA funds during Black Friday for shoes that conquer European cobblestones.",
+     "id": "TA_BF5_09_T",
+     "on_image_text": [
+      "POV:",
+      "@traveling_senior",
+      "HSA/FSA Balance: $135.00",
+      "HSA/FSA ELIGIBLE (UP TO 30% SAVINGS) - USE BEFORE DEC 31* (*plan eligibility may vary)",
+      "60% OFF SITEWIDE"
+     ],
+     "primary_text": "Do not let your hard-earned FSA or HSA dollars expire on December 31. Put those pre-tax funds to work on doctor-recommended footwear designed for your upcoming international travels. Stack our 60% off Black Friday sitewide pricing with your HSA/FSA account for up to 30% extra savings on your pre-tax dollars. The Ortho Stretch Cushion Shoe is engineered for overseas walking: contoured anatomical arch support holds alignment across uneven stone streets, deep heel cushioning softens repetitive shock on hard museum floors, a wide toe box stops side friction and bunion aching, and a flexible knit upper expands naturally with long-haul flight swelling. Doctor-recommended for travel and everyday comfort. Test them on your travels for 30 days. If you are not completely satisfied, return them for a full refund. Black Friday + FSA/HSA Event: 60% OFF SITEWIDE with free shipping & returns. Enter code LEAKED10 at checkout for an extra 10% off.",
+     "why": "Translates Instagram POV social format to capture expiring December 31 FSA/HSA balances for women planning international trips."
+    },
+    {
+     "angle": "Category displacement: running shoes vs 12-hour hospital shifts x Black Friday",
+     "fb_description": "Full Refund Within 30 Days",
+     "fb_headline": "12-Hour Shift Shoes: 60% Off",
+     "headline": "YOUR RUNNING SHOES WEREN'T BUILT FOR 12-HOUR HOSPITAL SHIFTS.",
+     "id": "TA_BF5_10_H",
+     "on_image_text": [
+      "Running foam flattens out after two hours on hard concrete hospital floors.",
+      "BLACK FRIDAY: 60% OFF SITEWIDE",
+      "SWITCH NOW"
+     ],
+     "primary_text": "Running shoes are built for forward motion on a track. They are not engineered for standing still on poured concrete or pivoting through 12 hours of back-to-back patient rounds. After two hours, running foam packs down flat, forcing your arches to collapse and sending shock straight up your knees and spine. The Ortho Stretch Cushion Shoe was designed specifically for hospital floors: multi-density heel cushioning that does not pack down or flatten during long shifts, anatomical arch support that stabilizes your foot while standing at nurses' stations, a wide toe box that lets your toes spread freely without rubbing, and a slip-resistant grip that holds firm on wet linoleum and tile. Doctor-recommended and podiatrist-recommended for healthcare workers. Put them to the test for 30 full days on the hospital floor. If they do not keep your feet comfortable, return them for a full refund. Black Friday Sitewide Event: 60% OFF SITEWIDE with free shipping & returns. Enter code LEAKED10 at checkout for an extra 10% off.",
+     "why": "Adapts Cuurt category-callout framework ('weren't built for') to expose running shoes flattening on hospital concrete floors, offering Ortho Stretch as the clinical alternative."
+    }
+   ]
+  },
+  {
+   "at": "2026-11-19T18:38:00",
+   "session": "comfortwear-statics-2026-W47-themes-all-4",
+   "chat": "chat_f182d344e4dd4b24b45956bf153d7b42",
+   "url": "https://stefanbrain.com/chat/f182d344-e4dd-4b24-b459-56bf153d7b42",
+   "concepts": [
+    {
+     "angle": "Disney trip vs running shoe failure",
+     "fb_description": "Free Shipping & Returns",
+     "fb_headline": "60% Off: Built For Disney Days",
+     "headline": "Your running shoes weren't built for a Disney trip",
+     "id": "TA_BF5_10_D",
+     "on_image_text": [
+      "Theme-park pavement crushes flat sneakers by noon.",
+      "60% OFF SITEWIDE",
+      "SWITCH NOW"
+     ],
+     "primary_text": "Taking your family to Disney sounds wonderful until hour three.\n\nYou are standing on unforgiving concrete in a 70-minute line for Peter Pan. Your heels start throbbing. Your toes feel pinched. By 2 PM, you are sitting on a planter bench telling everyone else to go ahead without you.\n\nRunning shoes are made for forward motion on tracks, not standing on concrete for 12 hours.\n\nThe Ortho Stretch Cushion Shoe is built for real walking days:\n- Anatomical arch support balances your weight so your heels do not take every hit\n- Wide toe box lets your toes spread out naturally without rubbing\n- Cloud heel cushion absorbs shock with every step\n- Breathable stretch-knit upper never pinches bunions or swollen feet\n\nBlack Friday Sale is live: get 60% OFF sitewide with free shipping & returns, plus our 30-day money-back guarantee. Try them on your next trip. If your feet do not feel rested, return them within 30 days for a full refund.",
+     "why": "Cuurt 'not built for' pattern adapted to Disney theme-park walking fatigue from customer survey travel cohort."
+    },
+    {
+     "angle": "Hospital break room reorder rush",
+     "fb_description": "Free Shipping & Returns",
+     "fb_headline": "60% Off For Healthcare Workers",
+     "headline": "THE 12-HOUR REORDER RUSH",
+     "id": "TA_BF5_11_H",
+     "on_image_text": [
+      "When nurses finish a 12-hour floor shift without throbbing heels, word spreads fast across the break room.",
+      "Over the last two weeks, orders from hospital addresses doubled as healthcare workers began buying second and third pairs for their rotation.",
+      "To make sure every nurse gets proper support before peak season, our early Black Friday pricing is officially open.",
+      "**Black Friday: 60% OFF Sitewide + Free Shipping & Returns**",
+      "*Shift safe.*",
+      "Trusted by 500,000+ women on their feet"
+     ],
+     "primary_text": "A 12-hour hospital shift will expose every weakness in your shoes by 2 PM.\n\nWhen you walk six to eight miles on bare linoleum and hard concrete, flat sneakers give out. Your arches ache, your heels feel bruised, and your feet are swollen before your shift is even half over.\n\nThat is why so many nurses reorder the Ortho Stretch Cushion Shoe after their very first week:\n- Anatomical arch support stops floor shock from traveling up your shins and lower back\n- Deep heel cushioning cradles sensitive heels on brutal 12-hour rounds\n- Wide, stretch-knit toe box gives swollen feet room without friction\n- Slip-resistant grip keeps you steady on wet tiles and spills\n\nOur Black Friday Sale is live: take 60% OFF sitewide with free shipping & returns, backed by our 30-day money-back guarantee. If you do not finish your shift feeling the difference, return them within 30 days for a full refund.",
+     "why": "Stepprs 'reorder rush' letter format adapted to hospital shift repeat-buyer VOC from nursing cohort."
+    },
+    {
+     "angle": "European vacation reorder rush",
+     "fb_description": "30-Day Money-Back Guarantee",
+     "fb_headline": "60% Off Europe Walking Shoes",
+     "headline": "THE TRAVEL REORDER RUSH",
+     "id": "TA_BF5_11_T",
+     "on_image_text": [
+      "Travelers returning from Europe trips kept messaging us with the same request: they needed another pair before their next flight.",
+      "Walking 15,000 steps across uneven cobblestones and steep museum stairs had convinced them to pack an extra colorway.",
+      "Ahead of holiday travel, we unlocked our Black Friday pricing early so you can pack properly for your next trip.",
+      "**Black Friday: 60% OFF Sitewide + Free Shipping & Returns**",
+      "*Safe travels.*",
+      "Trusted by 500,000+ women on their feet"
+     ],
+     "primary_text": "Nothing ruins a dream vacation faster than feet that quit on day two.\n\nEuropean cities look charming in photos, but ancient cobblestones and endless museum marble are unforgiving on older arches and heels. If your shoes lack structure, every step sends shock right up your legs.\n\nThe Ortho Stretch Cushion Shoe was engineered for women who refuse to sit on tour bus benches:\n- Built-in anatomical arch support stabilizes your foot on uneven stone streets\n- High-rebound heel cushioning absorbs pavement impact all day long\n- Relaxed wide toe box never squeezes bunions, even after international flights\n- Featherlight stretch-knit upper packs flat and slips on without tying\n\nBlack Friday is here: enjoy 60% OFF sitewide with free shipping & returns, plus a full refund within 30 days if your feet are not thrilled. Order today before holiday travel.",
+     "why": "Stepprs letter layout adapted to walking traveler VOC on cobblestones and museum fatigue."
+    },
+    {
+     "angle": "Hospital staff inventory apology",
+     "fb_description": "60% Off + Free Shipping",
+     "fb_headline": "RE: Black Friday For Nurses",
+     "headline": "RE: Black Friday",
+     "id": "TA_BF5_12_H",
+     "on_image_text": [
+      "To our nurses and 12-hour hospital staff: We're sorry.",
+      "Last month, hospital floor orders surged faster than our warehouse anticipated, leaving popular sizes temporarily backlogged.",
+      "We know you cannot pause a 12-hour shift or work through throbbing heels while waiting on backorders.",
+      "Our production run is fully restocked today, and we reserved inventory specifically for hospital workers.",
+      "To make it right, we are opening our deepest Black Friday discount early for your shift rotation.",
+      "<u>**BLACK FRIDAY: 60% OFF SITEWIDE + FREE SHIPPING & RETURNS**</u>",
+      "30-Day Money-Back Guarantee: Test them on shift, full refund within 30 days."
+     ],
+     "primary_text": "If you worked a 12-hour floor shift recently, you already know the toll hospital tiles take on your body.\n\nWhen popular sizes went out of stock last month, hundreds of nurses wrote to ask when fresh pairs would arrive. We hated making anyone wait while standing on concrete all day.\n\nOur warehouse restock is complete today, and Black Friday pricing is officially unlocked.\n\nThe Ortho Stretch Cushion Shoe was built for long hospital hours:\n- Doctor-recommended anatomical arch support relieves pressure on heels and knees\n- Shock-absorbing heel cushioning softens every step on cold hospital floors\n- Stretch-knit upper accommodates swollen feet at hour ten\n- Slip-resistant soles provide secure grip in slick corridors\n\nTake 60% OFF sitewide right now with free shipping & returns. Test them on your toughest shifts. If your feet are not noticeably more comfortable, return them within 30 days for a full refund.",
+     "why": "PAP MD 'We are sorry' email-ad format adapted to nursing restock demand and shift fatigue."
+    },
+    {
+     "angle": "Europe traveler inventory apology",
+     "fb_description": "60% Off + Full 30-Day Refund",
+     "fb_headline": "RE: Black Friday Travel Restock",
+     "headline": "RE: Black Friday",
+     "id": "TA_BF5_12_T",
+     "on_image_text": [
+      "To anyone planning a Europe walking trip: We're sorry.",
+      "Ahead of holiday travel season, demand for our travel colorways outpaced our fall inventory.",
+      "We know you cannot walk 15,000 steps on cobblestones when your footwear does not support your arches.",
+      "Our new travel batch just landed, fully stocked in every size and wide-toe fit.",
+      "To thank you for your patience, we are opening our biggest Black Friday discount ahead of schedule.",
+      "<u>**BLACK FRIDAY: 60% OFF SITEWIDE + FREE SHIPPING & RETURNS**</u>",
+      "30-Day Money-Back Guarantee: Wear them on your trip, full refund within 30 days."
+     ],
+     "primary_text": "Planning a trip to Europe should be exciting, not a source of foot dread.\n\nIf you have ever explored Rome, Paris, or London in flat sneakers, you know the feeling: aching heels by noon, burning arches on stone stairs, and throbbing feet that force you back to the hotel early.\n\nWe are sorry our travel inventory ran low before the holidays. The good news: our new shipment is in, and Black Friday is live right now.\n\nWhy travelers swear by the Ortho Stretch Cushion Shoe:\n- Firm anatomical arch support absorbs the impact of uneven cobblestone streets\n- Deep heel cushioning takes the sting out of concrete airport terminals\n- Roomy toe box lets toes splay freely so bunions do not rub\n- Featherlight construction slips easily on and off through airport security\n\nGet 60% OFF sitewide today with free shipping & returns. Pack them for your trip and test them on real pavement. If you are not completely satisfied, return them within 30 days for a full refund.",
+     "why": "PAP MD 'We are sorry' email layout adapted to European walking vacation pain points and restock demand."
+    },
+    {
+     "angle": "12-hour hospital shift endurance",
+     "fb_description": "Free Shipping & Returns",
+     "fb_headline": "60% Off: Nurse Shift Comfort",
+     "headline": "STAND ALL SHIFT\nWITHOUT SORE FEET",
+     "id": "TA_BF5_13_H",
+     "on_image_text": [
+      "BLACK FRIDAY EVENT // 60% OFF SITEWIDE // FREE SHIPPING & RETURNS",
+      "ARCH SUPPORT",
+      "DOCTOR-RECOMMENDED",
+      "60% OFF SITEWIDE",
+      "30-Day Money-Back Guarantee"
+     ],
+     "primary_text": "When you spend twelve hours running between patient rooms, your feet absorb thousands of heavy impacts on hard linoleum.\n\nWithout real arch structure, your foot flattens, pulling on the plantar fascia and sending soreness through your heels and lower back.\n\nThe Ortho Stretch Cushion Shoe was engineered for demanding hospital shifts:\n- Doctor-recommended arch support keeps your foot aligned and relieves pressure\n- Deep heel cushioning absorbs floor shock from your first round to your last\n- Flexible stretch-knit upper adapts to foot swelling throughout the day\n- Slip-resistant outsoles keep you grounded on slick floors\n\nOur Black Friday Event is on now: save 60% sitewide with free shipping & returns. Try them on your next three shifts. If you do not feel genuine relief, return them within 30 days for a full refund.",
+     "why": "Stepprs high-contrast ticker layout adapted to nurse shift endurance and doctor-recommended arch support."
+    },
+    {
+     "angle": "Disney 20,000 step endurance",
+     "fb_description": "30-Day Money-Back Guarantee",
+     "fb_headline": "60% Off Disney Walking Shoes",
+     "headline": "WALK ALL DAY AT DISNEY\nWITHOUT SORE HEELS",
+     "id": "TA_BF5_13_D",
+     "on_image_text": [
+      "BLACK FRIDAY SALE // 60% OFF SITEWIDE // FREE SHIPPING & RETURNS",
+      "ARCH SUPPORT",
+      "WIDE TOE BOX",
+      "60% OFF SITEWIDE",
+      "30-Day Money-Back Guarantee"
+     ],
+     "primary_text": "A theme park trip should be about making memories with your family, not scouting out the nearest bench to rest your aching feet.\n\nAt Disney, you easily log 20,000 steps across baking concrete while standing in hour-long ride lines. If your shoes lack proper arch support, your heel strikes feel like hitting stone with a hammer.\n\nThe Ortho Stretch Cushion Shoe keeps you moving comfortably all day long:\n- Podiatrist-recommended arch support prevents arch collapse and heel strain\n- Extra-deep heel cushion absorbs punishing pavement impact\n- Wide toe box prevents cramped, pinched toes\n- Breathable stretch-knit keeps feet cool in long lines\n\nBlack Friday is live: take 60% OFF sitewide with free shipping & returns, backed by our 30-day money-back guarantee. Wear them on your vacation. If your feet do not feel supported, return them within 30 days for a full refund.",
+     "why": "Stepprs dark ticker layout adapted to theme-park walking customer survey data on concrete fatigue."
+    },
+    {
+     "angle": "Disney trip handwritten whiteboard checklist",
+     "fb_description": "Free Shipping & Returns",
+     "fb_headline": "60% Off: Disney Park Shoes",
+     "headline": "EARLY BLACK FRIDAY IS LIVE!",
+     "id": "TA_BF5_14_D",
+     "on_image_text": [
+      "20,000 Disney steps",
+      "All-day arch support",
+      "60% OFF sitewide now"
+     ],
+     "primary_text": "If you have a Disney trip coming up, your normal sneakers are not going to cut it.\n\nA full day at the parks means 15,000 to 20,000 steps on unforgiving pavement, plus hours standing in queues. By afternoon, flat insoles break down and every step sends pain straight through your heels.\n\nThe Ortho Stretch Cushion Shoe was made so you never have to sit out and miss family moments:\n- Podiatrist-recommended arch support cradles your foot through long standing queues\n- High-rebound heel cushioning absorbs shock on theme park concrete\n- Extra-wide toe box prevents painful pinching and blisters\n- Stretch knit upper keeps your feet cool and comfortable in the heat\n\nOur Black Friday Sale is live: take 60% OFF sitewide with free shipping & returns. Try them risk-free. If you are not walking in total comfort, return them within 30 days for a full refund.",
+     "why": "Stepprs whiteboard native marker layout adapted to Disney theme park step volume and foot fatigue."
+    },
+    {
+     "angle": "Europe travel handwritten whiteboard checklist",
+     "fb_description": "Free Shipping & Returns",
+     "fb_headline": "60% Off Europe Travel Shoes",
+     "headline": "EARLY BLACK FRIDAY IS LIVE!",
+     "id": "TA_BF5_14_T",
+     "on_image_text": [
+      "Cobblestone walking",
+      "All-day arch support",
+      "60% OFF sitewide now"
+     ],
+     "primary_text": "If you are packing for Europe, leave your heavy, rigid sneakers behind.\n\nBetween five-mile city walking tours, uneven cobblestones, and steep museum steps, your arches and heels take a beating. Ordinary flat footwear leaves your feet throbbing before dinner.\n\nThe Ortho Stretch Cushion Shoe was designed for women who travel on foot:\n- Anatomical arch support stabilizes your stride across slick and uneven stone\n- Thick heel cushioning absorbs shock on marble floors and pavement\n- Roomy toe box accommodates foot swelling from long flights\n- Flexible knit upper packs down flat in your carry-on luggage\n\nBlack Friday is here: save 60% sitewide with free shipping & returns. Test them on your travels. If you do not experience lasting foot comfort, return them within 30 days for a full refund.",
+     "why": "Stepprs whiteboard native marker layout adapted to cobblestone walking fatigue and travel packing VOC."
+    }
+   ]
+  }
+ ]
+}
