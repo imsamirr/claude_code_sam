@@ -1043,6 +1043,26 @@
     "rv_bf_warehouse_boxes": {
       "file": "reference/benchmarks/rv_ref_bf_warehouse_boxes.jpg",
       "use_for": "LAYOUT reference only (user-supplied, Nov 19: Orthofit: huge orange 'We ordered way too many.' headline, short paragraphs, orange pill button, warehouse of boxes, open shoe box hero). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "approved_BF_01_giant_40_off_pill": {
+      "file": "reference/benchmarks/approved_BF_01_giant_40_off_pill.png",
+      "use_for": "Approved render: copy exactly except the requested change."
+    },
+    "approved_BF_02_120_days_zero_risk": {
+      "file": "reference/benchmarks/approved_BF_02_120_days_zero_risk.png",
+      "use_for": "Approved render: copy exactly except the requested change."
+    },
+    "approved_BF_03_saying_goodbye_tablets": {
+      "file": "reference/benchmarks/approved_BF_03_saying_goodbye_tablets.png",
+      "use_for": "Approved render: copy exactly except the requested change."
+    },
+    "approved_BF_04_splash_40_off": {
+      "file": "reference/benchmarks/approved_BF_04_splash_40_off.png",
+      "use_for": "Approved render: copy exactly except the requested change."
+    },
+    "approved_BF_05_black_friday_stock": {
+      "file": "reference/benchmarks/approved_BF_05_black_friday_stock.png",
+      "use_for": "Approved render: copy exactly except the requested change."
     }
   },
   "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots).",

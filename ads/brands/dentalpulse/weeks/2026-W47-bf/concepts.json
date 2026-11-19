@@ -9,14 +9,14 @@
       "lang": "en",
       "funnel": "offer",
       "appliance": "denture_full",
-      "colorway": "denture_gift_bundle",
+      "colorway": "pod",
       "format_name": "bf_giant_off_pill",
-      "benchmark": "rv_bf_giant_off_pill",
-      "format_ref": true,
+      "benchmark": "approved_BF_01_giant_40_off_pill",
       "angle": "Black Friday offer, user-supplied format (Nov 19)",
       "based_on": "Ref: Sonic Dental BF 'UP TO 40% OFF' + pill. Ours is a flat 40% (no 'up to').",
       "headline": "40% OFF. Black Friday Sale.",
-      "prompt": "Recreate the layout of the SECOND attached image closely: a soft light-grey studio background. Top center huge heavy black text \"40% OFF\" with a DentalPULSE-blue (#1188FF) rounded pill laid diagonally across the middle of the number reading in white bold caps \"BLACK FRIDAY SALE\". Above it, small dark caps \"DENTALPULSE ULTRASONIC CLEANER\". Below: the white DentalPULSE Pod from the first reference image with its lid closed, the small dental case and the travel bag beside it at their true sizes, and a yellow-stained upper denture in front. Bottom center small dark text \"FREE case + travel bag + shipping\". IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in a clean bold sans like the reference; no other text, no logos except the DentalPULSE wordmark where quoted and the wordmark printed on the Pod, no competitor names. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it. Compact device about 13 cm wide and 8.5 cm tall, never a big machine. The free dental case and travel bag are shown at their true size (bag about the Pod's size, case about half). Any appliance is about HALF the Pod's width. Any stained denture is UNMISTAKABLY yellow-brown; a clean one has bright white teeth and fresh pink gums."
+      "prompt": "Compared with the second attached image: keep EVERYTHING identical (layout, every word of text, fonts, colors, background, lighting, the DentalPULSE Pod, the denture, sizes and positions); the ONLY change: remove the black travel bag and the dark dental case (and its small blue brush) completely, and fill the space they leave with the same surface and background so nothing looks missing. Add nothing else. Do not show any bag, pouch, case or box other than what remains in the second image.",
+      "copy_of": "BF_01_giant_40_off_pill_v1"
     },
     {
       "id": "BF_02_120_days_zero_risk",
@@ -25,14 +25,14 @@
       "lang": "en",
       "funnel": "offer",
       "appliance": "denture_full",
-      "colorway": "denture_gift_bundle",
+      "colorway": "pod",
       "format_name": "bf_days_zero_risk",
-      "benchmark": "rv_bf_days_zero_risk",
-      "format_ref": true,
+      "benchmark": "approved_BF_02_120_days_zero_risk",
       "angle": "Black Friday offer, user-supplied format (Nov 19)",
       "based_on": "Ref: shoe ad '30 DAYS. ZERO RISK.' Ours: approved 120-day money-back guarantee + 40% off.",
       "headline": "120 days. Zero risk.",
-      "prompt": "Recreate the layout of the SECOND attached image closely: a warm off-white background. Top center a small dark-red rectangle with white caps \"BLACK FRIDAY: 40% OFF\". Then a huge heavy headline on two lines: black \"120 DAYS.\" and dark red \"ZERO RISK.\" and an italic dark subline \"Clean your dentures for 120 days, completely risk-free.\" Middle: the white DentalPULSE Pod from the first reference image on a warm light surface, with a yellow-stained denture on one side and a bright white denture on the other. Below, four dark checkmark lines in two columns: \"Kills 99.9% of bacteria\", \"Tap water only\", \"5-minute cycle\", \"No scrubbing\". Bottom: a black rounded bar with white text \"120-Day Money-Back Guarantee\". IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in a clean bold sans like the reference; no other text, no logos except the DentalPULSE wordmark where quoted and the wordmark printed on the Pod, no competitor names. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it. Compact device about 13 cm wide and 8.5 cm tall, never a big machine. The free dental case and travel bag are shown at their true size (bag about the Pod's size, case about half). Any appliance is about HALF the Pod's width. Any stained denture is UNMISTAKABLY yellow-brown; a clean one has bright white teeth and fresh pink gums."
+      "prompt": "Compared with the second attached image: keep EVERYTHING identical (layout, every word of text, fonts, colors, background, lighting, the DentalPULSE Pod, the denture, sizes and positions); the ONLY change: remove the black travel bag and the dark dental case (and its small blue brush) completely, and fill the space they leave with the same surface and background so nothing looks missing. Add nothing else. Do not show any bag, pouch, case or box other than what remains in the second image.",
+      "copy_of": "BF_02_120_days_zero_risk_v1"
     },
     {
       "id": "BF_03_saying_goodbye_tablets",
@@ -41,14 +41,14 @@
       "lang": "en",
       "funnel": "offer",
       "appliance": "denture_full",
-      "colorway": "denture_gift_bundle",
+      "colorway": "pod",
       "format_name": "bf_saying_goodbye",
-      "benchmark": "rv_bf_saying_goodbye",
-      "format_ref": true,
+      "benchmark": "approved_BF_03_saying_goodbye_tablets",
       "angle": "Black Friday offer, user-supplied format (Nov 19)",
       "based_on": "Ref: shoe ad 'WE ARE SAYING goodbye' clearance. The ref's 'last pairs / price goes back up' scarcity is NOT used (not verified for us); ours says goodbye to tablets.",
       "headline": "We are saying goodbye (to denture tablets)",
-      "prompt": "Recreate the layout of the SECOND attached image closely: a deep dark-green-to-black background. Top center bold white caps \"WE ARE SAYING\" and a huge white lowercase \"goodbye\", then a small red broken-heart emoji. Two short centered white paragraphs: \"To fizzing tablets, overnight soaks and scrubbing yellow dentures.\" and \"This Black Friday the DentalPULSE Ultrasonic Cleaner is 40% OFF, with a FREE case and travel bag.\" Bottom: a moody spotlit product shot of the white DentalPULSE Pod from the first reference image on a dark surface, with the small dental case and the travel bag EXACTLY as in the first reference image (no other pouches, bags or cases) and a bright white denture beside it. IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in a clean bold sans like the reference; no other text, no logos except the DentalPULSE wordmark where quoted and the wordmark printed on the Pod, no competitor names. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it. Compact device about 13 cm wide and 8.5 cm tall, never a big machine. The free dental case and travel bag are shown at their true size (bag about the Pod's size, case about half). Any appliance is about HALF the Pod's width. Any stained denture is UNMISTAKABLY yellow-brown; a clean one has bright white teeth and fresh pink gums."
+      "prompt": "Compared with the second attached image: keep EVERYTHING identical (layout, every word of text, fonts, colors, background, lighting, the DentalPULSE Pod, the denture, sizes and positions); the ONLY change: remove the black travel bag and the dark dental case (and its small blue brush) completely, and fill the space they leave with the same surface and background so nothing looks missing. Add nothing else. Do not show any bag, pouch, case or box other than what remains in the second image.",
+      "copy_of": "BF_03_saying_goodbye_tablets_v1"
     },
     {
       "id": "BF_04_splash_40_off",
@@ -57,14 +57,14 @@
       "lang": "en",
       "funnel": "offer",
       "appliance": "denture_full",
-      "colorway": "denture_gift_bundle",
+      "colorway": "pod",
       "format_name": "bf_splash",
-      "benchmark": "rv_bf_splash",
-      "format_ref": true,
+      "benchmark": "approved_BF_04_splash_40_off",
       "angle": "Black Friday offer, user-supplied format (Nov 19)",
       "based_on": "Ref: Sonic Dental BF underwater splash. Ours keeps the water feel but the Pod is NOT submerged (electrical device): it rests on a wet surface with a splash behind.",
       "headline": "Black Friday Sale. 40% OFF.",
-      "prompt": "Recreate the mood of the SECOND attached image: a deep blue water background with a big crisp water splash and rising bubbles behind and around. The white DentalPULSE Pod from the first reference image RESTS upright on a wet glossy surface in the lower center (NOT underwater, NOT floating), water droplets on its shell, a bright white denture, the small dental case and the travel bag EXACTLY as in the first reference image beside it (no other pouches, bags or cases). Top center the small white wordmark \"DentalPULSE\", then a white rounded pill with dark caps \"BLACK FRIDAY SALE\" and big bold white caps \"40% OFF\". Bottom small white text \"Ultrasonic cleaning in tap water. FREE case + travel bag.\" IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in a clean bold sans like the reference; no other text, no logos except the DentalPULSE wordmark where quoted and the wordmark printed on the Pod, no competitor names. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it. Compact device about 13 cm wide and 8.5 cm tall, never a big machine. The free dental case and travel bag are shown at their true size (bag about the Pod's size, case about half). Any appliance is about HALF the Pod's width. Any stained denture is UNMISTAKABLY yellow-brown; a clean one has bright white teeth and fresh pink gums."
+      "prompt": "Compared with the second attached image: keep EVERYTHING identical (layout, every word of text, fonts, colors, background, lighting, the DentalPULSE Pod, the denture, sizes and positions); the ONLY change: remove the black travel bag and the dark dental case (and its small blue brush) completely, and fill the space they leave with the same surface and background so nothing looks missing. Add nothing else. Do not show any bag, pouch, case or box other than what remains in the second image.",
+      "copy_of": "BF_04_splash_40_off_v1"
     },
     {
       "id": "BF_05_black_friday_stock",
@@ -73,14 +73,14 @@
       "lang": "en",
       "funnel": "offer",
       "appliance": "denture_full",
-      "colorway": "denture_gift_bundle",
+      "colorway": "pod",
       "format_name": "bf_warehouse_boxes",
-      "benchmark": "rv_bf_warehouse_boxes",
-      "format_ref": true,
+      "benchmark": "approved_BF_05_black_friday_stock",
       "angle": "Black Friday offer, user-supplied format (Nov 19)",
       "based_on": "Ref: Orthofit 'We ordered way too many.' The overstock claim is NOT used (not verified for us). Ours: honest 'Black Friday stock is in' + offer.",
       "headline": "Black Friday stock is in.",
-      "prompt": "Recreate the layout of the SECOND attached image closely: a bright warehouse background with tall shelves of plain brown shipping boxes (no readable labels). Top left a huge bold DentalPULSE-blue (#1188FF) headline \"Black Friday stock is in.\" then short dark paragraphs: \"For denture wearers done with tablets and scrubbing.\" / \"Every Pod ships with a FREE dental case and travel bag.\" / \"This Black Friday it's 40% off, with a 120-day money-back guarantee.\" / \"When the Black Friday sale ends, so does this price.\" Then a blue rounded pill button with white caps \"SHOP THE BLACK FRIDAY SALE: 40% OFF\". Bottom right: an open brown shipping box with tissue paper holding the white DentalPULSE Pod, the small dental case and the travel bag from the first reference image; plain boxes stacked around. IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in a clean bold sans like the reference; no other text, no logos except the DentalPULSE wordmark where quoted and the wordmark printed on the Pod, no competitor names. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it. Compact device about 13 cm wide and 8.5 cm tall, never a big machine. The free dental case and travel bag are shown at their true size (bag about the Pod's size, case about half). Any appliance is about HALF the Pod's width. Any stained denture is UNMISTAKABLY yellow-brown; a clean one has bright white teeth and fresh pink gums."
+      "prompt": "Compared with the second attached image: keep EVERYTHING identical (layout, every word of text, fonts, colors, background, lighting, the DentalPULSE Pod, the denture, sizes and positions); the ONLY change: remove the black travel bag and the dark dental case (and its small blue brush) completely, and fill the space they leave with the same surface and background so nothing looks missing. Add nothing else. Do not show any bag, pouch, case or box other than what remains in the second image.",
+      "copy_of": "BF_05_black_friday_stock_v1"
     }
   ]
 }
