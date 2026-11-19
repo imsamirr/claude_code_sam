@@ -85,6 +85,9 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
    - **Fallback**: if StefanBrain is unreachable (401/403, or still running after 50 min), write the
      concepts yourself as before (winner → format → caption → 2–4 shots, no caption reused from earlier
      batches) and say so at the top of the summary.
+   **User-flagged references** (marked ⭐ in `ads/video/playbook.md`, e.g. F31 Cuurt creator review, added
+   2026-11-19) get at least one video in the next batch after they're added, then stay in rotation: run
+   `shortform` with `--focus "include one F31 creator-review concept"` (or ask for it in a followup).
    The Notion card's per-video rows add the caption and "copy: StefanBrain".
 5. **Footage** (new clips only; list what's taken with `check_batch.py --used ads/brands/<brand>/video`):
    - the brand's Drive: `video/footage.csv` (tagged) and `video/drive_inventory.tsv` (every file;

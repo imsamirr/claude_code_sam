@@ -26,7 +26,7 @@ The approved look (set A) is a **phone video that a real woman would post to her
 
 ---
 
-## 2. Format library (30 formats)
+## 2. Format library (31 formats)
 
 Each entry gives the template, real references (advertiser, Atria id, days running, length), a shot recipe and a ready Comfort Wear caption. Days running are as of 2026-11-13. "Doctor-recommended" and "podiatrist-recommended" are approved since 2026-11-18; all Comfort Wear lines still avoid review counts or stars, and cure or treatment language.
 
@@ -209,6 +209,22 @@ Each entry gives the template, real references (advertiser, Atria id, days runni
 - **Examples:** Dr. Woof Apparel `m1113715671668441` ("POV: he won't board / without his flight socks / after every long-haul / so I got him these…"); KatKin `m1551406382627956`.
 - **Shots:** 6 or 7 shots of 1.5 s each, cut on the beat.
 - **Comfort Wear (gift/senior):** "POV: my mom won't leave the house / without her purple sneakers / not for church / not for the cruise / not even for the grocery store / so I got her a second pair 😂"
+
+### F31. Creator review in captions: POV → "it's been 90 days" → proof → ✅ checklist → "10/10 recommend" ⭐ user-flagged winner
+- **Added by the user, 2026-11-19, as a strong performer for this advertiser.** Use it in the next weekly batch (W48) and keep it in rotation.
+- **Template:** a script caption (§8), one line per shot, every line a short creator verdict:
+  1. `POV: You finally found [category] that [fit/fix the pain]` over the creator in action;
+  2. `It's been [N] days since I switched to these` over an on-feet close-up;
+  3. two stacked "No more [pain]" lines over the creator holding the shoe up to the camera;
+  4. one proof detail + "Insanely sturdy + durable"-style verdict over a sole or material close-up held in hand;
+  5. a 3-line ✅ checklist of features over more action;
+  6. `10/10 recommend` + a 👍 sticker over a wide action shot.
+- **Example:** Ed Ju Pickleball with Cuurt `m2140991217301029` (127 d running, 27 s, still active Nov 18; creator-account ad for the CUURT Muuv). Lines: "POV: You finally found pickleball shoes that fit your feet" / "It's been 90 days since I switched to these" / "No more cramped toes / No more feet pain" / "They use Good Year rubber / Insanely sturdy + durable" / "✅ Wide toe box ✅ Ankle stability ✅ Zero drop" / "10/10 recommend 👍". Meta copy: a ✅ list of quoted results, then "How?" with feature → benefit arrows. Atria tags: problem & solution, features/benefits, comparison.
+- **Why it's an exception to §1:** this is the one format where a feature list sits in the video. It works because every line is the creator's own verdict over real use, not an ad card. Keep the offer out of the captions; it goes in the end card and primary text.
+- **Shots (6, ~4.5 s each, 25–28 s total, music only):** 1) creator in motion in their setting (nurse on the unit or in the garage, walker on the path, teacher in the hallway); 2) low on-feet close-up standing still; 3) creator facing the camera, holding one shoe up and pressing the toe box; 4) the sole or knit up close in hand, flexed; 5) back in motion; 6) a wide shot of them still going, then a thumbs up.
+- **Comfort Wear footage (all unused as of W47):** Heather's set covers it shot for shot: walking on the curb/sidewalk (`1ulTY8MbkHcYMdK4b_BoDg0R5pxyK4GoZ`, `1uH7mwteRb1oQTUntu9cAdujkmU7-S45m`), standing in the red pair (`toes` `1tbFk-kBlpZb8kUbeUVerTmyIeDPlBHhC`), holding the shoe to camera and pressing the toe box (`1UC8gAyKvYUs6f1Q054uBnS4Cnsl1KZo_`), up and down steps (`1dYS764WR5Nzy4B87EzP69mi4vtL7iw98`), walking outside (`11B1parR2UxYx-XryWz1hp0iGnnkIwEEl`), selfie walks (`1R9PC8trqWeQrHbmA9edeiZ1lJhgUwZlk`). Run `check_batch.py` before use.
+- **Look:** yellow text with a thin dark outline, no box, line position moves with each shot (over sky or floor) to stay off the face and the shoe. Build: `"style": "classic", "weight": "Bold", "size": 72` (no-box floor) with each whole line wrapped in `*…*` so it draws in the accent yellow `#FFD84D`; ✅ lines as one caption with `\n` breaks; the 👍 as its own emoji caption on the last clip.
+- **Comfort Wear lines:** StefanBrain writes them (persona named in the brief, e.g. "Tired Nurse" or "Active Senior"); brief it with this template, the reference lines above, the shot list and the approved claims. No review counts or stars; "10/10 recommend" is the creator's opinion, which is fine.
 
 **Length variants for any format:** a 2 to 6 s single-shot loop (Shop Sunny Tails 6.5 s / 397 d; Mama Bear Oasis `m1381490440616057` 2.6 s / 83 d; Coco & Eve `m2097321387574561` 1 s / 31 d). Volume measured "long text stacked over a 6-second clip" at a median 27x in careers and "more text than the clip lets you read" at 9x in wellness, so dense story captions (F3, F13) can run on very short loops.
 
@@ -395,6 +411,7 @@ it's new; drop it when results say so.
 | W47 (Nov 19) | Caramel label pills, one per scene | hopeanddaisieslifeover50 × HIKE `m1579510697555668` (senior, scene-by-scene demo) | `"style": "brand", "color": "#C68B59", "size": 46, "weight": "Bold", "width": 0.8, "y": 0.22`, one per `"clip": i` |
 | W47 | Solid black box, tight lowercase lines | Stephanie Fankhauser × CALLIXE `m1427513129046344` (gift for mom) | `"style": "dark", "size": 50, "weight": "Bold", "width": 0.6, "lower": true, "y": 0.26` + `"radius": 6` (square corners; `radius` option added to box styles W47) |
 | W47 (seen, not used) | Thin light geometric sans, no box, faint shadow | Styled By Beck × ARDANT `m29751653587753527` (hands-only gift) | conflicts with the Nov 18 rule (no-box text must be heavy weight); closest allowed: `"style": "shadow", "font": "classic", "weight": "SemiBold", "size": 72` |
+| W47 (Nov 19, user ref) | Yellow text, thin dark outline, no box, one line per shot; ✅ checklist; 👍 sticker on the last shot | Ed Ju Pickleball with Cuurt `m2140991217301029` (127 d) — F31 | wrap each whole line in `*…*` on `"style": "classic", "weight": "Bold", "size": 72` (accent yellow `#FFD84D`); the 👍 is an emoji line (`"size": 120`) on the last clip |
 | W47 (seen, not built yet) | Heavy serif header + small italic serif tagline tucked under | jade.lillies × Lila Footwear `m1462895742612774` (travel-nurse bag) | needs an italic serif font + a `sub` line in render_caption |
 
 ## 8. Script captions (user, Nov 14)
