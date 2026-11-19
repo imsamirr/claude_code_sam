@@ -115,7 +115,7 @@
  },
  "LF06_A": {
   "copy": "hook: the band director on the curb",
-  "prompt": "Spring afternoon at a large theme park, photo taken by a teenager: a plus-size woman about 52 (around US size 22) in a plain red polo and khaki shorts sits on a curb at the edge of a crowded walkway with a clipboard on her lap, shoes loosened, fanning herself with a paper map with no readable text, while four teenagers in matching plain red T-shirts stand around her looking down at her with worried faces, one holding out a water bottle. Crowds behind, no castle, no characters, no logos. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "prompt": "Spring afternoon at a large theme park, photo taken by a teenager: a plus-size woman about 52 (around US size 22) in a plain red polo and khaki shorts sits on a curb at the edge of a crowded walkway with a clipboard on her lap, shoes loosened, fanning herself with a paper map with no readable text, while four teenagers in matching plain red T-shirts stand around her looking down at her with worried faces, one holding out a water bottle. Crowds behind, no castle, no characters, no logos. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere. IMPORTANT: every shoe and sock in the photo is completely plain, with NO swoosh, NO stripes, NO printed words or brand marks on uppers, insoles, heels, socks or shorts. No date stamp or timestamp in the corner.",
   "size": "3:4"
  },
  "LF06_B": {
@@ -135,12 +135,12 @@
  },
  "LF07_A": {
   "copy": "hook: the graded closet shelf",
-  "prompt": "A closet shelf at home in Florida with seven pairs of well-worn women's walking shoes and sandals lined up in a row (white running shoes, a clog, a cork sandal, a memory-foam slip-on, a mesh sneaker, a black knit sneaker at the end), each with a strip of blue painter's tape on the toe with a handwritten score number (like 3, 4, 2, 5, 6, 1, 9). Under them a stack of plastic rain ponchos and a sun visor. Overhead closet light, phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "prompt": "A closet shelf at home in Florida with seven pairs of well-worn women's walking shoes and sandals lined up in a row (all generic and unbranded: white running shoes, a clog, a cork sandal, a memory-foam slip-on, a mesh sneaker, a black knit sneaker at the end), each with a strip of blue painter's tape on the toe with a handwritten score number (like 3, 4, 2, 5, 6, 1, 9). Under them a stack of plastic rain ponchos and a sun visor. Overhead closet light, phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere. Insoles are plain solid grey with nothing printed on them; the cork sandal has a plain unmarked footbed. IMPORTANT: every shoe and sock in the photo is completely plain, with NO swoosh, NO stripes, NO printed words or brand marks on uppers, insoles, heels, socks or shorts. No date stamp or timestamp in the corner.",
   "size": "3:4"
  },
  "LF07_B": {
   "copy": "the hotel bed after a park day",
-  "prompt": "A resort hotel bed at night: a lanyard covered in colorful enamel pins with abstract shapes (no characters), a park map with no readable text, a refillable cup, and a pair of muddy white running sneakers dropped on the floral bedspread, a woman's socked feet with red marks propped on a pillow at the edge of the frame. Lamp light, phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "prompt": "A resort hotel bed at night: a plain navy lanyard with a few round enamel pins showing only simple abstract shapes (stars, circles, a pineapple), a folded plain green paper map with no printing visible, a refillable plastic cup, and a pair of muddy white running sneakers dropped on the floral bedspread; at the edge of the frame a woman's socked feet with red marks propped on a pillow. Lamp light, phone photo. IMPORTANT: every shoe and sock in the photo is completely plain, with NO swoosh, NO stripes, NO printed words or brand marks on uppers, insoles, heels, socks or shorts. No date stamp or timestamp in the corner. No cartoon characters, no mouse ears.",
   "size": "3:4"
  },
  "LF07_C": {
@@ -155,7 +155,7 @@
  },
  "LF08_A": {
   "copy": "hook: the return at the counter",
-  "prompt": "A kitchen counter in a Midwest home in November: a pair of brand-new chunky white running shoes with thick foam soles sitting on top of their plain white shoebox with the tissue paper, a printed receipt next to it with no readable text, a nursing textbook and a plain teal stethoscope beside them. A woman's hand in navy scrubs pushing the box away. Evening kitchen light, phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "prompt": "A kitchen counter in a Midwest home in November: a pair of brand-new chunky white running shoes with thick foam soles sitting on top of their plain white shoebox with the tissue paper, a printed receipt next to it with no readable text, a thick textbook with a plain solid blue cover and no title and a plain teal stethoscope beside them. A woman's hand in navy scrubs pushing the box away. Evening kitchen light, phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere. IMPORTANT: every shoe and sock in the photo is completely plain, with NO swoosh, NO stripes, NO printed words or brand marks on uppers, insoles, heels, socks or shorts. No date stamp or timestamp in the corner. No words on any book, box or paper.",
   "size": "3:4"
  },
  "LF08_B": {
