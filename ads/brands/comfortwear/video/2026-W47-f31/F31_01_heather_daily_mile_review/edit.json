@@ -1,0 +1,159 @@
+{
+  "id": "F31_01_heather_daily_mile_review",
+  "version": 4,
+  "created": "2026-11-19",
+  "end_card": "auto",
+  "transition": "cut",
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "F31 creator review (user-flagged winner, Cuurt m2140991217301029): one yellow outlined line per shot, 6 shots ~4.5 s, music only, 9:16 with content inside 4:5, BF end card.",
+  "format": "F31 creator review in captions (POV hook → 90 days → no more… → toe-box proof → ✅ checklist → 10/10 recommend)",
+  "angle": "Persona 9: The Daily Mile Reclaimer (toe box pinching a bunion)",
+  "persona": "Persona 9: The Daily Mile Reclaimer",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "https://stefanbrain.com/chat/674ad6a1-0a75-4678-8b23-738ab67ef7fd",
+  "stefanbrain_shots": [
+    "A: selfie walking outside on a sunny street, laughing, red top; ends with a POV look down at her feet in the red shoes on the sidewalk",
+    "E: legs-only: walking toward the camera on a sidewalk in the red shoes and jeans",
+    "H: indoors, holding the red pair up next to her face, smiling",
+    "I: indoors, holds one shoe up to the camera, points at it, then squeezes the wide toe box with her fingers",
+    "G: POV looking down at her own feet walking over cracked sidewalk in the red shoes",
+    "F: full-body side view walking along a curb/sidewalk, red top, sunny"
+  ],
+  "based_on": "User-flagged reference F31: Ed Ju Pickleball with Cuurt m2140991217301029 (127 d running)",
+  "music": {
+    "file": "../../music/soft_acoustic_80bpm.mp3",
+    "gain": 0.45,
+    "duck": false
+  },
+  "sources": {
+    "A": "drive:10nVysCnSoJz3d3EZTQSvLflVsImyiyHc",
+    "E": "drive:1uH7mwteRb1oQTUntu9cAdujkmU7-S45m",
+    "H": "drive:10Thk8msT1L3pEM3zV7a5YlOJzu7T8sdw",
+    "I": "drive:1UC8gAyKvYUs6f1Q054uBnS4Cnsl1KZo_",
+    "G": "drive:1R9PC8trqWeQrHbmA9edeiZ1lJhgUwZlk",
+    "F": "drive:1ulTY8MbkHcYMdK4b_BoDg0R5pxyK4GoZ"
+  },
+  "source_notes": {
+    "A": "2026/Heather/B roll/Walking outside selfie-2",
+    "E": "Pressing on curb-2",
+    "H": "shoes close to face",
+    "I": "wide toe box fingers",
+    "G": "Walking outside selfie-1",
+    "F": "Pressing on curb-1"
+  },
+  "clips": [
+    {
+      "src": "A",
+      "in": 5.0,
+      "out": 9.5,
+      "gain": 0
+    },
+    {
+      "src": "E",
+      "in": 1.0,
+      "out": 5.5,
+      "gain": 0
+    },
+    {
+      "src": "H",
+      "in": 0.5,
+      "out": 5.0,
+      "gain": 0,
+      "shift_y": 0.16
+    },
+    {
+      "src": "I",
+      "in": 6.0,
+      "out": 10.5,
+      "gain": 0,
+      "shift_y": 0.16
+    },
+    {
+      "src": "G",
+      "in": 5.0,
+      "out": 9.5,
+      "gain": 0
+    },
+    {
+      "src": "F",
+      "in": 1.0,
+      "out": 5.5,
+      "gain": 0,
+      "shift_y": 0.04
+    }
+  ],
+  "captions": [
+    {
+      "clip": 0,
+      "text": "*POV: you finally found shoes with bunion room*",
+      "style": "classic",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.9,
+      "y": 0.22,
+      "fade": 0,
+      "font": "condensed"
+    },
+    {
+      "clip": 1,
+      "text": "*Switched 90 days ago. Walking every morning.*",
+      "style": "classic",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.9,
+      "y": 0.3,
+      "fade": 0,
+      "font": "condensed"
+    },
+    {
+      "clip": 2,
+      "text": "*No more pinched bunions*\n*No more cramped toes*",
+      "style": "classic",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.9,
+      "y": 0.215,
+      "fade": 0,
+      "font": "condensed"
+    },
+    {
+      "clip": 3,
+      "text": "*Wide anatomical toe box. Room to breathe.*",
+      "style": "classic",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.9,
+      "y": 0.215,
+      "fade": 0,
+      "font": "condensed"
+    },
+    {
+      "clip": 4,
+      "text": "*✅ Podiatrist-recommended arch*\n*✅ 4-way stretch knit*\n*✅ Slip-resistant grip*",
+      "style": "classic",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.96,
+      "y": 0.3,
+      "fade": 0,
+      "font": "condensed"
+    },
+    {
+      "clip": 5,
+      "text": "*10/10 recommend for morning walks 👍*",
+      "style": "classic",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.46,
+      "y": 0.3,
+      "fade": 0,
+      "font": "condensed",
+      "x": 0.25
+    }
+  ],
+  "primary_text": "If your daily morning walk keeps getting cut short by pinched toes and aching arches, ditch the narrow sneakers.\n\nComfort Wear's Ortho Stretch Cushion Shoe gives your toes room to spread with a wide anatomical toe box, podiatrist-recommended arch support, and a breathable 4-way stretch knit that gives bunions soft, flexible room.\n\nBlack Friday Deal:\nGet 60% OFF sitewide right now. Plus, when you buy 2 pairs, you get 2 FREE gifts.\n\nTry them completely risk-free with our 30-day money-back guarantee. If you don't love every step, send them back for a full refund within 30 days.\n\nTap below to shop the Black Friday sale.",
+  "headline": "Black Friday: 60% OFF + 2 FREE Gifts",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1"
+}
