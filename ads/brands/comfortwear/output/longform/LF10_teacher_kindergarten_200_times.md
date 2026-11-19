@@ -4,7 +4,7 @@
 **Angle source:** Teacher families: AUGWK1 VID2 ($9.1k · 1.63) and JULYWK2 VID1 ($10.1k · 1.40) (90d to 11-18); earlier TeacherTested scoreboard ($9.4k · 1.69)
 **Persona:** Persona 5: school teacher (The Classroom Pacer) (StefanBrain: Persona 5, school teacher ("The Classroom Pacer"))
 **Copy:** StefanBrain (copy_source: stefanbrain) · chat chat_bcd022ae9c1f4b2e963e29d8e1db4b4f · https://stefanbrain.com/chat/bcd022ae-9c1f-4b2e-963e-29d8e1db4b4f
-**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: An odd-number fact (214 times down to the floor and back up). Open-loop type: What a five-year-old student noticed and asked during reading circle that made her count. Lead type: Problem-solution with a scoreboard. Awareness level: Solution-aware. One-belief sentence: Teachers do not fail from walking, they fail from crouching and planting on concrete, where rigid clogs lever the heel and squishy running foam wobbles, while flexible, stable structural cushioning meets dress codes and keeps knees and feet pain-free. Measured primary_text character count: 12,659 characters. Measured scroll_script word count: 712 words.
+**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: An odd-number fact (214 times down to the floor and back up). Open-loop type: What a five-year-old student noticed and asked during reading circle that made her count. Lead type: Problem-solution with a scoreboard. Awareness level: Solution-aware. One-belief sentence: Teachers do not fail from walking, they fail from crouching and planting on concrete, where rigid clogs lever the heel and squishy running foam wobbles, while flexible, stable structural cushioning meets dress codes and keeps knees and feet pain-free. Measured primary_text character count: 12657 characters. Measured scroll_script word count: 711 words.
 **Format:** static image + long primary text (11.6k characters measured; brand first named at 56%)
 **Headline:** The 214-Crouch Teacher Scoreboard
 **CTA:** Learn More
@@ -115,7 +115,7 @@ She was wearing a pair of sleek, clean, all-black shoes. They did not have giant
 
 "These are not running shoes," Karen said. "And they are not clunky orthopedic boots. They are Comfort Wear Ortho Stretch Cushion Shoes."
 
-I looked at them skeptically. "Karen, they look like regular slip-on sneakers. My feet are wrecked. I need heavy medical support, not cute shoes off the internet."
+I looked at them skeptically. "Karen, they look like regular sneakers. My feet are wrecked. I need heavy medical support, not cute shoes off the internet."
 
 Karen laughed. "Beth, I have bone spurs on both heels and a bunion the size of a golf ball. These cost sixty dollars. And they scored higher than my one hundred seventy-five dollar Hokas on day one."
 
@@ -141,7 +141,7 @@ In plain all-black, it looks like a clean shoe that easily meets school dress co
 
 Best of all, Comfort Wear backed it with an ironclad 30-day money-back guarantee with a full refund within 30 days. If they did not support my feet through two hundred crouches a day, I would get every penny back.
 
-They are doctor-recommended and podiatrist-recommended, HSA/FSA eligible, and trusted by more than 500,000+ women.
+They are doctor-recommended and podiatrist-recommended, HSA/FSA eligible, and trusted by 500,000+ customers.
 
 At $59.95, it was sixty dollars outscoring the one hundred seventy-five dollar pairs on my board. The highest score at the lowest price.
 
@@ -179,7 +179,7 @@ If you are a teacher, an aide, a daycare provider, or any woman who spends her d
 
 Right now, Comfort Wear is running their official Black Friday Sale: buy 2 pairs, get 2 free gifts (a 3-pack of cushioned socks + a travel bag), but only through December 5th.
 
-Every pair comes backed by their full 30-day money-back guarantee, allowing you to test them in your actual classroom with zero risk. They are HSA/FSA eligible, doctor-recommended, podiatrist-recommended, and proven by 500,000+ women.
+Every pair comes backed by their full 30-day money-back guarantee, allowing you to test them in your actual classroom with zero risk. They are HSA/FSA eligible, doctor-recommended, podiatrist-recommended, and proven by 500,000+ customers.
 
 Tap the Learn More button below to claim your 2 pairs and 2 free gifts before the Black Friday Sale ends on December 5th.
 
@@ -194,10 +194,10 @@ P.S. If you have a fellow teacher, aide, or school nurse who comes into the loun
 ## Offer swaps by date
 
 Christmas Sale (December 6 to December 31, 2026):
-Right now, Comfort Wear is running their Christmas Sale: get 60% off, plus 2 free gifts when you buy 2 pairs, but only through December 31st. Every pair comes backed by their full 30-day money-back guarantee, allowing you to test them on your actual shifts with zero risk. They are HSA/FSA eligible, doctor-recommended, podiatrist-recommended, and trusted by 500,000+ women. Tap Learn More to claim your Christmas Sale discount and free gifts before December 31st.
+Right now, Comfort Wear is running their Christmas Sale: get 60% off, plus 2 free gifts when you buy 2 pairs, but only through December 31st. Every pair comes backed by their full 30-day money-back guarantee, allowing you to test them on your actual shifts with zero risk. They are HSA/FSA eligible, doctor-recommended, podiatrist-recommended, and trusted by 500,000+ customers. Tap Learn More to claim your Christmas Sale discount and free gifts before December 31st.
 
 New Year Sale (January 1 to January 15, 2027):
-Right now, Comfort Wear is running their New Year Sale: get 40% off with free shipping, but only through January 15th. Every pair comes backed by their full 30-day money-back guarantee, allowing you to test them on your actual shifts with zero risk. They are HSA/FSA eligible, doctor-recommended, podiatrist-recommended, and trusted by 500,000+ women. Tap Learn More to claim 40% off with free shipping before the New Year Sale ends on January 15th.
+Right now, Comfort Wear is running their New Year Sale: get 40% off with free shipping, but only through January 15th. Every pair comes backed by their full 30-day money-back guarantee, allowing you to test them on your actual shifts with zero risk. They are HSA/FSA eligible, doctor-recommended, podiatrist-recommended, and trusted by 500,000+ customers. Tap Learn More to claim 40% off with free shipping before the New Year Sale ends on January 15th.
 
 ## Hook variants (StefanBrain)
 
@@ -210,7 +210,7 @@ When a five-year-old asked me that on our reading rug, I grabbed my clipboard an
 **H4:** Our principal banned athletic sneakers, but my knees were screaming after two hundred crouches a day.
 Here is the $60 shoe that satisfied our district dress code and outscored the $175 pairs on day one.
 
-## Scroll-video script (LF10V, 691 words, StefanBrain)
+## Scroll-video script (LF10V, 690 words, StefanBrain)
 
 Two hundred and fourteen times.
 
@@ -276,7 +276,7 @@ The wide toe box lets toes spread, and slip-resistant grip holds wet cafeteria t
 
 Comfort Wear backs them with an ironclad thirty-day money-back guarantee with a full refund within thirty days.
 
-They are doctor-recommended, podiatrist-recommended, and trusted by over five hundred thousand women.
+They are doctor-recommended, podiatrist-recommended, and trusted by five hundred thousand customers.
 
 I ordered two pairs. On Monday, my feet felt completely supported.
 

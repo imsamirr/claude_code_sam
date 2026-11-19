@@ -4,8 +4,8 @@
 **Angle source:** Kyro390 nurse page ($13.0k · 1.66); Aubrey UGC ($20.1k · 1.46); NurseNotRunners ($13.5k · 1.52) (90d to 11-18); survey: 1,327 working respondents 65+
 **Persona:** Persona 10: the 65+ working senior (The Unretired Worker) (StefanBrain: Persona 10, the 65+ working senior ("The Unretired Worker"))
 **Copy:** StefanBrain (copy_source: stefanbrain) · chat chat_bcd022ae9c1f4b2e963e29d8e1db4b4f · https://stefanbrain.com/chat/bcd022ae-9c1f-4b2e-963e-29d8e1db4b4f
-**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: A secret (granddaughter believes narrator is retired). Open-loop type: Why she keeps the secret and the freezing morning she almost got caught in her scrubs. Lead type: Story lead. Awareness level: Problem-aware. One-belief sentence: For a working senior on concrete floors, heavy clogs and unstable running foam cause agony and falling hazards, but structural built-in arch support with a steady, firm sole keeps you upright and independent. Measured primary_text character count: 12,592 characters. Measured scroll_script word count: 714 words.
-**Format:** static image + long primary text (11.6k characters measured; brand first named at 57%)
+**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: A secret (granddaughter believes narrator is retired). Open-loop type: Why she keeps the secret and the freezing morning she almost got caught in her scrubs. Lead type: Story lead. Awareness level: Problem-aware. One-belief sentence: For a working senior on concrete floors, heavy clogs and unstable running foam cause agony and falling hazards, but structural built-in arch support with a steady, firm sole keeps you upright and independent. Measured primary_text character count: 12585 characters. Measured scroll_script word count: 718 words.
+**Format:** static image + long primary text (11.6k characters measured; brand first named at 56%)
 **Headline:** The 71-Year-Old Nurse's Secret
 **CTA:** Learn More
 **Landing page:** /pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers
@@ -27,11 +27,11 @@ At seventy-one years old, admitting you still punch a time clock feels like admi
 
 Lily thinks Grandma is retired. She thinks I water porch geraniums and work on crosswords all day.
 
-She has no idea that three nights a month, I put on scrubs, drive thirty miles to St. Jude Regional in Albuquerque, and work twelve-hour shifts on my feet.
+She has no idea that three nights a month, I put on scrubs, drive thirty miles to the regional hospital in Albuquerque, and work twelve-hour shifts on my feet.
 
 I do not work for fun.
 
-When my husband Arthur died, his pension ended and his Social Security vanished. My widow benefit barely covered property taxes and power bills.
+When my husband Arthur died, his pension ended, and my survivor benefit barely covered our property taxes and power bills.
 
 When grocery prices doubled, three night shifts a month became the only way to keep our little home.
 
@@ -151,7 +151,7 @@ Fifth, the outsole has certified slip-resistant grip for wet hospital floors.
 
 And Comfort Wear backed it with an honest 30-day money-back guarantee. If they do not support your feet on your longest day, you get a full refund within 30 days. No partial refunds. No store credit tricks.
 
-They are doctor-recommended and podiatrist-recommended, HSA/FSA eligible, and worn by over 500,000+ women.
+They are doctor-recommended and podiatrist-recommended, HSA/FSA eligible, and worn by 500,000+ customers across the country.
 
 At $59.95, it was less than half the price of running shoes that made me wobble. The sixty-dollar pair outscored the one hundred eighty-dollar pair on every count.
 
@@ -197,7 +197,7 @@ If you are a nurse, a caregiver, or any woman over sixty working on your feet, s
 
 Right now, Comfort Wear is running their official Black Friday Sale: 60% off sitewide, but only through December 5th.
 
-Every pair comes backed by their full 30-day money-back guarantee, allowing you to test them on your actual shifts with zero risk. They are HSA/FSA eligible, doctor-recommended, podiatrist-recommended, and proven by 500,000+ women.
+Every pair comes backed by their full 30-day money-back guarantee, allowing you to test them on your actual shifts with zero risk. They are HSA/FSA eligible, doctor-recommended, podiatrist-recommended, and proven by 500,000+ customers.
 
 Tap the Learn More button below to claim 60% off before the Black Friday Sale ends on December 5th.
 
@@ -212,10 +212,10 @@ P.S. If you have a friend, coworker, or retired nurse still picking up shifts to
 ## Offer swaps by date
 
 Christmas Sale (December 6 to December 31, 2026):
-Right now, Comfort Wear is running their Christmas Sale: get 60% off, plus 2 free gifts when you buy 2 pairs, but only through December 31st. Every pair comes backed by their full 30-day money-back guarantee, allowing you to test them on your actual shifts with zero risk. They are HSA/FSA eligible, doctor-recommended, podiatrist-recommended, and trusted by 500,000+ women. Tap Learn More to claim your Christmas Sale discount and free gifts before December 31st.
+Right now, Comfort Wear is running their Christmas Sale: get 60% off, plus 2 free gifts when you buy 2 pairs, but only through December 31st. Every pair comes backed by their full 30-day money-back guarantee, allowing you to test them on your actual shifts with zero risk. They are HSA/FSA eligible, doctor-recommended, podiatrist-recommended, and trusted by 500,000+ customers. Tap Learn More to claim your Christmas Sale discount and free gifts before December 31st.
 
 New Year Sale (January 1 to January 15, 2027):
-Right now, Comfort Wear is running their New Year Sale: get 40% off with free shipping, but only through January 15th. Every pair comes backed by their full 30-day money-back guarantee, allowing you to test them on your actual shifts with zero risk. They are HSA/FSA eligible, doctor-recommended, podiatrist-recommended, and trusted by 500,000+ women. Tap Learn More to claim 40% off with free shipping before the New Year Sale ends on January 15th.
+Right now, Comfort Wear is running their New Year Sale: get 40% off with free shipping, but only through January 15th. Every pair comes backed by their full 30-day money-back guarantee, allowing you to test them on your actual shifts with zero risk. They are HSA/FSA eligible, doctor-recommended, podiatrist-recommended, and trusted by 500,000+ customers. Tap Learn More to claim 40% off with free shipping before the New Year Sale ends on January 15th.
 
 ## Hook variants (StefanBrain)
 
@@ -228,13 +228,13 @@ At seventy-one years old, admitting you still punch a time clock feels like admi
 **H4:** Stop buying high-stack running sneakers for twelve-hour hospital shifts.
 At seventy-one, that squishy marshmallow foam is not cushioning: it is a dangerous fall waiting to happen.
 
-## Scroll-video script (LF09V, 697 words, StefanBrain)
+## Scroll-video script (LF09V, 701 words, StefanBrain)
 
 My eight-year-old granddaughter thinks I spend my nights sleeping and my mornings baking muffins.
 
 I have let her believe that for fourteen months. At seventy-one, admitting you still punch a time clock feels like admitting you failed.
 
-Lily has no idea that three nights a month, I work twelve-hour shifts at St. Jude Regional to keep our home after Arthur died.
+Lily has no idea that three nights a month, I work twelve-hour shifts at the regional hospital. When Arthur died, his pension ended, and my survivor benefit did not cover rising costs.
 
 The morning I almost blew my secret was a freezing Tuesday. I clocked out at seven, my heels throbbing like red-hot spikes.
 
@@ -278,11 +278,11 @@ The cushioned sole is steady so ankles never roll, and the stretch knit expands 
 
 The wide toe box lets toes spread, and slip-resistant grip holds wet hospital floors.
 
-Comfort Wear backs them with an ironclad thirty-day money-back guarantee with a full refund within thirty days.
+Comfort Wear backs them with a thirty-day money-back guarantee with a full refund within thirty days.
 
-They are doctor-recommended, podiatrist-recommended, and trusted by over five hundred thousand women.
+They are doctor-recommended, podiatrist-recommended, and trusted by five hundred thousand customers.
 
-At sixty dollars, they were less than half of what I spent on shoes that made me wobble.
+At sixty dollars, they were less than half what I spent on shoes that made me wobble.
 
 On my next shift, my feet felt supported. At three in the morning, I stood upright at the medication cart without leaning.
 
@@ -300,6 +300,6 @@ If you are a nurse, caregiver, or working woman over sixty, stop wasting money o
 
 Comfort Wear is running their official Black Friday Sale with sixty percent off sitewide through December fifth.
 
-Every pair comes with a full thirty-day money-back guarantee, and they are eligible for health savings accounts.
+Every pair comes with a thirty-day money-back guarantee, and they are eligible for health savings accounts.
 
 Tap the Learn More button below to claim sixty percent off before the sale ends on December fifth.

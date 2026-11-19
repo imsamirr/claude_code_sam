@@ -4,8 +4,8 @@
 **Angle source:** Reddit r/Menopause, r/AskWomenOver40 and Mumsnet threads (feet widening and hurting in the late 40s; 'nobody warned me'); 40–50 buyer segment rising ~10% to ~15%; never tested in the account
 **Persona:** Core avatar, 40–50 segment (closest: Persona 9 daily walker) (StefanBrain: Persona 9: Daily Walker / Active Mature Woman (Working woman, 40-50 segment, pharmacy technician on her feet all day))
 **Copy:** StefanBrain (copy_source: stefanbrain) · chat chat_e1df1da26d0e48cc8ee50632fb96a5e6 · https://stefanbrain.com/chat/e1df1da2-6d0e-48cc-8ee5-0632fb96a5e6
-**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: nobody told me (unspoken life transition / surprise problem hook). Open loop: The podiatrist explanation loop (why every shoe failed at once and what her podiatrist finally explained about perimenopausal foot changes). Lead type: problem-solution. Awareness level: unaware of the mechanism (thinks she just needed bigger shoes or had bad luck with shoes). One-belief sentence: If your feet start widening, swelling, and throbbing on standing shifts in your late 40s, sizing up or buying rigid running shoes only makes it worse. You need a shoe with a flexible stretch-knit upper and built-in structural arch support designed for standing real life. Measured primary_text character count: 10,055 characters. Measured scroll_script word count: 663 words.
-**Format:** static image + long primary text (9.4k characters measured; brand first named at 60%)
+**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: nobody told me (unspoken life transition / surprise problem hook). Open loop: The podiatrist explanation loop (why every shoe failed at once and what her podiatrist finally explained about perimenopausal foot changes). Lead type: problem-solution. Awareness level: unaware of the mechanism (thinks she just needed bigger shoes or had bad luck with shoes). One-belief sentence: If your feet start widening, swelling, and throbbing on standing shifts in your late 40s, sizing up or buying rigid running shoes only makes it worse. You need a shoe with a flexible stretch-knit upper and built-in structural arch support designed for standing real life. Measured primary_text character count: 11,603 characters. Measured scroll_script word count: 707 words.
+**Format:** static image + long primary text (11.0k characters measured; brand first named at 53%)
 **Headline:** Why My Shoe Size Changed At 48
 **CTA:** Learn More
 **Landing page:** /pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer
@@ -25,17 +25,17 @@ I wore a size 8 since my junior year of high school. Thirty years. Same size, sa
 
 Then this past year, right around my forty-eighth birthday, every shoe in my closet turned into torture.
 
-It started with a dull ache across the tops of my feet by lunchtime at the pharmacy where I work. By October, it felt like someone was tightening a vise around my toes by two in the afternoon.
+It started with a dull ache across the tops of my feet by lunchtime at the pharmacy where I work. By October, it felt like someone was tightening a vise around my toes by two in the afternoon. 
 
 And the mornings were the worst part.
 
-I would wake up, swing my legs over the edge of the mattress, and the second my heels touched the cold floor, a sharp, hot jab shot right up my calves. I had to grip the doorframe just to limp to the kitchen to start the coffee pot.
+I would wake up, swing my legs over the edge of the mattress, and the second my heels touched the cold floor, a sharp, hot jab shot right up my calves. It felt like stepping directly onto a nail. I had to grip the doorframe just to limp to the kitchen to start the coffee pot.
 
-The hardest part was Buster.
+The hardest part was Buster. 
 
-He is my four-year-old rescue retriever mix. Every single morning at 6:30 sharp, he would sit by the front door holding his red leash in his mouth, tail wagging, waiting for our two-mile loop through the neighborhood.
+He is my four-year-old rescue retriever mix. Every single morning at 6:30 sharp, he would sit by the front door holding his red leash in his mouth, tail wagging, waiting for our two-mile loop through the neighborhood. 
 
-By November, I could not do it anymore.
+By November, I could not do it anymore. 
 
 I would sit on the bottom step in my thick socks, rubbing my arches, watching him drop the leash and tilt his head. He did not understand why his human could not walk with him down the driveway. I felt old, broken, and completely defeated.
 
@@ -43,15 +43,15 @@ When I turned 48, my body went through several shifts all at once. Perimenopause
 
 My first thought was simple: my feet were just wider, so I needed bigger shoes.
 
-I went out and bought a pair of size 8.5 sneakers, and then a size 9.
+I went out and bought a pair of size 8.5 sneakers, and then a size 9. 
 
-That was a huge mistake.
+That was a huge mistake. 
 
-Sizing up made the shoes longer, not properly shaped for my widening feet. My heels slipped out with every step. My feet slid forward inside the shoe, jamming my toes against the front. Sizing up made the pain twice as bad.
+Sizing up made the shoes longer, not properly shaped for my widening feet. My heels slipped out with every step. My feet slid forward inside the shoe, jamming my big toes straight into the front bumper. Sizing up made the pain twice as bad.
 
-So I started down the expensive shoe rabbit hole.
+So I started down the expensive shoe rabbit hole. 
 
-If you opened my closet door last month, you would have seen over eight hundred dollars worth of brand-name shoes lined up like a museum of wasted money.
+If you opened my closet door last month, you would have seen over eight hundred dollars worth of brand-name shoes lined up like a museum of wasted money. 
 
 First were the Skechers memory foam shoes for $75. They felt soft for the first forty-five minutes. But memory foam compresses under your weight and does not recover until you take them off. By hour four behind the counter, that foam was flat as cardboard, offering the least support right when my arches needed it most.
 
@@ -67,7 +67,7 @@ I tried Vionic for $130. They have a rigid molded orthotic that forces your foot
 
 $180 for Hokas, $160 for Danskos, $140 for Brooks. All sitting in my closet, gathering dust.
 
-By the second week of November, I was limping so badly that my store manager asked if I needed to sit on a stool. If you work retail or pharmacy, you know sitting behind the counter is not an option.
+By the second week of November, I was limping so badly that my store manager asked if I needed to sit on a stool. If you work retail or pharmacy, you know sitting behind the counter is not an option. You are on your feet on that hard floor for the entire shift, no matter how badly your heels throb.
 
 That Friday, I finally booked an appointment with a podiatrist.
 
@@ -75,13 +75,13 @@ I sat on the exam table, took off my shoes and socks, and felt completely embarr
 
 I looked at him and said, "I think I need custom orthotics. My feet are completely wrecked from walking."
 
-He looked at my feet, pressed his thumb firmly against the center of my heel, and then gave me a small smile.
+He looked down at my swollen feet, pressed his thumb firmly against the tender center of my heel, and then gave me a sympathetic look.
 
-He said, "Your feet aren't wrecked from walking, they're wrecked from standing."
+He said, "Your feet aren't wrecked from walking. They're wrecked from standing on hard floors all day."
 
 Then he explained what had actually been happening to my body.
 
-He explained that when we hit our late 40s, hormonal shifts cause connective tissues and ligaments to lose tension. The arch naturally relaxes and drops. When you stand on hard, unyielding floors for hours at a time, fluid pools in your lower extremities. Your feet can easily swell up to half a size larger between breakfast and mid-afternoon.
+He explained that when we hit our late 40s, hormonal shifts cause connective tissues and ligaments to lose tension. The connective tissue loses spring, and the arch naturally relaxes and drops. When you stand on hard, unyielding floors for hours at a time, fluid pools in your lower extremities. Your feet can easily swell up to half a size larger between breakfast and mid-afternoon.
 
 "The shoe that fit you at breakfast feels two sizes smaller by three in the afternoon," he told me.
 
@@ -93,39 +93,57 @@ He shook his head. He pulled out his prescription pad, flipped it over, and wrot
 
 Comfort Wear Ortho Stretch Cushion Shoe.
 
-He handed me the slip of paper.
+He handed me the slip of paper. 
 
 He said, "Comfortwear doesn't make shoes for athletes. They make shoes for people whose feet have to survive real life. They are built for the shift, not the 5k."
 
 I sat in my car in the parking lot and looked them up on my phone.
 
-The first thing that caught my eye was the price: $59.95. They were normally $90, but on sale for sixty dollars.
+The first thing that caught my eye was the price: $59.95. They were normally $90, but on sale for sixty dollars. 
 
-I laughed out loud in my car. There was no way a $60 shoe was going to solve what my $170 Hokas and $140 Brooks could not touch.
+I laughed out loud in my car. There was no way a $60 shoe was going to solve what my $170 Hokas and $140 Brooks could not touch. 
 
-I am forty-eight years old, and I do not buy things from social media ads. I wondered if I would just be throwing sixty dollars away. But they have over 500,000+ customers, doctor-recommended and podiatrist-recommended backing, HSA and FSA eligibility, and a real 30-day money-back guarantee with a full refund within 30 days. No runaround.
+I am forty-eight years old, and I do not buy things from social media ads. I wondered if I would just be throwing sixty dollars away. But they have 500,000+ customers, doctor-recommended and podiatrist-recommended backing, HSA and FSA eligibility, and a real 30-day money-back guarantee with a full refund within 30 days. No runaround.
 
-I was also worried it would be a flimsy knit sock with a rubber sole glued on. But when the box arrived four days later, I was surprised. The stretch-knit upper was thick and held its shape. The sole was firm, stable, and steady, not squishy. And inside was real structural arch support built right into the shoe, not a cheap flat insert.
+I was also worried it would be a flimsy knit sock with a rubber sole glued on. But when the box arrived, I was surprised. The stretch-knit upper was thick and held its shape. The sole was firm, stable, and steady, not squishy. And inside was real structural arch support built right into the shoe, not a cheap flat insert.
 
 I slipped my foot in. My normal size 8 fit perfectly. The wide toe box let my toes spread out. The stretch upper gave gently around my widening forefoot without squeezing, and my heel sat locked into a deep heel cup.
 
 The real test was Monday: an eight-hour shift on concrete behind the pharmacy register.
 
-I did not expect a miracle in hour one. But by 11:30 AM, the burning ache on top of my foot was gone.
+I did not expect a miracle on day one, and I did not get one. My feet had been inflamed for months, so they were still tired and tender by the time five o'clock rolled around.
 
-By 2:30 PM, when I usually want to cry from heel pain, I suddenly realized something: I had not thought about my feet once in two hours.
+But there was an immediate difference I could feel.
 
-The stretch upper had expanded gently as my feet swelled, instead of crushing my toes. The firm sole kept me steady. And the built-in structural arch held my weight without packing flat.
+Usually by 2:30 in the afternoon, I am shifting my weight from one hip to the other every thirty seconds, desperate to take the pressure off my heels.
 
-At 5:00 PM, I walked to my car with an even stride.
+That afternoon, I noticed I was not shifting back and forth. The stretch upper gave room as my feet swelled through the afternoon, instead of crushing my toes like the Brooks or On Clouds. The firm sole kept me steady. And at five o'clock, when I walked across the parking lot to my car, I was walking with an even stride instead of limping.
 
-The true test came Tuesday morning. I swung my legs out of bed. My bare feet hit the cold hardwood floor. I stood up and braced for that sharp morning heel pain.
+My feet were still tired, but they did not feel like crushed bricks.
 
-Nothing. Not hurt less. Didn't hurt.
+That first week was about steady progress. 
 
-That Saturday at 6:30 AM, Buster sat by the front door with his red leash. I laced up my Comfort Wear shoes, grabbed the leash, and walked the full two miles around the park. My feet felt completely fine.
+A shoe cannot undo six months of tendon strain overnight, and anyone promising an overnight miracle is lying to you. But each shift got a little easier. By Thursday of that first week, that burning ache across the tops of my feet by lunchtime was completely gone. The shoe gave where my foot widened, and the built-in arch kept my foot from sliding forward.
 
-A $60 shoe outscored the $180 pair sitting in my closet. The highest score on my board at the lowest price on it.
+The real turning point came on the second Tuesday, about ten days in.
+
+I woke up at 6:00 AM. I swung my legs over the edge of the mattress. I put my bare feet down on the cold hardwood floor and stood up.
+
+I held my breath, bracing for that sharp, hot jab in my heels that usually made me grab the doorframe.
+
+Nothing. 
+
+Not hurt less. Didn't hurt. 
+
+I stood there in the quiet bedroom, pressing my weight down into the floor. For the first time in six months, I walked straight to the kitchen without holding onto the wall.
+
+That second Saturday morning at 6:30 AM, Buster was waiting by the front door with his red nylon leash in his mouth.
+
+This time, I did not sit on the bottom step and rub my aching heels while he whined.
+
+I laced up my Comfort Wear shoes, grabbed his leash, and opened the door. We walked the full two miles around the neighborhood park in the crisp December air. When we got back home, Buster was happily tired, and my feet felt completely steady.
+
+A $60 shoe did what the $180 pair sitting in my closet never could. The least expensive pair I bought turned out to be the only one that actually worked.
 
 Right now, Comfort Wear is running their official Black Friday Sale:
 
@@ -170,7 +188,7 @@ I wore a size 8 for thirty years, until perimenopause hit and my feet began swel
 **H4:** The hardest part of turning 48 was waking up and realizing none of my shoes fit anymore.
 I spent thirty years in a size 8, but within six months my morning walk had turned into pure agony.
 
-## Scroll-video script (LF11V, 663 words, StefanBrain)
+## Scroll-video script (LF11V, 707 words, StefanBrain)
 
 Nobody told me that when you hit your late forties, your feet can change an entire shoe size.
 
@@ -190,13 +208,13 @@ I had to grip the doorframe just to limp to the kitchen for coffee.
 
 The hardest part was Buster, my rescue retriever mix.
 
-Every morning at six thirty, he sat by the door holding his leash, waiting for our walk.
+Every morning at six thirty, he sat by the door waiting for our walk.
 
 By November, I could not walk him anymore.
 
-I sat on the step in thick socks, rubbing my arches, watching him drop the leash.
+I sat on the step, rubbing my arches, watching him drop the leash.
 
-When I turned forty-eight, perimenopause hit me with broken sleep and hot flashes.
+When I turned forty-eight, perimenopause brought broken sleep and hot flashes.
 
 Nobody warned me about my feet.
 
@@ -206,13 +224,13 @@ I thought my feet were wider, so I bought size eight and a half, then size nine.
 
 That was a huge mistake.
 
-Sizing up made the shoes longer, not properly shaped for widening feet.
+Sizing up made shoes longer, not shaped for widening feet.
 
-My heels slipped out with every step, jamming my toes against the front.
+My heels slipped out, jamming my toes against the front.
 
 So I spent over eight hundred dollars trying to fix it.
 
-I bought memory foam shoes for seventy-five dollars. They compressed flat within four hours, giving zero support.
+Memory foam shoes for seventy-five dollars compressed flat within four hours, giving zero support.
 
 I bought Brooks Ghost for one hundred forty dollars. The narrow toe box squeezed my forefoot raw.
 
@@ -224,9 +242,9 @@ I finally booked an appointment with a podiatrist.
 
 He looked at my feet and said something I will never forget.
 
-He said, your feet are not wrecked from walking. They are wrecked from standing.
+He said, your feet are not wrecked from walking. They are wrecked from standing on hard floors all day.
 
-He explained that arches relax and fluid pools from standing on hard floors.
+He explained that arches relax and fluid pools from standing on concrete.
 
 Feet swell up to half a size larger by afternoon, so the shoe that fit at breakfast feels two sizes smaller.
 
@@ -238,7 +256,7 @@ He said Comfort Wear does not make shoes for athletes. They make shoes for peopl
 
 I looked them up in my car. They were fifty-nine dollars and ninety-five cents, down from ninety dollars.
 
-They had over five hundred thousand customers, doctor and podiatrist recommendations, and a full thirty-day money-back guarantee.
+They had five hundred thousand customers, doctor and podiatrist recommendations, and a full thirty-day money-back guarantee.
 
 I ordered my normal size eight in black.
 
@@ -248,19 +266,23 @@ The sole was firm and stable, and structural arch support was built directly int
 
 I wore them for an eight-hour shift on concrete behind the pharmacy register.
 
-By two in the afternoon, I realized something shocking.
+I did not expect a miracle on day one, and I did not get one. My feet were still tired by five o'clock.
 
-I had not thought about my feet once in two hours.
+But during the afternoon, I was not shifting my weight every thirty seconds, and I walked to my car with an even stride.
 
-The stretch upper gave room as my feet swelled, and the firm arch held my weight without packing flat.
+That first week was about steady progress.
 
-The next morning, I stepped onto the hardwood floor.
+By Thursday, the burning ache by lunchtime was gone.
 
-Nothing hurt.
+About ten days in, I swung my legs out of bed and stepped onto the hardwood floor.
 
-That Saturday, Buster and I walked the full two miles around the park.
+Nothing hurt. Not hurt less. Did not hurt.
 
-A sixty-dollar shoe outscored the one hundred eighty-dollar pair in my closet.
+That second Saturday, Buster and I walked the full two miles around the park.
+
+A sixty-dollar shoe did what the one hundred eighty-dollar pair in my closet could not do.
+
+The least expensive pair I bought turned out to be the only one that worked.
 
 Right now, Comfort Wear is running their Black Friday Sale.
 

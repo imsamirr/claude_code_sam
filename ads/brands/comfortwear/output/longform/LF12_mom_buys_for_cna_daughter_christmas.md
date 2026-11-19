@@ -4,8 +4,8 @@
 **Angle source:** Feedback sheet theme A2 (~200 rows buying for a working daughter/son/spouse); Persona 2 under-served in long-form; market study 2026-11-16 Christmas gift close (TerraShell, rank 3 of 4,161)
 **Persona:** Persona 2: CNA / home health aide (The Double-Shift Caregiver), told by her mother (StefanBrain: Persona 2: CNA / Home Health Aide (The Double-Shift Caregiver), told by her mother (a retired nurse, age 67))
 **Copy:** StefanBrain (copy_source: stefanbrain) · chat chat_e1df1da26d0e48cc8ee50632fb96a5e6 · https://stefanbrain.com/chat/e1df1da2-6d0e-48cc-8ee5-0632fb96a5e6
-**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: something watched through a window (third-person observation / emotional witness hook). Open loop: The car-door discovery loop (why the daughter would not get out of the car, and what the mother discovered inside her work bag). Lead type: story lead. Awareness level: problem-aware (the daughter experiences intense pain but believes suffering is just an unavoidable part of being a CNA). One-belief sentence: Double-shift caregivers do not have to accept chronic heel and foot agony as an unavoidable part of the job. Running shoes fail because standing packs foam flat, while Comfort Wear provides structural arch support and adaptive stretch knit that survive 16-hour shifts at a fraction of premium shoe prices. Measured primary_text character count: 11,881 characters. Measured scroll_script word count: 693 words.
-**Format:** static image + long primary text (11.2k characters measured; brand first named at 53%)
+**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: something watched through a window (third-person observation / emotional witness hook). Open loop: The car-door discovery loop (why the daughter would not get out of the car, and what the mother discovered inside her work bag). Lead type: story lead. Awareness level: problem-aware (the daughter experiences intense pain but believes suffering is just an unavoidable part of being a CNA). One-belief sentence: Double-shift caregivers do not have to accept chronic heel and foot agony as an unavoidable part of the job. Running shoes fail because standing packs foam flat, while Comfort Wear provides structural arch support and adaptive stretch knit that survive 16-hour shifts at a fraction of premium shoe prices. Measured primary_text character count: 11,937 characters. Measured scroll_script word count: 705 words.
+**Format:** static image + long primary text (11.3k characters measured; brand first named at 53%)
 **Headline:** What I Saw Through My Kitchen Window
 **CTA:** Learn More
 **Landing page:** /pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers
@@ -21,31 +21,31 @@
 
 From my kitchen window, I watched my daughter sit in her parked car for twenty minutes before she could stand up.
 
-It was twenty past seven on a cold Tuesday night in late November. Outside our home in western Pennsylvania, freezing rain was tapping against the glass.
+It was twenty past seven on a cold Tuesday night in late October. Outside our home in western Pennsylvania, a cold autumn rain was tapping against the glass.
 
-My daughter Sarah's gray sedan pulled into the gravel driveway. The headlights cut off. The engine died.
+My daughter Sarah's gray sedan pulled into the gravel driveway. The headlights cut off. The engine died. 
 
 And then she just sat there in the dark.
 
 I stood by the kitchen sink with a warm mug of black tea in my hands. Five minutes passed. Ten minutes. Fifteen. The car stayed completely dark and quiet.
 
-At sixty-seven, I know that look. I spent thirty-two years working as a floor nurse in orthopedics. I know what sixteen hours on hard hospital linoleum does to a woman's body. I know what it feels like when your feet throb so violently that the thought of standing on them makes your stomach turn.
+At sixty-seven, I know that look. I spent thirty-two years working as a floor nurse in orthopedics. I know what sixteen hours on hard nursing home linoleum does to a woman's body. I know what it feels like when your feet throb so violently that the thought of standing on them makes your stomach turn.
 
-I put on my heavy winter coat, walked down the front porch steps, and opened the passenger door.
+I put on my heavy coat, walked down the front porch steps, and opened the passenger door.
 
 Sarah had her forehead rested against the steering wheel. She had already kicked her work shoes off onto the rubber floor mat. She was holding both bare feet with her hands, rubbing the red, swollen balls of her heels, trying her hardest not to cry in front of her mother.
 
-She is forty years old, a certified nursing assistant at a local nursing home, and a single mom raising two growing boys. She picks up sixteen-hour double shifts whenever they are offered just to cover rent, pay for groceries, and make sure her boys have gifts under the tree.
+She is forty years old, a certified nursing assistant at a local nursing home, and a single mom raising two growing boys. She picks up sixteen-hour double shifts whenever they are offered just to cover rent, pay for groceries, and make sure her boys have gifts under the tree for Christmas.
 
 On the floorboard next to her was her canvas work tote. Inside was a giant bottle of store-brand ibuprofen, three crumpled boxes of cheap pharmacy gel insoles, and two pairs of worn-out sneakers with the heel collars shredded down to the plastic.
 
 She looked up at me with tired eyes and said, "Give me two minutes, Mom. My feet are on fire. The second I put weight on my heels, it feels like stepping on hot glass. It's just part of the job."
 
-That broke my heart.
+That broke my heart. 
 
-Because as a retired nurse, I know that suffering in silence is the biggest lie healthcare workers tell themselves. Pain is not a badge of honor. Nobody should have to sit in their driveway crying after taking care of other people all day. You give everything to your patients, and by the end of the shift there is nothing left for yourself.
+Because as a retired nurse, I know that suffering in silence is the biggest lie healthcare workers tell themselves. Pain is not a badge of honor. Nobody should have to sit in their driveway crying after taking care of other people all day. You give everything to your residents, and by the end of the shift there is nothing left for yourself.
 
-I helped Sarah inside, made her a hot cup of tea, and looked at what she had been putting on her feet.
+I helped Sarah inside, made her a hot cup of tea, and looked at what she had been putting on her feet. 
 
 On a CNA wage, she had spent hundreds of dollars trying to buy her way out of pain, and every single pair had failed her.
 
@@ -53,7 +53,7 @@ First were the Skechers memory foam shoes for $80. She bought them because they 
 
 Next, she bought Brooks Ghost for $140 because a runner at her clinic swore by them. But Brooks are built to roll a runner forward on a track. The narrow, tapered toe box squeezed her forefoot so hard that it pressed a painful bunion on the side of her big toe until she had worn a hole clean through the mesh.
 
-Then she saved up and bought the $175 Hokas that all the younger nurses wear. They felt like marshmallows for the first two hours. But that thick running foam is built for straight-down runner impact. When Sarah had to turn a two-hundred-pound resident in bed or crouch down to empty a drainage bag, her feet rolled side to side. Worse, they weighed almost twice as much as a normal shoe, so her knees started aching more than her feet. And on wet, freshly mopped linoleum, that soft, wobbly foam felt downright dangerous.
+Then she saved up and bought the $175 Hokas that all the younger aides wear. They felt like marshmallows for the first two hours. But that thick running foam is built for straight-down runner impact. When Sarah had to turn a two-hundred-pound resident in bed or crouch down to empty a drainage bag, her feet rolled side to side. Worse, they weighed almost twice as much as a normal shoe, so her knees started aching more than her feet. And on wet, freshly mopped linoleum, that soft, wobbly foam felt downright dangerous.
 
 She even tried Dansko clogs for $160. They were rock hard from day one, like strapping two heavy wooden bricks to her soles, and the stiff wooden rocker rolled her ankle when she turned quickly into a resident's room.
 
@@ -65,46 +65,44 @@ And in her work bag were three sets of fifteen-dollar gel insoles that bunched u
 
 Over six hundred dollars spent on a single mother's budget, and my daughter was sitting stranded in my driveway, unable to walk three steps into my house.
 
-I looked at Sarah and told her what thirty-two years on the hospital floor taught me.
+I looked at Sarah and told her what thirty-two years on the floor taught me.
 
 "Your feet aren't wrecked from walking, Sarah. They're wrecked from standing."
 
-A CNA on a double shift lifts thousands of pounds moving residents and stands for hours on hard, unforgiving floors.
+A CNA on a double shift lifts thousands of pounds moving residents and stands for hours on hard, unforgiving floors. 
 
 Running shoes fail because running foam is tuned to spring you forward through a running stride, not hold you upright while you stand still on concrete and linoleum. Under constant body weight, running foam packs flat and dies within months.
 
-And a nurse's feet swell up to half a size larger during a long shift. When your feet swell inside a stiff, narrow shoe, the shoe fights your foot with every step, pulling the heel tight and leaving your arches bruised.
+And an aide's feet swell up to half a size larger during a long shift. When your feet swell inside a stiff, narrow shoe, the shoe fights your foot with every step, pulling the heel tight and leaving your arches bruised.
 
 What Sarah needed was a shoe with a stretch upper that breathes and expands as feet swell, built-in structural arch support that never packs flat, a wide toe box so toes can spread naturally, and a firm, steady sole that keeps her stable when transferring patients.
 
 That night, after Sarah and the boys went home, I sat at my kitchen table with my tablet.
 
-A retired nurse friend from my old hospital union local had recently shared a post about a shoe designed specifically for women who work on their feet. She was another floor veteran who had spent decades standing and refused to put up with aching heels.
+A retired nurse friend from my old union local had recently shared a post about a shoe designed specifically for women who work on their feet. She was another floor veteran who had spent decades standing and refused to put up with aching heels.
 
 Comfort Wear Ortho Stretch Cushion Shoe.
 
 I clicked the link and saw the price: $59.95. Normally $90, but on sale for sixty dollars.
 
-I will admit right now: I was deeply skeptical.
+I will admit right now: I was deeply skeptical. 
 
 I am sixty-seven years old. I am old enough to know better than to buy shoes from an ad on social media. We have all heard the horror stories about overseas dropship scams where people get cheap plastic knockoffs and can never get their money back.
 
 So I dug into the details.
 
-They have over 500,000+ customers. They are doctor-recommended and podiatrist-recommended. They are HSA and FSA eligible, which meant healthcare workers can use their pre-tax funds. And most importantly, they backed everything with a real 30-day money-back guarantee with a full refund within 30 days. No store credit tricks, no partial-refund traps.
+They have 500,000+ customers. They are doctor-recommended and podiatrist-recommended. They are HSA and FSA eligible, which meant healthcare workers can use their pre-tax funds. And most importantly, they backed everything with a real 30-day money-back guarantee with a full refund within 30 days. No store credit tricks, no partial-refund traps.
 
-Then I saw their Black Friday Sale offer:
+Then I saw their Black Friday Sale offer: 
 Buy 2 pairs, get 2 free gifts (a 3-pack of cushioned socks + a travel bag).
 
-I looked down at my own feet. At sixty-seven, my arches are not what they used to be either.
+I looked down at my own feet. At sixty-seven, my arches are not what they used to be either. 
 
 I thought: sixty dollars for a shoe that podiatrists recommend, with a full thirty-day guarantee. If they don't work, I will send them right back for a full refund.
 
-I ordered two pairs: a black pair in size 8.5 for Sarah's hospital shifts, and a pair in size 8 for myself.
+I ordered two pairs: a black pair in size 8.5 for Sarah's nursing home shifts, and a pair in size 8 for myself.
 
-The package arrived four days later, along with the cushioned socks and the travel bag.
-
-I inspected them with a veteran nurse's eye.
+When the package arrived, along with the cushioned socks and the travel bag, I inspected them with a veteran nurse's eye. 
 
 This was definitely not a flimsy knit sock glued to a piece of rubber. The stretch-knit upper had real body and held its shape. The sole was firm, stable, and slip-resistant, steady without being squishy. And inside, the structural arch support was built directly into the core of the shoe. Nothing to slide around, nothing to pack flat.
 
@@ -132,11 +130,11 @@ She told me that around two in the afternoon, when her feet normally felt like s
 
 At the end of sixteen hours, she got into her car and drove home without crying.
 
-A $60 shoe outscored the $175 pair sitting in her closet. The highest score on our board at the lowest price on it.
+A $60 shoe did what the $175 pair sitting in her closet never could. The least expensive pair she owned was the only one that survived sixteen-hour doubles.
 
-The real payoff came this Thanksgiving and the run-up to Christmas.
+The real payoff came two weeks later at our family Sunday dinner.
 
-Both of us stood in the kitchen for four solid hours preparing dinner: roasting the turkey, peeling potatoes, baking pies, laughing with the grandkids. Neither of us had to pull up a kitchen chair. Neither of us was hobbling by dessert.
+Both of us stood in the kitchen for four solid hours preparing dinner: roasting chicken, peeling potatoes, baking pies, laughing with the grandkids. Neither of us had to pull up a kitchen chair. Neither of us was hobbling by dessert. And Christmas is still ahead of us.
 
 If you have a daughter, a mother, or a coworker working twelve or sixteen-hour shifts on concrete, do not let her suffer through another shift in shoes built for twenty-year-old runners.
 
@@ -184,25 +182,25 @@ She had just finished a sixteen-hour double as a CNA, and her work shoes had red
 **H4:** She works sixteen-hour doubles as a CNA to give her boys a Christmas, but last month her shoes became torture.
 I watched her pull into my driveway at seven thirty and sit in the cold car, unable to stand up on her swollen heels.
 
-## Scroll-video script (LF12V, 693 words, StefanBrain)
+## Scroll-video script (LF12V, 705 words, StefanBrain)
 
 From my kitchen window, I watched my daughter sit in her parked car for twenty minutes before she could stand up.
 
-It was twenty past seven on a cold Tuesday night in late November.
+It was twenty past seven on a cold Tuesday night in late October.
 
-Freezing rain was tapping against the glass of our home in western Pennsylvania.
+Cold autumn rain tapped against the glass in western Pennsylvania.
 
 My daughter Sarah pulled into the gravel driveway. The headlights cut off. The engine died.
 
 And then she just sat there in the dark.
 
-I stood by the sink with a warm mug of tea. Five minutes passed, then ten, then fifteen.
+I stood by the sink. Five minutes passed, then ten, then fifteen.
 
 At sixty-seven, I know that look. I spent thirty-two years working as a floor nurse in orthopedics.
 
-I know what sixteen hours on hard linoleum does to a woman's body.
+I know what sixteen hours on hard nursing home linoleum does to a woman's body.
 
-I put on my winter coat, walked down the porch steps, and opened the passenger door.
+I put on my coat, walked down the porch steps, and opened the passenger door.
 
 Sarah had her forehead rested against the steering wheel.
 
@@ -212,7 +210,7 @@ She is forty, a certified nursing assistant at a nursing home, and a single moth
 
 She works sixteen-hour doubles whenever offered just to cover rent and buy Christmas gifts.
 
-On the floorboard was her tote with ibuprofen, cheap gel insoles, and worn-out sneakers with crushed heels.
+On the floor was her tote with ibuprofen, cheap insoles, and worn-out sneakers.
 
 She said, give me two minutes, Mom. My feet are on fire. It is just part of the job.
 
@@ -234,7 +232,7 @@ Your feet are not wrecked from walking. They are wrecked from standing.
 
 Running foam springs a runner forward. Under sixteen hours of standing weight, running foam packs flat.
 
-A nurse's feet swell half a size during a double shift.
+An aide's feet swell half a size during a double shift.
 
 She needed a shoe with a stretch upper, built-in structural arch support, and a firm, steady sole.
 
@@ -244,11 +242,11 @@ They were fifty-nine dollars and ninety-five cents, down from ninety dollars.
 
 I am sixty-seven, and I know better than to trust internet shoe ads.
 
-They had over five hundred thousand customers, doctor and podiatrist recommendations, and a full thirty-day guarantee.
+They had five hundred thousand customers, doctor and podiatrist recommendations, and a full thirty-day guarantee.
 
 They were running a Black Friday special: buy two pairs and get two free gifts.
 
-I ordered two pairs: size eight and a half in black for Sarah, and size eight for myself.
+I ordered two pairs: size eight and a half in black for Sarah's nursing home shifts, and size eight for myself.
 
 When the package arrived, the stretch knit was thick and held its shape.
 
@@ -268,9 +266,11 @@ She walked in and said, Mom, my feet did not hurt. Not hurt less. Did not hurt.
 
 The stretch upper had expanded as her feet swelled, and the built-in arch support never packed flat.
 
-On Christmas Day, both of us stood in the kitchen for four hours cooking dinner, and neither of us had to sit down.
+Two weeks later at our family Sunday dinner, both of us stood in the kitchen for four hours cooking, and neither of us had to sit down.
 
-A sixty-dollar shoe outscored the one hundred seventy-five-dollar pair in her closet.
+A sixty-dollar shoe did what the one hundred seventy-five-dollar pair in her closet could not do.
+
+The least expensive pair she owned was the only one that survived double shifts.
 
 Right now, Comfort Wear is running their Black Friday Sale.
 
