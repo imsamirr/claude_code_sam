@@ -90,3 +90,23 @@ Long-form copy must carry these. They are what Meta is buying.
 - **LF03**: Angle A2, travel to Europe ("Wish You Were Here"). This replaced the teacher copy at the user's request; the teacher copy is still in git history.
 
 Europe source lines come from `data/video_transcripts.md`, which holds the lifetime top-10 videos.
+
+## 2026-11-19 refresh (`atria_pull.py longform --transcribe`, prospecting 2026-08-21 to 2026-11-18)
+
+Baseline prospecting ROAS 1.42; qualify ≥ $3k and ≥ 1.35; 11 of 54 families qualify. Ranking (spend · ROAS · CPA):
+
+| # | Family (lead ad) | Angle | Spend · ROAS · CPA |
+|---|---|---|---|
+| 1 | Kyro369v2 hook2 (+ COM211 Disney cut) | A2/A travel test | $76.2k · 1.38 · $71 |
+| 2 | Aubrey "Don't waste money" UGC | B nurse | $20.1k · 1.46 · $70 |
+| 3 | COM320 Disney test (avatar) | A Disney test | $15.0k · 1.68 · $60 |
+| 4 | **COM284 plus-size Disney** | A plus-size Disney | **$7.6k · 2.89 · $37** (best efficiency again) |
+| 5 | Kyro390v1 nurse page | B nurse | $13.0k · 1.66 · $62 |
+| 6 | NurseNotRunners | B nurse | $13.5k · 1.52 · $67 |
+| 7 | COM225 Spanish nurse scoreboard | B nurse | $9.6k · 1.80 · $53 |
+| 8 | NH3 general/plus-size park day | A plus-size | $10.5k · 1.55 · $68 |
+| 9 | Teacher (AUGWK1 VID2) | C teacher | $9.1k · 1.63 · $70 |
+| 10 | Teacher (JULYWK2 VID1) | C teacher | $10.1k · 1.40 · $80 |
+| 11 | Task158 neuropathy static | D | $3.8k · 1.38 · $71 |
+
+Changes since 11-11: COM374 plus-size dropped below the bar (1.18); COM204 shoe ranking ($3.0k · 1.76) is close to qualifying. The 2026-11-19 batch (LF05–LF10 iterations) spreads across families 1–10 (travel, plus-size Disney, Disney test, nurse ×2, teacher). No LF ads have spend yet (LF01–LF04 not in the 90-day pull), so no DR-tag results to record.
