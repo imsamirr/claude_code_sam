@@ -223,6 +223,11 @@ def tts_eleven(text, gender, dest, voice_id=None):
         time.sleep(min(60, 5 * 2 ** attempt))
     r.raise_for_status()
     dest.write_bytes(r.content)
+    try:  # the API key may lack user_read, so log the real cost from the response header per section
+        with open(Path(dest).parent / "el_costs.txt", "a") as f:
+            f.write(f"{Path(dest).name}\t{r.headers.get('character-cost', '?')}\t{len(text)}\n")
+    except OSError:
+        pass
     return dest
 
 
@@ -485,12 +490,18 @@ def build(spec, out_root, only=None, music=None):
                f"[vo][mu]amix=inputs=2:duration=first:dropout_transition=0[a]")
     else:
         afc = "[2:a]anull[a]"
-    vfc = (f"[0:v]eq=brightness=-0.06:saturation=0.95,format=yuv420p[bgv];"
-           f"[bgv][1:v]overlay=x=0:y='{yexpr}':eval=frame:shortest=0,fps={FPS}[v]")
-    bg_in = ["-loop", "1", "-framerate", str(FPS), "-i", str(bg)] if str(bg).endswith(".png") else ["-stream_loop", "-1", "-i", str(bg)]
-    subprocess.run(["ffmpeg", "-v", "error", "-y", *bg_in, "-loop", "1", "-framerate", str(FPS), "-i", d / "text.png",
+    # Decode the still background and the tall text layer ONCE and cache them with the loop filter
+    # (2026-11-19): "-loop 1 -i text.png" re-decoded and re-converted the ~1080x20000 RGBA PNG on every
+    # frame (~1 fps per render). Output frames are pixel-identical; renders are ~40x faster.
+    still = str(bg).endswith(".png")
+    cache = f"loop=loop=-1:size=1:start=0,setpts=N/({FPS}*TB)"
+    vfc = (f"[0:v]eq=brightness=-0.06:saturation=0.95,format=yuv420p{',' + cache if still else ''}[bgv];"
+           f"[1:v]format=yuva420p,{cache}[tx];"
+           f"[bgv][tx]overlay=x=0:y='{yexpr}':eval=frame:shortest=0,fps={FPS}[v]")
+    bg_in = ["-i", str(bg)] if still else ["-stream_loop", "-1", "-i", str(bg)]
+    subprocess.run(["ffmpeg", "-v", "error", "-y", *bg_in, "-i", d / "text.png",
                     *a_inputs, "-filter_complex", vfc + ";" + afc, "-map", "[v]", "-map", "[a]",
-                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "medium", "-crf", "17",
+                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", os.getenv("SCROLL_X264_PRESET", "medium"), "-crf", "17",
                     "-profile:v", "high", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", final], check=True)
     return final, total
 
