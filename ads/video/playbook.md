@@ -362,7 +362,7 @@ look to the format's reference). Frames pulled at full size from the reference M
 | TikTok Classic box | EllaOla `m961645566525315`, Auto Accident `m1363956582376518`, Basic Buzz `m1668570404657353` | white rounded box per line, black semibold sans, ~44 px, upper third | `"style": "box", "size": 44` |
 | Narrow box column | Hug Sleep Pod `m1047219301474933` | same white boxes but 2–3 words per line in a tall column beside the subject (left/right third) | `"style": "box", "width": 0.4, "x": 0.27` (or 0.73) |
 | Translucent box | TikTok's dark text background | white text on ~60% black rounded box | `"style": "glass"` |
-| Plain text + soft shadow | Groove Pillow `m4105657463063866`, KatKin `m1551406382627956` | white medium/semibold sans, **no box**, soft dark shadow, small (~40 px), upper third or mid-frame | `"style": "shadow", "weight": "Medium", "size": 40-42` |
+| Plain text + soft shadow | Groove Pillow `m4105657463063866`, KatKin `m1551406382627956` | white medium/semibold sans, **no box**, soft dark shadow, small (~40 px), upper third or mid-frame | `"style": "shadow", "weight": "SemiBold", "size": 72` (Inter has no Medium; no-box text is 72 px+ since Nov 18) |
 | Bold Helvetica + shadow | Happy Tuesdays `m1979816196068779` | white Helvetica/Arial Bold ~56 px, soft drop shadow, upper third over a single long shot | `"style": "shadow", "font": "helvetica", "size": 50` |
 | TikTok Classic font, thin outline | Flo Pilates `m3208180722725044` | white geometric sans with single-storey "a" (TikTok "Classic" font), thin black outline + slight shadow, ~48 px | `"style": "classic", "font": "classic", "size": 50` |
 | Instagram serif | Savannah Bell `m1378188833895425`, Dr. Woof flare scrubs `m1090893143376539` | white Garamond-style serif with soft shadow, ~50-56 px, centred mid-frame | `"style": "serif", "font": "serif", "size": 56` |
@@ -392,6 +392,10 @@ it's new; drop it when results say so.
 | W46 (seen, not built yet) | Build-up list: short lines stack one by one at different heights ("Thought it was dairy / Thought it was gluten / …") | Fitness with Lu with PuraU `m2085545735429533` | one caption per scene with `"clips": [i, last]` and staggered `y` |
 | W46 (seen, not built yet) | Big all-caps header + small translucent question box lower | ugcbyamberb with Nurse Babes `m1429895862458769` ("CLOCKED OUT OF WORK. CLOCKED INTO MOM LIFE.") | two captions: `outline`/`shadow` upper + `glass` lower |
 | W46 (seen, not built yet) | Orange label pill above a long paragraph | Wooten Gear `m4489093394638384` ("EARLY BLACK FRIDAY" + "being married to a concreter is weird…") | `brand` pill with `color` + `shadow` paragraph |
+| W47 (Nov 19) | Caramel label pills, one per scene | hopeanddaisieslifeover50 × HIKE `m1579510697555668` (senior, scene-by-scene demo) | `"style": "brand", "color": "#C68B59", "size": 46, "weight": "Bold", "width": 0.8, "y": 0.22`, one per `"clip": i` |
+| W47 | Solid black box, tight lowercase lines | Stephanie Fankhauser × CALLIXE `m1427513129046344` (gift for mom) | `"style": "dark", "size": 50, "weight": "Bold", "width": 0.6, "lower": true, "y": 0.26` + `"radius": 6` (square corners; `radius` option added to box styles W47) |
+| W47 (seen, not used) | Thin light geometric sans, no box, faint shadow | Styled By Beck × ARDANT `m29751653587753527` (hands-only gift) | conflicts with the Nov 18 rule (no-box text must be heavy weight); closest allowed: `"style": "shadow", "font": "classic", "weight": "SemiBold", "size": 72` |
+| W47 (seen, not built yet) | Heavy serif header + small italic serif tagline tucked under | jade.lillies × Lila Footwear `m1462895742612774` (travel-nurse bag) | needs an italic serif font + a `sub` line in render_caption |
 
 ## 8. Script captions (user, Nov 14)
 
@@ -404,3 +408,31 @@ for the whole shot (≥ 2.4 s so it can be read). In edit.json: one caption per 
 
 **Competitor names in scripts (user, Nov 14):** be direct, "$180 Hokas. 2 months." beats "$180 running shoes".
 Write Skechers as **Skech*rs** (escape it as `Skech\\*rs` in edit.json captions).
+
+## 9. Weekly refresh — 2026-11-19 (W47 batch run)
+
+*Only items not already in §2, §3, §6. Dated sources this week: Postdom (updated 16 Nov), Virotok (week of 16 Nov), ViralRemix (13 Nov), AAA Thanksgiving forecast. Nurse, park, teacher and plus-size searches again found **nothing dated this week**; treat niche notes as background.*
+
+**What's new (formats and messaging)**
+- **"Time: then and now"** (peaking): old photo/clip → same pose or place today ([Postdom, 16 Nov](https://postdom.com/blog/tiktok-trends)). For us: same nurses' station door / park gate / school hallway, now in the knit sneakers.
+- **"Christmas music is allowed now"** POV and **"the tree goes up"** fast cuts ([Postdom](https://postdom.com/blog/tiktok-trends)): cozy entry points for gift ads.
+- **Parking Garage Runway** (#1 by views): runway strut through a parking garage ([Virotok, wk of 16 Nov](https://virotok.com/trends/this-week/)); fits nurses leaving the hospital garage. Also on the list: **Too Tall** runway humor, **Elevator POV** (ceiling cam, three friends).
+- **Peak-volume dances** (mood only): Ba Ba Ba Dance (42.3K/day), "Y Entiende Corazón" glow-up flip (25.6K/day), Shoulder Carry (14.8K/day) ([ViralRemix, 13 Nov](https://viralremix.org/tiktok-trends/2026-11-13)).
+- **Thanksgiving 2026 is a driving holiday:** AAA forecasts 81.5M travelers Nov 24–30 (first dip after three records), 72.9M by car (~90%), 5.96M flying with fares up 17% ([Fox Weather/AAA](https://www.foxweather.com/lifestyle/more-than-81-million-americans-expected-travel-thanksgiving-despite-fewer-drivers-flyers)). Weight travel toward road trips (rest stops, gas stations, arriving at family) over airports.
+- **Black Friday creator ads live:** HIKE runs one "second pair free" offer through several creators incl. an over-50 creator; offer in the post copy, creator demo on screen.
+
+**Sounds (none confirmed in CML / Meta Sound Collection; mood references only)**: "my moon my man" (Finneas cover, soft-launch), Pink Floyd "Time" (then-and-now), Wham! "Last Christmas" original sound, Ice Spice "Big Guy", Virotok's unnamed runway-walk sound. Mood matches: runway → confident strut 90–100 bpm; then-and-now → soft acoustic 70–90; "Last Christmas" POV → cozy holiday.
+
+**Fresh Atria references (Meta, active; frames pulled with ffmpeg)**
+- **hopeanddaisieslifeover50 × HIKE** `m1579510697555668` (8 d, 25 s): over-50 creator holds boots to camera → coffee-table demo (toe box, sole, lining, bend) → walks the dog; one caramel pill caption per scene. Competitor senior persona + §8 script build.
+- **jade.lillies × Lila Footwear** `m1462895742612774` (12 d, 28.6 s): competitor nurse shoe, "what's in my bag as a travel nurse": stairwell selfie → hotel-desk packing → shoes last → locker-room floor POV. No unit footage.
+- **Stephanie Fankhauser × CALLIXE** `m1427513129046344` (7 d, 27.4 s): "gift for the mom who 'doesn't want anything'" in a solid black box.
+- **Bae & Friends** `m1644526837131740` (8 d, 22 s, rising: reach ×53 in 7 d): night parking-lot hug mom + son → gift box while lines read the card (gift-giver F6).
+- **Styled By Beck × ARDANT** `m29751653587753527` (8 d, 16.7 s): hands-only close-ups, one thin light-sans line per shot.
+
+**Use in this batch** (formats/shot recipes; StefanBrain writes every word)
+1. Nurse parking-garage runway: low slow-mo strut on the knit sneakers, tilt up to scrubs.
+2. Senior/50+ show-and-tell (HIKE build): shoe to camera → stretch knit → slip-on → walk; caramel pill per scene.
+3. Thanksgiving road trip: car-door feet, lot walk, arriving at family's door.
+4. Gift-giver then-and-now / black-box "mom who doesn't want anything" hook.
+5. Cozy gift micro-loop (6–8 s): tree, shoebox, hands lifting the shoes; cozy holiday bed (not Wham!).

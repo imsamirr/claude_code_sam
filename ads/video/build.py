@@ -338,7 +338,7 @@ def render_caption(cap, out_png):
         y = pad_y + i * line_h + 10
         if style in colors:
             bg, fg = colors[style]
-            r = int(size * 0.32)
+            r = int(cap.get("radius", size * 0.32))
             d.rounded_rectangle([x - pad_x, y - pad_y + 2, x + lw + pad_x, y + line_h + pad_y - 4],
                                 radius=r, fill=bg)
             hl = ts.draw_line(canvas, x, y, line, fg, accent=cap.get("box_accent"), on=hl)
