@@ -1079,6 +1079,10 @@
     "rv_x_strikethrough_ladder": {
       "file": "reference/benchmarks/rv_ref_x_strikethrough_ladder.jpg",
       "use_for": "LAYOUT reference only (user-supplied, Nov 19: orange background, product row top, stacked struck-through 30%/40%/50% OFF lines then bold final 60% OFF, serif 'Black Friday Sale.'). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "approved_X_01_den_wasnt_built": {
+      "file": "reference/benchmarks/approved_X_01_den_wasnt_built.png",
+      "use_for": "Approved render: copy exactly except the requested change."
     }
   },
   "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots).",

@@ -161,6 +161,22 @@
       "based_on": "Ref: Orthofit layout; night guard angle, teal/navy design. No overstock claim.",
       "headline": "Black Friday deal: 40% off.",
       "prompt": "Recreate the layout of the SECOND attached image closely but switched to a cool palette: a bright modern fulfilment shelf of white boxes with teal tape (no readable labels), softly blurred. Top left a huge bold navy headline \"Our biggest Black Friday deal.\" then short dark paragraphs: \"For night guard wearers tired of scrubbing and morning smell.\" / \"The DentalPULSE Ultrasonic Cleaner is 40% off, with free shipping.\" / \"Try it for 120 nights. If your night guard isn't cleaner, get your money back.\" / \"The Black Friday price ends when the sale does.\" Then a teal rounded pill button with white caps \"GET 40% OFF\". Bottom: an open white shipping box with teal tissue holding the white DentalPULSE Pod from the first reference image and a clean translucent night guard. IMPORTANT: the ONLY words in the image are the quoted texts above, each rendered exactly once and spelled exactly, in a clean bold sans like the reference; no other text, no logos except the DentalPULSE wordmark where quoted and the wordmark printed on the Pod, no competitor or brand names. POD RULES: the DentalPULSE Pod RESTS on a surface; NOBODY holds it. Compact device about 13 cm wide and 8.5 cm tall, never a big machine. Do NOT show any travel bag, pouch, dental case or accessory box. Any appliance is about HALF the Pod's width. NIGHT GUARD SHAPE (critical): a chunky, rigid horseshoe hard-acrylic tray about 3-4 mm thick with a FLAT, SMOOTH biting surface and thick rounded edges, like a bite splint; NOT a thin clear aligner, no tooth-shaped cups. A dirty one is deep mustard-yellow and cloudy; a clean one is bright and translucent."
+    },
+    {
+      "id": "X_11_den_tablets_wasnt_built",
+      "group": "net_new",
+      "persona": "switcher",
+      "lang": "en",
+      "funnel": "offer",
+      "appliance": "denture_full",
+      "colorway": "pod",
+      "format_name": "x_wasnt_built_for",
+      "benchmark": "approved_X_01_den_wasnt_built",
+      "angle": "User-supplied format (Nov 19), denture + night guard angles",
+      "based_on": "User: 'make this for tablets' (Nov 19). Variant of X_01; tablets angle from Notion brief + DEN24 'You've Been Lied To'.",
+      "headline": "Your denture tablets weren't built to deep clean",
+      "prompt": "Compared with the second attached image: keep the layout, fonts, colors, the DentalPULSE wordmark, the bathroom background, the navy price pill \"BLACK FRIDAY: 40% OFF. $99.95\", \"SWITCH TO ULTRASONIC\", the white DentalPULSE Pod and the clean denture identical. Change ONLY these: the headline now reads \"YOUR DENTURE TABLETS WEREN'T BUILT TO DEEP CLEAN\" (same font, color, size and position; up to 4 lines); the subline now reads \"They fizz on the surface. Bacteria and yellow film stay in the scratches.\"; the three photo tiles now show: (1) a yellow-stained denture soaking in a glass of fizzing cloudy water with a tablet, (2) a plain unbranded foil blister strip of white-and-blue denture cleaning tablets, (3) a close-up of yellow-brown stained denture teeth after soaking. No brand names on the tablets. The ONLY words in the image are the quoted texts and the DentalPULSE wordmark.",
+      "copy_of": "X_01_den_wasnt_built_v1"
     }
   ]
 }
