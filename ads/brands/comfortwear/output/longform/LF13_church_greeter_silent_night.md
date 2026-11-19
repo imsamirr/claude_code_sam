@@ -21,7 +21,7 @@
 
 I slipped into the very back row during the opening chord of "Silent Night" so nobody in the sanctuary would see me sit down.
 
-For thirty-one years, I have been the Sunday greeter at the front double doors of Grace Methodist in Columbia, Tennessee.
+For thirty-one years, I have been the Sunday greeter at the front double doors of our little church in Columbia, Tennessee.
 
 I know every family that walks through those wooden doors.
 
@@ -103,7 +103,7 @@ I was ready to spend whatever it took to stop that burning.
 
 Like a lot of women my age, I ended up building an expensive graveyard of failed shoes in the bottom of my closet.
 
-I had the exact same graveyard sitting in my bedroom: $180 for Hokas, $200 for Danskos, $150 for Brooks."
+I had the exact same graveyard sitting in my bedroom: $180 for Hokas, $200 for Danskos, $150 for Brooks.
 
 All of them sitting in a row on the closet floor, completely useless.
 
@@ -340,7 +340,7 @@ New Year Sale, Jan 1 to Jan 15, 2027: Comfort Wear is currently running their Ne
 ## Hook variants (StefanBrain)
 
 **H2:** Hook Type: Confessional Secret / Private Shame | I blew my candle out and hid in the dark rear pew before the first verse of "Silent Night" even finished.
-After thirty-one years greeting every family at Grace Methodist, I couldn't bear my own weight for another three minutes.
+After thirty-one years greeting every family at our little church, I couldn't bear my own weight for another three minutes.
 
 **H3:** Hook Type: Financial Frustration / Closet Graveyard | There are eight pairs of orthopedic shoes sitting in the bottom of my closet that cost me over eight hundred dollars.
 Not one of them kept me on my feet when the organ started playing "Silent Night" last Christmas Eve.
@@ -348,11 +348,11 @@ Not one of them kept me on my feet when the organ started playing "Silent Night"
 **H4:** Hook Type: Sensory Pain / Physical Surrender | By the time the choir started singing "Silent Night," it felt like someone was driving two red-hot roofing nails straight through my heels.
 I knew right then that sixty years of standing through the Christmas Eve candlelight service was over.
 
-## Scroll-video script (LF13V, 728 words, StefanBrain)
+## Scroll-video script (LF13V, 729 words, StefanBrain)
 
 I slipped into the very back row during the opening chord of Silent Night so nobody in the sanctuary would see me sit down.
 
-For thirty-one years, I have been the Sunday greeter at Grace Methodist in Columbia, Tennessee. Last Christmas Eve, I could not make it through the service.
+For thirty-one years, I have been the Sunday greeter at our little church in Columbia, Tennessee. Last Christmas Eve, I could not make it through the service.
 
 From age eight, I stood for all three verses of Silent Night. Sixty years in a row. Last December twenty-fourth, my heels were on fire.
 

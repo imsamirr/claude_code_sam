@@ -5,7 +5,7 @@
 **Persona:** Persona 3: retail / warehouse on concrete (The Concrete Grid Stand-Still) (StefanBrain: Persona 3: Cashier / Retail / Warehouse on Concrete (The Concrete Grid Stand-Still))
 **Copy:** StefanBrain (copy_source: stefanbrain) · chat chat_d37dbcf2d4174523afa28c68202a93ff · https://stefanbrain.com/chat/d37dbcf2-d417-4523-afa2-8c68202a93ff
 **StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: Sacrifice for Christmas + humiliation. Open-loop type: The moment the shift supervisor pulled the narrator aside, and what the coworkers on her line did on her last night. Lead type: Story lead. Awareness level: Problem-aware. One-belief sentence: Standing ten hours on bare industrial concrete ruins feet because running shoe foam compresses flat by hour four, but structural built-in arch support and a firm stable sole keep a sixty-year-old woman working pain-free. Measured character count of primary_text: 12971. Measured word count of scroll_script: 712.
-**Format:** static image + long primary text (12.9k characters measured; brand first named at 52%)
+**Format:** static image + long primary text (12.9k characters measured; brand first named at 53%)
 **Headline:** A Holiday Warehouse Job At 61
 **CTA:** Learn More
 **Landing page:** /pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers
@@ -109,7 +109,7 @@ That morning, before I talked to Wanda, I tried what everyone online recommends.
 
 I fell into the exact same expensive trap that ruins thousands of working women.
 
-I had the exact same graveyard in my bedroom: $180 for Hokas, $200 for Danskos, $150 for Brooks, all sitting useless in my closet."
+I had the exact same graveyard in my bedroom: $180 for Hokas, $200 for Danskos, $150 for Brooks, all sitting useless in my closet.
 
 I went to the store in Columbus that afternoon, desperate for anything that would let me keep working.
 
@@ -217,7 +217,7 @@ Sixty dollars was holding up to ten hours of warehouse concrete better than near
 
 I ordered a pair in black that morning.
 
-The box was waiting on my front steps when I got home from my Sunday afternoon sleep.
+When the box arrived on my front steps, I brought it inside.
 
 I took the shoes out of the tissue paper and looked at them.
 
