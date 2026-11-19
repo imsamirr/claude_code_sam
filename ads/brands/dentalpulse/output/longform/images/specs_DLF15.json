@@ -1,0 +1,23 @@
+{
+ "DLF15_A": {
+  "copy": "Hook: the denture cup found under Mom's sink.",
+  "prompt": "Extreme close-up of an old plastic denture cup pulled from under a bathroom sink: a partial denture inside murky yellow-brown water with a slimy film floating on top, black specks on the cup's rim, dusty plain white tablet boxes stacked behind. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF15_B": {
+  "copy": "The deadline: packing boxes in the hallway, Friday move-in.",
+  "prompt": "Phone photo of an older home's hallway with half-packed cardboard moving boxes, a roll of packing tape, a framed photo lying face down, an unreadable checklist paper clipped to a box, early spring daylight from a window. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF15_C": {
+  "copy": "Failure: years of tablet boxes and a dirty brush.",
+  "prompt": "Under a bathroom sink: a dozen plain white tablet boxes with no labels, a crusty old toothbrush, a stained denture cup with a whitish film inside, damp cabinet floor. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF15_D": {
+  "copy": "Proof: the first cycle, in the new room.",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A full upper denture sits in the murky water on a small nightstand in an assisted-living room, a folded cardigan beside it. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}

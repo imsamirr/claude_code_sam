@@ -1,0 +1,23 @@
+{
+ "DLF19_A": {
+  "copy": "Hook: the teen's retainer in a backpack case.",
+  "prompt": "Extreme close-up of an open retainer case pulled from a backpack: a clear retainer cloudy and milky with white crusty buildup and a slimy film, wet droplets and dark specks inside the case. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF19_B": {
+  "copy": "The cost: the cracked retainer on a kitchen counter in December.",
+  "prompt": "A clear retainer with a visible crack lying on a kitchen counter beside a plain envelope and a paper bill with blurred unreadable numbers, a string of Christmas lights out of focus in the window. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF19_C": {
+  "copy": "Failure: retainer soaking in a cloudy cup with a tablet.",
+  "prompt": "A glass of cloudy blue-tinted water with a fizzing tablet and a clear retainer inside, scummy ring, on a teenager's cluttered bathroom counter with hair ties. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF19_D": {
+  "copy": "Proof: the first cycle.",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A clear retainer sits in the murky water; a firefighter's helmet is out of focus on a chair behind. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}

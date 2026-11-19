@@ -1,0 +1,11 @@
+# Brief: DentalPULSE scrolling long-form videos DV22, DV23, DV24 (angle: the partial denture that rots the teeth it hangs on)
+
+Please write three scrolling-video scripts for DentalPULSE (project "Dentalpulsepro Launch"). The format limits and the return fields are at the bottom; the facts are below.
+
+## The angle and why
+New angle, never run by us or competitors: partial dentures. A partial is meant to save the teeth you have left, but its clasps hug the anchor teeth all day; biofilm on the plastic and metal is held against those teeth, and studies of partial wearers (Zlatarić et al. 2002, Journal of Periodontology) found more plaque and gum disease on the clasp teeth than on other teeth. The result people live: decay under the clasp, receding gums, an anchor tooth pulled, a bigger partial, more money. Brushing scratches the acrylic; tablets clean the surface; the film lives in the pores and around the clasps. Cavities and gum disease are approved disease angles; aggressive: the narrators blame the dirty partial outright. Partial wearers are inside our denture persona (~55% of buyers, 60+, cleaning with Polident tablets and a brush).
+
+## The three stories (narrator details are facts to build on; names, lines and hook wording are yours)
+- **DV22 (music only).** Persona: denture/partial wearer, a woman, about 61, a church office secretary in Grand Rapids, Michigan. Her lower partial was supposed to save her last front teeth; within three years it cost her two more. Planned hook type: betrayal by the fix (the thing meant to save her teeth took them). Fall.
+- **DV23 (music only).** Persona: denture/partial wearer, a man, about 63, a corn and soybean farmer near Ames, Iowa, who keeps his partial in his shirt pocket at lunch. A dentist pulls an anchor tooth and shows him the dark line where the clasp sat. Planned hook type: the object reveal (what the pulled tooth showed). Harvest season.
+- **DV24 (music only).** Persona: denture caregiver, a daughter, about 38, a middle-school math teacher in Salt Lake City, Utah. Her mother, about 66, stopped smiling in family photos; the daughter finds out why (a gap where an anchor tooth was lost under the partial, and a sore, bleeding gum). Planned hook type: the change in a loved one's photos (a photo-album mystery). Thanksgiving to Christmas.

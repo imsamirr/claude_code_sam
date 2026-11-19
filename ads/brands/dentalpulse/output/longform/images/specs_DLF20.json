@@ -1,0 +1,23 @@
+{
+ "DLF20_A": {
+  "copy": "Hook: the aligner trays in the kitchen trash.",
+  "prompt": "Extreme close-up of two clear aligner trays lying on top of kitchen trash in an open trash can, cloudy with a white film and yellow buildup, the open aligner case beside them with a black-green film in its corners. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF20_B": {
+  "copy": "The fight: a phone on the couch, a ring on a hand, late night.",
+  "prompt": "Phone photo of a living room couch at night, a phone face down on a cushion, a woman's hand with an engagement ring resting on a throw pillow, a lamp on, nobody's face. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF20_C": {
+  "copy": "Failure: the black-green film in the case corner.",
+  "prompt": "Extreme close-up of the corner and hinge of a small plastic aligner case: black-green slimy mold film, wet residue, a cloudy tray half in frame. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF20_D": {
+  "copy": "Proof: the first cycle.",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. Two clear aligner trays sit in the murky water on an apartment bathroom counter. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}

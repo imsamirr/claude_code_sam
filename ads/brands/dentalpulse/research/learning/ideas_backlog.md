@@ -31,6 +31,36 @@ Narrators: chemistry teacher, aligner patient, unit clerk, daughter, bus driver,
 - No named competitor failures in long-form; use "the $30 one from Amazon".
 - UV-C appears in our top winner transcripts but is not in `approved_claims`; leave it out until confirmed.
 
+
+## Batch 2 — 2026-11-19 (10 net-new statics + 12 scroll videos)
+
+Sources: `weekly_research_2026-11-19.md` (this run), `ads/brands/comfortwear/research/learning/market_study_2026-11-16.md` (new hook types 15–19, revenge/vindication engine, measurement-as-proof, late-EDIT organic posts), `research/data/longform_winners.md` (Family 1 "6 of 7 pods leave live bacteria", $150k, 1.68 ROAS), `feedback_angles.md`, `reddit_angles.md`.
+Mix: dentures 5 (DLF11–15), night guards 2 (DLF16–17), aligners/retainers 3 (DLF18–20). All net-new: no DLF ad has proven spend yet (DLF01–10 launched 2026-11-11). Copy: StefanBrain (sessions dentalpulse-longform-2026-11-19-s1…s5).
+Offer: evergreen 40% off ($99.95) + free travel bag + free dental case, 120-day money-back guarantee, no end date.
+
+| ID | Persona / appliance | Angle and evidence | New story (narrator, setting) | Hook type | Borrowed format (source) | Images A/B/C/D |
+|---|---|---|---|---|---|---|
+| DLF11 | Denture caregiver | Hospital/aspiration pneumonia: O'Donnell 2016, Quinn 2014, Iinuma 2015 | Infection-prevention nurse, 57, Baton Rouge; mother 84 | Professional irony | BeetWise 911-dispatcher irony (rank 1) | A hospital denture cup; B swabbing a bed rail; C slimy swab; D Pod brown water |
+| DLF12 | Denture wearer, man | Denture stomatitis, antifungals fail, yeast re-seeds | Retired long-haul trucker, 64, Billings MT; $4,200 dentures in a cup | Sunk-cost object | Volosso RV body (294 days) | A dentures in a cloudy glass; B rinse bottles + soup; C filmy palate; D Pod |
+| DLF13 | Denture wearer + adhesive | Adhesive layer + biofilm, sore palate, smell | Retired church organist, 69, Albuquerque; overheard at a wedding | Overheard insult + vindication | Forge overheard insult; revenge engine (Whisp, EverWell rank 1) | A adhesive-caked plate; B reception table from behind; C tablet glass; D Pod |
+| DLF14 | Denture wearer/spouse | Ultrasonic is what dental labs use; chest infections | Retired machinist, 61, Hartford CT; grandfather's dental-lab notebook | Historical secret + heirloom | YouthRite 1944 nurses (rank 1/204) | A notebook + dirty denture; B old ultrasonic tank; C tablet glass; D Pod |
+| DLF15 | Denture caregiver | Nursing-home pneumonia, Yoneyama 1999 | Court reporter, 49, Sacramento; mother 86 moves in Friday 9 a.m. | Hard deadline + found object | PhotoStick Friday 8 AM (rank 1) | A cup under the sink; B packing boxes; C tablet boxes; D Pod in new room |
+| DLF16 | Night guard | Mold in the wet case; throat/sinus | Resort housekeeper, 38, Las Vegas; what rich guests keep on the counter | Insider voyeur | Fleece Hamptons nanny (rank 1) | A moldy case; B hotel counter; C guard in locker; D Pod |
+| DLF17 | Switcher, night guard | "6 of 7 pods leave live bacteria" (our #1 winner) | HS football coach, 41, Boise; two one-star reviews | One-star reviewer / scam reversal, with his own pod test | Account Family 1 test format | A filmy guard + towel; B drawer of dead pods; C cheap pod basin; D Pod |
+| DLF18 | Aligner | Tray is a lid: white spot/cavity | Biology teacher, 31, Tulsa; class grows her tray on agar | Classroom experiment / measured proof | Measurement-as-proof (market study lesson 8) | A busy agar plate; B lab bench plates; C cloudy tray; D Pod |
+| DLF19 | Retainer parent | Teen retainer: white spots, crack, shifting, cost | Firefighter dad, 45, Providence; daughter 16, braces off last Christmas | Open letter to parents | Seasonal braces-off (December) | A crusty retainer case; B cracked retainer + bill; C tablet cup; D Pod |
+| DLF20 | Aligner (partner) | Smell, mold, decay under trays | Pharmacy tech, 30, Jersey City; threw fiancé's trays out | AITA forum post, brand at late EDIT | Orthora criteria → late EDIT | A trays in trash; B couch, ring; C moldy case; D Pod |
+
+### Scroll videos 2026-11-19 (DV13–DV24, 4 angles x 3)
+| IDs | Angle | Stories |
+|---|---|---|
+| DV13–15 | Hospital pneumonia (dentures in the hospital cup) | DV13 Baltimore bus mechanic, wife's hip surgery (VOICE); DV14 Richmond transport aide, grandfather; DV15 Birmingham retired welder, knee replacement |
+| DV16–18 | Switchers: 6 of 7 pods leave live bacteria | DV16 Lexington band director, drawer of dead pods (guard); DV17 Jackson MS retired postal carrier, stomatitis, paper-towel test; DV18 Fort Collins dog groomer, aligners |
+| DV19–21 | Mold in wet appliances | DV19 Little Rock HVAC tech (guard); DV20 Fresno line cook dad, teen retainer in a duffel; DV21 Burlington VT florist, retainer + sinus infections |
+| DV22–24 | Partials rot the anchor teeth (new) | DV22 Grand Rapids church secretary; DV23 Iowa farmer, pulled tooth; DV24 Salt Lake City daughter, mother stops smiling in photos |
+
+Status: written 2026-11-19 (see Notion cards). Batch 1 backlog items used this week: none directly (switcher one-star reviewer → DLF17; nursing-home daughter → DLF15; braces-off retainer → DLF19; adhesive jelly → DLF13).
+
 ## Backlog (not in batch 1)
 - The dog knew: $750 night guard chewed (was DLF06).
 - The one-star reviewer switcher (was DLF09).

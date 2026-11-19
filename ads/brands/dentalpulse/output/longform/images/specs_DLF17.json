@@ -1,0 +1,23 @@
+{
+ "DLF17_A": {
+  "copy": "Hook: the $650 night guard after the cheap pod's cycle.",
+  "prompt": "Extreme close-up of a clear dental night guard held over a white paper towel after a cleaning cycle: still cloudy with a yellowish film, a smear of grey slime on the paper towel where it was wiped. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF17_B": {
+  "copy": "The graveyard: two dead cheap pods and a cracked one in a drawer.",
+  "prompt": "A kitchen junk drawer holding two small cheap plastic ultrasonic cleaners with no logos, one with a cracked lid, cords tangled, a night guard case and old receipts, a whistle on a lanyard. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF17_C": {
+  "copy": "Failure: the cheap pod's basin with scum after a cycle.",
+  "prompt": "Close-up of a cheap small plastic ultrasonic cleaner with no logos, lid open: the water barely cloudy, a night guard inside still filmy, a scummy ring and grey residue in the plastic basin. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF17_D": {
+  "copy": "Proof: the first DentalPULSE cycle.",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A clear night guard sits in the murky water; a coach's whistle on a lanyard lies beside the Pod on a dresser. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}

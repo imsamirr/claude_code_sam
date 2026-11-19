@@ -223,6 +223,11 @@ def tts_eleven(text, gender, dest, voice_id=None):
         time.sleep(min(60, 5 * 2 ** attempt))
     r.raise_for_status()
     dest.write_bytes(r.content)
+    try:  # the API key may lack user_read, so log the real cost from the response header per section
+        with open(Path(dest).parent / "el_costs.txt", "a") as f:
+            f.write(f"{Path(dest).name}\t{r.headers.get('character-cost', '?')}\t{len(text)}\n")
+    except OSError:
+        pass
     return dest
 
 

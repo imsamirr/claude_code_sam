@@ -1,0 +1,23 @@
+{
+ "DLF16_A": {
+  "copy": "Hook: the musty night guard in its wet case.",
+  "prompt": "Extreme close-up of an open plastic night-guard case: a clear dental night guard gone cloudy yellow with a whitish film, wet droplets, dark black specks of mold around the case hinge and under the lip of the lid. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF16_B": {
+  "copy": "The insider view: a luxury hotel bathroom counter.",
+  "prompt": "Phone photo of a luxury hotel bathroom marble counter being cleaned: a housekeeping caddy with spray bottles, folded white towels, a small closed white unbranded dental cleaning pod beside a glass, gloved hand at the edge of frame, no faces. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF16_C": {
+  "copy": "Failure: the case in a locker, guard on a damp paper towel.",
+  "prompt": "A clear night guard drying on a damp crumpled paper towel inside a metal staff locker shelf, cloudy and yellowed with a slimy film, the closed case beside it with dark specks at the hinge. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF16_D": {
+  "copy": "Proof: the first cycle.",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A clear night guard sits in the murky water on a bathroom counter, a hotel housekeeping lanyard beside it. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}

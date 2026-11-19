@@ -1,0 +1,23 @@
+{
+ "DLF13_A": {
+  "copy": "Hook: the adhesive-caked plate.",
+  "prompt": "Extreme close-up of an upper denture on a bathroom counter: thick old yellowish denture adhesive paste layered and smeared on the palate side, gooey strings, grey-black film in the grooves, a squeezed plain white unlabeled adhesive tube beside it. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF13_B": {
+  "copy": "The overheard moment: a wedding reception table from behind.",
+  "prompt": "Phone photo at a wedding reception in spring: from behind, two women in dresses lean toward each other at a round table with white tablecloth and centerpieces, faces not visible, a third older woman's shoulder and silver hair blurred in the foreground, string lights, ordinary indoor light. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF13_C": {
+  "copy": "Failure: the fizzing tablet glass, cloudy with scum.",
+  "prompt": "A glass of blue-tinted fizzing denture-cleaning water on a sink at night with a denture inside, the water cloudy with floating scum and adhesive blobs, a scummy ring at the waterline, a plain white tablet box beside it. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF13_D": {
+  "copy": "Proof: the first cycle.",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. An upper denture sits in the murky water with flecks of old adhesive floating; a piano-teacher's metronome is out of focus on the shelf behind. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}

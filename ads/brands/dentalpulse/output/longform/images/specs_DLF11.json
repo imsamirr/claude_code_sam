@@ -1,0 +1,23 @@
+{
+ "DLF11_A": {
+  "copy": "Hook: the mother's full denture in a hospital denture cup, nobody cleaned it.",
+  "prompt": "A plastic hospital denture cup with its lid off on a beige over-bed tray table: a full upper and lower denture sitting in a little cloudy water, coated in a whitish slimy film with yellow-brown buildup along the gumline and food debris in the crevices, a crumpled napkin and a pudding cup beside it. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF11_B": {
+  "copy": "Her job: an infection-prevention nurse's gloved hand swabbing a hospital bed rail.",
+  "prompt": "Close phone photo in a hospital room: a hand in a blue nitrile glove running a long cotton swab along a hospital bed's side rail and call button, an empty bed with white sheets behind, fluorescent light. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF11_C": {
+  "copy": "The swab of her mother's 'clean' denture: yellow-grey slime on the cotton tip.",
+  "prompt": "A long cotton swab held up next to a full upper denture on a white paper towel on a kitchen counter at night: the cotton tip is smeared yellow-grey and slimy, the denture's palate has a dull whitish film and dark buildup in the grooves. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF11_D": {
+  "copy": "Proof: the first cycle at home.",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A full upper denture sits in the murky water; a plain white denture case sits beside the Pod on a bathroom counter. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}

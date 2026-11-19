@@ -1,0 +1,23 @@
+{
+ "DLF18_A": {
+  "copy": "Hook: the agar plate grown from her 'clean' aligner tray.",
+  "prompt": "Extreme close-up of a petri dish with agar on a classroom lab bench, crowded with cream, yellow and grey bacterial colonies and fuzzy spots, a clear aligner tray beside the dish with a whitish film, a cotton swab, a gloved hand at the edge. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF18_B": {
+  "copy": "The class lab: rows of agar plates on a bench.",
+  "prompt": "Phone photo of a high school biology lab bench in fall: a row of petri dishes with different amounts of colony growth, masking-tape labels with blurred unreadable handwriting, a microscope out of focus, fluorescent light. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF18_C": {
+  "copy": "Failure: the cloudy aligner tray on a caf\u00e9 napkin.",
+  "prompt": "Close-up of a clear aligner tray on a crumpled napkin next to a coffee cup, the tray cloudy with a white film and tiny food bits in the tooth grooves. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF18_D": {
+  "copy": "Proof: the first cycle.",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. Two clear aligner trays sit in the murky water on a teacher's desk with a stack of graded papers out of focus. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}
