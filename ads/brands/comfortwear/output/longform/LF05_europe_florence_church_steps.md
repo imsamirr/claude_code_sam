@@ -5,7 +5,7 @@
 **Persona:** Persona 8: European / bucket-list traveler (The Cobblestone Explorer) (StefanBrain: Persona 8, European / bucket-list traveler ("The Cobblestone Explorer"))
 **Copy:** StefanBrain (copy_source: stefanbrain) · chat chat_6d020c9b868540548b451cacd85c1da7 · https://stefanbrain.com/chat/6d020c9b-8685-4054-8b45-1cacd85c1da7
 **StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: shameful public moment. Open-loop type: what daughter said on the steps. Lead type: story lead. Awareness level: problem-aware. One-belief sentence: Max-cushion running shoes roll side to side and pack flat on cobblestones, but Comfort Wear's built-in structural arch and firm stable sole keep feet steady and pain-free on stone streets all day. Primary text characters: 12632. Scroll script words: 718.
-**Format:** static image + long primary text (11.9k characters measured; brand first named at 56%)
+**Format:** static image + long primary text (11.9k characters measured; brand first named at 55%)
 **Headline:** My Worst Florence Travel Mistake
 **CTA:** Learn More
 **Landing page:** /pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer
@@ -169,7 +169,7 @@ Over 500,000 women are already wearing them, they are HSA/FSA eligible, and they
 
 Tap Learn More below to claim your 60% off before the Black Friday Sale ends on December 5th.
 
-P.S. Take the thumb test on your current sneakers. Press your thumb hard into the center of the heel. If it sinks straight through like a kitchen sponge, that foam will pack completely flat within two hours on hard floors. Comfort Wear uses built-in structural support that stays firm and steady all day long.
+P.S. Check the shoes you plan to pack for your next trip. Turn them upside down and look at the outer edge of the heel. If the rubber is already worn down at an angle, that foam has collapsed, and your foot will roll on every single cobblestone. Comfort Wear uses built-in structural support and a firm, flat sole that keeps you steady on uneven stone all day.
 
 P.S. At 60% off, most women grab a second pair in neutral black or gray for work or as a holiday gift for a mother, daughter, or sister who is on her feet all day.
 

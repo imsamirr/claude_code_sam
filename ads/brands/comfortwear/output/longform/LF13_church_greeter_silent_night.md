@@ -103,9 +103,9 @@ I was ready to spend whatever it took to stop that burning.
 
 Like a lot of women my age, I ended up building an expensive graveyard of failed shoes in the bottom of my closet.
 
-Aubrey was right when she talked about her closet: "$180 for Hokas, $200 for Danskos, $150 for Brooks. All sitting in my closet."
+I had the exact same graveyard sitting in my bedroom: $180 for Hokas, $200 for Danskos, $150 for Brooks."
 
-That was my closet, too.
+All of them sitting in a row on the closet floor, completely useless.
 
 First was a pair of Skechers memory foam for $75.
 

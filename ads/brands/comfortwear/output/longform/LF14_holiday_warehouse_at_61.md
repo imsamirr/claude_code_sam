@@ -103,13 +103,13 @@ I told her about Liam, Sadie, and Nora.
 
 Danica took a breath and pointed toward the lockers.
 
-"Talk to Donna on Line 4 before you clock out," Danica said. "She's sixty-two. She's worked peak for five seasons. If she can survive sixty hours a week on this concrete, you can too. But you have to fix what's on your feet."
+"Talk to Wanda on Line 4 before you clock out," Danica said. "She's sixty-two. She's worked peak for five seasons. If she can survive sixty hours a week on this concrete, you can too. But you have to fix what's on your feet."
 
-That morning, before I talked to Donna, I tried what everyone online recommends.
+That morning, before I talked to Wanda, I tried what everyone online recommends.
 
 I fell into the exact same expensive trap that ruins thousands of working women.
 
-Aubrey's words about her shoe graveyard were running through my head: "$180 for Hokas, $200 for Danskos, $150 for Brooks. All sitting in my closet."
+I had the exact same graveyard in my bedroom: $180 for Hokas, $200 for Danskos, $150 for Brooks, all sitting useless in my closet."
 
 I went to the store in Columbus that afternoon, desperate for anything that would let me keep working.
 
@@ -161,23 +161,23 @@ And my feet were still screaming.
 
 By the end of my second week, I was ready to quit.
 
-On Friday morning, I ran into Donna by the metal lockers.
+On Friday morning, I ran into Wanda by the metal lockers.
 
-Donna is sixty-two, with silver hair pulled back in a hairnet, looking fresh after a ten-hour shift.
+Wanda is sixty-two, with silver hair pulled back in a hairnet, looking fresh after a ten-hour shift.
 
 She saw me sitting on the metal bench, gripping my calf, fighting back tears.
 
-"Linda," Donna said, sitting down next to me. "Danica told me you were struggling. Look down at my feet."
+"Linda," Wanda said, sitting down next to me. "Danica told me you were struggling. Look down at my feet."
 
 She was wearing clean, stylish black sneakers with white soles.
 
-"I work sixty hours a week during peak season," Donna said. "I walk twelve miles a night on this concrete. If I wore running shoes or clogs, I'd be flat on my back on the couch by Thanksgiving. Running shoes are made for a runner in a 5k, not a sixty-year-old woman standing ten hours on concrete."
+"I work sixty hours a week during peak season," Wanda said. "I walk twelve miles a night on this concrete. If I wore running shoes or clogs, I'd be flat on my back on the couch by Thanksgiving. Running shoes are made for a runner in a 5k, not a sixty-year-old woman standing ten hours on concrete."
 
-Donna pulled a scrap of paper from her pocket and wrote down five words.
+Wanda pulled a scrap of paper from her pocket and wrote down five words.
 
 Comfort Wear Ortho Stretch Cushion Shoe.
 
-"Look them up today," Donna said.
+"Look them up today," Wanda said.
 
 I looked at the scrap of paper and hesitated.
 
@@ -187,11 +187,11 @@ I know better than to buy shoes off internet ads.
 
 Half of them are fly-by-night companies that ship cheap plastic trash from a shipping container four weeks later with zero customer service.
 
-Donna laughed.
+Wanda laughed.
 
-"I thought the exact same thing," Donna said. "I don't trust internet ads either. But Comfort Wear is a real company with 500,000+ customers. They give you a 30-day money-back guarantee with a full refund within 30 days if your feet don't agree. Podiatrists recommend them, doctors recommend them, and they are HSA and FSA eligible."
+"I thought the exact same thing," Wanda said. "I don't trust internet ads either. But Comfort Wear is a real company with 500,000+ customers. They give you a 30-day money-back guarantee with a full refund within 30 days if your feet don't agree. Podiatrists recommend them, doctors recommend them, and they are HSA and FSA eligible."
 
-Donna pulled her shoe off and handed it to me.
+Wanda pulled her shoe off and handed it to me.
 
 "Feel how this is built," she said.
 
@@ -209,7 +209,7 @@ The wide toe box gave toes room to spread without pinching bunions, and it was l
 
 "How much are they?" I asked.
 
-Donna told me they were normally $90, but on sale right now for $59.95: about $60.
+Wanda told me they were normally $90, but on sale right now for $59.95: about $60.
 
 A $60 shoe was doing what my $175 Hokas and $140 Brooks never could.
 
@@ -348,9 +348,9 @@ Tyler and Devon, two kids young enough to be my grandsons, saw my knees buckle. 
 
 They were protecting an older woman from falling behind quota. It broke my heart to be carried.
 
-During break, Danica, the supervisor, called me in. She saw me dragging my leg on camera and pointed me to Donna on Line four.
+During break, Danica, the supervisor, called me in. She saw me dragging my leg on camera and pointed me to Wanda on Line four.
 
-Donna is sixty-two, working her fifth peak season on concrete.
+Wanda is sixty-two, working her fifth peak season on concrete.
 
 Desperate to keep working, I built an expensive graveyard of failed shoes in my closet.
 
@@ -372,13 +372,13 @@ Hokas for one hundred seventy-five dollars rolled side to side on concrete.
 
 I spent nine hundred dollars on shoes, and my feet were still screaming.
 
-On Friday, Donna saw me sitting by the lockers fighting back tears.
+On Friday, Wanda saw me sitting by the lockers fighting back tears.
 
 She said every new worker wears running shoes until their arches get ruined. Running shoes are made for a race, not concrete shifts.
 
 Then she wrote five words on a paper scrap: Comfort Wear Ortho Stretch Cushion Shoe.
 
-Donna showed me Comfort Wear has over five hundred thousand customers and a thirty-day money-back guarantee with a full refund.
+Wanda showed me Comfort Wear has over five hundred thousand customers and a thirty-day money-back guarantee with a full refund.
 
 She handed me her shoe. Structural arch support was built directly into the base of the shoe, holding steady without collapsing.
 

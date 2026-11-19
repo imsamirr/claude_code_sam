@@ -5,7 +5,7 @@
 **Persona:** Persona 10: the 65+ working senior (The Unretired Worker) (StefanBrain: Persona 10, the 65+ working senior ("The Unretired Worker"))
 **Copy:** StefanBrain (copy_source: stefanbrain) · chat chat_bcd022ae9c1f4b2e963e29d8e1db4b4f · https://stefanbrain.com/chat/bcd022ae-9c1f-4b2e-963e-29d8e1db4b4f
 **StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: A secret (granddaughter believes narrator is retired). Open-loop type: Why she keeps the secret and the freezing morning she almost got caught in her scrubs. Lead type: Story lead. Awareness level: Problem-aware. One-belief sentence: For a working senior on concrete floors, heavy clogs and unstable running foam cause agony and falling hazards, but structural built-in arch support with a steady, firm sole keeps you upright and independent. Measured primary_text character count: 12585 characters. Measured scroll_script word count: 718 words.
-**Format:** static image + long primary text (11.6k characters measured; brand first named at 56%)
+**Format:** static image + long primary text (11.5k characters measured; brand first named at 56%)
 **Headline:** The 71-Year-Old Nurse's Secret
 **CTA:** Learn More
 **Landing page:** /pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers
@@ -37,7 +37,7 @@ When grocery prices doubled, three night shifts a month became the only way to k
 
 I love nursing, but hospital concrete does not care about your age.
 
-The morning I almost blew my secret was a freezing Tuesday in late October.
+The morning I almost blew my secret was a chilly Tuesday in late September.
 
 I clocked out at 7:05 AM after a brutal night on my feet. My heels felt like red-hot spikes driven through the bone.
 
@@ -111,7 +111,7 @@ Worse, your feet swell up to half a size. The shoe that fit at breakfast feels t
 
 I thought I was simply too old to work on my feet.
 
-Then came a chilly Thursday shift in early November.
+Then came a Thursday shift in early October.
 
 At 4:15 AM, I was leaning my hip against the nurses station counter, desperately trying to keep the weight off my left heel while checking charts.
 
@@ -147,7 +147,7 @@ Third, the upper is made of an engineered stretch knit that breathes. When your 
 
 Fourth, a wide toe box lets toes spread naturally without rubbing.
 
-Fifth, the outsole has certified slip-resistant grip for wet hospital floors.
+Fifth, the outsole has slip-resistant grip for wet hospital floors.
 
 And Comfort Wear backed it with an honest 30-day money-back guarantee. If they do not support your feet on your longest day, you get a full refund within 30 days. No partial refunds. No store credit tricks.
 
@@ -171,7 +171,7 @@ When I clocked out at 7:00 AM, my heels were not throbbing. For the first time i
 
 The real payoff came two weeks later.
 
-Another freezing Friday morning in late November. I pulled into my driveway after a shift, and my daughter's car was there again with a dead battery.
+Another chilly Friday morning in late October. I pulled into my driveway after a shift, and my daughter's car was there again with a dead battery.
 
 Lily burst out the door in her pink coat and purple backpack.
 
@@ -228,7 +228,7 @@ At seventy-one years old, admitting you still punch a time clock feels like admi
 **H4:** Stop buying high-stack running sneakers for twelve-hour hospital shifts.
 At seventy-one, that squishy marshmallow foam is not cushioning: it is a dangerous fall waiting to happen.
 
-## Scroll-video script (LF09V, 701 words, StefanBrain)
+## Scroll-video script (LF09V, 704 words, StefanBrain)
 
 My eight-year-old granddaughter thinks I spend my nights sleeping and my mornings baking muffins.
 
@@ -236,7 +236,7 @@ I have let her believe that for fourteen months. At seventy-one, admitting you s
 
 Lily has no idea that three nights a month, I work twelve-hour shifts at the regional hospital. When Arthur died, his pension ended, and my survivor benefit did not cover rising costs.
 
-The morning I almost blew my secret was a freezing Tuesday. I clocked out at seven, my heels throbbing like red-hot spikes.
+The morning I almost blew my secret was a chilly Tuesday in late September. I clocked out at seven, my heels throbbing like red-hot spikes.
 
 At home, my daughter's car had a dead alternator. Lily ran out asking for a walk to the bus.
 

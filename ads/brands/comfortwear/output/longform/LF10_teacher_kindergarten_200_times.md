@@ -135,7 +135,7 @@ Third, the upper is an engineered stretch knit that breathes and expands. When f
 
 Fourth, the wide toe box lets toes splay naturally when bending down.
 
-Fifth, the outsole features certified slip-resistant grip that holds tight on slick cafeteria linoleum and polished gym floors.
+Fifth, the outsole features slip-resistant grip that holds tight on slick cafeteria linoleum and polished gym floors.
 
 In plain all-black, it looks like a clean shoe that easily meets school dress codes.
 
