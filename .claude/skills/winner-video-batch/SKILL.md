@@ -108,6 +108,8 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
    product or action between samples. Fix and re-render failures.
 8. **Deliver**:
    - Commit `<week dir>` (edits + mp4s + sheets), `footage.csv`, playbook changes; push.
+     An MP4 over ~95 MB (long F31-style videos at crf 17) can't go to GitHub (100 MB limit): keep it out of
+     git (`*.mp4` in that folder's .gitignore) and record its Drive link in `<week dir>/drive_links.json`.
    - Drive (user rule, Nov 17: **every batch gets its own new folder**, never loose files in the main
      folder): `python ads/video/drive_upload.py <video.drive_folder_id> --batch "<YYYY>-W<ww> Weekly Batch
      (V<ww>_01-10)" <week dir>/*/V*.mp4` creates the subfolder and uploads into it (needs GDRIVE_* env
