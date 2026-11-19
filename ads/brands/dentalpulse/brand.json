@@ -1083,6 +1083,26 @@
     "approved_X_01_den_wasnt_built": {
       "file": "reference/benchmarks/approved_X_01_den_wasnt_built.png",
       "use_for": "Approved render: copy exactly except the requested change."
+    },
+    "rv_st_will_be_gone": {
+      "file": "reference/benchmarks/rv_ref_st_will_be_gone.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 19: Stepprs dark promo: top/bottom orange ticker bars, two pills, huge 'BURNING ARCHES / WILL BE GONE.' (orange line), struck old price + huge new price, 5 stars + guarantee, product angled left). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_st_whiteboard_flat": {
+      "file": "reference/benchmarks/rv_ref_st_whiteboard_flat.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 19: Stepprs: red top banner, whiteboard lying flat on a wooden floor with marker caps text, products on the board). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_st_reorder_letter": {
+      "file": "reference/benchmarks/rv_ref_st_reorder_letter.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 19: Stepprs: white letter page, logo tile, bold caps title with emoji, centered paragraphs with bold phrases, italic kicker, products bottom-left, stars + trust line bottom-right). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_st_flatlay_question": {
+      "file": "reference/benchmarks/rv_ref_st_flatlay_question.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 19: Stepprs: overhead flat lay of everyday props, black-box white caps question headline, white strip subline, product + pack, orange CTA pill). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_st_confession_warehouse": {
+      "file": "reference/benchmarks/rv_ref_st_confession_warehouse.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 19: Stepprs: huge black 'We f*cked up.' headline, 'Dear fans' letter paragraphs with bold words, orange pill, warehouse of pallets, hand holding product). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
     }
   },
   "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots).",
