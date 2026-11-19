@@ -1,0 +1,450 @@
+{
+  "week": "2026-W47-winning-angles",
+  "notes": "User 2026-11-19: 3 user-sent layouts x 6 winning angles, Black Friday. Copy by StefanBrain.",
+  "concepts": [
+    {
+      "id": "WA_REV_NUR",
+      "layout": "REV",
+      "angle_key": "NUR",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Nurses on 12-hour hospital shifts x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt 'My 240 lb Body Enjoyed Them.' review layout",
+      "copy_slots": [
+        "huge quote headline: a VERBATIM line from a real customer review in your files that fits this angle (keep their exact words, may shorten)",
+        "review strip: a second verbatim snippet from the same real review + their real first name and initial as written in the files",
+        "3 icon features (2-4 words each)",
+        "offer button (Black Friday 60% off)"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Nurses on 12-hour hospital shifts. The quotes MUST be real customer words from the review/VOC files (Trustpilot, survey, ad comments). Never invent quotes, names or body weights.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ],
+      "benchmark": "i6_review",
+      "format_ref": true
+    },
+    {
+      "id": "WA_REV_DIS",
+      "layout": "REV",
+      "angle_key": "DIS",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney trip: theme-park days, 20,000 steps, long lines x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt 'My 240 lb Body Enjoyed Them.' review layout",
+      "copy_slots": [
+        "huge quote headline: a VERBATIM line from a real customer review in your files that fits this angle (keep their exact words, may shorten)",
+        "review strip: a second verbatim snippet from the same real review + their real first name and initial as written in the files",
+        "3 icon features (2-4 words each)",
+        "offer button (Black Friday 60% off)"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines. The quotes MUST be real customer words from the review/VOC files (Trustpilot, survey, ad comments). Never invent quotes, names or body weights.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ],
+      "benchmark": "i6_review",
+      "format_ref": true
+    },
+    {
+      "id": "WA_REV_DPL",
+      "layout": "REV",
+      "angle_key": "DPL",
+      "persona": "plus_size",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Plus-size woman on a Disney trip (overweight park day: winner TOFV1_NH3 GeneralOverweightParkDay) x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt 'My 240 lb Body Enjoyed Them.' review layout",
+      "copy_slots": [
+        "huge quote headline: a VERBATIM line from a real customer review in your files that fits this angle (keep their exact words, may shorten)",
+        "review strip: a second verbatim snippet from the same real review + their real first name and initial as written in the files",
+        "3 icon features (2-4 words each)",
+        "offer button (Black Friday 60% off)"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Plus-size woman on a Disney trip (overweight park day: winner TOFV1_NH3 GeneralOverweightParkDay). The quotes MUST be real customer words from the review/VOC files (Trustpilot, survey, ad comments). Never invent quotes, names or body weights.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ],
+      "benchmark": "i6_review",
+      "format_ref": true
+    },
+    {
+      "id": "WA_REV_EUR",
+      "layout": "REV",
+      "angle_key": "EUR",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Europe bucket-list trip: cobblestones, 20,000-step sightseeing days x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt 'My 240 lb Body Enjoyed Them.' review layout",
+      "copy_slots": [
+        "huge quote headline: a VERBATIM line from a real customer review in your files that fits this angle (keep their exact words, may shorten)",
+        "review strip: a second verbatim snippet from the same real review + their real first name and initial as written in the files",
+        "3 icon features (2-4 words each)",
+        "offer button (Black Friday 60% off)"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Europe bucket-list trip: cobblestones, 20,000-step sightseeing days. The quotes MUST be real customer words from the review/VOC files (Trustpilot, survey, ad comments). Never invent quotes, names or body weights.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ],
+      "benchmark": "i6_review",
+      "format_ref": true
+    },
+    {
+      "id": "WA_REV_PLS",
+      "layout": "REV",
+      "angle_key": "PLS",
+      "persona": "plus_size",
+      "colorway": "black_white",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Plus-size woman walking and standing all day (weight-bearing walker) x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt 'My 240 lb Body Enjoyed Them.' review layout",
+      "copy_slots": [
+        "huge quote headline: a VERBATIM line from a real customer review in your files that fits this angle (keep their exact words, may shorten)",
+        "review strip: a second verbatim snippet from the same real review + their real first name and initial as written in the files",
+        "3 icon features (2-4 words each)",
+        "offer button (Black Friday 60% off)"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Plus-size woman walking and standing all day (weight-bearing walker). The quotes MUST be real customer words from the review/VOC files (Trustpilot, survey, ad comments). Never invent quotes, names or body weights.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ],
+      "benchmark": "i6_review",
+      "format_ref": true
+    },
+    {
+      "id": "WA_REV_FLY",
+      "layout": "REV",
+      "angle_key": "FLY",
+      "persona": "traveler",
+      "colorway": "black_mint",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Long flights and airport terminals: travel days, swollen feet after flying (winner TOFV1_JW1 \"2026s Favorite Shoes For Traveling\") x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt 'My 240 lb Body Enjoyed Them.' review layout",
+      "copy_slots": [
+        "huge quote headline: a VERBATIM line from a real customer review in your files that fits this angle (keep their exact words, may shorten)",
+        "review strip: a second verbatim snippet from the same real review + their real first name and initial as written in the files",
+        "3 icon features (2-4 words each)",
+        "offer button (Black Friday 60% off)"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Long flights and airport terminals: travel days, swollen feet after flying (winner TOFV1_JW1 \"2026s Favorite Shoes For Traveling\"). The quotes MUST be real customer words from the review/VOC files (Trustpilot, survey, ad comments). Never invent quotes, names or body weights.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ],
+      "benchmark": "i6_review",
+      "format_ref": true
+    },
+    {
+      "id": "WA_NOT_NUR",
+      "layout": "NOT",
+      "angle_key": "NUR",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Nurses on 12-hour hospital shifts x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt 'Your ASICS weren't built for pickleball' layout",
+      "copy_slots": [
+        "3-line headline in the pattern 'Your <usual shoe> weren't built for <this angle's situation>' (no competitor brand names)",
+        "subline: the problem in one sentence",
+        "dark pill offer (60% OFF, no price)",
+        "CTA (2 words)"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Nurses on 12-hour hospital shifts. ",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "WA_NOT_DIS",
+      "layout": "NOT",
+      "angle_key": "DIS",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney trip: theme-park days, 20,000 steps, long lines x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt 'Your ASICS weren't built for pickleball' layout",
+      "copy_slots": [
+        "3-line headline in the pattern 'Your <usual shoe> weren't built for <this angle's situation>' (no competitor brand names)",
+        "subline: the problem in one sentence",
+        "dark pill offer (60% OFF, no price)",
+        "CTA (2 words)"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines. ",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "WA_NOT_DPL",
+      "layout": "NOT",
+      "angle_key": "DPL",
+      "persona": "plus_size",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Plus-size woman on a Disney trip (overweight park day: winner TOFV1_NH3 GeneralOverweightParkDay) x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt 'Your ASICS weren't built for pickleball' layout",
+      "copy_slots": [
+        "3-line headline in the pattern 'Your <usual shoe> weren't built for <this angle's situation>' (no competitor brand names)",
+        "subline: the problem in one sentence",
+        "dark pill offer (60% OFF, no price)",
+        "CTA (2 words)"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Plus-size woman on a Disney trip (overweight park day: winner TOFV1_NH3 GeneralOverweightParkDay). ",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "WA_NOT_EUR",
+      "layout": "NOT",
+      "angle_key": "EUR",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Europe bucket-list trip: cobblestones, 20,000-step sightseeing days x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt 'Your ASICS weren't built for pickleball' layout",
+      "copy_slots": [
+        "3-line headline in the pattern 'Your <usual shoe> weren't built for <this angle's situation>' (no competitor brand names)",
+        "subline: the problem in one sentence",
+        "dark pill offer (60% OFF, no price)",
+        "CTA (2 words)"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Europe bucket-list trip: cobblestones, 20,000-step sightseeing days. ",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "WA_NOT_PLS",
+      "layout": "NOT",
+      "angle_key": "PLS",
+      "persona": "plus_size",
+      "colorway": "black_white",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Plus-size woman walking and standing all day (weight-bearing walker) x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt 'Your ASICS weren't built for pickleball' layout",
+      "copy_slots": [
+        "3-line headline in the pattern 'Your <usual shoe> weren't built for <this angle's situation>' (no competitor brand names)",
+        "subline: the problem in one sentence",
+        "dark pill offer (60% OFF, no price)",
+        "CTA (2 words)"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Plus-size woman walking and standing all day (weight-bearing walker). ",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "WA_NOT_FLY",
+      "layout": "NOT",
+      "angle_key": "FLY",
+      "persona": "traveler",
+      "colorway": "black_mint",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Long flights and airport terminals: travel days, swollen feet after flying (winner TOFV1_JW1 \"2026s Favorite Shoes For Traveling\") x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt 'Your ASICS weren't built for pickleball' layout",
+      "copy_slots": [
+        "3-line headline in the pattern 'Your <usual shoe> weren't built for <this angle's situation>' (no competitor brand names)",
+        "subline: the problem in one sentence",
+        "dark pill offer (60% OFF, no price)",
+        "CTA (2 words)"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Long flights and airport terminals: travel days, swollen feet after flying (winner TOFV1_JW1 \"2026s Favorite Shoes For Traveling\"). ",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "WA_LIE_NUR",
+      "layout": "LIE",
+      "angle_key": "NUR",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Nurses on 12-hour hospital shifts x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: muuv 'Tennis industry lies about your pain.' layout",
+      "copy_slots": [
+        "2-3 line headline in the pattern '<X> industry lies about your pain.' for this angle",
+        "chat-bubble question (2 short sentences, like 'Do you really think it is just age? Or your footwear?')",
+        "small brand line under the logo (max 3 words)",
+        "small Black Friday offer tag"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Nurses on 12-hour hospital shifts. ",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "WA_LIE_DIS",
+      "layout": "LIE",
+      "angle_key": "DIS",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney trip: theme-park days, 20,000 steps, long lines x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: muuv 'Tennis industry lies about your pain.' layout",
+      "copy_slots": [
+        "2-3 line headline in the pattern '<X> industry lies about your pain.' for this angle",
+        "chat-bubble question (2 short sentences, like 'Do you really think it is just age? Or your footwear?')",
+        "small brand line under the logo (max 3 words)",
+        "small Black Friday offer tag"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines. ",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "WA_LIE_DPL",
+      "layout": "LIE",
+      "angle_key": "DPL",
+      "persona": "plus_size",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Plus-size woman on a Disney trip (overweight park day: winner TOFV1_NH3 GeneralOverweightParkDay) x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: muuv 'Tennis industry lies about your pain.' layout",
+      "copy_slots": [
+        "2-3 line headline in the pattern '<X> industry lies about your pain.' for this angle",
+        "chat-bubble question (2 short sentences, like 'Do you really think it is just age? Or your footwear?')",
+        "small brand line under the logo (max 3 words)",
+        "small Black Friday offer tag"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Plus-size woman on a Disney trip (overweight park day: winner TOFV1_NH3 GeneralOverweightParkDay). ",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "WA_LIE_EUR",
+      "layout": "LIE",
+      "angle_key": "EUR",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Europe bucket-list trip: cobblestones, 20,000-step sightseeing days x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: muuv 'Tennis industry lies about your pain.' layout",
+      "copy_slots": [
+        "2-3 line headline in the pattern '<X> industry lies about your pain.' for this angle",
+        "chat-bubble question (2 short sentences, like 'Do you really think it is just age? Or your footwear?')",
+        "small brand line under the logo (max 3 words)",
+        "small Black Friday offer tag"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Europe bucket-list trip: cobblestones, 20,000-step sightseeing days. ",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "WA_LIE_PLS",
+      "layout": "LIE",
+      "angle_key": "PLS",
+      "persona": "plus_size",
+      "colorway": "black_white",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Plus-size woman walking and standing all day (weight-bearing walker) x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: muuv 'Tennis industry lies about your pain.' layout",
+      "copy_slots": [
+        "2-3 line headline in the pattern '<X> industry lies about your pain.' for this angle",
+        "chat-bubble question (2 short sentences, like 'Do you really think it is just age? Or your footwear?')",
+        "small brand line under the logo (max 3 words)",
+        "small Black Friday offer tag"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Plus-size woman walking and standing all day (weight-bearing walker). ",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ]
+    },
+    {
+      "id": "WA_LIE_FLY",
+      "layout": "LIE",
+      "angle_key": "FLY",
+      "persona": "traveler",
+      "colorway": "black_mint",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Long flights and airport terminals: travel days, swollen feet after flying (winner TOFV1_JW1 \"2026s Favorite Shoes For Traveling\") x Black Friday",
+      "based_on": "User-sent inspiration 2026-11-19: muuv 'Tennis industry lies about your pain.' layout",
+      "copy_slots": [
+        "2-3 line headline in the pattern '<X> industry lies about your pain.' for this angle",
+        "chat-bubble question (2 short sentences, like 'Do you really think it is just age? Or your footwear?')",
+        "small brand line under the logo (max 3 words)",
+        "small Black Friday offer tag"
+      ],
+      "copy_notes": "ANGLE FOR THIS VERSION: Long flights and airport terminals: travel days, swollen feet after flying (winner TOFV1_JW1 \"2026s Favorite Shoes For Traveling\"). ",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "winning_angles",
+        "black_friday"
+      ]
+    }
+  ]
+}

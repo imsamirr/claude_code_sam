@@ -1469,6 +1469,10 @@
     "i4_hsa": {
       "file": "reference/benchmarks/i4_flux_hsa_comment.jpg",
       "use_for": "USER-SENT FORMAT ref 2026-11-19: Flux HSA: shoes on a red running track photo from above, a social comment bubble at top asking about HSA/FSA, big white answer line lower, tiny disclaimer"
+    },
+    "i6_review": {
+      "file": "reference/benchmarks/i6_big_review_bench.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-19: Cuurt \"My 240 lb Body Enjoyed Them.\" huge quote headline, green review strip, person sitting on a bench in context, three icon features row, green offer button"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
