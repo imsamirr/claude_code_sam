@@ -1,0 +1,1 @@
+s0:elevenlabs-direct, s1:elevenlabs-direct, s2:elevenlabs-direct, s3:elevenlabs-direct, s4:elevenlabs-direct, s5:elevenlabs-direct, s6:elevenlabs-direct
