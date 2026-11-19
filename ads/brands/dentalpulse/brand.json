@@ -1023,6 +1023,26 @@
     "rv_pm_ms_paint": {
       "file": "reference/benchmarks/rv_ref_pm_ms_paint.jpg",
       "use_for": "LAYOUT reference only (user-supplied, Nov 11: PAP MD crude MS Paint window: hand-typed caps request, product photos pasted in, crude circle and arrow drawn with the mouse). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_bf_giant_off_pill": {
+      "file": "reference/benchmarks/rv_ref_bf_giant_off_pill.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 19: Sonic BF: huge black 'UP TO 40% OFF' with a green 'BLACK FRIDAY SALE' pill across the number, product + accessory box on light grey). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_bf_days_zero_risk": {
+      "file": "reference/benchmarks/rv_ref_bf_days_zero_risk.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 19: shoe ad: small red 'UP TO 50% OFF' tag, huge '30 DAYS. ZERO RISK.' (second line dark red), italic subline, product lineup, 4 checkmarks, black guarantee bar). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_bf_saying_goodbye": {
+      "file": "reference/benchmarks/rv_ref_bf_saying_goodbye.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 19: shoe ad on black: 'WE ARE SAYING goodbye' + broken heart emoji, two short centered paragraphs, product hero at bottom). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_bf_splash": {
+      "file": "reference/benchmarks/rv_ref_bf_splash.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 19: Sonic BF: product in a blue water splash with bubbles, logo top, white pill 'BLACK FRIDAY SALE' + big white 'UP TO 40% OFF'). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_bf_warehouse_boxes": {
+      "file": "reference/benchmarks/rv_ref_bf_warehouse_boxes.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 19: Orthofit: huge orange 'We ordered way too many.' headline, short paragraphs, orange pill button, warehouse of boxes, open shoe box hero). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
     }
   },
   "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots).",
