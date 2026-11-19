@@ -9,6 +9,8 @@ Engine: `ads/video/build.py` (edit.json → finished MP4s + QA sheet), `ads/vide
 pages for a batch of raw clips). Brand facts, claims and personas come from the brand's
 `brand.json`: read it first, same rules as the `static-ads` skill (claims_to_avoid, women-only, etc.).
 
+**Roles (user, 2026-11-19): StefanBrain directs, Claude produces.** StefanBrain sets the concept, the words and the shot direction (what each shot must show). Claude finds the clips (Drive library, inventory, creators' TikToks), picks in/out points, lays out captions, cuts, renders, QAs and delivers. When no real clip shows what a shot asks for, offer StefanBrain the closest real footage (or ask it for another shot idea) in the same chat; don't change its words to fit the footage.
+
 **Copy rule (user, 2026-11-18, repeated 2026-11-19): StefanBrain writes every caption, always.** On-screen
 captions and script lines, hooks, end-of-video text, Meta primary text and headlines all come from StefanBrain
 (see `CLAUDE.md`), for weekly batches *and* one-off requests (a sale set, a reference the user sends, a

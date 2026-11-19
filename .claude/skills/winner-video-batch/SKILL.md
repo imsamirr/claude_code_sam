@@ -69,7 +69,8 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
    `python ads/stefanbrain.py shortform --brand <brand> --week-dir <week dir>` (reads `_winners/winners.md`,
    every earlier caption, the unused footage in `footage.csv` and the live end-card offer; ~10–20 min;
    writes `<week dir>/stefanbrain_concepts.json`; the key is a network secret on this environment).
-   Then for each concept:
+   StefanBrain directs (concept, captions, what each shot shows); you find the clips and put it all together
+   (user, 2026-11-19). Then for each concept:
    - **Footage**: match every shot to an unused clip (step 5) that shows what the caption says. Swap a
      named clip that `check_batch.py` flags as used for an unused one of the same moment.
    - **Captions verbatim**: use StefanBrain's lines exactly in edit.json (`clip` per script line; one
