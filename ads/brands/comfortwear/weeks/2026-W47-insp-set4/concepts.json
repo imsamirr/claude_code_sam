@@ -1,0 +1,120 @@
+{
+  "week": "2026-W47-insp-set4",
+  "notes": "User 2026-11-19: 5 inspirations, copy by StefanBrain.",
+  "concepts": [
+    {
+      "id": "IV_01_halfprice_grid",
+      "persona": "comfort_only",
+      "colorway": "black_purple",
+      "reference_image": "reference/shoes_six_bestsellers.png",
+      "benchmark": "i4_grid",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee",
+      "angle": "Black Friday six-color lineup sale",
+      "based_on": "Hike 'Half-price comfort / Fall season sale' six-color grid",
+      "copy_slots": [
+        "headline (2-3 words, the reference says 'Half-price comfort')",
+        "sale subline (2-4 words)",
+        "offer pill (e.g. 60% OFF)",
+        "one feature line of 3 short benefit phrases",
+        "bold italic tagline (max 6 words)",
+        "2 small outlined pills (2-3 words each)"
+      ],
+      "copy_notes": "The six colors shown: black/purple, all black, navy/blue, black/white, burgundy red, black/turquoise. No fall-prevention or pain-relief claims.",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "user_inspo_set4"
+      ]
+    },
+    {
+      "id": "IV_02_stop_changing",
+      "persona": "nurse",
+      "colorway": "black_white",
+      "benchmark": "i4_stop",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee",
+      "angle": "Nurse who keeps switching shoes every few months",
+      "based_on": "onecompress 'Stop changing shoes.. Try this' hand-drawn hero",
+      "copy_slots": [
+        "hand-drawn headline in 2 parts, max 6 words total, same rhythm as 'STOP CHANGING SHOES.. TRY THIS'",
+        "small offer pill (max 5 words)"
+      ],
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "user_inspo_set4"
+      ]
+    },
+    {
+      "id": "IV_03_beach_checklist",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "benchmark": "i4_beach",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee",
+      "angle": "Vacation/beach-town walking: comfort for long travel days",
+      "based_on": "Foot sleeves 'Summer foot relief, now for sleep' beach checklist (750,000+ sold, sleep guarantee seal)",
+      "copy_slots": [
+        "headline 2 lines (first word highlighted)",
+        "discount circle (e.g. 60% OFF TODAY)",
+        "4-5 checklist items of foot problems the shoe is built for (1-2 words each)",
+        "social proof line with stars",
+        "round seal text (guarantee)"
+      ],
+      "copy_notes": "Checklist names conditions the shoe is built FOR, never treats/cures. Proof number: 500,000+ (approved). Seal: 30-day money-back guarantee.",
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "user_inspo_set4"
+      ]
+    },
+    {
+      "id": "IV_04_strike_list_nurse",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "i4_strike",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee",
+      "angle": "What a 12-hour shift does to her feet, crossed out",
+      "based_on": "onecompress bamboo socks strike-through list (Peaceful Nights)",
+      "copy_slots": [
+        "5 struck-through problems (2-3 words each)",
+        "green-check outcome line (2-3 words, underlined)",
+        "product line (max 6 words)",
+        "red pill CTA (max 4 words)"
+      ],
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "user_inspo_set4"
+      ]
+    },
+    {
+      "id": "IV_05_hsa_comment",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "benchmark": "i4_hsa",
+      "funnel": "offer",
+      "offer": "HSA/FSA eligible (up to 30% savings if eligible); Black Friday 60% OFF sitewide",
+      "angle": "Year-end HSA/FSA use-it-or-lose-it",
+      "based_on": "Flux/Truemed 'Last-minute ideas for using my HSA/FSA before they expire??' comment bubble",
+      "copy_slots": [
+        "comment bubble question from a customer (max 10 words)",
+        "commenter first name + initial (fictional, e.g. 'maria.r')",
+        "big answer line (max 14 words)",
+        "tiny disclaimer (eligibility may vary)"
+      ],
+      "group": "net_new",
+      "lang": "en",
+      "format_ref": true,
+      "tags": [
+        "user_inspo_set4"
+      ]
+    }
+  ]
+}

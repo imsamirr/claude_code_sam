@@ -1449,6 +1449,26 @@
     "cre_mammoth": {
       "file": "reference/benchmarks/cre_HappyMammoth_biggest_deal.jpg",
       "use_for": "CREATIVE INSPIRATION (Atria 2026-11-18, outside footwear, proven): Happy Mammoth (87 days): real warehouse photo, two product boxes on stacked cardboard, red alarm clock and green starburst \"last 48 hours\" sticker, huge serif \"Our biggest\" with red highlight, black ORDER NOW bar"
+    },
+    "i4_grid": {
+      "file": "reference/benchmarks/i4_hike_halfprice_grid.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-19: Hike \"Half-price comfort\": autumn path, 3x2 grid of six colorways, maroon serif-ish heavy headline, sale subline, white offer pill, one-line feature row with bold italic tagline, two outlined pills at the bottom"
+    },
+    "i4_stop": {
+      "file": "reference/benchmarks/i4_onecompress_stop_changing.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-19: onecompress \"Stop changing shoes.. Try this\": soft cloudy white background, brand top center, huge hand-drawn marker headline left (first word red), one product floating large right, small blue pill offer bottom"
+    },
+    "i4_beach": {
+      "file": "reference/benchmarks/i4_sleeves_beach_checklist.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-19: Foot sleeves beach: real beach photo, product on sand, heavy headline top-left (first word orange), orange discount circle, 2x2 orange-check condition list, stars + units sold line, round guarantee seal"
+    },
+    "i4_strike": {
+      "file": "reference/benchmarks/i4_onecompress_strike_list.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-19: onecompress strike list: dark moody photo of legs wearing the product from the side, right-side list of five problems struck through in red, green check outcome line underlined, brand line, red pill CTA"
+    },
+    "i4_hsa": {
+      "file": "reference/benchmarks/i4_flux_hsa_comment.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-19: Flux HSA: shoes on a red running track photo from above, a social comment bubble at top asking about HSA/FSA, big white answer line lower, tiny disclaimer"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
