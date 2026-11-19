@@ -5,7 +5,7 @@
 **Persona:** Persona 1: hospital nurse on 12-hour shifts (The Shift Survivor) (StefanBrain: Persona 1, hospital nurse on 12-hour shifts ("The Shift Survivor"))
 **Copy:** StefanBrain (copy_source: stefanbrain) · chat chat_6e080f8081644d4db8dc1e7a6ce51a4d · https://stefanbrain.com/chat/6e080f80-8164-4d4d-b8dc-1e7a6ce51a4d
 **StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: A parent's warning / the returned box. Open loop: What the veteran nurse told her daughter at the store counter, and what she wishes someone had told her twenty years ago. Lead type: Secret/prevention lead. Awareness level: Unaware-to-problem-aware for the daughter. One-belief sentence: Hospital tile demands structural standing support and certified slip resistance rather than running foam built for a 5k that packs flat by hour four, so a sixty-dollar shift shoe outperforms one-hundred-sixty-five-dollar runners. Measured character count of primary_text: 12,581 characters. Measured word count of scroll_script: 709 words.
-**Format:** static image + long primary text (11.9k characters measured; brand first named at 85%)
+**Format:** static image + long primary text (11.8k characters measured; brand first named at 85%)
 **Headline:** Why I Made My Daughter Return Her Shoes
 **CTA:** Learn More
 **Landing page:** /pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers
@@ -135,11 +135,11 @@ I stopped right in the middle of the mall corridor.
 
 "A real nursing shoe has to pass six strict tests:
 One: Real structural arch support molded directly into the shoe base that never packs down flat under your body weight.
-Two: Certified slip-resistant grip that holds tight on wet, freshly mopped hospital floors.
+Two: Slip-resistant grip that holds tight on wet, freshly mopped hospital floors.
 Three: A wide toe box that lets your toes spread out naturally without pinching bunions.
-Four: A dense stretch-knit upper that expands as your feet swell throughout the shift, but resists fluid spills and wipes clean easily.
-Five: Lightweight construction under eight ounces, so you are not lifting heavy bricks for twelve hours.
-Six: Durable construction that lasts for years without losing its support."
+Four: A dense stretch-knit upper that expands as your feet swell throughout the shift.
+Five: Lightweight construction, so you are not lifting heavy bricks for twelve hours.
+Six: Built-in structural arch support that does not pack flat."
 
 Emma looked at my checklist. "Does a shoe like that even exist? Or is that just a fantasy?"
 
@@ -209,7 +209,7 @@ New Year Sale (Jan 1 to Jan 15, 2027): Right now, Comfort Wear is running their 
 
 **H4:** Store counter lead: 'Put those right back in the box,' I told my daughter the second she dropped her clinical bag on our kitchen island and started crying.
 
-## Scroll-video script (LF08V, 709 words, StefanBrain)
+## Scroll-video script (LF08V, 711 words, StefanBrain)
 
 The second my twenty-year-old daughter Emma dropped her heavy backpack on the kitchen island and kicked off her shoes, I knew what kind of day she had.
 
@@ -261,9 +261,9 @@ The next morning, we returned the purple box at the mall counter.
 
 Emma asked what on earth she was supposed to wear for clinicals.
 
-A real nursing shoe must pass six tests. It needs structural arch support that never packs flat, certified slip resistance for wet floors, and a wide toe box.
+A real nursing shoe must pass six tests. It needs structural arch support that never packs flat, slip-resistant grip for wet floors, and a wide toe box.
 
-It needs a dense stretch upper that gives when feet swell, lightweight design under eight ounces, and lasting durability.
+It needs a dense stretch upper that gives when feet swell, lightweight design, and built-in arch support that does not pack flat.
 
 The one pair that passed my checklist is the Comfort Wear Ortho Stretch Cushion Shoe.
 

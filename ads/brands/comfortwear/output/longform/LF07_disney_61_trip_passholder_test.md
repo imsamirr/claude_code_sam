@@ -241,7 +241,7 @@ P.S.S.S. If you have a sister, a mother, or a travel partner who always ends up 
 
 Christmas Sale (Dec 6 to Dec 31, 2026): Right now, Comfort Wear is running their Christmas Sale. You get 60% off, plus 2 free gifts when you buy 2 pairs. With 500,000+ customers, doctor and podiatrist recommendations, and an ironclad 30-day money-back guarantee for a full refund within 30 days, there is zero risk. HSA and FSA eligible. This offer ends December 31st. Click Learn More below to order today.
 
-New Year Sale (Jan 1 to Jan 15, 2027): Right now, Comfort Wear is running their New Year Sale. You get 40% off with free shipping to start the new year on pain-free feet. Backed by 500,000+ customers, doctor and podiatrist recommendations, and an ironclad 30-day money-back guarantee for a full refund within 30 days. HSA and FSA eligible. This special offer ends January 15th. Click Learn More below to order now.
+New Year Sale (Jan 1 to Jan 15, 2027): Right now, Comfort Wear is running their New Year Sale. You get 40% off with free shipping to start the new year with real support. Backed by 500,000+ customers, doctor and podiatrist recommendations, and an ironclad 30-day money-back guarantee for a full refund within 30 days. HSA and FSA eligible. This special offer ends January 15th. Click Learn More below to order now.
 
 ## Hook variants (StefanBrain)
 
