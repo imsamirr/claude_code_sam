@@ -4,7 +4,7 @@
 **Angle source:** Aubrey 'Don't waste money' UGC ($20.1k · 1.46); Kyro390 nurse page ($13.0k · 1.66); NurseNotRunners ($13.5k · 1.52); COM225 Spanish scoreboard ($9.6k · 1.80) (90d to 11-18)
 **Persona:** Persona 1: hospital nurse on 12-hour shifts (The Shift Survivor) (StefanBrain: Persona 1, hospital nurse on 12-hour shifts ("The Shift Survivor"))
 **Copy:** StefanBrain (copy_source: stefanbrain) · chat chat_6e080f8081644d4db8dc1e7a6ce51a4d · https://stefanbrain.com/chat/6e080f80-8164-4d4d-b8dc-1e7a6ce51a4d
-**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: A parent's warning / the returned box. Open loop: What the veteran nurse told her daughter at the store counter, and what she wishes someone had told her twenty years ago. Lead type: Secret/prevention lead. Awareness level: Unaware-to-problem-aware for the daughter. One-belief sentence: Hospital tile demands structural standing support and certified slip resistance rather than running foam built for a 5k that packs flat by hour four, so a sixty-dollar shift shoe outperforms one-hundred-sixty-five-dollar runners. Measured character count of primary_text: 12,608 characters. Measured word count of scroll_script: 709 words.
+**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: A parent's warning / the returned box. Open loop: What the veteran nurse told her daughter at the store counter, and what she wishes someone had told her twenty years ago. Lead type: Secret/prevention lead. Awareness level: Unaware-to-problem-aware for the daughter. One-belief sentence: Hospital tile demands structural standing support and certified slip resistance rather than running foam built for a 5k that packs flat by hour four, so a sixty-dollar shift shoe outperforms one-hundred-sixty-five-dollar runners. Measured character count of primary_text: 12,581 characters. Measured word count of scroll_script: 709 words.
 **Format:** static image + long primary text (11.9k characters measured; brand first named at 85%)
 **Headline:** Why I Made My Daughter Return Her Shoes
 **CTA:** Learn More
@@ -19,7 +19,7 @@
 
 ## PRIMARY TEXT
 
-The second my twenty-year-old daughter Chloe dropped her heavy backpack on our kitchen island and kicked off her shoes, I knew exactly what kind of day she had.
+The second my twenty-year-old daughter Emma dropped her heavy backpack on our kitchen island and kicked off her shoes, I knew exactly what kind of day she had.
 
 She did not say hello. She did not take off her winter jacket. She just collapsed into a wooden kitchen chair, pulled both knees up to her chest, and began rubbing the bottom of her right arch with her knuckles. 
 
@@ -31,7 +31,7 @@ One hundred sixty-five dollars for a famous pair of thick, pastel running shoes.
 
 I looked at the shoes on the floor. Then I looked at the box.
 
-"Put them back in the tissue paper, Chloe," I said gently. "We are returning them to the store tomorrow morning."
+"Put them back in the tissue paper, Emma," I said gently. "We are returning them to the store tomorrow morning."
 
 She looked at me like I had lost my mind. "Mom, my clinical instructor wears these. Everyone in my cohort wears these. My feet are just adjusting."
 
@@ -43,7 +43,7 @@ I know that look. I know that limp. And more than anything, I know the brutal co
 
 Hospital floors are concrete poured under vinyl tile. It is the most unforgiving surface on the planet. It has zero give.
 
-And like Chloe, when I was twenty, I thought expensive running shoes were the answer.
+And like Emma, when I was twenty, I thought expensive running shoes were the answer.
 
 I walked her into my bedroom and opened my closet door.
 
@@ -59,7 +59,7 @@ I developed chronic plantar fasciitis in my early thirties. I spent years waking
 
 The worst part was not the physical pain. The worst part was what I missed.
 
-When Chloe was eight years old, her travel soccer team made the state finals. It was a freezing October morning after I had worked three consecutive twelve-hour night shifts. 
+When Emma was eight years old, her travel soccer team made the state finals. It was a freezing October morning after I had worked three consecutive twelve-hour night shifts. 
 
 By the time I drove to the soccer complex, my heels were throbbing so violently that I could not make the walk from the gravel parking lot to the field. 
 
@@ -69,7 +69,7 @@ I sat there crying into my steering wheel because my shoes had failed me.
 
 I swore to myself right then that I would never let my daughter pay that same price.
 
-Standing there in the kitchen, I pulled up a chair next to Chloe and explained why running shoes are the wrong tool for nursing.
+Standing there in the kitchen, I pulled up a chair next to Emma and explained why running shoes are the wrong tool for nursing.
 
 Running shoes are built for a 5k. They are not built for a twelve-hour hospital shift.
 
@@ -95,10 +95,10 @@ A narrow running shoe with a tapered toe box turns into a vice grip. It clamps y
 
 And running shoe tread is designed for dry asphalt. When housekeeping mops a hallway with disinfectant, a running shoe has zero slip resistance. You might as well be walking on wet ice.
 
-Chloe listened quietly as I pulled pair after pair out of my closet graveyard to show her the proof.
+Emma listened quietly as I pulled pair after pair out of my closet graveyard to show her the proof.
 
 Pair One: Dansko Clogs ($195).
-Every nursing professor tells students to buy these clogs. They are rigid, heavy leather with a rock-hard footbed and zero shock absorption. Walking twenty thousand steps in them feels like strapping two wooden bricks to your feet. Lifting two pounds of heavy clog destroys your hip flexors by mid-afternoon. And if a patient suddenly loses their balance and you brace them, a rigid clog rolls your ankle instantly.
+Every nursing professor tells students to buy these clogs. They are rigid, heavy leather with a rock-hard footbed and zero shock absorption. Walking twenty thousand steps in them feels like strapping two wooden bricks to your feet. Lifting two pounds of heavy clog destroys your hip flexors by mid-afternoon. And if a patient suddenly loses their balance and you brace them, a rigid clog rolls your ankle on the spot.
 
 Pair Two: Hoka Bondi ($175).
 Felt heavenly in the shoe store. But that giant stack of squishy foam is an accident waiting to happen. It packs flat by lunch. Because the foam is so tall and squishy, your ankles wobble every time you pivot around a bed. And the tread is flat rubber that slips dangerously on freshly mopped tile.
@@ -115,17 +115,17 @@ The cheapest fix, and the fastest to fail. Memory foam feels wonderful for the f
 Pair Six: Vionic Orthopedic Sneaker ($135).
 Built with a rock-hard plastic arch support mold. But feet swell and change shape during a shift. What felt supportive at 7:00 AM feels like stepping on a golf ball by 4:00 PM, bruising your plantar fascia.
 
-The next morning, I drove Chloe to the store at the mall. 
+The next morning, I drove Emma to the store at the mall. 
 
-She placed the purple box on the counter. The young store clerk looked surprised when Chloe asked for a full refund. 
+She placed the purple box on the counter. The young store clerk looked surprised when Emma asked for a full refund. 
 
 "Did something feel wrong with the fit?" the clerk asked.
 
-Chloe looked at the clerk, then looked at me. 
+Emma looked at the clerk, then looked at me. 
 
-"Everything was wrong with the fit," Chloe said. "They are running shoes. I work a twelve-hour standing shift on concrete."
+"Everything was wrong with the fit," Emma said. "They are running shoes. I work a twelve-hour standing shift on concrete."
 
-The clerk processed the return. As we walked out into the mall corridor with her one hundred sixty-five dollars back on her debit card, Chloe turned to me.
+The clerk processed the return. As we walked out into the mall corridor with her one hundred sixty-five dollars back on her debit card, Emma turned to me.
 
 "Okay, Mom," she said, throwing her hands up. "If every running shoe packs flat, clogs break your hips, and memory foam dies by lunch, what on earth am I supposed to wear for clinicals tomorrow?"
 
@@ -141,7 +141,7 @@ Four: A dense stretch-knit upper that expands as your feet swell throughout the 
 Five: Lightweight construction under eight ounces, so you are not lifting heavy bricks for twelve hours.
 Six: Durable construction that lasts for years without losing its support."
 
-Chloe looked at my checklist. "Does a shoe like that even exist? Or is that just a fantasy?"
+Emma looked at my checklist. "Does a shoe like that even exist? Or is that just a fantasy?"
 
 "It exists," I said. "I found it three years ago after testing everything on 3-East. And I already ordered a pair in your size."
 
@@ -149,13 +149,13 @@ I pulled a pair out of my tote bag. She slipped them on right there on a mall be
 
 Here was the honest first beat: It was not a cartoon miracle. A shoe cannot turn concrete into feathers.
 
-What Chloe felt was instant, grounded alignment. Her heel settled into a firm cup. Her arch stayed upright without hard plastic poking her. Her toes had room to splay. The sole felt firm, stable, and deeply cushioned, not wobbly.
+What Emma felt was grounded alignment. Her heel settled into a firm cup. Her arch stayed upright without hard plastic poking her. Her toes had room to splay. The sole felt firm, stable, and deeply cushioned, not wobbly.
 
 Forty-eight hours later was her next twelve-hour clinical shift on 4-West while I worked on 3-East.
 
 At 7:30 PM, after shift change, I walked out the hospital doors toward the employee parking lot. The November air was cold, and the pavement was slick from an evening drizzle.
 
-Coming down the sidewalk was Chloe in her navy scrubs, stethoscope around her neck.
+Coming down the sidewalk was Emma in her navy scrubs, stethoscope around her neck.
 
 She was not limping. Her shoulders were back.
 
@@ -169,7 +169,7 @@ Not hurt less. They literally do not hurt. My arches stayed up. My toes didn't c
 
 Knowing she will not spend the next twenty years suffering through plantar pain or ruined knees was the best feeling in the world.
 
-EDIT: For every nurse asking which shoe passed my checklist and saved Chloe's clinicals:
+EDIT: For every nurse asking which shoe passed my checklist and saved Emma's clinicals:
 
 The shoe is the Comfort Wear Ortho Stretch Cushion Shoe.
 
@@ -177,7 +177,7 @@ They are on sale for $59.95 (normally $90).
 
 The sixty-dollar Comfort Wear shoe completely outscored the one-hundred-sixty-five-dollar running shoe. 
 
-When Chloe first saw the price, she asked if it was an online scam. I told her the truth: Comfort Wear has over 500,000 customers. They are HSA and FSA eligible, doctor-recommended and podiatrist-recommended, and backed by a full 30-day money-back guarantee. If you wear them on a twelve-hour shift and your feet still hurt, you get a full refund within 30 days.
+When Emma first saw the price, she asked if it was an online scam. I told her the truth: Comfort Wear has 500,000+ customers. They are HSA and FSA eligible, doctor-recommended and podiatrist-recommended, and backed by a full 30-day money-back guarantee. If you wear them on a twelve-hour shift and your feet still hurt, you get a full refund within 30 days.
 
 Right now, Comfort Wear is running their Black Friday Sale. When you buy 2 pairs, you get 2 free gifts: a 3-pack of cushioned socks plus a travel bag. But this Black Friday offer ends December 5th.
 
@@ -211,7 +211,7 @@ New Year Sale (Jan 1 to Jan 15, 2027): Right now, Comfort Wear is running their 
 
 ## Scroll-video script (LF08V, 709 words, StefanBrain)
 
-The second my twenty-year-old daughter Chloe dropped her heavy backpack on the kitchen island and kicked off her shoes, I knew what kind of day she had.
+The second my twenty-year-old daughter Emma dropped her heavy backpack on the kitchen island and kicked off her shoes, I knew what kind of day she had.
 
 She did not say hello. She just collapsed into a chair, pulled both knees to her chest, and began rubbing the bottom of her arch with her knuckles.
 
@@ -237,7 +237,7 @@ Over a thousand dollars of dead shoes. Every single pair failed.
 
 I developed severe heel pain in my thirties. But the worst part was what I missed.
 
-When Chloe was eight, her soccer team made state finals. My heels hurt so badly after three night shifts that I could not walk to the field.
+When Emma was eight, her soccer team made state finals. My heels hurt so badly after three night shifts that I could not walk to the field.
 
 I sat in my minivan crying into the steering wheel, watching my daughter score the winning goal through a chain-link fence.
 
@@ -259,7 +259,7 @@ Dansko clogs are rock-hard wooden bricks that destroy your hips. Tall foam runne
 
 The next morning, we returned the purple box at the mall counter.
 
-Chloe asked what on earth she was supposed to wear for clinicals.
+Emma asked what on earth she was supposed to wear for clinicals.
 
 A real nursing shoe must pass six tests. It needs structural arch support that never packs flat, certified slip resistance for wet floors, and a wide toe box.
 
@@ -269,15 +269,15 @@ The one pair that passed my checklist is the Comfort Wear Ortho Stretch Cushion 
 
 They cost fifty-nine dollars and ninety-five cents. The sixty-dollar shoe completely outscored the one-hundred-sixty-five-dollar runners.
 
-Comfort Wear has over five hundred thousand customers. They are doctor and podiatrist-recommended, health savings account eligible, and backed by a full thirty-day money-back guarantee.
+Comfort Wear has five hundred thousand plus customers. They are doctor and podiatrist-recommended, health savings account eligible, and backed by a full thirty-day money-back guarantee.
 
-I had already ordered a pair in Chloe's size. She slipped them on right there on a mall bench.
+I had already ordered a pair in Emma's size. She slipped them on right there on a mall bench.
 
 Her heel settled into a secure cup. The arch held her upright, and the sole felt firm, grounded, and stable.
 
 Two days later was her next twelve-hour shift.
 
-At seven-thirty that night, I met Chloe in the hospital parking lot. She was walking tall in her navy scrubs.
+At seven-thirty that night, I met Emma in the hospital parking lot. She was walking tall in her navy scrubs.
 
 Mom, she said, smiling. I stood for eleven hours, and my feet do not hurt at all.
 

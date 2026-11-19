@@ -21,7 +21,7 @@
 
 From my kitchen window, I watched my daughter sit in her parked car for twenty minutes before she could stand up.
 
-It was twenty past seven on a cold Tuesday night in late October. Outside our home in western Pennsylvania, a cold autumn rain was tapping against the glass.
+It was twenty past seven on a cold Tuesday night in early November. Outside our home in western Pennsylvania, a cold autumn rain was tapping against the glass.
 
 My daughter Sarah's gray sedan pulled into the gravel driveway. The headlights cut off. The engine died. 
 
@@ -59,7 +59,7 @@ She even tried Dansko clogs for $160. They were rock hard from day one, like str
 
 She tried Vionic for $130, with a rigid molded arch that tried to force her foot into one locked shape. But feet do not hold one shape across sixteen hours of bedside care. They swell.
 
-Aubrey was right when she talked about her closet: $180 for Hokas, $200 for Danskos, $150 for Brooks. All sitting on the floor or thrown in the back of the car, completely useless.
+Sarah had her own painful tally in her closet: $180 for Hokas, $200 for Danskos, $150 for Brooks. All sitting on the floor or thrown in the back of the car, completely useless.
 
 And in her work bag were three sets of fifteen-dollar gel insoles that bunched up under her toes before lunchtime.
 
@@ -186,7 +186,7 @@ I watched her pull into my driveway at seven thirty and sit in the cold car, una
 
 From my kitchen window, I watched my daughter sit in her parked car for twenty minutes before she could stand up.
 
-It was twenty past seven on a cold Tuesday night in late October.
+It was twenty past seven on a cold Tuesday night in early November.
 
 Cold autumn rain tapped against the glass in western Pennsylvania.
 

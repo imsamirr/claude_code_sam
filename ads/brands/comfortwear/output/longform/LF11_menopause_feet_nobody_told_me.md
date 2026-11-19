@@ -25,7 +25,7 @@ I wore a size 8 since my junior year of high school. Thirty years. Same size, sa
 
 Then this past year, right around my forty-eighth birthday, every shoe in my closet turned into torture.
 
-It started with a dull ache across the tops of my feet by lunchtime at the pharmacy where I work. By October, it felt like someone was tightening a vise around my toes by two in the afternoon. 
+It started with a dull ache across the tops of my feet by lunchtime at the pharmacy where I work. By September, it felt like someone was tightening a vise around my toes by two in the afternoon. 
 
 And the mornings were the worst part.
 
@@ -35,7 +35,7 @@ The hardest part was Buster.
 
 He is my four-year-old rescue retriever mix. Every single morning at 6:30 sharp, he would sit by the front door holding his red leash in his mouth, tail wagging, waiting for our two-mile loop through the neighborhood. 
 
-By November, I could not do it anymore. 
+By October, I could not do it anymore. 
 
 I would sit on the bottom step in my thick socks, rubbing my arches, watching him drop the leash and tilt his head. He did not understand why his human could not walk with him down the driveway. I felt old, broken, and completely defeated.
 
@@ -67,7 +67,7 @@ I tried Vionic for $130. They have a rigid molded orthotic that forces your foot
 
 $180 for Hokas, $160 for Danskos, $140 for Brooks. All sitting in my closet, gathering dust.
 
-By the second week of November, I was limping so badly that my store manager asked if I needed to sit on a stool. If you work retail or pharmacy, you know sitting behind the counter is not an option. You are on your feet on that hard floor for the entire shift, no matter how badly your heels throb.
+By the second week of October, I was limping so badly that my store manager asked if I needed to sit on a stool. If you work retail or pharmacy, you know sitting behind the counter is not an option. You are on your feet on that hard floor for the entire shift, no matter how badly your heels throb.
 
 That Friday, I finally booked an appointment with a podiatrist.
 
@@ -141,7 +141,7 @@ That second Saturday morning at 6:30 AM, Buster was waiting by the front door wi
 
 This time, I did not sit on the bottom step and rub my aching heels while he whined.
 
-I laced up my Comfort Wear shoes, grabbed his leash, and opened the door. We walked the full two miles around the neighborhood park in the crisp December air. When we got back home, Buster was happily tired, and my feet felt completely steady.
+I laced up my Comfort Wear shoes, grabbed his leash, and opened the door. We walked the full two miles around the neighborhood park in the crisp November air. When we got back home, Buster was happily tired, and my feet felt completely steady.
 
 A $60 shoe did what the $180 pair sitting in my closet never could. The least expensive pair I bought turned out to be the only one that actually worked.
 
@@ -198,7 +198,7 @@ Then this past year, right around my forty-eighth birthday, every shoe in my clo
 
 It started with a dull ache across my feet by lunchtime at the pharmacy where I work.
 
-By October, it felt like a vise around my toes by two in the afternoon.
+By September, it felt like a vise around my toes by two in the afternoon.
 
 The mornings were even worse.
 
@@ -210,7 +210,7 @@ The hardest part was Buster, my rescue retriever mix.
 
 Every morning at six thirty, he sat by the door waiting for our walk.
 
-By November, I could not walk him anymore.
+By October, I could not walk him anymore.
 
 I sat on the step, rubbing my arches, watching him drop the leash.
 

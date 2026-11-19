@@ -4,8 +4,8 @@
 **Angle source:** Reddit r/AmazonFC, r/retailhell peak-season feet threads; Persona 3 'what about us?' ad comments; 38.5% of buyers are 50–65; peak-season hiring now
 **Persona:** Persona 3: retail / warehouse on concrete (The Concrete Grid Stand-Still) (StefanBrain: Persona 3: Cashier / Retail / Warehouse on Concrete (The Concrete Grid Stand-Still))
 **Copy:** StefanBrain (copy_source: stefanbrain) · chat chat_d37dbcf2d4174523afa28c68202a93ff · https://stefanbrain.com/chat/d37dbcf2-d417-4523-afa2-8c68202a93ff
-**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: Sacrifice for Christmas + humiliation. Open-loop type: The moment the shift supervisor pulled the narrator aside, and what the coworkers on her line did on her last night. Lead type: Story lead. Awareness level: Problem-aware. One-belief sentence: Standing ten hours on bare industrial concrete ruins feet because running shoe foam compresses flat by hour four, but structural built-in arch support and a firm stable sole keep a sixty-year-old woman working pain-free. Measured character count of primary_text: 12957. Measured word count of scroll_script: 716.
-**Format:** static image + long primary text (12.1k characters measured; brand first named at 56%)
+**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: Sacrifice for Christmas + humiliation. Open-loop type: The moment the shift supervisor pulled the narrator aside, and what the coworkers on her line did on her last night. Lead type: Story lead. Awareness level: Problem-aware. One-belief sentence: Standing ten hours on bare industrial concrete ruins feet because running shoe foam compresses flat by hour four, but structural built-in arch support and a firm stable sole keep a sixty-year-old woman working pain-free. Measured character count of primary_text: 12971. Measured word count of scroll_script: 712.
+**Format:** static image + long primary text (12.9k characters measured; brand first named at 52%)
 **Headline:** A Holiday Warehouse Job At 61
 **CTA:** Learn More
 **Landing page:** /pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers
@@ -23,15 +23,15 @@ By three in the morning on my third night at the Groveport fulfillment center, t
 
 I was sixty-one years old, standing on six inches of sealed industrial concrete, and I was crying behind my safety glasses because my heels hurt so bad I couldn't lift my feet off the floor.
 
-I took the seasonal night shift in early November because my billing clerk job of fourteen years disappeared in April.
+I took that seasonal night shift last November because my billing clerk job of fourteen years disappeared that spring.
 
-My severance ran out in August.
+My severance had run out in August.
 
-I have three grandkids: Liam, who is seven, Chloe, who is four, and baby Nora.
+I have three grandkids: Liam, who was seven, Sadie, who was four, and baby Nora.
 
-Their mother works two jobs as a dental assistant, and their father walked out two years ago.
+Their mother was working two jobs as a dental assistant, and their father had walked out two years earlier.
 
-I promised myself that Christmas morning was not going to be empty for those babies just because their grandmother lost her office desk.
+I had promised myself that Christmas morning wasn't going to be empty for those babies just because their grandmother lost her office desk.
 
 So I put on my coat, signed up for the peak holiday rush, and took the night shift from six in the evening to four-thirty in the morning.
 
@@ -51,7 +51,7 @@ By hour four, walking feels like grinding broken glass into your heels.
 
 By hour seven, you're not walking. You're shuffling.
 
-The two young men on my packing lane, Tyler and Marcus, noticed it on my third shift.
+The two young men on my packing lane, Tyler and Devon, noticed it on my third shift.
 
 They were young enough to be my grandsons, wearing backwards baseball caps, practically jogging between the conveyor belts.
 
@@ -69,7 +69,7 @@ Tyler saw it.
 
 He walked over without saying a word, lifted the forty-pound tote onto my table, and scanned the barcode for me.
 
-Ten minutes later, Marcus carried my next tote.
+Ten minutes later, Devon carried my next tote.
 
 They were trying to protect an older woman from getting called out for falling behind quota.
 
@@ -99,13 +99,13 @@ I was basically standing barefoot on concrete.
 
 I told Danica I couldn't afford to lose this job.
 
-I told her about Liam, Chloe, and Nora.
+I told her about Liam, Sadie, and Nora.
 
 Danica took a breath and pointed toward the lockers.
 
-"Talk to Brenda on Line 4 before you clock out," Danica said. "She's sixty-two. She's worked peak for five seasons. If she can survive sixty hours a week on this concrete, you can too. But you have to fix what's on your feet."
+"Talk to Donna on Line 4 before you clock out," Danica said. "She's sixty-two. She's worked peak for five seasons. If she can survive sixty hours a week on this concrete, you can too. But you have to fix what's on your feet."
 
-That morning, before I talked to Brenda, I tried what everyone online recommends.
+That morning, before I talked to Donna, I tried what everyone online recommends.
 
 I fell into the exact same expensive trap that ruins thousands of working women.
 
@@ -161,23 +161,23 @@ And my feet were still screaming.
 
 By the end of my second week, I was ready to quit.
 
-On Friday morning, I ran into Brenda by the metal lockers.
+On Friday morning, I ran into Donna by the metal lockers.
 
-Brenda is sixty-two, with silver hair pulled back in a hairnet, looking fresh after a ten-hour shift.
+Donna is sixty-two, with silver hair pulled back in a hairnet, looking fresh after a ten-hour shift.
 
 She saw me sitting on the metal bench, gripping my calf, fighting back tears.
 
-"Linda," Brenda said, sitting down next to me. "Danica told me you were struggling. Look down at my feet."
+"Linda," Donna said, sitting down next to me. "Danica told me you were struggling. Look down at my feet."
 
 She was wearing clean, stylish black sneakers with white soles.
 
-"I work sixty hours a week during peak season," Brenda said. "I walk twelve miles a night on this concrete. If I wore running shoes or clogs, I'd be in an orthopedic bed by Thanksgiving. Running shoes are made for a runner in a 5k, not a sixty-year-old woman standing ten hours on concrete."
+"I work sixty hours a week during peak season," Donna said. "I walk twelve miles a night on this concrete. If I wore running shoes or clogs, I'd be flat on my back on the couch by Thanksgiving. Running shoes are made for a runner in a 5k, not a sixty-year-old woman standing ten hours on concrete."
 
-Brenda pulled a scrap of paper from her pocket and wrote down five words.
+Donna pulled a scrap of paper from her pocket and wrote down five words.
 
 Comfort Wear Ortho Stretch Cushion Shoe.
 
-"Look them up today," Brenda said.
+"Look them up today," Donna said.
 
 I looked at the scrap of paper and hesitated.
 
@@ -187,21 +187,21 @@ I know better than to buy shoes off internet ads.
 
 Half of them are fly-by-night companies that ship cheap plastic trash from a shipping container four weeks later with zero customer service.
 
-Brenda laughed.
+Donna laughed.
 
-"I thought the exact same thing," Brenda said. "I don't trust internet ads either. But Comfort Wear is a real company with 500,000+ customers. They give you a 30-day money-back guarantee with a full refund within 30 days if your feet don't agree. Podiatrists recommend them, doctors recommend them, and they are HSA and FSA eligible."
+"I thought the exact same thing," Donna said. "I don't trust internet ads either. But Comfort Wear is a real company with 500,000+ customers. They give you a 30-day money-back guarantee with a full refund within 30 days if your feet don't agree. Podiatrists recommend them, doctors recommend them, and they are HSA and FSA eligible."
 
-Brenda pulled her shoe off and handed it to me.
+Donna pulled her shoe off and handed it to me.
 
-"Feel that arch," she said.
+"Feel how this is built," she said.
 
 It was not a flimsy knit sock with a rubber sole glued on.
 
 Cheap knit look-alikes fall apart in two months and give zero support.
 
-The stretch-knit upper was flexible, with structural arch support built directly into the shoe, not an insert that packs flat.
+The stretch-knit upper was flexible, with structural arch support built directly into the base of the shoe, not an insert that packs flat.
 
-The contour held firm under my thumb.
+The arch bridge stayed firm without collapsing under body weight.
 
 The sole was firm-but-flexible and stable, not squishy like wobbly Hoka foam.
 
@@ -209,65 +209,83 @@ The wide toe box gave toes room to spread without pinching bunions, and it was l
 
 "How much are they?" I asked.
 
-Brenda told me they were normally $90, but on sale right now for $59.95: about $60.
+Donna told me they were normally $90, but on sale right now for $59.95: about $60.
 
-I had spent $175 on Hokas that wobbled and $140 on Brooks that tore up my bunion.
+A $60 shoe was doing what my $175 Hokas and $140 Brooks never could.
 
-The $60 shoe outscored the $180 pair on every count: the highest score on my board at the lowest price on it.
+Sixty dollars was holding up to ten hours of warehouse concrete better than nearly a thousand dollars of brand-name running shoes.
 
 I ordered a pair in black that morning.
 
-When the box arrived on my porch, I didn't experience an instant miracle.
+The box was waiting on my front steps when I got home from my Sunday afternoon sleep.
 
-Comfort Wear doesn't make shoes for athletes, and they don't claim to cure medical conditions.
+I took the shoes out of the tissue paper and looked at them.
 
-They make shoes for people whose feet have to survive real life.
+No flashy gimmicks, no thick clown soles.
 
-Built for the shift, not the 5k.
+Just clean, solid shoes built for people who have to earn a living on hard floors.
 
-Not built for a runner, a lab, or a weekend.
+Built for the ten-hour shift, not the 5k track.
 
 Here was my honest first beat:
 
-Monday night, I walked from the gravel parking lot into the turnstiles with zero sharp wincing in my heels.
+Monday night, I laced them up for my shift.
 
-The structural arch held firm, the stable sole absorbed the concrete shock without rolling, and the wide toe box left zero pressure on my bunion.
+Walking from the gravel parking lot into the security turnstiles, my heel didn't send that sharp wincing stab up my leg.
 
-By hour four, when running foam usually packs flat, the arch was still holding.
+Ten hours on industrial concrete is still hard physical labor.
 
-By hour seven, feet swell up to half a size on concrete: the shoe that fit at breakfast feels two sizes smaller by mid-shift.
+By four-thirty in the morning, my muscles were exhausted, but the burning fire in my heels was gone.
 
-With these, the stretch-knit upper gave as my feet swelled, without squeezing my bunion.
+The structural arch had held its ground all night without pancaking flat.
 
-At four-thirty in the morning, when the shift horn blew, I scanned my final box.
+By hour seven, ten hours on concrete will puff your feet up like bread dough.
 
-I walked down the packing lane past Tyler and Marcus, carrying my own boxes.
+In my old sneakers, the laces felt like wire cutting into the tops of my feet.
 
-When I reached my car in the gravel lot, I realized something that made me smile:
+With these, the stretch-knit upper gave naturally with my foot, without squeezing my bunion.
+
+I walked out past Tyler and Devon, carrying my own totes.
+
+It got better shift by shift as my feet adapted to real support.
+
+By the middle of my second week, my plantar fascia had settled down because the arch wasn't collapsing under my weight.
+
+By week three, when the four-thirty horn blew, I walked through the security gates, out into the cold dawn air, and across the asphalt to my sedan with a normal stride.
+
+I unlocked the door, sat down, and realized something that made me smile:
 
 My heels were not throbbing.
 
 Not hurt less. Didn't hurt.
 
-For the first time all month, I didn't have to sit on my bumper to pull my shoes off.
+I didn't have to unlace my sneakers in the front seat just to drive home without crying.
 
-I woke up the next afternoon without gripping the nightstand for my first steps.
+I finished that entire peak season at Groveport.
 
-I finished peak season at Groveport: four weeks of ten-hour shifts on sealed concrete, and the structural arch never packed flat.
+Four weeks of ten-hour shifts on sealed industrial concrete, and the structural arch support never packed flat.
 
 The slip-resistant sole gripped slick lanes, and the knit upper didn't tear.
 
-On my last night, Danica handed me my pay envelope with my overtime bonus.
+On my last night before Christmas Eve, Danica handed me my pay envelope with my overtime bonus.
 
-Tyler and Marcus walked up before shift ended and handed me a card signed by the whole crew with chocolates.
+Tyler and Devon walked up before the shift ended and handed me a card signed by the whole crew with chocolates.
 
 They weren't carrying my boxes anymore.
 
 They treated me like an equal who had stood shoulder to shoulder with them through the hardest rush of the year.
 
-The next morning, I pushed a full cart down the toy aisle: building blocks for Liam, a dollhouse for Chloe, and a musical bear for baby Nora.
+The next morning, I pushed a full cart down the toy aisle: building blocks for Liam, a dollhouse for Sadie, and a musical bear for baby Nora.
 
 Every gift paid for in full, with money I earned on my own two feet.
+
+Now it's mid-November again.
+
+Peak season hiring is starting back up at Groveport, and yesterday I signed my contract for a second holiday run.
+
+This time, I'm not dreading the concrete.
+
+Those same Comfort Wear shoes are sitting by my front door, ready for another four weeks of night shifts.
 
 If you work long shifts on concrete, retail tile, or hard floors, stop wasting your money on running shoes and clogs that leave your feet broken.
 
@@ -289,7 +307,7 @@ They have 500,000+ customers, are doctor-recommended and podiatrist-recommended,
 
 Click the link below to claim 60% off before the Black Friday Sale ends on December 5th.
 
-P.S. If you want to see why your current shoes are failing you, try this quick test: take your thumb and press it hard into the center of your shoe's arch. If it squishes flat like a kitchen sponge, that is what happens under your full body weight after two hours on concrete. Comfort Wear has structural arch support built right into the shoe that never packs flat.
+P.S. Try this quick check when you pull your work shoes off tonight: look at the deep red indentation ring your socks leave around your ankles. If your feet are swelling over the shoe collar by hour five, your shoes are squeezing your foot into a tight box while the foam underneath pancakes flat. Comfort Wear gives your foot room to expand naturally while the structural base stays solid all shift long.
 
 P.S. With 60% off through December 5th, this is the best time to order a second pair for errands, or to gift a pair to a daughter, coworker, or friend who spends her shifts on her feet.
 
@@ -314,25 +332,25 @@ But by my third ten-hour shift on bare warehouse concrete, my heels burned so ba
 **H4:** Hook Type: Financial Frustration / Skepticism | I spent over nine hundred dollars on running shoes and clogs trying to survive ten-hour warehouse shifts on bare concrete.
 By 3:00 AM on my third night, two twenty-two-year-old boys were still carrying my boxes because my feet were completely broken down.
 
-## Scroll-video script (LF14V, 716 words, StefanBrain)
+## Scroll-video script (LF14V, 739 words, StefanBrain)
 
 By three in the morning on my third night at the warehouse, two twenty-two-year-old boys started carrying my tote bins so my scanner would not flash red.
 
 I was sixty-one, standing on sealed industrial concrete. I was crying behind my safety glasses because my heels hurt so bad I could not lift my feet.
 
-I took the seasonal night shift in November because my billing clerk job disappeared in April.
+I took that seasonal night shift last November because my billing clerk job disappeared that spring.
 
 I promised myself Christmas morning was not going to be empty for my three grandkids just because their grandmother lost her office desk.
 
 Ten hours a night, four nights a week, twenty thousand steps on bare concrete. Concrete has zero give. Every step drives body weight straight up through the heel.
 
-Tyler and Marcus, two kids young enough to be my grandsons, saw my knees buckle. Tyler carried my tote onto my table, and Marcus carried the next.
+Tyler and Devon, two kids young enough to be my grandsons, saw my knees buckle. Tyler carried my tote onto my table, and Devon carried the next.
 
 They were protecting an older woman from falling behind quota. It broke my heart to be carried.
 
-During break, Danica, the supervisor, called me in. She saw me dragging my leg on camera and pointed me to Brenda on Line four.
+During break, Danica, the supervisor, called me in. She saw me dragging my leg on camera and pointed me to Donna on Line four.
 
-Brenda is sixty-two, working her fifth peak season on concrete.
+Donna is sixty-two, working her fifth peak season on concrete.
 
 Desperate to keep working, I built an expensive graveyard of failed shoes in my closet.
 
@@ -354,39 +372,41 @@ Hokas for one hundred seventy-five dollars rolled side to side on concrete.
 
 I spent nine hundred dollars on shoes, and my feet were still screaming.
 
-On Friday, Brenda saw me sitting by the lockers fighting back tears.
+On Friday, Donna saw me sitting by the lockers fighting back tears.
 
 She said every new worker wears running shoes until their arches get ruined. Running shoes are made for a race, not concrete shifts.
 
 Then she wrote five words on a paper scrap: Comfort Wear Ortho Stretch Cushion Shoe.
 
-Brenda showed me Comfort Wear has over five hundred thousand customers and a thirty-day money-back guarantee with a full refund.
+Donna showed me Comfort Wear has over five hundred thousand customers and a thirty-day money-back guarantee with a full refund.
 
-She handed me her shoe. Structural arch support was built directly into the shoe, holding firm under my thumb.
+She handed me her shoe. Structural arch support was built directly into the base of the shoe, holding steady without collapsing.
 
 The sole was firm and stable, steady underfoot, not squishy like wobbly foam. The wide toe box gave toes room to spread.
 
-They were on sale for fifty-nine dollars and ninety-five cents. The sixty-dollar shoe outscored the one hundred eighty-dollar pair on every count.
+They were on sale for fifty-nine dollars and ninety-five cents. A sixty-dollar shoe was doing what one hundred eighty-dollar pairs never could.
 
 I ordered a pair that morning. Comfort Wear makes shoes for real life: built for the shift, not the run.
 
-Monday night, I walked from the gravel lot into the turnstiles with zero sharp wincing in my heels.
+Monday night, I walked from the gravel lot into the turnstiles without that sharp wincing stab in my heel.
 
-The structural arch held firm, and the stable sole absorbed the concrete shock without rolling.
+Ten hours on concrete was still hard work, but the burning fire in my heels was gone.
 
 By hour four, the arch was still holding. The stretch-knit upper gave as my feet swelled, without squeezing my bunion.
 
-When the horn blew at four-thirty, I walked to my car carrying my own boxes all night long.
+It got better shift by shift as my arches adapted to real support.
+
+By week three, when the horn blew at four-thirty, I walked to my car carrying my own boxes all night long.
 
 My heels were not throbbing. Not hurt less. Did not hurt.
 
 I finished peak season at the warehouse: four weeks on concrete, and the arch never packed flat.
 
-On my last night, Danica handed me my pay envelope with my overtime bonus.
-
-Tyler and Marcus handed me a card from the whole crew. They treated me like an equal who stood shoulder to shoulder with them.
+Danica handed me my pay envelope with my overtime bonus. Tyler and Devon gave me a card from the whole crew.
 
 The next morning, I pushed a full cart down the toy aisle, paying with money earned on my own two feet.
+
+Now it is November again. I just signed up for my second season, ready for four weeks of shifts.
 
 Your feet are not wrecked from walking. They are wrecked from standing still. Running foam packs flat by hour four on concrete.
 

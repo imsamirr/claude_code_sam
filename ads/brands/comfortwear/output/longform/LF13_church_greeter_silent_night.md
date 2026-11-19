@@ -4,8 +4,8 @@
 **Angle source:** User request 2026-11-11; 46.5% of buyers are 65+; church and volunteering moments in the survey; plantar fasciitis is the #1 question in ad comments
 **Persona:** Persona 9: active retiree 65+ (The Daily Mile Reclaimer) (StefanBrain: Persona 9: Active Retiree 65+ (The Daily Mile Reclaimer))
 **Copy:** StefanBrain (copy_source: stefanbrain) · chat chat_d37dbcf2d4174523afa28c68202a93ff · https://stefanbrain.com/chat/d37dbcf2-d417-4523-afa2-8c68202a93ff
-**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: A quiet public moment of giving in (silent surrender). Open-loop type: Who noticed the narrator sit down, and what that person said or did. Lead type: Story lead. Awareness level: Problem-aware. One-belief sentence: Older women don't need athletic running foam that rolls on uneven ground or rigid clogs that batter knees. They need stable, structural arch support and flexible knit that survives standing still on real floors. Measured character count of primary_text: 12981. Measured word count of scroll_script: 701.
-**Format:** static image + long primary text (12.1k characters measured; brand first named at 54%)
+**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: A quiet public moment of giving in (silent surrender). Open-loop type: Who noticed the narrator sit down, and what that person said or did. Lead type: Story lead. Awareness level: Problem-aware. One-belief sentence: Older women don't need athletic running foam that rolls on uneven ground or rigid clogs that batter knees. They need stable, structural arch support and flexible knit that survives standing still on real floors. Measured character count of primary_text: 12978. Measured word count of scroll_script: 708.
+**Format:** static image + long primary text (12.9k characters measured; brand first named at 51%)
 **Headline:** Why I Sat Down During Silent Night
 **CTA:** Learn More
 **Landing page:** /pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer
@@ -89,9 +89,9 @@ I was wrong.
 
 Someone standing four pews ahead turned around in the candlelight, looked right at me, and saw the whole thing.
 
-Her name is Sarah.
+Her name is Rachel.
 
-Sarah is thirty-four, and she works as an emergency room nurse over at Maury Regional hospital.
+Rachel is thirty-four, and she works as an emergency room nurse over at the hospital in town.
 
 She didn't say a word that night.
 
@@ -125,7 +125,7 @@ Lifting that heavy rigid sole made my knees hurt more than my feet.
 
 I tried Birkenstock cork sandals for $110 around the house.
 
-The cork takes your foot shape and none of its impact, and because they are backless, toes clench all day trying to keep them on.
+The cork took my foot shape and none of its impact, and because they are backless, toes clench all day trying to keep them on.
 
 Then I bought Vionic shoes for $130.
 
@@ -165,7 +165,7 @@ I was over eight hundred dollars in the hole, and I still couldn't stand for twe
 
 By late January, I was ready to resign from the greeting committee after thirty-one years.
 
-That Sunday in the fellowship hall, Sarah walked up while I was pouring decaf coffee.
+That Sunday in the fellowship hall, Rachel walked up while I was pouring decaf coffee.
 
 She looked down at the beige flats I was wearing, then looked me straight in the eyes.
 
@@ -175,13 +175,13 @@ I looked down at my coffee cup and admitted it.
 
 I told her my heels were burning so bad I couldn't bear my own weight, and I told her about the eight pairs of shoes sitting in my closet.
 
-Sarah nodded.
+Rachel nodded.
 
 She looked down at her own feet.
 
 She wore a pair of clean black sneakers with white soles that looked like normal, stylish walking shoes.
 
-"Miss Martha, I do twelve-hour shifts on sealed hospital concrete," Sarah said.
+"Miss Martha, I do twelve-hour shifts on sealed hospital concrete," Rachel said.
 
 "Every new nurse shows up in Hokas or Danskos. By month two, their arches are wrecked because running shoes are made for a runner on a track, not someone standing on hard floors all day. The only shoe that survived my shifts is this one."
 
@@ -189,7 +189,7 @@ She pulled a pen from her purse and wrote the name on a paper napkin.
 
 Comfort Wear Ortho Stretch Cushion Shoe.
 
-"Look them up when you get home," Sarah said.
+"Look them up when you get home," Rachel said.
 
 I looked at the napkin and hesitated.
 
@@ -203,21 +203,21 @@ My neighbor ordered knit shoes off an ad last year: a flimsy knit sock glued to 
 
 Zero support, not for two-hour shifts let alone twelve hours.
 
-Sarah laughed.
+Rachel laughed.
 
-"I had the exact same worry," Sarah said. "I don't trust internet ads either. But Comfort Wear is a real company with 500,000+ customers. They give you a 30-day money-back guarantee with a full refund within 30 days if your feet don't love them. Podiatrists recommend them, doctors recommend them, and they are HSA and FSA eligible."
+"I had the exact same worry," Rachel said. "I don't trust internet ads either. But Comfort Wear is a real company with 500,000+ customers. They give you a 30-day money-back guarantee with a full refund within 30 days if your feet don't love them. Podiatrists recommend them, doctors recommend them, and they are HSA and FSA eligible."
 
-Sarah slipped her shoe off and handed it to me right there by the coat rack.
+Rachel slipped her shoe off and handed it to me right there by the coat rack.
 
-"Feel the arch," she said.
+"Feel how this is built," she said.
 
 It was not a flimsy sock with a sole.
 
-The stretch-knit upper was flexible, but the foundation was solid.
+The stretch-knit upper was flexible, but the foundation was completely solid.
 
-Built directly inside the shoe was structural arch support, not an insert that packs flat.
+Built directly inside the shoe was structural arch support, molded right into the base so there was no foam insert to pack flat or slide around.
 
-The contour held firm under my thumb.
+The arch held steady without caving in.
 
 The sole was firm-but-flexible and stable, steady under your foot, not squishy like wobbly Hoka foam.
 
@@ -225,45 +225,55 @@ The toe box was wide enough for toes to spread out naturally, and it weighed alm
 
 "How much are they?" I asked.
 
-Sarah told me they were normally $90, but on sale for $59.95: about $60.
+Rachel told me they were normally $90, but on sale for $59.95: about $60.
 
-The $60 shoe outscored the $180 pair on every count.
+A $60 shoe was doing what my $165 Hokas and $140 Brooks never could.
 
-The highest score on my board at the lowest price on it.
+Sixty dollars was fixing what nearly a thousand dollars in running shoes and clogs couldn't touch.
 
 I ordered a pair in black that afternoon.
 
-When the box arrived, I didn't experience an instant miracle.
+When the box arrived on my porch that Thursday, I opened it right on the kitchen table.
 
-Comfort Wear doesn't make shoes for athletes.
+I didn't expect a miracle.
 
-They make shoes for people whose feet have to survive real life.
+I'm sixty-eight years old, and I have lived long enough to know shoes don't work magic overnight.
+
+Comfort Wear makes shoes for people whose feet have to survive real life.
 
 Built for the shift, not the 5k.
 
-Not built for a runner, a lab, or a weekend.
+Not built for a runner, a lab, or a weekend jogger.
 
 Here was my honest first beat:
 
-Tuesday morning, I walked down my gravel driveway for the paper.
+Tuesday morning, I slipped them on to walk down my gravel driveway for the paper.
 
-For six months, that gravel walk felt like sharp river rocks.
+My feet were still tender from months of inflammation, but for the first time, my heel didn't feel that sickening stab on the stones.
 
-With these on, my heel hit the ground without a wince.
+The structural arch met my foot and held it firm, the stable sole absorbed the gravel without wobbling, and the wide toe box left zero pressure on my bunion.
 
-The structural arch held firm, the stable sole absorbed the gravel without wobbling, and the wide toe box left zero pressure on my bunion.
-
-The real test was Sunday.
+The real test came on Sunday.
 
 I stood at the double front doors for two hours, greeting eighty-two people.
 
 The slip-resistant grip held the slick terrazzo floor firmly, without my ankles rolling once.
 
-Feet swell up to half a size when you stand all morning: the shoe that fit at breakfast feels two sizes smaller by mid-day.
+By late morning, after three hours on the terrazzo tile, my feet did what older feet always do on hard surfaces: they expanded.
 
-With these, the stretch-knit upper gave as my feet swelled, without squeezing my bunion.
+Normal shoes start biting into your arches like tight bands.
 
-When the organ began the opening hymn, I walked to my pew and reached to lean on the back out of habit.
+With these, the stretch-knit upper gave with my foot, without squeezing my bunion.
+
+When the service ended, my legs were tired from standing, but that sharp burning fire in my heels had quieted down to a dull murmur.
+
+For the first time in a year, I walked down the brick steps and across the church lot to my Buick without having to limp or kick my shoes off before turning the ignition key.
+
+It got better Sunday by Sunday as my feet adjusted to having real structural support under them.
+
+By my third week, the difference was unmistakable.
+
+When the organ began the closing hymn, I walked to my pew and reached to lean on the back out of habit.
 
 And then I stopped.
 
@@ -271,11 +281,7 @@ My heels were not throbbing.
 
 Not hurt less. Didn't hurt.
 
-I stood through the entire service, all four hymns, and the benediction.
-
-For the first time in a year, I walked to my car with a steady, normal stride.
-
-I didn't have to limp or sit on my bumper to take my shoes off.
+I stood through the entire service, all four hymns, and the benediction on two steady feet.
 
 That was ten months ago.
 
@@ -295,7 +301,7 @@ When the sanctuary lights go down low and the brass bells ring out from the loft
 
 I will be standing by the choir rail, holding my white candle high.
 
-Sarah will be standing four pews away, and when the organist strikes the opening chords of "Silent Night," I will be standing on steady feet, singing every single word of all three verses from memory.
+Rachel will be standing four pews away, and when the organist strikes the opening chords of "Silent Night," I will be standing on steady feet, singing every single word of all three verses from memory.
 
 If you have spent hundreds on running shoes, clogs, and fancy foam that left your heels burning, stop wasting your money.
 
@@ -317,7 +323,7 @@ They have 500,000+ customers, they are doctor-recommended and podiatrist-recomme
 
 Click the link below to claim 60% off before the Black Friday Sale ends on December 5th.
 
-P.S. If you want to see why your current shoes are failing you, try this quick test: take your thumb and press it hard into the center of your shoe's arch. If it squishes flat like a kitchen sponge, that is what happens under your full body weight after two hours of standing. Comfort Wear has structural arch support built right into the shoe that never packs flat.
+P.S. If you want to know if your current shoes are failing you, pay attention to the first three steps you take when you stand up after sitting in a pew or your car. If you have to pause, wince, or brace your hands on the armrest before your heels accept your weight, your shoe is letting your arch collapse on hard floors. Comfort Wear holds your arch supported from the second you stand, so those first three steps stay steady.
 
 P.S. With 60% off through December 5th, this is the best time to order a second pair for errands, or to gift a pair to a sister, daughter, or friend who spends her days on her feet.
 
@@ -342,7 +348,7 @@ Not one of them kept me on my feet when the organ started playing "Silent Night"
 **H4:** Hook Type: Sensory Pain / Physical Surrender | By the time the choir started singing "Silent Night," it felt like someone was driving two red-hot roofing nails straight through my heels.
 I knew right then that sixty years of standing through the Christmas Eve candlelight service was over.
 
-## Scroll-video script (LF13V, 701 words, StefanBrain)
+## Scroll-video script (LF13V, 728 words, StefanBrain)
 
 I slipped into the very back row during the opening chord of Silent Night so nobody in the sanctuary would see me sit down.
 
@@ -356,7 +362,7 @@ Standing on hard terrazzo tile over concrete broke my body down. When the music 
 
 I backed into the dark corner of the rear pew, sat down, and blew my candle out while four hundred people stood singing. I thought nobody noticed. I was wrong.
 
-Sarah, an emergency room nurse standing four pews ahead, turned around and saw the whole thing.
+Rachel, an emergency room nurse standing four pews ahead, turned around and saw the whole thing.
 
 Over the next month, I built an expensive graveyard of failed shoes in my closet.
 
@@ -376,33 +382,35 @@ On Cloud shoes for one hundred eighty dollars pinched tight by lunch.
 
 Hokas for one hundred sixty-five dollars rolled side to side on uneven brick. I almost fell.
 
-Late in January, Sarah walked up to me in the fellowship hall. She saw me blow my candle out on Christmas Eve.
+Late in January, Rachel walked up to me in the fellowship hall. She saw me blow my candle out on Christmas Eve.
 
-Sarah does twelve-hour hospital shifts. She said every new nurse wears Hokas until their arches get ruined.
+Rachel does twelve-hour shifts at the hospital in town. She said every new nurse wears Hokas until their arches get ruined.
 
 Then she wrote five words on a paper napkin: Comfort Wear Ortho Stretch Cushion Shoe.
 
 I was wary of online ads. My neighbor bought cheap knit shoes online that turned out to be flimsy socks glued to rubber.
 
-Sarah explained that Comfort Wear has over five hundred thousand customers and a thirty-day money-back guarantee with a full refund.
+Rachel explained that Comfort Wear has over five hundred thousand customers and a thirty-day money-back guarantee with a full refund.
 
-She handed me her shoe to feel. Structural arch support was built right into the base, holding firm under my thumb.
+She handed me her shoe to feel. Structural arch support was molded directly into the base, holding steady without caving in.
 
 The sole was firm and stable, steady underfoot, not squishy like wobbly foam. The wide toe box gave toes room to spread.
 
-They were on sale for fifty-nine dollars and ninety-five cents: about sixty dollars. The sixty-dollar shoe outscored the one hundred eighty-dollar pair on every count.
+They were on sale for fifty-nine dollars and ninety-five cents: about sixty dollars. A sixty-dollar shoe was doing what one hundred eighty-dollar pairs never could.
 
 I ordered a pair that afternoon. Comfort Wear makes shoes for people whose feet have to survive real life. Built for the shift, not the five kilometer run.
 
-Tuesday morning, I walked down my gravel driveway. My heel hit the ground without a wince. The structural arch held firm.
+Tuesday morning, I walked down my gravel driveway. My feet were tender, but my heel hit the ground without that sickening stab.
 
 Sunday was the real test. I stood for two hours, greeting eighty-two people. The grip held the slick tile firmly.
 
-The stretch-knit upper gave as my feet swelled, without squeezing my bunion. When the service began, I reached for the pew out of habit.
+The stretch-knit upper gave as my feet swelled. When the service ended, my legs were tired, but the burning had quieted to a dull murmur.
 
-Then I stopped. My heels were not throbbing. Not hurt less. Did not hurt.
+By my third Sunday, my arches had adjusted to having real support.
 
-I stood through all four hymns, the reading, and the benediction. I walked to my car with a steady stride.
+When the organ began the closing hymn, I walked to my pew and reached for the wood out of habit. Then I stopped.
+
+My heels were not throbbing. Not hurt less. Did not hurt. I stood through the entire service on steady feet.
 
 I have worn them every Sunday since, and the arch has not packed flat.
 

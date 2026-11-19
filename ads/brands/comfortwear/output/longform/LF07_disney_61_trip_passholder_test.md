@@ -4,8 +4,8 @@
 **Angle source:** COM320 Disney test ($15.0k · 1.68 ROAS · $60 CPA, 90d to 11-18); Kyro369v2 test format ($76.2k · 1.38); TeacherTested scoreboard format ($9.4k · 1.69)
 **Persona:** Persona 7: theme-park / Disney walker (The Disney Walker) (StefanBrain: Persona 7, theme-park / Disney walker ("The Disney Walker"))
 **Copy:** StefanBrain (copy_source: stefanbrain) · chat chat_6e080f8081644d4db8dc1e7a6ce51a4d · https://stefanbrain.com/chat/6e080f80-8164-4d4d-b8dc-1e7a6ce51a4d
-**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: Insider expertise / advice I would give my own sister. Open loop: Which pair finished dead last and why, and which pair won the scoreboard. Lead type: Proclamation/test lead. Awareness level: Solution-aware. One-belief sentence: Theme park agony does not come from your age or walking, but from standing still in running shoes tuned for forward sprint rather than structural stability, so a sixty-dollar shift-built shoe outscores one-hundred-eighty-dollar runners. Measured character count of primary_text: 12,771 characters. Measured word count of scroll_script: 716 words.
-**Format:** static image + long primary text (11.9k characters measured; brand first named at 60%)
+**StefanBrain notes (hook, loop, lead, awareness, one belief, length):** Hook type: Insider expertise / advice I would give my own sister. Open loop: Which pair finished dead last and why, and which pair won the scoreboard. Lead type: Proclamation/test lead. Awareness level: Solution-aware. One-belief sentence: Theme park agony does not come from your age or walking, but from standing still in running shoes tuned for forward sprint rather than structural stability, so a sixty-dollar shift-built shoe outscores one-hundred-eighty-dollar runners. Measured character count of primary_text: 12,843 characters. Measured word count of scroll_script: 716 words.
+**Format:** static image + long primary text (12.0k characters measured; brand first named at 60%)
 **Headline:** 61 Park Days: My Honest Shoe Scoreboard
 **CTA:** Learn More
 **Landing page:** /pages/the-5-best-shoes-for-disney
@@ -19,9 +19,9 @@
 
 ## PRIMARY TEXT
 
-If my sister Brenda asks me one more time why I carry a spiral notebook into EPCOT, I am going to make her read page fourteen out loud.
+If my sister Donna asks me one more time why I carry a spiral notebook into EPCOT, I am going to make her read page fourteen out loud.
 
-I am sixty-six years old. I live forty minutes down Interstate 4, and over the last three years Brenda and I logged sixty-one theme park days together.
+I am sixty-six years old. I live forty minutes down Interstate 4, and over the last three years Donna and I logged sixty-one theme park days together.
 
 Mostly in November and December, when holiday crowds pack the walkways and evenings turn chilly.
 
@@ -33,7 +33,7 @@ I spent thirty-one years as an elementary school secretary. I know what being on
 
 By our twelfth trip, my feet were in rough shape. By two in the afternoon, my heels felt bruised to the bone. My left bunion was throbbing. 
 
-Brenda wanted to see the holiday parade. I told her to go ahead without me. I spent forty-five minutes sitting on a cold concrete wall near Liberty Square, rubbing my arches and fighting back tears.
+Donna wanted to see the holiday parade. I told her to go ahead without me. I spent forty-five minutes sitting on a cold concrete wall near Liberty Square, rubbing my arches and fighting back tears.
 
 I felt like dead weight holding my sister back from a trip she paid good money to enjoy.
 
@@ -65,7 +65,7 @@ Shoe Two: Birkenstock Arizona Sandals.
 Price: $110.
 Score: 3 out of 10.
 
-Travel blogs claim the cork footbed molds to your foot. The cork took my foot shape, but it took none of the impact. Walking on hard cork over solid concrete for eight hours feels like pounding your heels against a hardwood floor.
+Travel blogs claim the cork footbed molds to your foot. The cork took my foot shape, but it absorbed zero impact from concrete. Walking on hard cork over solid concrete for eight hours feels like pounding your heels against a hardwood floor.
 
 Plus, they are backless. Every time you step, your toes have to curl and clench to keep the sandal on. By late afternoon, the front of my shins burned from clenching my toes for miles.
 
@@ -97,7 +97,7 @@ Your foot rolls side to side. Your ankles wobble constantly to keep you balanced
 
 When you are sixty-six, stability matters ten times more than squish. A squishy shoe makes you unsteady. I actually watched an older woman trip near Peter Pan because her thick foam sole caught an edge.
 
-On top of that, Hokas weigh almost twice as much as a normal shoe. Lifting all that heavy foam twenty thousand times made my knees ache worse than my feet. And when I crouched down to help Brenda pick up a dropped pin, the tall heel was so wobbly I almost pitched forward onto the pavement.
+On top of that, Hokas weigh almost twice as much as a normal shoe. Lifting all that heavy foam twenty thousand times made my knees ache worse than my feet. And when I crouched down to help Donna pick up a dropped pin, the tall heel was so wobbly I almost pitched forward onto the pavement.
 
 Shoe Six: Vionic Classic Sneaker.
 Price: $130.
@@ -157,7 +157,7 @@ I told myself I was too smart to fall for an online shoe ad.
 
 So before I entered my card, I checked the company.
 
-Over 500,000 customers. 
+500,000+ customers. 
 
 HSA and FSA eligible.
 
@@ -167,11 +167,11 @@ And most important of all: an ironclad 30-day money-back guarantee. If they did 
 
 I ordered a pair in black.
 
-They arrived four days later. I inspected them immediately.
+When the box arrived, I inspected them immediately.
 
 This was not a flimsy knit sock with a sole. 
 
-The upper had real structure and rebound. The toe box was noticeably roomy. When I pressed my thumb into the arch, it did not collapse. The structural arch support was built right into the shoe itself. And the sole was wide, stable, and covered in slip-resistant rubber tread.
+The upper had real structure and rebound. The toe box was noticeably roomy. When I set them on my kitchen counter and pushed down on the heel, the sole stayed rock-steady. The structural arch support was molded directly into the shoe itself. And the sole was wide, stable, and covered in slip-resistant rubber tread.
 
 I slipped my feet in.
 
@@ -197,11 +197,11 @@ In my Hokas, my ankles would have been wobbling and burning from trying to stay 
 
 In the Comfort Wear shoes, the firm-but-flexible sole kept me steady. My arches stayed supported. I was not shifting my weight every twenty seconds just to survive.
 
-By eight-thirty that night, Brenda and I stood at the railing by the World Showcase lagoon, waiting for the fireworks.
+By eight-thirty that night, Donna and I stood at the railing by the World Showcase lagoon, waiting for the fireworks.
 
 Our phones showed 21,418 steps.
 
-Normally, Brenda would be at that railing alone while I sat on a concrete planter eighty yards away, staring at the backs of tourists' coats.
+Normally, Donna would be at that railing alone while I sat on a concrete planter eighty yards away, staring at the backs of tourists' coats.
 
 Instead, I stood right beside my sister. Holding a cup of warm cider. 
 
@@ -229,7 +229,7 @@ Order a pair. Try them on your own feet for thirty full days. With their 30-day 
 
 Click Learn More below to claim the Black Friday discount before it ends on December 5th.
 
-P.S. Take your current walking shoe off right now and do the thumb test. Press your thumb hard into the inside arch. If it squishes flat like a sponge, that is why your heels burn after three hours. The Comfort Wear sole does not crush under pressure.
+P.S. Set your current park sneaker on a flat kitchen counter and give the side of the heel a quick tap. If it rocks back and forth like a wobbly boat, that instability is why your ankles and knees ache after three hours on park pavers. The Comfort Wear sole sits wide, flat, and steady without a hint of roll.
 
 P.S.S. A lot of women buy two pairs to rotate colors between park days and everyday errands. If you have a trip planned this winter, grab yours before the Black Friday sale closes on December 5th.
 
@@ -239,9 +239,9 @@ P.S.S.S. If you have a sister, a mother, or a travel partner who always ends up 
 
 ## Offer swaps by date
 
-Christmas Sale (Dec 6 to Dec 31, 2026): Right now, Comfort Wear is running their Christmas Sale. You get 60% off, plus 2 free gifts when you buy 2 pairs. With over 500,000 customers, doctor and podiatrist recommendations, and an ironclad 30-day money-back guarantee for a full refund within 30 days, there is zero risk. HSA and FSA eligible. This offer ends December 31st. Click Learn More below to order today.
+Christmas Sale (Dec 6 to Dec 31, 2026): Right now, Comfort Wear is running their Christmas Sale. You get 60% off, plus 2 free gifts when you buy 2 pairs. With 500,000+ customers, doctor and podiatrist recommendations, and an ironclad 30-day money-back guarantee for a full refund within 30 days, there is zero risk. HSA and FSA eligible. This offer ends December 31st. Click Learn More below to order today.
 
-New Year Sale (Jan 1 to Jan 15, 2027): Right now, Comfort Wear is running their New Year Sale. You get 40% off with free shipping to start the new year on pain-free feet. Backed by over 500,000 customers, doctor and podiatrist recommendations, and an ironclad 30-day money-back guarantee for a full refund within 30 days. HSA and FSA eligible. This special offer ends January 15th. Click Learn More below to order now.
+New Year Sale (Jan 1 to Jan 15, 2027): Right now, Comfort Wear is running their New Year Sale. You get 40% off with free shipping to start the new year on pain-free feet. Backed by 500,000+ customers, doctor and podiatrist recommendations, and an ironclad 30-day money-back guarantee for a full refund within 30 days. HSA and FSA eligible. This special offer ends January 15th. Click Learn More below to order now.
 
 ## Hook variants (StefanBrain)
 
@@ -253,9 +253,9 @@ New Year Sale (Jan 1 to Jan 15, 2027): Right now, Comfort Wear is running their 
 
 ## Scroll-video script (LF07V, 716 words, StefanBrain)
 
-If my sister Brenda asks me one more time why I carry a spiral notebook into Epcot, I will make her read page fourteen out loud.
+If my sister Donna asks me one more time why I carry a spiral notebook into Epcot, I will make her read page fourteen out loud.
 
-I am sixty-six years old. Over the last three years, Brenda and I logged sixty-one theme park days together.
+I am sixty-six years old. Over the last three years, Donna and I logged sixty-one theme park days together.
 
 Our phones track twenty thousand steps every trip.
 
@@ -263,7 +263,7 @@ On solid concrete, brick pavers, and standing still in fifty-minute lines.
 
 By our twelfth trip, my heels felt bruised by two in the afternoon.
 
-Brenda wanted to see the parade. I spent forty-five minutes sitting on a wall, rubbing my arches and fighting back tears.
+Donna wanted to see the parade. I spent forty-five minutes sitting on a wall, rubbing my arches and fighting back tears.
 
 I felt like dead weight holding my sister back from a trip she paid to enjoy.
 
@@ -313,7 +313,7 @@ The price stopped me in my tracks. Fifty-nine dollars and ninety-five cents.
 
 After spending one hundred seventy-five dollars on Hokas, sixty dollars made me suspicious.
 
-I checked the company. Over five hundred thousand customers. They are doctor and podiatrist-recommended.
+I checked the company. Five hundred thousand plus customers. They are doctor and podiatrist-recommended.
 
 They are health savings account eligible and offer a thirty-day money-back guarantee.
 
@@ -329,11 +329,11 @@ The stretch-knit upper expanded naturally as my feet swelled. No pinching, and n
 
 In line for sixty-five minutes, the firm-but-flexible sole kept me steady. My arches stayed supported.
 
-At eight-thirty that night, Brenda and I stood at the railing waiting for the fireworks.
+At eight-thirty that night, Donna and I stood at the railing waiting for the fireworks.
 
 Our phones showed over twenty-one thousand steps.
 
-Normally, Brenda would be at the railing alone while I sat on a bench.
+Normally, Donna would be at the railing alone while I sat on a bench.
 
 Instead, I stood right beside my sister.
 
