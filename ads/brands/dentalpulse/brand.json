@@ -1063,6 +1063,22 @@
     "approved_BF_05_black_friday_stock": {
       "file": "reference/benchmarks/approved_BF_05_black_friday_stock.png",
       "use_for": "Approved render: copy exactly except the requested change."
+    },
+    "rv_x_wasnt_built_for": {
+      "file": "reference/benchmarks/rv_ref_x_wasnt_built_for.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 19: cuurt: 'YOUR X WEREN'T BUILT FOR Y' headline + subline, 3 product thumbnails row, dark price pill, CTA, product hero lower right over photo). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_x_industry_lies": {
+      "file": "reference/benchmarks/rv_ref_x_industry_lies.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 19: muuv: huge white caps 'INDUSTRY LIES ABOUT YOUR PAIN.' over a full-bleed photo + white rounded question box, small brand bottom-left). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_x_break_into_bf": {
+      "file": "reference/benchmarks/rv_ref_x_break_into_bf.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 19: Pro Compression: 'BREAK INTO BLACK FRIDAY.' headline, products bursting through torn red paper, red offer bar with divider, two trust icons). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_x_strikethrough_ladder": {
+      "file": "reference/benchmarks/rv_ref_x_strikethrough_ladder.jpg",
+      "use_for": "LAYOUT reference only (user-supplied, Nov 19: orange background, product row top, stacked struck-through 30%/40%/50% OFF lines then bold final 60% OFF, serif 'Black Friday Sale.'). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
     }
   },
   "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots).",
