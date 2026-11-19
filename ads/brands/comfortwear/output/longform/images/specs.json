@@ -1,96 +1,296 @@
 {
-  "LF01_A": {
-    "copy": "LF01 Five Days, Five Pairs — hook image (the fireworks bench)",
-    "prompt": "Night at a crowded theme park, photo taken with the iPhone flash from about 10 feet away by her daughter. A heavy-set plus-size woman about 52 (clearly US size 22, round face, heavy arms), tired and a little sad, sits alone on a green park bench wearing white socks; her sneakers are off and sitting empty on the pavement a foot away from her feet. Shopping bags, a plain solid-pink kid's backpack with no characters or prints, a souvenir light-up wand and water bottles piled on her lap and the bench; a folded stroller leaning on the bench. The flash makes her a bit washed out and the background dark; families walking away behind her, a small burst of fireworks far off in the sky. No castle, no logos, no characters. All bags, toys and shoes are plain and unbranded: no cartoon characters, no logos.",
-    "size": "3:4"
-  },
-  "LF01_B": {
-    "copy": "LF01 — alt image (four failed pairs on the hotel carpet)",
-    "prompt": "Taken looking straight down at a beige hotel-room carpet with the corner of a bed and a black rolling suitcase at the edge of the frame. Four pairs of worn women's sneakers lined up in a row, each pair with a strip of masking tape stuck to the carpet in front of it, handwritten in black marker: DAY 1, DAY 2, DAY 3, DAY 4. Day 1: grey slip-on memory foam sneakers. Day 2: chunky thick-soled cushioned running shoes. Day 3: white and black gym sneakers. Day 4: light grey running shoes with a pointed toe. All generic, unbranded, dusty and scuffed. A folded park map and a lanyard lie next to them. Yellow hotel lamp light mixed with the phone's own exposure, a bit grainy.",
-    "size": "3:4"
-  },
-  "LF02_A": {
-    "copy": "LF02 The Shoe Graveyard — hook image (the bin)",
-    "prompt": "A clear plastic storage bin on the stained concrete floor of a cluttered suburban garage, next to a lawnmower and paint cans, photographed from standing height looking down at an angle. The bin is overflowing, shoes piled above the rim, with worn-out women's work sneakers in navy, grey and white plus black clogs. A strip of masking tape across the lid with THE GRAVEYARD handwritten in black Sharpie. Lit by the dull overhead garage bulb and daylight from the open garage door. IMPORTANT about the shoes: every shoe has completely plain, smooth side panels in a single solid color, with no stripes, swooshes, letters, N or S marks, or patterns anywhere. Indoor work shoes: creased, scuffed and worn down, but clean, no mud.",
-    "size": "3:4"
-  },
-  "LF02_B": {
-    "copy": "LF02 — alt image (7:40 a.m. in the parking garage)",
-    "prompt": "Taken from the driver's seat of a car parked in a grey concrete hospital parking garage at dawn. A woman's tired feet in thick white crew socks (closed socks covering every toe, no bare skin on the feet) propped up on the dashboard, her legs in navy blue scrub pants. A hospital ID badge on a lanyard hanging from the rear-view mirror, a takeaway coffee cup in the cupholder. On the passenger-side floor, a pair of chunky cushioned running sneakers kicked off. Pale early light through the garage opening, windshield slightly fogged at the edges, phone exposure a little dark and noisy. IMPORTANT about the shoes: every shoe has completely plain, smooth side panels in a single solid color, with no stripes, swooshes, letters, N or S marks, or patterns anywhere. Indoor work shoes: creased, scuffed and worn down, but clean, no mud.",
-    "size": "3:4"
-  },
-  "LF03_A": {
-    "copy": "LF03 Wish You Were Here — hook image (her café chair at the bottom of the hill, no person)",
-    "prompt": "Taken sitting down at a small round metal café table on the sidewalk at the bottom of a very steep, narrow cobblestone street of small white and black stones in an old Portuguese hillside neighborhood in the early evening. On the table: an untouched glass of red wine and a phone lying face down. Under the table on the cobblestones: a pair of chunky white sneakers kicked off, one on its side, laces loose; nobody is wearing them and no feet are visible. The steep street climbs away toward old stone castle walls on the hilltop in the last daylight; a few small people walking up the hill. Tiled building fronts, laundry on balconies, parked scooters. Ordinary evening light, slightly overexposed sky, no golden glow.",
-    "size": "3:4"
-  },
-  "LF03_B": {
-    "copy": "LF03 — alt image (the 'Wish you were here' text over the view he sent)",
-    "prompt": "Phone photo taken from the top of an old stone castle wall at sunset, looking out over a European city of terracotta rooftops, church domes and a wide river, a man's hand resting on the stone wall in the lower corner. Sky blown out a little by the iPhone, orange and pink clouds, a few other tourists' heads at the edge of the frame. The lower third of the frame is darker rooftops in shadow.",
-    "size": "3:4",
-    "overlay": {
-      "type": "imessage",
-      "time": "Today 7:42 PM",
-      "bubbles": [
-        {
-          "text": "Wish you were here.",
-          "me": false
-        },
-        {
-          "text": "I'm 200 feet below you. In my socks.",
-          "me": true
-        }
-      ]
+ "LF01_A": {
+  "copy": "LF01 Five Days, Five Pairs — hook image (the fireworks bench)",
+  "prompt": "Night at a crowded theme park, photo taken with the iPhone flash from about 10 feet away by her daughter. A heavy-set plus-size woman about 52 (clearly US size 22, round face, heavy arms), tired and a little sad, sits alone on a green park bench wearing white socks; her sneakers are off and sitting empty on the pavement a foot away from her feet. Shopping bags, a plain solid-pink kid's backpack with no characters or prints, a souvenir light-up wand and water bottles piled on her lap and the bench; a folded stroller leaning on the bench. The flash makes her a bit washed out and the background dark; families walking away behind her, a small burst of fireworks far off in the sky. No castle, no logos, no characters. All bags, toys and shoes are plain and unbranded: no cartoon characters, no logos.",
+  "size": "3:4"
+ },
+ "LF01_B": {
+  "copy": "LF01 — alt image (four failed pairs on the hotel carpet)",
+  "prompt": "Taken looking straight down at a beige hotel-room carpet with the corner of a bed and a black rolling suitcase at the edge of the frame. Four pairs of worn women's sneakers lined up in a row, each pair with a strip of masking tape stuck to the carpet in front of it, handwritten in black marker: DAY 1, DAY 2, DAY 3, DAY 4. Day 1: grey slip-on memory foam sneakers. Day 2: chunky thick-soled cushioned running shoes. Day 3: white and black gym sneakers. Day 4: light grey running shoes with a pointed toe. All generic, unbranded, dusty and scuffed. A folded park map and a lanyard lie next to them. Yellow hotel lamp light mixed with the phone's own exposure, a bit grainy.",
+  "size": "3:4"
+ },
+ "LF02_A": {
+  "copy": "LF02 The Shoe Graveyard — hook image (the bin)",
+  "prompt": "A clear plastic storage bin on the stained concrete floor of a cluttered suburban garage, next to a lawnmower and paint cans, photographed from standing height looking down at an angle. The bin is overflowing, shoes piled above the rim, with worn-out women's work sneakers in navy, grey and white plus black clogs. A strip of masking tape across the lid with THE GRAVEYARD handwritten in black Sharpie. Lit by the dull overhead garage bulb and daylight from the open garage door. IMPORTANT about the shoes: every shoe has completely plain, smooth side panels in a single solid color, with no stripes, swooshes, letters, N or S marks, or patterns anywhere. Indoor work shoes: creased, scuffed and worn down, but clean, no mud.",
+  "size": "3:4"
+ },
+ "LF02_B": {
+  "copy": "LF02 — alt image (7:40 a.m. in the parking garage)",
+  "prompt": "Taken from the driver's seat of a car parked in a grey concrete hospital parking garage at dawn. A woman's tired feet in thick white crew socks (closed socks covering every toe, no bare skin on the feet) propped up on the dashboard, her legs in navy blue scrub pants. A hospital ID badge on a lanyard hanging from the rear-view mirror, a takeaway coffee cup in the cupholder. On the passenger-side floor, a pair of chunky cushioned running sneakers kicked off. Pale early light through the garage opening, windshield slightly fogged at the edges, phone exposure a little dark and noisy. IMPORTANT about the shoes: every shoe has completely plain, smooth side panels in a single solid color, with no stripes, swooshes, letters, N or S marks, or patterns anywhere. Indoor work shoes: creased, scuffed and worn down, but clean, no mud.",
+  "size": "3:4"
+ },
+ "LF03_A": {
+  "copy": "LF03 Wish You Were Here — hook image (her café chair at the bottom of the hill, no person)",
+  "prompt": "Taken sitting down at a small round metal café table on the sidewalk at the bottom of a very steep, narrow cobblestone street of small white and black stones in an old Portuguese hillside neighborhood in the early evening. On the table: an untouched glass of red wine and a phone lying face down. Under the table on the cobblestones: a pair of chunky white sneakers kicked off, one on its side, laces loose; nobody is wearing them and no feet are visible. The steep street climbs away toward old stone castle walls on the hilltop in the last daylight; a few small people walking up the hill. Tiled building fronts, laundry on balconies, parked scooters. Ordinary evening light, slightly overexposed sky, no golden glow.",
+  "size": "3:4"
+ },
+ "LF03_B": {
+  "copy": "LF03 — alt image (the 'Wish you were here' text over the view he sent)",
+  "prompt": "Phone photo taken from the top of an old stone castle wall at sunset, looking out over a European city of terracotta rooftops, church domes and a wide river, a man's hand resting on the stone wall in the lower corner. Sky blown out a little by the iPhone, orange and pink clouds, a few other tourists' heads at the edge of the frame. The lower third of the frame is darker rooftops in shadow.",
+  "size": "3:4",
+  "overlay": {
+   "type": "imessage",
+   "time": "Today 7:42 PM",
+   "bubbles": [
+    {
+     "text": "Wish you were here.",
+     "me": false
+    },
+    {
+     "text": "I'm 200 feet below you. In my socks.",
+     "me": true
     }
-  },
-  "LF04_A": {
-    "copy": "LF04 Christmas Morning From the Couch: hook image (the photo grandma posted)",
-    "size": "3:4",
-    "prompt": "Christmas morning in an ordinary American living room, photo taken by a grandmother standing near the hallway. In the foreground on the carpet, two kids (a boy about 6 and a girl about 12) in pajamas tearing open presents in piles of wrapping paper next to a decorated Christmas tree; a dad on his knees putting batteries into a toy. In the back of the frame, on the couch, a tired woman of about 45 still wearing navy blue hospital scrubs and a hospital ID badge, sitting slumped with both bare feet in a large metal mixing bowl of ice water on the rug, watching the kids from a distance with a tired half-smile. Morning window light mixed with yellow lamp light and tree lights, a little cluttered, coffee mugs on the side table. Plain unbranded toys and boxes, no characters or logos."
-  },
-  "LF04_B": {
-    "copy": "LF04 alt image (7:50 a.m. Christmas morning in the hospital garage)",
-    "size": "3:4",
-    "prompt": "Taken from the driver's seat of a car parked in a concrete hospital parking garage just after dawn on Christmas morning. On the passenger seat: a pair of worn white and grey mesh work sneakers, the kind nurses wear, taken off, a hospital ID badge on a lanyard, and a small gift wrapped in red paper with a bow. A tiny Santa-hat air freshener hangs from the rear-view mirror. Pale early light through the garage opening, slightly dark and noisy phone exposure. IMPORTANT about the shoes: plain smooth side panels in a single solid color with no stripes, swooshes, letters or logos. Shot looking down at the passenger seat so only the edge of a plain steering wheel is visible; the steering wheel center pad is smooth and completely blank, with no emblem, badge or logo, and nothing on the dashboard carries a brand."
-  },
-  "LF01_C": {
-    "copy": "LF01: swollen feet after a park day",
-    "prompt": "Looking down at a heavy-set woman's swollen feet and ankles propped on a hotel bedspread at night, deep red sock-line indentations around her ankles, a bit of puffiness over the tops of the feet, white socks pulled off and tossed beside them, a theme-park lanyard and a phone charging on the nightstand, a bag of ice from the hotel ice machine leaning against one ankle. Lamp light, slightly yellow. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
-    "size": "3:4"
-  },
-  "LF01_D": {
-    "copy": "LF01: payoff, up front at the fireworks",
-    "prompt": "Warm humid Florida night in spring, everyone in T-shirts, shorts and tank tops. Photo taken from slightly behind and to the side: a heavy-set plus-size woman in her 50s (clearly US size 22, wearing a loose T-shirt and capri pants) standing in the front row of a big crowd, holding a little girl about 6 on her hip, both looking up at colorful fireworks bursting in the night sky over palm trees, families around them with phones up recording. Phone night mode, a bit grainy. No castle, no characters, no logos. Any shoes have plain smooth side panels with no logos.",
-    "size": "3:4"
-  },
-  "LF02_C": {
-    "copy": "LF02: the mopped corner by bay six, 4 a.m.",
-    "prompt": "A hospital hallway corner at 4 a.m., freshly mopped floor still shiny and wet, a yellow plastic wet-floor caution sign (no readable text) standing near the corner, a crash cart parked against the wall, fluorescent lights reflecting on the wet linoleum, an empty IV pole. Taken quickly from waist height by a nurse, slightly tilted. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
-    "size": "3:4"
-  },
-  "LF02_D": {
-    "copy": "LF02: the pre-shift ritual in the car, 6:45 p.m.",
-    "prompt": "Inside a parked car at dusk in a hospital parking garage, a woman's hand in navy scrub sleeve holding two plain white pills over the cupholder, a large takeaway coffee cup, a hospital ID badge on a lanyard on the passenger seat, the dashboard clock area visible but no readable text. Dim garage lighting, a bit noisy. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
-    "size": "3:4"
-  },
-  "LF03_C": {
-    "copy": "LF03: swollen ankles on the long flight",
-    "prompt": "Looking down in an airplane economy seat footwell during a night flight: a woman's swollen ankles and feet squeezed into grey memory-foam slip-on sneakers, the tops of her feet puffing over the edges, a travel pillow and a small backpack shoved under the seat in front, a seatback tray with a plastic cup of water. Dim cabin lighting, blue reading-light cast, grainy. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
-    "size": "3:4"
-  },
-  "LF03_D": {
-    "copy": "LF03: payoff, at the top of the castle wall",
-    "prompt": "Photo taken by a tourist from a few steps behind: an older couple in their 60s, a woman with short silver hair in a cream cardigan and a man in a windbreaker, standing at the stone wall of an old castle at sunset with their arms around each other, looking out over terracotta rooftops and a river glowing orange, other tourists at the edges of the frame. Their backs to the camera. Ordinary phone sunset exposure, a little blown out. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
-    "size": "3:4"
-  },
-  "LF04_C": {
-    "copy": "LF04: payoff, pancakes at 7:50 a.m.",
-    "prompt": "An ordinary American kitchen at 7:50 in the morning: a woman of about 45 still in navy blue scrubs and a hospital ID badge standing at the stove flipping pancakes in a pan, a 12-year-old girl in pajamas leaning in the doorway holding a bottle of syrup, smiling a little, a 6-year-old boy at the kitchen table. Morning window light, dishes in the sink, kids' backpacks on chairs. Taken from the kitchen table by someone sitting down. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
-    "size": "3:4"
-  },
-  "LF04_D": {
-    "copy": "LF04: standing on the soccer sideline",
-    "prompt": "A kids' soccer game on a grassy field on a cool spring evening, photo taken from behind a woman of about 45 standing on the sideline in a puffy jacket over navy scrub pants, arms crossed, cheering, other parents sitting in folding chairs around her, little kids in bright jerseys running after the ball in the background. Ordinary phone photo, slightly overcast sky. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
-    "size": "3:4"
+   ]
   }
+ },
+ "LF04_A": {
+  "copy": "LF04 Christmas Morning From the Couch: hook image (the photo grandma posted)",
+  "size": "3:4",
+  "prompt": "Christmas morning in an ordinary American living room, photo taken by a grandmother standing near the hallway. In the foreground on the carpet, two kids (a boy about 6 and a girl about 12) in pajamas tearing open presents in piles of wrapping paper next to a decorated Christmas tree; a dad on his knees putting batteries into a toy. In the back of the frame, on the couch, a tired woman of about 45 still wearing navy blue hospital scrubs and a hospital ID badge, sitting slumped with both bare feet in a large metal mixing bowl of ice water on the rug, watching the kids from a distance with a tired half-smile. Morning window light mixed with yellow lamp light and tree lights, a little cluttered, coffee mugs on the side table. Plain unbranded toys and boxes, no characters or logos."
+ },
+ "LF04_B": {
+  "copy": "LF04 alt image (7:50 a.m. Christmas morning in the hospital garage)",
+  "size": "3:4",
+  "prompt": "Taken from the driver's seat of a car parked in a concrete hospital parking garage just after dawn on Christmas morning. On the passenger seat: a pair of worn white and grey mesh work sneakers, the kind nurses wear, taken off, a hospital ID badge on a lanyard, and a small gift wrapped in red paper with a bow. A tiny Santa-hat air freshener hangs from the rear-view mirror. Pale early light through the garage opening, slightly dark and noisy phone exposure. IMPORTANT about the shoes: plain smooth side panels in a single solid color with no stripes, swooshes, letters or logos. Shot looking down at the passenger seat so only the edge of a plain steering wheel is visible; the steering wheel center pad is smooth and completely blank, with no emblem, badge or logo, and nothing on the dashboard carries a brand."
+ },
+ "LF01_C": {
+  "copy": "LF01: swollen feet after a park day",
+  "prompt": "Looking down at a heavy-set woman's swollen feet and ankles propped on a hotel bedspread at night, deep red sock-line indentations around her ankles, a bit of puffiness over the tops of the feet, white socks pulled off and tossed beside them, a theme-park lanyard and a phone charging on the nightstand, a bag of ice from the hotel ice machine leaning against one ankle. Lamp light, slightly yellow. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF01_D": {
+  "copy": "LF01: payoff, up front at the fireworks",
+  "prompt": "Warm humid Florida night in spring, everyone in T-shirts, shorts and tank tops. Photo taken from slightly behind and to the side: a heavy-set plus-size woman in her 50s (clearly US size 22, wearing a loose T-shirt and capri pants) standing in the front row of a big crowd, holding a little girl about 6 on her hip, both looking up at colorful fireworks bursting in the night sky over palm trees, families around them with phones up recording. Phone night mode, a bit grainy. No castle, no characters, no logos. Any shoes have plain smooth side panels with no logos.",
+  "size": "3:4"
+ },
+ "LF02_C": {
+  "copy": "LF02: the mopped corner by bay six, 4 a.m.",
+  "prompt": "A hospital hallway corner at 4 a.m., freshly mopped floor still shiny and wet, a yellow plastic wet-floor caution sign (no readable text) standing near the corner, a crash cart parked against the wall, fluorescent lights reflecting on the wet linoleum, an empty IV pole. Taken quickly from waist height by a nurse, slightly tilted. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF02_D": {
+  "copy": "LF02: the pre-shift ritual in the car, 6:45 p.m.",
+  "prompt": "Inside a parked car at dusk in a hospital parking garage, a woman's hand in navy scrub sleeve holding two plain white pills over the cupholder, a large takeaway coffee cup, a hospital ID badge on a lanyard on the passenger seat, the dashboard clock area visible but no readable text. Dim garage lighting, a bit noisy. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF03_C": {
+  "copy": "LF03: swollen ankles on the long flight",
+  "prompt": "Looking down in an airplane economy seat footwell during a night flight: a woman's swollen ankles and feet squeezed into grey memory-foam slip-on sneakers, the tops of her feet puffing over the edges, a travel pillow and a small backpack shoved under the seat in front, a seatback tray with a plastic cup of water. Dim cabin lighting, blue reading-light cast, grainy. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF03_D": {
+  "copy": "LF03: payoff, at the top of the castle wall",
+  "prompt": "Photo taken by a tourist from a few steps behind: an older couple in their 60s, a woman with short silver hair in a cream cardigan and a man in a windbreaker, standing at the stone wall of an old castle at sunset with their arms around each other, looking out over terracotta rooftops and a river glowing orange, other tourists at the edges of the frame. Their backs to the camera. Ordinary phone sunset exposure, a little blown out. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF04_C": {
+  "copy": "LF04: payoff, pancakes at 7:50 a.m.",
+  "prompt": "An ordinary American kitchen at 7:50 in the morning: a woman of about 45 still in navy blue scrubs and a hospital ID badge standing at the stove flipping pancakes in a pan, a 12-year-old girl in pajamas leaning in the doorway holding a bottle of syrup, smiling a little, a 6-year-old boy at the kitchen table. Morning window light, dishes in the sink, kids' backpacks on chairs. Taken from the kitchen table by someone sitting down. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF04_D": {
+  "copy": "LF04: standing on the soccer sideline",
+  "prompt": "A kids' soccer game on a grassy field on a cool spring evening, photo taken from behind a woman of about 45 standing on the sideline in a puffy jacket over navy scrub pants, arms crossed, cheering, other parents sitting in folding chairs around her, little kids in bright jerseys running after the ball in the background. Ordinary phone photo, slightly overcast sky. Any shoes have plain smooth side panels with no stripes, swooshes, letters or logos. No brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF05_A": {
+  "copy": "hook: shoes off on church steps in Florence",
+  "prompt": "Early November afternoon in an Italian old-town piazza, overcast, wet stone. A tired American woman about 58 in a navy rain jacket and jeans sits on the worn marble steps of an old stone church, her white running sneakers taken off and set beside her, rubbing one socked foot, a crowd of tourists with umbrellas walking past in front of her. Taken by her 20-year-old daughter from a few steps below, a bit crooked. Only the plain stone side of a building, no famous landmark, no domes. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF05_B": {
+  "copy": "cobblestone alley at dusk",
+  "prompt": "A narrow cobblestone alley in an Italian town at dusk in November, wet uneven stones shining under a few warm wall lamps, shuttered windows, a scooter parked by a wall. Photo looking down the alley from waist height; a woman's legs in jeans and a pair of white running sneakers, one ankle visibly rolled on an uneven stone in the foreground. No shop signs or readable text. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF05_C": {
+  "copy": "feet up in the rented apartment",
+  "prompt": "Inside a small rented student apartment in Italy at night: a woman of about 58 sitting on a narrow bed with both swollen bare feet propped up on a pillow, a bag of frozen vegetables on one ankle, a phone and a paper street map with no readable text on the blanket, a small radiator under a window with wooden shutters. Daughter's laundry on a chair. Phone flash, slightly harsh. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF05_D": {
+  "copy": "payoff: mother and daughter on a hill-town lane",
+  "prompt": "Photo from behind of two women walking up a steep stone lane in an Italian hill town on a bright cool November day: a woman about 58 in a camel coat and a 20-year-old daughter in a puffer jacket, arm in arm, laughing, the mother wearing clean light grey knit sneakers. Stone houses, potted plants, a view of hills at the end of the lane. No landmarks. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF06_A": {
+  "copy": "hook: the band director on the curb",
+  "prompt": "Spring afternoon at a large theme park, photo taken by a teenager: a plus-size woman about 52 (around US size 22) in a plain red polo and khaki shorts sits on a curb at the edge of a crowded walkway with a clipboard on her lap, shoes loosened, fanning herself with a paper map with no readable text, while four teenagers in matching plain red T-shirts stand around her looking down at her with worried faces, one holding out a water bottle. Crowds behind, no castle, no characters, no logos. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF06_B": {
+  "copy": "the charter bus seat",
+  "prompt": "Inside a charter bus at night, an aisle seat: a clipboard with a plain roster sheet (no readable text), a lanyard whistle, and a pair of worn black athletic sneakers kicked off on the floor, a plus-size woman's legs in khaki shorts with visibly swollen ankles, teenagers asleep in the seats ahead. Dim reading-light glow, noisy dark phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF06_C": {
+  "copy": "parade-route curb at night",
+  "prompt": "Night on a theme-park parade route: teenagers in matching plain red T-shirts holding instrument cases sitting along a curb, glow from distant parade lights, and a plus-size woman about 52 standing behind them with her hands on her hips, smiling. Flash-lit phone photo, crowds blurred in the dark. No characters, no castle. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF06_D": {
+  "copy": "payoff: the group photo",
+  "prompt": "A big group photo of about 35 high-school band students in matching plain red T-shirts on a sunny plaza with palm trees, cheering with arms up, and in the very middle of the front row a plus-size woman about 52 in a red polo standing tall, grinning, wearing clean black knit sneakers. Taken by a parent on a phone, slightly crooked. No castle, no characters, no logos. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF07_A": {
+  "copy": "hook: the graded closet shelf",
+  "prompt": "A closet shelf at home in Florida with seven pairs of well-worn women's walking shoes and sandals lined up in a row (white running shoes, a clog, a cork sandal, a memory-foam slip-on, a mesh sneaker, a black knit sneaker at the end), each with a strip of blue painter's tape on the toe with a handwritten score number (like 3, 4, 2, 5, 6, 1, 9). Under them a stack of plastic rain ponchos and a sun visor. Overhead closet light, phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF07_B": {
+  "copy": "the hotel bed after a park day",
+  "prompt": "A resort hotel bed at night: a lanyard covered in colorful enamel pins with abstract shapes (no characters), a park map with no readable text, a refillable cup, and a pair of muddy white running sneakers dropped on the floral bedspread, a woman's socked feet with red marks propped on a pillow at the edge of the frame. Lamp light, phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF07_C": {
+  "copy": "rain-poncho day in line",
+  "prompt": "A crowded outdoor queue at a theme park on a rainy afternoon, people in clear plastic ponchos, wet pavement, photo taken from inside the line of two women in their sixties in ponchos from behind, one shifting weight onto one foot. Grey sky, no castle, no characters, no signs with readable text. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF07_D": {
+  "copy": "payoff: two sisters at the night show",
+  "prompt": "Night at a theme park, two women in their sixties (sisters, similar faces) standing at a railing among a crowd watching fireworks far off, both laughing, one in a light cardigan, both wearing clean knit sneakers, an empty bench behind them. Flash phone photo, a little blurry crowd. No castle, no characters. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF08_A": {
+  "copy": "hook: the return at the counter",
+  "prompt": "A kitchen counter in a Midwest home in November: a pair of brand-new chunky white running shoes with thick foam soles sitting on top of their plain white shoebox with the tissue paper, a printed receipt next to it with no readable text, a nursing textbook and a plain teal stethoscope beside them. A woman's hand in navy scrubs pushing the box away. Evening kitchen light, phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF08_B": {
+  "copy": "twenty years of shoes",
+  "prompt": "On a garage floor: an old cardboard box full of worn-out nurse sneakers and clogs in white, grey and navy, soles flattened and cracked, one with a hole at the toe, next to a single brand-new pair of chunky white running shoes. Overhead fluorescent garage light, phone photo looking down. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF08_C": {
+  "copy": "study desk in scrubs",
+  "prompt": "A cramped college student's desk at night: plain navy scrubs folded on the chair, a stethoscope, flash cards, a laptop showing a blank screen, a mug, and a pair of swollen bare feet up on the desk edge in the corner of the frame. Warm lamp light, slightly messy, phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF08_D": {
+  "copy": "payoff: mother and daughter in the hospital lot",
+  "prompt": "Early morning in a hospital parking lot in late fall, photo from behind of two women walking toward the building: a woman about 49 in navy scrubs and a 20-year-old in ceil-blue student scrubs carrying a backpack, both wearing matching clean dark knit sneakers, the mother's arm around the daughter's shoulders. Bare trees, cold breath, no signs with readable text. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF09_A": {
+  "copy": "hook: the badge and reading glasses at the time clock",
+  "prompt": "A hospital staff hallway at 6:55 p.m.: a wall-mounted time clock with a plain screen, a hospital ID badge on a retractable reel and a pair of reading glasses on a beaded chain hanging around the neck of an older woman about 71 in purple scrubs, shot close from her own phone held low, her grey hair at the edge of the frame. Fluorescent light. No readable text on the badge or wall. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF09_B": {
+  "copy": "swollen feet in the car at dawn",
+  "prompt": "Inside a small sedan in a hospital parking lot at dawn in the desert Southwest: an older woman's bare swollen feet on the floor mat beside a pair of worn white nursing shoes, a thermos in the cup holder, pink sky and a mountain silhouette through the windshield. Phone photo, slightly dark and noisy. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF09_C": {
+  "copy": "the granddaughter's drawing on the fridge",
+  "prompt": "A refrigerator door in a modest kitchen covered with magnets and a child's crayon drawing of a grey-haired grandma lying in a hammock under a sun with a little girl, no words written on it, next to school photos. A pair of purple scrubs folded on the counter in the corner of the frame. Morning light, phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF09_D": {
+  "copy": "payoff: walking her granddaughter to the bus",
+  "prompt": "A quiet suburban street in Arizona on a cool sunny morning: photo from behind of an older woman about 71 in a cardigan and slacks walking hand in hand with an 8-year-old girl with a backpack toward a yellow school bus stop, the woman wearing clean grey knit sneakers, a saguaro and gravel yards. No readable text. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF10_A": {
+  "copy": "hook: the carpet circle and tiny chairs",
+  "prompt": "A kindergarten classroom on a November morning: a colorful alphabet-free carpet with a circle of small kids sitting cross-legged, tiny chairs, cubbies with coats, and a teacher about 54 crouching low beside one child to zip a coat, her knee on the carpet. Photo taken by a classroom aide from the doorway. No readable text on posters or walls. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF10_B": {
+  "copy": "shoes kicked off under the reading rug",
+  "prompt": "Close phone photo under a classroom reading nook: a pair of worn black leather clogs kicked off beside a beanbag, a teacher's socked feet with one foot rubbing the other, a pile of picture books with no readable covers, a tiny chair leg. Afternoon window light. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF10_C": {
+  "copy": "recess duty on the blacktop",
+  "prompt": "A school blacktop at recess on a cold November day: small kids in puffy coats running, a teacher about 54 in a long coat and lanyard standing by a painted four-square court holding a whistle and a child's mitten, shifting her weight. Photo from a distance, grey sky. No readable signs. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF10_D": {
+  "copy": "payoff: sitting with the kids, standing up",
+  "prompt": "A kindergarten classroom floor: a teacher about 54 sitting cross-legged on the carpet with five small kids leaning on her reading a picture book with no readable text, wearing clean black knit sneakers, smiling. Photo taken by an aide, warm classroom light, a bit crooked. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF11_A": {
+  "copy": "hook: a closet floor of shoes she can't wear",
+  "prompt": "A bedroom closet floor in winter: eight pairs of nice women's shoes lined up (loafers, ankle boots, flats, white sneakers) with blister bandages stuck inside two heels, a shoebox lid with a size sticker with no readable numbers, a woman about 48 in leggings sitting on the floor in front of them holding one loafer. Overhead closet light, phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF11_B": {
+  "copy": "blister bandages on the bathroom counter",
+  "prompt": "A bathroom counter in the morning: an open box of blister bandages, a few used ones peeled off, a tube of plain unlabeled cream, a hair clip and a coffee mug, a woman's bare foot propped on the closed toilet lid at the edge of the frame with a red mark on the side of the big toe. Bright vanity light, phone photo, plain unlabeled packaging. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF11_C": {
+  "copy": "bare feet on cold tile at dawn",
+  "prompt": "Dark winter morning at the edge of a bed: a woman's bare feet just touching a cold tile bedroom floor, one hand gripping the nightstand, a dog leash and a phone on the nightstand, blue pre-dawn light through the blinds. Phone photo, noisy and dim. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF11_D": {
+  "copy": "payoff: walking the dog again",
+  "prompt": "A suburban sidewalk on a crisp sunny winter morning, frost on the grass: photo from behind of a woman about 48 in a puffer jacket and leggings walking a golden retriever on a leash at a brisk pace, wearing clean light grey knit sneakers. No readable signs. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF12_A": {
+  "copy": "hook: the car in the driveway, through the kitchen window",
+  "prompt": "Night, taken from inside a kitchen through a window over the sink: a small older sedan parked in a snowy driveway with its dome light on, a woman's silhouette sitting still in the driver's seat. Dishes in the sink and a plain dish towel in the foreground, reflection of the kitchen light on the glass. Phone photo, dark and noisy. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF12_B": {
+  "copy": "two gift boxes under the tree",
+  "prompt": "Two identical plain shoe-sized boxes wrapped in red paper with white ribbons under a lit Christmas tree in a modest living room, a cat sitting next to them, ornaments, a knit stocking. Evening, warm lamp light, phone photo. Gift tags blank. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF12_C": {
+  "copy": "the daughter's worn work shoes by the door",
+  "prompt": "A back-door mat at night: a pair of badly worn white work sneakers with crushed heels and grey stains, next to a pair of plain maroon scrub pants folded on a bench and a CNA-style badge reel with no readable text, a snow-wet mat. Overhead light, phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF12_D": {
+  "copy": "payoff: both standing in the kitchen at Christmas",
+  "prompt": "A busy home kitchen on Christmas Day: a woman about 67 and her daughter about 40 standing side by side at the counter, laughing, one carving a ham, the other stirring a pot, both wearing clean knit sneakers, a teen at the table, a decorated window. Taken from the doorway by a family member. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF13_A": {
+  "copy": "hook: shoes slipped off under a pew at candlelight",
+  "prompt": "Christmas Eve candlelight service in a small-town church, view low under a wooden pew: an older woman's sensible black shoes slipped off on the red carpet, her stockinged feet beside them, a small lit white candle in a paper drip guard held in her lap above, rows of people standing in soft candlelight ahead. Dark, noisy phone photo. No crosses, no religious text visible. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF13_B": {
+  "copy": "the church front door at 8:45 a.m.",
+  "prompt": "The front double doors of a small white wooden church on a cold Sunday morning: a stack of folded plain bulletins with no readable text on a small table, a basket, and a woman about 68 in a wool coat standing in the doorway smiling at an arriving family, a blank name tag on her coat. Frost on the steps. No crosses or signs visible. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF13_C": {
+  "copy": "the fellowship-hall kitchen",
+  "prompt": "A church fellowship-hall kitchen after a potluck: foil-covered casserole dishes on a long counter, a coffee urn, paper plates, and a woman about 68 leaning both hands on the counter, lifting one foot off the floor. Fluorescent light, phone photo. No readable text. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF13_D": {
+  "copy": "payoff: standing with a candle during the hymn",
+  "prompt": "Christmas Eve in a small-town church, rows of people standing and holding small lit white candles in the dark: in the middle, a woman about 68 in a red sweater standing straight, candle in hand, eyes glistening, singing. Taken by a family member beside her, warm candle glow, noisy phone photo. No crosses or religious text visible. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF14_A": {
+  "copy": "hook: concrete aisle at shift start",
+  "prompt": "A huge fulfillment-warehouse aisle at night under bright LED lights: tall steel racks, sealed grey concrete floor, yellow painted lines, a rolling cart with empty plain cardboard totes, and a woman about 61 in a hi-vis safety vest over a sweatshirt walking away down the aisle. No readable signs or labels. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF14_B": {
+  "copy": "vest and badge on the break-room table",
+  "prompt": "A warehouse break-room table: a folded hi-vis safety vest, a blank ID badge on a lanyard, a scanner gun, a lunch container and a bottle of ibuprofen-style plain white pills with no label, a woman's hand rubbing her calf at the edge of the frame. Harsh fluorescent light, phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF14_C": {
+  "copy": "feet in a tub at midnight",
+  "prompt": "Midnight in a small kitchen: a woman about 61 sitting on a kitchen chair in sweatpants with both feet in a plastic tub of water, a pair of worn black running sneakers on the linoleum beside her, a hi-vis vest over the chair back, a calendar on the wall with no readable text. Phone flash, slightly harsh. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ },
+ "LF14_D": {
+  "copy": "payoff: a full cart at end of shift",
+  "prompt": "End of a night shift in a fulfillment warehouse: a woman about 61 in a hi-vis vest standing proudly beside a rolling cart stacked high with plain sealed cardboard boxes, giving a thumbs up, two young coworkers grinning behind her, wearing clean black knit sneakers. Bright LED light, phone photo. No readable labels. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "size": "3:4"
+ }
 }
