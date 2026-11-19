@@ -265,3 +265,41 @@ None of these repeats the Disney grandma, the ER nurse shoe graveyard, the Lisbo
 - Prices shown without currency for non-US audiences.
 
 **Story-craft tip from the data:** the most believable 5★ voices admit a flaw ("love hate relationship… VERY difficult to put on… comfortable once they are on"; "at first they felt tough but as I walked they mold to my comfort"). Building that small admission into the story protects the brand from the #4 objection and reads as more honest than flawless praise.
+
+---
+
+## 2026-11-19 update (newest 200 rows)
+
+**Access:** Google Drive connector worked. `read_file_content` only returns a sample of the first rows, so I exported the sheet as CSV with `download_file_content` (18,523 rows, 2023-04-15 to 2026-11-18) and read the newest 200 rows (2026-09-08 to 2026-11-18, about 2.8 responses a day). Order emails were masked and are not quoted here.
+
+**Counts in these 200 rows:**
+- **Comfort score:** 1 = 99, 2 = 48, 3 = 21, 4 = 11, 5 = 21. That is 74% at 1–2, more negative than the all-time picture (avg 2.98 with a good fit). Treat recent responses as complaint-heavy, not as a quality trend, until someone checks how the survey is triggered.
+- **Age:** 50–65 = 83, 65+ = 69, 40–50 = 31, under 40 = 13.
+- **Jobs mentioned (keyword counts, approximate):** nurse/RN about 18, teacher/educator 14, retail 9, cashier 4, deli 4, CNA 3, food service/cook several, plus single rows for a stadium courtesy team, a tire-picking DC, a thermoformer and a pet boutique.
+- **Trip mentions:** 12 (Disney 3, Europe 3, other trips or travel 6).
+- **"Wide":** 32 rows. Most are a reason for buying. A few say the shoe was too wide or hard to get into.
+
+**New moments and phrases (verbatim, newest first):**
+- Stadium worker, 65+, 5★: "I stand for long periods of time and I do a lot of walking around our stadium during football games." (job: "Courtesy Team member for the Jaguars"). **New: game-day and stadium staff over 65.**
+- Distribution center, 40–50, 2★: "12 hours a day order picking tires at the local distribution center … Trying to find a good work shoe with a composite toe that's actually comfortable." (Our shoe isn't a safety toe, so this is a "don't promise" case.)
+- Two jobs, 50–65, 5★: "Head Cashier for HOMEDEPOT and cashier for Kroger … standing and walking on concrete floor for 8+ hours for 5-6 a week." Current solution: "New Balance and Saucony." **New: two employers, two floors.**
+- Nanny, 65+, 5★: "Needed support for Disney vacation." Current solution: "Your shoes."
+- Nurse, 65+, 5★, arthritis: "To reduce pressure on right hip." Current solution: "These shoes."
+- Manufacturing, 50–65: "Stand all day, basically in one area." Job: "Thermoformer. Make plastic medical parts at a machine." (Planted standing, not walking.)
+- Concrete with mats, 5★: "Stand on concrete with mats for 10 hr shifts … hoping it would help with lower back& hip pain." Current: "Taking Celebrex, wearing brace part time, insiles from my Dr."
+- Retail merchandiser, 1★: "On my feet on cement for 10 hours a day." Current: "Buy expensive shoes every 3 months."
+- Pet boutique clerk, 65+, 5★: "my feet ache at end of 6 hour shift." Current: "Soak, feet up."
+- Semi-retired hairdresser, 65+, 5★: "Being off my feet is the only solution."
+- Elementary school lunch lady, 65+, 4★: current solution "Take my shoes off."
+- Retired teacher, 65+: "Planning to do a lot of walking for a trip coming up." Current: "Elevating my feet."
+- Foot pad atrophy, 50–65: "I have none. I live with constant pain."
+- RN, 50–65: "I wear flux sneakers for the zero drop and wide toe box but was looking for something else." (Competitor: Flux.)
+
+**Objections that came up again (keep as "don't promise" rules):**
+- Distrust of founder and nurse claims: "Owner claimed he made it for his mother and that nurses swear by it" (10/24). An ORTHO ad caused confusion: "Misleading ad attached to ORTHO ad" (11/9).
+- Hard to get into: "They were supposed to be for women with wider feet and I can't even get my foot in the shoe" (dog groomer, 10/29).
+- Too wide for a narrow foot: one nurse passed hers on to "my granddaughter who has a very thin foot" (11/16). This is also an unplanned hand-down/gifting moment.
+- Shoes didn't arrive in time for the trip: "Disney vacation but the shoes never arrived I want a refund" (nurse, 11/11). Never promise delivery before a trip date.
+- Grip and safety toe expectations: "They have steel toe, and WERE supposed to have non slip" (fast food, 9/17). "They said great arch support, cushioned and slip resistant" (deli, 10/4).
+
+**What's new compared with the 2026-11-12 deep dive:** (1) people over 65 doing event and stadium work, and (2) two-job holiday cashiers. Both fit December. The 5★ voices are still mostly 65+ women in light-standing jobs (boutique, nanny, hairdresser, home health aide); the 1★ voices are mostly 40–65 on concrete for 10–12 hours.

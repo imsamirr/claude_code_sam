@@ -198,3 +198,61 @@ Each angle avoids the five used angles: the nurses' 12-hour shift with running s
 8. **Instagram-ad regret.** "bought on the basis of an Instagram ad, should have known better" (#43). Long-form native-voice copy works partly because it doesn't read as an ad. Keep a real voice, avoid stock "ad" photography, and don't over-polish.
 9. **Matronly product shots.** "Zips on the side like my MIL wears" and "nanna brand." Style the shoe in normal outfits on real women, not on a white "medical catalog" background.
 10. **Weight-loss and body framing (Meta policy).** For any GLP-1 or plus-size angle, avoid before/after framing, implied body judgment and drug names.
+
+---
+
+## 2026-11-19 update
+
+**Access:** WebSearch with `site:reddit.com` returned almost no Reddit pages; results came from blogs, allnurses and redlib mirrors. StefanBrain's `reddit_search` and `reddit_thread` (Apify backend) worked and returned full posts and comments. Quotes below are copied from those results. Check each one again before using it word for word in copy.
+
+### Menopause feet
+- "I measured at 9.3 and 9.2. Narrow. But I ended up with size 10.5 shoes. My every day going to the grocery shoes I just got are an 11!!" ([r/Menopause](https://www.reddit.com/r/Menopause/comments/167istu/are_shoes_differently_sized_or_does_menopause/))
+  - Same thread: "Full shoe size increase in my menopause years."
+  - Same thread: "Most if the shoes i currenly own and I've worn in the past have suddenly gotten too small for me, and I feel like my foot has widened. I'm glad it's not just me!"
+  - Same thread: "I've got some really nice shoes in my cupboard, but they're going to ebay or charity shop, because I can't keep them on my feet! I give up!"
+- "I met our friend, Peri, about 2-3 years ago and since then I constantly get physical injuries… I feel like I'm falling apart over night, LITERALLY." (42, plantar fasciitis plus joints) ([r/Menopause](https://www.reddit.com/r/Menopause/comments/1edttp9/menopause_degenerative_joints_and_plantar/))
+- "My 'peri morning foot pain' ended up turning into severe arthritis with plantar fasciitis, heel spurs and Achilles tendinoses… now I can barely walk my dog down my street and back." ([r/Menopause](https://www.reddit.com/r/Menopause/comments/13g1vqa/my_peri_morning_foot_pain_ended_up_turning_into/))
+- "WHY IS AGE TAKING AWAY THE THINGS I CARE ABOUT?!?!" (plantar fasciitis after one day of hiking) ([r/Perimenopause](https://www.reddit.com/r/Perimenopause/comments/1qtxv09/my_plantar_fasciitis_is_back_and_i_feel_rage/))
+- "I work on my feet all day and can't sit at work except breaks. Do orthotics actually help? Does hrt?" ([r/Perimenopause](https://www.reddit.com/r/Perimenopause/comments/1oo5nzt/plantar_fasciitis_remedies/))
+- A 48-year-old lists the full ladder of failed fixes: "hokas, ortho inserts, high arch house shoes, no barefoot walking, oral steroids, 2 cortisone injects… night splints… walking boot." ([r/PlantarFasciitis](https://www.reddit.com/r/PlantarFasciitis/comments/1jt5byv/link_between_perimenopause_and_plantar_fasciitis/))
+- **New detail:** several users say their shoes got *bigger and wider*, so the old wardrobe goes to charity. That is a "closet of shoes that no longer fit" moment.
+
+### Teachers 60+ and kindergarten floor
+- "Suddenly, this pain. Never in my life and I'm 63. I'm a teacher and on my feet 8 hours a day… I wear good, support-arch shoes." (622 comments) ([r/AskWomenOver60](https://www.reddit.com/r/AskWomenOver60/comments/1nmqq2r/plantar_fascitis_help/))
+  - Comments in that thread: tucked-in sheets press the feet flat at night. One woman uses "two yoga blocks, one on each side of my bed, hold the sheet up." Two users say a statin (Crestor) "absolutely hobbled my feet."
+- "Kindergarten teachers, the day you realize you can't sit on the floor anymore… measuring out my clearance space to sort of just tip over… crawl over to the small bookcase… and pray the kids don't hear you grunting." ([r/Teachers](https://www.reddit.com/r/Teachers/comments/xeja0k/kindergarten_teachers_the_day_you_realize_you/))
+- "I'm older, 53, and I'm heavy… At the end of every day my feet are so sore that I have to run home and rest, I can't really do other things other than teaching these days." (career changer after a desk job) ([r/Teachers](https://www.reddit.com/r/Teachers/comments/16e5znd/how_do_you_deal_with_your_hurting_feet/))
+
+### Older nurses still working
+- "I met a nurse still working in her late 70s… 'I can't. I still have a house and mortgage. I can't live off social security'… 'Med surg, full-time'." (1,339 upvotes) ([r/nursing](https://www.reddit.com/r/nursing/comments/1lbbucl/i_met_a_nurse_still_working_in_her_late_70s/))
+- "I'm working with a 74 year old nurse in the ER who just came out of retirement… Most of my unit is angry because we have to pick up her slack… I've caught myself the last week seeing my own mortality in her." (1,807 upvotes) ([r/nursing](https://www.reddit.com/r/nursing/comments/1ims3er/im_working_with_a_74_year_old_nurse_in_the_er_who/))
+- "still working at 73… I thought I was going to get to retire.. but I dont have enough money to." ([r/nursing](https://www.reddit.com/r/nursing/comments/1ds6wl9/still_working_at_73/))
+- **New point of view:** the *younger* colleague watching the older nurse. This is not in LF09, which is told by the older nurse.
+
+### Holiday warehouse peak
+- "Its my 1st, only been working 3wks … my whole body hurts i can barely finish my whole shift… so how can i survive 5 days of 11hrs duty :(" (2026-11-05) ([r/AmazonFC](https://www.reddit.com/r/AmazonFC/comments/1xofvap/how_to_survive_peak_season/))
+  - Replies: "Your body is just starting to get used to the work… Mentally we're all screwed." "Incorporate stretching, sleep and proper insoles." "If you have a capitol R Reason for collecting your pay check, it makes things easier. I have a young daughter."
+- "these 11 hour 5 days a week… My feet hurt and im mentally tired." (348 upvotes) ([r/AmazonFC](https://www.reddit.com/r/AmazonFC/comments/1h45n0b/fk_peak_season/))
+- "back to back 12 hour shifts, when I get home I'm even too tired to take a bath." ([r/AmazonFC](https://www.reddit.com/r/AmazonFC/comments/1hj9ijb/exhausted_from_peak_season/))
+- "SKECHERS Work Max Cushioning Elite… Boy was that marketing a lie. There was not cushion at all like walking on concrete barefooted." ([r/AmazonFC](https://www.reddit.com/r/AmazonFC/comments/ssofe0/zappos_shoe_recommendations_my_feet_are_killing_me/))
+
+### CNA (for the mother-buying-for-her-CNA-daughter angle)
+- "New CNA here and holy sh*t do my feet ache… The poop and throw up isn't even my biggest complaint, it's my feet." ([r/cna](https://www.reddit.com/r/cna/comments/w03u9r/new_cna_here_and_holy_sht_do_my_feet_ache/))
+- "say i work monday and tuesday, wednesday i spend most of the day in bed because it hurts to get up and walk around." ([r/cna](https://www.reddit.com/r/cna/comments/10rjrnx/sore_feet/))
+- "I wore my normal sneakers i got from walmart which was a HUGE mistake… for reference im a plus size girly, 18F." ([r/cna](https://www.reddit.com/r/cna/comments/1on2ph9/i_need_advice_so_my_feet_so_die/))
+- "my feet and legs are sore after every shift. I honestly feel like I need days to recover." (senior living) ([r/cna](https://www.reddit.com/r/cna/comments/1u1ql51/my_feet_are_killing_after_each_shift/))
+- I found no thread written by a *mother* buying for her CNA daughter. That angle still rests on feedback A2 only.
+
+### Disney and band trips
+- "Anyone go to Disney and NOT have killer feet pain at the end of the day?" (567 upvotes, 1,010 comments) ([r/Disneyland](https://www.reddit.com/r/Disneyland/comments/14jtkkz/anyone_go_to_disney_and_not_have_killer_feet_pain/))
+- "taking my two kids… and my almost 70 year old parents for a week at Disney… I have VERY vivid memories of many shoe fiascos and feet complaints from our trips growing up." ([r/WaltDisneyWorld](https://www.reddit.com/r/WaltDisneyWorld/comments/1gh2w62/shoe_recommendations_for_disney_world/))
+- "Chaperoning band trip with limited mobility… I can't walk too much due to knee issues (surgery next month)… places in these parks where I can set up base camp." ([r/WaltDisneyWorld](https://www.reddit.com/r/WaltDisneyWorld/comments/1rapx06/chaperoning_band_trip_with_limited_mobility/))
+- "I have plantar fasciitis. I especially experience pain around my heels. What shoes would you recommend to wear around the parks?" (2026-10-29) ([r/disneyparks](https://www.reddit.com/r/disneyparks/comments/1xiuam4/shoe_recommendations/))
+
+### Church and standing at services
+- "Having trouble making it through an entire church service… taking pain meds before entering, wearing sneakers, standing/sitting independently of what others are doing, and I still seem to need to leave early." ([r/ChronicPain](https://www.reddit.com/r/ChronicPain/comments/vgvknn/having_trouble_making_it_through_an_entire_church/))
+- Evidence for this topic is thin on Reddit. LF13 still rests on feedback and the user's request.
+
+### Searched with no usable result
+- Mother buying shoes for her CNA daughter (no parent-voiced posts).
+- Band-director Disney trips (only student stories).
