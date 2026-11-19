@@ -215,7 +215,7 @@
  },
  "LF11_A": {
   "copy": "hook: a closet floor of shoes she can't wear",
-  "prompt": "A bedroom closet floor in winter: eight pairs of nice women's shoes lined up (loafers, ankle boots, flats, white sneakers) with blister bandages stuck inside two heels, a shoebox lid with a size sticker with no readable numbers, a woman about 48 in leggings sitting on the floor in front of them holding one loafer. Overhead closet light, phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "prompt": "A bedroom closet floor in winter: eight pairs of nice women's shoes lined up (loafers, ankle boots, flats, white sneakers) with blister bandages stuck inside two heels, a shoebox lid with a size sticker with no readable numbers, a woman about 48 (a few grey strands, reading glasses pushed up on her head) in leggings sitting on the floor in front of them holding one loafer and looking at it; photo taken by her teenage daughter from the closet doorway, not a selfie, no phone or mirror visible. Overhead closet light, phone photo. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
   "size": "3:4"
  },
  "LF11_B": {
@@ -255,12 +255,12 @@
  },
  "LF13_A": {
   "copy": "hook: shoes slipped off under a pew at candlelight",
-  "prompt": "Christmas Eve candlelight service in a small-town church, view low under a wooden pew: an older woman's sensible black shoes slipped off on the red carpet, her stockinged feet beside them, a small lit white candle in a paper drip guard held in her lap above, rows of people standing in soft candlelight ahead. Dark, noisy phone photo. No crosses, no religious text visible. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "prompt": "Christmas Eve candlelight service in a small-town church, view low under a wooden pew: a pair of women's plain black low-heeled slip-on flats (not laced, not men's shoes) slipped off on the red carpet, her stockinged feet beside them, a small lit white candle in a paper drip guard held in her lap above, rows of people standing in soft candlelight ahead. Dark, noisy phone photo. No crosses, no religious text visible. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
   "size": "3:4"
  },
  "LF13_B": {
   "copy": "the church front door at 8:45 a.m.",
-  "prompt": "The front double doors of a small white wooden church on a cold Sunday morning: a stack of folded plain bulletins with no readable text on a small table, a basket, and a woman about 68 in a wool coat standing in the doorway smiling at an arriving family, a blank name tag on her coat. Frost on the steps. No crosses or signs visible. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere.",
+  "prompt": "The front double doors of a small white wooden church on a cold Sunday morning: a stack of folded plain bulletins with no readable text on a small table, a basket, and a clearly older woman about 68 with short silver-white hair and soft wrinkles, in a wool coat, standing in the doorway smiling at an arriving family, a blank name tag on her coat. Frost on the steps. No crosses or signs visible. Any shoes have plain smooth side panels in one solid color with no stripes, swooshes, letters or logos. No readable text on clothing, signs, papers or bags; no brand logos anywhere. The family is in sharp focus like the rest of the phone photo.",
   "size": "3:4"
  },
  "LF13_C": {
