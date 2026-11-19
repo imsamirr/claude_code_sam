@@ -23,7 +23,7 @@ Two hundred and fourteen times.
 
 That was the exact number of times I went down to the classroom floor and back up before the 3:15 PM dismissal bell rang.
 
-I know because on a chilly Tuesday in November, I kept tally marks on my clipboard.
+I know because on a chilly Tuesday in late October, I kept tally marks on my clipboard.
 
 I have taught kindergarten for twenty-six years in Fort Worth, Texas. In kindergarten, you live on the floor.
 
@@ -41,7 +41,7 @@ As I stood, my knees popped and an involuntary groan came out of my chest. It so
 
 Toby, a five-year-old sitting right in front of me, looked up with wide, worried eyes.
 
-"Mrs. Miller," he whispered. "Why do you make that hurting sound every time you stand up?"
+"Mrs. Jensen," he whispered. "Why do you make that hurting sound every time you stand up?"
 
 The room went quiet. Toby was not trying to be disrespectful. He was five. He was genuinely worried his teacher was breaking apart.
 
@@ -111,7 +111,7 @@ I winced. "Karen, I went down to the floor over two hundred times today. My arch
 
 Karen smiled, stepped forward, and pointed down at her feet.
 
-She was wearing a pair of sleek, clean, all-black shoes. They did not have giant neon logos. They did not have massive white marshmallow soles. They looked like tailored, professional black flats with a clean modern finish.
+She was wearing a pair of sleek, clean, all-black shoes. They did not have giant neon logos. They did not have massive white marshmallow soles. They were plain all-black knit sneakers that read clean and simple, with no neon logos.
 
 "These are not running shoes," Karen said. "And they are not clunky orthopedic boots. They are Comfort Wear Ortho Stretch Cushion Shoes."
 
@@ -137,7 +137,7 @@ Fourth, the wide toe box lets toes splay naturally when bending down.
 
 Fifth, the outsole features slip-resistant grip that holds tight on slick cafeteria linoleum and polished gym floors.
 
-In plain all-black, it looks like a clean shoe that easily meets school dress codes.
+In plain all-black, it read clean enough to satisfy our school's dress code.
 
 Best of all, Comfort Wear backed it with an ironclad 30-day money-back guarantee with a full refund within 30 days. If they did not support my feet through two hundred crouches a day, I would get every penny back.
 
@@ -169,7 +169,7 @@ I did not put my hands on my knees. I did not groan. I did not have to grab the 
 
 Toby looked up from the rug, his face breaking into a huge smile.
 
-"Mrs. Miller! Your knees didn't make the screen door sound!"
+"Mrs. Jensen! Your knees didn't make the screen door sound!"
 
 I laughed so hard tears came to my eyes.
 
@@ -204,19 +204,19 @@ Right now, Comfort Wear is running their New Year Sale: get 40% off with free sh
 **H2:** After twenty-six years teaching kindergarten, I tested every popular shoe in our faculty lounge.
 Here is the honest scoreboard, from the $160 clogs to the $175 running shoes that completely failed.
 
-**H3:** "Mrs. Miller, why do you make that hurting sound every time you stand up?"
+**H3:** "Mrs. Jensen, why do you make that hurting sound every time you stand up?"
 When a five-year-old asked me that on our reading rug, I grabbed my clipboard and started counting.
 
 **H4:** Our principal banned athletic sneakers, but my knees were screaming after two hundred crouches a day.
 Here is the $60 shoe that satisfied our district dress code and outscored the $175 pairs on day one.
 
-## Scroll-video script (LF10V, 690 words, StefanBrain)
+## Scroll-video script (LF10V, 692 words, StefanBrain)
 
 Two hundred and fourteen times.
 
 That was the exact number of times I went down to the classroom floor before the final bell.
 
-I know because on a chilly Tuesday in November, I kept tally marks on my clipboard.
+I know because on a chilly Tuesday in late October, I kept tally marks on my clipboard.
 
 I have taught kindergarten for twenty-six years. In kindergarten, you live on the floor.
 
@@ -272,7 +272,7 @@ Structural arch support is built directly into the shoe, so it never packs flat 
 
 The cushioned sole flexes naturally when crouching, staying steady without wobbling, while stretch knit expands when feet swell.
 
-The wide toe box lets toes spread, and slip-resistant grip holds wet cafeteria tile. In all-black, it meets school dress codes.
+The wide toe box lets toes spread, and slip-resistant grip holds wet cafeteria tile. In all-black, it satisfied our school's dress code.
 
 Comfort Wear backs them with an ironclad thirty-day money-back guarantee with a full refund within thirty days.
 
