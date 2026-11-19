@@ -26,7 +26,24 @@
       "format_ref": true,
       "tags": [
         "user_inspo_set4"
-      ]
+      ],
+      "headline": "ALL-DAY COMFORT",
+      "on_image_text": [
+        "Black Friday Sale",
+        "60% OFF SITEWIDE",
+        "Arch Support • Wide Toe Box • Cushioned Heel",
+        "Feels like walking on clouds.",
+        "Free Shipping",
+        "30-Day Guarantee"
+      ],
+      "primary_text": "Most shoes look great on the shelf, then feel like cardboard after two hours on your feet.\n\nThe Ortho Stretch Cushion Shoe was built for women who refuse to choose between comfort and style.\n\nEvery pair is packed with features your feet will love:\n- Roomy wide toe box: gives your toes space to breathe and relax without rubbing or squeezing\n- Built-in arch support: cradles your foot naturally so you can stand and walk for hours\n- Deep heel cushioning: softens every step on hard tile, wood, and concrete\n- Breathable stretch knit: slides on in seconds with elastic no-tie laces\n\nAvailable in six versatile everyday colors: Black/Purple, All Black, Navy/Blue, Black/White, Burgundy Red, and Black/Turquoise.\n\nOur Black Friday Sitewide Sale is live:\nGet 60% OFF right now (only $59.95, was $120).\nFree shipping & returns included.\nTry them for 30 days. If you do not love how they feel, return them for a full refund.",
+      "fb_headline": "60% Off Sitewide | Black Friday",
+      "fb_description": "Free Shipping & Full Refund",
+      "copy_angle": "Black Friday six-color lineup sale for everyday comfort",
+      "copy_why": "Modeled on Hike's top-spending multi-color grid layout, driving click-through by pairing broad visual choice with a heavy Black Friday discount.",
+      "copy_source": "stefanbrain",
+      "stefanbrain_chat": "chat_043fd8af5751460dae440683825904c4",
+      "prompt": "Recreate the reference layout exactly: a soft autumn park path at golden hour with fallen leaves, blurred trees. Top: huge heavy maroon headline \"ALL-DAY COMFORT\", under it dark caps subline \"Black Friday Sale\", under it a white rounded pill with heavy maroon text \"60% OFF SITEWIDE\". Middle: a neat 3x2 grid of the six shoes from the product reference standing on the path (top row black with purple accents and all black... use exactly the six shoes in the reference image), side view, evenly spaced, true proportions. Below the grid: one dark line \"Arch Support • Wide Toe Box • Cushioned Heel\" and under it bold italic dark text \"Feels like walking on clouds.\". Bottom: two outlined white rounded pills with dark text: \"Free Shipping\" and \"30-Day Guarantee\". QUALITY BAR: match the polish of the reference exactly (layout, hierarchy, type weights, spacing); at least 7% clear margin between all text and every edge; large crisp perfectly spelled text readable by women 60+; every shoe is EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never the reference brand's name, logo or product)."
     },
     {
       "id": "IV_02_stop_changing",
@@ -46,7 +63,19 @@
       "format_ref": true,
       "tags": [
         "user_inspo_set4"
-      ]
+      ],
+      "headline": "STOP CHANGING SHOES.. TRY THIS",
+      "on_image_text": [
+        "60% OFF SITEWIDE"
+      ],
+      "primary_text": "If you work 12-hour shifts, your closet probably looks like mine: three pairs of $160 running shoes, stiff clogs, and a drawer full of gel insoles that did not help at all.\n\nYou keep buying new pairs hoping the next one will finally stop the burning heel ache. Two months in, you are limping back to your car again.\n\nHere is why: running shoes are made for forward running on dirt and pavement. They are not built for standing 12 hours on rock-hard hospital linoleum.\n\nThe Ortho Stretch Cushion Shoe was designed specifically for long shifts on concrete and tile:\n- Targeted arch support keeps your foot properly aligned so your plantar fascia does not overstretch\n- Deep heel cushioning absorbs the shock of 10,000+ steps per shift\n- Wide toe box lets your toes spread out naturally without pinched nerves or bunion friction\n- Slip-resistant grip keeps you steady on slick floors\n- Breathable stretch knit expands gently when your feet swell during hour 10\n\nOur Black Friday Sale is live:\nTake 60% OFF sitewide ($59.95, was $120).\nFree shipping & returns.\nWear them for 30 days of shifts. If your feet do not thank you, return them for a full refund.",
+      "fb_headline": "Built for 12-Hour Hospital Shifts",
+      "fb_description": "60% Off | 30-Day Wear Test",
+      "copy_angle": "Nurse switching shoes fatigue",
+      "copy_why": "Hits the proven nurse VOC pain of buying multiple expensive shoes that fail by hour 8, pairing the onecompress hand-drawn pattern interrupt with the 60% off sitewide offer.",
+      "copy_source": "stefanbrain",
+      "stefanbrain_chat": "chat_043fd8af5751460dae440683825904c4",
+      "prompt": "Recreate the reference layout exactly: a soft bright white cloudy studio background. Top center small heavy dark text \"ComfortWear\". Left side: a huge hand-drawn black marker-style headline stacked on lines: \"STOP CHANGING SHOES..\" with the first word STOP in red, then a gap, then \"TRY THIS\". Right side: ONE black knit shoe with white accents and white rocker sole from the product reference, very large, floating at a slight angle with a soft shadow, overlapping the edge of the headline area slightly but never covering letters. Bottom center: a sky-blue rounded pill with white bold text \"60% OFF SITEWIDE\". QUALITY BAR: match the polish of the reference exactly (layout, hierarchy, type weights, spacing); at least 7% clear margin between all text and every edge; large crisp perfectly spelled text readable by women 60+; every shoe is EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never the reference brand's name, logo or product)."
     },
     {
       "id": "IV_03_beach_checklist",
@@ -70,7 +99,26 @@
       "format_ref": true,
       "tags": [
         "user_inspo_set4"
-      ]
+      ],
+      "headline": "WALK ALL DAY\nIN TOTAL COMFORT",
+      "on_image_text": [
+        "60% OFF TODAY",
+        "✓ Plantar Fasciitis",
+        "✓ Heel Pain",
+        "✓ Swollen Feet",
+        "✓ Bunions",
+        "✓ Arch Fatigue",
+        "★★★★★ 500,000+ Pairs Sold",
+        "30-Day Money-Back Guarantee"
+      ],
+      "primary_text": "Nothing ruins a dream vacation faster than having to sit on a bench while everyone else keeps exploring.\n\nWhen you are walking 15,000 to 20,000 steps a day on cobblestones, museum marble, and airport terminals, regular walking shoes leave your heels throbbing by 2 PM.\n\nThe Ortho Stretch Cushion Shoe is engineered for long travel days:\n- Podiatrist-recommended arch support helps keep your body aligned through miles of walking\n- Wide toe box lets your feet swell naturally without pinching your toes or rubbing bunions\n- Deep heel cushioning softens every step on uneven pavement and hard stone\n- Ultra-lightweight stretch knit packs flat and barely adds weight to your suitcase\n- Elastic no-tie laces make sliding through airport security effortless\n\nOver 500,000 pairs sold to women who refuse to let aching feet cut their trips short.\n\nBlack Friday Sitewide Sale:\nGet 60% OFF today (just $59.95, was $120).\nFree shipping & returns included.\nTake them on your next trip with our 30-day wear test trial. If you do not love walking in them, return them for a full refund.",
+      "fb_headline": "Built for 15,000+ Step Travel Days",
+      "fb_description": "60% Off | 30-Day Full Refund",
+      "copy_angle": "Vacation and travel walking comfort",
+      "copy_why": "Adapts the proven travel checklist format from foot sleeves winners, addressing the traveler persona fear of missing out on sights due to foot fatigue.",
+      "copy_source": "stefanbrain",
+      "stefanbrain_chat": "chat_043fd8af5751460dae440683825904c4",
+      "prompt": "Recreate the reference layout exactly: a real bright beach photo with turquoise waves and white sand. On the sand in the middle: ONE pair of the navy knit shoes with bright blue accents from the product reference, side by side, large and sharp, soft sun shadows. Top-left: heavy dark two-line headline \"WALK ALL DAY\" / \"IN TOTAL COMFORT\" with the first word in burnt orange. Top-right: a burnt-orange circle badge with heavy white text \"60% OFF TODAY\". Lower-left: a 2-column checklist on a soft white translucent panel, each item with an orange check circle and dark bold text: \"Plantar Fasciitis\", \"Heel Pain\", \"Swollen Feet\", \"Bunions\", \"Arch Fatigue\". Under it orange stars and dark text \"500,000+ Pairs Sold\". Bottom-right: a round dark-brown seal with cream text \"30-Day Money-Back Guarantee\". QUALITY BAR: match the polish of the reference exactly (layout, hierarchy, type weights, spacing); at least 7% clear margin between all text and every edge; large crisp perfectly spelled text readable by women 60+; every shoe is EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never the reference brand's name, logo or product)."
     },
     {
       "id": "IV_04_strike_list_nurse",
@@ -92,7 +140,25 @@
       "format_ref": true,
       "tags": [
         "user_inspo_set4"
-      ]
+      ],
+      "headline": "✓ ALL-DAY SHIFT COMFORT",
+      "on_image_text": [
+        "~Sharp Heel Pain~",
+        "~Plantar Fascia Ache~",
+        "~Swollen Aching Feet~",
+        "~Pinched Sore Toes~",
+        "~Post-Shift Limping~",
+        "Ortho Stretch Cushion Shoe",
+        "Claim 60% Off"
+      ],
+      "primary_text": "By hour 9 of a 12-hour shift, every single step feels like you are walking on bare heel bones.\n\nYou clock out, peel off your scrubs, and limp to your car with your arches throbbing in rhythm with your heartbeat.\n\nMost work shoes squeeze your forefoot and dump your entire body weight straight into your heels. By shift end, your plantar fascia is completely inflamed.\n\nThe Ortho Stretch Cushion Shoe was built to cross those problems off your shift:\n- Deep heel cushioning absorbs heavy impact on hard hospital floors\n- Anatomical arch support prevents your plantar fascia from overstretching\n- Wide toe box stops painful toe pinching and relieves bunion pressure\n- Flexible stretch knit upper accommodates natural end-of-shift swelling\n- Slip-resistant soles keep you firmly planted during emergency rushes\n\nBlack Friday Sitewide Sale:\nTake 60% OFF right now ($59.95, was $120).\nFree shipping & returns.\nWear them for 30 days of real shifts. If they do not completely change your workday, send them back for a full refund.",
+      "fb_headline": "End 12-Hour Shift Foot Pain",
+      "fb_description": "60% Off | 30-Day Full Refund",
+      "copy_angle": "12-hour nursing shift foot problems crossed out",
+      "copy_why": "Transplants the onecompress problem-strike list format, visually eliminating the five primary shift complaints reported in customer surveys.",
+      "copy_source": "stefanbrain",
+      "stefanbrain_chat": "chat_043fd8af5751460dae440683825904c4",
+      "prompt": "Recreate the reference layout exactly: a dark moody photo, a nurse's lower legs in navy scrub pants seen from the side, sitting on the edge of a dark bench, wearing the black knit shoes with purple accents from the product reference, rim-lit so they stand out. Right side: a vertical list of five lines in heavy white text, each struck through with a thick red line: \"Sharp Heel Pain\", \"Plantar Fascia Ache\", \"Swollen Aching Feet\", \"Pinched Sore Toes\", \"Post-Shift Limping\". Lower center: a green check icon and heavy white text \"ALL-DAY SHIFT COMFORT\" underlined in green; under it white text \"Ortho Stretch Cushion Shoe\"; under it a red rounded pill with bold white caps \"CLAIM 60% OFF\". QUALITY BAR: match the polish of the reference exactly (layout, hierarchy, type weights, spacing); at least 7% clear margin between all text and every edge; large crisp perfectly spelled text readable by women 60+; every shoe is EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never the reference brand's name, logo or product)."
     },
     {
       "id": "IV_05_hsa_comment",
@@ -114,7 +180,21 @@
       "format_ref": true,
       "tags": [
         "user_inspo_set4"
-      ]
+      ],
+      "headline": "Last-minute ideas for using HSA/FSA funds before they expire?",
+      "on_image_text": [
+        "maria.r",
+        "Use pre-tax HSA/FSA dollars for doctor-recommended shoes at 60% off.",
+        "*HSA/FSA eligibility may vary by plan."
+      ],
+      "primary_text": "If you have funds left in your HSA or FSA, the December 31 deadline is fast approaching.\n\nMost people scramble at the last minute to stock up on bandages and saline just so their money does not disappear back to their employer.\n\nIf you work on your feet all day, here is a much better way to spend those pre-tax dollars:\n\nThe Ortho Stretch Cushion Shoe is HSA/FSA eligible, giving you up to 30% in additional tax savings if eligible.\n\nAnd right now, our Black Friday Sitewide Sale is live:\n- 60% OFF sitewide (drops the price to $59.95, was $120)\n- Use pre-tax funds for doctor-recommended all-day arch support and heel cushioning\n- Roomy wide toe box that prevents pinching and allows natural swelling\n- Slip-resistant grip and breathable stretch knit with no-tie laces\n- Free shipping & returns\n- 30-day money-back guarantee: try them on shift, and get a full refund if not completely satisfied\n\nDo not let your hard-earned benefits expire. Use your HSA or FSA card at checkout before year-end.",
+      "fb_headline": "HSA/FSA Eligible: 60% Off Sale",
+      "fb_description": "Use HSA/FSA Before Dec 31",
+      "copy_angle": "Year-end HSA/FSA use-it-or-lose-it",
+      "copy_why": "Transplants the Truemed high-performing comment bubble format, capitalizing on Q4 HSA/FSA expiration urgency stacked with Black Friday discounting.",
+      "copy_source": "stefanbrain",
+      "stefanbrain_chat": "chat_043fd8af5751460dae440683825904c4",
+      "prompt": "Recreate the reference layout exactly: a top-down photo of one pair of the navy knit shoes with bright blue accents from the product reference resting on a light speckled hospital-floor, with a folded navy scrub top and a stethoscope partly in frame, warm side light. Top: a white social-media comment card with a small round avatar, small dark name \"maria.r's comment\" and bold dark text \"Last-minute ideas for using HSA/FSA funds before they expire?\". Lower third: big heavy white text with soft shadow \"Use pre-tax HSA/FSA dollars for doctor-recommended shoes at 60% off.\". Under it tiny white text \"*HSA/FSA eligibility may vary by plan.\". QUALITY BAR: match the polish of the reference exactly (layout, hierarchy, type weights, spacing); at least 7% clear margin between all text and every edge; large crisp perfectly spelled text readable by women 60+; every shoe is EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never the reference brand's name, logo or product)."
     }
   ]
 }
