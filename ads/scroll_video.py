@@ -495,7 +495,7 @@ def build(spec, out_root, only=None, music=None):
     bg_in = ["-loop", "1", "-framerate", str(FPS), "-i", str(bg)] if str(bg).endswith(".png") else ["-stream_loop", "-1", "-i", str(bg)]
     subprocess.run(["ffmpeg", "-v", "error", "-y", *bg_in, "-loop", "1", "-framerate", str(FPS), "-i", d / "text.png",
                     *a_inputs, "-filter_complex", vfc + ";" + afc, "-map", "[v]", "-map", "[a]",
-                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "medium", "-crf", "17",
+                    "-t", f"{total:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", os.getenv("SCROLL_X264_PRESET", "medium"), "-crf", "17",
                     "-profile:v", "high", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", final], check=True)
     return final, total
 
