@@ -82,9 +82,9 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
      --shortform "Replace SF04: <why>. Return just that concept."` (waits for the answer). If two revisions
      fail, re-run `shortform` for that slot in a fresh session. Never write or edit the words yourself (user rule
      2026-11-18: all copy ALWAYS goes through StefanBrain).
-   - **Fallback**: if StefanBrain is unreachable (401/403, or still running after 50 min), write the
-     concepts yourself as before (winner → format → caption → 2–4 shots, no caption reused from earlier
-     batches) and say so at the top of the summary.
+   - **Fallback**: if StefanBrain is unreachable (401/403, or still running after 50 min), retry once;
+     only then write stopgap concepts, label every one "not StefanBrain copy" at the top of the summary and
+     the Notion card, and send them to StefanBrain for a rewrite on the next run (CLAUDE.md).
    **User-flagged references** (marked ⭐ in `ads/video/playbook.md`, e.g. F31 Cuurt creator review, added
    2026-11-19) get at least one video in the next batch after they're added, then stay in rotation: run
    `shortform` with `--focus "include one F31 creator-review concept"` (or ask for it in a followup).

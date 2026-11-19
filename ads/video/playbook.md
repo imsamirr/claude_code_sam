@@ -28,7 +28,7 @@ The approved look (set A) is a **phone video that a real woman would post to her
 
 ## 2. Format library (31 formats)
 
-Each entry gives the template, real references (advertiser, Atria id, days running, length), a shot recipe and a ready Comfort Wear caption. Days running are as of 2026-11-13. "Doctor-recommended" and "podiatrist-recommended" are approved since 2026-11-18; all Comfort Wear lines still avoid review counts or stars, and cure or treatment language.
+Each entry gives the template, real references (advertiser, Atria id, days running, length), a shot recipe and an example Comfort Wear caption. **The example captions only show each format's shape: every caption that ships is written by StefanBrain (user rule, 2026-11-18 / 11-19), and StefanBrain can pick the concepts too.** Days running are as of 2026-11-13. "Doctor-recommended" and "podiatrist-recommended" are approved since 2026-11-18; all Comfort Wear lines still avoid review counts or stars, and cure or treatment language.
 
 ### F1. POV: problem, then fix (two caption boxes)
 - **Template:** top box "POV: [pain in my words]. [what it cost me]." Bottom box appears on shot 2: "Then I started wearing [casual product name]. [payoff]."

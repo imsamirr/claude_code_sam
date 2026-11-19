@@ -9,6 +9,26 @@ Engine: `ads/video/build.py` (edit.json → finished MP4s + QA sheet), `ads/vide
 pages for a batch of raw clips). Brand facts, claims and personas come from the brand's
 `brand.json`: read it first, same rules as the `static-ads` skill (claims_to_avoid, women-only, etc.).
 
+**Copy rule (user, 2026-11-18, repeated 2026-11-19): StefanBrain writes every caption, always.** On-screen
+captions and script lines, hooks, end-of-video text, Meta primary text and headlines all come from StefanBrain
+(see `CLAUDE.md`), for weekly batches *and* one-off requests (a sale set, a reference the user sends, a
+single video). Claude picks the format, footage, caption look and placement, renders and QAs; Claude does
+not write or edit the words. **StefanBrain can also come up with the concepts** when that helps (it holds
+the brand's ad history, scripts, customer voice and this playbook):
+- several videos or open-ended ideas: `python ads/stefanbrain.py shortform --brand <brand> --week-dir <dir>
+  --n <count> --focus "<theme, offer, references, formats wanted>"` → `<dir>/stefanbrain_concepts.json`
+  (concepts + captions + primary text + headline per video);
+- a concept you've already planned (format + shots from a user reference): brief StefanBrain with the
+  format template, the reference's own lines, the shot list, the persona, the offer and the claims, and ask
+  only for the words: `ask_stefanbrain` in chat, or `python ads/stefanbrain.py write --brand <brand>
+  --session <name> --kind text --brief <file> --out <file>`;
+- a line that breaks a rule or doesn't match the footage goes back to StefanBrain in the same chat
+  (`stefanbrain.py followup`), with the reason.
+Use the lines verbatim in edit.json and record `"copy_source": "stefanbrain"` + the chat/session id. If
+StefanBrain is unreachable, retry once; only then use a stopgap labelled "not StefanBrain copy" and send it
+for a rewrite. The example captions in `ads/video/playbook.md` show each format's shape only; they are not
+copy to ship.
+
 Per brand, video work lives in `ads/brands/<brand>/video/`:
 - `footage.csv`: the tagged footage library (drive id, folder, seconds, **rights**, tags, best
   in/out ranges, burned-in text, notes). Read it first; add every clip you review.
