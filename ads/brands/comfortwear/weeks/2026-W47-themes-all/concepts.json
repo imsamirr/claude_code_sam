@@ -1,0 +1,1046 @@
+{
+  "week": "2026-W47-themes-all",
+  "notes": "User 2026-11-19: every inspiration (sets 4+5) in all three themes (healthcare, Disney, travel), Black Friday. Copy by StefanBrain.",
+  "concepts": [
+    {
+      "copy_slots": [
+        "headline (2-3 words, the reference says 'Half-price comfort')",
+        "sale subline (2-4 words)",
+        "offer pill (e.g. 60% OFF)",
+        "one feature line of 3 short benefit phrases",
+        "bold italic tagline (max 6 words)",
+        "2 small outlined pills (2-3 words each)"
+      ],
+      "based_on": "Hike 'Half-price comfort / Fall season sale' six-color grid",
+      "benchmark": "i4_grid",
+      "format_ref": true,
+      "reference_image": "reference/shoes_six_bestsellers.png",
+      "id": "TA_IV_01_H",
+      "base": "IV_01",
+      "theme": "Healthcare",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Healthcare x Black Friday (same layout as IV_01_halfprice_grid)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "healthcare"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Healthcare: nurses/healthcare workers on 12-hour hospital shifts. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. The six colors shown: black/purple, all black, navy/blue, black/white, burgundy red, black/turquoise. No fall-prevention or pain-relief claims."
+    },
+    {
+      "copy_slots": [
+        "headline (2-3 words, the reference says 'Half-price comfort')",
+        "sale subline (2-4 words)",
+        "offer pill (e.g. 60% OFF)",
+        "one feature line of 3 short benefit phrases",
+        "bold italic tagline (max 6 words)",
+        "2 small outlined pills (2-3 words each)"
+      ],
+      "based_on": "Hike 'Half-price comfort / Fall season sale' six-color grid",
+      "benchmark": "i4_grid",
+      "format_ref": true,
+      "reference_image": "reference/shoes_six_bestsellers.png",
+      "id": "TA_IV_01_D",
+      "base": "IV_01",
+      "theme": "Disney",
+      "persona": "traveler",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney x Black Friday (same layout as IV_01_halfprice_grid)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "disney"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines, keeping up with family (no Disney trademarks beyond the word Disney). Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. The six colors shown: black/purple, all black, navy/blue, black/white, burgundy red, black/turquoise. No fall-prevention or pain-relief claims."
+    },
+    {
+      "copy_slots": [
+        "headline (2-3 words, the reference says 'Half-price comfort')",
+        "sale subline (2-4 words)",
+        "offer pill (e.g. 60% OFF)",
+        "one feature line of 3 short benefit phrases",
+        "bold italic tagline (max 6 words)",
+        "2 small outlined pills (2-3 words each)"
+      ],
+      "based_on": "Hike 'Half-price comfort / Fall season sale' six-color grid",
+      "benchmark": "i4_grid",
+      "format_ref": true,
+      "reference_image": "reference/shoes_six_bestsellers.png",
+      "id": "TA_IV_01_T",
+      "base": "IV_01",
+      "theme": "Travel",
+      "persona": "traveler",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Travel x Black Friday (same layout as IV_01_halfprice_grid)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "travel"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Travel: Europe trips, cobblestones, airports, sightseeing all day. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. The six colors shown: black/purple, all black, navy/blue, black/white, burgundy red, black/turquoise. No fall-prevention or pain-relief claims."
+    },
+    {
+      "copy_slots": [
+        "hand-drawn headline in 2 parts, max 6 words total, same rhythm as 'STOP CHANGING SHOES.. TRY THIS'",
+        "small offer pill (max 5 words)"
+      ],
+      "based_on": "onecompress 'Stop changing shoes.. Try this' hand-drawn hero",
+      "benchmark": "i4_stop",
+      "format_ref": true,
+      "id": "TA_IV_02_D",
+      "base": "IV_02",
+      "theme": "Disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney x Black Friday (same layout as IV_02_stop_changing)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "disney"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines, keeping up with family (no Disney trademarks beyond the word Disney). Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. "
+    },
+    {
+      "copy_slots": [
+        "hand-drawn headline in 2 parts, max 6 words total, same rhythm as 'STOP CHANGING SHOES.. TRY THIS'",
+        "small offer pill (max 5 words)"
+      ],
+      "based_on": "onecompress 'Stop changing shoes.. Try this' hand-drawn hero",
+      "benchmark": "i4_stop",
+      "format_ref": true,
+      "id": "TA_IV_02_T",
+      "base": "IV_02",
+      "theme": "Travel",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Travel x Black Friday (same layout as IV_02_stop_changing)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "travel"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Travel: Europe trips, cobblestones, airports, sightseeing all day. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. "
+    },
+    {
+      "copy_slots": [
+        "headline 2 lines (first word highlighted)",
+        "discount circle (e.g. 60% OFF TODAY)",
+        "4-5 checklist items of foot problems the shoe is built for (1-2 words each)",
+        "social proof line with stars",
+        "round seal text (guarantee)"
+      ],
+      "based_on": "Foot sleeves 'Summer foot relief, now for sleep' beach checklist (750,000+ sold, sleep guarantee seal)",
+      "benchmark": "i4_beach",
+      "format_ref": true,
+      "id": "TA_IV_03_H",
+      "base": "IV_03",
+      "theme": "Healthcare",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Healthcare x Black Friday (same layout as IV_03_beach_checklist)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "healthcare"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Healthcare: nurses/healthcare workers on 12-hour hospital shifts. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Checklist names conditions the shoe is built FOR, never treats/cures. Proof number: 500,000+ (approved). Seal: 30-day money-back guarantee."
+    },
+    {
+      "copy_slots": [
+        "headline 2 lines (first word highlighted)",
+        "discount circle (e.g. 60% OFF TODAY)",
+        "4-5 checklist items of foot problems the shoe is built for (1-2 words each)",
+        "social proof line with stars",
+        "round seal text (guarantee)"
+      ],
+      "based_on": "Foot sleeves 'Summer foot relief, now for sleep' beach checklist (750,000+ sold, sleep guarantee seal)",
+      "benchmark": "i4_beach",
+      "format_ref": true,
+      "id": "TA_IV_03_D",
+      "base": "IV_03",
+      "theme": "Disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney x Black Friday (same layout as IV_03_beach_checklist)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "disney"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines, keeping up with family (no Disney trademarks beyond the word Disney). Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Checklist names conditions the shoe is built FOR, never treats/cures. Proof number: 500,000+ (approved). Seal: 30-day money-back guarantee."
+    },
+    {
+      "copy_slots": [
+        "5 struck-through problems (2-3 words each)",
+        "green-check outcome line (2-3 words, underlined)",
+        "product line (max 6 words)",
+        "red pill CTA (max 4 words)"
+      ],
+      "based_on": "onecompress bamboo socks strike-through list (Peaceful Nights)",
+      "benchmark": "i4_strike",
+      "format_ref": true,
+      "id": "TA_IV_04_D",
+      "base": "IV_04",
+      "theme": "Disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney x Black Friday (same layout as IV_04_strike_list_nurse)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "disney"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines, keeping up with family (no Disney trademarks beyond the word Disney). Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. "
+    },
+    {
+      "copy_slots": [
+        "5 struck-through problems (2-3 words each)",
+        "green-check outcome line (2-3 words, underlined)",
+        "product line (max 6 words)",
+        "red pill CTA (max 4 words)"
+      ],
+      "based_on": "onecompress bamboo socks strike-through list (Peaceful Nights)",
+      "benchmark": "i4_strike",
+      "format_ref": true,
+      "id": "TA_IV_04_T",
+      "base": "IV_04",
+      "theme": "Travel",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Travel x Black Friday (same layout as IV_04_strike_list_nurse)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "travel"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Travel: Europe trips, cobblestones, airports, sightseeing all day. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. "
+    },
+    {
+      "copy_slots": [
+        "comment bubble question from a customer (max 10 words)",
+        "commenter first name + initial (fictional, e.g. 'maria.r')",
+        "big answer line (max 14 words)",
+        "tiny disclaimer (eligibility may vary)"
+      ],
+      "based_on": "Flux/Truemed 'Last-minute ideas for using my HSA/FSA before they expire??' comment bubble",
+      "benchmark": "i4_hsa",
+      "format_ref": true,
+      "id": "TA_IV_05_D",
+      "base": "IV_05",
+      "theme": "Disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney x Black Friday (same layout as IV_05_hsa_comment)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "disney"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines, keeping up with family (no Disney trademarks beyond the word Disney). Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. "
+    },
+    {
+      "copy_slots": [
+        "comment bubble question from a customer (max 10 words)",
+        "commenter first name + initial (fictional, e.g. 'maria.r')",
+        "big answer line (max 14 words)",
+        "tiny disclaimer (eligibility may vary)"
+      ],
+      "based_on": "Flux/Truemed 'Last-minute ideas for using my HSA/FSA before they expire??' comment bubble",
+      "benchmark": "i4_hsa",
+      "format_ref": true,
+      "id": "TA_IV_05_T",
+      "base": "IV_05",
+      "theme": "Travel",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Travel x Black Friday (same layout as IV_05_hsa_comment)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "travel"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Travel: Europe trips, cobblestones, airports, sightseeing all day. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. "
+    },
+    {
+      "copy_slots": [
+        "huge 2-3 line headline in the pattern '<X> industry lies about your pain.' for nurses",
+        "chat-bubble question (2 short sentences)",
+        "small brand line under logo (max 3 words)",
+        "small Black Friday offer tag"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: muuv 'Tennis industry lies about your pain.' + chat bubble 'Do you really think it's just age? Or perhaps your footwear?' over close-up of shoes on court",
+      "layout_ref": "muuv 'Tennis industry lies about your pain.' + chat bubble 'Do you really think it's just age? Or perhaps your footwear?' over close-up of shoes on court",
+      "id": "TA_BF5_01_D",
+      "base": "BF5_01",
+      "theme": "Disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney x Black Friday (same layout as BF5_01_industry_lies_nurse)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "disney"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines, keeping up with family (no Disney trademarks beyond the word Disney). Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Scene: close-up of a nurse's feet in our shoes on a hospital floor."
+    },
+    {
+      "copy_slots": [
+        "huge 2-3 line headline in the pattern '<X> industry lies about your pain.' for nurses",
+        "chat-bubble question (2 short sentences)",
+        "small brand line under logo (max 3 words)",
+        "small Black Friday offer tag"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: muuv 'Tennis industry lies about your pain.' + chat bubble 'Do you really think it's just age? Or perhaps your footwear?' over close-up of shoes on court",
+      "layout_ref": "muuv 'Tennis industry lies about your pain.' + chat bubble 'Do you really think it's just age? Or perhaps your footwear?' over close-up of shoes on court",
+      "id": "TA_BF5_01_T",
+      "base": "BF5_01",
+      "theme": "Travel",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Travel x Black Friday (same layout as BF5_01_industry_lies_nurse)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "travel"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Travel: Europe trips, cobblestones, airports, sightseeing all day. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Scene: close-up of a nurse's feet in our shoes on a hospital floor."
+    },
+    {
+      "copy_slots": [
+        "2-line headline (line 2 'BLACK FRIDAY.' red)",
+        "subline (max 6 words, Disney-park themed)",
+        "offer bar left: 60% OFF",
+        "offer bar right: code",
+        "2 trust items (2-3 words each)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Pro Compression 'BREAK INTO BLACK FRIDAY.' three products bursting through torn white paper revealing red, red offer bar with code, two trust icons",
+      "layout_ref": "Pro Compression 'BREAK INTO BLACK FRIDAY.' three products bursting through torn white paper revealing red, red offer bar with code, two trust icons",
+      "id": "TA_BF5_02_H",
+      "base": "BF5_02",
+      "theme": "Healthcare",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Healthcare x Black Friday (same layout as BF5_02_break_into_bf_disney)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "healthcare"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Healthcare: nurses/healthcare workers on 12-hour hospital shifts. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Three colorways burst through torn paper."
+    },
+    {
+      "copy_slots": [
+        "2-line headline (line 2 'BLACK FRIDAY.' red)",
+        "subline (max 6 words, Disney-park themed)",
+        "offer bar left: 60% OFF",
+        "offer bar right: code",
+        "2 trust items (2-3 words each)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Pro Compression 'BREAK INTO BLACK FRIDAY.' three products bursting through torn white paper revealing red, red offer bar with code, two trust icons",
+      "layout_ref": "Pro Compression 'BREAK INTO BLACK FRIDAY.' three products bursting through torn white paper revealing red, red offer bar with code, two trust icons",
+      "id": "TA_BF5_02_T",
+      "base": "BF5_02",
+      "theme": "Travel",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Travel x Black Friday (same layout as BF5_02_break_into_bf_disney)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "travel"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Travel: Europe trips, cobblestones, airports, sightseeing all day. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Three colorways burst through torn paper."
+    },
+    {
+      "copy_slots": [
+        "the 3 struck percentages (keep 30/40/50 or similar)",
+        "final line 60% OFF",
+        "serif closing line (max 6 words, travel themed, includes Black Friday)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Sock brand: three products at top, then '30% OFF' '40% OFF' '50% OFF' struck through in pale text, '60% OFF' in black, 'Black Friday Sale.' serif, on bold orange",
+      "layout_ref": "Sock brand: three products at top, then '30% OFF' '40% OFF' '50% OFF' struck through in pale text, '60% OFF' in black, 'Black Friday Sale.' serif, on bold orange",
+      "id": "TA_BF5_03_H",
+      "base": "BF5_03",
+      "theme": "Healthcare",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Healthcare x Black Friday (same layout as BF5_03_strike_percent_travel)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "healthcare"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Healthcare: nurses/healthcare workers on 12-hour hospital shifts. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Use ComfortWear's real offer number 60%."
+    },
+    {
+      "copy_slots": [
+        "the 3 struck percentages (keep 30/40/50 or similar)",
+        "final line 60% OFF",
+        "serif closing line (max 6 words, travel themed, includes Black Friday)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Sock brand: three products at top, then '30% OFF' '40% OFF' '50% OFF' struck through in pale text, '60% OFF' in black, 'Black Friday Sale.' serif, on bold orange",
+      "layout_ref": "Sock brand: three products at top, then '30% OFF' '40% OFF' '50% OFF' struck through in pale text, '60% OFF' in black, 'Black Friday Sale.' serif, on bold orange",
+      "id": "TA_BF5_03_D",
+      "base": "BF5_03",
+      "theme": "Disney",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney x Black Friday (same layout as BF5_03_strike_percent_travel)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "disney"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines, keeping up with family (no Disney trademarks beyond the word Disney). Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Use ComfortWear's real offer number 60%."
+    },
+    {
+      "copy_slots": [
+        "big 2-line headline",
+        "audience line (for nurses on 12-hour shifts)",
+        "4-5 short story lines",
+        "CTA pill (includes 60% OFF)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: OrthoFit 'We ordered way too many.' warehouse with open shoe box, short paragraph lines, orange CTA pill",
+      "layout_ref": "OrthoFit 'We ordered way too many.' warehouse with open shoe box, short paragraph lines, orange CTA pill",
+      "needs_confirmation": "Story facts (overstock / reorders / low stock) must be true before launch.",
+      "id": "TA_BF5_04_D",
+      "base": "BF5_04",
+      "theme": "Disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney x Black Friday (same layout as BF5_04_ordered_too_many_nurse)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "disney"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines, keeping up with family (no Disney trademarks beyond the word Disney). Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Any overstock/scarcity/sorry/reorder story must be framed so it is true for ComfortWear; if you need a fact we don't have, write it so it doesn't claim one (we will confirm before launch)."
+    },
+    {
+      "copy_slots": [
+        "big 2-line headline",
+        "audience line (for nurses on 12-hour shifts)",
+        "4-5 short story lines",
+        "CTA pill (includes 60% OFF)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: OrthoFit 'We ordered way too many.' warehouse with open shoe box, short paragraph lines, orange CTA pill",
+      "layout_ref": "OrthoFit 'We ordered way too many.' warehouse with open shoe box, short paragraph lines, orange CTA pill",
+      "needs_confirmation": "Story facts (overstock / reorders / low stock) must be true before launch.",
+      "id": "TA_BF5_04_T",
+      "base": "BF5_04",
+      "theme": "Travel",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Travel x Black Friday (same layout as BF5_04_ordered_too_many_nurse)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "travel"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Travel: Europe trips, cobblestones, airports, sightseeing all day. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Any overstock/scarcity/sorry/reorder story must be framed so it is true for ComfortWear; if you need a fact we don't have, write it so it doesn't claim one (we will confirm before launch)."
+    },
+    {
+      "copy_slots": [
+        "big quote headline from a REAL plus-size customer review (use a real review from your files, Disney/park context if one exists)",
+        "review snippet strip with attribution",
+        "3 icon features (2-4 words)",
+        "offer button (60% OFF)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt '\"My 240 lb Body Enjoyed Them.\"' big man on a bench, green review strip, three icon features, green offer button",
+      "layout_ref": "Cuurt '\"My 240 lb Body Enjoyed Them.\"' big man on a bench, green review strip, three icon features, green offer button",
+      "id": "TA_BF5_05_H",
+      "base": "BF5_05",
+      "theme": "Healthcare",
+      "persona": "plus_size",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Healthcare x Black Friday (same layout as BF5_05_big_review_disney)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "healthcare"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Healthcare: nurses/healthcare workers on 12-hour hospital shifts. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Must be a real customer review from the files; do not invent quotes or weights. Show a plus-size woman on a theme-park bench."
+    },
+    {
+      "copy_slots": [
+        "big quote headline from a REAL plus-size customer review (use a real review from your files, Disney/park context if one exists)",
+        "review snippet strip with attribution",
+        "3 icon features (2-4 words)",
+        "offer button (60% OFF)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt '\"My 240 lb Body Enjoyed Them.\"' big man on a bench, green review strip, three icon features, green offer button",
+      "layout_ref": "Cuurt '\"My 240 lb Body Enjoyed Them.\"' big man on a bench, green review strip, three icon features, green offer button",
+      "id": "TA_BF5_05_T",
+      "base": "BF5_05",
+      "theme": "Travel",
+      "persona": "plus_size",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Travel x Black Friday (same layout as BF5_05_big_review_disney)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "travel"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Travel: Europe trips, cobblestones, airports, sightseeing all day. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Must be a real customer review from the files; do not invent quotes or weights. Show a plus-size woman on a theme-park bench."
+    },
+    {
+      "copy_slots": [
+        "big 2-line question headline in black boxes (nurse context)",
+        "sub line in white box",
+        "orange bottom bar (Black Friday offer)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Stepprs 'I WALK 5 MILES A DAY WITH NEUROPATHY? THESE ARE WHAT I PUT IN MY SHOES.' flat lay on asphalt with work gear, orange bottom bar",
+      "layout_ref": "Stepprs 'I WALK 5 MILES A DAY WITH NEUROPATHY? THESE ARE WHAT I PUT IN MY SHOES.' flat lay on asphalt with work gear, orange bottom bar",
+      "id": "TA_BF5_06_D",
+      "base": "BF5_06",
+      "theme": "Disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney x Black Friday (same layout as BF5_06_neuropathy_flatlay_nurse)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "disney"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines, keeping up with family (no Disney trademarks beyond the word Disney). Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Flat lay: scrubs, stethoscope, badge, our shoes. No cure/treatment/'without foot pain' claims."
+    },
+    {
+      "copy_slots": [
+        "big 2-line question headline in black boxes (nurse context)",
+        "sub line in white box",
+        "orange bottom bar (Black Friday offer)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Stepprs 'I WALK 5 MILES A DAY WITH NEUROPATHY? THESE ARE WHAT I PUT IN MY SHOES.' flat lay on asphalt with work gear, orange bottom bar",
+      "layout_ref": "Stepprs 'I WALK 5 MILES A DAY WITH NEUROPATHY? THESE ARE WHAT I PUT IN MY SHOES.' flat lay on asphalt with work gear, orange bottom bar",
+      "id": "TA_BF5_06_T",
+      "base": "BF5_06",
+      "theme": "Travel",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Travel x Black Friday (same layout as BF5_06_neuropathy_flatlay_nurse)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "travel"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Travel: Europe trips, cobblestones, airports, sightseeing all day. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Flat lay: scrubs, stethoscope, badge, our shoes. No cure/treatment/'without foot pain' claims."
+    },
+    {
+      "copy_slots": [
+        "big headline (censored swear OK)",
+        "letter body 4-5 short paragraphs (travel season framing)",
+        "CTA pill with 60% OFF"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Stepprs 'We f*cked up.' Dear fans letter over warehouse photo with hand holding product, orange CTA pill",
+      "layout_ref": "Stepprs 'We f*cked up.' Dear fans letter over warehouse photo with hand holding product, orange CTA pill",
+      "needs_confirmation": "Story facts (overstock / reorders / low stock) must be true before launch.",
+      "id": "TA_BF5_07_H",
+      "base": "BF5_07",
+      "theme": "Healthcare",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Healthcare x Black Friday (same layout as BF5_07_we_messed_up_travel)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "healthcare"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Healthcare: nurses/healthcare workers on 12-hour hospital shifts. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Any overstock/scarcity/sorry/reorder story must be framed so it is true for ComfortWear; if you need a fact we don't have, write it so it doesn't claim one (we will confirm before launch)."
+    },
+    {
+      "copy_slots": [
+        "big headline (censored swear OK)",
+        "letter body 4-5 short paragraphs (travel season framing)",
+        "CTA pill with 60% OFF"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Stepprs 'We f*cked up.' Dear fans letter over warehouse photo with hand holding product, orange CTA pill",
+      "layout_ref": "Stepprs 'We f*cked up.' Dear fans letter over warehouse photo with hand holding product, orange CTA pill",
+      "needs_confirmation": "Story facts (overstock / reorders / low stock) must be true before launch.",
+      "id": "TA_BF5_07_D",
+      "base": "BF5_07",
+      "theme": "Disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney x Black Friday (same layout as BF5_07_we_messed_up_travel)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "disney"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines, keeping up with family (no Disney trademarks beyond the word Disney). Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Any overstock/scarcity/sorry/reorder story must be framed so it is true for ComfortWear; if you need a fact we don't have, write it so it doesn't claim one (we will confirm before launch)."
+    },
+    {
+      "copy_slots": [
+        "kicker (orange, 2-4 words)",
+        "huge offer line (60% OFF)",
+        "short paragraph (max 35 words)",
+        "2 bold closing lines"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Stepprs 'WE'RE ENDING IT / UP TO 75% OFF' peach background, product floating right, short paragraph, two bold closing lines",
+      "layout_ref": "Stepprs 'WE'RE ENDING IT / UP TO 75% OFF' peach background, product floating right, short paragraph, two bold closing lines",
+      "id": "TA_BF5_08_D",
+      "base": "BF5_08",
+      "theme": "Disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney x Black Friday (same layout as BF5_08_ending_it_nurse)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "disney"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines, keeping up with family (no Disney trademarks beyond the word Disney). Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Any overstock/scarcity/sorry/reorder story must be framed so it is true for ComfortWear; if you need a fact we don't have, write it so it doesn't claim one (we will confirm before launch)."
+    },
+    {
+      "copy_slots": [
+        "kicker (orange, 2-4 words)",
+        "huge offer line (60% OFF)",
+        "short paragraph (max 35 words)",
+        "2 bold closing lines"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Stepprs 'WE'RE ENDING IT / UP TO 75% OFF' peach background, product floating right, short paragraph, two bold closing lines",
+      "layout_ref": "Stepprs 'WE'RE ENDING IT / UP TO 75% OFF' peach background, product floating right, short paragraph, two bold closing lines",
+      "id": "TA_BF5_08_T",
+      "base": "BF5_08",
+      "theme": "Travel",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Travel x Black Friday (same layout as BF5_08_ending_it_nurse)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "travel"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Travel: Europe trips, cobblestones, airports, sightseeing all day. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Any overstock/scarcity/sorry/reorder story must be framed so it is true for ComfortWear; if you need a fact we don't have, write it so it doesn't claim one (we will confirm before launch)."
+    },
+    {
+      "copy_slots": [
+        "'POV:' bubble",
+        "white caption (POV sentence, Black Friday + leftover FSA)",
+        "fictional story handle",
+        "bottom caption (HSA/FSA eligible + year-end)",
+        "laptop screen balance label"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Instagram story POV: 'POV:' bubble + white caption over a hand holding product in front of a laptop showing FSA/HSA balance; bottom caption 'FSA & HSA eligible, use it before Dec 31'",
+      "layout_ref": "Instagram story POV: 'POV:' bubble + white caption over a hand holding product in front of a laptop showing FSA/HSA balance; bottom caption 'FSA & HSA eligible, use it before Dec 31'",
+      "id": "TA_BF5_09_D",
+      "base": "BF5_09",
+      "theme": "Disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney x Black Friday (same layout as BF5_09_pov_fsa_nurse)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "disney"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines, keeping up with family (no Disney trademarks beyond the word Disney). Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. HSA/FSA eligible is approved; say eligibility may vary somewhere small."
+    },
+    {
+      "copy_slots": [
+        "'POV:' bubble",
+        "white caption (POV sentence, Black Friday + leftover FSA)",
+        "fictional story handle",
+        "bottom caption (HSA/FSA eligible + year-end)",
+        "laptop screen balance label"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Instagram story POV: 'POV:' bubble + white caption over a hand holding product in front of a laptop showing FSA/HSA balance; bottom caption 'FSA & HSA eligible, use it before Dec 31'",
+      "layout_ref": "Instagram story POV: 'POV:' bubble + white caption over a hand holding product in front of a laptop showing FSA/HSA balance; bottom caption 'FSA & HSA eligible, use it before Dec 31'",
+      "id": "TA_BF5_09_T",
+      "base": "BF5_09",
+      "theme": "Travel",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Travel x Black Friday (same layout as BF5_09_pov_fsa_nurse)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "travel"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Travel: Europe trips, cobblestones, airports, sightseeing all day. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. HSA/FSA eligible is approved; say eligibility may vary somewhere small."
+    },
+    {
+      "copy_slots": [
+        "3-line headline in pattern 'Your running shoes weren't built for <Europe trip>'",
+        "subline (the problem, 1 sentence)",
+        "dark pill offer (60% OFF, no price)",
+        "CTA (2 words)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt 'YOUR ASICS WEREN'T BUILT FOR PICKLEBALL' close-up legs, three product tiles, dark pill with price, 'SWITCH NOW'",
+      "layout_ref": "Cuurt 'YOUR ASICS WEREN'T BUILT FOR PICKLEBALL' close-up legs, three product tiles, dark pill with price, 'SWITCH NOW'",
+      "id": "TA_BF5_10_H",
+      "base": "BF5_10",
+      "theme": "Healthcare",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Healthcare x Black Friday (same layout as BF5_10_not_built_for_europe)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "healthcare"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Healthcare: nurses/healthcare workers on 12-hour hospital shifts. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. No competitor brand names on image unless generic."
+    },
+    {
+      "copy_slots": [
+        "3-line headline in pattern 'Your running shoes weren't built for <Europe trip>'",
+        "subline (the problem, 1 sentence)",
+        "dark pill offer (60% OFF, no price)",
+        "CTA (2 words)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Cuurt 'YOUR ASICS WEREN'T BUILT FOR PICKLEBALL' close-up legs, three product tiles, dark pill with price, 'SWITCH NOW'",
+      "layout_ref": "Cuurt 'YOUR ASICS WEREN'T BUILT FOR PICKLEBALL' close-up legs, three product tiles, dark pill with price, 'SWITCH NOW'",
+      "id": "TA_BF5_10_D",
+      "base": "BF5_10",
+      "theme": "Disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney x Black Friday (same layout as BF5_10_not_built_for_europe)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "disney"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines, keeping up with family (no Disney trademarks beyond the word Disney). Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. No competitor brand names on image unless generic."
+    },
+    {
+      "copy_slots": [
+        "headline",
+        "3 short paragraphs (Disney trip families reordering pairs)",
+        "bold offer line",
+        "closing 2-word italic line",
+        "trust line (500,000+ approved)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Stepprs 'THE REORDER RUSH' white text letter, products bottom-left, stars + trusted by line bottom-right",
+      "layout_ref": "Stepprs 'THE REORDER RUSH' white text letter, products bottom-left, stars + trusted by line bottom-right",
+      "needs_confirmation": "Story facts (overstock / reorders / low stock) must be true before launch.",
+      "id": "TA_BF5_11_H",
+      "base": "BF5_11",
+      "theme": "Healthcare",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Healthcare x Black Friday (same layout as BF5_11_reorder_rush_disney)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "healthcare"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Healthcare: nurses/healthcare workers on 12-hour hospital shifts. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Any overstock/scarcity/sorry/reorder story must be framed so it is true for ComfortWear; if you need a fact we don't have, write it so it doesn't claim one (we will confirm before launch)."
+    },
+    {
+      "copy_slots": [
+        "headline",
+        "3 short paragraphs (Disney trip families reordering pairs)",
+        "bold offer line",
+        "closing 2-word italic line",
+        "trust line (500,000+ approved)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Stepprs 'THE REORDER RUSH' white text letter, products bottom-left, stars + trusted by line bottom-right",
+      "layout_ref": "Stepprs 'THE REORDER RUSH' white text letter, products bottom-left, stars + trusted by line bottom-right",
+      "needs_confirmation": "Story facts (overstock / reorders / low stock) must be true before launch.",
+      "id": "TA_BF5_11_T",
+      "base": "BF5_11",
+      "theme": "Travel",
+      "persona": "traveler",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Travel x Black Friday (same layout as BF5_11_reorder_rush_disney)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "travel"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Travel: Europe trips, cobblestones, airports, sightseeing all day. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Any overstock/scarcity/sorry/reorder story must be framed so it is true for ComfortWear; if you need a fact we don't have, write it so it doesn't claim one (we will confirm before launch)."
+    },
+    {
+      "copy_slots": [
+        "headline 'RE: Black Friday'",
+        "sub headline addressing Disney-trip planners + sorry",
+        "3-4 short body paragraphs",
+        "bold underlined offer line (60% off)",
+        "yellow-highlighted guarantee line"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: PAP MD 'RE: Black Friday / ... We're SORRY!' white email-style text ad, bold underlined offer line, yellow highlighted guarantee, brand at bottom",
+      "layout_ref": "PAP MD 'RE: Black Friday / ... We're SORRY!' white email-style text ad, bold underlined offer line, yellow highlighted guarantee, brand at bottom",
+      "needs_confirmation": "Story facts (overstock / reorders / low stock) must be true before launch.",
+      "id": "TA_BF5_12_H",
+      "base": "BF5_12",
+      "theme": "Healthcare",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Healthcare x Black Friday (same layout as BF5_12_re_bf_sorry_disney)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "healthcare"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Healthcare: nurses/healthcare workers on 12-hour hospital shifts. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Any overstock/scarcity/sorry/reorder story must be framed so it is true for ComfortWear; if you need a fact we don't have, write it so it doesn't claim one (we will confirm before launch)."
+    },
+    {
+      "copy_slots": [
+        "headline 'RE: Black Friday'",
+        "sub headline addressing Disney-trip planners + sorry",
+        "3-4 short body paragraphs",
+        "bold underlined offer line (60% off)",
+        "yellow-highlighted guarantee line"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: PAP MD 'RE: Black Friday / ... We're SORRY!' white email-style text ad, bold underlined offer line, yellow highlighted guarantee, brand at bottom",
+      "layout_ref": "PAP MD 'RE: Black Friday / ... We're SORRY!' white email-style text ad, bold underlined offer line, yellow highlighted guarantee, brand at bottom",
+      "needs_confirmation": "Story facts (overstock / reorders / low stock) must be true before launch.",
+      "id": "TA_BF5_12_T",
+      "base": "BF5_12",
+      "theme": "Travel",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Travel x Black Friday (same layout as BF5_12_re_bf_sorry_disney)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "travel"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Travel: Europe trips, cobblestones, airports, sightseeing all day. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Any overstock/scarcity/sorry/reorder story must be framed so it is true for ComfortWear; if you need a fact we don't have, write it so it doesn't claim one (we will confirm before launch)."
+    },
+    {
+      "copy_slots": [
+        "top ticker bar text (no giveaway: Black Friday)",
+        "2 small pills",
+        "big 2-line headline (travel)",
+        "offer number instead of price (60% OFF)",
+        "guarantee line"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Stepprs 'BURNING ARCHES WILL BE GONE.' black background, product left, giveaway ticker bars top and bottom, offer pills, struck price, stars + guarantee",
+      "layout_ref": "Stepprs 'BURNING ARCHES WILL BE GONE.' black background, product left, giveaway ticker bars top and bottom, offer pills, struck price, stars + guarantee",
+      "id": "TA_BF5_13_H",
+      "base": "BF5_13",
+      "theme": "Healthcare",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Healthcare x Black Friday (same layout as BF5_13_burning_arches_travel)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "healthcare"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Healthcare: nurses/healthcare workers on 12-hour hospital shifts. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. No giveaway (we don't run one). Avoid cure promises; 'gone' style outcome claims not allowed."
+    },
+    {
+      "copy_slots": [
+        "top ticker bar text (no giveaway: Black Friday)",
+        "2 small pills",
+        "big 2-line headline (travel)",
+        "offer number instead of price (60% OFF)",
+        "guarantee line"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Stepprs 'BURNING ARCHES WILL BE GONE.' black background, product left, giveaway ticker bars top and bottom, offer pills, struck price, stars + guarantee",
+      "layout_ref": "Stepprs 'BURNING ARCHES WILL BE GONE.' black background, product left, giveaway ticker bars top and bottom, offer pills, struck price, stars + guarantee",
+      "id": "TA_BF5_13_D",
+      "base": "BF5_13",
+      "theme": "Disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney x Black Friday (same layout as BF5_13_burning_arches_travel)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "disney"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines, keeping up with family (no Disney trademarks beyond the word Disney). Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. No giveaway (we don't run one). Avoid cure promises; 'gone' style outcome claims not allowed."
+    },
+    {
+      "copy_slots": [
+        "red top bar",
+        "3 handwritten whiteboard lines (nurse themed, offer included)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Stepprs whiteboard: red top bar 'EARLY BLACK FRIDAY IS LIVE!', handwritten marker lines on a whiteboard, products lying on it, bare foot at edge",
+      "layout_ref": "Stepprs whiteboard: red top bar 'EARLY BLACK FRIDAY IS LIVE!', handwritten marker lines on a whiteboard, products lying on it, bare foot at edge",
+      "id": "TA_BF5_14_D",
+      "base": "BF5_14",
+      "theme": "Disney",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Disney x Black Friday (same layout as BF5_14_whiteboard_nurse)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "disney"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Disney trip: theme-park days, 20,000 steps, long lines, keeping up with family (no Disney trademarks beyond the word Disney). Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Handwritten marker style; keep each line under 22 characters."
+    },
+    {
+      "copy_slots": [
+        "red top bar",
+        "3 handwritten whiteboard lines (nurse themed, offer included)"
+      ],
+      "based_on": "User-sent inspiration 2026-11-19: Stepprs whiteboard: red top bar 'EARLY BLACK FRIDAY IS LIVE!', handwritten marker lines on a whiteboard, products lying on it, bare foot at edge",
+      "layout_ref": "Stepprs whiteboard: red top bar 'EARLY BLACK FRIDAY IS LIVE!', handwritten marker lines on a whiteboard, products lying on it, bare foot at edge",
+      "id": "TA_BF5_14_T",
+      "base": "BF5_14",
+      "theme": "Travel",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE (lead) + free shipping & returns + 30-day money-back guarantee; optional code LEAKED10 = extra 10% off",
+      "angle": "Travel x Black Friday (same layout as BF5_14_whiteboard_nurse)",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "themes_all",
+        "black_friday",
+        "travel"
+      ],
+      "copy_notes": "THEME FOR THIS VERSION: Travel: Europe trips, cobblestones, airports, sightseeing all day. Write every slot for this theme even if a slot description mentions another audience. Same slot count and lengths as described. Handwritten marker style; keep each line under 22 characters."
+    }
+  ]
+}
