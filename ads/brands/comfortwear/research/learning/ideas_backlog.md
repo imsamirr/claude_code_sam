@@ -8,7 +8,9 @@
 
 The weekly run uses the plan for its date unless the user changes it. Mark each idea `written` once its LF file exists.
 
-## Batch for Thursday 2026-11-12 (LF05–LF14)
+## Batch for Thursday 2026-11-12 (LF05–LF14): **written 2026-11-19**
+
+The 11-12 push failed, so this plan was written on 2026-11-19 as LF05–LF14 (StefanBrain copy). Changes from the plan: LF08 uses the market-study late-EDIT bridge (MS4, brand at ~85%); LF06 pays off at a fall marching season, then this spring's trip; LF14 is set last year, with peak season coming again. Every row below is `written`.
 
 | ID | Type | Angle (source ads: spend · ROAS) | Story (new) | Hook / first lines | Image scenes A/B/C/D |
 |---|---|---|---|---|---|
@@ -38,6 +40,26 @@ The weekly run uses the plan for its date unless the user changes it. Mark each 
 - Don't make slip-resistance the lead for kitchen jobs.
 - No "walking on clouds", no medical cure claims, no podiatrist claims.
 - Show a real company and the real 30-day money-back guarantee. Reddit distrusts cheap "ortho" brands.
+
+
+## Batch for Thursday 2026-11-26 (LF15–LF24)
+
+Plan only (StefanBrain writes every word). Sources: `../longform_angles.md` 2026-11-19 refresh, `2026-11-19.md` §6, and the market study 2026-11-16. Live offer on 11-26: Black Friday Sale (60% off OR buy-2-get-2-gifts, never combined) until Dec 5, plus Christmas and New Year swaps. **If LF05–LF14 have spend by then, swap one iteration for an MS1 re-hook of the best LF body (same body, 3 new openers) and its music-only Mode B re-cut.**
+
+| ID | Type | Angle (source ads: spend · ROAS, 90d to 11-18) | Story (new) | Hook type / open loop | Image scenes A/B/C/D |
+|---|---|---|---|---|---|
+| LF15 | Iteration | Europe travel test (Kyro369v2 $76.2k · 1.38; Kyro 99 Barcelona nurse $241.7k lifetime · 1.87) | MS3 long-vs-short test: a retired couple's 40-day Camino-style walking holiday in Spain, told by the wife; an 18–22k cut and a 9k cut of the same story | sunk-cost object (the non-refundable trip) / failed-fix refrain | a pilgrim-route stone path at dawn · blister kit on a hostel bunk · husband walking ahead alone · both at a cathedral square (no landmark) |
+| LF16 | Iteration | Plus-size Disney (COM284 $7.6k · 2.89 · $37 CPA) | Family planner vs one pair (§6 idea 2): a plus-size aunt brings one pair while her sister's color-coded packing list says three; the planner's feet give out first | proclamation + artifact (the packing list) / who gives out first | the printed packing list on a hotel bed · three pairs vs one pair by the door · the planner on a bench · the aunt carrying the niece (payoff) |
+| LF17 | Iteration | Nurse: running shoe vs standing job (Aubrey $20.1k · 1.46; NurseNotRunners $13.5k · 1.52) | The young nurse who resented the 74-year-old (§6 idea 3), told by the new grad | confession / what the older nurse hid at hour six | med cart at 3 a.m. · the older nurse's locker shoes · the new grad sitting on a supply bin · both walking out at dawn (payoff) |
+| LF18 | Iteration | Nurse scoreboard (COM225 $9.6k · 1.80; Kyro390 $13.0k · 1.66) | A travel ICU nurse's 13-week contract notebook: a scoreboard of 7 shoes across 4 hospitals | odd-number fact / which pair survived contract 4 | a contract binder on a motel desk · seven pairs in a hotel closet · ice on swollen feet · the airport walk home (payoff) |
+| LF19 | Iteration | Disney test (COM320 $15.0k · 1.68) | A grandma in her 60s who works at the parks part-time (outdoor merch cart) rates guests' shoes she sees fail every day | insider voyeur / the shoe she sees fail most | the merch cart at opening · a guest's shoes left by a bench · her own feet at shift end · her grandkids' visit day (payoff) |
+| LF20 | Iteration | Teacher (AUGWK1 VID2 $9.1k · 1.63; JULYWK2 VID1 $10.1k · 1.40) | A middle-school PE-turned-lunch-duty teacher at 61 (dress code: black shoes): the dress-code objection is the plot | rule with a gap / the principal's memo | the dress-code memo (no readable text) · cafeteria floor at noon · shoes under the desk · walking the bus line (payoff) |
+| LF21 | Net-new | Observer camera (§6 idea 1: Cuurt 13d active; Nerve Support and Janice Myers rank 1 with an adult-child narrator; feedback 65+ stadium courtesy worker) | A son, 45, sees his 67-year-old mother on the driveway camera sitting in her car after stadium shifts, and buys her a pair for Christmas | something watched on a screen / what the footage showed in week 3 | camera still of the car (no UI text) · stadium concourse · the gift box · Mom walking in at night (payoff) |
+| LF22 | Net-new | Honest reversal after a sizing mistake (§6 idea 4; sizing = #3 objection, 39.7% good fit) | A 58-year-old writes an angry review after ordering her usual size, then exchanges and edits the review | public confession / why she went back and edited it | the review draft on a laptop (no readable text) · two boxes, two sizes · a sock-line on her ankle · a walk with her book club (payoff) |
+| LF23 | Net-new | Two jobs in December (§6 idea 5; feedback cashier at two stores, 5★) | A 57-year-old cashier works a hardware register by day and a grocery register by night through the holidays | sacrifice + count (two time cards) / the night she nearly quit | two name tags (blank) on a dresser · concrete aisle · feet up on a car dashboard · Christmas morning (payoff) |
+| LF24 | Net-new | LF11 re-hook family (Osteva age-ladder hook, rank 1 of 1,625; Reddit "full shoe size increase in my menopause years") | Same LF11 body, re-hooked 3 ways with an age-ladder opener (MS1 pattern); scroll-video Mode B re-cut | age ladder / what changed at 52 | reuse LF11 images B–D; new A: shoes by size on a closet floor |
+
+**Variety check:** narrators 26–74; settings Spain, Disney ×2, hospital ×2, school, stadium, home, retail; hook types not repeated from LF05–LF14.
 
 ## Backlog (next batches)
 
