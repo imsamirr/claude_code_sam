@@ -2,6 +2,49 @@
 
 Every concept from weeks/*/concepts.json, newest first: headline, angle, source and the user's verdict where logged. Don't reuse these headlines; learn from the rejection reasons.
 
+## 2026-W48-fri (40)
+
+- W48_01_vanity_sticky_shift_tonight · nurse · 'Shift 3 tonight. No more limping.' · angle: Nurse PF: tomorrow's 12 starts tonight (sticky note on the mirror counts the shifts) · copy: stefanbrain
+- W48_02_nana_note_nurse_shoes · nurse · 'Why 1960s nurses rarely had foot pain: read this' · angle: Nurse PF: a retired-nurse grandma's handwritten note about shoes (1960s nurse nostalgia) · copy: stefanbrain
+- W48_03_free_bag_second_pair · nurse · 'THIS TRAVEL BAG IS FREE' · angle: Nurse: rotate 2 pairs (Emily) -> Black Friday buy 2, get the travel bag + socks free · copy: stefanbrain
+- W48_04_podiatrist_exam_room · nurse · 'What I check first in my clinic: the shoes.' · angle: Nurse knee/back after shifts: podiatrist exam-room caption (podiatrist-recommended) · copy: stefanbrain
+- W48_05_hsa_checkout_summary · nurse · 'HSA/FSA Eligible - Up to 30% Savings If Eligible' · angle: Nurse HSA/FSA: year-end FSA dollars -> order summary card · copy: stefanbrain
+- W48_06_expanding_brain_holiday_12s · nurse · 'PUTTING $60 INSOLES IN OLD SNEAKERS' · angle: Nurse PF: escalating choices meme (insoles in old sneakers -> ComfortWear -> a pair for every shift at 60% off) · copy: stefanbrain
+- W48_07_toggle_vs_disney_runner · traveler · '10-Hour Park Test: Which Shoe Won?' · angle: Disney: our shoe vs the $130 running shoe, toggle ON/OFF rows (7-shoe test) · copy: stefanbrain
+- W48_08_four_photos_park_hours · traveler · 'Still walking at hour 10.' · angle: Disney: four real park-day photos (hour 1 / hour 4 / hour 8 / fireworks) with one center band · copy: stefanbrain
+- W48_09_wet_cobblestone_bubble · traveler · '20,000 steps on wet cobblestones. Still walking when the markets closed.' · angle: Europe: Christmas-market cobblestones in the rain, speech-bubble review over the shoe stepping on wet stone · copy: stefanbrain
+- W48_10_packed_bag_holiday_flight · traveler · 'Airport miles. Flight delays. One pair packed. No backup shoes.' · angle: Thanksgiving/holiday travel: open weekender bag, pack one pair (airport miles) · copy: stefanbrain
+- W48_11_day3_sentence_split · plus_size · 'Day Two.' · angle: Plus-size Disney: day 1/2/3 decline, one sentence split above and below the shoe · copy: stefanbrain
+- W48_12_packing_list_plus_trip · plus_size · 'Park Packing List: What Actually Worked' · angle: Plus-size travel: handwritten packing list (crossed-out fixes, our shoe ticked) · copy: stefanbrain
+- W48_13_snow_drift_two_pairs · plus_size · "Planning a holiday trip? Don't end up on the bench." · angle: Plus-size holiday city trip (NYC tree): two pairs + travel bag in fresh snow · copy: stefanbrain
+- W48_14_oil_painting_first_steps · active_retiree · 'Dreading your first morning steps? It may be your shoes, not your age.' · angle: Senior PF: vintage oil painting of a woman on her bed rubbing her heel at dawn · copy: stefanbrain
+- W48_15_skeptic_thumbs_down · comfort_only · 'I swore this shoe was another online scam.' · angle: Objection "is it a scam?": skeptic woman 70 thumbs-down while holding the shoe, short caption · copy: stefanbrain
+- W48_16_bf_big_type_dots · comfort_only · 'BLACK FRIDAY SALE' · angle: Offer: BLACK FRIDAY SALE big type + colorway dots (H3 iteration) · copy: stefanbrain
+- W48_17_try_this_if_insoles · retail_warehouse · 'Try this if insoles failed on concrete.' · angle: Warehouse/retail on concrete: "try this if insoles failed you" hand + starburst (I6 iteration) · copy: stefanbrain
+- W48_18_gift_handoff_mom · gift_for_her · '60%' · angle: Gift for mom: hands passing the shoe with a gold bow + huge 60% OFF SITEWIDE block (O1 iteration) · copy: stefanbrain
+- W48_19_scrubs_legs_four_colors · plus_size · 'Which color for your next 12?' · angle: Plus-size nurse: legs in scrubs over the 4 nurse colorways with labels · copy: stefanbrain
+- W48_20_ugc_gift_plaid_box · gift_for_her · 'One for Mom.' · angle: Gift for mom: UGC hand lifts the shoe from a tartan gift box, story captions (buy 2 = one for her, one for mom) · copy: stefanbrain
+- W48_21_breakroom_newspaper_bf · cna_caregiver · 'BLACK FRIDAY: 60% OFF SITEWIDE' · angle: CNA/caregiver: Black Friday offer printed as the newspaper headline on the break-room table · copy: stefanbrain
+- W48_22_two_shoes_standing_swell · housekeeping · 'Morning pinch. Afternoon swell. We expand.' · angle: Housekeeping/swelling: tight sneaker vs our stretch-knit shoe standing side by side · copy: stefanbrain
+- W48_23_string_lights_holiday_rush · restaurant · 'Built for the holiday rush.' · angle: Server/line cook: working the holiday rush on wet kitchen tile, string lights · copy: stefanbrain
+- W48_24_cream_note_dont_sleep · retail_warehouse · "Don't sleep through this:" · angle: 65+ still working retail: "don't sleep through this" Black Friday note (light rebuild) · copy: stefanbrain
+- W48_25_question_senior_checklist · active_retiree · "First steps shouldn't hurt?" · angle: Retiree PF: "what do you mean my first steps don't have to hurt?" question header + woman holding the shoe + checks · copy: stefanbrain
+- W48_26_burlap_free_gifts_walk · walker_weightloss · 'Buy 2 Pairs, Get 2 Free Gifts' · angle: Post-Thanksgiving walker: burlap "FREE" big word, socks + travel bag with 2 pairs · copy: stefanbrain
+- W48_27_tiktok_kitchen_hug · gift_for_her · 'Mom actually wore her gift out of the box.' · angle: Gift: mom in pajamas hugging her new shoes in the kitchen, TikTok caption (daughter POV) · copy: stefanbrain
+- W48_28_lawn_sign_bunions · comfort_only · "Wide shoes shouldn't feel like flat cardboard." · angle: Bunions + arch support (market gap): the statement printed on a front-lawn yard sign · copy: stefanbrain
+- W48_29_knit_stack_room · comfort_only · 'Room for your toes. Built to flex.' · angle: Wide/squeezed toes (test): folded knit stack with centered title, the stretch-knit story · copy: stefanbrain
+- W48_30_fall_poster_ball_of_foot · traveler · 'When the balls of your feet burn' · angle: Burning ball of foot after a city/shopping day (test pain), fall-leaf poster with a photo window · copy: stefanbrain
+- W48_31_harvest_basket_cook · comfort_only · 'Standing all day cooking? Your feet deserve this.' · angle: Thanksgiving host standing 9 hours cooking: swollen feet; shoe in a harvest basket · copy: stefanbrain
+- W48_32_bf_display_riser_range · comfort_only · 'Find Your Color. 60% Off Sitewide.' · angle: Black Friday: the whole colorway range on a boutique display riser, ribbon bands · copy: stefanbrain
+- W48_33_forearm_sticky_features · nurse · 'Nurse Essentials' · angle: Nurse: 4 sticky notes down a forearm, one feature each (answers Hike sticky-note forearm + Stepprs 427d sticky-note guarantee) · copy: stefanbrain
+- W48_34_hospital_corridor_12s_float · nurse · 'Built For 12-Hour Shifts On Hard Hospital Floors' · angle: Nurse 12-hour shifts: shoe floating over a blurred hospital corridor, number-highlight headline (answers Stepprs 424d) · copy: stefanbrain
+- W48_35_retirement_bf_red · steady_feet · 'RETIREMENT WITHOUT TIRED FEET' · angle: Over-60 age call-out: retirement + feet, white/red Black Friday theme, 4 checks + 2 pills (answers Hike "Retirement without sore feet") · copy: stefanbrain
+- W48_36_morning_after_12s_price · nurse · 'First Steps After Three 12s' · angle: Nurse morning heel pain after 3 12s: $120 struck -> $59.95 price block (answers Stepprs $42->$11 morning heel) · copy: stefanbrain
+- W48_37_podiatrist_reasons_grid · stylist · 'Podiatrist-Recommended' · angle: ANGLE GAP: podiatrist-recommended as the headline, 6-tile reasons grid (stylist on her feet all day) · copy: stefanbrain
+- W48_38_walkers_turn_back · steady_feet · 'Tired of turning back early?' · angle: ANGLE GAP: daily walker who turns back early (walking-group photo + question panel) · copy: stefanbrain
+- W48_39_were_sorry_step_count · traveler · "We're Sorry." · angle: ANGLE GAP: "We're sorry" comfort side effect (travel: your step count / the family can't keep up with you) · copy: stefanbrain
+- W48_40_grass_question_plus_swell · plus_size · 'Fit fine at breakfast, tight by 3 PM?' · angle: Plus-size swollen feet by afternoon: question band over a sunlit walk (answers Hike swollen ankles / heavier women 49d) · copy: stefanbrain
+
 ## 2026-W48-blackfriday (27)
 
 - B48_01_neon_black_friday · comfort_only · 'BLACK FRIDAY SALE' · angle: Neon-glow dark hero with sale badge
@@ -113,6 +156,27 @@ Every concept from weeks/*/concepts.json, newest first: headline, angle, source 
 - P48_05_alert_post_gifts · comfort_only · 'BLACK FRIDAY ALERT' · angle: Native fan-style text post: 'Have you heard?' Black Friday alert about the buy-2 free gifts, cartoon avatar
 - P48_06_alert_post_60 · comfort_only · 'BLACK FRIDAY ALERT' · angle: Native fan-style text post: 'Have you heard?' Black Friday alert, 60% off sitewide
 
+## 2026-W47-winning-angles (18)
+
+- WA_REV_NUR · nurse · '"I work 12 hour shifts and my feet and back don\'t hurt."' · angle: Nurses on 12-hour hospital shifts x Black Friday · copy: stefanbrain
+- WA_REV_DIS · traveler · '"First time my feet haven\'t hurt in years after standing all day long!"' · angle: Disney trip: theme-park days, 20,000 steps, long lines x Black Friday · copy: stefanbrain
+- WA_REV_DPL · plus_size · '"comfortable enough to wear for an 8 hour work day, on concrete floors!!"' · angle: Plus-size woman on a Disney trip (overweight park day: winner TOFV1_NH3 GeneralOverweightParkDay) x Black Friday · copy: stefanbrain
+- WA_REV_EUR · traveler · '"They gave me great balance and stability for my daily walks."' · angle: Europe bucket-list trip: cobblestones, 20,000-step sightseeing days x Black Friday · copy: stefanbrain
+- WA_REV_PLS · plus_size · '"today is the first day I haven\'t limped in 2 months."' · angle: Plus-size woman walking and standing all day (weight-bearing walker) x Black Friday · copy: stefanbrain
+- WA_REV_FLY · traveler · '"There is plenty of room for my feet to expand(swell)..."' · angle: Long flights and airport terminals: travel days, swollen feet after flying (winner TOFV1_JW1 "2026s Favorite Shoes For Traveling") x Black Friday · copy: stefanbrain
+- WA_NOT_NUR · nurse · "Your sneakers\\nweren't built for\\n12-hour shifts" · angle: Nurses on 12-hour hospital shifts x Black Friday · copy: stefanbrain
+- WA_NOT_DIS · traveler · "Your walking shoes\\nweren't built for\\ntheme parks" · angle: Disney trip: theme-park days, 20,000 steps, long lines x Black Friday · copy: stefanbrain
+- WA_NOT_DPL · plus_size · "Your runners\\nweren't built for\\npark walking" · angle: Plus-size woman on a Disney trip (overweight park day: winner TOFV1_NH3 GeneralOverweightParkDay) x Black Friday · copy: stefanbrain
+- WA_NOT_EUR · traveler · "Your walking shoes\\nweren't built for\\ncobblestones" · angle: Europe bucket-list trip: cobblestones, 20,000-step sightseeing days x Black Friday · copy: stefanbrain
+- WA_NOT_PLS · plus_size · "Your sneakers\\nweren't built for\\nall-day standing" · angle: Plus-size woman walking and standing all day (weight-bearing walker) x Black Friday · copy: stefanbrain
+- WA_NOT_FLY · traveler · "Your slip-ons\\nweren't built for\\nlong flights" · angle: Long flights and airport terminals: travel days, swollen feet after flying (winner TOFV1_JW1 "2026s Favorite Shoes For Traveling") x Black Friday · copy: stefanbrain
+- WA_LIE_NUR · nurse · 'The nursing shoe industry lies about your pain.' · angle: Nurses on 12-hour hospital shifts x Black Friday · copy: stefanbrain
+- WA_LIE_DIS · traveler · 'The theme park shoe industry lies about your pain.' · angle: Disney trip: theme-park days, 20,000 steps, long lines x Black Friday · copy: stefanbrain
+- WA_LIE_DPL · plus_size · 'The athletic shoe industry lies about your pain.' · angle: Plus-size woman on a Disney trip (overweight park day: winner TOFV1_NH3 GeneralOverweightParkDay) x Black Friday · copy: stefanbrain
+- WA_LIE_EUR · traveler · 'The travel shoe industry lies about your pain.' · angle: Europe bucket-list trip: cobblestones, 20,000-step sightseeing days x Black Friday · copy: stefanbrain
+- WA_LIE_PLS · plus_size · 'The comfort shoe industry lies about your pain.' · angle: Plus-size woman walking and standing all day (weight-bearing walker) x Black Friday · copy: stefanbrain
+- WA_LIE_FLY · traveler · 'The airport shoe industry lies about your pain.' · angle: Long flights and airport terminals: travel days, swollen feet after flying (winner TOFV1_JW1 "2026s Favorite Shoes For Traveling") x Black Friday · copy: stefanbrain
+
 ## 2026-W47-tue (20)
 
 - T47_01_insoles_ice_still_heel_pain · nurse · 'Insoles. Ice. Stretching. Still heel pain after 3 12s?' · angle: Nurse x plantar fasciitis: stacked confession of what she tried over a real work photo (Koprez format). Answers Stepprs' "I've tried so many insoles for my plantar fasciitis" (their 424-day testimonial): insoles alone were not enough.
@@ -135,6 +199,81 @@ Every concept from weeks/*/concepts.json, newest first: headline, angle, source 
 - T47_18_bunions_without_with_faces · active_retiree · 'Bunions rubbing in narrow shoes?' · angle: Test pain: bunions, retiree. Two-panel face reaction split (wince vs relief) with "Without / With" tabs and the shoe on the right panel. Direct answer to Stepprs' "PLANTAR FASCIITIS: without Stepprs / with Stepprs" face split.
 - T47_19_over_60_wet_sidewalks_grip · active_retiree · 'Over 60 and walking on wet fall sidewalks?' · angle: ANGLE GAP: age call-out + wet fall/winter sidewalks (competitors: Hike "Wet leaves. Slushy parking lots. That first icy morning.", Kuru/Armadilo age call-outs; 439 ads, weight 34,308). Grip framed only as "slip-resistant grip" (approved), no fall-prevention claim. OrthoFlexx white layout with red bottom guarantee bar.
 - T47_20_back_in_stock_black_purple · comfort_only · 'Black/Purple is back in stock.' · angle: ANGLE GAP: restock / scarcity (Hike "Best Sellers. Almost Sold Out." 44d; Konjoun, Clove, Footstr; 56 ads, weight 7,285). Overhead pair on a solid blue field, headline with one word in a dark block, check lines, offer pills. NEEDS_CONFIRMATION: only usable if Black/Purple really was sold out and restocked.
+
+## 2026-W47-themes-all (39)
+
+- TA_IV_01_H · nurse · '12-Hour Shift Comfort' · angle: Healthcare x Black Friday (same layout as IV_01_halfprice_grid) · copy: stefanbrain
+- TA_IV_01_D · traveler · 'Theme Park Comfort' · angle: Disney x Black Friday (same layout as IV_01_halfprice_grid) · copy: stefanbrain
+- TA_IV_01_T · traveler · 'All-Day Travel Comfort' · angle: Travel x Black Friday (same layout as IV_01_halfprice_grid) · copy: stefanbrain
+- TA_IV_02_D · traveler · 'Stop dreading Disney.. Try this' · angle: Disney x Black Friday (same layout as IV_02_stop_changing) · copy: stefanbrain
+- TA_IV_02_T · traveler · 'Stop dreading cobblestones.. Try this' · angle: Travel x Black Friday (same layout as IV_02_stop_changing) · copy: stefanbrain
+- TA_IV_03_H · nurse · 'Hospital: All-Shift Comfort' · angle: Healthcare x Black Friday (same layout as IV_03_beach_checklist) · copy: stefanbrain
+- TA_IV_03_D · traveler · 'Disney: All-Day Comfort' · angle: Disney x Black Friday (same layout as IV_03_beach_checklist) · copy: stefanbrain
+- TA_IV_04_D · traveler · 'All-Day Park Walking' · angle: Disney x Black Friday (same layout as IV_04_strike_list_nurse) · copy: stefanbrain
+- TA_IV_04_T · traveler · 'All-Day Sightseeing' · angle: Travel x Black Friday (same layout as IV_04_strike_list_nurse) · copy: stefanbrain
+- TA_IV_05_D · traveler · 'Can I use my HSA/FSA on shoes for Disney?' · angle: Disney x Black Friday (same layout as IV_05_hsa_comment) · copy: stefanbrain
+- TA_IV_05_T · traveler · 'Ortho Stretch Cushion Shoe: 60% off sitewide this Black Friday.' · angle: Travel x Black Friday (same layout as IV_05_hsa_comment) · copy: stefanbrain
+- TA_BF5_01_D · traveler · 'Walking shoe industry lies about your theme park pain.' · angle: Disney x Black Friday (same layout as BF5_01_industry_lies_nurse) · copy: stefanbrain
+- TA_BF5_01_T · traveler · 'Travel shoe industry lies about your pain.' · angle: Travel x Black Friday (same layout as BF5_01_industry_lies_nurse) · copy: stefanbrain
+- TA_BF5_02_H · nurse · 'BREAK INTO BLACK FRIDAY.' · angle: Healthcare x Black Friday (same layout as BF5_02_break_into_bf_disney) · copy: stefanbrain
+- TA_BF5_02_T · traveler · 'BREAK INTO BLACK FRIDAY.' · angle: Travel x Black Friday (same layout as BF5_02_break_into_bf_disney) · copy: stefanbrain
+- TA_BF5_03_H · nurse · '60% OFF SITEWIDE' · angle: Healthcare x Black Friday (same layout as BF5_03_strike_percent_travel) · copy: stefanbrain
+- TA_BF5_03_D · traveler · '60% OFF SITEWIDE' · angle: Disney x Black Friday (same layout as BF5_03_strike_percent_travel) · copy: stefanbrain
+- TA_BF5_04_D · traveler · 'We Stocked Up For Black Friday.' · angle: Disney x Black Friday (same layout as BF5_04_ordered_too_many_nurse) · copy: stefanbrain
+- TA_BF5_04_T · traveler · 'Our Warehouse Is Completely Full.' · angle: Travel x Black Friday (same layout as BF5_04_ordered_too_many_nurse) · copy: stefanbrain
+- TA_BF5_05_H · plus_size · 'Built For Lasting Support On 12-Hour Hospital Shifts.' · angle: Healthcare x Black Friday (same layout as BF5_05_big_review_disney) · copy: stefanbrain
+- TA_BF5_05_T · plus_size · 'Tested On All-Day Cobblestones. 9 Failed. 1 Delivered.' · angle: Travel x Black Friday (same layout as BF5_05_big_review_disney) · copy: stefanbrain
+- TA_BF5_06_D · traveler · 'WALKING 20,000 STEPS AT DISNEY? WHAT GOES ON YOUR FEET?' · angle: Disney x Black Friday (same layout as BF5_06_neuropathy_flatlay_nurse) · copy: stefanbrain
+- TA_BF5_06_T · traveler · 'WALKING 8 MILES ON COBBLESTONES? WHAT GOES ON YOUR FEET?' · angle: Travel x Black Friday (same layout as BF5_06_neuropathy_flatlay_nurse) · copy: stefanbrain
+- TA_BF5_07_H · nurse · 'We f*cked up.' · angle: Healthcare x Black Friday (same layout as BF5_07_we_messed_up_travel) · copy: stefanbrain
+- TA_BF5_07_D · traveler · 'We f*cked up.' · angle: Disney x Black Friday (same layout as BF5_07_we_messed_up_travel) · copy: stefanbrain
+- TA_BF5_08_D · traveler · '60% OFF SITEWIDE' · angle: Disney x Black Friday (same layout as BF5_08_ending_it_nurse) · copy: stefanbrain
+- TA_BF5_08_T · traveler · '60% OFF SITEWIDE' · angle: Travel x Black Friday (same layout as BF5_08_ending_it_nurse) · copy: stefanbrain
+- TA_BF5_09_D · traveler · 'Using leftover FSA dollars during Black Friday so my feet survive 20,000 Disney steps.' · angle: Disney x Black Friday (same layout as BF5_09_pov_fsa_nurse) · copy: stefanbrain
+- TA_BF5_09_T · traveler · 'Using leftover FSA funds during Black Friday for shoes that conquer European cobblestones.' · angle: Travel x Black Friday (same layout as BF5_09_pov_fsa_nurse) · copy: stefanbrain
+- TA_BF5_10_H · nurse · "YOUR RUNNING SHOES WEREN'T BUILT FOR 12-HOUR HOSPITAL SHIFTS." · angle: Healthcare x Black Friday (same layout as BF5_10_not_built_for_europe) · copy: stefanbrain
+- TA_BF5_10_D · traveler · "Your running shoes weren't built for a Disney trip" · angle: Disney x Black Friday (same layout as BF5_10_not_built_for_europe) · copy: stefanbrain
+- TA_BF5_11_H · nurse · 'THE 12-HOUR REORDER RUSH' · angle: Healthcare x Black Friday (same layout as BF5_11_reorder_rush_disney) · copy: stefanbrain
+- TA_BF5_11_T · traveler · 'THE TRAVEL REORDER RUSH' · angle: Travel x Black Friday (same layout as BF5_11_reorder_rush_disney) · copy: stefanbrain
+- TA_BF5_12_H · nurse · 'RE: Black Friday' · angle: Healthcare x Black Friday (same layout as BF5_12_re_bf_sorry_disney) · copy: stefanbrain
+- TA_BF5_12_T · traveler · 'RE: Black Friday' · angle: Travel x Black Friday (same layout as BF5_12_re_bf_sorry_disney) · copy: stefanbrain
+- TA_BF5_13_H · nurse · 'STAND ALL SHIFT\nWITHOUT SORE FEET' · angle: Healthcare x Black Friday (same layout as BF5_13_burning_arches_travel) · copy: stefanbrain
+- TA_BF5_13_D · traveler · 'WALK ALL DAY AT DISNEY\nWITHOUT SORE HEELS' · angle: Disney x Black Friday (same layout as BF5_13_burning_arches_travel) · copy: stefanbrain
+- TA_BF5_14_D · traveler · 'EARLY BLACK FRIDAY IS LIVE!' · angle: Disney x Black Friday (same layout as BF5_14_whiteboard_nurse) · copy: stefanbrain
+- TA_BF5_14_T · traveler · 'EARLY BLACK FRIDAY IS LIVE!' · angle: Travel x Black Friday (same layout as BF5_14_whiteboard_nurse) · copy: stefanbrain
+
+## 2026-W47-sb-ab (5)
+
+- SB_T47_01_insoles_ice_still_heel_pain · nurse · 'Still limping. Until these.' · angle: Nurse x plantar fasciitis: stacked confession of what she tried over a real work photo (Koprez format). Answers Stepprs' "I've tried so many insoles for my plantar fasciitis" (their 424-day testimonial): insoles alone were not enough. · copy: stefanbrain
+- SB_T47_05_er_nurse_comment_circled · nurse · 'Four 12s. Zero knee pain.' · angle: Nurse x knee/back: native Facebook comment at the top with one phrase circled in red, below it big text blocks and the shoe (Treatmedy format). · copy: stefanbrain
+- SB_T47_06_didnt_fail_disney_drawer · traveler · "You didn't fail at Disney. You packed the wrong shoes." · angle: Disney x sore feet: "You didn't fail at Disney. You packed the wrong shoes." over a drawer of worn generic running sneakers (TheraPexa format), our shoe on top. · copy: stefanbrain
+- SB_T47_12_forty_off_not_comfier_refund · nurse · '40% OFF' · angle: Nurse x heel pain + offer: seated legs in light trousers with the shoe, giant "40% OFF", refund line and guarantee bar. Direct answer to Hike's new "Before Black Friday 40% OFF only this week / No pain relief & better balance = FULL REFUND". · copy: stefanbrain
+- SB_T47_19_over_60_wet_sidewalks_grip · active_retiree · 'Over 60? Wet leaves? Slick sidewalks?' · angle: ANGLE GAP: age call-out + wet fall/winter sidewalks (competitors: Hike "Wet leaves. Slushy parking lots. That first icy morning.", Kuru/Armadilo age call-outs; 439 ads, weight 34,308). Grip framed only as "slip-resistant grip" (approved), no fall-prevention claim. OrthoFlexx white layout with red bottom guarantee bar. · copy: stefanbrain+edit
+
+## 2026-W47-insp-set5 (14)
+
+- BF5_01_industry_lies_nurse · nurse · 'The nursing shoe industry lies about your pain.' · angle: Healthcare x Black Friday · copy: stefanbrain
+- BF5_02_break_into_bf_disney · traveler · 'BREAK INTO BLACK FRIDAY.' · angle: Disney x Black Friday · copy: stefanbrain
+- BF5_03_strike_percent_travel · traveler · '60% OFF' · angle: Travel x Black Friday · copy: stefanbrain
+- BF5_04_ordered_too_many_nurse · nurse · 'WE ORDERED WAY TOO MANY.' · angle: Healthcare x Black Friday · copy: stefanbrain
+- BF5_05_big_review_disney · plus_size · 'Built for plus-size bodies walking all day.' · angle: Disney x Black Friday · copy: stefanbrain
+- BF5_06_neuropathy_flatlay_nurse · nurse · 'WALKING 5 MILES A SHIFT WITH BURNING HEELS?' · angle: Healthcare x Black Friday · copy: stefanbrain
+- BF5_07_we_messed_up_travel · traveler · 'WE F*CKED UP.' · angle: Travel x Black Friday · copy: stefanbrain
+- BF5_08_ending_it_nurse · nurse · '60% OFF SITEWIDE' · angle: Healthcare x Black Friday · copy: stefanbrain
+- BF5_09_pov_fsa_nurse · nurse · 'POV: Using Leftover FSA On Black Friday' · angle: Healthcare x Black Friday · copy: stefanbrain
+- BF5_10_not_built_for_europe · traveler · "YOUR RUNNING SHOES WEREN'T BUILT FOR A TRIP TO EUROPE." · angle: Travel x Black Friday · copy: stefanbrain
+- BF5_11_reorder_rush_disney · traveler · 'THE REORDER RUSH' · angle: Disney x Black Friday · copy: stefanbrain
+- BF5_12_re_bf_sorry_disney · traveler · 'RE: Black Friday' · angle: Disney x Black Friday · copy: stefanbrain
+- BF5_13_burning_arches_travel · traveler · 'WALK 20,000 STEPS WITHOUT BURNING ARCHES.' · angle: Travel x Black Friday · copy: stefanbrain
+- BF5_14_whiteboard_nurse · nurse · '12-HOUR SHIFT SHOES' · angle: Healthcare x Black Friday · copy: stefanbrain
+
+## 2026-W47-insp-set4 (5)
+
+- IV_01_halfprice_grid · comfort_only · 'ALL-DAY COMFORT' · angle: Black Friday six-color lineup sale · copy: stefanbrain
+- IV_02_stop_changing · nurse · 'STOP CHANGING SHOES.. TRY THIS' · angle: Nurse who keeps switching shoes every few months · copy: stefanbrain
+- IV_03_beach_checklist · traveler · 'WALK ALL DAY\nIN TOTAL COMFORT' · angle: Vacation/beach-town walking: comfort for long travel days · copy: stefanbrain
+- IV_04_strike_list_nurse · nurse · '✓ ALL-DAY SHIFT COMFORT' · angle: What a 12-hour shift does to her feet, crossed out · copy: stefanbrain
+- IV_05_hsa_comment · nurse · 'Last-minute ideas for using HSA/FSA funds before they expire?' · angle: Year-end HSA/FSA use-it-or-lose-it · copy: stefanbrain
 
 ## 2026-W47-insp-set3 (14)
 
@@ -203,6 +342,23 @@ Every concept from weeks/*/concepts.json, newest first: headline, angle, source 
 - W47_38_dear_walkers · walker_weightloss · 'Dear daily walkers, your knees notice.' · angle: Walker x knees: 'Dear daily walkers' callouts
 - W47_39_stylist_standing_list · stylist · 'Shoes for stylists on their feet all day.' · angle: Hairstylist x standing all day: check list
 - W47_40_lockscreen_5am_alarm · nurse · '5:00 AM. Heel pain on the first step.' · angle: Nurse x morning first steps: phone lock screen alarm and reminders
+
+## 2026-W47-dr5 (6)
+
+- DR_01_hour1_vs_hour10_nurse · nurse · "Your running shoes\nweren't built for\n12-hour shifts." · angle: Running shoes weren't built for 12-hour shifts (proven: WA_NOT_NUR, Cuurt 'Your ASICS weren't built for pickleball') · copy: stefanbrain
+- DR_02_disney_day2_text_plus · plus_size · 'Standard sneakers flatten by hour 8. These do not.' · angle: Plus-size woman at Disney who sat out day 2 last trip (proven segment: TOFV1_NH3 GeneralOverweightParkDay, top spender) · copy: stefanbrain
+- DR_03_this_is_what_happens_7am_7pm · nurse · 'This is what happens to your feet when you work 12 hours in sneakers.' · angle: Swelling mechanism shown across one shift (7 AM fit becomes a 2 PM clamp) · copy: stefanbrain
+- DR_04_cobblestone_comment_europe · traveler · 'Ortho Stretch: Built for 20,000 steps on European cobblestones.' · angle: Europe bucket-list trip: cobblestones + 20,000 steps · copy: stefanbrain
+- DR_05_podiatrist_cut_open · comfort_only · "Why your 'comfortable' sneakers stop working by hour 6." · angle: A podiatrist shows why 'comfortable' sneakers stop working (approved: podiatrist-recommended; podiatrist character allowed) · copy: stefanbrain
+- DR_04b_cobblestone_comment_europe_navy · traveler · 'Ortho Stretch: Built for 20,000 steps on European cobblestones.' · angle: Europe bucket-list trip: cobblestones + 20,000 steps · copy: stefanbrain
+
+## 2026-W47-creative5 (5)
+
+- CR_01_other_guys_nurse · nurse · 'The Other Guys vs. Ortho Stretch' · angle: Running shoes vs Ortho Stretch for 12-hour nurse shifts · copy: stefanbrain
+- CR_02_two_nurses_hour12 · nurse · 'Same 12-hour shift. Two very different walks to the car.' · angle: Two nurses, same 12-hour shift, very different walk to the car (wrong shoes vs Ortho Stretch) · copy: stefanbrain
+- CR_03_would_you_rather_disney · traveler · 'Would You Rather' · angle: Disney trip: would you rather sit out day 2 with blisters/aching feet or walk every park · copy: stefanbrain
+- CR_04_really_fixes · nurse · '8 fixes to survive one 12. Really?' · angle: Everything she stacks to survive a shift (insoles, compression socks, ice bottles, ibuprofen...) vs one pair of shoes · copy: stefanbrain
+- CR_05_biggest_deal_bf · comfort_only · 'Our biggest comfort deal!' · angle: Black Friday: our biggest comfort deal of the year · copy: stefanbrain
 
 ## 2026-W46-tue (20)
 
