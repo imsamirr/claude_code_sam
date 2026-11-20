@@ -180,7 +180,7 @@ COPY_SCHEMA = {
 
 SLOT_KEYS = ("id", "group", "persona", "appliance", "colorway", "lang", "format", "funnel", "offer", "rival",
              "angle_gap", "angle", "based_on", "benchmark", "background", "copy_slots", "copy_notes",
-             "dr_brief", "risk", "bets")
+             "dr_brief", "reference_blocks", "risk", "bets")
 
 
 def brief(cfg, folder, concepts):
@@ -214,11 +214,17 @@ def brief(cfg, folder, concepts):
         "Where a slot has dr_brief, it lists the facts and reasons this avatar wants to hear for each of the"
         " 4 sales (content, hope, value, impulse): topic, who speaks, point of contact, problem / function /"
         " solution mechanism, conditions, USP, features and the lever each one pulls, anchoring, risk reversal,"
-        " gain now, lose later. Say those things; the words, order and rhythm are yours. The image carries"
-        " the content sale plus one hope beat; primary_text carries the rest in order.",
+        " gain now, lose later. Say those things; the words are yours. Where a slot has reference_blocks, they are"
+        " the parts of the proven reference ad it is built on, in order, each named by its job: follow that order"
+        " and rhythm (the dr_brief decides what is said in each part). The image carries the content sale plus one"
+        " hope beat; primary_text carries the rest in order.",
         "",
         "Concept slots (id, audience, layout and source are fixed; the words are yours):",
     ]
+    missing = [c.get("id") for c in concepts if not c.get("dr_brief")]
+    if missing:  # ad_psychology.md §9.32: the model must not guess the psychology
+        print(f"WARNING: no dr_brief on {', '.join(map(str, missing))}: fill it (static-ads §2b) before asking",
+              file=sys.stderr)
     for c in concepts:
         lines.append(json.dumps({k: c[k] for k in SLOT_KEYS if c.get(k) not in (None, "", [])},
                                 ensure_ascii=False))

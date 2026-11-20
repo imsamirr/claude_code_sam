@@ -1671,6 +1671,21 @@
       "conservative": 0.25,
       "moderate": 0.55,
       "aggressive": 0.2
-    }
+    },
+    "diy_substitutes": [
+      "sizes up -> heel slips",
+      "adds insoles -> they eat the toe room",
+      "buys cheap 'comfort' sneakers -> foam goes flat",
+      "switches to clogs -> no give, hard on cobblestones/tile"
+    ],
+    "odds_multi_angle": "support + room + roll in one shoe, vs fixes that each do one thing (insoles = support, a size up = room, rocker running shoe = roll)",
+    "dream_identity": [
+      "nurse with energy left to cook for her kids after a 12",
+      "grandma who walks the whole park with the grandkids instead of holding bags on the bench",
+      "traveler who does the walking tour instead of the bus"
+    ],
+    "anchor_vs_failed_fix": "compare the price with the failed fix she already pays for (the next $160 Hokas, insoles every few months, comfort clogs), not with coffee",
+    "time": "no confirmed break-in timeline: never state one; first-day comfort only as a real customer quote; never 'instant relief'",
+    "second_pass": "static-ads ad_psychology.md section 9 (user 2026-11-20)"
   }
 }

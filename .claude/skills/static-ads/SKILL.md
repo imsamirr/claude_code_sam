@@ -402,12 +402,28 @@ and from WHO (messenger), not to invent clever lines. Process every batch: **Pre
 3. **Brief**: every concept carries `dr_brief`, filled with sourced answers (name the winner, VOC quote,
    competitor ad or trend behind each):
    ```json
-   "dr_brief": {"who": "nurse coworker", "topic": "...", "format": "...", "concept": "logline: characters + narrative + topic",
+   "dr_brief": {"who": "nurse coworker", "avatar": "one line: sex, age, nationality, family role, faith if relevant, co-condition, years with the problem",
+     "language": ["her nouns, copied from 3 running ads aimed at this segment"], "topic": "... (source: behavior.md line)",
+     "format": "look from <ad>, narrative from <ad>, characters/roles", "concept": "logline: characters + narrative + topic",
+     "angle_habit": "the habit she has today that the angle calls out", "dream": "identity scene, not 'no foot pain'",
      "copy_hook_structure": "proven structure, e.g. 'Your X weren't built for Y'", "visual_hook": "...",
      "identification": "...", "point_of_contact": "...", "problem_mechanism": "...", "function_mechanism": "...",
      "solution_mechanism": "...", "conditions": "...", "usp": "...", "features": {"arch support + rocker sole": "odds"},
      "anchoring": "...", "risk_reversal": "...", "gain_now": "...", "lose_later": "..."}
    ```
+   Second-pass rules (`ad_psychology.md` §9, user 2026-11-20):
+   - Point of contact cites 2+ running ads that blame the same thing.
+   - Every problem-mechanism link is something VOC shows she already believes (a new link is a bet).
+   - The function mechanism says why the fix she tried works for others but not her, with its evidence: news, search question or lived comparison.
+   - Conditions name her do-it-yourself substitute (size up, insoles, cheap comfort sneakers, clogs).
+   - Anchoring compares the price with the failed fix she already pays for.
+   - Risk reversal counts 30 days in her units (shifts, park days).
+   - Effort removes the fear the topic raised.
+   - Each bet states its evidence.
+   - Concepts built on a reference carry `reference_blocks` (the reference's parts in order, named by job). StefanBrain follows their order and rhythm; the brief decides what is said.
+   - Behavior research per persona goes in `weeks/<folder>/behavior.md`: one line per behavior question, with its source, and 5+ topic candidates.
+   - No slot goes to StefanBrain without a filled `dr_brief`.
+
    Start from brand.json `ad_psychology.mechanism` and adapt it to the segment (the function mechanism should
    say why the fix *this segment* tried can't work for *them*: insoles for nurses, Hokas on cobblestones,
    "comfortable sneakers" at Disney hour 8). Features always name their lever (odds / dream / effort / time);

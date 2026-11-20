@@ -244,3 +244,138 @@ shipping speed). The mechanism is about **shoe construction**, never about heali
 - two-column vs
 - review-on-a-bench
 - FSA POV
+
+---
+
+## 9. Second pass, sentence by sentence (2026-11-20): what §0–§8 left out
+
+The user re-sent the thread and asked again for every sentence to be understood and applied. §0–§8 cover
+the frame. These are the details inside his worked example that change what we actually do. Each item is
+written as: his words → what it means → what we change.
+
+### Target
+
+1. **"If you try to talk to everyone... you talk to no one."**
+   - Meaning: one market, one segment and one avatar per ad.
+   - We change: `dr_brief.who` names one persona from `avatar_personas.md`. A concept that "works for nurses and travelers" is two concepts.
+2. **Choosing a market for a running brand: "find their landers with the most traffic"** and "analyze every ad they've launched in the last 60 days… whichever market shows up most."
+   - Meaning: the market is read off where the money already goes, not chosen by taste.
+   - We change: the market comes from our own spend (the §1b pull and the winners). For a new market, he wants at least 3 competitors in it, or he "cuts it right away".
+   - We only open a new market (e.g. a new job or condition) when at least 3 advertisers run it on Atria. Log the count in `angle_gap`.
+3. **The poker rule: "minimize risk in low-leverage stages and raise the bet in high-leverage stages."**
+   - Meaning: low leverage = market, segment, avatar, mechanism. High leverage = concept, format look, hook.
+   - We change: a `bets` entry naming a new market or segment needs a reason in the concept. Default bets are `concept`, `format`, `hook`, `topic`.
+4. **The avatar spec is one line he can act on:** "a man, between 40 and 60, American, married, Christian, who has type 2 diabetes and has been dealing with ED for a few years."
+   - Meaning: demographics, faith, family role, a co-condition and how long she's had the problem.
+   - We change: `dr_brief.avatar` is one line of this kind, e.g. "woman, 58–66, American, married grandmother, churchgoer, plus-size with a bunion, 3+ years of foot pain, Disney trip in spring". Duration matters: years of failed fixes = more skepticism (§0).
+5. **Identity research is a fixed checklist.** He lists every question.
+   - Demographics: sex, age, nationality, language, race/ethnic group, religion, marital status, family role.
+   - Behavior: competitors' ads that catch her, general videos that catch her, trending topics, hobbies, news, movies/shows, other health conditions.
+   - Perspective: beliefs, biases, enemies, allies, language.
+   - Meaning: this is where he spends his research time, especially behavior.
+   - We change: the §1 research refresh answers the *behavior* questions for the batch's personas. Write them to `weeks/<folder>/behavior.md`: one line each, with the source (Atria ad, search question, news link, TikTok trend). Topic, format and hook ideas cite this file.
+6. **"Steal other people's research… ClickBank VSLs that performed in the past… advertorials and ads (from any year)."**
+   - Meaning: psychographics live inside old winners; they "don't change that much".
+   - We change: when a persona's pains feel thin, read long-running footwear/orthotic advertorials and long-form ads before writing anything new. Use Atria (long `days_running`, any start date) and our own `research/longform_angles.md`. Don't re-run surveys or deep VOC for psychographics.
+7. **"The ads and funnels aimed at the same segment already carry the small differences, language patterns and nuances."**
+   - We change: before briefing a segment, read 3 running ads aimed at exactly that segment. Copy their *nouns* (what she calls her feet, her shoes, her shifts) into `dr_brief.language`. Example: he used "johnson" because he "saw a few ads referring to the avatar's penis" that way.
+
+### Mechanism
+
+8. **Point of contact = the consensus of the segment's ads.** "Every ad aimed at this segment points to high blood sugar as the main culprit."
+   - Meaning: don't pick the point of contact from logic. Pick what that segment's ads already blame.
+   - We change: `point_of_contact` cites at least 2 running ads (ours or competitors') that blame the same thing.
+9. **Problem mechanism = "connect the dots", not "convince".** "I don't need to convince him of anything new."
+   - Meaning: a chain of 2–3 facts she already half-believes.
+   - We change: every link in `problem_mechanism` must be something VOC or the survey shows she already believes (e.g. "my feet swell by afternoon", "the foam goes flat"). A link she has never heard is a bet: add it to `bets`.
+10. **Function mechanism uses three kinds of evidence:**
+    - a news story ("men with ED who have diabetes… get weaker results from the little blue pills");
+    - a search question that shows a fear ("Can you mix Viagra with metformin?");
+    - her own lived comparison (a friend without diabetes for whom it works).
+    - That gives the line "the little blue pill wasn't made for men with diabetes".
+    - Meaning: the obvious fix fails *because of who she is*, and she has seen it work for someone else.
+    - We change: `function_mechanism` names the fix this segment already tried and why it works for others but not for her. Examples:
+      - Hokas work for runners, not for 12 hours standing on tile.
+      - Insoles work in a roomy shoe, not in a tapered one.
+      - Skech\*rs work for errands, not for Disney hour 8.
+    - Cite the evidence type: news, search question or lived comparison.
+11. **Solution mechanism: "I barely have to work here."**
+    - Meaning: if 8–10 are right, the solution is one sentence: name the thing and what it does.
+    - We change: if `solution_mechanism` needs more than two sentences, the problem or function mechanism is weak. Fix those first.
+
+### Content (topic, format, concept, hooks)
+
+12. **Topic follows the segment's narrative style:** "Most of the ads… had an informational narrative… So I'm going to prioritize topics built around a specific 'fact'." And: "I usually list way more topics."
+    - We change: write 5+ candidate topics per persona in `behavior.md` and pick one. Match the style the segment's winners use (story vs fact). A search question is the strongest topic source.
+13. **Format = recombine validated pieces:** "From this first ad… the setting and the dynamic between the two characters… From this second ad… the style."
+    - Meaning: format has three parts: (a) look, (b) narrative style, (c) characters and roles. Each part can be borrowed from a different running ad.
+    - We change: `dr_brief.format` names the source of each part, e.g. "look: Hike notes-app ad m…; narrative: our COM320 informational; characters: podiatrist + nurse patient".
+14. **The one bet is "a hypothesis with something behind it… in the right market… with multiple elements that have already been validated"**, riding a moment ("GTA VI just came out and the timing is perfect").
+    - We change: an aggressive or moderate bet must state its evidence ("animation works in this market" → which ads) and, if it rides a moment, which moment and its date. "It's new" is not a reason.
+15. **Concept = characters + narrative + topic, then an angle that calls out a habit she probably has and amplifies the fear** ("Don't mix metformin with Viagra unless you want to lose your erections forever").
+    - We change: `dr_brief.concept` is a logline. `dr_brief.angle_habit` names the habit she has today (wearing running shoes to work, sizing up, buying insoles, saving "good shoes" for trips).
+16. **Copy hook: structure first, words second.** "The first thing I do is pick the hook structure… I found tons of ads using this structure, in different ways, in different formats."
+    - We change: `copy_hook_structure` names a structure with at least 3 running examples (ours or Atria ids), e.g. "This is what happens to your feet when…", "Don't wear X unless…", "Your X weren't built for Y". StefanBrain fills it with the segment's own nouns (item 7).
+17. **Visual hook: take a validated one and push it to match the copy hook** ("a rotting banana to crank up the shock").
+    - We change: `visual_hook` names the validated source and the one intensifier, e.g. "flattened running-shoe foam → foam split open with a crack". The intensifier must stay true to the product (no fake damage on our shoe).
+
+### Value
+
+18. **"This is where most ads fall apart… the ad turns into an ingredient catalog."**
+    - Static version: the shoe with six feature callouts.
+    - We change: the image carries at most one feature, and only one that proves the mechanism beat on the image. Features go in the primary text, each with its lever.
+19. **"If the Hope Sale was done right, the Value Sale almost takes care of itself."**
+    - We change: QA order. If the value copy feels like it needs a lot of convincing, the hope sale (7–11) is the problem.
+20. **Conditions answer the do-it-yourself substitute:** "Cool, I'll just buy some cayenne pepper at the grocery store." Then he lists the 3 conditions the substitute can't meet.
+    - We change: `conditions` names her DIY substitute and the conditions it misses:
+      - She buys a size up → the heel slips.
+      - She adds insoles → they take the toe room.
+      - She buys cheap "comfort" sneakers → the foam goes flat.
+      - She buys clogs → no give, and hard on cobblestones.
+    - The USP is then those same conditions, met one by one (brand.json `ad_psychology.mechanism.conditions` and `ad_psychology.diy_substitutes`).
+21. **Multi-angle odds: "the pills attack the problem from one side only. This formula attacks it from several sides at once."**
+    - We change: the odds argument is "support + room + roll in one shoe", against fixes that each do one thing (insoles = support, a size up = room, rocker running shoe = roll).
+22. **Dream ≠ the literal fix:** "This avatar's dream isn't 'getting an erection.' It's getting back the drive, the energy and the confidence…"
+    - We change: `dream` is an identity scene, not "no foot pain". Examples:
+      - the nurse who still has energy to cook for her kids after a 12;
+      - the grandma who walks the whole park with the grandkids instead of holding bags on the bench;
+      - the traveler who does the walking tour instead of the bus.
+23. **Effort answers the topic's own fear:** "no need to stop his metformin (which is exactly the fear our topic brought up)."
+    - We change: the effort line removes the fear the concept raised. Examples:
+      - "no breaking in" for a new-shoe-before-a-trip topic;
+      - "no inserts to swap" for an insoles topic;
+      - "slips on with no laces to retie" for a swelling topic. The rule against "easy slip-on/hands-free" wording still applies: describe the no-tie laces, don't promise hands-free.
+24. **Time: "I'm not going to promise results 'on the first night'… Instead, I explain why it takes time."**
+    - We change: we have no confirmed break-in timeline, so never state one. Use first-day comfort only as a real customer quote (Trustpilot).
+    - Never "instant relief" (claims). If a timeline is needed, explain the reason ("your feet have spent years in tapered shoes") without promising a date.
+25. **Anchoring ends on a comparison to what he already pays for:** "Less than you spend on a blue pill you already know doesn't work for you."
+    - We change: the anchor line compares the price to the failed fix she *already buys*: the next pair of $160 Hokas, a $50 box of insoles every few months, the comfort clogs. Not to coffee.
+
+### Impulse
+
+26. **"The Close isn't about 'squeezing' the avatar… It's about making him realize that the safest decision… is buying now."**
+    - We change: offer ads frame urgency as safety (keep the guarantee next to the deadline), not pressure.
+27. **Risk reversal = guarantee length vs time-to-result:** "almost twice the time he needs to see results before deciding." Not "120-day guarantee (everybody has one)".
+    - We change: 30 days = "every shift for a month" or "the whole trip and two weeks after". Count it in her units: shifts, trips, park days.
+28. **"The only risk here is to keep doing what you're already doing... and expect a different result."**
+    - We change: the closing risk line names her current habit (item 15).
+29. **Gain now is listed bundle by bundle** ("he pays for 2 bottles and gets 3").
+    - We change: offer ads show the exact stack for each option. They use only the offer that is live on the run date.
+30. **Lose later rides real timing:** "This ad is going to run right in the middle of Black Friday, so I'm going to ride the timing." His stock story is the brand's own situation.
+    - We change: ride Black Friday, Christmas and New Year with their real end dates. Stock or overstock stories only when the user confirms them.
+
+### Writing
+
+31. **Mini-blocks: "chunks of the reference ad split up by the job each one does, for example: hook, belief break, mechanism reveal, product presentation."**
+    - "The brief decides WHAT gets said. The reference only decides the ORDER and the RHYTHM."
+    - Meaning: the reference contributes its invisible structure, not its words.
+    - We change: every concept built on a reference carries `reference_blocks`: the reference ad's parts in order, each named by its job. Example: `["hook: callout of the habit", "belief break: it's not your age", "mechanism reveal: tapered toe box", "product: shoe + 1 feature", "offer + guarantee"]`.
+    - `ads/stefanbrain.py copy` sends it with the slot. StefanBrain follows that order and rhythm; the `dr_brief` decides what is said, and the words stay StefanBrain's. This is structure taken from a proven ad, not a framework of ours. It is the step he says people skip when "AI writes it" badly.
+32. **"They skip the brief and expect the model to guess the psychology for them."**
+    - We change: StefanBrain gets no concept without a filled `dr_brief`. `copy` warns when a slot has none.
+
+### What to ignore
+
+- The claims about himself and the revenue promise ("$100k, $200k, $300k a day") are credibility, not method.
+- His product-specific choices don't apply to us: sexualized character styling ("showing cleavage"), disease mechanisms and stock stories. Our claims rules and brand rules stay as they are.
+- He borrows a commercial game's characters for the format bet. We don't use other companies' characters or IP. The lesson we keep is "ride a cultural moment with a validated format type" (e.g. animation, a TV-show-style layout we make ourselves).
