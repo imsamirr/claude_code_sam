@@ -120,3 +120,61 @@ DB: https://app.notion.com/p/eb4a78ab12744d768dd8a3199123dfd1 · Most relevant t
 | Comodidad Desde El Primer Paso | Spanish-first Hispanic women 35–60 | "500,000+ mujeres ya las usan" | Occupation |
 
 The other ~145 angles are mostly occupation call-outs (cashiers, bakers, TSA, mail carriers, vet techs, hairstylists, flight crew, casino, warehouse, etc.), medical conditions (bunions, hammer toes, Morton's neuroma, RA, bursitis, AFO, post-surgery) and competitor switchers (OOFOS, Birkenstock, New Balance, Clove, FitVille, Otero, RYKA, ASICS, GDefy, Frankie4, Hawkwell, STAND+). None of them is a plus-size or Disney angle, so those winners exist only in the tracker, not in the databank.
+
+## 2026-11-20 refresh (Friday W48 run)
+
+Sources: the same tracker (Creative Strategy Tracker under "📅 Scripts 2026", data source `collection://34b23caf-f444-8135-a7cf-000bf1574806`) and the Ad Angle Databank. Read-only pull on 2026-11-20. I fetched 9 new brief pages (COM424, 428, 429, 430, 431, 432, 433, 434, 436, 439).
+
+**Winners:** no new `🏆 Winner` tags since 2026-11-17. COM49 is still the only tagged winner, and `Learnings` is still empty on every row. **New since last refresh:** the November brief pages now quote account numbers for the first time:
+- COM284 is the "number one prospecting winner": $6,130 CAD spend, 2.58 ROAS, 153 purchases. Meta headline: "2026's Favorite Shoes For Plus-Sized Traveling". It was scaled as COM388 for Black Friday.
+- Kyro 369 has $66.6k spend. Kyro 293 has $58.5k spend at 2.15 ROAS. Both are competitor-teardown winners, the same family as COM320.
+- These numbers come from the strategist's notes in COM430, COM432 and COM436, not from tracker fields. Check them against Meta before quoting.
+
+**Current offer, per the November briefs:** Black Friday 60% off sitewide through Dec 5 and the 30-day money-back guarantee; some briefs add free shipping. The everyday price is $59.95 (was $90), per the editor callouts on COM430 and COM432. The editors say not to show a Black Friday dollar price until it is confirmed. COM432 says not to mix this offer with the bundle/free-gift promo (COM410 had "2 free gifts w/ 2 pairs").
+
+**New rows since 11-17 (COM421–COM439; all "Editing" or blank, none launched or tagged):**
+- Black Friday net-new: COM429 Assisted-living warning (senior, 4-shoe teardown), COM430 "We asked 500 women on GLP-1", COM431 AI doctor "3 signs… tissue degeneration", COM432 "We asked 500 plus-size women traveling to NYC" (holiday), COM433 "Please don't order too many" (caregiver daughter, reverse scarcity), COM434 "We made a mistake" warehouse overstock (reason-why sale), COM436 "We asked 500 women who play pickleball", COM438 Black Friday warehouse AI avatar, COM439 no-VO mirror try-on (V1 nurse, V2 plus-size Disney).
+- Iterations: COM421 "250lbs at Disney" shortened, COM423 COM336 + authority figure, COM424 POV plus-size Disney cruise yapper, COM425/427 cartoon nurse shoes, COM428 "Hokas & Brooks are the worst shoes for Europe" (AI doctor), plus Spanish versions of COM376 (Disney) and COM325 (Warehouse).
+- Other new rows: COM422 "10 days in Europe" and COM426 "I once followed two plus-sized women". Stubs with no brief yet: COM435 "shoes got stolen, back to old nurse shoes" and COM437 nurse kid drama.
+- **Pattern:** the "We asked 500 [avatar]" survey + named-competitor teardown (COM284/320) is now being moved onto new avatars: pickleball, GLP-1, NYC holiday, church (COM409), seniors.
+
+**Claims flags in the new briefs. Don't lift these into statics:** COM439 V2 and COM431 say "extra-wide toe box" (banned). COM431 says "Over 500,000 nurses…" (misuses the 500,000+ figure), "Most feel the difference on their very first day" (instant relief) and "Medical studies show". COM429 uses "medical-grade" and invented stats ("65% of women over 72…", "over 80%"). COM430 has a placeholder "84%" stat. COM428 names a "Dr. Brown". COM429, COM430 and COM436 promise "no questions asked", which contradicts the current Trustpilot complaints. COM433's end card lists Beige/Mauve colorways, which don't exist.
+
+### 15 sharpest hooks / customer phrases (verbatim; from November iterations of the winning COM284/320/49 patterns, none proven yet)
+1. "We asked 500 women who play pickleball one simple question: what shoes do they actually wear? And the answer was almost always the same." (COM436)
+2. "Stop taking shoe advice from 25-year-old runners who do not walk in your body." (COM436)
+3. "If you are a woman over 200 pounds heading to NYC for the holidays, packing the wrong shoes will ruin your entire trip." (COM432)
+4. "Look, you did not spend thousands of dollars on flights, a midtown hotel, and Broadway tickets just to sit on a hotel bed with an ice bucket on your feet." (COM432)
+5. "The last thing you want is sending your family ahead to the Rockefeller Center tree without you because your heels are on fire." (COM432)
+6. "If you're taking a GLP-1 and nobody warned you about what happens to the bottom of your feet around week four, stop buying $160 running shoes." (COM430)
+7. "They were fine at breakfast, and still feeling great at hour eight." (COM430)
+8. "Please do not order too many pairs like I did." (COM433)
+9. "Before this, she was literally gripping the hallway wall just to make it to the bathroom in the morning." / "She hasn't touched that wall in weeks." (COM433)
+10. "We made a massive mistake. Thousands of our ComfortWear Shoes are completely stuck in our warehouse." (COM434)
+11. "That sharp, stabbing pain in your heel when your feet first touch the floor in the morning is not just normal aging." (COM431)
+12. "Your mobility did not leave because you got old. Your mobility left because your shoes failed your feet." (COM429)
+13. "These shoes are built to move a runner forward for 40 minutes, not climb stone steps in Lisbon or standing in Museum lines in Paris" (COM428)
+14. "If you weigh 250 lbs and are going on a Disney cruise, don't bring your Skech*rs and Hokas" / "I wasn't looking for a chair this time. I was able to keep up with everyone" (COM424)
+15. "12 hours on hospital concrete and zero heel pain when I walk to my car." (COM439 V1)
+
+### Recurring story beats and objections (November briefs)
+- **Survey open, then teardown, then "Not the fanciest. Not the most expensive."** The teardown has fixed villains: Hoka $165 ("wobbly", "knees hurt worse than their feet"), On Cloud $180 ("triangle-shaped toe box"), Brooks $140 ("built for forward running"), Skechers $65–90 ("memory foam compresses flat"), and $300 custom orthotics that "sit in a drawer".
+- **Signature payoff**, now reused in COM429, COM430 and COM436: "Their feet didn't hurt. Not hurt less. Didn't hurt."
+- **Lost-moment stakes:** sitting on a bench or hotel bed while family goes ahead; not in the photos; gripping the counter "by 2:00 PM"; the mailbox walk.
+- **Time-of-day contrast:** fine at 7–9 am, failing by 11 am to 2 pm or by hour 8.
+- **Mechanism (5 points):** arch support, rocker/heel cushion, wide stretch-knit toe box for swelling and bunions, slip-resistant grip, hands-free no-tie laces with pull tab. Hands-free is used more and more as a senior/arthritis independence point.
+- **Objections handled:** price (vs $165–180 sneakers and $300 orthotics), "is it cheap/defective?" (COM434: "not factory seconds"), buying online (30-day refund), style ("sleek profile", colorway shots), "it's just aging" (COM431, COM429).
+- **Production rules repeated across briefs:** only women wear the shoe; no stock footage; large captions for 50+ readers; blur competitor logos.
+
+### Databank: 8 angles not yet used much (all 167 rows still "Not started", no Performance Notes, no new rows since 2026-06-15)
+Hook lines in the databank still quote "$36" and "45-day". Brief StefanBrain on today's offer instead.
+| Angle | Persona | Why now / gap |
+|---|---|---|
+| She Won't Wear Old Lady Shoes (Gift Angle) | Daughters 40–55 buying for aging mums | Holiday gifting; COM433 covers the caregiver only as scarcity |
+| Comfort Without the Paperwork (Medicare/Neuropathy) | Women 55–75, neuropathy, fixed income | HSA/FSA year-end spend; no static yet. COM420 is the only neuropathy video |
+| Edema (Chronic Foot Swelling) | Women 60+ whose feet change size during the day | "Your feet aren't the same size at 8am and 3pm" fits a static; swelling only shows up as a feature line today |
+| Not a Nurse. Still Standing 12 Hours. | CNAs, X-ray/pharmacy techs, phlebotomists | Nurse is saturated; the adjacent roles are untouched |
+| Cashiers | Women 25–55 standing in one spot on concrete | Biggest occupation group in feedback (247 mentions); retail holiday shifts |
+| Annual Cost Math / No Insoles Needed | Women buying $130–165 shoes + insoles | Receipt-style static; pairs with the Black Friday price anchor |
+| Her Hands Don't Work in the Morning | Women 50–80 with RA/OA hand stiffness | Hands-free = independence; links to the COM429 senior theme without the fear framing |
+| Her Feet Grew a Size and a Half | Pregnant/postpartum women 25–40 | Completely untested avatar; slip-on + swelling |
