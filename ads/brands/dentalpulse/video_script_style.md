@@ -48,3 +48,7 @@ Hook checklist (each of the 3 hooks per brief):
 ## 4. Body (keep what's working)
 
 Pain in their words, then what they tried (brushing scratches, tablets leave film), then one simple mechanism line, then the proof (dirty water after one 5-minute cycle), then the offer and the 120-day guarantee, then one CTA. Promise for night guards and retainers: "stops it turning yellow / clear again / no film / no smell". Never promise old yellow vanishes.
+
+## 5. Masterclass lessons
+
+Also apply `masterclass_lessons.md`, the lessons from Nathan Perdriau's copywriting masterclass the owner shared on 20 Nov. In short: the 9 beats (hook, problem, promise, mechanism, objection handling, proof, offer, risk reversal, CTA), with the promise before the mechanism. The hook must bridge into line 2. Agitate one real accommodation from the VOC files, not just the symptom. Use specifics, not adjectives. Anchor on the dirty-water demonstration or the 6-of-7 lab test. Frame the 120-day guarantee as a reason to buy.

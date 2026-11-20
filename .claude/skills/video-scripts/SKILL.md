@@ -10,6 +10,7 @@ The copy rule in CLAUDE.md applies: StefanBrain writes every spoken line, SUPER 
 ## Sources to read first
 
 - `ads/brands/dentalpulse/video_script_style.md`: the owner's house style (plain words, less technical, hook checklist). It is also on the StefanBrain product.
+- `ads/brands/dentalpulse/masterclass_lessons.md`: lessons from the copywriting masterclass the owner shared (9 beats, bridges, accommodation, proof ladder, offer framing) and its checklist. Use this checklist too in step 4. Also on the StefanBrain product.
 - `ads/brands/dentalpulse/brand.json`: approved claims, claims to avoid, offers.
 - `ads/brands/dentalpulse/research/voc/`: survey refresh, Reddit, Amazon and YouTube voice of customer, and the 60-day Atria video performance digest.
 - StefanBrain project `proj_9ba354c8bfc94079b53e4c1347b0bd1e` (product "Dentalpulsepro" holds all the files). Use the session label `dentalpulse-video-scripts`, so every script stays in one chat.
