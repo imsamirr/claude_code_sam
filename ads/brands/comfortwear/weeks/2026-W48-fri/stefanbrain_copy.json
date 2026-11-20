@@ -618,6 +618,43 @@
      "why": "Answers Hike's 49-day running swollen ankles ad by directly addressing plus-size VOC on foam packing flat and shoes feeling two sizes smaller by 3 PM."
     }
    ]
+  },
+  {
+   "at": "2026-11-20T11:50:41",
+   "session": "comfortwear-statics-2026-W48-fri-1",
+   "chat": "chat_c886cd0f0eb244a8962a6ae9af7e113f",
+   "url": "https://stefanbrain.com/chat/c886cd0f-0eb2-44a8-962a-6ae9af7e113f",
+   "concepts": [
+    {
+     "angle": "Offer: Black Friday big-type 60% off sitewide + colorway dots",
+     "fb_description": "Free Shipping & Returns",
+     "fb_headline": "60% Off Sitewide | Black Friday Sale",
+     "headline": "BLACK FRIDAY SALE",
+     "id": "W48_16_bf_big_type_dots",
+     "on_image_text": [
+      "60% OFF SITEWIDE",
+      "Code LEAKED10: Extra 10% Off"
+     ],
+     "primary_text": "It is not your age. It is your shoes. If your first steps out of bed feel like stepping on sharp glass, and you find yourself gripping the nightstand every morning, you know the frustration. Most women over 60 blame their age and buy another pair of soft memory-foam slip-ons from the store. The problem is that cheap memory foam feels soft for ten minutes, but provides zero arch structure. Under your body weight, it collapses flat, letting your arches sag and your heels strike hard. On the other hand, rigid orthopedic shoes feel like heavy bricks. The Ortho Stretch Cushion Shoe was designed to give you real support without looking like an orthopedic brick. It features doctor-recommended anatomical arch support, a cushioned rocker sole that absorbs walking shock, and a wide toe box that gives swollen joints room to relax. The breathable stretch-knit upper slips on effortlessly with elastic no-tie laces, so there is no painful bending to tie shoes. Our biggest event of the year is officially live: 60% OFF SITEWIDE for Black Friday. Use code LEAKED10 at checkout for 60% OFF SITEWIDE + EXTRA 10% OFF, along with free shipping & returns. Try them on your own daily walks for 30 days. If you are not walking around the block with your grandkids in complete comfort, return them within 30 days for a full refund. Claim your pair at 60% off before the Black Friday sale ends.",
+     "why": "RTGv1_H3 static winner ($2.6k spend, ROAS 2.97) + Wander+ big-type format"
+    },
+    {
+     "angle": "Warehouse/retail on concrete: try this if insoles failed",
+     "fb_description": "60% Off Black Friday Sale",
+     "fb_headline": "Built for 12-Hour Concrete Shifts",
+     "headline": "Try this if insoles failed on concrete.",
+     "id": "W48_17_try_this_if_insoles",
+     "on_image_text": [
+      "60% OFF SITEWIDE",
+      "ARCH",
+      "CUSHION",
+      "GRIP",
+      "Black Friday sale ends soon"
+     ],
+     "primary_text": "If you work 8 to 12 hours on hard warehouse or retail concrete, you know what happens by lunchtime. Cheap sneaker foam packs down flat, your arches ache, and your feet feel like they are burning. Shoving $40 drugstore insoles inside old sneakers never solves it. The insoles just crowd your toes while the crushed-out shoe still bends in all the wrong places. And rigid work clogs feel like walking on solid wood. The Ortho Stretch Cushion Shoe was engineered specifically for women surviving long shifts on hard floors during the holiday rush. It combines built-in anatomical arch support with a shock-absorbing rocker sole that will not crush flat by hour 4. The wide toe box and breathable stretch-knit upper give swollen feet room to breathe, and the slip-resistant rubber tread grips slick concrete and warehouse ramps. Plus, elastic no-tie laces stay locked in place all shift long. For Black Friday, get 60% OFF SITEWIDE with free shipping & returns. Use promo code LEAKED10 at checkout for 60% OFF SITEWIDE + EXTRA 10% OFF. Wear them on your own concrete shifts for 30 days. If you are not finishing your shift with energy left to spare, return them within 30 days for a full refund. The Black Friday sale ends soon. Upgrade your work shoes before your next long shift.",
+     "why": "RTGv1_I6 warehouse winner ($1.3k spend, ROAS 4.28) + Advanced Bionutritionals hand-hero format"
+    }
+   ]
   }
  ]
 }
