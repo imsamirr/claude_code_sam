@@ -1,213 +1,178 @@
 # DentalPULSE: what competitors and other brands run (Atria)
 
-Built 2026-11-18 from the repo's latest Atria pulls. Each ad: brand, format, status, days running (long-running = the brand keeps paying for it), impression percentile (lower = more impressions), then its headline and primary text. Use for patterns, hooks and formats; never copy another brand's words, claims or names into our ads.
+Built 2026-11-20 from the repo's latest Atria pulls. Each ad: brand, format, status, days running (long-running = the brand keeps paying for it), impression percentile (lower = more impressions), then its headline and primary text. Use for patterns, hooks and formats; never copy another brand's words, claims or names into our ads.
 
-## Core competitors: every ad we pulled (active first, longest-running first) (48, from core_competitors_2026-11-17.csv)
+## Core competitors: every ad we pulled (active first, longest-running first) (38, from core_competitors_2026-11-20.csv)
 
-### Sonic Dental · image · active · 153 days · pct 0.11173184357541899
+### Sonic Dental · image · active · 156 days · pct 0.20502092050209206
 **Headline:** Jusqu'à -30%
 
 Jusqu'à -30% sur le Sonic Pro. Pour une durée limitée.
 
-### Sonic Dental · image · active · 152 days · pct 0.002793296089385475
+### Sonic Dental · image · active · 156 days · pct 0.17433751743375175
+**Headline:** Bis zu 30% sparen
+
+Bis zu 30% sparen auf den Sonic Pro. Nur für kurze Zeit.
+
+### Sonic Dental · image · active · 155 days · pct 0.002789400278940028
 **Headline:** Up to 30% Off
 
 Save up to 30% on the Sonic Pro. Limited time.
 
-### Sonic Dental · image · active · 152 days · pct 0.18156424581005587
+### Sonic Dental · image · active · 155 days · pct 0.18131101813110181
 **Headline:** Up to 35% Off
 
 Save up to 35% on the Sonic Pro. Limited time.
 
-### Sonic Dental · image · active · 133 days · pct 0.3198324022346369
+### Sonic Dental · image · active · 133 days · pct 0.3207810320781032
 **Headline:** Modernste Ultraschall- und UVC-Technologie
 
 Profi-Reinigung für deine Aligner, Retainer, Schienen, Prothesen & mehr ✨
 
-### Sonic Dental · image · active · 95 days · pct 0.12011173184357542
+### Sonic Dental · image · active · 95 days · pct 0.12273361227336123
 **Headline:** New: Sonic Odyssey ✨
 
 Introducing the Sonic Odyssey — our newest portable ultrasonic cleaner. Wireless, powerful and designed to work on or off the base.
 
-### Dr Phil End with Zima Dental · video · active · 62 days · pct 0.26429051782111634
-**Headline:** Never Brush Your Retainer, Aligner or Guard Again.
-
-Keep your retainers fresh, blessed, and clean with the Zima Dental Pod ✨
-
-### Zima Dental · video · active · 62 days · pct 0.04572965702757229
-**Headline:** Recommended by 7,000+ dentists
-
-At Zima Dental we know that no matter what oral appliance you have it deserves a deep, effective clean ✨
-
-### Zima Dental · image · active · 47 days
+### Zima Dental · image · active · 50 days
 **Headline:** Trusted by 20,000+ Dentists.
 
 The clean girl routine isn't clean if your aligners aren't.
 
-### Zima Dental · image · active · 34 days · pct 0.04438466711499664
+### Zima Dental · image · active · 37 days · pct 0.012879484820607176
 **Headline:** Rated ★★★★★ by customers worldwide
 
 The Dental Pod: ✔️ Removes plaque ✔️ Lifts yellow stains ✔️ Destroys bad smells The result? A crystal clean retainer.
-
-### Zima Dental · image · active · 32 days
-**Headline:** Free shipping in Australia
-
-The award-winning Dental Pod is back. Limited stock. Don’t wait!
-
-### Zima Dental · video · active · 32 days
-**Headline:** Stocked by 3500+ Dental Offices
-
-Become a professional Dental partner
 
 ### Zima Dental · image · active · 27 days
 **Headline:** As recommended by 11,000+ Dentists
 
 Cleans retainers, aligners, guards and more.
 
-### Zima Dental · video · active · 27 days · pct 0.29589778076664425
-**Headline:** Trusted by 20,000+ Dentists
-
-This is why cleaning tablets won't finish the job
-
-### Dr. Ashley  with Zima Dental · video · active · 22 days · pct 0.12777404169468728
-**Headline:** Double Award-Winner. 5* Reviews. HSA/FSA Eligible.
-
-I’m a dentist, and here’s what’s in my daily oral hygiene routine. My personal favourite is my Zima Dental ultrasonic retainer cleaner 💛
-
-### Sonic Dental · image · active · 17 days · pct 0.16061452513966482
-**Headline:** Sonic Pro Bundle — Up to 30% Off
-
-Your retainers deserve this. Up to 30% off — for now.
-
-### Sonic Dental · image · active · 16 days · pct 0.1871508379888268
+### Sonic Dental · image · active · 19 days
 **Headline:** 🖤 Black Friday: Up to 40% Off
 
 🖤 Black Friday is here. Get up to 40% off Sonic Dental, the easiest upgrade your smile will get all year. Treat yourself or tick off the gift list early. ⚫ Limited time only.
 
-### Sonic Dental · image · active · 16 days · pct 0.3770949720670391
+### Sonic Dental · image · active · 19 days · pct 0.37099023709902373
 **Headline:** 🖤 Black Friday : jusqu’à -40 %
 
 🖤 Le Black Friday est là. Profitez de jusqu’à -40 % chez Sonic Dental, la plus belle mise à niveau pour votre sourire cette année. Pour vous ou pour gâter vos proches. ⚫ Offre limitée.
 
-### Sonic Dental · image · active · 16 days · pct 0.3128491620111732
-**Headline:** 🖤 Black Friday: Bis zu 40 % Rabatt
-
-🖤 Black Friday ist da. Spare bis zu 40 % bei Sonic Dental, das beste Upgrade für dein Lächeln in diesem Jahr. Für dich selbst oder als Geschenk. ⚫ Nur für kurze Zeit.
-
-### Zima Dental · image · active · 15 days · pct 0.07061197041022192
+### Zima Dental · image · active · 19 days · pct 0.05013799448022079
 **Headline:** NEW: Dental Pod Go! Don't Miss Out.
 
 Meet the next generation of on-the-go cleaning ✈️ The Dental Pod Go: the same 42,000 Hz ultrasonic clean, now cordless and rechargeable. ✔️ 3-minute cleaning cycle ✔️ Up to 2 weeks of daily use per charge ✔️ Free carry case included
 
-### Zima Dental · image · active · 11 days
-**Headline:** Free shipping in the EU.
+### Sonic Dental · image · active · 18 days · pct 0.3528591352859135
+**Headline:** 🖤 Black Friday: Bis zu 40 % Rabatt
 
-The award-winning Dental Pod is back. Limited stock. Don’t wait!
+🖤 Black Friday ist da. Spare bis zu 40 % bei Sonic Dental, das beste Upgrade für dein Lächeln in diesem Jahr. Für dich selbst oder als Geschenk. ⚫ Nur für kurze Zeit.
 
-### Zima Dental · image · active · 9 days · pct 0.11297915265635508
+### Sonic Dental · image · active · 17 days
+**Headline:** Sonic Pro Bundle — Up to 30% Off
+
+Your retainers deserve this. Up to 30% off — for now.
+
+### Zima Dental · image · active · 12 days · pct 0.06991720331186753
 **Headline:** Free shipping in the US
 
 Enjoy a hygienically clean retainer every day
 
-### emilymay784 with Zima Dental · video · active · 8 days
-**Headline:** Never Brush Your Retainer Again
+### Zima Dental · image · active · 6 days · pct 0.10211591536338546
+**Headline:** Ultrasonic + UV tech in one bundle.
 
-If you’re brushing your retainer every night, that film you can see isn’t coming off. Ultrasonic waves lift the plaque and odour out of the grooves without scratching the plastic. Fill it, drop the retainer in, press one button and the science does the rest. 💙
+The 360 Bundle combines powerful ultrasonic cleaning technology with dual-UV technology to keep your retainer clean, hygienic and fresh at all times.
 
-### Zima Dental · image · active · 7 days · pct 0.22663080026899798
-**Headline:** Don't miss out! 💰
-
-Don't miss out on this limited bundle offer ⏳
-
-### Nicole Oliva - Dental Student with Zima Dental · video · active · 5 days · pct 0.33221250840618693
-**Headline:** Double Award-Winner. 5* Reviews. HSA/FSA Eligible.
-
-As a dental student at UCLA and retainer-wearer, I know how important it is to keep my retainer clean. The Dental Pod by Zima Dental is my go-to for keeping it fresh, clear and clean 🫧🖤
-
-### Nicole Oliva - Dental Student with Zima Dental · video · active · 5 days
-**Headline:** Trusted by 1M+ Customers. Award-winning Dental Product.
-
-As a dental student at UCLA and retainer-wearer, I know how important it is to keep my retainer clean. The Dental Pod by Zima Dental is my go-to for keeping it fresh, clear and clean 🫧🖤
-
-### Zima Dental · image · active · 4 days · pct 0.2824478816408877
-**Headline:** Le secret d'une gouttière impeccable
-
-Nettoie les gouttières, aligneurs, protège-dents et bien plus encore
-
-### Zima Dental · video · active · 4 days · pct 0.19973100201748487
-**Headline:** Cleans retainers, aligners, guards and more.
-
-Stop brushing your retainers and listen to dentist recommendations❌
-
-### Zima Dental · image · active · 3 days · pct 0.25756556825823806
+### Zima Dental · image · active · 6 days · pct 0.20699172033118676
 **Headline:** ★★★★★
 
 Enjoy a hygienically clean retainer every single day
 
-### Zima Dental · video · active · 3 days
-**Headline:** Cleans retainers, aligners, guards and more.
-
-Your retainer doesn't renew itself, so clean it the right way!
-
-### drtanyanicole with Zima Dental · video · active · 3 days
-**Headline:** Double Award-Winner. 5* Reviews. HSA/FSA Eligible.
-
-What’s in my cart as a dentist? 👇🛒 Just one thing: this retainer-cleaning gadget from Zima. If you wear retainers, this is the one thing to grab for a clean, fresh appliance. 💜
-
-### Francescasnest with Zima Dental · video · active · 3 days · pct 0.29186281102891726
-**Headline:** Double Award-Winner. 5* Reviews. HSA/FSA Eligible.
-
-This little retainer-cleaning gadget by Zima keeps my smile confident and my oral-care routine on point - and as a busy mom, that’s everything 💕
-
-### Sonic Dental · video · active · 2 days · pct 0.3784916201117318
+### Sonic Dental · video · active · 5 days · pct 0.3291492329149233
 **Headline:** Cutting Edge Ultrasonic & UVC technology
 
 Clinical grade cleaning for your Aligners, Retainers, Guards, Dentures & more ✨
 
-### Zima Dental · image · active · 2 days · pct 0.19031607262945527
+### Zima Dental · image · active · 5 days · pct 0.14305427782888686
+**Headline:** Recommended by 14,000 dentists
+
+The Dental pod uses powerful ultrasonic waves to clean your oral appliance.
+
+### emilymay784 with Zima Dental · video · active · 4 days · pct 0.12465501379944802
+**Headline:** Rated ★★★★★ by customers worldwide
+
+The Dental Pod: ✔️ Removes plaque ✔️ Lifts yellow stains ✔️ Destroys bad smells The result? A crystal clean retainer.
+
+### Zima Dental · video · active · 4 days
+**Headline:** Only Sale of the Year. Don't miss out ❗⌛
+
+Cloudy retainer = plaque biofilm 🤢 Get rid of it with the Dental Pod, now on sale in our Only Sale of the Year 🫧
+
+### Zima Dental · image · active · 3 days
+**Headline:** Only Sale of the Year. Don't miss out ❗⌛
+
+This Black Friday get your retainer’s best friend: the market’s leading ultrasonic cleaner, the Dental Pod Pro, paired with boosting tablets for the most powerful clean for less! 💸
+
+### Zima Dental · image · active · 2 days · pct 0.1421343146274149
+**Headline:** Don't miss out! 💰
+
+Don't miss out on this limited bundle offer ⏳
+
+### Zima Dental · image · active · 2 days · pct 0.1453541858325667
 **Headline:** Double Award-Winner. 1M+ Customers. FSA/HSA Eligible.
 
 You asked. We listened. NEW Dental Pod Go is here!
+
+### Zima Dental · image · active · 2 days
+**Headline:** Crystal clear, fresh retainers.
+
+Never Brush Your Retainer Again.
+
+### Nicole Oliva - Dental Student with Zima Dental · video · active · 2 days · pct 0.13247470101195952
+**Headline:** Double Award-Winner. 5* Reviews. HSA/FSA Eligible.
+
+As a dental student at UCLA and retainer-wearer, I know how important it is to keep my retainer clean. The Dental Pod by Zima Dental is my go-to for keeping it fresh, clear and clean 🫧🖤
+
+### Zima Dental · video · active · 2 days
+**Headline:** Only Sale of the Year. Don't miss out ❗⌛
+
+It's our ONLY sale of the year, so if you want a cleaner & fresher oral appliance, now's the time to get one whilst stock lasts. ✨
+
+### Zima Dental · image · active · 1 days · pct 0.15179392824287027
+**Headline:** Available in 3 colours.
+
+Our Zima UV case is the perfect travel companion, for 360° Protection on-the-move.
 
 ### Zima Dental · image · active · 1 days
 **Headline:** Recommended by 11,000+ Dentists Worldwide
 
 Enjoy a hygienically clean retainer every single day
 
-### Sonic Dental · image · active · 0 days · pct 0.3547486033519553
-**Headline:** Ultrasonic Cleaning. Anywhere.
+### Zima Dental · video · active · 1 days · pct 0.21665133394664213
+**Headline:** Trusted by 20,000+ Dentists
 
-Meet the Sonic Odyssey. Advanced ultrasonic + UVC cleaning, now fully portable and cordless. Clean aligners, retainers, dentures, mouthguards and more, wherever you are. With multi-frequency ultrasonic cleaning, integrated UVC and up to 8–10 cleans on a full charge. Trusted by dental professionals. Over 1 million Sonic Dental units sold worldwide.
+Deep clean your retainer this Black Friday at the touch of a button with the market-leading ultrasonic cleaner, the Dental Pod.
 
-### Zima Dental · image · active · 0 days · pct 0.23739071956960323
-**Headline:** Crystal clear, fresh retainers.
+### Zima Dental · video · active · 1 days
+**Headline:** Don’t miss out! Sale ends soon ⏰
 
-Never Brush Your Retainer Again.
-
-### Zima Dental · image · active · 0 days · pct 0.24478816408876933
-**Headline:** Recommended by 14,000 dentists
-
-The Dental pod uses powerful ultrasonic waves to clean your oral appliance.
-
-### Zima Dental · image · active · 0 days · pct 0.20847343644922664
-**Headline:** Recommandé par plus de 7000 dentistes
-
-Nettoie les gouttières, aligneurs, protège-dents et bien plus encore
-
-### Zima Dental · image · active · 0 days · pct 0.1882985877605918
-**Headline:** Ultrasonic + UV tech in one bundle.
-
-The 360 Bundle combines powerful ultrasonic cleaning technology with dual-UV technology to keep your retainer clean, hygienic and fresh at all times.
+Black Friday is live - get your Dental Pod before it sells out ⏳‼️
 
 ### Zima Dental · image · active · 0 days
 **Headline:** Von über 8000 Zahnärzten empfohlen
 
 Für hygienische und klare Beißschienen
 
-### Zima Dental · image · active · 0 days
-**Headline:** As Recommended by 11,000+Dentists
+### Zima Dental · image · active · 0 days · pct 0.16053357865685372
+**Headline:** Recommandé par plus de 7000 dentistes
 
-Enjoy a hygienically clean retainer every single day
+Nettoie les gouttières, aligneurs, protège-dents et bien plus encore
+
+### Zima Dental · image · active · 0 days
+**Headline:** Le secret d'une gouttière impeccable
+
+Nettoie les gouttières, aligneurs, protège-dents et bien plus encore
 
 ### Zima Dental · image · active · 0 days
 **Headline:** Von über 8000 Zahnärzten empfohlen
@@ -215,29 +180,14 @@ Enjoy a hygienically clean retainer every single day
 Zahnärzte lieben ihn. Hol dir heute deinen Dental Pod!
 
 ### Zima Dental · image · active · 0 days
-**Headline:** Free Shipping + Free Returns
+**Headline:** As Recommended by 11,000+Dentists
 
-Dental pod cleans retainers, aligners, guards and more
+Enjoy a hygienically clean retainer every single day
 
-### emilymay784 with Zima Dental · video · active · 0 days · pct 0.17014122394082046
-**Headline:** Rated ★★★★★ by customers worldwide
+### Dr. Charlotte Drumi with Zima Dental · video · active · 0 days
+**Headline:** Zima's Only Sale of the Year. Don't Miss Out!
 
-The Dental Pod: ✔️ Removes plaque ✔️ Lifts yellow stains ✔️ Destroys bad smells The result? A crystal clean retainer.
-
-### Zima Dental · video · active · 0 days · pct 0.2051109616677875
-**Headline:** Recommended by 11,000+ Dentists
-
-The Dental Pod is now available in store 🛍️
-
-### Zima Dental · video · active · 0 days · pct 0.20376597175521183
-**Headline:** Free shipping from the UK
-
-Retainer/aligner/guard life hack 😌
-
-### drtanyanicole with Zima Dental · video · active · 0 days · pct 0.24680564895763282
-**Headline:** #1 Best Ultrasonic Retainer Cleaner.
-
-Is it a nightmare to clean your retainers? Is it manual, boring, and doesn't remove cloudy biofilm? This is what I recommend to patient's instead 💙
+Cloudy retainers? Dentist here, and yes, I wear them too 🙈 This is what I use on mine: the Dental Pod. I pop them in while I brush my teeth, press the button, done. It’s on sale for Black Friday, so grab one before the offer ends 💚
 
 ### Zima Dental · image · inactive · 11 days
 **Headline:** Rated ★★★★★ by customers worldwide
@@ -246,178 +196,84 @@ Soaking your aligners in a cup isn’t cutting it. Upgrade your routine with the
 
 ## Curated inspiration (growing statics) (120, from inspiration_curated.csv)
 
-### Touchstone Essentials · 43 days · pct 0.02564102564102564
-**Headline:** The Easiest Way to Kiss Goodbye to Brain Fog
+### Luckyscent · 44 days · pct 0.07142857142857142
+**Headline:** Find your signature scent.
 
-Say goodbye to toxins and hello to mental clarity.🌿 Unlock a special 65% discount with FREE shipping! 🎉 🔥 Join the movement of over 500,000 happy customers!
+The widest selection of niche and hard-to-find fragrances.
 
-### Deborah Smith · 43 days · pct 0.4
-**Headline:** 🌿 Don’t Blame Your Lifestyle — Fix The Macula Pigment First
-
-Please don't buy PreserVision. I was diagnosed with macular degeneration 6 months ago. Here's what happened when I took Neurobella for 30 days.
-
-I'm Deborah Smith. I've been a vision health educator for 22 years.
-
-Not a doctor. I don't prescribe anything. I don't perform surgery.
-
-What I do is sit with patients before and after their appointments… walk them through their diagnoses… explain what their scans mean… help them understand what's happening inside their eyes when their doctors don't have time to.
-
-I've been the person holding someone's hand when they hear "macular degeneration" for th
-
-### The Great PNW · 42 days · pct 0.03333333333333333
-**Headline:** Smokey Bear × The Great PNW
-
-A special collaboration with Smokey Bear® and The Great PNW.
-10% of every purchase supports wildfire prevention education.
-
-Wear it with purpose.
-
-### Vagina Coach · 42 days · pct 0.1282051282051282
-**Headline:** Get “Common, Not Normal” Free — Just Pay Shipping
-
-You were taught how to brush your teeth.
-
-Nobody ever gave you the same kind of manual for your pelvic floor.
-
-So when leaking starts…
-
-when you suddenly need to know where every bathroom is…
-
-when you’re waking up at night to pee…
-
-or when things begin changing after menopause…
-
-most women are left trying to figure it out themselves.
-
-That’s why pelvic health educator Kim Vopni wrote Common, Not Normal.
-
-It explains what your pelvic floor actually does, why symptoms can happen for very different reasons, and what most women were never taught about tension, strength, bladder habits, pressure,
-
-### Morenzio.com · 42 days · pct 0.25
-**Headline:** BUY 1, GET 1 FREE — Selling Out Fast!⚡
-
-Buy one, Get one FREE! 👀 🎉
-Our best-selling height boosting shoes are BUY 1 GET 1 FREE 🚨
-Just $74.95 per pair ($150 for two). ANY color, ANY size!
-Walk taller, feel more confident, and upgrade your style this season.
-Join over 50,000 men already making the switch!
-
-Free delivery 👉
-
-### Katelyn Perales · 41 days · pct 0.09090909090909091
-**Headline:** Sale Ends Tonight (70% Off)
-
-My son's fiancée held his funeral in Mexico and didn't tell me 💔
-
-I buried my boy in a country I've never been to, in a language I don't speak, and I almost didn't get to say goodbye. "She never learned a word of Spanish the entire time Michael was with me. If she couldn't be part of his life here, she doesn't get to be part of his goodbye." I smiled. I understand.
-
-My son Michael died on a Thursday in October.
-
-He was thirty-four. An aneurysm. No warning. No symptoms. He went to bed and he didn't wake up.
-
-Elena called me at 6am. She was screaming. I couldn't understand half of what she said
-
-### Furryfect · 41 days · pct 0.152
-**Headline:** ⚠️ Your Washer's The Reason Everything Stinks
-
-Still pulling laundry out that smells like wet dog? Read this. 👇
-
-The smell isn't coming from your clothes, it's coming from inside your machine. 
-
-Pet hair is made of keratin — a protein that doesn't wash away when it enters your washer. Instead it mats inside your drum, gasket, and filter, trapping moisture and creating bacterial colonies that contaminate every single load you run.
-
-Vinegar. Baking soda. Detergent. They were never designed to handle fur. They just move the fur around and call it a day.
-
-SepticSafe was designed specifically for pet homes.
-
-Its active enzyme formula targets th
-
-### The American Health Project · 41 days · pct 0.28
-**Headline:** Support liver health daily
-
-Right now there exists an incredibly important report from the EPA that not one doctor in this country will show you.
-
-No news channel will talk about it. Your children won’t learn about it in school. Your doctor won’t discuss the effects it has on your health.
-
-It’s a report that reveals over 85,000 chemicals Americans are potentially exposed to on a daily basis. And almost every single one of them damages your liver.
-
-I have been a hepatology researcher for twenty-three years. I have sat in rooms with the top liver specialists in the country. Not one of them has ever brought this list up to
-
-### Euclove Clean · 41 days · pct 0.4
-**Headline:** Ditch Bleach. Clean Naturally.
-
-Mould keeps coming back? Ditch the bleach and switch to this natural bathroom cleaner powered by essential oils that really work
-
-The Euclove Bathroom Bundle uses Clove, Tea Tree and Eucalyptus oils to help fight mould, clean surface mould, mildew, soap scum & grime and leave your bathroom smelling amazing.
-
-Now $49.99, down from $60 and FREE shipping in Australia
-
-SHOP THE BUNDLE
-
-### FRISS · 40 days · pct 0.045454545454545456
+### FRISS · 43 days · pct 0.058823529411764705
 **Headline:** You've never seen caffeine like this.
 
 Get 20% off your first order with code WELCOME20! Clean, controlled focus from FRISS - a caffeine pouch made by a neuroscientist. No sugar, no jitters.
 
-### Echelonn · 40 days · pct 0.08108108108108109
-**Headline:** Free Resource 👉🏼
-
-Some shoppers aren't ready to buy the first time they see a product.
-
-They need a reason to care first. 
-
-An advertorial gives you a way to introduce the product before sending shoppers to the offer.
-
-We put together the page structure, examples and campaign setups in one playbook.
-
-Get free access below.
-
-### Oregon Foster Abuse Claims · 40 days · pct 0.14285714285714285
+### Oregon Foster Abuse Claims · 43 days · pct 0.1111111111111111
 **Headline:** Oregon Foster Abuse Lawsuit
 
 If you were in Foster Care in Oregon as a child, you may be eligible for a huge settlement. Doesn't matter how long ago.
 
 If you were in Oregon Foster Care as a child and you were physically or sexually abused by someone, you may be eligible for a settlement. New laws have opened the door for victims to seek justice and compensation for past abuse. If you suffered abuse at the hands of a parent, sibling, teacher, coach, family member, or anyone else in your orbit, we need to speak with you. Fill out the form on the next page to see if you qualify!
 
-### Assistantly · 40 days · pct 0.85
-**Headline:** 5,000+ assessments. Zero guesswork.
+### Primal Storm Supplements · 42 days · pct 0.06896551724137931
+**Headline:** 50% of Diabetic Men Have ED — See If You're One of Them
 
-Your paralegal left. Your billing queue is backing up. And your next interview is another hour you won't get back.
+Diabetes didn't just attack your blood sugar. It attacked your erections.
 
-Traditional hiring puts all the risk on you. You screen, you guess, you wait 90 days to find out you were wrong.
+Here's what nobody tells diabetic men:
 
-Supahumans shows you real work before you commit. Every candidate completes a Day One scenario built around your actual role. You see proof. Then you decide.
+High blood sugar slowly destroys the nerves and blood vessels that control erections. Not gradually. Not eventually. It's happening right now, every day your levels stay elevated.
 
-Book a FREE Strategy Session.
+That's why 35–75% of men with diabetes will develop erectile dysfunction and experience it 10–15 years earlier than men without diabetes.
 
-### Best Probiotics For Menopause · 39 days · pct 0.17307692307692307
-**Headline:** Provitalize Risk-Free Offer + Coupon Combo (Going Fast!)
+It's not age. It's not stress. It's biology. And it hits two places:
 
-Your last chance to double-stack Provitalize coupons PLUS zero-risk guarantee...
+→ Your blood vessels — glucose damages artery linings, cutting blood flow
 
-🔥 Provitalize Double-Dip Coupon Stacking Tip (PLUS 90-Day Risk-Free Guarantee) 🔥
+→ Your testosterone
 
-Savvy shoppers, now’s your moment!
-Get Provitalize with TWO special savings:
+### Farm Hounds Treats · 41 days · pct 0.015873015873015872
+**Headline:** Survive Puppy Teething
 
-✅ 90-Day Risk-Free Guarantee
-If you don't notice results in your weight, bloating, or how you feel—get every penny back. No returns needed. No questions asked!
+Puppy chewing through everything? 🦴
 
-✅ DOUBLE-DIP COUPON STACKING
+Our Hide Rolls are 100% grass-fed beef hide with no fillers or chemicals, built to last where other chews don't.
 
-Coupon One: Select "90 day supply" and instantly save $10 per bottle.
+Save your shoes. Subscribe & Save 10% today.
 
-Coupon Two: Enter code "TRYUS" at checkout for another $3.30 off each bottle.
+### Sarah Collins · 41 days · pct 0.01834862385321101
+**Headline:** Same dose. Same shot. Wildly different results.
 
-🎯 IMPORTANT: This
+Researchers added one probiotic to a satiety medication and the women lost more weight, held more muscle, and had a smoother ride.   Don't take your shot without the other half...
 
-### D'Addario and Co. · 38 days · pct 0.053315994798439535
+My girl Brooke and I are on the exact same protocol.
+
+Same shot. Same dose. We literally compared our pens.
+
+We started within two weeks of each other.
+
+And Brooke is gliding.
+
+Steady loss, barely any nausea, says her appetite is "just quiet, like a normal person's."
+
+Me?
+
+I white-knuckled the nausea for the first month.
+
+My loss was slower.
+
+And lately the hunger has this low hum to it, like the radio is on in anot
+
+### MOTH: · 41 days · pct 0.029411764705882353
+**Headline:** Made with premium spirits
+
+Try 10 award-winning cocktails together?
+
+### D'Addario and Co. · 41 days · pct 0.03680981595092025
 
 🎸 Smooth, fast feel
 🎸 Maximum life
 🎸 Ultra-thin coating
 
-### Rachel Whitfield · 38 days · pct 0.08163265306122448
+### Rachel Whitfield · 41 days · pct 0.05714285714285714
 **Headline:** “I blamed perimenopause for the woman I saw in the mirror. Then I learned what Indian women have been doing every morning for thousands of years.”
 
 “I blamed perimenopause for the woman I saw in the mirror. Then I learned what Indian women have been doing every morning for thousands of years.”
@@ -434,216 +290,140 @@ We've been married twenty-two years. He still looks at me the way he did when I 
  
 But somewhere in the last four years, my body sto
 
-### Nancy Anderson · 38 days · pct 0.3490566037735849
-**Headline:** Feel Normal in Your Own Skin Again
+### DEZI SKIN · 41 days · pct 0.1
+**Headline:** Soothe the Itch, Feed Your Bump
 
-Things I have typed into Google at 2am this year:
+That tight, itchy belly feeling? Aloe calms the itch while rich butters flood your bump with moisture that lasts all day. Bebe Balm is back in stock, $48.
 
-"why does under my boob smell like bread"
+### Breath Lab · 41 days · pct 0.1348314606741573
+**Headline:** Upgraded Formula & Taste
 
-"can you put deodorant under your breasts"
+If you've used Breath Lab before, thank you. The original formula is what built this brand, and thousands of customers got real results from it.
 
-"is it normal for skin to split in the fold"
+ But we're always looking at what the latest research supports. So when newer strain data came out, we rebuilt the formula around it.
 
-"can a rash smell"
+ Here's what's new: Upgraded strains — our lead strain was studied in a randomized, placebo-controlled clinical trial and reduced bacterial buildup on the tongue compared to placebo.
 
-"best powder that doesnt turn to paste"
+Independently tested — the finished formula inhibited up to 98% of the sulfur compounds behind bad breath in lab testing.
 
-"why do i get a rash every summer under my stomach"
+BioBubble de
 
-"can you use a hair dryer on a rash"
+### DEZI SKIN · 41 days · pct 0.2
+**Headline:** Bump to Birth and Beyond
 
-"how to hide a smell from your husband"
+From bump to birth and beyond. Bebe Balm keeps your belly supple through every trimester, then soothes dry, stretched postpartum skin. Mamas also swear by it on hands and body. $48.
 
-Google showed me a recipe for sourdough
+### Diabetic Sock Club · 37 days · pct 0.023255813953488372
+**Headline:** A Soft Top That Leaves No Mark.
 
-Twice
+That red ring around your leg at the end of the day? It's your sock's elastic band.
 
-I'm 58 years old and the internet thinks I'm baking
+DSC Ultra-Soft socks are knit with a wide, stretchy top instead of a tight band, so they stay up without pressing a ring into your leg. Plush and soft, smooth toe seam, knit in Alabama.
 
-========
+🍂 Fall Sale: Ultra-Soft 4 pairs for $49.98, or 8 for $74.96 ($9.37 a pair)
+✔ Free shipping on every order
+✔ 1-year replacement guarantee
 
-For six years I've had a rash under both breasts and under the fold of my belly
+### Mars Global · 36 days · pct 0.06349206349206349
+**Headline:** BEAST MODE: Buy 5 for $99.
 
-It used to be a summer thing. N
+WAKE THE DEAD IN THE BEDROOM THIS HALLOWEEN! 🎃⚡  
 
-### Janine Porter · 37 days · pct 0.046511627906976744
-**Headline:** I Had A Hip Accident. Millions of Women Over 50 Are Making This Mistake Right Now
+Don't let low testosterone, flat energy, and weak blood flow turn you into a tired zombie when the night gets dark!  
 
-My hip pain wasn't my hip. Nobody told me until I was already on the floor.
+Skip the sketchy gas station pills that leave you with blinding headaches and zero results. Real all-night performance, rock-solid firmness, and explosive release require daily hormone and circulation optimization.  
 
-Millions of women over 50 have something wrong sitting in their spine right now. And they don’t even know it.
+Unleash full-spectrum male dominance with the complete Mars Beast Mode Sale
+Make sure you are the one giving her a fright in the bedroom this Halloween weekend!  
 
-I found out the hard way.
+🎃 HALLOWEEN BEAST MODE SALE: BUY 5 AT $99!
 
-One day, as I was reaching for a bowl in my kitchen standing on a chair my hip buckled.
+ Cla
 
-I first heard it crack. Then, I fell on the floor.
+### Headlight Glasses · 35 days · pct 0.10344827586206896
+**Headline:** 50,000+ Seniors Night Drive Confidently With These
 
-By the time I got to the hospital, my right leg was useless.
+"I have astigmatism and they greatly help my night vision no glares and not the "dark effect"...good clear vision..I love these the 1st pr I ordered were not this brand and could definitely tell the difference. I ordered fir family n friends and they can't believe the difference..love the over my glasses too when I'm giving my eyes a rest from contacts!!! ♥️♥️"
 
-Couldn’t stand the pain. Passed out 2 times.
+✔ Fit comfortably over prescription glasses
 
-Worst day of my life.
+"I'm 73, and have several eye problems. Driving at night has been a problem, especially if there were no street lights. Also, the LED lights are really blinding. These headlight gasses are F
 
-And that wasn’t the first time I had been dealing with it.
+### Heart Health Today · 35 days · pct 0.14285714285714285
+**Headline:** Support heart health naturally
 
-For 6 months before that day, I had been doing everyt
+After my wife died, my closest friends excluded me from the trip we’d been talking about for years because they didn’t think I could “physically” handle it anymore.
+I went anyway.
+When their trip started falling apart, they all suddenly wanted my help.
+I did not pick up the phone.
+I was sitting outside a small guesthouse in the South Korean mountains on the third morning, drinking coffee an 82-year-old man had poured for me without asking.
+For twelve years, Laura and I traveled with the same four couples. Every year, somewhere different. Montana. Nova Scotia. Ireland. Once, a fishing lodge in
 
-### Riverwell · 37 days · pct 0.04825737265415549
-**Headline:** Your teeth are clean. Your throat isn’t.
+### Ageless Skin Secrets · 35 days · pct 0.15384615384615385
+**Headline:** What dermatologists actually drink for their skin.
 
-Your tongue doesn't smell because it's dirty. It smells because it's producing gas.
+Cellular skin health, made simple.
 
-Bacteria between your back papillae break down proteins and release sulfur compounds — continuously. Brushing cleans your teeth. The gas keeps coming from behind them.
+Sun Powder is a clinically dosed daily skin supplement formulated with 8 ingredients to support healthier, more resilient skin from the inside out.
 
-Mint covers it. Alcohol mouthwash dries the zone and makes it worse. Zinc binds to the sulfur and neutralizes it chemically.
+One stick a day. Just mix with water.
 
-That's not masking. That's shutting it off. Works by tonight.
+Try Sun Powder® for 30 days, risk-free.
 
-### Janine Porter · 37 days · pct 0.09302325581395349
-**Headline:** She gave up everything she loved...
+### Ahrefs · 35 days · pct 0.22580645161290322
+**Headline:** Make AI recommend your brand
 
-My sister was diagnosed with spinal stenosis in March 2022. She never sat still a day in her life. After the diagnosis, she did every single thing they told her.
+The largest AI visibility database. Every prompt is modeled from real user searches in Ahrefs’ keyword database.
 
-Physical therapy, 3 mornings a week. 2 rounds of epidural injections. Lost 34 pounds. Walked her spaniel a mile every morning before the heat came up.
+### Clarifion DSTx · 34 days · pct 0.08
+**Headline:** Eliminates Cat Hair Dander - Save 72% OFF with Bundle
 
-By October 14th, 2024, she couldn't walk from her recliner to the kitchen without gripping the wall.
+"This solution is a tiny-miracle device that effortlessly eliminates cat hair dander, cat pee odors, kitty litter box funk, bathroom stink, and even garbage odors in your home. Just plug it in and let it do its magic"
 
-She was 61 years old.
+Once you turn it on, it goes to work 24/7.
 
-Her garden shoes are still by the back door.I can't move them. If I move them, it means she's really not going back out there.
+No need to replace any batteries, just make sure the blue light is on.
 
-I need to tell you what happened
+Because our solution uses advanced HEPA-Standard Air Filtration Technology, it eliminates cat hair dander and other unpleasant allergens and odors at their molecular source, thoroughly cleaning your air. (Unlike other solutions like allergy pills or air fresheners
 
-### Riverwell · 37 days · pct 0.20107238605898123
-**Headline:** Your mouthwash is rinsing the wrong zone.
+### IVDRIPS · 34 days · pct 0.3125
+**Headline:** The Right Drip For You
 
-Lick the inside of your wrist. Let it dry ten seconds. Smell it.
+Take a moment for yourself.
 
-That's what people get when you talk. And it isn't coming from your teeth.
+Whether you need to recharge, recover, or simply feel your best, our personalized IV therapies are designed to support your wellness goals.
 
-Your tongue doesn't smell because it's dirty. It smells because it's producing gas.
+Expert medical care. In-clinic or delivered to you.
 
-Bacteria between your back papillae break down proteins and release sulfur compounds — continuously. Brushing cleans your teeth. The gas keeps coming from behind them.
+Book now.
 
-Mint covers it. Alcohol mouthwash dries the zone and makes it worse. Zinc binds to the sulfur and neutralizes it chemically.
+### Linda Warren · 34 days · pct 0.631578947368421
+**Headline:** I Checked Radiancy's Receipts Before Buying
 
-That's not masking. That's shutting it off. Works by tonight.
+How does a vaginal dryness supplement get fewer than 3.1% of buyers asking for a refund? I wanted receipts before I spent a dime.
 
-$32.90 a bottle
+WARNING: I assumed every 5-star review for a vaginal dryness supplement was fake, so I went full Nancy Drew on Radiancy.
 
-### WilderGlow Wild Yam Cream · 37 days · pct 0.20588235294117646
-**Headline:** If you are losing yourself to menopause... read this
+Here's what I found.
 
-The baby’s head was crowning when the worst hot flash of my life hit.
+That assumption almost cost me another year of planning intimacy around pain.
 
-Sweat poured off my eyebrows and soaked straight into my mask.
+Let me explain...
 
-My heart slammed so hard I could feel it in my teeth.
+I'm 57, I spent 30 years as a paralegal, and sex has felt like sandpaper since my late 40s.
 
-The mom grabbed my wrist and screamed, “What do I do?”
+I have a drawer full of lubes.
 
-And for three full seconds, I couldn’t remember.
+A prescription estrogen cream I was too nervous to open because of my family history.
 
-My mind was a white, empty room.
+And a boric aci
 
-Then the words came back.
+### The British Daily  · 33 days · pct 0.041666666666666664
+**Headline:** Why Your Nespresso Tastes Burned or Watery
 
-“Small pushes.
+We investigated how Nespresso-compatible capsules are actually made and what we found about the price markup was shocking. Most coffee drinkers have no idea what they're really paying for.
 
-You’re doing so well.”
-
-Her daughter was born healthy and screaming two minutes later.
-
-Nobody in that room knew what had just happened.
-
-Afterward, I locked myself in the staff bathroom, ran cold water over my wrists and shook
-
-### Riverwell · 37 days · pct 0.3109919571045576
-**Headline:** The Real Cause of Morning Breath
-
-I’m about to lose my fucking mind.
-
-I’ve had tonsil stones for as long as I can remember. Not once in a while. Not one little piece after a cold. The kind that just keeps coming back no matter what you do. The kind you can taste sitting in the back of your own throat by eleven in the morning, like something died back there.
-
-A guy at work left a pack of gum on my desk once. No note. Nothing. Just set it down and walked off. I sat there and stared at it for about ten minutes. He never said a word about it and neither did I, and that somehow made it worse. I wanted the ground to open up and swal
-
-### Riverwell · 37 days · pct 0.3726541554959786
-**Headline:** 10 sec spray for tonsil stones
-
-Tonsil stones form inside tonsil pockets. Your toothbrush can't reach them. Mouthwash coats the surface and rinses off. Scraping risks gagging or damaging tissue. None of these tools were built for this specific problem.
-
-Riverwell is.
-
-✅ Spray reaches directly into tonsil pockets
-✅ Dissolves the white buildup toothbrushes miss
-✅ 10 seconds per use, no tools, no gagging
-✅ Works where your current routine physically cannot
-
-This isn't a stronger mouthwash. It's a different mechanism entirely, designed for the one spot your oral care routine skips every single day.
-
-If you've been looking for a
-
-### drawdeck · 34 days · pct 0.14285714285714285
-**Headline:** One Wall. Whole Room Transformed.
-
-One wall. One clear decision. Done properly.
-
-Choose a high-impact photography set for your home office, living room, or workspace, then let drawdeck handle the rest.
-
-Each piece is printed and framed in Dubai, delivered ready to hang, with professional installation available. No framing shops. No measuring. No weekends lost to hardware and DIY.
-
-Just a finished wall that adds focus, character, and presence to the room.
-
-Framed, delivered, installed. Sorted.
-
-### Modern Health Journal · 34 days · pct 0.1875
-**Headline:** If you're a side sleeper, read this 👆
-
-Physical therapists use this positioning technique on every patient with lower back pain, but I discovered it fixes the reason I'd been waking up every 2 hours for six years.
-
-I wasn't supposed to figure this out.
-
-I was at physical therapy for my lower back. Third session. She was working on my hip flexors when she asked her standard question:
-
-"How are you sleeping?"
-
-"Terrible," I said. "I have insomnia. Wake up every two hours like clockwork."
-
-She stopped mid-adjustment. "What happens when you wake up?"
-
-"My hip hurts. So I roll to the other side."
-
-She looked at me for a long moment. "Yo
-
-### Dogbiotics · 34 days · pct 0.1958762886597938
-**Headline:** Fresh Breath, Clean Teeth, No Anesthesia
-
-Your dog’s bad breath isn’t normal — it’s a warning sign.
-
-Most dog owners think it’s just “dog breath.” But in reality, it’s bacteria eating away at your dog’s gums and organs.
-
-Scientists just found a breakthrough way to restore your dog’s oral microbiome — naturally.
-
-No brushing. No vet cleanings. Just one scoop a day.
-
-👉 See why thousands of dog parents are switching to Dogbiotics.
-
-https://shop.dailydogbiotics.com/shop
-
-### drawdeck · 34 days · pct 0.42857142857142855
-**Headline:** Museum-Grade
-
-Art with cultural meaning deserves more than ordinary presentation.
-
-This considered gallery wall brings together Arabic calligraphy, contemporary abstraction, photography, and illustration in a refined composition designed for a living room, entrance, or majlis.
-
-Each piece is printed in Dubai using museum-grade materials, then finished with premium FSC-certified wood or metal framing and carefully inspected before delivery.
-
-Choose paper or canvas and the finish that suits your home. Our team will handle the framing and delivery with care, with professional installation available in Dubai.
-
-### Invisalign UK & Ireland · 33 days · pct 0.09217877094972067
+### Invisalign UK & Ireland · 33 days · pct 0.09826589595375723
 **Headline:** A new smile, faster than braces.*
 
 Transform your child’s smile faster than braces* with Invisalign® clear aligners.
@@ -651,125 +431,18 @@ Transform your child’s smile faster than braces* with Invisalign® clear align
 *Gu, J et al. Evaluation of Invisalign treatment effectiveness and efficiency compared with conventional fixed appliances using the Peer Assessment Rating index. Am J Orthod Dentofacial Orthop February 2017;151:259-66
 *Buschang, P et al. Comparative time efficiency of aligner therapy and conventional edgewise braces. Angle Orthodontist, Vol 84, No 3, 2014
 
-### Asystem · 32 days · pct 0.022727272727272728
-**Headline:** Optimize Your Mind & Body
+### Marcus King · 33 days · pct 0.4166666666666667
+**Headline:** The part of Parkinson’s nobody checks
 
-Your daily routine should do more than tick a box.
-Meet Men’s Complete Optimization — an all-in-one daily formula designed to support your mind, body, energy, focus and overall wellbeing.
-Less guesswork. More consistency. One simple daily ritual.
+I f*cking refuse to take levodopa until somebody tells me what each dose costs. Nobody ever told my father. He took 12,045 of them 😭
 
-### Asystem · 32 days · pct 0.06818181818181818
-**Headline:** One Daily System for Men
+I'm 56. I inspect houses for a living. Twenty six years of crawling under floors and up into attics so somebody doesn't buy a place with a problem nobody told them about.
 
-Built for men who expect more from their daily wellness routine.
-Men’s Complete Optimization combines targeted nutrients, adaptogens, omegas and performance-focused ingredients in one convenient daily system.
-Make optimization part of your everyday routine.
+Last winter my wife asked me if I even cared anymore.
 
-### VITRUVI · 32 days · pct 0.07246376811594203
-**Headline:** Discover Holiday Scents
+We were at Sunday dinner. Our daughter Kelly stood up with her phone in her hand and told us she was pregnant with her second. Diane started crying before Kelly finished the sentence. Our grandson Owen banged a spoon on his tray because ev
 
-Set the mood for cozy nights, holiday gatherings, and all the little moments in between
-
-### Bruce Harold · 32 days · pct 0.09523809523809523
-**Headline:** An Amish Farmer Had an Answer He Didn’t Expect
-
-In 1742, an Amish healer in Lancaster County ground wormwood, black walnut hulls and pumpkin seed into molasses and gave it to a farmer whose belly had gone hard and swollen and who ground his teeth so loud at night his wife moved to the next room. He took it every morning. Not for a week. For twenty-one days, then again three weeks after that.
-
-What that healer was treating is what we now call parasites. Things living in your gut, feeding off you, laying eggs, and refilling the place as fast as you clear it.
-
-If you've already found out you have them, and you've already taken something, and i
-
-### SHREDDY · 32 days · pct 0.13157894736842105
-**Headline:** Cold Season?
-
-Introducing, the ultimate multi-tasker… 👀
-‍
-SHREDDY SUPERGREENS! Our NEW pre & probiotic, beauty & antioxidant blend 🌱💪
-‍
-💚 Over 30 superfoods & antioxidants to top up your daily greens
-💚 100% NRV of your key vitamins & minerals, including hair, skin & nail support
-💚 5 billion probiotic bacteria in every glass
-💚 Tasty & refreshing mango & pineapple flavour.
-‍
-✨ Ready to try SHREDDY SUPERGREENS yourself?
-
-### autobrush · 32 days · pct 0.14545454545454545
-**Headline:** Make Brushing Fun in 30 Secs
-
-Not all U-shaped toothbrushes are the same.
-
-The cheap ones use silicone. Silicone doesn't clean — it rubs. 
-Autobrush uses 58,000 nylon bristles that grip and lift plaque the way a toothbrush is supposed to.
-
-Up to 5.1x cleaner than manual brushing.ADA-accepted.
-The bristles are the whole difference. 🦷
-
-### Alpha Cleanse By Eden Boost · 32 days · pct 0.2727272727272727
-**Headline:** Flushes Harmful Toxins 2X FASTER than leading brands!
-
-“Is it possible to reverse fatty liver without giving up alcohol, following strict diets & exercising like crazy?
-
-My GP's advice sounded like a tall order – cut out alcohol, carbs, and fats from my diet, and squeeze in 150 minutes of exercise each week. 
-
-With a demanding work schedule and raising two kids, finding the time and energy for such a drastic lifestyle change seemed impossible.
-
-But I knew I had to do something, as my fatty liver condition could worsen if left untreated.
-
-I only found my ray of hope after joining a natural liver forum.
-
-It’s called AlphaCleanse.
-
-AlphaCleanse helpe
-
-### Gut Health Daily · 31 days · pct 0.0967741935483871
-**Headline:** Save Up to 63% on Soursop Bitters Today
-
-That bloated, heavy feeling after every meal? Your gut is asking for help. 🌿
-
-Soursop Bitters is a natural revitalizing elixir made from soursop and 16 other traditional herbs specifically formulated to support your digestive system and reduce bloating from the inside out.
-
-🌿 Bay Leaves to directly reduce bloating and calm gut inflammation
-💧 Irish Moss, prebiotic fiber to restore digestive balance naturally
-🌱 Senna to promote bowel regularity and healthy digestion
-🍋 Lemon Root to support digestive health and natural detoxification
-🌰 Cheech, a traditional herb for digestion and liver health
-🔥 T
-
-### Dogshood · 31 days · pct 0.10526315789473684
-**Headline:** The No-Pull Harness That Turns Your Dog Around
-
-If your shoulder hurts after walks, it isn't because you're not strong enough.
-
-Your leash clips to your dog's back — the one spot that makes them pull harder. Push on a dog's chest and they drive into it.
-
-Dogshood's clip sits high on the padded chest, so a pull turns them instead of loading up on you.
-
-90 days to try it, risk-free 👇
-
-### Debbie Sanders · 31 days · pct 0.140625
-**Headline:** They Only Fixed Half The Problem
-
-If you've tried physical therapy, deep-tissue massage, and every stretch they gave you, and your sciatica pain still comes back every single day, there's a reason for that.
-
-And it isn't your physical therapist's fault.
-
-Because what I'm about to tell you is going to make you furious.
-
-Here's what's happening:
-
-1. The stretches you're doing work. But they're only addressing half the problem. And nobody told you there was another half.
-
-2. When you tell your physical therapist the sciatica pain keeps coming back, even though you're doing everything they told you to do, the answer will probably
-
-### Invisalign UK & Ireland · 31 days · pct 0.22905027932960895
-**Headline:** Over 22M+ Invisalign® smile transformations worldwide.*
-
-Hear the reasons why Invisalign® clear aligners are the no. 1 Dr recommended clear aligner brand globally.**
-
-*Data on file at Align Technology, as of December 31, 2025.
-**Based on a global survey of 1,786 doctors (dentists and orthodontists who use clear aligners) by IQVIA in NA, EMEA, LATAM, and APAC. Data on File at Align Technology, as of June 30, 2022.
-
-### ScrubsyClean · 31 days · pct 0.275
+### ScrubsyClean · 32 days · pct 0.25
 **Headline:** 🎁 Your Diwali Cleaning Combo Is Here!
 
 🎇 Diwali Cleaning? Tackle Grease & Hard Water Stains Together!
@@ -789,23 +462,50 @@ Just Spray → Wait → Wipe!
 
 👉 Shop Now & Get Your Home Diwali Ready!
 
-### Riverwell · 31 days · pct 0.3485254691689008
-**Headline:** The 10 second spray for tonsil stones
+### Alpha Cleanse By Eden Boost · 32 days · pct 0.2727272727272727
+**Headline:** Flushes Harmful Toxins 2X FASTER than leading brands!
 
-Tonsil stones form inside tonsil pockets. Your toothbrush can't reach them. Mouthwash coats the surface and rinses off. Scraping risks gagging or damaging tissue. None of these tools were built for this specific problem.
+“Is it possible to reverse fatty liver without giving up alcohol, following strict diets & exercising like crazy?
 
-Riverwell is.
+My GP's advice sounded like a tall order – cut out alcohol, carbs, and fats from my diet, and squeeze in 150 minutes of exercise each week. 
 
-✅ Spray reaches directly into tonsil pockets
-✅ Dissolves the white buildup toothbrushes miss
-✅ 10 seconds per use, no tools, no gagging
-✅ Works where your current routine physically cannot
+With a demanding work schedule and raising two kids, finding the time and energy for such a drastic lifestyle change seemed impossible.
 
-This isn't a stronger mouthwash. It's a different mechanism entirely, designed for the one spot your oral care routine skips every single day.
+But I knew I had to do something, as my fatty liver condition could worsen if left untreated.
 
-If you've been looking for a
+I only found my ray of hope after joining a natural liver forum.
 
-### Invisalign UK & Ireland · 31 days · pct 0.5111731843575419
+It’s called AlphaCleanse.
+
+AlphaCleanse helpe
+
+### Longevityrxofficial · 31 days · pct 0.024390243902439025
+**Headline:** Protein After 60 Is Different
+
+Over 60? You were told to cut back on red meat for forty years.
+
+That advice was about your heart. Nobody followed it up with what to do about protein, and protein is the one thing that matters more after 60, not less. Most people in this age group are eating well under what they need and have no idea.
+
+StemCell Protein is a regenerative protein: bone-marrow protein, bio-identical lipids and organ peptides. Chocolate, one scoop, 20 servings per jar.
+
+Supports muscle maintenance. Supports muscle recovery. Supports bone and joint health.
+
+Third-party tested. Made in the USA. No fillers. 30-day m
+
+### Auto Buddy · 31 days · pct 0.13043478260869565
+**Headline:** Green Loan Rates Are Here 🔋
+
+Thinking about a Tesla Model Y, BYD Sealion 7, or Geely EX5?
+
+Here's something most buyers don't check first — some lenders are now offering dedicated green loan rates for EVs, because banks are competing to finance electric vehicles.
+
+AutoBuddy compares your options across 40+ lenders in 60 seconds. No credit check to confirm eligibility. No obligation.
+
+Rated 4.79/5 from 500+ reviews.
+
+Check your options before you buy →
+
+### Invisalign UK & Ireland · 31 days · pct 0.4421965317919075
 **Headline:** Over 22M+ Invisalign® smile transformations worldwide.*
 
 Hear why Invisalign® clear aligners are the no. 1 Dr recommended clear aligner brand worldwide.**
@@ -813,177 +513,131 @@ Hear why Invisalign® clear aligners are the no. 1 Dr recommended clear aligner 
 *Data on file at Align Technology, as of December 31, 2025.
 **Based on a global survey of 1,786 doctors (dentists and orthodontists who use clear aligners) by IQVIA in NA, EMEA, LATAM, and APAC. Data on File at Align Technology, as of June 30, 2022.
 
-### The British Daily  · 30 days · pct 0.0625
-**Headline:** Why Your Nespresso Tastes Burned or Watery
+### Robert Henry · 31 days · pct 0.6666666666666666
+**Headline:** Your hands remember. Let Xara help the rest
 
-We investigated how Nespresso-compatible capsules are actually made and what we found about the price markup was shocking. Most coffee drinkers have no idea what they're really paying for.
+My neurologist says my Parkinson's medication is working.
 
-### Swarva · 30 days · pct 0.125
-**Headline:** The #1 Soap Made for Skin Over 60
+And to be fair, he's right.
 
-Your regular soap stopped working at 60.
+The tremors are better.
 
-Here's why: After 40, your skin produces an oil-based molecule called 2-nonenal.
+The stiffness is manageable.
 
-Regular soap can't remove oil (basic chemistry - oil and water don't mix).
+My assessment scores haven't gotten dramatically worse.
 
-That's why you still smell "old" after showering twice a day.
+Every appointment ends the same way.
 
-Japanese persimmon soap actually breaks down nonenal - regular soap just pushes it around.
+He reviews the chart.
 
-✅ Eliminates the oil-based odor regular soap can't touch
-✅ Proven in clinical studies since 2001
-✅ Why grandkids suddenly want longer hugs
+Looks at the numbers.
 
-Get Yours Today!
+Asks a few questions.
 
-### Synchro · 30 days · pct 0.19047619047619047
-**Headline:** Advanced Bioavailability Liposomal Turmeric
+Then tells me we're doing well.
 
-You'll find out it's working the week you forget to take it.
+The problem is that none of those things explain what my life actually feels like.
 
-Synchro Gold supports joint comfort and inflammatory balance with whole-root turmeric built to absorb. CO2 oil extract, not dried powder. Liposome wrapped. Piperine.
+Because while my medication was "working," I still felt like I was slowly disappearing.
 
-### The Wellness Co. · 28 days · pct 0.05
-**Headline:** Buy 1 Session Get 1 FREE
+Not physically.
 
-HBOT. Red Light Therapy. Whole Body Cryotherapy.
+Mentally.
 
-For Akhil, what stood out was not only the therapies, but how smoothly the entire experience was managed and how supported he felt throughout.
+Emotionally.
 
-That combination of advanced wellness treatments and attentive care is what The Wellness Co. is built around.
+The man I used to be was becoming harder to f
 
-### Navage Nasal Care · 27 days · pct 0.2391304347826087
-**Headline:** How neti pot users go from having the flu for a week to feeling better with a product that is worth the money...
+### Holistic Wellness Diary · 30 days · pct 0.171875
+**Headline:** This is your sign to cleanse 😳
 
-For 15 years, my neti pot and I were a team. Then came the cold that broke us.
+My wife Sue had been wearing a castor oil pack for exactly 9 nights when she called me into the bathroom at 6:15 in the morning.
 
-If you've ever knelt over the sink at 1 a.m., pouring water into a nose that won't let anything through, this is for you.
+She didn't say anything. She just pointed.
 
-"I was the neti pot person. I converted my whole family. And there I was, defeated by a head cold." 
+I took this picture because she asked me to. She wanted proof she wasn't crazy. Let me back up.
 
-I want to tell you about the night I gave up on the neti pot. It was maybe day eight of the worst cold I'd had in years, the kind that arrives every winter now, settles into your face, and just... stays. I was doing what I'd done faithfully for over a decade: leaning over the bathroom sink, hea
+Sue is 62. I'm 64. We've been married 41 years. I carried mail in Lima, Ohio for 33 of them, and she ran the front office at the grade school for 26. She's the one who remembers every birthday, every grandkid's shoe size, the name of every dog on my old route. In 41 years I never once heard her complain about her own body.
 
-### Sarah's Wellness Journey · 27 days · pct 0.2857142857142857
-**Headline:** How To Heal Your Anxious Attachment Without Years In Therapy
+So
 
-Attachment wounds don't start in your mind. They start in your nervous system.
-Which is why you can read "Attached."
+### Lion City Rentals · 30 days · pct 0.2
+**Headline:** Secure your rate now!
 
-Explain the anxious-avoidant trap perfectly.
+🚗 MORE SAVINGS. MORE EARNINGS.
 
-KNOW you're being too much.
+Looking to keep your PHV rental costs low and take home more? The Honda Shuttle Hybrid is available from just $65/day!* 💰
 
-And still find yourself at 3am, chest tight, analyzing a one-word text for 45 minutes while he sleeps next to you.
+⏳ Limited units available! Don't miss out on this opportunity to secure your ride at an attractive rental rate.
 
-Still hear yourself ask "are you mad at me?" in that tone—the one you swore you'd never use again.
+🚘 Looking for something else? Enquire with us for more available models and rental options!
 
-Still watch yourself push him away while your brain screams STOP and your body just... keeps going.
+📲 Get in touch with Lion City Rentals today!
 
-Your nervous system decided love equals danger before you could form a memory.
+🌐 https://lioncityrentals.com.sg/
 
-And no amo
+*T&Cs apply.
 
-### Legacy Lights · 27 days · pct 0.3333333333333333
-**Headline:** 90s Nostalgia or Classic White?
+#LionCityRentals #LCR #PHVRental #PHVDriver #DriveAndEarn
 
-📍Charleston, are you team 90s Nostalgia or Classic Warm White? 🎄😍
+#PHVLionCity #PHVRentalDeals #PHV #PHVDeals #LCR #LionCityRental #FlashSale
 
-Whatever your Christmas style, we’ll bring it to life! From custom C9 roofline lighting to beautiful wreaths, garland, and mini lights, we handle it ALL. AND at the end of the season, we take down the lights and store them for you too! ✅🪜📦
+### Amanda Stanton · 29 days · pct 0.05
+**Headline:** Shop My Skincare Must-Have
 
-You pick the Christmas vibe. We’ll handle the rest!
+This is the best breakout spot treatment I've tried!
 
-Tap below to get your FREE Christmas lighting quote!
+### Holistic Wellness Diary · 29 days · pct 0.203125
+**Headline:** This is your sign to cleanse 😳
 
-### Kristin McAllister · 26 days · pct 0.03076923076923077
-**Headline:** Take control of your Scalp today.
+My mom Christine had been wearing a castor oil pack overnight for exactly 12 days when she called me at 6 AM sobbing.
 
-I was diagnosed with scalp psoriasis back in 2017.
+Not sad sobbing. Relief sobbing. The kind of crying you do when something you've been carrying for years finally breaks.
 
-Hard to believe that was almost eight years ago now.
+"Megan... something came out of me. I need you to come over."
 
-From the very beginning, it was relentless.
-The part line. The hairline. The back of my neck.
+I drove 22 minutes to her house in my pajamas. When I walked into the bathroom, she was sitting on the edge of the tub, shaking. She pointed at the toilet.
 
-The thick, silvery plaques that built up between washes.
+Rope-like masses. Mucus-covered. Dark. Dense. Things that had clearly been inside my mother for a very long time.
 
-The itch that wasn't quite an itch — more like a deep, crawling pressure that no amount of scratching could actually reach.
+Biofilm. Parasites. Hidi
 
-My dermatologist put me on Clobetasol scalp solution and Dovobet gel.
+### Gary Whitman · 29 days · pct 0.21739130434782608
+**Headline:** I wish I knew this sooner
 
-Strong medications. And I used them for years.
-But here's the truth nobody tells you about treating scalp psoriasis long-term.
+I spent 31 years as a general surgeon. I operated on thousands of people whose bowels had stopped moving: blockages, impactions, the cases that come in through the ER at two in the morning bent over with pain. And I'm about to tell you something I should have said three years ago. 
 
-Those treatments
+My wife told me to leave it alone. I'm retired now. Nobody's career is on the line anymore. Not mine, not my old partners', not the hospital's. 
 
-### Best Probiotics For Menopause · 26 days · pct 0.1346153846153846
-**Headline:** Still Considering Provitalize? Let's Sweeten The Deal
+But I'm 65 years old, and I told far too many people "It's the shot. Drink more water, it'll settle down," knowing that what I'd just seen on the table had nothing to do
 
-Yes, it's a bribe. And yes, it's a crazy Provitalize deal you won't find anywhere else.
+### Viasox Canada  · 29 days · pct 0.23529411764705882
+**Headline:** The Comfiest Canadian Socks 🇨🇦
 
-🔥 Provitalize Double-Dip Coupon Stacking Tip (PLUS our 90-Day Risk-Free Guarantee) 🔥
+Viasox started in 2019 with one simple goal: to bring comfort and relief to Canadians, one step at a time. Every pair of socks we make is designed with care, crafted for those who deserve the best—our fellow Canadians.
 
-If you're already considering Provitalize, this is the smartest, lowest-risk way to see if it's the solution your hips have been missing.
+🇨🇦 Thank you for supporting a homegrown Canadian company!
 
-Here's how the double-dip works:
+### NeuroBrocc · 28 days · pct 0.06
+**Headline:** Now in a flavorless powder
 
-🟢 Step 1 – Your 90-Day Rebuild Window (Risk-Free) 🟢
+Kid won’t eat gummies? NeuroBrocc now comes as a flavorless sulforaphane powder. One scoop mixes right into their favorite drink, with no taste and nothing to chew.
 
-Take Provitalize every day for a full 90 days — long enough to actually rebuild collagen, restore tendon strength, and rebalance hormones from the inside out.
+Save up to 44% when you subscribe, with free shipping and a 60-day money-back guarantee.
 
-If you don't notice improvements in hip
+### Earth Animal · 28 days · pct 0.06896551724137931
+**Headline:** Get 10% off & free shipping. Code: BETTERCHEW
 
-### Aerovac - World's No.1 Portable Vacuum Brand · 26 days · pct 0.2857142857142857
-**Headline:** Perfect Gift You've Been Looking For 🎁
+Treat your dog to a chew crafted with care, and enjoy a little extra savings while you're here. *Intro offer: 10% off No-Hide & free shipping on one-time orders
 
-Treat your loved ones to a cleaner, fresher car! 🎁
-The V-15 Pro’s powerful suction clears out crumbs and dust in seconds—an ideal gift for anyone on the go!
+### Dr. Rachael Simmons, MD. · 28 days · pct 0.07142857142857142
+**Headline:** 2 to 3 Times the Heart Attack Risk. LDL Won't Show It.
 
-### The Smile Authority · 25 days · pct 0.047619047619047616
-**Headline:** ENDS TOMORROW: $230 Off Shiny Smile
+The single best predictor of whether you will have a heart attack in the next 10 years is not your LDL cholesterol. It is not your total cholesterol. It is not your blood pressure. It is the ratio of your total cholesterol to your HDL, and specifically the level of your HDL by itself.
 
-🦷 Last chance to save $230! Get the perfect, bright smile you’ve always wanted without the expensive dental bills or painful drilling. Our custom-fit veneers snap right in for an instant confidence boost. Sale ends tonight!
+I am a primary care physician. I have practiced for 22 years. I have ordered north of 40,000 lipid panels. I have written, conservatively, 6,000 statin prescriptions. And I am writing this essay because the number I was trained to watch — the LDL number your doctor points at every year and says we need to bring
 
-### Best Dental Advice · 25 days · pct 0.0967741935483871
-**Headline:** How To Heal Cavities Naturally
-
-Most dentists won’t tell you this but YES, you can heal cavities and fix gum recession naturally.
-
-So if have any bleeding gums, mouth pain, bad breath, exposed roots, or loose teeth, then pay close attention
-
-Because there's an ancient volcanic clay formula that pulls toxins like a magnet, clears decades of buildup, and supports real healing.
-
-I know MINDBLOWING! Why isn’t anyone talking about this?
-
-Don’t worry, I am and I won’t stop until EVERYONE knows.
-👇 Experience the volcanic detox your mouth has been waiting for.
-
-### The Smile Authority · 25 days · pct 0.14285714285714285
-**Headline:** ENDS TOMORROW: $200 Off Shiny Smile
-
-⏳ The Clock is Ticking...
-In exactly 24 hours, our $230-off Flash Sale disappears for good.
-
-We’ve kept this $269 special pricing open as long as we could, but after tomorrow, the price returns to $499—no exceptions.
-
-By now, you’ve seen the life-changing transformations our customers are sharing. You know that Shiny Smile Veneers are the #1 rated way to get a perfect, radiant smile without the dental office price tag.
-
-Now, it’s decision time:
-
-Option A: Jump in before the deadline, choose your shade (Bright White, Pearl, or Champagne), and lock in your $230 discount.
-
-Option B: Wait, miss th
-
-### TheraICE · 25 days · pct 0.2222222222222222
-**Headline:** Cold Compression. Targeted Relief.
-
-Sprains, soreness, or post-workout fatigue — the TheraICE Ankle Sleeve PRO delivers cold therapy and compression to help you recover faster and move better, every day.
-
-❄️ Enjoy 10% OFF with code WELCOME10 at checkout!
-
-Get recovery right. Shop now.
-
-### The Smile Authority · 25 days · pct 0.23809523809523808
+### The Smile Authority · 28 days · pct 0.16666666666666666
 **Headline:** ⏳ LAST CHANCE: 40% Off Ends Tonight!
 
 This is your final call. If you’ve been waiting for the perfect time to get a professional, custom-fit celebrity smile without the $15,000 dentist bill—this is it.
@@ -994,7 +648,7 @@ This is your final call. If you’ve been waiting for the perfect time to get a 
 
 Click "Learn More" to claim your discount before the timer hits zero.
 
-### Marcus King · 25 days · pct 0.25
+### Marcus King · 28 days · pct 0.25
 **Headline:** If someone you love has Parkinson’s, please read this 👆
 
 I was diagnosed with Parkinson's and told to start Levodopa immediately. I did exactly what my neurologist said. I wish I hadn't waited so long to look past it. By the end of this, you'll know exactly what my medication was missing.
@@ -1007,35 +661,83 @@ For 18 months I didn't miss a dose. Walked every morning, did the boxing class, 
 
 Motor scores h
 
-### LOOPS · 24 days · pct 0.017241379310344827
-**Headline:** Find Your Perfect Skin Mood
+### The Smile Authority · 28 days · pct 0.3
+**Headline:** Get Your Dream Smile From Home 🦷
 
-Find your glow with LOOPS hydrogel beauty masks. Choose from hydrating, brightening, calming, detoxifying and more—designed for healthy-looking, glowing skin in just 10 minutes.
+Bad teeth stole your confidence? Get your smile back instantly. 😁
 
-### usehuron · 24 days · pct 0.045871559633027525
-**Headline:** Get six bars in every order
+Shiny Smile Veneers are custom-made to fit over your existing teeth, helping conceal gaps, missing teeth, stains, chips, and uneven smiles in seconds.
 
-Six bars in one order, because great scents shouldn't be limited. Get cologne-grade fragrance at an everyday price.
+✅ Natural-looking appearance
+✅ No painful dental procedures
+✅ No expensive cosmetic treatments
+✅ Custom-made by dental professionals
+✅ Backed by a 3-year warranty
 
-### Carina Organics · 24 days · pct 0.08771929824561403
-**Headline:** 💗 100% Natural & Toxin-Free
+Join 3,000+ happy customers who transformed their smile and confidence without spending thousands at the dentist.
 
-Carina Organics is safe, all-natural hair and skin care accessible to everyone.
+Smile. Speak. Laugh. Without holding back.
 
-✔️ Bottled by hand
-✔️ Certified organic ingredients
-✔️ 100% naturally made products that actually work
-✔️ Free from harmful synthetics & chemicals
-✔️ Formulated fresh to order
+### The Smile Authority · 28 days · pct 0.3333333333333333
+**Headline:** Birthday Sale: 40% OFF Shiny Smile ✨
 
-Free shipping on orders over $99. Shop today!
+It’s our birthday, and we’re celebrating by dropping prices to their lowest of the season! 🎂✨
 
-### TruHeight Kids · 24 days · pct 0.1
-**Headline:** KIDS LOVE THE FLAVORS
+Get your first full custom set of Shiny Smile Veneers for just $469 (down from $570) .
 
-Flavors kids love. Nutrition parents trust. TruHeight Kids makes picky eating simple. Try it today.
+No dentist visits, no drilling, and no $10,000+ bills. Designed under dentist supervision, each set is 100% custom-crafted from ultra-slim dental resin to comfortably snap over gaps, stains, and missing teeth.
 
-### The Healthy Gut Journal · 24 days · pct 0.21897810218978103
+Included with every birthday order:
+🎁 FREE Gift Included
+🚚 FREE Shipping
+🛡️ 60-Day Money-Back Guarantee
+
+Claim your discount today before the birthday sale ends! 👇
+
+### The Smile Authority · 28 days · pct 0.5
+**Headline:** Get #1 Custom Snap On Veneers (40% OFF)
+
+Traditional cosmetic dental work can easily quote you $6,000+ for a smile makeover. 
+
+Shiny Smile Veneers delivers custom-fit, snap-on veneers for both arches for just $469—or 4 easy payments of $117.
+
+No dentist visits, no painful drilling, and no hidden fees. 
+
+Get the bright, straight smile you deserve right from home, backed by our 60-day guarantee and free re-dos.
+
+### Splendid Shopper with Arey · 27 days · pct 0.02459016393442623
+**Headline:** Five Months. One Bottle. Every Night.
+
+I found my first greys right at the part, three inches from my face, under the bathroom light that shows everything. What I wanted wasn’t dye. It was the thing I’d been doing for my face for years: something proactive, before it’s a problem. A hundred and fifty nights later, that strip of hair has stopped getting worse. The full review, caveats included →
+
+### The Moms Co. · 27 days · pct 0.057692307692307696
+**Headline:** 8 Packs + 2 FREE Pocket Wipes @ ₹799
+
+More wipes for every little mess, plus pocket wipes for every outing! 👶💙
+
+✔️ 8 Packs of All Day Baby Wipes
+✔️ 2 Pocket Wipes FREE
+✔️ All at just ₹799
+
+### The Healthy Gut Journal · 27 days · pct 0.10471204188481675
+**Headline:** I Thought My Colon Had Stopped Working
+
+If you are taking a laxative right now to deal with your constipation, this post is a warning.
+
+It doesn't matter if it's senna or Dulcolax or MiraLAX or Smooth Move tea or magnesium citrate or any other product on that shelf at the drugstore.
+
+What you are about to read will make you want to throw every single one of them in the garbage tonight.
+
+Because every dose you take is destroying the one thing your colon needs to function on its own.
+
+And by the time you realize what's happening, you'll be so dependent on these products that you won't be able to go to the bathroom at all without them,
+
+### Mustela USA · 27 days · pct 0.1111111111111111
+**Headline:** Shop Gentle Care for Eczema-Prone Skin
+
+Soothe and nourish dry, eczema-prone skin using our clinically proven Stelatopia + lipid-replenishing cream. Explore all of our gentle, daily skincare essentials designed to calm and nourish even the most sensitive skin.
+
+### The Healthy Gut Journal · 27 days · pct 0.15706806282722513
 **Headline:** I Thought My Colon Had Stopped Working
 
 I wore diapers for two years because my doctor said I was incontinent. I wasn't. I was constipated, and the diarrhea was leaking out around it.
@@ -1046,62 +748,157 @@ Nobody did. Until last spring.
 
 My daughter Jen dropped my grandson Tyler off for the afternoon. He's five. He'd just finished potty training and he was SO proud of himself. He told everybody. The mailman. The girl at the bank drive-through. "I'm a big boy. I don't
 
-### Carol Goldberg · 24 days · pct 0.33076923076923076
-**Headline:** If someone you love has Parkinson’s, please read this 👆
+### Milamiamor · 27 days · pct 0.5714285714285714
+**Headline:** Caffeine-Free Recovery
 
-Parkinson's is fucking ruining my marriage 💔 and last spring I cheated on the man who raised our kids.
+Caffeine-free after-party support with DHM, prickly pear, and electrolytes for the routine after the celebration.
 
-Last April I sat in my own driveway for forty minutes with the engine off.
+### Gundry MD - Nutrition · 26 days · pct 0.04878048780487805
+**Headline:** Save Now! Get up to 36% OFF Gundry MD Olive Oil
 
-The porch light was on. Through the front window I could see my husband in his chair, the TV throwing blue light across his face, exactly where I'd left him at four o'clock.
+🌟 Big SAVINGS! Get up to 36% OFF Ultra-Rich Polyphenol Olive Oil!
 
-My phone buzzed in my lap. It was Ray.
+Why choose 🌱 Polyphenol Rich Olive Oil? 
+Because your body deserves the BEST— unmatched taste & health perks!
 
-I read it and smiled. I typed back before I'd even turned off the dome light.
+Every drop of this “Liquid Gold” is packed with mighty plant-compounds to help support:
 
-Forty one years married. Two grown kids. Three grandkids. And I was sitting out there grinning at a phone like a teenager whil
+🔋 Boosted Energy
+🏆Healthy Weight
+🌈Comfortable Joints 
+✨Radiant Skin 
+...And that's just the beginning!
 
-### The Smile Authority · 24 days · pct 0.42857142857142855
-**Headline:** The 10/10 Natural Snap-On Smile ✨
+"After using this olive oil, I can NEVER use another one – it’s like NIGHT & DAY; the taste and benefits are amazing!"
 
-Hide missing teeth, gaps, stains, and chips for thousands less than the dentist. 🦷 With Shiny Smile Veneers, you get a 100% custom snap-on smile delivered straight to your door. No dentist visits, no painful drilling. For a limited time, take up to 45% OFF your first order and get FREE gifts included with your kit. Backed by our 60-day money-back guarantee!
+🛡️ 100% Money-Back Guarantee
+🎁 Save up to 36% – Don’t Miss Out!
 
-### Dr. Sarah Clarke - Wellness Expert · 24 days · pct 0.4444444444444444
-**Headline:** I prepared for the worst. Cancer? Diabetes? Something terminal?
+Get your special discount now 👉
 
-One switch. 60 days. Six blood markers transformed.
+### Rachel Whitfield · 26 days · pct 0.14285714285714285
+**Headline:** Every gift I ever gave my mother ended up in a drawer with the tag still on. Last December I gave her a copper water bottle. She called me three days later.
 
-Not a new medication. Not an expensive program. Not a specialist.
+Every gift I ever gave my mother ended up in a drawer with the tag still on.
 
-A water bottle.
+Last December I gave her a copper water bottle. She called me three days later.
 
-My doctor is still documenting my case.
+My mother has a closet in the upstairs hallway I am not allowed to open. I have known what is in it since I was twenty-eight.
 
-She pulled up two screens: Left: My blood work from 6 months ago Right: Current results
+The cashmere scarf I gave her Christmas 2007. The candle set from her birthday in 2011. The leather journal in 2014. The gold pendant for her seventieth. The crystal decanter the year I gave up and asked my husband to pick something. The candle from last Easter — she didn't even bother to unwrap that one.
 
-"What did you do?" she asked.
+Twenty
 
-The transformation was impossible: CRP (inflammation): 11.8 → 2.9 TSH (thyroid): 4.7 → 2.1 Ferritin (iron): 12 → 52 Triglycerides: 287 → 124
+### Dr. Elizabeth - Natural Healing · 26 days · pct 0.375
+**Headline:** If you have come in to my counter with a prescription for sleep, a prescription for inflammation, and a prescription for the side effects of the first two, this is what I would tell you if I were allowed to.
 
-"What medication are you on?" "What program did you join?" "Who's treating you?"
+If you have come in to my counter with a prescription for sleep, a prescription for inflammation, and a prescription for the side effects of the first two, this is what I would tell you if I were allowed to.
 
-"No one. I just switched water bottles."
+My name is Pamela. I am sixty-four. I have stood behind a retail pharmacy counter in central Pennsylvania for thirty years, and after counting somewhere north of two million pills with my own hands, I have a quiet opinion to share with the women I see most often.
 
-She actually laughed. "From what to
+The cascade is real.
 
-### Root'd · 24 days · pct 0.8333333333333334
-**Headline:** Prenatal MULTI - Essential Vitamins + Electrolytes For Mom & Baby – Root'd
+You know the one I'm talking about. The first prescription is for sleep, because you can't get through y
 
-Real talk from a prenatal brand: the supplement aisle is confusing on purpose. More ingredients on the label = more marketing, not more nutrition. 
+### Lucy Chapman · 26 days · pct 0.7142857142857143
+**Headline:** She Kept Her Muscle On GLP-1. Her Secret?
 
-What actually matters is whether your body can use what's inside — and that comes down to form, delivery, and hydration.
+My Ozempic results shocked everyone. But the REAL shock was 6 months in.
 
-✅ Powder absorbs faster than pills or gummies — your body gets what's on the label
-✅ Methylfolate over folic acid — the bioavailable form, not the synthetic one
-✅ Gentle iron that doesn't cause nausea — because what good is iron you can't keep down
-✅ Built-in electrolytes — hydration your body actually needs right now
+I remember standing in my gym changing room after a workout.
 
-Sugar-fr
+Staring at my arms and butt in the mirror like they belonged to a stranger.
+
+Soft.
+Deflated.
+Like someone had let the air out.
+
+My trainer walked past, glanced over, and said the thing I'd been dreading.
+
+"You've lost a lot of muscle. We need to talk about what's happening."
+
+She wasn't talking about my workouts.
+She was talking about what the GLP-1 was doing on the side.
+
+The thing my doctor never mentioned.
+
+========
+
+See, I've been on a GLP-1 twice now.
+
+>>
+
+### Jaspr · 25 days · pct 0.1411764705882353
+**Headline:** Jaspr Air Scrubber - The First Air Scrubber Designed For Your Home
+
+You’d never sleep on a dirty bed. Why breathe dirty air?
+
+Most bedrooms are full of dust, pet dander, airborne mold and trapped pollutants.
+Jaspr quietly clears all of it—so you can get the best sleep of your life.
+
+### ClearDose · 24 days · pct 0.03333333333333333
+**Headline:** If You Have Diarrhea, You'll Want To Read This 👆
+
+🚽 "So far, I'm on my second day of Clear Dose Digestive Enzymes. It took effect immediately on my first day & I was totally amazed & relieved! I'll be ordering this supplement again for sure!"
+
+—Shirley W. (verified buyer)
+
+Before we explain why ClearDose works so well for people living with Chronic Diarrhea, let's talk about what's actually going wrong inside your gut every time you eat.
+
+🔹 Your body makes too few digestive enzymes — and some days, barely any at all
+🔹 Up to 68% of people with severe Chronic Diarrhea have some level of enzyme insufficiency
+🔹 So food reaches your colon half-dig
+
+### The Vascular Standard · 24 days · pct 0.1306122448979592
+**Headline:** The Ancient Protocol For Neuropathy
+
+I was diagnosed with peripheral neuropathy at 53. I am 61 now. Eight years of burning feet, eight years of the little orange bottles on my nightstand, eight years of my husband Jim finding me at 2 AM standing on the cold bathroom tile in bare feet because it was the only thing that dulled the fire enough to get back to sleep.
+
+Turns out I did not have nerve damage at all.
+
+I need to tell you what a woman named Gloria said to me at a church potluck in October, because it is the only reason I am sitting here writing this at a normal hour of the morning with a cup of something warm in my hand and
+
+### Health Magazine · 24 days · pct 0.18181818181818182
+**Headline:** Top 5 Best Ice Baths
+
+Do these 5 popular ice baths ACTUALLY WORK? We tested the top 5 most popular ice baths from reputable brands, so you don’t have to.
+
+### Heritage Store · 24 days · pct 0.1875
+**Headline:** See What Speaks to You
+
+New to Heritage Store? Consider this your invitation to explore Rosewater, Castor Oil, and a few unexpected finds. Take 20% off your first order with code NEW20 and get free shipping.
+
+### Mother Soil · 24 days · pct 0.6190476190476191
+**Headline:** Soil That Brings Out the Best in Every Plant
+
+Mother Soil’s biochar-rich, microbially diverse blend fuels rapid root growth, balanced nutrition, and vivid variegation without chemicals.
+Perfect for Scindapsus, Aroids, Alocasia, and more.
+
+### Mother Soil · 24 days · pct 0.7619047619047619
+**Headline:** Buy 3 Bags, Get 1 Free 🌱
+
+Your plants don’t have to struggle. 🌱
+With Mother Soil, even the toughest cases can revive and thrive again.
+
+👉 Buy 3 Bags, Get 1 Free + Free Shipping (limited time).
+
+### Bounce Hair · 23 days · pct 0.015384615384615385
+**Headline:** 30% OFF: The Gel Cream That Never Crunches
+
+Every gel goes crunchy. Every lightweight cream falls flat by noon. So you pick the one you hate less.
+
+The Weightless Definition Gel-Cream ends that choice with FeatherFilm™ — an ultra-light film that locks soft definition without the crunch.
+
+✨ Gel-level hold that stays touchable
+🌊 Frizz control up to 72 hours
+💧 Day-2 refresh with just water
+
+SHOP NOW AT 30% OFF + 30-DAY GUARANTEE
+
+### Kion · 23 days · pct 0.02702702702702703
+**Headline:** One packet with water. Anywhere. ✨
+
+No protein shakes, no planning, no problem. Kion Aminos is the one thing that goes with you everywhere. Just mix one packet with water on busy days to build lean muscle, boost energy, and recover. Save 50% on Kion Aminos packets today, and if you don't love it, you're fully covered by a 60-day money-back guarantee.
 
 ### Sara Health Tips · 23 days · pct 0.05263157894736842
 **Headline:** Your doctor tested for allergies. The real cause is pepsin.
@@ -1110,18 +907,53 @@ Your doctor tested for allergies. But the real cause of your throat mucus is an 
 
 👇 Learn why everything else failed.
 
-### Rachel Whitfield · 23 days · pct 0.061224489795918366
-**Headline:** If a copper bottle did nothing for your bloating or digestion, there's a good chance you never drank from copper.
+### Asoleo · 23 days · pct 0.0625
+**Headline:** One for Each Heel. The Second One's Free.
 
-If a copper bottle did nothing for your bloating or digestion, there's a good chance you never drank from copper.
+A lot of parents find this out the hard way: once one heel settles down, the other one starts hurting.
 
-I was right about the six weeks. I was completely wrong about the bottle.
+Both heels are growing at the same time, and the Achilles pulls on both with every sprint. So when one side calms down, kids start leaning harder on the other.
 
-If you tried a copper bottle for your gut and felt nothing, you might have made my exact mistake.
+So right now, the second sleeve is on us. Buy 1, get 1 FREE.
 
-I'm 55. For a couple years my stomach was off more days than not. Bloated by mid-morning, waking up already puffy, reaching for antacids after dinner like they were breath mints. My doctor ran everything, said it was normal, said it was my age.
+RecoverX is a slim compression sleeve with a Heel-Lock strap that wraps the heel and eases that pull while they play. It fits inside cleats.
 
-So when copper water kept coming up in my group, I ordered one. O
+96% of parents reported less pain in the first week. 30,000+ families. 30-day money-back guarantee.
+
+Claim your free sleeve 👇
+
+### Kairos Algo · 23 days · pct 0.21428571428571427
+**Headline:** Your Brokerage. Your Custody. Always.
+
+On a Tuesday morning in March, before I left for work, I wrote two lines on a yellow legal pad. The first said "need growth." The second said "can't afford a big loss." I read them back and saw that they argued with each other.
+
+I am sixty-two. The divorce was final last fall. I came out of it with the condo, half of what we had saved, and an IRA that was built for two people retiring together. Now it has to carry one person, a few years from now. I ran the numbers the way a planner once showed me. If I leave the money sitting safe, it does not get me there. It has to grow.
+
+I also know what a
+
+### AlkoStop · 23 days · pct 0.25
+**Headline:** 🚨OFFER ENDS TODAY!🚨
+
+Why is quitting alcohol so hard? Because it numbs you... Alko Stop completely changes that game.
+
+These drops reprogram your system. Within a few days, the pleasure of alcohol turns into a natural aversion.
+
+Clinically proven, with no side effects.
+
+👉 Click the link below to claim your free bottles...
+
+### Mother Soil · 23 days · pct 0.8095238095238095
+**Headline:** Zero Chemicals + Mother Soil = Beautiful Leaves
+
+This isn’t a filter. It’s the power of living soil.
+
+When you ditch synthetic fertilizers and switch to Mother, your plants notice.
+
+Our premium probiotic mix is packed with over 800 species of beneficial microbes. That means healthier roots, vibrant growth, and natural variegation — no hacks required.
+
+Try it, and watch your plants come to life.
+
+🌱 Buy 3 Bags, Get 1 Free
 
 ### The Dentalist · 23 days
 **Headline:** Book Your Consult Now
@@ -1135,227 +967,7 @@ We use advanced 3D technology to show you exactly how your teeth will move and w
 ✨ Top 1% provider in Europe → Thousands of successful cases, proven expertise 
 ✨ Advanced 3D planning → See your
 
-### Jaspr · 22 days · pct 0.1206896551724138
-**Headline:** Jaspr Pro
-
-IF YOU DON'T FILTER YOUR AIR, YOUR LUNGS ARE THE FILTER.
-
-### Jaspr · 22 days · pct 0.20689655172413793
-**Headline:** Jaspr Air Scrubber - The First Air Scrubber Designed For Your Home
-
-You’d never sleep on a dirty bed. Why breathe dirty air?
-
-Most bedrooms are full of dust, pet dander, airborne mold and trapped pollutants.
-Jaspr quietly clears all of it—so you can get the best sleep of your life.
-
-### Jaspr · 22 days · pct 0.25862068965517243
-**Headline:** 97% Less Mold in 1 Hour.
-
-The lab results don't lie. Transform your air quality in 60 minutes. ⏱️
-
-💨 97.1% Mold Reduction 🏡 Whole-home coverage 🩺 Medical-grade tech
-
-Stop exhausting yourself searching for the best air purifier. You found it.
-
-Try yours today at Jaspr.co
-
-### Black Mamba Jewellery · 22 days · pct 0.3333333333333333
-**Headline:** BUY 2 GET 3 FREE
-
-Crafted for the man who lives on his own terms. 🖤
-
-A bold finish. Everyday durability. Details that make your style stand out.
-
-Black Mamba’s men’s bracelet collection is made for everyday wear, with a premium finish, anti-tarnish coating and water-resistant design.
-
-✔️ Premium Finish
-✔️ Anti-Tarnish
-✔️ Water-Resistant
-
-🔥 BUY 2 GET 3 FREE
-
-Two pieces. More ways to wear your style.
-
-Shop Black Mamba Now.
-
-### Flawless After 40 · 21 days · pct 0.03333333333333333
-**Headline:** Look As Young As You Feel
-
-For twenty-six summers I spent the Fourth of July at my husband's family lake house. The year after he died, the invitation never came. I drove up anyway. And I made sure his family saw exactly who they'd written off.
-
-Jim and I married young. His family had a compound on the lake, a big main house his grandfather built, two cabins, a long dock, a boathouse. Every Fourth, the whole Whitaker clan came.
-
-I wasn't born a Whitaker. I married in. But for twenty-six years I made the potato salad nobody else could get right, I learned everyone's grandchildren's names, I sat on that dock at midnight m
-
-### Carol Bennett · 21 days · pct 0.045454545454545456
-**Headline:** The Podiatrist-Approved Sneaker Built for Senior Women
-
-I have performed thousands of bunion surgeries on women over 65.
-Almost every week, a patient sits on my exam table with tears in her eyes.
-She looks at me and says the same thing:
-"Doctor, I do not understand. I gave up high heels years ago. I spend $160 on the most cushioned walking shoes I can find. Why do my feet hurt worse every single year?"
-I look down at her feet.
-Her big toe is pushed hard against her other toes.
-The joint at the base is swollen, red, and hot. That is a bunion.
-Under her heel, the band of tissue called the plantar fascia is irritated and stiff.
-Taking that first step
-
-### Michelle Marchesano · 21 days · pct 0.05319148936170213
-**Headline:** I couldn't tell my mother she smelled
-
-My 9 year old asked at dinner why our house smelled like something died. The answer was sitting next to her.
-
-My mother is 86.
-
-After my father died she lived by herself for eleven years. Wouldn't move. wouldn't even talk about it.
-
-She made her own coffee every morning. Did her own laundry. Put on earrings to go to the grocery store.
-
-Then she started falling.
-
-The first one she didn't tell me about. I found out because her neighbor called me.
-
-The second one she was on the bathroom floor most of an afternoon before anybody knew.
-
-So in March I put her in a nursing home
-
-She called me every s
-
-### Cacao Research Institute · 21 days · pct 0.10704960835509138
-**Headline:** The #1 Cacao for Prostate Health
-
-I took saw palmetto every day for 14 weeks. My nighttime bathroom trips? Exactly the same. What I overheard at the barbershop changed everything.
-
-My name is Ray Delvecchio. I'm 59 years old.
-
-I believed in saw palmetto the way some men believe in their morning coffee.
-
-Not casually. Not as a "worth a shot" experiment.
-
-I believed because I'd read the research. Real research. Published reviews showing saw palmetto supported healthy prostate function. Naturopaths recommending it. Men's health sites ranking it number one for prostate support. Dosing guides, absorption tips, brand comparisons.
-
-I
-
-### Mother Soil · 21 days · pct 0.8
-**Headline:** Soil That Brings Out the Best in Every Plant
-
-Mother Soil’s biochar-rich, microbially diverse blend fuels rapid root growth, balanced nutrition, and vivid variegation without chemicals.
-Perfect for Scindapsus, Aroids, Alocasia, and more.
-
-### Hydro Car Care · 20 days · pct 0.0029411764705882353
-**Headline:** Was £120 — Now £69.99
-
-Winter roads call for a winter-ready shine. ❄️🚗
-
-Keep your car looking its best through the colder months with the Hydro Essential Kit. Everything you need to tackle winter dirt, road grime and everyday mess — from pre-wash and shampoo to detailing and drying.
-
-Complete with our Hydro Spray Bottle and Drying Towel, you can achieve a spotless finish from the comfort of home. No jet wash needed.
-
-Keep your car clean, protected and winter-ready for less. Shop now!
-
-### Bruce Harold · 20 days · pct 0.031746031746031744
-**Headline:** Get Them Out Of Your Liver
-
-A daughter found my name on her father's body release form, tracked me down at the loading dock at six in the morning, and asked me to open his liver. What we found in it should have been on the news.
-
-I'm a morgue technician. Fourteen years at a hospital in Huntsville.
-
-My job is the part of the hospital nobody takes the tour of. 
-
-When somebody dies upstairs, I'm the one who comes and gets them. I log them, tag them, put them in the cooler at thirty-eight degrees, and release them to the funeral home when the paperwork clears. 
-
-And when there's an autopsy, I'm the one who does the cutting w
-
-### Olevra. · 20 days · pct 0.045454545454545456
-**Headline:** Meet Olevra Ring
-
-the viral smart ring every girl is talking about lately ✨💍
-tracks your:
-♡ sleep
-♡ stress
-♡ steps
-♡ heart rate
-♡ cycle insights
-without wearing a bulky watch 24/7 👀
-looks like jewelry, works like a wellness tracker.
-and yes… the app is free 🤍
-try Olevra before everyone else catches on
-
-### WiserAdvisor · 20 days · pct 0.05263157894736842
-**Headline:** Know What You Can Spend
-
-For people in their 60s with $250k+ in investments:
-
-Saving was the easy part. Knowing what to spend is the part nobody teaches.
-
-Get matched with advisors in your area who build retirement income plans.
-
-### Gary Whitman · 20 days · pct 0.06097560975609756
-**Headline:** I wish I knew this sooner
-
-I spent 31 years as a general surgeon. I operated on thousands of people whose bowels had stopped moving: blockages, impactions, the cases that come in through the ER at two in the morning bent over with pain. And I'm about to tell you something I should have said three years ago. 
-
-My wife told me to leave it alone. I'm retired now. Nobody's career is on the line anymore. Not mine, not my old partners', not the hospital's. 
-
-But I'm 65 years old, and I told far too many people "It's the shot. Drink more water, it'll settle down," knowing that what I'd just seen on the table had nothing to do
-
-### Marie Peterseon · 20 days · pct 0.07317073170731707
-**Headline:** Stay or Go? She Told Me the Truth.
-
-My husband and I had not had a real conversation since 2019. I asked a psychic whether I should leave him. She asked me a question I had never once asked him.
-
-I counted the words one night. I want to tell you that up front so you understand what kind of woman I'd become. On a Tuesday in February, I sat across from my husband of 31 years at dinner and I counted every word we said to each other.
-
-Eleven.
-
-"Pass the salt." "Here." "Good?" "Fine." "Game's on." "Okay."
-
-Eleven words. Then two recliners, one TV, and bed at 10, same as the 1,800 nights before it.
-
-My name is Marie Paterson. I'm 58.
-
-### Glacier Glow · 20 days · pct 0.08333333333333333
-**Headline:** The Balm Ending Years Of Psoriasis 👉
-
-"I spent a fortune and years of my life on steroid creams that never worked. This got rid of my plaques and stopped the itching" - Sarah W.
-
-✨ Calms psoriasis itching instantly
-💧 Softens thick plaques, scaling & flaking
-❌ No steroids & no prescriptions
-🌿 100% natural & non-toxic
-
-Get lasting relief from your psoriasis today!
-
-### Wild Earth · 20 days · pct 0.23529411764705882
-**Headline:** Vegan Dog Food - 20% OFF
-
-The Wild Earth Effect has been known to lead to:
-💨 More energy
-🐕 Less allergies
-✨ Shinier coats
-👅 Better breath
-💩 Healthier poops
-😋 Improved appetite
-
-Get 20% off your first subscription order today!
-
-### Beeya · 20 days · pct 0.3793103448275862
-**Headline:** Sync with your cycle, not against it.
-
-Did you know your body needs different nutrients depending on where you are in your cycle? 🌙 
-
-- Phase 1 (Days 1-14) focuses on healthy estrogen metabolism with flax and pumpkin seeds.
-
-- Phase 2 (Days 15-28) supports progesterone production with sesame and sunflower seeds.
-
-Beeya provides evidence-based ingredients to sync with your natural rhythm.
-
-### The Patch Remedy · 19 days · pct 0.006535947712418301
-**Headline:** Your wind-down, simplified.
-
-Your evening routine, minus the tablets. Magnesium glycinate, applied topically. Peel on a patch as you wind down and you're done.
-
-### Grow My Ads · 19 days · pct 0.022727272727272728
+### Grow My Ads · 22 days · pct 0.022727272727272728
 **Headline:** Free Google Ads Audit: Fix the August Update
 
 Did your Google Ads performance drop after August 27th?
@@ -1376,235 +988,192 @@ We'll look under the hood of your account and give you practical recommendations
 
 Book now: https://growmyads.com/google-ads-account-review-form/
 
-### Neso · 19 days · pct 0.03125
+### Neso · 22 days · pct 0.03508771929824561
 **Headline:** UPF 50+ Beach Tents & Sun Shades
 
 Introducing the Neso Boat Conversion Kit
 
 Made for the water and built for boats, our latest conversion kit provides versatile UPF 50+ shade wherever you go.
 
-### Lubracil · 19 days · pct 0.03896103896103896
-**Headline:** Something Amazing
-
-Do you know what clitoral atrophy is?
-
-Your doctor probably never mentioned it. But if sensation has been disappearing since menopause — that's the name. The tissue shrinks. The nerve endings go quiet. And no amount of lube or willpower brings it back.
-
-Blood flow does. The Lemon uses air-pulse technology to pull circulation back into the tissue — no friction, no irritation, no prescription.
-
-Get up to 60% OFF with your purchase 🍋
-
-### evenskyn · 19 days · pct 0.06451612903225806
-**Headline:** At-Home RF Skin Tightening Device
-
-Skip the clinic. Bring radiofrequency skin tightening home.
-
-One in-clinic RF session costs $300 to $500, and most plans need 6 to 10 of them. The EvenSkyn Lumo+ is an at-home skin tightening device with radiofrequency, EMS and red and blue LED light in one handset.
-
-It warms the skin to a steady 40 to 42°C for firmer-looking skin, a more defined-looking jawline and softer-looking fine lines on the face and sides of the neck.
-
-✔ 5 minutes, 2 to 3 times a week
-✔ No needles, no appointments
-✔ 4.6 stars from 363 verified reviews
-✔ 60-day money-back guarantee
-
-$499.99 once, or 4 payments of $125.
-
-### TopCashbackUSA · 19 days · pct 0.1111111111111111
+### TopCashbackUSA · 22 days · pct 0.125
 **Headline:** Save big at Target
 
 IT'S BACK! Purchase two Icon Glasses from Target totaling $15+ and we'll give you a $10 Cash Back reward 💰While supplies last.
 
-### HarnessBuddy · 19 days · pct 0.15
-**Headline:** Over 200,000+ Dog Owners Approved
+### Anabar · 22 days · pct 0.19047619047619047
+**Headline:** Find Anabar at a Kroger Near You
 
-Say goodbye to struggling with your dog's harness! 🐕‍🦺
-Introducing HarnessBuddy:
-• 3-second on/off ease 
-• Gentle, no-choke design for comfort & safety
-• Reflective strap for night walks
-Get personalized with name + phone number!
-12 colors | 6 sizes | Adjustable straps = happier you and pup!
-Shop now and transform walk time!
+ANABAR, the Protein-Packed Candy Bar, is now at Kroger! 🔥 🔥
 
-### Meridian Grooming · 19 days · pct 0.18421052631578946
-**Headline:** Tame The Bush
+### LTK · 21 days · pct 0.007194244604316547
+**Headline:** Get started for free
 
-Tired of using dull razors and ingrown hairs? 🤔
-Meet Meridian, the game-changing grooming brand that's about to elevate your daily routine! ⚡️
-Ready to level up your self-care?
+1 campaign. 100 creator responses. 22 minutes.
 
-### Eden Health Clubs · 19 days · pct 0.25
-**Headline:** 50% off your first BBL or MOXI
+### Zena Sport · 21 days · pct 0.017241379310344827
+**Headline:** Last Chance, Limited Edition Sell Out.
 
-Explore BBL photofacial and MOXI laser at Eden Health Clubs in Greenwood Village, near DTC.
+Our best-selling Youth Chest Protector is  elling out in White and wont be back again. 
 
-Save 50% on your first BBL or MOXI treatment—any treatment area. Get your personalized recommendation and full quote before deciding.
+Secure yours now and watch your athlete shine.
 
-Excludes combined BBL + MOXI sessions. Cannot be combined with membership pricing. Clinical eligibility applies. Results vary; additional treatments are separate.
+Built with scientifically tested open cell foam pad technology, it absorbs up to 75% of the force from impact while staying lightweight and flexible for comfort and mobility. 
 
-Request your offer.
+Grab it now, it wont be here long.
 
-### Denture Care Tips · 19 days
-**Headline:** This "Sunken Face-Eraser" Has Sold Out 4x This Year!
+### Balmonds Skincare · 21 days · pct 0.05555555555555555
+**Headline:** The Balm Customers Reorder 💚
 
-🦷 DON'T LET YOUR DENTURES AGE YOUR FACE BECAUSE YOU LOST NUTRIENTS 🦷
+“I’ve lost count how many times I’ve reordered this.” 💚 When customers keep coming back, you know we must be doing something right!
 
-When the teeth go, a lot of the foods your jawbone needs go with them. 
-When you process less D3 and K2 it means less proteins from less calcium absorption for your face, mouth, and surrounding areas like the skin.
+Discover Balmonds Skin Salvation, our 100% natural balm for dry, sensitive skin.
 
-That sunken face look begins, and it gets worse every. single. Day from extraction day
+Shop now and try it for yourself!
 
-That's the sunken mouth in the BEFORE photo. It's also why it takes more glue every month to keep that plate in.
+### Spotlight Oral Care · 21 days · pct 0.07317073170731707
+**Headline:** Worth €39, Now €24.99
 
-Your lips also keep thinning, your bone keeps shrinking, the foundation basically becomes ruble, and the relines
+Make their Christmas extra special with KoKo the Koala. 🐨🎁
 
-### Patricia Watkins · 18 days · pct 0.024096385542168676
-**Headline:** Pre-Orders Close Today. 56% Off 👇
+Meet the kids' gift set that's made for little smiles. Worth €39, it's yours for just €24.99.
 
-A girl half my age sent me a photo of herself in my bed with my husband. I wrote back, “Thanks for sharing him.”
+Discover Christmas gifting for little ones at Spotlight Oral Care.
 
-The text came in at 9:12 on a Saturday morning. I was at my sister Jo's in Dayton, making her breakfast, because Jo had a new knee and no patience.
+### Spotlight Oral Care · 21 days · pct 0.08536585365853659
+**Headline:** The Sonic One Whitening Gift Set
 
-"Hi Kim!! Sorry to bother you 🙈 Rick said you picked this out. Where did you get this comforter?? I'm obsessed. Hope I get to meet you soon 🤍"
+The gift that keeps on giving. 🎁
 
-Then the photo.
+Our Sonic One Whitening Gift Set brings together your Sonic One toothbrush and whitening favourites in one beautifully packaged gift set.
 
-My lamp. My reading glasses on my nightstand. The water ring on the wood I've been meaning to sand for three years.
+Worth £102, yours for just £49. A little something special for someone you love (or yourself!).
 
-A young woman under my caramel comforter, pulled up to her
+### Ocean Home + Lifestyle · 21 days · pct 0.08771929824561403
+**Headline:** Cleaning Made Really Easy💚
 
-### PEP · 18 days · pct 0.045454545454545456
+😓Heavy Buckets, Meet Your Match!
 
-Hello October. Hello, Breast Cancer Awareness Month. 🌸
+Tired of lugging around those heavy buckets and squeezing rags for cleaning? Our Smart Living Steam Mop is here to take the weight off your shoulders!
 
-Early detection saves lives, and this month, every small step counts. For every pink towel purchased at PEP, we’re donating R1 to CANSA.
+No more heavy lifting and squeezing to tackle tough messes! 💪 Hot steam loosens dirt and grime, and the pad lifts it away, leaving your floors streak-free!💯
 
-Visit your nearest PEP, and remember to prioritize your wellness with regular self-exams. Learn more: https://bit.ly/DryAndDetect
+✅ It uses only water, so no harsh chemicals are needed.
 
-Let’s wrap our community in care and support those fighting, surviving, and remembering. 💗
+✅ The best part? Your floors are bone-dry in under 60 seconds. You'll be amazed by the speed!
 
-#DryAndDetect #EarlyDectectionSavesLives
+✅ And here's the cherry on top: this easy-to-use cleaning wonder means no more hands-and-knees scrubbing
 
-### Biopetix · 18 days · pct 0.0967741935483871
-**Headline:** Stop Degenerative Myelopathy Before Symptoms Start
+### Hometown Property Investors · 21 days · pct 0.11363636363636363
+**Headline:** ⚡ Sell The House This Week. Move On With Your Life.
 
-If your dog's back legs are crossing when they walk, it's NOT old age. It's probably Degenerative Myelopathy (DM), a progressive spinal cord disease affecting breeds like German Shepherds, Boxers, and Corgis.
+🏚️ If your house has become more of a burden than anything else, and you just want it sold, this is for you.
+ 
+This isn't for people testing the market. It's not for people chasing top dollar. It's for owners who've already made up their mind: I just want this done.
+ 
+Maybe it needs too much work. 
+ 
+Maybe there's a bad tenant. 
+ 
+Maybe you're behind on payments, going through a divorce, moving, or you inherited a house you never wanted. 
+ 
+Whatever it is, we'll buy it directly from you, as-is, in cash.
+ 
+Here's what you get:
+ 
+✅ No repairs
+✅ No cleaning
+✅ No showings
+✅ No agents
+✅ No fees
+ 
+💵
 
-DM destroys the myelin sheath around spinal cord nerves, breaking the connection between brain and legs. Most owners think it's arthritis, delaying diagnosis and accelerating damage.
+### Spotlight Oral Care · 21 days · pct 0.11382113821138211
+**Headline:** Your Routine, Upgraded
 
-🐶 Biopetix Mobility Chews combine:
-✔ BPC-157 to support the body's own repair signaling in joints, tendons and ligaments
-✔ TB-500 to support muscle recovery in the back legs
-✔ Glucosamine + MSM to supply th
+Meet your new brushing obsession 💜
 
-### Biovitic · 18 days · pct 0.10344827586206896
-**Headline:** Finally Trust Your Gut.
+Introducing the limited-edition Sonic Pro Toothbrush in Wisteria Purple and Emerald Green. Your favourite premium sonic toothbrush, now in two stunning new shades.
 
-Sudden urgency after meals. Imodium before you leave the house. Mapping every bathroom within fifteen minutes of wherever you're going. Sound familiar?
+  ✨ Up to 70-day battery life  
+  ✨ 4 brushing modes  
+  ✨ Visual quadrant timer
 
-Most probiotics use Lactobacillus strains that ferment in your small intestine - producing gas and pulling water into the exact part of your gut that triggers the sprint to the bathroom. The probiotic you're taking could be making the urgency worse.
+Two new colours. One elevated brushing routine.
 
-Biovitic Kombucha Probiotic Gummies were built for this specific problem.
+### Cacao Research Institute · 21 days · pct 0.16467780429594273
+**Headline:** Forget Beetroot. Try This
 
-A patented spore-forming probiotic that bypasses the small intestine and only activates in the colon - clinically studied
+Five beet products in my fridge. Not one of them did anything.
 
-### Nancy Anderson · 18 days · pct 0.10377358490566038
-**Headline:** Feel Normal in Your Own Skin Again
+That's been a normal Tuesday for me. It has been for about three years.
 
-I quit the church choir after twenty-two years and told everyone it was my voice.
+I have bought beet juice shots that tasted like I'd licked a garden hose. Beet powder that turned my orange juice the color of a crime scene. "Nitric oxide" beet chews with a bodybuilder on the label who was clearly not 58 and clearly not me.
 
-It wasn't my voice. It was the paper towels. Every Sunday I pinned them inside my bra, under my breasts. They caught the sweat before it soaked through my robe.
+You learn to stop expecting it. You buy the thing, you drink the thing, you feel something for an hour, and then you're back in your recliner by 2 PM with cold hands.
 
-Carol's the only one who knows. She knows because she walked into the church restroom and saw me pulling them out.
+After a while, it stops feeling like a waste of mon
 
-I'm 67. I've had a rash under both breasts and in the fold of my stomach for about eleven years. It started the summer after my husband retired, and it hasn't taken a full month off since.
+### Ride1UP · 21 days · pct 0.17391304347826086
+**Headline:** Black Friday Early Access
 
-The choir loft at our church is the hottest spot
+You're in early. Our Black Friday Early Access Sale is live.
 
-### Native Pet · 18 days · pct 0.11
-**Headline:** 40% Off + Free Shipping
+Get a head start on our biggest sale season with up to $500 off e-bikes, plus special accessory deals with your bike purchase.
 
-Give your furry friend the ultimate love! 🐾 Vet-formulated with clean ingredients and made in USA for a healthier pup.
+### SoWell · 21 days · pct 0.17647058823529413
+**Headline:** Done With Fiber Tubs? Try the GLP-1 Fiber Stick
 
-### Dr. Sarah Clarke - Wellness Expert · 18 days · pct 0.1111111111111111
-**Headline:** $45 Stanley cup that grows mold. $25 plastic bottle that grows 10 million bacteria. $12 Amazon “copper” that’s steel underneath.
+On a GLP-1 you've already got enough to keep track of. Scooping fiber powder out of a giant tub shouldn't be one of them.
 
-I spent $187 on Amazon copper bottles before I found a real one. Five bottles. Five fakes.
+SoWell Fiber comes in single apple cinnamon sticks you can keep in your desk, your car or your carry-on. One a day, a triple-blend fiber + probiotic, made by a GLP-1 doctor for GLP-1 users.
 
-Bottle 1: $12. “Pure Copper” in the title. 4.3 stars. 1,200 reviews. Cut it open — dark steel interior.
+### BISSELL Oceania · 21 days · pct 0.23529411764705882
+**Headline:** NEW SpotClean Turbo™ Available Now!
 
-Bottle 2: $18. “Authentic Ayurvedic Copper.” 4.5 stars. Steel interior.
+The new SpotClean Turbo™ is here! Turbocharge your cleaning with unmatched suction power that tackles even the toughest stains and odors. Say goodbye to stubborn messes and enjoy a cleaner home today—get yours now!
 
-Bottle 3: $22. “Lab Tested.” No lab named anywhere. Aluminum interior with copper-colored spray.
+✨ Turbocharged suction power
+✨ Eliminates odours and stains with ease
+✨ Perfect for hard-to-reach areas
 
-Bottle 4: $35. The “premium” option. Copper-plated steel. Still steel where the water sits.
+Available now! 🧼🚗🛋️
 
-Bottle 5: $14. “Handcrafted in India.” Machine-stamped steel from a factory.
+### Breath Lab · 21 days · pct 0.2696629213483146
+**Headline:** Keep The Results ➡️➡️➡️
 
-Total wasted: $101 on Amazon garbage.
+Nice, isn’t it? Not having to think about bad breath anymore. 😌
 
-Then House of Ayurveda
+No second-guessing yourself during conversations. No worrying when someone gets a little too close. Just the confidence of knowing your breath is fresh.
 
-### Nancy Anderson · 18 days · pct 0.16037735849056603
-**Headline:** Feel Normal in Your Own Skin Again
+But here’s the thing about your oral microbiome: it’s constantly changing.
 
-After 41 years of marriage, my husband sat across the kitchen table from me and asked, "Did I do something?"
+Every day, things like coffee, stress, dry mouth, and diet can influence the balance of bacteria living in your mouth.
 
-For six years I'd locked the bathroom door to change, so he'd never see the rash under my belly. I slept in a long nightgown in July. I turned off the lamp before he came to bed.
+That’s why consistency matters.
 
-He thought I'd stopped loving him.
+Breath Lab Oral Probiotics help replenish beneficial bacteria in your mouth, supporting a healthier oral microbiome and fresher breath over time.
 
-I'm 64. My name is Marie. I'm writing this because there are women my age doing every one of those things right now. Some of them have a husband sitting across a table, wondering what he did.
+Think
 
-He didn't do anything. It was never him.
+### Puppy Harbor · 21 days · pct 0.3728813559322034
+**Headline:** The Only Chew That Ticks Every Box
 
-It was a rash in the fold under my bell
+Every chew on the shelf makes you give something up. His teeth, his gut, his waistline, or your couch. 🐶
 
-### Dr James Carlson · 18 days · pct 0.25
-**Headline:** The Answer That Changed Everything
+Kofibone is the only dog chew that ticks ALL the boxes:
 
-A cardiologist in Italy asked me one question about my cholesterol that no doctor in eleven years ever had.
+✅ One solid wood branch, nothing added
+✅ Wears into soft flakes, not sharp shards
+✅ Gives before his teeth do
+✅ 0 calories, no smell, no grease
+✅ Lasts weeks, not minutes
 
-I didn't have an answer for it.
+Size it by his weight. Power chewer? Go one size up.
 
-I'm 61. I've known about my numbers since I was 50. Eleven years of annual panels, circled results, and adjustments that never quite got there.
+🐶 Buy 2, get 1 free. 30-day money-back guarantee.
 
-I want to tell you what he asked.
-
-Because if you've been doing the right things for years and watching your number stay wrong anyway — this might be the part that explains it.
-
-Here's where I was before that appointment.
-
-Eleven years ago, routine physical. LDL came back 181. Doctor said eat less saturated fat,
-
-### King Law · 18 days · pct 0.36363636363636365
-**Headline:** Used Suboxone?
-
-If you have taken Suboxone and experienced any of the following:
-
- • Severe tooth decay
- • Cracked/broken teeth
- • Tooth loss or extraction
- • Oral infection
-
-Contact us today to determine whether you may be eligible for compensation.
-
-### Medklinn Store · 18 days · pct 0.4444444444444444
-**Headline:** Wellbeing gift for staff appreciation
-
-A premium gift that shows you care - beyond the workplace. 🎁
-Recognise your team with a gift designed with their wellbeing in mind.
-
-The Medklinn Versa 45s Air+Surface Sterilizer helps create a cleaner, fresher and safer personal environment by reducing sinus allergy triggers, unpleasant odours, and airborne and surface-bound pollutants.
-
-✨ Make it uniquely yours with your company logo imprinted on each unit, turning a meaningful wellbeing gift into a reflection of your brand.
-
-Ideal for staff appreciation, long-service awards, festive gifting, corporate events and employee rewards.
-
-📩 Looking
-
-### King Law · 18 days · pct 0.45454545454545453
+### King Law · 21 days · pct 0.4166666666666667
 **Headline:** Suboxone Tooth Damage Lawsuit
 
 Have you used Suboxone and later developed serious dental problems?
@@ -1617,58 +1186,27 @@ Have you used Suboxone and later developed serious dental problems?
 You may qualify for a Suboxone dental lawsuit.
 Request a free case review today.
 
-### Claire Anderson · 17 days · pct 0.004166666666666667
-**Headline:** What an ER doctor told me at 6am
+### Ride1UP · 21 days · pct 0.43478260869565216
+**Headline:** Our Biggest Sale of the Season
 
-Part of my own bowel came out of my body on the bathroom floor one Tuesday morning.
+Ride1Up's BIGGEST SALE OF THE SEASON IS LIVE! 🚨
 
-If you've been struggling to go for years, please read this before it happens to you too.
+### Linda Caldwell · 21 days · pct 0.6176470588235294
+**Headline:** I spent $2,983 at the emergency vet 💔
 
-I'm not going to describe what I saw when I looked down.
+Please STOP trying to clean your cat’s teeth.
 
-I'll tell you one thing only: I have never in my life made a sound like the one that came out of me in that bathroom.
+I know that sounds insane when you’re worried about putting your cat under for a dental cleaning. But I'm BEGGING you to hear me out.
 
-David was through the door in about 2 seconds.
+Because what you’re doing right now, the Greenies, the water additive, the dental kibble, is like picking the tops off weeds while they keep growing underneath.
 
-That morning changed everything I thought I knew about my own body.
+Let me tell you what I wish someone had told me before I paid $2,983 at the emergency vet.
 
-And it's the reason I'm sitting up writing this tonight.
+Before they kept my baby overnight. Without me.
 
-Because if you're a woman over 45 who's been told by every doctor that n
+Gus is my whole world. He’ll be 7 in February. He showed up on my back porch the winter my husband passed, and he h
 
-### Farmers Defense · 17 days · pct 0.014598540145985401
-**Headline:** The New Winter Gloves Are Here 🧤
-
-They're here 🧤 The new Insulated Winter Gloves are in stock, rebuilt for 2026 with a bonded liner that stays put, a silicone palm grip and touchscreen fingertips.
-
-Get the pattern you want 👇 Topo Geo, Midnight Wolves, Dark Rose and Tree Camo.
-
-### Natural Wellness Magazine · 17 days · pct 0.028089887640449437
-**Headline:** The #1 Cacao for Brain Health
-
-⚡ Why 10,000+ Men Over 55 Ditched Their Brain Supplements For This Ancient Morning Cup
-
-The hard truth about brain supplements:
-
-Most are aimed at the wrong target entirely.
-
-They work around the fog in your head.
-
-None of them address where it actually starts.
-
-Here's what they don't tell you:
-
-❌ They assume the brain itself is failing
-
-❌ They flood your body with ginkgo and lion's mane your system can't even deliver where it matters
-
-❌ They target the symptoms, not the supply line
-
-❌ They have zero ancestral history of actually working
-
-❌ They completely ignore your blood vessels, the delive
-
-### Musabela · 17 days · pct 0.028169014084507043
+### Musabela · 20 days · pct 0.024390243902439025
 **Headline:** Buy 1 Pair, Get 1 FREE 👟👟
 
 Foot pain during long shifts?
@@ -1689,48 +1227,304 @@ For the busy shift—and the life waiting after it.
 
 Discover 7 reasons to consider Musabela. 👇
 
-### Datafeedwatch · 17 days · pct 0.04
+### Sarah Collins · 20 days · pct 0.027522935779816515
+**Headline:** How to stop the rebound
+
+Every woman I know who came off GLP-1s without gaining it back did these 10 things. Most doctors don't know #4.
+
+"Not careless.
+Not malicious.
+
+Genuinely, educationally, medically clueless about what happens to fat cells the moment the shots slow down.
+
+And that gap in their knowledge is costing women everything they worked for.
+
+Here is the part nobody put in your paperwork.
+
+When you lose weight fast, your fat cells do not disappear.
+
+They compress.
+
+They flatten.
+
+They get bent out of shape.
+
+And inside each one, a biological system researchers now call Fat Cell Memory is still quietly runn
+
+### Naturalnursemomma with Veracity Health · 20 days · pct 0.031914893617021274
+**Headline:** Up to 45% Off Your First Order!
+
+Hundreds of doctors recommend Metabolism Ignite to their patients for safe, natural weight loss. Save 45% on your first subscription order, and join thousands of people on the journey to meeting their weight loss goals!
+
+### Datafeedwatch · 20 days · pct 0.04
 **Headline:** Get Feeds Campaign-Ready
 
 Tired of fixing Shopping ad issues?
 Most problems start in the feed. 
 Are you optimizing yours for success?
 
-### Sarah Peekmill · 17 days · pct 0.04067796610169491
-**Headline:** Ceylon Cinnamon 7200mg Equivalent with MCT Oil
+### Zima Dental · 20 days · pct 0.061637534498620056
+**Headline:** ★★★★★
 
-I saw a number that made me sick. Type 2 diabetics are 2 to 4 times more likely to die from a heart attack than someone without diabetes. Even with a managed A1C.
+Dental pod cleans retainers, aligners, guards and more
 
-Not slightly more likely. 2 to 4 times.
+### Resorin · 20 days · pct 0.06896551724137931
+**Headline:** BUY 3 GET 2 FREE
 
-I'd had type 2 for 6 years and not one doctor had ever mentioned my heart.
+Looking to Support Healthy Kidney Function Naturally? 🌿
 
-But here's the truth. Your diabetes doctor runs blood sugar tests. Your heart doctor runs heart tests. The problem sits between them. And nobody is paid to look there.
+Experience the Power of Resorin Cold-Extracted Elderberry!
 
-That's why most of us never heard this.
+✅ Helps support healthy eGFR levels
+✅ Supports steady daily energy without fatigue
+✅ Helps reduce protein leaking into urine
+✅ Authentic Elderberry standardized to 10% anthocyanins
+✅ 200+ Clinical studies on kidney-protective compounds
 
-That's why my mother never heard it either.
+Support healthier kidney filtration naturally with research-backed ingredients designed for daily protection.
 
-My mother was part of that number. 11 years on Metformin. Heart
+### Trauma Research Foundation · 20 days · pct 0.15789473684210525
+**Headline:** Super Early Bird Available Now
 
-### usmile · 17 days · pct 0.1038961038961039
-**Headline:** See Your Smile Shine
+Join us in New York City for one of the world's most established and influential gatherings in the trauma field. 
 
-### Pep AI · 17 days · pct 0.10526315789473684
-**Headline:** Pep AI for your GLP journey
+For the first time in its 38-year history, the International Trauma Conference comes to The NewSchool in New York City, bringing together global leaders in research, clinical practice and healing for four extraordinary days of learning, connection and innovation.
 
-The GLP app built by someone who actually listened to the people using one. Scan any meal or menu, see what to eat to hit your protein and fiber goals, and track how you feel day to day. Three day free trial.
+This year's faculty includes internationally respected experts such as Bessel van der Kolk, Janina Fisher, Bruce Perry, Wendy D'Andrea, Kai Cheng Thom, Tian Dayton, C. Sue Carter and Ron Siegel, along with many other lea
 
-### IBlush Shop · 17 days · pct 0.10526315789473684
-**Headline:** Asian glow? We've got you...
+### A Dog Called Ducky · 20 days · pct 0.2
+**Headline:** Daily Dog Multivitamin, Less Itching
 
-"‘Are you sunburnt? Did you just run here? Is that an allergic reaction?", if you’ve heard it all before, keep reading...
+The multivitamin from @dogishuman has done wonders to clear up Ducky's itchy skin & yeast issues. She isn't scratching or paw-licking anymore. Plus, her coat is so soft & shiny!  I totally recommend subscribing for long-term results!
 
-Alcohol flush is real. It’s your body struggling to break down acetaldehyde (science moment 🤓).
+### Wild Earth · 20 days · pct 0.23529411764705882
+**Headline:** Vegan Dog Food - 20% OFF
 
-iBlush is a vitamin-based supplement that helps your body process alcohol properly. The result? Less redness, less discomfort, more confidence.
+The Wild Earth Effect has been known to lead to:
+💨 More energy
+🐕 Less allergies
+✨ Shinier coats
+👅 Better breath
+💩 Healthier poops
+😋 Improved appetite
 
-Ready to sip without the side effects? Go the iBlush way!
+Get 20% off your first subscription order today!
+
+### SoWell · 20 days · pct 0.29411764705882354
+**Headline:** Backed Up on a GLP-1? This Fiber Tastes Like Apple Pie
+
+Most fiber tastes like a chore. Ours tastes like apple pie, which makes it a lot easier to take every single day.
+
+SoWell Fiber is a triple-blend fiber + probiotic made for GLP-1 users, whose slower digestion needs a little help. One glass daily helps keep things moving, and it's the fiber you'll actually look forward to. A GLP-1 brand for the GLP-1 user.
+
+### Invisalign · 20 days · pct 0.3345070422535211
+**Headline:** Find a Doctor Today!
+
+Yes, you *can* afford the smile you deserve.
+
+### SoWell · 20 days · pct 0.4117647058823529
+**Headline:** Constipated on Your GLP-1? Try the Fiber Made for It
+
+If your digestion has changed since starting a GLP-1, you're in very big company. It's one of the most reported side effects.
+
+SoWell Fiber was made for exactly this: a triple-blend fiber + probiotic in an apple cinnamon stick you take daily. It helps keep things moving, and if it's been a while, your prescriber should know too. Made by a GLP-1 doctor for GLP-1 users.
+
+### SoWell · 20 days · pct 0.47058823529411764
+**Headline:** Keep Your Plans on a GLP-1. Add This Daily Fiber
+
+Feeling full longer is the whole point of a GLP-1. Feeling backed up on a trip you've been looking forward to is not.
+
+SoWell Fiber is a triple-blend fiber + probiotic in an apple cinnamon stick, made for GLP-1 users. Take it once a day so your gut keeps up with your calendar. A GLP-1 brand for the GLP-1 user.
+
+### UMZU · 19 days · pct 0.09523809523809523
+**Headline:** Give Circulation Some Attention
+
+Make healthy circulation part of your daily routine.
+Redwood supports healthy blood flow and natural energy, helping support the everyday activities that matter.*
+Discover Redwood and put circulation support on your side.
+
+### The Dentalist · 19 days · pct 0.2
+**Headline:** Black Friday: 20% Off Dental Implants
+
+Our biggest dental implant offer of the year is now open.
+
+This Black Friday, get 20% off dental implants at The Dentalist, where every implant case is planned with guided surgery.
+
+Your Black Friday package includes:
+
+✅ 20% off dental implants
+✅ Free implant consultation
+✅ Free 3D CT scan
+✅ Premium Straumann implants
+✅ Payment plan options
+
+Only 22 Black Friday spots are available. Once they are gone, the offer is gone.
+
+👉 Book your free Black Friday consultation today.
+
+### TGP · 19 days · pct 0.2
+**Headline:** 🔴 Live Sale: 63% Off Power Belt Pro
+
+🔴 LIVE SALE: 63% OFF
+
+Your belly isn't only about fat. Part of it is a muscle that stopped holding you in. Crunches and dieting never reach it.
+
+This belt sends gentle, controlled pulses that make those muscles contract, much like a workout, while you sit.
+
+It's not a weight-loss device and it doesn't melt fat. It helps tone the muscle underneath so your midsection is better supported.
+
+63% off for the next 500 orders. 90 days to send it back if you're not happy.
+
+### King Law · 19 days · pct 0.3333333333333333
+**Headline:** Used Suboxone?
+
+If you have taken Suboxone and experienced any of the following:
+
+ • Severe tooth decay
+ • Cracked/broken teeth
+ • Tooth loss or extraction
+ • Oral infection
+
+Contact us today to determine whether you may be eligible for compensation.
+
+### Denture Care Tips · 19 days
+**Headline:** This "Sunken Face-Eraser" Has Sold Out 4x This Year!
+
+🦷 DON'T LET YOUR DENTURES AGE YOUR FACE BECAUSE YOU LOST NUTRIENTS 🦷
+
+When the teeth go, a lot of the foods your jawbone needs go with them. 
+When you process less D3 and K2 it means less proteins from less calcium absorption for your face, mouth, and surrounding areas like the skin.
+
+That sunken face look begins, and it gets worse every. single. Day from extraction day
+
+That's the sunken mouth in the BEFORE photo. It's also why it takes more glue every month to keep that plate in.
+
+Your lips also keep thinning, your bone keeps shrinking, the foundation basically becomes ruble, and the relines
+
+### PEP · 18 days · pct 0.045454545454545456
+
+Hello October. Hello, Breast Cancer Awareness Month. 🌸
+
+Early detection saves lives, and this month, every small step counts. For every pink towel purchased at PEP, we’re donating R1 to CANSA.
+
+Visit your nearest PEP, and remember to prioritize your wellness with regular self-exams. Learn more: https://bit.ly/DryAndDetect
+
+Let’s wrap our community in care and support those fighting, surviving, and remembering. 💗
+
+#DryAndDetect #EarlyDectectionSavesLives
+
+### Cat Care Corner · 18 days · pct 0.0967741935483871
+**Headline:** Read if your cat needs teeth cleaned ☝️
+
+I'm a vet, and I wouldn't put my own cats under anesthesia for a dental cleaning. 
+
+Not because I don't care about their teeth. Because there is a way to never need one.
+
+If your cat's teeth are getting worse and your vet is pushing a cleaning, I need you to read this before you sign anything.
+
+Because there is something that your vet was never taught.
+
+I've done over 4,000 dental cleanings. I have 3 senior cats at home. And I have never put them through a dental cleaning.
+
+After reading this, you won't have to either.
+
+My name is Dr. Amy Russo. I'm a board-certified dental specialist at the O
+
+### Oxyfresh · 18 days · pct 0.1111111111111111
+**Headline:** "Best Dental Powder We've Used!"
+
+Other dental powders didn't work?
+
+We got you🩵
+
+### Invisalign UK & Ireland · 18 days · pct 0.12427745664739884
+**Headline:** Trust the Invisalign® starflower.
+
+Choose the no1. doctor recommended clear aligner brand
+worldwide.* Find a Invisalign® Provider today.
+
+*Based on a global survey of 1,786 doctors (dentists and orthodontists who use clear aligners) by IQVIA in NA, EMEA, LATAM, and APAC. Data on File at Align Technology, as of June 30, 2022.
+
+### Nuovva Kitchen Supplies · 18 days · pct 0.1452991452991453
+**Headline:** Cookware That Doesn't Break The Bank 😍
+
+Upgrading your cookware costs so much 🥺 Well, not anymore 😍
+
+Experience unmatched quality with our best-selling Premium Stainless Steel Cookware Collection ❤️
+
+The perfect companion for your kitchen.
+
+✅ Aluminium core for even heat distribution
+✅ Perfect for searing, slow-cooking & more
+✅ Perfect for induction, gas, and electric hobs
+✅ Over 5,500+ ⭐⭐⭐⭐⭐ reviews
+
+### Oxyfresh · 18 days · pct 0.16666666666666666
+**Headline:** Over 40,000+ Reviews
+
+This. CHANGED. My. Pets'. Life.
+💙Fresh Breath
+💙No Brushing
+💙Love In A Bottle
+💙Now Available At Amazon
+
+### Dr. Michael Thompson · 18 days · pct 0.18181818181818182
+**Headline:** Patients Ask Me How To Stop Snoring For Good
+
+Patients ask me this almost every day:
+"Dr. Thompson, is there a way to stop snoring and sleep apnea without the CPAP?"
+
+Let me tell you where it all comes from. Snoring and sleep apnea come from the throat muscles. When you fall asleep, they relax, they collapse, and they block your airway. That's it. Nothing complicated.
+
+For 20 years, all we could do was treat the symptoms. CPAP, which most patients abandon. Custom mouthguards at $2,000 that shift your jaw and hurt. Or throat surgery — $25,000, painful, and risky.
+
+Now there's something different. A small device I recommend to my patients.
+
+### Dr. Michael Thompson · 18 days · pct 0.2727272727272727
+**Headline:** Quit The CPAP For Good ☝️
+
+If you sleep with a CPAP machine, or you tried one and gave up, read this before you spend another night with that mask on your face.
+
+There may finally be a way to sleep through the night without the hose, the noise, or the straps. And unlike the machine, this one actually fixes the problem for good.
+
+After more than 20 years treating sleep and breathing problems, I've watched the same story play out thousands of times.
+People get diagnosed with sleep apnea. They get handed a CPAP machine. And they're told what I was trained to tell them: "This is it. Wear it every night, for the rest of your
+
+### BISSELL Oceania · 18 days · pct 0.38235294117647056
+**Headline:** Don’t take our word for it
+
+Don’t take our word for it. Here’s what real Aussie homes are saying about their BISSELL.
+
+### The Skin Health Review · 18 days · pct 0.42857142857142855
+**Headline:** The cream that dries to a powder
+
+"absolutely worth every penny! Dries it up! No smell, slime gone." — Debra, 2026
+
+Try it in the fold and feel it dry down to a silky powder.
+
+❤️ It won't sit wet and greasy in the fold like other creams
+🌿 10% undecylenic acid + 15% zinc oxide per tube
+⚡ Dries like a powder, protects like a barrier — absorbs sweat all day to help prevent recurrence
+✅ Dermatologist-tested — no steroids, no talc, no fragrance
+💯 365-Day Money-Back Guarantee — not feeling the difference? Full refund, no questions asked
+
+One tube $29.95 · 2 tubes $39.95 with free shipping · healora.com
+
+### Women into Wellness · 17 days · pct 0.0055248618784530384
+**Headline:** New York took action — will the U.S. follow?
+
+New York just restricted laundry products containing 1,4-Dioxane — a chemical linked to cancer found in most leading detergents.
+It’s hidden, unlisted, and used by millions every week.
+We found 5 cleaner brands that don’t use it. 👇
+
+### Shark Beauty Australia · 17 days · pct 0.014084507042253521
+**Headline:** The All-In-One At-Home Facial Device
+
+Meet Shark™ FacialPro™ Glow — the All-in-one Facial Device. Your complete 5-step facial at-home in just 10 minutes. 
+
+Shark™ FacialPro™ Glow deeply extracts and cleanses your pores, hydrates your skin by infusing hyaluronic acid and depuffs using heat-chill technology, delivering visibly clearer, hydrated and glowing skin after just one treatment. Designed to be used with Shark Beauty’s Dermatologist-tested Korean Skincare, for maximum professional facial results. 
+
+Shop now.
 
 ## Category competitors (top impressions) (120, from competitor_top_dental.csv)
 
@@ -2215,18 +2009,6 @@ Every single symptom.
 For the past 18 years, I've watched thousands of denture wearers walk into my office with these exact complaints.
 
 And here's what almos
-
-### Dr. Michael Thompson · image · active · 125 days · pct 0.0013966480446927375
-**Headline:** Quit The CPAP For Good ☝️
-
-If you sleep with a CPAP machine, or you tried one and gave up, read this before you spend another night with that mask on your face.
-
-There may finally be a way to sleep through the night without the hose, the noise, or the straps. And unlike the machine, this one actually fixes the problem for good.
-
-After more than 20 years treating sleep and breathing problems, I've watched the same story play out thousands of times.
-People get diagnosed with sleep apnea. They get handed a CPAP machine. And they're told what I was trained to tell them: "This is it. Wear it every night, for the rest of your life."
-
-So they try. They strap on the mask. They sleep with a hose running across the bed. They li
 
 ### Denture Care Tips · image · active · 125 days · pct 0.16666666666666666
 **Headline:** Read This If You Wear Dentures 👆
@@ -2736,6 +2518,31 @@ From simple to complex cases, Invisalign aligners can make 2026 your year for a 
 **Headline:** NEW! Ultra™ Lite Sonic Electric Toothbrush
 
 Just some little guys for you to get emotionally attached to when you brush your teeth lol
+
+### Kristin McAllister · image · active · 57 days · pct 0.06896551724137931
+**Headline:** Take control of your Scalp today.
+
+I was diagnosed with scalp psoriasis back in 2017.
+
+Hard to believe that was almost eight years ago now.
+
+From the very beginning, it was relentless.
+The part line. The hairline. The back of my neck.
+
+The thick, silvery plaques that built up between washes.
+
+The itch that wasn't quite an itch — more like a deep, crawling pressure that no amount of scratching could actually reach.
+
+My dermatologist put me on Clobetasol scalp solution and Dovobet gel.
+
+Strong medications. And I used them for years.
+But here's the truth nobody tells you about treating scalp psoriasis long-term.
+
+Those treatments come with a price.
+
+The rebound flares two days after you stop.
+
+The scalp that gets thinner, more s
 
 ### Josh Coffy · image · active · 57 days · pct 0.20202020202020202
 **Headline:** A $3,000 retainer costs you $12 per order
@@ -3935,6 +3742,11 @@ The Earclear Ear Stick uses an adhesive tip that actually grabs wax and lifts it
 
 🔗 Try it risk-free — 30-day money back guarantee.
 
+### Zima Dental · image · active · 93.0 days
+**Headline:** Free Shipping + Free Returns
+
+Dental pod cleans retainers, aligners, guards and more
+
 ### Defiant Digital · image · active · 80.0 days · pct 0.5
 **Headline:** Your brand deserves profit not promises.
 
@@ -4557,11 +4369,6 @@ Most smart pet owners grab the 6-pack for full coverage — one unit for every r
 
 👉 Tap Shop Now to claim your discount before it's gone.
 
-### Zima Dental · image · active · 23.0 days · pct 0.14745098039215687
-**Headline:** ★★★★★
-
-Dental pod cleans retainers, aligners, guards and more
-
 ### Invisalign · video · active · 22.0 days · pct 0.022727272727272728
 **Headline:** The hardest part is deciding to start.
 
@@ -4771,6 +4578,11 @@ Save $50 + get FREE cleaning tablets. Now $89.
 
 Order now.
 
+### emilymay784 with Zima Dental · video · active · 8.0 days · pct 0.28903654485049834
+**Headline:** Never Brush Your Retainer Again
+
+If you’re brushing your retainer every night, that film you can see isn’t coming off. Ultrasonic waves lift the plaque and odour out of the grooves without scratching the plastic. Fill it, drop the retainer in, press one button and the science does the rest. 💙
+
 ### Pop On · image · active · 8.0 days · pct 0.4841897233201581
 **Headline:** Retainer Cleaner. $50 Off
 
@@ -4831,6 +4643,11 @@ That’s what made the decision for me to start @invisalign .
 Because this isn’t just about how things look…it’s about taking care of your health in a way that actually supports you long-term. Because this isn’t just about a better smile. It’s about a healthier, more confident version of me. Click the link in my bio to find a doctor today.
 
  #InvisalignPartner #SmileSquad
+
+### Dr. Ashley  with Zima Dental · video · active · 7.0 days
+**Headline:** Double Award-Winner. 5* Reviews. HSA/FSA Eligible.
+
+I’m a dentist, and here’s what’s in my daily oral hygiene routine. My personal favourite is my Zima Dental ultrasonic retainer cleaner 💛
 
 ### Invisalign · image · active · 7.0 days
 
@@ -5095,20 +4912,6 @@ I’m 69. I’ve had a full upper and lower since I was 62. The top one was alwa
 It rode up when I chewed. It clicked when I talked. It popped loose when I laughed too hard, so I learned not to laugh too hard.
 
 At my granddaughter’s graduation dinner I felt it lift on the first bite of chicken. I excused myself, went into the restaurant bathroom, took it out and wrapped it in a paper napkin. Then I sat back down and ate mashed potatoes for the rest of the night and told everyone I wasn’t very hungry. My husband Jim ordered the soup so I wouldn’t be the only one.
-
-### Zima Dental · video · active · 3.0 days · pct 0.21568627450980393
-**Headline:** Trusted by 20,000+ Dentists
-
-Stop putting dirty retainers in your mouth, use the dentist recommended ultrasonic cleaner instead.
-
-### rosieelenaessex with Zima Dental · video · active · 3.0 days · pct 0.2235294117647059
-**Headline:** Double Award-Winner. 5* Reviews. HSA/FSA Eligible.
-
-I just found out why my retainers never felt properly clean… turns out, I’ve been cleaning them wrong this whole time!
-
-Then I discovered the Zima Dental Pod and honestly, I wish I'd found it sooner. Just add water, pop your retainers in and let it do the cleaning for you 🫧
-
-So easy, and my retainers have never felt fresher! 🩷
 
 ## Category competitors (150, from competitor_ads.csv)
 

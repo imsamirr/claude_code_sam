@@ -2,6 +2,49 @@
 
 Every concept from weeks/*/concepts.json, newest first: headline, angle, source and the user's verdict where logged. Don't reuse these headlines; learn from the rejection reasons.
 
+## 2026-W48-fri (40)
+
+- W48_01_den_tablet_chemical_caption · denture_wearer · 'Tablets soak yellow stains in chemicals. This ultrasonic cleaner removes bacteria.' · angle: Exposé: what is actually in the denture tablets people soak in every night · copy: stefanbrain
+- W48_02_den_husband_noticed_review · denture_wearer · '"My husband noticed the smell. This ultrasonic cleaner lifted the yellow bacteria."' · angle: Bad-breath shame story: someone she loves noticed before she did · copy: stefanbrain
+- W48_03_den_before_after_arrow_labels · denture_wearer · 'Ultrasonic cleaner lifts yellow bacteria' · angle: Before/after macro of the same denture with arrow labels naming the yellow film, stains and food · copy: stefanbrain
+- W48_04_den_nine_stages_yellow · denture_wearer · 'Which stage of yellow bacteria is yours?' · angle: Nine stages of a denture going from white to deep yellow-brown with film: which stage is yours? · copy: stefanbrain
+- W48_05_den_brush_cant_reach_flashlight · denture_wearer · 'Brushes miss this yellow bacteria. An ultrasonic cleaner cleans every groove.' · angle: What the brush can't reach: a flashlight shows the film in the grooves · copy: stefanbrain
+- W48_06_den_three_donts_mirror_sign · denture_wearer · 'Remove yellow bacteria with an ultrasonic cleaner' · angle: Dentist's three don'ts: soap, tablets, vinegar/bleach · copy: stefanbrain
+- W48_07_den_founder_letter · denture_wearer · 'Why We Built This' · angle: Founder letter: why we built a clinical ultrasonic cleaner for the bathroom counter · copy: stefanbrain
+- W48_08_den_daughter_text_tent_card · denture_caregiver · 'Not tablet clean. Actually clean.' · angle: Daughter checks on mom's dentures: 'Not tablet clean, actually clean' · copy: stefanbrain
+- W48_09_den_paying_tablets_vs_once · switcher · '40% OFF Ultrasonic Cleaner' · angle: Cost anchor: a lifetime of tablet boxes vs one ultrasonic cleaner with no refills · copy: stefanbrain
+- W48_10_den_best_gift_bucket · denture_caregiver · 'BEST ULTRASONIC CLEANER GIFT FOR DENTURE WEARERS' · angle: Gift for a denture-wearing parent: 40% off + free gifts · copy: stefanbrain
+- W48_11_den_care_home_story_dark · denture_caregiver · 'When I hugged my mom, the smell broke my heart.' · angle: Story: the smell when she hugged her mum in the care home · copy: stefanbrain
+- W48_12_den_tablets_damaging_split · denture_wearer · 'Are Denture Tablets Damaging Your Dentures?' · angle: Question: are denture tablets quietly damaging your dentures? · copy: stefanbrain
+- W48_13_partial_bf_repeat_type · denture_wearer · 'Clear Bacteria & Yellow Stains: 40% OFF' · angle: Partial denture wearers: 40% off before the holidays · copy: stefanbrain
+- W48_14_den_its_not_a_soak · denture_wearer · "It's Not A Soak." · angle: Statement: 'It's not a soak.' Ultrasonic vs tablets · copy: stefanbrain
+- W48_15_den_three_methods_strip · denture_wearer · 'Which Method Removes Bacteria & Yellow Stains?' · angle: Three methods side by side: brushed, tablet-soaked, ultrasonic · copy: stefanbrain
+- W48_16_den_reminder_poster · switcher · 'Read This Before Buying Any Ultrasonic Cleaner For Bacteria & Yellow Stains' · angle: Read this before you buy any ultrasonic cleaner: the 6-of-7 lab test · copy: stefanbrain
+- W48_17_den_offer_free_callouts_bar · denture_wearer · 'DentalPULSE Ultrasonic Cleaner: 40% OFF' · angle: Offer stack: 40% off + free case + free travel bag, 120-day guarantee bar · copy: stefanbrain
+- W48_18_den_held_sign_bathroom · denture_wearer · 'Read This If You Wear Dentures' · angle: Real woman holds a handwritten sign: 'read this if you wear dentures' · copy: stefanbrain
+- W48_19_den_bf_woman_circle · denture_wearer · 'Clear Bacteria & Yellow Stains: Black Friday 40% OFF' · angle: Dentist-recommended + 40% off: the authority answer with an offer · copy: stefanbrain
+- W48_20_den_sonic_splash_40 · denture_wearer · 'Flat 40% OFF: End Bacteria & Yellow Stains' · angle: Black Friday flat 40% (not 'up to') + free case + bag · copy: stefanbrain
+- W48_21_ng_what_came_off_purple · night_guard · 'What this ultrasonic cleaner pulled off my night guard.' · angle: Proof: what came off my night guard after one cycle · copy: stefanbrain
+- W48_22_ng_not_all_rinsing_vs · night_guard · 'Tap water rinsing vs an ultrasonic cleaner:' · angle: 'Not all cleaning is made for something you bite on 8 hours a night' · copy: stefanbrain
+- W48_23_ng_eight_hours_moody · night_guard · 'In your mouth 8 hours a night. Is it actually clean?' · angle: It's in your mouth 8 hours a night. When was it last really clean? · copy: stefanbrain
+- W48_24_ng_brushing_scratches_side_strip · night_guard · 'BRUSHING CAUSES SCRATCHES. BACTERIA HIDE INSIDE.' · angle: Brushing your night guard scratches it; bacteria hide in the scratches · copy: stefanbrain
+- W48_25_ng_worried_three_icons · night_guard · 'Need an ultrasonic cleaner for your cloudy night guard?' · angle: Question headline + three proof icons: plaque, yellow film, smell, with proof · copy: stefanbrain
+- W48_26_ng_daily_seal_offer · night_guard · 'Protect your night guard with an ultrasonic cleaner.' · angle: Offer: protect the guard you paid for, 40% off seal · copy: stefanbrain
+- W48_27_ng_save_dark_no_tablets · night_guard · 'Ultrasonic cleaner. No tablets ever.' · angle: Sale answer: 40% off, no tablets to buy, ever · copy: stefanbrain
+- W48_28_ng_snore_guard_evening · night_guard · "You breathe through it eight hours a night. Don't let bacteria turn it yellow." · angle: Sleep-apnea / anti-snore guard: the film you breathe on all night · copy: stefanbrain
+- W48_29_ng_lab_test_condensed_list · switcher · '6 of 7 ultrasonic cleaners leave live bacteria.' · angle: 6 of 7 pods leave live bacteria: the stacked list of what stays on a night guard · copy: stefanbrain
+- W48_30_ng_peroxide_basket_40 · night_guard · 'Get 40% off the ultrasonic cleaner.' · angle: Stop soaking it in peroxide: 40% off the ultrasonic cleaner · copy: stefanbrain
+- W48_31_al_no_white_film_two_items · aligner · 'No White Film. Stops Yellow Stains.' · angle: No white film: cloudy tray vs clear tray, 5 minutes · copy: stefanbrain
+- W48_32_al_next_level_arrows · aligner · 'Ultrasonic Aligner Cleaner: Stops Yellow Stains' · angle: Aligner care with arrows: 42,000 Hz, 5 minutes, tap water · copy: stefanbrain
+- W48_33_al_were_sorry_letter · aligner · "We're So Sorry." · angle: Apology letter: 'We're sorry nobody told you brushing clouds your aligners' + 40% off · copy: stefanbrain
+- W48_34_al_save_split_hands · aligner · 'SAVE' · angle: Split: SAVE 40% + the aligner held over the cleaner · copy: stefanbrain
+- W48_35_al_two_definitions · aligner · 'Brushing vs. Ultrasonic Cleaner' · angle: Two definitions: brushing vs ultrasonic for aligners · copy: stefanbrain
+- W48_36_ret_holding_yellow_vs_clear · retainer · 'Ultrasonic Cleaner: Clear Again In 5 Minutes' · angle: Holding both: the cloudy retainer and the clear one · copy: stefanbrain
+- W48_37_ret_unboxing_sticky_note · retainer · 'My retainer is clear again!' · angle: Raw unboxing: sticky note from a retainer wearer · copy: stefanbrain
+- W48_38_ret_dark_tape_offer · retainer · 'End Yellow Stains: 40% Off' · angle: Black Friday tape ribbons: 40% off for retainer wearers · copy: stefanbrain
+- W48_39_haw_curved_arrows_crust · retainer · 'Ultrasonic Cleaner Cleans Wires: No White Crust Or Stains' · angle: Hawley wire crust: four arrows to where the crust and film hide · copy: stefanbrain
+- W48_40_haw_notebook_list · retainer · 'Why Retainers Turn Yellow: BACTERIA' · angle: Handwritten notebook list: retainer wire crust, finally gone · copy: stefanbrain
+
 ## 2026-W47-tue (20)
 
 - T47_01_den_denture_test · denture_wearer · 'DENTURE TEST' · angle: 'Self-test' tile: three highlighter lines turn the 6-of-7 bacteria proof into a 2-second check
@@ -24,6 +67,14 @@ Every concept from weeks/*/concepts.json, newest first: headline, angle, source 
 - T47_18_ret_mirror_tray_clear · retainer · "5 minutes to a retainer that's clear again." · angle: Time-promise headline + product on a mirrored vanity tray + one button
 - T47_19_ret_pov_story_hawley · retainer · 'POV: you finally saw what was living on your retainer' · angle: Rival layout: story-UI POV caption over a raw photo, answered with the brown-water proof
 - T47_20_al_kit_number_tiles · aligner · '40% off the 5-minute aligner cleaner' · angle: Four white number tiles (0 tablets / 5 min / 40% / 120 days) + kit offer
+
+## 2026-W47-sb-ab (5)
+
+- SB_T47_02_den_quit_tablets_chips · denture_wearer · '"I quit denture tablets at 65. The yellow stains are gone and they\'re white again."' · angle: First-person 'I quit X at <age>' confession + four proof chips (anti-tablet pillar) · copy: stefanbrain
+- SB_T47_05_den_caption_fixed_it · denture_wearer · 'I did everything right, but yellow stains stayed. This 5-minute ultrasonic cleaner fixed it.' · angle: UGC caption-box confession over a raw close-up: 'did everything right, still yellow; this fixed it' · copy: stefanbrain
+- SB_T47_09_den_no_more_yellow_offer · denture_wearer · 'Denture Wearers: End Yellow Stains And Bacteria In 5 Minutes' · angle: Denture-wearer call-out headline + price block + highlighted free-gift banner · copy: stefanbrain
+- SB_T47_13_ng_hard_part_two_panel · night_guard · "Wearing your guard isn't the hard part." · angle: Two-panel 'X isn't the hard part / Y is' reframe for night-guard wearers · copy: stefanbrain
+- SB_T47_17_al_think_again_photos · aligner · 'THINK BRUSHING REMOVES ALIGNER BACTERIA AND FILM?' · angle: Caps myth question + two macro photos + 'THINK AGAIN.' (anti-brushing, with proof) · copy: stefanbrain
 
 ## 2026-W47-fri (40)
 
