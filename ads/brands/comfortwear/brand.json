@@ -1477,6 +1477,166 @@
     "approved_DR_04": {
       "file": "weeks/2026-W47-dr5/best/DR_04_cobblestone_comment_europe.png",
       "use_for": "Approved render to copy exactly with another colorway"
+    },
+    "rv420_night_vanity_sticky": {
+      "file": "reference/benchmarks/rv420_night_vanity_sticky.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Milamiamor (gut supplement), 50d, rising. Copy the layout only, never its words."
+    },
+    "rv420_grandma_note_kitchen": {
+      "file": "reference/benchmarks/rv420_grandma_note_kitchen.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Florus Relief (migraine roll-on), 154d, proven 60+d. Copy the layout only, never its words."
+    },
+    "rv420w_free_bag_hand": {
+      "file": "reference/benchmarks/rv420w_free_bag_hand.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Dr. Squatch, 10d, wellness growth rank 20 (+73). Copy the layout only, never its words."
+    },
+    "rv420_podiatrist_clinic_caption": {
+      "file": "reference/benchmarks/rv420_podiatrist_clinic_caption.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Carol Bennett (sneakers for senior women (advertorial)), 31d, rising. Copy the layout only, never its words."
+    },
+    "rv420_checkout_summary": {
+      "file": "reference/benchmarks/rv420_checkout_summary.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): The Modern (compression sleeve), 185d, proven 60+d. Copy the layout only, never its words."
+    },
+    "rv420w_expanding_brain": {
+      "file": "reference/benchmarks/rv420w_expanding_brain.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Stepprs (rival + wellness growth rank 2), 10d, +271 places 7d. Copy the layout only, never its words."
+    },
+    "rv420w_toggle_vs": {
+      "file": "reference/benchmarks/rv420w_toggle_vs.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Sedgeia, 12d, wellness growth rank 33 (+47). Copy the layout only, never its words."
+    },
+    "rv420w_four_photo_band": {
+      "file": "reference/benchmarks/rv420w_four_photo_band.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Omnilux, 12d, wellness growth rank 35 (+41). Copy the layout only, never its words."
+    },
+    "rv420_stream_speech_bubble": {
+      "file": "reference/benchmarks/rv420_stream_speech_bubble.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Wildling Shoes (minimalist boots), 43d, rising. Copy the layout only, never its words."
+    },
+    "rv420_packed_bag_two_line": {
+      "file": "reference/benchmarks/rv420_packed_bag_two_line.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Basic Jane (vaginal moisturizer (travel kit)), 10d, rising. Copy the layout only, never its words."
+    },
+    "rv420_sentence_split_product": {
+      "file": "reference/benchmarks/rv420_sentence_split_product.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Longevityrx (protein for 60+), 31d, rising. Copy the layout only, never its words."
+    },
+    "rv420_grocery_list_check": {
+      "file": "reference/benchmarks/rv420_grocery_list_check.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Anabar (protein snacks), 22d, seasonal. Copy the layout only, never its words."
+    },
+    "rv420_snow_drift_vault": {
+      "file": "reference/benchmarks/rv420_snow_drift_vault.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): TULA (skincare), 9d, seasonal. Copy the layout only, never its words."
+    },
+    "rv420_oil_painting_headline": {
+      "file": "reference/benchmarks/rv420_oil_painting_headline.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Tiffany Mccomb (barefoot shoes (advertorial)), 62d, proven 60+d. Copy the layout only, never its words."
+    },
+    "rv420_thumbs_down_street": {
+      "file": "reference/benchmarks/rv420_thumbs_down_street.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Judy Callihan (hearing aids (advertorial)), 73d, proven 60+d. Copy the layout only, never its words."
+    },
+    "rv420w_bf_big_type_dots": {
+      "file": "reference/benchmarks/rv420w_bf_big_type_dots.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Wander+, 10d, wellness growth rank 40 (+33). Copy the layout only, never its words."
+    },
+    "rv420_try_this_hand_starburst": {
+      "file": "reference/benchmarks/rv420_try_this_hand_starburst.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Advanced Bionutritionals (hydration supplement), 91d, proven 60+d. Copy the layout only, never its words."
+    },
+    "rv420_gift_handoff_percent": {
+      "file": "reference/benchmarks/rv420_gift_handoff_percent.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Rumpl (blankets/outdoor gear), 7d, seasonal. Copy the layout only, never its words."
+    },
+    "rv420_legs_colorway_lineup": {
+      "file": "reference/benchmarks/rv420_legs_colorway_lineup.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Thursday Boot Company (boots/sneakers), 159d, proven 60+d. Copy the layout only, never its words."
+    },
+    "rv420_ugc_gift_plaid_box": {
+      "file": "reference/benchmarks/rv420_ugc_gift_plaid_box.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): MacKenzie-Childs with Brightland (olive oil gifts), 9d, seasonal. Copy the layout only, never its words."
+    },
+    "rv420_bf_newspaper_table": {
+      "file": "reference/benchmarks/rv420_bf_newspaper_table.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Konjoun Barefoot (barefoot shoes/socks), 12d, seasonal. Copy the layout only, never its words."
+    },
+    "rv420_two_socks_contrast": {
+      "file": "reference/benchmarks/rv420_two_socks_contrast.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): (Atria template: socks) (alpaca socks), Noned, template. Copy the layout only, never its words."
+    },
+    "rv420_string_lights_holiday": {
+      "file": "reference/benchmarks/rv420_string_lights_holiday.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Plant Therapy (essential oils), 22d, seasonal. Copy the layout only, never its words."
+    },
+    "rv420w_dont_sleep_offer": {
+      "file": "reference/benchmarks/rv420w_dont_sleep_offer.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Nordic Stretch, 14d, wellness growth rank 39 (+35). Copy the layout only, never its words."
+    },
+    "rv420w_question_senior_checklist": {
+      "file": "reference/benchmarks/rv420w_question_senior_checklist.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Mendable, 13d, wellness growth rank 37 (+39). Copy the layout only, never its words."
+    },
+    "rv420_burlap_thanksgiving": {
+      "file": "reference/benchmarks/rv420_burlap_thanksgiving.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): ShopRite (grocery), 10d, seasonal. Copy the layout only, never its words."
+    },
+    "rv420_tiktok_kitchen_gift": {
+      "file": "reference/benchmarks/rv420_tiktok_kitchen_gift.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Amanda Stanton (sneakers (UGC creator)), 37d, rising. Copy the layout only, never its words."
+    },
+    "rv420_lawn_sign": {
+      "file": "reference/benchmarks/rv420_lawn_sign.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Dr. Richard Calloway (oral health supplement), 84d, proven 60+d. Copy the layout only, never its words."
+    },
+    "rv420_knit_stack_title": {
+      "file": "reference/benchmarks/rv420_knit_stack_title.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): We are Amma (nursing covers (apparel)), 78d, proven 60+d. Copy the layout only, never its words."
+    },
+    "rv420_fall_leaf_border_price": {
+      "file": "reference/benchmarks/rv420_fall_leaf_border_price.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): My Derma Dream (skincare (eye bags)), 29d, seasonal. Copy the layout only, never its words."
+    },
+    "rv420_harvest_basket": {
+      "file": "reference/benchmarks/rv420_harvest_basket.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Proper Wild (energy gummies), 8d, seasonal. Copy the layout only, never its words."
+    },
+    "rv420_bf_display_riser": {
+      "file": "reference/benchmarks/rv420_bf_display_riser.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Bella Belts (belts), 14d, seasonal. Copy the layout only, never its words."
+    },
+    "rv420r_hike_fear_falls_arm_notes": {
+      "file": "reference/benchmarks/rv420r_hike_fear_falls_arm_notes.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Hike Footwear (core competitor), 0d active. Copy the layout only, never its words."
+    },
+    "rv420r_stepprs_12h_shifts_warehouse": {
+      "file": "reference/benchmarks/rv420r_stepprs_12h_shifts_warehouse.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Stepprs (core competitor), 424d active. Copy the layout only, never its words."
+    },
+    "rv420r_hike_retirement_sore_feet": {
+      "file": "reference/benchmarks/rv420r_hike_retirement_sore_feet.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Hike Footwear (core competitor), 2d active. Copy the layout only, never its words."
+    },
+    "rv420r_stepprs_morning_heel_price_drop": {
+      "file": "reference/benchmarks/rv420r_stepprs_morning_heel_price_drop.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Stepprs (core competitor), 10d active. Copy the layout only, never its words."
+    },
+    "rv420g_orthofeet_reasons_grid_podiatrist": {
+      "file": "reference/benchmarks/rv420g_orthofeet_reasons_grid_podiatrist.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Orthofeet (Noned), angle-gap ref. Copy the layout only, never its words."
+    },
+    "rv420g_stepprs_walks_turn_back_early": {
+      "file": "reference/benchmarks/rv420g_stepprs_walks_turn_back_early.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Stepprs (1d), angle-gap ref. Copy the layout only, never its words."
+    },
+    "rv420g_stepprs_were_sorry_side_effects": {
+      "file": "reference/benchmarks/rv420g_stepprs_were_sorry_side_effects.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Stepprs (1d), angle-gap ref. Copy the layout only, never its words."
+    },
+    "rv420_grass_quiz_question": {
+      "file": "reference/benchmarks/rv420_grass_quiz_question.jpg",
+      "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Earthing (Clint Ober) (grounding products), 19d, rising. Copy the layout only, never its words."
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",

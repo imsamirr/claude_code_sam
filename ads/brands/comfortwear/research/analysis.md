@@ -483,3 +483,61 @@ Atria: `atria_pull.py all` ran sequentially, ALL PULLS OK (pull_status.json): cu
 
 ### Own copy that works (SKILL 1b, this run)
 Our winners now: travel/Disney videos carry the 7-day spend (JW1 7-shoe Disney test, NH3 plus-size park day, NJ1 Europe cobblestones, NL1 "running shoes are the worst for Disney"); the shared script spine is hours/steps (hour 4, hour 8, 20,000 steps, 10 hours) → why running-shoe foam fails (flattens, narrow toe box vs swelling, wet grip) → our features → "don't be the person on a bench" → 40% off + free shipping + 30 days. Statics: C1 Emily RN quote (4.47), C3 comments (3.91), I6 warehouse warning (3.66), H3 12-hour flash sale (2.87), I19 "$59 per pair" (1.96). Every T47 headline traces to these lines, Notion hooks (COM18, COM121, COM284, COM320, COM365) or feedback phrases.
+
+
+## 2026-11-20 (Friday net-new run, folder 2026-W48-fri, 40 concepts, 50/50, Black Friday week)
+
+Atria: `atria_pull.py all` ALL PULLS OK (pull_status.json 11:12 UTC): current 12, rising 1, top7_spenders 2 (JW1 $5,437 / 1.04, NH3 $5,054 / 1.43), new7_winners 1 (NEW: TOFV1_OL2_1 COM408 HSA/FSA nurse video $256 / 3.76), winners 88, seasonal W48 15, wellness 169, rivals 253, rivals --wide 2,136 (479 new). Atria plan allowance is used up: every MCP/API call now costs 1 workspace credit (~16 MCP + ~10 transcript calls this run).
+Video transcripts added (Atria, 2026-11-20): KW1 COM284 (plus-size "we asked 500"), B5 Kyro_296 (1960s nurses), COM55 AR20 (doctor scores), NK2 COM367 (Europe 4-shoe test), OL2_1 COM408 (HSA/FSA before Dec 31). Kyro390v1_H5: transcription failed (video not found), so it is NOT iterated.
+Notion (winning_briefs.md 2026-11-20): no new winners; current offer Black Friday 60% off through Dec 5 (Notion); 19 unlaunched briefs COM421-439 (hooks used as references only; their claim problems flagged).
+Verdicts: the 2026-W47-fri / W47-tue Drive sheets have no edits since creation, so nothing to log.
+
+### Formats found this run
+Wellness growth list (taken in rank order): 1 Konjoun newspaper headline (12d, +292) -> W48_21; 2/4 Stepprs galaxy-brain meme (10d, +271) -> W48_06; 3 Sorviq 90% sold out (skip: scarcity fact); 8 Sorviq $13 yes really (skip: ledger price_yes_really); 10 Everstride writing on leg (skip: ledger); 15 Konjoun X post (skip: ledger x_post); 19 Treatmedy day/week bunion grid (skip: ledger dont_buy + progress claim); 20 Dr. Squatch "this bag is free" (10d, +73) -> W48_03; 25 Treatmedy bundle tiers (skip: tiers would mix 60% and gifts); 33 Sedgeia toggle VS (12d) -> W48_07; 34 Wander+ calendar (skip: ledger); 35 Omnilux 4-photo band -> W48_08; 37 Mendable question + senior + checks -> W48_25; 39 Nordic Stretch "don't sleep through this 60% OFF" (rebuilt light) -> W48_24; 40 Wander+ BF big type + dots -> W48_16. Ranks 5-7, 9, 11-14, 16-18 skipped: B2B, neuropathy/clinical claims, GLP-1, licensed/medical claims, or already in the ledger.
+Atria MCP (search_library_ads proven/rising/seasonal + search_ad_templates; sheets `sheets/atria_mcp_w48fri_*.jpg`): 34 picks, 12+ seasonal backgrounds, 8 new background families (background_playbook.md 2026-11-20). Rivals (core_competitors.md 2026-11-20): Hike forearm sticky notes, Hike retirement call-out, Stepprs 12h shifts (424d), Stepprs morning heel price drop. Angle gaps (angle_gaps.md 2026-11-20): podiatrist-recommended headline, daily walkers who turn back early, "We're sorry" humor.
+
+| Concept | Format | Source | Background | Persona |
+|---|---|---|---|---|
+| W48_01_vanity_sticky_shift_tonight | night_vanity_sticky_mirror_routine | Milamiamor (gut supplement), 50d, rising | 10 Real interior at a time of day: Bathroom vanity at night  | nurse |
+| W48_02_nana_note_nurse_shoes | grandma_handwritten_letter_kitchen_headline | Florus Relief (migraine roll-on), 154d, proven 60+d | 10 Real interior at a time of day: Soft-focus home kitchen c | nurse |
+| W48_03_free_bag_second_pair | hand_lifts_free_gift_bag_red_oval | Dr. Squatch, 10d, wellness growth rank 20 (+73) | 7 color field: warm tan seamless | nurse |
+| W48_04_podiatrist_exam_room | clinic_exam_photo_bottom_caption | Carol Bennett (sneakers for senior women (advertorial)), 31d, rising | NEW 19 Clinical room (exam room, PT gym, nurses' station): P | nurse |
+| W48_05_hsa_checkout_summary | checkout_order_summary_card | The Modern (compression sleeve), 185d, proven 60+d | 12 Plain studio field: White checkout card with a product ph | nurse |
+| W48_06_expanding_brain_holiday_12s | expanding_brain_meme_four_rows | Stepprs (rival + wellness growth rank 2), 10d, +271 places 7d | meme 4 rows: white text cells left + glowing images right | nurse |
+| W48_07_toggle_vs_disney_runner | toggle_switch_versus_rows | Sedgeia, 12d, wellness growth rank 33 (+47) | 7 color field: peach | traveler |
+| W48_08_four_photos_park_hours | four_photo_grid_center_text_band | Omnilux, 12d, wellness growth rank 35 (+41) | 1 real place: 4 park/trip photos | traveler |
+| W48_09_wet_cobblestone_bubble | speech_bubble_quote_boot_in_stream | Wildling Shoes (minimalist boots), 43d, rising | 9 Elements / action: Shallow forest stream with a wet mossy  | traveler |
+| W48_10_packed_bag_holiday_flight | packed_bag_two_line_contrast_overhead | Basic Jane (vaginal moisturizer (travel kit)), 10d, rising | NEW 20 Travel gear flatlay (open bag/suitcase): Open weekend | traveler |
+| W48_11_day3_sentence_split | sentence_split_above_below_product | Longevityrx (protein for 60+), 31d, rising | 12 Plain studio field: Warm cream gradient field | plus_size |
+| W48_12_packing_list_plus_trip | grocery_list_notepad_checked_product | Anabar (protein snacks), 22d, seasonal | NEW 13 Printed paper on a real table: Spiral notepad shoppin | plus_size |
+| W48_13_snow_drift_two_pairs | snow_drift_product_vault_serif | TULA (skincare), 9d, seasonal | 4 Seasonal: holiday: Snow drift with falling snow at night,  | plus_size |
+| W48_14_oil_painting_first_steps | vintage_oil_painting_condensed_headline | Tiffany Mccomb (barefoot shoes (advertorial)), 62d, proven 60+d | 11 Bold illustrated / hand-drawn frame: Painterly vintage be | active_retiree |
+| W48_15_skeptic_thumbs_down | skeptic_thumbs_down_product_held_street | Judy Callihan (hearing aids (advertorial)), 73d, proven 60+d | 1 Real place that carries the mood: Sunny suburban residenti | comfort_only |
+| W48_16_bf_big_type_dots | bf_sale_big_type_colorway_dots | Wander+, 10d, wellness growth rank 40 (+33) | 12 plain studio: white | comfort_only |
+| W48_17_try_this_if_insoles | try_this_if_hand_hero_starburst_icon_band | Advanced Bionutritionals (hydration supplement), 91d, proven 60+d | 7 Saturated color field + photo/polaroid: Deep navy field wi | retail_warehouse |
+| W48_18_gift_handoff_mom | hands_passing_gift_big_percent_block | Rumpl (blankets/outdoor gear), 7d, seasonal | 4 Seasonal: holiday: Paint-splattered studio canvas backdrop | gift_for_her |
+| W48_19_scrubs_legs_four_colors | legs_over_colorway_lineup_labels | Thursday Boot Company (boots/sneakers), 159d, proven 60+d | 12 Plain studio field: Chocolate-brown seamless paper | plus_size |
+| W48_20_ugc_gift_plaid_box | ugc_gift_hand_caption_plaid_box | MacKenzie-Childs with Brightland (olive oil gifts), 9d, seasonal | 4 Seasonal: holiday: Open tartan plaid gift box with tissue  | gift_for_her |
+| W48_21_breakroom_newspaper_bf | newspaper_front_page_headline_on_breakfast_table | Konjoun Barefoot (barefoot shoes/socks), 12d, seasonal | NEW 13 Printed paper on a real table: Folded newspaper + cof | cna_caregiver |
+| W48_22_two_shoes_standing_swell | two_objects_standing_contrast_statement | (Atria template: socks) (alpaca socks), Noned, template | 7 Saturated color field + photo/polaroid: Mustard-yellow sea | housekeeping |
+| W48_23_string_lights_holiday_rush | string_lights_ribbon_holiday_arrival_headline | Plant Therapy (essential oils), 22d, seasonal | 4 Seasonal: holiday: Orange field with Christmas string ligh | restaurant |
+| W48_24_cream_note_dont_sleep | dont_sleep_through_offer_note | Nordic Stretch, 14d, wellness growth rank 39 (+35) | 12 plain studio: warm cream (light rebuild of a dark ad) | retail_warehouse |
+| W48_25_question_senior_checklist | question_header_senior_holds_product_checklist | Mendable, 13d, wellness growth rank 37 (+39) | 10 real interior: bright living room | active_retiree |
+| W48_26_burlap_free_gifts_walk | burlap_texture_doodle_big_free_headline | ShopRite (grocery), 10d, seasonal | NEW 14 Natural woven texture (burlap, linen, knit): Tan burl | walker_weightloss |
+| W48_27_tiktok_kitchen_hug | tiktok_caption_gift_kitchen_ugc | Amanda Stanton (sneakers (UGC creator)), 37d, rising | 10 Real interior at a time of day: White home kitchen with a | gift_for_her |
+| W48_28_lawn_sign_bunions | front_lawn_yard_sign_statement | Dr. Richard Calloway (oral health supplement), 84d, proven 60+d | NEW 18 Outdoor signage in a real place: Suburban front lawn  | comfort_only |
+| W48_29_knit_stack_room | folded_knit_stack_centered_title_color_dots | We are Amma (nursing covers (apparel)), 78d, proven 60+d | NEW 14 Natural woven texture (burlap, linen, knit): Stack of | comfort_only |
+| W48_30_fall_poster_ball_of_foot | autumn_leaf_border_poster_photo_window_price | My Derma Dream (skincare (eye bags)), 29d, seasonal | 3 Seasonal: fall leaves: Rust/terracotta field with real map | traveler |
+| W48_31_harvest_basket_cook | harvest_basket_product_offer_pill | Proper Wild (energy gummies), 8d, seasonal | 3 Seasonal: fall leaves: Saturated orange field with a wicke | comfort_only |
+| W48_32_bf_display_riser_range | tiered_display_riser_bf_banner | Bella Belts (belts), 14d, seasonal | NEW 16 Boutique display riser / shop shelf: Plum boutique ba | comfort_only |
+| W48_33_forearm_sticky_features | hike_fear_falls_arm_notes | Hike Footwear (core competitor), 0d active | flat dark slate/teal | nurse |
+| W48_34_hospital_corridor_12s_float | stepprs_12h_shifts_warehouse | Stepprs (core competitor), 424d active | blurred warehouse/aisle photo, light | nurse |
+| W48_35_retirement_bf_red | hike_retirement_sore_feet | Hike Footwear (core competitor), 2d active | clean white to light grey gradient | steady_feet |
+| W48_36_morning_after_12s_price | stepprs_morning_heel_price_drop | Stepprs (core competitor), 10d active | white with black top/bottom ticker bands | nurse |
+| W48_37_podiatrist_reasons_grid | orthofeet_reasons_grid_podiatrist | Orthofeet (Noned), angle-gap ref | competitor layout | stylist |
+| W48_38_walkers_turn_back | stepprs_walks_turn_back_early | Stepprs (1d), angle-gap ref | competitor layout | steady_feet |
+| W48_39_were_sorry_step_count | stepprs_were_sorry_side_effects | Stepprs (1d), angle-gap ref | competitor layout | traveler |
+| W48_40_grass_question_plus_swell | question_quiz_cta_feet_on_grass | Earthing (Clint Ober) (grounding products), 19d, rising | 1 Real place that carries the mood: Sunlit lawn with bare fe | plus_size |
+
+### Own copy that works (SKILL 1b, this run)
+Spend now sits on travel/Disney + plus-size videos (KW1 $6,815 2.43, JW1, NH3, NJ1, NL1) and the Emily RN nurse family (B6 3.59, B3, B5 4.68, C1 4.79). Script spine: hours/steps -> why running-shoe foam fails (flattens, narrow toe box vs swelling, wet grip) -> our features -> "not the person on a bench" -> offer + 30 days. Statics: C3 "Could 500,000+ customers ALL be wrong?" (4.00), H3 40% OFF TODAY (2.97), I6 warehouse warning (4.28), O1 product + 40% OFF (3.04). New: HSA/FSA year-end (COM408). Copy written by StefanBrain from these sources (based_on per concept).
