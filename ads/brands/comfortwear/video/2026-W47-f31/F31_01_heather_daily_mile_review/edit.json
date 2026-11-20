@@ -1,6 +1,6 @@
 {
   "id": "F31_01_heather_daily_mile_review",
-  "version": 4,
+  "version": 5,
   "created": "2026-11-19",
   "end_card": "auto",
   "transition": "cut",
@@ -22,9 +22,11 @@
   ],
   "based_on": "User-flagged reference F31: Ed Ju Pickleball with Cuurt m2140991217301029 (127 d running)",
   "music": {
-    "file": "../../music/soft_acoustic_80bpm.mp3",
-    "gain": 0.45,
-    "duck": false
+    "file": "../../music/cuurt_lofi_89bpm.mp3",
+    "gain": 0.6,
+    "duck": false,
+    "start": 0.0,
+    "note": "original lo-fi bed matched to the Cuurt reference m2140991217301029 (89 BPM, kick-less intro, beat drops on the 8.8 s cut); ElevenLabs music via Atria, EQ-matched (user 2026-11-20)"
   },
   "sources": {
     "A": "drive:10nVysCnSoJz3d3EZTQSvLflVsImyiyHc",
