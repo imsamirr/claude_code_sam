@@ -1,0 +1,168 @@
+{
+  "id": "F31_02_nurse_three_12s_dr",
+  "version": 2,
+  "created": "2026-11-20",
+  "end_card": "auto",
+  "transition": "cut",
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "F31 creator review (user-flagged, Cuurt m2140991217301029) + Derick Carneiro DR brief (static-ads ad_psychology.md, user 2026-11-20): one yellow line per shot, every shot shows its beat; 6 shots ~4.5 s, music only, 9:16 with content inside 4:5, BF end card.",
+  "format": "F31 creator review: POV hook (3 12s) → step-count proof → 'No more…' holding the pair → build proof (bend) → ✅ checklist on feet → 10/10 verdict",
+  "angle": "Persona 1 (The Shift Survivor) - Hope Sale: finally finding work shoes that survive three 12s in a row without arches flattening or feet pinching as they swell",
+  "persona": "Persona 1: The Shift Survivor (nurse, back-to-back 12s)",
+  "risk": "moderate",
+  "bets": [
+    "format: F31 creator review (new to our account; proven for Cuurt)"
+  ],
+  "based_on": "Iteration of TOFv1_HF2 | 807_Aubrey 'Don't Waste Spent Money' ($1,720, ROAS 1.72, 7d to 2026-11-18): running shoes built for forward motion, foam arch collapses mid-shift, $180 pairs in the closet, nurses rotate 2 pairs",
+  "dr_brief_source": "stefanbrain_concept_F31_02.json -> brief (premises, target, 17 elements with sources)",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "https://stefanbrain.com/chat/f0ab9a77-d78a-4b4a-8918-7f5e9e5b9ec1",
+  "stefanbrain_shots": [
+    "A: in teal scrubs, excited, showing her phone's weekly step chart (bars around 10,000-16,000 a day) - establishes the nurse avatar in action and proves grueling shift step volume for line 1 hook",
+    "B: in blue scrubs, smiling, holds her phone to the camera: 10,022 steps, 9.0 km, goal 10,000 - real shift mileage and routine consistency proof for line 2",
+    "F: holds the pair up close to the camera, shows the knit and laces, excited - shows the shoe's stretch upper and roomy build while stating pains removed for line 3",
+    "H: bends and twists the shoe with both hands to show how flexible the sole is - tactile build proof demonstrating rocker flexibility and firm arch support that hasn't flattened for line 4",
+    "D: legs/feet: slips the black-and-mint pair on, snugs the laces, lifts each foot to show them - dynamic on-foot action demonstrating stretch fit, no-tie laces, and sole comfort for line 5 checklist",
+    "E: full-length, black outfit, standing in her room showing the shoes, small happy kick - wide shot showing her energized and still on her feet after shift for line 6 verdict",
+    "End Card: 3-second graphic card displaying 60% OFF + 2 FREE GIFTS with Black Friday call to action"
+  ],
+  "music": {
+    "file": "../../music/confident_strut_95bpm.mp3",
+    "gain": 0.45,
+    "duck": false
+  },
+  "sources": {
+    "A": "drive:1PQYQ6ihXNj2kvMaxehVa3QaZ59-Hh9Zv",
+    "B": "drive:1K1UEwDbCxbMGF8UjN7FISI_FjxXK2Ocn",
+    "F": "drive:10tsozuKhqHwHrNleAGysXlmnEcQ-rVSA",
+    "H": "drive:18_b2w28h1yQOcE7gxtYEHkzCulj6O-Pk",
+    "D": "drive:1jO3QGVB9p_3rKLj_omVAAEOOayqyVzj4",
+    "N": "drive:1SDRUdNAYLdrjwHVJ08EiqgXMyF42BsdA"
+  },
+  "source_notes": {
+    "A": "MISC B-ROLL/Nurses/Broll nurse showing # of steps achieved",
+    "B": "Broll nurse showing 10,000 steps counter",
+    "F": "broll holding shoes while showing it off",
+    "H": "Broll showing how it bends and it's flexible",
+    "D": "Broll showing off shoes then putting them on",
+    "N": "MISC B-ROLL/Nurses/Broll female walkin in CW shoes"
+  },
+  "clips": [
+    {
+      "src": "A",
+      "in": 0.5,
+      "out": 5.0,
+      "gain": 0,
+      "shift_y": 0.24
+    },
+    {
+      "src": "B",
+      "in": 5.8,
+      "out": 10.2,
+      "gain": 0,
+      "shift_y": 0.22
+    },
+    {
+      "src": "F",
+      "in": 4.5,
+      "out": 9.0,
+      "gain": 0,
+      "shift_y": 0.16
+    },
+    {
+      "src": "H",
+      "in": 4.5,
+      "out": 9.0,
+      "gain": 0,
+      "shift_y": 0.24
+    },
+    {
+      "src": "D",
+      "in": 14.0,
+      "out": 18.5,
+      "gain": 0
+    },
+    {
+      "src": "N",
+      "in": 10.0,
+      "out": 14.5,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clip": 0,
+      "text": "*POV: you finally found work shoes that survive three 12s*",
+      "style": "classic",
+      "font": "condensed",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.96,
+      "fade": 0,
+      "y": 0.205
+    },
+    {
+      "clip": 1,
+      "text": "*Switched 5 months ago. Three 12s every week.*",
+      "style": "classic",
+      "font": "condensed",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.96,
+      "fade": 0,
+      "y": 0.205
+    },
+    {
+      "clip": 2,
+      "text": "*No more aching arches by hour 8*\n*No more pinched, swollen feet*",
+      "style": "classic",
+      "font": "condensed",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.96,
+      "fade": 0,
+      "y": 0.215
+    },
+    {
+      "clip": 3,
+      "text": "*Built-in arch support with rocker sole. Hasn't flattened on me.*",
+      "style": "classic",
+      "font": "condensed",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.96,
+      "fade": 0,
+      "y": 0.205
+    },
+    {
+      "clip": 4,
+      "text": "*✅ Expands as feet swell*\n*✅ Arch support stays firm*\n*✅ Slip-resistant hospital grip*",
+      "style": "classic",
+      "font": "condensed",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.96,
+      "fade": 0,
+      "y": 0.25
+    },
+    {
+      "clip": 5,
+      "text": "*10/10 recommend for nurses on back-to-back 12s 👍*",
+      "style": "classic",
+      "font": "condensed",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.96,
+      "fade": 0,
+      "y": 0.22
+    }
+  ],
+  "primary_text": "Running shoes are built for a 45-minute jog, not 12 hours on hard hospital floors. By hour 8, soft foam arches flatten out, feet swell, and you're limping to your car.\n\nComfort Wear's Ortho Stretch Cushion Shoe was engineered for women on their feet all day:\n• Built-in arch support with a rocker sole that stays firm past hour 10\n• 4-way stretch knit upper with a wide toe box that expands as feet swell\n• Slip-resistant grip for hospital floors\n• Elastic no-tie stretch laces that stay snug all shift\n\nStop spending $180 on running shoes that bottom out in two months. Comfort Wear is podiatrist-recommended and just $59.95.\n\nBlack Friday Deal: 60% OFF sitewide. Plus, buy 2 pairs and get 2 FREE gifts (perfect for nurses who rotate between 2 pairs).\n\nTry them risk-free for 30 days. That is about 12 full shifts on your own hospital floors. If your feet are not happy, get a full refund within 30 days.\n\nTap Shop Now to claim your Black Friday discount and free gifts while the sale lasts.",
+  "headline": "60% OFF + 2 FREE Gifts | Built for 12-Hour Shifts",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers",
+  "stefanbrain_shot_changes": [
+    "shot 6: E -> N (E's face sat above the 4:5 area with the shoes at the bottom; StefanBrain chose N in the same chat)"
+  ]
+}
