@@ -1,6 +1,6 @@
 # DentalPULSE ad account digest
 
-Built 2026-11-18 from our Meta ad account (Atria pulls in research/data). Currency CAD. Spend shows what scaled; ROAS is Meta-reported. Note: Comparison/listicle ads send traffic to an advertorial (LP_LISTICLE); ROAS is the account's reported figure.
+Built 2026-11-20 from our Meta ad account (Atria pulls in research/data). Currency CAD. Spend shows what scaled; ROAS is Meta-reported. Note: Comparison/listicle ads send traffic to an advertorial (LP_LISTICLE); ROAS is the account's reported figure.
 
 ## Current winners, last 30 days (spend $300+, ROAS 1.8+) (11)
 
