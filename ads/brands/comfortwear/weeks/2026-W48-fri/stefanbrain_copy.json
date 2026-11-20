@@ -1,0 +1,623 @@
+{
+ "runs": [
+  {
+   "at": "2026-11-20T11:23:37",
+   "session": "comfortwear-statics-2026-W48-fri-1",
+   "chat": "chat_c886cd0f0eb244a8962a6ae9af7e113f",
+   "url": "https://stefanbrain.com/chat/c886cd0f-0eb2-44a8-962a-6ae9af7e113f",
+   "concepts": [
+    {
+     "angle": "Nurse PF: tomorrow's 12 starts tonight (shift-counter sticky note routine)",
+     "fb_description": "30-Day Wear Trial. $59.95.",
+     "fb_headline": "No More Limping After 12-Hour Shifts",
+     "headline": "Shift 3 tonight. No more limping.",
+     "id": "W48_01_vanity_sticky_shift_tonight",
+     "on_image_text": [
+      "Built for 12-hour hospital floors.",
+      "Shift 3 of 4",
+      "30-day wear trial"
+     ],
+     "primary_text": "Tomorrow is shift 3 of 4 on concrete hospital floors. If you work 12s, you know what happens by hour 8. The foam in regular running shoes packs flat, your feet swell, and the narrow toe box starts squeezing your joints. By 7:30 PM, you are limping across the parking garage just hoping you have enough energy left to cook dinner for your kids. I used to shove $60 insoles into $160 running shoes. The insoles just ate up toe room, and stiff clogs had zero give. The Ortho Stretch Cushion Shoe fixes the actual problem. It has built-in anatomical arch support and a cushioned rocker sole that does not crush down halfway through your shift. The wide toe box and breathable stretch-knit upper give your feet room to swell without pinching, and the slip-resistant grip handles wet ER tiles. Plus, the elastic no-tie laces mean you never touch dirty laces on the floor. Three other nurses on my floor already ordered theirs after seeing me walk out normal. Right now, Black Friday pricing is live at $59.95 (down from $120). That is less than a dollar a shift. Wear them for 30 days on your own hospital floor. That is 10+ full shifts. If your heels, knees, and back do not feel the difference, return them within 30 days for a full refund. Do not spend another holiday week limping through shifts in shoes that already failed you.",
+     "why": "Emily RN winning UGC ($99.9k spend, 3.05 ROAS) + Milamiamor night-vanity routine format"
+    },
+    {
+     "angle": "Nurse PF: 1960s nurse footwear nostalgia vs modern flat foam",
+     "fb_description": "Full refund within 30 days.",
+     "fb_headline": "What 1960s Nurses Knew About Shoes",
+     "headline": "Why 1960s nurses rarely had foot pain: read this",
+     "id": "W48_02_nana_note_nurse_shoes",
+     "on_image_text": [
+      "Dear Katie,",
+      "Stop wearing squishy foam.",
+      "We wore firm arch support",
+      "and wide toe boxes.",
+      "Try these instead.",
+      "Love, Nana (RN 1968)"
+     ],
+     "primary_text": "My grandmother worked 32 years as an ER nurse. When I came home complaining about my heels after three 12s in a row, she handed me a cup of tea and gave me a blunt lecture about shoes. Back in the 1960s, nurses were on concrete all day, yet chronic plantar fasciitis was not the epidemic it is today. Why? Because they wore shoes with real structural arch support and wide toe boxes that let feet spread. Today, nurses spend $160 on running shoes made of pillow-soft foam. It feels great in the store for two minutes. But by hour 4 on hard hospital tile, that soft foam packs completely flat under your body weight. Your arch collapses, your heel slams the ground, and your plantar fascia takes the beating. Shoving cheap drugstore insoles inside just squeezes your toes even tighter. The Ortho Stretch Cushion Shoe was built to bring real support back. It combines built-in anatomical arch support with a cushioned rocker sole that absorbs floor impact without flattening out. The wide toe box and breathable stretch-knit upper allow your feet to swell naturally during long shifts without rubbing or pinching. And the elastic no-tie laces stay secure so you never bend down to tie shoes on a dirty hospital floor. Black Friday pricing is officially live at $59.95 (down from $120). Take them to work for 30 days. Test them across 10 or more of your hardest shifts. If you are still limping to your car at 7:30 PM, return them for a full refund within 30 days. Stop repeating the same shoe mistakes every shift.",
+     "why": "Kyro_296 video winner (ROAS 4.68) + Florus Relief handwritten letter format"
+    },
+    {
+     "angle": "Nurse rotation: buy 2 pairs, get free travel bag + socks",
+     "fb_description": "Free Shipping & Returns",
+     "fb_headline": "Buy 2 Pairs, Get 2 Free Gifts",
+     "headline": "THIS TRAVEL BAG IS FREE",
+     "id": "W48_03_free_bag_second_pair",
+     "on_image_text": [
+      "FREE",
+      "Buy 2 pairs for your shift rotation",
+      "+ Free 3-pack socks & 30-day trial"
+     ],
+     "primary_text": "Ask any nurse working 3 or 4 12s in a row, and she will tell you the golden rule: never wear the same shoes two shifts back to back. Your shoes need at least 24 hours between shifts for the cushioning to decompress. When you wear the same pair consecutive days, the midsole stays compressed, your arch loses support by hour 6, and you spend the rest of your shift limping on tired heels. That is why most nurses keep two pairs in rotation. For Black Friday, when you buy 2 pairs of the Ortho Stretch Cushion Shoe, we are including 2 free gifts: a Free Travel Bag plus a Free 3-Pack of Cushioned Socks. Each pair delivers built-in anatomical arch support, a cushioned rocker sole, and a wide toe box with stretch-knit fabric that lets swollen feet breathe on hard hospital floors. Plus, elastic no-tie laces keep you moving without touching dirty floors. You also get free shipping & returns, backed by our 30-day money-back guarantee. Wear both pairs on your floor for 30 days. If your feet are not thanking you by the end of your shifts, return them for a full refund within 30 days. Stock your shift rotation before the free holiday gifts are gone.",
+     "why": "Emily RN 2-pair rotation quote + RTGv1_C1 winner + Dr. Squatch free-gift layout"
+    },
+    {
+     "angle": "Nurse knee and back alignment: podiatrist exam-room diagnosis",
+     "fb_description": "30-Day Full Refund Guarantee",
+     "fb_headline": "Podiatrist-Recommended Nurse Shoes",
+     "headline": "Your knee and back pain starts in your shoes.",
+     "id": "W48_04_podiatrist_exam_room",
+     "on_image_text": [
+      "I inspect shoes first.",
+      "Collapsed arches twist your knees.",
+      "Wear real structural arch support."
+     ],
+     "primary_text": "When nurses come into my clinic with aching knees and tight lower backs after 12-hour shifts, they rarely suspect their footwear. They assume it is just the physical toll of lifting patients and logging 15,000 steps on concrete. But when I examine their running shoes, the problem is obvious. Standard running shoes are built with soft foam designed for 45 minutes of jogging, not 12 straight hours on hospital tile. By hour 4 or 5, that foam packs flat. When your arch collapses under your body weight, your ankles roll inward. That inward tilt twists your knees out of alignment and pulls on your lower back with every single step you take. That is why podiatrists recommend shoes with firm, anatomical arch support and a cushioned rocker sole. The Ortho Stretch Cushion Shoe keeps your foot in proper alignment all shift long. Its built-in arch support prevents your arches from collapsing, while the rocker sole absorbs shock so your knees do not have to. The wide toe box and breathable stretch-knit upper allow your feet to swell comfortably without pinching, and the slip-resistant grip handles wet floors with confidence. Black Friday pricing is currently live at $59.95 (normally $120). Wear them for 30 days on your own hospital floor. Put 10 or more full shifts on them. If your heels, knees, and lower back do not feel the difference, return them within 30 days for a full refund. Stop treating your knees and back with shoes that throw your whole body out of alignment.",
+     "why": "Kyro_293 podiatrist-recommended winner ($58.5k spend) + Emily RN knee/back relief quote"
+    },
+    {
+     "angle": "Nurse HSA/FSA: year-end use-it-or-lose-it FSA funds checkout card",
+     "fb_description": "Use FSA Funds Before Dec 31",
+     "fb_headline": "HSA/FSA Eligible: Save Up to 30%",
+     "headline": "HSA/FSA Eligible - Up to 30% Savings If Eligible",
+     "id": "W48_05_hsa_checkout_summary",
+     "on_image_text": [
+      "Ortho Stretch Cushion Shoe: ~~$120~~ $59.95",
+      "HSA/FSA Payment: ELIGIBLE",
+      "Shipping & Returns: FREE",
+      "30-Day Guarantee: FREE",
+      "Total: $59.95 (Eligibility May Vary)",
+      "Use HSA/FSA Dollars"
+     ],
+     "primary_text": "If you have money left in your HSA or FSA account as year-end approaches, do not let it vanish. Most FSA plans are use-it-or-lose-it by December 31. If you do not spend those pre-tax dollars on approved health gear, your employer keeps the balance. Instead of scrambling on random drugstore items, you can put those funds toward the 12-hour shift shoes your feet actually need. The Ortho Stretch Cushion Shoe is HSA/FSA eligible, giving you up to 30% savings if eligible (eligibility may vary by plan). On sale right now at $59.95 (down from $120), it delivers real relief on hospital tile. Built-in anatomical arch support keeps your foot aligned when concrete floors take their toll. The cushioned rocker sole absorbs heel shock so your knees do not throb by hour 8. The wide toe box and breathable stretch-knit upper give swollen feet room to expand, and slip-resistant soles grip slick hospital hallways. You also get free shipping & returns and a 30-day money-back guarantee. Take them to your hospital floor for 30 days. Work 10 or more shifts in them. If you do not love how your feet feel walking to your car at the end of a 12, return them for a full refund within 30 days. Use your pre-tax FSA dollars before December 31 takes them away.",
+     "why": "COM408 video winner (ROAS 3.76) + The Modern checkout summary card format"
+    },
+    {
+     "angle": "Nurse PF: escalating choices meme (insoles to 60% off sitewide)",
+     "fb_description": "Free Shipping & Returns",
+     "fb_headline": "60% Off Sitewide | Black Friday Sale",
+     "headline": "PUTTING $60 INSOLES IN OLD SNEAKERS",
+     "id": "W48_06_expanding_brain_holiday_12s",
+     "on_image_text": [
+      "BUYING STIFF CLOGS WITH ZERO GIVE",
+      "SWITCHING TO ORTHO STRETCH CUSHION SHOES",
+      "BUYING YOUR SHIFT ROTATION AT 60% OFF"
+     ],
+     "primary_text": "We have all done the stage-one nurse routine: your heels throb after three 12s in a row, so you buy $60 pharmacy insoles and cram them into dead running shoes. All that does is steal toe room while the worn-out sole still collapses by hour 4. Then you try stage two: heavy, rigid clogs. They give you arch support, but they have zero flex, zero cushion, and leave your knees aching by hour 8. The nurses who actually walk to their cars without limping made the leap to the Ortho Stretch Cushion Shoe. It delivers built-in anatomical arch support, a cushioned rocker sole that absorbs concrete impact, and a stretch-knit upper with a wide toe box that expands when your feet swell. Plus, elastic no-tie laces mean you never bend down to tie shoes on hospital floors. And right now is galaxy-brain timing: our Black Friday Sale is officially live with 60% OFF SITEWIDE. Use code LEAKED10 at checkout for 60% OFF SITEWIDE + EXTRA 10% OFF, plus free shipping & returns. Wear them for 30 days on your own floor. If you work 10+ shifts and are not walking out feeling energized, return them for a full refund within 30 days. Grab your shift rotation at 60% off before the Black Friday sale ends.",
+     "why": "Emily RN script ('3 12s in a row') + Stepprs galaxy-brain meme format (wellness rank 2)"
+    }
+   ]
+  },
+  {
+   "at": "2026-11-20T11:24:23",
+   "session": "comfortwear-statics-2026-W48-fri-2",
+   "chat": "chat_a14207b11d4944a1ab44a970d133546d",
+   "url": "https://stefanbrain.com/chat/a14207b1-1d49-44a1-ab44-a970d133546d",
+   "concepts": [
+    {
+     "angle": "Disney: our shoe vs the $130 running shoe, toggle ON/OFF rows (7-shoe test)",
+     "fb_description": "Full refund within 30 days",
+     "fb_headline": "10-Hour Park Shoe Test Winner",
+     "headline": "10-Hour Park Test: Which Shoe Won?",
+     "id": "W48_07_toggle_vs_disney_runner",
+     "on_image_text": [
+      "Tested past hour 8",
+      "ComfortWear vs $130 Running Shoe",
+      "Built-in arch: ON",
+      "Wide toe room: ON",
+      "Wet-path grip: ON",
+      "Built-in arch: OFF",
+      "Wide toe room: OFF",
+      "Wet-path grip: OFF",
+      "30-Day Wear Test Trial"
+     ],
+     "primary_text": "We tested the 7 most popular walking and running shoes for a full 10-hour day on concrete at the parks. By hour 5, the $130 running sneakers had already quit. Here is why: running shoes are engineered for 40-minute runs on tracks. They are not built for standing in 60-minute lines on concrete. Soft foam feels like a cloud in the shoe store. But after five hours under your body weight, that pillow foam crushes completely flat. Your arches drop. Your feet swell half a size. Narrow toe boxes squeeze your bunions until you are looking for a bench to sit on while everyone else keeps going. Comfort Wear Ortho Stretch Cushion Shoes stopped being a competition by lunchtime. They have firm built-in arch support that never collapses under your weight, a wide toe box with stretch-knit fabric that gives as your feet swell, slip-resistant grip soles for slick ramps and wet water-ride exits, and a cushioned heel pocket that absorbs every concrete shock. Podiatrist-recommended support designed specifically for all-day standing. Priced at $59.95 right now (regularly $120). Try them for your entire holiday trip. If you are not walking pain-free all day, return them within 30 days for a full refund.",
+     "why": "Modeled on top spender TOFV1_JW1 ($5,476 7d) contrasting running shoes built for 40-minute runs against 10-hour park days."
+    },
+    {
+     "angle": "Disney: four real park-day photos (hour 1 / hour 4 / hour 8 / fireworks) with one center band",
+     "fb_description": "Full refund within 30 days",
+     "fb_headline": "Still Walking at Hour 10",
+     "headline": "Still walking at hour 10.",
+     "id": "W48_08_four_photos_park_hours",
+     "on_image_text": [
+      "Running shoes quit by lunch.",
+      "Built for all 20,000 steps."
+     ],
+     "primary_text": "Most people pack expensive running sneakers for theme park trips because they felt comfortable walking around the living room. That mistake ruins vacations. Running sneakers are built to propel a runner forward for 40 minutes. They are not made for someone standing on concrete for 10 hours in holiday crowds. By hour 4, that soft foam flattens out. By hour 6, your feet have swelled half a size, your toes are pinched against rigid seams, and your heel pain is flaring. Suddenly you are the person sitting on a bench holding everyone's bags while the rest of the family goes on rides. Do not miss being in the photo when the fireworks start. Comfort Wear Ortho Stretch Cushion Shoes keep you on your feet until park closing. They feature built-in anatomical arch support that keeps your plantar fascia relaxed, a wide toe box and breathable stretch-knit upper so swollen feet never pinch, a shock-absorbing rocker sole that takes pressure off your knees and lower back, and slip-resistant traction for wet walkways. Doctor-recommended for nurses, travelers, and women on their feet all day. Get yours for $59.95 (was $120). Wear them on your trip. If you are not walking through the evening fireworks pain-free, return them within 30 days for a full refund.",
+     "why": "Based on TOFV1_NL1 ($719 30d, ROAS 1.82) contrarian call-out on running shoes failing before fireworks."
+    },
+    {
+     "angle": "Europe: Christmas-market cobblestones in the rain, speech-bubble review over the shoe stepping on wet stone",
+     "fb_description": "Full refund within 30 days",
+     "fb_headline": "20,000 Steps on Wet Cobblestones",
+     "headline": "20,000 steps on wet cobblestones. Zero heel pain, zero slipping.",
+     "id": "W48_09_wet_cobblestone_bubble",
+     "on_image_text": [
+      "Brenda M., Vienna Markets"
+     ],
+     "primary_text": "European Christmas markets are magical until hour 4. Uneven cobblestones. Rain on slick stone steps. And 20,000 steps a day between stalls in the freezing damp air. Most travelers pack their everyday running sneakers. They feel fine at breakfast. By lunchtime on cobblestones, that soft foam has packed completely flat against the stone. Your feet swell half a size, your toes get pinched in narrow toe boxes, and slick wet stone turns ordinary sneakers into ice skates. Comfort Wear Ortho Stretch Cushion Shoes were built for European walking trips. They feature firm built-in arch support that absorbs impact on uneven cobblestones, slip-resistant rubber tread that grips slick stone and wet steps, a stretch-knit upper with a wide toe box so swollen feet never feel squeezed, and elastic no-tie laces that make airport security and hotel changes effortless. Podiatrist-recommended comfort for women who refuse to spend their vacation sitting down. On sale now for $59.95 (regularly $120). Pack them for your holiday getaway. If they do not carry you through every market in total comfort, return them within 30 days for a full refund.",
+     "why": "Transplanted from TOFV1_NJ1 ($869 30d, ROAS 2.03) and TOFV1_NK2 real customer Europe cobblestone reports."
+    },
+    {
+     "angle": "Thanksgiving/holiday travel: open weekender bag, pack one pair (airport miles)",
+     "fb_description": "Free shipping & returns",
+     "fb_headline": "Black Friday: 60% Off Sitewide",
+     "headline": "Airport miles. Flight delays. One pair packed. Zero foot pain.",
+     "id": "W48_10_packed_bag_holiday_flight",
+     "on_image_text": [
+      "BLACK FRIDAY SALE",
+      "60% OFF SITEWIDE",
+      "FREE SHIPPING & RETURNS"
+     ],
+     "primary_text": "Thanksgiving and holiday airport travel is the toughest walking test of the year. Terminal concourses that go on for miles. Standing in security lines that crawl. Running between gates on hard airport tile. Most women pack two or three extra pairs in their carry-on just in case their feet give out before landing. You only need to pack one. Comfort Wear Ortho Stretch Cushion Shoes are engineered for long flights and airport miles. Elastic no-tie laces slide on and off in two seconds at airport security. The breathable stretch-knit upper expands naturally during cabin pressure and foot swelling. Built-in arch support prevents plantar fascia strain across terminal miles, while a cushioned rocker sole relieves aching heels, knees, and lower back. No packing bulky spare sneakers. No limping to baggage claim. BLACK FRIDAY SALE IS LIVE: 60% OFF SITEWIDE with free shipping & returns. Use code LEAKED10 at checkout for 60% OFF SITEWIDE + EXTRA 10% OFF. Wear them through the airport and your entire holiday trip. If your feet are not completely pain-free, return them within 30 days for a full refund.",
+     "why": "Built on TOFV1_JW1/NJ1 high-converting airport travel angle scaled for Black Friday 60% sitewide."
+    },
+    {
+     "angle": "Plus-size Disney: day 1/2/3 decline, one sentence split above and below the shoe",
+     "fb_description": "Full refund within 30 days",
+     "fb_headline": "It Wasn't Your Body That Failed",
+     "headline": "Day Two.",
+     "id": "W48_11_day3_sentence_split",
+     "on_image_text": [
+      "Your body didn't give out.",
+      "Your soft-foam sneakers crushed flat."
+     ],
+     "primary_text": "Stop taking shoe advice from people who do not walk in your body. When you carry more weight, every single step lands with double the impact. Those trendy $160 max-cushion running shoes feel amazing in the store because the plush foam is brand new. Day one at the park, you push through. Day two, you are done. That soft foam packs completely flat under your heels after four hours standing in line. Without real arch support underneath, your arches collapse. Your feet swell half a size, pressing against rigid side seams until your shoes feel like they shrank two sizes. By lunchtime, you are stuck on a bench holding everyone's bags while your family rides without you. Your body did not fail. Your soft-foam sneakers quit on you. Comfort Wear Ortho Stretch Cushion Shoes are built for real walking bodies. High-density arch support holds its shape and never flattens under weight. A wide toe box and stretch-knit fabric expand comfortably with afternoon swelling. The cushioned heel pocket with rocker sole protects knees and lower back on concrete, and slip-resistant grip keeps you steady on wet ramps. Podiatrist-recommended support. On sale right now for $59.95 (regularly $120). Be in the family photos at the fireworks this time. If your feet do not feel supported all day, return them within 30 days for a full refund.",
+     "why": "Based on TOFV1_NH3 plus-size winner ($5,131 7d) 'shoes feel like they shrank two sizes' and bench identification."
+    },
+    {
+     "angle": "Plus-size travel: handwritten packing list (crossed-out fixes, our shoe ticked)",
+     "fb_description": "Free shipping & returns",
+     "fb_headline": "Cross the Extra Sneakers Off",
+     "headline": "Park Packing List: What Actually Worked",
+     "id": "W48_12_packing_list_plus_trip",
+     "on_image_text": [
+      "Gel shoe insoles",
+      "$160 running sneakers",
+      "Hotel ice packs",
+      "ComfortWear shoes",
+      "60% OFF SITEWIDE"
+     ],
+     "primary_text": "If you are plus-size and packing for a big park trip, you know the routine. You pack gel insoles. You bring a backup pair of sneakers to change into at lunch. You check that the hotel room has an ice bucket for your heels at night. Because in a bigger body, 15,000 steps on concrete is exhausting. Those $160 running sneakers feel fine at breakfast. But by hour 8, that soft foam has packed completely flat. Your arches ache, your feet swell, and you end up limping back to the hotel while everyone else stays for the parade. Cross all of that off your packing list. Comfort Wear Ortho Stretch Cushion Shoes give heavier walkers the support soft runners cannot. Solid arch support never collapses under body weight. The stretch-knit upper and wide toe box flex with swelling so nothing pinches. A rocker sole cushion protects your joints with every step, and slip-resistant traction keeps you sure-footed on wet park walkways and ramps. BLACK FRIDAY SALE IS LIVE: 60% OFF SITEWIDE plus free shipping & returns. Use code LEAKED10 at checkout for 60% OFF SITEWIDE + EXTRA 10% OFF. Pack just one pair. If they do not keep you walking all day in total comfort, return them within 30 days for a full refund.",
+     "why": "Transplanted from TOFV1_KW1 ($6,815 30d top spender) rejecting failed DIY fixes (insoles, extra shoes, ice)."
+    }
+   ]
+  },
+  {
+   "at": "2026-11-20T11:24:23",
+   "session": "comfortwear-statics-2026-W48-fri-3",
+   "chat": "chat_68f5b247df184b9d8d114d6043c2ff9a",
+   "url": "https://stefanbrain.com/chat/68f5b247-df18-4b9d-8d11-4d6043c2ff9a",
+   "concepts": [
+    {
+     "angle": "Plus-size holiday city trip (NYC tree): two pairs + travel bag in fresh snow",
+     "fb_description": "Free Travel Bag + Socks",
+     "fb_headline": "Buy 2 Pairs, Get 2 Free Gifts",
+     "headline": "Planning a holiday trip? Don't end up on the bench.",
+     "id": "W48_13_snow_drift_two_pairs",
+     "on_image_text": [
+      "2 Free Holiday Gifts"
+     ],
+     "primary_text": "If you are heading to the city for the holidays, you already know the dread. Soft max-cushion sneakers feel great for twenty minutes in the store, but by day two on hard pavement, that squishy foam packs flat. Your arches drop, your feet swell into narrow toe boxes, and you end up sitting on a bench holding everyone's bags while the family goes to see the tree. Most walking shoes are made with soft foam that cannot support a heavier body all day. It flattens out, giving your arch zero structure. The Ortho Stretch Cushion Shoe is built differently: built-in arch support that holds firm without packing down, wide toe box and stretch-knit upper so swollen feet have room to breathe, cushioned rocker sole that rolls you forward and takes the pounding off your heels, and slip-resistant grip for icy sidewalks and wet steps. Instead of paying $165 for trendy running shoes that die on day two, you get real support for $59.95. Try them on your trip with our 30-day money-back guarantee. If they do not keep you walking comfortably, send them back within 30 days for a full refund. Black Friday Special: Buy 2 pairs and get 2 free gifts: a free 3-pack of cushioned socks and a free travel bag, plus free shipping & returns. The free gifts end with our Black Friday sale.",
+     "why": "Notion COM432 brief for heavier women walking city streets + proven KW1 holiday call-out structure"
+    },
+    {
+     "angle": "Senior PF: vintage oil painting of a woman on her bed rubbing her heel at dawn",
+     "fb_description": "Full 30-Day Money-Back Trial",
+     "fb_headline": "Doctor-Recommended Heel Relief",
+     "headline": "Dreading your first morning steps? It may be your shoes, not your age.",
+     "id": "W48_14_oil_painting_first_steps",
+     "on_image_text": [],
+     "primary_text": "Every morning used to start the exact same way. Sitting on the edge of the mattress at dawn, gripping the nightstand, dreading that very first step onto the floor. It felt like stepping directly onto broken glass. For years, I blamed my age. I bought squishy memory-foam slippers and soft walking shoes from the department store. Here is the problem: those ultra-soft slip-ons have zero arch structure. The foam flattens out in a couple of weeks, your arches collapse, and your heels absorb every ounce of impact. On the other hand, rigid orthopedic shoes feel like walking in concrete bricks. The Ortho Stretch Cushion Shoe gives you the support you need without the stiffness: built-in arch support that keeps your foot in proper alignment, cushioned heel to absorb sharp impact on morning floors, wide toe box and stretch-knit upper so your toes never feel pinched, and elastic no-tie laces you can slip into without bending over. They are doctor-recommended and podiatrist-recommended. Instead of spending $300 on custom orthotics or bulky medical shoes, they are just $59.95. Test them on your own morning walks with our 30-day money-back guarantee. If your morning steps do not feel easier, return them within 30 days for a full refund. Black Friday pricing is live now with free shipping & returns.",
+     "why": "Proven COM55 TOFv5_AR20 doctor hook + COM429 'it is not your age, it is your shoes'"
+    },
+    {
+     "angle": "Objection 'is it a scam?': skeptic woman 70 thumbs-down while holding the shoe, short caption",
+     "fb_description": "Try Them Risk-Free For 30 Days",
+     "fb_headline": "Could 500,000+ Women Be Wrong?",
+     "headline": "I swore this shoe was another online scam.",
+     "id": "W48_15_skeptic_thumbs_down",
+     "on_image_text": [
+      "Turns out, I was dead wrong."
+     ],
+     "primary_text": "I have bought enough junk off the internet to know better. When these shoes first showed up in my feed, I actually laughed out loud. Every shoe brand claims to be orthopedic. Every company promises you will walk on clouds. Then you open the package, and it is twenty-dollar foam that goes completely flat by Tuesday. I told my sister nobody sells a real supportive shoe for $59.95. Then I found out over 500,000 women have already bought them. Half a million women do not keep buying a shoe that hurts their feet. Since they offered a 30-day money-back guarantee, I ordered a pair in Black White just to see. Here is what surprised me: the built-in arch support is firm and actually supports your arch instead of collapsing under your weight, the cushioned heel takes the sting out of hard sidewalks, the stretch-knit fabric and wide toe box give you plenty of room so bunions never rub, and the elastic no-tie laces let you slip right in without fiddling or bending over. They are doctor-recommended, comfortable, and cost a fraction of custom orthotics. If you are as skeptical as I was, do not take my word for it. Try them on your own daily walks for 30 days. If you do not love them, send them back for a full refund. Black Friday pricing is live now with free shipping & returns.",
+     "why": "Winning RTGv1_C3 500,000+ customer proof answering VOC #4 scam/dropship suspicion"
+    },
+    {
+     "angle": "Offer: BLACK FRIDAY SALE big type + colorway dots (H3 iteration)",
+     "fb_description": "Free Shipping & Full Refund",
+     "fb_headline": "60% Off Sitewide + Extra 10% Off",
+     "headline": "BLACK FRIDAY SALE",
+     "id": "W48_16_bf_big_type_dots",
+     "on_image_text": [
+      "60% OFF SITEWIDE",
+      "CODE LEAKED10: EXTRA 10% OFF"
+     ],
+     "primary_text": "Our Black Friday Sale is officially live. If you have been waiting to try the Ortho Stretch Cushion Shoe, this is the lowest price of the year. Most slip-on shoes feel plush for the first week, then compress into flat pancakes that leave your heels aching. The Ortho Stretch Cushion Shoe is doctor-recommended and engineered for all-day relief: anatomical built-in arch support that keeps your foot in healthy alignment, cushioned heel to absorb impact with every single step, wide toe box with breathable stretch knit so nothing pinches, and elastic no-tie laces you can slip on in two seconds. Black Friday Offer: get 60% OFF SITEWIDE, plus use promo code LEAKED10 at checkout for an EXTRA 10% OFF. Every order comes with free shipping & returns, backed by our 30-day money-back guarantee. Wear them around the house, running errands, or on your daily walks. If you do not love how your feet feel, return them within 30 days for a full refund. Black Friday pricing ends when the sale ends.",
+     "why": "High-performing RTGv1_H3 static offer structure scaled to Black Friday sitewide discount"
+    },
+    {
+     "angle": "Warehouse/retail on concrete: 'try this if insoles failed you' hand + starburst (I6 iteration)",
+     "fb_description": "60% Off + Full 30-Day Refund",
+     "fb_headline": "Relief For 12-Hour Concrete Shifts",
+     "headline": "Insoles failed? Try this.",
+     "id": "W48_17_try_this_if_insoles",
+     "on_image_text": [
+      "60% OFF SITEWIDE",
+      "Support",
+      "Cushion",
+      "Grip",
+      "Black Friday sale ends soon"
+     ],
+     "primary_text": "If you spend eight to twelve hours working on concrete or tile, you already know the routine. By hour four, the soles of your feet feel like they are on fire. You limp to the break room, sit down for fifteen minutes, and dread standing back up. Like most workers, I tried slipping cheap drugstore insoles into my work sneakers. It helps for about a week. But on unforgiving concrete, cheap gel and foam pack flat in no time. Once that happens, your arches collapse and your feet swell into shoes that are too narrow. The Ortho Stretch Cushion Shoe is built specifically for long shifts on hard floors: built-in arch support and a cushioned rocker sole that take the pounding off your heels, high-rebound heel cushioning that will not pack flat under heavy use, wide toe box and stretch-knit upper so swollen feet never pinch, slip-resistant grip for slick break room floors and concrete aisles, and elastic no-tie laces so you never have to adjust your shoes mid-shift. Right now for Black Friday: get 60% OFF SITEWIDE with free shipping & returns. Put them to the test for 30 full days on your actual shifts. If your feet are not noticeably more comfortable at the end of the day, return them for a full refund. Our Black Friday sale ends soon.",
+     "why": "RTGv1_I6 warehouse/worker audience converted with shift urgency, updated to BF 60% offer"
+    },
+    {
+     "angle": "Gift for mom: hands passing the shoe with a gold bow + huge 60% OFF SITEWIDE block (O1 iteration)",
+     "fb_description": "60% Off + Full 30-Day Refund",
+     "fb_headline": "The Gift Mom Will Actually Wear",
+     "headline": "60%",
+     "id": "W48_18_gift_handoff_mom",
+     "on_image_text": [
+      "OFF SITEWIDE"
+     ],
+     "primary_text": "Every year, we buy Mom another pair of slippers or a scented candle. And every year on family outings, she has to sit down on a bench after fifteen minutes because her feet are aching. This holiday, give her a gift she will actually wear every single day. The Ortho Stretch Cushion Shoe gives her true, doctor-recommended support wrapped in lightweight comfort: built-in arch support that keeps her feet aligned on family walks, cushioned heel to absorb impact on hard pavement, wide toe box and stretch-knit fabric so nothing presses against bunions or sensitive spots, and elastic no-tie laces she can slip on effortlessly without bending down. Black Friday Special: get 60% OFF SITEWIDE with free shipping & returns. Best of all, you can give them with complete peace of mind. Every pair includes our 30-day money-back guarantee. If she does not love the way they feel from her very first step, return them within 30 days for a full refund. The Black Friday sale ends soon.",
+     "why": "High-performing RTGv1_O1 product static adapted for holiday gifting with 60% off offer block"
+    }
+   ]
+  },
+  {
+   "at": "2026-11-20T11:24:23",
+   "session": "comfortwear-statics-2026-W48-fri-4",
+   "chat": "chat_0b946f8f2ec440d6b06165422e2186f4",
+   "url": "https://stefanbrain.com/chat/0b946f8f-2ec4-40d6-b061-65422e2186f4",
+   "concepts": [
+    {
+     "angle": "Plus-size nurse: rotating colors for 12-hour shifts on hard hospital floors",
+     "fb_description": "$59.95 Black Friday Sale",
+     "fb_headline": "Built for 12-Hour Hospital Shifts",
+     "headline": "Which color for your next 12?",
+     "id": "W48_19_scrubs_legs_four_colors",
+     "on_image_text": [
+      "Black Purple",
+      "Black White",
+      "All Black",
+      "White Blue"
+     ],
+     "primary_text": "If you work three 12s in a row, you know the exact minute your feet give out. For me, it was always 2:30 PM on day two. By hour 8, my heels were throbbing so hard I was leaning against the nurses' station counter just to take the pressure off. And the walk to the parking garage at 7:30 PM felt like walking on hot gravel. I tried the $160 running shoes. I shoved thick drugstore insoles inside them, which only crammed my toes against the front. The problem isn't your feet. Running shoe foam flattens out after four hours under real shift weight, and narrow toe boxes squeeze your toes once your feet start swelling. Emily, an RN on my unit, finally told me to stop buying running shoes and get the Ortho Stretch Cushion Shoe. I bought the Black Purple pair first. Then I went back for the White Blue so I could rotate them between shifts. The arch support is built right into the sole, so it does not collapse by 3 PM. The toe box is wide, and the stretch-knit top actually gives when your feet swell during a shift. Plus, the no-tie elastic laces mean you never have to bend over to retie your shoes with gloved hands. Our Black Friday sale just went live at $59.95 (normally $120). Wear them for 30 days on your actual floor shifts. If you are still limping to your car, send them back within 30 days for a full refund. P.S. If you work back-to-back 12s, grab two colors to rotate. Your heels will thank you.",
+     "why": "Based on TOFV1_NH3 plus-size winner and Emily RN RTGv1_B6 rotating Black Purple and White Blue on 12s."
+    },
+    {
+     "angle": "Gift for mom: buying one pair for her and one for mom with Black Friday free gifts",
+     "fb_description": "Free Socks + Travel Bag",
+     "fb_headline": "Buy 2 Pairs, Get 2 Free Gifts",
+     "headline": "One for Mom.",
+     "id": "W48_20_ugc_gift_plaid_box",
+     "on_image_text": [
+      "One for me.",
+      "Zero heel pain.",
+      "Wore them instantly.",
+      "Two free gifts."
+     ],
+     "primary_text": "Every holiday, I buy my mom a pair of slippers or a gift card because I never know what else to get her. And every holiday walk, she ends up sitting on a bench after ten minutes rubbing her heels. This year I ordered the Ortho Stretch Cushion Shoe in Burgundy for her. And I ordered a second pair in Black for myself. When the box arrived, she slipped them right on without even untying the laces because of the elastic front. Her first words: 'My toes can actually spread out.' The wide toe box gave her bunions room to breathe, and the built-in arch support meant her arches were not collapsing against hard floors. She wore them the entire afternoon around the house and never once asked to sit down. Right now for Black Friday, when you buy 2 pairs, you get 2 free gifts: a 3-pack of cushioned socks and a free travel bag. Plus, Comfort Wear gives you free shipping & returns, and a 30-day money-back guarantee. If your mom does not wear them every single day, return them within 30 days for a full refund. P.S. The free socks and travel bag are automatically added when you put two pairs in your cart.",
+     "why": "UGC daughter-to-mom unboxing pattern paired with COM433 'ordered two pairs' winner."
+    },
+    {
+     "angle": "CNA/caregiver: break-room newspaper Black Friday 60% off sitewide offer for double shifts",
+     "fb_description": "Free Shipping & Returns",
+     "fb_headline": "Black Friday: 60% Off Sitewide",
+     "headline": "BLACK FRIDAY: 60% OFF SITEWIDE",
+     "id": "W48_21_breakroom_newspaper_bf",
+     "on_image_text": [
+      "Free shipping & returns. 30-day full refund."
+     ],
+     "primary_text": "Sitting in the break room at 6:45 AM staring into a coffee mug before a double shift is a specific kind of dread. If you work caregiving or CNA shifts, you know your feet are already on fire by lunch. Hard hospital tile and concrete floors do not give. Cheap sneakers flatten out by hour four, and traditional work clogs feel like strapping two bricks to your feet. You cannot afford to call out of a shift during the holiday rush. The Ortho Stretch Cushion Shoe is built for women who spend 8 to 12 hours on their feet without a break. The built-in anatomical arch support and cushioned rocker sole take the pressure off your heels and lower back. The stretch-knit upper gives your toes room as your feet swell in the afternoon. And the slip-resistant grip keeps you steady on wet bathroom floors. Our Black Friday Sale is officially live: get 60% OFF SITEWIDE, plus free shipping & returns. Want an extra discount? Use code LEAKED10 at checkout for an extra 10% off (60% OFF SITEWIDE + EXTRA 10% OFF). Wear them on your actual shifts for 30 days. If your feet still throb when you clock out, return them within 30 days for a full refund. P.S. Enter code LEAKED10 before completing your order to lock in the extra 10% off.",
+     "why": "Konjoun newspaper headline format adapted to CNA caregiver double-shift pain from customer survey Persona 2."
+    },
+    {
+     "angle": "Housekeeping: tight sneaker vs stretch-knit room as feet swell on concrete floors",
+     "fb_description": "$59.95 Black Friday Sale",
+     "fb_headline": "Shoes That Stretch When Feet Swell",
+     "headline": "Morning pinch. Afternoon swell. We expand.",
+     "id": "W48_22_two_shoes_standing_swell",
+     "on_image_text": [
+      "Wide toe box",
+      "Stretch knit",
+      "Arch support",
+      "$59.95"
+     ],
+     "primary_text": "Cleaning 16 hotel rooms on an 8-hour shift means walking 15,000 steps across hard concrete and tile. By 2 PM, your feet swell up almost an entire half size. In regular sneakers, your toes end up squeezed together like sausages against stiff leather and rigid mesh. Every step rubs your bunions, and by the time you strip the last bed, the bottoms of your feet feel like they are on fire. Sizing up doesn't fix it because then your heel slips out with every step. The Ortho Stretch Cushion Shoe fixes the problem with two features working together. First, the breathable stretch-knit upper actually flexes and expands as your feet swell throughout your shift, while the wide toe box lets your toes spread out naturally. Second, the built-in arch support and cushioned sole cradle your heels so the hard concrete floor stops beating up your joints. They also feature slip-resistant rubber tread to keep you safe on wet bathroom tile, and elastic no-tie laces so you never have to retie them. Right now, Black Friday pricing is live at $59.95 (was $120). Take them to work and test them on your shifts for 30 days. If your feet are not completely pain-free, return them within 30 days for a full refund. P.S. Free shipping and returns are included with every order.",
+     "why": "Based on housekeeper VOC 'toes squeezed like sausages by afternoon' and Atria two-standing-objects contrast format."
+    },
+    {
+     "angle": "Restaurant server: surviving the holiday rush on slick kitchen tile with slip-resistant grip",
+     "fb_description": "$59.95 Black Friday Sale",
+     "fb_headline": "Holiday Rush Grip & Arch Support",
+     "headline": "Built for the holiday rush.",
+     "id": "W48_23_string_lights_holiday_rush",
+     "on_image_text": [
+      "Slip-resistant grip and arch support.",
+      "Shop now for $59.95."
+     ],
+     "primary_text": "If you are serving or working the line during the Thanksgiving and holiday rush, you already know what you are up against. Double shifts, carrying heavy trays between dining room carpet and greasy, slick kitchen tile. By 8 PM, your lower back aches and your heels throb with every step. Most work shoes force you to choose between two bad options: stiff clogs that kill your knees, or soft sneakers that have zero grip on a wet kitchen floor. The Ortho Stretch Cushion Shoe in All Black was made for long shifts on hard restaurant floors. The slip-resistant rubber tread gives you reliable traction on slick, wet tile. Inside, built-in arch support and a cushioned rocker sole absorb shock so your heels and back do not take the beating. The wide toe box and breathable stretch-knit upper prevent pinching when your feet swell after hours on the floor. And elastic no-tie laces mean you never have to bend down to retie slippery laces mid-rush. Black Friday pricing is currently live at $59.95 (was $120). Wear them on your shifts for 30 days. If they do not keep your feet pain-free through your longest rush, return them within 30 days for a full refund. P.S. Free shipping and returns are included on all holiday orders.",
+     "why": "Plant Therapy holiday string lights format paired with restaurant server VOC on holiday double shifts and slick floors."
+    },
+    {
+     "angle": "65+ retail cashier: Black Friday note offering 60% off sitewide for long standing shifts",
+     "fb_description": "Free Shipping & Full Refund",
+     "fb_headline": "Black Friday: 60% Off Sitewide",
+     "headline": "Don't sleep through this:",
+     "id": "W48_24_cream_note_dont_sleep",
+     "on_image_text": [
+      "60% OFF SITEWIDE",
+      "Built for concrete.",
+      "Arch support.",
+      "30-day full refund."
+     ],
+     "primary_text": "Standing at a cash register on unpadded concrete floors for eight hours is hard on 25-year-old feet. At 65+, it is pure torture on your heels and lower back. Retirement did not mean sitting down, but by 11 AM your arches feel flat and your heels throb with every step you take. Drugstore shoe inserts wear flat in a week, and bulky orthopedic shoes look terrible and cost a fortune. The Ortho Stretch Cushion Shoe was designed specifically for women on their feet all day on hard surfaces. The firm anatomical arch support and deep cushioned heel cup absorb shock before it travels up into your knees and back. The wide toe box gives your feet room without rubbing bunions or pinching hammer toes. And the stretch-knit fabric breathes, while elastic no-tie laces slip on effortlessly without bending over. Our Black Friday Sale is live: take 60% OFF SITEWIDE with free shipping & returns. Use promo code LEAKED10 at checkout for an extra 10% off (60% OFF SITEWIDE + EXTRA 10% OFF). Wear them for 30 days of shifts. If they do not take the ache out of your work day, send them back within 30 days for a full refund. P.S. Enter code LEAKED10 in your cart to apply the extra 10% discount before checking out.",
+     "why": "Nordic Stretch 'don't sleep' note format combined with 65+ still working survey segment (Persona 10) on concrete retail floors."
+    }
+   ]
+  },
+  {
+   "at": "2026-11-20T11:34:01",
+   "session": "comfortwear-statics-2026-W48-fri-5",
+   "chat": "chat_dd46a66a50614f0bbb5191c3ef27c2a2",
+   "url": "https://stefanbrain.com/chat/dd46a66a-5061-4f0b-bb51-91c3ef27c2a2",
+   "concepts": [
+    {
+     "angle": "Retiree PF: \"what do you mean my first steps don't have to hurt?\" question header + woman holding the shoe + checks",
+     "fb_description": "30-Day Wear Test. Full Refund.",
+     "fb_headline": "Pain-Free First Steps Every Morning",
+     "headline": "First steps shouldn't hurt?",
+     "id": "W48_25_question_senior_checklist",
+     "on_image_text": [
+      "Arch support",
+      "Cushioned heel",
+      "Wide toe box",
+      "Slip on",
+      "Doctor-recommended"
+     ],
+     "primary_text": "For years, you wake up, swing your legs over the edge of the bed, and brace yourself. You grip the nightstand because that first morning step feels like landing barefoot on broken glass. You tell yourself it is just part of getting older. You buy another pair of squishy memory-foam slippers, do your morning calf stretches, and try to walk it off. Here is what nobody tells you: it is not your age. It is your shoes. Soft slip-ons feel nice when you first slide your feet into them, but they pack flat under your weight. Your arches drop, your heel takes the blunt impact, and your plantar fascia gets strained all over again. The Ortho Stretch Cushion Shoe gives you the structure your feet are begging for: built-in anatomical arch support that keeps your foot in healthy alignment, a thick cushioned heel that absorbs sidewalk strikes before they reach your knees, a roomy wide toe box that lets your toes spread out naturally without pinching, and elastic no-tie laces so you never have to bend over and fight with tight knots. They give you the doctor-recommended support of a medical shoe, without looking like an orthopedic brick. You just slip them on and go. No need to spend $300 on custom orthotics or hide another failed pair in your closet. Our Black Friday sale is live right now: get yours for $59.95 (regularly $120), plus free shipping. Test them on your own morning walks for 30 days. If your first steps out of bed do not feel completely different, return them for a full refund.",
+     "why": "Notion COM429 (\"it is not your age, it is your shoes\") and Stepprs/Konjoun morning first steps pattern."
+    },
+    {
+     "angle": "Post-Thanksgiving walker: burlap \"FREE\" big word, socks + travel bag with 2 pairs",
+     "fb_description": "Free Socks + Travel Bag",
+     "fb_headline": "Buy 2 Pairs, Get 2 Free Gifts",
+     "headline": "Buy 2 Pairs, Get 2 Free Gifts",
+     "id": "W48_26_burlap_free_gifts_walk",
+     "on_image_text": [
+      "FREE",
+      "BLACK FRIDAY",
+      "3-Pack Socks + Travel Bag"
+     ],
+     "primary_text": "You made a promise to yourself to get outside for a walk after Thanksgiving dinner. Twenty minutes down the road, your heels start throbbing and your lower back aches. You end up turning around early while the rest of the family keeps walking. Walking for your health should feel good. But when you walk on hard asphalt in typical fashion sneakers, your feet pay the price. Flat shoes allow your arches to collapse with every stride. Cheap foam packs down to nothing within weeks, sending every pavement shock straight up into your ankles and knees. The Ortho Stretch Cushion Shoe was built specifically for daily walking: built-in anatomical arch support that braces your foot and prevents arch fatigue, a thick cushioned heel that absorbs harsh sidewalk impact, a breathable stretch-knit upper with a roomy toe box that lets your feet expand naturally as you walk, slip-resistant grip soles that keep you steady on damp sidewalks and wet leaves, and elastic no-tie laces so you slip them on and step right out the door. To help you hit your walking goals this holiday season, our Black Friday offer is simple: buy any 2 pairs of the Ortho Stretch Cushion Shoe and get 2 free gifts: our 3-Pack of Cushioned Socks plus our Travel Bag. Free shipping and free returns are included. Wear them on all your neighborhood walks for 30 full days. If they do not keep your feet comfortable from your first step to your last, return them for a full refund.",
+     "why": "ShopRite burlap Thanksgiving grocery format (10d) + post-dinner family walk behavior."
+    },
+    {
+     "angle": "Gift: mom in pajamas hugging her new shoes in the kitchen, TikTok caption (daughter POV)",
+     "fb_description": "Black Friday: Now $59.95",
+     "fb_headline": "The Holiday Gift Mom Actually Wears",
+     "headline": "Mom actually wore her gift out of the box.",
+     "id": "W48_27_tiktok_kitchen_hug",
+     "on_image_text": [
+      "Shop Black Friday"
+     ],
+     "primary_text": "Every holiday season, we end up buying Mom cozy slippers or a department store gift card. And every single year, they end up sitting in her closet inside their original bags. Meanwhile, whenever our family goes out for holiday walks or strolls through the mall, she ends up sitting on a bench after twenty minutes, rubbing her feet and telling us to keep going without her. Her feet throb, her arches ache, and her stiff walking sneakers pinch her toes. This year, I decided to give her an early Christmas gift: the Ortho Stretch Cushion Shoe. She opened the box right at the kitchen counter in her morning pajamas, slipped them on over her wool socks, and literally hugged them to her chest. No bending over to tie tight laces thanks to the elastic slip-on design. Inside, built-in anatomical arch support and a cushioned heel cradle her foot, while the wide stretch-knit toe box gives her toes plenty of room without rubbing or pressure. She put them on right there in the kitchen and has barely taken them off since. Our Black Friday pricing is live today: get her pair for $59.95 (regularly $120). Let her test them on her own walks for 30 days. If she does not love the way her feet feel, return them for a full refund.",
+     "why": "Amanda Stanton TikTok kitchen gift format (37d, rising) + survey finding that customers buy second pair as gifts."
+    },
+    {
+     "angle": "Bunions + arch support (market gap): the statement printed on a front-lawn yard sign",
+     "fb_description": "30-Day Wear Test. Full Refund.",
+     "fb_headline": "Room For Bunions + Arch Support",
+     "headline": "Wide shoes shouldn't feel like flat cardboard.",
+     "id": "W48_28_lawn_sign_bunions",
+     "on_image_text": [
+      "Room for bunions. Real arch support."
+     ],
+     "primary_text": "If you have bunions, you know the shoe shopping trap all too well. You buy wide toe box shoes so your bunions do not get squeezed, but they feel like walking on flat cardboard. Zero arch support. Your arches drop, your heels throb, and your knees take all the pressure. Or you buy shoes with decent arch support, only to discover a narrow, pointy toe box that rubs your bunions raw with every single step. You should never have to choose between room for your toes and structure for your arches. The Ortho Stretch Cushion Shoe gives you both in one lightweight pair: a wide toe box with an adaptive, flexible stretch-knit upper that wraps around your bunions without friction or tight pressure points, doctor-recommended anatomical arch support that keeps your feet properly aligned on hard surfaces, a thick cushioned heel that absorbs shocks with every step you take, and elastic no-tie laces that let you slip your shoes on and off without bending over. No rigid materials. No painful break-in period. Just immediate, all-day walking comfort. Our Black Friday sale is live now: get yours for $59.95 (normally $120). Walk in them for 30 full days. If your feet and bunions are not completely happy, return them for a full refund.",
+     "why": "Tested bunions pain (9% of survey, VOC §6: \"wide toe box shoes are thin barefoot styles with no arch support, they want both\") via 84d proven yard sign format."
+    },
+    {
+     "angle": "Wide/squeezed toes (test): folded knit stack with centered title, the stretch-knit story",
+     "fb_description": "Black Friday: $59.95 Today",
+     "fb_headline": "Stretch-Knit Room For Swollen Feet",
+     "headline": "Room for your toes. Zero pinching.",
+     "id": "W48_29_knit_stack_room",
+     "on_image_text": [
+      "STRETCH-KNIT",
+      "Built-in arch support"
+     ],
+     "primary_text": "By mid-afternoon, your shoes feel two sizes too small. Your toes feel squeezed together like sausages, your feet swell from being on them all day, and you find yourself kicking your sneakers off under the table just to let your feet breathe. Standard walking shoes are built on stiff, rigid frames. When your feet naturally expand throughout the day, the rigid upper does not budge. It pinches your pinky toe, crowds your toes together, and rubs against sensitive spots. The Ortho Stretch Cushion Shoe was engineered with an adaptive stretch-knit upper that moves with your feet instead of fighting them. The soft woven fabric gives your toes plenty of room to splay naturally while holding its shape so your foot never slides around. Underneath, you get firm, doctor-recommended anatomical arch support and a cushioned heel that absorb the impact of hardwood and tile floors. No tight laces to fight with: the elastic no-tie system lets you slip them on and off with zero effort. Our Black Friday sale is live today: get yours for $59.95 (normally $120). Wear them on your regular daily walks for 30 full days. If they pinch, crowd your toes, or fail to keep your feet comfortable, return them for a full refund.",
+     "why": "Tested wide/squeezed toes pain point (VOC: \"toes squeezed together like sausages\") via We are Amma knit stack format (78d proven)."
+    },
+    {
+     "angle": "Burning ball of foot after a city/shopping day (test pain), fall-leaf poster with a photo window",
+     "fb_description": "30-Day Money-Back Guarantee",
+     "fb_headline": "Stop The Burning Ball Of Foot",
+     "headline": "When the balls of your feet burn",
+     "id": "W48_30_fall_poster_ball_of_foot",
+     "on_image_text": [
+      "FALL SALE",
+      "Cushioned rocker sole",
+      "30-day trial"
+     ],
+     "primary_text": "Everything feels fine at breakfast. You lace up your regular running sneakers, grab your bag, and feel ready for a full day of holiday shopping and city walking. By hour 5, the bottom of your feet feel like they are on fire. The balls of your feet burn with every step on hard mall floors and concrete sidewalks. You find yourself loosening your laces at lunch, slowing down, and looking for any open bench just to sit down while everyone else keeps going. Here is the problem: typical running shoes are built for a 40-minute jog, not 10 hours of standing and walking on hard surfaces. When you walk and stand all day, running foam crushes flat under your body weight. Your arch drops, and all your body weight gets forced directly onto the balls of your feet. The Ortho Stretch Cushion Shoe was engineered for long days on your feet: a cushioned rocker sole that gently rolls your stride forward, taking the burning pressure off the balls of your feet, built-in anatomical arch support that keeps your weight evenly distributed across your whole foot, a soft stretch-knit upper that gives your feet room when they naturally swell in the afternoon, and slip-resistant soles that grip slick tile floors and wet pavement. No more sitting on benches holding everyone else's shopping bags. Fall sale pricing is active now: get yours for $59.95 (normally $120). Put them through 30 full days of city walks, mall trips, and holiday errands. If the balls of your feet do not stay comfortable from morning to evening, return them for a full refund.",
+     "why": "Tested burning ball of foot / Morton's pain (\"the bottom of my feet burn\") via My Derma Dream fall poster format (29d)."
+    }
+   ]
+  },
+  {
+   "at": "2026-11-20T11:34:01",
+   "session": "comfortwear-statics-2026-W48-fri-6",
+   "chat": "chat_54d495bc265d4a23af519287e61f1e55",
+   "url": "https://stefanbrain.com/chat/54d495bc-265d-4a23-af51-9287e61f1e55",
+   "concepts": [
+    {
+     "angle": "Thanksgiving host standing 9 hours cooking: swollen feet relief",
+     "fb_description": "30-Day Wear Test Trial",
+     "fb_headline": "Built For Standing All Day",
+     "headline": "Standing all day cooking? Your feet deserve this.",
+     "id": "W48_31_harvest_basket_cook",
+     "on_image_text": [
+      "BLACK FRIDAY",
+      "CLEARANCE SALE"
+     ],
+     "primary_text": "If you are hosting Thanksgiving this year, you already know the routine. You are on your feet from 7:00 AM prepping the turkey, peeling potatoes, and checking the oven. By 2:00 PM, the soles of your feet burn against the hard kitchen tile. A shoe that fits comfortably at breakfast feels like a vice by dinner. Slippers feel soft for thirty minutes, but offer zero arch support. Stiff clogs give support, but feel like wooden blocks. And cheap running shoes pack down flat on hard tile after a couple of hours. The Ortho Stretch Cushion Shoe is built for women who spend all day on hard floors. Built-in anatomical arch support keeps your foot properly aligned. The cushioned rocker sole absorbs impact on hard kitchen tile. A stretch-knit upper and wide toe box expand as your feet swell. Slip-resistant grip keeps you steady around kitchen spills. Elastic no-tie laces slip on instantly without bending over. Doctor-recommended comfort, designed to keep you moving without aching feet. Instead of buying another pair of flat sneakers that pack out in weeks, get all-day kitchen comfort for just $59.95. Try them on your own kitchen floors for 30 days. If your feet are not thanking you after a full day of cooking and hosting, return them within 30 days for a full refund. Black Friday pricing is live now. Tap below to get your pair before the holiday rush.",
+     "why": "Customer VOC: 'a shoe that fits at 7 AM is a vice by 6 PM', holiday kitchen fatigue pattern."
+    },
+    {
+     "angle": "Boutique colorway range showcase with Black Friday sitewide discount",
+     "fb_description": "Free Shipping & Returns",
+     "fb_headline": "60% Off Sitewide | Black Friday",
+     "headline": "Find Your Color. 60% Off Sitewide.",
+     "id": "W48_32_bf_display_riser_range",
+     "on_image_text": [
+      "60% OFF SITEWIDE"
+     ],
+     "primary_text": "If you have a closet full of soft slip-ons that let you down, it is not your age. It is your shoes. Most memory foam shoes feel plush in the store, but they have zero arch structure. Within a month, the foam crushes flat. Your arch collapses, your heel takes the shock, and narrow toe boxes squeeze your toes with every step. The Ortho Stretch Cushion Shoe was designed to end the closet graveyard. Anatomical arch support cradles your foot with every step. A cushioned rocker sole softens impact on pavement and hardwood. The wide toe box and flexible stretch-knit upper give swollen feet room to breathe. Slip-resistant grip keeps you steady on wet sidewalks. Elastic no-tie laces let you slip them on and go. Doctor-recommended support that looks like a stylish sneaker, not an orthopedic brick. For Black Friday, get 60% OFF SITEWIDE across our best-selling color collection, plus free shipping & returns. Enter code LEAKED10 at checkout for 60% OFF SITEWIDE + EXTRA 10% OFF. Take the 30-day wear test on your daily walks. If you do not love how your feet feel, return them within 30 days for a full refund. Black Friday savings end when the sale closes. Tap below to choose your favorite color.",
+     "why": "Account data shows buyers collect multiple colorways once one fits, answers VOC 'closet of shoes that betrayed me'."
+    },
+    {
+     "angle": "Nurse shift checklist answering rival sticky-note tactile format",
+     "fb_description": "30-Day Full Refund Guarantee",
+     "fb_headline": "Built For 12-Hour Hospital Shifts",
+     "headline": "Nurse Essentials",
+     "id": "W48_33_forearm_sticky_features",
+     "on_image_text": [
+      "Arch support",
+      "Cushioned heel",
+      "Wide toe box",
+      "Non-slip grip",
+      "30-Day Wear Trial",
+      "Doctor-Recommended"
+     ],
+     "primary_text": "When you are working 12-hour shifts as an RN or CNA, your feet take a beating. By hour 8, your heels throb on the hard hospital tile. By hour 10, your toes are clamped inside your running shoes. And by the time you limp to the parking garage, you are dreading the next shift. Standard running shoes pack flat after four hours. Sizing up makes your heel slip. And shoving thick insoles inside just steals toe room. The Ortho Stretch Cushion Shoe was engineered for the floor. Built-in arch support holds your structure through all 12 hours. A cushioned rocker sole absorbs shock on hard hospital corridors. The wide toe box and stretch-knit upper let feet swell without pressure. Slip-resistant grip keeps you steady around wet hospital spills. No-tie elastic laces mean you never touch dirty laces mid-shift. Podiatrist-recommended support designed for real hospital floors. At $59.95, it costs less than a single dollar per shift, compared to replacing $160 running shoes every three months. Test them for 30 days on your own hospital floor. If they do not carry you through your shifts in comfort, return them within 30 days for a full refund. Black Friday pricing is live now. Tap below to claim your pair before your next shift.",
+     "why": "Customer phrase Emily RN: 'slip-resistant which is a necessity for us', answers Hike forearm layout with verified brand features."
+    },
+    {
+     "angle": "12-hour hospital shift callout floating over corridor",
+     "fb_description": "Trusted by 500,000+ Women",
+     "fb_headline": "Built For 12-Hour Hospital Shifts",
+     "headline": "Built For 12-Hour Shifts On Hard Hospital Floors",
+     "id": "W48_34_hospital_corridor_12s_float",
+     "on_image_text": [
+      "Trusted by 500,000+ Women"
+     ],
+     "primary_text": "Hospital corridors are brutal on your feet. You clock in at 7:00 AM, and by 3:00 PM the linoleum feels like solid concrete. By the end of your shift, your heels throb and your lower back aches. Most athletic shoes are designed for a 45-minute jog, not 12 straight hours on hard commercial floors. The foam crushes down, your arch flattens, and narrow toe boxes squeeze your toes. The Ortho Stretch Cushion Shoe is built for 12-hour shifts. Anatomical arch support keeps your foot aligned round after round. The cushioned rocker sole softens every heel strike down the hallway. A roomy wide toe box and breathable stretch-knit upper give swollen feet room. Slip-resistant traction provides steady grip on slick surfaces. Hands-free elastic no-tie laces allow fast slip-on comfort. Doctor-recommended comfort trusted by more than 500,000 women. Why spend $160 on sneakers that pack flat in eight weeks? Get shifts of proven comfort for only $59.95. Wear them for 30 days on your unit. If they do not keep your feet supported from first medication pass to final report, return them within 30 days for a full refund. Black Friday pricing is active today. Tap below to order yours before the sale ends.",
+     "why": "Proven account winner ($858k lifetime spend on 12-hour shift line), answers Stepprs without unapproved pain claims."
+    },
+    {
+     "angle": "Active retirement age callout answering rival sore feet angle",
+     "fb_description": "30-Day Full Refund Guarantee",
+     "fb_headline": "60% Off Sitewide | Black Friday",
+     "headline": "RETIREMENT WITHOUT TIRED FEET",
+     "id": "W48_35_retirement_bf_red",
+     "on_image_text": [
+      "Doctor-Recommended",
+      "Arch Support",
+      "Wide Fit",
+      "Cushioned",
+      "Non-Slip",
+      "60% OFF",
+      "30-Day Trial"
+     ],
+     "primary_text": "You worked decades to reach retirement. You should not have to spend your mornings gripping the nightstand because your feet hurt. It is easy to blame your age, but the real issue is often the shoes in your closet. Cheap slippers and soft slip-ons feel cozy at first, but have zero arch structure. Your arch collapses, your heel takes the shock, and rigid orthopedic shoes feel like heavy bricks. The Ortho Stretch Cushion Shoe gives you lightweight walking comfort. Built-in arch support cradles your foot for all-day stability. A cushioned rocker sole absorbs impact on concrete sidewalks and stores. The wide toe box and stretch-knit upper never squeeze bunions or sensitive toes. Slip-resistant traction keeps you sure-footed on wet surfaces. Elastic no-tie laces let you slip them on without bending down. Doctor-recommended support designed to keep you active with your family and grandkids. For Black Friday, save 60% OFF SITEWIDE with free shipping & returns. Enter code LEAKED10 at checkout for 60% OFF SITEWIDE + EXTRA 10% OFF. Wear them on your morning walks and shopping trips for 30 days. If your feet are not walking in comfort, return them within 30 days for a full refund. Black Friday pricing ends when the event closes. Tap below to claim your discount today.",
+     "why": "Customer survey: 46.5% of buyers are 65+, directly answers Hike's retirement hook with verified comfort features and BF offer."
+    },
+    {
+     "angle": "Morning heel pain after 3 back-to-back 12s with $120 to $59.95 price drop",
+     "fb_description": "30-Day Full Refund Guarantee",
+     "fb_headline": "Was $120, Now $59.95 | Black Friday",
+     "headline": "First Steps After Three 12s",
+     "id": "W48_36_morning_after_12s_price",
+     "on_image_text": [
+      "BLACK FRIDAY brand seal line: $120 strikethrough sale price $59.95",
+      "30-Day Full Refund Guarantee",
+      "FREE SHIPPING & RETURNS"
+     ],
+     "primary_text": "The morning after working three 12s in a row, putting your feet on the floor should not feel like stepping on hot coals. When you spend 36 hours on hard hospital tile in a single weekend, standard running shoes pack out completely. The foam crushes down, your arch loses support, and by morning four your heels throb the second you get out of bed. The Ortho Stretch Cushion Shoe is designed to protect your feet across back-to-back shifts. Built-in anatomical arch support stabilizes your foot through every hour. A cushioned rocker sole absorbs impact so your heels do not take the beating. The wide toe box and flexible stretch-knit upper let swollen feet breathe. Slip-resistant grip keeps you steady on wet tile. Elastic no-tie laces slip on fast without bending over. Doctor-recommended and podiatrist-recommended support for healthcare workers. Regular price was $120. Right now for Black Friday, get shift-ready comfort for just $59.95, plus free shipping & returns. No percentage math or gimmicks. Test them for 30 days on your own floor. If they do not support your feet through back-to-back 12s, return them within 30 days for a full refund. This $59.95 pricing ends when the Black Friday sale wraps up. Tap below to grab your pair.",
+     "why": "Customer phrase Emily RN 'after 3 12s in a row', answers Stepprs morning heel ad without unapproved cure claims."
+    }
+   ]
+  },
+  {
+   "at": "2026-11-20T11:34:01",
+   "session": "comfortwear-statics-2026-W48-fri-7",
+   "chat": "chat_459fb1fa30ca4d449abe6fe46d69c3fa",
+   "url": "https://stefanbrain.com/chat/459fb1fa-30ca-4d44-9abe-6fe46d69c3fa",
+   "concepts": [
+    {
+     "angle": "Podiatrist-recommended authority grid for hairstylists standing all day",
+     "fb_description": "30-Day Full Refund Trial",
+     "fb_headline": "Podiatrist-Recommended Comfort",
+     "headline": "Podiatrist-Recommended",
+     "id": "W48_37_podiatrist_reasons_grid",
+     "on_image_text": [
+      "Arch Support",
+      "Wide Toe Box",
+      "Slip-Resistant",
+      "HSA/FSA Eligible",
+      "Free Shipping",
+      "30-Day Guarantee",
+      "Shop Now"
+     ],
+     "primary_text": "Standing behind the chair on hard salon floors for 10 hours straight is brutal on your body.\n\nBy 2 PM, the soles of your feet feel like they are burning. You push through the holiday rush because you cannot afford to miss a shift, but by the time you lock up, you are limping to your car.\n\nMost stylists wear cheap running sneakers until the foam flattens out, then buy another pair three months later. But soft foam has zero arch structure. On concrete or tile, it packs flat within hours, and narrow toe boxes pinch your feet as they swell.\n\nComfort Wear built the Ortho Stretch Cushion Shoe specifically for women who work on their feet all day:\n\n- Built-in anatomical arch support and a cushioned rocker sole that absorbs floor impact\n- A roomy, stretch-knit toe box that expands gently as your feet swell\n- Slip-resistant outsoles for wet salon floors and slick backrooms\n- Elastic no-tie laces so you never have to bend down to re-tie laces mid-shift\n\nPodiatrist-recommended comfort that holds up shift after shift. Skip the cycle of replacing dead sneakers every four months.\n\nBlack Friday pricing is live at $59.95 (was $120). They are also HSA/FSA eligible for up to 30% savings.\n\nWear them behind the chair for 30 days of shifts. If your feet do not feel supported all day long, return them within 30 days for a full refund.\n\nFree shipping & returns.",
+     "why": "Answers competitor angle gap (194 rival ads with podiatrist-recommended headline) and addresses salon worker VOC on concrete floor fatigue and flattened foam."
+    },
+    {
+     "angle": "Daily walker who turns back early (social walking question)",
+     "fb_description": "30-Day Full Refund Trial",
+     "fb_headline": "Built For Daily Walkers",
+     "headline": "Tired of turning back early?",
+     "id": "W48_38_walkers_turn_back",
+     "on_image_text": [
+      "Daily Walkers",
+      "Arch support built for longer walks.",
+      "Shop Now"
+     ],
+     "primary_text": "You start the morning walk feeling optimistic. But ten minutes in, your heels start aching, your feet feel heavy, and you find yourself making an excuse to turn back toward the car early.\n\nWatching the rest of the group keep going while you walk back alone is frustrating. Most women over 60 quietly blame their age.\n\nIt is not your age. It is your shoes.\n\nSoft memory-foam walking shoes feel great for the first ten steps in the store. But after twenty minutes on the pavement, that squishy foam packs flat. Your arches collapse downward, your heels take the full brunt of every step, and stiff toe boxes squeeze your toes.\n\nRigid orthopedic shoes are not the answer either. Nobody wants to walk around in heavy, clunky bricks.\n\nComfort Wear designed the Ortho Stretch Cushion Shoe to give you real support without the bulk:\n\n- Firm built-in anatomical arch support that keeps your feet aligned on long walks\n- A cushioned rocker sole that eases heel impact and rolls your stride forward smoothly\n- A flexible stretch-knit upper with a wide toe box so swollen joints never feel pinched\n- Elastic no-tie laces that slip on easily without bending over\n\nSkip the $300 custom inserts and the closet full of shoes that let you down.\n\nBlack Friday pricing is live right now at $59.95 (was $120). They are also HSA/FSA eligible for up to 30% savings.\n\nTake them on your morning walks for 30 days. If you are not walking farther and feeling steady on your feet, return them within 30 days for a full refund.\n\nFree shipping & returns.",
+     "why": "Answers competitor angle gap (Stepprs walking-group series) and targets avatar pain of cutting morning walks short due to flattened foam."
+    },
+    {
+     "angle": "Mock apology brand humor on out-walking family on vacation",
+     "fb_description": "30-Day Vacation Wear Test",
+     "fb_headline": "We're Sorry In Advance",
+     "headline": "We're Sorry.",
+     "id": "W48_39_were_sorry_step_count",
+     "on_image_text": [
+      "Your family cannot keep up anymore.",
+      "Now they need the bench.",
+      "Shop Now"
+     ],
+     "primary_text": "We probably owe your family an apology in advance.\n\nOn most vacations, by 2 PM you are usually the one looking for a bench to sit down, rest your aching heels, and hold everyone's jackets while they keep exploring.\n\nNot this time.\n\nMost travelers pack their expensive running shoes thinking they are the best option for walking. But running sneakers are built for a 40-minute workout, not a 10-hour day on museum concrete and uneven cobblestones. The squishy foam packs flat by lunchtime, your feet swell in the afternoon heat, and narrow toe boxes squeeze your joints until every step hurts.\n\nComfort Wear built the Ortho Stretch Cushion Shoe to be the only pair you need to pack:\n\n- Firm built-in anatomical arch support that keeps your feet aligned through 20,000-step days\n- A cushioned rocker sole that rolls your stride forward and protects heels on hard stone\n- Breathable stretch-knit fabric with a wide toe box that expands naturally as your feet swell\n- Slip-resistant outsoles for slick rainy streets and historic walkways\n- Elastic no-tie laces that slip right through airport security lines without bending down\n\nStop spending $150 on running sneakers that give up halfway through your vacation.\n\nBlack Friday pricing is live at $59.95 (was $120). HSA/FSA eligible for up to 30% savings.\n\nTake them on your next trip. Walk 20,000 steps a day for 30 days. If your feet are not completely comfortable, return them within 30 days for a full refund.\n\nFree shipping & returns.",
+     "why": "Answers competitor angle gap (Stepprs 'We're Sorry' humor series) and reverses the traveler VOC trope ('the person on the bench') into an empowering win."
+    },
+    {
+     "angle": "Afternoon swelling and heavier impact (question band over sunlit walk)",
+     "fb_description": "30-Day Full Refund Guarantee",
+     "fb_headline": "Support Built For Swollen Feet",
+     "headline": "Fit fine at breakfast, tight by 3 PM?",
+     "id": "W48_40_grass_question_plus_swell",
+     "on_image_text": [
+      "Support that holds. Stretch that gives."
+     ],
+     "primary_text": "Stop taking walking shoe advice from people who do not walk in your body.\n\nWhen you carry extra weight, every step lands with more pressure. You put on your sneakers in the morning and they feel great. But by 3 PM, your feet have naturally swollen half a size, and those same shoes feel like they shrank two sizes.\n\nMost women reach for max-cushion sneakers because ultra-soft foam feels plush in the fitting room. But soft foam cannot support real weight all day long. Within a couple of hours, the cushion packs down completely flat. Your arches collapse downward, your heels strike hard ground, and your swollen toes get jammed against stiff side seams.\n\nSizing up does not fix it either. It just makes your heels slip out with every step.\n\nComfort Wear engineered the Ortho Stretch Cushion Shoe with support that holds its shape and fabric that gives:\n\n- Built-in anatomical arch support that does not collapse under heavier steps\n- A cushioned rocker sole that absorbs heel strike and keeps your stride moving easily\n- Breathable stretch-knit fabric with a wide toe box that expands gently as feet swell\n- Slip-resistant outsoles for steady footing on any surface\n- Elastic no-tie laces that adapt to swelling without cutting off circulation\n\nSkip the $165 running shoes that go completely flat by day two.\n\nBlack Friday pricing is live at $59.95 (was $120). HSA/FSA eligible for up to 30% savings.\n\nWear them for 30 days on your daily errands, family walks, or trips. If your feet are not comfortable and supported all day, return them within 30 days for a full refund.\n\nFree shipping & returns.",
+     "why": "Answers Hike's 49-day running swollen ankles ad by directly addressing plus-size VOC on foam packing flat and shoes feeling two sizes smaller by 3 PM."
+    }
+   ]
+  }
+ ]
+}
