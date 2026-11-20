@@ -293,7 +293,7 @@ def call_kie(prompt, images, args, size, kind):
         urls.append(body["data"]["downloadUrl"])
     if kie_ratio(size) == "3:4":
         prompt += ("\n\nThe image is 3:4: keep at least 4% empty margin above the top line of text and below the "
-                   "bottom element, and plain continuous background along the left and right edges.")
+                   "bottom element, keep text at least 6% in from the left and right edges, and fill the photo edge to edge.")
     r = requests.post(f"{KIE_API}/createTask", headers=auth, timeout=60, json={
         "model": "gpt-image-2-image-to-image",
         "input": {"prompt": prompt, "input_urls": urls, "aspect_ratio": kie_ratio(size),
@@ -360,18 +360,29 @@ def fit(img, size):
 
 
 def fit_pad(img, size):
-    """Kie returns 3:4 for our 4:5: cropping cut off headlines and offer bars at the top/bottom, so keep the
-    whole image and fill the thin side gaps (~3% each side) with a blurred, stretched copy of itself."""
-    from PIL import ImageFilter
+    """Kie returns 3:4 for our 4:5. Keep the whole image (trimming top/bottom clipped headlines and offer tags)
+    and fill the thin side gaps (~3% each) with a mirror of the image's own edge, so the ad is full-bleed with no
+    blurred strips (user 2026-11-20: "why aren't you making it full screen")."""
+    from PIL import ImageFilter, ImageOps
     tw, th = size
     w, h = img.size
     if w * th >= h * tw:          # not taller than the target: the normal crop is fine
         return fit(img, size)
     nw = round(w * th / h)
     fg = img.resize((nw, th), Image.LANCZOS)
-    bg = img.resize(size, Image.LANCZOS).filter(ImageFilter.GaussianBlur(40))
-    bg.paste(fg, ((tw - nw) // 2, 0))
-    return bg
+    pl = (tw - nw) // 2
+    pr = tw - nw - pl
+    out = Image.new("RGB", size)
+    out.paste(fg, (pl, 0))
+    if pl:
+        out.paste(ImageOps.mirror(fg.crop((0, 0, pl, th))), (0, 0))
+    if pr:
+        out.paste(ImageOps.mirror(fg.crop((nw - pr, 0, nw, th))), (pl + nw, 0))
+    seam = Image.new("L", size, 0)
+    for x in (pl, pl + nw):
+        seam.paste(255, (max(0, x - 3), 0, min(tw, x + 3), th))
+    out.paste(out.filter(ImageFilter.GaussianBlur(2)), (0, 0), seam)
+    return out
 
 
 def render_native(bdir, brand, concept, ref, ref_bytes, args, api_key):
