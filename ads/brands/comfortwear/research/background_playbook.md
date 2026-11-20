@@ -36,3 +36,24 @@ Every concept sets `"background"` (family number + one-line description) and `"b
 Per batch: family 12 (plain studio) on at most 15% of concepts; no family on more than 20%; at least 3 seasonal
 (families 3-4) from November to December; QA rejects a render whose background turned into a plain studio wall
 when the concept asked for a scene.
+
+## 2026-11-20 Atria MCP backgrounds (W48-fri)
+Source: Atria MCP `search_library_ads` (proven 60d+, rising since 2026-10-06, seasonal/holiday/post-it/UGC, Black Friday,
+Thanksgiving) + `search_ad_templates`; 238 candidates contact-sheeted (`research/sheets/atria_mcp_w48fri_*.jpg`); 34 picks saved
+as `reference/benchmarks/rv420_*.jpg`. New families:
+
+| # | Family | Atria evidence (2026-11-20) | Our use | Shoe colors that work |
+|---|---|---|---|---|
+| 13 | Printed paper on a real table (newspaper, shopping list, coupon) | Konjoun newspaper "Early Black Friday" 12d rising; Anabar checked grocery list 22d | BF offer as a newspaper headline next to coffee; Thanksgiving / packing list with our shoe ticked | any (light wood or kitchen table) |
+| 14 | Natural woven texture (burlap, linen, folded knit stack) | ShopRite Thanksgiving burlap 10d; We are Amma folded knit stack 78d | burlap Thanksgiving offer; stack of fall-colored knits behind the shoe (knit = our material) | black/purple, red, navy on light burlap; light shoes on the darker knit rows |
+| 16 | Boutique display riser / shop shelf | Bella Belts BF tiered riser 14d | all colorways on a 4-tier riser, BF ribbon bands | light and mid shoes on black tiers; no all-black |
+| 17 | Holographic / iridescent foil | Noobru Black Friday foil 17d | BF early-access / announcement with the shoe on foil | white, grey, black/purple (foil is light) |
+| 18 | Outdoor signage in a real place (yard sign) | Dr. Richard Calloway lawn sign 84d proven | a contrarian statement on a yard sign; the shoe on the porch step | any |
+| 19 | Clinical room (exam room, PT gym, nurses' station) | Carol Bennett podiatrist exam room 31d; Kirsty Phillips nurses' station 61d; David Parker PT clinic 11d | unnamed podiatrist character examining a foot (bunions); nurse station at 3am | black/white, white/blue, black/purple (nurse colors) |
+| 20 | Travel gear flatlay (open bag, suitcase) | Basic Jane weekender bag 10d rising | open carry-on with sweater, passport, our pair packed | any light/mid |
+| 21 | Dynamic splash / exploding materials | Q Collection golden splash 35d rising | the shoe center with knit fibers, cushioning and leaves flying around it | light/mid shoes on warm gold |
+
+Also refreshed with new sources: family 3 (My Derma Dream maple-leaf border 29d; Proper Wild harvest basket 8d rising),
+family 4 (Plant Therapy string lights on orange 22d; TULA snow drift 9d rising; Rumpl gift handoff 7d; MacKenzie-Childs
+plaid gift box UGC 9d), family 1 (Judy Callihan suburban street 73d; Earthing sunlit lawn 19d), family 11 (vintage oil
+painting, Tiffany Mccomb 62d; pop-art comic, Mane Strong 16d).
