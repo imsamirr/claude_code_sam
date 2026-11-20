@@ -25,6 +25,19 @@ Built 2026-11-19 from: `stefanbrain_kb/ad_account_digest.md`, `winning_briefs.md
 | 10 | **"2026's Favorite Shoes For [audience]" headline** | All 5 rising/current prospecting winners use it (Traveling, Disney Trips, Plus-Sized Traveling, Teachers, Weight Loss) | Use as the Meta headline for every new audience |
 | 11 | **Authority narrator (doctor/podiatrist character)** | COM55 senior "Expert - Doctor" **2.22 ROAS** (rising); "Podiatrist Rates Safest Shoes for Seniors" 1.89; COM628 1960s nurses + AI doctor "strong hook + hold" | Doctor/podiatrist character allowed (fictional), "doctor-recommended"/"podiatrist-recommended" approved |
 
+## Masterclass upgrades (Blue Sense Digital, added 2026-11-20 — see `inspiration/masterclass_bluesense_LoL1w-k9Mgg/takeaways.md`)
+Layer these on top of the winning patterns above; where they conflict, our account data and Samir's calls win.
+1. **Survey hook → accommodation bridge.** Line 2 after "We asked 500…" must land on what she *changed in her life* to cope (holds the bags on the bench, sits in the car dreading the walk to the door, stopped saying yes to the zoo), not a generic symptom or an instant product pitch.
+2. **Promise before mechanism, every time.** Say what changes in her day, then why (arch support, rocker, stretch-knit).
+3. **Competitor teardown = named shoe + category mechanism.** Keep the names and prices (Samir's call; Kyro 369/293 proof) but make each flaw an engineering truth about the category (EVA foam compresses under body weight, tapered toe box, tall stack rolls on uneven ground), so the argument holds even if a name is cut.
+4. **"Didn't hurt" stays as the payoff** (proven), but earn it with a specific, believable morning/shift moment, and test one smaller-promise variant per batch ("first steps out of bed without the stab in my heel").
+5. **Price: use all four frames.** Anchor (Hoka $165, orthotics $300, podiatrist visit), price the problem ("you've already spent more than this on insoles that didn't work"), per-day cost, and effort as price (slip-on, no laces, no inserts to swap).
+6. **Make the 30-day guarantee specific and a little uncomfortable**, without changing the terms: "Wear them for your next three 12-hour shifts / your whole trip. If your heels still throb, send them back within 30 days for a full refund." The wording "30-day money-back guarantee" must still appear.
+7. **Shoes are a visible-edge product → demonstration is the load-bearing proof.** Every brief needs on-camera demos: thumb into flattened foam vs. ours, toe-box stretch, rocker roll, hands-free slip-on.
+8. **Story with stakes, first person past tense** (Confession / Failed-Solutions Journey / Witness: "my daughter noticed before I did").
+9. **Close on identity**, not just the offer ("The women still walking Disney at 65 aren't lucky. They stopped wearing shoes made for 25-year-old runners.").
+10. **Read-aloud test:** Grade 5–7, contractions, one idea per sentence, long-long-short rhythm.
+
 ## What killed concepts (avoid)
 - Generic rankings/tier lists with no ComfortWear payoff ("generic", COM563); "I tried 10 shoe brands" UGC: hook 33%, **hold 7%** (COM555).
 - Mash-ups with low hold (COM573), yapper monologues about Hokas/Skechers with no story (COM593 low hold).
