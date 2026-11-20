@@ -1624,5 +1624,49 @@
     "digest": "research/customer_survey_digest.md (full analysis 2026-11-18)",
     "latest": "research/customer_survey_latest.md (python ads/survey_digest.py)",
     "avatar": "research/avatar_personas.md (StefanBrain avatar + persona research built on the survey)"
+  },
+  "ad_psychology": {
+    "source": "Derick Carneiro thread (user rule 2026-11-20); method in .claude/skills/static-ads/ad_psychology.md",
+    "premises": {
+      "brand": "ComfortWear",
+      "product": "Ortho Stretch Cushion Shoe",
+      "components": [
+        "stretch-knit upper",
+        "wide toe box",
+        "built-in arch support",
+        "cushioned rocker sole",
+        "elastic no-tie bungee laces",
+        "slip-resistant grip"
+      ],
+      "price": "$59.95 (was $120)",
+      "guarantee": "30-day money-back guarantee",
+      "proof": [
+        "500,000+ customers",
+        "doctor-recommended",
+        "podiatrist-recommended",
+        "HSA/FSA eligible"
+      ],
+      "gain_now": "current offer from program/approved_claims (Black Friday 2026: 60% OFF SITEWIDE or buy-2 gifts; LEAKED10 extra 10%; free shipping & returns)",
+      "lose_later": "real offer end date only; no stock/overstock stories unless confirmed by the user"
+    },
+    "mechanism": {
+      "point_of_contact": "It's my shoes / the hard floors / I'm just getting older (confirm shoes, reframe age)",
+      "problem": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+      "function": "She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+      "solution": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+      "conditions": "Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+      "rules": "Mechanism is about shoe construction, never healing the body: no cure/treatment, no instant relief, no extra-wide, no invented tech names."
+    },
+    "anchoring": [
+      "$59.95 vs a closet of $160-$220 pairs",
+      "about 38 cents per shift over a year of 12s",
+      "emotional: missed shifts, sitting out Disney day 2, a trip on a bench"
+    ],
+    "risk_reversal": "30 days is enough to wear them through 10+ shifts or a whole trip; never promise 'easy returns' (return-trap fear in VOC)",
+    "batch_risk_mix": {
+      "conservative": 0.25,
+      "moderate": 0.55,
+      "aggressive": 0.2
+    }
   }
 }

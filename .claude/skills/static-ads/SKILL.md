@@ -387,6 +387,48 @@ formats. `"group": "iteration"`.
 - **GIF candidates**: 3–8 `gif` blocks where motion adds meaning. `"build": true`: each edit removes one
   element; the GIF plays in reverse and holds on the full static. 2–3 edits.
 
+## 2b. Ad psychology brief (user rule 2026-11-20: Derick Carneiro's method; full read-through in `ad_psychology.md`)
+
+A cold-traffic ad does not sell the product. It makes 4 sales first: **content** (worth my attention?),
+**hope** (why everything failed + the mechanism that finally works), **value** (this product is the only place
+to get that mechanism, worth more than its price) and **impulse** (safer and better to buy now). Each sale is
+made with *reasons the avatar already wants to hear*; our job is to find WHAT she wants to hear, HOW (format)
+and from WHO (messenger), not to invent clever lines. Process every batch: **Premises → Target → Brief → Writing**.
+
+1. **Premises**: brand.json `ad_psychology.premises` (true facts only; the current offer and its real end date).
+2. **Target**: one market per ad → a segment that already works for us or competitors (Atria, our winners)
+   → the avatar from `research/avatar_personas.md`. Don't redo psychographics; spend research time on
+   **behavior** (news, trends, search questions, what she watches now), which feeds topic/format/hook.
+3. **Brief**: every concept carries `dr_brief`, filled with sourced answers (name the winner, VOC quote,
+   competitor ad or trend behind each):
+   ```json
+   "dr_brief": {"who": "nurse coworker", "topic": "...", "format": "...", "concept": "logline: characters + narrative + topic",
+     "copy_hook_structure": "proven structure, e.g. 'Your X weren't built for Y'", "visual_hook": "...",
+     "identification": "...", "point_of_contact": "...", "problem_mechanism": "...", "function_mechanism": "...",
+     "solution_mechanism": "...", "conditions": "...", "usp": "...", "features": {"arch support + rocker sole": "odds"},
+     "anchoring": "...", "risk_reversal": "...", "gain_now": "...", "lose_later": "..."}
+   ```
+   Start from brand.json `ad_psychology.mechanism` and adapt it to the segment (the function mechanism should
+   say why the fix *this segment* tried can't work for *them*: insoles for nurses, Hokas on cobblestones,
+   "comfortable sneakers" at Disney hour 8). Features always name their lever (odds / dream / effort / time);
+   no lever, not in the ad. No invented tech names, no cure claims, honest timelines.
+4. **Writing**: StefanBrain (§2a) gets the reference (format_ref/based_on) for order and rhythm and the
+   `dr_brief` for WHAT to say. `ads/stefanbrain.py copy` sends `dr_brief`, `risk` and `bets` automatically.
+
+**What the static carries:** the image makes the content sale (format, topic, concept, visual hook, copy hook)
+plus ONE hope beat (usually point of contact or problem mechanism); offer ads add the impulse beat. The primary
+text carries identification → mechanisms → conditions → USP → features → anchor → risk reversal → gain → lose.
+A static that is only product + discount has skipped the content and hope sales (the "basic" look).
+`funnel: "tof"` concepts open indirect (never on price/product); `funnel: "offer"` concepts may lead with the offer.
+
+**Risk mix (every batch):** tag each concept `"risk": "conservative|moderate|aggressive"` and `"bets": [...]`
+(bets = unvalidated elements: new format, concept, topic, mechanism or segment). Aim ~25% conservative
+(0 bets: proven format/concept/hook, fresh visual), ~55% moderate (1 bet, usually concept or format look),
+~20% aggressive (2+ bets). Market and segment are almost never the bet. Verdicts are logged per bet.
+
+**QA adds:** for each ad, which of the 4 sales does the image make, and is the hope beat there? Does the
+primary text cover the rest in order? Does every feature name a lever? Is every "lose later" reason true?
+
 ## 2a. Copy by StefanBrain (user rule 2026-11-18: StefanBrain writes the copy for every batch, both brands)
 
 StefanBrain (Stefan Georgi's copywriting AI) writes every concept's words: the on-image headline and lines,

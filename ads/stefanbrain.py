@@ -179,7 +179,8 @@ COPY_SCHEMA = {
 }
 
 SLOT_KEYS = ("id", "group", "persona", "appliance", "colorway", "lang", "format", "funnel", "offer", "rival",
-             "angle_gap", "angle", "based_on", "benchmark", "background", "copy_slots", "copy_notes")
+             "angle_gap", "angle", "based_on", "benchmark", "background", "copy_slots", "copy_notes",
+             "dr_brief", "risk", "bets")
 
 
 def brief(cfg, folder, concepts):
@@ -209,6 +210,12 @@ def brief(cfg, folder, concepts):
         "",
         "Brand facts and rules (hard limits, not style):",
         json.dumps(rules, ensure_ascii=False, indent=1),
+        "",
+        "Where a slot has dr_brief, it lists the facts and reasons this avatar wants to hear for each of the"
+        " 4 sales (content, hope, value, impulse): topic, who speaks, point of contact, problem / function /"
+        " solution mechanism, conditions, USP, features and the lever each one pulls, anchoring, risk reversal,"
+        " gain now, lose later. Say those things; the words, order and rhythm are yours. The image carries"
+        " the content sale plus one hope beat; primary_text carries the rest in order.",
         "",
         "Concept slots (id, audience, layout and source are fixed; the words are yours):",
     ]
