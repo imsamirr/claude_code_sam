@@ -24,9 +24,18 @@ so say so when it happens. Use existing research files before new calls.
    Buckets overlap: compare them with each other, never sum them.
 3. `research/analysis.md` and `research/data/*`: customer language, the survey, the angle databank,
    and what killed past concepts.
-4. Build a **stack table** with columns *ad (full name) | dimensions stacked | spend | ROAS*. Use it to
+4. **Voice of customer (seasonal or new angles):**
+   - **Reddit:** reddit.com blocks cloud fetches. Use `scripts/reddit_pull.py <out.json> <queries.txt>`,
+     which goes through the public Pullpush archive. Wait between runs: it rate-limits (429) after
+     about 40 searches. Filter to the months you care about, and to posts that mention feet or shoes
+     together with pain.
+   - **YouTube:** use `scripts/yt.py <out.json> <queries.txt>` for titles and view counts. View counts
+     show demand.
+   - **Amazon:** blocks automated access. Say so; don't guess at its reviews.
+   - Quote real posts with links. Never present them as the brand's reviews.
+5. Build a **stack table** with columns *ad (full name) | dimensions stacked | spend | ROAS*. Use it to
    confirm or update the stacking rule. Keep the exceptions: stacks that lost, and why.
-5. Note concepts already in test so you don't duplicate them. Critique them in the same RMBC terms.
+6. Note concepts already in test so you don't duplicate them. Critique them in the same RMBC terms.
 
 ## 2. Stack (the big-swing rule)
 
