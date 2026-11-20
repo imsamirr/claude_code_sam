@@ -146,3 +146,24 @@ Guardrails kept: no logos or names on images, compare features/offers only, no c
 | Zima "Never brush your retainer again" (24.5%) | "Think brushing gets your aligners clean? Think again." + 99.9% + visible film | T47_17 |
 | Zima "POV ... GRWM routine" story | same native POV with the brown-water debris proof | T47_19 |
 Guardrails kept: no logos or names on images, compare features/offers only, no counts or invented scores; we never say their products fail.
+
+## 2026-11-20 (Friday W48 read: 154 ads; Zima 99 = 51 video + 48 image (39 active image); Sonic 55 = 46 image + 9 video, all active)
+**Since Nov 17:** 70 new ads (mostly Zima Black Friday videos). Sheets: `sheets/core_competitors_2026-11-20_1-2.jpg` (both read) plus numbered grids of every active static; full copy of every new/active ad read from `data/core_competitors_2026-11-20.csv`.
+- **Zima: "Only Sale of the Year" Black Friday takeover.** ~30 new short videos (0-4d) under "Only Sale of the Year. Don't miss out" / "Don't miss out! Sale ends soon" / "Trusted by 20,000+ Dentists": hooks "Cloudy retainer = plaque biofilm 🤢", "Dentist here, and yes, I wear them too", UCLA dental student, "whilst stock lasts". New statics: dark navy-to-blue "SAVE OVER $100 AUD when you buy the Dental Pod Pro" with the **boosting-tablet box next to the pod** (3d, x8 variants; copy "paired with boosting tablets for the most powerful clean for less"), lavender "WELCOME TO NEXT-LEVEL ALIGNER CARE!" UV case with arrow callouts (1d), DE "3x Ausverkauft / Der Dental Pod ist wieder da" with curved-arrow benefit labels (0d), "An Exclusive Offer is calling... The Complete Retainer Care Bundle, Save 10%" (incoming-call UI reused), Boots retail tiles. Still running: "Restore your retainer to new" woman holding before/after retainers (37d, top 1.3%: copy "✔️ Removes plaque ✔️ Lifts yellow stains ✔️ Destroys bad smells"), "$60 value, on us" (27d), clean-girl starter pack (50d), "Recommended by 14,000 dentists" (5d). Pod Go (cordless) pushed. Retainer-first; no dentures in statics.
+- **Sonic: the same discount machine + Odyssey.** "Limited Time Sale" hand-held tiles (155d, still their top image at top 0.3%), "Up to 30% / 35% Off" evergreen, "BLACK FRIDAY SALE / UP TO 40% OFF" now as an underwater splash series (7-18d) and a dark tile with diagonal Black Friday tape ribbons (0d), "Sonic Pro Bundle — Up to 30% Off / Your retainers deserve this" (0d), "SAVE UP TO 25%" Odyssey split with hands holding an aligner (0d), press-logo bar trio (95d). Pod held in a palm in most statics. No customer language, no proof, no dirty appliance.
+- **What changed:** Zima moved its whole account to a dated "only sale of the year" with scarcity and tablets in the bundle; it now says "plaque biofilm" (our proof territory) without showing any. Sonic added BF splash + tape layouts and kept "up to" everywhere. Neither shows debris, brown water or a stained denture.
+### Answers written this run (rival field on 11 of 40 = 27.5%)
+| Their angle | Our answer (approved claims only) | Concept |
+|---|---|---|
+| Zima BF bundle "paired with boosting tablets" | cost anchor: one cleaner, tap water only, no refills | W48_09 |
+| Zima dentist counts (14,000 / 20,000+) | 90-day 6-of-7 lab test + "Dentist-recommended" | W48_16 |
+| Zima "Trusted by 20,000+ Dentists" BF | Dentist-recommended + Clinicians' Choice + flat 40% | W48_19 |
+| Sonic "BLACK FRIDAY / UP TO 40% OFF" splash | flat 40% + free case + bag + 120 days | W48_20 |
+| Zima "Removes plaque / lifts yellow / destroys smells" (no proof) | 99.9% claim + prevention wording + visible film | W48_25 |
+| Zima "SAVE OVER $100" + boosting tablets | 40% off, tap water only, no tablets ever | W48_27 |
+| Zima "next-level aligner care" arrows | 99.9% / 5 minutes / tap water arrows | W48_32 |
+| Zima "Cloudy retainer = plaque biofilm" | the film shown + 99.9% + 40% off | W48_33 |
+| Sonic "SAVE UP TO 25%" split | flat 40% + gifts | W48_34 |
+| Zima "Restore your retainer to new" | "clear again" (no "like new" promise) | W48_36 |
+| Sonic "Up to 40% / 30% off, your retainers deserve this" tape tile | flat 40% + free case + bag | W48_38 |
+Guardrails kept: no logos or names on images, compare features/offers only, no counts or invented scores; we never say their products fail.

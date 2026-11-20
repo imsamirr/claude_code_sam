@@ -1,0 +1,1652 @@
+{
+ "week": "2026-W48-fri",
+ "batch": "netnew",
+ "brand": "dentalpulse",
+ "concepts": [
+  {
+   "id": "W48_01_den_tablet_chemical_caption",
+   "group": "net_new",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "chemical_restricted_street",
+   "benchmark": "rv_w48_chemical_restricted_street",
+   "format_ref": true,
+   "angle": "Exposé: what is actually in the denture tablets people soak in every night",
+   "based_on": "Notion DEN253 (FDA/study tablet exposé, 'pool shock... bleach') + DEN249 'There was always a better way, it just wasn't in the tablet aisle'. UNVERIFIED: FDA/ingredient statements stay out of the image unless StefanBrain sources them from project files; keep factual (persulfate = bleaching agent). Layout reference: Women into Wellness 'New York took action — will the U.S. follow?' (inspiration pull 2026-11-20, denture cleaner query, 17d, top 0.6%).",
+   "copy_slots": [
+    "caption headline (2 lines, mark which words are highlighted)",
+    "short kicker line"
+   ],
+   "reference_blocks": [
+    "documentary photo",
+    "inset proof circle",
+    "caption headline with highlighted words",
+    "kicker CTA line"
+   ],
+   "risk": "aggressive",
+   "bets": [
+    "format",
+    "topic"
+   ],
+   "ref_layout": "documentary photo filling the top 70%, small round inset photo top-left with a yellow ring, then a black caption block with a two-line headline where key words are yellow and the rest white, and a small white kicker line under it",
+   "dr_brief": {
+    "who": "denture wearer",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)",
+    "topic": "denture tablets ingredients exposé (DEN253/DEN265)"
+   }
+  },
+  {
+   "id": "W48_02_den_husband_noticed_review",
+   "group": "net_new",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "splendid_review_quote_pill",
+   "benchmark": "rv_w48_splendid_review_quote_pill",
+   "format_ref": true,
+   "angle": "Bad-breath shame story: someone she loves noticed before she did",
+   "based_on": "Notion DEN255 'My husband noticed my bad breath before I did. It wasn't my mouth. It was my dentures.' + 'First cycle, the water turned brown.' Layout reference: Splendid Shopper with Arey 'Five Months. One Bottle. Every Night.' (inspiration pull 2026-11-20, night guard query, 27d, top 2.5%).",
+   "copy_slots": [
+    "small pill label (2-3 words)",
+    "first-person quote (<=14 words)"
+   ],
+   "reference_blocks": [
+    "candid portrait",
+    "review pill",
+    "first-person quote"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "candid portrait photo of a woman filling the frame, at the bottom a small yellow-green pill label above a large white rounded quote box with a short first-person quote in dark text",
+   "dr_brief": {
+    "who": "denture wearer",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)",
+    "topic": "denture odor noticed by a spouse (DEN255)"
+   }
+  },
+  {
+   "id": "W48_03_den_before_after_arrow_labels",
+   "group": "net_new",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "cosrx_before_after_arrows",
+   "benchmark": "rv_w48_cosrx_before_after_arrows",
+   "format_ref": true,
+   "angle": "Before/after macro of the same denture with arrow labels naming the yellow film, stains and food",
+   "based_on": "Notion DEN264 'If your dentures are starting to look more yellow than white' + customer 'as white as when I first got them'. Layout reference: COSRX Global '🔗 Shop now at ULTA' (inspiration pull 2026-11-20, oral care query, 7d, top 0.1%).",
+   "copy_slots": [
+    "BEFORE label",
+    "AFTER label",
+    "3 short before arrow labels (1-2 words)",
+    "3 short after arrow labels (1-2 words)",
+    "headline",
+    "sub pill (<=6 words)"
+   ],
+   "reference_blocks": [
+    "before/after macro with arrow labels",
+    "rating line",
+    "benefit headline",
+    "sub pill",
+    "CTA line"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "top half: BEFORE / AFTER macro split with three small arrow labels on each side and a pink arrow between; bottom half: product shot left, star rating line, bold headline, coloured sub pill and an underlined SHOP NOW line",
+   "dr_brief": {
+    "who": "denture wearer",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)",
+    "topic": "yellowing dentures (DEN264)"
+   },
+   "_gif": true
+  },
+  {
+   "id": "W48_04_den_nine_stages_yellow",
+   "group": "net_new",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "whitman_nine_stages",
+   "benchmark": "rv_w48_whitman_nine_stages",
+   "format_ref": true,
+   "angle": "Nine stages of a denture going from white to deep yellow-brown with film: which stage is yours?",
+   "based_on": "Notion DEN275 'They weren't this color when you got them' (new, blank brief) + DEN199/201 build-up statics. Layout reference: Gary Whitman 'I wish I knew this sooner' (inspiration pull 2026-11-20, dental probiotic query, 23d, top 6.5%).",
+   "copy_slots": [
+    "headline above the grid (short)",
+    "top scale label",
+    "bottom scale label"
+   ],
+   "reference_blocks": [
+    "headline",
+    "mild label",
+    "3x3 stage grid",
+    "severe label"
+   ],
+   "risk": "aggressive",
+   "bets": [
+    "format",
+    "concept"
+   ],
+   "ref_layout": "clean white page with a 3x3 grid of square macro photos, each labelled STAGE 1 to STAGE 9 under the image, a thin MILD label at the top and SEVERE at the bottom, no other text",
+   "dr_brief": {
+    "who": "denture wearer",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)",
+    "topic": "slow yellowing nobody notices (DEN275)"
+   },
+   "_gif": true
+  },
+  {
+   "id": "W48_05_den_brush_cant_reach_flashlight",
+   "group": "net_new",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "dct_reline_lab_photo",
+   "benchmark": "rv_w48_dct_reline_lab_photo",
+   "format_ref": true,
+   "angle": "What the brush can't reach: a flashlight shows the film in the grooves",
+   "based_on": "Notion DEN262/DEN276 'What The Brush Can't Reach' (static brief, blank) + feedback 'still see food on it'. Layout reference: Denture Care Tips 'What Was Growing In My Reline' (inspiration pull 2026-11-20, dentures query, 13d).",
+   "copy_slots": [
+    "one short caption line on the photo"
+   ],
+   "reference_blocks": [
+    "raw macro proof photo",
+    "one caption"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "raw close-up photo at a work surface under a single hard light, a denture on a pink mat with a small light shining into it, tools around, no designed text in the reference",
+   "dr_brief": {
+    "who": "denture wearer",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)",
+    "topic": "grooves a toothbrush can't reach (DEN262)"
+   }
+  },
+  {
+   "id": "W48_06_den_three_donts_mirror_sign",
+   "group": "net_new",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "drdent_avoid_sign_mirror",
+   "benchmark": "rv_w48_drdent_avoid_sign_mirror",
+   "format_ref": true,
+   "angle": "Dentist's three don'ts: soap, tablets, vinegar/bleach",
+   "based_on": "Notion DEN269 'don't clean your dentures with soap and water, don't soak them with dental tablets, and don't try vinegar or bleach' + 'Are You Making This Denture Cleaning Mistake?' Layout reference: Drdent.co '30 Seconds To Stop Hiding Your Smile 💜' (inspiration pull 2026-11-20, mouthwash query, 10d, top 9.3%).",
+   "copy_slots": [
+    "handwritten sign text (<=6 words)",
+    "headline line printed on the image (optional, <=8 words)"
+   ],
+   "reference_blocks": [
+    "bathroom scene",
+    "handwritten mirror sign",
+    "optional headline"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "real bathroom photo: a stern older man at the sink, a hand-drawn paper sign taped to the mirror with a big red X over a drawn object and handwritten words, toiletries on the sink",
+   "dr_brief": {
+    "who": "denture wearer",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)",
+    "topic": "cleaning mistakes (DEN269)"
+   }
+  },
+  {
+   "id": "W48_07_den_founder_letter",
+   "group": "net_new",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "cleardose_founder_letter",
+   "benchmark": "rv_w48_cleardose_founder_letter",
+   "format_ref": true,
+   "angle": "Founder letter: why we built a clinical ultrasonic cleaner for the bathroom counter",
+   "based_on": "Notion DEN222 founder story + DEN234 'If dental professionals have had access to ultrasonic cleaning for decades... why shouldn't everyone else?' Flag: $40,000/Germany details unverified, keep out unless sourced. Layout reference: ClearDose 'If You Have Diarrhea, You'll Want To Read This 👆' (inspiration pull 2026-11-20, gut health query, 24d, top 3.3%).",
+   "copy_slots": [
+    "small top line",
+    "red title (2-4 words)",
+    "letter body (3-4 short sentences, <=45 words)",
+    "bold closing line"
+   ],
+   "reference_blocks": [
+    "brand line",
+    "letter title",
+    "founder letter body",
+    "closing line",
+    "product row"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "black background, small spaced brand line on top, a red uppercase 'letter' title, a short centered white letter of 3-4 sentences with bold words, a bold closing line, then a product row at the bottom",
+   "dr_brief": {
+    "who": "denture wearer",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)",
+    "topic": "dental offices have used ultrasonic for decades (DEN234)"
+   }
+  },
+  {
+   "id": "W48_08_den_daughter_text_tent_card",
+   "group": "net_new",
+   "persona": "denture_caregiver",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "myova_phone_tent_card",
+   "benchmark": "rv_w48_myova_phone_tent_card",
+   "format_ref": true,
+   "angle": "Daughter checks on mom's dentures: 'Not tablet clean, actually clean'",
+   "based_on": "Notion DEN236 daughter story 'Here's why denture tablets are making your mom's health worse' / 'Not tablet clean, actually clean.' / 'The best gift I ever gave my mom wasn't expensive.' Layout reference: MyOva 'Every ingredient. Every dose. Take it to your GP.' (inspiration pull 2026-11-20, blood sugar query, 9d, top 3.7%).",
+   "copy_slots": [
+    "two-line headline",
+    "2 short text-message bubbles on the phone",
+    "tent card line (<=5 words)"
+   ],
+   "reference_blocks": [
+    "headline",
+    "phone message thread",
+    "product on counter",
+    "tent card note"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "warm photo: a hand holding a phone showing a message thread on the left, the products standing on a counter on the right, a small folded tent card in front with a short handwritten-style line, a two-line serif headline at the top with the second line in a colour",
+   "copy_notes": "Headline font must be Inter, not serif.",
+   "dr_brief": {
+    "who": "denture caregiver",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)",
+    "topic": "adult child worried about a parent (DEN236)"
+   }
+  },
+  {
+   "id": "W48_09_den_paying_tablets_vs_once",
+   "group": "winning",
+   "persona": "switcher",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "denture_full",
+   "format_name": "folqs_bf_paying_diagonal",
+   "benchmark": "rv_w48_folqs_bf_paying_diagonal",
+   "format_ref": true,
+   "angle": "Cost anchor: a lifetime of tablet boxes vs one ultrasonic cleaner with no refills",
+   "based_on": "Notion DEN192 '$200 on tablets' + feedback 'on a fixed budget? compare against tablet cost over 12 months' (45% came from tablets). Rival: Zima/Sonic bundle tablets ('paired with boosting tablets') -> tap water only, no refills. Layout reference: Folqs '50% Off Your First Month' (inspiration pull 2026-11-20, gum health query, 7d, top 0.5%).",
+   "copy_slots": [
+    "top word (1-2 words)",
+    "crossed-out line",
+    "price line with $99.95",
+    "2 short check lines"
+   ],
+   "reference_blocks": [
+    "sale word",
+    "old cost crossed out",
+    "new price",
+    "check lines"
+   ],
+   "risk": "conservative",
+   "bets": [],
+   "ref_layout": "dark teal gradient background, a big diagonal sale word at the top, then two stacked diagonal price lines (first crossed out in white, second in bright green), two small check lines, product pack on the right",
+   "offer": "40% OFF sitewide + FREE shipping + FREE dental case + FREE travel bag with your order + 120-day money-back guarantee; Pod $99.95",
+   "rival": "Zima 'paired with boosting tablets' BF bundle -> tap water only, no refills",
+   "copy_notes": "Strike-through only at store compare-at ($180 Pod Denture Bundle); don't invent a tablet yearly cost unless StefanBrain sources it.",
+   "dr_brief": {
+    "who": "switcher",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)"
+   }
+  },
+  {
+   "id": "W48_10_den_best_gift_bucket",
+   "group": "net_new",
+   "persona": "denture_caregiver",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "denture_full",
+   "format_name": "moth_taster_pack",
+   "benchmark": "rv_w48_moth_taster_pack",
+   "format_ref": true,
+   "angle": "Gift for a denture-wearing parent: 40% off + free gifts",
+   "based_on": "Notion DEN268 'The Best Gift For Denture Wearers' + free gifts 'value of up to $50' (use the store values only if stated). Layout reference: MOTH: 'Made with premium spirits' (inspiration pull 2026-11-20, night guard query, 41d, top 2.9%).",
+   "copy_slots": [
+    "2-line uppercase headline",
+    "2-line bottom tagline"
+   ],
+   "reference_blocks": [
+    "headline band",
+    "gift photo",
+    "tagline"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "big two-line uppercase headline in white on a solid black band at the top, below a full-bleed warm photo of the product in a metal bucket on an orange velvet surface, a two-line uppercase tagline at the bottom left",
+   "offer": "40% OFF sitewide + FREE shipping + FREE dental case + FREE travel bag with your order + 120-day money-back guarantee; Pod $99.95",
+   "dr_brief": {
+    "who": "denture caregiver",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)",
+    "topic": "holiday gift for a parent who wears dentures (DEN268)"
+   }
+  },
+  {
+   "id": "W48_11_den_care_home_story_dark",
+   "group": "net_new",
+   "persona": "denture_caregiver",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "hismile_dark_highlight_bars",
+   "benchmark": "rv_w48_hismile_dark_highlight_bars",
+   "format_ref": true,
+   "angle": "Story: the smell when she hugged her mum in the care home",
+   "based_on": "Notion DEN175 long-form story static ('when i hugged her the smell honestly broke me') + commentary 'Not many people realise...' Layout reference: Hismile 'The Proven Ingredient for White Teeth 😁' (inspiration pull 2026-11-20, teeth whitening query, 7d, top 1.7%).",
+   "copy_slots": [
+    "headline (<=12 words) + which phrase is highlighted",
+    "body (2-3 sentences, <=40 words) + 2 highlighted phrases"
+   ],
+   "reference_blocks": [
+    "headline with highlight",
+    "story body with highlights",
+    "product"
+   ],
+   "risk": "aggressive",
+   "bets": [
+    "format",
+    "concept"
+   ],
+   "ref_layout": "dark navy-purple background, big bold white question headline top-left with one phrase highlighted in a light colour box, a paragraph of body text below with two phrases highlighted in lilac boxes, the product box and tube on the right, tiny disclaimer at the bottom",
+   "dr_brief": {
+    "who": "denture caregiver",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)",
+    "topic": "elderly parent's denture odor (DEN175)"
+   }
+  },
+  {
+   "id": "W48_12_den_tablets_damaging_split",
+   "group": "net_new",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "deconstruct_split_face_question",
+   "benchmark": "rv_w48_deconstruct_split_face_question",
+   "format_ref": true,
+   "angle": "Question: are denture tablets quietly damaging your dentures?",
+   "based_on": "Notion DEN173 'Are Denture Tablets Quietly Damaging Your Dentures?' + feedback 'tablets made it brittle'. Layout reference: Deconstruct Skincare 'Choosing serums for concerns, not skin type?' (inspiration pull 2026-11-20, oral care query, 13d, top 0.7%).",
+   "copy_slots": [
+    "2-line question headline",
+    "left label (2-4 words)",
+    "right label (2-4 words)",
+    "bottom line (<=10 words)"
+   ],
+   "reference_blocks": [
+    "question headline",
+    "split proof photos with labels",
+    "product center",
+    "intro line"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "light background, two-line question headline at the top (second line in a coloured accent), below two close-up photos split down the middle with tiny labels on each side, the product bottle standing in the center over the split, a two-line intro line at the bottom",
+   "dr_brief": {
+    "who": "denture wearer",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)",
+    "topic": "tablet damage (DEN173)"
+   }
+  },
+  {
+   "id": "W48_13_partial_bf_repeat_type",
+   "group": "net_new",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "denture_partial",
+   "format_name": "zyara_bf_repeat_type",
+   "benchmark": "rv_w48_zyara_bf_repeat_type",
+   "format_ref": true,
+   "angle": "Partial denture wearers: 40% off before the holidays",
+   "based_on": "Feedback: partials 'food stuck in the tight spots a brush can't reach' + current offer. Layout reference: Anna Janeston 'Sale Ends Soon' (inspiration pull 2026-11-20, teeth whitening query, 7d, top 1.6%).",
+   "copy_slots": [
+    "kicker (<=4 words)",
+    "sale headline",
+    "sub line",
+    "bottom banner line",
+    "repeated background word (1-2 words)"
+   ],
+   "reference_blocks": [
+    "kicker",
+    "sale headline",
+    "sub box",
+    "product",
+    "rating",
+    "bottom banner"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "black background filled with huge repeated dark-grey outline words, a white handwritten-style kicker, a bold blue sale headline with a white sub box, the product standing diagonally, a gold-star rating line bottom-left and a blue bottom banner with white text",
+   "offer": "40% OFF sitewide + FREE shipping + FREE dental case + FREE travel bag with your order + 120-day money-back guarantee; Pod $99.95",
+   "copy_notes": "Star rating = plain gold stars, 'Rated 4.8/5' allowed, no review counts, no Trustpilot.",
+   "dr_brief": {
+    "who": "denture wearer",
+    "avatar": "adult 55-75 with a partial denture (metal clasps) 3-15 years",
+    "angle_habit": "brushing the clasps, soaking overnight",
+    "point_of_contact": "food packs around the clasps and gumline; smell",
+    "problem_mechanism": "debris and bacteria hide under the clasps and in the acrylic grooves",
+    "function_mechanism": "a brush can't get under wire clasps",
+    "solution_mechanism": "ultrasonic cavitation reaches under clasps in 5 minutes, tap water only",
+    "risk_reversal": "120-day money-back guarantee"
+   }
+  },
+  {
+   "id": "W48_14_den_its_not_a_soak",
+   "group": "net_new",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "mendable_not_a_heat_pack",
+   "benchmark": "rv_w48_mendable_not_a_heat_pack",
+   "format_ref": true,
+   "angle": "Statement: 'It's not a soak.' Ultrasonic vs tablets",
+   "based_on": "Notion DEN226 'You soak your teeth in pool chemicals and laundry bleach. Rinse. And put them back in your mouth.' + DEN81 mechanism. UNVERIFIED chemistry stays off the image. Layout reference: Mendable 'It's Not A Heat Pack' (inspiration pull 2026-11-20, teeth grinding query, 8d, top 5.9%).",
+   "copy_slots": [
+    "headline (<=5 words)",
+    "body (3 short sentences, <=35 words)",
+    "pill (<=4 words, no price)"
+   ],
+   "reference_blocks": [
+    "statement headline",
+    "mechanism paragraph",
+    "product",
+    "pill"
+   ],
+   "risk": "aggressive",
+   "bets": [
+    "format",
+    "concept"
+   ],
+   "ref_layout": "dark red-black background with a glow, huge red condensed uppercase headline 'IT'S NOT A ...' at the top, a short white paragraph (3 short sentences), product big on the right, a small red pill bottom-right",
+   "dr_brief": {
+    "who": "denture wearer",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)",
+    "topic": "tablets vs ultrasonic (DEN226)"
+   }
+  },
+  {
+   "id": "W48_15_den_three_methods_strip",
+   "group": "winning",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "bounce_three_photo_strip",
+   "benchmark": "rv_w48_bounce_three_photo_strip",
+   "format_ref": true,
+   "angle": "Three methods side by side: brushed, tablet-soaked, ultrasonic",
+   "based_on": "Winner: DEN_IMG_COMPARISON 'Top 7 Ultrasonic Cleaners For Dentures' ($14.7K, ROAS 1.89) + VID_DEN32 '6 of 7 pods leave live bacteria' ($11.8K, 2.07). Layout reference: Bounce Hair '30% OFF: The Gel Cream That Never Crunches' (inspiration pull 2026-11-20, water flosser query, 23d, top 1.5%).",
+   "copy_slots": [
+    "2-line headline",
+    "3 photo labels (2-3 words each)",
+    "seal text (<=5 words)"
+   ],
+   "reference_blocks": [
+    "headline",
+    "3 labelled method photos",
+    "seal"
+   ],
+   "risk": "conservative",
+   "bets": [],
+   "ref_layout": "white background, two-line bold navy uppercase headline, below three tall photos side by side each with a small dark label tag at the top-left, a round seal bottom-left overlapping the strip, the product bottom-right",
+   "dr_brief": {
+    "who": "denture wearer",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)"
+   },
+   "_gif": true
+  },
+  {
+   "id": "W48_16_den_reminder_poster",
+   "group": "winning",
+   "persona": "switcher",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "stride_reminder_poster",
+   "benchmark": "rv_w48_stride_reminder_poster",
+   "format_ref": true,
+   "angle": "Read this before you buy any ultrasonic cleaner: the 6-of-7 lab test",
+   "based_on": "Winner: IMG_DEN64 'read this before you consider ultrasonic cleaners' ($10.3K lifetime; current $3.7K, ROAS 2.29). Rival: Zima '20,000+ dentists' counts -> our lab test + 'Dentist-recommended'. Layout reference: StrideOne '53% Off DNA & Methylation Testing' (inspiration pull 2026-11-20, gum health query, 8d, top 1.1%).",
+   "copy_slots": [
+    "poster headline (3 short lines)",
+    "small paragraph (<=25 words)",
+    "pill button (2-3 words)"
+   ],
+   "reference_blocks": [
+    "headline",
+    "proof paragraph",
+    "button",
+    "product panel"
+   ],
+   "risk": "conservative",
+   "bets": [],
+   "ref_layout": "a backlit poster in a frame on a wall (subway-ad style): small brand name top-left, three-line headline with the last two words in a second colour, a small paragraph, and a small black pill button; product photo in the right panel",
+   "rival": "Zima dentist-count authority -> 90-day 6-of-7 lab test + Dentist-recommended",
+   "dr_brief": {
+    "who": "switcher",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)"
+   }
+  },
+  {
+   "id": "W48_17_den_offer_free_callouts_bar",
+   "group": "winning",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "denture_full",
+   "format_name": "rockwell_free_callouts_bar",
+   "benchmark": "rv_w48_rockwell_free_callouts_bar",
+   "format_ref": true,
+   "angle": "Offer stack: 40% off + free case + free travel bag, 120-day guarantee bar",
+   "based_on": "Winner: 'Denture - 40% OFF _LP_PDP_V3' ($12.1K, ROAS 3.27) + 'HALF PRICE TODAY ONLY - Gift PDP' ($316, 4.41). Layout reference: Rockwell Razors 'Get 100 Blades Free With SETPOINT™' (inspiration pull 2026-11-20, skin care wrinkles query, 9d, top 10.0%).",
+   "copy_slots": [
+    "top line",
+    "big headline (product/offer)",
+    "2-line offer line",
+    "left callout (<=8 words)",
+    "right callout (<=8 words)",
+    "bottom bar guarantee line"
+   ],
+   "reference_blocks": [
+    "brand/headline",
+    "offer line",
+    "product + two callouts",
+    "guarantee bar"
+   ],
+   "risk": "conservative",
+   "bets": [],
+   "ref_layout": "warm beige background, brand line and big bold product name at the top, a two-line italic offer line, product hero in the middle with a round dial close-up on the left and a free-item stack on the right with a big 'x100' style number, small callout text under each, a dark rounded bar at the bottom with a white guarantee line",
+   "offer": "40% OFF sitewide + FREE shipping + FREE dental case + FREE travel bag with your order + 120-day money-back guarantee; Pod $99.95",
+   "dr_brief": {
+    "who": "denture wearer",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)"
+   }
+  },
+  {
+   "id": "W48_18_den_held_sign_bathroom",
+   "group": "winning",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "denture_full",
+   "format_name": "bennett_held_sign",
+   "benchmark": "rv_w48_bennett_held_sign",
+   "format_ref": true,
+   "angle": "Real woman holds a handwritten sign: 'read this if you wear dentures'",
+   "based_on": "Winner: '11/5 Denture Native 4 - Story' ($12.0K, ROAS 2.30) and '11/15 Never brush your dentures again' ($12.0K, 1.75): 'Read This If You Wear Dentures'. Layout reference: Carol Bennett 'Anti-Granny Walking Sneakers' (inspiration pull 2026-11-20, teeth grinding query, 7d, top 17.7%).",
+   "copy_slots": [
+    "sign headline (2 lines, <=6 words)",
+    "sign sub line (<=12 words)"
+   ],
+   "reference_blocks": [
+    "person + handwritten sign headline",
+    "sign sub line",
+    "product"
+   ],
+   "risk": "conservative",
+   "bets": [],
+   "ref_layout": "outdoor candid photo of a smiling grey-haired woman holding a big white card with a handwritten marker headline (2 lines, large) and a handwritten sub line, product at the bottom",
+   "copy_notes": "Handwritten marker on the card is allowed (the reference is handwritten).",
+   "dr_brief": {
+    "who": "denture wearer",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)"
+   }
+  },
+  {
+   "id": "W48_19_den_bf_woman_circle",
+   "group": "winning",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "denture_full",
+   "format_name": "mendable_bf_early_access",
+   "benchmark": "rv_w48_mendable_bf_early_access",
+   "format_ref": true,
+   "angle": "Dentist-recommended + 40% off: the authority answer with an offer",
+   "based_on": "Rival: Zima 'Trusted by 20,000+ Dentists' BF videos -> 'Dentist-recommended' + Clinicians' Choice (no counts) + flat 40%. Layout reference: Mendable 'Up To 81% OFF — Black Friday Early Access, No Code Needed' (inspiration pull 2026-11-20, joint pain query, 8d, top 1.7%).",
+   "copy_slots": [
+    "2-line red headline",
+    "circle badge text",
+    "rating line (gold stars + 'Rated 4.8/5')",
+    "small line (Dentist-recommended)"
+   ],
+   "reference_blocks": [
+    "person",
+    "sale headline",
+    "product + % badge",
+    "rating + authority line"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "light warm background, smiling older woman wearing the product on the left, brand logo top-right, two-line red uppercase sale headline, product close-up right with a big red circle '81% OFF' badge, gold stars + a line under it",
+   "offer": "40% OFF sitewide + FREE shipping + FREE dental case + FREE travel bag with your order + 120-day money-back guarantee; Pod $99.95",
+   "rival": "Zima 'Trusted by 20,000+ dentists' -> Dentist-recommended + Clinicians' Choice, no counts",
+   "dr_brief": {
+    "who": "denture wearer",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)"
+   }
+  },
+  {
+   "id": "W48_20_den_sonic_splash_40",
+   "group": "winning",
+   "persona": "denture_wearer",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "denture_full",
+   "format_name": "sonic_bf_underwater_splash",
+   "benchmark": "rv_w48_sonic_bf_underwater_splash",
+   "format_ref": true,
+   "angle": "Black Friday flat 40% (not 'up to') + free case + bag",
+   "based_on": "Rival: Sonic 'Black Friday: Up to 40% Off' splash tiles (18d) -> flat 40% sitewide + free case + travel bag + 120 days. Layout reference: Sonic Dental '🖤 Black Friday : jusqu’à -40 %' (rivals pull 2026-11-20, 18d, top 24.7%).",
+   "copy_slots": [
+    "small label pill (2-3 words)",
+    "sale headline",
+    "sub line (gifts + guarantee)"
+   ],
+   "reference_blocks": [
+    "label pill",
+    "sale headline",
+    "product with water",
+    "gift line"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "deep blue water background with bubbles and a splash, a small black label pill 'BLACK FRIDAY SALE' above a huge white bold sale line, the product tilted in the water center",
+   "offer": "40% OFF sitewide + FREE shipping + FREE dental case + FREE travel bag with your order + 120-day money-back guarantee; Pod $99.95",
+   "rival": "Sonic 'UP TO 40% OFF' BF -> flat 40% + free case + bag + 120-day guarantee",
+   "dr_brief": {
+    "who": "denture wearer",
+    "avatar": "woman or man 60-80, US, full upper denture 5-20 years, often a grandparent",
+    "angle_habit": "overnight tablet soak (Polident/Efferdent) or brushing with toothpaste/soap",
+    "point_of_contact": "'never felt clean', 'still see food on it', yellowing, smell; tablets mask with mint (feedback_deep_dive §4, 38% came from tablets)",
+    "problem_mechanism": "biofilm and food sit in micro-grooves and porous acrylic that bristles and fizz never reach; that film turns yellow and smells",
+    "function_mechanism": "tablets only soak the surface and brushing scratches new grooves; neither reaches the pores",
+    "solution_mechanism": "42,000 Hz ultrasonic cavitation in tap water, one 5-minute cycle, eliminates 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee (four months of nights)"
+   }
+  },
+  {
+   "id": "W48_21_ng_what_came_off_purple",
+   "group": "net_new",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "night_guard",
+   "format_name": "drdent_purple_quote_photos",
+   "benchmark": "rv_w48_drdent_purple_quote_photos",
+   "format_ref": true,
+   "angle": "Proof: what came off my night guard after one cycle",
+   "based_on": "Notion DEN256 'This is what came off my night guard after one cycle. And I thought it was clean.' + feedback 'visible debris at the bottom of the bowl'. Layout reference: Drdent.co 'Is The Purple Mouthwash Really Worth It? 👀' (inspiration pull 2026-11-20, mouthwash query, 9d, top 8.5%).",
+   "copy_slots": [
+    "pill title (<=5 words)",
+    "2-line headline",
+    "short quote (<=20 words) + highlighted phrase",
+    "2 photo captions (2-4 words)"
+   ],
+   "reference_blocks": [
+    "pill",
+    "headline",
+    "customer quote",
+    "two proof photos",
+    "stars"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "purple background, small lilac pill title, two-line white bold headline, a short white quote with one highlighted phrase, two rounded photos side by side with tiny white caption chips, gold stars + a small line at the bottom",
+   "dr_brief": {
+    "who": "night guard",
+    "avatar": "adult 30-50 who grinds at night, wears a hard night guard 8 hours a night",
+    "angle_habit": "rinsing under the tap, brushing with toothpaste, soaking in peroxide or mouthwash",
+    "point_of_contact": "'gross yellow and cloudy', smell; 68% of night guard buyers bought for yellow stains (feedback Oct 28)",
+    "problem_mechanism": "saliva and bacteria build a film on the guard every night; film turns it yellow and cloudy",
+    "function_mechanism": "rinsing leaves the film; toothpaste scratches the acrylic and bacteria hide in scratches",
+    "solution_mechanism": "5-minute ultrasonic cycle in tap water, eliminates 99.9% of bacteria, stops it turning yellow (prevention, never 'erases set-in yellow')",
+    "risk_reversal": "120-day money-back guarantee",
+    "topic": "debris after one cycle (DEN256)"
+   },
+   "_gif": true
+  },
+  {
+   "id": "W48_22_ng_not_all_rinsing_vs",
+   "group": "net_new",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "night_guard",
+   "format_name": "johnsons_not_all_vs",
+   "benchmark": "rv_w48_johnsons_not_all_vs",
+   "format_ref": true,
+   "angle": "'Not all cleaning is made for something you bite on 8 hours a night'",
+   "based_on": "Feedback: 'Your night guard looks gross, yellow and cloudy. Here's why.' (68% of night guard buyers came for yellow). Layout reference: JOHNSON'S baby 'Shopee Philippines‎ | Buy and Sell on Mobile or Online' (inspiration pull 2026-11-20, skin care wrinkles query, 9d, top 6.2%).",
+   "copy_slots": [
+    "2-line headline",
+    "2 badge words with VS",
+    "2-line closing statement"
+   ],
+   "reference_blocks": [
+    "headline",
+    "person",
+    "VS badges",
+    "closing statement",
+    "product"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "soft blue background, two-line headline top-right in navy serif ('Not all ... are made for ...'), a happy subject photo filling the left, a vertical stack of small round badges with a 'VS' between them, product bottles bottom-right and a two-line closing statement bottom-left",
+   "copy_notes": "Use Inter, not serif.",
+   "dr_brief": {
+    "who": "night guard",
+    "avatar": "adult 30-50 who grinds at night, wears a hard night guard 8 hours a night",
+    "angle_habit": "rinsing under the tap, brushing with toothpaste, soaking in peroxide or mouthwash",
+    "point_of_contact": "'gross yellow and cloudy', smell; 68% of night guard buyers bought for yellow stains (feedback Oct 28)",
+    "problem_mechanism": "saliva and bacteria build a film on the guard every night; film turns it yellow and cloudy",
+    "function_mechanism": "rinsing leaves the film; toothpaste scratches the acrylic and bacteria hide in scratches",
+    "solution_mechanism": "5-minute ultrasonic cycle in tap water, eliminates 99.9% of bacteria, stops it turning yellow (prevention, never 'erases set-in yellow')",
+    "risk_reversal": "120-day money-back guarantee",
+    "topic": "yellow cloudy night guard"
+   }
+  },
+  {
+   "id": "W48_23_ng_eight_hours_moody",
+   "group": "net_new",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "night_guard",
+   "format_name": "zbiotics_moody_bottle",
+   "benchmark": "rv_w48_zbiotics_moody_bottle",
+   "format_ref": true,
+   "angle": "It's in your mouth 8 hours a night. When was it last really clean?",
+   "based_on": "Feedback headline 'It goes in your mouth for 8 hours. When did you last really clean it?' Layout reference: ZBiotics 'The Best $7 You'll Spend All Night' (inspiration pull 2026-11-20, dental probiotic query, 13d, top 6.2%).",
+   "copy_slots": [
+    "2-line headline",
+    "sub line (<=10 words)"
+   ],
+   "reference_blocks": [
+    "headline",
+    "sub line",
+    "product at night"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "dark warm moody photo at night, two-line white headline centered at the top and a short white sub line, product glowing softly on a surface in the lower half, dark blurred background",
+   "dr_brief": {
+    "who": "night guard",
+    "avatar": "adult 30-50 who grinds at night, wears a hard night guard 8 hours a night",
+    "angle_habit": "rinsing under the tap, brushing with toothpaste, soaking in peroxide or mouthwash",
+    "point_of_contact": "'gross yellow and cloudy', smell; 68% of night guard buyers bought for yellow stains (feedback Oct 28)",
+    "problem_mechanism": "saliva and bacteria build a film on the guard every night; film turns it yellow and cloudy",
+    "function_mechanism": "rinsing leaves the film; toothpaste scratches the acrylic and bacteria hide in scratches",
+    "solution_mechanism": "5-minute ultrasonic cycle in tap water, eliminates 99.9% of bacteria, stops it turning yellow (prevention, never 'erases set-in yellow')",
+    "risk_reversal": "120-day money-back guarantee",
+    "topic": "nightly wear time"
+   }
+  },
+  {
+   "id": "W48_24_ng_brushing_scratches_side_strip",
+   "group": "net_new",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "night_guard",
+   "format_name": "daddario_side_strip",
+   "benchmark": "rv_w48_daddario_side_strip",
+   "format_ref": true,
+   "angle": "Brushing your night guard scratches it; bacteria hide in the scratches",
+   "based_on": "Feedback 'Brushing your night guard scratches it. Bacteria hide in the scratches.' Layout reference: D'Addario and Co. 'nan' (inspiration pull 2026-11-20, electric toothbrush query, 41d, top 3.7%).",
+   "copy_slots": [
+    "small top line",
+    "3-line uppercase headline",
+    "sub line (<=12 words)"
+   ],
+   "reference_blocks": [
+    "brand line",
+    "product",
+    "headline",
+    "sub line",
+    "side photo strip"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "clean white left panel (70%) with a small grey brand line on top, product pack in the middle, a three-line spaced uppercase grey headline and a small sub line; right 30% is a tall black-and-white photo strip",
+   "dr_brief": {
+    "who": "night guard",
+    "avatar": "adult 30-50 who grinds at night, wears a hard night guard 8 hours a night",
+    "angle_habit": "rinsing under the tap, brushing with toothpaste, soaking in peroxide or mouthwash",
+    "point_of_contact": "'gross yellow and cloudy', smell; 68% of night guard buyers bought for yellow stains (feedback Oct 28)",
+    "problem_mechanism": "saliva and bacteria build a film on the guard every night; film turns it yellow and cloudy",
+    "function_mechanism": "rinsing leaves the film; toothpaste scratches the acrylic and bacteria hide in scratches",
+    "solution_mechanism": "5-minute ultrasonic cycle in tap water, eliminates 99.9% of bacteria, stops it turning yellow (prevention, never 'erases set-in yellow')",
+    "risk_reversal": "120-day money-back guarantee",
+    "topic": "toothpaste scratches"
+   }
+  },
+  {
+   "id": "W48_25_ng_worried_three_icons",
+   "group": "net_new",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "night_guard",
+   "format_name": "pupbiotics_worried_icons",
+   "benchmark": "rv_w48_pupbiotics_worried_icons",
+   "format_ref": true,
+   "angle": "Question headline + three proof icons: plaque, yellow film, smell, with proof",
+   "based_on": "Rival: Zima 'Removes plaque / Lifts yellow stains / Destroys bad smells' (37d, top 1.3%, no proof) -> our 99.9% + 5 minutes + tap water, prevention wording. Layout reference: Pupbiotics Dogs '🐶 Vet-Formulated DLP-1: feel full, burn fat' (inspiration pull 2026-11-20, gut health query, 8d, top 6.7%).",
+   "copy_slots": [
+    "3-line question headline",
+    "3 icon labels (2 lines, <=5 words each)"
+   ],
+   "reference_blocks": [
+    "question headline",
+    "product",
+    "3 icon proof row"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "warm peach background, three-line uppercase headline (first line thin, rest bold), product pack center with a small subject beside it on a white plinth, a bottom row of three line icons each with a two-line label divided by thin lines",
+   "rival": "Zima plaque/yellow/smell checklist (no proof) -> 99.9% lab claim + prevention wording",
+   "copy_notes": "Night guard: 'stops it turning yellow', never 'removes set-in yellow'.",
+   "dr_brief": {
+    "who": "night guard",
+    "avatar": "adult 30-50 who grinds at night, wears a hard night guard 8 hours a night",
+    "angle_habit": "rinsing under the tap, brushing with toothpaste, soaking in peroxide or mouthwash",
+    "point_of_contact": "'gross yellow and cloudy', smell; 68% of night guard buyers bought for yellow stains (feedback Oct 28)",
+    "problem_mechanism": "saliva and bacteria build a film on the guard every night; film turns it yellow and cloudy",
+    "function_mechanism": "rinsing leaves the film; toothpaste scratches the acrylic and bacteria hide in scratches",
+    "solution_mechanism": "5-minute ultrasonic cycle in tap water, eliminates 99.9% of bacteria, stops it turning yellow (prevention, never 'erases set-in yellow')",
+    "risk_reversal": "120-day money-back guarantee"
+   }
+  },
+  {
+   "id": "W48_26_ng_daily_seal_offer",
+   "group": "net_new",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "night_guard",
+   "format_name": "kion_daily_seal",
+   "benchmark": "rv_w48_kion_daily_seal",
+   "format_ref": true,
+   "angle": "Offer: protect the guard you paid for, 40% off seal",
+   "based_on": "Feedback: price is the top objection; answer with the offer. Night guards are expensive to replace (no number unless sourced). Layout reference: Kion 'One packet with water. Anywhere. ✨' (inspiration pull 2026-11-20, water flosser query, 23d, top 2.7%).",
+   "copy_slots": [
+    "2-line thin title",
+    "small sub line",
+    "seal text"
+   ],
+   "reference_blocks": [
+    "title",
+    "sub line",
+    "product",
+    "offer seal"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "light beige background, small brand mark, very large thin uppercase two-line title, a small spaced sub line, product packs fanned at the bottom with a black round seal '50% OFF' overlapping",
+   "offer": "40% OFF sitewide + FREE shipping + FREE dental case + FREE travel bag with your order + 120-day money-back guarantee; Pod $99.95",
+   "dr_brief": {
+    "who": "night guard",
+    "avatar": "adult 30-50 who grinds at night, wears a hard night guard 8 hours a night",
+    "angle_habit": "rinsing under the tap, brushing with toothpaste, soaking in peroxide or mouthwash",
+    "point_of_contact": "'gross yellow and cloudy', smell; 68% of night guard buyers bought for yellow stains (feedback Oct 28)",
+    "problem_mechanism": "saliva and bacteria build a film on the guard every night; film turns it yellow and cloudy",
+    "function_mechanism": "rinsing leaves the film; toothpaste scratches the acrylic and bacteria hide in scratches",
+    "solution_mechanism": "5-minute ultrasonic cycle in tap water, eliminates 99.9% of bacteria, stops it turning yellow (prevention, never 'erases set-in yellow')",
+    "risk_reversal": "120-day money-back guarantee"
+   }
+  },
+  {
+   "id": "W48_27_ng_save_dark_no_tablets",
+   "group": "net_new",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "night_guard",
+   "format_name": "zima_save_dark_tablets",
+   "benchmark": "rv_w48_zima_save_dark_tablets",
+   "format_ref": true,
+   "angle": "Sale answer: 40% off, no tablets to buy, ever",
+   "based_on": "Rival: Zima 'Only Sale of the Year' BF tiles bundling 'boosting tablets' (3d) -> tap water only + flat 40% + free gifts. Layout reference: Zima Dental 'Only Sale of the Year. Don't miss out ❗⌛' (rivals pull 2026-11-20, 3d).",
+   "copy_slots": [
+    "small pill (2-3 words)",
+    "bottom headline (<=6 words)",
+    "sub line (<=10 words)"
+   ],
+   "reference_blocks": [
+    "pill",
+    "product",
+    "headline",
+    "sub line"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "dark navy-to-electric-blue background with a curved light, a small pill 'Shop Sale Now!' top-left, product and its box in the middle, a big bold white uppercase headline at the bottom and a white sub line",
+   "offer": "40% OFF sitewide + FREE shipping + FREE dental case + FREE travel bag with your order + 120-day money-back guarantee; Pod $99.95",
+   "rival": "Zima 'Only Sale of the Year' + boosting tablets -> 40% off, tap water only, no refills",
+   "dr_brief": {
+    "who": "night guard",
+    "avatar": "adult 30-50 who grinds at night, wears a hard night guard 8 hours a night",
+    "angle_habit": "rinsing under the tap, brushing with toothpaste, soaking in peroxide or mouthwash",
+    "point_of_contact": "'gross yellow and cloudy', smell; 68% of night guard buyers bought for yellow stains (feedback Oct 28)",
+    "problem_mechanism": "saliva and bacteria build a film on the guard every night; film turns it yellow and cloudy",
+    "function_mechanism": "rinsing leaves the film; toothpaste scratches the acrylic and bacteria hide in scratches",
+    "solution_mechanism": "5-minute ultrasonic cycle in tap water, eliminates 99.9% of bacteria, stops it turning yellow (prevention, never 'erases set-in yellow')",
+    "risk_reversal": "120-day money-back guarantee"
+   }
+  },
+  {
+   "id": "W48_28_ng_snore_guard_evening",
+   "group": "net_new",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "night_guard",
+   "format_name": "mendable_swear_by_painting",
+   "benchmark": "rv_w48_mendable_swear_by_painting",
+   "format_ref": true,
+   "angle": "Sleep-apnea / anti-snore guard: the film you breathe on all night",
+   "based_on": "Brand mix note: night guards incl. sleep-apnea/snore guards; Notion DEN186/188 sleep-apnea retainer. Layout reference: Mendable 'Seniors Across Australia Love This 12-Minute Knee Device' (inspiration pull 2026-11-20, night guard query, 14d, top 1.3%).",
+   "copy_slots": [
+    "4-line headline + which word is highlighted",
+    "small bottom line (<=12 words)"
+   ],
+   "reference_blocks": [
+    "headline",
+    "product",
+    "small bottom line"
+   ],
+   "risk": "aggressive",
+   "bets": [
+    "format",
+    "segment"
+   ],
+   "ref_layout": "evening photo with deep blue-green dusk tones, a four-line white bold headline on the left (one word in yellow), the product large on the right, a tiny two-line white text block at the bottom",
+   "copy_notes": "Snore/sleep-apnea mouthpiece is a thick rigid tray like a night guard; no medical claims.",
+   "dr_brief": {
+    "who": "night guard",
+    "avatar": "adult 30-50 who grinds at night, wears a hard night guard 8 hours a night",
+    "angle_habit": "rinsing under the tap, brushing with toothpaste, soaking in peroxide or mouthwash",
+    "point_of_contact": "'gross yellow and cloudy', smell; 68% of night guard buyers bought for yellow stains (feedback Oct 28)",
+    "problem_mechanism": "saliva and bacteria build a film on the guard every night; film turns it yellow and cloudy",
+    "function_mechanism": "rinsing leaves the film; toothpaste scratches the acrylic and bacteria hide in scratches",
+    "solution_mechanism": "5-minute ultrasonic cycle in tap water, eliminates 99.9% of bacteria, stops it turning yellow (prevention, never 'erases set-in yellow')",
+    "risk_reversal": "120-day money-back guarantee",
+    "topic": "snore/sleep-apnea mouthpiece"
+   }
+  },
+  {
+   "id": "W48_29_ng_lab_test_condensed_list",
+   "group": "winning",
+   "persona": "switcher",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "night_guard",
+   "format_name": "maynox_problem_stack",
+   "benchmark": "rv_w48_maynox_problem_stack",
+   "format_ref": true,
+   "angle": "6 of 7 pods leave live bacteria: the stacked list of what stays on a night guard",
+   "based_on": "Winner: VID_DEN32 '6 of 7 pods leave live bacteria' ($11.8K, 2.07) + DEN81 H3/H4 ($5.7K/$3.8K) moved to night guards. Layout reference: MaynoxOff '2 Bottles for $9.99 — Black Friday, Early' (inspiration pull 2026-11-20, sleep apnea snoring query, 7d, top 0.7%).",
+   "copy_slots": [
+    "3-line headline + boxed word",
+    "6-8 stacked short lines (<=4 words each)"
+   ],
+   "reference_blocks": [
+    "headline",
+    "stacked list",
+    "product"
+   ],
+   "risk": "conservative",
+   "bets": [],
+   "ref_layout": "black background, huge white condensed uppercase three-line headline with one word boxed in outline, below a left-aligned stack of 10 short uppercase problem lines in white, the product bottle glowing on the right",
+   "dr_brief": {
+    "who": "switcher",
+    "avatar": "adult 30-50 who grinds at night, wears a hard night guard 8 hours a night",
+    "angle_habit": "rinsing under the tap, brushing with toothpaste, soaking in peroxide or mouthwash",
+    "point_of_contact": "'gross yellow and cloudy', smell; 68% of night guard buyers bought for yellow stains (feedback Oct 28)",
+    "problem_mechanism": "saliva and bacteria build a film on the guard every night; film turns it yellow and cloudy",
+    "function_mechanism": "rinsing leaves the film; toothpaste scratches the acrylic and bacteria hide in scratches",
+    "solution_mechanism": "5-minute ultrasonic cycle in tap water, eliminates 99.9% of bacteria, stops it turning yellow (prevention, never 'erases set-in yellow')",
+    "risk_reversal": "120-day money-back guarantee"
+   }
+  },
+  {
+   "id": "W48_30_ng_peroxide_basket_40",
+   "group": "net_new",
+   "persona": "night_guard",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "night_guard",
+   "format_name": "properwild_bogo_basket",
+   "benchmark": "rv_w48_properwild_bogo_basket",
+   "format_ref": true,
+   "angle": "Stop soaking it in peroxide: 40% off the ultrasonic cleaner",
+   "based_on": "old_methods: hydrogen peroxide / mouthwash soaks + feedback 'Stop your guard turning yellow, without soaking it in peroxide or soap'. Layout reference: Proper Wild 'Thanksgiving Sale BOGO' (inspiration pull 2026-11-20, supplement for seniors query, 8d, top 0.6%).",
+   "copy_slots": [
+    "small top line",
+    "2-line big headline",
+    "bottom pill line"
+   ],
+   "reference_blocks": [
+    "top line",
+    "headline",
+    "product basket",
+    "pill"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "warm autumn background, a small bold top line, a huge heavy black two-line headline, product packs in a woven basket in the middle, a white rounded pill at the bottom with a black uppercase line",
+   "offer": "40% OFF sitewide + FREE shipping + FREE dental case + FREE travel bag with your order + 120-day money-back guarantee; Pod $99.95",
+   "dr_brief": {
+    "who": "night guard",
+    "avatar": "adult 30-50 who grinds at night, wears a hard night guard 8 hours a night",
+    "angle_habit": "rinsing under the tap, brushing with toothpaste, soaking in peroxide or mouthwash",
+    "point_of_contact": "'gross yellow and cloudy', smell; 68% of night guard buyers bought for yellow stains (feedback Oct 28)",
+    "problem_mechanism": "saliva and bacteria build a film on the guard every night; film turns it yellow and cloudy",
+    "function_mechanism": "rinsing leaves the film; toothpaste scratches the acrylic and bacteria hide in scratches",
+    "solution_mechanism": "5-minute ultrasonic cycle in tap water, eliminates 99.9% of bacteria, stops it turning yellow (prevention, never 'erases set-in yellow')",
+    "risk_reversal": "120-day money-back guarantee"
+   }
+  },
+  {
+   "id": "W48_31_al_no_white_film_two_items",
+   "group": "net_new",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "aligner",
+   "format_name": "shark_two_products_glow",
+   "benchmark": "rv_w48_shark_two_products_glow",
+   "format_ref": true,
+   "angle": "No white film: cloudy tray vs clear tray, 5 minutes",
+   "based_on": "Feedback 'No white film!' aligner buyers (4.17 avg, happiest segment) + 'Aligners that look like the day you got them'. Layout reference: Shark Beauty Australia 'The All-In-One At-Home Facial Device' (inspiration pull 2026-11-20, skin care wrinkles query, 17d, top 1.4%).",
+   "copy_slots": [
+    "small top line",
+    "2-line promise headline",
+    "button (2-3 words)"
+   ],
+   "reference_blocks": [
+    "top line",
+    "product + two trays",
+    "promise",
+    "button"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "very light grey studio-like background, small brand line and a thin product name at the top, two products side by side in the middle, a two-line centered promise headline and a small blue pill button below",
+   "copy_notes": "Setting must still be a bathroom vanity (soft light), not a studio.",
+   "dr_brief": {
+    "who": "aligner",
+    "avatar": "adult 25-45 in clear aligner treatment, wears trays 22 hours a day",
+    "angle_habit": "brushing trays with toothpaste or rinsing at the sink",
+    "point_of_contact": "cloudy trays, white film, smell, aligners look dirty when they smile",
+    "problem_mechanism": "plaque biofilm coats thin trays; brushing scratches and clouds them",
+    "function_mechanism": "brushing clouds the plastic and misses tooth-shaped grooves",
+    "solution_mechanism": "5-minute ultrasonic cycle in tap water, no tablets, 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee"
+   },
+   "_gif": true
+  },
+  {
+   "id": "W48_32_al_next_level_arrows",
+   "group": "net_new",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "aligner",
+   "format_name": "zima_next_level_arrows",
+   "benchmark": "rv_w48_zima_next_level_arrows",
+   "format_ref": true,
+   "angle": "Aligner care with arrows: 42,000 Hz, 5 minutes, tap water",
+   "based_on": "Rival: Zima 'Welcome to next-level aligner care' (1d) UV case features -> our proven claims (99.9%, 5 minutes, tap water). Layout reference: Zima Dental 'Available in 3 colours.' (rivals pull 2026-11-20, 1d, top 15.2%).",
+   "copy_slots": [
+    "2-line headline",
+    "3 callouts (<=6 words each)"
+   ],
+   "reference_blocks": [
+    "headline",
+    "product",
+    "3 arrow callouts"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "lavender background, two-line white uppercase headline, product center, three short white callouts with curved arrows pointing at it, small brand name at the bottom",
+   "rival": "Zima 'next-level aligner care' feature arrows -> 99.9% / 5 min / tap water",
+   "copy_notes": "Pod rests on a vanity; nobody holds it.",
+   "dr_brief": {
+    "who": "aligner",
+    "avatar": "adult 25-45 in clear aligner treatment, wears trays 22 hours a day",
+    "angle_habit": "brushing trays with toothpaste or rinsing at the sink",
+    "point_of_contact": "cloudy trays, white film, smell, aligners look dirty when they smile",
+    "problem_mechanism": "plaque biofilm coats thin trays; brushing scratches and clouds them",
+    "function_mechanism": "brushing clouds the plastic and misses tooth-shaped grooves",
+    "solution_mechanism": "5-minute ultrasonic cycle in tap water, no tablets, 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee"
+   }
+  },
+  {
+   "id": "W48_33_al_were_sorry_letter",
+   "group": "net_new",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "aligner",
+   "format_name": "llama_were_sorry",
+   "benchmark": "rv_w48_llama_were_sorry",
+   "format_ref": true,
+   "angle": "Apology letter: 'We're sorry nobody told you brushing clouds your aligners' + 40% off",
+   "based_on": "Rival: Zima 'Cloudy retainer = plaque biofilm' (0-4d) with no proof -> visible film + 99.9% + offer. Layout reference: Llama Naturals 'Real Fruit Vitamins. Black Friday Savings.' (inspiration pull 2026-11-20, blood sugar query, 9d, top 4.3%).",
+   "copy_slots": [
+    "ribbon text (<=5 words)",
+    "big headline (<=3 words)",
+    "apology paragraph (<=35 words)",
+    "offer block (40% OFF + short line)"
+   ],
+   "reference_blocks": [
+    "ribbon",
+    "apology headline",
+    "letter body",
+    "product",
+    "offer block"
+   ],
+   "risk": "aggressive",
+   "bets": [
+    "format",
+    "concept"
+   ],
+   "ref_layout": "coral red background, white ribbon banner at the top with red uppercase sale text, a small emoji-free face, a big white serif 'WE'RE SORRY' style headline, a short white apology paragraph with bold words, product jar bottom-left, red 50% OFF price block and small round icons",
+   "offer": "40% OFF sitewide + FREE shipping + FREE dental case + FREE travel bag with your order + 120-day money-back guarantee; Pod $99.95",
+   "rival": "Zima 'Cloudy retainer = plaque biofilm' -> visible proof + 99.9% + 40% off",
+   "copy_notes": "Inter instead of serif; no emoji faces.",
+   "dr_brief": {
+    "who": "aligner",
+    "avatar": "adult 25-45 in clear aligner treatment, wears trays 22 hours a day",
+    "angle_habit": "brushing trays with toothpaste or rinsing at the sink",
+    "point_of_contact": "cloudy trays, white film, smell, aligners look dirty when they smile",
+    "problem_mechanism": "plaque biofilm coats thin trays; brushing scratches and clouds them",
+    "function_mechanism": "brushing clouds the plastic and misses tooth-shaped grooves",
+    "solution_mechanism": "5-minute ultrasonic cycle in tap water, no tablets, 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee"
+   }
+  },
+  {
+   "id": "W48_34_al_save_split_hands",
+   "group": "net_new",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "aligner",
+   "format_name": "sonic_save_split_hands",
+   "benchmark": "rv_w48_sonic_save_split_hands",
+   "format_ref": true,
+   "angle": "Split: SAVE 40% + the aligner held over the cleaner",
+   "based_on": "Rival: Sonic 'SAVE UP TO 25%' split (0d) -> flat 40% + free case + bag. Layout reference: Sonic Dental 'New: Sonic Odyssey ✨' (rivals pull 2026-11-20, 0d, top 26.8%).",
+   "copy_slots": [
+    "big word (1 word)",
+    "percent line",
+    "small line (gifts)"
+   ],
+   "reference_blocks": [
+    "save word",
+    "percentage",
+    "product",
+    "hands + aligner photo"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "split image: left half light grey with brand mark, big thin 'SAVE' word and a big percentage, product below; right half a photo of hands holding a clear aligner over water",
+   "offer": "40% OFF sitewide + FREE shipping + FREE dental case + FREE travel bag with your order + 120-day money-back guarantee; Pod $99.95",
+   "rival": "Sonic 'Save up to 25%' -> flat 40% + gifts",
+   "copy_notes": "Hands may hold the aligner only, never the Pod.",
+   "dr_brief": {
+    "who": "aligner",
+    "avatar": "adult 25-45 in clear aligner treatment, wears trays 22 hours a day",
+    "angle_habit": "brushing trays with toothpaste or rinsing at the sink",
+    "point_of_contact": "cloudy trays, white film, smell, aligners look dirty when they smile",
+    "problem_mechanism": "plaque biofilm coats thin trays; brushing scratches and clouds them",
+    "function_mechanism": "brushing clouds the plastic and misses tooth-shaped grooves",
+    "solution_mechanism": "5-minute ultrasonic cycle in tap water, no tablets, 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee"
+   }
+  },
+  {
+   "id": "W48_35_al_two_definitions",
+   "group": "net_new",
+   "persona": "aligner",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "aligner",
+   "format_name": "oakage_two_definitions",
+   "benchmark": "rv_w48_oakage_two_definitions",
+   "format_ref": true,
+   "angle": "Two definitions: brushing vs ultrasonic for aligners",
+   "based_on": "Notion DEN260 'Cleaning Aligners Problem' (blank) + feedback 'cloudy trays, white film'. Layout reference: The Oak Age 'Boost Cardio Health with CoQ10' (inspiration pull 2026-11-20, bad breath query, 14d, top 2.7%).",
+   "copy_slots": [
+    "definition 1 (word + description <=8 words)",
+    "definition 2 (word + description <=8 words)",
+    "3 bullet bars (<=5 words each)"
+   ],
+   "reference_blocks": [
+    "definition 1",
+    "definition 2",
+    "product",
+    "3 bullet bars"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "warm white background, brand mark top-left, two stacked definition lines (bold coloured word + dash + plain description) each two lines, product bottle bottom-right, a stack of three orange rounded bullet bars bottom-left with white text, tiny footnote",
+   "dr_brief": {
+    "who": "aligner",
+    "avatar": "adult 25-45 in clear aligner treatment, wears trays 22 hours a day",
+    "angle_habit": "brushing trays with toothpaste or rinsing at the sink",
+    "point_of_contact": "cloudy trays, white film, smell, aligners look dirty when they smile",
+    "problem_mechanism": "plaque biofilm coats thin trays; brushing scratches and clouds them",
+    "function_mechanism": "brushing clouds the plastic and misses tooth-shaped grooves",
+    "solution_mechanism": "5-minute ultrasonic cycle in tap water, no tablets, 99.9% of bacteria",
+    "risk_reversal": "120-day money-back guarantee",
+    "topic": "brushing clouds aligners (DEN260)"
+   }
+  },
+  {
+   "id": "W48_36_ret_holding_yellow_vs_clear",
+   "group": "net_new",
+   "persona": "retainer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "retainer_clear",
+   "format_name": "zima_restore_holding_pair",
+   "benchmark": "rv_w48_zima_restore_holding_pair",
+   "format_ref": true,
+   "angle": "Holding both: the cloudy retainer and the clear one",
+   "based_on": "Rival: Zima 'Restore your retainer to new' (37d, top 1.3% group) -> 'clear again', no 'like new' promise. Customer: 'My retainer is clear again!' Layout reference: Zima Dental 'Rated ★★★★★ by customers worldwide' (rivals pull 2026-11-20, 37d, top 1.3%).",
+   "copy_slots": [
+    "2 tiny labels (1-2 words)",
+    "2-line headline",
+    "pill (<=5 words)"
+   ],
+   "reference_blocks": [
+    "person holding pair",
+    "labels",
+    "headline",
+    "pill"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "bright bathroom mirror selfie-style photo of a young woman holding two retainers up at the camera (left one yellowed, right one clear), tiny labels near each, a two-line bold white headline across her sweater with a small blue pill under it",
+   "rival": "Zima 'Restore your retainer to new' -> 'clear again' with prevention wording",
+   "copy_notes": "Retainer: 'clear again', 'no white film', never 'erases years of yellow'. She holds retainers only; the Pod rests on the vanity behind her.",
+   "dr_brief": {
+    "who": "retainer",
+    "avatar": "adult 20-45 wearing a clear retainer nightly after braces",
+    "angle_habit": "rinsing, brushing, leaving it in a damp case",
+    "point_of_contact": "'milky', 'cloudy', 'smells', 'my retainer is clear again!' (customer quote)",
+    "problem_mechanism": "film + bacteria build up in the tooth contours and the damp case",
+    "function_mechanism": "rinsing and brushing leave film in the grooves",
+    "solution_mechanism": "5-minute ultrasonic cycle, tap water, clear again with no white film",
+    "risk_reversal": "120-day money-back guarantee"
+   }
+  },
+  {
+   "id": "W48_37_ret_unboxing_sticky_note",
+   "group": "net_new",
+   "persona": "retainer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "retainer_clear",
+   "format_name": "sculptique_unboxing_note",
+   "benchmark": "rv_w48_sculptique_unboxing_note",
+   "format_ref": true,
+   "angle": "Raw unboxing: sticky note from a retainer wearer",
+   "based_on": "Feedback 'Milky retainer? Cloudy trays? That's film, not age.' + 'the color is clear again and the odor is gone'. Layout reference: Sculptique 'Black Friday Sale is Live 😍' (inspiration pull 2026-11-20, joint pain query, 9d, top 1.7%).",
+   "copy_slots": [
+    "handwritten note line 1 (<=6 words)",
+    "handwritten note line 2 (<=6 words)"
+   ],
+   "reference_blocks": [
+    "raw unboxing photo",
+    "handwritten note"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "overhead raw phone photo of an opened shipping box on a counter with product jars inside and tissue paper, a white handwritten sticky note stuck on the box lid with two short handwritten lines",
+   "copy_notes": "Handwritten note allowed (reference is handwritten).",
+   "dr_brief": {
+    "who": "retainer",
+    "avatar": "adult 20-45 wearing a clear retainer nightly after braces",
+    "angle_habit": "rinsing, brushing, leaving it in a damp case",
+    "point_of_contact": "'milky', 'cloudy', 'smells', 'my retainer is clear again!' (customer quote)",
+    "problem_mechanism": "film + bacteria build up in the tooth contours and the damp case",
+    "function_mechanism": "rinsing and brushing leave film in the grooves",
+    "solution_mechanism": "5-minute ultrasonic cycle, tap water, clear again with no white film",
+    "risk_reversal": "120-day money-back guarantee"
+   }
+  },
+  {
+   "id": "W48_38_ret_dark_tape_offer",
+   "group": "net_new",
+   "persona": "retainer",
+   "lang": "en",
+   "colorway": "denture_gift_bundle",
+   "funnel": "offer",
+   "appliance": "retainer_clear",
+   "format_name": "sonic_dark_tape_ribbons",
+   "benchmark": "rv_w48_sonic_dark_tape_ribbons",
+   "format_ref": true,
+   "angle": "Black Friday tape ribbons: 40% off for retainer wearers",
+   "based_on": "Rival: Sonic 'Up To 40% Off' with BF tape ribbons (0d) and 'Sonic Pro Bundle — Your retainers deserve this. Up to 30% off' -> flat 40% + free case + bag. Layout reference: Sonic Dental '🖤 Black Friday: Up to 40% Off' (rivals pull 2026-11-20, 0d, top 32.8%).",
+   "copy_slots": [
+    "headline (<=5 words)",
+    "tape ribbon text (<=4 words, repeated)",
+    "small line (gifts + guarantee)"
+   ],
+   "reference_blocks": [
+    "brand line",
+    "headline",
+    "product basin",
+    "tape ribbons"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "near-black background, small brand line at the top, a thin white headline with the number in mint, an overhead photo of the product's open basin center, two diagonal mint tape ribbons with small repeated text crossing the bottom corners",
+   "offer": "40% OFF sitewide + FREE shipping + FREE dental case + FREE travel bag with your order + 120-day money-back guarantee; Pod $99.95",
+   "rival": "Sonic 'Up to 40%/30% off' retainer bundle -> flat 40% + free case + bag",
+   "dr_brief": {
+    "who": "retainer",
+    "avatar": "adult 20-45 wearing a clear retainer nightly after braces",
+    "angle_habit": "rinsing, brushing, leaving it in a damp case",
+    "point_of_contact": "'milky', 'cloudy', 'smells', 'my retainer is clear again!' (customer quote)",
+    "problem_mechanism": "film + bacteria build up in the tooth contours and the damp case",
+    "function_mechanism": "rinsing and brushing leave film in the grooves",
+    "solution_mechanism": "5-minute ultrasonic cycle, tap water, clear again with no white film",
+    "risk_reversal": "120-day money-back guarantee"
+   }
+  },
+  {
+   "id": "W48_39_haw_curved_arrows_crust",
+   "group": "net_new",
+   "persona": "retainer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "retainer_hawley",
+   "format_name": "zima_de_curved_arrows",
+   "benchmark": "rv_w48_zima_de_curved_arrows",
+   "format_ref": true,
+   "angle": "Hawley wire crust: four arrows to where the crust and film hide",
+   "based_on": "Feedback: retainers 'white crust', 'smell' + Notion DEN221 '3 Worst Ways to clean retainers'. Layout reference: Zima Dental 'Von über 8000 Zahnärzten empfohlen' (rivals pull 2026-11-20, 0d).",
+   "copy_slots": [
+    "kicker (<=4 words)",
+    "2-line headline",
+    "4 arrow labels (<=4 words each)"
+   ],
+   "reference_blocks": [
+    "kicker",
+    "headline",
+    "product",
+    "4 arrow labels"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "pale blue background, small kicker line, two-line navy uppercase headline, product at the bottom center with four short labels connected by thin curved arrows",
+   "dr_brief": {
+    "who": "retainer",
+    "avatar": "teen-to-adult (or parent of a teen) with a Hawley retainer (acrylic plate + wire)",
+    "angle_habit": "brushing the plate, soaking in mouthwash",
+    "point_of_contact": "white crust along the wire, yellow film on the plate, smell",
+    "problem_mechanism": "calcium crust and bacteria build where the wire meets the acrylic",
+    "function_mechanism": "bristles can't get under the wire loops",
+    "solution_mechanism": "ultrasonic cavitation reaches under the wire, 5 minutes, tap water",
+    "risk_reversal": "120-day money-back guarantee"
+   }
+  },
+  {
+   "id": "W48_40_haw_notebook_list",
+   "group": "net_new",
+   "persona": "retainer",
+   "lang": "en",
+   "colorway": "pod",
+   "funnel": "tof",
+   "appliance": "retainer_hawley",
+   "format_name": "zyara_notebook_list",
+   "benchmark": "rv_w48_zyara_notebook_list",
+   "format_ref": true,
+   "angle": "Handwritten notebook list: retainer wire crust, finally gone",
+   "based_on": "Feedback 'You rinse it. It still smells. That's bacteria.' + 'Never sure it's actually clean?' Layout reference: Anna Janeston 'Lower Denture Reliner' (inspiration pull 2026-11-20, teeth whitening query, 10d, top 2.0%).",
+   "copy_slots": [
+    "2-line handwritten title + boxed word",
+    "4 list lines (<=6 words each)"
+   ],
+   "reference_blocks": [
+    "handwritten title",
+    "4 list lines",
+    "product"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format"
+   ],
+   "ref_layout": "photo of an open lined notebook page with handwritten black marker title (2 lines, one word boxed), four dashed handwritten list lines, and the product tube lying on the page at the left",
+   "copy_notes": "Handwritten allowed (reference is handwritten). Product lies on a bathroom counter beside the notebook, not in hand.",
+   "dr_brief": {
+    "who": "retainer",
+    "avatar": "teen-to-adult (or parent of a teen) with a Hawley retainer (acrylic plate + wire)",
+    "angle_habit": "brushing the plate, soaking in mouthwash",
+    "point_of_contact": "white crust along the wire, yellow film on the plate, smell",
+    "problem_mechanism": "calcium crust and bacteria build where the wire meets the acrylic",
+    "function_mechanism": "bristles can't get under the wire loops",
+    "solution_mechanism": "ultrasonic cavitation reaches under the wire, 5 minutes, tap water",
+    "risk_reversal": "120-day money-back guarantee"
+   }
+  }
+ ]
+}
