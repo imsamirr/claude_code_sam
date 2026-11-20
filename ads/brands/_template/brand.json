@@ -46,6 +46,13 @@
     "es": "All on-image text is in Spanish exactly as written in quotes, as a Spanish-speaking person living in the USA would say it (neutral US Latino, Mexican-leaning, using 'tú'). Keep every accent and sign: á é í ó ú ñ ¿ ¡. Numbers in US format. Do not translate brand names."
   },
   "atria_account": "exact ad-account name in Atria",
+  "concept_rules": {
+    "stacking": "How concepts must be built for this account (e.g. stack 2-3 personas/occasions/conditions)",
+    "evidence_30d_to_YYYY-MM-DD": ["full Atria ad name (stack): spend, ROAS"],
+    "winning_skeleton": "the format the account's winners share",
+    "real_features_for_mechanisms": ["only real product features; never invent tests, patents or stats"],
+    "in_test_YYYY-MM": []
+  },
   "video_deep_dive": {
     "atria_account_id": "Atria ad-account id (list_ad_accounts -> id)",
     "meta_ad_account_id": "act_...",

@@ -219,6 +219,21 @@
   },
   "format_guides_note": "Testimonial/review ads use fb_comment or trustpilot; tweet-style ads use x_post. Cartoon/animation formats (user rule, Oct 11: use them, both brands): cartoon_3d, comic_strip, flat_illustration, claymation, retro_cartoon, anime_soft. Aim for ~15–20% of every batch.",
   "atria_account": "WearOrtho",
+  "concept_rules": {
+    "stacking": "Big swings only: every concept stacks 2-3 dimensions (persona/job x body or life stage x condition x occasion/season x language) that collide into one specific, dated, physical problem. Single-persona or generic concepts underperform in this account.",
+    "evidence_30d_to_2026-11-19": [
+      "TOFV1_KW1 | COM284_HO1 (plus-size x Disney x podiatrist teardown): $6.8K, 2.43 ROAS",
+      "INT_05.28.26_Nurse Page_Kyro390v1_H5 (nurse x podiatrist): $5.9K, 1.84",
+      "INT_07.03.26_..._COM55_..._AR20 - Senior (60+ x podiatrist): $2.3K, 2.11",
+      "TOFV1_HI16 | Nurse | COM225_Kyro390 Spanish (nurse x Spanish x doctor rating): $7.6K, 1.64",
+      "TOFV1_JW1 | COM320_HO1 (Disney x podiatrist teardown): $15.9K, 1.62",
+      "TOFv1_HF7 | Kyro369v2 hook2 (generic Europe travel, no expert): $20.5K, 1.30",
+      "Exceptions: plus-size x cruise COM374 ~1.18 (ran Disney copy + summer page); nurse drama skits COM296/COM362 0.83-0.92 (great hook/hold, no sales); neuropathy-only 0.63-0.73"
+    ],
+    "winning_skeleton": "Expert composited over real occasion footage in first 3s; competitor teardown with prices; why-it-fails mechanism; hour-by-hour pain; payoff shot; product by ~0:40; proof block; offer. Landing page, headline and ad text must match the stack.",
+    "real_features_for_mechanisms": ["stretch-knit upper that gives as feet swell", "built-in structured arch (nothing to pack down)", "wide toe box", "rocker sole", "lug outsole grip", "elastic bungee laces + pull tab (no tying, no bending)", "$59.95 vs $130-180 athletic shoes"],
+    "in_test_2026-11": ["plus-size x NYC travel", "church women x foot pain"]
+  },
   "video_deep_dive": {
     "atria_account_id": "a829d015648d481fb70eb471556cdb77",
     "meta_ad_account_id": "act_471512623576169",
