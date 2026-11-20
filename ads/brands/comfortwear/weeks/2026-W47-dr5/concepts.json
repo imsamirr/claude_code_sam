@@ -1,0 +1,253 @@
+{
+  "week": "2026-W47-dr5",
+  "notes": "User 2026-11-20: 5 statics with the Carneiro ad-psychology method (§2b). Risk mix: 1 conservative, 3 moderate, 1 aggressive. Copy by StefanBrain.",
+  "concepts": [
+    {
+      "id": "DR_01_hour1_vs_hour10_nurse",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "funnel": "tof",
+      "risk": "conservative",
+      "bets": [],
+      "angle": "Running shoes weren't built for 12-hour shifts (proven: WA_NOT_NUR, Cuurt 'Your ASICS weren't built for pickleball')",
+      "based_on": "Our WA_NOT 'Your sneakers weren't built for 12-hour shifts' + Cuurt pickleball layout; nurse is our biggest segment (avatar_personas Persona 1)",
+      "copy_slots": [
+        "3-line headline in the proven structure 'Your <shoes> weren't built for <12-hour shifts>' (fresh wording from the last version)",
+        "1-line problem subline (the foam/swelling mechanism in under 10 words)",
+        "2 tiny panel labels: HOUR 1 / HOUR 10 style",
+        "small offer tag"
+      ],
+      "dr_brief": {
+        "identification": "limping to the car after a 12; the shoes felt fine at 7 AM",
+        "point_of_contact": "It's my shoes / the hard floors / I'm just getting older (confirm shoes, reframe age)",
+        "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+        "function_mechanism": "Insoles sit inside the same narrow shoe and clogs don't give; she needs support that doesn't flatten plus room that gives as feet swell, in one shoe.",
+        "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+        "conditions": "Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+        "usp": "The only shoe she's found with built-in support AND stretch-knit room in one, at $59.95",
+        "features": {
+          "built-in arch support + cushioned rocker sole": "odds (support still there at hour 10)",
+          "stretch-knit upper + wide toe box": "odds/dream (room as feet swell, no pinch)",
+          "no-tie bungee laces": "effort (slip on, nothing to retie)",
+          "slip-resistant grip": "dream (steady on tile and stone)"
+        },
+        "anchoring": "$59.95 vs a closet of $160-$220 pairs that quit by lunchtime; at 60% off it's less than a dollar a shift.",
+        "risk_reversal": "30 days is enough to wear them through 10+ shifts or a whole trip and decide on her own feet; the bigger risk is another season in shoes that already failed. Never say 'easy returns'.",
+        "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns; code LEAKED10 for an extra 10%",
+        "lose_later": "The Black Friday price ends when the sale ends (no stock/scarcity stories).",
+        "who": "the reader herself (nurse), no narrator",
+        "topic": "why 'comfortable' sneakers stop working mid-shift",
+        "format": "split photo: same nurse's feet at hour 1 (fresh) vs hour 10 (feet puffy, foam squashed) with our shoe as the answer",
+        "concept": "Same sneakers, same nurse, hour 1 vs hour 10: the shoe changes, not her",
+        "copy_hook_structure": "Your <shoes> weren't built for <situation> (validated)",
+        "visual_hook": "close-up of a running-shoe heel foam visibly squashed flat at hour 10"
+      },
+      "group": "net_new",
+      "lang": "en",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off",
+      "tags": [
+        "dr_method"
+      ]
+    },
+    {
+      "id": "DR_02_disney_day2_text_plus",
+      "persona": "plus_size",
+      "colorway": "black_purple",
+      "funnel": "tof",
+      "risk": "moderate",
+      "bets": [
+        "concept: family group text after Disney day 1"
+      ],
+      "angle": "Plus-size woman at Disney who sat out day 2 last trip (proven segment: TOFV1_NH3 GeneralOverweightParkDay, top spender)",
+      "based_on": "Top spender TOFV1_NH3 'Disney day … fine at breakfast, hour 8 is a different story'; P2 notification format",
+      "copy_slots": [
+        "group-chat name (2-3 words, family trip)",
+        "3 short text bubbles: daughter asks about day 2 / mom's honest reply about last trip / daughter's reply",
+        "headline over the image (max 10 words, identification + mechanism beat)",
+        "small offer tag"
+      ],
+      "dr_brief": {
+        "identification": "'I'm terrified of being the person on the bench holding everyone's bags' (avatar internal monologue)",
+        "point_of_contact": "her weight and her 'comfortable sneakers' (confirm the shoes, never blame her body)",
+        "problem_mechanism": "Regular sneakers' soft foam flattens faster under more weight and the tapered toe box clamps as feet swell in the heat, so hour 8 hurts even if breakfast felt fine.",
+        "function_mechanism": "She needs support that doesn't flatten under weight and room that gives as feet swell.",
+        "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+        "conditions": "Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+        "usp": "The only shoe she's found with built-in support AND stretch-knit room in one, at $59.95",
+        "features": {
+          "built-in arch support + cushioned rocker sole": "odds (support still there at hour 10)",
+          "stretch-knit upper + wide toe box": "odds/dream (room as feet swell, no pinch)",
+          "no-tie bungee laces": "effort (slip on, nothing to retie)",
+          "slip-resistant grip": "dream (steady on tile and stone)"
+        },
+        "anchoring": "$59.95 vs a closet of $160-$220 pairs that quit by lunchtime; at 60% off it's less than a dollar a shift.",
+        "risk_reversal": "30 days is enough to wear them through 10+ shifts or a whole trip and decide on her own feet; the bigger risk is another season in shoes that already failed. Never say 'easy returns'.",
+        "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns; code LEAKED10 for an extra 10%",
+        "lose_later": "The Black Friday price ends when the sale ends (no stock/scarcity stories).",
+        "who": "her adult daughter in the family group chat (warm, not salesy)",
+        "topic": "Disney day 2: last trip she sat on a bench holding everyone's bags",
+        "format": "phone group-chat screenshot over a photo of our shoes by a packed suitcase",
+        "concept": "The family text the night before the trip; mom admits last year's sneakers quit by hour 8",
+        "copy_hook_structure": "overheard text conversation (native, guard-down)",
+        "visual_hook": "a real-looking family group chat with 'Disney trip 🏰' title"
+      },
+      "group": "net_new",
+      "lang": "en",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off",
+      "tags": [
+        "dr_method"
+      ]
+    },
+    {
+      "id": "DR_03_this_is_what_happens_7am_7pm",
+      "persona": "nurse",
+      "colorway": "navy_blue",
+      "funnel": "tof",
+      "risk": "moderate",
+      "bets": [
+        "hook structure new for us: 'This is what happens to your feet when…'"
+      ],
+      "angle": "Swelling mechanism shown across one shift (7 AM fit becomes a 2 PM clamp)",
+      "based_on": "Carneiro: 'This is what happens to…' is a top-performing hook structure; avatar §1.2 'fits at 7 AM, clamp by 2 PM, vice by 6 PM'",
+      "copy_slots": [
+        "headline in the structure 'This is what happens to your feet when you <habit> in <their shoes>' (max 14 words)",
+        "3 time labels with 2-4 word captions each (7 AM / 2 PM / 7 PM)",
+        "bottom line: our shoe as the answer (max 10 words)",
+        "small offer tag"
+      ],
+      "dr_brief": {
+        "identification": "a shoe that fit at 7 AM is a vice by 6 PM",
+        "point_of_contact": "It's my shoes / the hard floors / I'm just getting older (confirm shoes, reframe age)",
+        "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+        "function_mechanism": "She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+        "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+        "conditions": "Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+        "usp": "The only shoe she's found with built-in support AND stretch-knit room in one, at $59.95",
+        "features": {
+          "built-in arch support + cushioned rocker sole": "odds (support still there at hour 10)",
+          "stretch-knit upper + wide toe box": "odds/dream (room as feet swell, no pinch)",
+          "no-tie bungee laces": "effort (slip on, nothing to retie)",
+          "slip-resistant grip": "dream (steady on tile and stone)"
+        },
+        "anchoring": "$59.95 vs a closet of $160-$220 pairs that quit by lunchtime; at 60% off it's less than a dollar a shift.",
+        "risk_reversal": "30 days is enough to wear them through 10+ shifts or a whole trip and decide on her own feet; the bigger risk is another season in shoes that already failed. Never say 'easy returns'.",
+        "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns; code LEAKED10 for an extra 10%",
+        "lose_later": "The Black Friday price ends when the sale ends (no stock/scarcity stories).",
+        "who": "a calm explainer voice (no character)",
+        "topic": "feet swell through a shift; your shoes don't",
+        "format": "3-step timeline strip of the same foot in a regular sneaker at 7 AM, 2 PM, 7 PM, then our shoe",
+        "concept": "Watch a normal sneaker turn into a clamp over one 12-hour shift",
+        "copy_hook_structure": "This is what happens to your feet when you <habit> (validated across markets)",
+        "visual_hook": "toes visibly bulging against a tight sneaker by 7 PM"
+      },
+      "group": "net_new",
+      "lang": "en",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off",
+      "tags": [
+        "dr_method"
+      ]
+    },
+    {
+      "id": "DR_04_cobblestone_comment_europe",
+      "persona": "traveler",
+      "colorway": "red_burgundy",
+      "benchmark": "i4_hsa",
+      "format_ref": true,
+      "funnel": "tof",
+      "risk": "moderate",
+      "bets": [
+        "topic: 'what shoes for cobblestones' search question"
+      ],
+      "angle": "Europe bucket-list trip: cobblestones + 20,000 steps",
+      "based_on": "Flux comment-bubble format (validated); persona 8 Cobblestone Explorer; Kyro 293/369 travel winners (Lisbon/Paris trip diaries)",
+      "copy_slots": [
+        "commenter handle (fictional, first name style)",
+        "comment question (the search question she'd type, max 12 words)",
+        "big answer line (max 16 words)",
+        "small offer tag"
+      ],
+      "dr_brief": {
+        "identification": "the trip of a lifetime spent on a bench in Paris",
+        "point_of_contact": "It's my shoes / the hard floors / I'm just getting older (confirm shoes, reframe age)",
+        "problem_mechanism": "Uneven stone rolls the foot; soft running foam squashes and a tapered toe box pinches by day 2, when feet swell from flying and walking.",
+        "function_mechanism": "She needs support that doesn't squash, grip, and room for travel-swollen feet. Bringing 3 pairs or insoles doesn't fix a narrow, flattening shoe.",
+        "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+        "conditions": "Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+        "usp": "The only shoe she's found with built-in support AND stretch-knit room in one, at $59.95",
+        "features": {
+          "built-in arch support + cushioned rocker sole": "odds (support still there at hour 10)",
+          "stretch-knit upper + wide toe box": "odds/dream (room as feet swell, no pinch)",
+          "no-tie bungee laces": "effort (slip on, nothing to retie)",
+          "slip-resistant grip": "dream (steady on tile and stone)"
+        },
+        "anchoring": "$59.95 vs a closet of $160-$220 pairs that quit by lunchtime; at 60% off it's less than a dollar a shift.",
+        "risk_reversal": "30 days is enough to wear them through 10+ shifts or a whole trip and decide on her own feet; the bigger risk is another season in shoes that already failed. Never say 'easy returns'.",
+        "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns; code LEAKED10 for an extra 10%",
+        "lose_later": "The Black Friday price ends when the sale ends (no stock/scarcity stories).",
+        "who": "another traveler answering in the comments",
+        "topic": "'What shoes do I wear for cobblestones in Europe?' (common pre-trip question)",
+        "format": "social comment bubble over a top-down photo of our shoes on cobblestones with a passport",
+        "concept": "The pre-trip question everyone asks, answered by someone who learned the hard way",
+        "copy_hook_structure": "question comment → confident answer (validated)",
+        "visual_hook": "our shoes on real cobblestones next to a passport"
+      },
+      "group": "net_new",
+      "lang": "en",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off",
+      "tags": [
+        "dr_method"
+      ]
+    },
+    {
+      "id": "DR_05_podiatrist_cut_open",
+      "persona": "comfort_only",
+      "colorway": "black_white",
+      "funnel": "tof",
+      "risk": "aggressive",
+      "bets": [
+        "format: specialist explainer character",
+        "visual: a running shoe cut in half beside ours"
+      ],
+      "angle": "A podiatrist shows why 'comfortable' sneakers stop working (approved: podiatrist-recommended; podiatrist character allowed)",
+      "based_on": "Carneiro worked example (specialist + prop explainer); Dr. Amy split; approved claims include podiatrist-recommended and podiatrist characters (CLAUDE.md)",
+      "copy_slots": [
+        "headline (max 12 words, the specialist's claim about sneakers)",
+        "2 short labels on the cut-open sneaker (what's wrong)",
+        "2 short labels on our shoe (what's different)",
+        "1 caption line under the doctor (no real name)",
+        "small offer tag"
+      ],
+      "dr_brief": {
+        "identification": "her shoe graveyard of $180 sneakers that betrayed her by lunchtime",
+        "point_of_contact": "It's my shoes / the hard floors / I'm just getting older (confirm shoes, reframe age)",
+        "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+        "function_mechanism": "She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+        "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+        "conditions": "Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+        "usp": "The only shoe she's found with built-in support AND stretch-knit room in one, at $59.95",
+        "features": {
+          "built-in arch support + cushioned rocker sole": "odds (support still there at hour 10)",
+          "stretch-knit upper + wide toe box": "odds/dream (room as feet swell, no pinch)",
+          "no-tie bungee laces": "effort (slip on, nothing to retie)",
+          "slip-resistant grip": "dream (steady on tile and stone)"
+        },
+        "anchoring": "$59.95 vs a closet of $160-$220 pairs that quit by lunchtime; at 60% off it's less than a dollar a shift.",
+        "risk_reversal": "30 days is enough to wear them through 10+ shifts or a whole trip and decide on her own feet; the bigger risk is another season in shoes that already failed. Never say 'easy returns'.",
+        "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns; code LEAKED10 for an extra 10%",
+        "lose_later": "The Black Friday price ends when the sale ends (no stock/scarcity stories).",
+        "who": "a friendly podiatrist character (fictional, no real name or credentials claimed beyond 'podiatrist')",
+        "topic": "what's actually inside the 'comfy' sneaker in your closet",
+        "format": "clinic photo: specialist holding a running shoe sawn in half next to our shoe",
+        "concept": "A podiatrist cuts a popular-style sneaker in half to show why it quits by hour 6",
+        "copy_hook_structure": "specialist reveal: 'Here's why your <comfortable sneakers> stop working by <hour 6>'",
+        "visual_hook": "a sneaker sliced in half showing thin squashed foam and a narrow toe"
+      },
+      "group": "net_new",
+      "lang": "en",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off",
+      "tags": [
+        "dr_method"
+      ]
+    }
+  ]
+}
