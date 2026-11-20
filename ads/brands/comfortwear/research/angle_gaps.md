@@ -119,3 +119,39 @@ Gap concepts this batch: T46_07 (guarantee as the whole ad, Hike "30 days. Zero 
 | Plus-size / heavier women | 5 | 105 | Hike, Musabela | 84 | we lead |
 
 Gap concepts this batch: **T47_19** (over 60 + wet fall sidewalks, slip-resistant grip only, no fall-prevention claim) and **T47_20** (Black/Purple "back in stock", Hike sold-out/restock format) **needs_confirmation: launch only if Black/Purple truly sold out and was restocked**.
+
+## 2026-11-20: 2,136 ads from 17 brands (Hike 93, Stepprs 161, Footstr 143, Orthofeet 138, Kuru 118, Vionic 141, OrthoFit 168, Clove 68, WearStand 141, Musabela 137, Armadilo 161, Konjoun 176, Stryde 189, Foamr 134, Viasox 165, Snibbs 2, Bright 1; 479 new since 11-17). Keyword tags on title+body; weight = days running x (1.5 if active). "Ours" = all weeks/*/concepts.json headlines+angles (58 files). Keyword map tightened this run ("rain" no longer matches "strain", "free gift" split from holiday gifting, travel bag excluded), so winter/gifting weights are lower than 11-17 and not comparable.
+
+| Angle | Ads | Weight | Pushing it | Ours | Verdict |
+|---|---|---|---|---|---|
+| Nurse / healthcare / 12h shifts | 301 | 30,562 | Stepprs, Stryde, WearStand, OrthoFit | 290 | covered (we lead) |
+| Plantar fasciitis / heel pain | 216 | 29,933 | Stepprs, Kuru, OrthoFit, Foamr, Orthofeet | 85 | covered |
+| Knee / hip / back | 453 | 22,287 | Stryde, WearStand, Konjoun, Footstr | 34 | covered |
+| Guarantee / risk-free headline | 553 | 21,894 | Stryde, Konjoun, OrthoFit, Orthofeet, Hike ("Better balance or you don't pay") | 28 | covered (T47_12) |
+| Morning first steps | 141 | 21,694 | Stepprs ($42 → $11 "Morning heel pain"), Konjoun, Viasox | 15 | covered (T47_11) |
+| Fall / balance / stability | 374 | 20,270 | Stryde, Armadilo, WearStand, Konjoun, Hike | 24 | skip: claim risk (grip wording only) |
+| BOGO / buy N | 471 | 19,697 | Stryde, Armadilo, Viasox, Konjoun, Hike BF 1+1 | 15 | offer we don't run: answer with BUY 2 PAIRS, GET 2 FREE GIFTS |
+| Bunions / wide toe box | 385 | 9,934 | OrthoFit, Armadilo, Hike, Musabela | 32 | covered (room for bunions; no extra-wide promise) |
+| **Doctor / podiatrist recommended as the lead** | 194 | 8,301 | Stepprs ("Dr. Thomas", podiatrist-recommended), WearStand ("Podiatrist-approved. HSA/FSA eligible."), Orthofeet ("Reasons to try" grid, 118d), OrthoFit ("My podiatrist said it's not my knees", 100d) | 2 (only as badges inside prompts) | **GAP: approved claim we barely headline. Ref `rv420g_orthofeet_reasons_grid_podiatrist.jpg`** |
+| Style | 147 | 6,724 | WearStand, Kuru, OrthoFit, Vionic | 36 | covered |
+| Scarcity / restock / sold out | 121 | 6,164 | Konjoun, WearStand, Stepprs, Hike | 3 | needs_confirmation (T47_20 pending) |
+| Grounding / barefoot | 125 | 5,682 | Konjoun, Hike (ROOTSIE), Armadilo | 2 | skip: wrong product + claim risk |
+| Age call-out (over 60, retirees) | 124 | 4,548 | Konjoun, OrthoFit, Armadilo, Hike ("Retirement without sore feet", new) | 23 | covered (AG_ series, T47_19) |
+| Hands-free / slip-in | 105 | 3,736 | Stepprs, Armadilo, Konjoun, Hike | 5 | covered (W46_37, W45_31) |
+| Swelling | 143 | 3,520 | Viasox, OrthoFit, Armadilo, Hike ("14 days to relieve swollen ankles") | 48 | covered (stretch-knit wording only) |
+| HSA/FSA | 42 | 3,215 | WearStand, Kuru | 15 | covered (pair with podiatrist gap) |
+| Counterfeit | 13 | 2,774 | Stepprs, Kuru, Stryde, Konjoun | 2 | needs_confirmation: needs a true fact (ask user) |
+| Pickleball / golf | 29 | 2,338 | WearStand, OrthoFit, Kuru | 3 | tested T46_20 |
+| BF free gift / bundle bonus | 89 | 2,068 | OrthoFit, Stepprs (free gift + $20K/$25K giveaway), Konjoun, Clove | 20 | covered (our 2 free gifts); giveaways: skip |
+| Holiday gifting (mom, Christmas) | 52 | 1,024 | Footstr, Viasox, Clove ("The Gift of Comfort"), Hike ("Coziest gift", "Best gift for mom") | 41 | covered |
+| Holiday travel | 41 | 784 | WearStand, Vionic, Viasox | 236 | we lead |
+| Neuropathy / diabetic | 15 | 778 | Orthofeet, Viasox, Stepprs | 4 | skip: medical/personal-attribute risk |
+| Winter / cold / wet | 94 | 735 (+ Hike Cozely, 0-5d) | Footstr, Musabela, Orthofeet, Hike | 5 | covered by T47_19 (wet sidewalks); boots = wrong product |
+| Chef / kitchen / server / retail | 27 | 470 | WearStand, Footstr, Orthofeet | 13 | covered |
+| Reason-why discount (overstock / mistake) | 17 | 265 | Footstr, OrthoFit ("We Are Sorry! We overstocked"), Stepprs ("We f*cked up", on-image) | 8 | needs_confirmation: TRUE reason only (ask user) |
+| Plus-size / heavier women | 4 | 106 | Hike, Musabela | 99 | we lead |
+| GLP-1 / weight loss | 0 | 0 | none | 1 | skip: nobody tests it, claim risk |
+| **Walking again / walks cut short** | 14 (+10 new Stepprs statics, 1-2d, on-image) | 24 (all new) | Stepprs ("Tired of being the one who turns back early?", "You never wanted to quit walking", "It wasn't the walk, it was the aching after"), Hike ("I now walk farther", Margaret, 63) | 0 daily-walk headlines (10 "steps" headlines are travel) | **GAP (new test by Stepprs, 10 variants at once). Ref `rv420g_stepprs_walks_turn_back_early.jpg`** |
+| **Brand humor: "We're sorry" side effects (no offer)** | 1 by keyword; 5 new Stepprs statics on-image (1d) | 22 | Stepprs ("We're Sorry. Your daily step count has become your entire personality"), OrthoFit | 9 apologies, all discount reason-why | **GAP (format: comfort side-effects, no discount reason needed). Ref `rv420g_stepprs_were_sorry_side_effects.jpg`** |
+
+Gap picks for the 2026-11-20 Friday batch (tag `angle_gap`): (1) **podiatrist-/doctor-recommended as the headline** with a reasons grid (approved claims only: podiatrist-recommended, HSA/FSA eligible, 30-day money-back guarantee, free shipping & returns, 500,000+; no "approved", no named doctor, no counts); (2) **walking again** for the daily-walker persona who cuts walks short (comfort / arch support wording, no "pain-free"); (3) **"We're sorry" comfort side-effects** humor card (e.g. step count, longer walks; no offer reason needed). None needs_confirmation. Not repeating T47_19 (over-60 wet sidewalks) or T47_20 (back in stock).

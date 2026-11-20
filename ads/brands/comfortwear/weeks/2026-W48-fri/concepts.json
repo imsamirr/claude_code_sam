@@ -1,0 +1,2852 @@
+[
+ {
+  "id": "W48_01_vanity_sticky_shift_tonight",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "nurse",
+  "colorway": "black_purple",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_night_vanity_sticky",
+  "format_ref": true,
+  "format_name": "night_vanity_sticky_mirror_routine",
+  "format_source": "Milamiamor (gut supplement), 50d, rising",
+  "background": "10 Real interior at a time of day: Bathroom vanity at night with candles and a mirror",
+  "background_source": "Milamiamor (gut supplement), 50d, rising",
+  "angle": "Nurse PF: tomorrow's 12 starts tonight (sticky note on the mirror counts the shifts)",
+  "based_on": "SOURCE RTGv1_B6 Emily RN UGC video ($4,028 30d, ROAS 3.59; $99,912 lifetime, 3.05). Transcript: 'No more limping to my car after a 12-hour shift', 'Three other nurses on my floor ordered them', 'Way cheaper than the $300 orthotics'. Primary text: \"I'm a nurse with plantar fasciitis... hurting my feet after 3 12s in a row... I have worn them up to 4 12s in a row at the ER... I rotate between 2 pairs\" - Emily, RN.",
+  "reference_blocks": [
+   "2-line headline",
+   "subline",
+   "sticky note (day counter)",
+   "pill CTA"
+  ],
+  "copy_slots": [
+   "2-line headline",
+   "1 subline",
+   "sticky note text (shift counter, max 3 words)",
+   "small pill line"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "FP",
+   "PF"
+  ],
+  "dr_brief": {
+   "who": "the nurse herself",
+   "avatar": "woman 35-60, US, hospital RN or CNA, mom/caregiver at home, PF or heel pain 2+ years, works 3-4 12s in a row",
+   "language": [
+    "12s",
+    "3 12s in a row",
+    "limping to my car",
+    "by hour 8",
+    "nurse wages",
+    "on the floor",
+    "rotate 2 pairs"
+   ],
+   "angle_habit": "puts insoles into the same running shoes and keeps working through it",
+   "dream": "walks to her car at 7:30 PM with energy left to cook for her kids",
+   "identification": "by hour 8 her heels throb; she dreads the walk to the parking garage",
+   "point_of_contact": "\"it is my shoes / the hard floors\" (Emily RN B6 script, Stepprs insoles memes, Hike nurse ads all blame the shoe)",
+   "problem_mechanism": "running-shoe foam packs flat by hour 4-6 while feet swell; tapered toe box clamps; heel tilts weight forward",
+   "function_mechanism": "insoles sit inside the same narrow shoe and eat toe room; clogs give support with no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces",
+   "conditions": "DIY substitutes: sizing up (heel slips), insoles (eat toe room), clogs (no give)",
+   "usp": "support AND stretch-knit room in one shoe at $59.95",
+   "features": {
+    "built-in arch support + cushioned rocker sole": "odds",
+    "stretch-knit upper + wide toe box": "dream",
+    "slip-resistant grip": "odds (wet hospital tile)",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs the next $160 running shoes + insoles every few months; less than a dollar a shift",
+   "risk_reversal": "30 days = 10+ shifts on her own floor; full refund if not for her",
+   "topic": "the night before shift 3 of 4 over Thanksgiving week",
+   "concept": "She lays out her shoes the night before shift 3 of 4; the sticky note counts shifts, not pain",
+   "visual_hook": "candlelit bathroom vanity, sticky note on the mirror reading a shift count, the shoe on the counter",
+   "copy_hook_structure": "proven: \"3 12s in a row\" (Emily RN)",
+   "format": "look from Milamiamor (gut supplement), 50d, rising (night_vanity_sticky_mirror_routine); characters: the nurse herself",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  }
+ },
+ {
+  "id": "W48_02_nana_note_nurse_shoes",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "nurse",
+  "colorway": "navy_blue",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_grandma_note_kitchen",
+  "format_ref": true,
+  "format_name": "grandma_handwritten_letter_kitchen_headline",
+  "format_source": "Florus Relief (migraine roll-on), 154d, proven 60+d",
+  "background": "10 Real interior at a time of day: Soft-focus home kitchen counter",
+  "background_source": "Florus Relief (migraine roll-on), 154d, proven 60+d",
+  "angle": "Nurse PF: a retired-nurse grandma's handwritten note about shoes (1960s nurse nostalgia)",
+  "based_on": "SOURCE RTGv1_B5 Kyro_296 video ($481 30d, ROAS 4.68; transcribed 2026-11-20): 'Have you ever wondered why nurses in the 1960s rarely complained about foot pain?' Old nurse shoes = firm support + room; today's running shoes = soft foam that flattens.",
+  "reference_blocks": [
+   "3-line headline",
+   "handwritten note (5-6 lines + signature)"
+  ],
+  "copy_slots": [
+   "3-line headline ending with a down arrow",
+   "handwritten note 5-6 short lines + signature"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "FP",
+   "PF"
+  ],
+  "dr_brief": {
+   "who": "the nurse herself",
+   "avatar": "woman 35-60, US, hospital RN or CNA, mom/caregiver at home, PF or heel pain 2+ years, works 3-4 12s in a row",
+   "language": [
+    "12s",
+    "3 12s in a row",
+    "limping to my car",
+    "by hour 8",
+    "nurse wages",
+    "on the floor",
+    "rotate 2 pairs"
+   ],
+   "angle_habit": "puts insoles into the same running shoes and keeps working through it",
+   "dream": "walks to her car at 7:30 PM with energy left to cook for her kids",
+   "identification": "by hour 8 her heels throb; she dreads the walk to the parking garage",
+   "point_of_contact": "\"it is my shoes / the hard floors\" (Emily RN B6 script, Stepprs insoles memes, Hike nurse ads all blame the shoe)",
+   "problem_mechanism": "running-shoe foam packs flat by hour 4-6 while feet swell; tapered toe box clamps; heel tilts weight forward",
+   "function_mechanism": "insoles sit inside the same narrow shoe and eat toe room; clogs give support with no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces",
+   "conditions": "DIY substitutes: sizing up (heel slips), insoles (eat toe room), clogs (no give)",
+   "usp": "support AND stretch-knit room in one shoe at $59.95",
+   "features": {
+    "built-in arch support + cushioned rocker sole": "odds",
+    "stretch-knit upper + wide toe box": "dream",
+    "slip-resistant grip": "odds (wet hospital tile)",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs the next $160 running shoes + insoles every few months; less than a dollar a shift",
+   "risk_reversal": "30 days = 10+ shifts on her own floor; full refund if not for her",
+   "topic": "what nurses in the 1960s knew about shoes",
+   "concept": "A retired nurse grandma leaves a note for her nurse granddaughter about what shoes her generation wore",
+   "visual_hook": "torn lined notebook page in a hand, handwritten, kitchen counter with the shoe",
+   "copy_hook_structure": "proven curiosity question (Kyro_296 hook)",
+   "format": "look from Florus Relief (migraine roll-on), 154d, proven 60+d (grandma_handwritten_letter_kitchen_headline); characters: the nurse herself",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  }
+ },
+ {
+  "id": "W48_03_free_bag_second_pair",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "nurse",
+  "colorway": "black_white",
+  "funnel": "offer",
+  "offer": "Black Friday (current offer): BUY 2 PAIRS, GET 2 FREE GIFTS = a 3-PACK OF CUSHIONED SOCKS + a FREE TRAVEL BAG; free shipping & returns; 30-day money-back guarantee (full refund). Never combine with 60% OFF; no dollar value for the gifts.",
+  "benchmark": "rv420w_free_bag_hand",
+  "format_ref": true,
+  "format_name": "hand_lifts_free_gift_bag_red_oval",
+  "format_source": "Dr. Squatch, 10d, wellness growth rank 20 (+73)",
+  "background": "7 color field: warm tan seamless",
+  "background_source": "Dr. Squatch, 10d, wellness growth rank 20 (+73)",
+  "angle": "Nurse: rotate 2 pairs (Emily) -> Black Friday buy 2, get the travel bag + socks free",
+  "based_on": "SOURCE RTGv1_C1 'Trusted By Nurses' static ($636 30d, ROAS 4.79) + Emily RN quote 'I rotate between 2 pairs. Black Purple and White Blue'. Rival: Stepprs 'every shoe in your rotation' meme.",
+  "reference_blocks": [
+   "FREE oval",
+   "huge line",
+   "condition line",
+   "small offer line"
+  ],
+  "copy_slots": [
+   "FREE oval word",
+   "huge line about the free bag",
+   "condition line (buy 2 pairs)",
+   "small line: socks + guarantee"
+  ],
+  "risk": "conservative",
+  "bets": [],
+  "tags": [
+   "offer"
+  ],
+  "dr_brief": {
+   "who": "the nurse herself",
+   "avatar": "woman 35-60, US, hospital RN or CNA, mom/caregiver at home, PF or heel pain 2+ years, works 3-4 12s in a row",
+   "language": [
+    "12s",
+    "3 12s in a row",
+    "limping to my car",
+    "by hour 8",
+    "nurse wages",
+    "on the floor",
+    "rotate 2 pairs"
+   ],
+   "angle_habit": "puts insoles into the same running shoes and keeps working through it",
+   "dream": "walks to her car at 7:30 PM with energy left to cook for her kids",
+   "identification": "by hour 8 her heels throb; she dreads the walk to the parking garage",
+   "point_of_contact": "\"it is my shoes / the hard floors\" (Emily RN B6 script, Stepprs insoles memes, Hike nurse ads all blame the shoe)",
+   "problem_mechanism": "running-shoe foam packs flat by hour 4-6 while feet swell; tapered toe box clamps; heel tilts weight forward",
+   "function_mechanism": "insoles sit inside the same narrow shoe and eat toe room; clogs give support with no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces",
+   "conditions": "DIY substitutes: sizing up (heel slips), insoles (eat toe room), clogs (no give)",
+   "usp": "support AND stretch-knit room in one shoe at $59.95",
+   "features": {
+    "built-in arch support + cushioned rocker sole": "odds",
+    "stretch-knit upper + wide toe box": "dream",
+    "slip-resistant grip": "odds (wet hospital tile)",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs the next $160 running shoes + insoles every few months; less than a dollar a shift",
+   "risk_reversal": "30 days = 10+ shifts on her own floor; full refund if not for her",
+   "topic": "the second pair nurses rotate",
+   "concept": "The free bag is the hero; the condition is the second pair she already wants",
+   "visual_hook": "a hand lifting the free travel bag by its handle",
+   "copy_hook_structure": "proven offer pattern: THIS X IS FREE",
+   "format": "look from Dr. Squatch, 10d, wellness growth rank 20 (+73) (hand_lifts_free_gift_bag_red_oval); characters: the nurse herself",
+   "gain_now": "2 pairs + free 3-pack cushioned socks + free travel bag this Black Friday",
+   "lose_later": "the free gifts end with the Black Friday sale"
+  },
+  "rival": "Stepprs: buy more pairs for your rotation (Early BF)",
+  "copy_notes": "Show the gifts as the travel bag (hero) + a 3-pack of cushioned socks; no dollar value."
+ },
+ {
+  "id": "W48_04_podiatrist_exam_room",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "nurse",
+  "colorway": "all_black",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_podiatrist_clinic_caption",
+  "format_ref": true,
+  "format_name": "clinic_exam_photo_bottom_caption",
+  "format_source": "Carol Bennett (sneakers for senior women (advertorial)), 31d, rising",
+  "background": "NEW 19 Clinical room (exam room, PT gym, nurses' station): Podiatry exam room with cabinets and sink",
+  "background_source": "Carol Bennett (sneakers for senior women (advertorial)), 31d, rising",
+  "angle": "Nurse knee/back after shifts: podiatrist exam-room caption (podiatrist-recommended)",
+  "based_on": "SOURCE RTGv1_B3 Kyro_293 video, headline 'Podiatrist Recommended' ($2,394 30d, ROAS 2.79; $58.5k lifetime). Emily RN script: 'My heels, knees and lower back finally feel relief' (customer words only).",
+  "reference_blocks": [
+   "4-line caption"
+  ],
+  "copy_slots": [
+   "4-line first-person caption from the podiatrist character"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "FP",
+   "knee_back"
+  ],
+  "dr_brief": {
+   "who": "the nurse herself",
+   "avatar": "woman 35-60, US, hospital RN or CNA, mom/caregiver at home, PF or heel pain 2+ years, works 3-4 12s in a row",
+   "language": [
+    "12s",
+    "3 12s in a row",
+    "limping to my car",
+    "by hour 8",
+    "nurse wages",
+    "on the floor",
+    "rotate 2 pairs"
+   ],
+   "angle_habit": "puts insoles into the same running shoes and keeps working through it",
+   "dream": "walks to her car at 7:30 PM with energy left to cook for her kids",
+   "identification": "by hour 8 her heels throb; she dreads the walk to the parking garage",
+   "point_of_contact": "\"it is my shoes / the hard floors\" (Emily RN B6 script, Stepprs insoles memes, Hike nurse ads all blame the shoe)",
+   "problem_mechanism": "running-shoe foam packs flat by hour 4-6 while feet swell; tapered toe box clamps; heel tilts weight forward",
+   "function_mechanism": "insoles sit inside the same narrow shoe and eat toe room; clogs give support with no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces",
+   "conditions": "DIY substitutes: sizing up (heel slips), insoles (eat toe room), clogs (no give)",
+   "usp": "support AND stretch-knit room in one shoe at $59.95",
+   "features": {
+    "built-in arch support + cushioned rocker sole": "odds",
+    "stretch-knit upper + wide toe box": "dream",
+    "slip-resistant grip": "odds (wet hospital tile)",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs the next $160 running shoes + insoles every few months; less than a dollar a shift",
+   "risk_reversal": "30 days = 10+ shifts on her own floor; full refund if not for her",
+   "topic": "what podiatrists see in nurses' shoes",
+   "concept": "A podiatrist character in an exam room tells a nurse patient what her shoes are doing to her knees and back",
+   "visual_hook": "real exam room, podiatrist in scrubs looking at a nurse's shoe, 4-line first-person caption",
+   "copy_hook_structure": "podiatrist character first-person caption (approved: podiatrist-recommended)",
+   "format": "look from Carol Bennett (sneakers for senior women (advertorial)), 31d, rising (clinic_exam_photo_bottom_caption); characters: the nurse herself",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "copy_notes": "Podiatrist character allowed; no named doctor, no counts, no cure/treatment claims, no \"orthopedic approved\"."
+ },
+ {
+  "id": "W48_05_hsa_checkout_summary",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "nurse",
+  "colorway": "black_purple",
+  "funnel": "offer",
+  "offer": "HSA/FSA ELIGIBLE (up to 30% savings if eligible; eligibility may vary). Many FSA plans are use-it-or-lose-it at year end. $59.95 (was $120). Free shipping & returns, 30-day money-back guarantee.",
+  "benchmark": "rv420_checkout_summary",
+  "format_ref": true,
+  "format_name": "checkout_order_summary_card",
+  "format_source": "The Modern (compression sleeve), 185d, proven 60+d",
+  "background": "12 Plain studio field: White checkout card with a product photo strip",
+  "background_source": "The Modern (compression sleeve), 185d, proven 60+d",
+  "angle": "Nurse HSA/FSA: year-end FSA dollars -> order summary card",
+  "based_on": "SOURCE TOFV1_OL2_1 COM408 video, NEW 7-day winner ($256, ROAS 3.76; transcribed 2026-11-20): 'If you've got HSA or FSA money to use, this is a smarter way to use it' + 'The 12-hour shift shoe nurses actually want to wear on & off the floor'.",
+  "reference_blocks": [
+   "2-line headline",
+   "product line + prices",
+   "3 included rows",
+   "total",
+   "button"
+  ],
+  "copy_slots": [
+   "2-line headline",
+   "product line with $120 struck -> $59.95",
+   "3 included rows (each FREE or ELIGIBLE)",
+   "total line",
+   "button text"
+  ],
+  "risk": "conservative",
+  "bets": [],
+  "tags": [
+   "offer",
+   "hsa"
+  ],
+  "dr_brief": {
+   "who": "the nurse herself",
+   "avatar": "woman 35-60, US, hospital RN or CNA, mom/caregiver at home, PF or heel pain 2+ years, works 3-4 12s in a row",
+   "language": [
+    "12s",
+    "3 12s in a row",
+    "limping to my car",
+    "by hour 8",
+    "nurse wages",
+    "on the floor",
+    "rotate 2 pairs"
+   ],
+   "angle_habit": "puts insoles into the same running shoes and keeps working through it",
+   "dream": "walks to her car at 7:30 PM with energy left to cook for her kids",
+   "identification": "by hour 8 her heels throb; she dreads the walk to the parking garage",
+   "point_of_contact": "\"it is my shoes / the hard floors\" (Emily RN B6 script, Stepprs insoles memes, Hike nurse ads all blame the shoe)",
+   "problem_mechanism": "running-shoe foam packs flat by hour 4-6 while feet swell; tapered toe box clamps; heel tilts weight forward",
+   "function_mechanism": "insoles sit inside the same narrow shoe and eat toe room; clogs give support with no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces",
+   "conditions": "DIY substitutes: sizing up (heel slips), insoles (eat toe room), clogs (no give)",
+   "usp": "support AND stretch-knit room in one shoe at $59.95",
+   "features": {
+    "built-in arch support + cushioned rocker sole": "odds",
+    "stretch-knit upper + wide toe box": "dream",
+    "slip-resistant grip": "odds (wet hospital tile)",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs the next $160 running shoes + insoles every few months; less than a dollar a shift",
+   "risk_reversal": "30 days = 10+ shifts on her own floor; full refund if not for her",
+   "topic": "spending leftover FSA dollars before Dec 31",
+   "concept": "An order summary shows the shoe paid with HSA/FSA, everything included",
+   "visual_hook": "native-looking order summary card with the shoe photo strip and FREE rows",
+   "copy_hook_structure": "proven: HSA/FSA 30% savings headline (COM408)",
+   "format": "look from The Modern (compression sleeve), 185d, proven 60+d (checkout_order_summary_card); characters: the nurse herself",
+   "gain_now": "pay with HSA/FSA dollars (up to 30% savings if eligible)",
+   "lose_later": "many FSA plans lose unused dollars at year end"
+  },
+  "copy_notes": "HSA/FSA: say \"eligibility may vary\" somewhere; \"up to 30% savings if eligible\". No 60% OFF on this one."
+ },
+ {
+  "id": "W48_06_expanding_brain_holiday_12s",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "nurse",
+  "colorway": "navy_blue",
+  "funnel": "offer",
+  "offer": "Black Friday (current offer): 60% OFF SITEWIDE is the lead offer; free shipping & returns; 30-day money-back guarantee (full refund). Optional code LEAKED10 = extra 10% off (say '60% OFF SITEWIDE + EXTRA 10% OFF', never 'total 70%'). Never combine with the buy-2 gifts. No dollar prices next to 60% (the $120 -> $59.95 math is ~50%).",
+  "benchmark": "rv420w_expanding_brain",
+  "format_ref": true,
+  "format_name": "expanding_brain_meme_four_rows",
+  "format_source": "Stepprs (rival + wellness growth rank 2), 10d, +271 places 7d",
+  "background": "meme 4 rows: white text cells left + glowing images right",
+  "background_source": "Stepprs (rival + wellness growth rank 2), 10d, +271 places 7d",
+  "angle": "Nurse PF: escalating choices meme (insoles in old sneakers -> ComfortWear -> a pair for every shift at 60% off)",
+  "based_on": "SOURCE RTGv1_B6 Emily RN UGC video ($4,028 30d, ROAS 3.59; $99,912 lifetime, 3.05). Transcript: 'No more limping to my car after a 12-hour shift', 'Three other nurses on my floor ordered them', 'Way cheaper than the $300 orthotics'. Primary text: \"I'm a nurse with plantar fasciitis... hurting my feet after 3 12s in a row... I have worn them up to 4 12s in a row at the ER... I rotate between 2 pairs\" - Emily, RN. Rival format: Stepprs galaxy-brain meme (10d, wellness growth rank 2, +271).",
+  "reference_blocks": [
+   "row 1 line",
+   "row 2 line",
+   "row 3 line",
+   "row 4 line (the deal)"
+  ],
+  "copy_slots": [
+   "row 1 (worst choice)",
+   "row 2",
+   "row 3",
+   "row 4 (the Black Friday deal)"
+  ],
+  "risk": "aggressive",
+  "bets": [
+   "format",
+   "meme tone"
+  ],
+  "tags": [
+   "FP",
+   "PF",
+   "offer"
+  ],
+  "dr_brief": {
+   "who": "the nurse herself",
+   "avatar": "woman 35-60, US, hospital RN or CNA, mom/caregiver at home, PF or heel pain 2+ years, works 3-4 12s in a row",
+   "language": [
+    "12s",
+    "3 12s in a row",
+    "limping to my car",
+    "by hour 8",
+    "nurse wages",
+    "on the floor",
+    "rotate 2 pairs"
+   ],
+   "angle_habit": "puts insoles into the same running shoes and keeps working through it",
+   "dream": "walks to her car at 7:30 PM with energy left to cook for her kids",
+   "identification": "by hour 8 her heels throb; she dreads the walk to the parking garage",
+   "point_of_contact": "\"it is my shoes / the hard floors\" (Emily RN B6 script, Stepprs insoles memes, Hike nurse ads all blame the shoe)",
+   "problem_mechanism": "running-shoe foam packs flat by hour 4-6 while feet swell; tapered toe box clamps; heel tilts weight forward",
+   "function_mechanism": "insoles sit inside the same narrow shoe and eat toe room; clogs give support with no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces",
+   "conditions": "DIY substitutes: sizing up (heel slips), insoles (eat toe room), clogs (no give)",
+   "usp": "support AND stretch-knit room in one shoe at $59.95",
+   "features": {
+    "built-in arch support + cushioned rocker sole": "odds",
+    "stretch-knit upper + wide toe box": "dream",
+    "slip-resistant grip": "odds (wet hospital tile)",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs the next $160 running shoes + insoles every few months; less than a dollar a shift",
+   "risk_reversal": "30 days = 10+ shifts on her own floor; full refund if not for her",
+   "topic": "picking up holiday 12s",
+   "concept": "Four escalating nurse choices from insoles to the Black Friday deal",
+   "visual_hook": "four rows, a brain glowing brighter each row (nurse version: same brain image, no Stepprs words)",
+   "copy_hook_structure": "meme escalation, proven nurse words (3 12s, by hour 8)",
+   "format": "look from Stepprs (rival + wellness growth rank 2), 10d, +271 places 7d (expanding_brain_meme_four_rows); characters: the nurse herself",
+   "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns",
+   "lose_later": "the Black Friday price ends when the sale ends (no stock stories)"
+  },
+  "rival": "Stepprs galaxy-brain insoles meme (answered with our shoe, not an insole)",
+  "copy_notes": "Each row max ~8 words, all caps typewriter style."
+ },
+ {
+  "id": "W48_07_toggle_vs_disney_runner",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "traveler",
+  "colorway": "red_burgundy",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420w_toggle_vs",
+  "format_ref": true,
+  "format_name": "toggle_switch_versus_rows",
+  "format_source": "Sedgeia, 12d, wellness growth rank 33 (+47)",
+  "background": "7 color field: peach",
+  "background_source": "Sedgeia, 12d, wellness growth rank 33 (+47)",
+  "angle": "Disney: our shoe vs the $130 running shoe, toggle ON/OFF rows (7-shoe test)",
+  "based_on": "SOURCE TOFV1_JW1 COM320 'we tested the 7 most popular shoes' Disney video (7-day $5,476, ROAS 1.32; 30d top spender). Beats: running sneaker $130 'built for running tracks, not cobblestone streets', 'by hour 5 both testers were looking for somewhere to sit', '$60 ComfortWear stopped being a competition'.",
+  "reference_blocks": [
+   "2-line headline",
+   "subline",
+   "2 name chips",
+   "3 ON labels",
+   "3 OFF labels",
+   "footer offer bar"
+  ],
+  "copy_slots": [
+   "2-line headline",
+   "subline",
+   "name chip ours / name chip \"$130 running shoe\"",
+   "3 ON labels",
+   "3 OFF labels",
+   "footer line"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "FP",
+   "travel"
+  ],
+  "dr_brief": {
+   "who": "the traveler herself (or the group of travel nurses who tested shoes)",
+   "avatar": "woman 50-70, US, grandma or empty nester, bucket-list trips, foot pain flares after hour 4-5 of walking",
+   "language": [
+    "hour 8",
+    "20,000 steps",
+    "cobblestones",
+    "the person on the bench",
+    "fine at breakfast",
+    "loosening my laces at lunch"
+   ],
+   "angle_habit": "packs her \"comfortable\" running sneakers because they felt fine at home",
+   "dream": "walks the whole park / city with the family instead of holding bags on the bench",
+   "identification": "by hour 5 she is looking for somewhere to sit while everyone else keeps going",
+   "point_of_contact": "\"running shoes are built for 40-minute runs, not 10-hour park days\" (NL1, JW1, NJ1 scripts; Hike travel ads)",
+   "problem_mechanism": "soft foam flattens while standing in lines; feet swell half a size; narrow toe box; slick wet paths",
+   "function_mechanism": "expensive runners are built to propel a runner forward, not to stand and walk 10 hours on uneven ground",
+   "solution_mechanism": "firm built-in arch support + rocker sole, stretch-knit room for swelling, slip-resistant grip",
+   "conditions": "DIY substitutes: cheap comfort sneakers (foam goes flat), sizing up, a second pair in the bag",
+   "usp": "the one pair to pack: support + room + grip, $59.95",
+   "features": {
+    "built-in arch support + rocker sole": "odds (hour 8 feels like hour 1)",
+    "stretch-knit + wide toe box": "dream (no pinch as feet swell)",
+    "slip-resistant grip": "odds (wet paths)",
+    "no-tie laces": "effort (security lines)"
+   },
+   "anchoring": "vs a $130-$180 runner that quits by lunch; vs a trip spent on a bench",
+   "risk_reversal": "30 days covers the whole trip; full refund if not for her",
+   "topic": "which shoe to pack for a holiday Disney trip",
+   "concept": "Side-by-side switchboard: what our shoe turns ON vs what the $130 runner leaves OFF",
+   "visual_hook": "green ON toggles vs red OFF toggles, red X over a generic grey running shoe",
+   "copy_hook_structure": "proven test/verdict (JW1)",
+   "format": "look from Sedgeia, 12d, wellness growth rank 33 (+47) (toggle_switch_versus_rows); characters: the traveler herself (or the group of travel nurses who tested shoes)",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "copy_notes": "The other shoe is an unbranded generic grey mesh running shoe; never name a brand on the image."
+ },
+ {
+  "id": "W48_08_four_photos_park_hours",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "traveler",
+  "colorway": "black_mint",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420w_four_photo_band",
+  "format_ref": true,
+  "format_name": "four_photo_grid_center_text_band",
+  "format_source": "Omnilux, 12d, wellness growth rank 35 (+41)",
+  "background": "1 real place: 4 park/trip photos",
+  "background_source": "Omnilux, 12d, wellness growth rank 35 (+41)",
+  "angle": "Disney: four real park-day photos (hour 1 / hour 4 / hour 8 / fireworks) with one center band",
+  "based_on": "SOURCE TOFV1_NL1 COM376 Disney video (new winner, $719 30d, ROAS 1.82): 'Hokas and Brooks are the worst shoes you can wear for Disney... built to move a runner forward for 40 minutes, not for someone waiting in line', 'don't be the person sitting on a bench', 'be in the photo when the fireworks start'.",
+  "reference_blocks": [
+   "1-line headline",
+   "2-line subline"
+  ],
+  "copy_slots": [
+   "1-line headline in the band",
+   "2-line subline in the band"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "FP",
+   "travel"
+  ],
+  "dr_brief": {
+   "who": "the traveler herself (or the group of travel nurses who tested shoes)",
+   "avatar": "woman 50-70, US, grandma or empty nester, bucket-list trips, foot pain flares after hour 4-5 of walking",
+   "language": [
+    "hour 8",
+    "20,000 steps",
+    "cobblestones",
+    "the person on the bench",
+    "fine at breakfast",
+    "loosening my laces at lunch"
+   ],
+   "angle_habit": "packs her \"comfortable\" running sneakers because they felt fine at home",
+   "dream": "walks the whole park / city with the family instead of holding bags on the bench",
+   "identification": "by hour 5 she is looking for somewhere to sit while everyone else keeps going",
+   "point_of_contact": "\"running shoes are built for 40-minute runs, not 10-hour park days\" (NL1, JW1, NJ1 scripts; Hike travel ads)",
+   "problem_mechanism": "soft foam flattens while standing in lines; feet swell half a size; narrow toe box; slick wet paths",
+   "function_mechanism": "expensive runners are built to propel a runner forward, not to stand and walk 10 hours on uneven ground",
+   "solution_mechanism": "firm built-in arch support + rocker sole, stretch-knit room for swelling, slip-resistant grip",
+   "conditions": "DIY substitutes: cheap comfort sneakers (foam goes flat), sizing up, a second pair in the bag",
+   "usp": "the one pair to pack: support + room + grip, $59.95",
+   "features": {
+    "built-in arch support + rocker sole": "odds (hour 8 feels like hour 1)",
+    "stretch-knit + wide toe box": "dream (no pinch as feet swell)",
+    "slip-resistant grip": "odds (wet paths)",
+    "no-tie laces": "effort (security lines)"
+   },
+   "anchoring": "vs a $130-$180 runner that quits by lunch; vs a trip spent on a bench",
+   "risk_reversal": "30 days covers the whole trip; full refund if not for her",
+   "topic": "holiday crowds and long lines at the parks",
+   "concept": "Four photos of one woman's park day; the band says why she is still walking at hour 10",
+   "visual_hook": "2x2 real photos: morning gate (no castles), long line, afternoon walk, evening lights; our shoe visible in 2 of them",
+   "copy_hook_structure": "proven contrarian enemy: running shoes built for 40-minute runs (NL1)",
+   "format": "look from Omnilux, 12d, wellness growth rank 35 (+41) (four_photo_grid_center_text_band); characters: the traveler herself (or the group of travel nurses who tested shoes)",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  }
+ },
+ {
+  "id": "W48_09_wet_cobblestone_bubble",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "traveler",
+  "colorway": "light_grey",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_stream_speech_bubble",
+  "format_ref": true,
+  "format_name": "speech_bubble_quote_boot_in_stream",
+  "format_source": "Wildling Shoes (minimalist boots), 43d, rising",
+  "background": "9 Elements / action: Shallow forest stream with a wet mossy rock",
+  "background_source": "Wildling Shoes (minimalist boots), 43d, rising",
+  "angle": "Europe: Christmas-market cobblestones in the rain, speech-bubble review over the shoe stepping on wet stone",
+  "based_on": "SOURCE TOFV1_NJ1 COM336 Europe video ($869 30d, ROAS 2.03) + TOFV1_NK2 COM367 ('Think your sneakers can handle 20,000 steps in Europe?', $227, 1.92): 'foam flattens by hour 4 on cobblestones', 'feet expand half a size', 'wet streets in Edinburgh and London'.",
+  "reference_blocks": [
+   "2-line quote",
+   "reviewer name"
+  ],
+  "copy_slots": [
+   "2-line review quote",
+   "reviewer first name + last initial + trip"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "topic: Christmas markets"
+  ],
+  "tags": [
+   "FP",
+   "travel"
+  ],
+  "dr_brief": {
+   "who": "the traveler herself (or the group of travel nurses who tested shoes)",
+   "avatar": "woman 50-70, US, grandma or empty nester, bucket-list trips, foot pain flares after hour 4-5 of walking",
+   "language": [
+    "hour 8",
+    "20,000 steps",
+    "cobblestones",
+    "the person on the bench",
+    "fine at breakfast",
+    "loosening my laces at lunch"
+   ],
+   "angle_habit": "packs her \"comfortable\" running sneakers because they felt fine at home",
+   "dream": "walks the whole park / city with the family instead of holding bags on the bench",
+   "identification": "by hour 5 she is looking for somewhere to sit while everyone else keeps going",
+   "point_of_contact": "\"running shoes are built for 40-minute runs, not 10-hour park days\" (NL1, JW1, NJ1 scripts; Hike travel ads)",
+   "problem_mechanism": "soft foam flattens while standing in lines; feet swell half a size; narrow toe box; slick wet paths",
+   "function_mechanism": "expensive runners are built to propel a runner forward, not to stand and walk 10 hours on uneven ground",
+   "solution_mechanism": "firm built-in arch support + rocker sole, stretch-knit room for swelling, slip-resistant grip",
+   "conditions": "DIY substitutes: cheap comfort sneakers (foam goes flat), sizing up, a second pair in the bag",
+   "usp": "the one pair to pack: support + room + grip, $59.95",
+   "features": {
+    "built-in arch support + rocker sole": "odds (hour 8 feels like hour 1)",
+    "stretch-knit + wide toe box": "dream (no pinch as feet swell)",
+    "slip-resistant grip": "odds (wet paths)",
+    "no-tie laces": "effort (security lines)"
+   },
+   "anchoring": "vs a $130-$180 runner that quits by lunch; vs a trip spent on a bench",
+   "risk_reversal": "30 days covers the whole trip; full refund if not for her",
+   "topic": "Christmas markets in Europe on wet cobblestones",
+   "concept": "A traveler's review in a chat bubble over her shoe stepping on wet cobblestones at a Christmas market",
+   "visual_hook": "close-up of the shoe mid-step on wet cobblestones, blurred market lights",
+   "copy_hook_structure": "customer quote (real-review style, first name + initial)",
+   "format": "look from Wildling Shoes (minimalist boots), 43d, rising (speech_bubble_quote_boot_in_stream); characters: the traveler herself (or the group of travel nurses who tested shoes)",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "copy_notes": "Quote must sound like real customer language; no star ratings."
+ },
+ {
+  "id": "W48_10_packed_bag_holiday_flight",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "traveler",
+  "colorway": "purple",
+  "funnel": "offer",
+  "offer": "Black Friday (current offer): 60% OFF SITEWIDE is the lead offer; free shipping & returns; 30-day money-back guarantee (full refund). Optional code LEAKED10 = extra 10% off (say '60% OFF SITEWIDE + EXTRA 10% OFF', never 'total 70%'). Never combine with the buy-2 gifts. No dollar prices next to 60% (the $120 -> $59.95 math is ~50%).",
+  "benchmark": "rv420_packed_bag_two_line",
+  "format_ref": true,
+  "format_name": "packed_bag_two_line_contrast_overhead",
+  "format_source": "Basic Jane (vaginal moisturizer (travel kit)), 10d, rising",
+  "background": "NEW 20 Travel gear flatlay (open bag/suitcase): Open weekender bag overhead with a sweater and travel items, warm beige",
+  "background_source": "Basic Jane (vaginal moisturizer (travel kit)), 10d, rising",
+  "angle": "Thanksgiving/holiday travel: open weekender bag, pack one pair (airport miles)",
+  "based_on": "SOURCE TOFV1_JW1/NJ1 primary text 'Shoes made for long flights, traveling, and walking 50,000+ steps... Get your pair with 40% OFF today' (JW1 $5,476 7d) -> Black Friday 60%.",
+  "reference_blocks": [
+   "4-line headline",
+   "3-line offer + end date",
+   "logo"
+  ],
+  "copy_slots": [
+   "4-line headline in two contrasting halves",
+   "3-line offer block"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "travel",
+   "offer"
+  ],
+  "dr_brief": {
+   "who": "the traveler herself (or the group of travel nurses who tested shoes)",
+   "avatar": "woman 50-70, US, grandma or empty nester, bucket-list trips, foot pain flares after hour 4-5 of walking",
+   "language": [
+    "hour 8",
+    "20,000 steps",
+    "cobblestones",
+    "the person on the bench",
+    "fine at breakfast",
+    "loosening my laces at lunch"
+   ],
+   "angle_habit": "packs her \"comfortable\" running sneakers because they felt fine at home",
+   "dream": "walks the whole park / city with the family instead of holding bags on the bench",
+   "identification": "by hour 5 she is looking for somewhere to sit while everyone else keeps going",
+   "point_of_contact": "\"running shoes are built for 40-minute runs, not 10-hour park days\" (NL1, JW1, NJ1 scripts; Hike travel ads)",
+   "problem_mechanism": "soft foam flattens while standing in lines; feet swell half a size; narrow toe box; slick wet paths",
+   "function_mechanism": "expensive runners are built to propel a runner forward, not to stand and walk 10 hours on uneven ground",
+   "solution_mechanism": "firm built-in arch support + rocker sole, stretch-knit room for swelling, slip-resistant grip",
+   "conditions": "DIY substitutes: cheap comfort sneakers (foam goes flat), sizing up, a second pair in the bag",
+   "usp": "the one pair to pack: support + room + grip, $59.95",
+   "features": {
+    "built-in arch support + rocker sole": "odds (hour 8 feels like hour 1)",
+    "stretch-knit + wide toe box": "dream (no pinch as feet swell)",
+    "slip-resistant grip": "odds (wet paths)",
+    "no-tie laces": "effort (security lines)"
+   },
+   "anchoring": "vs a $130-$180 runner that quits by lunch; vs a trip spent on a bench",
+   "risk_reversal": "30 days covers the whole trip; full refund if not for her",
+   "topic": "Thanksgiving week airports (busiest travel week)",
+   "concept": "The only shoes in the packed bag are the ones she'll wear through the airport and the trip",
+   "visual_hook": "overhead open tan weekender bag with sweater and our shoes",
+   "copy_hook_structure": "proven travel promise (long flights, 50,000+ steps)",
+   "format": "look from Basic Jane (vaginal moisturizer (travel kit)), 10d, rising (packed_bag_two_line_contrast_overhead); characters: the traveler herself (or the group of travel nurses who tested shoes)",
+   "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns",
+   "lose_later": "the Black Friday price ends when the sale ends (no stock stories)"
+  }
+ },
+ {
+  "id": "W48_11_day3_sentence_split",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "plus_size",
+  "colorway": "black_purple",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_sentence_split_product",
+  "format_ref": true,
+  "format_name": "sentence_split_above_below_product",
+  "format_source": "Longevityrx (protein for 60+), 31d, rising",
+  "background": "12 Plain studio field: Warm cream gradient field",
+  "background_source": "Longevityrx (protein for 60+), 31d, rising",
+  "angle": "Plus-size Disney: day 1/2/3 decline, one sentence split above and below the shoe",
+  "based_on": "SOURCE TOFV1_NH3 JACK plus-size park-day video (7-day $5,131, ROAS 1.55): 'stop taking shoe advice from people who don't walk in your body', 'Day two, you're done... the shoes that fit at breakfast feel like they shrank two sizes', 'on a bench with the bags while they ride without you'.",
+  "reference_blocks": [
+   "top phrase (2 words)",
+   "bottom phrase (1-2 lines)"
+  ],
+  "copy_slots": [
+   "top phrase (2-3 words, huge)",
+   "bottom phrase (1-2 lines)"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "FP",
+   "plus"
+  ],
+  "dr_brief": {
+   "who": "a plus-size woman who has been there",
+   "avatar": "woman 45-70, US, size 16-24, every step lands harder, foam packs out fast, often travels with family",
+   "language": [
+    "heavier than my feet would prefer",
+    "shrank two sizes",
+    "on a bench with the bags",
+    "day 2 I was done",
+    "stop taking shoe advice from people who don't walk in my body"
+   ],
+   "angle_habit": "buys the softest max-cushion sneakers because soft feels right in the store",
+   "dream": "in the family photos at the fireworks instead of holding the bags",
+   "identification": "day 1 she survives, day 2 the sneakers feel like they shrank two sizes",
+   "point_of_contact": "\"soft foam can't hold more weight all day\" (NH3, KW1 scripts; Hike \"heavier\" ads)",
+   "problem_mechanism": "foam packs flat faster under more weight, arch drops, feet swell into a narrow toe box",
+   "function_mechanism": "soft max-cushion shoes are more foam than support, so they fail sooner for heavier bodies",
+   "solution_mechanism": "built-in arch support that does not flatten + stretch-knit room + rocker sole",
+   "conditions": "DIY: sizing up (heel slips), ice at night (helps but not all the way), extra insoles",
+   "usp": "support that holds + room that gives, $59.95 (no extra-wide promise)",
+   "features": {
+    "built-in arch support": "odds",
+    "stretch-knit upper + wide toe box": "dream",
+    "rocker sole": "effort",
+    "slip-resistant grip": "odds"
+   },
+   "anchoring": "vs $165 max-cushion runners that go flat by day 2",
+   "risk_reversal": "30 days = the whole trip; full refund if not for her",
+   "topic": "day 2 of a park trip for a heavier body",
+   "concept": "One sentence: the top words are the day, the bottom words say it is the shoes, not her",
+   "visual_hook": "huge italic phrase above the shoe, the rest of the sentence small below",
+   "copy_hook_structure": "proven call-out (NH3) + \"it's not you, it's the shoe\"",
+   "format": "look from Longevityrx (protein for 60+), 31d, rising (sentence_split_above_below_product); characters: a plus-size woman who has been there",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  }
+ },
+ {
+  "id": "W48_12_packing_list_plus_trip",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "plus_size",
+  "colorway": "all_black",
+  "funnel": "offer",
+  "offer": "Black Friday (current offer): 60% OFF SITEWIDE is the lead offer; free shipping & returns; 30-day money-back guarantee (full refund). Optional code LEAKED10 = extra 10% off (say '60% OFF SITEWIDE + EXTRA 10% OFF', never 'total 70%'). Never combine with the buy-2 gifts. No dollar prices next to 60% (the $120 -> $59.95 math is ~50%).",
+  "benchmark": "rv420_grocery_list_check",
+  "format_ref": true,
+  "format_name": "grocery_list_notepad_checked_product",
+  "format_source": "Anabar (protein snacks), 22d, seasonal",
+  "background": "NEW 13 Printed paper on a real table: Spiral notepad shopping list on a kitchen table with bananas and a tea towel",
+  "background_source": "Anabar (protein snacks), 22d, seasonal",
+  "angle": "Plus-size travel: handwritten packing list (crossed-out fixes, our shoe ticked)",
+  "based_on": "SOURCE TOFV1_KW1 COM284 video, our biggest 30-day spender ($6,815, ROAS 2.43; transcribed 2026-11-20): 'We asked 500 plus size women who've been to Disney one simple question', rejects four popular sneakers with prices, shows the wide toe box + stretch upper. Primary text: 'fine at breakfast but hour 8 can be a very different story'.",
+  "reference_blocks": [
+   "headline (2 lines)",
+   "4 handwritten list rows (last one ticked)",
+   "retailer/offer line"
+  ],
+  "copy_slots": [
+   "2-line headline",
+   "4 handwritten list rows (3 crossed out, last ticked = our shoe)",
+   "small offer line"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "FP",
+   "plus",
+   "travel",
+   "offer"
+  ],
+  "dr_brief": {
+   "who": "a plus-size woman who has been there",
+   "avatar": "woman 45-70, US, size 16-24, every step lands harder, foam packs out fast, often travels with family",
+   "language": [
+    "heavier than my feet would prefer",
+    "shrank two sizes",
+    "on a bench with the bags",
+    "day 2 I was done",
+    "stop taking shoe advice from people who don't walk in my body"
+   ],
+   "angle_habit": "buys the softest max-cushion sneakers because soft feels right in the store",
+   "dream": "in the family photos at the fireworks instead of holding the bags",
+   "identification": "day 1 she survives, day 2 the sneakers feel like they shrank two sizes",
+   "point_of_contact": "\"soft foam can't hold more weight all day\" (NH3, KW1 scripts; Hike \"heavier\" ads)",
+   "problem_mechanism": "foam packs flat faster under more weight, arch drops, feet swell into a narrow toe box",
+   "function_mechanism": "soft max-cushion shoes are more foam than support, so they fail sooner for heavier bodies",
+   "solution_mechanism": "built-in arch support that does not flatten + stretch-knit room + rocker sole",
+   "conditions": "DIY: sizing up (heel slips), ice at night (helps but not all the way), extra insoles",
+   "usp": "support that holds + room that gives, $59.95 (no extra-wide promise)",
+   "features": {
+    "built-in arch support": "odds",
+    "stretch-knit upper + wide toe box": "dream",
+    "rocker sole": "effort",
+    "slip-resistant grip": "odds"
+   },
+   "anchoring": "vs $165 max-cushion runners that go flat by day 2",
+   "risk_reversal": "30 days = the whole trip; full refund if not for her",
+   "topic": "packing for a holiday trip in a bigger body",
+   "concept": "Her packing list: crossed-out fixes (insoles, extra sneakers, ice packs) and one ticked item",
+   "visual_hook": "spiral notepad with a handwritten list on a kitchen table, our shoe lying across it",
+   "copy_hook_structure": "proven: what plus-size women pack (KW1)",
+   "format": "look from Anabar (protein snacks), 22d, seasonal (grocery_list_notepad_checked_product); characters: a plus-size woman who has been there",
+   "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns",
+   "lose_later": "the Black Friday price ends when the sale ends (no stock stories)"
+  },
+  "copy_notes": "Do not state \"500 women surveyed\" as a stat on the image (unconfirmed number)."
+ },
+ {
+  "id": "W48_13_snow_drift_two_pairs",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "plus_size",
+  "colorway": "red_burgundy",
+  "funnel": "offer",
+  "offer": "Black Friday (current offer): BUY 2 PAIRS, GET 2 FREE GIFTS = a 3-PACK OF CUSHIONED SOCKS + a FREE TRAVEL BAG; free shipping & returns; 30-day money-back guarantee (full refund). Never combine with 60% OFF; no dollar value for the gifts.",
+  "benchmark": "rv420_snow_drift_vault",
+  "format_ref": true,
+  "format_name": "snow_drift_product_vault_serif",
+  "format_source": "TULA (skincare), 9d, seasonal",
+  "background": "4 Seasonal: holiday: Snow drift with falling snow at night, products half-buried in snow",
+  "background_source": "TULA (skincare), 9d, seasonal",
+  "angle": "Plus-size holiday city trip (NYC tree): two pairs + travel bag in fresh snow",
+  "based_on": "SOURCE TOFV1_KW1 COM284 (above) + Notion COM432 brief 'If you are a woman over 200 pounds heading to NYC for the holidays, packing the wrong shoes will ruin your entire trip' (brief, not yet launched).",
+  "reference_blocks": [
+   "savings badge",
+   "2-line serif headline"
+  ],
+  "copy_slots": [
+   "round badge (gift offer, 3-4 words)",
+   "2-line serif headline (second line italic)"
+  ],
+  "risk": "aggressive",
+  "bets": [
+   "topic",
+   "format look"
+  ],
+  "tags": [
+   "plus",
+   "travel",
+   "offer"
+  ],
+  "dr_brief": {
+   "who": "a plus-size woman who has been there",
+   "avatar": "woman 45-70, US, size 16-24, every step lands harder, foam packs out fast, often travels with family",
+   "language": [
+    "heavier than my feet would prefer",
+    "shrank two sizes",
+    "on a bench with the bags",
+    "day 2 I was done",
+    "stop taking shoe advice from people who don't walk in my body"
+   ],
+   "angle_habit": "buys the softest max-cushion sneakers because soft feels right in the store",
+   "dream": "in the family photos at the fireworks instead of holding the bags",
+   "identification": "day 1 she survives, day 2 the sneakers feel like they shrank two sizes",
+   "point_of_contact": "\"soft foam can't hold more weight all day\" (NH3, KW1 scripts; Hike \"heavier\" ads)",
+   "problem_mechanism": "foam packs flat faster under more weight, arch drops, feet swell into a narrow toe box",
+   "function_mechanism": "soft max-cushion shoes are more foam than support, so they fail sooner for heavier bodies",
+   "solution_mechanism": "built-in arch support that does not flatten + stretch-knit room + rocker sole",
+   "conditions": "DIY: sizing up (heel slips), ice at night (helps but not all the way), extra insoles",
+   "usp": "support that holds + room that gives, $59.95 (no extra-wide promise)",
+   "features": {
+    "built-in arch support": "odds",
+    "stretch-knit upper + wide toe box": "dream",
+    "rocker sole": "effort",
+    "slip-resistant grip": "odds"
+   },
+   "anchoring": "vs $165 max-cushion runners that go flat by day 2",
+   "risk_reversal": "30 days = the whole trip; full refund if not for her",
+   "topic": "holiday city trip (tree lighting, window shopping)",
+   "concept": "Two pairs and the free travel bag sit in fresh snow, ready for the trip",
+   "visual_hook": "two shoes + travel bag in a snow drift under falling snow, red circle badge",
+   "copy_hook_structure": "proven call-out + holiday trip (COM432 brief)",
+   "format": "look from TULA (skincare), 9d, seasonal (snow_drift_product_vault_serif); characters: a plus-size woman who has been there",
+   "gain_now": "2 pairs + free 3-pack cushioned socks + free travel bag this Black Friday",
+   "lose_later": "the free gifts end with the Black Friday sale"
+  },
+  "copy_notes": "Do not say \"over 200 pounds\" on the image (personal attribute); say plus-size or \"heavier\" only as she would."
+ },
+ {
+  "id": "W48_14_oil_painting_first_steps",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "active_retiree",
+  "colorway": "navy_blue",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_oil_painting_headline",
+  "format_ref": true,
+  "format_name": "vintage_oil_painting_condensed_headline",
+  "format_source": "Tiffany Mccomb (barefoot shoes (advertorial)), 62d, proven 60+d",
+  "background": "11 Bold illustrated / hand-drawn frame: Painterly vintage bedroom at night (oil painting style)",
+  "background_source": "Tiffany Mccomb (barefoot shoes (advertorial)), 62d, proven 60+d",
+  "angle": "Senior PF: vintage oil painting of a woman on her bed rubbing her heel at dawn",
+  "based_on": "SOURCE INT COM55 TOFv5_AR20 doctor video ($2,246 30d, ROAS 2.13; transcribed 2026-11-20): expert scores six popular shoes 2-4/10, ComfortWear 10/10; primary text 'I used to deal with foot pain every evening after work'. Doctor-recommended (approved).",
+  "reference_blocks": [
+   "2-line question headline"
+  ],
+  "copy_slots": [
+   "2-line question headline"
+  ],
+  "risk": "aggressive",
+  "bets": [
+   "format (illustrated)",
+   "concept"
+  ],
+  "tags": [
+   "FP",
+   "PF"
+  ],
+  "dr_brief": {
+   "who": "the woman herself, 60+",
+   "avatar": "woman 60-75, US, retired or still working part-time, PF or arthritis 5+ years, grandmother",
+   "language": [
+    "first steps out of bed",
+    "I feel 80 the minute I stand up",
+    "gripping the nightstand",
+    "orthopedic brick",
+    "my closet of shoes that betrayed me"
+   ],
+   "angle_habit": "blames her age and buys another pair of soft slip-ons",
+   "dream": "walks to the store and around the block with her grandkids again",
+   "identification": "first steps out of bed feel like stepping on glass",
+   "point_of_contact": "\"it is not your age, it is your shoes\" (Notion COM429, Hike/Stepprs morning-steps ads)",
+   "problem_mechanism": "flat soft slip-ons let the arch collapse; foam packs out; narrow toe boxes pinch swollen feet",
+   "function_mechanism": "memory-foam slip-ons feel soft but give no structure; rigid orthopedic shoes have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room, slip on with no-tie laces",
+   "conditions": "DIY: soft slippers, insoles, stretching, ice",
+   "usp": "doctor-/podiatrist-recommended support that does not look orthopedic, $59.95",
+   "features": {
+    "built-in arch support": "odds",
+    "no-tie laces": "effort (no bending to tie)",
+    "slip-resistant grip": "odds (wet sidewalks)",
+    "stretch-knit upper": "dream"
+   },
+   "anchoring": "vs custom orthotics ($300+) and the pile of shoes that failed",
+   "risk_reversal": "30 days of her own walks; full refund if not for her",
+   "topic": "first steps out of bed in the cold months",
+   "concept": "A painting of the moment she dreads every morning, with a question headline",
+   "visual_hook": "oil-painting style: older woman sitting on the bed edge at dawn, holding her heel, slippers on the floor, our shoe by the bed",
+   "copy_hook_structure": "question headline about the morning mistake",
+   "format": "look from Tiffany Mccomb (barefoot shoes (advertorial)), 62d, proven 60+d (vintage_oil_painting_condensed_headline); characters: the woman herself, 60+",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "copy_notes": "Illustration only for the scene; the shoe stays recognizable. No cure claims."
+ },
+ {
+  "id": "W48_15_skeptic_thumbs_down",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "comfort_only",
+  "colorway": "black_white",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_thumbs_down_street",
+  "format_ref": true,
+  "format_name": "skeptic_thumbs_down_product_held_street",
+  "format_source": "Judy Callihan (hearing aids (advertorial)), 73d, proven 60+d",
+  "background": "1 Real place that carries the mood: Sunny suburban residential street with trees",
+  "background_source": "Judy Callihan (hearing aids (advertorial)), 73d, proven 60+d",
+  "angle": "Objection \"is it a scam?\": skeptic woman 70 thumbs-down while holding the shoe, short caption",
+  "based_on": "SOURCE RTGv1_C3 objection-handling static ($2,101 30d, ROAS 4.00): headline '500,000+ Happy Customers', primary 'Could over 500,000+ customers ALL be wrong?'. VOC #4 objection: scam/dropship suspicion.",
+  "reference_blocks": [
+   "optional short caption (1 line)"
+  ],
+  "copy_slots": [
+   "1-line caption (optional second line)"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "proof"
+  ],
+  "dr_brief": {
+   "who": "the woman herself, 60+",
+   "avatar": "woman 60-75, US, retired or still working part-time, PF or arthritis 5+ years, grandmother",
+   "language": [
+    "first steps out of bed",
+    "I feel 80 the minute I stand up",
+    "gripping the nightstand",
+    "orthopedic brick",
+    "my closet of shoes that betrayed me"
+   ],
+   "angle_habit": "blames her age and buys another pair of soft slip-ons",
+   "dream": "walks to the store and around the block with her grandkids again",
+   "identification": "first steps out of bed feel like stepping on glass",
+   "point_of_contact": "\"it is not your age, it is your shoes\" (Notion COM429, Hike/Stepprs morning-steps ads)",
+   "problem_mechanism": "flat soft slip-ons let the arch collapse; foam packs out; narrow toe boxes pinch swollen feet",
+   "function_mechanism": "memory-foam slip-ons feel soft but give no structure; rigid orthopedic shoes have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room, slip on with no-tie laces",
+   "conditions": "DIY: soft slippers, insoles, stretching, ice",
+   "usp": "doctor-/podiatrist-recommended support that does not look orthopedic, $59.95",
+   "features": {
+    "built-in arch support": "odds",
+    "no-tie laces": "effort (no bending to tie)",
+    "slip-resistant grip": "odds (wet sidewalks)",
+    "stretch-knit upper": "dream"
+   },
+   "anchoring": "vs custom orthotics ($300+) and the pile of shoes that failed",
+   "risk_reversal": "30 days of her own walks; full refund if not for her",
+   "topic": "\"is this a Facebook-ad scam?\"",
+   "concept": "She expected a scam; the caption is her honest turn",
+   "visual_hook": "real suburban street, woman ~70 frowning with a thumbs-down, holding our shoe up",
+   "copy_hook_structure": "proven: 500,000+ customers objection handling (C3)",
+   "format": "look from Judy Callihan (hearing aids (advertorial)), 73d, proven 60+d (skeptic_thumbs_down_product_held_street); characters: the woman herself, 60+",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "copy_notes": "500,000+ customers is approved; no star ratings or review counts."
+ },
+ {
+  "id": "W48_16_bf_big_type_dots",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "comfort_only",
+  "colorway": "black_mint",
+  "funnel": "offer",
+  "offer": "Black Friday (current offer): 60% OFF SITEWIDE is the lead offer; free shipping & returns; 30-day money-back guarantee (full refund). Optional code LEAKED10 = extra 10% off (say '60% OFF SITEWIDE + EXTRA 10% OFF', never 'total 70%'). Never combine with the buy-2 gifts. No dollar prices next to 60% (the $120 -> $59.95 math is ~50%).",
+  "benchmark": "rv420w_bf_big_type_dots",
+  "format_ref": true,
+  "format_name": "bf_sale_big_type_colorway_dots",
+  "format_source": "Wander+, 10d, wellness growth rank 40 (+33)",
+  "background": "12 plain studio: white",
+  "background_source": "Wander+, 10d, wellness growth rank 40 (+33)",
+  "angle": "Offer: BLACK FRIDAY SALE big type + colorway dots (H3 iteration)",
+  "based_on": "SOURCE RTGv1_H3 static '40% OFF TODAY + FREE Shipping!' ($2,662 30d, ROAS 2.97): 'We have the most comfortable & supportive shoes at 40% OFF + FREE shipping!' -> Black Friday 60% OFF.",
+  "reference_blocks": [
+   "BLACK FRIDAY SALE title",
+   "huge offer line",
+   "code pill",
+   "colorway dots"
+  ],
+  "copy_slots": [
+   "title (BLACK FRIDAY SALE)",
+   "huge offer line",
+   "code pill line",
+   "colorway dots (no text)"
+  ],
+  "risk": "conservative",
+  "bets": [],
+  "tags": [
+   "offer"
+  ],
+  "dr_brief": {
+   "who": "the woman herself, 60+",
+   "avatar": "woman 60-75, US, retired or still working part-time, PF or arthritis 5+ years, grandmother",
+   "language": [
+    "first steps out of bed",
+    "I feel 80 the minute I stand up",
+    "gripping the nightstand",
+    "orthopedic brick",
+    "my closet of shoes that betrayed me"
+   ],
+   "angle_habit": "blames her age and buys another pair of soft slip-ons",
+   "dream": "walks to the store and around the block with her grandkids again",
+   "identification": "first steps out of bed feel like stepping on glass",
+   "point_of_contact": "\"it is not your age, it is your shoes\" (Notion COM429, Hike/Stepprs morning-steps ads)",
+   "problem_mechanism": "flat soft slip-ons let the arch collapse; foam packs out; narrow toe boxes pinch swollen feet",
+   "function_mechanism": "memory-foam slip-ons feel soft but give no structure; rigid orthopedic shoes have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room, slip on with no-tie laces",
+   "conditions": "DIY: soft slippers, insoles, stretching, ice",
+   "usp": "doctor-/podiatrist-recommended support that does not look orthopedic, $59.95",
+   "features": {
+    "built-in arch support": "odds",
+    "no-tie laces": "effort (no bending to tie)",
+    "slip-resistant grip": "odds (wet sidewalks)",
+    "stretch-knit upper": "dream"
+   },
+   "anchoring": "vs custom orthotics ($300+) and the pile of shoes that failed",
+   "risk_reversal": "30 days of her own walks; full refund if not for her",
+   "topic": "Black Friday deal hunting",
+   "concept": "Pure big-type Black Friday deal with all colors as dots",
+   "visual_hook": "pair of shoes large between huge red BLACK FRIDAY SALE and the offer, colorway dots",
+   "copy_hook_structure": "proven offer headline (H3)",
+   "format": "look from Wander+, 10d, wellness growth rank 40 (+33) (bf_sale_big_type_colorway_dots); characters: the woman herself, 60+",
+   "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns",
+   "lose_later": "the Black Friday price ends when the sale ends (no stock stories)"
+  }
+ },
+ {
+  "id": "W48_17_try_this_if_insoles",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "retail_warehouse",
+  "colorway": "light_grey",
+  "funnel": "offer",
+  "offer": "Black Friday (current offer): 60% OFF SITEWIDE is the lead offer; free shipping & returns; 30-day money-back guarantee (full refund). Optional code LEAKED10 = extra 10% off (say '60% OFF SITEWIDE + EXTRA 10% OFF', never 'total 70%'). Never combine with the buy-2 gifts. No dollar prices next to 60% (the $120 -> $59.95 math is ~50%).",
+  "benchmark": "rv420_try_this_hand_starburst",
+  "format_ref": true,
+  "format_name": "try_this_if_hand_hero_starburst_icon_band",
+  "format_source": "Advanced Bionutritionals (hydration supplement), 91d, proven 60+d",
+  "background": "7 Saturated color field + photo/polaroid: Deep navy field with a hand holding the product",
+  "background_source": "Advanced Bionutritionals (hydration supplement), 91d, proven 60+d",
+  "angle": "Warehouse/retail on concrete: \"try this if insoles failed you\" hand + starburst (I6 iteration)",
+  "based_on": "SOURCE RTGv1_I6 'Warning-task_Warehouse' static ($1,333 30d, ROAS 4.28): '48 HOURS LEFT - 40% OFF', 'Relieves Plantar Fasciitis...' (we keep the warehouse audience and urgency, not the claims).",
+  "reference_blocks": [
+   "3-line headline",
+   "starburst offer",
+   "3 icon labels",
+   "urgency band"
+  ],
+  "copy_slots": [
+   "3-line headline",
+   "starburst offer (3-4 words)",
+   "3 one-word icon labels",
+   "urgency band line"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "FP",
+   "offer"
+  ],
+  "dr_brief": {
+   "who": "the worker herself",
+   "avatar": "woman 40-68, US, on concrete or tile 8-12 hours (retail, warehouse, kitchen, housekeeping, caregiving), hourly pay",
+   "language": [
+    "concrete floors",
+    "on my feet all day",
+    "my feet are on fire by lunch",
+    "holiday rush",
+    "can't afford to miss a shift"
+   ],
+   "angle_habit": "wears cheap sneakers until they flatten and replaces them",
+   "dream": "finishes the holiday rush without limping and still has energy at home",
+   "identification": "by lunch the soles of her feet burn on the concrete",
+   "point_of_contact": "\"it is the floor and the shoes\" (I6 warehouse winner, competitor worker ads)",
+   "problem_mechanism": "cheap foam flattens on concrete within hours; narrow fit squeezes as feet swell",
+   "function_mechanism": "cheap comfort sneakers have cushion but no arch structure; work clogs have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room + slip-resistant grip",
+   "conditions": "DIY: cheap sneakers every few months, insoles, compression socks",
+   "usp": "support + room + grip for long shifts, $59.95",
+   "features": {
+    "built-in arch support + rocker sole": "odds",
+    "slip-resistant grip": "odds (wet/greasy floors)",
+    "stretch-knit + wide toe box": "dream",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs replacing cheap sneakers every few months; less than a dollar a shift",
+   "risk_reversal": "30 days of shifts; full refund if not for her",
+   "topic": "holiday rush shifts on warehouse concrete",
+   "concept": "A hand holds out the shoe: try this if insoles already failed you",
+   "visual_hook": "hand holding the shoe toward camera on a mid-blue field, yellow starburst, 3 icons, red urgency band",
+   "copy_hook_structure": "proven warehouse audience + urgency (I6)",
+   "format": "look from Advanced Bionutritionals (hydration supplement), 91d, proven 60+d (try_this_if_hand_hero_starburst_icon_band); characters: the worker herself",
+   "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns",
+   "lose_later": "the Black Friday price ends when the sale ends (no stock stories)"
+  },
+  "copy_notes": "Field must be mid-blue (not dark) so the light-grey shoe pops. Urgency only \"Black Friday sale ends soon\", no fake timers."
+ },
+ {
+  "id": "W48_18_gift_handoff_mom",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "gift_for_her",
+  "colorway": "grey_pink",
+  "funnel": "offer",
+  "offer": "Black Friday (current offer): 60% OFF SITEWIDE is the lead offer; free shipping & returns; 30-day money-back guarantee (full refund). Optional code LEAKED10 = extra 10% off (say '60% OFF SITEWIDE + EXTRA 10% OFF', never 'total 70%'). Never combine with the buy-2 gifts. No dollar prices next to 60% (the $120 -> $59.95 math is ~50%).",
+  "benchmark": "rv420_gift_handoff_percent",
+  "format_ref": true,
+  "format_name": "hands_passing_gift_big_percent_block",
+  "format_source": "Rumpl (blankets/outdoor gear), 7d, seasonal",
+  "background": "4 Seasonal: holiday: Paint-splattered studio canvas backdrop with hands handing over a bowed gift",
+  "background_source": "Rumpl (blankets/outdoor gear), 7d, seasonal",
+  "angle": "Gift for mom: hands passing the shoe with a gold bow + huge 60% OFF SITEWIDE block (O1 iteration)",
+  "based_on": "SOURCE RTGv1_O1 'Ortho Stretch' product static ($1,490 30d, ROAS 3.04): '40% OFF Sitewide. Shop Now!' -> Black Friday 60% OFF SITEWIDE, gift framing.",
+  "reference_blocks": [
+   "big % number",
+   "\"OFF\" + 1-word scope line"
+  ],
+  "copy_slots": [
+   "big % line",
+   "OFF + scope line (one word)"
+  ],
+  "risk": "conservative",
+  "bets": [],
+  "tags": [
+   "offer",
+   "gift"
+  ],
+  "dr_brief": {
+   "who": "the daughter / husband buying for her (men only as gift-givers)",
+   "avatar": "buyer 30-70 shopping Black Friday for mom/wife/grandma 60+ who complains about her feet",
+   "language": [
+    "Mom always complains about her feet",
+    "the gift she actually uses",
+    "she wore them out of the box"
+   ],
+   "angle_habit": "buys mom slippers or a gift card every year",
+   "dream": "mom keeps up on the family walk / at the holiday trip",
+   "identification": "mom sits out the walks and says her feet hurt",
+   "point_of_contact": "\"comfort shoes are the gift moms actually use\" (Hike gift-for-mom ad, Stepprs BF gift ads)",
+   "problem_mechanism": "mom's shoes are soft but unsupportive, or supportive but pinching",
+   "function_mechanism": "slippers are cozy but give no support for walking",
+   "solution_mechanism": "built-in arch support + stretch-knit room + no-tie laces she can slip on",
+   "conditions": "DIY: slippers, gift cards",
+   "usp": "a gift she wears every day, $59.95",
+   "features": {
+    "no-tie laces": "effort",
+    "stretch-knit upper": "dream",
+    "built-in arch support": "odds"
+   },
+   "anchoring": "vs another gift card; vs her $160 sneakers that failed",
+   "risk_reversal": "30-day money-back guarantee if they are not for her",
+   "topic": "Black Friday gift shopping for mom",
+   "concept": "One pair handed over with a bow; the block says the deal",
+   "visual_hook": "two arms passing the shoe with a gold bow on a paint-splattered white backdrop, teal/red block",
+   "copy_hook_structure": "proven offer (O1) + gift",
+   "format": "look from Rumpl (blankets/outdoor gear), 7d, seasonal (hands_passing_gift_big_percent_block); characters: the daughter / husband buying for her (men only as gift-givers)",
+   "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns",
+   "lose_later": "the Black Friday price ends when the sale ends (no stock stories)"
+  }
+ },
+ {
+  "id": "W48_19_scrubs_legs_four_colors",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "plus_size",
+  "colorway": "black_purple",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_legs_colorway_lineup",
+  "format_ref": true,
+  "format_name": "legs_over_colorway_lineup_labels",
+  "format_source": "Thursday Boot Company (boots/sneakers), 159d, proven 60+d",
+  "background": "12 Plain studio field: Chocolate-brown seamless paper",
+  "background_source": "Thursday Boot Company (boots/sneakers), 159d, proven 60+d",
+  "angle": "Plus-size nurse: legs in scrubs over the 4 nurse colorways with labels",
+  "based_on": "SOURCE TOFV1_NH3 plus-size ($5,131 7d) + RTGv1_B6 Emily RN ('I have one in the Black Purple and the White Blue color', $4,028, 3.59).",
+  "reference_blocks": [
+   "5 colorway labels",
+   "wordmark/offer line"
+  ],
+  "copy_slots": [
+   "short headline (optional, max 8 words)",
+   "4 colorway labels"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "segment mash-up"
+  ],
+  "tags": [
+   "FP",
+   "plus",
+   "nurse"
+  ],
+  "dr_brief": {
+   "who": "a plus-size nurse",
+   "avatar": "woman 35-60, US, hospital RN or CNA, mom/caregiver at home, PF or heel pain 2+ years, works 3-4 12s in a row",
+   "language": [
+    "12s",
+    "3 12s in a row",
+    "limping to my car",
+    "by hour 8",
+    "nurse wages",
+    "on the floor",
+    "rotate 2 pairs"
+   ],
+   "angle_habit": "puts insoles into the same running shoes and keeps working through it",
+   "dream": "walks to her car at 7:30 PM with energy left to cook for her kids",
+   "identification": "by hour 8 her heels throb; she dreads the walk to the parking garage",
+   "point_of_contact": "\"it is my shoes / the hard floors\" (Emily RN B6 script, Stepprs insoles memes, Hike nurse ads all blame the shoe)",
+   "problem_mechanism": "running-shoe foam packs flat by hour 4-6 while feet swell; tapered toe box clamps; heel tilts weight forward",
+   "function_mechanism": "insoles sit inside the same narrow shoe and eat toe room; clogs give support with no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces",
+   "conditions": "DIY substitutes: sizing up (heel slips), insoles (eat toe room), clogs (no give)",
+   "usp": "support AND stretch-knit room in one shoe at $59.95",
+   "features": {
+    "built-in arch support + cushioned rocker sole": "odds",
+    "stretch-knit upper + wide toe box": "dream",
+    "slip-resistant grip": "odds (wet hospital tile)",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs the next $160 running shoes + insoles every few months; less than a dollar a shift",
+   "risk_reversal": "30 days = 10+ shifts on her own floor; full refund if not for her",
+   "topic": "which color to wear for 12s",
+   "concept": "A plus-size nurse's legs in scrubs stand over a row of the four nurse colors",
+   "visual_hook": "full-figured legs in navy scrub pants at top, four pairs lined up below with color names",
+   "copy_hook_structure": "proven: Emily RN colors + shift",
+   "format": "look from Thursday Boot Company (boots/sneakers), 159d, proven 60+d (legs_over_colorway_lineup_labels); characters: the nurse herself",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "copy_notes": "Lineup = Black/Purple, Black/White, All Black, White Blue only (nurse colors). Legs visibly plus-size."
+ },
+ {
+  "id": "W48_20_ugc_gift_plaid_box",
+  "lang": "en",
+  "group": "iteration",
+  "persona": "gift_for_her",
+  "colorway": "red_burgundy",
+  "funnel": "offer",
+  "offer": "Black Friday (current offer): BUY 2 PAIRS, GET 2 FREE GIFTS = a 3-PACK OF CUSHIONED SOCKS + a FREE TRAVEL BAG; free shipping & returns; 30-day money-back guarantee (full refund). Never combine with 60% OFF; no dollar value for the gifts.",
+  "benchmark": "rv420_ugc_gift_plaid_box",
+  "format_ref": true,
+  "format_name": "ugc_gift_hand_caption_plaid_box",
+  "format_source": "MacKenzie-Childs with Brightland (olive oil gifts), 9d, seasonal",
+  "background": "4 Seasonal: holiday: Open tartan plaid gift box with tissue paper, cozy sweater sleeve",
+  "background_source": "MacKenzie-Childs with Brightland (olive oil gifts), 9d, seasonal",
+  "angle": "Gift for mom: UGC hand lifts the shoe from a tartan gift box, story captions (buy 2 = one for her, one for mom)",
+  "based_on": "SOURCE RTGv1_I19 'SELLING OUT - 4 DAYS LEFT' static ($589 30d, ROAS 1.89) + O1 offer static; Notion COM433 'Please do not order too many pairs like I did'.",
+  "reference_blocks": [
+   "short caption box",
+   "4-line review caption"
+  ],
+  "copy_slots": [
+   "short top caption",
+   "4-line first-person caption"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "offer",
+   "gift"
+  ],
+  "dr_brief": {
+   "who": "the daughter / husband buying for her (men only as gift-givers)",
+   "avatar": "buyer 30-70 shopping Black Friday for mom/wife/grandma 60+ who complains about her feet",
+   "language": [
+    "Mom always complains about her feet",
+    "the gift she actually uses",
+    "she wore them out of the box"
+   ],
+   "angle_habit": "buys mom slippers or a gift card every year",
+   "dream": "mom keeps up on the family walk / at the holiday trip",
+   "identification": "mom sits out the walks and says her feet hurt",
+   "point_of_contact": "\"comfort shoes are the gift moms actually use\" (Hike gift-for-mom ad, Stepprs BF gift ads)",
+   "problem_mechanism": "mom's shoes are soft but unsupportive, or supportive but pinching",
+   "function_mechanism": "slippers are cozy but give no support for walking",
+   "solution_mechanism": "built-in arch support + stretch-knit room + no-tie laces she can slip on",
+   "conditions": "DIY: slippers, gift cards",
+   "usp": "a gift she wears every day, $59.95",
+   "features": {
+    "no-tie laces": "effort",
+    "stretch-knit upper": "dream",
+    "built-in arch support": "odds"
+   },
+   "anchoring": "vs another gift card; vs her $160 sneakers that failed",
+   "risk_reversal": "30-day money-back guarantee if they are not for her",
+   "topic": "buying one pair for mom and one for herself",
+   "concept": "UGC unboxing: she bought 2 pairs (mom + her) and got the socks and bag free",
+   "visual_hook": "hand in a cream sweater lifting the shoe out of a green tartan gift box with tissue",
+   "copy_hook_structure": "proven UGC first-person (COM433 hook)",
+   "format": "look from MacKenzie-Childs with Brightland (olive oil gifts), 9d, seasonal (ugc_gift_hand_caption_plaid_box); characters: the daughter / husband buying for her (men only as gift-givers)",
+   "gain_now": "2 pairs + free 3-pack cushioned socks + free travel bag this Black Friday",
+   "lose_later": "the free gifts end with the Black Friday sale"
+  },
+  "copy_notes": "No scarcity/selling-out claim."
+ },
+ {
+  "id": "W48_21_breakroom_newspaper_bf",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "cna_caregiver",
+  "colorway": "black_white",
+  "funnel": "offer",
+  "offer": "Black Friday (current offer): 60% OFF SITEWIDE is the lead offer; free shipping & returns; 30-day money-back guarantee (full refund). Optional code LEAKED10 = extra 10% off (say '60% OFF SITEWIDE + EXTRA 10% OFF', never 'total 70%'). Never combine with the buy-2 gifts. No dollar prices next to 60% (the $120 -> $59.95 math is ~50%).",
+  "benchmark": "rv420_bf_newspaper_table",
+  "format_ref": true,
+  "format_name": "newspaper_front_page_headline_on_breakfast_table",
+  "format_source": "Konjoun Barefoot (barefoot shoes/socks), 12d, seasonal",
+  "background": "NEW 13 Printed paper on a real table: Folded newspaper + coffee mug on a dark oak table, morning light",
+  "background_source": "Konjoun Barefoot (barefoot shoes/socks), 12d, seasonal",
+  "angle": "CNA/caregiver: Black Friday offer printed as the newspaper headline on the break-room table",
+  "based_on": "NEW angle. Format: Konjoun newspaper headline (wellness growth rank 1, +292, 12d). Customer voice: caregivers on double shifts (avatar Persona 2: \"my back and feet after a double\").",
+  "reference_blocks": [
+   "newspaper headline (offer, 3 lines)",
+   "deck line (small)"
+  ],
+  "copy_slots": [
+   "3-line newspaper headline (the offer)",
+   "small deck line under it"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "offer"
+  ],
+  "dr_brief": {
+   "who": "CNA/caregiver",
+   "avatar": "woman 40-68, US, on concrete or tile 8-12 hours (retail, warehouse, kitchen, housekeeping, caregiving), hourly pay",
+   "language": [
+    "concrete floors",
+    "on my feet all day",
+    "my feet are on fire by lunch",
+    "holiday rush",
+    "can't afford to miss a shift"
+   ],
+   "angle_habit": "wears cheap sneakers until they flatten and replaces them",
+   "dream": "finishes the holiday rush without limping and still has energy at home",
+   "identification": "by lunch the soles of her feet burn on the concrete",
+   "point_of_contact": "\"it is the floor and the shoes\" (I6 warehouse winner, competitor worker ads)",
+   "problem_mechanism": "cheap foam flattens on concrete within hours; narrow fit squeezes as feet swell",
+   "function_mechanism": "cheap comfort sneakers have cushion but no arch structure; work clogs have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room + slip-resistant grip",
+   "conditions": "DIY: cheap sneakers every few months, insoles, compression socks",
+   "usp": "support + room + grip for long shifts, $59.95",
+   "features": {
+    "built-in arch support + rocker sole": "odds",
+    "slip-resistant grip": "odds (wet/greasy floors)",
+    "stretch-knit + wide toe box": "dream",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs replacing cheap sneakers every few months; less than a dollar a shift",
+   "risk_reversal": "30 days of shifts; full refund if not for her",
+   "topic": "Black Friday morning before a double shift",
+   "concept": "The deal reads as the morning's news next to her coffee before a double shift",
+   "visual_hook": "folded newspaper on a wood break-room table, coffee, our shoes resting on the paper",
+   "copy_hook_structure": "news headline offer",
+   "format": "look from Konjoun Barefoot (barefoot shoes/socks), 12d, seasonal (newspaper_front_page_headline_on_breakfast_table); characters: the worker herself",
+   "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns",
+   "lose_later": "the Black Friday price ends when the sale ends (no stock stories)"
+  }
+ },
+ {
+  "id": "W48_22_two_shoes_standing_swell",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "housekeeping",
+  "colorway": "black_mint",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_two_socks_contrast",
+  "format_ref": true,
+  "format_name": "two_objects_standing_contrast_statement",
+  "format_source": "(Atria template: socks) (alpaca socks), Noned, template",
+  "background": "7 Saturated color field + photo/polaroid: Mustard-yellow seamless with two standing objects",
+  "background_source": "(Atria template: socks) (alpaca socks), Noned, template",
+  "angle": "Housekeeping/swelling: tight sneaker vs our stretch-knit shoe standing side by side",
+  "based_on": "NEW persona (grow). Format: Atria sock template (two objects standing contrast). Avatar: \"toes squeezed like sausages\" by afternoon; VOC: room as feet swell.",
+  "reference_blocks": [
+   "3-line statement",
+   "3-line explainer",
+   "offer pill"
+  ],
+  "copy_slots": [
+   "3-line statement",
+   "3-line small explainer",
+   "small pill"
+  ],
+  "risk": "aggressive",
+  "bets": [
+   "segment",
+   "format"
+  ],
+  "tags": [
+   "FP",
+   "swelling"
+  ],
+  "dr_brief": {
+   "who": "hotel housekeeper",
+   "avatar": "woman 40-68, US, on concrete or tile 8-12 hours (retail, warehouse, kitchen, housekeeping, caregiving), hourly pay",
+   "language": [
+    "concrete floors",
+    "on my feet all day",
+    "my feet are on fire by lunch",
+    "holiday rush",
+    "can't afford to miss a shift"
+   ],
+   "angle_habit": "wears cheap sneakers until they flatten and replaces them",
+   "dream": "finishes the holiday rush without limping and still has energy at home",
+   "identification": "by lunch the soles of her feet burn on the concrete",
+   "point_of_contact": "\"it is the floor and the shoes\" (I6 warehouse winner, competitor worker ads)",
+   "problem_mechanism": "cheap foam flattens on concrete within hours; narrow fit squeezes as feet swell",
+   "function_mechanism": "cheap comfort sneakers have cushion but no arch structure; work clogs have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room + slip-resistant grip",
+   "conditions": "DIY: cheap sneakers every few months, insoles, compression socks",
+   "usp": "support + room + grip for long shifts, $59.95",
+   "features": {
+    "built-in arch support + rocker sole": "odds",
+    "slip-resistant grip": "odds (wet/greasy floors)",
+    "stretch-knit + wide toe box": "dream",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs replacing cheap sneakers every few months; less than a dollar a shift",
+   "risk_reversal": "30 days of shifts; full refund if not for her",
+   "topic": "feet swelling by 2 PM on long cleaning shifts",
+   "concept": "Two shoes stand like legs: the tight sneaker bulging, ours stretching with the foot",
+   "visual_hook": "two shoes upright on a mustard field: a strained generic sneaker vs our knit shoe",
+   "copy_hook_structure": "\"X at 7 AM. Y by 2 PM.\" (avatar swelling line)",
+   "format": "look from (Atria template: socks) (alpaca socks), Noned, template (two_objects_standing_contrast_statement); characters: the worker herself",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  }
+ },
+ {
+  "id": "W48_23_string_lights_holiday_rush",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "restaurant",
+  "colorway": "all_black",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_string_lights_holiday",
+  "format_ref": true,
+  "format_name": "string_lights_ribbon_holiday_arrival_headline",
+  "format_source": "Plant Therapy (essential oils), 22d, seasonal",
+  "background": "4 Seasonal: holiday: Orange field with Christmas string lights across the top and a red satin ribbon",
+  "background_source": "Plant Therapy (essential oils), 22d, seasonal",
+  "angle": "Server/line cook: working the holiday rush on wet kitchen tile, string lights",
+  "based_on": "NEW persona. Format: Plant Therapy holiday string lights (22d). VOC: food service tests slip-resistance hard; \"holiday rush\" doubles shifts.",
+  "reference_blocks": [
+   "headline",
+   "subline",
+   "CTA line"
+  ],
+  "copy_slots": [
+   "1-line headline",
+   "subline",
+   "small CTA line"
+  ],
+  "risk": "aggressive",
+  "bets": [
+   "segment",
+   "topic"
+  ],
+  "tags": [
+   "FP",
+   "grip"
+  ],
+  "dr_brief": {
+   "who": "restaurant server",
+   "avatar": "woman 40-68, US, on concrete or tile 8-12 hours (retail, warehouse, kitchen, housekeeping, caregiving), hourly pay",
+   "language": [
+    "concrete floors",
+    "on my feet all day",
+    "my feet are on fire by lunch",
+    "holiday rush",
+    "can't afford to miss a shift"
+   ],
+   "angle_habit": "wears cheap sneakers until they flatten and replaces them",
+   "dream": "finishes the holiday rush without limping and still has energy at home",
+   "identification": "by lunch the soles of her feet burn on the concrete",
+   "point_of_contact": "\"it is the floor and the shoes\" (I6 warehouse winner, competitor worker ads)",
+   "problem_mechanism": "cheap foam flattens on concrete within hours; narrow fit squeezes as feet swell",
+   "function_mechanism": "cheap comfort sneakers have cushion but no arch structure; work clogs have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room + slip-resistant grip",
+   "conditions": "DIY: cheap sneakers every few months, insoles, compression socks",
+   "usp": "support + room + grip for long shifts, $59.95",
+   "features": {
+    "built-in arch support + rocker sole": "odds",
+    "slip-resistant grip": "odds (wet/greasy floors)",
+    "stretch-knit + wide toe box": "dream",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs replacing cheap sneakers every few months; less than a dollar a shift",
+   "risk_reversal": "30 days of shifts; full refund if not for her",
+   "topic": "Thanksgiving and holiday restaurant rush",
+   "concept": "Holiday lights above, the shoe that grips the wet tile below",
+   "visual_hook": "tangerine field, colored string lights across the top, the shoe with a red ribbon",
+   "copy_hook_structure": "call-out + season",
+   "format": "look from Plant Therapy (essential oils), 22d, seasonal (string_lights_ribbon_holiday_arrival_headline); characters: the worker herself",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "copy_notes": "Slip-resistant grip only; no certification claims. All-black shoe needs light rim lighting on the tangerine field."
+ },
+ {
+  "id": "W48_24_cream_note_dont_sleep",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "retail_warehouse",
+  "colorway": "navy_blue",
+  "funnel": "offer",
+  "offer": "Black Friday (current offer): 60% OFF SITEWIDE is the lead offer; free shipping & returns; 30-day money-back guarantee (full refund). Optional code LEAKED10 = extra 10% off (say '60% OFF SITEWIDE + EXTRA 10% OFF', never 'total 70%'). Never combine with the buy-2 gifts. No dollar prices next to 60% (the $120 -> $59.95 math is ~50%).",
+  "benchmark": "rv420w_dont_sleep_offer",
+  "format_ref": true,
+  "format_name": "dont_sleep_through_offer_note",
+  "format_source": "Nordic Stretch, 14d, wellness growth rank 39 (+35)",
+  "background": "12 plain studio: warm cream (light rebuild of a dark ad)",
+  "background_source": "Nordic Stretch, 14d, wellness growth rank 39 (+35)",
+  "angle": "65+ still working retail: \"don't sleep through this\" Black Friday note (light rebuild)",
+  "based_on": "NEW segment: 65+ still on the clock (~1,270 survey respondents 65+ still working; avatar Persona 10). Format: Nordic Stretch (wellness growth rank 39, 14d).",
+  "reference_blocks": [
+   "command line",
+   "second line with %",
+   "2 short body lines",
+   "promise line"
+  ],
+  "copy_slots": [
+   "command line",
+   "second line with the %",
+   "2 short body lines",
+   "promise line"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "segment"
+  ],
+  "tags": [
+   "offer"
+  ],
+  "dr_brief": {
+   "who": "cashier 65+ still working",
+   "avatar": "woman 40-68, US, on concrete or tile 8-12 hours (retail, warehouse, kitchen, housekeeping, caregiving), hourly pay",
+   "language": [
+    "concrete floors",
+    "on my feet all day",
+    "my feet are on fire by lunch",
+    "holiday rush",
+    "can't afford to miss a shift"
+   ],
+   "angle_habit": "wears cheap sneakers until they flatten and replaces them",
+   "dream": "finishes the holiday rush without limping and still has energy at home",
+   "identification": "by lunch the soles of her feet burn on the concrete",
+   "point_of_contact": "\"it is the floor and the shoes\" (I6 warehouse winner, competitor worker ads)",
+   "problem_mechanism": "cheap foam flattens on concrete within hours; narrow fit squeezes as feet swell",
+   "function_mechanism": "cheap comfort sneakers have cushion but no arch structure; work clogs have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room + slip-resistant grip",
+   "conditions": "DIY: cheap sneakers every few months, insoles, compression socks",
+   "usp": "support + room + grip for long shifts, $59.95",
+   "features": {
+    "built-in arch support + rocker sole": "odds",
+    "slip-resistant grip": "odds (wet/greasy floors)",
+    "stretch-knit + wide toe box": "dream",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs replacing cheap sneakers every few months; less than a dollar a shift",
+   "risk_reversal": "30 days of shifts; full refund if not for her",
+   "topic": "working the Black Friday register at 65+",
+   "concept": "A calm, plain note that tells her the deal and the guarantee, the shoe below",
+   "visual_hook": "cream field, stacked centered text, shoe large in the bottom 40%",
+   "copy_hook_structure": "command + offer (Nordic Stretch structure)",
+   "format": "look from Nordic Stretch, 14d, wellness growth rank 39 (+35) (dont_sleep_through_offer_note); characters: the worker herself",
+   "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns",
+   "lose_later": "the Black Friday price ends when the sale ends (no stock stories)"
+  },
+  "copy_notes": "No stock/sold-out lines."
+ },
+ {
+  "id": "W48_25_question_senior_checklist",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "active_retiree",
+  "colorway": "purple",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420w_question_senior_checklist",
+  "format_ref": true,
+  "format_name": "question_header_senior_holds_product_checklist",
+  "format_source": "Mendable, 13d, wellness growth rank 37 (+39)",
+  "background": "10 real interior: bright living room",
+  "background_source": "Mendable, 13d, wellness growth rank 37 (+39)",
+  "angle": "Retiree PF: \"what do you mean my first steps don't have to hurt?\" question header + woman holding the shoe + checks",
+  "based_on": "NEW for this persona/format. Format: Mendable (wellness growth rank 37, 13d). Rival: Stepprs/Konjoun morning first steps ads.",
+  "reference_blocks": [
+   "2-line question header",
+   "4 check rows",
+   "footer line"
+  ],
+  "copy_slots": [
+   "2-line question header",
+   "4 check rows",
+   "footer line"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "FP",
+   "PF"
+  ],
+  "dr_brief": {
+   "who": "the woman herself, 60+",
+   "avatar": "woman 60-75, US, retired or still working part-time, PF or arthritis 5+ years, grandmother",
+   "language": [
+    "first steps out of bed",
+    "I feel 80 the minute I stand up",
+    "gripping the nightstand",
+    "orthopedic brick",
+    "my closet of shoes that betrayed me"
+   ],
+   "angle_habit": "blames her age and buys another pair of soft slip-ons",
+   "dream": "walks to the store and around the block with her grandkids again",
+   "identification": "first steps out of bed feel like stepping on glass",
+   "point_of_contact": "\"it is not your age, it is your shoes\" (Notion COM429, Hike/Stepprs morning-steps ads)",
+   "problem_mechanism": "flat soft slip-ons let the arch collapse; foam packs out; narrow toe boxes pinch swollen feet",
+   "function_mechanism": "memory-foam slip-ons feel soft but give no structure; rigid orthopedic shoes have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room, slip on with no-tie laces",
+   "conditions": "DIY: soft slippers, insoles, stretching, ice",
+   "usp": "doctor-/podiatrist-recommended support that does not look orthopedic, $59.95",
+   "features": {
+    "built-in arch support": "odds",
+    "no-tie laces": "effort (no bending to tie)",
+    "slip-resistant grip": "odds (wet sidewalks)",
+    "stretch-knit upper": "dream"
+   },
+   "anchoring": "vs custom orthotics ($300+) and the pile of shoes that failed",
+   "risk_reversal": "30 days of her own walks; full refund if not for her",
+   "topic": "morning first steps in winter",
+   "concept": "Her disbelief as the headline, her smile + the shoe as the answer",
+   "visual_hook": "smiling woman ~65 in a bright living room holding the shoe, check rows",
+   "copy_hook_structure": "disbelief question (Mendable)",
+   "format": "look from Mendable, 13d, wellness growth rank 37 (+39) (question_header_senior_holds_product_checklist); characters: the woman herself, 60+",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "rival": "Stepprs morning first steps"
+ },
+ {
+  "id": "W48_26_burlap_free_gifts_walk",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "walker_weightloss",
+  "colorway": "black_mint",
+  "funnel": "offer",
+  "offer": "Black Friday (current offer): BUY 2 PAIRS, GET 2 FREE GIFTS = a 3-PACK OF CUSHIONED SOCKS + a FREE TRAVEL BAG; free shipping & returns; 30-day money-back guarantee (full refund). Never combine with 60% OFF; no dollar value for the gifts.",
+  "benchmark": "rv420_burlap_thanksgiving",
+  "format_ref": true,
+  "format_name": "burlap_texture_doodle_big_free_headline",
+  "format_source": "ShopRite (grocery), 10d, seasonal",
+  "background": "NEW 14 Natural woven texture (burlap, linen, knit): Tan burlap sack texture with pencil harvest doodles",
+  "background_source": "ShopRite (grocery), 10d, seasonal",
+  "angle": "Post-Thanksgiving walker: burlap \"FREE\" big word, socks + travel bag with 2 pairs",
+  "based_on": "NEW persona (grow: walker_weightloss). Format: ShopRite burlap Thanksgiving (10d). Behavior: the after-dinner family walk / new walking goal.",
+  "reference_blocks": [
+   "giant one-word offer",
+   "2-line headline",
+   "small caps occasion line",
+   "fine print"
+  ],
+  "copy_slots": [
+   "giant one word",
+   "2-line headline",
+   "small caps occasion line",
+   "fine print line"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "segment"
+  ],
+  "tags": [
+   "offer"
+  ],
+  "dr_brief": {
+   "who": "woman walking to lose weight after 50",
+   "avatar": "woman 60-75, US, retired or still working part-time, PF or arthritis 5+ years, grandmother",
+   "language": [
+    "first steps out of bed",
+    "I feel 80 the minute I stand up",
+    "gripping the nightstand",
+    "orthopedic brick",
+    "my closet of shoes that betrayed me"
+   ],
+   "angle_habit": "blames her age and buys another pair of soft slip-ons",
+   "dream": "walks to the store and around the block with her grandkids again",
+   "identification": "first steps out of bed feel like stepping on glass",
+   "point_of_contact": "\"it is not your age, it is your shoes\" (Notion COM429, Hike/Stepprs morning-steps ads)",
+   "problem_mechanism": "flat soft slip-ons let the arch collapse; foam packs out; narrow toe boxes pinch swollen feet",
+   "function_mechanism": "memory-foam slip-ons feel soft but give no structure; rigid orthopedic shoes have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room, slip on with no-tie laces",
+   "conditions": "DIY: soft slippers, insoles, stretching, ice",
+   "usp": "doctor-/podiatrist-recommended support that does not look orthopedic, $59.95",
+   "features": {
+    "built-in arch support": "odds",
+    "no-tie laces": "effort (no bending to tie)",
+    "slip-resistant grip": "odds (wet sidewalks)",
+    "stretch-knit upper": "dream"
+   },
+   "anchoring": "vs custom orthotics ($300+) and the pile of shoes that failed",
+   "risk_reversal": "30 days of her own walks; full refund if not for her",
+   "topic": "the after-Thanksgiving walk",
+   "concept": "Thanksgiving burlap card: free gifts for walkers who buy 2",
+   "visual_hook": "burlap texture with harvest doodles, huge red FREE with an underline swoosh, small shoe",
+   "copy_hook_structure": "big FREE offer word",
+   "format": "look from ShopRite (grocery), 10d, seasonal (burlap_texture_doodle_big_free_headline); characters: the woman herself, 60+",
+   "gain_now": "2 pairs + free 3-pack cushioned socks + free travel bag this Black Friday",
+   "lose_later": "the free gifts end with the Black Friday sale"
+  }
+ },
+ {
+  "id": "W48_27_tiktok_kitchen_hug",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "gift_for_her",
+  "colorway": "black_purple",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_tiktok_kitchen_gift",
+  "format_ref": true,
+  "format_name": "tiktok_caption_gift_kitchen_ugc",
+  "format_source": "Amanda Stanton (sneakers (UGC creator)), 37d, rising",
+  "background": "10 Real interior at a time of day: White home kitchen with an open shoe box, birthday cake and flowers",
+  "background_source": "Amanda Stanton (sneakers (UGC creator)), 37d, rising",
+  "angle": "Gift: mom in pajamas hugging her new shoes in the kitchen, TikTok caption (daughter POV)",
+  "based_on": "NEW. Format: Amanda Stanton TikTok kitchen gift (37d, rising). Avatar: gift buyers (men only as gift-givers); survey: many buy a second pair as a gift.",
+  "reference_blocks": [
+   "2-line caption",
+   "link sticker"
+  ],
+  "copy_slots": [
+   "2-line caption",
+   "link sticker text (2-3 words)"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "gift"
+  ],
+  "dr_brief": {
+   "who": "the daughter / husband buying for her (men only as gift-givers)",
+   "avatar": "buyer 30-70 shopping Black Friday for mom/wife/grandma 60+ who complains about her feet",
+   "language": [
+    "Mom always complains about her feet",
+    "the gift she actually uses",
+    "she wore them out of the box"
+   ],
+   "angle_habit": "buys mom slippers or a gift card every year",
+   "dream": "mom keeps up on the family walk / at the holiday trip",
+   "identification": "mom sits out the walks and says her feet hurt",
+   "point_of_contact": "\"comfort shoes are the gift moms actually use\" (Hike gift-for-mom ad, Stepprs BF gift ads)",
+   "problem_mechanism": "mom's shoes are soft but unsupportive, or supportive but pinching",
+   "function_mechanism": "slippers are cozy but give no support for walking",
+   "solution_mechanism": "built-in arch support + stretch-knit room + no-tie laces she can slip on",
+   "conditions": "DIY: slippers, gift cards",
+   "usp": "a gift she wears every day, $59.95",
+   "features": {
+    "no-tie laces": "effort",
+    "stretch-knit upper": "dream",
+    "built-in arch support": "odds"
+   },
+   "anchoring": "vs another gift card; vs her $160 sneakers that failed",
+   "risk_reversal": "30-day money-back guarantee if they are not for her",
+   "topic": "the early Christmas gift she wore out of the box",
+   "concept": "Daughter films mom hugging the shoes; caption in her words",
+   "visual_hook": "woman ~65 in pajamas laughing, hugging the shoes, open shoe box on the kitchen counter",
+   "copy_hook_structure": "UGC caption (daughter POV)",
+   "format": "look from Amanda Stanton (sneakers (UGC creator)), 37d, rising (tiktok_caption_gift_kitchen_ugc); characters: the daughter / husband buying for her (men only as gift-givers)",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  }
+ },
+ {
+  "id": "W48_28_lawn_sign_bunions",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "comfort_only",
+  "colorway": "light_grey",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_lawn_sign",
+  "format_ref": true,
+  "format_name": "front_lawn_yard_sign_statement",
+  "format_source": "Dr. Richard Calloway (oral health supplement), 84d, proven 60+d",
+  "background": "NEW 18 Outdoor signage in a real place: Suburban front lawn with a yard sign, brick house and shrubs",
+  "background_source": "Dr. Richard Calloway (oral health supplement), 84d, proven 60+d",
+  "angle": "Bunions + arch support (market gap): the statement printed on a front-lawn yard sign",
+  "based_on": "NEW test pain (bunions, 9% of survey; VOC §6: \"wide toe box shoes are thin barefoot styles with no arch support; they want both\"). Format: yard sign (84d proven).",
+  "reference_blocks": [
+   "3-line statement",
+   "1 red twist line"
+  ],
+  "copy_slots": [
+   "3-line statement",
+   "1 red twist line"
+  ],
+  "risk": "aggressive",
+  "bets": [
+   "format",
+   "pain"
+  ],
+  "tags": [
+   "FP",
+   "bunions"
+  ],
+  "dr_brief": {
+   "who": "the woman herself, 60+",
+   "avatar": "woman 60-75, US, retired or still working part-time, PF or arthritis 5+ years, grandmother",
+   "language": [
+    "first steps out of bed",
+    "I feel 80 the minute I stand up",
+    "gripping the nightstand",
+    "orthopedic brick",
+    "my closet of shoes that betrayed me"
+   ],
+   "angle_habit": "blames her age and buys another pair of soft slip-ons",
+   "dream": "walks to the store and around the block with her grandkids again",
+   "identification": "first steps out of bed feel like stepping on glass",
+   "point_of_contact": "\"it is not your age, it is your shoes\" (Notion COM429, Hike/Stepprs morning-steps ads)",
+   "problem_mechanism": "flat soft slip-ons let the arch collapse; foam packs out; narrow toe boxes pinch swollen feet",
+   "function_mechanism": "memory-foam slip-ons feel soft but give no structure; rigid orthopedic shoes have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room, slip on with no-tie laces",
+   "conditions": "DIY: soft slippers, insoles, stretching, ice",
+   "usp": "doctor-/podiatrist-recommended support that does not look orthopedic, $59.95",
+   "features": {
+    "built-in arch support": "odds",
+    "no-tie laces": "effort (no bending to tie)",
+    "slip-resistant grip": "odds (wet sidewalks)",
+    "stretch-knit upper": "dream"
+   },
+   "anchoring": "vs custom orthotics ($300+) and the pile of shoes that failed",
+   "risk_reversal": "30 days of her own walks; full refund if not for her",
+   "topic": "bunions rubbing in holiday shoes",
+   "concept": "A neighborhood yard sign says what she has always thought about her bunion shoes",
+   "visual_hook": "white corrugated yard sign on a green lawn in front of a brick house, our shoe on the grass by the sign",
+   "copy_hook_structure": "statement + twist line (yard sign)",
+   "format": "look from Dr. Richard Calloway (oral health supplement), 84d, proven 60+d (front_lawn_yard_sign_statement); characters: the woman herself, 60+",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "copy_notes": "No cure/correction claims; toe room + arch support only."
+ },
+ {
+  "id": "W48_29_knit_stack_room",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "comfort_only",
+  "colorway": "black_purple",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_knit_stack_title",
+  "format_ref": true,
+  "format_name": "folded_knit_stack_centered_title_color_dots",
+  "format_source": "We are Amma (nursing covers (apparel)), 78d, proven 60+d",
+  "background": "NEW 14 Natural woven texture (burlap, linen, knit): Stack of folded knit textiles in autumn colors",
+  "background_source": "We are Amma (nursing covers (apparel)), 78d, proven 60+d",
+  "angle": "Wide/squeezed toes (test): folded knit stack with centered title, the stretch-knit story",
+  "based_on": "NEW test pain (wide feet rising 2% -> 4.4%). Format: We are Amma knit stack (78d proven). Avatar: \"toes squeezed together like sausages\". Guardrail: never promise extra wide.",
+  "reference_blocks": [
+   "title (2 lines)",
+   "chip + offer line",
+   "4 color dots"
+  ],
+  "copy_slots": [
+   "2-line title",
+   "chip + one short line",
+   "4 color dots (no text)"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "FP",
+   "wide"
+  ],
+  "dr_brief": {
+   "who": "the woman herself, 60+",
+   "avatar": "woman 60-75, US, retired or still working part-time, PF or arthritis 5+ years, grandmother",
+   "language": [
+    "first steps out of bed",
+    "I feel 80 the minute I stand up",
+    "gripping the nightstand",
+    "orthopedic brick",
+    "my closet of shoes that betrayed me"
+   ],
+   "angle_habit": "blames her age and buys another pair of soft slip-ons",
+   "dream": "walks to the store and around the block with her grandkids again",
+   "identification": "first steps out of bed feel like stepping on glass",
+   "point_of_contact": "\"it is not your age, it is your shoes\" (Notion COM429, Hike/Stepprs morning-steps ads)",
+   "problem_mechanism": "flat soft slip-ons let the arch collapse; foam packs out; narrow toe boxes pinch swollen feet",
+   "function_mechanism": "memory-foam slip-ons feel soft but give no structure; rigid orthopedic shoes have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room, slip on with no-tie laces",
+   "conditions": "DIY: soft slippers, insoles, stretching, ice",
+   "usp": "doctor-/podiatrist-recommended support that does not look orthopedic, $59.95",
+   "features": {
+    "built-in arch support": "odds",
+    "no-tie laces": "effort (no bending to tie)",
+    "slip-resistant grip": "odds (wet sidewalks)",
+    "stretch-knit upper": "dream"
+   },
+   "anchoring": "vs custom orthotics ($300+) and the pile of shoes that failed",
+   "risk_reversal": "30 days of her own walks; full refund if not for her",
+   "topic": "toes squeezed in narrow shoes",
+   "concept": "Soft knit fabrics stacked like the upper, with the shoe on top",
+   "visual_hook": "tall stack of folded knits in fall tones, title over the middle, shoe on top, 4 color dots",
+   "copy_hook_structure": "feature-as-benefit title",
+   "format": "look from We are Amma (nursing covers (apparel)), 78d, proven 60+d (folded_knit_stack_centered_title_color_dots); characters: the woman herself, 60+",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "copy_notes": "Never say extra wide or fits everyone."
+ },
+ {
+  "id": "W48_30_fall_poster_ball_of_foot",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "traveler",
+  "colorway": "grey_pink",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_fall_leaf_border_price",
+  "format_ref": true,
+  "format_name": "autumn_leaf_border_poster_photo_window_price",
+  "format_source": "My Derma Dream (skincare (eye bags)), 29d, seasonal",
+  "background": "3 Seasonal: fall leaves: Rust/terracotta field with real maple leaves around the border, photo window in the middle",
+  "background_source": "My Derma Dream (skincare (eye bags)), 29d, seasonal",
+  "angle": "Burning ball of foot after a city/shopping day (test pain), fall-leaf poster with a photo window",
+  "based_on": "NEW test pain (Morton's / burning ball of foot). Format: My Derma Dream fall poster (29d). Avatar: \"the bottom of my feet burn\".",
+  "reference_blocks": [
+   "FALL SALE title",
+   "sub-headline",
+   "small line",
+   "old price struck",
+   "new price",
+   "guarantee line"
+  ],
+  "copy_slots": [
+   "title (2-3 words)",
+   "sub-headline",
+   "small line",
+   "guarantee line"
+  ],
+  "risk": "aggressive",
+  "bets": [
+   "pain",
+   "format"
+  ],
+  "tags": [
+   "FP"
+  ],
+  "dr_brief": {
+   "who": "the traveler herself (or the group of travel nurses who tested shoes)",
+   "avatar": "woman 50-70, US, grandma or empty nester, bucket-list trips, foot pain flares after hour 4-5 of walking",
+   "language": [
+    "hour 8",
+    "20,000 steps",
+    "cobblestones",
+    "the person on the bench",
+    "fine at breakfast",
+    "loosening my laces at lunch"
+   ],
+   "angle_habit": "packs her \"comfortable\" running sneakers because they felt fine at home",
+   "dream": "walks the whole park / city with the family instead of holding bags on the bench",
+   "identification": "by hour 5 she is looking for somewhere to sit while everyone else keeps going",
+   "point_of_contact": "\"running shoes are built for 40-minute runs, not 10-hour park days\" (NL1, JW1, NJ1 scripts; Hike travel ads)",
+   "problem_mechanism": "soft foam flattens while standing in lines; feet swell half a size; narrow toe box; slick wet paths",
+   "function_mechanism": "expensive runners are built to propel a runner forward, not to stand and walk 10 hours on uneven ground",
+   "solution_mechanism": "firm built-in arch support + rocker sole, stretch-knit room for swelling, slip-resistant grip",
+   "conditions": "DIY substitutes: cheap comfort sneakers (foam goes flat), sizing up, a second pair in the bag",
+   "usp": "the one pair to pack: support + room + grip, $59.95",
+   "features": {
+    "built-in arch support + rocker sole": "odds (hour 8 feels like hour 1)",
+    "stretch-knit + wide toe box": "dream (no pinch as feet swell)",
+    "slip-resistant grip": "odds (wet paths)",
+    "no-tie laces": "effort (security lines)"
+   },
+   "anchoring": "vs a $130-$180 runner that quits by lunch; vs a trip spent on a bench",
+   "risk_reversal": "30 days covers the whole trip; full refund if not for her",
+   "topic": "holiday shopping day on hard floors",
+   "concept": "A fall poster: headline about the burn, photo window of her walking, one guarantee line",
+   "visual_hook": "rust poster framed by maple leaves, photo window of a woman 55 walking a mall/city street in our shoe",
+   "copy_hook_structure": "pain in her words",
+   "format": "look from My Derma Dream (skincare (eye bags)), 29d, seasonal (autumn_leaf_border_poster_photo_window_price); characters: the traveler herself (or the group of travel nurses who tested shoes)",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "copy_notes": "No relief claims; ball-of-foot words only as she says them. No price on this one."
+ },
+ {
+  "id": "W48_31_harvest_basket_cook",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "comfort_only",
+  "colorway": "red_burgundy",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_harvest_basket",
+  "format_ref": true,
+  "format_name": "harvest_basket_product_offer_pill",
+  "format_source": "Proper Wild (energy gummies), 8d, seasonal",
+  "background": "3 Seasonal: fall leaves: Saturated orange field with a wicker harvest basket, wheat stalks and maple leaves",
+  "background_source": "Proper Wild (energy gummies), 8d, seasonal",
+  "angle": "Thanksgiving host standing 9 hours cooking: swollen feet; shoe in a harvest basket",
+  "based_on": "NEW topic (Thanksgiving host). Format: Proper Wild harvest basket (8d). Avatar: \"a shoe that fits at 7 AM is a vice by 6 PM\".",
+  "reference_blocks": [
+   "offer line",
+   "2-line headline",
+   "pill with sale name"
+  ],
+  "copy_slots": [
+   "small line",
+   "2-line headline",
+   "white pill line"
+  ],
+  "risk": "aggressive",
+  "bets": [
+   "topic",
+   "format"
+  ],
+  "tags": [
+   "FP",
+   "swelling"
+  ],
+  "dr_brief": {
+   "who": "Thanksgiving host 55+",
+   "avatar": "woman 40-68, US, on concrete or tile 8-12 hours (retail, warehouse, kitchen, housekeeping, caregiving), hourly pay",
+   "language": [
+    "concrete floors",
+    "on my feet all day",
+    "my feet are on fire by lunch",
+    "holiday rush",
+    "can't afford to miss a shift"
+   ],
+   "angle_habit": "wears cheap sneakers until they flatten and replaces them",
+   "dream": "finishes the holiday rush without limping and still has energy at home",
+   "identification": "by lunch the soles of her feet burn on the concrete",
+   "point_of_contact": "\"it is the floor and the shoes\" (I6 warehouse winner, competitor worker ads)",
+   "problem_mechanism": "cheap foam flattens on concrete within hours; narrow fit squeezes as feet swell",
+   "function_mechanism": "cheap comfort sneakers have cushion but no arch structure; work clogs have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room + slip-resistant grip",
+   "conditions": "DIY: cheap sneakers every few months, insoles, compression socks",
+   "usp": "support + room + grip for long shifts, $59.95",
+   "features": {
+    "built-in arch support + rocker sole": "odds",
+    "slip-resistant grip": "odds (wet/greasy floors)",
+    "stretch-knit + wide toe box": "dream",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs replacing cheap sneakers every few months; less than a dollar a shift",
+   "risk_reversal": "30 days of shifts; full refund if not for her",
+   "topic": "standing all day cooking Thanksgiving dinner",
+   "concept": "The host's feet are the last thing anyone thanks; the shoe sits in the harvest basket",
+   "visual_hook": "bright orange field, wicker basket with the shoe, autumn leaves and wheat, white pill",
+   "copy_hook_structure": "host call-out",
+   "format": "look from Proper Wild (energy gummies), 8d, seasonal (harvest_basket_product_offer_pill); characters: the worker herself",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  }
+ },
+ {
+  "id": "W48_32_bf_display_riser_range",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "comfort_only",
+  "colorway": "all_black",
+  "funnel": "offer",
+  "offer": "Black Friday (current offer): 60% OFF SITEWIDE is the lead offer; free shipping & returns; 30-day money-back guarantee (full refund). Optional code LEAKED10 = extra 10% off (say '60% OFF SITEWIDE + EXTRA 10% OFF', never 'total 70%'). Never combine with the buy-2 gifts. No dollar prices next to 60% (the $120 -> $59.95 math is ~50%).",
+  "benchmark": "rv420_bf_display_riser",
+  "format_ref": true,
+  "format_name": "tiered_display_riser_bf_banner",
+  "format_source": "Bella Belts (belts), 14d, seasonal",
+  "background": "NEW 16 Boutique display riser / shop shelf: Plum boutique backdrop with a tiered black display stand and repeating BF ribbon bands",
+  "background_source": "Bella Belts (belts), 14d, seasonal",
+  "angle": "Black Friday: the whole colorway range on a boutique display riser, ribbon bands",
+  "based_on": "NEW format (Bella Belts, 14d). Our account: best sellers Black/Purple, All Black, White Blue, Black/White, Red, Turquoise/Black; buyers buy every color once one fits (VOC §4).",
+  "reference_blocks": [
+   "logo",
+   "2-line headline",
+   "repeating ribbon text"
+  ],
+  "copy_slots": [
+   "2-line headline",
+   "repeating ribbon text (offer, 3-4 words)"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "offer"
+  ],
+  "dr_brief": {
+   "who": "the woman herself, 60+",
+   "avatar": "woman 60-75, US, retired or still working part-time, PF or arthritis 5+ years, grandmother",
+   "language": [
+    "first steps out of bed",
+    "I feel 80 the minute I stand up",
+    "gripping the nightstand",
+    "orthopedic brick",
+    "my closet of shoes that betrayed me"
+   ],
+   "angle_habit": "blames her age and buys another pair of soft slip-ons",
+   "dream": "walks to the store and around the block with her grandkids again",
+   "identification": "first steps out of bed feel like stepping on glass",
+   "point_of_contact": "\"it is not your age, it is your shoes\" (Notion COM429, Hike/Stepprs morning-steps ads)",
+   "problem_mechanism": "flat soft slip-ons let the arch collapse; foam packs out; narrow toe boxes pinch swollen feet",
+   "function_mechanism": "memory-foam slip-ons feel soft but give no structure; rigid orthopedic shoes have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room, slip on with no-tie laces",
+   "conditions": "DIY: soft slippers, insoles, stretching, ice",
+   "usp": "doctor-/podiatrist-recommended support that does not look orthopedic, $59.95",
+   "features": {
+    "built-in arch support": "odds",
+    "no-tie laces": "effort (no bending to tie)",
+    "slip-resistant grip": "odds (wet sidewalks)",
+    "stretch-knit upper": "dream"
+   },
+   "anchoring": "vs custom orthotics ($300+) and the pile of shoes that failed",
+   "risk_reversal": "30 days of her own walks; full refund if not for her",
+   "topic": "picking colors on Black Friday",
+   "concept": "Every color on a boutique riser, the deal on the ribbons",
+   "visual_hook": "light blush boutique backdrop (not dark), 3-tier display riser with the six best-seller colors, ribbon bands",
+   "copy_hook_structure": "offer + range",
+   "format": "look from Bella Belts (belts), 14d, seasonal (tiered_display_riser_bf_banner); characters: the woman herself, 60+",
+   "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns",
+   "lose_later": "the Black Friday price ends when the sale ends (no stock stories)"
+  },
+  "copy_notes": "Background must be light/mid (blush or champagne), never dark plum, so dark shoes stay visible."
+ },
+ {
+  "id": "W48_33_forearm_sticky_features",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "nurse",
+  "colorway": "black_white",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420r_hike_fear_falls_arm_notes",
+  "format_ref": true,
+  "format_name": "hike_fear_falls_arm_notes",
+  "format_source": "Hike Footwear (core competitor), 0d active",
+  "background": "flat dark slate/teal",
+  "background_source": "Hike Footwear (core competitor), 0d active",
+  "angle": "Nurse: 4 sticky notes down a forearm, one feature each (answers Hike sticky-note forearm + Stepprs 427d sticky-note guarantee)",
+  "based_on": "RIVAL ANSWER: Hike 'Fear of falls ends here' sticky notes on a forearm (new 11-19) and Stepprs 'Walk on Clouds - Or It's FREE' sticky notes (427d). Ours: features named by lever + 30-day guarantee, no fall claim. Customer words: Emily RN 'slip-resistant which is a necessity for us'.",
+  "reference_blocks": [
+   "4 sticky-note feature labels (2-3 words)",
+   "headline 2 lines",
+   "offer pill",
+   "2-line proof line"
+  ],
+  "copy_slots": [
+   "4 sticky-note labels (2-3 words each)",
+   "2-line headline",
+   "pill line (guarantee)",
+   "1-line proof line"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "FP"
+  ],
+  "dr_brief": {
+   "who": "the nurse herself",
+   "avatar": "woman 35-60, US, hospital RN or CNA, mom/caregiver at home, PF or heel pain 2+ years, works 3-4 12s in a row",
+   "language": [
+    "12s",
+    "3 12s in a row",
+    "limping to my car",
+    "by hour 8",
+    "nurse wages",
+    "on the floor",
+    "rotate 2 pairs"
+   ],
+   "angle_habit": "puts insoles into the same running shoes and keeps working through it",
+   "dream": "walks to her car at 7:30 PM with energy left to cook for her kids",
+   "identification": "by hour 8 her heels throb; she dreads the walk to the parking garage",
+   "point_of_contact": "\"it is my shoes / the hard floors\" (Emily RN B6 script, Stepprs insoles memes, Hike nurse ads all blame the shoe)",
+   "problem_mechanism": "running-shoe foam packs flat by hour 4-6 while feet swell; tapered toe box clamps; heel tilts weight forward",
+   "function_mechanism": "insoles sit inside the same narrow shoe and eat toe room; clogs give support with no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces",
+   "conditions": "DIY substitutes: sizing up (heel slips), insoles (eat toe room), clogs (no give)",
+   "usp": "support AND stretch-knit room in one shoe at $59.95",
+   "features": {
+    "built-in arch support + cushioned rocker sole": "odds",
+    "stretch-knit upper + wide toe box": "dream",
+    "slip-resistant grip": "odds (wet hospital tile)",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs the next $160 running shoes + insoles every few months; less than a dollar a shift",
+   "risk_reversal": "30 days = 10+ shifts on her own floor; full refund if not for her",
+   "topic": "what a nurse checks before buying shoes",
+   "concept": "Her forearm holds the shoe and four sticky notes: the four things her last shoes lacked",
+   "visual_hook": "forearm in scrub sleeve holding the shoe by the heel, 4 yellow sticky notes down the arm",
+   "copy_hook_structure": "feature checklist made tactile",
+   "format": "look from Hike Footwear (core competitor), 0d active (hike_fear_falls_arm_notes); characters: the nurse herself",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "rival": "Hike forearm sticky notes / Stepprs sticky-note guarantee",
+  "copy_notes": "Light background (pale sage or cream), never dark slate. No fall-prevention claim; grip wording only."
+ },
+ {
+  "id": "W48_34_hospital_corridor_12s_float",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "nurse",
+  "colorway": "navy_blue",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420r_stepprs_12h_shifts_warehouse",
+  "format_ref": true,
+  "format_name": "stepprs_12h_shifts_warehouse",
+  "format_source": "Stepprs (core competitor), 424d active",
+  "background": "blurred warehouse/aisle photo, light",
+  "background_source": "Stepprs (core competitor), 424d active",
+  "angle": "Nurse 12-hour shifts: shoe floating over a blurred hospital corridor, number-highlight headline (answers Stepprs 424d)",
+  "based_on": "RIVAL ANSWER: Stepprs 'finish 12 hour shifts with ZERO FOOT PAIN' warehouse static (424d). Ours: no zero-pain promise; 'built for 12-hour shifts' + 500,000+ customers. Our proven line: '12-hour shift' list static ($858k lifetime).",
+  "reference_blocks": [
+   "headline line 1 (job + hours, number highlighted)",
+   "headline line 2 (heavy)",
+   "stars + trust line"
+  ],
+  "copy_slots": [
+   "headline line 1 (job + hours, number highlighted)",
+   "headline line 2 (heavy)",
+   "1 trust line (500,000+)"
+  ],
+  "risk": "conservative",
+  "bets": [],
+  "tags": [
+   "FP"
+  ],
+  "dr_brief": {
+   "who": "the nurse herself",
+   "avatar": "woman 35-60, US, hospital RN or CNA, mom/caregiver at home, PF or heel pain 2+ years, works 3-4 12s in a row",
+   "language": [
+    "12s",
+    "3 12s in a row",
+    "limping to my car",
+    "by hour 8",
+    "nurse wages",
+    "on the floor",
+    "rotate 2 pairs"
+   ],
+   "angle_habit": "puts insoles into the same running shoes and keeps working through it",
+   "dream": "walks to her car at 7:30 PM with energy left to cook for her kids",
+   "identification": "by hour 8 her heels throb; she dreads the walk to the parking garage",
+   "point_of_contact": "\"it is my shoes / the hard floors\" (Emily RN B6 script, Stepprs insoles memes, Hike nurse ads all blame the shoe)",
+   "problem_mechanism": "running-shoe foam packs flat by hour 4-6 while feet swell; tapered toe box clamps; heel tilts weight forward",
+   "function_mechanism": "insoles sit inside the same narrow shoe and eat toe room; clogs give support with no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces",
+   "conditions": "DIY substitutes: sizing up (heel slips), insoles (eat toe room), clogs (no give)",
+   "usp": "support AND stretch-knit room in one shoe at $59.95",
+   "features": {
+    "built-in arch support + cushioned rocker sole": "odds",
+    "stretch-knit upper + wide toe box": "dream",
+    "slip-resistant grip": "odds (wet hospital tile)",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs the next $160 running shoes + insoles every few months; less than a dollar a shift",
+   "risk_reversal": "30 days = 10+ shifts on her own floor; full refund if not for her",
+   "topic": "the 12-hour shift itself",
+   "concept": "The shoe floats over the corridor she walks all shift",
+   "visual_hook": "shoe floating large over a blurred bright hospital corridor",
+   "copy_hook_structure": "job + hours with the number highlighted",
+   "format": "look from Stepprs (core competitor), 424d active (stepprs_12h_shifts_warehouse); characters: the nurse herself",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "rival": "Stepprs finish 12 hour shifts",
+  "copy_notes": "Say \"built for 12-hour shifts\", never \"no pain for 12 hours\" or \"zero foot pain\"."
+ },
+ {
+  "id": "W48_35_retirement_bf_red",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "steady_feet",
+  "colorway": "black_white",
+  "funnel": "offer",
+  "offer": "Black Friday (current offer): 60% OFF SITEWIDE is the lead offer; free shipping & returns; 30-day money-back guarantee (full refund). Optional code LEAKED10 = extra 10% off (say '60% OFF SITEWIDE + EXTRA 10% OFF', never 'total 70%'). Never combine with the buy-2 gifts. No dollar prices next to 60% (the $120 -> $59.95 math is ~50%).",
+  "benchmark": "rv420r_hike_retirement_sore_feet",
+  "format_ref": true,
+  "format_name": "hike_retirement_sore_feet",
+  "format_source": "Hike Footwear (core competitor), 2d active",
+  "background": "clean white to light grey gradient",
+  "background_source": "Hike Footwear (core competitor), 2d active",
+  "angle": "Over-60 age call-out: retirement + feet, white/red Black Friday theme, 4 checks + 2 pills (answers Hike \"Retirement without sore feet\")",
+  "based_on": "RIVAL ANSWER: Hike 'RETIREMENT WITHOUT SORE FEET' (new 11-18). Avatar: 46.5% of buyers are 65+; 'I feel 80 the minute I stand up'.",
+  "reference_blocks": [
+   "headline line 1 (black caps)",
+   "headline line 2 (red, huge)",
+   "subhead",
+   "4 feature checks",
+   "2 pill buttons"
+  ],
+  "copy_slots": [
+   "headline line 1 (black caps)",
+   "headline line 2 (red, 2 words)",
+   "subhead",
+   "4 short checks",
+   "2 pill buttons (offer + guarantee)"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "offer"
+  ],
+  "dr_brief": {
+   "who": "the woman herself, 60+",
+   "avatar": "woman 60-75, US, retired or still working part-time, PF or arthritis 5+ years, grandmother",
+   "language": [
+    "first steps out of bed",
+    "I feel 80 the minute I stand up",
+    "gripping the nightstand",
+    "orthopedic brick",
+    "my closet of shoes that betrayed me"
+   ],
+   "angle_habit": "blames her age and buys another pair of soft slip-ons",
+   "dream": "walks to the store and around the block with her grandkids again",
+   "identification": "first steps out of bed feel like stepping on glass",
+   "point_of_contact": "\"it is not your age, it is your shoes\" (Notion COM429, Hike/Stepprs morning-steps ads)",
+   "problem_mechanism": "flat soft slip-ons let the arch collapse; foam packs out; narrow toe boxes pinch swollen feet",
+   "function_mechanism": "memory-foam slip-ons feel soft but give no structure; rigid orthopedic shoes have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room, slip on with no-tie laces",
+   "conditions": "DIY: soft slippers, insoles, stretching, ice",
+   "usp": "doctor-/podiatrist-recommended support that does not look orthopedic, $59.95",
+   "features": {
+    "built-in arch support": "odds",
+    "no-tie laces": "effort (no bending to tie)",
+    "slip-resistant grip": "odds (wet sidewalks)",
+    "stretch-knit upper": "dream"
+   },
+   "anchoring": "vs custom orthotics ($300+) and the pile of shoes that failed",
+   "risk_reversal": "30 days of her own walks; full refund if not for her",
+   "topic": "retirement plans that need walking (grandkids, trips)",
+   "concept": "Age call-out headline with the shoe and four reasons, Black Friday pills",
+   "visual_hook": "white field, black caps line + huge red italic line, single shoe side profile, check grid, two pills",
+   "copy_hook_structure": "age call-out",
+   "format": "look from Hike Footwear (core competitor), 2d active (hike_retirement_sore_feet); characters: the woman herself, 60+",
+   "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns",
+   "lose_later": "the Black Friday price ends when the sale ends (no stock stories)"
+  },
+  "rival": "Hike retirement age call-out",
+  "copy_notes": "Black Friday theme: white + red + small gold; red only as fills/the big headline line per BF theme (headline line in red allowed as BF theme)."
+ },
+ {
+  "id": "W48_36_morning_after_12s_price",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "nurse",
+  "colorway": "black_white",
+  "funnel": "offer",
+  "offer": "Price only: $59.95 (was $120), struck-through $120. 30-day money-back guarantee (full refund), free shipping & returns. No % next to the price.",
+  "benchmark": "rv420r_stepprs_morning_heel_price_drop",
+  "format_ref": true,
+  "format_name": "stepprs_morning_heel_price_drop",
+  "format_source": "Stepprs (core competitor), 10d active",
+  "background": "white with black top/bottom ticker bands",
+  "background_source": "Stepprs (core competitor), 10d active",
+  "angle": "Nurse morning heel pain after 3 12s: $120 struck -> $59.95 price block (answers Stepprs $42->$11 morning heel)",
+  "based_on": "RIVAL ANSWER: Stepprs 'MORNING HEEL PAIN WILL BE GONE. $42 -> $11' (10d). Ours: no 'gone' promise; first steps after back-to-back 12s; Emily RN 'after 3 12s in a row'.",
+  "reference_blocks": [
+   "top/bottom ticker text",
+   "3-line headline",
+   "old price (struck)",
+   "new price (giant)",
+   "guarantee seal"
+  ],
+  "copy_slots": [
+   "top ticker text",
+   "3-line headline",
+   "old price $120 (struck)",
+   "new price $59.95",
+   "guarantee seal (3 words)",
+   "bottom ticker text"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "FP",
+   "PF",
+   "offer"
+  ],
+  "dr_brief": {
+   "who": "the nurse herself",
+   "avatar": "woman 35-60, US, hospital RN or CNA, mom/caregiver at home, PF or heel pain 2+ years, works 3-4 12s in a row",
+   "language": [
+    "12s",
+    "3 12s in a row",
+    "limping to my car",
+    "by hour 8",
+    "nurse wages",
+    "on the floor",
+    "rotate 2 pairs"
+   ],
+   "angle_habit": "puts insoles into the same running shoes and keeps working through it",
+   "dream": "walks to her car at 7:30 PM with energy left to cook for her kids",
+   "identification": "by hour 8 her heels throb; she dreads the walk to the parking garage",
+   "point_of_contact": "\"it is my shoes / the hard floors\" (Emily RN B6 script, Stepprs insoles memes, Hike nurse ads all blame the shoe)",
+   "problem_mechanism": "running-shoe foam packs flat by hour 4-6 while feet swell; tapered toe box clamps; heel tilts weight forward",
+   "function_mechanism": "insoles sit inside the same narrow shoe and eat toe room; clogs give support with no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces",
+   "conditions": "DIY substitutes: sizing up (heel slips), insoles (eat toe room), clogs (no give)",
+   "usp": "support AND stretch-knit room in one shoe at $59.95",
+   "features": {
+    "built-in arch support + cushioned rocker sole": "odds",
+    "stretch-knit upper + wide toe box": "dream",
+    "slip-resistant grip": "odds (wet hospital tile)",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs the next $160 running shoes + insoles every few months; less than a dollar a shift",
+   "risk_reversal": "30 days = 10+ shifts on her own floor; full refund if not for her",
+   "topic": "first steps the morning after back-to-back 12s",
+   "concept": "Morning-after headline beside the shoe and a big price drop",
+   "visual_hook": "shoe angled left, headline + struck $120 + giant $59.95 right, ticker bands top and bottom",
+   "copy_hook_structure": "pain moment + price drop",
+   "format": "look from Stepprs (core competitor), 10d active (stepprs_morning_heel_price_drop); characters: the nurse herself",
+   "gain_now": "$59.95 instead of $120 + free shipping & returns",
+   "lose_later": "the Black Friday price ends when the sale ends (no stock stories)"
+  },
+  "rival": "Stepprs morning heel price drop",
+  "copy_notes": "Ticker bands red (not black). No star ratings. Never say pain will be gone."
+ },
+ {
+  "id": "W48_37_podiatrist_reasons_grid",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "stylist",
+  "colorway": "red_burgundy",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420g_orthofeet_reasons_grid_podiatrist",
+  "format_ref": true,
+  "format_name": "orthofeet_reasons_grid_podiatrist",
+  "format_source": "Orthofeet (Noned), angle-gap ref",
+  "background": "competitor layout",
+  "background_source": "Orthofeet (Noned), angle-gap ref",
+  "angle": "ANGLE GAP: podiatrist-recommended as the headline, 6-tile reasons grid (stylist on her feet all day)",
+  "based_on": "ANGLE GAP (angle_gaps.md 2026-11-20): podiatrist/doctor-recommended headline = 194 rival ads (Orthofeet grid 118d, WearStand, OrthoFit) vs 2 of ours. Approved claim 2026-11-18. Persona: hairstylist standing all day (personas list).",
+  "reference_blocks": [
+   "pill title (2-4 words)",
+   "6 tile labels: podiatrist-recommended, HSA/FSA eligible, 30-day money-back guarantee, free shipping & returns, 500,000+ customers, offer",
+   "CTA pill"
+  ],
+  "copy_slots": [
+   "pill title (2-4 words)",
+   "6 tile labels (2-4 words each)",
+   "CTA pill"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "angle"
+  ],
+  "tags": [
+   "proof"
+  ],
+  "dr_brief": {
+   "who": "hairstylist",
+   "avatar": "woman 40-68, US, on concrete or tile 8-12 hours (retail, warehouse, kitchen, housekeeping, caregiving), hourly pay",
+   "language": [
+    "concrete floors",
+    "on my feet all day",
+    "my feet are on fire by lunch",
+    "holiday rush",
+    "can't afford to miss a shift"
+   ],
+   "angle_habit": "wears cheap sneakers until they flatten and replaces them",
+   "dream": "finishes the holiday rush without limping and still has energy at home",
+   "identification": "by lunch the soles of her feet burn on the concrete",
+   "point_of_contact": "\"it is the floor and the shoes\" (I6 warehouse winner, competitor worker ads)",
+   "problem_mechanism": "cheap foam flattens on concrete within hours; narrow fit squeezes as feet swell",
+   "function_mechanism": "cheap comfort sneakers have cushion but no arch structure; work clogs have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room + slip-resistant grip",
+   "conditions": "DIY: cheap sneakers every few months, insoles, compression socks",
+   "usp": "support + room + grip for long shifts, $59.95",
+   "features": {
+    "built-in arch support + rocker sole": "odds",
+    "slip-resistant grip": "odds (wet/greasy floors)",
+    "stretch-knit + wide toe box": "dream",
+    "no-tie laces": "effort"
+   },
+   "anchoring": "vs replacing cheap sneakers every few months; less than a dollar a shift",
+   "risk_reversal": "30 days of shifts; full refund if not for her",
+   "topic": "what a podiatrist would tell someone who stands all day at the chair",
+   "concept": "Six tiles of reasons, the podiatrist-recommended one first",
+   "visual_hook": "solid soft field, outlined pill title, 2x3 white tiles with icons, shoe beside the grid",
+   "copy_hook_structure": "authority headline",
+   "format": "look from Orthofeet (Noned), angle-gap ref (orthofeet_reasons_grid_podiatrist); characters: the worker herself",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "angle_gap": "podiatrist-recommended headline",
+  "copy_notes": "Podiatrist-recommended only; no named doctor, no counts. Offer tile may say \"30-day money-back guarantee\"."
+ },
+ {
+  "id": "W48_38_walkers_turn_back",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "steady_feet",
+  "colorway": "black_mint",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420g_stepprs_walks_turn_back_early",
+  "format_ref": true,
+  "format_name": "stepprs_walks_turn_back_early",
+  "format_source": "Stepprs (1d), angle-gap ref",
+  "background": "competitor layout",
+  "background_source": "Stepprs (1d), angle-gap ref",
+  "angle": "ANGLE GAP: daily walker who turns back early (walking-group photo + question panel)",
+  "based_on": "ANGLE GAP: Stepprs launched ~10 'Tired of being the one who turns back early?' variants 11-18/19; Hike 'I now walk farther'. Ours: 0 daily-walk headlines. Avatar dream: walks to the store and around the block again.",
+  "reference_blocks": [
+   "logo tag",
+   "2-line question headline",
+   "2-line subhead",
+   "CTA pill"
+  ],
+  "copy_slots": [
+   "logo-free small tag (2 words)",
+   "2-line question headline",
+   "2-line subhead",
+   "CTA pill"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "angle"
+  ],
+  "tags": [
+   "FP"
+  ],
+  "dr_brief": {
+   "who": "the woman herself, 60+",
+   "avatar": "woman 60-75, US, retired or still working part-time, PF or arthritis 5+ years, grandmother",
+   "language": [
+    "first steps out of bed",
+    "I feel 80 the minute I stand up",
+    "gripping the nightstand",
+    "orthopedic brick",
+    "my closet of shoes that betrayed me"
+   ],
+   "angle_habit": "blames her age and buys another pair of soft slip-ons",
+   "dream": "walks to the store and around the block with her grandkids again",
+   "identification": "first steps out of bed feel like stepping on glass",
+   "point_of_contact": "\"it is not your age, it is your shoes\" (Notion COM429, Hike/Stepprs morning-steps ads)",
+   "problem_mechanism": "flat soft slip-ons let the arch collapse; foam packs out; narrow toe boxes pinch swollen feet",
+   "function_mechanism": "memory-foam slip-ons feel soft but give no structure; rigid orthopedic shoes have structure but no give",
+   "solution_mechanism": "built-in arch support + cushioned rocker sole + stretch-knit room, slip on with no-tie laces",
+   "conditions": "DIY: soft slippers, insoles, stretching, ice",
+   "usp": "doctor-/podiatrist-recommended support that does not look orthopedic, $59.95",
+   "features": {
+    "built-in arch support": "odds",
+    "no-tie laces": "effort (no bending to tie)",
+    "slip-resistant grip": "odds (wet sidewalks)",
+    "stretch-knit upper": "dream"
+   },
+   "anchoring": "vs custom orthotics ($300+) and the pile of shoes that failed",
+   "risk_reversal": "30 days of her own walks; full refund if not for her",
+   "topic": "the morning walking group",
+   "concept": "She is the one who turns back first; the shoe overlaps the seam into the answer panel",
+   "visual_hook": "women 60+ walking a fall trail in a group, hero in front; cream panel below",
+   "copy_hook_structure": "question call-out",
+   "format": "look from Stepprs (1d), angle-gap ref (stepprs_walks_turn_back_early); characters: the woman herself, 60+",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "angle_gap": "walking again (daily walkers)",
+  "copy_notes": "Comfort/arch-support wording only, never \"pain-free\"."
+ },
+ {
+  "id": "W48_39_were_sorry_step_count",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "traveler",
+  "colorway": "navy_blue",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420g_stepprs_were_sorry_side_effects",
+  "format_ref": true,
+  "format_name": "stepprs_were_sorry_side_effects",
+  "format_source": "Stepprs (1d), angle-gap ref",
+  "background": "competitor layout",
+  "background_source": "Stepprs (1d), angle-gap ref",
+  "angle": "ANGLE GAP: \"We're sorry\" comfort side effect (travel: your step count / the family can't keep up with you)",
+  "based_on": "ANGLE GAP: Stepprs 'We're Sorry.' humor series (5 variants from 11-19); our 9 apology concepts are all discount reason-why. Travel proof: JW1/NH3 'not the person on the bench'.",
+  "reference_blocks": [
+   "headline 2 words",
+   "2 short body sentences (the funny side effect)",
+   "CTA pill"
+  ],
+  "copy_slots": [
+   "headline 2 words",
+   "2 short body sentences (the funny side effect)",
+   "CTA pill"
+  ],
+  "risk": "aggressive",
+  "bets": [
+   "angle",
+   "tone"
+  ],
+  "tags": [
+   "travel"
+  ],
+  "dr_brief": {
+   "who": "the traveler herself (or the group of travel nurses who tested shoes)",
+   "avatar": "woman 50-70, US, grandma or empty nester, bucket-list trips, foot pain flares after hour 4-5 of walking",
+   "language": [
+    "hour 8",
+    "20,000 steps",
+    "cobblestones",
+    "the person on the bench",
+    "fine at breakfast",
+    "loosening my laces at lunch"
+   ],
+   "angle_habit": "packs her \"comfortable\" running sneakers because they felt fine at home",
+   "dream": "walks the whole park / city with the family instead of holding bags on the bench",
+   "identification": "by hour 5 she is looking for somewhere to sit while everyone else keeps going",
+   "point_of_contact": "\"running shoes are built for 40-minute runs, not 10-hour park days\" (NL1, JW1, NJ1 scripts; Hike travel ads)",
+   "problem_mechanism": "soft foam flattens while standing in lines; feet swell half a size; narrow toe box; slick wet paths",
+   "function_mechanism": "expensive runners are built to propel a runner forward, not to stand and walk 10 hours on uneven ground",
+   "solution_mechanism": "firm built-in arch support + rocker sole, stretch-knit room for swelling, slip-resistant grip",
+   "conditions": "DIY substitutes: cheap comfort sneakers (foam goes flat), sizing up, a second pair in the bag",
+   "usp": "the one pair to pack: support + room + grip, $59.95",
+   "features": {
+    "built-in arch support + rocker sole": "odds (hour 8 feels like hour 1)",
+    "stretch-knit + wide toe box": "dream (no pinch as feet swell)",
+    "slip-resistant grip": "odds (wet paths)",
+    "no-tie laces": "effort (security lines)"
+   },
+   "anchoring": "vs a $130-$180 runner that quits by lunch; vs a trip spent on a bench",
+   "risk_reversal": "30 days covers the whole trip; full refund if not for her",
+   "topic": "the side effect of comfortable shoes on a trip",
+   "concept": "A mock apology: now she out-walks the family on vacation",
+   "visual_hook": "warm wood wall, huge white \"We're Sorry.\" style headline, hand holding our shoe upright",
+   "copy_hook_structure": "mock apology",
+   "format": "look from Stepprs (1d), angle-gap ref (stepprs_were_sorry_side_effects); characters: the traveler herself (or the group of travel nurses who tested shoes)",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "angle_gap": "brand humor apology (no offer)",
+  "copy_notes": "Light humor only, no medical words. Wall must be light/mid wood so the navy shoe stays visible."
+ },
+ {
+  "id": "W48_40_grass_question_plus_swell",
+  "lang": "en",
+  "group": "net_new",
+  "persona": "plus_size",
+  "colorway": "all_black",
+  "funnel": "tof",
+  "offer": null,
+  "benchmark": "rv420_grass_quiz_question",
+  "format_ref": true,
+  "format_name": "question_quiz_cta_feet_on_grass",
+  "format_source": "Earthing (Clint Ober) (grounding products), 19d, rising",
+  "background": "1 Real place that carries the mood: Sunlit lawn with bare feet, golden hour",
+  "background_source": "Earthing (Clint Ober) (grounding products), 19d, rising",
+  "angle": "Plus-size swollen feet by afternoon: question band over a sunlit walk (answers Hike swollen ankles / heavier women 49d)",
+  "based_on": "RIVAL ANSWER: Hike '14 Days To Relieve SWOLLEN ANKLES / Built to carry extra weight comfortably' (49d). Ours: no timeline or relief claim; stretch-knit that gives as feet swell. Format: Earthing question band (19d rising).",
+  "reference_blocks": [
+   "logo",
+   "2-line question",
+   "1-line quiz CTA"
+  ],
+  "copy_slots": [
+   "2-line question",
+   "1-line answer line"
+  ],
+  "risk": "moderate",
+  "bets": [
+   "format look"
+  ],
+  "tags": [
+   "FP",
+   "swelling",
+   "plus"
+  ],
+  "dr_brief": {
+   "who": "a plus-size woman who has been there",
+   "avatar": "woman 45-70, US, size 16-24, every step lands harder, foam packs out fast, often travels with family",
+   "language": [
+    "heavier than my feet would prefer",
+    "shrank two sizes",
+    "on a bench with the bags",
+    "day 2 I was done",
+    "stop taking shoe advice from people who don't walk in my body"
+   ],
+   "angle_habit": "buys the softest max-cushion sneakers because soft feels right in the store",
+   "dream": "in the family photos at the fireworks instead of holding the bags",
+   "identification": "day 1 she survives, day 2 the sneakers feel like they shrank two sizes",
+   "point_of_contact": "\"soft foam can't hold more weight all day\" (NH3, KW1 scripts; Hike \"heavier\" ads)",
+   "problem_mechanism": "foam packs flat faster under more weight, arch drops, feet swell into a narrow toe box",
+   "function_mechanism": "soft max-cushion shoes are more foam than support, so they fail sooner for heavier bodies",
+   "solution_mechanism": "built-in arch support that does not flatten + stretch-knit room + rocker sole",
+   "conditions": "DIY: sizing up (heel slips), ice at night (helps but not all the way), extra insoles",
+   "usp": "support that holds + room that gives, $59.95 (no extra-wide promise)",
+   "features": {
+    "built-in arch support": "odds",
+    "stretch-knit upper + wide toe box": "dream",
+    "rocker sole": "effort",
+    "slip-resistant grip": "odds"
+   },
+   "anchoring": "vs $165 max-cushion runners that go flat by day 2",
+   "risk_reversal": "30 days = the whole trip; full refund if not for her",
+   "topic": "shoes that fit at breakfast, tight by 3 PM",
+   "concept": "Her question, then the walk she gets to finish",
+   "visual_hook": "cream band with a question on top; sunlit close-up of a plus-size woman's feet in our shoes walking a path",
+   "copy_hook_structure": "question call-out",
+   "format": "look from Earthing (Clint Ober) (grounding products), 19d, rising (question_quiz_cta_feet_on_grass); characters: a plus-size woman who has been there",
+   "gain_now": "Black Friday pricing is live (primary text may mention it)",
+   "lose_later": "another season / shift / trip in shoes that already failed"
+  },
+  "rival": "Hike swollen ankles / heavier women",
+  "copy_notes": "All-black shoe on a sunlit light path (no dark ground). No relief timeline."
+ }
+]
