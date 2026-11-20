@@ -326,6 +326,72 @@
       "copy_source": "stefanbrain",
       "stefanbrain_chat": "chat_56f561207df0482cadab2392bc2b9882",
       "prompt": "A bright clean real photo in a modern podiatry clinic: a friendly female podiatrist about 50 in a white coat (no name tag text) stands behind a white table, holding up a generic grey mesh running shoe sliced cleanly in half lengthwise so its thin squashed foam and narrow toe show; on the table in front, the black knit shoe with white accents and white rocker sole from the product reference, whole, side view, large. Top: huge heavy dark headline on a white band \"Why your 'comfortable' sneakers stop working by hour 6.\". Thin pointer lines with white rounded label cards: two on the cut-open sneaker \"Regular sneaker: Squishy foam flattens\" and \"Regular sneaker: Narrow tapered toe box\" (red X icons); two on our shoe \"Ortho Stretch: Built-in arch rocker sole\" and \"Ortho Stretch: Stretch-knit wide toe room\" (green check icons). Under the doctor, small dark caption \"Podiatrist-recommended\". Bottom-right: a small red rounded tag with white bold \"Black Friday: 60% OFF\". QUALITY BAR: polished, scroll-stopping direct-response ad; at least 7% clear margin between all text and every edge; large crisp perfectly spelled text readable by women 60+ (no text smaller than about 3% of image height); strong hierarchy, generous spacing, shoe as a clear focal point; every ComfortWear shoe is EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright. Any 'regular sneaker' is a generic grey mesh lace-up running shoe with no logos. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (no Disney characters, castles or logos)."
+    },
+    {
+      "id": "DR_04b_cobblestone_comment_europe_navy",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "funnel": "tof",
+      "risk": "moderate",
+      "bets": [
+        "topic: 'what shoes for cobblestones' search question"
+      ],
+      "angle": "Europe bucket-list trip: cobblestones + 20,000 steps",
+      "based_on": "Flux comment-bubble format (validated); persona 8 Cobblestone Explorer; Kyro 293/369 travel winners (Lisbon/Paris trip diaries)",
+      "copy_slots": [
+        "commenter handle (fictional, first name style)",
+        "comment question (the search question she'd type, max 12 words)",
+        "big answer line (max 16 words)",
+        "small offer tag"
+      ],
+      "dr_brief": {
+        "identification": "the trip of a lifetime spent on a bench in Paris",
+        "point_of_contact": "It's my shoes / the hard floors / I'm just getting older (confirm shoes, reframe age)",
+        "problem_mechanism": "Uneven stone rolls the foot; soft running foam squashes and a tapered toe box pinches by day 2, when feet swell from flying and walking.",
+        "function_mechanism": "She needs support that doesn't squash, grip, and room for travel-swollen feet. Bringing 3 pairs or insoles doesn't fix a narrow, flattening shoe.",
+        "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+        "conditions": "Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+        "usp": "The only shoe she's found with built-in support AND stretch-knit room in one, at $59.95",
+        "features": {
+          "built-in arch support + cushioned rocker sole": "odds (support still there at hour 10)",
+          "stretch-knit upper + wide toe box": "odds/dream (room as feet swell, no pinch)",
+          "no-tie bungee laces": "effort (slip on, nothing to retie)",
+          "slip-resistant grip": "dream (steady on tile and stone)"
+        },
+        "anchoring": "$59.95 vs a closet of $160-$220 pairs that quit by lunchtime; at 60% off it's less than a dollar a shift.",
+        "risk_reversal": "30 days is enough to wear them through 10+ shifts or a whole trip and decide on her own feet; the bigger risk is another season in shoes that already failed. Never say 'easy returns'.",
+        "gain_now": "60% OFF SITEWIDE this Black Friday + free shipping & returns; code LEAKED10 for an extra 10%",
+        "lose_later": "The Black Friday price ends when the sale ends (no stock/scarcity stories).",
+        "who": "another traveler answering in the comments",
+        "topic": "'What shoes do I wear for cobblestones in Europe?' (common pre-trip question)",
+        "format": "social comment bubble over a top-down photo of our shoes on cobblestones with a passport",
+        "concept": "The pre-trip question everyone asks, answered by someone who learned the hard way",
+        "copy_hook_structure": "question comment → confident answer (validated)",
+        "visual_hook": "our shoes on real cobblestones next to a passport"
+      },
+      "group": "net_new",
+      "lang": "en",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off",
+      "tags": [
+        "dr_method"
+      ],
+      "headline": "Ortho Stretch: Built for 20,000 steps on European cobblestones.",
+      "on_image_text": [
+        "Susan M.",
+        "What shoes actually survive 20,000 steps on European cobblestones?",
+        "Black Friday: 60% OFF"
+      ],
+      "primary_text": "Three years ago, I planned my dream trip to Rome and Florence.\n\nBy day three, I was sitting on a stone fountain ledge while my sister toured the museums alone. My heels were throbbing, my lower back was aching, and every uneven cobblestone felt like stepping on a golf ball.\n\nI made the classic traveler mistake: I brought brand-new $160 running shoes.\n\nRunning sneakers are built for flat pavement and short jogs. On 500-year-old uneven cobblestones, their tall, narrow heels tilt your ankles on every step. Soft squishy foam crushes completely flat under 20,000 daily steps. And after an eight-hour flight, your feet swell, so standard narrow toe boxes turn into blister factories.\n\nPacking three pairs of shoes does not help when all three use the same squishy foam. And slipping rigid insoles inside narrow shoes just crushes your toes.\n\nI bought the Ortho Stretch Cushion Shoe before two weeks in Portugal, where every street in Lisbon is steep cobblestone.\n\nHere is why they saved my trip:\n\n- Built-in anatomical arch support with a cushioned rocker sole that rolls your foot smoothly across uneven stones and never crushes flat\n- A wide, rounded toe box and stretch-knit upper that gives as feet swell from long flights and warm afternoons\n- Slip-resistant soles with multi-directional grip that bite into wet, polished stone steps\n- Elastic no-tie laces that slip off for airport security and slip back on with zero bending down\n\nI logged over 21,000 steps a day on those Lisbon hills. No blisters. No heel pain. No sitting on benches while everyone else kept exploring.\n\nMost travelers spend $200 on running shoes that fail by the second museum. The Ortho Stretch Cushion Shoe is $59.95.\n\nOrder them before your next trip and test them on your own feet for a full 30 days. If they do not keep your feet completely comfortable, return them within 30 days for a full refund.\n\nBlack Friday deal: 60% OFF SITEWIDE plus free shipping & returns.\nUse code LEAKED10 at checkout for an extra 10% off.\n\nSale pricing ends when Black Friday ends.",
+      "fb_headline": "Built for European Cobblestones",
+      "fb_description": "Free Shipping & Returns",
+      "copy_angle": "Europe bucket-list trip: cobblestones + 20,000 steps",
+      "copy_why": "Flux comment-bubble format, persona 8 Cobblestone Explorer, and Lisbon/Paris 20,000-step diary winners",
+      "copy_source": "stefanbrain",
+      "stefanbrain_chat": "chat_56f561207df0482cadab2392bc2b9882",
+      "prompt": "Recreate the reference layout: a top-down real photo of one pair of the navy knit shoes with bright blue accents from the product reference standing on old European cobblestones at golden hour, a passport, a blank folded city map and sunglasses partly in frame. Top: a white social comment card with a small round avatar, small dark \"Susan M.'s comment\" and bold dark text \"What shoes actually survive 20,000 steps on European cobblestones?\". Lower third: big heavy white text with soft shadow \"Ortho Stretch: Built for 20,000 steps on European cobblestones.\". Bottom-right: a small red rounded tag with white bold \"Black Friday: 60% OFF\". QUALITY BAR: polished, scroll-stopping direct-response ad; at least 7% clear margin between all text and every edge; large crisp perfectly spelled text readable by women 60+ (no text smaller than about 3% of image height); strong hierarchy, generous spacing, shoe as a clear focal point; every ComfortWear shoe is EXACTLY the product reference model (slim sock-knit upper, bungee no-tie laces with toggle, white rocker sole) at true proportions, sharp and bright. Any 'regular sneaker' is a generic grey mesh lace-up running shoe with no logos. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (no Disney characters, castles or logos).",
+      "reference_image": "reference/shoe_navy_blue.png",
+      "copy_of": true,
+      "benchmark": "approved_DR_04"
     }
   ]
 }
