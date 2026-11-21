@@ -1119,6 +1119,38 @@
     "rv_z_gift_pattern": {
       "file": "reference/benchmarks/rv_ref_z_gift_pattern.jpg",
       "use_for": "LAYOUT reference only (user-supplied, Nov 19: Zima gift ad: big black headline top-left, subline, rating, product pattern on grey with some wrapped in ribbon bows). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_bfa_truck_panel": {
+      "file": "reference/benchmarks/rv_ref_bfa_truck_panel.jpg",
+      "use_for": "LAYOUT reference only (Atria Black Friday research Nov 21: Bellamianta: product shown painted on the side of a delivery truck in a street, 'BLACK FRIDAY MEGA BUNDLE', 'WAS … YOURS FOR …'). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_bfa_review_card": {
+      "file": "reference/benchmarks/rv_ref_bfa_review_card.jpg",
+      "use_for": "LAYOUT reference only (Atria Black Friday research Nov 21: EHPlabs: dark neon background, white review card with stars + bold quote, product row, 'BLACK FRIDAY IS LIVE' + big magenta offer + button). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_bfa_we_just_put": {
+      "file": "reference/benchmarks/rv_ref_bfa_we_just_put.jpg",
+      "use_for": "LAYOUT reference only (Atria Black Friday research Nov 21: TryFleur: cream background, centered serif sentence with a highlighted phrase, red offer line, product trio below). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_bfa_mood_tagline": {
+      "file": "reference/benchmarks/rv_ref_bfa_mood_tagline.jpg",
+      "use_for": "LAYOUT reference only (Atria Black Friday research Nov 21: FaceTub: moody photo, huge white two-sentence tagline, small caption + pill at bottom). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_bfa_black_gold": {
+      "file": "reference/benchmarks/rv_ref_bfa_black_gold.jpg",
+      "use_for": "LAYOUT reference only (Atria Black Friday research Nov 21: Cleantra: black + gold with balloons/gifts, 'GET RID OF THE X' headline in gold, ticker strip, product row, red % badge, gold bottom bar). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_bfa_ribbon_price": {
+      "file": "reference/benchmarks/rv_ref_bfa_ribbon_price.jpg",
+      "use_for": "LAYOUT reference only (Atria Black Friday research Nov 21: Duradry: product wrapped by a black satin ribbon printed 'BLACK FRIDAY SALE', 'From $X to $Y' top left, round red badge). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_bfa_forgot_to_design": {
+      "file": "reference/benchmarks/rv_ref_bfa_forgot_to_design.jpg",
+      "use_for": "LAYOUT reference only (Atria Black Friday research Nov 21: Wine Life: white page, handwritten 'we forgot to design our black friday ad', handwritten arrows and notes around product, circled offer). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_bfa_giant_type": {
+      "file": "reference/benchmarks/rv_ref_bfa_giant_type.jpg",
+      "use_for": "LAYOUT reference only (Atria Black Friday research Nov 21: Cheeky Cherry: giant repeated condensed 'BLACK FRIDAY' type filling the frame, round product badge and round -% sticker). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
     }
   },
   "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots).",
