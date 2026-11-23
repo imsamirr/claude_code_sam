@@ -1,0 +1,578 @@
+{
+  "week": "2026-W48-native-bf",
+  "notes": "User 2026-11-23: 4 HappyFlops native refs x nurse/travel, Black Friday. Copy by StefanBrain.",
+  "concepts": [
+    {
+      "id": "NB_FB_NUR",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "i7_fb",
+      "format_ref": true,
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off",
+      "risk": "moderate",
+      "bets": [
+        "format: native Facebook group post (validated by HappyFlops refs, new for us)"
+      ],
+      "angle": "Nurse x Black Friday native share",
+      "based_on": "User-sent HappyFlops native Black Friday ref: Facebook group post",
+      "copy_slots": [
+        "group name (fictional, fits the audience)",
+        "poster name (fictional first + last)",
+        "post text (first person, max 30 words, includes the deal)",
+        "comment 1 (name + short line)",
+        "comment 2 (name + short question about the shoes)"
+      ],
+      "reference_blocks": [
+        "group header",
+        "poster + badge",
+        "first-person deal post",
+        "product photo",
+        "reactions",
+        "2 comments"
+      ],
+      "dr_brief": {
+        "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+        "language": [
+          "12s",
+          "the unit",
+          "my locker",
+          "limping to my car",
+          "hour 10",
+          "break room"
+        ],
+        "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+        "dream": "nurse with energy left to cook for her kids after a 12",
+        "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+        "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+        "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+        "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+        "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+        "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+        "usp": "support + room + roll in one shoe, at $59.95",
+        "features": {
+          "built-in arch support + cushioned rocker sole": "odds",
+          "stretch-knit upper + wide toe box": "odds/dream",
+          "no-tie bungee laces": "effort",
+          "slip-resistant grip": "dream"
+        },
+        "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+        "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+        "gain_now": "60% OFF SITEWIDE, free shipping & returns, LEAKED10 extra 10%",
+        "lose_later": "Black Friday price ends when the sale ends; no stock stories",
+        "who": "a nurse friend sharing the deal",
+        "topic": "the Black Friday sale nurses in the unit were waiting for",
+        "format": "Facebook group post (look + narrative from user-sent HappyFlops ref)",
+        "concept": "A friend's native Facebook group post announcing the ComfortWear Black Friday sale to nurses",
+        "copy_hook_structure": "native deal share: 'the ComfortWear Black Friday sale has started and it's 60% off' (validated in ref)",
+        "visual_hook": "our shoes next to scrubs/badge"
+      },
+      "copy_notes": "Native post: all people and group names are fictional; no reaction/member counts in copy. Brand is ComfortWear, product Ortho Stretch.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "native_bf"
+      ]
+    },
+    {
+      "id": "NB_FB_TRV",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "benchmark": "i7_fb",
+      "format_ref": true,
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off",
+      "risk": "moderate",
+      "bets": [
+        "format: native Facebook group post (validated by HappyFlops refs, new for us)"
+      ],
+      "angle": "Travel x Black Friday native share",
+      "based_on": "User-sent HappyFlops native Black Friday ref: Facebook group post",
+      "copy_slots": [
+        "group name (fictional, fits the audience)",
+        "poster name (fictional first + last)",
+        "post text (first person, max 30 words, includes the deal)",
+        "comment 1 (name + short line)",
+        "comment 2 (name + short question about the shoes)"
+      ],
+      "reference_blocks": [
+        "group header",
+        "poster + badge",
+        "first-person deal post",
+        "product photo",
+        "reactions",
+        "2 comments"
+      ],
+      "dr_brief": {
+        "avatar": "American woman 50-70, bucket-list traveler (Europe/Disney), grandmother, years of sore heels after long sightseeing days",
+        "language": [
+          "cobblestones",
+          "20,000 steps",
+          "the walking tour",
+          "day 2",
+          "packing",
+          "the trip"
+        ],
+        "angle_habit": "packing her 'comfortable sneakers' for a walking trip",
+        "dream": "traveler who does the walking tour instead of the bus",
+        "identification": "the trip of a lifetime spent on a bench by day 2",
+        "point_of_contact": "her sneakers / uneven cobblestones / long walking days (travel winners TOFV1_JW1, Kyro 293/369 trip diaries)",
+        "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+        "function_mechanism": "Running sneakers work on flat pavement for a short jog, not 20,000 steps on uneven stone with travel-swollen feet. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+        "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+        "conditions": "Her DIY fixes: packing 3 pairs, adding insoles, buying cheap 'comfort' sneakers that go flat. Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+        "usp": "support + room + roll in one shoe, at $59.95",
+        "features": {
+          "built-in arch support + cushioned rocker sole": "odds",
+          "stretch-knit upper + wide toe box": "odds/dream",
+          "no-tie bungee laces": "effort",
+          "slip-resistant grip": "dream"
+        },
+        "anchoring": "$59.95 vs the trip she paid thousands for and spent on a bench",
+        "risk_reversal": "30 days = test them on long walks at home before the trip",
+        "gain_now": "60% OFF SITEWIDE, free shipping & returns, LEAKED10 extra 10%",
+        "lose_later": "Black Friday price ends when the sale ends; no stock stories",
+        "who": "a travel friend sharing the deal",
+        "topic": "the shoes she's packing for her Europe/Disney trip are 60% off",
+        "format": "Facebook group post (look + narrative from user-sent HappyFlops ref)",
+        "concept": "A friend's native Facebook group post announcing the ComfortWear Black Friday sale to travelers",
+        "copy_hook_structure": "native deal share: 'the ComfortWear Black Friday sale has started and it's 60% off' (validated in ref)",
+        "visual_hook": "our shoes next to a passport/suitcase"
+      },
+      "copy_notes": "Native post: all people and group names are fictional; no reaction/member counts in copy. Brand is ComfortWear, product Ortho Stretch.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "native_bf"
+      ]
+    },
+    {
+      "id": "NB_CHAT_NUR",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "i7_chat",
+      "format_ref": true,
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off",
+      "risk": "moderate",
+      "bets": [
+        "format: native group chat screenshot (validated by HappyFlops refs, new for us)"
+      ],
+      "angle": "Nurse x Black Friday native share",
+      "based_on": "User-sent HappyFlops native Black Friday ref: group chat screenshot",
+      "copy_slots": [
+        "caption over the chat (max 6 words)",
+        "group chat name",
+        "chat member names line",
+        "msg 1 (friend announces sale)",
+        "msg 2 (the deal number)",
+        "msg 3 photo caption (bought + second pair reason)",
+        "reply (from 'You')"
+      ],
+      "reference_blocks": [
+        "blog caption",
+        "chat header",
+        "sale announcement",
+        "deal",
+        "photo + bought",
+        "reply"
+      ],
+      "dr_brief": {
+        "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+        "language": [
+          "12s",
+          "the unit",
+          "my locker",
+          "limping to my car",
+          "hour 10",
+          "break room"
+        ],
+        "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+        "dream": "nurse with energy left to cook for her kids after a 12",
+        "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+        "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+        "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+        "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+        "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+        "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+        "usp": "support + room + roll in one shoe, at $59.95",
+        "features": {
+          "built-in arch support + cushioned rocker sole": "odds",
+          "stretch-knit upper + wide toe box": "odds/dream",
+          "no-tie bungee laces": "effort",
+          "slip-resistant grip": "dream"
+        },
+        "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+        "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+        "gain_now": "60% OFF SITEWIDE, free shipping & returns, LEAKED10 extra 10%",
+        "lose_later": "Black Friday price ends when the sale ends; no stock stories",
+        "who": "a nurse friend sharing the deal",
+        "topic": "the Black Friday sale nurses in the unit were waiting for",
+        "format": "group chat screenshot (look + narrative from user-sent HappyFlops ref)",
+        "concept": "A friend's native group chat screenshot announcing the ComfortWear Black Friday sale to nurses",
+        "copy_hook_structure": "native deal share: 'the ComfortWear Black Friday sale has started and it's 60% off' (validated in ref)",
+        "visual_hook": "our shoes next to scrubs/badge"
+      },
+      "copy_notes": "Native post: all people and group names are fictional; no reaction/member counts in copy. Brand is ComfortWear, product Ortho Stretch.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "native_bf"
+      ]
+    },
+    {
+      "id": "NB_CHAT_TRV",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "benchmark": "i7_chat",
+      "format_ref": true,
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off",
+      "risk": "moderate",
+      "bets": [
+        "format: native group chat screenshot (validated by HappyFlops refs, new for us)"
+      ],
+      "angle": "Travel x Black Friday native share",
+      "based_on": "User-sent HappyFlops native Black Friday ref: group chat screenshot",
+      "copy_slots": [
+        "caption over the chat (max 6 words)",
+        "group chat name",
+        "chat member names line",
+        "msg 1 (friend announces sale)",
+        "msg 2 (the deal number)",
+        "msg 3 photo caption (bought + second pair reason)",
+        "reply (from 'You')"
+      ],
+      "reference_blocks": [
+        "blog caption",
+        "chat header",
+        "sale announcement",
+        "deal",
+        "photo + bought",
+        "reply"
+      ],
+      "dr_brief": {
+        "avatar": "American woman 50-70, bucket-list traveler (Europe/Disney), grandmother, years of sore heels after long sightseeing days",
+        "language": [
+          "cobblestones",
+          "20,000 steps",
+          "the walking tour",
+          "day 2",
+          "packing",
+          "the trip"
+        ],
+        "angle_habit": "packing her 'comfortable sneakers' for a walking trip",
+        "dream": "traveler who does the walking tour instead of the bus",
+        "identification": "the trip of a lifetime spent on a bench by day 2",
+        "point_of_contact": "her sneakers / uneven cobblestones / long walking days (travel winners TOFV1_JW1, Kyro 293/369 trip diaries)",
+        "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+        "function_mechanism": "Running sneakers work on flat pavement for a short jog, not 20,000 steps on uneven stone with travel-swollen feet. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+        "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+        "conditions": "Her DIY fixes: packing 3 pairs, adding insoles, buying cheap 'comfort' sneakers that go flat. Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+        "usp": "support + room + roll in one shoe, at $59.95",
+        "features": {
+          "built-in arch support + cushioned rocker sole": "odds",
+          "stretch-knit upper + wide toe box": "odds/dream",
+          "no-tie bungee laces": "effort",
+          "slip-resistant grip": "dream"
+        },
+        "anchoring": "$59.95 vs the trip she paid thousands for and spent on a bench",
+        "risk_reversal": "30 days = test them on long walks at home before the trip",
+        "gain_now": "60% OFF SITEWIDE, free shipping & returns, LEAKED10 extra 10%",
+        "lose_later": "Black Friday price ends when the sale ends; no stock stories",
+        "who": "a travel friend sharing the deal",
+        "topic": "the shoes she's packing for her Europe/Disney trip are 60% off",
+        "format": "group chat screenshot (look + narrative from user-sent HappyFlops ref)",
+        "concept": "A friend's native group chat screenshot announcing the ComfortWear Black Friday sale to travelers",
+        "copy_hook_structure": "native deal share: 'the ComfortWear Black Friday sale has started and it's 60% off' (validated in ref)",
+        "visual_hook": "our shoes next to a passport/suitcase"
+      },
+      "copy_notes": "Native post: all people and group names are fictional; no reaction/member counts in copy. Brand is ComfortWear, product Ortho Stretch.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "native_bf"
+      ]
+    },
+    {
+      "id": "NB_STORY_NUR",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "i7_story",
+      "format_ref": true,
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off",
+      "risk": "moderate",
+      "bets": [
+        "format: native Instagram story (validated by HappyFlops refs, new for us)"
+      ],
+      "angle": "Nurse x Black Friday native share",
+      "based_on": "User-sent HappyFlops native Black Friday ref: Instagram story",
+      "copy_slots": [
+        "story handle (fictional)",
+        "3 caption boxes (each max 6 words): sale started / deal + what she did / which color",
+        "poll question",
+        "poll option 1",
+        "poll option 2"
+      ],
+      "reference_blocks": [
+        "mirror selfie",
+        "3 caption boxes",
+        "poll",
+        "tag"
+      ],
+      "dr_brief": {
+        "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+        "language": [
+          "12s",
+          "the unit",
+          "my locker",
+          "limping to my car",
+          "hour 10",
+          "break room"
+        ],
+        "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+        "dream": "nurse with energy left to cook for her kids after a 12",
+        "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+        "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+        "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+        "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+        "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+        "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+        "usp": "support + room + roll in one shoe, at $59.95",
+        "features": {
+          "built-in arch support + cushioned rocker sole": "odds",
+          "stretch-knit upper + wide toe box": "odds/dream",
+          "no-tie bungee laces": "effort",
+          "slip-resistant grip": "dream"
+        },
+        "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+        "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+        "gain_now": "60% OFF SITEWIDE, free shipping & returns, LEAKED10 extra 10%",
+        "lose_later": "Black Friday price ends when the sale ends; no stock stories",
+        "who": "a nurse friend sharing the deal",
+        "topic": "the Black Friday sale nurses in the unit were waiting for",
+        "format": "Instagram story (look + narrative from user-sent HappyFlops ref)",
+        "concept": "A friend's native Instagram story announcing the ComfortWear Black Friday sale to nurses",
+        "copy_hook_structure": "native deal share: 'the ComfortWear Black Friday sale has started and it's 60% off' (validated in ref)",
+        "visual_hook": "our shoes next to scrubs/badge"
+      },
+      "copy_notes": "Native post: all people and group names are fictional; no reaction/member counts in copy. Brand is ComfortWear, product Ortho Stretch.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "native_bf"
+      ]
+    },
+    {
+      "id": "NB_STORY_TRV",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "benchmark": "i7_story",
+      "format_ref": true,
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off",
+      "risk": "moderate",
+      "bets": [
+        "format: native Instagram story (validated by HappyFlops refs, new for us)"
+      ],
+      "angle": "Travel x Black Friday native share",
+      "based_on": "User-sent HappyFlops native Black Friday ref: Instagram story",
+      "copy_slots": [
+        "story handle (fictional)",
+        "3 caption boxes (each max 6 words): sale started / deal + what she did / which color",
+        "poll question",
+        "poll option 1",
+        "poll option 2"
+      ],
+      "reference_blocks": [
+        "mirror selfie",
+        "3 caption boxes",
+        "poll",
+        "tag"
+      ],
+      "dr_brief": {
+        "avatar": "American woman 50-70, bucket-list traveler (Europe/Disney), grandmother, years of sore heels after long sightseeing days",
+        "language": [
+          "cobblestones",
+          "20,000 steps",
+          "the walking tour",
+          "day 2",
+          "packing",
+          "the trip"
+        ],
+        "angle_habit": "packing her 'comfortable sneakers' for a walking trip",
+        "dream": "traveler who does the walking tour instead of the bus",
+        "identification": "the trip of a lifetime spent on a bench by day 2",
+        "point_of_contact": "her sneakers / uneven cobblestones / long walking days (travel winners TOFV1_JW1, Kyro 293/369 trip diaries)",
+        "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+        "function_mechanism": "Running sneakers work on flat pavement for a short jog, not 20,000 steps on uneven stone with travel-swollen feet. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+        "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+        "conditions": "Her DIY fixes: packing 3 pairs, adding insoles, buying cheap 'comfort' sneakers that go flat. Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+        "usp": "support + room + roll in one shoe, at $59.95",
+        "features": {
+          "built-in arch support + cushioned rocker sole": "odds",
+          "stretch-knit upper + wide toe box": "odds/dream",
+          "no-tie bungee laces": "effort",
+          "slip-resistant grip": "dream"
+        },
+        "anchoring": "$59.95 vs the trip she paid thousands for and spent on a bench",
+        "risk_reversal": "30 days = test them on long walks at home before the trip",
+        "gain_now": "60% OFF SITEWIDE, free shipping & returns, LEAKED10 extra 10%",
+        "lose_later": "Black Friday price ends when the sale ends; no stock stories",
+        "who": "a travel friend sharing the deal",
+        "topic": "the shoes she's packing for her Europe/Disney trip are 60% off",
+        "format": "Instagram story (look + narrative from user-sent HappyFlops ref)",
+        "concept": "A friend's native Instagram story announcing the ComfortWear Black Friday sale to travelers",
+        "copy_hook_structure": "native deal share: 'the ComfortWear Black Friday sale has started and it's 60% off' (validated in ref)",
+        "visual_hook": "our shoes next to a passport/suitcase"
+      },
+      "copy_notes": "Native post: all people and group names are fictional; no reaction/member counts in copy. Brand is ComfortWear, product Ortho Stretch.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "native_bf"
+      ]
+    },
+    {
+      "id": "NB_BLOG_NUR",
+      "persona": "nurse",
+      "colorway": "black_purple",
+      "benchmark": "i7_blog",
+      "format_ref": true,
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off",
+      "risk": "moderate",
+      "bets": [
+        "format: native deals article (validated by HappyFlops refs, new for us)"
+      ],
+      "angle": "Nurse x Black Friday native share",
+      "based_on": "User-sent HappyFlops native Black Friday ref: deals article",
+      "copy_slots": [
+        "outlet name (must be ComfortWear's own, e.g. 'ComfortWear Deals'; never a fake third-party site)",
+        "3 chips (DEALS / Black Friday / LIVE)",
+        "article headline (max 14 words, includes the deal)",
+        "byline name + '2 min read · Updated just now'"
+      ],
+      "reference_blocks": [
+        "logo bar",
+        "chips",
+        "headline",
+        "byline",
+        "photo"
+      ],
+      "dr_brief": {
+        "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+        "language": [
+          "12s",
+          "the unit",
+          "my locker",
+          "limping to my car",
+          "hour 10",
+          "break room"
+        ],
+        "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+        "dream": "nurse with energy left to cook for her kids after a 12",
+        "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+        "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+        "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+        "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+        "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+        "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+        "usp": "support + room + roll in one shoe, at $59.95",
+        "features": {
+          "built-in arch support + cushioned rocker sole": "odds",
+          "stretch-knit upper + wide toe box": "odds/dream",
+          "no-tie bungee laces": "effort",
+          "slip-resistant grip": "dream"
+        },
+        "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+        "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+        "gain_now": "60% OFF SITEWIDE, free shipping & returns, LEAKED10 extra 10%",
+        "lose_later": "Black Friday price ends when the sale ends; no stock stories",
+        "who": "a nurse friend sharing the deal",
+        "topic": "the Black Friday sale nurses in the unit were waiting for",
+        "format": "deals article (look + narrative from user-sent HappyFlops ref)",
+        "concept": "A friend's native deals article announcing the ComfortWear Black Friday sale to nurses",
+        "copy_hook_structure": "native deal share: 'the ComfortWear Black Friday sale has started and it's 60% off' (validated in ref)",
+        "visual_hook": "our shoes next to scrubs/badge"
+      },
+      "copy_notes": "Native post: all people and group names are fictional; no reaction/member counts in copy. Brand is ComfortWear, product Ortho Stretch.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "native_bf"
+      ]
+    },
+    {
+      "id": "NB_BLOG_TRV",
+      "persona": "traveler",
+      "colorway": "navy_blue",
+      "benchmark": "i7_blog",
+      "format_ref": true,
+      "funnel": "offer",
+      "offer": "Black Friday 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off",
+      "risk": "moderate",
+      "bets": [
+        "format: native deals article (validated by HappyFlops refs, new for us)"
+      ],
+      "angle": "Travel x Black Friday native share",
+      "based_on": "User-sent HappyFlops native Black Friday ref: deals article",
+      "copy_slots": [
+        "outlet name (must be ComfortWear's own, e.g. 'ComfortWear Deals'; never a fake third-party site)",
+        "3 chips (DEALS / Black Friday / LIVE)",
+        "article headline (max 14 words, includes the deal)",
+        "byline name + '2 min read · Updated just now'"
+      ],
+      "reference_blocks": [
+        "logo bar",
+        "chips",
+        "headline",
+        "byline",
+        "photo"
+      ],
+      "dr_brief": {
+        "avatar": "American woman 50-70, bucket-list traveler (Europe/Disney), grandmother, years of sore heels after long sightseeing days",
+        "language": [
+          "cobblestones",
+          "20,000 steps",
+          "the walking tour",
+          "day 2",
+          "packing",
+          "the trip"
+        ],
+        "angle_habit": "packing her 'comfortable sneakers' for a walking trip",
+        "dream": "traveler who does the walking tour instead of the bus",
+        "identification": "the trip of a lifetime spent on a bench by day 2",
+        "point_of_contact": "her sneakers / uneven cobblestones / long walking days (travel winners TOFV1_JW1, Kyro 293/369 trip diaries)",
+        "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+        "function_mechanism": "Running sneakers work on flat pavement for a short jog, not 20,000 steps on uneven stone with travel-swollen feet. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+        "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+        "conditions": "Her DIY fixes: packing 3 pairs, adding insoles, buying cheap 'comfort' sneakers that go flat. Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+        "usp": "support + room + roll in one shoe, at $59.95",
+        "features": {
+          "built-in arch support + cushioned rocker sole": "odds",
+          "stretch-knit upper + wide toe box": "odds/dream",
+          "no-tie bungee laces": "effort",
+          "slip-resistant grip": "dream"
+        },
+        "anchoring": "$59.95 vs the trip she paid thousands for and spent on a bench",
+        "risk_reversal": "30 days = test them on long walks at home before the trip",
+        "gain_now": "60% OFF SITEWIDE, free shipping & returns, LEAKED10 extra 10%",
+        "lose_later": "Black Friday price ends when the sale ends; no stock stories",
+        "who": "a travel friend sharing the deal",
+        "topic": "the shoes she's packing for her Europe/Disney trip are 60% off",
+        "format": "deals article (look + narrative from user-sent HappyFlops ref)",
+        "concept": "A friend's native deals article announcing the ComfortWear Black Friday sale to travelers",
+        "copy_hook_structure": "native deal share: 'the ComfortWear Black Friday sale has started and it's 60% off' (validated in ref)",
+        "visual_hook": "our shoes next to a passport/suitcase"
+      },
+      "copy_notes": "Native post: all people and group names are fictional; no reaction/member counts in copy. Brand is ComfortWear, product Ortho Stretch.",
+      "group": "net_new",
+      "lang": "en",
+      "tags": [
+        "native_bf"
+      ]
+    }
+  ]
+}

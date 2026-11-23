@@ -1637,6 +1637,22 @@
     "rv420_grass_quiz_question": {
       "file": "reference/benchmarks/rv420_grass_quiz_question.jpg",
       "use_for": "FORMAT ref 2026-11-20 (Fri W48 run): Earthing (Clint Ober) (grounding products), 19d, rising. Copy the layout only, never its words."
+    },
+    "i7_fb": {
+      "file": "reference/benchmarks/i7_fb_group_post.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-23 (HappyFlops native Black Friday): Facebook group post: group header, poster with badge, first-person deal post, product photo on a rug, reactions bar, 2 comments"
+    },
+    "i7_chat": {
+      "file": "reference/benchmarks/i7_group_chat.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-23 (HappyFlops native Black Friday): \"Our group chat this morning\" WhatsApp-style group chat: deal announcement, photo bubble, reply"
+    },
+    "i7_story": {
+      "file": "reference/benchmarks/i7_ig_story_poll.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-23 (HappyFlops native Black Friday): Instagram story mirror selfie wearing product + 3 black caption boxes + poll sticker + handle tag"
+    },
+    "i7_blog": {
+      "file": "reference/benchmarks/i7_deals_blog.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-23 (HappyFlops native Black Friday): Deals article page: logo bar, DEALS / Black Friday / LIVE chips, big serif headline, byline, product photo"
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
