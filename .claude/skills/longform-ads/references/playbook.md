@@ -5,7 +5,8 @@ Format: basic static image + a VERY long primary text (2k–45k characters). Thi
 **Sources studied (Nov 2026)**
 - **Atria saved ads:** ~95 long-copy statics fetched from the saved library, with 67 full breakdowns. Run-days, status and impression rank are used as the winner signal.
 - **Google Doc "LFS – Top Brands Ad Copy":** 30 variations, about 78k words, from roughly 20 brands. It contains no run data.
-- **Weekly market studies:** `ads/brands/comfortwear/research/learning/market_study_<date>.md`, with every ad logged in `hook_loop_bank.csv`. The first is 2026-11-16: 39 ads, 22 brands. Rules added from these studies are dated and cite their ad ids.
+- **Weekly market studies:** `ads/brands/comfortwear/research/learning/market_study_<date>.md`, with every ad logged in `hook_loop_bank.csv`. The first is 2026-11-16: 39 ads, 22 brands. The second is 2026-11-23: 27 ads, 19 brands, plus a 7-day re-check of every logged ad. Rules added from these studies are dated and cite their ad ids.
+- **How to weigh market evidence (2026-11-23):** an ad's impression rank in its first week is not proof. 7 of the 11-16 study's rank-1 launches were dead within 10 days (Volosso m29887040324237298 at 5 days, EverWell m2271699710358426 at 3, PhotoStick m1521996796617216 at 5, Whisp m4531125787106064 at 6, Koprez m1545555414044869 at 10, Inflammation Fix m2485271655333553 at 6, Sculptara m1732794365132737 at 3). Count an ad as evidence only once it has run **14+ days**, or when the same advertiser's earlier ads ran 60+ days in that format. Rules below that rest only on launch rank are marked *unproven*.
 
 Per-ad breakdowns, with quotes, % maps and loops, are in `breakdowns/`:
 
@@ -58,6 +59,8 @@ Medians across ~95 ads. Very long ads (30k+) stretch the story half and keep the
 
 **Week one for products you feel at once (updated 2026-11-16).** "Week one, nothing" showed up in only 3 of 10 new adjacent long-form statics. For footwear, the stronger beat is a *reframed* first result: the pain you notice is gone, not a miracle. Two lines show it: "first shift I didn't notice anything, which was the point" and "sore isn't broken". Both are from Orthora's blog relaunch m4924210697806221, which rose 31–51 ranks in 7 days. Koprez's "9 to a 5" has the same shape (m1545555414044869, rank 1 of 160). Keep an honest ceiling, then let a small setback (a day-4 relapse, as in Volosso CellGel+) make the later payoff believable.
 
+**The prophesied timeline (2026-11-23, launches only, 3 advertisers).** Before the purchase, the messenger predicts the slow or quiet start ("for about ten days, nothing obvious"). The narrator then lives it "just like she said", and the guarantee length is framed around the same timeline. This pre-empts "it didn't work in week one". Seen in Elvera m28161283220215359, the Auniva urologist m1618765572775417 (where the timeline is used 3 times: story, guarantee, P.P.S.) and m1448257453488454. For shoes: the messenger says what the first shift will and won't feel like, and the 30-day guarantee becomes "four weeks of real shifts".
+
 ### Template variants you'll see
 | Template | Where the brand lands | Best examples (run days) |
 |---|---|---|
@@ -72,7 +75,7 @@ Medians across ~95 ads. Very long ads (30k+) stretch the story half and keep the
 
 ---
 
-## 2. Hooks: 14 formulas that recur
+## 2. Hooks: the formulas that recur (14 core types, plus 15–24 from the weekly market studies)
 
 The common move: **the reader's assumed-safe behavior is the cause of the disaster**.
 
@@ -99,6 +102,14 @@ The common move: **the reader's assumed-safe behavior is the cause of the disast
 18. **Professional irony:** the narrator's job skill fails at the worst moment. A 911 dispatcher can't get the script out when the call is about her own husband (BeetWise m2618847348628015, rank 1).
 19. **Historical secret + heirloom:** "what US Army nurses wore… in the winter of 1944", from a grandmother's footlocker (YouthRite m1626500106160944, rank 1 of 204). Only use real, checkable history.
 
+**Added from the 2026-11-23 market study.** Type 20 has long-runner proof; 21–24 are launches only.
+
+20. **Dated domestic incident / someone else's moment:** an ordinary object, a weekday or month, a place, and one small physical failure, often about a relative or a stranger. The narrator's own pain arrives at 8–12%. "My father dropped a coffee mug on his kitchen floor in El Paso last March…" (Nerve Support Community, 126 days). The same network's driveway, truck-notebook, garage-bin and mother-of-the-bride-dress hooks ran 124–144 days at 15–20k. "The one who gave me my dog back wasn't a vet. It was the kid I hired to pull my weeds." (Pet Organica m1598289028617052, active at 107 days). This week's launches push it further: a stranger frozen over a broken jar in a Kroger aisle (m1853666412318686), a cousin who now wears shorts (m1448257453488454). *Counter-example:* the same page's "my mother's pickles in the pantry" hook died at 0 days (m1667105185142600). Keep the incident physical and witnessed, not just sentimental.
+21. **Point-of-no-return near-miss:** "my finger was half an inch above the glass signature pad…" A timestamped moment just before an irreversible act (PhotoStick m1127648890268432).
+22. **Rule-break stress test** (now seen in a static): the narrator breaks the test's rules on purpose to prove the result (m3374935496026377). For us: a 14-hour day on purpose, in the old route, to see whether the feet hold.
+23. **Anonymous benefactor + promised answer:** "Every winter, somebody plowed her driveway before dawn… explained it in eight words." (m1460351462153639).
+24. **Sale spotted in the wild** (2–3k presells only, brand in line 1): "Saw this at my bus stop this morning and almost didn't believe it." (m1128424843303749), or "I saw [brand] was up to 60% off…" (m1149963201077009).
+
 Also seen in videos: a deliberate rule-break as proof (a doughnut before a fasting blood test, m2303460290510028), an insult overheard from behind (m1117556854368511), and a revelation from a doctor met abroad (Balmve m1419518233370292, with the location swapped 5 ways).
 
 **Hook iteration on a fixed body is how winners scale** (2026-11-16 evidence). Jessica Whitney's "Linda Marsh" body ran 132–140 days with 3 openers. Volosso's "ER nurse" body ran 284–306 days with 3+ openers. In each case only lines 1–2 change and the body stays byte-for-byte the same. For a proven LF body, test new hooks on the same body before writing a new story.
@@ -121,9 +132,12 @@ Hook mechanics:
 7. **False-resolution loop.** The narrator tries the cheap version, it seems to work, and then the lab number gets *worse* (LDL 191). This is the strongest anti-competitor device.
 8. **Deadline loop.** "My appointment was in nine days." This builds suspense into the results section.
 9. **Relationship loop** underneath the sales story: an estranged sister, "Nana, are you broken?", a husband's "Another miracle cure?". It resolves *after* the product works, so the product gets credit for the emotional resolution.
-11. **The silent-spouse loop** (2026-11-16). "She hasn't said one word about it. That's the part that's killing me." It opens at 0% and closes at about 88% with a concrete act: she cuts back her extra shifts (Volosso m2196690051278068, rank 64 of 126 at launch; the brand's other bodies ran 284–316 days).
+11. **The silent-spouse loop** (2026-11-16; *unproven*: its only evidence ad, Volosso m2196690051278068, died after 1 day). "She hasn't said one word about it. That's the part that's killing me." It opens at 0% and closes at about 88% with a concrete act: she cuts back her extra shifts (Volosso m2196690051278068, rank 64 of 126 at launch; the brand's other bodies ran 284–316 days).
 12. **The failed-fix refrain** (2026-11-16). Each failed treatment ends with the same short line, so the reader learns the mechanism by repetition before it's explained. Sculptara's 21k body uses this (m1723350862509872, rank 2 of 12, which outranks the same advertiser's 9.2k body).
-13. **Stacking.** By ~40% there are 3–4 loops open (the death, my own number, the stranger's tip, the "qualifier"). They close in reverse order.
+14. **The prophesied timeline** (2026-11-23): see §1. The messenger predicts it, the narrator lives it, and the guarantee reuses it.
+15. **Concealment → confession** (2026-11-23, 5+ launches). The symptom is shown as a hiding ritual: a cardigan in 84°F, getting up "in stages" when nobody's looking, a lie to a coworker. The loop closes when she stops hiding, and the confession becomes the moral ("the hiding is worse than the thing"). Seen in m1127200210091088 and m1853666412318686.
+16. **Public record → new record** (2026-11-23). The decline is documented somewhere public (a viral video with 41 replies, a drawer of photos she cropped herself out of, always being the one who takes the picture), and a new record reverses it (m1460351462153639, m29018590564477226).
+17. **Stacking.** By ~40% there are 3–4 loops open (the death, my own number, the stranger's tip, the "qualifier"). They close in reverse order.
 
 ---
 
@@ -153,6 +167,8 @@ Rust / sliced apple, kitchen sponge, kettle limescale, the alarm vs the fire, a 
 **Make the self-test the discovery and the CTA (2026-11-16).** The messenger runs the test on the narrator's own shoe, and the close hands the same test to the reader ("…the shoes you wore today. If it [fails], now you know."). The model is Orthora's blog relaunch m4924210697806221, which is rising. Use our own test, never Orthora's thumb press.
 
 **Measurement and logs work as proof (2026-11-16):** a pressure map in the PT clinic (Volosso), a BP notebook (BeetWise), a timestamped recovery log with counts (PhotoStick). The narrator's own doctor appears late as the person who *checks the log*, not as the messenger.
+
+**On-off-on proof (2026-11-23):** the symptom disappears away from home and comes back at home, then a single change switches it off again (Miracle Sheets m1914741186628481). Or the danger is confirmed after the rescue (PhotoStick: the device dies right after the save). Both are stronger than a plain before/after.
 
 **Use visible proof.** Brown water after the first ultrasonic clean, four hairs in the hand, a filament test going from 3/10 to 8/10, lab values to the decimal.
 
@@ -196,6 +212,17 @@ Then the copy gives a **3–5 point criteria list**. "Five things. All five. At 
 | **Feature as the reveal** | The product arrives as one mechanical feature on its own line, and the brand appears only in the URL. | Koprez m1545555414044869: "The sleeve has straps." at 59%, rank 1 of 160 in 5 days. Its 14.6k sibling is active at 63–65 days. |
 | **Tag read aloud** | The narrator reads the name off the product the messenger hands over. | Volosso m2196690051278068: "…by a company called Volosso" at 60%. |
 | **Criteria → "one built that way" → late EDIT** | The product goes unnamed at about 68%, then "EDIT: Since people are asking" names the brand at about 90%. | Orthora blog relaunches m4924210697806221 / m1132103902647418, rising. |
+
+**Bridges added 2026-11-23** (launches; recheck at 14 days):
+
+| Bridge type | How it reads | Evidence |
+|---|---|---|
+| **Second-hand expert chain** | The expert is 2–3 links away (a therapist → a daughter → a stranger), so the expert stays clean and off-screen. | m1853666412318686, m28161283220215359, m1448257453488454, m1127200210091088 |
+| **Two-messenger split** | An expert gives the criteria and refuses to name a brand, then an unrelated peer independently names the product that fits. | Finones m29018590564477226 |
+| **Tradesman whose trade is the analogy** | A messenger from an unrelated trade explains the mechanism through his own work (wet salt vs dry salt), and the analogy names the product. | m1460351462153639 |
+| **The villain's playbook as scorecard** | The exposed failure method (5 moves of a con) becomes the rubric the product is graded against with a red pen. | m1136559069269572 |
+
+**Measured position (2026-11-23, 21 new statics):** the median is 56% (range 1–77%). The 2–3k offer-led presells name the brand in the first 6%; every story ad lands at 45–77%. This is consistent with the ~60% norm.
 
 **Measured position (2026-11-16, 19 new statics):** median 59%, range 2–92%, so the ~60% norm holds. In footwear and foot pain, though, the brand is **late (≥85%) or unnamed** more often than not. A founder or messenger can name it early: YouthRite at 2%, rank 1, and Steadfast at 30%, rank 1.
 
@@ -256,7 +283,12 @@ Every strong ad includes most of these:
   - Jessica Whitney: 16,409 chars, 172 days
   - At launch: EverWell's 22,830-char ad (m2271699710358426) and PhotoStick's 16,312-char ad both reached rank 1, and Sculptara's 21k body outranks its own 9k body.
 
-  The 18k line is a warning, not a cap. When a story has that much real material, test a long cut against a short cut on the same day. The default sweet spot stays 5–14k.
+- **Strengthened 2026-11-23 (long-runner evidence, not launches):**
+  - The Auniva page network's earlier bodies at 15.4–24.0k ran **120–145 days**: Arthritis Support Community 16.6–19.5k at 136–144 days; Nerve Support 24.0k at 123; the Jessica Bennett page 23.6k at 120; Wellness Insider 18.0k at 144–145.
+  - Elvera's gastroenterologist page ran **a 12.5k cut and a 16.7k cut of the same hook, both 145–180 days**.
+  - Pet Organica's 24.3k body is **active at 107 days**.
+
+  The 18k line is a warning, not a cap. When a story has that much real material, test a long cut against a short cut on the same day. The default sweet spot stays 5–14k. For a proven body, the 15–20k long cut is a standard test in every batch, not an exception.
 
 ---
 
@@ -283,6 +315,8 @@ Every strong ad includes most of these:
     - Orthora's senior-home / knee video (3 variants, 0 days) and its tier lists (0–1 day).
     - Koprez's stories told by a third party (a coworker, a mother-in-law), at 4–6 days, while its first-person sufferer stories survive.
     - A 3.9k sympathy story at 13–16 days, while the same page's 16k story reached #1.
+14. **(2026-11-23) A dead ad is not a dead body: keep the back half and rebuild the trigger.** PhotoStick's 16.3k ad (m1521996796617216, rank 1, dead at 5 days) came back as m1127648890268432. It has the same back half line for line (timestamped failed fixes, the messenger at 39%, brand at 45%, log, offer and P.S. order), but a universal trigger instead of a narrow one, a belief-callout headline ("If You Trust iCloud… Read This"), and dates synced to the launch week. Nerve Support relaunched a byte-identical 19.1k body the day after its first launch faded (m29780612371559067 → m1450228956570288).
+15. **(2026-11-23) Footwear update.** Orthora's 4 blog-voice story statics (1.8–6.9k, brand late) are all **active at 12 days** (m4924210697806221, m1598795165622572, m1132103902647418, m1643871270551897). They are the first footwear long-copy statics in our bank to pass 10 days. Its tier-list cuts died again (7 cuts at 0–1 days). ComfoFeet's insider ranking *video* has run 42+ days (m1636971491222213). So rank shoe types in video, and tell stories in statics.
 
 ## 11. The modular system the best brands use
 
@@ -295,6 +329,8 @@ All four rank in the top 4% of the brand's 400 ads. To copy it:
 - Write the **mechanism + bridge + proof + offer + P.S.** once.
 - Then write 4–8 different **narrator + hook + life-shrinking + rock-bottom + encounter** front halves to bolt onto it.
 - Test long and short cuts of the same story side by side. Orthora launched 2.1k, 5.4k and 7k versions on the same day.
+
+**Auniva pattern (2026-11-23): one mechanism block, many conditions and pages.** The same ingredient-and-mechanism block is bolted onto knees, hands, bruising, perimenopause, blood sugar and ED, each with its own narrator. One 16,595-char body ran on two pages at once for 139–144 days each. For one product, that means one back half (mechanism, bridge, proof, offer, P.S.) and front halves per **life situation**: shift worker, traveler, grandparent, daily walker. Don't copy the fake "community", "clinic" or persona page names.
 
 ---
 

@@ -33,11 +33,29 @@ Source: `ads/brands/comfortwear/research/learning/market_study_2026-11-16.md`. F
    - The full long-form body (11–29k chars, P.S. stack included) scrolls unchanged.
    - Every winner above re-cut a static that had already been running 1–4 weeks.
    - Our 600–720-word written-for-scroll script is now **Mode A**. Keep it, but test B against it.
-2. **The pace is much faster than ours:** 4.0–4.5 words a second in the winners, against our 2.5. Nobody reads every word at that speed. The video works as a moving wall of text that signals "this is a real story", and the full text sits in the primary text too. The one slow example, 1.5 words a second, has retired. For Mode B, render with `python ads/scroll_video.py … --no-voice --px-per-frame 2` (added 2026-11-16). That's 120 px/s at 60 fps, still whole-pixel steps, about 4–4.5 words a second. The default of 1 px per frame (about 2.5 words a second) stays for Mode A.
+2. **The pace is much faster than ours:** 4.0–4.5 words a second in the winners, against our 2.5. *(Softened 2026-11-23: two new music-only scrolls run at 2.5–2.8 words a second and rank 1/34 and 7/310. The working band is 2.5–4.5; see below.)* Nobody reads every word at that speed. The video works as a moving wall of text that signals "this is a real story", and the full text sits in the primary text too. The one slow example, 1.5 words a second, has retired. For Mode B, render with `python ads/scroll_video.py … --no-voice --px-per-frame 2` (added 2026-11-16). That's 120 px/s at 60 fps, still whole-pixel steps, about 4–4.5 words a second. The default of 1 px per frame (about 2.5 words a second) stays for Mode A.
 3. **In Mode B, the primary text is the full story,** not a 1–3 sentence caption.
 4. **Music only.** None of the scroll winners has a voice-over. Keep ElevenLabs voice for Mode A tests only.
 5. **The background only has to be calm and on-topic.** The hook object is good (our rule), but Estella reaches #1 with one ingredient still reused across stories. A still of the narrator's world (Naturva) works too. For us, that means a still of the shoes in the story's setting is acceptable.
 6. **Gap:** no footwear competitor runs scrolling-text videos. Orthora, Hike and Oobend run 300–600 s voice-over or 3D-cartoon story videos instead.
+
+## Market study 2026-11-23: pace band, square format, and a "chapter one" mode
+
+Source: `ads/brands/comfortwear/research/learning/market_study_2026-11-23.md`. Frames and audio were checked with ffmpeg.
+
+| Ad | Run data | Format | Length | Background | Audio | Pace |
+|---|---|---|---|---|---|---|
+| Herbal Health Findings / Estella (m3736136016541332) | **#1 of 549 at 113 days**, still active | 9:16 | 469 s | ingredient still | music only | about 4.0 words/s |
+| Naturva (m1130129209949753) | rank 2/131 at 21 days, active | 9:16 | 843 s | still of the narrator's world | music only | about 4.3 words/s |
+| Susan Miller (m1662443618619314) | rank 1/34 at 6 days, rising | **720×720 square** | 1,035 s, the full 16.7k static body | blurred still (a man in a wheelchair); white condensed text with a dark outline | audio track present; the transcript failed | **2.8 words/s** |
+| Ageless Beauty Secrets (m1543429487624419) | rank 7/310 at 4 days, rising | 9:16 | 538 s, 7.6k body | looping clip of the insider's dressing room | music only (empty transcript) | **2.5 words/s** |
+| New World Publications fiction app (m1475300441229556 and 5+ duplicates) | ranks 1, 2, 3, 6 and 10 of 34 at 5 days | 9:16 | 222 s | "satisfying" ASMR slime clip, word-by-word captions | fast voice-over | about 3.6 words/s; the video covers only the first ~25% of the 18k story and stops at a cliffhanger |
+
+**What this changes:**
+1. **The Mode B pace band is 2.5–4.5 words a second.** The only long-run proof is still at 4–4.3 (Estella, Naturva). The slow pair is 4–6 days old. Test both ends on one body: `--px-per-frame 1` (about 2.5) against `--px-per-frame 2` (about 4).
+2. **Square 1:1 is a live scroll format for feed placements.** `scroll_video.py` renders 1080×1920 only. For a 1:1 test, center-crop the finished file with `ffmpeg -i in.mp4 -vf "crop=1080:1080" -c:a copy out_1x1.mp4`. Then check that the hook is inside the crop at second 0: the 9:16 render starts the hook in the lower half, which a center crop can cut off. If it does, re-render with the hook starting higher.
+3. **Mode C, "chapter one":** a voice-over reads the opening 20–25% of a proven LF body, up to its master loop, over a calm on-topic clip. The video ends on an explicit "the rest is in the caption", and the primary text carries the full story. It is cheaper than a full voiced scroll (about 600 words of ElevenLabs), so it fits the 5k-credit cap. Evidence so far is one advertiser's duplicates at days 1–5, so treat it as a test.
+4. **Unchanged:** music-only for Mode B, the full story as the primary text, and a calm on-topic still. Every scroll in the table follows these.
 
 ## Pipeline: `ads/scroll_video.py`
 

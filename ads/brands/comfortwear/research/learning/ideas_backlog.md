@@ -88,3 +88,16 @@ Source: `research/learning/market_study_2026-11-16.md`, with evidence there. Liv
 - **MS6 Left off the group trip (revenge / vindication, travel):** a vindication scene of about 15% of the body. Evidence: EverWell, Whisp (rank 1), Emma Livy.
 - **MS7 The rich client's one thing (net-new, women's):** a housekeeper or private nurse copies one thing from a wealthy client's closet. Evidence: Fleece nanny ad, rank 1.
 - **MS8 Christmas gift close:** "a pair for each person you love who stands all day", using the Dec 6+ swap. Evidence: TerraShell, rank 3 of 4,161.
+
+## From market study 2026-11-23
+
+Source: `research/learning/market_study_2026-11-23.md`, with evidence there. Thursday 11-26 is Thanksgiving. **Live offer:** the Black Friday Sale, 60% off sitewide OR buy-2-get-2-gifts (never combined), ending Dec 5. Add Christmas Sale swaps (Dec 6–31). StefanBrain writes all copy; Claude briefs with facts only.
+
+- **MS9 Dated-domestic-incident re-hook (statics):** our best LF body, unchanged, with 3 new type-20 openers. Each is a small dated scene about someone else (a parent, a coworker, a stranger in a checkout line), and the narrator's story starts by line 6. Evidence: Auniva pages' coffee-mug, driveway and truck-notebook hooks, 124–144 days; Pet Organica's 24.3k, active at 107 days.
+- **MS10 Long vs short cut:** a 16–19k long cut of the strongest current LF body, launched the same day as the current cut. Evidence: Elvera 12.5k and 16.7k cuts of one hook each ran 145–180 days; Auniva 15–24k bodies ran 120–145 days.
+- **MS11 Prophesied first month:** the messenger predicts the first shift and the first two weeks, the narrator lives it "just like she said", and the 30-day guarantee is framed as "four weeks of real shifts". Evidence: Elvera m28161283220215359, urologist m1618765572775417 (launches; recheck).
+- **MS12 Thanksgiving concealment (seasonal):** shoes off under the table, sitting at the kids' table, taking the photos instead of being in them. Payoff: a December photo or a group-chat reply. Close on Black Friday to Dec 5. Evidence: concealment and public-record patterns in 5+ launches; Finones' Thanksgiving + Black Friday pairing.
+- **MS13 Scroll-video pace and format test:** one proven LF body, music only, in 3 cuts: 9:16 at about 2.5 words/s, 9:16 at about 4 words/s, and 1:1 square at about 2.8 words/s. The full body is the primary text. Evidence: Estella 4 words/s #1/549 at 113 days; Susan Miller 1:1 at 2.8 words/s, rank 1/34; Ageless 2.5 words/s, rank 7/310.
+- **MS14 Chapter-one voice-over video (Mode C):** ElevenLabs reads the first 20–25% of a proven LF body, up to its master loop, over a calm clip. It ends on "the rest is below", and the full story is the primary text. Evidence: New World Publications fiction videos, 5 duplicates in its top 10.
+- **MS15 Insider ranks shoe TYPES she sees fail (video, not static):** a theme-park, airport or hospital worker; categories only, no rival brand names. Evidence: ComfoFeet m1636971491222213, 42+ days; Orthora's tier-list statics died at 0–1 days.
+- **MS16 Back-half relaunch:** a past LF concept that died fast keeps its back half (mechanism, bridge, results, offer, P.S.) and gets a universal trigger plus a belief-callout headline. Evidence: PhotoStick m1521996796617216 → m1127648890268432.

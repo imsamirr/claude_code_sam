@@ -38,3 +38,37 @@ Evidence: `ads/brands/comfortwear/research/learning/market_study_2026-11-16.md` 
 ## 2026-11-19 (DentalPULSE Thursday run)
 - `scroll_video.py`: still background and text layer decoded once and cached with the `loop` filter (pixel-identical output, ~40× cheaper filter; renders were running at ~1 fps). New `SCROLL_X264_PRESET` env override (default medium).
 - `scroll_video.py`: logs ElevenLabs `character-cost` per voice section to `<ID>/el_costs.txt`, because the key can't read `/v1/user/subscription`.
+
+## 2026-11-23: second weekly market study
+Evidence: `ads/brands/comfortwear/research/learning/market_study_2026-11-23.md` (27 new ads from 19 brands, plus a 7-day re-check of all 57 earlier rows in `hook_loop_bank.csv`). The Meta Ad Library returned 403 again, so the study is Atria only (MCP plus the Open API).
+
+**SKILL.md**
+- **Non-negotiable 4:** a market ad's first-week rank is not evidence. Count an ad as evidence only after 14+ days, or when the advertiser's earlier ads ran 60+ days in that format. Why: 7 of the 11-16 study's rank-1 launches died within 10 days (EverWell 3 days, PhotoStick 5, Koprez 10, Volosso RV relaunch 5, Whisp 6, Inflammation Fix 6, Sculptara Airbnb 3).
+- **Non-negotiable 11:** if a concept with a proven back half dies fast, keep the back half and rewrite the trigger and the front 30%. Why: PhotoStick m1521996796617216 (dead at 5 days) was relaunched as m1127648890268432 with the same back half and a universal trigger.
+- **§2.3 length:** the 15–20k long cut beside the current cut is now a standard test in every batch, no longer an optional one. Why: the Auniva page network's 15.4–24k bodies ran 120–145 days, and Elvera's 12.5k and 16.7k cuts of one hook each ran 145–180 days.
+
+**playbook.md**
+- **Sources:** a "how to weigh market evidence" rule (14+ days); rules that rest only on launch rank are marked *unproven*.
+- **§1:** the prophesied timeline. The messenger predicts the quiet start and the guarantee reuses it (Elvera m28161283220215359, urologist m1618765572775417; launches).
+- **§2:**
+  - **Hook type 20, dated domestic incident / someone else's moment.** This one has long-runner proof: Auniva pages, 124–144 days; Pet Organica 24.3k, active at 107 days; with the 0-day "mother's pickles" counter-example.
+  - **Types 21–24 (launches):** point-of-no-return near-miss, rule-break stress test in a static, anonymous benefactor, sale spotted in the wild.
+- **§3:**
+  - **Loops 14–16:** prophesied timeline, concealment → confession, public record → new record.
+  - **Silent-spouse loop marked unproven:** Volosso m2196690051278068 died after 1 day.
+- **§4:** on-off-on proof (Miracle Sheets m1914741186628481) and disaster confirmed after the rescue (PhotoStick).
+- **§5:** 4 new bridges (second-hand expert chain, two-messenger split, a tradesman whose trade is the analogy, the villain's playbook as scorecard). Measured brand position: median 56% across 21 statics.
+- **§9:** long-runner evidence for 15–24k bodies. The long cut is a standard test for proven bodies.
+- **§10:**
+  - **Rule 14:** a dead ad is not a dead body (PhotoStick; the Nerve Support relaunch).
+  - **Rule 15:** the footwear update. Orthora's 4 blog stories are active at 12 days, its tier lists died again (7 cuts at 0–1 days), and ComfoFeet's insider ranking video has run 42+ days.
+- **§11:** the Auniva pattern. One mechanism block runs across many conditions and pages, and one body ran on 2 pages for 139–144 days each.
+
+**scroll_videos.md**
+- **New 2026-11-23 section:**
+  - The Mode B pace band is 2.5–4.5 words a second. Two new music-only scrolls run at 2.5–2.8 (Susan Miller m1662443618619314, rank 1/34; Ageless Beauty m1543429487624419, rank 7/310), and Estella's 4 words a second is still #1/549 at 113 days.
+  - 1:1 square scroll via a center crop.
+  - Mode C, "chapter one": a voice-over of the opening 20–25% with the full story in the caption (New World Publications, 5 duplicates in its top 10).
+- **Older 4–4.5 words-a-second rule:** softened to match.
+
+**Mirrored:** playbook changes into `ads/research/long-form-copy/PLAYBOOK.md`. Rebuilt `ads/research/long-form-copy/longform-ads-skill.zip`.
