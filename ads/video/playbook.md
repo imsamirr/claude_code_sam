@@ -21,6 +21,7 @@ The approved look (set A) is a **phone video that a real woman would post to her
 - **Placement:** the caption goes in the upper third or a narrow column beside the subject (Hug Sleep Pod), never over the face or the shoe, and inside the 4:5 safe area.
 - **Shots:** real, slightly imperfect phone footage: car selfies after a shift, hallway walking, a mirror, a hand pulling the knit, feet up on the couch. Each shot runs 1.5 to 4 s, with no transitions beyond hard cuts.
 - **Product mention:** name it the way a friend would: "these stretchy Comfort Wear ones", "my purple sneakers". It appears in the caption at most once, or only in the ad copy.
+- **Show the shoe (user, 2026-11-23):** the caption can be indirect, the footage can't. Our shoe is clearly on screen for at least half of every video, with a 3 s+ hero shot, and the payoff shot is her in our shoes. Third-party park/travel clips set the scene; they never carry the payoff.
 - **Payoff over features:** say "hour 12 and I'm still walking normal", not "cushioned rocker sole".
 - **Offer stays out of the footage and caption.** The offer lives in the end card (user rule: always append the brand's end card: Black Friday through Nov 23, regular after; Spanish card for Spanish ads) and in the primary text.
 

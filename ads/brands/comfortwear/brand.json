@@ -306,7 +306,8 @@
    "Competitor names (user, 2026-11-14): name competitor brands directly in captions/scripts instead of prices (\"Hokas\", \"OnClouds\", \"Brooks\", \"Nike Air Max\", not \"$180 shoes\"). Skechers is ALWAYS written \"Skech*rs\" (in edit.json captions type it as Skech\\*rs, because a bare * starts a yellow highlight).",
    "Drive (user, 2026-11-17): every batch goes into its own new subfolder of the video folder (drive_upload.py --batch \"<YYYY>-W<ww> Weekly Batch (...)\"); never leave a batch's files loose in the main folder.",
    "End card: 3 seconds at the end (user, 2026-11-18). brand.json video.end_cards[].seconds = 3; the offer is fully on screen within the first second of every card.",
-   "Captions without a background box (shadow, classic, outline) render at 72 px or larger in a heavy weight so they read on busy footage (user, 2026-11-18; enforced in ads/video/build.py)."
+   "Captions without a background box (shadow, classic, outline) render at 72 px or larger in a heavy weight so they read on busy footage (user, 2026-11-18; enforced in ads/video/build.py).",
+   "SHOW THE SHOE (user, 2026-11-23, after the W47 batch: 'you did not show us any of the shoe scenes'): the Comfort Wear shoe is clearly visible (large, in focus: in hand, on-foot close-up, or on her feet walking) for at least HALF of every video's content time; every video has at least one product hero shot of 3 s or more; and the last content shot (the payoff) shows OUR shoes on her feet. Other shoes (old sneakers, competitors, people in Disney/travel clips) may appear only in the hook/problem beats, never in the payoff. A third-party Disney or travel clip without our shoe can be the hook or a middle beat, never the payoff."
   ],
   "drive_folder_id": "1bhhpYqkbtYJI1hOzoSN_-VFxqCkmsI3C",
   "drive_folder_name": "Comfort Wear – Short-Form Video Ads (one subfolder per batch, e.g. '2026-W46 Weekly Batch (V46_11-21)', + 'End cards')",

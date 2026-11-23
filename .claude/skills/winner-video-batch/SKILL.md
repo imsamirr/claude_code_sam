@@ -39,6 +39,7 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
 - **Name competitors directly (user rule, Nov 14)**: say "Hokas", "OnClouds", "Brooks", "Nike Air Max"
   instead of "$180 running shoes". **Skechers is always written "Skech*rs"**; in an edit.json caption type
   `Skech\\*rs` (a bare `*` toggles the yellow highlight). Still blur Skechers logos in the footage.
+- **Show the shoe (user, 2026-11-23, after W47):** our shoe clearly visible for at least half of each video's content time, a product hero shot of 3 s+, and the payoff shot shows our shoes on her feet (other shoes only in hook/problem beats; third-party Disney/travel clips never as the payoff). Tell StefanBrain in the brief (brand.json video.rules carries it) and fix shot lists that end on a clip without our shoe before cutting.
 - Each concept keeps its winner's angle, audience and proof points; it changes the format, hook and
   story. Use `claims_to_avoid` from brand.json.
 - **End card is 3 seconds (user rule, Nov 18)**: `brand.json` → `video.end_cards[].seconds` = 3 (the offer
@@ -105,7 +106,7 @@ Builds on the `video-ads` skill (engine, footage, QA): read it too. Everything b
 7. **Render + QA**: `build.py` each (≈1 min per video), then `qa.py` each: PASS, no faces outside 4:5,
    then Read the strips **and** a 1-frame-per-second strip of every video
    (`ffmpeg -t <content s> -i v.mp4 -vf "fps=1,scale=150:-2,tile=16x1"`) to catch text on eyes,
-   product or action between samples. Fix and re-render failures.
+   product or action between samples. On the same strip count the **shoe seconds** (frames where our shoe is clearly visible): under half of the content, no 3 s+ hero shot, or a payoff without our shoe = re-cut (user, 2026-11-23). Fix and re-render failures.
 8. **Deliver**:
    - Commit `<week dir>` (edits + mp4s + sheets), `footage.csv`, playbook changes; push.
      An MP4 over ~95 MB (long F31-style videos at crf 17) can't go to GitHub (100 MB limit): keep it out of
