@@ -1,5 +1,5 @@
 {
- "total": 12.433,
+ "total": 14.067,
  "scenes": [
   {
    "src": "gate",
@@ -7,19 +7,24 @@
    "end": 3.367
   },
   {
-   "src": "stpeter",
+   "src": "pov",
    "start": 3.367,
-   "end": 6.9
+   "end": 7.4
   },
   {
-   "src": "selfie",
-   "start": 6.9,
-   "end": 9.6
+   "src": "rome",
+   "start": 7.4,
+   "end": 9.133
+  },
+  {
+   "src": "rome",
+   "start": 9.133,
+   "end": 11.233
   },
   {
    "src": "_end_card",
-   "start": 9.6,
-   "end": 12.433
+   "start": 11.233,
+   "end": 14.067
   }
  ]
 }

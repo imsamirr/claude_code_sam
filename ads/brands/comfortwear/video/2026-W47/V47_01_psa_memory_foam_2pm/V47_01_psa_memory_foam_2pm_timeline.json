@@ -1,25 +1,30 @@
 {
- "total": 14.033,
+ "total": 14.967,
  "scenes": [
   {
    "src": "crawl",
    "start": 0.0,
-   "end": 3.267
-  },
-  {
-   "src": "sock",
-   "start": 3.267,
-   "end": 6.6
+   "end": 2.867
   },
   {
    "src": "group",
-   "start": 6.6,
-   "end": 11.2
+   "start": 2.867,
+   "end": 5.1
+  },
+  {
+   "src": "sock",
+   "start": 5.1,
+   "end": 8.433
+  },
+  {
+   "src": "curvy_pose",
+   "start": 8.433,
+   "end": 12.133
   },
   {
    "src": "_end_card",
-   "start": 11.2,
-   "end": 14.033
+   "start": 12.133,
+   "end": 14.967
   }
  ]
 }

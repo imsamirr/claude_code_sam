@@ -1,5 +1,5 @@
 {
- "total": 10.633,
+ "total": 13.367,
  "scenes": [
   {
    "src": "hoka",
@@ -9,17 +9,22 @@
   {
    "src": "purple",
    "start": 2.867,
-   "end": 5.2
+   "end": 6.1
   },
   {
    "src": "queue",
-   "start": 5.2,
-   "end": 7.8
+   "start": 6.1,
+   "end": 7.833
+  },
+  {
+   "src": "feet",
+   "start": 7.833,
+   "end": 10.533
   },
   {
    "src": "_end_card",
-   "start": 7.8,
-   "end": 10.633
+   "start": 10.533,
+   "end": 13.367
   }
  ]
 }

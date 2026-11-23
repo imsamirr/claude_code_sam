@@ -1,25 +1,30 @@
 {
- "total": 11.633,
+ "total": 13.467,
  "scenes": [
   {
    "src": "tired",
    "start": 0.0,
-   "end": 4.267
+   "end": 2.867
   },
   {
    "src": "shoes",
-   "start": 4.267,
-   "end": 6.433
+   "start": 2.867,
+   "end": 5.033
+  },
+  {
+   "src": "standing",
+   "start": 5.033,
+   "end": 8.267
   },
   {
    "src": "feetup",
-   "start": 6.433,
-   "end": 8.8
+   "start": 8.267,
+   "end": 10.633
   },
   {
    "src": "_end_card",
-   "start": 8.8,
-   "end": 11.633
+   "start": 10.633,
+   "end": 13.467
   }
  ]
 }
