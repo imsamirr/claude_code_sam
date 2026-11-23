@@ -69,6 +69,15 @@ outcome in the stack's situation.
   if the account's winners use it.
 - Score novelty and specificity 1–5 each, and believability high/medium/low. Flag low believability.
 
+**Hero mechanism.** Prefer one named hero mechanism per brand. Every concept's angle traces back to
+it, and the other features act as supporting proof. Several angles can stack in one ad if each ties
+back to the hero. ComfortWear's proposed hero: "The Hour-4 Foam Collapse" → "Built-In Arch". See
+`research/formats_from_jamil_2026-11-23.md`.
+
+**Formats.** Keep a working-formats table per brand (format | account evidence | status). Bring in
+formats that are hot in other niches but untested in this one, and give each a stack. Concepts
+should pass the "squint test": if two ads look the same when you squint, they aren't different tests.
+
 ## 4. Brief (B)
 
 Each concept card holds:
