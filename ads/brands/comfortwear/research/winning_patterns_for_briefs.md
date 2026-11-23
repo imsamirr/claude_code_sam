@@ -8,6 +8,12 @@ Built 2026-11-19 from: `stefanbrain_kb/ad_account_digest.md`, `winning_briefs.md
 3. Apply the winning patterns below in every brief. Named competitor shoes are OK (Samir, Nov 18–19).
 4. All copy is written by StefanBrain; Claude briefs it, checks it and posts it.
 5. Leave Strategist/V-Editor empty in Notion.
+6. **Creative learnings (Samir, 2026-11-23):** apply `ads/creative_playbook/CREATIVE_LEARNINGS.md` (Stefan Georgi + Jamil Rashid) to every brief's ideas, angles and hooks:
+   - Every brief names its angle, how the angle traces to the hero mechanism, its core emotion and one dominant pain point.
+   - Get the outline from StefanBrain first, then the script.
+   - Run a "make them weirder" pass on hooks, and get one single-sentence open-loop hook.
+   - Yapper scripts use spoken voice and one of the three reveal setups.
+   - Keep the full StefanBrain project and briefs (no "lean project").
 
 ## The patterns that won (with evidence)
 
