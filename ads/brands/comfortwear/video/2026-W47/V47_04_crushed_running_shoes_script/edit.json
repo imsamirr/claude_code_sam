@@ -1,6 +1,6 @@
 {
   "id": "V47_04_crushed_running_shoes_script",
-  "version": 2,
+  "version": 3,
   "created": "2026-11-19",
   "end_card": "auto",
   "transition": "fade",
@@ -19,13 +19,16 @@
   },
   "sources": {
     "old": "drive:1AQnfCz89G0RaDHDewV8ND43BAEoYr-Wa",
-    "show": "drive:1MOBZmhq1i87e5Zz8IqLd6b_10GqeoL5R",
-    "hall": "drive:1vJvLvq-Gl0NE6xYxOwr-a4vkK8xdQsL8"
+    "hall": "drive:1vJvLvq-Gl0NE6xYxOwr-a4vkK8xdQsL8",
+    "hero": "drive:1gcQvgkM0IrvkBLN7mPwFeBHhDU55Skkg",
+    "burg": "drive:1LeKV2CH0N5MIGkClW0xG6rTRdZG2R6GK"
   },
   "source_notes": {
     "old": "Olivia/951 ShoesFor12HourShifts/BROLL USING OLD SHOES_1 worn pink running shoes (owned creator; ASICS stripes blurred)",
     "show": "MISC B-ROLL/Nurses nurse posing by a white door in black/white CW shoes (owned agency)",
-    "hall": "2024/November 2024/Nurse shifts IMG_3782 hallway walk toward camera (owned creator)"
+    "hall": "2024/November 2024/Nurse shifts IMG_3782 hallway walk toward camera (owned creator)",
+    "hero": "MISC B-ROLL: nurse in royal-blue scrubs showing black/purple pair + outsole (owned agency)",
+    "burg": "MISC B-ROLL: burgundy shoes on a nurse (owned agency)"
   },
   "clips": [
     {
@@ -55,15 +58,21 @@
       ]
     },
     {
-      "src": "show",
-      "in": 4.0,
-      "out": 7.2,
+      "src": "hero",
+      "in": 1.5,
+      "out": 5.5,
       "gain": 0
     },
     {
       "src": "hall",
       "in": 3.0,
-      "out": 6.3,
+      "out": 6.0,
+      "gain": 0
+    },
+    {
+      "src": "burg",
+      "in": 0.0,
+      "out": 2.5,
       "gain": 0
     }
   ],
@@ -98,8 +107,11 @@
       "width": 0.86,
       "y": 0.24,
       "shadow": 0.9,
-      "clip": 2,
-      "text": "Hour 12 in the ER and my feet still feel supported 🙌"
+      "text": "Hour 12 in the ER and my feet still feel supported 🙌",
+      "clips": [
+        2,
+        3
+      ]
     }
   ],
   "persona": "ER/hospital nurse doing 12s (avatar: nurse 30-55)",
@@ -111,5 +123,9 @@
   "copy_source": "stefanbrain",
   "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
   "stefanbrain_concept": "SF04",
-  "stefanbrain_title": "Ditching Running Shoes For 12-Hour Nursing"
+  "stefanbrain_title": "Ditching Running Shoes For 12-Hour Nursing",
+  "recut_note": "Re-cut 2026-11-23 (user: 'you did not show us any of the shoe scenes'): our shoe on screen for half the video, 3 s+ hero, payoff in our shoes; StefanBrain OK'd every shot change in the W47 chat; captions unchanged.",
+  "recut_changes": [
+    "line 2 over nurse holding our pair + outsole (hero 4 s); line 3 hallway (3 s) + payoff burgundy pair on foot"
+  ]
 }

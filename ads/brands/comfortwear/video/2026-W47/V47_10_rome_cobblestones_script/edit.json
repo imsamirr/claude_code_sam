@@ -1,6 +1,6 @@
 {
   "id": "V47_10_rome_cobblestones_script",
-  "version": 4,
+  "version": 5,
   "created": "2026-11-19",
   "end_card": "auto",
   "transition": "fade",
@@ -19,13 +19,15 @@
   },
   "sources": {
     "gate": "drive:1UePRzoB9LebqqQ8tfs9G_i6cMZsvBH6P",
-    "selfie": "drive:1ewO_l-nBiOOky4hcliSBDhqYim4Toha8",
-    "stpeter": "drive:1IxId47AKz17YXeXr8xWzUGsMPAdkGlFD"
+    "pov": "drive:1CzFIHbMCp2qxi6L6rPHe1C6bWIOd9Hy4",
+    "rome": "drive:1-LoZkoAXxxHDilKx_K2AdAUC3Kug9xhM"
   },
   "source_notes": {
     "gate": "2025/Jennifer Adcock/travel/rubbing heel.MOV (owned creator)",
     "selfie": "The Trip You Refuse To Ruin/B-Roll - Italy 4.MOV, Rome cobblestone selfie walk, shoes visible 4.5-6.5 (owned creator)",
-    "stpeter": "The Trip You Refuse To Ruin/B-Roll - Italy 8.MOV, St Peter's Square cobblestones (owned creator)"
+    "stpeter": "The Trip You Refuse To Ruin/B-Roll - Italy 8.MOV, St Peter's Square cobblestones (owned creator)",
+    "pov": "POV walking in the burgundy pair (owned creator)",
+    "rome": "The Trip You Refuse To Ruin/B-Roll - Italy 7.MOV: Colosseum selfie 0.5-2.5, walking across the piazza with shoes in frame 8.0-10.4 (owned creator)"
   },
   "clips": [
     {
@@ -36,17 +38,22 @@
       "shift_y": 0.08
     },
     {
-      "src": "stpeter",
+      "src": "pov",
       "in": 0.0,
-      "out": 3.8,
+      "out": 4.3,
       "gain": 0
     },
     {
-      "src": "selfie",
-      "in": 4.3,
-      "out": 7.3,
-      "gain": 0,
-      "shift_y": 0.3
+      "src": "rome",
+      "in": 0.5,
+      "out": 2.5,
+      "gain": 0
+    },
+    {
+      "src": "rome",
+      "in": 8.0,
+      "out": 10.4,
+      "gain": 0
     }
   ],
   "captions": [
@@ -74,8 +81,11 @@
       "width": 0.86,
       "y": 0.27,
       "box_accent": "#FFD84D",
-      "clip": 2,
-      "text": "25,000 steps through Rome and my arches feel amazing 🏛️🍕"
+      "text": "25,000 steps through Rome and my arches feel amazing 🏛️🍕",
+      "clips": [
+        2,
+        3
+      ]
     }
   ],
   "persona": "traveler (avatar: woman 45-65, Europe trip, 20k+ steps/day)",
@@ -87,5 +97,9 @@
   "copy_source": "stefanbrain",
   "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
   "stefanbrain_concept": "SF10",
-  "stefanbrain_title": "Cobblestone Walking Shoe Revelation"
+  "stefanbrain_title": "Cobblestone Walking Shoe Revelation",
+  "recut_note": "Re-cut 2026-11-23 (user: 'you did not show us any of the shoe scenes'): our shoe on screen for half the video, 3 s+ hero, payoff in our shoes; StefanBrain OK'd every shot change in the W47 chat; captions unchanged.",
+  "recut_changes": [
+    "line 2 over POV feet in our burgundy pair (as StefanBrain directed); line 3 Colosseum selfie + payoff walking the piazza with shoes in frame"
+  ]
 }

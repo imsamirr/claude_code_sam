@@ -1,6 +1,6 @@
 {
   "id": "V47_08_pov_running_shoes_in_line_script",
-  "version": 3,
+  "version": 4,
   "created": "2026-11-19",
   "end_card": "auto",
   "transition": "fade",
@@ -20,12 +20,14 @@
   "sources": {
     "hoka": "drive:1cNPCsQlHu1br_vNmwRRHuietWySiXVGd",
     "purple": "drive:1ygiK3dyWGJ506O8l7V6aVR6b-TIVW1uJ",
-    "queue": "drive:1L7tIAMDqgRsUUxe8r5PFd1fkBGjDHL83"
+    "queue": "drive:1L7tIAMDqgRsUUxe8r5PFd1fkBGjDHL83",
+    "feet": "drive:1tbFk-kBlpZb8kUbeUVerTmyIeDPlBHhC"
   },
   "source_notes": {
     "hoka": "Youtube/Tiktok Content hoka.mp4 Hoka Bondi held over its box (competitor shoe, named in caption) (third-party TikTok creator; rights to confirm)",
     "purple": "2025/Larissa content/Purple shoes/IMG_0932.MOV (owned creator)",
-    "queue": "Youtube/Tiktok Content snaptik_7426130546218110238 plus-size creator in the coaster queue (burned captions cropped with zoom) (third-party TikTok creator; rights to confirm)"
+    "queue": "Youtube/Tiktok Content snaptik_7426130546218110238 plus-size creator in the coaster queue (burned captions cropped with zoom) (third-party TikTok creator; rights to confirm)",
+    "feet": "2026/Heather/B roll/Wide toe box toes wiggling-2.mov (top-down feet standing in our red pair)"
   },
   "clips": [
     {
@@ -36,17 +38,23 @@
     },
     {
       "src": "purple",
-      "in": 12.0,
-      "out": 14.6,
+      "in": 11.4,
+      "out": 14.9,
       "gain": 0
     },
     {
       "src": "queue",
       "in": 44.3,
-      "out": 47.2,
+      "out": 46.3,
       "gain": 0,
       "zoom": 1.3,
       "focus_y": 0.95
+    },
+    {
+      "src": "feet",
+      "in": 1.0,
+      "out": 4.0,
+      "gain": 0
     }
   ],
   "captions": [
@@ -74,8 +82,11 @@
       "size": 72,
       "width": 0.88,
       "y": 0.25,
-      "clip": 2,
-      "text": "10 hours standing in lines and my feet still feel fresh 🎡🥳"
+      "text": "10 hours standing in lines and my feet still feel fresh 🎡🥳",
+      "clips": [
+        2,
+        3
+      ]
     }
   ],
   "persona": "plus-size Disney traveler",
@@ -87,5 +98,9 @@
   "copy_source": "stefanbrain",
   "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
   "stefanbrain_concept": "SF08",
-  "stefanbrain_title": "Theme Park Line Standing Truth"
+  "stefanbrain_title": "Theme Park Line Standing Truth",
+  "recut_note": "Re-cut 2026-11-23 (user: 'you did not show us any of the shoe scenes'): our shoe on screen for half the video, 3 s+ hero, payoff in our shoes; StefanBrain OK'd every shot change in the W47 chat; captions unchanged.",
+  "recut_changes": [
+    "hero 3.5 s; line 3 queue (2 s) + payoff top-down feet standing in our red pair"
+  ]
 }

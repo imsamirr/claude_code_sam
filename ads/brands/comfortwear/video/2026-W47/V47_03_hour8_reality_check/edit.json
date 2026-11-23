@@ -1,6 +1,6 @@
 {
   "id": "V47_03_hour8_reality_check",
-  "version": 2,
+  "version": 3,
   "created": "2026-11-19",
   "end_card": "auto",
   "transition": "fade",
@@ -20,32 +20,33 @@
   "sources": {
     "sneakers": "drive:1BUYLrdflqpnYFS68acz45pt-yq3kksu7",
     "features": "drive:1NidD6y3D26gcKyMEFkE-fI9_a5Hh8gvd",
-    "pm": "tiktok:7499239485348105515"
+    "bench": "drive:192dOQnbjMy2thbdXbX5W8wkMicXINvMC"
   },
   "source_notes": {
     "sneakers": "Youtube/Tiktok Content skechers in disney.mp4 4.0-6.8 (woman in white Skech*rs at the park; logos blurred) (third-party TikTok creator; rights to confirm)",
     "features": "2025/Larissa content/catching shoe.MOV shoe next to her face (owned creator)",
-    "pm": "TikTok @plussizeparkhoppers PeopleMover chair dance (third-party TikTok creator; rights to confirm)"
+    "pm": "TikTok @plussizeparkhoppers PeopleMover chair dance (third-party TikTok creator; rights to confirm)",
+    "bench": "MISC B-ROLL/Others: female traveller showing off shoes on an airport bench (owned agency)"
   },
   "clips": [
     {
       "src": "sneakers",
       "in": 4.0,
-      "out": 6.8,
+      "out": 7.0,
       "gain": 0,
       "shift_y": 0.12
     },
     {
       "src": "features",
-      "in": 7.0,
-      "out": 9.4,
+      "in": 6.0,
+      "out": 9.6,
       "gain": 0,
       "shift_y": 0.06
     },
     {
-      "src": "pm",
-      "in": 4.5,
-      "out": 7.6,
+      "src": "bench",
+      "in": 0.0,
+      "out": 3.4,
       "gain": 0
     }
   ],
@@ -87,5 +88,9 @@
   "copy_source": "stefanbrain",
   "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
   "stefanbrain_concept": "SF03",
-  "stefanbrain_title": "The Disney Hour 8 Reality Check"
+  "stefanbrain_title": "The Disney Hour 8 Reality Check",
+  "recut_note": "Re-cut 2026-11-23 (user: 'you did not show us any of the shoe scenes'): our shoe on screen for half the video, 3 s+ hero, payoff in our shoes; StefanBrain OK'd every shot change in the W47 chat; captions unchanged.",
+  "recut_changes": [
+    "hero extended to 3.6 s; payoff PeopleMover dance (no CW) -> POV feet in our black pair on an airport bench"
+  ]
 }

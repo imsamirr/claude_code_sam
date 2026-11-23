@@ -1,6 +1,6 @@
 {
   "id": "V47_01_psa_memory_foam_2pm",
-  "version": 2,
+  "version": 3,
   "created": "2026-11-19",
   "end_card": "auto",
   "transition": "fade",
@@ -20,18 +20,26 @@
   "sources": {
     "crawl": "drive:1Jv0NoQ1N3hmcsZ-G5UExEWEeQSue0Ebz",
     "sock": "drive:1Jj0OStvW1kZ8-c_tbb5jzMyDv30QOaQC",
-    "group": "drive:1O2ny98nZUOIjf_QHSPxSfhvlKZMjaA5a"
+    "group": "drive:1O2ny98nZUOIjf_QHSPxSfhvlKZMjaA5a",
+    "curvy_pose": "drive:17W-4Ss7wqQawLPNLTNMAu6TL6FMTytJr"
   },
   "source_notes": {
     "crawl": "Youtube/Tiktok Content snaptik_7516751375980580126 Epcot crawl at night (third-party TikTok creator; rights to confirm)",
     "sock": "2025/Larissa content/close up of ankle sock.MOV (owned creator, black/purple)",
-    "group": "Youtube/Tiktok Content snaptik_7350800677989322026 (1) plus-size friends with Minnie ears (third-party TikTok creator; rights to confirm)"
+    "group": "Youtube/Tiktok Content snaptik_7350800677989322026 (1) plus-size friends with Minnie ears (third-party TikTok creator; rights to confirm)",
+    "curvy_pose": "2025/Larissa-style curvy creator full-length pose in the purple pair, black scrubs (owned creator)"
   },
   "clips": [
     {
       "src": "crawl",
       "in": 0.0,
-      "out": 3.4,
+      "out": 3.0,
+      "gain": 0
+    },
+    {
+      "src": "group",
+      "in": 0.0,
+      "out": 2.5,
       "gain": 0
     },
     {
@@ -43,9 +51,9 @@
       "shift_y": 0.28
     },
     {
-      "src": "group",
-      "in": 0.0,
-      "out": 4.9,
+      "src": "curvy_pose",
+      "in": 2.5,
+      "out": 6.5,
       "gain": 0
     }
   ],
@@ -58,7 +66,7 @@
       "y": 0.27,
       "clips": [
         0,
-        2
+        3
       ],
       "text": "PSA to fellow plus-size Disney girlies: memory foam collapses by 2 PM 😭 switch to *wide toe box stretch shoes* before your trip 🙌👟"
     }
@@ -72,5 +80,9 @@
   "copy_source": "stefanbrain",
   "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
   "stefanbrain_concept": "SF01",
-  "stefanbrain_title": "Plus-Size Disney Memory Foam Warning"
+  "stefanbrain_title": "Plus-Size Disney Memory Foam Warning",
+  "recut_note": "Re-cut 2026-11-23 (user: 'you did not show us any of the shoe scenes'): our shoe on screen for half the video, 3 s+ hero, payoff in our shoes; StefanBrain OK'd every shot change in the W47 chat; captions unchanged.",
+  "recut_changes": [
+    "order crawl -> group (2.5 s) -> shoe on foot (hero) -> payoff: curvy creator in the purple pair"
+  ]
 }

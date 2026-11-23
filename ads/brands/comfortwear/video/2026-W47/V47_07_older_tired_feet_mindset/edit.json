@@ -1,6 +1,6 @@
 {
   "id": "V47_07_older_tired_feet_mindset",
-  "version": 3,
+  "version": 4,
   "created": "2026-11-19",
   "end_card": "auto",
   "transition": "fade",
@@ -20,12 +20,13 @@
   "sources": {
     "hands": "drive:1IOJzBG8s3tdONiD-zCRhODVvhJ8vXXKE",
     "pov": "drive:1T78AKSgn3t9ZW8rTYcvYR9qTqS5guTiY",
-    "grandma": "drive:1WUCYA4k0L2DthOD_TuO0n_yeRfgHBQkM"
+    "heather": "drive:11B1parR2UxYx-XryWz1hp0iGnnkIwEEl"
   },
   "source_notes": {
     "hands": "2025/Rosa Pinto hands showing upper/sole/insole (owned creator)",
     "pov": "2025/Larissa content/pov sidewalk walking.MOV (owned creator)",
-    "grandma": "Youtube/Tiktok Content snaptik_7370846899156307242 grandma dancing with Minnie in white sneakers (third-party TikTok creator; rights to confirm)"
+    "grandma": "Youtube/Tiktok Content snaptik_7370846899156307242 grandma dancing with Minnie in white sneakers (third-party TikTok creator; rights to confirm)",
+    "heather": "2026/Heather/B roll/walking outside with shoes.mov (60s creator, red pair; owned creator)"
   },
   "clips": [
     {
@@ -41,9 +42,9 @@
       "gain": 0
     },
     {
-      "src": "grandma",
-      "in": 3.0,
-      "out": 8.0,
+      "src": "heather",
+      "in": 13.0,
+      "out": 15.8,
       "gain": 0
     }
   ],
@@ -72,5 +73,9 @@
   "copy_source": "stefanbrain",
   "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
   "stefanbrain_concept": "SF07",
-  "stefanbrain_title": "Senior Mobility & Walking Comfort"
+  "stefanbrain_title": "Senior Mobility & Walking Comfort",
+  "recut_note": "Re-cut 2026-11-23 (user: 'you did not show us any of the shoe scenes'): our shoe on screen for half the video, 3 s+ hero, payoff in our shoes; StefanBrain OK'd every shot change in the W47 chat; captions unchanged.",
+  "recut_changes": [
+    "payoff grandma with Minnie in white sneakers -> Heather walking toward camera in our red pair"
+  ]
 }

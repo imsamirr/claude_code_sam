@@ -1,6 +1,6 @@
 {
   "id": "V47_05_charge_nurse_thank_you",
-  "version": 4,
+  "version": 5,
   "created": "2026-11-19",
   "end_card": "auto",
   "transition": "fade",
@@ -20,18 +20,20 @@
   "sources": {
     "tired": "drive:10uShHAyOWQo6vKfStK6OL0pw1GJ70FUd",
     "shoes": "drive:1ML9nY7RZwhN84mkIIJ3HahajH8Tz-Mud",
-    "feetup": "drive:1LHkR5V1Jt8IEREPExyxqd6L2IvWazKNB"
+    "feetup": "drive:1LHkR5V1Jt8IEREPExyxqd6L2IvWazKNB",
+    "standing": "drive:1fb7CPu6lzEATOtsPV_AfDwVh2YWprfR8"
   },
   "source_notes": {
     "tired": "951 ShoesFor12HourShifts/BROLL MASSAGING PAIN POINTS_3 (owned creator)",
     "shoes": "MISC B-ROLL ACH-ALX-189 nurse smiling with shoes + navy shoes on feet (owned agency)",
-    "feetup": "951 ShoesFor12HourShifts/BROLL LIGHTWEIGHT_3 feet up, smiling (owned creator)"
+    "feetup": "951 ShoesFor12HourShifts/BROLL LIGHTWEIGHT_3 feet up, smiling (owned creator)",
+    "standing": "same grey-scrubs nurse standing full length in our shoes, rotating her ankle (owned creator)"
   },
   "clips": [
     {
       "src": "tired",
       "in": 1.6,
-      "out": 6.0,
+      "out": 4.6,
       "gain": 0
     },
     {
@@ -41,6 +43,12 @@
       "gain": 0,
       "shift_y": 0.12,
       "speed": 0.8
+    },
+    {
+      "src": "standing",
+      "in": 0.5,
+      "out": 4.0,
+      "gain": 0
     },
     {
       "src": "feetup",
@@ -75,9 +83,19 @@
       "font": "serif",
       "size": 72,
       "width": 0.86,
-      "y": 0.76,
+      "y": 0.5,
       "text": "To the charge nurse who saw me exhausted and told me to get *stretchy arch support shoes*… you saved my shifts! 🥹❤️🩺",
       "clip": 2,
+      "weight": "Bold"
+    },
+    {
+      "style": "serif",
+      "font": "serif",
+      "size": 72,
+      "width": 0.86,
+      "y": 0.76,
+      "text": "To the charge nurse who saw me exhausted and told me to get *stretchy arch support shoes*… you saved my shifts! 🥹❤️🩺",
+      "clip": 3,
       "weight": "Bold"
     }
   ],
@@ -90,5 +108,9 @@
   "copy_source": "stefanbrain",
   "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
   "stefanbrain_concept": "SF05",
-  "stefanbrain_title": "Charge Nurse Advice For 12-Hour Shifts"
+  "stefanbrain_title": "Charge Nurse Advice For 12-Hour Shifts",
+  "recut_note": "Re-cut 2026-11-23 (user: 'you did not show us any of the shoe scenes'): our shoe on screen for half the video, 3 s+ hero, payoff in our shoes; StefanBrain OK'd every shot change in the W47 chat; captions unchanged.",
+  "recut_changes": [
+    "tired trimmed to 3 s; added the same nurse standing in our shoes (3.5 s) before the feet-up payoff"
+  ]
 }

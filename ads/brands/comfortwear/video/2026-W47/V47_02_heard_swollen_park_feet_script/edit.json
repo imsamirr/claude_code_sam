@@ -1,6 +1,6 @@
 {
   "id": "V47_02_heard_swollen_park_feet_script",
-  "version": 3,
+  "version": 4,
   "created": "2026-11-19",
   "end_card": "auto",
   "transition": "fade",
@@ -20,12 +20,14 @@
   "sources": {
     "swollen": "drive:1jRAlap9D6E6NuWe9NeCEaMEe7I_IGnoQ",
     "stretch": "drive:1dpPJdTB-tMXwfr4dwBWg1OIzKMdnkGj4",
-    "mainst": "tiktok:7634338191922728206"
+    "mainst": "tiktok:7634338191922728206",
+    "grass": "drive:12Y1dkcsCFzWJdSb-FTqvj--11AUTxYOL"
   },
   "source_notes": {
     "swollen": "Youtube/Tiktok Content snaptik_7661801701602610463 swollen foot on dashboard (third-party TikTok creator; rights to confirm)",
     "stretch": "2025/Larissa content/Purple shoes/IMG_0933.MOV stretching the knit (owned creator)",
-    "mainst": "TikTok @plussizeparkhoppers Stephanie on the Magic Kingdom hub path (burned captions cropped with zoom; third-party TikTok creator; rights to confirm)"
+    "mainst": "TikTok @plussizeparkhoppers Stephanie on the Magic Kingdom hub path (burned captions cropped with zoom; third-party TikTok creator; rights to confirm)",
+    "grass": "2026/Susan Ceklosky's Folder: Walking on grass B.MOV (POV feet in our blue pair; owned creator)"
   },
   "clips": [
     {
@@ -44,10 +46,16 @@
     {
       "src": "mainst",
       "in": 2.3,
-      "out": 5.3,
+      "out": 4.8,
       "gain": 0,
       "zoom": 1.22,
       "focus_y": 0.15
+    },
+    {
+      "src": "grass",
+      "in": 1.5,
+      "out": 4.5,
+      "gain": 0
     }
   ],
   "captions": [
@@ -75,8 +83,11 @@
       "width": 0.86,
       "y": 0.27,
       "box_accent": "#E0A800",
-      "clip": 2,
-      "text": "All 24,000 steps done and my feet feel supported 🥹🏰"
+      "text": "All 24,000 steps done and my feet feel supported 🥹🏰",
+      "clips": [
+        2,
+        3
+      ]
     }
   ],
   "persona": "plus-size Disney traveler",
@@ -88,5 +99,9 @@
   "copy_source": "stefanbrain",
   "stefanbrain_chat": "chat_2266ebd4229f46f9b407d1493b15e187",
   "stefanbrain_concept": "SF02",
-  "stefanbrain_title": "Swollen Theme Park Feet Solution"
+  "stefanbrain_title": "Swollen Theme Park Feet Solution",
+  "recut_note": "Re-cut 2026-11-23 (user: 'you did not show us any of the shoe scenes'): our shoe on screen for half the video, 3 s+ hero, payoff in our shoes; StefanBrain OK'd every shot change in the W47 chat; captions unchanged.",
+  "recut_changes": [
+    "line 3 spans the Disney hub walk (2.5 s) + payoff POV feet in our shoes on grass"
+  ]
 }
