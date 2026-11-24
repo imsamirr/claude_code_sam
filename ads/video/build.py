@@ -293,6 +293,89 @@ def render_banner(cap, out_png):
     return img.height, width
 
 
+def _shadowed(card, radius=30, alpha=70):
+    """Soft drop shadow under a sticker card (RGBA) so it reads on bright footage."""
+    from PIL import ImageFilter
+    pad = 24
+    out = Image.new("RGBA", (card.width + 2 * pad, card.height + 2 * pad), (0, 0, 0, 0))
+    sh = Image.new("RGBA", out.size, (0, 0, 0, 0))
+    ImageDraw.Draw(sh).rounded_rectangle([pad, pad + 6, pad + card.width, pad + card.height + 6],
+                                         radius=radius, fill=(0, 0, 0, alpha))
+    out.alpha_composite(sh.filter(ImageFilter.GaussianBlur(10)))
+    out.alpha_composite(card, (pad, pad))
+    return out
+
+
+def render_ig_question(cap, out_png):
+    """Instagram Story "Ask me a question" sticker (Archies m29085625967733847): a rounded card with a
+    dark header strip carrying the label and the question in black on white below it.
+    cap: text (the question), label (default "Ask me a question"), header (colour), width (0..1)."""
+    width = int(W * cap.get("width", 0.64))
+    size = int(cap.get("size", 42))
+    ts = Typesetter(size, cap.get("weight", "Bold"), cap.get("font", "inter"))
+    lab = Typesetter(int(size * 0.7), "SemiBold", cap.get("font", "inter"))
+    lines = ts.wrap(cap["text"], width - 2 * int(size * 0.8))
+    a, d = ts.font.getmetrics(); lh = int((a + d) * 1.08)
+    la, ld = lab.font.getmetrics()
+    head_h = la + ld + int(size * 0.7)
+    body_h = lh * len(lines) + int(size * 1.1)
+    card = Image.new("RGBA", (width, head_h + body_h), (0, 0, 0, 0))
+    dr = ImageDraw.Draw(card)
+    r = int(size * 0.75)
+    dr.rounded_rectangle([0, 0, width, head_h + body_h], radius=r, fill="white")
+    dr.rounded_rectangle([0, 0, width, head_h + r], radius=r, fill=cap.get("header", "#262626"))
+    dr.rectangle([0, head_h, width, head_h + r], fill="white")
+    label = cap.get("label", "Ask me a question")
+    lab.draw_line(card, (width - lab.width(label)) / 2, int(size * 0.35), label, "white")
+    y = head_h + int(size * 0.5)
+    for ln in lines:
+        ts.draw_line(card, (width - ts.width(ln)) / 2, y, ln, "black")
+        y += lh
+    card = _shadowed(card, r)
+    full = Image.new("RGBA", (W, card.height), (0, 0, 0, 0))
+    cx = float(cap.get("x", 0.5))
+    full.alpha_composite(card, (max(0, min(W - card.width, int(cx * W - card.width / 2))), 0))
+    full.save(out_png)
+    return full.height, card.width
+
+
+def render_reply_bubble(cap, out_png):
+    """TikTok "Reply to @name's comment" sticker (Archies m2111919989395723, playbook F9): white rounded
+    bubble, a small avatar dot, a grey "Reply to @name's comment" line and the comment in black.
+    cap: text (the comment), name (handle without @), width (0..1, max bubble width)."""
+    size = int(cap.get("size", 40))
+    ts = Typesetter(size, cap.get("weight", "Bold"), cap.get("font", "inter"))
+    small = Typesetter(int(size * 0.62), "SemiBold", cap.get("font", "inter"))
+    maxw = int(W * cap.get("width", 0.66))
+    av = int(size * 1.25); pad = int(size * 0.5)
+    text_w = maxw - av - 3 * pad
+    lines = ts.wrap(cap["text"], text_w)
+    head = f"Reply to @{cap.get('name', 'user')}'s comment"
+    a, d = ts.font.getmetrics(); lh = int((a + d) * 1.06)
+    sa, sd = small.font.getmetrics()
+    inner_w = max([ts.width(l) for l in lines] + [small.width(head)])
+    width = min(maxw, av + 3 * pad + inner_w)
+    height = 2 * pad + sa + sd + 6 + lh * len(lines)
+    card = Image.new("RGBA", (width, height), (0, 0, 0, 0))
+    dr = ImageDraw.Draw(card)
+    r = int(size * 0.55)
+    dr.rounded_rectangle([0, 0, width, height], radius=r, fill="white")
+    cy = pad + (sa + sd) // 2
+    dr.ellipse([pad, cy - av // 2 + 4, pad + av, cy + av // 2 + 4], fill=cap.get("avatar", "#C9B8A8"))
+    x = pad * 2 + av
+    small.draw_line(card, x, pad, head, (120, 120, 120, 255))
+    y = pad + sa + sd + 6
+    for ln in lines:
+        ts.draw_line(card, x, y, ln, "black")
+        y += lh
+    card = _shadowed(card, r, 55)
+    full = Image.new("RGBA", (W, card.height), (0, 0, 0, 0))
+    cx = float(cap.get("x", 0.5))
+    full.alpha_composite(card, (max(0, min(W - card.width, int(cx * W - card.width / 2))), 0))
+    full.save(out_png)
+    return full.height, card.width
+
+
 def render_caption(cap, out_png):
     """Caption styles (see playbook "Caption styles"):
     box    white rounded box per line, black text (TikTok Classic box; EllaOla, Hug Sleep Pod)
@@ -302,6 +385,8 @@ def render_caption(cap, out_png):
            Savannah Bell serif)
     classic white text with a thin black outline + light shadow (Flo Pilates "Nobody told me")
     outline heavy white meme text with a thick black stroke (reaction memes)
+    ig_question  Instagram Story "Ask me a question" sticker (text = question, label, header colour)
+    reply_bubble TikTok "Reply to @name's comment" sticker (text = comment, name = handle)
     banner offer bar with stacked lines (render_banner; Primals-style Black Friday banner)
     Options: font (inter|classic|helvetica|serif|condensed), weight, size, width, align, x (centre 0..1,
     e.g. 0.27 for a narrow column left of the subject, Hug Sleep Pod), lower / upper (force case),
@@ -310,6 +395,10 @@ def render_caption(cap, out_png):
     style = cap.get("style", "box")
     if style == "banner":
         return render_banner(cap, out_png)
+    if style == "ig_question":
+        return render_ig_question(cap, out_png)
+    if style == "reply_bubble":
+        return render_reply_bubble(cap, out_png)
     size = int(cap.get("size", 52))
     no_bg = style in ("shadow", "classic", "outline")
     if no_bg and not cap.get("keep_size"):

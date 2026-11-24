@@ -27,7 +27,7 @@ The approved look (set A) is a **phone video that a real woman would post to her
 
 ---
 
-## 2. Format library (31 formats)
+## 2. Format library (35 formats)
 
 Each entry gives the template, real references (advertiser, Atria id, days running, length), a shot recipe and an example Comfort Wear caption. **The example captions only show each format's shape: every caption that ships is written by StefanBrain (user rule, 2026-11-18 / 11-19), and StefanBrain can pick the concepts too.** Days running are as of 2026-11-13. "Doctor-recommended" and "podiatrist-recommended" are approved since 2026-11-18; all Comfort Wear lines still avoid review counts or stars, and cure or treatment language.
 
@@ -233,6 +233,31 @@ Each entry gives the template, real references (advertiser, Atria id, days runni
   - The intro is high-passed, and the drop lands on a downbeat at 8.8 s, the cut into the "No more…" shot. Keep shots 1-2 at ~4.4 s each so the drop stays on that cut.
   - For a new F31 track, measure it with the same band comparison (reference vs take, intro and beat) before using it.
 - **Comfort Wear lines:** StefanBrain writes them (persona named in the brief, e.g. "Tired Nurse" or "Active Senior"); brief it with this template, the reference lines above, the shot list and the approved claims. No review counts or stars; "10/10 recommend" is the creator's opinion, which is fine.
+
+### F32. "Text you read" at home: one cozy single shot + a short paragraph caption ⭐ user-flagged (2026-11-24)
+- **Added by the user, 2026-11-24** (Archies Footwear `m1445704100530160` and `m1798036941448606`, both launched 2026-11-23; Archies runs ~890 ads and pushes this "at home" family hard). Use it in the next weekly batch and keep it in rotation.
+- **What it is:** one continuous ~9-10 s handheld shot in a calm home, product on her feet in almost every frame, music only. One block of plain white text with a soft shadow sits mid-frame for the whole video and reads like a voiceover.
+  - The text runs callout → the moment it hurts → the mechanism → a tagline.
+  - Archies' examples: "If you're on your feet at home all day and refuse to sacrifice comfort for anything - these slides are for you. / By midday your feet are done but you're still busy at home… / Archies have real arch support… / Comfort that lasts as long as your day does."
+  - A question opener works too: "Is there anything better than getting home and taking your shoes off? / Yes. Slipping into Archies Slides. / Real arch support your feet will thank you for."
+- **The scene is the product moment:** kicking off sneakers at the front door and stepping into the slides, or socks-and-coffee on the couch with the shoes on. For us: home from a 12 (scrubs, keys in the door, sneakers off, slip into Comfort Wear), standing at the kitchen counter cooking, a morning coffee walk to the mailbox.
+- **Angle Archies is scaling now (rising, `m29085625967733847`):** "Hard floors are brutal on your feet. Most people just don't connect the two." The hours at home on tile and hardwood are an untested Comfort Wear angle: nurses after shift, retirees in the kitchen, moms on hard floors.
+- **Build:** one clip of 9-11 s, `"style": "shadow"`, white, at the 72 px no-box floor (user rule, 2026-11-18). That floor makes Archies' 55-word block too tall, so brief StefanBrain for about 30-35 words in 3 short paragraphs (`\n\n` between them), y about 0.40, avoid faces. The shoe stays in frame the whole time (show-the-shoe rule).
+
+### F33. Instagram Story Q&A: "Ask me a question" sticker + her answer
+- **Example:** Archies `m29085625967733847` (rising, 10 s): POV feet in slides on a wooden floor.
+  - Sticker question: "Are those Archies slides you wear at home actually worth it?!"
+  - Answer, black-box lines: "I wear my slides from the moment I roll out of bed! … especially on my hard wooden floors. They are worth every penny!"
+  - Closing pill: "Can't go back to flat shoes now! Arch support always 🙌"
+- **Build:** `"style": "ig_question"` (added 2026-11-24: dark "Ask me a question" header, question in black on white) at the top; the answer in `"style": "dark"` (`"radius": 6`) under it; a small `box` pill last. POV feet in our shoes the whole time (`pov;on_foot` clips).
+
+### F34. Comment reply over the whole color range
+- **Example:** Archies `m2111919989395723` (ran 56 days, best rank #2 of ~890). A 6.6 s shot of every colorway fanned out on a table, with a TikTok reply sticker: "My BEST purchase this year 😍😍". Meta copy: "One pair became the whole rack by the front door."
+- **Build:** `"style": "reply_bubble"` (added 2026-11-24; `name` = a plausible handle, never a real person's) over a product-only shot of several Comfort Wear colorways. We need a "rack/fan of colorways" clip (not in the library yet: ask for it or film it). 5-7 s total.
+
+### F35. Drop / restock announcement
+- **Example:** Archies `m2500175713725454` (rising, 56 d): mirror outfit → the shoe in hand → walking, with a small centered title "Lemon Flip Flops / Back in Stock".
+- **Use only with a true fact** (a new colorway, a real restock confirmed by the user). Never invent scarcity (claims rule).
 
 **Length variants for any format:** a 2 to 6 s single-shot loop (Shop Sunny Tails 6.5 s / 397 d; Mama Bear Oasis `m1381490440616057` 2.6 s / 83 d; Coco & Eve `m2097321387574561` 1 s / 31 d). Volume measured "long text stacked over a 6-second clip" at a median 27x in careers and "more text than the clip lets you read" at 9x in wellness, so dense story captions (F3, F13) can run on very short loops.
 
@@ -461,3 +486,44 @@ Write Skechers as **Skech*rs** (escape it as `Skech\\*rs` in edit.json captions)
 3. Thanksgiving road trip: car-door feet, lot walk, arriving at family's door.
 4. Gift-giver then-and-now / black-box "mom who doesn't want anything" hook.
 5. Cozy gift micro-loop (6–8 s): tree, shoebox, hands lifting the shoes; cozy holiday bed (not Wham!).
+
+
+## 10. Style watchlist: brands whose short-form we study every week (user, 2026-11-24: "continuously research these style of ads to keep innovating")
+
+The user flags brands whose short-form style we should keep learning from. They are tracked in Atria
+(`inspo_advertiser_tracking_set`, workspace manual tracking) and listed in `brand.json → video.style_watchlist`.
+The Monday "short-form style research" scheduled task (and step 3 of every weekly batch) pulls their **new
+and rising video ads from the last 7-14 days**, watches the best 3-5 frame by frame, and logs here:
+- what is new: format, hook, scene and text look;
+- the evidence: Atria id, days running, rank and trend;
+- how to build it with our engine;
+- whether a Comfort Wear format is worth testing.
+
+Also add 1-2 **new look-alike brands** per run (shoes/comfort/foot health with the same short, native,
+product-in-every-frame style) and propose them in the summary. Never mark a format ⭐ yourself; ⭐ is for
+the user's picks. Mark promising ones "candidate" and say so in the summary.
+
+| Brand | Atria advertiser | Why we watch it |
+|---|---|---|
+| Archies Footwear | `m636547869707697` | Ultra-short (3.5-10 s) native at-home/lifestyle shots, product in every frame, text-you-read captions, IG/TikTok UI stickers; ~890 ads, AU/US/NZ/CA/GB |
+| Cuurt (incl. Ed Ju Pickleball creator account) | `m748341365031310` | F31 creator review (127+ days), "what if I told you… included" deal format |
+| Hollow Alpaca Socks | `m111034490269087` | "Sorry to all the ___ who bought…", "who else grabbed… crazy deal" text-block switch |
+
+### Watchlist log
+
+**2026-11-24: Archies (first study)**
+- Their 90-day mix: 58% image / 42% video.
+  - Angles: "comfortable all day", "everyday comfort".
+  - Headline: "100,000+ 5 Star Reviews".
+  - Personas: comfort-seeking flip-flop wearer, effortless style.
+- Video winners are 3.5-10 s and product-first. Top/rising formats:
+  - F34 comment-reply color fan (best rank #2, 56 d);
+  - F35 back-in-stock (rising);
+  - F33 IG Q&A with the hard-floors angle (rising);
+  - F32 text-you-read at home (new, user-flagged).
+- Also in rotation:
+  - creator try-on hauls ("Archies only go on sale once a year…");
+  - "Have you been seeing these around?";
+  - new-colorway drops (Limelight, Teal "by popular demand").
+- Black Friday structure: tiered "buy 2/3/4 items, get $10/$30/$40 off" + free shipping on 2+ pairs.
+- Takeaway for us: their videos never leave the product. That matches the show-the-shoe rule (2026-11-23).

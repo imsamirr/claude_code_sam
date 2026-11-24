@@ -251,6 +251,38 @@
  },
  "colorway_template": "The shoe is the {label} colorway shown in the reference photo.",
  "video": {
+  "style_watchlist": [
+   {
+    "brand": "Archies Footwear",
+    "advertiser_id": "m636547869707697",
+    "refs": [
+     "m1445704100530160",
+     "m1798036941448606"
+    ],
+    "added": "2026-11-24",
+    "why": "ultra-short native at-home shots, product in every frame, text-you-read captions, IG/TikTok UI stickers"
+   },
+   {
+    "brand": "Cuurt (incl. Ed Ju Pickleball with Cuurt)",
+    "advertiser_id": "m748341365031310",
+    "refs": [
+     "m2140991217301029",
+     "m2112986682661639"
+    ],
+    "added": "2026-11-19",
+    "why": "F31 creator review; 'what if I told you… included' deal labels"
+   },
+   {
+    "brand": "Hollow Alpaca Socks",
+    "advertiser_id": "m111034490269087",
+    "refs": [
+     "m1803435660697596",
+     "m1684322083279542"
+    ],
+    "added": "2026-11-16",
+    "why": "'Sorry to all the ___ who bought…'; 'who else grabbed… crazy deal' text switch"
+   }
+  ],
   "asset_folder_id": "12_b2FLRfBKPWOUyCXS3mTa62sJ1qUGFy",
   "asset_folder_name": "New Content",
   "footage_library": "video/footage.csv",
