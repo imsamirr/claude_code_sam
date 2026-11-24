@@ -380,6 +380,18 @@ Copy the **structure**, not those claims. Rosabella is the cleanest model of com
 
 ---
 
+### Case study: the Cuurt November wave (2026-11-24, `ads/brands/comfortwear/research/competitors/cuurt_longform_2026-11-24.md`)
+A same-category court-shoe brand found the format in November. Its March and June 4–6k tests died in 0–6 days. The November 7.5–12.5k witness stories run 18 days, peaking at #70 of 1,858 ads (camera m1662902431849753, wallet m1158885790005284, coach m1660735855716861). Its 17–34k surgeon pieces rank lower (#250–#353). Mechanics to reuse:
+- **Witness-buyer narrator:** a wife, daughter, coach or neighbor watches the sufferer. The offer is framed for the buyer ("one for him and one for you").
+- **Behavior-first mystery:** the opening shows a personality or behavior change (sits in the car 40 minutes, skips coffee, throws a paddle). The pain is revealed at about 40%.
+- **Hook formula:** "I [did an ordinary thing for an unrelated reason]. Instead it showed me [a loved one's hidden behavior]. It took [event], [consequence] and [unexpected messenger] to find out why."
+- **Evidence device that doubles as the results log:** a camera, notebook or booking app. Results are told as observed behavior by week ("car: 30 min → 9 min → walks straight in").
+- **A free 2-minute at-home test** the reader does tonight (the insole or paper-tracing test). The reader proves the mechanism to herself. It's repeated in the body, the close and the P.S., and it also works as a soft CTA.
+- **Three hand-checks** (stand on the insole, hold the shoe sideways, press the sole). Each check maps to one symptom, and the brand is "the only one that passed all three" at about 70–78%.
+- **Kill the cheap copy:** "$59 'wide toe box' Amazon shoe… same pointed shoe, just a little wider", plus the smoke-alarm battery analogy against Advil, orthotics and ice.
+- **Mirror story:** a stranger's husband who never got the fix (a fall, a broken hip) versus ours who did. A third party says the thesis line.
+- **Social-repair payoff** (apology, partnering with the man he wronged), a stacked P.S. that says "check every shoe, *including ours*", and a size-swap guarantee that targets the real fear when buying shoes.
+
 ## 14. Learned from running the Comfort Wear program (Nov 2026)
 
 - **The opening is the ad.** The user's top priority is the hook and the open loops in the first 10 lines. Every concept ships with 3 alternate hooks, and each one tests a different hook type.

@@ -101,3 +101,15 @@ Source: `research/learning/market_study_2026-11-23.md`, with evidence there. Thu
 - **MS14 Chapter-one voice-over video (Mode C):** ElevenLabs reads the first 20–25% of a proven LF body, up to its master loop, over a calm clip. It ends on "the rest is below", and the full story is the primary text. Evidence: New World Publications fiction videos, 5 duplicates in its top 10.
 - **MS15 Insider ranks shoe TYPES she sees fail (video, not static):** a theme-park, airport or hospital worker; categories only, no rival brand names. Evidence: ComfoFeet m1636971491222213, 42+ days; Orthora's tier-list statics died at 0–1 days.
 - **MS16 Back-half relaunch:** a past LF concept that died fast keeps its back half (mechanism, bridge, results, offer, P.S.) and gets a universal trigger plus a belief-callout headline. Evidence: PhotoStick m1521996796617216 → m1127648890268432.
+
+
+## From the Cuurt deep dive (2026-11-24): test ideas for the next batch
+Source: `research/competitors/cuurt_longform_2026-11-24.md`. Use the mechanics, never Cuurt's lines or story details.
+
+1. **The doorbell camera (witness daughter, Christmas gift):** a daughter installs a doorbell camera for porch pirates and sees mom sitting on the porch step for 20 minutes after every shift or church service before going in. The camera becomes the results log. Image: a doorbell-camera frame with a timestamp.
+2. **The 3 p.m. squeeze (at-home test):** a narrator learns "shoes that fit at 7 a.m. and pinch by 3 p.m. don't give when your feet swell", then does the dent test on her insole after a shift. The tests repeat in the P.S. Mechanism: stretch knit plus built-in arch versus foam.
+3. **The mirror story:** a friend from the walking group who never changed her shoes (stopped walking, then a fall and a cane) versus mom, who did. Third-party thesis line, along the lines of "nobody asked about her shoes".
+4. **The grandkids' calendar (evidence device):** the family calendar or group-chat photos show grandma at fewer and fewer games. After the switch, the photos come back (week-by-week behavior results).
+5. **Kill the cheap copy:** a narrator who first bought a $40 "memory foam" shoe ("same foam that packs flat by lunch") before the three checks.
+
+For all of these: brand at about 70–75% as the survivor of three hand-checks, a stacked P.S. ("check every shoe against the test, including ours"), and a social-repair payoff.
