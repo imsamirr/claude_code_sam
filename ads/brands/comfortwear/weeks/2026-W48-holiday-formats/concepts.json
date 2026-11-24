@@ -80,7 +80,8 @@
    "copy_angle": "nurse x Holiday Sale",
    "copy_why": "Rooted in running nurse winner WA_NOT_NUR and hospital VOC: running shoes flatten by hour 6 and pinch swollen feet, while Ortho Stretch pairs arch support with a wide stretch toe box.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_1e7d54b4355b4e469df840d607e952f7"
+   "stefanbrain_chat": "chat_1e7d54b4355b4e469df840d607e952f7",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: top: bold red condensed header \"HOLIDAY SALE\" ; under it three short columns in bold dark text \"Built-In Arch Support\", \"Wide Toe Box\", \"Slip-Resistant Grip\"; center: a nurse's hand in navy scrubs holding up a pair of the knit shoe from the product reference (black with purple accents): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large, in a bright hospital locker room with a pine garland; a round red badge with white \"60% OFF\" overlapping the pair; bottom: one small dark line \"Free shipping & returns · 30-day money-back guarantee\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D02",
@@ -160,7 +161,8 @@
    "copy_angle": "traveler x Holiday Sale",
    "copy_why": "Transplants travel winners TOFV1_JW1 and customer VOC: packing 3 pairs of sneakers that flatten on cobblestones by day 2, solved by all-day arch support and a wide toe box.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_1e7d54b4355b4e469df840d607e952f7"
+   "stefanbrain_chat": "chat_1e7d54b4355b4e469df840d607e952f7",
+   "prompt": "type-only poster, no photos: small red tracked kicker \"HOLIDAY SALE\"; giant bold red condensed \"60% OFF SITEWIDE\" filling the width; bold dark line \"Built For 20,000 Steps\"; a thin gold ribbon divider; small dark line \"Free Shipping & Returns\"; one small line drawing of a sneaker in pine green at the bottom. HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D03",
@@ -226,20 +228,21 @@
     "holiday_sale",
     "drew19"
    ],
-   "headline": "Won't Flatten Out",
+   "headline": "Tired Of Flat Foam?",
    "on_image_text": [
     "Built-In Arch Support",
     "Wide Toe Box",
     "Cushioned Rocker Sole",
     "60% OFF"
    ],
-   "primary_text": "If you dread grocery runs or work shifts because you are constantly scouting for the nearest bench to sit down, you know this feeling. Most cushioned sneakers are made with cheap memory foam. Under real body weight, that soft foam compresses completely flat in a matter of weeks. By 2 PM, the arch is gone, your heels are pounding directly against the hard pavement, and the narrow sides squeeze your swollen feet. Sizing up does not solve it because your heels just slip out of the back. And insoles only eat up the little toe room you had left. ComfortWear Ortho Stretch Cushion Shoes are engineered to hold up: built-in anatomic arch support and a shock-absorbing rocker sole that will not compress flat, taking the pounding off your heels and knees with every step, a roomy wide toe box and flexible stretch-knit upper that give your feet space to spread out comfortably without pinching, elastic no-tie laces for effortless slip-on wear, and sturdy slip-resistant grip. Stop wasting money replacing $40 sneakers every few months when they collapse. Get a shoe built to support you every single day. Normally $120, they are on sale for $59.95 during our Holiday Sale. Holiday Sale savings: 60% OFF SITEWIDE, free shipping & returns, and use code LEAKED10 at checkout for an EXTRA 10% OFF. Put them to work for a full 30 days on your real daily routine. If your heels and arches do not feel completely supported, return them within 30 days for a full refund. Save 60% while the Holiday Sale lasts.",
-   "fb_headline": "Shoes That Won't Flatten: 60% Off",
+   "primary_text": "If you dread grocery runs or work shifts because you are constantly scouting for the nearest bench to sit down, you know this feeling. Most cushioned sneakers are made with cheap memory foam. Under real body weight, that soft foam compresses completely flat in a matter of weeks. By 2 PM, the arch is gone, your heels are pounding directly against the hard pavement, and the narrow sides squeeze your swollen feet. Sizing up does not solve it because your heels just slip out of the back. And insoles only eat up the little toe room you had left. ComfortWear Ortho Stretch Cushion Shoes are engineered to hold up: built-in anatomic arch support and a shock-absorbing rocker sole designed to provide structured relief instead of soft foam that collapses, taking the pounding off your heels and knees with every step, a roomy wide toe box and flexible stretch-knit upper that give your feet space to spread out comfortably without pinching, elastic no-tie laces for effortless slip-on wear, and sturdy slip-resistant grip. Stop wasting money replacing $40 sneakers every few months when they collapse. Get a shoe built to support you every single day. Normally $120, they are on sale for $59.95 during our Holiday Sale. Holiday Sale savings: 60% OFF SITEWIDE, free shipping & returns, and use code LEAKED10 at checkout for an EXTRA 10% OFF. Put them to work for a full 30 days on your real daily routine. If your heels and arches do not feel completely supported, return them within 30 days for a full refund. Save 60% while the Holiday Sale lasts.",
+   "fb_headline": "Holiday Sale: 60% Off Support Shoes",
    "fb_description": "Free Shipping & Returns",
    "copy_angle": "plus_size x Holiday Sale",
-   "copy_why": "Draws on plus-size winners and customer VOC: standard sneakers compress flat under higher weight in weeks, while Ortho Stretch provides rocker cushioning and arch support that never collapse.",
+   "copy_why": "Draws on plus-size winners and customer VOC: standard sneakers compress flat under higher weight in weeks, contrasted with Ortho Stretch structured rocker cushioning and arch support.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_1e7d54b4355b4e469df840d607e952f7"
+   "stefanbrain_chat": "chat_1e7d54b4355b4e469df840d607e952f7",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: left half: huge bold dark two-line headline \"Tired Of Flat Foam?\", then three bullets with red check circles \"Built-In Arch Support\", \"Wide Toe Box\", \"Cushioned Rocker Sole\"; right half: one the knit shoe from the product reference (all black (black upper, black midsole)): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large in side profile on cream with a soft shadow; round red badge with white \"60% OFF\" near the toe; small holly sprig corner; bottom small dark line \"Free shipping & returns · 30-day money-back guarantee\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D04",
@@ -314,7 +317,8 @@
    "copy_angle": "gift_for_her x Holiday Sale",
    "copy_why": "Capitalizes on holiday gift VOC and customer survey data: daughters gifting comfortable footwear to moms 65+ who complain about sore feet and never treat themselves.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_1e7d54b4355b4e469df840d607e952f7"
+   "stefanbrain_chat": "chat_1e7d54b4355b4e469df840d607e952f7",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: a clean grid of six single shoes of the product model in six colors (grey with pink, light grey, purple, black with purple, navy with blue, red burgundy) on pale blush background, three on top and three at the bottom; in the middle a wide band with bold dark \"HOLIDAY SALE\" and under it a big price line where \"$120\" is dark with a red strike line and \"$59.95\" is large bold red (text \"$59.95 (Was $120)\" represented exactly as: \"$120\" crossed out then \"$59.95\"); small gold sparkles. HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D05",
@@ -391,7 +395,8 @@
    "copy_angle": "Nurse 12-hour shift pain relief during Holiday Sale",
    "copy_why": "Built on nurse angle winners (WA_NOT_NUR, Orthora 'by hour 6') targeting 12s, hard tile floors, and end-of-shift heel pain.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_245f9aa36df74d18b5f8e7cc2261d8ca"
+   "stefanbrain_chat": "chat_245f9aa36df74d18b5f8e7cc2261d8ca",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: top: bold dark headline \"Holiday Sale: 60% Off Our 12-Hour Shift Shoe\" in two lines; center: a woman's hand holding three shoes and a fourth standing beside them, the four colors black with purple, black with white, all black, navy with blue accents, all EXACTLY the product reference model; two white pill buttons with dark text \"Shop 60% Off\" and \"Pick Your Color\"; a row of four color dots; red badge \"60% OFF\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D06",
@@ -472,7 +477,8 @@
    "copy_angle": "Traveler cobblestone and 20,000-step walking shoe during Holiday Sale",
    "copy_why": "Draws on travel winner formats (TOFV1_JW1, Kyro 293/369 trip diaries) addressing the fear of spending a bucket-list vacation benched by foot pain.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_245f9aa36df74d18b5f8e7cc2261d8ca"
+   "stefanbrain_chat": "chat_245f9aa36df74d18b5f8e7cc2261d8ca",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: overhead photo: an open kraft gift box with red ribbon and tissue paper holding a pair of the knit shoe from the product reference (light grey): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large; a passport and a folded map beside it on a light wooden table; on the inside of the open lid, black marker handwriting: \"Inside your holiday box:\" then a checklist \"Ortho Stretch Shoes\", \"Built-in arch support\", \"Free shipping & returns\", \"30-day guarantee\" with drawn check marks; round red badge with white \"60% OFF\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D07",
@@ -549,7 +555,8 @@
    "copy_angle": "Gift for Mom who complains about sore feet during family outings",
    "copy_why": "Taps customer survey patterns where daughters buy for mothers 65+ who wear worn-out shoes and never spend money on themselves.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_245f9aa36df74d18b5f8e7cc2261d8ca"
+   "stefanbrain_chat": "chat_245f9aa36df74d18b5f8e7cc2261d8ca",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: photo: a cream gift box with red velvet ribbon and white tissue holding a pair of the knit shoe from the product reference (purple with white accents): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large, on a light table with a little pine and gold ornaments; above it, chalk-marker style handwriting in dark red on a cream card: a crossed-out line \"Another pair of slippers\", then big \"The shoes Mom will actually walk in\"; a hand-drawn oval in red around \"60% OFF\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D08",
@@ -627,7 +634,8 @@
    "copy_angle": "Plus-size cushioning that won't flatten under weight during Holiday Sale",
    "copy_why": "Targets plus-size buyer identification (Kyro 170 'shoes go flat under weight') where standard foam compresses by afternoon.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_245f9aa36df74d18b5f8e7cc2261d8ca"
+   "stefanbrain_chat": "chat_245f9aa36df74d18b5f8e7cc2261d8ca",
+   "prompt": "left: bold dark headline \"Holiday Savings Stack\"; a vertical ladder of four stacked rounded bars that get stronger in red: \"60% OFF Sitewide\" (biggest, red with white text), \"+ Extra 10% With Code\", \"+ Free Shipping & Returns\", \"+ 30-Day Money-Back Guarantee\" (white bars with dark bold text and red plus signs); right: one the knit shoe from the product reference (black with purple accents): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large standing at an angle on cream; small gold sparkles. HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D09",
@@ -708,7 +716,8 @@
    "copy_angle": "active_retiree x Holiday Sale",
    "copy_why": "Customer review #10 ($350 custom inserts), survey data on morning heel pain, and insoles eating toe room in narrow sneakers",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_26cdce59c1a54d26ace9b7e7f44f6f6e"
+   "stefanbrain_chat": "chat_26cdce59c1a54d26ace9b7e7f44f6f6e",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: top: small red pill with white \"HOLIDAY SALE\"; huge bold red \"60% OFF SITEWIDE\"; four lines with red check circles \"Built-in arch support\", \"Cushioned rocker sole\", \"Wide toe box\", \"No-tie laces\"; bottom half: a pair of the knit shoe from the product reference (light grey): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large resting on a cream chunky knit blanket with a holly sprig; bottom line small bold dark \"30-Day Money-Back Guarantee\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D10",
@@ -775,19 +784,20 @@
     "holiday_sale",
     "drew19"
    ],
-   "headline": "Walk 20,000 Steps / Without Sore Heels",
+   "headline": "Walk 20,000 Steps / On Hard Cobblestones",
    "on_image_text": [
     "Built-in arch support",
     "Wide stretch toe box",
     "Holiday Sale: 60% OFF"
    ],
-   "primary_text": "You plan the bucket-list trip for months. You pay thousands for flights and hotels. And by Day 2 of walking through historic streets or theme parks, you are sitting on a park bench waiting for everyone else to finish the tour.\n\nThe sneakers you packed felt fine at home, but they were built for short forward runs, not 20,000 steps on uneven stone and concrete.\n\nBy 2 PM, your feet naturally swell. Narrow toe boxes clamp down on your toes, your arches start aching, and cheap foam bottoms out against the pavement. Sizing up just makes your heels slip, and rigid orthotics leave you bruised.\n\nComfortWear Ortho Stretch was designed for all-day walking:\n\n- Podiatrist-recommended built-in arch support that stabilizes your heel with every stride.\n- A cushioned rocker sole that absorbs pavement shock and rolls your foot forward without fatigue.\n- A wide, anatomical toe box paired with flexible stretch knit that expands as your feet swell in the afternoon.\n- Slip-resistant grip so you can walk confidently across slick cobblestones and wet paths.\n\nRegularly $120, you can get the Ortho Stretch Cushion Shoe in Navy Blue for just $59.95 during our Holiday Sale (60% off sitewide).\n\nUse code LEAKED10 at checkout for an extra 10% off your pair. HSA/FSA eligible.\n\nTake advantage of free shipping & returns and our 30-day wear trial. Test them on long walks at home before you pack your bags. If you are not walking in comfort, return them within 30 days for a full refund.\n\nClaim your pair while the Holiday Sale lasts.",
-   "fb_headline": "Walk 20,000 Steps in Total Comfort",
+   "primary_text": "You plan the bucket-list trip for months. You pay thousands for flights and hotels. And by Day 2 of walking through historic streets or theme parks, you are sitting on a park bench waiting for everyone else to finish the tour.\\n\\nThe sneakers you packed felt fine at home, but they were built for short forward runs, not 20,000 steps on uneven stone and concrete.\\n\\nBy 2 PM, your feet naturally swell. Narrow toe boxes clamp down on your toes, your arches start aching, and cheap foam bottoms out against the pavement. Sizing up just makes your heels slip, and rigid orthotics leave you bruised.\\n\\nComfortWear Ortho Stretch was designed for all-day walking:\\n\\n- Podiatrist-recommended built-in arch support that stabilizes your heel with every stride.\\n- A cushioned rocker sole that absorbs pavement shock and rolls your foot forward with every step.\\n- A wide, anatomical toe box paired with flexible stretch knit that expands as your feet swell in the afternoon.\\n- Slip-resistant grip so you can walk confidently across slick cobblestones and wet paths.\\n\\nRegularly $120, you can get the Ortho Stretch Cushion Shoe in Navy Blue for just $59.95 during our Holiday Sale (60% off sitewide).\\n\\nUse code LEAKED10 at checkout for an extra 10% off your pair. HSA/FSA eligible.\\n\\nTake advantage of free shipping & returns and our 30-day wear trial. Test them on long walks at home before you pack your bags. If you do not love how they support your feet, return them within 30 days for a full refund.\\n\\nClaim your pair while the Holiday Sale lasts.",
+   "fb_headline": "Built for 20,000 Steps: 60% Off",
    "fb_description": "Free Shipping & Returns",
    "copy_angle": "traveler x Holiday Sale",
    "copy_why": "Winning travel diaries (TOFV1_JW1, Kyro 293/369) and post-purchase surveys on 20,000-step vacation days cut short by heel pain",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_26cdce59c1a54d26ace9b7e7f44f6f6e"
+   "stefanbrain_chat": "chat_26cdce59c1a54d26ace9b7e7f44f6f6e",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: full-bleed warm photo: close-up of a woman's feet and ankles wearing the knit shoe from the product reference (navy with bright blue accents (team name: White Blue)): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large walking on a theme-park main street decorated for Christmas (lights, garland, blurred castle in the distance, no logos or characters), shot low and close so the shoes are big; top: bold white two-line headline \"Walk 20,000 Steps On Hard Cobblestones\" on a soft dark gradient only behind text; two small white rounded callout tags pointing at the shoe \"Built-in arch support\", \"Wide stretch toe box\"; bottom: red pill with white \"Holiday Sale: 60% OFF\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D11",
@@ -865,7 +875,8 @@
    "copy_angle": "nurse x Holiday Sale",
    "copy_why": "Winning nurse angle (WA_NOT_NUR, Orthora 'by hour 6') and hospital shift surveys on running shoes flattening out by hour 10",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_26cdce59c1a54d26ace9b7e7f44f6f6e"
+   "stefanbrain_chat": "chat_26cdce59c1a54d26ace9b7e7f44f6f6e",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: photo: a nurse's hand holding one the knit shoe from the product reference (all black (black upper, black midsole)): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large close to camera in a bright hospital hallway with a garland and small red bows on the nurses' station behind, blurred; top: white rounded box with bold dark \"Survive Your 12-Hour Shift\" and under it \"Built for hard hospital floors\"; round red badge with white \"Holiday Sale: 60% OFF\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D12",
@@ -944,7 +955,8 @@
    "copy_angle": "nurse x Holiday Sale",
    "copy_why": "Winning nurse shift progression angle (7 AM vs 7 PM) and post-shift fatigue data from customer survey",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_26cdce59c1a54d26ace9b7e7f44f6f6e"
+   "stefanbrain_chat": "chat_26cdce59c1a54d26ace9b7e7f44f6f6e",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: two light stacked halves divided by a thin line: top half pale grey, a worn grey running shoe with flattened foam, bold label \"Old Running Shoes: Limping by hour 6\"; bottom half cream, a the knit shoe from the product reference (black with purple accents): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large, bold label \"Ortho Stretch: Comfort through hour 12\"; header bold dark \"Running Shoes vs. Ortho Stretch\"; bottom red bar with white \"Holiday Sale: 60% OFF\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D13",
@@ -1019,7 +1031,8 @@
    "copy_angle": "traveler x Holiday Sale",
    "copy_why": "Travel diaries TOFV1_JW1 and Kyro 293/369: cobblestones and Day 2 bench fatigue.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_b24d0a7956a44861af97357d9b9e96ca"
+   "stefanbrain_chat": "chat_b24d0a7956a44861af97357d9b9e96ca",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: full-bleed photo: a woman's feet in the knit shoe from the product reference (red / burgundy): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large standing on old European cobblestones at a Christmas market (wooden stalls, warm string lights, blurred), shot low and close so the shoes are big; a yellow square sticky note stuck on the photo near the shoes with black marker handwriting \"Don't let cobblestones bench you on Day 2!\"; top: red rounded box with white bold \"Holiday Sale: 60% Off Sitewide\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D14",
@@ -1088,16 +1101,17 @@
    "headline": "Holiday Sale",
    "on_image_text": [
     "Holiday Sale",
-    "60% Off: Won't Flatten",
+    "60% Off: Built for Real Support",
     "Decline | Accept"
    ],
-   "primary_text": "If you are carrying extra weight, you already know the dirty secret of most \"comfort\" sneakers: they go completely flat. You buy a pair of cute, squishy walking shoes. For the first two weeks, they feel like clouds. Then by week three, the foam under your heels is compressed down to a hard pancake. By 2 PM, your heels are pounding, your arches ache, and you find yourself looking for any excuse to sit down. The problem is not your feet. The problem is that most sneakers use cheap memory foam built for a 130-pound jogger. When you put real weight on them all day, that foam crushes flat. Your foot loses all arch support, and the tapered toe box squeezes your toes as your feet naturally swell. Sizing up does not fix it because then your heel slips out with every step. And slipping heavy orthotics inside just steals what little toe room you have left. The ComfortWear Ortho Stretch Cushion Shoe was built differently: a high-density cushioned sole with built-in arch support that does not crush down under weight, a rocker sole that absorbs the impact and rolls your foot forward into your next step, a stretch-knit upper with a wide toe box that gently expands as your feet swell throughout the day, and elastic no-tie laces that hold snug without pinching the top of your foot. Stop wasting money replacing $40 sneakers every couple of months just because the foam flattened out. Right now, ComfortWear is having their Holiday Sale: get 60% OFF sitewide, bringing them down to $59.95 (regularly $120). Use promo code LEAKED10 at checkout for an extra 10% off. They come with free shipping & returns, plus a 30-day money-back guarantee. Put them on and wear them through your normal, busy days. If they do not keep your heels and arches completely supported, return them within 30 days for a full refund. Order your pair for $59.95 while the Holiday Sale lasts.",
-   "fb_headline": "Support That Won't Flatten: 60% Off",
+   "primary_text": "If you are carrying extra weight, you already know the dirty secret of most \"comfort\" sneakers: they feel squishy at first, but within weeks that foam packs down into a hard pancake. By 2 PM, your heels are pounding, your arches ache, and you find yourself looking for any excuse to sit down. The problem is not your feet. The problem is that most sneakers use cheap memory foam built for a 130-pound jogger. When you put real weight on them all day, that soft foam compresses. Your foot loses all arch support, and the tapered toe box squeezes your toes as your feet naturally swell. Sizing up does not fix it because then your heel slips out with every step. And slipping heavy orthotics inside just steals what little toe room you have left. The ComfortWear Ortho Stretch Cushion Shoe was built differently: a high-density cushioned sole with built-in arch support designed for real weight, a rocker sole that absorbs the impact and rolls your foot forward into your next step, a stretch-knit upper with a wide toe box that gently expands as your feet swell throughout the day, and elastic no-tie laces that hold snug without pinching the top of your foot. Stop wasting money replacing $40 sneakers every couple of months just because they lost their cushion. Right now, ComfortWear is having their Holiday Sale: get 60% OFF sitewide, bringing them down to $59.95 (regularly $120). Use promo code LEAKED10 at checkout for an extra 10% off. They come with free shipping & returns, plus a 30-day money-back guarantee. Put them on and wear them through your normal, busy days. If they do not keep your heels and arches completely supported, return them within 30 days for a full refund. Order your pair for $59.95 while the Holiday Sale lasts.",
+   "fb_headline": "Built for Real Support: 60% Off",
    "fb_description": "Free Shipping & Full Refund",
    "copy_angle": "plus_size x Holiday Sale",
-   "copy_why": "Customer survey data on flattened memory foam and Kyro 170 plus-size walk winner.",
+   "copy_why": "Customer survey data on compressed foam and Kyro 170 plus-size walk winner.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_b24d0a7956a44861af97357d9b9e96ca"
+   "stefanbrain_chat": "chat_b24d0a7956a44861af97357d9b9e96ca",
+   "prompt": "realistic iPhone incoming-call screen: the upper two thirds is the contact photo, a bright product photo of a pair of the knit shoe from the product reference (black with purple accents): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large on cream; caller name big white \"Holiday Sale\" and below it small white \"60% Off: Built for Real Support\"; bottom: red round Decline button and green round Accept button with small white labels \"Decline\" and \"Accept\"; dark blurred lower background behind buttons only. HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D15",
@@ -1173,7 +1187,8 @@
    "copy_angle": "active_retiree x Holiday Sale",
    "copy_why": "Customer review #9 verbatim quote and #10 $350 custom insert anchor.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_b24d0a7956a44861af97357d9b9e96ca"
+   "stefanbrain_chat": "chat_b24d0a7956a44861af97357d9b9e96ca",
+   "prompt": "a white Facebook comment card (grey initials avatar circle \"J.M.\", no name, \"Like · Reply\") with the comment text \"First time my feet haven't hurt in years after standing all day long!\" in large dark text; under it a bright photo of a pair of the knit shoe from the product reference (black with turquoise accents (team name: Turquoise/Black)): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large on a light wooden floor; bottom: compact red rounded box with huge white bold \"60% OFF SITEWIDE\" and under it one small dark line \"Free shipping & returns · 30-day money-back guarantee\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D16",
@@ -1252,7 +1267,8 @@
    "copy_angle": "nurse x Holiday Sale",
    "copy_why": "WA_NOT_NUR and Orthora 'by hour 6' hard hospital floor fatigue.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_b24d0a7956a44861af97357d9b9e96ca"
+   "stefanbrain_chat": "chat_b24d0a7956a44861af97357d9b9e96ca",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: top: red rounded box with bold white \"Holiday Sale Alert legislation missing text replaced correctly with approved copy slot lines\"; center: an open brown shipping box full of the product shoes in several colors (black with purple, navy with blue, light grey, grey with pink) all EXACTLY the product reference model; below a white box with bold red \"Holiday Sale Alert\"; small dark pill \"Free shipping & returns · 30-day money-back guarantee\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D17",
@@ -1330,7 +1346,8 @@
    "copy_angle": "Active retiree morning heel pain x Holiday Sale 60% off",
    "copy_why": "Models Drew idea #17 joke doodle format, addressing active retirees moving insoles shoe to shoe for morning heel pain.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_0c04190f10024791a6bc2d7cf2cde452"
+   "stefanbrain_chat": "chat_0c04190f10024791a6bc2d7cf2cde452",
+   "prompt": "a sheet of white paper with crude black and red marker doodles: big handwritten \"Our designer is on holiday, so we drew this.\" at top; a stick-figure woman with a sad heel labeled \"Sad heel: stepping on tacks\"; a real printed photo of the knit shoe from the product reference (grey with pink accents): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large taped on with tape strips, arrow label \"Real shoe: built-in arch support\"; bottom handwritten in red \"Holiday Sale: 60% OFF SITEWIDE\"; little doodled holly. HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D18",
@@ -1402,7 +1419,8 @@
    "copy_angle": "Active retiree morning heel pain x Holiday Sale 60% off",
    "copy_why": "Models c4_S02 text-on-skin format, tapping into the visceral tack-under-the-heel customer symptom.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_0c04190f10024791a6bc2d7cf2cde452"
+   "stefanbrain_chat": "chat_0c04190f10024791a6bc2d7cf2cde452",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: photo: the top of a woman's bare foot on a cream rug with handwriting in blue ballpoint pen written on the skin: \"First steps shouldn't feel like tacks\"; next to it her hand holds one the knit shoe from the product reference (purple with white accents): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large; top-right small red pill \"Holiday Sale: 60% OFF\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_D19",
@@ -1474,7 +1492,7 @@
     "Running foam flattens on tile.",
     "Insoles pinch swollen toes.",
     "Ortho Stretch cushions your arch.",
-    "Wear them for 30 shifts.",
+    "Wear them for 30 days.",
     "Holiday Sale: 60% OFF SITEWIDE"
    ],
    "primary_text": "At 7:00 AM, my sneakers felt fine. By 5:00 PM on the unit, my arches were burning. And by the time I clocked out at 7:30 PM, I was limping across the parking lot to my car. If you work 12-hour shifts, you have probably tried every quick fix: sizing up a half size until your heel slips, stiff clogs that have zero give, or stuffing $50 insoles into your shoes. Here is why none of that worked: Running sneakers were built for short forward jogs on pavement. On unyielding hospital tile, their soft foam compresses completely by hour 4. Once that foam goes flat, your heels take every ounce of shock. And when your feet naturally swell during a long shift, an insole just robs your toes of space, turning a narrow shoe into a clamp. You need arch support that stays firm, room that stretches as your feet swell, and a sole that rolls your step forward. That is why nurses across the floor are switching to ComfortWear Ortho Stretch. Built-in anatomical arch support and a cushioned rocker sole absorb constant heel strike without flattening out. A wide, anatomical toe box and breathable stretch-knit upper give your toes room to breathe and never pinch. Elastic no-tie bungee laces stay locked in place all shift, with zero untied laces in patient rooms. Slip-resistant outsoles provide reliable grip on wet hospital floors. Stop blowing $160 on running shoes that quit halfway through your shift. Ortho Stretch is normally $120, but right now it is marked down to $59.95. At 60% off, that is less than a dollar a shift. Take them to your unit and wear them for 30 days. That is 10 or more full 12-hour shifts on your own feet. If you are still limping to your car, return them within 30 days for a full refund. Free shipping and returns are included. Our Holiday Sale is currently live with 60% OFF SITEWIDE. Use code LEAKED10 at checkout for an extra 10% off. Grab your pair while the Holiday Sale lasts.",
@@ -1483,7 +1501,8 @@
    "copy_angle": "Nurse 12-hour shift heel fatigue x Holiday Sale 60% off",
    "copy_why": "Models c4_S03 long-letter format, speaking directly to nurses limping to their cars after 12s on hospital tile.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_0c04190f10024791a6bc2d7cf2cde452"
+   "stefanbrain_chat": "chat_0c04190f10024791a6bc2d7cf2cde452",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: cream letter page: bold red headline \"To the nurse limping after a 12:\"; then five short lines in large dark text \"Running foam flattens on tile.\", \"Insoles pinch swollen toes.\", \"Ortho Stretch cushions your arch.\", \"Wear them for 30 days.\"; bottom left bold red \"Holiday Sale: 60% OFF SITEWIDE\"; bottom right a pair of the knit shoe from the product reference (black with purple accents): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large. HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_X01",
@@ -1566,7 +1585,8 @@
    "copy_angle": "Nurse 12-hour shift foot fatigue x Holiday Sale 60% off",
    "copy_why": "Models c4_E01 Google autocomplete format, intercepting the search queries nurses type on break.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_0c04190f10024791a6bc2d7cf2cde452"
+   "stefanbrain_chat": "chat_0c04190f10024791a6bc2d7cf2cde452",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: white background, no search-engine logo: a search bar (rounded, light grey border, magnifier icon) containing \"why do my feet hurt after standing\" and a dropdown with four suggestions \"...after a 12-hour shift\", \"...in regular running sneakers\", \"...when insoles pinch my toes\", \"...walking to my car\"; below: a pair of the knit shoe from the product reference (black with white accents (team name: BlackWhite)): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large; caption lines bold dark \"Running foam flattens on tile.\" and \"Ortho Stretch supports arches.\" and red bold \"Holiday Sale: 60% OFF SITEWIDE\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_X02",
@@ -1645,7 +1665,8 @@
    "copy_angle": "traveler x Holiday Sale",
    "copy_why": "Travel winners (TOFV1_JW1, Kyro 293/369 trip diaries) where sightseeing trips are ruined by day 2 on cobblestones in flat-running sneakers.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_45fc9987222a45d79f89782b0103b6ed"
+   "stefanbrain_chat": "chat_45fc9987222a45d79f89782b0103b6ed",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: cream background: two-line bold dark headline \"Looks like sneakers. Feels like clouds.\"; center: one the knit shoe from the product reference (navy with bright blue accents (team name: White Blue)): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large side profile; four thin dark leader lines to four small circle detail crops (arch, toe box, heel, knit) with labels \"Arch support\", \"Wide toe box\", \"Cushioned heel\", \"Stretch-knit upper\"; bottom red pill \"Holiday Sale: 60% OFF\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_X03",
@@ -1713,19 +1734,20 @@
    ],
    "headline": "How many pairs went flat this year?",
    "on_image_text": [
-    "Won't flatten",
+    "Stretch-knit upper",
     "Arch support",
     "Wide toe box",
     "Cushioned heel",
     "60% OFF SITEWIDE"
    ],
-   "primary_text": "Most sneakers are not built for women carrying real weight. You buy a cute pair of \"cushioned\" walking shoes, and for the first week they feel okay. Then by week three, the soft foam is crushed flat. By 2 PM, you are hunting for an empty chair at work or at the grocery store because your heels are throbbing and your lower back aches. Sizing up does not fix it. Your heel just slips out of the back. And drugstore insoles just choke your toes in an already narrow shoe. ComfortWear Ortho Stretch was designed differently: a built-in arch support system that holds its shape instead of flattening out under your weight, a wide toe box and stretch-knit upper that give your feet room to breathe when they swell in the afternoon, a cushioned rocker sole that absorbs the pounding on concrete and rolls each step forward, and slip-resistant grip and no-tie elastic laces so you never have to bend down to retie them. Stop wasting money replacing $40 sneakers every two months just to limp across the room. For the Holiday Sale, get 60% OFF sitewide: Ortho Stretch is down to $59.95 (was $120). Use promo code LEAKED10 at checkout to take an extra 10% off. Plus free shipping & returns, backed by our 30-day wear test trial. Wear them on your feet for 30 full days. If they crush flat or let you down, send them back for a full refund. Order while the Holiday Sale lasts.",
+   "primary_text": "Most sneakers are not built for women carrying real weight. You buy a cute pair of \"cushioned\" walking shoes, and for the first week they feel okay. Then by week three, the soft foam is crushed flat. By 2 PM, you are hunting for an empty chair at work or at the grocery store because your heels are throbbing and your lower back aches. Sizing up does not fix it. Your heel just slips out of the back. And drugstore insoles just choke your toes in an already narrow shoe. ComfortWear Ortho Stretch was designed differently: a built-in arch support system that provides firm, stable support under your weight, a wide toe box and stretch-knit upper that give your feet room to breathe when they swell in the afternoon, a cushioned rocker sole that absorbs the pounding on concrete and rolls each step forward, and slip-resistant grip and no-tie elastic laces so you never have to bend down to retie them. Stop wasting money replacing $40 sneakers every two months just to limp across the room. For the Holiday Sale, get 60% OFF sitewide: Ortho Stretch is down to $59.95 (was $120). Use promo code LEAKED10 at checkout to take an extra 10% off. Plus free shipping & returns, backed by our 30-day wear test trial. Wear them on your feet for 30 full days. If they do not keep your feet completely supported, send them back for a full refund. Order while the Holiday Sale lasts.",
    "fb_headline": "Holiday Sale: 60% Off Ortho Stretch",
    "fb_description": "Free Shipping & Returns",
    "copy_angle": "plus_size x Holiday Sale",
    "copy_why": "Customer voice and plus-size winning ads (Kyro 170) addressing the core failure of cheap foam sneakers crushing flat under weight by afternoon.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_45fc9987222a45d79f89782b0103b6ed"
+   "stefanbrain_chat": "chat_45fc9987222a45d79f89782b0103b6ed",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: top: headline \"How many pairs went flat this year?\" in white bold on two dark-red boxed bars; center: one the knit shoe from the product reference (all black (black upper, black midsole)): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large on cream; four rounded light tags with small icons \"Stretch-knit upper\", \"Arch support\", \"Wide toe box\", \"Cushioned heel\" around it; bottom red pill with white \"60% OFF SITEWIDE\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_X04",
@@ -1804,7 +1826,8 @@
    "copy_angle": "traveler x Holiday Sale",
    "copy_why": "Europe walking trip diary pattern (Kyro 369) where bucket-list travelers share packing list must-haves to survive 20k steps on cobblestones.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_45fc9987222a45d79f89782b0103b6ed"
+   "stefanbrain_chat": "chat_45fc9987222a45d79f89782b0103b6ed",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: realistic iPhone Notes app screenshot (status bar 9:41, \"< Notes\", \"Done\"), white page: big bold black title \"Europe walking trip checklist:\"; four lines with red check circles \"ComfortWear Ortho Stretch\", \"Arch support for cobblestones\", \"Wide toe box for swollen feet\", \"60% OFF Holiday Sale\"; bottom right a pasted product photo of the knit shoe from the product reference (light grey): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large. HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_X05",
@@ -1869,17 +1892,20 @@
     "holiday_sale",
     "comp15"
    ],
-   "headline": "Dear ComfortWear, thank you for saving my feet on 12-hour shifts.",
+   "headline": "Shift shoe math for the unit:",
    "on_image_text": [
-    "P.S. Tell the nurses: 60% off Holiday Sale is live!"
+    "ComfortWear Ortho Stretch is 60% off",
+    "$59.95 vs $120: under $1 a shift",
+    "Holiday Sale sitewide"
    ],
-   "primary_text": "If you work 12-hour shifts on hard hospital tile, you know the walk to your car at 7:30 PM. Your shoes felt completely fine when you walked in at 7 AM. Then hour six hits. By hour ten, you are leaning against the nursing station counter just to take the pressure off your arches. By the time you clock out, you are limping across the parking lot, wondering how your feet could hurt this bad when you spent $160 on running shoes. Here is the problem: running shoes were built for a quick forward jog on asphalt. They were never designed to hold your body upright for 12 hours on hard hospital floors. The soft foam crushes flat halfway through your shift. And when your feet swell in the afternoon, that tapered toe box clamps your toes together. Stiff clogs have zero give, and shoving insoles inside your sneakers just steals what little toe room you had left. A charge nurse on my unit told me to try ComfortWear Ortho Stretch, and they changed my whole shift: real built-in arch support that does not crush down by hour six, a wide toe box and flexible stretch-knit upper that give as your feet swell, a cushioned rocker sole that absorbs the pounding on tile and rolls your step forward, and slip-resistant grip for wet hospital floors and no-tie elastic laces. Right now, ComfortWear has their Holiday Sale live: they are 60% OFF sitewide, which brings them to $59.95 (was $120). At that price, it works out to less than a dollar a shift. Use code LEAKED10 at checkout for an extra 10% off. Every order includes free shipping & returns and a 30-day wear test trial. Wear them for 10 or 12 real shifts on your unit. If you are still limping to your car, return them for a full refund. Get yours while the Holiday Sale lasts.",
+   "primary_text": "If you work 12-hour shifts on hard hospital tile, you know the walk to your car at 7:30 PM. Your shoes felt completely fine when you walked in at 7 AM. Then hour six hits. By hour ten, you are leaning against the nursing station counter just to take the pressure off your arches. By the time you clock out, you are limping across the parking lot, wondering how your feet could hurt this bad when you spent $160 on running shoes. Here is the problem: running shoes were built for a quick forward jog on asphalt. They were never designed to hold your body upright for 12 hours on hard hospital floors. The soft foam crushes flat halfway through your shift. And when your feet swell in the afternoon, that tapered toe box clamps your toes together. Stiff clogs have zero give, and shoving insoles inside your sneakers just steals what little toe room you had left. ComfortWear Ortho Stretch was built specifically for long shifts: built-in arch support that holds up on hard tile, a wide toe box and flexible stretch-knit upper that give as your feet swell, a cushioned rocker sole that absorbs the pounding and rolls your step forward, and slip-resistant grip for wet hospital floors with no-tie elastic laces. Right now, ComfortWear has their Holiday Sale live: they are 60% OFF sitewide, which brings them to $59.95 (was $120). At that price, it works out to less than a dollar a shift. Use code LEAKED10 at checkout for an extra 10% off. Every order includes free shipping & returns and a 30-day wear test trial. Wear them for 10 or 12 real shifts on your unit. If they do not keep you comfortable, return them for a full refund. Get yours while the Holiday Sale lasts.",
    "fb_headline": "Holiday Sale: 60% Off for Nurses",
    "fb_description": "Free Shipping & Returns",
    "copy_angle": "nurse x Holiday Sale",
-   "copy_why": "Winning nurse angles (WA_NOT_NUR, Orthora 'by hour 6') targeting 12-hour shifts on hard hospital tile and limping to the car.",
+   "copy_why": "Winning nurse angles (WA_NOT_NUR, Orthora 'by hour 6') targeting 12-hour shifts on hard hospital tile and shift shoe price math.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_45fc9987222a45d79f89782b0103b6ed"
+   "stefanbrain_chat": "chat_45fc9987222a45d79f89782b0103b6ed",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: photo: a hand holding a lined notebook page in a hospital break room (blurred, small garland); black handwriting on the page: \"Shift shoe math for the unit:\" / \"ComfortWear Ortho Stretch is 60% off\" / \"$59.95 vs $120: under $1 a shift\" / \"Holiday Sale sitewide\" / \"\" / \"\" / \"\" / \"\" / \"\" / \"\" / \"\" / \"\"; a hand-drawn red circle around the 60%; a pair of the knit shoe from the product reference (navy with bright blue accents (team name: White Blue)): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large on the bench beside it. HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_X06",
@@ -1960,7 +1986,8 @@
    "copy_angle": "gift_for_her x Holiday Sale",
    "copy_why": "Family group chat gift-planning format (c4_H03) tapping the customer voice habit of buying slippers every year while mom complains her feet are killing her.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_8c706de71f634c62b3ee481dbcfe69e7"
+   "stefanbrain_chat": "chat_8c706de71f634c62b3ee481dbcfe69e7",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: realistic Messenger-style group chat screenshot in LIGHT mode (white background, grey and blue bubbles), chat name \"Mom's Gift 🎁\" with three small round avatars; messages: \"No more slippers.\", \"Her feet hurt constantly.\", \"Found ComfortWear Ortho Stretch.\", \"Arch support + wide toe box?\", \"60% off Holiday Sale!\"; last bubble a photo of a pair of the knit shoe from the product reference (grey with pink accents): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large with caption \"Ortho Stretch\". HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   },
   {
    "id": "HS_X07",
@@ -2036,7 +2063,8 @@
    "copy_angle": "active_retiree x Holiday Sale",
    "copy_why": "Roadside marquee sign pattern (c4_W11) intercepting the active retiree habit of moving insoles from shoe to shoe for morning heel pain.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_8c706de71f634c62b3ee481dbcfe69e7"
+   "stefanbrain_chat": "chat_8c706de71f634c62b3ee481dbcfe69e7",
+   "prompt": "Recreate the reference layout (composition, hierarchy, spacing) for our brand: photo: a roadside marquee letter sign with yellow backlit panel and black block letters reading \"TIRED OF MORNING HEEL PAIN?\" / \"STOP MOVING INSOLES SHOE TO SHOE\" / \"COMFORTWEAR ORTHO STRETCH\" / \"HOLIDAY SALE: 60% OFF SITEWIDE\", blue sky; bottom-left a small rounded inset photo of a pair of the knit shoe from the product reference (black with purple accents): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's sole color, EXACT model at true proportions, sharp, bright and large. HOLIDAY SALE look: warm white/cream background, festive red (#D7141A) for the offer box and key words, tiny deep pine-green and gold accents only (a holly sprig, a thin gold ribbon, a few gold sparkles). No dark backgrounds, not overly colorful. QUALITY BAR: premium direct-response ad, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names anywhere (never Hike, Hollow, Everstride, Stepprs or the reference's brand/product). "
   }
  ]
 }
