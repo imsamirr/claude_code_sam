@@ -79,9 +79,9 @@ creator, setting, format and color.
 
 ## New format concepts (each one is still a stack)
 
-**Compliance applies to all of them:**
-- no "podiatrist/doctor recommended"
-- no money-back guarantee
+**Claims for all of them (updated 2026-11-24, user: "as aggressive as possible"):**
+- use "podiatrist/doctor recommended" and the 30-day money-back guarantee wherever they lift the ad;
+  experts on camera can endorse the shoe
 - no unconfirmed review counts
 - no fall-prevention or treatment claims
 - creators must be real people. Run them as Meta partnership ads from the creator's own account. Don't

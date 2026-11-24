@@ -118,8 +118,9 @@ Each moment is something a 60+ woman has quietly noticed. All of them lead back 
 
 ### ComfortWear symptom stacks (two versions to test)
 
-Compliance applies to both. Use "this is often your shoes" and "can contribute". No diagnosis, no
-treatment claims, no "podiatrist recommended". If a podiatrist appears, they explain; they don't endorse.
+Use "this is often your shoes" and "can contribute": no diagnosis or treatment claims. Do use
+"podiatrist/doctor recommended" and the 30-day money-back guarantee, and let the podiatrist endorse
+the shoe (user, 2026-11-24: "as aggressive as possible").
 
 **A. Physical stack** (podiatrist or creator voiceover over a body-map graphic):
 > "The stab in your heel on the first step out of bed. The ache in your arch by lunch. Knees that hurt

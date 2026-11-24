@@ -174,7 +174,7 @@ angles.
   - "Before you wrap those Hokas for the nurse in your life, watch this."
   - "She gets new Skechers every Christmas. Here's why she needs them every Christmas."
   - "Podiatrists are calling it the soft-shoe problem, and it's under a lot of trees this year."
-    Keep the expert explaining, not endorsing.
+    The podiatrist can recommend ComfortWear outright.
 - **Evidence:**
   - YouTube anti-cushion videos at 835K, 606K and 223K (the last one a month old).
   - The Reddit Skechers-every-Christmas quote.

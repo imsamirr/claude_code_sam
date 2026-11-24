@@ -13,10 +13,16 @@
     "High-end e-commerce photography quality, sharp focus, natural soft shadows, no watermarks, no extra logos."
   ],
   "claims_to_avoid": [
-    "money-back guarantee, free/easy returns or fast shipping (top complaints in reviews and the survey)",
-    "'orthopedic approved', 'podiatrist recommended', 'doctor recommended' or any cure/treatment claim",
-    "specific review counts or star ratings unless confirmed"
+    "'orthopedic approved' or any cure/treatment claim (Meta disapprovals)",
+    "fast shipping or free/easy returns (top complaints in reviews and the survey)",
+    "specific review counts or star ratings unless confirmed",
+    "fabricated testimonials, invented persona pages or fake doctors"
   ],
+  "approved_claims": [
+    "Podiatrist recommended / doctor recommended (ComfortWear is endorsed by doctors); podiatrists and doctors on camera endorsing the shoe",
+    "30-day money-back guarantee (use 30 days everywhere)"
+  ],
+  "claims_note": "User, 2026-11-24: be as aggressive as possible. Lead with podiatrist/doctor recommended and the 30-day money-back guarantee wherever they lift the ad.",
   "colorways": {
     "black_purple": {
       "file": "reference/shoe_black_purple.png",
