@@ -9,7 +9,7 @@ Engine: `ads/video/build.py` (edit.json → finished MP4s + QA sheet), `ads/vide
 pages for a batch of raw clips). Brand facts, claims and personas come from the brand's
 `brand.json`: read it first, same rules as the `static-ads` skill (claims_to_avoid, women-only, etc.).
 
-**Native UI stickers (2026-11-24):** `"style": "ig_question"` (Instagram "Ask me a question" card: `text`, `label`, `header`) and `"style": "reply_bubble"` (TikTok "Reply to @name's comment": `text`, `name`) for playbook F33/F34/F9; use a made-up handle, never a real person's. Formats from the style watchlist brands are in playbook §2 (F31-F35) and §10.
+**Native UI stickers (2026-11-24):** `"style": "ig_question"` (Instagram "Ask me a question" card: `text`, `label`, `header`) and `"style": "reply_bubble"` (TikTok "Reply to @name's comment": `text`, `name`) for playbook F33/F34/F9; use a made-up handle, never a real person's. `"style": "arrow"` (2026-11-24): a red pointer arrow at the shoe (`direction` down|up|left|right, `color`, `length`, `thickness`, `x`, `y`; no `text`; set `"avoid_faces": false` so it stays where you put it, and `"delay"` to drop it in) for playbook F37. Formats from the style watchlist brands are in playbook §2 (F31-F38) and §10.
 
 **Show the shoe (user, 2026-11-23):** the Comfort Wear shoe is clearly visible (large and in focus: in hand, on-foot close-up, or on her feet walking) for at least half of the content time. Every video has a product hero shot of 3 s+, and the payoff (last content shot) shows OUR shoes on her feet. Other people's shoes (old sneakers, competitors, Disney/travel TikToks) only in hook/problem beats. QA counts it on the 1-fps strip: under 50% or a payoff without our shoe = re-cut before delivery.
 

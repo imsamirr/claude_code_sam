@@ -376,6 +376,33 @@ def render_reply_bubble(cap, out_png):
     return full.height, card.width
 
 
+def render_arrow(cap, out_png):
+    """Red pointer arrow sticker (Thepickleballchiropractor with Cuurt m2995570030794162: a red arrow
+    drops in over the shoe on the table while he says "Doctor of Chiropractic"). Points at the product.
+    cap: direction (down|up|left|right, default down), color (default "#E3242B"), length (px, default
+    150), thickness (shaft px, default 30), x (centre 0..1). Place the PNG with the caption's `y` so the
+    tip sits just above (or beside) the shoe."""
+    from PIL import ImageFilter
+    L = int(cap.get("length", 150)); t = int(cap.get("thickness", 30)); hw = int(t * 2.1); hl = int(t * 1.9)
+    color = cap.get("color", "#E3242B")
+    w, h = hw + 16, L + 16
+    img = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    cx = w // 2
+    d.rectangle([cx - t // 2, 8, cx + t // 2, 8 + L - hl + 2], fill=color)
+    d.polygon([(cx - hw // 2, 8 + L - hl), (cx + hw // 2, 8 + L - hl), (cx, 8 + L)], fill=color)
+    rot = {"down": 0, "up": 180, "left": 270, "right": 90}[cap.get("direction", "down")]
+    if rot:
+        img = img.rotate(rot, expand=True)
+    sh = Image.new("RGBA", (img.width + 24, img.height + 24), (0, 0, 0, 0))
+    a = Image.new("RGBA", img.size, (0, 0, 0, 0)); a.putalpha(img.split()[3].point(lambda v: int(v * 0.45)))
+    sh.alpha_composite(a, (14, 16)); sh = sh.filter(ImageFilter.GaussianBlur(5)); sh.alpha_composite(img, (12, 12))
+    full = Image.new("RGBA", (W, sh.height), (0, 0, 0, 0))
+    full.alpha_composite(sh, (max(0, min(W - sh.width, int(float(cap.get("x", 0.5)) * W - sh.width / 2))), 0))
+    full.save(out_png)
+    return full.height, sh.width
+
+
 def render_caption(cap, out_png):
     """Caption styles (see playbook "Caption styles"):
     box    white rounded box per line, black text (TikTok Classic box; EllaOla, Hug Sleep Pod)
@@ -387,6 +414,7 @@ def render_caption(cap, out_png):
     outline heavy white meme text with a thick black stroke (reaction memes)
     ig_question  Instagram Story "Ask me a question" sticker (text = question, label, header colour)
     reply_bubble TikTok "Reply to @name's comment" sticker (text = comment, name = handle)
+    arrow  red pointer arrow at the shoe (render_arrow; direction, color, length, thickness, x; text unused)
     banner offer bar with stacked lines (render_banner; Primals-style Black Friday banner)
     Options: font (inter|classic|helvetica|serif|condensed), weight, size, width, align, x (centre 0..1,
     e.g. 0.27 for a narrow column left of the subject, Hug Sleep Pod), lower / upper (force case),
@@ -399,6 +427,8 @@ def render_caption(cap, out_png):
         return render_ig_question(cap, out_png)
     if style == "reply_bubble":
         return render_reply_bubble(cap, out_png)
+    if style == "arrow":
+        return render_arrow(cap, out_png)
     size = int(cap.get("size", 52))
     no_bg = style in ("shadow", "classic", "outline")
     if no_bg and not cap.get("keep_size"):

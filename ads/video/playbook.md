@@ -27,7 +27,7 @@ The approved look (set A) is a **phone video that a real woman would post to her
 
 ---
 
-## 2. Format library (35 formats)
+## 2. Format library (38 formats)
 
 Each entry gives the template, real references (advertiser, Atria id, days running, length), a shot recipe and an example Comfort Wear caption. **The example captions only show each format's shape: every caption that ships is written by StefanBrain (user rule, 2026-11-18 / 11-19), and StefanBrain can pick the concepts too.** Days running are as of 2026-11-13. "Doctor-recommended" and "podiatrist-recommended" are approved since 2026-11-18; all Comfort Wear lines still avoid review counts or stars, and cure or treatment language.
 
@@ -259,6 +259,39 @@ Each entry gives the template, real references (advertiser, Atria id, days runni
 - **Example:** Archies `m2500175713725454` (rising, 56 d): mirror outfit → the shoe in hand → walking, with a small centered title "Lemon Flip Flops / Back in Stock".
 - **Use only with a true fact** (a new colorway, a real restock confirmed by the user). Never invent scarcity (claims rule).
 
+### F36. "What I slip into for…" routine walk-along: big title, then one short subtitle per beat (candidate, 2026-11-24)
+- **Example:** Archies `m2395709061258306` (launched 2026-11-23, 19.3 s, entered at rank #55 of ~890 on day one). A mum's morning: selfie-walk with the pram and an iced coffee → back from a run, sneakers off at the front door, slips into the flip flops → pram out of the garage → walk to the coffee shop → slip-on close-up → the flip flop held up to camera with a "✅ Arch Support" pill → selfie-walk again → shoe held to camera → a phone screen-recording of the colour grid on their site → shoe by the pool.
+  - Title, first ~4 s: "What I slip into for our morning pram walk" in heavy rounded yellow, 4 lines mid-frame, with a small white subline "comfy enough for 10k+ steps".
+  - Then a running subtitle, 2-5 words at a time, small white sans with a thin shadow at y ≈ 0.62. Theirs follows a voiceover ("Our morning pram walk is non-negotiable, but in this heat, closed shoes are not…"); we run it as a script caption (§8) with no VO.
+- **Why it matters:** it's a routine vlog in which the product is the "swap" moment. The shoe is on screen for about 70% of the frames (show-the-shoe rule), and the persona is named in the title.
+- **Comfort Wear build:** 8-10 clips of ~2 s each, 18-20 s total.
+  - Title: `"style": "shadow", "weight": "Black", "size": 84`, the whole line wrapped in `*…*` (accent yellow), `"clips": [0, 1]`, y 0.30. Subline: a second caption, `"style": "classic", "size": 72`, y 0.42 (our 72 px no-box floor is bigger than their ~40 px subline, so keep it to 3-5 words).
+  - Beats: `"style": "shadow", "weight": "SemiBold", "size": 72`, y 0.62, one per clip.
+  - Feature pill: `"style": "box", "text": "✅ <feature>", "size": 46, "weight": "Bold"`, y 0.22, on the shoe-held-to-camera clip. Keep the wording to an approved feature StefanBrain writes, never a claim.
+  - Footage: Heather selfie walks (`1R9PC8trqWeQrHbmA9edeiZ1lJhgUwZlk`), outside walk (`11B1parR2UxYx-XryWz1hp0iGnnkIwEEl`), steps (`1dYS764WR5Nzy4B87EzP69mi4vtL7iw98`), shoe held to camera (`1UC8gAyKvYUs6f1Q054uBnS4Cnsl1KZo_`). Gaps: a sneakers-off-at-the-door swap and a site colour-grid screen recording (we can make the screen recording ourselves).
+  - Personas and scenes: "What I slip into for my 12-hour shift" (Tired Nurse, scrubs), "…for my morning walk with the grandkids" (Active Senior).
+  - StefanBrain writes the title, subline and every beat.
+
+### F37. Credential title + red arrow at the shoe, expert holds it and explains (candidate, 2026-11-24)
+- **Example:** Thepickleballchiropractor with Cuurt `m2995570030794162` (partner ad, launched 2026-11-12, 27.7 s, rising: rank #139 of ~1,600, up 211 places in 14 d; a sibling `m1701094821667773` is at #124).
+  - A chiropractor sits at a club bar with the shoes on the table, talking to camera.
+  - At 0-2 s a heavy condensed all-caps title types on: "DOCTOR _" → "DOCTOR OF CHIROPRACTIC". At 1-2 s a **red arrow drops in over the shoe**.
+  - Then: 2 s of b-roll on court, him flexing the sole, pressing the toe box, back to camera. No captions after the title.
+  - Meta copy: "As a chiropractor who treats pickleball players, I look for… CUURT nails all three: wide toe box, zero drop, stable base."
+- **Comfort Wear fit:** "podiatrist-recommended" is an approved claim and doctor/podiatrist characters are allowed. **No named real doctor and no invented doctor counts.**
+  - We have no clinician footage, so this needs a creator shoot: scrubs or a clinic coat, the shoe on a desk.
+  - Until then, a no-VO version: the title + arrow, then 3-4 captions (StefanBrain) over the toe-box press and sole flex.
+- **Build:**
+  - Title: `"style": "outline", "font": "condensed", "upper": true, "size": 84`, y 0.20. Fake the type-on with two captions: a partial word with `"end"` at 0.6 s, then the full line from 0.6 s.
+  - Arrow: `"style": "arrow"` (new 2026-11-24): `direction`, `x`, `y`, `length`, `color`, `"avoid_faces": false`, `"delay": 0.5`. Put the tip just above the shoe.
+
+### F38. "Who else grabbed ___ after seeing the price today? 🤯" serif box over product proof (seen; conflicts with our offer rule)
+- **Examples (a family now on 3 brands):**
+  - sheldonww3 with Mason Gear `m1852606562752769`: 7.3 s, rising, rank #85 of ~1,300, up 112 places in 14 d. A tradesman in a helmet glances off camera → the sock pack in hand → socks pulled on over work boots. One caption the whole time: black serif in a white box.
+  - Lizzie's Picks with Peak Footwear `m3526696044158623`: 15 s, rising, up 135 places in 14 d. "Anyone else stocking up on Peak Footwear while they're on major discount today?" in small white text over a city night shot → boots on rocks by a lake → on the couch → sole flex → fur lining.
+  - Hollow `m2320821735381405`: 7.8 s. "who else grabbed Hollow's alpaca compression socks when they saw *the crazy deal* they're doing today? 😮" → "Buy 2 *Get 2 Now* 🤗".
+- **Rule conflict:** §1 keeps the offer out of the caption, so this format is **not** a candidate unless the user lifts that rule for a sale window. It's logged because it is the single most repeated sale hook across the watchlist and look-alikes this week. The **look** is reusable without the deal line: see §7, serif box.
+
 **Length variants for any format:** a 2 to 6 s single-shot loop (Shop Sunny Tails 6.5 s / 397 d; Mama Bear Oasis `m1381490440616057` 2.6 s / 83 d; Coco & Eve `m2097321387574561` 1 s / 31 d). Volume measured "long text stacked over a 6-second clip" at a median 27x in careers and "more text than the clip lets you read" at 9x in wellness, so dense story captions (F3, F13) can run on very short loops.
 
 ### Other references reviewed (for variety)
@@ -446,6 +479,11 @@ it's new; drop it when results say so.
 | W47 (seen, not used) | Thin light geometric sans, no box, faint shadow | Styled By Beck × ARDANT `m29751653587753527` (hands-only gift) | conflicts with the Nov 18 rule (no-box text must be heavy weight); closest allowed: `"style": "shadow", "font": "classic", "weight": "SemiBold", "size": 72` |
 | W47 (Nov 19, user ref) | Yellow text, thin dark outline, no box, one line per shot; ✅ checklist; 👍 sticker on the last shot | Ed Ju Pickleball with Cuurt `m2140991217301029` (127 d) — F31 | wrap each whole line in `*…*` on `"style": "classic", "weight": "Bold", "size": 72` (accent yellow `#FFD84D`); the 👍 is an emoji line (`"size": 120`) on the last clip |
 | W47 (seen, not built yet) | Heavy serif header + small italic serif tagline tucked under | jade.lillies × Lila Footwear `m1462895742612774` (travel-nurse bag) | needs an italic serif font + a `sub` line in render_caption |
+| W48 (Nov 24, watchlist) | Big heavy yellow title (4 short lines) + small white subline under it | Archies `m2395709061258306` ("What I slip into for our morning pram walk / comfy enough for 10k+ steps") — F36 | title: `"style": "shadow", "weight": "Black", "size": 84`, whole line in `*…*`; subline: `"style": "classic", "size": 72` (floor), 3-5 words |
+| W48 | Black serif text in a white box (one block, the whole video) | sheldonww3 × Mason Gear `m1852606562752769` (rising) — F38 | `"style": "box", "font": "serif", "weight": "Bold", "size": 56, "width": 0.74` (test-rendered 2026-11-24) |
+| W48 | "✅ Feature" white pill beside the product held to camera | Archies `m2395709061258306` ("✅ Arch Support") | `"style": "box", "text": "✅ …", "size": 46, "weight": "Bold", "x": 0.4, "y": 0.22` |
+| W48 (built) | Red pointer arrow dropping in over the shoe | Thepickleballchiropractor × Cuurt `m2995570030794162` — F37 | `"style": "arrow"` (new in build.py 2026-11-24): `direction` down/up/left/right, `color` `#E3242B`, `length` 150, `thickness` 30, `x`, `y`; set `"avoid_faces": false` + `"delay"` |
+| W48 (seen, not built yet) | Type-on title ("DOCTOR _" → "DOCTOR OF CHIROPRACTIC") | same Cuurt ad | fake with 2 timed captions (partial, then full); a real per-letter `typewriter` option would need frame-timed PNGs in the render loop |
 
 ## 8. Script captions (user, Nov 14)
 
@@ -508,6 +546,8 @@ the user's picks. Mark promising ones "candidate" and say so in the summary.
 | Archies Footwear | `m636547869707697` | Ultra-short (3.5-10 s) native at-home/lifestyle shots, product in every frame, text-you-read captions, IG/TikTok UI stickers; ~890 ads, AU/US/NZ/CA/GB |
 | Cuurt (incl. Ed Ju Pickleball creator account) | `m748341365031310` | F31 creator review (127+ days), "what if I told you… included" deal format |
 | Hollow Alpaca Socks | `m111034490269087` | "Sorry to all the ___ who bought…", "who else grabbed… crazy deal" text-block switch |
+| Mason Gear (added 2026-11-24) | `m721808621025419` | Work socks for 12-hour shifts on concrete (our nurse/on-feet audience); creator partner ads, 7 s single-caption, ~1,300 ads |
+| Peak Footwear (added 2026-11-24) | `m214832425046409` | Wide-toe-box comfort shoes/boots via creator partners ("Lizzie's Picks", "fltofucita"); product in every frame, sole-flex and lining proof shots, ~770 ads |
 
 ### Watchlist log
 
@@ -527,3 +567,23 @@ the user's picks. Mark promising ones "candidate" and say so in the summary.
   - new-colorway drops (Limelight, Teal "by popular demand").
 - Black Friday structure: tiered "buy 2/3/4 items, get $10/$30/$40 off" + free shipping on 2+ pairs.
 - Takeaway for us: their videos never leave the product. That matches the show-the-shoe rule (2026-11-23).
+
+**2026-11-24 (weekly run 1, Monday routine): all three brands + 2 look-alikes**
+- **Archies** (890 ads; launched ~15 short videos on Nov 23 alone, most of them Black Friday tiered-offer cuts):
+  - **F34 colour fan with comment-reply sticker** is their steadiest winner. `m1790782318833568`: 6.6 s, 28 d, **rank #12**, up 141 places in 7 d, same "My BEST purchase this year 😍😍" sticker. They just launched a top-down slow-pan variant, `m1833940434416018` (6.7 s, entered at #62). → **proposed for ⭐** (user's call). Still blocked on a "rack/fan of colorways" clip: ask for one or film it.
+  - **F33 IG Q&A, hard-floors angle**, `m29085625967733847`: 10 s, 24 d, **rank #39, up 437 places in 14 d**. Verified at full size: dark "Ask me a question" header, black-box answer paragraph, small pill closer. The POV feet-on-wood-floor shot runs the whole time. → **proposed for ⭐**.
+  - New format **F36 "What I slip into for…" routine walk-along**, `m2395709061258306`: 19.3 s, entered at #55. Its sibling copy "the shoes you wear at home matter more" (`m1798036941448606`) keeps pushing the at-home angle.
+  - Music: their at-home cuts use soft acoustic/lo-fi beds; the pram one is a voiceover over light pop.
+- **Cuurt:**
+  - Their scaling ads are **partner ads from a chiropractor creator**: `m2995570030794162` (rising, #139) plus three cuts of the same script, 18-30 s. → F37 credential title + red arrow (arrow sticker built).
+  - Brand BOGO `m1454677996055471` (rising, 21 s): close-up problem questions ("Raw pinky toe after pickleball?" / "Calves tight by the third game?") in small white subtitles. It's studio-polished and VO-led, **not** our native style; the useful part is the pain-question opener over a body-part close-up.
+- **Hollow:**
+  - Launched ~15 Black Friday videos (Nov 17-23). The leader is **creator-led, not text-led**: ByCaleb `m1125262390298023` (rank #28, up 177 places in 14 d), a hunter talking to camera with socks and a bow, with badge/pill stickers ("WIN A FREE BOW", "10 BOWS. 10 DAYS") and a checkout-line sticker.
+  - Their own "who else grabbed… the crazy deal" text cut (`m2320821735381405`, 7.8 s) is still running → F38. The giveaway mechanic doesn't fit us.
+- **Look-alikes added** (tracked in Atria, added to `brand.json → video.style_watchlist`):
+  - **Mason Gear**: work socks, "12-hour shift on concrete" copy, sheldonww3 creator ad rising.
+  - **Peak Footwear**: wide-toe-box comfort footwear run through many small creator pages.
+- **Comfort Wear builds to try next batch (StefanBrain writes every word; persona named in each brief):**
+  1. F36 "What I slip into for my 12-hour shift" (Tired Nurse): Heather walk/steps/toe-box clips, title in heavy yellow, beats in shadow 72, ✅ pill.
+  2. F33 hard-floors Q&A (persona: Active Senior at home, kitchen tile): `pov;on_foot` clips on a hard floor, `ig_question` + `dark` answer.
+  3. F34 colour fan (once the clip exists), with the `reply_bubble` sticker.
