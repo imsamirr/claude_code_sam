@@ -167,3 +167,21 @@ Guardrails kept: no logos or names on images, compare features/offers only, no c
 | Zima "Restore your retainer to new" | "clear again" (no "like new" promise) | W48_36 |
 | Sonic "Up to 40% / 30% off, your retainers deserve this" tape tile | flat 40% + free case + bag | W48_38 |
 Guardrails kept: no logos or names on images, compare features/offers only, no counts or invented scores; we never say their products fail.
+
+## 2026-11-24 (Tuesday W48 read: 154 ads; Zima 98, Sonic 56)
+**Since Nov 20:** 20 new ads (Zima 11, Sonic 9). Sheets: `sheets/core_competitors_2026-11-24_1-2.jpg` (both read); full copy of every new/active ad read from `data/core_competitors_2026-11-24.csv`.
+- **Zima:** still "Only Sale of the Year. Don't miss out" everywhere. New: "Forget Black Friday, it's Plaque Friday 🤢" video, "Cloudy retainers? Dentist here, and yes, I wear them too" (dentist UGC), dental hygienist on the Pod Go's "first-ever Black Friday", "Everyone's fighting over TVs for Black Friday, but I'm here for THIS", Pod + UV Case bundle "most powerful clean for less", and a static "Get the Dental Pod Pro with 90 FREE cleaning tablets" under "Double award-winner. 5* reviews. OHF-Approved." New statics: black pod in a dark outline frame "EXCLUSIVE BLACK FRIDAY SALE" + "Don't Miss Out!" sticker (1d, top 9.9%), "Save over $80" green pod + tablet box (2d). Still: "Restore your retainer to new" (37d), clean-girl starter pack (50d), "$60 value, on us" (27d), "A Retainer That's Clean AND Protected is calling" (7d). Tablets are now a headline gift (90 free).
+- **Sonic:** "🖤 Black Friday: Up to 40% Off" on 3 new statics (dark box tile with the pod held in a palm, 6-15d) and videos; "Ultrasonic Cleaning. Anywhere." Sonic Odyssey cordless launch with UVC (0d); the 585-day "$25 off Sonic Spa v2.0 Bundle" video (bundle includes 12 cleaning tablets) still running. Still no customer language, proof or dirty appliance.
+- **What changed:** Zima turned tablets into the gift ("90 FREE cleaning tablets") and coined "Plaque Friday"; Sonic pushed its cordless Odyssey and kept "up to" 40%. Both still sell tablets with the pod; neither shows debris or a stained denture; still no dentures in statics.
+### Answers written this run (rival field on 8 of 20 = 40%)
+| Their angle | Our answer (approved claims only) | Concept |
+|---|---|---|
+| Zima dentist counts (14,000 / 20,000+) | 90-day 6-of-7 lab test + Dentist-recommended | T48_01 |
+| Sonic "Black Friday: Up to 40% Off" | flat 40% OFF sitewide + free case + bag + 120 days | T48_08 |
+| Zima "90 FREE cleaning tablets" / "paired with boosting tablets" | tap water only, no tablets or refills, 40% off | T48_10 |
+| Zima "SAVE OVER $100 ... boosting tablets" | 42,000 Hz + 5 minutes + tap water specs, 40% off | T48_14 |
+| Zima "NEVER BRUSH YOUR RETAINER AGAIN" / "#1 retainer cleaner" | the 90-day test of 7 pods, 99.9% | T48_17 |
+| Sonic "UP TO 40% OFF" dark box tile (pod in a palm) | same dark tile, flat 40% + gifts, Pod resting, proof | T48_18 |
+| Zima "Cloudy retainer = plaque biofilm" / "Plaque Friday" | the film shown side by side + 99.9% in 5 minutes | T48_19 |
+| Zima "EXCLUSIVE BLACK FRIDAY SALE / Don't miss out" | flat 40% + gifts + filmy vs clear retainer, no invented deadline | T48_20 |
+Guardrails kept: no logos or names on images, compare features/offers only, no counts or invented scores; we never say their products fail.
