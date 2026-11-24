@@ -1,0 +1,1697 @@
+{
+ "week": "2026-W48-holiday-formats",
+ "notes": "User 2026-11-24: drew's 19 Black Friday static formats (X video) + 6 more of the 15 competitor picks (Hike/Hollow/Everstride/Stepprs, Oct-Nov 2026), re-themed as HOLIDAY SALE, 60% OFF SITEWIDE. Copy by StefanBrain.",
+ "concepts": [
+  {
+   "id": "HS_D01",
+   "persona": "nurse",
+   "colorway": "black_purple",
+   "benchmark": "c4_H04",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: big sale headline"
+   ],
+   "angle": "nurse x Holiday Sale",
+   "format": "big sale headline",
+   "based_on": "drew (X) 19 BF static ideas #01; layout from c4_H04",
+   "copy_slots": [
+    "header (2-3 words)",
+    "3 benefit columns (2-4 words each)",
+    "badge"
+   ],
+   "reference_blocks": [
+    "Huge 'HOLIDAY SALE' type header + three short benefit columns + hand holding the pair + round red '60% OFF' badge + thin bottom terms line"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+    "language": [
+     "12s",
+     "the unit",
+     "my locker",
+     "limping to my car",
+     "hour 10",
+     "break room"
+    ],
+    "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+    "dream": "nurse with energy left to cook for her kids after a 12",
+    "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+    "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a nurse friend sharing the deal",
+    "topic": "nurse x Holiday Sale 60% off",
+    "format": "big sale headline (competitor ref c4_H04)",
+    "concept": "big sale headline holiday-sale static for nurse",
+    "visual_hook": "nurse holding pair in hospital locker room, pine garland"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D02",
+   "persona": "traveler",
+   "colorway": "navy_blue",
+   "benchmark": null,
+   "format_ref": false,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "bold",
+   "bets": [
+    "format: type only sale"
+   ],
+   "angle": "traveler x Holiday Sale",
+   "format": "type only sale",
+   "based_on": "drew (X) 19 BF static ideas #02",
+   "copy_slots": [
+    "kicker",
+    "giant offer line",
+    "1 supporting line (travel)",
+    "terms line"
+   ],
+   "reference_blocks": [
+    "Type-only: cream background with festive red/green/gold type, giant '60% OFF' + 'EVERYTHING' style lines, no product photo except a tiny shoe icon in the footer"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 50-70, bucket-list traveler (Europe/Disney), grandmother, years of sore heels after long sightseeing days",
+    "language": [
+     "cobblestones",
+     "20,000 steps",
+     "the walking tour",
+     "day 2",
+     "packing",
+     "the trip"
+    ],
+    "angle_habit": "packing her 'comfortable sneakers' for a walking trip",
+    "dream": "traveler who does the walking tour instead of the bus",
+    "identification": "the trip of a lifetime spent on a bench by day 2",
+    "point_of_contact": "her sneakers / uneven cobblestones / long walking days (travel winners TOFV1_JW1, Kyro 293/369 trip diaries)",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Running sneakers work on flat pavement for a short jog, not 20,000 steps on uneven stone with travel-swollen feet. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: packing 3 pairs, adding insoles, buying cheap 'comfort' sneakers that go flat. Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the trip she paid thousands for and spent on a bench",
+    "risk_reversal": "30 days = test them on long walks at home before the trip",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a travel friend sharing the deal",
+    "topic": "traveler x Holiday Sale 60% off",
+    "format": "type only sale (drew BF static idea, no ref image)",
+    "concept": "type only sale holiday-sale static for traveler",
+    "visual_hook": "pure type"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D03",
+   "persona": "plus_size",
+   "colorway": "all_black",
+   "benchmark": "c4_E02",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: product with a badge"
+   ],
+   "angle": "plus_size x Holiday Sale",
+   "format": "product with a badge",
+   "based_on": "drew (X) 19 BF static ideas #03; layout from c4_E02",
+   "copy_slots": [
+    "headline",
+    "3 bullets",
+    "badge"
+   ],
+   "reference_blocks": [
+    "Bold 2-line headline left + single shoe hero right on light cream + 3 check bullets + round red badge"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 45-65, plus-size (220-280 lb), on her feet at work and on errands, sore heels and arches by afternoon, feels most shoes aren't built for her weight",
+    "language": [
+     "my weight",
+     "by the afternoon",
+     "heels pounding",
+     "shoes go flat",
+     "wide feet"
+    ],
+    "angle_habit": "buying cheap 'comfort' sneakers that flatten under her weight in weeks",
+    "dream": "walking the whole day/trip without hunting for a chair",
+    "identification": "sitting down every chance she gets because her heels throb",
+    "point_of_contact": "her shoes going flat under her weight (plus-size winners: 'I lost 50lbs+ after walking 20,000 steps', Kyro 170)",
+    "function_mechanism": "More weight compresses soft foam faster, so 'cushy' shoes go flat sooner and swollen feet get squeezed. She needs support that doesn't collapse, room that gives as feet swell, and a sole that rolls the step forward.",
+    "conditions": "DIY fixes: sizing up (heel slips), insoles (eat toe room), memory-foam slip-ons (collapse). Never promise 'fits everyone' or 'extra wide'.",
+    "anchoring": "$59.95 vs replacing flattened $40 sneakers every few months",
+    "risk_reversal": "30 days of her real days on her own feet",
+    "who": "a woman who's been there",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "product with a badge (competitor ref c4_E02)",
+    "concept": "product with a badge holiday-sale static for plus_size",
+    "visual_hook": "single shoe side profile on warm cream with soft shadow",
+    "topic": "plus_size x Holiday Sale 60% off"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D04",
+   "persona": "gift_for_her",
+   "colorway": "grey_pink",
+   "benchmark": "c4_E06",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: strikethrough price"
+   ],
+   "angle": "gift_for_her x Holiday Sale",
+   "format": "strikethrough price",
+   "based_on": "drew (X) 19 BF static ideas #04; layout from c4_E06",
+   "copy_slots": [
+    "center line",
+    "price line"
+   ],
+   "reference_blocks": [
+    "Pastel grid of 6 colorways around a centered 'HOLIDAY SALE' line + big red strike price '$120' -> '$59.95'"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 35-60 buying a holiday gift for her mom/grandma (65+) who stands or walks a lot and complains about sore feet",
+    "language": [
+     "mom",
+     "her feet",
+     "she never buys herself anything",
+     "stocking",
+     "under the tree"
+    ],
+    "angle_habit": "giving slippers/socks every year",
+    "dream": "mom walking the mall / the grandkids' game comfortably",
+    "identification": "mom saying 'my feet are killing me' at every family outing",
+    "point_of_contact": "mom's old worn-out sneakers",
+    "function_mechanism": "Slippers and soft sneakers have no support; her feet swell; she needs support + room + roll in one shoe.",
+    "conditions": "Gift is easy to return/exchange: 30-day money-back guarantee, free shipping & returns.",
+    "anchoring": "$59.95 vs another sweater she won't wear",
+    "risk_reversal": "30-day money-back guarantee if they don't suit her",
+    "who": "daughter",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "strikethrough price (competitor ref c4_E06)",
+    "concept": "strikethrough price holiday-sale static for gift_for_her",
+    "visual_hook": "6 colorways grid on pale pink",
+    "topic": "gift_for_her x Holiday Sale 60% off"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D05",
+   "persona": "nurse",
+   "colorway": "black_white",
+   "benchmark": "c4_H12",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: product lineup"
+   ],
+   "angle": "nurse x Holiday Sale",
+   "format": "product lineup",
+   "based_on": "drew (X) 19 BF static ideas #05; layout from c4_H12",
+   "copy_slots": [
+    "headline",
+    "2 button labels"
+   ],
+   "reference_blocks": [
+    "Big offer headline + four nurse colorways in a row held/standing + 'Pick your color' buttons + color dots"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+    "language": [
+     "12s",
+     "the unit",
+     "my locker",
+     "limping to my car",
+     "hour 10",
+     "break room"
+    ],
+    "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+    "dream": "nurse with energy left to cook for her kids after a 12",
+    "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+    "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a nurse friend sharing the deal",
+    "topic": "nurse x Holiday Sale 60% off",
+    "format": "product lineup (competitor ref c4_H12)",
+    "concept": "product lineup holiday-sale static for nurse",
+    "visual_hook": "4 nurse colors: black_purple, black_white, all_black, navy_blue"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D06",
+   "persona": "traveler",
+   "colorway": "light_grey",
+   "benchmark": "c4_E04",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: everything you get"
+   ],
+   "angle": "traveler x Holiday Sale",
+   "format": "everything you get",
+   "based_on": "drew (X) 19 BF static ideas #06; layout from c4_E04",
+   "copy_slots": [
+    "lid title",
+    "4 handwritten items",
+    "badge"
+   ],
+   "reference_blocks": [
+    "Open holiday gift box with the pair inside + handwritten list on the lid of everything you get (shoes + features + free shipping & returns + 30-day guarantee) + red badge"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 50-70, bucket-list traveler (Europe/Disney), grandmother, years of sore heels after long sightseeing days",
+    "language": [
+     "cobblestones",
+     "20,000 steps",
+     "the walking tour",
+     "day 2",
+     "packing",
+     "the trip"
+    ],
+    "angle_habit": "packing her 'comfortable sneakers' for a walking trip",
+    "dream": "traveler who does the walking tour instead of the bus",
+    "identification": "the trip of a lifetime spent on a bench by day 2",
+    "point_of_contact": "her sneakers / uneven cobblestones / long walking days (travel winners TOFV1_JW1, Kyro 293/369 trip diaries)",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Running sneakers work on flat pavement for a short jog, not 20,000 steps on uneven stone with travel-swollen feet. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: packing 3 pairs, adding insoles, buying cheap 'comfort' sneakers that go flat. Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the trip she paid thousands for and spent on a bench",
+    "risk_reversal": "30 days = test them on long walks at home before the trip",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a travel friend sharing the deal",
+    "topic": "traveler x Holiday Sale 60% off",
+    "format": "everything you get (competitor ref c4_E04)",
+    "concept": "everything you get holiday-sale static for traveler",
+    "visual_hook": "kraft gift box with red ribbon, passport next to it"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D07",
+   "persona": "gift_for_her",
+   "colorway": "purple",
+   "benchmark": "c4_H07",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: free gift callout"
+   ],
+   "angle": "gift_for_her x Holiday Sale",
+   "format": "free gift callout",
+   "based_on": "drew (X) 19 BF static ideas #07; layout from c4_H07",
+   "copy_slots": [
+    "crossed-out line",
+    "main handwritten line",
+    "oval"
+   ],
+   "reference_blocks": [
+    "Gift box with the pair inside, chalk-style handwritten lines: callout that this is the gift (for mom) + '60% OFF' oval"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 35-60 buying a holiday gift for her mom/grandma (65+) who stands or walks a lot and complains about sore feet",
+    "language": [
+     "mom",
+     "her feet",
+     "she never buys herself anything",
+     "stocking",
+     "under the tree"
+    ],
+    "angle_habit": "giving slippers/socks every year",
+    "dream": "mom walking the mall / the grandkids' game comfortably",
+    "identification": "mom saying 'my feet are killing me' at every family outing",
+    "point_of_contact": "mom's old worn-out sneakers",
+    "function_mechanism": "Slippers and soft sneakers have no support; her feet swell; she needs support + room + roll in one shoe.",
+    "conditions": "Gift is easy to return/exchange: 30-day money-back guarantee, free shipping & returns.",
+    "anchoring": "$59.95 vs another sweater she won't wear",
+    "risk_reversal": "30-day money-back guarantee if they don't suit her",
+    "who": "daughter",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "free gift callout (competitor ref c4_H07)",
+    "concept": "free gift callout holiday-sale static for gift_for_her",
+    "visual_hook": "dark-free: cream gift box with tissue, red ribbon",
+    "topic": "gift_for_her x Holiday Sale 60% off"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D08",
+   "persona": "plus_size",
+   "colorway": "black_purple",
+   "benchmark": null,
+   "format_ref": false,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "bold",
+   "bets": [
+    "format: tiered offers"
+   ],
+   "angle": "plus_size x Holiday Sale",
+   "format": "tiered offers",
+   "based_on": "drew (X) 19 BF static ideas #08",
+   "copy_slots": [
+    "headline",
+    "4 tier lines"
+   ],
+   "reference_blocks": [
+    "Stacked offer ladder card: step 1 '60% OFF SITEWIDE', step 2 '+ extra 10% with LEAKED10', step 3 '+ free shipping & returns', step 4 '+ 30-day money-back guarantee', shoe hero beside the ladder"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 45-65, plus-size (220-280 lb), on her feet at work and on errands, sore heels and arches by afternoon, feels most shoes aren't built for her weight",
+    "language": [
+     "my weight",
+     "by the afternoon",
+     "heels pounding",
+     "shoes go flat",
+     "wide feet"
+    ],
+    "angle_habit": "buying cheap 'comfort' sneakers that flatten under her weight in weeks",
+    "dream": "walking the whole day/trip without hunting for a chair",
+    "identification": "sitting down every chance she gets because her heels throb",
+    "point_of_contact": "her shoes going flat under her weight (plus-size winners: 'I lost 50lbs+ after walking 20,000 steps', Kyro 170)",
+    "function_mechanism": "More weight compresses soft foam faster, so 'cushy' shoes go flat sooner and swollen feet get squeezed. She needs support that doesn't collapse, room that gives as feet swell, and a sole that rolls the step forward.",
+    "conditions": "DIY fixes: sizing up (heel slips), insoles (eat toe room), memory-foam slip-ons (collapse). Never promise 'fits everyone' or 'extra wide'.",
+    "anchoring": "$59.95 vs replacing flattened $40 sneakers every few months",
+    "risk_reversal": "30 days of her real days on her own feet",
+    "who": "a woman who's been there",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "tiered offers (drew BF static idea, no ref image)",
+    "concept": "tiered offers holiday-sale static for plus_size",
+    "visual_hook": "shoe on cream next to red ladder",
+    "topic": "plus_size x Holiday Sale 60% off"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D09",
+   "persona": "active_retiree",
+   "colorway": "light_grey",
+   "benchmark": "c4_H10",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: benefits checklist"
+   ],
+   "angle": "active_retiree x Holiday Sale",
+   "format": "benefits checklist",
+   "based_on": "drew (X) 19 BF static ideas #09; layout from c4_H10",
+   "copy_slots": [
+    "pill",
+    "4 check lines",
+    "footer"
+   ],
+   "reference_blocks": [
+    "Huge '60% OFF' + small pill + 4-line check list + pair on soft knit blanket + one-line guarantee footer"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 50-70, active retiree/on her feet, heel and arch pain (plantar fasciitis-type morning heel pain), tried insoles and 'comfort' brands",
+    "language": [
+     "first steps in the morning",
+     "stabbing heel",
+     "plantar fasciitis",
+     "insoles",
+     "standing all day"
+    ],
+    "angle_habit": "buying insoles and moving them shoe to shoe",
+    "dream": "daily walks and errands without counting steps",
+    "identification": "the first steps out of bed / after sitting feel like stepping on a tack",
+    "point_of_contact": "flat, tapered sneakers + hard floors",
+    "function_mechanism": "Insoles add arch support but sit in a narrow shoe and eat toe room; she needs support, room and roll in one shoe. Never cure/treatment/instant-relief claims.",
+    "conditions": "DIY: insoles, ice bottle, stretching, $350 custom inserts (real review quote #10).",
+    "anchoring": "$59.95 vs $350 custom inserts (real review)",
+    "risk_reversal": "30 days on her own feet",
+    "who": "a woman with the same heel pain",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "benefits checklist (competitor ref c4_H10)",
+    "concept": "benefits checklist holiday-sale static for active_retiree",
+    "visual_hook": "pair on cream knit blanket, little holly",
+    "topic": "active_retiree x Holiday Sale 60% off"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D10",
+   "persona": "traveler",
+   "colorway": "navy_blue",
+   "benchmark": "c4_H06",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: offer on a photo"
+   ],
+   "angle": "traveler x Holiday Sale",
+   "format": "offer on a photo",
+   "based_on": "drew (X) 19 BF static ideas #10; layout from c4_H06",
+   "copy_slots": [
+    "headline (2 lines)",
+    "2 callouts",
+    "pill"
+   ],
+   "reference_blocks": [
+    "Warm photo (Disney-style castle at Christmas, blurred, woman's feet in the shoes close-up) + headline + two small callouts + red offer pill"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 50-70, bucket-list traveler (Europe/Disney), grandmother, years of sore heels after long sightseeing days",
+    "language": [
+     "cobblestones",
+     "20,000 steps",
+     "the walking tour",
+     "day 2",
+     "packing",
+     "the trip"
+    ],
+    "angle_habit": "packing her 'comfortable sneakers' for a walking trip",
+    "dream": "traveler who does the walking tour instead of the bus",
+    "identification": "the trip of a lifetime spent on a bench by day 2",
+    "point_of_contact": "her sneakers / uneven cobblestones / long walking days (travel winners TOFV1_JW1, Kyro 293/369 trip diaries)",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Running sneakers work on flat pavement for a short jog, not 20,000 steps on uneven stone with travel-swollen feet. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: packing 3 pairs, adding insoles, buying cheap 'comfort' sneakers that go flat. Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the trip she paid thousands for and spent on a bench",
+    "risk_reversal": "30 days = test them on long walks at home before the trip",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a travel friend sharing the deal",
+    "topic": "traveler x Holiday Sale 60% off",
+    "format": "offer on a photo (competitor ref c4_H06)",
+    "concept": "offer on a photo holiday-sale static for traveler",
+    "visual_hook": "close-up feet in navy shoes on theme-park street, festive lights bokeh"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D11",
+   "persona": "nurse",
+   "colorway": "all_black",
+   "benchmark": "c4_E09",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: product in hand"
+   ],
+   "angle": "nurse x Holiday Sale",
+   "format": "product in hand",
+   "based_on": "drew (X) 19 BF static ideas #11; layout from c4_E09",
+   "copy_slots": [
+    "headline box",
+    "sub line",
+    "badge"
+   ],
+   "reference_blocks": [
+    "Hand holding one shoe close in a hospital hallway with holiday garland at the nurses' station + rounded headline box top + red badge"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+    "language": [
+     "12s",
+     "the unit",
+     "my locker",
+     "limping to my car",
+     "hour 10",
+     "break room"
+    ],
+    "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+    "dream": "nurse with energy left to cook for her kids after a 12",
+    "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+    "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a nurse friend sharing the deal",
+    "topic": "nurse x Holiday Sale 60% off",
+    "format": "product in hand (competitor ref c4_E09)",
+    "concept": "product in hand holiday-sale static for nurse",
+    "visual_hook": "hand holding all-black shoe, light hallway"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D12",
+   "persona": "nurse",
+   "colorway": "black_purple",
+   "benchmark": "c4_S01",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: before & after"
+   ],
+   "angle": "nurse x Holiday Sale",
+   "format": "before & after",
+   "based_on": "drew (X) 19 BF static ideas #12; layout from c4_S01",
+   "copy_slots": [
+    "band labels",
+    "band captions",
+    "offer line"
+   ],
+   "reference_blocks": [
+    "Three light horizontal bands (7 AM / 1 PM / 7 PM) or two halves before/after: her old running shoes vs Ortho Stretch over a shift; small offer line at bottom. Light bands only (cream, light red, light grey)."
+   ],
+   "dr_brief": {
+    "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+    "language": [
+     "12s",
+     "the unit",
+     "my locker",
+     "limping to my car",
+     "hour 10",
+     "break room"
+    ],
+    "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+    "dream": "nurse with energy left to cook for her kids after a 12",
+    "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+    "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a nurse friend sharing the deal",
+    "topic": "nurse x Holiday Sale 60% off",
+    "format": "before & after (competitor ref c4_S01)",
+    "concept": "before & after holiday-sale static for nurse",
+    "visual_hook": "shoe in each band"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D13",
+   "persona": "traveler",
+   "colorway": "red_burgundy",
+   "benchmark": "c4_W05",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: sticky note"
+   ],
+   "angle": "traveler x Holiday Sale",
+   "format": "sticky note",
+   "based_on": "drew (X) 19 BF static ideas #13; layout from c4_W05",
+   "copy_slots": [
+    "sticky note line"
+   ],
+   "reference_blocks": [
+    "Pair worn on cobblestones in a European Christmas market, yellow sticky note stuck on the shoe/frame with a handwritten line"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 50-70, bucket-list traveler (Europe/Disney), grandmother, years of sore heels after long sightseeing days",
+    "language": [
+     "cobblestones",
+     "20,000 steps",
+     "the walking tour",
+     "day 2",
+     "packing",
+     "the trip"
+    ],
+    "angle_habit": "packing her 'comfortable sneakers' for a walking trip",
+    "dream": "traveler who does the walking tour instead of the bus",
+    "identification": "the trip of a lifetime spent on a bench by day 2",
+    "point_of_contact": "her sneakers / uneven cobblestones / long walking days (travel winners TOFV1_JW1, Kyro 293/369 trip diaries)",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Running sneakers work on flat pavement for a short jog, not 20,000 steps on uneven stone with travel-swollen feet. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: packing 3 pairs, adding insoles, buying cheap 'comfort' sneakers that go flat. Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the trip she paid thousands for and spent on a bench",
+    "risk_reversal": "30 days = test them on long walks at home before the trip",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a travel friend sharing the deal",
+    "topic": "traveler x Holiday Sale 60% off",
+    "format": "sticky note (competitor ref c4_W05)",
+    "concept": "sticky note holiday-sale static for traveler",
+    "visual_hook": "close feet on cobblestones, Christmas market stalls blurred"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D14",
+   "persona": "plus_size",
+   "colorway": "black_purple",
+   "benchmark": null,
+   "format_ref": false,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "bold",
+   "bets": [
+    "format: incoming call"
+   ],
+   "angle": "plus_size x Holiday Sale",
+   "format": "incoming call",
+   "based_on": "drew (X) 19 BF static ideas #14",
+   "copy_slots": [
+    "caller name",
+    "subtitle",
+    "button labels"
+   ],
+   "reference_blocks": [
+    "iPhone incoming-call screen: caller name is the sale (e.g. 'Holiday Sale'), subtitle line, the shoe photo as the contact wallpaper filling the upper screen, decline/accept buttons with labels"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 45-65, plus-size (220-280 lb), on her feet at work and on errands, sore heels and arches by afternoon, feels most shoes aren't built for her weight",
+    "language": [
+     "my weight",
+     "by the afternoon",
+     "heels pounding",
+     "shoes go flat",
+     "wide feet"
+    ],
+    "angle_habit": "buying cheap 'comfort' sneakers that flatten under her weight in weeks",
+    "dream": "walking the whole day/trip without hunting for a chair",
+    "identification": "sitting down every chance she gets because her heels throb",
+    "point_of_contact": "her shoes going flat under her weight (plus-size winners: 'I lost 50lbs+ after walking 20,000 steps', Kyro 170)",
+    "function_mechanism": "More weight compresses soft foam faster, so 'cushy' shoes go flat sooner and swollen feet get squeezed. She needs support that doesn't collapse, room that gives as feet swell, and a sole that rolls the step forward.",
+    "conditions": "DIY fixes: sizing up (heel slips), insoles (eat toe room), memory-foam slip-ons (collapse). Never promise 'fits everyone' or 'extra wide'.",
+    "anchoring": "$59.95 vs replacing flattened $40 sneakers every few months",
+    "risk_reversal": "30 days of her real days on her own feet",
+    "who": "a woman who's been there",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "incoming call (drew BF static idea, no ref image)",
+    "concept": "incoming call holiday-sale static for plus_size",
+    "visual_hook": "phone screenshot",
+    "topic": "plus_size x Holiday Sale 60% off"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D15",
+   "persona": "active_retiree",
+   "colorway": "black_mint",
+   "benchmark": null,
+   "format_ref": false,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "bold",
+   "bets": [
+    "format: comment screenshot"
+   ],
+   "angle": "active_retiree x Holiday Sale",
+   "format": "comment screenshot",
+   "based_on": "drew (X) 19 BF static ideas #15",
+   "copy_slots": [
+    "comment text (verbatim real quote #9: 'First time my feet haven't hurt in years after standing all day long!')",
+    "offer box"
+   ],
+   "reference_blocks": [
+    "Facebook comment screenshot with a real review quote (Trustpilot verbatim, no name: use a generic initials avatar) above the shoe photo + compact red offer box"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 50-70, active retiree/on her feet, heel and arch pain (plantar fasciitis-type morning heel pain), tried insoles and 'comfort' brands",
+    "language": [
+     "first steps in the morning",
+     "stabbing heel",
+     "plantar fasciitis",
+     "insoles",
+     "standing all day"
+    ],
+    "angle_habit": "buying insoles and moving them shoe to shoe",
+    "dream": "daily walks and errands without counting steps",
+    "identification": "the first steps out of bed / after sitting feel like stepping on a tack",
+    "point_of_contact": "flat, tapered sneakers + hard floors",
+    "function_mechanism": "Insoles add arch support but sit in a narrow shoe and eat toe room; she needs support, room and roll in one shoe. Never cure/treatment/instant-relief claims.",
+    "conditions": "DIY: insoles, ice bottle, stretching, $350 custom inserts (real review quote #10).",
+    "anchoring": "$59.95 vs $350 custom inserts (real review)",
+    "risk_reversal": "30 days on her own feet",
+    "who": "a woman with the same heel pain",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "comment screenshot (drew BF static idea, no ref image)",
+    "concept": "comment screenshot holiday-sale static for active_retiree",
+    "visual_hook": "comment card over light photo of shoe",
+    "topic": "active_retiree x Holiday Sale 60% off"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D16",
+   "persona": "nurse",
+   "colorway": "navy_blue",
+   "benchmark": "c4_S06",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: ends tonight card"
+   ],
+   "angle": "nurse x Holiday Sale",
+   "format": "ends tonight card",
+   "based_on": "drew (X) 19 BF static ideas #16; layout from c4_S06",
+   "copy_slots": [
+    "urgent box",
+    "price box",
+    "pill"
+   ],
+   "reference_blocks": [
+    "Red rounded 'urgent' box + open shipping box full of shoes (several colors) + price box + small pill. No real end date: urgency is 'while the Holiday Sale lasts'"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+    "language": [
+     "12s",
+     "the unit",
+     "my locker",
+     "limping to my car",
+     "hour 10",
+     "break room"
+    ],
+    "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+    "dream": "nurse with energy left to cook for her kids after a 12",
+    "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+    "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a nurse friend sharing the deal",
+    "topic": "nurse x Holiday Sale 60% off",
+    "format": "ends tonight card (competitor ref c4_S06)",
+    "concept": "ends tonight card holiday-sale static for nurse",
+    "visual_hook": "open box of shoes"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D17",
+   "persona": "active_retiree",
+   "colorway": "grey_pink",
+   "benchmark": null,
+   "format_ref": false,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "bold",
+   "bets": [
+    "format: joke doodle"
+   ],
+   "angle": "active_retiree x Holiday Sale",
+   "format": "joke doodle",
+   "based_on": "drew (X) 19 BF static ideas #17",
+   "copy_slots": [
+    "joke line",
+    "doodle labels",
+    "offer line"
+   ],
+   "reference_blocks": [
+    "Hand-drawn doodle ad on white paper: crude marker doodles (a stick figure, a shoe, a sad heel turning happy) with a joke line, like 'our designer is on holiday so we drew this', plus a real photo of the shoe taped on"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 50-70, active retiree/on her feet, heel and arch pain (plantar fasciitis-type morning heel pain), tried insoles and 'comfort' brands",
+    "language": [
+     "first steps in the morning",
+     "stabbing heel",
+     "plantar fasciitis",
+     "insoles",
+     "standing all day"
+    ],
+    "angle_habit": "buying insoles and moving them shoe to shoe",
+    "dream": "daily walks and errands without counting steps",
+    "identification": "the first steps out of bed / after sitting feel like stepping on a tack",
+    "point_of_contact": "flat, tapered sneakers + hard floors",
+    "function_mechanism": "Insoles add arch support but sit in a narrow shoe and eat toe room; she needs support, room and roll in one shoe. Never cure/treatment/instant-relief claims.",
+    "conditions": "DIY: insoles, ice bottle, stretching, $350 custom inserts (real review quote #10).",
+    "anchoring": "$59.95 vs $350 custom inserts (real review)",
+    "risk_reversal": "30 days on her own feet",
+    "who": "a woman with the same heel pain",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "joke doodle (drew BF static idea, no ref image)",
+    "concept": "joke doodle holiday-sale static for active_retiree",
+    "visual_hook": "paper + taped photo",
+    "topic": "active_retiree x Holiday Sale 60% off"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D18",
+   "persona": "active_retiree",
+   "colorway": "purple",
+   "benchmark": "c4_S02",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: text on skin"
+   ],
+   "angle": "active_retiree x Holiday Sale",
+   "format": "text on skin",
+   "based_on": "drew (X) 19 BF static ideas #18; layout from c4_S02",
+   "copy_slots": [
+    "words on skin (max 6 words)"
+   ],
+   "reference_blocks": [
+    "Words written in pen on the top of a bare foot next to the shoe held in hand (no cure/instant claims)"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 50-70, active retiree/on her feet, heel and arch pain (plantar fasciitis-type morning heel pain), tried insoles and 'comfort' brands",
+    "language": [
+     "first steps in the morning",
+     "stabbing heel",
+     "plantar fasciitis",
+     "insoles",
+     "standing all day"
+    ],
+    "angle_habit": "buying insoles and moving them shoe to shoe",
+    "dream": "daily walks and errands without counting steps",
+    "identification": "the first steps out of bed / after sitting feel like stepping on a tack",
+    "point_of_contact": "flat, tapered sneakers + hard floors",
+    "function_mechanism": "Insoles add arch support but sit in a narrow shoe and eat toe room; she needs support, room and roll in one shoe. Never cure/treatment/instant-relief claims.",
+    "conditions": "DIY: insoles, ice bottle, stretching, $350 custom inserts (real review quote #10).",
+    "anchoring": "$59.95 vs $350 custom inserts (real review)",
+    "risk_reversal": "30 days on her own feet",
+    "who": "a woman with the same heel pain",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "text on skin (competitor ref c4_S02)",
+    "concept": "text on skin holiday-sale static for active_retiree",
+    "visual_hook": "bare foot + shoe held",
+    "topic": "active_retiree x Holiday Sale 60% off"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_D19",
+   "persona": "nurse",
+   "colorway": "black_purple",
+   "benchmark": "c4_S03",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: long letter"
+   ],
+   "angle": "nurse x Holiday Sale",
+   "format": "long letter",
+   "based_on": "drew (X) 19 BF static ideas #19; layout from c4_S03",
+   "copy_slots": [
+    "headline",
+    "4 paragraphs",
+    "CTA"
+   ],
+   "reference_blocks": [
+    "Long letter: bold red headline + 4 short paragraphs + shoe cluster bottom right + red CTA line, cream background"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+    "language": [
+     "12s",
+     "the unit",
+     "my locker",
+     "limping to my car",
+     "hour 10",
+     "break room"
+    ],
+    "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+    "dream": "nurse with energy left to cook for her kids after a 12",
+    "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+    "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a nurse friend sharing the deal",
+    "topic": "nurse x Holiday Sale 60% off",
+    "format": "long letter (competitor ref c4_S03)",
+    "concept": "long letter holiday-sale static for nurse",
+    "visual_hook": "letter"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "drew19"
+   ]
+  },
+  {
+   "id": "HS_X01",
+   "persona": "nurse",
+   "colorway": "black_white",
+   "benchmark": "c4_E01",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: google autocomplete"
+   ],
+   "angle": "nurse x Holiday Sale",
+   "format": "google autocomplete",
+   "based_on": "Competitor ref (15 picks) 01; layout from c4_E01",
+   "copy_slots": [
+    "search text",
+    "4 autocomplete lines",
+    "3-line caption"
+   ],
+   "reference_blocks": [
+    "Google search bar with autocomplete 'why do my feet...' questions + shoe row below + 3-line answer caption"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+    "language": [
+     "12s",
+     "the unit",
+     "my locker",
+     "limping to my car",
+     "hour 10",
+     "break room"
+    ],
+    "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+    "dream": "nurse with energy left to cook for her kids after a 12",
+    "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+    "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a nurse friend sharing the deal",
+    "topic": "nurse x Holiday Sale 60% off",
+    "format": "google autocomplete (competitor ref c4_E01)",
+    "concept": "google autocomplete holiday-sale static for nurse",
+    "visual_hook": "Google UI + shoes"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "comp15"
+   ]
+  },
+  {
+   "id": "HS_X02",
+   "persona": "traveler",
+   "colorway": "navy_blue",
+   "benchmark": "c4_H08",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: cutaway callouts"
+   ],
+   "angle": "traveler x Holiday Sale",
+   "format": "cutaway callouts",
+   "based_on": "Competitor ref (15 picks) 02; layout from c4_H08",
+   "copy_slots": [
+    "headline",
+    "4 callout labels"
+   ],
+   "reference_blocks": [
+    "2-line headline 'looks like X. feels like Y.' + shoe with 4 leader lines to circular detail crops"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 50-70, bucket-list traveler (Europe/Disney), grandmother, years of sore heels after long sightseeing days",
+    "language": [
+     "cobblestones",
+     "20,000 steps",
+     "the walking tour",
+     "day 2",
+     "packing",
+     "the trip"
+    ],
+    "angle_habit": "packing her 'comfortable sneakers' for a walking trip",
+    "dream": "traveler who does the walking tour instead of the bus",
+    "identification": "the trip of a lifetime spent on a bench by day 2",
+    "point_of_contact": "her sneakers / uneven cobblestones / long walking days (travel winners TOFV1_JW1, Kyro 293/369 trip diaries)",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Running sneakers work on flat pavement for a short jog, not 20,000 steps on uneven stone with travel-swollen feet. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: packing 3 pairs, adding insoles, buying cheap 'comfort' sneakers that go flat. Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the trip she paid thousands for and spent on a bench",
+    "risk_reversal": "30 days = test them on long walks at home before the trip",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a travel friend sharing the deal",
+    "topic": "traveler x Holiday Sale 60% off",
+    "format": "cutaway callouts (competitor ref c4_H08)",
+    "concept": "cutaway callouts holiday-sale static for traveler",
+    "visual_hook": "shoe + details"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "comp15"
+   ]
+  },
+  {
+   "id": "HS_X03",
+   "persona": "plus_size",
+   "colorway": "all_black",
+   "benchmark": "c4_H09",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: how many pairs let you down"
+   ],
+   "angle": "plus_size x Holiday Sale",
+   "format": "how many pairs let you down",
+   "based_on": "Competitor ref (15 picks) 03; layout from c4_H09",
+   "copy_slots": [
+    "headline",
+    "4 tags",
+    "pill"
+   ],
+   "reference_blocks": [
+    "Boxed question headline + shoe center + 4 rounded feature tags with icons + bottom offer pill"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 45-65, plus-size (220-280 lb), on her feet at work and on errands, sore heels and arches by afternoon, feels most shoes aren't built for her weight",
+    "language": [
+     "my weight",
+     "by the afternoon",
+     "heels pounding",
+     "shoes go flat",
+     "wide feet"
+    ],
+    "angle_habit": "buying cheap 'comfort' sneakers that flatten under her weight in weeks",
+    "dream": "walking the whole day/trip without hunting for a chair",
+    "identification": "sitting down every chance she gets because her heels throb",
+    "point_of_contact": "her shoes going flat under her weight (plus-size winners: 'I lost 50lbs+ after walking 20,000 steps', Kyro 170)",
+    "function_mechanism": "More weight compresses soft foam faster, so 'cushy' shoes go flat sooner and swollen feet get squeezed. She needs support that doesn't collapse, room that gives as feet swell, and a sole that rolls the step forward.",
+    "conditions": "DIY fixes: sizing up (heel slips), insoles (eat toe room), memory-foam slip-ons (collapse). Never promise 'fits everyone' or 'extra wide'.",
+    "anchoring": "$59.95 vs replacing flattened $40 sneakers every few months",
+    "risk_reversal": "30 days of her real days on her own feet",
+    "who": "a woman who's been there",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "how many pairs let you down (competitor ref c4_H09)",
+    "concept": "how many pairs let you down holiday-sale static for plus_size",
+    "visual_hook": "shoe on cream",
+    "topic": "plus_size x Holiday Sale 60% off"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "comp15"
+   ]
+  },
+  {
+   "id": "HS_X04",
+   "persona": "traveler",
+   "colorway": "light_grey",
+   "benchmark": "c4_S07",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: iphone notes"
+   ],
+   "angle": "traveler x Holiday Sale",
+   "format": "iphone notes",
+   "based_on": "Competitor ref (15 picks) 04; layout from c4_S07",
+   "copy_slots": [
+    "note title",
+    "4 lines"
+   ],
+   "reference_blocks": [
+    "iPhone Notes screenshot: title (e.g. Europe packing list) + 4 red check lines + shoe image"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 50-70, bucket-list traveler (Europe/Disney), grandmother, years of sore heels after long sightseeing days",
+    "language": [
+     "cobblestones",
+     "20,000 steps",
+     "the walking tour",
+     "day 2",
+     "packing",
+     "the trip"
+    ],
+    "angle_habit": "packing her 'comfortable sneakers' for a walking trip",
+    "dream": "traveler who does the walking tour instead of the bus",
+    "identification": "the trip of a lifetime spent on a bench by day 2",
+    "point_of_contact": "her sneakers / uneven cobblestones / long walking days (travel winners TOFV1_JW1, Kyro 293/369 trip diaries)",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Running sneakers work on flat pavement for a short jog, not 20,000 steps on uneven stone with travel-swollen feet. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: packing 3 pairs, adding insoles, buying cheap 'comfort' sneakers that go flat. Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the trip she paid thousands for and spent on a bench",
+    "risk_reversal": "30 days = test them on long walks at home before the trip",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a travel friend sharing the deal",
+    "topic": "traveler x Holiday Sale 60% off",
+    "format": "iphone notes (competitor ref c4_S07)",
+    "concept": "iphone notes holiday-sale static for traveler",
+    "visual_hook": "Notes app"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "comp15"
+   ]
+  },
+  {
+   "id": "HS_X05",
+   "persona": "nurse",
+   "colorway": "navy_blue",
+   "benchmark": "c4_S08",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: handwritten lined note"
+   ],
+   "angle": "nurse x Holiday Sale",
+   "format": "handwritten lined note",
+   "based_on": "Competitor ref (15 picks) 05; layout from c4_S08",
+   "copy_slots": [
+    "note lines (max 25 words)"
+   ],
+   "reference_blocks": [
+    "Hand holding lined notebook paper with a handwritten note to ComfortWear (deal in her words)"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+    "language": [
+     "12s",
+     "the unit",
+     "my locker",
+     "limping to my car",
+     "hour 10",
+     "break room"
+    ],
+    "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+    "dream": "nurse with energy left to cook for her kids after a 12",
+    "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+    "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a nurse friend sharing the deal",
+    "topic": "nurse x Holiday Sale 60% off",
+    "format": "handwritten lined note (competitor ref c4_S08)",
+    "concept": "handwritten lined note holiday-sale static for nurse",
+    "visual_hook": "hand + paper, break room"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "comp15"
+   ]
+  },
+  {
+   "id": "HS_X06",
+   "persona": "gift_for_her",
+   "colorway": "grey_pink",
+   "benchmark": "c4_H03",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: messenger group chat"
+   ],
+   "angle": "gift_for_her x Holiday Sale",
+   "format": "messenger group chat",
+   "based_on": "Competitor ref (15 picks) 06; layout from c4_H03",
+   "copy_slots": [
+    "chat name",
+    "5-6 short messages",
+    "photo caption"
+   ],
+   "reference_blocks": [
+    "Messenger-style family group chat (siblings planning mom's Christmas gift) ending with a photo bubble of the shoes. LIGHT mode chat (not dark)."
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 35-60 buying a holiday gift for her mom/grandma (65+) who stands or walks a lot and complains about sore feet",
+    "language": [
+     "mom",
+     "her feet",
+     "she never buys herself anything",
+     "stocking",
+     "under the tree"
+    ],
+    "angle_habit": "giving slippers/socks every year",
+    "dream": "mom walking the mall / the grandkids' game comfortably",
+    "identification": "mom saying 'my feet are killing me' at every family outing",
+    "point_of_contact": "mom's old worn-out sneakers",
+    "function_mechanism": "Slippers and soft sneakers have no support; her feet swell; she needs support + room + roll in one shoe.",
+    "conditions": "Gift is easy to return/exchange: 30-day money-back guarantee, free shipping & returns.",
+    "anchoring": "$59.95 vs another sweater she won't wear",
+    "risk_reversal": "30-day money-back guarantee if they don't suit her",
+    "who": "daughter",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "messenger group chat (competitor ref c4_H03)",
+    "concept": "messenger group chat holiday-sale static for gift_for_her",
+    "visual_hook": "phone screenshot",
+    "topic": "gift_for_her x Holiday Sale 60% off"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "comp15"
+   ]
+  },
+  {
+   "id": "HS_X07",
+   "persona": "active_retiree",
+   "colorway": "black_purple",
+   "benchmark": "c4_W11",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + free shipping & returns + 30-day money-back guarantee; code LEAKED10 = extra 10% off (primary text only). Price $59.95 (was $120). No end date confirmed: never state a deadline/hours left; urgency only as 'while the Holiday Sale lasts'.",
+   "risk": "moderate",
+   "bets": [
+    "format: marquee sign"
+   ],
+   "angle": "active_retiree x Holiday Sale",
+   "format": "marquee sign",
+   "based_on": "Competitor ref (15 picks) 07; layout from c4_W11",
+   "copy_slots": [
+    "sign text (max 25 words)"
+   ],
+   "reference_blocks": [
+    "Roadside marquee letter sign with the whole ad in black letters (holiday sale line), shoe pair photo inset small corner"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 50-70, active retiree/on her feet, heel and arch pain (plantar fasciitis-type morning heel pain), tried insoles and 'comfort' brands",
+    "language": [
+     "first steps in the morning",
+     "stabbing heel",
+     "plantar fasciitis",
+     "insoles",
+     "standing all day"
+    ],
+    "angle_habit": "buying insoles and moving them shoe to shoe",
+    "dream": "daily walks and errands without counting steps",
+    "identification": "the first steps out of bed / after sitting feel like stepping on a tack",
+    "point_of_contact": "flat, tapered sneakers + hard floors",
+    "function_mechanism": "Insoles add arch support but sit in a narrow shoe and eat toe room; she needs support, room and roll in one shoe. Never cure/treatment/instant-relief claims.",
+    "conditions": "DIY: insoles, ice bottle, stretching, $350 custom inserts (real review quote #10).",
+    "anchoring": "$59.95 vs $350 custom inserts (real review)",
+    "risk_reversal": "30 days on her own feet",
+    "who": "a woman with the same heel pain",
+    "gain_now": "60% OFF SITEWIDE (Holiday Sale), free shipping & returns, LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "marquee sign (competitor ref c4_W11)",
+    "concept": "marquee sign holiday-sale static for active_retiree",
+    "visual_hook": "marquee sign",
+    "topic": "active_retiree x Holiday Sale 60% off"
+   },
+   "copy_notes": "HOLIDAY SALE theme (not Black Friday). Only offer: 60% OFF SITEWIDE. Short on-image text (max ~25 words total, big type for 60+). No invented reviews/names/features; brand ComfortWear, product Ortho Stretch.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "holiday_sale",
+    "comp15"
+   ]
+  }
+ ]
+}

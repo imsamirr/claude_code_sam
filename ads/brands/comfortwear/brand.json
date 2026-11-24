@@ -356,7 +356,12 @@
     },
     "cartoon_rule": "User rule 2026-10-28: no cartoon/animation quota. Use cartoon_3d, comic_strip, flat_illustration, claymation, retro_cartoon or anime_soft ONLY when this run's inspiration research (wellness criteria: image, active, launched <=45 days, 10+ days running, health & wellness) surfaces an illustrated/animated static worth borrowing; it then counts as a new format in the ledger.",
     "split_2026_11_13": "User 2026-11-13: EVERY batch (Tue 20, Fri 40) is split 50/50: 50% ITERATIONS of our current winners (last-7-day top spenders $5,000+ via top7_spenders.csv, and ads launched in the last 7 days with $200+ spend and ROAS 1.8+ via new7_winners.csv; plus 30-day current/rising and seasonal) moved into NEW static formats found in this run's Atria research of other brands; 50% COMPLETELY NEW angles AND formats (net new). Tag group 'iteration' / 'net_new'; iterations name the source ad (name, spend, ROAS) in based_on. Video winners are transcribed in full (research/data/video_transcripts.md) before iterating, so the static carries the ad's whole message, not just its hook.",
-    "background_rule_2026_11_18": "User 2026-11-18 ('get more creative with the background, a lot of these look the same'): every concept sets 'background' (family from research/background_playbook.md + one-line description) and 'background_source' (the Atria ad it comes from). Per batch: plain studio fields (white/grey/pastel, family 12) on at most 15% of concepts (Tue 3, Fri 6), no family over 20%, at least 3 seasonal backgrounds (fall/holiday) in Nov-Dec. The 'light background' rule applies to the area around the shoe, not the whole ad: real places, textured props, saturated color fields (with light shoes), grayscale-plus-color and seasonal scenes are all allowed. Never use the old prefix 'white or very light backgrounds'. Research: run Atria MCP search_library_ads (proven 60+ days, rising, seasonal themes) and search_ad_templates every run and add new background families to the playbook."
+    "background_rule_2026_11_18": "User 2026-11-18 ('get more creative with the background, a lot of these look the same'): every concept sets 'background' (family from research/background_playbook.md + one-line description) and 'background_source' (the Atria ad it comes from). Per batch: plain studio fields (white/grey/pastel, family 12) on at most 15% of concepts (Tue 3, Fri 6), no family over 20%, at least 3 seasonal backgrounds (fall/holiday) in Nov-Dec. The 'light background' rule applies to the area around the shoe, not the whole ad: real places, textured props, saturated color fields (with light shoes), grayscale-plus-color and seasonal scenes are all allowed. Never use the old prefix 'white or very light backgrounds'. Research: run Atria MCP search_library_ads (proven 60+ days, rising, seasonal themes) and search_ad_templates every run and add new background families to the playbook.",
+    "holiday_sale_2026": {
+      "rule": "User 2026-11-24: statics re-themed as HOLIDAY SALE with the same offer 60% OFF SITEWIDE (no gift bundle, no Black Friday wording).",
+      "offer": "\"60% OFF SITEWIDE\" + 'Free shipping & returns · 30-day money-back guarantee'; LEAKED10 extra 10% in primary text. Price $59.95 (was $120). No end date confirmed: no deadlines or hours-left.",
+      "theme": "HOLIDAY SALE theme: warm white/cream backgrounds, festive red (#D7141A) for the offer box, pills and key words, small deep pine-green and gold accents (a sprig of holly or pine, a thin gold ribbon, a few gold sparkles or snowflakes). Black only for body text. No dark backgrounds; restrained, not overly colorful. Compact banner: one red box '60% OFF SITEWIDE' + one small line 'Free shipping & returns · 30-day money-back guarantee'. 'HOLIDAY SALE' as the kicker/headline tag."
+    }
   },
   "colorway_template": "The shoe is the {label} colorway shown in the reference photo.",
   "colorway_priority": {
@@ -1653,6 +1658,90 @@
     "i7_blog": {
       "file": "reference/benchmarks/i7_deals_blog.jpg",
       "use_for": "USER-SENT FORMAT ref 2026-11-23 (HappyFlops native Black Friday): Deals article page: logo bar, DEALS / Black Friday / LIVE chips, big serif headline, byline, product photo"
+    },
+    "c4_E01": {
+      "file": "reference/benchmarks/c4_E01.jpg",
+      "use_for": "COMPETITOR FORMAT ref (Everstride, Meta library, launched Oct-Nov 2026): Google search bar with autocomplete 'why do my ... ' questions, product row below, 3-line answer caption. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_E02": {
+      "file": "reference/benchmarks/c4_E02.jpg",
+      "use_for": "COMPETITOR FORMAT ref (Everstride, Meta library, launched Oct-Nov 2026): big 'Black Friday Sale' type left + single product hero + 3 check bullets + round price badge. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_E04": {
+      "file": "reference/benchmarks/c4_E04.jpg",
+      "use_for": "COMPETITOR FORMAT ref (Everstride, Meta library, launched Oct-Nov 2026): open cardboard box full of product, handwritten offer on the box lid, price badge, thin bottom proof bar. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_E06": {
+      "file": "reference/benchmarks/c4_E06.jpg",
+      "use_for": "COMPETITOR FORMAT ref (Everstride, Meta library, launched Oct-Nov 2026): pastel grid of 6 colorways around a centered 'BLACK FRIDAY SALE' line + big red strike price. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_E09": {
+      "file": "reference/benchmarks/c4_E09.jpg",
+      "use_for": "COMPETITOR FORMAT ref (Everstride, Meta library, launched Oct-Nov 2026): hand holding the product close in a real place, rounded headline box top, price badge. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_H03": {
+      "file": "reference/benchmarks/c4_H03.jpg",
+      "use_for": "COMPETITOR FORMAT ref (HIKE Footwear, Meta library, launched Oct-Nov 2026): Messenger-style group chat screenshot where friends discuss the product, photo bubble at the end. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_H04": {
+      "file": "reference/benchmarks/c4_H04.jpg",
+      "use_for": "COMPETITOR FORMAT ref (HIKE Footwear, Meta library, launched Oct-Nov 2026): 'BIGGEST SALE BLACK FRIDAY' header + three benefit columns + hand holding the pair + round % badge + thin bottom terms bar. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_H06": {
+      "file": "reference/benchmarks/c4_H06.jpg",
+      "use_for": "COMPETITOR FORMAT ref (HIKE Footwear, Meta library, launched Oct-Nov 2026): warm photo scene + 'Worried about mom...? Get her these.' headline + two small callouts + free shipping pill. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_H07": {
+      "file": "reference/benchmarks/c4_H07.jpg",
+      "use_for": "COMPETITOR FORMAT ref (HIKE Footwear, Meta library, launched Oct-Nov 2026): black gift box with pairs inside, chalk-style handwritten crossed-out line + 'BUY 1, GET 1 FREE' + '(15 hours left)' oval. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_H08": {
+      "file": "reference/benchmarks/c4_H08.jpg",
+      "use_for": "COMPETITOR FORMAT ref (HIKE Footwear, Meta library, launched Oct-Nov 2026): 'Looks like a boot. Feels like slippers.' two-line headline + product with 4 thin leader lines to circular detail crops. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_H09": {
+      "file": "reference/benchmarks/c4_H09.jpg",
+      "use_for": "COMPETITOR FORMAT ref (HIKE Footwear, Meta library, launched Oct-Nov 2026): 'How many pairs of comfort shoes have let you down?' boxed headline + product center + 4 rounded feature tags with icons + bottom offer pill. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_H10": {
+      "file": "reference/benchmarks/c4_H10.jpg",
+      "use_for": "COMPETITOR FORMAT ref (HIKE Footwear, Meta library, launched Oct-Nov 2026): huge '40% OFF' + small pill + 4-line check list + pair on soft surface + one-line refund footer. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_H12": {
+      "file": "reference/benchmarks/c4_H12.jpg",
+      "use_for": "COMPETITOR FORMAT ref (HIKE Footwear, Meta library, launched Oct-Nov 2026): 'BUY 1, GET 1 FREE' + three shoes in a row in hand + 'Pick Any Two / Mix & Match' buttons + color dots. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_S01": {
+      "file": "reference/benchmarks/c4_S01.jpg",
+      "use_for": "COMPETITOR FORMAT ref (Stepprs, Meta library, launched Oct-Nov 2026): three horizontal bands HOUR ONE / HOUR SIX / HOUR TWELVE, each with product + 2-line caption, offer line at bottom. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_S02": {
+      "file": "reference/benchmarks/c4_S02.jpg",
+      "use_for": "COMPETITOR FORMAT ref (Stepprs, Meta library, launched Oct-Nov 2026): handwritten words on bare skin (foot) next to product held in hand. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_S03": {
+      "file": "reference/benchmarks/c4_S03.jpg",
+      "use_for": "COMPETITOR FORMAT ref (Stepprs, Meta library, launched Oct-Nov 2026): long letter: bold colored headline + 4 short paragraphs of black text + product cluster bottom right + colored CTA. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_S06": {
+      "file": "reference/benchmarks/c4_S06.jpg",
+      "use_for": "COMPETITOR FORMAT ref (Stepprs, Meta library, launched Oct-Nov 2026): 'URGENT!! 75% OFF' rounded box + open shipping box of product + price box + 'SALE ENDS MIDNIGHT' pill. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_S07": {
+      "file": "reference/benchmarks/c4_S07.jpg",
+      "use_for": "COMPETITOR FORMAT ref (Stepprs, Meta library, launched Oct-Nov 2026): iPhone Notes app screenshot: big bold title + 4 orange-check lines + product image. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_S08": {
+      "file": "reference/benchmarks/c4_S08.jpg",
+      "use_for": "COMPETITOR FORMAT ref (Stepprs, Meta library, launched Oct-Nov 2026): hand holding lined notebook paper with handwritten note to the brand (deal math). Recreate layout only; never their brand, claims or product."
+    },
+    "c4_W05": {
+      "file": "reference/benchmarks/c4_W05.jpg",
+      "use_for": "COMPETITOR FORMAT ref (Hollow Socks, Meta library, launched Oct-Nov 2026): product photo outdoors + yellow sticky note stuck on it with handwritten line. Recreate layout only; never their brand, claims or product."
+    },
+    "c4_W11": {
+      "file": "reference/benchmarks/c4_W11.jpg",
+      "use_for": "COMPETITOR FORMAT ref (Hollow Socks, Meta library, launched Oct-Nov 2026): roadside marquee letter sign with the whole ad written in black letters. Recreate layout only; never their brand, claims or product."
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
