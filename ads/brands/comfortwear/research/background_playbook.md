@@ -57,3 +57,13 @@ Also refreshed with new sources: family 3 (My Derma Dream maple-leaf border 29d;
 family 4 (Plant Therapy string lights on orange 22d; TULA snow drift 9d rising; Rumpl gift handoff 7d; MacKenzie-Childs
 plaid gift box UGC 9d), family 1 (Judy Callihan suburban street 73d; Earthing sunlit lawn 19d), family 11 (vintage oil
 painting, Tiffany Mccomb 62d; pop-art comic, Mane Strong 16d).
+
+## 2026-11-24 Atria MCP backgrounds (W48-tue)
+Source: Atria MCP `search_library_ads` (rising 45d health/apparel/beauty; holiday/seasonal/post-it/UGC since Nov 1; proven 60d+), 60 candidates, sheets `research/sheets/atria_mcp_w48tue_*.jpg`; refs saved as `reference/benchmarks/rv424_*.jpg`. New uses inside existing families (no new family numbers):
+- 9 Elements: wet park path with puddle ripples at dusk (Caldera + Lab water ripple, 20d rising) -> T48_01.
+- 4 Seasonal holiday: twinkle-lit holiday market with friends in fair-isle sweaters (Lilly Pulitzer 8d); Christmas tree with the shoe hung as an ornament (Din Tai Fung 6d rising); pine + holly on a warehouse table under an ornate label (Sorviq rank 26); candy-stripe circle with pine sprigs (PupBox 10d).
+- 10 Real interior: parked-car selfie after a shift (Enhanced Labs 11d rising); holiday-party kitchen candid (Flawless After 40 27d rising); mudroom bench (FEM+ rank 10).
+- 1 Real place: windshield view of a snowy holiday highway from the passenger seat (Vsock rank 18); European rooftops under blue sky behind an iOS dialog (Holistic Goddess rank 42); blue sky with clouds (CloudSole rank 19).
+- 7 Color field: light aqua gradient behind giant type (OrthoFlexx rank 2); coral-peach gradient with white doodles (Wholesome Story 38d rising); blue-grey behind a white test card (The Glow 10d rising).
+- 14 Woven texture: chunky cable-knit blanket close-up (Braxley 12d rising). 5 Textured prop: diner counter (Nerve Brand rank 27), oak entryway bench (Lifepro rank 8), hotel hallway (Cellumove rank 20).
+- 12 Plain studio: T48_06 (warm light grey), T48_18 (white) = 2 of 20 (10%).

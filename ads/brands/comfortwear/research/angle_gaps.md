@@ -155,3 +155,37 @@ Gap concepts this batch: **T47_19** (over 60 + wet fall sidewalks, slip-resistan
 | **Brand humor: "We're sorry" side effects (no offer)** | 1 by keyword; 5 new Stepprs statics on-image (1d) | 22 | Stepprs ("We're Sorry. Your daily step count has become your entire personality"), OrthoFit | 9 apologies, all discount reason-why | **GAP (format: comfort side-effects, no discount reason needed). Ref `rv420g_stepprs_were_sorry_side_effects.jpg`** |
 
 Gap picks for the 2026-11-20 Friday batch (tag `angle_gap`): (1) **podiatrist-/doctor-recommended as the headline** with a reasons grid (approved claims only: podiatrist-recommended, HSA/FSA eligible, 30-day money-back guarantee, free shipping & returns, 500,000+; no "approved", no named doctor, no counts); (2) **walking again** for the daily-walker persona who cuts walks short (comfort / arch support wording, no "pain-free"); (3) **"We're sorry" comfort side-effects** humor card (e.g. step count, longer walks; no offer reason needed). None needs_confirmation. Not repeating T47_19 (over-60 wet sidewalks) or T47_20 (back in stock).
+
+## 2026-11-24: 2,271 ads from 17 brands (Hike 95, Stepprs 136, Footstr 148, Orthofeet 138, Kuru 119, Vionic 144, OrthoFit 159, Snibbs 109 (new in the pull: slip-resistant work shoes), Clove 77, WearStand 149, Bright 16, Musabela 137, Armadilo 158, Konjoun 200, Stryde 188, Foamr 132, Viasox 166; 885 new since 11-20). Keyword tags on title+body; weight = days running x (1.5 if active). "Ours" = all weeks/*/concepts.json headlines+angles (962 concepts). Snibbs entering the pull inflates nurse, guarantee and fall/slip counts vs 11-20.
+
+| Angle | Ads | Weight | Pushing it (ads) | New since 11-20 | Ours |
+|---|---|---|---|---|---|
+| Nurse / 12h shifts | 370 | 31,046 | Snibbs 85, Stryde 82, Stepprs 61, Musabela 47 | 159 | 319 |
+| Plantar fasciitis / heel | 211 | 27,530 | Kuru 106, Stepprs 46, Foamr 38, Footstr 12 | 28 | 87 |
+| Knee / hip / back | 428 | 21,319 | Stryde 184, Konjoun 98, WearStand 56, Footstr 47 | 217 | 35 |
+| Guarantee headline | 720 | 37,057 | Konjoun 153, Snibbs 109, Stepprs 91, Stryde 86 | 350 | 30 |
+| Morning first steps | 81 | 20,236 | Stepprs 46, Konjoun 17, OrthoFit 12, Hike Footwear 3 | 24 | 19 |
+| Fall / balance | 463 | 21,320 | Snibbs 109, Stryde 88, Konjoun 63, Armadilo 54 | 231 | 25 |
+| BOGO / buy N | 391 | 18,437 | Stryde 183, Konjoun 57, Viasox 46, Musabela 45 | 213 | 19 |
+| Bunions / toe box | 358 | 9,006 | Musabela 135, OrthoFit 135, Hike Footwear 39, Armadilo 34 | 80 | 29 |
+| Doctor / podiatrist | 241 | 7,261 | Musabela 85, WearStand 56, Footstr 35, Konjoun 24 | 82 | 5 |
+| Scarcity / sold out | 57 | 7,521 | Konjoun 45, Hike Footwear 5, Bright Footwear 3, WearStand 3 | 44 | 4 |
+| Grounding | 8 | 18 | Konjoun 6, Hike Footwear 2 | 8 | 0 |
+| Age call-out 60+ | 65 | 2,244 | Armadilo 31, OrthoFit 24, Hike Footwear 9, Kuru 1 | 14 | 27 |
+| Hands-free | 38 | 1,066 | Hike Footwear 11, OrthoFit 10, Snibbs 7, Armadilo 6 | 13 | 5 |
+| Swelling | 103 | 1,769 | Viasox 97, Hike Footwear 3, Armadilo 2, OrthoFit 1 | 100 | 28 |
+| HSA/FSA | 75 | 3,338 | WearStand 64, Kuru 11 | 37 | 18 |
+| Holiday gifting | 23 | 604 | Footstr 16, Konjoun 4, Armadilo 1, Bright Footwear 1 | 6 | 17 |
+| Winter / cold / wet | 85 | 522 | Footstr 52, Bright Footwear 9, Orthofeet 9, Hike Footwear 5 | 52 | 7 |
+| Heavier / plus-size | 4 | 105 | Hike Footwear 2, Musabela 2 | 1 | 107 |
+| Walking again | 0 | 0 |  | 0 | 1 |
+| Adult child worried about parent | 0 | 0 |  | 0 | 1 |
+| Reason-why / apology | 3 | 76 | OrthoFit 2, Bright Footwear 1 | 1 | 10 |
+| Neuropathy | 26 | 1,746 | Viasox 16, Konjoun 4, Stepprs 3, Orthofeet 2 | 22 | 4 |
+
+Verdicts this run:
+- **Adult child worried about mom in winter: GAP.** Hike launched it on-image this week (0-1d: "Worried about mom slipping this winter? Get her these.", "Your mom will never trip & fall wearing these boots", "My Mom's Falls Stopped After Wearing These"); the keyword pull misses it because the words are on the image. We have 1 concept that touches it. Test with slip-resistant grip + support wording only (no fall/balance claims): **T48_17** (`angle_gap`).
+- Doctor / podiatrist as the lead: still under-used (5 ours vs 241 ads); tested once in W48_37 (Fri), plus T48_06 (podiatrist-recommended + HSA/FSA) this run.
+- Heavier / plus-size: Hike is now testing it hard on-image (4+ new statics); we still lead (107) and answer with T48_01/02/10.
+- Reason-why / scarcity / counterfeit / BOGO: not used this run (no confirmed facts; BOGO not our offer).
+- Walking again: tested W48_38 (Fri); not repeated.

@@ -1,0 +1,1778 @@
+{
+ "week": "2026-W48-tue",
+ "batch": "iteration",
+ "concepts": [
+  {
+   "id": "T48_01_we_asked_500_number_ripple",
+   "group": "iteration",
+   "persona": "plus_size",
+   "colorway": "red_burgundy",
+   "funnel": "tof",
+   "offer": null,
+   "benchmark": "rv424_age_number_contrast",
+   "format_name": "giant_number_contrast_headline_product_on_ripple",
+   "format_source": "Caldera + Lab (skincare), 20d, rising (Atria MCP rising 2026-11-24)",
+   "background": "9 Elements: shoe resting on a wet park path after rain, soft ripples in a shallow puddle, dusk light",
+   "background_source": "Caldera + Lab water-ripple product shot, 20d rising",
+   "angle": "Plus-size park day: the number contrast from the 500-women survey (heels by hour 4 vs the whole day). Angle: plus-size park day. Mechanism link: more body weight crushes soft sneaker foam faster, so by hour 4 the arch is gone; our arch holds. Core emotion: 'I'm not the one slowing everyone down.'",
+   "based_on": "SOURCE TOFV1_KW1 | COM284_HO1 (30d $7,762, ROAS 2.26; 7d $2,653, 1.99) + RTGv1_P3 COM284 (new, $421, 3.14): 'We asked 500 plus-sized women who've been to Disney one simple question' (on-image hook), script: hours/steps -> running-shoe foam flattens under more weight -> our features -> don't be the one on the bench. Layout: Caldera '48 LOOKS 38' number contrast (two numbers, one big line).",
+   "reference_blocks": [
+    "giant two-number contrast headline (one line)",
+    "short subline (2 lines)",
+    "product hero below on a ripple surface"
+   ],
+   "copy_slots": [
+    "headline = two short numbers/words in one big line",
+    "subline (max 9 words)"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format look"
+   ],
+   "tags": [
+    "FP",
+    "plus_size",
+    "travel"
+   ],
+   "dr_brief": {
+    "avatar": "woman 40-65, US, plus-size (size 18-26), mom/grandma, heels and arches ache by afternoon, swelling by evening",
+    "language": [
+     "plus-size feet",
+     "more weight on my feet",
+     "my feet swell",
+     "flat by lunch",
+     "sit on a bench",
+     "keep up with the kids"
+    ],
+    "angle_habit": "buys max-cushion sneakers and sits out half the day on a bench",
+    "dream": "walks the whole park day / trip with her family instead of waiting on the bench with the bags",
+    "conditions": "DIY substitutes: soft max-cushion sneakers (foam flattens faster under more weight), sizing up, insoles",
+    "anchoring": "vs $150+ Hokas that flatten in weeks, and vs a ruined trip day",
+    "risk_reversal": "30 days = several full park/walk days; full refund if not for her",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "the plus-size park-goer herself",
+    "topic": "holiday park trips (Thanksgiving/Christmas week crowds)",
+    "format": "look from Caldera number contrast; narrative from KW1 survey",
+    "concept": "two numbers tell the story of her park day: when the shoes give out vs when the park closes",
+    "copy_hook_structure": "proven: 'We asked 500 plus-sized women...' (KW1)",
+    "visual_hook": "one huge number pair over our shoe on a wet park path",
+    "identification": "she's the one who sits on the bench by 2pm",
+    "point_of_contact": "KW1 + NH3 scripts and Hike 'Finally, shoes for heavier women' both blame shoes not made for more weight",
+    "function_mechanism": "max-cushion sneakers feel soft at 9am but the foam packs flat faster under more weight"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "HOUR 4 vs. ALL DAY",
+   "on_image_text": [
+    "Arch support built for plus-size feet."
+   ],
+   "primary_text": "We asked 500 plus-size women what ruins a family park day first. It was not the long lines or the afternoon heat. It was hour 4 in normal sneakers. Standard running shoes use soft foam that compresses fast under extra body weight. By lunch, the arch collapses completely. Your heels slam directly onto hard pavement with every step, and as your feet swell, narrow toe boxes start pinching your toes. By 2 PM, you are the one sitting on a park bench holding the backpacks while your family keeps walking. The Ortho Stretch Cushion Shoe is built differently. The built-in anatomical arch support holds its shape under real weight instead of packing flat. A cushioned rocker sole absorbs impact so your heels do not take the beating, and the wide toe box with stretch-knit fabric gives your feet room to swell without pinching. Plus, the slip-resistant grip keeps you steady on wet walkways, and elastic no-tie laces mean no bending down to retie loose shoes. Instead of spending $150 on plush running shoes that flatten in three weeks, you get real support that lasts for $59.95 (regularly $120). Our Holiday Sale is live with 60% off sitewide. Try them on your own long walks with our 30-day money-back guarantee. If your arches do not feel completely supported, return them within 30 days for a full refund. Do not spend another holiday trip waiting on the bench.",
+   "fb_headline": "Arch Support Built for Plus-Size Feet",
+   "fb_description": "Holiday Sale: $59.95",
+   "copy_angle": "Plus-size park day: number contrast (hour 4 foam collapse vs all-day support).",
+   "copy_why": "Based on winning TOFV1_KW1 ($7,762, ROAS 2.26) survey hook and Caldera number contrast layout.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_d567aabff38146e186b8809787035e0a",
+   "scene": "IMPORTANT FONT: the headline is wide, rounded geometric heavy Poppins ExtraBold (NOT a tall condensed or compressed font). Real photo, dusk light after rain: a wet grey park path with a shallow puddle and soft concentric ripples, warm blurred string lights far behind (no castles, characters or park logos). In the lower 55%, one ComfortWear shoe from the product reference sits on the wet path at the puddle's edge in three-quarter view, sharp, about 45% of the width, its reflection in the water. The headline is ONE line of huge heavy white or deep navy numbers/words across the top third on the soft blurred sky/trees (same size, weight, color across the line), the subline in two smaller lines under it, centered.",
+   "prompt": "IMPORTANT FONT: the headline is wide, rounded geometric heavy Poppins ExtraBold (NOT a tall condensed or compressed font). Real photo, dusk light after rain: a wet grey park path with a shallow puddle and soft concentric ripples, warm blurred string lights far behind (no castles, characters or park logos). In the lower 55%, one ComfortWear shoe from the product reference sits on the wet path at the puddle's edge in three-quarter view, sharp, about 45% of the width, its reflection in the water. The headline is ONE line of huge heavy white or deep navy numbers/words across the top third on the soft blurred sky/trees (same size, weight, color across the line), the subline in two smaller lines under it, centered.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: headline = two short numbers/words in one big line; subline (max 9 words)):\n- HEADLINE (biggest text): \"HOUR 4 vs. ALL DAY\"\n- \"Arch support built for plus-size feet.\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_01_we_asked_500_number_ripple_v2.png"
+  },
+  {
+   "id": "T48_02_fair_isle_friends_park",
+   "group": "iteration",
+   "persona": "plus_size",
+   "colorway": "black_purple",
+   "funnel": "tof",
+   "offer": null,
+   "benchmark": "rv424_fair_isle_pair",
+   "format_name": "two_friends_holiday_sweaters_serif_kicker",
+   "format_source": "Lilly Pulitzer (apparel), 8d, seasonal (Atria MCP holiday 2026-11-24)",
+   "background": "4 Seasonal holiday: two plus-size women in fair-isle holiday sweaters laughing at a twinkle-lit holiday market / park street, full-length so the shoes show",
+   "background_source": "Lilly Pulitzer 'Holiday Favorite: Fair Isle' 8d",
+   "angle": "Plus-size friends' holiday trip: two friends who finally keep up together. Mechanism link: their old foam sneakers flattened under more weight by hour 4; the arch that holds lets them stay out. Core emotion: belonging / not slowing the group.",
+   "based_on": "SOURCE TOFV1_KW1 | COM284_HO1 ($7,762, 2.26) + TOFV1_NH3 plus-size park day (7d $4,373, 1.35): 'don't be the person on a bench'; KQ37 'Made for plus-size feet' ($293, 2.08). Layout: Lilly Pulitzer two friends + serif kicker.",
+   "reference_blocks": [
+    "small serif kicker line at top",
+    "brand-style subline",
+    "photo of two friends full length"
+   ],
+   "copy_slots": [
+    "kicker headline (max 6 words)",
+    "small subline (max 6 words)"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format look"
+   ],
+   "tags": [
+    "plus_size",
+    "travel",
+    "seasonal"
+   ],
+   "dr_brief": {
+    "avatar": "woman 40-65, US, plus-size (size 18-26), mom/grandma, heels and arches ache by afternoon, swelling by evening",
+    "language": [
+     "plus-size feet",
+     "more weight on my feet",
+     "my feet swell",
+     "flat by lunch",
+     "sit on a bench",
+     "keep up with the kids"
+    ],
+    "angle_habit": "buys max-cushion sneakers and sits out half the day on a bench",
+    "dream": "walks the whole park day / trip with her family instead of waiting on the bench with the bags",
+    "conditions": "DIY substitutes: soft max-cushion sneakers (foam flattens faster under more weight), sizing up, insoles",
+    "anchoring": "vs $150+ Hokas that flatten in weeks, and vs a ruined trip day",
+    "risk_reversal": "30 days = several full park/walk days; full refund if not for her",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "two plus-size best friends on a holiday trip",
+    "topic": "girls' holiday trip / holiday market walk",
+    "format": "look from Lilly Pulitzer fair-isle friends; narrative from KW1",
+    "concept": "two friends in matching holiday sweaters still laughing at hour 9",
+    "copy_hook_structure": "identity call-out (KQ37 'Made for plus-size feet')",
+    "visual_hook": "joyful candid of two plus-size friends, shoes visible",
+    "identification": "she's always the one asking to sit down",
+    "point_of_contact": "NH3/KW1 blame sneakers that flatten under more weight"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "Hour 9. Neither scouted a bench.",
+   "on_image_text": [
+    "Neither of us sat down once."
+   ],
+   "primary_text": "For years, every holiday trip followed the exact same routine. By 2 PM, one of us was looking for a bench, pretending we just wanted to sit and people-watch while everyone else kept shopping. The truth? Standard running sneakers are not made for more weight on your feet. Soft foam packs flat within a few hours. Once that cushion is crushed, your arches collapse and your heels take every hard step on cobblestones and concrete. Add evening foot swelling, and narrow toe boxes feel like a vice. This trip was different. We both switched to the Ortho Stretch Cushion Shoe. The built-in arch support actually holds its structure under real weight instead of caving in. The wide toe box and stretch-knit upper expand naturally as your feet swell, so there is zero pinching. A cushioned rocker sole absorbs the pavement shock, and slip-resistant soles keep you sure-footed on slick winter streets. No limping back to the hotel early. No guilt about slowing each other down. Instead of dropping $150 on foam sneakers that flatten in weeks, you get proven all-day support for $59.95 (regularly $120). Our Holiday Sale is live at 60% off sitewide. Try them on your own holiday trips with our 30-day money-back guarantee. If they do not keep your feet supported from morning coffee to the evening lights, return them within 30 days for a full refund.",
+   "fb_headline": "Still Walking at Hour 9: 60% Off",
+   "fb_description": "Full refund within 30 days",
+   "copy_angle": "Plus-size friends holiday trip: hour 9 with zero bench-scouting.",
+   "copy_why": "Based on TOFV1_KW1 and TOFV1_NH3 ('don't be the person on a bench') adapted to the fair-isle market scene.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_d567aabff38146e186b8809787035e0a",
+   "scene": "Real candid lifestyle photo at a twinkle-lit outdoor holiday market street in daytime-to-dusk: two smiling plus-size women in their 50s (US size 20-24, full hips and thighs, real bodies, not slim) in colorful fair-isle holiday sweaters and dark leggings, arm in arm, laughing, walking toward the camera, shown head to toe so both wear the ComfortWear shoe from the product reference, shoes sharp and clearly visible on the light stone pavement (feet large in the lower third). A small elegant serif kicker headline sits at the top center on the softly blurred background, the small subline under it. Garland, warm bokeh; no store logos.",
+   "prompt": "Real candid lifestyle photo at a twinkle-lit outdoor holiday market street in daytime-to-dusk: two smiling plus-size women in their 50s (US size 20-24, full hips and thighs, real bodies, not slim) in colorful fair-isle holiday sweaters and dark leggings, arm in arm, laughing, walking toward the camera, shown head to toe so both wear the ComfortWear shoe from the product reference, shoes sharp and clearly visible on the light stone pavement (feet large in the lower third). A small elegant serif kicker headline sits at the top center on the softly blurred background, the small subline under it. Garland, warm bokeh; no store logos.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: kicker headline (max 6 words); small subline (max 6 words)):\n- HEADLINE (biggest text): \"Hour 9. Neither scouted a bench.\"\n- \"Neither of us sat down once.\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "style": "ugc",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_02_fair_isle_friends_park_v1.png"
+  },
+  {
+   "id": "T48_03_daughter_quote_serif_sky",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "black_white",
+   "funnel": "tof",
+   "offer": null,
+   "benchmark": "rv424_w19_serif_family_quote",
+   "format_name": "serif_family_quote_underlined_word_product_on_sky",
+   "format_source": "CloudSole (insoles), 12d, wellness growth rank 19 (+93 places 7d)",
+   "background": "1 Real place: soft blue sky with low clouds, the shoe resting on a soft white cloud-like knit surface in the lower half",
+   "background_source": "CloudSole husband-quote ad, wellness rank 19",
+   "angle": "Nurse PF through a family member's words: 'my daughter works 12s on hospital floors and says these are...'. Mechanism link: running-shoe foam collapses by hour 8 on concrete; arch holds. Core emotion: pride/relief of someone who watched her limp.",
+   "based_on": "SOURCE RTGv1_B6 Emily RN UGC (30d $4,137, ROAS 3.45) + RTGv1_C1 (4.69): 'I'm a nurse with plantar fasciitis... hurting my feet after 3 12s in a row... 4 12s in a row at the ER'. Layout: CloudSole serif quote with one underlined word + attribution.",
+   "reference_blocks": [
+    "serif quote from a family member (3-4 lines) with one underlined word",
+    "attribution (first name + initial)",
+    "product macro below"
+   ],
+   "copy_slots": [
+    "quote headline (max 22 words)",
+    "attribution (first name + last initial)"
+   ],
+   "copy_notes": "Quote must be from a family member of a nurse, real-sounding; no 'zero pain' or cure claim.",
+   "risk": "moderate",
+   "bets": [
+    "messenger (family member)"
+   ],
+   "tags": [
+    "FP",
+    "PF",
+    "nurse"
+   ],
+   "dr_brief": {
+    "avatar": "woman 35-60, US hospital RN, mom/caregiver at home, plantar fasciitis or heel pain 2+ years, works 3-4 12s in a row",
+    "language": [
+     "12s",
+     "3 12s in a row",
+     "limping to my car",
+     "by hour 8",
+     "on the floor",
+     "nurse wages",
+     "rotate 2 pairs"
+    ],
+    "angle_habit": "shoves insoles into $160 running shoes / Hokas and works through it",
+    "dream": "walks to her car at 7:30 PM with energy left for her kids, picks up an extra shift without dread",
+    "conditions": "DIY substitutes: sizing up (heel slips), insoles (eat toe room, flatten), clogs (no give), Hokas (too much soft cushion)",
+    "anchoring": "vs $150-180 running shoes replaced every 2 months + $60 insoles; $59.95 is under a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own floor; full refund if not for her",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "the nurse's mom or husband",
+    "topic": "the family watching her come home from 12s",
+    "format": "look from CloudSole serif quote; narrative from Emily RN",
+    "concept": "a parent quotes what changed for their nurse daughter",
+    "copy_hook_structure": "family-member quote (CloudSole 'My husband works 12-hour shifts...')",
+    "visual_hook": "calm sky + shoe on soft cloud, elegant serif quote",
+    "identification": "she limps to the car after 3 12s",
+    "point_of_contact": "Emily RN: 'popular shoes always ended up hurting my feet after 3 12s'",
+    "function_mechanism": "Hokas/running shoes are built for running, not 12 hours standing on concrete"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "\"My daughter works 12s in the ER. She finally stopped limping home.\"",
+   "on_image_text": [
+    "Carol M."
+   ],
+   "primary_text": "Watching my daughter come through the front door after three 12-hour ER shifts used to break my heart. She would take off her sneakers in the entryway, hold onto the wall, and limp straight to the couch. Her heels were so sore from concrete hospital floors that she could barely stand to make dinner for her kids. She had already tried $160 running shoes and expensive orthotic insoles. The problem with running shoes is that they are built for forward motion, not standing on hard hospital floors for 12 hours straight. The soft foam arch collapses by hour 8. Once that foam flattens out, her heels take every ounce of pressure directly on the concrete. I bought her a pair of the Ortho Stretch Cushion Shoes last month. The difference showed up on shift one. The firm anatomical arch support does not collapse halfway through the day. The cushioned rocker sole absorbs the impact of 10,000 steps on unyielding hospital floors, and the wide stretch-knit toe box gives her toes room when her feet swell by afternoon. They even have slip-resistant soles for wet hospital rooms and elastic no-tie laces that stay put all day. Last night, she walked in after four 12s in a row. No wall-holding. No limping. Instead of burning $160 every few months on running shoes that die, these are $59.95 (regularly $120). Comfort Wear has their Holiday Sale live right now with 60% off sitewide. They come with a 30-day money-back guarantee. If your nurse does not feel the difference across a full month of shifts, return them within 30 days for a full refund.",
+   "fb_headline": "Built for Nurses on 12-Hour Shifts",
+   "fb_description": "Full refund within 30 days",
+   "copy_angle": "Nurse plantar fasciitis through family member's eyes: stopping the post-shift limp.",
+   "copy_why": "Based on RTGv1_B6 Emily RN UGC ($4,137, ROAS 3.45) and CloudSole family-quote pattern.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_d567aabff38146e186b8809787035e0a",
+   "scene": "Soft bright blue sky with low fluffy white clouds filling the frame. In the lower half, one ComfortWear shoe from the product reference rests on a soft white cloud-like knit pillow, three-quarter view, sharp, about 45% of the width. The upper 45% holds a centered quote in an elegant dark navy serif typeface (like the reference: 3-4 lines, regular weight), with ONE key word underlined with a thin teal hand-drawn line; the attribution in small dark grey caps under it.",
+   "prompt": "Soft bright blue sky with low fluffy white clouds filling the frame. In the lower half, one ComfortWear shoe from the product reference rests on a soft white cloud-like knit pillow, three-quarter view, sharp, about 45% of the width. The upper 45% holds a centered quote in an elegant dark navy serif typeface (like the reference: 3-4 lines, regular weight), with ONE key word underlined with a thin teal hand-drawn line; the attribution in small dark grey caps under it.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: quote headline (max 22 words); attribution (first name + last initial)):\n- HEADLINE (biggest text): \"\"My daughter works 12s in the ER. She finally stopped limping home.\"\"\n- \"Carol M.\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_03_daughter_quote_serif_sky_v1.png"
+  },
+  {
+   "id": "T48_04_closet_graveyard_comment_selfie",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "black_purple",
+   "funnel": "tof",
+   "offer": null,
+   "benchmark": "rv424_comment_over_selfie",
+   "format_name": "comment_card_over_car_selfie_ugc",
+   "format_source": "Enhanced Labs (supplement), 11d, rising (Atria MCP rising 2026-11-24)",
+   "background": "10 Real interior: nurse in navy scrubs in her parked car after a shift, natural window light, phone-selfie framing; one shoe on the passenger seat / held up in frame",
+   "background_source": "Enhanced Labs comment-over-selfie, 11d rising",
+   "angle": "Nurse money-wasted: the closet of $150-180 shoes that died in 2 months. Mechanism link: foam arch support collapses halfway through the shift; ours holds. Core emotion: frustration at wasted money -> relief.",
+   "based_on": "SOURCE TOFv1_HF2 | 807_Aubrey UGC 'Don't Waste Spent Money' (7d $1,695, ROAS 1.29; in top 10 spenders this week). Transcript: '$180 for Hokas, $200 for Dansko, $150 for Brooks. All sitting in my closet... garbage after two months'; 'Most shoes have foam arch support. It collapses halfway through your shift'; 'by 3 p.m. your toes are crammed'. Layout: Enhanced Labs comment card over selfie.",
+   "reference_blocks": [
+    "social comment card at top (username + 2-line comment)",
+    "candid selfie photo"
+   ],
+   "copy_slots": [
+    "comment text (max 22 words)",
+    "commenter first name + initial (lowercase handle style)"
+   ],
+   "copy_notes": "Do not repeat the 45-day guarantee from the video: our guarantee is 30 days. No 'back pain gone' cure claims.",
+   "risk": "conservative",
+   "bets": [],
+   "tags": [
+    "FP",
+    "PF",
+    "nurse"
+   ],
+   "dr_brief": {
+    "avatar": "woman 35-60, US hospital RN, mom/caregiver at home, plantar fasciitis or heel pain 2+ years, works 3-4 12s in a row",
+    "language": [
+     "12s",
+     "3 12s in a row",
+     "limping to my car",
+     "by hour 8",
+     "on the floor",
+     "nurse wages",
+     "rotate 2 pairs"
+    ],
+    "angle_habit": "shoves insoles into $160 running shoes / Hokas and works through it",
+    "dream": "walks to her car at 7:30 PM with energy left for her kids, picks up an extra shift without dread",
+    "conditions": "DIY substitutes: sizing up (heel slips), insoles (eat toe room, flatten), clogs (no give), Hokas (too much soft cushion)",
+    "anchoring": "vs $150-180 running shoes replaced every 2 months + $60 insoles; $59.95 is under a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own floor; full refund if not for her",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "Aubrey-like nurse, peer voice",
+    "topic": "the pile of dead expensive shoes in her closet",
+    "format": "look from Enhanced Labs comment-over-selfie; narrative from Aubrey HF2",
+    "concept": "a nurse's comment about the $500 of shoes in her closet, posted from her car after shift",
+    "copy_hook_structure": "proven: '$180 for Hokas, $200 for..., $150 for Brooks' (HF2)",
+    "visual_hook": "real car selfie + comment bubble",
+    "identification": "she's spent $500 on shoes that died in 2 months",
+    "point_of_contact": "HF2 + Stepprs 'stand all day' both blame foam that gives out",
+    "function_mechanism": "running shoes are built for forward motion on soft surfaces, not standing on concrete; foam arch collapses mid-shift"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "\"Spent $500 on shoes that flattened in weeks. These actually survive my 12s.\"",
+   "on_image_text": [
+    "@aubrey.rn"
+   ],
+   "primary_text": "Sitting in my car after another 12-hour shift, and I have to get something off my chest. Go into my closet right now and you will find over $500 worth of dead shoes. $180 running shoes. $150 name-brand trainers. $60 insoles crammed inside them. Every single pair was supposed to be the answer to plantar fasciitis on concrete hospital floors. Every single pair was garbage after two months. Here is why: almost every big-name sneaker uses soft foam arch support. It feels amazing when you try it on in the store. But standing on concrete for 12 hours straight compresses that foam flat by 2 PM. Once the arch collapses, your heel takes every single impact, and your toes get jammed against the front of the shoe. A coworker finally told me to stop wasting money and try the Ortho Stretch Cushion Shoe. I was skeptical because they were under sixty bucks. But the built-in arch support is firm. It actually holds its shape at hour 11 instead of packing down flat. The wide toe box gives your toes room when your feet swell, and the stretch-knit upper has zero pinch points. The rocker sole takes the shock off your heels, and the slip-resistant grip handles wet room floors. I have worn this same pair for four months of ER shifts. My closet graveyard is officially closed. Instead of burning $150 to $180 every eight weeks on running shoes, these are $59.95 (was $120). Comfort Wear has their Holiday Sale live at 60% off sitewide. They give you a 30-day money-back guarantee. Wear them for a full month of your own shifts. If your arches do not hold up on the floor, return them within 30 days for a full refund.",
+   "fb_headline": "Stop Wasting $180 on Running Shoes",
+   "fb_description": "Full refund within 30 days",
+   "copy_angle": "Nurse wasted-money: closet graveyard of $150-$180 shoes that flattened in weeks.",
+   "copy_why": "Based on top-spending TOFv1_HF2 Aubrey UGC ('Don't Waste Spent Money') and comment-over-selfie layout.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_d567aabff38146e186b8809787035e0a",
+   "scene": "IMPORTANT: there is NO big quote text over the photo; the only words are in the small white comment card. Real iPhone selfie photo, natural daylight through a car window: a woman nurse in her 40s in navy scrubs sits in the driver's seat of a parked car after a shift, tired but relieved half-smile, holding one ComfortWear shoe from the product reference up beside her face (shoe sharp and large, about 35% of the frame, brightly lit by the window). At the top, a white rounded social-comment card (like the reference) with a small grey round avatar, a lowercase username and the comment text in dark grey/black, 2-3 lines.",
+   "prompt": "IMPORTANT: there is NO big quote text over the photo; the only words are in the small white comment card. Real iPhone selfie photo, natural daylight through a car window: a woman nurse in her 40s in navy scrubs sits in the driver's seat of a parked car after a shift, tired but relieved half-smile, holding one ComfortWear shoe from the product reference up beside her face (shoe sharp and large, about 35% of the frame, brightly lit by the window). At the top, a white rounded social-comment card (like the reference) with a small grey round avatar, a lowercase username and the comment text in dark grey/black, 2-3 lines.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: comment text (max 22 words); commenter first name + initial (lowercase handle style)):\n- COMMENT TEXT, printed ONLY inside the white comment card at the top (dark text, 2-3 lines): \"\"Spent $500 on shoes that flattened in weeks. These actually survive my 12s.\"\"\n- \"@aubrey.rn\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "style": "ugc",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_04_closet_graveyard_comment_selfie_v3.png"
+  },
+  {
+   "id": "T48_05_giant_12_hour_type_shoe_through",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "navy_blue",
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE: \"60% OFF SITEWIDE\" + small line \"Free shipping & returns · 30-day money-back guarantee\". Price $59.95 (was $120). LEAKED10 extra 10% may go in primary text only. No Black Friday wording, no deadlines, hours-left or end dates (none confirmed), no gifts.",
+   "copy_notes": "Offer ad: lead offer is exactly \"60% OFF SITEWIDE\" with \"HOLIDAY SALE\" as kicker; the supporting terms on one small line. Never '40% OFF', never 'Black Friday', no end date.",
+   "benchmark": "rv424_w2_giant_type_product_through",
+   "format_name": "giant_stacked_type_product_breaks_through_letters",
+   "format_source": "OrthoFlexx (insoles), 25d, wellness growth rank 2 (+273 places 7d)",
+   "background": "7 Color field: light aqua-to-white gradient, the shoe angled diagonally in front of / through giant stacked headline letters",
+   "background_source": "OrthoFlexx 'Finish your 12-hour shift' ad, wellness rank 2",
+   "rival": "Stepprs 'STAND ALL DAY without foot pain — hour one / hour six / hour twelve' (new 1d) + Stepprs 'finish 12 hour shifts with zero foot pain' (424d)",
+   "angle": "Nurse 12-hour shift, offer: giant '12-HOUR SHIFT' type with the shoe breaking through. Answers Stepprs' hour 1/6/12 insole ad with the shoe whose arch holds at hour 12. Mechanism link: foam collapses by hour 8, our arch holds. Core emotion: finishing the shift standing tall.",
+   "based_on": "SOURCE RTGv1_H3 'FLASH SALE! Best 12-hour shift shoes 40% OFF + FREE SHIPPING' (30d $3,106, ROAS 2.82; 7d $1,057, 2.65, our top static this week). Layout: OrthoFlexx rank 2 giant stacked type + product breaking through + script line + guarantee line.",
+   "reference_blocks": [
+    "giant stacked 2-3 word headline (product overlaps letters)",
+    "script/handwritten-style accent line",
+    "offer + guarantee line at bottom"
+   ],
+   "copy_slots": [
+    "giant headline (max 4 words)",
+    "accent line (max 3 words)",
+    "offer line: 60% OFF SITEWIDE",
+    "small terms line"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format look"
+   ],
+   "tags": [
+    "FP",
+    "nurse",
+    "offer",
+    "competitor_answer"
+   ],
+   "dr_brief": {
+    "avatar": "woman 35-60, US hospital RN, mom/caregiver at home, plantar fasciitis or heel pain 2+ years, works 3-4 12s in a row",
+    "language": [
+     "12s",
+     "3 12s in a row",
+     "limping to my car",
+     "by hour 8",
+     "on the floor",
+     "nurse wages",
+     "rotate 2 pairs"
+    ],
+    "angle_habit": "shoves insoles into $160 running shoes / Hokas and works through it",
+    "dream": "walks to her car at 7:30 PM with energy left for her kids, picks up an extra shift without dread",
+    "conditions": "DIY substitutes: sizing up (heel slips), insoles (eat toe room, flatten), clogs (no give), Hokas (too much soft cushion)",
+    "anchoring": "vs $150-180 running shoes replaced every 2 months + $60 insoles; $59.95 is under a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own floor; full refund if not for her",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "the nurse herself",
+    "topic": "holiday-week extra shifts",
+    "format": "look from OrthoFlexx rank 2; narrative from H3",
+    "concept": "the shift length is the headline; the shoe literally breaks through it",
+    "copy_hook_structure": "proven: 'Best 12-hour shift shoes' (H3)",
+    "visual_hook": "huge type with the shoe bursting through",
+    "identification": "hour 8 is when her heels start screaming",
+    "point_of_contact": "Stepprs hour 1/6/12 and H3 both frame the shift length",
+    "function_mechanism": "insoles go flat in a month (OrthoFlexx rank 1 says it themselves)"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "12-HOUR SHIFT",
+   "on_image_text": [
+    "HOLIDAY SALE",
+    "60% OFF SITEWIDE",
+    "Free shipping & returns · 30-day money-back guarantee"
+   ],
+   "primary_text": "Hour 1 feels fine in almost any shoe. By Hour 6, standard sneakers and drugstore insoles start packing flat. By Hour 12 on hospital concrete? The foam is completely crushed. Your arches collapse, and your heels take every step with zero cushion left. That is why nurses limp out to their cars at the end of the shift. The Ortho Stretch Cushion Shoe was engineered so your arch never collapses at Hour 8. The built-in anatomical arch support holds its shape under pressure for all 12 hours. A cushioned rocker sole absorbs concrete impact, and the wide toe box with stretch-knit fabric gives your feet room when they swell by late afternoon. Plus, slip-resistant traction keeps you safe in wet patient rooms, and elastic no-tie laces never come undone during a code. Holiday Sale is live right now: 60% OFF SITEWIDE. Get the Ortho Stretch Cushion Shoe for just $59.95 (regularly $120). Use code LEAKED10 at checkout for an EXTRA 10% OFF on top of 60% off sitewide. Try them on your hospital floor with our 30-day money-back guarantee: wear them for 10+ shifts. If your arches do not feel completely supported through Hour 12, return them within 30 days for a full refund. Free shipping & returns included.",
+   "fb_headline": "Best 12-Hour Shift Shoe: 60% Off",
+   "fb_description": "Free Shipping & Returns",
+   "copy_angle": "Nurse 12-hour shift offer: the shoe whose arch holds through hour 12 vs collapsed foam.",
+   "copy_why": "Based on RTGv1_H3 ($3,106, ROAS 2.82, top static) answering Stepprs' hour 1/6/12 insole ad.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_d567aabff38146e186b8809787035e0a",
+   "scene": "IMPORTANT: every letter of the giant headline stays fully readable: the shoe sits BELOW and slightly overlapping only the bottom edge of the last line, never covering letters. Clean graphic ad on a light aqua-to-white vertical gradient. Giant heavy stacked headline (2-3 lines, extra-bold Poppins-style, dark navy) fills the top 55% edge to edge within margins; the ComfortWear shoe from the product reference, angled diagonally and large (about 50% of the width), overlaps and breaks through the letters (letters partly behind the shoe, still fully readable). Under it the accent line in heavy dark navy Poppins italic. Lower part: a solid red (#D7141A) rounded box with the white offer text, and one small dark navy terms line under it.",
+   "prompt": "IMPORTANT: every letter of the giant headline stays fully readable: the shoe sits BELOW and slightly overlapping only the bottom edge of the last line, never covering letters. Clean graphic ad on a light aqua-to-white vertical gradient. Giant heavy stacked headline (2-3 lines, extra-bold Poppins-style, dark navy) fills the top 55% edge to edge within margins; the ComfortWear shoe from the product reference, angled diagonally and large (about 50% of the width), overlaps and breaks through the letters (letters partly behind the shoe, still fully readable). Under it the accent line in heavy dark navy Poppins italic. Lower part: a solid red (#D7141A) rounded box with the white offer text, and one small dark navy terms line under it.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: giant headline (max 4 words); accent line (max 3 words); offer line: 60% OFF SITEWIDE; small terms line):\n- GIANT HEADLINE in two lines ('12-HOUR' / 'SHIFT'), each line fully inside the 7% side margins, never cut off by the image edge: \"12-HOUR SHIFT\"\n- \"HOLIDAY SALE\"\n- \"60% OFF SITEWIDE\"\n- \"Free shipping & returns · 30-day money-back guarantee\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_05_giant_12_hour_type_shoe_through_v3.png"
+  },
+  {
+   "id": "T48_06_podiatrist_serif_hsa_chip",
+   "group": "iteration",
+   "persona": "nurse",
+   "colorway": "all_black",
+   "funnel": "offer",
+   "offer": "HSA/FSA: \"HSA/FSA ELIGIBLE\" + \"UP TO 30% SAVINGS\" (eligibility may vary)",
+   "copy_notes": "HSA/FSA year-end angle: unused FSA dollars before Dec 31 are a true, common deadline (not ours) - may be mentioned as the account's use-it-or-lose-it rule, without a ComfortWear end date. 'Podiatrist-recommended' is approved; no named doctor.",
+   "benchmark": "rv424_w39_serif_hsa_chip",
+   "format_name": "minimal_italic_serif_two_line_product_hsa_chip_button",
+   "format_source": "Breescape (bedding, HSA/FSA), 10d, wellness growth rank 39 (+47 places)",
+   "background": "12 Plain studio field: soft warm light grey seamless with a gentle floor shadow (one of max 3 studio ads)",
+   "background_source": "Breescape HSA/FSA minimal, wellness rank 39",
+   "angle": "Nurse PF + HSA/FSA year-end: podiatrist-recommended shoe you can buy with pre-tax dollars before they expire. Mechanism link: arch support that holds is what a podiatrist looks for; foam gives out. Core emotion: smart, guilt-free spend.",
+   "based_on": "SOURCE RTGv1_B3 Kyro_293_3_V2 (30d $2,440, ROAS 3.00) + SEASONAL TOFv1_GD2/GE1 Kyro_293 'Podiatrist Recommended' (this week last year: $143,863 + $120,358) + TOFV1_OL2_1 COM408 HSA/FSA (7d $1,814, 1.78). Layout: Breescape italic serif two-liner + product + HSA chip + pill button.",
+   "reference_blocks": [
+    "small brand/kicker",
+    "italic serif two-line headline",
+    "product hero",
+    "HSA/FSA check chip",
+    "pill button"
+   ],
+   "copy_slots": [
+    "italic two-line headline (max 10 words)",
+    "chip: HSA/FSA ELIGIBLE",
+    "pill button (max 3 words)"
+   ],
+   "risk": "conservative",
+   "bets": [],
+   "tags": [
+    "FP",
+    "PF",
+    "nurse",
+    "hsa_fsa",
+    "offer"
+   ],
+   "dr_brief": {
+    "avatar": "woman 35-60, US hospital RN, mom/caregiver at home, plantar fasciitis or heel pain 2+ years, works 3-4 12s in a row",
+    "language": [
+     "12s",
+     "3 12s in a row",
+     "limping to my car",
+     "by hour 8",
+     "on the floor",
+     "nurse wages",
+     "rotate 2 pairs"
+    ],
+    "angle_habit": "shoves insoles into $160 running shoes / Hokas and works through it",
+    "dream": "walks to her car at 7:30 PM with energy left for her kids, picks up an extra shift without dread",
+    "conditions": "DIY substitutes: sizing up (heel slips), insoles (eat toe room, flatten), clogs (no give), Hokas (too much soft cushion)",
+    "anchoring": "vs $150-180 running shoes replaced every 2 months + $60 insoles; $59.95 is under a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own floor; full refund if not for her",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "the nurse herself",
+    "topic": "year-end FSA balance she hasn't used",
+    "format": "look from Breescape; narrative from COM408 + Kyro_293",
+    "concept": "the podiatrist-recommended shoe is one less thing to pay for with real money",
+    "copy_hook_structure": "proven: 'Podiatrist Recommended' headline (Kyro_293 seasonal) + COM408 HSA/FSA",
+    "visual_hook": "calm, premium minimal with HSA check chip",
+    "identification": "she has FSA money left and heel pain every shift",
+    "point_of_contact": "WearStand 'Podiatrist-approved. HSA/FSA eligible', COM408",
+    "function_mechanism": "drugstore insoles flatten; arch support built into the shoe holds"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "Podiatrist-Recommended For Your 12s. Before Your FSA Balance Disappears.",
+   "on_image_text": [
+    "HSA/FSA ELIGIBLE",
+    "Shop Now"
+   ],
+   "primary_text": "If you are staring down three 12-hour shifts in a row while limping to your car at 7:30 PM, you already know your sneakers died two months ago.\\n\\nBy hour 8, soft foam compresses down to cardboard. Your arches drop, your heels take the concrete shock, and crowding $60 drug-store insoles into narrow toe boxes just makes your heels slip.\\n\\nThat is why podiatrists tell floor nurses to look for built-in, rigid arch support that will not collapse under a full day on hospital tile.\\n\\nThe Ortho Stretch Cushion Shoe is built for floor nurses:\\n- Built-in anatomical arch support that holds its shape all 12 hours\\n- Thick rocker sole that absorbs concrete impact step after step\\n- Wide, stretch-knit upper so swollen feet never feel strangled\\n- Slip-resistant grip and elastic no-tie laces\\n\\nHere is the smart move: if you have leftover pre-tax FSA dollars sitting in your benefits account, they expire at year-end. If you do not spend them, you forfeit them.\\n\\nUse that expiring FSA balance to save up to 30% on a pair of shoes that actually saves your heels.\\n\\nRight now they are $59.95 (was $120).\\n\\nWear them on your own hospital floor for 30 days. If you are not walking to your car without limping, return them within 30 days for a full refund.",
+   "fb_headline": "Podiatrist-Recommended · Use FSA",
+   "fb_description": "Save Up To 30% Pre-Tax",
+   "copy_angle": "Nurse PF and year-end FSA: podiatrist-recommended shift shoes bought with expiring pre-tax dollars",
+   "copy_why": "Modeled on seasonal winner TOFv1_GD2/GE1 Kyro_293 ($264k spend) and TOFV1_OL2_1 COM408 HSA/FSA scale",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_12ad83bbe3444306a56e17b56cf54528",
+   "scene": "IMPORTANT: the two headline lines are centered with at least 9% empty margin on BOTH sides; no stray marks or characters. Minimal premium layout on a soft warm light-grey seamless with a gentle floor shadow. Top center: a two-line italic serif headline in dark navy. Center: the all-black ComfortWear shoe from the product reference in a straight side profile at about 50% of the width with light rim lighting so it stands out clearly from the grey. Below it a small rounded light-blue chip with a white check circle and the chip text in dark navy, then a rounded teal pill button with white text.",
+   "prompt": "IMPORTANT: the two headline lines are centered with at least 9% empty margin on BOTH sides; no stray marks or characters. Minimal premium layout on a soft warm light-grey seamless with a gentle floor shadow. Top center: a two-line italic serif headline in dark navy. Center: the all-black ComfortWear shoe from the product reference in a straight side profile at about 50% of the width with light rim lighting so it stands out clearly from the grey. Below it a small rounded light-blue chip with a white check circle and the chip text in dark navy, then a rounded teal pill button with white text.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: italic two-line headline (max 10 words); chip: HSA/FSA ELIGIBLE; pill button (max 3 words)):\n- HEADLINE (biggest text): \"Podiatrist-Recommended For Your 12s. Before Your FSA Balance Disappears.\"\n- \"HSA/FSA ELIGIBLE\"\n- \"Shop Now\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_06_podiatrist_serif_hsa_chip_v2.png"
+  },
+  {
+   "id": "T48_07_500k_count_band_gold_offer",
+   "group": "iteration",
+   "persona": "active_retiree",
+   "colorway": "red_burgundy",
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE: \"60% OFF SITEWIDE\" + small line \"Free shipping & returns · 30-day money-back guarantee\". Price $59.95 (was $120). LEAKED10 extra 10% may go in primary text only. No Black Friday wording, no deadlines, hours-left or end dates (none confirmed), no gifts.",
+   "copy_notes": "Offer ad: lead offer is exactly \"60% OFF SITEWIDE\" with \"HOLIDAY SALE\" as kicker; the supporting terms on one small line. Never '40% OFF', never 'Black Friday', no end date. Customer count: only '500,000+' (approved).",
+   "benchmark": "rv424_w8_count_band_gold_offer",
+   "format_name": "customer_count_statement_band_gold_offer_band",
+   "format_source": "Lifepro (vibration plate), 10d, wellness growth rank 8 (+148 places 7d) (rebuilt light: no dark background)",
+   "background": "5 Textured prop surface: the pair on a warm light oak entryway bench with a knit scarf, warm daylight; under it a cream statement band and a gold offer band",
+   "background_source": "Lifepro '3 million customers already have one / 50% OFF' rank 8",
+   "angle": "Social proof + holiday offer: 500,000+ women already wear them. Mechanism link: they switched because foam sneakers went flat; arch holds. Core emotion: safety in numbers (can't all be wrong).",
+   "based_on": "SOURCE RTGv1_C3 'Could over 500,000+ customers ALL be wrong?' comments static (30d $2,180, ROAS 3.73) + RTGv1_O1 product + 40% OFF (2.89). Layout: Lifepro customer-count band + gold offer band.",
+   "reference_blocks": [
+    "product hero photo top 55%",
+    "statement band: customer count line",
+    "gold offer band: big offer + small terms"
+   ],
+   "copy_slots": [
+    "count statement (max 7 words, includes 500,000+)",
+    "offer band: 60% OFF SITEWIDE",
+    "small terms line"
+   ],
+   "risk": "conservative",
+   "bets": [],
+   "tags": [
+    "offer",
+    "proof"
+   ],
+   "dr_brief": {
+    "avatar": "woman 60-75, US, retired, walks daily, grandkids, heel/arch ache after 20 minutes",
+    "language": [
+     "my daily walk",
+     "grandkids",
+     "on my feet all day",
+     "finally comfortable"
+    ],
+    "angle_habit": "keeps buying 'comfortable sneakers' from the department store",
+    "dream": "walks the neighborhood loop and the mall with the grandkids",
+    "conditions": "DIY substitutes: department-store sneakers, drugstore insoles",
+    "anchoring": "vs $150+ sneakers that flatten and $300 custom orthotics",
+    "risk_reversal": "30-day money-back guarantee: wear them for a month of real days",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "peer crowd (500,000+ women)",
+    "topic": "holiday shopping season",
+    "format": "look from Lifepro count band",
+    "concept": "half a million women already made the switch; now 60% off",
+    "copy_hook_structure": "proven: 'Could over 500,000+ customers ALL be wrong?' (C3)",
+    "visual_hook": "warm entryway still life with the pair + gold band",
+    "identification": "she's the last one in her circle still in flat sneakers",
+    "point_of_contact": "C3 comments",
+    "function_mechanism": "soft sneakers feel nice in the store and flatten in weeks"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "Why 500,000+ Customers Switched",
+   "on_image_text": [
+    "HOLIDAY SALE: 60% OFF SITEWIDE",
+    "Free Shipping & Returns. 30-Day Guarantee."
+   ],
+   "primary_text": "Could over 500,000+ customers all be wrong?\\n\\nMost of us spent years buying 'comfort sneakers' from the department store. They feel soft on the shelf, but by the third block of your morning walk, the foam compresses flat. Your arch sinks, your heel takes the pounding, and keeping up with the grandkids turns into sitting on the bench.\\n\\nThe Ortho Stretch Cushion Shoe is engineered differently.\\n\\nInstead of squishy foam that dies in a month, it has firm anatomical arch support built right into the base. It holds its shape mile after mile.\\n\\nWhy older walkers love them:\\n- Anatomical arch support that keeps your heels and knees aligned\\n- Rocker sole cushion that softens hard pavement\\n- Wide stretch-knit toe box that never pinches bunions or swollen toes\\n- Slip-resistant grip and elastic no-tie laces\\n\\nOur Holiday Sale is live: 60% OFF SITEWIDE.\\n\\nThat brings them down to $59.95 (regularly $120).\\nUse code LEAKED10 at checkout for 60% OFF SITEWIDE + EXTRA 10% OFF.\\n\\nTry them on your daily walk for 30 days. If they are not the most comfortable shoes you own, return them within 30 days for a full refund.",
+   "fb_headline": "500,000+ Customers Switched · 60% Off",
+   "fb_description": "Free Shipping & Returns",
+   "copy_angle": "Social proof and holiday offer with 500,000+ customers",
+   "copy_why": "Modeled on RTGv1_C3 'Could over 500,000+ customers ALL be wrong?' comments static and Lifepro count band layout",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_12ad83bbe3444306a56e17b56cf54528",
+   "scene": "IMPORTANT: the count statement appears ONLY ONCE, inside the cream band; there is NO text over the photo. Top 55%: real warm daylight photo of a light oak entryway bench with a folded cream knit scarf, the ComfortWear pair from the product reference on the bench in three-quarter view, sharp, about 55% of the width. Middle: a full-width cream/off-white band with the count statement in large heavy dark navy letters (two lines). Bottom: a full-width warm gold band with the big offer in heavy black letters and one small black terms line under it. Light, warm, never a dark background.",
+   "prompt": "IMPORTANT: the count statement appears ONLY ONCE, inside the cream band; there is NO text over the photo. Top 55%: real warm daylight photo of a light oak entryway bench with a folded cream knit scarf, the ComfortWear pair from the product reference on the bench in three-quarter view, sharp, about 55% of the width. Middle: a full-width cream/off-white band with the count statement in large heavy dark navy letters (two lines). Bottom: a full-width warm gold band with the big offer in heavy black letters and one small black terms line under it. Light, warm, never a dark background.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: count statement (max 7 words, includes 500,000+); offer band: 60% OFF SITEWIDE; small terms line):\n- COUNT STATEMENT, printed ONLY inside the cream band (large heavy dark navy, two lines); nothing is printed over the photo: \"Why 500,000+ Customers Switched\"\n- \"HOLIDAY SALE: 60% OFF SITEWIDE\"\n- \"Free Shipping & Returns. 30-Day Guarantee.\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_07_500k_count_band_gold_offer_v3.png"
+  },
+  {
+   "id": "T48_08_ornate_holiday_label_warehouse",
+   "group": "iteration",
+   "persona": "retail_warehouse",
+   "colorway": "black_mint",
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE: \"60% OFF SITEWIDE\" + small line \"Free shipping & returns · 30-day money-back guarantee\". Price $59.95 (was $120). LEAKED10 extra 10% may go in primary text only. No Black Friday wording, no deadlines, hours-left or end dates (none confirmed), no gifts.",
+   "copy_notes": "Offer ad: lead offer is exactly \"60% OFF SITEWIDE\" with \"HOLIDAY SALE\" as kicker; the supporting terms on one small line. Never '40% OFF', never 'Black Friday', no end date. No overstock/sold-out/scarcity reason (unconfirmed).",
+   "benchmark": "rv424_w26_ornate_label_seasonal",
+   "format_name": "ornate_vintage_label_offer_over_seasonal_props",
+   "format_source": "Sorviq (balm), 43d, wellness growth rank 26 (+67 places)",
+   "background": "4 Seasonal holiday: fresh pine branches, holly and a few red berries on a pale wood warehouse table / cardboard box lid, the shoes in front, an ornate cream-and-red vintage label at top",
+   "background_source": "Sorviq 'Autumn Special Offer' ornate label over leaves, rank 26",
+   "angle": "Warehouse/retail worker on concrete, offer: the concrete-floor worker's holiday deal. Mechanism link: concrete + soft foam = arch gone by lunch; our arch holds. Core emotion: finally something for her (not the customers).",
+   "based_on": "SOURCE RTGv1_I6 'WARNING: Only 48 hours left' warehouse static (30d $1,397, ROAS 4.13): warehouse boxes + 4 colorways + 'last chance 40% off' (we keep the warehouse world + offer, drop the deadline). Layout: Sorviq ornate seasonal label.",
+   "reference_blocks": [
+    "ornate vintage label: kicker + big offer + small line",
+    "product group below on seasonal props"
+   ],
+   "copy_slots": [
+    "label kicker (max 3 words, HOLIDAY SALE)",
+    "label offer: 60% OFF SITEWIDE",
+    "label small line (max 6 words)"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format look"
+   ],
+   "tags": [
+    "offer",
+    "seasonal"
+   ],
+   "dr_brief": {
+    "avatar": "woman 40-62, US, warehouse/retail on concrete 8-10 hrs, holiday peak season shifts",
+    "language": [
+     "concrete floors",
+     "peak season",
+     "on my feet all day",
+     "by lunch"
+    ],
+    "angle_habit": "wears cheap sneakers and buys new ones every few months",
+    "dream": "gets through peak season and still enjoys the holidays",
+    "conditions": "DIY substitutes: cheap sneakers, gel insoles, anti-fatigue mat she can't take with her",
+    "anchoring": "vs a new pair of cheap sneakers every 3 months",
+    "risk_reversal": "30 days = a full month of peak-season shifts",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "the warehouse worker herself",
+    "topic": "holiday peak season",
+    "format": "look from Sorviq ornate label; world from I6 warehouse",
+    "concept": "the deal in a vintage holiday label, sitting on warehouse pine",
+    "copy_hook_structure": "proven offer headline (I6/H3)",
+    "visual_hook": "ornate label + pine + shoes",
+    "identification": "peak-season concrete shifts",
+    "point_of_contact": "Stepprs warehouse '12h shifts' (424d), I6",
+    "function_mechanism": "cheap foam flattens on concrete by lunch"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "60% OFF SITEWIDE",
+   "on_image_text": [
+    "HOLIDAY SALE",
+    "Free Shipping & 30-Day Guarantee"
+   ],
+   "primary_text": "Working 8 to 10 hours on unyielding concrete floors during peak holiday season will test any pair of shoes.\\n\\nMost cheap sneakers use soft foam that feels great for the first hour. But by lunch, your body weight compresses that foam down to paper-thin rubber. The arch collapses, your heel takes every strike directly against the concrete, and your toes are pinched tight as your feet swell.\\n\\nThe Ortho Stretch Cushion Shoe is built for women who work on their feet:\\n- Built-in anatomical arch support that never flattens out under you\\n- Thick rocker sole that absorbs the shock of hard warehouse floors\\n- Wide stretch-knit upper that gives swollen toes breathing room\\n- Slip-resistant grip and easy slip-on elastic laces\\n\\nWhile you spend your week packing holiday orders for everyone else, this deal is for you.\\n\\nOur Holiday Sale is live: 60% OFF SITEWIDE.\\n\\nThat brings them down to $59.95 (was $120).\\nUse code LEAKED10 at checkout for 60% OFF SITEWIDE + EXTRA 10% OFF.\\n\\nPut them through 30 days of real shifts on concrete. If your feet are not noticeably happier, return them within 30 days for a full refund.",
+   "fb_headline": "Built For Concrete Floors · 60% Off",
+   "fb_description": "Holiday Sale · Now $59.95",
+   "copy_angle": "Concrete-floor warehouse worker holiday peak season deal",
+   "copy_why": "Modeled on RTGv1_I6 warehouse winner ($1,397 spend, ROAS 4.13) and Sorviq ornate seasonal label benchmark",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_12ad83bbe3444306a56e17b56cf54528",
+   "scene": "Real photo on a pale wood table in a bright warehouse (cardboard boxes softly blurred behind): fresh pine branches, holly leaves and a few red berries frame the top; an ornate vintage cream label with a thin red double border and small gold corner flourishes sits in the top half (like the reference's label, but cream and red, not yellow), holding the kicker in red caps, the big offer in heavy red letters and the small line in dark navy. In the lower half, the ComfortWear pair from the product reference stands on the table, three-quarter view, sharp, about 55% of the width.",
+   "prompt": "Real photo on a pale wood table in a bright warehouse (cardboard boxes softly blurred behind): fresh pine branches, holly leaves and a few red berries frame the top; an ornate vintage cream label with a thin red double border and small gold corner flourishes sits in the top half (like the reference's label, but cream and red, not yellow), holding the kicker in red caps, the big offer in heavy red letters and the small line in dark navy. In the lower half, the ComfortWear pair from the product reference stands on the table, three-quarter view, sharp, about 55% of the width.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: label kicker (max 3 words, HOLIDAY SALE); label offer: 60% OFF SITEWIDE; label small line (max 6 words)):\n- HEADLINE (biggest text): \"60% OFF SITEWIDE\"\n- \"HOLIDAY SALE\"\n- \"Free Shipping & 30-Day Guarantee\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_08_ornate_holiday_label_warehouse_v1.png"
+  },
+  {
+   "id": "T48_09_dear_santa_wishlist_strike",
+   "group": "iteration",
+   "persona": "gift_for_her",
+   "colorway": "grey_pink",
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE: \"60% OFF SITEWIDE\" + small line \"Free shipping & returns · 30-day money-back guarantee\". Price $59.95 (was $120). LEAKED10 extra 10% may go in primary text only. No Black Friday wording, no deadlines, hours-left or end dates (none confirmed), no gifts. Strike-through price may show $120 -> $59.95.",
+   "copy_notes": "Offer ad: lead offer is exactly \"60% OFF SITEWIDE\" with \"HOLIDAY SALE\" as kicker; the supporting terms on one small line. Never '40% OFF', never 'Black Friday', no end date. Strike price is $120 (never $90). Show $59.95.",
+   "benchmark": "rv424_dear_wishlist_strike",
+   "format_name": "dear_wishlist_note_strike_price_striped_circle",
+   "format_source": "PupBox, 10d, seasonal holiday (Atria MCP seasonal 2026-11-24)",
+   "background": "4 Seasonal: white field with a red-and-white striped circle and a few pine sprigs, the pair in the circle",
+   "background_source": "PupBox 'Dear Human, my Black Friday wishlist' $33->$6, 10d",
+   "angle": "Gift for mom: Mom's wishlist note with the struck price. Mechanism link: she's been on her feet in soft sneakers that go flat; the gift is support that holds. Core emotion: being thought of / practical love.",
+   "based_on": "SOURCE RTGv1_I19 '$59 per pair' color fan (30d $640, ROAS 2.46) + Hike 'Grab one for your mom... perfect early holiday gift' (rival). Layout: PupBox strike price + wishlist.",
+   "reference_blocks": [
+    "kicker",
+    "big strike-through price $120 -> $59.95",
+    "small line",
+    "product in striped circle",
+    "tiny footer line"
+   ],
+   "copy_slots": [
+    "kicker (max 3 words)",
+    "price line: ~~$120~~ $59.95",
+    "one short line (max 7 words)",
+    "footer line (max 6 words)"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format look"
+   ],
+   "tags": [
+    "offer",
+    "gift",
+    "seasonal",
+    "competitor_answer"
+   ],
+   "rival": "Hike '24 Hours Left. Grab one for your sister, your mom... perfect early holiday gift'",
+   "dr_brief": {
+    "avatar": "adult daughter 30-50 buying for mom 60+ who's on her feet / walks daily",
+    "language": [
+     "my mom",
+     "on her feet all day",
+     "she never buys herself anything"
+    ],
+    "angle_habit": "gives mom slippers or a gift card every year",
+    "dream": "mom actually walks the holiday market with her",
+    "conditions": "DIY substitutes: slippers, gift cards, department-store sneakers",
+    "anchoring": "vs $120 regular price; less than a nice dinner",
+    "risk_reversal": "30-day money-back guarantee if mom doesn't love them",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "mom (her wishlist) via the adult child",
+    "topic": "holiday gift lists",
+    "format": "look from PupBox wishlist strike price",
+    "concept": "mom's wishlist has one line: shoes she can stand in",
+    "copy_hook_structure": "proven: '$59 per pair' (I19) + strike price",
+    "visual_hook": "big struck price in a candy-stripe circle",
+    "identification": "mom never buys herself good shoes",
+    "point_of_contact": "Hike 'grab one for your mom'",
+    "function_mechanism": "slippers and soft sneakers have no arch support"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "Mom's Christmas Kitchen Wishlist",
+   "on_image_text": [
+    "HOLIDAY SALE",
+    "~~$120~~ $59.95",
+    "Free Shipping · 30-Day Money-Back Guarantee"
+   ],
+   "primary_text": "If your mom is like mine, her holiday wishlist has zero things for herself on it.\n\nInstead, she spends Christmas Day standing on hard kitchen tile from 7:00 AM to dinner, baking pies, stirring gravy, and hosting the family. By 4:00 PM, she is quietly hunting for a chair because her arches ache and her heels are throbbing.\n\nShe is still wearing cheap slippers or five-year-old department-store sneakers that flattened out years ago.\n\nThis year, give her the one gift her feet are actually wishing for: the Ortho Stretch Cushion Shoe.\n- Built-in anatomical arch support that never collapses under body weight\n- Thick rocker sole cushion that absorbs hard shocks on tile and pavement\n- Stretch-knit wide toe box that gives bunions and swollen toes plenty of room\n- Elastic no-tie laces so she never has to bend down to tie them\n\nWhether she is cooking all Christmas Day or walking the neighborhood to look at lights, she will feel the difference from the first step.\n\nOur Holiday Sale dropped them to $59.95 (regularly $120).\nUse code LEAKED10 at checkout for 60% OFF SITEWIDE + EXTRA 10% OFF.\n\nEvery pair comes with free shipping and our 30-day money-back guarantee. If she does not genuinely love walking in them, return them within 30 days for a full refund.",
+   "fb_headline": "Mom's Christmas Wishlist · 60% Off",
+   "fb_description": "30-Day Money-Back Guarantee",
+   "copy_angle": "Holiday gift for mom: Christmas kitchen standing and neighborhood walk comfort on mom's wishlist",
+   "copy_why": "Modeled on RTGv1_I19 strike price winner and PupBox wishlist benchmark",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_12ad83bbe3444306a56e17b56cf54528",
+   "scene": "Clean white field. Top: the kicker in heavy red caps, then a huge price line: '$120' in black with a red strike-through line across it, and '$59.95' in heavy red, then the short line in heavy black and a small red rounded outline pill. Middle/lower: a large red-and-white striped circle (candy-stripe ring like the reference) with a few pine sprigs and tiny red stars at its edge; the ComfortWear pair from the product reference sits inside the white center of the circle, sharp, about 50% of the width. Footer line small in dark grey at the bottom.",
+   "prompt": "Clean white field. Top: the kicker in heavy red caps, then a huge price line: '$120' in black with a red strike-through line across it, and '$59.95' in heavy red, then the short line in heavy black and a small red rounded outline pill. Middle/lower: a large red-and-white striped circle (candy-stripe ring like the reference) with a few pine sprigs and tiny red stars at its edge; the ComfortWear pair from the product reference sits inside the white center of the circle, sharp, about 50% of the width. Footer line small in dark grey at the bottom.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: kicker (max 3 words); price line: ~~$120~~ $59.95; one short line (max 7 words); footer line (max 6 words)):\n- HEADLINE (biggest text): \"Mom's Christmas Kitchen Wishlist\"\n- \"HOLIDAY SALE\"\n- \"~~$120~~ $59.95\"\n- \"Free Shipping · 30-Day Money-Back Guarantee\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_09_dear_santa_wishlist_strike_v1.png"
+  },
+  {
+   "id": "T48_10_car_seat_road_trip_plus",
+   "group": "iteration",
+   "persona": "plus_size",
+   "colorway": "black_purple",
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE: \"60% OFF SITEWIDE\" + small line \"Free shipping & returns · 30-day money-back guarantee\". Price $59.95 (was $120). LEAKED10 extra 10% may go in primary text only. No Black Friday wording, no deadlines, hours-left or end dates (none confirmed), no gifts.",
+   "copy_notes": "Offer ad: lead offer is exactly \"60% OFF SITEWIDE\" with \"HOLIDAY SALE\" as kicker; the supporting terms on one small line. Never '40% OFF', never 'Black Friday', no end date.",
+   "benchmark": "rv424_w18_car_seat_winter_road",
+   "format_name": "car_seat_product_winter_road_two_tone_headline_pill",
+   "format_source": "Vsock (alpaca socks), 12d, wellness growth rank 18 (+94 places)",
+   "background": "1 Real place: the pair resting on a light-grey car passenger seat, windshield view of a snowy holiday highway, soft daylight",
+   "background_source": "Vsock 'Miles to go. Warmth to bring.' rank 18",
+   "rival": "Hike 'Finally, shoes for heavier women' / 'More weight shouldn't mean more wobble' (new 0d)",
+   "angle": "Plus-size holiday road trip to the grandkids: the drive, then 3 days on her feet. Answers Hike's new heavier-women ads with our plus-size winner. Mechanism link: more weight flattens soft foam faster; arch holds. Core emotion: showing up for family without paying for it in pain.",
+   "based_on": "SOURCE TOFV1_KQ37 'Made for plus-size feet. Now 60% off.' (new7: $293, ROAS 2.08) + KW1 COM284 ($7,762, 2.26). Layout: Vsock two-tone rhythm headline + subline + CTA pill on car seat.",
+   "reference_blocks": [
+    "two-line rhythm headline, second line accent color",
+    "small subline",
+    "product on car seat",
+    "CTA pill"
+   ],
+   "copy_slots": [
+    "two-line headline (max 8 words, line 2 accent)",
+    "subline (max 8 words)",
+    "pill: offer"
+   ],
+   "risk": "moderate",
+   "bets": [
+    "format look"
+   ],
+   "tags": [
+    "plus_size",
+    "travel",
+    "offer",
+    "competitor_answer",
+    "seasonal"
+   ],
+   "dr_brief": {
+    "avatar": "woman 40-65, US, plus-size (size 18-26), mom/grandma, heels and arches ache by afternoon, swelling by evening",
+    "language": [
+     "plus-size feet",
+     "more weight on my feet",
+     "my feet swell",
+     "flat by lunch",
+     "sit on a bench",
+     "keep up with the kids"
+    ],
+    "angle_habit": "buys max-cushion sneakers and sits out half the day on a bench",
+    "dream": "walks the whole park day / trip with her family instead of waiting on the bench with the bags",
+    "conditions": "DIY substitutes: soft max-cushion sneakers (foam flattens faster under more weight), sizing up, insoles",
+    "anchoring": "vs $150+ Hokas that flatten in weeks, and vs a ruined trip day",
+    "risk_reversal": "30 days = several full park/walk days; full refund if not for her",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "plus-size grandma on a holiday road trip",
+    "topic": "driving to the grandkids for the holidays",
+    "format": "look from Vsock car seat; narrative from KQ37",
+    "concept": "the long drive is easy; the 3 days on her feet at her daughter's house are the test",
+    "copy_hook_structure": "identity call-out (KQ37 'Made for plus-size feet')",
+    "visual_hook": "shoes on the passenger seat, snowy road ahead",
+    "identification": "she dreads standing in the kitchen all holiday",
+    "point_of_contact": "Hike heavier-women ads + KQ37",
+    "function_mechanism": "max-cushion sneakers flatten faster under more weight"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "Made For Plus-Size Feet. Support That Holds.",
+   "on_image_text": [
+    "HOLIDAY SALE: 60% OFF SITEWIDE",
+    "Shop Now"
+   ],
+   "primary_text": "The 4-hour drive to see the grandkids is easy.\\n\\nThe real test is the three days on your feet afterward: standing on hardwood kitchen floors, walking through holiday markets, and trying to keep up without constantly hunting for a bench to sit down.\\n\\nWhen you carry more weight, ordinary 'max-cushion' sneakers flatten out fast. By lunch, that squishy foam is compressed flat, your arches collapse, and your heels take every hard step. Sizing up does not help either. Your heel just slips while your toes get pinched as your feet swell.\\n\\nThe Ortho Stretch Cushion Shoe is engineered specifically for support that will not cave under pressure:\\n- Firm anatomical arch support that holds its shape all day long\\n- Thick rocker sole cushion that protects sore heels and knees\\n- Stretch-knit wide toe box that expands gently when feet swell\\n- Slip-resistant grip and elastic no-tie laces\\n\\nOur Holiday Sale is live: 60% OFF SITEWIDE.\\n\\nGet your pair for $59.95 (was $120).\\nUse code LEAKED10 at checkout for 60% OFF SITEWIDE + EXTRA 10% OFF.\\n\\nWear them through the holidays for 30 days. If your feet are not walking comfortably from morning to night, return them within 30 days for a full refund.",
+   "fb_headline": "Made For Plus-Size Feet · 60% Off",
+   "fb_description": "Holiday Sale · Now $59.95",
+   "copy_angle": "Plus-size holiday family road trip and all-day standing support",
+   "copy_why": "Modeled on TOFV1_KQ37 'Made for plus-size feet. Now 60% off.' and KW1 COM284 with Vsock car seat layout",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_12ad83bbe3444306a56e17b56cf54528",
+   "scene": "Real photo inside a car: the ComfortWear pair from the product reference rests on a light grey fabric passenger seat, three-quarter view, sharp, about 55% of the width, lit by soft daylight; through the windshield a snowy holiday highway with pine trees and a pale sky. The headline sits top center on the bright windshield/sky area in two lines: line 1 in heavy dark navy, line 2 the same size and weight in white on a solid deep-teal rounded bar. The subline small in dark navy under it; at the bottom a solid red rounded pill with white offer text.",
+   "prompt": "Real photo inside a car: the ComfortWear pair from the product reference rests on a light grey fabric passenger seat, three-quarter view, sharp, about 55% of the width, lit by soft daylight; through the windshield a snowy holiday highway with pine trees and a pale sky. The headline sits top center on the bright windshield/sky area in two lines: line 1 in heavy dark navy, line 2 the same size and weight in white on a solid deep-teal rounded bar. The subline small in dark navy under it; at the bottom a solid red rounded pill with white offer text.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: two-line headline (max 8 words, line 2 accent); subline (max 8 words); pill: offer):\n- HEADLINE (biggest text): \"Made For Plus-Size Feet. Support That Holds.\"\n- \"HOLIDAY SALE: 60% OFF SITEWIDE\"\n- \"Shop Now\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_10_car_seat_road_trip_plus_v1.png"
+  },
+  {
+   "id": "T48_11_airdrop_cobblestones",
+   "group": "net_new",
+   "persona": "traveler",
+   "colorway": "navy_blue",
+   "funnel": "tof",
+   "offer": null,
+   "benchmark": "rv424_w42_airdrop_popup",
+   "format_name": "ios_airdrop_popup_product_over_sky",
+   "format_source": "Holistic Goddess (castor oil), 11d, wellness growth rank 42 (+42 places)",
+   "background": "1 Real place: bright blue sky over old European terracotta rooftops with a few white blossoms in the foreground, an iOS AirDrop popup card in the middle with the shoe photo inside",
+   "background_source": "Holistic Goddess AirDrop popup over sky, rank 42",
+   "angle": "Europe trip: an AirDrop from a fellow traveler on day 3 of cobblestones. Mechanism link: cobblestones + soft sneaker foam = arch gone by noon; arch holds, rocker rolls. Core emotion: playful insider tip / curiosity.",
+   "based_on": "Net-new format (AirDrop popup). Copy DNA: TOFV1_NJ1 COM336 Europe cobblestones (7d $2,746) and NK2 COM367 'we tested 4 shoes in Europe'; OR3 COM406 '2026's Favorite Shoes For Traveling' (7d $2,078). Layout: Holistic Goddess AirDrop dialog (title, body line, Decline/Accept).",
+   "reference_blocks": [
+    "AirDrop dialog title",
+    "one-line dialog body ('X wants to AirDrop you...')",
+    "product image in card",
+    "Decline / Accept buttons"
+   ],
+   "copy_slots": [
+    "dialog body line (max 14 words, 'wants to AirDrop you' style)",
+    "optional small headline above popup (max 6 words)"
+   ],
+   "copy_notes": "Buttons stay 'Decline' and 'Accept'. Sender is a first name (e.g. a fellow traveler), not a brand handle.",
+   "risk": "aggressive",
+   "bets": [
+    "format",
+    "messenger"
+   ],
+   "tags": [
+    "travel",
+    "europe"
+   ],
+   "dr_brief": {
+    "avatar": "woman 50-70, US, bucket-list Europe trip, 20,000+ steps a day on cobblestones",
+    "language": [
+     "cobblestones",
+     "20,000 steps",
+     "day 3",
+     "sat out the walking tour"
+    ],
+    "angle_habit": "packs her running shoes / Hokas for Europe",
+    "dream": "does the whole walking tour on day 5 instead of waiting at the cafe",
+    "conditions": "DIY substitutes: Hokas, running shoes, insoles",
+    "anchoring": "vs a $5,000 trip spent sitting out",
+    "risk_reversal": "30 days covers the whole trip and the week before",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "a fellow traveler",
+    "topic": "Europe trip packing / the day-3 wall",
+    "format": "iOS AirDrop dialog",
+    "concept": "a stranger on the tour AirDrops her the shoes",
+    "copy_hook_structure": "native UI curiosity",
+    "visual_hook": "AirDrop popup over a European sky",
+    "identification": "day 3 on cobblestones her heels give out",
+    "point_of_contact": "NJ1/NK2 scripts blame running shoes on cobblestones",
+    "function_mechanism": "soft running-shoe foam squishes on uneven stone; the arch collapses"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "Day 3 on cobblestones?",
+   "on_image_text": [
+    "AirDrop",
+    "Sarah wants to share Ortho Stretch Shoes.",
+    "Decline",
+    "Accept"
+   ],
+   "primary_text": "By day 3 in Rome, 20,000 steps on cobblestones had completely crushed my feet. I was sitting outside a cafe near the Pantheon, nursing a cappuccino, ready to sit out the afternoon walking tour because my running shoes had completely given out. Then my phone buzzed with an AirDrop. A woman from our tour group named Sarah was standing twenty feet away, smiling, pointing down at her feet. She had on the Ortho Stretch Cushion Shoe. 'Accept it,' she whispered. 'Trust me.' Here is what nobody tells you before a bucket-list Europe trip: soft running-shoe foam feels great in the hotel lobby, but by noon on uneven stone, it squishes flat. The arch collapses, your heel takes every single impact, and by hour five your toes are clamped tight. These shoes are built completely differently. The built-in arch support actually holds its shape under your full body weight all day. The cushioned rocker sole rolls each step forward over uneven stone so your heels do not take the beating. The wide toe box and stretch-knit upper let your feet swell without pinching. And the elastic no-tie laces mean zero fussing on the tour bus. You do not spend $5,000 on a dream trip to spend your afternoons waiting at a cafe bench. Right now, the Holiday Sale is live for 60% off sitewide, bringing them to $59.95 (regularly $120). They come with a 30-day money-back guarantee, which covers your whole trip and the week before. If they do not save your feet on the cobblestones, return them within 30 days for a full refund. Tap below to check sizes before your next trip.",
+   "fb_headline": "The Cobblestone Walking Shoe",
+   "fb_description": "30-Day Money-Back Guarantee",
+   "copy_angle": "Europe trip cobblestones: a fellow traveler AirDrops the shoe on day 3.",
+   "copy_why": "Based on winning cobblestone scripts NJ1 ($2,746) and NK2, targeting travelers whose running shoes collapse on uneven stone.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_7232bd10e6a940feb5e8b44396aec094",
+   "scene": "Real photo: bright blue sky over old European terracotta rooftops at the bottom edge, a few soft white and pink blossoms blurred in the foreground corners. In the middle, an iOS-style AirDrop dialog card (white, rounded corners, light grey divider lines like the reference): title 'AirDrop' at top, the body line in small dark text, a square image area showing the ComfortWear shoe from the product reference in three-quarter view on a light background (shoe large within the card), and two buttons at the bottom 'Decline' (blue) and 'Accept' (blue, bold). The optional small headline sits above the card in heavy white or navy.",
+   "prompt": "Real photo: bright blue sky over old European terracotta rooftops at the bottom edge, a few soft white and pink blossoms blurred in the foreground corners. In the middle, an iOS-style AirDrop dialog card (white, rounded corners, light grey divider lines like the reference): title 'AirDrop' at top, the body line in small dark text, a square image area showing the ComfortWear shoe from the product reference in three-quarter view on a light background (shoe large within the card), and two buttons at the bottom 'Decline' (blue) and 'Accept' (blue, bold). The optional small headline sits above the card in heavy white or navy.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: dialog body line (max 14 words, 'wants to AirDrop you' style); optional small headline above popup (max 6 words)):\n- HEADLINE (biggest text): \"Day 3 on cobblestones?\"\n- \"AirDrop\"\n- \"Sarah wants to share Ortho Stretch Shoes.\"\n- \"Decline\"\n- \"Accept\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "style": "ugc",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_11_airdrop_cobblestones_v1.png"
+  },
+  {
+   "id": "T48_12_goodbye_hello_server_bunions",
+   "group": "net_new",
+   "persona": "restaurant",
+   "colorway": "light_grey",
+   "funnel": "tof",
+   "offer": null,
+   "benchmark": "rv424_w27_goodbye_hello_serif",
+   "format_name": "goodbye_x_small_line_giant_serif_hello_y",
+   "format_source": "The Nerve Brand (nerve cream), 19d, wellness growth rank 27 (+67 places)",
+   "background": "5 Textured prop surface: white diner counter with an order pad and a coffee cup, the shoe hanging by its heel loop from the counter edge / standing on the counter, bright morning light",
+   "background_source": "The Nerve Brand 'goodbye burning feet at 3am / hello sleep', rank 27",
+   "angle": "Server/line cook: one dominant pain = bunions crushed by hour 6 of a double. Mechanism link: narrow toe boxes clamp as feet swell; stretch-knit wide toe box gives room (no 'extra wide' promise). Core emotion: relief + attitude.",
+   "based_on": "Net-new persona/angle. Copy DNA: HF2 Aubrey 'by 3 p.m. your toes are crammed together... making your bunions worse'; survey: bunions 2nd foot problem (9%); avatar_personas Persona 4 (server). Layout: Nerve Brand small 'goodbye...' line + giant serif 'hello ...' + 3 small pills.",
+   "reference_blocks": [
+    "small 'goodbye ...' line",
+    "giant two-word serif 'hello ...'",
+    "three small outlined pills"
+   ],
+   "copy_slots": [
+    "small goodbye line (max 7 words)",
+    "giant hello line (2 words)",
+    "3 pills (max 3 words each)"
+   ],
+   "copy_notes": "One pain only: bunions. No 'extra wide', no 'fits everyone', no relief/cure claim.",
+   "risk": "moderate",
+   "bets": [
+    "format look",
+    "segment (server)"
+   ],
+   "tags": [
+    "FP",
+    "bunions"
+   ],
+   "dr_brief": {
+    "avatar": "woman 35-60, US server/line cook, doubles on tile, bunions for years",
+    "language": [
+     "doubles",
+     "my bunions",
+     "by the dinner rush",
+     "tile floors"
+    ],
+    "angle_habit": "cuts slits in old sneakers / sizes up a half size",
+    "dream": "works the holiday double and still goes out after",
+    "conditions": "DIY substitutes: sizing up (heel slips, trips), cutting the shoe, bunion pads",
+    "anchoring": "vs one night's tips",
+    "risk_reversal": "30 days = 15+ shifts",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "the server herself",
+    "topic": "holiday-party doubles",
+    "format": "Nerve Brand goodbye/hello serif",
+    "concept": "goodbye to the toe-crush by the dinner rush",
+    "copy_hook_structure": "'goodbye X / hello Y'",
+    "visual_hook": "giant elegant serif on a diner counter",
+    "identification": "by the dinner rush her bunions throb",
+    "point_of_contact": "HF2 'toes crammed by 3pm'",
+    "function_mechanism": "running shoes taper at the toe; swelling + taper = crush"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "Hello room.",
+   "on_image_text": [
+    "Goodbye dinner rush bunions.",
+    "Wide toe box",
+    "Stretch knit",
+    "Grip sole"
+   ],
+   "primary_text": "By 3 p.m. on a double shift, standard sneakers turn into a torture trap for bunions. Your feet naturally swell after six hours on quarry tile. But ordinary running shoes taper right at the front, clamping your big toe inward and rubbing that joint raw against stiff seams. I used to size up half a size just to give my bunions room. Then my heels slipped with every tray I carried. I even cut a slit in an old pair of sneakers once, which completely ruined the shoe. The Ortho Stretch Cushion Shoe fixes the actual mechanics. The stretch-knit upper gives in all directions, so it wraps over bunions without pressure points. The wide toe box lets your toes spread out naturally instead of being crammed together by the dinner rush. Underneath, the built-in arch support holds its shape all shift instead of flattening out like cheap foam. The cushioned rocker sole takes the sting off hard tile floors, and the slip-resistant grip handles grease and wet spills around the kitchen line. One good Friday night in tips covers the whole pair. Right now, the Holiday Sale is live for 60% off sitewide, bringing them to $59.95 (was $120). They come with a 30-day money-back guarantee. Wear them for 15 full shifts. If your bunions still throb by the dinner rush, return them within 30 days for a full refund. Tap below to claim your size before the next double.",
+   "fb_headline": "Server Shoes Built for Bunions",
+   "fb_description": "30-Day Money-Back Guarantee",
+   "copy_angle": "Server double shifts: eliminating dinner rush bunion crush with a stretch-knit wide toe box.",
+   "copy_why": "Rooted in HF2 Aubrey's 'toes crammed by 3pm' and survey data identifying bunions as the #2 foot pain for food service workers.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_7232bd10e6a940feb5e8b44396aec094",
+   "scene": "IMPORTANT: exactly one shoe, fully inside the frame with at least 7% margin from the right edge; no second shoe. Bright morning photo of a white diner counter (order pad, coffee mug softly blurred at the edge). On the right half, the light-grey ComfortWear shoe from the product reference stands on the counter, three-quarter view, sharp, about 45% of the width. Left half: the small 'goodbye' line in dark navy (small, regular), under it the giant two-word line in a huge black elegant serif (two stacked words), then three small rounded outlined pills with dark navy text.",
+   "prompt": "IMPORTANT: exactly one shoe, fully inside the frame with at least 7% margin from the right edge; no second shoe. Bright morning photo of a white diner counter (order pad, coffee mug softly blurred at the edge). On the right half, the light-grey ComfortWear shoe from the product reference stands on the counter, three-quarter view, sharp, about 45% of the width. Left half: the small 'goodbye' line in dark navy (small, regular), under it the giant two-word line in a huge black elegant serif (two stacked words), then three small rounded outlined pills with dark navy text.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: small goodbye line (max 7 words); giant hello line (2 words); 3 pills (max 3 words each)):\n- HEADLINE (biggest text): \"Hello room.\"\n- \"Goodbye dinner rush bunions.\"\n- \"Wide toe box\"\n- \"Stretch knit\"\n- \"Grip sole\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_12_goodbye_hello_server_bunions_v2.png"
+  },
+  {
+   "id": "T48_13_framed_card_arrows_concrete",
+   "group": "net_new",
+   "persona": "housekeeping",
+   "colorway": "black_white",
+   "funnel": "tof",
+   "offer": null,
+   "benchmark": "rv424_w20_framed_card_arrows",
+   "format_name": "framed_product_card_handwritten_arrow_notes_angled_tag",
+   "format_source": "Cellumove (compression leggings), 29d, wellness growth rank 20 (+86 places)",
+   "background": "5 Textured prop: a hotel hallway carpet / housekeeping cart blurred behind, a cream framed card in the middle with the shoe inside, handwritten white notes with curved arrows around it, an angled red tag top-left",
+   "background_source": "Cellumove framed card + handwritten arrows, rank 20",
+   "angle": "Hotel housekeeper PF: the mechanism explained in handwritten arrows (arch that holds, rocker sole, knit room, grip). Mechanism link: this IS the mechanism. Core emotion: 'finally someone gets my job'.",
+   "based_on": "Net-new persona. Copy DNA: HF2 Aubrey 'reinforced arch support that holds its shape under constant pressure'; Stepprs 'arch holds, feet don't burn'; avatar_personas housekeeping. Layout: Cellumove framed card + 4 handwritten arrow notes + angled tag.",
+   "reference_blocks": [
+    "angled tag (2 words)",
+    "product in framed card with caption",
+    "4 handwritten arrow notes (2-4 words each)"
+   ],
+   "copy_slots": [
+    "angled tag (max 2 words)",
+    "card caption (max 4 words)",
+    "4 arrow notes (max 4 words each)"
+   ],
+   "copy_notes": "One pain only: heel pain/plantar fasciitis. Tag may be 'FREE SHIPPING' or a non-offer word.",
+   "risk": "moderate",
+   "bets": [
+    "format look",
+    "segment (housekeeping)"
+   ],
+   "tags": [
+    "FP",
+    "PF"
+   ],
+   "dr_brief": {
+    "avatar": "woman 35-60, US hotel housekeeper, 16-20 rooms a day, heel pain first steps out of bed",
+    "language": [
+     "16 rooms",
+     "bending and pushing the cart",
+     "my heels in the morning"
+    ],
+    "angle_habit": "wears the cheapest sneakers because they get ruined",
+    "dream": "finishes the floor and still has legs for her own house",
+    "conditions": "DIY substitutes: cheap sneakers, gel heel cups",
+    "anchoring": "vs a new $40 pair every 2 months",
+    "risk_reversal": "30 days = a month of full floors",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "the housekeeper herself",
+    "topic": "holiday occupancy rush",
+    "format": "Cellumove framed card + arrows",
+    "concept": "a shoe annotated like a cheat sheet",
+    "copy_hook_structure": "feature callouts named by job",
+    "visual_hook": "framed card + handwritten arrows",
+    "identification": "first steps of the morning feel like glass",
+    "point_of_contact": "HF2 + Stepprs mechanism ads",
+    "function_mechanism": "cheap foam heel cups compress in a week"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "Room 16 cart pusher cheat",
+   "on_image_text": [
+    "FREE SHIPPING",
+    "Arch holds",
+    "Rocker cushion",
+    "Toe room",
+    "Floor grip"
+   ],
+   "primary_text": "When you clean 16 hotel rooms a day, your heels take the hit on every single turn. Pushing the heavy cart down endless carpeted hallways, stripping beds, bending over tubs. By 4 p.m., the bottom of your heel burns. And by the next morning, those first steps out of bed feel like stepping barefoot on broken glass. Most of us just buy cheap $40 sneakers at the big-box store every two months because hotel work ruins shoes anyway. Or we shove flimsy gel heel cups inside. Those cheap gel pads squash flat within a week. Here is the real problem: soft foam compresses under your body weight within hours. Once the foam goes flat, your arch collapses and your heel bone slams directly into the hard floor on every step. The Ortho Stretch Cushion Shoe was built to solve that exact breakdown. The built-in arch support is reinforced to hold its shape under constant pressure, keeping your foot properly aligned through all 16 rooms. The cushioned rocker sole absorbs the impact before it reaches your heel and gently rolls your stride forward. The stretch-knit upper gives your toes room to breathe without pinching, and the slip-resistant grip keeps you steady on wet bathroom tile. Instead of blowing $40 on cheap sneakers that flatten out in weeks, you get a shoe engineered for heavy shifts. Right now, our Holiday Sale is live for 60% off sitewide, bringing them down to $59.95 (was $120). Plus, you get a 30-day money-back guarantee. Wear them through an entire month of full floors. If your heels still hurt when you get out of bed, send them back within 30 days for a full refund. Tap below to get your pair with free shipping before the holiday rush.",
+   "fb_headline": "The 16-Room Housekeeper Shoe",
+   "fb_description": "30-Day Money-Back Guarantee",
+   "copy_angle": "Hotel housekeeper heel pain: annotated mechanism cheat sheet showing why the arch holds across 16-room shifts.",
+   "copy_why": "Built from HF2 Aubrey's reinforced arch mechanism and Stepprs' floor-burn contrast, targeting hotel workers suffering morning heel pain.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_7232bd10e6a940feb5e8b44396aec094",
+   "scene": "IMPORTANT: the caption line sits INSIDE the cream card under the shoe (dark text), not over the hallway; one single red tag fully inside the frame at least 7% from the edges; no stray punctuation or extra marks. Background: a softly blurred hotel hallway with patterned carpet and a housekeeping cart (light and warm). In the middle, a cream framed card (thin border, like a photo print) holding the black-and-white ComfortWear shoe from the product reference in side view, sharp, large (about 55% of the card), with the caption in small heavy black caps at the bottom of the card. Around the card, 4 short notes in white handwritten marker style with curved white arrows pointing to the arch, heel/sole, knit upper and outsole. Top-left an angled solid red tag with white heavy caps.",
+   "prompt": "IMPORTANT: the caption line sits INSIDE the cream card under the shoe (dark text), not over the hallway; one single red tag fully inside the frame at least 7% from the edges; no stray punctuation or extra marks. Background: a softly blurred hotel hallway with patterned carpet and a housekeeping cart (light and warm). In the middle, a cream framed card (thin border, like a photo print) holding the black-and-white ComfortWear shoe from the product reference in side view, sharp, large (about 55% of the card), with the caption in small heavy black caps at the bottom of the card. Around the card, 4 short notes in white handwritten marker style with curved white arrows pointing to the arch, heel/sole, knit upper and outsole. Top-left an angled solid red tag with white heavy caps.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: angled tag (max 2 words); card caption (max 4 words); 4 arrow notes (max 4 words each)):\n- CARD CAPTION, printed ONLY inside the cream framed card under the shoe (heavy black, 2 lines); nothing is printed over the hallway except the red tag: \"Room 16 cart pusher cheat\"\n- \"FREE SHIPPING\"\n- \"Arch holds\"\n- \"Rocker cushion\"\n- \"Toe room\"\n- \"Floor grip\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_13_framed_card_arrows_concrete_v3.png"
+  },
+  {
+   "id": "T48_14_italic_trio_double_shift",
+   "group": "net_new",
+   "persona": "cna_caregiver",
+   "colorway": "black_purple",
+   "funnel": "tof",
+   "offer": null,
+   "benchmark": "rv424_w10_italic_trio",
+   "format_name": "italic_condensed_two_line_headline_product_trio_row",
+   "format_source": "FEM+ Nutrition, 26d, wellness growth rank 10 (+118 places)",
+   "background": "10 Real interior: a bright laundry-room shelf / mudroom bench with three pairs lined up (Black/Purple, Black/White, White Blue), soft daylight, light grey wall",
+   "background_source": "FEM+ 'Last chance to try it for free' trio row, rank 10",
+   "angle": "CNA/home health aide double shifts: the rotation (a pair per shift). Mechanism link: cheap foam is dead by the second shift; our arch holds its shape all shift, and a second pair means one is always clean and dry. Core emotion: being prepared / in control.",
+   "based_on": "Net-new persona angle. Copy DNA: Emily RN 'I rotate between 2 pairs. Black Purple and White Blue' (C1 $523 4.69, B6 $4,137 3.45); avatar_personas Persona 2 (double-shift caregiver). Layout: FEM+ italic two-line headline + small subline + three products in a row.",
+   "reference_blocks": [
+    "italic two-line headline",
+    "small subline",
+    "three products in a row"
+   ],
+   "copy_slots": [
+    "italic headline (max 8 words)",
+    "subline (max 8 words)"
+   ],
+   "copy_notes": "Three pairs shown = three colorways (Black/Purple, Black/White, White Blue). No offer, no 'buy 3' deal (we don't run one).",
+   "risk": "moderate",
+   "bets": [
+    "format look",
+    "segment (CNA)"
+   ],
+   "tags": [
+    "FP",
+    "cna",
+    "healthcare"
+   ],
+   "dr_brief": {
+    "avatar": "woman 30-60, US CNA/home health aide, back-to-back doubles, heel and arch pain, low wages",
+    "language": [
+     "doubles",
+     "back to back",
+     "my patients",
+     "on my feet 16 hours"
+    ],
+    "angle_habit": "wears one cheap pair until it falls apart",
+    "dream": "has a fresh pair waiting for every shift and still has energy for her own kids",
+    "conditions": "DIY substitutes: Walmart sneakers, insoles",
+    "anchoring": "$59.95 a pair vs $150 name brands",
+    "risk_reversal": "30 days = 8+ doubles",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "the CNA herself",
+    "topic": "holiday staffing doubles",
+    "format": "FEM+ trio row",
+    "concept": "three pairs lined up = three shifts covered",
+    "copy_hook_structure": "Emily RN 'I rotate between 2 pairs'",
+    "visual_hook": "three colorways lined up on a mudroom bench",
+    "identification": "double after double on the same dead shoes",
+    "point_of_contact": "Emily RN quote",
+    "function_mechanism": "cheap foam is dead by the second shift"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "Working back-to-back doubles? Rotate pairs.",
+   "on_image_text": [
+    "Fresh support waiting for every shift."
+   ],
+   "primary_text": "When you work a 16-hour double shift as a certified nursing assistant (CNA) or caregiver, your shoes take a beating that normal sneakers cannot survive. By hour ten, cheap shoe foam is completely dead. It squashes down flat under your body weight, your arch collapses, and your heel takes every single step directly on linoleum. By the time you clock in for shift two, you are walking on crushed padding. I used to wear one pair of discount store sneakers until the soles literally split. Then I learned the rotation habit from senior nurses on the unit: you never wear the same pair on back-to-back shifts. Rotating between pairs lets the cushioning decompress, keeps one pair clean and dry, and gives your feet proper support when holiday staffing gets brutal. The Ortho Stretch Cushion Shoe is built for 16 hours on hospital floors. The built-in arch support actually holds its shape instead of collapsing halfway through your day. The cushioned rocker sole takes the impact off your heels while you transfer patients and rush between rooms. The wide toe box and stretch-knit fabric give your toes room when your feet swell by hour 14. And the slip-resistant grip keeps you planted on slick, wet linoleum. At $59.95 a pair on sale (regularly $120), you can grab two pairs for less than the price of a single $150 brand-name sneaker. Right now, the Holiday Sale is live for 60% off sitewide. Every pair is backed by our 30-day money-back guarantee. Put them through eight brutal doubles. If your feet are not thanking you by shift two, return them within 30 days for a full refund. Tap below to pick your colors while holiday stock lasts.",
+   "fb_headline": "Built for 16-Hour CNA Shifts",
+   "fb_description": "30-Day Money-Back Guarantee",
+   "copy_angle": "CNA double-shift rotation: alternating pairs so arch support never dies on 16-hour shifts.",
+   "copy_why": "Modeled on Emily RN's proven two-pair rotation quote ($4,137 spend winner) and caregiver double-shift fatigue data.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_7232bd10e6a940feb5e8b44396aec094",
+   "scene": "IMPORTANT: exactly three pairs (six shoes), all fully inside the frame with 7% margin on each side, larger (together about 85% of the width); no extra shoes cut off at the edges. Real photo of a bright mudroom bench against a light grey wall, soft daylight: three ComfortWear pairs from the product reference lined up in a row (Black/Purple, Black/White, and White with navy blue), each pair sharp, together filling about 80% of the width in the lower half. Top: a two-line heavy italic headline in dark navy (Poppins italic, never condensed), a small dark navy subline under it.",
+   "prompt": "IMPORTANT: exactly three pairs (six shoes), all fully inside the frame with 7% margin on each side, larger (together about 85% of the width); no extra shoes cut off at the edges. Real photo of a bright mudroom bench against a light grey wall, soft daylight: three ComfortWear pairs from the product reference lined up in a row (Black/Purple, Black/White, and White with navy blue), each pair sharp, together filling about 80% of the width in the lower half. Top: a two-line heavy italic headline in dark navy (Poppins italic, never condensed), a small dark navy subline under it.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: italic headline (max 8 words); subline (max 8 words)):\n- HEADLINE (biggest text): \"Working back-to-back doubles? Rotate pairs.\"\n- \"Fresh support waiting for every shift.\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_14_italic_trio_double_shift_v2.png"
+  },
+  {
+   "id": "T48_15_notes_card_why_30_days",
+   "group": "net_new",
+   "persona": "steady_feet",
+   "colorway": "black_mint",
+   "funnel": "tof",
+   "offer": null,
+   "benchmark": "rv424_notes_card_calendar",
+   "format_name": "notes_app_card_question_on_color_field_calendar_doodle",
+   "format_source": "Wholesome Story (supplement), 38d, rising (Atria MCP rising 2026-11-24)",
+   "background": "7 Color field: warm coral-to-peach gradient with white hand-drawn doodles (calendar with day 30 circled, little stars), the shoe tilted at top right, a white iOS-Notes card in the lower half",
+   "background_source": "Wholesome Story 'why do people take it for 90 days?' notes card, 38d rising",
+   "rival": "Stepprs 'Walk on Clouds - Or It's FREE.' (growth rank 3/5, 10d; 427d evergreen)",
+   "angle": "Honest expectation: why 30 days (the rocker sole and arch take a few days to feel normal). Answers Stepprs' 'Walk on clouds or it's free' with our 30-day money-back guarantee + honesty. Mechanism link: firm arch support feels different from soft foam at first because it holds. Core emotion: trust.",
+   "based_on": "Net-new angle (expectation-setting, avatar_personas Section 3 expectation gap). Copy DNA: Aubrey HF2 'First shift I noticed the difference by hour eight'; guarantee lines from C3/H3. Layout: Wholesome Story Notes card ('Get to know X / why do people...').",
+   "reference_blocks": [
+    "iOS Notes card: small title line",
+    "bold product/topic line",
+    "search-style question line"
+   ],
+   "copy_slots": [
+    "notes title (max 4 words)",
+    "bold line (max 4 words)",
+    "question line (max 10 words)"
+   ],
+   "copy_notes": "Honest timelines only; no 'instant relief'. Guarantee = 30-day money-back guarantee.",
+   "risk": "moderate",
+   "bets": [
+    "format look",
+    "angle (expectation)"
+   ],
+   "tags": [
+    "FP",
+    "guarantee",
+    "competitor_answer"
+   ],
+   "dr_brief": {
+    "avatar": "woman 55-75, US, heel/arch pain for years, skeptical after many shoes",
+    "language": [
+     "I've tried everything",
+     "give it a few days",
+     "my heels in the morning"
+    ],
+    "angle_habit": "returns shoes after one wear when they feel 'different'",
+    "dream": "a month from now she forgets about her feet on her walk",
+    "conditions": "DIY substitutes: soft slippers, memory-foam sneakers",
+    "anchoring": "vs $150+ sneakers that flatten and $300 custom orthotics",
+    "risk_reversal": "30-day money-back guarantee: wear them for a month of real days",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "the brand, honest voice",
+    "topic": "why the guarantee is 30 days",
+    "format": "Notes app card on coral",
+    "concept": "'why do people give these 30 days?' as a note to self",
+    "copy_hook_structure": "curiosity question in a notes card",
+    "visual_hook": "Notes card + calendar doodle",
+    "identification": "she quits new shoes on day 1",
+    "point_of_contact": "Stepprs 'or it's free'",
+    "function_mechanism": "soft foam feels good on day 1 and flat by week 2; support feels firm on day 1 and holds"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "Why 30 days?",
+   "on_image_text": [
+    "Note to self",
+    "Why does real arch support take time?"
+   ],
+   "primary_text": "Most shoe brands promise instant comfort on minute one. Here is the honest reason we do not say that: Squishy memory-foam sneakers feel heavenly the second you slip them on in the store. But soft foam has zero structural integrity. Within two weeks, it compresses flat under your body weight. Your arch collapses, your heel slams the ground, and your foot pain returns. The Ortho Stretch Cushion Shoe feels different the first time you put it on. It has firm, built-in arch support designed to actually hold its shape under your weight. It has a cushioned rocker sole that gently rolls your foot forward to take the impact off your heel. And it has a wide, stretch-knit toe box so your toes can spread out naturally. If you are used to dead foam sneakers, proper arch support can feel unfamiliar for the first few days. Your feet need time to adjust to being properly aligned. That is exactly why we give you a 30-day money-back guarantee instead of asking you to judge them on day one. We want you to wear them for a month of real life. Walk the neighborhood. Run your errands. Stand in your kitchen. If you do not feel the difference once your feet adjust, return them within 30 days for a full refund. You do not need to spend $300 on custom orthotics or $160 on big-name running shoes that flatten out in a month. Right now, our Holiday Sale is live for 60% off sitewide, bringing them to $59.95 (was $120). Tap below to test your pair for 30 full days.",
+   "fb_headline": "Why We Give You 30 Full Days",
+   "fb_description": "30-Day Money-Back Guarantee",
+   "copy_angle": "Honest expectation: why firm arch support takes a few days to adjust, backed by our 30-day money-back guarantee.",
+   "copy_why": "Direct answer to Stepprs' 'Walk on Clouds' gimmick, leveraging avatar_personas expectation gap and Aubrey's hour-eight realization.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_7232bd10e6a940feb5e8b44396aec094",
+   "scene": "IMPORTANT: the headline appears ONLY ONCE, as the big bold line inside the Notes card; there is NO big text at the top of the image. Warm coral-to-peach gradient background with thin white hand-drawn doodles: a small calendar grid with day 30 circled, a few stars and sparkles. Top right: the ComfortWear shoe from the product reference, tilted, sharp, about 45% of the width. Lower half: a white iOS-Notes-style card (rounded corners, '< Notes' in small yellow-orange at top-left, toolbar icons at the bottom) with the small title line, the bold line large in black, and the question line inside a thin outlined search-style box.",
+   "prompt": "IMPORTANT: the headline appears ONLY ONCE, as the big bold line inside the Notes card; there is NO big text at the top of the image. Warm coral-to-peach gradient background with thin white hand-drawn doodles: a small calendar grid with day 30 circled, a few stars and sparkles. Top right: the ComfortWear shoe from the product reference, tilted, sharp, about 45% of the width. Lower half: a white iOS-Notes-style card (rounded corners, '< Notes' in small yellow-orange at top-left, toolbar icons at the bottom) with the small title line, the bold line large in black, and the question line inside a thin outlined search-style box.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: notes title (max 4 words); bold line (max 4 words); question line (max 10 words)):\n- HEADLINE (biggest text): \"Why 30 days?\"\n- \"Note to self\"\n- \"Why does real arch support take time?\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_15_notes_card_why_30_days_v2.png"
+  },
+  {
+   "id": "T48_16_holiday_party_candid_drama",
+   "group": "net_new",
+   "persona": "comfort_only",
+   "colorway": "all_black",
+   "funnel": "tof",
+   "offer": null,
+   "benchmark": "rv424_candid_encounter",
+   "format_name": "candid_drama_moment_photo_single_caption_line",
+   "format_source": "Flawless After 40 (story advertorial), 27d, rising (Atria MCP rising 2026-11-24)",
+   "background": "10 Real interior: warm candid photo at a family holiday party in a bright kitchen, a woman 60 in a nice outfit standing (not sitting) talking with relatives, her black shoes clearly visible on light wood floor; a single caption line on a white strip",
+   "background_source": "Flawless After 40 candid 'dinner table in Paris' drama photo, 27d rising",
+   "angle": "Drama format (women 45+ over-index on drama ads): the holiday party where she stood all night while her sister-in-law asked for a chair. Mechanism link: her old flats/foam had no arch; ours holds all evening. Core emotion: quiet triumph.",
+   "based_on": "Net-new (drama story format per CREATIVE_LEARNINGS A2). Copy DNA: 'comfort_only' survey segment (22%, 'no pain, just comfort'); 'don't be the person on a bench' spine (NH3/KW1). Layout: Flawless After 40 candid photo + long story primary text.",
+   "reference_blocks": [
+    "candid photo moment",
+    "one caption line (open loop)"
+   ],
+   "copy_slots": [
+    "caption line (max 14 words, open-loop story hook)"
+   ],
+   "copy_notes": "Primary text is a first-person story (long-form, stakes, past tense). One pain only (aching feet by evening). No cure claims.",
+   "risk": "aggressive",
+   "bets": [
+    "format (drama)",
+    "concept"
+   ],
+   "tags": [
+    "drama",
+    "seasonal"
+   ],
+   "dr_brief": {
+    "avatar": "woman 55-70, US, no diagnosis, feet ache by evening in dress shoes/flats, hosts holidays",
+    "language": [
+     "on my feet all day cooking",
+     "by dessert",
+     "my good shoes"
+    ],
+    "angle_habit": "wears pretty flats to holiday dinners and kicks them off under the table",
+    "dream": "stays standing and laughing through the whole party",
+    "conditions": "DIY substitutes: flats, slippers at home, sneakers that don't go with the outfit",
+    "anchoring": "vs one restaurant dinner",
+    "risk_reversal": "30 days covers Thanksgiving through Christmas",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "the woman herself telling the story",
+    "topic": "holiday family party",
+    "format": "drama candid (Flawless After 40)",
+    "concept": "the one relative who always needs to sit down... wasn't her this year",
+    "copy_hook_structure": "open-loop single sentence (Stefan: 'So the other day...')",
+    "visual_hook": "candid holiday party photo",
+    "identification": "kicking off her shoes under the table by dessert",
+    "point_of_contact": "survey 'just want comfort'",
+    "function_mechanism": "flats and soft slip-ons have no arch; feet collapse by evening"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "By dessert, my sister-in-law asked for a chair. I was still standing.",
+   "on_image_text": [],
+   "primary_text": "So last Thanksgiving, I did what I always do. I put on my good dress flats, spent six hours on my feet cooking for twenty people, and by dessert, I was secretly kicking my shoes off under the dining table. My arches were burning from standing on the kitchen tile all day. Shoving my swollen feet back into those stiff flats just to clear dishes was pure torture. The problem with regular flats and soft slip-ons is simple physics: they have zero arch support. The foam compresses flat within two hours under your body weight, so your arch collapses and your heel takes every step directly against hard floors. My daughter finally told me about the Ortho Stretch Cushion Shoe from Comfort Wear. I ordered the all-black pair so they would look clean with nice holiday slacks. What a difference. They have firm built-in arch support that refuses to cave in, plus a cushioned rocker sole that absorbs the pounding on hardwood and tile. The stretch-knit toe box gives my feet plenty of room when they swell, and the slip-resistant grip kept me steady on a greasy kitchen floor. At our holiday party this year, I stood and hosted from 1 PM until 8 PM. Around 7 PM, my sister-in-law collapsed onto a stool and asked if anyone had an extra chair. I was still standing by the stove with a glass of wine, laughing. I had completely forgotten about my feet. Right now, their Holiday Sale is 60% off sitewide. That brings them to $59.95 instead of $120, which is less than what we spent on dinner out last week. You also get a full 30-day money-back guarantee. Wear them through Thanksgiving and Christmas cooking. If your feet are not thrilled, return them within 30 days for a full refund. P.S. If you host the holidays, do not spend another year suffering in flat dress shoes.",
+   "fb_headline": "Stand All Evening Without Aching",
+   "fb_description": "30-Day Full Refund Guarantee",
+   "copy_angle": "Holiday party drama: stood all evening while sister-in-law asked for a chair",
+   "copy_why": "Survey 'comfort_only' segment (22% 'no pain, just comfort') + drama story format (CREATIVE_LEARNINGS A2)",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_9adfbc20abf14e14a6433f68e81bc4f2",
+   "scene": "IMPORTANT: the caption appears ONLY ONCE, in the white strip at the bottom; there is NO text at the top of the photo. Real candid documentary photo, warm evening light in a bright home kitchen during a family holiday party: a woman about 60 in a nice burgundy blouse and dark trousers stands confidently holding a glass, mid-laugh, talking with two relatives (one seated at the table); full-length framing so her all-black ComfortWear shoes are clearly visible on a light wood floor (shoes sharp, lower third). One full-width white strip near the bottom with the caption line in heavy black text, centered.",
+   "prompt": "IMPORTANT: the caption appears ONLY ONCE, in the white strip at the bottom; there is NO text at the top of the photo. Real candid documentary photo, warm evening light in a bright home kitchen during a family holiday party: a woman about 60 in a nice burgundy blouse and dark trousers stands confidently holding a glass, mid-laugh, talking with two relatives (one seated at the table); full-length framing so her all-black ComfortWear shoes are clearly visible on a light wood floor (shoes sharp, lower third). One full-width white strip near the bottom with the caption line in heavy black text, centered.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: caption line (max 14 words, open-loop story hook)):\n- CAPTION, printed ONLY in the white strip at the bottom (heavy black, 2 lines); nothing is printed over the photo: \"By dessert, my sister-in-law asked for a chair. I was still standing.\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "style": "ugc",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_16_holiday_party_candid_drama_v3.png"
+  },
+  {
+   "id": "T48_17_ornament_mom_winter_walks",
+   "group": "net_new",
+   "persona": "gift_for_her",
+   "colorway": "purple",
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE: \"60% OFF SITEWIDE\" + small line \"Free shipping & returns · 30-day money-back guarantee\". Price $59.95 (was $120). LEAKED10 extra 10% may go in primary text only. No Black Friday wording, no deadlines, hours-left or end dates (none confirmed), no gifts.",
+   "copy_notes": "Offer ad: lead offer is exactly \"60% OFF SITEWIDE\" with \"HOLIDAY SALE\" as kicker; the supporting terms on one small line. Never '40% OFF', never 'Black Friday', no end date. Angle gap: adult child worried about mom on wet/icy winter sidewalks. NEVER fall-prevention, balance or safety claims; only the approved feature 'slip-resistant grip'.",
+   "benchmark": "rv424_ornament_on_tree",
+   "format_name": "product_as_ornament_on_tree_serif_four_lines",
+   "format_source": "Din Tai Fung (restaurant ornaments), 6d, rising (Atria MCP seasonal 2026-11-24)",
+   "background": "4 Seasonal holiday: a softly lit pale-green Christmas tree with warm white lights and gold ornaments; the shoe hangs by its heel loop on a red ribbon like an ornament, held by a hand; serif headline on the left",
+   "background_source": "Din Tai Fung 'Bring home a little... this season' ornament, 6d rising",
+   "angle_gap": "Hike 'Worried about mom slipping this winter? Get her these.' (new, 0-1d) + 'Your mom will never trip & fall wearing these boots': adult-child winter worry, which we have not tested. Ours: slip-resistant grip + support, no fall claims.",
+   "angle": "Adult child gifting mom for winter walks. Mechanism link: worn flat sneakers lose their arch and grip; ours keeps both. Core emotion: protective love.",
+   "based_on": "Angle gap from Hike (core competitor, 0-1d) + our I19 '$59 per pair' price. Layout: Din Tai Fung serif four-line headline + product as ornament.",
+   "reference_blocks": [
+    "serif headline, 4 short lines, one in italic",
+    "small 'limited' style line (offer)",
+    "product hanging as ornament"
+   ],
+   "copy_slots": [
+    "serif headline (max 10 words, one italic line)",
+    "small offer line: 60% OFF SITEWIDE"
+   ],
+   "risk": "aggressive",
+   "bets": [
+    "angle (adult child winter)",
+    "format look"
+   ],
+   "tags": [
+    "gift",
+    "seasonal",
+    "angle_gap",
+    "offer"
+   ],
+   "dr_brief": {
+    "avatar": "adult daughter 35-55 whose mom 65+ walks daily in worn sneakers",
+    "language": [
+     "my mom",
+     "her daily walk",
+     "those old sneakers",
+     "winter sidewalks"
+    ],
+    "angle_habit": "worries silently; buys mom slippers",
+    "dream": "mom keeps her morning walk all winter",
+    "conditions": "DIY substitutes: slippers, mom's 5-year-old sneakers",
+    "anchoring": "$59.95 vs a $120 regular price",
+    "risk_reversal": "30-day money-back guarantee",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "the adult daughter",
+    "topic": "Christmas gift for mom + winter sidewalks",
+    "format": "Din Tai Fung ornament",
+    "concept": "the shoe hangs on the tree like the best ornament for mom",
+    "copy_hook_structure": "adult-child worry (Hike)",
+    "visual_hook": "shoe as an ornament on a lit tree",
+    "identification": "mom still wears sneakers with smooth soles",
+    "point_of_contact": "Hike adult-child winter ads",
+    "function_mechanism": "old sneakers lose arch support and tread"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "For Mom's winter walks. *Arch support* and real grip.",
+   "on_image_text": [
+    "HOLIDAY SALE: 60% OFF SITEWIDE"
+   ],
+   "primary_text": "If your mom is like mine, she takes her morning walk no matter how cold it gets outside. And if she is like mine, she is still wearing the same sneakers she bought four years ago. The soles are worn smooth, and the foam insoles are flat as cardboard. She will not buy herself new shoes. Moms almost never do. That is why I got her the Ortho Stretch Cushion Shoe in purple for Christmas. They have a slip-resistant grip sole designed for slick winter sidewalks, plus built-in arch support that holds its shape instead of flattening out after two blocks. The wide toe box gives her toes room to breathe without pinching, and the elastic no-tie laces mean she never has to bend over to tie frozen laces with cold fingers. Our Holiday Sale is live right now: 60% off sitewide. That brings them down to $59.95 (regularly $120). Use code LEAKED10 at checkout to get an extra 10% off on top of the 60% discount. You also get free shipping & returns, plus a full 30-day money-back guarantee. Have her wear them on her morning walks for a month. If she does not love them, return them within 30 days for a full refund. P.S. If she is between sizes, size up. The stretch knit accommodates thicker winter socks comfortably.",
+   "fb_headline": "Holiday Gift for Mom: 60% Off Sale",
+   "fb_description": "Free Shipping & 30-Day Trial",
+   "copy_angle": "Adult daughter gifting mom for winter walks with slip-resistant grip and arch support",
+   "copy_why": "Competitor angle gap (adult child winter worry) + I19 price structure",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_9adfbc20abf14e14a6433f68e81bc4f2",
+   "scene": "Real photo of a softly lit pale-green Christmas tree with warm white lights and small gold ornaments (light and airy, not dark). On the right, a woman's hand holds a red satin ribbon from which one purple ComfortWear shoe from the product reference hangs like an ornament by its heel loop, sharp, about 40% of the width. Left side: the serif headline in 4 short lines, dark navy (one line in serif italic), then the small offer line in a solid red rounded box with white text.",
+   "prompt": "Real photo of a softly lit pale-green Christmas tree with warm white lights and small gold ornaments (light and airy, not dark). On the right, a woman's hand holds a red satin ribbon from which one purple ComfortWear shoe from the product reference hangs like an ornament by its heel loop, sharp, about 40% of the width. Left side: the serif headline in 4 short lines, dark navy (one line in serif italic), then the small offer line in a solid red rounded box with white text.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: serif headline (max 10 words, one italic line); small offer line: 60% OFF SITEWIDE):\n- HEADLINE (biggest text): \"For Mom's winter walks. *Arch support* and real grip.\"\n- \"HOLIDAY SALE: 60% OFF SITEWIDE\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_17_ornament_mom_winter_walks_v1.png"
+  },
+  {
+   "id": "T48_18_staggered_soft_firm_four",
+   "group": "net_new",
+   "persona": "stylist",
+   "colorway": "navy_blue",
+   "funnel": "tof",
+   "offer": null,
+   "benchmark": "rv424_staggered_words",
+   "format_name": "staggered_two_by_two_words_between_four_products",
+   "format_source": "Nine West (boots), 11d, seasonal (Atria MCP seasonal 2026-11-24)",
+   "background": "12 Plain studio field: clean white seamless (studio ad 2 of max 3), four single shoes (White Blue, Black/Purple, Red, Light Grey) staggered with four short words between them",
+   "background_source": "Nine West 'Low heel. Big trend.' 11d",
+   "angle": "Hair stylist (behind the chair 9 hours): the mechanism in 4 words: soft where you want it, firm where it counts. Mechanism link: this IS the mechanism (knit soft, arch firm). Core emotion: 'finally both'.",
+   "based_on": "Net-new persona. Copy DNA: HF2 Aubrey 'cushioning designed for standing, not running, reinforced arch support'; avatar_personas stylist. Layout: Nine West staggered 4-word headline between 4 products + small line.",
+   "reference_blocks": [
+    "4 staggered words/short phrases interleaved with 4 products (2 pairs of 2 words)",
+    "small one-line caption"
+   ],
+   "copy_slots": [
+    "4 staggered words as two 2-word phrases",
+    "small caption (max 12 words)"
+   ],
+   "copy_notes": "Four colorways shown: White Blue, Black/Purple, Red, Light Grey.",
+   "risk": "moderate",
+   "bets": [
+    "format look",
+    "segment (stylist)"
+   ],
+   "tags": [
+    "FP",
+    "mechanism"
+   ],
+   "dr_brief": {
+    "avatar": "woman 30-60, US hairstylist/salon owner, 9+ hours behind the chair, arch and lower back ache",
+    "language": [
+     "behind the chair",
+     "back-to-back clients",
+     "holiday booking rush"
+    ],
+    "angle_habit": "stands on an anti-fatigue mat in cute flat sneakers",
+    "dream": "books the holiday rush and still feels her legs",
+    "conditions": "DIY substitutes: anti-fatigue mat, cute flat sneakers, Crocs",
+    "anchoring": "vs one color appointment",
+    "risk_reversal": "30 days = the whole holiday booking rush",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "the stylist herself",
+    "topic": "holiday booking rush",
+    "format": "Nine West staggered words",
+    "concept": "soft knit + firm arch, said in four words between four shoes",
+    "copy_hook_structure": "two-beat contrast (Nine West)",
+    "visual_hook": "four colorways staggered with huge words",
+    "identification": "by the 6th client her arches burn",
+    "point_of_contact": "HF2 'cushioning for standing, not running'",
+    "function_mechanism": "cute sneakers are soft everywhere and support nowhere"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "Soft knit. Firm arch.",
+   "on_image_text": [
+    "Engineered for 9 hours behind the chair."
+   ],
+   "primary_text": "If you work behind the chair during December, you already know the drill. It is 2 PM, you are on your fourth highlight foil of the day, and your arches feel like they are on fire. An anti-fatigue mat helps for about an hour. Then your cute sneakers give up. Here is the real problem with ordinary sneakers: they are soft everywhere, which means they support nowhere. After three hours on hard salon floors, squishy foam compresses flat. Your arch collapses, and your lower back takes the hit. Comfort Wear built the Ortho Stretch Cushion Shoe specifically for standing all day, not running. The upper is breathable stretch knit that never pinches when your feet swell in the afternoon. Underneath, it has firm, built-in arch support that refuses to cave in under your body weight. The cushioned rocker sole absorbs shock from concrete salon floors, and the slip-resistant grip keeps you steady around wash stations. They even have elastic no-tie laces so you never have to touch floor grit between clients. Right now, their Holiday Sale is 60% off sitewide. That makes them $59.95 instead of $120. That is less than a single root touch-up. You get a full 30-day wear trial. Wear them through your entire holiday booking rush. If your feet and back are not thanking you by day 30, return them for a full refund. P.S. They come in navy blue, all-black, and four other clean colors that match salon dress codes.",
+   "fb_headline": "Built for 9 Hours Behind the Chair",
+   "fb_description": "60% Off Holiday Sale: $59.95",
+   "copy_angle": "Hair stylist mechanism: soft stretch knit on top, firm arch support underneath",
+   "copy_why": "Stylist persona + HF2 Aubrey winning script ('cushioning designed for standing, not running')",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_9adfbc20abf14e14a6433f68e81bc4f2",
+   "scene": "IMPORTANT: the layout fills the WHOLE canvas edge to edge and is centered (no blank half). IMPORTANT: the ONLY big words are the headline's four words (two short phrases); do NOT add any other words like trend or style; exactly four shoes fully inside the frame with 7% margins. Clean white seamless studio layout: four single ComfortWear shoes from the product reference (White with navy blue, Black/Purple, Red, Light Grey) in side views, staggered in a zig-zag column (shoes alternate right and left), each about 38% of the width; the first phrase (two words) sits top-left beside shoe 1 and the second phrase (two words) sits lower-right beside shoe 3, heavy black caps, so only two text blocks exist. The small caption in dark grey at the bottom center.",
+   "prompt": "IMPORTANT: the layout fills the WHOLE canvas edge to edge and is centered (no blank half). IMPORTANT: the ONLY big words are the headline's four words (two short phrases); do NOT add any other words like trend or style; exactly four shoes fully inside the frame with 7% margins. Clean white seamless studio layout: four single ComfortWear shoes from the product reference (White with navy blue, Black/Purple, Red, Light Grey) in side views, staggered in a zig-zag column (shoes alternate right and left), each about 38% of the width; the first phrase (two words) sits top-left beside shoe 1 and the second phrase (two words) sits lower-right beside shoe 3, heavy black caps, so only two text blocks exist. The small caption in dark grey at the bottom center.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: 4 staggered words as two 2-word phrases; small caption (max 12 words)):\n- HEADLINE (biggest text): \"Soft knit. Firm arch.\"\n- \"Engineered for 9 hours behind the chair.\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_18_staggered_soft_firm_four_v3.png"
+  },
+  {
+   "id": "T48_19_analogy_knit_walkers",
+   "group": "net_new",
+   "persona": "walker_weightloss",
+   "colorway": "red_burgundy",
+   "funnel": "tof",
+   "offer": null,
+   "benchmark": "rv424_analogy_for_your",
+   "format_name": "analogy_x_for_your_y_headline_on_knit_texture_closeup",
+   "format_source": "Braxley Bands (watch bands), 12d, rising (Atria MCP rising 2026-11-24)",
+   "background": "14 Natural woven texture: close crop of the shoe resting on a chunky grey cable-knit blanket, soft window light, headline right-aligned top, small Shop Now pill bottom-left",
+   "background_source": "Braxley 'Sweatpants for your wrist' 12d rising",
+   "angle": "Daily walker trying to walk off holiday weight: an analogy headline for how the shoe feels (comfort) + one benefit (arch that holds on the long loop). Mechanism link: soft walking shoes flatten on the long loop; ours holds. Core emotion: delight / indulgence without guilt.",
+   "based_on": "Net-new angle. Copy DNA: Stepprs walking-loss series ('It wasn't the walk. It was the aching after.'); survey 'no pain, just comfort' 22%; walker persona. Layout: Braxley analogy headline on knit + pill.",
+   "reference_blocks": [
+    "3-line analogy headline (right-aligned)",
+    "close product shot on knit",
+    "small Shop Now pill"
+   ],
+   "copy_slots": [
+    "analogy headline (max 5 words)",
+    "pill (2 words)"
+   ],
+   "copy_notes": "Analogy must be fresh and specific, not 'clouds'/'pillows' (rivals own those). One pain: heels ache after the long walk.",
+   "risk": "moderate",
+   "bets": [
+    "format look"
+   ],
+   "tags": [
+    "comfort",
+    "walking"
+   ],
+   "dr_brief": {
+    "avatar": "woman 45-70, US, walking daily to lose weight / after doctor's advice, heels ache after 30 minutes",
+    "language": [
+     "my daily walk",
+     "the long loop",
+     "after the holidays",
+     "heels ache after"
+    ],
+    "angle_habit": "buys soft walking shoes from the sporting-goods store",
+    "dream": "does the long loop every day through New Year's",
+    "conditions": "DIY substitutes: soft walking shoes, insoles",
+    "anchoring": "vs a gym membership she won't use",
+    "risk_reversal": "30 days = 30 walks",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "the walker herself",
+    "topic": "walking off holiday dinners",
+    "format": "Braxley analogy on knit",
+    "concept": "an everyday-comfort analogy for her feet",
+    "copy_hook_structure": "'X for your Y' analogy (Braxley)",
+    "visual_hook": "cozy knit close-up",
+    "identification": "cutting the walk short because her heels ache",
+    "point_of_contact": "Stepprs walking-loss series",
+    "function_mechanism": "soft walking-shoe foam flattens on pavement"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "A yoga mat on asphalt.",
+   "on_image_text": [
+    "Shop Now"
+   ],
+   "primary_text": "It was never the three-mile walk that made me want to quit. It was the aching heels thirty minutes after I got home. I started walking the neighborhood loop every morning after Thanksgiving to get ahead of the holiday weight. The first mile felt great. By mile two, my heels were pounding on the asphalt. By evening, taking that first step off the couch was sheer dread. I thought I needed more squishy foam, so I bought expensive running shoes at the sporting-goods store. Big mistake. Super-soft foam flattens out under body weight after twenty minutes on pavement. Once it crushes flat, your arch collapses and your heel takes every step directly on hard ground. A friend who walks every morning told me to try the Ortho Stretch Cushion Shoe. It is like unrolling a thick yoga mat over the asphalt. They give you that cozy stretch-knit feel over your toes, but underneath, they have real, firm arch support that never bottoms out. The cushioned rocker sole rolls your foot forward so your heels do not take the full brunt of the concrete. No more cutting the morning loop short. Right now, their Holiday Sale is 60% off sitewide, bringing them to $59.95 instead of $120. That is a fraction of a gym membership nobody actually uses. They give you a 30-day money-back guarantee. Take them on thirty morning walks. If your heels are still aching when you walk in your front door, return them within 30 days for a full refund. P.S. The burgundy knit colorway looks gorgeous with casual walking leggings.",
+   "fb_headline": "Finish Your Daily Walk in Comfort",
+   "fb_description": "Holiday Sale: Now $59.95",
+   "copy_angle": "Daily walker comfort analogy: a yoga mat on asphalt, pairing stretch-knit comfort with firm arch support on pavement",
+   "copy_why": "Stepprs walking-loss series ('It wasn't the walk. It was the aching after.') + survey 'comfort only' segment",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_9adfbc20abf14e14a6433f68e81bc4f2",
+   "scene": "Close-up real photo: the red ComfortWear shoe from the product reference rests on a chunky light-grey cable-knit blanket, soft window light, shoe sharp, filling the lower-left 55%. Top right: the analogy headline in 3 right-aligned lines of heavy black type. Bottom left: a small white rounded pill with black text.",
+   "prompt": "Close-up real photo: the red ComfortWear shoe from the product reference rests on a chunky light-grey cable-knit blanket, soft window light, shoe sharp, filling the lower-left 55%. Top right: the analogy headline in 3 right-aligned lines of heavy black type. Bottom left: a small white rounded pill with black text.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: analogy headline (max 5 words); pill (2 words)):\n- HEADLINE (biggest text): \"A yoga mat on asphalt.\"\n- \"Shop Now\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_19_analogy_knit_walkers_v1.png"
+  },
+  {
+   "id": "T48_20_thumb_test_card_disney",
+   "group": "net_new",
+   "persona": "traveler",
+   "colorway": "all_black",
+   "funnel": "tof",
+   "offer": null,
+   "benchmark": "rv424_lab_test_card",
+   "format_name": "comparison_test_card_four_items_result_row",
+   "format_source": "The Glow (shower filters), 10d, rising (Atria MCP rising 2026-11-24)",
+   "background": "7 Color field + card: soft blue-grey background, a white rounded test card with a serif title and a photo of 4 shoes on a white shelf (3 plain generic unbranded running sneakers + ours), a thumb pressing into each midsole/insole",
+   "background_source": "The Glow 'Best and Worst Shower Filters of 2026' test card, 10d rising",
+   "angle": "Grandma at Disney: the thumb test of 4 sneakers after a park day (foam that stays pressed in vs our arch that springs back). Mechanism link: the proof chain 'thumb into flattened foam vs ours'. Core emotion: 'I knew it' (vindication).",
+   "based_on": "Net-new persona/format. Copy DNA: JW1 COM320 'we tested 7 shoes at Disney' (7d $4,724) and NL1 'running shoes are the worst for Disney'; HI16 'Hokas 3/10 too much cushion, by hour 4'. CREATIVE_LEARNINGS proof chain: thumb into flattened foam vs ours. Layout: The Glow comparison test card.",
+   "reference_blocks": [
+    "small brand line",
+    "serif test title (3 lines)",
+    "photo of 4 items in a row",
+    "(implied result)"
+   ],
+   "copy_slots": [
+    "serif test title (max 14 words)",
+    "optional small result line (max 6 words)"
+   ],
+   "copy_notes": "Competitor shoes unnamed and unbranded (no Hoka/Skechers names on the image). No made-up scores.",
+   "risk": "aggressive",
+   "bets": [
+    "format",
+    "proof device"
+   ],
+   "tags": [
+    "FP",
+    "travel",
+    "disney",
+    "mechanism"
+   ],
+   "dr_brief": {
+    "avatar": "grandma 55-72, US, Disney trip with grandkids, 20,000+ steps a day, heels ache by hour 4",
+    "language": [
+     "park day",
+     "20,000 steps",
+     "rope drop to fireworks",
+     "sat on a bench"
+    ],
+    "angle_habit": "buys new running sneakers for the trip",
+    "dream": "stays for the fireworks with the grandkids",
+    "conditions": "DIY substitutes: running shoes, Hokas, insoles",
+    "anchoring": "vs a $150 park ticket wasted on a bench",
+    "risk_reversal": "30 days covers the trip",
+    "problem_mechanism": "soft foam compresses under body weight within hours; by afternoon the arch collapses and the heel takes every step on hard floors; narrow toe boxes clamp as feet swell",
+    "solution_mechanism": "built-in arch support that holds its shape + cushioned rocker sole + stretch-knit wide toe box + slip-resistant grip + elastic no-tie laces",
+    "usp": "support that holds AND stretch-knit room in one shoe at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "dream",
+     "slip-resistant grip": "odds",
+     "elastic no-tie laces": "effort"
+    },
+    "gain_now": "Holiday Sale 60% off sitewide is live ($59.95, was $120)",
+    "lose_later": "another season of shifts/trips in shoes that already failed her",
+    "who": "the brand testing like a reviewer",
+    "topic": "Disney holiday trips",
+    "format": "The Glow test card",
+    "concept": "press your thumb into 4 shoes after a park day",
+    "copy_hook_structure": "proven 'we tested' (JW1)",
+    "visual_hook": "4 shoes, one test",
+    "identification": "her new sneakers felt great at rope drop",
+    "point_of_contact": "NL1/JW1/HI16 scripts",
+    "function_mechanism": "soft foam stays pressed in after 20,000 steps"
+   },
+   "lang": "en",
+   "format_ref": true,
+   "headline": "The thumb test: 4 sneakers after 20,000 steps.",
+   "on_image_text": [
+    "Only one arch springs back."
+   ],
+   "primary_text": "We took four popular walking shoes through a full 20,000-step theme park day. At 8 PM, we pressed a thumb into the midsole of each shoe. On the three soft running sneakers, the foam stayed dented in like warm bread dough. Under twenty thousand steps of continuous body weight, squishy foam compresses flat. It loses its rebound. By hour four, your arch collapses and your heels take every step directly on concrete. Only one shoe sprang immediately back: the Ortho Stretch Cushion Shoe. That is the exact difference between standing for the fireworks with your grandkids and spending half your afternoon stuck on a park bench. A theme park ticket costs over $150. You should not have to waste it resting your feet while your family rides without you. Comfort Wear built these with firm, anatomical arch support that never bottoms out. The cushioned rocker sole propels each step forward, while the stretch-knit upper lets your toes spread naturally when your feet swell in the afternoon. Plus, the elastic no-tie laces make slipping them on at 7 AM effortless. Right now, Comfort Wear's Holiday Sale is 60% off sitewide. That puts them at $59.95 (regularly $120). They come with a full 30-day money-back guarantee that easily covers your entire holiday trip. Wear them through the airport, the theme parks, and the long walk back to the hotel. If your feet are not thrilled, return them within 30 days for a full refund. P.S. They pack flat in your carry-on and weigh next to nothing.",
+   "fb_headline": "The 20,000-Step Theme Park Shoe Test",
+   "fb_description": "Holiday Sale: Now $59.95",
+   "copy_angle": "Grandma Disney traveler: 20,000-step thumb test comparing flattened foam vs resilient arch support",
+   "copy_why": "JW1 COM320 'we tested 7 shoes at Disney' ($4,724 spend winner) + CREATIVE_LEARNINGS thumb test proof chain",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_9adfbc20abf14e14a6433f68e81bc4f2",
+   "scene": "Soft blue-grey background. A large white rounded card fills the center (like the reference test card): small heavy brand-style caps line at top, the test title in a bold black serif (3 lines, centered), and below it a real photo of a white shelf with 4 shoes in a row: three plain generic unbranded white/grey running sneakers (NOT sock-knit, no stripes or logo shapes) and the all-black ComfortWear shoe from the product reference on the right; a thumb presses into each shoe's insole/midsole. Optional small result line in black under the photo.",
+   "prompt": "Soft blue-grey background. A large white rounded card fills the center (like the reference test card): small heavy brand-style caps line at top, the test title in a bold black serif (3 lines, centered), and below it a real photo of a white shelf with 4 shoes in a row: three plain generic unbranded white/grey running sneakers (NOT sock-knit, no stripes or logo shapes) and the all-black ComfortWear shoe from the product reference on the right; a thumb presses into each shoe's insole/midsole. Optional small result line in black under the photo.\n\nTHE ONLY TEXT IN THE IMAGE (place it in the layout's text areas in this reading order; the layout's text slots are: serif test title (max 14 words); optional small result line (max 6 words)):\n- HEADLINE (biggest text): \"The thumb test: 4 sneakers after 20,000 steps.\"\n- \"Only one arch springs back.\"\n\nTEXT RULES: render ONLY the quoted words above, each exactly once, spelled exactly (keep punctuation; a '~~' marker means draw that price struck through, do not print the tildes; words between *asterisks* are set in italic, do not print the asterisks). Every headline line is the same size, weight and color. All text is black, deep navy or white (white only on a dark or colored fill; a red/teal/gold fill may sit behind white or black text). Clean heavy Poppins-style sans-serif unless the layout names serif, italic or handwriting on a real object/note; never condensed or script fonts. Large and high contrast for women 60+: no text smaller than about 3% of the image height. Keep every text element at least 7% of the image width away from every edge, and keep the top and bottom 6% free of text and product. No logos, no brand names other than ComfortWear where quoted, no star ratings, no extra prices, badges or words, no castles, characters or park logos. Any non-ComfortWear shoe is a plain generic unbranded shoe with no stripes or logo shapes. The ComfortWear shoe is exactly the product reference model at true natural proportions (never squashed, stretched or elongated), sharp and clearly visible on a light or mid-tone area, never a dark shoe on a dark surface. Women only wear the shoe.",
+   "qa": "pass",
+   "provider": "kie 2K",
+   "final": "T48_20_thumb_test_card_disney_v1.png"
+  }
+ ]
+}
