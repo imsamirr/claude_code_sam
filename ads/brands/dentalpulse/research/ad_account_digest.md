@@ -1,32 +1,25 @@
 # DentalPULSE ad account digest
 
-Built 2026-11-20 from our Meta ad account (Atria pulls in research/data). Currency CAD. Spend shows what scaled; ROAS is Meta-reported. Note: Comparison/listicle ads send traffic to an advertorial (LP_LISTICLE); ROAS is the account's reported figure.
+Built 2026-11-24 from our Meta ad account (Atria pulls in research/data). Currency CAD. Spend shows what scaled; ROAS is Meta-reported. Note: Comparison/listicle ads send traffic to an advertorial (LP_LISTICLE); ROAS is the account's reported figure.
 
-## Current winners, last 30 days (spend $300+, ROAS 1.8+) (11)
+## Current winners, last 30 days (spend $300+, ROAS 1.8+) (9)
 
 ### VID_DEN32_COMPARISON_IT_02_LP_LISTICLE_V2 - Copy
-VIDEO · prospecting · ACTIVE · spend 11,831 · ROAS 2.07 · purchases 159.0
+VIDEO · prospecting · ACTIVE · spend 12,074 · ROAS 2.15 · purchases 164.0
 
 **Headline:** 6 of 7 pods leave live bacteria
 
 **Primary text:** A 90-day side-by-side lab test of seven leading ultrasonic dental cleaners revealed that most units available online fall short on deep decontamination. While many brands look identical on the outside, subsequent microscopic testing showed that six out of seven machines left live bacterial biofilm active on appliances overnight. Most consumer pods fail because they lack the specific mechanical frequency required to penetrate porous acrylic or use weak UV-C wavelengths that do not fully sanitize. This engineered unit was the only system tested that completely cleared subsurface buildup without damaging the appliance material. Read the full comparison breakdown to see the raw lab findings before choosing a device.
 
 ### _DEN_VID_DEN81_H3 REVISED_LP_LISTICLE_V1
-VIDEO · prospecting · ACTIVE · spend 5,723 · ROAS 1.98 · purchases 70.0
-
-**Headline:** 6 of 7 pods can't remove bacteria
-
-**Primary text:** A 90-day side-by-side lab test of seven leading ultrasonic dental cleaners revealed that most units available online fall short on deep decontamination. While many brands look identical on the outside, subsequent microscopic testing showed that six out of seven machines left live bacterial biofilm active on appliances overnight. Most consumer pods fail because they lack the specific mechanical frequency required to penetrate porous acrylic or use weak UV-C wavelengths that do not fully sanitize. This engineered unit was the only system tested that completely cleared subsurface buildup without damaging the appliance material. Read the full comparison breakdown to see the raw lab findings before choosing a device.
-
-### _DEN_VID_DEN81_H4 REVISED_LP_LISTICLE_V1
-VIDEO · prospecting · ACTIVE · spend 3,828 · ROAS 2.21 · purchases 56.0
+VIDEO · prospecting · ACTIVE · spend 5,730 · ROAS 1.88 · purchases 66.0
 
 **Headline:** 6 of 7 pods can't remove bacteria
 
 **Primary text:** A 90-day side-by-side lab test of seven leading ultrasonic dental cleaners revealed that most units available online fall short on deep decontamination. While many brands look identical on the outside, subsequent microscopic testing showed that six out of seven machines left live bacterial biofilm active on appliances overnight. Most consumer pods fail because they lack the specific mechanical frequency required to penetrate porous acrylic or use weak UV-C wavelengths that do not fully sanitize. This engineered unit was the only system tested that completely cleared subsurface buildup without damaging the appliance material. Read the full comparison breakdown to see the raw lab findings before choosing a device.
 
 ### IMG_DEN64_COMPARISON_IT_NATIVEAD_51_12_LP_LISTICLE_V1_DUPLICATED
-IMAGE · prospecting · ACTIVE · spend 3,654 · ROAS 2.29 · purchases 52.0
+IMAGE · prospecting · ACTIVE · spend 3,763 · ROAS 2.05 · purchases 50.0
 
 **Headline:** read this before you consider ultrasonic cleaners
 
@@ -51,14 +44,35 @@ Thirty-eight years running precision lathes. When you make parts to the thousand
 There is a big difference between clean and looks clean. Something
 
 ### VID_DEN24_COMPARISON_IT_02_LP_LISTICLE_V1_DUPLICATED
-VIDEO · prospecting · ACTIVE · spend 2,536 · ROAS 2.82 · purchases 44.0
+VIDEO · prospecting · ACTIVE · spend 2,446 · ROAS 2.8 · purchases 43.0
 
 **Headline:** You've Been Lied To
 
 **Primary text:** For decades, dental patients have been given outdated advice. We were told that a standard toothbrush and a chemical tablet were enough to keep dentures and oral appliances sanitized. Under a microscope, the science tells a completely different story. Traditional brushing creates micro-scratches that trap bacterial colonies, while tablets only mask the odor without clearing the porous buildup. New clinical research reveals that medical-grade ultrasonic cleaning at home is the only way to safely reach 99.9% of hidden pathogens. We tested the leading devices on the market to find out which ones actually protect your oral health. Read our official 90-day durability report to see the results.
 
+### IMG_DEN62_PROBSOL_ITERATION_02_LP_LISTICLE_V1_DUPLICATED
+IMAGE · prospecting · ACTIVE · spend 1,522 · ROAS 4.04 · purchases 41.0
+
+**Headline:** Top 7 Ultrasonic Cleaners for Dentures
+
+**Primary text:** We spent 3 months testing 7 of the most popular ultrasonic dental cleaners on the market.
+Not just reading Amazon reviews. Not just looking at specs.
+Actually using them. Every day. On real dentures, retainers, night guards, and aligners.
+We wanted to know: Which ones actually work? Which ones are overpriced junk? And which one is worth your money?
+Because let's be honest — you shouldn't have to guess when it comes to something you put in your mouth every single day.
+After 90+ days of real-world testing, we found a clear winner.
+One device outperformed the rest in cleaning power, ease of use, and durability.
+See the full results ⬇️
+
+### _DEN_VID_DEN81_H1 REVISED_LP_LISTICLE_V1
+VIDEO · prospecting · ACTIVE · spend 2,095 · ROAS 2.79 · purchases 34.0
+
+**Headline:** 6 of 7 pods can't remove bacteria
+
+**Primary text:** A 90-day side-by-side lab test of seven leading ultrasonic dental cleaners revealed that most units available online fall short on deep decontamination. While many brands look identical on the outside, subsequent microscopic testing showed that six out of seven machines left live bacterial biofilm active on appliances overnight. Most consumer pods fail because they lack the specific mechanical frequency required to penetrate porous acrylic or use weak UV-C wavelengths that do not fully sanitize. This engineered unit was the only system tested that completely cleared subsurface buildup without damaging the appliance material. Read the full comparison breakdown to see the raw lab findings before choosing a device.
+
 ### IMG_DEN64_COMPARISON_IT_NATIVEAD_51_3_LP_LISTICLE_V1 - Copy
-IMAGE · prospecting · ACTIVE · spend 1,696 · ROAS 2.78 · purchases 28.0
+IMAGE · prospecting · ACTIVE · spend 1,716 · ROAS 2.43 · purchases 26.0
 
 **Headline:** read this before you consider ultrasonic cleaners
 
@@ -82,44 +96,15 @@ Thirty-eight years running precision lathes. When you make parts to the thousand
 
 There is a big difference between clean and looks clean. Something
 
-### IMG_DEN62_PROBSOL_ITERATION_02_LP_LISTICLE_V1_DUPLICATED
-IMAGE · prospecting · ACTIVE · spend 1,234 · ROAS 3.22 · purchases 27.0
+### VID_DEN105_COMPARISON_IT_02_LP_LISTICLE_V2 - Copy
+VIDEO · prospecting · ACTIVE · spend 476 · ROAS 3.08 · purchases 10.0
 
-**Headline:** Top 7 Ultrasonic Cleaners for Dentures
-
-**Primary text:** We spent 3 months testing 7 of the most popular ultrasonic dental cleaners on the market.
-Not just reading Amazon reviews. Not just looking at specs.
-Actually using them. Every day. On real dentures, retainers, night guards, and aligners.
-We wanted to know: Which ones actually work? Which ones are overpriced junk? And which one is worth your money?
-Because let's be honest — you shouldn't have to guess when it comes to something you put in your mouth every single day.
-After 90+ days of real-world testing, we found a clear winner.
-One device outperformed the rest in cleaning power, ease of use, and durability.
-See the full results ⬇️
-
-### _DEN_VID_DEN81_H1 REVISED_LP_LISTICLE_V1
-VIDEO · prospecting · ACTIVE · spend 1,591 · ROAS 2.23 · purchases 22.0
-
-**Headline:** 6 of 7 pods can't remove bacteria
+**Headline:** 6 of 7 pods leave live bacteria
 
 **Primary text:** A 90-day side-by-side lab test of seven leading ultrasonic dental cleaners revealed that most units available online fall short on deep decontamination. While many brands look identical on the outside, subsequent microscopic testing showed that six out of seven machines left live bacterial biofilm active on appliances overnight. Most consumer pods fail because they lack the specific mechanical frequency required to penetrate porous acrylic or use weak UV-C wavelengths that do not fully sanitize. This engineered unit was the only system tested that completely cleared subsurface buildup without damaging the appliance material. Read the full comparison breakdown to see the raw lab findings before choosing a device.
 
-### TOFv1_A30
-IMAGE · prospecting · ACTIVE · spend 1,010 · ROAS 1.84 · purchases 11.0
-
-**Headline:** Top 7 Ultrasonic Cleaners For Dentures
-
-**Primary text:** We spent 3 months testing 7 of the most popular ultrasonic dental cleaners on the market.
-Not just reading Amazon reviews. Not just looking at specs.
-Actually using them. Every day. On real dentures, retainers, night guards, and aligners.
-We wanted to know: Which ones actually work? Which ones are overpriced junk? And which one is worth your money?
-Because let's be honest — you shouldn't have to guess when it comes to something you put in your mouth every single day.
-After 90+ days of real-world testing, we found a clear winner.
-One device outperformed the rest in cleaning power, ease of use, and durability.
-
-See the full results ⬇️
-
 ### Denture - HALF PRICE TODAY ONLY - Gift PDP
-IMAGE · prospecting · ACTIVE · spend 316 · ROAS 4.41 · purchases 9.0
+IMAGE · prospecting · ACTIVE · spend 352 · ROAS 3.96 · purchases 9.0
 
 **Headline:** 40% Off + Free Gifts
 
@@ -128,13 +113,6 @@ IMAGE · prospecting · ACTIVE · spend 316 · ROAS 4.41 · purchases 9.0
 Say goodbye to bacteria and bad smell coming from your dental appliance.
 
 Shop now: https://dentalpulsepro.com/products/dentalpulse-pod-pro-dentures
-
-### VID_DEN105_COMPARISON_IT_02_LP_LISTICLE_V2 - Copy
-VIDEO · prospecting · ACTIVE · spend 445 · ROAS 2.65 · purchases 8.0
-
-**Headline:** 6 of 7 pods leave live bacteria
-
-**Primary text:** A 90-day side-by-side lab test of seven leading ultrasonic dental cleaners revealed that most units available online fall short on deep decontamination. While many brands look identical on the outside, subsequent microscopic testing showed that six out of seven machines left live bacterial biofilm active on appliances overnight. Most consumer pods fail because they lack the specific mechanical frequency required to penetrate porous acrylic or use weak UV-C wavelengths that do not fully sanitize. This engineered unit was the only system tested that completely cleared subsurface buildup without damaging the appliance material. Read the full comparison breakdown to see the raw lab findings before choosing a device.
 
 ## Rising: launched in the last 30 days and already winning (4)
 
@@ -898,6 +876,64 @@ A scratchy throat here and there. Some chest congestion that wouldn't quit. I'd 
 I chalked it up to winter weather. Maybe my age catching up with me. I'm 72, these things happen, right?
 
 I doubled down on my health routine. Started taking elderberry and vitamin C. Bought a humidifier for the bedroom. Cut out dairy thinking maybe
+
+(target week 2026-W48)
+### 11/5 Denture Native 2 - Story - Advertorial 1
+IMAGE · ADSET_PAUSED · spend 198 · ROAS 3.6 · purchases 5.0
+
+**Headline:** Read This If You Wear Dentures....more
+
+**Primary text:** I debated for weeks whether to share this story.
+
+But if it can save even one person from going through what I did, it's worth the embarrassment.
+
+I've worn dentures for almost 8 years now. They changed my life, gave me back my confidence, my smile, my ability to enjoy meals with my family.
+
+I never thought they'd be the thing that nearly killed me.
+
+It started so innocently.
+
+A scratchy throat here and there. Some chest congestion that wouldn't quit. I'd wake up every morning feeling like I was getting over a cold that never actually arrived.
+I chalked it up to winter weather. Maybe my age catching up with me. I'm 72, these things happen, right?
+
+I doubled down on my health routine. Started taking elderberry and vitamin C. Bought a humidifier for the bedroom. Cut out dairy thinking maybe
+
+(target week 2026-W48)
+### 12/3 - D4_IfYouWearRetainers_YouNeedToHearThis_DentalPulse__Jesse Ropat_H3V1 - PDP
+VIDEO · PAUSED · spend 129 · ROAS 2.17 · purchases 2.0
+
+**Headline:** Read more on how to clean your retainers In under 3 Minutes (no brushing..)
+
+**Primary text:** "Thought I was doing everything right, brushing my retainer with toothpaste, but then I learned I was actually creating tiny scratches where bacteria could hide. With DentalPULSE's ultrasonic cleaning, it's a whole new level of clean. It's not just about looking clear, it's about knowing my retainer is truly sanitized and bacteria-free every time it goes in my mouth. What a relief!" - Sarah M. ⭐⭐⭐⭐⭐
+
+(target week 2026-W48)
+### 12/02 Denture Native 15 - Story - Advertorial 1
+IMAGE · PAUSED · spend 125 · ROAS 0.0 · purchases 0.0
+
+**Headline:** Read This If You Wear Dentures....more
+
+**Primary text:** I debated for weeks whether to share this story.
+
+But if it can save even one person from going through what I did, it's worth the embarrassment.
+
+I've worn dentures for almost 8 years now. They changed my life, gave me back my confidence, my smile, my ability to enjoy meals with my family.
+
+I never thought they'd be the thing that nearly killed me.
+
+It started so innocently.
+
+A scratchy throat here and there. Some chest congestion that wouldn't quit. I'd wake up every morning feeling like I was getting over a cold that never actually arrived.
+I chalked it up to winter weather. Maybe my age catching up with me. I'm 72, these things happen, right?
+
+I doubled down on my health routine. Started taking elderberry and vitamin C. Bought a humidifier for the bedroom. Cut out dairy thinking maybe
+
+(target week 2026-W48)
+### 11/22 D1_H1 - Listicle
+VIDEO · ADSET_PAUSED · spend 86 · ROAS 0.0 · purchases 0.0
+
+**Headline:** Read more on how to clean your retainers In under 3 Minutes (no brushing..)
+
+**Primary text:** "Thought I was doing everything right, brushing my retainer with toothpaste, but then I learned I was actually creating tiny scratches where bacteria could hide. With DentalPULSE's ultrasonic cleaning, it's a whole new level of clean. It's not just about looking clear, it's about knowing my retainer is truly sanitized and bacteria-free every time it goes in my mouth. What a relief!" - Sarah M. ⭐⭐⭐⭐⭐
 
 ## Statics that failed (paused at under $200 spend)
 
