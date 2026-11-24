@@ -1,6 +1,6 @@
 {
  "id": "V48W_02_f33_nurse_hardwood_qa",
- "version": 1,
+ "version": 2,
  "created": "2026-11-24",
  "end_card": "auto",
  "transition": "cut",
@@ -75,9 +75,10 @@
   }
  ],
  "music": {
-  "file": "../../music/soft_acoustic_80bpm.mp3",
+  "file": "../../music/archies_acoustic_81bpm.mp3",
   "gain": 0.45,
-  "duck": false
+  "duck": false,
+  "note": "Original bed modeled on Archies m29085625967733847 (demucs-separated): 80.7 BPM, G major/E minor scale (G-Em-Am), strummed acoustic guitar + shaker/snaps, no kick/bass; ElevenLabs take via Atria, rubberband 1.346x, EQ-matched within 3 dB per band, side -9 dB."
  },
  "primary_text": "Nurses know the feeling: you survive a grueling 12-hour shift on hospital floors, only to get home and feel every step on your hard tile or wood.\n\nThat is why healthcare workers are switching to the Ortho Stretch Cushion Shoe. Built with targeted arch support and a shock-absorbing heel cup, it takes the punishing pressure off your heels and arches the minute you slip it on.\n\nHSA/FSA eligible and podiatrist-recommended. 500,000+ customers trust Comfort Wear for all-day relief. Try them for 30 days risk-free with our full money-back guarantee.",
  "headline": "Built For 12-Hour Nursing Shifts",

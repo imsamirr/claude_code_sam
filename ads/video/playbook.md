@@ -272,6 +272,13 @@ Each entry gives the template, real references (advertiser, Atria id, days runni
   - Personas and scenes: "What I slip into for my 12-hour shift" (Tired Nurse, scrubs), "…for my morning walk with the grandkids" (Active Senior).
   - StefanBrain writes the title, subline and every beat.
 
+- **Matched music beds (2026-11-24, user: "model the background sound exactly like the reference"):**
+  - **Method:** separate the reference's music from any voice with demucs (`htdemucs`, two-stem and four-stem) and measure tempo, key/chords, the drums/bass/other balance, the 9-band spectrum and stereo width. Generate an instrumental take with ElevenLabs via Atria (66 credits per take). Pitch-shift or time-stretch it (rubberband), EQ-match it per band to the reference's music stem, and match the stereo width.
+  - **F33** (Archies hard floors): `music/archies_acoustic_81bpm.mp3`. 80.7 BPM, G major (the scale of the reference's E minor: G-Em-Am), strummed acoustic guitar + shaker/snaps, no kick/bass; within 3 dB per band.
+  - **F37** (Cuurt chiropractor): `music/cuurt_chiro_lofi_89bpm.mp3`. 89-91 BPM lo-fi hip-hop, A major, deep sub-bass, mellow keys; within 1.3 dB per band.
+  - **F36** (Archies pram walk): has **no song**. The bed sits about 40 dB under her voiceover, so the reference's sound is a voiceover over room tone.
+  - Two F33 takes missed: one came out at -40 dB (near-silent hiss), the other was dark and in B minor. Specific chords + "clear, present, normal volume" in the prompt worked; avoid "muffled/phone-recorded".
+
 ### F37. Credential title + red arrow at the shoe, expert holds it and explains (candidate, 2026-11-24)
 - **Example:** Thepickleballchiropractor with Cuurt `m2995570030794162` (partner ad, launched 2026-11-12, 27.7 s, rising: rank #139 of ~1,600, up 211 places in 14 d; a sibling `m1701094821667773` is at #124).
   - A chiropractor sits at a club bar with the shoes on the table, talking to camera.

@@ -1,6 +1,6 @@
 {
  "id": "V48W_03_f37_podiatrist_arrow_heather",
- "version": 3,
+ "version": 4,
  "created": "2026-11-24",
  "end_card": "auto",
  "transition": "cut",
@@ -131,9 +131,10 @@
   }
  ],
  "music": {
-  "file": "../../music/confident_strut_95bpm.mp3",
+  "file": "../../music/cuurt_chiro_lofi_89bpm.mp3",
   "gain": 0.45,
-  "duck": false
+  "duck": false,
+  "note": "Original bed modeled on Thepickleballchiropractor x Cuurt m2995570030794162 music stem (voice removed with demucs): 89-91 BPM lo-fi hip-hop, A major, deep sub-bass, mellow keys; ElevenLabs take via Atria, pitched -2 st, EQ-matched within 1.3 dB per band."
  },
  "primary_text": "If morning foot stiffness and heel pain are slowing down your daily walks, your shoes might be working against you.\n\nThe Ortho Stretch Cushion Shoe is podiatrist-recommended for all-day walking support. It pairs an anatomical arch contour with a deep cushioned heel to cushion every step on hard pavement. The roomy toe box lets your toes spread naturally, while elastic no-tie laces make slipping them on effortless.\n\n500,000+ customers stay active in Comfort Wear. Try your pair for 30 days with our risk-free money-back guarantee.",
  "headline": "2026's Top Shoe For Foot Pain Relief",
