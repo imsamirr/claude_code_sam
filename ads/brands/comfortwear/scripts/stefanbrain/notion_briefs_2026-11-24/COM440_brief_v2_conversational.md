@@ -10,21 +10,28 @@
 
 ---
 
-## Hooks
+## Hooks (Based on Historical Account Winners)
 
-### Hook 1 (Situational Observational: The Park Guide Warning)
-* Spoken: I work as a private tour guide here at the parks, and if you're a woman over 200 pounds coming to Disney, there are five shoes you should never wear.
-* Visual: Female tour guide (age 45-55) in a generic plaid vest and plain lanyard talking casually to camera on a theme park walkway with a fairytale castle softly blurred behind her. Quick cut to a tired woman sitting on a concrete bench rubbing her heel. On-screen text: 5 Shoes You Should Never Wear to Disney (For Women Over 200 lbs)
+### Hook 1: The Bad Advice Reframe (Modeled on Kyro 373: "The worst travel advice I ever got was just wear your comfortable sneakers")
+* Historical Provenance: Kyro 373 ($61,031 spend, 1.53 ROAS).
+* Spoken: The absolute worst theme park advice you can give a woman over 200 pounds is "just wear your comfortable sneakers." I'm here in Disney and I see the same thing every week...
+* In-Scene Headline (burned into shot): The Worst Disney Advice For Women Over 200 lbs
+* Bottom Proof Tag: 2026's Favorite Shoes For Plus-Sized Traveling
+* Visual: Tour guide (female, 45-55) in a generic plaid vest and plain lanyard speaking casually to camera on a sunny park promenade. She shakes her head slightly, then gestures toward a family walking past. Cut to a tired woman sitting on a concrete bench rubbing her heel.
 
-### Hook 2 (Single-Sentence Open-Ended: The 2 PM Bench Question)
-* Spoken: Why are the moms sitting on park benches by two in the afternoon almost always wearing the most expensive running shoes?
-* Visual: Tour guide walking slowly toward camera down a park promenade, gesturing toward a row of crowded benches. On-screen text: Why $165 running shoes fail at Disney
+### Hook 2: The Trip-Ruining Warning (Modeled on COM284: "If you're a woman over 200lbs, the wrong shoes at Disney will ruin your trip" + COM49: "I lost two days of Rome")
+* Historical Provenance: COM284 ($6,130 spend, 2.58 ROAS, current #1 prospecting winner) + COM49.
+* Spoken: If you're a woman over 200 pounds, bringing the wrong pair of shoes will ruin your Disney vacation by day two. I'm here in Disney and I see the same thing every week...
+* In-Scene Headline (burned into shot): If You're Over 200 lbs, The Wrong Shoes Will Ruin Your Trip
+* Bottom Proof Tag: 2026's Favorite Shoes For Disney & Theme Parks
+* Visual: Tour guide walking slowly toward camera down a crowded park street with a fairytale castle soft in the background. High-urgency delivery. Split screen briefly pops up showing a mom holding bags on a park bench while her family walks ahead into an attraction queue.
 
-### Hook 3 (COM284 Winner Frame: The 500-Women Question)
-* Spoken: We asked 500 plus-sized women who spent all day at Disney one simple question: which shoes actually survived 15,000 steps without ruining your vacation?
-* Visual: Quick montage of smiling plus-sized women walking through theme parks, cutting to the tour guide smiling and holding up five fingers. On-screen text: We asked 500 plus-sized women about their Disney shoes
-
----
+### Hook 3: The Running Shoe Paradox (Modeled on Kyro 99: "Why I'll never wear running shoes on my trips to Europe again" + Kyro 293: "Think sneakers are the most comfortable shoes for travel? We tested five...")
+* Historical Provenance: Kyro 99 ($241,706 spend, 1.87 ROAS) + Kyro 293 ($58,497 spend, 2.15 ROAS).
+* Spoken: Most women over 200 pounds think their expensive running shoes are the safest choice for walking Disney. I tell every single one of my guests to leave them at home. I'm here in Disney and I see the same thing every week...
+* In-Scene Headline (burned into shot): Why You Should Never Wear Running Shoes to Disney (For Women Over 200 lbs)
+* Bottom Proof Tag: 2026's Favorite Shoes For Plus-Sized Walkers
+* Visual: Tour guide standing on Main Street holding a popular thick running sneaker in one hand, pointing directly at the squishy foam sole, then looking up to address the camera directly with friendly authority.
 
 ## Script
 
