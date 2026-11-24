@@ -1,0 +1,44 @@
+query,rank,brand,title,days_running,trend,image_url,ad_id
+rising,1,Zip N' Bear,BLACK FRIDAY NOW LIVE,13,rising,https://cdn.tryatria.com/adfiles/m1268213638854834_6ZSgKOzHyAc.jpeg,m1268213638854834
+rising,2,Dale of Norway,Gifts made to last,19,rising,https://cdn.tryatria.com/adfiles/m1350658433688059_oyKiEtzxd7Q.jpeg,m1350658433688059
+rising,3,Mythos Women,Black Friday Sale is Here!,13,rising,https://cdn.tryatria.com/adfiles/m1597866658334844_kUr_fxwmApA.jpeg,m1597866658334844
+rising,4,Enhanced Labs,I didn't tell anyone I started taking it,11,rising,https://cdn.tryatria.com/adfiles/m2114642299172909_YpTpMam-2ho.jpeg,m2114642299172909
+rising,5,Kailo,The Upgrade You've Been Waiting For,11,rising,https://cdn.tryatria.com/adfiles/m1636541841292083_vYfDtFCQs1c.jpeg,m1636541841292083
+rising,7,Skylar,2 for $133,10,rising,https://cdn.tryatria.com/adfiles/m1479874327373079_6NLEVihPI-E.jpeg,m1479874327373079
+rising,8,Flawless After 40,Paris dinner table story,27,rising,https://cdn.tryatria.com/adfiles/m2100712033829716_7HrP-_jwd5U.jpeg,m2100712033829716
+rising,9,Braxley Bands,HUGE SALE,12,rising,https://cdn.tryatria.com/adfiles/m1773982766995525_ddUEHdWgvUM.jpeg,m1773982766995525
+rising,10,Caldera + Lab,One Week. Visible Difference.,20,rising,https://cdn.tryatria.com/adfiles/m2199855304748680_-e1y0Tz_-v0.jpeg,m2199855304748680
+rising,11,Raw Nutrition,20% Off Sitewide,19,rising,https://cdn.tryatria.com/adfiles/m1400844852037791_GV9MqRch21k.jpeg,m1400844852037791
+rising,12,Jalissa Brown,Why 40000+ added NovaFlow,15,rising,https://cdn.tryatria.com/adfiles/m1671963331247574_gkkjE7QG4GU.jpeg,m1671963331247574
+rising,13,Furtuna Skin,40% OFF SITEWIDE BF,10,rising,https://cdn.tryatria.com/adfiles/m1852080442472492_7HBJ5Cld3dQ.jpeg,m1852080442472492
+rising,14,Treehut,watches guys are wearing,24,rising,https://cdn.tryatria.com/adfiles/m4740634032874941_y-fHqJeLb2I.jpeg,m4740634032874941
+rising,15,Wholesome Story,One cycle isn't a read,38,rising,https://cdn.tryatria.com/adfiles/m1156001286772111_zB3Y5aD_LdI.jpeg,m1156001286772111
+rising,16,Herbalist Matthew Lin,Look at this cute dog,15,rising,https://cdn.tryatria.com/adfiles/m1790446798848832_rwGIoK-QraE.jpeg,m1790446798848832
+rising,17,Hayabusa,BF 30% Off Sitewide,10,rising,https://cdn.tryatria.com/adfiles/m1124907960513597_9xiaqp4SqNg.jpeg,m1124907960513597
+rising,20,The Glow,Best and Worst Shower Filters,10,rising,https://cdn.tryatria.com/adfiles/m1066465183152248_VubOfVoOshY.jpeg,m1066465183152248
+seasonal,1,Makeup Eraser,Gnome Sweet Gnome,21,stable,https://cdn.tryatria.com/adfiles/m2660762381072075_avczBXiZB24.jpeg,m2660762381072075
+seasonal,2,theyuzuco,The One Citrus You Need,5,stable,https://cdn.tryatria.com/adfiles/m1643256737285094_q2VdEIZaELQ.jpeg,m1643256737285094
+seasonal,6,Honey Swim,SECRET 50% OFF,8,rising,https://cdn.tryatria.com/adfiles/m4613566782205488_QX-f3I8vcig.jpeg,m4613566782205488
+seasonal,8,philosophy,holiday shower treat,8,stable,https://cdn.tryatria.com/adfiles/m1959691942072924_ZoPr_QnwCmE.jpeg,m1959691942072924
+seasonal,9,PupBox,Dear Human BF wishlist,10,stable,https://cdn.tryatria.com/adfiles/m1046389551805971_2LuFvtVn32I.jpeg,m1046389551805971
+seasonal,10,OneBlade,Black Friday Came Early,4,rising,https://cdn.tryatria.com/adfiles/m2042155683164071_SdE3FlLo5uE.jpeg,m2042155683164071
+seasonal,12,Arthritis Support Community,Feel Like Yourself Again,8,stable,https://cdn.tryatria.com/adfiles/m1853666412318686_1YOVkKbcD-k.jpeg,m1853666412318686
+seasonal,13,Nine West,Low Heel Big Trend,11,stable,https://cdn.tryatria.com/adfiles/m1007825262368614__L46BztNiRs.jpeg,m1007825262368614
+seasonal,14,BUILT,Candy Cane Brownie Puff,20,rising,https://cdn.tryatria.com/adfiles/m1068638449525644_FDI67rrASjk.jpeg,m1068638449525644
+seasonal,16,Shibumi Shade,Snow boots? Pass.,7,stable,https://cdn.tryatria.com/adfiles/m1182051784280255_TTGAmNppDps.jpeg,m1182051784280255
+seasonal,17,Lilly Pulitzer,Merritt Sweater,8,stable,https://cdn.tryatria.com/adfiles/m1440026038248642_4Eb59MrrUy0.jpeg,m1440026038248642
+seasonal,18,Din Tai Fung,Holiday Ornament Set,6,rising,https://cdn.tryatria.com/adfiles/m1127600086720025_0g6DrDxAUsw.jpeg,m1127600086720025
+seasonal,20,Blood Sugar Report,Ceylon Cinnamon,20,stable,https://cdn.tryatria.com/adfiles/m1345477930885066__rqFcx_4rk8.jpeg,m1345477930885066
+proven,3,Vima Cosmetics,EVERYONE is talking about this foundation,372,stable,https://cdn.tryatria.com/adfiles/m757087283601673_gvdmBRtu-CU.jpeg,m757087283601673
+proven,4,IronPanda,Run Like You Stole Something,348,stable,https://cdn.tryatria.com/adfiles/m1195107512578857_hgcv_bsZwak.jpeg,m1195107512578857
+proven,5,ROTITA,Seasonal Swap Big Sale,396,stable,https://cdn.tryatria.com/adfiles/m817846070971706_BplHiEwXLI0.jpeg,m817846070971706
+proven,6,Ersa Nails,1.3M+ Nail Lovers,359,stable,https://cdn.tryatria.com/adfiles/m2293684441106957_XtaycUGjzX8.jpeg,m2293684441106957
+proven,7,Chamaripashop,Do you think this is a simple shoe?,373,stable,https://cdn.tryatria.com/adfiles/m1195641289329766_YMKj57JavyM.jpeg,m1195641289329766
+proven,8,Fashion Nova Curve,closet indecision,74,stable,https://cdn.tryatria.com/adfiles/m1321253986595149_WYte_6G_LaE.jpeg,m1321253986595149
+proven,9,Lucky Bear,Sale Ends Today quote,461,stable,https://cdn.tryatria.com/adfiles/m754386967224956_pCzhBi0QLh0.jpeg,m754386967224956
+proven,11,Senior Health Insider,Buy 1 Get 2 FREE heel pain shoes,115,stable,https://cdn.tryatria.com/adfiles/m2255540481904788_zcwfsEYIjTE.jpeg,m2255540481904788
+proven,13,PCOS And Me,can't say yes to romantic weekends,268,stable,https://cdn.tryatria.com/adfiles/m1199337488642503_1jUE-0pp84s.jpeg,m1199337488642503
+proven,14,Kintoe Socks,Blister-free from Day 1,82,stable,https://cdn.tryatria.com/adfiles/m1561419015234139__USqeMj3YQs.jpeg,m1561419015234139
+proven,17,Thesupermade,Give the gift of confidence,97,stable,https://cdn.tryatria.com/adfiles/m1783628632659907_JfEBmhXVZfs.jpeg,m1783628632659907
+proven,18,NoirVere,Up to 60% off best sellers,196,stable,https://cdn.tryatria.com/adfiles/m1694984481918091_vPqQJtaxOmA.jpeg,m1694984481918091
+proven,20,Advanced Bionutritionals,90-Day Money-Back Guarantee,95,stable,https://cdn.tryatria.com/adfiles/m1076180641550836_PczAMGpfJTY.jpeg,m1076180641550836
