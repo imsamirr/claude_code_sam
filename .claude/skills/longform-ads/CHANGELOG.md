@@ -73,3 +73,4 @@ Evidence: `ads/brands/comfortwear/research/learning/market_study_2026-11-23.md` 
 
 **Mirrored:** playbook changes into `ads/research/long-form-copy/PLAYBOOK.md`. Rebuilt `ads/research/long-form-copy/longform-ads-skill.zip`.
 - Playbook: added the Cuurt November-wave case study (witness-buyer narrator, behavior-first mystery, evidence device as results log, free at-home test, 3 hand-checks, kill the cheap copy, mirror story). Backlog: 5 test ideas for Comfort Wear.
+- Witness format added to SKILL.md §2.3, with LF15 (Prague step counter) as the model; the 2026-11-26 batch has been reworked to 7 witness concepts plus 3 first-person controls.

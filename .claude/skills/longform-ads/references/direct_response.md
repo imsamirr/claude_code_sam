@@ -120,7 +120,7 @@ Add this block to every concept file and Notion card:
 ```
 DR tags: awareness=<unaware|problem|solution|product|most> · lead=<story|secret|problem|promise|proclamation|offer>
          belief="<one-belief sentence>" · problem_mechanism=<short> · solution_mechanism=<short>
-         messenger=<type> · proof=<top 2> · offer=<live offer>
+         messenger=<type> · proof=<top 2> · offer=<live offer> · narrator=<witness|self>
 ```
 
 The weekly study and the batch research pull results by LF/DLF id. When enough concepts have spend, compare ROAS, CPA and hook rate by **awareness**, **lead** and **mechanism**, and write what wins for each brand into `research/longform_angles.md` → "What wins (DR tags)". Those findings beat any rule in this file.
