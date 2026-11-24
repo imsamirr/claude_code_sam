@@ -1,0 +1,183 @@
+{
+ "id": "V48W_01_f36_disney_slip_into",
+ "version": 2,
+ "created": "2026-11-24",
+ "end_card": "auto",
+ "transition": "cut",
+ "loudness": -14,
+ "avoid_faces": true,
+ "copy_source": "stefanbrain",
+ "stefanbrain_chat": "https://stefanbrain.com/chat/420e4c99-cf8d-47d9-9f95-340b5f63668f",
+ "cta": "SHOP_NOW",
+ "format": "F36 'What I slip into for…' walk-along (Archies m2395709061258306): heavy yellow title + subline, then one short line per shot, ✅ feature pill on the shoe held to camera",
+ "persona": "Persona 6/7: plus-size traveler / Disney walker",
+ "based_on": "COM284 'Favorite Shoes For Plus-Sized Traveling' ($2,718, ROAS 1.97, 7d to 2026-11-23) + NH3 GeneralOverweightParkDay ($4,438, ROAS 1.42, 62 purchases)",
+ "sources": {
+  "gate": "drive:1cRmDZwCSMatrapOxxOaeRWgLqs6cNG__",
+  "heel": "drive:1Jj0OStvW1kZ8-c_tbb5jzMyDv30QOaQC",
+  "door": "drive:1OAu0_ifgPvT0LytFd0fPT07-_dsJMzTE",
+  "pov": "drive:1T78AKSgn3t9ZW8rTYcvYR9qTqS5guTiY",
+  "hold": "drive:1owdM16_KfPBA7iiTDFZ0HA3l0Faza8Wg",
+  "group": "drive:1O2ny98nZUOIjf_QHSPxSfhvlKZMjaA5a",
+  "fw": "drive:1dezapqHlZYMIZIlmZmVjpWOlSgx7qVp6",
+  "walk": "drive:12Ion1MF47V9_TnqTdJJ4sOM04KJSZeja"
+ },
+ "clips": [
+  {
+   "src": "gate",
+   "in": 0.0,
+   "out": 2.5,
+   "gain": 0
+  },
+  {
+   "src": "heel",
+   "in": 1.0,
+   "out": 3.1,
+   "gain": 0
+  },
+  {
+   "src": "door",
+   "in": 23.0,
+   "out": 25.5,
+   "gain": 0
+  },
+  {
+   "src": "pov",
+   "in": 0.0,
+   "out": 2.2,
+   "gain": 0
+  },
+  {
+   "src": "hold",
+   "in": 2.0,
+   "out": 4.5,
+   "gain": 0,
+   "shift_y": 0.05
+  },
+  {
+   "src": "group",
+   "in": 0.0,
+   "out": 2.0,
+   "gain": 0
+  },
+  {
+   "src": "fw",
+   "in": 13.5,
+   "out": 15.5,
+   "gain": 0
+  },
+  {
+   "src": "walk",
+   "in": 43.0,
+   "out": 46.5,
+   "gain": 0
+  }
+ ],
+ "captions": [
+  {
+   "clip": 0,
+   "text": "*What I\nslip into\nfor Disney\ntrips*",
+   "style": "shadow",
+   "weight": "Black",
+   "size": 84,
+   "width": 0.9,
+   "y": 0.34,
+   "fade": 0
+  },
+  {
+   "clip": 0,
+   "text": "Built for 20,000 steps",
+   "style": "classic",
+   "weight": "SemiBold",
+   "size": 72,
+   "width": 0.9,
+   "y": 0.55,
+   "fade": 0
+  },
+  {
+   "clip": 1,
+   "text": "Slips right over my feet",
+   "style": "shadow",
+   "weight": "SemiBold",
+   "size": 72,
+   "width": 0.9,
+   "y": 0.74
+  },
+  {
+   "clip": 2,
+   "text": "Heading out for rope drop",
+   "style": "shadow",
+   "weight": "SemiBold",
+   "size": 72,
+   "width": 0.9,
+   "y": 0.74
+  },
+  {
+   "clip": 3,
+   "text": "Hard pavement used to kill me",
+   "style": "shadow",
+   "weight": "SemiBold",
+   "size": 72,
+   "width": 0.9,
+   "y": 0.74
+  },
+  {
+   "clip": 4,
+   "text": "Cushions my arches every step",
+   "style": "shadow",
+   "weight": "SemiBold",
+   "size": 72,
+   "width": 0.9,
+   "y": 0.775
+  },
+  {
+   "clip": 5,
+   "text": "Hour 7 and still smiling",
+   "style": "shadow",
+   "weight": "SemiBold",
+   "size": 72,
+   "width": 0.9,
+   "y": 0.74
+  },
+  {
+   "clip": 6,
+   "text": "Still standing for the fireworks",
+   "style": "shadow",
+   "weight": "SemiBold",
+   "size": 72,
+   "width": 0.9,
+   "y": 0.74
+  },
+  {
+   "clip": 7,
+   "text": "My feet survived 20,000 steps",
+   "style": "shadow",
+   "weight": "SemiBold",
+   "size": 72,
+   "width": 0.9,
+   "y": 0.74
+  },
+  {
+   "clip": 4,
+   "text": "✅ Built-in arch support",
+   "style": "box",
+   "weight": "Bold",
+   "size": 46,
+   "width": 0.7,
+   "y": 0.68
+  }
+ ],
+ "music": {
+  "file": "../../music/upbeat_pop_vlog_105bpm.mp3",
+  "gain": 0.45,
+  "duck": false
+ },
+ "primary_text": "Walking 20,000 steps at a theme park is fun at 9 AM. But by hour 8 on hard concrete, swollen feet and burning heels can ruin your whole trip.\n\nThat is why 500,000+ customers pack the Ortho Stretch Cushion Shoe for travel. Designed with built-in arch support, a shock-absorbing heel cushion, and a roomy toe box that lets your toes spread naturally without pinching.\n\nSlip them on without bending over and walk all day in total comfort. Podiatrist-recommended and backed by our 30-day money-back guarantee. Try them risk-free on your next trip.",
+ "headline": "2026's Favorite Theme Park Shoe",
+ "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+ "third_party": [
+  "castle crowd 1cRmDZwCSMat",
+  "group 1O2ny98nZUOI",
+  "fw 1dezapqHlZYM"
+ ]
+}

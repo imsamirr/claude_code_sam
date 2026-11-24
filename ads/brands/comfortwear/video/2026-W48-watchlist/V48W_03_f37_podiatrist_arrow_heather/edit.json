@@ -1,0 +1,141 @@
+{
+ "id": "V48W_03_f37_podiatrist_arrow_heather",
+ "version": 3,
+ "created": "2026-11-24",
+ "end_card": "auto",
+ "transition": "cut",
+ "loudness": -14,
+ "avoid_faces": true,
+ "copy_source": "stefanbrain",
+ "stefanbrain_chat": "https://stefanbrain.com/chat/420e4c99-cf8d-47d9-9f95-340b5f63668f",
+ "cta": "SHOP_NOW",
+ "format": "F37 credential title types on + red arrow at the shoe (Thepickleballchiropractor with Cuurt m2995570030794162), then one line per feature shot",
+ "persona": "Persona 9: active senior with daily foot pain",
+ "based_on": "COM55 Senior 'Expert - Doctor' iteration ($3,781, ROAS 1.38, 58 purchases, 7d to 2026-11-23)",
+ "sources": {
+  "arch": "drive:1w_KJxa2sOayRcFQ4Pdw-Jre24nCkFBYf",
+  "toe": "drive:1UC8gAyKvYUs6f1Q054uBnS4Cnsl1KZo_",
+  "lace": "drive:1qHW2CtvgAf6H8osf4JQ_Dipuiia5-YGV",
+  "legs": "drive:1uH7mwteRb1oQTUntu9cAdujkmU7-S45m"
+ },
+ "clips": [
+  {
+   "src": "arch",
+   "in": 0.0,
+   "out": 3.5,
+   "gain": 0,
+   "shift_y": 0.12
+  },
+  {
+   "src": "toe",
+   "in": 6.0,
+   "out": 9.0,
+   "gain": 0
+  },
+  {
+   "src": "arch",
+   "in": 21.0,
+   "out": 24.5,
+   "gain": 0
+  },
+  {
+   "src": "lace",
+   "in": 8.5,
+   "out": 11.5,
+   "gain": 0
+  },
+  {
+   "src": "legs",
+   "in": 1.0,
+   "out": 5.0,
+   "gain": 0
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 0.6,
+   "text": "PODIATRIST _",
+   "style": "outline",
+   "font": "condensed",
+   "upper": true,
+   "size": 84,
+   "width": 0.96,
+   "y": 0.2,
+   "fade": 0,
+   "avoid_faces": false
+  },
+  {
+   "start": 0.6,
+   "end": 3.44,
+   "text": "PODIATRIST-RECOMMENDED",
+   "style": "outline",
+   "font": "condensed",
+   "upper": true,
+   "size": 84,
+   "width": 0.96,
+   "y": 0.2,
+   "fade": 0,
+   "avoid_faces": false
+  },
+  {
+   "clip": 0,
+   "style": "arrow",
+   "direction": "down",
+   "x": 0.76,
+   "y": 0.46,
+   "length": 200,
+   "avoid_faces": false,
+   "delay": 0.5,
+   "thickness": 36
+  },
+  {
+   "clip": 1,
+   "text": "Wide toe box prevents painful pinching",
+   "style": "classic",
+   "font": "condensed",
+   "weight": "Bold",
+   "size": 76,
+   "width": 0.92,
+   "y": 0.22
+  },
+  {
+   "clip": 2,
+   "text": "Targeted arch support stabilizes your foot",
+   "style": "classic",
+   "font": "condensed",
+   "weight": "Bold",
+   "size": 76,
+   "width": 0.92,
+   "y": 0.22
+  },
+  {
+   "clip": 3,
+   "text": "No-tie stretch laces slip right on",
+   "style": "classic",
+   "font": "condensed",
+   "weight": "Bold",
+   "size": 76,
+   "width": 0.92,
+   "y": 0.22
+  },
+  {
+   "clip": 4,
+   "text": "Walk for miles in total comfort",
+   "style": "classic",
+   "font": "condensed",
+   "weight": "Bold",
+   "size": 76,
+   "width": 0.92,
+   "y": 0.22
+  }
+ ],
+ "music": {
+  "file": "../../music/confident_strut_95bpm.mp3",
+  "gain": 0.45,
+  "duck": false
+ },
+ "primary_text": "If morning foot stiffness and heel pain are slowing down your daily walks, your shoes might be working against you.\n\nThe Ortho Stretch Cushion Shoe is podiatrist-recommended for all-day walking support. It pairs an anatomical arch contour with a deep cushioned heel to cushion every step on hard pavement. The roomy toe box lets your toes spread naturally, while elastic no-tie laces make slipping them on effortless.\n\n500,000+ customers stay active in Comfort Wear. Try your pair for 30 days with our risk-free money-back guarantee.",
+ "headline": "2026's Top Shoe For Foot Pain Relief",
+ "link": "https://comfortorthowear.com/pages/new-tired-of-daily-foot-pain-these-shoes-help-foot-pain-swelling-painful-heels-of1"
+}

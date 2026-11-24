@@ -1,0 +1,50 @@
+{
+ "total": 21.5,
+ "scenes": [
+  {
+   "src": "gate",
+   "start": 0.0,
+   "end": 2.467
+  },
+  {
+   "src": "heel",
+   "start": 2.467,
+   "end": 4.5
+  },
+  {
+   "src": "door",
+   "start": 4.5,
+   "end": 6.933
+  },
+  {
+   "src": "pov",
+   "start": 6.933,
+   "end": 9.067
+  },
+  {
+   "src": "hold",
+   "start": 9.067,
+   "end": 11.5
+  },
+  {
+   "src": "group",
+   "start": 11.5,
+   "end": 13.433
+  },
+  {
+   "src": "fw",
+   "start": 13.433,
+   "end": 15.367
+  },
+  {
+   "src": "walk",
+   "start": 15.367,
+   "end": 18.667
+  },
+  {
+   "src": "_end_card",
+   "start": 18.667,
+   "end": 21.5
+  }
+ ]
+}
