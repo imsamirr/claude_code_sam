@@ -1,0 +1,696 @@
+<title>Retra Screen-Free Camera</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Retra Screen-Free Camera: the pocket camera for the days you don't want to view through a phone.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=Shantell+Sans:wght@400;500&display=swap">
+<style>
+/* Layout: Retro-pia-style editorial product page. Cream paper, navy ink, serif display with a muted second line,
+   handwritten kickers, photos treated as tilted prints. Two-column buy box, then full-width story bands. */
+:root {
+  --paper: #FBF9F5;
+  --paper-2: #F3EEE4;
+  --card: #FFFFFF;
+  --ink: #16212B;
+  --ink-2: #55636F;
+  --navy: #0B2D4A;
+  --navy-mute: #7D93A6;
+  --sun: #E8C468;
+  --line: rgba(11, 45, 74, .14);
+  --btn: #0B2D4A;
+  --btn-ink: #F7F3EA;
+  --ph: rgba(232, 196, 104, .35);
+  --shadow: 0 1px 2px rgba(11,45,74,.06), 0 8px 24px rgba(11,45,74,.08);
+  --f-display: "Instrument Serif", "Times New Roman", Georgia, serif;
+  --f-body: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --f-hand: "Shantell Sans", "Comic Sans MS", "Segoe Print", cursive;
+  --wrap: 1200px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #0D1620; --paper-2: #121F2B; --card: #172736; --ink: #ECEFF2; --ink-2: #A7B3BE; --navy: #A9CBE8;
+  --navy-mute: #6E8599; --sun: #E8C468; --line: rgba(255,255,255,.12); --btn: #A9CBE8; --btn-ink: #0D1620;
+  --ph: rgba(232,196,104,.22); --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35); color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --paper: #0D1620; --paper-2: #121F2B; --card: #172736; --ink: #ECEFF2; --ink-2: #A7B3BE; --navy: #A9CBE8;
+  --navy-mute: #6E8599; --sun: #E8C468; --line: rgba(255,255,255,.12); --btn: #A9CBE8; --btn-ink: #0D1620;
+  --ph: rgba(232,196,104,.22); --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35); color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font: 15px/1.6 var(--f-body); -webkit-font-smoothing: antialiased; }
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--navy); outline-offset: 3px; }
+.wrap { max-width: var(--wrap); margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.ph { background: var(--ph); border-radius: 3px; padding: 0 .25em; font-style: normal; }
+
+/* type */
+h1, h2, h3 { font-family: var(--f-display); font-weight: 400; color: var(--navy); text-wrap: balance; margin: 0; letter-spacing: -.02em; }
+h2 { font-size: clamp(34px, 4.6vw, 54px); line-height: 1.02; }
+h2 .mute, h1 .mute { color: var(--navy-mute); display: block; }
+.kicker { font-family: var(--f-hand); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--navy-mute); margin: 0 0 12px; }
+.lede { color: var(--ink-2); max-width: 60ch; margin: 14px auto 0; }
+.sec { padding-block: clamp(56px, 8vw, 104px); }
+.sec-head { text-align: center; margin-bottom: clamp(28px, 4vw, 48px); }
+
+/* announcement */
+.bar { background: #0A1C2C; color: #F2EEE6; font-size: 13px; }
+.bar .wrap { display: flex; gap: 10px 18px; align-items: center; justify-content: center; flex-wrap: wrap; padding-block: 9px; text-align: center; }
+.bar b { font-family: var(--f-display); font-weight: 400; font-size: 16px; letter-spacing: .01em; }
+.pill { display: inline-block; background: #F2EEE6; color: #0A1C2C; font-weight: 700; font-size: 11px; letter-spacing: .06em; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; }
+.clock { display: inline-flex; gap: 4px; font-variant-numeric: tabular-nums; }
+.clock span { background: rgba(255,255,255,.12); border-radius: 4px; padding: 2px 6px; font-weight: 600; min-width: 2.4em; }
+.clock small { display: block; font-size: 8px; letter-spacing: .1em; opacity: .7; font-weight: 500; }
+
+/* header */
+header.nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: #0A1C2C; }
+header.nav .wrap { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding-block: 14px; }
+header.nav nav { display: flex; gap: 22px; font-size: 14px; }
+header.nav nav a { text-decoration: none; color: var(--ink-2); }
+header.nav nav a:hover { color: var(--navy); }
+.logo { font-family: var(--f-display); font-size: 28px; color: var(--navy); text-decoration: none; letter-spacing: .02em; }
+.cart { justify-self: end; display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--ink-2); }
+
+/* buy box */
+.pdp { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr); gap: clamp(24px, 4vw, 56px); padding-block: 32px 64px; align-items: start; }
+.gallery { position: sticky; top: 84px; display: grid; grid-template-columns: 72px minmax(0,1fr); gap: 12px; }
+.thumbs { display: flex; flex-direction: column; gap: 10px; order: -1; }
+.thumbs button { padding: 0; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--card); cursor: pointer; aspect-ratio: 1; }
+.thumbs button[aria-current="true"] { outline: 2px solid var(--navy); outline-offset: 1px; }
+.thumbs img { width: 100%; height: 100%; object-fit: cover; }
+.stage { position: relative; border-radius: 18px; overflow: hidden; background: #D8C1A3; aspect-ratio: 1; }
+.stage img { width: 100%; height: 100%; object-fit: cover; }
+.stage .tag { position: absolute; top: 14px; right: 14px; background: #0A1C2C; color: #F2EEE6; font-size: 11px; font-weight: 600; letter-spacing: .06em; padding: 6px 10px; border-radius: 999px; text-transform: uppercase; }
+
+.buy { display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+.rating { display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--ink-2); }
+.stars { color: var(--sun); letter-spacing: 1px; font-size: 14px; }
+.buy h1 { font-size: clamp(34px, 3.6vw, 46px); line-height: 1.04; }
+.sub { color: var(--ink-2); margin: 0; }
+.checks { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; font-size: 14px; }
+.checks li { display: flex; gap: 8px; align-items: flex-start; }
+.checks svg { flex: none; margin-top: 3px; }
+.price { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; font-family: var(--f-display); font-size: 34px; color: var(--navy); }
+.price s { font-family: var(--f-body); font-size: 16px; color: var(--ink-2); }
+.save { font-family: var(--f-body); font-size: 11px; font-weight: 700; letter-spacing: .06em; background: var(--navy); color: var(--paper); padding: 4px 9px; border-radius: 999px; }
+.stock { display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--ink-2); }
+.stock i { width: 8px; height: 8px; border-radius: 50%; background: #D9822B; box-shadow: 0 0 0 4px rgba(217,130,43,.18); }
+.step-label { display: flex; justify-content: space-between; align-items: baseline; font-size: 13px; font-weight: 600; margin-bottom: 10px; }
+.step-label span { font-weight: 400; color: var(--ink-2); }
+.swatches { display: flex; flex-wrap: wrap; gap: 10px; }
+.swatches label { position: relative; cursor: pointer; }
+.swatches input { position: absolute; opacity: 0; }
+.swatches span { display: block; width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line); box-shadow: inset 0 0 0 3px var(--paper); }
+.swatches input:checked + span { outline: 2px solid var(--navy); outline-offset: 2px; }
+.swatches input:focus-visible + span { outline: 2px dashed var(--navy); outline-offset: 2px; }
+
+.bundles { display: grid; gap: 10px; }
+.bundle { position: relative; display: grid; grid-template-columns: auto 1fr auto; gap: 4px 12px; align-items: center; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); cursor: pointer; }
+.bundle input { accent-color: var(--navy); width: 18px; height: 18px; margin: 0; }
+.bundle:has(input:checked) { border-color: var(--navy); box-shadow: 0 0 0 1px var(--navy); }
+.bundle .t { font-weight: 600; font-size: 15px; }
+.bundle .d { grid-column: 2; font-size: 12.5px; color: var(--ink-2); }
+.bundle .p { grid-row: 1 / span 2; grid-column: 3; text-align: right; font-family: var(--f-display); font-size: 22px; color: var(--navy); line-height: 1.1; }
+.bundle .p small { display: block; font-family: var(--f-body); font-size: 11px; color: var(--ink-2); }
+.bundle .gifts { grid-column: 2 / -1; display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.bundle .gifts em { font-style: normal; font-size: 11.5px; padding: 3px 8px; border-radius: 999px; background: var(--paper-2); color: var(--ink); }
+.flag { position: absolute; top: -10px; right: 14px; font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 3px 9px; border-radius: 999px; background: var(--sun); color: #2A2208; }
+.flag.dark { background: var(--navy); color: var(--paper); }
+
+.ribbon { display: grid; grid-template-columns: 52px 1fr auto; gap: 14px; align-items: center; padding: 12px 14px; border-radius: 12px; background: #0A1C2C; color: #F2EEE6; }
+.ribbon .ico { width: 52px; height: 52px; border-radius: 8px; background: #F2EEE6; display: grid; place-items: center; }
+.ribbon small { display: block; font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--sun); }
+.ribbon b { font-family: var(--f-display); font-weight: 400; font-size: 19px; }
+.ribbon p { margin: 0; font-size: 12.5px; opacity: .8; }
+.ribbon .free { background: var(--sun); color: #2A2208; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
+
+.cta { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 17px 20px; border: 0; border-radius: 999px; background: var(--btn); color: var(--btn-ink); font-size: 15px; font-weight: 600; letter-spacing: .02em; cursor: pointer; text-decoration: none; transition: transform .15s ease, box-shadow .15s ease; }
+.cta:hover { transform: translateY(-1px); box-shadow: var(--shadow); }
+.cta.inline { width: auto; padding: 14px 34px; }
+.added { text-align: center; font-size: 13px; color: var(--ink-2); margin: -8px 0 0; min-height: 1.4em; }
+
+.trust { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 10px; text-align: center; font-size: 12.5px; color: var(--ink-2); }
+.trust div { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.fbt h3 { font-family: var(--f-body); font-size: 13px; font-weight: 600; color: var(--ink); letter-spacing: 0; margin-bottom: 10px; }
+.addon { display: grid; grid-template-columns: 46px 1fr auto; gap: 12px; align-items: center; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); }
+.addon + .addon { margin-top: 8px; }
+.addon .sw { width: 46px; height: 46px; border-radius: 8px; background: var(--paper-2); display: grid; place-items: center; }
+.addon b { display: block; font-size: 14px; font-weight: 600; }
+.addon span { font-size: 12.5px; color: var(--ink-2); }
+.addon s { margin-right: 4px; }
+.toggle { appearance: none; width: 38px; height: 22px; border-radius: 999px; background: var(--line); position: relative; cursor: pointer; transition: background .2s; }
+.toggle::after { content: ""; position: absolute; top: 3px; left: 3px; width: 16px; height: 16px; border-radius: 50%; background: var(--card); box-shadow: 0 1px 2px rgba(0,0,0,.25); transition: transform .2s; }
+.toggle:checked { background: var(--navy); }
+.toggle:checked::after { transform: translateX(16px); }
+
+.acc { border-top: 1px solid var(--line); }
+.acc details { border-bottom: 1px solid var(--line); }
+.acc summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; padding: 15px 2px; font-weight: 600; font-size: 14.5px; }
+.acc summary::-webkit-details-marker { display: none; }
+.acc summary::after { content: "+"; font-weight: 300; font-size: 22px; line-height: 1; color: var(--ink-2); }
+.acc details[open] summary::after { content: "–"; }
+.acc .body { padding: 0 2px 18px; color: var(--ink-2); font-size: 14px; }
+.acc .body p { margin: 0 0 10px; }
+.acc .body ul { margin: 0 0 10px; padding-left: 18px; }
+.acc .body li { margin-bottom: 4px; }
+.faq dt { font-weight: 600; color: var(--ink); margin-top: 12px; }
+.faq dd { margin: 4px 0 0; }
+.quote { display: grid; grid-template-columns: 44px 1fr; gap: 12px; align-items: start; padding: 14px; border-radius: 14px; background: var(--paper-2); font-size: 13.5px; }
+.quote .av { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; }
+.quote p { margin: 2px 0 0; color: var(--ink-2); }
+
+/* photo wall */
+.wall { overflow: hidden; display: grid; gap: 14px; padding-block: 8px 0; }
+.row { display: flex; gap: 14px; width: max-content; animation: drift 70s linear infinite; }
+.row.rev { animation-direction: reverse; }
+.row img { height: clamp(120px, 15vw, 180px); width: auto; aspect-ratio: 4/3; object-fit: cover; border-radius: 10px; }
+@keyframes drift { to { transform: translateX(-50%); } }
+.center { display: flex; justify-content: center; margin-top: 32px; }
+
+/* icons */
+.icons { display: grid; grid-template-columns: repeat(6, minmax(0,1fr)); gap: 20px; }
+.icons figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center; }
+.icons svg { width: 64px; height: 64px; color: var(--navy); }
+.icons figcaption { font-size: 12px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
+.icons figcaption span { display: block; font-weight: 400; letter-spacing: 0; text-transform: none; color: var(--ink-2); font-size: 13px; margin-top: 4px; }
+
+/* filters: prints */
+.band { background: var(--paper-2); }
+.prints { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: clamp(14px, 2.4vw, 28px); }
+.print { margin: 0; background: #FFFDF8; padding: 10px 10px 0; border-radius: 3px; box-shadow: var(--shadow); transform: rotate(var(--r, 0deg)); transition: transform .25s ease; }
+.print:hover { transform: rotate(0deg) translateY(-4px); }
+.print img { aspect-ratio: 4/3; object-fit: cover; width: 100%; }
+.print figcaption { color: #1D2A36; font-family: var(--f-hand); font-size: 14px; text-align: center; padding: 10px 0 12px; }
+
+/* how it works */
+.steps { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 0; counter-reset: s; }
+.steps li { list-style: none; padding: 0 22px; border-left: 1px dashed var(--line); display: flex; flex-direction: column; gap: 12px; }
+.steps li:first-child { border-left: 0; }
+.steps .n { font-family: var(--f-display); font-size: 44px; color: var(--navy-mute); line-height: 1; }
+.steps svg { width: 100%; max-width: 170px; height: auto; color: var(--navy); }
+.steps h3 { font-size: 24px; }
+.steps p { margin: 0; color: var(--ink-2); font-size: 14px; }
+
+/* moments */
+.moments { display: grid; grid-template-columns: repeat(6, minmax(0,1fr)); gap: 16px; }
+.moment { margin: 0; position: relative; border-radius: 14px; overflow: hidden; grid-column: span 2; aspect-ratio: 4/3.2; }
+.moment.big { grid-column: span 3; aspect-ratio: 4/3; }
+.moment img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
+.moment:hover img { transform: scale(1.03); }
+.moment figcaption { position: absolute; inset: auto 0 0 0; padding: 40px 18px 16px; background: linear-gradient(transparent, rgba(5,15,25,.72)); color: #fff; }
+.moment b { display: block; font-family: var(--f-display); font-weight: 400; font-size: 26px; line-height: 1.1; }
+.moment span { font-size: 13px; opacity: .9; }
+
+/* comparison */
+.compare-wrap { overflow-x: auto; }
+.compare { width: 100%; min-width: 560px; max-width: 860px; margin: 0 auto; border-collapse: separate; border-spacing: 0; font-size: 14px; }
+.compare th, .compare td { padding: 14px 16px; text-align: center; border-bottom: 1px solid var(--line); }
+.compare th:first-child, .compare td:first-child { text-align: left; }
+.compare thead th { font-family: var(--f-display); font-weight: 400; font-size: 22px; color: var(--navy); border-bottom: 0; vertical-align: bottom; }
+.compare .us { background: var(--navy); color: var(--paper); }
+.compare thead .us { color: var(--paper); border-radius: 14px 14px 0 0; padding-top: 22px; }
+.compare tbody tr:last-child .us { border-radius: 0 0 14px 14px; }
+.compare tbody .us { border-bottom-color: color-mix(in srgb, var(--paper) 18%, transparent); }
+.yes, .no { display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; font-size: 13px; font-weight: 700; }
+.us .yes { background: var(--paper); color: var(--navy); }
+.yes { background: var(--navy); color: var(--paper); }
+.no { background: var(--line); color: var(--ink-2); }
+
+/* reviews */
+.reviews { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 22px; }
+.review { margin: 0; background: var(--card); border-radius: 16px; overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column; }
+.review:nth-child(1) { transform: rotate(-1.2deg); } .review:nth-child(3) { transform: rotate(1.2deg); }
+.review img { aspect-ratio: 4/3; object-fit: cover; width: 100%; }
+.review blockquote { margin: 0; padding: 18px 20px 6px; font-size: 14.5px; }
+.review figcaption { padding: 0 20px 18px; font-size: 13px; color: var(--ink-2); display: flex; justify-content: space-between; gap: 8px; }
+.sample { font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; background: var(--ph); color: var(--ink); padding: 2px 7px; border-radius: 4px; align-self: center; }
+
+/* ugc */
+.ugc { display: grid; grid-template-columns: repeat(6, minmax(0,1fr)); gap: 10px; }
+.ugc img { aspect-ratio: 1; object-fit: cover; width: 100%; border-radius: 8px; }
+.tagline { font-family: var(--f-display); font-size: clamp(34px, 5vw, 58px); color: var(--navy); text-align: center; margin: 0 0 24px; }
+
+/* footer */
+footer { background: #0A1C2C; color: #D5DCE2; font-size: 14px; }
+footer .wrap { display: grid; grid-template-columns: 1.3fr 1fr 1fr 1.4fr; gap: 32px; padding-block: 64px 32px; }
+footer h4 { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: #F2EEE6; margin: 0 0 14px; font-weight: 600; }
+footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+footer a { color: #D5DCE2; text-decoration: none; }
+footer .logo { color: #F2EEE6; }
+footer p { margin: 10px 0 0; color: #AEB9C3; }
+.news { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+.news input { flex: 1 1 180px; min-width: 0; padding: 12px 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,.25); background: transparent; color: #F2EEE6; }
+.news button { padding: 12px 18px; border-radius: 999px; border: 0; background: #F2EEE6; color: #0A1C2C; font-weight: 600; cursor: pointer; }
+.legal { border-top: 1px solid rgba(255,255,255,.12); }
+.legal .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding-block: 18px; font-size: 12.5px; color: #8E9BA7; grid-template-columns: none; }
+.linkish { background: none; border: 0; padding: 0; color: #D5DCE2; text-decoration: underline; cursor: pointer; font-size: 12.5px; }
+
+/* popup */
+.modal[hidden] { display: none; }
+.modal { position: fixed; inset: 0; z-index: 50; background: rgba(5,12,20,.55); display: grid; place-items: center; padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.modal .card { position: relative; width: min(760px, 100%); display: grid; grid-template-columns: 1fr 1fr; background: var(--paper); border-radius: 18px; overflow: hidden; box-shadow: 0 30px 80px rgba(0,0,0,.35); }
+.modal .card img { width: 100%; height: 100%; object-fit: cover; }
+.modal .inner { padding: 36px 30px; display: flex; flex-direction: column; gap: 12px; justify-content: center; text-align: center; }
+.modal h2 { font-size: 40px; }
+.modal input { padding: 13px 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
+.modal .x { position: absolute; top: 10px; right: 10px; width: 34px; height: 34px; border-radius: 50%; border: 0; background: var(--card); cursor: pointer; font-size: 18px; }
+.modal .fine { font-size: 11.5px; color: var(--ink-2); margin: 0; }
+.modal .no-thanks { background: none; border: 0; color: var(--ink-2); text-decoration: underline; cursor: pointer; font-size: 13px; }
+
+@media (max-width: 960px) {
+  .pdp { grid-template-columns: minmax(0,1fr); }
+  .gallery { position: static; grid-template-columns: minmax(0,1fr); }
+  .thumbs { flex-direction: row; order: 2; overflow-x: auto; }
+  .thumbs button { width: 64px; flex: none; }
+  .icons { grid-template-columns: repeat(3, minmax(0,1fr)); row-gap: 36px; }
+  .prints { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .steps { grid-template-columns: repeat(2, minmax(0,1fr)); row-gap: 36px; }
+  .steps li:nth-child(3) { border-left: 0; }
+  .moments { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .moment, .moment.big { grid-column: span 1; aspect-ratio: 4/3.4; }
+  .reviews { grid-template-columns: minmax(0,1fr); max-width: 480px; margin: 0 auto; }
+  .ugc { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  footer .wrap { grid-template-columns: 1fr 1fr; }
+  header.nav nav { display: none; }
+  header.nav .wrap { grid-template-columns: 1fr auto; }
+  .logo { justify-self: start; }
+}
+@media (max-width: 560px) {
+  .checks { grid-template-columns: 1fr; }
+  .steps { grid-template-columns: minmax(0,1fr); }
+  .steps li { border-left: 0; padding: 0; }
+  .moments { grid-template-columns: minmax(0,1fr); }
+  footer .wrap { grid-template-columns: 1fr; }
+  .modal .card { grid-template-columns: 1fr; }
+  .modal .card > img { height: 180px; }
+  .trust { font-size: 11.5px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .row { animation: none; }
+  .print, .moment img, .cta { transition: none; }
+}
+
+.spec { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.spec th { text-align: left; padding: 7px 12px 7px 0; border-bottom: 1px solid var(--line); color: var(--ink); font-weight: 600; vertical-align: top; width: 38%; }
+.spec td { padding: 7px 0; border-bottom: 1px solid var(--line); }
+.center.stack { flex-direction: column; align-items: center; gap: 10px; }
+.center.stack small { color: var(--ink-2); text-align: center; }
+.compare small { display: block; font-size: 11px; opacity: .75; margin-top: 2px; }
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-check" viewBox="0 0 18 18"><circle cx="9" cy="9" r="9" fill="currentColor"/><path d="M5 9.3l2.6 2.6L13 6.5" fill="none" stroke="var(--paper)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<!-- 1. Announcement bar -->
+<div class="bar" role="region" aria-label="Offer">
+  <div class="wrap">
+    <span class="pill">Archive release</span>
+    <b>Complimentary gift ribbon included with every camera + free shipping on 2+ cameras</b>
+    <span>Time remaining for guaranteed dispatch</span>
+    <span class="clock" id="clock" aria-live="off">
+      <span><i id="cd-d">02</i><small>DAYS</small></span>
+      <span><i id="cd-h">14</i><small>HRS</small></span>
+      <span><i id="cd-m">38</i><small>MIN</small></span>
+      <span><i id="cd-s">12</i><small>SEC</small></span>
+    </span>
+  </div>
+</div>
+
+<header class="nav">
+  <div class="wrap">
+    <nav aria-label="Main">
+      <a href="#buy">Shop</a><a href="#how">How it works</a><a href="#faq">FAQ</a><a href="#footer">Track order</a>
+    </nav>
+    <a class="logo" href="#buy">Retra</a>
+    <div class="cart" aria-label="Cart"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span id="cart-count">0</span></div>
+  </div>
+</header>
+
+<main>
+<!-- 2. Buy box -->
+<section class="wrap pdp" id="buy" aria-label="Retra Screen-Free Camera">
+  <div class="gallery">
+    <div class="stage"><img id="stage-img" src="images/hero-1.jpg" alt="Retra Screen-Free Camera in navy, three-quarter view"></div>
+    <div class="thumbs" role="group" aria-label="Product images">
+      <button aria-current="true" data-src="images/hero-1.jpg" data-alt="Retra Screen-Free Camera in navy, three-quarter view"><img src="images/hero-1.jpg" alt=""></button>
+      <button data-src="images/hand-amalfi.jpg" data-alt="Retra held up against the Amalfi Coast"><img src="images/hand-amalfi.jpg" alt=""></button>
+      <button data-src="images/hero-2.jpg" data-alt="Retra front view showing lens and flash"><img src="images/hero-2.jpg" alt=""></button>
+      <button data-src="images/eu-santorini.jpg" data-alt="Sample photo: sunset over Santorini"><img src="images/eu-santorini.jpg" alt=""></button>
+      <button data-src="images/park-carousel.jpg" data-alt="Sample photo: kids on a carousel"><img src="images/park-carousel.jpg" alt=""></button>
+      <button data-src="images/beach-friends.jpg" data-alt="Sample photo: friends running into the sea"><img src="images/beach-friends.jpg" alt=""></button>
+    </div>
+  </div>
+
+  <div class="buy">
+    <div class="rating"><span class="stars" aria-hidden="true">★★★★★</span> Rated <em class="ph">[RATING]</em>/5.0 by <em class="ph">[REVIEW COUNT]</em>+ travelers &amp; families</div>
+    <h1>Retra™ Screen-Free Camera<span class="mute">Capture the feeling. Keep your day.</span></h1>
+
+    <ul class="checks">
+      <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg><span><b>Screen-Free Presence</b></span></li>
+      <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg><span><b>Instant USB-C Offload</b></span></li>
+      <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg><span><b>500 Frames Per Charge</b></span></li>
+      <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg><span><b>Reusable for Life</b></span></li>
+    </ul>
+
+    <div>
+      <div class="price"><span>$<em class="ph">[PRICE]</em></span><s>$[COMPARE PRICE]</s><span class="save">SAVE [DISCOUNT]%</span></div>
+      <p class="sub" style="font-size:13px;margin-top:4px"><em class="ph">[OPTIONAL INSTALLMENT PAYMENT TEXT PLACEHOLDER]</em></p>
+    </div>
+    <div class="stock"><i aria-hidden="true"></i><span><em class="ph">[BATCH AVAILABILITY / STOCK NOTICE PLACEHOLDER, e.g. Current holiday allocation is limited. Orders placed today dispatch in 1-2 business days.]</em></span></div>
+
+    <fieldset style="border:0;padding:0;margin:0">
+      <legend class="step-label" style="width:100%"><span style="font-weight:600;color:var(--ink)">Colour: <b id="color-name">Aegean</b></span></legend>
+      <div class="swatches" id="swatches">
+        <label title="Dune"><input type="radio" name="color" id="c-dune" value="Dune"><span style="background:#8A6A4F"></span></label>
+        <label title="Pine"><input type="radio" name="color" id="c-pine" value="Pine"><span style="background:#3E5641"></span></label>
+        <label title="Aegean"><input type="radio" name="color" id="c-aegean" value="Aegean" checked><span style="background:#1F3B5A"></span></label>
+        <label title="Sol"><input type="radio" name="color" id="c-sol" value="Sol"><span style="background:#E3B341"></span></label>
+        <label title="Blossom"><input type="radio" name="color" id="c-blossom" value="Blossom"><span style="background:#E3A9B4"></span></label>
+        <label title="Obsidian"><input type="radio" name="color" id="c-obsidian" value="Obsidian"><span style="background:#1C1C1E"></span></label>
+        <label title="Chalk"><input type="radio" name="color" id="c-chalk" value="Chalk"><span style="background:#EFEAE0"></span></label>
+      </div>
+      <p class="sub" style="font-size:13px;margin-top:10px">Choose your finish: Inspired by Mediterranean coastlines, vintage luggage, and classic film bodies.</p>
+    </fieldset>
+
+    <fieldset class="bundles" style="border:0;padding:0;margin:0">
+      <legend class="step-label">Choose your pack</legend>
+      <label class="bundle"><input type="radio" name="bundle" id="b1" value="1" checked>
+        <span class="t">1x Retra Camera</span><span class="p">$[PRICE]</span>
+        <span class="d">Solo Traveler Edition</span>
+        <span class="gifts"><em>+ Free woven cotton wrist strap</em><em>SD card included</em></span></label>
+      <label class="bundle"><span class="flag">Most popular for trips &amp; gifts</span><input type="radio" name="bundle" id="b2" value="2">
+        <span class="t">2x Retra Cameras</span><span class="p">$[BUNDLE 2 PRICE]<small>$[PRICE PER UNIT] each</small></span>
+        <span class="d">The Travel Duo · Free tracked shipping</span>
+        <span class="gifts"><em>+ 2 free wrist straps</em></span></label>
+      <label class="bundle"><span class="flag dark">Best for families &amp; group trips</span><input type="radio" name="bundle" id="b3" value="3">
+        <span class="t">3x Retra Cameras</span><span class="p">$[BUNDLE 3 PRICE]<small>$[PRICE PER UNIT] each</small></span>
+        <span class="d">The Family &amp; Holiday Pack · 10% off + free tracked shipping</span>
+        <span class="gifts"><em>+ Free vegan leather case</em><em>+ 3 free wrist straps</em></span></label>
+      <label class="bundle"><span class="flag dark">Best value · Save 15%</span><input type="radio" name="bundle" id="b4" value="4">
+        <span class="t">4x Retra Cameras</span><span class="p">$[BUNDLE 4 PRICE]<small>$[PRICE PER UNIT] each</small></span>
+        <span class="d">The Archive Collective · 15% off + free tracked shipping</span>
+        <span class="gifts"><em>+ Free vegan leather case</em><em>+ 4 free wrist straps</em></span></label>
+    </fieldset>
+
+    <div class="ribbon">
+      <div class="ico" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 32 32" fill="none" stroke="#0A1C2C" stroke-width="1.6" stroke-linejoin="round"><rect x="5" y="13" width="22" height="14" rx="1.5"/><path d="M3 9h26v4H3zM16 9v18"/><path d="M16 9c-2-5-8-5-7-1 .6 1.8 4 1.5 7 1zM16 9c2-5 8-5 7-1-.6 1.8-4 1.5-7 1z"/></svg></div>
+      <div><b>Complimentary Holiday Ribbon Included With Every Camera</b><p>Every Retra ships tied in a complimentary gift ribbon, so it is ready to give the moment it arrives.</p></div>
+      <span class="free">FREE</span>
+    </div>
+
+    <button class="cta" id="add" type="button">Add to cart · <span id="cta-price">$[PRICE]</span></button>
+    <p class="added" id="added" role="status">In stock. Dispatched from our studio within 1-2 business days.</p>
+
+    <div class="trust">
+      <div><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4h4"/></svg>30-Day Hassle-Free Returns</div>
+      <div><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17.5" cy="17.5" r="1.8"/></svg>Ships in 1-2 Business Days</div>
+      <div><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Secure Checkout</div>
+    </div>
+
+    <div class="fbt">
+      <h3>Frequently paired add-ons</h3>
+      <div class="addon"><div class="sw" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="7" width="16" height="13" rx="2"/><path d="M8 7V5h8v2M4 11h16"/></svg></div>
+        <div><b>Handcrafted Vegan Leather Field Case</b><span><s>$[REGULAR CASE PRICE]</s>+$[CASE PRICE] · Save 25%</span></div>
+        <input class="toggle" type="checkbox" id="add-case" aria-label="Add vegan leather field case"></div>
+      <div class="addon"><div class="sw" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3c-4 4-4 8 0 12s4 6 0 6"/><circle cx="12" cy="3" r="1.4"/></svg></div>
+        <div><b>Woven Coastline Wrist Lanyard</b><span><s>$[REGULAR STRAP PRICE]</s>+$[STRAP PRICE] · Sand, Navy, Terracotta</span></div>
+        <input class="toggle" type="checkbox" id="add-strap" aria-label="Add woven coastline wrist lanyard"></div>
+      <div class="addon"><div class="sw" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M7 3h7l3 3v15H7z"/><path d="M10 3v4M12.5 3v4"/></svg></div>
+        <div><b>Lightning &amp; USB-C Pocket Card Reader</b><span>+$[READER PRICE] · For older iPhones</span></div>
+        <input class="toggle" type="checkbox" id="add-reader" aria-label="Add pocket card reader"></div>
+    </div>
+
+    <div class="acc" id="faq">
+      <details open><summary>Description</summary><div class="body">
+        <p style="font-family:var(--f-display);font-size:22px;color:var(--navy);line-height:1.2;margin-bottom:4px">Memories you can live inside.</p>
+        <p><i>The pocket camera built for the days you do not want to view through a phone.</i></p>
+        <p>Modern life turns every beautiful moment into a content assignment. You stand at a sunlit terrace in Florence, watch the fireworks break over a fairytale castle, or sit with your feet buried in warm coastal sand, and the instinct is always the same: pull out a glass screen.</p>
+        <p>Within seconds, the moment is lost. You take thirty nearly identical photos. You zoom in to inspect your smile. You see three unanswered work messages, a breaking news alert, and a friend's vacation story. Instead of living your afternoon, you are managing your phone.</p>
+        <p>Retra is our answer to screen fatigue.</p>
+        <p>It is a pocket-sized digital camera designed with the spirit, ritual, and patience of 35mm film. There is no LCD screen on the back. There is no camera roll to endlessly review. There are no menus to tap through, and zero notifications buzzing against your palm.</p>
+        <p>You hold the camera up, look through the optical viewfinder, and click the shutter button. That is it. The shot is captured, stored quietly in memory, and left for you to discover later.</p>
+        <p>Because you cannot check the photo, you stop fussing over perfection. You take the picture and return your eyes to the room. When you plug Retra into your laptop or phone at the end of the trip, you get to relive your holiday all over again: real laughter, candid expressions, golden hour light, and the honest, unposed warmth that smartphones smooth away.</p>
+        <p>Whether you are packing light for three weeks across Europe, navigating a bustling theme park with your family, or giving someone the gift of undivided presence, Retra keeps the focus exactly where it belongs: on the life in front of you.</p>
+      </div></details>
+      <details><summary>Specs</summary><div class="body"><p><i>Everything you need to know about the hardware, build, and optics.</i></p><table class="spec"><tr><th scope="row">Sensor Resolution</th><td>8.0 Megapixels (3264 x 2448 native JPEG output)</td></tr><tr><th scope="row">Lens Optics</th><td>Fixed-focus optical lens (focal range: 0.5 meters to infinity)</td></tr><tr><th scope="row">Display &amp; Status</th><td>Small OLED shot counter</td></tr><tr><th scope="row">Flash</th><td>Built-in LED flash</td></tr><tr><th scope="row">Film Profiles</th><td>4 built-in film-style filters: Natural, Vintage, Black &amp; White, Film</td></tr><tr><th scope="row">Battery Life</th><td>Built-in rechargeable lithium battery (approx. 500 photos per charge)</td></tr><tr><th scope="row">Recharging Method</th><td>Standard USB cable connection via USB-C</td></tr><tr><th scope="row">Memory &amp; Storage</th><td>SD card included (stores approx. 500 photos)</td></tr><tr><th scope="row">Data Transfer</th><td>Direct USB-C cable connection to phone or laptop</td></tr><tr><th scope="row">Dimensions</th><td>115 mm x 65 mm x 33.5 mm (4.5 inches x 2.6 inches x 1.3 inches)</td></tr><tr><th scope="row">Body Build</th><td>Pocketable, durable everyday carry body with matte tactile finish</td></tr></table></div></details>
+      <details><summary>Shipping &amp; Returns</summary><div class="body"><ul><li><b>Dispatch:</b> Ships within 1 to 2 business days.</li>
+<li><b>Domestic Delivery:</b> <em class="ph">[DOMESTIC SHIPPING TIME PLACEHOLDER, e.g. 3-5 business days]</em></li>
+<li><b>International Shipping:</b> <em class="ph">[INTERNATIONAL SHIPPING TIME PLACEHOLDER, e.g. 3-9 business days]</em></li>
+<li><b>Free Shipping Perk:</b> Free tracked shipping on orders of 2 or more cameras.</li>
+<li><b>30-Day Returns:</b> Return within 30 days of delivery for a full refund if not completely satisfied.</li></ul></div></details>
+      <details><summary>FAQ</summary><div class="body"><dl class="faq"><dt>How does the Retra camera work?</dt><dd><p>Turn the power switch on, select one of the four built-in filters if desired, look through the optical viewfinder, and press the shutter button. A small OLED shot counter on the top plate displays your remaining frame count. There is no screen on the back to review your shots. You take the picture, put the camera back in your pocket, and stay fully in the moment. When you want to see your photos, connect Retra to your phone or laptop with the included USB-C cable.</p></dd><dt>I have an older iPhone with a Lightning port. How do I get my photos onto my phone?</dt><dd><p>iPhones with a Lightning port cannot transfer photos using a direct USB-C to Lightning cable. If your iPhone uses a Lightning port, you have two simple options:</p><ul><li><b>Option A:</b> Remove the included SD card from Retra and insert it into an SD card reader with a Lightning adapter, then plug it into your iPhone to import your photos into your camera roll.</li><li><b>Option B:</b> Connect Retra to a laptop or computer using the included USB cable, save your photos, and transfer them to your phone.</li></ul></dd><dt>What does the image quality look like?</dt><dd><p>Retra is intentionally engineered to evoke the warm, nostalgic aesthetic of classic disposable film cameras and early 2000s digital point-and-shoots. The 8MP sensor produces crisp, rich images with natural grain, gentle edge softness, and authentic color rendering. It does not look like a sterile, over-processed 48MP smartphone photo that has been artificially sharpened by an algorithm. Your photos look like genuine memories, complete with the honest warmth and character of real life.</p></dd><dt>Do I ever need to buy film or pay a lab for processing?</dt><dd><p>Never. Retra gives you the ritual, look, and delayed gratification of film without any of the recurring expenses or delays. There are no film rolls to buy, no darkrooms to locate, and no $20 lab processing invoices per roll. The camera captures digital JPEG files onto the included reusable memory card. You can shoot thousands of photos over the lifetime of the camera without spending an extra dollar on film or developing.</p></dd><dt>How many photos can I take before the battery dies or memory fills up?</dt><dd><p>On a single full battery charge, Retra powers roughly 500 photos, which is more than enough for a busy weekend getaway, a marathon day at a theme park, or several beach days. The included memory card also stores approximately 500 full-resolution images. Once you transfer your photos to your computer or hard drive, simply clear the memory card and Retra is ready for another 500 frames.</p></dd><dt>What comes inside the box?</dt><dd><ul><li>1x Retra Screen-Free Camera</li><li>1x Included SD memory card (stores approx. 500 photos)</li><li>1x USB cable</li><li>1x Wrist strap</li><li>1x Quick start guide</li><li>1x Complimentary gift ribbon</li></ul></dd></dl></div></details>
+    </div>
+
+    <figure class="quote" style="margin:0">
+      <div class="av" aria-hidden="true" style="display:grid;place-items:center;background:var(--navy);color:var(--paper);font-family:var(--f-display);font-size:20px">E</div>
+      <div><span class="stars" aria-hidden="true">★★★★★</span>
+        <p>"The biggest relief was leaving my phone in the hotel room safe and just looping this around my wrist all through southern Italy. You click the shutter in two seconds, drop the camera back into your pocket, and you are right back in the conversation. When we plugged it into our laptop on the flight home, we cried laughing. The photos feel alive."</p>
+        <p style="font-size:12px;margin-top:6px">Elena M. · Rome &amp; Amalfi Coast <span class="sample">Sample</span></p></div>
+    </figure>
+  </div>
+</section>
+
+<!-- 5. Photo wall -->
+<section class="sec" style="padding-top:24px" aria-labelledby="wall-h">
+  <div class="wrap sec-head">
+    <p class="kicker">The unedited archive</p>
+    <h2 id="wall-h">The character of unscripted moments.<span class="mute">Warm light, natural grain, and lived-in color.</span></h2>
+    <p class="lede">A visual preview of the analog aesthetic Retra is designed to capture: warm color tones, soft highlight roll-off, natural film grain, and honest contrast that feels lived-in rather than algorithmically perfected. No preview screens, no notifications, just genuine moments.</p>
+  </div>
+  <div class="wall" aria-label="Sample photos">
+    <div class="row">
+      <img src="images/eu-paris.jpg" alt="Friends laughing at a Paris café"><img src="images/park-castle.jpg" alt="Girl on her dad's shoulders at a theme park"><img src="images/beach-friends.jpg" alt="Friends running into the sea"><img src="images/eu-lisbon.jpg" alt="Yellow tram in Lisbon"><img src="images/park-fireworks.jpg" alt="Mother and son watching fireworks"><img src="images/beach-sunset.jpg" alt="Toddler digging in the sand at sunset">
+      <img src="images/eu-paris.jpg" alt="" aria-hidden="true"><img src="images/park-castle.jpg" alt="" aria-hidden="true"><img src="images/beach-friends.jpg" alt="" aria-hidden="true"><img src="images/eu-lisbon.jpg" alt="" aria-hidden="true"><img src="images/park-fireworks.jpg" alt="" aria-hidden="true"><img src="images/beach-sunset.jpg" alt="" aria-hidden="true">
+    </div>
+    <div class="row rev">
+      <img src="images/eu-santorini.jpg" alt="Couple watching sunset over Santorini"><img src="images/park-carousel.jpg" alt="Kids riding a carousel"><img src="images/beach-bonfire.jpg" alt="Friends around a beach bonfire"><img src="images/eu-rome.jpg" alt="Friends with gelato on a Roman piazza"><img src="images/wedding.jpg" alt="Bride and groom dancing"><img src="images/filter-film.jpg" alt="Beach shot in the Film profile">
+      <img src="images/eu-santorini.jpg" alt="" aria-hidden="true"><img src="images/park-carousel.jpg" alt="" aria-hidden="true"><img src="images/beach-bonfire.jpg" alt="" aria-hidden="true"><img src="images/eu-rome.jpg" alt="" aria-hidden="true"><img src="images/wedding.jpg" alt="" aria-hidden="true"><img src="images/filter-film.jpg" alt="" aria-hidden="true">
+    </div>
+  </div>
+  <div class="center stack"><a class="cta inline" href="#buy">Bring Retra on your next trip · Shop now</a><small>Protected by our 30-day hassle-free returns. Free tracked shipping on orders of 2 or more cameras.</small></div>
+</section>
+
+<!-- 6. Why Retra works -->
+<section class="sec band" aria-labelledby="why-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Intentional engineering</p>
+      <h2 id="why-h">Why Retra changes how you remember.<span class="mute">Six deliberate decisions designed to keep you inside the experience.</span></h2>
+    </div>
+    <div class="icons">
+      <figure><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="8" y="16" width="48" height="34" rx="4"/><rect x="16" y="23" width="32" height="20" rx="1.5" stroke-dasharray="3 3"/><path d="M10 54L54 12"/></svg><figcaption>Screen-Free<span>No screens, no menus, and no distractions. Stay completely present in every moment.</span></figcaption></figure>
+      <figure><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="21" y="8" width="22" height="44" rx="4"/><path d="M29 13h6"/><path d="M32 26a6 6 0 0 1 6 6v5l2 3H24l2-3v-5a6 6 0 0 1 6-6zM30 43a2 2 0 0 0 4 0"/><path d="M12 56L52 8"/></svg><figcaption>No Camera Roll<span>Stop reviewing bursts or retaking shots. Take the photo and keep moving.</span></figcaption></figure>
+      <figure><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M18 8h22l8 8v40H18z"/><path d="M24 8v8M29 8v8M34 8v8"/><text x="33" y="42" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="currentColor" stroke="none" font-weight="600">500</text></svg><figcaption>Pre-Loaded Storage<span>Includes an SD card holding roughly 500 photos, ready to shoot right away.</span></figcaption></figure>
+      <figure><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="8" y="20" width="42" height="24" rx="3"/><path d="M50 27h4v10h-4"/><path d="M14 26v12M20 26v12M26 26v12M32 26v12" stroke-width="3"/></svg><figcaption>Rechargeable Battery<span>Built-in rechargeable lithium battery powers about 500 photos on a single charge.</span></figcaption></figure>
+      <figure><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="10" y="10" width="44" height="44" rx="2"/><path d="M10 20h44M10 44h44M16 10v4M24 10v4M32 10v4M40 10v4M48 10v4M16 50v4M24 50v4M32 50v4M40 50v4M48 50v4"/><path d="M18 40l8-9 6 6 5-5 9 8"/></svg><figcaption>Vintage Film Style<span>Warm colors, gentle grain, and retro digital character straight from the camera.</span></figcaption></figure>
+      <figure><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M50 30a18 18 0 0 0-33-9"/><path d="M14 30a18 18 0 0 0 33 9"/><path d="M17 12v9h9M47 52v-9h-9"/><path d="M32 40c-6-4-6-10 0-16 6 6 6 12 0 16zM32 40v-6"/></svg><figcaption>Eco Friendly<span>Reusable and rechargeable forever, eliminating single-use plastic waste and lab fees.</span></figcaption></figure>
+    </div>
+    <div class="center"><a class="cta inline" href="#buy">Choose your finish · Start shooting</a></div>
+  </div>
+</section>
+
+<!-- 7. Filters -->
+<section class="sec" aria-labelledby="filters-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Built-in film profiles</p>
+      <h2 id="filters-h">Four timeless looks.<span class="mute">Four built-in color profiles, ready to shoot without editing apps.</span></h2>
+    </div>
+    <div class="prints">
+      <figure class="print" style="--r:-2deg"><img src="images/filter-natural.jpg" alt="Beach scene in the Natural profile"><figcaption>Natural<br><small>Clean, balanced, and honest. The profile you leave on for everyday street walks.</small></figcaption></figure>
+      <figure class="print" style="--r:1.5deg"><img src="images/filter-vintage.jpg" alt="Same beach scene in the Vintage profile"><figcaption>Vintage<br><small>Turns an ordinary Tuesday afternoon into a memory from thirty summers ago.</small></figcaption></figure>
+      <figure class="print" style="--r:-1deg"><img src="images/filter-bw.jpg" alt="Same beach scene in the Black and White profile"><figcaption>Black &amp; White<br><small>Timeless, dramatic, and unflinchingly candid. Pure light and shadow.</small></figcaption></figure>
+      <figure class="print" style="--r:2deg"><img src="images/filter-film.jpg" alt="Same beach scene in the Film profile"><figcaption>Film<br><small>Bright, bold, and electric. Perfect for when you want flash and fun.</small></figcaption></figure>
+    </div>
+    <div class="center"><a class="cta inline" href="#buy">Pick your Retra finish · Explore the colors</a></div>
+  </div>
+</section>
+
+<!-- 8. How it works -->
+<section class="sec band" id="how" aria-labelledby="how-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">The ritual</p>
+      <h2 id="how-h">How it works.<span class="mute">Four tactile steps from your pocket to your memory vault.</span></h2>
+    </div>
+    <ol class="steps" style="margin:0;padding:0">
+      <li><span class="n">01</span>
+        <svg viewBox="0 0 170 110" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="20" y="30" width="130" height="72" rx="10"/><circle cx="85" cy="66" r="22"/><circle cx="85" cy="66" r="12"/><rect x="34" y="20" width="22" height="10" rx="2"/><rect x="118" y="40" width="20" height="12" rx="2"/><path d="M45 10v6M36 13l3 4M54 13l-3 4"/></svg>
+        <h3>Power On &amp; Check Your Counter</h3><p>Slide the power switch on. The small OLED shot counter turns on to display the remaining photo count on your included SD card. No account setup, passwords, or wireless pairing required.</p></li>
+      <li><span class="n">02</span>
+        <svg viewBox="0 0 170 110" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="20" y="30" width="130" height="72" rx="10"/><circle cx="85" cy="66" r="22"/><circle cx="85" cy="66" r="12"/><circle cx="128" cy="22" r="9"/><path d="M128 15v7"/><path d="M112 10a20 20 0 0 1 30 0" stroke-dasharray="3 4"/></svg>
+        <h3>Select Your Analog Color Profile</h3><p>Click the dedicated filter selector to choose how your frame will be rendered: Natural, Vintage, Black &amp; White, or Film.</p></li>
+      <li><span class="n">03</span>
+        <svg viewBox="0 0 170 110" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="20" y="30" width="130" height="72" rx="10"/><circle cx="85" cy="66" r="22"/><circle cx="85" cy="66" r="12"/><rect x="118" y="21" width="16" height="9" rx="2"/><path d="M126 4v10M120 9l6 6 6-6"/></svg>
+        <h3>Frame, Click, and Return to Life</h3><p>Look through the optical viewfinder. Press the shutter button to take the photo. Put Retra back into your pocket or let it rest on your wrist strap. There is no preview screen to review. You captured the moment; now you keep living it.</p></li>
+      <li><span class="n">04</span>
+        <svg viewBox="0 0 170 110" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="10" y="30" width="110" height="64" rx="10"/><circle cx="65" cy="62" r="19"/><circle cx="65" cy="62" r="10"/><path d="M120 56h10"/><rect x="130" y="51" width="14" height="10" rx="2"/><path d="M144 56c14 0 14 30 2 40"/></svg>
+        <h3>Plug In and Relive the Surprise</h3><p>When you are ready to see your photos, connect Retra to your phone or laptop using the included USB-C cable. Alternatively, take out the included SD memory card and insert it into a standard card reader. Open your photos and relive the memories you captured.</p></li>
+    </ol>
+    <p class="lede" style="text-align:center;margin-top:40px"><b>The Beauty of Delayed Gratification:</b> Remember when you used to pick up developed prints from the photo counter and sit together around the kitchen table to look through the packet? Retra brings that exact feeling back to your digital life: zero development fees, zero waiting on the post, but all of the anticipation.</p>
+  </div>
+</section>
+
+<!-- 9. Moments -->
+<section class="sec" aria-labelledby="mom-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">The moment archive</p>
+      <h2 id="mom-h">Made for the days you want to remember.<span class="mute">Not the ones you want to broadcast.</span></h2>
+      <p class="lede">The best memories never happen under studio ring lights or after seventeen staged takes. They happen when you are laughing so hard your chest hurts, when the sun dips behind the ocean, or when your child sees a parade float roll past for the first time. Here is where Retra belongs.</p>
+    </div>
+    <div class="moments">
+      <figure class="moment big"><img src="images/eu-lisbon.jpg" alt="Yellow tram on a Lisbon street"><figcaption><b>European Escapes</b><span>For wandering without a map.</span></figcaption></figure>
+      <figure class="moment big"><img src="images/park-carousel.jpg" alt="Kids on a theme-park carousel"><figcaption><b>Fairytale Theme Parks &amp; Family Days</b><span>For the happiest days of childhood.</span></figcaption></figure>
+      <figure class="moment"><img src="images/beach-sunset.jpg" alt="Toddler at the water's edge at sunset"><figcaption><b>Coastal &amp; Beach Days</b><span>For afternoons measured by the tide.</span></figcaption></figure>
+      <figure class="moment"><img src="images/eu-rome.jpg" alt="Friends with gelato at night in Rome"><figcaption><b>Late-Night Dinners &amp; Celebrations</b><span>For conversations that run past midnight.</span></figcaption></figure>
+      <figure class="moment"><img src="images/wedding.jpg" alt="Bride and groom dancing at night"><figcaption><b>Weddings &amp; Milestones</b><span>For the frames the official photographer missed.</span></figcaption></figure>
+    </div>
+    <div class="center"><a class="cta inline" href="#buy">Pick your companion · Explore all 7 finishes</a></div>
+  </div>
+</section>
+
+<!-- 10. Comparison -->
+<section class="sec band" aria-labelledby="cmp-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">The honest comparison</p>
+      <h2 id="cmp-h">Built for real presence.<span class="mute">How Retra compares to traditional single-use disposables and modern smartphones.</span></h2>
+    </div>
+    <div class="compare-wrap">
+      <table class="compare">
+        <thead><tr><th scope="col"><span class="sr" style="position:absolute;left:-9999px">Feature</span></th><th scope="col" class="us">Retra</th><th scope="col">Disposable cameras</th><th scope="col">Smartphone</th></tr></thead>
+        <tbody><tr><th scope="row">Screen &amp; distraction free</th><td class="us"><span class="yes" aria-label="Yes">✓</span></td><td><span class="yes" aria-label="Yes">✓</span></td><td><span class="no" aria-label="No">✕</span></td></tr><tr><th scope="row">Authentic retro film look</th><td class="us"><span class="yes" aria-label="Yes">✓</span></td><td><span class="yes" aria-label="Yes">✓</span></td><td><span class="no" aria-label="No">✕</span></td></tr><tr><th scope="row">Reusable &amp; rechargeable</th><td class="us"><span class="yes" aria-label="Yes">✓</span></td><td><span class="no" aria-label="No">✕</span></td><td><span class="yes" aria-label="Yes">✓</span></td></tr><tr><th scope="row">Ongoing film &amp; lab fees</th><td class="us">$0</td><td>$15-$25/roll</td><td>$0</td></tr><tr><th scope="row">Shot capacity per charge / roll</th><td class="us">~500 shots</td><td>27 shots</td><td>Variable</td></tr><tr><th scope="row">Instant digital photo transfer</th><td class="us"><span class="yes" aria-label="Yes">✓</span> <small>USB-C</small></td><td><span class="no" aria-label="No">✕</span> <small>1-2 weeks</small></td><td><span class="yes" aria-label="Yes">✓</span></td></tr><tr><th scope="row">Zero single-use plastic waste</th><td class="us"><span class="yes" aria-label="Yes">✓</span></td><td><span class="no" aria-label="No">✕</span></td><td><span class="yes" aria-label="Yes">✓</span></td></tr><tr><th scope="row">Delayed photo discovery</th><td class="us"><span class="yes" aria-label="Yes">✓</span></td><td><span class="yes" aria-label="Yes">✓</span></td><td><span class="no" aria-label="No">✕</span></td></tr></tbody>
+      </table>
+    </div>
+    <p class="lede" style="text-align:center;margin-top:32px"><b>The Bottom Line:</b> Traditional disposables give you the charm of film, but they punish your wallet and fill landfills. Smartphones give you convenience, but they steal your attention and turn vacations into work. Retra gives you the best of both worlds: the nostalgic character and pure presence of film, paired with the zero-cost ease of modern digital transfer.</p>
+  </div>
+</section>
+
+<!-- Reviews -->
+<section class="sec" aria-labelledby="rev-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Stories from the field</p>
+      <h2 id="rev-h">The camera people keep reaching for.<span class="mute">Rated <em class="ph">[RATING]</em>/5 from <em class="ph">[REVIEW COUNT]</em>+ verified customer stories.</span></h2>
+    </div>
+    <div class="reviews">
+      <figure class="review"><img src="images/hand-amalfi.jpg" alt="Retra held up on a trip through Italy">
+        <blockquote><span class="stars">★★★★★</span><br><b>"Saved our holiday from becoming an Instagram chore."</b><br>"My partner and I bought two cameras before spending two weeks traveling by train through Lucerne and Lake Como. On previous holidays, every scenic viewpoint turned into twenty minutes of taking test photos on our phones, checking lighting, and getting distracted by WhatsApp. With Retra, you look through the little glass window, take one shot, and keep walking. Not knowing exactly how the frame turned out until we plugged it in at home made looking through the photos feel like Christmas morning. The colors have this gorgeous vintage warmth that phone cameras completely smooth out. Will never travel without one."</blockquote>
+        <figcaption><span>Julian K. · Switzerland &amp; Northern Italy</span><span class="sample">Sample</span></figcaption></figure>
+      <figure class="review"><img src="images/park-fireworks.jpg" alt="Fireworks over a theme park at night">
+        <blockquote><span class="stars">★★★★★</span><br><b>"Survived 12 hours of roller coasters, fireworks, and excited kids."</b><br>"We took our 7-year-old and 10-year-old on a massive theme park trip. We gave each kid their own Retra on a wrist lanyard and kept one for ourselves. It was hands-down the best parenting decision of the vacation. The kids were thrilled to have their own 'real camera' without handing them a $1,000 phone that could shatter on a ride. The battery lasted the entire 13-hour day without dying, and the built-in flash captured the evening parade and castle fireworks with that incredible retro party look. Plugging the cameras into our laptop back at the hotel and seeing what our kids saw from their perspective was pure magic."</blockquote>
+        <figcaption><span>Sarah &amp; David T. · Family theme-park trip</span><span class="sample">Sample</span></figcaption></figure>
+      <figure class="review"><img src="images/beach-friends.jpg" alt="Friends running into the sea">
+        <blockquote><span class="stars">★★★★★</span><br><b>"The most thoughtful gift I have received in years."</b><br>"My sister gave me a Retra tied in the gift ribbon for my birthday right before our annual beach week. I used to buy three or four disposable cameras every summer, which ended up costing a fortune in film development and felt so wasteful tossing all that plastic. Retra gives you that exact nostalgic beach aesthetic: sun flare, golden skin tones, and honest candid laughter, but with zero development cost. We took it right down to the sand, snapped over 300 shots, and plugged it directly into my MacBook via USB-C when we got home. It is simple, beautifully built, and so liberating to use."</blockquote>
+        <figcaption><span>Chloe B. · Coastal weekend</span><span class="sample">Sample</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 11. UGC -->
+<section class="sec band" aria-labelledby="ugc-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">The Retra archive</p>
+      <h2 id="ugc-h">Seen through the viewfinder.<span class="mute">Real life without the screen. Follow along and share your photos with #shotonretra.</span></h2>
+    </div>
+    <p class="tagline">#shotonretra</p>
+    <div class="ugc">
+      <img src="images/eu-paris.jpg" alt="Example community post: Paris café"><img src="images/park-carousel.jpg" alt="Example community post: carousel"><img src="images/beach-bonfire.jpg" alt="Example community post: beach bonfire"><img src="images/eu-santorini.jpg" alt="Example community post: Santorini"><img src="images/wedding.jpg" alt="Example community post: wedding"><img src="images/beach-sunset.jpg" alt="Example community post: beach at sunset">
+    </div>
+    <p class="lede" style="text-align:center"><em class="ph">[COMMUNITY &amp; CREATOR GALLERY PLACEHOLDER: The sample tiles above illustrate layout, tone, and captions for customer and creator submissions after launch.]</em></p>
+  </div>
+</section>
+</main>
+
+<!-- 12. Footer -->
+<footer id="footer">
+  <div class="wrap">
+    <div><a class="logo" href="#buy">Retra</a><p>Retra was founded on a simple conviction: the richest parts of living happen when your eyes are open to the room, not fixed on a six-inch screen. We design intentional, screen-free photographic tools that help travelers, families, and mindful creators bottle real memories without letting digital noise break the spell. Reusable for life, gentle on the earth, and dedicated to the unscripted moment.</p></div>
+    <div><h4>The Camera</h4><ul><li><a href="#buy">Overview</a></li><li><a href="#filters-h">4 Film Profiles</a></li><li><a href="#faq">Technical Specifications</a></li><li><a href="#buy">Gift Bundles</a></li></ul></div>
+    <div><h4>Customer Care</h4><ul><li><a href="#footer">Order Tracking</a></li><li><a href="#faq">30-Day Field Trial &amp; Returns</a></li><li><a href="#faq">Shipping Policy</a></li><li><a href="#faq">FAQ</a></li><li><a href="#footer">Contact Studio Support</a></li></ul></div>
+    <div><h4>The Field Journal</h4>
+      <p style="font-family:var(--f-display);font-size:24px;color:#F2EEE6;margin:0">Stories from the road.</p>
+      <p>Sign up for travel journals, rare batch releases, and 10% off your first camera.</p>
+      <form class="news" id="news"><label for="news-email" style="position:absolute;left:-9999px">Email</label><input id="news-email" type="email" required placeholder="Enter your email address"><button type="submit">Subscribe &amp; receive 10% off</button></form>
+      <p id="news-msg" role="status" style="font-size:12.5px">We send two thoughtful letters a month. Zero marketing noise, and you can step away whenever you choose.</p>
+    </div>
+  </div>
+  <div class="legal"><div class="wrap"><span>Copyright © <em class="ph">[COMPANY / BRAND ENTITY PLACEHOLDER]</em>. All rights reserved.</span><span><a href="#footer">Privacy Policy</a> · <a href="#footer">Terms of Service</a> · <button class="linkish" id="open-popup" type="button">Preview exit popup</button></span></div></div>
+</footer>
+
+<!-- Exit-intent popup (template: opens on exit intent on desktop, or from the footer link) -->
+<div class="modal" id="popup" hidden role="dialog" aria-modal="true" aria-labelledby="pop-h">
+  <div class="card">
+    <img src="images/hand-amalfi.jpg" alt="">
+    <div class="inner">
+      <p class="kicker" style="margin:0">Archive privilege</p>
+      <h2 id="pop-h">Before you pack your bags...<span class="mute">Take 10% off your first Retra Camera.</span></h2>
+      <p class="fine" style="font-size:13.5px">Your next holiday deserves your full attention. Leave screen fatigue behind and bring the timeless ritual of film to your upcoming travels.</p>
+      <form id="pop-form" style="display:grid;gap:10px"><label for="pop-email" style="position:absolute;left:-9999px">Email</label><input id="pop-email" type="email" required placeholder="Enter your email"><button class="cta" type="submit">Unlock my 10% savings code</button></form>
+      <p class="fine" id="pop-msg" role="status">Enter your email below to unlock an instant 10% discount code applicable to all single cameras and multi-pack gift bundles.</p>
+      <button class="no-thanks" id="pop-no" type="button">No thank you, I prefer taking 50 photos on my phone.</button>
+    </div>
+    <button class="x" id="pop-x" type="button" aria-label="Close">×</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  // Countdown: set the real sale end here.
+  var SALE_END = new Date('2026-12-02T08:00:00Z').getTime();
+  function pad(n) { return String(n).padStart(2, '0'); }
+  function tick() {
+    var t = Math.max(0, SALE_END - Date.now()) / 1000;
+    document.getElementById('cd-d').textContent = pad(Math.floor(t / 86400));
+    document.getElementById('cd-h').textContent = pad(Math.floor(t % 86400 / 3600));
+    document.getElementById('cd-m').textContent = pad(Math.floor(t % 3600 / 60));
+    document.getElementById('cd-s').textContent = pad(Math.floor(t % 60));
+  }
+  tick(); setInterval(tick, 1000);
+
+  // Gallery
+  var stage = document.getElementById('stage-img');
+  document.querySelectorAll('.thumbs button').forEach(function (b) {
+    b.addEventListener('click', function () {
+      stage.src = b.dataset.src; stage.alt = b.dataset.alt;
+      document.querySelectorAll('.thumbs button').forEach(function (x) { x.removeAttribute('aria-current'); });
+      b.setAttribute('aria-current', 'true');
+    });
+  });
+
+  // Colour name
+  document.getElementById('swatches').addEventListener('change', function (e) { document.getElementById('color-name').textContent = e.target.value; });
+
+  // Bundle price on button
+  var prices = { '1': '$[PRICE]', '2': '$[BUNDLE 2 PRICE]', '3': '$[BUNDLE 3 PRICE]', '4': '$[BUNDLE 4 PRICE]' };
+  document.querySelectorAll('input[name=bundle]').forEach(function (r) {
+    r.addEventListener('change', function () { document.getElementById('cta-price').textContent = prices[r.value]; });
+  });
+
+  // Template add to cart
+  var count = 0;
+  document.getElementById('add').addEventListener('click', function () {
+    var n = Number(document.querySelector('input[name=bundle]:checked').value);
+    count += n; document.getElementById('cart-count').textContent = count;
+    document.getElementById('added').textContent = 'Added ' + n + ' × Retra (' + document.getElementById('color-name').textContent + ') to your cart. (Template: connect to checkout.)';
+  });
+
+  // Newsletter + popup (template only, nothing is sent)
+  document.getElementById('news').addEventListener('submit', function (e) { e.preventDefault(); document.getElementById('news-msg').textContent = 'Template form: connect this to your email platform.'; });
+  var pop = document.getElementById('popup');
+  function openPop() { pop.hidden = false; document.getElementById('pop-email').focus(); }
+  function closePop() { pop.hidden = true; }
+  document.getElementById('open-popup').addEventListener('click', openPop);
+  document.getElementById('pop-x').addEventListener('click', closePop);
+  document.getElementById('pop-no').addEventListener('click', closePop);
+  pop.addEventListener('click', function (e) { if (e.target === pop) closePop(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closePop(); });
+  document.getElementById('pop-form').addEventListener('submit', function (e) { e.preventDefault(); document.getElementById('pop-msg').textContent = 'Template form: connect this to your email platform to issue the code.'; });
+  var shown = false;
+  document.addEventListener('mouseout', function (e) { if (!shown && !e.relatedTarget && e.clientY <= 0) { shown = true; openPop(); } });
+})();
+</script>
