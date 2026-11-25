@@ -128,8 +128,8 @@ def page(product_handle):
             ("row", {"icon": "truck", "title": "Tracked delivery", "text": "Dispatched in 1-2 business days with full online door-to-door tracking."}),
             ("row", {"icon": "headset", "title": "A real person can help", "text": "Have a question about your camera or order? Send a message through our <a href=\"/pages/contact\" title=\"Contact page\">Contact page</a>."})]),
         "faq": section("retra-faq", {"heading": "Frequently asked questions", "open_first": True,
-            "collage_1": IMG("rv-venice.jpg"), "collage_2": IMG("rv-amsterdam.jpg"), "collage_3": IMG("rv-scotland.jpg"),
-            "collage_4": IMG("rv-seville.jpg"), "collage_5": IMG("rv-boat.jpg"), "collage_6": IMG("m-carousel.jpg")},
+            "collage_1": IMG("fq-winter-market.jpg"), "collage_2": IMG("fq-sagrada.jpg"), "collage_3": IMG("fq-snow-sled.jpg"),
+            "collage_4": IMG("fq-vatican.jpg"), "collage_5": IMG("fq-japan.jpg"), "collage_6": IMG("fq-snow-flash.jpg")},
             [("question", {"question": q, "answer": f"<p>{E(a)}</p>"}) for q, a in FAQ]),
     }
     return {"layout": "retra", "sections": sections, "order": list(sections)}

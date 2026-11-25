@@ -616,12 +616,12 @@
       "settings": {
         "heading": "Frequently asked questions",
         "open_first": true,
-        "collage_1": "shopify://shop_images/retra-rv-venice.jpg",
-        "collage_2": "shopify://shop_images/retra-rv-amsterdam.jpg",
-        "collage_3": "shopify://shop_images/retra-rv-scotland.jpg",
-        "collage_4": "shopify://shop_images/retra-rv-seville.jpg",
-        "collage_5": "shopify://shop_images/retra-rv-boat.jpg",
-        "collage_6": "shopify://shop_images/retra-m-carousel.jpg"
+        "collage_1": "shopify://shop_images/retra-fq-winter-market.jpg",
+        "collage_2": "shopify://shop_images/retra-fq-sagrada.jpg",
+        "collage_3": "shopify://shop_images/retra-fq-snow-sled.jpg",
+        "collage_4": "shopify://shop_images/retra-fq-vatican.jpg",
+        "collage_5": "shopify://shop_images/retra-fq-japan.jpg",
+        "collage_6": "shopify://shop_images/retra-fq-snow-flash.jpg"
       },
       "blocks": {
         "question_1": {
