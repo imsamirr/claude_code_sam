@@ -1,3 +1,18 @@
+{%- style -%}
+.bar { position: relative; isolation: isolate; overflow: hidden; background: #0b1622 var(--bar-m) center / cover; color: #fff; }
+.bar::before { content: ""; position: absolute; inset: 0; z-index: -1; background: radial-gradient(ellipse 60% 160% at 50% 50%, rgba(0,0,0,.5), rgba(0,0,0,.15)); pointer-events: none; }
+.bar-in { display: flex; max-width: 1440px; min-height: 40px; margin: 0 auto; align-items: center; justify-content: center; padding: 8px 16px; }
+.bar-copy { display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center; gap: 6px 12px; text-align: center; }
+.bar-title { font-family: var(--f-display); font-size: 15px; line-height: 18px; letter-spacing: -.01em; color: #fff; white-space: nowrap; }
+.bar-offer { display: inline-flex; flex: none; border-radius: 2px; padding: 1px 5px; background: #f9f7f2; box-shadow: 0 1px 2px rgba(0,0,0,.2); color: #022b49; font-size: 12px; font-weight: 700; letter-spacing: .02em; line-height: 16px; text-transform: uppercase; white-space: nowrap; }
+@media (min-width: 1000px) {
+  .bar { background-image: var(--bar-d); }
+  .bar-in { min-height: 44px; padding-block: 0; }
+  .bar-copy { gap: 16px; }
+  .bar-title { font-size: 16px; }
+  .bar-offer { padding: 2px 6px; font-size: 13px; }
+}
+{%- endstyle -%}
 {%- if section.settings.show_bar -%}
 {%- liquid
   if section.settings.bar_bg_desktop
