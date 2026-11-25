@@ -66,3 +66,32 @@ The user connected a second Shopify store (not ComfortWear) for this. Approach:
 3. Build a product template or sections that reproduce `index.html`. Shopify's theme tools and skills cover this; load the relevant skill first.
 4. Wire Add to Cart and the forms to the real cart and email platform.
 5. Ask the user for the price, offer mechanics and real reviews before going live.
+
+## Shopify build (2026-11-25)
+
+Live on **RECLAIM NUTRA** (reclaimnutra.com, ff0c5a-21.myshopify.com) as an **unpublished theme named "Retra"**
+(`gid://shopify/OnlineStoreTheme/188991406298`, a copy of Dawn). The live K-Tube theme was not touched.
+Preview: https://reclaimnutra.com/?preview_theme_id=188991406298
+
+- **Product:** "Retra Screen-Free Camera", handle `retra-screen-free-camera`, Active, Online Store channel only.
+  7 colour variants (Dune, Pine, Aegean, Sol, Blossom, Obsidian, Chalk), $99 / compare-at $200, SKUs `RETRA-<COLOUR>`,
+  inventory not tracked. Each variant has its `g0-*` photo; `g1`–`g8` are the gallery. Template suffix `retra`.
+- **Images:** all page images are in Shopify Files as `retra-*.{jpg,png}` (sections point at them with `shopify://shop_images/...`).
+- **Theme source:** `shopify-theme/` in this folder. `layout/retra.liquid` (own header/footer, no Dawn chrome),
+  `sections/retra-*.liquid` (one per page section, all copy editable in the theme editor), `assets/retra.css|js`,
+  `templates/index.json` (home = the same page, product picked in the buy box) and `templates/product.retra.json`.
+  `tools/build_templates.py` regenerates both templates from the copy. Upload changed files with `themeFilesUpsert`
+  (body type URL, a raw.githubusercontent link pinned to the commit SHA). Note: the `theme_bash` sandbox keeps its
+  first snapshot and does not see upserted files, so check the real preview link (Playwright) rather than `theme_screenshot`.
+- **Behaviour:** colour swatches swap the photo, the variant and `?variant=`; Add to Cart posts to `/cart/add.js` and opens
+  a slide-out cart (qty +/-, remove, Check Out); the sticky bar shows once the main button scrolls away on every screen size,
+  and its "Claim BOGO Offer" button scrolls back to `#retra-cta` (the price row). Bundles go there later.
+  The newsletter is a Shopify customer form tagged `newsletter,retra`.
+- **Copy:** `copy/16-stefanbrain-shopify-slots.md` (StefanBrain) filled the last placeholders: shipping, contact page,
+  newsletter without a discount, sticky and cart labels. Rating 4.8 / 1,753 is real (wholesale channel).
+- **Still to do before ads:**
+  - Buy 1, Get 1 Free is only text. No discount exists, so checkout charges full price for 2. Set up a BXGY automatic discount
+    or the bundle selector.
+  - The 12 review cards and the `g5` quotes are still SAMPLE reviews (labelled). Swap in the real wholesale reviews.
+  - Publishing: the "Retra" theme replaces K-Tube for the whole store; the other products would use Dawn's default
+    product template. Exit popup ("Mystery Discount") was dropped because no discount exists.
