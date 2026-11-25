@@ -211,8 +211,86 @@ def frontback(c):
     return img.convert("RGB")
 
 
-BUILD = {"hand": hand, "howto": howto, "usbc": usbc, "frontback": frontback}
+def sparkle(d, cx, cy, r, col=(201, 162, 77), w=5):
+    for k in range(4):
+        ang = k * np.pi / 4
+        d.line([(cx - r * np.cos(ang), cy - r * np.sin(ang)), (cx + r * np.cos(ang), cy + r * np.sin(ang))], fill=col, width=w)
+
+
+def filters(c):
+    img = canvas()
+    d = ImageDraw.Draw(img)
+    text(d, (170, 110), typeset(COPY["filters_title"]), tinos(140))
+    tw, th, gx, gy = 830, 619, 70, 160
+    x0s = [(S - 2 * tw - gx) / 2, (S + gx) / 2]
+    y0s = [350, 350 + th + gy]
+    rule = (2, 43, 73, 60)
+    d.line([(S / 2, 330), (S / 2, y0s[1] + th + 110)], fill=rule, width=3)
+    d.line([(240, y0s[0] + th + 98), (S - 240, y0s[0] + th + 98)], fill=rule, width=3)
+    lf = inter(60, "Medium")
+    files = {"Natural": "f-natural", "Vintage": "f-vintage", "Black & White": "f-bw", "Film": "f-film"}
+    for i, name in enumerate(COPY["filter_labels"]):
+        r, col = divmod(i, 2)
+        ph = ImageOps.fit(Image.open(HERE / "base" / f"{files[name]}_2x.jpg").convert("RGB"), (tw, th), Image.LANCZOS)
+        img.paste(ph, (int(x0s[col]), int(y0s[r])))
+        ly = y0s[r] + th + 22
+        if col == 0:
+            text(d, (x0s[col], ly), name, lf)
+        else:
+            text(d, (x0s[col] + tw, ly), name, lf, anchor="r")
+    # centre card with the front view
+    cw, ch = 800, 520
+    card = Image.new("RGBA", (cw + 120, ch + 120), (0, 0, 0, 0))
+    ImageDraw.Draw(card).rounded_rectangle((60, 76, cw + 60, ch + 76), radius=70, fill=(0, 0, 0, 70))
+    card = card.filter(ImageFilter.GaussianBlur(24))
+    cx, cy = S / 2, y0s[0] + th + gy / 2 + 10
+    img.alpha_composite(card, (int(cx - cw / 2 - 60), int(cy - ch / 2 - 60)))
+    face = Image.new("RGBA", (cw, ch), (0, 0, 0, 0))
+    ImageDraw.Draw(face).rounded_rectangle((0, 0, cw - 1, ch - 1), radius=70, fill=CREAM + (255,))
+    img.alpha_composite(face, (int(cx - cw / 2), int(cy - ch / 2)))
+    cam = fit_w(front_cut(c), 600)
+    place(img, cam, cx, cy + cam.height / 2 + 10)
+    return img.convert("RGB")
+
+
+def gift(c):
+    img = ImageOps.fit(Image.open(src(PICKS[f"gift_{c}"])).convert("RGB"), (S, S), Image.LANCZOS).convert("RGBA")
+    d = ImageDraw.Draw(img)
+    text(d, (150, 120), typeset(COPY["gift_headline"]), tinos(210))
+    text(d, (160, 360), typeset(COPY["gift_second_line"]), tinos(110), MUTE)
+    lx, ly = PICKS.get("gift_label", {}).get(c, (1470, 560))
+    lf = inter(62, "Medium")
+    text(d, (lx, ly), typeset(COPY["gift_arrow_label"]), lf)
+    ax, ay = PICKS.get("gift_arrow_to", {}).get(c, (1500, 800))
+    arrow(d, [(lx + 120, ly + 90), (lx + 70, ly + 150), (ax, ay)])
+    for (x, y, r) in [(1780, 160, 36), (1560, 330, 26), (1860, 430, 30), (110, 560, 30), (140, 1660, 34),
+                      (1900, 1780, 40), (1120, 1700, 28)]:
+        sparkle(d, x, y, r)
+    return img.convert("RGB")
+
+
+def box(c):
+    img = ImageOps.fit(Image.open(src(PICKS[f"box_{c}"])).convert("RGB"), (S, S), Image.LANCZOS).convert("RGBA")
+    d = ImageDraw.Draw(img)
+    bf = inter(60, "Bold")
+    badge = typeset(COPY["box_badge"]).upper()
+    bw = measure(bf, badge)
+    bx, by = PICKS["box_badge_xy"][c]
+    d.rounded_rectangle((bx, by, bx + bw + 100, by + 130), radius=65, fill=NAVY)
+    text(d, (bx + 50, by + 30), badge, bf, (255, 255, 255))
+    lf = inter(62, "Medium")
+    for key in ["camera", "cable", "strap", "card"]:
+        spec = PICKS["box_labels"][c][key]
+        (tx, ty), anchor, ctrl, tip = spec["text"], spec.get("anchor", "l"), spec["ctrl"], spec["tip"]
+        w = text(d, (tx, ty), typeset(COPY[f"box_label_{key}"]), lf, anchor=anchor)
+        arrow(d, [tuple(spec["start"]), tuple(ctrl), tuple(tip)])
+    return img.convert("RGB")
+
+
+BUILD = {"hand": hand, "howto": howto, "usbc": usbc, "frontback": frontback, "filters": filters, "gift": gift,
+         "box": box}
 RENDERED_BACK = {"howto", "usbc", "frontback"}  # show back/bottom/port views that come from renders, not photos
+SUFFIX = {"filters": "_ILLUSTRATIVE"}  # filter samples are renders, not photos taken with a Retra
 
 
 def main():
@@ -221,7 +299,7 @@ def main():
         for c in COLOURS:
             im = BUILD[k](c)
             assert im.size == (S, S)
-            suffix = "_RENDERED-BACK" if k in RENDERED_BACK else ""
+            suffix = "_RENDERED-BACK" if k in RENDERED_BACK else SUFFIX.get(k, "")
             name = f"RET_gallery_{k}_{c}{suffix}.jpg"
             im.save(OUT / name, quality=92)
             print(name)

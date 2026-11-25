@@ -1,6 +1,6 @@
 # Retra product-page gallery (2000x2000): Chalk, Obsidian and Sol
 
-Retra versions of four competitor gallery layouts (hand-held hero, how-to grid, USB-C flat lay, front/back).
+Retra versions of seven competitor gallery layouts: hand-held hero, how-to grid, USB-C flat lay, front/back, filter grid, gift flat lay and what's in the box.
 The reviews image is skipped until real Retra reviews exist. Contact sheet: `output/RET_gallery_contact_sheet.jpg`.
 
 - Words: `gallery_copy.json`, written by StefanBrain (project "Retra Launch"); none of the competitor's wording is used.
@@ -10,3 +10,6 @@ The reviews image is skipped until real Retra reviews exist. Contact sheet: `out
 - Chalk front cutout: `cutout_chalk_front.py` uses a Kie green-screen copy as the mask.
 
 Rebuild: `python3 compose_gallery.py` (raw renders are committed as JPEG; the 2K PNGs stay local).
+
+- `filters_*_ILLUSTRATIVE`: the four sample photos are the landing page's Kie renders (`base/f-*.jpg`, upscaled), not photos taken with a Retra. Replace them with real samples when you have them.
+- Gift and in-the-box images: the box carries only the gold "Retra" wordmark (Kie-invented packaging, per Sam). There's no gift offer, and the memory card capacity isn't stated.

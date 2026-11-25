@@ -1,8 +1,30 @@
-{"source": "StefanBrain, project Retra Launch, chat chat_e2881d64bb4e43c687b42831eb31dff3, run run_5e01c287c6c441f58f542d49d4cb9cc1, 2026-11-25",
+{
+ "source": "StefanBrain, project Retra Launch, chat chat_e2881d64bb4e43c687b42831eb31dff3, run run_5e01c287c6c441f58f542d49d4cb9cc1, 2026-11-25; slots 5-7: run run_01d1b48a4e114dfcb0d5489997848731",
  "howto_title": "How Retra works.",
- "howto_steps": ["Press to power on", "Pick your film filter", "Look through and shoot", "Export over USB-C"],
+ "howto_steps": [
+  "Press to power on",
+  "Pick your film filter",
+  "Look through and shoot",
+  "Export over USB-C"
+ ],
  "usbc_headline": "Instant export over USB-C.",
  "frontback_headline": "Screen-free by design.",
  "frontback_second_line": "Just a viewfinder and flash.",
  "front_label": "Front view",
- "back_label": "Back view"}
+ "back_label": "Back view",
+ "filters_title": "Four built-in film looks.",
+ "filter_labels": [
+  "Natural",
+  "Vintage",
+  "Black & White",
+  "Film"
+ ],
+ "gift_headline": "Packaged to gift.",
+ "gift_second_line": "Arrives in a Retra gift box.",
+ "gift_arrow_label": "Your Retra",
+ "box_badge": "Everything included",
+ "box_label_camera": "Retra camera",
+ "box_label_cable": "USB-C charging cable",
+ "box_label_strap": "Wrist strap",
+ "box_label_card": "Memory card"
+}

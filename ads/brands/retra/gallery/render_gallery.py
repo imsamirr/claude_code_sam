@@ -63,6 +63,20 @@ def jobs():
             f" {col} exactly as in the second reference photo, and the background surface is {BG}. The laptop has"
             " no logo and the keyboard keys have no readable legends; the screens show photos only, no text or app"
             " UI. Keep the layout, cables and framing." + REAL))
+        j[f"gift_{c}"] = dict(refs=[BASE / "gift.jpg", PRODUCT / f"retra_{c}_34.jpg"], prompt=(
+            f"Top-down flat lay on {BG}, following the layout of the first image: at left a closed white retail gift box"
+            " tied with a wide navy-blue satin ribbon and a neat bow (the ribbon is plain, with no printed words or"
+            " pattern); the box lid shows only a small gold serif 'Retra' wordmark, no other printing. At right, the"
+            " Retra camera from the second reference lying flat, front facing up, with a black braided wrist strap"
+            " attached to its side lug and loosely looped. Leave the top 30% of the frame empty cream for a headline."
+            + CAM.format(col=col) + REAL))
+        j[f"box_{c}"] = dict(refs=[PRODUCT / f"retra_{c}_34.jpg"], prompt=(
+            f"Overhead three-quarter product flat lay on {BG}, unboxing layout: top right, an open-flap white retail box"
+            " standing at a slight angle whose front shows only a small gold serif 'Retra' wordmark (no other printing,"
+            " no icons, no text); centre, the Retra camera from the reference; left, a black braided wrist strap with"
+            " a small black clip, loosely coiled; bottom left, a coiled black USB-C cable; bottom right, one small"
+            " micro SD memory card with a plain black label (no readable text, no brand, no capacity). Items spaced"
+            " apart with clear empty cream space around each for small labels." + CAM.format(col=col) + REAL))
     return j
 
 

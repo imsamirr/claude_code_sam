@@ -1,7 +1,272 @@
 {
- "hand_chalk": "hand_chalk_t1.png", "hand_obsidian": "hand_obsidian_t1.png", "hand_sol": "hand_sol_t1.png",
- "front_chalk": "front_chalk_t2.png", "front_obsidian": "front_obsidian_t1.png", "front_sol": "front_sol_t1.png",
- "bottom_chalk": "bottom_chalk_recolour.png", "bottom_obsidian": "bottom_obsidian_recolour.png", "bottom_sol": "bottom_sol_recolour.png",
- "usbc_chalk": "usbc_chalk_t1.png", "usbc_obsidian": "usbc_obsidian_t1.png", "usbc_sol": "usbc_sol_t1.png",
- "usbc_text_x": 980, "usbc_text_y": 240
+ "hand_chalk": "hand_chalk_t1.png",
+ "hand_obsidian": "hand_obsidian_t1.png",
+ "hand_sol": "hand_sol_t1.png",
+ "front_chalk": "front_chalk_t2.png",
+ "front_obsidian": "front_obsidian_t1.png",
+ "front_sol": "front_sol_t1.png",
+ "bottom_chalk": "bottom_chalk_recolour.png",
+ "bottom_obsidian": "bottom_obsidian_recolour.png",
+ "bottom_sol": "bottom_sol_recolour.png",
+ "usbc_chalk": "usbc_chalk_t1.png",
+ "usbc_obsidian": "usbc_obsidian_t1.png",
+ "usbc_sol": "usbc_sol_t1.png",
+ "usbc_text_x": 980,
+ "usbc_text_y": 240,
+ "gift_chalk": "gift_chalk_t1.png",
+ "gift_obsidian": "gift_obsidian_t1.png",
+ "gift_sol": "gift_sol_t1.png",
+ "box_chalk": "box_chalk_t1.png",
+ "box_sol": "box_sol_t1.png",
+ "box_obsidian": "box_obsidian_t2.png",
+ "box_badge_xy": {
+  "chalk": [
+   80,
+   130
+  ],
+  "obsidian": [
+   80,
+   130
+  ],
+  "sol": [
+   80,
+   130
+  ]
+ },
+ "box_labels": {
+  "chalk": {
+   "strap": {
+    "text": [
+     90,
+     590
+    ],
+    "anchor": "l",
+    "start": [
+     260,
+     680
+    ],
+    "ctrl": [
+     220,
+     730
+    ],
+    "tip": [
+     300,
+     800
+    ]
+   },
+   "camera": {
+    "text": [
+     1975,
+     1370
+    ],
+    "anchor": "r",
+    "start": [
+     1650,
+     1360
+    ],
+    "ctrl": [
+     1610,
+     1320
+    ],
+    "tip": [
+     1590,
+     1280
+    ]
+   },
+   "cable": {
+    "text": [
+     80,
+     1895
+    ],
+    "anchor": "l",
+    "start": [
+     330,
+     1890
+    ],
+    "ctrl": [
+     300,
+     1850
+    ],
+    "tip": [
+     420,
+     1800
+    ]
+   },
+   "card": {
+    "text": [
+     1380,
+     1700
+    ],
+    "anchor": "l",
+    "start": [
+     1370,
+     1740
+    ],
+    "ctrl": [
+     1350,
+     1760
+    ],
+    "tip": [
+     1325,
+     1745
+    ]
+   }
+  },
+  "obsidian": {
+   "strap": {
+    "text": [
+     90,
+     580
+    ],
+    "anchor": "l",
+    "start": [
+     260,
+     670
+    ],
+    "ctrl": [
+     230,
+     720
+    ],
+    "tip": [
+     290,
+     770
+    ]
+   },
+   "camera": {
+    "text": [
+     1580,
+     1080
+    ],
+    "anchor": "l",
+    "start": [
+     1700,
+     1170
+    ],
+    "ctrl": [
+     1640,
+     1230
+    ],
+    "tip": [
+     1545,
+     1250
+    ]
+   },
+   "cable": {
+    "text": [
+     80,
+     1895
+    ],
+    "anchor": "l",
+    "start": [
+     330,
+     1890
+    ],
+    "ctrl": [
+     380,
+     1840
+    ],
+    "tip": [
+     480,
+     1790
+    ]
+   },
+   "card": {
+    "text": [
+     1440,
+     1620
+    ],
+    "anchor": "l",
+    "start": [
+     1640,
+     1615
+    ],
+    "ctrl": [
+     1660,
+     1580
+    ],
+    "tip": [
+     1650,
+     1545
+    ]
+   }
+  },
+  "sol": {
+   "strap": {
+    "text": [
+     80,
+     1270
+    ],
+    "anchor": "l",
+    "start": [
+     230,
+     1265
+    ],
+    "ctrl": [
+     210,
+     1230
+    ],
+    "tip": [
+     230,
+     1190
+    ]
+   },
+   "camera": {
+    "text": [
+     1570,
+     1260
+    ],
+    "anchor": "l",
+    "start": [
+     1610,
+     1350
+    ],
+    "ctrl": [
+     1560,
+     1360
+    ],
+    "tip": [
+     1500,
+     1320
+    ]
+   },
+   "cable": {
+    "text": [
+     1120,
+     1880
+    ],
+    "anchor": "l",
+    "start": [
+     1110,
+     1915
+    ],
+    "ctrl": [
+     1060,
+     1915
+    ],
+    "tip": [
+     1000,
+     1870
+    ]
+   },
+   "card": {
+    "text": [
+     1470,
+     1610
+    ],
+    "anchor": "l",
+    "start": [
+     1640,
+     1605
+    ],
+    "ctrl": [
+     1640,
+     1575
+    ],
+    "tip": [
+     1610,
+     1550
+    ]
+   }
+  }
+ }
 }
