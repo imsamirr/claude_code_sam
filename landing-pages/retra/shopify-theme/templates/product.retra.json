@@ -1,0 +1,707 @@
+{
+  "layout": "retra",
+  "sections": {
+    "buybox": {
+      "type": "retra-buybox",
+      "settings": {
+        "default_color": "Aegean",
+        "rating_text": "Rated <strong>4.8</strong>/5 stars out of <strong>1,753 reviews</strong>",
+        "offer_pill": "BUY 1, GET 1 FREE",
+        "stock_text": "Almost sold out",
+        "color_label": "Choose your color:",
+        "atc_label": "Add to Cart",
+        "added_label": "Added to Cart ✓",
+        "error_label": "Could not add to cart. Please check your connection and try again.",
+        "pay_image": "shopify://shop_images/retra-payments.png",
+        "pay_alt": "Accepted payments: Apple Pay, Google Pay, PayPal, American Express, Visa, Mastercard, Maestro and more",
+        "returns_note": "Enjoy <strong>30 days of hassle-free returns</strong> if you do not love shooting with Retra.",
+        "sticky_show": true,
+        "sticky_sub": "Buy 1, Get 1 Free",
+        "sticky_label": "Claim BOGO Offer"
+      },
+      "blocks": {
+        "badge_1": {
+          "type": "badge",
+          "settings": {
+            "icon": "shopify://shop_images/retra-ic-screen.png",
+            "text": "Screen-Free"
+          }
+        },
+        "badge_2": {
+          "type": "badge",
+          "settings": {
+            "icon": "shopify://shop_images/retra-ic-usb.png",
+            "text": "Instant USB-C Transfer"
+          }
+        },
+        "badge_3": {
+          "type": "badge",
+          "settings": {
+            "icon": "shopify://shop_images/retra-ic-battery.png",
+            "text": "500 Shots on One Charge"
+          }
+        },
+        "badge_4": {
+          "type": "badge",
+          "settings": {
+            "icon": "shopify://shop_images/retra-ic-eco.png",
+            "text": "Reusable & Rechargeable"
+          }
+        },
+        "accordion_5": {
+          "type": "accordion",
+          "settings": {
+            "title": "Product Details",
+            "icon": "info",
+            "use_description": true,
+            "faq_style": false,
+            "content": ""
+          }
+        },
+        "accordion_6": {
+          "type": "accordion",
+          "settings": {
+            "title": "Specs",
+            "icon": "camera",
+            "use_description": false,
+            "faq_style": false,
+            "content": "<ul><li>Screen-free design: live in the moment without screens</li><li>4 built-in filters (Natural, Vintage, Black &amp; White, Film)</li><li>8MP image resolution (3264 x 2448)</li><li>Fixed-focus lens (0.5 m to infinity)</li><li>Built-in LED flash</li><li>Built-in rechargeable lithium battery (about 500 shots per charge)</li><li>OLED shot counter</li><li>Memory card support (JPEG format)</li><li>Pocket-sized design: 4.5&quot; x 2.6&quot; x 1.3&quot; (115 x 65 x 33.5 mm)</li></ul>"
+          }
+        },
+        "accordion_7": {
+          "type": "accordion",
+          "settings": {
+            "title": "Shipping & Returns",
+            "icon": "truck",
+            "use_description": false,
+            "faq_style": false,
+            "content": "<p>All orders ship within 1-2 business days.</p><p>All orders ship with tracked delivery. As soon as your package leaves our studio, you will receive a tracking link via email to follow its progress right to your door.</p><p>Love your Retra or return it. We offer a 30-day hassle-free return window on all orders. If you need assistance with an order or a return, reach out directly through our <a href=\"/pages/contact\" title=\"Contact page\">Contact page</a>.</p>"
+          }
+        },
+        "accordion_8": {
+          "type": "accordion",
+          "settings": {
+            "title": "FAQ's",
+            "icon": "question",
+            "use_description": false,
+            "faq_style": true,
+            "content": "<p><strong>How does Retra work?</strong></p><p>Turn it on, choose your filter, look through the optical viewfinder, and press the shutter button. There is no back screen to review your shots. When you want to see your photos, plug Retra into your phone or laptop with the included USB-C cable.</p><p><strong>I have an iPhone with a Lightning port. How do I transfer photos?</strong></p><p>iPhones with a Lightning port cannot transfer photos over a direct USB-C to Lightning cable. You can insert the included SD card into a Lightning card reader adapter to import directly, or plug Retra into a computer and sync the files.</p><p><strong>What is the image quality like?</strong></p><p>Retra is built with a nostalgic, film-like aesthetic rather than smartphone sharpness. Images feature warm color tones, gentle grain, and retro digital character reminiscent of classic point-and-shoot cameras.</p><p><strong>Do I need to buy film or pay a lab for developing?</strong></p><p>No. Retra is fully digital, so there are no film rolls to buy and zero development fees. All photos save as standard JPEG files to the included SD memory card.</p><p><strong>How many photos can I take on one charge?</strong></p><p>The built-in rechargeable lithium battery powers about 500 shots per charge, and the included memory card holds roughly 500 photos. Once you offload your photos to a computer or phone, simply clear the card and shoot again.</p><p><strong>What comes inside the box?</strong></p><p>Every box includes your Retra camera, an SD memory card, a USB charging and transfer cable, a wrist strap, a quick start guide, and a complimentary gift ribbon.</p><p><strong>Does the camera have a flash for night photos?</strong></p><p>Yes. Retra includes a built-in LED flash that gives evening gatherings, parties, and night walks that classic, high-contrast direct-flash film look.</p><p><strong>Can I change between filters while shooting?</strong></p><p>Yes. You can switch between Natural, Vintage, Black &amp; White, and Film whenever you like. The selected profile applies straight to each JPEG photo as you take it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "accordion_5",
+        "accordion_6",
+        "accordion_7",
+        "accordion_8"
+      ]
+    },
+    "why": {
+      "type": "retra-why",
+      "settings": {
+        "kicker": "Built for presence",
+        "heading": "Why Retra works.",
+        "heading_2": "",
+        "pad_top": 24
+      },
+      "blocks": {
+        "item_1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-ic-screen.png",
+            "label": "SCREEN-FREE"
+          }
+        },
+        "item_2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-ic-roll.png",
+            "label": "NO CAMERA ROLL"
+          }
+        },
+        "item_3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-ic-storage.png",
+            "label": "PRE-LOADED STORAGE"
+          }
+        },
+        "item_4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-ic-battery.png",
+            "label": "RECHARGEABLE BATTERY"
+          }
+        },
+        "item_5": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-ic-film.png",
+            "label": "VINTAGE FILM STYLE"
+          }
+        },
+        "item_6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-ic-eco.png",
+            "label": "ECO FRIENDLY"
+          }
+        }
+      },
+      "block_order": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4",
+        "item_5",
+        "item_6"
+      ]
+    },
+    "looks": {
+      "type": "retra-looks",
+      "settings": {
+        "kicker": "Built-in film profiles",
+        "heading": "Four classic looks,",
+        "heading_2": "for every moment.",
+        "button_label": "Shop now",
+        "button_link": "#buy",
+        "pad_top": 40
+      },
+      "blocks": {
+        "item_1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-fl-natural.jpg",
+            "label": "Natural"
+          }
+        },
+        "item_2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-fl-vintage.jpg",
+            "label": "Vintage"
+          }
+        },
+        "item_3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-fl-bw.jpg",
+            "label": "Black & White"
+          }
+        },
+        "item_4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-fl-film.jpg",
+            "label": "Film"
+          }
+        }
+      },
+      "block_order": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4"
+      ]
+    },
+    "how": {
+      "type": "retra-how",
+      "settings": {
+        "kicker": "Simple by design",
+        "heading": "Four simple steps,",
+        "heading_2": "from pocket to photos.",
+        "pad_top": 20
+      },
+      "blocks": {
+        "step_1": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/retra-how-1.jpg",
+            "title": "Turn on",
+            "text": "Press the power switch."
+          }
+        },
+        "step_2": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/retra-how-2.jpg",
+            "title": "Choose your filter",
+            "text": "Natural, Vintage, B&W, or Film."
+          }
+        },
+        "step_3": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/retra-how-3.jpg",
+            "title": "Shoot",
+            "text": "Press the shutter. No preview screen."
+          }
+        },
+        "step_4": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/retra-how-4.jpg",
+            "title": "Transfer via USB-C",
+            "text": "Plug into your phone or laptop."
+          }
+        }
+      },
+      "block_order": [
+        "step_1",
+        "step_2",
+        "step_3",
+        "step_4"
+      ]
+    },
+    "compare": {
+      "type": "retra-compare",
+      "settings": {
+        "kicker": "Three ways to remember",
+        "heading": "The magic of film,",
+        "heading_2": "without the lab fees.",
+        "text": "Disposables create ongoing lab costs and plastic waste. Phones pull you into notifications and editing apps. Retra delivers the analog surprise of film with the ease of digital.",
+        "feature_label": "Feature",
+        "img_1": "shopify://shop_images/retra-cmp-retra.png",
+        "name_1": "Retra",
+        "img_2": "shopify://shop_images/retra-cmp-disposable.png",
+        "name_2": "Disposable",
+        "img_3": "shopify://shop_images/retra-cmp-phone.png",
+        "name_3": "Phone Camera",
+        "pad_top": 20
+      },
+      "blocks": {
+        "row_1": {
+          "type": "row",
+          "settings": {
+            "label": "Screen & distraction free",
+            "col_1": "yes",
+            "col_2": "yes",
+            "col_3": "no"
+          }
+        },
+        "row_2": {
+          "type": "row",
+          "settings": {
+            "label": "Authentic retro film look",
+            "col_1": "yes",
+            "col_2": "yes",
+            "col_3": "no"
+          }
+        },
+        "row_3": {
+          "type": "row",
+          "settings": {
+            "label": "Reusable & rechargeable",
+            "col_1": "yes",
+            "col_2": "no",
+            "col_3": "yes"
+          }
+        },
+        "row_4": {
+          "type": "row",
+          "settings": {
+            "label": "Zero film developing fees",
+            "col_1": "yes",
+            "col_2": "no",
+            "col_3": "yes"
+          }
+        },
+        "row_5": {
+          "type": "row",
+          "settings": {
+            "label": "500 shots per charge",
+            "col_1": "yes",
+            "col_2": "no",
+            "col_3": "no"
+          }
+        },
+        "row_6": {
+          "type": "row",
+          "settings": {
+            "label": "Instant USB-C transfer",
+            "col_1": "yes",
+            "col_2": "no",
+            "col_3": "yes"
+          }
+        },
+        "row_7": {
+          "type": "row",
+          "settings": {
+            "label": "Price",
+            "col_1": "low",
+            "col_2": "high",
+            "col_3": "low"
+          }
+        }
+      },
+      "block_order": [
+        "row_1",
+        "row_2",
+        "row_3",
+        "row_4",
+        "row_5",
+        "row_6",
+        "row_7"
+      ]
+    },
+    "reviews": {
+      "type": "retra-reviews",
+      "settings": {
+        "kicker": "Tested in the field",
+        "heading": "Honest memories,",
+        "heading_2": "captured without screens.",
+        "rating_text": "Rated <strong>4.8</strong>/5 stars based on <strong>1,753+ customer stories.</strong>",
+        "sample_note": "Sample reviews",
+        "more_label": "Read more",
+        "less_label": "Read less",
+        "pad_top": 20
+      },
+      "blocks": {
+        "review_1": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/retra-rv-florence.jpg",
+            "name": "Julian K.",
+            "label": "Sample",
+            "stars": 5,
+            "text": "“Brought two of these for our train trip through northern Italy. Not checking my phone every five minutes made the whole vacation feel twice as long. The warm vintage tones on the cobblestones looked incredible.”"
+          }
+        },
+        "review_2": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/retra-m-carousel.jpg",
+            "name": "Sarah P.",
+            "label": "Sample",
+            "stars": 5,
+            "text": "“We spent three full days at the theme parks with our two kids. The battery lasted through twelve hours of rides and evening fireworks without dying once.”"
+          }
+        },
+        "review_3": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/retra-rv-seville.jpg",
+            "name": "Sophie L.",
+            "label": "Sample",
+            "stars": 5,
+            "text": "“Took this all through Spain. It feels just like using a disposable camera, but with zero film lab fees. Everyone kept asking where we got it.”"
+          }
+        },
+        "review_4": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/retra-m-beach.jpg",
+            "name": "Chloe H.",
+            "label": "Sample",
+            "stars": 5,
+            "text": "“Lived in my beach tote all week in San Diego. Zero glare issues in bright sunlight because you just look through the viewfinder.”"
+          }
+        },
+        "review_5": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/retra-rv-scotland.jpg",
+            "name": "Marcus T.",
+            "label": "Sample",
+            "stars": 5,
+            "text": "“The surprise of plugging it into my laptop when I got home was the best part. Captured the entire rail trip across the UK without draining my phone.”"
+          }
+        },
+        "review_6": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/retra-rv-parade.jpg",
+            "name": "Mike B.",
+            "label": "Sample",
+            "stars": 5,
+            "text": "“The built-in flash makes nighttime parade shots look like classic 90s family albums. Handed it to our eight-year-old and let him be the trip photographer.”"
+          }
+        },
+        "review_7": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/retra-rv-amsterdam.jpg",
+            "name": "Clara M.",
+            "label": "Sample",
+            "stars": 5,
+            "text": "“Rode bikes around Amsterdam for four days with this strapped to my wrist. Super lightweight, simple to use, and the black and white filter is gorgeous.”"
+          }
+        },
+        "review_8": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/retra-rv-boat.jpg",
+            "name": "Liam N.",
+            "label": "Sample",
+            "stars": 5,
+            "text": "“Tossed it around between four friends on the boat all afternoon. The film filter gives that perfect golden summer look.”"
+          }
+        },
+        "review_9": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/retra-rv-venice.jpg",
+            "name": "David R.",
+            "label": "Sample",
+            "stars": 5,
+            "text": "“We left our phones locked in the hotel room safe and just carried this around Venice. The photos have that authentic retro grain you just cannot get from an iPhone filter.”"
+          }
+        },
+        "review_10": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/retra-rv-castle.jpg",
+            "name": "Jessica W.",
+            "label": "Sample",
+            "stars": 5,
+            "text": "“Took our family to the big theme park for spring break. It was so refreshing to watch the castle fireworks with my own eyes instead of staring through a screen.”"
+          }
+        },
+        "review_11": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/retra-rv-footprints.jpg",
+            "name": "Emma D.",
+            "label": "Sample",
+            "stars": 5,
+            "text": "“Bought the 2-pack for a beach trip to the coast. Plugging it into my phone at the beach house each evening felt like unwrapping presents.”"
+          }
+        },
+        "review_12": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/retra-rv-dog.jpg",
+            "name": "Ben S.",
+            "label": "Sample",
+            "stars": 5,
+            "text": "“Keep this sitting on the kitchen counter for quiet mornings at home. Snaps candid moments of our dog that we would normally miss while unlocking a phone.”"
+          }
+        }
+      },
+      "block_order": [
+        "review_1",
+        "review_2",
+        "review_3",
+        "review_4",
+        "review_5",
+        "review_6",
+        "review_7",
+        "review_8",
+        "review_9",
+        "review_10",
+        "review_11",
+        "review_12"
+      ]
+    },
+    "moments": {
+      "type": "retra-moments",
+      "settings": {
+        "kicker": "Built for real life",
+        "heading": "Built for memories,",
+        "heading_2": "not for your feed.",
+        "button_label": "Shop now",
+        "button_link": "#buy",
+        "pad_top": 20
+      },
+      "blocks": {
+        "item_1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-mo-europe.jpg",
+            "label": "EUROPE",
+            "big": false
+          }
+        },
+        "item_2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-mo-themepark.jpg",
+            "label": "THEME PARKS",
+            "big": false
+          }
+        },
+        "item_3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-mo-beach.jpg",
+            "label": "BEACH",
+            "big": false
+          }
+        },
+        "item_4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-mo-roadtrip.jpg",
+            "label": "ROAD TRIPS",
+            "big": false
+          }
+        },
+        "item_5": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-mo-party.jpg",
+            "label": "CELEBRATIONS",
+            "big": true
+          }
+        },
+        "item_6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/retra-mo-everyday.jpg",
+            "label": "EVERYDAY",
+            "big": true
+          }
+        }
+      },
+      "block_order": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4",
+        "item_5",
+        "item_6"
+      ]
+    },
+    "guarantee": {
+      "type": "retra-guarantee",
+      "settings": {
+        "kicker": "Risk-free field trial",
+        "heading": "Take it on your travels, risk-free.",
+        "text": "Take Retra on your next trip for 30 days. Experience what it feels like to leave your phone in your pocket, shoot without distraction, and rediscover your photos later. If you do not love the photos or the feeling of staying present, email our studio team. We will help you return it for a complete refund without hassle.",
+        "more_label": "Read more",
+        "less_label": "Read less",
+        "image_left": "shopify://shop_images/retra-rv-footprints.jpg",
+        "image_right": "shopify://shop_images/retra-m-roadtrip.jpg",
+        "button_label": "Try Retra for 30 days risk-free",
+        "button_link": "#buy"
+      },
+      "blocks": {
+        "row_1": {
+          "type": "row",
+          "settings": {
+            "icon": "returns",
+            "title": "30-day field trial",
+            "text": "Try it on your travels and return it easily if it is not for you."
+          }
+        },
+        "row_2": {
+          "type": "row",
+          "settings": {
+            "icon": "truck",
+            "title": "Tracked delivery",
+            "text": "Dispatched in 1-2 business days with full online door-to-door tracking."
+          }
+        },
+        "row_3": {
+          "type": "row",
+          "settings": {
+            "icon": "headset",
+            "title": "A real person can help",
+            "text": "Have a question about your camera or order? Send a message through our <a href=\"/pages/contact\" title=\"Contact page\">Contact page</a>."
+          }
+        }
+      },
+      "block_order": [
+        "row_1",
+        "row_2",
+        "row_3"
+      ]
+    },
+    "faq": {
+      "type": "retra-faq",
+      "settings": {
+        "heading": "Frequently asked questions",
+        "open_first": true,
+        "collage_1": "shopify://shop_images/retra-rv-venice.jpg",
+        "collage_2": "shopify://shop_images/retra-rv-amsterdam.jpg",
+        "collage_3": "shopify://shop_images/retra-rv-scotland.jpg",
+        "collage_4": "shopify://shop_images/retra-rv-seville.jpg",
+        "collage_5": "shopify://shop_images/retra-rv-boat.jpg",
+        "collage_6": "shopify://shop_images/retra-m-carousel.jpg"
+      },
+      "blocks": {
+        "question_1": {
+          "type": "question",
+          "settings": {
+            "question": "How does Retra work?",
+            "answer": "<p>Turn it on, choose your filter, look through the optical viewfinder, and press the shutter button. There is no back screen to review your shots. When you want to see your photos, plug Retra into your phone or laptop with the included USB-C cable.</p>"
+          }
+        },
+        "question_2": {
+          "type": "question",
+          "settings": {
+            "question": "I have an iPhone with a Lightning port. How do I transfer photos?",
+            "answer": "<p>iPhones with a Lightning port cannot transfer photos over a direct USB-C to Lightning cable. You can insert the included SD card into a Lightning card reader adapter to import directly, or plug Retra into a computer and sync the files.</p>"
+          }
+        },
+        "question_3": {
+          "type": "question",
+          "settings": {
+            "question": "What is the image quality like?",
+            "answer": "<p>Retra is built with a nostalgic, film-like aesthetic rather than smartphone sharpness. Images feature warm color tones, gentle grain, and retro digital character reminiscent of classic point-and-shoot cameras.</p>"
+          }
+        },
+        "question_4": {
+          "type": "question",
+          "settings": {
+            "question": "Do I need to buy film or pay a lab for developing?",
+            "answer": "<p>No. Retra is fully digital, so there are no film rolls to buy and zero development fees. All photos save as standard JPEG files to the included SD memory card.</p>"
+          }
+        },
+        "question_5": {
+          "type": "question",
+          "settings": {
+            "question": "How many photos can I take on one charge?",
+            "answer": "<p>The built-in rechargeable lithium battery powers about 500 shots per charge, and the included memory card holds roughly 500 photos. Once you offload your photos to a computer or phone, simply clear the card and shoot again.</p>"
+          }
+        },
+        "question_6": {
+          "type": "question",
+          "settings": {
+            "question": "What comes inside the box?",
+            "answer": "<p>Every box includes your Retra camera, an SD memory card, a USB charging and transfer cable, a wrist strap, a quick start guide, and a complimentary gift ribbon.</p>"
+          }
+        },
+        "question_7": {
+          "type": "question",
+          "settings": {
+            "question": "Does the camera have a flash for night photos?",
+            "answer": "<p>Yes. Retra includes a built-in LED flash that gives evening gatherings, parties, and night walks that classic, high-contrast direct-flash film look.</p>"
+          }
+        },
+        "question_8": {
+          "type": "question",
+          "settings": {
+            "question": "Can I change between filters while shooting?",
+            "answer": "<p>Yes. You can switch between Natural, Vintage, Black &amp; White, and Film whenever you like. The selected profile applies straight to each JPEG photo as you take it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_1",
+        "question_2",
+        "question_3",
+        "question_4",
+        "question_5",
+        "question_6",
+        "question_7",
+        "question_8"
+      ]
+    }
+  },
+  "order": [
+    "buybox",
+    "why",
+    "looks",
+    "how",
+    "compare",
+    "reviews",
+    "moments",
+    "guarantee",
+    "faq"
+  ]
+}

@@ -1,0 +1,89 @@
+{%- if section.settings.show_bar -%}
+<div class="bar" role="region" aria-label="{{ section.settings.bar_aria | escape }}">
+  <div class="wrap">
+    <span class="serif">{{ section.settings.bar_lead }}</span>
+    {%- if section.settings.bar_lead != blank and section.settings.bar_offer != blank %}<span aria-hidden="true">-</span>{% endif -%}
+    {%- if section.settings.bar_offer != blank %}<b>{{ section.settings.bar_offer }}</b>{% endif %}
+  </div>
+</div>
+{%- endif -%}
+
+<header class="nav">
+  <div class="wrap">
+    <button class="menu-btn" type="button" id="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
+    <nav aria-label="Main" id="main-nav">
+      {%- for block in section.blocks -%}
+        <a href="{{ block.settings.link | default: '#buy' }}" {{ block.shopify_attributes }}>{{ block.settings.label }}</a>
+      {%- endfor -%}
+    </nav>
+    <a class="logo" href="{{ routes.root_url }}">{{ section.settings.logo_text }}</a>
+    <div class="tools">
+      {%- if section.settings.support_label != blank -%}
+        <a class="txt" href="{{ section.settings.support_link | default: '/pages/contact' }}">{{ section.settings.support_label }}</a>
+      {%- endif -%}
+      <a href="{{ routes.search_url }}" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></a>
+      {%- if shop.customer_accounts_enabled -%}
+        <a href="{{ routes.account_url }}" aria-label="Account"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="10" r="3.2"/><path d="M6.5 18.5c1.5-2.3 3.4-3.3 5.5-3.3s4 1 5.5 3.3"/></svg></a>
+      {%- endif -%}
+      <a href="{{ routes.cart_url }}" data-open-cart aria-label="Cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 7h14l-1 13H6L5 7z"/><path d="M9 7V5.5a3 3 0 0 1 6 0V7"/></svg><span class="cart-n" data-cart-count data-count="{{ cart.item_count }}">{{ cart.item_count }}</span></a>
+    </div>
+  </div>
+</header>
+
+<div class="cart-drawer" id="cart-drawer" hidden role="dialog" aria-modal="true" aria-labelledby="cart-h"
+  data-remove="{{ section.settings.cart_remove | escape }}" data-inc="Increase quantity" data-dec="Decrease quantity">
+  <button type="button" class="scrim" data-close-cart aria-label="Close cart" tabindex="-1"></button>
+  <div class="panel-c">
+    <div class="c-head"><h2 id="cart-h">{{ section.settings.cart_title }}</h2><button type="button" class="c-x" data-close-cart aria-label="Close cart">×</button></div>
+    <p class="c-empty"{% if cart.item_count > 0 %} hidden{% endif %}>{{ section.settings.cart_empty }}</p>
+    <ul class="c-items"></ul>
+    <div class="c-foot"{% if cart.item_count == 0 %} hidden{% endif %}>
+      <div class="c-sub"><span>{{ section.settings.cart_subtotal }}</span><span data-subtotal>{{ cart.total_price | money }}</span></div>
+      <p class="c-note">{{ section.settings.cart_note }}</p>
+      <form action="{{ routes.cart_url }}" method="post"><button class="cta full" type="submit" name="checkout">{{ section.settings.cart_checkout }}</button></form>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Retra header",
+  "class": "retra-header",
+  "settings": [
+    { "type": "header", "content": "Announcement bar" },
+    { "type": "checkbox", "id": "show_bar", "label": "Show announcement bar", "default": true },
+    { "type": "text", "id": "bar_lead", "label": "Lead text (serif)", "default": "BLACK FRIDAY SALE" },
+    { "type": "text", "id": "bar_offer", "label": "Offer tag", "default": "BUY 1, GET 1 FREE" },
+    { "type": "text", "id": "bar_aria", "label": "Screen-reader label", "default": "Offer" },
+    { "type": "header", "content": "Header" },
+    { "type": "text", "id": "logo_text", "label": "Logo text", "default": "Retra" },
+    { "type": "text", "id": "support_label", "label": "Support link label", "default": "Support" },
+    { "type": "text", "id": "support_link", "label": "Support link", "default": "/pages/contact" },
+    { "type": "header", "content": "Slide-out cart" },
+    { "type": "text", "id": "cart_title", "label": "Title", "default": "Your Cart" },
+    { "type": "text", "id": "cart_empty", "label": "Empty message", "default": "Your cart is currently empty." },
+    { "type": "text", "id": "cart_subtotal", "label": "Subtotal label", "default": "Subtotal" },
+    { "type": "text", "id": "cart_note", "label": "Note under subtotal", "default": "Shipping, taxes, and discounts calculated at checkout." },
+    { "type": "text", "id": "cart_checkout", "label": "Checkout button", "default": "Check Out" },
+    { "type": "text", "id": "cart_remove", "label": "Remove link", "default": "Remove" }
+  ],
+  "blocks": [
+    {
+      "type": "nav_link",
+      "name": "Menu link",
+      "settings": [
+        { "type": "text", "id": "label", "label": "Label", "default": "Home" },
+        { "type": "text", "id": "link", "label": "Link (URL or #section)" }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      { "type": "nav_link", "settings": { "label": "Home", "link": "/" } },
+      { "type": "nav_link", "settings": { "label": "Shop All", "link": "/products/retra-screen-free-camera" } },
+      { "type": "nav_link", "settings": { "label": "Our Story", "link": "#how" } },
+      { "type": "nav_link", "settings": { "label": "Track Your Order", "link": "/pages/track-order" } }
+    ]
+  }
+}
+{% endschema %}

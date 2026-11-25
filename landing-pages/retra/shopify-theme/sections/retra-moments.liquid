@@ -1,0 +1,29 @@
+<section class="sec" style="padding-top:{{ section.settings.pad_top }}px" aria-labelledby="mo-{{ section.id }}">
+  <div class="wrap">
+    <div class="head">
+      {%- if section.settings.kicker != blank %}<p class="kicker">{{ section.settings.kicker }}</p>{% endif -%}
+      <h2 id="mo-{{ section.id }}">{{ section.settings.heading }}{% if section.settings.heading_2 != blank %}<span class="l2">{{ section.settings.heading_2 }}</span>{% endif %}</h2>
+    </div>
+    <div class="moments">
+      {%- for block in section.blocks -%}
+        <figure{% if block.settings.big %} class="big"{% endif %} {{ block.shopify_attributes }}>{%- if block.settings.image -%}<img src="{{ block.settings.image | image_url: width: 900 }}" srcset="{{ block.settings.image | image_url: width: 500 }} 500w, {{ block.settings.image | image_url: width: 900 }} 900w, {{ block.settings.image | image_url: width: 1300 }} 1300w" sizes="(max-width: 960px) 100vw, 50vw" alt="{{ block.settings.image.alt | escape }}" width="900" height="675" loading="lazy">{%- endif -%}<figcaption>{{ block.settings.label }}</figcaption></figure>
+      {%- endfor -%}
+    </div>
+    {%- if section.settings.button_label != blank %}<div class="center"><a class="cta" href="{{ section.settings.button_link | default: '#buy' }}">{{ section.settings.button_label }}</a></div>{% endif -%}
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Retra moments grid",
+  "settings": [
+    { "type": "text", "id": "kicker", "label": "Kicker" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Built for memories," },
+    { "type": "text", "id": "heading_2", "label": "Heading line 2 (muted)" },
+    { "type": "text", "id": "button_label", "label": "Button label" },
+    { "type": "text", "id": "button_link", "label": "Button link", "default": "#buy" },
+    { "type": "range", "id": "pad_top", "label": "Top padding", "min": 0, "max": 120, "step": 4, "unit": "px", "default": 20 }
+  ],
+  "blocks": [ { "type": "item", "name": "Photo", "settings": [ { "type": "image_picker", "id": "image", "label": "Image" }, { "type": "text", "id": "label", "label": "Caption", "default": "EUROPE" }, { "type": "checkbox", "id": "big", "label": "Wide tile", "default": false } ] } ],
+  "presets": [ { "name": "Retra moments grid" } ]
+}
+{% endschema %}
