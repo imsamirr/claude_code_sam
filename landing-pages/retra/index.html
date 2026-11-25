@@ -322,6 +322,49 @@ footer .wrap { padding-block: 48px 26px; }
 .modal .x { position: absolute; top: 12px; right: 12px; width: 34px; height: 34px; border-radius: 50%; border: 0; background: var(--card); color: var(--navy); cursor: pointer; font-size: 18px; }
 .modal .no { background: none; border: 0; color: var(--text); text-decoration: underline; cursor: pointer; font-size: 14px; }
 
+
+.center { display: flex; justify-content: center; margin-top: 40px; }
+.c-us .colhead img { width: 120px; height: 84px; }
+/* payment banner */
+.paybar { width: 100%; max-width: 560px; height: auto; margin: 0 auto; display: block; }
+
+/* four film looks (Klik row) */
+.looks { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: clamp(12px, 1.8vw, 24px); }
+.looks figure { margin: 0; }
+.looks img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 14px; }
+.looks figcaption { text-align: center; margin-top: 14px; font-family: var(--f-display); font-size: 22px; letter-spacing: -.03em; color: var(--navy); }
+
+/* how it works (Klik layout, Retro-pia dress) */
+.how { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); }
+.how li { position: relative; display: flex; flex-direction: column; gap: 18px; padding: 0 clamp(12px, 1.6vw, 24px); }
+.how li + li { border-left: 1.5px dashed rgba(2,43,73,.22); }
+.how .n { position: absolute; top: -6px; left: clamp(12px, 1.6vw, 24px); width: 44px; height: 44px; border-radius: 50%; background: var(--navy); color: #fff; display: grid; place-items: center; font-weight: 600; font-size: 16px; z-index: 1; }
+.how .art { aspect-ratio: 4/3; border-radius: 14px; overflow: hidden; background: var(--paper); }
+.how .art img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; }
+.how .lbl { background: var(--card); border-radius: 14px; box-shadow: var(--shadow); padding: 18px 16px; text-align: center; }
+.how h3 { font-size: 24px; letter-spacing: -.04em; line-height: 1.1; }
+.how p { margin: 6px 0 0; font-size: 14.5px; }
+
+/* made for real moments (Klik grid) */
+.moments { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: clamp(12px, 1.8vw, 24px); }
+.moments figure { margin: 0; }
+.moments img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 14px; }
+.moments .big { grid-column: span 2; }
+.moments .big img { aspect-ratio: 3/2; }
+.moments figcaption { text-align: center; margin-top: 12px; font-size: 12px; font-weight: 600; letter-spacing: .18em; color: var(--navy); }
+.stage { background: #D7C2A4; }
+
+@media (max-width: 960px) {
+  .looks, .moments { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .how { grid-template-columns: repeat(2, minmax(0,1fr)); row-gap: 36px; }
+  .how li:nth-child(3) { border-left: 0; }
+}
+@media (max-width: 560px) {
+  .how { grid-template-columns: minmax(0,1fr); }
+  .how li + li { border-left: 0; }
+  .moments .big { grid-column: span 2; }
+}
+
 @media (max-width: 1100px) { .collage { display: none; } .builder { grid-template-columns: repeat(2, minmax(0,1fr)); } }
 @media (max-width: 960px) {
   header.nav nav, .tools .txt { display: none; }
@@ -386,8 +429,7 @@ footer .wrap { padding-block: 48px 26px; }
   <div class="gallery">
     <div class="stage">
       <img id="stage-img" src="images/g0-blue.jpg" alt="Retra Screen-Free Camera in Aegean">
-      <span class="pill">Black Friday</span>
-      <div class="ctl" style="right:16px"><button type="button" id="prev" aria-label="Previous image"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 3L5 8l5 5"/></svg></button><button type="button" id="next" aria-label="Next image"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3l5 5-5 5"/></svg></button></div>
+            <div class="ctl" style="right:16px"><button type="button" id="prev" aria-label="Previous image"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 3L5 8l5 5"/></svg></button><button type="button" id="next" aria-label="Next image"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3l5 5-5 5"/></svg></button></div>
     </div>
     <div class="thumbs" role="group" aria-label="Product images">
       <button aria-current="true" data-i="0"><img id="thumb0" src="images/g0-blue.jpg" alt="Retra camera"></button>
@@ -427,36 +469,12 @@ footer .wrap { padding-block: 48px 26px; }
       </div>
     </fieldset>
 
-    <fieldset class="setups">
-      <legend class="step"><span class="n">2</span>Choose your bundle:</legend>
-      <label class="setup"><input type="radio" name="bundle" id="b2" value="2" checked><span class="flag">Most popular</span>
-        <span class="img"><img class="bimg" src="images/g0-blue.jpg" alt=""><b>×2</b></span>
-        <span><span class="t">2x Retra Cameras (Buy 1, Get 1 Free)</span><span class="d">Keep one for yourself, gift one to someone special.</span></span>
-        <span class="p">$[BUNDLE TOTAL]<s>$[PRICE] /ea</s></span></label>
-      <label class="setup"><input type="radio" name="bundle" id="b4" value="4"><span class="flag">Best value</span>
-        <span class="img"><img class="bimg" src="images/g0-blue.jpg" alt=""><b>×4</b></span>
-        <span><span class="t">4x Retra Cameras (Buy 2, Get 2 Free)</span><span class="d">The complete setup for family trips and holiday gifts.</span></span>
-        <span class="p">$[BUNDLE TOTAL]<s>$[PRICE] /ea</s></span></label>
-      <label class="setup"><input type="radio" name="bundle" id="b6" value="6">
-        <span class="img"><img class="bimg" src="images/g0-blue.jpg" alt=""><b>×6</b></span>
-        <span><span class="t">6x Retra Cameras (Buy 3, Get 3 Free)</span><span class="d">Perfect for group vacations, weddings, and party favours.</span></span>
-        <span class="p">$[BUNDLE TOTAL]<s>$[PRICE] /ea</s></span></label>
-    </fieldset>
-
+    
     <button class="cta full" id="add" type="button">Add to Cart <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 7h14l-1 13H6L5 7z"/><path d="M9 7V5.5a3 3 0 0 1 6 0V7M12 11v5M9.5 13.5h5"/></svg></button>
     <p id="added" role="status" class="vh"></p>
 
-    <div class="extras">
-      <div class="top">
-        <div><small>Black Friday Archive</small><span class="serif">Black Friday Extras</span><p>Gifts included with this order</p></div>
-        <div class="clock">Ends in<div class="digits"><span><i id="cd-d">02</i>DAYS</span><span><i id="cd-h">14</i>HRS</span><span><i id="cd-m">38</i>MIN</span><span><i id="cd-s">12</i>SEC</span></div></div>
-      </div>
-      <div class="gift"><span class="img"><img src="images/strap.jpg" alt=""></span><span>Woven Wrist Straps</span><em>FREE</em><s>$[STRAP VALUE]</s></div>
-      <div class="gift"><span class="img"><img src="images/gift-ribbon.jpg" alt=""></span><span>Christmas Gift Ribbon</span><em>FREE</em><s></s></div>
-      <div class="gift"><span class="img"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17.5" cy="17.5" r="1.8"/></svg></span><span>Tracked Shipping</span><em>FREE</em><s></s></div>
-    </div>
-
-    <div class="pay" aria-label="Payment methods"><span>VISA</span><span>MASTERCARD</span><span>AMEX</span><span>PAYPAL</span><span>APPLE PAY</span><span>GOOGLE PAY</span><span>SHOP PAY</span><span>KLARNA</span></div>
+    
+    <img class="paybar" src="images/payments.png" alt="Accepted payments: Apple Pay, Google Pay, PayPal, American Express, Visa, Mastercard, Maestro and more">
 
     <div class="note"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="15" rx="2"/><path d="M3 9h18M10 14l-2 2 2 2M8 16h6a2 2 0 0 0 0-4h-1"/></svg></span><span>Enjoy <b style="color:var(--navy)">30 days of hassle-free returns</b> if you do not love shooting with Retra.</span></div>
 
@@ -479,47 +497,30 @@ footer .wrap { padding-block: 48px 26px; }
   </div>
 </section>
 
-<!-- Explainer -->
-<section class="sec" id="story" style="padding-top:40px" aria-labelledby="ex-h">
-  <div class="wrap expl">
-    <div>
-      <p class="kicker">Not a phone. Not disposable.</p>
-      <h2 id="ex-h">A screen-free camera,<span class="l2">made for real presence.</span></h2>
-      <p class="para clamp" id="ex-p">Modern phones turn every vacation into a content chore. Retra takes you out of the screen and puts you back in the room. Look through the optical viewfinder, press the shutter, and put the camera away. You stay present with your friends, while your memories wait quietly on the card until you get home.</p>
-      <button class="more" type="button" data-for="ex-p" aria-expanded="false">Read more <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 4.5L6 7.5 9 4.5"/></svg></button>
-      <div class="big"><img src="images/explainer.jpg" alt="A woman shooting with Retra above Positano"></div>
+<!-- Four film looks (Klik-style row) -->
+<section class="sec" style="padding-top:40px" aria-labelledby="fl-h">
+  <div class="wrap">
+    <div class="head"><p class="kicker">Built-in film profiles</p><h2 id="fl-h">The same moment,<span class="l2">four film looks.</span></h2></div>
+    <div class="looks">
+      <figure><img src="images/fs-natural.jpg" alt="Cinque Terre harbour in the Natural filter"><figcaption>Natural</figcaption></figure>
+      <figure><img src="images/fs-vintage.jpg" alt="The same scene in the Vintage filter"><figcaption>Vintage</figcaption></figure>
+      <figure><img src="images/fs-bw.jpg" alt="The same scene in the Black and White filter"><figcaption>Black &amp; White</figcaption></figure>
+      <figure><img src="images/fs-film.jpg" alt="The same scene in the Film filter"><figcaption>Film</figcaption></figure>
     </div>
-    <div>
-      <div class="prints">
-        <div class="print a"><img src="images/eu-santorini.jpg" alt="Sunset over Santorini"></div>
-        <div class="print b"><img src="images/rev01.jpg" alt="Florence rooftops at sunset"></div>
-      </div>
-      <ol class="feats">
-        <li><span class="num" aria-hidden="true">01</span><h3>No preview screen</h3><p>Take the photo and return your attention to the conversation.</p></li>
-        <li><span class="num" aria-hidden="true">02</span><h3>Analog character</h3><p>Warm colors, gentle grain, and honest contrast without editing apps.</p></li>
-        <li><span class="num" aria-hidden="true">03</span><h3>Reusable forever</h3><p>Recharge the internal battery and clear the card for your next adventure.</p></li>
-      </ol>
-    </div>
+    <div class="center"><a class="cta" href="#buy">Shop now</a></div>
   </div>
 </section>
 
-<!-- Before / after -->
-<section class="sec" style="padding-top:20px" aria-labelledby="ba-h">
+<!-- How it works (Klik-style) -->
+<section class="sec" style="padding-top:20px" id="how" aria-labelledby="hw-h">
   <div class="wrap">
-    <div class="head"><h2 id="ba-h">The same moment,<span class="l2">two film looks.</span></h2></div>
-    <div class="ba" id="ba" style="--x:50%">
-      <img src="images/ba-natural.jpg" alt="Lisbon street in the Natural filter">
-      <img class="after" id="ba-after" src="images/ba-film.jpg" alt="The same Lisbon street in the Film filter">
-      <span class="divider"></span><span class="knob" aria-hidden="true">‹›</span>
-      <span class="lab l"><b>Natural Profile</b><span>True-to-life tones with clean morning light</span></span>
-      <span class="lab r"><b id="ba-name">Film Profile</b><span id="ba-desc">Punchy 90s disposable pop with rich color</span></span>
-      <label for="ba-range" class="vh">Drag to compare filters</label><input id="ba-range" type="range" min="0" max="100" value="50">
-    </div>
-    <div class="tabs" role="group" aria-label="Choose a filter to compare">
-      <button type="button" data-f="vintage" aria-pressed="false">Vintage</button>
-      <button type="button" data-f="bw" aria-pressed="false">Black &amp; White</button>
-      <button type="button" data-f="film" aria-pressed="true">Film</button>
-    </div>
+    <div class="head"><p class="kicker">Simple by design</p><h2 id="hw-h">Four simple steps,<span class="l2">from pocket to photos.</span></h2></div>
+    <ol class="how">
+      <li><span class="n">1</span><div class="art"><img src="images/how-1.jpg" alt="Illustration: press the power button on top"></div><div class="lbl"><h3>Turn on</h3><p>Press the power switch.</p></div></li>
+      <li><span class="n">2</span><div class="art"><img src="images/how-2.jpg" alt="Illustration: the filter button on the back"></div><div class="lbl"><h3>Choose your filter</h3><p>Natural, Vintage, B&amp;W, or Film.</p></div></li>
+      <li><span class="n">3</span><div class="art"><img src="images/how-3.jpg" alt="Illustration: press the shutter"></div><div class="lbl"><h3>Shoot</h3><p>Press the shutter. No preview screen.</p></div></li>
+      <li><span class="n">4</span><div class="art"><img src="images/how-4.jpg" alt="Illustration: plug in the USB-C cable"></div><div class="lbl"><h3>Transfer via USB-C</h3><p>Plug into your phone or laptop.</p></div></li>
+    </ol>
   </div>
 </section>
 
@@ -552,27 +553,24 @@ footer .wrap { padding-block: 48px 26px; }
       <div class="rating-line"><span class="sq" aria-hidden="true"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span> Rated <b><em class="ph">[RATING]</em></b>/5 stars based on <b><em class="ph">[REVIEW COUNT]</em>+ customer stories.</b> <span class="sample">Sample reviews</span></div>
       <div class="arrows"><button type="button" class="prev" id="rv-prev" aria-label="Previous reviews"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 9H3M7 4L2.5 9 7 14"/></svg></button><button type="button" class="next" id="rv-next" aria-label="Next reviews"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 9h12M11 4l4.5 5-4.5 5"/></svg></button></div>
     </div>
-    <div class="track" id="rv-track"><figure class="rcard"><img src="images/rev01.jpg" alt="" loading="lazy"><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Julian K. <span class="sample">Sample</span></span></div><p class="q clamp">"Brought two of these for our train trip through northern Italy. Not checking my phone every five minutes made the whole vacation feel twice as long. The warm vintage tones on the cobblestones looked incredible."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/park-carousel.jpg" alt="" loading="lazy"><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Sarah P. <span class="sample">Sample</span></span></div><p class="q clamp">"We spent three full days at the theme parks with our two kids. The battery lasted through twelve hours of rides and evening fireworks without dying once."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rev02.jpg" alt="" loading="lazy"><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Sophie L. <span class="sample">Sample</span></span></div><p class="q clamp">"Took this all through Spain. It feels just like using a disposable camera, but with zero film lab fees. Everyone kept asking where we got it."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/beach-friends.jpg" alt="" loading="lazy"><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Chloe H. <span class="sample">Sample</span></span></div><p class="q clamp">"Lived in my beach tote all week in San Diego. Zero glare issues in bright sunlight because you just look through the viewfinder."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rev03.jpg" alt="" loading="lazy"><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Marcus T. <span class="sample">Sample</span></span></div><p class="q clamp">"The surprise of plugging it into my laptop when I got home was the best part. Captured the entire rail trip across the UK without draining my phone."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rev07.jpg" alt="" loading="lazy"><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Mike B. <span class="sample">Sample</span></span></div><p class="q clamp">"The built-in flash makes nighttime parade shots look like classic 90s family albums. Handed it to our eight-year-old and let him be the trip photographer."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rev04.jpg" alt="" loading="lazy"><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Clara M. <span class="sample">Sample</span></span></div><p class="q clamp">"Rode bikes around Amsterdam for four days with this strapped to my wrist. Super lightweight, simple to use, and the black and white filter is gorgeous."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rev10.jpg" alt="" loading="lazy"><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Liam N. <span class="sample">Sample</span></span></div><p class="q clamp">"Tossed it around between four friends on the boat all afternoon. The film filter gives that perfect golden summer look."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rev05.jpg" alt="" loading="lazy"><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">David R. <span class="sample">Sample</span></span></div><p class="q clamp">"We left our phones locked in the hotel room safe and just carried this around Venice. The photos have that authentic retro grain you just cannot get from an iPhone filter."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rev08.jpg" alt="" loading="lazy"><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Jessica W. <span class="sample">Sample</span></span></div><p class="q clamp">"Took our family to the big theme park for spring break. It was so refreshing to watch the castle fireworks with my own eyes instead of staring through a screen."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rev11.jpg" alt="" loading="lazy"><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Emma D. <span class="sample">Sample</span></span></div><p class="q clamp">"Bought the 2-pack for a beach trip to the coast. Plugging it into my phone at the beach house each evening felt like unwrapping presents."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rev12.jpg" alt="" loading="lazy"><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Ben S. <span class="sample">Sample</span></span></div><p class="q clamp">"Keep this sitting on the kitchen counter for quiet mornings at home. Snaps candid moments of our dog that we would normally miss while unlocking a phone."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure></div>
+    <div class="track" id="rv-track"><figure class="rcard"><img src="images/rv-florence.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Julian K. <span class="sample">Sample</span></span></div><p class="q clamp">"Brought two of these for our train trip through northern Italy. Not checking my phone every five minutes made the whole vacation feel twice as long. The warm vintage tones on the cobblestones looked incredible."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/m-carousel.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Sarah P. <span class="sample">Sample</span></span></div><p class="q clamp">"We spent three full days at the theme parks with our two kids. The battery lasted through twelve hours of rides and evening fireworks without dying once."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-seville.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Sophie L. <span class="sample">Sample</span></span></div><p class="q clamp">"Took this all through Spain. It feels just like using a disposable camera, but with zero film lab fees. Everyone kept asking where we got it."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/m-beach.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Chloe H. <span class="sample">Sample</span></span></div><p class="q clamp">"Lived in my beach tote all week in San Diego. Zero glare issues in bright sunlight because you just look through the viewfinder."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-scotland.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Marcus T. <span class="sample">Sample</span></span></div><p class="q clamp">"The surprise of plugging it into my laptop when I got home was the best part. Captured the entire rail trip across the UK without draining my phone."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-parade.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Mike B. <span class="sample">Sample</span></span></div><p class="q clamp">"The built-in flash makes nighttime parade shots look like classic 90s family albums. Handed it to our eight-year-old and let him be the trip photographer."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-amsterdam.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Clara M. <span class="sample">Sample</span></span></div><p class="q clamp">"Rode bikes around Amsterdam for four days with this strapped to my wrist. Super lightweight, simple to use, and the black and white filter is gorgeous."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-boat.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Liam N. <span class="sample">Sample</span></span></div><p class="q clamp">"Tossed it around between four friends on the boat all afternoon. The film filter gives that perfect golden summer look."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-venice.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">David R. <span class="sample">Sample</span></span></div><p class="q clamp">"We left our phones locked in the hotel room safe and just carried this around Venice. The photos have that authentic retro grain you just cannot get from an iPhone filter."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-castle.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Jessica W. <span class="sample">Sample</span></span></div><p class="q clamp">"Took our family to the big theme park for spring break. It was so refreshing to watch the castle fireworks with my own eyes instead of staring through a screen."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-footprints.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Emma D. <span class="sample">Sample</span></span></div><p class="q clamp">"Bought the 2-pack for a beach trip to the coast. Plugging it into my phone at the beach house each evening felt like unwrapping presents."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-dog.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Ben S. <span class="sample">Sample</span></span></div><p class="q clamp">"Keep this sitting on the kitchen counter for quiet mornings at home. Snaps candid moments of our dog that we would normally miss while unlocking a phone."</p><button type="button" class="more rm" style="color:#fff;font-size:14px;margin-top:6px">Read more</button></figcaption></figure></div>
     <div class="progress"><i id="rv-bar"></i></div>
   </div>
 </section>
 
-<!-- Bundle builder -->
-<section class="sec" style="padding-top:20px" aria-labelledby="bd-h">
+<!-- Made for real moments (Klik-style grid) -->
+<section class="sec" style="padding-top:20px" aria-labelledby="mo-h">
   <div class="wrap">
-    <div class="head">
-      <p class="kicker">Build your kit</p>
-      <h2 id="bd-h">Everything you need,<span class="l2">for your next trip.</span></h2>
-      <p class="para">Start with the Retra camera and add the accessories that fit your upcoming trips and daily carry.</p>
+    <div class="head"><p class="kicker">Built for real life</p><h2 id="mo-h">Built for memories,<span class="l2">not for your feed.</span></h2></div>
+    <div class="moments">
+      <figure><img src="images/m-europe.jpg" alt="Friends walking down the stairs of Positano"><figcaption>EUROPE</figcaption></figure>
+      <figure><img src="images/m-carousel.jpg" alt="A dad and daughter on a carousel at dusk"><figcaption>THEME PARKS</figcaption></figure>
+      <figure><img src="images/m-beach.jpg" alt="Friends on a Mediterranean beach"><figcaption>BEACH</figcaption></figure>
+      <figure><img src="images/m-roadtrip.jpg" alt="Friends on a coastal road trip"><figcaption>ROAD TRIPS</figcaption></figure>
+      <figure class="big"><img src="images/m-wedding.jpg" alt="A bride and groom running across a villa garden"><figcaption>CELEBRATIONS</figcaption></figure>
+      <figure class="big"><img src="images/m-everyday.jpg" alt="A slow Sunday morning in the kitchen"><figcaption>EVERYDAY</figcaption></figure>
     </div>
-    <div class="builder" id="builder">
-      <label class="item"><input type="checkbox" checked disabled id="k-cam"><span class="corner"><span>✓</span></span>
-        <span class="pic"><img src="images/g0-blue.jpg" alt="" id="k-cam-img"></span>
-        <span class="in"><span class="serif">Retra Screen-Free Camera</span><p>Screen-free digital camera with 4 analog filters and USB-C transfer.</p><span class="pr">$[PRICE] <span>Included</span></span>
-          <ul><li><svg aria-hidden="true"><use href="#chk-s"/></svg>500 shots per charge</li><li><svg aria-hidden="true"><use href="#chk-s"/></svg>SD memory card included</li><li><svg aria-hidden="true"><use href="#chk-s"/></svg>USB cable &amp; wrist strap</li></ul></span></label>
-      <label class="item"><input type="checkbox" id="k-case"><span class="corner"><span>✓</span></span><span class="pic"><img src="images/case.jpg" alt=""></span><span class="in"><span class="serif">Vegan Leather Travel Case</span><p>Protects your camera from scratches when tossed inside backpacks, beach totes, and luggage.</p><span class="pr">+$[CASE PRICE] <span>Save 25%</span></span><ul><li><svg aria-hidden="true"><use href="#chk-s"/></svg>Cushions against daily bumps</li><li><svg aria-hidden="true"><use href="#chk-s"/></svg>Compact pocketable travel fit</li><li><svg aria-hidden="true"><use href="#chk-s"/></svg>Fits camera with strap attached</li></ul></span></label><label class="item"><input type="checkbox" id="k-strap"><span class="corner"><span>✓</span></span><span class="pic"><img src="images/strap.jpg" alt=""></span><span class="in"><span class="serif">Woven Coastline Wrist Strap</span><p>Keeps your camera comfortably tied to your wrist while walking city streets and riding theme-park coasters.</p><span class="pr">+$[STRAP PRICE] <span>Save 20%</span></span><ul><li><svg aria-hidden="true"><use href="#chk-s"/></svg>Hands-free drop protection</li><li><svg aria-hidden="true"><use href="#chk-s"/></svg>Comfortable for all-day wear</li><li><svg aria-hidden="true"><use href="#chk-s"/></svg>Ideal for rides and boat days</li></ul></span></label><label class="item"><input type="checkbox" id="k-reader"><span class="corner"><span>✓</span></span><span class="pic"><img src="images/reader.jpg" alt=""></span><span class="in"><span class="serif">Lightning &amp; USB-C Card Reader</span><span class="tag">For older iPhones</span><p>The quickest way to offload your photos directly onto iPhones with a Lightning port.</p><span class="pr">+$[READER PRICE]</span><ul><li><svg aria-hidden="true"><use href="#chk-s"/></svg>Simple plug-and-play photo import</li><li><svg aria-hidden="true"><use href="#chk-s"/></svg>No computer or Wi-Fi needed</li><li><svg aria-hidden="true"><use href="#chk-s"/></svg>Lightweight everyday travel companion</li></ul></span></label>
-    </div>
-    <div style="display:flex;justify-content:center;margin-top:34px"><button class="cta" type="button" id="kit-add">Add setup to cart · <span class="ph" style="background:rgba(255,255,255,.2)">$[TOTAL]</span></button></div>
+    <div class="center"><a class="cta" href="#buy">Shop now</a></div>
   </div>
 </section>
 
@@ -585,10 +583,10 @@ footer .wrap { padding-block: 48px 26px; }
         <h2 id="g-h">Take it on your travels, risk-free.</h2>
         <p class="para clamp" id="g-p">Take Retra on your next trip for 30 days. Experience what it feels like to leave your phone in your pocket, shoot without distraction, and rediscover your photos later. If you do not love the photos or the feeling of staying present, email our studio team. We will help you return it for a complete refund without hassle.</p>
         <button class="more" type="button" data-for="g-p" aria-expanded="false">Read more <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 4.5L6 7.5 9 4.5"/></svg></button>
-        <div class="g-prints"><div class="print a"><img src="images/rev11.jpg" alt="Footprints on a beach at sunset"></div></div>
+        <div class="g-prints"><div class="print a"><img src="images/rv-footprints.jpg" alt="Footprints on a beach at sunset"></div></div>
       </div>
       <div class="g-right">
-        <div class="print"><img src="images/roadtrip.jpg" alt="Friends on a coastal road trip"></div>
+        <div class="print"><img src="images/m-roadtrip.jpg" alt="Friends on a coastal road trip"></div>
         <div class="g-rows">
           <div><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5"><rect x="3" y="5" width="18" height="15" rx="2"/><path d="M3 9h18M10 14l-2 2 2 2M8 16h6a2 2 0 0 0 0-4h-1"/></svg></span><span><span class="serif">30-day field trial</span><p>Try it on your travels and return it easily if it is not for you.</p></span></div>
           <div><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17.5" cy="17.5" r="1.8"/></svg></span><span><span class="serif">Tracked delivery</span><p>Dispatched in 1-2 business days with door-to-door tracking (<em class="ph">[DELIVERY TIME PLACEHOLDER]</em>).</p></span></div>
@@ -602,23 +600,14 @@ footer .wrap { padding-block: 48px 26px; }
 
 <!-- FAQ -->
 <section class="sec faq-wrap" aria-labelledby="faq-h">
-  <div class="collage l" aria-hidden="true"><div class="print" style="top:0;left:30px;--r:-6deg"><img src="images/rev05.jpg" alt=""></div><div class="print" style="top:170px;left:0;--r:4deg"><img src="images/rev04.jpg" alt=""></div><div class="print" style="top:340px;left:40px;--r:-3deg"><img src="images/rev03.jpg" alt=""></div></div>
-  <div class="collage r" aria-hidden="true"><div class="print" style="top:0;right:10px;--r:5deg"><img src="images/rev02.jpg" alt=""></div><div class="print" style="top:170px;right:40px;--r:-4deg"><img src="images/rev10.jpg" alt=""></div><div class="print" style="top:340px;right:0;--r:6deg"><img src="images/park-carousel.jpg" alt=""></div></div>
+  <div class="collage l" aria-hidden="true"><div class="print" style="top:0;left:30px;--r:-6deg"><img src="images/rv-venice.jpg" alt=""></div><div class="print" style="top:170px;left:0;--r:4deg"><img src="images/rv-amsterdam.jpg" alt=""></div><div class="print" style="top:340px;left:40px;--r:-3deg"><img src="images/rv-scotland.jpg" alt=""></div></div>
+  <div class="collage r" aria-hidden="true"><div class="print" style="top:0;right:10px;--r:5deg"><img src="images/rv-seville.jpg" alt=""></div><div class="print" style="top:170px;right:40px;--r:-4deg"><img src="images/rv-boat.jpg" alt=""></div><div class="print" style="top:340px;right:0;--r:6deg"><img src="images/m-carousel.jpg" alt=""></div></div>
   <div class="wrap">
     <div class="head"><h2 id="faq-h">Frequently asked questions</h2></div>
     <div class="faq"><details open><summary>How does Retra work?</summary><p>Turn it on, choose your filter, look through the optical viewfinder, and press the shutter button. There is no back screen to review your shots. When you want to see your photos, plug Retra into your phone or laptop with the included USB-C cable.</p></details><details><summary>I have an iPhone with a Lightning port. How do I transfer photos?</summary><p>iPhones with a Lightning port cannot transfer photos over a direct USB-C to Lightning cable. You can insert the included SD card into a Lightning card reader adapter to import directly, or plug Retra into a computer and sync the files.</p></details><details><summary>What is the image quality like?</summary><p>Retra is built with a nostalgic, film-like aesthetic rather than smartphone sharpness. Images feature warm color tones, gentle grain, and retro digital character reminiscent of classic point-and-shoot cameras.</p></details><details><summary>Do I need to buy film or pay a lab for developing?</summary><p>No. Retra is fully digital, so there are no film rolls to buy and zero development fees. All photos save as standard JPEG files to the included SD memory card.</p></details><details><summary>How many photos can I take on one charge?</summary><p>The built-in rechargeable lithium battery powers about 500 shots per charge, and the included memory card holds roughly 500 photos. Once you offload your photos to a computer or phone, simply clear the card and shoot again.</p></details><details><summary>What comes inside the box?</summary><p>Every box includes your Retra camera, an SD memory card, a USB charging and transfer cable, a wrist strap, a quick start guide, and a complimentary gift ribbon.</p></details><details><summary>Does the camera have a flash for night photos?</summary><p>Yes. Retra includes a built-in LED flash that gives evening gatherings, parties, and night walks that classic, high-contrast direct-flash film look.</p></details><details><summary>Can I change between filters while shooting?</summary><p>Yes. You can switch between Natural, Vintage, Black &amp; White, and Film whenever you like. The selected profile applies straight to each JPEG photo as you take it.</p></details></div>
   </div>
 </section>
 
-<!-- Instagram -->
-<section class="sec" style="padding-top:0" aria-labelledby="ig-h">
-  <div class="wrap">
-    <div class="head" style="margin-bottom:28px"><h2 id="ig-h">Follow along,<span class="l2">with @retracam on Instagram.</span></h2><p class="tagline">#shotonretra</p></div>
-    <div class="ig">
-      <img src="images/eu-rome.jpg" alt="Example post: Rome at night"><img src="images/g6-hand.jpg" alt="Example post: Retra in hand"><img src="images/beach-friends.jpg" alt="Example post: beach day"><img src="images/rev02.jpg" alt="Example post: Seville night out">
-      <img src="images/beach-sunset.jpg" alt="Example post: sunset at the beach"><img src="images/rev07.jpg" alt="Example post: theme park parade"><img src="images/eu-lisbon.jpg" alt="Example post: Lisbon tram"><img src="images/wedding.jpg" alt="Example post: wedding"></div>
-  </div>
-</section>
 </main>
 
 <footer id="footer">
@@ -626,7 +615,7 @@ footer .wrap { padding-block: 48px 26px; }
     <div class="f-top"><span class="logo">Retra</span><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" aria-label="Instagram"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff"/></svg></div>
     <div class="f-cols">
       <div><p class="serif">Customer Support</p><ul><li>Studio Dispatch &amp; Tracking</li><li>30-Day Field Trial Policy</li><li>Lightning iPhone Guide</li><li><em class="ph" style="color:#fff">[SUPPORT EMAIL PLACEHOLDER]</em></li></ul></div>
-      <div><p class="serif">Explore</p><ul><li><a href="#buy">The Retra Camera</a></li><li><a href="#ba-h">4 Film Filters</a></li><li><a href="#bd-h">Setup Builder</a></li><li><a href="#reviews">Reviews</a></li></ul></div>
+      <div><p class="serif">Explore</p><ul><li><a href="#buy">The Retra Camera</a></li><li><a href="#ba-h">4 Film Filters</a></li><li><a href="#reviews">Reviews</a></li></ul></div>
       <div><p class="serif">Legal</p><ul><li>Privacy Policy</li><li>Terms of Service</li><li>Refund Policy</li></ul></div>
       <div><p class="serif">Receive 10% Off</p><p>Subscribe for travel stories, rare colorway releases, and 10% off your first camera order.</p>
         <form class="news" id="news"><label for="news-email" class="vh">Email</label><input id="news-email" type="email" required placeholder="Enter your email"><button type="submit" aria-label="Subscribe"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 7h10M8 3l4 4-4 4"/></svg></button></form>
@@ -638,7 +627,7 @@ footer .wrap { padding-block: 48px 26px; }
 
 <div class="modal" id="popup" hidden role="dialog" aria-modal="true" aria-labelledby="pop-h">
   <div class="box">
-    <img src="images/explainer.jpg" alt="">
+    <img src="images/m-europe.jpg" alt="">
     <div class="in">
       <p class="kicker" style="margin:0">Stay in the moment and receive a</p>
       <h2 id="pop-h">Mystery Discount</h2>
@@ -654,11 +643,6 @@ footer .wrap { padding-block: 48px 26px; }
 <script>
 (function () {
   var $ = function (id) { return document.getElementById(id); };
-  // countdown (set the real sale end)
-  var END = new Date('2026-12-02T08:00:00Z').getTime();
-  function pad(n) { return String(n).padStart(2, '0'); }
-  function tick() { var t = Math.max(0, END - Date.now()) / 1000; $('cd-d').textContent = pad(Math.floor(t / 86400)); $('cd-h').textContent = pad(Math.floor(t % 86400 / 3600)); $('cd-m').textContent = pad(Math.floor(t % 3600 / 60)); $('cd-s').textContent = pad(Math.floor(t % 60)); }
-  tick(); setInterval(tick, 1000);
 
   // gallery
   var gallery = ['g0-blue', 'g1', 'g2', 'g3', 'g4', 'g5', 'g6-hand', 'g7', 'g8'];
@@ -672,23 +656,15 @@ footer .wrap { padding-block: 48px 26px; }
   $('swatches').addEventListener('change', function (e) {
     var f = e.target.dataset.f; $('color-name').textContent = e.target.value;
     gallery[0] = 'g0-' + f; $('thumb0').src = 'images/' + gallery[0] + '.jpg';
-    document.querySelectorAll('.bimg').forEach(function (i) { i.src = 'images/' + gallery[0] + '.jpg'; });
-    $('k-cam-img').src = 'images/' + gallery[0] + '.jpg'; show(0);
+    show(0);
   });
 
   // cart (template)
   var count = 0;
-  $('add').addEventListener('click', function () { var n = Number(document.querySelector('input[name=bundle]:checked').value); count += n; $('cart-count').textContent = count; $('added').textContent = 'Added ' + n + ' cameras'; $('add').firstChild.textContent = 'Added ' + n + ' × ' + $('color-name').textContent + ' '; });
-  $('kit-add').addEventListener('click', function () { count += 1; $('cart-count').textContent = count; });
+  $('add').addEventListener('click', function () { var n = 1; count += n; $('cart-count').textContent = count; $('added').textContent = 'Added to cart'; $('add').firstChild.textContent = 'Added · ' + $('color-name').textContent + ' '; });
 
   // read more
   document.querySelectorAll('.more').forEach(function (b) { b.addEventListener('click', function () { var p = $(b.dataset.for); var open = p.classList.toggle('open'); b.setAttribute('aria-expanded', open); b.firstChild.textContent = open ? 'Read less ' : 'Read more '; }); });
-
-  // before/after
-  var ba = $('ba');
-  $('ba-range').addEventListener('input', function (e) { ba.style.setProperty('--x', e.target.value + '%'); });
-  var looks = { vintage: ['Vintage Profile', 'Warm honeyed highlights, slightly faded shadows'], bw: ['Black & White Profile', 'Rich monochrome with velvety shadow depth'], film: ['Film Profile', 'Punchy 90s disposable pop with rich color'] };
-  document.querySelectorAll('.tabs button').forEach(function (b) { b.addEventListener('click', function () { var f = b.dataset.f; $('ba-after').src = 'images/ba-' + f + '.jpg'; $('ba-name').textContent = looks[f][0]; $('ba-desc').textContent = looks[f][1]; document.querySelectorAll('.tabs button').forEach(function (x) { x.setAttribute('aria-pressed', x === b); }); }); });
 
   // review carousel
   var tr = $('rv-track');
