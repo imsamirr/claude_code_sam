@@ -1,6 +1,7 @@
 {%- capture yes %}<span class="yes" aria-label="Yes">✓</span>{% endcapture -%}
 {%- capture no %}<span class="no" aria-label="No">✕</span>{% endcapture -%}
 {%- capture low %}<span class="dots" aria-label="Low ongoing cost"><i class="f"></i><i></i><i></i></span>{% endcapture -%}
+{%- capture mid %}<span class="dots" aria-label="Medium ongoing cost"><i class="f"></i><i class="f"></i><i></i></span>{% endcapture -%}
 {%- capture high %}<span class="dots" aria-label="High ongoing cost"><i class="f"></i><i class="f"></i><i class="f"></i></span>{% endcapture -%}
 <section class="sec" style="padding-top:{{ section.settings.pad_top }}px" aria-labelledby="cmp-{{ section.id }}">
   <div class="wrap">
@@ -49,7 +50,7 @@
                     assign cls = 'c-tint'
                 endcase
               -%}
-              <td class="{{ cls }}">{% case val %}{% when 'yes' %}{{ yes }}{% when 'no' %}{{ no }}{% when 'low' %}{{ low }}{% when 'high' %}{{ high }}{% endcase %}</td>
+              <td class="{{ cls }}">{% case val %}{% when 'yes' %}{{ yes }}{% when 'no' %}{{ no }}{% when 'low' %}{{ low }}{% when 'mid' %}{{ mid }}{% when 'high' %}{{ high }}{% endcase %}</td>
             {%- endfor -%}
           </tr>
           {%- endfor -%}
@@ -78,9 +79,9 @@
   "blocks": [
     { "type": "row", "name": "Row", "settings": [
       { "type": "text", "id": "label", "label": "Feature", "default": "Screen & distraction free" },
-      { "type": "select", "id": "col_1", "label": "Column 1", "default": "yes", "options": [ { "value": "yes", "label": "Tick" }, { "value": "no", "label": "Cross" }, { "value": "low", "label": "Low cost (1 dot)" }, { "value": "high", "label": "High cost (3 dots)" } ] },
-      { "type": "select", "id": "col_2", "label": "Column 2", "default": "yes", "options": [ { "value": "yes", "label": "Tick" }, { "value": "no", "label": "Cross" }, { "value": "low", "label": "Low cost (1 dot)" }, { "value": "high", "label": "High cost (3 dots)" } ] },
-      { "type": "select", "id": "col_3", "label": "Column 3", "default": "no", "options": [ { "value": "yes", "label": "Tick" }, { "value": "no", "label": "Cross" }, { "value": "low", "label": "Low cost (1 dot)" }, { "value": "high", "label": "High cost (3 dots)" } ] }
+      { "type": "select", "id": "col_1", "label": "Column 1", "default": "yes", "options": [ { "value": "yes", "label": "Tick" }, { "value": "no", "label": "Cross" }, { "value": "low", "label": "Low cost (1 dot)" }, { "value": "mid", "label": "Medium cost (2 dots)" }, { "value": "high", "label": "High cost (3 dots)" } ] },
+      { "type": "select", "id": "col_2", "label": "Column 2", "default": "yes", "options": [ { "value": "yes", "label": "Tick" }, { "value": "no", "label": "Cross" }, { "value": "low", "label": "Low cost (1 dot)" }, { "value": "mid", "label": "Medium cost (2 dots)" }, { "value": "high", "label": "High cost (3 dots)" } ] },
+      { "type": "select", "id": "col_3", "label": "Column 3", "default": "no", "options": [ { "value": "yes", "label": "Tick" }, { "value": "no", "label": "Cross" }, { "value": "low", "label": "Low cost (1 dot)" }, { "value": "mid", "label": "Medium cost (2 dots)" }, { "value": "high", "label": "High cost (3 dots)" } ] }
     ] }
   ],
   "presets": [ { "name": "Retra comparison" } ]

@@ -106,7 +106,7 @@ def page(product_handle):
             ("row", {"label": "Zero film developing fees", "col_1": "yes", "col_2": "no", "col_3": "yes"}),
             ("row", {"label": "500 shots per charge", "col_1": "yes", "col_2": "no", "col_3": "no"}),
             ("row", {"label": "Instant USB-C transfer", "col_1": "yes", "col_2": "no", "col_3": "yes"}),
-            ("row", {"label": "Price", "col_1": "low", "col_2": "high", "col_3": "low"})]),
+            ("row", {"label": "Price", "col_1": "low", "col_2": "mid", "col_3": "low"})]),
         "reviews": section("retra-reviews", {"kicker": "Tested in the field", "heading": "Honest memories,", "heading_2": "captured without screens.",
             "rating_text": "Rated <strong>4.8</strong>/5 stars based on <strong>1,753+ customer stories.</strong>", "sample_note": "Sample reviews",
             "more_label": "Read more", "less_label": "Read less", "pad_top": 20},

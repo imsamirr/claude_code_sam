@@ -333,7 +333,7 @@
           "settings": {
             "label": "Price",
             "col_1": "low",
-            "col_2": "high",
+            "col_2": "mid",
             "col_3": "low"
           }
         }
