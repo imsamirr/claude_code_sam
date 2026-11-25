@@ -18,3 +18,7 @@ no discount code yet).
 12. Cart error: Could not add to cart. Please check your connection and try again.
 
 Review cards stay labelled "Sample" (the 12 reviews are not real customer reviews).
+
+## Announcement bar countdown (2026-11-25, same chat)
+Title kept as the user's own "Black Friday Sale" (StefanBrain offered "Black Friday Event"). Offer tag: BUY 1, GET 1 FREE.
+Lead-in before the timer: OFFER ENDS. Unit labels: DAYS / HRS / MINS / SECS. Screen reader: "Black Friday offer time remaining".

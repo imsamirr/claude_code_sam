@@ -1,9 +1,33 @@
 {%- if section.settings.show_bar -%}
-<div class="bar" role="region" aria-label="{{ section.settings.bar_aria | escape }}">
-  <div class="wrap">
-    <span class="serif">{{ section.settings.bar_lead }}</span>
-    {%- if section.settings.bar_lead != blank and section.settings.bar_offer != blank %}<span aria-hidden="true">-</span>{% endif -%}
-    {%- if section.settings.bar_offer != blank %}<b>{{ section.settings.bar_offer }}</b>{% endif %}
+{%- liquid
+  if section.settings.bar_bg_desktop
+    assign bg_d = section.settings.bar_bg_desktop | image_url: width: 2400
+  else
+    assign bg_d = 'retra-bar-desktop.jpg' | file_img_url: '2400x'
+  endif
+  if section.settings.bar_bg_mobile
+    assign bg_m = section.settings.bar_bg_mobile | image_url: width: 1200
+  else
+    assign bg_m = 'retra-bar-mobile.jpg' | file_img_url: '1200x'
+  endif
+-%}
+<div class="bar" role="region" aria-label="{{ section.settings.bar_aria | escape }}" style="--bar-d:url('{{ bg_d }}');--bar-m:url('{{ bg_m }}')">
+  <div class="bar-in">
+    <span class="bar-copy">
+      {%- if section.settings.bar_lead != blank %}<span class="bar-title">{{ section.settings.bar_lead }}</span>{% endif -%}
+      {%- if section.settings.bar_offer != blank %}<span class="bar-offer">{{ section.settings.bar_offer }}</span>{% endif -%}
+    </span>
+    {%- if section.settings.countdown_end != blank -%}
+    <span class="bar-cd" hidden>
+      {%- if section.settings.bar_ends != blank %}<span class="bar-ends">{{ section.settings.bar_ends }}</span>{% endif -%}
+      <span class="bar-timer" role="timer" aria-label="{{ section.settings.timer_aria | escape }}" data-countdown data-end="{{ section.settings.countdown_end | escape }}">
+        <span class="u"><span class="d" data-d>00</span><small>{{ section.settings.lbl_days }}</small></span><i aria-hidden="true">:</i>
+        <span class="u"><span class="d" data-h>00</span><small>{{ section.settings.lbl_hrs }}</small></span><i aria-hidden="true">:</i>
+        <span class="u"><span class="d" data-m>00</span><small>{{ section.settings.lbl_min }}</small></span><i aria-hidden="true">:</i>
+        <span class="u"><span class="d" data-s>00</span><small>{{ section.settings.lbl_sec }}</small></span>
+      </span>
+    </span>
+    {%- endif -%}
   </div>
 </div>
 {%- endif -%}
@@ -52,9 +76,18 @@
   "settings": [
     { "type": "header", "content": "Announcement bar" },
     { "type": "checkbox", "id": "show_bar", "label": "Show announcement bar", "default": true },
-    { "type": "text", "id": "bar_lead", "label": "Lead text (serif)", "default": "BLACK FRIDAY SALE" },
+    { "type": "text", "id": "bar_lead", "label": "Title (serif)", "default": "Black Friday Sale" },
     { "type": "text", "id": "bar_offer", "label": "Offer tag", "default": "BUY 1, GET 1 FREE" },
     { "type": "text", "id": "bar_aria", "label": "Screen-reader label", "default": "Offer" },
+    { "type": "image_picker", "id": "bar_bg_desktop", "label": "Background (desktop)", "info": "Empty uses the satin texture file retra-bar-desktop.jpg." },
+    { "type": "image_picker", "id": "bar_bg_mobile", "label": "Background (mobile)", "info": "Empty uses retra-bar-mobile.jpg." },
+    { "type": "text", "id": "countdown_end", "label": "Countdown end", "info": "When the offer really ends, e.g. 2026-12-01T23:59:00-05:00. Empty hides the countdown; it also hides itself once the time is up." },
+    { "type": "text", "id": "bar_ends", "label": "Text before the countdown", "default": "OFFER ENDS" },
+    { "type": "text", "id": "lbl_days", "label": "Days label", "default": "DAYS" },
+    { "type": "text", "id": "lbl_hrs", "label": "Hours label", "default": "HRS" },
+    { "type": "text", "id": "lbl_min", "label": "Minutes label", "default": "MINS" },
+    { "type": "text", "id": "lbl_sec", "label": "Seconds label", "default": "SECS" },
+    { "type": "text", "id": "timer_aria", "label": "Countdown screen-reader label", "default": "Black Friday offer time remaining" },
     { "type": "header", "content": "Header" },
     { "type": "text", "id": "logo_text", "label": "Logo text", "default": "Retra" },
     { "type": "text", "id": "support_label", "label": "Support link label", "default": "Support" },

@@ -559,3 +559,45 @@ body.cart-open { overflow: hidden; }
 .sticky-atc > div { min-width: 0; }
 .sticky-atc b, .sticky-atc span { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 @media (max-width: 560px) { .sticky-atc .cta { padding: 12px 16px; font-size: 13.5px; } }
+
+/* ===== announcement bar, Retro-pia proportions (44px desktop) ===== */
+.bar { position: relative; isolation: isolate; overflow: hidden; background: #0b1622 var(--bar-m) center / cover; color: #fff; }
+.bar::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(0,0,0,.55), rgba(0,0,0,.2) 60%, rgba(0,0,0,.2)); pointer-events: none; }
+.bar-in { display: flex; max-width: 1440px; margin: 0 auto; align-items: center; justify-content: space-between; gap: 12px; padding: 8px 16px; }
+.bar-copy { display: flex; min-width: 0; flex-direction: column; align-items: flex-start; gap: 4px; }
+.bar-title { font-family: var(--f-display); font-size: 15px; line-height: 18px; letter-spacing: -.01em; color: #fff; }
+.bar-offer { display: inline-flex; flex: none; border-radius: 2px; padding: 1px 4px; background: #f9f7f2; box-shadow: 0 1px 2px rgba(0,0,0,.2); color: #022b49; font-size: 12px; font-weight: 700; letter-spacing: .02em; line-height: 16px; text-transform: uppercase; }
+.bar-cd { display: flex; flex: none; flex-direction: column; align-items: center; gap: 4px; }
+.bar-cd[hidden] { display: none; }
+.bar-ends { color: #f9f7f2; font-size: 11px; font-weight: 500; letter-spacing: .04em; line-height: 14px; text-transform: uppercase; white-space: nowrap; }
+.bar-timer { display: inline-flex; align-items: flex-start; gap: 4px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.bar-timer .u { display: inline-flex; flex-direction: column; align-items: center; min-width: 26px; }
+.bar-timer .d { box-sizing: border-box; min-width: 26px; padding: 2px 4px; border: 1px solid rgba(255,255,255,.16); border-radius: 2px; background: rgba(255,255,255,.16); font-size: 13px; font-weight: 600; line-height: 16px; text-align: center; color: #fff; }
+.bar-timer small { margin-top: 2px; color: #ebe7df; font-size: 8px; font-weight: 500; letter-spacing: .04em; line-height: 10px; }
+.bar-timer i { display: none; }
+@media (min-width: 1000px) {
+  .bar { background-image: var(--bar-d); }
+  .bar::before { background: radial-gradient(ellipse 45% 160% at 50% 50%, rgba(0,0,0,.55), rgba(0,0,0,0)); }
+  .bar-in { min-height: 44px; justify-content: center; gap: 16px; padding-block: 0; }
+  .bar-copy { flex-direction: row; align-items: center; gap: 16px; }
+  .bar-title { font-size: 16px; white-space: nowrap; }
+  .bar-offer { padding: 2px 6px; font-size: 13px; }
+  .bar-cd { flex-direction: row; gap: 16px; }
+  .bar-timer .d { font-size: 12px; padding-inline: 6px; }
+  .bar-timer small { margin-top: 1px; font-size: 7px; line-height: 8px; }
+  .bar-timer i { display: inline; color: #ebe7df; font-size: 12px; font-weight: 500; font-style: normal; line-height: 22px; }
+}
+
+/* ===== FAQ photo collage, Retro-pia layout: three large tilted prints per side, bleeding off the edges ===== */
+.faq-wrap { overflow: hidden; }
+.collage { position: absolute; top: 0; bottom: 0; width: 340px; height: auto; pointer-events: none; }
+.collage.l { left: 0; } .collage.r { right: 0; }
+.collage .print { position: absolute; width: var(--w); aspect-ratio: 1; padding: 6px; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 14px 30px rgba(0,0,0,.16); transform: rotate(var(--r)); }
+.collage .print img { width: 100%; height: 100%; object-fit: cover; }
+.collage .p1 { --w: 270px; --r: -7deg; left: -52px; top: 200px; z-index: 1; }
+.collage .p2 { --w: 205px; --r: -30deg; left: -36px; top: 418px; z-index: 2; }
+.collage .p3 { --w: 255px; --r: 8deg; left: 26px; top: 580px; z-index: 3; }
+.collage .p4 { --w: 290px; --r: 8deg; right: -66px; top: 70px; z-index: 1; }
+.collage .p5 { --w: 250px; --r: 10deg; right: 26px; top: 310px; z-index: 2; }
+.collage .p6 { --w: 285px; --r: -8deg; right: -58px; top: 540px; z-index: 3; }
+@media (max-width: 1100px) { .collage { display: none; } }

@@ -4,6 +4,23 @@
   var $ = function (sel, root) { return (root || document).querySelector(sel); };
   var $$ = function (sel, root) { return Array.prototype.slice.call((root || document).querySelectorAll(sel)); };
 
+  /* ---------- announcement countdown: real end date from the theme editor; hides itself once it passes ---------- */
+  $$('[data-countdown]').forEach(function (t) {
+    var wrap = t.closest('.bar-cd'); var end = Date.parse(t.dataset.end);
+    if (isNaN(end) || end <= Date.now()) { if (wrap) wrap.hidden = true; return; }
+    if (wrap) wrap.hidden = false;
+    var el = { d: $('[data-d]', t), h: $('[data-h]', t), m: $('[data-m]', t), s: $('[data-s]', t) };
+    var pad = function (n) { return (n < 10 ? '0' : '') + n; };
+    var iv;
+    function tick() {
+      var left = Math.floor((end - Date.now()) / 1000);
+      if (left <= 0) { if (wrap) wrap.hidden = true; clearInterval(iv); return; }
+      el.d.textContent = pad(Math.floor(left / 86400)); el.h.textContent = pad(Math.floor(left % 86400 / 3600));
+      el.m.textContent = pad(Math.floor(left % 3600 / 60)); el.s.textContent = pad(left % 60);
+    }
+    tick(); iv = setInterval(tick, 1000);
+  });
+
   /* ---------- mobile menu ---------- */
   var menuBtn = $('#menu-btn');
   if (menuBtn) menuBtn.addEventListener('click', function () {
