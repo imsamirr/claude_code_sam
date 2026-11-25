@@ -21,6 +21,8 @@ SHIP = ("<p>All orders ship within 1-2 business days.</p>"
         "<p>All orders ship with tracked delivery. As soon as your package leaves our studio, you will receive a tracking link via email to follow its progress right to your door.</p>"
         "<p>Love your Retra or return it. We offer a 30-day hassle-free return window on all orders. If you need assistance with an order or a return, reach out directly through our <a href=\"/pages/contact\" title=\"Contact page\">Contact page</a>.</p>")
 
+# Photos for the 12 review cards. The texts were sample copy and are NOT shown: the cards carry placeholders
+# until real customer reviews are pasted in through the theme editor.
 REVIEWS = [
  ("rv-florence.jpg", "Julian K.", "Brought two of these for our train trip through northern Italy. Not checking my phone every five minutes made the whole vacation feel twice as long. The warm vintage tones on the cobblestones looked incredible."),
  ("m-carousel.jpg", "Sarah P.", "We spent three full days at the theme parks with our two kids. The battery lasted through twelve hours of rides and evening fireworks without dying once."),
@@ -108,9 +110,9 @@ def page(product_handle):
             ("row", {"label": "Instant USB-C transfer", "col_1": "yes", "col_2": "no", "col_3": "yes"}),
             ("row", {"label": "Price", "col_1": "low", "col_2": "mid", "col_3": "low"})]),
         "reviews": section("retra-reviews", {"kicker": "Tested in the field", "heading": "Honest memories,", "heading_2": "captured without screens.",
-            "rating_text": "Rated <strong>4.8</strong>/5 stars based on <strong>1,753+ customer stories.</strong>", "sample_note": "Sample reviews",
+            "rating_text": "Rated <strong>4.8</strong>/5 stars based on <strong>1,753+ customer stories.</strong>", "sample_note": "",
             "more_label": "Read more", "less_label": "Read less", "pad_top": 20},
-            [("review", {"image": IMG(img), "name": n, "label": "Sample", "stars": 5, "text": f"“{t}”"}) for img, n, t in REVIEWS]),
+            [("review", {"image": IMG(img), "name": "[Customer name]", "label": "", "stars": 5, "text": "[Review text]"}) for img, n, t in REVIEWS]),
         "moments": section("retra-moments", {"kicker": "Built for real life", "heading": "Built for memories,", "heading_2": "not for your feed.", "button_label": "Shop now", "button_link": "#buy", "pad_top": 20}, [
             ("item", {"image": IMG("mo-europe.jpg"), "label": "EUROPE", "big": False}),
             ("item", {"image": IMG("mo-themepark.jpg"), "label": "THEME PARKS", "big": False}),

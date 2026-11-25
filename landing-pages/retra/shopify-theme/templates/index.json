@@ -356,7 +356,7 @@
         "heading": "Honest memories,",
         "heading_2": "captured without screens.",
         "rating_text": "Rated <strong>4.8</strong>/5 stars based on <strong>1,753+ customer stories.</strong>",
-        "sample_note": "Sample reviews",
+        "sample_note": "",
         "more_label": "Read more",
         "less_label": "Read less",
         "pad_top": 20
@@ -366,120 +366,120 @@
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/retra-rv-florence.jpg",
-            "name": "Julian K.",
-            "label": "Sample",
+            "name": "[Customer name]",
+            "label": "",
             "stars": 5,
-            "text": "“Brought two of these for our train trip through northern Italy. Not checking my phone every five minutes made the whole vacation feel twice as long. The warm vintage tones on the cobblestones looked incredible.”"
+            "text": "[Review text]"
           }
         },
         "review_2": {
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/retra-m-carousel.jpg",
-            "name": "Sarah P.",
-            "label": "Sample",
+            "name": "[Customer name]",
+            "label": "",
             "stars": 5,
-            "text": "“We spent three full days at the theme parks with our two kids. The battery lasted through twelve hours of rides and evening fireworks without dying once.”"
+            "text": "[Review text]"
           }
         },
         "review_3": {
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/retra-rv-seville.jpg",
-            "name": "Sophie L.",
-            "label": "Sample",
+            "name": "[Customer name]",
+            "label": "",
             "stars": 5,
-            "text": "“Took this all through Spain. It feels just like using a disposable camera, but with zero film lab fees. Everyone kept asking where we got it.”"
+            "text": "[Review text]"
           }
         },
         "review_4": {
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/retra-m-beach.jpg",
-            "name": "Chloe H.",
-            "label": "Sample",
+            "name": "[Customer name]",
+            "label": "",
             "stars": 5,
-            "text": "“Lived in my beach tote all week in San Diego. Zero glare issues in bright sunlight because you just look through the viewfinder.”"
+            "text": "[Review text]"
           }
         },
         "review_5": {
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/retra-rv-scotland.jpg",
-            "name": "Marcus T.",
-            "label": "Sample",
+            "name": "[Customer name]",
+            "label": "",
             "stars": 5,
-            "text": "“The surprise of plugging it into my laptop when I got home was the best part. Captured the entire rail trip across the UK without draining my phone.”"
+            "text": "[Review text]"
           }
         },
         "review_6": {
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/retra-rv-parade.jpg",
-            "name": "Mike B.",
-            "label": "Sample",
+            "name": "[Customer name]",
+            "label": "",
             "stars": 5,
-            "text": "“The built-in flash makes nighttime parade shots look like classic 90s family albums. Handed it to our eight-year-old and let him be the trip photographer.”"
+            "text": "[Review text]"
           }
         },
         "review_7": {
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/retra-rv-amsterdam.jpg",
-            "name": "Clara M.",
-            "label": "Sample",
+            "name": "[Customer name]",
+            "label": "",
             "stars": 5,
-            "text": "“Rode bikes around Amsterdam for four days with this strapped to my wrist. Super lightweight, simple to use, and the black and white filter is gorgeous.”"
+            "text": "[Review text]"
           }
         },
         "review_8": {
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/retra-rv-boat.jpg",
-            "name": "Liam N.",
-            "label": "Sample",
+            "name": "[Customer name]",
+            "label": "",
             "stars": 5,
-            "text": "“Tossed it around between four friends on the boat all afternoon. The film filter gives that perfect golden summer look.”"
+            "text": "[Review text]"
           }
         },
         "review_9": {
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/retra-rv-venice.jpg",
-            "name": "David R.",
-            "label": "Sample",
+            "name": "[Customer name]",
+            "label": "",
             "stars": 5,
-            "text": "“We left our phones locked in the hotel room safe and just carried this around Venice. The photos have that authentic retro grain you just cannot get from an iPhone filter.”"
+            "text": "[Review text]"
           }
         },
         "review_10": {
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/retra-rv-castle.jpg",
-            "name": "Jessica W.",
-            "label": "Sample",
+            "name": "[Customer name]",
+            "label": "",
             "stars": 5,
-            "text": "“Took our family to the big theme park for spring break. It was so refreshing to watch the castle fireworks with my own eyes instead of staring through a screen.”"
+            "text": "[Review text]"
           }
         },
         "review_11": {
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/retra-rv-footprints.jpg",
-            "name": "Emma D.",
-            "label": "Sample",
+            "name": "[Customer name]",
+            "label": "",
             "stars": 5,
-            "text": "“Bought the 2-pack for a beach trip to the coast. Plugging it into my phone at the beach house each evening felt like unwrapping presents.”"
+            "text": "[Review text]"
           }
         },
         "review_12": {
           "type": "review",
           "settings": {
             "image": "shopify://shop_images/retra-rv-dog.jpg",
-            "name": "Ben S.",
-            "label": "Sample",
+            "name": "[Customer name]",
+            "label": "",
             "stars": 5,
-            "text": "“Keep this sitting on the kitchen counter for quiet mornings at home. Snaps candid moments of our dog that we would normally miss while unlocking a phone.”"
+            "text": "[Review text]"
           }
         }
       },
