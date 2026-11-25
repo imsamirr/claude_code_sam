@@ -1,0 +1,134 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- Source for the product-gallery graphics (images/g1..g8). Edit text here, then run:
+     node render.js   (needs Playwright; writes ../images/g*.jpg)
+     Base photos live in ./base/. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tinos&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  body { margin: 0; background: #ccc; }
+  .s { position: relative; width: 1080px; height: 1080px; overflow: hidden; background: #DABD9F; font-family: "Times New Roman", Tinos, Times, serif; color: #022B49; margin-bottom: 20px; }
+  .s > img.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .t { position: absolute; line-height: 1.04; letter-spacing: -.04em; }
+  .xl { font-size: 124px; font-weight: 400; }
+  .l { font-size: 92px; font-weight: 400; }
+  .m { font-size: 66px; font-weight: 400; }
+  .mute { color: rgba(2,43,73,.5); }
+  .lab { font-family: Inter, sans-serif; letter-spacing: 0; font-weight: 500; }
+  .sm { font-size: 46px; }
+  .xs { font-size: 38px; }
+  svg.arrow { position: absolute; fill: none; stroke: #022B49; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+  /* filters */
+  .grid4 { position: absolute; left: 92px; right: 92px; top: 190px; bottom: 70px; display: grid; grid-template-columns: 1fr 1fr; gap: 0 60px; }
+  .grid4 figure { margin: 0; display: flex; flex-direction: column; }
+  .grid4 img { width: 100%; height: 340px; object-fit: cover; border-radius: 10px; }
+  .grid4 figcaption { font-family: Inter, sans-serif; font-size: 30px; font-weight: 500; letter-spacing: 0; padding: 16px 0 26px; }
+  .grid4 figure:nth-child(even) figcaption { text-align: right; }
+  .vline { position: absolute; left: 540px; top: 190px; bottom: 70px; width: 1.5px; background: rgba(2,43,73,.18); }
+  .hline { position: absolute; left: 130px; right: 130px; top: 600px; height: 1.5px; background: rgba(2,43,73,.18); }
+  .centercard { position: absolute; left: 320px; top: 430px; width: 440px; height: 270px; border-radius: 40px; background: #E6D3BA; box-shadow: 0 14px 36px rgba(2,43,73,.22); overflow: hidden; display: grid; place-items: center; }
+  .centercard img { width: 100%; height: 100%; object-fit: cover; }
+  /* how to */
+  .cards { position: absolute; left: 92px; right: 92px; top: 200px; bottom: 70px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px; }
+  .card { position: relative; background: #fff; border-radius: 26px; overflow: hidden; }
+  .card img { position: absolute; left: 0; bottom: 0; width: 100%; height: 76%; object-fit: cover; }
+  .num { position: absolute; left: 26px; top: 26px; width: 54px; height: 54px; border-radius: 50%; background: #022B49; color: #fff; display: grid; place-items: center; font-family: Inter, sans-serif; font-size: 26px; font-weight: 600; letter-spacing: 0; }
+  .card .cap { position: absolute; left: 96px; top: 34px; font-family: Inter, sans-serif; font-size: 30px; font-weight: 600; letter-spacing: -.01em; white-space: nowrap; }
+  /* reviews */
+  .rating { position: absolute; right: 60px; top: 130px; text-align: center; }
+  .rating .big { font-size: 110px; font-weight: 400; line-height: 1; }
+  .rating .lbl { font-size: 46px; color: rgba(2,43,73,.5); }
+  .divider { position: absolute; left: 70px; right: 300px; top: 408px; height: 1.5px; background: rgba(2,43,73,.25); }
+  .chip { position: absolute; right: 70px; top: 386px; background: #022B49; color: #fff; font-family: Inter, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: .06em; padding: 12px 22px; border-radius: 999px; }
+  .qbig { position: absolute; left: 70px; right: 70px; top: 450px; height: 270px; background: #fff; border: 1.5px solid rgba(2,43,73,.12); border-radius: 22px; padding: 34px 50px; box-sizing: border-box; }
+  .qbig p { margin: 0; font-size: 52px; line-height: 1.15; font-weight: 400; text-align: center; letter-spacing: -.03em; }
+  .qbig .by { margin-top: 18px; text-align: center; font-family: Inter, sans-serif; font-size: 26px; letter-spacing: 0; color: #416077; }
+  .st { color: #C9B38C; letter-spacing: 4px; font-family: Inter, sans-serif; }
+  .qs { position: absolute; left: 70px; right: 70px; top: 760px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
+  .qs div { background: #fff; border: 1.5px solid rgba(2,43,73,.12); border-radius: 20px; padding: 22px 14px; text-align: center; font-size: 34px; letter-spacing: -.02em; line-height: 1.15; height: 230px; box-sizing: border-box; }
+  .qs .st { font-size: 28px; display: block; margin-bottom: 8px; }
+  .qs small { display: block; font-family: Inter, sans-serif; letter-spacing: 0; color: #416077; font-size: 20px; margin-top: 8px; }
+  /* inbox */
+  .pill { position: absolute; background: #022B49; color: #fff; border-radius: 40px; padding: 20px 38px; font-family: Inter, sans-serif; font-size: 36px; font-weight: 700; letter-spacing: .02em; text-align: center; line-height: 1.15; }
+  /* gift */
+  .band { position: absolute; left: 0; right: 0; bottom: 0; height: 120px; background: #022B49; color: #fff; display: flex; align-items: center; justify-content: center; gap: 26px; font-size: 42px; letter-spacing: -.03em; white-space: nowrap; }
+  .band i { font-style: normal; color: #D7CBB4; font-size: 30px; }
+</style></head>
+<body>
+
+<!-- g1: 4 pre-installed filters -->
+<div class="s" id="g1">
+  <div class="t m" style="left:92px;top:66px">4 pre-installed filters</div>
+  <div class="vline"></div><div class="hline"></div>
+  <div class="grid4">
+    <figure><img src="base/f-natural.jpg"><figcaption>Natural</figcaption></figure>
+    <figure><img src="base/f-vintage.jpg"><figcaption>Vintage</figcaption></figure>
+    <figure><img src="base/f-bw.jpg"><figcaption>Black &amp; White</figcaption></figure>
+    <figure><img src="base/f-film.jpg"><figcaption>Film</figcaption></figure>
+  </div>
+  <div class="centercard"><img src="base/front-tight.jpg"></div>
+</div>
+
+<!-- g2: Screen-free. on purpose. -->
+<div class="s" id="g2">
+  <img class="bg" src="base/frontback.jpg">
+  <div class="t xl" style="left:80px;top:120px">Screen-free.</div>
+  <div class="t m mute" style="left:86px;top:270px">on purpose.</div>
+  <div class="t sm lab" style="left:830px;top:420px">back</div>
+  <svg class="arrow" style="left:780px;top:450px" width="70" height="90" viewBox="0 0 70 90"><path d="M55 8C40 20 30 45 28 80M28 80l-12-16M28 80l14-12"/></svg>
+  <div class="t sm lab" style="left:160px;top:930px">front</div>
+  <svg class="arrow" style="left:290px;top:860px" width="70" height="90" viewBox="0 0 70 90"><path d="M20 82C34 70 40 45 38 10M38 10l-13 15M38 10l13 14"/></svg>
+</div>
+
+<!-- g3: Easy USB-C transfer -->
+<div class="s" id="g3">
+  <img class="bg" src="base/usbc.jpg">
+  <div class="t l" style="left:380px;top:70px;line-height:1.1">Easy USB-C<br>transfer</div>
+</div>
+
+<!-- g4: How to use RETRA. -->
+<div class="s" id="g4">
+  <div class="t m" style="left:0;right:0;top:70px;text-align:center">How to use Retra.</div>
+  <div class="cards">
+    <div class="card"><div class="num">1</div><div class="cap">Turn on</div><img src="base/hero.jpg" style="object-fit:cover;object-position:50% 45%"></div>
+    <div class="card"><div class="num">2</div><div class="cap">choose your filter</div><img src="base/back.jpg"></div>
+    <div class="card"><div class="num">3</div><div class="cap">Shoot</div><img src="base/front-tight.jpg" style="object-fit:cover"></div>
+    <div class="card"><div class="num">4</div><div class="cap">USB-C Transfer</div><img src="base/bottom.jpg" style="object-fit:cover"></div>
+  </div>
+</div>
+
+<!-- g5: reviews -->
+<div class="s" id="g5">
+  <img src="base/hero.jpg" style="position:absolute;left:30px;top:20px;width:500px;height:370px;object-fit:cover;object-position:50% 50%">
+  <div class="rating"><div class="big">4.8 ★</div><div class="lbl">average rating</div></div>
+  <div class="divider"></div><div class="chip">SAMPLE REVIEWS</div>
+  <div class="qbig"><p>“The best part is not looking at a screen all day and rediscovering our memories later.”</p>
+    <div class="by"><span class="st">★★★★★</span>&nbsp; Amanda K.</div></div>
+  <div class="qs">
+    <div><span class="st">★★★★★</span>“Felt like a real holiday again.”<small>— Julian K.</small></div>
+    <div><span class="st">★★★★★</span>“Kids loved using it everywhere.”<small>— Sarah P.</small></div>
+    <div><span class="st">★★★★★</span>“No film lab fees ever.”<small>— Chloe H.</small></div>
+  </div>
+</div>
+
+<!-- g7: in the box -->
+<div class="s" id="g7">
+  <img class="bg" src="base/inbox.jpg">
+  <div class="pill" style="left:46px;top:70px">+ FREE<br>WRISTBAND</div>
+  <svg class="arrow" style="left:150px;top:230px" width="90" height="140" viewBox="0 0 90 140"><path d="M20 6C14 50 30 95 70 128M70 128l-22-4M70 128l-2-22"/></svg>
+  <div class="t sm lab" style="left:680px;top:845px">Retra camera</div>
+  <svg class="arrow" style="left:700px;top:745px" width="110" height="90" viewBox="0 0 110 90"><path d="M95 84C80 50 50 30 12 22M12 22l18-12M12 22l16 16"/></svg>
+  <div class="t xs lab" style="left:70px;top:1018px">USB-C cable</div>
+  <div class="t sm lab" style="left:830px;top:975px">sd-card</div>
+</div>
+
+<!-- g8: gift-ready -->
+<div class="s" id="g8">
+  <img class="bg" src="base/gift.jpg">
+  <div class="t xl" style="left:70px;top:60px">Gift-ready.</div>
+  <div class="t m mute" style="left:76px;top:200px">ready for under the tree.</div>
+  <div class="t xs lab" style="left:800px;top:410px">your Retra</div>
+  <svg class="arrow" style="left:830px;top:450px" width="60" height="80" viewBox="0 0 60 80"><path d="M44 6C30 22 24 44 24 72M24 72l-12-14M24 72l14-12"/></svg>
+  <div class="band"><i>✦</i>free gift ribbon with every Retra this Christmas<i>✦</i></div>
+</div>
+
+</body></html>

@@ -1,0 +1,817 @@
+<title>Retra Screen-Free Camera</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Retra: a screen-free digital camera designed for genuine memories.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tinos&family=Inter:wght@400;500;600;700&family=Shantell+Sans:ital,wght@1,400&display=swap">
+<style>
+/* Single light theme on purpose: Retro-pia never switches to dark. Layout: Retro-pia's product-page system, measured from retro-pia.com. One paper ground (#FCFBF9) for every
+   section; rhythm comes from kicker + two-tone serif headline + blue-grey paragraph, tilted white-bordered
+   prints, and two navy panels (guarantee, footer). */
+:root {
+  --paper: #FCFBF9;
+  --tint: #F9F7F2;
+  --card: #FFFFFF;
+  --navy: #022B49;
+  --navy-50: rgba(2, 43, 73, .5);
+  --text: #416077;
+  --kicker: #A39680;
+  --sand: #D9C7AE;
+  --pill: #E4E9EC;
+  --line: rgba(2, 43, 73, .12);
+  --star: #C9B38C;
+  --ph: rgba(201, 179, 140, .35);
+  --cta: linear-gradient(100deg, #2C4D63 0%, #4B6B80 45%, #8EA6B4 100%);
+  --panel: radial-gradient(120% 80% at 50% 0%, #3E5D74 0%, #1A3A53 45%, #022B49 100%);
+  --shadow: 0 1px 2px rgba(2,43,73,.06), 0 12px 32px rgba(2,43,73,.08);
+  --print: 0 2px 4px rgba(0,0,0,.08), 0 14px 30px rgba(0,0,0,.14);
+  --f-display: "Times New Roman", Tinos, Times, serif;
+  --f-body: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --f-hand: "Shantell Sans", "Comic Sans MS", cursive;
+  --wrap: 1360px;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--text); font: 16px/1.6 var(--f-body); -webkit-font-smoothing: antialiased; }
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid #4B6B80; outline-offset: 3px; }
+.wrap { max-width: var(--wrap); margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+@media (min-width: 900px) { .wrap { padding-left: max(30px, env(safe-area-inset-left, 0px)); padding-right: max(30px, env(safe-area-inset-right, 0px)); } }
+.ph { background: var(--ph); border-radius: 3px; padding: 0 .2em; font-style: normal; }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* type system */
+h1, h2, h3, .serif { font-family: var(--f-display); font-weight: 400; color: var(--navy); margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(30px, 2.9vw, 40px); line-height: 1.12; letter-spacing: -.04em; }
+h2 { font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -.04em; }
+h2 .l2 { display: block; color: var(--navy-50); }
+h2 .l1m { display: block; color: var(--navy-50); }
+.kicker { font-family: var(--f-hand); font-style: italic; font-size: 13px; letter-spacing: .09em; text-transform: uppercase; color: var(--kicker); margin: 0 0 14px; }
+.para { font-size: 18px; line-height: 1.6; color: var(--text); max-width: 46ch; margin: 18px 0 0; }
+.head { text-align: center; margin: 0 auto clamp(32px, 4vw, 52px); }
+.head .para { margin-left: auto; margin-right: auto; max-width: 58ch; }
+.sec { padding-block: clamp(64px, 8vw, 120px); }
+.more { background: none; border: 0; padding: 0; margin-top: 10px; font-weight: 600; font-size: 16px; color: var(--navy); cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.clamp { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.clamp.open { -webkit-line-clamp: unset; }
+
+/* buttons */
+.cta { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 16px 44px; border: 0; border-radius: 999px; background: var(--cta); color: #fff; font-size: 16px; font-weight: 600; cursor: pointer; text-decoration: none; overflow: hidden; box-shadow: inset 0 1px 0 rgba(255,255,255,.18), 0 6px 18px rgba(2,43,73,.18); transition: filter .2s ease, transform .2s ease; }
+.cta::after { content: ""; position: absolute; inset: 0; background: radial-gradient(60% 120% at 20% 0%, rgba(255,255,255,.22), transparent 60%); pointer-events: none; }
+.cta:hover { filter: brightness(1.06); transform: translateY(-1px); }
+.cta.full { width: 100%; padding-block: 18px; font-size: 17px; }
+.cta.light { background: linear-gradient(100deg, #F6EFE3, #CDBDA3); color: var(--navy); }
+
+/* announcement */
+.bar { background: #0E1C27; color: #fff; }
+.bar .wrap { display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap; padding-block: 9px; font-size: 13px; }
+.bar .serif { color: #fff; font-size: 16px; letter-spacing: -.01em; }
+.bar b { background: #fff; color: #0E1C27; font-size: 11.5px; font-weight: 700; letter-spacing: .02em; padding: 3px 8px; border-radius: 4px; }
+
+/* header */
+header.nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30; background: color-mix(in srgb, var(--paper) 95%, transparent); backdrop-filter: blur(12px); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+header.nav .wrap { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding-block: 18px; }
+header.nav nav { display: flex; gap: 26px; font-size: 14px; color: var(--navy); }
+header.nav a { text-decoration: none; }
+.logo { font-family: var(--f-display); font-size: 26px; color: var(--navy); text-decoration: none; letter-spacing: -.02em; }
+.tools { justify-self: end; display: flex; gap: 20px; align-items: center; font-size: 14px; color: var(--navy); }
+.tools svg { width: 20px; height: 20px; }
+.cart-n { font-size: 11px; background: var(--navy); color: var(--paper); border-radius: 999px; padding: 0 6px; margin-left: -14px; margin-top: -14px; }
+
+/* PDP */
+.pdp { display: grid; grid-template-columns: minmax(0, 1.18fr) minmax(0, 1fr); gap: clamp(28px, 4vw, 64px); padding-block: 36px 80px; align-items: start; }
+.gallery { position: sticky; top: 84px; display: grid; grid-template-columns: 62px minmax(0,1fr); gap: 16px; }
+.thumbs { display: grid; gap: 10px; align-content: start; order: -1; }
+.thumbs button { padding: 0; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--card); cursor: pointer; aspect-ratio: 1; opacity: .8; transition: opacity .2s; }
+.thumbs button[aria-current="true"] { outline: 2px solid var(--navy); outline-offset: 1px; opacity: 1; }
+.thumbs img { width: 100%; height: 100%; object-fit: cover; }
+.stage { position: relative; border-radius: 16px; overflow: hidden; background: #F1EBE0; aspect-ratio: 1; }
+.stage img { width: 100%; height: 100%; object-fit: cover; }
+.stage .pill { position: absolute; top: 16px; right: 16px; background: #0E1C27; color: #fff; font-size: 13px; font-weight: 500; text-transform: uppercase; padding: 7px 14px; border-radius: 999px; }
+.stage .ctl { position: absolute; bottom: 16px; display: flex; gap: 10px; }
+.stage .ctl button { width: 40px; height: 40px; border-radius: 50%; border: 0; background: rgba(255,255,255,.92); color: #022B49; cursor: pointer; display: grid; place-items: center; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+
+.buy { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+.rating { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; font-size: 13px; color: var(--navy); }
+.sq { display: inline-flex; gap: 2px; }
+.sq i { width: 16px; height: 16px; background: var(--star); display: grid; place-items: center; font-style: normal; color: #fff; font-size: 11px; line-height: 1; }
+.sub { font-size: 15.5px; color: var(--text); margin: -6px 0 0; }
+.checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; color: var(--navy); font-size: 15px; }
+.checks li { display: flex; gap: 12px; align-items: center; }
+.checks svg { width: 22px; height: 22px; flex: none; }
+.price-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; padding-bottom: 22px; border-bottom: 1px solid var(--line); }
+.price { font-family: var(--f-display); font-size: 32px; color: var(--navy); letter-spacing: -.03em; }
+.price-row s { color: var(--text); opacity: .75; font-size: 17px; }
+.save { background: #0E1C27; color: #fff; font-size: 13px; font-weight: 600; padding: 6px 12px; border-radius: 999px; }
+.step { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; color: var(--navy); margin-bottom: 12px; }
+.step .n { width: 22px; height: 22px; border-radius: 3px; display: grid; place-items: center; font-size: 12px; font-weight: 500; background: linear-gradient(135deg, var(--pill), var(--card)); border: 1px solid var(--line); }
+.step .aside { margin-left: auto; font-weight: 400; color: var(--text); }
+.swatches { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px; border: 1px solid var(--line); border-radius: 14px; background: var(--card); }
+.swatches label { position: relative; cursor: pointer; }
+.swatches input { position: absolute; opacity: 0; }
+.swatches img { width: 52px; height: 52px; border-radius: 10px; object-fit: cover; background: #F1EBE0; }
+.swatches input:checked + img { outline: 2px solid var(--navy); outline-offset: 2px; }
+.swatches input:focus-visible + img { outline: 2px dashed var(--navy); outline-offset: 2px; }
+.setups { display: grid; gap: 12px; border: 0; padding: 0; margin: 0; }
+.setup { position: relative; display: grid; grid-template-columns: 64px 1fr auto; gap: 16px; align-items: center; padding: 14px 18px 14px 14px; border: 1px solid var(--line); border-radius: 14px; background: var(--card); cursor: pointer; }
+.setup:has(input:checked) { border-color: var(--navy); box-shadow: 0 0 0 .5px var(--navy); }
+.setup input { position: absolute; opacity: 0; }
+.setup input:focus-visible ~ .t { text-decoration: underline; }
+.setup .img { width: 64px; height: 64px; border-radius: 10px; background: #F1EBE0; overflow: hidden; position: relative; }
+.setup .img img { width: 100%; height: 100%; object-fit: cover; }
+.setup .img b { position: absolute; right: 3px; bottom: 3px; background: #0E1C27; color: #fff; font-size: 10.5px; padding: 1px 5px; border-radius: 4px; }
+.setup .t { display: block; font-weight: 600; color: var(--navy); font-size: 16px; }
+.setup .d { display: block; font-size: 14px; color: var(--text); line-height: 1.45; }
+.setup .p { text-align: right; font-weight: 700; color: var(--navy); font-size: 16px; line-height: 1.3; }
+.setup .p s { display: block; font-weight: 400; font-size: 12.5px; color: var(--text); opacity: .8; }
+.setup .flag { position: absolute; top: -11px; right: 16px; background: #6E8597; color: #fff; font-size: 11px; font-weight: 600; text-transform: uppercase; padding: 3px 10px; border-radius: 999px; }
+.extras { border-radius: 14px; overflow: hidden; border: 1px solid var(--line); background: var(--tint); box-shadow: var(--shadow); }
+.extras .top { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; padding: 18px 20px; background: radial-gradient(120% 140% at 80% 0%, #3A4C5C 0%, #14232F 60%, #0E1C27 100%); color: #fff; }
+.extras small { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .02em; opacity: .85; }
+.extras .serif { color: #fff; font-size: 24px; letter-spacing: -.03em; line-height: 1.15; }
+.extras .top p { margin: 2px 0 0; font-size: 12.5px; opacity: .8; }
+.clock { text-align: center; font-size: 11px; text-transform: uppercase; }
+.clock .digits { display: flex; gap: 4px; margin-top: 4px; }
+.clock .digits span { display: grid; gap: 2px; justify-items: center; font-size: 9px; opacity: .9; }
+.clock .digits i { font-style: normal; font-size: 14px; font-weight: 700; background: rgba(255,255,255,.16); border-radius: 3px; padding: 2px 5px; min-width: 28px; font-variant-numeric: tabular-nums; }
+.gift { display: grid; grid-template-columns: 44px 1fr auto auto; gap: 14px; align-items: center; padding: 12px 20px; font-size: 14px; font-weight: 500; color: var(--navy); }
+.gift + .gift { border-top: 1px solid var(--line); }
+.gift .img { width: 44px; height: 44px; border-radius: 6px; overflow: hidden; background: var(--sand); display: grid; place-items: center; color: #022B49; }
+.gift .img img { width: 100%; height: 100%; object-fit: cover; }
+.gift em { font-style: normal; font-size: 12px; font-weight: 700; background: var(--pill); padding: 3px 10px; border-radius: 999px; }
+.gift s { font-size: 13px; color: var(--text); opacity: .75; }
+.pay { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+.pay span { font-size: 10px; font-weight: 700; color: #022B49; background: #fff; border: 1px solid rgba(2,43,73,.15); border-radius: 4px; padding: 5px 7px; letter-spacing: .02em; }
+.note { display: grid; grid-template-columns: 44px 1fr; gap: 14px; align-items: center; padding: 16px 20px; border: 1px solid var(--line); border-radius: 14px; background: var(--paper); font-size: 14.5px; }
+.note .ico { width: 44px; height: 44px; border-radius: 50%; background: var(--tint); display: grid; place-items: center; color: var(--navy); }
+.acc details { border-bottom: 1px solid var(--line); }
+.acc summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 28px 1fr auto; gap: 14px; align-items: center; padding: 16px 0; font-weight: 600; font-size: 16px; color: var(--navy); }
+.acc summary::-webkit-details-marker { display: none; }
+.acc summary svg { width: 26px; height: 26px; }
+.acc summary::after { content: "+"; font-size: 24px; font-weight: 300; line-height: 1; }
+.acc details[open] summary::after { content: "–"; }
+.acc .body { padding: 0 0 18px 42px; font-size: 15px; }
+.acc .body p { margin: 0 0 10px; }
+.acc .body ul { margin: 0 0 10px; padding-left: 18px; }
+.acc .body ul.emoji { list-style: none; padding-left: 0; }
+
+/* prints */
+.print { background: #fff; padding: 10px; box-shadow: var(--print); transform: rotate(var(--r, 0deg)); }
+.print img { width: 100%; height: 100%; object-fit: cover; }
+
+/* explainer */
+.expl { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: clamp(32px, 5vw, 80px); }
+.expl .big { margin-top: 56px; border-radius: 0; overflow: hidden; aspect-ratio: 3/2; }
+.expl .big img { width: 100%; height: 100%; object-fit: cover; }
+.expl .prints { position: relative; height: 330px; }
+.expl .prints .print { position: absolute; width: 46%; }
+.expl .prints .a { left: 4%; top: 60px; aspect-ratio: 1.05; --r: -3deg; }
+.expl .prints .b { right: 2%; top: 0; aspect-ratio: 1.05; --r: 2deg; }
+.feats { list-style: none; margin: 56px 0 0; padding: 0 0 0 4%; display: grid; gap: 34px; }
+.feats li { display: grid; grid-template-columns: 64px 1fr; gap: 6px 18px; }
+.feats .num { font-family: var(--f-display); font-size: 48px; line-height: .9; color: transparent; -webkit-text-stroke: 1px rgba(2,43,73,.25); grid-row: span 2; }
+.feats h3 { font-size: 32px; line-height: 1.05; letter-spacing: -.04em; }
+.feats p { margin: 4px 0 0; font-size: 16px; }
+
+/* before/after */
+.ba { position: relative; max-width: 1040px; margin: 0 auto; border-radius: 16px; overflow: hidden; aspect-ratio: 16/9; background: #222; user-select: none; }
+.ba img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.ba .after { clip-path: inset(0 0 0 var(--x, 50%)); }
+.ba .divider { position: absolute; top: 0; bottom: 0; left: var(--x, 50%); width: 2px; background: #fff; transform: translateX(-1px); pointer-events: none; }
+.ba .knob { position: absolute; top: 50%; left: var(--x, 50%); width: 40px; height: 40px; margin: -20px 0 0 -20px; border-radius: 50%; background: #fff; display: grid; place-items: center; color: #022B49; font-size: 14px; letter-spacing: -2px; pointer-events: none; box-shadow: 0 2px 10px rgba(0,0,0,.2); }
+.ba input[type=range] { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: ew-resize; margin: 0; }
+.ba .lab { position: absolute; bottom: 22px; color: #fff; text-shadow: 0 1px 12px rgba(0,0,0,.45); pointer-events: none; }
+.ba .lab b { display: block; font-family: var(--f-body); font-size: clamp(20px, 2.4vw, 30px); font-weight: 700; letter-spacing: -.03em; }
+.ba .lab span { font-family: var(--f-display); font-size: 16px; }
+.ba .lab.l { left: 24px; } .ba .lab.r { right: 24px; text-align: right; }
+.tabs { display: flex; justify-content: center; gap: 8px; margin-top: 22px; flex-wrap: wrap; }
+.tabs button { border: 1px solid var(--line); background: var(--card); color: var(--navy); border-radius: 999px; padding: 9px 18px; font-size: 14px; font-weight: 500; cursor: pointer; }
+.tabs button[aria-pressed="true"] { background: var(--navy); color: var(--paper); border-color: var(--navy); }
+
+/* comparison */
+.cmp-wrap { overflow-x: auto; }
+.cmp { width: 100%; min-width: 600px; max-width: 900px; margin: 0 auto; border-collapse: separate; border-spacing: 14px 0; }
+.cmp th, .cmp td { padding: 0; }
+.cmp thead th { vertical-align: bottom; height: 150px; }
+.cmp thead th:first-child { width: 34%; }
+.colhead { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 10px; padding: 0 10px 18px; border-radius: 16px 16px 0 0; height: 100%; position: relative; }
+.colhead img { width: 92px; height: 76px; object-fit: contain; margin-top: -40px; filter: drop-shadow(0 6px 10px rgba(0,0,0,.18)); }
+.colhead .serif { font-size: 24px; letter-spacing: -.04em; }
+.c-us { background: var(--panel); }
+.c-us .serif { color: #FCFBF9; }
+.c-tint { background: var(--tint); border: 1px solid var(--line); border-bottom: 0; }
+.cmp tbody th { text-align: left; font-weight: 500; font-size: 16px; color: var(--navy); padding: 0 8px 0 0; border-bottom: 1px solid var(--line); height: 64px; }
+.cmp tbody td { text-align: center; vertical-align: middle; border-bottom: 1px solid var(--line); }
+.cmp tbody td.c-us { border-bottom-color: rgba(255,255,255,.1); }
+.cmp tbody td.c-tint { border-top: 0; border-bottom: 1px solid var(--line); }
+.cmp tbody tr:last-child td { border-radius: 0 0 16px 16px; border-bottom: 0; height: 64px; }
+.cmp tbody tr:last-child td.c-tint { border-bottom: 1px solid var(--line); }
+.yes, .no { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; font-size: 13px; font-weight: 700; }
+.yes { background: var(--navy); color: var(--paper); }
+.c-us .yes { background: #fff; color: #022B49; }
+.no { background: var(--pill); color: var(--text); font-weight: 400; }
+.dots { display: inline-flex; gap: 6px; }
+.dots i { width: 10px; height: 10px; border-radius: 50%; border: 1.5px solid currentColor; }
+.dots i.f { background: currentColor; }
+.c-us .dots { color: #fff; } .c-tint .dots { color: var(--navy); }
+
+/* review carousel */
+.rv-head { position: relative; }
+.arrows button { position: absolute; top: 50%; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--paper); color: var(--navy); cursor: pointer; display: grid; place-items: center; }
+.arrows .prev { left: 0; } .arrows .next { right: 0; }
+.rating-line { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 6px 8px; align-items: center; font-size: 13px; color: var(--navy); margin-top: 14px; }
+.track { display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 18px 6px 34px; scrollbar-width: none; }
+.track::-webkit-scrollbar { display: none; }
+.rcard { position: relative; flex: 0 0 clamp(260px, 30vw, 400px); aspect-ratio: 4/4.7; border-radius: 14px; overflow: hidden; scroll-snap-align: start; transform: rotate(var(--r, 0deg)); box-shadow: var(--shadow); margin: 0; }
+.rcard:nth-child(3n+1) { --r: -2deg; } .rcard:nth-child(3n+2) { --r: 1.2deg; } .rcard:nth-child(3n) { --r: -1deg; }
+.rcard img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.rcard figcaption { position: absolute; inset: auto 0 0 0; padding: 18px 20px 20px; color: #fff; background: linear-gradient(to top, rgba(8,18,27,.88) 0%, rgba(8,18,27,.62) 60%, rgba(8,18,27,0) 100%); backdrop-filter: blur(2px); }
+.rcard .row1 { display: flex; justify-content: space-between; align-items: center; padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1px solid rgba(255,255,255,.2); }
+.rcard .row1 .serif { color: #fff; font-size: 18px; }
+.rcard .q { font-size: 16px; line-height: 1.45; margin: 0; }
+.rcard .sample { background: rgba(255,255,255,.18); color: #fff; }
+.progress { height: 2px; background: var(--line); position: relative; }
+.progress i { position: absolute; left: 0; top: 0; bottom: 0; width: 30%; background: var(--navy); transition: left .2s, width .2s; }
+.sample { font-size: 10px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; background: var(--ph); color: var(--navy); padding: 2px 7px; border-radius: 4px; }
+
+/* bundle builder */
+.builder { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 18px; }
+.item { position: relative; display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 16px; background: var(--card); overflow: hidden; cursor: pointer; }
+.item:has(input:checked) { border-color: var(--navy); }
+.item input { position: absolute; opacity: 0; }
+.item .corner { position: absolute; left: 0; top: 0; width: 64px; height: 64px; z-index: 1; }
+.item .corner::before { content: ""; position: absolute; inset: 0; background: var(--paper); clip-path: polygon(0 0, 100% 0, 0 100%); }
+.item:has(input:checked) .corner::before { background: var(--navy); }
+.item .corner span { position: absolute; left: 12px; top: 12px; width: 20px; height: 20px; border: 1.5px solid var(--navy); border-radius: 3px; display: grid; place-items: center; font-size: 13px; color: #fff; }
+.item:has(input:checked) .corner span { border-color: #fff; }
+.item .pic { margin: 12px 12px 0; border-radius: 12px; background: var(--sand); aspect-ratio: 4/3; overflow: hidden; }
+.item .pic img { width: 100%; height: 100%; object-fit: cover; }
+.item .in { padding: 16px 18px 20px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.item .serif { font-size: 20px; letter-spacing: -.04em; }
+.item .tag { align-self: flex-start; font-size: 11px; font-weight: 600; text-transform: uppercase; background: #6E8597; color: #fff; padding: 2px 9px; border-radius: 999px; }
+.item p { margin: 0; font-size: 15px; }
+.item .pr { font-size: 14px; font-weight: 600; color: var(--navy); }
+.item .pr span { font-weight: 400; color: var(--text); }
+.item ul { list-style: none; margin: auto 0 0; padding: 12px 0 0; border-top: 1px solid var(--line); display: grid; gap: 6px; font-size: 13px; color: var(--navy); }
+.item li { display: flex; gap: 8px; align-items: center; }
+.item li svg { width: 16px; height: 16px; flex: none; }
+
+/* guarantee panel */
+.panel { position: relative; background: var(--panel); color: #fff; border-radius: 24px; overflow: hidden; padding: clamp(28px, 4vw, 56px) clamp(20px, 3vw, 44px); }
+.panel .kicker { color: #D7CBB4; }
+.panel h2 { color: #fff; }
+.panel .para { color: rgba(255,255,255,.88); }
+.panel .more { color: #fff; }
+.g-grid { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 40px; }
+.g-prints { position: relative; height: 480px; margin-top: 30px; }
+.g-prints .print { position: absolute; }
+.g-prints .a { left: -4%; bottom: 0; width: 70%; aspect-ratio: 1.15; --r: -2deg; }
+.g-right .print { width: 78%; aspect-ratio: 1.15; margin: 0 0 30px auto; --r: 2deg; }
+.g-rows { display: grid; gap: 12px; }
+.g-rows div { display: grid; grid-template-columns: 44px 1fr; gap: 14px; align-items: center; padding: 14px 18px; border-radius: 16px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); }
+.g-rows .ico { width: 44px; height: 44px; border-radius: 50%; background: rgba(255,255,255,.08); display: grid; place-items: center; }
+.g-rows .serif { color: #fff; font-size: 20px; letter-spacing: -.03em; }
+.g-rows p { margin: 0; font-size: 15px; color: rgba(255,255,255,.85); }
+.panel .cta { margin-top: 18px; width: 100%; }
+
+/* faq */
+.faq-wrap { position: relative; overflow-x: clip; }
+.faq { max-width: 600px; margin: 0 auto; }
+.faq details { border-bottom: 1px solid var(--line); }
+.faq summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; gap: 16px; padding: 18px 0; font-weight: 600; font-size: 17px; color: var(--navy); }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; font-size: 24px; font-weight: 300; line-height: 1; }
+.faq details[open] summary::after { content: "×"; }
+.faq p { margin: 0 0 18px; font-size: 17px; }
+.collage { position: absolute; top: 40px; width: 210px; height: 520px; }
+.collage .print { position: absolute; width: 190px; aspect-ratio: 1.15; }
+.collage.l { left: -30px; } .collage.r { right: -30px; }
+
+/* instagram */
+.ig { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 4px; }
+.ig img { aspect-ratio: 1; object-fit: cover; width: 100%; }
+.tagline { text-align: center; margin-top: 16px; font-size: 18px; }
+
+/* footer */
+footer { margin-top: 64px; background: var(--panel); color: #fff; border-radius: 24px 24px 0 0; }
+footer .wrap { padding-block: 48px 26px; }
+.f-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 40px; }
+.f-top .logo { color: #fff; font-size: 44px; }
+.f-cols { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 32px; }
+.f-cols .serif { color: #fff; font-size: 20px; letter-spacing: -.03em; padding-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,.14); margin-bottom: 14px; }
+.f-cols ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; font-size: 14px; color: rgba(255,255,255,.8); }
+.f-cols a { text-decoration: none; }
+.f-cols p { margin: 0; font-size: 14px; color: rgba(255,255,255,.8); }
+.news { margin-top: 14px; display: flex; align-items: center; background: #fff; border-radius: 999px; padding: 5px 5px 5px 18px; }
+.news input { flex: 1; min-width: 0; border: 0; background: transparent; font: inherit; font-size: 14px; color: #022B49; outline: none; }
+.news button { width: 34px; height: 34px; border-radius: 50%; border: 0; background: #022B49; color: #fff; cursor: pointer; display: grid; place-items: center; }
+.f-bottom { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; margin-top: 44px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.12); font-size: 13.5px; }
+.linkish { background: none; border: 0; padding: 0; color: rgba(255,255,255,.8); text-decoration: underline; cursor: pointer; font-size: 13px; }
+
+/* popup */
+.modal[hidden] { display: none; }
+.modal { position: fixed; inset: 0; z-index: 60; background: rgba(5,12,20,.5); display: grid; place-items: center; padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.modal .box { position: relative; width: min(760px, 100%); display: grid; grid-template-columns: 1fr 1fr; background: var(--paper); border-radius: 20px; overflow: hidden; box-shadow: 0 30px 80px rgba(0,0,0,.35); }
+.modal .box > img { width: 100%; height: 100%; object-fit: cover; }
+.modal .in { padding: 40px 30px; display: flex; flex-direction: column; gap: 12px; justify-content: center; text-align: center; }
+.modal .in p { margin: 0; }
+.modal input { padding: 14px 18px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--navy); font: inherit; }
+.modal .x { position: absolute; top: 12px; right: 12px; width: 34px; height: 34px; border-radius: 50%; border: 0; background: var(--card); color: var(--navy); cursor: pointer; font-size: 18px; }
+.modal .no { background: none; border: 0; color: var(--text); text-decoration: underline; cursor: pointer; font-size: 14px; }
+
+
+.center { display: flex; justify-content: center; margin-top: 40px; }
+.c-us .colhead img { width: 120px; height: 84px; }
+/* payment banner */
+.paybar { width: 100%; max-width: 560px; height: auto; margin: 0 auto; display: block; }
+
+/* four film looks (Klik row) */
+.looks { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: clamp(12px, 1.8vw, 24px); }
+.looks figure { margin: 0; }
+.looks img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 14px; }
+.looks figcaption { text-align: center; margin-top: 14px; font-family: var(--f-display); font-size: 22px; letter-spacing: -.03em; color: var(--navy); }
+
+/* how it works (Klik layout, Retro-pia dress) */
+.how { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); }
+.how li { position: relative; display: flex; flex-direction: column; gap: 18px; padding: 0 clamp(12px, 1.6vw, 24px); }
+.how li + li { border-left: 1.5px dashed rgba(2,43,73,.22); }
+.how .n { position: absolute; top: -6px; left: clamp(12px, 1.6vw, 24px); width: 44px; height: 44px; border-radius: 50%; background: var(--navy); color: #fff; display: grid; place-items: center; font-weight: 600; font-size: 16px; z-index: 1; }
+.how .art { aspect-ratio: 4/3; border-radius: 14px; overflow: hidden; background: var(--paper); }
+.how .art img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; }
+.how .lbl { background: var(--card); border-radius: 14px; box-shadow: var(--shadow); padding: 18px 16px; text-align: center; }
+.how h3 { font-size: 24px; letter-spacing: -.04em; line-height: 1.1; }
+.how p { margin: 6px 0 0; font-size: 14.5px; }
+
+/* made for real moments (Klik grid) */
+.moments { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: clamp(12px, 1.8vw, 24px); }
+.moments figure { margin: 0; }
+.moments img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 14px; }
+.moments .big { grid-column: span 2; }
+.moments .big img { aspect-ratio: 3/2; }
+.moments figcaption { text-align: center; margin-top: 12px; font-size: 12px; font-weight: 600; letter-spacing: .18em; color: var(--navy); }
+.stage { background: #D7C2A4; }
+
+@media (max-width: 960px) {
+  .looks, .moments { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .how { grid-template-columns: repeat(2, minmax(0,1fr)); row-gap: 36px; }
+  .how li:nth-child(3) { border-left: 0; }
+}
+@media (max-width: 560px) {
+  .how { grid-template-columns: minmax(0,1fr); }
+  .how li + li { border-left: 0; }
+  .moments .big { grid-column: span 2; }
+}
+
+@media (max-width: 1100px) { .collage { display: none; } .builder { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+@media (max-width: 960px) {
+  header.nav nav, .tools .txt { display: none; }
+  header.nav .wrap { grid-template-columns: auto 1fr; }
+  .tools { justify-self: end; }
+  .pdp, .expl, .g-grid { grid-template-columns: minmax(0,1fr); }
+  .gallery { position: static; grid-template-columns: minmax(0,1fr); }
+  .thumbs { order: 2; grid-template-columns: repeat(9, 56px); overflow-x: auto; }
+  .expl .big { margin-top: 32px; }
+  .g-prints { height: 300px; }
+  .f-cols { grid-template-columns: 1fr 1fr; }
+  .ig { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (max-width: 560px) {
+  .builder { grid-template-columns: minmax(0,1fr); }
+  .setup { grid-template-columns: 56px 1fr; gap: 12px; }
+  .setup .img { width: 56px; height: 56px; }
+  .setup .p { grid-column: 2; text-align: left; display: flex; gap: 8px; align-items: baseline; }
+  .setup .p s { display: inline; }
+  .ba .lab span { display: none; }
+  .ba .lab b { font-size: 17px; }
+  .ba .lab { bottom: 14px; } .ba .lab.l { left: 14px; } .ba .lab.r { right: 14px; }
+  .cmp { min-width: 520px; border-spacing: 8px 0; }
+  .cmp tbody th { font-size: 14px; }
+  .colhead .serif { font-size: 19px; }
+  .f-cols { grid-template-columns: 1fr; }
+  .feats h3 { font-size: 26px; }
+  .swatches img { width: 42px; height: 42px; }
+  .modal .box { grid-template-columns: 1fr; }
+  .modal .box > img { height: 170px; }
+  .arrows { display: none; }
+  .gift { grid-template-columns: 40px 1fr auto; } .gift s { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .cta, .thumbs button { transition: none; } }
+
+/* ===== v5 additions ===== */
+.menu-btn { display: none; background: none; border: 0; padding: 4px; color: var(--navy); cursor: pointer; }
+/* Klik-style icon badges under the product name */
+.badges { list-style: none; margin: -4px 0 0; padding: 0; display: grid; gap: 8px; }
+.badges li { display: flex; align-items: center; gap: 12px; font-size: 15px; color: var(--navy); }
+.badges img { width: 38px; height: 38px; object-fit: contain; flex: none; filter: contrast(1.4); }
+/* almost sold out, green pulse */
+.stock { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; color: #2E7D4F; margin-top: -8px; }
+.stock i { position: relative; width: 9px; height: 9px; border-radius: 50%; background: #2FB463; flex: none; }
+.stock i::after { content: ""; position: absolute; inset: 0; border-radius: 50%; background: #2FB463; animation: ping 1.6s cubic-bezier(0,0,.2,1) infinite; }
+@keyframes ping { 0% { transform: scale(1); opacity: .7; } 80%, 100% { transform: scale(2.8); opacity: 0; } }
+.mini-faq dt { font-weight: 600; color: var(--navy); margin-top: 12px; }
+.mini-faq dt:first-child { margin-top: 0; }
+.mini-faq dd { margin: 4px 0 0; }
+/* why retra works */
+.why { display: grid; grid-template-columns: repeat(6, minmax(0,1fr)); gap: 24px 16px; }
+.why figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center; }
+.why img { width: 100%; max-width: 140px; aspect-ratio: 1; object-fit: contain; mix-blend-mode: multiply; }
+.why figcaption { font-size: 12px; font-weight: 600; letter-spacing: .14em; color: var(--navy); }
+/* review cards: whole photo visible, text below */
+.rcard { aspect-ratio: auto; display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--line); }
+.rcard img { position: static; width: 100%; height: auto; aspect-ratio: 4/4.6; object-fit: cover; }
+.rcard figcaption { position: static; background: var(--card); color: var(--navy); padding: 14px 18px 18px; backdrop-filter: none; }
+.rcard .row1 { border-bottom-color: var(--line); }
+.rcard .row1 .serif { color: var(--navy); }
+.rcard .q { color: var(--text); font-size: 15px; }
+.rcard .sample { background: var(--ph); color: var(--navy); }
+.rcard .more { color: var(--navy) !important; }
+/* sticky add to cart (mobile) */
+.sticky-atc { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; display: none; grid-template-columns: 48px 1fr auto; gap: 12px; align-items: center;
+  padding: 10px max(16px, env(safe-area-inset-right, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px));
+  background: color-mix(in srgb, var(--paper) 96%, transparent); backdrop-filter: blur(12px); border-top: 1px solid var(--line); box-shadow: 0 -8px 24px rgba(2,43,73,.08);
+  transform: translateY(110%); transition: transform .25s ease; }
+.sticky-atc.on { transform: none; }
+.sticky-atc img { width: 48px; height: 48px; border-radius: 8px; object-fit: cover; }
+.sticky-atc b { display: block; font-size: 13px; color: var(--navy); line-height: 1.2; }
+.sticky-atc span { font-size: 12px; color: var(--text); }
+.sticky-atc .cta { padding: 12px 20px; font-size: 14px; }
+
+@media (max-width: 960px) {
+  .menu-btn { display: block; }
+  header.nav .wrap { grid-template-columns: 40px 1fr auto; }
+  header.nav .logo { justify-self: center; }
+  header.nav nav { display: none; }
+  body.nav-open header.nav nav { display: flex; flex-direction: column; gap: 0; position: absolute; left: 0; right: 0; top: 100%; background: var(--paper); border-top: 1px solid var(--line); box-shadow: var(--shadow); padding: 6px max(16px, env(safe-area-inset-left, 0px)); }
+  body.nav-open header.nav nav a { padding: 14px 0; border-bottom: 1px solid var(--line); font-size: 16px; }
+  .why { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .sticky-atc { display: grid; }
+}
+@media (max-width: 560px) {
+  .sec { padding-block: 52px; }
+  .head { margin-bottom: 26px; }
+  h2 { font-size: 31px; }
+  .pdp { padding-block: 14px 40px; gap: 18px; }
+  .buy { gap: 16px; }
+  .buy h1 { font-size: 30px; }
+  .swatches { display: grid; grid-template-columns: repeat(7, minmax(0,1fr)); gap: 6px; padding: 8px; }
+  .swatches img { width: 100%; height: auto; aspect-ratio: 1; }
+  .why img { max-width: 96px; }
+  .why figcaption { font-size: 10.5px; letter-spacing: .1em; }
+  /* how it works: Klik's 2x2 */
+  .how { grid-template-columns: repeat(2, minmax(0,1fr)); row-gap: 28px; }
+  .how li { padding: 0 8px; gap: 10px; }
+  .how li + li { border-left: 1.5px dashed rgba(2,43,73,.22); }
+  .how li:nth-child(3) { border-left: 0; }
+  .how .n { width: 32px; height: 32px; font-size: 13px; left: 8px; }
+  .how .lbl { padding: 10px 8px; }
+  .how h3 { font-size: 18px; }
+  .how p { font-size: 12px; }
+  /* comparison fits the screen */
+  .cmp-wrap { overflow: visible; }
+  .cmp { min-width: 0; border-spacing: 5px 0; }
+  .cmp thead th { height: 112px; }
+  .cmp thead th:first-child { width: 36%; }
+  .colhead { padding: 0 2px 12px; gap: 6px; }
+  .colhead img, .c-us .colhead img { width: 50px; height: 44px; margin-top: -22px; }
+  .colhead .serif { font-size: 15px; }
+  .cmp tbody th { font-size: 12.5px; line-height: 1.3; height: 54px; padding-right: 2px; }
+  .yes, .no { width: 22px; height: 22px; font-size: 11px; }
+  .dots i { width: 7px; height: 7px; }
+  .dots { gap: 4px; }
+  /* reviews */
+  .rcard { flex-basis: 78vw; }
+  /* guarantee panel */
+  .g-prints { display: none; }
+  .g-right .print { width: 70%; margin: 4px auto 22px; }
+  .panel { padding: 30px 18px; }
+  /* footer */
+  .f-cols { grid-template-columns: 1fr 1fr; gap: 26px 18px; }
+  .f-cols > div:last-child { grid-column: 1 / -1; }
+  .f-top .logo { font-size: 36px; }
+  .looks figcaption { font-size: 18px; margin-top: 8px; }
+  .moments figcaption { font-size: 10.5px; }
+  .paybar { max-width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { .stock i::after { animation: none; } .sticky-atc { transition: none; } }
+
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="chk" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#022B49"/><path d="M7.2 12.4l3.1 3.1 6.5-6.7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="chk-s" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7.5" fill="#022B49"/><path d="M4.8 8.2l2 2 4.3-4.4" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="star5" viewBox="0 0 90 16"></symbol>
+</svg>
+
+<div class="bar" role="region" aria-label="Offer"><div class="wrap"><span class="serif">BLACK FRIDAY SALE</span><span>-</span><b>BUY 1, GET 1 FREE</b></div></div>
+
+<header class="nav">
+  <div class="wrap">
+    <button class="menu-btn" type="button" id="menu-btn" aria-label="Open menu" aria-expanded="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
+    <nav aria-label="Main" id="main-nav"><a href="#buy">Home</a><a href="#buy">Shop All</a><a href="#story">Our Story</a><a href="#footer">Track Your Order</a></nav>
+    <a class="logo" href="#buy">Retra</a>
+    <div class="tools">
+      <span class="txt">Support</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-label="Search"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-label="Account"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="10" r="3.2"/><path d="M6.5 18.5c1.5-2.3 3.4-3.3 5.5-3.3s4 1 5.5 3.3"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-label="Cart"><path d="M5 7h14l-1 13H6L5 7z"/><path d="M9 7V5.5a3 3 0 0 1 6 0V7"/></svg><span class="cart-n" id="cart-count">0</span>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- PDP -->
+<section class="wrap pdp" id="buy" aria-label="Retra Screen-Free Camera">
+  <div class="gallery">
+    <div class="stage">
+      <img id="stage-img" src="images/g0-blue.jpg" alt="Retra Screen-Free Camera in Aegean">
+            <div class="ctl" style="right:16px"><button type="button" id="prev" aria-label="Previous image"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 3L5 8l5 5"/></svg></button><button type="button" id="next" aria-label="Next image"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3l5 5-5 5"/></svg></button></div>
+    </div>
+    <div class="thumbs" role="group" aria-label="Product images">
+      <button aria-current="true" data-i="0"><img id="thumb0" src="images/g0-blue.jpg" alt="Retra camera"></button>
+      <button data-i="1"><img src="images/g1.jpg" alt="4 pre-installed filters"></button>
+      <button data-i="2"><img src="images/g2.jpg" alt="Screen-free. On purpose."></button>
+      <button data-i="3"><img src="images/g3.jpg" alt="Easy USB-C transfer"></button>
+      <button data-i="4"><img src="images/g4.jpg" alt="How to use Retra"></button>
+      <button data-i="5"><img src="images/g5.jpg" alt="Average rating and sample reviews"></button>
+      <button data-i="6"><img src="images/g6-hand.jpg" alt="Retra in a hand for size"></button>
+      <button data-i="7"><img src="images/g7.jpg" alt="What's in the box"></button>
+      <button data-i="8"><img src="images/g8.jpg" alt="Gift-ready with free gift ribbon"></button>
+    </div>
+  </div>
+
+  <div class="buy">
+    <div class="rating"><span class="sq" aria-hidden="true"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span> Rated <b><em class="ph">[RATING]</em></b>/5 stars out of <b><em class="ph">[REVIEW COUNT]</em>+ reviews.</b></div>
+    <h1>Retra Screen-Free Camera</h1>
+    <ul class="badges">
+      <li><img src="images/ic-screen.png" alt="">Screen-Free</li>
+      <li><img src="images/ic-usb.png" alt="">Instant USB-C Transfer</li>
+      <li><img src="images/ic-battery.png" alt="">500 Shots on One Charge</li>
+      <li><img src="images/ic-eco.png" alt="">Reusable &amp; Rechargeable</li>
+    </ul>
+    <div class="price-row"><span class="price">$<em class="ph">[PRICE]</em></span><s>$[COMPARE PRICE]</s><span class="save">BUY 1, GET 1 FREE</span></div>
+    <div class="stock"><i aria-hidden="true"></i>Almost sold out</div>
+
+    <fieldset style="border:0;padding:0;margin:0">
+      <legend class="step" style="width:100%"><span class="n">1</span>Choose your color: <span class="aside" id="color-name">Aegean</span></legend>
+      <div class="swatches" id="swatches">
+        <label title="Dune"><input type="radio" name="color" id="c-dune" value="Dune" data-f="brown"><img src="images/g0-brown.jpg" alt="Dune (Sand Brown)"></label>
+        <label title="Pine"><input type="radio" name="color" id="c-pine" value="Pine" data-f="green"><img src="images/g0-green.jpg" alt="Pine (Heritage Green)"></label>
+        <label title="Aegean"><input type="radio" name="color" id="c-aegean" value="Aegean" data-f="blue" checked><img src="images/g0-blue.jpg" alt="Aegean (Maritime Blue)"></label>
+        <label title="Sol"><input type="radio" name="color" id="c-sol" value="Sol" data-f="yellow"><img src="images/g0-yellow.jpg" alt="Sol (Marigold Yellow)"></label>
+        <label title="Blossom"><input type="radio" name="color" id="c-blossom" value="Blossom" data-f="pink"><img src="images/g0-pink.jpg" alt="Blossom (Vintage Pink)"></label>
+        <label title="Obsidian"><input type="radio" name="color" id="c-obsidian" value="Obsidian" data-f="black"><img src="images/g0-black.jpg" alt="Obsidian (Matte Black)"></label>
+        <label title="Chalk"><input type="radio" name="color" id="c-chalk" value="Chalk" data-f="white"><img src="images/g0-white.jpg" alt="Chalk (Vintage White)"></label>
+      </div>
+    </fieldset>
+
+    
+    <button class="cta full" id="add" type="button">Add to Cart <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 7h14l-1 13H6L5 7z"/><path d="M9 7V5.5a3 3 0 0 1 6 0V7M12 11v5M9.5 13.5h5"/></svg></button>
+    <p id="added" role="status" class="vh"></p>
+
+    
+    <img class="paybar" src="images/payments.png" alt="Accepted payments: Apple Pay, Google Pay, PayPal, American Express, Visa, Mastercard, Maestro and more">
+
+    <div class="note"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="15" rx="2"/><path d="M3 9h18M10 14l-2 2 2 2M8 16h6a2 2 0 0 0 0-4h-1"/></svg></span><span>Enjoy <b style="color:var(--navy)">30 days of hassle-free returns</b> if you do not love shooting with Retra.</span></div>
+
+    <div class="acc">
+      <details><summary><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="13" cy="13" r="11"/><path d="M13 12v6M13 8v.5"/></svg>Product Details</summary><div class="body">
+        <p><b style="color:var(--navy)">Meet Retra: the screen-free digital camera made for real moments.</b></p>
+        <p>No preview screen, no feeds, and no notifications. Just the click of the shutter and the surprise waiting to be rediscovered later. Retra brings back the magic of film without the darkroom or lab fees. Pocketable, simple, and durable, it is built for everything worth remembering:</p>
+        <ul class="emoji"><li>📸 European travels and road trips</li><li>🎢 Theme parks and family holidays</li><li>🏖️ Beach days and summer swims</li><li>🎁 Birthdays, celebrations, and thoughtful gifts</li></ul>
+        <p>Take the shot, stay present. Plug in later to relive what really happened. Whether it is a gift for someone special or your own way to unplug, Retra keeps memories real, honest, and waiting to be seen.</p>
+      </div></details>
+      <details><summary><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="8" width="20" height="13" rx="2"/><circle cx="13" cy="14.5" r="4"/><path d="M9 8l1.5-3h5L17 8"/></svg>Specs</summary><div class="body"><ul>
+        <li>Screen-free design: live in the moment without screens</li><li>4 built-in filters (Natural, Vintage, Black &amp; White, Film)</li><li>8MP image resolution (3264 x 2448)</li><li>Fixed-focus lens (0.5 m to infinity)</li><li>Built-in LED flash</li><li>Built-in rechargeable lithium battery (about 500 shots per charge)</li><li>OLED shot counter</li><li>Memory card support (JPEG format)</li><li>Pocket-sized design: 4.5" x 2.6" x 1.3" (115 x 65 x 33.5 mm)</li>
+      </ul></div></details>
+      <details><summary><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h12v10H3zM15 11h4.5L23 14.5V18h-8z"/><circle cx="7.5" cy="19.5" r="2"/><circle cx="18.5" cy="19.5" r="2"/></svg>Shipping &amp; Returns</summary><div class="body">
+        <p>All orders ship within 1-2 business days.</p>
+        <p>Standard delivery typically takes <em class="ph">[PLACEHOLDER, e.g. 3-5 business days domestic / 3-9 business days international]</em>. Once your package ships, you will receive a tracking link via email.</p>
+        <p>Love your Retra or return it. We offer a 30-day hassle-free return window on all orders. If you need any help, contact our support team at <em class="ph">[SUPPORT EMAIL PLACEHOLDER]</em>.</p>
+      </div></details>
+          <details><summary><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="13" cy="13" r="11"/><path d="M10 10.2a3 3 0 1 1 4.2 2.8c-.8.4-1.2 1-1.2 1.8V16M13 19v.5"/></svg>FAQ's</summary><div class="body"><dl class="mini-faq"><dt>How does Retra work?</dt><dd>Turn it on, choose your filter, look through the optical viewfinder, and press the shutter button. There is no back screen to review your shots. When you want to see your photos, plug Retra into your phone or laptop with the included USB-C cable.</dd><dt>I have an iPhone with a Lightning port. How do I transfer photos?</dt><dd>iPhones with a Lightning port cannot transfer photos over a direct USB-C to Lightning cable. You can insert the included SD card into a Lightning card reader adapter to import directly, or plug Retra into a computer and sync the files.</dd><dt>What is the image quality like?</dt><dd>Retra is built with a nostalgic, film-like aesthetic rather than smartphone sharpness. Images feature warm color tones, gentle grain, and retro digital character reminiscent of classic point-and-shoot cameras.</dd><dt>Do I need to buy film or pay a lab for developing?</dt><dd>No. Retra is fully digital, so there are no film rolls to buy and zero development fees. All photos save as standard JPEG files to the included SD memory card.</dd><dt>How many photos can I take on one charge?</dt><dd>The built-in rechargeable lithium battery powers about 500 shots per charge, and the included memory card holds roughly 500 photos. Once you offload your photos to a computer or phone, simply clear the card and shoot again.</dd><dt>What comes inside the box?</dt><dd>Every box includes your Retra camera, an SD memory card, a USB charging and transfer cable, a wrist strap, a quick start guide, and a complimentary gift ribbon.</dd><dt>Does the camera have a flash for night photos?</dt><dd>Yes. Retra includes a built-in LED flash that gives evening gatherings, parties, and night walks that classic, high-contrast direct-flash film look.</dd><dt>Can I change between filters while shooting?</dt><dd>Yes. You can switch between Natural, Vintage, Black &amp; White, and Film whenever you like. The selected profile applies straight to each JPEG photo as you take it.</dd></dl></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- Why Retra works (Klik icon row) -->
+<section class="sec" style="padding-top:24px" aria-labelledby="why-h">
+  <div class="wrap">
+    <div class="head"><p class="kicker">Built for presence</p><h2 id="why-h">Why Retra works.</h2></div>
+    <div class="why">
+      <figure><img src="images/ic-screen.png" alt=""><figcaption>SCREEN-FREE</figcaption></figure>
+      <figure><img src="images/ic-roll.png" alt=""><figcaption>NO CAMERA ROLL</figcaption></figure>
+      <figure><img src="images/ic-storage.png" alt=""><figcaption>PRE-LOADED STORAGE</figcaption></figure>
+      <figure><img src="images/ic-battery.png" alt=""><figcaption>RECHARGEABLE BATTERY</figcaption></figure>
+      <figure><img src="images/ic-film.png" alt=""><figcaption>VINTAGE FILM STYLE</figcaption></figure>
+      <figure><img src="images/ic-eco.png" alt=""><figcaption>ECO FRIENDLY</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- Four film looks (Klik-style row) -->
+<section class="sec" style="padding-top:40px" aria-labelledby="fl-h">
+  <div class="wrap">
+    <div class="head"><p class="kicker">Built-in film profiles</p><h2 id="fl-h">Four classic looks,<span class="l2">for every moment.</span></h2></div>
+    <div class="looks">
+      <figure><img src="images/fl-natural.jpg" alt="A Greek island lane in the Natural filter"><figcaption>Natural</figcaption></figure>
+      <figure><img src="images/fl-vintage.jpg" alt="A Ferris wheel in the Vintage filter"><figcaption>Vintage</figcaption></figure>
+      <figure><img src="images/fl-bw.jpg" alt="A Lisbon street in the Black and White filter"><figcaption>Black &amp; White</figcaption></figure>
+      <figure><img src="images/fl-film.jpg" alt="A child on a beach boardwalk in the Film filter"><figcaption>Film</figcaption></figure>
+    </div>
+    <div class="center"><a class="cta" href="#buy">Shop now</a></div>
+  </div>
+</section>
+
+<!-- How it works (Klik-style) -->
+<section class="sec" style="padding-top:20px" id="how" aria-labelledby="hw-h">
+  <div class="wrap">
+    <div class="head"><p class="kicker">Simple by design</p><h2 id="hw-h">Four simple steps,<span class="l2">from pocket to photos.</span></h2></div>
+    <ol class="how">
+      <li><span class="n">1</span><div class="art"><img src="images/how-1.jpg" alt="Illustration: press the power button on top"></div><div class="lbl"><h3>Turn on</h3><p>Press the power switch.</p></div></li>
+      <li><span class="n">2</span><div class="art"><img src="images/how-2.jpg" alt="Illustration: the filter button on the back"></div><div class="lbl"><h3>Choose your filter</h3><p>Natural, Vintage, B&amp;W, or Film.</p></div></li>
+      <li><span class="n">3</span><div class="art"><img src="images/how-3.jpg" alt="Illustration: press the shutter"></div><div class="lbl"><h3>Shoot</h3><p>Press the shutter. No preview screen.</p></div></li>
+      <li><span class="n">4</span><div class="art"><img src="images/how-4.jpg" alt="Illustration: plug in the USB-C cable"></div><div class="lbl"><h3>Transfer via USB-C</h3><p>Plug into your phone or laptop.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- Comparison -->
+<section class="sec" style="padding-top:20px" aria-labelledby="cmp-h">
+  <div class="wrap">
+    <div class="head">
+      <p class="kicker">Three ways to remember</p>
+      <h2 id="cmp-h">The magic of film,<span class="l2">without the lab fees.</span></h2>
+      <p class="para">Disposables create ongoing lab costs and plastic waste. Phones pull you into notifications and editing apps. Retra delivers the analog surprise of film with the ease of digital.</p>
+    </div>
+    <div class="cmp-wrap">
+      <table class="cmp">
+        <thead><tr><th scope="col"><span class="vh">Feature</span></th>
+          <th scope="col" class="c-us"><div class="colhead"><img src="images/cmp-retra.png" alt=""><span class="serif">Retra</span></div></th>
+          <th scope="col" class="c-tint"><div class="colhead"><img src="images/cmp-disposable.png" alt=""><span class="serif">Disposable</span></div></th>
+          <th scope="col" class="c-tint"><div class="colhead"><img src="images/cmp-phone.png" alt=""><span class="serif">Phone Camera</span></div></th></tr></thead>
+        <tbody><tr><th scope="row">Screen &amp; distraction free</th><td class="c-us"><span class="yes" aria-label="Yes">✓</span></td><td class="c-tint"><span class="yes" aria-label="Yes">✓</span></td><td class="c-tint"><span class="no" aria-label="No">✕</span></td></tr><tr><th scope="row">Authentic retro film look</th><td class="c-us"><span class="yes" aria-label="Yes">✓</span></td><td class="c-tint"><span class="yes" aria-label="Yes">✓</span></td><td class="c-tint"><span class="no" aria-label="No">✕</span></td></tr><tr><th scope="row">Reusable &amp; rechargeable</th><td class="c-us"><span class="yes" aria-label="Yes">✓</span></td><td class="c-tint"><span class="no" aria-label="No">✕</span></td><td class="c-tint"><span class="yes" aria-label="Yes">✓</span></td></tr><tr><th scope="row">Zero film developing fees</th><td class="c-us"><span class="yes" aria-label="Yes">✓</span></td><td class="c-tint"><span class="no" aria-label="No">✕</span></td><td class="c-tint"><span class="yes" aria-label="Yes">✓</span></td></tr><tr><th scope="row">500 shots per charge</th><td class="c-us"><span class="yes" aria-label="Yes">✓</span></td><td class="c-tint"><span class="no" aria-label="No">✕</span></td><td class="c-tint"><span class="no" aria-label="No">✕</span></td></tr><tr><th scope="row">Instant USB-C transfer</th><td class="c-us"><span class="yes" aria-label="Yes">✓</span></td><td class="c-tint"><span class="no" aria-label="No">✕</span></td><td class="c-tint"><span class="yes" aria-label="Yes">✓</span></td></tr><tr><th scope="row">Price</th><td class="c-us"><span class="dots" aria-label="Low ongoing cost"><i class="f"></i><i></i><i></i></span></td><td class="c-tint"><span class="dots" aria-label="High ongoing cost"><i class="f"></i><i class="f"></i><i class="f"></i></span></td><td class="c-tint"><span class="dots" aria-label="Low ongoing cost"><i class="f"></i><i></i><i></i></span></td></tr></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Reviews carousel -->
+<section class="sec" style="padding-top:20px" id="reviews" aria-labelledby="rv-h">
+  <div class="wrap">
+    <div class="head rv-head">
+      <p class="kicker">Tested in the field</p>
+      <h2 id="rv-h"><span class="l1m">Honest memories,</span>captured without screens.</h2>
+      <div class="rating-line"><span class="sq" aria-hidden="true"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span> Rated <b><em class="ph">[RATING]</em></b>/5 stars based on <b><em class="ph">[REVIEW COUNT]</em>+ customer stories.</b> <span class="sample">Sample reviews</span></div>
+      <div class="arrows"><button type="button" class="prev" id="rv-prev" aria-label="Previous reviews"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 9H3M7 4L2.5 9 7 14"/></svg></button><button type="button" class="next" id="rv-next" aria-label="Next reviews"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 9h12M11 4l4.5 5-4.5 5"/></svg></button></div>
+    </div>
+    <div class="track" id="rv-track"><figure class="rcard"><img src="images/rv-florence.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Julian K. <span class="sample">Sample</span></span></div><p class="q clamp">"Brought two of these for our train trip through northern Italy. Not checking my phone every five minutes made the whole vacation feel twice as long. The warm vintage tones on the cobblestones looked incredible."</p><button type="button" class="more rm" style="font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/m-carousel.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Sarah P. <span class="sample">Sample</span></span></div><p class="q clamp">"We spent three full days at the theme parks with our two kids. The battery lasted through twelve hours of rides and evening fireworks without dying once."</p><button type="button" class="more rm" style="font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-seville.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Sophie L. <span class="sample">Sample</span></span></div><p class="q clamp">"Took this all through Spain. It feels just like using a disposable camera, but with zero film lab fees. Everyone kept asking where we got it."</p><button type="button" class="more rm" style="font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/m-beach.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Chloe H. <span class="sample">Sample</span></span></div><p class="q clamp">"Lived in my beach tote all week in San Diego. Zero glare issues in bright sunlight because you just look through the viewfinder."</p><button type="button" class="more rm" style="font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-scotland.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Marcus T. <span class="sample">Sample</span></span></div><p class="q clamp">"The surprise of plugging it into my laptop when I got home was the best part. Captured the entire rail trip across the UK without draining my phone."</p><button type="button" class="more rm" style="font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-parade.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Mike B. <span class="sample">Sample</span></span></div><p class="q clamp">"The built-in flash makes nighttime parade shots look like classic 90s family albums. Handed it to our eight-year-old and let him be the trip photographer."</p><button type="button" class="more rm" style="font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-amsterdam.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Clara M. <span class="sample">Sample</span></span></div><p class="q clamp">"Rode bikes around Amsterdam for four days with this strapped to my wrist. Super lightweight, simple to use, and the black and white filter is gorgeous."</p><button type="button" class="more rm" style="font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-boat.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Liam N. <span class="sample">Sample</span></span></div><p class="q clamp">"Tossed it around between four friends on the boat all afternoon. The film filter gives that perfect golden summer look."</p><button type="button" class="more rm" style="font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-venice.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">David R. <span class="sample">Sample</span></span></div><p class="q clamp">"We left our phones locked in the hotel room safe and just carried this around Venice. The photos have that authentic retro grain you just cannot get from an iPhone filter."</p><button type="button" class="more rm" style="font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-castle.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Jessica W. <span class="sample">Sample</span></span></div><p class="q clamp">"Took our family to the big theme park for spring break. It was so refreshing to watch the castle fireworks with my own eyes instead of staring through a screen."</p><button type="button" class="more rm" style="font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-footprints.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Emma D. <span class="sample">Sample</span></span></div><p class="q clamp">"Bought the 2-pack for a beach trip to the coast. Plugging it into my phone at the beach house each evening felt like unwrapping presents."</p><button type="button" class="more rm" style="font-size:14px;margin-top:6px">Read more</button></figcaption></figure><figure class="rcard"><img src="images/rv-dog.jpg" alt=""><figcaption><div class="row1"><span class="sq" aria-label="5 stars"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span><span class="serif">Ben S. <span class="sample">Sample</span></span></div><p class="q clamp">"Keep this sitting on the kitchen counter for quiet mornings at home. Snaps candid moments of our dog that we would normally miss while unlocking a phone."</p><button type="button" class="more rm" style="font-size:14px;margin-top:6px">Read more</button></figcaption></figure></div>
+    <div class="progress"><i id="rv-bar"></i></div>
+  </div>
+</section>
+
+<!-- Made for real moments (Klik-style grid) -->
+<section class="sec" style="padding-top:20px" aria-labelledby="mo-h">
+  <div class="wrap">
+    <div class="head"><p class="kicker">Built for real life</p><h2 id="mo-h">Built for memories,<span class="l2">not for your feed.</span></h2></div>
+    <div class="moments">
+      <figure><img src="images/mo-europe.jpg" alt="Friends crossing a piazza in Rome"><figcaption>EUROPE</figcaption></figure>
+      <figure><img src="images/mo-themepark.jpg" alt="Kids on a swing ride at an amusement park"><figcaption>THEME PARKS</figcaption></figure>
+      <figure><img src="images/mo-beach.jpg" alt="Friends lying on a sandy beach"><figcaption>BEACH</figcaption></figure>
+      <figure><img src="images/mo-roadtrip.jpg" alt="Friends on a camper van roof by the coast"><figcaption>ROAD TRIPS</figcaption></figure>
+      <figure class="big"><img src="images/mo-party.jpg" alt="Friends at a backyard party at night"><figcaption>CELEBRATIONS</figcaption></figure>
+      <figure class="big"><img src="images/mo-everyday.jpg" alt="Friends eating pizza on a balcony"><figcaption>EVERYDAY</figcaption></figure>
+    </div>
+    <div class="center"><a class="cta" href="#buy">Shop now</a></div>
+  </div>
+</section>
+
+<!-- Guarantee panel -->
+<section class="wrap" aria-labelledby="g-h">
+  <div class="panel">
+    <div class="g-grid">
+      <div>
+        <p class="kicker">Risk-free field trial</p>
+        <h2 id="g-h">Take it on your travels, risk-free.</h2>
+        <p class="para clamp" id="g-p">Take Retra on your next trip for 30 days. Experience what it feels like to leave your phone in your pocket, shoot without distraction, and rediscover your photos later. If you do not love the photos or the feeling of staying present, email our studio team. We will help you return it for a complete refund without hassle.</p>
+        <button class="more" type="button" data-for="g-p" aria-expanded="false">Read more <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 4.5L6 7.5 9 4.5"/></svg></button>
+        <div class="g-prints"><div class="print a"><img src="images/rv-footprints.jpg" alt="Footprints on a beach at sunset"></div></div>
+      </div>
+      <div class="g-right">
+        <div class="print"><img src="images/m-roadtrip.jpg" alt="Friends on a coastal road trip"></div>
+        <div class="g-rows">
+          <div><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5"><rect x="3" y="5" width="18" height="15" rx="2"/><path d="M3 9h18M10 14l-2 2 2 2M8 16h6a2 2 0 0 0 0-4h-1"/></svg></span><span><span class="serif">30-day field trial</span><p>Try it on your travels and return it easily if it is not for you.</p></span></div>
+          <div><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17.5" cy="17.5" r="1.8"/></svg></span><span><span class="serif">Tracked delivery</span><p>Dispatched in 1-2 business days with door-to-door tracking (<em class="ph">[DELIVERY TIME PLACEHOLDER]</em>).</p></span></div>
+          <div><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg></span><span><span class="serif">A real person can help</span><p>Have a question about your order or transfer? Reach our team at <em class="ph">[SUPPORT EMAIL PLACEHOLDER]</em>.</p></span></div>
+        </div>
+        <a class="cta light" href="#buy">Try Retra for 30 days risk-free</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec faq-wrap" aria-labelledby="faq-h">
+  <div class="collage l" aria-hidden="true"><div class="print" style="top:0;left:30px;--r:-6deg"><img src="images/rv-venice.jpg" alt=""></div><div class="print" style="top:170px;left:0;--r:4deg"><img src="images/rv-amsterdam.jpg" alt=""></div><div class="print" style="top:340px;left:40px;--r:-3deg"><img src="images/rv-scotland.jpg" alt=""></div></div>
+  <div class="collage r" aria-hidden="true"><div class="print" style="top:0;right:10px;--r:5deg"><img src="images/rv-seville.jpg" alt=""></div><div class="print" style="top:170px;right:40px;--r:-4deg"><img src="images/rv-boat.jpg" alt=""></div><div class="print" style="top:340px;right:0;--r:6deg"><img src="images/m-carousel.jpg" alt=""></div></div>
+  <div class="wrap">
+    <div class="head"><h2 id="faq-h">Frequently asked questions</h2></div>
+    <div class="faq"><details open><summary>How does Retra work?</summary><p>Turn it on, choose your filter, look through the optical viewfinder, and press the shutter button. There is no back screen to review your shots. When you want to see your photos, plug Retra into your phone or laptop with the included USB-C cable.</p></details><details><summary>I have an iPhone with a Lightning port. How do I transfer photos?</summary><p>iPhones with a Lightning port cannot transfer photos over a direct USB-C to Lightning cable. You can insert the included SD card into a Lightning card reader adapter to import directly, or plug Retra into a computer and sync the files.</p></details><details><summary>What is the image quality like?</summary><p>Retra is built with a nostalgic, film-like aesthetic rather than smartphone sharpness. Images feature warm color tones, gentle grain, and retro digital character reminiscent of classic point-and-shoot cameras.</p></details><details><summary>Do I need to buy film or pay a lab for developing?</summary><p>No. Retra is fully digital, so there are no film rolls to buy and zero development fees. All photos save as standard JPEG files to the included SD memory card.</p></details><details><summary>How many photos can I take on one charge?</summary><p>The built-in rechargeable lithium battery powers about 500 shots per charge, and the included memory card holds roughly 500 photos. Once you offload your photos to a computer or phone, simply clear the card and shoot again.</p></details><details><summary>What comes inside the box?</summary><p>Every box includes your Retra camera, an SD memory card, a USB charging and transfer cable, a wrist strap, a quick start guide, and a complimentary gift ribbon.</p></details><details><summary>Does the camera have a flash for night photos?</summary><p>Yes. Retra includes a built-in LED flash that gives evening gatherings, parties, and night walks that classic, high-contrast direct-flash film look.</p></details><details><summary>Can I change between filters while shooting?</summary><p>Yes. You can switch between Natural, Vintage, Black &amp; White, and Film whenever you like. The selected profile applies straight to each JPEG photo as you take it.</p></details></div>
+  </div>
+</section>
+
+</main>
+
+<footer id="footer">
+  <div class="wrap">
+    <div class="f-top"><span class="logo">Retra</span><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" aria-label="Instagram"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff"/></svg></div>
+    <div class="f-cols">
+      <div><p class="serif">Customer Support</p><ul><li>Studio Dispatch &amp; Tracking</li><li>30-Day Field Trial Policy</li><li>Lightning iPhone Guide</li><li><em class="ph" style="color:#fff">[SUPPORT EMAIL PLACEHOLDER]</em></li></ul></div>
+      <div><p class="serif">Explore</p><ul><li><a href="#buy">The Retra Camera</a></li><li><a href="#ba-h">4 Film Filters</a></li><li><a href="#reviews">Reviews</a></li></ul></div>
+      <div><p class="serif">Legal</p><ul><li>Privacy Policy</li><li>Terms of Service</li><li>Refund Policy</li></ul></div>
+      <div><p class="serif">Receive 10% Off</p><p>Subscribe for travel stories, rare colorway releases, and 10% off your first camera order.</p>
+        <form class="news" id="news"><label for="news-email" class="vh">Email</label><input id="news-email" type="email" required placeholder="Enter your email"><button type="submit" aria-label="Subscribe"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 7h10M8 3l4 4-4 4"/></svg></button></form>
+        <p id="news-msg" role="status" style="font-size:12px;margin-top:8px"></p></div>
+    </div>
+    <div class="f-bottom"><span>Copyright © <em class="ph" style="color:#fff">[BRAND ENTITY PLACEHOLDER]</em>. All rights reserved.</span><button class="linkish" id="open-popup" type="button">Preview exit popup</button></div>
+  </div>
+</footer>
+
+<div class="sticky-atc" id="sticky-atc" aria-hidden="true">
+  <img id="sticky-img" src="images/g0-blue.jpg" alt="">
+  <div><b>Retra Screen-Free Camera</b><span>$<em class="ph">[PRICE]</em> · Buy 1, Get 1 Free</span></div>
+  <button class="cta" type="button" id="sticky-add" tabindex="-1">Add to Cart</button>
+</div>
+
+<div class="modal" id="popup" hidden role="dialog" aria-modal="true" aria-labelledby="pop-h">
+  <div class="box">
+    <img src="images/m-europe.jpg" alt="">
+    <div class="in">
+      <p class="kicker" style="margin:0">Stay in the moment and receive a</p>
+      <h2 id="pop-h">Mystery Discount</h2>
+      <p>On your first Retra</p>
+      <form id="pop-form" style="display:grid;gap:10px;margin-top:6px"><label for="pop-email" class="vh">Email</label><input id="pop-email" type="email" required placeholder="Enter your email"><button class="cta full" type="submit">CLAIM DISCOUNT</button></form>
+      <p id="pop-msg" role="status" style="font-size:12px"></p>
+      <button class="no" id="pop-no" type="button">No thanks</button>
+    </div>
+    <button class="x" id="pop-x" type="button" aria-label="Close">×</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+
+  // gallery
+  var gallery = ['g0-blue', 'g1', 'g2', 'g3', 'g4', 'g5', 'g6-hand', 'g7', 'g8'];
+  var thumbs = document.querySelectorAll('.thumbs button'), cur = 0;
+  function show(i) { cur = (i + gallery.length) % gallery.length; $('stage-img').src = 'images/' + gallery[cur] + '.jpg'; $('stage-img').alt = thumbs[cur].querySelector('img').alt; thumbs.forEach(function (x) { x.removeAttribute('aria-current'); }); thumbs[cur].setAttribute('aria-current', 'true'); }
+  thumbs.forEach(function (b) { b.addEventListener('click', function () { show(Number(b.dataset.i)); }); });
+  $('prev').addEventListener('click', function () { show(cur - 1); });
+  $('next').addEventListener('click', function () { show(cur + 1); });
+
+  // colour
+  $('swatches').addEventListener('change', function (e) {
+    var f = e.target.dataset.f; $('color-name').textContent = e.target.value;
+    gallery[0] = 'g0-' + f; $('thumb0').src = 'images/' + gallery[0] + '.jpg';
+    $('sticky-img').src = 'images/' + gallery[0] + '.jpg'; show(0);
+  });
+
+  // cart (template)
+  var count = 0;
+  $('add').addEventListener('click', function () { var n = 1; count += n; $('cart-count').textContent = count; $('added').textContent = 'Added to cart'; $('add').firstChild.textContent = 'Added · ' + $('color-name').textContent + ' '; });
+
+  // read more
+  document.querySelectorAll('.more').forEach(function (b) { b.addEventListener('click', function () { var p = $(b.dataset.for); var open = p.classList.toggle('open'); b.setAttribute('aria-expanded', open); b.firstChild.textContent = open ? 'Read less ' : 'Read more '; }); });
+
+  // mobile menu
+  $('menu-btn').addEventListener('click', function () { var o = document.body.classList.toggle('nav-open'); $('menu-btn').setAttribute('aria-expanded', o); });
+  // sticky add-to-cart bar once the main button scrolls away
+  var sticky = $('sticky-atc');
+  var ticking = false;
+  function checkSticky() { ticking = false; var r = $('add').getBoundingClientRect(); var show = r.bottom < 0; if (sticky.classList.contains('on') !== show) { sticky.classList.toggle('on', show); sticky.setAttribute('aria-hidden', !show); $('sticky-add').tabIndex = show ? 0 : -1; } }
+  window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(checkSticky); } }, { passive: true });
+  checkSticky();
+  $('sticky-add').addEventListener('click', function () { $('add').click(); });
+
+  // review carousel
+  var tr = $('rv-track');
+  function bar() { var max = tr.scrollWidth - tr.clientWidth; var w = tr.clientWidth / tr.scrollWidth * 100; $('rv-bar').style.width = w + '%'; $('rv-bar').style.left = (max > 0 ? tr.scrollLeft / max * (100 - w) : 0) + '%'; }
+  tr.addEventListener('scroll', bar); window.addEventListener('resize', bar); bar();
+  $('rv-prev').addEventListener('click', function () { tr.scrollBy({ left: -tr.clientWidth * .8, behavior: 'smooth' }); });
+  $('rv-next').addEventListener('click', function () { tr.scrollBy({ left: tr.clientWidth * .8, behavior: 'smooth' }); });
+  document.querySelectorAll('.rcard .rm').forEach(function (b) { b.addEventListener('click', function () { var q = b.previousElementSibling; var o = q.classList.toggle('open'); b.textContent = o ? 'Read less' : 'Read more'; }); });
+
+  // forms + popup (template only)
+  $('news').addEventListener('submit', function (e) { e.preventDefault(); $('news-msg').textContent = 'Template form: connect to your email platform.'; });
+  var pop = $('popup');
+  function openPop() { pop.hidden = false; $('pop-email').focus(); } function closePop() { pop.hidden = true; }
+  $('open-popup').addEventListener('click', openPop); $('pop-x').addEventListener('click', closePop); $('pop-no').addEventListener('click', closePop);
+  pop.addEventListener('click', function (e) { if (e.target === pop) closePop(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closePop(); });
+  $('pop-form').addEventListener('submit', function (e) { e.preventDefault(); $('pop-msg').textContent = 'Template form: connect to your email platform to issue the code.'; });
+  var shown = false; document.addEventListener('mouseout', function (e) { if (!shown && !e.relatedTarget && e.clientY <= 0) { shown = true; openPop(); } });
+})();
+</script>
