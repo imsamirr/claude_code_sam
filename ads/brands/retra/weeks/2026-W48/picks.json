@@ -1,0 +1,14 @@
+{
+ "01": {"render": "01_t1.png", "v": 1, "funnel": "tof", "angle": "phone-fatigue", "colour": "obsidian"},
+ "02": {"render": "02_t1.png", "v": 1, "funnel": "tof", "angle": "kids-see-you", "colour": "blossom"},
+ "03": {"render": "03_t2.png", "v": 2, "funnel": "tof", "angle": "theme-park", "colour": "sol",
+        "blur": [[165, 585, 415, 705], [1035, 580, 1080, 665]]},
+ "04": {"render": "04_t2.png", "v": 2, "funnel": "tof", "angle": "europe-travel", "colour": "chalk"},
+ "05": {"render": "05_t1.png", "v": 1, "funnel": "tof", "angle": "wedding", "colour": "chalk+obsidian",
+        "card": [476, 1040, 628, 1172]},
+ "06": {"render": "06_t1.png", "v": 1, "funnel": "tof", "angle": "concert", "colour": "chalk"},
+ "07": {"render": "07_t1.png", "v": 1, "funnel": "tof", "angle": "grandparents-gift", "colour": "pine"},
+ "08": {"render": "08_t1.png", "v": 1, "funnel": "bof", "angle": "filters", "colour": "pine", "illustrative": true},
+ "09": {"render": "09_t2.png", "v": 2, "funnel": "bof", "angle": "buy2-get1", "colour": "all five"},
+ "10": {"render": "10_base.png", "v": 2, "funnel": "bof", "angle": "low-stock", "colour": "all five"}
+}

@@ -1,0 +1,145 @@
+{
+ "source": "StefanBrain, project Retra Launch (proj_d72cbab868f44e8fb7cbb870e274fd5b), chat chat_e2881d64bb4e43c687b42831eb31dff3, run run_583d4f8c1f3f4bb7824fe21a174d9e65 (v3: claim fixes + no currency code on image), 2026-11-25",
+ "ads": [
+  {
+   "extra_lines": [],
+   "fr_headline": "Prends la photo. Oublie les notifications.",
+   "headline": "Your camera shouldn't have an inbox.",
+   "id": "01",
+   "notes": "Top of funnel phone-fatigue angle focusing on broken attention at a café table.",
+   "persona": "General audience / Digicam users (All personas)",
+   "primary_text": "You unlocked your phone to take one quick photo. Twenty minutes later, you're answering work emails and doomscrolling. You were right there, but you completely missed the moment. Retra is the modern disposable camera built to break that habit. It gives you one shutter button, an optical viewfinder, a built-in flash, and zero screens. No apps to set up, no Wi-Fi, and nothing buzzing in your hand. You point, click, and drop it back into your pocket. It holds up to 500 photos on a single charge. When you get home, plug it into your phone or laptop with USB-C and find all your photos waiting for you like a freshly developed roll of film. Keep the memory. Stay in the room.",
+   "subhead": "Zero screens. Just real moments you see when you get home."
+  },
+  {
+   "extra_lines": [],
+   "fr_headline": "Ils retiendront ton regard, pas ton écran.",
+   "headline": "They'll remember your face, not your phone.",
+   "id": "02",
+   "notes": "Present parent angle focusing on natural eye contact during craft and dinner time.",
+   "persona": "Present parent (30-45)",
+   "primary_text": "Watch a kid when you pull out your phone. The laugh stops, the smile goes stiff, and they wait for you to look back up. They do not want a staged photoshoot. They just want you there with them. Retra captures the memory without stealing your attention. There is no screen to check, no apps to fiddle with, and no notifications pulling you into work. Just an optical viewfinder, a built-in flash, and a single shutter button. Snap the pancake flip or the crayon masterpiece, then set it down. It holds up to 500 photos on a charge. Tonight, plug the USB-C cable into your computer and look through the genuine smiles together. Be the parent who was actually looking.",
+   "subhead": "Capture real childhood candids without disappearing behind a screen."
+  },
+  {
+   "extra_lines": [],
+   "fr_headline": "Aucun écran entre toi et la magie.",
+   "headline": "Don't watch the trip through glass.",
+   "id": "03",
+   "notes": "Theme-park travel angle. Compliant with zero Disney IP and verified connectivity facts only.",
+   "persona": "Traveller / Theme-park fan",
+   "primary_text": "You paid for the park tickets and the hotel. The last thing you should be doing is staring into a six-inch phone screen. Standing in line, you pull out your phone for one photo of the kids, and immediately get sucked into unread emails or social feeds. Suddenly, the whole afternoon slips past behind glass. Retra slips into your pocket and stays out of the way. There is no screen to review, no settings menu, and no Wi-Fi, Bluetooth, or apps. Just point through the viewfinder, click the shutter, and get right back to the roller coaster. It packs four built-in vintage and film filters, an on-camera flash for evening fireworks, and enough battery for 500 shots. When you get back to the hotel, plug it into your phone with USB-C and relive the day together. Live the day first. See the shots second.",
+   "subhead": "Up to 500 candid shots per charge. Zero scrolling in line."
+  },
+  {
+   "extra_lines": [],
+   "fr_headline": "Vis l'Europe. Pas ton fil d'actualité.",
+   "headline": "See Europe. Not your feed.",
+   "id": "04",
+   "notes": "European travel angle eliminating the photo critique loop; free of third-party trademarks.",
+   "persona": "Traveller / Digicam girl (18-30)",
+   "primary_text": "You did not fly across the Atlantic to spend your golden hour checking whether your vacation photo looks good enough. The problem with phone cameras is the review loop. You take a photo, look at the screen, retake it three times, and then spend ten minutes picking a filter while the sun drops behind the rooftops. Retra brings back genuine travel candids. You look through the viewfinder, click the shutter button, and keep walking down the alleyway. No screen to critique. No social apps pinging. Just you and the city. With up to 500 photos per charge and four built-in film filters, it handles entire days of exploring. Once you are back at your room, plug the USB-C cord into your phone to unload the memories. Spend your trip looking at the sights, not at glass.",
+   "subhead": "500 shots per charge. Relive the trip once you get home."
+  },
+  {
+   "extra_lines": [
+    {
+     "slot": "place_card",
+     "text": "Take a candid. Leave your phone."
+    }
+   ],
+   "fr_headline": "Téléphones rangés. Appareils sur la table.",
+   "headline": "Phones away. Real cameras on tables.",
+   "id": "05",
+   "notes": "Wedding guest table angle avoiding unverified stats while contrasting with costly lab fees.",
+   "persona": "Wedding / Event host",
+   "primary_text": "Single-use wedding cameras mean costly photo lab fees, forgotten film rolls, and guests who end up scrolling their phones. You want your reception to feel like a party, not a room full of people staring down at illuminated screens. Retra is the modern reusable alternative for guest tables. Place one beside each centerpiece. Guests pick it up, look through the real viewfinder, snap with the built-in flash, and put it right back down. There is no tiny screen to huddle around, so the dance floor stays full. Each camera holds up to 500 photos per charge with zero film rolls to buy or mail off to a lab. The next morning, export every shot straight to your laptop over USB-C. Real table candids from your favourite people, without the lab bill.",
+   "subhead": "Skip the developing fees and capture every unposed guest moment."
+  },
+  {
+   "extra_lines": [],
+   "fr_headline": "Regarde le show de tes propres yeux.",
+   "headline": "Watch the show with your own eyes.",
+   "id": "06",
+   "notes": "Concert angle addressing the wall of glowing phones without presuming universal venue rules.",
+   "persona": "Concertgoer",
+   "primary_text": "You paid serious money for tickets just to stare at a glowing wall of other people's phones recording the encore. Nobody ever watches those shaky, blown-out concert videos again anyway. Meanwhile, the band is right in front of you and everyone is busy checking their camera angles. Retra lets you capture the night without turning into a camera operator. When you are out, point through the viewfinder, pop the built-in flash for a quick crowd shot, and drop it back into your pocket. Zero screen glare. No social media notifications pulling you out of the music. Just grainy, authentic flash photos you will export over USB-C the next morning. Enjoy the set. Keep the shots.",
+   "subhead": "Point, click, and put it away. Feel the music instead."
+  },
+  {
+   "extra_lines": [],
+   "fr_headline": "Un seul bouton. Aucun menu compliqué.",
+   "headline": "One button. No menus. Grandma approved.",
+   "id": "07",
+   "notes": "Grandparents gift angle keeping confirmed hardware facts (viewfinder, shutter, flash).",
+   "persona": "Gift buyer for grandparents",
+   "primary_text": "Every new gadget comes with a forgotten password, a mandatory update, and a settings menu nobody asked for. If you have ever spent Christmas morning doing tech support for your parents or grandparents, you already know the dread. Retra solves that completely. It works like the classic film cameras they grew up using, but without the hassle of film rolls or photo labs. There is one shutter button, an optical viewfinder, and a built-in flash. No Wi-Fi, no Bluetooth, and no app store logins. They take up to 500 photos of the grandkids on one charge. When they want to see them, simply plug the USB-C cable into their laptop or desktop. The photos pop up right in their folder. A thoughtful holiday gift they can pick up and use in ten seconds.",
+   "subhead": "No touchscreen to smudge and no account setups to remember."
+  },
+  {
+   "extra_lines": [
+    {
+     "slot": "price_offer_line",
+     "text": "$99 (Reg. $165) / 40% Off"
+    },
+    {
+     "slot": "filter_labels",
+     "text": "Vintage, Black & White, Natural, Film"
+    },
+    {
+     "slot": "cta",
+     "text": "Get 40% Off Now"
+    }
+   ],
+   "fr_headline": "4 styles argentiques. Zéro retouche.",
+   "headline": "4 built-in film looks. Zero editing.",
+   "id": "08",
+   "notes": "Bottom of funnel filter grid ad with CAD currency removed from on-image text per design spec.",
+   "persona": "Product-aware / Deal seeker / Digicam girl",
+   "primary_text": "You do not need Lightroom or a subscription app to get that grainy, nostalgic 2000s disposable look. Retra features four built-in filters: Vintage, Black & White, Natural, and Film. No phone required, no cloud accounts, and no monthly editing subscriptions. You get candid, textured photos straight out of the camera, complete with a built-in flash and up to 500 shots per battery charge. Compare at $165 CAD, now on sale for $99 CAD (40% off). Plug into your computer or phone via USB-C to view your shots. Upgrade your daily camera roll with real point-and-shoot film vibes.",
+   "subhead": "Four built-in styles. Now $99, compare at $165."
+  },
+  {
+   "extra_lines": [
+    {
+     "slot": "pill",
+     "text": "Limited-Time Holiday Offer"
+    },
+    {
+     "slot": "cta",
+     "text": "Claim Buy 2, Get 1 Free"
+    }
+   ],
+   "fr_headline": "Achète-en 2, obtiens le 3e gratuit.",
+   "headline": "Buy 2 cameras, get 1 free.",
+   "id": "09",
+   "notes": "Bottom of funnel bundle offer across all 5 colours free of unsubstantiated social proof claims.",
+   "persona": "Holiday gift buyer / Group gifter",
+   "primary_text": "Holiday shopping for friends and family just got much easier: buy two Retra cameras, and we will add a third one for free. Retra is a reusable digital camera built like a modern disposable. It combines the candid charm of classic photography with convenient USB-C export. No ongoing film expenses, no app downloads, and no Wi-Fi. Choose your favorite mix across all five body colours: Chalk, Obsidian, Blossom, Sol, and Pine. Each unit comes with a built-in flash, four film filters, and up to 500 photos per charge. Keep one in your own bag for weekend trips, and wrap the other two for the people who need a break from their phone screens. Stock is limited for this batch. Build your bundle before colours run low.",
+   "subhead": "One for you, two for gifts. 500 photos per charge."
+  },
+  {
+   "extra_lines": [
+    {
+     "slot": "tag_under_each_camera",
+     "text": "Low Stock"
+    },
+    {
+     "slot": "price_line",
+     "text": "$99 (Compare at $165)"
+    },
+    {
+     "slot": "cta",
+     "text": "Shop Before It's Gone"
+    }
+   ],
+   "fr_headline": "Stock limité sur toutes les couleurs.",
+   "headline": "Selling fast across all five colours.",
+   "id": "10",
+   "notes": "Bottom of funnel scarcity ad with CAD currency removed from on-image tag and subhead.",
+   "persona": "Retargeting / Most aware / Deal seeker",
+   "primary_text": "Stock is genuinely low across Chalk, Obsidian, Blossom, Sol, and Pine. At $99 CAD (compare at $165), quantities are limited across every colourway. None of the five colours are sold out yet, but remaining quantities are small. If you have been waiting to pick up a screen-free camera, grab yours while all five shades are still available. You get up to 500 photos on a single charge, four built-in film filters, USB-C export, and zero screens, apps, or Wi-Fi. Pick your colour at $99 CAD before stock runs out.",
+   "subhead": "$99 today (was $165). Reusable, screen-free, and almost gone."
+  }
+ ]
+}

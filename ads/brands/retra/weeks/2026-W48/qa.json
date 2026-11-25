@@ -1,0 +1,12 @@
+{
+ "01": "QA pass, try 1. Camera (Obsidian) matches reference; one hand, five fingers. Phone screen softened in compositing so its tiny UI text is unreadable.",
+ "02": "QA pass, try 1. Camera (Blossom) matches. Composition changed from the brief's over-the-shoulder view so the camera FRONT faces the viewer (no back-of-camera reference exists). Hands correct; natural faces.",
+ "03": "QA pass on try 2. Try 1 rejected: street read as a Disney park (Victorian main street, castle-like spire, mouse-ear balloons). Try 2 is a generic fair midway; two stall signs with garbled lettering softened in compositing. Camera (Sol) hangs tilted on a strap and matches the reference.",
+ "04": "QA pass on try 2. Try 1 rejected: the two women had the same face (AI tell). Camera (Chalk) matches; hands correct. Camera faces the viewer instead of the friend (no back reference).",
+ "05": "QA pass, try 1. Chalk + Obsidian cameras match. Place-card line typeset in the landing-page hand font (Shantell Sans) onto the blank card.",
+ "06": "QA pass, try 1. Camera (Chalk) matches, flash firing. Phones show no readable content; no band/artist logos. She holds the camera casually facing the viewer (no back reference).",
+ "07": "QA pass, try 1. Camera (Pine) matches; both hands correct; natural wrinkles/skin. Text kept left of her face.",
+ "08": "QA pass, Kie render try 1 (3 earlier submits failed with Kie 'Internal Error', no image, not billed). Base scene has no product; the tiles crop out an invented camera that Kie put at the bottom edge of the scene. The four looks are the landing page's filter settings applied to one render: ILLUSTRATIVE, replace with real Retra sample photos before launch. Product shown is the real Pine cutout. Copy note: primary text names 'Lightroom' (third-party trademark); flag for Sam.",
+ "09": "QA pass on try 2. Try 1 (full Kie render) rejected: cameras stood on end and fronts distorted. Try 2: lineup built from the real product cutouts, Kie added only the ribbon/bow (bow covers part of the pink camera's wordmark, like real gift wrap).",
+ "10": "QA: Kie try 1 rejected (cameras stood on end, fronts distorted). Final is built directly from the real product cutouts (pixel-exact cameras, no Kie cost). No colour stamped Sold out: Sam confirmed stock is low overall, so each colour gets a 'Low Stock' tag."
+}
