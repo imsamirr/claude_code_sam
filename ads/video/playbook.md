@@ -27,7 +27,7 @@ The approved look (set A) is a **phone video that a real woman would post to her
 
 ---
 
-## 2. Format library (38 formats)
+## 2. Format library (40 formats)
 
 Each entry gives the template, real references (advertiser, Atria id, days running, length), a shot recipe and an example Comfort Wear caption. **The example captions only show each format's shape: every caption that ships is written by StefanBrain (user rule, 2026-11-18 / 11-19), and StefanBrain can pick the concepts too.** Days running are as of 2026-11-13. "Doctor-recommended" and "podiatrist-recommended" are approved since 2026-11-18; all Comfort Wear lines still avoid review counts or stars, and cure or treatment language.
 
@@ -299,6 +299,18 @@ Each entry gives the template, real references (advertiser, Atria id, days runni
   - Hollow `m2320821735381405`: 7.8 s. "who else grabbed Hollow's alpaca compression socks when they saw *the crazy deal* they're doing today? 😮" → "Buy 2 *Get 2 Now* 🤗".
 - **Rule conflict:** §1 keeps the offer out of the caption, so this format is **not** a candidate unless the user lifts that rule for a sale window. It's logged because it is the single most repeated sale hook across the watchlist and look-alikes this week. The **look** is reusable without the deal line: see §7, serif box.
 
+### F39. "If ur card declines on ___ then we need to have a serious chat bc it's so affordable rn 😳" over one slow product orbit ⭐ user-flagged (2026-11-25)
+- **Added by the user, 2026-11-25** (Mellow Sleep `m5668149440077399`: 14 s, **113 days running, rank #32 of ~19,000 Mellow ads (best #26), stable**).
+- **What it is:** a viral TikTok meme line over a single slow handheld orbit of the product on a store display (the body pillows stacked on a stand, the product name sign in frame). Outlined white text, TikTok-classic look, upper-middle, static for the whole shot. A trending song underneath (the transcript catches "Brandy!"). The product fills every frame (show-the-shoe rule).
+- **Meta copy does the selling:** headline "The Body Pillow That Finally Fixed My Numb Arm"; primary text "Real words from a real side sleeper. The BodyAlign's 3-point support system takes the pressure off your arms, hips, and knees… so you stop waking up sore and start waking up rested."
+- **Offer note:** the line is about price, not a specific discount, so it doesn't break §1's offer-out-of-caption rule. StefanBrain writes our version; it must not state a price or discount we can't confirm.
+- **Build:** one 10-14 s orbit or slow push around several Comfort Wear pairs on a table, a shoe rack or the box (`product;hero` clips; a slow push on a flat-lay works if no orbit exists). `"style": "classic"` or `"outline"`, at least 72 px, y about 0.25. Music: a light trending-pop bed. **Footage gap:** we have no multi-pair "display" orbit yet; ask for one (same shoot as F34's colour fan).
+
+### F40. Touch demo with no caption: press, squish, spring back (candidate, from the Mellow Sleep study 2026-11-25)
+- **Example:** Mellow Sleep `m1773433033997461`, their #2 video of ~19,000 (best #1), 114 days, 16.7 s. A hand presses into the Puff Pillow, it springs back, she lies on it, fluffs it. No caption, only a small logo. Sibling `m1342430154636102` (88 d, rank #22): "How is this thing so soft 🤤" exists only as post copy; the video is pure pressing and squishing.
+- **Why it works:** the proof is physical and silent. The viewer "feels" softness, and the copy names it.
+- **Comfort Wear build (all real footage):** squeeze the sole, bend the shoe in half, press the arch and let it spring back, stretch the knit, slip a foot in. Susan "Squeezing sole", "Bending showing shoe and sole", "Pulling out insole"; Heather arch insole. Hard cuts, about 1.5 s per press, 12-16 s, satisfying close sound or a soft bed. Text only as a small brand/product label (`box`, small) or none; StefanBrain writes the primary text.
+
 **Length variants for any format:** a 2 to 6 s single-shot loop (Shop Sunny Tails 6.5 s / 397 d; Mama Bear Oasis `m1381490440616057` 2.6 s / 83 d; Coco & Eve `m2097321387574561` 1 s / 31 d). Volume measured "long text stacked over a 6-second clip" at a median 27x in careers and "more text than the clip lets you read" at 9x in wellness, so dense story captions (F3, F13) can run on very short loops.
 
 ### Other references reviewed (for variety)
@@ -553,6 +565,7 @@ the user's picks. Mark promising ones "candidate" and say so in the summary.
 | Archies Footwear | `m636547869707697` | Ultra-short (3.5-10 s) native at-home/lifestyle shots, product in every frame, text-you-read captions, IG/TikTok UI stickers; ~890 ads, AU/US/NZ/CA/GB |
 | Cuurt (incl. Ed Ju Pickleball creator account) | `m748341365031310` | F31 creator review (127+ days), "what if I told you… included" deal format |
 | Hollow Alpaca Socks | `m111034490269087` | "Sorry to all the ___ who bought…", "who else grabbed… crazy deal" text-block switch |
+| Mellow Sleep (user, 2026-11-25) | `m583724811498012` | ~19,000 ads. Meme text over one slow product orbit (F39), caption-less touch demos (F40), TikTok-Shop creator posts ("the price is so good rn!!") |
 | Mason Gear (added 2026-11-24) | `m721808621025419` | Work socks for 12-hour shifts on concrete (our nurse/on-feet audience); creator partner ads, 7 s single-caption, ~1,300 ads |
 | Peak Footwear (added 2026-11-24) | `m214832425046409` | Wide-toe-box comfort shoes/boots via creator partners ("Lizzie's Picks", "fltofucita"); product in every frame, sole-flex and lining proof shots, ~770 ads |
 
@@ -594,3 +607,13 @@ the user's picks. Mark promising ones "candidate" and say so in the summary.
   1. F36 "What I slip into for my 12-hour shift" (Tired Nurse): Heather walk/steps/toe-box clips, title in heavy yellow, beats in shadow 72, ✅ pill.
   2. F33 hard-floors Q&A (persona: Active Senior at home, kitchen tile): `pov;on_foot` clips on a hard floor, `ig_question` + `dark` answer.
   3. F34 colour fan (once the clip exists), with the `reply_bubble` sticker.
+
+**2026-11-25: Mellow Sleep (user-flagged, first study)**
+- ~19,000 ads. Video winners are 9-24 s, the product is in every frame, and most have little or no on-screen text.
+- Top videos:
+  - Puff Pillow touch demo `m1773433033997461` (#2, 114 d) → F40.
+  - BodyAlign "if ur card declines…" meme orbit `m5668149440077399` (#32, 113 d) → F39 ⭐.
+  - BodyAlign testimonial cuts `m2156103621706936` / `m1558114475675781` (#12 / #19), all with the headline "The Body Pillow That Finally Fixed My Numb Arm".
+  - "$49 for Premium Pillow Comfort" price-anchor cuts (180 d).
+- New this week: TikTok-Shop creator posts as ads, hashtags in the copy ("cold cloud sheets for all my bedrooms 🌨️ the price is so good rn!!", "Crazy Deal!! #tiktokshopcreatorpicks").
+- For us: F39 needs a multi-pair display clip. F40 can be built now from Susan's and Heather's touch clips.
