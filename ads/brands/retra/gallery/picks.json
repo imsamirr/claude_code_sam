@@ -1,0 +1,7 @@
+{
+ "hand_chalk": "hand_chalk_t1.png", "hand_obsidian": "hand_obsidian_t1.png", "hand_sol": "hand_sol_t1.png",
+ "front_chalk": "front_chalk_t2.png", "front_obsidian": "front_obsidian_t1.png", "front_sol": "front_sol_t1.png",
+ "bottom_chalk": "bottom_chalk_recolour.png", "bottom_obsidian": "bottom_obsidian_recolour.png", "bottom_sol": "bottom_sol_recolour.png",
+ "usbc_chalk": "usbc_chalk_t1.png", "usbc_obsidian": "usbc_obsidian_t1.png", "usbc_sol": "usbc_sol_t1.png",
+ "usbc_text_x": 980, "usbc_text_y": 240
+}

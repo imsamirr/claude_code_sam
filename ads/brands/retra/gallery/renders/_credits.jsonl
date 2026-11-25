@@ -1,0 +1,2 @@
+{"jobs": ["hand_chalk", "front_chalk", "bottom_chalk", "usbc_chalk", "hand_obsidian", "front_obsidian", "bottom_obsidian", "usbc_obsidian", "hand_sol", "front_sol", "bottom_sol", "usbc_sol"], "fix": "", "credits_spent": 216.5, "usd": 1.083}
+{"jobs": ["front_chalk"], "fix": "The last version came out at a three-quarter angle. The camera must face the viewer perfectly straight-on, front panel parallel to the image plane, like the Obsidian and Sol front shots.", "credits_spent": 18.0, "usd": 0.09}
