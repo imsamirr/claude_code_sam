@@ -553,3 +553,9 @@ body.cart-open { overflow: hidden; }
 .acc .body.desc p:first-child strong { color: var(--navy); }
 .faq details > p:last-child { margin-bottom: 18px; }
 .f-cols ul { list-style: none; }
+/* image size attributes must not override the aspect-ratio rules */
+.looks img, .moments img, .why img { height: auto; }
+/* sticky bar: one line each on small screens */
+.sticky-atc > div { min-width: 0; }
+.sticky-atc b, .sticky-atc span { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 560px) { .sticky-atc .cta { padding: 12px 16px; font-size: 13.5px; } }
