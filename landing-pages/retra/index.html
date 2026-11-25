@@ -5,7 +5,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tinos&family=Inter:wght@400;500;600;700&family=Shantell+Sans:ital,wght@1,400&display=swap">
 <style>
-/* Layout: Retro-pia's product-page system, measured from retro-pia.com. One paper ground (#FCFBF9) for every
+/* Single light theme on purpose: Retro-pia never switches to dark. Layout: Retro-pia's product-page system, measured from retro-pia.com. One paper ground (#FCFBF9) for every
    section; rhythm comes from kicker + two-tone serif headline + blue-grey paragraph, tilted white-bordered
    prints, and two navy panels (guarantee, footer). */
 :root {
@@ -29,16 +29,8 @@
   --f-body: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
   --f-hand: "Shantell Sans", "Comic Sans MS", cursive;
   --wrap: 1360px;
+  color-scheme: light;
 }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --paper: #0D1620; --tint: #121D28; --card: #16232F; --navy: #DCE6EE; --navy-50: rgba(220,230,238,.5); --text: #A9B9C6;
-  --kicker: #C2B497; --sand: #3A342B; --pill: #233342; --line: rgba(255,255,255,.12); --ph: rgba(201,179,140,.25);
-  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 12px 32px rgba(0,0,0,.35); color-scheme: dark; } }
-:root[data-theme="dark"] {
-  --paper: #0D1620; --tint: #121D28; --card: #16232F; --navy: #DCE6EE; --navy-50: rgba(220,230,238,.5); --text: #A9B9C6;
-  --kicker: #C2B497; --sand: #3A342B; --pill: #233342; --line: rgba(255,255,255,.12); --ph: rgba(201,179,140,.25);
-  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 12px 32px rgba(0,0,0,.35); color-scheme: dark; }
-
 * { box-sizing: border-box; }
 body { background: var(--paper); color: var(--text); font: 16px/1.6 var(--f-body); -webkit-font-smoothing: antialiased; }
 img { display: block; max-width: 100%; }
@@ -71,7 +63,6 @@ h2 .l1m { display: block; color: var(--navy-50); }
 .cta:hover { filter: brightness(1.06); transform: translateY(-1px); }
 .cta.full { width: 100%; padding-block: 18px; font-size: 17px; }
 .cta.light { background: linear-gradient(100deg, #F6EFE3, #CDBDA3); color: var(--navy); }
-:root[data-theme="dark"] .cta.light { color: #022B49; }
 
 /* announcement */
 .bar { background: #0E1C27; color: #fff; }
@@ -182,7 +173,6 @@ header.nav a { text-decoration: none; }
 .feats { list-style: none; margin: 56px 0 0; padding: 0 0 0 4%; display: grid; gap: 34px; }
 .feats li { display: grid; grid-template-columns: 64px 1fr; gap: 6px 18px; }
 .feats .num { font-family: var(--f-display); font-size: 48px; line-height: .9; color: transparent; -webkit-text-stroke: 1px rgba(2,43,73,.25); grid-row: span 2; }
-:root[data-theme="dark"] .feats .num { -webkit-text-stroke-color: rgba(255,255,255,.3); }
 .feats h3 { font-size: 32px; line-height: 1.05; letter-spacing: -.04em; }
 .feats p { margin: 4px 0 0; font-size: 16px; }
 
