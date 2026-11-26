@@ -1,0 +1,20 @@
+0 TOF Colour "news" drop: single colourway on matching gradient, editorial serif ("Gone twice. Back again.")
+8 TOF Stacked colourways with name labels on a moody brown backdrop ("Screenless. Limited. Timeless nostalgia.")
+10 TOF Era still life: product among 90s nostalgia props (Game Boy, flip phone, gamepad)
+7 TOF Hand holding product + dry one-liner joke ("It's dramatically horizontal.")
+15 TOF Product wrapped with a giant bow + parent-facing gift line ("Give your kids the screen-free gift of 2026")
+18 TOF Lifestyle holiday flat lay with ornaments + "The hottest gift for photographers this year"
+19 TOF Kids' hands holding a mini version + "Little hands. Big adventures."
+28 TOF Native Instagram comment screenshot over a concert-of-phones photo, product row below
+30 TOF Retro OS pop-up window meme ("Cosmic Grape has entered the chat") with hand holding product
+33 TOF 90s CRT TV / infomercial screen showing the product with price burst
+36 TOF Black-and-white dramatic hero with a big claim headline ("The home movie is back.")
+37 TOF Blueprint / technical line-drawing of the product ("The 110 shape returns. A classic, re-engineered.")
+38 TOF Heritage hook on smoky backdrop ("Born in the '70s. Reborn digital.")
+42 TOF Flat colour background, product twice + "No more disposable cameras. Summer camp approved"
+11 MOF Hero product + 4 icon features with labels (flash, filter dial, 16MP, rechargeable)
+39 MOF Portrait split into horizontal bands, each band a different filter (STD / VTG / B&W)
+44 MOF "You asked. We listened." UI-slider rows pairing each customer request with the fix
+13 BOF "Current stock. This is what's left." colour swatches with SOLD OUT tags
+3 BOF Gift-bow hero + "Limited inventory. Ships first come, first serve."
+25 BOF Giant price "$70" + spec list under the product

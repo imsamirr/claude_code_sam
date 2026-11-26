@@ -1,0 +1,20 @@
+40 TOF Editorial serif headline over a sample photo, product badge bottom-left ("Your camera shoots 4K. This lens shoots nostalgia.")
+42 TOF Emotional future-question headline over a candid photo ("One day your kids will find your photos. What will they feel?")
+43 TOF Two blurry candid photos side by side + "The blurry shot was always your favorite one"
+46 TOF Advertiser-review header (stars, "The must-have lens for...") over a big sample photo + discount pill
+51 TOF Sample photo with thin spec callout lines and product cut-out (sample + specs in one frame)
+55 TOF Stacked film-photo collage with "FILM AESTHETIC" title band
+8 TOF UGC POV build-up step ("Then our optical waist-level viewfinder") - part of a sequential series
+17 TOF Clean white build-up step ("First you got the Retropia lens") - series of statics adding one accessory each
+12 TOF Personal-callout format: name + photo + "You haven't taken a real photo in years"
+14 TOF Handwritten note + hand holding product + doodled face ("Camera shy? Shoot from the hip")
+20 TOF Moody sample photo (shadow on a wall) with handwritten caption "Some photos don't need overthinking"
+29 TOF Native comment bubble over a sunset product shot ("Looks like an Oreo. Shoots like a disposable.")
+32 TOF Meme caption top + bottom over a gritty product photo ("not me finding the cheat code for film photos")
+36 TOF Bold colour-block headline ("That old film look. Zero editing.")
+44 MOF "Everyone else vs Retropia": two Instagram-style posts side by side, the Retropia one hearted
+19 MOF Exploded product + 4 benefit bullets + was/now price card + star rating ("See what makes the look")
+4 MOF Dark apology-letter format ("We owe you an apology") reframing the product benefit
+3 BOF "We're sorry for the mix-up" pricing-glitch letter: honour a mistaken low price while stock lasts
+13 BOF Strike-through price with a circled new price ("$60 → $39") + best-seller badge
+0 BOF Buy 1 Get 1 Free tied to a cause month, units-left counter

@@ -1,0 +1,20 @@
+1 TOF Minimal hero: single camera on cream, handwritten 3-line benefit ("No more disposables")
+2 TOF Diagonal colour stair-step lineup + handwritten hook ("You only need one of these")
+5 TOF Top-down gift flat lay in brand colour, small handwritten line ("The gift that gets used, not stored")
+8 TOF Split-screen phone vs camera with hard stats ("Your phone takes photos. Klik takes moments")
+13 TOF Icon checklist on the left + hands holding a stack of cameras ("Capture the moment, not the notification")
+14 TOF Hands holding a tall colour tower + big "∞ shots" type
+20 TOF Occasion gift (grad cap prop) + headline "Graduation gift sorted"
+23 TOF Native iMessage group-chat screenshot (friends hyping the photos)
+24 TOF Native text-message conversation ("what did you get him for his birthday")
+25 TOF Big-number stat swap "27 → 500" (shots per roll vs per charge) with hand holding camera
+28 TOF Receipt format: "photography hobby" itemised, everything $0 except the camera
+33 TOF Native X/Threads post screenshot (bachelorette story)
+34 TOF Bold colour-block question headline ("Are you over-editing?")
+37 TOF "Pick your personality": colour-way grid with personality labels
+21 MOF Two-column comparison table disposable vs Klik ("Built for one trip / every trip")
+36 MOF Problem visual: crossed-out pile of disposables ("Stop wasting $40")
+29 MOF Risk reversal: giant "30-day" return guarantee with product
+0 BOF Colour lineup with "SOLD OUT" stamps + "In stock" tags + price ("Selling fast")
+30 BOF Product shrink-wrapped in a supermarket meat tray ("Last restock sold out in 48 hours")
+7 BOF Founder letter / plain-text email-style note with sale details

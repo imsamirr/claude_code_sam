@@ -1,0 +1,942 @@
+[
+ {
+  "key": "klik",
+  "name": "KLIK",
+  "site": "klikcamera.com",
+  "note": "Screen-free camera, $70. Closest competitor to Retra.",
+  "items": [
+   {
+    "ad": "m1034702972313123",
+    "stage": "TOF",
+    "desc": "Minimal hero: single camera on cream, handwritten 3-line benefit (\"No more disposables\")",
+    "days": 150,
+    "img": "img/m1034702972313123.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m2830863800582725",
+    "stage": "TOF",
+    "desc": "Diagonal colour stair-step lineup + handwritten hook (\"You only need one of these\")",
+    "days": 150,
+    "img": "img/m2830863800582725.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1369121508515688",
+    "stage": "TOF",
+    "desc": "Top-down gift flat lay in brand colour, small handwritten line (\"The gift that gets used, not stored\")",
+    "days": 150,
+    "img": "img/m1369121508515688.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m813875341453944",
+    "stage": "TOF",
+    "desc": "Split-screen phone vs camera with hard stats (\"Your phone takes photos. Klik takes moments\")",
+    "days": 216,
+    "img": "img/m813875341453944.jpg",
+    "w": 440,
+    "h": 543
+   },
+   {
+    "ad": "m1773833763784625",
+    "stage": "TOF",
+    "desc": "Icon checklist on the left + hands holding a stack of cameras (\"Capture the moment, not the notification\")",
+    "days": 150,
+    "img": "img/m1773833763784625.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1911549422857892",
+    "stage": "TOF",
+    "desc": "Hands holding a tall colour tower + big \"\u221e shots\" type",
+    "days": 150,
+    "img": "img/m1911549422857892.jpg",
+    "w": 440,
+    "h": 553
+   },
+   {
+    "ad": "m1452204243048264",
+    "stage": "TOF",
+    "desc": "Occasion gift (grad cap prop) + headline \"Graduation gift sorted\"",
+    "days": 216,
+    "img": "img/m1452204243048264.jpg",
+    "w": 440,
+    "h": 543
+   },
+   {
+    "ad": "m1579871339996310",
+    "stage": "TOF",
+    "desc": "Native iMessage group-chat screenshot (friends hyping the photos)",
+    "days": 15,
+    "img": "img/m1579871339996310.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1684361356078432",
+    "stage": "TOF",
+    "desc": "Native text-message conversation (\"what did you get him for his birthday\")",
+    "days": 171,
+    "img": "img/m1684361356078432.jpg",
+    "w": 440,
+    "h": 543
+   },
+   {
+    "ad": "m1534840562117906",
+    "stage": "TOF",
+    "desc": "Big-number stat swap \"27 \u2192 500\" (shots per roll vs per charge) with hand holding camera",
+    "days": 15,
+    "img": "img/m1534840562117906.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m4265943150286041",
+    "stage": "TOF",
+    "desc": "Receipt format: \"photography hobby\" itemised, everything $0 except the camera",
+    "days": 180,
+    "img": "img/m4265943150286041.jpg",
+    "w": 440,
+    "h": 543
+   },
+   {
+    "ad": "m2008916706647911",
+    "stage": "TOF",
+    "desc": "Native X/Threads post screenshot (bachelorette story)",
+    "days": 171,
+    "img": "img/m2008916706647911.jpg",
+    "w": 440,
+    "h": 543
+   },
+   {
+    "ad": "m2265263354015231",
+    "stage": "TOF",
+    "desc": "Bold colour-block question headline (\"Are you over-editing?\")",
+    "days": 15,
+    "img": "img/m2265263354015231.jpg",
+    "w": 440,
+    "h": 547
+   },
+   {
+    "ad": "m1785349029375194",
+    "stage": "TOF",
+    "desc": "\"Pick your personality\": colour-way grid with personality labels",
+    "days": 15,
+    "img": "img/m1785349029375194.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2125531054885938",
+    "stage": "MOF",
+    "desc": "Two-column comparison table disposable vs Klik (\"Built for one trip / every trip\")",
+    "days": 274,
+    "img": "img/m2125531054885938.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1582670786491203",
+    "stage": "MOF",
+    "desc": "Problem visual: crossed-out pile of disposables (\"Stop wasting $40\")",
+    "days": 289,
+    "img": "img/m1582670786491203.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1439995291402933",
+    "stage": "MOF",
+    "desc": "Risk reversal: giant \"30-day\" return guarantee with product",
+    "days": 15,
+    "img": "img/m1439995291402933.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m4334500323430587",
+    "stage": "BOF",
+    "desc": "Colour lineup with \"SOLD OUT\" stamps + \"In stock\" tags + price (\"Selling fast\")",
+    "days": 215,
+    "img": "img/m4334500323430587.jpg",
+    "w": 440,
+    "h": 543
+   },
+   {
+    "ad": "m967923652309356",
+    "stage": "BOF",
+    "desc": "Product shrink-wrapped in a supermarket meat tray (\"Last restock sold out in 48 hours\")",
+    "days": 165,
+    "img": "img/m967923652309356.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m2724992681265979",
+    "stage": "BOF",
+    "desc": "Founder letter / plain-text email-style note with sale details",
+    "days": 6,
+    "img": "img/m2724992681265979.jpg",
+    "w": 440,
+    "h": 550
+   }
+  ]
+ },
+ {
+  "key": "campsnap",
+  "name": "Camp Snap",
+  "site": "campsnapphoto.com",
+  "note": "Screen-free digital camera, now with CS-Pro, CS-8 and 110D lines.",
+  "items": [
+   {
+    "ad": "m1821788882316465",
+    "stage": "TOF",
+    "desc": "Colour \"news\" drop: single colourway on matching gradient, editorial serif (\"Gone twice. Back again.\")",
+    "days": 97,
+    "img": "img/m1821788882316465.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1440315898039754",
+    "stage": "TOF",
+    "desc": "Stacked colourways with name labels on a moody brown backdrop (\"Screenless. Limited. Timeless nostalgia.\")",
+    "days": 45,
+    "img": "img/m1440315898039754.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m3162101760666880",
+    "stage": "TOF",
+    "desc": "Era still life: product among 90s nostalgia props (Game Boy, flip phone, gamepad)",
+    "days": 37,
+    "img": "img/m3162101760666880.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1727813438321281",
+    "stage": "TOF",
+    "desc": "Hand holding product + dry one-liner joke (\"It's dramatically horizontal.\")",
+    "days": 50,
+    "img": "img/m1727813438321281.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m28187493130925931",
+    "stage": "TOF",
+    "desc": "Product wrapped with a giant bow + parent-facing gift line (\"Give your kids the screen-free gift of 2026\")",
+    "days": 23,
+    "img": "img/m28187493130925931.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1835799127432665",
+    "stage": "TOF",
+    "desc": "Lifestyle holiday flat lay with ornaments + \"The hottest gift for photographers this year\"",
+    "days": 23,
+    "img": "img/m1835799127432665.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1106148932314412",
+    "stage": "TOF",
+    "desc": "Kids' hands holding a mini version + \"Little hands. Big adventures.\"",
+    "days": 19,
+    "img": "img/m1106148932314412.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1787701925873371",
+    "stage": "TOF",
+    "desc": "Native Instagram comment screenshot over a concert-of-phones photo, product row below",
+    "days": 114,
+    "img": "img/m1787701925873371.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m2526344991217605",
+    "stage": "TOF",
+    "desc": "Retro OS pop-up window meme (\"Cosmic Grape has entered the chat\") with hand holding product",
+    "days": 25,
+    "img": "img/m2526344991217605.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m2162513034612504",
+    "stage": "TOF",
+    "desc": "90s CRT TV / infomercial screen showing the product with price burst",
+    "days": 62,
+    "img": "img/m2162513034612504.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m2126343438271429",
+    "stage": "TOF",
+    "desc": "Black-and-white dramatic hero with a big claim headline (\"The home movie is back.\")",
+    "days": 61,
+    "img": "img/m2126343438271429.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1476259584560948",
+    "stage": "TOF",
+    "desc": "Blueprint / technical line-drawing of the product (\"The 110 shape returns. A classic, re-engineered.\")",
+    "days": 42,
+    "img": "img/m1476259584560948.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1414081434145329",
+    "stage": "TOF",
+    "desc": "Heritage hook on smoky backdrop (\"Born in the '70s. Reborn digital.\")",
+    "days": 51,
+    "img": "img/m1414081434145329.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1697300734832887",
+    "stage": "TOF",
+    "desc": "Flat colour background, product twice + \"No more disposable cameras. Summer camp approved\"",
+    "days": 104,
+    "img": "img/m1697300734832887.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1280582043992745",
+    "stage": "MOF",
+    "desc": "Hero product + 4 icon features with labels (flash, filter dial, 16MP, rechargeable)",
+    "days": 270,
+    "img": "img/m1280582043992745.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1395381516036134",
+    "stage": "MOF",
+    "desc": "Portrait split into horizontal bands, each band a different filter (STD / VTG / B&W)",
+    "days": 63,
+    "img": "img/m1395381516036134.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1664730791676465",
+    "stage": "MOF",
+    "desc": "\"You asked. We listened.\" UI-slider rows pairing each customer request with the fix",
+    "days": 63,
+    "img": "img/m1664730791676465.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1595674338761945",
+    "stage": "BOF",
+    "desc": "\"Current stock. This is what's left.\" colour swatches with SOLD OUT tags",
+    "days": 63,
+    "img": "img/m1595674338761945.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1555171859702680",
+    "stage": "BOF",
+    "desc": "Gift-bow hero + \"Limited inventory. Ships first come, first serve.\"",
+    "days": 23,
+    "img": "img/m1555171859702680.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m855538977571937",
+    "stage": "BOF",
+    "desc": "Giant price \"$70\" + spec list under the product",
+    "days": 62,
+    "img": "img/m855538977571937.jpg",
+    "w": 338,
+    "h": 600
+   }
+  ]
+ },
+ {
+  "key": "flashback",
+  "name": "Flashback",
+  "site": "flashbackcamera.com",
+  "note": "ONE35 / ONE75 screen-free cameras, heavy gifting and bundle offers.",
+  "items": [
+   {
+    "ad": "m27438364825830834",
+    "stage": "TOF",
+    "desc": "Moody studio hero: product on a dark reflective surface, no headline (pure product-as-art)",
+    "days": 145,
+    "img": "img/m27438364825830834.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1062117183218273",
+    "stage": "TOF",
+    "desc": "Pinterest/UGC photo collage with floating \"shop the bundle\" product cards",
+    "days": 86,
+    "img": "img/m1062117183218273.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1071715435493051",
+    "stage": "TOF",
+    "desc": "Real UGC photo (matching camera tattoos) with a one-line caption bar",
+    "days": 68,
+    "img": "img/m1071715435493051.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m1715752189529370",
+    "stage": "TOF",
+    "desc": "Product frozen in an ice block (\"Tap to break\") - scroll-stopping prop",
+    "days": 85,
+    "img": "img/m1715752189529370.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1068944792534098",
+    "stage": "TOF",
+    "desc": "Product in a produce bag with strawberries + \"OOPS!!! I bought it again\"",
+    "days": 86,
+    "img": "img/m1068944792534098.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1152768540491950",
+    "stage": "TOF",
+    "desc": "Hand holding product against blue sky with a row of feature icons (\"Only a Flashback feels like this\")",
+    "days": 77,
+    "img": "img/m1152768540491950.jpg",
+    "w": 440,
+    "h": 230
+   },
+   {
+    "ad": "m1949893016129680",
+    "stage": "TOF",
+    "desc": "Festival crowd POV with hand raising the camera (\"Capture the summer you'll never forget\")",
+    "days": 44,
+    "img": "img/m1949893016129680.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1367641166436896",
+    "stage": "TOF",
+    "desc": "Playful scatter of colourways on a flat bright-yellow background, no copy",
+    "days": 43,
+    "img": "img/m1367641166436896.jpg",
+    "w": 337,
+    "h": 600
+   },
+   {
+    "ad": "m1088906624026728",
+    "stage": "TOF",
+    "desc": "Spotlit product hero on black, minimal logo only",
+    "days": 37,
+    "img": "img/m1088906624026728.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1158522519838013",
+    "stage": "TOF",
+    "desc": "Venn diagram: phone circle + disposable circle, product in the overlap",
+    "days": 41,
+    "img": "img/m1158522519838013.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2187982321792982",
+    "stage": "TOF",
+    "desc": "Beauty-editorial split faces with product + \"Choose your aesthetic\" sticker",
+    "days": 42,
+    "img": "img/m2187982321792982.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1493183362830115",
+    "stage": "TOF",
+    "desc": "Nightlife film-photo collage with product overlaid (the photos sell the look)",
+    "days": 85,
+    "img": "img/m1493183362830115.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1668969788276008",
+    "stage": "TOF",
+    "desc": "Activity split: climbing photo + \"Going climbing? Take a Flashback\" with 3 benefit icons",
+    "days": 39,
+    "img": "img/m1668969788276008.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m2492794574578605",
+    "stage": "TOF",
+    "desc": "New-model launch: product pair + \"New model\" starburst + \"Pre-order now\"",
+    "days": 35,
+    "img": "img/m2492794574578605.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m1594489958540309",
+    "stage": "MOF",
+    "desc": "Product + 4 icon feature callouts in a grid (\"Built for more creative freedom\")",
+    "days": 28,
+    "img": "img/m1594489958540309.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m997014963442008",
+    "stage": "MOF",
+    "desc": "4-panel feature grid, each panel one feature close-up with a label",
+    "days": 44,
+    "img": "img/m997014963442008.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m1110592061423492",
+    "stage": "MOF",
+    "desc": "Same photo shown in 7 filters as a grid (\"1 camera, 7 different filters\")",
+    "days": 43,
+    "img": "img/m1110592061423492.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1617954000003163",
+    "stage": "BOF",
+    "desc": "Product shrink-wrapped on a supermarket tray with barcode, \"+1 free gift\" sticker, \"Sells out fast\"",
+    "days": 92,
+    "img": "img/m1617954000003163.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m3260841477639382",
+    "stage": "BOF",
+    "desc": "Black Friday poster with tiered bundle cards (buy 1 / buy 2 / buy 3, gifts per tier)",
+    "days": 13,
+    "img": "img/m3260841477639382.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1396028982709642",
+    "stage": "BOF",
+    "desc": "Bundle flat lay (cap, case, strap, camera) + \"Free gift valued at $21 - for a limited time only\"",
+    "days": 67,
+    "img": "img/m1396028982709642.jpg",
+    "w": 440,
+    "h": 550
+   }
+  ]
+ },
+ {
+  "key": "retropia",
+  "name": "Retropia",
+  "site": "retro-pia.com",
+  "note": "Disposable-camera lens for mirrorless cameras. Strong on sample-photo creative.",
+  "items": [
+   {
+    "ad": "m1049665613279880",
+    "stage": "TOF",
+    "desc": "Editorial serif headline over a sample photo, product badge bottom-left (\"Your camera shoots 4K. This lens shoots nostalgia.\")",
+    "days": 7,
+    "img": "img/m1049665613279880.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m1131084505725458",
+    "stage": "TOF",
+    "desc": "Emotional future-question headline over a candid photo (\"One day your kids will find your photos. What will they feel?\")",
+    "days": 7,
+    "img": "img/m1131084505725458.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m1252200632926563",
+    "stage": "TOF",
+    "desc": "Two blurry candid photos side by side + \"The blurry shot was always your favorite one\"",
+    "days": 8,
+    "img": "img/m1252200632926563.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m1035792058654538",
+    "stage": "TOF",
+    "desc": "Advertiser-review header (stars, \"The must-have lens for...\") over a big sample photo + discount pill",
+    "days": 3,
+    "img": "img/m1035792058654538.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m1049152679974947",
+    "stage": "TOF",
+    "desc": "Sample photo with thin spec callout lines and product cut-out (sample + specs in one frame)",
+    "days": 10,
+    "img": "img/m1049152679974947.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m1028819102737142",
+    "stage": "TOF",
+    "desc": "Stacked film-photo collage with \"FILM AESTHETIC\" title band",
+    "days": 15,
+    "img": "img/m1028819102737142.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1137333628744947",
+    "stage": "TOF",
+    "desc": "UGC POV build-up step (\"Then our optical waist-level viewfinder\") - part of a sequential series",
+    "days": 28,
+    "img": "img/m1137333628744947.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1113078214548928",
+    "stage": "TOF",
+    "desc": "Clean white build-up step (\"First you got the Retropia lens\") - series of statics adding one accessory each",
+    "days": 28,
+    "img": "img/m1113078214548928.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1100115819499837",
+    "stage": "TOF",
+    "desc": "Personal-callout format: name + photo + \"You haven't taken a real photo in years\"",
+    "days": 26,
+    "img": "img/m1100115819499837.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1079265851773651",
+    "stage": "TOF",
+    "desc": "Handwritten note + hand holding product + doodled face (\"Camera shy? Shoot from the hip\")",
+    "days": 24,
+    "img": "img/m1079265851773651.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m3652439101570393",
+    "stage": "TOF",
+    "desc": "Moody sample photo (shadow on a wall) with handwritten caption \"Some photos don't need overthinking\"",
+    "days": 85,
+    "img": "img/m3652439101570393.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1375999217284936",
+    "stage": "TOF",
+    "desc": "Native comment bubble over a sunset product shot (\"Looks like an Oreo. Shoots like a disposable.\")",
+    "days": 92,
+    "img": "img/m1375999217284936.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m1024531113528127",
+    "stage": "TOF",
+    "desc": "Meme caption top + bottom over a gritty product photo (\"not me finding the cheat code for film photos\")",
+    "days": 86,
+    "img": "img/m1024531113528127.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1574123460976121",
+    "stage": "TOF",
+    "desc": "Bold colour-block headline (\"That old film look. Zero editing.\")",
+    "days": 21,
+    "img": "img/m1574123460976121.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m608337571639545",
+    "stage": "MOF",
+    "desc": "\"Everyone else vs Retropia\": two Instagram-style posts side by side, the Retropia one hearted",
+    "days": 7,
+    "img": "img/m608337571639545.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m1103948482641298",
+    "stage": "MOF",
+    "desc": "Exploded product + 4 benefit bullets + was/now price card + star rating (\"See what makes the look\")",
+    "days": 2,
+    "img": "img/m1103948482641298.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m1145058388005778",
+    "stage": "MOF",
+    "desc": "Dark apology-letter format (\"We owe you an apology\") reframing the product benefit",
+    "days": 0,
+    "img": "img/m1145058388005778.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m1433044188955592",
+    "stage": "BOF",
+    "desc": "\"We're sorry for the mix-up\" pricing-glitch letter: honour a mistaken low price while stock lasts",
+    "days": 25,
+    "img": "img/m1433044188955592.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m2030973307561513",
+    "stage": "BOF",
+    "desc": "Strike-through price with a circled new price (\"$60 \u2192 $39\") + best-seller badge",
+    "days": 19,
+    "img": "img/m2030973307561513.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m2062793071056169",
+    "stage": "BOF",
+    "desc": "Buy 1 Get 1 Free tied to a cause month, units-left counter",
+    "days": 28,
+    "img": "img/m2062793071056169.jpg",
+    "w": 338,
+    "h": 600
+   }
+  ]
+ },
+ {
+  "key": "rewindpix",
+  "name": "Rewindpix",
+  "site": "Meta page",
+  "note": "New entrant. All ads launched in the last week: format ideas only, no proven winners.",
+  "items": [
+   {
+    "ad": "m1092120233550855",
+    "stage": "TOF",
+    "desc": "Magazine-cover masthead (\"REWIND\" in red) over a hand-held product against a city skyline",
+    "days": 8,
+    "img": "img/m1092120233550855.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1090498996937054",
+    "stage": "TOF",
+    "desc": "Hand-held product tilted against a soft blurred sky - no copy, pure aspirational product shot",
+    "days": 0,
+    "img": "img/m1090498996937054.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1977271936293534",
+    "stage": "TOF",
+    "desc": "Product on a caf\u00e9 table with warm bokeh and a cute sticker detail",
+    "days": 1,
+    "img": "img/m1977271936293534.jpg",
+    "w": 440,
+    "h": 330
+   },
+   {
+    "ad": "m1810742079931200",
+    "stage": "TOF",
+    "desc": "Black colourway held up close against a flat grey wall",
+    "days": 0,
+    "img": "img/m1810742079931200.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m1453161126778407",
+    "stage": "TOF",
+    "desc": "Macro hand-held close-up on the flash and shutter detail",
+    "days": 1,
+    "img": "img/m1453161126778407.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m28991731657177270",
+    "stage": "TOF",
+    "desc": "Product on a bar counter under moody hanging bulbs (nightlife context)",
+    "days": 1,
+    "img": "img/m28991731657177270.jpg",
+    "w": 440,
+    "h": 312
+   },
+   {
+    "ad": "m1347920823915738",
+    "stage": "TOF",
+    "desc": "Creator mirror selfie holding the camera (UGC-style)",
+    "days": 4,
+    "img": "img/m1347920823915738.jpg",
+    "w": 440,
+    "h": 587
+   },
+   {
+    "ad": "m3411170469044216",
+    "stage": "TOF",
+    "desc": "POV through the optical viewfinder onto a beach (\"what you see is what you shoot\")",
+    "days": 4,
+    "img": "img/m3411170469044216.jpg",
+    "w": 440,
+    "h": 587
+   },
+   {
+    "ad": "m2055712935755690",
+    "stage": "TOF",
+    "desc": "Hand-held product on a saturated orange backdrop, second colourway peeking below",
+    "days": 1,
+    "img": "img/m2055712935755690.jpg",
+    "w": 440,
+    "h": 559
+   },
+   {
+    "ad": "m1080871121493449",
+    "stage": "TOF",
+    "desc": "Hand-held in the street, everyday carry context",
+    "days": 1,
+    "img": "img/m1080871121493449.jpg",
+    "w": 440,
+    "h": 563
+   },
+   {
+    "ad": "m1820413935892193",
+    "stage": "TOF",
+    "desc": "Product surrounded by film rolls on a bright yellow tray (nostalgia props)",
+    "days": 0,
+    "img": "img/m1820413935892193.jpg",
+    "w": 440,
+    "h": 331
+   },
+   {
+    "ad": "m2312273555843773",
+    "stage": "TOF",
+    "desc": "Overhead flat lay of three colourways on stone",
+    "days": 0,
+    "img": "img/m2312273555843773.jpg",
+    "w": 440,
+    "h": 313
+   },
+   {
+    "ad": "m4546441788905903",
+    "stage": "TOF",
+    "desc": "Person shooting toward the viewer at home (you are the subject)",
+    "days": 1,
+    "img": "img/m4546441788905903.jpg",
+    "w": 440,
+    "h": 293
+   },
+   {
+    "ad": "m2376441989556957",
+    "stage": "TOF",
+    "desc": "Dark studio product shot with strap and red shutter accent",
+    "days": 0,
+    "img": "img/m2376441989556957.jpg",
+    "w": 440,
+    "h": 330
+   },
+   {
+    "ad": "m1417410403916958",
+    "stage": "TOF",
+    "desc": "Hand presenting the camera on vivid green grass",
+    "days": 0,
+    "img": "img/m1417410403916958.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1859114048436898",
+    "stage": "TOF",
+    "desc": "Hand presenting the slate colourway against ferns",
+    "days": 0,
+    "img": "img/m1859114048436898.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m28823087127352064",
+    "stage": "TOF",
+    "desc": "Moody portrait of a creator holding the camera up to his face in a caf\u00e9",
+    "days": 0,
+    "img": "img/m28823087127352064.jpg",
+    "w": 440,
+    "h": 279
+   },
+   {
+    "ad": "m1134665645809894",
+    "stage": "MOF",
+    "desc": "Filter \"spec card\": big filter name + 3 sample photos + tags (\"GL200 - warm golden tones\")",
+    "days": 0,
+    "img": "img/m1134665645809894.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1824665498706078",
+    "stage": "MOF",
+    "desc": "Black-and-white filter card with a single architectural sample (\"BWHC - Bold lines\")",
+    "days": 1,
+    "img": "img/m1824665498706078.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1022970310814588",
+    "stage": "MOF",
+    "desc": "Sample photo alone (sunset beach) - proof of the output, no copy",
+    "days": 0,
+    "img": "img/m1022970310814588.jpg",
+    "w": 440,
+    "h": 294
+   }
+  ]
+ }
+]
