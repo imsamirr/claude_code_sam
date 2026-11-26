@@ -1,0 +1,271 @@
+<title>Retra Inspiration Picker</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+:root {
+  --bg:#eceeef; --panel:#f8f9f9; --fg:#16191b; --muted:#5a6268; --line:#cfd4d7;
+  --pick:#1d6f5f; --pick-bg:#d7ebe5; --tof:#1d6f5f; --tof-bg:#d7ebe5; --mof:#7a5a12; --mof-bg:#f2e6c6; --bof:#a3291f; --bof-bg:#f6d9d5;
+  --dark:#1b1e20; --dark-fg:#e9ecee; --warn:#7a5a12; --warn-bg:#f2e6c6;
+  --display:"Archivo","Helvetica Neue",Arial,sans-serif; --body:"IBM Plex Sans","Segoe UI",Arial,sans-serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg:#121416; --panel:#1b1e21; --fg:#e8ebed; --muted:#9aa3a9; --line:#2d3236;
+  --pick:#6fd1bb; --pick-bg:#17352e; --tof:#6fd1bb; --tof-bg:#17352e; --mof:#e5c46f; --mof-bg:#3a301a; --bof:#f28b80; --bof-bg:#3d1e1b;
+  --dark:#0a0b0c; --dark-fg:#e9ecee; --warn:#e5c46f; --warn-bg:#3a301a; color-scheme:dark } }
+:root[data-theme="dark"] {
+  --bg:#121416; --panel:#1b1e21; --fg:#e8ebed; --muted:#9aa3a9; --line:#2d3236;
+  --pick:#6fd1bb; --pick-bg:#17352e; --tof:#6fd1bb; --tof-bg:#17352e; --mof:#e5c46f; --mof-bg:#3a301a; --bof:#f28b80; --bof-bg:#3d1e1b;
+  --dark:#0a0b0c; --dark-fg:#e9ecee; --warn:#e5c46f; --warn-bg:#3a301a; color-scheme:dark }
+body { background:var(--bg); color:var(--fg); font:15px/1.5 var(--body) }
+.wrap { max-width:1280px; margin:0 auto; padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); padding-block:20px 80px }
+h1 { font:800 clamp(26px,4.5vw,40px)/1.05 var(--display); margin:6px 0 6px; text-wrap:balance }
+.eyebrow { font:500 12px var(--mono); letter-spacing:.1em; text-transform:uppercase; color:var(--muted) }
+.lede { margin:0; color:var(--muted); max-width:70ch }
+.bar { position:sticky; top:env(safe-area-inset-top, 0px); z-index:5; background:var(--bg); border-bottom:1px solid var(--line); padding-block:10px; margin-top:14px; display:flex; flex-direction:column; gap:8px }
+body::before { content:""; position:fixed; inset:0 0 auto; height:env(safe-area-inset-top, 0px); z-index:10; background:var(--bg) }
+.row { display:flex; flex-wrap:wrap; gap:6px; align-items:center }
+.seg button, .tog { font:600 13px var(--body); color:var(--fg); background:var(--panel); border:1px solid var(--line); padding:6px 12px; border-radius:999px; cursor:pointer }
+.seg button[aria-pressed="true"], .tog[aria-pressed="true"] { background:var(--fg); color:var(--bg); border-color:var(--fg) }
+button:focus-visible, select:focus-visible, textarea:focus-visible, input:focus-visible { outline:2px solid var(--pick); outline-offset:2px }
+select { font:500 13px var(--body); color:var(--fg); background:var(--panel); border:1px solid var(--line); border-radius:999px; padding:6px 10px; max-width:100% }
+.spacer { flex:1 }
+.count { font:600 14px var(--mono); color:var(--pick); background:var(--pick-bg); padding:6px 12px; border-radius:999px; white-space:nowrap }
+.copy { font:600 13px var(--body); background:var(--pick); color:var(--bg); border:0; padding:7px 14px; border-radius:999px; cursor:pointer }
+.status { font-size:13px; color:var(--muted); min-height:1.2em; margin:0 }
+.status.warn { color:var(--warn); background:var(--warn-bg); padding:6px 10px; border-radius:6px }
+.grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(210px,1fr)); gap:18px 16px; margin-top:18px }
+.card { min-width:0; background:var(--panel); border:2px solid var(--line); border-radius:8px; overflow:hidden; display:flex; flex-direction:column }
+.card.on { border-color:var(--pick) }
+.shot { background:var(--dark); aspect-ratio:4/5; display:grid; place-items:center; border:0; padding:6px; cursor:zoom-in; width:100% }
+.shot img { max-width:100%; max-height:100%; width:auto; height:auto; object-fit:contain; border-radius:2px }
+.info { padding:10px 12px 12px; display:flex; flex-direction:column; gap:6px; flex:1 }
+.top { display:flex; justify-content:space-between; align-items:baseline; gap:8px }
+.brand { font:700 16px var(--display); margin:0 }
+.chip { font:600 11px/1 var(--mono); letter-spacing:.05em; padding:4px 7px; border-radius:3px; white-space:nowrap }
+.chip.TOF { color:var(--tof); background:var(--tof-bg) } .chip.MOF { color:var(--mof); background:var(--mof-bg) } .chip.BOF { color:var(--bof); background:var(--bof-bg) }
+.fmt { margin:0; font-size:13px; line-height:1.45; flex:1 }
+.days { font:500 11px var(--mono); color:var(--muted) }
+.pickbtn { display:flex; align-items:center; justify-content:center; gap:8px; font:600 14px var(--body); border:1px solid var(--line); background:var(--bg); color:var(--fg); border-radius:6px; padding:9px; cursor:pointer; width:100% }
+.pickbtn .box { width:18px; height:18px; border:2px solid var(--muted); border-radius:4px; display:grid; place-items:center; font-size:13px; line-height:1 }
+.card.on .pickbtn { background:var(--pick); color:var(--bg); border-color:var(--pick) }
+.card.on .pickbtn .box { border-color:var(--bg) }
+textarea { font:14px/1.4 var(--body); color:var(--fg); background:var(--bg); border:1px solid var(--line); border-radius:6px; padding:7px 9px; resize:vertical; min-height:2.6em; width:100%; box-sizing:border-box }
+.empty { margin-top:30px; color:var(--muted) }
+dialog { border:0; padding:0; background:transparent; max-width:min(92vw, 720px); max-height:92vh }
+dialog::backdrop { background:rgba(0,0,0,.8) }
+dialog img { display:block; max-width:100%; max-height:86vh; margin:0 auto; border-radius:4px }
+dialog p { color:#e9ecee; font-size:14px; margin:8px 0 0; text-align:center }
+dialog button { position:fixed; top:calc(12px + env(safe-area-inset-top, 0px)); right:calc(12px + env(safe-area-inset-right, 0px)); font:600 14px var(--body); background:#e9ecee; color:#16191b; border:0; border-radius:999px; padding:8px 14px; cursor:pointer }
+@media (max-width:520px) { .grid { grid-template-columns:repeat(2, minmax(0,1fr)); gap:12px 10px } .info { padding:8px } .brand { font-size:14px } .fmt { font-size:12px } }
+</style>
+
+<div class="wrap">
+<div class="eyebrow">Retra · static ad inspiration · 300 ads · 15 brands</div>
+<h1>Pick the inspiration you like</h1>
+<p class="lede">Tap <strong>Use this</strong> on every ad whose format you want for Retra. Add a note if you want something specific (e.g. "this layout, but with our camera"). Your picks save automatically, and Claude reads them straight from this page.</p>
+
+<div class="bar">
+  <div class="row">
+    <div class="row seg" role="group" aria-label="Group" id="boards">
+      <button type="button" data-v="all" aria-pressed="true">All</button>
+      <button type="button" data-v="camera" aria-pressed="false">Camera niche</button>
+      <button type="button" data-v="sleep" aria-pressed="false">Sleep &amp; hearing</button>
+      <button type="button" data-v="health" aria-pressed="false">Health DR</button>
+    </div>
+    <div class="spacer"></div>
+    <span class="count" id="count" aria-live="polite">0 picked</span>
+    <button type="button" class="copy" id="copy">Copy my picks</button>
+  </div>
+  <div class="row">
+    <div class="row seg" role="group" aria-label="Funnel stage" id="stages">
+      <button type="button" data-v="all" aria-pressed="true">All stages</button>
+      <button type="button" data-v="TOF" aria-pressed="false">TOF</button>
+      <button type="button" data-v="MOF" aria-pressed="false">MOF</button>
+      <button type="button" data-v="BOF" aria-pressed="false">BOF</button>
+    </div>
+    <label class="sr" for="brand" hidden>Brand</label>
+    <select id="brand" aria-label="Brand"><option value="all">All brands</option></select>
+    <button type="button" class="tog" id="onlyPicked" aria-pressed="false">Picked only</button>
+  </div>
+  <p class="status" id="status">Loading…</p>
+</div>
+
+<div class="grid" id="grid"></div>
+<p class="empty" id="empty" hidden>No ads match these filters.</p>
+</div>
+
+<dialog id="lb"><button type="button" id="lbClose">Close</button><img id="lbImg" alt=""><p id="lbCap"></p></dialog>
+
+<script>
+(function () {
+  var ADS = [], byId = {}, cards = {};
+  var picks = {};           // id -> {note}
+  var db = null, col = null, canWrite = true, dbReady = false;
+  var f = { board: "all", stage: "all", brand: "all", only: false };
+  var LS = "retra-picks-v1";
+  var queue = {};           // id -> promise chain (one write at a time per doc)
+  var early = {};           // ids toggled before the store answered
+  var $ = function (id) { return document.getElementById(id); };
+
+  function status(msg, warn) { var s = $("status"); s.textContent = msg; s.className = "status" + (warn ? " warn" : ""); }
+  function saveLocal() { try { localStorage.setItem(LS, JSON.stringify(picks)); } catch (e) {} }
+  function loadLocal() { try { var v = JSON.parse(localStorage.getItem(LS) || "{}"); if (v && typeof v === "object") picks = v; } catch (e) {} }
+
+  function count() { var n = Object.keys(picks).length; $("count").textContent = n + " picked"; }
+
+  function syncCard(id) {
+    var c = cards[id]; if (!c) return;
+    var on = !!picks[id];
+    c.el.classList.toggle("on", on);
+    c.btn.setAttribute("aria-pressed", String(on));
+    c.box.textContent = on ? "✓" : "";
+    c.label.textContent = on ? "Picked" : "Use this";
+    c.note.hidden = !on;
+    if (on && document.activeElement !== c.note) c.note.value = picks[id].note || "";
+  }
+
+  function build() {
+    var g = $("grid");
+    ADS.forEach(function (a) {
+      var el = document.createElement("article"); el.className = "card";
+      var shot = document.createElement("button"); shot.type = "button"; shot.className = "shot"; shot.setAttribute("aria-label", "Enlarge " + a.brand + " ad");
+      var img = document.createElement("img"); img.src = a.img; img.width = a.w; img.height = a.h; img.loading = "lazy"; img.alt = a.brand + " ad: " + a.fmt;
+      shot.appendChild(img); shot.addEventListener("click", function () { openLb(a); });
+      var info = document.createElement("div"); info.className = "info";
+      var top = document.createElement("div"); top.className = "top";
+      var h = document.createElement("h2"); h.className = "brand"; h.textContent = a.brand;
+      var chip = document.createElement("span"); chip.className = "chip " + a.stage; chip.textContent = a.stage;
+      top.appendChild(h); top.appendChild(chip);
+      var fmt = document.createElement("p"); fmt.className = "fmt"; fmt.textContent = a.fmt;
+      var days = document.createElement("span"); days.className = "days"; days.textContent = a.days + " days running";
+      var btn = document.createElement("button"); btn.type = "button"; btn.className = "pickbtn"; btn.setAttribute("aria-pressed", "false");
+      var box = document.createElement("span"); box.className = "box"; box.setAttribute("aria-hidden", "true");
+      var label = document.createElement("span"); label.textContent = "Use this";
+      btn.appendChild(box); btn.appendChild(label);
+      btn.addEventListener("click", function () { toggle(a.id); });
+      var note = document.createElement("textarea"); note.rows = 2; note.placeholder = "Note (optional)"; note.setAttribute("aria-label", "Note for " + a.brand + " ad"); note.hidden = true; note.maxLength = 500;
+      note.addEventListener("change", function () { saveNote(a.id, note.value.trim()); });
+      info.appendChild(top); info.appendChild(fmt); info.appendChild(days); info.appendChild(btn); info.appendChild(note);
+      el.appendChild(shot); el.appendChild(info); g.appendChild(el);
+      cards[a.id] = { el: el, btn: btn, box: box, label: label, note: note };
+      syncCard(a.id);
+    });
+    var brands = []; ADS.forEach(function (a) { if (brands.indexOf(a.brand) < 0) brands.push(a.brand); });
+    brands.forEach(function (b) { var o = document.createElement("option"); o.value = b; o.textContent = b; $("brand").appendChild(o); });
+    filter(); count();
+  }
+
+  function filter() {
+    var shown = 0;
+    ADS.forEach(function (a) {
+      var ok = (f.board === "all" || a.board === f.board) && (f.stage === "all" || a.stage === f.stage) &&
+               (f.brand === "all" || a.brand === f.brand) && (!f.only || picks[a.id]);
+      cards[a.id].el.hidden = !ok; if (ok) shown++;
+    });
+    $("empty").hidden = shown > 0;
+  }
+
+  function enqueue(id, fn) {
+    var p = (queue[id] || Promise.resolve()).then(fn, fn);
+    queue[id] = p.catch(function () {});
+    return p;
+  }
+
+  function writeErr(e) {
+    var code = e && e.code;
+    if (code === "invalid_argument" || code === "not_granted") { canWrite = false; status("You can view this page but not save picks. Use “Copy my picks” and paste them to Claude.", true); }
+    else if (code === "quota_exceeded") status("The page's storage is full. Use “Copy my picks” and paste them to Claude.", true);
+    else status("A pick didn't save (" + (code || "error") + "). Try again in a moment.", true);
+  }
+
+  function toggle(id) {
+    var a = byId[id];
+    if (picks[id]) delete picks[id]; else picks[id] = { note: "" };
+    saveLocal(); syncCard(id); count(); if (f.only) filter();
+    if (!dbReady) { early[id] = true; }
+    if (!col || !canWrite || !dbReady) return;
+    var want = !!picks[id];
+    enqueue(id, function () {
+      var ref = col.doc(id);
+      return want ? ref.set({ ad: id, brand: a.brand, board: a.board, stage: a.stage, format: a.fmt, note: (picks[id] && picks[id].note) || "", picked_at: new Date().toISOString() })
+                  : ref.delete();
+    }).catch(writeErr);
+  }
+
+  function saveNote(id, text) {
+    if (!picks[id] || picks[id].note === text) return;
+    picks[id].note = text; saveLocal();
+    if (!col || !canWrite || !dbReady) return;
+    enqueue(id, function () { return col.doc(id).update({ note: text }); }).catch(writeErr);
+  }
+
+  function copyPicks() {
+    var ids = Object.keys(picks).filter(function (id) { return byId[id]; });
+    if (!ids.length) { status("Nothing picked yet."); return; }
+    var lines = ids.map(function (id) { var a = byId[id]; var n = picks[id].note ? " | note: " + picks[id].note : ""; return "- " + a.brand + " [" + a.stage + "] " + a.fmt + " (" + id + ")" + n; });
+    var text = "My Retra inspiration picks (" + ids.length + "):\n" + lines.join("\n");
+    try {
+      navigator.clipboard.writeText(text).then(function () { status("Copied " + ids.length + " picks. Paste them to Claude if needed."); }, function () { fallbackCopy(text); });
+    } catch (e) { fallbackCopy(text); }
+  }
+  function fallbackCopy(text) {
+    var t = document.createElement("textarea"); t.value = text; t.style.width = "100%"; t.rows = 8;
+    var s = $("status"); s.textContent = "Select and copy this text:"; s.className = "status"; s.appendChild(t); t.focus(); t.select();
+  }
+
+  function openLb(a) {
+    $("lbImg").src = a.img; $("lbImg").alt = a.brand + " ad: " + a.fmt; $("lbCap").textContent = a.brand + " · " + a.stage + " · " + a.fmt;
+    try { $("lb").showModal(); } catch (e) { $("lb").setAttribute("open", ""); }
+  }
+  $("lbClose").addEventListener("click", function () { $("lb").close(); });
+  $("lb").addEventListener("click", function (e) { if (e.target === $("lb")) $("lb").close(); });
+
+  function seg(id, key) {
+    var bs = [].slice.call($(id).querySelectorAll("button"));
+    bs.forEach(function (b) { b.addEventListener("click", function () {
+      f[key] = b.dataset.v; bs.forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); }); filter();
+    }); });
+  }
+  seg("boards", "board"); seg("stages", "stage");
+  $("brand").addEventListener("change", function (e) { f.brand = e.target.value; filter(); });
+  $("onlyPicked").addEventListener("click", function () { f.only = !f.only; this.setAttribute("aria-pressed", String(f.only)); filter(); });
+  $("copy").addEventListener("click", copyPicks);
+
+  function startDb() {
+    if (!window.claude || !window.claude.use) { status("Saving on this device only. When you're done, tap “Copy my picks” and paste them to Claude.", true); return; }
+    window.claude.use("user").then(function (u) {
+      if (u && u.can) u.can("data.write").then(function (v) { if (v === false) { canWrite = false; status("You can view this page but not save picks here. Use “Copy my picks”.", true); } });
+    }).catch(function () {});
+    window.claude.use("db").then(function (d) {
+      if (!d) { status("Saving on this device only. When you're done, tap “Copy my picks” and paste them to Claude.", true); return; }
+      db = d; col = db.collection("picks");
+      var timer = setTimeout(function () { if (!dbReady) status("Can't reach saved picks yet; ticks are kept on this device for now.", true); }, 10000);
+      col.onSnapshot(function (snap) {
+        var server = {};
+        snap.docs.forEach(function (doc) { var v = doc.data() || {}; server[doc.id] = { note: typeof v.note === "string" ? v.note : "" }; });
+        if (!dbReady && !snap.metadata.fromCache) {
+          dbReady = true; clearTimeout(timer);
+          // first load: apply ticks made on this device before the store answered
+          Object.keys(early).forEach(function (id) {
+            if (!byId[id] || !canWrite) return;
+            var mine = picks[id];
+            if (mine && !server[id]) { server[id] = mine; enqueue(id, function () { var a = byId[id]; return col.doc(id).set({ ad: id, brand: a.brand, board: a.board, stage: a.stage, format: a.fmt, note: mine.note || "", picked_at: new Date().toISOString() }); }).catch(writeErr); }
+            else if (!mine && server[id]) { delete server[id]; enqueue(id, function () { return col.doc(id).delete(); }).catch(writeErr); }
+          });
+          early = {};
+          if (canWrite) status("Picks save automatically. Claude can read them from this page.");
+        }
+        picks = server; saveLocal();
+        Object.keys(cards).forEach(syncCard); count(); if (f.only) filter();
+      }, function (e) { clearTimeout(timer); status("Saved picks can't be loaded right now (" + (e && e.code) + "). Use “Copy my picks”.", true); });
+    }).catch(function () { status("Saving on this device only. Use “Copy my picks” when done.", true); });
+  }
+
+  loadLocal();
+  fetch("data.json").then(function (r) { return r.json(); }).then(function (rows) {
+    ADS = rows; ADS.forEach(function (a) { byId[a.id] = a; });
+    build(); status("Loading saved picks…"); startDb();
+  }).catch(function () { status("Couldn't load the ads. Reload the page.", true); });
+})();
+</script>
