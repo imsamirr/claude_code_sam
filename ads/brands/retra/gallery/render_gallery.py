@@ -25,6 +25,7 @@ BASE = HERE / "base"  # landing-page base renders (back/bottom/usbc), copied fro
 OUT = HERE / "renders"
 OUT.mkdir(exist_ok=True)
 COLOURS = {"chalk": "off-white (Chalk)", "obsidian": "black (Obsidian)", "sol": "mustard yellow (Sol)"}
+EXTRA = {"dune": "warm tan-brown (Dune)"}  # extra colours rendered only on request
 BG = "a plain warm cream seamless background (#F1ECE2)"
 
 REAL = (" Real product photography: soft diffused daylight, gentle natural shadow, slight grain, true colours."
@@ -39,7 +40,7 @@ CAM = (" The camera is exactly the product in the reference photo: black top ban
 
 def jobs():
     j = {}
-    for c, col in COLOURS.items():
+    for c, col in {**COLOURS, **EXTRA}.items():
         j[f"hand_{c}"] = dict(refs=[PRODUCT / f"retra_{c}_34.jpg"], prompt=(
             f"Square product photo on {BG}. A woman's right hand comes in from the right edge and holds the Retra"
             " camera from below, the camera shown straight-on from the front, centred, filling about half the frame"
