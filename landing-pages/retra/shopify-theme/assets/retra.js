@@ -103,12 +103,13 @@
     rewards.forEach(function (r) {
       if (!r.variant) return;
       var mine = cart.items.filter(function (it) { return it.properties && it.properties._reward === r.key; });
-      /* a gift for the same product added by another app (e.g. a Kaching bundle gift, marked with a hidden property) already covers this reward */
-      var other = cart.items.some(function (it) { var pr = it.properties || {}; return it.variant_id === r.variant && it.final_line_price === 0 && !pr._reward && Object.keys(pr).some(function (k) { return k.charAt(0) === '_'; }); });
+      var keep = mine.filter(function (it) { return it.variant_id === r.variant; })[0];
+      /* the same gift already added free by another app (e.g. a Kaching bundle gift) covers this reward */
+      var other = cart.items.some(function (it) { var pr = it.properties || {}; return !pr._reward && it.final_line_price === 0 && (it.variant_id === r.variant || it.variant_id === r.alt); });
       var want = spent >= r.threshold && !other;
-      if (want && !mine.length) jobs.push(function () { return post('/cart/add.js', { items: [{ id: r.variant, quantity: 1, properties: { _reward: r.key } }] }); });
-      mine.forEach(function (it, i) {
-        if (!want || i > 0) jobs.push(function () { return post('/cart/change.js', { id: it.key, quantity: 0 }); });
+      if (want && !keep) jobs.push(function () { return post('/cart/add.js', { items: [{ id: r.variant, quantity: 1, properties: { _reward: r.key } }] }); });
+      mine.forEach(function (it) {
+        if (!want || it !== keep) jobs.push(function () { return post('/cart/change.js', { id: it.key, quantity: 0 }); });
         else if (it.quantity !== 1) jobs.push(function () { return post('/cart/change.js', { id: it.key, quantity: 1 }); });
       });
     });
@@ -268,3 +269,11 @@
     }).observe(row, { subtree: true, attributes: true, attributeFilter: ['aria-current'] });
   });
 })();
+
+/* Cart drawer upsell colour photo: picking a colour shows that camera. */
+document.addEventListener('change', function (e) {
+  var sel = e.target;
+  if (!sel.classList || !sel.classList.contains('c-card__sel')) return;
+  var opt = sel.options[sel.selectedIndex], card = sel.closest('.c-card'), img = card && card.querySelector('.c-card__img img');
+  if (img && opt && opt.dataset.img) { img.src = opt.dataset.img; img.removeAttribute('srcset'); }
+});

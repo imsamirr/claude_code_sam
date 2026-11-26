@@ -668,3 +668,25 @@ body.cart-open { overflow: hidden; }
   .thumbs::-webkit-scrollbar { display: none; }
   .thumbs button { flex: 0 0 56px; width: 56px; height: 56px; scroll-snap-align: start; }
 }
+
+/* ===== darker CTAs: solid navy so buttons read as clickable ===== */
+.cta { background: linear-gradient(100deg, #022B49 0%, #0D3757 60%, #1A4769 100%); box-shadow: inset 0 1px 0 rgba(255,255,255,.12), 0 8px 20px rgba(2,43,73,.28); }
+.cta::after { background: radial-gradient(60% 120% at 20% 0%, rgba(255,255,255,.10), transparent 60%); }
+.cta:hover { filter: brightness(1.15); }
+
+/* ===== cart drawer v2: one-line rewards bar, always-visible upsell button ===== */
+.c-rewards { padding: 2px 28px 14px; }
+.c-rewards__msg { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 14px; margin: 0 0 10px; }
+.c-rewards__track { height: 8px; margin: 0 14px 0 4px; }
+.c-rewards__stop { width: 26px; height: 26px; margin: -13px 0 0 -13px; }
+.c-rewards__labels { display: none; }
+.c-card { grid-template-columns: 84px minmax(0, 1fr); flex-basis: 88%; }
+.c-card__row { display: flex; align-items: center; gap: 8px; margin-top: 2px; }
+.c-card__sel { flex: 1 1 auto; min-width: 0; max-width: none; padding: 8px; }
+.c-card__add { flex: none; padding: 8px 16px; font-size: 14px; }
+@media (max-width: 560px) {
+  .c-rewards { padding: 2px 18px 12px; }
+  .c-rewards__msg { font-size: 12.5px; letter-spacing: -.01em; }
+  .c-card { grid-template-columns: 72px minmax(0, 1fr); flex-basis: 92%; }
+  .c-card__add { grid-column: auto; width: auto; }
+}

@@ -4,8 +4,10 @@
   Rendered by Shopify and re-fetched with the Section Rendering API (/?sections=retra-cart-drawer) after every cart change.
 {%- endcomment -%}
 {%- liquid
-  assign r1 = section.settings.reward_1_product | default: all_products['retra-woven-camera-strap-leash']
-  assign r2 = section.settings.reward_2_product | default: all_products['retra-leather-camera-bag']
+  assign r1 = section.settings.reward_1_product | default: all_products['retra-gift-strap']
+  assign r2 = section.settings.reward_2_product | default: all_products['retra-gift-bag']
+  assign a1 = all_products['retra-woven-camera-strap-leash'].selected_or_first_available_variant.id | default: 0
+  assign a2 = all_products['retra-leather-camera-bag'].selected_or_first_available_variant.id | default: 0
   assign t1 = section.settings.reward_1_threshold | times: 100
   assign t2 = section.settings.reward_2_threshold | times: 100
 
@@ -30,7 +32,7 @@
   endif
 -%}
 <div class="cart-drawer" id="cart-drawer" hidden role="dialog" aria-modal="true" aria-labelledby="cart-h"
-  data-rewards="{% if section.settings.show_rewards %}[{&quot;key&quot;:&quot;r1&quot;,&quot;threshold&quot;:{{ t1 }},&quot;variant&quot;:{{ r1.selected_or_first_available_variant.id | default: 0 }}},{&quot;key&quot;:&quot;r2&quot;,&quot;threshold&quot;:{{ t2 }},&quot;variant&quot;:{{ r2.selected_or_first_available_variant.id | default: 0 }}}]{% else %}[]{% endif %}">
+  data-rewards="{% if section.settings.show_rewards %}[{&quot;key&quot;:&quot;r1&quot;,&quot;threshold&quot;:{{ t1 }},&quot;variant&quot;:{{ r1.selected_or_first_available_variant.id | default: 0 }},&quot;alt&quot;:{{ a1 }}},{&quot;key&quot;:&quot;r2&quot;,&quot;threshold&quot;:{{ t2 }},&quot;variant&quot;:{{ r2.selected_or_first_available_variant.id | default: 0 }},&quot;alt&quot;:{{ a2 }}}]{% else %}[]{% endif %}">
   <button type="button" class="scrim" data-close-cart aria-label="Close cart" tabindex="-1"></button>
   <div class="panel-c" data-cart-inner data-count="{{ cart.item_count }}">
     <div class="c-head">
@@ -61,10 +63,9 @@
           <p class="c-rewards__msg">{{ msg }}</p>
           <div class="c-rewards__track" role="progressbar" aria-valuemin="0" aria-valuemax="{{ t2 | divided_by: 100 }}" aria-valuenow="{{ total | divided_by: 100 }}">
             <i style="width:{{ pct }}%"></i>
-            <span class="c-rewards__stop{% if total >= t1 %} is-on{% endif %}" style="left:{{ m1 }}%">{%- if r1.featured_image -%}<img src="{{ r1.featured_image | image_url: width: 80 }}" alt="" width="28" height="28" loading="lazy">{%- endif -%}</span>
-            <span class="c-rewards__stop{% if total >= t2 %} is-on{% endif %}" style="left:100%">{%- if r2.featured_image -%}<img src="{{ r2.featured_image | image_url: width: 80 }}" alt="" width="28" height="28" loading="lazy">{%- endif -%}</span>
+            <span class="c-rewards__stop{% if total >= t1 %} is-on{% endif %}" style="left:{{ m1 }}%" title="{{ section.settings.label_1 | escape }}">{%- if r1.featured_image -%}<img src="{{ r1.featured_image | image_url: width: 80 }}" alt="" width="28" height="28" loading="lazy">{%- endif -%}</span>
+            <span class="c-rewards__stop{% if total >= t2 %} is-on{% endif %}" style="left:100%" title="{{ section.settings.label_2 | escape }}">{%- if r2.featured_image -%}<img src="{{ r2.featured_image | image_url: width: 80 }}" alt="" width="28" height="28" loading="lazy">{%- endif -%}</span>
           </div>
-          <div class="c-rewards__labels"><span style="left:{{ m1 }}%">{{ section.settings.label_1 }}</span><span style="left:100%">{{ section.settings.label_2 }}</span></div>
         </div>
       {%- endif -%}
 
@@ -123,14 +124,16 @@
                   <div class="c-card__main">
                     <a class="t" href="{{ up.url }}">{{ up.title }}</a>
                     <div class="pr"><b>{{ uv.price | money }}</b>{%- if uv.compare_at_price > uv.price -%}<s>{{ uv.compare_at_price | money }}</s>{%- endif -%}</div>
+                    <div class="c-card__row">
                     {%- unless up.has_only_default_variant -%}
                       <select class="c-card__sel" aria-label="{{ section.settings.upsell_select | escape }}">
                         <option value="" disabled selected>{{ section.settings.upsell_select }}</option>
-                        {%- for v in up.variants -%}{%- if v.available -%}<option value="{{ v.id }}">{{ v.title }}</option>{%- endif -%}{%- endfor -%}
+                        {%- for v in up.variants -%}{%- if v.available -%}<option value="{{ v.id }}" data-img="{{ v.featured_media | default: up.featured_media | image_url: width: 240 }}">{{ v.title }}</option>{%- endif -%}{%- endfor -%}
                       </select>
                     {%- endunless -%}
+                      <button type="button" class="c-card__add" data-upsell-add{% if up.has_only_default_variant %} data-variant="{{ uv.id }}"{% endif %}>{{ section.settings.upsell_add }}</button>
+                    </div>
                   </div>
-                  <button type="button" class="c-card__add" data-upsell-add{% if up.has_only_default_variant %} data-variant="{{ uv.id }}"{% endif %}>{{ section.settings.upsell_add }}</button>
                 </div>
               {%- endif -%}
             {%- endfor -%}
@@ -171,9 +174,9 @@
     { "type": "header", "content": "Rewards bar" },
     { "type": "checkbox", "id": "show_rewards", "label": "Show rewards bar and add the free gifts", "default": true, "info": "The gifts are made free at checkout by the automatic discounts \"Retra-Shots reward: ...\" in Shopify Discounts. Turn those off too if you hide this." },
     { "type": "number", "id": "reward_1_threshold", "label": "Reward 1: spend (dollars)", "default": 150 },
-    { "type": "product", "id": "reward_1_product", "label": "Reward 1: free product", "info": "Empty uses the Woven Camera Strap Leash." },
+    { "type": "product", "id": "reward_1_product", "label": "Reward 1: free product", "info": "Empty uses the hidden product \"Free Gift: Retra-Shots Woven Camera Strap Leash\"." },
     { "type": "number", "id": "reward_2_threshold", "label": "Reward 2: spend (dollars)", "default": 200 },
-    { "type": "product", "id": "reward_2_product", "label": "Reward 2: free product", "info": "Empty uses the Leather Camera Bag." },
+    { "type": "product", "id": "reward_2_product", "label": "Reward 2: free product", "info": "Empty uses the hidden product \"Free Gift: Retra-Shots Leather Camera Bag\"." },
     { "type": "text", "id": "msg_1", "label": "Message before reward 1", "default": "Add [amount] to unlock a FREE Camera Strap Leash", "info": "[amount] is filled in automatically." },
     { "type": "text", "id": "msg_2", "label": "Message after reward 1", "default": "Free Strap unlocked! Add [amount] for a FREE Leather Camera Bag" },
     { "type": "text", "id": "msg_3", "label": "Message after reward 2", "default": "You unlocked both free gifts!" },
