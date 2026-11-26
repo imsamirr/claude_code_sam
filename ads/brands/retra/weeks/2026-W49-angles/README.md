@@ -10,7 +10,7 @@ Funnel: 13 TOF · 3 MOF · 3 BOF.
 - `render.py`: 4K Kie scenes (Nano Banana Pro, reference-guided from `assets/retra/product/retra_<colour>_34.jpg`) for 01 03 05 06 12 13; 2 takes each, picks in `scenes.py` (PICKS). Raw renders kept as JPEG archives; 4K PNGs stay local.
 - `scenes.py`: layouts on the scene renders.
 - `output/`: 19 statics × (9:16 + 4:5), `_sheet_4x5.jpg`, `_sheet_9x16.jpg`, `RET_A49_concepts.csv` (on-image text, Meta headline, primary text, persona, notes).
-- `lib.py`: type system (Tinos / Inter / Shantell Sans, navy #022B49) and 9:16 + 4:5 export.
+- `lib.py`: type system matched to the live store theme (reclaimnutra.com, theme "Retra-Shots", `assets/retra.css`): display Tinos (site stack "Times New Roman", Tinos) weight 400, -0.04em, line-height 1.1, navy #022B49; body Inter 400 in #416077; kicker/hand Shantell Sans italic; CTA pill gradient #2C4D63 / #4B6B80 / #8EA6B4; dark label pill #0E1C27; heading emphasis two-tone navy / navy-50. Plus 9:16 + 4:5 export.
 - `sheet.py`: contact sheets.
 
 ## Backgrounds

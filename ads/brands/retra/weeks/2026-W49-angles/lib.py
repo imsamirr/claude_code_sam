@@ -18,6 +18,11 @@ CREAM = (243, 238, 228)
 INK = (2, 43, 73)
 BODY = (65, 96, 119)
 CTA_A, CTA_B = (44, 77, 99), (142, 166, 180)
+CTA_MID = (75, 107, 128)          # site --cta: #2C4D63 0% / #4B6B80 45% / #8EA6B4 100%
+NAVY50 = (128, 149, 164)           # site --navy-50 (#022B49 at 50%) on white
+KICKER = (163, 150, 128)           # site --kicker #A39680
+SAND = (217, 199, 174)             # site --sand #D9C7AE
+PILL_DARK = (14, 28, 39)           # site .pill #0e1c27
 RED = (178, 34, 34)
 WHITE = (255, 255, 255)
 COLOURS = ["chalk", "obsidian", "sol", "dune", "pine", "blossom"]
@@ -156,7 +161,8 @@ def pill(img, text, f, cx, cy, bg, fg, padx=30, pady=16, radius=None):
         gd = ImageDraw.Draw(grad)
         for i in range(int(w)):
             t = i / max(1, w - 1)
-            gd.line([(i, 0), (i, h)], fill=tuple(int(a + (b - a) * t) for a, b in zip(CTA_A, CTA_B)) + (255,))
+            a_, b_, u = (CTA_A, CTA_MID, t / 0.45) if t < 0.45 else (CTA_MID, CTA_B, (t - 0.45) / 0.55)
+            gd.line([(i, 0), (i, h)], fill=tuple(int(a + (b - a) * u) for a, b in zip(a_, b_)) + (255,))
         m = Image.new("L", grad.size, 0)
         ImageDraw.Draw(m).rounded_rectangle((0, 0, w - 1, h - 1), radius=h / 2, fill=255)
         img.paste(grad, (int(box[0]), int(box[1])), m)

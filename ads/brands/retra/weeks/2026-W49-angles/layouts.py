@@ -25,7 +25,7 @@ def S(cid, name, default=""):
     return typeset(v)
 
 
-def text_block(img, text, mk, x, y, w, max_lines, start, floor, color, align="left", lead=1.06, shadow=None):
+def text_block(img, text, mk, x, y, w, max_lines, start, floor, color, align="left", lead=1.1, shadow=None):
     f, lines = fit(text, mk, w, max_lines, start, floor)
     return draw_lines(img, lines, f, x, y, color, align, lead, shadow, w)
 
@@ -102,15 +102,10 @@ def a02(cid):
     band_y = 360
     d.rectangle((0, band_y, W, band_y + 96), fill=(243, 234, 214))
     bt = S(cid, "band_title", "FILM AESTHETIC").upper()
-    f = inter(46, "Bold")
-    f.track = 0
-    tw = measure(f, bt) + 12 * (len(bt) - 1)
-    x = (W - tw) / 2
-    for ch in bt:
-        d.text((x, band_y + 22), ch, font=f, fill=(44, 33, 26))
-        x += f.getlength(ch) + 12
+    f = shantell(44, track=0.09)
+    draw_lines(img, [bt], f, 0, band_y + 18, (44, 33, 26), "center", 1.0, None, W)
     y = text_block(img, S(cid, "headline", "Headline here"), tinos, 70, 1290, 650, 3, 62, 46, (247, 240, 226), "left")
-    text_block(img, S(cid, "sub", "Sub line here"), lambda s: inter(s, "Medium"), 72, y + 8, 620, 2, 30, 24,
+    text_block(img, S(cid, "sub", "Sub line here"), lambda s: inter(s, "Regular"), 72, y + 8, 620, 2, 30, 24,
                (222, 205, 184), "left", 1.25)
     place(img, cam("dune", 320, -4), 880, 1440, shadow=0.6, blur=20)
     return grain(img, 3)
@@ -125,7 +120,7 @@ def a04(cid):
         f, ls = fit(ln, lambda s: shantell(s), 900, 1, 78, 50)
         y = draw_lines(img, ls, f, 90, y, INK, "left", 1.12, None, 900) + 6
     place(img, cam("blossom", 760, -3), W / 2 + 40, 1090, shadow=0.42, blur=30, drop=(0, 34))
-    text_block(img, S(cid, "footer", "Footer line"), lambda s: inter(s, "Medium"), 90, 1460, 900, 1, 36, 26, BODY,
+    text_block(img, S(cid, "footer", "Footer line"), lambda s: inter(s, "Regular"), 90, 1460, 900, 1, 36, 26, BODY,
                "center")
     return img
 
@@ -133,9 +128,9 @@ def a04(cid):
 # ---------------------------------------------------------------- 07 social detox: colour-block question
 def a07(cid):
     img = canvas(INK)
-    y = text_block(img, S(cid, "headline", "A big question here?"), lambda s: tinos(s, -0.03), 70, 370, 940, 3, 112,
-                   72, (247, 240, 226), "center", 1.02)
-    text_block(img, S(cid, "sub", "Sub line here"), lambda s: inter(s, "Medium"), 90, y + 18, 900, 2, 38, 28,
+    y = text_block(img, S(cid, "headline", "A big question here?"), lambda s: tinos(s, -0.04), 70, 370, 940, 3, 112,
+                   72, (247, 240, 226), "center", 1.1)
+    text_block(img, S(cid, "sub", "Sub line here"), lambda s: inter(s, "Regular"), 90, y + 18, 900, 2, 38, 28,
                (190, 205, 216), "center", 1.25)
     place(img, cam("sol", 840, -4), W / 2, 1270, shadow=0.7, blur=34, drop=(0, 40))
     return img
@@ -164,10 +159,10 @@ def a08(cid):
         segs = []
         for a_, b_ in sorted(spans):
             if a_ > cur:
-                segs.append((line[cur:a_], INK))
-            segs.append((line[a_:b_], RED))
+                segs.append((line[cur:a_], NAVY50))
+            segs.append((line[a_:b_], INK))
             cur = b_
-        segs.append((line[cur:], INK))
+        segs.append((line[cur:], NAVY50))
         for t, col in segs:
             if not t:
                 continue
@@ -230,7 +225,7 @@ def a09(cid):
             d.line([(70, yy - 8), (1010, yy - 8)], fill=(222, 226, 230), width=2)
         f1, l1 = fit(lab, lambda s: inter(s, "SemiBold"), 300, 2, 32, 24)
         draw_lines(img, l1, f1, 70, yy + 12, INK, "left", 1.15, None, 300)
-        f2, l2 = fit(lv, lambda s: inter(s, "Medium"), 250, 2, 32, 24)
+        f2, l2 = fit(lv, lambda s: inter(s, "Regular"), 250, 2, 32, 24)
         draw_lines(img, l2, f2, 405, yy + 12, (130, 120, 110), "center", 1.15, None, 250)
         f3, l3 = fit(rv, lambda s: inter(s, "SemiBold"), 260, 2, 32, 24)
         draw_lines(img, l3, f3, 720, yy + 12, INK, "center", 1.15, None, 260)
@@ -256,7 +251,7 @@ def a10(cid):
         img.alpha_composite(tile, (int(x), int(yy)))
         pill(img, lk, fl, x + 18 + measure(fl, lk) / 2 + 20, yy + T - 40, (250, 247, 240), INK, padx=20, pady=10)
     bottom = gy + 2 * T + gap
-    text_block(img, S(cid, "sub", "Sub line here"), lambda s: inter(s, "Medium"), int(gx), bottom + 34, 520, 3, 34, 24,
+    text_block(img, S(cid, "sub", "Sub line here"), lambda s: inter(s, "Regular"), int(gx), bottom + 34, 520, 3, 34, 24,
                BODY, "left", 1.25)
     place(img, cam("sol", 300, -4), W - gx - 150, bottom + 125, shadow=0.45, blur=20, drop=(0, 16))
     return img
@@ -296,9 +291,9 @@ def a14(cid):
     ImageDraw.Draw(spot).ellipse((-150, 700, 1230, 1650), fill=255)
     spot = spot.filter(ImageFilter.GaussianBlur(170)).point(lambda v: int(v * 0.42))
     img.alpha_composite(Image.merge("RGBA", (*Image.new("RGB", (W, H), (70, 62, 54)).split(), spot)))
-    y = text_block(img, S(cid, "headline", "Pay for 2. Get 3."), lambda s: tinos(s, -0.03), 70, 360, 940, 2, 118, 80,
-                   (247, 240, 226), "center", 1.0)
-    text_block(img, S(cid, "sub", "Sub line here"), lambda s: inter(s, "Medium"), 90, y + 14, 900, 2, 38, 28,
+    y = text_block(img, S(cid, "headline", "Pay for 2. Get 3."), lambda s: tinos(s, -0.04), 70, 360, 940, 2, 118, 80,
+                   (247, 240, 226), "center", 1.1)
+    text_block(img, S(cid, "sub", "Sub line here"), lambda s: inter(s, "Regular"), 90, y + 14, 900, 2, 38, 28,
                (200, 192, 180), "center", 1.25)
     rows = [(["chalk", "sol", "blossom"], 980), (["obsidian", "dune", "pine"], 1300)]
     for r_, (cols, cy) in enumerate(rows):
@@ -321,12 +316,12 @@ def a14(cid):
 def a15(cid):
     img = canvas(WHITE)
     d = ImageDraw.Draw(img)
-    y = text_block(img, S(cid, "title", "We're sorry."), lambda s: tinos(s, -0.03), 80, 360, 920, 2, 104, 70, INK)
-    d.line([(80, y + 14), (240, y + 14)], fill=RED, width=5)
+    y = text_block(img, S(cid, "title", "We're sorry."), lambda s: tinos(s, -0.04), 80, 360, 920, 2, 104, 70, INK)
+    d.line([(80, y + 14), (240, y + 14)], fill=SAND, width=5)
     y += 50
     body = S(cid, "body", "Body copy here.")
     paras = [p.strip() for p in body.split("\n") if p.strip()]
-    fb = lambda s: tinos(s, -0.01)
+    fb = lambda s: tinos(s, -0.02)
     size = 48
     while size > 28:  # one size for every paragraph so the block fits above the product
         f = fb(size)
@@ -349,7 +344,7 @@ def a16(cid):
     img = canvas((226, 172, 46))
     card = rounded(Image.new("RGBA", (940, 1240), (255, 255, 255, 255)), 40)
     place(img, card, W / 2, 960, shadow=0.35, blur=30, drop=(0, 20))
-    pill(img, S(cid, "label", "EXCLUSIVE DEAL").upper(), inter(30, "Bold"), W / 2, 420, INK, WHITE, padx=30, pady=12)
+    pill(img, S(cid, "label", "EXCLUSIVE DEAL").upper(), inter(30, "Medium"), W / 2, 420, PILL_DARK, WHITE, padx=32, pady=12)
     y = text_block(img, S(cid, "headline", "Headline here"), tinos, 120, 470, 840, 2, 84, 58, INK, "center")
     po, pn = S(cid, "price_old", "$165"), S(cid, "price_new", "$99")
     fo, fn = tinos(80), tinos(170, -0.05)
@@ -358,8 +353,8 @@ def a16(cid):
     tot = wo + 40 + wn
     x = (W - tot) / 2
     py = y + 10
-    draw_text(d, (x, py + 70), po, fo, (150, 140, 130))
-    d.line([(x - 6, py + 70 + 52), (x + wo + 6, py + 70 + 40)], fill=RED, width=7)
+    draw_text(d, (x, py + 70), po, fo, NAVY50)
+    d.line([(x - 6, py + 70 + 52), (x + wo + 6, py + 70 + 40)], fill=NAVY50, width=6)
     draw_text(d, (x + wo + 40, py), pn, fn, INK)
     lib.TEXT_BOXES.append((x, py, x + tot, py + 200))
     y = py + 230
@@ -398,7 +393,7 @@ def a17(cid):
     place(img, disposable(165), 875, cy + 5, shadow=0.3, blur=10, drop=(0, 8))
     place(img, cam("pine", 270, -3), 540, cy - 10, shadow=0.4, blur=14, drop=(0, 12))
     draw_lines(img, [S(cid, "overlap_center", "Retra")], inter(32, "Bold"), 390, cy + 110, INK, "center", 1, None, 300)
-    text_block(img, S(cid, "sub", "Sub"), lambda s: inter(s, "Medium"), 90, cy + r + 40, 900, 2, 36, 26, BODY,
+    text_block(img, S(cid, "sub", "Sub"), lambda s: inter(s, "Regular"), 90, cy + r + 40, 900, 2, 36, 26, BODY,
                "center", 1.25)
     return img
 
@@ -416,7 +411,7 @@ def a18(cid):
             continue
         d.ellipse((70, y + 4, 116, y + 50), fill=(29, 111, 95))
         tick(d, 80, y + 14, 26, WHITE, True, 5)
-        f, ls = fit(t, lambda s: inter(s, "Medium"), 820, 2, 38, 28)
+        f, ls = fit(t, lambda s: inter(s, "Regular"), 820, 2, 38, 28)
         y = draw_lines(img, ls, f, 140, y + 2, INK, "left", 1.18, None, 820) + 24
         d = ImageDraw.Draw(img)
     party = raw(SAMPLES["party"]).crop((66, 66, 1982, 1982))
@@ -448,7 +443,7 @@ def a19(cid):
         else:
             day, rest = t, ""
         draw_lines(img, [day.strip()], tinos(58), x_line + 50, yy - 4, INK, "left", 1, None, 480)
-        f, ls = fit(rest.strip(), lambda s: inter(s, "Medium"), 470, 3, 34, 26)
+        f, ls = fit(rest.strip(), lambda s: inter(s, "Regular"), 470, 3, 34, 26)
         draw_lines(img, ls, f, x_line + 52, yy + 66, BODY, "left", 1.2, None, 470)
         k, look = pics[i]
         p = retra_filter(ImageOps.fit(raw(SAMPLES[k]), (300, 220), Image.LANCZOS), look)
@@ -458,7 +453,7 @@ def a19(cid):
               drop=(4, 8))
         d = ImageDraw.Draw(img)
     yb = y + 2 * step + 190
-    text_block(img, S(cid, "sub", "Sub"), lambda s: inter(s, "Medium"), 90, yb + 80, 520, 2, 34, 26, INK, "left", 1.25)
+    text_block(img, S(cid, "sub", "Sub"), lambda s: inter(s, "Regular"), 90, yb + 80, 520, 2, 34, 26, INK, "left", 1.25)
     place(img, cam("dune", 300, -4), 840, yb + 175, shadow=0.45, blur=18, drop=(0, 16))
     return img
 

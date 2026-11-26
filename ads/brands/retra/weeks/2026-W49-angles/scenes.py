@@ -69,8 +69,8 @@ def s01(cid):
 def s03(cid):
     img = full("03", (0.5, 0.42))
     scrim(img, 0, 700, (0, 0, 0), 120, "down")
-    text_block(img, S(cid, "headline", "Headline"), lambda s: tinos(s, -0.03), 80, 340, 920, 2, 88, 60,
-               (245, 240, 232), "center", 1.04)
+    text_block(img, S(cid, "headline", "Headline"), lambda s: tinos(s, -0.04), 80, 340, 920, 2, 88, 60,
+               (245, 240, 232), "center", 1.1)
     # camera sits ~y 700-1200 in this crop; labels in two rows underneath with leader lines up to it
     fl = inter(32, "SemiBold")
     d = ImageDraw.Draw(img)
@@ -131,9 +131,9 @@ def s12(cid):
 # ---------------------------------------------------------------- 13 parents' gift: bow + headline
 def s13(cid):
     img = canvas(WHITE)
-    y = text_block(img, S(cid, "headline", "Headline"), lambda s: tinos(s, -0.03), 80, 330, 920, 3, 84, 58, INK,
-                   "center", 1.04)
-    y = text_block(img, S(cid, "sub", "Sub"), lambda s: inter(s, "Medium"), 90, y + 12, 900, 2, 36, 28, BODY, "center", 1.25)
+    y = text_block(img, S(cid, "headline", "Headline"), lambda s: tinos(s, -0.04), 80, 330, 920, 3, 84, 58, INK,
+                   "center", 1.1)
+    y = text_block(img, S(cid, "sub", "Sub"), lambda s: inter(s, "Regular"), 90, y + 12, 900, 2, 36, 28, BODY, "center", 1.25)
     ph_top = int(y + 36)
     photo = src("13")
     photo = photo.crop((0, 1270, photo.width, photo.height))  # below the flat band Kie left at the top
