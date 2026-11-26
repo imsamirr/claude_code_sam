@@ -342,8 +342,32 @@ def macro(c):
     return img.convert("RGB")
 
 
+def float_alpha(c):
+    """Camera mask for a float render, from its green-screen copy (renders/green_float_<c>.png), at S x S."""
+    g = np.asarray(Image.open(HERE / "renders" / f"green_float_{c}.png").convert("RGB").resize((S, S), Image.LANCZOS)).astype(np.float32)
+    gness = g[..., 1] - np.maximum(g[..., 0], g[..., 2])
+    hard = gness < 50
+    hard = ndimage.binary_opening(hard, iterations=3)
+    lab, n = ndimage.label(hard)
+    hard = ndimage.binary_fill_holes(lab == (1 + np.argmax(ndimage.sum(hard, lab, range(1, n + 1)))))
+    return hard
+
+
 def float_(c):
-    img = ImageOps.fit(Image.open(src(PICKS[f"float_{c}"])).convert("RGB"), (S, S), Image.LANCZOS).convert("RGBA")
+    """Camera on the flat store cream with soft even light (matches the front/back image); same position as the render."""
+    scene = ImageOps.fit(Image.open(src(PICKS[f"float_{c}"])).convert("RGB"), (S, S), Image.LANCZOS)
+    m = float_alpha(c)
+    ys, xs = np.where(m)
+    img = Image.new("RGBA", (S, S), CREAM + (255,))
+    # soft floating shadow, a little below the camera (like the front/back image's grounded softness)
+    cw = xs.max() - xs.min()
+    sh = Image.new("L", (S, S), 0)
+    cy = ys.max() + 150
+    ImageDraw.Draw(sh).ellipse((xs.min() + cw * 0.08, cy - 34, xs.max() - cw * 0.08, cy + 34), fill=95)
+    sh = sh.filter(ImageFilter.GaussianBlur(45))
+    img.paste(Image.new("RGBA", (S, S), (120, 105, 85, 255)), (0, 0), sh)
+    alpha = Image.fromarray((m * 255).astype("uint8")).filter(ImageFilter.GaussianBlur(1.0))
+    img.paste(scene.convert("RGBA"), (0, 0), alpha)
     d = ImageDraw.Draw(img)
     f = inter(56, "SemiBold")
     f.track = -0.03 * 56

@@ -40,7 +40,7 @@ def green(name):
                   " a flat, even chroma-key green (#00B140). Keep the camera exactly as it is: same position, size,"
                   " angle, colours, textures, buttons, ports, lenses and gold 'Retra' wordmark. Do not add anything."
                   + FIX.get(name, FIX["bottom"] if name.startswith("bottom") else ""))
-        res = "4K" if name.startswith("front") else "2K"
+        res = "4K" if name.startswith(("front", "float")) else "2K"
         tid = kie.create("nano-banana-pro", {"prompt": prompt, "image_input": [u], "aspect_ratio": "auto",
                                              "resolution": res, "output_format": "png"})
         r = kie.wait(tid)
