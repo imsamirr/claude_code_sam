@@ -103,7 +103,8 @@
     rewards.forEach(function (r) {
       if (!r.variant) return;
       var mine = cart.items.filter(function (it) { return it.properties && it.properties._reward === r.key; });
-      var other = cart.items.some(function (it) { return it.variant_id === r.variant && it.final_line_price === 0 && !(it.properties && it.properties._reward); });
+      /* a gift for the same product added by another app (e.g. a Kaching bundle gift, marked with a hidden property) already covers this reward */
+      var other = cart.items.some(function (it) { var pr = it.properties || {}; return it.variant_id === r.variant && it.final_line_price === 0 && !pr._reward && Object.keys(pr).some(function (k) { return k.charAt(0) === '_'; }); });
       var want = spent >= r.threshold && !other;
       if (want && !mine.length) jobs.push(function () { return post('/cart/add.js', { items: [{ id: r.variant, quantity: 1, properties: { _reward: r.key } }] }); });
       mine.forEach(function (it, i) {
