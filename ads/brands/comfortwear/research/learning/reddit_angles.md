@@ -256,3 +256,53 @@ Each angle avoids the five used angles: the nurses' 12-hour shift with running s
 ### Searched with no usable result
 - Mother buying shoes for her CNA daughter (no parent-voiced posts).
 - Band-director Disney trips (only student stories).
+
+## 2026-11-26 update
+
+**Access:** StefanBrain's `reddit_search` (Apify backend) worked. I ran 6 searches: Thanksgiving cooking, holiday/Black Friday retail, caregiver for mother, hosting Thanksgiving, grandma babysitting, and Christmas-market/Europe trips with plantar fasciitis. Quotes are copied from post bodies (I didn't fetch comments this run). Verify each one before using it verbatim.
+
+### Holiday retail and Black Friday (new this week)
+- "If you're on the register, it's nine hours of standing … I get home, around midnight, lie down in bed and all of the pain hits me at once, and then the next time I have to get up is a painful challenge." Same post: "getting up to the bathroom in the middle of the night is a genuine … challenge", and "I have comfortable sneakers, special compression socks, shoe insoles meant for standing … Still, nothing seems to help." (2026-10-06) ([r/retailhell](https://www.reddit.com/r/retailhell/comments/1wzfpwy/my_feet_fucking_hurt/))
+  - **Moment:** the pain "hits all at once" when she lies down, and the worst step is the night-time trip to the bathroom. The same 2 AM bathroom trip is the scene in Sculptara's new rank-1 ad, but here it belongs to the worker.
+- "Some of the associates were sharing how their feet hurt because we're on our feet for 7-8 hours … the leads often skip [breaks] because they can't walk away from the floor. The customer said that their statements made their shopping experience feel 'off'." (295 upvotes, 2026-10-06) ([r/retailhell](https://www.reddit.com/r/retailhell/comments/1wz37jy/customer_complained_that_we_complained_about_our/))
+  - **Moment:** a shopper complains that the staff complained about their feet. The pain has to stay hidden on the floor.
+- "Asked if I can periodically sit like a couple of the other cashiers do. Was told no. No sitting, no kneeling, nothing." (cashier, 12 years in retail) ([r/retailhell](https://www.reddit.com/r/retailhell/comments/1wymmty/i_cant_keep_standing_anymore_it_hurts_so_much/))
+- "No, I don't have Xmas plans. Because I work retail. Our Xmas happens in late January." (445 upvotes) ([r/retail](https://www.reddit.com/r/retail/comments/1psj4x6/a_holiday_retail_rant/))
+- "my tree is an undecorated bush, I bought my mom presents but didn't get the stocking done … I'm just drained." ([r/retailhell](https://www.reddit.com/r/retailhell/comments/1pv3mpm/retail_has_ruined_my_favorite_holidays/))
+- "Have any of you quit your retail job right before or during Christmas season?" (2026-11-02) ([r/retailhell](https://www.reddit.com/r/retailhell/comments/1xmc8we/have_any_of_you_quit_your_retail_job_right_before/))
+
+### Restaurants and servers (holiday-season standing)
+- "By the end of my shift I find myself sitting in the utility closet just to get a break from my pain … I even take ultra Advils by midway through my shift." Same post: "after they sit down after their shift - that getting back up feels like you are lugging around two broken feet 😔. Don't even get me started on the morning after." (2026-11-22) ([r/Serverlife](https://www.reddit.com/r/Serverlife/comments/1y325a3/foot_pain_when_do_we_go_to_the_doctor_or_is_this/))
+  - **Moment:** hiding in the utility closet (the same "hide to rest" scene as Orthora's staff-bathroom hook). The pain makes her "lose my ambition at work to take on some extra side tasks or help others", so foot pain reads to others as being a worse coworker.
+- "I've tried so many shoes from Hoaks to crocs to sketchers and I've tried putting inserts in my shoes. All these shoes kill my feet." (79 upvotes, 120 comments) ([r/TalesFromYourServer](https://www.reddit.com/r/TalesFromYourServer/comments/1anrn7r/my_feet_are_always_sore_after_serving_a_68_hour/))
+- "I've see[n] coworkers get off a full shift and then have plans to go walk around the mall or go to the beach and I get off and get stiff and walk like a cripple." (bigger woman, size 9) ([r/KitchenConfidential](https://www.reddit.com/r/KitchenConfidential/comments/1nrhu4v/how_bad_do_your_feet_hurt_after_a_normal_shift/))
+  - **Moment:** comparing yourself with coworkers who have plans after the shift. This is the same "outlier coworker" structure Cuurt uses (m1801309907624059).
+- "after my three day standing shifts, i find that i cant walk and am almost bed ridden afterwards." ([r/KitchenConfidential](https://www.reddit.com/r/KitchenConfidential/comments/1v57nwp/feet_always_killing_me_days_after_work/))
+- "I know it's part of the job but as I get older, it's harder to get through the day without sitting or squatting down at all." (line cook, 10–11 hour shifts with no breaks) ([r/linecooks](https://www.reddit.com/r/linecooks/comments/1s3vepr/what_do_i_do_when_standing_all_day_with_no_breaks/))
+
+### Thanksgiving cooking at home
+- "Cooking is so exhausting, i wonder what strategies people will apply on thanksgiving day, in order to prevent an excess of physical tiredness caused by cooking the whole thanksgiving dinner" (78 comments) ([r/thanksgiving](https://www.reddit.com/r/thanksgiving/comments/1gi5kzj/cooking_is_so_exhausting_i_wonder_what_strategies/))
+- "I'll spend 3-4 hours in the kitchen … by the end I'm having to take breaks and sit bc my ankles/feet are cramping … I have a mat that I stand on." ([r/Cooking](https://www.reddit.com/r/Cooking/comments/n443hv/advice_ankles_hurting_after_cooking_for_hours/))
+- The evidence is thin: Reddit has few posts about foot pain after the holiday meal itself. A Thanksgiving-cook story should rest on our feedback and survey, not Reddit.
+
+### Grandmother as full-time childcare
+- "I told my daughter I would temp move to her house (way across the country) and care for a 15 month old and 7 year old for 2 years … I'm caring for the kids for 10-11 hours a day plus half days on weekends … my body is breaking-back is really hurting. I'm 64 … I just made a huge mistake thinking I could do more than I'm capable of." (289 upvotes, 140 comments) ([r/toddlers](https://www.reddit.com/r/toddlers/comments/1kua1mw/grandma_as_sitter_full_timeworn_out/))
+  - **Moment:** a 64-year-old who moved across the country to be the nanny and can't tell her daughter that her body can't keep up. This backs feedback angle A4 ("full-time grandma") with a strong, verifiable post. The post is about her back, not her feet, so don't quote it as foot pain.
+
+### Holiday travel (Europe and Christmas markets)
+- "Heading to Europe next week … I'm concerned how I'm going to manage the heel pain as my normal day-to-day requires very little time on my feet … cortisol injections have not helped … I don't want to solely rely on over-the-counter pain relievers since I'll probably have at least a couple drinks in the evening." (2025-11-25) ([r/PlantarFasciitis](https://www.reddit.com/r/PlantarFasciitis/comments/1p6gm2i/will_be_traveling_to_europe_next_week_and_looking/))
+- "I'm leaving for a 6 week European vacation in 1 month and I'm devastated because it's been a year and my plantar fasciitis isn't healed … I recently purchased some plantar fasciitis insoles … but they feel like crap :(" ([r/PlantarFasciitis](https://www.reddit.com/r/PlantarFasciitis/comments/1k3fie7/cuteish_walking_shoes_for_europe/))
+- "Going on a trip to Christmas markets in Europe in winter … Hoping to just take the one pair of boots and wear them on the plane … Comfort is the biggest priority. I have wide toe area, high arch … often can get arch pain." ([r/HerOneBag](https://www.reddit.com/r/HerOneBag/comments/1n7570l/boots_recommendations_for_lots_of_walking_at/))
+- "comfortable, not-ugly walking shoes … that do not scream 'American'" (202 upvotes, 312 comments) ([r/BuyItForLife](https://www.reddit.com/r/BuyItForLife/comments/1if75kg/going_to_europe_suggestions_for_comfortable/))
+  - **Moment:** packing anxiety, meaning one pair for the whole trip that must also look acceptable. This matches the new Orthora Barcelona video, whose opening scene is a friend auditing the packed "foot kit".
+
+### Searched with no usable result
+- Caregiver for a parent, with foot pain: caregiver posts are about burnout, lifting and bathroom care, not feet. Not usable for foot claims.
+- Hosting Thanksgiving with foot pain: the results were servers and cooks, not home hosts.
+- Menopause feet and grandkids were covered on 11-19 and not repeated.
+
+### What's new for angles
+1. **Night-time bathroom trip after a standing shift** (retail cashier). It is the worker's version of the 2 AM scene the market is now running for falls.
+2. **Hiding to rest** (the utility closet, and the shopper who complained about staff complaining). Pain that has to stay invisible on the floor during the holiday rush.
+3. **"Coworkers have plans after the shift; I go home and walk stiff."** A comparison structure that pairs with the outlier-coworker format.
+4. **One pair for the whole trip** (Christmas markets, Europe). Packing anxiety as the story opener.

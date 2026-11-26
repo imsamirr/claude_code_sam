@@ -110,3 +110,21 @@ Baseline prospecting ROAS 1.42; qualify ≥ $3k and ≥ 1.35; 11 of 54 families 
 | 11 | Task158 neuropathy static | D | $3.8k · 1.38 · $71 |
 
 Changes since 11-11: COM374 plus-size dropped below the bar (1.18); COM204 shoe ranking ($3.0k · 1.76) is close to qualifying. The 2026-11-19 batch (LF05–LF10 iterations) spreads across families 1–10 (travel, plus-size Disney, Disney test, nurse ×2, teacher). No LF ads have spend yet (LF01–LF04 not in the 90-day pull), so no DR-tag results to record.
+
+## Refresh 2026-11-26 (`atria_pull.py longform --transcribe`, window 2026-08-28 to 2026-11-25, prospecting baseline ROAS 1.39; 11 of 55 families qualify)
+
+| Rank | Family | Spend · ROAS · CPA | Angle |
+|---|---|---|---|
+| 1 | Kyro369v2 hook2 (+ COM211 Disney cut) | $73.7k · 1.34 · $73 | Travel shoe test (Europe/Disney) |
+| 2 | Aubrey "Don't waste money" UGC HOOK 03 | $21.6k · 1.46 · $70 | Nurse: running shoe vs standing job |
+| 3 | COM320_HO1 (avatar) | $19.5k · 1.53 · $64 | Disney 7-shoe test |
+| 4 | **COM284_HO1** | **$10.5k · 2.58 · $40** | Plus-size Disney (still the most efficient) |
+| 5 | NH3 GeneralOverweightParkDay Hook2 | $14.8k · 1.53 · $68 | Plus-size park day |
+| 6 | Kyro390v1_H5 (Nurse Page) | $12.7k · 1.70 · $60 | Nurse testimonial |
+| 7 | COM225 Kyro390 Spanish | $12.0k · 1.80 · $54 | Nurse scoreboard (Spanish) |
+| 8 | NurseNotRunners Hook1 | $14.0k · 1.53 · $67 | Nurse: not runners |
+| 9 | AUGWK1_VID2 TeacherTested Hook2 | $7.8k · 1.47 · $76 | Teacher scoreboard |
+| 10 | COM55 Senior general foot pain (expert-doctor iteration) | $7.0k · 1.47 · $62 | Senior / general foot pain, doctor expert |
+| 11 | COM336 | $4.9k · 1.38 · $69 | — |
+
+**Read:** the 11-26 plan (LF15–LF24) matches this ranking: travel ×1, plus-size Disney ×1, nurse ×2, Disney test ×1, teacher ×1, plus 4 net-new. New signal: COM55's senior "expert – doctor" iteration qualifies (doctor characters are allowed since 11-18), so a doctor-reversal concept goes into the next batch.

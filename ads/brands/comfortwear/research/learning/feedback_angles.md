@@ -303,3 +303,46 @@ None of these repeats the Disney grandma, the ER nurse shoe graveyard, the Lisbo
 - Grip and safety toe expectations: "They have steel toe, and WERE supposed to have non slip" (fast food, 9/17). "They said great arch support, cushioned and slip resistant" (deli, 10/4).
 
 **What's new compared with the 2026-11-12 deep dive:** (1) people over 65 doing event and stadium work, and (2) two-job holiday cashiers. Both fit December. The 5★ voices are still mostly 65+ women in light-standing jobs (boutique, nanny, hairdresser, home health aide); the 1★ voices are mostly 40–65 on concrete for 10–12 hours.
+
+## 2026-11-26 update (24 new rows, 2026-11-18 16:35 to 2026-11-25 20:37)
+
+**Access:** the Google Drive connector worked again. `read_file_content` returned only the sheet's first rows, so I exported it as CSV with `download_file_content` (18,546 rows, 2023-04-15 to 2026-11-25) and read every row after the 11-19 cut-off. That is about 3.4 responses a day, slightly up (Black Friday orders arriving). No emails or order numbers are quoted.
+
+**Counts (24 rows, small sample):**
+- **Comfort score:** 1 = 15, 2 = 2, 3 = 3, 4 = 1, 5 = 3. 71% at 1–2, the same complaint-heavy mix as last week.
+- **Age:** 65+ = 10, 50–65 = 10, 40–50 = 3, 30–40 = 1.
+- **Foot problem:** neuropathy 5, "no pain, only comfort" 5, plantar fasciitis 4, bunions 2, plus one each of heel spur, Morton's neuroma, arthritis, and "balance issues from double knee replacement".
+- **Source:** Facebook 15, Google 5, Instagram 1, "Just scrolling through my phone" 1, "News" 1.
+- **Size received:** good fit 9, too big or big 9, too small or small 6. Sizing complaints are 15 of 24 this week, higher than usual. The comments don't say whether the BF orders were sized up.
+
+**New moments and phrases (verbatim, newest first):**
+- Medical receptionist, 65+, bunions, 1★: "It had a wide box which I like but you I couldn't get my heel in the back which is very unusual." (Hard to get on, again.)
+- Retired teacher, 50–65, neuropathy, 5★: #1 reason "Going on cruise". Wants us to sell "Leggins". **Cruise is new in the 5★ voices.**
+- Teacher, 65+, 3★: "You advertised that it would be a good shoe for a day at Disney. Since that's our plan, I ordered two. But I don't feel the comfort and I don't feel that they are designed to support heavy women." **Two pairs bought for one Disney trip; "heavy women" is a new self-description. Don't promise heavier-body support.**
+- Dog groomer, 50–65, Morton's neuroma, 1★: looking for "Pain free". (Second dog groomer in two weeks.)
+- Remote worker, 65+, 5★: "Saw on the ads and it is said to be the best rubber shoes."
+- Warehouse non-profit work, 50–65, neuropathy, 1★: "They were the most uncomfortable shoes I've ever worn. And someone that already has issues getting them on was a challenge. The back kept collapsing so almost impossible." Looking for: **"Comfort that last all day and want to wear the next day too."** Current solution: "Haven't found it yet." Wants us to sell: "A shoe horn to actually put your shoes on."
+- Packer, 50–65, arthritis, 1★: current solution "Extra socks". Wants us to sell a "Heated massage cushion for automobile".
+- Standing 7–9 hours a day, 50–65, neuropathy, 1★ (answered twice): #1 reason "Need new ones"; current solution "Ordered new shoes, but they are to small".
+- Property management, 65+, plantar fasciitis, 1★: "Better comfort for my right heel." Current: "Inserts and lifts."
+- 80-year-old buyer, 65+, 2★: "i thought they look great and comfy but how is an 80yearold suppose to use the back of the shoe its very difff shoee to slip on great for a younger crowd". Suggests a "hard back shoe which you can hold up while you slip in". **The 80+ buyer exists, and the collapsing heel is her deal-breaker.**
+- Retired, 65+, neuropathy, 1★: "I needed a comfortable shoe to be able to walk without pain." Current: "Walking and pain medicine."
+- Processing support specialist, 50–65, 1★: "The advertisement was convincing but when I received and tried the product, it was unco uncomfortable and the material was not of good quality."
+- Nursing assistant, 50–65, plantar fasciitis, 1★: current "Orthopedic sneakers".
+- Nurse, 40–50, 1★: "The shoe that I received does not have cushion it feels flat and I am walking on a heel."
+- Housewife, 65+, 5★: "Flat feet. Fir walking." Current: "Massage".
+- Elevator mechanic, 30–40, plantar fasciitis, 1★: "Comfort and safety toe I'm on my feel a lot at work … I've tried several different pairs of boots, nothing has eased the pain." (Safety-toe expectation again: don't target trades that need one.)
+- Retired, 65+, plantar fasciitis, 3★: "The add made them sound super comfortable and supportive." Wants "Good Arch support, quality material, comfort." Current: "Orthotic inserts".
+- Dental assistant, 40–50, 2★: "My feet are not tired as before" (a partial win, written as her current solution), and "it should have more memory foam at the front part".
+- Customer success manager, 50–65, double knee replacement, 4★: "Advertised as supportive and good for standing all day-NO SUPPORT AT ALL!" Looking for "Support, comfort, stability".
+- Disability, 40–50, 1★: "Comfort, and any shoe to make my feet look smaller."
+- Retired, 65+, heel spur, 1★: wanted "soft cushion back and arch support"; current solution "injections".
+
+**What's new and usable:**
+1. **"Wear them the next day too."** The warehouse worker's phrase names a second-day test, a different outcome from "lasts all day". It is a good outcome line for StefanBrain to consider; it isn't a claim.
+2. **Cruise and Disney trips with two pairs.** Two people bought for a trip this week, and one bought two pairs for a single trip. Holiday travel is in the voice now, but the trip buyer is also where the "not as comfortable as advertised" complaints come from, so keep the expectations modest.
+3. **The 80-year-old who can't get the heel on.** That makes 3 hard-to-get-on complaints in 24 rows (receptionist, warehouse, 80-year-old), the same objection as the 11-12 deep dive. Keep it as a "don't promise easy slip-on" rule. A story could show her using a shoehorn the first time; never "hands-free".
+4. **"Don't feel they are designed to support heavy women."** This is new wording. Avoid body-weight claims.
+5. **Job list this week:** dog groomer, packer, warehouse non-profit, property management, elevator mechanic, dental assistant, medical receptionist, nurse, nursing assistant, teacher and retired teacher, CS manager. These are the same standing and walking jobs as before; there is no new segment.
+
+**Objections (for the "don't promise" list):** "Advertised as supportive and good for standing all day" with "NO SUPPORT AT ALL"; "feels flat … walking on a heel"; "the advertisement was convincing but…" (3 rows blame the ad's promise directly); a collapsing heel collar; heavier women. Read together, they say the long-form should under-promise on cushion and support feel at first wear.

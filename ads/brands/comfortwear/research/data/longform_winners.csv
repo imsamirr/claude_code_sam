@@ -1,55 +1,56 @@
 family,qualifies,score,spend,roas,cpa,purchases,n_ads,format,has_transcript,lead_ad
-1,True,74101,76197,1.38,71.15,1071,2,VIDEO,True,TOFv1_HF7 | Kyro369v2 hook2 – Copy
-2,True,20594,20055,1.46,70.12,286,1,VIDEO,True,TOFv1_HF2 | 807_Aubrey_New UGC_Ortho_Stretch_Shoe_Don’t Waste Spent Money_9X16 HOOK 03
-3,True,17625,14950,1.68,59.8,250,1,VIDEO,True,TOFV1_JW1 | COM320_HO1 (avatar)
-10,True,15523,7646,2.89,36.58,209,1,VIDEO,True,TOFV1_KW1 | COM284_HO1
-4,True,15200,13007,1.66,61.65,211,1,VIDEO,False,INT_05.28.26_Nurse Page_Kyro390v1_H5
-9,True,14349,13456,1.52,66.95,201,2,VIDEO,True,JULYWK3_VID1_JACK_NurseNotRunners_Hook1
-6,True,12122,9613,1.8,52.53,183,1,VIDEO,True,TOFV1_HI16 | Nurse | COM225_Kyro390 - Iteration - Spanish Version_Ortho_Everyday User_No Offer_AI_Iteration_Expert - Doctor_Jed_Julieta_H2
-5,True,11498,10544,1.55,67.59,156,1,VIDEO,True,TOFV1_NH3 | OCTWK4_VID4_JACK_GeneralOverweightParkDay_Hook2
-7,True,10456,9130,1.63,70.23,130,1,VIDEO,True,TOFV1_HL60 | AUGWK1_VID2_JACK_TeacherTested_Hook2
-8,True,9929,10128,1.4,79.75,127,2,VIDEO,True,TOFV1_HJ27 | JULYWK2_VID1_JACK_Teacher_Hook1
-21,True,3664,3783,1.38,71.37,53,2,IMAGE,False,Task158_DesignedNeuropathy_FeatureCallout_Samir - Comfort Shoes Listicle – Copy
-11,False,8664,10461,1.18,83.02,126,2,VIDEO,True,TOFV1_MZ1 | COM374_HO2 (fix)
-13,False,3692,2987,1.76,63.55,47,1,VIDEO,True,TOFV1_HZ1 | COM204_Shoe ranking feet only_Ortho_Nurse_No Offer_AI_Iteration_Nurse_Jed_Samir_H1
-12,False,3584,4044,1.26,76.3,53,1,VIDEO,True,TOFV1_MO2 | OCTWK3_VID2_JACK_TravelRetiree_Hook1
-20,False,3029,1990,2.17,41.45,48,1,VIDEO,False,INT_07.03.26_General Foot Pain Page_COM55_TOFv5_AR20 - Senior - 929 Iteration 2_Iteration_Ever green_AI+ExistingFootage_Iteration_Expert - Doctor_Louella_Julieta_IT4_v1
-19,False,2765,2157,1.83,58.29,37,1,VIDEO,True,COM174_Kyro362Teacher_Ortho_Teacher_No Offer_Mash-Up_Iteration_Teacher_Aby_Samir_H1 – Copy
-14,False,2391,2922,1.16,81.18,36,1,VIDEO,True,TOFV1_LR2 | COM316_Hokas and Brooks the worst shoes for work_Spanish
-16,False,2317,2739,1.2,94.44,29,1,VIDEO,True,TOFv1_HF5 | INT_07.03.26_Teacher Page_COM51_Teachers Iteration_Teachers_No Offer_AI+ExistingFootage_Net New_Teachers and Nurses__Julieta_H1
-17,False,2266,2406,1.34,75.2,32,1,VIDEO,False,TOFV1_LZ1 | COM338_Husband tired of nurse wife complaining about foot pain drama_Ortho_Nurse_No Offer_AI_Net New_Nurse_Zirian_Samir_V2
-15,False,2104,2824,1.06,97.37,29,1,VIDEO,True,TOFV1_LI1 | COM296_Nurse wants to quit drama ad_Ortho_Nurse_No Offer_AI_Net New_Nurse_Zirian_Samir_V1
-23,False,2070,1463,2.01,54.18,27,1,VIDEO,True,TOFv1_HO1 | pages/the-9-best-shoes-for-nurses-and-healthcare-workers-tested-across-480-hours-of-hospital-shifts | INT_07.08.26_Evergreen Listicle Page_COM51_Teachers Iteration_Teachers_No Offer_AI+ExistingFootage_Net New_Teachers and Nurses__Julieta_H3
-33,False,1947,732,3.79,36.58,20,1,IMAGE,False,INT_07.03.26_Comfort Shoes PDP_COM111_Tweet_Pains_Ever green_Statics_Net New_Everyday User_Real_Julieta_V2
-18,False,1843,2265,1.16,78.1,29,1,VIDEO,True,TOFV1_MI3 | COM337_HO3
-22,False,1826,1859,1.4,74.36,25,1,VIDEO,True,TOFV1_HN1 | INT_07.09.26_Nurse Page_H2_COM121_K189 Iteration_Nurse_Ever green_Mash-Up_Iteration_Nurse_Zirian_Samir_V2 – Copy 2
-26,False,1442,1103,1.86,52.52,21,1,VIDEO,True,TOFV1_NJ1 | COM336
-27,False,1346,1032,1.86,57.33,18,1,VIDEO,True,TOFV1_NL1 | COM376_HO1 | https://comfortorthowear.com/pages/the-5-best-shoes-for-disney
-25,False,1019,1143,1.27,71.45,16,1,VIDEO,False,TOFV1_LX1 | COM322_HO1 (fix)
-28,False,990,973,1.45,69.51,14,1,VIDEO,False,TOFV1_MC2 | COM339_HO2
-29,False,958,938,1.46,72.13,13,1,VIDEO,True,TOFV1_LB3 | COM295_HO2 (fix)
-35,False,861,1030,1.19,85.84,12,2,IMAGE,False,INT_07.03.26_Nurse Page_COM110_On Feet_Pains_Ever green_Statics_Net New_Everyday User_Real_Julieta_V4 – Copy 2
-24,False,765,1170,0.93,106.33,11,1,VIDEO,False,TOFV1_NS1 | COM362_COM296_Nurse wants to quit drama_SPANISH_Ortho_Nurse__AI_Iteration_Nurse_Anas_Mica_V1
-34,False,752,710,1.51,70.99,10,1,VIDEO,True,RD_07.08.26_Travel Page_Testimonial_18000 Steps Cobblestone_V1 – Copy
-39,False,693,543,1.82,54.26,10,1,VIDEO,False,RD_07.02.26_Senior Page_Side by Side_Podiatrist Rates Safest Shoes for Seniors_10_T004_H1 – Copy 2
-49,False,638,417,2.18,52.11,8,1,VIDEO,True,TOFV1_JW2 | Com255 Hk3
-30,False,634,913,0.99,130.38,7,1,VIDEO,False,TOFV1_KP1 | COM275_HO2
-36,False,623,652,1.36,72.45,9,1,VIDEO,False,TOFV1_NP1 | COM297_HO3_NoBFCMBanner.mp4
-38,False,569,555,1.46,69.38,8,1,VIDEO,False,TOFv1_HO53 | INT_06.19.26_Nurse Page_COM57_Text Video Format_Nurse_Ever green_Mash-Up_Net New_Nurse_Jed_Samir_H2 – Copy 2
-43,False,498,468,1.52,66.82,7,1,VIDEO,False,TOFV1_NK1 | COM367_HO2 (fix)
-41,False,492,497,1.41,71.06,7,1,VIDEO,True,TOFV1_LF1 | COM288_HO3 (fix again)
-46,False,480,452,1.51,75.34,6,1,VIDEO,False,TOFV1_IW1 | COM219_1
-50,False,456,403,1.61,67.1,6,1,VIDEO,True,TOFV1_JB2 | COM227_COM121_K189 - Iteration_Ortho_Nurse_No Offer_Mash-Up_Iteration_Expert - Doctor_Jed_Samir_H1
-32,False,434,812,0.76,135.41,6,1,VIDEO,False,TOFV1_LP3 | COM335_HO3 (fix)
-47,False,403,440,1.3,62.82,7,1,VIDEO,False,TOFV1_HL58 | AUGWK1_VID1_JACK_TeacherTested_Hook2
-40,False,322,506,0.91,126.42,4,1,VIDEO,False,TOFV1_NM1 | H2_COM364_Doctor rating shoes at Disney_Ortho_Disney__AI_Iteration_Travel__Mica_V2 | https://comfortorthowear.com/pages/the-5-best-shoes-for-disney
-44,False,313,456,0.98,151.98,3,1,VIDEO,False,TOFV1_LQ3 | COM319_HO3 (fix)
-31,False,309,843,0.52,210.77,4,1,VIDEO,False,TOFV1_ME3 | COM342_HO2
-37,False,293,560,0.75,140.02,4,1,VIDEO,False,TOFV1_OA1 | COM365_Hook 2
-54,False,242,356,0.97,89.04,4,1,VIDEO,False,TOFV1_HL47 | JULYWK3_VID2_JACK_NurseNotRunners_Hook2
-45,False,234,455,0.73,113.81,4,1,VIDEO,False,TOFV1_MM1 | OCTWK3_VID4_JACK_NeuropathyStoppedBuying_Hook2
-48,False,213,423,0.72,105.79,4,1,VIDEO,False,TOFV1_MB1 | COM303_V2
-53,False,201,357,0.8,118.93,3,1,VIDEO,False,TOFV1_JI1 | COM236_Podcast Style Rating Other Shoes_Ortho_Comparison_No Offer_AI_Iteration_Teachers and Nurses_Jed_Samir_H2
-42,False,190,470,0.58,234.95,2,1,VIDEO,False,TOFV1_KC1 | COM257_Can shoes help with neuropathy_Ortho_Neuropathy_No Offer_AI+ExistingFootage_Net New_Foot Pain_Jed_Samir_H1
-52,False,172,366,0.67,121.88,3,1,VIDEO,False,TOFV1_LY2 | COM321_HO3 (fix)
-51,False,106,366,0.41,183.19,2,1,VIDEO,False,TOFV1_MH1 | COM331_HO2
+1,True,71109,73695,1.34,73.18,1007,2,VIDEO,True,TOFv1_HF7 | Kyro369v2 hook2 – Copy
+2,True,22734,21590,1.46,70.32,307,1,VIDEO,True,TOFv1_HF2 | 807_Aubrey_New UGC_Ortho_Stretch_Shoe_Don’t Waste Spent Money_9X16 HOOK 03
+3,True,21514,19533,1.53,64.25,304,1,VIDEO,True,TOFV1_JW1 | COM320_HO1 (avatar)
+7,True,19421,10460,2.58,40.39,259,1,VIDEO,True,TOFV1_KW1 | COM284_HO1
+4,True,16238,14779,1.53,67.79,218,1,VIDEO,True,TOFV1_NH3 | OCTWK4_VID4_JACK_GeneralOverweightParkDay_Hook2
+5,True,15581,12702,1.7,60.48,210,1,VIDEO,False,INT_05.28.26_Nurse Page_Kyro390v1_H5
+6,True,15562,12020,1.8,53.66,224,1,VIDEO,True,TOFV1_HI16 | Nurse | COM225_Kyro390 - Iteration - Spanish Version_Ortho_Everyday User_No Offer_AI_Iteration_Expert - Doctor_Jed_Julieta_H2
+8,True,15334,13965,1.53,66.5,210,2,VIDEO,True,JULYWK3_VID1_JACK_NurseNotRunners_Hook1
+9,True,8223,7755,1.47,76.03,102,1,VIDEO,True,TOFV1_HL60 | AUGWK1_VID2_JACK_TeacherTested_Hook2
+10,True,7371,6974,1.47,62.27,112,1,VIDEO,True,INT_07.03.26_General Foot Pain Page_COM55_TOFv5_AR20 - Senior - 929 Iteration 2_Iteration_Ever green_AI+ExistingFootage_Iteration_Expert - Doctor_Louella_Julieta_IT4_v1
+12,True,4853,4886,1.38,68.81,71,1,VIDEO,True,TOFV1_NJ1 | COM336
+11,False,8876,10461,1.18,83.02,126,2,VIDEO,True,TOFV1_MZ1 | COM374_HO2 (fix)
+14,False,4354,5034,1.2,91.52,55,2,VIDEO,True,TOFV1_HJ27 | JULYWK2_VID1_JACK_Teacher_Hook1
+15,False,3782,2961,1.77,63.0,47,1,VIDEO,True,TOFV1_HZ1 | COM204_Shoe ranking feet only_Ortho_Nurse_No Offer_AI_Iteration_Nurse_Jed_Samir_H1
+13,False,3671,4044,1.26,76.3,53,1,VIDEO,True,TOFV1_MO2 | OCTWK3_VID2_JACK_TravelRetiree_Hook1
+22,False,2833,2157,1.83,58.29,37,1,VIDEO,True,COM174_Kyro362Teacher_Ortho_Teacher_No Offer_Mash-Up_Iteration_Teacher_Aby_Samir_H1 – Copy
+18,False,2824,2473,1.59,103.04,24,1,VIDEO,True,TOFV1_OL2_1 | COM408_HO1 | https://comfortorthowear.com/pages/flexible-spending-hsa-fsa-account
+16,False,2450,2922,1.16,81.18,36,1,VIDEO,True,TOFV1_LR2 | COM316_Hokas and Brooks the worst shoes for work_Spanish
+20,False,2321,2406,1.34,75.2,32,1,VIDEO,False,TOFV1_LZ1 | COM338_Husband tired of nurse wife complaining about foot pain drama_Ortho_Nurse_No Offer_AI_Net New_Nurse_Zirian_Samir_V2
+23,False,2245,2652,1.18,77.99,34,2,IMAGE,False,Task158_DesignedNeuropathy_FeatureCallout_Samir - Comfort Shoes Listicle – Copy
+19,False,2226,2431,1.27,86.83,28,1,VIDEO,True,TOFv1_HF5 | INT_07.03.26_Teacher Page_COM51_Teachers Iteration_Teachers_No Offer_AI+ExistingFootage_Net New_Teachers and Nurses__Julieta_H1
+17,False,2155,2824,1.06,97.37,29,1,VIDEO,True,TOFV1_LI1 | COM296_Nurse wants to quit drama ad_Ortho_Nurse_No Offer_AI_Net New_Nurse_Zirian_Samir_V1
+25,False,1976,2078,1.32,90.35,23,1,VIDEO,True,TOFV1_OR3 | COM406_H1
+26,False,1972,1360,2.02,54.4,25,1,VIDEO,True,TOFv1_HO1 | pages/the-9-best-shoes-for-nurses-and-healthcare-workers-tested-across-480-hours-of-hospital-shifts | INT_07.08.26_Evergreen Listicle Page_COM51_Teachers Iteration_Teachers_No Offer_AI+ExistingFootage_Net New_Teachers and Nurses__Julieta_H3
+24,False,1953,2095,1.3,80.57,26,1,VIDEO,True,TOFV1_NL1 | COM376_HO1 | https://comfortorthowear.com/pages/the-5-best-shoes-for-disney
+21,False,1888,2265,1.16,78.1,29,1,VIDEO,True,TOFV1_MI3 | COM337_HO3
+37,False,1684,655,3.57,38.55,17,1,IMAGE,False,INT_07.03.26_Comfort Shoes PDP_COM111_Tweet_Pains_Ever green_Statics_Net New_Everyday User_Real_Julieta_V2
+27,False,1337,1318,1.41,73.23,18,1,VIDEO,True,TOFV1_HN1 | INT_07.09.26_Nurse Page_H2_COM121_K189 Iteration_Nurse_Ever green_Mash-Up_Iteration_Nurse_Zirian_Samir_V2 – Copy 2
+29,False,1044,1143,1.27,71.45,16,1,VIDEO,False,TOFV1_LX1 | COM322_HO1 (fix)
+30,False,1014,973,1.45,69.51,14,1,VIDEO,False,TOFV1_MC2 | COM339_HO2
+31,False,982,938,1.46,72.13,13,1,VIDEO,True,TOFV1_LB3 | COM295_HO2 (fix)
+28,False,783,1186,0.92,107.8,11,1,VIDEO,False,TOFV1_NS1 | COM362_COM296_Nurse wants to quit drama_SPANISH_Ortho_Nurse__AI_Iteration_Nurse_Anas_Mica_V1
+36,False,771,710,1.51,70.99,10,1,VIDEO,True,RD_07.08.26_Travel Page_Testimonial_18000 Steps Cobblestone_V1 – Copy
+43,False,710,543,1.82,54.26,10,1,VIDEO,False,RD_07.02.26_Senior Page_Side by Side_Podiatrist Rates Safest Shoes for Seniors_10_T004_H1 – Copy 2
+34,False,704,838,1.17,83.76,10,1,VIDEO,False,TOFV1_OU2 | COM404_HO4 (fix)
+54,False,654,417,2.18,52.11,8,1,VIDEO,True,TOFV1_JW2 | Com255 Hk3
+32,False,650,913,0.99,130.38,7,1,VIDEO,False,TOFV1_KP1 | COM275_HO2
+39,False,638,652,1.36,72.45,9,1,VIDEO,False,TOFV1_NP1 | COM297_HO3_NoBFCMBanner.mp4
+42,False,583,555,1.46,69.38,8,1,VIDEO,False,TOFv1_HO53 | INT_06.19.26_Nurse Page_COM57_Text Video Format_Nurse_Ever green_Mash-Up_Net New_Nurse_Jed_Samir_H2 – Copy 2
+38,False,544,653,1.16,93.28,7,1,IMAGE,False,INT_07.03.26_Nurse Page_COM110_On Feet_Pains_Ever green_Statics_Net New_Everyday User_Real_Julieta_V4 – Copy 2
+47,False,511,468,1.52,66.82,7,1,VIDEO,False,TOFV1_NK1 | COM367_HO2 (fix)
+45,False,504,497,1.41,71.06,7,1,VIDEO,True,TOFV1_LF1 | COM288_HO3 (fix again)
+50,False,491,452,1.51,75.33,6,1,VIDEO,False,TOFV1_IW1 | COM219_1
+55,False,467,403,1.61,67.1,6,1,VIDEO,True,TOFV1_JB2 | COM227_COM121_K189 - Iteration_Ortho_Nurse_No Offer_Mash-Up_Iteration_Expert - Doctor_Jed_Samir_H1
+35,False,444,812,0.76,135.41,6,1,VIDEO,False,TOFV1_LP3 | COM335_HO3 (fix)
+40,False,442,589,1.04,98.2,6,1,VIDEO,False,TOFV1_OS1 | COM315_Doctor Recommends Against Hokas and Skechers_Spanish_Ortho_Nurse_No Offer_AI+ExistingFootage_Iteration_Nurse_Anas_Mica_V1 (1)
+51,False,412,440,1.3,62.82,7,1,VIDEO,False,TOFV1_HL58 | AUGWK1_VID1_JACK_TeacherTested_Hook2
+44,False,330,506,0.91,126.42,4,1,VIDEO,False,TOFV1_NM1 | H2_COM364_Doctor rating shoes at Disney_Ortho_Disney__AI_Iteration_Travel__Mica_V2 | https://comfortorthowear.com/pages/the-5-best-shoes-for-disney
+48,False,321,456,0.98,151.98,3,1,VIDEO,False,TOFV1_LQ3 | COM319_HO3 (fix)
+33,False,317,843,0.52,210.77,4,1,VIDEO,False,TOFV1_ME3 | COM342_HO2
+41,False,301,560,0.75,140.02,4,1,VIDEO,False,TOFV1_OA1 | COM365_Hook 2
+52,False,283,425,0.92,141.82,3,1,VIDEO,False,TOFV1_HL59 | AUGWK1_VID2_JACK_TeacherTested_Hook1
+49,False,240,455,0.73,113.81,4,1,VIDEO,False,TOFV1_MM1 | OCTWK3_VID4_JACK_NeuropathyStoppedBuying_Hook2
+53,False,219,423,0.72,105.79,4,1,VIDEO,False,TOFV1_MB1 | COM303_V2
+46,False,195,470,0.58,234.95,2,1,VIDEO,False,TOFV1_KC1 | COM257_Can shoes help with neuropathy_Ortho_Neuropathy_No Offer_AI+ExistingFootage_Net New_Foot Pain_Jed_Samir_H1
