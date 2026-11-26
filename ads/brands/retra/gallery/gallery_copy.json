@@ -26,5 +26,19 @@
  "box_label_camera": "Retra camera",
  "box_label_cable": "USB-C charging cable",
  "box_label_strap": "Wrist strap",
- "box_label_card": "Memory card"
+ "box_label_card": "Memory card",
+ "packaging": {
+  "descriptor": "Screen-free point & shoot",
+  "icon_labels": [
+   "Zero screens",
+   "4 built-in filters",
+   "No film needed",
+   "Memory card included",
+   "USB-C photo export",
+   "Rechargeable battery"
+  ],
+  "tagline": "Point. Shoot. Stay present.",
+  "pill": "The modern disposable",
+  "source": "run run_0b72a7d8a6344e89a498b0f76185dc51"
+ }
 }

@@ -77,6 +77,15 @@ def jobs():
             " a small black clip, loosely coiled; bottom left, a coiled black USB-C cable; bottom right, one small"
             " micro SD memory card with a plain black label (no readable text, no brand, no capacity). Items spaced"
             " apart with clear empty cream space around each for small labels." + CAM.format(col=col) + REAL))
+        j[f"boxblank_{c}"] = dict(refs=[PRODUCT / f"retra_{c}_34.jpg"], prompt=(
+            f"Overhead three-quarter product flat lay on {BG}, unboxing layout. Top right: a closed white rectangular"
+            " retail box standing upright on its long edge, its large front panel (about 1.6 times wider than tall)"
+            " turned toward the viewer at a slight angle, so the whole front panel is clearly visible and large in"
+            " frame (about 45% of the image width). The front panel is completely plain matte white with NO printing,"
+            " text, logo or graphics at all. Centre: the Retra camera from the reference lying flat. Left: a short"
+            " black braided wrist strap loop (about 15 cm) with a small black clip. Bottom left: a coiled black USB-C"
+            " cable. Bottom right: one small micro SD memory card with a plain black label (no readable text). Items"
+            " spaced apart with clear cream space around each." + CAM.format(col=col) + REAL))
     return j
 
 
