@@ -140,16 +140,30 @@
         .then(function (r) { return r.json(); }).then(render).catch(function () { li.classList.remove('busy'); });
     });
   }
+  /* Open the slide-out cart after any add to cart on the page, including Kaching's bundle adds. */
+  if (window.fetch && drawer) {
+    var nativeFetch = window.fetch;
+    window.fetch = function (input, init) {
+      var url = typeof input === 'string' ? input : (input && input.url) || '';
+      var req = nativeFetch.apply(this, arguments);
+      if (/\/cart\/add(\.js)?(\?|$)/.test(url) && !(init && init.retraOwn)) {
+        req.then(function (r) { if (r.ok) setTimeout(function () { getCart().then(render).then(openCart); }, 150); }).catch(function () {});
+      }
+      return req;
+    };
+  }
   $$('[data-open-cart]').forEach(function (b) { b.addEventListener('click', function (e) { e.preventDefault(); getCart().then(render).then(openCart).catch(openCart); }); });
 
   $$('form[data-retra-atc]').forEach(function (form) {
     var btn = $('button[type="submit"]', form);
     var status = $('[data-atc-status]', form);
     form.addEventListener('submit', function (e) {
+      /* When the Kaching bundle picker is showing, Kaching adds the chosen bundle and gifts itself. */
+      var kbox = form.closest('[data-kaching-on]'); if (kbox && kbox.querySelector('.kaching-bundles')) return;
       e.preventDefault();
       if (btn) btn.disabled = true;
       if (status) { status.textContent = ''; status.classList.remove('err'); status.classList.add('vh'); }
-      fetch('/cart/add.js', { method: 'POST', headers: { Accept: 'application/json' }, body: new FormData(form) })
+      fetch('/cart/add.js', { method: 'POST', headers: { Accept: 'application/json' }, body: new FormData(form), retraOwn: true })
         .then(function (r) { if (!r.ok) throw new Error('add'); return r.json(); })
         .then(function () { return getCart(); })
         .then(function (cart) {

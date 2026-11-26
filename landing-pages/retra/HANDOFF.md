@@ -95,3 +95,13 @@ Preview: https://reclaimnutra.com/?preview_theme_id=188991406298
   - The 12 review cards and the `g5` quotes are still SAMPLE reviews (labelled). Swap in the real wholesale reviews.
   - Publishing: the "Retra" theme replaces K-Tube for the whole store; the other products would use Dawn's default
     product template. Exit popup ("Mystery Discount") was dropped because no discount exists.
+
+## Live theme and bundles (2026-11-26)
+- Live theme: "Retra (bar update)" `gid://shopify/OnlineStoreTheme/189021028570`. The user renamed the logo to "Retra-Shots" and
+  edited home-page offer text in the editor; keep editor settings when deploying (edit templates with sed, not full rewrites).
+- Deploying to the live theme: `themeFilesUpsert` is blocked on live themes. Use `theme_bash` (this theme's sandbox is in sync)
+  → `theme_commit` → `theme_publish` after the user says yes. The old "Retra" theme's sandbox is stale; don't use it.
+- Announcement bar: countdown removed; offer tag setting is `offer_tag` (BUY 2, GET 1 FREE); bar styles live in the header section.
+- Bundles: Kaching Bundles. Setup steps in KACHING-SETUP.md. Theme side: buy box has an `@app` block slot, `show_bundles` toggle,
+  Kaching skin CSS, and a fetch hook that opens the slide-out cart after Kaching adds. Gift products: strap leash $29, leather bag $50.
+- Still to verify once the deal exists: Add to Cart with each bar (bundle + gifts land in the cart, price $198 / $297).
