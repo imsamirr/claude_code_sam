@@ -125,6 +125,19 @@ def jobs():
         " one flipping a vinyl record, the others laughing and mid-dance, string lights and plants behind, a few"
         " drinks on the sideboard. Direct on-camera flash, hard shadows on the wall, slight motion blur on the dancer."
         " No readable text, no album art, no logos." + snap + nt))
+    j["sample_dj"] = dict(refs=[], prompt=(
+        "Nightclub at night, seen from just in front of the DJ booth: a DJ in his late 20s with curly hair and a dark"
+        " t-shirt leans over the decks, both hands on the mixer, head down and grinning; two friends dance right behind"
+        " the booth, one mid-laugh with an arm up. Behind them a dark packed dance floor, haze, magenta and amber stage"
+        " lights and a few light beams. Direct on-camera flash lights the DJ and the front of the booth, the background"
+        " falls into darkness, slight motion blur on the dancers. DJ gear is generic and unbranded: no logos, no"
+        " readable labels or screens, no neon signs, no text anywhere." + snap + nt))
+    j["sample_rave"] = dict(refs=[], prompt=(
+        "Underground rave in a low-ceilinged concrete basement or old warehouse at night, seen from inside the crowd:"
+        " a dense crowd of silhouetted heads and shoulders from behind, a few arms raised, thick haze lit deep red,"
+        " exposed pipes and a bare concrete ceiling, a row of blinding white strobe and wash lights at the far end"
+        " behind a small makeshift DJ table, light beams cutting through the smoke. Grainy, high-ISO, slightly blurred,"
+        " the lower half falling into near-black. No text, no signs, no logos." + snap + nt))
     j["sample_ferry"] = dict(refs=[], prompt=(
         "A young woman seen from behind on the open deck of a small ferry, leaning on the white railing, hair blowing"
         " in the wind, linen shirt, looking out at a rocky green coastline and turquoise sea, late afternoon sun, wake"

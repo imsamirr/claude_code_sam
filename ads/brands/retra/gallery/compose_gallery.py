@@ -21,7 +21,7 @@ CUT = REPO / "assets/retra/product/cutout"
 OUT = HERE / "output"
 OUT.mkdir(exist_ok=True)
 S = 2000
-CREAM = (243, 238, 228)
+CREAM = (242, 238, 227)  # store cream #F2EEE3
 NAVY = (2, 43, 73)
 MUTE = (2, 43, 73, 128)
 COPY = json.load(open(HERE / "gallery_copy.json"))
@@ -95,8 +95,7 @@ def cutout(im, thresh=34):
 
 def front_cut(c):
     """Front view cut-out; Chalk uses its green-screen mask (cutout_chalk_front.py)."""
-    pre = HERE / "renders" / f"front_{c}_cutout.png"
-    return Image.open(pre).convert("RGBA") if pre.exists() else cutout(Image.open(src(PICKS[f"front_{c}"])))
+    return Image.open(HERE / "cutouts" / f"front_{c}.png").convert("RGBA")  # green_cutouts.py
 
 
 def fit_w(im, w):
@@ -133,7 +132,7 @@ def canvas():
 
 def hand(c):
     im = ImageOps.fit(Image.open(src(PICKS[f"hand_{c}"])).convert("RGB"), (S, S), Image.LANCZOS)
-    return im
+    return to_store_cream(im, sigma=0.05)
 
 
 def howto(c):
@@ -145,10 +144,10 @@ def howto(c):
     ch = (S - top - 150 - gap) / 2
     back = Image.open(HERE / "base/back_cutout.png").convert("RGBA")
     back = back.filter(ImageFilter.GaussianBlur(0))
-    imgs = [Image.open(CUT / f"retra_{c}_34.png").convert("RGBA"),
+    imgs = [Image.open(HERE / "cutouts" / f"34_{c}.png").convert("RGBA"),
             back,
             front_cut(c),
-            cutout(Image.open(src(PICKS[f"bottom_{c}"])))]
+            Image.open(HERE / "cutouts" / f"bottom_{c}.png").convert("RGBA")]
     lab = inter(58, "SemiBold")
     for i, (step, ob) in enumerate(zip(COPY["howto_steps"], imgs)):
         r, col = divmod(i, 2)
@@ -173,7 +172,7 @@ def howto(c):
 
 
 def usbc(c):
-    img = ImageOps.fit(Image.open(src(PICKS[f"usbc_{c}"])).convert("RGB"), (S, S), Image.LANCZOS).convert("RGBA")
+    img = to_store_cream(ImageOps.fit(Image.open(src(PICKS[f"usbc_{c}"])).convert("RGB"), (S, S), Image.LANCZOS)).convert("RGBA")
     d = ImageDraw.Draw(img)
     f = tinos(150)
     words = typeset(COPY["usbc_headline"]).split()
@@ -254,7 +253,7 @@ def filters(c):
 
 
 def gift(c):
-    img = ImageOps.fit(Image.open(src(PICKS[f"gift_{c}"])).convert("RGB"), (S, S), Image.LANCZOS).convert("RGBA")
+    img = to_store_cream(ImageOps.fit(Image.open(src(PICKS[f"gift_{c}"])).convert("RGB"), (S, S), Image.LANCZOS)).convert("RGBA")
     d = ImageDraw.Draw(img)
     text(d, (150, 120), typeset(COPY["gift_headline"]), tinos(210))
     text(d, (160, 360), typeset(COPY["gift_second_line"]), tinos(110), MUTE)
@@ -270,7 +269,7 @@ def gift(c):
 
 
 def box(c):
-    img = ImageOps.fit(Image.open(src(PICKS[f"box_{c}"])).convert("RGB"), (S, S), Image.LANCZOS).convert("RGBA")
+    img = to_store_cream(ImageOps.fit(Image.open(src(PICKS[f"box_{c}"])).convert("RGB"), (S, S), Image.LANCZOS)).convert("RGBA")
     d = ImageDraw.Draw(img)
     bf = inter(60, "Bold")
     badge = typeset(COPY["box_badge"]).upper()
@@ -485,7 +484,12 @@ def retra_filter(im, name, seed=5):
 def sample(spec, small=True):
     raw = Image.open(src(PICKS[f"sample_{spec['id']}"])).convert("RGB")
     k = PICKS.get("sample_crop", {}).get(spec["id"], 0)  # trim a print-style border Kie added
-    if k:
+    if k == "auto":  # photo drawn on a white page: keep only the photo
+        arr = np.asarray(raw).astype(int)
+        content = arr.min(-1) < 235
+        ys, xs = np.where(content)
+        raw = raw.crop((xs.min() + 6, ys.min() + 6, xs.max() - 6, ys.max() - 6))
+    elif k:
         raw = raw.crop((k, k, raw.width - k, raw.height - k))
     base = ImageOps.fit(raw, (S, S), Image.LANCZOS)
     img = retra_filter(base, spec["filter"], seed=hash(spec["id"]) % 1000).convert("RGBA")
@@ -585,6 +589,24 @@ def split_personal():
     out.mkdir(exist_ok=True)
     img.convert("RGB").save(out / "RET_split_vintage_vs_phone_personal.jpg", quality=92)
     print("RET_split_vintage_vs_phone_personal.jpg")
+
+
+def to_store_cream(img, sigma=0.07):
+    """Smoothly move a scene's backdrop (and its soft shadows) to the store cream #F2EEE3.
+    Per-pixel channel gains weighted by how close the pixel's hue is to the backdrop hue: no hard mask, so
+    no blotches; strongly coloured things (cameras, ribbons, screens) are left alone."""
+    a = np.asarray(img.convert("RGB")).astype(np.float32)
+    h, w = a.shape[:2]
+    e = max(8, h // 60)
+    border = np.concatenate([a[:e].reshape(-1, 3), a[-e:].reshape(-1, 3), a[:, :e].reshape(-1, 3),
+                             a[:, -e:].reshape(-1, 3)])
+    bg = np.median(border, 0)
+    gains = np.array([242, 238, 227], np.float32) / bg
+    lum = a.sum(-1)
+    chd = np.abs(a / np.maximum(lum[..., None], 1) - bg / bg.sum()).sum(-1)
+    wgt = np.exp(-(chd / sigma) ** 2) * np.clip(lum / bg.sum() / 0.25, 0, 1)
+    out = a * (1 + wgt[..., None] * (gains - 1))
+    return Image.fromarray(np.clip(out, 0, 255).astype("uint8")).convert(img.mode)
 
 
 BUILD = {"hand": hand, "howto": howto, "usbc": usbc, "frontback": frontback, "filters": filters, "gift": gift,

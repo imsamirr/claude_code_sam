@@ -8,3 +8,6 @@
 {"jobs": ["sample_party", "sample_ferry", "sample_sand", "sample_rain", "sample_bike"], "fix": "", "credits_spent": 90.0, "usd": 0.45}
 {"jobs": ["sample_party"], "fix": "The last version was a collage of two photos with a white border. Make ONE single full-bleed photo filling the whole frame edge to edge, no border, no frame, no collage.", "credits_spent": 18.0, "usd": 0.09}
 {"jobs": ["sample_bike"], "fix": "The last version had a dark border around the photo. Fill the whole frame edge to edge: no border, no frame, no vignette edge.", "credits_spent": 18.0, "usd": 0.09}
+{"jobs": ["sample_dj"], "fix": "", "credits_spent": 18.0, "usd": 0.09}
+{"jobs": ["sample_rave"], "fix": "", "credits_spent": 36.0, "usd": 0.18}
+{"jobs": ["sample_dj"], "fix": "The last version was a tilted printed photo on a white page and the mixer showed a brand name. Make ONE straight photo filling the entire frame edge to edge (no white page, no border, no tilt), and the DJ gear must be completely unbranded with no letters or logos.", "credits_spent": 18.0, "usd": 0.09}

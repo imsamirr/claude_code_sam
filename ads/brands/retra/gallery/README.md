@@ -30,3 +30,10 @@ Rebuild: `python3 compose_gallery.py` (raw renders are committed as JPEG; the 2K
 - Original Kie scenes (party, ferry, beach, rainy street, bicycle). None are copied from Retropia.
 - Each has one Retra filter applied in code (`retra_filter` in compose_gallery.py, the same curves as the landing page)
   plus grain and lens falloff. The captions say "Simulated preview"; replace these with real Retra photos when you have them.
+
+## Clean cut-outs (fix for ragged edges, tan patches, smudges)
+- `green_cutouts.py`: Kie puts each camera (3/4, front and bottom views, all colours) on chroma green, then it is keyed
+  with despill and teal removal, and the front views are clipped to the camera outline. The results are in `cutouts/`.
+- All graphics are built directly on the store cream #F2EEE3. Photo scenes (hand, USB-C, box, gift) go through
+  `to_store_cream()`, a smooth per-pixel shift that keeps shadows instead of leaving patches.
+- The garbled lettering beside the back-view button is painted out (`base/back_cutout.png`).

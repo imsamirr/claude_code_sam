@@ -63,7 +63,7 @@
  "portrait_caption": "Simulated with Retra Vintage filter",
  "samples": [
   {
-   "id": "party",
+   "id": "dj",
    "filter": "Film",
    "small": "Simulated preview",
    "main": "Retra Film filter"
@@ -91,6 +91,12 @@
    "filter": "Film",
    "small": "Simulated preview",
    "main": "Retra Film filter"
+  },
+  {
+   "id": "rave",
+   "filter": "Natural",
+   "small": "Simulated preview",
+   "main": "Retra Natural filter"
   }
  ]
 }

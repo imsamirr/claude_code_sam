@@ -659,6 +659,9 @@
  "sample_rain": "sample_rain_t1.png",
  "sample_bike": "sample_bike_t2.png",
  "sample_crop": {
-  "party": 66
- }
+  "party": 66,
+  "dj": "auto"
+ },
+ "sample_dj": "sample_dj_t2.png",
+ "sample_rave": "sample_rave_t1.png"
 }
