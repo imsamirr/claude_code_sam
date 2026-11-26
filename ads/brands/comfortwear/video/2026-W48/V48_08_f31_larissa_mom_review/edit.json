@@ -1,0 +1,170 @@
+{
+  "id": "V48_08_f31_larissa_mom_review",
+  "version": 2,
+  "created": "2026-11-26",
+  "end_card": "auto",
+  "transition": "cut",
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card (F31 exception 25-28 s); 9:16 with content inside 4:5; show-the-shoe rule (user 2026-11-23).",
+  "angle": "Busy moms on hard home tile need real arch support and cushion to prevent afternoon heel and arch exhaustion.",
+  "format": "F31 Cuurt creator review ⭐",
+  "caption_style": "F31: yellow text, thin dark outline, one line per shot, ✅ checklist, 👍 (Cuurt)",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/cuurt_lofi_89bpm.mp3",
+    "gain": 0.5,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "sweep": "drive:1vqC-CCn4PBTR64aN_ikvClIIFTHTzIy8",
+    "sofa": "drive:1jW0u6ohazn3-KksWbtlstiTNwVoSAa_o",
+    "grey": "drive:1r4y5-qxNOsNX3k0FHPjWnv07MEv4b7li",
+    "sole": "drive:11eedNUXoLA7GHlVAKvtUNI7yvslGY0wT",
+    "suv": "drive:1KyU7KcORY4lUZkZ2ZQfv4FN0FJKqsMrC",
+    "door": "drive:1dNZcJIQAhiJ-FXDXF6PGcuTLnVheLjrA"
+  },
+  "source_notes": {
+    "sweep": "2025/Larissa content 'cleaning the house' sweeping the marble entryway in the black pair",
+    "sofa": "2025/Larissa content IMG_5086 POV feet up on the sofa, black/purple pair close",
+    "grey": "2025/Larissa content IMG_6596 holding the grey pair up beside her face",
+    "sole": "2025/Larissa content IMG_5091 black/purple shoe in hand: tread, flex, knit",
+    "suv": "2025/Larissa content IMG_3589 kids loading into the red SUV, her feet by the door",
+    "door": "2025/Larissa content IMG_5082 stepping out the front door in the black/purple pair"
+  },
+  "clips": [
+    {
+      "src": "sweep",
+      "in": 11.0,
+      "out": 15.4,
+      "gain": 0
+    },
+    {
+      "src": "sofa",
+      "in": 0.0,
+      "out": 4.4,
+      "gain": 0
+    },
+    {
+      "src": "grey",
+      "in": 0.0,
+      "out": 4.6,
+      "gain": 0,
+      "shift_y": 0.06
+    },
+    {
+      "src": "sole",
+      "in": 5.5,
+      "out": 10.0,
+      "gain": 0
+    },
+    {
+      "src": "suv",
+      "in": 8.5,
+      "out": 13.0,
+      "gain": 0
+    },
+    {
+      "src": "door",
+      "in": 2.5,
+      "out": 7.0,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clip": 0,
+      "text": "*POV: you finally found shoes for hard floors all day* 🏠",
+      "style": "classic",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.92,
+      "y": 0.18,
+      "fade": 0,
+      "font": "condensed",
+      "avoid_faces": false
+    },
+    {
+      "clip": 1,
+      "text": "*Switched 60 days ago. Chasing kids on hard tile.*",
+      "style": "classic",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.92,
+      "y": 0.24,
+      "fade": 0,
+      "font": "condensed"
+    },
+    {
+      "clip": 2,
+      "text": "*No more aching arches by 3 PM*\n*No more throbbing heels*",
+      "style": "classic",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.92,
+      "y": 0.24,
+      "fade": 0,
+      "font": "condensed"
+    },
+    {
+      "clip": 3,
+      "text": "*Doctor-recommended arch support with deep heel cushion. Lifesaver.*",
+      "style": "classic",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.92,
+      "y": 0.2,
+      "fade": 0,
+      "font": "condensed"
+    },
+    {
+      "clip": 4,
+      "text": "*✅ Podiatrist-recommended arch*\n*✅ Cushions hard tile impact*\n*✅ Slip-on stretch knit*",
+      "style": "classic",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.96,
+      "y": 0.24,
+      "fade": 0,
+      "font": "condensed"
+    },
+    {
+      "clip": 5,
+      "text": "*10/10 recommend for moms on hard floors all day 👍*",
+      "style": "classic",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.92,
+      "y": 0.24,
+      "fade": 0,
+      "font": "condensed"
+    }
+  ],
+  "persona": "Persona 6: Plus-Size Woman Walking & Living, as a busy mom on hard floors all day (creator Larissa, curvy, 30s)",
+  "based_on": "RTGv1_P4 | INT_07.03.26_General Foot Pain (new, $231 spend, ROAS 2.69, 7d to 2026-11-25). StefanBrain concept SF08: keeps its angle; new format/hook/story.",
+  "primary_text": "Spending all day on hard tile floors and chasing kids takes a serious toll on your arches and heels. Comfort Wear combines doctor-recommended arch support, an anatomical wide toe box, and elastic stretch knit built for busy moms on their feet from morning to night. Take advantage of discounts, 40% off sitewide. Backed by our 30-day money-back guarantee.",
+  "headline": "Mom-Approved Hard Floor Shoes | 40% OFF",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_39217168cd2e4d5ab9a1995f526f9003",
+  "stefanbrain_concept": "SF08",
+  "stefanbrain_title": "Larissa F31 Creator Review",
+  "stefanbrain_shots": [
+    "0-4s: Larissa sweeping and cleaning on hard marble floors in Comfort Wear shoes, on her feet all day [source: Larissa;sweeping;marble_floor;hard_floors;cleaning]",
+    "4-8.5s: Hero on-foot shot (4.5s): Larissa sitting on sofa with feet up in black/purple shoes, smiling relaxed [source: Larissa;sofa;feet_up;black_purple;smile]",
+    "8.5-13s: Hero in-hand shot (4.5s): Larissa holding grey pair up next to her face, smiling to camera [source: Larissa;holding;grey_pair;face;smile]",
+    "13-17s: Hero in-hand demo (4s): Larissa flexing black/purple sole in hand and stretching knit upper [source: Larissa;flexing;sole_knit;in_hand;black_purple]",
+    "17-21.5s: Action on-foot shot (4.5s): Larissa buckling kids into red SUV, camera showing supported feet on driveway pavement [source: Larissa;buckling_kids;red_suv;on_foot;support]",
+    "21.5-26s: Payoff on-foot close-up (4.5s): Larissa standing at front door in shoes, rocking comfortably on arches with a smile [source: Larissa;front_door;standing;on_foot;close_up]",
+    "26-29s: Evergreen 40% OFF end card (3s) with 30-day money-back guarantee"
+  ],
+  "qa": {
+    "shoe_seconds": 17.8,
+    "content_seconds": 26.4,
+    "shoe_share": 0.67,
+    "hero_3s": true,
+    "payoff_our_shoe": true,
+    "checked": "1-fps strip, 2026-11-26"
+  }
+}

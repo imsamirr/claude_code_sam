@@ -1,0 +1,121 @@
+{
+  "id": "V48_04_dont_buy_if_pinching_stack",
+  "version": 2,
+  "created": "2026-11-26",
+  "end_card": "auto",
+  "transition": "cut",
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card (F31 exception 25-28 s); 9:16 with content inside 4:5; show-the-shoe rule (user 2026-11-23).",
+  "angle": "Reverse psychology callout contrasting tight, narrow tapered toe boxes with anatomical stretch knit that accommodates foot swelling.",
+  "format": "Reverse callout ('Do not buy these if…'), build-up list",
+  "caption_style": "NEW W48: build-up list, lines stack one by one at staggered heights (Fitness with Lu x PuraU m2085545735429533), TikTok Classic outline, *yellow* key phrase, 72 px",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/cuurt_chiro_lofi_89bpm.mp3",
+    "gain": 0.5,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "marks": "drive:1TNUDp8gXYWYsliDNCupTl0G_9e0wiMYR",
+    "knit": "drive:1svhxBY6MkkkeolXoB-c8ng3eDoKsQ1mU",
+    "walk": "drive:1YI3fjeMiMWj5bKNOwfkA_5-YiVtrgagw"
+  },
+  "source_notes": {
+    "marks": "2026/Susan Ceklosky B-Rolls 'Marks on foot' red indentation lines on a bare foot",
+    "knit": "2025/Larissa content IMG_6406 hands opening the black/purple pair, stretch knit toe box",
+    "walk": "2025/Larissa content IMG_6203 curvy creator walking on marble in the grey pair, legs + shoes large"
+  },
+  "clips": [
+    {
+      "src": "marks",
+      "in": 5.0,
+      "out": 8.0,
+      "gain": 0
+    },
+    {
+      "src": "knit",
+      "in": 8.5,
+      "out": 13.0,
+      "gain": 0,
+      "shift_y": 0.14
+    },
+    {
+      "src": "walk",
+      "in": 19.5,
+      "out": 24.0,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        2
+      ],
+      "text": "Do not buy these if you like your shoes pinching your feet 🛑",
+      "style": "classic",
+      "font": "classic",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.88,
+      "y": 0.17,
+      "fade": 0,
+      "avoid_faces": false
+    },
+    {
+      "clips": [
+        1,
+        2
+      ],
+      "text": "The *wide anatomical toe box* lets your toes spread completely flat 👣",
+      "style": "classic",
+      "font": "classic",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.88,
+      "y": 0.3,
+      "fade": 0,
+      "avoid_faces": false
+    },
+    {
+      "clips": [
+        2,
+        2
+      ],
+      "text": "Deep heel cushioning that never flattens under your weight 🏃‍♀️✨",
+      "style": "classic",
+      "font": "classic",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.88,
+      "y": 0.43,
+      "fade": 0,
+      "avoid_faces": false
+    }
+  ],
+  "persona": "Persona 6: Plus-Size Woman Walking & Living (The Weight-Bearing Walker)",
+  "based_on": "TOFV1_KW1 | COM284_HO1 (top, $2,813 spend, ROAS 1.74, 7d to 2026-11-25). StefanBrain concept SF04: keeps its angle; new format/hook/story.",
+  "primary_text": "Standard walking shoes taper at the toes, cramming your joints and aggravating bunions. Comfort Wear features an anatomical wide toe box and an adaptive 4-way stretch upper that naturally accommodates swelling. Take advantage of discounts, 40% off sitewide right now. Walk in complete comfort or get a full refund within 30 days.",
+  "headline": "Wide Toe Box Comfort | 40% OFF",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_39217168cd2e4d5ab9a1995f526f9003",
+  "stefanbrain_concept": "SF04",
+  "stefanbrain_title": "Do Not Buy If You Like Pinching",
+  "stefanbrain_shots": [
+    "0-3s: Close-up of swollen feet showing red indentation lines left by tight, narrow sneakers [source: swollen_feet;problem]",
+    "3-7.5s: Hero shot (4.5s): Two hands holding Comfort Wear shoe, stretching the 4-way elastic knit upper outward to show wide anatomical toe room expanding easily [source from TikTok: product;hands;stretch_upper;toe_box_spread]",
+    "7.5-12s: Payoff on-foot shot (4.5s): Curvy creator walking in the grey pair on her marble floor at home, legs and shoes large in frame [source: curvy_creator;marble_floor;walking;grey_pair;on_foot]",
+    "12-15s: Evergreen 40% OFF end card (3s) with 30-day money-back guarantee"
+  ],
+  "qa": {
+    "shoe_seconds": 8.7,
+    "content_seconds": 11.7,
+    "shoe_share": 0.74,
+    "hero_3s": true,
+    "payoff_our_shoe": true,
+    "checked": "1-fps strip, 2026-11-26"
+  }
+}

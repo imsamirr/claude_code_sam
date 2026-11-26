@@ -1,0 +1,122 @@
+{
+  "id": "V48_02_sprints_vs_12hr_script",
+  "version": 5,
+  "created": "2026-11-26",
+  "end_card": "auto",
+  "transition": "cut",
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card (F31 exception 25-28 s); 9:16 with content inside 4:5; show-the-shoe rule (user 2026-11-23).",
+  "angle": "High-stack running foam collapses under 12 hours of constant standing. Nurses need structural arch support and wide toe room.",
+  "format": "F36-style script walk-along (expectation vs reality)",
+  "caption_style": "Bold Helvetica white + shadow script beats, *yellow* key phrase, 72 px",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/confident_strut_95bpm.mp3",
+    "gain": 0.5,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "ward": "drive:1RxhkrmN8z52-SyB3a9GTLB4Z8YiiR16M",
+    "insole": "drive:16sX_BLdDYLZj7AAS9IsHDI5SxwTcGGnE",
+    "hall": "drive:1ii9obclQw0YJniFq-a1Rf66s1TJEbQlV",
+    "feet": "drive:14DtAUy4mHA_bKYS7RtP9di4qFz_HCHDF"
+  },
+  "source_notes": {
+    "ward": "MISC B-ROLL/Nurses nurse pushing a resident in a wheelchair down the care-home hallway",
+    "insole": "2026/Susan Ceklosky B-Rolls 'Pulling out insole' navy pair, pressing the arch insole back in",
+    "hall": "2024/November 2024/Nurse shifts IMG_3779 nurse in navy scrubs walking down a long hall toward camera, burgundy pair",
+    "feet": "2026/Susan Ceklosky 'B-Roll - Short Clip A' low on-feet shot: navy scrub pants, navy/blue pair walking on hard tile"
+  },
+  "clips": [
+    {
+      "src": "ward",
+      "in": 6.0,
+      "out": 9.0,
+      "gain": 0,
+      "shift_y": 0.13
+    },
+    {
+      "src": "insole",
+      "in": 15.0,
+      "out": 19.5,
+      "gain": 0
+    },
+    {
+      "src": "hall",
+      "in": 3.5,
+      "out": 5.5,
+      "gain": 0
+    },
+    {
+      "src": "feet",
+      "in": 0.5,
+      "out": 5.0,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clip": 0,
+      "text": "Running shoes are built for sprints, not 12-hour hospital shifts 🏥",
+      "style": "shadow",
+      "font": "helvetica",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.88,
+      "y": 0.62,
+      "fade": 0
+    },
+    {
+      "clip": 1,
+      "text": "*Reinforced arch support* that will not flatten on concrete floors 🩺",
+      "style": "shadow",
+      "font": "helvetica",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.88,
+      "y": 0.26,
+      "fade": 0
+    },
+    {
+      "text": "Zero aching heels when you clock out tonight 🙌👟",
+      "style": "shadow",
+      "font": "helvetica",
+      "weight": "Bold",
+      "size": 72,
+      "width": 0.88,
+      "y": 0.22,
+      "fade": 0,
+      "clips": [
+        2,
+        3
+      ],
+      "avoid_faces": false
+    }
+  ],
+  "persona": "Persona 1: Hospital Nurse on 12-Hour Shifts (The Shift Survivor)",
+  "based_on": "TOFV1_HI16 | Nurse | COM225_Kyro390 (top, $2,407 spend, ROAS 1.82, 7d to 2026-11-25). StefanBrain concept SF02: keeps its angle; new format/hook/story.",
+  "primary_text": "Most running sneakers squish and collapse by hour four on concrete hospital floors. Comfort Wear delivers targeted arch support, slip-resistant traction, and a breathable knit upper engineered specifically for 12-hour shifts. Take advantage of discounts, 40% off sitewide. Backed by a full 30-day money-back guarantee.",
+  "headline": "12-Hour Nursing Shoes | 40% OFF",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_39217168cd2e4d5ab9a1995f526f9003",
+  "stefanbrain_concept": "SF02",
+  "stefanbrain_title": "Sprints vs 12-Hour Shifts",
+  "stefanbrain_shots": [
+    "0-3s: Caregiver pushing a resident in a wheelchair down a long hospital hallway on hard linoleum flooring [source: nurse;at_work;walking;on_foot]",
+    "3-7.5s: Hero shot (4.5s): Close-up on hospital breakroom table, pressing two fingers firmly against the rigid anatomical arch bridge of Comfort Wear shoe showing it maintains shape [source from TikTok: product;hero;breakroom;table_press;arch_profile]",
+    "7.5-12s: Payoff on-foot shot (4.5s): Nurse in ceil blue scrubs striding briskly down hospital corridor in Comfort Wear shoes, landing cushioned on each heel strike [source from TikTok: nurse;scrubs;walking;on_foot;hospital_tiles]",
+    "12-15s: Evergreen 40% OFF end card (3s) with 30-day money-back guarantee"
+  ],
+  "recut_note": "QA 2026-11-26: v1 had our shoe clearly on screen only ~38% (hallway shoes tiny); hallway cut to 2 s and the payoff is now a low on-feet shot of scrubs + our navy pair on hard tile.",
+  "qa": {
+    "shoe_seconds": 9.0,
+    "content_seconds": 13.6,
+    "shoe_share": 0.66,
+    "hero_3s": true,
+    "payoff_our_shoe": true,
+    "checked": "1-fps strip, 2026-11-26"
+  }
+}

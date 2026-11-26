@@ -617,3 +617,19 @@ the user's picks. Mark promising ones "candidate" and say so in the summary.
   - "$49 for Premium Pillow Comfort" price-anchor cuts (180 d).
 - New this week: TikTok-Shop creator posts as ads, hashtags in the copy ("cold cloud sheets for all my bedrooms 🌨️ the price is so good rn!!", "Crazy Deal!! #tiktokshopcreatorpicks").
 - For us: F39 needs a multi-pair display clip. F40 can be built now from Susan's and Heather's touch clips.
+
+## 11. Weekly refresh — 2026-11-26 (W48 batch run)
+
+- **TikTok this week (Virlo weekly report, week of 2026-11-16; nothing newer was published for 11-23 to 11-26):**
+  - The top format by creator posts is the "My moon my man" couple montage (306 posts, first seen 11-12).
+  - Second is the **"He wanna pay full price" SNL sound**: a deal-season meme that fits the post-Black-Friday window. It sits next to F39 ("if ur card declines…"). Use it only as a price-attitude joke, never with a price or discount we can't confirm.
+  - "Makeup loading percentage" and "upside-down" transitions are peaking. A **"loading %" transition** works for us as feet-at-hour-1 → hour-12 with a % bar (F23 cousin).
+  - The top Reels sound is "Flower In A Hurricane".
+  - Sources: virlo.ai/trending-on-tiktok-this-week, virlo.ai/trends/2026-11.
+- **NurseTok:** humor is 34% of nursing videos but draws 49% of likes, comments, shares and saves (NPHub analysis of 5,217 videos, via eMarketer). This keeps nurse memes (F12, F20, F21) ahead of earnest testimonials for the Tired Nurse persona. No new dated #nursesoftiktok sound this week.
+- **Atria, tracked advertisers, rising launches 11-19 to 11-26:** mostly Black Friday price bursts ("67% OFF + FREE GIFTS", "BIG SALE ONCE A YEAR‼️").
+  - Halara runs 8-15 s colour-choice showcases: one product in several colours, music only, the caption a single product line.
+  - This is the same multi-pair need as F34 and F39.
+- **Footage gap confirmed (W48):** the Drive inventory (4,545 files) has **no multi-pair display or colour-fan clip**. The search covered pairs, flat-lay, display, rack, collection, colours and 360.
+  - The closest real clips are Susan "Showing in closet" (`1BECfPmBrG96AL4gFqxMtk29guZw_R5tq`, 8 s: she pulls the navy pair off a full shoe rack, other brands visible top row), the 360 views of a single pair (`1StWbylaJ_rLkK9Cx2yeRJmIGGcnW2NmD`, `19RIQsh9bHXL9I3d0Olvaayc8iGFjndlG`) and the site colour grid screen recording (`1-fl1DhSUO_x7dlvK0Pcdm9mTUc1u8HtP`).
+  - **Ask the creators for a 15 s slow orbit of 4-6 Comfort Wear pairs on a table or rack** (serves F34, F39 and Halara-style showcases).

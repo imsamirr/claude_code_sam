@@ -1,0 +1,106 @@
+{
+  "id": "V48_05_f40_flex_cushion_test",
+  "version": 2,
+  "created": "2026-11-26",
+  "end_card": "auto",
+  "transition": "cut",
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card (F31 exception 25-28 s); 9:16 with content inside 4:5; show-the-shoe rule (user 2026-11-23).",
+  "angle": "Visual ASMR tactile demonstration proving structural firmness at the arch and high rebound cushioning in the heel cup.",
+  "format": "F40 touch demo (press, bend, slip on)",
+  "caption_style": "Translucent glass box, small, one label per scene (F40: text only as small labels)",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/soft_acoustic_80bpm.mp3",
+    "gain": 0.5,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "flex": "drive:1Umiww7RGBA8GNWWE1yQfhtMcIRJHuPiy",
+    "heel": "drive:1angEUiayQjgttdGoBvkKQpjZrYEzW8kx",
+    "on": "drive:1UCJu1L8eoddUMcVBkvbvvB0mQVWBCnsH"
+  },
+  "source_notes": {
+    "flex": "MISC B-ROLL/Others 'Broll showing outsole of the shoes' navy pair twisted and flexed in hand over wood floor",
+    "heel": "MISC B-ROLL/Nurses 'broll bending the shoes' creator squeezing the black/mint heel cup beside her face",
+    "on": "2026/Susan Ceklosky 'Stepping into shoe for first time' seated slip-on, then stands on the tile"
+  },
+  "clips": [
+    {
+      "src": "flex",
+      "in": 1.5,
+      "out": 5.0,
+      "gain": 0
+    },
+    {
+      "src": "heel",
+      "in": 0.5,
+      "out": 4.5,
+      "gain": 0
+    },
+    {
+      "src": "on",
+      "in": 10.5,
+      "out": 14.5,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clip": 0,
+      "text": "*Torsion test*: firm arch support resistance 🩺",
+      "style": "glass",
+      "weight": "SemiBold",
+      "size": 44,
+      "width": 0.8,
+      "y": 0.22,
+      "fade": 0
+    },
+    {
+      "clip": 1,
+      "text": "*Heel test*: thick shock-absorbing cushion cup ☁️",
+      "style": "glass",
+      "weight": "SemiBold",
+      "size": 44,
+      "width": 0.8,
+      "y": 0.16,
+      "fade": 0,
+      "avoid_faces": false
+    },
+    {
+      "clip": 2,
+      "text": "Elastic knit stretches over bunions with zero pressure 🦶✨",
+      "style": "glass",
+      "weight": "SemiBold",
+      "size": 44,
+      "width": 0.8,
+      "y": 0.22,
+      "fade": 0
+    }
+  ],
+  "persona": "Persona 9: Active Retiree 65+ & Daily Walker (bunion and heel pain)",
+  "based_on": "RTGv1_H3 | Ortho-Stretch-Cushion-Shoe-#753_2.jpg (top, $1,281 spend, ROAS 2.63, 7d to 2026-11-25). StefanBrain concept SF05: keeps its angle; new format/hook/story.",
+  "primary_text": "Tired of stiff leather shoes rubbing your bunions raw? Comfort Wear features flexible 4-way stretch knit and podiatrist-recommended arch support that cradles your foot without friction. Take advantage of discounts, 40% off sitewide today. Experience true relief with our 30-day money-back guarantee.",
+  "headline": "Bunion-Friendly Stretch | 40% OFF",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_39217168cd2e4d5ab9a1995f526f9003",
+  "stefanbrain_concept": "SF05",
+  "stefanbrain_title": "Tactile Flex and Cushion Test",
+  "stefanbrain_shots": [
+    "0-3.5s: Hero shot (3.5s): Close-up in bright studio lighting, hands twist and bend the shoe in half, demonstrating firm resistance under arch and immediate spring-back recovery [source: product;flex;bend;close;black_mint]",
+    "3.5-7s: Hero shot (3.5s): Thumbs pressing hard into thick heel cushion cup, demonstrating deep rebound shock absorption that protects sore heels [source from TikTok: product;touch_demo;pushing_heel_cushion;asmr]",
+    "7-11s: Payoff on-foot shot (4s): Woman slips foot smoothly into shoe with elastic no-tie laces and steps down on living room rug, showing side knit relaxing gently over bunion [source from TikTok: living_room;putting_on;standing;feet_on_rug]",
+    "11-14s: Evergreen 40% OFF end card (3s) with 30-day money-back guarantee"
+  ],
+  "qa": {
+    "shoe_seconds": 11.2,
+    "content_seconds": 11.2,
+    "shoe_share": 1.0,
+    "hero_3s": true,
+    "payoff_our_shoe": true,
+    "checked": "1-fps strip, 2026-11-26"
+  }
+}

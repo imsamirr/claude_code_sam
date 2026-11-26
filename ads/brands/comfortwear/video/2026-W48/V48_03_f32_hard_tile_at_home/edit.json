@@ -1,0 +1,70 @@
+{
+  "id": "V48_03_f32_hard_tile_at_home",
+  "version": 1,
+  "created": "2026-11-26",
+  "end_card": "auto",
+  "transition": "cut",
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card (F31 exception 25-28 s); 9:16 with content inside 4:5; show-the-shoe rule (user 2026-11-23).",
+  "angle": "Walking barefoot or in flat slippers across hard tile floors aggravates aching arches. Continuous podiatrist-recommended arch support keeps feet comfortable at home.",
+  "format": "F32 'text you read' at home ⭐",
+  "caption_style": "plain white text, soft shadow, one paragraph (F32 Archies), 72 px",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/archies_acoustic_81bpm.mp3",
+    "gain": 0.5,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "sofa": "drive:1ofKFc_XN3mZUiiD0Pxn-ZCAUIqJNBkBn"
+  },
+  "source_notes": {
+    "sofa": "2025/Larissa content IMG_6376 legs stretched off the light sofa, black/purple pair on rug, one continuous shot"
+  },
+  "clips": [
+    {
+      "src": "sofa",
+      "in": 0.0,
+      "out": 11.0,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        0
+      ],
+      "text": "Walking barefoot on hard tile used to leave my heels aching every evening. Switched to *podiatrist-recommended stretch cushion shoes* with real built-in arch support inside the house, and my feet stay comfortable all day. 🥹👣",
+      "style": "shadow",
+      "weight": "ExtraBold",
+      "size": 72,
+      "width": 0.9,
+      "y": 0.3,
+      "fade": 0
+    }
+  ],
+  "persona": "Persona 6: Plus-Size Woman Walking & Living (The Weight-Bearing Walker), at home on hard tile",
+  "based_on": "RTGv1_B6 | 203_Iteration_UGC_OrthoStretch (top, $1,099 spend, ROAS 3.42, 7d to 2026-11-25). StefanBrain concept SF03: keeps its angle; new format/hook/story.",
+  "primary_text": "If walking barefoot or in flat slippers across hard home tile leaves your feet sore and tired, your arches need real support. Comfort Wear pairs podiatrist-recommended arch support with deep heel cushioning and an adaptive stretch-knit upper so your feet stay supported on hard floors. Take advantage of discounts, 40% off sitewide. Backed by our full 30-day money-back guarantee.",
+  "headline": "Comfort At Home | 40% OFF",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_39217168cd2e4d5ab9a1995f526f9003",
+  "stefanbrain_concept": "SF03",
+  "stefanbrain_title": "Hard Tile Relief At Home",
+  "stefanbrain_shots": [
+    "0-10s: One continuous handheld shot (10s): Larissa (curvy creator, 30s) sitting on a light sofa, legs stretched out, black/purple Comfort Wear on her feet resting comfortably across rug and marble floor [source: Larissa;sofa;feet_up;black_purple;marble_rug;continuous]",
+    "10-13s: Evergreen 40% OFF end card (3s) with 30-day money-back guarantee"
+  ],
+  "qa": {
+    "shoe_seconds": 10.9,
+    "content_seconds": 10.9,
+    "shoe_share": 1.0,
+    "hero_3s": true,
+    "payoff_our_shoe": true,
+    "checked": "1-fps strip, 2026-11-26"
+  }
+}

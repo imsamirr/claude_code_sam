@@ -1,0 +1,89 @@
+{
+  "id": "V48_09_f39_card_declines_hokas",
+  "version": 2,
+  "created": "2026-11-26",
+  "end_card": "auto",
+  "transition": "cut",
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card (F31 exception 25-28 s); 9:16 with content inside 4:5; show-the-shoe rule (user 2026-11-23).",
+  "angle": "Humorous viral meme contrasting overhyped running shoes with podiatrist-recommended hospital comfort that actually survives 12-hour shifts.",
+  "format": "F39 'if ur card declines' meme over a slow product shot ⭐",
+  "caption_style": "Heavy meme stroke: white Black-weight text with black outline (F39 Mellow Sleep), 72 px",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/park_whimsical_100bpm.mp3",
+    "gain": 0.5,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "rack": "drive:1BECfPmBrG96AL4gFqxMtk29guZw_R5tq",
+    "nurse": "drive:1MOBZmhq1i87e5Zz8IqLd6b_10GqeoL5R"
+  },
+  "source_notes": {
+    "rack": "2026/Susan Ceklosky 'Showing in closet' hand pulls the navy pair off a full shoe rack, slow handheld (closest real footage: no multi-pair display clip exists)",
+    "nurse": "MISC B-ROLL/Nurses nurse in royal blue scrubs posing by a white door in the black/white pair"
+  },
+  "clips": [
+    {
+      "src": "rack",
+      "in": 1.5,
+      "out": 8.0,
+      "gain": 0
+    },
+    {
+      "src": "nurse",
+      "in": 2.0,
+      "out": 7.0,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "text": "When your card declines on Hokas so you grab the *podiatrist-recommended stretch shoes* that actually save your shifts 😭🙏👟",
+      "style": "outline",
+      "weight": "Black",
+      "size": 72,
+      "width": 0.9,
+      "y": 0.17,
+      "fade": 0,
+      "clip": 0,
+      "avoid_faces": false
+    },
+    {
+      "text": "When your card declines on Hokas so you grab the *podiatrist-recommended stretch shoes* that actually save your shifts 😭🙏👟",
+      "style": "outline",
+      "weight": "Black",
+      "size": 72,
+      "width": 0.9,
+      "y": 0.45,
+      "fade": 0,
+      "clip": 1
+    }
+  ],
+  "persona": "Persona 1: Hospital Nurse on 12-Hour Shifts (The Shift Survivor)",
+  "based_on": "RTGv1_B6 | 203_Iteration_UGC_OrthoStretch (top, $1,099 spend, ROAS 3.42, 7d to 2026-11-25). StefanBrain concept SF09: keeps its angle; new format/hook/story.",
+  "primary_text": "Do not overspend on bulky running sneakers that lose support halfway through a hospital shift. Comfort Wear provides podiatrist-recommended arch support, slip-resistant grip, and a cushioned heel cup engineered for 12 hours on concrete floors. Take advantage of discounts, 40% off sitewide today. Try them risk-free with our 30-day money-back guarantee.",
+  "headline": "Nurse-Favorite Work Shoes | 40% OFF",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_39217168cd2e4d5ab9a1995f526f9003",
+  "stefanbrain_concept": "SF09",
+  "stefanbrain_title": "Card Declines on Hokas Meme",
+  "stefanbrain_shots": [
+    "0-8s: Hero shot (8s): Susan's hand pulling the navy/blue Comfort Wear pair off a crowded home shoe rack full of other shoes, slow and handheld with navy pair filling frame for 5s [source: Susan;hand;pulling_navy_pair;shoe_rack;close_up]",
+    "8-12s: Payoff on-foot shot (4s): Nurse in royal blue scrubs posing by a white hospital door, rocking gently onto her toes to show black/white Comfort Wear shoes on her feet with a relieved smile [source: nurse;royal_blue_scrubs;posing;black_white;smile;on_foot]",
+    "12-15s: Evergreen 40% OFF end card (3s) with 30-day money-back guarantee"
+  ],
+  "footage_gap": "F39 calls for a slow orbit around several pairs on a display; no such clip exists in the Drive library (4,545 files searched). StefanBrain approved the closest real footage (Susan pulling the navy pair off a shoe rack).",
+  "layout_note": "Same static line on both shots; sits over the top of the shoe rack on shot 1 (covers other brands' shoes) and over her torso on shot 2 (off her face and the shoes).",
+  "qa": {
+    "shoe_seconds": 10.3,
+    "content_seconds": 11.3,
+    "shoe_share": 0.91,
+    "hero_3s": true,
+    "payoff_our_shoe": true,
+    "checked": "1-fps strip, 2026-11-26"
+  }
+}

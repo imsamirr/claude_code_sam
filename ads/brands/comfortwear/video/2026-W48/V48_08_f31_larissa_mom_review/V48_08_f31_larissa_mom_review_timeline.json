@@ -1,0 +1,40 @@
+{
+ "total": 29.233,
+ "scenes": [
+  {
+   "src": "sweep",
+   "start": 0.0,
+   "end": 4.367
+  },
+  {
+   "src": "sofa",
+   "start": 4.367,
+   "end": 8.7
+  },
+  {
+   "src": "grey",
+   "start": 8.7,
+   "end": 13.233
+  },
+  {
+   "src": "sole",
+   "start": 13.233,
+   "end": 17.667
+  },
+  {
+   "src": "suv",
+   "start": 17.667,
+   "end": 22.1
+  },
+  {
+   "src": "door",
+   "start": 22.1,
+   "end": 26.4
+  },
+  {
+   "src": "_end_card",
+   "start": 26.4,
+   "end": 29.233
+  }
+ ]
+}

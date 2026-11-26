@@ -1,0 +1,109 @@
+{
+  "id": "V48_07_cobblestone_mistake_script",
+  "version": 2,
+  "created": "2026-11-26",
+  "end_card": "auto",
+  "transition": "cut",
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card (F31 exception 25-28 s); 9:16 with content inside 4:5; show-the-shoe rule (user 2026-11-23).",
+  "angle": "Historic cobblestones and stone stairs transmit severe shock to joints. Anti-slip grip and thick heel cushioning protect vacationers.",
+  "format": "POV warning script (story POV)",
+  "caption_style": "NEW W48: black serif text in a white box, one per scene (sheldonww3 x Mason Gear m1852606562752769, F38 look without the deal line)",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/soft_acoustic_80bpm.mp3",
+    "gain": 0.5,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "cobble": "drive:1xTqvWJiV4dXS_YpDArjiIWHmjMKbeY7M",
+    "sole": "drive:19igC7627y2-Tu8OXS6dHzVR5_6tYJVbn",
+    "deck": "drive:1lmu2fCUToUxt4fc7-woDUoPPqmrMh7FG"
+  },
+  "source_notes": {
+    "cobble": "MISC B-ROLL/Others/Europe B-Roll IMG_4128 Versailles cobblestone forecourt, tourists walking (from behind)",
+    "sole": "2026/Susan Ceklosky 'B-Roll Close-up Arch Support' holding the navy shoe up, pointing at the rubber tread",
+    "deck": "2026/Susan Ceklosky 'Showing Shoes' POV feet in the blue pair on a wooden deck"
+  },
+  "clips": [
+    {
+      "src": "cobble",
+      "in": 0.0,
+      "out": 3.0,
+      "gain": 0
+    },
+    {
+      "src": "sole",
+      "in": 4.0,
+      "out": 8.5,
+      "gain": 0
+    },
+    {
+      "src": "deck",
+      "in": 0.0,
+      "out": 5.0,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clip": 0,
+      "text": "Thin fashion sneakers will ruin your European trip on day two 🤦‍♀️",
+      "style": "box",
+      "font": "serif",
+      "weight": "Bold",
+      "size": 54,
+      "width": 0.78,
+      "y": 0.24,
+      "fade": 0
+    },
+    {
+      "clip": 1,
+      "text": "*Slip-resistant rubber grip* keeps you steady on slick cobblestones 🏛️",
+      "style": "box",
+      "font": "serif",
+      "weight": "Bold",
+      "size": 54,
+      "width": 0.78,
+      "y": 0.18,
+      "fade": 0,
+      "avoid_faces": false
+    },
+    {
+      "clip": 2,
+      "text": "Walked 6 miles through old town without aching arches 🍕✨",
+      "style": "box",
+      "font": "serif",
+      "weight": "Bold",
+      "size": 54,
+      "width": 0.78,
+      "y": 0.24,
+      "fade": 0
+    }
+  ],
+  "persona": "Persona 8: European / Bucket-List Traveler (The Cobblestone Explorer)",
+  "based_on": "TOFV1_OF10 | LF03_C (new, $360 spend, ROAS 1.86, 7d to 2026-11-25). StefanBrain concept SF07: keeps its angle; new format/hook/story.",
+  "primary_text": "Do not let uneven cobblestones and steep historic walking tours cut your European dream trip short. Comfort Wear provides slip-resistant traction, firm arch support, and shock-absorbing heel cushioning that turns hard stone streets into a breeze. Take advantage of discounts, 40% off sitewide. Try them risk-free with our 30-day money-back guarantee.",
+  "headline": "Cobblestone-Ready Walking Shoes | 40% OFF",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_39217168cd2e4d5ab9a1995f526f9003",
+  "stefanbrain_concept": "SF07",
+  "stefanbrain_title": "The European Cobblestone Mistake",
+  "stefanbrain_shots": [
+    "0-3s: Tourists walking away across Versailles cobblestone forecourt, seen from behind [source: versailles;cobblestone;forecourt;tourists_walking_away;from_behind]",
+    "3-7.5s: Hero shot (4.5s): Susan holding navy Comfort Wear shoe up to camera and pointing at rubber tread, indoors [source: susan;holding_shoe;pointing_tread;rubber_grip;indoors]",
+    "7.5-12s: Payoff on-foot shot (4.5s): POV feet in blue Comfort Wear pair stepping confidently across outdoor wooden promenade and stone walkway with solid, cushioned balance [source: pov;feet;on_foot;deck;blue_pair]",
+    "12-15s: Evergreen 40% OFF end card (3s) with 30-day money-back guarantee"
+  ],
+  "qa": {
+    "shoe_seconds": 9.2,
+    "content_seconds": 12.2,
+    "shoe_share": 0.75,
+    "hero_3s": true,
+    "payoff_our_shoe": true,
+    "checked": "1-fps strip, 2026-11-26"
+  }
+}

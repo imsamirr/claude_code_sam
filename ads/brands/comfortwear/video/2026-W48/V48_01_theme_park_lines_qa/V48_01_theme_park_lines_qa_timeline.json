@@ -1,0 +1,25 @@
+{
+ "total": 14.033,
+ "scenes": [
+  {
+   "src": "crowd",
+   "start": 0.0,
+   "end": 2.967
+  },
+  {
+   "src": "press",
+   "start": 2.967,
+   "end": 6.9
+  },
+  {
+   "src": "pov",
+   "start": 6.9,
+   "end": 11.2
+  },
+  {
+   "src": "_end_card",
+   "start": 11.2,
+   "end": 14.033
+  }
+ ]
+}

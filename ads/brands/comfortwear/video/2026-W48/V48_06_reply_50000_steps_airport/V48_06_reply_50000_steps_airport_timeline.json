@@ -1,0 +1,25 @@
+{
+ "total": 13.833,
+ "scenes": [
+  {
+   "src": "gate",
+   "start": 0.0,
+   "end": 2.967
+  },
+  {
+   "src": "lug",
+   "start": 2.967,
+   "end": 6.8
+  },
+  {
+   "src": "pov",
+   "start": 6.8,
+   "end": 11.0
+  },
+  {
+   "src": "_end_card",
+   "start": 11.0,
+   "end": 13.833
+  }
+ ]
+}

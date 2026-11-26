@@ -1,0 +1,144 @@
+{
+  "id": "V48_06_reply_50000_steps_airport",
+  "version": 5,
+  "created": "2026-11-26",
+  "end_card": "auto",
+  "transition": "cut",
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card (F31 exception 25-28 s); 9:16 with content inside 4:5; show-the-shoe rule (user 2026-11-23).",
+  "angle": "Travelers deal with long TSA walks, flight elevation swelling, and terminal marathons. Elastic stretch knit and arch support keep feet comfortable all day.",
+  "format": "F34 TikTok comment reply",
+  "caption_style": "TikTok 'Reply to @…' bubble + white box answer",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/upbeat_pop_vlog_105bpm.mp3",
+    "gain": 0.4,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "gate": "drive:1gzJTf_YN0iO58DPvn9OH5T-pOGFaQj-s",
+    "lug": "drive:1mze6ipWDGyUoD2dgMwmPzB_2cJxJLiVm",
+    "pov": "drive:1P5hdKzxJP5W1L1CsbQf3NwE8pCKy0rFL"
+  },
+  "source_notes": {
+    "gate": "MISC B-ROLL/Others 'female traveller showing off shoes' full length at the gate with carry-on, black/mint pair",
+    "lug": "MISC B-ROLL/Others 'traveller showing off shoes on top of a luggage' POV feet up on the carry-on at the gate",
+    "pov": "MISC B-ROLL/Others 'top view walking with CW shoes' POV navy pair on airport concourse floor"
+  },
+  "clips": [
+    {
+      "src": "gate",
+      "in": 0.0,
+      "out": 3.0,
+      "gain": 0,
+      "shift_y": 0.12
+    },
+    {
+      "src": "lug",
+      "in": 0.0,
+      "out": 3.9,
+      "gain": 0,
+      "shift_y": 0.1
+    },
+    {
+      "src": "pov",
+      "in": 0.0,
+      "out": 4.4,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "text": "What shoes survived 50,000 steps without foot swell?",
+      "name": "vacation_jess_xo",
+      "style": "reply_bubble",
+      "size": 40,
+      "width": 0.7,
+      "y": 0.36,
+      "fade": 0,
+      "avoid_faces": false,
+      "clip": 0
+    },
+    {
+      "text": "Slip-on laces through TSA, and *podiatrist-recommended arch support* for terminal marathons! ✈️👟",
+      "style": "box",
+      "weight": "SemiBold",
+      "size": 44,
+      "width": 0.84,
+      "y": 0.5,
+      "fade": 0,
+      "clip": 0,
+      "avoid_faces": false
+    },
+    {
+      "text": "What shoes survived 50,000 steps without foot swell?",
+      "name": "vacation_jess_xo",
+      "style": "reply_bubble",
+      "size": 40,
+      "width": 0.7,
+      "y": 0.56,
+      "fade": 0,
+      "avoid_faces": false,
+      "clip": 1
+    },
+    {
+      "text": "Slip-on laces through TSA, and *podiatrist-recommended arch support* for terminal marathons! ✈️👟",
+      "style": "box",
+      "weight": "SemiBold",
+      "size": 44,
+      "width": 0.84,
+      "y": 0.7,
+      "fade": 0,
+      "clip": 1,
+      "avoid_faces": false
+    },
+    {
+      "text": "What shoes survived 50,000 steps without foot swell?",
+      "name": "vacation_jess_xo",
+      "style": "reply_bubble",
+      "size": 40,
+      "width": 0.7,
+      "y": 0.36,
+      "fade": 0,
+      "avoid_faces": false,
+      "clip": 2
+    },
+    {
+      "text": "Slip-on laces through TSA, and *podiatrist-recommended arch support* for terminal marathons! ✈️👟",
+      "style": "box",
+      "weight": "SemiBold",
+      "size": 44,
+      "width": 0.84,
+      "y": 0.5,
+      "fade": 0,
+      "clip": 2,
+      "avoid_faces": false
+    }
+  ],
+  "persona": "Persona 8: European / Bucket-List Traveler (The Cobblestone Explorer), airport days",
+  "based_on": "RTGv1_P6 | COM336 (new, $252 spend, ROAS 4.72, 7d to 2026-11-25). StefanBrain concept SF06: keeps its angle; new format/hook/story.",
+  "primary_text": "Long flights and 50,000-step vacations demand footwear that handles swelling and hard airport floors. Comfort Wear combines no-tie stretch laces for easy TSA security with podiatrist-recommended arch support for non-stop comfort. Take advantage of discounts, 40% off sitewide. Fully backed by our 30-day money-back guarantee.",
+  "headline": "Travel Shoes For Long Walks | 40% OFF",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/products/comfortwear-ortho-stretch-cushion-shoes-of1",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_39217168cd2e4d5ab9a1995f526f9003",
+  "stefanbrain_concept": "SF06",
+  "stefanbrain_title": "50,000 Step Airport Reply",
+  "stefanbrain_shots": [
+    "0-3s: Full-length traveler rolling luggage through a crowded airport departure hall, shoes small in frame [source: travel;airport;full_body;luggage;on_foot]",
+    "3-7.5s: Hero shot (4.5s): Feet up on the carry-on at the airport gate, black/mint Comfort Wear pair close in frame with elastic no-tie laces relaxed over arches [source: airport_gate;feet_up;carry_on;black_mint;close]",
+    "7.5-12s: Payoff on-foot shot (4.5s): POV walking smoothly along airport concourse moving walkway in blue Comfort Wear shoes, striding comfortably past gates [source from TikTok: airport_concourse;pov;walking;blue_shoes;stride]",
+    "12-15s: Evergreen 40% OFF end card (3s) with 30-day money-back guarantee"
+  ],
+  "layout_note": "StefanBrain's static caption laid out as the reply bubble (handle + quoted comment) + answer box; words verbatim. Same text on every shot; sits lower on the feet-on-luggage shot so the shoes stay clear.",
+  "qa": {
+    "shoe_seconds": 10.0,
+    "content_seconds": 11.0,
+    "shoe_share": 0.91,
+    "hero_3s": true,
+    "payoff_our_shoe": true,
+    "checked": "1-fps strip, 2026-11-26"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "V48_01_theme_park_lines_qa",
+  "version": 3,
+  "created": "2026-11-26",
+  "end_card": "auto",
+  "transition": "cut",
+  "loudness": -14,
+  "avoid_faces": true,
+  "format_rules": "Organic-post style (user, Nov 13): first-person caption(s), 2-4 real shots, music only, no voiceover, 10-16 s + 3 s end card (F31 exception 25-28 s); 9:16 with content inside 4:5; show-the-shoe rule (user 2026-11-23).",
+  "angle": "Theme park pavement destroys standard squishy sneakers. Firm arch support and wide toe box prevent hour-8 foot collapse.",
+  "format": "F33 Instagram 'Ask me a question' Q&A",
+  "caption_style": "IG 'Ask me a question' sticker + square-corner dark answer box (F33, Archies)",
+  "music": {
+    "file": "ads/brands/comfortwear/video/music/upbeat_pop_vlog_105bpm.mp3",
+    "gain": 0.4,
+    "duck": false,
+    "start": 0.0
+  },
+  "sources": {
+    "crowd": "drive:17ZcV8xDfrGgrAbZnqa-WPBkEGIE6jblM",
+    "press": "drive:1VyOIOz7bUV0_m6J81v-jY-nhQU3sGxn2",
+    "pov": "drive:1QaTe-QtoaRhgf7tmZ3Hx4t4EhGoTIgba"
+  },
+  "source_notes": {
+    "crowd": "Youtube/Tiktok Content snaptik_7588976094355721527 Magic Kingdom Main Street crowd from behind (third-party TikTok creator)",
+    "press": "MISC B-ROLL/Others 'Broll showing arch on shoe heel to toe' black/mint pair on bed, finger pressing the arch/heel",
+    "pov": "2025/Larissa content IMG_6204 POV walking on sunny concrete sidewalk in the grey pair"
+  },
+  "clips": [
+    {
+      "src": "crowd",
+      "in": 0.0,
+      "out": 3.0,
+      "gain": 0
+    },
+    {
+      "src": "press",
+      "in": 2.5,
+      "out": 6.5,
+      "gain": 0
+    },
+    {
+      "src": "pov",
+      "in": 5.0,
+      "out": 9.5,
+      "gain": 0
+    }
+  ],
+  "captions": [
+    {
+      "clips": [
+        0,
+        2
+      ],
+      "text": "Q&A: What shoes actually survived theme park lines?",
+      "style": "ig_question",
+      "size": 42,
+      "width": 0.66,
+      "y": 0.18,
+      "fade": 0,
+      "avoid_faces": false
+    },
+    {
+      "clips": [
+        0,
+        2
+      ],
+      "text": "Skech\\*rs foam flattened by noon. Switched to *podiatrist-recommended stretch cushions* with real arch support! 🎡👟",
+      "style": "dark",
+      "weight": "Bold",
+      "size": 42,
+      "width": 0.86,
+      "radius": 6,
+      "y": 0.33,
+      "fade": 0,
+      "avoid_faces": false
+    }
+  ],
+  "persona": "Persona 7: Theme Park / Disney Vacationer (The Disney Walker)",
+  "based_on": "TOFV1_KW1 | COM284_HO1 (top, $2,813 spend, ROAS 1.74, 7d to 2026-11-25). StefanBrain concept SF01: keeps its angle; new format/hook/story.",
+  "primary_text": "Standing 8 hours in theme park lines will expose flat foam sneakers fast. Comfort Wear combines a wide anatomical toe box with podiatrist-recommended arch support so your feet stay energized from park open to fireworks. Take advantage of discounts, 40% off sitewide today. Try them risk-free with our 30-day money-back guarantee.",
+  "headline": "Theme Park Shoes | 40% OFF",
+  "cta": "SHOP_NOW",
+  "link": "https://comfortorthowear.com/pages/10-reasons-why-these-shoes-are-your-perfect-travel-companion-this-summer",
+  "copy_source": "stefanbrain",
+  "stefanbrain_chat": "chat_39217168cd2e4d5ab9a1995f526f9003",
+  "stefanbrain_concept": "SF01",
+  "stefanbrain_title": "Theme Park Lines Q&A",
+  "stefanbrain_shots": [
+    "0-3s: Crowded theme park queue on sun-baked concrete, camera tilts down to show tourist shifting weight between tired feet in flattened foam sneakers [source from TikTok: theme_park;crowd;lines;standing;waist_down]",
+    "3-7s: Hero shot (4s): Creator holding the black and white Comfort Wear shoe close to camera, pressing thumb into reinforced arch to show firm support, then flexing bouncy heel cup [source from TikTok: product;hero;in_hand;flex;black_white]",
+    "7-11s: Payoff on-foot shot (4s): POV walking on a sunny concrete sidewalk in the grey pair, toes spreading naturally in wide toe box [source: pov;on_foot;grey;walking;concrete]",
+    "11-14s: Evergreen 40% OFF end card (3s) with 30-day money-back guarantee"
+  ],
+  "layout_note": "StefanBrain's single static caption laid out as the sticker question (first sentence) + answer box (rest); words verbatim.",
+  "qa": {
+    "shoe_seconds": 8.0,
+    "content_seconds": 11.2,
+    "shoe_share": 0.71,
+    "hero_3s": true,
+    "payoff_our_shoe": true,
+    "checked": "1-fps strip, 2026-11-26"
+  }
+}
