@@ -2,7 +2,7 @@
 
     python3 packaging.py   ->  packaging/retra_box_front_<colour>.png (2400x1500, 1.6:1)
 
-Words: gallery_copy.json["packaging"] (StefanBrain). Type: landing-page system (Tinos / Inter, navy #022B49,
+Words: gallery_copy.json["packaging"] (StefanBrain). Type: landing-page system (Tinos / Inter, navy #022B49; wordmark in navy per Sam,
 gold wordmark). Icons are simple line drawings made here. No eco/green claims (not substantiated).
 """
 import json
@@ -21,6 +21,7 @@ W, H = 2400, 1500
 NAVY = (2, 43, 73)
 BODY = (65, 96, 119)
 GOLD = (176, 141, 72)
+LOGO = NAVY  # Sam: packaging wordmark in brand navy (#022B49)
 PILL = (220, 230, 238)
 PAPER = (252, 251, 249)
 COPY = json.load(open(HERE / "gallery_copy.json"))["packaging"]
@@ -111,12 +112,12 @@ def front(colour, camera=True):
     d.rounded_rectangle((90, 80, 90 + pw + 80, 160), radius=40, fill=PILL)
     text(d, (130, 98), pt, pf)
     # wordmark + descriptor
-    text(d, (W / 2, 70), "Retra", tinos(150, -0.02), GOLD, "c")
+    text(d, (W / 2, 70), "Retra", tinos(150, -0.02), LOGO, "c")
     text(d, (W / 2, 250), COPY["descriptor"].upper(), inter(58, "SemiBold", 0.12), NAVY, "c")
     # camera photo
     if not camera:  # lid version: branding only, larger wordmark in the middle
         d = ImageDraw.Draw(img)
-        text(d, (W / 2, 520), "Retra", tinos(330, -0.02), GOLD, "c")
+        text(d, (W / 2, 520), "Retra", tinos(330, -0.02), LOGO, "c")
         return _icons_and_tagline(img).convert("RGB")
     import compose_gallery  # straight-on front cut-outs (Chalk via its green-screen mask)
     cam = compose_gallery.front_cut(colour)
