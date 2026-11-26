@@ -1,0 +1,85 @@
+# Video Ad Brief: Plantar Fasciitis for Pickleball Players (COM470)
+
+**Brand:** ComfortWear  
+**Product:** Ortho Stretch Cushion Shoe  
+**Target Audience:** Women ages 50 to 65+ who play recreational pickleball, walk on hard courts, and suffer from plantar fasciitis and morning heel pain  
+**Campaign / Offer:** Black Friday 60% off sitewide through Dec 5  
+**Core Deliverable:** Animated video ad (Script and Visual brief)
+
+---
+
+## Strategist's Note
+
+**Reference Ad:** Atria m1792856161819722 (Competitor animated plantar fasciitis sleeve campaign).
+
+**The Core Angle:**
+The "Couch Loop" trap. When heel pain strikes, the natural instinct is to sit down and rest. But prolonged inactivity weakens the intrinsic foot muscles, causes the arch to sag under body weight, and forces the plantar fascia to carry the full structural load alone. When she finally steps down, the tight band gets violently yanked, creating that dreaded morning heel stab. The solution is not benching herself forever: it is wearing supportive footwear that protects the arch and cushions heel impact while she moves.
+
+**Pickleball Positioning (Per COM436 Guidelines):**
+ComfortWear is an everyday walking and standing comfort shoe, not an athletic court sneaker built for high-speed lateral cuts. The ad specifically frames the shoe as the tool that gets her back on her feet: walking the dog, running daily errands, walking to the courts, doing light warm-ups, and socializing or standing courtside between games without wincing. We do not make tournament performance or competitive cutting claims.
+
+**Animation and Production Direction:**
+* **Visual Style:** Clean, approachable 2D character animation with warm pastel tones and expressive cartoon facial features. Avoid medical-grade hyper-realistic anatomy; the plantar fascia and foot muscles should look charming, relatable, and slightly humorous rather than clinical.
+* **Character Roster:**
+  * The Pickleball Paddle: Slumped in a dark hallway closet, covered in dust, speaks with a slightly grumpy, neglected tone.
+  * The Plantar Fascia: A resilient, overworked pink elastic strap living under the foot, wearing tiny sweatbands, serving as the candid, no-nonsense narrator.
+  * The Dog: A lovable family golden retriever sitting loyally by the front door with a leash in mouth, whining softly.
+  * The Couch: Plump, seductive, velvety, speaking in a whispery, lazy, siren-like voice.
+  * The Foot Muscles: A cluster of small, cute cartoon helper characters who act exhausted and floppy.
+  * The Shoe and Insole: The ComfortWear Ortho Stretch Cushion Shoe is upbeat, confident, and protective; the anatomical arch support insole speaks from inside as an energetic, supportive co-pilot.
+* **Pacing and Audio:** Spoken rhythm should be snappy, conversational, and direct, full of natural contractions. Sound design emphasizes comic contrast: dull closet silence, the soft seductive puff of couch cushions, and crisp, bouncy walking footsteps.
+
+---
+
+## Hook Variations
+
+Each hook presents an alternative opening hook beat for testing. Hook 1 serves as the primary script lead in the production table below.
+
+### Hook Option 1 (Primary: The Forgotten Paddle)
+* **Speaker:** Pickleball Paddle
+* **Spoken Copy:** Did plantar fasciitis make you quit pickleball? I've been sitting in this dark closet corner since spring.
+* **Visual:** Close-up of a colorful pickleball paddle leaning dejectedly in a dim closet corner beside a dusty pair of court shoes. The paddle blinks two cartoon eyes, looks up at the camera, and sighs.
+* **In-Scene Headline:** Did Plantar Fasciitis Make You Quit Pickleball?
+
+### Hook Option 2 (The Court Sideline / Saturday Doubles)
+* **Speaker:** Pickleball Paddle
+* **Spoken Copy:** I miss Saturday morning doubles. We used to rule court two until your heel started screaming.
+* **Visual:** The animated paddle peeks out from an unzipped gym bag on the floor, looking wistfully toward the front door where sunlight streams in.
+* **In-Scene Headline:** Missing Saturday Pickleball Because of Heel Pain?
+
+### Hook Option 3 (The Couch Call-Out)
+* **Speaker:** Plantar Fascia
+* **Spoken Copy:** You didn't fall out of love with pickleball. Your heel just gave up on concrete courts.
+* **Visual:** Cutaway of the animated foot: the plantar fascia strap points up at the owner sitting motionless on the living room sofa, holding an ice pack to her heel.
+* **In-Scene Headline:** You Didn't Quit Pickleball. Your Heel Did.
+
+## Video Ad Script
+
+| Speaker | Script | Visual |
+| --- | --- | --- |
+| Pickleball Paddle | Did plantar fasciitis make you quit pickleball? I've been sitting in this corner since spring. | In-scene headline: Did Plantar Fasciitis Make You Quit Pickleball? Animated pickleball paddle slumps against a dusty hallway wall beside worn-out sneakers, speaking with an expressive mouth and eyes. |
+| Plantar Fascia | Hi, I'm your plantar fascia. I'm that thick band of tissue running under your foot from your heel right up to your toes. And I keep track of stuff. | Zoom-in to an animated transparent cross-section of a woman's foot. The plantar fascia is a pink, hardworking animated strap wearing sweatbands, pointing to its connection points at the heel bone and forefoot. |
+| The Dog | The dog walks got short, then they stopped. We used to go out every single day. Now we just sit by the front door. | A cute cartoon golden retriever rests its chin on its paws by the front entryway, looking up with big sad puppy eyes, a leash dangling from a nearby hook. |
+| Plantar Fascia | Someone else cuts your lawn now. And your step counter thinks you moved away. | The plantar fascia checks a tiny clipboard. On the wall calendar in the background, months flip from spring to late autumn with zero pickleball matches checked off. |
+| Woman's Voice | I'm resting my heel! | A woman in her early 60s is shown from the knees down, reclined on a living room sofa with a cold compress wrapped around her foot. |
+| Plantar Fascia | Since March? Look, I get it. Every step felt like a hot nail, so you sat down. Anyone would. | The plantar fascia crosses its arms with empathetic understanding, nodding at the woman. |
+| The Couch | Sit. Stay a while. I'm so soft. | The plush living room couch sprouts sleepy eyes and plush lips on its cushions, patting itself invitingly as soft pillows plump up. |
+| Plantar Fascia | Rest feels fine for a couple of days, but months of it? That's the trap. It starts a vicious loop, and the loop makes your plantar fasciitis worse. | In-scene headline: The Couch Loop Trap. A circular cartoon diagram appears showing a feedback loop: Pain leads to Sitting, Sitting leads to Weakness, Weakness leads to More Pain. |
+| Foot Muscles | We get lazy. Then we get weak. | A team of tiny, exhausted cartoon foot muscles under the arch flop over like limp noodles, dropping their tiny barbells. |
+| Plantar Fascia | These little guys help hold your arch up. When you stop walking, they get weak, so your arch starts to sag. Guess who has to hold it up now? Me. Also, I've noticed a few extra pounds. Just saying. So now every single step pushes down on me harder. | Cut back to the foot cross-section. The arch drops downward under body weight. The plantar fascia strap strains, sweating and groaning as it stretches taut under the falling arch. |
+| Woman's Voice | Wait, but I barely walk now, so you get a break, right? | The woman peers over her book on the couch, looking confused. |
+| Plantar Fascia | Fewer steps, sure, but each one hits me twice as hard, and you can't skip them all. Bed to bathroom, car to grocery store. Plus, when you sit all day, I tighten up and get stiff. So that very first step out of bed? That's when I get yanked tight. That's the stabbing heel pain you feel. | The plantar fascia shivers and freezes into a tight, stiff band during a sleep icon. As the foot hits the hardwood floor in the morning, the band snaps taut, showing a bright star of red pain radiating from the heel bone. |
+| Plantar Fascia | And round and round the couch loop goes. Harder steps. Less blood flow. More pain. So you sit more. | The circular animated loop spins faster, flashing red warnings while the foot sits idle. |
+| The Couch | Come on. Just one more episode. | The couch fluffs a fleece throw blanket, trying to tuck the woman's feet back under. |
+| Plantar Fascia | No! Here's the good news. You don't have to quit your active life or stop moving. You just need real support while you move. | The plantar fascia slaps the fleece blanket away and points toward the front hallway. |
+| ComfortWear Shoe | That's our cue! I'm the ComfortWear Ortho Stretch Cushion Shoe. | In-scene headline: Podiatrist-Recommended Plantar Fasciitis Relief. The sleek, stylish ComfortWear Ortho Stretch Cushion Shoe bounds into the living room, clean and vibrant, showcasing its stretch-knit upper and rocker sole. |
+| Arch Support Insole | And I'm the anatomical arch support insole inside! See, regular shoes have squishy foam that flattens out under body weight. Your arch collapses, and the plantar fascia has to take the entire beating. | The animated insole pops out with a friendly face. A split screen shows standard flat EVA foam compressing flat like a pancake under weight, while ComfortWear's firm anatomical arch support keeps its sculpted contour under heavy load. |
+| Arch Support Insole | Not with us. I'm podiatrist-recommended, and I hold my shape all day long. I lift and cradle the arch so the fascia doesn't have to carry the load alone. | An anatomical overlay shows the ComfortWear insole firmly lifting the arch, allowing the pink plantar fascia character to relax, wipe its brow, and sigh in relief. |
+| ComfortWear Shoe | And my rocker sole rolls each step smoothly forward, absorbing the harsh pounding off your heel before it can hit hard pavement or court concrete. Plus, my wide stretch-knit toe box gives bunions room to breathe, my slip-resistant tread keeps you steady, and these elastic no-tie laces slip on in two seconds. | Close-up callouts of the shoe highlighting: 1. The curved rocker sole rolling smoothly on a sidewalk without heel shock; 2. The wide, flexible stretch-knit toe box expanding comfortably; 3. The slip-resistant tread gripping the surface; 4. The elastic no-tie laces with easy pull tab slipping effortlessly over the foot. |
+| Plantar Fascia | Which means you can break the loop. You start small. A walk to the mailbox. Then around the block with the dog. Then walking down to the courts to cheer on Saturday doubles, do light warm-ups, and stand between games without limping. | Quick montage of animated scenes: 1. The woman walking briskly to the mailbox in her ComfortWears; 2. Smiling while walking the golden retriever around the neighborhood; 3. Leaning happily against the pickleball fence, chatting with her court friends and hitting soft volleys during warm-up. |
+| Plantar Fascia | Hi, I live in Brenda's foot! Brenda says: (Placeholder for verified female customer review: "I thought my pickleball mornings were over. These shoes gave me my walks back, and now I can walk down to the courts, warm up, and stand and socialize all morning without that horrible stabbing heel pain.") | A smiling woman in her early 60s in pickleball gear is shown wearing ComfortWear shoes courtside, holding her paddle, with a verified buyer star badge on screen. |
+| ComfortWear Shoe | Right now for Black Friday, ComfortWear is 60% off sitewide through December 5th! | In-scene headline: Black Friday Sale: 60% Off Sitewide Through Dec 5. Bold animated promotional graphic displaying 60% Off Sitewide, Black Friday badge, and end date Dec 5. |
+| Arch Support Insole | And every pair comes with an exact 30-day money-back guarantee. Wear us for a full month. Walk the dog, run errands, and walk to the courts. If your feet don't feel the difference, send us back for a full refund. | The insole holds up a bright 30-Day Money-Back Guarantee seal with clear text: Full 30-Day Refund. |
+| Plantar Fascia | So get off the couch and break the loop. Tap the link below before the Black Friday sale ends. | The woman stands up, laces already set, stepping toward the front door. A clean animated button appears: Shop 60% Off Black Friday. |
+| The Dog | Is this an actual walk?! | The golden retriever wags its tail furiously, picking up the leash and trotting happily alongside the woman's ComfortWear shoes out the door. |
+| The Couch | Wait! Come back! There are three more episodes! | The couch sighs as the front door closes with a satisfying click, leaving the couch alone in the quiet living room. |
