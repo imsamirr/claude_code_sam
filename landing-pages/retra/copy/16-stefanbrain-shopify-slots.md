@@ -22,3 +22,14 @@ Review cards stay labelled "Sample" (the 12 reviews are not real customer review
 ## Announcement bar countdown (2026-11-25, same chat)
 Title kept as the user's own "Black Friday Sale" (StefanBrain offered "Black Friday Event"). Offer tag: BUY 1, GET 1 FREE.
 Lead-in before the timer: OFFER ENDS. Unit labels: DAYS / HRS / MINS / SECS. Screen reader: "Black Friday offer time remaining".
+
+## Bundle offer (Kaching), 2026-11-26, same chat
+Offer: 1 camera $99 · Buy 2 Get 1 Free (3 for $198, + strap leash) · Buy 3 Get 2 Free (5 for $297, + strap leash + leather bag).
+1. Block heading: Black Friday Bundles
+2. Bar 1: "1x Retra Camera" / "$99 each (Regular price $200)"
+   Bar 2: badge MOST POPULAR / "Buy 2, Get 1 Free (3x)" / "$66/ea ($198 total) + Free $29 Strap"
+   Bar 3: badge BEST VALUE / "Buy 3, Get 2 Free (5x)" / "$59.40/ea ($297 total) + Free Gifts ($79)"
+3. Gift rows: "+ Free Strap Leash ($29 value)" · "+ Free Leather Bag ($50 value)"
+4. Note under bars: Mix and match any of the 7 colors. 30-day returns apply.
+5. Gift products: "Retra Woven Camera Strap Leash": A durable woven wrist leash that clips securely to your Retra camera for hands-free carry. Keeps your camera safe on busy city walks, boat decks, and theme-park rides.
+   "Retra Leather Camera Bag": A compact leather travel case tailored to fit your Retra camera snugly. Protects against scratches and daily bumps when packed inside a daypack or beach tote.
