@@ -10,4 +10,4 @@ Product: "Retra Screen-Free Camera" (RECLAIM NUTRA), 16 media.
 - `media.json`: Shopify MediaImage id -> file name. The plan is to replace each file in place with `fileUpdate`
   (originalSource), so variant images and gallery order stay the same.
 
-Not uploaded yet: the upload step needs Sam's approval (see chat).
+Uploaded 2026-11-26 (Sam approved): all 16 replaced in place with fileUpdate. Same media IDs, variant images and order; verified the live backgrounds are #F2EEE3 (+/-2 from JPEG). To roll back, re-upload the files in original/ the same way.
