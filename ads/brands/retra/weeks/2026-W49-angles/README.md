@@ -35,3 +35,10 @@ layouts in `b2.py`, scenes from `batch2.py` (4K Kie). Funnel across all 59: 37 T
   lens/flash/viewfinder/wordmark); picks in `scenes.py`.
 - No-camera scenes are rendered without the wordmark allowance (`rerender_noref.py`) so nothing else carries "Retra".
 - Comparison charts label our column "Ours" (09, 30, 45, 54). 08 headline is Sam's own line.
+
+## KLIK-inspired (ids 60-67, 2026-11-26)
+Six classic KLIK formats not used before (stair-step lineup, gift flat lay, icon checklist + hands with a stack, colour tower,
+27 -> 500 number swap, $0 receipt) and two of KLIK's current Black Friday formats (huge % off with a ribbon-tied stack,
+"On Santa's list"). Copy: `copy_klik.json` (StefanBrain v2). Scenes: `klik_render.py`; layouts: `klik.py`.
+60's lineup is built from the verified product photos (Kie's group shot changed the button shape).
+Skipped: KLIK's iMessage-chat formats (need invented customers) and its 30-day guarantee (not confirmed for Retra).

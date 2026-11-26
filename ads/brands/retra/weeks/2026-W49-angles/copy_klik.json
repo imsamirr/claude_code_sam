@@ -1,0 +1,249 @@
+{
+ "concepts": [
+  {
+   "angle": "Nostalgic dreamer",
+   "format": "Diagonal stair-step lineup of all six colours with handwritten hook and benefits",
+   "funnel": "TOF",
+   "id": "60",
+   "meta_headline": "Pick your colour on Retra",
+   "persona": "Aesthetic Gen Z / Design lovers",
+   "primary_text": "Taking photos should feel candid and spontaneous again, not like a chore where you critique your face on a screen. Retra gives you the textured warmth of 35mm film in a reusable, screen-free digital camera. Choose from six timeless colours: Chalk, Obsidian, Sol, Dune, Pine, and Blossom. Up to 500 photos per charge, four built-in filters, and simple USB-C export. Now $99 during our Black Friday sale.",
+   "slots": [
+    {
+     "name": "hook",
+     "text": "Pick your favorite shade."
+    },
+    {
+     "name": "line_1",
+     "text": "Zero screen distraction"
+    },
+    {
+     "name": "line_2",
+     "text": "4 film filters"
+    },
+    {
+     "name": "line_3",
+     "text": "500-shot battery"
+    }
+   ]
+  },
+  {
+   "angle": "Gifting her (girlfriend/sister/grandma/parent)",
+   "format": "Top-down gift flat lay on deep green paper with open gift box and accessories",
+   "funnel": "TOF",
+   "id": "61",
+   "meta_headline": "The gift of screen-free presence",
+   "persona": "Holiday gift shoppers seeking turnkey gifts",
+   "primary_text": "Give the gift of true presence this holiday season. Every Retra camera arrives packed in our custom gift box with a USB-C charging cable, wrist strap, and memory card already included. No extra accessories or film rolls needed. It holds up to 500 photos per charge, includes four built-in film filters, and connects directly via USB-C. Compare at $165, now $99 for Black Friday.",
+   "slots": [
+    {
+     "name": "line",
+     "text": "Everything they need, ready to unwrap."
+    }
+   ]
+  },
+  {
+   "angle": "Buy 2 Get 1 Free volume offer",
+   "format": "Icon checklist down the left with hands holding stack of three cameras",
+   "funnel": "BOF",
+   "id": "62",
+   "meta_headline": "Buy 2 Retra cameras, Get 1 Free",
+   "persona": "Multi-unit gift buyers / Group shoppers",
+   "primary_text": "Cross three people off your holiday gift list in a single order: buy any two Retra cameras, and we will add a third one for free. Retra is the screen-free digital camera built like a modern disposable. No ongoing film expenses, no app downloads, and no Wi-Fi. Choose your favorite mix across all six colours. Up to 500 photos per charge and USB-C export. Order while batch stock lasts.",
+   "slots": [
+    {
+     "name": "icon_1",
+     "text": "100% screen-free body"
+    },
+    {
+     "name": "icon_2",
+     "text": "4 built-in film filters"
+    },
+    {
+     "name": "icon_3",
+     "text": "500 photos per charge"
+    },
+    {
+     "name": "icon_4",
+     "text": "Memory card included"
+    },
+    {
+     "name": "line",
+     "text": "One for you, two for gifts."
+    }
+   ]
+  },
+  {
+   "angle": "Batch low stock",
+   "format": "Hands holding tall tower of all six cameras with big bold typography",
+   "funnel": "BOF",
+   "id": "63",
+   "meta_headline": "Stock is low on all colours",
+   "persona": "Retargeting / Fence-sitters",
+   "primary_text": "Inventory is genuinely running low across all six colourways: Chalk, Obsidian, Sol, Dune, Pine, and Blossom. None are sold out yet, but remaining quantities on every shade are slim. Retra is the screen-free digital camera that lets you capture memories without looking at a screen. Up to 500 photos per charge, four built-in filters, and USB-C export. Get yours for $99 during our Black Friday sale.",
+   "slots": [
+    {
+     "name": "big_1",
+     "text": "LOW"
+    },
+    {
+     "name": "big_2",
+     "text": "STOCK."
+    }
+   ]
+  },
+  {
+   "angle": "Cost vs disposables",
+   "format": "Big-number comparison swap 27 vs 500 with spec callouts",
+   "funnel": "MOF",
+   "id": "64",
+   "meta_headline": "500 photos. Zero film costs.",
+   "persona": "Disposable camera users / Gen Z photographers",
+   "primary_text": "A standard disposable camera gives you just 27 exposures before you have to throw the plastic body away and pay photo lab fees. Retra gives you up to 500 candid photos on a single charge directly to the included memory card. Four built-in film filters, rechargeable battery, and simple USB-C export. Keep the nostalgic film aesthetic without the recurring film bills. Now $99 (compare at $165).",
+   "slots": [
+    {
+     "name": "num_left",
+     "text": "27"
+    },
+    {
+     "name": "label_left",
+     "text": "Single-use film"
+    },
+    {
+     "name": "num_right",
+     "text": "500"
+    },
+    {
+     "name": "label_right",
+     "text": "Retra per charge"
+    },
+    {
+     "name": "spec_1",
+     "text": "Rechargeable battery"
+    },
+    {
+     "name": "spec_2",
+     "text": "4 film filters"
+    },
+    {
+     "name": "spec_3",
+     "text": "USB-C export"
+    },
+    {
+     "name": "spec_4",
+     "text": "Memory card included"
+    }
+   ]
+  },
+  {
+   "angle": "Cost vs disposables",
+   "format": "Itemised till receipt graphic showing camera price and free features",
+   "funnel": "MOF",
+   "id": "65",
+   "meta_headline": "No hidden fees on Retra",
+   "persona": "Budget-conscious creators / Deal seekers",
+   "primary_text": "Here is the honest breakdown of picking up a Retra camera. You pay $99 once, and that is it. No recurring film rolls, no photo lab developing bills, no monthly cloud subscriptions, and no app store fees. Every box includes the rechargeable camera, USB-C cable, wrist strap, memory card, and gift packaging. Plus four built-in film filters for timeless candids. Save 40% during our Black Friday sale.",
+   "slots": [
+    {
+     "name": "title",
+     "text": "YOUR HOBBY RECEIPT"
+    },
+    {
+     "name": "item_1",
+     "text": "Retra Camera | $99"
+    },
+    {
+     "name": "item_2",
+     "text": "Memory Card | $0"
+    },
+    {
+     "name": "item_3",
+     "text": "Film Filters | $0"
+    },
+    {
+     "name": "item_4",
+     "text": "Lab Developing | $0"
+    },
+    {
+     "name": "item_5",
+     "text": "App Fees | $0"
+    },
+    {
+     "name": "item_6",
+     "text": "USB-C Cable | $0"
+    },
+    {
+     "name": "total_line",
+     "text": "Total Due | $99"
+    },
+    {
+     "name": "fun_1",
+     "text": "Zero ongoing costs"
+    },
+    {
+     "name": "fun_2",
+     "text": "Pure candid memories"
+    },
+    {
+     "name": "thanks",
+     "text": "Thank you for staying present."
+    }
+   ]
+  },
+  {
+   "angle": "Black Friday Sale",
+   "format": "Huge 40% OFF bold typography with ribbon-tied camera stack on pink",
+   "funnel": "BOF",
+   "id": "66",
+   "meta_headline": "Black Friday: 40% Off Retra",
+   "persona": "Black Friday shoppers / Holiday gifters",
+   "primary_text": "Our biggest sale of the season is live: get the Retra screen-free digital camera for $99 (compare at $165, a 40% discount). No discount codes needed. Want to sort holiday gifting all at once? Buy two cameras and get the third free. Includes an internal rechargeable battery, four built-in film filters, USB-C export, and an included memory card. Inventory is low across all six colours.",
+   "slots": [
+    {
+     "name": "kicker",
+     "text": "Black Friday Sale"
+    },
+    {
+     "name": "big",
+     "text": "40% OFF"
+    },
+    {
+     "name": "sub",
+     "text": "Now $99. Compare at $165."
+    },
+    {
+     "name": "pill",
+     "text": "Buy 2, Get 1 Free"
+    }
+   ]
+  },
+  {
+   "angle": "Holiday gifting",
+   "format": "Handwritten two-liner with small offer line and festive Santa figure",
+   "funnel": "BOF",
+   "id": "67",
+   "meta_headline": "On Santa's list. On sale.",
+   "persona": "Parents and holiday shoppers",
+   "primary_text": "Give a holiday gift that gets people looking at each other instead of staring at screens. Retra is the screen-free digital camera that combines classic disposable charm with reusable modern convenience. Up to 500 photos per charge, four built-in filters (Vintage, Black & White, Natural, Film), and direct USB-C export. Get 40% off during our Black Friday sale: now $99 (compare at $165). Buy 2, Get 1 Free.",
+   "slots": [
+    {
+     "name": "line_1",
+     "text": "On Santa's wish list."
+    },
+    {
+     "name": "line_2",
+     "text": "On sale right now."
+    },
+    {
+     "name": "sub",
+     "text": "$99 Black Friday deal. Buy 2, get 1 free."
+    }
+   ]
+  }
+ ],
+ "source": {
+  "stefanbrain_run": "run_4115cad1b50d40b6886e5eadd7c6cc1a",
+  "chat": "chat_e2881d64bb4e43c687b42831eb31dff3",
+  "version": "v2 (63/66 fixes, run_220b9b2b2b614e5e9e6ce5a4e6879d48)"
+ }
+}
