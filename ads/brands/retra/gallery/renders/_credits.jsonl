@@ -3,3 +3,4 @@
 {"jobs": ["gift_chalk", "gift_obsidian", "gift_sol", "box_chalk", "box_obsidian", "box_sol"], "fix": "", "credits_spent": 110.0, "usd": 0.55}
 {"jobs": ["box_obsidian"], "fix": "The strap came out as a long neck lanyard. It must be a short black braided WRIST strap loop (about 15 cm) with a small black clip, like a wrist strap for a compact camera.", "credits_spent": 18.0, "usd": 0.09}
 {"jobs": ["boxblank_chalk", "boxblank_obsidian", "boxblank_sol"], "fix": "", "credits_spent": 54.0, "usd": 0.27}
+{"jobs": ["macro_chalk", "macro_obsidian", "macro_sol", "float_chalk", "float_obsidian", "float_sol", "disposable", "scene_split", "portrait"], "fix": "", "credits_spent": 162.0, "usd": 0.81}

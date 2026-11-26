@@ -18,3 +18,10 @@ Rebuild: `python3 compose_gallery.py` (raw renders are committed as JPEG; the 2K
 - `packaging/retra_box_front_<colour>.png`: box front panel, 2400x1500 (`packaging.py`). `packaging/retra_box_lid.png` is the lid, with branding only.
 - Words by StefanBrain (`gallery_copy.json["packaging"]`); icons drawn in code. No eco or green claim (not substantiated).
 - The gift and in-the-box gallery images show this artwork printed onto Kie-rendered blank boxes (`print_box.py`, `print_gift.py`; the face corners are in `picks.json`).
+
+## Retropia-style set (macro, float, flow, split, portrait)
+- `macro_*`, `float_*`, `flow_*`: Chalk, Obsidian and Sol. `split_ILLUSTRATIVE` and `portrait_ILLUSTRATIVE`: one version each.
+- The split and portrait images are simulations: the landing page's Vintage look applied to Kie renders. The captions say
+  "simulated" and never "shot with Retra". Replace them with real Retra photos when you have them.
+- The flow image compares a generic, unbranded disposable camera with Retra. It doesn't imply Retra is built from disposable parts.
+- Words by StefanBrain (`gallery_copy.json`). Fonts: Inter ExtraBold headline at -0.05em plus a Tinos serif subhead, in navy.

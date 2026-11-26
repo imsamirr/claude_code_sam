@@ -1,5 +1,5 @@
 {
- "source": "StefanBrain, project Retra Launch, chat chat_e2881d64bb4e43c687b42831eb31dff3, run run_5e01c287c6c441f58f542d49d4cb9cc1, 2026-11-25; slots 5-7: run run_01d1b48a4e114dfcb0d5489997848731",
+ "source": "StefanBrain, project Retra Launch, chat chat_e2881d64bb4e43c687b42831eb31dff3, run run_5e01c287c6c441f58f542d49d4cb9cc1, 2026-11-25; slots 5-7: run run_01d1b48a4e114dfcb0d5489997848731; Retropia-style slots: run run_ef8ed32f96df4e3d911ea7a967ffeed7",
  "howto_title": "How Retra works.",
  "howto_steps": [
   "Press to power on",
@@ -40,5 +40,25 @@
   "tagline": "Point. Shoot. Stay present.",
   "pill": "The modern disposable",
   "source": "run run_0b72a7d8a6344e89a498b0f76185dc51"
- }
+ },
+ "macro_headline": "Classic film aesthetics. Modern digital simplicity.",
+ "macro_subhead": "Four built-in film filters and zero screens to keep you present.",
+ "callouts": [
+  "Zero screens with real viewfinder",
+  "Four built-in film and vintage filters",
+  "Up to 500 photos per charge"
+ ],
+ "flow_headline": "The modern alternative to disposable film.",
+ "flow_left_label": "Single-use film camera",
+ "flow_right_label": "Retra reusable digital camera",
+ "flow_steps": [
+  "Same candid charm",
+  "Zero lab fees",
+  "Recharge and reuse"
+ ],
+ "split_top_label": "Vintage film look",
+ "split_top_sublabel": "Warm tones and nostalgic film grain",
+ "split_bottom_label": "Standard phone camera",
+ "split_bottom_sublabel": "Flat digital colors and harsh sharpness",
+ "portrait_caption": "Simulated with Retra Vintage filter"
 }

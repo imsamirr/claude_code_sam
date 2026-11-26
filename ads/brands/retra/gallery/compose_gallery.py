@@ -287,20 +287,180 @@ def box(c):
     return img.convert("RGB")
 
 
+# ---------- Retropia-style layouts (macro hero, callouts, flow, split, sample portrait) ----------
+TARGET_BG = (242, 238, 227)  # store cream #F2EEE3
+
+
+def inter_x(size, track=-0.05):
+    f = inter(size, "ExtraBold")
+    f.track = track * size
+    return f
+
+
+def text_block(d, lines, f, x, y, fill=NAVY, anchor="l", lead=1.0):
+    asc, desc = f.getmetrics()
+    for ln in lines:
+        text(d, (x, y), ln, f, fill, anchor)
+        y += int((asc + desc) * lead)
+    return y
+
+
+def wrap_to(t, f, maxw):
+    words, lines, cur = t.split(), [], ""
+    for w_ in words:
+        tt = (cur + " " + w_).strip()
+        if measure(f, tt) <= maxw or not cur:
+            cur = tt
+        else:
+            lines.append(cur)
+            cur = w_
+    return lines + ([cur] if cur else [])
+
+
+def vintage(im, strength=1.0, seed=4):
+    """Warm faded film look (landing-page Vintage curve) + grain + soft vignette."""
+    from PIL import ImageEnhance
+    im = im.convert("RGB")
+    w, h = im.size
+    faded = Image.merge("RGB", [c.point(f) for c, f in zip(ImageEnhance.Color(im).enhance(0.8).split(), (
+        lambda x: int(26 + x * .88), lambda x: int(20 + x * .84), lambda x: int(14 + x * .72)))])
+    faded = ImageEnhance.Contrast(faded).enhance(1.06)
+    a = np.asarray(faded).astype(np.float32)
+    yy, xx = np.mgrid[0:h, 0:w]
+    r = np.sqrt(((xx - w / 2) / (w / 2)) ** 2 + ((yy - h / 2) / (h / 2)) ** 2)
+    a *= (1 - 0.22 * np.clip(r - 0.55, 0, 1) ** 1.6)[..., None]
+    rng = np.random.default_rng(seed)
+    a += rng.normal(0, 7, (h, w, 1))
+    return Image.fromarray(np.clip(a, 0, 255).astype("uint8"))
+
+
+def macro(c):
+    img = ImageOps.fit(Image.open(src(PICKS[f"macro_{c}"])).convert("RGB"), (S, S), Image.LANCZOS).convert("RGBA")
+    d = ImageDraw.Draw(img)
+    f = inter_x(104)
+    lines = wrap_to(typeset(COPY["macro_headline"]), f, 820)
+    y = text_block(d, lines, f, S - 110, 90, NAVY, "r", 1.0)
+    fs = tinos(70, -0.03)
+    text_block(d, wrap_to(typeset(COPY["macro_subhead"]), fs, 760), fs, S - 110, y + 16, NAVY, "r", 1.08)
+    return img.convert("RGB")
+
+
+def float_(c):
+    img = ImageOps.fit(Image.open(src(PICKS[f"float_{c}"])).convert("RGB"), (S, S), Image.LANCZOS).convert("RGBA")
+    d = ImageDraw.Draw(img)
+    f = inter(56, "SemiBold")
+    f.track = -0.03 * 56
+    for spec, label in zip(PICKS["float_callouts"][c], COPY["callouts"]):
+        lines = wrap_to(typeset(label), f, 560)
+        tx, ty, anchor = spec["text"][0], spec["text"][1], spec["anchor"]
+        text_block(d, lines, f, tx, ty, NAVY, anchor, 1.12)
+        pts = [tuple(p) for p in spec["line"]]
+        d.line(pts, fill=NAVY, width=4, joint="curve")
+        for (px, py) in (pts[0], pts[-1]):
+            d.ellipse((px - 10, py - 10, px + 10, py + 10), fill=NAVY)
+    return img.convert("RGB")
+
+
+def arrow_line(d, a, b, w=4, head=26):
+    d.line([a, b], fill=NAVY, width=w)
+    ang = np.arctan2(b[1] - a[1], b[0] - a[0])
+    for s_ in (2.7, -2.7):
+        d.line([b, (b[0] + head * np.cos(ang + s_), b[1] + head * np.sin(ang + s_))], fill=NAVY, width=w)
+
+
+def flow(c):
+    import sys as _s
+    _s.path.insert(0, str(HERE.parent / "shopify"))
+    from recolour_bg import recolour
+    img = Image.new("RGBA", (S, S), TARGET_BG + (255,))
+    d = ImageDraw.Draw(img)
+    hf = inter_x(118)
+    y = text_block(d, wrap_to(typeset(COPY["flow_headline"]), hf, 1700), hf, S / 2, 80, NAVY, "c", 1.0)
+    # disposable photo: backdrop moved to the canvas cream, so it sits on the page without a cut-out
+    disp, _ = recolour(src(PICKS["disposable"]))
+    dw, dh = disp.size  # tighten on the camera + canister (they sit mid-frame in the render)
+    disp = disp.crop((int(dw * 0.14), int(dh * 0.12), int(dw * 0.86), int(dh * 0.86)))
+    disp = ImageOps.fit(disp, (900, 900), Image.LANCZOS, centering=(0.5, 0.5))
+    fm = Image.new("L", disp.size, 0)
+    ImageDraw.Draw(fm).rectangle((40, 40, 860, 860), fill=255)
+    img.paste(disp, (120, y + 40), fm.filter(ImageFilter.GaussianBlur(30)))
+    cam = fit_w(front_cut(c), 860)
+    cam_cx, cam_bottom = 1430, 1720
+    place(img, cam, cam_cx, cam_bottom)
+    d = ImageDraw.Draw(img)
+    lf = inter(58, "SemiBold")
+    lf.track = -0.02 * 58
+    text_block(d, wrap_to(typeset(COPY["flow_left_label"]), lf, 560), lf, 1060, y + 300, NAVY, "l", 1.15)
+    text(d, (cam_cx, cam_bottom + 70), typeset(COPY["flow_right_label"]), lf, NAVY, "c")
+    # one curved arrow from the disposable to Retra, steps listed along it
+    arrow(d, [(820, y + 930), (900, 1560), (cam_cx - cam.width / 2 - 40, cam_bottom - cam.height / 2)], w=5)
+    sf = inter(50, "Medium")
+    for i, st in enumerate(COPY["flow_steps"][:3]):
+        yy = y + 1040 + i * 110
+        d.ellipse((150, yy + 18, 172, yy + 40), fill=NAVY)
+        text(d, (196, yy), typeset(st), sf, BODY_INK)
+    return img.convert("RGB")
+
+
+BODY_INK = (65, 96, 119)
+
+
+def split(_c=None):
+    base = Image.open(src(PICKS["scene_split"])).convert("RGB")
+    w = S
+    half = S // 2
+    scene = ImageOps.fit(base, (w, half), Image.LANCZOS, centering=(0.5, 0.45))
+    top = vintage(scene)
+    img = Image.new("RGB", (S, S))
+    img.paste(top, (0, 0))
+    img.paste(scene, (0, half))
+    img = img.convert("RGBA")
+    d = ImageDraw.Draw(img)
+    for (yb, lab, sub) in [(half - 70, COPY["split_top_label"], COPY["split_top_sublabel"]),
+                           (S - 70, COPY["split_bottom_label"], COPY["split_bottom_sublabel"])]:
+        lf = inter_x(104)
+        sf = tinos(58, -0.02)
+        band = Image.new("RGBA", (S, 380), (0, 0, 0, 0))
+        band.putalpha(Image.fromarray(np.repeat((np.linspace(0, 1, 380) ** 1.4 * 150).astype("uint8")[:, None], S, 1)))
+        img.alpha_composite(band, (0, yb + 70 - 380))
+        sh = Image.new("RGBA", img.size, (0, 0, 0, 0))
+        sd = ImageDraw.Draw(sh)
+        text(sd, (98, yb - 190 + 4), typeset(lab), lf, (0, 0, 0, 150))
+        text(sd, (100, yb - 60 + 4), typeset(sub), sf, (0, 0, 0, 150))
+        img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(6)))
+        d = ImageDraw.Draw(img)
+        text(d, (95, yb - 190), typeset(lab), lf, (252, 250, 245))
+        text(d, (98, yb - 60), typeset(sub), sf, (252, 250, 245))
+    d.line([(0, half), (S, half)], fill=(242, 238, 227), width=6)
+    return img.convert("RGB")
+
+
+def portrait(_c=None):
+    im = vintage(ImageOps.fit(Image.open(src(PICKS["portrait"])).convert("RGB"), (S, S), Image.LANCZOS), seed=9)
+    img = im.convert("RGBA")
+    f = inter(40, "SemiBold")
+    sh = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    text(ImageDraw.Draw(sh), (S - 78, S - 118), typeset(COPY["portrait_caption"]), f, (0, 0, 0, 160), "r")
+    img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(4)))
+    text(ImageDraw.Draw(img), (S - 80, S - 120), typeset(COPY["portrait_caption"]), f, (252, 250, 245), "r")
+    return img.convert("RGB")
+
+
 BUILD = {"hand": hand, "howto": howto, "usbc": usbc, "frontback": frontback, "filters": filters, "gift": gift,
-         "box": box}
+         "box": box, "macro": macro, "float": float_, "flow": flow, "split": split, "portrait": portrait}
+SINGLE = {"split", "portrait"}  # one version, no camera in frame
 RENDERED_BACK = {"howto", "usbc", "frontback"}  # show back/bottom/port views that come from renders, not photos
-SUFFIX = {"filters": "_ILLUSTRATIVE"}  # filter samples are renders, not photos taken with a Retra
+SUFFIX = {"filters": "_ILLUSTRATIVE", "split": "_ILLUSTRATIVE", "portrait": "_ILLUSTRATIVE"}  # filter samples are renders, not photos taken with a Retra
 
 
 def main():
     which = sys.argv[1:] or list(BUILD)
     for k in which:
-        for c in COLOURS:
+        for c in ([None] if k in SINGLE else COLOURS):
             im = BUILD[k](c)
             assert im.size == (S, S)
             suffix = "_RENDERED-BACK" if k in RENDERED_BACK else SUFFIX.get(k, "")
-            name = f"RET_gallery_{k}_{c}{suffix}.jpg"
+            name = f"RET_gallery_{k}{'_' + c if c else ''}{suffix}.jpg"
             im.save(OUT / name, quality=92)
             print(name)
 

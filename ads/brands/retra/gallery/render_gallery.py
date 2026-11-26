@@ -86,6 +86,37 @@ def jobs():
             " black braided wrist strap loop (about 15 cm) with a small black clip. Bottom left: a coiled black USB-C"
             " cable. Bottom right: one small micro SD memory card with a plain black label (no readable text). Items"
             " spaced apart with clear cream space around each." + CAM.format(col=col) + REAL))
+        j[f"macro_{c}"] = dict(refs=[PRODUCT / f"retra_{c}_34.jpg"], prompt=(
+            "Extreme close-up macro product photo of the Retra camera from the reference, seen at a steep diagonal angle"
+            " from the lower left: the ribbed lens ring and the small glass lens fill the lower-left half of the frame,"
+            " part of the black top band with the gold serif 'Retra' wordmark and the viewfinder window visible, the"
+            f" {col} leatherette texture sharp and tactile. Shallow depth of field. Plain warm cream backdrop (#F2EEE3)"
+            " filling the upper-right 45% of the frame, completely empty for a headline. Soft, slightly faded film"
+            " colour grade, fine grain." + CAM.format(col=col).replace(" Show the FRONT", " Show the front") + REAL))
+        j[f"float_{c}"] = dict(refs=[PRODUCT / f"retra_{c}_34.jpg"], prompt=(
+            "Clean studio product render-photo: the Retra camera from the reference floating in mid-air, tilted about 20"
+            " degrees, three-quarter front view, centred and filling about 45% of the frame width, soft shadow far"
+            " below. Background: a pale warm grey-beige seamless studio cyclorama (#E9E4D6) with faint thin grid lines"
+            " that curve gently where the wall meets the floor. Generous empty space left and right of the camera for"
+            " callout labels." + CAM.format(col=col) + REAL))
+    j["disposable"] = dict(refs=[], prompt=(
+        "Product photo on a plain warm cream backdrop (#F2EEE3): a generic single-use disposable film camera made of"
+        " black plastic with a plain unprinted kraft-paper cardboard wrap, small flash window, thumb film-advance wheel"
+        " on top, standing upright at a slight three-quarter angle, and next to it one plain unbranded 35mm film"
+        " canister. No text, no brand names, no logos, no labels anywhere. Soft daylight, gentle shadow, slight grain."
+        + REAL.replace(" except the gold serif 'Retra' wordmark printed on the camera exactly as in the reference", "")))
+    j["scene_split"] = dict(refs=[], prompt=(
+        "Wide travel photo, golden hour, of a Mediterranean harbour town: pastel houses stacked up a hillside, small"
+        " fishing boats moored in calm water in the foreground, a few people on the quay, low sun from the upper left"
+        " with a soft flare. Ordinary modern smartphone photo: sharp, true-to-life colour, no film grain. No signs with"
+        " readable text, no logos. Leave the lower-left corner slightly calmer for a caption." + REAL.replace(
+            " except the gold serif 'Retra' wordmark printed on the camera exactly as in the reference", "")))
+    j["portrait"] = dict(refs=[], prompt=(
+        "Candid golden-hour portrait of a woman in her late 20s in a wide-brimmed straw hat and a simple black top,"
+        " looking up and away from the camera, one hand resting on the hat brim, warm low sun on her face, palm trees"
+        " and green shrubs behind against a clear blue sky. Snapshot feel, slightly tilted framing, natural skin"
+        " texture, flyaway hair. No text, no logos, no signs." + REAL.replace(
+            " except the gold serif 'Retra' wordmark printed on the camera exactly as in the reference", "")))
     return j
 
 
