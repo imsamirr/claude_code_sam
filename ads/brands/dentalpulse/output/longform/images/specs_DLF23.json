@@ -1,0 +1,23 @@
+{
+ "DLF23_A": {
+  "copy": "DLF23 A",
+  "prompt": "Close-up of a full denture in a plastic cup of cloudy water on an elderly woman's nightstand in winter, a yellow-brown film on the teeth, scum floating, a crocheted doily under the cup. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF23_B": {
+  "copy": "DLF23 B",
+  "prompt": "The back of a hair-salon chair seen from behind: an elderly woman with set white curls under a cape, a stylist's hands with a comb, a mirror out of focus. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF23_C": {
+  "copy": "DLF23 C",
+  "prompt": "A deck of playing cards and a score pad on a card table, four empty folding chairs, afternoon light, one chair pushed in. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF23_D": {
+  "copy": "DLF23 D",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A full upper and lower denture sits in the murky water; an elderly woman's hand rests on the counter next to the Pod. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}

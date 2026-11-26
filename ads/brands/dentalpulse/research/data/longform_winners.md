@@ -1,17 +1,17 @@
-# Prospecting winners for long-form copy (2026-05-23 to 2026-11-18)
+# Prospecting winners for long-form copy (2026-05-30 to 2026-11-25)
 
-Prospecting ROAS baseline: 1.65. Qualify: family spend >= $1000 and ROAS >= 1.57. Ranked by spend x ROAS/baseline. Retargeting excluded.
+Prospecting ROAS baseline: 1.65. Qualify: family spend >= $1000 and ROAS >= 1.56. Ranked by spend x ROAS/baseline. Retargeting excluded.
 
 
 ## Family 1: TOFv1_A36
 
-Spend $157,510 · ROAS 1.68 · CPA $93.98 · 1676 purchases · score 160,418 · 5 ad(s)
+Spend $164,514 · ROAS 1.7 · CPA $93.37 · 1762 purchases · score 169,574 · 5 ad(s)
 
-- TOFv1_A36 (120245724386230665): $89,996, ROAS 1.47, adset: None
-- VID_DEN32_COMPARISON_IT_02_LP_LISTICLE_V2 - Copy (120245213317530665): $39,089, ROAS 2.18, adset: None
+- TOFv1_A36 (120245724386230665): $94,296, ROAS 1.49, adset: None
+- VID_DEN32_COMPARISON_IT_02_LP_LISTICLE_V2 - Copy (120245213317530665): $41,839, ROAS 2.18, adset: None
 - VID_DEN99_COMPARISON_IT_01_LP_LISTICLE_V2 (120245442555470665): $20,360, ROAS 1.56, adset: None
 - VID_DEN32_COMPARISON_IT_02_LP_LISTICLE_V2 (120244833412480665): $6,469, ROAS 1.93, adset: None
-- VID_DEN32_COMPARISON_IT_02_LP_LISTICLE_V2 – Copy (120246683362800665): $1,597, ROAS 2.15, adset: None
+- VID_DEN32_COMPARISON_IT_02_LP_LISTICLE_V2 – Copy (120246683362800665): $1,550, ROAS 2.12, adset: None
 
 **Headline:** 6 of 7 pods leave live bacteria  
 **Landing page:** https://dentalpulsepro.com/pages/we-tested-7-ultrasonic-dental-cleaners-over-90-days-heres-what-actually-works-bundle-pod-gifts
@@ -26,72 +26,17 @@ I tested Zima, Ploys, and Amazon ultrasonic cleaners over 90 days. Generic Amazo
 
 **Hook variants (first 300 chars):**
 
-- I tested Zima, Ploys, and Amazon ultrasonic cleaners over 90 days. Generic Amazon cleaners, 2 out of 10. They clean for a week, then the ultrasonic weakens and most stop working before the 90 days are up. No UV light, no support number, no recourse. Ploys, 3 out of 10. The UV light isn't medical gra…
 - I tested Zima, Ploys, and Amazon ultrasonic cleaners over 90 days. Generic Amazon cleaners, 2 out of 10. They clean for a week, then the ultrasonic weakens and most stop working before the 90 days are up. No UV light. No support number. No recourse. Ploys, 3 out of 10. The UV light isn't medical gra…
-
-
-## Family 10: Task-#22_1_Image_LP_LISTICLE_V1
-
-Spend $41,115 · ROAS 1.82 · CPA $87.11 · 472 purchases · score 45,448 · 12 ad(s)
-
-- Task-#22_1_Image_LP_LISTICLE_V1 (120240680300870665): $7,405, ROAS 1.64, adset: None
-- DEN_IMG_COMPARISON_US_VS_THEM_01_LP_LISTICLE_V1 (120237594270880665): $5,155, ROAS 1.45, adset: None
-- 2/26 We Tested 7 Cleaners Whiteboard Male Indian Doc - Story_LP_LISTICLE_V1 (120242165007980665): $4,442, ROAS 2.48, adset: None
-- TOFv1_A30 (120245724335510665): $3,622, ROAS 1.69, adset: None
-- WeReviewedBestUltrasonic_Image_LP_LISTICLE_V1 (120241380007040665): $3,480, ROAS 1.45, adset: None
-- TOFv1_B4 (120245801397650665): $3,345, ROAS 1.26, adset: None
-- IMG_DEN62_PROBSOL_ITERATION_02_LP_LISTICLE_V1_DUPLICATED (120244523190340665): $2,842, ROAS 3.55, adset: None
-- IMG_DEN62_COMPARISON_ITERATION_02_LP_LISTICLE_V1 (120243926926610665): $2,671, ROAS 2.04, adset: None
-- Task-#149_Image_LP_LISTICLE_V1 (120239709610830665): $2,392, ROAS 1.48, adset: None
-- DEN_IMG_DEN46_COMPARISON_ITERATION_01_LP_LISTICLE_V1 (120242521643370665): $2,248, ROAS 1.63, adset: None
-- Task-#156_Image_LP_LISTICLE_V1 (120239709608310665): $1,796, ROAS 1.75, adset: None
-- 2/10 We Spent 90 days Testing 7 Cleaners - Story_LP_LISTICLE_V1 (120240240138420665): $1,716, ROAS 1.82, adset: None
-
-**Headline:** Top 7 Ultrasonic Cleaners For Dentures  
-**Landing page:** https://dentalpulsepro.com/pages/we-tested-7-ultrasonic-dental-cleaners-over-90-days-heres-what-actually-works-bundle-pdp
-
-**Primary text:**
-
-> We spent 3 months testing 7 of the most popular ultrasonic dental cleaners on the market.
-> Not just reading Amazon reviews. Not just looking at specs.
-> Actually using them. Every day. On real dentures, retainers, night guards, and aligners.
-> We wanted to know: Which ones actually work? Which ones are overpriced junk? And which one is worth your money?
-> Because let's be honest — you shouldn't have to guess when it comes to something you put in your mouth every single day.
-> After 90+ days of real-world testing, we found a clear winner.
-> One device outperformed the rest in cleaning power, ease of use, and durability.
-> 
-> See the full results ⬇️
-
-
-## Family 7: Denture - 40% OFF _LP_PDP_V3
-
-Spend $23,528 · ROAS 3.11 · CPA $51.48 · 457 purchases · score 44,362 · 5 ad(s)
-
-- Denture - 40% OFF _LP_PDP_V3 (120244787726140665): $11,996, ROAS 3.28, adset: None
-- Denture - Get Free Travel Denture Cleaning Kit_LP_PDP_V3 (120244787686650665): $4,197, ROAS 3.02, adset: None
-- Denture - We're Almost Out of Stock - Gift PDP (120245684246140665): $2,642, ROAS 3.15, adset: None
-- Denture - Denture Cleaner of 2026_LP_PDP_V3 (120245105543920665): $2,502, ROAS 2.95, adset: None
-- Denture - Almost Sold Out - PDP - Copy (120240441408420665): $2,191, ROAS 2.49, adset: None
-
-**Headline:** 40% Off + Free Gifts  
-**Landing page:** https://dentalpulsepro.com/products/dentalpulse-pod-denture-bundle-gifts
-
-**Primary text:**
-
-> Clinical-grade cleaning for your Dentures, Guards, Retainers & more! 
-> 
-> Say goodbye to bacteria and bad smell coming from your dental appliance.
-> 
-> Shop now: https://dentalpulsepro.com/products/dentalpulse-pod-pro-dentures
+- I tested Zima, Ploys, and Amazon ultrasonic cleaners over 90 days. Generic Amazon cleaners, 2 out of 10. They clean for a week, then the ultrasonic weakens and most stop working before the 90 days are up. No UV light, no support number, no recourse. Ploys, 3 out of 10. The UV light isn't medical gra…
 
 
 ## Family 8: IMG_DEN64_COMPARISON_IT_NATIVEAD_51_12_LP_LISTICLE_V1
 
-Spend $35,256 · ROAS 2.06 · CPA $75.17 · 469 purchases · score 44,039 · 7 ad(s)
+Spend $36,297 · ROAS 2.05 · CPA $75.62 · 480 purchases · score 45,143 · 7 ad(s)
 
 - IMG_DEN64_COMPARISON_IT_NATIVEAD_51_12_LP_LISTICLE_V1 (120243931409130665): $10,272, ROAS 1.81, adset: None
-- IMG_DEN64_COMPARISON_IT_NATIVEAD_51_12_LP_LISTICLE_V1_DUPLICATED (120244523190350665): $9,003, ROAS 2.37, adset: None
-- IMG_DEN64_COMPARISON_IT_NATIVEAD_51_3_LP_LISTICLE_V1 - Copy (120245577105820665): $5,215, ROAS 2.60, adset: None
+- IMG_DEN64_COMPARISON_IT_NATIVEAD_51_12_LP_LISTICLE_V1_DUPLICATED (120244523190350665): $9,740, ROAS 2.28, adset: None
+- IMG_DEN64_COMPARISON_IT_NATIVEAD_51_3_LP_LISTICLE_V1 - Copy (120245577105820665): $5,519, ROAS 2.60, adset: None
 - IMG_DEN64_COMPARISON_IT_NATIVEAD_51_3_LP_LISTICLE_V1 (120243930386240665): $3,514, ROAS 2.20, adset: None
 - IMG_DEN64_COMPARISON_IT_NATIVEAD_7_LP_LISTICLE_V1 (120243930875970665): $3,094, ROAS 1.71, adset: None
 - IMG_DEN64_COMPARISON_IT_NATIVEAD_51_2_LP_LISTICLE_V1 (120243930012840665): $2,591, ROAS 1.40, adset: None
@@ -312,12 +257,66 @@ Spend $35,256 · ROAS 2.06 · CPA $75.17 · 469 purchases · score 44,039 · 7 a
 > P.S. I added it all up one night. Twelve years of tablets and brushes and two cleanings a year. More than I want to admit. Walt figured he had spent close to two hundred dollars a year feeding a machine that quit on him anyway. He is not bitter about the money, he said. He is bitter about the two years his wife spent turning her head. Same as Carol did. And never telling him why.
 
 
+## Family 7: Denture - 40% OFF _LP_PDP_V3
+
+Spend $23,012 · ROAS 3.12 · CPA $51.25 · 449 purchases · score 43,605 · 5 ad(s)
+
+- Denture - 40% OFF _LP_PDP_V3 (120244787726140665): $11,996, ROAS 3.28, adset: None
+- Denture - Get Free Travel Denture Cleaning Kit_LP_PDP_V3 (120244787686650665): $4,197, ROAS 3.02, adset: None
+- Denture - We're Almost Out of Stock - Gift PDP (120245684246140665): $2,642, ROAS 3.15, adset: None
+- Denture - Denture Cleaner of 2026_LP_PDP_V3 (120245105543920665): $2,502, ROAS 2.95, adset: None
+- Denture - Almost Sold Out - PDP - Copy (120240441408420665): $1,675, ROAS 2.40, adset: None
+
+**Headline:** 40% Off + Free Gifts  
+**Landing page:** https://dentalpulsepro.com/products/dentalpulse-pod-denture-bundle-gifts
+
+**Primary text:**
+
+> Clinical-grade cleaning for your Dentures, Guards, Retainers & more! 
+> 
+> Say goodbye to bacteria and bad smell coming from your dental appliance.
+> 
+> Shop now: https://dentalpulsepro.com/products/dentalpulse-pod-pro-dentures
+
+
+## Family 11: Task-#22_1_Image_LP_LISTICLE_V1
+
+Spend $31,948 · ROAS 1.91 · CPA $82.77 · 386 purchases · score 37,157 · 11 ad(s)
+
+- Task-#22_1_Image_LP_LISTICLE_V1 (120240680300870665): $5,844, ROAS 1.62, adset: None
+- 2/26 We Tested 7 Cleaners Whiteboard Male Indian Doc - Story_LP_LISTICLE_V1 (120242165007980665): $4,205, ROAS 2.55, adset: None
+- TOFv1_A30 (120245724335510665): $3,827, ROAS 1.66, adset: None
+- IMG_DEN62_PROBSOL_ITERATION_02_LP_LISTICLE_V1_DUPLICATED (120244523190340665): $3,373, ROAS 3.91, adset: None
+- TOFv1_B4 (120245801397650665): $3,345, ROAS 1.26, adset: None
+- DEN_IMG_COMPARISON_US_VS_THEM_01_LP_LISTICLE_V1 (120237594270880665): $2,966, ROAS 1.01, adset: None
+- IMG_DEN62_COMPARISON_ITERATION_02_LP_LISTICLE_V1 (120243926926610665): $2,671, ROAS 2.04, adset: None
+- Task-#156_Image_LP_LISTICLE_V1 (120239709608310665): $1,636, ROAS 1.69, adset: None
+- WeReviewedBestUltrasonic_Image_LP_LISTICLE_V1 (120241380007040665): $1,520, ROAS 1.42, adset: None
+- DEN_IMG_DEN46_COMPARISON_ITERATION_01_LP_LISTICLE_V1 (120242521643370665): $1,340, ROAS 1.35, adset: None
+- IMG_DEN62_COMPARISON_ITERATION_01_LP_LISTICLE_V1 (120243926050490665): $1,221, ROAS 1.62, adset: None
+
+**Headline:** Top 7 Ultrasonic Cleaners For Dentures  
+**Landing page:** https://dentalpulsepro.com/pages/we-tested-7-ultrasonic-dental-cleaners-over-90-days-heres-what-actually-works-bundle-pdp
+
+**Primary text:**
+
+> We spent 3 months testing 7 of the most popular ultrasonic dental cleaners on the market.
+> Not just reading Amazon reviews. Not just looking at specs.
+> Actually using them. Every day. On real dentures, retainers, night guards, and aligners.
+> We wanted to know: Which ones actually work? Which ones are overpriced junk? And which one is worth your money?
+> Because let's be honest — you shouldn't have to guess when it comes to something you put in your mouth every single day.
+> After 90+ days of real-world testing, we found a clear winner.
+> One device outperformed the rest in cleaning power, ease of use, and durability.
+> 
+> See the full results ⬇️
+
+
 ## Family 2: _DEN_VID_DEN81_H3 REVISED_LP_LISTICLE_V1
 
-Spend $26,909 · ROAS 2.11 · CPA $74.13 · 363 purchases · score 34,398 · 2 ad(s)
+Spend $28,111 · ROAS 2.07 · CPA $75.57 · 372 purchases · score 35,371 · 2 ad(s)
 
-- _DEN_VID_DEN81_H3 REVISED_LP_LISTICLE_V1 (120245839512080665): $22,997, ROAS 2.11, adset: None
-- _DEN_VID_DEN81_H3 REVISED_LP_LISTICLE_V1 - Copy (120246072096480665): $3,911, ROAS 2.09, adset: None
+- _DEN_VID_DEN81_H3 REVISED_LP_LISTICLE_V1 (120245839512080665): $23,947, ROAS 2.08, adset: None
+- _DEN_VID_DEN81_H3 REVISED_LP_LISTICLE_V1 - Copy (120246072096480665): $4,164, ROAS 2.03, adset: None
 
 **Headline:** 6 of 7 pods can't remove bacteria  
 **Landing page:** https://dentalpulsepro.com/pages/we-tested-7-ultrasonic-dental-cleaners-over-90-days-heres-what-actually-works-bundle-pdp
@@ -331,13 +330,14 @@ Spend $26,909 · ROAS 2.11 · CPA $74.13 · 363 purchases · score 34,398 · 2 a
 If you already own an ultrasonic denture cleaner, watch this. Most have a UV light that looks like it's working but kills almost nothing. I tested six to find out which ones are real and which ones are faking it. Most of them fail in one of two ways. Some are too weak to clean deep into the grooves. Others have a UV light that looks nice but doesn't really kill anything. I ranked all six and I'll show you the one that turned the water brown the first time I used it. Let's start at the bottom. Number seven, cheap Amazon cleaners. Two out of ten. These are the ones you find when you search for cheap. They work okay for about a week. Then they get weak. A lot of them quit in the first month. No real UV light. And if it breaks, nobody picks up the phone. Number six, Guru Nanda. Four out of ten. It's cheap and easy to find, but the tank is small. It's a tight squeeze for a full top and bottom set. The people say the cleaning is hit or miss. It's fine for a retainer, not for dentures. Number five, Dr. B. Five out of ten. It cleans fine at first, but it's really made for retainers, not dentures. So it's too small. And customer service is slow when something goes wrong with the machine. Number four, Smile Therapy. Six out of ten. It's built well and easy to use, but it has no UV light. So you only get half the job done and it needs cleaning tablets to work right. That's money you keep spending. Number three, Sonic Dental. Seven out of ten. This one is good. It cleans well and has UV. The problem comes after you buy it. They only last three months. People say customer service is slow. Refunds can take weeks. And they try to sign you up for tablets every month. Number two, Zima Dental Pod. Eight out of ten. You've probably seen this one online. It does clean well. But there are three problems. People say one wash isn't enough, so they run it twice. They sign you up for tablets you didn't ask for. And you only get 30 days to return it. Worse, you have to mail it all the way back to the UK and pay for it yourself. It also costs about three times more. Close, but not the winner. And then there's the number one, Dental Pulse. 9.5 out of 10. This is the one all my patients are using. It does everything right. It's strong enough to clean deep into every groove. It has a real UV light that kills bacteria, not just for show. The tank is steel, not plastic. It fits your full top and bottom set at the same time. Five minutes. One button. Just water. No tablets. No monthly fees. And a real person to call right here in the US. The coverage is the best on the list. You get 120 days to try it. And a full year warranty if anything breaks. Here's the part that sold me. Put your dentures in for the first time. Watch the water. It turns brown. That brown is all the gunk and bacteria coming off. If you don't see it the first time, send it back and get your money back. Everyone sees it. The link is below. There's a deal on right now. And you're covered if it doesn't work for you.
 
 
-## Family 4: VID_DEN31_COMPARISON_04_LP_LISTICLE_V1
+## Family 6: VID_DEN31_COMPARISON_04_LP_LISTICLE_V1
 
-Spend $26,649 · ROAS 1.81 · CPA $87.66 · 304 purchases · score 29,294 · 3 ad(s)
+Spend $27,704 · ROAS 1.76 · CPA $89.95 · 308 purchases · score 29,635 · 4 ad(s)
 
-- VID_DEN31_COMPARISON_04_LP_LISTICLE_V1 (120242904226100665): $13,587, ROAS 1.88, adset: None
+- VID_DEN31_COMPARISON_04_LP_LISTICLE_V1 (120242904226100665): $13,304, ROAS 1.86, adset: None
 - _DEN_VID_DEN31_COMPARISON_03_LP_LISTICLE_V1 (120242903949500665): $11,456, ROAS 1.75, adset: None
-- VID_DEN31_COMPARISON_04_LP_LISTICLE_V1_DUPLICATED (120244523190320665): $1,606, ROAS 1.69, adset: None
+- VID_DEN31_COMPARISON_04_LP_LISTICLE_V1_DUPLICATED (120244523190320665): $1,682, ROAS 1.62, adset: None
+- POSTID_VID_DEN31_COMPARISON_04_LP_LISTICLE_V1 (120243666820040665): $1,262, ROAS 1.00, adset: None
 
 **Headline:** 6 of 7 pods leave live bacteria  
 **Landing page:** https://dentalpulsepro.com/pages/we-tested-7-ultrasonic-dental-cleaners-over-90-days-heres-what-actually-works-bundle-pdp
@@ -352,15 +352,15 @@ Zima dental pod costs three times as much. I tested seven different ultrasonic c
 
 **Hook variants (first 300 chars):**
 
-- If you already own an ultrasonic denture cleaner, stay with me because most of the ones people are buying are missing something important. 7 cleaners. 6 of them fail on one of two things. Either the ultrasonic isn't strong enough to actually shake the bacteria, what's from the tiny grooves in your d…
 - Zima dental pod costs three times as much. I tested seven different ultrasonic cleaners over 90 days. Here is what you actually get for the difference. Seven cleaners. Six of them fail on one of two things. Either the ultrasonic isn't strong enough to actually shake the bacteria, what's from the tin…
+- If you already own an ultrasonic denture cleaner, stay with me because most of the ones people are buying are missing something important. 7 cleaners. 6 of them fail on one of two things. Either the ultrasonic isn't strong enough to actually shake the bacteria, what's from the tiny grooves in your d…
 
 
 ## Family 5: VID_DEN24_COMPARISON_IT_02_LP_LISTICLE_V1_DUPLICATED
 
-Spend $21,187 · ROAS 2.15 · CPA $71.58 · 296 purchases · score 27,573 · 2 ad(s)
+Spend $21,587 · ROAS 2.15 · CPA $71.48 · 302 purchases · score 28,171 · 2 ad(s)
 
-- VID_DEN24_COMPARISON_IT_02_LP_LISTICLE_V1_DUPLICATED (120244523190330665): $13,197, ROAS 2.41, adset: None
+- VID_DEN24_COMPARISON_IT_02_LP_LISTICLE_V1_DUPLICATED (120244523190330665): $13,596, ROAS 2.40, adset: None
 - VID_DEN24_COMPARISON_IT_02_LP_LISTICLE_V1 (120244005019370665): $7,991, ROAS 1.71, adset: None
 
 **Headline:** You've Been Lied To  
@@ -375,11 +375,11 @@ Spend $21,187 · ROAS 2.15 · CPA $71.58 · 296 purchases · score 27,573 · 2 a
 Here are six ultrasonic cleaners I would never recommend to my patients struggling with cleaning their dentures. So I bought and tested the seven most popular ultrasonic denture cleaners so you don't have to. And now I'm gonna rate them. Generic Amazon cleaners. Two out of ten. These are the ones that pop up when you search for a quick option. They clean okay at the start, but reviewers consistently say the cleaning gets weaker over time. There is also no UV light to kill bacteria after the wash. And when something goes wrong, there's basically no support. Iasonic. Four out of ten. It has been around for a while and it does work, but there is no UV light. So bacteria that gets loosened during cleaning is still just sitting on your dentures when you take them out. The basin is also quite small. Some people cannot fit their upper and lower dentures in at the same time and have to do two separate cycles. Zima Dental. Five out of ten. This is the one you have probably seen all over social media. It cleans, but reviewers regularly say one cycle is not enough and they have to run it twice to actually get their dentures clean. On top of that, they push you to buy their own branded cleaning pucks every month on a subscription. And their return window is only 30 days. Shorter than almost everyone else on this list. Smile Therapy. Five out of ten. Decent build, easy to use, but it does not have a UV light built in, which means you are only getting part of the clean. It also needs cleaning tablets to work properly, so you are looking at a recurring cost on top of what you already paid for the device. Ploys. Four out of ten. It has the ultrasonic and the UV light, and the cleaning itself is fine. But here is what concerns me. They only give you 90 days to return it, and there is no warranty on the device at all. None. So if something stops working after that window closes, you have no coverage and no recourse. For a product you are using every single night, that is a big ask. Sonic Pro Dental. Seven out of ten. Also solid. Ultrasonic plus UV light. Good cleaning results, trusted by dental practices. The downside is it is based in the UK, so if you need support or a replacement, it takes longer to sort out. And like Zima, they sell cleaning tablets on a subscription. And then there is Dental Pulse. Nine out of ten. This is the one that held up across every single thing I was looking at. Ultrasonic cleaning plus UV light. Five minutes, one button. Runs on plain water. No tablet subscription. No recurring costs. And the coverage is the best on this list. 120 days to try it, and a full 12 month warranty on the device if anything goes wrong. Link is right below if you want to check it out. There is a limited time offer on right now, and you are fully covered if it does not work for you.
 
 
-## Family 6: _DEN_VID_DEN81_H4 REVISED_LP_LISTICLE_V1
+## Family 4: _DEN_VID_DEN81_H4 REVISED_LP_LISTICLE_V1
 
-Spend $12,908 · ROAS 1.71 · CPA $86.05 · 150 purchases · score 13,373 · 1 ad(s)
+Spend $13,732 · ROAS 1.64 · CPA $89.75 · 153 purchases · score 13,724 · 1 ad(s)
 
-- _DEN_VID_DEN81_H4 REVISED_LP_LISTICLE_V1 (120245839520760665): $12,908, ROAS 1.71, adset: None
+- _DEN_VID_DEN81_H4 REVISED_LP_LISTICLE_V1 (120245839520760665): $13,732, ROAS 1.64, adset: None
 
 **Headline:** 6 of 7 pods can't remove bacteria  
 **Landing page:** https://dentalpulsepro.com/pages/we-tested-7-ultrasonic-dental-cleaners-over-90-days-heres-what-actually-works-bundle-pdp
@@ -393,11 +393,11 @@ Spend $12,908 · ROAS 1.71 · CPA $86.05 · 150 purchases · score 13,373 · 1 a
 If you bought expensive ultrasonic cleaners thinking they clean better than your brush, think again. We tested the seven most popular denture cleaners. Six of them failed to kill bacteria. Most of them fail in one of two ways. Some are too weak to clean deep into the grooves. Others have a UV light that looks nice, but... doesn't really kill anything. I ranked all six and I'll show you the one that turned the water brown the first time I used it. Let's start at the bottom. Number seven. Cheap Amazon cleaners. Two out of ten. These are the ones you find when you search for cheap. They work okay for about a week, then they get weak. A lot of them quit in the first month. No real UV light and if it breaks, it's gone. Nobody picks up the phone. Number six, Guru Nanda, four out of 10. It's cheap and easy to find, but the tank is small. It's a tight squeeze for a full top and bottom set. The people say the cleaning is hit or miss. It's fine for a retainer, not for dentures. Number five, Dr. B, five out of 10. It cleans fine at first, but it's really made for retainers, not dentures. so it's too small. And customer service is slow when something goes wrong with the machine. Number four, Smile Therapy, six out of 10. It's built well and easy to use, but it has no UV light. So you only get half the job done and it needs cleaning tablets to work right. That's money you keep spending. Number three, Sonic Dental, seven out of 10. This one is good. It cleans well and has UV. The problem comes after you buy it. They only last three months. People say customer service is slow. Refunds can take weeks. And they try to sign you up for tablets every month. Number two, Zima Dental Pod. Eight out of 10, you've probably seen this one online, does clean well. But there are three problems. People say one wash isn't enough, so they run it twice. They sign you up for tablets you didn't ask for, and you only get 30 days to return it. Worse, you have to mail it all the way back to the UK and pay for it yourself. It also costs about three times more. Close, but not the winner. And then there's the number one, Dental Pulse. 9.5 out of 10. This is the one all my patients are using. It does everything right. It's strong enough to clean deep into every groove. It has a real UV light that kills bacteria, not just for show. The tank is steel, not plastic. It fits your full top and bottom set at the same time. Five minutes, one button, just water, no tablets, no monthly fees, and a real person to call right here in the U.S. The coverage is the best on the list. 120 days to try it and a full year warranty if anything breaks. Here's the part that sold me. Put your dentures in for the first time, watch the water, it turns brown. That brown is all the gunk and bacteria coming off. If you don't see it the first time, send it back and get your money back. Everyone sees it. The link is below, there's a deal on right now. And you're covered if it doesn't work for you.
 
 
-## Family 9: VID_DEN53_COMPARISON_JESSE_01_LP_LISTICLE_V1
+## Family 10: VID_DEN53_COMPARISON_JESSE_01_LP_LISTICLE_V1
 
-Spend $10,067 · ROAS 1.78 · CPA $91.52 · 110 purchases · score 10,855 · 2 ad(s)
+Spend $8,410 · ROAS 1.79 · CPA $91.41 · 92 purchases · score 9,153 · 2 ad(s)
 
-- VID_DEN53_COMPARISON_JESSE_01_LP_LISTICLE_V1 (120237476359000665): $7,894, ROAS 1.83, adset: None
+- VID_DEN53_COMPARISON_JESSE_01_LP_LISTICLE_V1 (120237476359000665): $6,237, ROAS 1.85, adset: None
 - VID_DEN53_COMPARISON_JESSE_01_LP_LISTICLE_V2 (120244127634210665): $2,173, ROAS 1.61, adset: None
 
 **Headline:** Top 7 Ultrasonic Cleaners For Dentures  
@@ -420,52 +420,11 @@ Spend $10,067 · ROAS 1.78 · CPA $91.52 · 110 purchases · score 10,855 · 2 a
 Thinking about getting one of these cleaning pods, here's what you should know. Coming in, bottom tier number seven, generic Amazon cleaners, four out of 10. Inconsistent cleaning, and honestly they failed after a month. Ploys Denture Dome, give it a five out of 10. The UV cleaning isn't medical grade, it's a bit of a smaller tank, and I found that the cleaning was inconsistent. Opro Ultrasonic, gave this a six out of 10. It's simple to use, but again, a limited capacity, and the cleaning was, tied at number four we had Smile Therapy and Sonic Dental Pods, both a seven out of 10. I would say they're good budget options for cleaning, nothing exceptional. Zima Dental Pod, I gave this one an eight out of 10. Honestly, it's very solid, it cleaned very well, but there was one that just edged it out. And coming in at number one is the Dental Pulse Pod. It was by far the most consistent with cleaning, it's the one I use at home, so that's my two cents. If you've tried any of these, let me know what you thought, and if you wanna try the Dental Pulse Pod, I've left a link down below, that's my favorite.
 
 
-## Family 11: TOFv1_AD2 | DEN209_Most Denture Cleaners Sold Online_Comparison_No Offer_AI+ExistingFootage_Iteration_Dentures_Hamza_Samir_H2
+## Family 14: _DEN_VID_DEN81_H1 REVISED_LP_LISTICLE_V1
 
-Spend $7,189 · ROAS 1.59 · CPA $102.69 · 70 purchases · score 6,923 · 1 ad(s)
+Spend $3,663 · ROAS 2.82 · CPA $59.09 · 62 purchases · score 6,266 · 1 ad(s)
 
-- TOFv1_AD2 | DEN209_Most Denture Cleaners Sold Online_Comparison_No Offer_AI+ExistingFootage_Iteration_Dentures_Hamza_Samir_H2 (120246789000410665): $7,189, ROAS 1.59, adset: None
-
-**Headline:** #1 Dentures Cleaner (Clinical Grade At-Home)  
-**Landing page:** https://dentalpulsepro.com/pages/we-tested-7-ultrasonic-dental-cleaners-over-90-days-heres-what-actually-works-bundle-pdp
-
-**Primary text:**
-
-> 🏆 We spent 90 days testing the most popular ultrasonic dental cleaners.
-> 
-> Instead of trusting marketing...
-> 
-> We tested them ourselves.
-> 
-> 🦷 Cleaning performance
-> ⚡ Ultrasonic power
-> 💧 Build quality
-> ⏱️ Daily usability
-> 💰 Overall value
-> 
-> One model consistently outperformed every competitor.
-> 
-> The DentalPulse Pod.
-> And here's what customers say:
-> 
-> "I was ready to buy the first cleaner I found on Amazon. This comparison saved me from wasting my money. I'm so glad I read it first." (⭐⭐⭐⭐⭐) Jennifer L. | Phoenix, AZ
-> 
-> "I appreciated seeing an honest side-by-side comparison instead of another sales page. It made my decision really easy." ⭐⭐⭐⭐⭐ Ashley P. | Dallas, TX
-> 
-> Read the full comparison before you buy.
-> 
-> And If you decide the #1 pick is right for you, hurry while it's risk-free to try! Tap 'Learn more' now.
-
-**Transcript (lead ad):**
-
-I tested Zima, Sonic, and Amazon ultrasonic cleaners over 90 days. Find out which ultrasonic cleaner I ranked the worst. The generic Amazon cleaners get a 2 out of 10. They clean for about a week, then the ultrasonic stops working, and most break before 60 days. Doesn't turn on. Zima and Smile Therapy both land on 5. They advertise UV, but neither of them tells you the wavelength. And at the wrong wavelength, that light passes straight through the bacteria and does absolutely nothing. And both need 2 cycles for basic cleaning. 5 on 10. gets a 4 out of 10. Better build than the Amazon ones. And the cleaning works, but it makes a loud noise. And the tank doesn't fit dentures. Novapod gets a 1 out of 10. They exaggerate their claims, have no UVC to kill bacteria, and have a hidden monthly subscription fee for a membership. Sonic Dental is the best of the rest at 7. Good ultrasonic frequency, UVC light is real. The issue is they built it around a 10 minute cycle. So you still need to run 2 cycles of 5 minutes for your appliance to come out clean. 7 out of 10. Dental Pulse Pod finished at 9 out of 10. It runs a real ultrasonic cleaning at 42,000 waves a second and strong UVC light to kill bacteria. You only need one five-minute cycle. This is why I rank it the highest. They use the same technology dental clinics are using to clean their equipment. The UVC light function isn't an option, it's a necessity. The bacteria in the plaque buildup can go from your gums into your bloodstream. Denture wearers who do not clean properly are twice as likely to develop aspiration pneumonia. Dental Pulse Pod is the only one with proper UVC light and has clinically studied ultrasonic waves. It's up to 40% off right now with free gifts and covered by 120 day money back guarantee. So you can find out for yourself at no risk. The link is below.
-
-
-## Family 18: _DEN_VID_DEN81_H1 REVISED_LP_LISTICLE_V1
-
-Spend $2,516 · ROAS 2.66 · CPA $59.9 · 42 purchases · score 4,053 · 1 ad(s)
-
-- _DEN_VID_DEN81_H1 REVISED_LP_LISTICLE_V1 (120245839453350665): $2,516, ROAS 2.66, adset: None
+- _DEN_VID_DEN81_H1 REVISED_LP_LISTICLE_V1 (120245839453350665): $3,663, ROAS 2.82, adset: None
 
 **Headline:** 6 of 7 pods can't remove bacteria  
 **Landing page:** https://dentalpulsepro.com/pages/we-tested-7-ultrasonic-dental-cleaners-over-90-days-heres-what-actually-works-bundle-pdp
@@ -474,14 +433,16 @@ Spend $2,516 · ROAS 2.66 · CPA $59.9 · 42 purchases · score 4,053 · 1 ad(s)
 
 > A 90-day side-by-side lab test of seven leading ultrasonic dental cleaners revealed that most units available online fall short on deep decontamination. While many brands look identical on the outside, subsequent microscopic testing showed that six out of seven machines left live bacterial biofilm active on appliances overnight. Most consumer pods fail because they lack the specific mechanical frequency required to penetrate porous acrylic or use weak UV-C wavelengths that do not fully sanitize. This engineered unit was the only system tested that completely cleared subsurface buildup without damaging the appliance material. Read the full comparison breakdown to see the raw lab findings before choosing a device.
 
-_No cached transcript (video 4293084744355564). Re-run with --transcribe to pay for one._
+**Transcript (lead ad):**
+
+I bought the seven most popular denture cleaners. I tested them for 90 days, so you don't have to. Most of them fail in one of two ways. Some are too weak to clean deep into the grooves. Others have a UV light that looks nice, but doesn't really kill anything. I ranked all six, and I'll show you the one that turned the water brown the first time I used it. Let's start at the bottom. Number seven, cheap Amazon cleaners. 2 out of 10. These are the ones you find when you search for cheap. They work okay for about a week, then they get weak. A lot of them quit in the first month. No real UV light. And if it breaks, nobody picks up the phone. Number six, Guru Nanda. 4 out of 10. It's cheap and easy to find, but the tank is small. It's a tight squeeze for a full top and bottom set. The people say the It's fine for a retainer, not for dentures. Number five, Dr. B, five out of 10. It cleans fine at first, but it's really made for retainers, not dentures. so it's too small and customer service is slow when something goes wrong with the machine. Number four, smile therapy. Six out of ten. It's built well and easy to use but it has no UV light so you only get half the job done and it needs cleaning tablets to work right. That's money you keep spending. Number three, sonic dental. Seven out of ten. This one is good, They only last three months. People say customer service is slow. Refunds can take weeks. and they try to sign you up for tablets every month. Number two, Zima Dental Pod. Eight out of 10, you've probably seen this one online, does clean well, but there are three problems. People say one wash isn't enough, so they run it twice. They sign you up for tablets you didn't ask for, and you only get 30 days to return it. Worse, you have to mail it all the way back to the UK and pay for it yourself. It also costs about three times more. Close, but not the winner. And then there's the number one, Dental Pulse, 9.5 out of 10. This is the one all my patients are using. It does everything right. It's strong enough to clean deep into every groove. It has a real UV light that kills bacteria, not just for show. The tank is steel, not plastic. It fits your full top and bottom set at the same time. Five minutes, one button, just water, no tablets, no monthly fees, and a real person to call right here in the U.S. The coverage is the best on the list. and a full year warranty if anything breaks. Here's the part that sold me. Put your dentures in for the first time. Watch the water. It turns brown. That brown is all the gunk and bacteria coming off. If you don't see it the first time, send it back and get your money back. Everyone sees it. The link is below. There's a deal on right now. And you're covered if it doesn't work for you.
 
 
-## Family 23: VID_DEN105_COMPARISON_IT_02_LP_LISTICLE_V2 - Copy
+## Family 21: VID_DEN105_COMPARISON_IT_02_LP_LISTICLE_V2 - Copy
 
-Spend $1,776 · ROAS 2.29 · CPA $63.41 · 28 purchases · score 2,460 · 1 ad(s)
+Spend $1,895 · ROAS 2.29 · CPA $63.16 · 30 purchases · score 2,641 · 1 ad(s)
 
-- VID_DEN105_COMPARISON_IT_02_LP_LISTICLE_V2 - Copy (120245577105800665): $1,776, ROAS 2.29, adset: None
+- VID_DEN105_COMPARISON_IT_02_LP_LISTICLE_V2 - Copy (120245577105800665): $1,895, ROAS 2.29, adset: None
 
 **Headline:** 6 of 7 pods leave live bacteria  
 **Landing page:** https://dentalpulsepro.com/pages/we-tested-7-ultrasonic-dental-cleaners-over-90-days-heres-what-actually-works-bundle-pod-gifts
@@ -495,7 +456,7 @@ _No cached transcript (video 1368007808865183). Re-run with --transcribe to pay 
 
 ## Family 24: _DEN_VID_DEN31_COMPARISON_02_LP_LISTICLE_V1
 
-Spend $1,674 · ROAS 1.88 · CPA $83.71 · 20 purchases · score 1,906 · 1 ad(s)
+Spend $1,674 · ROAS 1.88 · CPA $83.71 · 20 purchases · score 1,911 · 1 ad(s)
 
 - _DEN_VID_DEN31_COMPARISON_02_LP_LISTICLE_V1 (120242903857490665): $1,674, ROAS 1.88, adset: None
 

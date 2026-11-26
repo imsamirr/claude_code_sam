@@ -1,0 +1,23 @@
+{
+ "DLF24_A": {
+  "copy": "DLF24 A",
+  "prompt": "Macro extreme close-up of the pink acrylic palate of an upper denture: deep scratches and pores packed with yellow-white slimy biofilm, glistening, a few bubbles from a fizzing soak around it. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF24_B": {
+  "copy": "DLF24 B",
+  "prompt": "A glass on a bathroom sink at night with a blue fizzing denture tablet dissolving and a denture inside, the fizz only on the surface, cloudy water. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF24_C": {
+  "copy": "DLF24 C",
+  "prompt": "A used toothbrush with splayed bristles resting on an upper denture on a paper towel, the acrylic scuffed with fine scratches and film. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF24_D": {
+  "copy": "DLF24 D",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. An upper denture sits in the murky water; an older man's hand rests on the counter next to the Pod. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}

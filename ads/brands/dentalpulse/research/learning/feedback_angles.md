@@ -194,3 +194,55 @@ Bonus seeds with thin evidence (1-2 mentions each): "fit better / the hold" afte
 - **Second persona:** 60+ night guard owner (24%): the least satisfied segment. Write for freshness and hygiene, not stain removal.
 - **Real customer phrases to borrow:** "impeccable", "white again", "as white as when I first got it", "no more smell", "isn't slimy", "clear not milky", "clean as if I just got them", "without scrubbing", "fill fresh without chemicals", "gross yellow and cloudy", "film left even after brushing", "crevices a brush leaves".
 - The empty "Who are you buying this for?" column suggests a form bug. Worth telling the owner.
+
+## 2026-11-26 additions
+
+Source: same sheet, re-read 2026-11-26 via CSV export. The sheet now has **213 rows** (was 198). The previous pass ended at the 11/11/2026 8:59 response (sheet row 199). **New rows: 15 (sheet rows 200-214, 13 Nov to 24 Nov 2026).** Row refs below are sheet rows (header = row 1).
+
+### Counts (new rows only, n=15)
+- **Appliance:** Night guard **9** · Retainer 4 · Denture 1 · Sleep apnea + repositioner 1. Night guards are now the majority of new responses (were 24% of the first 198).
+- **Satisfaction:** 5★ 4 · 4★ 2 · 3★ 4 · 2★ 5 · 1★ 1 (avg 3.07, below the earlier 3.52).
+- **Age:** 60+ 11 · 50-60 2 · 40-50 1 · blank 0 (one 40-50 is the 1★ row).
+- **Previous method:** toothbrush/toothpaste 3 · tablets 3 ("cleaning tablets" ×2, "Other tablets which were good") · another pod/machine 4 (Zima, "A similar cleaner", "A similar product", "A machine that I got with the night guard") · water/mild soap 2 · Dawn + weekly Efferdent 1 · nothing 1.
+- **Why bought:** Yellow stains 10 · Bacteria 9 · Smell 3 · "dark stains" 1.
+- **What almost stopped them:** price 4 · doubt it would work / reviews 3 ("Some reviews", "I didn't think it would really work") · "confusion with all brands" 1 · nothing 5.
+- **Who noticed:** wife 1 ("Wife"), plus 1 "Wife" given as the answer to what almost stopped him (row 212, columns look shifted) · "Me" 1 · no one/N/A 12.
+- **Result:** clearly positive 5 (clear and clean, odorless, discoloring disappeared, not hurting) · partial/gradual 5 ("slowly", "getting better", "somewhat better", "a bit cleaner") · no difference 4 · scam/no answer 1.
+
+### Verbatim quotes by angle (spelling as written)
+
+**Night guard: brownish / cloudy / "never looked clean"**
+- "Never looked clean. Brownish." → "Looks cleaner. Still not clear but looks better." (row 202, Night guard, 60+, 5★, almost stopped by "Price and confusion with all brands")
+- "white stuff on top of bite gaurd that won't come off" (row 204, Night guard, 60+, 2★, was "water rinsing")
+- "Rinsing with water was easy and cheap and not frustrating" (row 204: a water-only rinser who didn't feel a problem until the white crust)
+- "Never completely cleaned" → "The discoloring has disappeared." (row 211, Night guard, water with a little mild soap, 60+, 4★)
+
+**Mess and taste → odorless, and the wife noticed**
+- "Mess and taste" → "Clearness of guard, odorless". Noticed by: "Wife" (row 208, Night guard, toothpaste & toothbrush, 60+, 5★)
+
+**Tablets didn't do it (smell and stains stayed)**
+- "Didn't clean it and still had a smell" (row 210, Night guard, cleaning tablets, 50-60). Also: "I didn't think it would really work"
+- "Did not remove stains" (row 209, Night guard, tablets, 50-60, 3★) → "Cleans somewhat better"
+- "not as clean" → "the retainers are clear and clean". Noticed by: "Me" (row 214, Retainer, cleaning tablets, 60+, 5★)
+
+**The machine that came with the guard / the earlier pod that quit**
+- "A machine that I got with the night guard." / "It did not clean very well." → "How much cleaner it gets my night guard" (row 207, 60+, 5★, almost stopped by "Timing wasn't right.")
+- "I had a similar product and it wasn't doing the job and after a while the electrical feature stopped working." (row 203, Night guard, 60+, 2★)
+- "None. Just got old" (Zima) → "Slowly getting yellow stains out" (row 206, Night guard, 60+, 3★)
+- "The 2 retainers stain didn't come all the way clear" ("A similar cleaner") → "Stain is getting better" (row 201, Retainer, 60+)
+
+**Too hands-on (Dawn + toothbrush + weekly Efferdent)**
+- "too hands on, did not clean thoroughly" (row 200, "sleep apnea thingie and repositioned", toothbrush and dawn daily, efferent weekly, bought for "Bacteria, dark stains", 60+)
+
+**Denture: "Not hurting"**
+- "Not working" → "Not hurting" (row 212, Denture, 60+, 4★, used nothing before). One-line, ambiguous, but the only comfort/sore-gum outcome in the sheet so far.
+
+**Yellow plaque that stays**
+- "Feels clean but still have yellow plaque" (row 213, Retainer, "Other tablets which were good", 60+, 2★)
+
+### What's new vs the first 198 rows
+- **"The machine that came with my night guard"**: first mention of a cleaner bundled with the appliance at the dentist/lab (row 207). Seed: the freebie in the box vs. a real clean.
+- **"Not hurting"** (row 212): first comfort outcome for a denture wearer. Thin (1 row).
+- **"Rinsing with water was easy and cheap and not frustrating"** (row 204): the water-only rinser who felt no pain until the "white stuff" crust appeared.
+- **"confusion with all brands"** (row 202) adds to the "too many choices" objection (now ~9).
+- Night guard + yellow stains still drives most of the partial or "slowly" results (7 of the 9 new night-guard rows ticked yellow stains).

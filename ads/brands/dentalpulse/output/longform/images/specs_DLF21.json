@@ -1,0 +1,23 @@
+{
+ "DLF21_A": {
+  "copy": "DLF21 A",
+  "prompt": "A full upper denture in a chipped coffee mug of cloudy water on a bathroom sink edge on a winter morning, slimy whitish film on the pink acrylic, floating specks, a scummy ring inside the mug. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF21_B": {
+  "copy": "DLF21 B",
+  "prompt": "A Thanksgiving dining table after the meal, seen from the narrator's seat: an elderly woman's hand holding a crumpled paper napkin near her mouth, half-eaten pie, a small pocket notebook and pencil next to a man's plate. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF21_C": {
+  "copy": "DLF21 C",
+  "prompt": "Extreme close-up of the palate side of an upper denture held in an elderly woman's hand over a sink, yellow-white slimy biofilm in the scratches, tiny dark specks in the pores. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF21_D": {
+  "copy": "DLF21 D",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. An upper denture sits in the murky water; a man's hand rests on the counter next to the Pod. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "DLF22_A": {
+  "copy": "DLF22 A",
+  "prompt": "Extreme close-up of an upper denture on a flour-dusted bakery counter at 4 a.m., the palate side up, coated in a whitish-yellow slimy film and blotchy red-tinged stains in the pores. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF22_B": {
+  "copy": "DLF22 B",
+  "prompt": "A bathroom counter: a plain white antacid bottle with no label, a plain white tablet box, a cup of cloudy denture soak with a denture in it, a woman's reading glasses. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF22_C": {
+  "copy": "DLF22 C",
+  "prompt": "A small-town bakery display case at dawn with crumb cake and pies, a woman's hand in an apron pocket, out of focus behind the glass. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF22_D": {
+  "copy": "DLF22 D",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. An upper denture sits in the murky water; a woman's hand dusted with flour rests on the counter next to the Pod. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}

@@ -71,3 +71,41 @@ Status: written 2026-11-19 (see Notion cards). Batch 1 backlog items used this w
 - A nursing-home Sunday-visit daughter (Yoneyama trial; ombudsman lost-denture data). Close to DLF04, so hold for batch 2.
 - Sleep apnea / snore device owner who can't use tablets (NHS, SomnoDent warnings): small audience.
 - Brand-new retainer protection right after braces come off.
+
+
+## Batch 3 — 2026-11-26 (10 net-new statics + 12 scroll videos)
+
+Sources: `weekly_research_2026-11-26.md` (this run: account pull, 27 new market ads, survivors, customer voice), `ads/brands/comfortwear/research/learning/market_study_2026-11-23.md` (hook type 20, near-miss, witness format), `ads/creative_playbook/CREATIVE_LEARNINGS.md` (hero mechanism, references, core emotion, one pain point, hooks). No DLF/DV ad has proven spend (DLF10 $91, DLF13 $84, DV02 $521 at 1.27), so all 10 are net-new.
+Mix: dentures 5 (DLF21–25), night guards 3 (DLF26–28), aligners/retainers 2 (DLF29–30). Narrator: witness 3 (DLF21, 23, 30), self 7. Copy: StefanBrain (sessions dentalpulse-longform-2026-11-26-s1…s5, dvA…dvD).
+Hero mechanism (every row): biofilm in the appliance's tiny scratches and pores that brushing, soaking and tablets can't reach; 42,000 Hz ultrasonic + UV-C in one 5-minute cycle does.
+
+| ID | Persona / appliance | Angle (one pain point) | Story (narrator, setting) | Hook type | References (structure modelled) | Core emotion | Format (fatigue check) | Images A/B/C/D |
+|---|---|---|---|---|---|---|---|---|
+| DLF21 | Denture caregiver (witness) | Aspiration pneumonia | Piano tuner, 50, Chattanooga; mother-in-law's cough at Thanksgiving | Dated domestic incident / someone else's moment (type 20) | Auniva dated-incident long-runners (120–145d) + Cuurt witness + Ploise ER (153d) | Dread → guilt | Witness long-form; fresh in dental | A mug denture; B Thanksgiving table; C plate underside; D Pod |
+| DLF22 | Denture wearer, woman | Denture stomatitis | Bakery owner, 66, Lancaster PA; told husband it was reflux | Concealment / lie to a spouse | Anna Janeston "faked jaw pain" (hooks die fast; used for structure only) + DEN64 | Shame → relief | Confession; intimacy hooks crowded in dental, so health-secret angle | A floury plate; B antacids + soak; C bakery case; D Pod |
+| DLF23 | Denture caregiver son (witness) | Smell | Airline mechanic, 52, Indianapolis; Mom's hairdresser calls | Outsider notices first | Marie Peterseon "mail carrier told her" + witness | Guilt, protectiveness | Outsider-noticer, new in dental | A nightstand cup; B salon chair; C card table; D Pod |
+| DLF24 | Denture wearer, man | Tablets fail | The biofilm narrates; host is a retired Amtrak conductor, 70, Charleston WV | Personified enemy monologue | Matter Nutrition "I am high blood pressure" (rank 1/17); Holyswish gumline | Disgust, indignation | Drama/personified; only Holyswish (gum) near it | A macro palate; B fizzing glass; C brush scratches; D Pod |
+| DLF25 | Denture wearer, woman | Cost of replacing dentures | Retired cafeteria manager, 71, Asheville; $2,600 financing form | Point-of-no-return near-miss | PhotoStick relaunch m1127648890268432 + tradesman analogy (detailing shop ultrasonic washer) | Near-regret → vindication | Near-miss, new | A filmy plate; B finance form; C parts washer; D Pod |
+| DLF26 | Night guard, woman | Cavities | Court interpreter, 38, Las Cruces NM; dentist asked about soda | Misdiagnosis reversal / accused of a habit | Playbook hook 8 + Smooch MUA "it was the product, not you" demo (disclosing dye) | Disbelieved → vindicated | Expert-appointment reveal | A dyed guard; B x-ray; C wet case; D Pod |
+| DLF27 | Night guard, man | Winter chest infections | Fishing captain, 49, Gloucester MA; quit smoking for his lungs | Compliance paradox (type 2) | Playbook type 2 + Try Pup Labs "the part nobody talks about" | Betrayal, fear for livelihood | Respiratory angle new for guards (r/TMJ strep post) | A case on boat shelf; B meds table; C calendar; D Pod |
+| DLF28 | Night guard, woman | Tablets made it brittle + yellow film | Vet tech, 41, Albany NY; uses ultrasonic on dogs | Interactive task / self-test in line 1 | Playbook type 14 + professional irony | Disgust → self-laugh | Interactive test | A guard to window; B tablet glass; C vet scaler; D Pod |
+| DLF29 | Aligner, man | Cavities / white spots | Real-estate photographer, 28, Charlotte; on camera now | Forced trade-off | Kathy Miller "pick between the body and my hair" (rank 1/135) + Family 1 | Betrayal, vanity | Male aligner narrator, new | A filmy tray; B camera + case; C tooth model; D Pod |
+| DLF30 | Teen retainer parent (witness) | Relapse cost | Loan officer, 48, Columbia SC; son relapsed, daughter's braces just off | Sibling pattern / already happened once | Olivia Miller sibling frame (rank 1/52) + witness | Protective dread | Witness | A backpack case; B invoices folder; C soak cup; D Pod |
+
+### Scroll videos 2026-11-26 (DV25–DV36, 4 angles × 3)
+| IDs | Angle | Core emotion | Stories (narrator, town, hook type, reveal) |
+|---|---|---|---|
+| DV25–27 | Home for the holidays: aspiration pneumonia | Guilt, dread | DV25 (VOICE) freight dispatcher, 45, Toledo → father in Erie PA, coffee-mug dentures, cousin RT on the phone; DV26 roofer, 38, Tucson → grandmother in Yuma who never takes them out; DV27 retired Navy cook, 57, Norfolk VA → mother-in-law's cough through the wall |
+| DV28–30 | The tray is a lid: cavities under aligners/retainers | Betrayal | DV28 nail tech, 26, Orlando; DV29 electrician dad, 50, Rochester NY, son's 4 fillings; DV30 Pilates instructor, 39, San Diego, 24-year streak broken |
+| DV31–33 | Night guard and the winter chest infection | Betrayal, exhaustion | DV31 ski-lift mechanic, 44, Bozeman; DV32 school principal, 52, Anchorage; DV33 bartender, 36, Chicago |
+| DV34–36 | Adhesive and the burning palate (stomatitis) | Shame, daily pain | DV34 retired bowling-alley owner, 70, Wilmington DE; DV35 retired auctioneer, 68, Springfield IL; DV36 locksmith son, 45, Reno |
+
+Status: briefed 2026-11-26.
+
+### New backlog from this run
+- Splitting Polident tablets to save money, fear that the acrylic turns orange (r/Dentures 11-16).
+- Yellow trays in the holiday photos (r/Invisalign 11-23): a December aligner story.
+- Travel: lost/forgotten trays on vacation; the Travel Pod.
+- "The machine that came with my night guard didn't clean" (sheet row 207): a bundled-cleaner switcher.
+- Outsider professional asks the one question (Denise Hughes paramedic, rank 20/231) for a denture caregiver.
+- An expert who failed her own mother (Dr. Amanda Kirsten, 17k, rank 1/25): a hygienist narrator.

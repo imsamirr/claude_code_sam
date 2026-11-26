@@ -1,0 +1,23 @@
+{
+ "DLF30_A": {
+  "copy": "DLF30 A",
+  "prompt": "A teen's retainer case opened inside a backpack pocket, the clear retainer cloudy and milky with white crust and fuzzy film, crumbs around it. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF30_B": {
+  "copy": "DLF30 B",
+  "prompt": "A manila folder open on a kitchen table showing stacked orthodontic invoices (no readable text), a calculator, reading glasses. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF30_C": {
+  "copy": "DLF30 C",
+  "prompt": "A bathroom counter: a cup of cloudy water with a soaking retainer and a toothpaste-smeared toothbrush beside it. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF30_D": {
+  "copy": "DLF30 D",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A clear retainer sits in the murky water; a woman's hand rests on the counter next to the Pod. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "DLF29_A": {
+  "copy": "DLF29 A",
+  "prompt": "Extreme close-up of a clear aligner tray held between a man's fingers under a dentist's light, a white chalky film and yellow-brown plaque lines along the tray edges. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4"
+ },
+ "DLF29_B": {
+  "copy": "DLF29 B",
+  "prompt": "A professional camera on a tripod in an empty staged living room, a ring light, a man's hand holding a plastic aligner case. Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF29_C": {
+  "copy": "DLF29 C",
+  "prompt": "A dental mirror and explorer on a tray next to a tooth model with chalky white spots near the gumline (no text). Ordinary phone photo, slightly crooked, flat everyday light, realistic, no text, no logos, no readable labels; every box and bottle plain white or grey.",
+  "size": "3:4"
+ },
+ "DLF29_D": {
+  "copy": "DLF29 D",
+  "prompt": "The open DentalPULSE Pod (the white ribbed dome ultrasonic cleaner from the reference photo) shot from above with the phone flash right after its first 5-minute cycle: the water in the stainless steel basin is murky yellow-brown and cloudy, with floating flecks, stringy whitish film and a scummy ring at the waterline. A pair of clear aligner trays sits in the murky water; a man's hand rests on the counter next to the Pod. Gross-out realism: shot extremely close with the harsh direct phone flash, wet glistening highlights, every disgusting detail sharp. It should make the viewer physically recoil, like an unedited photo someone posted to complain. Realistic, not cartoonish, no blood, no gore, no text, no logos, every box, bottle and package plain white or grey with no printing.",
+  "size": "3:4",
+  "ref": "pod_open"
+ }
+}
