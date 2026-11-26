@@ -731,3 +731,8 @@ body.cart-open { overflow: hidden; }
 .b-gifts:empty { display: none; }
 .b-gifts .b-gift { border-top: 0; border-radius: 0; background: transparent; }
 .b-gifts .b-gift + .b-gift { border-top: 1px solid rgba(2,43,73,.08); }
+
+/* ===== drawer: free gifts in bold ===== */
+.c-rewards__msg strong { font-weight: 800; }
+.c-line.is-gift .t, .c-line.is-gift .pr b { font-weight: 800; }
+.c-line.is-gift .c-gift { font-weight: 800; }
