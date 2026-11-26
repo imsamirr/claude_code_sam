@@ -302,7 +302,7 @@ document.addEventListener('change', function (e) {
     if (n <= 1) return;
     e.preventDefault(); e.stopImmediatePropagation();
     var counts = {};
-    Array.prototype.slice.call(bp.querySelectorAll('.b-sel'), 0, n).forEach(function (s) { counts[s.value] = (counts[s.value] || 0) + 1; });
+    Array.prototype.slice.call(r.closest('.b-opt').querySelectorAll('.b-sel'), 0, n).forEach(function (s) { counts[s.value] = (counts[s.value] || 0) + 1; });
     var items = Object.keys(counts).map(function (id) { return { id: Number(id), quantity: counts[id] }; });
     var btn = form.querySelector('button[type="submit"]'); if (btn) btn.disabled = true;
     fetch('/cart/add.js', { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify({ items: items }) })

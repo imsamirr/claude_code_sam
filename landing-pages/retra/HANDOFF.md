@@ -139,5 +139,17 @@ the owner in Settings → Store details; there is no API for it.
 - **Drawer upsell** camera now defaults to Midnight (black) with its photo. Setting: Cart drawer → "Camera colour selected by default".
 - **There is one camera product** (`retra-screen-free-camera`). The drawer's upsell and cart lines use it. The only extra products are
   the hidden $0 "Free Gift" strap and bag, used for the rewards bar.
-- **Gap:** the 3-camera bundle is $198, $2 under the $200 bag threshold. The drawer shows "Add $2 for a FREE Leather Camera Bag".
 - Screenshots: `screenshots/bundle-picker-2.png`, `bundle-picker-mobile.png`, `bundle-drawer.png`.
+
+### Bundle picker v2 (2026-11-26, later)
+
+- Three options. **Buy 1 Camera** costs $99. **Buy 2, Get 1 FREE** is the default: $66/ea, "$198 total", a SAVE $402 pill, and the
+  strap gift row. **Buy 3, Get 2 FREE** is $59.40/ea, "$297 total", a SAVE $703 pill, and strap and bag gift rows. Savings are measured
+  against the $200 compare-at price.
+- Discounts: B2G1FREE (buy 2, get 1) and the new automatic **B3G2FREE** (buy 3, get 2, `gid://shopify/DiscountAutomaticNode/1551671787738`).
+  Neither combines with other product discounts, so Shopify applies whichever saves more. Totals: 3 cameras $198, 4 $297, 5 $297, 6 $396.
+  Both still combine with order and shipping discounts.
+- Rewards: strap at $150, **bag at $250** (was $200). Buy 2, Get 1 ($198) gets the strap, and the drawer shows "Add $52 for a FREE Leather
+  Camera Bag". Buy 3, Get 2 ($297) gets both.
+- Theme editor → Retra buy box → Bundle picker: option titles and badges, the default option, the savings label, and the gift lines and handles.
+- Screenshots: `screenshots/bundle3-picker-mobile.png`, `bundle3-picker-mobile-opt3.png`, `bundle3-drawer.png`.

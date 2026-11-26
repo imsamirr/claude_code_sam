@@ -724,3 +724,10 @@ body.cart-open { overflow: hidden; }
   .b-colors { padding: 0 14px 14px; gap: 6px; }
   .b-gift { padding: 10px 14px; }
 }
+
+/* ===== bundle picker v2: 3 options, savings pill, stacked gift rows ===== */
+.b-save { display: inline-block; margin-left: 6px; font-style: normal; font-size: 11.5px; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; color: #9B1C3A; background: #F8E1E6; border-radius: 999px; padding: 2px 9px; vertical-align: 1px; }
+.b-gifts { border-top: 1px dashed rgba(2,43,73,.2); border-radius: 0 0 14px 14px; overflow: hidden; background: #F1EBE0; }
+.b-gifts:empty { display: none; }
+.b-gifts .b-gift { border-top: 0; border-radius: 0; background: transparent; }
+.b-gifts .b-gift + .b-gift { border-top: 1px solid rgba(2,43,73,.08); }

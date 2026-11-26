@@ -86,43 +86,74 @@
     {%- liquid
       assign unit = current.price
       assign cmp = current.compare_at_price | default: current.price
-      assign b2_total = unit | times: 2
-      assign b2_each = b2_total | divided_by: 3
-      assign bgift = all_products[section.settings.bundle_gift_handle]
+      if cmp < unit
+        assign cmp = unit
+      endif
+      assign g1 = all_products[section.settings.bundle_gift_handle]
+      assign g2 = all_products[section.settings.bundle_gift2_handle]
+      assign def = section.settings.default_option | default: '3' | plus: 0
     -%}
     <div class="bundles" id="retra-cta" data-bundles>
       {%- if section.settings.bundle_heading != blank %}<p class="bundles__head"><span>{{ section.settings.bundle_heading }}</span></p>{% endif -%}
-      <div class="b-opt is-on">
-        <label class="b-opt__main">
-          <input type="radio" name="retra-bundle" value="1" checked>
-          <span class="b-radio" aria-hidden="true"></span>
-          <span class="b-opt__title">{{ section.settings.b1_title }}</span>
-          <span class="b-opt__price"><span><b>{{ unit | money_without_trailing_zeros }}</b><small>{{ section.settings.each_suffix }}</small></span>{%- if cmp > unit %}<s>{{ cmp | money_without_trailing_zeros }}</s>{% endif -%}</span>
-        </label>
-      </div>
-      <div class="b-opt">
-        {%- if section.settings.b2_badge != blank %}<span class="b-badge">{{ section.settings.b2_badge }}</span>{% endif -%}
-        <label class="b-opt__main">
-          <input type="radio" name="retra-bundle" value="3">
-          <span class="b-radio" aria-hidden="true"></span>
-          <span class="b-opt__title">{{ section.settings.b2_title }}<small>{{ b2_total | money_without_trailing_zeros }} {{ section.settings.total_suffix }}</small></span>
-          <span class="b-opt__price"><span><b>{{ b2_each | money_without_trailing_zeros }}</b><small>{{ section.settings.each_suffix }}</small></span>{%- if cmp > b2_each %}<s>{{ cmp | money_without_trailing_zeros }}</s>{% endif -%}</span>
-        </label>
-        {%- unless p.has_only_default_variant -%}
-        <div class="b-colors">
-          {%- for i in (1..3) -%}
-            <label class="b-col"><span>{{ section.settings.camera_label }} {{ i }}</span>
-              <select class="b-sel">
-                {%- for v in p.variants -%}{%- if v.available -%}<option value="{{ v.id }}"{% if v.id == current.id %} selected{% endif %}>{{ v.title }}</option>{%- endif -%}{%- endfor -%}
-              </select>
-            </label>
-          {%- endfor -%}
+      {%- for k in (1..3) -%}
+        {%- liquid
+          case k
+            when 1
+              assign qty = 1
+              assign paid = 1
+              assign title = section.settings.b1_title
+              assign badge = ''
+              assign gifts = 0
+            when 2
+              assign qty = 3
+              assign paid = 2
+              assign title = section.settings.b2_title
+              assign badge = section.settings.b2_badge
+              assign gifts = 1
+            else
+              assign qty = 5
+              assign paid = 3
+              assign title = section.settings.b3_title
+              assign badge = section.settings.b3_badge
+              assign gifts = 2
+          endcase
+          assign total = unit | times: paid
+          assign each = total | divided_by: qty
+          assign save = cmp | times: qty | minus: total
+        -%}
+        {%- if title != blank -%}
+        <div class="b-opt{% if qty == def %} is-on{% endif %}">
+          {%- if badge != blank %}<span class="b-badge">{{ badge }}</span>{% endif -%}
+          <label class="b-opt__main">
+            <input type="radio" name="retra-bundle" value="{{ qty }}"{% if qty == def %} checked{% endif %}>
+            <span class="b-radio" aria-hidden="true"></span>
+            <span class="b-opt__title">{{ title }}{%- if qty > 1 -%}<small>{{ total | money_without_trailing_zeros }} {{ section.settings.total_suffix }}{%- if save > 0 and section.settings.save_prefix != blank %} <em class="b-save">{{ section.settings.save_prefix }} {{ save | money_without_trailing_zeros }}</em>{% endif -%}</small>{%- endif -%}</span>
+            <span class="b-opt__price"><span><b>{{ each | money_without_trailing_zeros }}</b><small>{{ section.settings.each_suffix }}</small></span>{%- if cmp > each %}<s>{{ cmp | money_without_trailing_zeros }}</s>{% endif -%}</span>
+          </label>
+          {%- if qty > 1 -%}
+            {%- unless p.has_only_default_variant -%}
+            <div class="b-colors">
+              {%- for i in (1..qty) -%}
+                <label class="b-col"><span>{{ section.settings.camera_label }} {{ i }}</span>
+                  <select class="b-sel">
+                    {%- for v in p.variants -%}{%- if v.available -%}<option value="{{ v.id }}"{% if v.id == current.id %} selected{% endif %}>{{ v.title }}</option>{%- endif -%}{%- endfor -%}
+                  </select>
+                </label>
+              {%- endfor -%}
+            </div>
+            {%- endunless -%}
+            <div class="b-gifts">
+              {%- if gifts >= 1 and g1 and section.settings.b2_gift_text != blank -%}
+                <div class="b-gift">{%- if g1.featured_image -%}<img src="{{ g1.featured_image | image_url: width: 80 }}" alt="" width="32" height="32" loading="lazy">{%- endif -%}<span>{{ section.settings.b2_gift_text }}</span>{%- if g1.compare_at_price > g1.price %}<s>{{ g1.compare_at_price | money_without_trailing_zeros }}</s>{% endif -%}</div>
+              {%- endif -%}
+              {%- if gifts >= 2 and g2 and section.settings.b3_gift2_text != blank -%}
+                <div class="b-gift">{%- if g2.featured_image -%}<img src="{{ g2.featured_image | image_url: width: 80 }}" alt="" width="32" height="32" loading="lazy">{%- endif -%}<span>{{ section.settings.b3_gift2_text }}</span>{%- if g2.compare_at_price > g2.price %}<s>{{ g2.compare_at_price | money_without_trailing_zeros }}</s>{% endif -%}</div>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
         </div>
-        {%- endunless -%}
-        {%- if bgift and section.settings.b2_gift_text != blank -%}
-          <div class="b-gift">{%- if bgift.featured_image -%}<img src="{{ bgift.featured_image | image_url: width: 80 }}" alt="" width="32" height="32" loading="lazy">{%- endif -%}<span>{{ section.settings.b2_gift_text }}</span>{%- if bgift.compare_at_price > bgift.price %}<s>{{ bgift.compare_at_price | money_without_trailing_zeros }}</s>{% endif -%}</div>
         {%- endif -%}
-      </div>
+      {%- endfor -%}
     </div>
     {%- endif -%}
 
@@ -215,16 +246,22 @@
     { "type": "text", "id": "pay_alt", "label": "Payment banner alt text" },
     { "type": "inline_richtext", "id": "returns_note", "label": "Returns note" },
     { "type": "header", "content": "Bundle picker" },
-    { "type": "checkbox", "id": "show_bundle_picker", "label": "Show bundle picker", "default": true, "info": "Option 2 adds 3 cameras; the automatic discount B2G1FREE makes one free, and the cart adds the free strap at $150." },
+    { "type": "checkbox", "id": "show_bundle_picker", "label": "Show bundle picker", "default": true, "info": "Option 2 adds 3 cameras (discount B2G1FREE makes 1 free), option 3 adds 5 (B3G2FREE makes 2 free). The cart adds the strap at $150 and the bag at $250." },
     { "type": "text", "id": "bundle_heading", "label": "Heading", "default": "Black Friday Bundles" },
-    { "type": "text", "id": "b1_title", "label": "Option 1 title", "default": "Buy 1" },
+    { "type": "text", "id": "b1_title", "label": "Option 1 title", "default": "Buy 1 Camera" },
     { "type": "text", "id": "b2_title", "label": "Option 2 title (3 cameras)", "default": "Buy 2, Get 1 FREE" },
     { "type": "text", "id": "b2_badge", "label": "Option 2 badge", "default": "MOST POPULAR" },
-    { "type": "text", "id": "bundle_gift_handle", "label": "Option 2 gift product handle", "default": "retra-gift-strap", "info": "Handle of the gift product whose photo and compare-at price show on option 2." },
-    { "type": "text", "id": "b2_gift_text", "label": "Option 2 gift line", "default": "+ Free Strap Leash" },
+    { "type": "text", "id": "bundle_gift_handle", "label": "Strap gift product handle (options 2 and 3)", "default": "retra-gift-strap" },
+    { "type": "text", "id": "b2_gift_text", "label": "Strap gift line (options 2 and 3)", "default": "+ Free Strap Leash" },
     { "type": "text", "id": "each_suffix", "label": "Per-camera suffix", "default": "/ea" },
     { "type": "text", "id": "total_suffix", "label": "Total suffix", "default": "total" },
     { "type": "text", "id": "camera_label", "label": "Colour picker label", "default": "Camera" },
+    { "type": "text", "id": "b3_title", "label": "Option 3 title (5 cameras)", "default": "Buy 3, Get 2 FREE" },
+    { "type": "text", "id": "b3_badge", "label": "Option 3 badge", "info": "Empty hides the badge." },
+    { "type": "text", "id": "bundle_gift2_handle", "label": "Bag gift product handle (option 3)", "default": "retra-gift-bag" },
+    { "type": "text", "id": "b3_gift2_text", "label": "Bag gift line (option 3)", "default": "+ Free Leather Camera Bag" },
+    { "type": "text", "id": "save_prefix", "label": "Savings label", "default": "Save", "info": "Shown next to the bundle total. Empty hides the savings." },
+    { "type": "select", "id": "default_option", "label": "Option selected by default", "default": "3", "options": [ { "value": "1", "label": "Buy 1 Camera" }, { "value": "3", "label": "Buy 2, Get 1 FREE" }, { "value": "5", "label": "Buy 3, Get 2 FREE" } ] },
     { "type": "header", "content": "Bundle offer (Kaching Bundles)" },
     { "type": "checkbox", "id": "show_bundles", "label": "Show the bundle offer", "default": true, "info": "Off hides the Kaching bundle picker on this page and brings back the plain Add to Cart. Turn the deal itself on or off in the Kaching app." },
     { "type": "header", "content": "Sticky offer bar" },
