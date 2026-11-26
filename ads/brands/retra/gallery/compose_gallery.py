@@ -482,7 +482,7 @@ def retra_filter(im, name, seed=5):
     return Image.fromarray(np.clip(a, 0, 255).astype("uint8"))
 
 
-def sample(spec):
+def sample(spec, small=True):
     raw = Image.open(src(PICKS[f"sample_{spec['id']}"])).convert("RGB")
     k = PICKS.get("sample_crop", {}).get(spec["id"], 0)  # trim a print-style border Kie added
     if k:
@@ -495,13 +495,25 @@ def sample(spec):
     x, yb = S - 80, S - 90
     sh = Image.new("RGBA", img.size, (0, 0, 0, 0))
     sd = ImageDraw.Draw(sh)
-    text(sd, (x + 2, yb - 120 + 3), typeset(spec["small"]), fs, (0, 0, 0, 150), "r")
+    if small:
+        text(sd, (x + 2, yb - 120 + 3), typeset(spec["small"]), fs, (0, 0, 0, 150), "r")
     text(sd, (x + 2, yb - 68 + 3), typeset(spec["main"]), fm, (0, 0, 0, 150), "r")
     img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(5)))
     d = ImageDraw.Draw(img)
-    text(d, (x, yb - 120), typeset(spec["small"]), fs, (250, 248, 242), "r")
+    if small:
+        text(d, (x, yb - 120), typeset(spec["small"]), fs, (250, 248, 242), "r")
     text(d, (x, yb - 68), typeset(spec["main"]), fm, (250, 248, 242), "r")
     return img.convert("RGB")
+
+
+def samples_personal():
+    """Sam's personal-use copies: filter line only, no "Simulated preview" line. Not for the store or ads."""
+    out = OUT / "personal"
+    out.mkdir(exist_ok=True)
+    for i, spec in enumerate(COPY["samples"], 1):
+        name = f"RET_sample{i}_{spec['id']}_{spec['filter'].replace(' & ', '').lower()}_personal.jpg"
+        sample(spec, small=False).save(out / name, quality=92)
+        print(name)
 
 
 def samples_all():
@@ -523,6 +535,8 @@ def main():
     which = sys.argv[1:] or list(BUILD)
     if which == ["samples"]:
         return samples_all()
+    if which == ["samples_personal"]:
+        return samples_personal()
     for k in which:
         for c in ([None] if k in SINGLE else COLOURS):
             im = BUILD[k](c)
