@@ -128,3 +128,16 @@ the owner in Settings → Store details; there is no API for it.
   Verified with draftOrderCalculate: 3 cameras = $198, mixed colours work, gifts stay $0.
 - CTAs: solid navy gradient (#022B49 → #1A4769) instead of the light slate one.
 - Mobile gallery: thumbnails in one swipeable row; swipe the main photo to change it.
+
+## Bundle picker + black upsell default (2026-11-26)
+
+- **Bundle picker** (buy box, above Add to Cart; Klik-style): "Buy 1" at $99/ea, and "Buy 2, Get 1 FREE" at $66/ea ($198 total) with
+  a colour dropdown per camera and a "+ Free Strap Leash ($29)" gift row. Option 2 adds 3 cameras in one request; the automatic
+  discount B2G1FREE makes one $0, and the drawer adds the free strap (the $150 reward). The picker carries `#retra-cta`, so the sticky
+  bar scrolls to it. Theme editor → Retra buy box → "Bundle picker": on/off toggle, titles, badge, gift handle, and suffixes. Turning
+  it off puts `#retra-cta` back on the price row.
+- **Drawer upsell** camera now defaults to Midnight (black) with its photo. Setting: Cart drawer → "Camera colour selected by default".
+- **There is one camera product** (`retra-screen-free-camera`). The drawer's upsell and cart lines use it. The only extra products are
+  the hidden $0 "Free Gift" strap and bag, used for the rewards bar.
+- **Gap:** the 3-camera bundle is $198, $2 under the $200 bag threshold. The drawer shows "Add $2 for a FREE Leather Camera Bag".
+- Screenshots: `screenshots/bundle-picker-2.png`, `bundle-picker-mobile.png`, `bundle-drawer.png`.

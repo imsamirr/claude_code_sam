@@ -277,3 +277,35 @@ document.addEventListener('change', function (e) {
   var opt = sel.options[sel.selectedIndex], card = sel.closest('.c-card'), img = card && card.querySelector('.c-card__img img');
   if (img && opt && opt.dataset.img) { img.src = opt.dataset.img; img.removeAttribute('srcset'); }
 });
+
+/* Bundle picker: choose 1 camera or the 3-camera Buy 2, Get 1 FREE bundle (one colour per camera). */
+(function () {
+  document.querySelectorAll('[data-bundles]').forEach(function (bp) {
+    var box = bp.closest('[data-buybox]');
+    function sync() { bp.querySelectorAll('.b-opt').forEach(function (o) { o.classList.toggle('is-on', o.querySelector('input[name="retra-bundle"]').checked); }); }
+    bp.addEventListener('change', function (e) { if (e.target.name === 'retra-bundle') sync(); });
+    bp.addEventListener('click', function (e) {
+      var o = e.target.closest('.b-opt'); if (!o || e.target.closest('select, .b-col')) return;
+      var r = o.querySelector('input[name="retra-bundle"]'); if (!r.checked) { r.checked = true; sync(); }
+    });
+    var sw = box && box.querySelector('.swatches');
+    if (sw) sw.addEventListener('change', function (e) { var v = e.target.dataset && e.target.dataset.variant; if (v) bp.querySelectorAll('.b-sel').forEach(function (s) { s.value = v; }); });
+    sync();
+  });
+  /* The bundle adds 3 cameras in one request; the cart drawer opens on its own after any add. */
+  document.addEventListener('submit', function (e) {
+    var form = e.target;
+    if (!form.matches || !form.matches('form[data-retra-atc]')) return;
+    var box = form.closest('[data-buybox]'), bp = box && box.querySelector('[data-bundles]');
+    if (!bp) return;
+    var r = bp.querySelector('input[name="retra-bundle"]:checked'), n = r ? Number(r.value) : 1;
+    if (n <= 1) return;
+    e.preventDefault(); e.stopImmediatePropagation();
+    var counts = {};
+    Array.prototype.slice.call(bp.querySelectorAll('.b-sel'), 0, n).forEach(function (s) { counts[s.value] = (counts[s.value] || 0) + 1; });
+    var items = Object.keys(counts).map(function (id) { return { id: Number(id), quantity: counts[id] }; });
+    var btn = form.querySelector('button[type="submit"]'); if (btn) btn.disabled = true;
+    fetch('/cart/add.js', { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify({ items: items }) })
+      .catch(function () {}).then(function () { if (btn) btn.disabled = false; });
+  }, true);
+})();

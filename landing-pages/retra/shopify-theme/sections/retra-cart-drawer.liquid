@@ -119,16 +119,18 @@
               {%- if u.title -%}{%- assign up = u -%}{%- else -%}{%- assign up = all_products[u] -%}{%- endif -%}
               {%- if up != blank and up.available -%}
                 {%- assign uv = up.selected_or_first_available_variant -%}
+                {%- assign dv = nil -%}{%- for v in up.variants -%}{%- if v.available and v.title == section.settings.upsell_default_color -%}{%- assign dv = v -%}{%- endif -%}{%- endfor -%}
+                {%- assign cimg = up.featured_image -%}{%- if dv and dv.featured_media -%}{%- assign cimg = dv.featured_media -%}{%- endif -%}
                 <div class="c-card">
-                  <a class="c-card__img" href="{{ up.url }}">{%- if up.featured_image -%}<img src="{{ up.featured_image | image_url: width: 240 }}" alt="{{ up.featured_image.alt | escape }}" width="110" height="110" loading="lazy">{%- endif -%}</a>
+                  <a class="c-card__img" href="{{ up.url }}">{%- if cimg -%}<img src="{{ cimg | image_url: width: 240 }}" alt="{{ cimg.alt | escape }}" width="110" height="110" loading="lazy">{%- endif -%}</a>
                   <div class="c-card__main">
                     <a class="t" href="{{ up.url }}">{{ up.title }}</a>
                     <div class="pr"><b>{{ uv.price | money }}</b>{%- if uv.compare_at_price > uv.price -%}<s>{{ uv.compare_at_price | money }}</s>{%- endif -%}</div>
                     <div class="c-card__row">
                     {%- unless up.has_only_default_variant -%}
                       <select class="c-card__sel" aria-label="{{ section.settings.upsell_select | escape }}">
-                        <option value="" disabled selected>{{ section.settings.upsell_select }}</option>
-                        {%- for v in up.variants -%}{%- if v.available -%}<option value="{{ v.id }}" data-img="{{ v.featured_media | default: up.featured_media | image_url: width: 240 }}">{{ v.title }}</option>{%- endif -%}{%- endfor -%}
+                        <option value="" disabled{% unless dv %} selected{% endunless %}>{{ section.settings.upsell_select }}</option>
+                        {%- for v in up.variants -%}{%- if v.available -%}<option value="{{ v.id }}"{% if dv and v.id == dv.id %} selected{% endif %} data-img="{{ v.featured_media | default: up.featured_media | image_url: width: 240 }}">{{ v.title }}</option>{%- endif -%}{%- endfor -%}
                       </select>
                     {%- endunless -%}
                       <button type="button" class="c-card__add" data-upsell-add{% if up.has_only_default_variant %} data-variant="{{ uv.id }}"{% endif %}>{{ section.settings.upsell_add }}</button>
@@ -189,6 +191,7 @@
     { "type": "product_list", "id": "upsell_products", "label": "Products", "limit": 8, "info": "Empty shows the camera, strap leash and leather bag." },
     { "type": "text", "id": "upsell_add", "label": "Add button", "default": "+ Add" },
     { "type": "text", "id": "upsell_select", "label": "Colour dropdown placeholder", "default": "Select Color" },
+    { "type": "text", "id": "upsell_default_color", "label": "Camera colour selected by default", "default": "Midnight", "info": "Use the colour name exactly as in the product. Empty shows the placeholder." },
     { "type": "header", "content": "Footer" },
     { "type": "text", "id": "total_label", "label": "Total label", "default": "Estimated Total" },
     { "type": "text", "id": "save_prefix", "label": "Savings pill prefix", "default": "SAVE" },
