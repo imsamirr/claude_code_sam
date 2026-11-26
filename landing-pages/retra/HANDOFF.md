@@ -112,3 +112,19 @@ vendor, descriptions, alt text). Handles and file names keep `retra-` so URLs an
 Favicon: images/retra-shots-favicon.png (Files: retra-shots-favicon.png), source brand/favicon.html.
 The camera photos still show the old "Retra" logo printed on the body. The Shopify store name ("RECLAIM NUTRA") is changed by
 the owner in Settings → Store details; there is no API for it.
+
+## Cart drawer, rewards and offers (2026-11-26)
+- Live theme: **"Retra-Shots"** `gid://shopify/OnlineStoreTheme/189030957274` (published by the owner). Edit it with
+  theme_bash → theme_commit → theme_publish (the owner approved publishing). Splice changes in with sed/awk; never
+  overwrite templates/settings_data wholesale (the owner edits them in the theme editor, e.g. the real reviews on the home page).
+- Cart drawer: `sections/retra-cart-drawer.liquid` (static section in the layout, re-rendered via `/?sections=retra-cart-drawer`).
+  Retro-pia style: count pill, one-line rewards bar, compare-at strikethrough per line, "Others also bought these..." carousel
+  (camera colour dropdown swaps the photo), total + SAVE pill, payment icons. All copy and products are section settings.
+- Rewards: hidden $0 products "Free Gift: Retra-Shots Woven Camera Strap Leash" (`retra-gift-strap`, compare $29) and
+  "Free Gift: Retra-Shots Leather Camera Bag" (`retra-gift-bag`, compare $50). The drawer JS adds them (property `_reward`)
+  when spend after discounts reaches $150 / $200 and removes them below. No discount needed, so they never block other offers.
+  The two old BXGY reward discounts are deactivated (kept for reference).
+- Buy 2, Get 1 Free: the owner's automatic discount "B2G1FREE" (BXGY on the camera). It now combines with other discounts.
+  Verified with draftOrderCalculate: 3 cameras = $198, mixed colours work, gifts stay $0.
+- CTAs: solid navy gradient (#022B49 → #1A4769) instead of the light slate one.
+- Mobile gallery: thumbnails in one swipeable row; swipe the main photo to change it.
