@@ -105,3 +105,10 @@ Preview: https://reclaimnutra.com/?preview_theme_id=188991406298
 - Bundles: Kaching Bundles. Setup steps in KACHING-SETUP.md. Theme side: buy box has an `@app` block slot, `show_bundles` toggle,
   Kaching skin CSS, and a fetch hook that opens the slide-out cart after Kaching adds. Gift products: strap leash $29, leather bag $50.
 - Still to verify once the deal exists: Add to Cart with each bar (bundle + gifts land in the cart, price $198 / $297).
+
+## Brand rename to Retra-Shots (2026-11-26)
+Brand is now **Retra-Shots** everywhere visitors see it (theme text, section defaults, footer, og:site_name, product titles,
+vendor, descriptions, alt text). Handles and file names keep `retra-` so URLs and image references still work.
+Favicon: images/retra-shots-favicon.png (Files: retra-shots-favicon.png), source brand/favicon.html.
+The camera photos still show the old "Retra" logo printed on the body. The Shopify store name ("RECLAIM NUTRA") is changed by
+the owner in Settings → Store details; there is no API for it.

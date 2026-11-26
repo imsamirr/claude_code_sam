@@ -14,7 +14,7 @@
         "error_label": "Could not add to cart. Please check your connection and try again.",
         "pay_image": "shopify://shop_images/retra-payments.png",
         "pay_alt": "Accepted payments: Apple Pay, Google Pay, PayPal, American Express, Visa, Mastercard, Maestro and more",
-        "returns_note": "Enjoy <strong>30 days of hassle-free returns</strong> if you do not love shooting with Retra.",
+        "returns_note": "Enjoy <strong>30 days of hassle-free returns</strong> if you do not love shooting with Retra-Shots.",
         "sticky_show": true,
         "sticky_sub": "Buy 2, Get 1 Free",
         "sticky_label": "Claim Offer"
@@ -75,7 +75,7 @@
             "icon": "truck",
             "use_description": false,
             "faq_style": false,
-            "content": "<p>All orders ship within 1-2 business days.</p><p>All orders ship with tracked delivery. As soon as your package leaves our studio, you will receive a tracking link via email to follow its progress right to your door.</p><p>Love your Retra or return it. We offer a 30-day hassle-free return window on all orders. If you need assistance with an order or a return, reach out directly through our <a href=\"/pages/contact\" title=\"Contact page\">Contact page</a>.</p>"
+            "content": "<p>All orders ship within 1-2 business days.</p><p>All orders ship with tracked delivery. As soon as your package leaves our studio, you will receive a tracking link via email to follow its progress right to your door.</p><p>Love your Retra-Shots or return it. We offer a 30-day hassle-free return window on all orders. If you need assistance with an order or a return, reach out directly through our <a href=\"/pages/contact\" title=\"Contact page\">Contact page</a>.</p>"
           }
         },
         "accordion_8": {
@@ -85,7 +85,7 @@
             "icon": "question",
             "use_description": false,
             "faq_style": true,
-            "content": "<p><strong>How does Retra work?</strong></p><p>Turn it on, choose your filter, look through the optical viewfinder, and press the shutter button. There is no back screen to review your shots. When you want to see your photos, plug Retra into your phone or laptop with the included USB-C cable.</p><p><strong>I have an iPhone with a Lightning port. How do I transfer photos?</strong></p><p>iPhones with a Lightning port cannot transfer photos over a direct USB-C to Lightning cable. You can insert the included SD card into a Lightning card reader adapter to import directly, or plug Retra into a computer and sync the files.</p><p><strong>What is the image quality like?</strong></p><p>Retra is built with a nostalgic, film-like aesthetic rather than smartphone sharpness. Images feature warm color tones, gentle grain, and retro digital character reminiscent of classic point-and-shoot cameras.</p><p><strong>Do I need to buy film or pay a lab for developing?</strong></p><p>No. Retra is fully digital, so there are no film rolls to buy and zero development fees. All photos save as standard JPEG files to the included SD memory card.</p><p><strong>How many photos can I take on one charge?</strong></p><p>The built-in rechargeable lithium battery powers about 500 shots per charge, and the included memory card holds roughly 500 photos. Once you offload your photos to a computer or phone, simply clear the card and shoot again.</p><p><strong>What comes inside the box?</strong></p><p>Every box includes your Retra camera, an SD memory card, a USB charging and transfer cable, a wrist strap, a quick start guide, and a complimentary gift ribbon.</p><p><strong>Does the camera have a flash for night photos?</strong></p><p>Yes. Retra includes a built-in LED flash that gives evening gatherings, parties, and night walks that classic, high-contrast direct-flash film look.</p><p><strong>Can I change between filters while shooting?</strong></p><p>Yes. You can switch between Natural, Vintage, Black &amp; White, and Film whenever you like. The selected profile applies straight to each JPEG photo as you take it.</p>"
+            "content": "<p><strong>How does Retra-Shots work?</strong></p><p>Turn it on, choose your filter, look through the optical viewfinder, and press the shutter button. There is no back screen to review your shots. When you want to see your photos, plug Retra-Shots into your phone or laptop with the included USB-C cable.</p><p><strong>I have an iPhone with a Lightning port. How do I transfer photos?</strong></p><p>iPhones with a Lightning port cannot transfer photos over a direct USB-C to Lightning cable. You can insert the included SD card into a Lightning card reader adapter to import directly, or plug Retra-Shots into a computer and sync the files.</p><p><strong>What is the image quality like?</strong></p><p>Retra-Shots is built with a nostalgic, film-like aesthetic rather than smartphone sharpness. Images feature warm color tones, gentle grain, and retro digital character reminiscent of classic point-and-shoot cameras.</p><p><strong>Do I need to buy film or pay a lab for developing?</strong></p><p>No. Retra-Shots is fully digital, so there are no film rolls to buy and zero development fees. All photos save as standard JPEG files to the included SD memory card.</p><p><strong>How many photos can I take on one charge?</strong></p><p>The built-in rechargeable lithium battery powers about 500 shots per charge, and the included memory card holds roughly 500 photos. Once you offload your photos to a computer or phone, simply clear the card and shoot again.</p><p><strong>What comes inside the box?</strong></p><p>Every box includes your Retra-Shots camera, an SD memory card, a USB charging and transfer cable, a wrist strap, a quick start guide, and a complimentary gift ribbon.</p><p><strong>Does the camera have a flash for night photos?</strong></p><p>Yes. Retra-Shots includes a built-in LED flash that gives evening gatherings, parties, and night walks that classic, high-contrast direct-flash film look.</p><p><strong>Can I change between filters while shooting?</strong></p><p>Yes. You can switch between Natural, Vintage, Black &amp; White, and Film whenever you like. The selected profile applies straight to each JPEG photo as you take it.</p>"
           }
         }
       },
@@ -104,7 +104,7 @@
       "type": "retra-why",
       "settings": {
         "kicker": "Built for presence",
-        "heading": "Why Retra works.",
+        "heading": "Why Retra-Shots works.",
         "heading_2": "",
         "pad_top": 24
       },
@@ -263,10 +263,10 @@
         "kicker": "Three ways to remember",
         "heading": "The magic of film,",
         "heading_2": "without the lab fees.",
-        "text": "Disposables create ongoing lab costs and plastic waste. Phones pull you into notifications and editing apps. Retra delivers the analog surprise of film with the ease of digital.",
+        "text": "Disposables create ongoing lab costs and plastic waste. Phones pull you into notifications and editing apps. Retra-Shots delivers the analog surprise of film with the ease of digital.",
         "feature_label": "Feature",
         "img_1": "shopify://shop_images/retra-cmp-retra.png",
-        "name_1": "Retra",
+        "name_1": "Retra-Shots",
         "img_2": "shopify://shop_images/retra-cmp-disposable.png",
         "name_2": "Disposable",
         "img_3": "shopify://shop_images/retra-cmp-phone.png",
@@ -571,12 +571,12 @@
       "settings": {
         "kicker": "Risk-free field trial",
         "heading": "Take it on your travels, risk-free.",
-        "text": "Take Retra on your next trip for 30 days. Experience what it feels like to leave your phone in your pocket, shoot without distraction, and rediscover your photos later. If you do not love the photos or the feeling of staying present, email our studio team. We will help you return it for a complete refund without hassle.",
+        "text": "Take Retra-Shots on your next trip for 30 days. Experience what it feels like to leave your phone in your pocket, shoot without distraction, and rediscover your photos later. If you do not love the photos or the feeling of staying present, email our studio team. We will help you return it for a complete refund without hassle.",
         "more_label": "Read more",
         "less_label": "Read less",
         "image_left": "shopify://shop_images/retra-rv-footprints.jpg",
         "image_right": "shopify://shop_images/retra-m-roadtrip.jpg",
-        "button_label": "Try Retra for 30 days risk-free",
+        "button_label": "Try Retra-Shots for 30 days risk-free",
         "button_link": "#buy"
       },
       "blocks": {
@@ -627,29 +627,29 @@
         "question_1": {
           "type": "question",
           "settings": {
-            "question": "How does Retra work?",
-            "answer": "<p>Turn it on, choose your filter, look through the optical viewfinder, and press the shutter button. There is no back screen to review your shots. When you want to see your photos, plug Retra into your phone or laptop with the included USB-C cable.</p>"
+            "question": "How does Retra-Shots work?",
+            "answer": "<p>Turn it on, choose your filter, look through the optical viewfinder, and press the shutter button. There is no back screen to review your shots. When you want to see your photos, plug Retra-Shots into your phone or laptop with the included USB-C cable.</p>"
           }
         },
         "question_2": {
           "type": "question",
           "settings": {
             "question": "I have an iPhone with a Lightning port. How do I transfer photos?",
-            "answer": "<p>iPhones with a Lightning port cannot transfer photos over a direct USB-C to Lightning cable. You can insert the included SD card into a Lightning card reader adapter to import directly, or plug Retra into a computer and sync the files.</p>"
+            "answer": "<p>iPhones with a Lightning port cannot transfer photos over a direct USB-C to Lightning cable. You can insert the included SD card into a Lightning card reader adapter to import directly, or plug Retra-Shots into a computer and sync the files.</p>"
           }
         },
         "question_3": {
           "type": "question",
           "settings": {
             "question": "What is the image quality like?",
-            "answer": "<p>Retra is built with a nostalgic, film-like aesthetic rather than smartphone sharpness. Images feature warm color tones, gentle grain, and retro digital character reminiscent of classic point-and-shoot cameras.</p>"
+            "answer": "<p>Retra-Shots is built with a nostalgic, film-like aesthetic rather than smartphone sharpness. Images feature warm color tones, gentle grain, and retro digital character reminiscent of classic point-and-shoot cameras.</p>"
           }
         },
         "question_4": {
           "type": "question",
           "settings": {
             "question": "Do I need to buy film or pay a lab for developing?",
-            "answer": "<p>No. Retra is fully digital, so there are no film rolls to buy and zero development fees. All photos save as standard JPEG files to the included SD memory card.</p>"
+            "answer": "<p>No. Retra-Shots is fully digital, so there are no film rolls to buy and zero development fees. All photos save as standard JPEG files to the included SD memory card.</p>"
           }
         },
         "question_5": {
@@ -663,14 +663,14 @@
           "type": "question",
           "settings": {
             "question": "What comes inside the box?",
-            "answer": "<p>Every box includes your Retra camera, an SD memory card, a USB charging and transfer cable, a wrist strap, a quick start guide, and a complimentary gift ribbon.</p>"
+            "answer": "<p>Every box includes your Retra-Shots camera, an SD memory card, a USB charging and transfer cable, a wrist strap, a quick start guide, and a complimentary gift ribbon.</p>"
           }
         },
         "question_7": {
           "type": "question",
           "settings": {
             "question": "Does the camera have a flash for night photos?",
-            "answer": "<p>Yes. Retra includes a built-in LED flash that gives evening gatherings, parties, and night walks that classic, high-contrast direct-flash film look.</p>"
+            "answer": "<p>Yes. Retra-Shots includes a built-in LED flash that gives evening gatherings, parties, and night walks that classic, high-contrast direct-flash film look.</p>"
           }
         },
         "question_8": {

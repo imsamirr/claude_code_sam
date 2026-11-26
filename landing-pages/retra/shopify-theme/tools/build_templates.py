@@ -1,4 +1,4 @@
-"""Builds templates/index.json and templates/product.retra.json for the Retra theme.
+"""Builds templates/index.json and templates/product.retra.json for the Retra-Shots theme.
 Copy: StefanBrain (copy/11-15 and copy/16-stefanbrain-shopify-slots.md)."""
 import json, os, html
 
@@ -6,20 +6,20 @@ IMG = lambda f: f"shopify://shop_images/retra-{f}"
 OUT = os.path.join(os.path.dirname(__file__), '..', 'templates')
 
 FAQ = [
- ("How does Retra work?", "Turn it on, choose your filter, look through the optical viewfinder, and press the shutter button. There is no back screen to review your shots. When you want to see your photos, plug Retra into your phone or laptop with the included USB-C cable."),
- ("I have an iPhone with a Lightning port. How do I transfer photos?", "iPhones with a Lightning port cannot transfer photos over a direct USB-C to Lightning cable. You can insert the included SD card into a Lightning card reader adapter to import directly, or plug Retra into a computer and sync the files."),
- ("What is the image quality like?", "Retra is built with a nostalgic, film-like aesthetic rather than smartphone sharpness. Images feature warm color tones, gentle grain, and retro digital character reminiscent of classic point-and-shoot cameras."),
- ("Do I need to buy film or pay a lab for developing?", "No. Retra is fully digital, so there are no film rolls to buy and zero development fees. All photos save as standard JPEG files to the included SD memory card."),
+ ("How does Retra-Shots work?", "Turn it on, choose your filter, look through the optical viewfinder, and press the shutter button. There is no back screen to review your shots. When you want to see your photos, plug Retra-Shots into your phone or laptop with the included USB-C cable."),
+ ("I have an iPhone with a Lightning port. How do I transfer photos?", "iPhones with a Lightning port cannot transfer photos over a direct USB-C to Lightning cable. You can insert the included SD card into a Lightning card reader adapter to import directly, or plug Retra-Shots into a computer and sync the files."),
+ ("What is the image quality like?", "Retra-Shots is built with a nostalgic, film-like aesthetic rather than smartphone sharpness. Images feature warm color tones, gentle grain, and retro digital character reminiscent of classic point-and-shoot cameras."),
+ ("Do I need to buy film or pay a lab for developing?", "No. Retra-Shots is fully digital, so there are no film rolls to buy and zero development fees. All photos save as standard JPEG files to the included SD memory card."),
  ("How many photos can I take on one charge?", "The built-in rechargeable lithium battery powers about 500 shots per charge, and the included memory card holds roughly 500 photos. Once you offload your photos to a computer or phone, simply clear the card and shoot again."),
- ("What comes inside the box?", "Every box includes your Retra camera, an SD memory card, a USB charging and transfer cable, a wrist strap, a quick start guide, and a complimentary gift ribbon."),
- ("Does the camera have a flash for night photos?", "Yes. Retra includes a built-in LED flash that gives evening gatherings, parties, and night walks that classic, high-contrast direct-flash film look."),
+ ("What comes inside the box?", "Every box includes your Retra-Shots camera, an SD memory card, a USB charging and transfer cable, a wrist strap, a quick start guide, and a complimentary gift ribbon."),
+ ("Does the camera have a flash for night photos?", "Yes. Retra-Shots includes a built-in LED flash that gives evening gatherings, parties, and night walks that classic, high-contrast direct-flash film look."),
  ("Can I change between filters while shooting?", "Yes. You can switch between Natural, Vintage, Black & White, and Film whenever you like. The selected profile applies straight to each JPEG photo as you take it."),
 ]
 E = html.escape
 SPECS = ["Screen-free design: live in the moment without screens", "4 built-in filters (Natural, Vintage, Black & White, Film)", "8MP image resolution (3264 x 2448)", "Fixed-focus lens (0.5 m to infinity)", "Built-in LED flash", "Built-in rechargeable lithium battery (about 500 shots per charge)", "OLED shot counter", "Memory card support (JPEG format)", 'Pocket-sized design: 4.5" x 2.6" x 1.3" (115 x 65 x 33.5 mm)']
 SHIP = ("<p>All orders ship within 1-2 business days.</p>"
         "<p>All orders ship with tracked delivery. As soon as your package leaves our studio, you will receive a tracking link via email to follow its progress right to your door.</p>"
-        "<p>Love your Retra or return it. We offer a 30-day hassle-free return window on all orders. If you need assistance with an order or a return, reach out directly through our <a href=\"/pages/contact\" title=\"Contact page\">Contact page</a>.</p>")
+        "<p>Love your Retra-Shots or return it. We offer a 30-day hassle-free return window on all orders. If you need assistance with an order or a return, reach out directly through our <a href=\"/pages/contact\" title=\"Contact page\">Contact page</a>.</p>")
 
 # Photos for the 12 review cards. The texts were sample copy and are NOT shown: the cards carry placeholders
 # until real customer reviews are pasted in through the theme editor.
@@ -73,7 +73,7 @@ def page(product_handle):
         "error_label": "Could not add to cart. Please check your connection and try again.",
         "pay_image": IMG("payments.png"),
         "pay_alt": "Accepted payments: Apple Pay, Google Pay, PayPal, American Express, Visa, Mastercard, Maestro and more",
-        "returns_note": "Enjoy <strong>30 days of hassle-free returns</strong> if you do not love shooting with Retra.",
+        "returns_note": "Enjoy <strong>30 days of hassle-free returns</strong> if you do not love shooting with Retra-Shots.",
         "sticky_show": True,
         "sticky_sub": "Buy 2, Get 1 Free",
         "sticky_label": "Claim Offer",
@@ -82,7 +82,7 @@ def page(product_handle):
         del buy["product"]
     sections = {
         "buybox": section("retra-buybox", buy, buy_items),
-        "why": section("retra-why", {"kicker": "Built for presence", "heading": "Why Retra works.", "heading_2": "", "pad_top": 24}, [
+        "why": section("retra-why", {"kicker": "Built for presence", "heading": "Why Retra-Shots works.", "heading_2": "", "pad_top": 24}, [
             ("item", {"image": IMG("ic-screen.png"), "label": "SCREEN-FREE"}),
             ("item", {"image": IMG("ic-roll.png"), "label": "NO CAMERA ROLL"}),
             ("item", {"image": IMG("ic-storage.png"), "label": "PRE-LOADED STORAGE"}),
@@ -100,8 +100,8 @@ def page(product_handle):
             ("step", {"image": IMG("how-3.jpg"), "title": "Shoot", "text": "Press the shutter. No preview screen."}),
             ("step", {"image": IMG("how-4.jpg"), "title": "Transfer via USB-C", "text": "Plug into your phone or laptop."})]),
         "compare": section("retra-compare", {"kicker": "Three ways to remember", "heading": "The magic of film,", "heading_2": "without the lab fees.",
-            "text": "Disposables create ongoing lab costs and plastic waste. Phones pull you into notifications and editing apps. Retra delivers the analog surprise of film with the ease of digital.",
-            "feature_label": "Feature", "img_1": IMG("cmp-retra.png"), "name_1": "Retra", "img_2": IMG("cmp-disposable.png"), "name_2": "Disposable", "img_3": IMG("cmp-phone.png"), "name_3": "Phone Camera", "pad_top": 20}, [
+            "text": "Disposables create ongoing lab costs and plastic waste. Phones pull you into notifications and editing apps. Retra-Shots delivers the analog surprise of film with the ease of digital.",
+            "feature_label": "Feature", "img_1": IMG("cmp-retra.png"), "name_1": "Retra-Shots", "img_2": IMG("cmp-disposable.png"), "name_2": "Disposable", "img_3": IMG("cmp-phone.png"), "name_3": "Phone Camera", "pad_top": 20}, [
             ("row", {"label": "Screen & distraction free", "col_1": "yes", "col_2": "yes", "col_3": "no"}),
             ("row", {"label": "Authentic retro film look", "col_1": "yes", "col_2": "yes", "col_3": "no"}),
             ("row", {"label": "Reusable & rechargeable", "col_1": "yes", "col_2": "no", "col_3": "yes"}),
@@ -121,9 +121,9 @@ def page(product_handle):
             ("item", {"image": IMG("mo-party.jpg"), "label": "CELEBRATIONS", "big": True}),
             ("item", {"image": IMG("mo-everyday.jpg"), "label": "EVERYDAY", "big": True})]),
         "guarantee": section("retra-guarantee", {"kicker": "Risk-free field trial", "heading": "Take it on your travels, risk-free.",
-            "text": "Take Retra on your next trip for 30 days. Experience what it feels like to leave your phone in your pocket, shoot without distraction, and rediscover your photos later. If you do not love the photos or the feeling of staying present, email our studio team. We will help you return it for a complete refund without hassle.",
+            "text": "Take Retra-Shots on your next trip for 30 days. Experience what it feels like to leave your phone in your pocket, shoot without distraction, and rediscover your photos later. If you do not love the photos or the feeling of staying present, email our studio team. We will help you return it for a complete refund without hassle.",
             "more_label": "Read more", "less_label": "Read less", "image_left": IMG("rv-footprints.jpg"), "image_right": IMG("m-roadtrip.jpg"),
-            "button_label": "Try Retra for 30 days risk-free", "button_link": "#buy"}, [
+            "button_label": "Try Retra-Shots for 30 days risk-free", "button_link": "#buy"}, [
             ("row", {"icon": "returns", "title": "30-day field trial", "text": "Try it on your travels and return it easily if it is not for you."}),
             ("row", {"icon": "truck", "title": "Tracked delivery", "text": "Dispatched in 1-2 business days with full online door-to-door tracking."}),
             ("row", {"icon": "headset", "title": "A real person can help", "text": "Have a question about your camera or order? Send a message through our <a href=\"/pages/contact\" title=\"Contact page\">Contact page</a>."})]),
