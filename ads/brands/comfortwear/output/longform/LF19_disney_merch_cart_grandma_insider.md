@@ -5,8 +5,8 @@
 **Outside reference (structure modelled):** ComfoFeet insider ranking video m1636971491222213 (42+ days)
 **Persona:** Theme Park Traveler
 **Copy:** StefanBrain (copy_source: stefanbrain) · chat chat_80f6ce8f57d4498cb92ef093683707a4 · https://stefanbrain.com/chat/80f6ce8f-57d4-498c-b92e-f093683707a4
-**StefanBrain notes:** Angle: Disney shoe test: narrator observes guests' footwear fail daily on hot park concrete; running foam compresses under standing weight, backless sandals force toe-clenching, heavy shoes exhaust legs, and rigid uppers squeeze swollen feet. Hero mechanism trace: Traces directly to the core hero mechanism: soft running foam compresses under body weight within hours leaving the arch unsupported on hard pavement; heat and standing cause feet to swell up to half a size against fixed uppers; heavy shoes lifted 20,000 times a day destroy knees and lower back. The fix is structural arch support built into the shoe that never packs flat, a 4-way stretch knit upper that expands as feet swell, and a featherlight build with a firm, stable sole. Core emotion: I see the same mistake 100 times a day and I want to grab them. One pain point: Legs and feet worn out by afternoon from heavy, squishy shoes (the brick test + foam compression). Hook type: Insider expertise. Open-loop type: The one pair seen on guests who are still smiling at 4 p.m. Lead type: Direct observation / insider secret. Awareness level: Problem-aware to Solution-aware. One-belief sentence: Theme park foot pain is not caused by age or being out of shape, but by soft running shoes and heavy sneakers that fail when planted on concrete all day. Narrator: self. Character count of primary_text: 10747. Brand position: 52.1%. Word count of scroll_script: 717.
-**Format:** static image + long primary text (10.0k characters measured before the swaps; brand first named at 56%)
+**StefanBrain notes:** Angle: Disney shoe test: narrator observes guests' footwear fail daily on hot park concrete; running foam compresses under standing weight, backless sandals force toe-clenching, heavy shoes exhaust legs, and rigid uppers squeeze swollen feet. Hero mechanism trace: Traces directly to the core hero mechanism: soft running foam compresses under body weight within hours leaving the arch unsupported on hard pavement; heat and standing cause feet to swell up to half a size against fixed uppers; heavy shoes lifted 20,000 times a day destroy knees and lower back. The fix is structural arch support built into the shoe so there is nothing to pack flat, a stretch knit upper that expands as feet swell, and a featherlight build with a firm, steady sole. Core emotion: I see the same mistake 100 times a day and I want to grab them. One pain point: Legs and feet worn out by afternoon from heavy, squishy shoes (the brick test + foam compression). Hook type: Insider expertise. Open-loop type: The one pair seen on guests who are still smiling at 4 p.m. Lead type: Direct observation / insider secret. Awareness level: Problem-aware to Solution-aware. One-belief sentence: Theme park foot pain is not caused by age or being out of shape, but by soft running shoes and heavy sneakers that fail when planted on concrete all day. Narrator: self. Character count of primary_text: 10749. Brand position: 51.8%. Word count of scroll_script: 709.
+**Format:** static image + long primary text (9.9k characters measured before the swaps; brand first named at 56%)
 **Scorecard (direct_response.md §10):** 17/20 
 **Headline:** The park cart shoe test
 **CTA:** Learn More
@@ -21,7 +21,7 @@
 - [x] Format and fatigue check: Insider first-person ranking of shoe TYPES (no rival brands named)
 - [x] Hook situational/specific, open-loop, trope-free, with at least one single-sentence variant
 - [x] Scroll script: spoken voice, story engine (behavior mystery / evidence device or first-person test), stakes
-- [x] One-shot output graded before shipping; weak items sent back to StefanBrain with short notes (bunion + 'orthopedic' removed; 'sizes sell out' scarcity line replaced by the Dec 5 deadline)
+- [x] One-shot output graded before shipping; weak items sent back to StefanBrain with short notes (bunion + 'orthopedic' removed; scarcity line replaced by the Dec 5 deadline; shipping-speed payoff, 'four-way stretch', 'alignment', 'never' and 'pain-free' wording fixed)
 
 ## Images (4)
 - **A (main):** hook: the merch cart at park opening (`images/LF19_A.jpg`)
@@ -96,11 +96,11 @@ Whenever a guest stops at my cart looking miserable, I teach them three quick ch
 
 First is the thumb-dent test. Pull the insole out of your shoe and press your thumb hard into the heel foam. If that dent stays pressed down and does not snap back immediately, that foam is already packed flat. Under your body weight, it is doing nothing.
 
-Second is the 3 p.m. squeeze. Your feet swell up to half a size in the Florida heat. If your shoe has a rigid leather top or tight stitched seams, it acts like a tourniquet. A shoe that fits fine at breakfast will strangle your foot by mid-afternoon unless the top has genuine four-way stretch.
+Second is the 3 p.m. squeeze. Your feet swell up to half a size in the Florida heat. If your shoe has a rigid leather top or tight stitched seams, it acts like a tourniquet. A shoe that fits fine at breakfast will strangle your foot by mid-afternoon unless the top stretches.
 
 Third is the brick test. Pick the shoe up in your hand. If it feels heavy, put it down. You lift that shoe about twenty thousand times between morning rope drop and the fireworks. Heavy shoes trash your knees and lower back before the parade even starts.
 
-You need three things for real concrete: structural arch support built into the shoe that never packs flat, a stretch-knit upper that gives as your feet swell, and a light shoe with a firm, stable sole that never wobbles.
+You need three things for real concrete: structural arch support built into the shoe so there is nothing to pack flat, a stretch-knit upper that gives as your feet swell, and a light shoe with a firm, steady sole.
 
 Out of every shoe I have tested on this pavement, only one passed all three tests.
 
@@ -112,7 +112,7 @@ Not $180. Under sixty dollars.
 
 Comfort Wear does not make shoes for marathon runners or fashion runways. They make shoes for people whose feet have to survive real life.
 
-The arch support is built directly into the structure of the shoe itself. There is no cheap foam insert to compress or pack flat by noon. It holds your arch in proper alignment all eight hours.
+The arch support is built directly into the structure of the shoe itself. There is no cheap foam insert to compress or pack flat by noon. It holds your arch all eight hours.
 
 The top is made of a breathable stretch-knit weave. When your feet swell in the afternoon heat, the knit stretches with your foot instead of squeezing it like a sausage. The toe box is wide, so your toes can spread out naturally with every step instead of rubbing together.
 
@@ -130,7 +130,7 @@ I was not just hurting less. My feet did not hurt.
 
 Last month, on a hot Tuesday, a mother and grandmother stopped at my cart around one in the afternoon.
 
-The grandmother, Sharon, was sitting on the planter wall next to my display. She was sixty-four, visiting from Ohio with her daughter and two granddaughters.
+The grandmother, Sharon, was sixty-four, visiting from Ohio with her daughter and two granddaughters.
 
 She was wearing a brand-new $175 pair of max-cushion running shoes, and she was crying. Quietly, trying to hide it behind her sunglasses.
 
@@ -144,13 +144,13 @@ I showed her my Comfort Wear shoes. I told her why her shoes were rolling her an
 
 Her daughter pulled out her phone right at my cart, went to the site, and ordered a pair.
 
-On Friday afternoon, my cart was by the lagoon.
+A few weeks later, my cart was by the lagoon.
 
 A woman walked up with a giant smile, carrying a box of popcorn in one hand and holding her eight-year-old granddaughter's hand with the other.
 
-It was Sharon.
+It was Sharon, back in Orlando with her family for a long weekend.
 
-She had received her pair, put them on Thursday morning, and had walked twelve miles across two parks without sitting down once.
+She was wearing her Comfort Wear shoes, and she had walked twelve miles across two parks that day without sitting down once.
 
 She grabbed both my hands and said, "You saved my family's vacation."
 
@@ -188,7 +188,7 @@ Christmas Sale (Dec 6 to Dec 31, 2026):
 Right now, Comfort Wear is running their Christmas Sale. You get 60% off, plus 2 free gifts when you buy 2 pairs, until December 31st. They are HSA and FSA eligible, doctor-recommended and podiatrist-recommended, with a 30-day money-back guarantee for a full refund within 30 days. Over 500,000 women have switched. Tap below to claim your Christmas discount.
 
 New Year Sale (Jan 1 to Jan 15, 2027):
-Right now, Comfort Wear is running their New Year Sale. You get 40% off with free shipping until January 15th. They are HSA and FSA eligible, doctor-recommended and podiatrist-recommended, with a 30-day money-back guarantee for a full refund within 30 days. Over 500,000 women have switched. Tap below to start the new year on pain-free feet.
+Right now, Comfort Wear is running their New Year Sale. You get 40% off with free shipping until January 15th. They are HSA and FSA eligible, doctor-recommended and podiatrist-recommended, with a 30-day money-back guarantee for a full refund within 30 days. Over 500,000 women have switched. Tap below before the New Year Sale ends January 15th.
 
 ## Hook variants (StefanBrain)
 
@@ -198,7 +198,7 @@ Right now, Comfort Wear is running their New Year Sale. You get 40% off with fre
 
 **H4:** Every grandmother who stops at my merchandise cart between two and four in the afternoon says the exact same four words.
 
-## Scroll-video script (LF19V, 717 words, StefanBrain)
+## Scroll-video script (LF19V, 709 words, StefanBrain)
 
 I work a merchandise cart forty hours a week on the hottest concrete in Orlando.
 
@@ -212,9 +212,9 @@ Between one and three o'clock every day, I see the exact same heartbreak.
 
 A woman in her sixties sitting on a concrete planter box.
 
-She holds three souvenir bags, rubbing her heel while her family walks toward the rides without her.
+She rubs her aching heel while her family walks toward the rides without her.
 
-She tries to smile and waves them on. She says, you guys go ahead, I need to rest.
+She tries to smile and waves them on. She says, you go ahead, I need to rest.
 
 I see it a hundred times a day.
 
@@ -234,11 +234,11 @@ It was never built for standing in a seventy-minute line on concrete.
 
 When you stand still, your weight compresses that soft foam flat.
 
-Within three hours, your arch has zero support underneath it.
+Within three hours, your arch has zero support.
 
 Your heel takes every step directly against the pavement.
 
-Even worse, that thick sole makes your foot sit high off the ground.
+That thick sole makes your foot sit high off the ground.
 
 On curbs and ramps, your foot rolls side to side, straining your knees.
 
@@ -278,11 +278,11 @@ They cost fifty-nine dollars and ninety-five cents.
 
 Under sixty dollars. That outworked the one hundred and eighty dollar pairs.
 
-The arch support is built right into the shoe, so it never packs flat.
+The arch support is built right into the shoe, so there is nothing to pack flat.
 
 The top is a breathable stretch-knit weave that gives as your feet swell in the afternoon heat.
 
-The sole is firm, lightweight, and steady, so your ankles never wobble on curbs.
+The sole is firm, lightweight, and steady on curbs.
 
 When I first wore them, they felt firmer than pillow shoes.
 
@@ -292,9 +292,9 @@ Last month, a grandmother named Sharon stopped at my cart crying from heel pain.
 
 I showed her the three tests and showed her my shoes. Her daughter ordered her a pair that day.
 
-On Friday, Sharon walked back up with a huge smile, holding her granddaughter's hand.
+On their next trip, Sharon walked up with a huge smile, holding her granddaughter's hand.
 
-She had walked twelve miles without sitting down once.
+Wearing them, she had walked twelve miles without sitting down once.
 
 Right now, Comfort Wear is running their Black Friday Sale.
 

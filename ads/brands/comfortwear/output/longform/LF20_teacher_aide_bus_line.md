@@ -5,7 +5,7 @@
 **Outside reference (structure modelled):** Cuurt witness stories
 **Persona:** Teacher
 **Copy:** StefanBrain (copy_source: stefanbrain) · chat chat_80f6ce8f57d4498cb92ef093683707a4 · https://stefanbrain.com/chat/80f6ce8f-57d4-498c-b92e-f093683707a4
-**StefanBrain notes:** Angle: Teacher: 'you're not walking, you're planted'; standing motionless on classroom linoleum compresses foam flat under still weight and causes feet to swell into a fixed upper. Hero mechanism trace: Traces directly to the core hero mechanism: teaching requires standing planted in one spot on tile over concrete, which compresses soft running foam completely flat within hours; feet swell up to half a size from continuous standing so rigid uppers strangle the foot (the 3 p.m. squeeze); heavy shoes wear out knees and lower back. The fix is structural arch support built into the shoe frame that holds its shape all day, a stretch-knit upper that expands as feet swell, and a featherlight build with a firm-but-flexible slip-resistant sole. Core emotion: She's losing the job she loves and thinks it's her age. One pain point: Feet swelling and aching from standing still all day (the 3 p.m. squeeze). Hook type: Behavior mystery at school. Open-loop type: What the aide saw under the desk. Lead type: Witness behavior observation / evidence chart. Awareness level: Problem-aware to Solution-aware. One-belief sentence: A dedicated teacher's debilitating classroom foot pain is not her age catching up with her, but the wrong shoe compressing flat and squeezing her foot when standing still on school tile. Narrator: witness. Character count of primary_text: 12423. Brand position: 60.6%. Word count of scroll_script: 671.
+**StefanBrain notes:** Angle: Teacher: 'you're not walking, you're planted'; standing motionless on classroom linoleum compresses foam flat under still weight and causes feet to swell into a fixed upper. Hero mechanism trace: Traces directly to the core hero mechanism: teaching requires standing planted in one spot on tile over concrete, which compresses soft running foam completely flat within hours; feet swell up to half a size from continuous standing so rigid uppers strangle the foot (the 3 p.m. squeeze); heavy shoes wear out knees and lower back. The fix is structural arch support built into the shoe frame that holds its shape all day, a stretch-knit upper that expands as feet swell, and a light build with a firm-but-flexible slip-resistant sole. Core emotion: She's losing the job she loves and thinks it's her age. One pain point: Feet swelling and aching from standing still all day (the 3 p.m. squeeze). Hook type: Behavior mystery at school. Open-loop type: What the aide saw under the desk. Lead type: Witness behavior observation / evidence chart. Awareness level: Problem-aware to Solution-aware. One-belief sentence: A dedicated teacher's debilitating classroom foot pain is not her age catching up with her, but the wrong shoe compressing flat and squeezing her foot when standing still on school tile. Narrator: witness. Character count of primary_text: 12401. Brand position: 60.5%. Word count of scroll_script: 672.
 **Format:** static image + long primary text (11.6k characters measured before the swaps; brand first named at 65%)
 **Scorecard (direct_response.md §10):** 18/20 
 **Headline:** The second-grade step chart
@@ -21,7 +21,7 @@
 - [x] Format and fatigue check: Witness long-form static (school mystery)
 - [x] Hook situational/specific, open-loop, trope-free, with at least one single-sentence variant
 - [x] Scroll script: spoken voice, story engine (behavior mystery / evidence device or first-person test), stakes
-- [x] One-shot output graded before shipping; weak items sent back to StefanBrain with short notes (bunion removed; 'sizes sell out' line replaced by the Dec 5 deadline)
+- [x] One-shot output graded before shipping; weak items sent back to StefanBrain with short notes (bunion removed; scarcity line replaced by the Dec 5 deadline; 'four-way stretch', 'never', 'feather-light' and 'pain-free' wording fixed)
 
 ## Images (4)
 - **A (main):** hook: the teacher on the playground bench while the kids run (`images/LF20_A.jpg`)
@@ -156,15 +156,15 @@ She had even bought $75 Skechers memory foam and $40 big-box walking shoes. They
 
 And Ruth had another problem: our district dress code.
 
-"I cannot wear fluorescent orange running shoes with giant plastic bubbles to school," Ruth said. "I need something that looks like a clean, professional, normal shoe."
+"I cannot wear fluorescent orange running shoes with giant plastic bubbles to school," Ruth said. "The superintendent visits twice a month. I need something that looks like a clean, professional, normal shoe."
 
 That night, I sat at my kitchen table and checked every shoe my sister recommended against three tests.
 
-First was the 3 p.m. squeeze: the upper had to have genuine four-way stretch to expand when feet swell, without tight seams cutting into the skin.
+First was the 3 p.m. squeeze: the upper had to have a top that stretches to expand when feet swell, without tight seams cutting into the skin.
 
-Second was the thumb-dent test: structural arch support built directly into the shoe frame that never compresses flat under still weight.
+Second was the thumb-dent test: structural arch support built directly into the shoe frame so there is nothing to pack flat under still weight.
 
-Third was the brick test: feather-light so lifting it does not strain the knees, with a firm, stable sole that never wobbles on slick waxed linoleum.
+Third was the brick test: light so lifting it does not strain the knees, with a firm, steady sole on slick waxed linoleum.
 
 Only one shoe passed all three tests.
 
@@ -254,7 +254,7 @@ Christmas Sale (Dec 6 to Dec 31, 2026):
 Right now, Comfort Wear is running their Christmas Sale. You get 60% off, plus 2 free gifts when you buy 2 pairs, until December 31st. They are HSA and FSA eligible, doctor-recommended and podiatrist-recommended, with a 30-day money-back guarantee for a full refund within 30 days. Over 500,000 women have switched. Tap below to claim your Christmas discount.
 
 New Year Sale (Jan 1 to Jan 15, 2027):
-Right now, Comfort Wear is running their New Year Sale. You get 40% off with free shipping until January 15th. They are HSA and FSA eligible, doctor-recommended and podiatrist-recommended, with a 30-day money-back guarantee for a full refund within 30 days. Over 500,000 women have switched. Tap below to start the new year on pain-free feet.
+Right now, Comfort Wear is running their New Year Sale. You get 40% off with free shipping until January 15th. They are HSA and FSA eligible, doctor-recommended and podiatrist-recommended, with a 30-day money-back guarantee for a full refund within 30 days. Over 500,000 women have switched. Tap below before the New Year Sale ends January 15th.
 
 ## Hook variants (StefanBrain)
 
@@ -264,7 +264,7 @@ Right now, Comfort Wear is running their New Year Sale. You get 40% off with fre
 
 **H4:** Our second-grade fitness chart on the wall was supposed to motivate the kids, but by October it was tracking Mrs. Miller's decline.
 
-## Scroll-video script (LF20V, 671 words, StefanBrain)
+## Scroll-video script (LF20V, 672 words, StefanBrain)
 
 I was wiping down the whiteboard after the bell when I looked at our second-grade fitness chart on the wall.
 
@@ -334,11 +334,11 @@ They cost fifty-nine dollars and ninety-five cents.
 
 Under sixty dollars. That outworked the one hundred seventy dollar pairs.
 
-The arch support is built right into the shoe frame, so it never packs flat.
+The arch support is built right into the shoe frame, so there is nothing to pack flat.
 
 The top is a stretch knit that expands as feet swell, with a wide toe box.
 
-The sole is firm, lightweight, and grips waxed floors without wobbling.
+The sole is firm, lightweight, and steady on waxed floors.
 
 And it looks like a clean normal shoe.
 

@@ -44,6 +44,8 @@ The 11-12 push failed, so this plan was written on 2026-11-19 as LF05–LF14 (St
 
 ## Batch for Thursday 2026-11-26 (LF15–LF24): reworked 2026-11-24 in the CUURT WITNESS STYLE (user request)
 
+**Written 2026-11-26** (all 10 rows `written`, StefanBrain copy). Changes from the plan: LF15 was drafted by Claude as the model, so StefanBrain wrote its own version of the same story (rule: StefanBrain writes every word). LF16 payoff moved to an October trip (the ad launches on Thanksgiving). LF18 Minneapolis contract moved to summer. LF19/LF20 use brand names in the enemy list, like our winners. LF22 is flagged for Samir: sizing advice ('next size up') and the support-agent exchange need confirming. LF23 is set last holiday season, told now. Only image A is rendered for each concept: Kie ran out of credits, and B/C/D are specced in `output/longform/images/specs_2026-11-26.json`.
+
 The user asked us to learn from Cuurt's long-form (same category, now scaling) and apply it to our winning and new angles. Read `../competitors/cuurt_longform_2026-11-24.md` and the playbook's "Case study: the Cuurt November wave" before writing. **LF15 is already written as the model:** `output/longform/LF15_europe_prague_step_counter.md`. Match its structure.
 
 **Cuurt mechanics every witness concept uses (borrow formats only, never Cuurt's lines or stories):**
@@ -77,6 +79,25 @@ The user asked us to learn from Cuurt's long-form (same category, now scaling) a
 **Learning setup:** 7 witness concepts vs 3 first-person controls. Tag each with `narrator=witness|self` (direct_response.md §9). After 2–3 weeks of spend, compare ROAS, CPA and hook rate by narrator. If witness wins, make it the default for iterations.
 
 **Variety check:** narrators 16–59 (sufferers 52–68); settings Prague, Disney ×2, hospital ×2, school, stadium and grocery, home, retail. Evidence devices are all different (step counter, group chat, leaderboard, wall chart, delivery history, time cards).
+
+## Batch for Thursday 2026-12-03 (LF25–LF34): plan
+
+Built 2026-11-26 from the 11-26 Atria pull (`../longform_angles.md` refresh), the 11-26 market scan (`2026-11-26.md`: Cuurt's 9–14k witness stories at 30–45 days; outlier-who-shouldn't-be-fine; borrowed pair with no logo; husband narrating his wife's withdrawal; friend auditing the packed suitcase), new feedback rows and Reddit (`reddit_angles.md` 2026-11-26). **Live offer on Dec 3:** Black Friday Sale to Dec 5, then the Christmas Sale (Dec 6–31: 60% off + 2 free gifts with 2 pairs); brief both with dates. Compare witness vs self results from LF15–LF24 first; if witness wins, keep 7 witness / 3 self.
+
+| ID | Type | Narrator | Angle (source ads, 11-26 pull) | Story (new) | Hook / open loop | Image A |
+|---|---|---|---|---|---|---|
+| LF25 | Iteration | witness: best friend | Travel test (Kyro369v2 \$73.7k · 1.34) | A friend audits her packed suitcase the night before a Christmas-market trip in Germany and finds "one pair of boots for the whole trip" (Reddit phrase) | "I unzipped my best friend's suitcase the night before our flight and took out every pair of shoes she'd packed." / what's left in the bag | a suitcase open on a hotel bed with shoes lined up beside it |
+| LF26 | Iteration | witness: husband | Plus-size Disney (COM284 \$10.5k · 2.58) | A husband narrates his wife's quiet withdrawal on their 30th-anniversary park trip (Cuurt husband stories, 40+ days) | "My wife planned our anniversary trip for a year. On day two she started 'holding our spot' for the fireworks at 2 p.m." | a woman alone on a curb with a stroller-free bag pile at a park (no characters) |
+| LF27 | Iteration | witness: nurse, 38 | Nurse (Aubrey \$21.6k · 1.46; Kyro390 \$12.7k · 1.70) | The outlier who shouldn't be fine: a 66-year-old night nurse walks out after 12 hours fresher than the 30-year-olds. The narrator finally asks why. | "The oldest nurse on our night shift is 66, and she's the only one who doesn't sit down in the parking garage." | nurses slumped on a parking-garage stair, one older nurse walking past |
+| LF28 | Iteration | witness: daughter-in-law | Disney test (COM320 \$19.5k · 1.53) | The borrowed pair with no logo: on day 2 of a park trip, mother-in-law borrows a cousin's plain knit shoes "just for the afternoon" (Cuurt loaner, 37 days) | "On day two my mother-in-law borrowed my cousin's shoes and never gave them back." | two pairs of shoes swapped on a hotel floor |
+| LF29 | Iteration | self → appointment reveal | Senior general foot pain, doctor expert (COM55 \$7.0k · 1.47) | Reveal setup 1: at a podiatrist appointment, a 69-year-old apologizes for her feet; the podiatrist (allowed character, unnamed) explains foam and swelling and recommends the shoe. Doctor reversal on "it's your age". | "I apologized to my podiatrist for my feet before I even took my socks off." | a woman on an exam-room paper sheet, shoes on the floor |
+| LF30 | Iteration | witness: school secretary | Teacher (TeacherTested \$7.8k · 1.47) | A 63-year-old substitute covers 5 schools a week; the secretary notices she always asks for the classroom nearest the office | "Our favorite substitute always asked for Room 3. It took me a year to notice Room 3 is the closest to the front door." | a hallway with a substitute's tote by a door |
+| LF31 | Net-new | self | Server in the holiday rush (Reddit: "sitting in the utility closet") | A 52-year-old server hides in the utility closet between tables during the December rush | "Every Friday in December, I take my breaks in the utility closet with the mop buckets." | a mop bucket and an apron on a hook in a narrow closet |
+| LF32 | Net-new | witness: husband | The 2 a.m. first step (Reddit cashier: the night bathroom trip is the hardest step) | A husband hears his wife hold the wall on every night bathroom trip | "At 2 a.m. I heard my wife counting under her breath on the way to the bathroom." | a dim hallway with a hand on the wall |
+| LF33 | Net-new | witness: sister | Cruise (feedback: a cruise is now among the 5-star buying reasons) | Sisters' cruise: on day 3 one sister skips every excursion "to read by the pool" | "My sister booked us seven excursions and went on one." | a deck chair with a book and sneakers under it |
+| LF34 | Net-new test | — | Long cut (market study MS10; Auniva/Elvera long-runners) | A 16–19k long cut of the best LF15–LF24 body by spend and ROAS on Dec 2, launched beside its current cut | same hook as the source | same as the source |
+
+**Guardrails:** collapsing-heel complaints this week (3), so no "easy on" or slip-on promises; a Disney buyer said the shoe isn't "designed to support heavy women", so LF26 doesn't promise anything for weight; keep the claims list from brand.json.
 
 ## Backlog (next batches)
 

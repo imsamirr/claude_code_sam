@@ -5,9 +5,9 @@
 **Outside reference (structure modelled):** scoreboard/test format from our own winners
 **Persona:** The 12-Hour Shift Nurse (Travel ICU)
 **Copy:** StefanBrain (copy_source: stefanbrain) · chat chat_b49790c07d874c95b86a9297a8dd6605 · https://stefanbrain.com/chat/b49790c0-7d87-4c95-b86a-9297a8dd6605
-**StefanBrain notes:** Angle: Nurse Scoreboard: Travel ICU nurse logs and scores every shoe across 13-week contracts. Hero mechanism trace: Max-cushion running shoes and memory foam pack flat under body weight by hour eight of a 12-hour shift, rigid clogs are rock hard with zero shock absorption, and fixed uppers squeeze as feet swell. The solution is structural arch support built into the shoe that holds all 12 hours, a breathable stretch knit that gives when feet swell, and a light, stable sole. Core emotion: 'I've wasted hundreds of dollars and every contract cost me' transitioning to vindication. Pain point: Aching arches by hour eight (foam packed flat). Hook type: Sunk-cost list / scoreboard. Open loop type: Which pair finished first on the scoreboard and who told her about it. Lead type: Sunk-cost scoreboard lead (contract notebook). Awareness level: Solution-aware (experienced nurse with a graveyard of expensive shoes, ready for category-level reframing). One-belief sentence: Price does not equal shift support: a $60 shoe engineered with built-in structural arch support and stretch knit outperforms $180 running shoes that pack flat by hour eight. Narrator: self. Primary text character count: 10271. Brand position: 52.8%. Scroll script word count: 705.
+**StefanBrain notes:** Angle: Nurse Scoreboard: Travel ICU nurse logs and scores every shoe across 13-week contracts. Hero mechanism trace: Max-cushion running shoes and memory foam pack flat under body weight by hour eight of a 12-hour shift, rigid clogs are rock hard with zero shock absorption, and fixed uppers squeeze as feet swell. The solution is structural arch support built into the shoe that holds all 12 hours, a breathable stretch knit that gives when feet swell, and a light, stable sole. Core emotion: 'I've wasted hundreds of dollars and every contract cost me' transitioning to vindication. Pain point: Aching arches by hour eight (foam packed flat). Hook type: Sunk-cost list / scoreboard. Open loop type: Which pair finished first on the scoreboard and who told her about it. Lead type: Sunk-cost scoreboard lead (contract notebook). Awareness level: Solution-aware (experienced nurse with a graveyard of expensive shoes, ready for category-level reframing). One-belief sentence: Price does not equal shift support: a $60 shoe engineered with built-in structural arch support and stretch knit outperforms $180 running shoes that pack flat by hour eight. Narrator: self. Primary text character count: 10283. Brand position: 52.8%. Scroll script word count: 706.
 **Format:** static image + long primary text (9.7k characters measured before the swaps; brand first named at 56%)
-**Scorecard (direct_response.md §10):** 16/20 → hooks re-done (hook 1 · craft 1 before the weirder pass) 
+**Scorecard (direct_response.md §10):** 17/20 after the hooks pass 
 **Headline:** The 12-hour nurse scoreboard.
 **CTA:** Learn More
 **Landing page:** /pages/here-are-7-reasons-why-this-is-the-best-gift-for-healthcare-workers
@@ -21,7 +21,7 @@
 - [x] Format and fatigue check: First-person scoreboard (control vs witness)
 - [x] Hook situational/specific, open-loop, trope-free, with at least one single-sentence variant
 - [x] Scroll script: spoken voice, story engine (behavior mystery / evidence device or first-person test), stakes
-- [x] One-shot output graded before shipping; weak items sent back to StefanBrain with short notes ('make them weirder' hooks pass; 'never pack flat' softened; swap voice fixed)
+- [x] One-shot output graded before shipping; weak items sent back to StefanBrain with short notes ('make them weirder' hooks pass; 'never pack flat' softened; swap voice fixed; shoe total corrected to 845 dollars; contract timeline fixed (Minneapolis this summer, Cleveland from September))
 
 ## Images (4)
 - **A (main):** hook: the contract notebook and a pile of shoes in an extended-stay room (`images/LF18_A.jpg`)
@@ -34,7 +34,7 @@
 
 ## PRIMARY TEXT
 
-Inside my travel bag is a black spiral notebook where I have logged nine years of 13-week ICU contracts, five hospitals, and seven hundred and forty dollars in dead work shoes.
+Inside my travel bag is a black spiral notebook where I have logged nine years of 13-week ICU contracts, five hospitals, and eight hundred and forty-five dollars in dead work shoes.
 
 Contract 18 in Denver: Hoka Bondi, $165. Score: 4 out of 10. Hour eight: arches aching.
 
@@ -70,11 +70,11 @@ I even tried an eighty-dollar pair of Skechers with memory foam. That foam compr
 
 By my fourth year traveling, I had a graveyard of expensive shoes in the trunk of my car.
 
-Seven hundred and forty dollars in shoes, and every single contract ended the same way.
+Eight hundred and forty-five dollars in shoes, and every single contract ended the same way.
 
 Sitting in my freezing rental car in the hospital parking lot at 7:30 in the morning, massaging my aching arches over a frozen water bottle before I could even drive back to my temporary apartment.
 
-Then last winter, on a brutal December contract in Minneapolis, I met Gloria.
+Then this past summer, on contract twenty-four in Minneapolis, I met Gloria.
 
 Gloria was fifty-eight. She was a night-shift respiratory therapist who had worked ICU and step-down units for twenty-six years.
 
@@ -128,7 +128,7 @@ Gloria laughed. "Order a pair. They give you a full thirty-day money-back guaran
 
 When I got to my rental apartment that morning, I ordered a pair in black.
 
-When my next contract started in Cleveland this past September, cold rain and sleet were already coming down off Lake Erie.
+When my next contract started in Cleveland this past September, cold rain and wind were already coming down off Lake Erie.
 
 I packed the Comfort Wear shoes in my bag.
 
@@ -148,7 +148,7 @@ By week four of my Cleveland contract, the frozen water bottle in my rental car 
 
 By week eight, I was walking out to my car at 7:30 in the morning without limping across the gravel parking lot.
 
-And on week thirteen, my final week of the contract, our unit manager came up to me on Friday morning.
+And on week thirteen, my final week of the Cleveland contract, our unit manager came up to me on Friday morning.
 
 Two nurses had called in sick with the flu. She asked if anyone could pick up an extra twelve-hour night shift on Saturday on crisis overtime.
 
@@ -200,7 +200,7 @@ Start the new year on your feet without pain. Get 40% off with free shipping dur
 
 ## Hook variants (StefanBrain)
 
-**H2:** If you open the trunk of my rental Corolla behind the Cleveland hospital right now, you will find four motel room keycards, an ice scraper, and a black spiral notebook tracking seven hundred and forty dollars in ruined work shoes.
+**H2:** If you open the trunk of my rental Corolla behind the Cleveland hospital right now, you will find four motel room keycards, an ice scraper, and a black spiral notebook tracking eight hundred and forty-five dollars in ruined work shoes.
 
 **H3:** At 3:15 a.m. during a December blizzard in Minneapolis, the charge nurse caught me standing barefoot on the cold stainless steel of the ice machine behind the breakroom door.  
 She did not ask if I was okay: she just looked at the thick white soles on the tile and asked what hospital contract convinced me to buy them.
@@ -208,9 +208,9 @@ She did not ask if I was okay: she just looked at the thick white soles on the t
 **H4:** I spent fourteen weeks in Boston keeping an unrolled blood pressure cuff in my glovebox just to wrap around my arches before the drive back to my sublet.  
 That was contract twenty-two, and it was the night I started writing down the exact price of every shoe that let me down at hour eight.
 
-## Scroll-video script (LF18V, 714 words, StefanBrain)
+## Scroll-video script (LF18V, 715 words, StefanBrain)
 
-Inside my travel bag is a black spiral notebook where I have logged nine years of travel nursing contracts, five hospitals, and seven hundred forty dollars in dead work shoes.
+Inside my travel bag is a black spiral notebook where I have logged nine years of travel nursing contracts, five hospitals, and eight hundred forty-five dollars in dead work shoes.
 
 Contract eighteen in Denver: max-cushion running shoes, one hundred sixty-five dollars. Score: four out of ten. Hour eight: arches aching.
 
@@ -242,7 +242,7 @@ By my fourth year traveling, I had a graveyard of expensive shoes in my car.
 
 Every shift ended the same way. I sat in my rental car massaging my aching arches over a frozen water bottle.
 
-Then last winter in Minneapolis, I met Gloria.
+Then this past summer in Minneapolis, I met Gloria.
 
 Gloria was fifty-eight and had worked intensive care night shifts for twenty-six years.
 
