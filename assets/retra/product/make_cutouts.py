@@ -11,7 +11,7 @@ from scipy import ndimage
 
 HERE = Path(__file__).resolve().parent
 (HERE / "cutout").mkdir(exist_ok=True)
-for c in ["chalk", "obsidian", "blossom", "sol", "pine"]:
+for c in ["chalk", "obsidian", "blossom", "sol", "pine", "dune"]:
     im = Image.open(HERE / f"retra_{c}_34.jpg").convert("RGB")
     a = np.asarray(im).astype(float)
     bg = np.median(np.concatenate([a[:50].reshape(-1, 3), a[:, :50].reshape(-1, 3)]), axis=0)
