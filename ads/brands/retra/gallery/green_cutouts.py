@@ -20,8 +20,6 @@ import kie  # noqa: E402
 PICKS = json.load(open(HERE / "picks.json"))
 (HERE / "cutouts").mkdir(exist_ok=True)
 FIX = {
-    "front_sol": " Also remove the dark smudge on the yellow leatherette above and left of the lens so the panel is an even,"
-                 " clean mustard yellow with its natural grain.",
     "bottom": " Also make the leatherette panel's edges clean and continuous (no speckles or ragged bits at its left end).",
 }
 
@@ -42,8 +40,9 @@ def green(name):
                   " a flat, even chroma-key green (#00B140). Keep the camera exactly as it is: same position, size,"
                   " angle, colours, textures, buttons, ports, lenses and gold 'Retra' wordmark. Do not add anything."
                   + FIX.get(name, FIX["bottom"] if name.startswith("bottom") else ""))
+        res = "4K" if name.startswith("front") else "2K"
         tid = kie.create("nano-banana-pro", {"prompt": prompt, "image_input": [u], "aspect_ratio": "auto",
-                                             "resolution": "2K", "output_format": "png"})
+                                             "resolution": res, "output_format": "png"})
         r = kie.wait(tid)
         kie.download(r[0], out)
         with open(HERE / "renders" / "_usage.jsonl", "a") as f:
@@ -53,7 +52,9 @@ def green(name):
 
 
 def key(name):
-    a = np.asarray(Image.open(green(name)).convert("RGB")).astype(np.float32)
+    gimg = Image.open(green(name)).convert("RGB")
+    a = np.asarray(gimg).astype(np.float32)
+    clean = np.asarray(Image.open(source(name)).convert("RGB").resize(gimg.size, Image.LANCZOS)).astype(np.float32)
     r, g, b = a[..., 0], a[..., 1], a[..., 2]
     gness = g - np.maximum(r, b)
     alpha = np.clip(1 - (gness - 20) / 60, 0, 1)  # soft edge: 20..80 of green excess
@@ -64,7 +65,7 @@ def key(name):
     near = ndimage.binary_dilation(keep, iterations=3)
     alpha = np.where(keep, np.maximum(alpha, ndimage.binary_erosion(keep, iterations=2)), np.where(near, alpha, 0))
     if name.startswith("front"):  # Kie sometimes keeps a cream shelf under the camera: cut below the bottom band
-        dark = (a.sum(-1) < 200) & keep
+        dark = (clean.sum(-1) < 200) & keep
         cols = np.where(keep.any(0))[0]
         rows = np.where(dark.sum(1) > 0.5 * (cols.max() - cols.min()))[0]
         cut = rows.max() + 1
@@ -72,7 +73,7 @@ def key(name):
         alpha[cut:] = 0
         # clip to the convex hull of the camera's dark frame (body edges, bands, lugs): drops any shelf
         import cv2
-        dk = ((a.sum(-1) < 200) & keep).astype(np.uint8)
+        dk = ((clean.sum(-1) < 200) & keep).astype(np.uint8)
         dk = cv2.morphologyEx(dk, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8))
         pts = cv2.findNonZero(dk)
         hull = np.zeros_like(dk)
@@ -80,16 +81,29 @@ def key(name):
         hull = cv2.dilate(hull, np.ones((5, 5), np.uint8)).astype(bool)
         alpha[~hull] = 0
         keep &= hull
-    # despill: Chalk/Obsidian/Sol have no green parts, so no pixel may be greener than max(r, b) + 4
-    a[..., 1] = np.minimum(g, np.maximum(r, b) + 4)
-    # green showing through glass reads as teal (g and b both above r): neutralise to grey
-    g2 = a[..., 1]
-    teal = (g2 - r > 12) & (b - r > 6) & (np.abs(g2 - b) < 30)
-    grey = a[..., :3].mean(-1)
-    for ch in range(3):
-        a[..., ch] = np.where(teal, grey, a[..., ch])
-    out = Image.fromarray(np.clip(a, 0, 255).astype("uint8"))
-    m = Image.fromarray((alpha * 255).astype("uint8")).filter(ImageFilter.GaussianBlur(0.8))
+    # the green copy only supplies the outline; visible pixels come from the clean (un-tinted) render, except the
+    # bottom views, whose only source is an older recolour with ragged panel edges: there the green copy's cleaned
+    # pixels are used, with despill and teal removal
+    hard = ndimage.binary_erosion(alpha > 0.5, iterations=1)
+    hard = ndimage.binary_opening(hard, iterations=4)  # drop specks of floor shadow
+    lab, n = ndimage.label(hard)
+    hard = lab == (1 + np.argmax(ndimage.sum(hard, lab, range(1, n + 1))))
+    alpha = ndimage.binary_fill_holes(hard) * 1.0
+    if name.startswith("bottom"):
+        a[..., 1] = np.minimum(g, np.maximum(r, b) + 4)
+        g2 = a[..., 1]
+        teal = (g2 - r > 12) & (b - r > 6) & (np.abs(g2 - b) < 30)
+        grey = a[..., :3].mean(-1)
+        for ch in range(3):
+            a[..., ch] = np.where(teal, grey, a[..., ch])
+        lum = a[..., :3].mean(-1)
+        dk = np.clip((110 - lum) / 40, 0, 1)[..., None]  # blacks/greys -> neutral (slightly warm, like the fronts)
+        neutral = np.stack([lum * 1.03, lum * 0.99, lum * 0.98], -1)
+        a[..., :3] = a[..., :3] * (1 - dk) + neutral * dk
+        out = Image.fromarray(np.clip(a, 0, 255).astype("uint8"))
+    else:
+        out = Image.fromarray(np.clip(clean, 0, 255).astype("uint8"))
+    m = Image.fromarray((alpha * 255).astype("uint8")).filter(ImageFilter.GaussianBlur(1.0))
     out.putalpha(m)
     out = out.crop(m.getbbox())
     out.save(HERE / "cutouts" / f"{name}.png")

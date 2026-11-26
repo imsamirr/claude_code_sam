@@ -125,9 +125,7 @@ def arrow(d, pts, head=True, w=6):
 
 
 def canvas():
-    rng = np.random.default_rng(3)
-    a = np.array(CREAM, float)[None, None, :] + rng.normal(0, 1.6, (S, S, 1))
-    return Image.fromarray(np.clip(a, 0, 255).astype("uint8")).convert("RGBA")
+    return Image.new("RGBA", (S, S), CREAM + (255,))  # flat, noise-free store cream
 
 
 def hand(c):
@@ -174,7 +172,7 @@ def howto(c):
 def usbc(c):
     img = to_store_cream(ImageOps.fit(Image.open(src(PICKS[f"usbc_{c}"])).convert("RGB"), (S, S), Image.LANCZOS)).convert("RGBA")
     d = ImageDraw.Draw(img)
-    f = tinos(150)
+    f = tinos(PICKS.get("usbc_text_size", 150))
     words = typeset(COPY["usbc_headline"]).split()
     # two balanced lines in the clear top-right area, like the source layout
     best = min(range(1, len(words)), key=lambda k: abs(measure(f, " ".join(words[:k])) - measure(f, " ".join(words[k:]))))
@@ -182,7 +180,7 @@ def usbc(c):
     y = PICKS.get("usbc_text_y", 230)
     for ln in lines:
         text(d, (PICKS.get("usbc_text_x", 1000), y), ln, f)
-        y += 165
+        y += int(f.size * 1.1)
     return img.convert("RGB")
 
 
@@ -516,7 +514,7 @@ def samples_personal():
     out.mkdir(exist_ok=True)
     for i, spec in enumerate(COPY["samples"], 1):
         name = f"RET_sample{i}_{spec['id']}_{spec['filter'].replace(' & ', '').lower()}_personal.jpg"
-        sample(spec, small=False).save(out / name, quality=92)
+        sample(spec, small=False).save(out / name, quality=95)
         print(name)
 
 
@@ -524,7 +522,7 @@ def samples_all():
     for i, spec in enumerate(COPY["samples"], 1):
         im = sample(spec)
         name = f"RET_gallery_sample{i}_{spec['id']}_{spec['filter'].replace(' & ', '').lower()}_ILLUSTRATIVE.jpg"
-        im.save(OUT / name, quality=92)
+        im.save(OUT / name, quality=95)
         print(name)
 
 
@@ -587,7 +585,7 @@ def split_personal():
     ImageDraw.Draw(img).line([(0, half), (S, half)], fill=(242, 238, 227), width=6)
     out = OUT / "personal"
     out.mkdir(exist_ok=True)
-    img.convert("RGB").save(out / "RET_split_vintage_vs_phone_personal.jpg", quality=92)
+    img.convert("RGB").save(out / "RET_split_vintage_vs_phone_personal.jpg", quality=95)
     print("RET_split_vintage_vs_phone_personal.jpg")
 
 
@@ -630,7 +628,7 @@ def main():
             assert im.size == (S, S)
             suffix = "_RENDERED-BACK" if k in RENDERED_BACK else SUFFIX.get(k, "")
             name = f"RET_gallery_{k}{'_' + c if c else ''}{suffix}.jpg"
-            im.save(OUT / name, quality=92)
+            im.save(OUT / name, quality=95)
             print(name)
 
 

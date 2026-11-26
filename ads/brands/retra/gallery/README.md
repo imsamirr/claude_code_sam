@@ -37,3 +37,9 @@ Rebuild: `python3 compose_gallery.py` (raw renders are committed as JPEG; the 2K
 - All graphics are built directly on the store cream #F2EEE3. Photo scenes (hand, USB-C, box, gift) go through
   `to_store_cream()`, a smooth per-pixel shift that keeps shadows instead of leaving patches.
 - The garbled lettering beside the back-view button is painted out (`base/back_cutout.png`).
+
+## 4K quality pass (vs. Klik's gallery)
+- The camera scenes (front, hand, USB-C, macro, float incl. Dune) are re-rendered at 4K (`KIE_RES=4K python3 render_gallery.py ...`)
+  with a studio-quality prompt line, then downscaled to 2000x2000 (supersampling gives the crisp detail).
+- Cut-outs take only the outline from the green-screen copy; the visible pixels come from the clean render (no green tint).
+- Graphic backgrounds are a flat cream with no noise; JPEG quality is 95.

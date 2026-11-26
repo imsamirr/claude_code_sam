@@ -1,17 +1,17 @@
 {
- "hand_chalk": "hand_chalk_t1.png",
- "hand_obsidian": "hand_obsidian_t1.png",
- "hand_sol": "hand_sol_t1.png",
- "front_chalk": "front_chalk_t2.png",
- "front_obsidian": "front_obsidian_t1.png",
- "front_sol": "front_sol_t1.png",
+ "hand_chalk": "hand_chalk_t2.png",
+ "hand_obsidian": "hand_obsidian_t2.png",
+ "hand_sol": "hand_sol_t2.png",
+ "front_chalk": "front_chalk_t3.png",
+ "front_obsidian": "front_obsidian_t2.png",
+ "front_sol": "front_sol_t2.png",
  "bottom_chalk": "bottom_chalk_recolour.png",
  "bottom_obsidian": "bottom_obsidian_recolour.png",
  "bottom_sol": "bottom_sol_recolour.png",
- "usbc_chalk": "usbc_chalk_t1.png",
- "usbc_obsidian": "usbc_obsidian_t1.png",
- "usbc_sol": "usbc_sol_t1.png",
- "usbc_text_x": 980,
+ "usbc_chalk": "usbc_chalk_t2.png",
+ "usbc_obsidian": "usbc_obsidian_t2.png",
+ "usbc_sol": "usbc_sol_t2.png",
+ "usbc_text_x": 960,
  "usbc_text_y": 240,
  "gift_chalk": "gift_chalk_printed.png",
  "gift_obsidian": "gift_obsidian_printed.png",
@@ -381,12 +381,12 @@
    ]
   ]
  },
- "macro_chalk": "macro_chalk_t1.png",
- "float_chalk": "float_chalk_t1.png",
- "macro_obsidian": "macro_obsidian_t1.png",
- "float_obsidian": "float_obsidian_t1.png",
- "macro_sol": "macro_sol_t1.png",
- "float_sol": "float_sol_t1.png",
+ "macro_chalk": "macro_chalk_t3.png",
+ "float_chalk": "float_chalk_t2.png",
+ "macro_obsidian": "macro_obsidian_t3.png",
+ "float_obsidian": "float_obsidian_t2.png",
+ "macro_sol": "macro_sol_t3.png",
+ "float_sol": "float_sol_t2.png",
  "disposable": "disposable_t1.png",
  "scene_split": "scene_split_t1.png",
  "portrait": "portrait_t1.png",
@@ -652,7 +652,7 @@
    }
   ]
  },
- "float_dune": "float_dune_t1.png",
+ "float_dune": "float_dune_t2.png",
  "sample_party": "sample_party_t2.png",
  "sample_ferry": "sample_ferry_t1.png",
  "sample_sand": "sample_sand_t1.png",
@@ -663,5 +663,6 @@
   "dj": "auto"
  },
  "sample_dj": "sample_dj_t2.png",
- "sample_rave": "sample_rave_t1.png"
+ "sample_rave": "sample_rave_t1.png",
+ "usbc_text_size": 124
 }

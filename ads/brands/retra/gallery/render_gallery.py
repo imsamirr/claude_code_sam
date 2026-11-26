@@ -10,6 +10,7 @@ Back/bottom views have no real-photo reference: they follow the landing page's e
 suffixed _RENDERED-BACK.
 """
 import json
+import os
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -159,6 +160,10 @@ def jobs():
 
 JOBS = jobs()
 _urls = {}
+RES = os.environ.get("KIE_RES", "2K")
+HQ = (" Studio product photography quality: crisp edges, accurate true-to-life colours with neutral blacks and no colour"
+      " casts, even and clean pebbled leather grain with no smudges, stains or blotches, sharp gold wordmark, clean glass"
+      " in the viewfinder and flash windows.") if RES == "4K" else ""
 
 
 def url(p):
@@ -177,9 +182,9 @@ def next_try(name):
 
 def render(name, fix=""):
     job = JOBS[name]
-    prompt = job["prompt"] + (" Correction from the last attempt: " + fix if fix else "")
+    prompt = job["prompt"] + (HQ if job["refs"] else "") + (" Correction from the last attempt: " + fix if fix else "")
     inp = {"prompt": prompt, "image_input": [url(r) for r in job["refs"]], "aspect_ratio": "1:1",
-           "resolution": "2K", "output_format": "png"}
+           "resolution": RES, "output_format": "png"}
     for _ in range(3):
         try:
             tid = kie.create("nano-banana-pro", inp)
@@ -193,7 +198,7 @@ def render(name, fix=""):
     n = next_try(name)
     kie.download(res[0], OUT / f"{name}_t{n}.png")
     with open(OUT / "_usage.jsonl", "a") as f:
-        f.write(json.dumps({"job": name, "try": n, "task_id": tid, "model": "nano-banana-pro", "resolution": "2K",
+        f.write(json.dumps({"job": name, "try": n, "task_id": tid, "model": "nano-banana-pro", "resolution": RES,
                             "refs": [Path(r).name for r in job["refs"]], "fix": fix, "prompt": prompt}) + "\n")
     print("done", name, n, flush=True)
 
