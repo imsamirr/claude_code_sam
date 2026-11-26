@@ -1,4 +1,5 @@
 # DLF28: "Hold it up to a window" (Tablets made it brittle + yellow film (night guard), net-new)
+**Notion:** https://app.notion.com/p/42423caff444817088c2e40acd7bd425
 **Type:** net-new (no DLF ad has proven spend yet). **Copy source:** StefanBrain (https://stefanbrain.com/chat/56ff3f90-1a5e-4262-ab3e-2c5c45544566, session dentalpulse-longform-2026-11-26-s4). Copy pasted verbatim; `copy_source: stefanbrain`.
 **Persona:** Teeth grinder, 30–60, woman (retainer tablets nightly) · narrator=self
 **Angle → hero mechanism:** Tablets bleach the surface and leave the film in the pores while weakening the plastic; 42,000 Hz + UV-C with tap water clears the pores with no chemicals.

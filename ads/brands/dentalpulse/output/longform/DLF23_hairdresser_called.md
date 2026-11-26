@@ -1,4 +1,5 @@
 # DLF23: "The hairdresser called me first" (Smell, net-new)
+**Notion:** https://app.notion.com/p/42423caff444817ea38ddb4e59418fc9
 **Type:** net-new (no DLF ad has proven spend yet). **Copy source:** StefanBrain (https://stefanbrain.com/chat/37f12dd3-70a5-4259-827d-880898e4cb33, session dentalpulse-longform-2026-11-26-s2). Copy pasted verbatim; `copy_source: stefanbrain`.
 **Persona:** Denture caregiver (adult son, witness narrator) · narrator=witness
 **Angle → hero mechanism:** Acrylic is porous like a kitchen sponge; the biofilm in the pores gives off the smell and soaking only cleans the surface, 42,000 Hz + UV-C clears the pores.

@@ -1,4 +1,5 @@
 # DLF22: "The reflux lie" (Denture stomatitis, net-new)
+**Notion:** https://app.notion.com/p/42423caff444811c83b2da268bb79b6f
 **Type:** net-new (no DLF ad has proven spend yet). **Copy source:** StefanBrain (https://stefanbrain.com/chat/fdf286a0-6ca3-490a-bd42-eb0ee4fc2935, session dentalpulse-longform-2026-11-26-s1). Copy pasted verbatim; `copy_source: stefanbrain`.
 **Persona:** Denture wearer, 60+, woman (Polident + brush) · narrator=self
 **Angle → hero mechanism:** Candida lives in the acrylic's pores and re-seeds the palate after every rinse; tablets and brushing never reach the pores, 42,000 Hz + UV-C does.

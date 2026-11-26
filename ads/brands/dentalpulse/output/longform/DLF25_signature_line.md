@@ -1,4 +1,5 @@
 # DLF25: "Half an inch above the signature line" (Cost of replacing dentures, net-new)
+**Notion:** https://app.notion.com/p/42423caff444812690e3eb64fea98ea1
 **Type:** net-new (no DLF ad has proven spend yet). **Copy source:** StefanBrain (https://stefanbrain.com/chat/8f3e522d-e79d-4c24-9a2b-e96629a27c2e, session dentalpulse-longform-2026-11-26-s3). Copy pasted verbatim; `copy_source: stefanbrain`.
 **Persona:** Denture wearer, 60+, woman · narrator=self
 **Angle → hero mechanism:** The film and smell aren't age, they're biofilm in the pores that a new set would grow back with the same routine; 42,000 Hz + UV-C clears the pores.

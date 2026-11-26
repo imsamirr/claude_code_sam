@@ -1,4 +1,5 @@
 # DLF29: "Straight teeth or my enamel" (Cavities / white spots (aligners), net-new)
+**Notion:** https://app.notion.com/p/42423caff444818e8c40f777b4a2c5d3
 **Type:** net-new (no DLF ad has proven spend yet). **Copy source:** StefanBrain (https://stefanbrain.com/chat/81347920-a885-481a-93ea-539e0706b6c7, session dentalpulse-longform-2026-11-26-s5). Copy pasted verbatim; `copy_source: stefanbrain`.
 **Persona:** Clear aligner wearer, 25–45, man · narrator=self
 **Angle → hero mechanism:** The tray is a lid holding the film in its scratches against his enamel 22 hours a day; rinsing doesn't reach it, 42,000 Hz + UV-C does.

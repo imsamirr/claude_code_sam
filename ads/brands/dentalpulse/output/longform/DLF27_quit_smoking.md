@@ -1,4 +1,5 @@
 # DLF27: "I quit smoking for my lungs" (Winter chest infections (night guard), net-new)
+**Notion:** https://app.notion.com/p/42423caff4448100910af1188026d57c
 **Type:** net-new (no DLF ad has proven spend yet). **Copy source:** StefanBrain (https://stefanbrain.com/chat/56ff3f90-1a5e-4262-ab3e-2c5c45544566, session dentalpulse-longform-2026-11-26-s4). Copy pasted verbatim; `copy_source: stefanbrain`.
 **Persona:** Teeth grinder, 30–60, man · narrator=self (wife connects the dates)
 **Angle → hero mechanism:** The guard sits wet in a closed case 16 hours a day and its pore film seeds his throat and chest all night; a rinse doesn't touch it, 42,000 Hz + UV-C does.
@@ -7,9 +8,9 @@
 **What's kept from the winners:** tablets and brushing clean only the surface; biofilm in the pores and scratches; the $30 pod that dies; "6 of 7 pods leave live bacteria" (90-day lab test of 7 pods, DentalPULSE #1); 42,000 Hz + medical-grade UV-C in one 5-minute cycle; tap water only; the brown first-cycle water; price inversion (years of tablets / a new appliance vs $99.95).
 **What's new:** Fishing-boat captain, 49, Gloucester MA; quit smoking 2019; bronchitis every winter since the guard; winter. Hook type: Compliance paradox. Reveal: In person: an expert friend from his world explains.
 **DR tags:** Awareness: unaware · Lead: problem-solution / compliance paradox · One belief: the guard, not the cold, seeds his chest · Mechanism: wet case 16 h a day, pore film aspirated at night · Messenger: urgent-care respiratory therapist and doctor · Proof: wife's calendar dates, O'Donnell, Iinuma, brown water
-**StefanBrain notes:** Angle: Night guard respiratory infections (winter chest infections / aspiration pneumonia seeded by overnight biofilm). Hero mechanism trace: Night guards sitting wet in dark cases incubate bacterial biofilm inside microscopic acrylic pores that brushes and tablets cannot reach, which is aspirated into the lungs overnight until 42,000 Hz ultrasonic cavitation and medical-grade UV-C light physically extract and eliminate 99.9% of bacteria in a 5-minute cycle. Core emotion: Betrayal (did everything right for his health) and fear for his livelihood. Reference structure modelled: Playbook hook 2 (compliance paradox: 'My hunting buddy quit drinking in July. He was dead by Halloween.') paired with the Try Pup Labs 161s video structure (fisherman winter tips listicle pivoting to 'the part nobody talks about: mouth bacteria seeding organs'), with his wife Colleen serving as the witness connecting the receipt dates. Hook type: Compliance paradox. Open-loop type: What was really causing his winter lung infections despite living clean. Lead type: Problem-solution. Awareness level: Unaware. One-belief sentence: My chronic winter lung infections were not caused by the freezing ocean spray or bad luck, but by bacterial biofilm thriving inside the microscopic pores of my night guard that only a clinical 42,000 Hz ultrasonic cleaner can extract. Measured character count: 12837.
+**StefanBrain notes:** Angle: Night guard respiratory infections (winter chest infections / aspiration pneumonia seeded by overnight biofilm). Hero mechanism trace: Night guards sitting wet in dark cases incubate bacterial biofilm inside microscopic acrylic pores that brushes and tablets cannot reach, which is aspirated into the lungs overnight until 42,000 Hz ultrasonic cavitation and medical-grade UV-C light physically extract and eliminate 99.9% of bacteria in a 5-minute cycle. Core emotion: Betrayal (did everything right for his health) and fear for his livelihood. Reference structure modelled: Playbook hook 2 (compliance paradox: 'My hunting buddy quit drinking in July. He was dead by Halloween.') paired with the Try Pup Labs 161s video structure (fisherman winter tips listicle pivoting to 'the part nobody talks about: mouth bacteria seeding organs'), with his wife Colleen serving as the witness connecting the receipt dates. Hook type: Compliance paradox. Open-loop type: What was really causing his winter lung infections despite living clean. Lead type: Problem-solution. Awareness level: Unaware. One-belief sentence: My chronic winter lung infections were not caused by the freezing ocean spray or bad luck, but by bacterial biofilm thriving inside the microscopic pores of my night guard that only a clinical 42,000 Hz ultrasonic cleaner can extract. Measured character count: 12963.
 **Scorecard:** 17/20 (hook 2, awareness 2, one belief 2, mechanism 2, proof 2, objections 1, enemy/price inversion 2, payoff 2, offer/close 1, line craft 1). Graded by Claude after StefanBrain's revision.
-**Format:** static image + long primary text (12.8k characters, measured; brand first named at 61%). Format/fatigue: Problem-solution story; respiratory angle new for guards (r/TMJ strep post, 2026-11-06).
+**Format:** static image + long primary text (13.0k characters, measured; brand first named at 62%). Format/fatigue: Problem-solution story; respiratory angle new for guards (r/TMJ strep post, 2026-11-06).
 **Headline:** Why Dentists Recommend An Ultrasonic Cleaner For Night Guards
 **CTA:** Learn More
 **Landing page:** https://dentalpulsepro.com/products/dentalpulse-pod-denture-bundle-gifts
@@ -178,17 +179,21 @@ I stood there in the clinic hallway staring at the linoleum floor.
 
 Later on, I looked up the actual clinical research.
 
-A 2015 study by Iinuma and colleagues in the Journal of Dental Research followed 524 people over three years.
+A 2015 study by Iinuma and colleagues in the Journal of Dental Research followed 524 people aged 85 and older for three years.
 
-They found that people who slept with oral appliances in their mouths had more than double the risk of pneumonia compared to those who did not.
+They found that seniors who slept in their dentures had more than double the risk of pneumonia compared to those who took them out.
 
 They also had significantly more bacterial plaque and Candida yeast.
 
-Another study in 2016 by O'Donnell in the Journal of Prosthodontics found that pneumonia-causing germs were actively colonizing 64% of the oral appliances they sampled.
+Another study in 2016 by O'Donnell in the Journal of Prosthodontics found that pneumonia-causing germs were on the dentures of about 64% of elderly hospital patients sampled.
 
-Almost two-thirds of those appliances were carrying pathogens known to cause lung infections.
+The studies were on dentures, but the connection hit me like a rogue wave.
 
-And I had been soaking mine in spit, sealing it in a plastic box, and breathing over it every single night.
+Dentures and night guards are molded from the exact same porous dental acrylic.
+
+They sit in the same dark, humid plastic box all day, and you sleep over them all night.
+
+And I had been soaking mine in spit, sealing it in a case, and breathing over it every single night.
 
 I threw the plastic case onto the counter and paced the kitchen.
 
@@ -258,11 +263,11 @@ It was the cheapest insurance policy I had ever bought.
 
 Here is why the DentalPULSE Pod is completely different from anything else:
 
-First, it uses a medical-grade 42,000 Hz ultrasonic transducer.
+First, it uses a 42,000 Hz ultrasonic transducer.
 
 That means it creates 42,000 microscopic sound-wave implosions every second.
 
-Those tiny cavitation bubbles blast into every microscopic pore and scratch in the acrylic, ripping biofilm, yellow stains, and trapped gunk out from the inside.
+Those tiny cavitation bubbles blast into every microscopic pore and scratch in the acrylic, ripping biofilm and trapped gunk out from the inside.
 
 Second, it pairs that ultrasonic power with built-in medical-grade UV-C light.
 
@@ -383,4 +388,4 @@ I quit smoking five years ago to protect my lungs, and I spent last January flat
 | Price inversion | Family 1 ("you pay for them forever") | Before the offer |
 | Outcome lines | "After one cycle, the water turns brown" | First cycle |
 | Offer, claims | brand.json | Close |
-| Brand position | — | 61% |
+| Brand position | — | 62% |

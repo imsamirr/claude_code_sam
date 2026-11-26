@@ -1,4 +1,5 @@
 # DLF30: "Not again with my daughter" (Relapse cost (teen retainer), net-new)
+**Notion:** https://app.notion.com/p/42423caff44481b698cfdf54bdfe3f8d
 **Type:** net-new (no DLF ad has proven spend yet). **Copy source:** StefanBrain (https://stefanbrain.com/chat/81347920-a885-481a-93ea-539e0706b6c7, session dentalpulse-longform-2026-11-26-s5). Copy pasted verbatim; `copy_source: stefanbrain`.
 **Persona:** Parent of a teen with retainers (witness narrator) · narrator=witness
 **Angle → hero mechanism:** Film in the retainer's pores makes it cloudy and smelly so teens stop wearing it; tablets and toothpaste don't reach it, 42,000 Hz + UV-C does.

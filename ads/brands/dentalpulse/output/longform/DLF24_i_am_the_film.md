@@ -1,4 +1,5 @@
 # DLF24: "I live on your teeth" (Tablets fail, net-new)
+**Notion:** https://app.notion.com/p/42423caff44481b09474d1c066c792cb
 **Type:** net-new (no DLF ad has proven spend yet). **Copy source:** StefanBrain (https://stefanbrain.com/chat/37f12dd3-70a5-4259-827d-880898e4cb33, session dentalpulse-longform-2026-11-26-s2). Copy pasted verbatim; `copy_source: stefanbrain`.
 **Persona:** Denture wearer, 60+, man who soaks in Polident nightly · narrator=self (the biofilm narrates)
 **Angle → hero mechanism:** The film waits in the pores while the tablet fizzes on the surface and the brush carves it new scratches; 42,000 Hz + UV-C in one 5-minute cycle reaches it.
