@@ -1,4 +1,4 @@
-# Retra W49 angles batch (Sam's 61 picked formats × his 13 angles + 3 StefanBrain angles)
+# Retra W49 angles batch: 59 statics from Sam's 61 picked formats × his angles
 
 19 concepts, 1 static each, 9:16 master (`_9x16.png`, content inside the centred 4:5 band) + 4:5 crop (`_4x5.png`).
 Funnel: 13 TOF · 3 MOF · 3 BOF.
@@ -23,3 +23,15 @@ Kie: 354 credits for 14 scene renders + 18 for the disposable cut-out, about $1.
 - `_ILLUSTRATIVE` (02, 10, 18, 19): the sample photos are Kie renders with Retra's filter curves applied, not real Retra photos. Swap in real samples before launch.
 - 01 uses the handle "@retra": confirm Retra's real handle.
 - Several primary texts mention looking "through the viewfinder" (the camera has a viewfinder window; confirm it's usable).
+
+## Batch 2 (ids 20-59, added 2026-11-26)
+Sam's remaining picked formats (Manta's review card skipped: no real reviews yet), copy in `copy_b2.json` (StefanBrain v2 after claim fixes),
+layouts in `b2.py`, scenes from `batch2.py` (4K Kie). Funnel across all 59: 37 TOF · 13 MOF · 9 BOF.
+
+## Realism + grip pass (2026-11-26)
+- Product layouts now use real 4K Kie product photos (`products.py`: each colour on a white sweep, fronts, Sol on navy,
+  six-colour lineup on black) placed with a multiply blend (`lib.product` / `lib.multiply`), replacing pasted cut-outs.
+- Every hands-on-camera scene was re-rendered with a grip spec (hands on the ends, finger on the shutter, nothing over the
+  lens/flash/viewfinder/wordmark); picks in `scenes.py`.
+- No-camera scenes are rendered without the wordmark allowance (`rerender_noref.py`) so nothing else carries "Retra".
+- Comparison charts label our column "Ours" (09, 30, 45, 54). 08 headline is Sam's own line.

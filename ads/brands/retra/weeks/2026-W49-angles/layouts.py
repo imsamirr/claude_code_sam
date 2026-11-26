@@ -35,6 +35,18 @@ def raw(path):
     return Image.open(p if p.exists() else p.with_suffix(".jpg")).convert("RGB")
 
 
+def dark_photo(img, name, width, cx, cy, frac):
+    """Paste a crop of a dark-backdrop studio photo with feathered edges (backdrop matches the layout)."""
+    im = Image.open(HERE / f"renders/{name}_t1.png").convert("RGB")
+    w, h = im.size
+    c = im.crop((int(frac[0] * w), int(frac[1] * h), int(frac[2] * w), int(frac[3] * h)))
+    c = c.resize((width, int(c.height * width / c.width)), Image.LANCZOS).convert("RGBA")
+    m = Image.new("L", c.size, 0)
+    ImageDraw.Draw(m).rounded_rectangle((c.width * .08, c.height * .1, c.width * .92, c.height * .9), c.width * .2, fill=255)
+    c.putalpha(m.filter(ImageFilter.GaussianBlur(c.width * .06)))
+    img.alpha_composite(c, (int(cx - c.width / 2), int(cy - c.height / 2)))
+
+
 def disposable(height):
     """Generic, unbranded disposable camera + film canister (green-screen cut-out)."""
     im = Image.open(HERE / "renders/disposable_cut.png").convert("RGBA")
@@ -107,7 +119,7 @@ def a02(cid):
     y = text_block(img, S(cid, "headline", "Headline here"), tinos, 70, 1290, 650, 3, 62, 46, (247, 240, 226), "left")
     text_block(img, S(cid, "sub", "Sub line here"), lambda s: inter(s, "Regular"), 72, y + 8, 620, 2, 30, 24,
                (222, 205, 184), "left", 1.25)
-    place(img, cam("dune", 320, -4), 880, 1440, shadow=0.6, blur=20)
+    dark_photo(img, "p02_dune_dark", 360, 870, 1440, (0.14, 0.24, 0.97, 0.8))
     return grain(img, 3)
 
 
@@ -119,7 +131,7 @@ def a04(cid):
     for ln in lines:
         f, ls = fit(ln, lambda s: shantell(s), 900, 1, 78, 50)
         y = draw_lines(img, ls, f, 90, y, INK, "left", 1.12, None, 900) + 6
-    place(img, cam("blossom", 760, -3), W / 2 + 40, 1090, shadow=0.42, blur=30, drop=(0, 34))
+    prod(img, "p34_blossom", 820, W / 2, 1090)
     text_block(img, S(cid, "footer", "Footer line"), lambda s: inter(s, "Regular"), 90, 1460, 900, 1, 36, 26, BODY,
                "center")
     return img
@@ -127,12 +139,12 @@ def a04(cid):
 
 # ---------------------------------------------------------------- 07 social detox: colour-block question
 def a07(cid):
-    img = canvas(INK)
+    img = ImageOps.fit(Image.open(HERE / "renders/p07_sol_navy_t1.png").convert("RGB"), (W, H), Image.LANCZOS,
+                       centering=(0.5, 0.62)).convert("RGBA")
     y = text_block(img, S(cid, "headline", "A big question here?"), lambda s: tinos(s, -0.04), 70, 370, 940, 3, 112,
                    72, (247, 240, 226), "center", 1.1)
     text_block(img, S(cid, "sub", "Sub line here"), lambda s: inter(s, "Regular"), 90, y + 18, 900, 2, 38, 28,
-               (190, 205, 216), "center", 1.25)
-    place(img, cam("sol", 840, -4), W / 2, 1270, shadow=0.7, blur=34, drop=(0, 40))
+               (196, 210, 222), "center", 1.25)
     return img
 
 
@@ -140,39 +152,18 @@ def a07(cid):
 def a08(cid):
     img = canvas(WHITE)
     hl = S(cid, "headline", "Headline with keywords")
-    kws = [k.strip().strip('"').lower() for k in S(cid, "keywords_to_colour", "").replace(";", ",").split(",") if k.strip()]
-    f, lines = fit(hl, tinos, 960, 3, 92, 60)
-    asc, desc = f.getmetrics()
-    lh = int((asc + desc) * 1.04)
-    y = 360
-    d = ImageDraw.Draw(img)
-    for line in lines:  # colour keyword runs
-        lw = measure(f, line)
-        x = (W - lw) / 2
-        low = line.lower()
-        spans = []
-        for k in kws:
-            i = low.find(k)
-            if i >= 0:
-                spans.append((i, i + len(k)))
-        cur = 0
-        segs = []
-        for a_, b_ in sorted(spans):
-            if a_ > cur:
-                segs.append((line[cur:a_], NAVY50))
-            segs.append((line[a_:b_], INK))
-            cur = b_
-        segs.append((line[cur:], NAVY50))
-        for t, col in segs:
-            if not t:
-                continue
-            draw_text(d, (x, y), t, f, col)
-            x += measure(f, t) + f.track
-        lib.TEXT_BOXES.append(((W - lw) / 2, y, (W + lw) / 2, y + lh))
-        y += lh
-    obj = front("obsidian", 820)
-    box = place(img, obj, W / 2, 1120, shadow=0.4, blur=30, drop=(0, 32))
-    bx0, by0, bx1, by1 = box
+    kw = S(cid, "keywords_to_colour", "").strip()
+    i = hl.lower().find(kw.split(",")[0].strip().lower()) if kw else -1
+    pre, emph = (hl[:i].strip(), hl[i:].strip()) if i > 0 else ("", hl)
+    f, _ = fit(hl, tinos, 960, 3, 92, 60)
+    y = 340
+    if pre:
+        y = draw_lines(img, balanced(pre, f, 960), f, 60, y, NAVY50, "center", 1.1, None, 960)
+    y = draw_lines(img, balanced(emph, f, 960), f, 60, y, INK, "center", 1.1, None, 960)
+    px0, py0, px1, py1 = prod(img, "pfront_obsidian", 860, W / 2, 1110, pad=0.0)
+    reg = np.asarray(img.crop((px0, py0, px1, py1)).convert("L")) < 120   # the camera body in the placed photo
+    ys_, xs_ = np.where(reg)
+    bx0, bx1, by0, by1 = px0 + xs_.min(), px0 + xs_.max(), py0 + ys_.min(), py0 + ys_.max()
     bw, bh = bx1 - bx0, by1 - by0
     pts = [(0.17, 0.16), (0.80, 0.14), (0.84, 0.58), (0.33, 0.62)]  # wordmark band, viewfinder/flash, button, lens
     labels = [(140, by0 - 70, "l"), (W - 140, by0 - 70, "r"), (W - 120, by1 + 70, "r"), (120, by1 + 70, "l")]
@@ -199,14 +190,10 @@ def a09(cid):
     top = y + 30
     colx = [70, 470, 780]  # label col, left col centre band start, right col
     # header images
-    place(img, disposable(280), 530, top + 150, shadow=0.35, blur=16, drop=(0, 14))
-    place(img, cam("chalk", 300, -3), 850, top + 150, shadow=0.35, blur=18, drop=(0, 16))
+    multiply(img, product("pdisp_white", 250, share=0.05), 530, top + 150)
+    prod(img, "p34_chalk", 310, 850, top + 150)
     fh = inter(34, "Bold")
     hy = top + 310
-    for txt, cx in [(S(cid, "col_left", "Disposable"), 530), (S(cid, "col_right", "Retra"), 850)]:
-        f_, l_ = fit(txt, lambda s: inter(s, "Bold"), 290, 2, 34, 24)
-        draw_lines(img, l_, f_, cx - 145, hy, INK, "center", 1.08, None, 290)
-    d = ImageDraw.Draw(img)
     ry = hy + 100
     rows = []
     for i in range(1, 6):
@@ -215,8 +202,11 @@ def a09(cid):
             parts = [p.strip() for p in r.split("|")]
             rows.append(parts + [""] * (3 - len(parts)))
     rh = 128
-    # highlight Retra column
-    d.rounded_rectangle((700, hy - 20, 1000, ry + rh * len(rows) + 10), 26, fill=(239, 243, 246))
+    ImageDraw.Draw(img).rounded_rectangle((700, hy - 20, 1000, ry + rh * len(rows) + 10), 26, fill=(239, 243, 246))
+    for txt, cx in [(S(cid, "col_left", "Disposable"), 530), (S(cid, "col_right", "Retra"), 850)]:
+        f_, l_ = fit(txt, lambda s: inter(s, "Bold"), 290, 2, 34, 24)
+        draw_lines(img, l_, f_, cx - 145, hy, INK, "center", 1.08, None, 290)
+    d = ImageDraw.Draw(img)
     fl = inter(32, "SemiBold")
     fv = inter(32, "Medium")
     for i, (lab, lv, rv) in enumerate(rows):
@@ -253,7 +243,7 @@ def a10(cid):
     bottom = gy + 2 * T + gap
     text_block(img, S(cid, "sub", "Sub line here"), lambda s: inter(s, "Regular"), int(gx), bottom + 34, 520, 3, 34, 24,
                BODY, "left", 1.25)
-    place(img, cam("sol", 300, -4), W - gx - 150, bottom + 125, shadow=0.45, blur=20, drop=(0, 16))
+    prod(img, "p34_sol", 320, W - gx - 160, bottom + 125)
     return img
 
 
@@ -275,7 +265,7 @@ def a11(cid):
         t = Image.new("RGBA", (tw_, th_), TILE_BG[c] + (255,))
         t = rounded(t, 24)
         img.alpha_composite(t, (int(x), int(yy)))
-        place(img, cam(c, 260, -3), x + tw_ / 2, yy + 150, shadow=0.35, blur=12, drop=(0, 10))
+        prod(img, f"p34_{c}", 270, x + tw_ / 2, yy + 140)
         lab = S(cid, f"tile_{c}", c.title())
         f, ls = fit(lab, lambda s: inter(s, "SemiBold"), tw_ - 30, 2, 28, 20)
         draw_lines(img, ls, f, x + 15, yy + 262, INK, "center", 1.12, None, tw_ - 30)
@@ -286,29 +276,12 @@ def a11(cid):
 
 # ---------------------------------------------------------------- 14 offer: colour lineup lit on black
 def a14(cid):
-    img = canvas((8, 8, 10))
-    spot = Image.new("L", (W, H), 0)
-    ImageDraw.Draw(spot).ellipse((-150, 700, 1230, 1650), fill=255)
-    spot = spot.filter(ImageFilter.GaussianBlur(170)).point(lambda v: int(v * 0.42))
-    img.alpha_composite(Image.merge("RGBA", (*Image.new("RGB", (W, H), (70, 62, 54)).split(), spot)))
-    y = text_block(img, S(cid, "headline", "Pay for 2. Get 3."), lambda s: tinos(s, -0.04), 70, 360, 940, 2, 118, 80,
+    img = ImageOps.fit(Image.open(HERE / "renders/p14_lineup_black_t1.png").convert("RGB"), (W, H), Image.LANCZOS,
+                       centering=(0.5, 0.62)).convert("RGBA")
+    y = text_block(img, S(cid, "headline", "Pay for 2. Get 3."), lambda s: tinos(s, -0.04), 70, 380, 940, 2, 118, 80,
                    (247, 240, 226), "center", 1.1)
     text_block(img, S(cid, "sub", "Sub line here"), lambda s: inter(s, "Regular"), 90, y + 14, 900, 2, 38, 28,
-               (200, 192, 180), "center", 1.25)
-    rows = [(["chalk", "sol", "blossom"], 980), (["obsidian", "dune", "pine"], 1300)]
-    for r_, (cols, cy) in enumerate(rows):
-        for j, c in enumerate(cols):
-            cx = 200 + j * 340
-            o = cam(c, 330)
-            if r_ == 0:
-                place(img, o, cx, cy, shadow=0.8, blur=14, drop=(0, 18))
-                continue
-            # floor reflection
-            ref = ImageOps.flip(o)
-            fade = np.linspace(0.32, 0, ref.height)[:, None] * (np.asarray(ref.getchannel("A")) / 255)
-            ref.putalpha(Image.fromarray((fade * 255).astype("uint8")))
-            img.alpha_composite(ref, (int(cx - o.width / 2), int(cy + o.height / 2 - 6)))
-            place(img, o, cx, cy, shadow=0.0)
+               (205, 198, 186), "center", 1.25)
     return img
 
 
@@ -335,7 +308,7 @@ def a15(cid):
     so = S(cid, "signoff", "The Retra team")
     fs = shantell(52)
     draw_lines(img, [so], fs, 80, y + 10, INK, "left", 1.0, None, 900)
-    place(img, cam("blossom", 340, -6), W - 240, 1500, shadow=0.45, blur=22, drop=(0, 20))
+    prod(img, "p34_blossom", 360, W - 240, 1490)
     return img
 
 
@@ -368,7 +341,7 @@ def a16(cid):
         draw_lines(img, [t], fl, 220, y + 2, INK, "left", 1.0, None, 720)
         d = ImageDraw.Draw(img)
         y += 72
-    place(img, front("chalk", 520), W / 2, y + 150, shadow=0.35, blur=22, drop=(0, 18))
+    prod(img, "pfront_chalk", 540, W / 2, y + 150)
     pill(img, S(cid, "pill", "Shop now"), inter(36, "SemiBold"), W / 2, 1520, "cta", WHITE, padx=56, pady=20)
     return img
 
@@ -390,8 +363,8 @@ def a17(cid):
     d = ImageDraw.Draw(img)
     d.rounded_rectangle((190, cy - 70, 270, cy + 80), 16, outline=INK, width=5)
     d.ellipse((222, cy + 54, 238, cy + 70), fill=INK)
-    place(img, disposable(165), 875, cy + 5, shadow=0.3, blur=10, drop=(0, 8))
-    place(img, cam("pine", 270, -3), 540, cy - 10, shadow=0.4, blur=14, drop=(0, 12))
+    multiply(img, product("pdisp_white", 150, share=0.05), 875, cy + 5)
+    prod(img, "p34_pine", 290, 540, cy - 10)
     draw_lines(img, [S(cid, "overlap_center", "Retra")], inter(32, "Bold"), 390, cy + 110, INK, "center", 1, None, 300)
     text_block(img, S(cid, "sub", "Sub"), lambda s: inter(s, "Regular"), 90, cy + r + 40, 900, 2, 36, 26, BODY,
                "center", 1.25)
@@ -419,7 +392,7 @@ def a18(cid):
     card = Image.new("RGBA", (450, 500), (250, 247, 240, 255))
     card.paste(pr, (15, 15))
     place(img, card.rotate(-5, Image.BICUBIC, expand=True), 300, max(y + 250, 1330), shadow=0.4, blur=16, drop=(6, 12))
-    place(img, cam("obsidian", 440, 4), 760, max(y + 300, 1380), shadow=0.5, blur=22, drop=(0, 20))
+    prod(img, "p34_obsidian", 440, 770, max(y + 300, 1380))
     return img
 
 
@@ -454,7 +427,7 @@ def a19(cid):
         d = ImageDraw.Draw(img)
     yb = y + 2 * step + 190
     text_block(img, S(cid, "sub", "Sub"), lambda s: inter(s, "Regular"), 90, yb + 80, 520, 2, 34, 26, INK, "left", 1.25)
-    place(img, cam("dune", 300, -4), 840, yb + 175, shadow=0.45, blur=18, drop=(0, 16))
+    prod(img, "p34_dune", 310, 840, yb + 170)
     return img
 
 

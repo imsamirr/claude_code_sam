@@ -12,7 +12,7 @@ from layouts import S, text_block, tick, rounded
 
 HERE = Path(__file__).resolve().parent
 R = HERE / "renders"
-PICKS = {"01": "01_t1", "03": "03_t1", "05a": "05a_t2", "05b": "05b_t1", "06": "06_t1", "12": "12_t1", "13": "13_t2"}
+PICKS = {"01": "01_t4", "03": "03_t3", "05a": "05a_t2", "05b": "05b_t4", "06": "06_t4", "12": "12_t4", "13": "13_t2"}
 
 
 def src(k):

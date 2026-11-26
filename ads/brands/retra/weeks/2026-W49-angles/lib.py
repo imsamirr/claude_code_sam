@@ -242,3 +242,65 @@ def save(img, stem):
     rgb.save(OUT / f"{stem}_9x16.png")
     rgb.crop((0, TOP, W, BOT)).save(OUT / f"{stem}_4x5.png")
     return OUT / f"{stem}_4x5.png"
+
+
+# ---------------------------------------------------------------- real product photos (Kie, white sweep)
+PROD_PICKS = {"p34_chalk": "p34_chalk_t2", "p34_obsidian": "p34_obsidian_t2", "p34_dune": "p34_dune_t2"}  # default <name>_t1
+
+
+def _level_white(a):
+    """Lift the paper sweep to pure white (per-channel gain from the border median), keep shadows."""
+    h, w = a.shape[:2]
+    e = max(8, h // 40)
+    border = np.concatenate([a[:e].reshape(-1, 3), a[-e:].reshape(-1, 3), a[:, :e].reshape(-1, 3), a[:, -e:].reshape(-1, 3)])
+    bg = np.percentile(border, 60, axis=0)
+    a = np.clip(a * (255.0 / np.maximum(bg, 1)), 0, 255)
+    # near-white paper falloff -> pure white (values 228..244 stretched to 228..255); real shadows are darker
+    return np.where(a > 228, np.minimum(255, 228 + (a - 228) * 1.7), a)
+
+
+def product(name, width, pad=0.05, shadow=0.12, share=0.25):
+    """A white-sweep product render, levelled to pure white, isolated to the camera(s) + contact shadow
+    (stray props and backdrop edges fade to white), cropped and scaled to `width`."""
+    import cv2
+    stem = PROD_PICKS.get(name, f"{name}_t1")
+    im = Image.open(HERE / "renders" / f"{stem}.png").convert("RGB")
+    a = _level_white(np.asarray(im).astype(np.float32))
+    h, w = a.shape[:2]
+    dark = (a.min(-1) < (215 if share < 0.1 else 150)).astype(np.uint8)
+    dark = cv2.morphologyEx(dark, cv2.MORPH_CLOSE, np.ones((max(5, w // 150),) * 2, np.uint8))
+    n, lab, st, _ = cv2.connectedComponentsWithStats(dark)
+    inner = [i for i in range(1, n) if st[i, 0] > 2 and st[i, 1] > 2 and st[i, 0] + st[i, 2] < w - 2
+             and st[i, 1] + st[i, 3] < h - 2]  # ignore backdrop edges touching the frame
+    inner = inner or list(range(1, n))  # subject fills the frame: keep everything
+    top = max(st[i, cv2.CC_STAT_AREA] for i in inner)
+    keep = [i for i in inner if st[i, cv2.CC_STAT_AREA] > top * share]  # the camera(s); drops props
+    xs0 = min(st[i, 0] for i in keep); ys0 = min(st[i, 1] for i in keep)
+    xs1 = max(st[i, 0] + st[i, 2] for i in keep); ys1 = max(st[i, 1] + st[i, 3] for i in keep)
+    bw, bh = xs1 - xs0, ys1 - ys0
+    sig = bw * 0.045
+    # mask: body + a little side/top room + the contact shadow below, feathered; crop leaves room for the fade
+    mx0, mx1 = xs0 - bw * pad * 0.6, xs1 + bw * pad * 0.6
+    my0, my1 = ys0 - bh * pad * 0.6, ys1 + bh * shadow
+    m = np.zeros((h, w), np.float32)
+    m[int(max(0, my0)):int(min(h, my1)), int(max(0, mx0)):int(min(w, mx1))] = 1
+    m = cv2.GaussianBlur(m, (0, 0), sig)
+    X0, X1 = max(0, int(mx0 - 3 * sig)), min(w, int(mx1 + 3 * sig))
+    Y0, Y1 = max(0, int(my0 - 3 * sig)), min(h, int(my1 + 3 * sig))
+    a = a * m[..., None] + 255 * (1 - m[..., None])
+    out = Image.fromarray(a[Y0:Y1, X0:X1].astype("uint8"))
+    return out.resize((width, int(out.height * width / out.width)), Image.LANCZOS)
+
+
+def multiply(img, photo, cx, cy):
+    """Multiply-blend an RGB photo (white = transparent) centred at (cx, cy); returns the placed box."""
+    from PIL import ImageChops
+    x, y = int(cx - photo.width / 2), int(cy - photo.height / 2)
+    box = (x, y, x + photo.width, y + photo.height)
+    base = img.crop(box).convert("RGB")
+    img.paste(ImageChops.multiply(base, photo).convert("RGBA"), (x, y))
+    return box
+
+
+def prod(img, name, width, cx, cy, **kw):
+    return multiply(img, product(name, width, **kw), cx, cy)

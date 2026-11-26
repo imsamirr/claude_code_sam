@@ -204,11 +204,11 @@
    "slots": [
     {
      "name": "headline",
-     "text": "A modern camera with no Wi-Fi or Bluetooth."
+     "text": "A modern camera with no screen, no Wi-Fi, no Bluetooth."
     },
     {
      "name": "keywords_to_colour",
-     "text": "no Wi-Fi"
+     "text": "no screen, no Wi-Fi, no Bluetooth"
     },
     {
      "name": "callout_1",
@@ -247,7 +247,7 @@
     },
     {
      "name": "col_right",
-     "text": "Retra Camera"
+     "text": "Ours"
     },
     {
      "name": "row_1",
@@ -574,5 +574,9 @@
   ],
   "chat": "chat_e2881d64bb4e43c687b42831eb31dff3",
   "version": "v2 (claim fixes)"
- }
+ },
+ "user_edits": [
+  "08 headline written by Sam (2026-11-26)",
+  "09 col_right 'Ours' requested by Sam (2026-11-26)"
+ ]
 }
