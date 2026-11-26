@@ -5,3 +5,6 @@
 {"jobs": ["boxblank_chalk", "boxblank_obsidian", "boxblank_sol"], "fix": "", "credits_spent": 54.0, "usd": 0.27}
 {"jobs": ["macro_chalk", "macro_obsidian", "macro_sol", "float_chalk", "float_obsidian", "float_sol", "disposable", "scene_split", "portrait"], "fix": "", "credits_spent": 162.0, "usd": 0.81}
 {"jobs": ["float_dune"], "fix": "", "credits_spent": 18.0, "usd": 0.09}
+{"jobs": ["sample_party", "sample_ferry", "sample_sand", "sample_rain", "sample_bike"], "fix": "", "credits_spent": 90.0, "usd": 0.45}
+{"jobs": ["sample_party"], "fix": "The last version was a collage of two photos with a white border. Make ONE single full-bleed photo filling the whole frame edge to edge, no border, no frame, no collage.", "credits_spent": 18.0, "usd": 0.09}
+{"jobs": ["sample_bike"], "fix": "The last version had a dark border around the photo. Fill the whole frame edge to edge: no border, no frame, no vignette edge.", "credits_spent": 18.0, "usd": 0.09}

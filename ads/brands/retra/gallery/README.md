@@ -25,3 +25,8 @@ Rebuild: `python3 compose_gallery.py` (raw renders are committed as JPEG; the 2K
   "simulated" and never "shot with Retra". Replace them with real Retra photos when you have them.
 - The flow image compares a generic, unbranded disposable camera with Retra. It doesn't imply Retra is built from disposable parts.
 - Words by StefanBrain (`gallery_copy.json`). Fonts: Inter ExtraBold headline at -0.05em plus a Tinos serif subhead, in navy.
+
+## Sample photos (`sample1`-`sample5`, ILLUSTRATIVE)
+- Original Kie scenes (party, ferry, beach, rainy street, bicycle). None are copied from Retropia.
+- Each has one Retra filter applied in code (`retra_filter` in compose_gallery.py, the same curves as the landing page)
+  plus grain and lens falloff. The captions say "Simulated preview"; replace these with real Retra photos when you have them.

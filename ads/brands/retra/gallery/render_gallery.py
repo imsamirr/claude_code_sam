@@ -118,6 +118,29 @@ def jobs():
         " and green shrubs behind against a clear blue sky. Snapshot feel, slightly tilted framing, natural skin"
         " texture, flyaway hair. No text, no logos, no signs." + REAL.replace(
             " except the gold serif 'Retra' wordmark printed on the camera exactly as in the reference", "")))
+    nt = REAL.replace(" except the gold serif 'Retra' wordmark printed on the camera exactly as in the reference", "")
+    snap = " Candid 35mm-style snapshot, slightly imperfect framing, natural skin texture. No cameras or phones visible."
+    j["sample_party"] = dict(refs=[], prompt=(
+        "Indoor house party at night: three friends in their late 20s crowd around a turntable on a wooden sideboard,"
+        " one flipping a vinyl record, the others laughing and mid-dance, string lights and plants behind, a few"
+        " drinks on the sideboard. Direct on-camera flash, hard shadows on the wall, slight motion blur on the dancer."
+        " No readable text, no album art, no logos." + snap + nt))
+    j["sample_ferry"] = dict(refs=[], prompt=(
+        "A young woman seen from behind on the open deck of a small ferry, leaning on the white railing, hair blowing"
+        " in the wind, linen shirt, looking out at a rocky green coastline and turquoise sea, late afternoon sun, wake"
+        " foam below. Horizon slightly tilted." + snap + nt))
+    j["sample_sand"] = dict(refs=[], prompt=(
+        "Point-of-view photo looking straight down at a person's bare feet in warm sand at the edge of a striped beach"
+        " towel; on the towel a pair of sunglasses and a well-worn paperback with a plain blank cover; a little seawater"
+        " foam reaching the bottom corner. Bright midday sun, crisp shadows." + snap + nt))
+    j["sample_rain"] = dict(refs=[], prompt=(
+        "Rainy city street at night seen from a sidewalk: people with umbrellas crossing, wet asphalt reflecting car"
+        " tail lights and shop light, light streaks from a passing car, a cyclist in a raincoat. Shop windows glow but"
+        " carry no readable signs, letters or logos." + snap + nt))
+    j["sample_bike"] = dict(refs=[], prompt=(
+        "An old city bicycle with a wicker front basket leaning against a pale pink plaster wall beside a weathered"
+        " green wooden door, terracotta pots of geraniums on the cobbled pavement, soft morning light, a cat asleep on"
+        " the doorstep. No signs, no house numbers, no text." + snap + nt))
     return j
 
 

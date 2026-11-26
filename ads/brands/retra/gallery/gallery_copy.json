@@ -1,5 +1,5 @@
 {
- "source": "StefanBrain, project Retra Launch, chat chat_e2881d64bb4e43c687b42831eb31dff3, run run_5e01c287c6c441f58f542d49d4cb9cc1, 2026-11-25; slots 5-7: run run_01d1b48a4e114dfcb0d5489997848731; Retropia-style slots: run run_ef8ed32f96df4e3d911ea7a967ffeed7",
+ "source": "StefanBrain, project Retra Launch, chat chat_e2881d64bb4e43c687b42831eb31dff3, run run_5e01c287c6c441f58f542d49d4cb9cc1, 2026-11-25; slots 5-7: run run_01d1b48a4e114dfcb0d5489997848731; Retropia-style slots: run run_ef8ed32f96df4e3d911ea7a967ffeed7; sample captions: run run_40d309e5ecaf4b9ba906fbb2a5062e38",
  "howto_title": "How Retra works.",
  "howto_steps": [
   "Press to power on",
@@ -60,5 +60,37 @@
  "split_top_sublabel": "Warm tones and nostalgic film grain",
  "split_bottom_label": "Standard phone camera",
  "split_bottom_sublabel": "Flat digital colors and harsh sharpness",
- "portrait_caption": "Simulated with Retra Vintage filter"
+ "portrait_caption": "Simulated with Retra Vintage filter",
+ "samples": [
+  {
+   "id": "party",
+   "filter": "Film",
+   "small": "Simulated preview",
+   "main": "Retra Film filter"
+  },
+  {
+   "id": "ferry",
+   "filter": "Vintage",
+   "small": "Simulated preview",
+   "main": "Retra Vintage filter"
+  },
+  {
+   "id": "sand",
+   "filter": "Natural",
+   "small": "Simulated preview",
+   "main": "Retra Natural filter"
+  },
+  {
+   "id": "rain",
+   "filter": "Black & White",
+   "small": "Simulated preview",
+   "main": "Retra Black & White filter"
+  },
+  {
+   "id": "bike",
+   "filter": "Film",
+   "small": "Simulated preview",
+   "main": "Retra Film filter"
+  }
+ ]
 }

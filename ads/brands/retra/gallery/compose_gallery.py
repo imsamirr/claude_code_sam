@@ -446,6 +446,72 @@ def portrait(_c=None):
     return img.convert("RGB")
 
 
+def retra_filter(im, name, seed=5):
+    """Retra's 4 looks, same curves as the landing page (landing-pages/retra/tools/filters2.py),
+    plus the soft lens falloff and grain of a small fixed lens."""
+    from PIL import ImageEnhance, ImageChops
+    im = im.convert("RGB")
+    w, h = im.size
+
+    def curves(img, r, g, b):
+        return Image.merge("RGB", [c.point(f) for c, f in zip(img.split(), (r, g, b))])
+
+    if name == "Natural":
+        out = ImageEnhance.Contrast(im).enhance(1.02)
+        g_amt, vig = 3.5, 0.12
+    elif name == "Vintage":
+        out = curves(ImageEnhance.Color(im).enhance(0.78), lambda x: int(26 + x * .88), lambda x: int(20 + x * .84),
+                     lambda x: int(14 + x * .72))
+        g_amt, vig = 6, 0.22
+    elif name == "Black & White":
+        out = ImageEnhance.Contrast(ImageOps.grayscale(im)).enhance(1.18).convert("RGB")
+        g_amt, vig = 8, 0.25
+    elif name == "Film":
+        out = curves(ImageEnhance.Contrast(ImageEnhance.Color(im).enhance(.9)).enhance(.92), lambda x: int(18 + x * .86),
+                     lambda x: int(14 + x * .84), lambda x: int(36 + x * .84))
+        g_amt, vig = 7, 0.2
+    else:
+        raise ValueError(name)
+    a = np.asarray(out).astype(np.float32)
+    yy, xx = np.mgrid[0:h, 0:w]
+    r = np.sqrt(((xx - w / 2) / (w / 2)) ** 2 + ((yy - h / 2) / (h / 2)) ** 2)
+    a *= (1 - vig * np.clip(r - 0.5, 0, 1) ** 1.6)[..., None]
+    rng = np.random.default_rng(seed)
+    noise = rng.normal(0, g_amt, (h, w, 1))
+    a += noise  # mono grain, same on all channels
+    return Image.fromarray(np.clip(a, 0, 255).astype("uint8"))
+
+
+def sample(spec):
+    raw = Image.open(src(PICKS[f"sample_{spec['id']}"])).convert("RGB")
+    k = PICKS.get("sample_crop", {}).get(spec["id"], 0)  # trim a print-style border Kie added
+    if k:
+        raw = raw.crop((k, k, raw.width - k, raw.height - k))
+    base = ImageOps.fit(raw, (S, S), Image.LANCZOS)
+    img = retra_filter(base, spec["filter"], seed=hash(spec["id"]) % 1000).convert("RGBA")
+    fs = tinos(40, -0.01)
+    fm = inter(54, "Bold")
+    fm.track = -0.04 * 54
+    x, yb = S - 80, S - 90
+    sh = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    sd = ImageDraw.Draw(sh)
+    text(sd, (x + 2, yb - 120 + 3), typeset(spec["small"]), fs, (0, 0, 0, 150), "r")
+    text(sd, (x + 2, yb - 68 + 3), typeset(spec["main"]), fm, (0, 0, 0, 150), "r")
+    img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(5)))
+    d = ImageDraw.Draw(img)
+    text(d, (x, yb - 120), typeset(spec["small"]), fs, (250, 248, 242), "r")
+    text(d, (x, yb - 68), typeset(spec["main"]), fm, (250, 248, 242), "r")
+    return img.convert("RGB")
+
+
+def samples_all():
+    for i, spec in enumerate(COPY["samples"], 1):
+        im = sample(spec)
+        name = f"RET_gallery_sample{i}_{spec['id']}_{spec['filter'].replace(' & ', '').lower()}_ILLUSTRATIVE.jpg"
+        im.save(OUT / name, quality=92)
+        print(name)
+
+
 BUILD = {"hand": hand, "howto": howto, "usbc": usbc, "frontback": frontback, "filters": filters, "gift": gift,
          "box": box, "macro": macro, "float": float_, "flow": flow, "split": split, "portrait": portrait}
 SINGLE = {"split", "portrait"}  # one version, no camera in frame
@@ -455,6 +521,8 @@ SUFFIX = {"filters": "_ILLUSTRATIVE", "split": "_ILLUSTRATIVE", "portrait": "_IL
 
 def main():
     which = sys.argv[1:] or list(BUILD)
+    if which == ["samples"]:
+        return samples_all()
     for k in which:
         for c in ([None] if k in SINGLE else COLOURS):
             im = BUILD[k](c)

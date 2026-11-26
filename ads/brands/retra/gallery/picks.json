@@ -652,5 +652,13 @@
    }
   ]
  },
- "float_dune": "float_dune_t1.png"
+ "float_dune": "float_dune_t1.png",
+ "sample_party": "sample_party_t2.png",
+ "sample_ferry": "sample_ferry_t1.png",
+ "sample_sand": "sample_sand_t1.png",
+ "sample_rain": "sample_rain_t1.png",
+ "sample_bike": "sample_bike_t2.png",
+ "sample_crop": {
+  "party": 66
+ }
 }
