@@ -153,3 +153,21 @@ the owner in Settings → Store details; there is no API for it.
   Camera Bag". Buy 3, Get 2 ($297) gets both.
 - Theme editor → Retra buy box → Bundle picker: option titles and badges, the default option, the savings label, and the gift lines and handles.
 - Screenshots: `screenshots/bundle3-picker-mobile.png`, `bundle3-picker-mobile-opt3.png`, `bundle3-drawer.png`.
+
+### BEST VALUE badge, bold gifts, colour testing (2026-11-26, evening)
+
+- Buy 3, Get 2 FREE has a **BEST VALUE** badge (Theme editor → Retra buy box → "Option 3 badge").
+- Cart drawer: free-gift lines (title, $0 price, FREE GIFT tag) and the gift names in the rewards message are bold (800).
+  Wrap words in `<strong></strong>` in the drawer's message settings to bold them.
+- Bundle Add to Cart now shows the theme's error message if the add fails. It used to fail silently.
+- Testing:
+  - **Pricing:** all 553 colour combinations checked through the Admin API (`draftOrderCalculate`, automatic discounts on).
+    That covers the 7 single cameras, the 84 three-camera mixes and the 462 five-camera mixes. Every one priced right:
+    $99, $198 and $297.
+  - **Live picker:** each colour in every camera slot.
+    - Buy 1 Camera: all 7 colours, $99, no gift.
+    - Buy 2, Get 1 FREE: 7 colour rotations, $198, strap added free.
+    - Buy 3, Get 2 FREE: 7 colour rotations, $297, strap and bag added free.
+    - When the storefront throttled the rapid test runs, a few adds or gift syncs dropped. Every one passed when rerun on a
+      fresh page at a normal pace.
+- Screenshots: `screenshots/bundle3-picker-best-value.png`, `bundle3-drawer-bold.png`.

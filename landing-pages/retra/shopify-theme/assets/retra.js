@@ -305,7 +305,10 @@ document.addEventListener('change', function (e) {
     Array.prototype.slice.call(r.closest('.b-opt').querySelectorAll('.b-sel'), 0, n).forEach(function (s) { counts[s.value] = (counts[s.value] || 0) + 1; });
     var items = Object.keys(counts).map(function (id) { return { id: Number(id), quantity: counts[id] }; });
     var btn = form.querySelector('button[type="submit"]'); if (btn) btn.disabled = true;
+    var st = form.querySelector('[data-atc-status]'); if (st) { st.textContent = ''; st.classList.remove('err'); st.classList.add('vh'); }
     fetch('/cart/add.js', { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify({ items: items }) })
-      .catch(function () {}).then(function () { if (btn) btn.disabled = false; });
+      .then(function (r) { if (!r.ok) throw new Error('add'); })
+      .catch(function () { if (st) { st.textContent = form.dataset.error; st.classList.add('err'); st.classList.remove('vh'); } })
+      .then(function () { if (btn) btn.disabled = false; });
   }, true);
 })();
