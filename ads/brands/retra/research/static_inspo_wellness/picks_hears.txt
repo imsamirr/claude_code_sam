@@ -1,0 +1,20 @@
+3 TOF Customer quote over a real in-use photo (gloved hand, motorbike), name + use detail as the byline
+9 TOF Two-line problem/permission hook ("Mute the street. Not your alarm.") over a dark close-up, thin callout lines to features
+12 TOF Plain-text "official apology" letter on cream paper, signed by the team, offer as the P.S.
+14 TOF New-product teaser: soft pastel product floating, onomatopoeia ("Shhhh") as the visual, small risk-free line
+20 TOF "POV:" TikTok caption bubble on a hand-held UGC photo of the product
+22 TOF Handwritten Post-it notes stuck on a real bedside table next to the product
+23 TOF Fake app/UI data card (sound meter "52dB") explaining the problem in numbers
+24 TOF Surreal prop: vending machine stocked with the product, "Just dropped"
+25 TOF Relationship hook ("Don't dump your snoring boyfriend") + floating product, offer banner on top
+29 TOF Objection as a quote ("I don't do earplugs.") + split visual: Saturday on nothing vs Saturday on the product
+32 TOF Occasion kit: hand holding three cases at the event, each labelled with its job
+35 TOF Promise headline with coloured keywords + annotated product diagram and award badge
+37 TOF Cartoon/memoji 2x2 grid of the alternatives vs the product ("There's a plug for that")
+38 TOF "We got copied." plain-text founder note with a deal at the end
+6 MOF Before/After split photo with two checklists (old way vs new way)
+10 MOF Restock card: hand holding the product + use-case icon list + offer bar
+11 MOF "Which one do you need?" two-product chooser cards with specs and who each is for
+0 BOF Hand-drawn cartoon of the customer "waiting for a sale" with thought bubble: "This is the sale." (199 days live)
+18 BOF Stacked offer banners: "3 pairs / 1 box / 30% off" each with a product shot
+31 BOF "Pay for 2. Get 3." colour lineup lit on black

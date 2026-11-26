@@ -1,0 +1,14 @@
+<script>
+(function(){
+  var btns=[].slice.call(document.querySelectorAll('.filters button'));
+  function apply(f){
+    btns.forEach(function(b){ b.setAttribute('aria-pressed', String(b.dataset.f===f)); });
+    document.querySelectorAll('.ad').forEach(function(a){ a.classList.toggle('hide', f!=='all' && a.dataset.stage!==f); });
+    document.querySelectorAll('.fcol').forEach(function(c){ c.classList.toggle('hide', f!=='all' && !c.querySelector('.chip.'+f.toLowerCase())); });
+    try{ localStorage.setItem('funnel', f); }catch(e){}
+  }
+  btns.forEach(function(b){ b.addEventListener('click', function(){ apply(b.dataset.f); }); });
+  var saved='all'; try{ saved=localStorage.getItem('funnel')||'all'; }catch(e){}
+  apply(saved);
+})();
+</script>

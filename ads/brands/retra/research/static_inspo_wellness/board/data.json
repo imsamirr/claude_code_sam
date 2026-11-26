@@ -1,0 +1,1882 @@
+[
+ {
+  "group": "sleep",
+  "key": "hears",
+  "name": "Hears",
+  "note": "Dutch filtered earplugs for concerts, sleep and motorbikes. About 15,400 ads lifetime.",
+  "items": [
+   {
+    "ad": "m4451168688481845",
+    "stage": "TOF",
+    "desc": "Customer quote over a real in-use photo (gloved hand, motorbike), name + use detail as the byline",
+    "days": 135,
+    "img": "img/m4451168688481845.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1191994713354803",
+    "stage": "TOF",
+    "desc": "Two-line problem/permission hook (\"Mute the street. Not your alarm.\") over a dark close-up, thin callout lines to features",
+    "days": 16,
+    "img": "img/m1191994713354803.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1667130215066119",
+    "stage": "TOF",
+    "desc": "Plain-text \"official apology\" letter on cream paper, signed by the team, offer as the P.S.",
+    "days": 23,
+    "img": "img/m1667130215066119.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2052126458747459",
+    "stage": "TOF",
+    "desc": "New-product teaser: soft pastel product floating, onomatopoeia (\"Shhhh\") as the visual, small risk-free line",
+    "days": 43,
+    "img": "img/m2052126458747459.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m941911218640128",
+    "stage": "TOF",
+    "desc": "\"POV:\" TikTok caption bubble on a hand-held UGC photo of the product",
+    "days": 41,
+    "img": "img/m941911218640128.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m4729674054023753",
+    "stage": "TOF",
+    "desc": "Handwritten Post-it notes stuck on a real bedside table next to the product",
+    "days": 49,
+    "img": "img/m4729674054023753.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1592533755383376",
+    "stage": "TOF",
+    "desc": "Fake app/UI data card (sound meter \"52dB\") explaining the problem in numbers",
+    "days": 27,
+    "img": "img/m1592533755383376.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m4613106792342483",
+    "stage": "TOF",
+    "desc": "Surreal prop: vending machine stocked with the product, \"Just dropped\"",
+    "days": 43,
+    "img": "img/m4613106792342483.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1082672504383221",
+    "stage": "TOF",
+    "desc": "Relationship hook (\"Don't dump your snoring boyfriend\") + floating product, offer banner on top",
+    "days": 43,
+    "img": "img/m1082672504383221.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m3117186148486281",
+    "stage": "TOF",
+    "desc": "Objection as a quote (\"I don't do earplugs.\") + split visual: Saturday on nothing vs Saturday on the product",
+    "days": 12,
+    "img": "img/m3117186148486281.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2171894280066416",
+    "stage": "TOF",
+    "desc": "Occasion kit: hand holding three cases at the event, each labelled with its job",
+    "days": 12,
+    "img": "img/m2171894280066416.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1544641614089937",
+    "stage": "TOF",
+    "desc": "Promise headline with coloured keywords + annotated product diagram and award badge",
+    "days": 27,
+    "img": "img/m1544641614089937.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1112171181423592",
+    "stage": "TOF",
+    "desc": "Cartoon/memoji 2x2 grid of the alternatives vs the product (\"There's a plug for that\")",
+    "days": 11,
+    "img": "img/m1112171181423592.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1169012645813949",
+    "stage": "TOF",
+    "desc": "\"We got copied.\" plain-text founder note with a deal at the end",
+    "days": 12,
+    "img": "img/m1169012645813949.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1419659633713671",
+    "stage": "MOF",
+    "desc": "Before/After split photo with two checklists (old way vs new way)",
+    "days": 24,
+    "img": "img/m1419659633713671.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1468059978797206",
+    "stage": "MOF",
+    "desc": "Restock card: hand holding the product + use-case icon list + offer bar",
+    "days": 22,
+    "img": "img/m1468059978797206.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1318852771319140",
+    "stage": "MOF",
+    "desc": "\"Which one do you need?\" two-product chooser cards with specs and who each is for",
+    "days": 39,
+    "img": "img/m1318852771319140.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m26849306711398516",
+    "stage": "BOF",
+    "desc": "Hand-drawn cartoon of the customer \"waiting for a sale\" with thought bubble: \"This is the sale.\" (199 days live)",
+    "days": 199,
+    "img": "img/m26849306711398516.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1017474671401287",
+    "stage": "BOF",
+    "desc": "Stacked offer banners: \"3 pairs / 1 box / 30% off\" each with a product shot",
+    "days": 0,
+    "img": "img/m1017474671401287.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1636050551552616",
+    "stage": "BOF",
+    "desc": "\"Pay for 2. Get 3.\" colour lineup lit on black",
+    "days": 12,
+    "img": "img/m1636050551552616.jpg",
+    "w": 338,
+    "h": 600
+   }
+  ]
+ },
+ {
+  "group": "sleep",
+  "key": "doreandrose",
+  "name": "Dore & Rose",
+  "note": "Dutch silk sleep masks and cotton pyjamas. Photography-led, press bar on almost everything. About 25,400 ads.",
+  "items": [
+   {
+    "ad": "m1060756370217361",
+    "stage": "TOF",
+    "desc": "Plain packshot on white, no words at all (92 days live)",
+    "days": 92,
+    "img": "img/m1060756370217361.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m2808237896199778",
+    "stage": "TOF",
+    "desc": "Packaging card centred on a full-bleed print backdrop, \"Limited edition\" corner tab + \"As seen in\" press bar",
+    "days": 118,
+    "img": "img/m2808237896199778.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1668119691699894",
+    "stage": "TOF",
+    "desc": "Tight body crop + enemy line in thin type (\"Not polyester pretending to be soft.\")",
+    "days": 35,
+    "img": "img/m1668119691699894.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1920649285979316",
+    "stage": "TOF",
+    "desc": "Tight crop on fabric, tiny centred \"Holiday / Limited Edition\" lock-up",
+    "days": 9,
+    "img": "img/m1920649285979316.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1097491259719099",
+    "stage": "TOF",
+    "desc": "Lifestyle photo at home, logo only, no copy",
+    "days": 45,
+    "img": "img/m1097491259719099.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2118101725481092",
+    "stage": "TOF",
+    "desc": "Luxury comparison quote (\"The Rolex of Sleep Masks\") + product on a plinth + press bar",
+    "days": 38,
+    "img": "img/m2118101725481092.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m4108767402757795",
+    "stage": "TOF",
+    "desc": "Editorial lifestyle moment (window seat, suitcase), no text: travel/sleep scene",
+    "days": 16,
+    "img": "img/m4108767402757795.jpg",
+    "w": 405,
+    "h": 600
+   },
+   {
+    "ad": "m2321507218624904",
+    "stage": "TOF",
+    "desc": "iMessage screenshot between family members about the product selling out",
+    "days": 27,
+    "img": "img/m2321507218624904.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1889806355323637",
+    "stage": "TOF",
+    "desc": "Candid back-view lifestyle shot in a bathroom (morning routine), no copy",
+    "days": 19,
+    "img": "img/m1889806355323637.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1855099952517175",
+    "stage": "TOF",
+    "desc": "Emoji inside the headline (\"The 🍑 set\") on a tight model crop",
+    "days": 29,
+    "img": "img/m1855099952517175.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2090194864948921",
+    "stage": "TOF",
+    "desc": "Seasonal mood headline in big two-tone type (\"Your Cosy Season Starts Here\")",
+    "days": 19,
+    "img": "img/m2090194864948921.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2410780323070523",
+    "stage": "TOF",
+    "desc": "Polaroid-style collage with bow + gift headline that cuts off as a joke (\"Gifts Don't Ex-\")",
+    "days": 19,
+    "img": "img/m2410780323070523.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1117827633968743",
+    "stage": "TOF",
+    "desc": "\"Just dropped\" strip over a phone-in-hand mirror selfie crop",
+    "days": 58,
+    "img": "img/m1117827633968743.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1794701298403482",
+    "stage": "TOF",
+    "desc": "Two-sided promise (\"Sexy enough to be seen in / comfy enough to sleep in\") + model + round product inset",
+    "days": 40,
+    "img": "img/m1794701298403482.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1078588865228481",
+    "stage": "MOF",
+    "desc": "Whole collection laid out as flat illustrations on a deep brand colour",
+    "days": 20,
+    "img": "img/m1078588865228481.jpg",
+    "w": 440,
+    "h": 547
+   },
+   {
+    "ad": "m1671275557924261",
+    "stage": "MOF",
+    "desc": "Gift-box flat lay: \"The one you love, now in a holiday limited edition\"",
+    "days": 16,
+    "img": "img/m1671275557924261.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1069195712410587",
+    "stage": "MOF",
+    "desc": "Small caption sticker over product close-up with the material proof (\"100% cotton. Gets softer with every wash\")",
+    "days": 58,
+    "img": "img/m1069195712410587.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2367401507393368",
+    "stage": "BOF",
+    "desc": "Price card with strikethrough over open gift boxes + \"Black Friday\" seal",
+    "days": 9,
+    "img": "img/m2367401507393368.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2137776103540353",
+    "stage": "BOF",
+    "desc": "\"Clearance: last units, we're no longer making these colours\" grid + press bar",
+    "days": 21,
+    "img": "img/m2137776103540353.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m2336551057076981",
+    "stage": "BOF",
+    "desc": "\"Don't wait for Black Friday or you might miss it\" range icons + % off ribbon",
+    "days": 29,
+    "img": "img/m2336551057076981.jpg",
+    "w": 338,
+    "h": 600
+   }
+  ]
+ },
+ {
+  "group": "sleep",
+  "key": "loop",
+  "name": "Loop",
+  "note": "Belgian earplugs and the biggest advertiser here (about 63,000 ads). Collabs, colour drops and a quiz.",
+  "items": [
+   {
+    "ad": "m1015201707843767",
+    "stage": "TOF",
+    "desc": "Collab announcement in serif (\"We've got pleasing news\"), limited-edition product in open case on a deep colour (182 days)",
+    "days": 182,
+    "img": "img/m1015201707843767.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2140569073479458",
+    "stage": "TOF",
+    "desc": "Colour drop as news: condensed headline over a full-bleed fabric texture in the new colour + \"Now in Teal\" chip",
+    "days": 48,
+    "img": "img/m2140569073479458.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2050869439146521",
+    "stage": "TOF",
+    "desc": "Partner/athlete portrait with one huge word (\"Game-changing\") and the co-brand lock-up",
+    "days": 159,
+    "img": "img/m2050869439146521.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m4162086027428352",
+    "stage": "TOF",
+    "desc": "Event collab: big 3D product on a painterly texture, condensed headline + 3-tick benefit list",
+    "days": 58,
+    "img": "img/m4162086027428352.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1107272711739035",
+    "stage": "TOF",
+    "desc": "\"Festival season favorites\" product hero with \"Selling out fast\" line",
+    "days": 58,
+    "img": "img/m1107272711739035.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1677649719948393",
+    "stage": "TOF",
+    "desc": "Lifestyle profile shot with the product visible in the ear + script wordplay line (\"Amp up the love, not the volume\") (182 days)",
+    "days": 182,
+    "img": "img/m1677649719948393.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1344813560919234",
+    "stage": "TOF",
+    "desc": "Cause-marketing line (\"Socially conscious? Iconic.\") on a pink product still life",
+    "days": 37,
+    "img": "img/m1344813560919234.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1069321488984487",
+    "stage": "TOF",
+    "desc": "Celebrity co-design: product on a textured surface, two-word headline (\"Pink. Obviously.\")",
+    "days": 98,
+    "img": "img/m1069321488984487.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m958677210127205",
+    "stage": "TOF",
+    "desc": "Co-branded partner product shot, \"Unlock peak focus\", benefit pill chips (182 days)",
+    "days": 182,
+    "img": "img/m958677210127205.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1413031406828971",
+    "stage": "TOF",
+    "desc": "Handwritten note on paper beside the product (\"These are selling fast\")",
+    "days": 58,
+    "img": "img/m1413031406828971.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m2670244690055305",
+    "stage": "TOF",
+    "desc": "Side-profile portrait + mode labels as UI chips pointing to the ear, \"Find your level\"",
+    "days": 19,
+    "img": "img/m2670244690055305.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1028800853541979",
+    "stage": "TOF",
+    "desc": "Fingers holding the open case to camera on a bold colour field, condensed headline",
+    "days": 58,
+    "img": "img/m1028800853541979.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1635987631559703",
+    "stage": "TOF",
+    "desc": "Everyday-carry list headline (\"Keys. Lip balm. Loop.\") with the product in a hand bag",
+    "days": 47,
+    "img": "img/m1635987631559703.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1508043094379122",
+    "stage": "TOF",
+    "desc": "Ear close-up with a wordplay line (\"Pleasing to the eye. And the ears.\") (182 days)",
+    "days": 182,
+    "img": "img/m1508043094379122.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1154154493728011",
+    "stage": "MOF",
+    "desc": "\"So many options, one easy way to choose\" 2x3 product grid + \"Take our quiz\" pill",
+    "days": 31,
+    "img": "img/m1154154493728011.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m3968024403504870",
+    "stage": "MOF",
+    "desc": "\"Your all-day line-up\": products arranged round a bag, each labelled with its use",
+    "days": 152,
+    "img": "img/m3968024403504870.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1587316876446094",
+    "stage": "MOF",
+    "desc": "\"Choose your level of quiet\": products in a basket with spec labels (dB per model) (153 days)",
+    "days": 153,
+    "img": "img/m1587316876446094.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1040275298661065",
+    "stage": "BOF",
+    "desc": "Two open hands offering three cases, \"3 pairs 1 box\" bundle headline (176 days)",
+    "days": 176,
+    "img": "img/m1040275298661065.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m4361929237457153",
+    "stage": "BOF",
+    "desc": "Native iOS permission pop-up as the offer (\"would like to share 20% off + free gift\", Decline / Accept) (183 days)",
+    "days": 183,
+    "img": "img/m4361929237457153.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1844094527037143",
+    "stage": "BOF",
+    "desc": "Bundle shown as a retail blister pack, \"Bundle and save 20%\"",
+    "days": 51,
+    "img": "img/m1844094527037143.jpg",
+    "w": 338,
+    "h": 600
+   }
+  ]
+ },
+ {
+  "group": "sleep",
+  "key": "manta",
+  "name": "Manta Sleep",
+  "note": "US blackout sleep masks and new sleep earplugs. Persona-led (night shift, athletes, travel), lots of native screenshots.",
+  "items": [
+   {
+    "ad": "m1506133554136269",
+    "stage": "TOF",
+    "desc": "Product on a running track, two lines top and bottom (\"Optimise your sleep. / Power your performance.\") (138 days)",
+    "days": 138,
+    "img": "img/m1506133554136269.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1574562853919727",
+    "stage": "TOF",
+    "desc": "Persona callout over a lifestyle photo (\"Built for night-shift recovery, even at noon\")",
+    "days": 44,
+    "img": "img/m1574562853919727.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m4521278978109902",
+    "stage": "TOF",
+    "desc": "Two-line reframe over a close-up face (\"He'll still snore. You'll sleep through it.\")",
+    "days": 16,
+    "img": "img/m4521278978109902.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2300200030741721",
+    "stage": "TOF",
+    "desc": "UGC photo + fitness-app score overlay + customer caption boxes",
+    "days": 35,
+    "img": "img/m2300200030741721.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1353714546956812",
+    "stage": "TOF",
+    "desc": "Instagram comment bubble pinned on a UGC photo, caption box with the full story (120 days)",
+    "days": 120,
+    "img": "img/m1353714546956812.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m4306181076288675",
+    "stage": "TOF",
+    "desc": "Press quote in a frosted-glass card floating over the product (\"Seriously comfortable and seriously dark\") (172 days)",
+    "days": 172,
+    "img": "img/m4306181076288675.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1776981253533719",
+    "stage": "TOF",
+    "desc": "\"Sleep anywhere\": product placed in a real travel scene (campervan at sunset)",
+    "days": 35,
+    "img": "img/m1776981253533719.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m3364760813713645",
+    "stage": "TOF",
+    "desc": "Out-of-home mock-up: the ad shown on a city billboard",
+    "days": 15,
+    "img": "img/m3364760813713645.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2565776073854868",
+    "stage": "TOF",
+    "desc": "X/Twitter post screenshot with a UGC photo (120 days)",
+    "days": 120,
+    "img": "img/m2565776073854868.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m987788986977930",
+    "stage": "TOF",
+    "desc": "Four-panel movie meme (\"The plan\" format) ending on the product. Use your own drawn characters, not film IP",
+    "days": 35,
+    "img": "img/m987788986977930.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1066307259702053",
+    "stage": "TOF",
+    "desc": "Two-panel cartoon meme (\"brain: tired / also brain: THAT LED\") + product line",
+    "days": 35,
+    "img": "img/m1066307259702053.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1902939690420103",
+    "stage": "TOF",
+    "desc": "ChatGPT chat screenshot that recommends the product",
+    "days": 56,
+    "img": "img/m1902939690420103.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1121950623783198",
+    "stage": "TOF",
+    "desc": "Circular type around an ear close-up (\"Best. Earplugs. Ever.\")",
+    "days": 14,
+    "img": "img/m1121950623783198.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m4519681098256674",
+    "stage": "TOF",
+    "desc": "Funny gift reframe (\"The best apology a snorer can buy\") on a bold colour",
+    "days": 16,
+    "img": "img/m4519681098256674.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2082868705661858",
+    "stage": "MOF",
+    "desc": "\"Your old one is the problem\": cheap version vs ours as two cards with ✗ and ✓ lists (104 days)",
+    "days": 104,
+    "img": "img/m2082868705661858.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1694641522662890",
+    "stage": "MOF",
+    "desc": "Split: tiny product + \"All sound. No bulk.\" on white / exploded part close-up on dark (63 days)",
+    "days": 63,
+    "img": "img/m1694641522662890.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m4612290475685181",
+    "stage": "MOF",
+    "desc": "Split photo with score rings (\"Two shifts. Two very different recoveries.\")",
+    "days": 56,
+    "img": "img/m4612290475685181.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2934351976941802",
+    "stage": "BOF",
+    "desc": "Athlete line + feature pills + round \"10% off today\" sticker",
+    "days": 22,
+    "img": "img/m2934351976941802.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1383059537045996",
+    "stage": "BOF",
+    "desc": "Product in a retail blister pack with a starburst price (\"Under $40\"), \"for the light sleeper in your life\"",
+    "days": 16,
+    "img": "img/m1383059537045996.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1612330980510977",
+    "stage": "BOF",
+    "desc": "Long review card with the payoff sentence in red, product beside it (104 days)",
+    "days": 104,
+    "img": "img/m1612330980510977.jpg",
+    "w": 338,
+    "h": 600
+   }
+  ]
+ },
+ {
+  "group": "sleep",
+  "key": "ozlo",
+  "name": "Ozlo Sleep",
+  "note": "US sleep earbuds, premium price. Press quotes, testimonials, HSA/FSA.",
+  "items": [
+   {
+    "ad": "m1508371747282661",
+    "stage": "TOF",
+    "desc": "Struck-through sentence (the old self-talk crossed out) + 5-star quote + product (120 days)",
+    "days": 120,
+    "img": "img/m1508371747282661.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1603286941331231",
+    "stage": "TOF",
+    "desc": "Ear close-up with curved product label + \"Not an earring. Not a hearing aid. My new sleep hack.\"",
+    "days": 62,
+    "img": "img/m1603286941331231.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m4575053819407564",
+    "stage": "TOF",
+    "desc": "UGC selfie with a handwritten-style caption (\"the reason I can sleep in a college dorm\")",
+    "days": 27,
+    "img": "img/m4575053819407564.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1404595131869619",
+    "stage": "TOF",
+    "desc": "\"POV:\" caption bar over a real photo of someone asleep with the product",
+    "days": 62,
+    "img": "img/m1404595131869619.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m779351545260671",
+    "stage": "TOF",
+    "desc": "Question headline (\"Haven't slept well in years?\") over a night-sky product shot (120 days)",
+    "days": 120,
+    "img": "img/m779351545260671.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2809936582742116",
+    "stage": "TOF",
+    "desc": "\"The essential that made the cut\": press-pick badge (gift list) on a lifestyle portrait",
+    "days": 36,
+    "img": "img/m2809936582742116.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1969090913780538",
+    "stage": "TOF",
+    "desc": "App score before → after cards (\"good to great\") over a UGC photo, arrow to the product",
+    "days": 62,
+    "img": "img/m1969090913780538.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1535041311761834",
+    "stage": "TOF",
+    "desc": "Listicle card: \"5 things that happen when you…\" with ticked lines + product",
+    "days": 35,
+    "img": "img/m1535041311761834.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1130042609954434",
+    "stage": "TOF",
+    "desc": "Big stat headline (\"62% of Americans say they can't sleep\") + short body + photo",
+    "days": 23,
+    "img": "img/m1130042609954434.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2322858558241622",
+    "stage": "TOF",
+    "desc": "Press quote with the outlet's logo over a dark bedroom photo (138 days)",
+    "days": 138,
+    "img": "img/m2322858558241622.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1445647473697512",
+    "stage": "TOF",
+    "desc": "\"Better Than [big brand]\" customer quote in serif over a full-bleed photo (124 days)",
+    "days": 124,
+    "img": "img/m1445647473697512.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m24190439273986464",
+    "stage": "TOF",
+    "desc": "Lo-fi top-down photo of the product on a desk, no text at all (138 days)",
+    "days": 138,
+    "img": "img/m24190439273986464.jpg",
+    "w": 440,
+    "h": 587
+   },
+   {
+    "ad": "m4334373926874082",
+    "stage": "TOF",
+    "desc": "Surreal scene: bed in the middle of a busy crosswalk (\"you can sleep anywhere\") + 3 ticks (81 days)",
+    "days": 81,
+    "img": "img/m4334373926874082.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m940143285383253",
+    "stage": "TOF",
+    "desc": "Handwritten arrows and notes drawn over a nightstand lifestyle photo (\"The benefits\") (104 days)",
+    "days": 104,
+    "img": "img/m940143285383253.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1553716966240815",
+    "stage": "MOF",
+    "desc": "\"Introducing\": giant numeral behind the product + \"NEW\" seal, one-line positioning",
+    "days": 46,
+    "img": "img/m1553716966240815.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m1060023939937972",
+    "stage": "MOF",
+    "desc": "Feature pills floating around the product (\"Now even better\") (113 days)",
+    "days": 113,
+    "img": "img/m1060023939937972.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m4667656186796511",
+    "stage": "MOF",
+    "desc": "Old problems struck through in a list → \"Purpose-built for…\"",
+    "days": 49,
+    "img": "img/m4667656186796511.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1973547393630137",
+    "stage": "BOF",
+    "desc": "\"Put your HSA/FSA dollars toward…\" + \"Use your HSA/FSA at checkout\" pill",
+    "days": 23,
+    "img": "img/m1973547393630137.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m28466334199694279",
+    "stage": "BOF",
+    "desc": "Gift with purchase: product + free item with a \"+\" and \"One limited-time offer\"",
+    "days": 38,
+    "img": "img/m28466334199694279.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m2221149158665208",
+    "stage": "BOF",
+    "desc": "\"We're sorry.\" apology letter that it's selling fast, \"Get it before it sells out\"",
+    "days": 53,
+    "img": "img/m2221149158665208.jpg",
+    "w": 440,
+    "h": 440
+   }
+  ]
+ },
+ {
+  "group": "health",
+  "key": "bioma",
+  "name": "Bioma",
+  "note": "Probiotic / \"GLP-1 booster\". The most discount-heavy brand here, and the longest runners (400 days).",
+  "items": [
+   {
+    "ad": "m1352282349581500",
+    "stage": "TOF",
+    "desc": "Seasonal \"If you start this month, by [date] you'll…\" letter card in a flower frame, week-by-week promise lines (400 days)",
+    "days": 400,
+    "img": "img/m1352282349581500.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1503291010795287",
+    "stage": "TOF",
+    "desc": "\"Just 2 a day, and everything changed\" line-art figures as a month-by-month timeline (400 days)",
+    "days": 400,
+    "img": "img/m1503291010795287.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1015647824792283",
+    "stage": "TOF",
+    "desc": "Cartoon comic strip of one customer's story (\"Sarah\") with arrows between panels (126 days)",
+    "days": 126,
+    "img": "img/m1015647824792283.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2505324943319364",
+    "stage": "TOF",
+    "desc": "First-person quote headline on a candid body photo + \"2 out of 3\" stat badge (133 days)",
+    "days": 133,
+    "img": "img/m2505324943319364.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1065642559594032",
+    "stage": "TOF",
+    "desc": "Product floating in pool water, holiday-season hook (\"Shut off food noise on vacation\")",
+    "days": 61,
+    "img": "img/m1065642559594032.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1421721803245164",
+    "stage": "TOF",
+    "desc": "Vintage poster: \"[Problem] explained for beginners\" comic with a character story",
+    "days": 61,
+    "img": "img/m1421721803245164.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1410650027838315",
+    "stage": "TOF",
+    "desc": "\"One product. Five problems solved.\" each solved problem as a chat bubble, liquid-splash backdrop",
+    "days": 60,
+    "img": "img/m1410650027838315.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m27770203455933162",
+    "stage": "TOF",
+    "desc": "Age + result headline (\"I went from XXL to L at 48\") with a before/after split (132 days)",
+    "days": 132,
+    "img": "img/m27770203455933162.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1071543352161971",
+    "stage": "TOF",
+    "desc": "Plain-text testimonial story on cream (\"Mom, you look like yourself again.\") ending on scarcity",
+    "days": 61,
+    "img": "img/m1071543352161971.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m909045142056522",
+    "stage": "TOF",
+    "desc": "Condensed shouty quote (\"Panic diet at 51. Glad I panicked.\") over a pool texture",
+    "days": 63,
+    "img": "img/m909045142056522.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1003587829192815",
+    "stage": "TOF",
+    "desc": "Illustrated person + \"Day 1 / Day 7 / Day 21\" timeline (150 days)",
+    "days": 150,
+    "img": "img/m1003587829192815.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1020682873688804",
+    "stage": "TOF",
+    "desc": "\"Just imagine…\" aspiration headline + product on a beach towel at sunset (150 days)",
+    "days": 150,
+    "img": "img/m1020682873688804.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1407645761477265",
+    "stage": "TOF",
+    "desc": "Reframe headline (\"Stop calling it 'just puffiness'\") + medical-style zoom callout",
+    "days": 84,
+    "img": "img/m1407645761477265.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1806314480080648",
+    "stage": "TOF",
+    "desc": "\"Same life. Different body.\" split photo, two tiny labels (148 days)",
+    "days": 148,
+    "img": "img/m1806314480080648.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m27434857686135097",
+    "stage": "MOF",
+    "desc": "Emoji checklist of benefits + star rating + big price under a bold headline (148 days)",
+    "days": 148,
+    "img": "img/m27434857686135097.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1742232184575496",
+    "stage": "MOF",
+    "desc": "Promise headline + benefit icon list down the side + verified-buyer review strip (60 days)",
+    "days": 60,
+    "img": "img/m1742232184575496.jpg",
+    "w": 440,
+    "h": 439
+   },
+   {
+    "ad": "m1132997432498433",
+    "stage": "MOF",
+    "desc": "Objection first (\"Yes, it's pricey\") + what's in the kit diagram + price box",
+    "days": 29,
+    "img": "img/m1132997432498433.jpg",
+    "w": 335,
+    "h": 600
+   },
+   {
+    "ad": "m1622890832663008",
+    "stage": "BOF",
+    "desc": "\"We're so sorry, our sale is ending soon\" + up-to-% badge (43 days)",
+    "days": 43,
+    "img": "img/m1622890832663008.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1045942214568254",
+    "stage": "BOF",
+    "desc": "\"Exclusive deal\" price strike + \"+3 free gifts\" mystery card + free shipping (125 days)",
+    "days": 125,
+    "img": "img/m1045942214568254.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1026773450263018",
+    "stage": "BOF",
+    "desc": "\"Last call: VANISHING!\" box of product + stopwatch + \"only hours remaining\" (112 days)",
+    "days": 112,
+    "img": "img/m1026773450263018.jpg",
+    "w": 338,
+    "h": 600
+   }
+  ]
+ },
+ {
+  "group": "health",
+  "key": "arrae",
+  "name": "Arrae",
+  "note": "Women's supplements (creatine gummies, bloat, inositol). Editorial photography plus UGC captions; almost no discount ads.",
+  "items": [
+   {
+    "ad": "m1069996588947641",
+    "stage": "TOF",
+    "desc": "\"Goodbye [problem] / Hello [result]\" serif + italic two-liner, product stacked like a sculpture, tiny explainer with hand-drawn arrow (95 days)",
+    "days": 95,
+    "img": "img/m1069996588947641.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m853292807750023",
+    "stage": "TOF",
+    "desc": "Hand pouring product from the pack + TikTok-style caption sticker with the story (95 days)",
+    "days": 95,
+    "img": "img/m853292807750023.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m4442670559332868",
+    "stage": "TOF",
+    "desc": "Single product on a fork against a muted backdrop: one-line seasonal promise (95 days)",
+    "days": 95,
+    "img": "img/m4442670559332868.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1533434231381726",
+    "stage": "TOF",
+    "desc": "\"3 months to…\" month-by-month timeline beside the product (87 days)",
+    "days": 87,
+    "img": "img/m1533434231381726.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1409230434425703",
+    "stage": "TOF",
+    "desc": "Taste-first line (\"Tastes like sour candy, gives you abs\") with product heaped in stacked silver bowls (95 days)",
+    "days": 95,
+    "img": "img/m1409230434425703.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1786427666116863",
+    "stage": "TOF",
+    "desc": "Lab still life (product in a beaker) + list of symptoms it's for, editorial serif",
+    "days": 86,
+    "img": "img/m1786427666116863.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m27983084584674071",
+    "stage": "TOF",
+    "desc": "Product spilling from a colander with fruit, \"Sour, Sweet, Strong\" + \"New\" sticker (95 days)",
+    "days": 95,
+    "img": "img/m27983084584674071.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2766098803791519",
+    "stage": "TOF",
+    "desc": "Stacked \"Want…? Want…? Want…?\" questions + arrow: \"this gives you all of that in one\"",
+    "days": 79,
+    "img": "img/m2766098803791519.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1341873554478271",
+    "stage": "TOF",
+    "desc": "Bathroom-sink UGC photo + \"‼️PSA:\" caption bubbles",
+    "days": 86,
+    "img": "img/m1341873554478271.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m2317925022308022",
+    "stage": "TOF",
+    "desc": "\"Things I noticed when I started…\" week-by-week caption text over a UGC photo",
+    "days": 72,
+    "img": "img/m2317925022308022.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m29181249778135831",
+    "stage": "TOF",
+    "desc": "iMessage screenshot: friend sends a photo + \"um so THIS\" reaction",
+    "days": 23,
+    "img": "img/m29181249778135831.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1607644034426672",
+    "stage": "TOF",
+    "desc": "Hand holding the product with handwritten arrows to four benefits",
+    "days": 46,
+    "img": "img/m1607644034426672.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1008029832329741",
+    "stage": "TOF",
+    "desc": "Trend headline (\"Women aren't drinking protein shakes anymore. They're drinking this\") with a cocktail-glass pour",
+    "days": 46,
+    "img": "img/m1008029832329741.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1102492492594900",
+    "stage": "TOF",
+    "desc": "TikTok comment + reply bubbles over a mirror selfie holding the product",
+    "days": 22,
+    "img": "img/m1102492492594900.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m4515810442019831",
+    "stage": "MOF",
+    "desc": "\"Is it right for you?\" icon row of five uses + pack shot + CTA pill (85 days)",
+    "days": 85,
+    "img": "img/m4515810442019831.jpg",
+    "w": 339,
+    "h": 600
+   },
+   {
+    "ad": "m1739183643957332",
+    "stage": "MOF",
+    "desc": "Two-column \"Problems / Solution\": problem pills on the left, product on the right (85 days)",
+    "days": 85,
+    "img": "img/m1739183643957332.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1254351143431353",
+    "stage": "MOF",
+    "desc": "\"Things that are worth the money:\" caption over a creator photo (93 days)",
+    "days": 93,
+    "img": "img/m1254351143431353.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m4069957286632290",
+    "stage": "BOF",
+    "desc": "Customer result quote above a product stack, name byline",
+    "days": 24,
+    "img": "img/m4069957286632290.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m942415735181773",
+    "stage": "BOF",
+    "desc": "\"We're so sorry…\" long apology for selling out, now restocked + new flavours",
+    "days": 46,
+    "img": "img/m942415735181773.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1145399104505039",
+    "stage": "BOF",
+    "desc": "5-star quote in caps over a dramatic lit product shot",
+    "days": 24,
+    "img": "img/m1145399104505039.jpg",
+    "w": 338,
+    "h": 600
+   }
+  ]
+ },
+ {
+  "group": "health",
+  "key": "gruns",
+  "name": "Grüns",
+  "note": "Greens gummies. Bold colour, emoji headlines, GLP-1-user angle, licensed Shrek and Minions editions (skip those).",
+  "items": [
+   {
+    "ad": "m1628525708786841",
+    "stage": "TOF",
+    "desc": "Category-naming headline (\"Anti-lazy gummies\") + ring of labelled ingredient photos around the product on a bold colour (104 days)",
+    "days": 104,
+    "img": "img/m1628525708786841.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m2202649790351110",
+    "stage": "TOF",
+    "desc": "Two-doll \"me before / me now\" meme on white with captions above each (use your own characters, not branded dolls)",
+    "days": 18,
+    "img": "img/m2202649790351110.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2595009990995060",
+    "stage": "TOF",
+    "desc": "Emoji in the headline (\"Let's talk 💩\") + one giant product on a pale backdrop",
+    "days": 18,
+    "img": "img/m2595009990995060.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1051619431262392",
+    "stage": "TOF",
+    "desc": "Giant emoji as the hero + survey stat headline (\"80% reported…\") + risk-free guarantee bar",
+    "days": 18,
+    "img": "img/m1051619431262392.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1861710378202823",
+    "stage": "TOF",
+    "desc": "Plain-text \"advertorial note\" on white (\"Poop talk for the GLP-1 crowd\") with a small product at the end",
+    "days": 18,
+    "img": "img/m1861710378202823.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1707131264541322",
+    "stage": "TOF",
+    "desc": "Reframe (\"You're not lazy. Your brain just needs better fuel.\") on a gradient + big number badge",
+    "days": 16,
+    "img": "img/m1707131264541322.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1669088691471876",
+    "stage": "TOF",
+    "desc": "\"Bye bye [daily annoyance]\" two-word headline + product on a pile of product + star-rating line",
+    "days": 18,
+    "img": "img/m1669088691471876.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1148269857949927",
+    "stage": "TOF",
+    "desc": "Hand holding one giant product up against the sky, arrows to labelled benefits",
+    "days": 18,
+    "img": "img/m1148269857949927.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1110804381837826",
+    "stage": "TOF",
+    "desc": "\"Something [people like you] wish they knew sooner 👀\" + social review card + 3 icon tiles",
+    "days": 18,
+    "img": "img/m1110804381837826.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1140563891826771",
+    "stage": "TOF",
+    "desc": "Enemy headline with censored swear (\"F*ck your greens powder.\") + tilted product",
+    "days": 17,
+    "img": "img/m1140563891826771.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1765884554490421",
+    "stage": "TOF",
+    "desc": "\"Things I found out in my 40s that I wish I knew sooner\" 2x2 fact cards + product",
+    "days": 17,
+    "img": "img/m1765884554490421.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m2490004111828218",
+    "stage": "TOF",
+    "desc": "Creator selfie in a car holding the product + two caption bubbles",
+    "days": 18,
+    "img": "img/m2490004111828218.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m4540218799587881",
+    "stage": "TOF",
+    "desc": "\"[Popular alternative] but at what cost?\" half-and-half face split + product badge",
+    "days": 16,
+    "img": "img/m4540218799587881.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m887096423991463",
+    "stage": "TOF",
+    "desc": "\"[Expected solution]? Nah, [ours].\" headline with ingredients scattered around the pack (109 days)",
+    "days": 109,
+    "img": "img/m887096423991463.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1140032891989570",
+    "stage": "MOF",
+    "desc": "\"The benefits of X when Y\" headline + product + ticked benefit list",
+    "days": 17,
+    "img": "img/m1140032891989570.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m3035522413464487",
+    "stage": "MOF",
+    "desc": "\"Stack the good stuff\": stacked product with big-number callouts (60+, 21, 6g)",
+    "days": 14,
+    "img": "img/m3035522413464487.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1085547594527188",
+    "stage": "MOF",
+    "desc": "Venn diagram of three benefits with the product in the middle + \"clinicians' choice\" badge",
+    "days": 17,
+    "img": "img/m1085547594527188.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1895376698012262",
+    "stage": "BOF",
+    "desc": "Two-panel cartoon: person reaching for the product, then a \"SOLD OUT\" monster grabbing them. \"Last chance\"",
+    "days": 14,
+    "img": "img/m1895376698012262.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m28287334074293825",
+    "stage": "BOF",
+    "desc": "\"It's our birthday and we lowered the price\": big strike-through price, per-day sticker, free gifts / shipping / guarantee list (50 days)",
+    "days": 50,
+    "img": "img/m28287334074293825.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1729191321587195",
+    "stage": "BOF",
+    "desc": "\"We're so sorry!\": tongue-in-cheek apology letter that ends in the offer (49 days)",
+    "days": 49,
+    "img": "img/m1729191321587195.jpg",
+    "w": 338,
+    "h": 600
+   }
+  ]
+ },
+ {
+  "group": "health",
+  "key": "primalqueen",
+  "name": "Primal Queen",
+  "note": "Beef-organ supplement for women. Provocative hooks, illustration and 3D cartoons, anniversary sales.",
+  "items": [
+   {
+    "ad": "m2184048678818974",
+    "stage": "TOF",
+    "desc": "Three illustrated portrait panels: before / after the popular alternative / after ours",
+    "days": 46,
+    "img": "img/m2184048678818974.jpg",
+    "w": 335,
+    "h": 600
+   },
+   {
+    "ad": "m2534438033731365",
+    "stage": "TOF",
+    "desc": "Visual metaphor before/after (a dried-out fruit vs a juicy one) + question headline + button",
+    "days": 64,
+    "img": "img/m2534438033731365.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m926123853415355",
+    "stage": "TOF",
+    "desc": "Handwritten words on skin, UGC shot in bed with the product (78 days)",
+    "days": 78,
+    "img": "img/m926123853415355.jpg",
+    "w": 440,
+    "h": 440
+   },
+   {
+    "ad": "m1135378758851778",
+    "stage": "TOF",
+    "desc": "Long TikTok-style text overlay on a creator photo in a kitchen",
+    "days": 16,
+    "img": "img/m1135378758851778.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1457138039848671",
+    "stage": "TOF",
+    "desc": "Whiteboard marker drawing: two faces compared, \"It's not X. It's Y.\" (48 days)",
+    "days": 48,
+    "img": "img/m1457138039848671.jpg",
+    "w": 440,
+    "h": 547
+   },
+   {
+    "ad": "m4160474997594332",
+    "stage": "TOF",
+    "desc": "Day 1 / 14 / 30 / 60 side-profile photo strip + product",
+    "days": 16,
+    "img": "img/m4160474997594332.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1079901161345131",
+    "stage": "TOF",
+    "desc": "Parody of the \"Sensitive content\" blur screen (frosted glass, \"Show me →\")",
+    "days": 46,
+    "img": "img/m1079901161345131.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m2613639235765354",
+    "stage": "TOF",
+    "desc": "Black-and-white archival photo (men round a boardroom table), no copy: curiosity image (90 days)",
+    "days": 90,
+    "img": "img/m2613639235765354.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1827361568714193",
+    "stage": "TOF",
+    "desc": "Warning hook (\"DO NOT take this if you're…⚠️\") over a UGC product photo outdoors (63 days)",
+    "days": 63,
+    "img": "img/m1827361568714193.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1104498475499998",
+    "stage": "TOF",
+    "desc": "3D cartoon food characters acting out the problem + offer strip",
+    "days": 42,
+    "img": "img/m1104498475499998.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m990009507492752",
+    "stage": "TOF",
+    "desc": "Thermal-camera image with a heat scale as the visual + short hook",
+    "days": 34,
+    "img": "img/m990009507492752.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1085440953937858",
+    "stage": "TOF",
+    "desc": "3D cartoon character (glamorous grandma) + \"Miss your…?\" headline + button (98 days)",
+    "days": 98,
+    "img": "img/m1085440953937858.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1076368248551019",
+    "stage": "TOF",
+    "desc": "Handwritten customer quote card on a side table next to the product (disco ball prop)",
+    "days": 30,
+    "img": "img/m1076368248551019.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1447234107512821",
+    "stage": "TOF",
+    "desc": "Simple line chart as the hero (\"Feel like your body is under attack?\")",
+    "days": 30,
+    "img": "img/m1447234107512821.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m4513587695625308",
+    "stage": "MOF",
+    "desc": "\"Tired. Foggy. Moody.\" ours vs the alternative, ✓ list vs ✗ list",
+    "days": 30,
+    "img": "img/m4513587695625308.jpg",
+    "w": 335,
+    "h": 600
+   },
+   {
+    "ad": "m1788118565512721",
+    "stage": "MOF",
+    "desc": "\"Not all X are created equal\": two hands holding ours vs the alternative (98 days)",
+    "days": 98,
+    "img": "img/m1788118565512721.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1424788686431433",
+    "stage": "MOF",
+    "desc": "\"Stop the guessing loop\": crossed-out list of alternatives → \"Meet [product]\" panel",
+    "days": 30,
+    "img": "img/m1424788686431433.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2028020181185827",
+    "stage": "BOF",
+    "desc": "MS-Paint scrawl (\"Anniversary sale, ends in 24 hours… sorry, our designer is on vacation\") (82 days)",
+    "days": 82,
+    "img": "img/m2028020181185827.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m984989124632582",
+    "stage": "BOF",
+    "desc": "\"We're shutting it down\": plain email-style text + link + product in hand",
+    "days": 58,
+    "img": "img/m984989124632582.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1395266502770105",
+    "stage": "BOF",
+    "desc": "Birthday cake built from the product + \"Anniversary sale\" gift list",
+    "days": 50,
+    "img": "img/m1395266502770105.jpg",
+    "w": 338,
+    "h": 600
+   }
+  ]
+ },
+ {
+  "group": "health",
+  "key": "create",
+  "name": "Create",
+  "note": "Creatine gummies positioned as candy. Clean still lifes, billboard mock-ups, subscribe-and-save bundles.",
+  "items": [
+   {
+    "ad": "m1616698690501513",
+    "stage": "TOF",
+    "desc": "Macro of one product on white + \"Tastes like candy\" pill label (83 days)",
+    "days": 83,
+    "img": "img/m1616698690501513.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1054721253938458",
+    "stage": "TOF",
+    "desc": "Unexpected pairing: product on a spoon of peanut butter (\"Creatine PB&J? Sure, why not.\") (83 days)",
+    "days": 83,
+    "img": "img/m1054721253938458.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1374725258165190",
+    "stage": "TOF",
+    "desc": "Pun headline in mixed serif/italic (\"Grape Expectations\") + macro + third-party trust badges",
+    "days": 51,
+    "img": "img/m1374725258165190.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1924161368561929",
+    "stage": "TOF",
+    "desc": "\"Craving [treat]?\" your 3pm habit vs your daily product, \"vs\" chip between two still lifes",
+    "days": 23,
+    "img": "img/m1924161368561929.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m2563350970768497",
+    "stage": "TOF",
+    "desc": "Question headline (\"Losing weight, but muscle too?\") + plinth still life with props",
+    "days": 64,
+    "img": "img/m2563350970768497.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2125853334987910",
+    "stage": "TOF",
+    "desc": "\"The only X you'll actually crave\" + product on a heap of product on a flat colour",
+    "days": 58,
+    "img": "img/m2125853334987910.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1066579419436263",
+    "stage": "TOF",
+    "desc": "Travel scene: product in a wash bag on a plane tray table, \"Travel-Friendly\" (82 days)",
+    "days": 82,
+    "img": "img/m1066579419436263.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2651641958624501",
+    "stage": "TOF",
+    "desc": "Billboard in the clouds with a handwritten edit (\"Quit taking creatine (inconsistently)\") (83 days)",
+    "days": 83,
+    "img": "img/m2651641958624501.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1427882912085901",
+    "stage": "TOF",
+    "desc": "Four-panel split: two packs + two macro hand shots, each tile labelled with a taste note",
+    "days": 19,
+    "img": "img/m1427882912085901.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m1654026759673645",
+    "stage": "TOF",
+    "desc": "Nostalgia: wall of retro product boxes + \"Your childhood favourite has landed\"",
+    "days": 43,
+    "img": "img/m1654026759673645.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1756701732143440",
+    "stage": "TOF",
+    "desc": "Big serif result headline (\"Finally Focused\") + customer quote + floating products",
+    "days": 40,
+    "img": "img/m1756701732143440.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2606987349740397",
+    "stage": "TOF",
+    "desc": "Messy-counter UGC photo with a caption (\"Your X doesn't belong on the counter top\")",
+    "days": 38,
+    "img": "img/m2606987349740397.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m28055542014097916",
+    "stage": "TOF",
+    "desc": "Billboard mock-up with a playful line (\"Tastes like a treat (but loaded with…)\")",
+    "days": 35,
+    "img": "img/m28055542014097916.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1072219428762697",
+    "stage": "TOF",
+    "desc": "Creator selfie holding the pack + \"How I stay consistent…\" caption boxes",
+    "days": 43,
+    "img": "img/m1072219428762697.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2405024140303309",
+    "stage": "MOF",
+    "desc": "\"Bored of your current X?\" variety grid of every flavour pack",
+    "days": 14,
+    "img": "img/m2405024140303309.jpg",
+    "w": 440,
+    "h": 550
+   },
+   {
+    "ad": "m2182472769288937",
+    "stage": "MOF",
+    "desc": "Half-and-half split: \"One proven ingredient / One tastier daily routine\" (old form vs new form)",
+    "days": 41,
+    "img": "img/m2182472769288937.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1080151667927571",
+    "stage": "MOF",
+    "desc": "\"Consistency that tastes better\": ours vs traditional table over a kitchen photo (82 days)",
+    "days": 82,
+    "img": "img/m1080151667927571.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1655917735873592",
+    "stage": "BOF",
+    "desc": "Bold \"35% off\" over a named bundle surrounded by its fruit (61 days)",
+    "days": 61,
+    "img": "img/m1655917735873592.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m1139895932325157",
+    "stage": "BOF",
+    "desc": "\"Squeeze in savings / Save 39%\": code pill + product dropping with fruit (82 days)",
+    "days": 82,
+    "img": "img/m1139895932325157.jpg",
+    "w": 338,
+    "h": 600
+   },
+   {
+    "ad": "m2264041867747585",
+    "stage": "BOF",
+    "desc": "Bundle pile with a big round \"Save $143\" badge + code ribbon",
+    "days": 40,
+    "img": "img/m2264041867747585.jpg",
+    "w": 338,
+    "h": 600
+   }
+  ]
+ }
+]
