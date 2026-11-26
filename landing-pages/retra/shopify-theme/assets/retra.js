@@ -247,3 +247,23 @@
     });
   }
 })();
+
+/* Mobile gallery: swipe the big photo to change it; keep the selected thumbnail in view. */
+(function () {
+  document.querySelectorAll('[data-buybox]').forEach(function (box) {
+    var stage = box.querySelector('.stage'), row = box.querySelector('.thumbs');
+    if (!stage || !row) return;
+    var x0 = null, y0 = 0;
+    stage.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, { passive: true });
+    stage.addEventListener('touchend', function (e) {
+      if (x0 === null) return;
+      var dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0; x0 = null;
+      if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy)) return;
+      var btn = box.querySelector(dx < 0 ? '[data-next]' : '[data-prev]'); if (btn) btn.click();
+    }, { passive: true });
+    new MutationObserver(function () {
+      var t = row.querySelector('button[aria-current="true"]');
+      if (t && row.scrollWidth > row.clientWidth) row.scrollTo({ left: t.offsetLeft - row.offsetLeft - (row.clientWidth - t.clientWidth) / 2, behavior: 'smooth' });
+    }).observe(row, { subtree: true, attributes: true, attributeFilter: ['aria-current'] });
+  });
+})();
