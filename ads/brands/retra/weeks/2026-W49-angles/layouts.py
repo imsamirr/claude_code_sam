@@ -35,6 +35,12 @@ def raw(path):
     return Image.open(p if p.exists() else p.with_suffix(".jpg")).convert("RGB")
 
 
+def disposable(height):
+    """Generic, unbranded disposable camera + film canister (green-screen cut-out)."""
+    im = Image.open(HERE / "renders/disposable_cut.png").convert("RGBA")
+    return im.resize((int(im.width * height / im.height), height), Image.LANCZOS)
+
+
 def rounded(im, r):
     m = Image.new("L", im.size, 0)
     ImageDraw.Draw(m).rounded_rectangle((0, 0, im.width - 1, im.height - 1), r, fill=255)
@@ -112,7 +118,7 @@ def a02(cid):
 
 # ---------------------------------------------------------------- 04 grandparents: minimal hero + handwriting
 def a04(cid):
-    img = paper(CREAM)
+    img = canvas(WHITE)
     lines = [S(cid, f"line_{i}", f"Handwritten line {i}") for i in (1, 2, 3)]
     y = 400
     for ln in lines:
@@ -137,7 +143,7 @@ def a07(cid):
 
 # ---------------------------------------------------------------- 08 wireless detox: annotated product diagram
 def a08(cid):
-    img = paper(CREAM)
+    img = canvas(WHITE)
     hl = S(cid, "headline", "Headline with keywords")
     kws = [k.strip().strip('"').lower() for k in S(cid, "keywords_to_colour", "").replace(";", ",").split(",") if k.strip()]
     f, lines = fit(hl, tinos, 960, 3, 92, 60)
@@ -185,22 +191,20 @@ def a08(cid):
         anchor = (lx if side == "l" else lx, ly + 22)
         d.line([(ax, ay), (anchor[0] + (tw / 2 if side == "l" else -tw / 2), ly + (44 if ly < ay else 0))],
                fill=INK, width=3)
-        d.ellipse((ax - 9, ay - 9, ax + 9, ay + 9), fill=(250, 247, 240), outline=INK, width=3)
-        pill(img, t, fl, tx + tw / 2, ly + 22, (250, 247, 240), INK, padx=22, pady=12)
+        d.ellipse((ax - 9, ay - 9, ax + 9, ay + 9), fill=WHITE, outline=INK, width=3)
+        pill(img, t, fl, tx + tw / 2, ly + 22, (238, 241, 244), INK, padx=22, pady=12)
         d = ImageDraw.Draw(img)
     return img
 
 
 # ---------------------------------------------------------------- 09 cost vs disposables: comparison table
 def a09(cid):
-    img = paper(CREAM)
+    img = canvas(WHITE)
     y = text_block(img, S(cid, "headline", "Headline here"), tinos, 70, 340, 940, 2, 84, 58, INK, "center")
     top = y + 30
     colx = [70, 470, 780]  # label col, left col centre band start, right col
     # header images
-    disp = raw(GAL / "renders/disposable_t1.png").crop((380, 300, 1700, 1820))
-    disp = rounded(ImageOps.fit(disp, (250, 290), Image.LANCZOS), 22)
-    img.alpha_composite(disp, (int(530 - 125), int(top)))
+    place(img, disposable(280), 530, top + 150, shadow=0.35, blur=16, drop=(0, 14))
     place(img, cam("chalk", 300, -3), 850, top + 150, shadow=0.35, blur=18, drop=(0, 16))
     fh = inter(34, "Bold")
     hy = top + 310
@@ -217,13 +221,13 @@ def a09(cid):
             rows.append(parts + [""] * (3 - len(parts)))
     rh = 128
     # highlight Retra column
-    d.rounded_rectangle((700, hy - 20, 1000, ry + rh * len(rows) + 10), 26, fill=(255, 252, 246))
+    d.rounded_rectangle((700, hy - 20, 1000, ry + rh * len(rows) + 10), 26, fill=(239, 243, 246))
     fl = inter(32, "SemiBold")
     fv = inter(32, "Medium")
     for i, (lab, lv, rv) in enumerate(rows):
         yy = ry + i * rh
         if i:
-            d.line([(70, yy - 8), (1010, yy - 8)], fill=(214, 205, 190), width=2)
+            d.line([(70, yy - 8), (1010, yy - 8)], fill=(222, 226, 230), width=2)
         f1, l1 = fit(lab, lambda s: inter(s, "SemiBold"), 300, 2, 32, 24)
         draw_lines(img, l1, f1, 70, yy + 12, INK, "left", 1.15, None, 300)
         f2, l2 = fit(lv, lambda s: inter(s, "Medium"), 250, 2, 32, 24)
@@ -237,7 +241,7 @@ def a09(cid):
 # ---------------------------------------------------------------- 10 one click, four filters: filter grid
 def a10(cid):
     from compose_gallery import retra_filter
-    img = paper(CREAM)
+    img = canvas(WHITE)
     y = text_block(img, S(cid, "headline", "Headline here"), tinos, 70, 330, 940, 2, 84, 58, INK, "center")
     T, gap = 400, 20
     base = ImageOps.fit(raw(SAMPLES["harbour"]), (T, T), Image.LANCZOS, centering=(0.5, 0.45))
@@ -264,7 +268,7 @@ TILE_BG = {"chalk": (238, 233, 222), "obsidian": (216, 214, 212), "sol": (246, 2
 
 
 def a11(cid):
-    img = paper((250, 247, 240))
+    img = canvas(WHITE)
     y = text_block(img, S(cid, "headline", "Headline here"), tinos, 70, 320, 940, 2, 80, 56, INK, "center")
     tw_, th_, gap = 300, 360, 20
     x0 = (W - 3 * tw_ - 2 * gap) / 2
@@ -315,7 +319,7 @@ def a14(cid):
 
 # ---------------------------------------------------------------- 15 low stock: "we're sorry" letter
 def a15(cid):
-    img = paper((252, 250, 245), seed=7, amt=1.6)
+    img = canvas(WHITE)
     d = ImageDraw.Draw(img)
     y = text_block(img, S(cid, "title", "We're sorry."), lambda s: tinos(s, -0.03), 80, 360, 920, 2, 104, 70, INK)
     d.line([(80, y + 14), (240, y + 14)], fill=RED, width=5)
@@ -343,7 +347,7 @@ def a15(cid):
 # ---------------------------------------------------------------- 16 price card
 def a16(cid):
     img = canvas((226, 172, 46))
-    card = rounded(Image.new("RGBA", (940, 1240), (252, 250, 245, 255)), 40)
+    card = rounded(Image.new("RGBA", (940, 1240), (255, 255, 255, 255)), 40)
     place(img, card, W / 2, 960, shadow=0.35, blur=30, drop=(0, 20))
     pill(img, S(cid, "label", "EXCLUSIVE DEAL").upper(), inter(30, "Bold"), W / 2, 420, INK, WHITE, padx=30, pady=12)
     y = text_block(img, S(cid, "headline", "Headline here"), tinos, 120, 470, 840, 2, 84, 58, INK, "center")
@@ -376,7 +380,7 @@ def a16(cid):
 
 # ---------------------------------------------------------------- 17 camping: Venn diagram
 def a17(cid):
-    img = paper(CREAM)
+    img = canvas(WHITE)
     y = text_block(img, S(cid, "headline", "Headline"), tinos, 70, 340, 940, 2, 88, 60, INK, "center")
     cy, r = y + 430, 320
     lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -391,8 +395,7 @@ def a17(cid):
     d = ImageDraw.Draw(img)
     d.rounded_rectangle((190, cy - 70, 270, cy + 80), 16, outline=INK, width=5)
     d.ellipse((222, cy + 54, 238, cy + 70), fill=INK)
-    disp = raw(GAL / "renders/disposable_t1.png").crop((380, 300, 1700, 1820))
-    img.alpha_composite(rounded(ImageOps.fit(disp, (130, 150), Image.LANCZOS), 14), (810, int(cy - 70)))
+    place(img, disposable(165), 875, cy + 5, shadow=0.3, blur=10, drop=(0, 8))
     place(img, cam("pine", 270, -3), 540, cy - 10, shadow=0.4, blur=14, drop=(0, 12))
     draw_lines(img, [S(cid, "overlap_center", "Retra")], inter(32, "Bold"), 390, cy + 110, INK, "center", 1, None, 300)
     text_block(img, S(cid, "sub", "Sub"), lambda s: inter(s, "Medium"), 90, cy + r + 40, 900, 2, 36, 26, BODY,
@@ -403,7 +406,7 @@ def a17(cid):
 # ---------------------------------------------------------------- 18 nights out: "5 things" listicle
 def a18(cid):
     from compose_gallery import retra_filter
-    img = paper((236, 240, 244))
+    img = canvas(WHITE)
     y = text_block(img, S(cid, "headline", "Headline"), tinos, 70, 340, 940, 2, 80, 56, INK, "left")
     y += 26
     d = ImageDraw.Draw(img)
@@ -428,7 +431,7 @@ def a18(cid):
 # ---------------------------------------------------------------- 19 road trip: Day 1 / 7 / 21 timeline
 def a19(cid):
     from compose_gallery import retra_filter
-    img = paper(CREAM)
+    img = canvas(WHITE)
     y = text_block(img, S(cid, "headline", "Headline"), tinos, 70, 330, 940, 2, 84, 58, INK, "left")
     y += 40
     pics = [("ferry", "Natural"), ("bike", "Vintage"), ("harbour", "Film")]
