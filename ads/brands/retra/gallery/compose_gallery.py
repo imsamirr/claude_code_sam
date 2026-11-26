@@ -524,6 +524,69 @@ def samples_all():
         print(name)
 
 
+def vintage_strong(im, seed=4):
+    """Heavier film look for Sam's personal split image: lifted/faded blacks, warm cast, reduced saturation,
+    slight softness, highlight halation, coarse grain, strong vignette, faint warm light leak."""
+    from PIL import ImageEnhance
+    im = im.convert("RGB")
+    w, h = im.size
+    im = ImageEnhance.Color(im).enhance(0.58)
+    im = im.filter(ImageFilter.GaussianBlur(1.6))
+    a = np.asarray(im).astype(np.float32) / 255
+    # tone curve: faded blacks, softened highlights, warm shift
+    a = 0.15 + a * 0.74
+    a[..., 0] = a[..., 0] * 1.08 + 0.03
+    a[..., 1] = a[..., 1] * 1.00 + 0.01
+    a[..., 2] = a[..., 2] * 0.72
+    # halation: blurred highlights bloomed back in, tinted orange-red
+    hi = np.clip((a.mean(-1) - 0.62) / 0.38, 0, 1)
+    glow = cv2_blur(hi, 28)
+    a += glow[..., None] * np.array([0.22, 0.10, 0.02])
+    # vignette + faint light leak from the top-left
+    yy, xx = np.mgrid[0:h, 0:w]
+    r = np.sqrt(((xx - w / 2) / (w / 2)) ** 2 + ((yy - h / 2) / (h / 2)) ** 2)
+    a *= (1 - 0.38 * np.clip(r - 0.35, 0, 1) ** 1.5)[..., None]
+    leak = np.exp(-(((xx) / (w * 0.35)) ** 2 + ((yy) / (h * 0.6)) ** 2))
+    a += leak[..., None] * np.array([0.14, 0.05, 0.0])
+    a = np.clip(a, 0, 1) * 255
+    rng = np.random.default_rng(seed)
+    grain = rng.normal(0, 13, (h, w)).astype(np.float32)
+    grain = cv2_blur(grain, 0.8)
+    a += grain[..., None]
+    return Image.fromarray(np.clip(a, 0, 255).astype("uint8"))
+
+
+def cv2_blur(x, sigma):
+    import cv2
+    return cv2.GaussianBlur(x.astype(np.float32), (0, 0), sigma)
+
+
+def split_personal():
+    """Sam's personal copy of the split image: heavier vintage top half; no _ILLUSTRATIVE marker."""
+    base = Image.open(src(PICKS["scene_split"])).convert("RGB")
+    half = S // 2
+    scene = ImageOps.fit(base, (S, half), Image.LANCZOS, centering=(0.5, 0.45))
+    img = Image.new("RGB", (S, S))
+    img.paste(vintage_strong(scene), (0, 0))
+    img.paste(scene, (0, half))
+    img = img.convert("RGBA")
+    for (yb, lab, sub) in [(half - 70, COPY["split_top_label"], COPY["split_top_sublabel"]),
+                           (S - 70, COPY["split_bottom_label"], COPY["split_bottom_sublabel"])]:
+        lf = inter_x(104)
+        sf = tinos(58, -0.02)
+        band = Image.new("RGBA", (S, 380), (0, 0, 0, 0))
+        band.putalpha(Image.fromarray(np.repeat((np.linspace(0, 1, 380) ** 1.4 * 150).astype("uint8")[:, None], S, 1)))
+        img.alpha_composite(band, (0, yb + 70 - 380))
+        d = ImageDraw.Draw(img)
+        text(d, (95, yb - 190), typeset(lab), lf, (252, 250, 245))
+        text(d, (98, yb - 60), typeset(sub), sf, (252, 250, 245))
+    ImageDraw.Draw(img).line([(0, half), (S, half)], fill=(242, 238, 227), width=6)
+    out = OUT / "personal"
+    out.mkdir(exist_ok=True)
+    img.convert("RGB").save(out / "RET_split_vintage_vs_phone_personal.jpg", quality=92)
+    print("RET_split_vintage_vs_phone_personal.jpg")
+
+
 BUILD = {"hand": hand, "howto": howto, "usbc": usbc, "frontback": frontback, "filters": filters, "gift": gift,
          "box": box, "macro": macro, "float": float_, "flow": flow, "split": split, "portrait": portrait}
 SINGLE = {"split", "portrait"}  # one version, no camera in frame
@@ -537,6 +600,8 @@ def main():
         return samples_all()
     if which == ["samples_personal"]:
         return samples_personal()
+    if which == ["split_personal"]:
+        return split_personal()
     for k in which:
         for c in ([None] if k in SINGLE else COLOURS):
             im = BUILD[k](c)
