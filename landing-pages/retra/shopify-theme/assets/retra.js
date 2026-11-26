@@ -81,65 +81,112 @@
     });
   });
 
-  /* ---------- cart ---------- */
+  /* ---------- cart: Retra-Shots drawer (Shopify-rendered section), rewards gifts, upsells ---------- */
   var drawer = $('#cart-drawer');
   var countEls = $$('[data-cart-count]');
   var lastFocus = null;
-  function money(cents) {
-    var fmt = (window.RetraCart && RetraCart.moneyFormat) || '${{amount}}';
-    var v = (cents / 100);
-    var noDec = (cents % 100 === 0);
-    return fmt.replace(/\{\{\s*(\w+)\s*\}\}/, function (m, k) {
-      if (k === 'amount_no_decimals') return Math.round(v).toLocaleString('en-US');
-      if (k === 'amount_with_comma_separator') return v.toFixed(2).replace('.', ',');
-      return noDec ? v.toLocaleString('en-US') : v.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-    });
-  }
-  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  var SECTION = 'retra-cart-drawer';
+  var rewards = [];
+  try { rewards = JSON.parse(drawer ? drawer.getAttribute('data-rewards') || '[]' : '[]'); } catch (e) { rewards = []; }
+  var busy = false;
+
   function setCount(n) { countEls.forEach(function (el) { el.textContent = n; el.setAttribute('data-count', n); }); }
-  function render(cart) {
-    setCount(cart.item_count);
-    if (!drawer) return;
-    var list = $('.c-items', drawer), empty = $('.c-empty', drawer), foot = $('.c-foot', drawer);
-    var L = drawer.dataset;
-    if (!cart.items.length) { list.innerHTML = ''; empty.hidden = false; foot.hidden = true; return; }
-    empty.hidden = true; foot.hidden = false;
-    list.innerHTML = cart.items.map(function (it) {
-      var img = it.image ? it.image + (it.image.indexOf('?') > -1 ? '&' : '?') + 'width=160' : '';
-      var variant = it.variant_title && it.variant_title !== 'Default Title' ? '<div class="v">' + esc(it.variant_title) + '</div>' : '';
-      var was = it.original_line_price > it.final_line_price ? '<s>' + money(it.original_line_price) + '</s>' : '';
-      return '<li class="c-line" data-key="' + esc(it.key) + '">' +
-        (img ? '<img src="' + esc(img) + '" alt="" width="72" height="72" loading="lazy">' : '<span></span>') +
-        '<div><div class="t">' + esc(it.product_title) + '</div>' + variant +
-        '<div class="c-qty"><button type="button" data-q="' + (it.quantity - 1) + '" aria-label="' + esc(L.dec) + '">−</button><span aria-live="polite">' + it.quantity + '</span><button type="button" data-q="' + (it.quantity + 1) + '" aria-label="' + esc(L.inc) + '">+</button></div>' +
-        '<button type="button" class="c-rm" data-q="0">' + esc(L.remove) + '</button></div>' +
-        '<div class="pr">' + money(it.final_line_price) + was + '</div></li>';
-    }).join('');
-    $('[data-subtotal]', drawer).textContent = money(cart.total_price);
-  }
   function getCart() { return fetch('/cart.js', { headers: { Accept: 'application/json' } }).then(function (r) { return r.json(); }); }
+  function post(url, body) { return fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(body), retraOwn: true }); }
+
+  /* Add or remove the free reward gifts so the cart matches the spend thresholds. */
+  function syncRewards(cart) {
+    if (!rewards.length) return Promise.resolve(cart);
+    var spent = 0;
+    cart.items.forEach(function (it) { if (!(it.properties && it.properties._reward)) spent += it.final_line_price; });
+    var jobs = [];
+    rewards.forEach(function (r) {
+      if (!r.variant) return;
+      var mine = cart.items.filter(function (it) { return it.properties && it.properties._reward === r.key; });
+      var other = cart.items.some(function (it) { return it.variant_id === r.variant && it.final_line_price === 0 && !(it.properties && it.properties._reward); });
+      var want = spent >= r.threshold && !other;
+      if (want && !mine.length) jobs.push(function () { return post('/cart/add.js', { items: [{ id: r.variant, quantity: 1, properties: { _reward: r.key } }] }); });
+      mine.forEach(function (it, i) {
+        if (!want || i > 0) jobs.push(function () { return post('/cart/change.js', { id: it.key, quantity: 0 }); });
+        else if (it.quantity !== 1) jobs.push(function () { return post('/cart/change.js', { id: it.key, quantity: 1 }); });
+      });
+    });
+    if (!jobs.length) return Promise.resolve(cart);
+    return jobs.reduce(function (p, job) { return p.then(job); }, Promise.resolve()).then(getCart);
+  }
+
+  function renderDrawer(html) {
+    if (!drawer || !html) return;
+    var doc = new DOMParser().parseFromString(html, 'text/html');
+    var inner = doc.querySelector('[data-cart-inner]');
+    var cur = $('[data-cart-inner]', drawer);
+    if (inner && cur) { cur.innerHTML = inner.innerHTML; cur.setAttribute('data-count', inner.getAttribute('data-count')); setCount(inner.getAttribute('data-count')); }
+    initCarousel();
+  }
+  function loadDrawer() {
+    return fetch('/?sections=' + SECTION, { headers: { Accept: 'application/json' } }).then(function (r) { return r.json(); }).then(function (j) { renderDrawer(j[SECTION]); });
+  }
+  /* After any cart change: fix up the reward gifts, then re-render the drawer from Shopify. */
+  function refresh() {
+    busy = true;
+    return getCart().then(syncRewards).then(loadDrawer).catch(function () {}).then(function () { busy = false; });
+  }
   function openCart() {
     if (!drawer) { location.href = '/cart'; return; }
-    lastFocus = document.activeElement;
+    if (drawer.hidden) lastFocus = document.activeElement;
     drawer.hidden = false; document.body.classList.add('cart-open');
-    var x = $('.c-x', drawer); if (x) x.focus();
+    var x = $('.c-x', drawer); if (x) x.focus({ preventScroll: true });
   }
   function closeCart() {
     if (!drawer) return;
     drawer.hidden = true; document.body.classList.remove('cart-open');
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
-  if (drawer) {
-    $$('[data-close-cart]', drawer).forEach(function (b) { b.addEventListener('click', closeCart); });
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !drawer.hidden) closeCart(); });
-    $('.c-items', drawer).addEventListener('click', function (e) {
-      var b = e.target.closest('button[data-q]'); if (!b) return;
-      var li = b.closest('.c-line');
-      li.classList.add('busy');
-      fetch('/cart/change.js', { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify({ id: li.dataset.key, quantity: Number(b.dataset.q) }) })
-        .then(function (r) { return r.json(); }).then(render).catch(function () { li.classList.remove('busy'); });
-    });
+
+  function initCarousel() {
+    if (!drawer) return;
+    var car = $('[data-carousel]', drawer); if (!car) return;
+    var track = $('.c-ups__track', car), dots = $('.c-ups__dots', car);
+    var cards = $$('.c-card', track);
+    if (!cards.length) { car.hidden = true; return; }
+    dots.innerHTML = cards.map(function () { return '<i></i>'; }).join('');
+    function update() {
+      var w = cards[0].getBoundingClientRect().width + 12;
+      var i = Math.round(track.scrollLeft / w);
+      $$('i', dots).forEach(function (d, k) { d.classList.toggle('on', k === i); });
+      var prev = $('[data-car="-1"]', car), next = $('[data-car="1"]', car);
+      if (prev) prev.disabled = track.scrollLeft < 4;
+      if (next) next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 4;
+    }
+    track.addEventListener('scroll', update, { passive: true });
+    update();
   }
+
+  if (drawer) {
+    drawer.addEventListener('click', function (e) {
+      if (e.target.closest('[data-close-cart]')) { closeCart(); return; }
+      var nav = e.target.closest('[data-car]');
+      if (nav) { var tr = $('.c-ups__track', drawer); var c = $('.c-card', tr); tr.scrollBy({ left: Number(nav.dataset.car) * ((c ? c.getBoundingClientRect().width : 300) + 12), behavior: 'smooth' }); return; }
+      var q = e.target.closest('button[data-q]');
+      if (q) {
+        var li = q.closest('.c-line'); li.classList.add('busy');
+        post('/cart/change.js', { id: li.dataset.key, quantity: Number(q.dataset.q) }).then(refresh);
+        return;
+      }
+      var add = e.target.closest('[data-upsell-add]');
+      if (add) {
+        var card = add.closest('.c-card'), sel = $('.c-card__sel', card);
+        var id = add.dataset.variant || (sel && sel.value);
+        if (!id) { sel.classList.add('err'); sel.focus(); return; }
+        add.disabled = true; card.classList.add('busy');
+        post('/cart/add.js', { items: [{ id: Number(id), quantity: 1 }] }).then(refresh);
+      }
+    });
+    drawer.addEventListener('change', function (e) { if (e.target.classList.contains('c-card__sel')) e.target.classList.remove('err'); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !drawer.hidden) closeCart(); });
+    initCarousel();
+  }
+
   /* Open the slide-out cart after any add to cart on the page, including Kaching's bundle adds. */
   if (window.fetch && drawer) {
     var nativeFetch = window.fetch;
@@ -147,12 +194,12 @@
       var url = typeof input === 'string' ? input : (input && input.url) || '';
       var req = nativeFetch.apply(this, arguments);
       if (/\/cart\/add(\.js)?(\?|$)/.test(url) && !(init && init.retraOwn)) {
-        req.then(function (r) { if (r.ok) setTimeout(function () { getCart().then(render).then(openCart); }, 150); }).catch(function () {});
+        req.then(function (r) { if (r.ok) setTimeout(function () { refresh().then(openCart); }, 150); }).catch(function () {});
       }
       return req;
     };
   }
-  $$('[data-open-cart]').forEach(function (b) { b.addEventListener('click', function (e) { e.preventDefault(); getCart().then(render).then(openCart).catch(openCart); }); });
+  $$('[data-open-cart]').forEach(function (b) { b.addEventListener('click', function (e) { e.preventDefault(); openCart(); refresh(); }); });
 
   $$('form[data-retra-atc]').forEach(function (form) {
     var btn = $('button[type="submit"]', form);
@@ -165,12 +212,10 @@
       if (status) { status.textContent = ''; status.classList.remove('err'); status.classList.add('vh'); }
       fetch('/cart/add.js', { method: 'POST', headers: { Accept: 'application/json' }, body: new FormData(form), retraOwn: true })
         .then(function (r) { if (!r.ok) throw new Error('add'); return r.json(); })
-        .then(function () { return getCart(); })
-        .then(function (cart) {
-          render(cart);
+        .then(function () {
           if (status) status.textContent = form.dataset.added;
           if (btn) { var lab = $('[data-label]', btn); if (lab) { var orig = lab.textContent; lab.textContent = form.dataset.added; setTimeout(function () { lab.textContent = orig; }, 2400); } }
-          openCart();
+          return refresh().then(openCart);
         })
         .catch(function () {
           if (status) { status.textContent = form.dataset.error; status.classList.add('err'); status.classList.remove('vh'); }

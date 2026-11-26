@@ -1,0 +1,197 @@
+{%- comment -%}
+  Retra-Shots slide-out cart, modelled on Retro-pia's drawer: serif title + count pill, rewards journey bar,
+  line items with compare-at prices, "Others also bought these..." upsell carousel, total with savings pill.
+  Rendered by Shopify and re-fetched with the Section Rendering API (/?sections=retra-cart-drawer) after every cart change.
+{%- endcomment -%}
+{%- liquid
+  assign r1 = section.settings.reward_1_product | default: all_products['retra-woven-camera-strap-leash']
+  assign r2 = section.settings.reward_2_product | default: all_products['retra-leather-camera-bag']
+  assign t1 = section.settings.reward_1_threshold | times: 100
+  assign t2 = section.settings.reward_2_threshold | times: 100
+
+  assign total = 0
+  assign compare_total = 0
+  for item in cart.items
+    assign line_compare = item.variant.compare_at_price | times: item.quantity
+    if line_compare < item.original_line_price
+      assign line_compare = item.original_line_price
+    endif
+    assign compare_total = compare_total | plus: line_compare
+    if item.properties['_reward'] == blank
+      assign total = total | plus: item.final_line_price
+    endif
+  endfor
+  assign savings = compare_total | minus: cart.total_price
+
+  if section.settings.upsell_products != blank
+    assign upsells = section.settings.upsell_products
+  else
+    assign upsells = 'retra-screen-free-camera,retra-woven-camera-strap-leash,retra-leather-camera-bag' | split: ','
+  endif
+-%}
+<div class="cart-drawer" id="cart-drawer" hidden role="dialog" aria-modal="true" aria-labelledby="cart-h"
+  data-rewards="{% if section.settings.show_rewards %}[{&quot;key&quot;:&quot;r1&quot;,&quot;threshold&quot;:{{ t1 }},&quot;variant&quot;:{{ r1.selected_or_first_available_variant.id | default: 0 }}},{&quot;key&quot;:&quot;r2&quot;,&quot;threshold&quot;:{{ t2 }},&quot;variant&quot;:{{ r2.selected_or_first_available_variant.id | default: 0 }}}]{% else %}[]{% endif %}">
+  <button type="button" class="scrim" data-close-cart aria-label="Close cart" tabindex="-1"></button>
+  <div class="panel-c" data-cart-inner data-count="{{ cart.item_count }}">
+    <div class="c-head">
+      <h2 id="cart-h">{{ section.settings.title }}</h2>
+      {%- if cart.item_count > 0 %}<span class="c-sep" aria-hidden="true"></span><span class="c-count">{{ cart.item_count }}</span>{% endif -%}
+      <button type="button" class="c-x" data-close-cart aria-label="Close cart"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+    </div>
+
+    <div class="c-body">
+      {%- if section.settings.show_rewards and t2 > 0 -%}
+        {%- liquid
+          assign pct = total | times: 100 | divided_by: t2
+          if pct > 100
+            assign pct = 100
+          endif
+          assign m1 = t1 | times: 100 | divided_by: t2
+          if total < t1
+            assign need = t1 | minus: total | money_without_trailing_zeros | prepend: '<strong>' | append: '</strong>'
+            assign msg = section.settings.msg_1 | replace: '[amount]', need
+          elsif total < t2
+            assign need = t2 | minus: total | money_without_trailing_zeros | prepend: '<strong>' | append: '</strong>'
+            assign msg = section.settings.msg_2 | replace: '[amount]', need
+          else
+            assign msg = section.settings.msg_3
+          endif
+        -%}
+        <div class="c-rewards">
+          <p class="c-rewards__msg">{{ msg }}</p>
+          <div class="c-rewards__track" role="progressbar" aria-valuemin="0" aria-valuemax="{{ t2 | divided_by: 100 }}" aria-valuenow="{{ total | divided_by: 100 }}">
+            <i style="width:{{ pct }}%"></i>
+            <span class="c-rewards__stop{% if total >= t1 %} is-on{% endif %}" style="left:{{ m1 }}%">{%- if r1.featured_image -%}<img src="{{ r1.featured_image | image_url: width: 80 }}" alt="" width="28" height="28" loading="lazy">{%- endif -%}</span>
+            <span class="c-rewards__stop{% if total >= t2 %} is-on{% endif %}" style="left:100%">{%- if r2.featured_image -%}<img src="{{ r2.featured_image | image_url: width: 80 }}" alt="" width="28" height="28" loading="lazy">{%- endif -%}</span>
+          </div>
+          <div class="c-rewards__labels"><span style="left:{{ m1 }}%">{{ section.settings.label_1 }}</span><span style="left:100%">{{ section.settings.label_2 }}</span></div>
+        </div>
+      {%- endif -%}
+
+      {%- if cart.item_count == 0 -%}
+        <p class="c-empty">{{ section.settings.empty }}</p>
+      {%- else -%}
+        <ul class="c-items">
+          {%- for item in cart.items -%}
+            {%- liquid
+              assign is_gift = false
+              if item.properties['_reward'] != blank
+                assign is_gift = true
+              elsif item.final_line_price == 0 and item.original_line_price > 0
+                assign is_gift = true
+              endif
+              assign line_compare = item.variant.compare_at_price | times: item.quantity
+              if line_compare < item.original_line_price
+                assign line_compare = item.original_line_price
+              endif
+            -%}
+            <li class="c-line{% if is_gift %} is-gift{% endif %}" data-key="{{ item.key }}">
+              <a class="c-line__img" href="{{ item.url }}">{%- if item.image -%}<img src="{{ item.image | image_url: width: 240 }}" alt="{{ item.image.alt | escape }}" width="110" height="110" loading="lazy">{%- endif -%}</a>
+              <div class="c-line__main">
+                <div class="c-line__top">
+                  <a class="t" href="{{ item.url }}">{{ item.product.title }}</a>
+                  {%- unless is_gift -%}<button type="button" class="c-rm" data-q="0" aria-label="{{ section.settings.remove_label | escape }}: {{ item.product.title | escape }}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 7h14M10 7V5h4v2M7 7l1 13h8l1-13M10 11l4 5M14 11l-4 5"/></svg></button>{%- endunless -%}
+                </div>
+                {%- unless item.product.has_only_default_variant %}<div class="v">{{ item.variant.title }}</div>{% endunless -%}
+                <div class="c-line__bottom">
+                  {%- if is_gift -%}
+                    <span class="c-gift">{{ section.settings.gift_tag }}</span>
+                  {%- else -%}
+                    <div class="c-qty"><button type="button" data-q="{{ item.quantity | minus: 1 }}" aria-label="Decrease quantity">−</button><span>{{ item.quantity }}</span><button type="button" data-q="{{ item.quantity | plus: 1 }}" aria-label="Increase quantity">+</button></div>
+                  {%- endif -%}
+                  <div class="pr">{%- if line_compare > item.final_line_price -%}<s>{{ line_compare | money }}</s>{%- endif -%}<b>{{ item.final_line_price | money }}</b></div>
+                </div>
+              </div>
+            </li>
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+
+      {%- if section.settings.show_upsells -%}
+        <div class="c-ups" data-carousel>
+          <div class="c-ups__head">
+            <h3>{{ section.settings.upsell_heading }}</h3>
+            <div class="c-ups__nav"><button type="button" data-car="-1" aria-label="Previous"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button type="button" data-car="1" aria-label="Next"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button></div>
+          </div>
+          <div class="c-ups__track">
+            {%- for u in upsells -%}
+              {%- if u.title -%}{%- assign up = u -%}{%- else -%}{%- assign up = all_products[u] -%}{%- endif -%}
+              {%- if up != blank and up.available -%}
+                {%- assign uv = up.selected_or_first_available_variant -%}
+                <div class="c-card">
+                  <a class="c-card__img" href="{{ up.url }}">{%- if up.featured_image -%}<img src="{{ up.featured_image | image_url: width: 240 }}" alt="{{ up.featured_image.alt | escape }}" width="110" height="110" loading="lazy">{%- endif -%}</a>
+                  <div class="c-card__main">
+                    <a class="t" href="{{ up.url }}">{{ up.title }}</a>
+                    <div class="pr"><b>{{ uv.price | money }}</b>{%- if uv.compare_at_price > uv.price -%}<s>{{ uv.compare_at_price | money }}</s>{%- endif -%}</div>
+                    {%- unless up.has_only_default_variant -%}
+                      <select class="c-card__sel" aria-label="{{ section.settings.upsell_select | escape }}">
+                        <option value="" disabled selected>{{ section.settings.upsell_select }}</option>
+                        {%- for v in up.variants -%}{%- if v.available -%}<option value="{{ v.id }}">{{ v.title }}</option>{%- endif -%}{%- endfor -%}
+                      </select>
+                    {%- endunless -%}
+                  </div>
+                  <button type="button" class="c-card__add" data-upsell-add{% if up.has_only_default_variant %} data-variant="{{ uv.id }}"{% endif %}>{{ section.settings.upsell_add }}</button>
+                </div>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+          <div class="c-ups__dots" aria-hidden="true"></div>
+        </div>
+      {%- endif -%}
+    </div>
+
+    {%- if cart.item_count > 0 -%}
+    <div class="c-foot">
+      <div class="c-total">
+        <span class="c-total__label">{{ section.settings.total_label }}</span>
+        <span class="c-total__right">
+          {%- if savings > 0 %}<span class="c-save">{{ section.settings.save_prefix }} {{ savings | money }}</span>{% endif -%}
+          {%- if compare_total > cart.total_price %}<s>{{ compare_total | money }}</s>{% endif -%}
+          <b data-subtotal>{{ cart.total_price | money }}</b>
+        </span>
+      </div>
+      <form action="{{ routes.cart_url }}" method="post"><button class="cta full c-checkout" type="submit" name="checkout">{{ section.settings.checkout }}</button></form>
+      {%- if section.settings.note != blank %}<p class="c-note">{{ section.settings.note }}</p>{% endif -%}
+      {%- if section.settings.show_payment_icons -%}
+        <div class="c-pay">{%- for type in shop.enabled_payment_types -%}{{ type | payment_type_svg_tag: class: 'c-pay__icon' }}{%- endfor -%}</div>
+      {%- endif -%}
+    </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Retra-Shots cart drawer",
+  "class": "retra-cart",
+  "settings": [
+    { "type": "text", "id": "title", "label": "Title", "default": "Your Cart" },
+    { "type": "text", "id": "empty", "label": "Empty message", "default": "Your cart is currently empty." },
+    { "type": "text", "id": "remove_label", "label": "Remove button (screen readers)", "default": "Remove" },
+    { "type": "header", "content": "Rewards bar" },
+    { "type": "checkbox", "id": "show_rewards", "label": "Show rewards bar and add the free gifts", "default": true, "info": "The gifts are made free at checkout by the automatic discounts \"Retra-Shots reward: ...\" in Shopify Discounts. Turn those off too if you hide this." },
+    { "type": "number", "id": "reward_1_threshold", "label": "Reward 1: spend (dollars)", "default": 150 },
+    { "type": "product", "id": "reward_1_product", "label": "Reward 1: free product", "info": "Empty uses the Woven Camera Strap Leash." },
+    { "type": "number", "id": "reward_2_threshold", "label": "Reward 2: spend (dollars)", "default": 200 },
+    { "type": "product", "id": "reward_2_product", "label": "Reward 2: free product", "info": "Empty uses the Leather Camera Bag." },
+    { "type": "text", "id": "msg_1", "label": "Message before reward 1", "default": "Add [amount] to unlock a FREE Camera Strap Leash", "info": "[amount] is filled in automatically." },
+    { "type": "text", "id": "msg_2", "label": "Message after reward 1", "default": "Free Strap unlocked! Add [amount] for a FREE Leather Camera Bag" },
+    { "type": "text", "id": "msg_3", "label": "Message after reward 2", "default": "You unlocked both free gifts!" },
+    { "type": "text", "id": "label_1", "label": "Reward 1 label", "default": "Free Strap" },
+    { "type": "text", "id": "label_2", "label": "Reward 2 label", "default": "Free Bag" },
+    { "type": "text", "id": "gift_tag", "label": "Free gift tag", "default": "FREE GIFT" },
+    { "type": "header", "content": "Upsells" },
+    { "type": "checkbox", "id": "show_upsells", "label": "Show upsell carousel", "default": true },
+    { "type": "text", "id": "upsell_heading", "label": "Heading", "default": "Others also bought these..." },
+    { "type": "product_list", "id": "upsell_products", "label": "Products", "limit": 8, "info": "Empty shows the camera, strap leash and leather bag." },
+    { "type": "text", "id": "upsell_add", "label": "Add button", "default": "+ Add" },
+    { "type": "text", "id": "upsell_select", "label": "Colour dropdown placeholder", "default": "Select Color" },
+    { "type": "header", "content": "Footer" },
+    { "type": "text", "id": "total_label", "label": "Total label", "default": "Estimated Total" },
+    { "type": "text", "id": "save_prefix", "label": "Savings pill prefix", "default": "SAVE" },
+    { "type": "text", "id": "checkout", "label": "Checkout button", "default": "Check Out" },
+    { "type": "text", "id": "note", "label": "Note under the button", "default": "Shipping, taxes, and discounts calculated at checkout." },
+    { "type": "checkbox", "id": "show_payment_icons", "label": "Show payment icons", "default": true }
+  ]
+}
+{% endschema %}

@@ -58,21 +58,6 @@
   </div>
 </header>
 
-<div class="cart-drawer" id="cart-drawer" hidden role="dialog" aria-modal="true" aria-labelledby="cart-h"
-  data-remove="{{ section.settings.cart_remove | escape }}" data-inc="Increase quantity" data-dec="Decrease quantity">
-  <button type="button" class="scrim" data-close-cart aria-label="Close cart" tabindex="-1"></button>
-  <div class="panel-c">
-    <div class="c-head"><h2 id="cart-h">{{ section.settings.cart_title }}</h2><button type="button" class="c-x" data-close-cart aria-label="Close cart">×</button></div>
-    <p class="c-empty"{% if cart.item_count > 0 %} hidden{% endif %}>{{ section.settings.cart_empty }}</p>
-    <ul class="c-items"></ul>
-    <div class="c-foot"{% if cart.item_count == 0 %} hidden{% endif %}>
-      <div class="c-sub"><span>{{ section.settings.cart_subtotal }}</span><span data-subtotal>{{ cart.total_price | money }}</span></div>
-      <p class="c-note">{{ section.settings.cart_note }}</p>
-      <form action="{{ routes.cart_url }}" method="post"><button class="cta full" type="submit" name="checkout">{{ section.settings.cart_checkout }}</button></form>
-    </div>
-  </div>
-</div>
-
 {% schema %}
 {
   "name": "Retra-Shots header",
@@ -88,14 +73,7 @@
     { "type": "header", "content": "Header" },
     { "type": "text", "id": "logo_text", "label": "Logo text", "default": "Retra-Shots" },
     { "type": "text", "id": "support_label", "label": "Support link label", "default": "Support" },
-    { "type": "text", "id": "support_link", "label": "Support link", "default": "/pages/contact" },
-    { "type": "header", "content": "Slide-out cart" },
-    { "type": "text", "id": "cart_title", "label": "Title", "default": "Your Cart" },
-    { "type": "text", "id": "cart_empty", "label": "Empty message", "default": "Your cart is currently empty." },
-    { "type": "text", "id": "cart_subtotal", "label": "Subtotal label", "default": "Subtotal" },
-    { "type": "text", "id": "cart_note", "label": "Note under subtotal", "default": "Shipping, taxes, and discounts calculated at checkout." },
-    { "type": "text", "id": "cart_checkout", "label": "Checkout button", "default": "Check Out" },
-    { "type": "text", "id": "cart_remove", "label": "Remove link", "default": "Remove" }
+    { "type": "text", "id": "support_link", "label": "Support link", "default": "/pages/contact" }
   ],
   "blocks": [
     {
