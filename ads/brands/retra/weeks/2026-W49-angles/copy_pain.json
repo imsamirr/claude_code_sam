@@ -1,0 +1,319 @@
+{
+ "source": "StefanBrain, chat chat_e2881d64bb4e43c687b42831eb31dff3",
+ "concepts": [
+  {
+   "id": "68",
+   "angle": "Theme-park family being present",
+   "persona": "Vacationing parents at theme parks",
+   "funnel": "TOF",
+   "format": "Mock iOS low-battery alert over candid theme-park photo (native UI, Camp Snap native-screenshot pick)",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "A dead phone ruins the entire park day."
+    },
+    {
+     "name": "alert_title",
+     "text": "10% Battery Left"
+    },
+    {
+     "name": "alert_body",
+     "text": "Battery critical. You still need this phone for digital ride passes."
+    },
+    {
+     "name": "bottom_line",
+     "text": "Save your phone. Retra takes up to 500 photos per charge."
+    }
+   ],
+   "primary_text": "It is barely 1:00 PM and your smartphone battery is dead because you filmed every ride queue. Now you cannot pull up ride passes, check park maps, or message family. Retra takes up to 500 photos on a charge so your phone stays alive for the day. Four built-in film filters and zero screen distraction. Plug in via USB-C when you get back to the hotel. Now $99 for Black Friday.",
+   "meta_headline": "Save phone battery for park tickets"
+  },
+  {
+   "id": "69",
+   "angle": "Wedding guest candids",
+   "persona": "Couples planning wedding receptions",
+   "funnel": "TOF",
+   "format": "'Things nobody tells you' 2x2 fact cards + product (Grüns pick)",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "Things nobody tells you about wedding reception photos:"
+    },
+    {
+     "name": "card_1",
+     "text": "Guests take hundreds of great candids that stay trapped in their camera rolls forever."
+    },
+    {
+     "name": "card_2",
+     "text": "Single-use disposables require expensive lab fees, and missed shots are lost forever."
+    },
+    {
+     "name": "card_3",
+     "text": "Your hired wedding photographer cannot be at ten guest tables at the same time."
+    },
+    {
+     "name": "card_4",
+     "text": "When guests pull out phones, the party energy stops and everyone checks notifications."
+    },
+    {
+     "name": "product_line",
+     "text": "Up to 500 screen-free candid photos per charge."
+    }
+   ],
+   "primary_text": "Guests take hundreds of great photos at your reception, but you never see them because they stay buried in camera rolls. Disposable film cameras sound fun until shots come back ruined and developing fees add up. Place Retra on guest tables for unposed, screen-free memories. Up to 500 photos per charge, rechargeable, and simple USB-C export. Now $99, or Buy 2, Get 1 Free.",
+   "meta_headline": "The wedding table candid camera"
+  },
+  {
+   "id": "70",
+   "angle": "Grandparents",
+   "persona": "Grandparents / Adult children gift buyers",
+   "funnel": "TOF",
+   "format": "Emotional future-question headline over candid photo (Retropia pick)",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "Why must every picture of your own grandkids be locked behind someone else's screen?"
+    },
+    {
+     "name": "sub",
+     "text": "No passwords, no software updates, and no menus. Just press the shutter button."
+    }
+   ],
+   "primary_text": "Grandparents are tired of asking their kids to text pictures that get buried in chat threads. You should not need an Apple ID, two-factor authentication, or a touchscreen just to look at your family. Retra gives you your own camera. Just point, press the shutter button, and keep the memories on the included memory card. View on a computer via USB-C. Now $99.",
+   "meta_headline": "Grandkids memories without phone apps"
+  },
+  {
+   "id": "71",
+   "angle": "Social media detox",
+   "persona": "Screen-fatigued adults / Habit breakers",
+   "funnel": "TOF",
+   "format": "Struck-through list of old steps leading to the payoff (Ozlo pick)",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "You just wanted to take one photo:"
+    },
+    {
+     "name": "strike_1",
+     "text": "Unlock smartphone screen"
+    },
+    {
+     "name": "strike_2",
+     "text": "Spot three unread DMs"
+    },
+    {
+     "name": "strike_3",
+     "text": "Open social media app"
+    },
+    {
+     "name": "strike_4",
+     "text": "Scroll through video feeds"
+    },
+    {
+     "name": "strike_5",
+     "text": "Lose forty full minutes"
+    },
+    {
+     "name": "payoff",
+     "text": "Point, shoot, and stay present."
+    },
+    {
+     "name": "product_line",
+     "text": "Retra is a screen-free camera with zero apps or internet feeds."
+    }
+   ],
+   "primary_text": "You unlocked your phone to take one photo. Then an app badge lit up, three direct messages popped in, you watched two reels, and forty minutes evaporated. The modern camera should not come attached to a slot machine designed for your attention. Retra is completely screen-free. You point, shoot, and stay present in the room. Holds up to 500 photos per charge on the included card.",
+   "meta_headline": "Stop losing 40 minutes to photos"
+  },
+  {
+   "id": "72",
+   "angle": "Solo travel (keep phone zipped)",
+   "persona": "Solo travellers / City wanderers",
+   "funnel": "TOF",
+   "format": "Split photo with two tiny labels (Bioma 'Same life. Different body.' pick)",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "Same travel street. Completely different risk."
+    },
+    {
+     "name": "left_label",
+     "text": "$1,500 phone in hand"
+    },
+    {
+     "name": "right_label",
+     "text": "$99 Retra on wrist"
+    },
+    {
+     "name": "sub",
+     "text": "Keep your phone zipped safely in your bag while shooting street candids."
+    }
+   ],
+   "primary_text": "Holding an expensive $1,500 phone up in a crowded subway or packed night market makes you an obvious target for pickpockets. Keep your phone zipped safely in your daypack and document the city with a $99 camera on your wrist. No screen to distract you from your surroundings, no Wi-Fi, and up to 500 photos per charge. Four built-in film filters for candid travel memories.",
+   "meta_headline": "Wander bold. Keep phones zipped."
+  },
+  {
+   "id": "73",
+   "angle": "Low-sensory/quiet tech",
+   "persona": "Minimalists / Low-stimulation seekers",
+   "funnel": "TOF",
+   "format": "'Five things it will never do' chat bubbles + product (Bioma pick)",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "Your camera should not constantly buzz, glow, and ping."
+    },
+    {
+     "name": "bubble_1",
+     "text": "No blinding screen glare in the dark"
+    },
+    {
+     "name": "bubble_2",
+     "text": "No relentless app notification pings"
+    },
+    {
+     "name": "bubble_3",
+     "text": "No surprise software updates"
+    },
+    {
+     "name": "bubble_4",
+     "text": "No passwords or account logins"
+    },
+    {
+     "name": "bubble_5",
+     "text": "No algorithms demanding your attention"
+    },
+    {
+     "name": "product_line",
+     "text": "A quiet screen-free camera built for pure, tactile point-and-shoot memories."
+    }
+   ],
+   "primary_text": "Every modern device hums, glows, and demands your immediate attention. Taking a simple picture has become an overstimulating mess of notifications, screen glare, and system prompts. Retra is built for peace of mind. There is no screen, no Wi-Fi, no Bluetooth, and no app. You press a tactile shutter button and take a real photo. Up to 500 photos per charge in four film-look filters.",
+   "meta_headline": "Low stimulation. Zero screen glare."
+  },
+  {
+   "id": "74",
+   "angle": "Wireless detox (no Wi-Fi/Bluetooth/app)",
+   "persona": "Privacy conscious / Offline minimalists",
+   "funnel": "MOF",
+   "format": "Stack of struck-through phone permission dialogs + product (native UI)",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "Tired of permission popups on every gadget?"
+    },
+    {
+     "name": "dialog_1",
+     "text": "Allow Bluetooth pairing to nearby devices?"
+    },
+    {
+     "name": "dialog_2",
+     "text": "Connect to local Wi-Fi network?"
+    },
+    {
+     "name": "dialog_3",
+     "text": "Enable cloud data sharing and cookies?"
+    },
+    {
+     "name": "dialog_4",
+     "text": "Create an account to continue?"
+    },
+    {
+     "name": "payoff",
+     "text": "Retra requires zero pairing, zero accounts, and zero wireless."
+    },
+    {
+     "name": "product_line",
+     "text": "Completely offline photography with direct USB-C transfer to your computer."
+    }
+   ],
+   "primary_text": "Every modern gadget demands you pair Bluetooth, accept privacy policies, create an account, and connect to Wi-Fi just to take a picture. Retra refuses all of it. It contains no Wi-Fi, no Bluetooth, and no companion smartphone app. It is completely offline. Photos save straight to the included memory card. Transfer via USB-C to your computer whenever you choose. Now $99 (compare at $165).",
+   "meta_headline": "A camera with zero wireless connections"
+  },
+  {
+   "id": "75",
+   "angle": "Parents gifting screen-free",
+   "persona": "Parents of kids asking for smartphones",
+   "funnel": "TOF",
+   "format": "TikTok-style POV caption sticker over Christmas-morning unboxing (Arrae/Hears pick)",
+   "slots": [
+    {
+     "name": "caption",
+     "text": "POV: Giving your kid the joy of taking their own photos without giving them a smartphone or internet access."
+    },
+    {
+     "name": "sub",
+     "text": "Zero apps, zero screens, and 100% creative fun."
+    }
+   ],
+   "primary_text": "When your child asks for their first camera, handing them a smartphone opens the door to social media feeds, constant texting, and screen time battles. Retra gives them the pure joy of photography with zero screen distraction. No internet, no app store, and no Wi-Fi. They learn to frame the real world around them. Holds up to 500 photos per charge. View on a computer via USB-C.",
+   "meta_headline": "The camera gift without screen time"
+  },
+  {
+   "id": "76",
+   "angle": "Honeymooners",
+   "persona": "Newlyweds / Romantic couples",
+   "funnel": "TOF",
+   "format": "Headline + two caption bubbles over candid couple selfie (Grüns pick)",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "You flew across the world to stare at phones?"
+    },
+    {
+     "name": "bubble_1",
+     "text": "Put the phone away before dinner gets cold."
+    },
+    {
+     "name": "bubble_2",
+     "text": "Stop checking camera angles and actually look at me."
+    }
+   ],
+   "primary_text": "Nothing kills honeymoon intimacy faster than spending sunset retaking photos and checking how you look on a screen. Your trip should be about each other, not curating content. Retra lets you capture unposed memories without glass between you. Point, shoot, and put it away. Up to 500 photos on a charge, four built-in film-look filters, and USB-C export. Make memories first, see them later.",
+   "meta_headline": "Stop looking at trips through glass"
+  },
+  {
+   "id": "77",
+   "angle": "Photographer in one click (4 filters)",
+   "persona": "Travel photography lovers / Creative hobbyists",
+   "funnel": "BOF",
+   "format": "Lifestyle shot with feature pills, round sale sticker and CTA (Manta pick)",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "Tired of wasting hours tweaking photo presets?"
+    },
+    {
+     "name": "pill_1",
+     "text": "Vintage"
+    },
+    {
+     "name": "pill_2",
+     "text": "Black & White"
+    },
+    {
+     "name": "pill_3",
+     "text": "Natural"
+    },
+    {
+     "name": "pill_4",
+     "text": "Film"
+    },
+    {
+     "name": "sticker_top",
+     "text": "Black Friday"
+    },
+    {
+     "name": "sticker_bottom",
+     "text": "40% off"
+    },
+    {
+     "name": "cta",
+     "text": "Get Yours for $99"
+    }
+   ],
+   "primary_text": "Stop spending hours tweaking presets on your laptop just to make digital photos look textured. Retra has four distinct film-look filters built right in: Vintage, Black & White, Natural, and Film. Choose your filter, shoot, and get film-style candids in one click without editing. Our Black Friday sale is live: get Retra for $99 (compare at $165, a 40% discount). Buy 2, Get 1 Free while stock lasts.",
+   "meta_headline": "Stop wasting hours editing photos"
+  }
+ ]
+}
