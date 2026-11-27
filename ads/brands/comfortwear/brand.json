@@ -1952,6 +1952,46 @@
     "u_note_holiday_offer": {
       "file": "reference/benchmarks/u_note_holiday_offer.jpg",
       "use_for": "USER-SENT FORMAT ref 2026-11-27 (Retra camera): 'A quick note on our holiday offer.' white page, big navy serif headline, short tan rule, ~110-word serif paragraph left column, two tilted polaroid lifestyle photos + product cutout in the right column, handwritten-script sign-off 'Warmly, The ... Team'. Recreate the layout only; never their brand or product."
+    },
+    "n10_A04": {
+      "file": "reference/benchmarks/n10_A04.jpg",
+      "use_for": "RISING FORMAT ref (Moerie-style (Kathy Miller), launched Nov 2026, #1 ad in its account, Atria 2026-11-27): 'IT WAS NEVER THE SHAMPOO' reframe: 2 figures side by side + 2 captions. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10_A05": {
+      "file": "reference/benchmarks/n10_A05.jpg",
+      "use_for": "RISING FORMAT ref (Skinny Coffee, launched Nov 2026, #1 ad in its account, Atria 2026-11-27): 3-panel cartoon progression (Day 1 / Day 30 / Day 45) + product row + offer bar. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10_A10": {
+      "file": "reference/benchmarks/n10_A10.jpg",
+      "use_for": "RISING FORMAT ref (37-Jewelry, launched Nov 2026, #1 ad in its account, Atria 2026-11-27): meme dialogue header 'HER: … / YOU: …' over a gift photo. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10_A12": {
+      "file": "reference/benchmarks/n10_A12.jpg",
+      "use_for": "RISING FORMAT ref (PureHealth, launched Nov 2026, #1 ad in its account, Atria 2026-11-27): tear-off calendar date + 'Christmas is coming' + shop-early offer. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10_A14": {
+      "file": "reference/benchmarks/n10_A14.jpg",
+      "use_for": "RISING FORMAT ref (Doe Lashes, launched Nov 2026, #1 ad in its account, Atria 2026-11-27): '5 products tested, the honest verdict' ranked list. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10_A15": {
+      "file": "reference/benchmarks/n10_A15.jpg",
+      "use_for": "RISING FORMAT ref (Beauty Reviews, launched Nov 2026, #1 ad in its account, Atria 2026-11-27): two doodle sticky notes (before/after faces) + product. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10_A18": {
+      "file": "reference/benchmarks/n10_A18.jpg",
+      "use_for": "RISING FORMAT ref (Brightland x MacKenzie-Childs, launched Nov 2026, #1 ad in its account, Atria 2026-11-27): hand holding gift box + scribbled note + customer caption. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10_A21": {
+      "file": "reference/benchmarks/n10_A21.jpg",
+      "use_for": "RISING FORMAT ref (Prepared Nation, launched Nov 2026, #1 ad in its account, Atria 2026-11-27): 'One stays home. One rides along. One is a gift.' 3 products hanging + per-unit price. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10_A23": {
+      "file": "reference/benchmarks/n10_A23.jpg",
+      "use_for": "RISING FORMAT ref (Stanley 1913, launched Nov 2026, #1 ad in its account, Atria 2026-11-27): minimal premium: product on snowy pedestal + 2 short claims. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10_A02": {
+      "file": "reference/benchmarks/n10_A02.jpg",
+      "use_for": "RISING FORMAT ref (Enhanced Labs, launched Nov 2026, #1 ad in its account, Atria 2026-11-27): native selfie + comment-bubble caption. Recreate the layout only; never their brand, claims or product."
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
