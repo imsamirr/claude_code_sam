@@ -1,0 +1,5 @@
+done bg_nye_gold_t1.png
+done bg_xmas_green_t1.png
+done bg_nye_midnight_t1.png
+done bg_xmas_red_t1.png
+done bg_party_redgold_t1.png

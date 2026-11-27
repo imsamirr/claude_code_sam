@@ -90,3 +90,7 @@ G6 popularity, N1 "film", N4 "up to", O3/O5 superlatives). Offers from the Shopi
 (50% off), automatic Buy 2 Get 1 Free and Buy 3 Get 2 Free. Not used: discount codes, free strap/bag gifts (trigger
 unconfirmed), shipping/delivery dates. Scenes: `holiday_render.py` (camera colour follows the scene; colours in
 `holiday_colours.json`); picks h_O5_t2 (top band cropped), h_N3_t2 (no flash glow). Sheet: `output/_sheet_holiday_4x5.jpg`.
+Holiday-party theme (Sam: 'more unique and holiday party'): the 12 white layouts sit as paper cards (0.86 scale, gold
+rule, ribbon corner on gifting) on five festive backdrops (`festive_render.py`: bg_xmas_green, bg_xmas_red,
+bg_party_redgold, bg_nye_gold, bg_nye_midnight; map in holiday.BG), confetti straddling the card edges; the 8 photo
+ads get confetti on the outer edges.

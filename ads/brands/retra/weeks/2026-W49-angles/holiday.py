@@ -269,6 +269,81 @@ def t10(c):
     return img
 
 
+# ---------------------------------------------------------------- holiday-party theme (Sam: 'more unique, holiday party')
+WHITE_T = {"T2", "T3", "T6", "T8", "T9", "T10"}
+BG = {"G4": "xmas_red", "G5": "xmas_green", "G7": "party_redgold", "G8": "xmas_green", "N1": "nye_midnight",
+      "N4": "nye_gold", "N5": "nye_midnight", "O1": "party_redgold", "O2": "xmas_red", "O3": "nye_gold",
+      "O4": "xmas_green", "O7": "party_redgold"}
+CONF = [(212, 175, 55), (236, 205, 120), (196, 30, 45), (28, 98, 66), (225, 225, 230)]
+
+
+def confetti(img, boxes, n=60, seed=3, sizes=(10, 26)):
+    """Scatter confetti pieces (strips and dots) inside the given boxes, with a soft drop shadow."""
+    import random
+    rnd = random.Random(seed)
+    layer = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    for _ in range(n):
+        x0, y0, x1, y1 = rnd.choice(boxes)
+        x, y = rnd.uniform(x0, x1), rnd.uniform(y0, y1)
+        s_ = rnd.uniform(*sizes)
+        col = rnd.choice(CONF) + (255,)
+        piece = Image.new("RGBA", (int(s_ * 2.2), int(s_ * 2.2)), (0, 0, 0, 0))
+        pd = ImageDraw.Draw(piece)
+        if rnd.random() < 0.6:
+            pd.rectangle((s_ * 0.6, s_ * 0.85, s_ * 1.6, s_ * 1.35), fill=col)
+        else:
+            pd.ellipse((s_ * 0.7, s_ * 0.7, s_ * 1.5, s_ * 1.5), fill=col)
+        piece = piece.rotate(rnd.uniform(0, 180), Image.BICUBIC)
+        layer.alpha_composite(piece, (int(x - piece.width / 2), int(y - piece.height / 2)))
+    sh = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    sh.paste((0, 0, 0, 90), (4, 6), layer.getchannel("A"))
+    img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(4)))
+    img.alpha_composite(layer)
+
+
+def festive(white, cid):
+    """Put a white layout on a holiday-party backdrop as a paper card (scaled to 0.86), confetti over its edges,
+    and a satin ribbon across the top-right corner on the gifting cards."""
+    bg = Image.open(HERE / "renders" / f"bg_{BG[cid]}_t1.png").convert("RGB")
+    out = ImageOps.fit(bg, (W, H), Image.LANCZOS).convert("RGBA")
+    band = white.crop((0, 285, W, 1635))
+    sc = 0.86
+    cw_, ch_ = int(W * sc), int(1350 * sc)
+    band = band.resize((cw_, ch_), Image.LANCZOS)
+    m = Image.new("L", band.size, 0)
+    ImageDraw.Draw(m).rounded_rectangle((0, 0, cw_ - 1, ch_ - 1), 34, fill=255)
+    x0, y0 = (W - cw_) // 2, 285 + (1350 - ch_) // 2
+    sh = Image.new("RGBA", out.size, (0, 0, 0, 0))
+    ImageDraw.Draw(sh).rounded_rectangle((x0, y0 + 16, x0 + cw_, y0 + ch_ + 16), 34, fill=(0, 0, 0, 150))
+    out.alpha_composite(sh.filter(ImageFilter.GaussianBlur(26)))
+    out.paste(band, (x0, y0), m)
+    ImageDraw.Draw(out).rounded_rectangle((x0 + 12, y0 + 12, x0 + cw_ - 12, y0 + ch_ - 12), 26, outline=(212, 175, 55),
+                                          width=3)
+    if cid.startswith("G"):  # satin ribbon across the top-right corner, with a knot
+        rib = Image.new("RGBA", out.size, (0, 0, 0, 0))
+        rd = ImageDraw.Draw(rib)
+        cx, cy = x0 + cw_ - 34, y0 + 34
+        rd.line([(cx - 110, cy - 110), (cx + 110, cy + 110)], fill=(176, 22, 38), width=34)
+        rd.line([(cx - 110, cy - 110), (cx + 110, cy + 110)], fill=(214, 52, 66), width=10)
+        rd.ellipse((cx - 24, cy - 24, cx + 24, cy + 24), fill=(176, 22, 38))
+        rm = Image.new("L", out.size, 0)
+        ImageDraw.Draw(rm).rounded_rectangle((x0, y0, x0 + cw_, y0 + ch_), 34, fill=255)
+        rib.putalpha(Image.composite(rib.getchannel("A"), Image.new("L", out.size, 0), rm))
+        out.alpha_composite(rib)
+    # confetti straddles the card edge only (outside to the gold rule), never over the content
+    edges = [(x0 - 40, y0 - 40, x0 + cw_ + 40, y0 + 10), (x0 - 40, y0 + ch_ - 10, x0 + cw_ + 40, y0 + ch_ + 40),
+             (x0 - 40, y0, x0 + 10, y0 + ch_), (x0 + cw_ - 10, y0, x0 + cw_ + 40, y0 + ch_)]
+    confetti(out, edges, n=46, seed=sum(map(ord, cid)))
+    return out
+
+
+def party(img, cid):
+    """Photo ads: gold/red confetti drifting along the top and bottom edges."""
+    confetti(img, [(0, 285, W, 318), (0, 285, 60, 1635), (W - 60, 285, W, 1635)], n=30,
+             seed=sum(map(ord, cid)), sizes=(9, 22))
+    return img
+
+
 T = {"T1": t1, "T2": t2, "T3": t3, "T4": t4, "T5": t5, "T6": t6, "T7": t7, "T8": t8, "T9": t9, "T10": t10}
 
 if __name__ == "__main__":
@@ -278,7 +353,10 @@ if __name__ == "__main__":
         c = CON[i]
         slug = "".join(ch if ch.isalnum() else "-" for ch in c["angle"].lower()).strip("-")[:30].strip("-")
         try:
-            print(save(T[c["template"].split()[0].upper()](i), f"RET_A49_{i}_{c['funnel'].lower()}_{slug}"))
+            t_ = c["template"].split()[0].upper()
+            im = T[t_](i)
+            im = festive(im, i) if t_ in WHITE_T else party(im, i)
+            print(save(im, f"RET_A49_{i}_{c['funnel'].lower()}_{slug}"))
         except Exception as e:  # noqa: BLE001
             import traceback
             traceback.print_exc()
