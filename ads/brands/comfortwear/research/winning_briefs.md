@@ -178,3 +178,53 @@ Hook lines in the databank still quote "$36" and "45-day". Brief StefanBrain on 
 | Annual Cost Math / No Insoles Needed | Women buying $130–165 shoes + insoles | Receipt-style static; pairs with the Black Friday price anchor |
 | Her Hands Don't Work in the Morning | Women 50–80 with RA/OA hand stiffness | Hands-free = independence; links to the COM429 senior theme without the fear framing |
 | Her Feet Grew a Size and a Half | Pregnant/postpartum women 25–40 | Completely untested avatar; slip-on + swelling |
+
+## 2026-11-27 refresh (Friday W49 run)
+
+Sources: Creative Strategy Tracker (`collection://34b23caf-f444-8135-a7cf-000bf1574806`), Ad Angle Databank, "ComfortWear Email Marketing Calendar - 2026" (`collection://38323caf-f444-8049-b93d-000b62fecfcf`). Read-only pull on 2026-11-27. New tracker rows since 11-19: COM440–COM470 (31 rows). I fetched COM399 (updated 11-26), COM440, 444, 447, 455, 461, 466, 467, 468, 469, plus the offer/email pages.
+
+**Winners / learnings:** no change. COM49 is still the only `🏆 Winner`, `Learnings` is empty on every row, and no new account numbers have been added since the COM284/Kyro figures on 11-20. **Databank:** no new rows, every row is still "Not started", and Performance Notes are empty. **New:** five briefs (COM447, 466, 467, 468, 469) now carry an editor callout "copy: StefanBrain", so the team is putting StefanBrain scripts straight into the tracker.
+
+### New briefs (all "Editing" or blank; none launched)
+- **COM466 "You're treating plantar fasciitis wrong" (PF, women 50–65+, UGC).** Beats: compensation chain (limp, then knees/hips/back) → failed fixes that cover "twenty minutes" (ice, frozen bottle, night brace, cortisone) → "the other ten thousand steps" in soft foam that flattens → "the real problem is mechanical" → two jobs: an arch that holds + a rocker that takes the pounding off the heel → BF 60% through Dec 5, 30-day guarantee.
+- **COM467 "While every other retired woman shuffles" (Senior 65+, UGC).** A neighbor-observation story: a 68-year-old walks 3–4 miles every morning → same shoe in a different color → "let me tell you my secret" → podiatrist explains why foam collapses → narrator orders, then walks the loop alongside her.
+- **COM469 "I lived in France for 2 years" (Travel, woman 62, UGC).** Expat contrast: French women on cobblestones vs her "clutching the iron railing" → failed fixes ($400 orthotics, Hokas, PT) → a friend's line "shoes that feel soft in the store for ten minutes" → mechanism → payoff when her daughter asks "did you get foot surgery?"
+- **COM447 "12-hour shift with flat arches" (nurse 35–52, car after the shift, UGC).** The survey is cited: 1,800+ nurse buyers, with hundreds naming flat feet, fallen arches and inward-tilting ankles. Beats: post-shift limp to the car → "Hokas, Brooks, Clove, Skechers… flat by lunch" → structural arch → offer.
+- **COM440 Disney tour guide ranks 5 shoes for plus-size women.** Same teardown as COM284 (Skechers $90 → Brooks $140 → On $180 → Hoka $165) → "Wait. Look right over there" reveal → "Their feet didn't hurt… already on their 3rd park".
+- **COM444 "Nurse laughed off Shark Tank" (AI + footage).** Failed-fixes ladder ($165/$140/$180/$90 shoes, $300 orthotics) → she cuts open dead running shoes → designs her own → sharks laugh → "Made by a nurse, for nurses". ⚠ This is an invented founder story and Shark Tank event. Do not use it for statics.
+- **COM399 (Teacher, iteration, re-themed for December).** Hooks for an AI podiatrist plus a lab test of Nike, On, Hoka and Birkenstock. Mechanism line: "Standing isn't slow running." Offer: "Holiday Sale, 40% off" (see the conflict below).
+- **COM455 HSA/FSA nurse static (3 variations, "Statics").** Reuses the top-spend warehouse-crate photo with yellow/red banners: "ATTENTION NURSES: / USE FSA BEFORE DEC 31", "BUILT FOR 12-HR SHIFTS", plus a nurse holding "40%" foil balloons in the warehouse. COM454 and 457 are the HSA/FSA video versions (nurse, teacher).
+- **COM468 "Triple discount" offer explainer (15s).** The primary version needs free shipping and an auto checkout code, and the brief marks both as **unconfirmed**. The confirmed alternative stacks 60% off + "orthotic insole included" + the 30-day guarantee.
+- Stubs or blank: COM441 Disney 5-criteria test, 442 man over 60 at Disney, 443 nurse rates shoes for 60+ with neuropathy/arthritis/PF, 445 "flying soon" top 5, 446/451 Morton's neuroma ("women 10x more likely", "we asked 500"), 448 "3 reasons a 250lb woman can finally walk Disney", 449/450 nurse PF, 452 HSA/FSA plus-size Disney, 453 "every nurse knows the morning test", 458/459 "Hokas & Brooks worst shoes for NYC / Japan", 460 COM55 Disney iteration, **461/462 "COM404 Gifting" for overweight seniors and teachers (blank)**, 463/464 AI songs, 465 neighbor cartoon, 470 pickleball PF.
+- **Pattern:** a "soft foam collapses under your weight by noon/2 PM" mechanism, followed by a structural arch and rocker, now runs through every new brief. Failed-fixes ladders with named prices are standard. Story-led UGC is replacing the "We asked 500" format this week.
+
+### Offer facts (quote source page titles)
+- **Today's email**, "Black Friday is LIVE!! (Morning, Afternoon - DesignBased), Evening (Plain Text)" (dated 11-27): "60% OFF Sitewide / Spend $75, FREE Travel Bag / Spend $100, FREE 3-Pack Socks". The free gifts are therefore **spend-threshold gifts (travel bag at $75, 3-pack socks at $100)**. They are not "with every order" and not "buy 2 pairs". The same terms appear on "Early Black Friday Sale Goes LIVE! 60% OFF + Free Gift" (10-29).
+- **Calendar ahead (subject lines only; the pages are blank):** 11-28 "Black Friday Sale - Sizes Are Running Out… Black Friday Ends Tomorrow"; 11-29 "Black Friday Ends Tonight… Ends in 4 Hours"; **11-30 "Cyber Monday - 60% OFF (morning) - Cyber Monday Ends Tonight"**; 12-01 "Cyber Monday Extended"; 12-02 "Some free gifts left from Black Friday (Last chance to claim it)"; 12-05 "Founder Note - Black Friday craziness, Christmas Sale Starting"; Christmas Sale emails 12-06→12-21 (BOGO socks, $25 gift card, BOGO 50% off, shipping cut-off 12-15); **12-26→12-31 "Year-End Clearance Sale 60% OFF" / "Last Chance Year-End Clearance Sale - 60% OFF"**.
+- **The briefs' end date:** COM466, 467, 468 and 469 say "Black Friday 60% off sitewide through December 5". LF14 (Creative Board) adds: Christmas Sale Dec 6–31 = 60% off + 2 free gifts (3-pack cushioned socks + travel bag) with 2 pairs; New Year Sale Jan 1–15 = 40% off + free shipping.
+- **Conflicts to settle before copy goes out:** (1) The email calendar plans a 60% Year-End Clearance on 12-26→31, so calling the Holiday Sale our **"last sale" of the year contradicts Notion**. (2) The gift trigger differs by source: spend threshold (emails), 2 pairs (COM404/LF14), all orders (user note 11-27). (3) COM399 and COM455 say "Holiday Sale 40% off", and COM455 also says a "45-DAY TRIAL". Every other source says 60% and 30 days. (4) COM468 lists free shipping as unconfirmed, although COM440/444/447 say "60% off sitewide with free shipping". (5) The "EXTRABF20" extra 20% code (11-25/26) has expired. Nothing in Notion covers a Cyber Monday mechanic beyond "60% OFF".
+
+### Claims flags in the new briefs (don't lift)
+- COM447: "Over 500,000+ nurses have switched", "85% of nurses develop plantar fasciitis".
+- COM446/449: "10x more likely" stats.
+- COM399: a named fictional DPM ("Dr. Nicole Hayes").
+- COM444: "completely pain-free through three 12-hour shifts" and the invented Shark Tank founder.
+- COM440: "plantar fascia never overstretches".
+- COM455: "45-DAY TRIAL".
+
+### 15 sharpest hooks / lines (verbatim; none proven yet)
+1. "You're treating plantar fasciitis all wrong. Not a little wrong, the wrong problem entirely." (COM466)
+2. "Those things might take the edge off for twenty minutes. The problem is what happens during the other ten thousand steps of your day." (COM466)
+3. "Twenty minutes of ice and stretching can't protect you from ten thousand steps in flat shoes." (COM466)
+4. "While every other retired woman on my street is starting to slow down and shuffle, my 68-year-old neighbor … walks like she is on a mission." (COM467)
+5. "I lived in France for two years at 62. When I came back to the States, my own daughter asked if I had foot surgery. I hadn't." (COM469)
+6. "American women wear shoes that feel soft in the store for ten minutes, but collapse the second your full body weight hits them." (COM469)
+7. "You don't have bad feet. You're just wearing shoes that give up on you by noon." (COM469)
+8. "What $400 orthotics couldn't fix at 62" (COM469 headline)
+9. "Let's be real, a 12-hour shift with flat arches isn't work. It's a nightmare." (COM447)
+10. "If you have flat arches and work 12-hour shifts, you know that exact limp back to your car after clocking out." (COM447)
+11. "The absolute worst Disney advice you can give a plus-sized woman is 'just wear your comfortable sneakers'" (COM440)
+12. "By day two, they're sitting on benches instead of enjoying the vacation." (COM440)
+13. "If you find yourself secretly kicking your shoes off under your desk just to make it to the final bell, you're not alone." (COM399)
+14. "Standing isn't slow running. No landing to cushion, no push off to spring, just your full weight parked on your arches on a floor." (COM399)
+15. "ATTENTION NURSES: / USE FSA BEFORE DEC 31" (COM455 static; FSA only, since HSA balances roll over)

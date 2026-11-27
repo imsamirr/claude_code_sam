@@ -189,3 +189,39 @@ Verdicts this run:
 - Heavier / plus-size: Hike is now testing it hard on-image (4+ new statics); we still lead (107) and answer with T48_01/02/10.
 - Reason-why / scarcity / counterfeit / BOGO: not used this run (no confirmed facts; BOGO not our offer).
 - Walking again: tested W48_38 (Fri); not repeated.
+
+
+## 2026-11-27: 2,315 ads from 17 brands (Hike 97, Stepprs 151, Footstr 155, Orthofeet 143, Kuru 133, Vionic 146, OrthoFit 160, Snibbs 109, Clove 75, WearStand 153, Bright 24, Musabela 137, Armadilo 156, Konjoun 196, Stryde 187, Foamr 121, Viasox 172; 670 new since 11-24). Keyword tags on title+body; weight = days running x (1.5 if active). "Ours" = all weeks/*/concepts.json headlines+angles (1,014 concepts). New rows this run: grandkids, walking group, shopping cart / independence, travel, teacher. Sheet of gap refs: `sheets/angle_gap_refs_1127.jpg`.
+
+| Angle | Ads | Weight | Pushing it (ads) | New since 11-24 | Ours |
+|---|---|---|---|---|---|
+| Nurse / 12h shifts | 390 | 31,995 | Stryde 74, Snibbs 73, Stepprs 71, Musabela 46 | 71 | 307 |
+| Plantar fasciitis / heel | 227 | 27,452 | KURU Footwear 109, Stepprs 54, Foamr 28, Footstr 12 | 90 | 88 |
+| Knee / hip / back | 442 | 21,694 | Stryde 149, Konjoun Barefoot 79, Footstr 41, WearStand 29 | 177 | 35 |
+| Guarantee headline | 677 | 27,361 | Konjoun Barefoot 133, Snibbs 95, Footstr 86, Stryde 74 | 199 | 30 |
+| Morning first steps | 109 | 20,989 | Stepprs 54, OrthoFit Store 18, HIKE Footwear 14, Konjoun Barefoot 9 | 33 | 22 |
+| Fall / balance | 520 | 22,760 | Snibbs 95, Stryde 74, Armadilo 56, Konjoun Barefoot 50 | 134 | 88 |
+| BOGO / buy N | 421 | 22,564 | Stryde 152, Konjoun Barefoot 57, Musabela 44, Viasox 43 | 139 | 18 |
+| Bunions / toe box | 356 | 8,944 | Musabela 134, OrthoFit Store 88, HIKE Footwear 35, Armadilo 34 | 72 | 29 |
+| Doctor / podiatrist | 266 | 9,269 | Musabela 85, Footstr 35, Konjoun Barefoot 30, WearStand 26 | 65 | 5 |
+| Scarcity / sold out | 227 | 12,691 | Stepprs 59, Konjoun Barefoot 46, OrthoFit Store 29, Footstr 25 | 102 | 9 |
+| Age call-out 60+ | 87 | 3,050 | Armadilo 31, OrthoFit Store 28, Konjoun Barefoot 12, HIKE Footwear 8 | 18 | 42 |
+| Hands-free | 40 | 920 | OrthoFit Store 7, Snibbs 7, Armadilo 6, HIKE Footwear 5 | 6 | 5 |
+| Swelling | 152 | 1,159 | Viasox 121, Armadilo 11, OrthoFit Store 10, HIKE Footwear 4 | 95 | 52 |
+| HSA/FSA | 80 | 3,010 | WearStand 34, johntoftecreates with WearStand 15, alexandereasley with WearStand 7, KURU Footwear 6 | 43 | 27 |
+| Holiday gifting | 24 | 593 | Footstr 16, Konjoun Barefoot 3, Viasox 2, Armadilo 1 | 4 | 22 |
+| Winter / cold / wet | 197 | 1,866 | Footstr 85, OrthoFit Store 35, Bright Footwear 20, Konjoun Barefoot 15 | 114 | 20 |
+| Heavier / plus-size | 5 | 50 | HIKE Footwear 3, Musabela 2 | 3 | 107 |
+| Neuropathy | 90 | 1,712 | Footstr 64, Konjoun Barefoot 8, Viasox 6, Stepprs 4 | 60 | 12 |
+| Grandkids | 8 | 438 | OrthoFit Store 3, aiugcboris with OrthoFit Store 1, kiya davelaar with OrthoFit Store 1, _bymaku with OrthoFit Store 1 | 0 | 7 |
+| Walking group / club | 17 | 197 | HIKE Footwear 12, OrthoFit Store 3, Peteyrific with OrthoFit Store 1, bodycams4 with OrthoFit Store 1 | 7 | 3 |
+| Shopping cart / independence | 26 | 663 | Konjoun Barefoot 16, OrthoFit Store 5, HIKE Footwear 4, Musabela 1 | 14 | 14 |
+| Travel | 43 | 845 | Viasox 11, OrthoFit Store 10, Vionic Shoes 10, Paul The Podiatrist with KURU Footwear 2 | 18 | 277 |
+| Teacher | 2 | 22 | Footstr 1, WearStand 1 | 1 | 22 |
+
+Verdicts this run:
+- **Knee / hip / back: GAP** (442 ads, 177 new; Stryde 149, Konjoun 79 vs our 35). Tested: W49_30 (nurse knees, ref Stryde "For the knee that keeps telling you to stop", 83d). Also W49_11 (hard floors) and W49_29 (servers) carry knee/back.
+- **Doctor / podiatrist lead: GAP** (266 vs our 5). Tested: W49_31 (housekeeper, ref OrthoFit "My podiatrist said it's not my knees. It's my shoes.", 108d). Podiatrist-recommended is approved; no named doctor.
+- **Winter / cold / wet: GAP, rising** (197 ads, 114 new; Footstr 85, OrthoFit 35 vs our 20). Tested: W49_32 (home health aide on a wet porch, ref OrthoFit winter boot), plus winter scenes W49_21/35/36. Approved "slip-resistant grip" only, never fall prevention.
+- Guarantee headline (677 vs 30): still open; W49_23 and W49_30 carry a guarantee line. Next run candidate.
+- Fall / balance (520), scarcity (227), BOGO (421): skip (fall-prevention claims, no confirmed stock facts, BOGO is not our offer). No reason-why/scarcity/counterfeit concept this batch, so nothing needs confirmation.
