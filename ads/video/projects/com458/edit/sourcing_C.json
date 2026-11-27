@@ -1,0 +1,296 @@
+[
+ {
+  "shot": "63",
+  "vo": "That is why Comfortwear built the opposite of a running shoe,",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT hero"
+ },
+ {
+  "shot": "64",
+  "vo": "made for people whose feet have to get through real life: nurses,",
+  "file": "tiktok/nyc_nurse/scrubsgonewild_7598626018449984799.mp4",
+  "in": 0.0,
+  "usable_s": 3.0,
+  "crop_hint": "full frame; nurse in pink scrubs walks toward camera down hospital corridor",
+  "text_band": null,
+  "creator": "@scrubsgonewild",
+  "url": "https://www.tiktok.com/@scrubsgonewild/video/7598626018449984799",
+  "note": "clean corridor walk, no text; cut before 3.5s (she turns into a room)",
+  "status": "ok"
+ },
+ {
+  "shot": "65",
+  "vo": "healthcare workers,",
+  "file": "tiktok/nyc_nurse/itscori_7099849057606241582.mp4",
+  "in": 2.0,
+  "usable_s": 2.8,
+  "crop_hint": "full frame; slight zoom to center on worker",
+  "text_band": null,
+  "creator": "@itscori",
+  "url": "https://www.tiktok.com/@itscori/video/7099849057606241582",
+  "note": "healthcare worker in teal scrubs strides briskly down hospital hallway toward camera, no text. Alt in same clip 16.5-20.5s (orange scrubs). Not 'assisting patient' - alt: nyc_nurse/isblgnzls_7447473280207883566.mp4 @41.0 (PT intern on feet in rehab gym, caption bottom 'exercise practice')",
+  "status": "ok"
+ },
+ {
+  "shot": "66",
+  "vo": "and travelers who want to actually enjoy the trip they have been saving for.",
+  "file": "tiktok/nyc_wsp/shayla.quinn_7429698760479051054.mp4",
+  "in": 58.5,
+  "usable_s": 2.5,
+  "crop_hint": "full frame; 58.5-59.4 Arch + yellow cab, 59.5-61.0 two travelers walking with iced coffees under the Washington Square Arch (selfie-stick angle)",
+  "text_band": null,
+  "creator": "@shayla.quinn",
+  "url": "https://www.tiktok.com/@shayla.quinn/video/7429698760479051054",
+  "note": "sunny fall, real Washington Sq Arch, coffee cups in hand - exact match. Alt: nyc_hoods/lonelyplanet_7489594060038999302.mp4 @68.0 (Arch, overcast, caption y~0.62)",
+  "status": "ok"
+ },
+ {
+  "shot": "67",
+  "vo": "A roomy toe box lets your toes spread out",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/GRAPHICS - editor handles"
+ },
+ {
+  "shot": "68",
+  "vo": "instead of getting squeezed together.",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/GRAPHICS - editor handles"
+ },
+ {
+  "shot": "69",
+  "vo": "A flexible stretch knit upper gives your feet room",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/GRAPHICS - editor handles"
+ },
+ {
+  "shot": "70",
+  "vo": "as they swell throughout the day.",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/GRAPHICS - editor handles"
+ },
+ {
+  "shot": "71",
+  "vo": "Comfortable cushioning and built-in arch support work together underfoot",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/GRAPHICS - editor handles"
+ },
+ {
+  "shot": "72",
+  "vo": "so the support never packs flat,",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/GRAPHICS - editor handles"
+ },
+ {
+  "shot": "73",
+  "vo": "paired with a slip-resistant outsole for added traction",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/GRAPHICS - editor handles"
+ },
+ {
+  "shot": "74",
+  "vo": "on wet crosswalks,",
+  "file": "tiktok/nyc_rain/dylanwaalker_7053400436900121903.mp4",
+  "in": 3.0,
+  "usable_s": 2.9,
+  "crop_hint": "full frame; wet glistening Manhattan sidewalk/street at night with streetlight reflections",
+  "text_band": null,
+  "creator": "@dylanwaalker",
+  "url": "https://www.tiktok.com/@dylanwaalker/video/7053400436900121903",
+  "note": "FALLBACK: rain-soaked NYC street at night, no crosswalk stripes, no feet. Alt daytime: nyc_hoods/lonelyplanet_7489594060038999302.mp4 @78.5 (wet Tribeca street with puddles, 1.5s, caption y~0.68-0.72) or nyc_hoods/nyclovesnyc_7322839897486855470.mp4 @4.0 (wet cobblestones w/ reflections, Dumbo). No real wet-crosswalk feet clip found after 5 searches - product shoot of feet on wet crosswalk recommended",
+  "status": "fallback"
+ },
+ {
+  "shot": "75",
+  "vo": "subway stairs,",
+  "file": "tiktok/nyc_subway/nyc_kb_7444624897701104938.mp4",
+  "in": 131.5,
+  "usable_s": 3.0,
+  "crop_hint": "full frame; POV down at steel-nosed NYC subway steps, sneakers visible at top edge",
+  "text_band": null,
+  "creator": "@nyc_kb",
+  "url": "https://www.tiktok.com/@nyc_kb/video/7444624897701104938",
+  "note": "real NYC subway stairs (57th St), clean, no text 126-141s. Camera is ASCENDING - play reversed to read as descending, or use 126.5-131.0 (following commuter onto stairs, 4.5s). Text appears again at 142s",
+  "status": "ok"
+ },
+ {
+  "shot": "76",
+  "vo": "and metal grates.",
+  "file": "tiktok/nyc_grates/johnnymurtaugh_7446400430873120043.mp4",
+  "in": 21.0,
+  "usable_s": 4.5,
+  "crop_hint": "full frame / zoom on lower 60%: low POV moving along Manhattan sidewalk over a row of subway grates",
+  "text_band": "y 0.76-0.85 (white caption)",
+  "creator": "@johnnymurtaugh",
+  "url": "https://www.tiktok.com/@johnnymurtaugh/video/7446400430873120043",
+  "note": "Lexington Ave subway grates (Marilyn grate), dry, no feet. Alt: nyc_grates/herebebarr_7410417286596676894.mp4 @19.0 (crowds walking over Times Square metal grates, 2s, caption y~0.66-0.70)",
+  "status": "ok"
+ },
+ {
+  "shot": "77",
+  "vo": "Because you do not want to be the person cutting the day short,",
+  "file": "tiktok/nyc_hoods/svadore_7517026411098541367.mp4",
+  "in": 9.0,
+  "usable_s": 3.5,
+  "crop_hint": "full frame; West Village brownstone stoop (64 Perry St) with flowers",
+  "text_band": "y 0.15-0.20 (location pill '64 Perry Street')",
+  "creator": "@svadore",
+  "url": "https://www.tiktok.com/@svadore/video/7517026411098541367",
+  "note": "FALLBACK: correct brownstone stoop, but empty - no tired traveler. Alt with a person sitting alone: nyc_hoods/lonelyplanet_7489594060038999302.mp4 @69.5 (person in hoodie sitting on Washington Sq ledge, from behind, ~1.5s, caption y~0.60-0.65)",
+  "status": "fallback"
+ },
+ {
+  "shot": "78",
+  "vo": "sitting on a bench in Soho watching everyone else explore,",
+  "file": "tiktok/nyc_hoods/lonelyplanet_7489594060038999302.mp4",
+  "in": 73.5,
+  "usable_s": 1.5,
+  "crop_hint": "full frame; SoHo cast-iron block with cobblestone street, parked cars",
+  "text_band": "y 0.66-0.72 (small white caption)",
+  "creator": "@lonelyplanet",
+  "url": "https://www.tiktok.com/@lonelyplanet/video/7489594060038999302",
+  "note": "FALLBACK: real SoHo cobblestones, overcast, no shoppers/bench. 74.5-75.5 continues with walker passing on SoHo sidewalk (same caption). Alt: nyc_soho/kaylakerr__7627902945077562655.mp4 @15.0 (SoHo boutique storefronts)",
+  "status": "fallback"
+ },
+ {
+  "shot": "79",
+  "vo": "or tapping out and paying fifty dollars for an Uber back to the hotel.",
+  "file": "tiktok/nyc_uber/garrettfromgoldies_7434132416601689390.mp4",
+  "in": 18.5,
+  "usable_s": 2.5,
+  "crop_hint": "zoom tight on the UberX price card (y 0.62-0.80) - 'UberX US$113.95, 6:06 AM, 1 min away'",
+  "text_band": "card sits over creator's face; card itself is the content",
+  "creator": "@garrettfromgoldies",
+  "url": "https://www.tiktok.com/@garrettfromgoldies/video/7434132416601689390",
+  "note": "real NYC Uber price screenshot ($113.95, not $52) - zoom/crop to card; or editor rebuilds card as graphic. No night-hail clip found",
+  "status": "fallback"
+ },
+ {
+  "shot": "80",
+  "vo": "You want to be walking the Brooklyn Bridge,",
+  "file": "tiktok/nyc_bridge/nyc_kb_7186816798610885934.mp4",
+  "in": 13.0,
+  "usable_s": 5.0,
+  "crop_hint": "full frame; POV walking the wooden boardwalk toward Lower Manhattan skyline, sunny blue sky",
+  "text_band": "y 0.55-0.62 ('Better views walking into the Manhattan skyline')",
+  "creator": "@nyc_kb",
+  "url": "https://www.tiktok.com/@nyc_kb/video/7186816798610885934",
+  "note": "exact match. Text-free option: 19.0-20.9 (walking toward the stone towers); 0.0-3.9 boardwalk w/ tourists (title y~0.55)",
+  "status": "ok"
+ },
+ {
+  "shot": "81",
+  "vo": "exploring every neighborhood,",
+  "file": "tiktok/nyc_hoods/hungryartistny_7116933626977062190.mp4",
+  "in": 5.0,
+  "usable_s": 1.5,
+  "crop_hint": "montage 1/3: dim sum steamer baskets, Golden Unicorn Chinatown, top-down",
+  "text_band": null,
+  "creator": "@hungryartistny",
+  "url": "https://www.tiktok.com/@hungryartistny/video/7116933626977062190",
+  "note": "MONTAGE: (1) Chinatown dim sum here @5.0 (clean 5.0-6.9; also 9.0-11.9). (2) West Village: nyc_hoods/svadore_7517026411098541367.mp4 @3.0 (outdoor cafe diners, 'Start here West 4th' pill y~0.20) or @13.0 (Carrie stoop, pill y~0.20). (3) Dumbo: nyc_hoods/nyclovesnyc_7322839897486855470.mp4 @1.0 (Washington St Manhattan Bridge view, yellow cab passes, wet cobbles, no text, 2s)",
+  "status": "ok"
+ },
+ {
+  "shot": "82",
+  "vo": "and there when the curtain goes up at the theater.",
+  "file": "tiktok/nyc_broadway/sassenach449_7492198798740131118.mp4",
+  "in": 2.0,
+  "usable_s": 4.0,
+  "crop_hint": "full frame; Marquis Theatre (Broadway) orchestra view to the lit proscenium/stage, red seats, Playbill in lower edge",
+  "text_band": "Playbill held at bottom y 0.85-1.0 (real prop, fine)",
+  "creator": "@sassenach449",
+  "url": "https://www.tiktok.com/@sassenach449/video/7492198798740131118",
+  "note": "real Broadway house pre-show (Stranger Things stage dressing on screen, no curtain rise). Open on 0.0-1.5 Playbill close-up if wanted. Rejected broadwaycollection clip (heavy text)",
+  "status": "ok"
+ },
+ {
+  "shot": "83",
+  "vo": "Right now during their Holiday Sale,",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/GRAPHICS - editor handles"
+ },
+ {
+  "shot": "84",
+  "vo": "Comfortwear is up to forty percent off",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/GRAPHICS - editor handles"
+ },
+ {
+  "shot": "85",
+  "vo": "with free shipping,",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/GRAPHICS - editor handles"
+ },
+ {
+  "shot": "86",
+  "vo": "putting them under sixty dollars,",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/GRAPHICS - editor handles"
+ },
+ {
+  "shot": "87",
+  "vo": "and you get thirty days to try them.",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/GRAPHICS - editor handles"
+ },
+ {
+  "shot": "88",
+  "vo": "Put them through your long walking days before your trip.",
+  "file": "tiktok/nyc_wsp/shayla.quinn_7429698760479051054.mp4",
+  "in": 39.5,
+  "usable_s": 1.5,
+  "crop_hint": "full frame; sunny morning walk down tree-lined Central Park Mall, walkers ahead",
+  "text_band": null,
+  "creator": "@shayla.quinn",
+  "url": "https://www.tiktok.com/@shayla.quinn/video/7429698760479051054",
+  "note": "sunny walk, no text. Alt for feet: same clip @7.0 (top-down white sneakers walking on sidewalk, 2s) or @10.0/@16.0 (sneaker stepping on fall leaves, ~1s each). No dog-walk clip",
+  "status": "ok"
+ },
+ {
+  "shot": "89",
+  "vo": "If they are not right for you, send them back.",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/GRAPHICS - editor handles"
+ },
+ {
+  "shot": "90",
+  "vo": "Tap below and grab your pair",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/GRAPHICS - editor handles"
+ },
+ {
+  "shot": "91",
+  "vo": "before you pack for New York.",
+  "file": "tiktok/nyc_packing/maxieelise_7332662870708145450.mp4",
+  "in": 56.0,
+  "usable_s": 4.0,
+  "crop_hint": "full frame top-down: hands packing items into an open beige carry-on (boots already inside)",
+  "text_band": null,
+  "creator": "@maxieelise",
+  "url": "https://www.tiktok.com/@maxieelise/video/7332662870708145450",
+  "note": "clean ASMR packing, no text; 65.5-67.5 lid closing/zipping. Chanel dust bags visible ~59-61s (small logo). No NYC-specific packing clip found (jana.craig is talking-head)",
+  "status": "ok"
+ },
+ {
+  "shot": "92",
+  "vo": "[END CARD HOLD]",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/GRAPHICS - editor handles"
+ }
+]

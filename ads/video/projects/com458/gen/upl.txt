@@ -1,0 +1,5 @@
+D_H1 200 https://tempfile.redpandaai.co/kieai/12239740/comfortwear/com458/D_H1.wav
+D_H2 200 https://tempfile.redpandaai.co/kieai/12239740/comfortwear/com458/D_H2.wav
+D_P1 200 https://tempfile.redpandaai.co/kieai/12239740/comfortwear/com458/D_P1.wav
+D_P3 200 https://tempfile.redpandaai.co/kieai/12239740/comfortwear/com458/D_P3.wav
+IMG 200 https://tempfile.redpandaai.co/kieai/12239740/comfortwear/com458/doc1.jpg
