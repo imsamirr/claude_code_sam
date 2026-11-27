@@ -67,3 +67,31 @@ Source: Atria MCP `search_library_ads` (rising 45d health/apparel/beauty; holida
 - 7 Color field: light aqua gradient behind giant type (OrthoFlexx rank 2); coral-peach gradient with white doodles (Wholesome Story 38d rising); blue-grey behind a white test card (The Glow 10d rising).
 - 14 Woven texture: chunky cable-knit blanket close-up (Braxley 12d rising). 5 Textured prop: diner counter (Nerve Brand rank 27), oak entryway bench (Lifepro rank 8), hotel hallway (Cellumove rank 20).
 - 12 Plain studio: T48_06 (warm light grey), T48_18 (white) = 2 of 20 (10%).
+
+## 2026-11-27 Atria MCP backgrounds (W49-fri)
+Source: Atria MCP `inspo_ad_search` (proven 60d+ health/apparel/beauty/home; rising launched after 2026-10-13, 10d+, trend rising;
+holiday/seasonal/post-it/UGC launched since 2026-11-01, 2 pages; proven 60d+ query "shoes feet comfort walking") + `inspo_template_search`
+(Apparel recommended; seasonal_holiday newest). 136 candidates in `research/data/atria_mcp_w49fri.csv`, sheets
+`research/sheets/atria_mcp_w49fri_1..7.jpg`; 30 picks saved as `reference/benchmarks/rv1127_*.jpg`. New families:
+
+| # | Family | Atria evidence (2026-11-27) | Our use | Shoe colors that work |
+|---|---|---|---|---|
+| 22 | Greeting-card inset frame (solid card on a contrasting border) | Abercrombie & Fitch red card on green border 4d | holiday "card" with italic serif offer, the pair on the card's lower third | white, grey, light pink on deep red; black/white on cream card |
+| 23 | Snowflake color field (giant white snowflake graphic + dots on icy pastel) | Balega legs-in-socks on pale blue snowflake 4d; b.tan sky blue snowflakes + script 14d | legs in our shoes entering from a corner, offer type opposite | any dark/mid (field is light) |
+| 24 | Night fireworks sky / New Year | Atria template NYE fireworks cruise (seasonal_holiday) with tilted yellow banners | New Year "walk more in 2027" offer; shoe on a lit balcony ledge, tilted ticket-style banners | white, red, grey only (dark field) |
+| 25 | Monochrome set (prop pedestal + disc/shadow in the field color) | Slumber Cloud yellow pedestal + sun disc 213d; Atria template terracotta shadow-play ring | shoe on a same-color plinth (butter yellow, terracotta, sage), hard window shadow | contrast colorway vs field (black/purple on butter, white on terracotta) |
+| 26 | Checkerboard / patterned set with props + die-cut stickers | Herschel red-white checker with bags and starburst stickers 8d | all colorways placed on a red/cream checker floor with gift boxes, tilted sticker badges | light/mid shoes; no all-black on red squares |
+| 27 | Landscape horizon fading into product space | Atria template NS40 snowy mountains above, product center, icon row below | snowy mountain / Alps horizon top third, the pair center, 4 feature icons on the fade | any (fade to mid grey-brown) |
+| 28 | Vertical color panel + photo split | Atria template red left third with stacked products, photo right two thirds | red or navy panel left with headline and stacked pairs, nurse/travel photo right | light shoes on the panel |
+| 29 | Phone gallery UGC grid with a native dialog | The Original MakeUp Eraser 3x3 camera-roll grid + iOS "New Album" dialog 23d | 9 customer photos (shifts, trips, holidays) with an iOS dialog naming the album | any |
+
+Also refreshed with new sources: family 4 holiday (Aura navy field framed by red/gold ornaments + gold streamers 2d rising; philosophy
+product in pine branches with warm bokeh 10d; Blurb ribbon-wrapped gift on deep blue under a cream header band 8d; Beachwaver pink alpine
+snow scene 3d rising), family 1 real place (Tushbaby snowy suburban street 24d; Vionic dry-grass field lounging 23d; JustFab city
+crosswalk stride 68d; Mott & Bow / Traveler rear-view jeans crop template; Marriott friends on a boat bench template; palm sky behind a raised
+wrist template), family 14 woven (Petbarn dog wrapped in a knit throw, winter template), family 5 prop (Ryan Westbrook car covered in green
+sticky notes in a parking garage 86d; personalized trading card held in a sunlit kitchen template), family 7 color field (The Cloudies
+green-to-orange gradient + hand-drawn arrows 607d; Brooke Burke neon lime 107d; Timeless sky gradient over white stat band 419d), family 10
+interior (Atria template dining room with giant red word behind the subject), family 13 printed paper (Papabear Naturals cream torn-paper
+poster 369d), family 3 fall (GO Flooring maple-leaf border with swatch tiles 6d), family 12 studio (Ridge light grey with black bottom bar
+template).

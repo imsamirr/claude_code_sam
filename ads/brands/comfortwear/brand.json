@@ -2065,6 +2065,166 @@
     "fsa_F11": {
       "file": "reference/benchmarks/fsa_F11.jpg",
       "use_for": "HSA/FSA YEAR-END ref (Aviron, Oct-Nov 2026, Atria 2026-11-27): bold 'DON'T WASTE YOUR FSA DOLLARS' + falling money + product (dark). Layout only; facts: many FSA plans expire Dec 31 (some have grace periods), HSA rolls over; never their brand or product."
+    },
+    "rv1127_w_stepprs_dryerase": {
+      "file": "reference/benchmarks/rv1127_w_stepprs_dryerase.jpg",
+      "use_for": "W49-fri LAYOUT ref (Stepprs (insoles), 10d, wellness growth rank 5 (+162), Atria 2026-11-27): dry_erase_board_handwritten_over_feet. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_w_vsock_numbers": {
+      "file": "reference/benchmarks/rv1127_w_vsock_numbers.jpg",
+      "use_for": "W49-fri LAYOUT ref (Vsock (compression socks), 10d, wellness growth rank 8 (+121), Atria 2026-11-27): lets_talk_numbers_serif_ruled_stat_rows. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_w_nerve_cartoon_grannies": {
+      "file": "reference/benchmarks/rv1127_w_nerve_cartoon_grannies.jpg",
+      "use_for": "W49-fri LAYOUT ref (The Nerve Brand (neuropathy cream), 21d, wellness growth rank 12 (+77), Atria 2026-11-27): two_women_cartoon_drag_vs_stride_split_captions. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_w_wholeleaf_cost_ladder": {
+      "file": "reference/benchmarks/rv1127_w_wholeleaf_cost_ladder.jpg",
+      "use_for": "W49-fri LAYOUT ref (Whole-Leaf (joint oil), 10d, wellness growth rank 16 (+54), Atria 2026-11-27): cost_escalation_ladder_failed_fixes. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_w_foamr_question_split": {
+      "file": "reference/benchmarks/rv1127_w_foamr_question_split.jpg",
+      "use_for": "W49-fri LAYOUT ref (Foamr (massage insoles, NL), 10d, wellness growth rank 19 (+44), Atria 2026-11-27): question_header_split_foot_macro_three_icons. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_w_sameo_caps_quote_portrait": {
+      "file": "reference/benchmarks/rv1127_w_sameo_caps_quote_portrait.jpg",
+      "use_for": "W49-fri LAYOUT ref (Sameo (posture shirt, FR), 11d, wellness growth rank 22 (+39), Atria 2026-11-27): big_caps_quote_top_portrait_outdoor. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_w_musabela_details_icons": {
+      "file": "reference/benchmarks/rv1127_w_musabela_details_icons.jpg",
+      "use_for": "W49-fri LAYOUT ref (Musabela (orthopedic shoes), 11d, wellness growth rank 28 (+30), Atria 2026-11-27): details_headline_icon_column_slanted_percent_block. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_w_kuru_coziest_sheepskin": {
+      "file": "reference/benchmarks/rv1127_w_kuru_coziest_sheepskin.jpg",
+      "use_for": "W49-fri LAYOUT ref (KURU Footwear (comfort shoes), 37d, wellness growth rank 30 (+28), Atria 2026-11-27): serif_title_product_on_sheepskin_outdoor. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_w_bedsure_holiday_panel": {
+      "file": "reference/benchmarks/rv1127_w_bedsure_holiday_panel.jpg",
+      "use_for": "W49-fri LAYOUT ref (Bedsure (pillows), 10d, wellness growth rank 32 (+26), Atria 2026-11-27): lifestyle_photo_inset_product_panel_italic_sale. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_w_truenutra_not_your_age": {
+      "file": "reference/benchmarks/rv1127_w_truenutra_not_your_age.jpg",
+      "use_for": "W49-fri LAYOUT ref (True Nutra Plus (lymph supplement), 28d, wellness growth rank 34 (+26), Atria 2026-11-27): its_not_your_age_anatomy_side_callouts. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_w_fulton_xray_split": {
+      "file": "reference/benchmarks/rv1127_w_fulton_xray_split.jpg",
+      "use_for": "W49-fri LAYOUT ref (Walk Fulton (comfort slides), 38d, wellness growth rank 36 (+22), Atria 2026-11-27): xray_vs_photo_split_floor_headline. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_w_musabela_serif_senior": {
+      "file": "reference/benchmarks/rv1127_w_musabela_serif_senior.jpg",
+      "use_for": "W49-fri LAYOUT ref (Musabela (orthopedic shoes), 13d, wellness growth rank 37 (+22), Atria 2026-11-27): serif_headline_left_senior_sits_price. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_w_grounding_review_cards": {
+      "file": "reference/benchmarks/rv1127_w_grounding_review_cards.jpg",
+      "use_for": "W49-fri LAYOUT ref (Premium Grounding (sheets), 32d, wellness growth rank 39 (+20), Atria 2026-11-27): stacked_review_cards_hearts_sage. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_w_foamr_orange_card": {
+      "file": "reference/benchmarks/rv1127_w_foamr_orange_card.jpg",
+      "use_for": "W49-fri LAYOUT ref (Foamr (massage insoles, NL), 10d, wellness growth rank 43 (+19), Atria 2026-11-27): white_card_on_color_field_offer_button_product_below. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_w_healo_testimony_bubbles": {
+      "file": "reference/benchmarks/rv1127_w_healo_testimony_bubbles.jpg",
+      "use_for": "W49-fri LAYOUT ref (Healo (castor oil), 10d, wellness growth rank 48, Atria 2026-11-27): testimony_time_quote_bubbles_around_product. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_trading_card_in_hand": {
+      "file": "reference/benchmarks/rv1127_trading_card_in_hand.jpg",
+      "use_for": "W49-fri LAYOUT ref (Atria template (personalized gifts), seasonal template, Atria 2026-11-27): shoe_stat_trading_card_in_hand. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_papabear_cream_contrast_headline_stamp": {
+      "file": "reference/benchmarks/rv1127_papabear_cream_contrast_headline_stamp.jpg",
+      "use_for": "W49-fri LAYOUT ref (Papabear Naturals (skincare), 369d, proven, Atria 2026-11-27): cream_poster_two_color_headline_stamp_chips. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_sticky_note_covered_car": {
+      "file": "reference/benchmarks/rv1127_sticky_note_covered_car.jpg",
+      "use_for": "W49-fri LAYOUT ref (Ryan Westbrook (gadget), 86d, proven, Atria 2026-11-27): object_covered_in_sticky_notes_photo. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_cloudies_gradient_arrow_callouts": {
+      "file": "reference/benchmarks/rv1127_cloudies_gradient_arrow_callouts.jpg",
+      "use_for": "W49-fri LAYOUT ref (The Cloudies US (footwear), 607d, proven, Atria 2026-11-27): gradient_field_four_corner_doodle_callouts. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_giant_word_behind_subject_room": {
+      "file": "reference/benchmarks/rv1127_giant_word_behind_subject_room.jpg",
+      "use_for": "W49-fri LAYOUT ref (Atria template (dining), seasonal template, Atria 2026-11-27): giant_word_layered_behind_subject_interior. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_h_worried_mom_winter": {
+      "file": "reference/benchmarks/rv1127_h_worried_mom_winter.jpg",
+      "use_for": "W49-fri LAYOUT ref (HIKE Footwear (core competitor), 6d active, Atria 2026-11-27): winter_scene_gift_question_callouts. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_h_feet_not_problem_plus": {
+      "file": "reference/benchmarks/rv1127_h_feet_not_problem_plus.jpg",
+      "use_for": "W49-fri LAYOUT ref (HIKE Footwear (core competitor), 4d active, Atria 2026-11-27): four_colorway_pairs_row_headline_check_chips_bar. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_h_charge_yourself": {
+      "file": "reference/benchmarks/rv1127_h_charge_yourself.jpg",
+      "use_for": "W49-fri LAYOUT ref (HIKE Footwear (core competitor), 0d active, Atria 2026-11-27): daily_habit_analogy_question_shoe_on_moss. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_h_billboard_offer": {
+      "file": "reference/benchmarks/rv1127_h_billboard_offer.jpg",
+      "use_for": "W49-fri LAYOUT ref (HIKE Footwear (core competitor), 0d active, Atria 2026-11-27): billboard_over_city_offer_shoes. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_h_ornament_globe": {
+      "file": "reference/benchmarks/rv1127_h_ornament_globe.jpg",
+      "use_for": "W49-fri LAYOUT ref (HIKE Footwear (core competitor), 0d active, Atria 2026-11-27): product_in_glass_ornament_script_words. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_h_shopping_cart_walker": {
+      "file": "reference/benchmarks/rv1127_h_shopping_cart_walker.jpg",
+      "use_for": "W49-fri LAYOUT ref (HIKE Footwear (core competitor), 1d active, Atria 2026-11-27): never_supposed_to_be_your_x_headline_shoe_pills. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_h_messenger_walkers": {
+      "file": "reference/benchmarks/rv1127_h_messenger_walkers.jpg",
+      "use_for": "W49-fri LAYOUT ref (HIKE Footwear (core competitor), 3d active, Atria 2026-11-27): messenger_group_chat_walking_club. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_s_comic_without_with": {
+      "file": "reference/benchmarks/rv1127_s_comic_without_with.jpg",
+      "use_for": "W49-fri LAYOUT ref (Stepprs (core competitor), 36d, Atria 2026-11-27): comic_split_without_with_two_panels. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_s_bad_news": {
+      "file": "reference/benchmarks/rv1127_s_bad_news.jpg",
+      "use_for": "W49-fri LAYOUT ref (Stepprs (core competitor), 3d, Atria 2026-11-27): bad_news_giant_type_offer_bar_light. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_g_stryde_knee_left_column": {
+      "file": "reference/benchmarks/rv1127_g_stryde_knee_left_column.jpg",
+      "use_for": "W49-fri LAYOUT ref (Stryde (knee strap), 83d, angle-gap ref, Atria 2026-11-27): left_product_column_right_headline_checks. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_g_orthofit_podiatrist_rooftop": {
+      "file": "reference/benchmarks/rv1127_g_orthofit_podiatrist_rooftop.jpg",
+      "use_for": "W49-fri LAYOUT ref (OrthoFit Store, 108d, angle-gap ref, Atria 2026-11-27): lifestyle_ledge_shoe_bottom_caps_statement. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_g_orthofit_winter_condensed": {
+      "file": "reference/benchmarks/rv1127_g_orthofit_winter_condensed.jpg",
+      "use_for": "W49-fri LAYOUT ref (OrthoFit Store (winter boot), 1d, angle-gap ref, Atria 2026-11-27): winter_condensed_headline_product_on_ice_light. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_aura_ornament_frame_giant_percent": {
+      "file": "reference/benchmarks/rv1127_aura_ornament_frame_giant_percent.jpg",
+      "use_for": "W49-fri LAYOUT ref (Aura (identity protection), 2d, seasonal rising, Atria 2026-11-27): ornament_corners_giant_percent_pill. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_abercrombie_holiday_card_frame_script": {
+      "file": "reference/benchmarks/rv1127_abercrombie_holiday_card_frame_script.jpg",
+      "use_for": "W49-fri LAYOUT ref (Abercrombie & Fitch (apparel), 4d, seasonal, Atria 2026-11-27): holiday_card_inset_italic_serif_offer. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_tushbaby_snowy_street_serif_side": {
+      "file": "reference/benchmarks/rv1127_tushbaby_snowy_street_serif_side.jpg",
+      "use_for": "W49-fri LAYOUT ref (Tushbaby (baby carriers), 24d, seasonal, Atria 2026-11-27): snowy_street_walk_italic_side_kicker. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_balega_snowflake_legs_offer": {
+      "file": "reference/benchmarks/rv1127_balega_snowflake_legs_offer.jpg",
+      "use_for": "W49-fri LAYOUT ref (Balega International (socks), 4d, seasonal rising, Atria 2026-11-27): snowflake_field_diagonal_legs_offer_right. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_vertical_color_panel_photo_split": {
+      "file": "reference/benchmarks/rv1127_vertical_color_panel_photo_split.jpg",
+      "use_for": "W49-fri LAYOUT ref (Atria template (food), template, Atria 2026-11-27): vertical_red_panel_shelves_photo_right. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_ios_album_dialog_ugc_grid": {
+      "file": "reference/benchmarks/rv1127_ios_album_dialog_ugc_grid.jpg",
+      "use_for": "W49-fri LAYOUT ref (The Original MakeUp Eraser (beauty), 23d, seasonal, Atria 2026-11-27): camera_roll_grid_ios_new_album_dialog. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_marriott_kicker_caps_friends_trip": {
+      "file": "reference/benchmarks/rv1127_marriott_kicker_caps_friends_trip.jpg",
+      "use_for": "W49-fri LAYOUT ref (Marriott (travel), template, Atria 2026-11-27): italic_kicker_condensed_caps_friends_trip_photo. Recreate the layout only; never their brand, words, claims or product."
+    },
+    "rv1127_blurb_header_band_gift_on_blue": {
+      "file": "reference/benchmarks/rv1127_blurb_header_band_gift_on_blue.jpg",
+      "use_for": "W49-fri LAYOUT ref (Blurb Books (gifts), 8d, seasonal rising, Atria 2026-11-27): cream_header_band_ribbon_gift_on_deep_blue. Recreate the layout only; never their brand, words, claims or product."
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
