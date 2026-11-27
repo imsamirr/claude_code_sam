@@ -2,6 +2,49 @@
 
 Every concept from weeks/*/concepts.json, newest first: headline, angle, source and the user's verdict where logged. Don't reuse these headlines; learn from the rejection reasons.
 
+## 2026-W49-fri (40)
+
+- W49_01_den_tablets_didnt_reach · switcher · "My tablets didn't reach the yellow bacteria" · angle: First-person: the tablets never reached what was turning the denture yellow (biofilm in the micro-scratches) · copy: stefanbrain
+- W49_02_den_one_cycle_done · denture_wearer · 'no more yellow film' · angle: Timing riddle: an 8-hour overnight soak vs one 5-minute cycle · copy: stefanbrain
+- W49_03_den_fingernail_before_back_in · denture_wearer · 'SCRAPE THAT YELLOW FILM' · angle: The fingernail test: scrape the inside of a 'clean' denture before it goes back in your mouth · copy: stefanbrain
+- W49_04_den_soap_poster · denture_wearer · 'Dish soap leaves trapped yellow bacteria' · angle: Hand soap / dish soap isn't a disinfectant: it leaves a film in the porous acrylic · copy: stefanbrain
+- W49_05_den_tablets_in_the_bin · denture_wearer · 'Threw out the tablets. Yellow film is finally gone.' · angle: The day she threw the tablet boxes out (tap water only, no tablets ever) · copy: stefanbrain
+- W49_06_den_never_ask_mom · denture_caregiver · '"NEVER ASK MOM ABOUT THAT YELLOW FILM"' · angle: Caregiver: don't ask Mom if her dentures are clean (it shames her); do this instead · copy: stefanbrain
+- W49_07_den_grandson_turned_away · denture_wearer · 'My grandson turned away from my goodnight kiss.' · angle: Micro-shame: the grandson turned his face away at the goodnight kiss; it wasn't her mouth, it was the denture · copy: stefanbrain
+- W49_08_den_hygienist_underside · denture_wearer · "What hygienists see under 'clean' dentures: yellow bacteria." · angle: Authority: what a dental hygienist sees on the underside (fitting surface) of 'clean' dentures · copy: stefanbrain
+- W49_09_den_the_scan · denture_wearer · 'MACRO SCAN: DENTURE ACRYLIC' · angle: What a macro lens shows inside denture acrylic: pores and scratches packed with biofilm (the hero mechanism) · copy: stefanbrain
+- W49_10_den_partial_clasps · denture_wearer · 'UNHOOK YOUR PARTIAL: THAT YELLOW FILM IS BACTERIA' · angle: Partial wearers: the clasps hold yellow film and bacteria against your remaining natural teeth all day · copy: stefanbrain
+- W49_11_den_smell_three_reasons · denture_wearer · 'WHY SOAKED DENTURES STILL SMELL: TRAPPED BACTERIA' · angle: Why soaked dentures still smell: three reasons (film in the pores, food in the grooves, tablets just add mint) · copy: stefanbrain
+- W49_12_den_adhesive_strikes · denture_wearer · 'TIRED OF FIXODENT SLIME?' · angle: Adhesive residue (the 'Fixodent slime') brushing just smears around · copy: stefanbrain
+- W49_13_den_before_another_box · switcher · 'Before Buying Another Tablet Box...' · angle: Before you buy another box of tablets: one ultrasonic cleaner, tap water only, now 40% off · copy: stefanbrain
+- W49_14_den_one_cycle_in_review · switcher · 'One Cycle In.' · angle: Skeptic: 'are ultrasonic cleaners actually worth it?' -> one cycle in, the water told her · copy: stefanbrain
+- W49_15_den_pick_the_right_one · switcher · '6 of 7 Pods Leave Bacteria' · angle: 6 of 7 pods leave live bacteria: pick the one that doesn't · copy: stefanbrain
+- W49_16_den_dad_dentures_navy · denture_caregiver · "Dad's Bathroom Cup Won't Stop Yellow Bacteria" · angle: Gift for Dad who wears dentures: the denture-first cleaner, flat 40% off + free case + bag · copy: stefanbrain
+- W49_17_den_free_gifts_orbit · denture_wearer · 'Free Case & Bag' · angle: Two free gifts (case + travel bag) with the 40%-off denture cleaner · copy: stefanbrain
+- W49_18_den_gifts_value_on_us · denture_wearer · '$44 Free Gifts On Us' · angle: The free case + free travel bag are worth $44 at store prices: on us, with 40% off · copy: stefanbrain
+- W49_19_den_christmas_parent_calendar · denture_caregiver · "Mom's Yellow Dentures This Christmas" · angle: Christmas gift for a parent with dentures: 40% off + free gifts · copy: stefanbrain
+- W49_20_den_chalkboard_vanity · denture_wearer · 'Still Soaking Yellow Dentures?' · angle: Chalkboard sign by the sink: 40% off, free case, free bag · copy: stefanbrain
+- W49_21_ng_dentist_never_told · night_guard · '"A morning rinse leaves yellow bacteria film on your night guard."' · angle: Authority confession: a dentist who prescribes night guards admits nobody tells patients how to clean one · copy: stefanbrain
+- W49_22_ng_3am_clenchers · night_guard · 'For The 3am Jaw Clenchers' · angle: For the 3am jaw clenchers: the guard you bite all night needs more than a rinse · copy: stefanbrain
+- W49_23_ng_ten_steps_zero_steps · night_guard · '10-Step Skincare Routine' · angle: Your skincare gets 10 steps; the guard in your mouth 8 hours a night gets a rinse · copy: stefanbrain
+- W49_24_ng_slimy_morning · night_guard · 'That Morning Slime Is Trapped Bacteria' · angle: Clear, not slimy: the film you feel on the guard in the morning · copy: stefanbrain
+- W49_25_ng_mouthwash_mirror · night_guard · "Mouthwash won't stop yellow film" · angle: Soaking the guard in mouthwash doesn't remove the film · copy: stefanbrain
+- W49_26_ng_partner_notifications · night_guard · 'Trapped bacteria causes that smell' · angle: The partner noticed the smell of the guard before you did · copy: stefanbrain
+- W49_27_ng_same_guard_two_futures · night_guard · 'Ultrasonic cleaner stops yellow night guards' · angle: Prevention: the same guard in a year, if nothing changes vs if it gets cleaned every morning (stops it turning yellow) · copy: stefanbrain
+- W49_28_ng_starter_bundle_sticker · night_guard · 'THAT YELLOW NIGHTSTAND FILM IS BACTERIA' · angle: The night guard starter kit: Pod + free case + free travel bag at 40% off · copy: stefanbrain
+- W49_29_ng_ocean_window_sale · night_guard · 'Morning sunlight reveals yellow film' · angle: Flat 40% off (not 'up to'), Pod resting on the windowsill, yellow guard beside it · copy: stefanbrain
+- W49_30_ng_complimentary_card · night_guard · 'PACKING THAT YELLOW FILM?' · angle: Complimentary with your Pod: dental case + travel bag (40% off) · copy: stefanbrain
+- W49_31_al_back_in_after_lunch · aligner · 'Back in with bacteria film?' · angle: Aligner day: lunch, snack, coffee... and the trays go back in with the film on them · copy: stefanbrain
+- W49_32_al_22_hours_specs · aligner · 'STOPS YELLOW FILM' · angle: 22 hours a day in your mouth vs 5 minutes to clean: the numbers · copy: stefanbrain
+- W49_33_al_this_or_this · aligner · 'TALKING CLOSE? THEY SEE YELLOW FILM' · angle: You paid for invisible aligners: cloudy trays are visible · copy: stefanbrain
+- W49_34_al_black_deal_icons · aligner · 'STILL TASTING YELLOW FILM?' · angle: Aligner wearers: 40% off + free case + free bag + 120 days · copy: stefanbrain
+- W49_35_al_offer_calling · aligner · 'Cloudy trays calling?' · angle: Incoming call: cloudy trays (decline) vs clear trays (accept), with 40% off · copy: stefanbrain
+- W49_36_ret_teen_before_after · retainer · 'LEFT ON SINK WITH YELLOW FILM?' · angle: Parent of a teen: the retainer left on the bathroom sink every morning · copy: stefanbrain
+- W49_37_ret_hawley_hiding_list · retainer · 'WHERE HAWLEY BACTERIA AND CRUST HIDE' · angle: Hawley retainers: where the crust and smell hide (wire loops, under the plate) · copy: stefanbrain
+- W49_38_ret_not_hot_water_grid · retainer · 'WHY YOUR RETAINER STAYS YELLOW' · angle: Hot water warps it, toothpaste scratches it, tablets cloud it: what actually removes the film · copy: stefanbrain
+- W49_39_ret_made_simple_pills · retainer · 'HELD TO LIGHT: THAT YELLOW FILM' · angle: Retainer care made simple: drop it in, 5 minutes, clear again · copy: stefanbrain
+- W49_40_ret_glass_panel_sale · retainer · 'FLAT 40% OFF: MORNING BACTERIA' · angle: Retainer wearers: flat 40% off + free case + free bag (not 'up to') · copy: stefanbrain
+
 ## 2026-W48-tue (20)
 
 - T48_01_den_new_lab_study · switcher · '6 of 7 ultrasonic cleaners left live bacteria and yellow stains behind.' · angle: Lab-study headline: in a 90-day test of 7 pods, 6 left live bacteria on the dentures · copy: stefanbrain
