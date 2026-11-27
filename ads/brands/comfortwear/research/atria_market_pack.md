@@ -1,44 +1,39 @@
 # Comfort Wear: what competitors and other brands run (Atria)
 
-Built 2026-11-20 from the repo's latest Atria pulls. Each ad: brand, format, status, days running (long-running = the brand keeps paying for it), impression percentile (lower = more impressions), then its headline and primary text. Use for patterns, hooks and formats; never copy another brand's words, claims or names into our ads.
+Built 2026-11-24 from the repo's latest Atria pulls. Each ad: brand, format, status, days running (long-running = the brand keeps paying for it), impression percentile (lower = more impressions), then its headline and primary text. Use for patterns, hooks and formats; never copy another brand's words, claims or names into our ads.
 
-## Core competitors: every ad we pulled (active first, longest-running first) (85, from core_competitors_2026-11-20.csv)
+## Core competitors: every ad we pulled (active first, longest-running first) (86, from core_competitors_2026-11-24.csv)
 
-### Stepprs · video · active · 478 days · pct 0.0009157509157509158
+### Stepprs · video · active · 482 days · pct 0.001226993865030675
 **Headline:** Walk on Clouds—Or It’s FREE.
 
 "I’ve tried so many insoles for my plantar fasciitis — nothing ever really helped… until I found Stepprs. Within a few days, the stabbing heel pain I usually feel in the morning was nearly gone. I wear them in my work boots for 10-hour shifts, and for the first time in years, I don’t come home with aching feet. These insoles are a game-changer!" — Michelle, Verified Customer ✅ Cushioning ✅ Breathable ✅ Arch Support ✅ Instant Relief
 
-### Stepprs · video · active · 478 days · pct 0.024725274725274724
+### Stepprs · video · active · 482 days · pct 0.0343558282208589
 
 "I’ve tried so many insoles for my plantar fasciitis — nothing ever really helped… until I found Stepprs. Within a few days, the stabbing heel pain I usually feel in the morning was nearly gone. I wear them in my work boots for 10-hour shifts, and for the first time in years, I don’t come home with aching feet. These insoles are a game-changer!" — Michelle, Verified Customer ✅ Cushioning ✅ Breathable ✅ Arch Support ✅ Instant Relief
 
-### Stepprs · video · active · 477 days · pct 0.028388278388278388
-**Headline:** Your Feet Deserve Better!
-
-Say Goodbye to Foot Pain & Hello to ALL-DAY Comfort 🧡 ✅ "Reduces strain on the foot" — Dr. Thomas ✅ Support Your Overall Foot Health ✅ 100,000+ Happy Customers ❌ Avoid Counterfeits
-
-### Stepprs · video · active · 477 days · pct 0.029304029304029304
+### Stepprs · video · active · 481 days · pct 0.03803680981595092
 **Headline:** Your Feet Deserve Better!
 
 Say Goodbye to Foot Pain & Hello to ALL-DAY Comfort 🧡 ✅ "Reduces strain on the foot" — Dr. Thomas ✅ Support Your Overall Foot Health ✅ 25,000+ Happy Customers ❌ Avoid Counterfeits
 
-### Stepprs · image · active · 427 days · pct 0.009157509157509158
+### Stepprs · image · active · 431 days · pct 0.013496932515337423
 **Headline:** SAVE UP TO 60% TODAY
 
 "I’ve tried so many insoles for my plantar fasciitis — nothing ever really helped… until I found Stepprs. Within a few days, the stabbing heel pain I usually feel in the morning was nearly gone. I wear them in my work boots for 10-hour shifts, and for the first time in years, I don’t come home with aching feet. These insoles are a game-changer!" — Michelle, Verified Customer ✅ Cushioning ✅ Breathable ✅ Arch Support ✅ Instant Relief
 
-### Stepprs · image · active · 426 days · pct 0.01282051282051282
+### Stepprs · image · active · 431 days · pct 0.018404907975460124
 **Headline:** Stepprs
 
 "I’ve tried so many insoles for my plantar fasciitis — nothing ever really helped… until I found Stepprs. Within a few days, the stabbing heel pain I usually feel in the morning was nearly gone. I wear them in my work boots for 10-hour shifts, and for the first time in years, I don’t come home with aching feet. These insoles are a game-changer!" — Michelle, Verified Customer ✅ Cushioning ✅ Breathable ✅ Arch Support ✅ Instant Relief
 
-### Stepprs · video · active · 138 days · pct 0.0027472527472527475
+### Stepprs · video · active · 142 days · pct 0.0036809815950920245
 **Headline:** Walk on Clouds - Or It’s FREE.
 
 Free Gift. 60% off. Fast shipping. 90-day guarantee. You've seen the ads. You know what these do. The only question is whether you want to keep waking up with that same foot pain or finally do something about it. Pick your pairs. Grab the deal.
 
-### HIKE Footwear · video · active · 99 days · pct 0.0011799410029498525
+### HIKE Footwear · video · active · 103 days · pct 0.0011280315848843769
 **Headline:** Strengthen Your Feet Naturally 💪
 
 Your feet weren't designed for stiff, narrow shoes. 🦶 Barefoot shoes help your feet move the way nature intended: ✅ Wide toe box gives your toes room to spread naturally ✅ Zero-drop sole promotes natural posture and alignment ✅ Flexible design supports healthy foot movement ✅ Lightweight comfort for everyday wear Healthier feet. Better balance. More natural movement. Free shipping + 30-day guarantee 📦 👉 TRY RISK-FREE
@@ -48,42 +43,42 @@ Your feet weren't designed for stiff, narrow shoes. 🦶 Barefoot shoes help you
 
 Most dress shoes weren't designed for stability. They squeeze your toes. They raise your heel. They throw off your balance. And by the end of the day? Your feet hurt. That's exactly why we created VALENZA. ✨ The first step-in barefoot dress shoe from HIKE ➤ Wide toe box for a more stable foundation ➤ Zero-drop sole for better ground feel. ➤ Slip-resistant grip for confident steps on any surface. ➤ Flexible barefoot sole. ➤ Hands-free entry. Just step in and go Elegant style. Barefoot comfort. Stable steps.
 
-### Stepprs · video · active · 58 days · pct 0.03571428571428571
+### Stepprs · video · active · 82 days · pct 0.01717791411042945
 **Headline:** Walk on Clouds - Or It’s FREE.
 
 “As a type 1 aging diabetic with Neuropathy, I am extremely happy with these insoles. As soon as I put them in I felt some instant relief. Glad I grabbed two pairs for both my shoes.” — David, Verified Customer ✅ Make walking easy again ✅ Suitable for long periods of standing and walking ✅ Fits all shoes ✅ 90 day money back guarantee
 
-### Hike Footwear · image · active · 55 days · pct 0.18181818181818182
+### Hike Footwear · image · active · 59 days · pct 0.15384615384615385
 **Headline:** Best Walking Shoe 2026!
 
 Our Barefoot Shoes keep you steady, supported, and confident with reliable grip and all-day comfort. ✔ Step-In Design ✔ No pressure points ✔ High-grip outsole for stable footing on any surface ✔ Natural alignment that improves balance and posture ✔ Wide toe box for grounded, secure steps ➡ Made for seniors who want confidence in every step . At work, on walks, and in daily life.
 
-### Stepprs · video · active · 50 days · pct 0.04395604395604396
+### Stepprs · video · active · 54 days · pct 0.05521472392638037
 **Headline:** Walk on Clouds - Or It’s FREE.
 
 "I’ve tried so many insoles for my plantar fasciitis — nothing ever really helped… until I found Stepprs. Within a few days, the stabbing heel pain I usually feel in the morning was nearly gone. I wear them in my work boots for 10-hour shifts, and for the first time in years, I don’t come home with aching feet. These insoles are a game-changer!" — Michelle, Verified Customer ✅ Cushioning ✅ Breathable ✅ Arch Support ✅ Instant Relief
+
+### Stepprs · video · active · 52 days · pct 0.04539877300613497
+**Headline:** #1 Relief Solution in 2026
+
+Stepprs is built around balance. Our super-squishy, ultra-thick comfortable insoles do 3 powerful things in 1: spread your bodyweight evenly across the whole foot with Targeted Pressure Mapping, absorb shock from hard floor impact, and give your arch a stable base to stand on instead of Dead Foam that caves in under you. These soft, no-BS balance insoles are designed to make every step feel more grounded from the very first one. Just remove your old insoles, slip Stepprs in, step down, and you're good to go.
 
 ### HIKE Footwear · image · active · 49 days
 **Headline:** Built to carry extra weight comfortably
 
 Most shoes make foot pain, swelling, and balance problems worse for heavier women, not better. Narrow toe boxes cut off circulation. Thick soles block balance signals. Stiff designs concentrate pressure exactly where it hurts most. HIKE was designed differently. Wide toe box, flat stable sole, lightweight and flexible all day long. Pain relief, swelling relief, and better balance, all in one shoe. Top models 50% off, free shipping, 30 day money back guarantee. 👉 https://offers.hike-footwear.com/l/li11
 
-### Stepprs · video · active · 48 days · pct 0.03296703296703297
-**Headline:** #1 Relief Solution in 2026
-
-Stepprs is built around balance. Our super-squishy, ultra-thick comfortable insoles do 3 powerful things in 1: spread your bodyweight evenly across the whole foot with Targeted Pressure Mapping, absorb shock from hard floor impact, and give your arch a stable base to stand on instead of Dead Foam that caves in under you. These soft, no-BS balance insoles are designed to make every step feel more grounded from the very first one. Just remove your old insoles, slip Stepprs in, step down, and you're good to go.
-
-### Stepprs · image · active · 45 days · pct 0.014652014652014652
+### Stepprs · image · active · 49 days · pct 0.020858895705521473
 **Headline:** Up to 60% OFF — Today Only
 
 ❌ Stop Getting Unlucky With Insoles That Go Flat In Weeks… Stepprs Are Podiatrist-Recommended And Built To LAST. And Now, They’re Up To 60% Off. That’s Comfort You’ll Feel Every Step Of The Way. But Don’t Wait - This Halloween Deal Won’t Last Long! 🎃
 
-### Stepprs · image · active · 45 days · pct 0.06135531135531135
+### Stepprs · image · active · 49 days · pct 0.0785276073619632
 **Headline:** #1 Relief Solution in 2026
 
 "I've tried so many insoles for my foot pain — nothing ever really helped… until I found Stepprs. Within a few days, the constant aching and soreness I used to feel was nearly gone. I wear them in my work boots for 10-hour shifts, and for the first time in years, I don't come home with throbbing, tired feet. These insoles are a game-changer!" — Michelle, Verified Customer ✅ Cushioning ✅ Breathable ✅ Arch Support ✅ Instant Relief
 
-### Stepprs · video · active · 45 days · pct 0.039377289377289376
+### Stepprs · video · active · 49 days · pct 0.049079754601226995
 **Headline:** Up to 60% OFF — Today Only
 
 Free Gift. 60% off. Fast shipping. 90-day guarantee. You've seen the ads. You know what these do. The only question is whether you want to keep waking up with that same foot pain or finally do something about it. Pick your pairs. Grab the deal.
@@ -93,32 +88,37 @@ Free Gift. 60% off. Fast shipping. 90-day guarantee. You've seen the ads. You kn
 
 Our biggest sale of the year is happening right now. Up to 50% off our best-selling styles. These aren't just shoes. They're one of the simplest ways to relieve foot, knee, and joint pain, restore your balance, and help you stay active and independent for years to come. Only 200 pairs left at this price. Doctor recommended. Google rated 4.8. Up to 50% OFF + Free Shipping + 30 Day Money Back Guarantee 👉 https://offers.hike-footwear.com/l/li12
 
-### HIKE Footwear · video · active · 33 days · pct 0.061946902654867256
+### Stepprs · video · active · 35 days · pct 0.05030674846625767
+**Headline:** Walk on Clouds - Or It’s FREE.
+
+"I work at a processing plant for 12hrs a day and the boots they have are not feet friendly. The insoles make the boots feel like a million bucks!" — Terry, Verified Customer ✅ Years of pain gone instantly ✅ Finish a 12hr shift with zero pain ✅ Fits any work boot ✅ Instant relief
+
+### HIKE Footwear · video · active · 33 days
 **Headline:** 2M+ Happy Customers
 
 Join 4 million+ happy walkers enjoying pain-free movement with barefoot shoes! 👣 ✔️ Stronger, healthier feet ✔️ Better flexibility & posture ✔️ No more foot, knee, or back pain Experience the power of natural movement. Your feet will thank you! 😃 Try them risk-free!
 
-### Stepprs · video · active · 31 days · pct 0.04120879120879121
-**Headline:** Walk on Clouds - Or It’s FREE.
+### Stepprs · video · active · 32 days · pct 0.03680981595092025
+**Headline:** Your Feet Deserve Better!
 
-"I work at a processing plant for 12hrs a day and the boots they have are not feet friendly. The insoles make the boots feel like a million bucks!" — Terry, Verified Customer ✅ Years of pain gone instantly ✅ Finish a 12hr shift with zero pain ✅ Fits any work boot ✅ Instant relief
+Say Goodbye to Foot Pain & Hello to ALL-DAY Comfort 🧡 ✅ "Reduces strain on the foot" — Dr. Thomas ✅ Support Your Overall Foot Health ✅ 100,000+ Happy Customers ❌ Avoid Counterfeits
 
 ### Traverse with Tonia with HIKE Footwear · video · active · 28 days
 **Headline:** Best Walking Shoe 2026!
 
 “I’ve never stepped into a shoe this easily. No bending, no fumbling. HF Stride Hands-Off Entry is a game-changer!” – Maria, 58 Experience the all-new Stride design: 👟 Zero-drop support for natural alignment 🦶 Wide toe box that lets your toes move freely ✨ Ultra-flexible knit that moves with you, not against you The first step-in barefoot shoe. Step into effortless comfort and stride pain-free all day. Free Delivery + 30-Day Money Back Guarantee
 
-### Stepprs · image · active · 18 days · pct 0.023809523809523808
+### Stepprs · image · active · 22 days · pct 0.03190184049079755
 **Headline:** Black Friday 🖤 75% OFF
 
 🖤 Black Friday is here — and it’s our biggest one yet. Save up to 75% on the best-selling insoles in the world. Stock is limited!
 
-### Stepprs · image · active · 18 days · pct 0.0347985347985348
+### Stepprs · video · active · 21 days · pct 0.029447852760736196
 **Headline:** Walk on Clouds - Or It’s FREE.
 
 🖤 Black Friday is here — and it’s our biggest one yet. Save up to 75% on the best-selling insoles in the world. Stock is limited!
 
-### Leah Found This with HIKE Footwear · video · active · 14 days
+### Leah Found This with HIKE Footwear · video · active · 18 days
 **Headline:** 🚨BUY ONE, GET ONE FREE 🚨
 
 🎁 YES, YOUR SECOND PAIR IS FREE 🎁 Our biggest Black Friday & Cyber Monday sale is HERE! Get TWO pairs of HIKE barefoot shoes for the price of ONE! Enjoy more comfortable walking, better stability, and steadier, more confident steps with shoes designed for natural movement. ➤ BUY 1, GET 1 FREE! ➤ Mix & Match ANY Style or Color ➤ FREE SHIPPING on Every Order ➤ 30-Day Money-Back Guarantee 🔥 Don't miss your chance to grab your favorite pairs before the deal ends!
@@ -133,95 +133,55 @@ Your feet weren't designed for stiff, narrow shoes..🦶 HF Stride lets your fee
 
 Your feet weren't designed for stiff, narrow shoes..🦶 HF Stride lets your feet work the way nature intended: ✅ Zero-drop sole for natural alignment ✅ Wide toe box lets toes spread freely ✅ Flexible sole strengthens foot muscles ✅ Lightweight for effortless movement Healthier feet. Better posture. Natural walking. Free shipping + 30-day guarantee 📦
 
-### mollietugc with HIKE Footwear · video · active · 9 days · pct 0.25781710914454276
-**Headline:** 🚨BUY ONE, GET ONE FREE 🚨
+### More With Less Today with HIKE Footwear · video · active · 10 days
+**Headline:** Best Walking Shoe 2026!
 
-🎁 YES, YOUR SECOND PAIR IS FREE 🎁 Our biggest Black Friday & Cyber Monday sale is HERE! Get TWO pairs of HIKE barefoot shoes for the price of ONE! Enjoy more comfortable walking, better stability, and steadier, more confident steps with shoes designed for natural movement. ➤ BUY 1, GET 1 FREE! ➤ Mix & Match ANY Style or Color ➤ FREE SHIPPING on Every Order ➤ 30-Day Money-Back Guarantee 🔥 Don't miss your chance to grab your favorite pairs before the deal ends!
+Your feet weren't designed for stiff, narrow shoes..🦶 HF Stride lets your feet work the way nature intended: ✅ Zero-drop sole for natural alignment ✅ Wide toe box lets toes spread freely ✅ Flexible sole strengthens foot muscles ✅ Lightweight for effortless movement Healthier feet. Better posture. Natural walking. Free shipping + 30-day guarantee 📦
+
+### HIKE Footwear · image · active · 8 days · pct 0.09419063733784545
+**Headline:** 2M+ Happy Customers
+
+Your feet weren't designed for stiff, narrow shoes. 🦶 Barefoot shoes help your feet move the way nature intended: ✅ Wide toe box gives your toes room to spread naturally ✅ Zero-drop sole promotes natural posture and alignment ✅ Flexible design supports healthy foot movement ✅ Lightweight comfort for everyday wear Healthier feet. Better balance. More natural movement. Free shipping + 30-day guarantee 📦 👉 TRY RISK-FREE
 
 ### HIKE Footwear · video · active · 8 days
 **Headline:** Best Walking Shoe 2026!
 
 Your feet weren't designed for stiff, narrow shoes..🦶 HF Stride lets your feet work the way nature intended: ✅ Zero-drop sole for natural alignment ✅ Wide toe box lets toes spread freely ✅ Flexible sole strengthens foot muscles ✅ Lightweight for effortless movement Healthier feet. Better posture. Natural walking. Free shipping + 30-day guarantee 📦
 
-### Traverse with Tonia with HIKE Footwear · video · active · 7 days
-**Headline:** 🚨BUY ONE, GET ONE FREE 🚨
-
-🎁 YES, YOUR SECOND PAIR IS FREE 🎁 Our biggest Black Friday & Cyber Monday sale is HERE! Get TWO pairs of HIKE barefoot shoes for the price of ONE! Enjoy more comfortable walking, better stability, and steadier, more confident steps with shoes designed for natural movement. ➤ BUY 1, GET 1 FREE! ➤ Mix & Match ANY Style or Color ➤ FREE SHIPPING on Every Order ➤ 30-Day Money-Back Guarantee 🔥 Don't miss your chance to grab your favorite pairs before the deal ends!
-
-### Heathershealthyheart with HIKE Footwear · video · active · 6 days
+### Heathershealthyheart with HIKE Footwear · video · active · 7 days
 **Headline:** The Coziest Gift of the Season 🎁
 
 If you’re hunting for a gift that makes someone instantly say “WOW—these are SO warm”… this is it.. Cozely feels like stepping into a soft, fleece-lined hug. Lightweight. Flexible. Surprisingly warm. And yes — they look as good as they feel. 🔥 Plush fleece lining ❄️ Winter-ready traction 👣 Natural barefoot comfort 🎁 Perfect for gifting (or keeping for yourself 😉) Free Shipping + 30-Day Money-Back Guarantee. Try them for a full month and if you don't love them, send them back for a full refund.
 
-### funandfinds4you with HIKE Footwear · video · active · 6 days
-**Headline:** The Coziest Gift of the Season 🎁
+### HIKE Footwear · image · active · 5 days · pct 0.2278708133971292
+**Headline:** Warm, Light, and Steady: $99.95
 
-If you’re hunting for a gift that makes someone instantly say “WOW—these are SO warm”… this is it.. Cozely feels like stepping into a soft, fleece-lined hug. Lightweight. Flexible. Surprisingly warm. And yes — they look as good as they feel. 🔥 Plush fleece lining ❄️ Winter-ready traction 👣 Natural barefoot comfort 🎁 Perfect for gifting (or keeping for yourself 😉) Free Shipping + 30-Day Money-Back Guarantee. Try them for a full month and if you don't love them, send them back for a full refund.
+Most winter boots fall into one of two camps. Stiff and heavy: they keep you warm, but they wear out your feet and knees by lunchtime. Light and flimsy: they’re comfortable, until the first wet, slushy morning. Cozely is the boot in between, the one we always wished existed. ✔️ Warm fleece lining from heel to toe ✔️ A deep winter tread made for snow, slush, and wet pavement ✔️ A completely flat sole that keeps your weight centered for steadier steps ✔️ A wide toe box with room for thick socks and swollen feet ✔️ As light and flexible as a sneaker Now $120 $99.95, and even less per pair when you buy 2 or more. Order one size up, they run small. Free shipping, and 30 days to try them risk-free. Free Shipping + 30 Day Money Back Guarantee
 
-### HIKE Footwear · image · active · 5 days · pct 0.17817109144542773
-**Headline:** Warm, Light, and Steady: Now $99.95
+### HIKE Footwear · image · active · 4 days · pct 0.13516746411483255
+**Headline:** Healthier Feet Start Here 👟
 
-Shopping for cold season boots this year? Here’s what to look for if staying steady matters to you. A flat sole. If the heel is higher than the toe, your weight gets pushed forward with every step, even on slick sidewalks. A flexible bottom. If you can’t bend the boot in your hands, your feet can’t move naturally or feel the ground. A wide front. Your toes need room to spread out, especially in thick winter socks. A wider base is a steadier base. A real winter tread. Something made for snow, slush, and wet pavement. Cozely checks every box. And it’s lined with soft, warm fleece from heel to toe. Free Shipping + 30 Day Money Back Guarantee
-
-### HIKE Footwear · image · active · 4 days · pct 0.12684365781710916
-**Headline:** Only 500 Pairs at This Price
-
-The cold season is beautiful. It’s also one of the trickiest times of year to be on your feet. Wet leaves on the sidewalk. Rain-soaked steps. That first frosty morning when the porch is slicker than it looks. That’s why what you wear on your feet this season matters. These fleece-lined boots are built to help you feel steady and comfortable all season long: ✔️ A flat, stable sole that keeps your weight centered ✔️ A cold-weather tread made for wet leaves, rain, and slush ✔️ Soft fleece lining that keeps your feet warm ✔️ Light and flexible, so they’re comfortable all day 25% off for the next 24 hours, and only 500 pairs at this price. Free Shipping + 30 Day Money Back Guarantee
+Join the 2.4 million+ happy walkers enjoying pain-free movement with barefoot shoes! 👣 ✔️ Stronger, healthier feet ✔️ Better flexibility & posture ✔️ No more foot, knee, or back pain Experience the power of natural movement. Your feet will thank you! 😃 Try them risk-free!
 
 ### Thenobullman with HIKE Footwear · video · active · 4 days
 **Headline:** Best Walking Shoe 2026!
 
 “I’ve never stepped into a shoe this easily. No bending, no fumbling. HF Stride Hands-Off Entry is a game-changer!” – Maria, 58 Experience the all-new Stride design: 👟 Zero-drop support for natural alignment 🦶 Wide toe box that lets your toes move freely ✨ Ultra-flexible knit that moves with you, not against you The first step-in barefoot shoe. Step into effortless comfort and stride pain-free all day. Free Delivery + 30-Day Money Back Guarantee
 
-### HIKE Footwear · image · active · 3 days · pct 0.19823008849557522
+### HIKE Footwear · image · active · 3 days
+**Headline:** Pick Any Color. Limited Stock
+
+Black Friday is HERE! 🎉 Our best-selling barefoot shoes are BUY 1, GET 1 FREE 🚨 ANY color, ANY size! Stock up for the whole family and save BIG. Join 2.4M+ happy customers walking pain-free! 👉 Free shipping on all orders.
+
+### HIKE Footwear · image · active · 3 days · pct 0.15430622009569378
 **Headline:** Last Chance. Up To 50% Off.
 
 Our top-selling models are up to 50% off, and they're going fast. These shoes were designed to relieve pain, restore your balance, and help prevent falls, so you can keep moving and living life the way you want to. Over 5.5 million pairs sold. Backed by clinical studies and recommended by doctors. Free Shipping + 30 day risk-free trial. Try them for 30 days and if you don't feel the difference, send them back for a full refund. 30-Day Money-Back Guarantee.
 
-### HIKE Footwear · image · active · 3 days · pct 0.11268436578171091
-**Headline:** 2M+ Happy Customers
+### Britta from Hike Footwear · video · active · 3 days · pct 0.07142857142857142
+**Headline:** Free 2nd Pair + Free Shipping
 
-Your feet weren't designed for stiff, narrow shoes. 🦶 Barefoot shoes help your feet move the way nature intended: ✅ Wide toe box gives your toes room to spread naturally ✅ Zero-drop sole promotes natural posture and alignment ✅ Flexible design supports healthy foot movement ✅ Lightweight comfort for everyday wear Healthier feet. Better balance. More natural movement. Free shipping + 30-day guarantee 📦 👉 TRY RISK-FREE
-
-### HIKE Footwear · image · active · 3 days · pct 0.08436578171091445
-**Headline:** The Best Gift For Mom 💙
-
-These Barefoot Shoes keep you steady, supported, and confident with reliable grip and all-day comfort. ✔ No pressure points ✔ High-grip outsole for stable footing on any surface ✔ Natural alignment that improves balance and posture ✔ Wide toe box for grounded, secure steps ➡ Made for seniors who want confidence in every step . At work, on walks, and in daily life.
-
-### HIKE Footwear · image · active · 3 days · pct 0.09321533923303835
-**Headline:** 24 Hours Left. Don’t Miss It.
-
-Half the price. All the same benefits. The flat sole that keeps you centered and upright. The wide toe box with room for bunions, swelling, and tired feet. The thin, flexible bottom that lets you feel the ground again. The light, comfortable feel that lasts all day. Over 5.5 million pairs sold, and for the next 24 hours, every pair is 50% off. Grab one for you. Grab one for your sister, your mom, or your best friend. They make the perfect early holiday gift. Better balance or you don’t pay. 50% OFF + Free Shipping + 30 Day Money Back Guarantee
-
-### HIKE Footwear · image · active · 3 days · pct 0.10265486725663717
-**Headline:** Keep Her Safe & Steady
-
-Your feet weren't designed for stiff, narrow shoes. 🦶 Barefoot shoes help your feet move the way nature intended: ✅ Wide toe box gives your toes room to spread naturally ✅ Zero-drop sole promotes natural posture and alignment ✅ Flexible design supports healthy foot movement ✅ Lightweight comfort for everyday wear Healthier feet. Better balance. More natural movement. Free shipping + 30-day guarantee 📦 👉 TRY RISK-FREE
-
-### HIKE Footwear · image · active · 2 days · pct 0.18230088495575222
-**Headline:** Healthier Feet Start Here 👟
-
-Join the 2.4 million+ happy walkers enjoying pain-free movement with barefoot shoes! 👣 ✔️ Stronger, healthier feet ✔️ Better flexibility & posture ✔️ No more foot, knee, or back pain Experience the power of natural movement. Your feet will thank you! 😃 Try them risk-free!
-
-### HIKE Footwear · image · active · 2 days · pct 0.27020648967551625
-**Headline:** Warm, Light, and Steady: $99.95
-
-Most winter boots fall into one of two camps. Stiff and heavy: they keep you warm, but they wear out your feet and knees by lunchtime. Light and flimsy: they’re comfortable, until the first wet, slushy morning. Cozely is the boot in between, the one we always wished existed. ✔️ Warm fleece lining from heel to toe ✔️ A deep winter tread made for snow, slush, and wet pavement ✔️ A completely flat sole that keeps your weight centered for steadier steps ✔️ A wide toe box with room for thick socks and swollen feet ✔️ As light and flexible as a sneaker Now $120 $99.95, and even less per pair when you buy 2 or more. Order one size up, they run small. Free shipping, and 30 days to try them risk-free. Free Shipping + 30 Day Money Back Guarantee
-
-### HIKE Footwear · image · active · 2 days
-**Headline:** Healthier Feet Start Here 👟
-
-These Barefoot Shoes keep you steady, supported, and confident with reliable grip and all-day comfort. ✔ No pressure points ✔ High-grip outsole for stable footing on any surface ✔ Natural alignment that improves balance and posture ✔ Wide toe box for grounded, secure steps ➡ Made for seniors who want confidence in every step . At work, on walks, and in daily life.
-
-### HIKE Footwear · image · active · 2 days
-**Headline:** Healthier Feet Start Here 👟
-
-“I’ve never stepped into a shoe this easily. No bending, no fumbling. HF Stride Hands-Off Entry is a game-changer!” – Maria, 58 Experience the all-new Stride design: 👟 Zero-drop support for natural alignment 🦶 Wide toe box that lets your toes move freely ✨ Ultra-flexible knit that moves with you, not against you The first step-in barefoot shoe. Step into effortless comfort and stride pain-free all day. Free Delivery + 30-Day Money Back Guarantee
-
-### HIKE Footwear · image · active · 2 days
-**Headline:** Black Friday Starts NOW! 🔥
-
-🔓 YOU GET FIRST ACCESS TO BLACK FRIDAY! Our BIGGEST DEAL OF THE YEAR is here early! 🎁 BUY 1, GET 1 FREE on HIKE shoes! Choose ANY style, ANY color, and get your second pair completely FREE. More comfort, more room for your toes, and more confident steps. 👉 FREE SHIPPING on every order! Don't wait until Black Friday. Shop your deal NOW!
+BLACK FRIDAY IS HERE! 🎉 Our best-selling barefoot models are BUY 1, GET 1 FREE 🚨 ANY color, ANY size! Stock up for the whole family and save BIG. Join 2.4M+ happy customers walking pain-free! 👉 Free shipping on all orders.
 
 ### HIKE Footwear · image · active · 2 days
 **Headline:** Prevent Falls With Better Balance
@@ -233,35 +193,25 @@ Over 14 million Americans over 60 fall every year. Falls are the leading cause o
 
 🎁 YES, YOUR SECOND PAIR IS FREE 🎁 Our biggest Black Friday & Cyber Monday sale is HERE! Get TWO pairs of HIKE barefoot shoes for the price of ONE! Enjoy more comfortable walking, better stability, and steadier, more confident steps with shoes designed for natural movement. ➤ BUY 1, GET 1 FREE! ➤ Mix & Match ANY Style or Color ➤ FREE SHIPPING on Every Order ➤ 30-Day Money-Back Guarantee 🔥 Don't miss your chance to grab your favorite pairs before the deal ends!
 
-### Stepprs · image · active · 2 days
-**Headline:** Walk on Clouds—Or It’s FREE.
+### HIKE Footwear · image · active · 1 days · pct 0.233502538071066
+**Headline:** Last Chance. Up To 50% Off.
 
-"I used to have to cut my walks short because my heels and arches would start aching. I put these in my boots and couldn't believe the difference. So comfortable! I can finally enjoy my walks again :)" — Gary, Verified Customer 🚶 Walk for longer without aching feet 👞 Fits your favourite sneakers, shoes & boots 💪 Built to last 12+ months ☁️ Feel the comfort from your very first step Whether you're getting your daily steps in, walking the dog, or just out and about, Stepprs makes every step feel better 🧡
+Less pain. Better balance. More quality and independent years of doing what you love. That's what our best-selling shoes are built for. And they're up to 50% OFF right now, but stock is limited and this sale ends soon. Feel the difference or you don't pay because of our 30-day money-back guarantee. Try them for 30 days and if you don't feel the difference, send them back for a full refund. Doctor recommended. Google rated 4.8.
 
-### HIKE Footwear · image · active · 1 days · pct 0.1640117994100295
+### HIKE Footwear · image · active · 1 days · pct 0.23688663282571912
+**Headline:** Barefoot shoes for better health 🥰
+
+If you're a heavier woman dealing with foot pain, swelling, or balance issues, you already know that most shoes were not made with you in mind. Too narrow. Too stiff. Too much cushioning that feels good for an hour and then makes everything worse. Here is what most women in your situation don't know. The pain, the swelling, and the declining balance are not just about the weight. They are about what your shoes are doing to your feet every single day. Stiff soles concentrate all that pressure in one spot. Narrow toe boxes restrict circulation and make the swelling worse. Thick cushioned soles block the signals your brain needs to keep you balanced. HIKE was designed to fix all three. Wide toe box so your feet can spread and circulation can flow. Flat stable sole so your body weight is distributed evenly and your joints get a break. Lightweight flexible design so your foot muscles stay active and your balance comes back. Top models 50% off right now, free shipping, and a 30 day money back guarantee.
+
+### HIKE Footwear · image · active · 1 days
+**Headline:** Our Biggest Sale. Ends Midnight.
+
+Less pain. Better balance. More quality and independent years of doing what you love. That's what our best-selling shoes are built for. Right now, our top models are up to 50% off, but stock is limited and this sale ends soon. Feel the difference or you don't pay. Up to 50% OFF + Free Shipping + 30 Day Money Back Guarantee 👉 https://offers.hike-footwear.com/l/li06
+
+### HIKE Footwear · image · active · 1 days · pct 0.15397631133671744
 **Headline:** Barefoot Shoes For Better Stability
 
 These Barefoot Shoes keep you steady, supported, and confident with reliable grip and all-day comfort. ✔ No pressure points ✔ High-grip outsole for stable footing on any surface ✔ Natural alignment that improves balance and posture ✔ Wide toe box for grounded, secure steps ➡ Made for seniors who want confidence in every step . At work, on walks, and in daily life.
-
-### HIKE Footwear · image · active · 1 days · pct 0.2448377581120944
-**Headline:** No More Fear of Falling 💪
-
-“I’ve never stepped into a shoe this easily. No bending, no fumbling. HF Stride Hands-Off Entry is a game-changer!” – Maria, 58 Experience the all-new Stride design: 👟 Zero-drop support for natural alignment 🦶 Wide toe box that lets your toes move freely ✨ Ultra-flexible knit that moves with you, not against you The first step-in barefoot shoe. Step into effortless comfort and stride pain-free all day. Free Delivery + 30-Day Money Back Guarantee
-
-### HIKE Footwear · image · active · 1 days · pct 0.1616519174041298
-**Headline:** Last Chance. 40% Off.
-
-Sale ends at midnight Our top-selling HF STRIDE is 40% off, and they're going fast. These shoes were designed to relieve pain, restore your balance, and help prevent falls, so you can keep moving and living life the way you want to. Over 5.5 million pairs sold. Backed by clinical studies and recommended by doctors. Free Shipping + 30 day risk-free trial. Try them for 30 days and if you don't feel the difference, send them back for a full refund. 30-Day Money-Back Guarantee.
-
-### HIKE Footwear · image · active · 1 days · pct 0.1592920353982301
-**Headline:** Safest, Comfiest Boots Out There
-
-Every cold season, the same thing dangerous happens. The sidewalks get wet. The steps get icy. And you start walking a little slower, holding a little tighter, staying home a little more. It doesn’t have to be that way. Cozely gives you a flat, steady base and a winter tread made for snow, slush, and wet pavement, so you can keep going out all season. The wide toe box lets your toes spread out and steady you. And the thin, flexible sole helps you feel what you’re stepping on. Plus, they’re everything you want in a winter boot. Warm fleece lining. A soft exterior that blocks the wind. And light enough to wear all day without your feet getting tired. Free Shipping + 30 Day Money Back Guarantee Wear them for 30 days and send them back for a full refund if you don’t love them. Risk-free!
-
-### lifecoachingwithmatt with HIKE Footwear · video · active · 1 days
-**Headline:** Best Walking Shoe 2026!
-
-Your feet weren't designed for stiff, narrow shoes..🦶 HF Stride lets your feet work the way nature intended: ✅ Zero-drop sole for natural alignment ✅ Wide toe box lets toes spread freely ✅ Flexible sole strengthens foot muscles ✅ Lightweight for effortless movement Healthier feet. Better posture. Natural walking. Free shipping + 30-day guarantee 📦
 
 ### E-Commerce Success Strategies with HIKE Footwear · video · active · 1 days
 **Headline:** 🚨BUY ONE, GET ONE FREE 🚨
@@ -269,49 +219,94 @@ Your feet weren't designed for stiff, narrow shoes..🦶 HF Stride lets your fee
 🎁 YES, YOUR SECOND PAIR IS FREE 🎁 Our biggest Black Friday & Cyber Monday sale is HERE! Get TWO pairs of HIKE barefoot shoes for the price of ONE! Enjoy more comfortable walking, better stability, and steadier, more confident steps with shoes designed for natural movement. ➤ BUY 1, GET 1 FREE! ➤ Mix & Match ANY Style or Color ➤ FREE SHIPPING on Every Order ➤ 30-Day Money-Back Guarantee 🔥 Don't miss your chance to grab your favorite pairs before the deal ends!
 
 ### Stepprs · image · active · 1 days
+**Headline:** Walk on Clouds - Or It’s FREE.
+
+"The stepprs insoles are the best walking experience ever. I do 12 hour shifts 4 days on 4 days off, and my feet feel 10 times better after every shift, the whole walking experience is fantastic, thank you so much." — Gary, Verified Customer ✅ Finish a 12hr shift with zero pain ✅ Fits any sneaker, shoe, or boot ✅ Holds shape for 12 months ✅ Instant relief
+
+### Stepprs · image · active · 1 days
 **Headline:** Walk on Clouds—Or It’s FREE.
 
 "I've tried so many insoles for my foot pain — nothing ever really helped… until I found Stepprs. Within a few days, the constant aching and soreness I used to feel was nearly gone. I wear them in my work boots for 10-hour shifts, and for the first time in years, I don't come home with throbbing, tired feet. These insoles are a game-changer!" — Michelle, Verified Customer ✅ Cushioning ✅ Breathable ✅ Arch Support ✅ Instant Relief
 
-### Stepprs · video · active · 1 days
-**Headline:** Walk on Clouds—Or It’s FREE.
+### HIKE Footwear · image · active · 0 days · pct 0.19289340101522842
+**Headline:** Best Walking Shoe 2026!
 
-"The stepprs insoles are the best walking experience ever. I do 12 hour shifts 4 days on 4 days off, and my feet feel 10 times better after every shift, the whole walking experience is fantastic, thank you so much." — Gary, Verified Customer ✅ Finish a 12hr shift with zero pain ✅ Fits any sneaker, shoe, or boot ✅ Holds shape for 12 months ✅ Instant relief
+These Barefoot Shoes keep you steady, supported, and confident with reliable grip and all-day comfort. ✔ No pressure points ✔ High-grip outsole for stable footing on any surface ✔ Natural alignment that improves balance and posture ✔ Wide toe box for grounded, secure steps ➡ Made for seniors who want confidence in every step . At work, on walks, and in daily life.
 
-### HIKE Footwear · image · active · 0 days · pct 0.18997050147492625
-**Headline:** Grounding Barefoot Shoes 🌿
+### HIKE Footwear · image · active · 0 days · pct 0.27452153110047844
+**Headline:** Best Walking Shoe 2026!
 
-MEET ROOTSIE 🌱 Our new grounding barefoot shoe. Barefoot movement, now with a direct connection to the earth. ➤ Copper Grounding Plug: helps create the conductive connection to the ground ➤ Conductive Insole: carries the connection from your foot through the shoe ➤ Wide Toe Box: gives your toes room to spread naturally ➤ Thin, Flexible Sole: keeps you closer to the ground with every step No mats. No wires. No sitting still. Just put them on, step outside, and walk grounded. 🌎
+ROOTSIE is two shoes in one. The two halves do completely different jobs that improve your quality of life and longevity. 🌎 The GROUNDING Half The earth's surface carries a natural electrical charge. A huge supply of energy, right under your feet. Touch the ground and some of it moves into your body. Researchers have found that energy helps settle the inflammation behind aching, swelling and poor sleep. But the rubber soles in your thick cushioned traditional sneakers block that energy completely ❌ Rootsie has a copper plug running through the sole. Step outside onto grass, soil or concrete and the connection is live. ✅ Less swelling and aching ✅ Deeper sleep and more energy ✅ Lower stress 🦶🏼The BAREFOOT Half Nothing to do with energy. Your feet have dozens of small muscles that keep you steady. They only stay strong if they're used. Thick, stiff soles take that work away. Over years, those muscles switch off. Rootsie does the opposite. Flat sole. Wide toe box. Thin and flexible. ✅ Better balance ✅ Toes that spread and grip ✅ Less foot and joint pain Two mechanisms. Two sets of benefits. One pair. 30-day money-back guarantee. Wear them for a month. If you don't feel it, send them back.
 
-### HIKE Footwear · image · active · 0 days · pct 0.2336283185840708
-**Headline:** Strengthen Your Feet Naturally 💪
+### HIKE Footwear · image · active · 0 days · pct 0.19176536943034406
+**Headline:** Best Boots For Adults 60+
 
-“I didn’t realize how much I had slowed down, until these barefoot shoes made walking feel effortless again. I feel lighter on my feet, more balanced, and honestly, a little younger. I now walk farther, move more, and enjoy my days with energy I thought I had lost.” — Margaret, 63 Experience the difference with our 50% OFF sale happening now! 👣 Natural Movement Support 👟 Wide Toe Box for Free Toes ☁️ Soft, Flexible Cloud Comfort Feel 🏃‍♀️ Encourages Better Alignment 🦶 Adapts to Your Foot Shape Rediscover how good walking can feel. Try the HF Flow Barefoot risk-free + free delivery. 👉 https://offers.hike-footwear.com/l/li06
+Every 11 seconds, an older adult is rushed to the ER after a fall. And winter is when the ground turns against you. Wet leaves. Frosted steps. Slushy parking lots. Black ice you don’t see until it’s too late. For women over 60, one bad fall can mean a broken hip, a long hospital stay, and a life that never goes back to the way it was. That’s why your winter boots matter more than you think. Heavy, stiff boots with thick soles and raised heels tip your weight forward and keep your feet from feeling the ground. Exactly what you don’t want on an icy morning. Cozely is built the other way: ✔️ A completely flat sole that keeps your weight centered over your feet ✔️ A thin, flexible bottom that lets your feet feel every surface ✔️ A deep winter tread made for snow, slush, and wet pavement ✔️ A wide toe box, so your toes spread out into a wider, steadier base Plus warm fleece lining and a light build you can wear all day. Free shipping, and a 30-day money-back guarantee. Wear them for 30 days. If you don’t feel the difference, send them back for a full refund.
+
+### HIKE Footwear · image · active · 0 days · pct 0.1889452904681331
+**Headline:** Free Shipping All Orders
+
+Join the 2.4 million+ happy walkers enjoying pain-free movement with barefoot shoes! 👣 ✔️ Stronger, healthier feet ✔️ Better flexibility & posture ✔️ No more foot, knee, or back pain Experience the power of natural movement. Your feet will thank you! 😃 Try them risk-free!
+
+### HIKE Footwear · image · active · 0 days
+**Headline:** No More Fear of Falling 💪
+
+“I’ve never stepped into a shoe this easily. No bending, no fumbling. HF Stride Hands-Off Entry is a game-changer!” – Maria, 58 Experience the all-new Stride design: 👟 Zero-drop support for natural alignment 🦶 Wide toe box that lets your toes move freely ✨ Ultra-flexible knit that moves with you, not against you The first step-in barefoot shoe. Step into effortless comfort and stride pain-free all day. Free Delivery + 30-Day Money Back Guarantee
+
+### HIKE Footwear · image · active · 0 days · pct 0.16088516746411483
+**Headline:** The Winter Boot Built for Balance
+
+Wet leaves. Slushy parking lots. That first icy morning. For women over 60, this is the most dangerous time of year to be on your feet. And most winter boots make it harder, not easier. Thick, stiff soles keep you from feeling the ground. Raised heels tip your weight forward. Heavy boots tire your legs out before you’ve even left the driveway. Cozely is built the other way around. A flat, stable sole, so your weight stays centered. A deep winter tread made for snow, slush, and wet pavement. A wide toe box, so your toes spread out into a steadier base. And inside, soft fleece keeps your feet warm from heel to toe, without the sweat. Free Shipping + 30 Day Money Back Guarantee Wear them for 30 days and send them back for a full refund if you don’t love them. Risk-free!
+
+### HIKE Footwear · image · active · 0 days · pct 0.2811004784688995
+**Headline:** Soft, Cozy & Lightweight
+
+❤️ DON'T LET UNCOMFORTABLE BOOTS KEEP YOU INSIDE THIS WINTER. There's something wonderful about a crisp winter morning. A little walk around the neighborhood. A trip to your favorite coffee shop. Spending time outside with the people you love. But it's hard to enjoy those moments when your boots are heavy, your toes feel squeezed, and your feet are uncomfortable. That's exactly why we created COZELY. ❄️ We wanted winter boots that felt warm and cozy on the inside, while still giving your feet the freedom to move naturally. So we combined the comfort of barefoot shoes with the warmth of winter boots. ✨ Imagine: → Soft fleece lining surrounding your feet with warmth. → A roomy toe box that lets your toes spread naturally, even with winter socks. → A flexible, zero-drop sole that moves with your feet instead of restricting them. → Winter-ready grip to help you feel more confident on cold-weather walks. → A lightweight design that doesn't feel like you're dragging around heavy boots. No stiff, bulky feeling. No squeezing your toes into narrow winter shoes. Just cozy warmth and the freedom to move comfortably. Because the best winter memories happen when you're out enjoying life, not worrying about your footwear. ❤️ COZELY. Warmth meets barefoot freedom. 👉 Try them risk-free for 30 days!
 
 ### HIKE Footwear · image · active · 0 days
 **Headline:** Over 14 million adults fall every year
 
 Over 14 million Americans over 60 fall every year. Falls are the leading cause of serious, life-threatening injury in seniors. Here's what most people don't know. Your feet have thousands of nerve endings that send constant signals to your brain about the ground beneath you. Thick, cushioned soles block that feedback almost completely. A flat, stable sole changes that, letting your feet feel the ground again so your brain gets the information it needs to keep you steady. Doctor recommended. Google rated 4.8. 40% OFF + Free Shipping + 30 Day Money Back Guarantee Wear them for a month and if you don’t feel the difference, send them back for a full refund.
 
-### HIKE Footwear · image · active · 0 days
-**Headline:** Warm Feet. Less Pain. Steady Steps.
+### HIKE Footwear · image · active · 0 days · pct 0.20454545454545456
+**Headline:** BUY 1, GET 1 FREE – 2nd Pair on Us! 🎁
 
-The front door to the car. The car to the grocery store. The church steps after the service. Short, ordinary walks. And in winter, they’re where so many falls happen. Falls are the leading cause of injury death for adults over 65. And when the sidewalks get wet and icy, the risk climbs fast. Most women respond by buying the heaviest, chunkiest boots they can find. But heavy and stiff isn’t the same as steady. A raised heel pitches you forward. A thick, rigid sole blocks the feedback your feet need to keep you balanced. Cozely gives you what actually helps: A flat, stable base, so you stay centered on every step. A flexible sole, so your feet can feel the ground and react. A deep tread underneath, built for snow, slush, and wet pavement. Room for your toes to spread out and steady you. All in a warm, cozy, lightweight boot you’ll want to wear every day this winter. Order one size up. Free shipping, and a 30-day money-back guarantee. Free Shipping + 30 Day Money Back Guarantee
+🔓 YOU GET FIRST ACCESS TO BLACK FRIDAY! Our BIGGEST DEAL OF THE YEAR is here early! 🎁 BUY 1, GET 1 FREE on HIKE shoes! Choose ANY style, ANY color, and get your second pair completely FREE. More comfort, more room for your toes, and more confident steps. 👉 FREE SHIPPING on every order! Don't wait until Black Friday. Shop your deal NOW!
 
-### HIKE Footwear · image · active · 0 days
-**Headline:** The Shoe Made For Heavier Women
+### HIKE Footwear · image · active · 0 days · pct 0.2727272727272727
+**Headline:** No More Fear of Falling 💪
 
-Carrying extra weight puts real pressure on your feet, knees, and joints, and most shoes just aren't built to handle it. These shoes were designed specifically for heavier women. ➤ The flat, stable sole spreads your weight evenly instead of letting it collect in one spot, easing pressure on your knees and joints. ➤ The flexible material keeps circulation moving, helping prevent that swelling by the end of the day. ➤ And the wide toe box gives your feet room to actually spread out, no squeezing, no pain. Better balance. Pain relief. Swelling relief. All in one shoe. 50% off right now, backed by a 30-day money-back guarantee. If you don't feel the difference, you don't pay.
+These Barefoot Shoes keep you steady, supported, and confident with reliable grip and all-day comfort. ✔ No pressure points ✔ High-grip outsole for stable footing on any surface ✔ Natural alignment that improves balance and posture ✔ Wide toe box for grounded, secure steps ➡ Made for seniors who want confidence in every step . At work, on walks, and in daily life.
 
-### HIKE Footwear · image · active · 0 days · pct 0.21474926253687315
+### HIKE Footwear · image · active · 0 days · pct 0.2631578947368421
 **Headline:** For Daily Walkers Who Want More
 
 MEET ROOTSIE 🌱 Our new grounding barefoot shoe. Barefoot movement, now with a direct connection to the earth. ➤ Copper Grounding Plug: helps create the conductive connection to the ground ➤ Conductive Insole: carries the connection from your foot through the shoe ➤ Wide Toe Box: gives your toes room to spread naturally ➤ Thin, Flexible Sole: keeps you closer to the ground with every step No mats. No wires. No sitting still. Just put them on, step outside, and walk grounded. 🌎
 
-### HIKE Footwear · image · active · 0 days · pct 0.2542772861356932
-**Headline:** Black Friday Sale!
+### HIKE Footwear · image · active · 0 days
+**Headline:** 5.5 Million Pairs Can’t All Be Wrong
 
-🚨 EARLY BLACK FRIDAY ALERT 🚨 YOUR SECOND PAIR IS FREE! Discover the comfort of barefoot walking with shoes designed to give your toes more room, support natural movement, and help you feel more secure on your feet. Our biggest deal of the year is finally here! ✅ BUY 1, GET 1 FREE ✅ ANY Style, ANY Color ✅ FREE SHIPPING on Every Order Tap below and choose your favorite pairs!
+You already know why you want them. Here’s why today’s the day. Up to 50% off is the lowest price we offer all year. And stock on the most popular sizes and colors is running low. Not sure about your size? Order your usual. If it’s not right, exchanges are easy. Worried they won’t work for you? Wear them for a full 30 days. If you don’t feel the difference, send them back for a full refund. Shipping is free. The only thing left to decide is the color. Up to 50% OFF + Free Shipping + 30 Day Money Back Guarantee
+
+### HIKE Footwear · image · active · 0 days
+**Headline:** Built for heavier women's balance
+
+Every year, over 14 million Americans over 60 fall. Falls are the number one cause of serious, sometimes life-threatening injury for people in this age group. The reason often comes down to something simple: your feet can't feel the ground the way they used to. Your feet are covered in nerve endings whose entire job is to send information to your brain, how uneven the ground is, where your weight is shifting, whether you're about to lose your footing. Thick, heavily cushioned soles interfere with that signal almost completely, leaving your brain to guess instead of know. A flat, stable sole restores that connection, so your body gets the real-time feedback it needs to stay balanced. Over 5.5 million pairs sold. 40% OFF + Free Shipping Better balance in weeks or you don't pay | Backed by our 30-day money-back guarantee Wear them for a month and if you don’t feel the difference, send them back for a full refund.
+
+### Stepprs · video · active · 0 days
+**Headline:** #1 Relief Solution in 2026
+
+MORE RELIEF, LESS ACHING! 🔥Stepprs Insoles Provide Unmatched Shock Absorption And Instant Relief For Painful Feet And Neuropathy! 💪 ✅ Cushioning ✅ Breathable ✅ Arch Support ✅ Instant Relief ✅ Podiatrist Approved Discover Why 800,000+ People Trust Stepprs For Their Neuropathy Pains! Not Convinced? Each Pair Has a 90 DAY Money Back Guarantee👏
+
+### Stepprs · video · active · 0 days
+**Headline:** Walk on Clouds—Or It’s FREE.
+
+"The stepprs insoles are the best walking experience ever. I do 12 hour shifts 4 days on 4 days off, and my feet feel 10 times better after every shift, the whole walking experience is fantastic, thank you so much." — Gary, Verified Customer ✅ Finish a 12hr shift with zero pain ✅ Fits any sneaker, shoe, or boot ✅ Holds shape for 12 months ✅ Instant relief
+
+### Stepprs · video · active · 0 days · pct 0.5595092024539877
+**Headline:** Walk on Clouds—Or It’s FREE.
+
+"I work at a processing plant for 12hrs a day and the boots they have are not feet friendly. The insoles make the boots feel like a million bucks!" — Terry, Verified Customer ✅ Years of pain gone instantly ✅ Finish a 12hr shift with zero pain ✅ Fits any work boot ✅ Instant relief
 
 ### HIKE Footwear · video · inactive · 357 days
 **Headline:** ⚡FLASH SALE: COMFORT10
@@ -363,6 +358,11 @@ Say goodbye to foot pain, hello to joyful walks with your dog! 🐕🚶‍♂️
 
 After years of knee pain, I thought my running days were over. Theora's barefoot shoes reignited my passion! My stride is more natural, my pace has improved, and best of all – no more pain! Experience the difference with HF Cloud.. now with 30 day money back guarantee. 👣 Pain Relief Technology 👟 Wide Toe Box 🏃 Improved Posture ☁️ Flex & Soft Material 🦶 Custom-Fit Design Where Science Meets Natural Movement! ✓ 956,000 satisfied customers and counting ✓ Endorsed by foot health specialists Take the first step towards pain-free living. Free delivery 👉 https://try-hikefootwear.com/10-reasons-hf-cloud
 
+### HIKE Footwear · image · inactive · 5 days
+**Headline:** Built For Real Women. Real Relief.
+
+Your feet carry a lot. They deserve a shoe that was actually designed for that. Pain relief. Swelling relief. Better balance. All day comfort. Top models 50% off right now, free shipping, 30 day money back guarantee. 👉 https://offers.hike-footwear.com/l/li05
+
 ### HIKE Footwear · image · inactive · 4 days
 **Headline:** No More Fear of Falling 💪
 
@@ -387,6 +387,16 @@ Most sandals are stiff, bulky, or just plain uncomfortable. HF Baresandals chang
 **Headline:** Barefoot shoes for better health 🥰
 
 Why settle for full price when you can double your footwear collection without paying extra? 🚨 🙄 Forget about shipping fees and hefty costs. We're saying NO to ordinary deals! Join our thriving community and snag our best-selling barefoot shoes. With over 235,000 Americans finding relief from foot pain or simply enhancing their lives, it's time for you to experience the difference. 👣 For a limited time only: our buy 1, get 1 free promotion is here to make your life easier. Get ahead of the curve and dive into comfort today 👉 https://hike-footwear.com/collections/barefoot-shoes-bogo
+
+### HIKE Footwear · video · inactive · 2 days
+**Headline:** Step Into Natural Comfort
+
+The shoes you wear every day might be ruining your feet. Making pain, swelling, and joint issues even worse. Let me explain… Traditional shoes squeeze your toes, lift your heels, and throw your whole body out of alignment. No wonder your feet ache. That’s why so many people are switching to barefoot sneakers. They give your body what it actually needs: ✅ A wide toe box, so your toes can spread naturally without pinching or swelling ✅ Zero-drop sole, keeping your posture balanced and pressure off your knees, hips, and back ✅ Flexible, lightweight design that moves with you and reduces fatigue ✅ Relief from bunions, plantar fasciitis, and everyday foot pain Once you feel the difference, you’ll never want to go back. https://hike-footwear.com/products/lorax-signature-pro-barefoot-shoes
+
+### lifecoachingwithmatt with HIKE Footwear · video · inactive · 1 days
+**Headline:** Best Walking Shoe 2026!
+
+Your feet weren't designed for stiff, narrow shoes..🦶 HF Stride lets your feet work the way nature intended: ✅ Zero-drop sole for natural alignment ✅ Wide toe box lets toes spread freely ✅ Flexible sole strengthens foot muscles ✅ Lightweight for effortless movement Healthier feet. Better posture. Natural walking. Free shipping + 30-day guarantee 📦
 
 ### HIKE Footwear · video · inactive · 1 days
 **Headline:** Walk Pain-Free in 2025 or Your Money Back!
@@ -423,766 +433,869 @@ Chronic foot pain? Aching knees? Sore back? Your shoes might be the problem ⚠�
 
 I’m the founder of Hike Footwear, and HF Stride exists for one reason: Putting on shoes and walking shouldn’t feel like a daily challenge. We kept hearing the same frustrations from seniors, bending down hurts, balance feels off, and shoes don’t feel stable anymore. So we built a hands-free barefoot shoe you can simply step into. No laces. No bending. No struggle. We designed it with foot specialists to support natural alignment, balance, and movement. In December, HF Stride went viral. Thousands of seniors told us they felt more stable and confident walking again. Demand surged, we overproduced, and now we’re offering a limited flash-sale to move this extra inventory. Same exact shoe. Same quality. Just step in and go. Check below to see if your size is still available. 👉 https://offers.hike-footwear.com/l/li05
 
-### HIKE Footwear · image · inactive · 0 days
-**Headline:** Built For Real Women. Real Relief.
+## Wider competitor set (angle rivals): active, longest-running (300, from angle_rivals_2026-11-24.csv)
 
-Your feet carry a lot. They deserve a shoe that was actually designed for that. Pain relief. Swelling relief. Better balance. All day comfort. Top models 50% off right now, free shipping, 30 day money back guarantee. 👉 https://offers.hike-footwear.com/l/li05
-
-## Wider competitor set (angle rivals): active, longest-running (300, from angle_rivals_2026-11-20.csv)
-
-### Konjoun Barefoot · video · active · 237 days
+### Konjoun Barefoot · video · active · 242 days · pct 0.0182328190743338
 **Headline:** 🦶 Research-Backed Solution to Foot Pain
 
 🌲 Inspired by 200,000 years of walking on forest floors, our latest drop brings nature's training ground to your feet. Barefoot socks engineered with real wood-grain patterns—built to strengthen, made to last.🦶 The world's first 2-in-1 sock-shoe with patented human foot anatomy design: ✓ Patented Wood-Carved Anatomical Sole - Activates all 26 bones with every step ✓ 3,000+ NanoGrip Fusion Points - Superior traction on any surface ✓ 10X More Durable - DecaForce engineering outlasts 10 standard pairs ✓ 5X More Breathable - AirFlow Matrix keeps feet fresh all day ✓ 15X Stronger Than Steel - Cut and puncture-resistant Dyneema® protection ✓ Machine Washable - Unlike $150 barefoot shoes ⏳ Only 1,000 pairs in this first drop—once they're gone, restock takes 12 weeks. 🔒 Limited first drop! If you want to stay active and move pain-free, start where it matters most—your feet. Grab your pair now while the offer lasts!
 
-### Konjoun Barefoot · video · active · 237 days
-**Headline:** 🦶 Reverse Foot Atrophy Using Ancient Biomechanics
-
-🌲 Inspired by 200,000 years of walking on forest floors, our latest drop brings nature's training ground to your feet. Barefoot socks engineered with real wood-grain patterns—built to strengthen, made to last.🦶 The world's first 2-in-1 sock-shoe with patented human foot anatomy design: ✓ Patented Wood-Carved Anatomical Sole - Activates all 26 bones with every step ✓ 3,000+ NanoGrip Fusion Points - Superior traction on any surface ✓ 10X More Durable - DecaForce engineering outlasts 10 standard pairs ✓ 5X More Breathable - AirFlow Matrix keeps feet fresh all day ✓ 15X Stronger Than Steel - Cut and puncture-resistant Dyneema® protection ✓ Machine Washable - Unlike $150 barefoot shoes ⏳ Only 1,000 pairs in this first drop—once they're gone, restock takes 12 weeks. 🔒 Limited first drop! If you want to stay active and move pain-free, start where it matters most—your feet. Grab your pair now while the offer lasts!
-
-### Konjoun Barefoot · video · active · 236 days
-**Headline:** 🔒 Limited Drop: 1,000 Pairs Only. Sold Out = 12-Week Restock.
-
-🌲 Inspired by 200,000 years of walking on forest floors, our latest drop brings nature's training ground to your feet. Barefoot socks engineered with real wood-grain patterns—built to strengthen, made to last.🦶 The world's first 2-in-1 sock-shoe with patented human foot anatomy design: ✓ Patented Wood-Carved Anatomical Sole - Activates all 26 bones with every step ✓ 3,000+ NanoGrip Fusion Points - Superior traction on any surface ✓ 10X More Durable - DecaForce engineering outlasts 10 standard pairs ✓ 5X More Breathable - AirFlow Matrix keeps feet fresh all day ✓ 15X Stronger Than Steel - Cut and puncture-resistant Dyneema® protection ✓ Machine Washable - Unlike $150 barefoot shoes ⏳ Only 1,000 pairs in this first drop—once they're gone, restock takes 12 weeks. 🔒 Limited first drop! If you want to stay active and move pain-free, start where it matters most—your feet. Grab your pair now while the offer lasts!
-
-### Konjoun Barefoot · video · active · 236 days
+### Konjoun Barefoot · image · active · 241 days · pct 0.019635343618513323
 **Headline:** ❗ Buy 1, Get 1 FREE — Ends in 24 Hours.
 
 ❗ Buy 1, Get 1 FREE—24 hours only. Then it's back to full price. 🌲 Inspired by 200,000 years of walking on forest floors, our latest drop brings nature's training ground to your feet. Barefoot socks engineered with real wood-grain patterns—built to strengthen, made to last.🦶 The world's first 2-in-1 sock-shoe with patented human foot anatomy design: ✓ Patented Wood-Carved Anatomical Sole - Activates all 26 bones with every step ✓ 3,000+ NanoGrip Fusion Points - Superior traction on any surface ✓ 10X More Durable - DecaForce engineering outlasts 10 standard pairs ✓ 5X More Breathable - AirFlow Matrix keeps feet fresh all day ✓ 15X Stronger Than Steel - Cut and puncture-resistant Dyneema® protection ✓ Machine Washable - Unlike $150 barefoot shoes ⏳ Only 1,000 pairs in this first drop—once they're gone, restock takes 12 weeks. 🔒 Limited first drop! If you want to stay active and move pain-free, start where it matters most—your feet. Grab your pair now while the offer lasts!
 
-### Orthofeet CA  · video · active · 233 days · pct 0.8571428571428571
-**Headline:** Walk With Comfort or Your Money Back!
+### Konjoun Barefoot · image · active · 241 days · pct 0.021037868162692847
+**Headline:** 🔒 Limited Drop: 1,000 Pairs Only. Sold Out = 12-Week Restock.
 
-From errands to adventures. Orthofeet gives you the freedom to go further.
+🌲 Inspired by 200,000 years of walking on forest floors, our latest drop brings nature's training ground to your feet. Barefoot socks engineered with real wood-grain patterns—built to strengthen, made to last.🦶 The world's first 2-in-1 sock-shoe with patented human foot anatomy design: ✓ Patented Wood-Carved Anatomical Sole - Activates all 26 bones with every step ✓ 3,000+ NanoGrip Fusion Points - Superior traction on any surface ✓ 10X More Durable - DecaForce engineering outlasts 10 standard pairs ✓ 5X More Breathable - AirFlow Matrix keeps feet fresh all day ✓ 15X Stronger Than Steel - Cut and puncture-resistant Dyneema® protection ✓ Machine Washable - Unlike $150 barefoot shoes ⏳ Only 1,000 pairs in this first drop—once they're gone, restock takes 12 weeks. 🔒 Limited first drop! If you want to stay active and move pain-free, start where it matters most—your feet. Grab your pair now while the offer lasts!
 
-### KURU Footwear · video · active · 232 days · pct 0.08125
+### Konjoun Barefoot · video · active · 241 days · pct 0.008415147265077139
+**Headline:** 🦶 Reverse Foot Atrophy Using Ancient Biomechanics
+
+🌲 Inspired by 200,000 years of walking on forest floors, our latest drop brings nature's training ground to your feet. Barefoot socks engineered with real wood-grain patterns—built to strengthen, made to last.🦶 The world's first 2-in-1 sock-shoe with patented human foot anatomy design: ✓ Patented Wood-Carved Anatomical Sole - Activates all 26 bones with every step ✓ 3,000+ NanoGrip Fusion Points - Superior traction on any surface ✓ 10X More Durable - DecaForce engineering outlasts 10 standard pairs ✓ 5X More Breathable - AirFlow Matrix keeps feet fresh all day ✓ 15X Stronger Than Steel - Cut and puncture-resistant Dyneema® protection ✓ Machine Washable - Unlike $150 barefoot shoes ⏳ Only 1,000 pairs in this first drop—once they're gone, restock takes 12 weeks. 🔒 Limited first drop! If you want to stay active and move pain-free, start where it matters most—your feet. Grab your pair now while the offer lasts!
+
+### Konjoun Barefoot · video · active · 240 days · pct 0.091164095371669
+**Headline:** 🦶 The closest thing to actually being barefoot.
+
+There's a specific pressure sequence that keeps feet strong: forefoot → midfoot → heel. Modern shoes block it AND kill the sensory feedback your feet need. We restored both. 🔬🦶 The SuperSocks™ Wood Carved Edition is HERE! Perfect for restoring natural gait, re-activating dormant muscles, or finally feeling the ground the way your body was designed to 💪 This limited-edition launch brings biomechanics research and natural sensory function together in one precision-engineered sock. Here's what makes it different 👇 🔬 Pressure-Sequence Engineering – Carved from studying human foot anatomy to restore the natural forefoot → midfoot → heel pattern ⚡ Sensory Re-Activation Zones – Each contour provides the ground feedback cushioned shoes block 💪 10X More Durable – Built to withstand thousands of natural movement cycles 🌬️ 5X More Breathable – Fresh feet during optimal performance We studied human foot anatomy and natural biomechanics to engineer a sole that restores what modern shoes destroyed: proper pressure distribution AND sensory feedback. Each carved zone serves two functions: ✅ Pressure activation → triggers stabilizing muscles (heel, arch, forefoot) ✅ Sensory stimulation → sends ground feedback to your brain for balance and coordination The result? Your feet don't just move naturally—they FEEL naturally. Your brain receives the terrain information it needs. Your muscles respond with proper activation. Your body relearns the movement pattern it was designed for. No orthotics. No
+
+### Konjoun Barefoot · video · active · 238 days · pct 0.1767180925666199
+**Headline:** 🦶 The closest thing to actually being barefoot.
+
+Most "barefoot" shoes make a critical mistake: They are flat. Your foot isn’t flat. It has specific pressure zones and over 200,000 sensory receptors waiting to be used. Putting a flat slab of rubber under your foot—even a thin one—mutes that sensory input and disrupts your natural gait. We engineered the Wood Carved Edition with Biomechanics Experts to fix this. Unlike passive shoes, our Pressure-Mapped Sole mirrors your anatomy: 🧠 Triggers 200k Receptors: The carved texture wakes up your nervous system. 🦶 Restores Natural Loading: Encourages the correct Forefoot → Midfoot → Heel sequence. 🧬 Bio-Mechanical Activation: The pressure-mapped sole forces your foot muscles to fire rather than relying on passive shoe support. Don’t pay $200 for dead rubber. Get the only footwear that is bio-mapped to your biology!
+
+### KURU Footwear · video · active · 237 days · pct 0.07471264367816093
 **Headline:** Best Shoes for Plantar Fasciitis
 
 If you've got plantar fasciitis, stop wearing shoes that fold in half. Soft and bendy feels comfortable in the shop... but it overloads your arch all day. Here are the 5 features I look for when helping patients recover: 1️⃣ Firm heel counter You want the back of the shoe to feel solid. This limits excessive pronation and keeps the ankle stable. 2️⃣ Deep, supportive heel cup It should wrap around your heel bone and spread pressure evenly. This reduces strain through the inside of the heel. @kurufootwear builds this directly into the shoe with their curved heel technology, so you can actually feel that medial heel support. 3️⃣ Higher heel to toe drop A thicker heel compared to the forefoot reduces strain on your calf, arch, and plantar fascia. 4️⃣ Stiffness through the midfoot If you can easily twist or fold the shoe, it is too soft. A firmer shoe gives your foot the stability it needs while healing. 5️⃣ Slight rocker This helps roll you forward so you are not overloading your big toe and arch with every step. The right shoe will not cure plantar fasciitis overnight... but the wrong shoe will slow your recovery down. Check out @kurufootwear's range of shoes. #ad
 
-### KURU Footwear · video · active · 224 days · pct 0.1
-**Headline:** Your Old Shoes Can’t Do This
+### Orthofeet CA  · video · active · 237 days · pct 0.8571428571428571
+**Headline:** Walk With Comfort or Your Money Back!
 
-Think your shoes aren’t doing enough? You’re probably right. These 5 reasons show why KURU goes the extra mile for relief. 🦶Built for Heel Pain Relief 🌟40,000+ 5-Star Reviews 👟45-Day Returns & Exchanges
+From errands to adventures. Orthofeet gives you the freedom to go further.
 
-### KURU Footwear · image · active · 223 days · pct 0.09375
+### KURU Footwear · image · active · 228 days · pct 0.08620689655172414
 **Headline:** Save Big on Heel Support
 
 See for yourself why 40K+ have given KURU 5 stars. Patented heel tech, lasting pain relief.
 
-### KURU Footwear · image · active · 220 days · pct 0.04375
+### KURU Footwear · video · active · 227 days · pct 0.09195402298850575
+**Headline:** Your Old Shoes Can’t Do This
+
+Think your shoes aren’t doing enough? You’re probably right. These 5 reasons show why KURU goes the extra mile for relief. 🦶Built for Heel Pain Relief 🌟40,000+ 5-Star Reviews 👟45-Day Returns & Exchanges
+
+### KURU Footwear · image · active · 224 days · pct 0.040229885057471264
 **Headline:** Looks Good, Feels Even Better
 
 Our mission? Support that looks nothing like support. Foot pain relief has never felt (or looked) this good. 🦶Built for Heel Pain Relief 🌟42,000+ 5-Star Reviews 👟45-Day Returns & Exchanges
+
+### Konjoun Barefoot · image · active · 220 days · pct 0.001402524544179523
+**Headline:** 🦶 Every step in cushioned shoes makes this worse
+
+This almost never happens. SuperSocks Wood Carved Edition is running a limited BOGO offer right now — and if you've been sitting on this, this is the window. 158,395+ people stopped treating their knee and back pain — and started fixing what was actually causing it. They found out the pain after 40 isn't just "getting older." It's foot muscles that stopped firing — and your shoes have been silencing them for years. ====== That's why they switched to the Wood Carved Edition. 🦶 Patented 3-Zone Carved Sole — follows your foot's natural loading sequence: forefoot → midfoot → heel ⚡ Sensory Signal Restoration — carved zones send the ground feedback cushioned shoes block, waking dormant muscles back up 🔗 Muscle Reactivation Up The Chain — stronger feet reduce the compensation pattern causing knee, hip and back pain 🛡️ Dyneema® Construction — 15X stronger than steel, cut-resistant, under 2mm thin — full ground contact maintained 💪 No exercises. No routines. Just walking. ====== Click below to try the Wood Carved Edition risk-free 👇 ✅ 30-Day Money-Back Guarantee 🔬 Developed with biomechanics experts 🏭 Patented 3-zone pressure-mapped sole 🦴 The only sock engineered to train your feet with every step ⭐ Trusted by 158,395+ customers worldwide
 
 ### Orthofeet CA  · image · active · 220 days · pct 0.5714285714285714
 **Headline:** Walk With Comfort or Your Money Back!
 
 See the difference for yourself 👟
 
-### WearStand · image · active · 211 days · pct 0.0016891891891891893
+### WearStand · image · active · 215 days · pct 0.0015503875968992248
 **Headline:** Join 100,000+ Workers Who Found Relief
 
 🚀 AntiGrav1s have landed! Embrace the perfect mix of style, comfort, and innovation. These shoes are designed to keep you going strong. Limited supply – get your pair today and feel the difference!
 
-### WearStand · image · active · 210 days · pct 0.011824324324324325
+### WearStand · image · active · 215 days · pct 0.010852713178294573
 **Headline:** For Those On Their Feet All Day
 
 🚀 The wait is over! Crafted for professionals who spend hours on their feet, these shoes combine ultralight comfort with maximum slip-resistant protection. Experience comfort like never before and get yours before they're gone!
 
-### Stryde Recovery · image · active · 197 days · pct 0.00980392156862745
+### Stryde Recovery · image · active · 201 days · pct 0.00980392156862745
 **Headline:** Buy 1 Get 1 FREE
 
 The Stryde Precision Strap. Sits 2cm below the kneecap, on the patellar tendon. Redirects up to 17x bodyweight away from the inflamed point. 34% reduction in tendon strain (X-ray verified). Same biomechanical principle Cleveland Clinic sports orthopaedists recommend. Designed in the UK. Non-slip silicone. One-size adjustable. Fits under jeans, leggings, work trousers. Stays put through 12-hour shifts and 10k runs. For: patellar tendonitis, runner's knee, jumper's knee, post-operation recovery, general knee instability. £29.90 for two. 10,000+ UK customers. 4.8 on Trustpilot. 60-day money-back guarantee. FREE UK delivery. 👉 Buy one get one free today
 
-### Konjoun Barefoot · video · active · 189 days
+### Konjoun Barefoot · video · active · 193 days · pct 0.07994389901823282
 **Headline:** 🦶Biomechanically-Carved Wood Sole Eliminates Foot Pain
 
 What if every step could rebuild your feet naturally? The SuperSocks™ Wood Carved Edition has officially dropped! 🦶🔬 Perfect for ending chronic foot pain, walking the way evolution designed, or finally strengthening weak arches naturally 💪 This limited-edition release brings human biomechanics and natural foot function together in one anatomically-engineered sock. Here's what makes it different 👇 🔬 Designed on Human Foot Anatomy – We studied natural biomechanics and crafted the sole to activate the healthiest walking pattern ⚡ Sensory activation with every step — restores the ground signal shoes blocked, your brain relearns natural movement 🔁 Retrains your walking pattern passively — no exercises, just wear and walk 🧠 Mapped from real barefoot gait data — not guesswork, your foot already knows this pattern Here's how we built it: We studied how the human foot is designed to move. 26 bones. 33 joints. 100+ muscles working as an integrated system. Then we mapped that anatomy into the sole pattern: ✅ Contours match your foot's natural pressure distribution ✅ Ridges align with muscle fiber pathways ✅ Texture activates proprioceptive feedback loops The result? Your feet move the way evolution designed—naturally activating every bone and muscle with each step. No orthotics forcing artificial support. No cushioning weakening natural strength. Just biomechanically-correct movement that rebuilds your foundation. What you'll feel: ✅ Week 1: Natural toe spread, better balance ✅ Week 2: 
 
-### KURU Footwear · video · active · 186 days · pct 0.21875
+### KURU Footwear · video · active · 191 days · pct 0.19540229885057472
 **Headline:** 3+ Million Pairs Sold
 
 Nothing can stop you—except for achy feet. ATOM 2 brings relief you can count on. 📦 Free Shipping 🌟48,000+ 5-Star Reviews 👟91-Day Returns & Exchanges 🦶 Built for Heel Pain Relief
 
-### OrthoFit Store · image · active · 186 days · pct 0.0031725888324873096
-**Headline:** Finally. Shoes That Don’t Hurt. ($59)
-
-81% of Americans deal with foot pain. ⠀ Bunions. Plantar fasciitis. Swollen feet that don’t fit into anything by 3 PM. ⠀ You’ve tried insoles. You’ve sized up. You’ve spent hundreds on “comfort” shoes that weren’t comfortable. ⠀ OrthoFit Wide Toe Sneakers are different. ⠀ The extra-wide toe box gives bunions and hammertoes the room they actually need. The cushioned arch support fights plantar fasciitis with every step. And the breathable knit stretches with swollen feet instead of squeezing them. ⠀ Looks like a premium sneaker. Works like a medical shoe. ⠀ 30-day comfort guarantee. Free shipping. ⠀ 👉 Tap “Shop Now” to try them risk-free.
-
-### WearStand · video · active · 178 days · pct 0.04222972972972973
+### WearStand · video · active · 182 days · pct 0.03875968992248062
 
 STANDING in @wearstand during my shift & keeping my feet happy + my patients smiling with the bright color! ⚡️ slip resistant + cushion support & podiatrist approved #nurseshoes #nurse #nursetok #nursesoftiktok #nursingstudent #nursingstudentessentials #nursestiktok #nurseessentials #shoes #comfortable #healthcareworker #nurseootd #fyp #stand #wearstand
 
-### WearStand · video · active · 178 days · pct 0.04391891891891892
+### WearStand · video · active · 182 days · pct 0.04186046511627907
 
 Be prepared to buy the whole company 👀 How can I wear anything else after wearing @wearstand 😭🐐 #pickleball #recovery #recoveryshoes #wearstand #tennis #sports #nfl #nba
 
-### WearStand · video · active · 178 days · pct 0.052364864864864864
+### WearStand · video · active · 182 days · pct 0.046511627906976744
 
 I’m beyond impressed with my STAND+ AntiGrav2 shoes! As a doctor constantly on my feet, I need reliable footwear that can keep up, and these have exceeded my expectations. The ultralight design feels cloudlike, making long shifts so much easier on my feet and back. They provide amazing stability and support, and the oil slip-resistant soles give me total confidence on any surface. I also appreciate the antimicrobial feature—keeping them fresh and hygienic is effortless. Plus, they’re easy to clean and even machine washable, which is a huge bonus. Highly recommend for anyone looking for durable, comfortable, and professional-grade footwear! Scrubs: @fableticsscrubs Shoes: @wearstand #STANDPlusShoes #AntiGrav2 #HealthcareHeroes #OnYourFeet #AllDayComfort #SlipResistant #Antimicrobial #CloudlikeComfort #ProfessionalFootwear #DoctorLife #HealthcareEssentials #WorkShoes #SupportAndStability #MachineWashable #UltralightShoes #comfortandstyle
 
-### WearStand · video · active · 178 days · pct 0.07601351351351351
+### WearStand · video · active · 182 days · pct 0.07441860465116279
 **Headline:** For Those On Their Feet All Day
 
 ⭐⭐⭐⭐⭐ "Finally, shoes that keep up with my day." Introducing our STAND+ AntiGrav1 shoes: 👟 Ultralight design 🔒 Slip-resistant soles 🦠 Antimicrobial ✅HSA/FSA Eligible
 
-### WearStand · video · active · 178 days · pct 0.0945945945945946
+### WearStand · video · active · 182 days · pct 0.08682170542635659
 **Headline:** Energy Dispensive Shoes
 
 🚀 The wait is over! The AntivGrav1s are finally back in stock! Crafted for professionals who spend hours on their feet, these shoes combine ultralight comfort with maximum slip-resistant protection. Experience comfort like never before and get yours before they're gone!
 
-### WearStand · video · active · 178 days · pct 0.09628378378378379
+### WearStand · video · active · 182 days · pct 0.09302325581395349
 
 If you play Pickleball 9 days a week you need these ASAP😮‍💨🙏🏼 #pickleball #pickleballplayers #propickleball #bestpickleballpaddle #pickle #pickleballaddiction #stand #standplus #recoveryshoes #shoes #pickleballislife #tennis #majorleaguepb
 
-### Stryde Recovery · image · active · 176 days · pct 0.004901960784313725
+### Stryde Recovery · image · active · 180 days · pct 0.004901960784313725
 **Headline:** Buy 1 Get 1 FREE
 
 "Eight years of knee pain. By the end, stairs were a nightmare, both hands on the rail. My GP said there wasn't much more they could do. I'd started to accept it, skipping the dog walks, avoiding the stairs, watching my husband carry the shopping on his own. Then in February, my physio mentioned this strap, almost like an afterthought. Fifteen quid. I nearly laughed. First morning on the stairs, the grinding just… wasn't there. I stopped halfway down. I didn't trust it. By week three I was walking two miles along the seafront with my husband. We hadn't done that in years. Eleven months on, it hasn't come back. I'll admit when I'm wrong. This little strap gave me my life back." ⭐⭐⭐⭐⭐ — Margaret K. FREE UK Delivery + 60-Day Guarantee
 
-### Stryde Recovery · image · active · 176 days · pct 0.09313725490196079
+### Stryde Recovery · image · active · 180 days · pct 0.09313725490196079
 **Headline:** Buy 1 Get 1 FREE
 
 What if your knee pain isn't actually about your knee? What if it's about where the force is going? Every step, your quadriceps muscle pulls on the patellar tendon with up to 17x your bodyweight. All of that force funnels through one small attachment point just below your kneecap. Repeat that 8,000 times a day for thirty years and the spot inflames. That's where most knee pain actually starts. Not the joint. Not the cartilage. The tendon. Compression sleeves wrap the joint. Cortisone numbs the inflammation. Rest pauses the cycle. None of them change where the force is going. The Stryde Precision Strap does. Sits 2cm below the kneecap, redirects the force away from the inflamed point. Eight out of ten feel it on the first wear. ⭐⭐⭐⭐⭐ 4.8 on Trustpilot FREE UK delivery + 60-day money-back guarantee 👉 Buy one get one free today
 
-### Stryde Recovery · image · active · 176 days · pct 0.27450980392156865
+### Stryde Recovery · image · active · 180 days · pct 0.21568627450980393
 **Headline:** Buy 1 Get 1 FREE
 
 Knee sleeves vs the Stryde Precision Strap. Knee sleeve: wraps the whole joint. Stryde: targets one point below the kneecap. Knee sleeve: general compression. Stryde: redirects up to 17x bodyweight off the patellar tendon. Knee sleeve: pain returns the moment you take it off. Stryde: changes the mechanics, not just the symptom. Knee sleeve: rolls down by lunchtime. Stryde: non-slip silicone, stays put all day. Knee sleeve: £40-£200. Stryde: £14.95 each (BOGO £29.90). Same job. Different physics. Eight out of ten feel the difference on the first wear. ⭐⭐⭐⭐⭐ 10,000+ UK customers FREE UK delivery + 60-day money-back guarantee 👉 Buy one get one free today
 
-### WearStand · video · active · 163 days · pct 0.006756756756756757
+### WearStand · video · active · 167 days · pct 0.006201550387596899
 
 Best Orthopedic Shoes for barbering! Book your Appointment link n bio #turlockbarber #menshair #longhairstyles #fluffyhair #taperfade #fadehaircut #hairstyleideas #hairstyles less less
 
-### WearStand · video · active · 163 days · pct 0.05405405405405406
+### WearStand · video · active · 167 days · pct 0.04961240310077519
 **Headline:** 5-Star Comfort for All-Day Standing
 
 Long shifts shouldn't wreck your feet. AG1 disperses impact, reduces joint strain, and keeps you fresh cut after cut , so 12 hours on your feet finally feel manageable. ✂️👟
 
-### WearStand · video · active · 163 days · pct 0.1097972972972973
+### WearStand · video · active · 167 days · pct 0.10387596899224806
 
 @wearstand BEST all day standing shoes on the market 💈 CLICK THE SECOND link 🔗 in my bio OR comment 👟💈 and i’ll personally DM you my discount link
 
-### WearStand · video · active · 163 days · pct 0.19763513513513514
+### WearStand · video · active · 167 days · pct 0.19224806201550387
 
 AntiGrav1 de Stand+. @wearstand
 
-### KURU Footwear · video · active · 156 days · pct 0.41875
-**Headline:** Try Super Satisfying Relief
-
-Finally, shoe tech worth staring at! Forget flat support that upsets your feet. KURU’s heel-hugging tech fights pain all day. 📦 Free Shipping 🌟48,000+ 5-Star Reviews 👟91-Day Returns & Exchanges 🦶 Built for Heel Pain Relief
-
-### Stryde UK · video · active · 156 days · pct 0.125
-**Headline:** Buy 1 Get 1 FREE
-
-The Stryde Precision Strap. Sits 2cm below the kneecap, on the patellar tendon. Redirects up to 17x bodyweight away from the inflamed point. 34% reduction in tendon strain (X-ray verified). Same biomechanical principle Cleveland Clinic sports orthopaedists recommend. Designed in the UK. Non-slip silicone. One-size adjustable. Fits under jeans, leggings, work trousers. Stays put through 12-hour shifts and 10k runs. For: patellar tendonitis, runner's knee, jumper's knee, post-operation recovery, general knee instability. £29.90 for two. 10,000+ UK customers. 4.8 on Trustpilot. 60-day money-back guarantee. FREE UK delivery. 👉 Buy one get one free today
-
-### WearStand · video · active · 156 days · pct 0.1554054054054054
-
-Best recovery shoes ever! #pickleball #pickleballaddict #pickleballpaddle #pickleballislife #pickleballtips
-
-### WearStand · video · active · 156 days · pct 0.16891891891891891
-
-Get to that WORK! #showupforyourself
-
-### WearStand · video · active · 156 days · pct 0.1858108108108108
-
-our shooting workout w/ @wearstand 🏀💕 #wearstand #standstrong
-
-### KURU Footwear · image · active · 155 days · pct 0.45
+### KURU Footwear · image · active · 160 days · pct 0.3850574712643678
 **Headline:** Invest in Your Foot Health
 
 Truemed makes it simple for qualified customers to pay with HSA funds and save an average of 30%. Start treating your foot pain today! 🦶Built for Heel Pain Relief 🌟48,000+ 5-Star Reviews 👟91-Day Returns & Exchanges
 
-### WearStand · image · active · 155 days · pct 0.028716216216216218
-**Headline:** high-performance-recovery-shoes
-
-### WearStand · video · active · 155 days · pct 0.05912162162162162
-
-Couldn’t even imagine being a athlete, and not wearing @wearstand 😮‍💨 Don’t waste anymore time and use code : Jessepb at checkout 💪🏼 #pickleball #pickleballplayers #recovery #shoes #pickleballislife
-
-### WearStand · video · active · 155 days · pct 0.07939189189189189
-
-Athletes take note… @wearstand sent me a few pairs of recovery shoes and WOW 🤯 Seriously game changing. I never thought a pair of shoes could help this much with my recovery. 15-seconds with a hair dryer molds them to your foot and the Ortholite insole provides serious relief post run. DM me for the link to buy. #recovery #shoes #freshkicks #runninggear #fitnessgear
-
-### WearStand · video · active · 155 days · pct 0.08108108108108109
-
-The best recovery shoe out there ‼️ @wearstand #wearstand #recovery #explorepage✨ #track #athlete
-
-### WearStand · video · active · 155 days · pct 0.12331081081081081
-
-running w/ @wearstand 🩷 #wearstand #standstrong
-
-### WearStand · video · active · 155 days · pct 0.1570945945945946
-
-Athletes🚨 Check out @wearstand 👟: Antigrav1 ❤️‍🔥 Best recovery shoe in my opinion!!❤️‍🩹🦶🏽 #training #running #marathon #recovery #ironman703training
-
-### WearStand · video · active · 155 days · pct 0.23648648648648649
-
-check out @wearstand🚨For my athletes or anyone who is standing on their feet all day!🚨🏃🏽‍♂️🚴🏽🏊🏽‍♂️💪🏽 different styles Recovery faster❤️‍🩹🦶🏽 Big thanks @wearstand for sending these out!! Will be showing them a lot of love 👟👟 #training #marathon #running #recovery #triathlon
-
-### WearStand · video · active · 154 days · pct 0.03885135135135135
-**Headline:** 🔥 BACK IN STOCK - The Ember Drop
-
-🔥 BACK IN STOCK The first-ever dual-tone AntiGrav1 — handcrafted, heat-finished, and built for recovery. All the shock-absorbing, joint-saving relief you know — now in a bold new look that can't be replicated. ⚠️ Very limited release. Try a step before it's gone.
-
-### OrthoFit Store · image · active · 153 days · pct 0.0028553299492385786
-**Headline:** Say Goodbye to Foot Pain — Comfort Starts Here
-
-Walking shouldn’t hurt. If you suffer from plantar fasciitis, bunions, or heel pain, it's time for a change. Our orthopedic shoes are designed to relieve pain while providing all-day comfort.💥 Enjoy each step without the aches👟 Arch support and wide toe-box for the perfect fit✅ 50% OFF, today only!🔁 Free shipping & returns | 30-Day Money-Back Guarantee
-
-### Orthofeet CA  · image · active · 152 days · pct 0.2857142857142857
+### Orthofeet CA  · image · active · 160 days · pct 0.7142857142857143
 **Headline:** Walk Pain Free or Your Money Back!
 
 Get advanced support for plantar fasciitis, neuropathy, arthritis and more with Orthofeet shoes.
 
-### rickey_ricvrdo with WearStand · video · active · 147 days · pct 0.04054054054054054
+### Stryde UK · video · active · 160 days · pct 0.125
+**Headline:** Buy 1 Get 1 FREE
+
+The Stryde Precision Strap. Sits 2cm below the kneecap, on the patellar tendon. Redirects up to 17x bodyweight away from the inflamed point. 34% reduction in tendon strain (X-ray verified). Same biomechanical principle Cleveland Clinic sports orthopaedists recommend. Designed in the UK. Non-slip silicone. One-size adjustable. Fits under jeans, leggings, work trousers. Stays put through 12-hour shifts and 10k runs. For: patellar tendonitis, runner's knee, jumper's knee, post-operation recovery, general knee instability. £29.90 for two. 10,000+ UK customers. 4.8 on Trustpilot. 60-day money-back guarantee. FREE UK delivery. 👉 Buy one get one free today
+
+### WearStand · image · active · 160 days · pct 0.03565891472868217
+**Headline:** high-performance-recovery-shoes
+
+### WearStand · video · active · 160 days · pct 0.05581395348837209
+
+Couldn’t even imagine being a athlete, and not wearing @wearstand 😮‍💨 Don’t waste anymore time and use code : Jessepb at checkout 💪🏼 #pickleball #pickleballplayers #recovery #shoes #pickleballislife
+
+### WearStand · video · active · 160 days · pct 0.07596899224806201
+
+The best recovery shoe out there ‼️ @wearstand #wearstand #recovery #explorepage✨ #track #athlete
+
+### WearStand · video · active · 160 days · pct 0.07751937984496124
+
+Athletes take note… @wearstand sent me a few pairs of recovery shoes and WOW 🤯 Seriously game changing. I never thought a pair of shoes could help this much with my recovery. 15-seconds with a hair dryer molds them to your foot and the Ortholite insole provides serious relief post run. DM me for the link to buy. #recovery #shoes #freshkicks #runninggear #fitnessgear
+
+### WearStand · video · active · 160 days · pct 0.12558139534883722
+
+running w/ @wearstand 🩷 #wearstand #standstrong
+
+### WearStand · video · active · 160 days · pct 0.15193798449612403
+
+Best recovery shoes ever! #pickleball #pickleballaddict #pickleballpaddle #pickleballislife #pickleballtips
+
+### WearStand · video · active · 160 days · pct 0.15348837209302327
+
+Athletes🚨 Check out @wearstand 👟: Antigrav1 ❤️‍🔥 Best recovery shoe in my opinion!!❤️‍🩹🦶🏽 #training #running #marathon #recovery #ironman703training
+
+### WearStand · video · active · 160 days · pct 0.16434108527131783
+
+Get to that WORK! #showupforyourself
+
+### WearStand · video · active · 160 days · pct 0.17984496124031008
+
+our shooting workout w/ @wearstand 🏀💕 #wearstand #standstrong
+
+### WearStand · video · active · 154 days · pct 0.034108527131782945
+**Headline:** 🔥 BACK IN STOCK - The Ember Drop
+
+🔥 BACK IN STOCK The first-ever dual-tone AntiGrav1 — handcrafted, heat-finished, and built for recovery. All the shock-absorbing, joint-saving relief you know — now in a bold new look that can't be replicated. ⚠️ Very limited release. Try a step before it's gone.
+
+### rickey_ricvrdo with WearStand · video · active · 151 days · pct 0.037209302325581395
 
 Long days behind the chair mean I’m on my feet nonstop—and that’s exactly why I’m rocking my STAND+ shoes. 🔥💈 Comfort. Support. Style. All shift long. If you’re standing, moving, and grinding every day like me, these are a game changer. Grab your pair through the link in my bio and use the CARDO Discount to save! 👟⚡ #STANDPlus #BarberLife #StayComfortable #WorkHardStayFresh
 
-### Konjoun Barefoot · video · active · 142 days
+### Konjoun Barefoot · video · active · 147 days · pct 0.016830294530154277
 **Headline:** The Shoe Damage Doctors Never Explain...
 
 158,395+ people found out their running shoes were causing the pain — not fixing it. They were told it was aging. Worn joints. Just how it goes after 40. It wasn't. It was the shoe. Every step in a cushioned sole blocks the sensory signals your feet need to stay strong — and shuts down the muscles holding your entire body up. That's why they switched to SuperSocks Wood Carved Edition. 🔬 3-Zone Pressure-Mapped Sole — carved from biomechanics research to restore the forefoot → midfoot → heel sequence modern shoes destroy ⚡ Sensory Reactivation — each contour delivers the ground feedback cushioned soles have been blocking 🦶 Worn by 158,395+ people who gave up on orthotics 🔬 Pressure-mapped from biomechanics research ⚡ Foot muscles start reactivating within the first week Click below to try SuperSocks risk-free 👇 🛡️ 30-Day Money-Back Guarantee 🌿 Built from biomechanics research, not marketing 🔬 The only sock engineered with pressure-mapped anatomical zones ⭐ Trusted by 158,395+ customers worldwide
 
-### Tingly Media with WearStand · video · active · 136 days · pct 0.21452702702702703
-
-Loved working on this concept for @wearstand Clean design, thoughtful engineering, and comfort built into every step. Excited to finally share it. 👟🔥
-
-### OrthoFit Store · image · active · 135 days · pct 0.004441624365482234
-**Headline:** Say Goodbye to Foot Pain — Comfort Starts Here
-
-Walking shouldn’t hurt. If you suffer from plantar fasciitis, bunions, or heel pain, it's time for a change. Our orthopedic shoes are designed to relieve pain while providing all-day comfort. 💥 Enjoy each step without the aches 👟 Arch support and wide toe-box for the perfect fit ✅ 50% OFF, today only! 🔁 Free shipping & returns | 30-Day Money-Back Guarantee
-
-### Jessepb with WearStand · video · active · 135 days · pct 0.005067567567567568
+### Jessepb with WearStand · video · active · 139 days · pct 0.004651162790697674
 
 Doctors… or not why aren’t you wearing SHOES that are designed for STANDING 👀 • The 1st and only HSA/FSA eligible recovery shoe built to dissipate impact and keep knees, back, and joints comfortable through the longest days. #shoes #doctor #workshoes #wearstands #stand #pickleball #pickleballplayers #pickle #tennis #recovery #recoveryshoes
 
-### Dr. Christina Mishreki with WearStand · video · active · 135 days · pct 0.03547297297297297
+### Dr. Christina Mishreki with WearStand · video · active · 139 days · pct 0.031007751937984496
 
 Stepping into Recovery Mode thanks to @wearstand 👟✨ Thanks for our new team kicks 💙 #longbeach #backcrack #longbeachchiropractor #chiropractic #chiropractor
 
-### rickey_ricvrdo with WearStand · video · active · 133 days · pct 0.08614864864864864
+### rickey_ricvrdo with WearStand · video · active · 138 days · pct 0.08062015503875969
 
 I’ve been rocking my STAND+ Recovery Shoes, and they’ve been a game-changer for keeping me comfortable from the first cut to the last. 🙌 Ready to give your feet the recovery they deserve? 👟 Hit the link in my bio and your discount is already waiting for you—no code needed! Let’s get you standing stronger. 💪 #STANDPlus #RecoveryShoes #BarberLife #StayComfortable #OnYourFeet ShopNow RickeyRicardo
 
-### Mask-Up Chicago with WearStand · video · active · 131 days · pct 0.11317567567567567
+### KURU Footwear · video · active · 136 days · pct 0.21264367816091953
+**Headline:** Try Super Satisfying Relief
+
+Finally, shoe tech worth staring at! Forget flat support that upsets your feet. KURU’s heel-hugging tech fights pain all day. 📦 Free Shipping 🌟48,000+ 5-Star Reviews 👟91-Day Returns & Exchanges 🦶 Built for Heel Pain Relief
+
+### Mask-Up Chicago with WearStand · video · active · 136 days · pct 0.10852713178294573
 
 Do your feet hurt after hooping? #wearstand #explore #basketballrecovery #ballislife
 
-### KURU Footwear · video · active · 130 days · pct 0.01875
+### KURU Footwear · video · active · 134 days · pct 0.011494252873563218
 **Headline:** Foot Pain Won’t Survive
 
 Try the heel-hugging shoes everyone is raving about! Apocalypse not required (but apparently they help there too). 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
 
-### WearStand · video · active · 126 days · pct 0.02533783783783784
+### WearStand · video · active · 134 days · pct 0.020155038759689922
 **Headline:** The Recovery Shoe Athletes Swear By
 
 Legs wrecked after training? Knees sore post-lift? Here’s the recovery solution athletes are switching to. STAND+ AntiGrav1 is the go-to shoe for post-workout relief — built for those who train hard, walk far, and stay on their feet long after the workout ends 👟 ✅ Ultimate cushioning that reduces pressure on joints ✅ 94% of users reported pain relief after one wear ✅ Recovery-grade comfort that lasts all day Podiatrist-approved. HSA/FSA eligible. Try a step. Recovery starts now.
 
-### aj_scott_8 with WearStand · video · active · 126 days · pct 0.06925675675675676
+### aj_scott_8 with WearStand · video · active · 131 days · pct 0.07131782945736434
 
 Recovery is just as important as the work you put in. The better I recover, the more consistent I can be. Recovery has been a big part of my success. @wearstand, I’m grateful to have a recovery partner that’s helping me stay ready to put in the work every day. The journey continues. 🙏🏾 Use discount code AJSCOTT #comfort #Recovery #Basketball #WearStand #EightWay
 
-### Mask-Up Chicago with WearStand · video · active · 126 days · pct 0.17567567567567569
+### Mask-Up Chicago with WearStand · video · active · 131 days · pct 0.16744186046511628
 
 One try. That’s all I needed. 🏀 @wearstand slides have been my go-to after workouts. #ballislife #wearstand #basketball #explorepage #basketballneverstop
 
-### WearStand · video · active · 126 days · pct 0.19425675675675674
-
-First we Move, then we STAND ➕@wearstand #movemore #midnightmoves #alternativenightlife #standstrong
-
-### KURU Footwear · video · active · 124 days · pct 0.125
+### KURU Footwear · video · active · 129 days · pct 0.10919540229885058
 **Headline:** Foot Pain Got Left for Dead
 
 You saw the apocalypse. The zombies were scary. Now meet the shoes that make foot pain the real casualty. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
 
-### Foamr · video · active · 120 days · pct 0.11188811188811189
+### Viasox · image · active · 126 days · pct 0.003652300949598247
+**Headline:** Get rid of Foot Swelling Today! 👉
+
+Viasox help reduce swelling in the feet and improve circulation, keeping your feet feeling fresh and pain-free. Shop now to experience the comfort of Viasox! 🧦✨
+
+### Viasox · image · active · 126 days · pct 0.005113221329437546
+**Headline:** Get rid of Foot Swelling Today! 👉
+
+Viasox Ankle Compression Socks are now BACK IN STOCK! These socks help reduce swelling in the feet and improve circulation, keeping your feet feeling fresh and pain-free. Shop now to experience the comfort of Viasox! 🧦✨
+
+### Viasox · video · active · 126 days · pct 0.0014609203798392988
+**Headline:** Foot & Ankle Swelling? Start Here
+
+For years, I thought tighter compression was the answer. So I tried everything people recommended. Knee-high compression socks, expensive insoles, creams, wraps, foot massagers, even elevating my feet every night hoping something would finally help. But no matter what I tried, my feet still felt swollen, tired, and uncomfortable by the end of the day. And honestly, the compression socks made things worse. They were tight, hot, difficult to put on, and uncomfortable after a few hours. I hated wearing them, especially during warmer weather or when I was traveling. Then one night while scrolling online, I came across people talking about ankle compression socks. At first, I didn’t understand how something smaller and lighter could actually help, but person after person kept saying the same thing. They didn’t need heavy knee-high compression to feel relief. The gentle support around the feet and ankles was enough. That’s how I found Viasox Ankle Compression Socks. The first thing I noticed was how comfortable they felt. No squeezing around my calves. No struggling to pull them on. Just light, supportive compression exactly where my feet needed it most. I started wearing them while traveling, during long days on my feet, and even around the house. After a couple of weeks, my feet felt lighter, less swollen, and much less fatigued at the end of the day. Even the burning and tingling I used to notice constantly felt less distracting. What surprised me most was how much easier ankle 
+
+### Foamr · video · active · 125 days · pct 0.1724137931034483
 **Headline:** Die Einlegesohle, die wirklich wirkt.
 
 Den ganzen Tag auf den Beinen? Foamr® Massage-Einlegesohlen geben dir Komfort von morgens bis abends. Die smarte Foam-Schicht massiert deinen Fuß bei jedem Schritt und entlastet müde, schwere Füße. ✅ Sofortiger Komfort bei jedem Schritt ✅ Massierende Foam-Schicht für müde Füße ✅ Ideal bei stehender Arbeit, Sport & aktivem Alltag ✅ Passt in jeden Schuh ⚡ Bis zu 70 % RABATT ✨ 30 Tage risikofrei testen 👉 Jetzt bestellen: https://foamr.de/products/foamr-massage-einlegesohlen 👉 Jetzt bestellen: https://foamr.de/products/foamr-massage-einlegesohlen
 
-### WearStand · image · active · 119 days · pct 0.02195945945945946
+### WearStand · image · active · 119 days · pct 0.021705426356589147
 **Headline:** Engineered for life on your feet
 
 💈 Eight hours behind the chair shouldn't punish your feet, knees, and lower back. The STAND+ AntiGrav1 uses Energy-Recovery Technology™ — engineered so the impact of standing all day goes out, not up into your joints. ✅ Podiatrist approved ✅ 7mm arch support that holds all day ✅ HSA/FSA eligible via Truemed Your hands keep you sharp. Your feet keep you standing.
 
-### WearStand · video · active · 119 days · pct 0.05574324324324324
+### WearStand · video · active · 119 days · pct 0.05426356589147287
 **Headline:** The Recovery Shoe Athletes Swear By
 
 STAND+ is more than comfort — it’s recovery, engineered. Whether you're lifting, walking, or on your feet all day, AntiGrav1 is built to absorb impact and reduce strain where it hits hardest. ✅ Reduces joint fatigue and post-activity soreness ✅ Supports heels, arches, knees, and lower back ✅ Trusted by pros, backed by science, worn for real life Podiatrist-approved. HSA/FSA eligible. 30-day risk-free trial. Try a step. Your recovery starts here.
 
-### Orthofeet · image · active · 118 days · pct 0.6122448979591837
-**Headline:** Orthofeet
-
-#1 Orthotic walking shoes for pain free days. 👉 Recommended Shoes by Podiatrists 👉 FREE Shipping & Returns 👉 Thousands of 5-star reviews ⭐⭐⭐⭐⭐ 👉 Wide Toe-Box + Extended widths 👉 60-DAY Wear Test
-
-### Clove · video · active · 113 days · pct 0.0076045627376425855
+### Clove · video · active · 118 days · pct 0.003676470588235294
 **Headline:** Take Care of Your Feet
 
 My GO TO shoes! PLUS they come with pens and badge reels!🖤🩺
 
-### Attention to Detail with WearStand · video · active · 107 days · pct 0.07263513513513513
+### Orthofeet · image · active · 118 days · pct 0.6908212560386473
+**Headline:** Orthofeet
 
-💈🚨 Barbers & hairstylists… stop scrolling. If you’re standing all day, your shoes matter more than you think. ✔️ Lightweight ✔️ Breathable ✔️ Built for long days behind the chair ✔️ Clean enough to wear with any fit Click the second link in my bio to automatically use my discount or Use code JAY15 to save at checkout. Comment 👟💈 and I’ll help you decide if they’re the right pair for you.
+#1 Orthotic walking shoes for pain free days. 👉 Recommended Shoes by Podiatrists 👉 FREE Shipping & Returns 👉 Thousands of 5-star reviews ⭐⭐⭐⭐⭐ 👉 Wide Toe-Box + Extended widths 👉 60-DAY Wear Test
 
-### KURU Footwear · image · active · 106 days · pct 0.6875
-**Headline:** Invest in Your Foot Health
-
-Truemed makes it simple for qualified customers to pay with HSA/FSA funds and save an average of 30%. Start treating your foot pain today! 🦶Built for Heel Pain Relief 🌟47,000+ 5-Star Reviews 👟Easy Returns & Exchanges
-
-### OrthoFit Store · video · active · 106 days · pct 0.0015202702702702704
-**Headline:** We Made Too Many — Now They're 50% Off
-
-I'm going to be completely honest with you. ⠀ We made a much bigger batch of our Wide Toe Box Comfort Sneakers than we planned for. ⠀ And instead of letting them sit in a warehouse, I'd rather get them on your feet — where they belong. ⠀ Because this isn't a trendy shoe chasing a fashion trend. It was made for the very real problems your feet face every single day: ⠀ ✔ An extra-wide toe box, so your toes can finally spread out instead of being crushed ✔ A soft, flexible sole that moves the way your feet are meant to ✔ Cushioned support that helps ease that deep, all-day soreness ✔ Comfort that doesn't look like a hospital shoe ⠀ Since we started OrthoFit, over 1,200,000 women have slipped into a pair and finally given their feet the room they'd been begging for. ⠀ Most "comfort" shoes cost a small fortune. Ours don't — same comfort, without the markup, and without the look. ⠀ And because we simply made too many this season, you're getting the exact same sneaker at our best price yet: 50% OFF today. ⠀ Once this batch is gone, we can't promise this price again. ⠀ So if your feet have been asking for relief, tap below and check if your size is still in stock — and thank you for trusting us with every step.
-
-### WearStand · video · active · 106 days · pct 0.11655405405405406
-**Headline:** Podiatrist-approved. HSA/FSA eligible.
-
-Most cushioned shoes bounce impact straight back into your knees and back. AntiGrav2 was engineered to do the opposite: ✅ Energy-Recovery Technology™ — less strain on knees, back, joints ✅ ASTM F2913-certified grip, dry to oily ✅ Fluid-resistant, antimicrobial, wipes clean ✅ Laceless slip-on
-
-### KURU Footwear · video · active · 105 days · pct 0.34375
-**Headline:** Save Your Feet, Try KURU
-
-Maybe zombies are fake, but your feet know foot pain is real, and KURU helps fight it where it starts! 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
-
-### KURU Footwear · video · active · 101 days · pct 0.40625
-**Headline:** Save Your Feet
-
-Maybe zombies are fake, but your feet know foot pain is real, and KURU helps fight it where it starts! 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
-
-### OrthoFit Store · image · active · 101 days · pct 0.0013513513513513514
-**Headline:** Not a New Size. A New Shape
-
-You don't need a new size. You need a new shape 🛑 Going up a size gives you more room overall — and the exact same squeeze up front, because the toe box shape didn't change. A wide toe box gives natural toe spread where it actually matters. ⭐ 1.2M+ women switched 🔥 Half off + free shipping 🛡️ 30-day money back Check your size 👇
-
-### Clove · image · active · 100 days · pct 0.10646387832699619
-**Headline:** Choose Better Support
-
-Over 50% of healthcare workers experience chronic foot pain. Start nursing school in support made for long shifts.
-
-### OrthoFit Store · image · active · 100 days · pct 0.0008445945945945946
-**Headline:** Half Off. Free Shipping. Real Toe Room
-
-Half off. Free shipping. Real toe room 🔥 Extra-wide toe box so your toes sit flat instead of stacked. Soft stretch knit that moves with your foot. Cushioned sole for the miles you actually walk. Backed by a 30-day comfort guarantee and 1.2M+ women who've already switched. 🛡️ Toes not happier in 30 days? Every penny back Check your size 👇
-
-### OrthoFit Store · image · active · 100 days · pct 0.0016891891891891893
-**Headline:** My Podiatrist Said It's Not My Knees. It's My Shoes.
-
-62 years old. Retired. Knee pain for three years.⠀ ⠀ My podiatrist told me flat shoes were destroying my joints. I didn't believe her.⠀ ⠀ My wife ordered these behind my back.⠀ ⠀ First week: knees felt different. Less stiff in the morning. Less sore after walks.⠀ ⠀ Second week: walked 2 miles for the first time in over a year.⠀ ⠀ It's been 4 months. I wear them every day. Golf. Errands. Dinner with my wife. They look like a regular shoe — nobody knows they're orthopedic.⠀ ⠀ I don't write reviews. But I'm writing this one.⠀ ⠀ ➡️ OrthoFit Walking Sneakers. 30-day trial. Pain-free or full refund.
-
-### OrthoFit Store · image · active · 100 days · pct 0.004222972972972973
-**Headline:** Toe-Spreader Energy, All Day
-
-Toe-spreader energy. All-day sneaker 🦶 If you've used toe separators at home, you already know the feeling — that release when your toes stop being pressed together. This is that, except you can walk out the door in it. The toe box is wide enough to do the same job, all day, in a shoe that looks completely normal. ⭐ 1.2M+ women made the switch 🔥 Half off + free shipping 🛡️ 30-day money back Check your size 👇
-
-### Orthofeet · image · active · 98 days · pct 0.4489795918367347
-**Headline:** Walk Pain-Free or Money Back
-
-#1 Orthotic walking shoes for pain free days. "Where have these been all my life? Total comfort straight from the box! So thankful to find these to wear for work - on my feet all day.” -Julene Baars 👉 Recommended Shoes by Podiatrists 👉 FREE Shipping & Returns 👉 Thousands of 5-star reviews ⭐⭐⭐⭐⭐ 👉 Wide Toe-Box + Extended widths 👉 60-DAY Wear Test
-
-### KURU Footwear · video · active · 97 days · pct 0.35625
-**Headline:** Relief That’s Truly Different
-
-Suffering from plantar fasciitis or foot pain due to unsupportive shoes? KURU's patented technology offers comfort and support for all types of foot pain! #ad
-
-### WearStand · image · active · 96 days · pct 0.11993243243243243
+### WearStand · image · active · 118 days · pct 0.12093023255813953
 **Headline:** The game changing sneaker, reborned in red
 
 🔥 Hot color. Built to outlast 12-hour days and nights. The AntiGrav1 you trust — now in a handcrafted, limited-edition finish. Relief never looked this bold.
 
-### Opulent Cutz with WearStand · video · active · 92 days · pct 0.07094594594594594
+### Clove · image · active · 114 days · pct 0.09926470588235294
+**Headline:** Choose Better Support
 
-I said I was gonna put these joints to the test before I gave my final take and I definitely did 😂👟 @wearstand Yeah, they’re LEGIT. 💯 Shop STAND+ and use code OPULENT10 at checkout for 10% off. #opulentcutz #shoes #wearstand
+Over 50% of healthcare workers experience chronic foot pain. Start nursing school in support made for long shifts.
 
-### OrthoFit Store · image · active · 91 days · pct 0.0005067567567567568
+### KURU Footwear · video · active · 111 days · pct 0.3160919540229885
+**Headline:** Save Your Feet, Try KURU
+
+Maybe zombies are fake, but your feet know foot pain is real, and KURU helps fight it where it starts! 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
+
+### OrthoFit Store · video · active · 111 days · pct 0.001233721727210418
+**Headline:** We Made Too Many — Now They're 50% Off
+
+I'm going to be completely honest with you. ⠀ We made a much bigger batch of our Wide Toe Box Comfort Sneakers than we planned for. ⠀ And instead of letting them sit in a warehouse, I'd rather get them on your feet — where they belong. ⠀ Because this isn't a trendy shoe chasing a fashion trend. It was made for the very real problems your feet face every single day: ⠀ ✔ An extra-wide toe box, so your toes can finally spread out instead of being crushed ✔ A soft, flexible sole that moves the way your feet are meant to ✔ Cushioned support that helps ease that deep, all-day soreness ✔ Comfort that doesn't look like a hospital shoe ⠀ Since we started OrthoFit, over 1,200,000 women have slipped into a pair and finally given their feet the room they'd been begging for. ⠀ Most "comfort" shoes cost a small fortune. Ours don't — same comfort, without the markup, and without the look. ⠀ And because we simply made too many this season, you're getting the exact same sneaker at our best price yet: 50% OFF today. ⠀ Once this batch is gone, we can't promise this price again. ⠀ So if your feet have been asking for relief, tap below and check if your size is still in stock — and thank you for trusting us with every step.
+
+### Viasox · video · active · 111 days · pct 0.014609203798392988
+**Headline:** Foot & Ankle Swelling? Start Here
+
+Everything is getting more expensive lately—gas, groceries, bills. But relief for your swollen, aching feet shouldn't cost a fortune. When money gets tight, you cut the extra stuff you don't need—but pain-free legs are the one thing you shouldn't give up. If you’re tired of swollen ankles, heavy legs, and traditional compression socks that choke your calves and leave deep marks, Viasox Ankle Compression Socks are a total game-changer. They deliver gentle, targeted 14 mmHg compression right around your ankle and arch to boost circulation and keep swelling down. But no matter what I tried, my feet still felt swollen, tired, and uncomfortable by the end of the day. And honestly, the compression socks made things worse. They were tight, hot, difficult to put on, and uncomfortable after a few hours. I hated wearing them, especially during warmer weather or when I was traveling. Then one night while scrolling online, I came across people talking about ankle compression socks. At first, I didn’t understand how something smaller and lighter could actually help, but person after person kept saying the same thing. They didn’t need heavy knee-high compression to feel relief. The gentle support around the feet and ankles was enough. That’s how I found Viasox Ankle Compression Socks. The first thing I noticed was how comfortable they felt. No squeezing around my calves. No struggling to pull them on. Just light, supportive compression exactly where my feet needed it most. I started wearin
+
+### Attention to Detail with WearStand · video · active · 111 days · pct 0.06666666666666667
+
+💈🚨 Barbers & hairstylists… stop scrolling. If you’re standing all day, your shoes matter more than you think. ✔️ Lightweight ✔️ Breathable ✔️ Built for long days behind the chair ✔️ Clean enough to wear with any fit Click the second link in my bio to automatically use my discount or Use code JAY15 to save at checkout. Comment 👟💈 and I’ll help you decide if they’re the right pair for you.
+
+### KURU Footwear · image · active · 106 days · pct 0.6206896551724138
+**Headline:** Invest in Your Foot Health
+
+Truemed makes it simple for qualified customers to pay with HSA/FSA funds and save an average of 30%. Start treating your foot pain today! 🦶Built for Heel Pain Relief 🌟47,000+ 5-Star Reviews 👟Easy Returns & Exchanges
+
+### OrthoFit Store · image · active · 106 days · pct 0.0008224811514736121
+**Headline:** Half Off. Free Shipping. Real Toe Room
+
+Half off. Free shipping. Real toe room 🔥 Extra-wide toe box so your toes sit flat instead of stacked. Soft stretch knit that moves with your foot. Cushioned sole for the miles you actually walk. Backed by a 30-day comfort guarantee and 1.2M+ women who've already switched. 🛡️ Toes not happier in 30 days? Every penny back Check your size 👇
+
+### OrthoFit Store · image · active · 106 days · pct 0.0010966415352981493
+**Headline:** Not a New Size. A New Shape
+
+You don't need a new size. You need a new shape 🛑 Going up a size gives you more room overall — and the exact same squeeze up front, because the toe box shape didn't change. A wide toe box gives natural toe spread where it actually matters. ⭐ 1.2M+ women switched 🔥 Half off + free shipping 🛡️ 30-day money back Check your size 👇
+
+### WearStand · video · active · 106 days · pct 0.11472868217054263
+**Headline:** Podiatrist-approved. HSA/FSA eligible.
+
+Most cushioned shoes bounce impact straight back into your knees and back. AntiGrav2 was engineered to do the opposite: ✅ Energy-Recovery Technology™ — less strain on knees, back, joints ✅ ASTM F2913-certified grip, dry to oily ✅ Fluid-resistant, antimicrobial, wipes clean ✅ Laceless slip-on
+
+### OrthoFit Store · image · active · 105 days · pct 0.0013708019191226869
+**Headline:** My Podiatrist Said It's Not My Knees. It's My Shoes.
+
+62 years old. Retired. Knee pain for three years.⠀ ⠀ My podiatrist told me flat shoes were destroying my joints. I didn't believe her.⠀ ⠀ My wife ordered these behind my back.⠀ ⠀ First week: knees felt different. Less stiff in the morning. Less sore after walks.⠀ ⠀ Second week: walked 2 miles for the first time in over a year.⠀ ⠀ It's been 4 months. I wear them every day. Golf. Errands. Dinner with my wife. They look like a regular shoe — nobody knows they're orthopedic.⠀ ⠀ I don't write reviews. But I'm writing this one.⠀ ⠀ ➡️ OrthoFit Walking Sneakers. 30-day trial. Pain-free or full refund.
+
+### OrthoFit Store · image · active · 105 days · pct 0.0037011651816312545
+**Headline:** Toe-Spreader Energy, All Day
+
+Toe-spreader energy. All-day sneaker 🦶 If you've used toe separators at home, you already know the feeling — that release when your toes stop being pressed together. This is that, except you can walk out the door in it. The toe box is wide enough to do the same job, all day, in a shoe that looks completely normal. ⭐ 1.2M+ women made the switch 🔥 Half off + free shipping 🛡️ 30-day money back Check your size 👇
+
+### KURU Footwear · video · active · 101 days · pct 0.3218390804597701
+**Headline:** Relief That’s Truly Different
+
+Suffering from plantar fasciitis or foot pain due to unsupportive shoes? KURU's patented technology offers comfort and support for all types of foot pain! #ad
+
+### Orthofeet · image · active · 98 days · pct 0.5603864734299517
+**Headline:** Walk Pain-Free or Money Back
+
+#1 Orthotic walking shoes for pain free days. "Where have these been all my life? Total comfort straight from the box! So thankful to find these to wear for work - on my feet all day.” -Julene Baars 👉 Recommended Shoes by Podiatrists 👉 FREE Shipping & Returns 👉 Thousands of 5-star reviews ⭐⭐⭐⭐⭐ 👉 Wide Toe-Box + Extended widths 👉 60-DAY Wear Test
+
+### OrthoFit Store · image · active · 96 days · pct 0.00041124057573680605
 **Headline:** Just Dropped — Last Chance
 
 Just dropped, and it’s the last chance at this price 🔥 Navy, grey and black — the three that go with everything you already own. Extra-wide toe box. Arch support. Shock-absorbing sole. Looks like a regular sneaker. 🔥 50% off 🛡️ 30-day risk-free trial Check your size 👇
 
-### OrthoFit Store · image · active · 91 days · pct 0.0018581081081081082
+### Opulent Cutz with WearStand · video · active · 96 days · pct 0.06976744186046512
+
+I said I was gonna put these joints to the test before I gave my final take and I definitely did 😂👟 @wearstand Yeah, they’re LEGIT. 💯 Shop STAND+ and use code OPULENT10 at checkout for 10% off. #opulentcutz #shoes #wearstand
+
+### OrthoFit Store · image · active · 95 days · pct 0.0016449623029472242
 **Headline:** The Anti-Grandpa Walking Shoe
 
 Three bad options, and most men pick one 🚫 Tight sneakers. “Wide” shoes that aren’t. Or the medical-looking pair you swore you’d never own. This is the fourth option — extra-wide toe box, real arch support, shock-absorbing insoles, slip-on so there’s no bending and fumbling. Sharp enough for dinner. Tough enough for 20,000 steps. ⭐ 700,000+ men switched 🔥 50% off today 🛡️ 30 days — wear them, then decide Check your size 👇
 
-### OrthoFit Store · image · active · 88 days · pct 0.002195945945945946
+### Konjoun Barefoot · video · active · 94 days · pct 0.09396914446002805
+**Headline:** 🦶Barefoot Shoes. Orthotics. PT. All Artificial Support. None Fix the Root.
+
+158,395+ people found out barefoot shoes, orthotics, and PT all had the same problem. They worked. While they were using them. Barefoot shoes got them closer — but there was still a sole between their foot and the ground. Orthotics held the arch where it should be — but the moment they came off, the arch forgot. PT built strength around the weakness — but never restored the signal that caused it. All of it artificial support. None of it fixing the root. That's why they switched to SuperSocks Wood Carved Edition. 🔬 3-Zone Pressure-Mapped Sole — carved from human foot anatomy to restore muscle activation from the ground up ⚡ No props, no devices, no dependency — your foot muscles do the work themselves 📐 True Ground Contact — 3mm Dyneema®, thin enough that the feedback loop fully closes 🦶 Most people feel the difference on the first walk Click below to try SuperSocks risk-free 👇 🛡️ 30-Day Money-Back Guarantee 🔬 Built from biomechanics research, not marketing ⭐ Trusted by 158,395+ customers worldwide ✅ Not another prop. The last thing you'll need.
+
+### OrthoFit Store · image · active · 93 days · pct 0.0017820424948594928
 **Headline:** Shaped Like a Foot. Finally
 
 Shaped like a foot. Finally 🔬 Natural space begins with a natural shape. You can add cushioning, add stretch, go up a size — none of it changes the outline of the front of the shoe. That outline is the thing. Get it right and the rest of the shoe finally has something to work with. ⭐ 1.2M+ women switched 🔥 Half off + free shipping 🛡️ 30-day money back Check your size 👇
 
-### antonio21munoz with WearStand · video · active · 87 days · pct 0.3783783783783784
-
-The work doesn’t stop when practice ends. Recovery matters. That’s why I’ve been rocking with @wearstand #Stand #wearstand #USD #ToreroBasketball #ncaabasketball
-
-### KURU Footwear · image · active · 85 days · pct 0.4625
-**Headline:** Almost Gone!
-
-These colorful kicks bring patented foot pain relief, but this limited-edition collection is vanishing while you read this! 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
-
-### Euclove Clean · video · active · 79 days · pct 0.020833333333333332
-**Headline:** Euclove: 100% Natural Bathroom Cleaner
-
-Did you know mould cause allergies and other health issues? 👇 Euclove’s 100% natural 🌱 Bathroom Cleaner fights mould thanks to the power of Clove oil. Clove oil kills the spores, rather than just bleaching and hiding them like other bathroom cleaners out there. With Euclove, your bathroom will be easier to clean, smell amazing and be mould-free naturally: 🛁 Effortlessly tackles grime and dirt 🌷 Leaves a refreshing scent ✨ Restores shine and brilliance to your bathroom 👶 Safe for kids and pets 🌱 Harnesses the power of 100% natural ingredients Try it with our risk-free 101-day happiness guarantee and fast shipping in Australia.
-
-### Clove · video · active · 79 days · pct 0.30038022813688214
-**Headline:** Healthcare’s best kept secret
-
-You know about Clove shoes. But do you know about our socks? Consider this your introduction to healthcare’s best kept secret.
-
-### Foamr · video · active · 79 days · pct 0.04895104895104895
-**Headline:** Die Einlegesohle, die wirklich wirkt.
-
-Wusstest du, dass die Sohle in deinem Schuh von der Fabrik ausgewählt wurde, nicht von dir? Jeder Schuh wird mit einer Standard-Fabriksohle geliefert, hergestellt, um so günstig wie möglich zu produzieren. Nicht, um deinen Fuß zu unterstützen. Foamr® Massage-Einlegesohlen ersetzen diese Fabriksohle durch Memory Foam, der sich an deinen Fuß anpasst. Ersetze die Sohle, die du nie ausgewählt hast Memory Foam passt sich deinem Fuß an Passt in jeden Schuh ⚡ Bis zu 70% Rabatt 👉 https://foamr.de/products/foamr-massage-einlegesohl
-
-### Stryde · image · active · 75 days · pct 0.011764705882352941
-**Headline:** Buy 1 Get 1 FREE
-
-If you grip the railing going down the stairs, this is for you. Knee sleeves wrap everything and target nothing. That's why the pain comes back the second you take them off. The Stryde Precision Strap sits 1 inch below the kneecap. It redirects the force instead of compressing the joint, the same principle Cleveland Clinic sports orthopedists recommend. 8 out of 10 feel it on the first wear. Buy one get one free today. 👇 Tap Shop Now
-
-### Stryde · image · active · 75 days · pct 0.0018231540565177757
-**Headline:** Buy 1 Get 1 FREE
-
-The Stryde Precision Strap. Sits 2cm below the kneecap, on the patellar tendon. Redirects up to 17x bodyweight away from the inflamed point. 34% reduction in tendon strain (X-ray verified). Same biomechanical principle Cleveland Clinic sports orthopaedists recommend. Non-slip silicone. One-size adjustable. Fits under jeans, leggings, work trousers. Stays put through 12-hour shifts and 10k runs. For: patellar tendonitis, runner's knee, jumper's knee, post-operation recovery, general knee instability. £29.90 for two. 60-day money-back guarantee. 👉 Buy one get one free today
-
-### Stryde · image · active · 75 days · pct 0.07058823529411765
-**Headline:** Sold by us. Not by them.
-
-The Stryde Precision Strap is only sold at getstryde.co. Counterfeits are circulating on third-party marketplaces. They use stretchy fabric, no internal shell, no steel-loop adjusters. They look similar. They don't work the same. Buy direct to make sure you're getting the real thing. ✓ Real silicone shell with steel-loop adjusters ✓ 60-day refund (only valid on getstryde.co orders) Buy one get one free today.
-
-### Orthofeet · image · active · 71 days
-**Headline:** Walk Pain Free or Your Money Back!
-
-Doctor recommended shoes with innovative ORTHO-CUSHION™ Pain Relief Technology that benefits 20+ foot conditions. Try them today with free shipping and returns!
-
-### KURU Footwear · image · active · 70 days · pct 0.15625
-**Headline:** Relief Where You Need It
-
-Every design detail supports your feet where they need it most, helping deliver lasting relief from heel to toe. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping
-
-### KURU Footwear · image · active · 70 days · pct 0.36875
-**Headline:** $119 for Serious Pain Relief
-
-Lightweight but never flimsy, DASH Vanta moves easily while layers of support bring the foot pain relief KURU is known for. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
-
-### KURU Footwear · video · active · 70 days · pct 0.48125
-**Headline:** Foot Pain Ruining Everything?
-
-No assembly required. Just add feet! DASH Vanta hugs your heels, relieves stubborn pain, and it's available for just $119. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
-
-### WearStand · image · active · 69 days · pct 0.1891891891891892
-**Headline:** AntiGrav 1 - Liberty
-
-Recovery in Red White & Blue 🇺🇸
-
-### WearStand · image · active · 68 days · pct 0.030405405405405407
-**Headline:** Built for your 12-Hour Shift
-
-12-hour shift. Hard floors. The same shoes that have your feet aching by hour four. AntiGrav1 was built for exactly this. XL Extralight foam and 7mm of arch support absorb the impact of every step, so the floor stops fighting back. Slip them on before rounds, forget they're there until you clock out. Podiatrist-approved. HSA/FSA eligible. Trusted by 100k+ healthcare workers. 👉 Stand all day. Feel it less.
-
-### ERVetNurse with WearStand · video · active · 68 days · pct 0.08277027027027027
-
-Your feet will thank you later 👟 These STAND shoes are made for long days & real comfort. ✨ HSA/FSA eligible ✨ Support + recovery built in Grab yours with a discount ➡️ Link in bio. @wearstand
-
-### WearStand · image · active · 66 days · pct 0.33783783783783783
-**Headline:** The shoes chefs actually swear by 👨‍🍳
-
-Sore feet by hour three. Back pain that bleeds into your day off. A limp that's just "part of being in the industry." None of it is the price of the job - it's the price of bad shoes. The STAND+ AntiGrav2 was engineered for the line: slip-resistant on wet floors, cloudlike cushioning for 12+ hour shifts, breathable so your feet stay cool under fire. Trusted by 100k+ pros. HSA/FSA eligible. 🔥
-
-### WearStand · video · active · 66 days · pct 0.06418918918918919
-**Headline:** Made For Life Behind The Chair
-
-Energy-Recovery Technology™ pulls the strain off your knees, back and joints, so cut number twelve feels like cut number one.
-
-### OrthoFit Store · image · active · 64 days · pct 0.0070163715335783495
-**Headline:** 92% Never Go Back to Regular Sneakers
-
-Podiatrists say the same thing over and over: ⠀ “Your shoes are making it worse.” ⠀ Narrow toe boxes crush bunions. Flat insoles ignore your arch. Stiff soles punish your knees with every step. ⠀ OrthoFit Wide Toe Sneakers fix all three. ⠀ Extra-wide toe box for bunions and hammertoes. Cushioned arch support for plantar fasciitis. Shock-absorbing sole for joint pain. ⠀ And unlike custom orthotics, they’re $59.95 — not $400. ⠀ 30-day comfort guarantee. Free worldwide shipping. ⠀ 👉 Tap “Shop Now” to try them risk-free.
-
-### Billboard Brandon with WearStand · video · active · 64 days · pct 0.06756756756756757
-**Headline:** Lab-Certified Comfort For 12-Hour Days
-
-Two models. One engineering standard. ➕ APMA recognized for promoting foot health ➕ XL Extralight® with OrthoLite® insoles in both ➕ ASTM F2913 certified slip resistance — wet/dry on the AG1, oil-slip on the AG2 ➕ Energy dissipates laterally, not up into knees, back and joints ➕ North American made, machine washable, true to size The AG1 and AG2 are built on the same platform. The only question is what you're standing on.
-
-### OrthoFit Store · image · active · 63 days · pct 0.00033783783783783786
-**Headline:** Keep Doing What You Love
-
-Retired from work. Not from walking 👞 Long shifts, the grandkids, the long way round the block. Your shoes should keep up with all of it. An extra-wide toe box so your toes can spread. Arch support and shock-absorbing insoles under every step. Slip-on, so there is no bending and no fumbling with laces. And it still looks like a regular sneaker, not a medical shoe. ⭐ 700,000+ men switched 🔥 Up to 50% off today 🛡️ 30-day risk-free trial Check your size 👇
-
-### Clove · image · active · 62 days · pct 0.019011406844106463
+### Clove · image · active · 91 days · pct 0.011029411764705883
 **Headline:** Shop Clove on Amazon
 
 Prefer Amazon? You can shop Clove there too. Same healthcare-ready comfort, same cleanable design.
 
-### Orthofeet · image · active · 62 days · pct 0.27040816326530615
+### Konjoun Barefoot · image · active · 91 days · pct 0.004207573632538569
+**Headline:** Your feet have over 100 muscles. Time to let them work.
+
+Your feet were designed to grip roots, read terrain, and stabilize your entire body with every step. For 200,000 years, that's exactly what they did. Then we buried them in foam. SuperSocks Wood Carved Edition brings the forest floor back. A patented wood-grain sole pattern engineered to wake up every muscle modern shoes put to sleep. The world's first 2-in-1 sock-shoe with patented human foot anatomy design: ✔ Patented Wood-Carved Anatomical Sole. Three pressure-mapped zones (forefoot, midfoot, heel) designed to activate all 26 bones with every step ✔ 3,000+ NanoGrip Fusion Points. Superior traction on wet tile, loose rock, and slippery surfaces ✔ 10X More Durable. DecaForce engineering outlasts 10 standard pairs ✔ 5X More Breathable. AirFlow Matrix keeps feet cool, dry, and fresh all day ✔ 15X Stronger Than Steel. Cut and puncture-resistant Dyneema protection over glass, gravel, and rough terrain ✔ Five-Toe Separation. Each toe moves, spreads, and grips independently the way nature intended ✔ Machine Washable. Toss them in after a muddy hike. Try that with $150 barefoot shoes. Your cushioned shoes aren't protecting your feet. They're slowly shutting them down. Flat arches. Weak ankles. Sore knees. Tight hips. A lower back that aches after every walk. It doesn't start with age. It starts with feet that stopped working. The Wood Carved sole doesn't carry your feet. It gives them a reason to come alive again. ⏳ Only 1,000 pairs in this first drop. Once they're gone, restock ta
+
+### Konjoun Barefoot · image · active · 91 days · pct 0.011220196353436185
+**Headline:** The Real Reason Barefoot Shoes Only Got You 70% There
+
+When's the last time your feet actually knew what to do with the ground? Not just felt it. Knew what to do with it. Barefoot shoes got one thing right. They ripped out the cushion. They let your toes spread. They got you closer to the ground than anything you've worn in twenty years. But then they stopped. A flat sole gives you ground feel. That's it. Your foot touches the surface and gets a wall of sensation with no direction. No guidance. No activation pattern. Just raw contact and a foot that's been asleep for a decade trying to figure it out on its own. That's the 70%. The missing 30% is what happens when the sole is carved to match where your foot naturally loads force. Heel strike zone. Midfoot transition. Forefoot push-off. Three zones that healthy feet cycle through with every step. Flat soles can't guide that sequence. They don't even know it exists. SuperSocks Wood Carved Edition picked up where barefoot shoes stopped. The carved sole channels every surface texture into the exact zones where your muscles are waiting to fire. Not random ground feel. Targeted activation. Your balance doesn't just improve. It stops being something you think about. Your feet don't just feel the ground. They read it. Your stride doesn't just get more natural. It gets more confident every week. Same barefoot freedom. Same toe spread. Same ground connection. But now your feet actually know what to do with it. Barefoot shoes opened the door. The carved sole walks through it. Feel the 30% yo
+
+### Konjoun Barefoot · video · active · 91 days · pct 0.12061711079943899
+**Headline:** 🦶 Every step in cushioned shoes makes this worse
+
+158,395+ people stopped treating their knee and back pain — and started fixing what was actually causing it. They found out the pain after 40 isn't just "getting older." It's foot muscles that stopped firing — and your shoes have been silencing them for years. ====== That's why they switched to the Wood Carved Edition. 🦶 Patented 3-Zone Carved Sole — follows your foot's natural loading sequence: forefoot → midfoot → heel ⚡ Sensory Signal Restoration — carved zones send the ground feedback cushioned shoes block, waking dormant muscles back up 🔗 Muscle Reactivation Up The Chain — stronger feet reduce the compensation pattern causing knee, hip and back pain 🛡️ Dyneema® Construction — 15X stronger than steel, cut-resistant, under 2mm thin — full ground contact maintained 💪 No exercises. No routines. Just walking. ====== Click below to try the Wood Carved Edition risk-free 👇 ✅ 30-Day Money-Back Guarantee 🔬 Developed with biomechanics experts 🏭 Patented 3-zone pressure-mapped sole 🦴 The only sock engineered to train your feet with every step ⭐ Trusted by 158,395+ customers worldwide
+
+### antonio21munoz with WearStand · video · active · 91 days · pct 0.3674418604651163
+
+The work doesn’t stop when practice ends. Recovery matters. That’s why I’ve been rocking with @wearstand #Stand #wearstand #USD #ToreroBasketball #ncaabasketball
+
+### KURU Footwear · image · active · 90 days · pct 0.40804597701149425
+**Headline:** Almost Gone!
+
+These colorful kicks bring patented foot pain relief, but this limited-edition collection is vanishing while you read this! 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
+
+### Clove · video · active · 84 days · pct 0.3161764705882353
+**Headline:** Healthcare’s best kept secret
+
+You know about Clove shoes. But do you know about our socks? Consider this your introduction to healthcare’s best kept secret.
+
+### Foamr · video · active · 83 days · pct 0.06206896551724138
+**Headline:** Die Einlegesohle, die wirklich wirkt.
+
+Wusstest du, dass die Sohle in deinem Schuh von der Fabrik ausgewählt wurde, nicht von dir? Jeder Schuh wird mit einer Standard-Fabriksohle geliefert, hergestellt, um so günstig wie möglich zu produzieren. Nicht, um deinen Fuß zu unterstützen. Foamr® Massage-Einlegesohlen ersetzen diese Fabriksohle durch Memory Foam, der sich an deinen Fuß anpasst. Ersetze die Sohle, die du nie ausgewählt hast Memory Foam passt sich deinem Fuß an Passt in jeden Schuh ⚡ Bis zu 70% Rabatt 👉 https://foamr.de/products/foamr-massage-einlegesohl
+
+### Stryde · image · active · 79 days · pct 0.011904761904761904
+**Headline:** Buy 1 Get 1 FREE
+
+If you grip the railing going down the stairs, this is for you. Knee sleeves wrap everything and target nothing. That's why the pain comes back the second you take them off. The Stryde Precision Strap sits 1 inch below the kneecap. It redirects the force instead of compressing the joint, the same principle Cleveland Clinic sports orthopedists recommend. 8 out of 10 feel it on the first wear. Buy one get one free today. 👇 Tap Shop Now
+
+### Stryde · image · active · 79 days · pct 0.0017683465959328027
+**Headline:** Buy 1 Get 1 FREE
+
+The Stryde Precision Strap. Sits 2cm below the kneecap, on the patellar tendon. Redirects up to 17x bodyweight away from the inflamed point. 34% reduction in tendon strain (X-ray verified). Same biomechanical principle Cleveland Clinic sports orthopaedists recommend. Non-slip silicone. One-size adjustable. Fits under jeans, leggings, work trousers. Stays put through 12-hour shifts and 10k runs. For: patellar tendonitis, runner's knee, jumper's knee, post-operation recovery, general knee instability. £29.90 for two. 60-day money-back guarantee. 👉 Buy one get one free today
+
+### Stryde · image · active · 79 days · pct 0.07142857142857142
+**Headline:** Sold by us. Not by them.
+
+The Stryde Precision Strap is only sold at getstryde.co. Counterfeits are circulating on third-party marketplaces. They use stretchy fabric, no internal shell, no steel-loop adjusters. They look similar. They don't work the same. Buy direct to make sure you're getting the real thing. ✓ Real silicone shell with steel-loop adjusters ✓ 60-day refund (only valid on getstryde.co orders) Buy one get one free today.
+
+### Konjoun Barefoot · image · active · 78 days · pct 0.03506311360448808
+**Headline:** The Real Reason Your Feet Hurt Every Morning
+
+Over 158,395 five-star reviews and counting... and right now SuperSocks Wood Carved Edition is available at the lowest price we've offered all year. Up to 70% off. But not for long. ⏳ If you've been waiting for the right time to try the pressure-mapped carved sole thousands of men over 50 are using to rebuild stronger, more active feet... this is it. ✨ Designed To Reactivate Natural Foot Strength With Every Step ✨ Encourages Better Balance, Posture, and Ground Connection ✨ Supports More Confident Movement On Any Surface Engineered With Purpose: ✅ 3-Zone Pressure-Mapped Carved Sole (Forefoot, Midfoot, Heel) ✅ Five Individual Toe Channels For Natural Splay and Grip ✅ Dyneema Fiber Construction — No Bulk, No Rigidity, No Compromise "I've tried everything... cushioned insoles, arch supports, expensive hiking boots, even orthotics. Nothing changed the way my feet actually felt until I put these on. By week three my toes were spreading on their own and I stopped grabbing the railing on stairs. I'm on my third pair and I'm never going back to regular shoes." This Labor Day sale ends soon and we can't guarantee this price will come back. 👇 Try SuperSocks Risk-Free For 30 Days!
+
+### KURU Footwear · image · active · 75 days · pct 0.13218390804597702
+**Headline:** Relief Where You Need It
+
+Every design detail supports your feet where they need it most, helping deliver lasting relief from heel to toe. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping
+
+### KURU Footwear · image · active · 75 days · pct 0.2988505747126437
+**Headline:** $119 for Serious Pain Relief
+
+Lightweight but never flimsy, DASH Vanta moves easily while layers of support bring the foot pain relief KURU is known for. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
+
+### KURU Footwear · video · active · 75 days · pct 0.39080459770114945
+**Headline:** Foot Pain Ruining Everything?
+
+No assembly required. Just add feet! DASH Vanta hugs your heels, relieves stubborn pain, and it's available for just $119. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
+
+### Orthofeet · image · active · 75 days · pct 0.4106280193236715
+**Headline:** Walk Pain Free or Your Money Back!
+
+Doctor recommended shoes with innovative ORTHO-CUSHION™ Pain Relief Technology that benefits 20+ foot conditions. Try them today with free shipping and returns!
+
+### Orthofeet · image · active · 73 days · pct 0.05314009661835749
 **Headline:** Walk With Comfort or Your Money Back!
 
 There was a time when you didn't think twice about your feet. Orthofeet is designed to get you back there.
 
-### Viasox · image · active · 62 days · pct 0.015806111696522657
-**Headline:** Foot & Ankle Swelling? Start Here
+### WearStand · image · active · 72 days · pct 0.02945736434108527
+**Headline:** Built for your 12-Hour Shift
 
-🦊 The Fan Favorites are BACK by overwhelming request! 🐝
+12-hour shift. Hard floors. The same shoes that have your feet aching by hour four. AntiGrav1 was built for exactly this. XL Extralight foam and 7mm of arch support absorb the impact of every step, so the floor stops fighting back. Slip them on before rounds, forget they're there until you clock out. Podiatrist-approved. HSA/FSA eligible. Trusted by 100k+ healthcare workers. 👉 Stand all day. Feel it less.
 
-### Viasox · image · active · 62 days · pct 0.02423603793466807
-**Headline:** Foot & Ankle Swelling? Start Here
+### ERVetNurse with WearStand · video · active · 72 days · pct 0.07906976744186046
 
-🐦 The Backyard Birds Bundle has arrived! 🌿 Inspired by fluttering wings, garden songs, and quiet mornings spent watching nature come alive, our newest collection is made for celebrating the birds in your own backyard. For a limited time, our Buy 2, Get 3 FREE offer lets you get the entire 5-pattern Backyard Birds Bundle for the price of just 2 pairs. 🌳 Cardinals 🐦 Blue Jays 🌸 Humming Along 🎶 Garden Song 🪺 Chickadees These seasonal favorites won't stay in stock forever. Shop now before your favorite pattern is gone.
+Your feet will thank you later 👟 These STAND shoes are made for long days & real comfort. ✨ HSA/FSA eligible ✨ Support + recovery built in Grab yours with a discount ➡️ Link in bio. @wearstand
 
-### 100 year old homestead with OrthoFit Store · video · active · 52 days · pct 0.0033783783783783786
+### WearStand · image · active · 70 days · pct 0.3271317829457364
+**Headline:** The shoes chefs actually swear by 👨‍🍳
+
+Sore feet by hour three. Back pain that bleeds into your day off. A limp that's just "part of being in the industry." None of it is the price of the job - it's the price of bad shoes. The STAND+ AntiGrav2 was engineered for the line: slip-resistant on wet floors, cloudlike cushioning for 12+ hour shifts, breathable so your feet stay cool under fire. Trusted by 100k+ pros. HSA/FSA eligible. 🔥
+
+### WearStand · image · active · 69 days · pct 0.18604651162790697
+**Headline:** AntiGrav 1 - Liberty
+
+Recovery in Red White & Blue 🇺🇸
+
+### OrthoFit Store · image · active · 68 days · pct 0.00027416038382453733
+**Headline:** Keep Doing What You Love
+
+Retired from work. Not from walking 👞 Long shifts, the grandkids, the long way round the block. Your shoes should keep up with all of it. An extra-wide toe box so your toes can spread. Arch support and shock-absorbing insoles under every step. Slip-on, so there is no bending and no fumbling with laces. And it still looks like a regular sneaker, not a medical shoe. ⭐ 700,000+ men switched 🔥 Up to 50% off today 🛡️ 30-day risk-free trial Check your size 👇
+
+### WearStand · video · active · 66 days · pct 0.06201550387596899
+**Headline:** Made For Life Behind The Chair
+
+Energy-Recovery Technology™ pulls the strain off your knees, back and joints, so cut number twelve feels like cut number one.
+
+### Konjoun Barefoot · image · active · 65 days · pct 0.043478260869565216
+**Headline:** Neuropathy did not kill your nerves. It starved them. This sole feeds them again.
+
+Here is something nobody tells you about neuropathy. Your nerves are not all dead. Most of them are still there. Still connected. Still capable of firing. They are starving. A nerve ending that receives no stimulation does not fire. A nerve ending that does not fire begins to go dormant. A nerve ending that stays dormant long enough starts to feel dead even when it is not. Now look at what is under your feet right now. A flat sole. Smooth. Featureless. One uniform surface sending one uniform signal across thousands of nerve endings. The same monotone input from heel to toe. No variation. No texture. No pressure differences. Nothing for any individual nerve to differentiate or respond to. Your nerves are not dying from neuropathy alone. They are dying from neuropathy plus a sole that gives them absolutely nothing to hold on to. One man said he had not felt the floor in years. Not the cold of tile. Not the grain of wood. Not the texture of carpet. Just a vague dull pressure that told him something was down there but not what. He said walking felt like walking on blocks of wood strapped to the ends of his legs. Another said the scariest part was not the numbness. It was the falling. He could not feel the edge of a curb. He could not feel the transition from sidewalk to grass. He could not feel whether his foot was fully on the step or half off it. His eyes did everything. His feet told him nothing. Another said he had started holding furniture when he walked through his own hous
+
+### KURU Footwear · video · active · 64 days · pct 0.3448275862068966
+**Headline:** Save Your Feet
+
+Maybe zombies are fake, but your feet know foot pain is real, and KURU helps fight it where it starts! 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
+
+### OrthoFit Store · video · active · 60 days · pct 0.012474297464016449
+**Headline:** What Older Feet Need
+
+Three things an older foot needs that most shoes don't have 🦶 1. A wide toe box, so toes can spread instead of cramping on the walk home. 2. Real arch support that holds the foot up and keeps each step steady. 3. A shoe you can wear in the house, the garden and on the walk. That's why so many men over 60 are switching to OrthoFit. ⭐ 500,000+ men switched 🔥 50% off right now Check if your size is still in stock 👇
+
+### 100 year old homestead with OrthoFit Store · video · active · 57 days · pct 0.0027416038382453737
 **Headline:** Love the Look. Enjoy the Comfort.
 
 The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
 
-### WearStand · image · active · 52 days · pct 0.5320945945945946
-**Headline:** Everyone Claims It. This One Does It.
+### OrthoFit Store · image · active · 56 days · pct 0.004523646333104867
+**Headline:** Room to Move
 
-Every shoe brand says "like walking on clouds." Almost none of them are, until now. Meet the AntiGrav1: ➕ Insanely squishy underfoot — not marketing-squishy ➕ Light enough that you forget you put them on ➕ Real relief in every single step ➕ Built for people who just finished twelve hours upright ➕ The pair you change into, not out of
+Room to move. Comfort to keep going 🌿 A soft, foot-shaped toe box for the way feet naturally spread — plus a cushioned sole for the hours you're actually on them. No break-in. No stiff orthopaedic weight. Just room where your toes need it and softness underneath. ⭐ 1.2M+ women switched 🔥 Half off + free shipping 🛡️ 30-day money back Check your size 👇
 
-### WearStand · video · active · 52 days · pct 0.16722972972972974
+### AprilRain Shop w Me with OrthoFit Store · video · active · 56 days · pct 0.012885538039753256
+**Headline:** Love the Look. Enjoy the Comfort.
+
+The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
+
+### Viasox · video · active · 56 days · pct 0.008035062089116142
+**Headline:** Foot & Ankle Swelling? Start Here
+
+If you live with the burning, tingling, or “pins and needles” discomfort of neuropathy, the wrong socks can make every step feel worse. Traditional compression socks are often hot, tight, and frustrating to put on — especially in the summer when extra fabric around your legs feels unbearable. That’s why we created Viasox Ankle Compression Socks: lightweight, breathable support designed specifically for sensitive feet. With gentle 14 mmHg compression, they help improve circulation, reduce swelling, and keep your feet feeling lighter and more comfortable throughout the day — without the squeeze and bulk of knee-high compression socks. ✅ Cooler & More Breathable Ankle-length design helps keep feet cooler during warm weather. ✅ Easy to Put On & Take Off No more struggling with tight, exhausting compression socks every morning. ✅ Gentle Compression Support Helps promote healthy blood flow while reducing swelling in the feet and ankles. ✅ Seamless Toe Construction Designed to help minimize rubbing and irritation on sensitive skin. ✅ Triple-Padded Cushioning Extra comfort and protection where neuropathy discomfort hits hardest. Your feet work hard enough already. Give them the lightweight comfort, gentle support, and everyday relief they deserve.
+
+### Andrew Paull  with WearStand · video · active · 56 days · pct 0.13488372093023257
+**Headline:** High Performance Recovery Shoes
+
+Whether you're traveling, working on your feet, or just relaxing at home – AntiGrav shoes from STAND+ are engineered for recovery, built for long days, and trusted by 100k+ pros who move.
+
+### WearStand · video · active · 56 days · pct 0.14728682170542637
 **Headline:** Walk On Clouds. All Day.
 
 Every shoe brand says "like walking on clouds." Almost none of them are, until now. Meet the AntiGrav1: ➕ Insanely squishy underfoot — not marketing-squishy ➕ Light enough that you forget you put them on ➕ Real relief in every single step ➕ Built for people who just finished twelve hours upright ➕ The pair you change into, not out of
 
-### Euclove Clean · video · active · 51 days · pct 0.08333333333333333
-**Headline:** Say goodbye to mould this wet season!
-
-Here’s what to do if mould is taking over your home this wet season 👇 Euclove’s 100% natural 🌱 Bathroom Cleaner fights mould thanks to the power of Clove oil. Clove oil kills the spores, rather than just bleaching and hiding them like other bathroom cleaners out there. With Euclove, your bathroom will be easier to clean, smell amazing and be mould-free naturally: 🛁 Effortlessly tackles grime and dirt 🌷 Leaves a refreshing scent ✨ Restores shine and brilliance to your bathroom 👶 Safe for kids and pets 🌱 Harnesses the power of 100% natural ingredients Try it with our risk-free 101-day happiness guarantee and fast shipping in Australia.
-
-### OrthoFit Store · video · active · 51 days · pct 0.006756756756756757
+### OrthoFit Store · video · active · 55 days · pct 0.005346127484578478
 **Headline:** Made For Women On Their Feet All Day
 
 If you are on your feet all day, you know the feeling. By the time you finally sit down, your feet are throbbing and you cannot wait to get your shoes off. ⠀ Most shoes only make it worse. They are narrow and pointed at the toes, so your feet are crammed in there for hours. ⠀ These are different. The toe box is actually wide and shaped like your foot, so your toes have room to spread out. And the cushioned sole takes the pressure off, hour after hour. ⠀ It is why so many women who are on their feet all day will not go back to anything else. ⠀ Over 1.2 million women are already wearing them. Right now they are half off, with free shipping, and every pair comes with a 30-day guarantee. If they are not the most comfortable shoes you own, send them back for every penny. ⠀ Tap Shop Now and give your feet the room they have been missing.
 
-### Andrew Paull  with WearStand · video · active · 51 days · pct 0.13682432432432431
-**Headline:** High Performance Recovery Shoes
+### OrthoFit Store · video · active · 55 days · pct 0.015078821110349555
+**Headline:** 50% Off While Stock Lasts
 
-Whether you're traveling, working on your feet, or just relaxing at home – AntiGrav shoes from STAND+ are engineered for recovery, built for long days, and trusted by 100k+ pros who move.
+We made way too many. So they're half off until they're gone 🔥 Ordered for a summer run that's already over — and now there's a warehouse full of them. OrthoFit is the wide toe box sneaker built on the shape of a real foot: widest right where your toes are, so they spread the second you put them on. No pinching. No rubbing. No breaking them in. ⭐ 1.2M+ women made the switch 🔥 50% off + free shipping while we clear stock 🛡️ 30 days, every penny back Check your size 👇
 
-### Rebekah Pumphreyy with KURU Footwear · video · active · 50 days · pct 0.3875
+### Rebekah Pumphreyy with KURU Footwear · video · active · 53 days · pct 0.3390804597701149
 **Headline:** $119 for Serious Pain Relief
 
 A little day in my life 👟🤍 Mom life = I’m on my feet ALL day, so comfy shoes are a must. These DASH Vanta shoes have quickly become an everyday favorite — cute, easy to style, and SO comfortable. Comment “SHOES” and I’ll send you the link! 🔗
 
-### Clove · image · active · 49 days · pct 0.19011406844106463
-**Headline:** New Colors Have Entered the Chat 👀
+### WearStand · image · active · 53 days · pct 0.3705426356589147
+**Headline:** Everyone Claims It. This One Does It.
 
-Why are 71% of Clove customers switching from running shoes? They’re choosing a shoe built for the job. Meet the newest Strada + Forte 2 colors.
+Every shoe brand says "like walking on clouds." Almost none of them are, until now. Meet the AntiGrav1: ➕ Insanely squishy underfoot — not marketing-squishy ➕ Light enough that you forget you put them on ➕ Real relief in every single step ➕ Built for people who just finished twelve hours upright ➕ The pair you change into, not out of
 
-### KURU Footwear · image · active · 46 days · pct 0.25
-**Headline:** Run Like You’re Not Done
-
-Our mission? Support that looks nothing like support. Foot pain relief has never felt (or looked) this good. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 👟91-Day Returns & Exchanges
-
-### OrthoFit Store · image · active · 46 days · pct 0.00472972972972973
+### OrthoFit Store · image · active · 51 days · pct 0.003975325565455792
 **Headline:** The Comfort Sneaker For Women 60+
 
 The comfort sneaker for senior women. 👟 Bunions, wide feet, tight shoes, tired heels and aching arches. If any of that sounds like your feet, the shoe is a good place to start. ✅ Wide toe box so your toes can spread ✅ Cushioned sole for hard floors ✅ Soft knit that gives where your foot needs it ⭐ 500,000+ women switched 🛡️ 30 days to try them on your own walks Find your size and width 👇
 
-### Orthofeet · image · active · 46 days · pct 0.21428571428571427
-**Headline:** Walk With Comfort or Your Money Back!
+### KURU Footwear · image · active · 50 days · pct 0.21839080459770116
+**Headline:** Run Like You’re Not Done
 
-See for yourself why over 350,000 people love Orthofeet!
+Our mission? Support that looks nothing like support. Foot pain relief has never felt (or looked) this good. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 👟91-Day Returns & Exchanges
 
-### Billboard Brandon with WearStand · video · active · 44 days · pct 0.10472972972972973
-**Headline:** High Performance Recovery
+### Clove · image · active · 49 days · pct 0.20955882352941177
+**Headline:** New Colors Have Entered the Chat 👀
 
-Whether you're traveling, working on your feet, or just relaxing at home – AntiGrav slides from STAND+ are engineered for recovery, built for long days, and trusted by 100k+ pros who move.
+Why are 71% of Clove customers switching from running shoes? They’re choosing a shoe built for the job. Meet the newest Strada + Forte 2 colors.
 
-### This and That with Jodi with WearStand · video · active · 44 days · pct 0.14358108108108109
-**Headline:** High Performance Recovery Shoes
-
-Whether you're traveling, working on your feet, or just relaxing at home – AntiGrav slides from STAND+ are engineered for recovery, built for long days, and trusted by 100k+ pros who move.
-
-### KURU Footwear · image · active · 42 days · pct 0.59375
-**Headline:** New LOFT 2 Is Here
-
-We listened to every bit of feedback. The parts you love stayed, while the rest got reworked to make LOFT 2 better than ever! 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
-
-### Orthofeet · video · active · 42 days · pct 0.025510204081632654
+### Orthofeet · video · active · 48 days · pct 0.024154589371980676
 **Headline:** Meet the Autumn/Winter 2026 Collection
 
 Orthofeet shoes are designed to help relieve foot pain and keep you comfortable, so you can enjoy more walks, outings, and everything else the season has in store.
 
-### OrthoFit Store · image · active · 41 days · pct 0.06638513513513514
+### Billboard Brandon with WearStand · video · active · 48 days · pct 0.09147286821705426
+**Headline:** High Performance Recovery
+
+Whether you're traveling, working on your feet, or just relaxing at home – AntiGrav slides from STAND+ are engineered for recovery, built for long days, and trusted by 100k+ pros who move.
+
+### This and That with Jodi with WearStand · video · active · 48 days · pct 0.13643410852713178
+**Headline:** High Performance Recovery Shoes
+
+Whether you're traveling, working on your feet, or just relaxing at home – AntiGrav slides from STAND+ are engineered for recovery, built for long days, and trusted by 100k+ pros who move.
+
+### KURU Footwear · image · active · 47 days · pct 0.5114942528735632
+**Headline:** New LOFT 2 Is Here
+
+We listened to every bit of feedback. The parts you love stayed, while the rest got reworked to make LOFT 2 better than ever! 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
+
+### Orthofeet · image · active · 46 days · pct 0.2608695652173913
+**Headline:** Walk With Comfort or Your Money Back!
+
+See for yourself why over 350,000 people love Orthofeet!
+
+### Chris Giglio with Orthofeet · video · active · 45 days · pct 0.15458937198067632
+
+I’ve been wearing my @orthofeet_us Race sneakers for months now and the verdict is in - I love them so much I had to pick up a second pair of Rex shoes for the office! #orthofeetpartner
+
+### Viasox · image · active · 45 days · pct 0.007304601899196494
+**Headline:** Over 50 cute patterns! 👉
+
+I used to think I needed those really tight medical compression socks for my swollen feet. Honestly, they were uncomfortable, hard to get on, and I never wanted to wear them for long. I switched to Viasox Ankle Compression Socks and they’ve been so much better for me. They have gentle 14 mmHg compression, they’re soft, easy to put on, and my feet don’t feel exhausted by the end of the day. If your feet tend to swell and you’ve given up on compression because it’s just too uncomfortable, these are definitely worth checking out.
+
+### Viasox · video · active · 45 days · pct 0.0029218407596785976
+**Headline:** Foot & Ankle Swelling? Start Here
+
+I used to think heel pain was just something I had to deal with. The worst part was always those first few steps after getting out of bed. My heel would feel incredibly sore, and after spending hours standing or walking, my entire foot would start aching. I tried different shoes and insoles, but I still wanted something I could comfortably wear throughout the day. That’s when I tried Viasox Ankle Compression Socks. They felt completely different from the thick compression socks I had tried before. Instead of squeezing my entire leg, they gave me gentle support around my feet and ankles. But what I really noticed was the cushioning. The triple-padded sole gave my heel an extra layer of softness with every step, while the 14 mmHg compression made my feet feel comfortably supported. I started wearing them during long days on my feet, while walking, traveling, and even just around the house. Now they’re one of those small things I reach for whenever I know I’m going to be on my feet all day. If plantar fasciitis has made standing and walking uncomfortable, give Viasox Ankle Compression Socks a try.
+
+### Konjoun Barefoot · image · active · 41 days · pct 0.047685834502103785
+**Headline:** Halloween Sale - Buy 1, Get 1 Free 🎃
+
+Over 158,395 five-star reviews and counting... and right now SuperSocks Wood Carved Edition is available with our spookiest offer of the year. Buy 1 pair, get 1 free. But like all good Halloween treats, this one disappears at midnight. ⏳ If you've been waiting for the right time to try the pressure-mapped carved sole thousands of adults over 50 are using to rebuild stronger, more active feet... this is your sign. ✨ Designed To Reactivate Natural Foot Strength With Every Step ✨ Encourages Better Balance, Posture, and Ground Connection ✨ Supports More Confident Movement On Any Surface Engineered With Purpose: ✅ 3-Zone Pressure-Mapped Carved Sole (Forefoot, Midfoot, Heel) ✅ Five Individual Toe Channels For Natural Splay and Grip ✅ Dyneema Fiber Construction — No Bulk, No Rigidity, No Compromise "I've tried everything... cushioned insoles, arch supports, expensive hiking boots, even orthotics. Nothing changed the way my feet actually felt until I put these on. By week three my toes were spreading on their own and I stopped grabbing the railing on stairs. I'm on my third pair and I'm never going back to regular shoes." Don't let this deal ghost you — our Halloween sale ends soon and we can't guarantee this offer will come back. 👇 Try SuperSocks Risk-Free For 30 Days!
+
+### OrthoFit Store · image · active · 41 days · pct 0.0634681288553804
 **Headline:** Pressure Point vs Room
 
 Pointed toe box: pressure point. 🔴 OrthoFit toe box: room. 🟢 The difference is the shape of the shoe, not your foot. ⭐ 500,000+ women switched 🛡️ 30 days to try them on your own walks Find your size and width 👇
 
-### Chris Giglio with Orthofeet · video · active · 41 days · pct 0.14285714285714285
-
-I’ve been wearing my @orthofeet_us Race sneakers for months now and the verdict is in - I love them so much I had to pick up a second pair of Rex shoes for the office! #orthofeetpartner
-
-### Clove · image · active · 40 days · pct 0.07604562737642585
+### Clove · image · active · 40 days · pct 0.07720588235294118
 **Headline:** Pay Over Time with Affirm
 
 Comfort now, pay later. Shop Clove today and split your purchase into easy monthly payments with Affirm.
 
-### OrthoFit Store · video · active · 38 days · pct 0.012646457132229868
-**Headline:** Your Shoes Might Be The Problem
-
-Let me be completely honest with you 👀 Your shoes might be the reason your feet hurt. For a lot of men, sore feet at the end of the day feel normal. They shouldn't. Narrow toe boxes press your toes together. Thin, stiff soles send every step straight up into your feet, knees and back. OrthoFit walking sneakers give your toes room to spread out 👣 with a soft, flexible sole and cushioned support underneath. Stay active and on your feet without the burning and throbbing ✅ ⭐ 500,000+ men have switched Learn more 👇
-
-### AprilRain Shop w Me with OrthoFit Store · video · active · 37 days · pct 0.02462330025725836
-**Headline:** Love the Look. Enjoy the Comfort.
-
-The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
-
-### Andrew Paull  with WearStand · video · active · 35 days · pct 0.12837837837837837
-**Headline:** Everyone Claims It. This One Does It.
-
-Whether you're traveling, working on your feet, or just relaxing at home – AntiGrav shoes from STAND+ are engineered for recovery, built for long days, and trusted by 100k+ pros who move.
-
-### OrthoFit Store · video · active · 34 days · pct 0.007601351351351352
-**Headline:** Love Them, But Are They Worth It? 💬
-
-Somebody left a comment: "Love these shoes, but are they worth it?" 💬 Fair question. Here is what the men who wear them tell us. ✅ Good arch support, so the long days stop ending in sore feet ✅ A soft sole that takes the jolt out of every step ✅ Room for your toes, without the squeeze ✅ They look like a regular sneaker, not a medical shoe If you have tried them, you know. If you have not, this is your sign. 👟 ⭐ 500,000+ men switched To the man who asked, this one is for you 👇
-
-### Callieajxoxo Favorite Finds  with Orthofeet · video · active · 34 days · pct 0.10204081632653061
-
-It’s been a month of wearing my @orthofeet_us shoes, and I can honestly say I’ll be a customer for life 🤝🏼 Comfortability ✔️ Hands-free ✔️ Risk-free ✔️ What are you waiting for? Check out Orthofeet.com today 🙌🏼 #OrthoFeetPartner #orthotics #feet #supportiveshoes #ootd
-
-### Viasox · image · active · 34 days · pct 0.012644889357218124
-**Headline:** Foot & Ankle Swelling? Start Here
-
-Our favorite sale of the year is BACK — and it’s better than ever. 🔥 The Viasox Prime Warehouse Sale has officially returned! For a limited time, buy 2 pairs of socks and get 3 more completely FREE. That’s 5 pairs for the price of 2 — no code needed. Stock up on your favorites, try something new, or grab a few pairs for someone you love. The Prime Warehouse Sale is back, but it won’t be around for long. Once it’s over, it’s gone!
-
-### Viasox · video · active · 34 days · pct 0.018967334035827187
-**Headline:** Get rid of leg swelling today! 👉
-
-I honestly didn’t expect a pair of compression socks to make this much of a difference. I’ve tried compression socks before, but they always felt too tight, uncomfortable, or looked like something I’d never actually want to wear. I decided to give Viasox a try because my legs always felt tired and heavy after long days of walking, running errands, and being on the go. After wearing them for a few weeks, I can honestly say they’ve become my favorite pair. They give my legs support without feeling restrictive, and I feel so much better at the end of the day. I used to come home with tired, achy legs and noticeable swelling around my calves and ankles, but that’s become a lot less common. I also love that they come in fun designs instead of looking like traditional compression socks. I’ve gotten compliments on them more than once, which is something I never expected to say about compression socks. I started with one pair and now own several. They’ve completely replaced my regular socks, and I find myself reaching for them every morning. If you deal with tired, swollen legs, I’d definitely recommend giving them a try.
-
-### Viasox · video · active · 34 days · pct 0.05268703898840885
-**Headline:** Swollen Legs? Try These 👉
-
-I honestly didn’t expect a pair of socks to make such a difference. I had gotten used to regular socks leaving deep marks around my legs by the end of the day, and some days they felt so tight that I’d take them off the second I got home. I decided to try Viasox EasyStretch Socks because I wanted something more comfortable that wouldn’t dig into my legs. After wearing them for a few weeks, I can honestly say they’ve become my favorite socks. They stay up without squeezing, don’t leave those annoying indentations around my calves, and feel comfortable all day long. The stretch is amazing too. They fit comfortably without feeling loose or restrictive. I started with one pair and ended up ordering several more. They’ve completely replaced every other sock in my drawer.
-
-### Viasox · video · active · 34 days · pct 0.0547945205479452
-**Headline:** Get rid of ankle swelling today! 👉
-
-I honestly didn’t expect a pair of socks to make this much of a difference. I’ve tried compression socks before, but they always felt too tight, uncomfortable, or looked like something I’d never actually want to wear. I decided to give Viasox a try because my feet were constantly tired after long days of walking, running errands, and being on the go. After wearing them for a few weeks, I can honestly say they’ve become my favorite socks. They give me support without feeling restrictive, and my feet feel so much better at the end of the day. I used to kick my shoes off the second I got home because my feet felt exhausted, but now that’s rarely the case. I also love that they come in fun designs instead of looking like traditional compression socks. I’ve gotten compliments on them more than once, which is something I never expected to say about socks. I started with one pair and now own several. They’ve completely replaced my regular socks, and I find myself reaching for them every morning. If you’re on your feet a lot, I’d definitely recommend giving them a try.
-
-### Konjoun Barefoot · image · active · 33 days
+### Konjoun Barefoot · image · active · 39 days · pct 0.05329593267882188
 **Headline:** Help your feet feel like feet again 🦶
 
 Cushioned Shoe Wearers: LISTEN UP! Walking should feel good. But when your feet hurt after a long day, and your knees and back follow, it starts to feel like your body is working against you… Every cushioned shoe puts a thick layer between your foot and the ground. Your foot muscles get nothing to react to. So they stop working. When they stop working, your knees, hips and back pick up the load. Keep going like that and the pain moves higher every year… Introducing: SuperSocks WoodCarved 2.0. The one and only sock on the market with a patented sole, hand-sewn to your exact pressure points to reactivate your foot muscles. Developed with biomechanics experts, each carved wood pad sits on the exact point where your foot loads pressure, so: ✅ The muscle under each pad fires with every step ✅ Your feet carry their own load again ✅ Knees, hips and back get the strain taken off Pull them on, go for your normal walk. That's it. "My feet, ankles, knees, calves, hips, and back have never been better after a summer only wearing these." — Dale M. Why not just wear barefoot shoes? Barefoot shoes are thin and flat. Same pressure everywhere. Nothing tells your foot where to work. They take the cushion away. They don't put anything back. WoodCarved 2.0 puts a pad exactly where each muscle needs to fire. Nobody else makes this. Hand-sewn, so it can't drift. Same spot every step. The muscle underneath never gets a day off. Full-grain cowhide over every pad, so long days and rough ground don't 
 
-### Viasox · video · active · 33 days · pct 0.003161222339304531
-**Headline:** Foot & Ankle Swelling? Start Here
+### Konjoun Barefoot · image · active · 39 days · pct 0.11220196353436185
+**Headline:** Barefoot Shoes Took the Support Away. They Didn't Give the Muscle Back.
 
-Looking for a gift that could make your loved one's day a little more comfortable? If someone you care about lives with diabetes, neuropathy, swollen feet, or sensitive feet, you know how even something as simple as socks can make a big difference. That's why so many families choose Viasox EasyStretch™ Socks. Why they'll love them: ✅ Triple-Padded Cushioning: Helps soften every step for sore, sensitive feet. ✅ Non-Binding Comfort Band: Stays up without squeezing or leaving deep red marks. ✅ Stretches Up to 30 Inches: Easy to put on, even over swollen feet, ankles, and calves. ✅ Seamless Toe Design: Helps reduce rubbing and irritation. ✅ Bamboo-Blend Fabric: Keeps feet dry, cool, and comfortable all day. More than 43,000 people have rated Viasox 4.8 stars because they finally found socks that put comfort first. If someone you love struggles with regular socks, this is a gift they'll actually use every day. Right now, they're available with our Buy 1, Get 1 Free offer. Click Shop Now to give them the comfort they deserve. Copy 2 Watching someone you love deal with diabetes or neuropathy isn't easy. You see them struggle with swollen feet, complain that their socks leave painful marks, or hear them mention how uncomfortable their feet feel by the end of the day. That's exactly why I bought them Viasox EasyStretch™ Socks. They feature triple-padded cushioning to help soften every step, a non-binding comfort band that stays up without squeezing, and a seamless toe that helps reduc
+Barefoot Shoe Wearers: LISTEN UP! You switched to fix your feet. But two years in and a long day still ends with sore heels, and now normal shoes hurt by lunch… That's not fixed. That's the same problem wearing different shoes. Your feet didn't get weak from lack of freedom. They got weak because certain muscles stopped firing. Orthotics do the job for those muscles. PT wakes them up for twenty minutes, then a shoe puts them back to sleep. Barefoot shoes took the crutch away. But a thin flat sole is the same pressure everywhere. The muscles that already work keep working. The ones that went quiet get no reason to come back. Introducing: SuperSocks WoodCarved 2.0. The one and only sock on the market with a patented sole, hand-sewn to your exact pressure points to reactivate your foot muscles. Developed with biomechanics experts, each carved wood pad sits on the exact point where your foot loads, so: ✅ The quiet muscle under each pad has to fire, every step ✅ Your feet do the work instead of being spared the work ✅ Long days stop costing you the next morning Not support. Not the absence of support. A reason to fire. "As close to barefoot as you can get, with something still on your feet." — Don Clinton Why isn't this just another minimal shoe? Minimal shoes remove. That's all they do. They don't tell your foot where to work. WoodCarved 2.0 puts a pad exactly where each muscle needs to fire. Nobody else makes this. Hand-sewn, so it can't drift. Same spot every step. The muscle u
 
-### Viasox · video · active · 33 days · pct 0.01053740779768177
-**Headline:** Foot & Ankle Swelling? Start Here
+### Billboard Brandon with WearStand · video · active · 39 days · pct 0.06821705426356589
+**Headline:** Lab-Certified Comfort For 12-Hour Days
 
-When most people think of compression socks, they picture thick, medical-looking socks that feel tight, hot, and uncomfortable. But compression doesn’t have to feel that way. Viasox Compression Socks provide gentle, graduated support designed to help improve circulation, reduce swelling, and keep tired, heavy legs feeling more comfortable throughout the day. ✅ Ideal for Travel & Long Flights Helps support circulation during long periods of sitting. ✅ Perfect for People on Their Feet All Day Great for work, walking, errands, travel, and everyday movement. ✅ Helps With Swelling & Leg Fatigue Graduated compression helps tired, heavy legs feel more supported and energized. ✅ Comfort for Sensitive Feet A seamless toe and cushioned sole help reduce rubbing and irritation. ✅ Comfortable Everyday Support Breathable, moisture-wicking fabric makes them comfortable enough to wear throughout the day. Whether you’re dealing with swollen legs, tired feet, or long days sitting or standing, Viasox Compression Socks give you the support you need without sacrificing comfort. Compression should help you feel better—not make you uncomfortable.
+Two models. One engineering standard. ➕ APMA recognized for promoting foot health ➕ XL Extralight® with OrthoLite® insoles in both ➕ ASTM F2913 certified slip resistance — wet/dry on the AG1, oil-slip on the AG2 ➕ Energy dissipates laterally, not up into knees, back and joints ➕ North American made, machine washable, true to size The AG1 and AG2 are built on the same platform. The only question is what you're standing on.
 
-### Viasox · video · active · 33 days · pct 0.014752370916754479
-**Headline:** Foot & Ankle Swelling? Start Here
+### Andrew Paull  with WearStand · video · active · 39 days · pct 0.10542635658914729
+**Headline:** Everyone Claims It. This One Does It.
 
-I'm Dimos, founder of Viasox, and our favorite sale of the year is finally BACK. For a limited time, we're giving you 3 pairs FREE when you buy 2 during our Prime Warehouse Sale. That’s 5 pairs of Viasox for the price of 2. If you’ve been waiting to try Viasox or need to stock up on your favorites, now’s the time. 🔥 BUY 2, GET 3 FREE — before the Prime Warehouse Sale ends!
+Whether you're traveling, working on your feet, or just relaxing at home – AntiGrav shoes from STAND+ are engineered for recovery, built for long days, and trusted by 100k+ pros who move.
 
-### OrthoFit Store · image · active · 31 days · pct 0.0011824324324324325
+### Konjoun Barefoot · video · active · 38 days · pct 0.056100981767180924
+**Headline:** It Was Never Aging. It Was the Foam
+
+Japan, 1579. Eight thousand soldiers marched into the mountains of Iga to crush a bunch of farmers. The farmers broke them in two days. They were shinobi. And what carried them through those mountains wasn't a sword. It was their feet, and the thin cloth they walked in. Your foot is built to read the ground like a map. Every slope, every stone, every shift in pressure goes to your brain, and your foot muscles fire to carry you. Then in the 1970s, shoe companies wrapped that map in thick foam. They called it comfort. That's why so many people over 40 get told it's aging. Worn joints. Just how it goes. It isn't. It's a foot that can't read the ground anymore. SuperSocks Wood Carved Edition gives the map back. Its 3-zone wood-carved sole sits right on the points where a bare foot presses the ground: forefoot, midfoot, heel. Your foot feels the ground again, and the muscles that switched off start doing their job. 🦶 Feet that carry you instead of riding along ⚡ Lighter steps, steadier balance 🧍 Knees, hips and back stop picking up the slack 🛡️ Dyneema® knit keeps rocks and glass out 158,395+ people already walk this way. 👉 Get your feet working again. Buy 1, Get 1 Free, with a 30-day money-back guarantee.
+
+### OrthoFit Store · video · active · 38 days · pct 0.006716929403701165
+**Headline:** Love Them, But Are They Worth It? 💬
+
+Somebody left a comment: "Love these shoes, but are they worth it?" 💬 Fair question. Here is what the men who wear them tell us. ✅ Good arch support, so the long days stop ending in sore feet ✅ A soft sole that takes the jolt out of every step ✅ Room for your toes, without the squeeze ✅ They look like a regular sneaker, not a medical shoe If you have tried them, you know. If you have not, this is your sign. 👟 ⭐ 500,000+ men switched To the man who asked, this one is for you 👇
+
+### Callieajxoxo Favorite Finds  with Orthofeet · video · active · 38 days · pct 0.0966183574879227
+
+It’s been a month of wearing my @orthofeet_us shoes, and I can honestly say I’ll be a customer for life 🤝🏼 Comfortability ✔️ Hands-free ✔️ Risk-free ✔️ What are you waiting for? Check out Orthofeet.com today 🙌🏼 #OrthoFeetPartner #orthotics #feet #supportiveshoes #ootd
+
+### Konjoun Barefoot · image · active · 36 days · pct 0.0785413744740533
+**Headline:** 🦶 We Mapped Wood-Grain Patterns Onto Human Foot Anatomy
+
+🪵 The limited edition Wood Carved Edition by SuperSocks. Only 1,000 pairs made.⚡ 🧬 Wood-grain patterns carved onto human foot anatomy. A barefoot sock that trains your feet with every step.🦶 The world's first 2-in-1 sock-shoe with patented human foot anatomy design: ✓ Patented Wood-Carved Anatomical Sole - Biomimetic terrain that rebuilds foot strength ✓ NanoGrip Fusion™ - 3,000+ grip points fused with wood texture ✓ DecaForce Durability™ - 10X longer lifespan than standard barefoot socks ✓ AirFlow Matrix Knit™ - 480% breathability improvement ✓ Machine Washable - Unlike $150 barefoot shoes ⏳ Once they're gone, restock takes 12 weeks. 🔒 If you want to stay active and move pain-free, start where it matters most—your feet. Grab your pair now while the offer lasts!
+
+### OrthoFit Store · image · active · 36 days · pct 0.0009595613433858808
 **Headline:** Sharp Enough For Dinner 🍽️
 
 Sharp enough for dinner. Tough enough for 20,000 steps 🚶‍♂️ All black knit with a red stripe on the sole, so nobody clocks it as a comfort shoe. Your feet will. An extra-wide toe box, arch support and shock-absorbing insoles do the work underneath. ⭐ 500,000+ happy customers Take a look 👇
 
-### Viasox · image · active · 31 days · pct 0.001053740779768177
-**Headline:** Swollen Legs? Try These 👉
-
-This month is a special one for us at Viasox. It's our birthday! 🎂 What started as a simple mission to make socks more comfortable has grown into something bigger than we ever imagined. And none of it would have been possible without YOU. Every order, every kind message, and every customer who has shared Viasox with someone they love has helped us get to where we are today. So this year, instead of asking for birthday gifts, we want to give something back. 🎉 Our Anniversary Sale is HERE: BUY 2, GET 3 FREE! That's 5 pairs of your favorite Viasox socks for the price of just 2. From the bottom of our hearts, thank you for being part of our journey. ❤️
-
-### Viasox · video · active · 31 days · pct 0.05584826132771338
-**Headline:** Swollen Legs? Try These 👉
-
-I honestly didn’t expect a pair of compression socks to make this much of a difference. I’ve tried compression socks before, but they always felt too tight, uncomfortable, or looked like something I’d never actually want to wear. I decided to give Viasox a try because my legs always felt tired and heavy after long days of walking, running errands, and being on the go. After wearing them for a few weeks, I can honestly say they’ve become my favorite pair. They give my legs support without feeling restrictive, and I feel so much better at the end of the day. I used to come home with tired, achy legs and noticeable swelling around my calves and ankles, but that’s become a lot less common. I also love that they come in fun designs instead of looking like traditional compression socks. I’ve gotten compliments on them more than once, which is something I never expected to say about compression socks. I started with one pair and now own several. They’ve completely replaced my regular socks, and I find myself reaching for them every morning. If you deal with tired, swollen legs, I’d definitely recommend giving them a try.
-
-### This and That with Jodi with WearStand · video · active · 31 days · pct 0.0777027027027027
-**Headline:** Serious Grip. Cloudlike Comfort.
-
-Most slip-resistant shoes feel like bricks. Most comfortable shoes slide on a slick floor. The AntiGrav2 from STAND+ refuses to choose: grip with cloudlike, ultralight comfort that lasts all day.
-
-### KURU Footwear · image · active · 30 days · pct 0.5875
+### KURU Footwear · image · active · 35 days · pct 0.46551724137931033
 **Headline:** See Our Limited-Edition Drop
 
 These are the coziest styles we’ve ever made, and quantities are very limited. Get fuzzy relief before your size is gone! 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
 
-### OrthoFit Store · video · active · 30 days · pct 0.002364864864864865
+### OrthoFit Store · video · active · 35 days · pct 0.0019191226867717615
 **Headline:** It's Not Your Age. It's Your Shoes 👟
 
 Our founder wants to be completely honest with you 👇 If your feet are wrecked by the end of a long shift, and your knees and lower back are taking the hit too, you have probably blamed it on getting older. Most of the time it is not your age. It is your shoes. 👟 OrthoFit walking sneakers have real arch support, shock absorbing insoles and a wide, rounded toe box, so every step protects your feet, knees and back instead of punishing them. ✅ Breathable mesh keeps feet cool on long days ✅ Looks sharp with khakis, dress pants or shorts ⭐ 500,000+ men switched See why men are calling them the last walking shoe they will buy 👇
 
-### OrthoFit Store · video · active · 30 days · pct 0.008952702702702703
+### This and That with Jodi with WearStand · video · active · 35 days · pct 0.05116279069767442
+**Headline:** Serious Grip. Cloudlike Comfort.
+
+Most slip-resistant shoes feel like bricks. Most comfortable shoes slide on a slick floor. The AntiGrav2 from STAND+ refuses to choose: grip with cloudlike, ultralight comfort that lasts all day.
+
+### Konjoun Barefoot · image · active · 34 days · pct 0.04628330995792426
+**Headline:** Limited Sale - Buy 1, Get 1 Free
+
+Over 158,395 five-star reviews and counting... and right now SuperSocks Wood Carved Edition is available with our best offer of the year. Buy 1 pair, get 1 free. But not for long. ⏳ If you've been waiting for the right time to try the pressure-mapped carved sole thousands of adults over 50 are using to rebuild stronger, more active feet... this is it. ✨ Designed To Reactivate Natural Foot Strength With Every Step ✨ Encourages Better Balance, Posture, and Ground Connection ✨ Supports More Confident Movement On Any Surface Engineered With Purpose: ✅ 3-Zone Pressure-Mapped Carved Sole (Forefoot, Midfoot, Heel) ✅ Five Individual Toe Channels For Natural Splay and Grip ✅ Dyneema Fiber Construction — No Bulk, No Rigidity, No Compromise "I've tried everything... cushioned insoles, arch supports, expensive hiking boots, even orthotics. Nothing changed the way my feet actually felt until I put these on. By week three my toes were spreading on their own and I stopped grabbing the railing on stairs. I'm on my third pair and I'm never going back to regular shoes." This sale ends soon and we can't guarantee this offer will come back. 👇 Try SuperSocks Risk-Free For 30 Days!
+
+### Konjoun Barefoot · image · active · 34 days · pct 0.05890603085553997
+**Headline:** Buy 1, Get 1 Free — Limited Time Only
+
+Over 158,395 five-star reviews and counting... and right now SuperSocks Wood Carved Edition is available with our best offer of the year. Buy 1 pair, get 1 free. But this deal has an expiration date and once it's gone we can't promise it's coming back. If you've been waiting for the right time to try the pressure-mapped carved sole thousands of adults over 50 are using to rebuild stronger, more active feet... this is your sign. ✨ Designed To Reactivate Natural Foot Strength With Every Step ✨ Encourages Better Balance, Posture, and Ground Connection ✨ Supports More Confident Movement On Any Surface Engineered With Purpose: ✅ 3-Zone Pressure-Mapped Carved Sole (Forefoot, Midfoot, Heel) ✅ Five Individual Toe Channels For Natural Splay and Grip ✅ Dyneema Fiber Construction — No Bulk, No Rigidity, No Compromise "I've tried everything... cushioned insoles, arch supports, expensive hiking boots, even orthotics. Nothing changed the way my feet actually felt until I put these on. By week three my toes were spreading on their own and I stopped grabbing the railing on stairs. I'm on my third pair and I'm never going back to regular shoes." We only run this offer a few times a year and stock moves fast when we do. Once this batch sells through the price goes back to full. 👇 Try SuperSocks Risk-Free For 30 Days!
+
+### Content Creator with OrthoFit Store · video · active · 34 days · pct 0.0052090472926662095
+**Headline:** Love the Look. Enjoy the Comfort.
+
+The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
+
+### Fearless Into My 60s with OrthoFit Store · video · active · 34 days · pct 0.007402330363262509
+**Headline:** Love the Look. Enjoy the Comfort.
+
+The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
+
+### OrthoFit Store · video · active · 34 days · pct 0.007813570938999315
 **Headline:** Give Your Toes Room To Spread
 
 From the founder of OrthoFit 💬 If your feet burn, throb or feel swollen by the end of the day, you already know how much they run your whole day. Narrow shoes squeeze every toe together. Stiff soles fight the way your foot wants to move. So we made the toe box extra wide for your toes to spread out. The sole is soft and flexible, and the cushioning eases that all-day soreness. And it looks like a regular sneaker. Nothing bulky, nothing clinical 👟 ⭐ Over 500,000 women have given their feet the room they were begging for Tap below to see why 👇
 
-### Content Creator with OrthoFit Store · video · active · 29 days · pct 0.006418918918918919
-**Headline:** Love the Look. Enjoy the Comfort.
-
-The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
-
-### Fearless Into My 60s with OrthoFit Store · video · active · 29 days · pct 0.008614864864864865
-**Headline:** Love the Look. Enjoy the Comfort.
-
-The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
-
-### Orthofeet · video · active · 29 days · pct 0.18877551020408162
+### Orthofeet · video · active · 34 days · pct 0.28019323671497587
 **Headline:** Walk With Comfort or Your Money Back!
 
 Honestly, the answer is simple 👟
 
-### Viasox Canada  · image · active · 29 days · pct 0.058823529411764705
+### OrthoFit Store · video · active · 33 days · pct 0.007128169979437971
+**Headline:** Your Shoes Might Be The Problem
+
+Let me be completely honest with you 👀 Your shoes might be the reason your feet hurt. For a lot of men, sore feet at the end of the day feel normal. They shouldn't. Narrow toe boxes press your toes together. Thin, stiff soles send every step straight up into your feet, knees and back. OrthoFit walking sneakers give your toes room to spread out 👣 with a soft, flexible sole and cushioned support underneath. Stay active and on your feet without the burning and throbbing ✅ ⭐ 500,000+ men have switched Learn more 👇
+
+### OrthoFit Store · video · active · 33 days · pct 0.03276216586703221
+**Headline:** Love the Look. Enjoy the Comfort.
+
+The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
+
+### janaarrowood with OrthoFit Store · video · active · 33 days · pct 0.06442769019876628
+**Headline:** Love the Look. Enjoy the Comfort.
+
+The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
+
+### Viasox Canada  · image · active · 33 days · pct 0.0625
 **Headline:** The Comfiest Canadian Socks 🇨🇦
 
 Viasox started in 2019 with one simple goal: to bring comfort and relief to Canadians, one step at a time. Every pair of socks we make is designed with care, crafted for those who deserve the best—our fellow Canadians. 🇨🇦 Thank you for supporting a homegrown Canadian company!
 
-### janaarrowood with OrthoFit Store · video · active · 28 days · pct 0.06570945945945945
-**Headline:** Love the Look. Enjoy the Comfort.
-
-The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
-
-### WearStand · video · active · 28 days · pct 0.018581081081081082
-**Headline:** High Performance Recovery Shoes
-
-Whether you're traveling, working on your feet, or just relaxing at home – AntiGrav shoes from STAND+ are engineered for recovery, built for long days, and trusted by 100k+ pros who move.
-
-### This and That with Jodi with WearStand · video · active · 28 days · pct 0.13344594594594594
-**Headline:** Use Your HSA/FSA on STAND+
-
-Know someone working 12-hour shifts? You may be able to use HSA/FSA funds to get them a pair 💳👟 The AntiGrav2 is recovery footwear built for nurses and anyone on their feet all day. It's engineered to absorb impact and take pressure off feet, knees and back. ✅ Eligible customers may be able to pay with HSA/FSA funds through Truemed ✅ Podiatrist-approved ✅ 30-day risk-free trial Truemed is for qualified customers. HSA/FSA tax savings vary. Learn more at truemed.com/disclosures.
-
-### Billboard Brandon with WearStand · video · active · 28 days · pct 0.17905405405405406
-**Headline:** Use Your HSA/FSA on STAND+
-
-Got these with my HSA card 💳👟 STAND+ recovery shoes are built for people who stand all day and athletes who need to recover. Pick the AntiGrav2 for a slip-resistant sole at work, or the AntiGrav1 for something lighter. ✅ Eligible customers may be able to pay with HSA/FSA funds through Truemed ✅ Podiatrist-approved ✅ 30-day risk-free trial Truemed is for qualified customers. HSA/FSA tax savings vary. Learn more at truemed.com/disclosures.
-
-### OrthoFit Store · video · active · 27 days · pct 0.004054054054054054
+### OrthoFit Store · video · active · 32 days · pct 0.003427004797806717
 **Headline:** Overstock: 50% Off Wide Toe Box Sneakers
 
 We made way more women's wide toe box sneakers than we planned 📦 Our mistake is your gain. To clear the warehouse shelves, our best-selling OrthoFit sneakers are now 50% off with free shipping. All-day balance and comfort. No pinch, no narrow squeeze. ⭐ Loved by 1,200,000+ women Once these extra pairs sell out, the discount is gone. Tap below to check your size 👇
 
-### cgcreativesllc with OrthoFit Store · video · active · 27 days · pct 0.00945945945945946
+### cgcreativesllc with OrthoFit Store · video · active · 32 days · pct 0.0075394105551747775
 **Headline:** Love the Look. Enjoy the Comfort.
 
 The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
 
-### OrthoFit Store · video · active · 27 days · pct 0.03699324324324324
+### WearStand · video · active · 32 days · pct 0.012403100775193798
+**Headline:** High Performance Recovery Shoes
+
+Whether you're traveling, working on your feet, or just relaxing at home – AntiGrav shoes from STAND+ are engineered for recovery, built for long days, and trusted by 100k+ pros who move.
+
+### This and That with Jodi with WearStand · video · active · 32 days · pct 0.11782945736434108
+**Headline:** Use Your HSA/FSA on STAND+
+
+Know someone working 12-hour shifts? You may be able to use HSA/FSA funds to get them a pair 💳👟 The AntiGrav2 is recovery footwear built for nurses and anyone on their feet all day. It's engineered to absorb impact and take pressure off feet, knees and back. ✅ Eligible customers may be able to pay with HSA/FSA funds through Truemed ✅ Podiatrist-approved ✅ 30-day risk-free trial Truemed is for qualified customers. HSA/FSA tax savings vary. Learn more at truemed.com/disclosures.
+
+### Billboard Brandon with WearStand · video · active · 32 days · pct 0.15968992248062017
+**Headline:** Use Your HSA/FSA on STAND+
+
+Got these with my HSA card 💳👟 STAND+ recovery shoes are built for people who stand all day and athletes who need to recover. Pick the AntiGrav2 for a slip-resistant sole at work, or the AntiGrav1 for something lighter. ✅ Eligible customers may be able to pay with HSA/FSA funds through Truemed ✅ Podiatrist-approved ✅ 30-day risk-free trial Truemed is for qualified customers. HSA/FSA tax savings vary. Learn more at truemed.com/disclosures.
+
+### Musabela · image · active · 31 days
+**Headline:** Buy 1 Pair, Get 1 FREE 👟👟
+
+Foot pain during long shifts? Start by taking a closer look at your shoes. Hours of standing. Hard floors. Constant movement. A cramped fit or too little support can make a demanding day feel even longer. Meet Musabela Ortho Pro™. Designed with a roomy toe box, cushioned heel and arch support, and a lightweight feel for everyday walking and standing. Space for your toes. Cushioning beneath your heels. Support under your arches. For the busy shift—and the life waiting after it. Discover 7 reasons to consider Musabela. 👇
+
+### Konjoun Barefoot · image · active · 30 days · pct 0.028050490883590462
+**Headline:** The Toughest Barefoot Sock We've Ever Made 🦶
+
+Worried a barefoot sock won't survive the first month? Fair. Thin barefoot soles wear through right where your foot pushes off, and you're back to buying another pair. Introducing SuperSocks WoodCarved 2.0. The one and only sock on the market with a patented sole, hand-sewn to your exact pressure points to reactivate your foot muscles. This time, every wood-carved section is covered in full-grain cowhide. Full-grain is the top layer of the hide. Nothing sanded off, nothing glued together. It's the toughest part of the leather, and it sits exactly where your foot meets the ground. 🐄 Full-grain cowhide over every section, where the wear actually happens 🐄 Hand-stitched to the exact spot, so it stays put season after season 🐄 Granite, roots, rock, gravel. Same section, same spot, every step 🐄 Dyneema® knit around it, cut and puncture resistant ✅ The muscle under each section fires every step, and keeps firing months in ✅ Five sizes, so every section lands on your pressure point 🔄 30-Day Money-Back Guarantee Pull them on, take them where your shoes go, and stop replacing socks. Reactivate your feet in a sock built to stay close to the ground, and last there.
+
+### Konjoun Barefoot · image · active · 30 days · pct 0.05750350631136045
+**Headline:** We Heard You. 3 Sizes Is Now 5.
+
+Heel slipping, toes jammed, or a sock that's right everywhere except on your foot? Introducing SuperSocks WoodCarved 2.0, now in five sizes. The one and only sock on the market with a patented sole, hand-sewn to your exact pressure points to reactivate your foot muscles. Three sizes fit most feet. Five fit yours. Here's why size matters more on this sock than any other: the whole mechanism is a pressure map. Each wood-carved section is hand-sewn to the exact spot where your foot loads, so it can't drift. The closer the fit, the more precisely each section sits on that spot, and the harder the muscle under it has to fire. 🦶 Every section on your exact pressure point, not near it 🦶 Snug at the heel and arch, room at the toes, no bunching, no slipping 🦶 Feet that do their own work from the first walk 🦶 Knees, hips and back get the strain taken off ✅ Five sizes, S to XXL ✅ Full-grain cowhide over every section, Dyneema® knit around it 🔄 30-Day Money-Back Guarantee Pull on your size, go for your normal walk, and let the map do its job. Reactivate your feet in a fit that's actually yours.
+
+### KURU Footwear · video · active · 30 days · pct 0.29310344827586204
+**Headline:** Frightfully Good Relief
+
+Break the curse of foot pain with KURU. Our heel-hugging support delivers relief so good it’s downright otherworldly. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
+
+### Amazon Finds with Becky with OrthoFit Store · video · active · 30 days · pct 0.00411240575736806
 **Headline:** Love the Look. Enjoy the Comfort.
 
 The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
 
-### Amazon Finds with Becky with OrthoFit Store · video · active · 26 days · pct 0.004898648648648649
+### KURU Footwear · video · active · 29 days · pct 0.43103448275862066
+**Headline:** Bad Shoes = Loud Heels
+
+From screaming at every step to kissing his own foot? That's what happens when his heels finally meet KURU. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
+
+### WearStand · image · active · 29 days · pct 0.11627906976744186
+**Headline:** All-Shift Comfort, HSA/FSA Approved
+
+Your feet do the hardest work of your shift. That's why healthcare professionals turn to STAND+ recovery footwear, built to reduce strain on knees, back and joints. And the best of all, they may be HSA/FSA eligible with Truemed! Truemed is for qualified customers. HSA/FSA tax savings vary. Learn more at truemed.com/disclosures.
+
+### Euclove Clean · video · active · 28 days · pct 0.05660377358490566
+**Headline:** The $60 Bundle Now Just $49.99
+
+One bundle. A cleaner, fresher bathroom. Tackle mould, soap scum, grime and everyday bathroom mess with Euclove's natural cleaning system. Made in Australia with essential oils including clove, eucalyptus and tea tree. Now $49.99 with FREE shipping, save $10. SHOP THE BUNDLE.
+
+### OrthoFit Store · video · active · 28 days · pct 0.0023303632625085676
+**Headline:** A Note From Our Founder
+
+"As the founder of OrthoFit, I'm going to be completely honest with you." 👋 This isn't a trendy shoe chasing a fashion trend. It was made for the very real problems your feet face every day. If your feet burn, throb or feel swollen by the end of the day, and you're tired of narrow shoes squeezing every toe together: ✅ An extra-wide toe box so your toes can spread out ✅ A soft, flexible sole that moves the way your feet do ✅ Cushioned support for all-day soreness And it doesn't look like a hospital shoe. ⭐ 500,000+ women have given their feet the room they were begging for Tap below to check your size 👇
+
+### OrthoFit Store · video · active · 28 days · pct 0.0054832076764907475
+**Headline:** We Made Too Many. Now They're 50% Off
+
+I'm going to be completely honest with you. ⠀ We made a much bigger batch of our Wide Toe Box Comfort Sneakers than we planned for. ⠀ And instead of letting them sit in a warehouse, I'd rather get them on your feet, where they belong. ⠀ Because this isn't a trendy shoe chasing a fashion trend. It was made for the very real problems your feet face every single day: ⠀ ✔ An extra-wide toe box, so your toes can finally spread out instead of being crushed ✔ A soft, flexible sole that moves the way your feet are meant to ✔ Cushioned support that helps ease that deep, all-day soreness ✔ Comfort that doesn't look like a hospital shoe ⠀ Since we started OrthoFit, over 1,200,000 women have slipped into a pair and finally given their feet the room they'd been begging for. ⠀ Most "comfort" shoes cost a small fortune. Ours don't. Same comfort, without the markup, and without the look. ⠀ And because we simply made too many this season, you're getting the exact same sneaker at our best price yet: 50% OFF today. ⠀ Once this batch is gone, we can't promise this price again. ⠀ So if your feet have been asking for relief, tap below and check if your size is still in stock. And thank you for trusting us with every step.
+
+### OrthoFit Store · video · active · 28 days · pct 0.007676490747087046
+**Headline:** Will They Really Work For My Feet? 💬
+
+"Okay, so I love these sneakers, but will they really work for my feet?" 💬 We get this comment every day, so here is the honest answer. You know that feeling when you finally take your shoes off and your toes can spread out? OrthoFit is built to feel like that while they are still on. 👟 💗 A wide, roomy toe box 💗 Soft, flexible knit that moves with you 💗 Arch support for long days on your feet ⭐ 500,000+ women made the switch So to answer you, yes. Come see why 👇
+
+### jodilachance with OrthoFit Store · video · active · 28 days · pct 0.013845099383139136
 **Headline:** Love the Look. Enjoy the Comfort.
 
 The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
 
-### mamadrury23 with OrthoFit Store · video · active · 26 days · pct 0.009557344064386318
+### WearStand · image · active · 28 days · pct 0.34108527131782945
+**Headline:** High-Performance Recovery Shoes
+
+➕ High Impact Reduction & Support ➕ Premium X-40® Insoles ➕ Ultra-Light Cloudlike Comfort ➕ Podiatrist Approved + HSA/FSA Eligible
+
+### Konjoun Barefoot · image · active · 27 days · pct 0.1093969144460028
+**Headline:** Your legs have a built-in pump. Your shoes switched it off.
+
+Look at your legs right now. Not the skin. Not the surface. The veins underneath. If you are like millions of women over 40, some of those veins are no longer sitting quietly where they belong. They are raised. Twisted. Bulging under the skin like ropes that were not there ten years ago. And they are not just a cosmetic problem. Your legs ache by mid-afternoon. They throb after you have been standing for a while. They feel heavy and swollen after sitting at a desk. By evening they feel like they belong to someone twenty years older. You have tried compression stockings that squeeze all day and leave marks all night. You have tried the creams. You have tried elevating your legs every evening like clockwork. You have tried planning every outfit around long pants, dark tights, and hemlines that cover everything below the knee. None of it addresses why those veins are bulging in the first place. Here is what nobody explains. Your body has a second pump. Not your heart. A pump in your feet and calves. Every time your foot presses into the ground and your calf muscles contract, blood gets squeezed upward through your leg veins against gravity. Step. Press. Push up. Thousands of times a day. When that pump is strong, blood moves up efficiently. The veins stay under normal pressure. They keep their shape. When that pump weakens, blood moves up sluggishly. It pools. The pressure inside the veins builds. And over time, the veins stretch, twist and push toward the surface. That is not a
+
+### aiugcboris with OrthoFit Store · video · active · 27 days · pct 0.009047292666209733
+**Headline:** Keep Doing What You Love
+
+Retired from work. Not from walking 👞 Long shifts, the grandkids, the long way round the block. Your shoes should keep up with all of it. An extra-wide toe box so your toes can spread. Arch support and shock-absorbing insoles under every step. Slip-on, so there is no bending and no fumbling with laces. And it still looks like a regular sneaker, not a medical shoe. ⭐ 700,000+ men switched 🔥 Up to 50% off today 🛡️ 30-day risk-free trial Check your size 👇
+
+### sharikatecreates with OrthoFit Store · video · active · 27 days · pct 0.012748457847840986
 **Headline:** Love the Look. Enjoy the Comfort.
 
 The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
 
-### Clove · image · active · 25 days · pct 0.20152091254752852
+### Konjoun Barefoot · image · active · 26 days · pct 0.07573632538569425
+**Headline:** Your feet were built to grip every rock on the trail. Time to let them
+
+There’s nothing like hitting a trail and feeling every root, rock, and ridge under your feet. That moment when your toes grip the earth and your whole body just knows where it’s going. But most hikers never get to feel that — because their boots do all the work for them. 🥾 Thick soles and rigid cushioning block the ground signals your feet were built to read. Over time, your feet stop engaging — and your balance, stability, and trail confidence quietly fade. 🦶 Your feet have 200,000+ nerve endings designed to feel the ground. When you bury them in padding, those signals go dark — and so does the natural strength your feet need on uneven terrain. ⛰️ The problem isn’t the trail. It’s that your feet forgot how to handle it. ✅ KONJOUN SuperSocks WoodCarved 2.0 use a pressure-mapped carved wood sole — three hand-sewn wood sections at the forefoot, midfoot, and heel — placed to activate each zone the way nature intended. 🐂 Full-grain cowhide wraps every wood section for cut and puncture resistance — so you get real trail durability without giving up ground feel. 🖐️ Five individual toe pockets let your toes spread, grip, and stabilize naturally on roots, rocks, and loose dirt — the way bare feet were meant to move. 👣 Thousands of hikers and outdoor walkers are rediscovering what it feels like when their feet actually participate in the trail again. 🌲 Feel the trail under you — not hidden from you. Try WoodCarved 2.0 risk-free.
+
+### mamadrury23 with OrthoFit Store · video · active · 26 days
+**Headline:** Love the Look. Enjoy the Comfort.
+
+The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
+
+### Clove · image · active · 25 days · pct 0.23529411764705882
 **Headline:** Refresh Your Shoe Rotation
 
 Consider this your sign to refresh your shoe rotation. 🍂 New Clove arrivals just landed in fresh fall-ready colors.
@@ -1192,362 +1305,308 @@ Consider this your sign to refresh your shoe rotation. 🍂 New Clove arrivals j
 
 Say goodbye to your kid’s heel pain once and for all Meet the Footstr™ Insole, the #1 rated insole for kids struggling with heel pain from sports, growth, or daily activity ✅ Targeted heel cushioning that relieves pressure and absorbs impact ✅ Designed specifically for growing feet, not just a smaller adult insole ✅ Real arch support that improves foot alignment and prevents future pain Get yours today with up to 60% off → https://getfootstr.com/products/footstr-insolex
 
-### KURU Footwear · video · active · 25 days · pct 0.3625
-**Headline:** Frightfully Good Relief
-
-Break the curse of foot pain with KURU. Our heel-hugging support delivers relief so good it’s downright otherworldly. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
-
-### whit_laine with OrthoFit Store · video · active · 25 days · pct 0.007658643326039387
-**Headline:** Love the Look. Enjoy the Comfort.
-
-The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
-
-### Konjoun Barefoot · image · active · 24 days
-**Headline:** We Heard You. 3 Sizes Is Now 5.
-
-Heel slipping, toes jammed, or a sock that's right everywhere except on your foot? Introducing SuperSocks WoodCarved 2.0, now in five sizes. The one and only sock on the market with a patented sole, hand-sewn to your exact pressure points to reactivate your foot muscles. Three sizes fit most feet. Five fit yours. Here's why size matters more on this sock than any other: the whole mechanism is a pressure map. Each wood-carved section is hand-sewn to the exact spot where your foot loads, so it can't drift. The closer the fit, the more precisely each section sits on that spot, and the harder the muscle under it has to fire. 🦶 Every section on your exact pressure point, not near it 🦶 Snug at the heel and arch, room at the toes, no bunching, no slipping 🦶 Feet that do their own work from the first walk 🦶 Knees, hips and back get the strain taken off ✅ Five sizes, S to XXL ✅ Full-grain cowhide over every section, Dyneema® knit around it 🔄 30-Day Money-Back Guarantee Pull on your size, go for your normal walk, and let the map do its job. Reactivate your feet in a fit that's actually yours.
-
-### KURU Footwear · video · active · 24 days · pct 0.50625
-**Headline:** Bad Shoes = Loud Heels
-
-From screaming at every step to kissing his own foot? That's what happens when his heels finally meet KURU. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
-
-### OrthoFit Store · video · active · 24 days · pct 0.0028716216216216218
-**Headline:** A Note From Our Founder
-
-"As the founder of OrthoFit, I'm going to be completely honest with you." 👋 This isn't a trendy shoe chasing a fashion trend. It was made for the very real problems your feet face every day. If your feet burn, throb or feel swollen by the end of the day, and you're tired of narrow shoes squeezing every toe together: ✅ An extra-wide toe box so your toes can spread out ✅ A soft, flexible sole that moves the way your feet do ✅ Cushioned support for all-day soreness And it doesn't look like a hospital shoe. ⭐ 500,000+ women have given their feet the room they were begging for Tap below to check your size 👇
-
-### OrthoFit Store · video · active · 24 days · pct 0.00625
-**Headline:** We Made Too Many. Now They're 50% Off
-
-I'm going to be completely honest with you. ⠀ We made a much bigger batch of our Wide Toe Box Comfort Sneakers than we planned for. ⠀ And instead of letting them sit in a warehouse, I'd rather get them on your feet, where they belong. ⠀ Because this isn't a trendy shoe chasing a fashion trend. It was made for the very real problems your feet face every single day: ⠀ ✔ An extra-wide toe box, so your toes can finally spread out instead of being crushed ✔ A soft, flexible sole that moves the way your feet are meant to ✔ Cushioned support that helps ease that deep, all-day soreness ✔ Comfort that doesn't look like a hospital shoe ⠀ Since we started OrthoFit, over 1,200,000 women have slipped into a pair and finally given their feet the room they'd been begging for. ⠀ Most "comfort" shoes cost a small fortune. Ours don't. Same comfort, without the markup, and without the look. ⠀ And because we simply made too many this season, you're getting the exact same sneaker at our best price yet: 50% OFF today. ⠀ Once this batch is gone, we can't promise this price again. ⠀ So if your feet have been asking for relief, tap below and check if your size is still in stock. And thank you for trusting us with every step.
-
-### OrthoFit Store · video · active · 23 days · pct 0.008445945945945946
-**Headline:** Will They Really Work For My Feet? 💬
-
-"Okay, so I love these sneakers, but will they really work for my feet?" 💬 We get this comment every day, so here is the honest answer. You know that feeling when you finally take your shoes off and your toes can spread out? OrthoFit is built to feel like that while they are still on. 👟 💗 A wide, roomy toe box 💗 Soft, flexible knit that moves with you 💗 Arch support for long days on your feet ⭐ 500,000+ women made the switch So to answer you, yes. Come see why 👇
-
-### aiugcboris with OrthoFit Store · video · active · 23 days · pct 0.010135135135135136
+### kiya davelaar with OrthoFit Store · video · active · 25 days · pct 0.011788896504455106
 **Headline:** Keep Doing What You Love
 
 Retired from work. Not from walking 👞 Long shifts, the grandkids, the long way round the block. Your shoes should keep up with all of it. An extra-wide toe box so your toes can spread. Arch support and shock-absorbing insoles under every step. Slip-on, so there is no bending and no fumbling with laces. And it still looks like a regular sneaker, not a medical shoe. ⭐ 700,000+ men switched 🔥 Up to 50% off today 🛡️ 30-day risk-free trial Check your size 👇
 
-### sharikatecreates with OrthoFit Store · video · active · 23 days · pct 0.014864864864864866
-**Headline:** Love the Look. Enjoy the Comfort.
+### _bymaku with OrthoFit Store · video · active · 25 days · pct 0.013708019191226868
+**Headline:** Keep Doing What You Love
 
-The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
+Retired from work. Not from walking 👞 Long shifts, the grandkids, the long way round the block. Your shoes should keep up with all of it. An extra-wide toe box so your toes can spread. Arch support and shock-absorbing insoles under every step. Slip-on, so there is no bending and no fumbling with laces. And it still looks like a regular sneaker, not a medical shoe. ⭐ 700,000+ men switched 🔥 Up to 50% off today 🛡️ 30-day risk-free trial Check your size 👇
 
-### Clove · image · active · 21 days · pct 0.21292775665399238
-**Headline:** Fresh colors. Full-shift comfort.
+### KURU Footwear · video · active · 24 days · pct 0.7586206896551724
 
-Fresh out of the freezer. 🍧 The Sherbet Collection brings three new feel-good colors to the shoes built to keep up with your shift.
+From screaming at every step to kissing his own foot? That's what happens when his heels finally meet KURU. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
 
-### Orthofeet · video · active · 21 days · pct 0.32142857142857145
-
-It’s been a month of wearing my @orthofeet_us shoes, and I can honestly say I’ll be a customer for life 🤝🏼 Comfortability ✔️ Hands-free ✔️ Risk-free ✔️ What are you waiting for? Check out Orthofeet.com today 🙌🏼 #OrthoFeetPartner #orthotics #feet #supportiveshoes #ootd
-
-### Footstr · image · active · 20 days
-**Headline:** Support Heel Pain the Right Way
-
-No kid should suffer through heel pain… And worse, through months of rest, doctor visits, and physical therapy that barely help. The list of “solutions” we tried was long: 😡 New shoes 😡😡 Ice and pain gel 😡😡😡 Heel cups and braces 😡😡😡😡 Orthopedic visits 😡😡😡😡😡 Weeks of forced rest All that and he still couldn’t walk without pain.� Even worse, every time he got back to sports, the pain came right back. I was about to give up and accept that my 12-year-old would have to “grow out of it”…� Until a friend told me about what helped her daughter’s heel pain disappear. She said she had bought Footstr™ insoles, designed specifically for growing kids with heel pain, overpronation, and posture problems. I did some research and after reading hundreds of reviews from other parents, I decided to order them as a last try before another doctor appointment. And omg, I’m SO glad I did. Within a week, my son said the pain was almost gone.� After 2 weeks, he was running again, completely pain-free. And I’m far from the only one with a similar story 👇 ⭐⭐⭐⭐⭐�My son had heel pain for months and could barely finish soccer practice. We tried everything — new shoes, rest, and stretches. Footstr was the only thing that worked. Within 10 days he was back on the field with zero pain!�– Jessica ⭐⭐⭐⭐⭐�My 13-year-old had severe heel pain (doctor said Sever’s disease). These insoles made a night-and-day difference within a week. He even asked me to buy a second pair for his other shoes.�– Rebecca ⭐⭐⭐⭐⭐�We spen
-
-### Musabela · image · active · 20 days · pct 0.012195121951219513
-**Headline:** Buy 1 Pair, Get 1 FREE 👟👟
-
-Foot pain during long shifts? Start by taking a closer look at your shoes. Hours of standing. Hard floors. Constant movement. A cramped fit or too little support can make a demanding day feel even longer. Meet Musabela Ortho Pro™. Designed with a roomy toe box, cushioned heel and arch support, and a lightweight feel for everyday walking and standing. Space for your toes. Cushioning beneath your heels. Support under your arches. For the busy shift—and the life waiting after it. Discover 7 reasons to consider Musabela. 👇
-
-### WearStand · image · active · 20 days · pct 0.08952702702702703
-**Headline:** All-Shift Comfort, HSA/FSA Approved
-
-Your feet do the hardest work of your shift. That's why healthcare professionals turn to STAND+ recovery footwear, built to reduce strain on knees, back and joints. And the best of all, they may be HSA/FSA eligible with Truemed! Truemed is for qualified customers. HSA/FSA tax savings vary. Learn more at truemed.com/disclosures.
-
-### Footstr · image · active · 19 days · pct 0.01098901098901099
-**Headline:** Don’t make the same mistake I did…
-
-I ordered the Footstr InsoleX to fix my kid’s flat feet... And then I panicked. Was my kid going to even like these? What if he wore them once and pulled them straight back out of his cleats? What if this was just another pair of insoles that ended up sitting in the bottom of his soccer bag? I'd been through that before. Custom orthotics were the worst. And not because they didn't work. They actually did. When my son wore them, I could see that his feet weren't rolling inward nearly as much. The problem was everything it took just to get there. First we had to see a specialist. Then the assessment. Measurements. The fitting. Then we waited for them to be made. Then went back again to make sure everything fit properly. Hundreds of dollars later... we finally had these custom orthotics that were supposed to solve the problem. And my son hated wearing them. They were hard. Bulky inside his soccer cleats. He complained that they hurt his feet. At first I kept trying to convince him to give them another chance. “Just wear them for practice.” “Give them a few days.” “You'll get used to them.” Eventually I gave up. I started finding the $400 orthotics sitting in the bottom of his soccer bag instead of inside his shoes. All that money. All those appointments. All that waiting. And they weren't helping anyone sitting underneath a dirty jersey. Then a few months later, I finally convinced him to try them again. He pushed his foot into his shoe... stopped... and looked at me. “Mom, thes
-
-### Footstr · image · active · 19 days · pct 0.06593406593406594
-**Headline:** Support Flat Feet the Right Way
-
-Our biggest offer ever — up to 60% off — is ending soon. Parents everywhere are stocking up before prices go back to normal. Don’t miss out on giving your child real support, comfort, and protection for growing feet. 👉 Grab yours before the sale ends:
-
-### Footstr · image · active · 19 days · pct 0.10989010989010989
-**Headline:** Support Flat Feet the Right Way
-
-Millions of parents are treating their child’s foot and leg pain the wrong way, without even realizing it. A leading pediatric specialist just exposed the hidden culprit behind overpronation, collapsed arches, and even knee and posture problems in growing kids… And the fix? It’s surprisingly simple, no custom shoes, no physical therapy, and no expensive doctor visits. Click below to see why thousands of parents are choosing this new solution → 👉
-
-### Footstr · image · active · 19 days · pct 0.13186813186813187
-**Headline:** Support Growing Feet the Right Way
-
-Our biggest offer ever — up to 60% off — is ending soon. Parents everywhere are stocking up before prices go back to normal. Don’t miss out on giving your child real support, comfort, and protection for growing feet. 👉 Grab yours before the sale ends:
-
-### OrthoFit Store · image · active · 19 days · pct 0.0010135135135135136
+### OrthoFit Store · image · active · 24 days · pct 0.0006854009595613434
 **Headline:** Dressy Flats That Don't Pinch
 
 Soft beige, a silver buckle, and room for every toe ✨ Classic Mary Janes usually squeeze right where a bunion sits. These have a square toe box, so your toes lie flat instead. Stretch knit moves with your foot, and the cushioned insole softens hard floors and sidewalks. It goes with slacks, skirts and jeans, and it doesn't look like a comfort shoe. ⭐ 800,000+ pairs delivered · Rated 4.8 Fall Sale: 50% off with free shipping 👠 30-Day Walk Test and free size swaps. Find your size in Soft Beige 👇
 
-### Viasox · video · active · 19 days
-**Headline:** Help Reduce Leg Swelling 👉
+### victor_eliseykin with OrthoFit Store · video · active · 24 days · pct 0.010829335161069226
+**Headline:** Keep Doing What You Love
 
-I used to dread the end of the day because of how heavy, sore, and swollen my legs would feel. After hours on my feet, my calves felt tight, my ankles looked puffy, and all I wanted to do was sit down and elevate my legs. I had tried compression socks before, but most felt too tight, too uncomfortable, or dug into my skin. Then I gave Viasox Compression Socks a try. From the moment I put them on, I could feel the difference. They provided gentle graduated compression that helped support my circulation without the painfully tight feeling I’d experienced with other brands. They felt snug in the right places, comfortable enough for all-day wear, and stayed in place without digging in. Now, my legs feel supported and energized throughout the day. The swelling is noticeably reduced, and that heavy, tired feeling is much easier to manage. For anyone whose legs feel heavy, tired, or swollen by the end of the day, Viasox Compression Socks can make a huge difference. I only wish I had tried them sooner.
+Retired from work. Not from walking 👞 Long shifts, the grandkids, the long way round the block. Your shoes should keep up with all of it. An extra-wide toe box so your toes can spread. Arch support and shock-absorbing insoles under every step. Slip-on, so there is no bending and no fumbling with laces. And it still looks like a regular sneaker, not a medical shoe. ⭐ 700,000+ men switched 🔥 Up to 50% off today 🛡️ 30-day risk-free trial Check your size 👇
 
-### Euclove Clean · image · active · 18 days · pct 0.14583333333333334
-**Headline:** Ditch Harsh Chemicals Now!
+### smalltowngirlfinds with OrthoFit Store · video · active · 24 days · pct 0.014119259766963673
+**Headline:** Keep Doing What You Love
 
-Ditch harsh chemicals & save $22! Unlock our best-selling natural cleaning trio + FREE travel linen spray & shipping! One-time offer, no subscription needed.
+Retired from work. Not from walking 👞 Long shifts, the grandkids, the long way round the block. Your shoes should keep up with all of it. An extra-wide toe box so your toes can spread. Arch support and shock-absorbing insoles under every step. Slip-on, so there is no bending and no fumbling with laces. And it still looks like a regular sneaker, not a medical shoe. ⭐ 700,000+ men switched 🔥 Up to 50% off today 🛡️ 30-day risk-free trial Check your size 👇
+
+### Orthofeet · video · active · 24 days · pct 0.3719806763285024
+**Headline:** Walk With Comfort or Your Money Back!
+
+Don't go into fall with foot pain - try Orthofeet this season!
+
+### Footstr · image · active · 23 days · pct 0.007575757575757576
+**Headline:** Don’t make the same mistake I did…
+
+I ordered the Footstr InsoleX to fix my kid’s flat feet... And then I panicked. Was my kid going to even like these? What if he wore them once and pulled them straight back out of his cleats? What if this was just another pair of insoles that ended up sitting in the bottom of his soccer bag? I'd been through that before. Custom orthotics were the worst. And not because they didn't work. They actually did. When my son wore them, I could see that his feet weren't rolling inward nearly as much. The problem was everything it took just to get there. First we had to see a specialist. Then the assessment. Measurements. The fitting. Then we waited for them to be made. Then went back again to make sure everything fit properly. Hundreds of dollars later... we finally had these custom orthotics that were supposed to solve the problem. And my son hated wearing them. They were hard. Bulky inside his soccer cleats. He complained that they hurt his feet. At first I kept trying to convince him to give them another chance. “Just wear them for practice.” “Give them a few days.” “You'll get used to them.” Eventually I gave up. I started finding the $400 orthotics sitting in the bottom of his soccer bag instead of inside his shoes. All that money. All those appointments. All that waiting. And they weren't helping anyone sitting underneath a dirty jersey. Then a few months later, I finally convinced him to try them again. He pushed his foot into his shoe... stopped... and looked at me. “Mom, thes
+
+### Footstr · image · active · 23 days · pct 0.05303030303030303
+**Headline:** Support Flat Feet the Right Way
+
+Our biggest offer ever — up to 60% off — is ending soon. Parents everywhere are stocking up before prices go back to normal. Don’t miss out on giving your child real support, comfort, and protection for growing feet. 👉 Grab yours before the sale ends:
+
+### Footstr · image · active · 23 days · pct 0.07575757575757576
+**Headline:** Support Flat Feet the Right Way
+
+Millions of parents are treating their child’s foot and leg pain the wrong way, without even realizing it. A leading pediatric specialist just exposed the hidden culprit behind overpronation, collapsed arches, and even knee and posture problems in growing kids… And the fix? It’s surprisingly simple, no custom shoes, no physical therapy, and no expensive doctor visits. Click below to see why thousands of parents are choosing this new solution → 👉
+
+### Footstr · image · active · 23 days · pct 0.09090909090909091
+**Headline:** Support Growing Feet the Right Way
+
+Our biggest offer ever — up to 60% off — is ending soon. Parents everywhere are stocking up before prices go back to normal. Don’t miss out on giving your child real support, comfort, and protection for growing feet. 👉 Grab yours before the sale ends:
+
+### Content Creator with OrthoFit Store · video · active · 22 days · pct 0.004386566141192597
+**Headline:** Why I Have to Return These Shoes
+
+Learn from my mistakes and read the fine print, because now I have to return these shoes. 😅 Not because of the super wide toe box. Not because of the breathable mesh. Not because of the multi-zone relief insoles. It's because they're now 50% off and I paid full price. ⭐ Bought by 1,200,000+ women 🔥 Fall Sale: 50% off + free shipping 🎁 Free relief insoles + eBooks ($70 value) 🛡️ 30-Day Walk Test: wear them outside, full refund if they're not for you Get yours on sale 👇
+
+### Amazon Finds with Becky with OrthoFit Store · video · active · 22 days · pct 0.005620287868403016
+**Headline:** Two Weeks In, I Ordered a Second Pair
+
+I've been wearing these for about two weeks, and they're the most comfortable sneakers I've ever had. 👟 The box toe gives your toes plenty of room. They're flexible, breathable and have a non-slip sole. The insoles add arch support and shock absorption too. I just ordered my second pair in light blue. ⭐ Worn by 1,200,000+ women 🔥 Fall Sale: 50% off + free shipping 🎁 Free relief insoles + eBooks ($70 value) 🛡️ 30-Day Walk Test: wear them outside, full refund if they're not for you Check out below 👇
+
+### kiya davelaar with OrthoFit Store · video · active · 22 days · pct 0.006442769019876628
+**Headline:** They Only Look Like Regular Sneakers
+
+These may look like regular sneakers, but check out what's built into them. 👀 Arch support, a shock-absorbing sole, a wider toe box, and a lightweight, breathable upper. Good for errands, long hours on your feet or just walking. ⭐ Loved by 700,000+ men 🔥 Fall Sale: 50% off + free shipping 🛡️ 30-Day Walk Test: wear them outside, full refund if they're not for you Check them out below 👇
+
+### whit_laine with OrthoFit Store · video · active · 22 days · pct 0.008361891706648389
+**Headline:** Finally, Cute Shoes for Wide Feet
+
+If you have wide feet like me, I need to show you something. 👟 Cute, low-profile sneakers that actually fit. Cushiony underfoot, roomy in the toes, and they come in standard, wide and extra wide. So many colors, you may want more than one pair. ⭐ Bought by 1,200,000+ women 🔥 Fall Sale: 50% off + free shipping 🎁 Free relief insoles + eBooks ($70 value) 🛡️ 30-Day Walk Test: wear them outside, full refund if they're not for you Grab your color and width 👇
+
+### smalltowngirlfinds with OrthoFit Store · video · active · 22 days · pct 0.01233721727210418
+**Headline:** Seriously Sharp. Seriously Comfortable
+
+Navy knit wingtip sneakers. Brown heel. Chunky white sole with that little red line. 👞 Seriously sharp, with a wider toe box and arch support built in. No laces to tie, either. ⭐ Worn by 700,000+ men every day 🔥 Fall Sale: 50% off + free shipping 🛡️ 30-Day Walk Test: wear them outside, full refund if they're not for you See them here 👇
+
+### smalltowngirlfinds with OrthoFit Store · video · active · 22 days · pct 0.01549006168608636
+**Headline:** Why Men Are Buying 2 or 3 Pairs
+
+People are buying two or three pairs of these today. 👀 They're on a big sale right now, and they're selling fast. Wide toe box, cushioned sole and no laces to tie, in a sneaker that still looks sharp. ⭐ 700,000+ pairs delivered 🔥 Fall Sale: 50% off + free shipping 🛡️ 30-Day Walk Test: wear them outside, full refund if they're not for you Grab yours while the sale lasts 👇
+
+### 100 year old homestead with OrthoFit Store · video · active · 22 days · pct 0.028512679917751884
+**Headline:** Stylish Shoes for Women Over 50
+
+I'm a 59-year-old grandmother and I knew these were my shoes the second I put them on. 👵 Wide toe box. Nice breathable material. Flexible enough to help me feel steady on my feet, and stylish enough to wear anywhere. If you're over 50 like me, your toes shouldn't be pinched all day. ⭐ Worn by 1,200,000+ women 🔥 Fall Sale: 50% off + free shipping 🎁 Free relief insoles + eBooks ($70 value) 🛡️ 30-Day Walk Test: wear them outside, full refund if they're not for you Choose your size 👇
+
+### Clove · image · active · 21 days · pct 0.24632352941176472
+**Headline:** Fresh colors. Full-shift comfort.
+
+Fresh out of the freezer. 🍧 The Sherbet Collection brings three new feel-good colors to the shoes built to keep up with your shift.
+
+### 100yearoldhomestead with OrthoFit Store · video · active · 21 days · pct 0.04482522275531186
+**Headline:** Stylish Shoes for Women Over 50
+
+I'm a 59-year-old grandmother and I knew these were my shoes the second I put them on. 👵 Wide toe box. Nice breathable material. Flexible enough to help me feel steady on my feet, and stylish enough to wear anywhere. If you're over 50 like me, your toes shouldn't be pinched all day. ⭐ Worn by 1,200,000+ women 🔥 Fall Sale: 50% off + free shipping 🎁 Free relief insoles + eBooks ($70 value) 🛡️ 30-Day Walk Test: wear them outside, full refund if they're not for you Choose your size 👇
+
+### Emily Francis Wheaton with Vionic Shoes · video · active · 21 days · pct 0.2976190476190476
+
+I didn’t know I could love a slipper this much until I tried the peppa from @vionicshoes ☁️ so plush while still giving my all feet the support the need, my dream addition for cozy season. 🤎 #vionicpartner
+
+### Grasie Mercedes with Vionic Shoes · video · active · 21 days · pct 0.38095238095238093
+
+Boots that combine style with science? Absolutely!I now own three pairs of @vionicshoes and my feet are very happy.👢🤗 Comment BOOTS for the link. Featured here are the Thora boots in DESERT SAND SUEDE. #vionicpartner • style over 40 • arch support
+
+### Armadilo · image · active · 20 days · pct 0.023255813953488372
+**Headline:** Complete All-Day Foot Support
+
+Is Your Footwear Holding You Back? Discover the Unseen Comfort and Support of Torrey Clogs.
+
+### Armadilo · image · active · 20 days · pct 0.16279069767441862
+**Headline:** Save 60% OFF | Ends soon...
+
+Say goodbye to aching feet! Designed for all-day comfort with a wide toe box, balanced support, and lightweight cushioning that does not collapse after a few weeks. 57,000+ people have already discovered their comfort paradise with Aerion. Our limited-time offer ends soon.... shop now!
+
+### Armadilo · image · active · 20 days · pct 0.23255813953488372
+**Headline:** Limited Time Offer
+
+Say goodbye to aching feet! Designed for all-day comfort with a wide toe box, balanced support, and lightweight cushioning that does not collapse after a few weeks. 57,000+ people have already discovered their comfort paradise with Aerion. Buy one. Get one free. While this offer is still live.
+
+### Footstr · image · active · 20 days · pct 0.030303030303030304
+**Headline:** Support Your Child’s Knee Pain The Right Way
+
+No kid should suffer through knee pain… And worse, through months of rest, doctor visits, and physical therapy that barely help. The list of "solutions" we tried was long: 😡 Knee braces 😡😡 Ice and anti-inflammatory gel 😡😡😡 Activity restrictions 😡😡😡😡 Orthopedic visits 😡😡😡😡😡 Weeks of forced rest from every sport he loved All that and he still couldn't run without pain. Even worse, every time he got back to sports, the pain came right back. I was about to give up and accept that my 12-year-old would have to "grow out of it"… Until a friend told me about what helped her daughter's knee pain disappear. She said she had bought Footstr™ insoles, designed specifically for growing kids with knee pain, overpronation, and alignment problems. I did some research and after reading hundreds of reviews from other parents, I decided to order them as a last try before another doctor appointment. And omg, I'm SO glad I did. Within a week, my son said the pain was almost gone. After 2 weeks, he was running again, completely pain-free. And I'm far from the only one with a similar story 👇 ⭐⭐⭐⭐⭐ My son had Osgood-Schlatter for almost a year. He could barely make it through soccer practice without stopping to hold his knees. We tried braces, rest, everything. Footstr was the only thing that actually helped. Within 10 days he was back on the field with zero pain! – Jessica ⭐⭐⭐⭐⭐ My 13-year-old was diagnosed with Osgood-Schlatter and told to just rest. Months of sitting out and nothing changed. These
+
+### Footstr · image · active · 20 days · pct 0.045454545454545456
+**Headline:** Support Heel Pain the Right Way
+
+No kid should suffer through heel pain… And worse, through months of rest, doctor visits, and physical therapy that barely help. The list of “solutions” we tried was long: 😡 New shoes 😡😡 Ice and pain gel 😡😡😡 Heel cups and braces 😡😡😡😡 Orthopedic visits 😡😡😡😡😡 Weeks of forced rest All that and he still couldn’t walk without pain.� Even worse, every time he got back to sports, the pain came right back. I was about to give up and accept that my 12-year-old would have to “grow out of it”…� Until a friend told me about what helped her daughter’s heel pain disappear. She said she had bought Footstr™ insoles, designed specifically for growing kids with heel pain, overpronation, and posture problems. I did some research and after reading hundreds of reviews from other parents, I decided to order them as a last try before another doctor appointment. And omg, I’m SO glad I did. Within a week, my son said the pain was almost gone.� After 2 weeks, he was running again, completely pain-free. And I’m far from the only one with a similar story 👇 ⭐⭐⭐⭐⭐�My son had heel pain for months and could barely finish soccer practice. We tried everything — new shoes, rest, and stretches. Footstr was the only thing that worked. Within 10 days he was back on the field with zero pain!�– Jessica ⭐⭐⭐⭐⭐�My 13-year-old had severe heel pain (doctor said Sever’s disease). These insoles made a night-and-day difference within a week. He even asked me to buy a second pair for his other shoes.�– Rebecca ⭐⭐⭐⭐⭐�We spen
+
+### OrthoFit Store · image · active · 20 days · pct 0.00205620287868403
+**Headline:** Made For Senior Women's Feet
+
+A comfort sneaker made for senior women's feet. 💙 Wide feet, bunions, tight shoes and tired soles were the problems we designed around. Room at the toes, cushioning under the heel and a breathable knit, in a black sneaker that looks like any other. ⭐ 500,000+ women switched 🛡️ 30 days to try them on your own walks Find your size and width 👇
+
+### Dr. Leada Malek, PT, DPT, SCS with Orthofeet · video · active · 20 days · pct 0.057971014492753624
+
+10+ hours in bad shoes sucks. @orthofeet_us 👀 If you’re in healthcare, teaching, retail, hospitality, anything where you’re on your feet for 8-12+ hours straight, you KNOW the struggle. Half your day isn’t even over and your dogs are already barkin lmao. Nobody warns you in PT school that one of the hardest parts of the job would be your SHOES. 10 years in and so much time in khakis, a polo, and rotating between 2 pairs of pants that could survive exercise demos AND manual therapy AND still look somewhat professional. You could reach for sneakers but did not make you feel great by the end of the day. You just wore what everyone wore. They were an afterthought or whatever survived. Orthofeet happened and I genuinely don’t know why it took a decade. 12 hour standing days. walking, pivoting, crouching down to spot someone’s squat, back up, demoing more exercises. Hour 10 hits and my feet feel surprisingly... great. I used to feel like my feet were dead the thought of continuing on for a workout was tiring. A few people already asked what makes these different so here are my fave specs: -Adjustable arch support (!!) -Comfy insoles that cradle your feet and accommodate natural foot changes throughout the day -Wide toe box -Lightweight, breathable stretch upper -Pressure-free comfort contours to your foot shape, keeping sensitive areas like bunions and swollen feet free from irritation -60-day return policy so you can actually see if they can handle your life for 2 months! If you’v
+
+### Your Mom Friend with Orthofeet · video · active · 20 days · pct 0.08695652173913043
+
+Mobility is the superpower we don’t know we have until it’s gone. @orthofeet_us shoes empower a lifetime of mobility and memories, and they look cute doing it. #ad #orthofeetpartner
+
+### Tana Amen, BSN, RN with Orthofeet · video · active · 20 days · pct 0.10144927536231885
+
+I spent years thinking my back was the problem. After my injury, I learned something that changed the way I think about movement forever: your body works as one connected system. When your feet aren’t properly supported, your ankles, knees, hips, pelvis, and even your lower back can end up compensating. I can’t change my scoliosis or the injuries I’ve had, but I can choose the things that help me move with less pain and keep doing the things I love. That’s why I’ve been wearing @orthofeet_us. They give me the support and shock absorption I need, and yes, they’re actually cute too. Because if they weren’t... I’d probably still be searching. #OrthofeetPartner #HealthyAging #HealthyLiving #MobilityMatters #FootHealth
+
+### Christine Kirmsse with Orthofeet · video · active · 20 days · pct 0.19806763285024154
+
+First impressions of the @orthofeet_us Dart Hands-Free sneaker! I have a feeling I won’t need the full 60 days but I’m excited to report back! If you want to try them with me they're linked in my bio 🤍👟 #orthofeetpartner #nurseshoes #nurselife #sneakerreview #nursesofinstagram
+
+### Orthofeet · video · active · 20 days · pct 0.21739130434782608
+**Headline:** Walk With Comfort or Your Money Back!
+
+See for yourself why over 250,000 people love Orthofeet!
+
+### Brittb.the.dpt with Orthofeet · video · active · 20 days · pct 0.25120772946859904
+
+3 jobs. 1 pair of shoes. 👟 Physical therapist 🩺, gym girl 🏋️‍♀️, marathon runner 🏃‍♀️… my feet genuinely don’t know the difference some days. As a PT, patients always ask me what shoes they should be wearing, and @orthofeet_us has become the one I actually tell them 💕. Real arch support, holds up through literally everything I throw at it ✨ Shop the pair in my bio 🔗 #orthofeetpartner
+
+### Foamr · image · active · 19 days · pct 0.027586206896551724
+**Headline:** Jetzt bis zu 70 % Rabatt!
+
+Fühlt sich jeder Schritt wie ein Stich in die Ferse an? Foamr® Massage-Einlegesohlen lindern sofort den Druck bei Fersensporn & Plantarfasziitis. Machen Sie endlich wieder schmerzfreie Schritte. ✅ Sofortige Linderung bei stechenden Fersenschmerzen ✅ Memory Foam, der dauerhaft wirkt ✅ Passt in jeden Schuh ⚡ Bis zu 70 % RABATT ✨ 30 Tage risikofrei testen 👉 Jetzt bestellen: https://foamr.de/products/foamr-massage-einlegesohlen-lindern-fersensporn-plantarfasziitis
+
+### Konjoun Barefoot · image · active · 19 days · pct 0.09817671809256662
+**Headline:** ❗ Buy 2, Get 2 FREE + Free Shipping. Early Black Friday
+
+This almost never happens. SuperSocks Wood Carved Edition is on Early Black Friday right now: buy 2 pairs, get 2 free, plus free shipping. If you've been sitting on this, now's the time. Over 158,395 people have stopped treating their knee and back pain and started fixing what was actually causing it. It was never just bad knees or a bad back. Their foot muscles had stopped firing, because cushioned shoes had been blocking the ground signal that wakes them up, for years. ====== That's why they switched to the Wood Carved Edition. 🦶 Patented pressure-mapped sole: foot biomechanists placed the pads on the exact points where your foot takes the load (toes, forefoot, heel) ⚡ Ground signal restored: the carved pads send back the feedback cushioning blocks, so your foot muscles start working again 🔗 Stronger feet, less compensation: when your feet do their job, your knees, hips and back stop picking up the slack 🛡️ Dyneema® knit: cut and puncture resistant, under 2mm thin, so you still feel the ground 💪 No exercises. No routines. Just walking. ====== Get 4 pairs for the price of 2 👇 ✅ Buy 2, get 2 free 📦 Free shipping ✅ 30-day money-back guarantee 🏭 Patented pressure-mapped sole ⭐ Worn by 158,395+ people
+
+### OrthoFit Store · image · active · 19 days · pct 0.002467443454420836
+**Headline:** Sorry! Every Pair Is 50% Off
+
+We're sorry. We got the numbers wrong 🙏 We made more of our women's wide toe box sneakers than we planned, and the warehouse is full. To clear it, every pair is 50% off while stock lasts. If you've been putting up with tight, narrow shoes, this is a good time to try a pair with real room for your toes. ⭐ 1,200,000+ pairs delivered · Rated 4.8 🎁 Free Multi-Zone Relief Insoles + 6-Book Foot Relief Library 30-Day Walk Test included. Check your size before this batch is gone 👇
+
+### OrthoFit Store · image · active · 19 days · pct 0.0028786840301576423
+**Headline:** Comfortable Steps Start Here
+
+A comfortable step for every senior woman. 💐 If your feet ache by lunchtime, the problem is often a shoe that squeezes your toes together. ✅ Wide, foot-shaped toe box ✅ Soft knit that stretches where you need it ✅ Light, cushioned sole for all-day walking ⭐ 500,000+ women switched 🛡️ 30 days to try them on your own walks Find your size and width 👇
+
+### Orthofeet · video · active · 19 days · pct 0.391304347826087
+
+I spent years thinking my back was the problem. After my injury, I learned something that changed the way I think about movement forever: your body works as one connected system. When your feet aren’t properly supported, your ankles, knees, hips, pelvis, and even your lower back can end up compensating. I can’t change my scoliosis or the injuries I’ve had, but I can choose the things that help me move with less pain and keep doing the things I love. That’s why I’ve been wearing @orthofeet_us. They give me the support and shock absorption I need, and yes, they’re actually cute too. Because if they weren’t... I’d probably still be searching. #OrthofeetPartner #HealthyAging #HealthyLiving #MobilityMatters #FootHealth
 
 ### Clove · image · active · 18 days
 **Headline:** Meet The Pink Forte 2 💗
 
 Your next shift just got a little more pink. 💗 Meet the Forte 2 in Rose Pink/Sky, made for comfort, support and easy cleaning.
 
-### Orthofeet · video · active · 18 days · pct 0.17857142857142858
-**Headline:** Walk With Comfort or Your Money Back!
-
-See for yourself why over 250,000 people love Orthofeet!
-
-### Content Creator with OrthoFit Store · video · active · 17 days · pct 0.005574324324324325
-**Headline:** Why I Have to Return These Shoes
-
-Learn from my mistakes and read the fine print, because now I have to return these shoes. 😅 Not because of the super wide toe box. Not because of the breathable mesh. Not because of the multi-zone relief insoles. It's because they're now 50% off and I paid full price. ⭐ Bought by 1,200,000+ women 🔥 Fall Sale: 50% off + free shipping 🎁 Free relief insoles + eBooks ($70 value) 🛡️ 30-Day Walk Test: wear them outside, full refund if they're not for you Get yours on sale 👇
-
-### kiya davelaar with OrthoFit Store · video · active · 17 days · pct 0.00793918918918919
-**Headline:** They Only Look Like Regular Sneakers
-
-These may look like regular sneakers, but check out what's built into them. 👀 Arch support, a shock-absorbing sole, a wider toe box, and a lightweight, breathable upper. Good for errands, long hours on your feet or just walking. ⭐ Loved by 700,000+ men 🔥 Fall Sale: 50% off + free shipping 🛡️ 30-Day Walk Test: wear them outside, full refund if they're not for you Check them out below 👇
-
-### Amazon Finds with Becky with OrthoFit Store · video · active · 17 days · pct 0.008108108108108109
-**Headline:** Two Weeks In, I Ordered a Second Pair
-
-I've been wearing these for about two weeks, and they're the most comfortable sneakers I've ever had. 👟 The box toe gives your toes plenty of room. They're flexible, breathable and have a non-slip sole. The insoles add arch support and shock absorption too. I just ordered my second pair in light blue. ⭐ Worn by 1,200,000+ women 🔥 Fall Sale: 50% off + free shipping 🎁 Free relief insoles + eBooks ($70 value) 🛡️ 30-Day Walk Test: wear them outside, full refund if they're not for you Check out below 👇
-
-### Creatingwithdawn with OrthoFit Store · video · active · 17 days · pct 0.016371533578349484
-**Headline:** Love the Look. Enjoy the Comfort.
-
-The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
-
-### whit_laine with OrthoFit Store · video · active · 17 days · pct 0.010641891891891892
-**Headline:** Finally, Cute Shoes for Wide Feet
-
-If you have wide feet like me, I need to show you something. 👟 Cute, low-profile sneakers that actually fit. Cushiony underfoot, roomy in the toes, and they come in standard, wide and extra wide. So many colors, you may want more than one pair. ⭐ Bought by 1,200,000+ women 🔥 Fall Sale: 50% off + free shipping 🎁 Free relief insoles + eBooks ($70 value) 🛡️ 30-Day Walk Test: wear them outside, full refund if they're not for you Grab your color and width 👇
-
-### 100yearoldhomestead with OrthoFit Store · video · active · 17 days · pct 0.05388513513513513
-**Headline:** Stylish Shoes for Women Over 50
-
-I'm a 59-year-old grandmother and I knew these were my shoes the second I put them on. 👵 Wide toe box. Nice breathable material. Flexible enough to help me feel steady on my feet, and stylish enough to wear anywhere. If you're over 50 like me, your toes shouldn't be pinched all day. ⭐ Worn by 1,200,000+ women 🔥 Fall Sale: 50% off + free shipping 🎁 Free relief insoles + eBooks ($70 value) 🛡️ 30-Day Walk Test: wear them outside, full refund if they're not for you Choose your size 👇
-
-### 100 year old homestead with OrthoFit Store · video · active · 17 days · pct 0.03429054054054054
-**Headline:** Stylish Shoes for Women Over 50
-
-I'm a 59-year-old grandmother and I knew these were my shoes the second I put them on. 👵 Wide toe box. Nice breathable material. Flexible enough to help me feel steady on my feet, and stylish enough to wear anywhere. If you're over 50 like me, your toes shouldn't be pinched all day. ⭐ Worn by 1,200,000+ women 🔥 Fall Sale: 50% off + free shipping 🎁 Free relief insoles + eBooks ($70 value) 🛡️ 30-Day Walk Test: wear them outside, full refund if they're not for you Choose your size 👇
-
-### bricepicks with OrthoFit Store · video · active · 17 days · pct 0.05456081081081081
-**Headline:** Keep Doing What You Love
-
-Retired from work. Not from walking 👞 Long shifts, the grandkids, the long way round the block. Your shoes should keep up with all of it. An extra-wide toe box so your toes can spread. Arch support and shock-absorbing insoles under every step. Slip-on, so there is no bending and no fumbling with laces. And it still looks like a regular sneaker, not a medical shoe. ⭐ 700,000+ men switched 🔥 Up to 50% off today 🛡️ 30-day risk-free trial Check your size 👇
-
-### Armadilo · image · active · 16 days · pct 0.025
-**Headline:** Complete All-Day Foot Support
-
-Is Your Footwear Holding You Back? Discover the Unseen Comfort and Support of Torrey Clogs.
-
-### Armadilo · image · active · 16 days · pct 0.1
-**Headline:** Limited Time Offer
-
-Say goodbye to aching feet! Designed for all-day comfort with a wide toe box, balanced support, and lightweight cushioning that does not collapse after a few weeks. 57,000+ people have already discovered their comfort paradise with Aerion. Buy one. Get one FREE while this offer is still live.
-
-### Armadilo · image · active · 16 days · pct 0.125
-**Headline:** Save 60% OFF | Ends soon...
-
-Say goodbye to aching feet! Designed for all-day comfort with a wide toe box, balanced support, and lightweight cushioning that does not collapse after a few weeks. 57,000+ people have already discovered their comfort paradise with Aerion. Our limited-time offer ends soon.... shop now!
-
-### Footstr · image · active · 16 days · pct 0.054945054945054944
-**Headline:** Support Your Child’s Knee Pain The Right Way
-
-No kid should suffer through knee pain… And worse, through months of rest, doctor visits, and physical therapy that barely help. The list of "solutions" we tried was long: 😡 Knee braces 😡😡 Ice and anti-inflammatory gel 😡😡😡 Activity restrictions 😡😡😡😡 Orthopedic visits 😡😡😡😡😡 Weeks of forced rest from every sport he loved All that and he still couldn't run without pain. Even worse, every time he got back to sports, the pain came right back. I was about to give up and accept that my 12-year-old would have to "grow out of it"… Until a friend told me about what helped her daughter's knee pain disappear. She said she had bought Footstr™ insoles, designed specifically for growing kids with knee pain, overpronation, and alignment problems. I did some research and after reading hundreds of reviews from other parents, I decided to order them as a last try before another doctor appointment. And omg, I'm SO glad I did. Within a week, my son said the pain was almost gone. After 2 weeks, he was running again, completely pain-free. And I'm far from the only one with a similar story 👇 ⭐⭐⭐⭐⭐ My son had Osgood-Schlatter for almost a year. He could barely make it through soccer practice without stopping to hold his knees. We tried braces, rest, everything. Footstr was the only thing that actually helped. Within 10 days he was back on the field with zero pain! – Jessica ⭐⭐⭐⭐⭐ My 13-year-old was diagnosed with Osgood-Schlatter and told to just rest. Months of sitting out and nothing changed. These
-
-### Dr. Leada Malek, PT, DPT, SCS with Orthofeet · video · active · 16 days · pct 0.07653061224489796
-
-10+ hours in bad shoes sucks. @orthofeet_us 👀 If you’re in healthcare, teaching, retail, hospitality, anything where you’re on your feet for 8-12+ hours straight, you KNOW the struggle. Half your day isn’t even over and your dogs are already barkin lmao. Nobody warns you in PT school that one of the hardest parts of the job would be your SHOES. 10 years in and so much time in khakis, a polo, and rotating between 2 pairs of pants that could survive exercise demos AND manual therapy AND still look somewhat professional. You could reach for sneakers but did not make you feel great by the end of the day. You just wore what everyone wore. They were an afterthought or whatever survived. Orthofeet happened and I genuinely don’t know why it took a decade. 12 hour standing days. walking, pivoting, crouching down to spot someone’s squat, back up, demoing more exercises. Hour 10 hits and my feet feel surprisingly... great. I used to feel like my feet were dead the thought of continuing on for a workout was tiring. A few people already asked what makes these different so here are my fave specs: -Adjustable arch support (!!) -Comfy insoles that cradle your feet and accommodate natural foot changes throughout the day -Wide toe box -Lightweight, breathable stretch upper -Pressure-free comfort contours to your foot shape, keeping sensitive areas like bunions and swollen feet free from irritation -60-day return policy so you can actually see if they can handle your life for 2 months! If you’v
-
-### Your Mom Friend with Orthofeet · video · active · 16 days · pct 0.09183673469387756
-
-Mobility is the superpower we don’t know we have until it’s gone. @orthofeet_us shoes empower a lifetime of mobility and memories, and they look cute doing it. #ad #orthofeetpartner
-
-### Tana Amen, BSN, RN with Orthofeet · video · active · 16 days · pct 0.10714285714285714
-
-I spent years thinking my back was the problem. After my injury, I learned something that changed the way I think about movement forever: your body works as one connected system. When your feet aren’t properly supported, your ankles, knees, hips, pelvis, and even your lower back can end up compensating. I can’t change my scoliosis or the injuries I’ve had, but I can choose the things that help me move with less pain and keep doing the things I love. That’s why I’ve been wearing @orthofeet_us. They give me the support and shock absorption I need, and yes, they’re actually cute too. Because if they weren’t... I’d probably still be searching. #OrthofeetPartner #HealthyAging #HealthyLiving #MobilityMatters #FootHealth
-
-### Christine Kirmsse with Orthofeet · video · active · 16 days · pct 0.17346938775510204
-
-First impressions of the @orthofeet_us Dart Hands-Free sneaker! I have a feeling I won’t need the full 60 days but I’m excited to report back! If you want to try them with me they're linked in my bio 🤍👟 #orthofeetpartner #nurseshoes #nurselife #sneakerreview #nursesofinstagram
-
-### Brittb.the.dpt with Orthofeet · video · active · 16 days · pct 0.2755102040816326
-
-3 jobs. 1 pair of shoes. 👟 Physical therapist 🩺, gym girl 🏋️‍♀️, marathon runner 🏃‍♀️… my feet genuinely don’t know the difference some days. As a PT, patients always ask me what shoes they should be wearing, and @orthofeet_us has become the one I actually tell them 💕. Real arch support, holds up through literally everything I throw at it ✨ Shop the pair in my bio 🔗 #orthofeetpartner
-
-### Everly's Entourage with Orthofeet · video · active · 16 days · pct 0.3469387755102041
-
-#AD Caregiver hooves deserve love, too. 🐴😂 Between chemotherapy appointments, therapies, hospital visits, and chasing a toddler who apparently has unlimited energy, my feet have been putting in some SERIOUS overtime. And while I'm pretty good at making sure Everly has everything she needs, taking care of myself? Ehhh, we're working on it. 🫠 So when I reached out to @orthofeet_us , I figured it was time to give the feet behind Everly's Entourage a little attention. 👟💜 Because you can't pour from an empty cup… or run on exhausted hooves. 😂 Thank you, @orthofeet_us , for gifting me these shoes and reminding this caregiver that she deserves a little TLC, too! #Orthofeet #CaregiverLife #MedicallyComplexMotherhood #EverlysEntourage #endnf
-
-### Orthofeet · video · active · 16 days · pct 0.3877551020408163
-
-Mobility is the superpower we don’t know we have until it’s gone. @orthofeet_us shoes empower a lifetime of mobility and memories, and they look cute doing it. #ad #orthofeetpartner
-
-### Emily Francis Wheaton with Vionic Shoes · video · active · 16 days · pct 0.34146341463414637
-
-I didn’t know I could love a slipper this much until I tried the peppa from @vionicshoes ☁️ so plush while still giving my all feet the support the need, my dream addition for cozy season. 🤎 #vionicpartner
-
-### Grasie Mercedes with Vionic Shoes · video · active · 16 days · pct 0.45121951219512196
-
-Boots that combine style with science? Absolutely!I now own three pairs of @vionicshoes and my feet are very happy.👢🤗 Comment BOOTS for the link. Featured here are the Thora boots in DESERT SAND SUEDE. #vionicpartner • style over 40 • arch support
-
-### WearStand · image · active · 16 days · pct 0.14864864864864866
-**Headline:** Master Your Shift, Pain-Free
-
-The kitchen demands peak performance, and your feet shouldn't hold you back. STAND+ is engineered with advanced support technology, giving culinary professionals the stamina and relief they need to excel through the longest shifts.
-
-### Clove · image · active · 15 days · pct 0.467680608365019
-**Headline:** The Gift of Comfort
-
-Give the gift of comfort. Shop Clove favorites & cozy extras they'll love all season long.
-
-### Foamr · image · active · 15 days · pct 0.013986013986013986
-**Headline:** Jetzt bis zu 70 % Rabatt!
-
-Fühlt sich jeder Schritt wie ein Stich in die Ferse an? Foamr® Massage-Einlegesohlen lindern sofort den Druck bei Fersensporn & Plantarfasziitis. Machen Sie endlich wieder schmerzfreie Schritte. ✅ Sofortige Linderung bei stechenden Fersenschmerzen ✅ Memory Foam, der dauerhaft wirkt ✅ Passt in jeden Schuh ⚡ Bis zu 70 % RABATT ✨ 30 Tage risikofrei testen 👉 Jetzt bestellen: https://foamr.de/products/foamr-massage-einlegesohlen-lindern-fersensporn-plantarfasziitis
-
-### OrthoFit Store · image · active · 15 days · pct 0.002533783783783784
-**Headline:** Made For Senior Women's Feet
-
-A comfort sneaker made for senior women's feet. 💙 Wide feet, bunions, tight shoes and tired soles were the problems we designed around. Room at the toes, cushioning under the heel and a breathable knit, in a black sneaker that looks like any other. ⭐ 500,000+ women switched 🛡️ 30 days to try them on your own walks Find your size and width 👇
-
-### OrthoFit Store · image · active · 15 days · pct 0.002702702702702703
-**Headline:** Sorry! Every Pair Is 50% Off
-
-We're sorry. We got the numbers wrong 🙏 We made more of our women's wide toe box sneakers than we planned, and the warehouse is full. To clear it, every pair is 50% off while stock lasts. If you've been putting up with tight, narrow shoes, this is a good time to try a pair with real room for your toes. ⭐ 1,200,000+ pairs delivered · Rated 4.8 🎁 Free Multi-Zone Relief Insoles + 6-Book Foot Relief Library 30-Day Walk Test included. Check your size before this batch is gone 👇
-
-### OrthoFit Store · image · active · 15 days · pct 0.004560810810810811
-**Headline:** Navy Goes With Everything 💙
-
-Navy goes with everything. So do comfortable feet 😊 This navy knit sneaker has an extra-wide toe box so your toes can spread, plus arch support and shock-absorbing insoles. Wear it to lunch, the shops or a long walk. ⭐ 500,000+ happy customers See the anti-granny sneaker 👇
-
-### 100 year old homestead with OrthoFit Store · video · active · 15 days · pct 0.05540540540540541
-**Headline:** She Didn't Expect This Much Comfort
-
-Lisa didn't expect a wide-toe-box shoe to feel this comfortable. 👟 She shows her OrthoFit sneakers up close and shares what she likes about the fit. Flexible for everyday wear, with more space at the front and several colors to choose from. Take a closer look and check your size 👇
-
-### Vionic Shoes · image · active · 15 days · pct 0.08536585365853659
-**Headline:** Get Cozy.
-
-The softness you want. The support you need.
-
-### Vionic Shoes · video · active · 15 days · pct 0.4634146341463415
-**Headline:** Meet Gretchen.
-
-The statement boot that pulls your look together.​ Gretchen brings the presence.
-
-### Konjoun Barefoot · image · active · 14 days
-**Headline:** ❗ Buy 2, Get 2 FREE + Free Shipping. Early Black Friday
-
-This almost never happens. SuperSocks Wood Carved Edition is on Early Black Friday right now: buy 2 pairs, get 2 free, plus free shipping. If you've been sitting on this, now's the time. Over 158,395 people have stopped treating their knee and back pain and started fixing what was actually causing it. It was never just bad knees or a bad back. Their foot muscles had stopped firing, because cushioned shoes had been blocking the ground signal that wakes them up, for years. ====== That's why they switched to the Wood Carved Edition. 🦶 Patented pressure-mapped sole: foot biomechanists placed the pads on the exact points where your foot takes the load (toes, forefoot, heel) ⚡ Ground signal restored: the carved pads send back the feedback cushioning blocks, so your foot muscles start working again 🔗 Stronger feet, less compensation: when your feet do their job, your knees, hips and back stop picking up the slack 🛡️ Dyneema® knit: cut and puncture resistant, under 2mm thin, so you still feel the ground 💪 No exercises. No routines. Just walking. ====== Get 4 pairs for the price of 2 👇 ✅ Buy 2, get 2 free 📦 Free shipping ✅ 30-day money-back guarantee 🏭 Patented pressure-mapped sole ⭐ Worn by 158,395+ people
-
-### OrthoFit Store · image · active · 14 days · pct 0.0035472972972972975
-**Headline:** Comfortable Steps Start Here
-
-A comfortable step for every senior woman. 💐 If your feet ache by lunchtime, the problem is often a shoe that squeezes your toes together. ✅ Wide, foot-shaped toe box ✅ Soft knit that stretches where you need it ✅ Light, cushioned sole for all-day walking ⭐ 500,000+ women switched 🛡️ 30 days to try them on your own walks Find your size and width 👇
-
-### OrthoFit Store · video · active · 14 days · pct 0.007432432432432433
-**Headline:** Give Your Toes Room To Travel ✈️
-
-He packed sneakers for the trip. He hadn't planned on stopping to rest his feet. ✈️ This animated travel story follows a grandfather trying to keep up at Tokyo Disney and the older walker who gets him thinking about his shoes. OrthoFit's men's walking sneakers give toes room across the front, with a breathable upper and no laces to tie. ⭐ Worn by 700,000+ men The Fall Sale is 50% off with free US shipping. Take them outside with the 30-Day Walk Test. 👇
-
-### bricepicks with OrthoFit Store · video · active · 14 days · pct 0.05168918918918919
-**Headline:** See The Current OrthoFit Offer
-
-Been waiting to try the OrthoFit men's walking sneaker? 👟 Take a look at the current offer and check your size.
-
-### Orthofeet · video · active · 14 days · pct 0.41836734693877553
-
-10+ hours in bad shoes sucks. @orthofeet_us 👀 If you’re in healthcare, teaching, retail, hospitality, anything where you’re on your feet for 8-12+ hours straight, you KNOW the struggle. Half your day isn’t even over and your dogs are already barkin lmao. Nobody warns you in PT school that one of the hardest parts of the job would be your SHOES. 10 years in and so much time in khakis, a polo, and rotating between 2 pairs of pants that could survive exercise demos AND manual therapy AND still look somewhat professional. You could reach for sneakers but did not make you feel great by the end of the day. You just wore what everyone wore. They were an afterthought or whatever survived. Orthofeet happened and I genuinely don’t know why it took a decade. 12 hour standing days. walking, pivoting, crouching down to spot someone’s squat, back up, demoing more exercises. Hour 10 hits and my feet feel surprisingly... great. I used to feel like my feet were dead the thought of continuing on for a workout was tiring. A few people already asked what makes these different so here are my fave specs: -Adjustable arch support (!!) -Comfy insoles that cradle your feet and accommodate natural foot changes throughout the day -Wide toe box -Lightweight, breathable stretch upper -Pressure-free comfort contours to your foot shape, keeping sensitive areas like bunions and swollen feet free from irritation -60-day return policy so you can actually see if they can handle your life for 2 months! If you’v
-
-### Viasox · image · active · 14 days · pct 0.01791359325605901
-**Headline:** Freshly Brewed Bundle 👉
-
-☕ Something cozy is brewing at Viasox... 🤎 The NEW Espresso Bundle just dropped, featuring five new EasyStretch designs made for anyone who loves coffee breaks, cozy mornings, and warm shades of brown and cream. From espresso martinis and little hearts to chocolate plaid, mocha checks, and books with your favorite brew, these socks bring coffeehouse charm straight to your sock drawer. 🍸 Espresso Martinis 🤎 Love Beans 🍫 Chocolate Plaid ☕ Mocha Checkers 📚 Books and Brews Your morning coffee already makes you happy. Now your socks can join in. ☕ Get the whole Espresso Bundle with Buy 2, Get 3 FREE and give your sock drawer a cozy refresh!
-
-### Vionic Shoes · video · active · 14 days · pct 0.3048780487804878
-**Headline:** Find Your Boot.
-
-The shop just got bigger. The boots we can't live without.
-
-### WearStand · image · active · 14 days · pct 0.42736486486486486
-**Headline:** High-Performance Recovery Shoes
-
-➕ High Impact Reduction & Support ➕ Premium X-40® Insoles ➕ Ultra-Light Cloudlike Comfort ➕ Podiatrist Approved + HSA/FSA Eligible
-
-### Armadilo · video · active · 13 days · pct 0.325
-**Headline:** Complete All-Day Foot Support
-
-Say goodbye to aching feet! 57,000+ people have already discovered their comfort paradise. Ready to join them?
-
-### Barekick with Bright Footwear · image · active · 13 days · pct 0.5
-**Headline:** Barekick
-
-Are you excited for the upcoming spring yet? 🌷
-
-### Clove · video · active · 13 days · pct 0.24714828897338403
-**Headline:** 2 Days From Cart to Shift
-
-Your next shift starts with better shoes. 👟 Find your pair on Amazon, have them in 2 days, and never look back.
-
-### Footstr · video · active · 13 days · pct 0.07692307692307693
-**Headline:** 90-day money-back guarantee
-
-🎉 BLACK FRIDAY DEAL! 🤩�Don’t let your child walk another day in pain, now the Footstr insole is available with up to 60% off! ⭐️ Targeted heel cushioning ⭐️ Patented Double Eardrum Technology ⭐️ Designed for growing feet ⭐️ Real arch support ⭐️ 90-day risk-free trial Their future self will thank you —> https://getfootstr.com/products/footstr-insolex
-
-### Konjoun Barefoot · image · active · 13 days · pct 0.005780346820809248
+### Konjoun Barefoot · video · active · 18 days · pct 0.12201963534361851
 **Headline:** 🚨 Early Black Friday: Buy 2, Get 2 FREE + Free Shipping
 
 🚨 EARLY BLACK FRIDAY IS LIVE: Buy 2 pairs of SuperSocks Wood Carved 2.0, get 2 pairs FREE, plus free shipping. This almost never happens. If you've been waiting for the upgrade, this is your moment. When it ends, it's gone. Over 158,395 people have stopped treating their knee and back pain and started fixing what was actually causing it. It was never just bad knees or a bad back. Their foot muscles had stopped firing, because cushioned shoes had been blocking the ground signal that wakes them up, for years. ====== That's why we built 2.0: an upgraded pressure-mapped activation sole, now with individually hand-sewn contact sections and full-grain cowhide reinforcement. 🦶 Pressure-mapped sole: every section sits on a point where your foot takes the load, sending back the ground signal cushioning blocks 🧵 Hand-sewn to the exact spot: each section is stitched in place, so it can't slip off its pressure point, mile after mile 🛡️ Full-grain cowhide over every section: built for rock, gravel and long days, not just the backyard 📏 5 sizes instead of 3: a closer fit, so the pressure map lines up with your foot 🔗 Stronger feet, less compensation: when your feet do the work, your knees, hips and back stop picking up the slack 💪 No exercises. No routines. Just walking. ====== 4 pairs for the price of 2. Early Black Friday only 👇 ✅ Buy 2, get 2 FREE 📦 FREE shipping ✅ 30-day money-back guarantee 🏭 Patented pressure-mapped sole, hand-sewn ⭐ Worn by 158,395+ people
 
-### radiance.redefined.after50 with OrthoFit Store · video · active · 13 days · pct 0.01957094467444486
-**Headline:** Love the Look. Enjoy the Comfort.
+### OrthoFit Store · image · active · 18 days · pct 0.0035640849897189855
+**Headline:** Navy Goes With Everything 💙
 
-The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
+Navy goes with everything. So do comfortable feet 😊 This navy knit sneaker has an extra-wide toe box so your toes can spread, plus arch support and shock-absorbing insoles. Wear it to lunch, the shops or a long walk. ⭐ 500,000+ happy customers See the anti-granny sneaker 👇
 
-### cgcreativesllc with OrthoFit Store · video · active · 13 days · pct 0.05878378378378379
-**Headline:** Got Bunions? Check This Toe Box
+### OrthoFit Store · image · active · 18 days · pct 0.004797806716929404
+**Headline:** A Grey Pair With More Toe Room
 
-If you suffer from bunions like I do, take a look at this wide toe box. 👀 It's really hard to find a lightweight, supportive shoe that's actually cute. This one is breathable, has a non-slip sole, and your toes won't get squished. Plenty of cushioning too, so you're not coming home with achy feet. ⭐ Trusted by 1,200,000+ women 🔥 Fall Sale: 50% off + free shipping 🎁 Free relief insoles + eBooks ($70 value) 🛡️ 30-Day Walk Test: wear them outside, full refund if they're not for you Give them a try 👇
+A grey walking sneaker with space across the front. 👟 The light mesh and white sole keep the look simple. Look closer at the toe box and built-in arch support before the next daily walk. OrthoFit's men's walking sneakers have a rounded wide toe box and built-in arch support. ⭐ Loved by 700,000+ men Take a closer look at the fit. Wear them outside with the 30-Day Walk Test. 👇
 
-### Vionic Shoes · video · active · 13 days · pct 0.0975609756097561
-**Headline:** Heritage, our way.
+### OrthoFit Store · video · active · 18 days · pct 0.014530500342700479
+**Headline:** We Really Messed Up, Fellas 😅
 
-Some boots feel like you from the start.​ Thora has that feeling.
+We really messed up on this one, fellas. If you walk 7,000 steps a day, you'll want to hear it. 😅 We made way too many of our men's walking sneakers, and once this batch sells out we can't promise this price again. They were built for what men deal with every day: feet that are done by dinner and knees and a lower back that take the hit. Real arch support, shock absorbing insoles and a wide, rounded toe box, with no laces to tie. It looks sharp with khakis, dress pants or shorts. ⭐ Worn by 700,000+ men every day · Rated 4.8 The Fall Sale is half off with free US shipping. You get 30 days to walk in them. 👇
 
-### Emily Francis Wheaton with Vionic Shoes · video · active · 13 days · pct 0.23170731707317074
+### Orthofeet · video · active · 18 days · pct 0.1932367149758454
+
+Mobility is the superpower we don’t know we have until it’s gone. @orthofeet_us shoes empower a lifetime of mobility and memories, and they look cute doing it. #ad #orthofeetpartner
+
+### Vionic Shoes · image · active · 18 days · pct 0.05952380952380952
+**Headline:** Get Cozy.
+
+The softness you want. The support you need.
+
+### Emily Francis Wheaton with Vionic Shoes · video · active · 18 days · pct 0.21428571428571427
 
 finally!! boots I actually dont dread wearing!!! 🥲will be reaching for these all season long! @vionicshoes #vionicpartner comment “boots” for the details!
 
-### Carin Glennon with OrthoFit Store · video · active · 12 days · pct 0.008820286659316428
-**Headline:** Love the Look. Enjoy the Comfort.
+### Footstr · video · active · 17 days · pct 0.06060606060606061
+**Headline:** 90-day money-back guarantee
 
-The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
+🎉 BLACK FRIDAY DEAL! 🤩�Don’t let your child walk another day in pain, now the Footstr insole is available with up to 60% off! ⭐️ Targeted heel cushioning ⭐️ Patented Double Eardrum Technology ⭐️ Designed for growing feet ⭐️ Real arch support ⭐️ 90-day risk-free trial Their future self will thank you —> https://getfootstr.com/products/footstr-insolex
 
-### OrthoFit Store · video · active · 12 days · pct 0.007094594594594595
+### OrthoFit Store · video · active · 17 days · pct 0.005757368060315285
 **Headline:** Made For Walkers, Not Sprinters 👟
 
 Your balance didn't disappear because you turned 60. You might just be walking in shoes made for 20-year-old sprinters. 👟 Running shoes tilt your body forward. So we asked podiatrists for something different: a stable walking shoe for men over 60 who walk 7,000 steps a day. A flat, centered sole with no raised heel. An extra wide toe box for a wider base. Firm arch support from your morning walk to your evening errands. ⭐ Bought by 700,000+ men · Rated 4.8 The sale is 50% off with free shipping. Take them around the neighborhood for 30 days and see how they feel. 👇
 
-### Orthofeet · video · active · 12 days · pct 0.2857142857142857
-**Headline:** Walk With Comfort or Your Money Back!
+### OrthoFit Store · video · active · 17 days · pct 0.006854009595613434
+**Headline:** Give Your Toes Room To Travel ✈️
 
-Don't go into fall with foot pain - try Orthofeet this season!
+He packed sneakers for the trip. He hadn't planned on stopping to rest his feet. ✈️ This animated travel story follows a grandfather trying to keep up at Tokyo Disney and the older walker who gets him thinking about his shoes. OrthoFit's men's walking sneakers give toes room across the front, with a breathable upper and no laces to tie. ⭐ Worn by 700,000+ men The Fall Sale is 50% off with free US shipping. Take them outside with the 30-Day Walk Test. 👇
 
-### Orthofeet · video · active · 12 days · pct 0.42857142857142855
+### Vionic Shoes · video · active · 17 days · pct 0.19047619047619047
+**Headline:** Shop Now.
 
-I spent years thinking my back was the problem. After my injury, I learned something that changed the way I think about movement forever: your body works as one connected system. When your feet aren’t properly supported, your ankles, knees, hips, pelvis, and even your lower back can end up compensating. I can’t change my scoliosis or the injuries I’ve had, but I can choose the things that help me move with less pain and keep doing the things I love. That’s why I’ve been wearing @orthofeet_us. They give me the support and shock absorption I need, and yes, they’re actually cute too. Because if they weren’t... I’d probably still be searching. #OrthofeetPartner #HealthyAging #HealthyLiving #MobilityMatters #FootHealth
+A little more grounded. A little more attitude.​ And a whole lot more thought beneath the surface.
+
+### WearStand · image · active · 16 days · pct 0.14573643410852713
+**Headline:** Master Your Shift, Pain-Free
+
+The kitchen demands peak performance, and your feet shouldn't hold you back. STAND+ is engineered with advanced support technology, giving culinary professionals the stamina and relief they need to excel through the longest shifts.
+
+### Vionic Shoes · video · active · 15 days · pct 0.30952380952380953
+**Headline:** Meet Gretchen.
+
+The statement boot that pulls your look together.​ Gretchen brings the presence.
+
+### Vionic Shoes · video · active · 14 days · pct 0.20238095238095238
+**Headline:** Find Your Boot.
+
+The shop just got bigger. The boots we can't live without.
+
+### Armadilo · image · active · 13 days · pct 0.27906976744186046
+**Headline:** Complete All-Day Foot Support
+
+Say goodbye to aching feet! 57,000+ people have already discovered their comfort paradise. Ready to join them?
+
+### Armadilo · image · active · 13 days · pct 0.3953488372093023
+**Headline:** Complete All-Day Foot Support
+
+Say goodbye to aching feet! Over 60,000+ people have already discovered their comfort paradise — now it’s your turn. Step into the Armadilo Aerion shoes and feel like you’re walking on clouds.
+
+### Barekick with Bright Footwear · image · active · 13 days · pct 0.07142857142857142
+**Headline:** Barekick
+
+Are you excited for the upcoming spring yet? 🌷
+
+### Vionic Shoes · video · active · 13 days · pct 0.13095238095238096
+**Headline:** Heritage, our way.
+
+Some boots feel like you from the start.​ Thora has that feeling.
+
+### Amazon Finds with Becky with OrthoFit Store · video · active · 12 days · pct 0.06579849211788896
+**Headline:** The Blue Pair for Everyday Wear
+
+Becky already had the black pair. This time she wanted blue to go with her jeans. 👟 Watch how the sole flexes and see how much room there is across the toe box. Check your size 👇
+
+### Vionic Shoes · image · active · 12 days · pct 0.15476190476190477
+**Headline:** Brand New For Fall
+
+A lightweight loafer with a point of view.​ Looks like fashion. Feels like Vionic.
+
+### Vionic Shoes · image · active · 12 days
+**Headline:** Early Black Friday
+
+Early Black Friday: Save 30% on selected styles.
+
+### Vionic Shoes · video · active · 12 days · pct 0.27380952380952384
+
+finally!! boots I actually dont dread wearing!!! 🥲will be reaching for these all season long! @vionicshoes #vionicpartner comment “boots” for the details!
+
+### WearStand · image · active · 12 days · pct 0.08372093023255814
+**Headline:** 🔥The Ember Drop Is Live. Don't Miss It.
+
+🚨 New drop alert: the AntiGrav2 Ember is here. 🔥 Bold, limited, and built for the long shift. The recovery shoe you already love, now in its most fire colorway yet. ⚡ Limited stock. The Ember Drop won't wait for you.
 
 ### Armadilo · video · active · 11 days
 **Headline:** Complete All-Day Foot Support
@@ -1569,317 +1628,268 @@ From screaming at every step to kissing his own foot? That's what happens when h
 
 50% off today on a walking shoe built for everyday comfort 🔥 A wide toe box gives your toes room. A breathable knit upper helps feet stay cool. A cushioned sole supports every step. For errands, walks, travel and the everyday miles you put in. ⭐ 700,000+ men switched 🔥 Up to 50% off today 🛡️ 30-day risk-free trial Check your size 👇
 
-### Orthofeet · image · active · 11 days
+### Orthofeet · image · active · 11 days · pct 0.14009661835748793
 **Headline:** Walk With Comfort or Your Money Back!
 
 Step into fall fully supported with Orthofeet. Shoes engineered around protection that reduced sensation demands.
 
-### kristenvelasquez_girlmama with OrthoFit Store · video · active · 10 days · pct 0.020948180815876516
-**Headline:** Love the Look. Enjoy the Comfort.
-
-The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
-
-### Viasox · image · active · 10 days · pct 0.06743940990516333
-**Headline:** Get rid of Foot Swelling Today! 👉
-
-Viasox help reduce swelling in the feet and improve circulation, keeping your feet feeling fresh and pain-free. Shop now to experience the comfort of Viasox! 🧦✨
-
-### Viasox · image · active · 10 days · pct 0.08640674394099052
-**Headline:** Buy 2 pairs, Get 3 for FREE! 🧦🧦 +🧦🧦🧦
-
-We’ve never done a sale like this before. For this week only, you can buy 2 pairs of socks and get 3 more completely FREE. That’s 5 pairs for the price of 2 — no code needed, no limits. It’s all part of our Prime Warehouse Sale, and it’s available sitewide, including all your favorite styles. Just hurry, once it’s over, it’s gone for good.
-
-### Viasox Canada  · video · active · 10 days · pct 0.11764705882352941
-**Headline:** Make your legs look & feel 25 again! 👉
-
-Y’all, at 62 my legs puff up and are are always swollen. I tried Viasox and they were the first sock that actually helped my swelling. They keep everything feeling light and comfy, even when swelling’s at its worst. You’ve gotta try ’em! 😊
-
-### Armadilo · image · active · 9 days · pct 0.425
-**Headline:** Complete All-Day Foot Support
-
-Say goodbye to aching feet! Over 60,000+ people have already discovered their comfort paradise — now it’s your turn. Step into the Armadilo Aerion shoes and feel like you’re walking on clouds.
-
-### Clove · image · active · 9 days · pct 0.2965779467680608
-**Headline:** Forte 2 Is Back
-
-Forte 2 is BACK. Brilliant White and All Black Option are officially restocked.
-
-### KURU Footwear · video · active · 9 days · pct 0.78125
-**Headline:** Heel Pain Relief Starts Here
-
-Have foot pain? KURU is here to change that. Revolutionary heel-hugging tech that flexes with every step. Try a pair risk-free for 91 days & see why so many switch to KURU shoes! 📦 Free Shipping 🌟50,000+ 5-Star Reviews 👟91-Day Returns & Exchanges 🦶 Built for Heel Pain Relief
-
-### Viasox · video · active · 9 days · pct 0.02845100105374078
-**Headline:** Foot & Ankle Swelling? Start Here
-
-I used to think heel pain was just something I had to deal with. The worst part was always those first few steps after getting out of bed. My heel would feel incredibly sore, and after spending hours standing or walking, my entire foot would start aching. I tried different shoes and insoles, but I still wanted something I could comfortably wear throughout the day. That’s when I tried Viasox Ankle Compression Socks. They felt completely different from the thick compression socks I had tried before. Instead of squeezing my entire leg, they gave me gentle support around my feet and ankles. But what I really noticed was the cushioning. The triple-padded sole gave my heel an extra layer of softness with every step, while the 14 mmHg compression made my feet feel comfortably supported. I started wearing them during long days on my feet, while walking, traveling, and even just around the house. Now they’re one of those small things I reach for whenever I know I’m going to be on my feet all day. If plantar fasciitis has made standing and walking uncomfortable, give Viasox Ankle Compression Socks a try.
-
-### Viasox · video · active · 9 days · pct 0.06533192834562697
-**Headline:** GET 50% OFF TODAY! 😍 👉
-
-🔥 UP TO 50% OFF THIS WEEK ONLY!! 🔥 Get Maximum Relief With Compression Socks That You Can Actually Put On. Viasox compression socks are specially designed for people with diabetes, neuropathy and geriatric individuals.⁣ ⁣ All other compression socks on the market are designed for athletes. With high 30-50 mmHG compression they're impossible to use for people with diabetes and neuropathy.⁣ ⁣ Our Viasox compression socks are perfect for people who stand or sit for long periods of time as well as diabetic and geriatric patients; Viasox graduated compression socks have a mild compression rating of 12 - 15 mmHg to help increase blood flow and reduce swelling for maximum relief. 😍🧦⁣ ⁣ Viasox Compression Socks Help With:⁣ ⁣ ✅ Diabetic & peripheral neuropathy⁣ ✅ Heavy legs and feet⁣ ✅ Poor blood flow circulation⁣ ✅ Twisted, bulging veins⁣ ✅ Stretchy, shiny skin from edema⁣ ⁣ ✈️Get Viasox straight to your doorstep⁣ ⁣ ⭐⭐⭐⭐⭐ Thousands of 5-star reviews.⁣ ⁣ Get Your Viasox Compression Socks Today!
-
-### Viasox · video · active · 9 days · pct 0.07586933614330875
-**Headline:** Get Rid of Leg Swelling With The Peanuts Gang Today! 👉
-
-Looking for a mild compression sock to reduce leg swelling? Snoopy & The Gang have teamed up with Viasox to keep your legs supported & pain free! Viasox compression socks are perfect for people who stand or sit for long periods of time as well as diabetic and geriatric patients; Viasox graduated compression socks have a mild compression rating of 12 - 15 mmHg to help increase blood flow and reduce swelling for maximum relief. 😍🧦⁣ Experience the relief of Viasox today! 🧦✨ Now available in 12 new Peanuts Patterns!
-
-### Vionic Shoes · video · active · 9 days · pct 0.2926829268292683
-
-finally!! boots I actually dont dread wearing!!! 🥲will be reaching for these all season long! @vionicshoes #vionicpartner comment “boots” for the details!
-
-### Cozy Sage with OrthoFit Store · video · active · 8 days · pct 0.024087316522393678
-**Headline:** Love the Look. Enjoy the Comfort.
-
-The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
-
-### Vionic Shoes · image · active · 8 days · pct 0.15853658536585366
-**Headline:** Brand New For Fall
-
-A lightweight loafer with a point of view.​ Looks like fashion. Feels like Vionic.
-
-### Vionic Shoes · image · active · 8 days · pct 0.1951219512195122
-**Headline:** Early Black Friday
-
-Early Black Friday: Save 30% on selected styles.
-
-### Trendy Mom Finds with OrthoFit Store · video · active · 7 days · pct 0.021517140773158278
-**Headline:** Love the Look. Enjoy the Comfort.
-
-The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
-
-### Viasox · video · active · 7 days · pct 0.023182297154899896
-**Headline:** Our biggest Black Friday sale ever!
-
-Our secret new Black Friday offer is here! 💥 Buy 3 pairs of Viasox Compression Socks, Get 5 FREE. We have never done this before. 🧦 Buy 1 pair, Get 1 FREE 🧦 Buy 2 pairs, Get 3 FREE 🎁 NEW: Buy 3 pairs, Get 5 FREE Stock up on Viasox Compression Socks today!
-
-### Viasox · video · active · 7 days · pct 0.03898840885142255
-**Headline:** Our biggest Black Friday sale ever!
-
-Our Black Friday secret is out! 💥 For the first time, Buy 3 pairs of Viasox and Get 5 FREE. That is 8 pairs for the price of 3! 🧦 Buy 1 pair, Get 1 FREE 🧦 Buy 2 pairs, Get 3 FREE 🎁 NEW: Buy 3 pairs, Get 5 FREE We have never offered this deal before. Stock up on Viasox today!
-
-### Viasox · video · active · 7 days · pct 0.0410958904109589
-**Headline:** Our biggest Black Friday sale ever!
-
-Our Black Friday secret is out! 💥 Buy 3 pairs of Viasox Ankle Compression Socks, Get 5 FREE. We have never done this before. 🧦 Buy 1 pair, Get 1 FREE 🧦 Buy 2 pairs, Get 3 FREE 🎁 NEW: Buy 3 pairs, Get 5 FREE Stock up on Viasox Ankle Compression Socks today!
-
-### Viasox · video · active · 7 days · pct 0.04952581664910432
-**Headline:** Our biggest Black Friday sale ever!
-
-Hi, it's Dimos, founder of Viasox. I wanted you to hear our new Black Friday offer from me. Buy 3 pairs, Get 5 FREE. We've never done this before. Here are all three offers: • Buy 1 pair, Get 1 FREE • Buy 2 pairs, Get 3 FREE • NEW: Buy 3 pairs, Get 5 FREE That's eight pairs for the price of three. Keep your favorites or share a few with someone you love. Thank you for choosing Viasox. Your support means a lot to me and our team. Dimos
-
-### Viasox · video · active · 7 days · pct 0.06006322444678609
-**Headline:** Our biggest Black Friday sale ever! 🇨🇦
-
-Canada, our Black Friday secret is out! 🇨🇦 For the first time, Buy 3 pairs of Viasox and Get 5 FREE. That's eight pairs for the price of three. 🧦 Buy 1 pair, Get 1 FREE 🧦 Buy 2 pairs, Get 3 FREE 🎁 NEW: Buy 3 pairs, Get 5 FREE We started Viasox in 2019 to help Canadians feel more comfortable, one step at a time. Thank you for supporting a homegrown Canadian company. Shop our new Black Friday offer!
-
-### Musabela · image · active · 6 days · pct 0.12195121951219512
+### Musabela · image · active · 10 days · pct 0.18571428571428572
 **Headline:** Shoes that are Helping People Relieving Foot Pain
 
 Would you like to have the ability to walk pain-free?👟 These Orthopedic Shoes are #1 Recommended by doctors! ✅ Immediate Relief from Foot Pain ✅ Reduce Stiffness and Sore Feet ✅ Wide Toe Box and Arch Support It’s not just a shoe—it’s a solution.
 
-### Viasox · video · active · 6 days · pct 0.0273972602739726
-**Headline:** Our biggest Black Friday sale ever!
-
-Our Black Friday secret is out! 💥 Buy 3 pairs of Viasox EasyStretch™ Socks, Get 5 FREE. We have never done this before! 🧦 Buy 1 pair, Get 1 FREE 🧦 Buy 2 pairs, Get 3 FREE 🎁 NEW: Buy 3 pairs, Get 5 FREE Stock up on Viasox EasyStretchSocks today!
-
-### ot.amma with OrthoFit Store · video · active · 5 days · pct 0.0491554054054054
+### ot.amma with OrthoFit Store · video · active · 10 days · pct 0.04455106237148732
 **Headline:** See the Difference Side by Side
 
 Old shoes on the left. OrthoFit on the right. 👀 Zaheedah wanted a wider toe box for her wide feet, and the difference is easy to see. Her toes have room to spread, with a flexible sole and arch support that is not thick or chunky. Tip from Zaheedah: if you are between sizes, go half a size up. 👇 Check your size
 
-### Amazon Finds with Becky with OrthoFit Store · video · active · 5 days · pct 0.06891891891891892
+### Amazon Finds with Becky with OrthoFit Store · video · active · 10 days · pct 0.06291980808773132
 **Headline:** The Pair Becky Wears Around the House
 
 Becky usually goes barefoot at home. Her husband noticed she was still wearing these. 👀 She shows how the breathable upper and sole bend as she moves around the house. Check your size 👇
 
-### Hello Holly Jo with OrthoFit Store · video · active · 5 days · pct 0.06013513513513514
-**Headline:** The Shoe Gift I Found for Mom
+### Konjoun Barefoot · video · active · 9 days · pct 0.11079943899018233
+**Headline:** 400 Years Ago They Walked Without a Sound. Here's How.
 
-I just found the best gift for my mom. 🎁 Holly and her mom both know what it’s like when a narrow shoe crowds the toes. Watch Holly put her old shoe next to the OrthoFit wide toe box pair. 👇
+Japanese lords built floors that chirped like birds the moment anyone stepped on them. Some are still in Kyoto today. They were built to catch one kind of man. The shinobi… Not because of the black outfits. Not because of the dark. Because of the way he walked, and what he walked in. Thin tabi, so he felt every floorboard. He landed on the front of his foot, then rolled down soft onto the heel. No noise, no wobble, and his own foot muscles did all the work. Then in the 1970s, shoe companies put thick foam under everything and called it comfort. You can't feel the ground, so you slam down on your heel every step. The muscles in your feet go quiet because the foam is doing their job. The bottoms burn 20 minutes into a walk. Calves lock up by evening. A little worse every year, no matter how good the shoes. Nothing's wrong with your feet. You changed shoes. Introducing SuperSocks WoodCarved 2.0. The one and only sock on the market with a patented sole, hand-sewn to your exact pressure points to reactivate your foot muscles. Foot biomechanists mapped where a bare foot presses the ground. Every wood-carved section is hand-sewn into that position on a five-toe sock, so: ✅ Your foot feels the ground again and lands the way a shinobi landed ✅ The muscle under each section fires every step, no foam doing its job ✅ Knees, hips and back stop taking the slam The first tabi were cut from a single piece of hide. These sections are full-grain cowhide, the top layer of the leather, so they h
 
-### OrthoFit Store · video · active · 5 days · pct 0.038175675675675674
-**Headline:** We Made Too Many, Now They're 50% Off
+### OrthoFit Store · video · active · 9 days · pct 0.06333104866346813
+**Headline:** Lisa’s Black Friday Shoe Find
 
-I'm going to be completely honest with you. ⠀ We made a much bigger batch of our Wide Toe Box Comfort Sneakers than we planned for. ⠀ And instead of letting them sit in a warehouse, I'd rather get them on your feet, where they belong. ⠀ Because this isn't a trendy shoe chasing a fashion trend. It was made for the very real problems your feet face every single day: ⠀ ✔ An extra-wide toe box, so your toes can finally spread out instead of being crushed ✔ A soft, flexible sole that moves the way your feet are meant to ✔ Cushioned support that helps ease that deep, all-day soreness ✔ Comfort that doesn't look like a hospital shoe ⠀ Since we started OrthoFit, over 1,200,000 women have slipped into a pair and finally given their feet the room they'd been begging for. ⠀ Most "comfort" shoes cost a small fortune. Ours don't, same comfort, without the markup, and without the look. ⠀ And because we simply made too many this season, you're getting the exact same sneaker at our best price yet: 50% OFF today. ⠀ Once this batch is gone, we can't promise this price again. ⠀ So if your feet have been asking for relief, tap below and check if your size is still in stock, and thank you for trusting us with every step.
+So what the Black Friday is going on? 👀 Lisa shows the flex and cushioning on her OrthoFit sneakers. She also answers the question she gets about the arch support. See the pair she’s wearing. 👇
 
-### Orthofeet · video · active · 5 days · pct 0.6428571428571429
-**Headline:** Walk With Comfort or Your Money Back!
+### Vionic Shoes · image · active · 9 days · pct 0.3333333333333333
+**Headline:** Celebrate in Comfort
 
-Step into fall fully supported with Orthofeet.
+Seasonal savings available now.
 
-### Orthofeet · video · active · 5 days · pct 0.5357142857142857
+### Orthofeet · image · active · 8 days · pct 0.1497584541062802
 **Headline:** More comfort. More living.
 
 Our biggest sale of the year is on - get up to 40% off all your favorites for comfort and support this season!
 
-### 𝓥𝓲𝓬𝓽𝓸𝓻𝓲𝓪 with Viasox · video · active · 5 days · pct 0.03582718651211802
-**Headline:** Relief for Tired, Swollen Legs 👉
+### Foamr · image · active · 7 days · pct 0.006896551724137931
+**Headline:** ★★★★★ 4.7/5 door 10.000+ klanten
 
-These are what I wear with my tall boots 😊 My Viasox Compression Socks feel so nice on my feet, and I can wear them around the house too. They're snug at my ankles and looser toward my knees. And there are so many cute patterns to pick from. Boot season friends, have a look!
+"Ik sta de hele dag op mijn benen voor mijn werk en aan het eind van de dag voelden mijn voeten altijd loodzwaar. Sinds ik de Foamr inlegzolen draag merk ik het verschil al na een paar uur. Mijn voeten voelen fris, zelfs na een dubbele dienst." — Tom, 38 Verlicht vermoeidheid, ook bij lange dagen Masserende werking bij elke stap Past in elke schoen ⚡ Tot 70% korting 👉 https://foamr.nl/products/foamr-massage-inlegzolen
 
-### Konjoun Barefoot · video · active · 4 days
-**Headline:** Barefoot Shoes Took the Support Away. They Didn't Give the Muscle Back.
+### Foamr · image · active · 7 days · pct 0.1103448275862069
+**Headline:** ★★★★★ 4.7/5 door 10.000+ klanten
 
-Barefoot Shoe Wearers: LISTEN UP! You switched to fix your feet. But two years in and a long day still ends with sore heels, and now normal shoes hurt by lunch… That's not fixed. That's the same problem wearing different shoes. Your feet didn't get weak from lack of freedom. They got weak because certain muscles stopped firing. Orthotics do the job for those muscles. PT wakes them up for twenty minutes, then a shoe puts them back to sleep. Barefoot shoes took the crutch away. But a thin flat sole is the same pressure everywhere. The muscles that already work keep working. The ones that went quiet get no reason to come back. Introducing: SuperSocks WoodCarved 2.0. The one and only sock on the market with a patented sole, hand-sewn to your exact pressure points to reactivate your foot muscles. Developed with biomechanics experts, each carved wood pad sits on the exact point where your foot loads, so: ✅ The quiet muscle under each pad has to fire, every step ✅ Your feet do the work instead of being spared the work ✅ Long days stop costing you the next morning Not support. Not the absence of support. A reason to fire. "As close to barefoot as you can get, with something still on your feet." — Don Clinton Why isn't this just another minimal shoe? Minimal shoes remove. That's all they do. They don't tell your foot where to work. WoodCarved 2.0 puts a pad exactly where each muscle needs to fire. Nobody else makes this. Hand-sewn, so it can't drift. Same spot every step. The muscle u
+🔥 BLACK FRIDAY BIJ FOAMR®! 🔥 Het is tijd om jouw voeten extra comfort te geven! 👣 Profiteer van kortingen tot wel 70% op onze populaire massage-inlegzolen en ontvang nu ook een gratis cadeau bij je bestelling! 🎁 ✅ Tot wel 70% korting ✅ Extra voordeel met onze bundeldeals ✅ Meer comfort en ondersteuning bij iedere stap ✅ 30 dagen risicoloos uitproberen ✅ Gratis verzending binnen NL & BE 🛒 Wacht niet langer en profiteer nu van de Black Friday-deals bij Foamr®!
 
-### KURU Footwear · video · active · 4 days · pct 0.775
+### Foamr · video · active · 7 days · pct 0.16551724137931034
+**Headline:** ★★★★★ 4.7/5 door 10.000+ klanten
 
-From screaming at every step to kissing his own foot? That's what happens when his heels finally meet KURU. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
+👣 Ontdek het comfort van Foamr®! Bij Foamr® geloven we dat comfort voor iedereen toegankelijk moet zijn. Daarom bieden we slimme oplossingen voor extra comfort en ondersteuning in het dagelijks leven. ☁️ ✅ Ontwikkeld met comfort als prioriteit ✅ Eenvoudig in gebruik ✅ Geschikt voor dagelijks gebruik 🔥 Profiteer nu van kortingen tot wel 70%! 👉 Ontdek ons assortiment en bestel vandaag nog met korting!
 
-### Amazon Finds with Becky with OrthoFit Store · video · active · 4 days · pct 0.07010135135135136
-**Headline:** The Blue Pair for Everyday Wear
+### KURU Footwear · video · active · 7 days · pct 0.7183908045977011
+**Headline:** Heel Pain Relief Starts Here
 
-Becky already had the black pair. This time she wanted blue to go with her jeans. 👟 Watch how the sole flexes and see how much room there is across the toe box. Check your size 👇
+Have foot pain? KURU is here to change that. Revolutionary heel-hugging tech that flexes with every step. Try a pair risk-free for 91 days & see why so many switch to KURU shoes! 📦 Free Shipping 🌟50,000+ 5-Star Reviews 👟91-Day Returns & Exchanges 🦶 Built for Heel Pain Relief
+
+### OrthoFit Store · video · active · 7 days · pct 0.009869773817683345
+**Headline:** Swap the Sneakers for Something Elegant
+
+Over 60 and tired of wearing clunky running sneakers with a nice outfit just to stay comfortable? 👗 Meet the Mary Jane Comfort Flat. A classic, feminine look with a wide square toe, soft stretch knit and a strap that holds your heel without pinching. No hospital shoes. No crushed toes. 800,000+ pairs delivered. Rated 4.8 ⭐ 🖤 Early Black Friday: 50% off with free shipping 👇 Find your color
+
+### Orthofeet · video · active · 7 days · pct 0.5748792270531401
+**Headline:** Walk With Comfort or Your Money Back!
+
+Step into fall fully supported with Orthofeet.
+
+### HIKE Footwear · image · active · 6 days · pct 0.1111111111111111
+**Headline:** Safest, Comfiest Boots Out There
+
+Every cold season, the same thing dangerous happens. The sidewalks get wet. The steps get icy. And you start walking a little slower, holding a little tighter, staying home a little more. It doesn’t have to be that way. Cozely gives you a flat, steady base and a winter tread made for snow, slush, and wet pavement, so you can keep going out all season. The wide toe box lets your toes spread out and steady you. And the thin, flexible sole helps you feel what you’re stepping on. Plus, they’re everything you want in a winter boot. Warm fleece lining. A soft exterior that blocks the wind. And light enough to wear all day without your feet getting tired. Free Shipping + 30 Day Money Back Guarantee Wear them for 30 days and send them back for a full refund if you don’t love them. Risk-free!
+
+### OrthoFit Store · video · active · 6 days · pct 0.0135709389993146
+
+"As the founder of OrthoFit, I'm going to be completely honest with you." 👋 This isn't a trendy shoe chasing a fashion trend. It was made for the very real problems your feet face every day. If your feet burn, throb or feel swollen by the end of the day, and you're tired of narrow shoes squeezing every toe together: ✅ An extra-wide toe box so your toes can spread out ✅ A soft, flexible sole that moves the way your feet do ✅ Cushioned support for all-day soreness And it doesn't look like a hospital shoe. ⭐ 500,000+ women have given their feet the room they were begging for Tap below to check your size 👇
+
+### OrthoFit Store · video · active · 6 days · pct 0.03139136394790953
+**Headline:** We Made Too Many, Now They're 50% Off
+
+I'm going to be completely honest with you. ⠀ We made a much bigger batch of our Wide Toe Box Comfort Sneakers than we planned for. ⠀ And instead of letting them sit in a warehouse, I'd rather get them on your feet, where they belong. ⠀ Because this isn't a trendy shoe chasing a fashion trend. It was made for the very real problems your feet face every single day: ⠀ ✔ An extra-wide toe box, so your toes can finally spread out instead of being crushed ✔ A soft, flexible sole that moves the way your feet are meant to ✔ Cushioned support that helps ease that deep, all-day soreness ✔ Comfort that doesn't look like a hospital shoe ⠀ Since we started OrthoFit, over 1,200,000 women have slipped into a pair and finally given their feet the room they'd been begging for. ⠀ Most "comfort" shoes cost a small fortune. Ours don't, same comfort, without the markup, and without the look. ⠀ And because we simply made too many this season, you're getting the exact same sneaker at our best price yet: 50% OFF today. ⠀ Once this batch is gone, we can't promise this price again. ⠀ So if your feet have been asking for relief, tap below and check if your size is still in stock, and thank you for trusting us with every step.
+
+### Orthofeet · video · active · 6 days · pct 0.6231884057971014
+**Headline:** Walk With Comfort or Your Money Back
+
+Don't go into fall with foot pain - try Orthofeet this season!
+
+### Clove · image · active · 5 days · pct 0.45955882352941174
+**Headline:** The Clove Black Friday Sale
+
+It’s our biggest shopping moment of the year. Get 25% off ALL shoes and 50% off socks and more. Don’t miss out!
+
+### Footstr · video · active · 5 days · pct 0.13636363636363635
+**Headline:** 30 day money back guarantee
+
+Cold season is here? ❄️ No problem at all with the new Footstr™ 100% Real Merino Thermal Socks 🧦 Thanks to real Merino wool, your feet stay protected from freezing cold, trapped sweat, and numb toes! Get warm feet now: 👉 https://getfootstr.com/products/100-real-merino-thermal-socks Your most important benefits: ✅ 100% Real Merino wool warmth without overheating ✅ Sweat-free breathability (no damp, freezing toes) ✅ Targeted impact cushioning under the heel and footbed ✅ Ultra-soft knit and 100% itch-free ✅ 90-day risk-free trial ❓ Up to which temperatures are the Footstr™ Merino Thermal Socks recommended? ℹ️ Footstr™ Merino Thermal Socks are engineered to keep your feet comfortably warm all the way down to -20°C/-4°F.
+
+### Footstr · video · active · 5 days · pct 0.1893939393939394
+**Headline:** 90 day money back guarantee
+
+Cold season is here? ❄️ No problem at all with the new Footstr™ 100% Real Merino Thermal Socks 🧦 Thanks to real Merino wool, your feet stay protected from freezing cold, trapped sweat, and numb toes! Get warm feet now: 👉 https://getfootstr.com/products/100-real-merino-thermal-socks Your most important benefits: ✅ 100% Real Merino wool warmth without overheating ✅ Sweat-free breathability (no damp, freezing toes) ✅ Targeted impact cushioning under the heel and footbed ✅ Ultra-soft knit and 100% itch-free ✅ 90-day risk-free trial ❓ Up to which temperatures are the Footstr™ Merino Thermal Socks recommended? ℹ️ Footstr™ Merino Thermal Socks are engineered to keep your feet comfortably warm all the way down to -20°C/-4°F. Headline Keep Your Feet Warm Down to -20°C ❄️ Description 100% Real Merino Wool. 90-Day Risk-Free Trial.
+
+### OrthoFit Store · video · active · 5 days · pct 0.0032899246058944484
+**Headline:** A Slip on the Ice Is Never Just a Bruise
+
+After 65, a slip on the ice is never just a bruise. 🧊 It's an ER visit, months of rehab, and a hit to your independence. And most of the time it starts with winter boots that were designed for 20-year-olds. Stiff, heavy, narrow at the toe, with slick rubber that slides the second it meets wet ice. So we asked podiatrists to build a winter walking boot for men over 60: ✅ An extra wide toe box, so your toes spread and your base stays steady ✅ A flat, centered sole with deep ice-grip lugs that bite into frozen concrete ✅ A side zip and warm lining, so there are no frozen laces and no bending over ❄️ 50% off right now, plus free shipping 👇 Check if your size is still in stock
+
+### OrthoFit Store · video · active · 5 days · pct 0.006579849211788897
+**Headline:** 5 Winter Boots on Ice. Only One Held.
+
+We tested 5 common winter boots on Canadian ice with men over 65. Only one of them didn't slip. 🧊 The other four were stiff, heavy clunkers with narrow toes and slick rubber that slid the moment they hit wet ice. The one that held was built with podiatrists for men over 60: ✅ Extra wide toe box, so your toes spread and your balance stays solid ✅ Flat, centered sole with deep lugs that grip black ice and frozen concrete ✅ Side zip and warm lining, so you're in and out with no laces to fight Stay steady on the driveway, the porch steps and your morning walk all winter. ❄️ 50% off right now, plus free shipping 👇 Check if your size is still in stock
+
+### abd.aixx with OrthoFit Store · video · active · 5 days · pct 0.041672378341329676
+**Headline:** The OrthoFit Pair Worth a Look
+
+Anyone else eyeing those black OrthoFit sneakers? 👟 Take a closer look at the front. There’s room for your toes to spread out, with a soft knit upper around the foot. 👇 Browse sizes.
+
+### OrthoFit Store · video · active · 5 days · pct 0.05113091158327621
+**Headline:** Black Knit Sneakers With Toe Room
+
+Spotted the black pair in the OrthoFit video? 👀 The close-up shows a breathable knit upper and a roomy front, in a color that goes with everyday outfits. 👇 Check the current price and sizes.
+
+### Clove · image · active · 4 days · pct 0.36764705882352944
+**Headline:** Black Friday: 25% Off Shoes
+
+Black Friday is here. Take 25% off all Clove shoes and 50% off socks and more. Your next favorite pair is waiting.
+
+### Samantha Stevenson with KURU Footwear · video · active · 4 days · pct 0.6954022988505747
+**Headline:** Heel Relief You’ll Notice
+
+The solution for heel pain, plantar fasciitis, or long days on your feet. Finally, get all-day relief & support with KURU - shop DASH Vanta. #ad
+
+### Casey Leigh Creatives with KURU Footwear · video · active · 4 days · pct 0.6666666666666666
+**Headline:** Heel Relief You’ll Notice
+
+The solution for heel pain, plantar fasciitis, or long days on your feet. Finally, get all-day relief & support with KURU - shop DASH Vanta. #ad
+
+### Rob K with KURU Footwear · video · active · 4 days · pct 0.6896551724137931
+**Headline:** Heel Relief You’ll Notice
+
+The solution for heel pain, plantar fasciitis, or long days on your feet. Finally, get all-day relief & support with KURU - shop DASH Vanta. #ad
+
+### Caitlin Rushing with KURU Footwear · video · active · 4 days · pct 0.7011494252873564
+**Headline:** Heel Relief You’ll Notice
+
+The solution for heel pain, plantar fasciitis, or long days on your feet. Finally, get all-day relief & support with KURU - shop DASH Vanta. #ad
+
+### KURU Footwear · video · active · 4 days · pct 0.5344827586206896
+**Headline:** Save Big on Heel Support
+
+Get two KURU bestsellers with pain-fighting support and comfy performance socks for $40 off. It's a pretty sweet deal. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping 👟91-Day Returns & Exchanges
+
+### jodilachance with OrthoFit Store · video · active · 4 days · pct 0.03372172721041809
+**Headline:** Jodi Chose Extra Wide 👟
+
+Wide feet? Give your toes some space. 👟 Jodi chose extra wide for her first pair of OrthoFit sneakers. Watch her show the flexible knit and explain why having three widths to choose from mattered. Find your width and color below. 👇
 
 ### kala24s with OrthoFit Store · video · active · 4 days
 **Headline:** Love the Look. Enjoy the Comfort.
 
 The comfortable pair can be the cute pair, too. Meet OrthoFit Wide Toe Box Comfort Sneakers. Easy to wear with your favourite jeans, roomy across the toes and cushioned underneath, with built-in arch support. For coffee dates, weekend plans and those ordinary days when you just want to get dressed and go. Choose your favourite colour and get 50% OFF + FREE Shipping, plus 2 FREE gifts worth $70: an insole and ebooks.
 
-### ot.amma with OrthoFit Store · video · active · 4 days · pct 0.04560810810810811
-**Headline:** Finally, Room for Wide Feet
+### Snibbs · image · active · 4 days · pct 0.07264957264957266
+**Headline:** Ultimate All-Day Work Shoes
 
-"You can see my toes are pretty squished in here." 😣 Zaheedah has wide feet and could not find shoes that let her toes move. In OrthoFit, her toes spread out and wiggle, with a flexible sole and arch support underneath. 50% off with free shipping right now. 👇 Find your width
+Meet Snibbs: ultra-comfy, slip-resistant work shoes made to handle long shifts, spills, and everything in between. ☁️ All-Day Comfort that Actually Lasts 💧 Slip-Resistant Outsole 💪 Ultra Durable & Built To Last ✅ 100-Day Money Back Guarantee
+
+### Snibbs · video · active · 4 days · pct 0.011752136752136752
+**Headline:** The Ultimate Pro Work Shoes
+
+Meet Snibbs Pro: a boot that moves like a sneaker with our most advanced engineering and cushioning ever. ☁️ Advanced cushioning & all-day comfort 💧 Water & slip-resistant ✌️ Hands-free, slip-on fit 💪 Ultra durable & built to last ✅ 100-day money-back guarantee
+
+### Daniel Shemtob with Snibbs · video · active · 4 days · pct 0.028846153846153848
+**Headline:** Why Chefs Love Snibbs
+
+When I started Snibbs, the goal was simple: create a non-slip shoe that actually looks good and feels better. Seeing Ryan at LA Chef Con reminded me exactly why we do this. From struggling to walk due to leg stiffness to owning 8 pairs of Snibbs—this is the transformation we built these shoes for. ☁️ All-Day Comfort that Actually Lasts 💧 Slip-Resistant Outsole 💪 Ultra Durable & Built To Last ✅ 100-Day Money Back Guarantee
 
 ### Viasox · image · active · 4 days
-**Headline:** Comfortable socks for all leg sizes! 🥰
+**Headline:** 🐾 Buy 2 Pairs, Get 3 FREE!
 
-Looking for a comfy sock that actually fits? Viasox EasyStretch™ stretch up to 30 inches, that's 10x more than regular socks! Why choose Viasox? ✅ Perfect for Bigger Legs: Our socks are crafted to provide a snug, comfortable fit, ideal for swollen legs and feet. ✅ Fits All Calf Sizes: Whether your calves are large or small, Viasox offer a gentle, secure fit without cutting off circulation. ✅ Easy to Wear: Slide your Viasox ON and OFF effortlessly, with no struggle involved. ✅ No Sock Marks: Enjoy healthy circulation without the discomfort of sock marks. Viasox ensures your calves stay happy and mark-free. With over 1 million pairs of socks sold and more than 40,000 ⭐⭐⭐⭐⭐ reviews, it’s time to experience the comfort everyone’s raving about. Don’t settle for less—click “Shop Now” try Viasox today!
+Sweater cats and kits in knits, Midnight meows and cozy fits. Petals and purrs by the Christmas tree, Five new patterns, purr-fect as can be. Meet the NEW Kitty Club Collection! 🐾 Buy 2 pairs, Get 3 FREE. That's five pairs for the price of two. Shop your favorites before they're gone!
 
-### Viasox · image · active · 4 days
-**Headline:** Swollen Legs? Try These Socks 👉
+### WearStand · image · active · 4 days · pct 0.16124031007751938
+**Headline:** 🧊 Ice Cold Colorway. Red-Hot Recovery
 
-Looking for a comfy sock that actually fits? Viasox EasyStretch™ stretch up to 30 inches, that's 10x more than regular socks! Why choose Viasox? ✅ Perfect for Bigger Legs: Our socks are crafted to provide a snug, comfortable fit, ideal for swollen legs and feet. ✅ Fits All Calf Sizes: Whether your calves are large or small, Viasox offer a gentle, secure fit without cutting off circulation. ✅ Easy to Wear: Slide your Viasox ON and OFF effortlessly, with no struggle involved. ✅ No Sock Marks: Enjoy healthy circulation without the discomfort of sock marks. Viasox ensures your calves stay happy and mark-free. With over 1 million pairs of socks sold and more than 60,000 ⭐⭐⭐⭐⭐ reviews, it’s time to experience the comfort everyone’s raving about. Don’t settle for less—click “Shop Now” try Viasox today!
+🚨 The kitchen runs hot. Your shoe doesn't have to. 🧊 The AntiGrav2 Glacier is here: OrthoLite® insoles for 12-hour comfort, breathable design that keeps up with the heat, and slip-resistant grip on every floor. ⚡ Limited drop. Built for the bold. Don't sleep on the Glacier.
 
-### Foamr · image · active · 3 days · pct 0.16083916083916083
-**Headline:** ★★★★★ 4.7/5 door 10.000+ klanten
+### WearStand · video · active · 4 days · pct 0.32868217054263565
+**Headline:** A Pair for Every Shift. $40 Off 2+ Pairs
 
-"Ik sta de hele dag op mijn benen voor mijn werk en aan het eind van de dag voelden mijn voeten altijd loodzwaar. Sinds ik de Foamr inlegzolen draag merk ik het verschil al na een paar uur. Mijn voeten voelen fris, zelfs na een dubbele dienst." — Tom, 38 Verlicht vermoeidheid, ook bij lange dagen Masserende werking bij elke stap Past in elke schoen ⚡ Tot 70% korting 👉 https://foamr.nl/products/foamr-massage-inlegzolen
+Work in healthcare or on your feet all day? This is the week to stock up. STAND+ AntiGrav1s are cushioned so every step feels soft as a pillow, and they're engineered to send impact out instead of up into your knees and back. True to size and easy to slip on. Black Friday: $40 off when you buy 2+ pairs. Podiatrist-approved. HSA/FSA eligible. 👉 Stand all day. Feel it less.
 
-### Foamr · video · active · 3 days · pct 0.17482517482517482
-**Headline:** ★★★★★ 4.7/5 door 10.000+ klanten
+### Billboard Brandon with WearStand · video · active · 4 days · pct 0.47751937984496123
+**Headline:** High Performance Recovery Shoes
 
-🔥 BLACK FRIDAY BIJ FOAMR®! 🔥 Het is tijd om jouw voeten extra comfort te geven! 👣 Profiteer van kortingen tot wel 70% op onze populaire massage-inlegzolen en ontvang nu ook een gratis cadeau bij je bestelling! 🎁 ✅ Tot wel 70% korting ✅ Extra voordeel met onze bundeldeals ✅ Meer comfort en ondersteuning bij iedere stap ✅ 30 dagen risicoloos uitproberen ✅ Gratis verzending binnen NL & BE 🛒 Wacht niet langer en profiteer nu van de Black Friday-deals bij Foamr®!
+Legs wrecked after leg day? Your shoes shouldn't make it worse. STAND+ AntiGrav1s are designed for people who stand all day, and they double as recovery shoes. Energy-dispersive XL Extralight foam sends impact out instead of up into your knees and back, and the cushioned insoles get comfier the more you wear them. Podiatrist-approved. HSA/FSA eligible. 👉 Stand all day. Feel it less.
 
-### Foamr · video · active · 3 days · pct 0.3706293706293706
-**Headline:** ★★★★★ 4.7/5 door 10.000+ klanten
+### elijahjlutz with WearStand · video · active · 4 days · pct 0.4496124031007752
+**Headline:** Like Standing on a Soft Mat All Day
 
-👣 Ontdek het comfort van Foamr®! Bij Foamr® geloven we dat comfort voor iedereen toegankelijk moet zijn. Daarom bieden we slimme oplossingen voor extra comfort en ondersteuning in het dagelijks leven. ☁️ ✅ Ontwikkeld met comfort als prioriteit ✅ Eenvoudig in gebruik ✅ Geschikt voor dagelijks gebruik 🔥 Profiteer nu van kortingen tot wel 70%! 👉 Ontdek ons assortiment en bestel vandaag nog met korting!
+Feet sore after a long shift or workout? STAND+ AntiGrav1s are engineered to push force down and out instead of right back up at you. Every step feels like landing on a soft mat. Podiatrist-approved. HSA/FSA eligible. 👉 Stand all day. Feel it less.
 
-### Konjoun Barefoot · video · active · 3 days
-**Headline:** 400 Years Ago They Walked Without a Sound. Here's How.
+### alexandereasley with WearStand · video · active · 4 days · pct 0.45271317829457364
+**Headline:** Shoes That Mold to Your Feet
 
-Japanese lords built floors that chirped like birds the moment anyone stepped on them. Some are still in Kyoto today. They were built to catch one kind of man. The shinobi… Not because of the black outfits. Not because of the dark. Because of the way he walked, and what he walked in. Thin tabi, so he felt every floorboard. He landed on the front of his foot, then rolled down soft onto the heel. No noise, no wobble, and his own foot muscles did all the work. Then in the 1970s, shoe companies put thick foam under everything and called it comfort. You can't feel the ground, so you slam down on your heel every step. The muscles in your feet go quiet because the foam is doing their job. The bottoms burn 20 minutes into a walk. Calves lock up by evening. A little worse every year, no matter how good the shoes. Nothing's wrong with your feet. You changed shoes. Introducing SuperSocks WoodCarved 2.0. The one and only sock on the market with a patented sole, hand-sewn to your exact pressure points to reactivate your foot muscles. Foot biomechanists mapped where a bare foot presses the ground. Every wood-carved section is hand-sewn into that position on a five-toe sock, so: ✅ Your foot feels the ground again and lands the way a shinobi landed ✅ The muscle under each section fires every step, no foam doing its job ✅ Knees, hips and back stop taking the slam The first tabi were cut from a single piece of hide. These sections are full-grain cowhide, the top layer of the leather, so they h
+Feet done by the end of the day? Watch this. Running shoes bounce every step right back up into your knees. STAND+ AntiGravs spread the impact out to the sides instead. They're crazy light, the insole has a built-in arch and heel cup, and if they feel snug anywhere, 30 seconds with a hair dryer molds them to your feet. Need them for work? AntiGrav2s add a slip-resistant bottom. Podiatrist-approved. HSA/FSA eligible. 👉 Stand all day. Feel it less.
 
-### OrthoFit Store · video · active · 3 days · pct 0.06621621621621622
-**Headline:** Lisa’s Black Friday Shoe Find
+### alexandereasley with WearStand · video · active · 4 days · pct 0.6961240310077519
+**Headline:** High Performance Recovery Shoes
 
-So what the Black Friday is going on? 👀 Lisa shows the flex and cushioning on her OrthoFit sneakers. She also answers the question she gets about the arch support. See the pair she’s wearing. 👇
+If your feet, knees or back are done by the end of the day, it might be your shoes. Running shoes bounce every step right back into your joints. STAND+ AntiGrav1s absorb it instead, like a recovery mat for your feet. From the gym to errands to the end of your shift, XL Extralight foam and OrthoLite insoles keep your legs feeling fresh. Podiatrist-approved. HSA/FSA eligible. 👉 Stand all day. Feel it less.
 
-### Cat’s Creative Spark with OrthoFit Store · video · active · 3 days · pct 0.062162162162162166
-**Headline:** Comfort for Your Next Walk
+### alexandereasley with WearStand · video · active · 4 days · pct 0.5054263565891473
+**Headline:** Two Colors, One Deal. $40 Off 2+ Pairs
 
-Step into comfort on your next walk. 👟 See the OrthoFit sneakers in Cat’s video. She calls out the lightweight design and support for everyday wear. 👇
+Can't pick a color? Don't. Grab two pairs of STAND+ AntiGrav1s this Black Friday and take $40 off. Same lightweight cushioning that sends impact out instead of up into your knees and back, in whichever two colors you want. Black Friday: $40 off when you buy 2+ pairs. Podiatrist-approved. HSA/FSA eligible. 👉 Stand all day. Feel it less.
 
-### Orthofeet · video · active · 3 days · pct 0.7091836734693877
-**Headline:** Walk With Comfort or Your Money Back
+### WearStand · video · active · 4 days · pct 0.6325581395348837
+**Headline:** Shoes for the Shift. And Everything After.
 
-Don't go into fall with foot pain - try Orthofeet this season!
+Always on the go? Teaching classes, walking the dog, running errands. Your feet never get a day off. Start the day in STAND+ AntiGrav1s and end it in AG3 recovery slides. Both send the impact of every step out instead of up into your feet, knees and back. Podiatrist-approved. HSA/FSA eligible. 👉 Stand all day. Feel it less.
 
-### Garden Zaddy with Orthofeet · video · active · 3 days · pct 0.6479591836734694
-**Headline:** Walk With Comfort or Your Money Back
+### WearStand · video · active · 4 days · pct 0.48992248062015503
+**Headline:** The Only Recovery Shoe You Need
 
-See for yourself why over 250,000 people love Orthofeet!
+Recovery shoes don't have to look like recovery shoes. STAND+ AntiGrav1s send the impact of every step out instead of up into your feet, knees and back, and they're light enough to wear from the studio to dinner. Clean, simple, and they go with everything. Podiatrist-approved. HSA/FSA eligible. 👉 Stand all day. Feel it less.
 
-### Viasox · image · active · 3 days · pct 0.0368809272918862
-**Headline:** 5 Socks for the Price of 2! 👉
+### Billboard Brandon with WearStand · video · active · 4 days · pct 0.6015503875968993
+**Headline:** Relief in Every Step
 
-The Peanuts gang has arrived at Viasox! Meet the Peanuts Bundle — a collection of fun, officially licensed designs featuring Snoopy, Charlie Brown, and the whole crew. These playful patterns bring classic Peanuts charm to your everyday comfort, and they make the perfect holiday gift — thoughtful, nostalgic, and guaranteed to delight any Peanuts fan. And right now, you can get 5 pairs for the price of 2 with our Buy 2, Get 3 Free holiday offer — that’s $90 worth of Peanuts socks completely free. Treat yourself or surprise someone special with the timeless style of the Peanuts collection this holiday season!
+Recovery shoes: gimmick or legit? Fair question. A lot of them are gimmicks. STAND+ AntiGrav1s are designed for recovery and for people who stand all day. Energy-dispersive XL Extralight foam sends impact out instead of up, and the cushioned OrthoLite insoles feel like walking on marshmallows. Podiatrist-approved. HSA/FSA eligible. 👉 Stand all day. Feel it less.
 
-### Viasox · video · active · 3 days
-**Headline:** Relief for My Swollen, Aching Feet 👉
+### WearStand · video · active · 4 days · pct 0.4372093023255814
+**Headline:** A Pair for Every Shift. $40 Off 2+ Pairs
 
-Every evening, my feet & ankles looked swollen and felt exhausted. I’d prop them up, loosen my shoes, and count the minutes until I could sit down. It didn’t matter if I had been walking all day or just running a few errands — by late afternoon, my ankles felt tight, heavy, and uncomfortable. My shoes felt snug. My legs felt tired. And I started planning my day around when I could finally get off my feet. I tried elevating them. I changed shoes. I even tried different socks. Nothing seemed to make a real difference. Honestly, I just wanted my feet to feel normal again. That’s when I came across Viasox Ankle Compression Socks. From the first wear, I could tell they weren’t like regular socks. The 14 mmHg compression feels supportive but not restrictive — snug enough to give your ankles that secure, held-in feeling without digging into your skin. They’re soft, breathable, and stay comfortably in place all day. After a few days I noticed my ankles didn’t feel as puffy by the evening. They felt more supported throughout the day, and I wasn’t constantly thinking about how uncomfortable my feet were. I could move around more freely without that heavy, tight sensation creeping in. It’s such a simple change, but it made a real difference in how I feel day to day. If you’re dealing with tired, swollen-feeling ankles by the end of the day, Viasox Ankle Compression Socks are absolutely worth trying. Sometimes the right support is all you need to feel like yourself again.
+Work in healthcare and your lower back pays for every hour on your feet? STAND+ AntiGrav2s come with a slip-resistant bottom and full protection around the toes, plus cushioning that sends impact out instead of up into your back. True to size. Black Friday: $40 off when you buy 2+ pairs. Podiatrist-approved. HSA/FSA eligible. 👉 Stand all day. Feel it less.
 
-### Clove · image · active · 2 days · pct 0.46387832699619774
-**Headline:** Unlock 25% Off + 50% Off More
+### Armadilo · video · active · 3 days · pct 0.18604651162790697
+**Headline:** Buy 1 Get 1 Free
 
-Get 25% off all shoes + 50% off socks and more. Sign up for Clove emails + texts to unlock Black Friday Early Access.
+Most clogs are heavy, stiff, and slow you down. They protect your feet, but kill your movement. Torrey Clogs are built differently. Secure, stable, and easy to wear through long services. ✔ Slip-Resistant Outsole = grip that holds on wet, greasy floors ✔ Wide Fit = no squeezing during long shifts ✔ Stable Base = better balance behind the line ✔ Easy Slip-On = on and off in seconds ✔ Lightweight Feel = no dragging through service
 
-### Konjoun Barefoot · video · active · 2 days · pct 0.08670520231213873
-**Headline:** 🚨 Black Friday: Buy 2, Get 2 FREE + Free Shipping + FREE Gifts
+### Bright Footwear · image · active · 3 days · pct 0.14285714285714285
+**Headline:** Feel the Ground. Keep Your Grip.
 
-🚨 BLACK FRIDAY: Buy 2, Get 2 FREE + Free Shipping + FREE Gifts on SuperSocks Wood Carved 2.0. When Black Friday ends, it's gone. Over 158,395 people have stopped treating their knee and back pain and started fixing what was actually causing it. It was never just bad knees or a bad back. Their foot muscles had stopped firing, because cushioned shoes had been blocking the ground signal that wakes them up, for years. ====== That's why we built 2.0: an upgraded pressure-mapped activation sole, now with individually hand-sewn contact sections and full-grain cowhide reinforcement. 🦶 Pressure-mapped sole: every section sits on a point where your foot takes the load, sending back the ground signal cushioning blocks 🧵 Hand-sewn to the exact spot: each section is stitched in place, so it can't slip off its pressure point, mile after mile 🛡️ Full-grain cowhide over every section: built for rock, gravel and long days, not just the backyard 📏 5 sizes instead of 3: a closer fit, so the pressure map lines up with your foot 🔗 Stronger feet, less compensation: when your feet do the work, your knees, hips and back stop picking up the slack 💪 No exercises. No routines. Just walking. ====== Here's everything you get this Black Friday 👇 ✅ Buy 2, get 2 FREE 🎁 FREE gifts in every order 📦 FREE shipping ✅ 30-day money-back guarantee ⭐ Worn by 158,395+ people
+A winter shoe shouldn’t make you feel disconnected from the ground. Polar combines a 4mm sole with anti-slip grip, a wide toe box, zero raised heel, and firm heel support for a more natural, grounded feel with every step. More room for your toes. More ground feedback. More confidence underfoot. Buy 1, Get 1 Free.
 
-### OrthoFit Store · video · active · 2 days · pct 0.06486486486486487
-**Headline:** See the black pair side by side
+### Footstr · video · active · 3 days · pct 0.3560606060606061
+**Headline:** Deal with foot, knee and back pain the right way
 
-Looking for a comfortable pair this season? 👟 See the black OrthoFit Wide Toe Box Comfort Sneakers held side by side. Take a look at the roomy front and find your size.
+Millions of adults are treating their foot and leg pain the wrong way, without even realizing it... Heel, ankle, knee, and back pain all trace back to the same root — and it isn't where it hurts. And the fix? It's surprisingly simple — no custom orthotics, no physical therapy, and no expensive specialist visits. Click below to see why thousands of adults are switching to this new solution → 👉 https://getfootstr.com/products/footstr-insolex-adults
 
-### OrthoFit Store · video · active · 2 days · pct 0.07297297297297298
-**Headline:** A closer look at the black knit upper
+### KURU Footwear · image · active · 3 days · pct 0.6379310344827587
+**Headline:** Early Access Starts Now
 
-See the OrthoFit black sneakers from every angle. 👟 The video gives a close-up of the knit upper and rounded toe. Explore the Wide Toe Box Comfort Sneakers and find your size.
+Shop before the rush. Our entire site is up to 75% off, but only you get first dibs. 🦶Built for Heel Pain Relief 🌟50,000+ 5-Star Reviews 📦Free Shipping
 
-### OrthoFit Store · video · active · 2 days · pct 0.07145270270270271
-**Headline:** Good Timing to Check Your Pair
+### OrthoFit Store · video · active · 3 days · pct 0.012200137080191912
 
-Good timing if you’ve been eyeing a pair. 👀 Lisa wears her wide toe box OrthoFit sneakers for walks and housework. See the pair she reaches for and check today’s price. 👇
-
-### jodilachance with OrthoFit Store · video · active · 2 days · pct 0.0633445945945946
-**Headline:** Are your shoes wide enough?
-
-Are your shoes wide enough? 👟 Jodi shows how much room there is across the front of her OrthoFit sneakers. She likes the extra space for her toes and how light the breathable mesh feels on her feet. See the colors and find your size.
-
-### OrthoFit Store · video · active · 2 days · pct 0.06756756756756757
-**Headline:** Tired of saying “you go ahead”?
-
-Jana was tired of saying, “You go ahead.” A walk or a trip to the shops used to leave her toes sore by the time she got home. She likes how much room her toes have in OrthoFit’s wide toe box and how the soft knit flexes with her foot. 👟 Find your size in OrthoFit Wide Toe Box Comfort Sneakers.
-
-### johnsonkatie27_ with OrthoFit Store · video · active · 2 days · pct 0.04172297297297297
-**Headline:** Why Katie likes the fit
-
-“These might be the nicest shoes I’ve ever worn.” 👟 Katie shows the black pair on foot and explains why she likes the space for her long toes. See how the pair looks with her jeans.
-
-### Footstr · video · active · 1 days · pct 0.25274725274725274
-**Headline:** 30 day money back guarantee
-
-Cold season is here? ❄️ No problem at all with the new Footstr™ 100% Real Merino Thermal Socks 🧦 Thanks to real Merino wool, your feet stay protected from freezing cold, trapped sweat, and numb toes! Get warm feet now: 👉 https://getfootstr.com/products/100-real-merino-thermal-socks Your most important benefits: ✅ 100% Real Merino wool warmth without overheating ✅ Sweat-free breathability (no damp, freezing toes) ✅ Targeted impact cushioning under the heel and footbed ✅ Ultra-soft knit and 100% itch-free ✅ 90-day risk-free trial ❓ Up to which temperatures are the Footstr™ Merino Thermal Socks recommended? ℹ️ Footstr™ Merino Thermal Socks are engineered to keep your feet comfortably warm all the way down to -20°C/-4°F.
-
-### Footstr · video · active · 1 days · pct 0.27472527472527475
-**Headline:** 90 day money back guarantee
-
-Cold season is here? ❄️ No problem at all with the new Footstr™ 100% Real Merino Thermal Socks 🧦 Thanks to real Merino wool, your feet stay protected from freezing cold, trapped sweat, and numb toes! Get warm feet now: 👉 https://getfootstr.com/products/100-real-merino-thermal-socks Your most important benefits: ✅ 100% Real Merino wool warmth without overheating ✅ Sweat-free breathability (no damp, freezing toes) ✅ Targeted impact cushioning under the heel and footbed ✅ Ultra-soft knit and 100% itch-free ✅ 90-day risk-free trial ❓ Up to which temperatures are the Footstr™ Merino Thermal Socks recommended? ℹ️ Footstr™ Merino Thermal Socks are engineered to keep your feet comfortably warm all the way down to -20°C/-4°F. Headline Keep Your Feet Warm Down to -20°C ❄️ Description 100% Real Merino Wool. 90-Day Risk-Free Trial.
-
-### OrthoFit Store · image · active · 1 days
-**Headline:** Regular Sneaker vs Wide Toe Box
-
-A regular sneaker points at the front. Ours stays wide all the way across the toe box 👀 Same clean look. Completely different feel by 4pm. You're not buying a bigger shoe or a clunky orthopaedic one. You're buying the same silhouette built around a foot instead of a point. ⭐ 1.2M+ women made the switch 🔥 Half off + free shipping 🛡️ 30-day money back Check your size 👇
-
-### OrthoFit Store · image · active · 1 days
-**Headline:** Just Dropped. Last Chance
-
-Just dropped, and it’s the last chance at this price 🔥 Navy, grey and black, the three that go with everything you already own. Extra-wide toe box. Arch support. Shock-absorbing sole. Looks like a regular sneaker. 🔥 50% off 🛡️ 30-day risk-free trial Check your size 👇
-
-### Viasox · video · active · 1 days
-**Headline:** Help Reduce Leg Swelling 👉
-
-If you struggle with edema or lymphedema, you know how quickly swollen legs can turn everyday activities into a challenge. That's why we created Viasox Compression Socks. Designed with gentle graduated compression (12–15 mmHg), they help support healthy circulation, encourage fluid movement, and reduce the heavy, swollen feeling that can build throughout the day. Unlike stiff, uncomfortable medical socks, Viasox Compression Socks are made for all-day comfort. ✅ Graduated Compression Helps promote healthy blood flow and manage everyday swelling. ✅ Helps Reduce Leg Fatigue Supports tired, heavy legs so you can stay comfortable longer. ✅ Seamless Toe Design Helps minimize rubbing and irritation on sensitive feet. ✅ Triple-Padded Cushioning Extra comfort where your feet need it most. ✅ Breathable Bamboo-Blend Fabric Keeps your legs and feet cooler, drier, and more comfortable. Whether you're managing mild edema, lymphedema, or everyday leg swelling, Viasox Compression Socks provide the comfortable support your legs deserve.
-
-### Viasox · video · active · 1 days
-**Headline:** Help Reduce Ankle Swelling 👉
-
-I Forgot What Light, Comfortable Legs Felt Like—Until I Tried These For months, my legs felt swollen, tight, and tired. Standing for long periods was uncomfortable, walking around felt frustrating, and by the end of the day my legs just felt heavy. I tried elevating them. I tried soaking them. But nothing gave me the lasting comfort I was looking for. Then I found Viasox Compression Socks. The gentle graduated compression helped support my circulation, reduce swelling, and ease that heavy, aching feeling. For the first time in a long while, my legs felt fresh, light, and comfortable again. For anyone dealing with poor circulation, swelling, or tired legs, Viasox could make a real difference.
-
-### Vionic Shoes · image · active · 1 days · pct 0.5
-**Headline:** Boot Sale
-
-Black Friday Boot Sale: Save 30% on selected styles.
-
-### Vionic Shoes · video · active · 1 days · pct 0.3902439024390244
-
-I didn’t know I could love a slipper this much until I tried the peppa from @vionicshoes ☁️ so plush while still giving my all feet the support the need, my dream addition for cozy season. 🤎 #vionicpartner
+Our founder wants to be completely honest with you 👇 If your feet are wrecked by the end of a long shift, and your knees and lower back are taking the hit too, you have probably blamed it on getting older. Most of the time it is not your age. It is your shoes. 👟 OrthoFit walking sneakers have real arch support, shock absorbing insoles and a wide, rounded toe box, so every step protects your feet, knees and back instead of punishing them. ✅ Breathable mesh keeps feet cool on long days ✅ Looks sharp with khakis, dress pants or shorts ⭐ 500,000+ men switched See why men are calling them the last walking shoe they will buy 👇
 
 ## Other brands' long-running statics (proven formats) (39, from longrun_statics.csv)
 
@@ -2423,604 +2433,605 @@ Elke stap voelt als een mes in je hiel? Foamr Massage Inlegzolen verlichten dire
 
 ## Health & wellness statics growing now (ranked by 7-day impression growth) (120, from inspiration_wellness_45d.csv)
 
-### Julie Rosenberg · 44 days · pct 0.10344827586206896 · growth 14
-**Headline:** 🔥 Get 60% OFF + 3 FREE Gifts 🔥
+### Sorviq · 43 days · pct 0.17602427921092564 · growth 67
+**Headline:** Buy 2 Get 2 FREE 🎁
 
-I didn't expect to feel THIS vibrant and confident at 58… AT 58!!! I'm just as surprised as you 😂 Because if you told me a year ago that during menopause I'd have… 🔥 Flat belly I haven't seen in years ✨ No more bloating 💪 Energy all day, every day 💃🏻 A body that finally listens to me again …I would've laughed. Hard. I thought bloating, cravings, exhaustion, and a belly that wouldn't budge… Were ju
+🍂 This Autumn, take care of your legs — and yourself! If your legs don't look as beautiful as they used to because of varicose veins, this Miracle Balm can help bring back that smoother, lighter feeling again. Sorviq Miracle Balm is made with herbs like horse chestnut, arnica and calendula flowers that support the vein walls, help circulation move again, and soothe the discomfort from the inside o
 
-### FRISS · 43 days · pct 0.058823529411764705 · growth 0
-**Headline:** You've never seen caffeine like this.
+### Performa · 43 days · pct 0.17647058823529413 · growth 2
+**Headline:** Da 20.000€ a 485.000€/mese. In 6 mesi. Senza magia.
 
-Get 20% off your first order with code WELCOME20! Clean, controlled focus from FRISS - a caffeine pouch made by a neuroscientist. No sugar, no jitters.
+Da 20.000€ a 485.000€/mese. In 6 mesi. Senza magia. Settembre 2025. Un e-commerce beauty B2B con 3.000€/mese di budget ads, nessuna strategia di retention, Google mai attivato e un conversion rate dello 0,81%. Marzo 2026. 485.904€ di revenue mensile, CAC blended a 6,52€, MER a 29,6x, 2.520 ordini al mese. Non è successo per caso. È successo perché abbiamo applicato un metodo preciso: → Modello di
 
-### Testolite · 41 days · pct 0.05263157894736842 · growth 19
-**Headline:** Advanced Red Light Therapy for Men's Wellness
-
-The bedroom has been dead for months. It's not stress. It's not attraction. It's not "all in your head." Your body has stopped responding — and blue pills only solve half the problem. Here's what's really happening: Performance problems have two root causes — both from declining cellular energy production in your body.* Cause 1: The cells that produce testosterone need energy to function. When tha
-
-### Foot Health Club · 39 days · pct 0.37037037037037035 · growth 15
-**Headline:** Walk on Clouds - Or It’s FREE.
-
-"I work at a processing plant for 12hrs a day and the boots they have are not feet friendly. The insoles make the boots feel like a million bucks!" — Terry, Verified Customer ✅ Years of pain gone instantly ✅ Finish a 12hr shift with zero pain ✅ Fits any work boot ✅ Instant relief
-
-### Irries · 37 days · growth 17
+### Irries · 41 days · growth 17
 **Headline:** 4 Free Gifts + Free Shipping
 
 The Irries Uni Fusion Belt is $130 off right now. That's 52% off. And you get 4 free gifts with your order: ✅ Sciatica Relief Patches ✅ The 30-Day Relief Plan ✅ Sleep Without the Pain, the night guide ✅ A 1-year warranty Free shipping. And you have 60 days to try it at home. If it doesn't help, send it back and you get your money back. Get yours 👉 irries.com/products/irries-uni-fusion-belt
 
-### Pain Relief Australia · 37 days · pct 0.22857142857142856 · growth 4
-**Headline:** Australia's #1 Neck & Shoulder Relaxer
+### Novex Biotech · 40 days · pct 0.02666666666666667 · growth 3
+**Headline:** 15% Off With Code: nx15
 
-Tired of a stiff neck, tight shoulders, or tension headaches?⁣ ⁣ Our Neck & Shoulder Relaxer is helping thousands of Aussies unwind at the end of the day — 10 minutes on the lounge and the tension just melts.⁣ ⁣ ✅ Gentle 26° stretch that cradles your neck⁣ ✅ Heat + vibration + acupressure in one⁣ ✅ Lightweight — use it at home, at work, anywhere⁣ ⁣ 👉 Join the 1000s already feeling the difference.
+No more “I’ll start Monday.” GF-9 Black Label is a 2-part system formulated for men 40+ who want more from their workouts, their focus and their mornings. • GF-9: patented formula shown to raise HGH up to 682% in a clinical study* • Performance AMP: Alpha-GPC, natural caffeine and L-Theanine for strength output and focus • 15 patents. Hormone-free. No injections. Free OxyDrene NAD+ Booster With Or
 
-### Diabetic Sock Club · 37 days · pct 0.06976744186046512 · growth 3
-**Headline:** Diabetic Compression Socks
-
-Compression socks you can actually live with. DSC over-the-calf compression is graduated: firmest at the ankle, easing up the calf. Pick your strength: 8–15 mmHg (light), 15–20 (medium) or 20–30 (firm). Smooth toe, stays up without rolling. Knit in Alabama. 🍂 Fall Sale: buy 2 pairs, get 2 free, or buy 3, get 4 free ($12.85 a pair) ✔ Free shipping on every order ✔ 1-year replacement guarantee
-
-### Diabetic Sock Club · 37 days · pct 0.09302325581395349 · growth 3
-**Headline:** A Soft Top That Leaves No Mark.
-
-Tired of socks that squeeze your legs and leave marks? DSC women's non-binding cotton crew socks have a soft top that holds gently instead of gripping — no tight band, no ring pressed into your leg at the end of the day. Soft cotton, smooth toe seam, knit in Alabama. 🍂 Fall Sale: 6 pairs for $49.98, or 12 for $74.96 ($6.25 a pair) ✔ Free shipping on every order ✔ 1-year replacement guarantee Switc
-
-### Mars Global · 36 days · pct 0.06349206349206349 · growth 0
+### Mars Global · 40 days · pct 0.12 · growth 2
 **Headline:** BEAST MODE: Buy 5 for $99.
 
 WAKE THE DEAD IN THE BEDROOM THIS HALLOWEEN! 🎃⚡ Don't let low testosterone, flat energy, and weak blood flow turn you into a tired zombie when the night gets dark! Skip the sketchy gas station pills that leave you with blinding headaches and zero results. Real all-night performance, rock-solid firmness, and explosive release require daily hormone and circulation optimization. Unleash full-spectrum
 
-### Tiffany Mccomb · 36 days · pct 0.2 · growth -1
-**Headline:** The Hidden Risk Of Switching To Barefoot Shoes
+### Mars Global · 40 days · pct 0.2 · growth 1
+**Headline:** Buy 10 for $149
 
-35% of new barefoot shoe wearers report pain within the first month. Calf strains, plantar fasciitis, metatarsal stress fractures. 🦶 Your feet spent 20–30 years in padded shoes. The muscles that should support your arch? They've been asleep the entire time. ⏳ A proper transition takes weeks, not days. Most people learn this the hard way. 🔎 A foot practitioner shares the one shoe built for the tran
+Fuel your day the natural way ❤️⚡ Buy 10 for $149 deal now live for Limited time🔥 Stock up on circulation and daily energy support while the offer lasts ⏳
 
-### TheraPexa · 35 days · pct 0.4233576642335766 · growth 68
-**Headline:** It feels like real human hands 🙌
+### Besque · 40 days · pct 0.06578947368421052 · growth 0
+**Headline:** This Isn't a Pricing Mistake
 
-Massage gun. Pillow. Foam roller. Appointments. Most of us have spent hundreds on things that didn’t stick. TheraPexa is the one that does the job: four deep kneading nodes, optional heat, and fully cordless so you wear it hands free. It feels like real human hands, every night, for a one time price. Up to 55% off + 4 free gifts, ending soon. Try it at home for 90 days risk free.
+This deal looks like a pricing mistake. It isn't. For a limited time, the XL Magic Body Oil drops from $120 to $78. That's 35% off our bestseller. Then the XL Luxury Shower Oil, worth another $120, goes in the box for free. That's $240 worth of Besque for $78, and there's no code and no catch. Just add the Duo to your cart. Here's what you're getting. The body oil is made from seven cold-pressed o
 
-### Ageless Skin Secrets · 35 days · pct 0.15384615384615385 · growth 2
-**Headline:** What dermatologists actually drink for their skin.
+### Martha Jane's Cleaning Hacks · 39 days · pct 0.05405405405405406 · growth 3
+**Headline:** The Sneaky Reason Your Laundry Still Smells Bad
 
-Cellular skin health, made simple. Sun Powder is a clinically dosed daily skin supplement formulated with 8 ingredients to support healthier, more resilient skin from the inside out. One stick a day. Just mix with water. Try Sun Powder® for 30 days, risk-free.
+If your towels smell fine out of the dryer but musty the second they get wet, read this. 👇 The odor is not coming from your laundry. It is coming from the parts of your washer you never see. Every load leaves behind body oils, skin, lint, and detergent residue. Microorganisms attach to that residue and seal themselves under a sticky protective layer called biofilm, the same kind of buildup that fo
 
-### Tiffany Mccomb · 35 days · pct 0.30638297872340425 · growth -10
-**Headline:** What Is The Problem With Your Barefoot Shoes?
+### Recovery Labs Pro · 38 days · pct 0.4020618556701031 · growth 48
+**Headline:** Magnesium Recovery Soaks
 
-🚨 Over 35% of first-time barefoot shoe buyers experience calf strains, arch pain, or stress fractures within the first month. 🦶 Your foot has 26 bones, 33 joints, and over 100 muscles — all of which have been dormant in cushioned shoes for decades. Going flat overnight is like running a marathon off the couch. ⏱️ The safe transition window? 6–8 weeks minimum. Most brands don't even mention it. 🔎 J
+You gun the one calf that's screaming and skip everything else. Then wonder why the rest of you is stiff tomorrow. Keep the gun. Then get in the tub. Recovery Labs put magnesium chloride, creatine, BCAAs and electrolytes in one pouch. Pour it into a warm bath, sit for 15 minutes, and everything under the water gets it at once. Ava R., distance runner: "I've tried literally everything from foam rol
 
-### Foot Health Club · 32 days · pct 0.3333333333333333 · growth 9
-**Headline:** Walk on Clouds - Or It’s FREE.
+### Wholesome Story · 38 days · pct 0.25 · growth 3
+**Headline:** One cycle isn't a read
 
-“As a type 1 aging diabetic with Neuropathy, I am extremely happy with these insoles. As soon as I put them in I felt some instant relief. Glad I grabbed two pairs for both my shoes.” — David, Verified Customer ✅ Make walking easy again ✅ Suitable for long periods of standing and walking ✅ Fits all shoes ✅ 90 day money back guarantee
+One cycle isn't always a read. Three is where a real decision lies. That's why people take inositol for 90 days. It's a daily nutrient for hormone support*, not a magic fix :) It's a 90 day habit. So our guarantee is 90 days too: if it's not for you, it's on us. One serving, every day. See how it goes! *These statements have not been evaluated by the Food and Drug Administration. This product is n
 
-### Orthora Footwear · 32 days · pct 0.21362229102167182 · growth -1
+### Orthora Footwear · 36 days · pct 0.17274939172749393 · growth 13
 **Headline:** Buy 1 Pair, Get 1 FREE — Today Only 👟👟
 
 Your feet kept you going for 12 hours. Now get a free pair on us. You've tried Hokas. Skechers. Crocs with the insoles. By hour 7, your feet were still burning. Those shoes were built for walking. Orthora was built for standing 12 hours on concrete. Right now: Buy 1 pair, get 1 pair FREE. Keep one. Give one to the coworker who's been limping to her car every night. ✅ Non-slip ✅ Zero break-in perio
 
-### Longevityrxofficial · 31 days · pct 0.024390243902439025 · growth 5
-**Headline:** Protein After 60 Is Different
-
-Over 60? You were told to cut back on red meat for forty years. That advice was about your heart. Nobody followed it up with what to do about protein, and protein is the one thing that matters more after 60, not less. Most people in this age group are eating well under what they need and have no idea. StemCell Protein is a regenerative protein: bone-marrow protein, bio-identical lipids and organ p
-
-### Popstar · 31 days · pct 0.125 · growth 2
+### Popstar · 35 days · pct 0.2222222222222222 · growth 10
 **Headline:** 💦 “My O's have never been more intense"
 
 "6 months later and my O's have never been more intense and pleasurable." Everything still works. It's just not what it was. And you can't stop noticing. That's the part nobody talks about. Not the dramatic stuff. Not the total failure. Just… less. Less volume. Less force. Less of that feeling where you finish and feel like an absolute weapon. But what if that didn’t have to be the case? What if y
 
-### papernest · 31 days · pct 0.13333333333333333 · growth 2
-**Headline:** Où part votre budget ? 💸
+### The Health Community · 35 days · pct 0.058823529411764705 · growth -1
+**Headline:** The Health Community
 
-💸 Vous savez vraiment où part votre budget chaque mois ? Visualisez vos dépenses récurrentes par catégorie avec papernest.
+🧄 Have you ever seen garlic that looks like this? It's called black garlic, and its dark color comes from a carefully controlled heating and aging process. Over time, its color, flavor, and chemical composition change. It's just one example of how fascinating the science of food and nutrition can be. Here at our community, we share interesting discoveries about nutrition, heart health, circulation
 
-### Nex Gen AI Consulting  · 31 days · pct 0.25
+### Nex Gen AI Consulting  · 35 days · pct 0.25
 **Headline:** BOOK MORE HIGH VALUE HVAC JOBS
 
 Your HVAC company does not need more random leads. You need more homeowners who actually need AC repair, heating service, system replacements, heat pumps, and new HVAC installations. Because when the right opportunities are consistently entering your pipeline, everything changes. Your comfort advisors have more appointments to run. Your technicians have more work on the calendar. And your business
 
-### MenoLabs · 30 days · pct 0.08333333333333333 · growth 1
-**Headline:** NEW! FocusHer Mental Energy Support Supplement
+### Grönanda · 34 days · pct 0.0196078431372549 · growth 12
+**Headline:** Why Is Everyone Grabbing These High-Top Barefoot Boots in October? | Grönanda
 
-New! FocusHer: Caffeine-free mental energy support in just one capsule a day.* Promotes concentration, supports brain & eye health, and helps with focus & memory.* 💊 Registered Dietitian Formulated | 🔬 Clinically Backed Ingredients *These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease.
+This is a GOODBYE 👋 Our bestselling X-Forest Boots are officially entering FINAL INVENTORY. No restocks. No second chance. No “back next month.” This offer won't come around again. When it's gone, it's GONE. 👉 $66 OFF + 1 Year Outsole Warranty:
 
-### Maison Cosmetics · 29 days · pct 0.11904761904761904 · growth 4
-**Headline:** Fast ausverkauft
+### Mae&Rose Jewels · 34 days · pct 0.07272727272727272 · growth 4
+**Headline:** Handcrafted from 99.9% Pure Copper
 
-Fast ausverkauft. Maison Volufine ist unser #1 Volumen-Serum für Haut ab 40 – und der aktuelle Sale läuft schneller als erwartet. Die leichte Formel zieht sofort ein, fühlt sich fast schwerelos an und unterstützt reife Haut dabei, sichtbar voller, glatter und frischer zu wirken. 💖 Zieht sofort ein 💖 Leicht wie Luft 💖 Unterstützt ein voller wirkendes Hautbild 💖 Für Tag und Nacht 💖 50% Rabatt + Über
+Dear Friends, If you're waking up with stiff joints, low energy, and a body that feels ten years older than you are — we need to tell you something your doctor probably hasn't. It's not aging. It's inflammation. And inflammation is something people have been trying to manage for thousands of years — long before supplements, long before the wellness industry existed. They used copper. For centuries
 
-### Earthing Harmony · 29 days · pct 0.15267175572519084 · growth -14
-**Headline:** Walk Grounded, Just as Nature Intended
+### South Beach Skin Lab · 33 days · pct 0.14705882352941177 · growth 4
+**Headline:** Real Results - From A Bottle!! ❣️
 
-There’s something special about watching a product get made by real hands. At Earthing Harmony, we do not see our shoes as just another item rolling off a line. Every pair starts with real materials, real craftsmanship, and real people who care about what ends up on your feet. You can see it in the stitching, the shaping, the little details that machines usually rush past. We like it that way. Bec
+🤨 I asked my dermatologist whether anything at all could be done about the deep ones, and she told me honestly that injections weren't the answer for what I had. I'm 74. I appreciated the honesty. It also meant I went home with nothing, which was worse. What I have aren't expression lines. They're everywhere — down my cheeks, around my mouth, across my chin — fine and deep at the same time, in a c
 
-### The Vascular Standard · 28 days · pct 0.1346938775510204 · growth 9
-**Headline:** The #1 Cacao for Brain Health
+### Best Probiotics For Menopause · 33 days · pct 0.10810810810810811 · growth 2
+**Headline:** Can’t Find This Deal On The Normal Website
 
-⚡ Why 10,000+ Men Over 55 Ditched Their Brain Supplements For This Ancient Morning Cup The hard truth about brain supplements: Most are aimed at the wrong target entirely. They work around the fog in your head. None of them address where it actually starts. Here's what they don't tell you: ❌ They assume the brain itself is failing ❌ They flood your body with ginkgo and lion's mane your system can'
+Provitalize double-dip coupon stacking tip… COUPON ONE: Select “90 day supply” – reduces cost-per-bottle by $13 COUPON TWO: At checkout use code “TRYUS” – reduces cost-per-bottle by another $3.30. Has to be done through this specific link (searching on Google won’t work): https://thebbco.com/pages/pp-provitalize-m-10dollaroff Better do it now because the link could expire soon.
 
-### Thomas W. Brenner · 28 days · growth 5
-**Headline:** Move Freely Again - Like You Used To Do
+### Wisdom of the Womb · 32 days · pct 0.07142857142857142 · growth 6
+**Headline:** Natural Support For Every Stage of Pregnancy
 
-A doctor on a Greek island told me something about my sciatica no American doctor ever had. It was a countdown that had been running, silently, for 15 years. I found this out because my back finally gave out on the steps in Santorini, on the trip my wife and I had waited our whole marriage to take. Our 30th anniversary. Oia. The white houses, the blue domes, the sunset everyone promises you. We'd
+"This tea has been a lifesaver—it helps with my morning sickness. I've been recommending it to all of my pregnant friends!.” Discover gentle, nourishing support for pregnancy—helping to strengthen, replenish, and balance your body as you grow new life.
 
-### NeuroMD · 27 days · pct 0.19736842105263158 · growth 25
-**Headline:** Get 62% Off Today
+### Grönanda · 31 days · pct 0.29411764705882354 · growth 19
+**Headline:** Why Is Everyone Grabbing These High-Top Barefoot Boots in 2026? | Grönanda
 
-If you are okay living with daily back pain, you can scroll. But if sciatica, scoliosis, or spinal stenosis is affecting how you sit, stand, or sleep, this is for you. NeuroMD is not a quick distraction or a temporary fix. It is an at home system designed to address the source of lower back pain and support long term relief. Why over 1 million people trust it: • Helps target the source of nerve re
+Why are 300,000 people switching to these Anatomical Boots? 🍂 I tested 5 fall/winter boots over 2 years. Honestly, only this one is actually worth the money The Grönanda Anatomical Boot is the NEXT LEVEL of comfort: ➤ Extreme 5x grip on wet streets - no more slipping or ankle twists ➤ Wide Toe Box - no squeezing or toe pressure. ➤ 100% Rain-proof upper - walk through rain & slush with dry feet ➤ F
 
-### Susan's Bladder Tips · 27 days · pct 0.11764705882352941 · growth 4
+### Susan's Bladder Tips · 31 days · pct 0.06818181818181818 · growth 4
 **Headline:** Finally, Organic Underwear that actually works for incontinence
 
 Everyone uses disposable pads for leaks because that's what doctors recommend 💊 But nobody mentions what those pads actually do to your body when you wear them every single day. Disposable pads were designed for periods, not 24/7 incontinence use. The plastic backing traps heat and moisture against skin that menopause has already made thinner and more delicate 😰 That trapped dampness breeds bacter
 
-### MAÏA · 27 days · pct 0.028925619834710745 · growth 3
-**Headline:** Buy 2 Get 2 FREE
+### Skincu · 31 days · pct 0.2 · growth 1
+**Headline:** Up To 60% Off - Almost Sold Out
 
-The offer just went live — and it's already selling out. MAÏA Buy 2 Get 2 FREE is available right now for a limited window. Last time they ran this, stock was gone in under 3 days. They haven't confirmed when — or if — they'll run it again. If arterial health and circulation are on your radar, this is the moment. Most men have never heard of high-flavanol cacao. That's about to change. Flavanols a
+Up To 60% OFF. Ends when stock runs out. For years you've hidden crepey skin under your clothes. Cream after cream. Nothing changed. Creams sit on top of your skin. Our Anti-Aging Body Oil sinks in deep, where firmness is lost. Softer skin in days. Visibly firmer in weeks. 👉 https://skincu.com/products/anti-aging-body-oil
 
-### Healr · 26 days · pct 0.04430379746835443 · growth 1
-**Headline:** You're not fat, you're just inflamed.
+### ComfoFeet Footwear · 30 days · pct 0.4642857142857143 · growth -14
+**Headline:** 🎃 Buy 1 Get 1 FREE
 
-Have you heard about molecular hydrogen? Introducing Healr H2. Designed to infuse water with one of the highest concentrations of molecular hydrogen available. Molecular hydrogen acts as an antioxidant, supporting your body at a cellular level. 💧 Supports digestive health 💧 Supports stress recovery 💧 Supports immune function 💧 Supports mood and energy balance 💧 Supports athletic performance and re
+🎃 THE SCARIEST THING THIS HALLOWEEN? Still wearing shoes that leave your feet aching. Comfofeet are made for soft, roomy, all-day comfort — without the stiff, cramped feel of regular shoes. - Escape the foot pain nightmare. - Save up to 70% today. - Free Shipping Trustpilot rated, 4.5 / 5 ⭐⭐⭐⭐⭐ 🎃 Get 70% OFF + Free Shipping — Halloween Sale Only!
 
-### ClearDose · 25 days · pct 0.1 · growth 4
-**Headline:** If You Have Diarrhea, You'll Want To Read This 👆
+### Cellumove · 29 days · pct 0.2934272300469484 · growth 86
+**Headline:** Show Your Legs with Confidence!
 
-🚽 "So far, I'm on my second day of Clear Dose Digestive Enzymes. It took effect immediately on my first day & I was totally amazed & relieved! I'll be ordering this supplement again for sure!" —Shirley W. (verified buyer) Before we explain why ClearDose works so well for people living with Chronic Diarrhea, let's talk about what's actually going wrong inside your gut every time you eat. 🔹 Your bod
+Varicose veins getting worse? It’s not your fault. This is a blood circulation issue. This medical-grade legging restores blood flow and reduces vein appearance. ✔️ Visible results in 2 weeks ✔️ No surgery needed 💥 Buy 1 Legging, Get 1 FREE — while stock lasts.
 
-### Charix Shoes · 24 days · pct 0.2702702702702703 · growth -8
-**Headline:** Save $30 on Charix Shoes
+### Linda Hartwell · 29 days · pct 0.09333333333333334 · growth 1
+**Headline:** Finally, Organic Underwear that actually works for incontinence
 
-🍂 Fall savings are here 🍂 Claim $30 Off your first pair! Shoes that won’t feel like you’re suffocating your feet when you wear them! Natural leather that breathes and memory foam insoles make Charix shoes a must-have for anyone who spends their days on their feet. With a subtle design that lets you wear them anywhere, your Charix will match almost everything you wear.
+Please don't buy Ultradries and wear just the underwear. I'm a nurse, and this is the mistake I keep seeing. I work in a care facility, and I've spent most of my adult life looking after women who deal with bladder leaks. I don't have them myself, so let me be careful. I'm not giving medical advice. I'm telling you what I've watched. Women with bladder leaks buy Ultradries, the washable underwear
 
-### Kion · 23 days · pct 0.02702702702702703 · growth 12
-**Headline:** One packet with water. Anywhere. ✨
+### Wellness Chronicles · 29 days
+**Headline:** AT2A Lymphatic Drainage Drops
 
-No protein shakes, no planning, no problem. Kion Aminos is the one thing that goes with you everywhere. Just mix one packet with water on busy days to build lean muscle, boost energy, and recover. Save 50% on Kion Aminos packets today, and if you don't love it, you're fully covered by a 60-day money-back guarantee.
+This is what would happen to a man whose shirt tuck stopped fitting the way it used to if he took AT2A Lymphatic for 60 days. After his first dose, his system absorbs four powerful botanical compounds. Stillingia Root, Cleavers, Prickly Ash Bark, and Red Clover Blossom. Together, they start dissolving the lymphatic fluid and waste that settled across his waist, torso and the tissue underneath the
 
-### UMZU · 23 days · pct 0.19047619047619047 · growth 0
-**Headline:** Blood Flow Support. Stamina Support.
+### Joylux · 28 days · growth 24
+**Headline:** Whatever Hurts Next, We've Already Got It Covered
 
-Put circulation on your training checklist. Redwood MAX supports nitric oxide production, healthy blood flow, and exercise stamina—bringing daily circulation support to your active routine. Support the work you put in. Shop Redwood MAX.
+One morning it's your shoulder. By dinner, it's your knee. Tomorrow, who knows. Pain in midlife doesn't wait for an invitation, and it definitely doesn't stick to one spot. ILYEO body goes wherever it shows up. Wrap it on, let the red light, heat and gentle vibration get to work, and get back to your day. Hands-free, no sitting still required. Whatever hurts next, we've already got it covered.
 
-### Comfort Queen with Walk Fulton · 22 days · pct 0.17307692307692307 · growth 20
-**Headline:** I wish I tried these sooner
+### Immy  · 28 days · pct 0.038461538461538464 · growth 3
+**Headline:** 👉 Try immy risk-free today.
 
-Three slides. One actually got rid of my plantar fasciitis 👀 The other two? Total waste. Can you guess which one worked? Click to find out →
+Feeling run down. Getting sick more often. Never quite feeling 100%. Your immune system does a lot more than you think — and supporting it goes beyond just taking vitamin C. That’s why people are adding immy to their daily routine. ✨ Trusted by 450+ clinicians 💪 Over 2 million daily doses delivered 🛡️ Supports healthy immune balance 🔥 Supports healthy inflammatory responses ♥️ 30-day comfort guara
 
-### Grow My Ads · 22 days · pct 0.022727272727272728 · growth 2
-**Headline:** Free Google Ads Audit: Fix the August Update
+### Wellness Chronicles · 27 days · growth 112
+**Headline:** AT2A Lymphatic Drainage Drops
 
-Did your Google Ads performance drop after August 27th? You're not imagining it. Google's August bidding update hit far more campaigns than Google said it would: - Budget-limited campaigns - Max conversion value campaigns - Even accounts that were hitting their targets. We've been fixing this across our client accounts since it rolled out. Get a free audit from the Grow My Ads team. We'll look und
+Feeling bloated, puffy, swollen, sluggish, or constantly run-down? Introducing AT2A Lymphatic Wellness Drops — a fast-acting, science-backed liquid formula that supports natural lymphatic drainage and full-body vitality. 💧 Helps flush out built-up toxins and waste 💧 Supports healthy circulation and immune function 💧 Reduces puffiness, water retention, and inflammation 💧 Promotes clearer skin, less
 
-### TopCashbackUSA · 22 days · pct 0.125 · growth 1
-**Headline:** Save big at Target
+### Flawless After 40 · 27 days · pct 0.5625 · growth 2
+**Headline:** Look As Young As You Feel
 
-IT'S BACK! Purchase two Icon Glasses from Target totaling $15+ and we'll give you a $10 Cash Back reward 💰While supplies last.
+I'm a private housekeeper for some of the most recognizable faces in Hollywood. Last month, one of my clients sent me a text that still gives me chills. "I don't care what it costs. Find that compact. I'm flying back for it." Let me rewind. I've been working as a private maid for A-list celebrities for the past 6 years. I clean their homes. I stock their fridges. I organize their bathrooms. And ro
 
-### True Nutra Plus · 21 days · pct 0.27702702702702703 · growth 26
+### FEM+ Nutrition · 26 days · pct 0.23766816143497757 · growth 118
+**Headline:** Natural ingredients, instant results
+
+These drops? Total game-changer! 💧✨ I’ve never felt so light, refreshed, and confident in my body! Feeling puffy, bloated, or just not your best? FEM+ Lymphatic Drainage Drops are packed with powerful herbs like Red Root, Cleavers, and Burdock Root to support your body's natural lymphatic drainage process and help you feel your best from the inside out! 🌿💗 ✅ Made with natural herbal ingredients ✅
+
+### Inno Cleanse by Inno Supps · 26 days · pct 0.22857142857142856 · growth 70
+**Headline:** 🙌 Toxic Buildup In The Gut? FLUSH IT OUT TODAY!
+
+💩 "I was SHOCKED at how much came out of me after taking Inno Cleanse. Within 24 hours, my waist looked trimmer, my digestion improved, and I felt more energized!" — Kerry S. (verified buyer) Before we describe why Inno Cleanse is so effective, let's start with the gut and how important it is to your overall health! 🔹 95% of your happiness neurotransmitters (serotonin and dopamine) are made in the
+
+### OrthoFlexx · 25 days · pct 0.09270516717325228 · growth 436
+**Headline:** Extra Firm Arch Support Insoles
+
+OrthoFlexx Insoles are designed with firm arch support for 10 to 12-hour shifts on your feet ✅ Arch that doesn't collapse by the end of the day ✅ Hold up to 330 lbs / 150 kg without flattening ✅ Less foot, knee, and back pain after work Get yours ➡️ https://orthoflexx.com/lp/long-shifts
+
+### True Nutra Plus · 25 days · pct 0.27702702702702703 · growth 26
 **Headline:** Buy 1, Get 1 FREE!
 
 True Nutra’s 6-in-1 Lymphatic Complex isn’t like anything you’ve ever tried. It’s a clinical-strength blend of powerful detox botanicals — Burdock Root, Dandelion, Kelp, Cleavers, Rutin, and Bromelain — designed to clear, drain, and rebalance your entire lymphatic system. The result? ✅ Boosted lymphatic flow & healthy drainage ✅ Flushed out puffiness, bloat & water weight ✅ Reduced swelling & infl
 
-### Ace Marks Shoes · 21 days · pct 0.1044776119402985 · growth 8
-**Headline:** Find Your Signature Shade
+### Bloomin · 25 days · pct 0.5185185185185185 · growth -4
+**Headline:** It's not fat, it's cortisol
 
-Individually hand-painted by master artisans, the Griffin comes in distinct burnished shades. From intense black antique to warm siena and fiery diablo, each pair is crafted to develop a unique patina that turns your daily uniform into a canvas of self-expression.
+Most weight loss products do a bad job of working on the real reason women over 35 can’t lose weight... That’s why most of what you see is just for the pure sake of marketing. That’s why we created Bloomin! And thank you for the tens of thousands of women sharing their transformation with us recently. What are the benefits? Here’s what Bloomin may do: 🎯 Calm the cortisol telling your body to store
+
+### Honey Biotics · 24 days · pct 0.041176470588235294 · growth 19
+**Headline:** 100% Natural. Steroid-Free.
+
+If you've tried a long list of products with no real change, it might be time for a different approach. Honey Biotics Intense Moisturiser is a TGA listed, steroid-free formula made with 100% natural ingredients, built around MGO 570+ Manuka Honey to nourish and support your skin barrier. It's earned the trust of tens of thousands of customers. See what the fuss is about — risk-free with our 100% S
+
+### Lieff Cabraser Heimann & Bernstein, LLP · 23 days · pct 0.3103448275862069 · growth 3
+**Headline:** Trane HVAC Unit Defects?
+
+Own a Trane HVAC unit? Refrigerant leaks may lead to expensive repairs.
+
+### Brida · 22 days · growth 25
+**Headline:** Our BIGGEST Sale Of The Year
+
+Hurry, our Black Friday Sale is Live! Get Brida Nerve Relief Lotion now for up to 70% off + free shipping! Get yours here 👉 www.bridarelief.com/pages/relief-guarantee
+
+### Oxyfresh · 21 days · pct 0.15384615384615385 · growth 6
+**Headline:** "Best Dental Powder We've Used!"
+
+Other dental powders didn't work? We got you🩵
 
 ### SoWell · 21 days · pct 0.17647058823529413 · growth 4
 **Headline:** Done With Fiber Tubs? Try the GLP-1 Fiber Stick
 
 On a GLP-1 you've already got enough to keep track of. Scooping fiber powder out of a giant tub shouldn't be one of them. SoWell Fiber comes in single apple cinnamon sticks you can keep in your desk, your car or your carry-on. One a day, a triple-blend fiber + probiotic, made by a GLP-1 doctor for GLP-1 users.
 
-### Zena Sport · 21 days · pct 0.017241379310344827 · growth 3
-**Headline:** Last Chance, Limited Edition Sell Out.
+### MenoLabs · 21 days · pct 0.23529411764705882 · growth 0
+**Headline:** FocusHer Mental Energy Support Supplement
 
-Our best-selling Youth Chest Protector is elling out in White and wont be back again. Secure yours now and watch your athlete shine. Built with scientifically tested open cell foam pad technology, it absorbs up to 75% of the force from impact while staying lightweight and flexible for comfort and mobility. Grab it now, it wont be here long.
+FocusHer: Caffeine-free mental energy support in just one capsule a day.* Promotes concentration, supports brain & eye health, and helps with focus & memory.* 💊 Registered Dietitian Formulated | 🔬 Clinically Backed Ingredients *These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease.
 
-### Ocean Home + Lifestyle · 21 days · pct 0.08771929824561403 · growth 3
-**Headline:** Cleaning Made Really Easy💚
+### ComfoFeet Footwear · 21 days · pct 0.698051948051948 · growth -16
+**Headline:** 🎃 Buy 1 Get 1 FREE
 
-😓Heavy Buckets, Meet Your Match! Tired of lugging around those heavy buckets and squeezing rags for cleaning? Our Smart Living Steam Mop is here to take the weight off your shoulders! No more heavy lifting and squeezing to tackle tough messes! 💪 Hot steam loosens dirt and grime, and the pad lifts it away, leaving your floors streak-free!💯 ✅ It uses only water, so no harsh chemicals are needed. ✅ T
+🎃 HALLOWEEN SALE JUST DROPPED. Our most comfortable shoes are now up to 70% OFF. 🔥 Shop before the Halloween deal disappears. 👻
 
-### The Doctors' Trusted Brand · 21 days · pct 0.4375 · growth 2
-**Headline:** 💪 2 Capsules. 5X Blood Flow. Total Bedroom Dominance. — 100% Money Back Guarantee
+### Nurse Finds · 20 days · pct 0.21875 · growth 55
+**Headline:** 2026's Favorite Nurse Shoes
 
-💪 "I feel like a brand new man in my 20s again. Within days, I was easily maintaining where I'd been struggling. The girth has grown. I can feel it, and my partner can too. She's said several times this is the best we've ever had." — Michael T. (Verified Customer) Testimonials like Michael's are flooding in daily — and we're not surprised. Our original Nitro Wood was a hit. Then we added BlackVcub
+"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. I switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. I rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity fo
 
-### Alex Anders Author Page · 21 days · pct 0.09090909090909091
-**Headline:** Listen on Spotify • Read with Kindle Unlimited
+### T-Drive Testosterone Booster · 20 days · pct 0.2 · growth 5
+**Headline:** 🚀GET BIGGER. RESPOND FASTER. LAST LONGER. — 100% Money Back Guarantee
 
-‘He slipped his hand between my legs. I froze. I was pulsing. What would happen if he touched it?’ _____ Description: LOU I know it shouldn’t matter what people say about me. But when my parents told me that I would never find love because I liked guys, I was willing to do anything to prove them wrong. So, when the most romantic guy ever asked me to marry him, I had to show him to them immediately
-
-### Try Hello Smile · 20 days · pct 0.19298245614035087 · growth 24
-**Headline:** 🎃 Halloween paket za samo 32 €!
-
-🎃 STRAŠNA PONUDA! ČAK 60% POPUSTA! 👻 Sastavi svoj HelloSmile Halloween paket i ugrabi ga za samo 32 € umjesto 82,90 €! 🦷 Odaberi 3 paste po svom ukusu 🎁 Dobivaš još 2 olovke i 1 serum 🔥 Sve zajedno uz 60% popusta! Ne propusti Halloween ponudu koja se ne odbija! 👉 Odaberi svoje okuse i naruči odmah!
-
-### SoWell · 20 days · pct 0.29411764705882354 · growth 8
-**Headline:** Backed Up on a GLP-1? This Fiber Tastes Like Apple Pie
-
-Most fiber tastes like a chore. Ours tastes like apple pie, which makes it a lot easier to take every single day. SoWell Fiber is a triple-blend fiber + probiotic made for GLP-1 users, whose slower digestion needs a little help. One glass daily helps keep things moving, and it's the fiber you'll actually look forward to. A GLP-1 brand for the GLP-1 user.
-
-### Asystem · 20 days · pct 0.09090909090909091 · growth 7
-**Headline:** ASYSTEM Calm Gummies
-
-Feeling overwhelmed, stressed, or just running on empty? 😓 ASYSTEM Calm Gummies help you slow down, breathe deeper, and feel grounded again — naturally 🌿✨ Formulated with adaptogens + botanical extracts, these delicious gummies support: ✔️ Reduced daily stress ✔️ Balanced mood ✔️ A calmer, clearer mind ✔️ No drowsiness, no heaviness — just pure calm If you’ve been craving a moment of peace… this i
-
-### Datafeedwatch · 20 days · pct 0.04 · growth 1
-**Headline:** Get Feeds Campaign-Ready
-
-Tired of fixing Shopping ad issues? Most problems start in the feed. Are you optimizing yours for success?
-
-### Mymagichealer · 20 days · pct 0.06382978723404255 · growth 0
-**Headline:** Nearly 40% in Savings When You Bundle
-
-If you’re dealing with recurring skin flare-ups, buying one jar at a time adds up fast. This bundle was built to help you save money and stay prepared when flare-ups happen. What’s included: 🧴 3 full-size 4oz jars (Save $41) 🎁 FREE 2oz travel size ($53 value) 💰 Save $94 compared to buying separately (40% Off) 👉 What are you waiting for? Take a chance to take back your skin.
-
-### Resorin · 20 days · pct 0.06896551724137931 · growth 0
-**Headline:** BUY 3 GET 2 FREE
-
-Looking to Support Healthy Kidney Function Naturally? 🌿 Experience the Power of Resorin Cold-Extracted Elderberry! ✅ Helps support healthy eGFR levels ✅ Supports steady daily energy without fatigue ✅ Helps reduce protein leaking into urine ✅ Authentic Elderberry standardized to 10% anthocyanins ✅ 200+ Clinical studies on kidney-protective compounds Support healthier kidney filtration naturally wit
+🔥 "Better and harder in the bedroom, and more energy even when my sleep isn't on point. This product delivers on every front." — Robert C, Verified Customer Feedback like Robert's is rolling in daily — and it all comes down to the same thing. What makes Nitro Wood Magnum so effective? It's engineered to deliver a 5X Blood Flow Override — five independent pathways cranking your vascular pipes wide
 
 ### Lymphoria · 19 days · pct 0.03837471783295711 · growth 98
 **Headline:** 🌿 Don’t Blame Your Lifestyle — Fix The Lymphatic System First
 
 If you've been waiting on a sign to finally try the lymphatic drainage drops everyone's talking about, this is it. Today only until midnight, Lymphoria is 70% off for our biggest 4th of July sale ever. The same four-herb formula that 90,000+ Americans use to drain backed-up lymph, flatten swelling, and stop carrying the weight their body's been holding for years. Two drops a day. No diet, no worko
 
+### The Nerve Brand · 19 days · pct 0.4121212121212121 · growth 67
+**Headline:** Beat Neuropathy
+
+Tired of nerve pain robbing you of a good night's sleep? Whether it's from diabetes, age, or something else going on, that burning and tingling doesn't care how exhausted you are — it shows up the second you lie down. Don't let one more night slip away. Here's what makes The Nerve Brand Cream different: you don't swallow it and hope. You put it exactly where it hurts. Menthol cools the burn on con
+
 ### Lymphoria · 19 days · pct 0.09480812641083522 · growth 62
 **Headline:** 🌿 Don’t Blame Your Lifestyle — Fix The Lymphatic System First
 
 Here's what happens to someone with chronic hemorrhoids when they start taking Lymphoria lymphatic drainage drops every morning. Most people try creams, sitz baths, fiber supplements, OTC suppositories, even surgery consultations... and wonder why the hemorrhoids keep coming back, no matter what they do. Their doctors tell them to "eat more fiber." Try witch hazel pads. Sit in a sitz bath. Conside
 
-### Treatmedy · 19 days · pct 0.2647058823529412 · growth 62
-**Headline:** Early Black Friday: Up to 62% Off + Free Gifts 🎁
+### The Modern · 19 days · pct 0.18253968253968253 · growth 45
+**Headline:** combat foot neuropathy while sleeping [NEW product]
 
-🚨 Our Early Black Friday sale is live, and it’s the biggest discount we’ve ever put on the Bunion Fix! If you’re dealing with the sharp, stabbing pain of bunions, this is the moment to finally do something about it. Whether it came from genetics, years in tight shoes or just everyday wear, bunion pain has a way of quietly taking over your life. The Treatmedy Bunion Fix uses Advanced Alignment Ther
+Looking for natural neuropathy relief? Designed to combat: ✅ stabbing ✅ tingling ✅ burning ✅ swelling. 👉 Click "Learn More" for exclusive offer
 
-### Wander Plus · 19 days · pct 0.04106280193236715 · growth 45
-**Headline:** Buy 1 Get 1 Free today ✈️
+### Pulsio · 19 days · pct 0.2729393468118196 · growth 40
+**Headline:** FREE 100€ TENS Pod
 
-LAST CHANCE: buy one Pillow, get one FREE. + FREE Gifts ⭐The Original WANDER+ Pillow ⭐ Click the link below to shop our improved version, now with vibrant new colors!↓ ‣ Keeps your posture upright ‣ 360° Support for head & Neck. ‣ No more jetlag ‣ Adjustable strap for perfect fit ‣ Super compact and easy to transport Get your Free Pillow today. Shop Now >>https://www.wander-plus.com/products/bogo-
+Black Friday is here 🖤 Get a free TENS Pod worth 100€ with every Compression Boots order. You’ve earned the rest. Now it costs a lot less.
 
-### Earthing · 19 days · pct 0.32432432432432434 · growth 15
+### Earthing · 19 days · pct 0.21621621621621623 · growth 9
 **Headline:** Not Sure Where To Start With Grounding?
 
 When was the last time your bare feet touched grass, soil or sand? Think through an ordinary day: shoes on, time in the car, then hours indoors. A walk outside doesn’t necessarily include a moment barefoot. Earthing’s four-question quiz helps you look at that part of your routine—and consider where grounding could fit. You’ll get a short reflection on your answers and see two indoor setups to cons
 
-### Vsock · 19 days · pct 0.36186770428015563 · growth 13
-**Headline:** Buy 2 Pairs Get 3 Free!
+### Longevity Journal · 19 days · pct 0.0425531914893617 · growth 8
+**Headline:** Sale ends tonight.
 
-NEW RELEASE: Alpaca Luxe Compression Socks Our first winter compression sock, made from premium alpaca. Warmer than wool, softer than cashmere, and naturally odour-resistant — with 15–25 mmHg graduated compression for legs that swell and ache by evening. Perfect for dealing with: Swollen feet & ankles Heavy, tired legs Cold feet in winter ✔ Premium alpaca fibre ✔ 15–25 mmHg graduated compression ✔
+Okay I seriously need to rant for a minute... I keep seeing this YouthRite patch EVERYWHERE on my feed and now there are like a hundred copycats? Amazon is CRAWLING with fakes. “YouthRight Glow Patch,” “Youth Rite Collagen Dots,” “Copper Youth Arm Patch,” all trying to copy YouthRite (and failing miserably). 🙄 But here’s the thing... my sister ordered the REAL one from the official YouthRite websi
+
+### Metabolic Health Review · 19 days · pct 0.17391304347826086 · growth 3
+**Headline:** Explore the Power of Ceylon Cinnamon Today!
+
+Want to Support Healthy Blood Sugar — All Day Long? ❤️ Experience the Power of Resilia Ceylon Cinnamon + Berberine! ✅ Supports healthy blood sugar levels ✅ Supports healthy insulin response ✅ Supports healthy glucose metabolism ✅ Supports healthy post-meal blood sugar ✅ 1,000mg True Ceylon Cinnamon Extract ✅ Standardized for cinnamaldehyde & polyphenols ✅ Plus 500mg Berberine HCl Support your meta
+
+### Bescher Beauty · 19 days · pct 0.038461538461538464 · growth 2
+**Headline:** Rebuild Collagen Morning & Night
+
+𝐍𝐨𝐭 𝐚𝐥𝐥 𝐬𝐤𝐢𝐧𝐜𝐚𝐫𝐞 𝐢𝐬 𝐜𝐫𝐞𝐚𝐭𝐞𝐝 𝐞𝐪𝐮𝐚𝐥 🤍 Our Trio Pack is powered by the world’s first biomedical-grade Sea Cucumber Collagen — exclusive to Bescher and clinically clean from ocean to bottle. Unlike fish or bovine collagen, it’s packed with bioactive peptides that help your skin rebuild its own collagen — restoring firmness, hydration, and elasticity. ✨ 91% saw visible results 📈 85% of customers return
+
+### BUILT · 19 days · pct 0.25 · growth 2
+**Headline:** Incredible Taste with Real Candy Cane
+
+17g of protein in a candy cane brownie? Mind. Blown. Soft, airy texture + real candy cane crunch = game-changer!
 
 ### TGP · 19 days · pct 0.2 · growth 0
 **Headline:** 🔴 Live Sale: 63% Off Power Belt Pro
 
 🔴 LIVE SALE: 63% OFF Your belly isn't only about fat. Part of it is a muscle that stopped holding you in. Crunches and dieting never reach it. This belt sends gentle, controlled pulses that make those muscles contract, much like a workout, while you sit. It's not a weight-loss device and it doesn't melt fat. It helps tone the muscle underneath so your midsection is better supported. 63% off for th
 
-### PEP · 18 days · pct 0.045454545454545456 · growth 14
+### Peak Footwear · 18 days · growth 105
+**Headline:** Don't miss out on our special 2+1 offer!
 
-Hello October. Hello, Breast Cancer Awareness Month. 🌸 Early detection saves lives, and this month, every small step counts. For every pink towel purchased at PEP, we’re donating R1 to CANSA. Visit your nearest PEP, and remember to prioritize your wellness with regular self-exams. Learn more: https://bit.ly/DryAndDetect Let’s wrap our community in care and support those fighting, surviving, and re
+Goodbye foot pain! Hello all-day comfort.. 👣☁️ Peak Footwear their shoes feel like walking on clouds. Your feet will express their gratitude! 😌 Join 300.000+ happy customers savoring foot paradise! Don't miss out on our Sale, where you can enjoy savings of up to 60% across our entire collection... 👉 https://peak-footwear.com/collections/peak-winter-barefoot-shoes/products/caspar-pro
 
-### Oxyfresh · 18 days · pct 0.1111111111111111 · growth 6
-**Headline:** "Best Dental Powder We've Used!"
+### Inno Supps · 18 days · pct 0.12580645161290321 · growth 84
+**Headline:** 🚀Supercharge Circulation Through The Entire Body For Maximum Performance In and Out Of The Gym - 100% Money Back Guarantee
 
-Other dental powders didn't work? We got you🩵
+🔥 "Better and harder in the bedroom, and more energy even when my sleep isn't on point. This product delivers on every front." — Robert Chadwick, Verified Customer Feedback like Robert's is rolling in daily — and it all comes down to the mechanism. What makes Nitro Wood Magnum so effective? It's engineered to deliver a 5X Blood Flow Override — five independent pathways cranking your vascular pipes
 
-### The Skin Health Review · 18 days · pct 0.42857142857142855 · growth 1
-**Headline:** The cream that dries to a powder
+### Sorviq · 18 days · pct 0.4142640364188164 · growth 62
+**Headline:** Buy 2 Get 2 FREE 🎁
 
-"absolutely worth every penny! Dries it up! No smell, slime gone." — Debra, 2026 Try it in the fold and feel it dry down to a silky powder. ❤️ It won't sit wet and greasy in the fold like other creams 🌿 10% undecylenic acid + 15% zinc oxide per tube ⚡ Dries like a powder, protects like a barrier — absorbs sweat all day to help prevent recurrence ✅ Dermatologist-tested — no steroids, no talc, no fr
+🖤 BLACK FRIDAY IS HERE, AND YOUR LEGS DESERVE THE BEST DEAL OF THE YEAR! If varicose veins have made your legs look less like you remember, this Miracle Balm can help bring back that smoother, lighter feeling again. Sorviq Miracle Balm is made with herbs like horse chestnut, arnica, and calendula flowers that support the vein walls, help circulation move again, and soothe discomfort from the insid
 
-### The Skin Health Review · 18 days · pct 0.5714285714285714 · growth 1
-**Headline:** Clear out the drawer
+### Holistic Healing with Rachel Evans · 18 days · pct 0.16666666666666666 · growth 12
+**Headline:** Support Your Body's Natural Wellness Systems 🌿
 
-"I’ve been prescribed all kinds of medications over the last 3 years that have never worked. I have a whole drawer full of ointments that I am going to throw out as soon as I post this." — Laurel, 2026 Try it this week and see if you still need the drawer. ❤️ One tube instead of a drawer of powders, pastes and creams 🌿 10% undecylenic acid + 15% zinc oxide per tube ⚡ Dries like a powder, protects
+Constipation has nothing to do with how much fiber you eat, how much water you drink, or even what kind of foods you eat. Find out the REAL cause of constipation and other digestive problems – and an all natural way to get relief fast.
 
-### Koprez · 17 days · growth 106
-**Headline:** Limited TIme Buy 1 Get 1 FREE + 30-Day Money-Back Guarantee
+### Minor Figures · 18 days · pct 0.125 · growth 0
+**Headline:** THE BARISTA OAT TASTER PACK
 
-BUY 1, GET 1 FREE + 30-Day Money-Back Guarantee! End Plantar Fasciitis For Good: ✅ Stops morning stabbing pain ✅ Complete healing in 30 days or less ✅ Prevents plantar fasciitis from returning Koprez is an advanced compression sleeve powered by two breakthrough technologies: Polyaxial Support Straps that work like cables, lifting your fascia so it stops tearing with every step. And Biolateral Circ
+COMMITMENT ISSUES? START WITH £6. Three barista oats in one box. See who you like best.
 
-### Grönanda · 17 days · pct 0.16923076923076924 · growth 12
-**Headline:** Why Is Everyone Grabbing These High-Top Barefoot Boots in October? | Grönanda
+### Serenithy · 18 days · pct 0.08
+**Headline:** Try Kinzeno Massage Roller Today!
 
-BLACK FRIDAY SALE 🎁 Buy 1 Get 1 50% OFF!! Our Best-selling Barefoot Shoes, NOW at the Biggest Discount of the Year. Here's what makes them special: ✅ Natural movement — feet work properly again ✅ Stronger foundation — better balance and posture ✅ Pain relief — customers report less knee, hip, and back pain ✅ Wide toe box — no more cramped, uncomfortable feet 👉 Grab 2 pairs: 1 for you, 1 for backup
+Most people don't realize how much knee discomfort, heavy-feeling legs, and swollen ankles can affect their everyday life. Until a simple grocery trip feels exhausting, climbing stairs becomes something to dread, and standing for too long leaves your legs feeling tired and uncomfortable. Whether it's stiff knees in the morning, aching legs after a long day, or ankles that feel puffy and uncomforta
+
+### Roogenic · 17 days · pct 0.16981132075471697 · growth 33
+**Headline:** Ease Inflammation Today
+
+BREAKING NEWS! We're back in stock! 🌿 Daily inflammation relief starts here 💚 Formulated by naturopaths, our Inflammation Powder blends antioxidant-rich Davidson Plum & Quandong with Turmeric, Boswellia, and 8 powerful inflammation-supporting ingredients for real results. ✔️ 84% reported reduced inflammation ✔️ 77% experienced less pain and discomfort ✔️ 73% saw improved mobility & joint function
+
+### Homereachlifestyle · 17 days · pct 0.17647058823529413 · growth 26
+**Headline:** Like a med spa night at home
+
+It is like laser care for a C-section shelf. Like a tummy-tuck level focus on a mom pooch or menopause belly. Except you do it on your couch. 315 LED chips, 660nm red light, 850nm near-infrared, and built-in vibration. 20 minutes a day, hands-free. Keep the evening. Skip the drive, the waiting room, and the stack of spa receipts. The ThermaLight360 Pro is $129.95, one-time. ✅ 60-day money-back gua
 
 ### Natural Wellness Magazine · 17 days · pct 0.028089887640449437 · growth 11
 **Headline:** The #1 Cacao for Brain Health
 
 ⚡ Why 10,000+ Men Over 55 Ditched Their Brain Supplements For This Ancient Morning Cup The hard truth about brain supplements: Most are aimed at the wrong target entirely. They work around the fog in your head. None of them address where it actually starts. Here's what they don't tell you: ❌ They assume the brain itself is failing ❌ They flood your body with ginkgo and lion's mane your system can'
 
-### Total Relief Today · 17 days · growth 8
-**Headline:** 15 minute method for sciatica
+### That's Style · 17 days · pct 0.05405405405405406 · growth 9
+**Headline:** It’s Time for Timeless Construction
 
-If getting out of the car leaves pain shooting from your lower back down your leg, the car seat is usually the first thing you blame. That was me too. I bought a seat cushion. Changed the way I sat. Tried getting out of the car more slowly. But I was still shifting through every drive, then bracing myself before I could stand up straight. What finally got my attention was learning that the tension
+Bedding is like clothing; it’s worth the investment as long as it’s the right piece that’s made to last. Boll & Branch is our editors’ top bedding brand because each piece is made with organic natural materials like cotton and linen. Meticulous craftsmanship keeps every seam and stitch looking fresh for years to come and each piece gets softer with every wash. Upgrading to Boll & Branch was the ea
 
-### Secrets of Herbs  · 17 days · pct 0.24074074074074073 · growth 7
-**Headline:** Swollen legs? It’s NOT circulation—it’s this system!
+### Austin Casitas · 17 days · pct 0.3125 · growth 3
+**Headline:** The Best Family Memories Rarely Come With an Invitation. ❤️
 
-Say goodbye to swollen legs for good! 🌞 Unclog your body's fluid drainage system with a simple morning routine.\nLearn how now!
+There's something interesting about the family moments you remember most. They're not always the expensive vacations. Or the perfectly planned holidays. Or the photographs where everyone somehow managed to look at the camera at the same time. 😄 Sometimes they're much smaller. An unexpected dinner. A conversation that lasts longer than anyone planned. A Saturday afternoon spent doing absolutely not
 
-### Reliefband · 17 days · pct 0.07017543859649122 · growth 4
-**Headline:** Save on Nausea Relief Bundle
+### Hinge Health · 16 days · pct 0.1900990099009901 · growth 78
+**Headline:** Try Hinge Health today
 
-All-Day Nausea Relief Meets Your Favorite Smartwatch This Fall! ⌚🍂 The Reliefband® Sport Apple Bundle pairs clinically proven, FDA-cleared nausea technology directly with your Apple Watch. Stay active and 100% nausea-free wherever autumn takes you. Shop the bundle now!
+Reduce pain in minutes with Enso — a smaller, wireless TENS device with 2.4x better odds of relief.* 100% employer covered. *Enso+Hinge Health users have 2.4x higher odds of achieving meaningful pain reduction compared to standard TENS+exercise therapy users.
 
-### Serato Production · 17 days · pct 0.2727272727272727 · growth 4
-**Headline:** Serato Sample – Download
-
-Serato Sample 2.2.0 is out now with Stems Levels, Stems Automation and SLAB Hardware Support. Control individual Stems: Acapella, Melody, Bass and Drums. Stems On/Off and Stems Levels can now be automated directly from your DAW. Plus, the first pad controller to give you direct, hands-on control of Serato Sample 2.2.0. Stay in flow, from scrubbing Waveforms, setting Cue Points, separating Stems to
-
-### TryResilia · 17 days · pct 0.4 · growth 4
-**Headline:** Black Friday Sale: UP TO 70% OFF🚨
-
-🚀 BLACK FRIDAY SALE — Limited Stock! 🚀 🚨 Still feeling “off” no matter how clean you eat? If you’re dealing with: ✔️ Constant bloating ✔️ Sugar cravings that won’t go away ✔️ Brain fog or low energy ✔️ Irregular digestion 👉 It might be more than just your diet. Thousands are turning to this plant‑based herbal formula that supports your body’s natural cleanse — helping you feel lighter, clearer, an
-
-### Feral_drinks · 17 days · pct 0.04878048780487805 · growth 3
-**Headline:** Acquista la box in edizione limitata
-
-La prima Edizione Limitata non si scorda mai ✨ Due ricette nate dalla community. The Unlabelled C & D sono il risultato di mesi di assaggi, esperimenti e votazioni insieme alla community Feral. Scopri la Limited Edition e acquista la tua box.
-
-### SikaRoots · 17 days · pct 0.07142857142857142 · growth 1
-**Headline:** Ethopian Black Seed Oil 600mg with Ceylon Cinnamon
-
-Looking to Support Healthy Blood Sugar Naturally? 🌿 Experience the Power of Sika Roots Black Seed & Ceylon Cinnamon Softgels! ✅ Helps support healthy blood sugar levels ✅ Supports steady daily energy ✅ Helps reduce blood sugar crashes ✅ Authentic Ceylon cinnamon & Cold-Pressed Black Seed ✅ Research-backed synergistic formula ✅ Maximum absorption softgel formula Support healthier glucose metabolism
-
-### Miracle de Paris · 16 days · pct 0.1149789029535865 · growth 169
-**Headline:** Apply to stock Body Perfector
-
-Miracle de Paris is taking on stockists in Australia and New Zealand. Body makeup for legs: instant glow, blurs veins and sun spots, no fake-tan smell or waiting. 100,000+ Australian customers already buy it online. Salons, spas, spray-tan studios, clinics, pharmacies and boutiques welcome. Low opening order, free testers, ships from Australia in 48h. Apply in two minutes.
-
-### Inno Supps · 16 days · pct 0.1308139534883721 · growth 66
-**Headline:** 🚀Supercharge Circulation Through The Entire Body For Maximum Performance In and Out Of The Gym - 100% Money Back Guarantee
-
-🔥 "Better and harder in the bedroom, and more energy even when my sleep isn't on point. This product delivers on every front." — Robert Chadwick, Verified Customer Feedback like Robert's is rolling in daily — and it all comes down to the mechanism. What makes Nitro Wood Magnum so effective? It's engineered to deliver a 5X Blood Flow Override — five independent pathways cranking your vascular pipes
-
-### Inno Cleanse by Inno Supps · 16 days · pct 0.027586206896551724 · growth 47
-**Headline:** 💩 Backed Up on GLP-1s 💉? Try Inno Cleanse
-
-🫠 “On my GLP-1 for 4 months and the BLOATING AND BACKUP WAS UNBEARABLE. Inno Cleanse was the only thing that gave me gentle, consistent relief without cramping. I feel lighter just from the BLOAT BEING GONE.” ⭐ Verified Customer GLP-1s slow digestion down, which is why so many people end up bloated and backed up. Inno Cleanse is a gentle colon cleanse that helps flush out backed-up waste for a fla
-
-### Nurse Finds · 16 days · pct 0.48672566371681414 · growth 28
-**Headline:** 2026's Favorite Nurse Shoes
-
-"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. I switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. I rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity fo
-
-### La Roche-Posay · 16 days · pct 0.11363636363636363 · growth 17
-**Headline:** Your Black Friday Wishlist Starts Here
-
-Add Cicaplast Baume B5+ to your Black Friday wishlist. Panthenol 5%, Madecassoside and thermal water.
-
-### Dean Graziosi · 16 days · pct 0.019230769230769232 · growth 3
-**Headline:** Free AI Training Coming To The Denver Area (Nov 16 - 21)
-
-If you tried AI and thought… “that’s it?” It’s not an AI failing. You’re just missing the one ingredient that changes what AI can do for you. And this November 16th to November 21st, Tony Robbins and I are sending our top AI team to the Denver area to show you what you’ve been missing. Forget learning AI from behind a screen. Forget piecing everything together yourself. Let’s get in the same room.
-
-### Rob Reich · 16 days · pct 0.1875 · growth 2
-**Headline:** Only meet homeowners ready to build
-
-Every ADU builder knows this call. "How much for a backyard unit?" Then nothing. We run your Meta ads and our rep calls every lead first. You only meet homeowners who are ready to build. One ADU builder per market. See if yours is open.
-
-### The Modern · 15 days · pct 0.21333333333333335 · growth 166
-**Headline:** combat foot neuropathy while sleeping [NEW product]
-
-Looking for natural neuropathy relief? Designed to combat: ✅ stabbing ✅ tingling ✅ burning ✅ swelling. 👉 Click "Learn More" for exclusive offer
-
-### NativePath · 15 days · pct 0.14937759336099585 · growth 49
-**Headline:** “My Swollen Ankles Were Gone in 2 Weeks”
-
-Swollen feet. Puffy ankles. Achy joints. I used to think it was all “just part of getting older”… until I discovered something I wish I'd known years ago. It turns out, there's a tiny Antarctic-sourced nutrient that helps support healthy circulation, blood flow, and joint comfort.* So I decided to add it to my daily routine. No complicated routines. No expensive treatments. Just one simple daily h
-
-### Sedgeia · 15 days · pct 0.08955223880597014 · growth 22
+### Sedgeia · 16 days · pct 0.17153284671532848 · growth 29
 **Headline:** Feeling old after 45? This might be why
 
 How many nights have you lost to the guessing game? Not the act itself. The hours BEFORE. The mental math. "Will tonight be okay? Should I take something? Should I avoid it entirely?" That loop steals more from your confidence than the problem itself. Here's what nobody tells you: it's mechanical. Not psychological. Not "in your head." A CE-certified ring applies targeted pressure to maintain bloo
 
-### Eczema Honey Co · 15 days · pct 0.2 · growth 11
-**Headline:** FREE Lip Balm with orders $50+ 👉
+### Voraya · 16 days · pct 0.041666666666666664 · growth 0
+**Headline:** 🟢 Back in the Green in 8 Weeks
 
-Looking for a more natural, steroid-free eczema cream? Eczema Honey Original Skin Soothing Cream is made with gentle ingredients, safe for all ages including babies, and trusted by over 500,000 people.
+🚨 Week 1: 148/92. Week 8: 126/79. If your readings look like this: ✔️ Stuck in the red, no matter how little salt you eat ✔️ A few points higher at every checkup ✔️ Your doctor talking about adding another pill 👉 It's not your effort. Your blood pressure and cholesterol are feeding each other. High pressure damages your artery walls, cholesterol sticks to the damage, and your heart has to push har
 
-### Vision Alive · 15 days · pct 0.012987012987012988 · growth 9
-**Headline:** ⚠️ Eye Supplement Prices Are About to Jump — Here’s Why You Should Lock In Now
+### Sarah Johnson · 15 days · pct 0.16666666666666666 · growth 49
+**Headline:** Lost the belly. Back in my jeans. No shot.
 
-⚠️ WARNING: Our eye supplement prices are increasing REAL soon. (No, this is not a marketing “gimmick”) Due to new tariffs on imported ingredients… PLUS persistent inflation that won’t quit… Our production costs are about to surge. We’ve held off raising prices for as long as we could. But we have to increase prices — for good reason: 🛑 We refuse to compromise on the quality of our formulas, like
+Her belly kept growing after 45, no matter what she ate. Her bloodwork came back normal. Her doctor shrugged. She nearly quit. Then came day 12. The review page was open on my phone. One star clicked. My review was half written: "Two weeks in. Belly the same. Scale hasn't budged. Don't waste your money." My thumb was on submit. Thank God I stopped. ====== Over 45? Then you already know how this go
 
-### Bescher Beauty · 15 days · pct 0.12121212121212122 · growth 1
-**Headline:** Rebuild Collagen Morning & Night
+### Nancy Rodgers · 15 days · pct 0.3076923076923077 · growth 3
+**Headline:** When was the last time you cleaned your nose?
 
-𝐍𝐨𝐭 𝐚𝐥𝐥 𝐬𝐤𝐢𝐧𝐜𝐚𝐫𝐞 𝐢𝐬 𝐜𝐫𝐞𝐚𝐭𝐞𝐝 𝐞𝐪𝐮𝐚𝐥 🤍 Our Trio Pack is powered by the world’s first biomedical-grade Sea Cucumber Collagen — exclusive to Bescher and clinically clean from ocean to bottle. Unlike fish or bovine collagen, it’s packed with bioactive peptides that help your skin rebuild its own collagen — restoring firmness, hydration, and elasticity. ✨ 91% saw visible results 📈 85% of customers return
+If you have chronic congestion, you need to know exactly what sinus surgery involves before your ENT tells you that it's the only option left. You've tried nasal sprays, saline rinses, and antihistamines but the inflammation keeps coming back. And eventually, surgery becomes the only option. I started desperately searching for answers. Why did this keep coming back no matter what I tried? And that
 
-### The Pain Company · 15 days · pct 0.25 · growth 1
-**Headline:** Smart Recovery For Tired Aching Legs
+### Asoleo · 15 days · pct 0.14012738853503184 · growth 1
+**Headline:** Finally, heel pain relief that works
 
-Tight calves after work, workouts, or long walks? 😩 This smart calf massager helps improve circulation & ease soreness 🔥 Choose your massage mode and heat level for total comfort 💯
-
-### wear.vrsn · 15 days · pct 0.4069767441860465 · growth -22
-**Headline:** That Sharp Heel Pain When You Get Out Of Bed Has A Name.
-
-That first step out of bed. The one that feels like standing on a stone. It has a name — and it is not "getting older". Plantar fasciitis is what happens when the tissue along the bottom of your foot takes eight hours of hard ground with nothing built to absorb it. Insoles treat the symptom. The shoe underneath is what actually loads the foot. ✅ Firm base where the heel lands, so the impact doesn'
-
-### LightYears Health · 14 days · pct 0.26875 · growth 142
-**Headline:** Bend Easy. Ayurveda Approved. 🌿 Clinically Proven Blend. 🔬
-
-Are your back, neck, and shoulders crying for relief? Meet the world’s most potent Curcumin + Boswellia serrata blend for back and muscle comfort. 🌿 ✔️ Supports easing back pain ✔️ Aids recovery from neck and shoulder discomfort ✔️ Supports neuromuscular comfort 📊 Our Ayurvedic blend is backed by clinical studies that show: ➡️ Initial relief in 1 month ➡️ 40% pain reduction in 3 months ➡️ 36% bett
-
-### The Nerve Brand · 14 days · pct 0.3875 · growth 140
-**Headline:** Beat Neuropathy
-
-Tired of nerve pain robbing you of a good night's sleep? Whether it's from diabetes, age, or something else going on, that burning and tingling doesn't care how exhausted you are — it shows up the second you lie down. Don't let one more night slip away. Here's what makes The Nerve Brand Cream different: you don't swallow it and hope. You put it exactly where it hurts. Menthol cools the burn on con
+Sever's disease doesn't heal if the growth plate never gets a chance to recover. ⠀ Every sprint pulls the Achilles. Every jump hammers the heel. Every stud-to-ground impact irritates the growth plate again. ⠀ And "just rest" means another season on the bench… watching your kid fall behind, lose their spot, lose their spark. ⠀ The RecoverX Youth Heel Sleeve is designed differently. ⠀ It offloads th
 
 ### Everstride · 14 days · growth 111
 **Headline:** Halloween Sale Live 🎃
 
 Halloween Treat: 3 Pairs + 5 Pairs FREE! 🎃 Everstride bamboo compression socks provide gentle, graduated compression that boosts circulation, reduces swelling, and keeps your legs feeling fresh all day long. Perfect for women who’ve struggled to find compression socks that fit comfortably and actually feel good. No tricks, just pure comfort. everstridesocks.com/products/bamboo-compression-socks
 
-### Treatmedy · 14 days · pct 0.10784313725490197 · growth 84
-**Headline:** Black Friday: Up to 62% Off + Free Gifts 🎁
+### The Vibit · 14 days · pct 0.46596858638743455 · growth 57
+**Headline:** 40% Off Black Friday + Free Shipping
 
-Our Black Friday sale is here, and it's the lowest price the Bunion Fix will be all year. If bunion pain has been quietly running your life, the sharp pain with every step, the shoes you've stopped wearing, the walks you've started skipping, this is the moment to finally deal with it. The Treatmedy Bunion Fix uses Advanced Alignment Therapy to relieve bunion pain, stiffness and inflammation. Inste
+The Vibit 40% OFF Black Friday sale is officially live, and this is the moment to stop waiting. No more thinking about it. Same Vibit. Cut the price. Only until the clock runs out. Once the time ends, the discount disappears with it. 40% OFF Free Shipping 30-Day Money-Back Guarantee Claim yours before the offer ends
 
-### Mendable · 14 days · pct 0.012552301255230125 · growth 56
-**Headline:** Seniors Across Australia Love This 12-Minute Knee Device
+### Nuflos · 14 days · pct 0.03763440860215054 · growth 44
+**Headline:** Detox All Day & All Night Long! 🔥
 
-"Surgeon says I need a knee replacement. I said no way." ✅ No pills. No surgery. No side effects. ✅ Works in one 12-minute session — not months of physio. ✅ Built on real orthopaedic science, by a Sydney surgeon. Meet Mendable Knee — the first at-home device that runs three therapies at once, instead of just squeezing your knee like an ordinary sleeve. While a plain brace only holds the joint in p
-
-### Nordic Stretch · 14 days · pct 0.145 · growth 35
-**Headline:** The Anti-Snoring Pillow 50,000+ Couples Swear By
-
-Still snoring, even after trying strips, sprays, and devices? You're not alone — and those things were never the real fix. Because most snoring doesn’t start in your nose or your throat. It starts with how your head and neck are lying. Every night, the wrong pillow tilts your neck and lets your jaw drop back, narrowing your airway for hours. The Nordic Posture Pillow was built to fix exactly that.
+Feeling puffy, heavy, or constantly sluggish? It’s often not about calories—it’s about your lymphatic system. Meet Nuflos Lymphatic Drops, the fast-acting, doctor-backed formula designed to jump-start your "fluid pump" and flush out stubborn retention. Join 87,000+ people who ditched extreme routines for a simpler, science-based approach to wellness. Why Nuflos is a game-changer: 💧 Flush & Filter:
 
 ### Nyvoris · 14 days · pct 0.13333333333333333 · growth 7
 **Headline:** 60% OFF + FREE Shipping
 
 You've probably tried an instant eye tightener before. And it probably cracked, flaked, or gave up after an hour. Not because the ingredients don't work — because the mix was wrong. Every tightener uses the same two minerals. One pulls your skin tight (but dries hard like glass). One keeps it bendy (so it moves when your face moves). Most brands use way more of the hard one because it looks amazin
 
-### JOGA · 14 days · pct 0.41906653426017876 · growth 7
-**Headline:** 🖤 Black Friday: 60% Off
+### Ahinsa Shoes · 14 days · pct 0.2413793103448276 · growth 6
+**Headline:** Slevy až 50 %!
 
-🖤 BLACK FRIDAY IS LIVE 🖤 60% OFF the JOGA Shin Pad Sleeve. ⚽ No tape. No slipping. No bricks on your shins. 👉 Shop the sale
+🔥 SLEVY AŽ 50 %! Pořád přemýšlíte nad novými botami? Teď je ideální chvíle udělat si radost a dopřát svým nohám pohodlí, které ocení při každém kroku. ❤️ 🖤 Využijte Black Friday v Ahinsa a vyberte si svůj nový oblíbený pár za skvělou cenu!
 
-### BUILT · 14 days · pct 0.5 · growth 6
-**Headline:** Incredible Taste with Real Candy Cane
+### Naked Paper · 14 days · pct 0.11267605633802817 · growth 4
+**Headline:** The UK’s Favourite Eco Loo Roll
 
-17g of protein in a candy cane brownie? Mind. Blown. Soft, airy texture + real candy cane crunch = game-changer!
+30 million rolls sold. 10,000+ five-star reviews. Here's what people are actually saying: ⭐ ""Much softer to use than I expected and it's eco friendly too."" ⭐ ""So soft and luxurious."" ⭐ ""Really soft loo roll. The boxes last for ages and there is no plastic either."" ⭐ ""Feel as though I'm helping towards saving our environment for future generations."" Real reviews. About loo roll. Which says
 
 ### Dr. Müller · 14 days · pct 0.11764705882352941 · growth 4
 **Headline:** Dieses Produkt ist kein Ersatz für eine ärztliche Diagnose oder Behandlung. Erfahrungsberichte einzelner Kunden.
 
 Der größte Fehler bei Ischias ist zu glauben, dass es ein Entzündungsproblem ist. Dein Arzt gibt dir eine Spritze. Kortison. Die Entzündung geht runter. Der Schmerz lässt nach. Drei Tage. Vielleicht eine Woche. Dann ist alles zurück. Er verschreibt Ibuprofen 600. Diclofenac. Die Tabletten schalten den Feueralarm aus. Das Feuer brennt weiter. Er überweist dich zur Physiotherapie. Sechs Sitzungen. Z
 
-### Go Scentless · 14 days · pct 0.058823529411764705 · growth 3
-**Headline:** Eliminate Bad Breath
+### Trampolines Down Under · 14 days · pct 0.3333333333333333 · growth 3
+**Headline:** Safer Backyard Fun for Less
 
-That’s why thousands made the switch and saw results. You deserve to feel fresh and free — without worrying about how you smell.
+Bring home the fun with a trampoline designed for safer play, easier access, and more time outside. This Black Friday, save $1,000 on Trampolines Down Under bundles and bring home the setup they’ll be jumping on all year long.
 
-### Cleantra · 14 days · pct 0.13559322033898305 · growth 2
-**Headline:** ✨ 50% OFF for a Limited Time ✨
+### Postureletics - Back Pain Relief · 14 days · pct 0.20437956204379562 · growth -2
+**Headline:** Fix the Cause, Not the Pain
 
-Your body has a hidden drainage system, and after 35 - it stops working. 3-4 liters of waste should be drained daily. When it doesn't, you feel it everywhere. Cleantra Lymphatic Drainage is formulated with botanicals scientifically proven to restore lymphatic flow, clear backed-up waste, and get your drainage system working again. ✅ Reduced face and body puffiness ✅ Slimmer, less swollen legs and
+I was afraid of doing the wrong exercise and making it worse. After years of back pain, I didn't trust my own body anymore. Every stretch, every YouTube routine, every piece of advice — I always ended up the same or worse. Turns out the problem was never a lack of exercise. I was treating the wrong place. Back pain is a SYMPTOM. The real cause is in your posture — muscles that stopped doing their
 
-### Lunera · 14 days · pct 0.056338028169014086 · growth 1
-**Headline:** IT'S GOING FAST🔥
+### Cap Adrénaline · 13 days · pct 0.375 · growth 9
+**Headline:** Massage du monde à Toulouse proche du Métro Capitole
 
-You've heard natural supplements can help you feel more like yourself. But you've probably never felt one actually do anything. That's because most formulas cut corners — weak doses, filler-heavy blends, and a drawer of bottles that never add up. At Lunera, we don't play that game. Our all-in-one formula puts 13 labelled ingredients into two daily capsules — including panax ginseng, sage, vitamin
+15 000 loisirs partout en France, à réserver ou à offrir Et vous, quelle sera votre prochaine activité ?
 
-### FoodCycler · 14 days · pct 0.125 · growth 1
-**Headline:** Make Cleanup Easier
+### SinclairKennally · 13 days · pct 0.6666666666666666 · growth 5
+**Headline:** If Sinus Relief Never Lasts, Read This
 
-The part nobody talks about after cooking is what happens next. The scraps. The smell. The trash that somehow gets gross faster than everything else in the kitchen. 🤢 FoodCycler Eco 3 helps make that whole routine feel easier. It turns everyday food waste into dry Foodilizer, so your kitchen feels cleaner, fresher, and less weighed down by the mess. You still get free shipping, a 90-day money-back
+If the sinus routine works… but only for a few days… THAT is the clue. A rinse can help. A spray can help. Steam can help. Supplements can help. There might even be a stretch where it seems like it’s fixed Then the pressure starts coming back. The congestion builds. The head gets foggy again. And it’s back to troubleshooting the same problem. That doesn’t mean every tool was useless. It may mean t
 
-### Sorviq · 13 days · pct 0.27440147329650094 · growth 213
-**Headline:** Buy 2 Get 2 FREE 🎁
+### Perfect Prayer · 13 days · pct 0.023529411764705882 · growth 4
+**Headline:** Black Friday Sale: Now $24
 
-🖤 BLACK FRIDAY IS HERE, AND YOUR LEGS DESERVE THE BEST DEAL OF THE YEAR! If varicose veins have made your legs look less like you remember, this Miracle Balm can help bring back that smoother, lighter feeling again. Sorviq Miracle Balm is made with herbs like horse chestnut, arnica, and calendula flowers that support the vein walls, help circulation move again, and soothe discomfort from the insid
+Black Friday Sale: the Perfect Bible is now $24 (was $29). ✅ Large, easy-to-read 13pt text ✅ Wide margins for prayers and reflections ✅ Companion app with verse-by-verse explanations ✅ Built-in study prompts for deeper understanding ✅ Personalized with your name on the cover 30-day money-back guarantee. Take the 2-minute quiz to make yours 👇
 
-### Mendable · 13 days · pct 0.03765690376569038 · growth 39
-**Headline:** How To Not Waste The Money On Your Shoulder
+### Dynamic Golfers · 13 days · pct 0.2 · growth 4
+**Headline:** Targeted Stretching & Strength for Golfers (TRY FREE)
 
-You have decided to try something for your shoulder. Here is how to not waste the money. One thing decides it and almost nobody talks about it: depth. A heat pack can get hot and put almost nothing into the deep rotator cuff tissue, which is where a shoulder starts to starve. The Mendable Shoulder Triple Therapy Recovery System: 42°C heat, rhythmic compression and 60Hz vibration, all at once, 3 he
-
-### Dr. Alina Marlowe - ENT Specialist  · 13 days · pct 0.008928571428571428 · growth 18
-**Headline:** Always Clearing Your Throat? It's Not Allergies👆
-
-⚠️ Why hasn't your doctor told you about this? If you clear your throat 20+ times a day, they'll usually tell you it's allergies and hand you a pill. But antihistamines don't clear mucus. They just make you produce less of it — while everything already stuck in there stays exactly where it is. That's why you feel dried out and still congested. There's a plant that works the opposite way 🌊 Sea moss
+🏌 Increase mobility in the thoracic spine 🏌 Unlock the Hip Flexors 🏌 Play Pain Free Developed to help golfers unlock their swing in just 20 minutes a day. Join golfers from around the world who are getting stronger, more mobile and seeing their scores drop.
 
 ### Sanrae Wellness · 13 days · pct 0.16666666666666666 · growth 3
 **Headline:** Protein with all the calm and none of the bloat✨
 
 Protein that supports your body without overstimulating your nervous system 💜 Most protein powders were built for performance. This one was built for balance — uniquely formulated for women who want to feel strong without their nervous system paying the price. 21g of plant protein combined with Magnesium, Glycine and Probiotics to support recovery, calm and gut health in one daily scoop. 🧠 Glycine
 
+### Tabs Chocolate · 13 days · pct 0.16666666666666666 · growth 3
+**Headline:** Play Dark Chocolate
+
+Play Dark Chocolate. Three squares, six half-square servings. $29.99 per box. Shop Play. #ad
+
+### Sentia Spirits · 13 days · pct 0.4444444444444444 · growth 3
+**Headline:** A proper glass. 0.0% ABV.
+
+What if a drink could do more than just fill your glass? Think about that moment you finally switch off after a demanding day. The tension in your shoulders melts. Conversation starts to flow effortlessly. Laughter comes naturally, and you’re fully present with the people around you. Those moments aren't created by alcohol; they’re created by your brain’s natural relaxation system, driven by a neu
+
 ### TheraPexa · 13 days · growth 0
 **Headline:** No More Neck & Shoulder Pain | 15,000+ Happy Customers 👉
 
 Most neck and shoulder tools give your muscles only one kind of attention. TheraPexa combines deep kneading that feels like real human hands, soothing heat, three massage modes, and adjustable speed in one cordless, hands free device. No switching between massage guns, heating pads, and corded pillows. Just one simple, 15 minute routine you can wear on the couch, at your desk, or in the car, set t
 
-### Walk Free Daily · 12 days · pct 0.29549902152641877 · growth 98
-**Headline:** Buttock pain can be a sign of spondylolisthesis 👀
+### Mike Jackson · 13 days · pct 0.09782608695652174 · growth -5
+**Headline:** 40 Years Guiding Hunters. Six Years Undefeated.
 
-Spondylolisthesis often shows up as buttock pain before anyone suspects the spine. Where it starts: a vertebra in the lower back slips forward, usually around L4, L5, or S1. Where it’s felt: the pain spreads out from the spine into the buttock and hip as referred pain. Why it’s missed: it feels like a tight glute or a sore hip, so the slipped vertebra rarely gets considered. Recognizing that link
+I'm a registered backcountry elk guide. I've been guiding hunters in the high country for 40 years. Hundreds of packs hauled out and homed on truck beds. And I have not lost a pack-out in over six years. Not mine. Not one bull. Not the late-season hunts. Not the deep drainages I've dropped into for hunters who couldn't follow. Every season in my camp, a man my age gets his elk out on his own back.
 
-### Hinge Health · 12 days · pct 0.19101123595505617 · growth 68
-**Headline:** Try Hinge Health today
+### Vsock · 12 days · growth 94
+**Headline:** Buy 2 Pairs Get 3 Free!
 
-Reduce pain in minutes with Enso — a smaller, wireless TENS device with 2.4x better odds of relief.* 100% employer covered. *Enso+Hinge Health users have 2.4x higher odds of achieving meaningful pain reduction compared to standard TENS+exercise therapy users.
+NEW RELEASE: Alpaca Luxe Compression Socks Our first winter compression sock, made from premium alpaca. Warmer than wool, softer than cashmere, and naturally odour-resistant — with 15–25 mmHg graduated compression for legs that swell and ache by evening. Perfect for dealing with: Swollen feet & ankles Heavy, tired legs Cold feet in winter ✔ Premium alpaca fibre ✔ 15–25 mmHg graduated compression ✔
 
-### HBADA · 12 days · growth 50
-**Headline:** Win a Free X7 Black Prestige!
+### CloudSole · 12 days · pct 0.06632213608957795 · growth 93
+**Headline:** "These are 10x better than Dr. Scholl's"
 
-Redefined in Black, Perfected in Prestige. The X7 Black Prestige limited edition is coming. 💎 Want to own this elite 99-unit masterpiece for free? 🎁Subscribe your email by 6.5 to join the waitlist and enter the draw to win a free unit. Your journey to elite comfort starts here. 🚀
+Feet killing you? You're not getting paid enough to be in pain... and you know it. 🥇 No break-in period ☁️ Plushy cushion & support for those long work days 🦶 Great for plantar fasciitis, back pain, foot soreness & more. Try CloudSole today and feel the difference after just 1 wear. Guaranteed.
 
-### Omnilux · 12 days · pct 0.14553990610328638 · growth 41
-**Headline:** Shop Omnilux at Nordstrom
+### Sarah Johnson · 12 days · pct 0.12222222222222222 · growth 65
+**Headline:** The 1-Star Review I Almost Posted
 
-Fewer fine lines. Zero extra steps. Omnilux Men is red light therapy built for men’s thicker skin. 10 minutes while you do anything else. Now at Nordstrom.
+I called it brown water. Then I smashed the bottle. I'm Laura, 52, and the photo in my phone has a different ending now. I smashed the bottle. Into my laundry sink. Then I took that photo. Dark liquid pooled there. Across the stained porcelain. The amber glass was in pieces. I stood in my basement. Phone in hand. Ready to upload the picture. Ready to leave one star. I was going to title it: "Just
 
-### BarkBox · 12 days · pct 0.058823529411764705 · growth 10
-**Headline:** Free With Your First Box.
+### Whole-Leaf · 12 days · pct 0.19428571428571428 · growth 27
+**Headline:** Buy 2 & get a 30ml FREE
 
-New BarkBox subscribers get the Season’s Treatings Advent Calendar free with their first box. That’s 12 bags of treats and a $54.99 value, plus free shipping. Original toys and tasty treats every month after that.
+Here's a deal your knees will love 👇 Buy 2 & get a 30ml FREE 🎁 Wholeleaf Orthodexil Joint Pain Oil, made with 10 Ayurvedic herbs for your daily joint care. ✅ Helps ease joint pain & stiffness ✅ For knees, back, shoulders & neck 🌿 Ayurvedic herbs | Lab-tested | AYUSH certified ⭐ Trusted by 1 lakh+ customers Stock up for your routine and get an extra 30ml on us. ⏳ Joint Relief Offer, limited period
 
-### Aubrey Hayes · 12 days · pct 0.29411764705882354 · growth 7
-**Headline:** my cellulite is gone
+### Braxley Bands · 12 days · pct 0.014084507042253521 · growth 22
+**Headline:** 🛍️✨HUGE SALE! 🛍️✨
 
-I spent three years and thousands of dollars on cellulite creams that never worked. My aesthetician finally explained why, and the answer had nothing to do with which brand I was using. My name is Aubrey Hayes. I'm 45. I live in Los Angeles, California. I've had cellulite on the backs of my thighs since my late twenties. Over roughly three years, I've tried close to a dozen creams, the caffeine on
+Toss it in the wash, snap it back on, forget it's even there. Soft woven comfort that breathes through every workout, meeting, and midnight snack run.
+
+### FitVille · 12 days · pct 0.15555555555555556 · growth 22
+**Headline:** Black Friday | 30% OFF with BFDEAL
+
+🚨 FITVILLE UK BLACK FRIDAY SALE IS HERE! Give your feet the gift of painless movement this winter. For a limited time, enjoy 30% OFF across our entire range of wide-fit footwear—engineered specifically for bunions, swollen feet, plantar fasciitis, and sensitive soles. 🎟️ Use Code: BFDEAL at checkout to claim 30% OFF! 👟 Find Your Perfect Pair This Black Friday: Walking Shoes, Hiking Shoes, Diabetic
+
+### SolderGrip · 12 days · pct 0.09433962264150944 · growth 17
+**Headline:** BLACK FRIDAY SALE!
+
+How many times are you going to patch that same trailer light? You already know the drill. Wire comes apart, you tape it, it holds for a few weeks, then you’re back under the trailer in the rain doing it again. That’s not bad luck — it’s wire nuts and electrical tape doing exactly what they always do: trap moisture in, let vibration win, and leave you re-fixing the same spot every season. SolderGr
+
+### ComfortOrtho Shoes · 12 days · pct 0.7833333333333333 · growth 12
+**Headline:** 🎊 BLACK FRIDAY SALE 🎊
+
+🎊 BLACK FRIDAY SALE 🎊 60% OFF + FREE GIFTS 👟 Fits Wide & Narrow Feet 🦶 Relieves Plantar Fasciitis, Bunions, Neuropathy Pain 👩‍⚕️ Specialists Recommend ⭐ 120,000 5-star reviews Could over 500,000+ happy customers ALL be wrong? "I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. I switched to ComfortWear 2 years ago, and they are b
+
+### Ride Cased · 12 days · pct 0.06896551724137931 · growth 9
+**Headline:** End-of-Season Clearance: Up to 60% Off
+
+Riding season is winding down, and our warehouse is fuller than we planned. So we're clearing it out: up to 60% off in our end-of-season clearance sale. Every Cased bundle is on one page: the padded Long Sleeve + Pants, the Full Kit, the Protective Hoodie + Jeans and more, starting at $199. CE Level 2 protection in every kit, and the savings apply automatically. If you've been waiting to upgrade y
+
+### IBlush Shop · 12 days · pct 0.07407407407407407 · growth 8
+**Headline:** Flush-Free or Your Money Back! 💸
+
+If alcohol leaves you red, uncomfortable, or done way earlier than everyone else, it's probably not your tolerance. Some bodies struggle to break down acetaldehyde, the toxin behind alcohol flush. iBlush is the first natural supplement made for alcohol flush from the ground up. It’s packed with vitamins and antioxidants your body needs to skip: ❌ Facial redness & flushing ❌ Racing heart ❌ Nausea o
+
+### SinclairKennally · 12 days · pct 0.4444444444444444 · growth 8
+**Headline:** When More Sinus “Fixes” Aren’t Fixing It
+
+If every sinus fix eventually stops working, doing MORE may not be the answer. Rinses, sprays, supplements, stronger protocols… sometimes they DO bring relief. Until the pressure starts building again. The congestion creeps back. The head gets heavy and foggy. And now we’re searching for the next thing to throw at it. I see this cycle all the time, and there’s something I really want people to und
 
 ### SmoothSpine · 12 days · growth 7
 **Headline:** This Back Massager Is Flying Off The Shelves!
 
 The SmoothSpine Triple Fusion Massager is designed with 3 clinically proven therapies at once to: ✅ Decompress your crushed spine instantly ✅ Help dried-out discs to rehydrate like sponges ✅ End the root cause of pain – not just the symptoms https://try.smoothspine.com/tfbm-coc-lis
 
-### Evorola · 12 days · pct 0.21311475409836064 · growth 6
+### Cardair Clo · 12 days · pct 0.11538461538461539 · growth 5
+**Headline:** 10% off your first order
+
+Elevate your wardrobe with Cardair's new Logo Pocket Tee in Black this Autumn 🍁
+
+### Dr. Matthew Walker · 11 days · pct 0.23506366307541626 · growth 111
+**Headline:** Ceylon Cinnamon 7200mg Equivalent with MCT Oil
+
+If you have diabetes and you keep getting UTIs, your antibiotics are making both worse. Each course wipes out more than just the infection. It takes your beneficial gut bacteria with it. And without them, your glucose spirals, adding a little more damage to your diabetes each time. That's why your UTI came back faster. That's why your diabetes got harder to control. You've probably noticed this pa
+
+### Holistic Goddess · 11 days · pct 0.14545454545454545 · growth 42
+**Headline:** Your Everyday Organic Ritual 🌿
+
+Pressed last month beats pressed last year. Big producers bottle tens of thousands at once and store them for months. Most brands won't tell you when yours was made. Ours are extracted in small batches, bottled in the USA and ships as fresh as possible. Cold pressed, hexane free, USDA Organic, third party tested. 🤍 Feel the difference today! ✨
+
+### Pure Frequencies · 11 days · pct 0.22375215146299485 · growth 36
+**Headline:** The Heel Hurts. The Calf Is Why.
+
+The pain is in the heel. The problem is in the calf. A locked calf muscle pulls the Achilles tendon tight. The Achilles pulls the plantar fascia taut. Every first step of the morning tears tissue that never had a chance to heal overnight — because the calf never let go while sleeping either. Insoles cushion the heel. Stretching pulls the fascia longer. Ice numbs the signal. None of them reach the
+
+### Carrie Brown · 11 days · growth 32
+**Headline:** This Foot Massager Is Flying Off The Shelves ✅
+
+The $37 Neuropathy Solution That Works in Your Living Room
+
+### Kailo · 11 days · pct 0.14285714285714285 · growth 9
+**Headline:** The Upgrade You've Been Waiting For
+
+Introducing Kailo 2.0! We built this one for you. Softer, lighter, and so comfortable you forget it's on, yet durable enough to last as long as 3 months. All the powerful Kailo technology you already trust, in our most comfortable patch yet. What makes 2.0 different? 1. Soft, flexible vinyl that moves with your body and molds to every curve, so it sits in full contact wherever you need it. 2. So l
+
+### Nontoxic Product Reviews · 11 days · pct 0.007874015748031496 · growth 8
+**Headline:** Braces? Plaque hides around brackets
+
+New study: 45.8% of people in braces got new white spots on their teeth. Plaque hides around brackets, where a soft plastic brush skims over it. The PRIMALS Boar Electric removes up to 10x more plaque than manual brushing, with firm boar bristles and sonic power. Here's the mechanism: nylon bristles are extruded plastic. The sonic motor flexes them tens of thousands of times a use, and the frictio
+
+### Krib · 11 days · pct 0.043478260869565216 · growth 5
+**Headline:** Vergelijk makelaars GRATIS!
+
+🏡Huis verkopen? Vergelijk GRATIS bijna alle makelaars in heel Nederland en laat ze tegen elkaar opbieden! Met Krib vergelijk je gratis makelaars op prijs én prestaties. Dankzij ons landelijke netwerk en jarenlange samenwerkingen ontvang je razendsnel voorstellen van bewezen makelaars, volledig afgestemd op jouw woning en situatie. ✅ Gratis, onafhankelijk en zonder verplichtingen ✅ Ontdek welke mak
+
+### Lullahug · 11 days · pct 0.13043478260869565 · growth 5
+**Headline:** A Seat for Them. A Pad for You →
+
+For the record, Grandma's "just a little longer" is not our fault. Mostly. Okay, the serious part. Here's why it feels different from a hip carry: → The little one has a supportive seat underneath → The shoulder strap is padded and adjusts to your body → Your hand stays on them, and your arm isn't doing all the holding Not built for three-hour hikes. Built for the cuddles that run a little long. B
+
+### Reliefsweb · 11 days · pct 0.2903225806451613 · growth 5
+**Headline:** Unlock Healthy Circulation
+
+‼️ Buy 2 Get 1 Free‼️ Thousands are taking Soursop and experiencing more energy, lower BP, less inflammation and better health. Just two droppers a day to: ✅ Fight inflammation ✅ Beat constant fatigue/low energy ✅ Support healthy blood pressure. VitalSop Drops is one of the most potent formulas on the market made with 100% pure, organic Soursop. Order now and get a free bottle on us. Supplies are
+
+### Reliefsweb · 11 days · pct 0.06451612903225806 · growth 4
+**Headline:** Black Friday Sale! Buy 2 Get 1 Free!
+
+‼️Early Black Friday Sale! Buy 2 Get 1 Free‼️ Thousands are taking Soursop and experiencing more energy, lower BP, less inflammation and better health. Just two droppers a day to: ✅ Fight inflammation ✅ Beat constant fatigue/low energy ✅ Support healthy blood pressure. VitalSop Drops is one of the most potent formulas on the market made with 100% pure, organic Soursop. Order now and get a free bot
+
+### That's Style · 11 days · pct 0.0945945945945946 · growth 4
+**Headline:** Sheets That Actually Last
+
+Get your perfect bed for less. Building a great bed one piece at a time adds up fast. A nice sheet set here, extra pillowcases there, and a blanket you keep meaning to buy. The struggle of building a cozy, coherent bedding collection is why most of us end up sleeping on mismatched sheets for years. That’s why this Black Friday bundle from Boll & Branch caught our attention. They’re bundling their
+
+### Not Your Grandma's · 11 days · pct 0.2916666666666667 · growth 1
+**Headline:** Support Without Losing Your Style
+
+I’m ill, not boring. Chronic illness took the shoes I loved, the outfits that don’t survive a flare and the hobbies that cost more spoons than I’ve got. Then everything I needed turned up looking practical and beige. Not much about being chronically ill is a choice. At least you can choose your compression socks. Pick 4 pairs, pay for 3, plus get an extra 15% off with code BF15.
+
+### Zanna Skin  · 11 days · pct 0.4444444444444444 · growth 1
+**Headline:** Calm your daughter’s acne.
+
+Most acne products work by attacking the skin. Strip the oil, dry the spot out, and deal with the redness as the price of it. Teenage skin can't take that trade. It's still developing, it reacts more, and every harsh product sets it back a week, which is why the strong stuff seems to work for a fortnight and then stops. Bakuchiol does the opposite. It calms the inflammation that makes breakouts re
+
+### CarLuex-CarPlay-Adapter · 11 days · pct 0.06666666666666667 · growth 0
+**Headline:** The Ultimate Screen Upgrade for BMW 🚗
+
+Upgrading your BMW screen without aftermarket. 🛠️✨ CARLUEX for BMW is an all-in-one Multimedia Box engineered specifically for BMW wireless CarPlay environments: 🔒 100% Safe & Non-Invasive: No OBD flashing, no dash removal. Unplug it anytime without leaving a trace on your warranty. ⚡ Powerful Performance: Smooth app loading, split-screen multitasking, and automatic reconnection every time you sta
+
+### Evorola · 11 days · pct 0.44776119402985076 · growth 0
 **Headline:** Relieve Sciatica At Home
 
-Painkillers numb the sciatic nerve. Surgery removes the part of the disc that's compressing it. But neither one releases the tight muscles in your lower back, hips, and legs... ...So they keep irritating the nerve and straining your lower back. The Evorola™ Targeted Therapy Device releases the tight muscles, using 3 therapies at once. ✅ Gentle suction lifts tight muscles away from the sciatic nerv
+"After 4 years of constant sciatica in my lower back and hip, this is the ONLY thing that made me feel better." - Catherine E., USA ⭐⭐⭐⭐⭐ Get lasting relief from sciatica in 10 minutes per day with the Evorola™ Targeted Therapy Device. ✅ Combines three clinical therapies into one device ✅ Physical therapist-approved & recommended ✅ Helps with short-term relief & long-term recovery ✅ No pills, appo
 
-### Indigenous Living · 12 days · pct 0.25766871165644173 · growth 3
-**Headline:** Calm Starts At Your Feet
+### Monterey Bay ADU Builders · 11 days · pct 0.5 · growth 0
+**Headline:** Book a free 15-minute call
 
-For thousands of years, Native Americans walked the Earth in a way modern people hardly ever do anymore. They lived closer to the land. Closer to nature. Closer to the rhythms of the body. And the footwear they used reflected that. It was simple. Natural. Flexible. It did not trap the foot in thick foam, stiff soles, raised heels, or narrow toe boxes. It let the body move the way it was meant to m
+ADU planning can feel like a lot. Our free guide breaks it down so you know what to consider before you build, from zoning to size to design. Get your free ADU Planning Guide and start with clarity, not confusion.
 
-### SolderGrip · 11 days · pct 0.05263157894736842 · growth 10
-**Headline:** BLACK FRIDAY SALE!
+### CarLuex-CarPlay-Adapter · 11 days · pct 0.2 · growth -1
+**Headline:** 🎉CARLUEX® PRO+ 2.0—4TH ANNIVERSARY 35%OFF🎉
 
-How many times are you going to patch that same trailer light? You already know the drill. Wire comes apart, you tape it, it holds for a few weeks, then you’re back under the trailer in the rain doing it again. That’s not bad luck — it’s wire nuts and electrical tape doing exactly what they always do: trap moisture in, let vibration win, and leave you re-fixing the same spot every season. SolderGr
-
-### Vitality Extracts Essential Oils · 11 days · pct 0.25116279069767444 · growth 10
-**Headline:** The Bone-On-Bone Knee Balm
-
-My doctor made me feel like a used car when he said my knee pain was just “wear and tear.” But if that’s the case, this balm is like my spare tire. I spent decades on my feet working, parenting, traveling. Prioritizing my knee pain was overdue. Frankincense Balm is exactly what I (and my doctor) ordered. ⤵️
-
-### Tiger Balm U.S. · 11 days · pct 0.24489795918367346 · growth 6
-**Headline:** Rise Above Pain 🔥
-
-Whatever the challenge, it takes strength to rise above it, keep going and get back to what matters most. Get ready, World Warriors. The journey continues October 16. 🔥 🎬 STREET FIGHTER — NOW IN THEATRES @streetfightermovie #TigerBalm #WorksWhereItHurts #StreetFighterMovie #StreetFighter ©2026 CAPCOM & Legendary. All rights reserved.
-
-### My Esophagus and Me · 11 days · pct 0.10869565217391304 · growth 3
-**Headline:** The Hidden Culprit Behind Your Constant Throat Burn
-
-The most misdiagnosed reason for chronic throat irritation and acidic burps after meals? Silent Reflux. Also known as LPR (Laryngopharyngeal Reflux), Silent Reflux happens when acid mist escapes your gut and rises past the esophagus - irritating your throat, voice box, and airways without causing heartburn. And the tell-tale sign is a scratchy throat or cough that never seems to go away, especiall
-
-### Market Spa · 11 days · pct 0.25 · growth 3
-**Headline:** ♠️BLACK FRIDAY -40%👈🏿
-
-🖤♠️BLACK FRIDAY MARKET SPAS : JUSQU'À -40 % 🖤♠️ Magasin de Spa & Spa de nage et Sauna. 💦 NEPTUNE V2 : 6 499 € au lieu de 10 500 € ! 88 jets 3 pompes de massage ! 💦 EASY RELAX : 5 499 € au lieu de 8 990 € ! Full options ! 🎁 PACK CADEAU OFFERT ! ✅ 4 mois de produits d'entretien ✅ Escalier offert ✅ Couverture offerte 💥 Des milliers d'euros d'économies sur une sélection de spas ! 🏪 Découvrez nos offre
-
-### Sheets Laundry Club · 11 days · pct 0.3333333333333333 · growth 0
-**Headline:** Sheets Laundry Club
-
-Still lugging a heavy detergent jug? Make laundry lighter with Sheets Laundry Club. No pouring. No measuring. No messy drips.
-
-### Everstride · 10 days · growth 140
-**Headline:** Buy 2 Pairs, Get 2 Free
-
-Bamboo compression socks for all-day support and comfort. Soft against your skin, fits wide calves up to 28 inches, and stays breathable throughout the day. ✅No harsh squeeze ✅No uncomfortable tightness ✅No painful digging in Just gentle graduated compression that helps improve circulation, reduce swelling, and keep your legs feeling lighter from morning to night. That's why over 400,000 women tru
-
-### The Vibit · 10 days · pct 0.22966507177033493 · growth 92
-**Headline:** 40% Off Black Friday + Free Shipping
-
-The Vibit 40% OFF Black Friday sale is officially live, and this is the moment to stop waiting. No more thinking about it. Same Vibit. Cut the price. Only until the clock runs out. Once the time ends, the discount disappears with it. 40% OFF Free Shipping 30-Day Money-Back Guarantee Claim yours before the offer ends
+🎉 CARLUEX 4TH ANNIVERSARY — 35%OFF LOWEST PRICE EVER! 🎉 Why spend $800+ on an aftermarket head unit when you can get the full Android 13 smart ecosystem for just $174.85? The bestselling CARLUEX® PRO+ 2.0 turns your factory wired screen into a complete multimedia powerhouse: 🔹 Wireless CarPlay & Android Auto 🔹 10,000+ Apps via Google Play (YouTube, Netflix, Hulu, HBO Max) 🔹 Built-in 4G LTE SIM Car
 
 ## Long-running inspiration from category brands (94, from brand_inspiration_longrunning.csv)
 
@@ -4670,6 +4681,11 @@ And I ignored every single one of them. Just like you might be ignoring yours ri
 
 It started with the fatigue. Bone-deep exhaustion that no amount of sleep fixed. I did twenty years in the Air Force — now I couldn't walk to the mailbox with
 
+### OrthoFit Store · image · active · 139 days · pct 0.004611837048424289
+**Headline:** Say Goodbye to Foot Pain — Comfort Starts Here
+
+Walking shouldn’t hurt. If you suffer from plantar fasciitis, bunions, or heel pain, it's time for a change. Our orthopedic shoes are designed to relieve pain while providing all-day comfort.💥 Enjoy each step without the aches👟 Arch support and wide toe-box for the perfect fit✅ 50% OFF, today only!🔁 Free shipping & returns | 30-Day Money-Back Guarantee
+
 ### Clinic Discussions: Injuries, Relief & More · image · active · 138 days · pct 0.006711409395973154
 **Headline:** no new veins in 8 months
 
@@ -6124,16 +6140,3 @@ And that wasn’t the first time I had been dealing with it.
 For 6 months before that day, I had been doing everything my orthopedist told me.
 
 Today, 5 months later: Not one bad day. No ache. No burning. And I mov
-
-### The Moms Co. · image · active · 53 days · pct 0.043478260869565216
-**Headline:** Post Childbirth Recovery
-
-Designed to Gently Support your Pospartum Journey. 💚
-
-✨Full belly, waist, and pelvic support for New moms.
-
-✨ Breathable and Lightweight for everyday comfort.
-
-Personalize your comfort, as your body recovers after childbirth with The Moms Co. 3-in-1 Postpartum Belt. 💚
-
-Shop at ₹649.

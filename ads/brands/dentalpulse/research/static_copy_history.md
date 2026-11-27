@@ -2,6 +2,29 @@
 
 Every concept from weeks/*/concepts.json, newest first: headline, angle, source and the user's verdict where logged. Don't reuse these headlines; learn from the rejection reasons.
 
+## 2026-W48-tue (20)
+
+- T48_01_den_new_lab_study · switcher · '6 of 7 ultrasonic cleaners left live bacteria and yellow stains behind.' · angle: Lab-study headline: in a 90-day test of 7 pods, 6 left live bacteria on the dentures · copy: stefanbrain
+- T48_02_den_before_you_buy_paper · switcher · 'The yellow film tablets leave on your dentures:' · angle: Ray's 'read this before you consider ultrasonic cleaners': the questions to ask before buying any ultrasonic cleaner · copy: stefanbrain
+- T48_03_den_read_the_tablet_box · denture_wearer · 'Read your tablet box. Then look at the trapped bacteria and yellow film.' · angle: 'You've been lied to': read what your tablet box actually promises, then look at the denture · copy: stefanbrain
+- T48_04_den_honest_report_rankings · switcher · 'We Tested 7 Ultrasonic Cleaners: 6 Left Bacteria and Yellow Film.' · angle: Top 7 rankings: we tested the 7 most popular ultrasonic cleaners on real dentures · copy: stefanbrain
+- T48_05_den_story_split_panel · denture_wearer · 'My soaked dentures still had live bacteria:' · angle: 'Read this if you wear dentures': first-person story of what she found living on the denture she soaked every night · copy: stefanbrain
+- T48_06_den_four_steps_no_brush · denture_wearer · 'Flicking Yellow Film Onto Your Mirror?' · angle: Never brush your dentures again: four steps, no brush · copy: stefanbrain
+- T48_07_den_from_yellow_to_white · denture_caregiver · 'From Yellow Stains To White' · angle: From yellow to white: the spouse notices the denture is white again · copy: stefanbrain
+- T48_08_den_offer_dark_marble · denture_wearer · '40% Off Ultrasonic Cleaner: End Yellow Stains' · angle: 40% off + free gifts: the dentist-grade clean at its lowest price · copy: stefanbrain
+- T48_09_den_gift_ribbon_offer · denture_caregiver · "Clear Mom's Yellow Denture Stains" · angle: Gift for a parent with dentures: 40% off + free case + free travel bag · copy: stefanbrain
+- T48_10_den_excuses_no_tablets · switcher · 'Stop Soaking Yellow Stains In Tablets' · angle: No more excuses: tap water only, no tablets, 40% off · copy: stefanbrain
+- T48_11_ng_three_strip_stat · night_guard · '6 Of 7 Pods Leave Bacteria' · angle: 6 of 7 pods leave live bacteria, re-aimed at night guards: the guard that looks rinsed still carries film · copy: stefanbrain
+- T48_12_ng_soap_split · night_guard · 'Dish soap leaves bacteria and yellow night guard film.' · angle: 'You've been lied to' for night guards: dish soap and a brush are not cleaning it · copy: stefanbrain
+- T48_13_ng_wake_up_ticker · night_guard · "Rinsed Isn't Bacteria Free" · angle: Clean vs looks clean: what you put back in your mouth every night · copy: stefanbrain
+- T48_14_ng_spec_callouts_offer · night_guard · 'Yellow edges? That morning taste is bacteria.' · angle: Specs that matter: 42,000 Hz + 5 minutes + tap water, now 40% off · copy: stefanbrain
+- T48_15_ng_week_rows · night_guard · 'Stops Yellow Bacteria Film' · angle: Week by week: the guard stops turning yellow once the film is gone each morning · copy: stefanbrain
+- T48_16_ret_one_less_thing · retainer · 'Brushing Scratches Retainers. This Ultrasonic Cleaner Clears Bacteria.' · angle: 'I was creating tiny scratches where bacteria hide': brushing a retainer with toothpaste · copy: stefanbrain
+- T48_17_al_lab_checklist · aligner · '7 Ultrasonic Cleaners Tested for Bacteria and Film' · angle: Top 7 ranking re-aimed at aligners: what our 90-day test checked · copy: stefanbrain
+- T48_18_ret_hawley_dark_offer · retainer · '#1 Ultrasonic Cleaner Clears Trapped Bacteria' · angle: Ranked #1 of 7 for bacteria: now 40% off with a free case + travel bag · copy: stefanbrain
+- T48_19_al_before_after_lists · aligner · "They Said 'Just Brush.' So Why Is That Cloudy Bacteria Film Still There?" · angle: 'You've been lied to' for aligners: brushing vs ultrasonic, side by side · copy: stefanbrain
+- T48_20_ret_frame_sticker_offer · retainer · "Milky Film Won't Rinse. 40% OFF." · angle: Clear-again retainer for less: 40% off + free case + free travel bag · copy: stefanbrain
+
 ## 2026-W48-fri (40)
 
 - W48_01_den_tablet_chemical_caption · denture_wearer · 'Tablets soak yellow stains in chemicals. This ultrasonic cleaner removes bacteria.' · angle: Exposé: what is actually in the denture tablets people soak in every night · copy: stefanbrain

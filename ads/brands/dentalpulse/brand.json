@@ -1345,6 +1345,86 @@
   "rv_w48_zyara_notebook_list": {
    "file": "reference/benchmarks/rv_ref_w48_zyara_notebook_list.jpg",
    "use_for": "LAYOUT reference only (Anna Janeston 'Lower Denture Reliner', inspiration pull 2026-11-20, teeth whitening query, 10d, top 2.0%: photo of an open lined notebook page with handwritten black marker title (2 lines, one word boxed), four dashed handwritten list lines, and the product tube lying on the page at the left). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_nontoxic_new_study_braces": {
+   "file": "reference/benchmarks/rv_ref_t48_nontoxic_new_study_braces.jpg",
+   "use_for": "LAYOUT reference only (Nontoxic Product Reviews 'Braces? Plaque hides around brackets', inspiration pull 2026-11-24, teeth whitening 11d, top 0.8%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_wonderly_floor_paper": {
+   "file": "reference/benchmarks/rv_ref_t48_wonderly_floor_paper.jpg",
+   "use_for": "LAYOUT reference only (Wonderly '$0 ad spend out of pocket. You pay when we book yo', inspiration pull 2026-11-24, retainer cleaner 21d, top 8.5%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_earclear_read_the_box": {
+   "file": "reference/benchmarks/rv_ref_t48_earclear_read_the_box.jpg",
+   "use_for": "LAYOUT reference only (Earclear 'Sale Ends Tonight at Midnight', inspiration pull 2026-11-24, denture cleaner 9d, top 4.6%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_honest_buyers_tested_every": {
+   "file": "reference/benchmarks/rv_ref_t48_honest_buyers_tested_every.jpg",
+   "use_for": "LAYOUT reference only (Honest Buyers Guide '🥇 The Colostrum Report Brands Don't Want You To Se', inspiration pull 2026-11-24, gut health 8d, top 33.3%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_woodupp_brown_split": {
+   "file": "reference/benchmarks/rv_ref_t48_woodupp_brown_split.jpg",
+   "use_for": "LAYOUT reference only (WoodUpp 'Little Details. Big Difference.', inspiration pull 2026-11-24, supplement for seniors 11d, top 0.2%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_caldera_four_steps": {
+   "file": "reference/benchmarks/rv_ref_t48_caldera_four_steps.jpg",
+   "use_for": "LAYOUT reference only (Caldera + Lab 'One Week. Visible Difference.', inspiration pull 2026-11-24, oral care 17d, top 1.4%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_from_xl_to_m": {
+   "file": "reference/benchmarks/rv_ref_t48_from_xl_to_m.jpg",
+   "use_for": "LAYOUT reference only (SkinnyFit 'NLP-1 = Natural GLP-1 Support 🧬', inspiration pull 2026-11-24, dental probiotic 34d, top 2.7%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_burst_bf_marble": {
+   "file": "reference/benchmarks/rv_ref_t48_burst_bf_marble.jpg",
+   "use_for": "LAYOUT reference only (Burst Oral Care 'Up to 30% Off Sitewide', inspiration pull 2026-11-24, oral care 10d, top 1.6%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_risewell_bf_ribbon": {
+   "file": "reference/benchmarks/rv_ref_t48_risewell_bf_ribbon.jpg",
+   "use_for": "LAYOUT reference only (RiseWell '20% off sitewide, Code THANKFUL20.', inspiration pull 2026-11-24, back pain relief 7d, top 5.1%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_novex_condolences": {
+   "file": "reference/benchmarks/rv_ref_t48_novex_condolences.jpg",
+   "use_for": "LAYOUT reference only (Novex Biotech '15% Off With Code: nx15', inspiration pull 2026-11-24, sleep apnea snoring 40d, top 2.7%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_stat_strips_98": {
+   "file": "reference/benchmarks/rv_ref_t48_stat_strips_98.jpg",
+   "use_for": "LAYOUT reference only (Bescher Beauty 'Rebuild Collagen Morning & Night', inspiration pull 2026-11-24, night guard 19d, top 3.8%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_dawn_split": {
+   "file": "reference/benchmarks/rv_ref_t48_dawn_split.jpg",
+   "use_for": "LAYOUT reference only (Dr. M. Rosenberg '9 in 10 Women With Thinning-Hair Don't Know This H', inspiration pull 2026-11-24, blood sugar 27d, top 1.5%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_natural_rems_wake_up_ticker": {
+   "file": "reference/benchmarks/rv_ref_t48_natural_rems_wake_up_ticker.jpg",
+   "use_for": "LAYOUT reference only (Natural Rems 'Buy 2 Get 1 FREE', inspiration pull 2026-11-24, gum health 9d, top 0.3%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_itoolmax_spec_callouts": {
+   "file": "reference/benchmarks/rv_ref_t48_itoolmax_spec_callouts.jpg",
+   "use_for": "LAYOUT reference only (iToolMax '❄️ Less Shoveling. Easier Snow Cleanup.', inspiration pull 2026-11-24, electric toothbrush 11d, top 4.4%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_voraya_week_rows": {
+   "file": "reference/benchmarks/rv_ref_t48_voraya_week_rows.jpg",
+   "use_for": "LAYOUT reference only (Voraya '🟢 Back in the Green in 8 Weeks', inspiration pull 2026-11-24, bad breath 16d, top 4.2%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_breescape_minimal_pill": {
+   "file": "reference/benchmarks/rv_ref_t48_breescape_minimal_pill.jpg",
+   "use_for": "LAYOUT reference only (Breescape 'Extra Deals with HSA/FSA Eligibility', inspiration pull 2026-11-24, night guard 10d, top 3.3%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_stride_lab_list": {
+   "file": "reference/benchmarks/rv_ref_t48_stride_lab_list.jpg",
+   "use_for": "LAYOUT reference only (StrideOne '53% Off DNA & Methylation Testing', inspiration pull 2026-11-24, sleep apnea snoring 8d, top 2.6%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_sonic_bf_black_box": {
+   "file": "reference/benchmarks/rv_ref_t48_sonic_bf_black_box.jpg",
+   "use_for": "LAYOUT reference only (Sonic Dental '🖤 Black Friday : jusqu’à -40 %', rivals pull 2026-11-24,  15d, top 23.5%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_invisalign_before_after_lists": {
+   "file": "reference/benchmarks/rv_ref_t48_invisalign_before_after_lists.jpg",
+   "use_for": "LAYOUT reference only (Invisalign 'Find Your Local Invisalign Doctor Today!', inspiration pull 2026-11-24, invisalign aligners 13d). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+  },
+  "rv_ref_t48_zima_bf_frame_sticker": {
+   "file": "reference/benchmarks/rv_ref_t48_zima_bf_frame_sticker.jpg",
+   "use_for": "LAYOUT reference only (Zima Dental 'Don’t miss out! Sale ends soon ⏰', rivals pull 2026-11-24,  1d, top 9.9%). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
   }
  },
  "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots).",

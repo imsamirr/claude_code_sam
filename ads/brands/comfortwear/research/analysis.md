@@ -541,3 +541,48 @@ Atria MCP (search_library_ads proven/rising/seasonal + search_ad_templates; shee
 
 ### Own copy that works (SKILL 1b, this run)
 Spend now sits on travel/Disney + plus-size videos (KW1 $6,815 2.43, JW1, NH3, NJ1, NL1) and the Emily RN nurse family (B6 3.59, B3, B5 4.68, C1 4.79). Script spine: hours/steps -> why running-shoe foam fails (flattens, narrow toe box vs swelling, wet grip) -> our features -> "not the person on a bench" -> offer + 30 days. Statics: C3 "Could 500,000+ customers ALL be wrong?" (4.00), H3 40% OFF TODAY (2.97), I6 warehouse warning (4.28), O1 product + 40% OFF (3.04). New: HSA/FSA year-end (COM408). Copy written by StefanBrain from these sources (based_on per concept).
+
+
+## 2026-11-24 (Tuesday iteration run, folder 2026-W48-tue, 20 concepts, 50/50)
+
+Atria: `atria_pull.py all` ALL PULLS OK (pull_status.json, ~11:40 UTC): current 12 (new: R7 COM325 warehouse overstock video $599 / 4.42, P3 COM284 $421 / 3.14), rising 2, top7_spenders **0 at $5k+** (no ad spent $5k in the last 7 days) -> reran `current --days 7 --min-spend-rising 1000 --min-roas 0 --sort-spend`: 12 ads $1k+ (JW1 $4,724 / 1.05, HF7 $4,644 / 1.17, NH3 $4,373 / 1.35, COM55 AR20 $3,551 / 1.40, NJ1 $2,746, KW1 $2,653 / 1.99, HI16 Spanish nurse $2,309, OR3 COM406 travel $2,078, OL2_1 COM408 HSA $1,814 / 1.78, HF2 Aubrey $1,695, NL1 $1,208, H3 static $1,057 / 2.65), new7_winners 2 (P3 COM284 $421 / 3.14, KQ37 plus-size BF static $293 / 2.08), winners 88, seasonal W49 (W48 file from 11-20 used), wellness 170, rivals 231 (69 new), rivals --wide 2,271 (885 new). Atria MCP: 3 `search_library_ads` calls (rising 45d health/apparel/beauty; holiday/seasonal/post-it/UGC since Nov 1; proven 60d+) -> `data/atria_mcp_w48tue.csv`, sheets `sheets/atria_mcp_w48tue_*.jpg`; each MCP call costs 1 workspace credit (plan allowance used up).
+Video transcripts: HF2 807_Aubrey (cached) and HI16 COM225 Spanish (cached) appended; OR3 COM406 timed out and R7 COM325 "video not found": neither is iterated. P3 = COM284 (already in the file as KW1).
+Verdicts: no Drive sheet edits found for earlier batches (nothing logged).
+Offer: brand.json `program.holiday_sale_2026` (user, 2026-11-24): HOLIDAY SALE "60% OFF SITEWIDE" + "Free shipping & returns · 30-day money-back guarantee", $59.95 (was $120), no deadlines. Used on the 6 offer ads; T48_06 uses HSA/FSA.
+
+### Formats found this run (wellness pull ranked by 7-day impression growth, taken in order; sheet `scratchpad` rank grid, refs saved as `reference/benchmarks/rv424_w*.jpg`)
+| Rank | Brand, category, days | Growth (places, 7d) | Format | Ours / skip reason |
+|---|---|---|---|---|
+| 1 | OrthoFlexx insoles, 25d | +436 | "Another insole that went flat in a month?" question + product + red bar | skip: ledger (question_headline_shoe_red_guarantee_bar) |
+| 2 | OrthoFlexx, 25d | +273 | Giant stacked "12-HOUR SHIFT" type, product breaks through letters | T48_05 |
+| 3/5 | Stepprs, 10d | +271/+191 | Galaxy-brain meme | skip: ledger (expanding_brain_meme_four_rows) |
+| 4 | Vsock, 10d | +206 | "5 FREE" giant number + boxed bundle | skip: needs a buy-N-get-free offer we don't run |
+| 6 | FEM+, 25d | +172 | "TODAY IS IT. Tomorrow the $0 bottle is gone." | skip: needs a deadline fact (no end date confirmed) |
+| 7 | Hike, 10d | +166 | "FINAL HOURS 50% OFF ends in 24 hours" | skip: deadline + ledger (giant_percent_numerals_shoe_float) |
+| 8 | Lifepro, 10d | +148 | "3 MILLION CUSTOMERS ALREADY HAVE ONE" band + gold offer band | T48_07 (rebuilt light, 500,000+) |
+| 9 | Everstride, 10d | +140 | Writing on leg | skip: ledger (writing_on_skin) |
+| 10 | FEM+, 26d | +118 | Italic headline + product trio row | T48_14 |
+| 11/12/16 | Lymphoria, Dr. Matthew Walker | +112/+111/+99 | no-text product in nature / lo-fi table / clinic photo | skip: ledger (no_text_real_photo, clinic_exam_photo_bottom_caption) |
+| 13 | Everstride, 14d | +111 | Halloween moon compression | skip: Halloween seasonal is over |
+| 14 | Lifepro, 10d | +108 | same as rank 8 | (used at 8) |
+| 15 | Peak Footwear, 18d | +105 | Shoe in snow + 4 feature tabs | skip: ledger (four_tab_header_shoe_scene) |
+| 17 | Lymphoria, 19d | +98 | "Goodbye beer belly" week grid | skip: men, weight-loss claim |
+| 18 | Vsock, 12d | +94 | Product on car seat, snowy road, two-tone rhythm headline + pill | T48_10 |
+| 19 | CloudSole, 12d | +93 | Serif spouse quote with one underlined word, product on sky | T48_03 |
+| 20 | Cellumove, 29d | +86 | Framed product card + handwritten arrows + angled tag | T48_13 |
+| 21/25 | Inno Supps | +84/+70 | gorilla hand / ingredient ring | skip: men's meme; ledger (material_circle_grid) |
+| 22 | Hinge Health | +78 | Not your typical | skip: ledger |
+| 23 | NativePath | +73 | Swollen feet before/after | skip: relief claim |
+| 24 | Dr. Squatch | +73 | This bag is free | skip: ledger |
+| 26 | Sorviq, 43d | +67 | Ornate vintage label offer over seasonal props | T48_08 (our offer, holiday props) |
+| 27 | The Nerve Brand, 19d | +67 | "goodbye X" small line + giant serif "hello Y" | T48_12 |
+| 28-38 | Sarah Johnson, Lymphoria, Sorviq, Nerve newspaper, Nordic Stretch, Vibit letter, Nurse Finds (our shoe), Nuflos, mirror selfie, Recovery Labs, Cellumove | | | skip: ledger (no_text_real_photo, newspaper, saying_goodbye, honest_long_letter, hour stack, repeated outline word, mirror_selfie), claims (hemorrhoids, veins), our own product reseller |
+| 39 | Breescape, 10d | +47 | Minimal italic serif + product + HSA/FSA chip + pill button | T48_06 |
+| 40-41 | The Modern, Nuflos | | | skip: ledger / weight-loss claim |
+| 42 | Holistic Goddess, 11d | +42 | iOS AirDrop popup over sky | T48_11 |
+
+Atria MCP (rising / seasonal / proven, layout refs `rv424_*`): Caldera + Lab number contrast (20d rising) -> T48_01; Lilly Pulitzer fair-isle friends (8d seasonal) -> T48_02; Enhanced Labs comment over selfie (11d rising) -> T48_04; PupBox "Dear Human" wishlist strike price (10d) -> T48_09; Wholesome Story Notes card + calendar doodle (38d rising) -> T48_15; Flawless After 40 candid drama photo (27d rising) -> T48_16; Din Tai Fung ornament on tree (6d rising) -> T48_17; Nine West staggered words (11d) -> T48_18; Braxley "Sweatpants for your wrist" analogy (12d rising) -> T48_19; The Glow comparison test card (10d rising) -> T48_20.
+
+### Own copy that works (SKILL 1b, this run)
+Spend this week sits on videos (JW1 Disney test, HF7, NH3 plus-size park day, COM55 doctor, NJ1 Europe, KW1 "we asked 500 plus-sized women", HF2 Aubrey nurse), statics H3 "Flash sale: best 12-hour shift shoes 40% off" (2.65-2.82), C3 "Could 500,000+ customers all be wrong?" (3.73), I6 warehouse warning (4.13), C1 Emily RN (4.69), I19 "$59 per pair", KQ37 "Made for plus-size feet. Now 60% off." (new). Script spine unchanged (hours/steps -> running-shoe foam collapses mid-shift / under more weight -> arch that holds, wide toe box, grip -> don't be the one on the bench -> offer + 30 days). New this week: HF2 Aubrey's "graveyard closet" ($180 Hokas, $200 Dansko, $150 Brooks dead in 2 months) and "foam arch support collapses halfway through your shift" — the hero mechanism (CREATIVE_LEARNINGS §D) in a customer's mouth.
+Creative learnings applied (CREATIVE_LEARNINGS.md, 2026-11-23): every concept names its angle, the hero-mechanism link and the core emotion in `angle`; one dominant pain per ad; iterations keep the source's emotion and change the situation; one drama format (T48_16) for women 45+.

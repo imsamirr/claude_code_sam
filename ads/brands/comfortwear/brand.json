@@ -1744,6 +1744,86 @@
       "file": "reference/benchmarks/c4_W11.jpg",
       "use_for": "COMPETITOR FORMAT ref (Hollow Socks, Meta library, launched Oct-Nov 2026): roadside marquee letter sign with the whole ad written in black letters. Recreate layout only; never their brand, claims or product."
     },
+    "rv424_age_number_contrast": {
+      "file": "reference/benchmarks/rv424_age_number_contrast.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): Caldera + Lab (skincare), 20d, rising (Atria MCP rising 2026-11-24). Copy the layout only, never its words."
+    },
+    "rv424_fair_isle_pair": {
+      "file": "reference/benchmarks/rv424_fair_isle_pair.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): Lilly Pulitzer (apparel), 8d, seasonal (Atria MCP holiday 2026-11-24). Copy the layout only, never its words."
+    },
+    "rv424_w19_serif_family_quote": {
+      "file": "reference/benchmarks/rv424_w19_serif_family_quote.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): CloudSole (insoles), 12d, wellness growth rank 19 (+93 places 7d). Copy the layout only, never its words."
+    },
+    "rv424_comment_over_selfie": {
+      "file": "reference/benchmarks/rv424_comment_over_selfie.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): Enhanced Labs (supplement), 11d, rising (Atria MCP rising 2026-11-24). Copy the layout only, never its words."
+    },
+    "rv424_w2_giant_type_product_through": {
+      "file": "reference/benchmarks/rv424_w2_giant_type_product_through.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): OrthoFlexx (insoles), 25d, wellness growth rank 2 (+273 places 7d). Copy the layout only, never its words."
+    },
+    "rv424_w39_serif_hsa_chip": {
+      "file": "reference/benchmarks/rv424_w39_serif_hsa_chip.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): Breescape (bedding, HSA/FSA), 10d, wellness growth rank 39 (+47 places). Copy the layout only, never its words."
+    },
+    "rv424_w8_count_band_gold_offer": {
+      "file": "reference/benchmarks/rv424_w8_count_band_gold_offer.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): Lifepro (vibration plate), 10d, wellness growth rank 8 (+148 places 7d) (rebuilt light: no dark background). Copy the layout only, never its words."
+    },
+    "rv424_w26_ornate_label_seasonal": {
+      "file": "reference/benchmarks/rv424_w26_ornate_label_seasonal.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): Sorviq (balm), 43d, wellness growth rank 26 (+67 places). Copy the layout only, never its words."
+    },
+    "rv424_dear_wishlist_strike": {
+      "file": "reference/benchmarks/rv424_dear_wishlist_strike.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): PupBox, 10d, seasonal holiday (Atria MCP seasonal 2026-11-24). Copy the layout only, never its words."
+    },
+    "rv424_w18_car_seat_winter_road": {
+      "file": "reference/benchmarks/rv424_w18_car_seat_winter_road.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): Vsock (alpaca socks), 12d, wellness growth rank 18 (+94 places). Copy the layout only, never its words."
+    },
+    "rv424_w42_airdrop_popup": {
+      "file": "reference/benchmarks/rv424_w42_airdrop_popup.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): Holistic Goddess (castor oil), 11d, wellness growth rank 42 (+42 places). Copy the layout only, never its words."
+    },
+    "rv424_w27_goodbye_hello_serif": {
+      "file": "reference/benchmarks/rv424_w27_goodbye_hello_serif.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): The Nerve Brand (nerve cream), 19d, wellness growth rank 27 (+67 places). Copy the layout only, never its words."
+    },
+    "rv424_w20_framed_card_arrows": {
+      "file": "reference/benchmarks/rv424_w20_framed_card_arrows.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): Cellumove (compression leggings), 29d, wellness growth rank 20 (+86 places). Copy the layout only, never its words."
+    },
+    "rv424_w10_italic_trio": {
+      "file": "reference/benchmarks/rv424_w10_italic_trio.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): FEM+ Nutrition, 26d, wellness growth rank 10 (+118 places). Copy the layout only, never its words."
+    },
+    "rv424_notes_card_calendar": {
+      "file": "reference/benchmarks/rv424_notes_card_calendar.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): Wholesome Story (supplement), 38d, rising (Atria MCP rising 2026-11-24). Copy the layout only, never its words."
+    },
+    "rv424_candid_encounter": {
+      "file": "reference/benchmarks/rv424_candid_encounter.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): Flawless After 40 (story advertorial), 27d, rising (Atria MCP rising 2026-11-24). Copy the layout only, never its words."
+    },
+    "rv424_ornament_on_tree": {
+      "file": "reference/benchmarks/rv424_ornament_on_tree.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): Din Tai Fung (restaurant ornaments), 6d, rising (Atria MCP seasonal 2026-11-24). Copy the layout only, never its words."
+    },
+    "rv424_staggered_words": {
+      "file": "reference/benchmarks/rv424_staggered_words.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): Nine West (boots), 11d, seasonal (Atria MCP seasonal 2026-11-24). Copy the layout only, never its words."
+    },
+    "rv424_analogy_for_your": {
+      "file": "reference/benchmarks/rv424_analogy_for_your.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): Braxley Bands (watch bands), 12d, rising (Atria MCP rising 2026-11-24). Copy the layout only, never its words."
+    },
+    "rv424_lab_test_card": {
+      "file": "reference/benchmarks/rv424_lab_test_card.jpg",
+      "use_for": "FORMAT ref 2026-11-24 (Tue W48 run): The Glow (shower filters), 10d, rising (Atria MCP rising 2026-11-24). Copy the layout only, never its words."
+    },
     "h25_HK1": {
       "file": "reference/benchmarks/h25_HK1.jpg",
       "use_for": "HOLIDAY 2025 WINNER ref (Hike Footwear; BOGO clearance, ran 260d, top-8 ad by impressions; Atria 2026-11-27): red banner offer over top-down pair on textured ground, small white subline, thin bottom proof bar. Recreate the layout only; never their brand, prices, claims or product."

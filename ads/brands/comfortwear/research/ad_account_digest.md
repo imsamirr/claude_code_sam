@@ -1,11 +1,11 @@
 # Comfort Wear ad account digest
 
-Built 2026-11-20 from our Meta ad account (Atria pulls in research/data). Currency CAD. Spend shows what scaled; ROAS is Meta-reported. Note: ROAS is unreliable Feb–Dec 2025 (tracking break): rank older ads by spend.
+Built 2026-11-24 from our Meta ad account (Atria pulls in research/data). Currency CAD. Spend shows what scaled; ROAS is Meta-reported. Note: ROAS is unreliable Feb–Dec 2025 (tracking break): rank older ads by spend.
 
-## Top spenders, last 7 days (2)
+## Top spenders, last 7 days (12)
 
 ### TOFV1_JW1 | COM320_HO1 (avatar)
-VIDEO · prospecting · ACTIVE · spend 5,437 · ROAS 1.04 · purchases 56.0
+VIDEO · prospecting · ACTIVE · spend 4,724 · ROAS 1.05 · purchases 55.0
 
 **Headline:** 2026's Favorite Shoes For Traveling
 
@@ -21,8 +21,23 @@ Travel smart. Travel comfortably.
 
 Get your pair with 40% OFF today, tap 'Shop Now'.
 
+### TOFv1_HF7 | Kyro369v2 hook2 – Copy
+VIDEO · prospecting · ACTIVE · spend 4,644 · ROAS 1.17 · purchases 51.0
+
+**Headline:** 2026's Best Shoes For Travel
+
+**Primary text:** Shoes made for long flights, traveling, and walking 50,000+ steps.
+
+✈️ All-Day Comfort: Travel comfortably without sore feet.
+🦶 Superior Arch Support: Keeps your feet energized and supported
+🌬️ Breathable & Lightweight: Stay fresh and comfortable from take-off to landing.
+
+Travel smart. Travel comfortably.
+
+Get your pair with 40% OFF today. Tap 'Show Now'.
+
 ### TOFV1_NH3 | OCTWK4_VID4_JACK_GeneralOverweightParkDay_Hook2
-VIDEO · prospecting · ACTIVE · spend 5,054 · ROAS 1.43 · purchases 70.0
+VIDEO · prospecting · ACTIVE · spend 4,373 · ROAS 1.35 · purchases 59.0
 
 **Headline:** 2026's Favorite Shoes For Disney Trips
 
@@ -45,10 +60,108 @@ What customers are saying:
 
 “My regular sneakers
 
-## New winners, launched in the last 7 days (1)
+### INT_07.03.26_General Foot Pain Page_COM55_TOFv5_AR20 - Senior - 929 Iteration 2_Iteration_Ever green_AI+ExistingFootage_Iteration_Expert - Doctor_Louella_Julieta_IT4_v1
+VIDEO · prospecting · ACTIVE · spend 3,551 · ROAS 1.4 · purchases 55.0
+
+**Headline:** 2026's Best Shoes For Foot Pain Relief
+
+**Primary text:** 👣 All-day comfort that actually lasts
+🦶 Supportive cushioning that helps reduce foot fatigue
+🚶 Designed for people who spend hours on their feet
+⭐ Rated 4.9 stars by 500,000+ customers
+🛡️ Try them risk-free for 45 days
+
+Feel the difference or send them back.
+
+“I used to deal with foot pain every evening after work. Since wearing these, my feet feel noticeably better by the end of the day.”
+~ Daniella R. (⭐⭐⭐⭐⭐)
+
+“I walk a lot during the day and most shoes leave my feet sore. These are supportive and comfortable even after hours of walking.”
+~ Karen L. (⭐⭐⭐⭐⭐)
+
+“My feet used to ache constantly, especially when standing for long periods. These made everyday movement much easier.”
+~ Patricia M. (⭐⭐⭐⭐⭐)
+
+Your feet do the work.
+Give them the comfort they deserve.
+
+Tap ‘Shop Now’ to check these
+
+### TOFV1_NJ1 | COM336
+VIDEO · prospecting · ACTIVE · spend 2,746 · ROAS 1.16 · purchases 32.0
+
+**Headline:** 2026's Favorite Shoes For Traveling
+
+**Primary text:** Shoes made for long flights, traveling, and walking 50,000+ steps.
+
+✈️ All-Day Comfort: Travel comfortably without sore feet.
+
+🦶 Superior Arch Support: Keeps your feet energized and supported
+
+🌬️ Breathable & Lightweight: Stay fresh and comfortable from take-off to landing.
+
+Travel smart. Travel comfortably.
+
+Get your pair with 40% OFF today, tap 'Shop Now'.
+
+### TOFV1_KW1 | COM284_HO1
+VIDEO · prospecting · ACTIVE · spend 2,653 · ROAS 1.99 · purchases 54.0
+
+**Headline:** 2026's Favorite Shoes For Plus-Sized Traveling
+
+**Primary text:** A Disney day can mean miles of walking, hours standing in lines, and very little time off your feet. Your regular “comfortable sneakers” might feel fine at breakfast but hour 8 can be a very different story.
+
+That's why 500,000+ customers trust ComfortWear.
+
+👣 Wide toe box gives your toes room instead of squeezing them together
+🦶 Supportive cushioning for hours of walking and standing
+☀️ Roomier, breathable fit when your feet start feeling swollen after a long day
+⭐ Rated 4.9 stars by 500,000+ customers
+🛡️ Try them risk-free for 30 days
+
+Feel the difference or send them back.
+
+What customers are saying:
+
+“I bought these for a trip where I knew we’d be walking all day. Even after hours on my feet, I was surprised by how comfortable they still felt.”
+~ Karen L. (⭐⭐⭐⭐⭐)
+
+“My regular sneakers
+
+### TOFV1_HI16 | Nurse | COM225_Kyro390 - Iteration - Spanish Version_Ortho_Everyday User_No Offer_AI_Iteration_Expert - Doctor_Jed_Julieta_H2
+VIDEO · prospecting · ACTIVE · spend 2,309 · ROAS 1.46 · purchases 35.0
+
+**Headline:** Los zapatos de enfermería favoritos de 2026
+
+**Primary text:** El 73% del personal sanitario experimenta dolor de pies. ComfortWear lo cambia todo.
+
+✅ Mejor soporte del arco para la fascia plantar
+✅ Amortiguación para los talones
+✅ Puntera ancha para pies anchos
+✅Calzado n.° 1 recomendado por podólogos
+✅ Envío y devoluciones GRATIS
+
+Compra ahora!
+
+### TOFV1_OR3 | COM406_H1
+VIDEO · prospecting · ACTIVE · spend 2,078 · ROAS 1.32 · purchases 23.0
+
+**Headline:** 2026's Favorite Shoes For Traveling
+
+**Primary text:** Shoes made for long flights, traveling, and walking 50,000+ steps.
+
+✈️ All-Day Comfort: Travel comfortably without sore feet.
+
+🦶 Superior Arch Support: Keeps your feet energized and supported
+
+🌬️ Breathable & Lightweight: Stay fresh and comfortable from take-off to landing.
+
+Travel smart. Travel comfortably.
+
+Get your pair with 40% OFF today, tap 'Shop Now'.
 
 ### TOFV1_OL2_1 | COM408_HO1 | https://comfortorthowear.com/pages/flexible-spending-hsa-fsa-account
-VIDEO · prospecting · ACTIVE · spend 256 · ROAS 3.76 · purchases 4.0
+VIDEO · prospecting · ACTIVE · spend 1,814 · ROAS 1.78 · purchases 19.0
 
 **Headline:** HSA/FSA - 30% Savings
 
@@ -62,10 +175,111 @@ The 12-hour shift shoe nurses actually want to wear on & off the floor
 ✅ #1 Recommended Shoes by Podiatrists
 ✅ FREE Shipping & Returns
 
+### TOFv1_HF2 | 807_Aubrey_New UGC_Ortho_Stretch_Shoe_Don’t Waste Spent Money_9X16 HOOK 03
+VIDEO · prospecting · ACTIVE · spend 1,695 · ROAS 1.29 · purchases 19.0
+
+**Headline:** Expert-Recommended
+
+**Primary text:** "I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.
+
+I switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.
+
+I rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages." - Emily, RN.
+
+Shop Now!
+
+### TOFV1_NL1 | COM376_HO1 | https://comfortorthowear.com/pages/the-5-best-shoes-for-disney
+VIDEO · prospecting · ACTIVE · spend 1,208 · ROAS 1.02 · purchases 11.0
+
+**Headline:** 2026's Favorite Shoes For Disney Trips
+
+**Primary text:** A Disney day can mean miles of walking, hours standing in lines, and very little time off your feet. Your regular “comfortable sneakers” might feel fine at breakfast but hour 8 can be a very different story.
+
+That's why 500,000+ customers trust ComfortWear.
+
+👣 Wide toe box gives your toes room instead of squeezing them together
+🦶 Supportive cushioning for hours of walking and standing
+☀️ Roomier, breathable fit when your feet start feeling swollen after a long day
+⭐ Rated 4.9 stars by 500,000+ customers
+🛡️ Try them risk-free for 30 days
+
+Feel the difference or send them back.
+
+What customers are saying:
+
+“I bought these for a trip where I knew we’d be walking all day. Even after hours on my feet, I was surprised by how comfortable they still felt.”
+~ Karen L. (⭐⭐⭐⭐⭐)
+
+“My regular sneakers
+
+### RTGv1_H3 | Ortho-Stretch-Cushion-Shoe-#753_2.jpg
+IMAGE · retargeting · ACTIVE · spend 1,057 · ROAS 2.65 · purchases 28.0
+
+**Headline:** 40% OFF TODAY + FREE Shipping!
+
+**Primary text:** We have the most comfortable & supportive shoes at 40% OFF + FREE shipping!
+
+👟 Fits Wide & Narrow Feet
+🦶 Relieves Plantar Fasciitis, Bunions, Neuropathy Pain
+👩‍⚕️ Podiatrist-Recommended Shoes
+⭐ 120,000 5-star reviews
+✅ Free shipping & returns
+
+Get yours now, tap 'Shop Now'!
+
+## New winners, launched in the last 7 days (2)
+
+### RTGv1_P3 | COM284_HO1
+VIDEO · retargeting · ACTIVE · spend 421 · ROAS 3.14 · purchases 12.0
+
+**Headline:** 2026's Favorite Shoes For Plus-Sized Traveling
+
+**Primary text:** A Disney day can mean miles of walking, hours standing in lines, and very little time off your feet. Your regular “comfortable sneakers” might feel fine at breakfast but hour 8 can be a very different story.
+
+That's why 500,000+ customers trust ComfortWear.
+
+👣 Wide toe box gives your toes room instead of squeezing them together
+🦶 Supportive cushioning for hours of walking and standing
+☀️ Roomier, breathable fit when your feet start feeling swollen after a long day
+⭐ Rated 4.9 stars by 500,000+ customers
+🛡️ Try them risk-free for 30 days
+
+Feel the difference or send them back.
+
+What customers are saying:
+
+“I bought these for a trip where I knew we’d be walking all day. Even after hours on my feet, I was surprised by how comfortable they still felt.”
+~ Karen L. (⭐⭐⭐⭐⭐)
+
+“My regular sneakers
+
+### TOFV1_KQ37 | Plus-Size Black Friday
+IMAGE · prospecting · ACTIVE · spend 293 · ROAS 2.08 · purchases 7.0
+
+**Headline:** 🎊 BLACK FRIDAY SALE 🎊
+
+**Primary text:** 🎊 BLACK FRIDAY SALE 🎊
+60% OFF + FREE GIFTS
+
+👟 Fits Wide & Narrow Feet
+🦶 Relieves Plantar Fasciitis, Bunions, Neuropathy Pain
+👩‍⚕️ Specialists Recommend
+⭐ 120,000 5-star reviews 
+
+Could over 500,000+ happy customers ALL be wrong? 
+
+"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. 
+
+I switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. 
+
+I rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages." - Emily, RN.
+
+Tap 'Shop now' for our biggest sale before we're sold out!
+
 ## Current winners, last 30 days (spend $300+, ROAS 1.8+) (12)
 
 ### TOFV1_KW1 | COM284_HO1
-VIDEO · prospecting · ACTIVE · spend 6,815 · ROAS 2.43 · purchases 162.0
+VIDEO · prospecting · ACTIVE · spend 7,762 · ROAS 2.26 · purchases 173.0
 
 **Headline:** 2026's Favorite Shoes For Plus-Sized Traveling
 
@@ -89,7 +303,7 @@ What customers are saying:
 “My regular sneakers
 
 ### RTGv1_B6 | 203_Iteration_UGC_OrthoStretch_H1 V1 - Copy
-VIDEO · retargeting · ACTIVE · spend 4,028 · ROAS 3.59 · purchases 135.0
+VIDEO · retargeting · ACTIVE · spend 4,137 · ROAS 3.45 · purchases 136.0
 
 **Headline:** Orthopedic Shoes | 40% OFF
 
@@ -101,36 +315,8 @@ I rotate between 2 pairs. I have one in the Black Purple and the White Blue colo
 
 Shop Now!
 
-### INT_05.28.26_Nurse Page_Kyro390v1_H5
-VIDEO · prospecting · ACTIVE · spend 5,887 · ROAS 1.84 · purchases 107.0
-
-**Headline:** Expert-Recommended
-
-**Primary text:** "I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.
-
-I switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.
-
-I rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages." - Emily, RN.
-
-Shop Now!
-
-### RTGv1_C3 | 661_Real_Static_Ortho_Stretch_Shoe_ObjectionHandling_CustomerReviews_1
-IMAGE · retargeting · ACTIVE · spend 2,101 · ROAS 4.0 · purchases 77.0
-
-**Headline:** 500,000+ Happy Customers
-
-**Primary text:** Could over 500,000+ customers ALL be wrong?
-
-👟 Designed For Regular & Wide Feet
-🦶 Relieves Plantar Fasciitis, Bunions, Neuropathy Pain
-💪 Ultra Supportive Shoes
-☁️ Cloud-Like Comfort
-🏡 Free Shipping & Returns
-
-Tap 'Show Now' to switch to shoes podiatrists recommend.
-
 ### RTGv1_H3 | Ortho-Stretch-Cushion-Shoe-#753_2.jpg
-IMAGE · retargeting · ACTIVE · spend 2,662 · ROAS 2.97 · purchases 82.0
+IMAGE · retargeting · ACTIVE · spend 3,106 · ROAS 2.82 · purchases 90.0
 
 **Headline:** 40% OFF TODAY + FREE Shipping!
 
@@ -144,8 +330,23 @@ IMAGE · retargeting · ACTIVE · spend 2,662 · ROAS 2.97 · purchases 82.0
 
 Get yours now, tap 'Shop Now'!
 
+### RTGv1_C3 | 661_Real_Static_Ortho_Stretch_Shoe_ObjectionHandling_CustomerReviews_1
+IMAGE · retargeting · ACTIVE · spend 2,180 · ROAS 3.73 · purchases 72.0
+
+**Headline:** 500,000+ Happy Customers
+
+**Primary text:** Could over 500,000+ customers ALL be wrong?
+
+👟 Designed For Regular & Wide Feet
+🦶 Relieves Plantar Fasciitis, Bunions, Neuropathy Pain
+💪 Ultra Supportive Shoes
+☁️ Cloud-Like Comfort
+🏡 Free Shipping & Returns
+
+Tap 'Show Now' to switch to shoes podiatrists recommend.
+
 ### RTGv1_B3 | Kyro_293_3_V2
-VIDEO · retargeting · ACTIVE · spend 2,394 · ROAS 2.79 · purchases 71.0
+VIDEO · retargeting · ACTIVE · spend 2,440 · ROAS 3.0 · purchases 72.0
 
 **Headline:** Podiatrist Recommended
 
@@ -158,7 +359,7 @@ I rotate between 2 pairs. I have one in the Black Purple and the White Blue colo
 Shop Now!
 
 ### RTGv1_I6 | Warning-task_Warehouse
-IMAGE · retargeting · ACTIVE · spend 1,333 · ROAS 4.28 · purchases 54.0
+IMAGE · retargeting · ACTIVE · spend 1,397 · ROAS 4.13 · purchases 56.0
 
 **Headline:** 48 HOURS LEFT - 40% OFF
 
@@ -172,42 +373,38 @@ IMAGE · retargeting · ACTIVE · spend 1,333 · ROAS 4.28 · purchases 54.0
 
 Get yours now, tap 'Shop now'.
 
-### INT_07.03.26_General Foot Pain Page_COM55_TOFv5_AR20 - Senior - 929 Iteration 2_Iteration_Ever green_AI+ExistingFootage_Iteration_Expert - Doctor_Louella_Julieta_IT4_v1
-VIDEO · prospecting · ACTIVE · spend 2,246 · ROAS 2.13 · purchases 53.0
-
-**Headline:** 2026's Best Shoes For Foot Pain Relief
-
-**Primary text:** 👣 All-day comfort that actually lasts
-🦶 Supportive cushioning that helps reduce foot fatigue
-🚶 Designed for people who spend hours on their feet
-⭐ Rated 4.9 stars by 500,000+ customers
-🛡️ Try them risk-free for 45 days
-
-Feel the difference or send them back.
-
-“I used to deal with foot pain every evening after work. Since wearing these, my feet feel noticeably better by the end of the day.”
-~ Daniella R. (⭐⭐⭐⭐⭐)
-
-“I walk a lot during the day and most shoes leave my feet sore. These are supportive and comfortable even after hours of walking.”
-~ Karen L. (⭐⭐⭐⭐⭐)
-
-“My feet used to ache constantly, especially when standing for long periods. These made everyday movement much easier.”
-~ Patricia M. (⭐⭐⭐⭐⭐)
-
-Your feet do the work.
-Give them the comfort they deserve.
-
-Tap ‘Shop Now’ to check these
-
 ### RTGv1_O1 | Ortho Stretch
-IMAGE · retargeting · ADSET_PAUSED · spend 1,490 · ROAS 3.04 · purchases 47.0
+IMAGE · retargeting · ADSET_PAUSED · spend 1,498 · ROAS 2.89 · purchases 45.0
 
 **Headline:** {{product.name}}
 
 **Primary text:** 🎊 40% OFF Sitewide. Shop Now! 🎊
 
+### RTGv1_R7 | General Black Friday | COM325
+VIDEO · retargeting · ACTIVE · spend 599 · ROAS 4.42 · purchases 21.0
+
+**Headline:** 🎊 BLACK FRIDAY SALE 🎊
+
+**Primary text:** 🎊 BLACK FRIDAY SALE 🎊
+60% OFF + FREE GIFTS
+
+👟 Fits Wide & Narrow Feet
+🦶 Relieves Plantar Fasciitis, Bunions, Neuropathy Pain
+👩‍⚕️ Specialists Recommend
+⭐ 120,000 5-star reviews 
+
+Could over 500,000+ happy customers ALL be wrong? 
+
+"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. 
+
+I switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. 
+
+I rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages." - Emily, RN.
+
+Tap 'Shop now' for our biggest sale before we're sold out!
+
 ### RTGv1_C1 |  528__Static_Ortho_Stretch_Shoe_ObjectionHandling_1_1.jpg
-IMAGE · retargeting · ACTIVE · spend 636 · ROAS 4.79 · purchases 29.0
+IMAGE · retargeting · ACTIVE · spend 523 · ROAS 4.69 · purchases 23.0
 
 **Headline:** Trusted By Nurses
 
@@ -220,7 +417,7 @@ I rotate between 2 pairs. I have one in the Black Purple and the White Blue colo
 Shop Now!
 
 ### RTGv1_B5 | Kyro_296_2_V3 - Copy updated
-VIDEO · retargeting · ACTIVE · spend 481 · ROAS 4.68 · purchases 18.0
+VIDEO · retargeting · ACTIVE · spend 409 · ROAS 5.61 · purchases 17.0
 
 **Headline:** Orthopedic Shoes | 40% OFF
 
@@ -233,7 +430,7 @@ I rotate between 2 pairs. I have one in the Black Purple and the White Blue colo
 Shop Now!
 
 ### RTGv1_I19 | SellingOut4Days
-IMAGE · retargeting · ACTIVE · spend 589 · ROAS 1.89 · purchases 13.0
+IMAGE · retargeting · ACTIVE · spend 640 · ROAS 2.46 · purchases 17.0
 
 **Headline:** SELLING OUT - 4 DAYS LEFT!
 
@@ -247,34 +444,78 @@ IMAGE · retargeting · ACTIVE · spend 589 · ROAS 1.89 · purchases 13.0
 
 Get yours now, tap 'Shop now'.
 
-## Rising: launched in the last 30 days and already winning (1)
+### RTGv1_P3 | COM284_HO1
+VIDEO · retargeting · ACTIVE · spend 421 · ROAS 3.14 · purchases 12.0
 
-### INT_07.03.26_General Foot Pain Page_COM55_TOFv5_AR20 - Senior - 929 Iteration 2_Iteration_Ever green_AI+ExistingFootage_Iteration_Expert - Doctor_Louella_Julieta_IT4_v1
-VIDEO · prospecting · ACTIVE · spend 2,246 · ROAS 2.13 · purchases 53.0
+**Headline:** 2026's Favorite Shoes For Plus-Sized Traveling
 
-**Headline:** 2026's Best Shoes For Foot Pain Relief
+**Primary text:** A Disney day can mean miles of walking, hours standing in lines, and very little time off your feet. Your regular “comfortable sneakers” might feel fine at breakfast but hour 8 can be a very different story.
 
-**Primary text:** 👣 All-day comfort that actually lasts
-🦶 Supportive cushioning that helps reduce foot fatigue
-🚶 Designed for people who spend hours on their feet
+That's why 500,000+ customers trust ComfortWear.
+
+👣 Wide toe box gives your toes room instead of squeezing them together
+🦶 Supportive cushioning for hours of walking and standing
+☀️ Roomier, breathable fit when your feet start feeling swollen after a long day
 ⭐ Rated 4.9 stars by 500,000+ customers
-🛡️ Try them risk-free for 45 days
+🛡️ Try them risk-free for 30 days
 
 Feel the difference or send them back.
 
-“I used to deal with foot pain every evening after work. Since wearing these, my feet feel noticeably better by the end of the day.”
-~ Daniella R. (⭐⭐⭐⭐⭐)
+What customers are saying:
 
-“I walk a lot during the day and most shoes leave my feet sore. These are supportive and comfortable even after hours of walking.”
+“I bought these for a trip where I knew we’d be walking all day. Even after hours on my feet, I was surprised by how comfortable they still felt.”
 ~ Karen L. (⭐⭐⭐⭐⭐)
 
-“My feet used to ache constantly, especially when standing for long periods. These made everyday movement much easier.”
-~ Patricia M. (⭐⭐⭐⭐⭐)
+“My regular sneakers
 
-Your feet do the work.
-Give them the comfort they deserve.
+## Rising: launched in the last 30 days and already winning (2)
 
-Tap ‘Shop Now’ to check these
+### RTGv1_R7 | General Black Friday | COM325
+VIDEO · retargeting · ACTIVE · spend 599 · ROAS 4.42 · purchases 21.0
+
+**Headline:** 🎊 BLACK FRIDAY SALE 🎊
+
+**Primary text:** 🎊 BLACK FRIDAY SALE 🎊
+60% OFF + FREE GIFTS
+
+👟 Fits Wide & Narrow Feet
+🦶 Relieves Plantar Fasciitis, Bunions, Neuropathy Pain
+👩‍⚕️ Specialists Recommend
+⭐ 120,000 5-star reviews 
+
+Could over 500,000+ happy customers ALL be wrong? 
+
+"I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row. 
+
+I switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain. 
+
+I rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages." - Emily, RN.
+
+Tap 'Shop now' for our biggest sale before we're sold out!
+
+### RTGv1_P3 | COM284_HO1
+VIDEO · retargeting · ACTIVE · spend 421 · ROAS 3.14 · purchases 12.0
+
+**Headline:** 2026's Favorite Shoes For Plus-Sized Traveling
+
+**Primary text:** A Disney day can mean miles of walking, hours standing in lines, and very little time off your feet. Your regular “comfortable sneakers” might feel fine at breakfast but hour 8 can be a very different story.
+
+That's why 500,000+ customers trust ComfortWear.
+
+👣 Wide toe box gives your toes room instead of squeezing them together
+🦶 Supportive cushioning for hours of walking and standing
+☀️ Roomier, breathable fit when your feet start feeling swollen after a long day
+⭐ Rated 4.9 stars by 500,000+ customers
+🛡️ Try them risk-free for 30 days
+
+Feel the difference or send them back.
+
+What customers are saying:
+
+“I bought these for a trip where I knew we’d be walking all day. Even after hours on my feet, I was surprised by how comfortable they still felt.”
+~ Karen L. (⭐⭐⭐⭐⭐)
+
+“My regular sneakers
 
 ## Lifetime winning statics ($5k+ spend since 2024, unique copy, top 18)
 
@@ -935,6 +1176,20 @@ Shop Now!
 (target week 2026-W48)
 ### @NF - kyro 188v3ss2 - emoji copy - 10 Reasons Healthcare Workers - Copy
 IMAGE · DISAPPROVED · spend 5,529 · ROAS 0.05 · purchases 3.0
+
+(target week 2026-W49)
+### RTGv1_B3 | Kyro_293_3_V2
+VIDEO · ACTIVE · spend 5,343 · ROAS 0.03 · purchases 2.0
+
+**Headline:** Podiatrist Recommended
+
+**Primary text:** "I'm a nurse with plantar fasciitis. I've worn popular shoes which always ended up hurting my feet after 3 12s in a row.
+
+I switched to ComfortWear 2 years ago, and they are by far the most comfortable. I have worn them up to 4 12s in a row at the ER with zero pain.
+
+I rotate between 2 pairs. I have one in the Black Purple and the White Blue color. They're also slip-resistant which is a necessity for us. Love them and so affordable if you're living on nurse wages." - Emily, RN.
+
+Shop Now!
 
 ## Statics that failed (paused at under $200 spend)
 

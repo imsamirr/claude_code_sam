@@ -122,3 +122,23 @@ Longest-running active videos are already transcribed (11-17 section): Stepprs 4
 6. Stepprs "MORNING HEEL PAIN WILL BE GONE. $42 → $11" (10d) → giant strike-through price $120 → $59.95 with morning-steps scene (no "gone" claim).
 7. Stepprs "Tired of being the one who turns back early?" walking-loss series (1-2d) → walking-again persona, doctor-recommended comfort, 30-day guarantee.
 8. Hike "14 Days To Relieve Swollen Ankles" / "Built to carry extra weight" (3d / 49d) → stretch-knit upper that gives where feet swell by evening (wording only, no relief claim), HSA/FSA eligible.
+
+## 2026-11-24 (Tuesday run: 231 ads; Hike 95 / Stepprs 136; 69 new since 11-20 (Hike 19 statics + 5 videos, Stepprs 5 statics + 40 videos); 70 active statics (Hike 30, Stepprs 40), contact sheet of the new statics `sheets/rivals_new_statics_1124_1.jpg`)
+
+### What changed since 2026-11-20
+- **Hike Footwear** went all-in on Black Friday BOGO + heavier women + winter falls (all 0-5 days old): "Pick Any Color. Limited Stock" / "BUY 1, GET 1 FREE – 2nd Pair on Us!" (black gift box "Unlock my deal", black box lid "Full price ~~ BLACK FRIDAY DEAL BUY 1 GET 1 FREE (ends in 15 hours)"), **"Designed For Heavier Women"** (pink pair + 5 outlined check pills), **"Finally, shoes for heavier women"** (4 colorways on a shelf, "Extra-Wide Fit / Room for Swollen Feet"), **"72 hour sale: More weight shouldn't mean more wobble. 40% OFF"**, "You're ready to walk more. Don't let sore feet stop you. HF Flow: walking shoes made for plus-size women", **adult-child winter worry**: "Worried about mom slipping this winter? Get her these." (winter boot, callouts) and "Your mom will never trip & fall wearing these boots" ($120 → $99), "Best Boots For Adults 60+" / "The Winter Boot Built for Balance" long copy (fall statistics), "THE SHOE THAT RESTORED BALANCE FOR 2M+ PEOPLE / Never returning at this price", "5.5 Million Pairs Can't All Be Wrong", "Ends at midnight / lowest price we'll offer all year", an email-style "A quick apology from Hike Footwear" (grounding ROOTSIE launch), and "Trick-or-treat with your grandkids this year" (still running).
+- **Stepprs**: 40 new "Walk on Clouds - Or It's FREE." videos/statics for Black Friday ("Black Friday is here... up to 75%... Stock is limited!"; testimonial "I do 12 hour shifts 4 days on 4 days off"); new static **"STAND ALL DAY WITHOUT FOOT PAIN"** with three insoles labelled HOUR ONE ("absorbs every plantar impact") / HOUR SIX ("arch holds, feet don't burn") / HOUR TWELVE ("still standing, zero heel ache") and "60% OFF. ENDS TODAY". Galaxy-brain meme now growth rank 3/5 on the wellness list.
+- Videos: their longest-running active videos are already transcribed (11-17); no new Atria transcript calls.
+
+### Hooks, offers, proof, claims (current)
+- Hooks: heavier-women identity ("Finally, shoes for heavier women"), adult child worried about mom in winter, hour-by-hour shift stack (Stepprs), "can't all be wrong" counts, BOGO urgency.
+- Offers: Hike BOGO + up to 50% off "ends midnight"; Stepprs up to 75% + "Walk on Clouds or it's FREE", 60% off "ends today".
+- Proof: 2M+ / 2.4M+ / 5.5M pairs, Google rating 4.8, named testimonials with age/job.
+- Claims we do NOT copy: restores balance, prevents falls/slips, swelling relief, "extra-wide fit", zero heel ache, fall statistics, BOGO, 75% off, scarcity.
+
+### Their strongest current angles we answer this run (our approved claims only)
+1. Stepprs "STAND ALL DAY - hour one / six / twelve" + "finish 12 hour shifts" (424d) -> T48_05 (giant "12-hour shift" type, the arch that holds at hour 12, 60% off sitewide).
+2. Hike "Finally, shoes for heavier women" / "More weight shouldn't mean more wobble" -> T48_10 (plus-size holiday road trip, our KQ37 winner) and T48_01/T48_02 (KW1 plus-size park day).
+3. Hike "Grab one for your mom... perfect early holiday gift" -> T48_09 (mom's wishlist, $120 → $59.95).
+4. Stepprs "Walk on Clouds - Or It's FREE." -> T48_15 (honest "why 30 days" note + 30-day money-back guarantee).
+5. Hike "Worried about mom slipping this winter?" -> T48_17 angle gap (slip-resistant grip only, no fall claims).

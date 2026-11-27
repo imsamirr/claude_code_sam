@@ -2,6 +2,69 @@
 
 Every concept from weeks/*/concepts.json, newest first: headline, angle, source and the user's verdict where logged. Don't reuse these headlines; learn from the rejection reasons.
 
+## 2026-W48-tue (20)
+
+- T48_01_we_asked_500_number_ripple · plus_size · 'HOUR 4 vs. ALL DAY' · angle: Plus-size park day: the number contrast from the 500-women survey (heels by hour 4 vs the whole day). Angle: plus-size park day. Mechanism link: more body weight crushes soft sneaker foam faster, so by hour 4 the arch is gone; our arch holds. Core emotion: 'I'm not the one slowing everyone down.' · copy: stefanbrain
+- T48_02_fair_isle_friends_park · plus_size · 'Hour 9. Neither scouted a bench.' · angle: Plus-size friends' holiday trip: two friends who finally keep up together. Mechanism link: their old foam sneakers flattened under more weight by hour 4; the arch that holds lets them stay out. Core emotion: belonging / not slowing the group. · copy: stefanbrain
+- T48_03_daughter_quote_serif_sky · nurse · '"My daughter works 12s in the ER. She finally stopped limping home."' · angle: Nurse PF through a family member's words: 'my daughter works 12s on hospital floors and says these are...'. Mechanism link: running-shoe foam collapses by hour 8 on concrete; arch holds. Core emotion: pride/relief of someone who watched her limp. · copy: stefanbrain
+- T48_04_closet_graveyard_comment_selfie · nurse · '"Spent $500 on shoes that flattened in weeks. These actually survive my 12s."' · angle: Nurse money-wasted: the closet of $150-180 shoes that died in 2 months. Mechanism link: foam arch support collapses halfway through the shift; ours holds. Core emotion: frustration at wasted money -> relief. · copy: stefanbrain
+- T48_05_giant_12_hour_type_shoe_through · nurse · '12-HOUR SHIFT' · angle: Nurse 12-hour shift, offer: giant '12-HOUR SHIFT' type with the shoe breaking through. Answers Stepprs' hour 1/6/12 insole ad with the shoe whose arch holds at hour 12. Mechanism link: foam collapses by hour 8, our arch holds. Core emotion: finishing the shift standing tall. · copy: stefanbrain
+- T48_06_podiatrist_serif_hsa_chip · nurse · 'Podiatrist-Recommended For Your 12s. Before Your FSA Balance Disappears.' · angle: Nurse PF + HSA/FSA year-end: podiatrist-recommended shoe you can buy with pre-tax dollars before they expire. Mechanism link: arch support that holds is what a podiatrist looks for; foam gives out. Core emotion: smart, guilt-free spend. · copy: stefanbrain
+- T48_07_500k_count_band_gold_offer · active_retiree · 'Why 500,000+ Customers Switched' · angle: Social proof + holiday offer: 500,000+ women already wear them. Mechanism link: they switched because foam sneakers went flat; arch holds. Core emotion: safety in numbers (can't all be wrong). · copy: stefanbrain
+- T48_08_ornate_holiday_label_warehouse · retail_warehouse · '60% OFF SITEWIDE' · angle: Warehouse/retail worker on concrete, offer: the concrete-floor worker's holiday deal. Mechanism link: concrete + soft foam = arch gone by lunch; our arch holds. Core emotion: finally something for her (not the customers). · copy: stefanbrain
+- T48_09_dear_santa_wishlist_strike · gift_for_her · "Mom's Christmas Kitchen Wishlist" · angle: Gift for mom: Mom's wishlist note with the struck price. Mechanism link: she's been on her feet in soft sneakers that go flat; the gift is support that holds. Core emotion: being thought of / practical love. · copy: stefanbrain
+- T48_10_car_seat_road_trip_plus · plus_size · 'Made For Plus-Size Feet. Support That Holds.' · angle: Plus-size holiday road trip to the grandkids: the drive, then 3 days on her feet. Answers Hike's new heavier-women ads with our plus-size winner. Mechanism link: more weight flattens soft foam faster; arch holds. Core emotion: showing up for family without paying for it in pain. · copy: stefanbrain
+- T48_11_airdrop_cobblestones · traveler · 'Day 3 on cobblestones?' · angle: Europe trip: an AirDrop from a fellow traveler on day 3 of cobblestones. Mechanism link: cobblestones + soft sneaker foam = arch gone by noon; arch holds, rocker rolls. Core emotion: playful insider tip / curiosity. · copy: stefanbrain
+- T48_12_goodbye_hello_server_bunions · restaurant · 'Hello room.' · angle: Server/line cook: one dominant pain = bunions crushed by hour 6 of a double. Mechanism link: narrow toe boxes clamp as feet swell; stretch-knit wide toe box gives room (no 'extra wide' promise). Core emotion: relief + attitude. · copy: stefanbrain
+- T48_13_framed_card_arrows_concrete · housekeeping · 'Room 16 cart pusher cheat' · angle: Hotel housekeeper PF: the mechanism explained in handwritten arrows (arch that holds, rocker sole, knit room, grip). Mechanism link: this IS the mechanism. Core emotion: 'finally someone gets my job'. · copy: stefanbrain
+- T48_14_italic_trio_double_shift · cna_caregiver · 'Working back-to-back doubles? Rotate pairs.' · angle: CNA/home health aide double shifts: the rotation (a pair per shift). Mechanism link: cheap foam is dead by the second shift; our arch holds its shape all shift, and a second pair means one is always clean and dry. Core emotion: being prepared / in control. · copy: stefanbrain
+- T48_15_notes_card_why_30_days · steady_feet · 'Why 30 days?' · angle: Honest expectation: why 30 days (the rocker sole and arch take a few days to feel normal). Answers Stepprs' 'Walk on clouds or it's free' with our 30-day money-back guarantee + honesty. Mechanism link: firm arch support feels different from soft foam at first because it holds. Core emotion: trust. · copy: stefanbrain
+- T48_16_holiday_party_candid_drama · comfort_only · 'By dessert, my sister-in-law asked for a chair. I was still standing.' · angle: Drama format (women 45+ over-index on drama ads): the holiday party where she stood all night while her sister-in-law asked for a chair. Mechanism link: her old flats/foam had no arch; ours holds all evening. Core emotion: quiet triumph. · copy: stefanbrain
+- T48_17_ornament_mom_winter_walks · gift_for_her · "For Mom's winter walks. *Arch support* and real grip." · angle: Adult child gifting mom for winter walks. Mechanism link: worn flat sneakers lose their arch and grip; ours keeps both. Core emotion: protective love. · copy: stefanbrain
+- T48_18_staggered_soft_firm_four · stylist · 'Soft knit. Firm arch.' · angle: Hair stylist (behind the chair 9 hours): the mechanism in 4 words: soft where you want it, firm where it counts. Mechanism link: this IS the mechanism (knit soft, arch firm). Core emotion: 'finally both'. · copy: stefanbrain
+- T48_19_analogy_knit_walkers · walker_weightloss · 'A yoga mat on asphalt.' · angle: Daily walker trying to walk off holiday weight: an analogy headline for how the shoe feels (comfort) + one benefit (arch that holds on the long loop). Mechanism link: soft walking shoes flatten on the long loop; ours holds. Core emotion: delight / indulgence without guilt. · copy: stefanbrain
+- T48_20_thumb_test_card_disney · traveler · 'The thumb test: 4 sneakers after 20,000 steps.' · angle: Grandma at Disney: the thumb test of 4 sneakers after a park day (foam that stays pressed in vs our arch that springs back). Mechanism link: the proof chain 'thumb into flattened foam vs ours'. Core emotion: 'I knew it' (vindication). · copy: stefanbrain
+
+## 2026-W48-native-bf (8)
+
+- NB_FB_NUR · nurse · 'The ComfortWear Black Friday sale is live: 60% OFF sitewide!' · angle: Nurse x Black Friday native share · copy: stefanbrain
+- NB_FB_TRV · traveler · 'The ComfortWear Black Friday sale is live: 60% OFF sitewide!' · angle: Travel x Black Friday native share · copy: stefanbrain
+- NB_CHAT_NUR · nurse · 'Our shift shoe is 60% off' · angle: Nurse x Black Friday native share · copy: stefanbrain
+- NB_CHAT_TRV · traveler · 'Our travel shoes are 60% off' · angle: Travel x Black Friday native share · copy: stefanbrain
+- NB_STORY_NUR · nurse · 'ComfortWear Black Friday sale started!' · angle: Nurse x Black Friday native share · copy: stefanbrain
+- NB_STORY_TRV · traveler · 'ComfortWear Black Friday sale started!' · angle: Travel x Black Friday native share · copy: stefanbrain
+- NB_BLOG_NUR · nurse · 'The 12-Hour Shift Shoe Nurses Swear By Is 60% Off For Black Friday' · angle: Nurse x Black Friday native share · copy: stefanbrain
+- NB_BLOG_TRV · traveler · 'The Walking Tour Sneaker Travelers Swear By Is 60% Off For Black Friday' · angle: Travel x Black Friday native share · copy: stefanbrain
+
+## 2026-W48-holiday-formats (26)
+
+- HS_D01 · nurse · 'HOLIDAY SALE' · angle: nurse x Holiday Sale · copy: stefanbrain
+- HS_D02 · traveler · '60% OFF SITEWIDE' · angle: traveler x Holiday Sale · copy: stefanbrain
+- HS_D03 · plus_size · 'Tired Of Flat Foam?' · angle: plus_size x Holiday Sale · copy: stefanbrain
+- HS_D04 · gift_for_her · 'HOLIDAY SALE' · angle: gift_for_her x Holiday Sale · copy: stefanbrain
+- HS_D05 · nurse · 'Holiday Sale: 60% Off Our 12-Hour Shift Shoe' · angle: nurse x Holiday Sale · copy: stefanbrain
+- HS_D06 · traveler · 'Inside your holiday box:' · angle: traveler x Holiday Sale · copy: stefanbrain
+- HS_D07 · gift_for_her · 'The shoes Mom will actually walk in' · angle: gift_for_her x Holiday Sale · copy: stefanbrain
+- HS_D08 · plus_size · 'Holiday Savings Stack' · angle: plus_size x Holiday Sale · copy: stefanbrain
+- HS_D09 · active_retiree · '60% OFF SITEWIDE' · angle: active_retiree x Holiday Sale · copy: stefanbrain
+- HS_D10 · traveler · 'Walk 20,000 Steps / On Hard Cobblestones' · angle: traveler x Holiday Sale · copy: stefanbrain
+- HS_D11 · nurse · 'Survive Your 12-Hour Shift' · angle: nurse x Holiday Sale · copy: stefanbrain
+- HS_D12 · nurse · 'Running Shoes vs. Ortho Stretch' · angle: nurse x Holiday Sale · copy: stefanbrain
+- HS_D13 · traveler · 'Holiday Sale: 60% Off Sitewide' · angle: traveler x Holiday Sale · copy: stefanbrain
+- HS_D14 · plus_size · 'Holiday Sale' · angle: plus_size x Holiday Sale · copy: stefanbrain
+- HS_D15 · active_retiree · "First time my feet haven't hurt in years after standing all day long!" · angle: active_retiree x Holiday Sale · copy: stefanbrain
+- HS_D16 · nurse · 'URGENT!! 60% OFF SITEWIDE' · angle: nurse x Holiday Sale · copy: stefanbrain
+- HS_D17 · active_retiree · 'Our designer is on holiday, so we drew this.' · angle: active_retiree x Holiday Sale · copy: stefanbrain
+- HS_D18 · active_retiree · "First steps shouldn't feel like tacks" · angle: active_retiree x Holiday Sale · copy: stefanbrain
+- HS_D19 · nurse · 'To the nurse limping after a 12:' · angle: nurse x Holiday Sale · copy: stefanbrain
+- HS_X01 · nurse · 'why do my feet hurt after standing' · angle: nurse x Holiday Sale · copy: stefanbrain
+- HS_X02 · traveler · 'Looks like sneakers. Feels like clouds.' · angle: traveler x Holiday Sale · copy: stefanbrain
+- HS_X03 · plus_size · 'How many pairs went flat this year?' · angle: plus_size x Holiday Sale · copy: stefanbrain
+- HS_X04 · traveler · 'Europe walking trip checklist:' · angle: traveler x Holiday Sale · copy: stefanbrain
+- HS_X05 · nurse · 'Shift shoe math for the unit:' · angle: nurse x Holiday Sale · copy: stefanbrain
+- HS_X06 · gift_for_her · "Mom's Gift 🎁" · angle: gift_for_her x Holiday Sale · copy: stefanbrain
+- HS_X07 · active_retiree · 'TIRED OF MORNING HEEL PAIN?' · angle: active_retiree x Holiday Sale · copy: stefanbrain
+
 ## 2026-W48-fri (40)
 
 - W48_01_vanity_sticky_shift_tonight · nurse · 'Shift 3 tonight. No more limping.' · angle: Nurse PF: tomorrow's 12 starts tonight (sticky note on the mirror counts the shifts) · copy: stefanbrain
