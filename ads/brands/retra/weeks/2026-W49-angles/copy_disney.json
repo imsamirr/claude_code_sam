@@ -1,0 +1,117 @@
+{
+ "source": "StefanBrain v2 (D4 endorsement fix), chat chat_e2881d64bb4e43c687b42831eb31dff3",
+ "concepts": [
+  {
+   "id": "D1",
+   "angle": "Magic Kingdom presence during fireworks",
+   "persona": "Parents on Disney family vacations",
+   "funnel": "TOF",
+   "format": "Annotated night photo: handwritten notes + arrows (phones vs family) over castle fireworks",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "Actually watch the fireworks over Cinderella Castle."
+    },
+    {
+     "name": "note_phones",
+     "text": "Watching through a screen"
+    },
+    {
+     "name": "note_family",
+     "text": "Actually watching together"
+    },
+    {
+     "name": "bottom_line",
+     "text": "Take up to 500 candid memories on Retra without screen distraction."
+    }
+   ],
+   "primary_text": "At Magic Kingdom, the fireworks show begins and suddenly hundreds of glowing phones block the view of Cinderella Castle. Instead of watching the spectacle through six inches of glass, Retra sits on your wrist to capture candid memories in a single click. Up to 500 photos per charge, rechargeable, and zero screens to pull you away from your kids. Transfer via USB-C. Now $99 for Black Friday.",
+   "meta_headline": "Watch the fireworks, not your screen"
+  },
+  {
+   "id": "D2",
+   "angle": "Disney park day unposed photo diary",
+   "persona": "Disney park visitors / Family memory-keepers",
+   "funnel": "TOF",
+   "format": "Snapshot board: four tilted prints from one park day with handwritten captions",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "One day at Magic Kingdom, completely screen-free."
+    },
+    {
+     "name": "caption_1",
+     "text": "Rope drop on Main Street"
+    },
+    {
+     "name": "caption_2",
+     "text": "Midday cinnamon sugar churro"
+    },
+    {
+     "name": "caption_3",
+     "text": "Best seat in the park"
+    },
+    {
+     "name": "caption_4",
+     "text": "Night fireworks over castle"
+    },
+    {
+     "name": "sub",
+     "text": "Four built-in film looks. Up to 500 photos per charge without phone distractions."
+    }
+   ],
+   "primary_text": "A full day at Disney moves fast: from rope drop on Main Street to night fireworks over Cinderella Castle. You do not want to spend the entire trip checking screen angles or deleting bad takes. Retra gives you candid, textured memories in four built-in film-look filters. No screen, no apps, and no Wi-Fi. Up to 500 photos per charge on the included card. Plug in via USB-C when you get home. Now $99.",
+   "meta_headline": "Capture Magic Kingdom screen-free"
+  },
+  {
+   "id": "D3",
+   "angle": "Future nostalgia / Family presence",
+   "persona": "Parents planning memorable family milestones",
+   "funnel": "TOF",
+   "format": "Postcard to future you: photo front + handwritten back with camera stamp",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "A postcard from your Disney trip:"
+    },
+    {
+     "name": "message",
+     "text": "We stood in front of Cinderella Castle and promised not to look at our phones all day. We laughed, we got sticky churro fingers, and we actually looked each other in the eyes. Best trip ever."
+    },
+    {
+     "name": "to_line",
+     "text": "To our future selves"
+    },
+    {
+     "name": "signoff",
+     "text": "The Family Trip"
+    }
+   ],
+   "primary_text": "Years from now, nobody remembers the emails you checked in line at Magic Kingdom. They remember walking past Cinderella Castle holding hands and looking up together. Retra is a screen-free camera built for pure presence. It holds up to 500 photos per charge on the included memory card, with four built-in film filters. Connect via USB-C when you get home. Now $99 during our Black Friday sale.",
+   "meta_headline": "Memories your future family will cherish"
+  },
+  {
+   "id": "D4",
+   "angle": "Disney family travel gear",
+   "persona": "Family vacationers / Gift buyers",
+   "funnel": "MOF",
+   "format": "Main Street hero photo over white band with six colour swatches and CTA",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "Capture your Magic Kingdom memories without screens."
+    },
+    {
+     "name": "sub",
+     "text": "Up to 500 photos per charge. Choose from six classic colours. Save 40% today."
+    },
+    {
+     "name": "cta",
+     "text": "Get Yours for $99"
+    }
+   ],
+   "primary_text": "Planning a Disney trip? Retra helps families stay present together walking down Main Street. Point, click, and drop it back into your bag. Up to 500 photos on a charge, four built-in film filters, and direct USB-C export to your computer. Available in six colours: Chalk, Obsidian, Sol, Dune, Pine, and Blossom. On sale for $99 (compare at $165). Buy 2, Get 1 Free.",
+   "meta_headline": "Capture Disney trips screen-free"
+  }
+ ]
+}

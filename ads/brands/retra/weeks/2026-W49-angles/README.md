@@ -52,3 +52,11 @@ in `pain.py`: p68_t2, p70_t2, p77_t2, others t1); layouts: `pain.py`. Sheet: `ou
 photos locked on someone else's phone · 71 detox: one photo turns into 40 minutes · 72 solo travel: $1,500 phone held up
 in a pickpocket crowd · 73 sensory: buzz/glow/ping · 74 wireless: pair/update/sign-in popups · 75 parents: kid wants a
 phone · 76 honeymoon: flew across the world to stare at phones · 77 one-click: hours tweaking presets (BOF, 40% off).
+
+## Magic Kingdom (ids D1-D4, 2026-11-27)
+Sam asked for 4 Disney-trip concepts outside the inspiration picks, with Magic Kingdom in the background, on being in the
+moment. Sam chose to show the real Cinderella Castle and name Disney / Magic Kingdom (accepting the IP and Meta-review
+risk); still no characters and nothing implying Disney endorses Retra. Formats: D1 annotated fireworks photo, D2 snapshot
+board (ILLUSTRATIVE prints), D3 postcard to future you, D4 Main Street hero + colour swatches. Copy: `copy_disney.json`
+(StefanBrain v2; `copy_disney_v1.json` first draft). Scenes: `disney_render.py` (patches render.REAL to allow the castle);
+layouts: `disney.py`. Sheet: `output/_sheet_disney_4x5.jpg`.
