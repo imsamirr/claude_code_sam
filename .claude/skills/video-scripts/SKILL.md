@@ -17,7 +17,7 @@ The copy rule in CLAUDE.md applies: StefanBrain writes every spoken line, SUPER 
 
 ## Steps
 
-1. **Read the brief.** Fetch the Notion page (and its properties). Most briefs are a concept title only. Look at 1–2 sibling briefs on the same board with the same angle for the team's format and current offer.
+1. **Read the brief.** Fetch the Notion page with `include_discussions: true`. The owner attaches the **reference ad in a page comment** ("Reference: https://app.tryatria.com/ad/m…"), and a plain fetch shows the page as blank. If there's a reference, get its transcript (`inspo_ad_transcript_get`, free) and video URL (`inspo_ad_get`), and have StefanBrain model that ad's structure, beats and pacing closely, in our own words, with none of its claims. References are often competitor (Zima) ads. The concept title is the angle. If there's no reference, the brief is the concept title alone. Look at 1–2 sibling briefs on the same board with the same angle for the team's format and current offer.
 2. **Fill the facts StefanBrain can't see:**
    - appliance/persona
    - execution style (default "AI + Existing Footage" unless the brief or user says otherwise)
