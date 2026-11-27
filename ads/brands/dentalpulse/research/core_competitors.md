@@ -185,3 +185,23 @@ Guardrails kept: no logos or names on images, compare features/offers only, no c
 | Zima "Cloudy retainer = plaque biofilm" / "Plaque Friday" | the film shown side by side + 99.9% in 5 minutes | T48_19 |
 | Zima "EXCLUSIVE BLACK FRIDAY SALE / Don't miss out" | flat 40% + gifts + filmy vs clear retainer, no invented deadline | T48_20 |
 Guardrails kept: no logos or names on images, compare features/offers only, no counts or invented scores; we never say their products fail.
+
+## 2026-11-27 (Friday W49 read: 153 ads; Zima 100, Sonic 53)
+**Since Nov 24:** 31 new ads (Zima 27, Sonic 4). Sheets: `sheets/core_competitors_2026-11-27_1-2.jpg` (both read) plus a numbered grid of all 49 Zima statics; full copy of every new/active ad read from `data/core_competitors_2026-11-27.csv` and `data/new_since_last_core_competitors.csv`.
+- **Zima: first DENTURE static.** "The best way to keep Dad's dentures clean. / Deep clean with the Dental Pod" (0d, dark navy gradient, pill "Ultrasonic Cleaning by Zima"): the first time Zima aims a static at dentures (gift-for-Dad framing). Also new: "FREE GIFT when you buy a Dental Pod Pro / SAVE £45" black tile with a blue orbit ring (1d), "$75 value, on us" (0d, up from $60; pod + boosting-tablet box + free delivery), "DENTAL POD PRO + FREE GIFT / SAVE OVER $80" blue podium with callouts ("Removes cloudy buildup", "Breaks down plaque and biofilm") (0d), "Yes, the Dental Pod is now portable" product-pattern grids (0-4d, Pod Go), "Yes, the Dental Pod is on Sale" blue pattern (1d), and VS sketch tiles "Zima Dental Pod vs Cloudy Retainers / vs Brushing your retainer" (horse drawing vs bad horse drawing, 0-1d). Copy: "Double award-winner. 5* reviews. FSA/HSA eligible.", "90 FREE cleaning tablets", "paired with boosting tablets", "This is the one retainer cleaning product worth your money as a dentist", "Only Sale of the Year", "Don't miss out! Sale ends soon", French BF ("Ne manquez pas cette offre"). Still: "Restore your retainer to new" (37d), clean-girl starter pack (50d), "Never Brush Your Retainer, Aligner or Guard Again" (72d).
+- **Sonic:** unchanged machine: "Up to 30% / 35% Off" (162-163d, top 0.3%), "🖤 Black Friday: Up to 40% Off" (26d + new 0d variant), "Ultrasonic Cleaning. Anywhere." Odyssey cordless (0d). Pod still held in a palm; no customer language, proof or dirty appliance.
+- **What changed:** Zima stepped onto our turf (dentures, "Dad") and now claims HSA/FSA eligibility and "double award-winner"; gifts escalated ($60 -> $75 value, free gift tiles); tablets remain inside its bundles. Sonic added nothing new beyond the cordless Odyssey.
+### Answers written this run (rival field on 10 of 40 = 25%)
+| Their angle | Our answer (approved claims only) | Concept |
+|---|---|---|
+| Zima "90 FREE cleaning tablets" / boosting tablets | tablet boxes in the bin: tap water only, nothing to rebuy | W49_05 |
+| Zima tablets in every bundle | "before you buy another box": tap water only + 40% + gifts | W49_13 |
+| Zima "The best way to keep Dad's dentures clean" (first denture static) | denture-first proof (yellow film shown) + flat 40% + two gifts | W49_16 |
+| Zima "FREE GIFT when you buy" | TWO free gifts + flat 40% + 120 days | W49_17 |
+| Zima "$75 value, on us" (pod + tablets) | $44 of gifts at store values + 40% off, no tablets | W49_18 |
+| Zima clean-girl starter pack / "20,000+ dentists" | visible film on the guard + 99.9% in 5 minutes, no counts | W49_23 |
+| Zima "The Starter Bundle / Don't miss out" | flat 40% + case + bag, no invented deadline | W49_28 |
+| Sonic "Limited Time Sale" (pod in a palm) | flat 40% + gifts, Pod resting, yellow guard shown | W49_29 |
+| Zima "An Exclusive Offer is calling... Save 10%" | the same call screen, 40% + two gifts | W49_35 |
+| Sonic "SALE nur kurze Zeit" / "Up to 30%" | flat 40% + gifts + 120 days | W49_40 |
+Guardrails kept: no logos or names on images, compare features/offers only, no counts or invented scores; we never say their products fail. Not answered: Zima "HSA/FSA eligible" (not an approved DentalPULSE claim; ask the user whether the Pod qualifies).
