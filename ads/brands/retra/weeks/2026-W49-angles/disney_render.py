@@ -88,6 +88,15 @@ J.update({
 })
 render.JOBS.update(J)
 
+J.update({
+    "d6": dict(refs=[], ar="4:5", style="Casual candid snapshot, natural true-to-life colour, golden-hour sun, slight lens flare.", prompt=(
+        "Golden hour on Main Street, U.S.A. at Magic Kingdom, seen from a parent's eye level: a mum and dad walk hand in"
+        " hand toward the castle with two kids (about 5 and 8) skipping ahead, long shadows, warm low sun from the side,"
+        " a plain red balloon, gentle crowd, the castle glowing at the end of the street in the upper middle of the"
+        " frame. Upper 30% of the frame is open sky above the castle." + CASTLE + NOCHAR)),
+})
+render.JOBS.update(J)
+
 if __name__ == "__main__":
     ids = sys.argv[1:] or list(J)
     for i in ids:

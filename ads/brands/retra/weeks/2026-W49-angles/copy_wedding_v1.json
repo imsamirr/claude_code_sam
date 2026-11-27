@@ -1,0 +1,124 @@
+{
+ "source": "StefanBrain v1, chat chat_e2881d64bb4e43c687b42831eb31dff3",
+ "concepts": [
+  {
+   "id": "W1",
+   "angle": "Wedding table candid chat",
+   "persona": "Wedding guests / Bridesmaids",
+   "funnel": "TOF",
+   "format": "Flash party photo + text-message bubbles (RTR ref)",
+   "slots": [
+    {
+     "name": "bubble_1",
+     "text": "Did Sarah really leave these on every table?"
+    },
+    {
+     "name": "bubble_2",
+     "text": "Yes! No screen, just point and shoot."
+    },
+    {
+     "name": "bubble_3",
+     "text": "We already took thirty unposed pictures tonight."
+    }
+   ],
+   "primary_text": "Put a Retra camera on every guest table and let your friends capture the celebration unposed. No glowing screens pulling people out of the party, no expensive film rolls, and no lab fees. Guests point, shoot, and dance. Each camera holds up to 500 photos per charge with four built-in filters. Connect via USB-C the next morning. Now $99, or Buy 2, Get 1 Free.",
+   "meta_headline": "The modern wedding table camera"
+  },
+  {
+   "id": "W2",
+   "angle": "Modern alternative to single-use wedding disposables",
+   "persona": "Brides / Engaged couples planning reception",
+   "funnel": "TOF",
+   "format": "Dance-floor flash photo + white quiz-style card with arrow CTA (The Knot ref)",
+   "slots": [
+    {
+     "name": "card_headline",
+     "text": "Still buying single-use wedding cameras?"
+    },
+    {
+     "name": "card_cta",
+     "text": "Shop Modern Disposables"
+    }
+   ],
+   "primary_text": "Single-use plastic wedding cameras cost a fortune to develop, and shots get ruined or lost in the dark. Retra gives you the same candid disposable charm in a reusable digital body. No film rolls, no lab fees, and zero screens to distract your guests. Up to 500 photos per charge on the included memory card. Four built-in film-look filters. On sale for $99 (was $165). Buy 2, Get 1 Free.",
+   "meta_headline": "Skip single-use wedding cameras"
+  },
+  {
+   "id": "W3",
+   "angle": "First dance presence without glowing screens",
+   "persona": "Couples planning an unplugged wedding",
+   "funnel": "TOF",
+   "format": "Dark first-dance flash photo, bold headline + pink link CTA (The Knot ref)",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "Phones away. Real presence on the floor."
+    },
+    {
+     "name": "link_cta",
+     "text": "Shop the Wedding Camera"
+    }
+   ],
+   "primary_text": "You do not want a glowing wall of iPhones recording your first dance. Retra lets your guests capture genuine, textured memories without looking at a screen all night. No apps, no Wi-Fi, and no distracting notifications. Each camera holds up to 500 photos per charge in four built-in film filters. Download directly via USB-C. Get Retra for $99 (compare at $165). Buy 2, Get 1 Free.",
+   "meta_headline": "Phones away for the first dance"
+  },
+  {
+   "id": "W4",
+   "angle": "Unplugged wedding table reminder",
+   "persona": "Maid of honour / Couples planning reception",
+   "funnel": "TOF",
+   "format": "iOS reminder alert over couple flash photo (The Knot ref)",
+   "slots": [
+    {
+     "name": "alert_title",
+     "text": "Wedding Reminder"
+    },
+    {
+     "name": "alert_body",
+     "text": "Put phones away tonight. Capture every candid on table cameras instead."
+    },
+    {
+     "name": "button_left",
+     "text": "Ignore Phones"
+    },
+    {
+     "name": "button_right",
+     "text": "Start Shooting"
+    }
+   ],
+   "primary_text": "Remind your guests to celebrate with you in the moment. Placing Retra cameras on reception tables keeps smartphones tucked away while letting everyone capture spontaneous laughs. No screens, no Wi-Fi, and no app store logins. Each camera stores up to 500 photos on the included memory card. Plug in via USB-C after the reception to view. On sale for $99 (compare at $165). Buy 2, Get 1 Free.",
+   "meta_headline": "Keep phones away at weddings"
+  },
+  {
+   "id": "W5",
+   "angle": "Luxe bridal table aesthetic",
+   "persona": "The bride / Bridal registry and styling",
+   "funnel": "MOF",
+   "format": "Bridal product hero on white, kicker + italic-word headline + callout line (Olive & Piper ref)",
+   "slots": [
+    {
+     "name": "kicker",
+     "text": "FOR THE MODERN BRIDE"
+    },
+    {
+     "name": "headline",
+     "text": "Candid wedding memories without the screens."
+    },
+    {
+     "name": "headline_italic_word",
+     "text": "memories"
+    },
+    {
+     "name": "callout",
+     "text": "Minimalist design in bridal White"
+    },
+    {
+     "name": "product_line",
+     "text": "Retra in White"
+    }
+   ],
+   "primary_text": "Designed for the bride who wants real presence on her wedding day. The White Retra looks gorgeous on every table setting while encouraging guests to put their phones away. Completely screen-free with four built-in film-look filters and up to 500 photos per charge. Arrives in our custom gift box with wrist strap and memory card. On sale for $99 (compare at $165). Buy 2, Get 1 Free.",
+   "meta_headline": "The White Retra for weddings"
+  }
+ ]
+}

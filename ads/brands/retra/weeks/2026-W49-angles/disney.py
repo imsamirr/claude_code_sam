@@ -17,7 +17,7 @@ from b2 import head, sub, scrim_top, scrim_bottom, SH, WARM
 
 HERE = Path(__file__).resolve().parent
 COPY.update({c["id"]: c for c in json.load(open(HERE / "copy_disney.json"))["concepts"]})
-b2.PICK.update({"d1": "d1b_t1"})  # takes chosen after QA
+b2.PICK.update({"d1": "d1b_t1", "d6": "d6_t2"})  # takes chosen after QA
 PAPER = (250, 247, 240)
 
 
@@ -219,11 +219,36 @@ def d1f(c):
     return split(c, "Film")
 
 
+# ---------------------------------------------------------------- D5 Main Street through Retra's Vintage look
+def d5(c):
+    from compose_gallery import retra_filter
+    # the scene is 4:5: fill the 4:5 band exactly (y 285-1635); the 9:16 margins get a blurred extension
+    band = retra_filter(ImageOps.fit(b2.R("d6"), (W, 1350), Image.LANCZOS), "Vintage")
+    img = ImageOps.fit(band, (W, H), Image.LANCZOS).filter(ImageFilter.GaussianBlur(30)).convert("RGBA")
+    img.paste(band, (0, 285))
+    # frame-line guides like a lens frame, inside the 4:5 band
+    d = ImageDraw.Draw(img)
+    m, L, y0, y1 = 70, 70, 330, 1590
+    for (x, y, sx, sy) in [(m, y0, 1, 1), (W - m, y0, -1, 1), (m, y1, 1, -1), (W - m, y1, -1, -1)]:
+        d.line([(x, y), (x + sx * L, y)], fill=(255, 250, 240), width=5)
+        d.line([(x, y), (x, y + sy * L)], fill=(255, 250, 240), width=5)
+    scrim_top(img, 760, 120)
+    hand(img, S(c, "in_frame_text"), 110, 380, 860, 64, (255, 248, 236), 3, "left", SH)
+    scrim_bottom(img, 1300, 170)
+    if S(c, "sub"):
+        sub(img, S(c, "sub"), 1405, WHITE, 36, 26, 2, x=110, w=860, align="left", shadow=SH, weight="SemiBold")
+    f = inter(26, "SemiBold")
+    tw = measure(f, S(c, "corner_label"))
+    pill(img, S(c, "corner_label"), f, 110 + tw / 2 + 22, 1545, (20, 18, 16), (255, 236, 200), padx=22, pady=10)
+    return img
+
+
 PLACE = {}  # per-render note / arrow positions, set after seeing the chosen take
-BUILDERS = {"D1": d1, "D2": d2, "D3": d3, "D4": d4, "D1V": d1v, "D1F": d1f}
+BUILDERS = {"D1": d1, "D2": d2, "D3": d3, "D4": d4, "D1V": d1v, "D1F": d1f, "D5": d5}
 SLUG = {"D1": "disney-fireworks-annotated", "D2": "disney-snapshot-board", "D3": "disney-parents-album-vs-camera-roll",
         "D4": "disney-main-street-colours",
-        "D1V": "disney-fireworks-split-vintage", "D1F": "disney-fireworks-split-film"}
+        "D1V": "disney-fireworks-split-vintage", "D1F": "disney-fireworks-split-film",
+        "D5": "disney-main-street-vintage-lens"}
 
 if __name__ == "__main__":
     sys.path.insert(0, str(HERE.parents[1] / "gallery"))
@@ -231,7 +256,7 @@ if __name__ == "__main__":
     for i in ids:
         lib.TEXT_BOXES.clear()
         c = COPY[i]
-        tag = "_ILLUSTRATIVE" if i in ("D2", "D1V", "D1F") else ""
+        tag = "_ILLUSTRATIVE" if i in ("D2", "D1V", "D1F", "D5") else ""
         try:
             print(save(BUILDERS[i](i), f"RET_A49_{i}_{c['funnel'].lower()}_{SLUG[i]}{tag}"))
         except Exception as e:  # noqa: BLE001

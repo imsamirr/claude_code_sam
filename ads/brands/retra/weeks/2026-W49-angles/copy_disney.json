@@ -167,6 +167,29 @@
    ],
    "primary_text": "Capture the fireworks over Cinderella Castle in rich, nostalgic film tones without editing presets. Retra gives you authentic point-and-shoot charm with zero screens to distract you from the show. Four built-in film-look filters, up to 500 photos per charge, and direct USB-C export. On sale for $99 (compare at $165). Buy 2, Get 1 Free while low stock lasts.",
    "meta_headline": "Magic Kingdom in rich film style"
+  },
+  {
+   "id": "D5",
+   "angle": "Nostalgic golden-hour Disney memories",
+   "persona": "Nostalgic parents / Millennial Disney travellers",
+   "funnel": "TOF",
+   "format": "Full-frame golden-hour Main Street photo through Retra's Vintage filter, handwritten line in the frame",
+   "slots": [
+    {
+     "name": "in_frame_text",
+     "text": "Golden hour on Main Street. Zero screens between you and the magic."
+    },
+    {
+     "name": "corner_label",
+     "text": "Simulated: Retra Vintage filter"
+    },
+    {
+     "name": "sub",
+     "text": "Up to 500 photos per charge. Available in seven colours."
+    }
+   ],
+   "primary_text": "Walking down Main Street at golden hour should be felt with your own eyes, not through a phone screen. Retra gives you the warm, candid nostalgia of classic photography in a modern digital camera. Zero screens, four built-in film-look filters, up to 500 photos per charge, and USB-C transfer. Available in seven colours: White, Midnight, Yellow, Brown, Green Forest, Blue, Red. Now $99.",
+   "meta_headline": "Main Street in vintage film style"
   }
  ]
 }

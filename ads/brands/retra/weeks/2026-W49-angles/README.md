@@ -71,3 +71,10 @@ Chalk->White, Obsidian->Midnight, Sol->Yellow, Dune->Brown, Pine->Green Forest, 
 (alt text "Aegean"). `colour_rename.py` swapped names and "six"->"seven" colours in all copy files and the CSV; lib.py
 has STORE_NAME / STORE_ORDER and the Blue swatch. Re-rendered statics with colours on the image: 11, 15, 34, 50, D4.
 Open: the store's compare-at price is now $200 (statics still say $165 / 40% off); 11 shows six tiles under "All 7".
+
+## D5 + wedding memories (W1-W5), 2026-11-27
+D5: golden-hour Main Street (`d6_t2`) through the Vintage curve with lens frame marks, labelled "Simulated" (ILLUSTRATIVE).
+W1-W5 follow Sam's wedding refs: W1 RTR flash photo + text bubbles, W2 The Knot card + arrow CTA, W3 The Knot dark
+first-dance headline + link CTA, W4 The Knot iOS reminder, W5 Olive & Piper bridal product hero (Tinos Italic added to
+fonts/). Copy: `copy_wedding.json` (StefanBrain v2; v1 in `copy_wedding_v1.json`). Scenes: `wedding_render.py`;
+layouts: `wedding.py`. Sam wants 4:5 deliverables from here on. Sheet: `output/_sheet_wedding_4x5.jpg`.
