@@ -360,7 +360,8 @@
     "holiday_sale_2026": {
       "rule": "User 2026-11-24: statics re-themed as HOLIDAY SALE with the same offer 60% OFF SITEWIDE (no gift bundle, no Black Friday wording).",
       "offer": "\"60% OFF SITEWIDE\" + 'Free shipping & returns · 30-day money-back guarantee'; LEAKED10 extra 10% in primary text. Price $59.95 (was $120). No end date confirmed: no deadlines or hours-left.",
-      "theme": "HOLIDAY SALE theme: warm white/cream backgrounds, festive red (#D7141A) for the offer box, pills and key words, small deep pine-green and gold accents (a sprig of holly or pine, a thin gold ribbon, a few gold sparkles or snowflakes). Black only for body text. No dark backgrounds; restrained, not overly colorful. Compact banner: one red box '60% OFF SITEWIDE' + one small line 'Free shipping & returns · 30-day money-back guarantee'. 'HOLIDAY SALE' as the kicker/headline tag."
+      "theme": "HOLIDAY SALE theme: warm white/cream backgrounds, festive red (#D7141A) for the offer box, pills and key words, small deep pine-green and gold accents (a sprig of holly or pine, a thin gold ribbon, a few gold sparkles or snowflakes). Black only for body text. No dark backgrounds; restrained, not overly colorful. Compact banner: one red box '60% OFF SITEWIDE' + one small line 'Free shipping & returns · 30-day money-back guarantee'. 'HOLIDAY SALE' as the kicker/headline tag.",
+      "offer_update_2026_11_27": "User 2026-11-27: HOLIDAY SALE = 60% OFF SITEWIDE + FREE GIFTS ADDED TO ALL ORDERS + FREE SHIPPING (gifts assumed = 3-pack cushioned socks + travel bag, as in the BF offer; confirm). The BF 'never both' rule does not apply to this offer."
     }
   },
   "colorway_template": "The shoe is the {label} colorway shown in the reference photo.",
@@ -1742,6 +1743,106 @@
     "c4_W11": {
       "file": "reference/benchmarks/c4_W11.jpg",
       "use_for": "COMPETITOR FORMAT ref (Hollow Socks, Meta library, launched Oct-Nov 2026): roadside marquee letter sign with the whole ad written in black letters. Recreate layout only; never their brand, claims or product."
+    },
+    "h25_HK1": {
+      "file": "reference/benchmarks/h25_HK1.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (Hike Footwear; BOGO clearance, ran 260d, top-8 ad by impressions; Atria 2026-11-27): red banner offer over top-down pair on textured ground, small white subline, thin bottom proof bar. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_HK2": {
+      "file": "reference/benchmarks/h25_HK2.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (Hike Footwear; 206d, top-44; Atria 2026-11-27): minimal cream: brand word, single shoe, round % sticker, one-line headline with highlighted words, 3 small feature boxes. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_HK3": {
+      "file": "reference/benchmarks/h25_HK3.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (Hike Footwear; 281d; Atria 2026-11-27): foot stepping on rough ground left half, right column headline + 3 line icons. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_HK4": {
+      "file": "reference/benchmarks/h25_HK4.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (Hike Footwear; 281d, weight-loss walking; Atria 2026-11-27): bold 2-line headline top, shoe held in hand center, 1-line quote caption, 3 green check pills. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_HK5": {
+      "file": "reference/benchmarks/h25_HK5.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (Hike Footwear; holiday 'biggest sale of the year', 2025; Atria 2026-11-27): BIGGEST SALE header + 3 stat columns + pair held in hands over red ribbon/roses + bottom offer bar. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_HK6": {
+      "file": "reference/benchmarks/h25_HK6.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (Hike Footwear; clearance sale; Atria 2026-11-27): red stacked sale headline + 4 circular feature photos + shoe on round pedestal + color dots. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_CF1": {
+      "file": "reference/benchmarks/h25_CF1.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (ComfoFeet; 338d, top-18; Atria 2026-11-27): huge price-per-pair type top + diagonal lineup of 6 colors + red round 'last chance' badge. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_CF2": {
+      "file": "reference/benchmarks/h25_CF2.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (ComfoFeet; 356d, top-4; Atria 2026-11-27): headline over 3 shoes on a surface, big SALE + small line bottom-left, coupon-code stamp bottom-right. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_CF3": {
+      "file": "reference/benchmarks/h25_CF3.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (ComfoFeet; 356d, top-9; Atria 2026-11-27): first-person quote headline with red highlighted line + single shoe + 4 icon circles on a dotted line. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_CF5": {
+      "file": "reference/benchmarks/h25_CF5.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (ComfoFeet; Black Friday 2025, 261d; Atria 2026-11-27): red pill header + boxed subline + 5 shoes in a cluster + two red bottom boxes. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_CF6": {
+      "file": "reference/benchmarks/h25_CF6.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (ComfoFeet; 263d, top-2; Atria 2026-11-27): big 2-line 'X people wear this for...' headline + shoe on scenic hill + 3 small pills. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_CF7": {
+      "file": "reference/benchmarks/h25_CF7.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (ComfoFeet; BF 2025; Atria 2026-11-27): 2-line headline + 3 shoes in a row + red price bar and 'last chance' line. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_HL1": {
+      "file": "reference/benchmarks/h25_HL1.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (Halara; Holiday 2025, best rank 1 of 2,900, 363d; Atria 2026-11-27): 4 lower-body product columns in 4 colors + big red 'BUY 1 GET 1 FREE' + small 'sale ends soon'. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_HL3": {
+      "file": "reference/benchmarks/h25_HL3.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (Halara; Holiday 2025, rank 14, 372d; Atria 2026-11-27): two side-by-side lifestyle legs photos + solid green box with 'UP TO / 50% OFF / sale ends soon'. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_OF1": {
+      "file": "reference/benchmarks/h25_OF1.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (Orthofeet; Dec 2025 'Use your FSA before Dec 31'; Atria 2026-11-27): outdoor walking photo low angle + white headline top-left + small save sticker. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_DB1": {
+      "file": "reference/benchmarks/h25_DB1.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (Dogbiotics; 375d; Atria 2026-11-27): 'Skip the $X visit' headline + hand holding product + big '50% OFF' + 'sale ends tonight'. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_AK1": {
+      "file": "reference/benchmarks/h25_AK1.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (Akka; BF 2025, top-5; Atria 2026-11-27): blue: big sale title + orange pill + product left + 3 check bullets right. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_VB1": {
+      "file": "reference/benchmarks/h25_VB1.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (Vibit; BF 2025, 368d; Atria 2026-11-27): creator holding product to camera + scrolling sale ticker border on all 4 sides. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_OW1": {
+      "file": "reference/benchmarks/h25_OW1.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (ComfortWear (ours); Holiday 2025 RTG static ROAS 1.26, 133 purchases; Atria 2026-11-27): hands lacing pair on top + blue pill 'TRUSTED BY NURSES. BUILT FOR 12-HOUR SHIFTS' + 3 icon circles. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_OW2": {
+      "file": "reference/benchmarks/h25_OW2.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (ComfortWear (ours); Holiday 2025 static ROAS 1.47; Atria 2026-11-27): FLASH SALE header + diagonal color band + arch callout circle + shoe + offer text + 3 icons. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_OW3": {
+      "file": "reference/benchmarks/h25_OW3.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (ComfortWear (ours); Holiday 2025 'Didn't buy yet?' reviews static, BLACK FRIDAY 60% OFF + FREE GIFT; Atria 2026-11-27): headline + 3 Facebook comments + shoe + small offer line + proof line. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_OW4": {
+      "file": "reference/benchmarks/h25_OW4.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (ComfortWear (ours); Holiday 2025 nurse text image ($87k spend); Atria 2026-11-27): bold title + 6 red-plus benefit lines + shoe bottom right. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_OW6": {
+      "file": "reference/benchmarks/h25_OW6.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (ComfortWear (ours); Holiday 2025; Atria 2026-11-27): 2-line headline + 3 shoes + arrow note + red coupon-code stamp. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_OW7": {
+      "file": "reference/benchmarks/h25_OW7.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (ComfortWear (ours); Holiday 2025; Atria 2026-11-27): shoe photo + red pill headline + 3 condition icons + red proof bar. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "h25_VS1": {
+      "file": "reference/benchmarks/h25_VS1.jpg",
+      "use_for": "HOLIDAY 2025 WINNER ref (Vessi; Dec 2025; Atria 2026-11-27): bold blue card: logo, product in white rounded card, product-name card. Recreate the layout only; never their brand, prices, claims or product."
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
