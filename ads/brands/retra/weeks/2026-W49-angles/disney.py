@@ -184,17 +184,52 @@ def d4(c):
     return img
 
 
+# ---------------------------------------------------------------- D1V / D1F fireworks split: regular | filtered
+def split(c, filt):
+    from compose_gallery import retra_filter
+    base = ImageOps.fit(b2.R("d5"), (W, H), Image.LANCZOS).convert("RGB")
+    right = retra_filter(base, filt)
+    img = base.convert("RGBA")
+    img.paste(right.crop((W // 2, 0, W, H)), (W // 2, 0))
+    scrim_top(img, 640, 170)
+    scrim_bottom(img, 1360, 200)
+    d = ImageDraw.Draw(img)
+    d.line([(W / 2, 560), (W / 2, 1450)], fill=WHITE, width=6)  # divider stops short of the headline and sub
+    head(img, S(c, "headline"), 330, WARM, 86, 58, 2, shadow=SH)
+    d = ImageDraw.Draw(img)
+    cy = 1010
+    d.ellipse((W / 2 - 46, cy - 46, W / 2 + 46, cy + 46), fill=WHITE)
+    for sgn in (-1, 1):  # slider arrows
+        x = W / 2 + sgn * 14
+        d.polygon([(x, cy - 16), (x, cy + 16), (x + sgn * 18, cy)], fill=INK)
+    fl = inter(32, "Bold")
+    pill(img, S(c, "left_label"), fl, W / 4, 600, (0, 0, 0, 0) if False else (20, 22, 26), WHITE, padx=24, pady=12)
+    pill(img, S(c, "right_label"), fl, 3 * W / 4, 600, SAND, INK, padx=24, pady=12)
+    sub(img, S(c, "sub"), 1500, WHITE, 40, 28, 2, shadow=SH, weight="SemiBold")
+    return img
+
+
+def d1v(c):
+    return split(c, "Vintage")
+
+
+def d1f(c):
+    return split(c, "Film")
+
+
 PLACE = {}  # per-render note / arrow positions, set after seeing the chosen take
-BUILDERS = {"D1": d1, "D2": d2, "D3": d3, "D4": d4}
+BUILDERS = {"D1": d1, "D2": d2, "D3": d3, "D4": d4, "D1V": d1v, "D1F": d1f}
 SLUG = {"D1": "disney-fireworks-annotated", "D2": "disney-snapshot-board", "D3": "disney-parents-album-vs-camera-roll",
-        "D4": "disney-main-street-colours"}
+        "D4": "disney-main-street-colours",
+        "D1V": "disney-fireworks-split-vintage", "D1F": "disney-fireworks-split-film"}
 
 if __name__ == "__main__":
+    sys.path.insert(0, str(HERE.parents[1] / "gallery"))
     ids = sys.argv[1:] or list(BUILDERS)
     for i in ids:
         lib.TEXT_BOXES.clear()
         c = COPY[i]
-        tag = "_ILLUSTRATIVE" if i == "D2" else ""
+        tag = "_ILLUSTRATIVE" if i in ("D2", "D1V", "D1F") else ""
         try:
             print(save(BUILDERS[i](i), f"RET_A49_{i}_{c['funnel'].lower()}_{SLUG[i]}{tag}"))
         except Exception as e:  # noqa: BLE001

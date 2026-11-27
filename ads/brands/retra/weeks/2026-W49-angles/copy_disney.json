@@ -113,6 +113,60 @@
    ],
    "primary_text": "Planning a Disney trip? Retra helps families stay present together walking down Main Street. Point, click, and drop it back into your bag. Up to 500 photos on a charge, four built-in film filters, and direct USB-C export to your computer. Available in six colours: Chalk, Obsidian, Sol, Dune, Pine, and Blossom. On sale for $99 (compare at $165). Buy 2, Get 1 Free.",
    "meta_headline": "Capture Disney trips screen-free"
+  },
+  {
+   "id": "D1V",
+   "angle": "Magic Kingdom fireworks in Vintage style",
+   "persona": "Family vacationers / Disney park enthusiasts",
+   "funnel": "TOF",
+   "format": "Split-screen slider: same castle-fireworks photo, regular left / Retra Vintage filter right",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "See the castle fireworks in vintage film style."
+    },
+    {
+     "name": "left_label",
+     "text": "Regular phone photo"
+    },
+    {
+     "name": "right_label",
+     "text": "Retra Vintage filter"
+    },
+    {
+     "name": "sub",
+     "text": "Built-in vintage filter profile. Up to 500 photos per charge, zero screens."
+    }
+   ],
+   "primary_text": "Cinderella Castle fireworks look even more magical with warm vintage character. Retra lets you capture the show without staring into a glowing phone screen all night. Four built-in film-look filters, up to 500 photos per charge, and USB-C transfer. Black Friday sale is live: now $99 (compare at $165, a 40% discount). Buy 2, Get 1 Free while stock lasts.",
+   "meta_headline": "Magic Kingdom in vintage film style"
+  },
+  {
+   "id": "D1F",
+   "angle": "Magic Kingdom fireworks in Film style",
+   "persona": "Creative travelers / Disney park memory-keepers",
+   "funnel": "TOF",
+   "format": "Split-screen slider: same castle-fireworks photo, regular left / Retra Film filter right",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "See the castle fireworks in classic film style."
+    },
+    {
+     "name": "left_label",
+     "text": "Regular phone photo"
+    },
+    {
+     "name": "right_label",
+     "text": "Retra Film filter"
+    },
+    {
+     "name": "sub",
+     "text": "Built-in classic film filter. Up to 500 photos per charge, zero screens."
+    }
+   ],
+   "primary_text": "Capture the fireworks over Cinderella Castle in rich, nostalgic film tones without editing presets. Retra gives you authentic point-and-shoot charm with zero screens to distract you from the show. Four built-in film-look filters, up to 500 photos per charge, and direct USB-C export. On sale for $99 (compare at $165). Buy 2, Get 1 Free while low stock lasts.",
+   "meta_headline": "Magic Kingdom in rich film style"
   }
  ]
 }

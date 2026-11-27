@@ -63,3 +63,5 @@ layouts: `disney.py`. Sheet: `output/_sheet_disney_4x5.jpg`.
 Revision (Sam, same day): D1 re-rendered with the camera at true palm size (`d1b`); D4 now a film-look 4x6 print with the
 camera beside it (`d4p`; plain lab print, not instant film, since Retra doesn't print); D3 postcard replaced by "your
 parents' Disney photos vs your camera roll" (`d3v1`, `d3v2` faded 90s prints; `d3p` tiled as a camera roll).
+Fireworks split (D1V Vintage, D1F Film): one clean castle-fireworks render (`d5`), left half as shot, right half through
+the landing-page filter curve (`compose_gallery.retra_filter`), slider divider. ILLUSTRATIVE. Sheet: `output/_sheet_disney_split_4x5.jpg`.
