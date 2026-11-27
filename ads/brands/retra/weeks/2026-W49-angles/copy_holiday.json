@@ -20,7 +20,7 @@
     },
     {
      "name": "cta",
-     "text": "Shop Black Friday"
+     "text": "Shop Holiday Sale"
     }
    ],
    "primary_text": "Give her a gift that invites creativity and real presence into her daily life. Retra is a screen-free digital camera that fits right into her bag. She gets up to 500 photos per charge, four built-in film-look filters, and direct USB-C transfer. Available in seven colours. On sale for $99 (compare at $200, 50% off). Buy 2, Get 1 Free automatic at checkout.",
@@ -52,7 +52,7 @@
      "text": "Includes memory card, cable, and gift box. Now $99."
     }
    ],
-   "primary_text": "Buying tech for grandparents usually means endless holiday tech support. Retra works right out of the box with zero passwords, accounts, or touchscreens. They point, shoot, and capture memories of the grandkids directly to the included memory card. View on a computer via USB-C. Compare at $200, now $99 for Black Friday. Buy 2, Get 1 Free.",
+   "primary_text": "Buying tech for grandparents usually means endless holiday tech support. Retra works right out of the box with zero passwords, accounts, or touchscreens. They point, shoot, and capture memories of the grandkids directly to the included memory card. View on a computer via USB-C. Compare at $200, now $99 for our Holiday Sale. Buy 2, Get 1 Free.",
    "meta_headline": "The camera grandparents can use"
   },
   {
@@ -81,7 +81,7 @@
      "text": "Choose Retra"
     }
    ],
-   "primary_text": "When kids ask for their first camera, giving them a smartphone opens the door to social media feeds and texting. Retra gives them the pure joy of photography with zero screen distraction. No apps, no Wi-Fi, and no internet. Up to 500 photos per charge in four film-look filters. Compare at $200, now $99 during our Black Friday sale.",
+   "primary_text": "When kids ask for their first camera, giving them a smartphone opens the door to social media feeds and texting. Retra gives them the pure joy of photography with zero screen distraction. No apps, no Wi-Fi, and no internet. Up to 500 photos per charge in four film-look filters. Compare at $200, now $99 during our Holiday Sale.",
    "meta_headline": "A screen-free holiday gift for kids"
   },
   {
@@ -95,7 +95,7 @@
    "slots": [
     {
      "name": "kicker",
-     "text": "Black Friday Sale"
+     "text": "Holiday Sale"
     },
     {
      "name": "headline",
@@ -118,7 +118,7 @@
      "text": "Get Yours for $99"
     }
    ],
-   "primary_text": "Cross holiday gifts off your list with a camera that feels premium, creative, and delightfully low-tech. Every Retra box includes the rechargeable camera, USB-C cable, wrist strap, memory card, and gift packaging. No ongoing film expenses, no app subscriptions, and no hidden costs. Marked down from $200 to $99 for Black Friday.",
+   "primary_text": "Cross holiday gifts off your list with a camera that feels premium, creative, and delightfully low-tech. Every Retra box includes the rechargeable camera, USB-C cable, wrist strap, memory card, and gift packaging. No ongoing film expenses, no app subscriptions, and no hidden costs. Marked down from $200 to $99 for our Holiday Sale.",
    "meta_headline": "Holiday gifting solved for $99"
   },
   {
@@ -143,7 +143,7 @@
      "text": "Warmly, The Retra Team"
     }
    ],
-   "primary_text": "Most modern gifts add another glowing screen to daily life. Retra does the exact opposite: it helps the people you love put their phones away and stay in the moment. Each camera arrives gift-ready with an included memory card, wrist strap, and USB-C cable. Up to 500 photos per charge in four film-look filters. Marked down to $99 from $200 for Black Friday.",
+   "primary_text": "Most modern gifts add another glowing screen to daily life. Retra does the exact opposite: it helps the people you love put their phones away and stay in the moment. Each camera arrives gift-ready with an included memory card, wrist strap, and USB-C cable. Up to 500 photos per charge in four film-look filters. Marked down to $99 from $200 for our Holiday Sale.",
    "meta_headline": "Why Retra makes the ideal gift"
   },
   {
@@ -197,7 +197,7 @@
      "text": "Claim Holiday Deal"
     }
    ],
-   "primary_text": "Make this holiday morning one to remember. Retra is the screen-free digital camera that gets everyone looking at each other instead of staring into smartphones. Up to 500 photos per charge, four built-in film-look filters, and direct USB-C transfer. Marked down from $200 to $99 for our Black Friday sale. Buy 2, Get 1 Free applies automatically.",
+   "primary_text": "Make this holiday morning one to remember. Retra is the screen-free digital camera that gets everyone looking at each other instead of staring into smartphones. Up to 500 photos per charge, four built-in film-look filters, and direct USB-C transfer. Marked down from $200 to $99 for our Holiday Sale. Buy 2, Get 1 Free applies automatically.",
    "meta_headline": "Ready for under the tree"
   },
   {
@@ -284,10 +284,10 @@
     },
     {
      "name": "sub",
-     "text": "Start the New Year present. Retra is $99 for Black Friday."
+     "text": "Start the New Year present. Retra is $99 for our Holiday Sale."
     }
    ],
-   "primary_text": "Make this the year you finally break the habit of living through a five-inch phone screen. Retra is purpose-built for pure, distraction-free photography. You point, shoot, and stay completely engaged with the world around you. Four built-in film-look filters, up to 500 photos per charge, and USB-C export. Now $99 during our Black Friday sale (was $200).",
+   "primary_text": "Make this the year you finally break the habit of living through a five-inch phone screen. Retra is purpose-built for pure, distraction-free photography. You point, shoot, and stay completely engaged with the world around you. Four built-in film-look filters, up to 500 photos per charge, and USB-C export. Now $99 during our Holiday Sale (was $200).",
    "meta_headline": "Start the New Year screen-free"
   },
   {
@@ -419,13 +419,13 @@
      "text": "Memories ready to export later"
     }
    ],
-   "primary_text": "Transform how you capture life this coming year. The smartphone habit means checking unread messages and feeds every time you take a photo. Retra replaces the distraction with pure presence: point, shoot, and see your photos later. Includes four film filters and memory card. Compare at $200, now $99 during our Black Friday sale.",
+   "primary_text": "Transform how you capture life this coming year. The smartphone habit means checking unread messages and feeds every time you take a photo. Retra replaces the distraction with pure presence: point, shoot, and see your photos later. Includes four film filters and memory card. Compare at $200, now $99 during our Holiday Sale.",
    "meta_headline": "Your old habits vs your new year"
   },
   {
    "id": "O1",
-   "angle": "Black Friday offer",
-   "persona": "Black Friday deal hunters / Bargain shoppers",
+   "angle": "Holiday Sale offer",
+   "persona": "Holiday Sale deal hunters / Bargain shoppers",
    "funnel": "BOF",
    "template": "T2",
    "format": "T2",
@@ -433,7 +433,7 @@
    "slots": [
     {
      "name": "kicker",
-     "text": "Black Friday Sale"
+     "text": "Holiday Sale"
     },
     {
      "name": "headline",
@@ -453,11 +453,11 @@
     },
     {
      "name": "cta",
-     "text": "Shop Black Friday"
+     "text": "Shop Holiday Sale"
     }
    ],
-   "primary_text": "Our Black Friday sale is live: Retra is $99 (compare at $200, 50% off). Buy 2, Get 1 Free includes a free Woven Camera Strap ($29 value). Buy 3, Get 2 Free includes the strap plus a Leather Camera Bag ($79 gift value). Screen-free with four film-look filters and USB-C export. Bundles apply automatically at checkout. Low stock on original colours.",
-   "meta_headline": "Black Friday: $99 Retra + gifts"
+   "primary_text": "Our Holiday Sale is live: Retra is $99 (compare at $200, 50% off). Buy 2, Get 1 Free includes a free Woven Camera Strap ($29 value). Buy 3, Get 2 Free includes the strap plus a Leather Camera Bag ($79 gift value). Screen-free with four film-look filters and USB-C export. Bundles apply automatically at checkout. Low stock on original colours.",
+   "meta_headline": "Holiday Sale: $99 Retra + gifts"
   },
   {
    "id": "O2",
@@ -519,7 +519,7 @@
   },
   {
    "id": "O4",
-   "angle": "Black Friday offer",
+   "angle": "Holiday Sale offer",
    "persona": "High-intent shoppers / Fence-sitters",
    "funnel": "BOF",
    "template": "T8",
@@ -528,23 +528,23 @@
    "slots": [
     {
      "name": "title",
-     "text": "A Black Friday note."
+     "text": "A Holiday Sale note."
     },
     {
      "name": "body",
-     "text": "Our Black Friday deals are live. Retra is $99 (compare at $200). Buy 2, Get 1 Free includes a free Woven Camera Strap ($29 value). Buy 3, Get 2 Free includes the strap plus a Leather Camera Bag ($79 value). Bundles apply automatically at checkout. Inventory is low on original colours, so grab your favourite shades now."
+     "text": "Our Holiday Sale deals are live. Retra is $99 (compare at $200). Buy 2, Get 1 Free includes a free Woven Camera Strap ($29 value). Buy 3, Get 2 Free includes the strap plus a Leather Camera Bag ($79 value). Bundles apply automatically at checkout. Inventory is low on original colours, so grab your favourite shades now."
     },
     {
      "name": "signoff",
      "text": "Warmly, The Retra Team"
     }
    ],
-   "primary_text": "A Black Friday note from our team: Retra is marked down from $200 to $99 (50% off). Plus, bundle gifts are included: Buy 2 Get 1 Free includes a free Woven Camera Strap ($29 value), and Buy 3 Get 2 Free includes the strap and Leather Camera Bag ($79 value). Bundles apply automatically at checkout. Low stock on original colours.",
-   "meta_headline": "Black Friday: $99 Retra + gifts"
+   "primary_text": "A Holiday Sale note from our team: Retra is marked down from $200 to $99 (50% off). Plus, bundle gifts are included: Buy 2 Get 1 Free includes a free Woven Camera Strap ($29 value), and Buy 3 Get 2 Free includes the strap and Leather Camera Bag ($79 value). Bundles apply automatically at checkout. Low stock on original colours.",
+   "meta_headline": "Holiday Sale: $99 Retra + gifts"
   },
   {
    "id": "O5",
-   "angle": "Black Friday offer",
+   "angle": "Holiday Sale offer",
    "persona": "Deal seekers / Gift shoppers",
    "funnel": "BOF",
    "template": "T1",
@@ -553,7 +553,7 @@
    "slots": [
     {
      "name": "headline",
-     "text": "Black Friday sale: $99 plus bundle gifts."
+     "text": "Holiday Sale: $99 plus bundle gifts."
     },
     {
      "name": "sub",
@@ -561,15 +561,15 @@
     },
     {
      "name": "cta",
-     "text": "Shop Black Friday"
+     "text": "Shop Holiday Sale"
     }
    ],
-   "primary_text": "Black Friday pricing is live: get Retra for $99 (compare at $200, 50% off). Bundle gifts are included: Buy 2 Get 1 Free includes a free Woven Camera Strap ($29 value), and Buy 3 Get 2 Free includes the strap and Leather Camera Bag ($79 value). Screen-free with four film-look filters and USB-C export. Bundles apply automatically at checkout. Low stock.",
-   "meta_headline": "Black Friday: $99 Retra + gifts"
+   "primary_text": "Holiday Sale pricing is live: get Retra for $99 (compare at $200, 50% off). Bundle gifts are included: Buy 2 Get 1 Free includes a free Woven Camera Strap ($29 value), and Buy 3 Get 2 Free includes the strap and Leather Camera Bag ($79 value). Screen-free with four film-look filters and USB-C export. Bundles apply automatically at checkout. Low stock.",
+   "meta_headline": "Holiday Sale: $99 Retra + gifts"
   },
   {
    "id": "O6",
-   "angle": "Black Friday offer",
+   "angle": "Holiday Sale offer",
    "persona": "Bargain hunters sharing deals with friends",
    "funnel": "BOF",
    "template": "T7",
@@ -578,7 +578,7 @@
    "slots": [
     {
      "name": "bubble_1",
-     "text": "Did you see Retra's Black Friday bundles?"
+     "text": "Did you see Retra's Holiday Sale bundles?"
     },
     {
      "name": "bubble_2",
@@ -589,12 +589,12 @@
      "text": "And Buy 3 Get 2 includes the bag too."
     }
    ],
-   "primary_text": "Share the Black Friday deals before colours run low. Retra is $99 (compare at $200, 50% off). Buy 2, Get 1 Free includes a free Woven Camera Strap ($29 value). Buy 3, Get 2 Free includes the strap and a Leather Camera Bag ($79 total gift value). Screen-free with four built-in filters. Bundles apply automatically at checkout. Low stock on original colours.",
-   "meta_headline": "Black Friday bundles with free gifts"
+   "primary_text": "Share the Holiday Sale deals before colours run low. Retra is $99 (compare at $200, 50% off). Buy 2, Get 1 Free includes a free Woven Camera Strap ($29 value). Buy 3, Get 2 Free includes the strap and a Leather Camera Bag ($79 total gift value). Screen-free with four built-in filters. Bundles apply automatically at checkout. Low stock on original colours.",
+   "meta_headline": "Holiday Sale bundles with free gifts"
   },
   {
    "id": "O7",
-   "angle": "Black Friday offer",
+   "angle": "Holiday Sale offer",
    "persona": "Value seekers / Retargeting",
    "funnel": "BOF",
    "template": "T2",
@@ -603,7 +603,7 @@
    "slots": [
     {
      "name": "kicker",
-     "text": "Black Friday Pricing"
+     "text": "Holiday Sale Pricing"
     },
     {
      "name": "headline",
@@ -623,11 +623,11 @@
     },
     {
      "name": "cta",
-     "text": "Claim Black Friday"
+     "text": "Claim Holiday Sale"
     }
    ],
-   "primary_text": "Get Retra for $99 during Black Friday (compare at $200, 50% off). Holiday bundles now include premium gifts: Buy 2 Get 1 Free includes a free Woven Camera Strap ($29 value), and Buy 3 Get 2 Free adds a Leather Camera Bag ($79 total gift value). Four built-in film filters, rechargeable, with USB-C export. Bundles apply automatically at checkout. Low stock.",
-   "meta_headline": "Retra Black Friday: 50% Off"
+   "primary_text": "Get Retra for $99 during our Holiday Sale (compare at $200, 50% off). Holiday bundles now include premium gifts: Buy 2 Get 1 Free includes a free Woven Camera Strap ($29 value), and Buy 3 Get 2 Free adds a Leather Camera Bag ($79 total gift value). Four built-in film filters, rechargeable, with USB-C export. Bundles apply automatically at checkout. Low stock.",
+   "meta_headline": "Retra Holiday Sale: 50% Off"
   },
   {
    "id": "O8",

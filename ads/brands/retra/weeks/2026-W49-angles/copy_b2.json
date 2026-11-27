@@ -471,9 +471,9 @@
    "format": "Tongue-in-cheek apology layout with percentage badge",
    "funnel": "BOF",
    "id": "38",
-   "meta_headline": "Black Friday deal: 40% off Retra",
-   "persona": "Black Friday bargain hunters / Fence-sitters",
-   "primary_text": "Our Black Friday sale is live in the store: Retra is marked down from $165 to just $99. No discount codes needed. Plus, buy any two cameras and get a third one free. Every camera comes with a rechargeable battery, four built-in filters, USB-C export, and an included memory card. Stock is low across all seven colours, so pick your favourites while every shade is still available.",
+   "meta_headline": "Holiday Sale deal: 40% off Retra",
+   "persona": "Holiday Sale bargain hunters / Fence-sitters",
+   "primary_text": "Our Holiday Sale is live in the store: Retra is marked down from $165 to just $99. No discount codes needed. Plus, buy any two cameras and get a third one free. Every camera comes with a rechargeable battery, four built-in filters, USB-C export, and an included memory card. Stock is low across all seven colours, so pick your favourites while every shade is still available.",
    "slots": [
     {
      "name": "headline",
@@ -833,13 +833,13 @@
    "format": "Strike-through price drop card with feature tick list",
    "funnel": "BOF",
    "id": "52",
-   "meta_headline": "Black Friday Sale: $99 Retra",
-   "persona": "Black Friday buyers / Deal hunters",
-   "primary_text": "Our Black Friday discount is active: get Retra for $99 (compare at $165, a 40% savings). No discount codes required. Say goodbye to single-use disposable cameras and distracting smartphone screens. Retra gives you classic point-and-shoot simplicity with four built-in film filters, rechargeable USB-C battery, and an included memory card. Pair with our Buy 2, Get 1 Free deal for maximum holiday savings.",
+   "meta_headline": "Holiday Sale: $99 Retra",
+   "persona": "Holiday Sale buyers / Deal hunters",
+   "primary_text": "Our Holiday Sale discount is active: get Retra for $99 (compare at $165, a 40% savings). No discount codes required. Say goodbye to single-use disposable cameras and distracting smartphone screens. Retra gives you classic point-and-shoot simplicity with four built-in film filters, rechargeable USB-C battery, and an included memory card. Pair with our Buy 2, Get 1 Free deal for maximum holiday savings.",
    "slots": [
     {
      "name": "kicker",
-     "text": "Black Friday Sale"
+     "text": "Holiday Sale"
     },
     {
      "name": "headline",

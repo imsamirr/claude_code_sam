@@ -98,3 +98,8 @@ Bundle gifts (Sam 2026-11-27): Buy 2 Get 1 Free + free woven strap ($29 value); 
 ($79). O1-O7 copy revised by StefanBrain to include the gifts; O2/O3 draw the gifts with FREE value pills; new O8/O9 are
 festive flat lays (T11). `gift_render.py`: gift_strap (from the store photo, assets/retra/product/gifts/), gift_bag_t2
 (rendered; the store's bag image returns 502 on the CDN), flat_b2g1, flat_b3g2_t2. Sheet: `output/_sheet_offers_gifts_4x5.jpg`.
+
+## Holiday Sale, not Black Friday (Sam 2026-11-27)
+Retra isn't running Black Friday. StefanBrain rewrote all 47 Black Friday lines (on-image + Meta text) for the Holiday
+Sale; angle/persona labels and file names updated (O1/O4-O7 now `*_holiday-sale-offer_*`, 66 `*_klik-holiday-sale-sale_*`).
+Rebuilt: 52, 66, 67, 77, G1, G4, N1, O1, O4, O5, O6, O7. Still open: older statics show $165 / 40% (store: $200 / 50%).
