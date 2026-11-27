@@ -54,6 +54,32 @@ def bp(job, fix=""):
 
 render.build_prompt = bp
 render.JOBS.update(J)
+SMALL = (" SIZE IS CRITICAL: the camera is small and palm-sized, about 11 cm wide and 6 cm tall, like a pocket"
+         " point-and-shoot or a disposable camera - roughly the width of an adult's palm, much smaller than her"
+         " head or torso; it hangs at hip level on a thin wrist strap.")
+VINTAGE = "Genuine 1990s 35mm drugstore film print scan: faded warm colours, slight colour cast, soft focus, film grain."
+J.update({
+    "d1b": dict(refs=["blossom"], ar="9:16", style=FLASH + " Night, fireworks light, warm glow, grain.", prompt=(
+        J["d1"]["prompt"].replace("the raspberry-pink Retra camera hangs from the mum's wrist on its strap, front"
+        " facing the viewer.", "the small raspberry-pink Retra camera dangles from the mum's wrist on its thin strap at"
+        " hip level, front facing the viewer.") + SMALL)),
+    "d4p": dict(refs=[], ar="3:2", style="Candid film-look photo with warm vintage colour, soft grain, gentle vignette.",
+        prompt=("Main Street, U.S.A. at Magic Kingdom on a sunny morning, the castle at the end of the street: a dad"
+        " carries his daughter about 4 on his shoulders, both laughing, her arms up, seen from a few metres in front."
+        " Plain clothes with no prints." + CASTLE + NOCHAR)),
+    "d3v1": dict(refs=[], ar="4:3", style=VINTAGE, prompt=(
+        "1990s family snapshot: mum, dad and two kids (about 5 and 8) in 90s clothes (pastel windbreaker, high-waisted"
+        " jeans, scrunchie) squeezed together grinning in front of the castle at Magic Kingdom, slightly tilted framing,"
+        " a thumb shadow at one corner." + CASTLE + NOCHAR)),
+    "d3v2": dict(refs=[], ar="3:4", style=VINTAGE, prompt=(
+        "1990s snapshot: a girl about 6 in a 90s denim dress holding a plain red balloon, laughing on Main Street,"
+        " U.S.A., the castle softly behind her, candid, slightly off-centre." + CASTLE + NOCHAR)),
+    "d3p": dict(refs=[], ar="1:1", style=PHONE + " Midday sun.", prompt=(
+        "A typical posed modern smartphone photo: a mum and two kids squinting and forcing smiles in front of the castle"
+        " at Magic Kingdom, centered, stiff." + CASTLE + NOCHAR)),
+})
+render.JOBS.update(J)
+
 if __name__ == "__main__":
     ids = sys.argv[1:] or list(J)
     for i in ids:

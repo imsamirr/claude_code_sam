@@ -1,5 +1,5 @@
 {
- "source": "StefanBrain v2 (D4 endorsement fix), chat chat_e2881d64bb4e43c687b42831eb31dff3",
+ "source": "StefanBrain v3 (D4 endorsement fix, new D3), chat chat_e2881d64bb4e43c687b42831eb31dff3",
  "concepts": [
   {
    "id": "D1",
@@ -65,37 +65,38 @@
   },
   {
    "id": "D3",
-   "angle": "Future nostalgia / Family presence",
-   "persona": "Parents planning memorable family milestones",
+   "angle": "Nostalgic Disney photos vs modern camera rolls",
+   "persona": "Nostalgic parents / Millennial family trip planners",
    "funnel": "TOF",
-   "format": "Postcard to future you: photo front + handwritten back with camera stamp",
+   "format": "Two panels: faded 1990s album page vs phone camera roll of near-identical shots, product below",
    "slots": [
     {
      "name": "headline",
-     "text": "A postcard from your Disney trip:"
+     "text": "Your parents' Disney photos vs your camera roll."
     },
     {
-     "name": "message",
-     "text": "We stood in front of Cinderella Castle and promised not to look at our phones all day. We laughed, we got sticky churro fingers, and we actually looked each other in the eyes. Best trip ever."
+     "name": "left_label",
+     "text": "1990s family album"
     },
     {
-     "name": "to_line",
-     "text": "To our future selves"
+     "name": "right_label",
+     "text": "Today's phone camera roll"
     },
     {
-     "name": "signoff",
-     "text": "The Family Trip"
+     "name": "product_line",
+     "text": "Retra brings back unposed candids you will actually want to keep and print."
     }
    ],
-   "primary_text": "Years from now, nobody remembers the emails you checked in line at Magic Kingdom. They remember walking past Cinderella Castle holding hands and looking up together. Retra is a screen-free camera built for pure presence. It holds up to 500 photos per charge on the included memory card, with four built-in film filters. Connect via USB-C when you get home. Now $99 during our Black Friday sale.",
-   "meta_headline": "Memories your future family will cherish"
+   "primary_text": "Our parents came home from Magic Kingdom with a handful of unposed film photos we still cherish in albums. Today, we leave with hundreds of near-identical phone burst shots buried on a screen nobody looks at. Retra brings back the magic of candid vacation memories. Four built-in film-look filters, up to 500 photos per charge, and USB-C transfer. On sale for $99 (was $165). Buy 2, Get 1 Free.",
+   "meta_headline": "Parents' Disney photos vs yours",
+   "replaces": "postcard to future you (dropped 2026-11-27 at Sam's request)"
   },
   {
    "id": "D4",
    "angle": "Disney family travel gear",
    "persona": "Family vacationers / Gift buyers",
    "funnel": "MOF",
-   "format": "Main Street hero photo over white band with six colour swatches and CTA",
+   "format": "Film-look 4x6 print with the camera sitting beside it, six colour swatches and CTA",
    "slots": [
     {
      "name": "headline",

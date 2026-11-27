@@ -17,7 +17,7 @@ from b2 import head, sub, scrim_top, scrim_bottom, SH, WARM
 
 HERE = Path(__file__).resolve().parent
 COPY.update({c["id"]: c for c in json.load(open(HERE / "copy_disney.json"))["concepts"]})
-b2.PICK.update({"d1": "d1_t1", "d3": "d3_t1", "d4": "d4_t1"})  # takes chosen after QA
+b2.PICK.update({"d1": "d1b_t1"})  # takes chosen after QA
 PAPER = (250, 247, 240)
 
 
@@ -96,65 +96,97 @@ def d2(c):
     return img
 
 
-# ---------------------------------------------------------------- D3 postcard to future you
+def photo_print(photo, w, h, border=26, rot=0.0):
+    """A plain lab print (4x6 style, even white border - not an instant-film shape) with a soft drop shadow."""
+    card = Image.new("RGBA", (w, h), (252, 251, 248, 255))
+    card.paste(ImageOps.fit(photo, (w - 2 * border, h - 2 * border), Image.LANCZOS), (border, border))
+    sh = Image.new("RGBA", (w + 90, h + 90), (0, 0, 0, 0))
+    ImageDraw.Draw(sh).rectangle((45, 58, 45 + w, 58 + h), fill=(0, 0, 0, 75))
+    sh = sh.filter(ImageFilter.GaussianBlur(16))
+    sh.alpha_composite(card, (45, 45))
+    return sh.rotate(rot, Image.BICUBIC, expand=True)
+
+
+def faded(im):
+    """Age a print: lift blacks, warm cast, lower saturation."""
+    from PIL import ImageEnhance
+    im = ImageEnhance.Color(im.convert("RGB")).enhance(0.8)
+    a = Image.new("RGB", im.size, (236, 214, 180))
+    return Image.blend(im, a, 0.12)
+
+
+# ---------------------------------------------------------------- D3 your parents' Disney photos vs yours
 def d3(c):
     img = canvas(WHITE)
-    y = head(img, S(c, "headline"), 320, INK, 84, 56, 2)
-    top = int(y + 20)
-    # front: photo postcard
-    fw, fh = 820, 520
-    front = Image.new("RGBA", (fw, fh), (255, 255, 255, 255))
-    front.paste(ImageOps.fit(b2.R("d3"), (fw - 36, fh - 36), Image.LANCZOS, centering=(0.5, 0.5)), (18, 18))
-    # back: message side
-    bw, bh = 920, 560
-    back = Image.new("RGBA", (bw, bh), PAPER + (255,))
-    d = ImageDraw.Draw(back)
-    d.line([(bw * 0.56, 60), (bw * 0.56, bh - 50)], fill=(200, 190, 175), width=3)
-    hand(back, S(c, "message"), 40, 46, int(bw * 0.56) - 60, 30, INK, 11)
-    for k in range(3):
-        d.line([(bw * 0.6, 300 + k * 70), (bw - 40, 300 + k * 70)], fill=(200, 190, 175), width=3)
-    hand(back, S(c, "to_line"), int(bw * 0.6), 240, int(bw * 0.4) - 40, 34, INK, 2)
-    hand(back, S(c, "signoff"), int(bw * 0.6), 470, int(bw * 0.4) - 40, 32, INK, 1)
-    # stamp with the camera
-    sx, sy, sw, shh = bw - 190, 40, 150, 180
-    d.rectangle((sx, sy, sx + sw, sy + shh), fill=(255, 255, 255), outline=(190, 60, 60), width=4)
-    lib.prod(back, "p34_sol", 120, sx + sw / 2, sy + shh / 2)
-    for i, (card, cx, cy, rot) in enumerate([(front, W / 2 - 20, top + 290, -3), (back, W / 2 + 15, top + 800, 2)]):
-        sh = Image.new("RGBA", (card.width + 80, card.height + 80), (0, 0, 0, 0))
-        ImageDraw.Draw(sh).rectangle((40, 52, 40 + card.width, 52 + card.height), fill=(0, 0, 0, 80))
-        sh = sh.filter(ImageFilter.GaussianBlur(16))
-        sh.alpha_composite(card, (40, 40))
-        sh = sh.rotate(rot, Image.BICUBIC, expand=True)
-        img.alpha_composite(sh, (int(cx - sh.width / 2), int(cy - sh.height / 2)))
-    lib.TEXT_BOXES.append((80, top + 520, 1000, top + 1080))
+    y = head(img, S(c, "headline"), 320, INK, 80, 54, 2)
+    top = int(y + 34)
+    ph = 760
+    # left: album page with two faded prints and photo corners
+    lx0, lx1 = 40, 520
+    ImageDraw.Draw(img).rounded_rectangle((lx0, top, lx1, top + ph), 14, fill=(238, 229, 211))
+    for k, (cx, cy, w_, h_, rot) in [("d3v1", (280, top + 200, 400, 310, 3)), ("d3v2", (270, top + 530, 270, 350, -4))]:
+        pr = photo_print(faded(b2.R(k)), w_, h_, 16, rot)
+        img.alpha_composite(pr, (int(cx - pr.width / 2), int(cy - pr.height / 2)))
+    pill(img, S(c, "left_label"), inter(30, "Bold"), (lx0 + lx1) / 2, top + ph + 44, NAVY50, WHITE, padx=22, pady=10)
+    # right: a generic phone camera roll of near-identical shots
+    rx0, rx1 = 570, 1040
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle((rx0, top, rx1, top + ph), 56, fill=(18, 18, 20))
+    sx0, sy0, sx1, sy1 = rx0 + 18, top + 18, rx1 - 18, top + ph - 18
+    d.rounded_rectangle((sx0, sy0, sx1, sy1), 42, fill=(255, 255, 255))
+    src = b2.R("d3p")
+    cols, gap = 4, 4
+    cw = (sx1 - sx0 - 2 * 12 - (cols - 1) * gap) // cols
+    from PIL import ImageEnhance
+    yy, i = sy0 + 70, 0
+    while yy + cw <= sy1 - 40:
+        for col in range(cols):
+            dx, dy, z = (i * 37) % 9 / 100, (i * 53) % 7 / 100, 1 + (i % 5) * 0.03
+            w0 = int(src.width / z)
+            x0 = int((src.width - w0) * (0.3 + dx))
+            y0 = int((src.height - w0) * (0.3 + dy))
+            t = src.crop((x0, y0, x0 + w0, y0 + w0)).resize((cw, cw), Image.LANCZOS)
+            t = ImageEnhance.Brightness(t).enhance(0.92 + (i % 4) * 0.04)
+            img.paste(t, (sx0 + 12 + col * (cw + gap), yy))
+            i += 1
+        yy += cw + gap
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle(((rx0 + rx1) / 2 - 70, top + 30, (rx0 + rx1) / 2 + 70, top + 58), 14, fill=(18, 18, 20))
+    pill(img, S(c, "right_label"), inter(30, "Bold"), (rx0 + rx1) / 2, top + ph + 44, INK, WHITE, padx=22, pady=10)
+    yb = top + ph + 100
+    prod(img, "p34_chalk", 300, 230, min(yb + 120, 1500))
+    sub(img, S(c, "product_line"), min(yb + 60, 1440), INK, 36, 26, 3, x=420, w=600, align="left", weight="SemiBold")
     return img
 
 
-# ---------------------------------------------------------------- D4 hero photo + white band with colours
+# ---------------------------------------------------------------- D4 printed film-look photo + camera beside it
 def d4(c):
     img = canvas(WHITE)
-    ph = 1000
-    img.alpha_composite(ImageOps.fit(b2.R("d4"), (W, ph), Image.LANCZOS, centering=(0.5, 0.4)).convert("RGBA"), (0, 0))
-    y = head(img, S(c, "headline"), ph + 30, INK, 72, 50, 2)
+    y = head(img, S(c, "headline"), 320, INK, 76, 52, 2)
     y = sub(img, S(c, "sub"), y + 8, BODY, 34, 26, 2)
+    top = int(y + 20)
+    pr = photo_print(b2.R("d4p"), 780, 520, 26, 3.5)
+    img.alpha_composite(pr, (int(W / 2 - 40 - pr.width / 2), top))
+    pb = top + pr.height
+    prod(img, "p34_chalk", 340, 810, pb - 60)
     d = ImageDraw.Draw(img)
     names = [n.title() for n in COLOURS]
     gap = 160
     x0 = W / 2 - gap * 2.5
-    yy = y + 30
+    yy = pb + 100
     for i, n in enumerate(COLOURS):
         cx = x0 + i * gap
         d.ellipse((cx - 30, yy, cx + 30, yy + 60), fill=SWATCH[n], outline=(210, 214, 218), width=2)
         f = inter(24, "Medium")
         draw_text(d, (cx - measure(f, names[i]) / 2, yy + 70), names[i], f, BODY)
     lib.TEXT_BOXES.append((x0 - 40, yy, x0 + gap * 5 + 40, yy + 100))
-    pill(img, S(c, "cta"), inter(36, "SemiBold"), W / 2, min(yy + 170, 1580), "cta", WHITE, padx=56, pady=18)
+    pill(img, S(c, "cta"), inter(36, "SemiBold"), W / 2, min(yy + 175, 1575), "cta", WHITE, padx=56, pady=18)
     return img
 
 
 PLACE = {}  # per-render note / arrow positions, set after seeing the chosen take
 BUILDERS = {"D1": d1, "D2": d2, "D3": d3, "D4": d4}
-SLUG = {"D1": "disney-fireworks-annotated", "D2": "disney-snapshot-board", "D3": "disney-postcard-future-you",
+SLUG = {"D1": "disney-fireworks-annotated", "D2": "disney-snapshot-board", "D3": "disney-parents-album-vs-camera-roll",
         "D4": "disney-main-street-colours"}
 
 if __name__ == "__main__":

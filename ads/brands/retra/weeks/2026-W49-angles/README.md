@@ -60,3 +60,6 @@ risk); still no characters and nothing implying Disney endorses Retra. Formats: 
 board (ILLUSTRATIVE prints), D3 postcard to future you, D4 Main Street hero + colour swatches. Copy: `copy_disney.json`
 (StefanBrain v2; `copy_disney_v1.json` first draft). Scenes: `disney_render.py` (patches render.REAL to allow the castle);
 layouts: `disney.py`. Sheet: `output/_sheet_disney_4x5.jpg`.
+Revision (Sam, same day): D1 re-rendered with the camera at true palm size (`d1b`); D4 now a film-look 4x6 print with the
+camera beside it (`d4p`; plain lab print, not instant film, since Retra doesn't print); D3 postcard replaced by "your
+parents' Disney photos vs your camera roll" (`d3v1`, `d3v2` faded 90s prints; `d3p` tiled as a camera roll).
