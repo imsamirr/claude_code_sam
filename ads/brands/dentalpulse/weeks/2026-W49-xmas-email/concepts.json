@@ -1,0 +1,76 @@
+{
+  "week": "2026-W49-xmas-email",
+  "notes": "Christmas email hero photos (no text).",
+  "concepts": [
+    {
+      "id": "XE_01_extended",
+      "group": "net_new",
+      "persona": "denture_caregiver",
+      "lang": "en",
+      "funnel": "offer",
+      "appliance": "denture_full",
+      "colorway": "pod",
+      "no_overlay": true,
+      "angle": "Christmas email hero (no text)",
+      "based_on": "Atria Dec 5-20 2025 holiday research",
+      "headline": "(email hero)",
+      "prompt": "A cozy Christmas bathroom vanity at night: warm string lights along the mirror, a small decorated pine sprig with red baubles, the white DentalPULSE Pod tied with a wide red satin ribbon bow, a bright white denture beside it, two small wrapped gifts in kraft paper with red ribbon. ABSOLUTELY NO TEXT, words, letters, logos or labels anywhere in the image, except the DentalPULSE wordmark printed on the Pod itself. Leave calm empty space in the top third (for an email headline added later). Must look like a real, high-end product/lifestyle photograph: natural light, real textures, soft shadows, not an AI render. The DentalPULSE Pod (white ribbed dome from the first reference image) RESTS on a surface, nobody holds it; compact, about 13 cm wide. Any appliance is about half the Pod's width. A clean denture has bright white teeth and fresh pink gums."
+    },
+    {
+      "id": "XE_02_gift_for_mom",
+      "group": "net_new",
+      "persona": "denture_caregiver",
+      "lang": "en",
+      "funnel": "offer",
+      "appliance": "denture_full",
+      "colorway": "denture_gift_bundle",
+      "no_overlay": true,
+      "angle": "Christmas email hero (no text)",
+      "based_on": "Atria Dec 5-20 2025 holiday research",
+      "headline": "(email hero)",
+      "prompt": "Under a softly lit Christmas tree with warm bokeh: an open gift box with white tissue paper holding the white DentalPULSE Pod, the small dark dental case and the black travel bag from the first reference image at their true sizes, a red velvet ribbon and a handwritten blank gift tag (no writing on it). ABSOLUTELY NO TEXT, words, letters, logos or labels anywhere in the image, except the DentalPULSE wordmark printed on the Pod itself. Leave calm empty space in the top third (for an email headline added later). Must look like a real, high-end product/lifestyle photograph: natural light, real textures, soft shadows, not an AI render. The DentalPULSE Pod (white ribbed dome from the first reference image) RESTS on a surface, nobody holds it; compact, about 13 cm wide. Any appliance is about half the Pod's width. A clean denture has bright white teeth and fresh pink gums."
+    },
+    {
+      "id": "XE_03_stocking",
+      "group": "net_new",
+      "persona": "denture_caregiver",
+      "lang": "en",
+      "funnel": "offer",
+      "appliance": "night_guard",
+      "colorway": "pod",
+      "no_overlay": true,
+      "angle": "Christmas email hero (no text)",
+      "based_on": "Atria Dec 5-20 2025 holiday research",
+      "headline": "(email hero)",
+      "prompt": "A red knit Christmas stocking hanging from a white fireplace mantel with pine garland and warm lights; the white DentalPULSE Pod peeks out of the top of the stocking and a clean translucent night guard rests on the mantel beside it. ABSOLUTELY NO TEXT, words, letters, logos or labels anywhere in the image, except the DentalPULSE wordmark printed on the Pod itself. Leave calm empty space in the top third (for an email headline added later). Must look like a real, high-end product/lifestyle photograph: natural light, real textures, soft shadows, not an AI render. The DentalPULSE Pod (white ribbed dome from the first reference image) RESTS on a surface, nobody holds it; compact, about 13 cm wide. Any appliance is about half the Pod's width. The night guard is a SOLID thick U-shaped hard-acrylic bite splint with a flat top, NOT a thin aligner; clean and translucent."
+    },
+    {
+      "id": "XE_04_gifts_inside",
+      "group": "net_new",
+      "persona": "denture_caregiver",
+      "lang": "en",
+      "funnel": "offer",
+      "appliance": "denture_full",
+      "colorway": "denture_gift_bundle",
+      "no_overlay": true,
+      "angle": "Christmas email hero (no text)",
+      "based_on": "Atria Dec 5-20 2025 holiday research",
+      "headline": "(email hero)",
+      "prompt": "Overhead flat lay on a deep green linen tablecloth: the white DentalPULSE Pod with a gold ribbon bow in the center, the small dark dental case and the black travel bag from the first reference image at true sizes beside it, scattered pine sprigs, cinnamon sticks, gold baubles and a strip of red ribbon. ABSOLUTELY NO TEXT, words, letters, logos or labels anywhere in the image, except the DentalPULSE wordmark printed on the Pod itself. Leave calm empty space in the top third (for an email headline added later). Must look like a real, high-end product/lifestyle photograph: natural light, real textures, soft shadows, not an AI render. The DentalPULSE Pod (white ribbed dome from the first reference image) RESTS on a surface, nobody holds it; compact, about 13 cm wide. Any appliance is about half the Pod's width. A clean denture has bright white teeth and fresh pink gums."
+    },
+    {
+      "id": "XE_05_last_chance",
+      "group": "net_new",
+      "persona": "denture_caregiver",
+      "lang": "en",
+      "funnel": "offer",
+      "appliance": "denture_full",
+      "colorway": "pod",
+      "no_overlay": true,
+      "angle": "Christmas email hero (no text)",
+      "based_on": "Atria Dec 5-20 2025 holiday research",
+      "headline": "(email hero)",
+      "prompt": "Christmas Eve mood: a bathroom windowsill at dusk with snow falling outside, a single candle and pine sprig, the white DentalPULSE Pod with a red bow in soft window light, a bright white denture beside it, cool blue outside and warm light inside. ABSOLUTELY NO TEXT, words, letters, logos or labels anywhere in the image, except the DentalPULSE wordmark printed on the Pod itself. Leave calm empty space in the top third (for an email headline added later). Must look like a real, high-end product/lifestyle photograph: natural light, real textures, soft shadows, not an AI render. The DentalPULSE Pod (white ribbed dome from the first reference image) RESTS on a surface, nobody holds it; compact, about 13 cm wide. Any appliance is about half the Pod's width. A clean denture has bright white teeth and fresh pink gums."
+    }
+  ]
+}
