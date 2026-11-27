@@ -361,7 +361,8 @@
       "rule": "User 2026-11-24: statics re-themed as HOLIDAY SALE with the same offer 60% OFF SITEWIDE (no gift bundle, no Black Friday wording).",
       "offer": "\"60% OFF SITEWIDE\" + 'Free shipping & returns · 30-day money-back guarantee'; LEAKED10 extra 10% in primary text. Price $59.95 (was $120). No end date confirmed: no deadlines or hours-left.",
       "theme": "HOLIDAY SALE theme: warm white/cream backgrounds, festive red (#D7141A) for the offer box, pills and key words, small deep pine-green and gold accents (a sprig of holly or pine, a thin gold ribbon, a few gold sparkles or snowflakes). Black only for body text. No dark backgrounds; restrained, not overly colorful. Compact banner: one red box '60% OFF SITEWIDE' + one small line 'Free shipping & returns · 30-day money-back guarantee'. 'HOLIDAY SALE' as the kicker/headline tag.",
-      "offer_update_2026_11_27": "User 2026-11-27: HOLIDAY SALE = 60% OFF SITEWIDE + FREE GIFTS ADDED TO ALL ORDERS + FREE SHIPPING (gifts assumed = 3-pack cushioned socks + travel bag, as in the BF offer; confirm). The BF 'never both' rule does not apply to this offer."
+      "offer_update_2026_11_27": "User 2026-11-27: HOLIDAY SALE = 60% OFF SITEWIDE + FREE GIFTS ADDED TO ALL ORDERS + FREE SHIPPING (gifts assumed = 3-pack cushioned socks + travel bag, as in the BF offer; confirm). The BF 'never both' rule does not apply to this offer.",
+      "last_sale_2026_11_27": "User 2026-11-27: the Holiday Sale may be called our 'last sale' (of the year) in copy."
     }
   },
   "colorway_template": "The shoe is the {label} colorway shown in the reference photo.",
@@ -1947,6 +1948,10 @@
     "d25_HKd": {
       "file": "reference/benchmarks/d25_HKd.jpg",
       "use_for": "DEC 1-25 2025 WINNER ref (Hike, 2025-12-19, 102 days: red 2-line headline + big shoe + 4 small feature photos with captions; Atria 2026-11-27). Recreate the layout only; never their brand, prices or claims."
+    },
+    "u_note_holiday_offer": {
+      "file": "reference/benchmarks/u_note_holiday_offer.jpg",
+      "use_for": "USER-SENT FORMAT ref 2026-11-27 (Retra camera): 'A quick note on our holiday offer.' white page, big navy serif headline, short tan rule, ~110-word serif paragraph left column, two tilted polaroid lifestyle photos + product cutout in the right column, handwritten-script sign-off 'Warmly, The ... Team'. Recreate the layout only; never their brand or product."
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
