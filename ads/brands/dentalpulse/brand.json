@@ -1151,6 +1151,38 @@
     "rv_bfa_giant_type": {
       "file": "reference/benchmarks/rv_ref_bfa_giant_type.jpg",
       "use_for": "LAYOUT reference only (Atria Black Friday research Nov 21: Cheeky Cherry: giant repeated condensed 'BLACK FRIDAY' type filling the frame, round product badge and round -% sticker). Recreate its structure for a DentalPULSE ad; never copy its words, product or brand."
+    },
+    "rv_xm_dark_bow_hero": {
+      "file": "reference/benchmarks/rv_ref_xm_dark_bow_hero.jpg",
+      "use_for": "LAYOUT reference only (Atria, Christmas window Dec 5-20 2025: Odenson Dec 8 2025: dark moody product hero tied with a red bow, small 'HOLIDAY SALE' + big '30% OFF' beside it). Recreate its structure for a DentalPULSE ad; never copy its words, product, codes or brand."
+    },
+    "rv_xm_light_ribbon": {
+      "file": "reference/benchmarks/rv_ref_xm_light_ribbon.jpg",
+      "use_for": "LAYOUT reference only (Atria, Christmas window Dec 5-20 2025: Odenson Dec 8 2025: light grey background, gold curling ribbons, big condensed '30% OFF / HOLIDAY SALE' left, product right, small gift line). Recreate its structure for a DentalPULSE ad; never copy its words, product, codes or brand."
+    },
+    "rv_xm_red_big_number": {
+      "file": "reference/benchmarks/rv_ref_xm_red_big_number.jpg",
+      "use_for": "LAYOUT reference only (Atria, Christmas window Dec 5-20 2025: Megelin Dec 5 2025: full red scene, person using product, right side 'DON'T MISS SALE' + huge thin serif '40% OFF'). Recreate its structure for a DentalPULSE ad; never copy its words, product, codes or brand."
+    },
+    "rv_xm_mega_offer_pain": {
+      "file": "reference/benchmarks/rv_ref_xm_mega_offer_pain.jpg",
+      "use_for": "LAYOUT reference only (Atria, Christmas window Dec 5-20 2025: Inner Dose Dec 16 2025: dark bg, orange 'MEGA OFFER' headline, orange pain line 'STOP THE ... FAST', product row, round % badge, outlined bottom pill). Recreate its structure for a DentalPULSE ad; never copy its words, product, codes or brand."
+    },
+    "rv_xm_sticky_ugc": {
+      "file": "reference/benchmarks/rv_ref_xm_sticky_ugc.jpg",
+      "use_for": "LAYOUT reference only (Atria, Christmas window Dec 5-20 2025: SmileTherapy Dec 8 2025: raw phone photo of product boxes on a desk with a yellow sticky note 'Get one, gift one, & save'). Recreate its structure for a DentalPULSE ad; never copy its words, product, codes or brand."
+    },
+    "rv_xm_was_now_serif": {
+      "file": "reference/benchmarks/rv_ref_xm_was_now_serif.jpg",
+      "use_for": "LAYOUT reference only (Atria, Christmas window Dec 5-20 2025: Nolan Dec 5 2025: cream minimal, struck 'WAS $' + red 'NOW $', product on a pale circle, serif 'Sale' + big '70% OFF'). Recreate its structure for a DentalPULSE ad; never copy its words, product, codes or brand."
+    },
+    "rv_xm_stocking_curtain": {
+      "file": "reference/benchmarks/rv_ref_xm_stocking_curtain.jpg",
+      "use_for": "LAYOUT reference only (Atria, Christmas window Dec 5-20 2025: Hally Dec 17 2025: red velvet curtain with ornaments, white script 'Stocking stuffers' + 'THAT AREN'T JUNK', product on a gold plinth). Recreate its structure for a DentalPULSE ad; never copy its words, product, codes or brand."
+    },
+    "rv_xm_black_gold_badge": {
+      "file": "reference/benchmarks/rv_ref_xm_black_gold_badge.jpg",
+      "use_for": "LAYOUT reference only (Atria, Christmas window Dec 5-20 2025: Inner Dose Dec 16 2025: black + gold, gold headline, small benefit pills, big gold seal % badge, product). Recreate its structure for a DentalPULSE ad; never copy its words, product, codes or brand."
     }
   },
   "scale_note": "Pod 132.5x110x85 mm (store spec). Bathroom only, never handheld (user, Oct 30 second round: rejected RV_18/19/20 and palm shots).",
