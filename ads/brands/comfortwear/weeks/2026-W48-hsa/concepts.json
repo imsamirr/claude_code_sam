@@ -1,0 +1,516 @@
+{
+ "week": "2026-W48-hsa",
+ "notes": "User 2026-11-27: HSA/FSA year-end concepts from 8 approved refs. Copy by StefanBrain.",
+ "concepts": [
+  {
+   "id": "FS_F01",
+   "persona": "nurse",
+   "colorway": "black_purple",
+   "benchmark": "fsa_F01",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HSA/FSA YEAR-END + HOLIDAY SALE 2026: Ortho Stretch is HSA/FSA eligible (approved claim). Many FSA plans are use-it-or-lose-it by Dec 31 (some plans have a grace period or carryover, so say 'many FSA plans'). HSA balances roll over: never say HSA dollars expire. Holiday Sale: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120). No other deadlines, no stock stories.",
+   "risk": "moderate",
+   "bets": [
+    "angle: FSA use-it-or-lose-it Dec 31 + HSA/FSA eligible"
+   ],
+   "angle": "nurse x Holiday Sale gifts",
+   "format": "Real-looking photo: two nurses in scrubs outside a hospital entrance at dusk holding a big handwritten cardboard sign (black + red + gold marker) about the Holiday Sale + using FSA dollars; shoes visible on their feet",
+   "based_on": "HSA/FSA year-end ref fsa_F01 (user approved 2026-11-27)",
+   "copy_slots": [
+    "sign text (max 10 words, handwritten)"
+   ],
+   "reference_blocks": [
+    "Real-looking photo: two nurses in scrubs outside a hospital entrance at dusk holding a big handwritten cardboard sign (black + red + gold marker) about the Holiday Sale + using FSA dollars; shoes visible on their feet"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+    "language": [
+     "12s",
+     "the unit",
+     "my locker",
+     "limping to my car",
+     "hour 10",
+     "break room"
+    ],
+    "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+    "dream": "nurse with energy left to cook for her kids after a 12",
+    "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+    "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+    "gain_now": "Spend FSA dollars that may expire Dec 31 on shoes she wears daily, plus 60% off + free gifts",
+    "lose_later": "Many FSA plans: unspent funds are lost after Dec 31",
+    "who": "a nurse friend sharing the deal",
+    "topic": "nurse x Holiday Sale (60% off + free gifts)",
+    "format": "Real-looking photo: two nurses in scrubs outside a hospital entrance at dusk holding a big handwritten cardboard sign (black + red + gold marker) about the Holiday Sale + using FSA dollars; shoes visible on their feet",
+    "concept": "Real-looking photo: two nurses in scrubs outside a hospital entrance at dusk holding a big handwritten cardboard sign (black + red + gold marker) about the Holiday Sale + using FSA dollars; shoes visible on their feet",
+    "visual_hook": "Real-looking photo: two nurses in scrubs outside a hospital entrance at dusk holding a big handwritten cardboard sign (black + red + gold marker) about the Holiday Sale + using FSA dollars; shoes visible on their feet"
+   },
+   "copy_notes": "HSA/FSA year-end. 'Many FSA plans expire Dec 31'; never say HSA expires. Holiday Sale offer in a small line. No invented reviews, no cure/relief/durability promises.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "hsa_fsa"
+   ]
+  },
+  {
+   "id": "FS_F02",
+   "persona": "active_retiree",
+   "colorway": "light_grey",
+   "benchmark": "fsa_F03",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HSA/FSA YEAR-END + HOLIDAY SALE 2026: Ortho Stretch is HSA/FSA eligible (approved claim). Many FSA plans are use-it-or-lose-it by Dec 31 (some plans have a grace period or carryover, so say 'many FSA plans'). HSA balances roll over: never say HSA dollars expire. Holiday Sale: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120). No other deadlines, no stock stories.",
+   "risk": "moderate",
+   "bets": [
+    "angle: FSA use-it-or-lose-it Dec 31 + HSA/FSA eligible"
+   ],
+   "angle": "active_retiree x Holiday Sale gifts",
+   "format": "Canopy-style premium: shoe on a warm cream set with a red ribbon and a gold ornament, big white/dark headline top about FSA dollars expiring soon, small subline, round 'HSA/FSA eligible' badge with check",
+   "based_on": "HSA/FSA year-end ref fsa_F03 (user approved 2026-11-27)",
+   "copy_slots": [
+    "headline",
+    "subline",
+    "badge"
+   ],
+   "reference_blocks": [
+    "Canopy-style premium: shoe on a warm cream set with a red ribbon and a gold ornament, big white/dark headline top about FSA dollars expiring soon, small subline, round 'HSA/FSA eligible' badge with check"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 50-70, active retiree/on her feet, heel and arch pain (plantar fasciitis-type morning heel pain), tried insoles and 'comfort' brands",
+    "language": [
+     "first steps in the morning",
+     "stabbing heel",
+     "plantar fasciitis",
+     "insoles",
+     "standing all day"
+    ],
+    "angle_habit": "buying insoles and moving them shoe to shoe",
+    "dream": "daily walks and errands without counting steps",
+    "identification": "the first steps out of bed / after sitting feel like stepping on a tack",
+    "point_of_contact": "flat, tapered sneakers + hard floors",
+    "function_mechanism": "Insoles add arch support but sit in a narrow shoe and eat toe room; she needs support, room and roll in one shoe. Never cure/treatment/instant-relief claims.",
+    "conditions": "DIY: insoles, ice bottle, stretching, $350 custom inserts (real review quote #10).",
+    "anchoring": "$59.95 vs $350 custom inserts (real review)",
+    "risk_reversal": "30 days on her own feet",
+    "who": "a woman with the same heel pain",
+    "gain_now": "Spend FSA dollars that may expire Dec 31 on shoes she wears daily, plus 60% off + free gifts",
+    "lose_later": "Many FSA plans: unspent funds are lost after Dec 31",
+    "format": "Canopy-style premium: shoe on a warm cream set with a red ribbon and a gold ornament, big white/dark headline top about FSA dollars expiring soon, small subline, round 'HSA/FSA eligible' badge with check",
+    "concept": "Canopy-style premium: shoe on a warm cream set with a red ribbon and a gold ornament, big white/dark headline top about FSA dollars expiring soon, small subline, round 'HSA/FSA eligible' badge with check",
+    "visual_hook": "Canopy-style premium: shoe on a warm cream set with a red ribbon and a gold ornament, big white/dark headline top about FSA dollars expiring soon, small subline, round 'HSA/FSA eligible' badge with check",
+    "topic": "active_retiree x Holiday Sale (60% off + free gifts)"
+   },
+   "copy_notes": "HSA/FSA year-end. 'Many FSA plans expire Dec 31'; never say HSA expires. Holiday Sale offer in a small line. No invented reviews, no cure/relief/durability promises.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "hsa_fsa"
+   ]
+  },
+  {
+   "id": "FS_F03",
+   "persona": "gift_for_her",
+   "colorway": "grey_pink",
+   "benchmark": "fsa_F04",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HSA/FSA YEAR-END + HOLIDAY SALE 2026: Ortho Stretch is HSA/FSA eligible (approved claim). Many FSA plans are use-it-or-lose-it by Dec 31 (some plans have a grace period or carryover, so say 'many FSA plans'). HSA balances roll over: never say HSA dollars expire. Holiday Sale: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120). No other deadlines, no stock stories.",
+   "risk": "moderate",
+   "bets": [
+    "angle: FSA use-it-or-lose-it Dec 31 + HSA/FSA eligible"
+   ],
+   "angle": "gift_for_her x Holiday Sale gifts",
+   "format": "Daily Harvest-style: elegant dark serif headline left on soft sky-blue/cream (use FSA dollars on shoes you'll wear every day), round green-or-red sticker 'USE BEFORE 12/31', hand holding one shoe right, small line + pill",
+   "based_on": "HSA/FSA year-end ref fsa_F04 (user approved 2026-11-27)",
+   "copy_slots": [
+    "headline (serif, 4-5 lines)",
+    "sticker",
+    "small line"
+   ],
+   "reference_blocks": [
+    "Daily Harvest-style: elegant dark serif headline left on soft sky-blue/cream (use FSA dollars on shoes you'll wear every day), round green-or-red sticker 'USE BEFORE 12/31', hand holding one shoe right, small line + pill"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 35-60 buying a holiday gift for her mom/grandma (65+) who stands or walks a lot and complains about sore feet",
+    "language": [
+     "mom",
+     "her feet",
+     "she never buys herself anything",
+     "stocking",
+     "under the tree"
+    ],
+    "angle_habit": "giving slippers/socks every year",
+    "dream": "mom walking the mall / the grandkids' game comfortably",
+    "identification": "mom saying 'my feet are killing me' at every family outing",
+    "point_of_contact": "mom's old worn-out sneakers",
+    "function_mechanism": "Slippers and soft sneakers have no support; her feet swell; she needs support + room + roll in one shoe.",
+    "conditions": "Gift is easy to return/exchange: 30-day money-back guarantee, free shipping & returns.",
+    "anchoring": "$59.95 vs another sweater she won't wear",
+    "risk_reversal": "30-day money-back guarantee if they don't suit her",
+    "who": "daughter",
+    "gain_now": "Spend FSA dollars that may expire Dec 31 on shoes she wears daily, plus 60% off + free gifts",
+    "lose_later": "Many FSA plans: unspent funds are lost after Dec 31",
+    "format": "Daily Harvest-style: elegant dark serif headline left on soft sky-blue/cream (use FSA dollars on shoes you'll wear every day), round green-or-red sticker 'USE BEFORE 12/31', hand holding one shoe right, small line + pill",
+    "concept": "Daily Harvest-style: elegant dark serif headline left on soft sky-blue/cream (use FSA dollars on shoes you'll wear every day), round green-or-red sticker 'USE BEFORE 12/31', hand holding one shoe right, small line + pill",
+    "visual_hook": "Daily Harvest-style: elegant dark serif headline left on soft sky-blue/cream (use FSA dollars on shoes you'll wear every day), round green-or-red sticker 'USE BEFORE 12/31', hand holding one shoe right, small line + pill",
+    "topic": "gift_for_her x Holiday Sale (60% off + free gifts)"
+   },
+   "copy_notes": "HSA/FSA year-end. 'Many FSA plans expire Dec 31'; never say HSA expires. Holiday Sale offer in a small line. No invented reviews, no cure/relief/durability promises.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "hsa_fsa"
+   ]
+  },
+  {
+   "id": "FS_F04",
+   "persona": "traveler",
+   "colorway": "navy_blue",
+   "benchmark": "fsa_F05",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HSA/FSA YEAR-END + HOLIDAY SALE 2026: Ortho Stretch is HSA/FSA eligible (approved claim). Many FSA plans are use-it-or-lose-it by Dec 31 (some plans have a grace period or carryover, so say 'many FSA plans'). HSA balances roll over: never say HSA dollars expire. Holiday Sale: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120). No other deadlines, no stock stories.",
+   "risk": "moderate",
+   "bets": [
+    "angle: FSA use-it-or-lose-it Dec 31 + HSA/FSA eligible"
+   ],
+   "angle": "traveler x Holiday Sale gifts",
+   "format": "BACtrack-style: bold navy headline 'Your FSA balance expires Dec 31. ... is eligible.' + 1-line details, flat lay on light blue: the pair, a generic HSA/FSA debit card (no bank name), reading glasses, a passport",
+   "based_on": "HSA/FSA year-end ref fsa_F05 (user approved 2026-11-27)",
+   "copy_slots": [
+    "headline (2 sentences)",
+    "detail line"
+   ],
+   "reference_blocks": [
+    "BACtrack-style: bold navy headline 'Your FSA balance expires Dec 31. ... is eligible.' + 1-line details, flat lay on light blue: the pair, a generic HSA/FSA debit card (no bank name), reading glasses, a passport"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 50-70, bucket-list traveler (Europe/Disney), grandmother, years of sore heels after long sightseeing days",
+    "language": [
+     "cobblestones",
+     "20,000 steps",
+     "the walking tour",
+     "day 2",
+     "packing",
+     "the trip"
+    ],
+    "angle_habit": "packing her 'comfortable sneakers' for a walking trip",
+    "dream": "traveler who does the walking tour instead of the bus",
+    "identification": "the trip of a lifetime spent on a bench by day 2",
+    "point_of_contact": "her sneakers / uneven cobblestones / long walking days (travel winners TOFV1_JW1, Kyro 293/369 trip diaries)",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Running sneakers work on flat pavement for a short jog, not 20,000 steps on uneven stone with travel-swollen feet. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: packing 3 pairs, adding insoles, buying cheap 'comfort' sneakers that go flat. Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the trip she paid thousands for and spent on a bench",
+    "risk_reversal": "30 days = test them on long walks at home before the trip",
+    "gain_now": "Spend FSA dollars that may expire Dec 31 on shoes she wears daily, plus 60% off + free gifts",
+    "lose_later": "Many FSA plans: unspent funds are lost after Dec 31",
+    "who": "a travel friend sharing the deal",
+    "topic": "traveler x Holiday Sale (60% off + free gifts)",
+    "format": "BACtrack-style: bold navy headline 'Your FSA balance expires Dec 31. ... is eligible.' + 1-line details, flat lay on light blue: the pair, a generic HSA/FSA debit card (no bank name), reading glasses, a passport",
+    "concept": "BACtrack-style: bold navy headline 'Your FSA balance expires Dec 31. ... is eligible.' + 1-line details, flat lay on light blue: the pair, a generic HSA/FSA debit card (no bank name), reading glasses, a passport",
+    "visual_hook": "BACtrack-style: bold navy headline 'Your FSA balance expires Dec 31. ... is eligible.' + 1-line details, flat lay on light blue: the pair, a generic HSA/FSA debit card (no bank name), reading glasses, a passport"
+   },
+   "copy_notes": "HSA/FSA year-end. 'Many FSA plans expire Dec 31'; never say HSA expires. Holiday Sale offer in a small line. No invented reviews, no cure/relief/durability promises.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "hsa_fsa"
+   ]
+  },
+  {
+   "id": "FS_F05",
+   "persona": "plus_size",
+   "colorway": "all_black",
+   "benchmark": "fsa_F08",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HSA/FSA YEAR-END + HOLIDAY SALE 2026: Ortho Stretch is HSA/FSA eligible (approved claim). Many FSA plans are use-it-or-lose-it by Dec 31 (some plans have a grace period or carryover, so say 'many FSA plans'). HSA balances roll over: never say HSA dollars expire. Holiday Sale: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120). No other deadlines, no stock stories.",
+   "risk": "moderate",
+   "bets": [
+    "angle: FSA use-it-or-lose-it Dec 31 + HSA/FSA eligible"
+   ],
+   "angle": "plus_size x Holiday Sale gifts",
+   "format": "Therabody-style: big check-mark HSA & FSA logo-type at top, headline about using HSA/FSA dollars before 12/31, the pair + free socks laid out on warm beige",
+   "based_on": "HSA/FSA year-end ref fsa_F08 (user approved 2026-11-27)",
+   "copy_slots": [
+    "logo text",
+    "headline (3 lines)"
+   ],
+   "reference_blocks": [
+    "Therabody-style: big check-mark HSA & FSA logo-type at top, headline about using HSA/FSA dollars before 12/31, the pair + free socks laid out on warm beige"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 45-65, plus-size (220-280 lb), on her feet at work and on errands, sore heels and arches by afternoon, feels most shoes aren't built for her weight",
+    "language": [
+     "my weight",
+     "by the afternoon",
+     "heels pounding",
+     "shoes go flat",
+     "wide feet"
+    ],
+    "angle_habit": "buying cheap 'comfort' sneakers that flatten under her weight in weeks",
+    "dream": "walking the whole day/trip without hunting for a chair",
+    "identification": "sitting down every chance she gets because her heels throb",
+    "point_of_contact": "her shoes going flat under her weight (plus-size winners: 'I lost 50lbs+ after walking 20,000 steps', Kyro 170)",
+    "function_mechanism": "More weight compresses soft foam faster, so 'cushy' shoes go flat sooner and swollen feet get squeezed. She needs support that doesn't collapse, room that gives as feet swell, and a sole that rolls the step forward.",
+    "conditions": "DIY fixes: sizing up (heel slips), insoles (eat toe room), memory-foam slip-ons (collapse). Never promise 'fits everyone' or 'extra wide'.",
+    "anchoring": "$59.95 vs replacing flattened $40 sneakers every few months",
+    "risk_reversal": "30 days of her real days on her own feet",
+    "who": "a woman who's been there",
+    "gain_now": "Spend FSA dollars that may expire Dec 31 on shoes she wears daily, plus 60% off + free gifts",
+    "lose_later": "Many FSA plans: unspent funds are lost after Dec 31",
+    "format": "Therabody-style: big check-mark HSA & FSA logo-type at top, headline about using HSA/FSA dollars before 12/31, the pair + free socks laid out on warm beige",
+    "concept": "Therabody-style: big check-mark HSA & FSA logo-type at top, headline about using HSA/FSA dollars before 12/31, the pair + free socks laid out on warm beige",
+    "visual_hook": "Therabody-style: big check-mark HSA & FSA logo-type at top, headline about using HSA/FSA dollars before 12/31, the pair + free socks laid out on warm beige",
+    "topic": "plus_size x Holiday Sale (60% off + free gifts)"
+   },
+   "copy_notes": "HSA/FSA year-end. 'Many FSA plans expire Dec 31'; never say HSA expires. Holiday Sale offer in a small line. No invented reviews, no cure/relief/durability promises.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "hsa_fsa"
+   ]
+  },
+  {
+   "id": "FS_F06",
+   "persona": "active_retiree",
+   "colorway": "purple",
+   "benchmark": "fsa_F09",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HSA/FSA YEAR-END + HOLIDAY SALE 2026: Ortho Stretch is HSA/FSA eligible (approved claim). Many FSA plans are use-it-or-lose-it by Dec 31 (some plans have a grace period or carryover, so say 'many FSA plans'). HSA balances roll over: never say HSA dollars expire. Holiday Sale: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120). No other deadlines, no stock stories.",
+   "risk": "moderate",
+   "bets": [
+    "angle: FSA use-it-or-lose-it Dec 31 + HSA/FSA eligible"
+   ],
+   "angle": "active_retiree x Holiday Sale gifts",
+   "format": "ettitude-style: soft bright bedroom/hallway photo of a woman sitting on the bed edge putting on the shoes, elegant serif-italic headline across the middle about the smartest way to spend FSA dollars before they expire, small black pill button",
+   "based_on": "HSA/FSA year-end ref fsa_F09 (user approved 2026-11-27)",
+   "copy_slots": [
+    "headline (serif, 3 lines, one word italic)",
+    "pill"
+   ],
+   "reference_blocks": [
+    "ettitude-style: soft bright bedroom/hallway photo of a woman sitting on the bed edge putting on the shoes, elegant serif-italic headline across the middle about the smartest way to spend FSA dollars before they expire, small black pill button"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 50-70, active retiree/on her feet, heel and arch pain (plantar fasciitis-type morning heel pain), tried insoles and 'comfort' brands",
+    "language": [
+     "first steps in the morning",
+     "stabbing heel",
+     "plantar fasciitis",
+     "insoles",
+     "standing all day"
+    ],
+    "angle_habit": "buying insoles and moving them shoe to shoe",
+    "dream": "daily walks and errands without counting steps",
+    "identification": "the first steps out of bed / after sitting feel like stepping on a tack",
+    "point_of_contact": "flat, tapered sneakers + hard floors",
+    "function_mechanism": "Insoles add arch support but sit in a narrow shoe and eat toe room; she needs support, room and roll in one shoe. Never cure/treatment/instant-relief claims.",
+    "conditions": "DIY: insoles, ice bottle, stretching, $350 custom inserts (real review quote #10).",
+    "anchoring": "$59.95 vs $350 custom inserts (real review)",
+    "risk_reversal": "30 days on her own feet",
+    "who": "a woman with the same heel pain",
+    "gain_now": "Spend FSA dollars that may expire Dec 31 on shoes she wears daily, plus 60% off + free gifts",
+    "lose_later": "Many FSA plans: unspent funds are lost after Dec 31",
+    "format": "ettitude-style: soft bright bedroom/hallway photo of a woman sitting on the bed edge putting on the shoes, elegant serif-italic headline across the middle about the smartest way to spend FSA dollars before they expire, small black pill button",
+    "concept": "ettitude-style: soft bright bedroom/hallway photo of a woman sitting on the bed edge putting on the shoes, elegant serif-italic headline across the middle about the smartest way to spend FSA dollars before they expire, small black pill button",
+    "visual_hook": "ettitude-style: soft bright bedroom/hallway photo of a woman sitting on the bed edge putting on the shoes, elegant serif-italic headline across the middle about the smartest way to spend FSA dollars before they expire, small black pill button",
+    "topic": "active_retiree x Holiday Sale (60% off + free gifts)"
+   },
+   "copy_notes": "HSA/FSA year-end. 'Many FSA plans expire Dec 31'; never say HSA expires. Holiday Sale offer in a small line. No invented reviews, no cure/relief/durability promises.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "hsa_fsa"
+   ]
+  },
+  {
+   "id": "FS_F07",
+   "persona": "nurse",
+   "colorway": "navy_blue",
+   "benchmark": "fsa_F10",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HSA/FSA YEAR-END + HOLIDAY SALE 2026: Ortho Stretch is HSA/FSA eligible (approved claim). Many FSA plans are use-it-or-lose-it by Dec 31 (some plans have a grace period or carryover, so say 'many FSA plans'). HSA balances roll over: never say HSA dollars expire. Holiday Sale: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120). No other deadlines, no stock stories.",
+   "risk": "moderate",
+   "bets": [
+    "angle: FSA use-it-or-lose-it Dec 31 + HSA/FSA eligible"
+   ],
+   "angle": "nurse x Holiday Sale gifts",
+   "format": "Truvaga-style: big two-color headline 'Your FSA funds don't roll over'-type, subline, 'HSA/FSA eligible' check line, shoe center on a warm cream set, 4 rounded callout pills around it",
+   "based_on": "HSA/FSA year-end ref fsa_F10 (user approved 2026-11-27)",
+   "copy_slots": [
+    "headline (2 lines, second line red)",
+    "subline",
+    "4 callouts"
+   ],
+   "reference_blocks": [
+    "Truvaga-style: big two-color headline 'Your FSA funds don't roll over'-type, subline, 'HSA/FSA eligible' check line, shoe center on a warm cream set, 4 rounded callout pills around it"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+    "language": [
+     "12s",
+     "the unit",
+     "my locker",
+     "limping to my car",
+     "hour 10",
+     "break room"
+    ],
+    "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+    "dream": "nurse with energy left to cook for her kids after a 12",
+    "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+    "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+    "gain_now": "Spend FSA dollars that may expire Dec 31 on shoes she wears daily, plus 60% off + free gifts",
+    "lose_later": "Many FSA plans: unspent funds are lost after Dec 31",
+    "who": "a nurse friend sharing the deal",
+    "topic": "nurse x Holiday Sale (60% off + free gifts)",
+    "format": "Truvaga-style: big two-color headline 'Your FSA funds don't roll over'-type, subline, 'HSA/FSA eligible' check line, shoe center on a warm cream set, 4 rounded callout pills around it",
+    "concept": "Truvaga-style: big two-color headline 'Your FSA funds don't roll over'-type, subline, 'HSA/FSA eligible' check line, shoe center on a warm cream set, 4 rounded callout pills around it",
+    "visual_hook": "Truvaga-style: big two-color headline 'Your FSA funds don't roll over'-type, subline, 'HSA/FSA eligible' check line, shoe center on a warm cream set, 4 rounded callout pills around it"
+   },
+   "copy_notes": "HSA/FSA year-end. 'Many FSA plans expire Dec 31'; never say HSA expires. Holiday Sale offer in a small line. No invented reviews, no cure/relief/durability promises.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "hsa_fsa"
+   ]
+  },
+  {
+   "id": "FS_F08",
+   "persona": "plus_size",
+   "colorway": "black_white",
+   "benchmark": "fsa_F11",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HSA/FSA YEAR-END + HOLIDAY SALE 2026: Ortho Stretch is HSA/FSA eligible (approved claim). Many FSA plans are use-it-or-lose-it by Dec 31 (some plans have a grace period or carryover, so say 'many FSA plans'). HSA balances roll over: never say HSA dollars expire. Holiday Sale: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120). No other deadlines, no stock stories.",
+   "risk": "moderate",
+   "bets": [
+    "angle: FSA use-it-or-lose-it Dec 31 + HSA/FSA eligible"
+   ],
+   "angle": "plus_size x Holiday Sale gifts",
+   "format": "Aviron-style but LIGHT: huge bold 'DON'T WASTE YOUR FSA DOLLARS'-type headline on cream, a few dollar bills falling, shoe big in the lower half, small line 'Many FSA plans expire Dec 31' + offer line",
+   "based_on": "HSA/FSA year-end ref fsa_F11 (user approved 2026-11-27)",
+   "copy_slots": [
+    "headline (3 lines)",
+    "small line",
+    "offer line"
+   ],
+   "reference_blocks": [
+    "Aviron-style but LIGHT: huge bold 'DON'T WASTE YOUR FSA DOLLARS'-type headline on cream, a few dollar bills falling, shoe big in the lower half, small line 'Many FSA plans expire Dec 31' + offer line"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 45-65, plus-size (220-280 lb), on her feet at work and on errands, sore heels and arches by afternoon, feels most shoes aren't built for her weight",
+    "language": [
+     "my weight",
+     "by the afternoon",
+     "heels pounding",
+     "shoes go flat",
+     "wide feet"
+    ],
+    "angle_habit": "buying cheap 'comfort' sneakers that flatten under her weight in weeks",
+    "dream": "walking the whole day/trip without hunting for a chair",
+    "identification": "sitting down every chance she gets because her heels throb",
+    "point_of_contact": "her shoes going flat under her weight (plus-size winners: 'I lost 50lbs+ after walking 20,000 steps', Kyro 170)",
+    "function_mechanism": "More weight compresses soft foam faster, so 'cushy' shoes go flat sooner and swollen feet get squeezed. She needs support that doesn't collapse, room that gives as feet swell, and a sole that rolls the step forward.",
+    "conditions": "DIY fixes: sizing up (heel slips), insoles (eat toe room), memory-foam slip-ons (collapse). Never promise 'fits everyone' or 'extra wide'.",
+    "anchoring": "$59.95 vs replacing flattened $40 sneakers every few months",
+    "risk_reversal": "30 days of her real days on her own feet",
+    "who": "a woman who's been there",
+    "gain_now": "Spend FSA dollars that may expire Dec 31 on shoes she wears daily, plus 60% off + free gifts",
+    "lose_later": "Many FSA plans: unspent funds are lost after Dec 31",
+    "format": "Aviron-style but LIGHT: huge bold 'DON'T WASTE YOUR FSA DOLLARS'-type headline on cream, a few dollar bills falling, shoe big in the lower half, small line 'Many FSA plans expire Dec 31' + offer line",
+    "concept": "Aviron-style but LIGHT: huge bold 'DON'T WASTE YOUR FSA DOLLARS'-type headline on cream, a few dollar bills falling, shoe big in the lower half, small line 'Many FSA plans expire Dec 31' + offer line",
+    "visual_hook": "Aviron-style but LIGHT: huge bold 'DON'T WASTE YOUR FSA DOLLARS'-type headline on cream, a few dollar bills falling, shoe big in the lower half, small line 'Many FSA plans expire Dec 31' + offer line",
+    "topic": "plus_size x Holiday Sale (60% off + free gifts)"
+   },
+   "copy_notes": "HSA/FSA year-end. 'Many FSA plans expire Dec 31'; never say HSA expires. Holiday Sale offer in a small line. No invented reviews, no cure/relief/durability promises.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "hsa_fsa"
+   ]
+  }
+ ]
+}
