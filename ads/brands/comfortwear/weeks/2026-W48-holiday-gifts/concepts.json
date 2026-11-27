@@ -71,7 +71,7 @@
    "headline": "BIGGEST SALE OF THE YEAR",
    "on_image_text": [
     "500,000+ Happy Walkers",
-    "100% HSA/FSA Eligible",
+    "HSA/FSA Eligible",
     "30-Day Full Refund",
     "60% OFF SITEWIDE + FREE GIFTS + FREE SHIPPING"
    ],
@@ -81,7 +81,8 @@
    "copy_angle": "nurse x Holiday Sale gifts",
    "copy_why": "Built on winning nurse shift-fatigue proof (limping to car after 12s) paired with proven Q4 biggest sale header layout h25_HK5.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_623c072481fe4b47b5dd215bde1959ff"
+   "stefanbrain_chat": "chat_623c072481fe4b47b5dd215bde1959ff",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: BIGGEST SALE header + 3 stat columns + pair held in hands over red ribbon/roses + bottom offer bar. Image: a nurse's hands (navy scrub sleeves) holding up the pair over a soft cream background with a red satin ribbon and a few pine sprigs. Also show, small near the offer, a 3-pack of plain cushioned crew socks (rolled, with a paper band, no logo) and a plain dark zip travel shoe bag. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"BIGGEST SALE OF THE YEAR\" ; then \"500,000+ Happy Walkers\" ; \"HSA/FSA Eligible\" ; \"30-Day Full Refund\" ; \"60% OFF SITEWIDE + FREE GIFTS + FREE SHIPPING\". Every shoe is EXACTLY the knit shoe from the product reference (main color: black with purple accents unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H02",
@@ -159,7 +160,8 @@
    "copy_angle": "gift_for_her x Holiday Sale gifts",
    "copy_why": "Targets daughter gifting for older mom with tired feet, leveraging ComfoFeet high-spending holiday layout CF1.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_623c072481fe4b47b5dd215bde1959ff"
+   "stefanbrain_chat": "chat_623c072481fe4b47b5dd215bde1959ff",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: huge price-per-pair type top + diagonal lineup of 6 colors + red round 'last chance' badge. Image: six single shoes of the product model in six colors (grey with pink, light grey, purple, black with purple, navy with blue, red burgundy) in a diagonal overlapping row on white. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"$59.95 / PER PAIR\" ; then \"FREE GIFTS\" ; \"60% OFF SITEWIDE + FREE SHIPPING\". Every shoe is EXACTLY the knit shoe from the product reference (main color: grey with pink accents unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H03",
@@ -238,7 +240,8 @@
    "copy_angle": "traveler x Holiday Sale gifts",
    "copy_why": "Appeals to vacation walkers dreading cobblestone foot pain, using ComfoFeet holiday winner CF2 (code stamp layout).",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_623c072481fe4b47b5dd215bde1959ff"
+   "stefanbrain_chat": "chat_623c072481fe4b47b5dd215bde1959ff",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: headline over 3 shoes on a surface, big SALE + small line bottom-left, coupon-code stamp bottom-right. Image: three shoes (navy with blue, black with purple, light grey) standing on old cobblestones at a European Christmas market, warm lights blurred behind. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"Grab A Pair For $59.95\" ; then \"HOLIDAY SALE: 60% OFF + FREE GIFTS\" ; \"CODE: LEAKED10 | EXTRA 10% OFF\". Every shoe is EXACTLY the knit shoe from the product reference (main color: navy with bright blue accents (team name: White Blue) unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H04",
@@ -305,7 +308,7 @@
     "h25_winner"
    ],
    "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag",
-   "headline": "At 240 lbs, this $59.95 shoe didn't go flat.",
+   "headline": "I bought the $59.95 shoe. Here is why.",
    "on_image_text": [
     "Arch Support",
     "Cushioned Heel",
@@ -313,13 +316,14 @@
     "Non-Slip Grip",
     "60% OFF SITEWIDE + FREE GIFTS"
    ],
-   "primary_text": "When you are carrying extra weight, most comfort shoes are a joke. They feel great for ten minutes in the store because of that squishy memory foam. But two weeks in, that foam crushes down into flat cardboard. By 2 PM, your heels are pounding against the floor, your arches ache, and your feet are swollen and pinched. Sizing up does not work because your heel just slips out with every step. The Ortho Stretch Cushion Shoe is engineered differently: firm anatomical arch support that stays firm under real body weight, shock-absorbing cushioned heel with a rocker sole that guides your stride, generous wide toe box and flexible stretch-knit upper that give without squeezing, plus slip-resistant traction and elastic no-tie laces. During the Holiday Sale, get them for 60% OFF sitewide ($59.95, was $120). You also get a free 3-pack of cushioned socks and a free travel bag with every order, plus free shipping. Add code LEAKED10 at checkout for an extra 10% off. Put them to the test for 30 days on your real, busy days. If they flatten out or fail your feet, return them within 30 days for a full refund. Grab your pair today before the Holiday Sale ends.",
-   "fb_headline": "Support That Won't Flatten: $59.95",
+   "primary_text": "When you are carrying extra weight, most comfort shoes are a joke. They feel great for ten minutes in the store because of that squishy memory foam. But after a couple of weeks, that foam crushes down into flat cardboard. By 2 PM, your heels are pounding against the floor, your arches ache, and your feet are swollen and pinched. Sizing up does not work because your heel just slips out with every step. That is why I bought the Ortho Stretch Cushion Shoe. It is engineered differently: firm anatomical arch support that keeps your arches lifted, shock-absorbing cushioned heel with a rocker sole that guides your stride, generous wide toe box and flexible stretch-knit upper that give without squeezing, plus slip-resistant traction and elastic no-tie laces. During the Holiday Sale, get them for 60% OFF sitewide ($59.95, was $120). You also get a free 3-pack of cushioned socks and a free travel bag with every order, plus free shipping. Add code LEAKED10 at checkout for an extra 10% off. Put them to the test for 30 days on your real, busy days. If they do not give your feet the support you need, return them within 30 days for a full refund. Grab your pair today before the Holiday Sale ends.",
+   "fb_headline": "Why I Bought The $59.95 Shoe",
    "fb_description": "Free Shipping & 30-Day Trial",
    "copy_angle": "plus_size x Holiday Sale gifts",
    "copy_why": "Directs proven 'shoes flatten under my weight' VOC from Kyro 170 / customer digest into ComfoFeet holiday static CF3.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_623c072481fe4b47b5dd215bde1959ff"
+   "stefanbrain_chat": "chat_623c072481fe4b47b5dd215bde1959ff",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: first-person quote headline with red highlighted line + single shoe + 4 icon circles on a dotted line. Image: one shoe in clean side profile on a light cream background with a soft shadow. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"I bought the $59.95 shoe. Here is why.\" ; then \"Arch Support\" ; \"Cushioned Heel\" ; \"Wide Toe Box\" ; \"Non-Slip Grip\" ; \"60% OFF SITEWIDE + FREE GIFTS\". Every shoe is EXACTLY the knit shoe from the product reference (main color: all black (black upper, black midsole) unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H05",
@@ -385,7 +389,7 @@
     "h25_winner"
    ],
    "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag",
-   "headline": "500,000+ Women Wear This For Heel Pain",
+   "headline": "500,000+ Customers Wear This Shoe",
    "on_image_text": [
     "60% OFF SITEWIDE",
     "FREE GIFTS",
@@ -395,9 +399,10 @@
    "fb_headline": "Holiday Sale: 60% Off + Free Gifts",
    "fb_description": "Free Shipping & 30-Day Trial",
    "copy_angle": "active_retiree x Holiday Sale gifts",
-   "copy_why": "Holiday 2025 winner CF6 format paired with survey #10 custom-insert anchoring ($350 vs $59.95).",
+   "copy_why": "Holiday 2025 winner CF6 format with customer social-proof headline paired with survey #10 custom-insert anchoring ($350 vs $59.95).",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_a06a3d50ee1240238d36e44553a991a6"
+   "stefanbrain_chat": "chat_a06a3d50ee1240238d36e44553a991a6",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: big 2-line 'X people wear this for...' headline + shoe on scenic hill + 3 small pills. Image: one shoe standing on a snowy park path with soft winter trees, bright daylight. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"500,000+ Customers Wear This Shoe\" ; then \"60% OFF SITEWIDE\" ; \"FREE GIFTS\" ; \"FREE SHIPPING\". Every shoe is EXACTLY the knit shoe from the product reference (main color: light grey unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H06",
@@ -476,7 +481,8 @@
    "copy_angle": "nurse x Holiday Sale gifts",
    "copy_why": "Holiday 2025 winner CF7 layout paired with nurse pain-point data on hour-10 shift fatigue and parking-lot limp.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_a06a3d50ee1240238d36e44553a991a6"
+   "stefanbrain_chat": "chat_a06a3d50ee1240238d36e44553a991a6",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: 2-line headline + 3 shoes in a row + red price bar and 'last chance' line. Image: three shoes in a row (black with white, black with purple, navy with blue) on cream. Also show, small near the offer, a 3-pack of plain cushioned crew socks (rolled, with a paper band, no logo) and a plain dark zip travel shoe bag. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"Limping After A 12-Hour Shift?\" ; then \"$59.95 + FREE GIFTS\" ; \"60% Off | Free Shipping\". Every shoe is EXACTLY the knit shoe from the product reference (main color: black with white accents (team name: BlackWhite) unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H07",
@@ -555,7 +561,8 @@
    "copy_angle": "traveler x Holiday Sale gifts",
    "copy_why": "Hike winner HK1 layout paired with travel VOC on cobblestone walking fatigue and the bench-by-day-2 pain.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_a06a3d50ee1240238d36e44553a991a6"
+   "stefanbrain_chat": "chat_a06a3d50ee1240238d36e44553a991a6",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: red banner offer over top-down pair on textured ground, small white subline, thin bottom proof bar. Image: top-down photo of a pair worn by a woman standing on old cobblestones, a little snow, Christmas lights bokeh at the edge. Also show, small near the offer, a 3-pack of plain cushioned crew socks (rolled, with a paper band, no logo) and a plain dark zip travel shoe bag. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"60% OFF SITEWIDE + FREE GIFTS\" ; then \"Built For 20,000 Steps On Cobblestones\" ; \"Free Shipping\". Every shoe is EXACTLY the knit shoe from the product reference (main color: red / burgundy unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H08",
@@ -635,7 +642,8 @@
    "copy_angle": "gift_for_her x Holiday Sale gifts",
    "copy_why": "Hike winner HK2 layout paired with daughter gift-buyer angle and family outing fatigue identification.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_a06a3d50ee1240238d36e44553a991a6"
+   "stefanbrain_chat": "chat_a06a3d50ee1240238d36e44553a991a6",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: minimal cream: brand word, single shoe, round % sticker, one-line headline with highlighted words, 3 small feature boxes. Image: one shoe at a 3/4 angle on warm cream, minimal. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"The Gift Mom Will Actually Wear\" ; then \"60% OFF\" ; \"Arch Support\" ; \"FREE GIFTS\" ; \"Free Shipping\". Every shoe is EXACTLY the knit shoe from the product reference (main color: grey with pink accents unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H10",
@@ -702,20 +710,21 @@
     "h25_winner"
    ],
    "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag",
-   "headline": "Start Walking Without Throbbing Heels",
+   "headline": "Ready To Start Walking Again?",
    "on_image_text": [
-    "\"The first shoe that never flattens out.\"",
-    "Firm Arch Support",
+    "Cushioned rocker sole and stretch knit",
+    "Built-In Arch Support",
     "Wide Stretch Toe Box",
     "60% OFF + Free Gifts"
    ],
-   "primary_text": "If you carry extra weight, you know what happens to cheap comfort sneakers.\n\nThey feel like walking on clouds in the store. But after two or three weeks of real errands and shifts, that plush memory foam crushes flat as cardboard. Your heels pound the floor with every step, your arches throb, and by 2:00 PM you are scouting every room for an empty chair.\n\nSizing up does not work because your heel just slips out of the back while the front stays tight. And cramming insoles into a narrow shoe only squeezes your toes even worse.\n\nThe Ortho Stretch Cushion Shoe is built with real structure that holds up:\n\n• Firm arch support: stays supportive under your body weight instead of flattening out\n• Generous wide toe box: flexible stretch knit that expands as your feet swell throughout the day\n• Shock-absorbing rocker sole: cushions heel strikes and takes the pounding off your knees and lower back\n• Elastic bungee laces: pull them on and go without bending or struggling\n\nHoliday Sale Special:\nTake 60% OFF sitewide right now at $59.95 (was $120).\n\nEvery order receives free gifts:\n• Free 3-pack of cushioned socks\n• Free travel bag\n• Free shipping\n\nEnter code LEAKED10 at checkout to take an extra 10% off (60% OFF SITEWIDE + EXTRA 10% OFF).\n\nWear them for 30 days on your real routine: grocery runs, long walks, and busy days on your feet. If your heels still hurt, return them within 30 days for a full refund.",
+   "primary_text": "If you carry extra weight, you know what happens to cheap comfort sneakers.\n\nThey feel like walking on clouds in the store. But after two or three weeks of real errands and shifts, that plush memory foam crushes flat as cardboard. Your heels pound the floor with every step, your arches throb, and by 2:00 PM you are scouting every room for an empty chair.\n\nSizing up does not work because your heel just slips out of the back while the front stays tight. And cramming insoles into a narrow shoe only squeezes your toes even worse.\n\nThe Ortho Stretch Cushion Shoe is built with real structure that holds up:\n\n• Firm arch support: stays supportive under your body weight instead of flattening out\n• Generous wide toe box: flexible stretch knit that expands as your feet swell throughout the day\n• Shock-absorbing rocker sole: cushions heel strikes and takes the pounding off your knees and lower back\n• Elastic bungee laces: pull them on and go without bending or struggling\n\nHoliday Sale Special:\nTake 60% OFF sitewide right now at $59.95 (was $120).\n\nEvery order receives free gifts:\n• Free 3-pack of cushioned socks\n• Free travel bag\n• Free shipping\n\nEnter code LEAKED10 at checkout to take an extra 10% off (60% OFF SITEWIDE + EXTRA 10% OFF).\n\nWear them for 30 days on your real routine: grocery runs, long walks, and busy days on your feet. If you do not love the comfort and support, return them within 30 days for a full refund.",
    "fb_headline": "Walk In Comfort: 60% Off + Free Gifts",
    "fb_description": "Free Shipping & 30-Day Trial",
    "copy_angle": "plus_size x Holiday Sale gifts",
    "copy_why": "Targets foam flattening under body weight and afternoon chair-hunting from tired, squeezed feet.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_58387e192f0141c48d796588335cb48d"
+   "stefanbrain_chat": "chat_58387e192f0141c48d796588335cb48d",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: bold 2-line headline top, shoe held in hand center, 1-line quote caption, 3 green check pills. Image: a woman's hand holding one shoe up close at chest height, soft home background with a decorated tree blurred. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"Ready To Start Walking Again?\" ; then \"Cushioned rocker sole and stretch knit\" ; \"Built-In Arch Support\" ; \"Wide Stretch Toe Box\" ; \"60% OFF + Free Gifts\". Every shoe is EXACTLY the knit shoe from the product reference (main color: black with purple accents unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H11",
@@ -797,7 +806,8 @@
    "copy_angle": "nurse x Holiday Sale gifts",
    "copy_why": "Speaks to 12-hour hospital shift fatigue where running shoes fail by hour 10 on hard tile.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_58387e192f0141c48d796588335cb48d"
+   "stefanbrain_chat": "chat_58387e192f0141c48d796588335cb48d",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: red stacked sale headline + 4 circular feature photos + shoe on round pedestal + color dots. Image: one shoe on a round cream pedestal; four circle photo crops above (arch area, wide toe box, rocker sole, stretch knit). Text (place each where the reference layout puts the matching element, in this reading order): main headline \"HOLIDAY SALE: 60% OFF SITEWIDE\" ; then \"Arch Support\" ; \"Wide Toe Box\" ; \"Cushioned Heel\" ; \"Slip-Resistant Sole\" ; \"FREE GIFTS + FREE SHIPPING\". Every shoe is EXACTLY the knit shoe from the product reference (main color: navy with bright blue accents (team name: White Blue) unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H12",
@@ -873,7 +883,8 @@
    "copy_angle": "gift_for_her x Holiday Sale gifts",
    "copy_why": "Daughter holiday gifting angle replacing closet slippers with everyday pain-free walking shoes for mom.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_58387e192f0141c48d796588335cb48d"
+   "stefanbrain_chat": "chat_58387e192f0141c48d796588335cb48d",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: 4 lower-body product columns in 4 colors + big red 'BUY 1 GET 1 FREE' + small 'sale ends soon'. Image: four tall columns, each a woman's lower legs in dark jeans wearing the shoe in a different color (grey with pink, purple, light grey, navy with blue) against soft solid pastel backgrounds. Also show, small near the offer, a 3-pack of plain cushioned crew socks (rolled, with a paper band, no logo) and a plain dark zip travel shoe bag. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"HOLIDAY SALE: 60% OFF + FREE GIFTS\" ; then \"Free Shipping & 30-Day Money-Back Guarantee\". Every shoe is EXACTLY the knit shoe from the product reference (main color: purple with white accents unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H14",
@@ -940,18 +951,19 @@
     "h25_winner"
    ],
    "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag",
-   "headline": "Use Your HSA/FSA Before Dec 31",
+   "headline": "Use Your FSA Before Dec 31",
    "on_image_text": [
     "60% OFF + FREE GIFTS",
     "FREE SHIPPING"
    ],
-   "primary_text": "If you have unused HSA or FSA dollars sitting in your account, this is the easiest way to use them before December 31.\n\nFor years, my first steps out of bed every morning felt like stepping straight onto a sharp tack.\n\nI tried everything: rolling my heel on a frozen water bottle, calf stretches before getting up, and moving $60 drugstore insoles from shoe to shoe. I even looked into $350 custom orthotics.\n\nThe problem with insoles is simple: they add support, but they sit inside a shoe that is already too narrow. They crowd your toes, pinch your forefoot, and your heel still takes the full impact on hard floors.\n\nThe Ortho Stretch Cushion Shoe fixes all of that:\n• Built-in anatomical arch support that stays in place all day\n• A cushioned rocker sole that softens every heel strike and rolls your foot forward\n• An extra-wide toe box with breathable stretch-knit fabric that never pinches\n• Slip-resistant traction and elastic no-tie laces\n\nThey are HSA and FSA eligible, which can save you up to 30% using pre-tax funds.\n\nRight now during our Holiday Sale, they are 60% off sitewide: down to $59.95 from $120.\n\nEvery order also includes free gifts: a 3-pack of cushioned socks and a travel bag, with free shipping included.\n\nEnter code LEAKED10 at checkout to take an extra 10% off your order.\n\nWalk in them on your own floors for 30 days. If your heels do not thank you, return them for a full refund.",
-   "fb_headline": "Use HSA/FSA Before Dec 31 + 60% Off",
+   "primary_text": "If you have unused FSA dollars expiring on December 31, this is the easiest way to use them before you lose them.\n\nThey are also HSA eligible, saving you up to 30% with pre-tax funds.\n\nFor years, my first steps out of bed every morning felt like stepping straight onto a sharp tack.\n\nI tried everything: rolling my heel on a frozen water bottle, calf stretches before getting up, and moving $60 drugstore insoles from shoe to shoe. I even looked into $350 custom orthotics.\n\nThe problem with insoles is simple: they add support, but they sit inside a shoe that is already too narrow. They crowd your toes, pinch your forefoot, and your heel still takes the full impact on hard floors.\n\nThe Ortho Stretch Cushion Shoe fixes all of that:\n• Built-in anatomical arch support that stays in place all day\n• A cushioned rocker sole that softens every heel strike and rolls your foot forward\n• An extra-wide toe box with breathable stretch-knit fabric that never pinches\n• Slip-resistant traction and elastic no-tie laces\n\nRight now during our Holiday Sale, they are 60% off sitewide: down to $59.95 from $120.\n\nEvery order also includes free gifts: a 3-pack of cushioned socks and a travel bag, with free shipping included.\n\nEnter code LEAKED10 at checkout to take an extra 10% off your order.\n\nWalk in them on your own floors for 30 days. If your heels do not thank you, return them for a full refund.",
+   "fb_headline": "Use FSA Before Dec 31 + 60% Off",
    "fb_description": "Free Socks & Travel Bag",
    "copy_angle": "active_retiree x Holiday Sale gifts",
    "copy_why": "Orthofeet December FSA deadline pattern paired with the morning heel pain / tack VOC",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_28b2e592da7847af95a86dd84f9ff839"
+   "stefanbrain_chat": "chat_28b2e592da7847af95a86dd84f9ff839",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: outdoor walking photo low angle + white headline top-left + small save sticker. Image: low-angle photo of a woman's feet walking on a snowy sidewalk past a decorated storefront, wearing the shoes. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"Use Your FSA Before Dec 31\" ; then \"60% OFF + FREE GIFTS\" ; \"FREE SHIPPING\". Every shoe is EXACTLY the knit shoe from the product reference (main color: black with white accents (team name: BlackWhite) unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H15",
@@ -1029,7 +1041,8 @@
    "copy_angle": "active_retiree x Holiday Sale gifts",
    "copy_why": "Dogbiotics 'skip the visit' anchoring pattern applied to the $350 custom inserts customer review",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_28b2e592da7847af95a86dd84f9ff839"
+   "stefanbrain_chat": "chat_28b2e592da7847af95a86dd84f9ff839",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: 'Skip the $X visit' headline + hand holding product + big '50% OFF' + 'sale ends tonight'. Image: a woman's hand holding one shoe toward the camera, a discarded pair of hard custom insoles on the table beside, soft cream kitchen. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"Skip The $350 Custom Inserts\" ; then \"60% OFF SITEWIDE\" ; \"+ FREE GIFTS & SHIPPING\". Every shoe is EXACTLY the knit shoe from the product reference (main color: purple with white accents unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H17",
@@ -1096,7 +1109,7 @@
     "h25_winner"
    ],
    "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag",
-   "headline": "Saved my feet on 12-hour shifts.",
+   "headline": "\"I work 12 hour shifts and my feet and back don't hurt.\"",
    "on_image_text": [
     "HOLIDAY SALE · 60% OFF SITEWIDE · FREE GIFTS · FREE SHIPPING"
    ],
@@ -1104,9 +1117,10 @@
    "fb_headline": "Holiday Sale: 60% Off + Free Gifts",
    "fb_description": "Free Shipping & Full Refund",
    "copy_angle": "nurse x Holiday Sale gifts",
-   "copy_why": "Modeled on Vibit holiday winner format (creator holding product plus scrolling sale ticker), addressing nurse 12-hour floor pain and shoe compression mechanism.",
+   "copy_why": "Modeled on Vibit holiday winner format (creator holding product plus scrolling sale ticker), using a verbatim Trustpilot nurse review on 12-hour shifts.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_b012dc6a84884e478a9b5302d411a03d"
+   "stefanbrain_chat": "chat_b012dc6a84884e478a9b5302d411a03d",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: creator holding product to camera + scrolling sale ticker border on all 4 sides. Image: a smiling nurse (woman, 40s, navy scrubs, badge reel) in a bright hospital break room with a small garland, holding one shoe toward the camera like a creator video still. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"\"I work 12 hour shifts and my feet and back don't hurt.\"\" ; then \"HOLIDAY SALE · 60% OFF SITEWIDE · FREE GIFTS · FREE SHIPPING\". Every shoe is EXACTLY the knit shoe from the product reference (main color: black with purple accents unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H18",
@@ -1187,7 +1201,8 @@
    "copy_angle": "nurse x Holiday Sale gifts",
    "copy_why": "Modeled on Comfort Wear holiday winner OW1 (hands lacing pair, nurse trust pill, 3 icons, and offer tag), tackling running-shoe foam fatigue on hospital tiles.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_b012dc6a84884e478a9b5302d411a03d"
+   "stefanbrain_chat": "chat_b012dc6a84884e478a9b5302d411a03d",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: hands lacing pair on top + blue pill 'TRUSTED BY NURSES. BUILT FOR 12-HOUR SHIFTS' + 3 icon circles. Image: top: a nurse's hands tying the bungee toggle of the pair on a hospital floor, bright. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"Trusted by Nurses. Built for 12-Hour Shifts.\" ; then \"Arch Support\" ; \"Wide Toe Box\" ; \"Cushioned Heel\" ; \"Holiday Sale: 60% Off + Free Gifts\". Every shoe is EXACTLY the knit shoe from the product reference (main color: navy with bright blue accents (team name: White Blue) unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H19",
@@ -1246,7 +1261,7 @@
     "visual_hook": "OUR WINNER: 'Didn't buy yet?' + 3 Facebook comments with REAL Trustpilot quotes (no names; grey initial-free avatars) + shoe + offer line",
     "topic": "active_retiree x Holiday Sale (60% off + free gifts)"
    },
-   "copy_notes": "HOLIDAY SALE (not Black Friday). Offer on image: '60% OFF SITEWIDE' + 'FREE GIFTS' (with every order) + 'Free shipping'. Short on-image text (max ~25 words), big type for 60+. Never copy the reference's claims (pain relief, prevents falls, sold out, $39). Real quotes only where asked.",
+   "copy_notes": "HOLIDAY SALE (not Black Friday). Offer on image: '60% OFF SITEWIDE' + 'FREE GIFTS' (with every order) + 'Free shipping'. Short on-image text (max ~25 words), big type for 60+. Never copy the reference's claims (pain relief, prevents falls, sold out, $39). Real quotes only where asked. H19 on-image: headline + offer line by StefanBrain (first pass); quotes are verbatim Trustpilot reviews (voc/trustpilot.md §5 #9, #14, #16) after StefanBrain's revise returned the wrong concept.",
    "group": "net_new",
    "lang": "en",
    "tags": [
@@ -1256,18 +1271,19 @@
    "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag",
    "headline": "Didn't buy yet?",
    "on_image_text": [
-    "\"Better than my $350 custom inserts.\"",
-    "\"No morning heel pain.\"",
-    "\"Walked all day without aching.\"",
+    "\"First time my feet haven't hurt in years after standing all day long!\"",
+    "\"At 78 y.o. … They gave me great balance and stability for my daily walks.\"",
+    "\"The toe box looks narrow but isn't at all. Plenty of room for your toes to wiggle around.\"",
     "Holiday Sale: 60% Off + Free Gifts"
    ],
-   "primary_text": "That first step out of bed in the morning used to feel like stepping straight onto a nail. I tried everything: rolling my arches over frozen water bottles, calf stretches against the wall, and shoving drugstore insoles into every pair of shoes I owned. I even spent $350 on custom inserts from a specialist. But shoving a thick orthotic inside a regular shoe just pinched my toes and made my feet throb even worse. A neighbor told me about the Ortho Stretch Cushion Shoe. I was skeptical, but the design made sense: built-in arch support that keeps your foot in proper alignment, a deep cushioned heel that absorbs shock every time your foot strikes the floor, a wide toe box that gives your toes room to relax without pinching, and a breathable stretch-knit upper with elastic no-tie laces that slip right on. During our Holiday Sale, they are 60% off sitewide, down from $120 to just $59.95. Every holiday order also comes with two free gifts: a 3-pack of cushioned socks and a travel bag. Free shipping is included on every order. Enter code LEAKED10 at checkout for an extra 10% off. Try them on your own daily walks for 30 days. If you do not feel the difference from your very first morning step, return them within 30 days for a full refund.",
+   "primary_text": "Limping to my car after a 12-hour shift used to be my normal. At 7 AM, my running sneakers felt fine. But by 2 PM, my toes felt pinched, my arches were aching, and my heels were pounding against the hard hospital floor. Here is what nobody tells you about regular running shoes: they are built for short 30-minute jogs. On a 12-hour nursing shift, the soft foam compresses flat by hour 4. Worse, your feet naturally swell as the day goes on, so that narrow toe box turns into a clamp. Insoles did not help either. Shoving a thick insole inside a narrow sneaker just stole what little toe room I had left. A friend on my unit told me to try the Ortho Stretch Cushion Shoe. They solve the whole problem at once: built-in arch support and a cushioned heel that will not flatten out, a wide toe box that lets your toes spread naturally, stretch-knit fabric that expands comfortably as your feet swell, slip-resistant grip on slick hospital tiles, and elastic no-tie laces so you never touch dirty laces on shift. For the Holiday Sale, they are 60% off sitewide at just $59.95 (was $120). Every holiday order also gets two free gifts added automatically: a 3-pack of cushioned socks and a travel bag, plus free shipping. Enter code LEAKED10 at checkout for an extra 10% off. Try them for 30 days. That is 10 full shifts on your own feet. If you are not walking to your car with energy to spare, return them within 30 days for a full refund.",
    "fb_headline": "Holiday Sale: 60% Off + Free Gifts",
-   "fb_description": "Full Refund Within 30 Days",
-   "copy_angle": "active_retiree x Holiday Sale gifts",
-   "copy_why": "Modeled on Comfort Wear holiday winner OW3 (Didn't buy yet? reviews static), pulling real customer proof comparing $59.95 to $350 custom orthotics.",
+   "fb_description": "Free Shipping & Full Refund",
+   "copy_angle": "nurse x Holiday Sale gifts",
+   "copy_why": "Modeled on Vibit holiday winner format (creator holding product plus scrolling sale ticker), using a verbatim Trustpilot nurse review on 12-hour shifts.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_b012dc6a84884e478a9b5302d411a03d"
+   "stefanbrain_chat": "chat_b012dc6a84884e478a9b5302d411a03d",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: headline + 3 Facebook comments + shoe + small offer line + proof line. Image: one shoe bottom-right on cream. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"Didn't buy yet?\" ; then \"\"First time my feet haven't hurt in years after standing all day long!\"\" ; \"\"At 78 y.o. … They gave me great balance and stability for my daily walks.\"\" ; \"\"The toe box looks narrow but isn't at all. Plenty of room for your toes to wiggle around.\"\" ; \"Holiday Sale: 60% Off + Free Gifts\". Every shoe is EXACTLY the knit shoe from the product reference (main color: navy with bright blue accents (team name: White Blue) unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H20",
@@ -1350,7 +1366,8 @@
    "copy_angle": "nurse x Holiday Sale gifts",
    "copy_why": "Modeled on Comfort Wear holiday winner OW4 (nurse text static with bold title and red benefit bullets), countering failed DIY nurse fixes like sizing up, insoles, and wooden clogs.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_b012dc6a84884e478a9b5302d411a03d"
+   "stefanbrain_chat": "chat_b012dc6a84884e478a9b5302d411a03d",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: bold title + 6 red-plus benefit lines + shoe bottom right. Image: one shoe bottom-right on cream. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"12-HOUR SHIFT SHOES\" ; then \"+ Built-in arch support\" ; \"+ Wide stretch toe box\" ; \"+ Cushioned heel sole\" ; \"+ Slip-resistant grip\" ; \"+ Elastic no-tie laces\" ; \"Holiday Sale: 60% Off + Free Gifts\". Every shoe is EXACTLY the knit shoe from the product reference (main color: all black (black upper, black midsole) unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H21",
@@ -1430,7 +1447,8 @@
    "copy_angle": "active_retiree x Holiday Sale gifts",
    "copy_why": "Morning heel pain tack trigger and $350 custom insert anchor from customer review 10, paired with holiday winner OW7 layout.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_61381ce8faeb4b23a81e9a1a5b0c905e"
+   "stefanbrain_chat": "chat_61381ce8faeb4b23a81e9a1a5b0c905e",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: shoe photo + red pill headline + 3 condition icons + red proof bar. Image: the pair on a light wooden floor next to a small gift box. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"Holiday Sale: 60% Off Sitewide\" ; then \"Plantar Fasciitis\" ; \"Bunions\" ; \"Swollen Feet\" ; \"Free Gifts + Free Shipping\". Every shoe is EXACTLY the knit shoe from the product reference (main color: red / burgundy unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H22",
@@ -1497,18 +1515,19 @@
     "h25_winner"
    ],
    "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag",
-   "headline": "Support That Won't Flatten By Afternoon",
+   "headline": "Built For Long Days On Your Feet",
    "on_image_text": [
     "60% Off + Free Gifts",
     "Code: LEAKED10"
    ],
-   "primary_text": "By 2 in the afternoon, you catch yourself scanning every room for the nearest chair. Your heels are pounding against the floor, your arches ache, and your feet feel like they are being squeezed in a vise. If you are carrying extra weight, you already know the routine with most standard comfort sneakers. They feel like soft clouds in the store for the first ten minutes. But after two or three weeks of daily wear, the soft foam permanently compresses flat. Extra body weight compresses standard squishy foam fast. Once that cheap padding collapses, your heels take the full shock of every single step. Sizing up does not solve it either. Your heel just slips while your toes get pinched. You do not need softer foam that squishes down to nothing. You need real structural support that holds its shape. Comfort Wear designed the Ortho Stretch Cushion Shoe to give you support that will not collapse under daily pressure: a solid, podiatrist-recommended arch support base with a thick cushioned rocker sole that absorbs heavy heel impact and rolls your step forward, an anatomical wide toe box and flexible stretch-knit upper that comfortably accommodates swelling without pinching or cutting off circulation, elastic no-tie laces that flex with your foot all day long so there is no midday tightness across the top of your foot, and slip-resistant grip on the outsole to keep your footing steady on slick tile or wet sidewalks. Instead of spending $40 to $50 every few months on another pair of department store sneakers that flatten out in weeks, get footwear built for real support. Right now, during our Holiday Sale, get the Ortho Stretch Cushion Shoe for $59.95 (regularly $120) with 60% off sitewide. Every order also includes our Free Holiday Gift Bundle: a 3-pack of cushioned socks and a travel bag, plus free shipping. Use code LEAKED10 at checkout for an extra 10% off on top of 60% sitewide. Wear them for 30 full days on your feet at work, running errands, and living your normal routine. If they do not give you the all-day cushion and arch support you need, return them within 30 days for a full refund. Holiday Sale pricing and free gift bundles are available only while the holiday event is live.",
+   "primary_text": "By 2 in the afternoon, you catch yourself scanning every room for the nearest chair. Your heels are pounding against the floor, your arches ache, and your feet feel like they are being squeezed in a vise. If you are carrying extra weight, you already know the routine with most standard comfort sneakers. They feel like soft clouds in the store for the first ten minutes. But after two or three weeks of daily wear, the soft foam permanently compresses flat. Extra body weight compresses standard squishy foam fast. Once that cheap padding collapses, your heels take the full shock of every single step. Sizing up does not solve it either. Your heel just slips while your toes get pinched. You do not need softer foam that squishes down to nothing. You need real structural support that holds its shape. Comfort Wear designed the Ortho Stretch Cushion Shoe to give you real support built for daily pressure: a solid, podiatrist-recommended arch support base with a thick cushioned rocker sole that absorbs heavy heel impact and rolls your step forward, an anatomical wide toe box and flexible stretch-knit upper that comfortably accommodates swelling without pinching or cutting off circulation, elastic no-tie laces that flex with your foot all day long so there is no midday tightness across the top of your foot, and slip-resistant grip on the outsole to keep your footing steady on slick tile or wet sidewalks. Instead of spending $40 to $50 every few months on another pair of department store sneakers that flatten out in weeks, get footwear built for real support. Right now, during our Holiday Sale, get the Ortho Stretch Cushion Shoe for $59.95 (regularly $120) with 60% off sitewide. Every order also includes our Free Holiday Gift Bundle: a 3-pack of cushioned socks and a travel bag, plus free shipping. Use code LEAKED10 at checkout for an extra 10% off on top of 60% sitewide. Wear them for 30 full days on your feet at work, running errands, and living your normal routine. If they do not give you the all-day cushion and arch support you need, return them within 30 days for a full refund. Holiday Sale pricing and free gift bundles are available only while the holiday event is live.",
    "fb_headline": "Holiday Sale: 60% Off + Free Gifts",
    "fb_description": "$59.95 | Code: LEAKED10",
    "copy_angle": "plus_size x Holiday Sale gifts",
    "copy_why": "Heels pounding by afternoon and collapsing foam pattern from plus-size survey data, built on holiday winner OW6 layout.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_61381ce8faeb4b23a81e9a1a5b0c905e"
+   "stefanbrain_chat": "chat_61381ce8faeb4b23a81e9a1a5b0c905e",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: 2-line headline + 3 shoes + arrow note + red coupon-code stamp. Image: three shoes (navy with blue, black with purple, red burgundy) on cream. Also show, small near the offer, a 3-pack of plain cushioned crew socks (rolled, with a paper band, no logo) and a plain dark zip travel shoe bag. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"Built For Long Days On Your Feet\" ; then \"60% Off + Free Gifts\" ; \"Code: LEAKED10\". Every shoe is EXACTLY the knit shoe from the product reference (main color: navy with bright blue accents (team name: White Blue) unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H23",
@@ -1591,7 +1610,8 @@
    "copy_angle": "nurse x Holiday Sale gifts",
    "copy_why": "7 AM comfort vs limping to car after 12s contrast from nurse VOC, built on holiday 2025 winner OW2 layout.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_61381ce8faeb4b23a81e9a1a5b0c905e"
+   "stefanbrain_chat": "chat_61381ce8faeb4b23a81e9a1a5b0c905e",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: FLASH SALE header + diagonal color band + arch callout circle + shoe + offer text + 3 icons. Image: one shoe big in center with a circle callout magnifying the arch area. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"Holiday Sale\" ; then \"For 12-Hour Shifts\" ; \"60% Off + Free Gifts\" ; \"Arch Support\" ; \"Wide Toe\" ; \"Non-Slip\". Every shoe is EXACTLY the knit shoe from the product reference (main color: black with purple accents unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H25",
@@ -1671,7 +1691,8 @@
    "copy_angle": "Traveler x Holiday Sale Gifts (Cobblestones & 20,000 Steps)",
    "copy_why": "ComfoFeet holiday flat-lay winner CF5 paired with the bucket-list travel pain of day-2 walking fatigue on hard stone.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_8fe8d58531bb4b93a928a22719ebb954"
+   "stefanbrain_chat": "chat_8fe8d58531bb4b93a928a22719ebb954",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: red pill header + boxed subline + 5 shoes in a cluster + two red bottom boxes. Image: overhead flat lay on cream linen: the pair plus a 3-pack of plain cushioned crew socks (rolled, with a paper band, no logo) and a plain dark zip travel shoe bag, tied with a red ribbon. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"FREE GIFTS WITH EVERY ORDER\" ; then \"Free Socks + Travel Bag\" ; \"60% OFF SITEWIDE\" ; \"FREE SHIPPING\". Every shoe is EXACTLY the knit shoe from the product reference (main color: black with purple accents unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H27",
@@ -1750,7 +1771,8 @@
    "copy_angle": "Nurse Shift Fatigue x Holiday Sale Price Drop",
    "copy_why": "ComfoFeet holiday winner CF1 (price-per-pair + color lineup) built for hospital nurses facing hour-10 tile-floor heel burn.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_8fe8d58531bb4b93a928a22719ebb954"
+   "stefanbrain_chat": "chat_8fe8d58531bb4b93a928a22719ebb954",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: huge price-per-pair type top + diagonal lineup of 6 colors + red round 'last chance' badge. Image: the four nurse colors (black with purple, black with white, all black, navy with blue) in a diagonal overlapping row on white. Also show, small near the offer, a 3-pack of plain cushioned crew socks (rolled, with a paper band, no logo) and a plain dark zip travel shoe bag. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"$59.95 PER PAIR\" ; then \"FREE GIFTS WITH EVERY ORDER\" ; \"60% OFF SITEWIDE + FREE SHIPPING\". Every shoe is EXACTLY the knit shoe from the product reference (main color: black with purple accents unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H28",
@@ -1820,18 +1842,19 @@
    "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag",
    "headline": "Didn't Buy Yet?",
    "on_image_text": [
-    "\"No limping after a 12.\"",
-    "\"Room when my feet swell.\"",
-    "\"Better than my $160 sneakers.\"",
+    "\"As a nurse I would have to say, these are great shoes at a great price.\"",
+    "\"I work 12 hour shifts and my feet and back don't hurt.\"",
+    "\"There is plenty of room for my feet to expand(swell) in my 8 hr. Shift.\"",
     "60% OFF + FREE GIFTS"
    ],
-   "primary_text": "When you work 12-hour shifts on concrete and tile, you learn to be skeptical of shoe ads. Every company promises all-day comfort, and then you spend $160 on sneakers that leave your heels aching before lunch.\\n\\nIf you have been seeing our ads and wondering whether Comfort Wear is the real deal, take a look at what working nurses are saying:\\n\\nSarah M., RN: \"Finished my 12 without limping to my car for the first time in years.\"\\n\\nBrenda T., LPN: \"My toes finally have room when my feet swell up during night shifts.\"\\n\\nJessica K., RN: \"Threw my clogs in my locker. Way better than my $160 sneakers.\"\\n\\nThe reason they work is simple. Unlike standard sneakers with tapered toes and foam that packs down flat, the Ortho Stretch Cushion Shoe gives you a wide anatomical toe box that never pinches, built-in arch support that holds its shape all shift long, and a cushioned rocker sole that eases the pressure off your heels. The stretch-knit fabric moves with your feet, and the elastic no-tie laces never come undone in the middle of rounds.\\n\\nOur Holiday Sale is happening now: 60% off sitewide brings them down from $120 to just $59.95. Every order comes with a free 3-pack of cushioned socks and a free travel bag, plus free shipping.\\n\\nUse code LEAKED10 at checkout for an extra 10% off.\\n\\nTry them risk-free with our 30-day money-back guarantee. Wear them for several full shifts on your unit, and if your feet are not thrilled, return them within 30 days for a full refund.",
+   "primary_text": "When you work 12-hour shifts on concrete and tile, you learn to be skeptical of shoe ads. Every company promises all-day comfort, and then you spend $160 on sneakers that leave your heels aching before lunch.\n\nIf you have been seeing our ads and wondering whether Comfort Wear is the real deal, take a look at what verified nurse buyers are saying on Trustpilot:\n\n\"As a nurse I would have to say, these are great shoes at a great price.\"\n\n\"I work 12 hour shifts and my feet and back don't hurt.\"\n\n\"There is plenty of room for my feet to expand(swell) in my 8 hr. Shift.\"\n\nThe reason they work is simple. Unlike standard sneakers with tapered toes and foam that packs down flat, the Ortho Stretch Cushion Shoe gives you a wide anatomical toe box that never pinches, built-in arch support that holds its shape all shift long, and a cushioned rocker sole that eases the pressure off your heels. The stretch-knit fabric moves with your feet, and the elastic no-tie laces never come undone in the middle of rounds.\n\nOur Holiday Sale is happening now: 60% off sitewide brings them down from $120 to just $59.95. Every order comes with a free 3-pack of cushioned socks and a free travel bag, plus free shipping.\n\nUse code LEAKED10 at checkout for an extra 10% off.\n\nTry them risk-free with our 30-day money-back guarantee. Wear them for several full shifts on your unit, and if your feet are not thrilled, return them within 30 days for a full refund.",
    "fb_headline": "Didn't Buy Yet? 60% Off + Gifts",
    "fb_description": "Free Gifts + 30-Day Wear Test",
    "copy_angle": "Social Proof Retargeting x Nurse Shift Feedback",
    "copy_why": "Comfort Wear's own holiday winner OW3 ('Didn't buy yet?' reviews static) addressing nurse skepticism with real shift feedback.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_8fe8d58531bb4b93a928a22719ebb954"
+   "stefanbrain_chat": "chat_8fe8d58531bb4b93a928a22719ebb954",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: headline + 3 Facebook comments + shoe + small offer line + proof line. Image: one shoe bottom-right on cream. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"Didn't Buy Yet?\" ; then \"\"As a nurse I would have to say, these are great shoes at a great price.\"\" ; \"\"I work 12 hour shifts and my feet and back don't hurt.\"\" ; \"\"There is plenty of room for my feet to expand(swell) in my 8 hr. Shift.\"\" ; \"60% OFF + FREE GIFTS\". Every shoe is EXACTLY the knit shoe from the product reference (main color: black with white accents (team name: BlackWhite) unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H30",
@@ -1899,7 +1922,7 @@
     "h25_winner"
    ],
    "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag",
-   "headline": "\"No more limping to my car after 12s.\"",
+   "headline": "\"Ok, I did it. I bought them for my 12s.\"",
    "on_image_text": [
     "Arch Support",
     "Cushioned Sole",
@@ -1911,9 +1934,10 @@
    "fb_headline": "Built for 12-Hour Shifts: 60% Off",
    "fb_description": "30-Day Money-Back Guarantee",
    "copy_angle": "nurse x Holiday Sale gifts",
-   "copy_why": "Models ComfoFeet winner CF3 nurse quote headline with VOC on running shoe failure by hour 10 and hard hospital tile.",
+   "copy_why": "Models ComfoFeet winner CF3 nurse quote headline framed as a purchase decision for 12-hour shifts, answering running shoe failure on hospital tile.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_41bb498904ac4fed90b8500bd9c3b533"
+   "stefanbrain_chat": "chat_41bb498904ac4fed90b8500bd9c3b533",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: first-person quote headline with red highlighted line + single shoe + 4 icon circles on a dotted line. Image: one shoe in clean side profile on cream with a soft shadow. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"\"Ok, I did it. I bought them for my 12s.\"\" ; then \"Arch Support\" ; \"Cushioned Sole\" ; \"Wide Toe Box\" ; \"Slip-Resistant\" ; \"60% OFF SITEWIDE + Free Gifts & Free Shipping\". Every shoe is EXACTLY the knit shoe from the product reference (main color: black with white accents (team name: BlackWhite) unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H31",
@@ -1979,7 +2003,23 @@
     "holiday_gifts",
     "h25_winner"
    ],
-   "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag"
+   "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag",
+   "headline": "$59.95 EACH",
+   "on_image_text": [
+    "60% OFF (WAS $120)",
+    "Arch Support",
+    "Cushioned Heel",
+    "Wide Toe Box",
+    "Non-Slip Grip"
+   ],
+   "primary_text": "Every time we go anywhere as a family, Mom says the same five words: 'My feet are killing me.' She has been wearing the same broken-down sneakers for four years because she refuses to spend money on herself. And every holiday, people give her fuzzy slippers that sit in a closet because slippers have zero arch support. The Ortho Stretch Cushion Shoe is built for older feet: built-in arch support that keeps her arches lifted through long days, generous wide toe box and stretch knit that never squeeze her toes, thick cushioned rocker sole that absorbs the shock from hard floors, plus slip-resistant grip and no-tie elastic laces so she never has to bend down to tie knots. Right now, Comfort Wear is running their Holiday Sale: 60% OFF sitewide ($59.95 each, down from $120). Every order includes a free 3-pack of cushioned socks and a free travel bag, plus free shipping. Use code LEAKED10 at checkout for an extra 10% off. Let her try them around the house for 30 days. If they are not the most comfortable shoes she has ever put on her feet, return them within 30 days for a full refund. Put a pair under the tree she will actually wear every single day.",
+   "fb_headline": "A Holiday Gift Mom Will Actually Wear",
+   "fb_description": "Full Refund Within 30 Days",
+   "copy_angle": "gift_for_her x Holiday Sale gifts",
+   "copy_why": "Targets daughter gifting for older mom who refuses to buy for herself, using Dec 2025 winner d25_CFa 6-color lineup layout.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_623c072481fe4b47b5dd215bde1959ff",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: '$59.95 EACH' huge price + 6-color lineup (grey with pink, light grey, purple, black with purple, navy with blue, red burgundy) + 4 feature icons along the bottom. Image: six shoes of the product model standing side by side in a row, toes forward, in six colors (navy with blue, light grey, grey with pink, purple, black with purple, red burgundy) on light grey-white. Also show, small near the offer, a 3-pack of plain cushioned crew socks (rolled, with a paper band, no logo) and a plain dark zip travel shoe bag. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"$59.95 EACH\" ; then \"60% OFF (WAS $120)\" ; \"Arch Support\" ; \"Cushioned Heel\" ; \"Wide Toe Box\" ; \"Non-Slip Grip\". Every shoe is EXACTLY the knit shoe from the product reference (main color: grey with pink accents unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H32",
@@ -2045,7 +2085,24 @@
     "holiday_gifts",
     "h25_winner"
    ],
-   "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag"
+   "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag",
+   "headline": "AN ABSOLUTE STEAL AT $59.95",
+   "on_image_text": [
+    "Arch Support",
+    "Cushioned Heel",
+    "Wide Toe Box",
+    "Stretch-Knit Upper",
+    "Non-Slip Grip",
+    "FREE SHIPPING & GIFTS"
+   ],
+   "primary_text": "When you are over 200 pounds, cheap comfort sneakers flatten into pancakes within three weeks. You step on soft memory foam in the store and think you found a winner. But normal foam simply cannot take sustained body weight. By 2 PM, the cushion is completely crushed, your heels are pounding directly against the hard ground, and your arches feel like they are tearing. Sizing up does not solve it. Your foot just slides forward and your heel slips out. The Ortho Stretch Cushion Shoe was built to handle real weight without collapsing: firm anatomical arch support that will not flatten under pressure, shock-absorbing cushioned heel and rocker sole that carry the load, stretch-knit upper and wide toe box that adapt when your feet swell in the afternoon, plus slip-resistant grip and no-tie elastic laces. Right now, it is an absolute steal during the Holiday Sale: 60% OFF sitewide ($59.95, was $120). Every order includes a free 3-pack of cushioned socks and a free travel bag, plus free shipping. Use code LEAKED10 at checkout for an extra 10% off. Wear them for 30 full days on your feet. If they flatten out or do not give you the support you need, return them within 30 days for a full refund. Grab your pair at $59.95 before the Holiday Sale ends.",
+   "fb_headline": "Support That Won't Flatten: $59.95",
+   "fb_description": "Free Shipping & 30-Day Trial",
+   "copy_angle": "plus_size x Holiday Sale gifts",
+   "copy_why": "Addresses 'shoes flatten under my weight' VOC using Dec 2025 winner d25_CFb feature-list and price-anchor layout.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_623c072481fe4b47b5dd215bde1959ff",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: 'Absolute steal' style headline with red-highlighted price + 5 icon feature list left + pair right + round free-shipping stamp. Image: a pair at an angle on the right half on warm cream; left column of 5 small line icons with labels. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"AN ABSOLUTE STEAL AT $59.95\" ; then \"Arch Support\" ; \"Cushioned Heel\" ; \"Wide Toe Box\" ; \"Stretch-Knit Upper\" ; \"Non-Slip Grip\" ; \"FREE SHIPPING & GIFTS\". Every shoe is EXACTLY the knit shoe from the product reference (main color: black with purple accents unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H33",
@@ -2112,7 +2169,21 @@
     "holiday_gifts",
     "h25_winner"
    ],
-   "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag"
+   "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag",
+   "headline": "ONE FOR MOM. ONE FOR YOU.",
+   "on_image_text": [
+    "$59.95 EACH (WAS $120)",
+    "60% OFF + FREE GIFTS & SHIPPING",
+    "HSA/FSA ELIGIBLE"
+   ],
+   "primary_text": "The best holiday gift is the one you end up grabbing a pair of for yourself. If your mom spends every family gathering complaining about her aching feet and searching for a chair, you already know standard slippers will not cut it. Slippers have zero arch support, and flat slip-ons crush under your heel in a matter of weeks. The Ortho Stretch Cushion Shoe gives older feet real support: built-in anatomical arch support that will not flatten, wide toe box and flexible stretch-knit upper that give without pinching bunions, shock-absorbing cushioned rocker sole that softens hard floors, and elastic no-tie laces so there is never any bending down to tie shoes. During the Holiday Sale, grab a pair for Mom and a pair for yourself: 60% OFF sitewide ($59.95 each, was $120). Every order includes a free 3-pack of cushioned socks and a free travel bag, plus free shipping. Use code LEAKED10 at checkout for an extra 10% off. Both pairs are protected by a 30-day money-back guarantee. If Mom tries them and does not love them, return them within 30 days for a full refund. Claim your pairs while the Holiday Sale is live.",
+   "fb_headline": "Holiday Gift: One For Mom & One For You",
+   "fb_description": "Holiday Sale: $59.95 Each",
+   "copy_angle": "gift_for_her x Holiday Sale gifts",
+   "copy_why": "Appeals to 'one for mom, one for you' double-gifting buyer using Dec 2025 winner d25_HKa split-grid layout.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_623c072481fe4b47b5dd215bde1959ff",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: 'two are better than one' style gift grid: one shoe top, four below, price pill + offer line + HSA/FSA line (gift-for-mom AND one for you). Image: one purple shoe on top labeled as 'for mom' area, and four shoes below in a 2x2 grid (grey with pink, light grey, black with purple, navy with blue) on soft light grey. Also show, small near the offer, a 3-pack of plain cushioned crew socks (rolled, with a paper band, no logo) and a plain dark zip travel shoe bag. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"ONE FOR MOM. ONE FOR YOU.\" ; then \"$59.95 EACH (WAS $120)\" ; \"60% OFF + FREE GIFTS & SHIPPING\" ; \"HSA/FSA ELIGIBLE\". Every shoe is EXACTLY the knit shoe from the product reference (main color: purple with white accents unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H34",
@@ -2179,7 +2250,20 @@
     "holiday_gifts",
     "h25_winner"
    ],
-   "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag"
+   "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag",
+   "headline": "Dear Nurses,",
+   "on_image_text": [
+    "Take 60% off sitewide, free gifts & free shipping.",
+    "The ComfortWear Team"
+   ],
+   "primary_text": "At 7:00 AM when you clock in, your shoes feel completely fine. By 2:00 PM on the unit, your toes feel squeezed together. By hour 10, the arch of your foot is burning, and by the end of your third 12, you are limping across the hospital parking lot to your car. Most of us in scrubs make the exact same mistake: we buy $160 running shoes thinking thick foam equals comfort. The catch is that running shoes were built for a 45-minute jog. The narrow, tapered front pinches your toes. The raised heel dumps your body weight onto the balls of your feet. And standard foam bottoms out after four hours on hard hospital tile. When your feet swell halfway through a shift, that snug morning fit turns into a clamp. Sizing up just makes your heels slip out. Hard clogs have zero give when you are moving fast. And sliding aftermarket insoles into your sneakers only steals what little toe room you had left. The Ortho Stretch Cushion Shoe was built for long shifts on concrete and tile. It has built-in anatomical arch support and a cushioned rocker sole that keeps your foot rolling through each step so your heels do not take the brunt of the impact. The wide toe box lets your toes spread out, while the breathable stretch-knit upper expands as your feet swell during the shift. The slip-resistant grip stays secure on slick hospital floors, and elastic no-tie laces mean you never touch dirty laces with gloved hands. You finish your shift with enough energy left to stand at the stove and cook dinner for your kids. For our Holiday Sale, get them at 60% off: $59.95 instead of the usual $120. That works out to less than a dollar a shift. Every holiday order comes with two free gifts: a 3-pack of cushioned socks and a travel shoe bag, plus free shipping. Wear-test them for 30 full days on the floor. That is ten or more full shifts on your own feet. If your arches are not happier, return them within 30 days for a full refund. Enter code LEAKED10 at checkout for an additional 10% off before the Holiday Sale ends.",
+   "fb_headline": "Holiday Letter: 60% Off + Gifts",
+   "fb_description": "Free Shipping & 30-Day Trial",
+   "copy_angle": "nurse x Holiday Sale gifts",
+   "copy_why": "Dec 2025 winner HKb holiday letter layout paired with nurse pain-point data on hour-10 shift fatigue.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_a06a3d50ee1240238d36e44553a991a6",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: holiday letter from the ComfortWear team on cream paper with red/green candy-cane airmail border (no founder name; signed 'The ComfortWear team'), mentions 60% off + free gifts + free shipping. Image: a letter on cream paper filling the frame with a red/green diagonal-stripe airmail border, handwritten-style signature line, a small holly sprig and one small photo of the pair clipped to the corner. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"Dear Nurses,\" ; then \"Take 60% off sitewide, free gifts & free shipping.\" ; \"The ComfortWear Team\". Every shoe is EXACTLY the knit shoe from the product reference (main color: black with purple accents unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H35",
@@ -2247,7 +2331,21 @@
     "holiday_gifts",
     "h25_winner"
    ],
-   "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag"
+   "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag",
+   "headline": "Built For Cobblestones",
+   "on_image_text": [
+    "HOLIDAY SALE",
+    "$59.95 + FREE GIFTS",
+    "Shop 60% Off"
+   ],
+   "primary_text": "There is nothing worse than saving up for months for a trip to Rome or a week with the grandkids at Disney, only to spend day two sitting on a stone bench because your heels are throbbing. Most people pack three different pairs of walking sneakers hoping one of them will save their feet. Here is why that never works: typical walking sneakers were designed for flat treadmills and quick morning jogs. Their narrow toe boxes pinch your forefoot together, the raised heel pushes all your body weight forward, and the soft foam sole flattens out after four hours. When you are walking 20,000 steps across uneven cobblestones, your feet naturally swell. By early afternoon, those comfortable sneakers are squeezing your arches like a vise. Adding store-bought insoles just crowds your toes even more. The Ortho Stretch Cushion Shoe was made specifically for high-step travel days. Its built-in anatomical arch support and cushioned rocker sole absorb the shock of rough stone and roll your foot smoothly into every stride. The wide toe box lets your toes relax and spread out, and the stretch-knit fabric expands naturally as your feet swell in warm weather. Elastic no-tie laces slip through airport security without untying, and the slip-resistant grip keeps you steady on wet stone steps. You can actually take the guided walking tour instead of waiting on the tour bus. You spent thousands on the trip. Do not risk seeing it from a bench when you can protect your feet for $59.95 (regularly $120) during our Holiday Sale. That is 60% off sitewide, plus two free gifts included with every order: a 3-pack of cushioned socks and a travel shoe bag, with free shipping. Try them on your feet for 30 full days on your neighborhood walks at home. If they are not the most comfortable walking shoes you have packed, return them within 30 days for a full refund. Use code LEAKED10 at checkout for an extra 10% off before the Holiday Sale ends.",
+   "fb_headline": "Travel Sale: 60% Off + Free Gifts",
+   "fb_description": "Free Shipping & 30-Day Trial",
+   "copy_angle": "traveler x Holiday Sale gifts",
+   "copy_why": "Dec 2025 winner HKc sticker-and-colors layout paired with travel VOC on cobblestone fatigue.",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_a06a3d50ee1240238d36e44553a991a6",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: red 'TODAY ONLY'-style sticker (use 'HOLIDAY SALE', no deadline) + price pill + 5 colors cascading on soft pink/cream + red button. Image: five shoes cascading diagonally (navy with blue, black with purple, light grey, red burgundy, grey with pink) on soft blush-cream, left top red rounded sticker. Also show, small near the offer, a 3-pack of plain cushioned crew socks (rolled, with a paper band, no logo) and a plain dark zip travel shoe bag. Text (place each where the reference layout puts the matching element, in this reading order): main headline \"Built For Cobblestones\" ; then \"HOLIDAY SALE\" ; \"$59.95 + FREE GIFTS\" ; \"Shop 60% Off\". Every shoe is EXACTLY the knit shoe from the product reference (main color: navy with bright blue accents (team name: White Blue) unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   },
   {
    "id": "HG_H36",
@@ -2313,7 +2411,23 @@
     "holiday_gifts",
     "h25_winner"
    ],
-   "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag"
+   "gift_visual": "the free gifts: a 3-pack of plain cushioned crew socks (rolled, banded, no logo) and a plain zip travel shoe bag",
+   "headline": "Morning Heel Pain?",
+   "on_image_text": [
+    "Arch Support",
+    "Wide Toe Box",
+    "Cushion Heel",
+    "No-Tie Laces",
+    "60% Off"
+   ],
+   "primary_text": "If your first steps out of bed feel like stepping on a sharp tack, you know the feeling. You sit down for twenty minutes, stand up, and that familiar stabbing heel pain flares right back up. For years, my fix was buying expensive insoles and swapping them from shoe to shoe. I rolled my arches on frozen water bottles, did the calf stretches against the wall, and even looked into $350 custom orthotic inserts. The problem was not my feet. It was my sneakers. Most walking sneakers are built on narrow running frames. They taper inward at the toes, the raised heel pushes your body weight forward, and the soft foam compresses flat after three or four hours. When you slide an insole inside, it eats up whatever toe room was left. By afternoon, as your feet naturally swell, that morning fit clamps down like a vice. The Ortho Stretch Cushion Shoe fixes the whole structure at once. It combines firm anatomical arch support with a cushioned rocker sole that rolls your foot forward with every step. The wide toe box gives your toes room to spread out naturally, and the breathable stretch-knit upper expands as your feet change size during the day. Plus, elastic no-tie laces mean you never have to bend down to tie them, and the slip-resistant grip holds steady on winter sidewalks. You can finally take your daily morning walk and run errands without counting every single step. Right now, during our Holiday Sale, they are 60% off sitewide: just $59.95 (regularly $120). That is less than a sixth of the cost of custom inserts. Every holiday order also includes two free gifts: a 3-pack of cushioned socks and a travel shoe bag, plus free shipping. Try them on your own feet for a full 30 days. If they do not give you the easiest walk of your year, return them within 30 days for a full refund. Use code LEAKED10 at checkout for an extra 10% off before the Holiday Sale ends.",
+   "fb_headline": "Holiday Sale: 60% Off + Free Gifts",
+   "fb_description": "Free Shipping & 30-Day Trial",
+   "copy_angle": "active_retiree x Holiday Sale gifts",
+   "copy_why": "Dec 2025 winner HKd 4-feature layout paired with survey #10 custom-insert anchoring ($350 vs $59.95).",
+   "copy_source": "stefanbrain",
+   "stefanbrain_chat": "chat_a06a3d50ee1240238d36e44553a991a6",
+   "prompt": "Recreate the reference ad's layout (composition, hierarchy, spacing, type style) for our brand: red 2-line headline + big shoe + 4 small feature photos with 2-line captions. Image: one big light grey shoe center on warm white; four small rounded feature photos with captions along the lower half (arch area, toe box, heel cushion, bungee laces). Text (place each where the reference layout puts the matching element, in this reading order): main headline \"Morning Heel Pain?\" ; then \"Arch Support\" ; \"Wide Toe Box\" ; \"Cushion Heel\" ; \"No-Tie Laces\" ; \"60% Off\". Every shoe is EXACTLY the knit shoe from the product reference (main color: light grey unless named): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole in the reference's colors, true proportions, sharp and bright. HOLIDAY SALE look: warm white/cream backgrounds, festive red (#D7141A) for offer boxes, pills and key words, tiny pine-green and gold accents (a holly sprig, a thin gold ribbon, a few gold sparkles). Light and clean, never dark, not overly colorful. QUALITY BAR: premium direct-response static, clean and crisp; very large bold readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge for all text; full-bleed, the shoe is the hero. Spell every quoted word exactly and render each quoted text once. No other words, logos or brand names (never Hike, ComfoFeet, Halara, Orthofeet, Vessi, Vibit or the reference's brand, price or product). Fictional commenters have no names or initials."
   }
  ]
 }
