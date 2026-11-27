@@ -81,3 +81,5 @@ layouts: `wedding.py`. Sam wants 4:5 deliverables from here on. Sheet: `output/_
 W6-W9 (Sam: more like W4, shot through the lens): narrowed-vision frame (scene sharp in a window, blurred/dark outside,
 frame marks) + iOS alert + camera and wordmark. W6 sparkler exit / W8 confetti aisle (friends shoot the couple),
 W7 bridal party dancing / W9 table toast (couple shoots friends). Sheet: `output/_sheet_wedding_lens_4x5.jpg`.
+W6-W9 looks (Sam): each in Vintage / Black & White / Film (`python3 wedding.py W6:all`), filter-name pill in the frame,
+camera bigger. Files end `_vintage`, `_bw`, `_film`. Sheet: `output/_sheet_wedding_lens_looks_4x5.jpg`.

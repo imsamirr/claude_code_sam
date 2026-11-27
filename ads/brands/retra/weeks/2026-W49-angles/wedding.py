@@ -170,10 +170,17 @@ def w5(c):
 
 
 # ---------------------------------------------------------------- W6-W9 through the Retra lens + iOS alert (W4 style)
+LOOK = None
+LOOKS = {"vintage": "Vintage", "bw": "Black & White", "film": "Film"}
+
+
 def lens(c, k, colour, cen=(0.5, 0.45)):
     """Narrowed vision: the scene sharp inside a rounded frame window, blurred and darkened outside, frame marks,
     iOS alert over the lower edge, the camera + wordmark in the dark margin."""
     base = b2.full(k, cen)
+    if LOOK:  # Sam: versions in Retra's looks (landing-page curves)
+        from compose_gallery import retra_filter
+        base = retra_filter(base, LOOK).convert("RGBA")
     out = base.filter(lib.ImageFilter.GaussianBlur(22))
     out = Image.blend(out.convert("RGB"), Image.new("RGB", out.size, (0, 0, 0)), 0.7).convert("RGBA")
     x0, y0, x1, y1 = 140, 380, 940, 1200
@@ -193,7 +200,10 @@ def lens(c, k, colour, cen=(0.5, 0.45)):
             d.line([(cx + sx * 40, cy + sy * 40), (cx + sx * 22, cy + sy * 40)], fill=(255, 255, 255, 200), width=3)
     ios_alert(img, S(c, "alert_title"), S(c, "alert_body"), y1 + 40, w=720,
               buttons=(S(c, "button_left"), S(c, "button_right")))
-    place(img, cam(colour, 230, -6), 230, 1535, shadow=0.5, blur=14, drop=(4, 12))
+    if LOOK:  # filter name pill in the frame's top-left corner
+        pill(img, LOOK, inter(28, "SemiBold"), x0 + 40 + measure(inter(28, "SemiBold"), LOOK) / 2 + 22, y0 + 104,
+             (20, 18, 16), (255, 236, 200), padx=22, pady=10)
+    place(img, cam(colour, 320, -6), 260, 1498, shadow=0.5, blur=16, drop=(4, 14))
     f = tinos(64, -0.03)
     draw_text(ImageDraw.Draw(img), (W - 90 - measure(f, "Retra"), 1505), "Retra", f, WHITE)
     lib.TEXT_BOXES.append((W - 300, 1505, W - 90, 1575))
@@ -223,12 +233,18 @@ SLUG = {"W1": "wedding-text-bubbles", "W2": "wedding-card-cta", "W3": "wedding-f
         "W9": "wedding-lens-guest-toast"}
 
 if __name__ == "__main__":
-    ids = sys.argv[1:] or list(BUILDERS)
-    for i in ids:
+    sys.path.insert(0, str(HERE.parents[1] / "gallery"))
+    args = sys.argv[1:] or list(BUILDERS)  # "W6:film" builds one look; "W6:all" builds the three looks
+    jobs = []
+    for a_ in args:
+        i, _, lk = a_.partition(":")
+        jobs += [(i, k_) for k_ in (LOOKS if lk == "all" else [lk])] if lk else [(i, None)]
+    for i, lk in jobs:
         lib.TEXT_BOXES.clear()
         c = COPY[i]
+        LOOK = LOOKS.get(lk)
         try:
-            print(save(BUILDERS[i](i), f"RET_A49_{i}_{c['funnel'].lower()}_{SLUG[i]}"))
+            print(save(BUILDERS[i](i), f"RET_A49_{i}_{c['funnel'].lower()}_{SLUG[i]}" + (f"_{lk}" if lk else "")))
         except Exception as e:  # noqa: BLE001
             import traceback
             traceback.print_exc()
