@@ -130,7 +130,7 @@
    "id": "25",
    "meta_headline": "Save 40% on Retra",
    "persona": "High-intent deal seekers / Holiday gift shoppers",
-   "primary_text": "Our holiday offer is live across all six colourways: Chalk, Obsidian, Sol, Dune, Pine, and Blossom. Get Retra for $99 (compare at $165, a full 40% discount). Want to gift friends and family? Buy two cameras and get the third completely free. Screen-free, rechargeable, with four built-in filters and USB-C export. Stock is genuinely low across all colours, so grab yours before inventory clears.",
+   "primary_text": "Our holiday offer is live across all seven colourways: White, Midnight, Yellow, Brown, Green Forest, Blue, and Red. Get Retra for $99 (compare at $165, a full 40% discount). Want to gift friends and family? Buy two cameras and get the third completely free. Screen-free, rechargeable, with four built-in filters and USB-C export. Stock is genuinely low across all colours, so grab yours before inventory clears.",
    "slots": [
     {
      "name": "kicker",
@@ -397,7 +397,7 @@
    "id": "34",
    "meta_headline": "The holiday gift of presence",
    "persona": "Holiday gift shoppers / Thoughtful gifters",
-   "primary_text": "Looking for a gift that feels personal, creative, and delightfully low-tech? Retra is the screen-free camera everyone wants under the tree. Available in six curated colours: Chalk, Obsidian, Sol, Dune, Pine, and Blossom. Every box includes the camera, USB-C cable, wrist strap, memory card, and gift packaging. Stock is genuinely low across all colours, and our Buy 2, Get 1 Free offer is live while supplies last.",
+   "primary_text": "Looking for a gift that feels personal, creative, and delightfully low-tech? Retra is the screen-free camera everyone wants under the tree. Available in seven curated colours: White, Midnight, Yellow, Brown, Green Forest, Blue, and Red. Every box includes the camera, USB-C cable, wrist strap, memory card, and gift packaging. Stock is genuinely low across all colours, and our Buy 2, Get 1 Free offer is live while supplies last.",
    "slots": [
     {
      "name": "headline",
@@ -405,7 +405,7 @@
     },
     {
      "name": "sub",
-     "text": "Limited batch stock remaining across all six colours."
+     "text": "Limited batch stock remaining across all seven colours."
     }
    ]
   },
@@ -450,7 +450,7 @@
    "id": "37",
    "meta_headline": "Buy 2 Retra cameras, Get 1 Free",
    "persona": "Deal seekers / Holiday shoppers",
-   "primary_text": "Get three screen-free cameras for the price of two. Mix and match across all six colours: Chalk, Obsidian, Sol, Dune, Pine, and Blossom. Perfect for holiday gifting, family vacations, or wedding tables. Retra has no screen, no apps, and no Wi-Fi. Just point, shoot, and see up to 500 photos later via USB-C. Inventory is genuinely low on all colours, so claim your trio before this batch clears out.",
+   "primary_text": "Get three screen-free cameras for the price of two. Mix and match across all seven colours: White, Midnight, Yellow, Brown, Green Forest, Blue, and Red. Perfect for holiday gifting, family vacations, or wedding tables. Retra has no screen, no apps, and no Wi-Fi. Just point, shoot, and see up to 500 photos later via USB-C. Inventory is genuinely low on all colours, so claim your trio before this batch clears out.",
    "slots": [
     {
      "name": "sticker",
@@ -473,7 +473,7 @@
    "id": "38",
    "meta_headline": "Black Friday deal: 40% off Retra",
    "persona": "Black Friday bargain hunters / Fence-sitters",
-   "primary_text": "Our Black Friday sale is live in the store: Retra is marked down from $165 to just $99. No discount codes needed. Plus, buy any two cameras and get a third one free. Every camera comes with a rechargeable battery, four built-in filters, USB-C export, and an included memory card. Stock is low across all six colours, so pick your favourites while every shade is still available.",
+   "primary_text": "Our Black Friday sale is live in the store: Retra is marked down from $165 to just $99. No discount codes needed. Plus, buy any two cameras and get a third one free. Every camera comes with a rechargeable battery, four built-in filters, USB-C export, and an included memory card. Stock is low across all seven colours, so pick your favourites while every shade is still available.",
    "slots": [
     {
      "name": "headline",
@@ -604,7 +604,7 @@
    "id": "43",
    "meta_headline": "The holiday gift she will love",
    "persona": "Holiday gift shoppers for women",
-   "primary_text": "Give her a gift that invites creativity, nostalgia, and real presence into her daily life. Retra is a screen-free digital camera that fits right into her handbag. She gets up to 500 photos on a charge, four built-in filters (Vintage, Black & White, Natural, Film), and simple USB-C transfer. Choose from six gorgeous colours including Blossom, Sol, and Dune. Now $99 (compare at $165).",
+   "primary_text": "Give her a gift that invites creativity, nostalgia, and real presence into her daily life. Retra is a screen-free digital camera that fits right into her handbag. She gets up to 500 photos on a charge, four built-in filters (Vintage, Black & White, Natural, Film), and simple USB-C transfer. Choose from seven gorgeous colours including Red, Yellow, and Brown. Now $99 (compare at $165).",
    "slots": [
     {
      "name": "headline",
@@ -789,7 +789,7 @@
    "id": "50",
    "meta_headline": "Buy 2 Retra cameras, Get 1 Free",
    "persona": "High-intent shoppers / Holiday deal seekers",
-   "primary_text": "A note from our team: our holiday Buy 2, Get 1 Free offer is live across all six colours (Chalk, Obsidian, Sol, Dune, Pine, and Blossom). Retra combines the nostalgic charm of disposable photography with rechargeable USB-C convenience. No ongoing film expenses, no app downloads, and no Wi-Fi. Every unit comes with an included memory card and gift box. Order your trio before current batch stock clears.",
+   "primary_text": "A note from our team: our holiday Buy 2, Get 1 Free offer is live across all seven colours (White, Midnight, Yellow, Brown, Green Forest, Blue, and Red). Retra combines the nostalgic charm of disposable photography with rechargeable USB-C convenience. No ongoing film expenses, no app downloads, and no Wi-Fi. Every unit comes with an included memory card and gift box. Order your trio before current batch stock clears.",
    "slots": [
     {
      "name": "title",
@@ -797,7 +797,7 @@
     },
     {
      "name": "body",
-     "text": "We launched Retra to bring presence back to photography. If you are looking for holiday gifts that friends and family will cherish, our Buy 2, Get 1 Free bundle is currently active. Choose any mix of our six colours. Each camera includes a rechargeable battery, four built-in film filters, a wrist strap, and an included memory card. Stock is low across all colours, so grab your bundle while all shades remain."
+     "text": "We launched Retra to bring presence back to photography. If you are looking for holiday gifts that friends and family will cherish, our Buy 2, Get 1 Free bundle is currently active. Choose any mix of our seven colours. Each camera includes a rechargeable battery, four built-in film filters, a wrist strap, and an included memory card. Stock is low across all colours, so grab your bundle while all shades remain."
     },
     {
      "name": "signoff",

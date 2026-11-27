@@ -88,7 +88,7 @@
    "id": "04",
    "meta_headline": "The simplest gift for grandparents",
    "persona": "Gift buyer for grandparents",
-   "primary_text": "Buying tech for grandparents usually means spending the entire holiday weekend giving tech support. Retra is the rare gift that works right out of the box without frustration. It has no touchscreen, no tiny menus, no passwords, and no software updates. No Wi-Fi or Bluetooth required. It works just like the cameras they grew up using: look through the viewfinder, press the shutter button, and that is it. It holds up to 500 photos on a single charge and comes in six classic colours. When they want to see the pictures of the grandkids, simply plug the included USB-C cable into their laptop or computer. Finally, a camera anyone can pick up and use in seconds.",
+   "primary_text": "Buying tech for grandparents usually means spending the entire holiday weekend giving tech support. Retra is the rare gift that works right out of the box without frustration. It has no touchscreen, no tiny menus, no passwords, and no software updates. No Wi-Fi or Bluetooth required. It works just like the cameras they grew up using: look through the viewfinder, press the shutter button, and that is it. It holds up to 500 photos on a single charge and comes in seven classic colours. When they want to see the pictures of the grandkids, simply plug the included USB-C cable into their laptop or computer. Finally, a camera anyone can pick up and use in seconds.",
    "slots": [
     {
      "name": "line_1",
@@ -313,7 +313,7 @@
    "id": "11",
    "meta_headline": "The most thoughtful holiday gift",
    "persona": "Gift shopper for sister / girlfriend / best friend",
-   "primary_text": "Looking for a gift she will actually use instead of leaving in a drawer? Retra is the easiest win of the season. It combines the nostalgic charm of a 2000s disposable with modern convenience. She gets up to 500 photos per charge, four built-in filters (Vintage, Black & White, Natural, Film), and simple USB-C transfer. No ongoing film costs and no apps to manage. Pick her favorite shade across six curated colours: Chalk, Obsidian, Sol, Dune, Pine, and Blossom. Take advantage of our holiday Buy 2, Get 1 Free offer to sort your sister, girlfriend, and best friend in one order.",
+   "primary_text": "Looking for a gift she will actually use instead of leaving in a drawer? Retra is the easiest win of the season. It combines the nostalgic charm of a 2000s disposable with modern convenience. She gets up to 500 photos per charge, four built-in filters (Vintage, Black & White, Natural, Film), and simple USB-C transfer. No ongoing film costs and no apps to manage. Pick her favorite shade across seven curated colours: White, Midnight, Yellow, Brown, Green Forest, Blue, and Red. Take advantage of our holiday Buy 2, Get 1 Free offer to sort your sister, girlfriend, and best friend in one order.",
    "slots": [
     {
      "name": "headline",
@@ -345,7 +345,7 @@
     },
     {
      "name": "pill",
-     "text": "All 6 colours available"
+     "text": "All 7 colours available"
     }
    ]
   },
@@ -390,7 +390,7 @@
    "id": "14",
    "meta_headline": "Holiday deal: Buy 2, Get 1 Free",
    "persona": "Deal seekers / Multi-unit holiday shoppers",
-   "primary_text": "Holiday gift shopping solved in one order: buy any two Retra cameras, and we will add a third one for free. Retra is the screen-free digital camera built like a modern disposable. No ongoing film expenses, no app downloads, and no Wi-Fi. It holds up to 500 photos per charge, features four built-in filters, and exports directly over USB-C. Choose your favorite mix across all six colours: Chalk, Obsidian, Sol, Dune, Pine, and Blossom. Keep one for yourself and give the other two as unforgettable screen-free gifts. Quantities are limited for this production run. Grab your trio before colourways run low.",
+   "primary_text": "Holiday gift shopping solved in one order: buy any two Retra cameras, and we will add a third one for free. Retra is the screen-free digital camera built like a modern disposable. No ongoing film expenses, no app downloads, and no Wi-Fi. It holds up to 500 photos per charge, features four built-in filters, and exports directly over USB-C. Choose your favorite mix across all seven colours: White, Midnight, Yellow, Brown, Green Forest, Blue, and Red. Keep one for yourself and give the other two as unforgettable screen-free gifts. Quantities are limited for this production run. Grab your trio before colourways run low.",
    "slots": [
     {
      "name": "headline",
@@ -409,7 +409,7 @@
    "id": "15",
    "meta_headline": "Stock is low across all colours",
    "persona": "Retargeting / High-intent fence-sitters",
-   "primary_text": "Our current production run is moving fast across all six colourways: Chalk, Obsidian, Sol, Dune, Pine, and Blossom. We have not stamped any colour as sold out yet, but stock on all six is genuinely running low. If you have been eyeing a screen-free camera for travel, events, or holiday gifting, do not wait until they are gone. At $99 (compare at $165), Retra gives you up to 500 photos per charge, four built-in film filters, USB-C export, and zero screens, apps, or Wi-Fi. Plus, our Buy 2, Get 1 Free bundle is active while supplies last. Claim your favourite colour before this batch sells out.",
+   "primary_text": "Our current production run is moving fast across all seven colourways: White, Midnight, Yellow, Brown, Green Forest, Blue, and Red. We have not stamped any colour as sold out yet, but stock on all seven is genuinely running low. If you have been eyeing a screen-free camera for travel, events, or holiday gifting, do not wait until they are gone. At $99 (compare at $165), Retra gives you up to 500 photos per charge, four built-in film filters, USB-C export, and zero screens, apps, or Wi-Fi. Plus, our Buy 2, Get 1 Free bundle is active while supplies last. Claim your favourite colour before this batch sells out.",
    "slots": [
     {
      "name": "title",
@@ -417,7 +417,7 @@
     },
     {
      "name": "body",
-     "text": "A quick update on our launch batch: inventory across all six colours is genuinely running low. None of Chalk, Obsidian, Sol, Dune, Pine, or Blossom are sold out yet, but remaining quantities are small. If you are planning to pick up a camera at $99 (compare at $165) or use our Buy 2, Get 1 Free bundle, please order while all six colourways are still available."
+     "text": "A quick update on our launch batch: inventory across all seven colours is genuinely running low. None of White, Midnight, Yellow, Brown, Green Forest, Blue, or Red are sold out yet, but remaining quantities are small. If you are planning to pick up a camera at $99 (compare at $165) or use our Buy 2, Get 1 Free bundle, please order while all seven colourways are still available."
     },
     {
      "name": "signoff",

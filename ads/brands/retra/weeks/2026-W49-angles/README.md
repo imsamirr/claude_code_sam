@@ -65,3 +65,9 @@ camera beside it (`d4p`; plain lab print, not instant film, since Retra doesn't 
 parents' Disney photos vs your camera roll" (`d3v1`, `d3v2` faded 90s prints; `d3p` tiled as a camera roll).
 Fireworks split (D1V Vintage, D1F Film): one clean castle-fireworks render (`d5`), left half as shot, right half through
 the landing-page filter curve (`compose_gallery.retra_filter`), slider divider. ILLUSTRATIVE. Sheet: `output/_sheet_disney_split_4x5.jpg`.
+
+## Colour rename (2026-11-27, from the Shopify store)
+Chalk->White, Obsidian->Midnight, Sol->Yellow, Dune->Brown, Pine->Green Forest, Blossom->Red, plus a 7th colour Blue
+(alt text "Aegean"). `colour_rename.py` swapped names and "six"->"seven" colours in all copy files and the CSV; lib.py
+has STORE_NAME / STORE_ORDER and the Blue swatch. Re-rendered statics with colours on the image: 11, 15, 34, 50, D4.
+Open: the store's compare-at price is now $200 (statics still say $165 / 40% off); 11 shows six tiles under "All 7".

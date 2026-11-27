@@ -27,7 +27,11 @@ RED = (178, 34, 34)
 WHITE = (255, 255, 255)
 COLOURS = ["chalk", "obsidian", "sol", "dune", "pine", "blossom"]
 SWATCH = {"chalk": (236, 229, 214), "obsidian": (38, 38, 40), "sol": (226, 172, 46), "dune": (184, 108, 62),
-          "pine": (96, 104, 66), "blossom": (206, 52, 92)}
+          "pine": (96, 104, 66), "blossom": (206, 52, 92), "aegean": (170, 197, 209)}
+# Store display names (Shopify, renamed 2026-11-27; Blue/"aegean" is the 7th colour). Keys stay the old asset names.
+STORE_NAME = {"chalk": "White", "obsidian": "Midnight", "sol": "Yellow", "dune": "Brown", "pine": "Green Forest",
+              "aegean": "Blue", "blossom": "Red"}
+STORE_ORDER = ["chalk", "dune", "pine", "aegean", "sol", "blossom", "obsidian"]  # store variant order
 
 def font(name, size, weight=None):
     f = ImageFont.truetype(str(FONTS / name), size)

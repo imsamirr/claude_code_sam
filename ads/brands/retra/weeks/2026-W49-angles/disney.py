@@ -170,16 +170,16 @@ def d4(c):
     pb = top + pr.height
     prod(img, "p34_chalk", 340, 810, pb - 60)
     d = ImageDraw.Draw(img)
-    names = [n.title() for n in COLOURS]
-    gap = 160
-    x0 = W / 2 - gap * 2.5
+    gap = 140
+    x0 = W / 2 - gap * 3
     yy = pb + 100
-    for i, n in enumerate(COLOURS):
+    f = inter(22, "Medium")
+    for i, n in enumerate(lib.STORE_ORDER):
         cx = x0 + i * gap
         d.ellipse((cx - 30, yy, cx + 30, yy + 60), fill=SWATCH[n], outline=(210, 214, 218), width=2)
-        f = inter(24, "Medium")
-        draw_text(d, (cx - measure(f, names[i]) / 2, yy + 70), names[i], f, BODY)
-    lib.TEXT_BOXES.append((x0 - 40, yy, x0 + gap * 5 + 40, yy + 100))
+        nm = lib.STORE_NAME[n]
+        draw_text(d, (cx - measure(f, nm) / 2, yy + 70), nm, f, BODY)
+    lib.TEXT_BOXES.append((x0 - 60, yy, x0 + gap * 6 + 60, yy + 100))
     pill(img, S(c, "cta"), inter(36, "SemiBold"), W / 2, min(yy + 175, 1575), "cta", WHITE, padx=56, pady=18)
     return img
 
