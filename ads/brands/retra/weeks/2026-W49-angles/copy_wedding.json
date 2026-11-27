@@ -119,6 +119,114 @@
    ],
    "primary_text": "Designed for the bride who wants real presence on her wedding day. The White Retra looks gorgeous on every table setting while encouraging guests to put their phones away. Completely screen-free with four built-in film-look filters and up to 500 photos per charge. Arrives in a gift box with wrist strap, USB-C cable, and memory card. On sale for $99 (compare at $165). Buy 2, Get 1 Free.",
    "meta_headline": "The White Retra for weddings"
+  },
+  {
+   "id": "W6",
+   "angle": "Sparkler send-off guest candids",
+   "persona": "Wedding guests / Bridal party",
+   "funnel": "TOF",
+   "format": "Through-the-lens narrowed view (friends shoot the couple) with iOS alert, W4 style",
+   "slots": [
+    {
+     "name": "alert_title",
+     "text": "Sparkler Exit Reminder"
+    },
+    {
+     "name": "alert_body",
+     "text": "Keep phones in pockets. Light your sparkler and shoot on table cameras."
+    },
+    {
+     "name": "button_left",
+     "text": "Ignore Phones"
+    },
+    {
+     "name": "button_right",
+     "text": "Light Sparkler"
+    }
+   ],
+   "primary_text": "During the sparkler send-off, you want guests cheering and waving sparklers, not holding up glowing smartphones. Retra lets your friends capture stunning, unposed exit candids in a single click. Up to 500 photos per charge, four built-in film-look filters, and direct USB-C export. On sale for $99 (compare at $165). Buy 2, Get 1 Free for reception tables.",
+   "meta_headline": "Capture the send-off screen-free"
+  },
+  {
+   "id": "W7",
+   "angle": "Bridal party dance floor candids",
+   "persona": "The newlyweds / Married couple",
+   "funnel": "TOF",
+   "format": "Through-the-lens narrowed view (couple shoots their friends) with iOS alert, W4 style",
+   "slots": [
+    {
+     "name": "alert_title",
+     "text": "Dance Floor Reminder"
+    },
+    {
+     "name": "alert_body",
+     "text": "Leave phones behind. Capture your bridal party going wild on the floor."
+    },
+    {
+     "name": "button_left",
+     "text": "Keep Dancing"
+    },
+    {
+     "name": "button_right",
+     "text": "Take Photo"
+    }
+   ],
+   "primary_text": "Some of the best wedding memories happen when the couple grabs a camera and shoots their bridal party cutting loose. Retra is completely screen-free, so nobody pauses to check their hair or critique angles. Just raw, joyful party memories saved straight to the memory card. Up to 500 photos per charge and USB-C export. Now $99 (was $165). Buy 2, Get 1 Free.",
+   "meta_headline": "Dance floor candids on Retra"
+  },
+  {
+   "id": "W8",
+   "angle": "Confetti toss ceremony exit",
+   "persona": "Ceremony guests / Close friends",
+   "funnel": "TOF",
+   "format": "Through-the-lens narrowed view (friends shoot the couple) with iOS alert, W4 style",
+   "slots": [
+    {
+     "name": "alert_title",
+     "text": "Ceremony Exit Alert"
+    },
+    {
+     "name": "alert_body",
+     "text": "Toss the confetti, cheer loud, and take unposed memories without screens."
+    },
+    {
+     "name": "button_left",
+     "text": "Toss Confetti"
+    },
+    {
+     "name": "button_right",
+     "text": "Snap Candid"
+    }
+   ],
+   "primary_text": "The aisle walk and confetti toss go by in seconds. When guests watch through phone screens, they miss the raw emotion. Retra gives your friends a tangible way to capture unposed aisle candids without blocking the moment. Reusable, rechargeable, with four built-in film-look filters and up to 500 photos per charge. On sale for $99 (compare at $165). Buy 2, Get 1 Free.",
+   "meta_headline": "Unposed aisle exit memories"
+  },
+  {
+   "id": "W9",
+   "angle": "Guest table toast candids",
+   "persona": "Newlyweds / Table hosts",
+   "funnel": "TOF",
+   "format": "Through-the-lens narrowed view (couple shoots their friends) with iOS alert, W4 style",
+   "slots": [
+    {
+     "name": "alert_title",
+     "text": "Table Toast Reminder"
+    },
+    {
+     "name": "alert_body",
+     "text": "Raise a glass together. Capture genuine table laughs without pulling out phones."
+    },
+    {
+     "name": "button_left",
+     "text": "Raise Glass"
+    },
+    {
+     "name": "button_right",
+     "text": "Capture Toast"
+    }
+   ],
+   "primary_text": "Walk from table to table and capture your favourite people laughing mid-toast. Retra makes it easy for the couple and guests to document unposed reception joy without glowing phone screens interrupting the conversation. Four built-in film-look filters, up to 500 photos per charge, and USB-C transfer. On sale for $99 (compare at $165). Buy 2, Get 1 Free for every table.",
+   "meta_headline": "Table toast candids without phones"
   }
  ]
 }

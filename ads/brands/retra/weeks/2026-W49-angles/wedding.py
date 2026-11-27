@@ -169,9 +169,58 @@ def w5(c):
     return img
 
 
-BUILDERS = {"W1": w1, "W2": w2, "W3": w3, "W4": w4, "W5": w5}
+# ---------------------------------------------------------------- W6-W9 through the Retra lens + iOS alert (W4 style)
+def lens(c, k, colour, cen=(0.5, 0.45)):
+    """Narrowed vision: the scene sharp inside a rounded frame window, blurred and darkened outside, frame marks,
+    iOS alert over the lower edge, the camera + wordmark in the dark margin."""
+    base = b2.full(k, cen)
+    out = base.filter(lib.ImageFilter.GaussianBlur(22))
+    out = Image.blend(out.convert("RGB"), Image.new("RGB", out.size, (0, 0, 0)), 0.7).convert("RGBA")
+    x0, y0, x1, y1 = 140, 380, 940, 1200
+    m = Image.new("L", base.size, 0)
+    ImageDraw.Draw(m).rounded_rectangle((x0, y0, x1, y1), 34, fill=255)
+    out.paste(base, (0, 0), m.filter(lib.ImageFilter.GaussianBlur(3)))
+    img = out
+    d = ImageDraw.Draw(img)
+    L, i_ = 60, 26
+    for (x, y, sx, sy) in [(x0 + i_, y0 + i_, 1, 1), (x1 - i_, y0 + i_, -1, 1), (x0 + i_, y1 - i_, 1, -1), (x1 - i_, y1 - i_, -1, -1)]:
+        d.line([(x, y), (x + sx * L, y)], fill=(255, 255, 255), width=5)
+        d.line([(x, y), (x, y + sy * L)], fill=(255, 255, 255), width=5)
+    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2  # small centre focus brackets
+    for sx in (-1, 1):
+        for sy in (-1, 1):
+            d.line([(cx + sx * 40, cy + sy * 40), (cx + sx * 40, cy + sy * 22)], fill=(255, 255, 255, 200), width=3)
+            d.line([(cx + sx * 40, cy + sy * 40), (cx + sx * 22, cy + sy * 40)], fill=(255, 255, 255, 200), width=3)
+    ios_alert(img, S(c, "alert_title"), S(c, "alert_body"), y1 + 40, w=720,
+              buttons=(S(c, "button_left"), S(c, "button_right")))
+    place(img, cam(colour, 230, -6), 230, 1535, shadow=0.5, blur=14, drop=(4, 12))
+    f = tinos(64, -0.03)
+    draw_text(ImageDraw.Draw(img), (W - 90 - measure(f, "Retra"), 1505), "Retra", f, WHITE)
+    lib.TEXT_BOXES.append((W - 300, 1505, W - 90, 1575))
+    return img
+
+
+def w6(c):
+    return lens(c, "w6", "blossom")
+
+
+def w7(c):
+    return lens(c, "w7", "pine")
+
+
+def w8(c):
+    return lens(c, "w8", "chalk", (0.5, 0.4))
+
+
+def w9(c):
+    return lens(c, "w9", "sol")
+
+
+BUILDERS = {"W1": w1, "W2": w2, "W3": w3, "W4": w4, "W5": w5, "W6": w6, "W7": w7, "W8": w8, "W9": w9}
 SLUG = {"W1": "wedding-text-bubbles", "W2": "wedding-card-cta", "W3": "wedding-first-dance-headline",
-        "W4": "wedding-ios-reminder", "W5": "wedding-bridal-product-hero"}
+        "W4": "wedding-ios-reminder", "W5": "wedding-bridal-product-hero",
+        "W6": "wedding-lens-sparkler-exit", "W7": "wedding-lens-bridal-party", "W8": "wedding-lens-confetti-aisle",
+        "W9": "wedding-lens-guest-toast"}
 
 if __name__ == "__main__":
     ids = sys.argv[1:] or list(BUILDERS)

@@ -39,6 +39,28 @@ def bp(job, fix=""):
 
 render.build_prompt = bp
 render.JOBS.update(J)
+# through-the-lens set (W6-W9): what the shooter sees, so no camera in frame
+LENS = "Wedding photo with direct on-camera flash, warm, grain, dark background falloff."
+J.update({
+    "w6": dict(refs=[], ar="9:16", style=LENS, prompt=(
+        "Night sparkler send-off: a just-married couple run hand in hand toward the camera through two lines of guests"
+        " holding glowing sparklers, the bride laughing with her head thrown back, the groom grinning; trails of sparks,"
+        " faces lit warm. Couple in the centre of the frame.")),
+    "w7": dict(refs=[], ar="9:16", style=LENS, prompt=(
+        "Wedding reception dance floor: four bridesmaids in sage-green dresses and two groomsmen in suits dance wildly"
+        " and pose for the camera - one groomsman mid-jump, a bridesmaid pointing straight at the camera laughing,"
+        " ties loosened, shoes off. Group in the centre of the frame.")),
+    "w8": dict(refs=[], ar="9:16", style="Bright daytime wedding photo with fill flash, soft grain.", prompt=(
+        "Ceremony exit: a newlywed couple walk up the aisle toward the camera mid-laugh as guests on both sides throw"
+        " white and pink paper confetti and dried petals over them; the groom kisses the bride's temple. Couple in the"
+        " centre of the frame.")),
+    "w9": dict(refs=[], ar="9:16", style=LENS, prompt=(
+        "A round wedding reception table seen from the head of the table: eight guests in their late 20s and 30s raise"
+        " glasses in a toast and laugh straight at the camera, candles, flowers, half-eaten dessert, one guest wiping"
+        " a happy tear. Guests fill the centre of the frame.")),
+})
+render.JOBS.update(J)
+
 if __name__ == "__main__":
     ids = sys.argv[1:] or list(J)
     for i in ids:
