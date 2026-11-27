@@ -96,6 +96,15 @@ def film_print(key, look, size, crop=None):
     return card
 
 
+def side_column(img, top, colour, cx=872):
+    """Sam: 'what it would look like if they got a Retra' - two tilted sample prints in Retra looks, camera below."""
+    prints = [("party", "Vintage", 5, top + 205), ("ferry", "Film", -4, top + 575)]
+    for key, look, rot, cy in prints:
+        card = film_print(key, look, (290, 340)).rotate(rot, Image.BICUBIC, expand=True)
+        place(img, card, cx, cy, shadow=0.35, blur=16, drop=(4, 14))
+    place(img, cam(colour, 290, -5), cx - 6, min(top + 860, 1500), shadow=0.4, blur=20, drop=(6, 22))
+    lib.TEXT_BOXES.append((cx - 180, top, cx + 180, top + 960))
+
 def a02(cid):
     img = paper((44, 33, 26), seed=2, amt=3)
     # warm smoky glow
@@ -289,26 +298,27 @@ def a14(cid):
 def a15(cid):
     img = canvas(WHITE)
     d = ImageDraw.Draw(img)
+    TW = 560  # text column; the right column shows sample prints + the camera
     y = text_block(img, S(cid, "title", "We're sorry."), lambda s: tinos(s, -0.04), 80, 360, 920, 2, 104, 70, INK)
     d.line([(80, y + 14), (240, y + 14)], fill=SAND, width=5)
     y += 50
+    top = int(y)
     body = S(cid, "body", "Body copy here.")
     paras = [p.strip() for p in body.split("\n") if p.strip()]
     fb = lambda s: tinos(s, -0.02)
-    size = 48
-    while size > 28:  # one size for every paragraph so the block fits above the product
+    size = 44
+    while size > 26:  # one size for every paragraph so the block fits above the sign-off
         f = fb(size)
-        need = sum(len(wrap(p, f, 920)) for p in paras) * (sum(f.getmetrics()) * 1.32) + 26 * len(paras)
-        if y + need < 1330:
+        need = sum(len(wrap(p, f, TW)) for p in paras) * (sum(f.getmetrics()) * 1.3) + 22 * len(paras)
+        if y + need < 1500:
             break
         size -= 1
     f = fb(size)
     for p in paras:
-        y = draw_lines(img, wrap(p, f, 920), f, 80, y, (30, 50, 66), "left", 1.32, None, 920) + 26
+        y = draw_lines(img, wrap(p, f, TW), f, 80, y, (30, 50, 66), "left", 1.3, None, TW) + 22
     so = S(cid, "signoff", "The Retra team")
-    fs = shantell(52)
-    draw_lines(img, [so], fs, 80, y + 10, INK, "left", 1.0, None, 900)
-    prod(img, "p34_blossom", 360, W - 240, 1490)
+    draw_lines(img, [so], shantell(46), 80, y + 10, INK, "left", 1.0, None, TW)
+    side_column(img, top - 10, "blossom")
     return img
 
 

@@ -395,17 +395,17 @@
    "format": "Gift-bow hero with limited inventory notice",
    "funnel": "BOF",
    "id": "34",
-   "meta_headline": "The holiday gift of presence",
+   "meta_headline": "The screen-free gift they'll love",
    "persona": "Holiday gift shoppers / Thoughtful gifters",
-   "primary_text": "Looking for a gift that feels personal, creative, and delightfully low-tech? Retra is the screen-free camera everyone wants under the tree. Available in seven curated colours: White, Midnight, Yellow, Brown, Green Forest, Blue, and Red. Every box includes the camera, USB-C cable, wrist strap, memory card, and gift packaging. Stock is genuinely low across all colours, and our Buy 2, Get 1 Free offer is live while supplies last.",
+   "primary_text": "Give a gift that brings real presence to every holiday moment. Retra is a screen-free digital camera that captures textured, unposed memories friends and family can export via USB-C and print for their albums. Available in seven colours: White, Midnight, Yellow, Brown, Green Forest, Blue, and Red. Now $99 (compare at $165, a 40% discount). Buy 2, Get 1 Free while popular colour stock lasts.",
    "slots": [
     {
      "name": "headline",
-     "text": "The gift they will never forget."
+     "text": "The screen-free gift they will never forget."
     },
     {
      "name": "sub",
-     "text": "Limited batch stock remaining across all seven colours."
+     "text": "Point-and-shoot memories you will actually print. Popular colourways are low on stock."
     }
    ]
   },

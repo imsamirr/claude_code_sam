@@ -93,6 +93,8 @@ def d2(c):
         off = (18 + 360 + 42) - (18 + 360 + 84) / 2  # card centre -> caption strip centre
         img.alpha_composite(tmp, (int(cx + off * math.sin(r) - tmp.width / 2), int(cy + off * math.cos(r) - tmp.height / 2)))
         lib.TEXT_BOXES.append((cx - 210, cy, cx + 210, cy + 300))
+    # Sam: camera in the middle of the four prints
+    place(img, cam("sol", 310, -6), W / 2, top + 585, shadow=0.45, blur=22, drop=(6, 24))
     return img
 
 

@@ -16,7 +16,7 @@ from scenes import tiktok_caption
 
 HERE = Path(__file__).resolve().parent
 COPY.update({c["id"]: c for c in json.load(open(HERE / "copy_b2.json"))["concepts"]})
-PICK = {"s30a": "s30a_t2", "s32": "s32_t2", "s36": "s36_t3", "s42a": "s42a_t2", "s56a": "s56a_t2"}
+PICK = {"s34": "s34b_t1", "s30a": "s30a_t2", "s32": "s32_t2", "s36": "s36_t3", "s42a": "s42a_t2", "s56a": "s56a_t2"}
 WARM = (247, 240, 226)
 
 
@@ -260,24 +260,30 @@ def b59(c):
 
 
 # ---------------------------------------------------------------- white layouts with product photos
-def letter(c, title_k, body_k, close_k, product_name):
+def letter(c, title_k, body_k, close_k, product_name, side=False):
+    from layouts import side_column
     img = canvas(WHITE)
     y = head(img, S(c, title_k), 350, INK, 92, 60, 2, x=80, w=920, align="left")
     ImageDraw.Draw(img).line([(80, y + 14), (240, y + 14)], fill=SAND, width=5)
     y += 50
+    top = int(y)
+    TW = 560 if side else 920
     body = S(c, body_k)
     size = 46
-    while size > 28:
+    while size > 26:
         f = tinos(size, -0.02)
-        need = len(wrap(body, f, 920)) * sum(f.getmetrics()) * 1.32
-        if y + need < 1320:
+        need = len(wrap(body, f, TW)) * sum(f.getmetrics()) * 1.3
+        if y + need < (1500 if side else 1320):
             break
         size -= 1
     f = tinos(size, -0.02)
-    y = draw_lines(img, wrap(body, f, 920), f, 80, y, (30, 50, 66), "left", 1.32, None, 920)
+    y = draw_lines(img, wrap(body, f, TW), f, 80, y, (30, 50, 66), "left", 1.3, None, TW)
     if close_k:
-        draw_lines(img, [S(c, close_k)], shantell(48), 80, y + 24, INK, "left", 1.0, None, 700)
-    prod(img, product_name, 340, W - 230, 1500)
+        draw_lines(img, [S(c, close_k)], shantell(46 if side else 48), 80, y + 24, INK, "left", 1.0, None, TW)
+    if side:
+        side_column(img, top - 10, product_name.replace("p34_", ""))
+    else:
+        prod(img, product_name, 340, W - 230, 1500)
     return img
 
 
@@ -290,7 +296,7 @@ def b44(c):
 
 
 def b50(c):
-    return letter(c, "title", "body", "signoff", "p34_blossom")
+    return letter(c, "title", "body", "signoff", "p34_sol", side=True)
 
 
 def b24(c):
@@ -427,7 +433,7 @@ def b34(c):
     img = canvas(WHITE)
     y = head(img, S(c, "headline"), 350, INK, 96, 62, 2)
     sub(img, S(c, "sub"), y + 10)
-    photo(img, "s34", (90, 760, 990, 1560), (0.55, 0.5), 28)
+    photo(img, "s34", (90, 740, 990, 1580), (0.5, 0.9), 28)
     return img
 
 
