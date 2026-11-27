@@ -1923,6 +1923,30 @@
     "h25_VS1": {
       "file": "reference/benchmarks/h25_VS1.jpg",
       "use_for": "HOLIDAY 2025 WINNER ref (Vessi; Dec 2025; Atria 2026-11-27): bold blue card: logo, product in white rounded card, product-name card. Recreate the layout only; never their brand, prices, claims or product."
+    },
+    "d25_CFa": {
+      "file": "reference/benchmarks/d25_CFa.jpg",
+      "use_for": "DEC 1-25 2025 WINNER ref (ComfoFeet, launched 2025-12-22, 339 days, #1 ad by impressions: huge '$X EACH / TODAY ONLY' + 6-color shoe lineup + 4 icon features; Atria 2026-11-27). Recreate the layout only; never their brand, prices or claims."
+    },
+    "d25_CFb": {
+      "file": "reference/benchmarks/d25_CFb.jpg",
+      "use_for": "DEC 1-25 2025 WINNER ref (ComfoFeet, 2025-12-23, 112 days: 'Absolute steal! Get 1 pair for $X' headline + 5 icon feature list left + pair right + free-shipping stamp; Atria 2026-11-27). Recreate the layout only; never their brand, prices or claims."
+    },
+    "d25_HKa": {
+      "file": "reference/benchmarks/d25_HKa.jpg",
+      "use_for": "DEC 1-25 2025 WINNER ref (Hike, 2025-12-03, 78 days: 'TWO ARE BETTER THAN ONE' gift grid of shoes + price pill + BOGO + HSA/FSA line; Atria 2026-11-27). Recreate the layout only; never their brand, prices or claims."
+    },
+    "d25_HKb": {
+      "file": "reference/benchmarks/d25_HKb.jpg",
+      "use_for": "DEC 1-25 2025 WINNER ref (Hike, 2025-12-08, 73 days: founder's holiday letter on cream paper with red/green candy-cane airmail border; Atria 2026-11-27). Recreate the layout only; never their brand, prices or claims."
+    },
+    "d25_HKc": {
+      "file": "reference/benchmarks/d25_HKc.jpg",
+      "use_for": "DEC 1-25 2025 WINNER ref (Hike, 2025-12-18, 116 days: 'TODAY ONLY!' red sticker + price pill + 5 colors cascade on pink + 'just dropped' button; Atria 2026-11-27). Recreate the layout only; never their brand, prices or claims."
+    },
+    "d25_HKd": {
+      "file": "reference/benchmarks/d25_HKd.jpg",
+      "use_for": "DEC 1-25 2025 WINNER ref (Hike, 2025-12-19, 102 days: red 2-line headline + big shoe + 4 small feature photos with captions; Atria 2026-11-27). Recreate the layout only; never their brand, prices or claims."
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
