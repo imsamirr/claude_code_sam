@@ -94,3 +94,7 @@ Holiday-party theme (Sam: 'more unique and holiday party'): the 12 white layouts
 rule, ribbon corner on gifting) on five festive backdrops (`festive_render.py`: bg_xmas_green, bg_xmas_red,
 bg_party_redgold, bg_nye_gold, bg_nye_midnight; map in holiday.BG), confetti straddling the card edges; the 8 photo
 ads get confetti on the outer edges.
+Bundle gifts (Sam 2026-11-27): Buy 2 Get 1 Free + free woven strap ($29 value); Buy 3 Get 2 Free + strap and leather bag
+($79). O1-O7 copy revised by StefanBrain to include the gifts; O2/O3 draw the gifts with FREE value pills; new O8/O9 are
+festive flat lays (T11). `gift_render.py`: gift_strap (from the store photo, assets/retra/product/gifts/), gift_bag_t2
+(rendered; the store's bag image returns 502 on the CDN), flat_b2g1, flat_b3g2_t2. Sheet: `output/_sheet_offers_gifts_4x5.jpg`.

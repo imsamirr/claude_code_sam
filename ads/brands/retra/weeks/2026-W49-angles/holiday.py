@@ -21,6 +21,7 @@ HERE = Path(__file__).resolve().parent
 CON = {c["id"]: c for c in json.load(open(HERE / "copy_holiday.json"))["concepts"]}
 COPY.update(CON)
 PICK = {"h_O5": "h_O5_t2", "h_N3": "h_N3_t2"}  # chosen takes
+b2.PICK.update({"gift_bag": "gift_bag_t2", "flat_b3g2": "flat_b3g2_t2"})
 COL = {}   # concept id -> camera colour key (set in holiday_render.py, mirrored here)
 PRICE_OLD, PRICE_NEW = "$200", "$99"
 RED_ = (196, 30, 45)
@@ -97,7 +98,7 @@ def t3(c):
     gap_sym = 70 if n == 3 else 56
     total = n * cw + (n - 1) * (20 if n == 3 else 10) + gap_sym
     x = (W - total) / 2 + cw / 2
-    cy = y + 270
+    cy = y + (270 if S(c, "bundle").upper().startswith("B2") else 160)
     fsym = tinos(110, -0.02)
     for i in range(n):
         if i == paid:  # the "+" between paid and free
@@ -110,9 +111,44 @@ def t3(c):
         x += cw + (20 if n == 3 else 10)
     d = ImageDraw.Draw(img)
     lab = f"Pay for {paid}. Get {n}."
-    draw_lines(img, [lab], tinos(76, -0.03), 80, cy + 230, INK, "center", 1, None, 920)
-    draw_lines(img, [f"{PRICE_NEW} each (was {PRICE_OLD})"], inter(34, "Medium"), 80, cy + 330, BODY, "center", 1, None, 920)
-    pill(img, S(c, "cta"), inter(36, "SemiBold"), W / 2, 1560, "cta", WHITE, padx=56, pady=18)
+    draw_lines(img, [lab], tinos(76, -0.03), 80, cy + 200, INK, "center", 1, None, 920)
+    draw_lines(img, [f"{PRICE_NEW} each (was {PRICE_OLD})"], inter(34, "Medium"), 80, cy + 292, BODY, "center", 1, None, 920)
+    # Sam 2026-11-27: B2G1 includes the free woven strap; B3G2 the strap + leather bag
+    gifts = GIFTS[:1] if paid == 2 else GIFTS
+    gy = cy + 480
+    gx = [W / 2] if len(gifts) == 1 else [W / 2 - 220, W / 2 + 220]
+    draw_lines(img, ["+ " + ("free gift" if len(gifts) == 1 else "2 free gifts")], tinos(52, -0.02), 80, gy - 105, RED_,
+               "center", 1, None, 920)
+    for (k, name, val), x_ in zip(gifts, gx):
+        g = b2.whiten(k, 300 if len(gifts) == 1 else 240, 0.12)
+        lib.multiply(img, g.convert("RGB"), x_, gy + 30)
+        pill(img, f"FREE {name} \u00b7 {val} value", inter(24, "Bold"), x_, gy + 165, RED_, WHITE, padx=16, pady=8)
+    pill(img, S(c, "cta"), inter(36, "SemiBold"), W / 2, 1585, "cta", WHITE, padx=56, pady=18)
+    return img
+
+
+GIFTS = [("gift_strap", "STRAP", "$29"), ("gift_bag", "BAG", "$50")]
+
+
+# ---------------------------------------------------------------- T11 festive bundle flat lay + gift tags
+def t11(c):
+    k = "flat_b2g1" if c == "O8" else "flat_b3g2"
+    src = b2.R(k)
+    if k == "flat_b3g2":  # Kie left a plain band with a seam across the top quarter
+        pass  # full frame keeps all five cameras; the plain band sits under the headline scrim
+    band = ImageOps.fit(src, (W, 1350), Image.LANCZOS, centering=(0.5, 0.45))
+    img = ImageOps.fit(band, (W, H), Image.LANCZOS).filter(ImageFilter.GaussianBlur(30)).convert("RGBA")
+    img.paste(band, (0, 285))
+    scrim_top(img, 860 if c == "O9" else 760, 245 if c == "O9" else 200)  # O9: hide the plain band's seam
+    y = head(img, S(c, "headline"), 330, WARM, 88, 58, 2, shadow=SH)
+    sub(img, S(c, "sub"), y + 12, WHITE, 36, 26, 2, shadow=SH, weight="Medium")
+    scrim_bottom(img, 1300, 190)
+    gifts = GIFTS[:1] if c == "O8" else GIFTS
+    tags = [f"FREE {n.title()} \u00b7 {v} value" for _, n, v in gifts]
+    xs = [W / 2] if len(tags) == 1 else [W / 2 - 230, W / 2 + 230]
+    for t, x_ in zip(tags, xs):
+        pill(img, t, inter(28, "Bold"), x_, 1478, RED_, WHITE, padx=20, pady=10)
+    pill(img, S(c, "cta"), inter(38, "SemiBold"), W / 2, 1550, "cta", WHITE, padx=56, pady=18)
     return img
 
 
@@ -344,7 +380,7 @@ def party(img, cid):
     return img
 
 
-T = {"T1": t1, "T2": t2, "T3": t3, "T4": t4, "T5": t5, "T6": t6, "T7": t7, "T8": t8, "T9": t9, "T10": t10}
+T = {"T11": t11, "T1": t1, "T2": t2, "T3": t3, "T4": t4, "T5": t5, "T6": t6, "T7": t7, "T8": t8, "T9": t9, "T10": t10}
 
 if __name__ == "__main__":
     ids = sys.argv[1:] or list(CON)

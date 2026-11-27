@@ -1,0 +1,4 @@
+done gift_bag_t1.png
+done gift_strap_t1.png
+done flat_b2g1_t1.png
+done flat_b3g2_t1.png
