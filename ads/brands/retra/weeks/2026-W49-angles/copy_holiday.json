@@ -1,0 +1,633 @@
+{
+ "source": "StefanBrain v2 (rule fixes G6 N1 N4 O3 O5), chat chat_e2881d64bb4e43c687b42831eb31dff3",
+ "concepts": [
+  {
+   "id": "G1",
+   "angle": "Holiday gifting",
+   "persona": "Gift buyers for girlfriends and sisters",
+   "funnel": "TOF",
+   "template": "T1",
+   "format": "T1",
+   "scene": "A woman laughing on a sunlit balcony holding a camera in White.",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "The holiday gift she will take everywhere."
+    },
+    {
+     "name": "sub",
+     "text": "Four built-in film-look filters. Up to 500 photos per charge without screen distractions."
+    },
+    {
+     "name": "cta",
+     "text": "Shop Black Friday"
+    }
+   ],
+   "primary_text": "Give her a gift that invites creativity and real presence into her daily life. Retra is a screen-free digital camera that fits right into her bag. She gets up to 500 photos per charge, four built-in film-look filters, and direct USB-C transfer. Available in seven colours. On sale for $99 (compare at $200, 50% off). Buy 2, Get 1 Free automatic at checkout.",
+   "meta_headline": "The screen-free holiday gift for her"
+  },
+  {
+   "id": "G2",
+   "angle": "Holiday gifting",
+   "persona": "Adult children buying for grandparents",
+   "funnel": "TOF",
+   "template": "T4",
+   "format": "T4",
+   "scene": "A wrapped gift box on dark green paper with a handwritten kraft paper tag.",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "The simplest gift for grandparents."
+    },
+    {
+     "name": "tag_to",
+     "text": "To Grandma & Grandpa"
+    },
+    {
+     "name": "tag_message",
+     "text": "No passwords or menus. Just point and shoot."
+    },
+    {
+     "name": "sub",
+     "text": "Includes memory card, cable, and gift box. Now $99."
+    }
+   ],
+   "primary_text": "Buying tech for grandparents usually means endless holiday tech support. Retra works right out of the box with zero passwords, accounts, or touchscreens. They point, shoot, and capture memories of the grandkids directly to the included memory card. View on a computer via USB-C. Compare at $200, now $99 for Black Friday. Buy 2, Get 1 Free.",
+   "meta_headline": "The camera grandparents can use"
+  },
+  {
+   "id": "G3",
+   "angle": "Holiday gifting",
+   "persona": "Parents seeking screen-free presents",
+   "funnel": "TOF",
+   "template": "T5",
+   "format": "T5",
+   "scene": "A child smiling while unwrapping a Yellow camera by a lit holiday tree.",
+   "slots": [
+    {
+     "name": "alert_title",
+     "text": "Holiday Gift Alert"
+    },
+    {
+     "name": "alert_body",
+     "text": "Give them the joy of photography without internet feeds, apps, or screen time."
+    },
+    {
+     "name": "button_left",
+     "text": "Skip Phones"
+    },
+    {
+     "name": "button_right",
+     "text": "Choose Retra"
+    }
+   ],
+   "primary_text": "When kids ask for their first camera, giving them a smartphone opens the door to social media feeds and texting. Retra gives them the pure joy of photography with zero screen distraction. No apps, no Wi-Fi, and no internet. Up to 500 photos per charge in four film-look filters. Compare at $200, now $99 during our Black Friday sale.",
+   "meta_headline": "A screen-free holiday gift for kids"
+  },
+  {
+   "id": "G4",
+   "angle": "Holiday gifting",
+   "persona": "Budget-conscious holiday gift shoppers",
+   "funnel": "MOF",
+   "template": "T2",
+   "format": "T2",
+   "scene": "Clean white background with the $200 to $99 price strike and product cutout.",
+   "slots": [
+    {
+     "name": "kicker",
+     "text": "Black Friday Sale"
+    },
+    {
+     "name": "headline",
+     "text": "The complete screen-free camera gift kit."
+    },
+    {
+     "name": "list_1",
+     "text": "Memory card and cable included"
+    },
+    {
+     "name": "list_2",
+     "text": "4 built-in film-look filters"
+    },
+    {
+     "name": "list_3",
+     "text": "Zero app fees or accounts"
+    },
+    {
+     "name": "cta",
+     "text": "Get Yours for $99"
+    }
+   ],
+   "primary_text": "Cross holiday gifts off your list with a camera that feels premium, creative, and delightfully low-tech. Every Retra box includes the rechargeable camera, USB-C cable, wrist strap, memory card, and gift packaging. No ongoing film expenses, no app subscriptions, and no hidden costs. Marked down from $200 to $99 for Black Friday.",
+   "meta_headline": "Holiday gifting solved for $99"
+  },
+  {
+   "id": "G5",
+   "angle": "Holiday gifting",
+   "persona": "Thoughtful gift shoppers / Unplugged advocates",
+   "funnel": "TOF",
+   "template": "T8",
+   "format": "T8",
+   "scene": "Minimalist plain-text letter layout on a white canvas with a small camera at the bottom.",
+   "slots": [
+    {
+     "name": "title",
+     "text": "Why this gift means more."
+    },
+    {
+     "name": "body",
+     "text": "Most modern gadgets demand attention with screen glare and notifications. We built Retra to do the opposite: help people be present. It is a screen-free camera that captures genuine, unposed memories without apps or Wi-Fi. Every unit arrives in a gift box with a memory card, cable, and wrist strap. A thoughtful gift they can use in seconds."
+    },
+    {
+     "name": "signoff",
+     "text": "Warmly, The Retra Team"
+    }
+   ],
+   "primary_text": "Most modern gifts add another glowing screen to daily life. Retra does the exact opposite: it helps the people you love put their phones away and stay in the moment. Each camera arrives gift-ready with an included memory card, wrist strap, and USB-C cable. Up to 500 photos per charge in four film-look filters. Marked down to $99 from $200 for Black Friday.",
+   "meta_headline": "Why Retra makes the ideal gift"
+  },
+  {
+   "id": "G6",
+   "angle": "Holiday gifting",
+   "persona": "Friends coordinating holiday gift exchanges",
+   "funnel": "MOF",
+   "template": "T7",
+   "format": "T7",
+   "scene": "A cozy living room table with wrapped presents and a camera in Red.",
+   "slots": [
+    {
+     "name": "bubble_1",
+     "text": "Did you figure out what to get your sister yet?"
+    },
+    {
+     "name": "bubble_2",
+     "text": "Got her a Retra camera in Red for $99."
+    },
+    {
+     "name": "bubble_3",
+     "text": "Smart, completely screen-free and she loves film vibes."
+    }
+   ],
+   "primary_text": "Coordinate your holiday gifting in one simple order. Retra is a screen-free digital camera that combines classic disposable charm with reusable USB-C convenience. No ongoing film costs, no app store logins, and no screens. Choose your favorite shades across seven colours. On sale for $99 (compare at $200, 50% off). Buy 2, Get 1 Free automatic at checkout.",
+   "meta_headline": "The screen-free holiday gift"
+  },
+  {
+   "id": "G7",
+   "angle": "Holiday gifting",
+   "persona": "Holiday shoppers planning ahead for Christmas",
+   "funnel": "MOF",
+   "template": "T9",
+   "format": "T9",
+   "scene": "Clean calendar page layout featuring DEC 25 heading with the camera centered below.",
+   "slots": [
+    {
+     "name": "date_label",
+     "text": "DEC 25"
+    },
+    {
+     "name": "headline",
+     "text": "The gift they will unwrap and love."
+    },
+    {
+     "name": "sub",
+     "text": "Screen-free memories ready for the tree. Now $99 (was $200)."
+    },
+    {
+     "name": "cta",
+     "text": "Claim Holiday Deal"
+    }
+   ],
+   "primary_text": "Make this holiday morning one to remember. Retra is the screen-free digital camera that gets everyone looking at each other instead of staring into smartphones. Up to 500 photos per charge, four built-in film-look filters, and direct USB-C transfer. Marked down from $200 to $99 for our Black Friday sale. Buy 2, Get 1 Free applies automatically.",
+   "meta_headline": "Ready for under the tree"
+  },
+  {
+   "id": "G8",
+   "angle": "Holiday gifting",
+   "persona": "Discerning gift givers comparing options",
+   "funnel": "MOF",
+   "template": "T10",
+   "format": "T10",
+   "scene": "Side-by-side comparison chart on white contrasting traditional gadgets with Retra.",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "Typical tech gifts vs Retra."
+    },
+    {
+     "name": "left_title",
+     "text": "Other Gadgets"
+    },
+    {
+     "name": "right_title",
+     "text": "Retra"
+    },
+    {
+     "name": "left_1",
+     "text": "More screen time battles"
+    },
+    {
+     "name": "left_2",
+     "text": "Complex account setups required"
+    },
+    {
+     "name": "left_3",
+     "text": "Constant notification alerts"
+    },
+    {
+     "name": "right_1",
+     "text": "Zero screen distraction"
+    },
+    {
+     "name": "right_2",
+     "text": "Works right out of box"
+    },
+    {
+     "name": "right_3",
+     "text": "Pure creative photography"
+    }
+   ],
+   "primary_text": "Compare typical modern gadgets with Retra. Traditional tech brings distracting app alerts, fragile screens, and battery drain. Retra brings tactile presence, creative fun, and timeless film-look memories. Each camera comes complete with a memory card, cable, and wrist strap in a gift box. Compare at $200, now $99. Buy 2, Get 1 Free.",
+   "meta_headline": "The gift of presence beats screens"
+  },
+  {
+   "id": "N1",
+   "angle": "New Year resolution",
+   "persona": "Mindful adults setting digital detox resolutions",
+   "funnel": "TOF",
+   "template": "T6",
+   "format": "T6",
+   "scene": "Notes app resolution checklist layout on a clean white background.",
+   "slots": [
+    {
+     "name": "title",
+     "text": "New Year Intentions"
+    },
+    {
+     "name": "item_1",
+     "text": "x Doomscroll every morning"
+    },
+    {
+     "name": "item_2",
+     "text": "x Stare at phone cameras"
+    },
+    {
+     "name": "item_3",
+     "text": "v Spend less time on screens"
+    },
+    {
+     "name": "item_4",
+     "text": "v Be present with family"
+    },
+    {
+     "name": "item_5",
+     "text": "v Capture film-look candid memories"
+    },
+    {
+     "name": "sub",
+     "text": "Start the New Year present. Retra is $99 for Black Friday."
+    }
+   ],
+   "primary_text": "Make this the year you finally break the habit of living through a five-inch phone screen. Retra is purpose-built for pure, distraction-free photography. You point, shoot, and stay completely engaged with the world around you. Four built-in film-look filters, up to 500 photos per charge, and USB-C export. Now $99 during our Black Friday sale (was $200).",
+   "meta_headline": "Start the New Year screen-free"
+  },
+  {
+   "id": "N2",
+   "angle": "New Year resolution",
+   "persona": "Travellers planning upcoming trips",
+   "funnel": "TOF",
+   "template": "T1",
+   "format": "T1",
+   "scene": "A person standing on a mountain trail at sunrise holding a Green Forest camera.",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "Travel more. Look at screens less this year."
+    },
+    {
+     "name": "sub",
+     "text": "Take up to 500 candid photos per charge with zero apps or phone notifications."
+    },
+    {
+     "name": "cta",
+     "text": "Shop New Year Sale"
+    }
+   ],
+   "primary_text": "Plan your upcoming adventures without the burden of constant screen checking. Retra lets you capture mountain sunrises and new cities in timeless film-look character without ever unlocking a phone. Up to 500 photos per charge, rechargeable, and direct USB-C transfer. Seven colours available. Compare at $200, now $99. Buy 2, Get 1 Free automatic at checkout.",
+   "meta_headline": "See your next trips screen-free"
+  },
+  {
+   "id": "N3",
+   "angle": "New Year resolution",
+   "persona": "New Year party hosts / Partygoers",
+   "funnel": "TOF",
+   "template": "T5",
+   "format": "T5",
+   "scene": "Friends toasting with sparkling drinks at midnight with a Midnight camera on the table.",
+   "slots": [
+    {
+     "name": "alert_title",
+     "text": "Midnight Countdown Alert"
+    },
+    {
+     "name": "alert_body",
+     "text": "Put phones away at midnight. Capture genuine party laughs on table cameras instead."
+    },
+    {
+     "name": "button_left",
+     "text": "Ignore Phones"
+    },
+    {
+     "name": "button_right",
+     "text": "Celebrate"
+    }
+   ],
+   "primary_text": "Ring in midnight without glowing smartphone screens blocking the countdown. Retra lets everyone snap spontaneous, unposed party candids in one click. No screen to check, no apps pinging, and no Wi-Fi. Save up to 500 photos on the included memory card and export to your computer after the celebration. On sale for $99 (was $200). Buy 2, Get 1 Free.",
+   "meta_headline": "Capture midnight memories unposed"
+  },
+  {
+   "id": "N4",
+   "angle": "New Year resolution",
+   "persona": "People resetting lifestyle habits for Jan 1",
+   "funnel": "TOF",
+   "template": "T9",
+   "format": "T9",
+   "scene": "Clean calendar page layout featuring JAN 1 heading with product below.",
+   "slots": [
+    {
+     "name": "date_label",
+     "text": "JAN 1"
+    },
+    {
+     "name": "headline",
+     "text": "Start the year looking up from screens."
+    },
+    {
+     "name": "sub",
+     "text": "Rechargeable, screen-free, and up to 500 photos per charge. Now $99."
+    },
+    {
+     "name": "cta",
+     "text": "Start New Year"
+    }
+   ],
+   "primary_text": "Start the new year with a fresh relationship to your camera. Leaving your smartphone in your pocket means you experience real life instead of recording it through glass. Retra gives you classic point-and-shoot simplicity with four built-in film-look filters and rechargeable USB-C battery. On sale for $99 (compare at $200, 50% savings).",
+   "meta_headline": "A fresh start for your screen time"
+  },
+  {
+   "id": "N5",
+   "angle": "New Year resolution",
+   "persona": "Adults making digital wellness changes",
+   "funnel": "MOF",
+   "template": "T10",
+   "format": "T10",
+   "scene": "Side-by-side comparison layout on white contrasting last year's screen habits with Retra.",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "Last year's habits vs this year."
+    },
+    {
+     "name": "left_title",
+     "text": "Last Year"
+    },
+    {
+     "name": "right_title",
+     "text": "Retra"
+    },
+    {
+     "name": "left_1",
+     "text": "Hours lost to screen scrolling"
+    },
+    {
+     "name": "left_2",
+     "text": "Taking hundreds of burst photos"
+    },
+    {
+     "name": "left_3",
+     "text": "Photos forgotten on phone screens"
+    },
+    {
+     "name": "right_1",
+     "text": "100% screen-free presence"
+    },
+    {
+     "name": "right_2",
+     "text": "Candid point and shoot moments"
+    },
+    {
+     "name": "right_3",
+     "text": "Memories ready to export later"
+    }
+   ],
+   "primary_text": "Transform how you capture life this coming year. The smartphone habit means checking unread messages and feeds every time you take a photo. Retra replaces the distraction with pure presence: point, shoot, and see your photos later. Includes four film filters and memory card. Compare at $200, now $99 during our Black Friday sale.",
+   "meta_headline": "Your old habits vs your new year"
+  },
+  {
+   "id": "O1",
+   "angle": "Black Friday offer",
+   "persona": "Black Friday deal hunters / Bargain shoppers",
+   "funnel": "BOF",
+   "template": "T2",
+   "format": "T2",
+   "scene": "Clean white price card layout showing the 50% Black Friday markdown to $99.",
+   "slots": [
+    {
+     "name": "kicker",
+     "text": "Black Friday Sale"
+    },
+    {
+     "name": "headline",
+     "text": "50% off the screen-free camera."
+    },
+    {
+     "name": "list_1",
+     "text": "Now $99. Compare at $200."
+    },
+    {
+     "name": "list_2",
+     "text": "4 built-in film-look filters"
+    },
+    {
+     "name": "list_3",
+     "text": "Memory card and cable included"
+    },
+    {
+     "name": "cta",
+     "text": "Claim 50% Off"
+    }
+   ],
+   "primary_text": "Our Black Friday sale is live across the store: get Retra for $99 (compare at $200, a full 50% discount). No discount codes needed. Point, shoot, and see your photos later. Four built-in film-look filters, up to 500 photos per charge, and USB-C transfer. Low stock confirmed on original six colours. Order now while inventory lasts.",
+   "meta_headline": "Black Friday: Retra is $99 (Save 50%)"
+  },
+  {
+   "id": "O2",
+   "angle": "Bundle offer",
+   "persona": "Multi-unit gift shoppers / Holiday shoppers",
+   "funnel": "BOF",
+   "template": "T3",
+   "format": "T3",
+   "scene": "Bold graphic layout on white illustrating the Buy 2 Get 1 Free camera bundle.",
+   "slots": [
+    {
+     "name": "bundle",
+     "text": "B2G1"
+    },
+    {
+     "name": "headline",
+     "text": "Buy two cameras, get one free."
+    },
+    {
+     "name": "sub",
+     "text": "Automatic at checkout. Mix and match any colours. Low stock on original colours."
+    },
+    {
+     "name": "cta",
+     "text": "Get 3 Cameras"
+    }
+   ],
+   "primary_text": "Cross multiple gifts off your list with our holiday bundle: buy any two Retra cameras, and we will add a third one for free automatically at checkout. No codes required. Completely screen-free, rechargeable, with up to 500 photos per charge and USB-C export. Mix and match across seven colours. Low stock on original six colours.",
+   "meta_headline": "Buy 2 Retra cameras, Get 1 Free"
+  },
+  {
+   "id": "O3",
+   "angle": "Bundle offer",
+   "persona": "Large families / Group gifters / Event hosts",
+   "funnel": "BOF",
+   "template": "T3",
+   "format": "T3",
+   "scene": "Graphic layout on white illustrating the Buy 3 Get 2 Free camera bundle.",
+   "slots": [
+    {
+     "name": "bundle",
+     "text": "B3G2"
+    },
+    {
+     "name": "headline",
+     "text": "Buy three cameras, get two free."
+    },
+    {
+     "name": "sub",
+     "text": "Our biggest bundle. Five cameras for the price of three. Automatic at checkout."
+    },
+    {
+     "name": "cta",
+     "text": "Get 5 Cameras"
+    }
+   ],
+   "primary_text": "Our biggest bundle is live: buy any three Retra cameras and get two additional cameras free automatically at checkout. Perfect for wedding reception tables, big family vacations, or holiday gift circles. Up to 500 photos per charge, four built-in filters, and USB-C transfer. Claim your five cameras while stock remains.",
+   "meta_headline": "Buy 3 Retra cameras, Get 2 Free"
+  },
+  {
+   "id": "O4",
+   "angle": "Black Friday offer",
+   "persona": "High-intent shoppers / Fence-sitters",
+   "funnel": "BOF",
+   "template": "T8",
+   "format": "T8",
+   "scene": "Plain-text team announcement letter on white canvas with camera centered below.",
+   "slots": [
+    {
+     "name": "title",
+     "text": "A Black Friday note."
+    },
+    {
+     "name": "body",
+     "text": "Our Black Friday deals are live in the store. Retra is marked down from $200 to $99, and our Buy 2, Get 1 Free and Buy 3, Get 2 Free bundles apply automatically at checkout. No codes needed. Inventory is low on our original six colours, so please grab your favourite shades while all options remain."
+    },
+    {
+     "name": "signoff",
+     "text": "Warmly, The Retra Team"
+    }
+   ],
+   "primary_text": "Our Black Friday sale is officially live in the store. Retra is marked down from $200 to $99 (50% off), and our Buy 2, Get 1 Free and Buy 3, Get 2 Free bundles apply automatically at checkout. Each camera includes a memory card, USB-C cable, and gift box. Stock is low on original colours, so pick your favorites while shades remain.",
+   "meta_headline": "A Black Friday note from our team"
+  },
+  {
+   "id": "O5",
+   "angle": "Black Friday offer",
+   "persona": "Deal seekers / Gift shoppers",
+   "funnel": "BOF",
+   "template": "T1",
+   "format": "T1",
+   "scene": "A cozy holiday living room setting with multiple Retra cameras in different colours on a wooden table.",
+   "slots": [
+    {
+     "name": "headline",
+     "text": "Our Black Friday sale is live."
+    },
+    {
+     "name": "sub",
+     "text": "Now $99 (compare at $200). Buy 2, Get 1 Free automatic at checkout."
+    },
+    {
+     "name": "cta",
+     "text": "Shop 50% Off"
+    }
+   ],
+   "primary_text": "Black Friday pricing is live: get the Retra screen-free digital camera for $99 (compare at $200, a full 50% discount). No discount codes needed. Plus, buy two get one free, or buy three get two free automatic at checkout. Each unit includes a rechargeable battery, four built-in film-look filters, and USB-C export. Low stock on original colours.",
+   "meta_headline": "Black Friday: Retra is $99"
+  },
+  {
+   "id": "O6",
+   "angle": "Black Friday offer",
+   "persona": "Bargain hunters sharing deals with friends",
+   "funnel": "BOF",
+   "template": "T7",
+   "format": "T7",
+   "scene": "Two hands holding three cameras in Brown, Pine, and Sol over a festive tabletop.",
+   "slots": [
+    {
+     "name": "bubble_1",
+     "text": "Did you see Retra's Black Friday sale?"
+    },
+    {
+     "name": "bubble_2",
+     "text": "Yes, marked down to $99 from $200."
+    },
+    {
+     "name": "bubble_3",
+     "text": "Plus Buy 2 Get 1 Free at checkout."
+    }
+   ],
+   "primary_text": "Share the deal before colourways run low. Retra is $99 during our Black Friday sale (compare at $200, 50% off). Looking to gift friends and family? Buy two cameras and get one free, or buy three and get two free automatically at checkout. Rechargeable, screen-free, with four built-in filters. Order while batch stock lasts.",
+   "meta_headline": "Black Friday bundle deals live"
+  },
+  {
+   "id": "O7",
+   "angle": "Black Friday offer",
+   "persona": "Value seekers / Retargeting",
+   "funnel": "BOF",
+   "template": "T2",
+   "format": "T2",
+   "scene": "High-contrast Black Friday price card on white with checklist and $99 price callout.",
+   "slots": [
+    {
+     "name": "kicker",
+     "text": "Black Friday Pricing"
+    },
+    {
+     "name": "headline",
+     "text": "Screen-free memories at 50% off."
+    },
+    {
+     "name": "list_1",
+     "text": "Down to $99 from $200"
+    },
+    {
+     "name": "list_2",
+     "text": "Up to 500 photos per charge"
+    },
+    {
+     "name": "list_3",
+     "text": "Automatic Buy 2 Get 1 Free"
+    },
+    {
+     "name": "cta",
+     "text": "Claim Black Friday"
+    }
+   ],
+   "primary_text": "Take advantage of our 50% Black Friday markdown: get Retra for $99 (compare at $200). Say goodbye to recurring disposable camera costs and distracting phone screens. Retra gives you classic point-and-shoot simplicity with four built-in film filters, rechargeable battery, and included memory card. Pair with our Buy 2, Get 1 Free bundle for maximum savings.",
+   "meta_headline": "Retra Black Friday: 50% Off"
+  }
+ ]
+}

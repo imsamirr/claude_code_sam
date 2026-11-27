@@ -83,3 +83,10 @@ frame marks) + iOS alert + camera and wordmark. W6 sparkler exit / W8 confetti a
 W7 bridal party dancing / W9 table toast (couple shoots friends). Sheet: `output/_sheet_wedding_lens_4x5.jpg`.
 W6-W9 looks (Sam): each in Vintage / Black & White / Film (`python3 wedding.py W6:all`), filter-name pill in the frame,
 camera bigger. Files end `_vintage`, `_bw`, `_film`. Sheet: `output/_sheet_wedding_lens_looks_4x5.jpg`.
+
+## Holiday gifting / New Year / offers (G1-G8, N1-N5, O1-O7), 2026-11-27
+20 DR statics; StefanBrain picked the split, persona, template (T1-T10 menu in holiday.py) and copy (v2 after rule fixes:
+G6 popularity, N1 "film", N4 "up to", O3/O5 superlatives). Offers from the Shopify store today: $99 compare at $200
+(50% off), automatic Buy 2 Get 1 Free and Buy 3 Get 2 Free. Not used: discount codes, free strap/bag gifts (trigger
+unconfirmed), shipping/delivery dates. Scenes: `holiday_render.py` (camera colour follows the scene; colours in
+`holiday_colours.json`); picks h_O5_t2 (top band cropped), h_N3_t2 (no flash glow). Sheet: `output/_sheet_holiday_4x5.jpg`.
