@@ -362,7 +362,8 @@
       "offer": "\"60% OFF SITEWIDE\" + 'Free shipping & returns · 30-day money-back guarantee'; LEAKED10 extra 10% in primary text. Price $59.95 (was $120). No end date confirmed: no deadlines or hours-left.",
       "theme": "HOLIDAY SALE theme: warm white/cream backgrounds, festive red (#D7141A) for the offer box, pills and key words, small deep pine-green and gold accents (a sprig of holly or pine, a thin gold ribbon, a few gold sparkles or snowflakes). Black only for body text. No dark backgrounds; restrained, not overly colorful. Compact banner: one red box '60% OFF SITEWIDE' + one small line 'Free shipping & returns · 30-day money-back guarantee'. 'HOLIDAY SALE' as the kicker/headline tag.",
       "offer_update_2026_11_27": "User 2026-11-27: HOLIDAY SALE = 60% OFF SITEWIDE + FREE GIFTS ADDED TO ALL ORDERS + FREE SHIPPING (gifts assumed = 3-pack cushioned socks + travel bag, as in the BF offer; confirm). The BF 'never both' rule does not apply to this offer.",
-      "last_sale_2026_11_27": "User 2026-11-27: the Holiday Sale may be called our 'last sale' (of the year) in copy."
+      "last_sale_2026_11_27": "User 2026-11-27: the Holiday Sale may be called our 'last sale' (of the year) in copy.",
+      "hsa_fsa_note": "HSA/FSA year-end angle (user 2026-11-27): say 'many FSA plans expire Dec 31' / 'use your FSA dollars before Dec 31'; HSA balances roll over, so never say HSA dollars expire. Ortho Stretch is HSA/FSA eligible (approved claim)."
     }
   },
   "colorway_template": "The shoe is the {label} colorway shown in the reference photo.",
@@ -2032,6 +2033,38 @@
     "n10b_B18": {
       "file": "reference/benchmarks/n10b_B18.jpg",
       "use_for": "LONG-RUNNING FORMAT ref (Craighill · 25 days · #1 of 883, active Nov 2026, Atria 2026-11-27): 'WE'RE ON SALE. DON'T TELL ANYONE.' + giant product close-up. Recreate the layout only; never their brand, claims or product."
+    },
+    "fsa_F01": {
+      "file": "reference/benchmarks/fsa_F01.jpg",
+      "use_for": "HSA/FSA YEAR-END ref (Omnilux, Oct-Nov 2026, Atria 2026-11-27): people holding a handwritten cardboard sign 'Save even more: Black Friday + HSA/FSA'. Layout only; facts: many FSA plans expire Dec 31 (some have grace periods), HSA rolls over; never their brand or product."
+    },
+    "fsa_F03": {
+      "file": "reference/benchmarks/fsa_F03.jpg",
+      "use_for": "HSA/FSA YEAR-END ref (Canopy · rank 16 of 425, Oct-Nov 2026, Atria 2026-11-27): premium product photo + 'Your FSA/HSA dollars expire soon' + HSA/FSA eligible badge. Layout only; facts: many FSA plans expire Dec 31 (some have grace periods), HSA rolls over; never their brand or product."
+    },
+    "fsa_F04": {
+      "file": "reference/benchmarks/fsa_F04.jpg",
+      "use_for": "HSA/FSA YEAR-END ref (Daily Harvest · #1 of 42, Oct-Nov 2026, Atria 2026-11-27): serif headline 'Use your HSA/FSA funds on...' + round 'USE BEFORE 12/31' sticker + product in hand. Layout only; facts: many FSA plans expire Dec 31 (some have grace periods), HSA rolls over; never their brand or product."
+    },
+    "fsa_F05": {
+      "file": "reference/benchmarks/fsa_F05.jpg",
+      "use_for": "HSA/FSA YEAR-END ref (BACtrack (Reviewed), Oct-Nov 2026, Atria 2026-11-27): 'Your FSA balance expires Dec 31. X is eligible.' + flat lay with an HSA card. Layout only; facts: many FSA plans expire Dec 31 (some have grace periods), HSA rolls over; never their brand or product."
+    },
+    "fsa_F08": {
+      "file": "reference/benchmarks/fsa_F08.jpg",
+      "use_for": "HSA/FSA YEAR-END ref (Therabody, Oct-Nov 2026, Atria 2026-11-27): HSA/FSA check logo + 'Use your HSA/FSA dollars on qualifying products before 12/31' + products laid out. Layout only; facts: many FSA plans expire Dec 31 (some have grace periods), HSA rolls over; never their brand or product."
+    },
+    "fsa_F09": {
+      "file": "reference/benchmarks/fsa_F09.jpg",
+      "use_for": "HSA/FSA YEAR-END ref (ettitude · 115 days, Oct-Nov 2026, Atria 2026-11-27): soft lifestyle photo + elegant serif 'The smartest way to spend your FSA dollars before they expire' + pill button. Layout only; facts: many FSA plans expire Dec 31 (some have grace periods), HSA rolls over; never their brand or product."
+    },
+    "fsa_F10": {
+      "file": "reference/benchmarks/fsa_F10.jpg",
+      "use_for": "HSA/FSA YEAR-END ref (Truvaga, Oct-Nov 2026, Atria 2026-11-27): 'Your FSA Funds Don't Roll Over' headline + product center + 4 callout pills. Layout only; facts: many FSA plans expire Dec 31 (some have grace periods), HSA rolls over; never their brand or product."
+    },
+    "fsa_F11": {
+      "file": "reference/benchmarks/fsa_F11.jpg",
+      "use_for": "HSA/FSA YEAR-END ref (Aviron, Oct-Nov 2026, Atria 2026-11-27): bold 'DON'T WASTE YOUR FSA DOLLARS' + falling money + product (dark). Layout only; facts: many FSA plans expire Dec 31 (some have grace periods), HSA rolls over; never their brand or product."
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",

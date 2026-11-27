@@ -1,0 +1,521 @@
+{
+ "week": "2026-W48-picks",
+ "notes": "User 2026-11-27 picked 4 refs (Peak Senior's Day, Musabela objection list, Silvery We're sorry, OluKai HSA). 2 personas each. Copy by StefanBrain.",
+ "concepts": [
+  {
+   "id": "HP_L01",
+   "persona": "active_retiree",
+   "colorway": "grey_pink",
+   "benchmark": "n10b_B05",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120); HSA/FSA eligible; code LEAKED10 extra 10% (primary text only). No end date/hours, no stock or sold-out stories. FSA: many plans expire Dec 31; HSA rolls over (never say HSA expires).",
+   "risk": "moderate",
+   "bets": [
+    "format: user pick n10b_B05"
+   ],
+   "angle": "active_retiree x Holiday Sale gifts",
+   "format": "Peak-style sale poster: huge bold 2-line 'HOLIDAY SALE'-type headline top-left, red subline pill, a red silhouette of an older couple walking hand in hand on the left, big shoe on the right, red bottom bar with the offer",
+   "based_on": "User-picked ref n10b_B05 (2026-11-27)",
+   "copy_slots": [
+    "headline (2 lines, max 4 words)",
+    "pill line",
+    "bottom bar offer"
+   ],
+   "reference_blocks": [
+    "Peak-style sale poster: huge bold 2-line 'HOLIDAY SALE'-type headline top-left, red subline pill, a red silhouette of an older couple walking hand in hand on the left, big shoe on the right, red bottom bar with the offer"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 50-70, active retiree/on her feet, heel and arch pain (plantar fasciitis-type morning heel pain), tried insoles and 'comfort' brands",
+    "language": [
+     "first steps in the morning",
+     "stabbing heel",
+     "plantar fasciitis",
+     "insoles",
+     "standing all day"
+    ],
+    "angle_habit": "buying insoles and moving them shoe to shoe",
+    "dream": "daily walks and errands without counting steps",
+    "identification": "the first steps out of bed / after sitting feel like stepping on a tack",
+    "point_of_contact": "flat, tapered sneakers + hard floors",
+    "function_mechanism": "Insoles add arch support but sit in a narrow shoe and eat toe room; she needs support, room and roll in one shoe. Never cure/treatment/instant-relief claims.",
+    "conditions": "DIY: insoles, ice bottle, stretching, $350 custom inserts (real review quote #10).",
+    "anchoring": "$59.95 vs $350 custom inserts (real review)",
+    "risk_reversal": "30 days on her own feet",
+    "who": "a woman with the same heel pain",
+    "gain_now": "60% OFF SITEWIDE + free gifts (3-pack socks + travel bag) with every order + free shipping; LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "Peak-style sale poster: huge bold 2-line 'HOLIDAY SALE'-type headline top-left, red subline pill, a red silhouette of an older couple walking hand in hand on the left, big shoe on the right, red bottom bar with the offer",
+    "concept": "Peak-style sale poster: huge bold 2-line 'HOLIDAY SALE'-type headline top-left, red subline pill, a red silhouette of an older couple walking hand in hand on the left, big shoe on the right, red bottom bar with the offer",
+    "visual_hook": "Peak-style sale poster: huge bold 2-line 'HOLIDAY SALE'-type headline top-left, red subline pill, a red silhouette of an older couple walking hand in hand on the left, big shoe on the right, red bottom bar with the offer",
+    "topic": "active_retiree x Holiday Sale (60% off + free gifts)"
+   },
+   "copy_notes": "HOLIDAY SALE. User picked this layout. No invented reviews/names, no cure/relief/durability promises, no deadlines or stock stories.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "user_picks"
+   ]
+  },
+  {
+   "id": "HP_L02",
+   "persona": "nurse",
+   "colorway": "black_purple",
+   "benchmark": "n10b_B05",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120); HSA/FSA eligible; code LEAKED10 extra 10% (primary text only). No end date/hours, no stock or sold-out stories. FSA: many plans expire Dec 31; HSA rolls over (never say HSA expires).",
+   "risk": "moderate",
+   "bets": [
+    "format: user pick n10b_B05"
+   ],
+   "angle": "nurse x Holiday Sale gifts",
+   "format": "Same poster for nurses: huge bold headline, red pill, red silhouette of two nurses walking with a coffee, big shoe right, red bottom bar",
+   "based_on": "User-picked ref n10b_B05 (2026-11-27)",
+   "copy_slots": [
+    "headline (2 lines, max 4 words)",
+    "pill line",
+    "bottom bar offer"
+   ],
+   "reference_blocks": [
+    "Same poster for nurses: huge bold headline, red pill, red silhouette of two nurses walking with a coffee, big shoe right, red bottom bar"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+    "language": [
+     "12s",
+     "the unit",
+     "my locker",
+     "limping to my car",
+     "hour 10",
+     "break room"
+    ],
+    "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+    "dream": "nurse with energy left to cook for her kids after a 12",
+    "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+    "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+    "gain_now": "60% OFF SITEWIDE + free gifts (3-pack socks + travel bag) with every order + free shipping; LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a nurse friend sharing the deal",
+    "topic": "nurse x Holiday Sale (60% off + free gifts)",
+    "format": "Same poster for nurses: huge bold headline, red pill, red silhouette of two nurses walking with a coffee, big shoe right, red bottom bar",
+    "concept": "Same poster for nurses: huge bold headline, red pill, red silhouette of two nurses walking with a coffee, big shoe right, red bottom bar",
+    "visual_hook": "Same poster for nurses: huge bold headline, red pill, red silhouette of two nurses walking with a coffee, big shoe right, red bottom bar"
+   },
+   "copy_notes": "HOLIDAY SALE. User picked this layout. No invented reviews/names, no cure/relief/durability promises, no deadlines or stock stories.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "user_picks"
+   ]
+  },
+  {
+   "id": "HP_L03",
+   "persona": "active_retiree",
+   "colorway": "light_grey",
+   "benchmark": "n10b_B16",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120); HSA/FSA eligible; code LEAKED10 extra 10% (primary text only). No end date/hours, no stock or sold-out stories. FSA: many plans expire Dec 31; HSA rolls over (never say HSA expires).",
+   "risk": "moderate",
+   "bets": [
+    "format: user pick n10b_B16"
+   ],
+   "angle": "active_retiree x Holiday Sale gifts",
+   "format": "Musabela-style objection list: 2-line headline in red top-left, 3 rows of icon + bold question + one-line answer, 3 shoes on the right (light grey, grey with pink, navy with blue), brand name bottom-left + small red pill bottom-right",
+   "based_on": "User-picked ref n10b_B16 (2026-11-27)",
+   "copy_slots": [
+    "headline (2 lines)",
+    "3 Q&A rows (question + short answer)",
+    "pill"
+   ],
+   "reference_blocks": [
+    "Musabela-style objection list: 2-line headline in red top-left, 3 rows of icon + bold question + one-line answer, 3 shoes on the right (light grey, grey with pink, navy with blue), brand name bottom-left + small red pill bottom-right"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 50-70, active retiree/on her feet, heel and arch pain (plantar fasciitis-type morning heel pain), tried insoles and 'comfort' brands",
+    "language": [
+     "first steps in the morning",
+     "stabbing heel",
+     "plantar fasciitis",
+     "insoles",
+     "standing all day"
+    ],
+    "angle_habit": "buying insoles and moving them shoe to shoe",
+    "dream": "daily walks and errands without counting steps",
+    "identification": "the first steps out of bed / after sitting feel like stepping on a tack",
+    "point_of_contact": "flat, tapered sneakers + hard floors",
+    "function_mechanism": "Insoles add arch support but sit in a narrow shoe and eat toe room; she needs support, room and roll in one shoe. Never cure/treatment/instant-relief claims.",
+    "conditions": "DIY: insoles, ice bottle, stretching, $350 custom inserts (real review quote #10).",
+    "anchoring": "$59.95 vs $350 custom inserts (real review)",
+    "risk_reversal": "30 days on her own feet",
+    "who": "a woman with the same heel pain",
+    "gain_now": "60% OFF SITEWIDE + free gifts (3-pack socks + travel bag) with every order + free shipping; LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "Musabela-style objection list: 2-line headline in red top-left, 3 rows of icon + bold question + one-line answer, 3 shoes on the right (light grey, grey with pink, navy with blue), brand name bottom-left + small red pill bottom-right",
+    "concept": "Musabela-style objection list: 2-line headline in red top-left, 3 rows of icon + bold question + one-line answer, 3 shoes on the right (light grey, grey with pink, navy with blue), brand name bottom-left + small red pill bottom-right",
+    "visual_hook": "Musabela-style objection list: 2-line headline in red top-left, 3 rows of icon + bold question + one-line answer, 3 shoes on the right (light grey, grey with pink, navy with blue), brand name bottom-left + small red pill bottom-right",
+    "topic": "active_retiree x Holiday Sale (60% off + free gifts)"
+   },
+   "copy_notes": "HOLIDAY SALE. User picked this layout. No invented reviews/names, no cure/relief/durability promises, no deadlines or stock stories.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "user_picks"
+   ]
+  },
+  {
+   "id": "HP_L04",
+   "persona": "plus_size",
+   "colorway": "black_purple",
+   "benchmark": "n10b_B16",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120); HSA/FSA eligible; code LEAKED10 extra 10% (primary text only). No end date/hours, no stock or sold-out stories. FSA: many plans expire Dec 31; HSA rolls over (never say HSA expires).",
+   "risk": "moderate",
+   "bets": [
+    "format: user pick n10b_B16"
+   ],
+   "angle": "plus_size x Holiday Sale gifts",
+   "format": "Same objection-list layout for plus-size: headline + 3 Q&A rows (room when feet swell, laces I don't tie, support that holds my weight—no durability promise) + 3 shoes + pill",
+   "based_on": "User-picked ref n10b_B16 (2026-11-27)",
+   "copy_slots": [
+    "headline (2 lines)",
+    "3 Q&A rows",
+    "pill"
+   ],
+   "reference_blocks": [
+    "Same objection-list layout for plus-size: headline + 3 Q&A rows (room when feet swell, laces I don't tie, support that holds my weight—no durability promise) + 3 shoes + pill"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 45-65, plus-size (220-280 lb), on her feet at work and on errands, sore heels and arches by afternoon, feels most shoes aren't built for her weight",
+    "language": [
+     "my weight",
+     "by the afternoon",
+     "heels pounding",
+     "shoes go flat",
+     "wide feet"
+    ],
+    "angle_habit": "buying cheap 'comfort' sneakers that flatten under her weight in weeks",
+    "dream": "walking the whole day/trip without hunting for a chair",
+    "identification": "sitting down every chance she gets because her heels throb",
+    "point_of_contact": "her shoes going flat under her weight (plus-size winners: 'I lost 50lbs+ after walking 20,000 steps', Kyro 170)",
+    "function_mechanism": "More weight compresses soft foam faster, so 'cushy' shoes go flat sooner and swollen feet get squeezed. She needs support that doesn't collapse, room that gives as feet swell, and a sole that rolls the step forward.",
+    "conditions": "DIY fixes: sizing up (heel slips), insoles (eat toe room), memory-foam slip-ons (collapse). Never promise 'fits everyone' or 'extra wide'.",
+    "anchoring": "$59.95 vs replacing flattened $40 sneakers every few months",
+    "risk_reversal": "30 days of her real days on her own feet",
+    "who": "a woman who's been there",
+    "gain_now": "60% OFF SITEWIDE + free gifts (3-pack socks + travel bag) with every order + free shipping; LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "Same objection-list layout for plus-size: headline + 3 Q&A rows (room when feet swell, laces I don't tie, support that holds my weight—no durability promise) + 3 shoes + pill",
+    "concept": "Same objection-list layout for plus-size: headline + 3 Q&A rows (room when feet swell, laces I don't tie, support that holds my weight—no durability promise) + 3 shoes + pill",
+    "visual_hook": "Same objection-list layout for plus-size: headline + 3 Q&A rows (room when feet swell, laces I don't tie, support that holds my weight—no durability promise) + 3 shoes + pill",
+    "topic": "plus_size x Holiday Sale (60% off + free gifts)"
+   },
+   "copy_notes": "HOLIDAY SALE. User picked this layout. No invented reviews/names, no cure/relief/durability promises, no deadlines or stock stories.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "user_picks"
+   ]
+  },
+  {
+   "id": "HP_L05",
+   "persona": "gift_for_her",
+   "colorway": "grey_pink",
+   "benchmark": "n10b_B10",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120); HSA/FSA eligible; code LEAKED10 extra 10% (primary text only). No end date/hours, no stock or sold-out stories. FSA: many plans expire Dec 31; HSA rolls over (never say HSA expires).",
+   "risk": "moderate",
+   "bets": [
+    "format: user pick n10b_B10"
+   ],
+   "angle": "gift_for_her x Holiday Sale gifts",
+   "format": "Silvery-style 'We're sorry.' note: big bold serif 'WE'RE SORRY.' centered, 4 short centered paragraphs from the ComfortWear team (honest reason the holiday sale is 60% off + free gifts; no stock claims), 'Best regards, The ComfortWear Team', gift box + pair bottom right on warm beige",
+   "based_on": "User-picked ref n10b_B10 (2026-11-27)",
+   "copy_slots": [
+    "headline",
+    "note body (4 short paragraphs, ~70 words)",
+    "sign-off"
+   ],
+   "reference_blocks": [
+    "Silvery-style 'We're sorry.' note: big bold serif 'WE'RE SORRY.' centered, 4 short centered paragraphs from the ComfortWear team (honest reason the holiday sale is 60% off + free gifts; no stock claims), 'Best regards, The ComfortWear Team', gift box + pair bottom right on warm beige"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 35-60 buying a holiday gift for her mom/grandma (65+) who stands or walks a lot and complains about sore feet",
+    "language": [
+     "mom",
+     "her feet",
+     "she never buys herself anything",
+     "stocking",
+     "under the tree"
+    ],
+    "angle_habit": "giving slippers/socks every year",
+    "dream": "mom walking the mall / the grandkids' game comfortably",
+    "identification": "mom saying 'my feet are killing me' at every family outing",
+    "point_of_contact": "mom's old worn-out sneakers",
+    "function_mechanism": "Slippers and soft sneakers have no support; her feet swell; she needs support + room + roll in one shoe.",
+    "conditions": "Gift is easy to return/exchange: 30-day money-back guarantee, free shipping & returns.",
+    "anchoring": "$59.95 vs another sweater she won't wear",
+    "risk_reversal": "30-day money-back guarantee if they don't suit her",
+    "who": "daughter",
+    "gain_now": "60% OFF SITEWIDE + free gifts (3-pack socks + travel bag) with every order + free shipping; LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "Silvery-style 'We're sorry.' note: big bold serif 'WE'RE SORRY.' centered, 4 short centered paragraphs from the ComfortWear team (honest reason the holiday sale is 60% off + free gifts; no stock claims), 'Best regards, The ComfortWear Team', gift box + pair bottom right on warm beige",
+    "concept": "Silvery-style 'We're sorry.' note: big bold serif 'WE'RE SORRY.' centered, 4 short centered paragraphs from the ComfortWear team (honest reason the holiday sale is 60% off + free gifts; no stock claims), 'Best regards, The ComfortWear Team', gift box + pair bottom right on warm beige",
+    "visual_hook": "Silvery-style 'We're sorry.' note: big bold serif 'WE'RE SORRY.' centered, 4 short centered paragraphs from the ComfortWear team (honest reason the holiday sale is 60% off + free gifts; no stock claims), 'Best regards, The ComfortWear Team', gift box + pair bottom right on warm beige",
+    "topic": "gift_for_her x Holiday Sale (60% off + free gifts)"
+   },
+   "copy_notes": "HOLIDAY SALE. User picked this layout. No invented reviews/names, no cure/relief/durability promises, no deadlines or stock stories.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "user_picks"
+   ]
+  },
+  {
+   "id": "HP_L06",
+   "persona": "nurse",
+   "colorway": "black_white",
+   "benchmark": "n10b_B10",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120); HSA/FSA eligible; code LEAKED10 extra 10% (primary text only). No end date/hours, no stock or sold-out stories. FSA: many plans expire Dec 31; HSA rolls over (never say HSA expires).",
+   "risk": "moderate",
+   "bets": [
+    "format: user pick n10b_B10"
+   ],
+   "angle": "nurse x Holiday Sale gifts",
+   "format": "Same 'We're sorry.' note written to nurses (sorry it took us this long / sorry to your old sneakers), team sign-off, pair bottom right",
+   "based_on": "User-picked ref n10b_B10 (2026-11-27)",
+   "copy_slots": [
+    "headline",
+    "note body (4 short paragraphs, ~70 words)",
+    "sign-off"
+   ],
+   "reference_blocks": [
+    "Same 'We're sorry.' note written to nurses (sorry it took us this long / sorry to your old sneakers), team sign-off, pair bottom right"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+    "language": [
+     "12s",
+     "the unit",
+     "my locker",
+     "limping to my car",
+     "hour 10",
+     "break room"
+    ],
+    "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+    "dream": "nurse with energy left to cook for her kids after a 12",
+    "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+    "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+    "gain_now": "60% OFF SITEWIDE + free gifts (3-pack socks + travel bag) with every order + free shipping; LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a nurse friend sharing the deal",
+    "topic": "nurse x Holiday Sale (60% off + free gifts)",
+    "format": "Same 'We're sorry.' note written to nurses (sorry it took us this long / sorry to your old sneakers), team sign-off, pair bottom right",
+    "concept": "Same 'We're sorry.' note written to nurses (sorry it took us this long / sorry to your old sneakers), team sign-off, pair bottom right",
+    "visual_hook": "Same 'We're sorry.' note written to nurses (sorry it took us this long / sorry to your old sneakers), team sign-off, pair bottom right"
+   },
+   "copy_notes": "HOLIDAY SALE. User picked this layout. No invented reviews/names, no cure/relief/durability promises, no deadlines or stock stories.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "user_picks"
+   ]
+  },
+  {
+   "id": "HP_L07",
+   "persona": "active_retiree",
+   "colorway": "light_grey",
+   "benchmark": "n10b_B12",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120); HSA/FSA eligible; code LEAKED10 extra 10% (primary text only). No end date/hours, no stock or sold-out stories. FSA: many plans expire Dec 31; HSA rolls over (never say HSA expires).",
+   "risk": "moderate",
+   "bets": [
+    "format: user pick n10b_B12"
+   ],
+   "angle": "active_retiree x Holiday Sale gifts",
+   "format": "OluKai-style premium HSA ad: moody warm photo of the shoes on a sheepskin rug in soft window light (light shoe, warm mid-tones, not dark), small spaced caps kicker, big clean serif/sans 2-line headline about being HSA/FSA eligible, tiny line about the holiday sale",
+   "based_on": "User-picked ref n10b_B12 (2026-11-27)",
+   "copy_slots": [
+    "kicker (3-5 words caps)",
+    "headline (2 lines)",
+    "small line"
+   ],
+   "reference_blocks": [
+    "OluKai-style premium HSA ad: moody warm photo of the shoes on a sheepskin rug in soft window light (light shoe, warm mid-tones, not dark), small spaced caps kicker, big clean serif/sans 2-line headline about being HSA/FSA eligible, tiny line about the holiday sale"
+   ],
+   "dr_brief": {
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "avatar": "American woman 50-70, active retiree/on her feet, heel and arch pain (plantar fasciitis-type morning heel pain), tried insoles and 'comfort' brands",
+    "language": [
+     "first steps in the morning",
+     "stabbing heel",
+     "plantar fasciitis",
+     "insoles",
+     "standing all day"
+    ],
+    "angle_habit": "buying insoles and moving them shoe to shoe",
+    "dream": "daily walks and errands without counting steps",
+    "identification": "the first steps out of bed / after sitting feel like stepping on a tack",
+    "point_of_contact": "flat, tapered sneakers + hard floors",
+    "function_mechanism": "Insoles add arch support but sit in a narrow shoe and eat toe room; she needs support, room and roll in one shoe. Never cure/treatment/instant-relief claims.",
+    "conditions": "DIY: insoles, ice bottle, stretching, $350 custom inserts (real review quote #10).",
+    "anchoring": "$59.95 vs $350 custom inserts (real review)",
+    "risk_reversal": "30 days on her own feet",
+    "who": "a woman with the same heel pain",
+    "gain_now": "60% OFF SITEWIDE + free gifts (3-pack socks + travel bag) with every order + free shipping; LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "format": "OluKai-style premium HSA ad: moody warm photo of the shoes on a sheepskin rug in soft window light (light shoe, warm mid-tones, not dark), small spaced caps kicker, big clean serif/sans 2-line headline about being HSA/FSA eligible, tiny line about the holiday sale",
+    "concept": "OluKai-style premium HSA ad: moody warm photo of the shoes on a sheepskin rug in soft window light (light shoe, warm mid-tones, not dark), small spaced caps kicker, big clean serif/sans 2-line headline about being HSA/FSA eligible, tiny line about the holiday sale",
+    "visual_hook": "OluKai-style premium HSA ad: moody warm photo of the shoes on a sheepskin rug in soft window light (light shoe, warm mid-tones, not dark), small spaced caps kicker, big clean serif/sans 2-line headline about being HSA/FSA eligible, tiny line about the holiday sale",
+    "topic": "active_retiree x Holiday Sale (60% off + free gifts)"
+   },
+   "copy_notes": "HOLIDAY SALE. User picked this layout. No invented reviews/names, no cure/relief/durability promises, no deadlines or stock stories.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "user_picks"
+   ]
+  },
+  {
+   "id": "HP_L08",
+   "persona": "nurse",
+   "colorway": "black_white",
+   "benchmark": "n10b_B12",
+   "format_ref": true,
+   "funnel": "offer",
+   "offer": "HOLIDAY SALE 2026: 60% OFF SITEWIDE + FREE GIFTS added to every order (3-pack cushioned socks + travel bag) + FREE SHIPPING; 30-day money-back guarantee; $59.95 (was $120); HSA/FSA eligible; code LEAKED10 extra 10% (primary text only). No end date/hours, no stock or sold-out stories. FSA: many plans expire Dec 31; HSA rolls over (never say HSA expires).",
+   "risk": "moderate",
+   "bets": [
+    "format: user pick n10b_B12"
+   ],
+   "angle": "nurse x Holiday Sale gifts",
+   "format": "Same premium HSA layout for nurses: the pair on a warm wooden bench in a bright locker room, kicker + 2-line headline + tiny line",
+   "based_on": "User-picked ref n10b_B12 (2026-11-27)",
+   "copy_slots": [
+    "kicker (3-5 words caps)",
+    "headline (2 lines)",
+    "small line"
+   ],
+   "reference_blocks": [
+    "Same premium HSA layout for nurses: the pair on a warm wooden bench in a bright locker room, kicker + 2-line headline + tiny line"
+   ],
+   "dr_brief": {
+    "avatar": "American woman 40-60, hospital nurse on 3x12s, mom, years of heel/arch pain after shifts",
+    "language": [
+     "12s",
+     "the unit",
+     "my locker",
+     "limping to my car",
+     "hour 10",
+     "break room"
+    ],
+    "angle_habit": "wearing running shoes she bought for comfort to 12-hour shifts",
+    "dream": "nurse with energy left to cook for her kids after a 12",
+    "identification": "limping to her car after a 12; shoes felt fine at 7 AM",
+    "point_of_contact": "her shoes / the hard hospital floors (running nurse ads blame both: WA_NOT_NUR, Orthora 'by hour 6')",
+    "problem_mechanism": "Her 'comfortable' sneakers were built for short forward runs: tapered toe box pinches, raised heel tips weight onto the balls of the feet, soft foam compresses by hour 4-6, and feet swell through the day so a 7 AM fit clamps by 2 PM.",
+    "function_mechanism": "Insoles help others but she's on hard tile 12 hours and her feet swell: an insole eats the toe room in a shoe that's already tapered. She needs support that doesn't go flat, room that gives as feet swell, and a sole that rolls the step forward, all at once. Insoles sit in the same narrow shoe; clogs/orthotics don't give; memory-foam slip-ons collapse.",
+    "solution_mechanism": "Ortho Stretch puts all three in one shoe: built-in arch support + cushioned rocker sole, stretch-knit upper + wide toe box that gives as feet swell, no-tie laces.",
+    "conditions": "Her DIY fixes: sizing up (heel slips), insoles (eat toe room), clogs (no give). Sizing up slips at the heel; insoles eat toe room; most comfort shoes pick support OR give.",
+    "usp": "support + room + roll in one shoe, at $59.95",
+    "features": {
+     "built-in arch support + cushioned rocker sole": "odds",
+     "stretch-knit upper + wide toe box": "odds/dream",
+     "no-tie bungee laces": "effort",
+     "slip-resistant grip": "dream"
+    },
+    "anchoring": "$59.95 vs the next $160 running shoes or insoles every few months; at 60% off less than a dollar a shift",
+    "risk_reversal": "30 days = 10+ shifts on her own feet; never 'easy returns'",
+    "gain_now": "60% OFF SITEWIDE + free gifts (3-pack socks + travel bag) with every order + free shipping; LEAKED10 extra 10%",
+    "lose_later": "Holiday Sale price ends when the sale ends; no stock stories, no deadline",
+    "who": "a nurse friend sharing the deal",
+    "topic": "nurse x Holiday Sale (60% off + free gifts)",
+    "format": "Same premium HSA layout for nurses: the pair on a warm wooden bench in a bright locker room, kicker + 2-line headline + tiny line",
+    "concept": "Same premium HSA layout for nurses: the pair on a warm wooden bench in a bright locker room, kicker + 2-line headline + tiny line",
+    "visual_hook": "Same premium HSA layout for nurses: the pair on a warm wooden bench in a bright locker room, kicker + 2-line headline + tiny line"
+   },
+   "copy_notes": "HOLIDAY SALE. User picked this layout. No invented reviews/names, no cure/relief/durability promises, no deadlines or stock stories.",
+   "group": "net_new",
+   "lang": "en",
+   "tags": [
+    "user_picks"
+   ]
+  }
+ ]
+}
