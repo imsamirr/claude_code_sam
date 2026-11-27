@@ -1992,6 +1992,46 @@
     "n10_A02": {
       "file": "reference/benchmarks/n10_A02.jpg",
       "use_for": "RISING FORMAT ref (Enhanced Labs, launched Nov 2026, #1 ad in its account, Atria 2026-11-27): native selfie + comment-bubble caption. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10b_B05": {
+      "file": "reference/benchmarks/n10b_B05.jpg",
+      "use_for": "LONG-RUNNING FORMAT ref (Peak Footwear · 465 days · #1 of 610, active Nov 2026, Atria 2026-11-27): bold 'SENIOR'S DAY SALE' headline + couple silhouette + big shoe + red bottom offer bar. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10b_B14": {
+      "file": "reference/benchmarks/n10b_B14.jpg",
+      "use_for": "LONG-RUNNING FORMAT ref (Footstr · 26 days · #1, active Nov 2026, Atria 2026-11-27): two-panel doodle: 'entire cabin at hour 9' vs 'seat 34C asleep' + product + offer bar. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10b_B16": {
+      "file": "reference/benchmarks/n10b_B16.jpg",
+      "use_for": "LONG-RUNNING FORMAT ref (Musabela · 27 days · #1, active Nov 2026, Atria 2026-11-27): objection Q&A list (room for my toes? adjust the fit? support?) + 3 shoes. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10b_B10": {
+      "file": "reference/benchmarks/n10b_B10.jpg",
+      "use_for": "LONG-RUNNING FORMAT ref (Silvery · 116 days · #1, active Nov 2026, Atria 2026-11-27): 'We're sorry.' founder note on warm beige + product box bottom right. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10b_B12": {
+      "file": "reference/benchmarks/n10b_B12.jpg",
+      "use_for": "LONG-RUNNING FORMAT ref (OluKai · 35 days · #1 of 1,357, active Nov 2026, Atria 2026-11-27): moody premium product photo + small 'Relief you can claim' kicker + 'now HSA/FSA eligible'. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10b_B21": {
+      "file": "reference/benchmarks/n10b_B21.jpg",
+      "use_for": "LONG-RUNNING FORMAT ref (Jennifer Lauren · 64 days · #1, active Nov 2026, Atria 2026-11-27): real-looking UGC photo: flight attendant with suitcase by the plane at night. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10b_B07": {
+      "file": "reference/benchmarks/n10b_B07.jpg",
+      "use_for": "LONG-RUNNING FORMAT ref (Pillow Slides · 43 days · #1, active Nov 2026, Atria 2026-11-27): close-up of feet in the product + soft headline top-left, nothing else. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10b_B17": {
+      "file": "reference/benchmarks/n10b_B17.jpg",
+      "use_for": "LONG-RUNNING FORMAT ref (Nuamore · 42 days · #1, active Nov 2026, Atria 2026-11-27): 'THIS or THIS' side-by-side + '50% OFF' + one line. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10b_B19": {
+      "file": "reference/benchmarks/n10b_B19.jpg",
+      "use_for": "LONG-RUNNING FORMAT ref (Mae & Rose · 40 days · #1, active Nov 2026, Atria 2026-11-27): pink editorial serif 'Our biggest sale ever!' + hand + strike price. Recreate the layout only; never their brand, claims or product."
+    },
+    "n10b_B18": {
+      "file": "reference/benchmarks/n10b_B18.jpg",
+      "use_for": "LONG-RUNNING FORMAT ref (Craighill · 25 days · #1 of 883, active Nov 2026, Atria 2026-11-27): 'WE'RE ON SALE. DON'T TELL ANYONE.' + giant product close-up. Recreate the layout only; never their brand, claims or product."
     }
   },
   "benchmarks_note": "User 2026-10-13: 'the quality is not good, use these statics as references; you should know the benchmark'. Every concept sets 'benchmark' to the closest key; generate.py attaches that image as a style/quality reference.",
