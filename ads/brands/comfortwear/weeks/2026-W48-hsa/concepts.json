@@ -72,7 +72,8 @@
    "copy_angle": "nurse x Holiday Sale gifts",
    "copy_why": "fsa_F01 winner combined with nurse break-room voice and year-end FSA use-it-or-lose-it urgency",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_5b910ae2b2264026ba1a7c2dcd440e16"
+   "stefanbrain_chat": "chat_5b910ae2b2264026ba1a7c2dcd440e16",
+   "prompt": "Real-looking photo: two smiling nurses (women 40s-50s, navy and purple scrubs, badge reels) standing outside a hospital entrance at dusk with string lights, holding up a big brown cardboard sign hand-lettered in thick black and red marker with a little gold: \"Many FSA plans expire Dec 31. 60% off sitewide!\". Both wear the knit shoe from the product reference (black with purple accents: slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole, EXACT model, true proportions, sharp and bright); shoes clearly visible at the bottom of the frame. Holiday touch only as small accents (holly sprig, thin gold ribbon); light, clean backgrounds, never dark. QUALITY BAR: premium direct-response static, crisp; very large readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge; full-bleed. Spell every quoted word exactly (keep the line breaks shown with ' / ') and render each quoted text once. No other words, logos or brand names (never Canopy, Daily Harvest, BACtrack, Therabody, ettitude, Truvaga, Aviron, Omnilux, Truemed or the reference's brand/product); no bank names on cards. No 'today only' or 'last chance'."
   },
   {
    "id": "FS_F02",
@@ -148,7 +149,8 @@
    "copy_angle": "active_retiree x Holiday Sale gifts",
    "copy_why": "fsa_F03 premium layout paired with morning heel pain VOC and $350 custom orthotic anchoring",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_5b910ae2b2264026ba1a7c2dcd440e16"
+   "stefanbrain_chat": "chat_5b910ae2b2264026ba1a7c2dcd440e16",
+   "prompt": "Recreate the reference layout: premium product photo, one the knit shoe from the product reference (light grey: slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole, EXACT model, true proportions, sharp and bright) on a warm cream pedestal with a red satin ribbon and one gold ornament, soft light. Top: big bold dark headline \"Many FSA Plans Expire Dec 31\"; under it \"Holiday Sale: 60% Off\"; a round white badge with a check mark and \"HSA/FSA Eligible\" near the shoe. Holiday touch only as small accents (holly sprig, thin gold ribbon); light, clean backgrounds, never dark. QUALITY BAR: premium direct-response static, crisp; very large readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge; full-bleed. Spell every quoted word exactly (keep the line breaks shown with ' / ') and render each quoted text once. No other words, logos or brand names (never Canopy, Daily Harvest, BACtrack, Therabody, ettitude, Truvaga, Aviron, Omnilux, Truemed or the reference's brand/product); no bank names on cards. No 'today only' or 'last chance'."
   },
   {
    "id": "FS_F03",
@@ -224,7 +226,8 @@
    "copy_angle": "gift_for_her x Holiday Sale gifts",
    "copy_why": "fsa_F04 Daily Harvest style paired with daughter-to-mom gift VOC and Dec 31 FSA deadline",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_5b910ae2b2264026ba1a7c2dcd440e16"
+   "stefanbrain_chat": "chat_5b910ae2b2264026ba1a7c2dcd440e16",
+   "prompt": "Recreate the reference layout: soft light sky-blue/cream background. Left half: large elegant dark serif headline \"Use FSA Dollars On Shoes She Loves\" over 4-5 lines; under it small spaced caps red line \"Holiday Sale: 60% Off\". Top-right: a round red sticker with white \"USE BEFORE 12/31\". Right half: a woman's hand holding one the knit shoe from the product reference (grey with pink accents: slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole, EXACT model, true proportions, sharp and bright) up. Holiday touch only as small accents (holly sprig, thin gold ribbon); light, clean backgrounds, never dark. QUALITY BAR: premium direct-response static, crisp; very large readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge; full-bleed. Spell every quoted word exactly (keep the line breaks shown with ' / ') and render each quoted text once. No other words, logos or brand names (never Canopy, Daily Harvest, BACtrack, Therabody, ettitude, Truvaga, Aviron, Omnilux, Truemed or the reference's brand/product); no bank names on cards. No 'today only' or 'last chance'."
   },
   {
    "id": "FS_F04",
@@ -299,7 +302,8 @@
    "copy_angle": "traveler x Holiday Sale gifts",
    "copy_why": "fsa_F05 flat-lay card layout combined with 20,000-step cobblestone travel diary proof",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_5b910ae2b2264026ba1a7c2dcd440e16"
+   "stefanbrain_chat": "chat_5b910ae2b2264026ba1a7c2dcd440e16",
+   "prompt": "Recreate the reference layout: light blue background. Top-left: bold navy headline \"Many FSA plans expire Dec 31. Ortho Stretch is eligible.\" (second sentence on its own line); a small red line \"Holiday Sale: 60% Off\". Lower two thirds: tidy flat lay of the pair (the knit shoe from the product reference (navy with bright blue accents (team name: White Blue): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole, EXACT model, true proportions, sharp and bright)), a plain teal HSA/FSA debit card with no bank name, tortoiseshell reading glasses and a passport, one small succulent. Holiday touch only as small accents (holly sprig, thin gold ribbon); light, clean backgrounds, never dark. QUALITY BAR: premium direct-response static, crisp; very large readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge; full-bleed. Spell every quoted word exactly (keep the line breaks shown with ' / ') and render each quoted text once. No other words, logos or brand names (never Canopy, Daily Harvest, BACtrack, Therabody, ettitude, Truvaga, Aviron, Omnilux, Truemed or the reference's brand/product); no bank names on cards. No 'today only' or 'last chance'."
   },
   {
    "id": "FS_F05",
@@ -363,17 +367,18 @@
    "tags": [
     "hsa_fsa"
    ],
-   "headline": "Use your FSA dollars\nbefore Dec 31.\nBuilt for your weight.",
+   "headline": "Use your FSA dollars\nbefore Dec 31.\nBuilt for all-day support.",
    "on_image_text": [
     "HSA/FSA ELIGIBLE"
    ],
-   "primary_text": "Most running sneakers were designed for a 130-pound runner on a quick morning jog.\n\nWhen you are carrying 220 pounds or more, that soft foam flattens out by 2 PM. Your heels pound against the ground, your feet swell, and a shoe that felt fine when you put it on at 7 AM clamps down like a vice before dinner. You end up looking for a place to sit down every chance you get.\n\nSizing up does not solve it. Your heel just slips out the back. And slipping a thick insole inside only eats up the precious toe room you actually needed.\n\nThe Ortho Stretch Cushion Shoe was built to handle real weight all day long:\n\n- An anatomical arch support system and cushioned rocker sole that will not crush flat under your stride.\n- A wide toe box paired with a breathable stretch-knit upper that flexes naturally as your feet swell in the afternoon.\n- Elastic no-tie bungee laces so you slip right in without fighting with knots.\n- Slip-resistant outsoles to keep your footing completely steady.\n\nBest of all: Ortho Stretch is HSA and FSA eligible.\n\nMany FSA plans expire on December 31. Those unused funds do not roll over, which means you lose that money if you do not spend it. Why let your employer keep your pre-tax dollars when you can put them toward shoes you will wear every single day?\n\nDuring our Holiday Sale, take 60% OFF sitewide: just $59.95 a pair (down from $120). That is less than what you would spend replacing cheap sneakers that go flat in eight weeks. Plus, every holiday order includes a free 3-pack of cushioned socks, a free travel bag, and free shipping.\n\nTry them on your own feet for 30 days. If they do not keep you comfortable from morning until night, return them within 30 days for a full refund.",
+   "primary_text": "Most running sneakers were designed for a 130-pound runner on a quick morning jog.\n\nWhen you are on your feet all day, that soft foam flattens out by 2 PM. Your heels pound against the ground, your feet swell, and a shoe that felt fine when you put it on at 7 AM clamps down like a vice before dinner. You end up looking for a place to sit down every chance you get.\n\nSizing up does not solve it. Your heel just slips out the back. And slipping a thick insole inside only eats up the precious toe room you actually needed.\n\nThe Ortho Stretch Cushion Shoe was built for all-day comfort and support:\n\n- An anatomical arch support system and cushioned rocker sole that absorb shock with every stride.\n- A wide toe box paired with a breathable stretch-knit upper that flexes naturally as your feet swell in the afternoon.\n- Elastic no-tie bungee laces so you slip right in without fighting with knots.\n- Slip-resistant outsoles to keep your footing completely steady.\n\nBest of all: Ortho Stretch is HSA and FSA eligible.\n\nMany FSA plans expire on December 31. Those unused funds do not roll over, which means you lose that money if you do not spend it. Why let your employer keep your pre-tax dollars when you can put them toward shoes you will wear every single day?\n\nDuring our Holiday Sale, take 60% OFF sitewide: just $59.95 a pair (down from $120). That is less than what you would spend replacing cheap sneakers that go flat in eight weeks. Plus, every holiday order includes a free 3-pack of cushioned socks, a free travel bag, and free shipping.\n\nTry them on your own feet for 30 days. If they do not keep you comfortable from morning until night, return them within 30 days for a full refund.",
    "fb_headline": "HSA/FSA Eligible: 60% Off + Gifts",
    "fb_description": "Free socks & bag + 60% off",
    "copy_angle": "plus_size x Holiday Sale gifts (FSA year-end deadline)",
    "copy_why": "Plus-size winners (Kyro 170 'shoes go flat') paired with year-end FSA use-it-or-lose-it urgency and approved Holiday Sale gifts.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_d9234c58e918461d9504b605530fdc23"
+   "stefanbrain_chat": "chat_d9234c58e918461d9504b605530fdc23",
+   "prompt": "Recreate the reference layout: warm beige background. Top center: a big check-mark logotype reading \"HSA/FSA ELIGIBLE\". Under it a bold dark headline \"Use your FSA dollars / before Dec 31. / Built for all-day support.\" in three lines. Bottom half: the pair (the knit shoe from the product reference (all black (black upper, black midsole): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole, EXACT model, true proportions, sharp and bright)) laid out with a rolled 3-pack of plain cushioned socks beside them. Holiday touch only as small accents (holly sprig, thin gold ribbon); light, clean backgrounds, never dark. QUALITY BAR: premium direct-response static, crisp; very large readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge; full-bleed. Spell every quoted word exactly (keep the line breaks shown with ' / ') and render each quoted text once. No other words, logos or brand names (never Canopy, Daily Harvest, BACtrack, Therabody, ettitude, Truvaga, Aviron, Omnilux, Truemed or the reference's brand/product); no bank names on cards. No 'today only' or 'last chance'."
   },
   {
    "id": "FS_F06",
@@ -447,7 +452,8 @@
    "copy_angle": "active_retiree x Holiday Sale gifts (FSA year-end deadline)",
    "copy_why": "Morning heel pain and insole-fatigue angle (review quote #10 on $350 custom inserts) paired with FSA year-end expiration.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_d9234c58e918461d9504b605530fdc23"
+   "stefanbrain_chat": "chat_d9234c58e918461d9504b605530fdc23",
+   "prompt": "Recreate the reference layout: bright soft bedroom photo, a woman (60s, cozy knit) sitting on the edge of a white bed putting on the knit shoe from the product reference (purple with white accents: slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole, EXACT model, true proportions, sharp and bright), window light, a small decorated tree blurred. Across the middle: large elegant white serif headline \"The smartest way / to spend FSA dollars / before Dec 31.\" with the word 'smartest' in italic; below it a small black pill with white \"HSA/FSA ELIGIBLE\". Holiday touch only as small accents (holly sprig, thin gold ribbon); light, clean backgrounds, never dark. QUALITY BAR: premium direct-response static, crisp; very large readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge; full-bleed. Spell every quoted word exactly (keep the line breaks shown with ' / ') and render each quoted text once. No other words, logos or brand names (never Canopy, Daily Harvest, BACtrack, Therabody, ettitude, Truvaga, Aviron, Omnilux, Truemed or the reference's brand/product); no bank names on cards. No 'today only' or 'last chance'."
   },
   {
    "id": "FS_F07",
@@ -513,7 +519,7 @@
    "tags": [
     "hsa_fsa"
    ],
-   "headline": "FSA funds\ndon't roll over",
+   "headline": "Many FSA plans\ndon't roll over",
    "on_image_text": [
     "HSA/FSA Eligible",
     "Arch support",
@@ -527,7 +533,8 @@
    "copy_angle": "nurse x Holiday Sale gifts (FSA year-end deadline)",
    "copy_why": "Nurse shift exhaustion angle (limping to car after 12s on hard tile, running shoes flattening) paired with use-it-or-lose-it FSA deadline.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_d9234c58e918461d9504b605530fdc23"
+   "stefanbrain_chat": "chat_d9234c58e918461d9504b605530fdc23",
+   "prompt": "Recreate the reference layout: warm cream background. Top: huge bold two-line headline \"Many FSA plans / don't roll over\" with the second line in red; a small check-mark line \"HSA/FSA Eligible\". Center: one the knit shoe from the product reference (navy with bright blue accents (team name: White Blue): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole, EXACT model, true proportions, sharp and bright) on a soft cream set; four rounded red callout pills with white text around it: \"Arch support\", \"Cushioned heel\", \"Wide toe box\", \"Slip-resistant\". Holiday touch only as small accents (holly sprig, thin gold ribbon); light, clean backgrounds, never dark. QUALITY BAR: premium direct-response static, crisp; very large readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge; full-bleed. Spell every quoted word exactly (keep the line breaks shown with ' / ') and render each quoted text once. No other words, logos or brand names (never Canopy, Daily Harvest, BACtrack, Therabody, ettitude, Truvaga, Aviron, Omnilux, Truemed or the reference's brand/product); no bank names on cards. No 'today only' or 'last chance'."
   },
   {
    "id": "FS_F08",
@@ -603,7 +610,8 @@
    "copy_angle": "plus_size x Holiday Sale gifts (FSA use-it-or-lose-it)",
    "copy_why": "Hunting for a chair / memory foam flattening into pancakes customer pattern paired with FSA forfeit urgency and Holiday gifts.",
    "copy_source": "stefanbrain",
-   "stefanbrain_chat": "chat_d9234c58e918461d9504b605530fdc23"
+   "stefanbrain_chat": "chat_d9234c58e918461d9504b605530fdc23",
+   "prompt": "Light version of the reference: cream background with a few US dollar bills falling softly. Top: huge heavy black condensed headline \"Don't waste / your FSA / dollars\" in three lines. Lower half: one big the knit shoe from the product reference (black with white accents (team name: BlackWhite): slim sock-knit upper, bungee no-tie laces with toggle, cushioned rocker sole, EXACT model, true proportions, sharp and bright). Bottom: small dark line \"Many FSA plans expire Dec 31\" and a red pill with white \"Holiday Sale: 60% Off\". Holiday touch only as small accents (holly sprig, thin gold ribbon); light, clean backgrounds, never dark. QUALITY BAR: premium direct-response static, crisp; very large readable text for readers over 60 (no text smaller than about 2.8% of image height); at least 7% margin from every edge; full-bleed. Spell every quoted word exactly (keep the line breaks shown with ' / ') and render each quoted text once. No other words, logos or brand names (never Canopy, Daily Harvest, BACtrack, Therabody, ettitude, Truvaga, Aviron, Omnilux, Truemed or the reference's brand/product); no bank names on cards. No 'today only' or 'last chance'."
   }
  ]
 }
