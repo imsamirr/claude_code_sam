@@ -1,0 +1,520 @@
+[
+ {
+  "shot": "P5.1",
+  "vo": "That is why Comfortwear built the exact opposite",
+  "file": null,
+  "status": "skip",
+  "note": "AI Dr. Moore - editor handles"
+ },
+ {
+  "shot": "P5.2",
+  "vo": "of an athletic running shoe.",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT tabletop side-by-side (brand asset) - editor handles"
+ },
+ {
+  "shot": "P5.3",
+  "vo": "They did not design it for marathon runners.",
+  "file": "../com458/tiktok/nyc_run/velljko_7269622580766854446.mp4",
+  "in": 39.1,
+  "usable_s": 2.5,
+  "continuous": true,
+  "crop_hint": "full frame, runner on park road",
+  "text_band": "caption mid-frame y~0.50-0.56",
+  "creator": "@velljko",
+  "url": "https://www.tiktok.com/@velljko/video/7269622580766854446",
+  "note": "PARTIAL/reused COM458: runner on Central Park drive seen from behind; no race/finish-ribbon clip found (not searched hard: COMPETITOR tier, not in our category list)",
+  "status": "partial"
+ },
+ {
+  "shot": "P5.4",
+  "vo": "They built it for people whose feet",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P5.5",
+  "vo": "have to survive real life:",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P5.6",
+  "vo": "nurses, healthcare workers,",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P5.7",
+  "vo": "and travelers who want to actually enjoy",
+  "file": "tiktok/jp_night/nom_life_7167559927089728814.mp4",
+  "in": 3.85,
+  "usable_s": 2.35,
+  "continuous": true,
+  "crop_hint": "center; couple walks toward camera through red-lantern alley",
+  "text_band": "small caption y~0.60-0.64",
+  "creator": "@nom_life",
+  "url": "https://www.tiktok.com/@nom_life/video/7167559927089728814",
+  "note": "Omoide Yokocho at night: couple strolling toward camera under red/yellow lanterns and autumn-leaf decor. Alt same clip 6.3-8.25 empty lantern alley (2.0s)",
+  "status": "ok"
+ },
+ {
+  "shot": "P5.8",
+  "vo": "the trip they spent years saving for.",
+  "file": "tiktok/jp_walk/japanlikealocal_7378570945432128810.mp4",
+  "in": 7.0,
+  "usable_s": 3.0,
+  "continuous": true,
+  "crop_hint": "full frame; Yasaka pagoda top-center",
+  "text_band": "none",
+  "creator": "@japanlikealocal",
+  "url": "https://www.tiktok.com/@japanlikealocal/video/7378570945432128810",
+  "note": "Golden-hour Sannenzaka/Yasaka pagoda Kyoto, two women in kimono walking away down stone street; 22.8s single take (any window 6-22 works). NOTE group B also holds this clip in jp_stairs - avoid using same window twice",
+  "status": "ok"
+ },
+ {
+  "shot": "P5.9",
+  "vo": "A roomy, wide toe box",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P5.10",
+  "vo": "lets your toes spread out naturally",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P5.11",
+  "vo": "so you stay balanced.",
+  "file": "tiktok/jp_walk/cassakating_7218502496266833153.mp4",
+  "in": 16.95,
+  "usable_s": 3.0,
+  "continuous": true,
+  "crop_hint": "crop lower 60% to favour wet flagstones + walker",
+  "text_band": "none",
+  "creator": "@cassakating",
+  "url": "https://www.tiktok.com/@cassakating/video/7218502496266833153",
+  "note": "Kyoto Higashiyama: woman in kimono with clear umbrella walking on wet stone-paved lane beside wooden machiya; wide not ground-level",
+  "status": "ok"
+ },
+ {
+  "shot": "P5.12",
+  "vo": "A flexible stretch knit upper",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P5.13",
+  "vo": "gives your feet breathing room",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P5.14",
+  "vo": "as they swell throughout the day.",
+  "file": "tiktok/jp_walk/tokyocheapo_7545810819833941256.mp4",
+  "in": 5.8,
+  "usable_s": 2.7,
+  "continuous": true,
+  "crop_hint": "full frame",
+  "text_band": "caption y~0.66-0.70 ('but honestly Tokyo Station is right up there')",
+  "creator": "@tokyocheapo",
+  "url": "https://www.tiktok.com/@tokyocheapo/video/7545810819833941256",
+  "note": "JAPAN half only: busy Tokyo Station Marunouchi South gate concourse, commuters streaming through ticket gates (static-ish). Product feet half = editor",
+  "status": "ok"
+ },
+ {
+  "shot": "P5.15",
+  "vo": "And built-in structural arch support",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P5.16",
+  "vo": "holds your feet firm",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P5.17",
+  "vo": "hour after hour,",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P5.18",
+  "vo": "paired with a slip-resistant outsole",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P5.19",
+  "vo": "that grips slick station tiles,",
+  "file": null,
+  "status": "missing",
+  "note": "No wet polished station-stairs walking clip found in 3 searches (only flooding news: Ichigaya waterfall stairs). Fallback: use group A/B wet-tile/stairs clips (tiktok/jp_tiles, jp_stairs e.g. jin1495_ station stairs) or littlebigtokyo 13.3-21.3 wet reflective crossing"
+ },
+ {
+  "shot": "P5.20",
+  "vo": "wet pavement,",
+  "file": "tiktok/jp_walk/littlebigtokyo_7195925655643639045.mp4",
+  "in": 10.1,
+  "usable_s": 3.0,
+  "continuous": true,
+  "crop_hint": "crop lower 55% for reflective wet asphalt + walker",
+  "text_band": "none in this window ('POV' text only 0-3s)",
+  "creator": "@littlebigtokyoo",
+  "url": "https://www.tiktok.com/@littlebigtokyoo/video/7195925655643639045",
+  "note": "Rainy Shinjuku street: woman walks toward camera on glossy wet pavement with tactile paving, umbrellas, neon reflections. Alt 13.4-21.3 rainy night crossing, puddle reflections (8s). Group B holds same clip in jp_tiles",
+  "status": "ok"
+ },
+ {
+  "shot": "P5.21",
+  "vo": "and winter slush.",
+  "file": "tiktok/jp_walk/urfavlatte___7372597980332969221.mp4",
+  "in": 38.0,
+  "usable_s": 3.0,
+  "continuous": true,
+  "crop_hint": "full frame; POV ground with footprints",
+  "text_band": "none",
+  "creator": "@urfavlatte__",
+  "url": "https://www.tiktok.com/@urfavlatte__/video/7372597980332969221",
+  "note": "Shirakawa-go (Gifu) POV walking steadily up a snow-covered path with footprints, snowy trees. Alt 7.2-9.3 woman with umbrella walking away through snowfall; 12.0-14.2 people crossing snowy bridge",
+  "status": "ok"
+ },
+ {
+  "shot": "P6.1",
+  "vo": "Because you flew all the way to Japan",
+  "file": "tiktok/jp_payoff/itchban_7339478823727009032.mp4",
+  "in": 8.1,
+  "usable_s": 3.2,
+  "continuous": true,
+  "crop_hint": "full frame; wing top-left, Fuji center",
+  "text_band": "none",
+  "creator": "@itchban",
+  "url": "https://www.tiktok.com/@itchban/video/7339478823727009032",
+  "note": "Plane window POV: wing + snow-capped Mt Fuji above blue haze; small camera pan ~9.1s (no cut). Alt tiktok/jp_payoff/naholidays_7385222573732154656.mp4 4.0-8.3 Fuji over clouds (tiny 'la vue :' text top)",
+  "status": "ok"
+ },
+ {
+  "shot": "P6.2",
+  "vo": "to make memories,",
+  "file": "tiktok/jp_payoff/celinelinarte_7322560044573248799.mp4",
+  "in": 19.35,
+  "usable_s": 2.2,
+  "continuous": true,
+  "crop_hint": "center on 3 faces",
+  "text_band": "none",
+  "creator": "@celinelinarte",
+  "url": "https://www.tiktok.com/@celinelinarte/video/7322560044573248799",
+  "note": "3 girlfriends laughing selfie eating melon bread in Asakusa (trees/Senso-ji grounds); not at the Kaminarimon lantern itself (no such long take found)",
+  "status": "ok"
+ },
+ {
+  "shot": "P6.3",
+  "vo": "not to sit in your hotel room",
+  "file": "tiktok/jp_pain/mvshelle_7528084781142166814.mp4",
+  "in": 0.0,
+  "usable_s": 4.0,
+  "continuous": true,
+  "crop_hint": "full frame",
+  "text_band": "small caption mid-frame y~0.47 ('25k steps in japan later')",
+  "creator": "@mvshelle",
+  "url": "https://www.tiktok.com/@mvshelle/video/7528084781142166814",
+  "note": "Japan hotel room POV: legs stretched on bed with bandaged sore feet, friend sitting on bed behind; 6.8s single take. FILE IS GROUP A/B's (jp_pain) - coordinate. Own alts: jp_hotel_c/jon.wyeth_7447067955059346709.mp4 16.6-19.4 man sitting in Tokyo capsule bed; jp_hotel_c/wasinee1985_7486411382355758343.mp4 112-116 cramped Shinjuku hotel room with clothes on bed",
+  "status": "ok"
+ },
+ {
+  "shot": "P6.4",
+  "vo": "icing your feet",
+  "file": "../com458/tiktok/nyc_pain/lifeonthewknd_7103879472721743150.mp4",
+  "in": 0.3,
+  "usable_s": 4.5,
+  "continuous": true,
+  "crop_hint": "tight on foot",
+  "text_band": "per COM458 notes (Icy Hot label visible)",
+  "creator": "@lifeonthewknd",
+  "url": "https://www.tiktok.com/@lifeonthewknd/video/7103879472721743150",
+  "note": "REUSED COM458: bare sore foot on hotel floor sprayed with cooling spray; no Japan ice-pack/Boss-can clip found",
+  "status": "partial"
+ },
+ {
+  "shot": "P6.5",
+  "vo": "at three in the afternoon.",
+  "file": "tiktok/jp_hotel_c/wasinee1985_7486411382355758343.mp4",
+  "in": 141.3,
+  "usable_s": 3.0,
+  "continuous": true,
+  "crop_hint": "full frame",
+  "text_band": "none",
+  "creator": "@wasinee1985",
+  "url": "https://www.tiktok.com/@wasinee1985/video/7486411382355758343",
+  "note": "PARTIAL: POV out of Washington Hotel Shinjuku window at Nishi-Shinjuku towers/street - but NIGHT, not sunny afternoon. No daytime hotel-window clip found",
+  "status": "partial"
+ },
+ {
+  "shot": "P6.6",
+  "vo": "You do not want to be the person",
+  "file": null,
+  "status": "missing",
+  "note": "No Kyoto 'friends ahead, one lagging' clip found. Fallback: ../com458/tiktok/nyc_pain/tessadett_7552258615437004046.mp4 0.5-3.0 (friend trailing behind on crosswalk, NYC brownstones) or japanlikealocal 12-18 two walkers on Kyoto lane"
+ },
+ {
+  "shot": "P6.7",
+  "vo": "limping behind,",
+  "file": "tiktok/jp_pain/taylortakesprague_7364318564121087275.mp4",
+  "in": 3.6,
+  "usable_s": 3.0,
+  "continuous": true,
+  "crop_hint": "full frame",
+  "text_band": "caption top y~0.05-0.20",
+  "creator": "@taylortakesprague",
+  "url": "https://www.tiktok.com/@taylortakesprague/video/7364318564121087275",
+  "note": "Woman in Tokyo (office towers behind) hobbling in pain on a reflexology stone path, gripping the rail, wincing; 3.5-13.4 one take. FILE IS GROUP A/B's (jp_pain) - coordinate",
+  "status": "ok"
+ },
+ {
+  "shot": "P6.8",
+  "vo": "telling everyone else to go ahead without you",
+  "file": null,
+  "status": "missing",
+  "note": "No 'go on without me' wave clip found. Fallback: continue P6.7 taylortakesprague 13.5-17.2 (she stops, bent over at rail)"
+ },
+ {
+  "shot": "P6.9",
+  "vo": "while you look for somewhere to sit.",
+  "file": null,
+  "status": "missing",
+  "note": "Not searched beyond 2 queries (budget). Fallback: group A/B station-crowd clips (jp_station) or tokyocheapo 2.85-5.6 crowded concourse"
+ },
+ {
+  "shot": "P6.10",
+  "vo": "You want to be in every photo,",
+  "file": "tiktok/jp_fushimi/twinsauce_7291673642289630507.mp4",
+  "in": 0.5,
+  "usable_s": 3.0,
+  "continuous": true,
+  "crop_hint": "full frame; low-angle torii",
+  "text_band": "none",
+  "creator": "@twinsauce",
+  "url": "https://www.tiktok.com/@twinsauce/video/7291673642289630507",
+  "note": "Two guys posing/dancing energetically under the big vermilion torii at Fushimi Inari, 18s single take (whole clip continuous)",
+  "status": "ok"
+ },
+ {
+  "shot": "P6.11",
+  "vo": "climbing to the top",
+  "file": "tiktok/jp_fushimi/permanentlypacked_7560344188500315414.mp4",
+  "in": 63.95,
+  "usable_s": 2.1,
+  "continuous": true,
+  "crop_hint": "full frame; walker center",
+  "text_band": "word caption y~0.68-0.72",
+  "creator": "@rob_shead",
+  "url": "https://www.tiktok.com/@rob_shead/video/7560344188500315414",
+  "note": "Man walking up stone steps through dense torii tunnel toward camera (upper Inari). Other short stair takes 58.0-59.8 empty torii stairs. Alt jp_fushimi/kayg.fit 0.0-4.5 woman walking away through torii (caption mid)",
+  "status": "ok"
+ },
+ {
+  "shot": "P6.12",
+  "vo": "of the shrine,",
+  "file": "tiktok/jp_payoff/thelarachannel_7291645533054176519.mp4",
+  "in": 38.5,
+  "usable_s": 2.4,
+  "continuous": true,
+  "crop_hint": "full frame",
+  "text_band": "caption mid y~0.30-0.38 ('3', 'THE SURVIVAL RATE IS SAID') - erase",
+  "creator": "@thelarachannel",
+  "url": "https://www.tiktok.com/@thelarachannel/video/7291645533054176519",
+  "note": "Woman at Kiyomizu-dera stage railing looking out over autumn Kyoto hills, pans up to sky at end (not Fushimi summit/sunset - none found). Alt 35.9-38.4 Kiyomizu stage w/ Kyoto skyline",
+  "status": "ok"
+ },
+ {
+  "shot": "P6.13",
+  "vo": "exploring the night alleys",
+  "file": "tiktok/jp_night/tokyo_aesthetic.jp_7269454690574683394.mp4",
+  "in": 0.2,
+  "usable_s": 3.0,
+  "continuous": true,
+  "crop_hint": "full frame",
+  "text_band": "none",
+  "creator": "@tokyo_aesthetic.jp",
+  "url": "https://www.tiktok.com/@tokyo_aesthetic.jp/video/7269454690574683394",
+  "note": "Golden Gai: slow forward glide down narrow lamp-lit bar alley at night, 0-8.8 one take (no steam). Alt 16.6-23.0 alley with people",
+  "status": "ok"
+ },
+ {
+  "shot": "P6.14",
+  "vo": "in Shinjuku,",
+  "file": "tiktok/jp_night/djangel23_7390499459597192454.mp4",
+  "in": 10.7,
+  "usable_s": 2.75,
+  "continuous": true,
+  "crop_hint": "full frame (576x1024 - low res)",
+  "text_band": "none",
+  "creator": "@djangel23",
+  "url": "https://www.tiktok.com/@djangel23/video/7390499459597192454",
+  "note": "Shinjuku night: neon-covered building at crossing, crowds, ginkgo trees. Alt tiktok/jp_night/lukemcameron_7327921790594944263.mp4 8.0-10.0 Kabukicho red neon gate + crowd (1080p but only 2.0s)",
+  "status": "ok"
+ },
+ {
+  "shot": "P6.15",
+  "vo": "and still feeling great",
+  "file": null,
+  "status": "missing",
+  "note": "No happy-bounce-on-platform clip found. Fallback: extend P6.16 ogu_from_japan from 0.0 to 5.5 (platform at night, he walks to camera) covering both lines"
+ },
+ {
+  "shot": "P6.16",
+  "vo": "when the last train runs.",
+  "file": "tiktok/jp_night/ogu_from_japan_7464584650128837906.mp4",
+  "in": 0.0,
+  "usable_s": 3.0,
+  "continuous": true,
+  "crop_hint": "full frame",
+  "text_band": "caption top y~0.15-0.25 ('When you miss the last train in Tokyo') - erase",
+  "creator": "@ogu_from_japan",
+  "url": "https://www.tiktok.com/@ogu_from_japan/video/7464584650128837906",
+  "note": "Real Tokyo platform late night: guy hurries along yellow line next to train at platform doors; skit continues (he drinks/lies down after 6.5s - don't use). No clock/Yamanote headlights clip found",
+  "status": "ok"
+ },
+ {
+  "shot": "P7.1",
+  "vo": "Right now, for the Holiday Sale,",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P7.2",
+  "vo": "Comfortwear is up to forty percent off",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P7.3",
+  "vo": "with free shipping,",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P7.4",
+  "vo": "which puts them under sixty dollars a pair.",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P7.5",
+  "vo": "Plus, you get thirty days",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P7.6",
+  "vo": "to try them risk-free.",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P7.7",
+  "vo": "Order a pair and put them through",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P7.8",
+  "vo": "your longest walking days at home",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P7.9",
+  "vo": "before you fly out.",
+  "file": "tiktok/jp_pack/rileejsmith_7564913888785960222.mp4",
+  "in": 138.5,
+  "usable_s": 2.5,
+  "continuous": true,
+  "crop_hint": "full frame top-down suitcase",
+  "text_band": "none",
+  "creator": "@rileejsmith",
+  "url": "https://www.tiktok.com/@rileejsmith/video/7564913888785960222",
+  "note": "'Packed for 2 weeks in Japan' carry-on: hands place white sneakers into open hard-shell suitcase (138.3-164.1 one take). Group A/B holds same clip in jp_travel",
+  "status": "ok"
+ },
+ {
+  "shot": "P7.10",
+  "vo": "If they do not keep your feet",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P7.11",
+  "vo": "completely supported and pain-free,",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P7.12",
+  "vo": "send them back.",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P7.13",
+  "vo": "Tap below and grab your pair",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P7.14",
+  "vo": "before the Holiday Sale ends",
+  "file": null,
+  "status": "skip",
+  "note": "PRODUCT/AI/ANIMATION - editor handles"
+ },
+ {
+  "shot": "P7.15",
+  "vo": "and before you pack for Japan.",
+  "file": "tiktok/jp_walk/tokyocheapo_7545810819833941256.mp4",
+  "in": 2.85,
+  "usable_s": 2.8,
+  "continuous": true,
+  "crop_hint": "full frame",
+  "text_band": "caption y~0.66-0.70; TYO logo top-right until ~2.8s",
+  "creator": "@tokyocheapo",
+  "url": "https://www.tiktok.com/@tokyocheapo/video/7545810819833941256",
+  "note": "Walking POV through packed Japanese station concourse behind commuters, one pulling a wheeled case (caption talks Shinjuku vs Tokyo Station - concourse likely Tokyo Stn). No 'tourist confidently pulling luggage' clip found",
+  "status": "ok"
+ },
+ {
+  "shot": "P7.16",
+  "vo": "[End card]",
+  "file": null,
+  "status": "skip",
+  "note": "Motion graphics end slate - editor handles"
+ }
+]
