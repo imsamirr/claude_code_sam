@@ -13,8 +13,18 @@ BUILD = P / "build" / "shots"; BUILD.mkdir(parents=True, exist_ok=True)
 SR = 48000
 norm = lambda s: re.sub(r"[^a-z0-9']", "", s.lower())
 
+VO3 = HERE / "vo3"
 def timeline_audio(hook, gap=0.12):
-    """concatenate hook + P1..P7 wavs; return words with global times and section offsets"""
+    """v3 read: hook take + ONE continuous body take (P1-P7 never re-joined, so the read can't break between sections)"""
+    if (VO3 / "body_final.wav").exists():
+        words, off, parts, t = {}, {}, [np.zeros(int(0.15 * SR))], 0.15
+        for take, g in ((hook, 0.32), ("body", 0.0)):
+            a, sr = sf.read(VO3 / f"{take}_final.wav"); a = a if a.ndim == 1 else a.mean(1)
+            j = json.load(open(VO3 / f"{take}_final.json"))
+            for sec, ws in j["sections"].items(): off[sec] = t + ws[0]["s"]; words[sec] = [{**w, "s": w["s"] + t, "e": w["e"] + t} for w in ws]
+            parts += [a, np.zeros(int(g * SR))]; t += len(a) / SR + g
+        parts.append(np.zeros(int(3.0 * SR)))
+        return np.concatenate(parts), words, off, t + 2.4
     secs = [hook] + [f"P{i}" for i in range(1, 8)]
     words, off, chunks, t = {}, {}, [], 0.15
     chunks.append(np.zeros(int(0.15 * SR)))
@@ -38,10 +48,21 @@ def wi(words, sec, w):
             if k == nth: return i
     raise KeyError(f"{sec}: {w}")
 
+MIN_SHOT, DISSOLVE = 1.0, 4          # feedback: cuts felt abrupt -> no flash shots, cut inside the breath, 4-frame soft cut
 def build(shots, words, total):
     out = []
-    for s in shots: s["t"] = words[s["sec"]][wi(words, s["sec"], s.get("w", 0))]["s"] - 0.03 + s.get("dt", 0)
+    for s in shots:
+        ws = words[s["sec"]]; i = wi(words, s["sec"], s.get("w", 0)); w = ws[i]
+        gap = w["s"] - ws[i - 1]["e"] if i > 0 else 0.1
+        s["t"] = w["s"] - max(0.03, min(0.12, gap / 2)) + s.get("dt", 0)     # cut lands in the pause before the word
     shots[0]["t"] = 0.0
+    keep = [shots[0]]
+    for k, s in enumerate(shots[1:], 1):
+        nxt = shots[k + 1]["t"] if k + 1 < len(shots) else total
+        if nxt - s["t"] < MIN_SHOT and not s.get("doctor") and not s.get("keep") and s.get("src") != "reference/COM376_HO1.mp4" and k + 1 < len(shots): continue
+        if s["t"] - keep[-1]["t"] < MIN_SHOT and not keep[-1].get("doctor") and len(keep) > 1 and not keep[-1].get("hook") and not keep[-1].get("keep"): keep[-1] = s; continue
+        keep.append(s)
+    shots = keep
     for i, s in enumerate(shots):
         t1 = shots[i + 1]["t"] if i + 1 < len(shots) else total
         f0, f1 = round(s["t"] * FPS), round(t1 * FPS)
@@ -211,10 +232,15 @@ def render(hook, only=None, preview=False, out=None):
     enc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                             "-ss", f"{f0 / FPS:.3f}", "-t", f"{(f1 - f0) / FPS:.3f}", "-i", str(wav), "-c:v", "libx264", "-preset", "veryfast" if preview else "medium",
                             "-crf", "21" if preview else "17", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", str(out)], stdin=subprocess.PIPE)
+    prev = None
     for s in sel:
         for k, fr in enumerate(frames(bases[s["i"]], s["n"])):
             tl = k / FPS; gt = (s["f0"] + k) / FPS
-            fr = fx_frame(fr, s, tl); overlays(fr, s, tl, gt, heads)
+            fr = fx_frame(fr, s, tl)
+            if k < DISSOLVE and prev is not None:
+                al = (k + 1) / (DISSOLVE + 1); fr = (prev.astype(np.float32) * (1 - al) + fr.astype(np.float32) * al).astype(np.uint8)
+            if k == s["n"] - 1: prev = fr.copy()
+            overlays(fr, s, tl, gt, heads)
             if not s.get("nocap"):
                 for c in chunks:
                     if c["s"] - 0.02 <= gt < c["e"]: fxlib.blit(fr, T.caption(c["text"]), W / 2, s.get("cap_y", 1320)); break

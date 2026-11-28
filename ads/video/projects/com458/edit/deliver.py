@@ -23,7 +23,11 @@ def origin(src):
 
 def run(h):
     raw = OUT / f"COM458_{h}.mp4"; fin = OUT / f"COM458_{h}_final.mp4"
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(raw), "-c:v", "copy", "-af", "loudnorm=I=-15:TP=-1.5:LRA=11", "-ar", "48000",
+    import json as _j, re as _re   # two-pass loudnorm so it actually lands on -15 LUFS
+    m = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(raw), "-af", "loudnorm=I=-15:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"], capture_output=True, text=True).stderr
+    L = _j.loads(_re.findall(r"\{[^{}]*\}", m)[-1])
+    ln = f"loudnorm=I=-15:TP=-1.5:LRA=11:measured_I={L['input_i']}:measured_TP={L['input_tp']}:measured_LRA={L['input_lra']}:measured_thresh={L['input_thresh']}:offset={L['target_offset']}:linear=true"
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(raw), "-c:v", "copy", "-af", ln, "-ar", "48000",
                     "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(fin)], check=True)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(fin), "-vf", "scale=540:960", "-c:v", "libx264", "-crf", "24", "-preset", "veryfast",
                     "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", str(OUT / f"COM458_{h}_preview540.mp4")], check=True)

@@ -42,3 +42,5 @@ ads/video/projects/*/gen/*.png
 ads/video/projects/*/edit/vo/*.wav
 ads/video/projects/*/edit/vo/*.mp3
 ads/video/projects/*/reference/*/audio.mp3
+ads/video/projects/*/edit/vo3/*.wav
+ads/video/projects/*/edit/vo3/*.mp3

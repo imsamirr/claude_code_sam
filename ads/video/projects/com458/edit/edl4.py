@@ -30,9 +30,9 @@ def UG(sec, w, shot, d=0.0, **kw):
     f, i = U(shot, d); return S(sec, w, f, i, **kw)
 def LB(sec, w, i, ss=0.5, **kw): return S(sec, w, LIB[i], ss, **kw)
 
-HOOK_TEXT = {"H1": ("HOKAS & ON CLOUDS", ("ARE THE WORST SHOES", "FOR NEW YORK CITY")),
-             "H2": ("YOU'LL REGRET PACKING", ("HOKAS OR ON CLOUD", "FOR YOUR NYC TRIP")),
-             "H3": ("WHY NYC TOURISTS", ("TAP OUT BY 2 PM",))}
+HOOK_TEXT = {"H1": (("HOKAS &", "ON CLOUDS"), ("ARE THE WORST SHOES", "FOR NEW YORK CITY")),
+             "H2": (("YOU'LL REGRET", "PACKING"), ("HOKAS OR ON CLOUDS", "FOR YOUR NYC TRIP")),
+             "H3": (("WHY NYC", "TOURISTS"), ("TAP OUT BY 2 PM",))}
 def HK(h, **kw): return {"hook": HOOK_TEXT[h], "nocap": True, **kw}
 
 HOOKS = {
@@ -40,20 +40,21 @@ HOOKS = {
     UG("H1", 0, "H1.1", **HK("H1")),                                   # H1.1 Hoka + On side by side
     UG("H1", "are the worst", "H1.2", **HK("H1")),                     # H1.2 Hokas stepping
     UG("H1", "for new york", "H1.3", **HK("H1")),                      # H1.3 NYC POV
-    S("H1", "I know", "gen/D_H1.mp4", 0.05, z=1.0, doctor=True),       # H1.4-6 AI podiatrist (lip-synced)
+    S("H1", "I know", "gen/D3_H1.mp4", 0.05, z=1.0, doctor=True),       # H1.4-6 AI podiatrist (lip-synced)
  ],
  "H2": [
     UG("H2", 0, "H2.1", **HK("H2")),                                   # unboxing Hokas
     UG("H2", "on hokas or", "H2.2", **HK("H2")),                       # packing for NYC
     S("H2", "do not put", "tiktok/nyc_packing/maxieelise_7332662870708145450.mp4", 58.0, fx={"rev": True}),   # pulling them back out (reverse)
-    S("H2", "Those plush", "gen/D_H2.mp4", 0.05, z=1.0, doctor=True),  # doctor: plush gym shoes / 40 min
+    S("H2", "Those plush", "gen/D3_H2.mp4", 0.05, z=1.0, doctor=True),  # doctor: plush gym shoes / 40 min
     UG("H2", "on a treadmill", "H2.5"),                                # treadmill
     UG("H2", "not 20,000", "H2.6"),                                    # step counter
     UG("H2", "on unforgiving", "H2.7"),                                # NYC concrete
  ],
  "H3": [
-    UG("H3", 0, "H3.1", **HK("H3")),                                   # crowded midtown POV
-    UG("H3", "wearing hokas", "H3.2", **HK("H3")),
+    UG("H3", 0, "H3.1", fx={"zoom": (1.2, 1.23), "zc": (540, 1920)}, **HK("H3")),   # price pill (top) cropped out                                   # crowded midtown POV
+    UG("H3", "wearing hokas", "H1.2", keep=True, **HK("H3")),         # feedback: show the Hokas...
+    UG("H3", "or On Clouds", "27", keep=True, **HK("H3")),            # ...and the On Clouds right after the NYC opener
     S("H3", "around two", "tiktok/nyc_subway/carterrodney_6990015792951676165.mp4", 23.0, keep_text=True),   # head in hands on platform
     UG("H3", "They'll be either", "H3.4", fx={"zoom": (1.36, 1.40), "zc": (540, 1920)}, keep_text=True),
     UG("H3", "or paying", "H3.5"),
@@ -68,7 +69,7 @@ BODY = [
  UG("P1", "climbing three", "13"), UG("P1", "navigating cracked", "14"), UG("P1", "standing in lines", "15"),
  S("P1", "and doing it all", "tiktok/nyc_subway/carterrodney_6990015792951676165.mp4", 24.3, keep_text=True), UG("P1", "eight, nine", "10", 2.0),
  UG("P1", "sometimes ten", "12", 2.5),
- S("P1", "Three things people", "gen/D_P1.mp4", 0.05, z=1.0), UG("P1", "already in the city", "32", 2.0),                      # 17 doctor counts 3
+ S("P1", "Three things people", "gen/D3_P1.mp4", 0.05, z=1.0, doctor=True), UG("P1", "already in the city", "32", 2.0),                      # 17 doctor counts 3
  # P2 #1 soft foam
  UG("P2", 0, "18"), UG("P2", "and those bouncy", "19", fx={"zoom": (1.5, 1.53), "zc": (540, 0)}), UG("P2", "do not tell", "27", 1.5), UG("P2", "With Hokas, that", "20", fx={"zoom": (1.3, 1.33), "zc": (540, 1920)}), UG("P2", "is made to spring", "20", 1.6, fx={"zoom": (1.3, 1.33), "zc": (540, 1920)}), UG("P2", "on a jog", "H2.5"),
  UG("P2", "But New York means", "21"), UG("P2", "standing in line for a bagel", "22"), UG("P2", "waiting on a concrete", "23", keep_text=True),
@@ -83,7 +84,7 @@ BODY = [
  UG("P3", "Plus, all that", "40"), UG("P3", "over twenty thousand", "H2.6"), UG("P3", "And with On Clouds, those smooth", "42", fx={"zoom": (1.5, 1.53), "zc": (540, 0)}),
  UG("P3", "turn into literal", "43", 0.7, fx={"zoom": (1.25, 1.3)}), UG("P3", "the second winter", "44"), UG("P3", "or freezing rain", "44", 1.2), S("P3", "hits polished", "tiktok/nyc_subway/realmikemizzle_7289093713815440682.mp4", 19.0, fx={"zoom": (1.45, 1.48), "zc": (540, 0)}, keep_text=True),
  UG("P3", "and metal subway", "46"),
- S("P3", "That is where", "gen/D_P3.mp4", 0.05, z=1.0),                            # 47 doctor
+ S("P3", "That is where", "gen/D3_P3.mp4", 0.05, z=1.0, doctor=True),                            # 47 doctor
  LB("P3", "You want a shoe", 350, 0.5), UG("P3", "not an unstable", "49"), UG("P3", "on freezing streets", "31", 1.5),
  # P4 #3 narrow toe box
  UG("P4", 0, "50"), UG("P4", "and it does not", "51", fx={"zoom": (1.5, 1.53), "zc": (540, 0)}), UG("P4", "On Clouds are notoriously", "52"), S("P4", "and Hokas taper", "tiktok/hoka/psaprockyxoxo11_7518821487051148574.mp4", 0.4),
