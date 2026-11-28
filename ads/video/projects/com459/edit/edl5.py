@@ -56,7 +56,16 @@ OWN = {
 DOCSHOT = {"H1.3": "D_H1", "H1.5": "D_H1", "H2.5": "D_H2", "H3.4": "D_H3", "P1.14": "D_P1", "P2.2": "D_P2", "P3.13": "D_P3", "P4.11": "D_P4"}
 DOC_FROM = {"H2.5": "take them out"}          # doctor covers the whole line "take them out of your suitcase right now."
 SKIP = {"H2.4"}                              # (merged into the doctor line above)
-FALLBACK = {}                                # filled after sourcing: shot -> another shot id or (file, in)
+LP = "../com458/tiktok/nyc_hoods/lonelyplanet_7489594060038999302.mp4"     # its iPhone Health / watch screens (COM458)
+FALLBACK = {   # sourcing gaps -> (file, in), or None = no shot (previous scene holds longer, which also slows the pace)
+ "P1.2": None, "P1.4": (LP, 89.9), "H3.7": None,      # LP 4-9 s is a fast montage (no clean take for the watch)
+ # de-duplicate windows that two sourcing groups picked from the same clip
+ "H1.4": ("../com458/tiktok/hoka/nichos.home_7551553313515261198.mp4", 67.0), "P3.17": ("tiktok/jp_stairs/jin1495__7474470941687418119.mp4", 5.0),
+ "P6.7": ("tiktok/jp_pain/taylortakesprague_7364318564121087275.mp4", 8.0), "P4.12": ("tiktok/jp_pain/mvshelle_7528084781142166814.mp4", 3.5),
+ "P7.9": ("tiktok/jp_pack/rileejsmith_7564913888785960222.mp4", 150.0), "P3.14": ("../com458/tiktok/oncloud/cchungy__7214168808423050538.mp4", 2.0),
+ "P3.12": ("tiktok/jp_winter/kaaatastrophe_7368524673115589893.mp4", 40.0),
+ "P1.12": None, "P2.6": None, "P2.15": None, "P4.14": None, "P5.19": None, "P6.6": None, "P6.8": None, "P6.9": None,
+}
 
 HOOK_TEXT = {"H1": (("HOKAS & ON CLOUDS",), ("ARE THE WORST SHOES", "FOR JAPAN ❌")),
              "H2": (("STOP PACKING",), ("HOKAS AND ON CLOUDS", "FOR JAPAN 🛑")),
@@ -78,6 +87,7 @@ def shot(sb, cur):
     sid = sb["shot"]; sec = sid.split(".")[0]
     if sid in SKIP or sb["vo"].startswith("*"): return None, cur
     i, w = anchor(sec, DOC_FROM.get(sid, sb["vo"]), cur)
+    if sid in FALLBACK and FALLBACK[sid] is None and sid not in OWN: return None, i
     if i == 0: w = 0
     s = {"sec": sec, "w": w, "sb": sid, "fx": {"zoom": (1.08, 1.13)}}
     if sid in DOCSHOT:
@@ -101,7 +111,9 @@ def build_shots(hook):
         sec = sb["shot"].split(".")[0]
         if sec.startswith("H") and sec != hook: continue
         s, i = shot(sb, cur.get(sec, 0))
-        if s is None: continue
+        if s is None:
+            if i: cur[sec] = i + 1
+            continue
         cur[sec] = i + 1; out.append(s)
     for s in out:                                            # hook card on the opening shots (COM376: until the doctor / ~3.5 s)
         if s["sec"] == hook and not s.get("doctor"):
