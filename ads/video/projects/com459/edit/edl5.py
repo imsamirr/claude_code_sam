@@ -39,13 +39,13 @@ LIB = {4: "assets/lib/01_Cushion and Arch Support/OSCS_Arch Support 02.mov", 5: 
 
 # StefanBrain PRODUCT / ANIMATION / un-generated AI shots -> our footage  (src, in-point, extra)
 OWN = {
- "P2.9": ("gen/anim_foam.mp4", 0.3, {}), "P2.12": ("gen/anim_foam.mp4", 1.6, {"z": 1.15}), "P2.13": ("gen/anim_foam.mp4", 2.4, {}),
+ "P2.9": ("gen/anim_foam.mp4", 0.3, {}), "P2.13": ("assets/misc/Nurses/Broll nurse dismayed taking off the insole of a non-CW shoes. .MOV", 2.0, {}),
  "P2.14": ("gen/anim_foam.mp4", 3.2, {"z": 1.08}),
  "P3.19": (LIB[27], 3.0, {}), "P3.20": (LIB[28], 3.0, {}), "P3.21": (LIB[350], 0.5, {}),
  "P4.8": ("gen/anim_toes.mp4", 0.3, {}), "P4.9": ("gen/anim_toes.mp4", 2.4, {}), "P4.13": ("gen/anim_toes.mp4", 3.6, {"z": 1.12}),
  "P5.1": (LIB[102], 8.0, {}), "P5.2": (LIB[78], 1.0, {}), "P5.4": (LIB[34], 3.0, {}), "P5.5": (LIB[190], 5.0, {}), "P5.6": (LIB[190], 15.0, {}),
  "P5.9": (LIB[12], 10.0, {}), "P5.10": (LIB[16], 1.0, {}), "P5.12": (LIB[23], 1.0, {}), "P5.13": (LIB[24], 1.0, {}), "P5.14": (LIB[193], 6.0, {}),
- "P5.15": (LIB[191], 15.0, {}), "P5.16": (LIB[371], 1.5, {}), "P5.17": (LIB[355], 1.0, {}), "P5.18": (LIB[25], 6.0, {}), "P5.20": (LIB[28], 6.0, {}),
+ "P5.15": (LIB[191], 15.0, {}), "P5.16": (LIB[5], 2.0, {}), "P5.17": (LIB[355], 1.0, {}), "P5.18": (LIB[25], 6.0, {}), "P5.20": (LIB[28], 9.0, {}),
  "P6.15": (LIB[187], 18.0, {}),
  "P7.1": (LIB[227], 2.0, {}), "P7.2": (R376, 122.85, {"nocap": True, "z": 1.0}), "P7.3": (R376, 124.05, {"nocap": True, "z": 1.0}),
  "P7.4": (LIB[373], 2.0, {"keep_text": True}), "P7.5": (R376, 125.0, {"nocap": True, "z": 1.0, "fx": {"speed": 0.8, "zoom": (1.0, 1.0)}}),
@@ -58,6 +58,11 @@ DOC_FROM = {"H2.5": "take them out"}          # doctor covers the whole line "ta
 SKIP = {"H2.4"}                              # (merged into the doctor line above)
 LP = "../com458/tiktok/nyc_hoods/lonelyplanet_7489594060038999302.mp4"     # its iPhone Health / watch screens (COM458)
 FALLBACK = {   # sourcing gaps -> (file, in), or None = no shot (previous scene holds longer, which also slows the pace)
+ "P2.12": ("../com458/tiktok/oncloud/thatfitfriend_7483260646092475694.mp4", 69.0),      # break up 4 animation shots in a row
+ "P5.19": ("assets/lib/04_Slip-resistant/OSCS_Slip resistant 01.mp4", 6.0),
+ "P3.3": ("tiktok/jp_tiles/framessbynia_7284198025424063776.mp4", 2.5), "P3.5": ("tiktok/jp_tiles/framessbynia_7284198025424063776.mp4", 8.0),
+ "P3.15": ("../com458/tiktok/nyc_winter/bigwezza_7013433132334451973.mp4", 0.2), "P3.17": None, "P4.10": None, "P6.5": None,
+ "P3.10": ("../com458/tiktok/hoka/runningshoesworld_7483517265959390487.mp4", 18.0),
  "P1.2": None, "P1.4": (LP, 89.9), "H3.7": None,      # LP 4-9 s is a fast montage (no clean take for the watch)
  # de-duplicate windows that two sourcing groups picked from the same clip
  "H1.4": ("../com458/tiktok/hoka/nichos.home_7551553313515261198.mp4", 67.0), "P3.17": ("tiktok/jp_stairs/jin1495__7474470941687418119.mp4", 5.0),
@@ -105,6 +110,9 @@ def shot(sb, cur):
         else: s["missing"] = True; s.update(src=None, ss=0)
     return s, i
 
+TWEAK = {"P3.10": {"fx": {"zoom": (1.3, 1.33), "zc": (540, 1920)}},     # pushes the reviewer's sticker (top-right) out of frame
+         "P4.2": {"cap_y": 1320}}
+
 def build_shots(hook):
     out, cur = [], {}
     for sb in SB:
@@ -114,7 +122,9 @@ def build_shots(hook):
         if s is None:
             if i: cur[sec] = i + 1
             continue
-        cur[sec] = i + 1; out.append(s)
+        cur[sec] = i + 1; s.update(TWEAK.get(s["sb"], {})); out.append(s)
+    i, w = anchor("P7", "Japan.", len(WORDS["P7"]) - 3)        # COM376 end card after the last word (StefanBrain P7.16)
+    out.append({"sec": "P7", "w": w, "sb": "P7.16", "src": R376, "ss": 131.0, "nocap": True, "dt": 0.45, "fx": {"zoom": (1.0, 1.0)}})
     for s in out:                                            # hook card on the opening shots (COM376: until the doctor / ~3.5 s)
         if s["sec"] == hook and not s.get("doctor"):
             s.update(hook=HOOK_TEXT[hook], nocap=True)

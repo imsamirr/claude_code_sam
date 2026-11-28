@@ -102,15 +102,13 @@ CLEAN_LOG = []
 def clean_inpoint(s, src):
     """move the in-point so the whole shot sits inside one continuous take (rule from scene_pacing_top_ads.md)"""
     fx = s.get("fx", {})
-    if s.get("allow_cuts") or s["src"].startswith("gen/") or fx.get("rev"): return s.get("ss", 0)
+    if s.get("allow_cuts") or s["src"].startswith(("gen/", "reference/")) or fx.get("rev"): return s.get("ss", 0)
     need = s["n"] / FPS / fx.get("speed", 1.0) + 0.25; ss = s.get("ss", 0)
     segs = segments(src)
     for a, b in segs:
-        if a - 0.05 <= ss < b:
-            if b - ss >= need: return ss
-            if b - a >= need: CLEAN_LOG.append((s["src"], ss, round(b - need, 2))); return max(a, b - need)
-            break
-    ok = [(abs(a - ss), a) for a, b in segs if b - a >= need]
+        if a - 0.05 <= ss < b and b - ss >= need: return ss
+    # smallest move that fits the shot in one take: slide back inside the same take, or forward to a later take's start
+    ok = [(abs(min(b - need, ss) - ss) if a <= ss < b else abs(a - ss), max(a, min(b - need, ss)) if a <= ss < b else a) for a, b in segs if b - a >= need]
     if ok: na = min(ok)[1]; CLEAN_LOG.append((s["src"], ss, na)); return na
     best = max(segs, key=lambda x: x[1] - x[0]); CLEAN_LOG.append((s["src"], ss, f"NO CLEAN TAKE (longest {best[1]-best[0]:.2f}s, need {need:.2f}s)")); return best[0]
 
@@ -161,7 +159,9 @@ def plan_clean(s, base):
         f = P / "build" / "textscan2.json"; _TS = json.load(open(f)) if f.exists() else {}
     if s.get("keep_text") or s["src"].startswith("gen/") or s["src"].startswith("reference/"): return None
     allb = _TS.get(Path(base).name, [])
-    bx = [b for b in allb if overlay_like(b, allb) and not SCENE.match(b[4].strip())]
+    def still_label(b):   # a brand word that sits still on screen across sampled frames = creator label ("Hoka", "Brooks"), not a logo on a moving shoe
+        return sum(1 for o in allb if o[5] != b[5] and abs(o[1] - b[1]) < 6 and abs(o[3] - b[3]) < 6 and abs(o[0] - b[0]) < 8) >= 2 and b[3] - b[1] >= 30
+    bx = [b for b in allb if overlay_like(b, allb) and (not SCENE.match(b[4].strip()) or still_label(b))]
     s["fx"] = dict(s.get("fx", {}))
     bx += [list(b) + ["manual"] for b in s.get("rm_boxes", [])]
     fx0 = s.get("fx", {})
