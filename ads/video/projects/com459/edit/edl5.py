@@ -110,8 +110,17 @@ def shot(sb, cur):
         else: s["missing"] = True; s.update(src=None, ss=0)
     return s, i
 
-TWEAK = {"P3.10": {"fx": {"zoom": (1.3, 1.33), "zc": (540, 1920)}},     # pushes the reviewer's sticker (top-right) out of frame
+TWEAK = {"P1.1": {"fx": {"zoom": (1.17, 1.2), "zc": (540, 1920)}},     # creator label "Hoka" (top) pushed out of frame
+         "P3.10": {"fx": {"zoom": (1.3, 1.33), "zc": (540, 1920)}},     # pushes the reviewer's sticker (top-right) out of frame
          "P4.2": {"cap_y": 1320}}
+
+def wi_local(sec, w):
+    ph, n = (w.split("#") + ["1"])[:2]; toks = [norm(t) for t in ph.split()]; k = 0
+    for i in range(len(WORDS[sec])):
+        if [norm(x["w"]) for x in WORDS[sec][i:i + len(toks)]] == toks:
+            k += 1
+            if k == int(n): return i
+    return 99
 
 def build_shots(hook):
     out, cur = [], {}
@@ -126,7 +135,7 @@ def build_shots(hook):
     i, w = anchor("P7", "Japan.", len(WORDS["P7"]) - 3)        # COM376 end card after the last word (StefanBrain P7.16)
     out.append({"sec": "P7", "w": w, "sb": "P7.16", "src": R376, "ss": 131.0, "nocap": True, "dt": 0.45, "fx": {"zoom": (1.0, 1.0)}})
     for s in out:                                            # hook card on the opening shots (COM376: until the doctor / ~3.5 s)
-        if s["sec"] == hook and not s.get("doctor"):
+        if s["sec"] == hook and not s.get("doctor") and (s["w"] == 0 or wi_local(hook, s["w"]) < 10):   # card ~first 3.5-5 s (COM376 / StefanBrain)
             s.update(hook=HOOK_TEXT[hook], nocap=True)
         if s["sec"] == hook and s.get("doctor"): break
     return out
