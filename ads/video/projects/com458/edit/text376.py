@@ -45,8 +45,9 @@ def caption(text):
 
 @lru_cache(maxsize=64)
 def hook_box(red, black):
-    fr, fb = F(80), F(60); tr = -1.8
-    rl = [red] if isinstance(red, str) else list(red); bl = list(black)
+    rl = [red] if isinstance(red, str) else list(red); bl = list(black); k = 1.0
+    while max([tl(l, F(int(80 * k)), -1.8) for l in rl] + [tl(l, F(int(60 * k)), -1.8) for l in bl]) > 960: k -= 0.02   # card stays inside the frame
+    fr, fb = F(int(80 * k)), F(int(60 * k)); tr = -1.8
     lines = [(l, fr, (232, 20, 30)) for l in rl] + [(l, fb, (0, 0, 0)) for l in bl]
     ws = [tl(l, f, tr) for l, f, _ in lines]; W = int(max(ws)) + 44
     hs = [f.getmetrics()[0] + f.getmetrics()[1] - 8 for _, f, _ in lines]; H = sum(hs) + 26

@@ -103,7 +103,7 @@ def plan_clean(s, base):
     global _TS
     if _TS is None:
         f = P / "build" / "textscan2.json"; _TS = json.load(open(f)) if f.exists() else {}
-    if s.get("keep_text") or s["src"].startswith("gen/") or s.get("nocap"): return None
+    if s.get("keep_text") or s["src"].startswith("gen/") or s["src"].startswith("reference/"): return None
     allb = _TS.get(Path(base).name, [])
     bx = [b for b in allb if overlay_like(b, allb) and not SCENE.match(b[4].strip())]
     s["fx"] = dict(s.get("fx", {}))

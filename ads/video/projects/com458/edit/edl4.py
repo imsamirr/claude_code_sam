@@ -54,8 +54,8 @@ HOOKS = {
  "H3": [
     UG("H3", 0, "H3.1", **HK("H3")),                                   # crowded midtown POV
     UG("H3", "wearing hokas", "H3.2", **HK("H3")),
-    S("H3", "around two", "tiktok/nyc_subway/carterrodney_6990015792951676165.mp4", 24.3, keep_text=True),   # head in hands on platform
-    UG("H3", "icing their", "H3.4", fx={"zoom": (1.33, 1.36), "zc": (540, 1400)}),
+    S("H3", "around two", "tiktok/nyc_subway/carterrodney_6990015792951676165.mp4", 23.0, keep_text=True),   # head in hands on platform
+    UG("H3", "They'll be either", "H3.4", fx={"zoom": (1.36, 1.40), "zc": (540, 1920)}, keep_text=True),
     UG("H3", "or paying", "H3.5"),
     UG("H3", "because their feet", "H3.6"),
  ],
