@@ -44,7 +44,7 @@ HOOKS = {
  ],
  "H2": [
     UG("H2", 0, "H2.1", **HK("H2")),                                   # unboxing Hokas
-    UG("H2", "on hokas or", "H2.2", **HK("H2")),                       # packing for NYC
+    UG("H2", "on hokas or", "H2.2", fx={"zoom": (1.48, 1.51), "zc": (540, 1920)}, keep_text=True, **HK("H2")),   # creator caption (upper third) cropped out                       # packing for NYC
     S("H2", "do not put", "tiktok/nyc_packing/maxieelise_7332662870708145450.mp4", 58.0, fx={"rev": True}),   # pulling them back out (reverse)
     S("H2", "Those plush", "gen/D3_H2.mp4", 0.05, z=1.0, doctor=True),  # doctor: plush gym shoes / 40 min
     UG("H2", "on a treadmill", "H2.5"),                                # treadmill
