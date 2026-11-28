@@ -1,0 +1,989 @@
+[
+{
+"shot": "H1.1",
+"vo": "Hokas and On Clouds are",
+"visual": "POV packing a carry-on suitcase on a bed; hands aggressively stuffing a pair of bright neon Hoka Clifton/Bondi sneakers next to travel clothes. Clean, single-take shot.",
+"tier": "COMPETITOR_UGC",
+"query": "packing for japan suitcase shoes"
+},
+{
+"shot": "H1.2",
+"vo": "the worst shoes you can pack for Japan.",
+"visual": "Bustling, sea of commuters walking through Shinjuku Station concourse during peak morning rush. Camera glides at mid-torso height showing the sheer ocean of concrete.",
+"tier": "JAPAN_UGC",
+"query": "shinjuku station morning rush crowd walking"
+},
+{
+"shot": "H1.3",
+"vo": "I know that'll upset people,",
+"visual": "AI Podiatrist \"Dr. Moore, DPM\" in clean white lab coat, standing in bright clinic examination room. Looks straight into camera lens, smiles faintly, and raises both hands candidly in an \"I know, hear me out\" gesture. Lip-synced.",
+"tier": "AI",
+"query": "N/A (AI Render: Dr. Moore DPM clinic)"
+},
+{
+"shot": "H1.4",
+"vo": "but it is not the brand.",
+"visual": "Quick aesthetic B-roll cut: clean close-up of trendy On Cloud 5 and Hoka Bondi sneakers displayed side-by-side on an urban sidewalk or shelf, acknowledging high brand status.",
+"tier": "COMPETITOR_UGC",
+"query": "on cloud vs hoka aesthetics aesthetic"
+},
+{
+"shot": "H1.5",
+"vo": "It is the design.",
+"visual": "Dr. Moore in clinic points authoritatively with a pen toward a biomechanical foot skeleton model on his desk, shifting immediately from casual creator tone to clinical authority. Lip-synced.",
+"tier": "AI",
+"query": "N/A (AI Render: Dr. Moore DPM clinic)"
+},
+{
+"shot": "H2.1",
+"vo": "If you're packing Hokas or On Clouds",
+"visual": "Direct overhead flat-lay of open hardshell suitcase on hotel room floor. Hands zipping down compartment over a pair of On Cloud running sneakers.",
+"tier": "COMPETITOR_UGC",
+"query": "packing shoes travel suitcase carry on"
+},
+{
+"shot": "H2.2",
+"vo": "for Japan because someone called them",
+"visual": "Eye-level tracking shot walking through Shibuya Crossing surrounded by hundreds of pedestrians in damp weather; vibrant neon Tokyo billboards in background.",
+"tier": "JAPAN_UGC",
+"query": "walking shibuya crossing tokyo crowd pov"
+},
+{
+"shot": "H2.3",
+"vo": "the best walking shoes,",
+"visual": "Screen-recorded stitched style UGC clip of a creator holding up an On Cloud shoe in their bedroom, praising it, with a quick skeptical head-shake transition.",
+"tier": "COMPETITOR_UGC",
+"query": "on cloud walking shoes review tiktok"
+},
+{
+"shot": "H2.4",
+"vo": "take them out of your suitcase",
+"visual": "Frustrated traveler in Tokyo hotel room literally snatching a Hoka sneaker out of their open luggage and setting it aside with an exasperated sigh.",
+"tier": "JAPAN_UGC",
+"query": "unpacking hotel room tokyo travel vlog"
+},
+{
+"shot": "H2.5",
+"vo": "right now.",
+"visual": "Dr. Moore in clinic, looking deadpan directly into the camera, giving a firm, direct \"stop\" hand gesture toward the viewer. Lip-synced.",
+"tier": "AI",
+"query": "N/A (AI Render: Dr. Moore DPM clinic)"
+},
+{
+"shot": "H3.1",
+"vo": "The biggest mistake travelers make",
+"visual": "Exhausted tourist pushing a heavy rolling suitcase through Haneda Airport arrivals hall, head down, walking slowly.",
+"tier": "JAPAN_UGC",
+"query": "arriving in japan haneda airport tired"
+},
+{
+"shot": "H3.2",
+"vo": "before flying to Japan is packing",
+"visual": "POV unpacking bedroom scene: tourist staging Japan trip essentials on bed: passport, JR pass, and bulky Hokas.",
+"tier": "JAPAN_UGC",
+"query": "what to pack for japan travel tips"
+},
+{
+"shot": "H3.3",
+"vo": "$160 running shoes like Hokas or On Clouds.",
+"visual": "Macro store B-roll: hand flipping the price tag on a pair of Hokas or On Clouds showing the premium $160 price point on retail shelf.",
+"tier": "COMPETITOR_UGC",
+"query": "buying hokas running store vlog"
+},
+{
+"shot": "H3.4",
+"vo": "You think you bought the ultimate walking shoe,",
+"visual": "Dr. Moore in lab coat leaning forward across exam desk, nodding knowingly with empathetic expression. \"You thought you made the smart choice.\" Lip-synced.",
+"tier": "AI",
+"query": "N/A (AI Render: Dr. Moore DPM clinic)"
+},
+{
+"shot": "H3.5",
+"vo": "but you're setting yourself up",
+"visual": "Tracking shot from ground level of traveler's feet stumbling slightly on an uneven tile transition entering a Tokyo subway station.",
+"tier": "JAPAN_UGC",
+"query": "tokyo subway stairs walking commute pov"
+},
+{
+"shot": "H3.6",
+"vo": "for wrecked feet",
+"visual": "Weary traveler sitting on a stone bench outside a Kyoto shrine, shoe off, rubbing their red, aching arch with both hands.",
+"tier": "JAPAN_UGC",
+"query": "feet hurt japan travel walking exhausted"
+},
+{
+"shot": "H3.7",
+"vo": "by day two.",
+"visual": "Apple Watch / iPhone health app screen showing step counter at \"Day 2: 26,412 steps\" held up against a blurry Tokyo street background.",
+"tier": "JAPAN_UGC",
+"query": "step count japan travel 25000 steps"
+},
+{
+"shot": "P1.1",
+"vo": "These shoes are built to move a runner forward",
+"visual": "Side-angle tracking shot of a marathon runner sprinting on an open flat asphalt running path wearing thick neon running shoes. Crisp, athletic momentum.",
+"tier": "COMPETITOR_UGC",
+"query": "running shoes treadmill marathon training"
+},
+{
+"shot": "P1.2",
+"vo": "for forty minutes,",
+"visual": "Close-up of runner's wrist checking an athletic Garmin/Apple watch showing \"Workout: 38:12 / 4.2 miles\" as they finish their short morning workout.",
+"tier": "COMPETITOR_UGC",
+"query": "garmin running watch 40 minute run"
+},
+{
+"shot": "P1.3",
+"vo": "not for someone walking",
+"visual": "Jarring hard cut: Tourist stepping off a high-speed Shinkansen bullet train onto a concrete platform in Tokyo, wearing a heavy daypack.",
+"tier": "JAPAN_UGC",
+"query": "shinkansen arrival tokyo station tourist"
+},
+{
+"shot": "P1.4",
+"vo": "twenty-five thousand steps across Japan.",
+"visual": "Direct POV smartphone screen held up in front of Tokyo streets: Health app showing \"25,482 steps / 11.8 miles\" at 7:30 PM.",
+"tier": "JAPAN_UGC",
+"query": "japan travel step count 25000 steps"
+},
+{
+"shot": "P1.5",
+"vo": "When you are exploring Tokyo, Kyoto, or Osaka,",
+"visual": "Cinematic continuous gimbal glide moving down a crowded traditional street in Kyoto (Ninenzaka/Gion) surrounded by historic wooden machiya buildings. Wide view, grouped across the city names so the scene breathes.",
+"tier": "JAPAN_UGC",
+"query": "kyoto gion ninenzaka walking street crowd"
+},
+{
+"shot": "P1.6",
+"vo": "you are not just taking a casual stroll.",
+"visual": "High-angle shot looking down at the massive sea of pedestrians crossing Shibuya Scramble in synchronized motion; intense urban pace.",
+"tier": "JAPAN_UGC",
+"query": "shibuya scramble crossing crowd walking rush"
+},
+{
+"shot": "P1.7",
+"vo": "You are climbing five flights",
+"visual": "Low-angle looking straight up an intimidating, towering concrete subway staircase in Tokyo Metro (Oedo line depth), travelers trudging upward.",
+"tier": "JAPAN_UGC",
+"query": "tokyo metro stairs climbing endless"
+},
+{
+"shot": "P1.8",
+"vo": "of subway stairs,",
+"visual": "Ground-level POV behind tourist feet taking slow, heavy, burning steps up concrete stairs while carrying luggage. Continuous unedited take.",
+"tier": "JAPAN_UGC",
+"query": "subway stairs luggage tokyo walking heavy"
+},
+{
+"shot": "P1.9",
+"vo": "walking miles across concrete train stations,",
+"visual": "Wide tracking shot down the endless underground pedestrian tunnels connecting Tokyo Station to Otemachi; flat, unforgiving polished concrete stretching into the distance.",
+"tier": "JAPAN_UGC",
+"query": "tokyo station underground tunnel walking commute"
+},
+{
+"shot": "P1.10",
+"vo": "standing on packed trains,",
+"visual": "POV inside a packed Tokyo subway car (Yamanote Line); passengers pressed shoulder-to-shoulder holding hanging straps, feet locked in place with zero room to sit.",
+"tier": "JAPAN_UGC",
+"query": "packed tokyo rush hour train standing commute"
+},
+{
+"shot": "P1.11",
+"vo": "and navigating hard pavement",
+"visual": "Ground-level low tracking shot following walking shoes pounding relentlessly across cracked city pavement and tactile yellow paving slabs in Shinjuku.",
+"tier": "JAPAN_UGC",
+"query": "tokyo sidewalk pavement walking shoes pov"
+},
+{
+"shot": "P1.12",
+"vo": "for eight, nine,",
+"visual": "Exhausted tourist slumped on a concrete station bench, shoulders slumped, rubbing their upper knees and calves.",
+"tier": "JAPAN_UGC",
+"query": "tired tourist sitting bench japan station"
+},
+{
+"shot": "P1.13",
+"vo": "sometimes ten hours straight.",
+"visual": "Time-lapse or twilight tracking shot down a bustling Osaka Dotonbori neon alleyway; tourists still trudging long after sunset.",
+"tier": "JAPAN_UGC",
+"query": "dotonbori osaka night walking tired crowd"
+},
+{
+"shot": "P1.14",
+"vo": "Three things people overlook",
+"visual": "AI Podiatrist Dr. Moore in clinical office, holding a medical clipboard, looking straight into the lens, raising three fingers with grave diagnostic sincerity. Lip-synced.",
+"tier": "AI",
+"query": "N/A (AI Render: Dr. Moore DPM clinic)"
+},
+{
+"shot": "P1.15",
+"vo": "until they are already",
+"visual": "Traveler sitting on a Tokyo hotel bed looking out the window at city lights, holding their stockinged feet with an expression of regret.",
+"tier": "JAPAN_UGC",
+"query": "tokyo hotel room tired after walking all day"
+},
+{
+"shot": "P1.16",
+"vo": "thousands of miles from home.",
+"visual": "Medium close-up of weary traveler resting their head against the train window glass on the long ride back to their hotel, rubbing their sore arch.",
+"tier": "JAPAN_UGC",
+"query": "japan subway tired tourist window commute"
+},
+{
+"shot": "P2.1",
+"vo": "Number one, that soft cushioning in the store",
+"visual": "Retail POV: Customer inside a bright running shoe store pressing their thumb deep into a marshmallow-soft Hoka Bondi midsole on the display rack; shows extreme squishiness.",
+"tier": "COMPETITOR_UGC",
+"query": "trying on hokas in store squishy"
+},
+{
+"shot": "P2.2",
+"vo": "does not tell you the whole story.",
+"visual": "AI Podiatrist Dr. Moore in clinical consultation room, shaking his head with a knowing smile, hands resting on desk. Lip-synced.",
+"tier": "AI",
+"query": "N/A (AI Render: Dr. Moore DPM clinic)"
+},
+{
+"shot": "P2.3",
+"vo": "Hokas use thick, squishy foam",
+"visual": "Close-up two-hand flex test of a maximalist Hoka sole bending and deforming under hand torque, highlighting pure marshmallow EVA foam.",
+"tier": "COMPETITOR_UGC",
+"query": "hoka running shoe flex test foam"
+},
+{
+"shot": "P2.4",
+"vo": "designed to bounce a runner forward on a flat road.",
+"visual": "Crisp slow-motion capture of an athletic runner's foot striking flat asphalt in park, foam compressing and instantly springing forward into the next stride.",
+"tier": "COMPETITOR_UGC",
+"query": "slow motion running shoe foot strike road"
+},
+{
+"shot": "P2.5",
+"vo": "But in Japan, you spend hours",
+"visual": "Hard cut to reality: Tourist standing motionless on a packed Tokyo train car, clutching the overhead strap, face showing fatigue.",
+"tier": "JAPAN_UGC",
+"query": "standing tokyo train commute tired tourist"
+},
+{
+"shot": "P2.6",
+"vo": "standing on crowded trains,",
+"visual": "Low-angle camera skimming the floor of the crowded Yamanote Line train: dozens of commuter feet locked in static standing positions on hard rubberized steel floor.",
+"tier": "JAPAN_UGC",
+"query": "tokyo subway rush hour feet floor standing"
+},
+{
+"shot": "P2.7",
+"vo": "waiting in line for food,",
+"visual": "Static high-angle shot of a massive 40-person queue wrapped around a cold Tokyo street corner waiting for ramen/udon (Ichiran/Fuunji); patrons shifting weight uncomfortably.",
+"tier": "JAPAN_UGC",
+"query": "tokyo ramen line waiting outside 1 hour"
+},
+{
+"shot": "P2.8",
+"vo": "and standing on museum floors.",
+"visual": "Wide shot of tourists standing completely motionless on hard, polished reflective concrete/acrylic floors inside TeamLab Planets or Mori Art Museum in Tokyo.",
+"tier": "JAPAN_UGC",
+"query": "teamlab tokyo standing on floor walking barefoot"
+},
+{
+"shot": "P2.9",
+"vo": "That soft foam packs completely flat",
+"visual": "3D Animation: Cross-section of a high-stack running sneaker with foot standing still; the thick plush foam compresses completely downward until paper-thin, glowing dark amber under heel.",
+"tier": "ANIMATION",
+"query": "N/A (3D Render: Foam packing flat under static weight)"
+},
+{
+"shot": "P2.10",
+"vo": "under your body weight.",
+"visual": "Macro real-world shot of an adult heel wearing a squishy running shoe sinking completely into the foam until the heel strikes bottom against hard ground.",
+"tier": "COMPETITOR_UGC",
+"query": "hoka heel sinking compression walking"
+},
+{
+"shot": "P2.11",
+"vo": "And On Clouds use hollow pods",
+"visual": "Macro hands-on inspection of an On Cloud sneaker sole; fingers pinching the hollow open rubber \"CloudTec\" pods together.",
+"tier": "COMPETITOR_UGC",
+"query": "on cloud sole pods close up review"
+},
+{
+"shot": "P2.12",
+"vo": "that compress under constant pressure.",
+"visual": "3D Animation: Side profile of hollow shoe pods under continuous static standing pressure; the pods collapse entirely flat, locking into a dead, hard rubber slab with zero air buffer.",
+"tier": "ANIMATION",
+"query": "N/A (3D Render: Hollow pods compressing flat under pressure)"
+},
+{
+"shot": "P2.13",
+"vo": "Once that cushioning flattens out,",
+"visual": "Dr. Moore in clinic holding an anatomical foot model, demonstrating how the plantar fascia sags when the foundation drops. Lip-synced.",
+"tier": "AI",
+"query": "N/A (AI Render: Dr. Moore DPM clinic)"
+},
+{
+"shot": "P2.14",
+"vo": "your arches sink,",
+"visual": "3D Animation: Skeletal foot view; as the shoe sole flattens, the arch of the foot collapses downward with an intense red stress glow radiating through the plantar ligament.",
+"tier": "ANIMATION",
+"query": "N/A (3D Render: Arch collapse and plantar fascia stress glow)"
+},
+{
+"shot": "P2.15",
+"vo": "leaving you with zero support",
+"visual": "Traveler sitting down on the edge of a subway station platform staircase, clutching their lower shin and arch with a grimace.",
+"tier": "JAPAN_UGC",
+"query": "feet hurt tokyo subway station exhausted tourist"
+},
+{
+"shot": "P2.16",
+"vo": "right when your feet",
+"visual": "Wide cinematic shot looking down the endless torii gate pathway at Fushimi Inari Shrine in Kyoto; kilometers of stone path ahead.",
+"tier": "JAPAN_UGC",
+"query": "fushimi inari endless path walking kyoto"
+},
+{
+"shot": "P2.17",
+"vo": "have miles left to walk.",
+"visual": "Tourist seen from behind, limping slowly along the gravel pathway at Meiji Jingu or Kyoto temple, dragging their feet under a heavy backpack.",
+"tier": "JAPAN_UGC",
+"query": "limping tired walking japan trip temple"
+},
+{
+"shot": "P3.1",
+"vo": "Number two, Hokas and On Clouds",
+"visual": "B-roll comparison: pair of Hokas and On Clouds placed side-by-side on a wet, cold city sidewalk; camera pans across them.",
+"tier": "COMPETITOR_UGC",
+"query": "hoka vs on cloud winter walking"
+},
+{
+"shot": "P3.2",
+"vo": "were not built for city hazards and winter weather.",
+"visual": "Light winter snowfall over Shinjuku street; crowds holding clear vinyl umbrellas walking across slushy, glistening asphalt.",
+"tier": "JAPAN_UGC",
+"query": "shinjuku winter snow walking umbrella"
+},
+{
+"shot": "P3.3",
+"vo": "In Japan, you are constantly walking",
+"visual": "First-person POV tracking shot walking briskly through a bustling subway transition corridor in Osaka or Tokyo.",
+"tier": "JAPAN_UGC",
+"query": "walking tokyo subway corridor pov"
+},
+{
+"shot": "P3.4",
+"vo": "across polished subway tiles,",
+"visual": "Low-angle ground shot of ultra-glossy, polished station tiles reflecting overhead fluorescent station lights, visibly wet from umbrella drips.",
+"tier": "JAPAN_UGC",
+"query": "tokyo station wet tile floor walking"
+},
+{
+"shot": "P3.5",
+"vo": "metal train grates,",
+"visual": "POV stepping directly over wet steel expansion joints and rain-slicked metal ventilation grates at train boarding door.",
+"tier": "JAPAN_UGC",
+"query": "subway platform gap train grates wet"
+},
+{
+"shot": "P3.6",
+"vo": "and steep stone temple steps.",
+"visual": "Wide atmospheric shot of ancient, wet, uneven stone stairs leading up to Kiyomizu-dera temple in Kyoto; tourists navigating carefully.",
+"tier": "JAPAN_UGC",
+"query": "kiyomizudera wet stone stairs kyoto"
+},
+{
+"shot": "P3.7",
+"vo": "And with winter here,",
+"visual": "Cold winter morning shot of tourists stepping off a bus onto snow-dusted sidewalks near a Tokyo shrine.",
+"tier": "JAPAN_UGC",
+"query": "tokyo winter morning snow street travel"
+},
+{
+"shot": "P3.8",
+"vo": "those surfaces get wet, slick,",
+"visual": "Close-up of rain-slicked station entry floor with wet footprints glistening; visibly hazardous surface.",
+"tier": "JAPAN_UGC",
+"query": "slippery wet floor tokyo station rain"
+},
+{
+"shot": "P3.9",
+"vo": "and covered in patches of ice or snow.",
+"visual": "Tourist boots gingerly walking around a patch of packed black ice and grey slush outside a Sapporo/Tokyo subway entrance.",
+"tier": "JAPAN_UGC",
+"query": "japan walking on ice slipping winter"
+},
+{
+"shot": "P3.10",
+"vo": "The massive soles on Hokas",
+"visual": "Close-up profile of the ultra-thick, 40mm oversized foam stack on a Hoka Bondi, showing the tall, boat-like platform sole.",
+"tier": "COMPETITOR_UGC",
+"query": "hoka bondi thick sole platform macro"
+},
+{
+"shot": "P3.11",
+"vo": "make your feet unstable,",
+"visual": "Slow-motion demonstration: a high-stack foam sole rolling laterally when stepping on an uneven stone edge, ankle tilting outward.",
+"tier": "COMPETITOR_UGC",
+"query": "hoka ankle roll instability uneven ground"
+},
+{
+"shot": "P3.12",
+"vo": "wobbling over every curb",
+"visual": "Ground-level shot of tourist foot in thick Hoka stepping off a Tokyo sidewalk curb; shoe compresses unevenly, causing a visible wobble.",
+"tier": "JAPAN_UGC",
+"query": "stepping off curb tokyo walking street"
+},
+{
+"shot": "P3.13",
+"vo": "and putting strain on your knees.",
+"visual": "AI Podiatrist Dr. Moore in clinic, pointing directly to a skeletal anatomical knee joint model showing lateral shearing force. Lip-synced.",
+"tier": "AI",
+"query": "N/A (AI Render: Dr. Moore DPM clinic)"
+},
+{
+"shot": "P3.14",
+"vo": "And the smooth, hollow pods on On Clouds",
+"visual": "Macro hands holding up an On Cloud sole to camera: showing the smooth, slick EVA rubber surfaces and wide open channel gaps that trap zero water.",
+"tier": "COMPETITOR_UGC",
+"query": "on cloud sole bottom grip tread review"
+},
+{
+"shot": "P3.15",
+"vo": "offer almost no grip on slick wet floors.",
+"visual": "Tester wearing On Clouds sliding their foot effortlessly across a wet kitchen/bathroom tile floor, hydroplaning with zero traction.",
+"tier": "COMPETITOR_UGC",
+"query": "on cloud sliding wet floor grip test"
+},
+{
+"shot": "P3.16",
+"vo": "One slip on an icy train entrance",
+"visual": "Authentic caught-on-camera moment: pedestrian's foot suddenly slipping out on icy station threshold steps, arms flailing to catch balance.",
+"tier": "JAPAN_UGC",
+"query": "slipping on ice tokyo train station snow"
+},
+{
+"shot": "P3.17",
+"vo": "or wet tile staircase",
+"visual": "Commuter grabbing handrail tightly as foot slips on wet station stairs; quick, visceral jolt.",
+"tier": "JAPAN_UGC",
+"query": "subway stairs slipping wet tile rain"
+},
+{
+"shot": "P3.18",
+"vo": "can end your trip on day one.",
+"visual": "Sad tourist sitting on station steps clutching their sprained ankle, bag tipped over, ruined day.",
+"tier": "JAPAN_UGC",
+"query": "tourist hurt ankle travel trip ruined"
+},
+{
+"shot": "P3.19",
+"vo": "That is where a slip-resistant outsole matters.",
+"visual": "Sharp, authoritative transition to ComfortWear Ortho Stretch: Macro hero shot of the custom dual-density orange and black rubber outsole showing deep siped tread channels.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Product Asset: Outsole Macro)"
+},
+{
+"shot": "P3.20",
+"vo": "You need real grip,",
+"visual": "Real product demo: ComfortWear Ortho Stretch planted firmly on a soaking wet polished tile / inclined wet ramp, biting into the surface without a millimeter of slip.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Product Asset: Wet Grip Demo)"
+},
+{
+"shot": "P3.21",
+"vo": "not an unstable running platform.",
+"visual": "Side-by-side split screen: Left side shows tall wobbly competitor sole tilting on curb; Right side shows low-profile, wide-contact ComfortWear outsole planted rock-solid.",
+"tier": "PRODUCT / COMPETITOR_UGC",
+"query": "N/A (Composite Brand / Competitor comparison)"
+},
+{
+"shot": "P4.1",
+"vo": "Number three, the toe box is narrow,",
+"visual": "Direct overhead top-down view of Hoka Bondi and On Cloud sneakers on clean floor, highlighting how the forefoot tapers sharply inward like an arrow.",
+"tier": "COMPETITOR_UGC",
+"query": "narrow toe box running shoes comparison"
+},
+{
+"shot": "P4.2",
+"vo": "and the upper does not stretch.",
+"visual": "Macro hands aggressively pulling on the stiff synthetic woven mesh and rigid glued TPU mudguards of an On Cloud shoe; upper has zero elastic give.",
+"tier": "COMPETITOR_UGC",
+"query": "stiff shoe upper test no stretch"
+},
+{
+"shot": "P4.3",
+"vo": "Both Hokas and On Clouds are built",
+"visual": "Side-by-side close-up showing the molded, non-elastic structural overlays on both shoes, designed to hold shape under tension.",
+"tier": "COMPETITOR_UGC",
+"query": "hoka upper material stiffness review"
+},
+{
+"shot": "P4.4",
+"vo": "with rigid, tapered toe boxes",
+"visual": "Caliper or finger measuring across the narrow forefoot of the competitor sneaker, visually emphasizing cramped dimensions.",
+"tier": "COMPETITOR_UGC",
+"query": "measuring shoe toe box width narrow"
+},
+{
+"shot": "P4.5",
+"vo": "meant to lock a runner's foot in place.",
+"visual": "Fast cut of an athlete tying running shoes extremely tight, pulling laces to lock the instep and heel down for a 5k sprint.",
+"tier": "COMPETITOR_UGC",
+"query": "tying running shoes tight for run"
+},
+{
+"shot": "P4.6",
+"vo": "But after walking twenty thousand steps",
+"visual": "POV walking past bustling storefronts in Akihabara or Dotonbori; steps feel sluggish, smart watch displaying \"20,840 steps\".",
+"tier": "JAPAN_UGC",
+"query": "japan walking all day 20000 steps vlog"
+},
+{
+"shot": "P4.7",
+"vo": "on hard concrete,",
+"visual": "Low-angle ground shot of shoes repeatedly pounding unforgiving grey concrete slabs and tactile yellow station walkways.",
+"tier": "JAPAN_UGC",
+"query": "walking on concrete pavement tokyo feet"
+},
+{
+"shot": "P4.8",
+"vo": "your feet naturally swell.",
+"visual": "3D Animation: Foot inside a rigid semi-transparent running shoe; as walking distance accumulates, the foot expands in volume, pressing tight against the walls.",
+"tier": "ANIMATION",
+"query": "N/A (3D Render: Foot swelling and expanding inside shoe)"
+},
+{
+"shot": "P4.9",
+"vo": "When your toes get crammed together",
+"visual": "3D Animation: Skeletal X-ray view of toes squeezed tightly inward into an unnatural pointed V-shape, metatarsals compressing with red friction hotspots.",
+"tier": "ANIMATION",
+"query": "N/A (3D Render: Skeletal toes compressed in tapered toe box)"
+},
+{
+"shot": "P4.10",
+"vo": "with nowhere to go,",
+"visual": "Macro real-world shot of pinky toe stretching the outer edge of a sneaker, forming an unsightly, painful bulge against the synthetic knit.",
+"tier": "COMPETITOR_UGC",
+"query": "shoes too narrow pinky toe hurting"
+},
+{
+"shot": "P4.11",
+"vo": "that friction leads to",
+"visual": "AI Podiatrist Dr. Moore in clinic, pointing directly to a foot anatomical diagram showing nerve compression and blister friction points. Lip-synced.",
+"tier": "AI",
+"query": "N/A (AI Render: Dr. Moore DPM clinic)"
+},
+{
+"shot": "P4.12",
+"vo": "burning arches, blisters,",
+"visual": "Traveler in Tokyo hotel room peeling off a white sock to reveal an angry red blister on the pinky toe and inflamed red heel arch.",
+"tier": "JAPAN_UGC",
+"query": "travel blisters feet hurt japan hotel"
+},
+{
+"shot": "P4.13",
+"vo": "and throbbing nerve pain.",
+"visual": "3D Animation: Fiery electric red/yellow nerve impulses pulsing through the ball of the foot (Morton's neuroma zone) radiating outward.",
+"tier": "ANIMATION",
+"query": "N/A (3D Render: Nerve pain glowing in forefoot)"
+},
+{
+"shot": "P4.14",
+"vo": "If your shoes feel tight by lunch,",
+"visual": "Tourist seated at an outdoor ramen or street-food stall stool, subtly slipping their heel out of their tight running shoe under the table for relief.",
+"tier": "JAPAN_UGC",
+"query": "taking shoes off at restaurant tokyo tired"
+},
+{
+"shot": "P4.15",
+"vo": "you are loosening your laces",
+"visual": "Hands hastily untying and yanking loose the laces on a competitor sneaker while seated on a stone ledge.",
+"tier": "JAPAN_UGC",
+"query": "loosening shoe laces feet swollen travel"
+},
+{
+"shot": "P4.16",
+"vo": "on a bench outside a shrine",
+"visual": "Wide atmospheric shot: Tourist sitting on a wooden bench under autumn maple trees outside a Kyoto temple, holding head in hands while friends walk ahead.",
+"tier": "JAPAN_UGC",
+"query": "kyoto shrine bench tired tourist resting"
+},
+{
+"shot": "P4.17",
+"vo": "when you still have half your day to go.",
+"visual": "Clock or phone lock screen showing 1:15 PM with bright midday sun; vast crowds walking past, highlighting being stuck while the day is young.",
+"tier": "JAPAN_UGC",
+"query": "kyoto midday crowd tourist sitting out"
+},
+{
+"shot": "P5.1",
+"vo": "That is why Comfortwear built the exact opposite",
+"visual": "AI Podiatrist Dr. Moore in bright clinic, smiling warmly, holding up a black ComfortWear Ortho Stretch sneaker directly toward the camera lens. Lip-synced.",
+"tier": "AI",
+"query": "N/A (AI Render: Dr. Moore DPM clinic)"
+},
+{
+"shot": "P5.2",
+"vo": "of an athletic running shoe.",
+"visual": "Side-by-side tabletop visual: heavy neon running shoe placed next to the clean, streamlined ComfortWear slip-on sneaker.",
+"tier": "PRODUCT / COMPETITOR_UGC",
+"query": "N/A (Brand Product Asset)"
+},
+{
+"shot": "P5.3",
+"vo": "They did not design it for marathon runners.",
+"visual": "Quick aesthetic cut of a competitive road race runner sprinting through a finish line ribbon; swift contrast cut away from sports tropes.",
+"tier": "COMPETITOR_UGC",
+"query": "marathon runner crossing finish line road"
+},
+{
+"shot": "P5.4",
+"vo": "They built it for people whose feet",
+"visual": "Professional nurse in scrubs wearing black ComfortWear sneakers striding smoothly down a polished hospital corridor during a long shift.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Lifestyle Asset: Healthcare)"
+},
+{
+"shot": "P5.5",
+"vo": "have to survive real life:",
+"visual": "Nurse comfortably standing at hospital workstation charting notes, relaxed posture with weight balanced evenly.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Lifestyle Asset: Nurse shift)"
+},
+{
+"shot": "P5.6",
+"vo": "nurses, healthcare workers,",
+"visual": "Smiling healthcare worker leaning back comfortably against desk, tapping the lightweight flexible sneaker with hand.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Lifestyle Asset: Healthcare worker)"
+},
+{
+"shot": "P5.7",
+"vo": "and travelers who want to actually enjoy",
+"visual": "Seamless match cut: Traveler wearing ComfortWear sneakers strolling happily down a glowing, lantern-lit night alley in Tokyo (Omoide Yokocho).",
+"tier": "JAPAN_UGC",
+"query": "tokyo alley walking lanterns night travel"
+},
+{
+"shot": "P5.8",
+"vo": "the trip they spent years saving for.",
+"visual": "Wide cinematic sunrise or golden hour view: Couple looking out over Kyoto temple valley, completely pain-free, taking in the panoramic view.",
+"tier": "JAPAN_UGC",
+"query": "kyoto scenic temple view couple travel"
+},
+{
+"shot": "P5.9",
+"vo": "A roomy, wide toe box",
+"visual": "Macro product shot: Two hands inside the forefoot of the ComfortWear sneaker pushing outwards, showing the wide, foot-shaped anatomical toe box.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Product Asset: Wide Toe Box Demo)"
+},
+{
+"shot": "P5.10",
+"vo": "lets your toes spread out naturally",
+"visual": "3D Animation: Foot sliding into ComfortWear toe box; toes splay out wide in healthy natural alignment, accompanied by a soothing cyan relief glow.",
+"tier": "ANIMATION",
+"query": "N/A (3D Render: Toes splaying naturally in wide toe box)"
+},
+{
+"shot": "P5.11",
+"vo": "so you stay balanced.",
+"visual": "Ground-level tracking shot: Traveler stepping firmly and confidently over uneven ancient flagstones outside a Kyoto temple with solid base contact.",
+"tier": "JAPAN_UGC",
+"query": "kyoto stone path walking feet steady"
+},
+{
+"shot": "P5.12",
+"vo": "A flexible stretch knit upper",
+"visual": "Macro product demo: Hands pulling and stretching the breathable knit fabric in 4 directions, demonstrating immense elasticity and rebound.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Product Asset: Stretch Knit Demo)"
+},
+{
+"shot": "P5.13",
+"vo": "gives your feet breathing room",
+"visual": "Hands-free slip-on demonstration: Foot in sock slides smoothly into the ComfortWear sneaker in one continuous motion, no bending over or tying laces.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Product Asset: Hands-Free Slip-On)"
+},
+{
+"shot": "P5.14",
+"vo": "as they swell throughout the day.",
+"visual": "Close-up top-down view of foot in ComfortWear sneaker walking through a busy train concourse; knit material visibly flexes gently with foot anatomy.",
+"tier": "PRODUCT / JAPAN_UGC",
+"query": "walking tokyo station feet comfortable"
+},
+{
+"shot": "P5.15",
+"vo": "And built-in structural arch support",
+"visual": "Macro hands pulling the premium removable anatomical insole out of the sneaker, pressing thumb firmly against the rigid, contoured arch bridge.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Product Asset: Arch Insole Demo)"
+},
+{
+"shot": "P5.16",
+"vo": "holds your feet firm",
+"visual": "3D Animation: Cross-section cutaway showing anatomical insole cradling the arch bone structure, preventing plantar fascia sag or overpronation.",
+"tier": "ANIMATION",
+"query": "N/A (3D Render: Anatomical arch support locking foot alignment)"
+},
+{
+"shot": "P5.17",
+"vo": "hour after hour,",
+"visual": "AI Podiatrist Dr. Moore in clinic nodding in strong clinical agreement, pointing to the anatomical arch contour. Lip-synced.",
+"tier": "AI",
+"query": "N/A (AI Render: Dr. Moore DPM clinic)"
+},
+{
+"shot": "P5.18",
+"vo": "paired with a slip-resistant outsole",
+"visual": "Macro hero tracking shot of the dual-density orange and black rubber tread flexing on a textured testing surface.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Product Asset: Orange/Black Outsole)"
+},
+{
+"shot": "P5.19",
+"vo": "that grips slick station tiles,",
+"visual": "Traveler stepping firmly down wet, polished ceramic subway stairs in Shinjuku Station without hesitation; solid, non-slip rubber bite.",
+"tier": "JAPAN_UGC",
+"query": "tokyo subway wet stairs walking confident"
+},
+{
+"shot": "P5.20",
+"vo": "wet pavement,",
+"visual": "Ground-level slow-motion shot: ComfortWear sneaker walking through rain puddle on Tokyo asphalt, water channeling away cleanly through grooves.",
+"tier": "PRODUCT / JAPAN_UGC",
+"query": "walking rain tokyo street puddle feet"
+},
+{
+"shot": "P5.21",
+"vo": "and winter slush.",
+"visual": "Confident stride through cold grey snow slush outside a station exit in Hokkaido/Nagano; foot remains steady, planted, and secure.",
+"tier": "JAPAN_UGC",
+"query": "walking in snow japan winter boots shoes"
+},
+{
+"shot": "P6.1",
+"vo": "Because you flew all the way to Japan",
+"visual": "Airplane window seat POV: Majestic sunrise shot descending through clouds with Mount Fuji towering in the distance, arriving in Tokyo.",
+"tier": "JAPAN_UGC",
+"query": "tokyo flight window view mt fuji landing"
+},
+{
+"shot": "P6.2",
+"vo": "to make memories,",
+"visual": "Joyful group of 3 friends laughing and posing together in front of the massive red lantern at Senso-ji temple in Asakusa.",
+"tier": "JAPAN_UGC",
+"query": "asakusa sensoji friends group travel tokyo"
+},
+{
+"shot": "P6.3",
+"vo": "not to sit in your hotel room",
+"visual": "Melancholy contrast cut: Lonely tourist sitting slumped on a small Tokyo hotel bed, shoes kicked off, looking dejected.",
+"tier": "JAPAN_UGC",
+"query": "hotel room tokyo tired exhausted traveler"
+},
+{
+"shot": "P6.4",
+"vo": "icing your feet",
+"visual": "Close-up POV: Traveler pressing a cold Boss coffee can or ice pack directly against the swollen, red bottom arch of their bare foot.",
+"tier": "JAPAN_UGC",
+"query": "icing sore feet travel ice hotel"
+},
+{
+"shot": "P6.5",
+"vo": "at three in the afternoon.",
+"visual": "POV looking out hotel window at vibrant, sunny Tokyo streets buzzing with people enjoying the day while creator is trapped inside.",
+"tier": "JAPAN_UGC",
+"query": "tokyo hotel window view daytime city"
+},
+{
+"shot": "P6.6",
+"vo": "You do not want to be the person",
+"visual": "Wide tracking shot down a Kyoto pathway: travel companions walking ahead chatting cheerfully, while one person lags 25 feet behind.",
+"tier": "JAPAN_UGC",
+"query": "walking slow tired japan travel group"
+},
+{
+"shot": "P6.7",
+"vo": "limping behind,",
+"visual": "Medium close-up of traveler visibly limping, face contorted in discomfort as they favor their left heel.",
+"tier": "JAPAN_UGC",
+"query": "limping walking hurt feet vacation"
+},
+{
+"shot": "P6.8",
+"vo": "telling everyone else to go ahead without you",
+"visual": "Traveler waving friends forward with an unconvincing, weary smile, signaling \"go on without me.\"",
+"tier": "JAPAN_UGC",
+"query": "go ahead without me tired tourist"
+},
+{
+"shot": "P6.9",
+"vo": "while you look for somewhere to sit.",
+"visual": "POV pan of crowded plaza or station corridor showing zero available benches, only crowded concrete curbs and trash cans.",
+"tier": "JAPAN_UGC",
+"query": "no places to sit tokyo station crowded"
+},
+{
+"shot": "P6.10",
+"vo": "You want to be in every photo,",
+"visual": "Enthusiastic tourist couple posing happily at the Fushimi Inari entrance, smiling broadly for the camera, full of energy.",
+"tier": "JAPAN_UGC",
+"query": "fushimi inari couple photos smiling travel"
+},
+{
+"shot": "P6.11",
+"vo": "climbing to the top",
+"visual": "Energetic traveler briskly bounding up stone steps through the vermilion torii gate tunnels, effortlessly passing other hikers.",
+"tier": "JAPAN_UGC",
+"query": "hiking fushimi inari mountain summit stairs"
+},
+{
+"shot": "P6.12",
+"vo": "of the shrine,",
+"visual": "Wide panoramic shot from the scenic summit overlook at Kyoto, sun setting over the valley, traveler taking in the triumph.",
+"tier": "JAPAN_UGC",
+"query": "kyoto summit shrine view sunset overlook"
+},
+{
+"shot": "P6.13",
+"vo": "exploring the night alleys",
+"visual": "Atmospheric first-person tracking shot gliding through narrow, neon-lit Golden Gai / Omoide Yokocho in Shinjuku with steam rising from food stalls.",
+"tier": "JAPAN_UGC",
+"query": "shinjuku golden gai omoide yokocho walking"
+},
+{
+"shot": "P6.14",
+"vo": "in Shinjuku,",
+"visual": "Cinematic Tokyo neon streetscape at night: glowing kanji signs, bustling nightlife crowds, vibrant urban energy.",
+"tier": "JAPAN_UGC",
+"query": "shinjuku night street neon signs walking"
+},
+{
+"shot": "P6.15",
+"vo": "and still feeling great",
+"visual": "Traveler wearing ComfortWear sneakers waiting on a train platform, doing a playful little bounce on the balls of their feet, energized and smiling.",
+"tier": "JAPAN_UGC / PRODUCT",
+"query": "tokyo subway platform waiting train night happy"
+},
+{
+"shot": "P6.16",
+"vo": "when the last train runs.",
+"visual": "Platform digital clock displaying 11:54 PM; final Yamanote Line train pulling in with bright headlights as traveler steps aboard with ease.",
+"tier": "JAPAN_UGC",
+"query": "tokyo station last train midnight yamanote"
+},
+{
+"shot": "P7.1",
+"vo": "Right now, for the Holiday Sale,",
+"visual": "High-energy holiday unboxing: hands untying festive red ribbon from ComfortWear box on wooden table. *Offer Sticker A pops on top right: `Holiday Sale: Up to 40% Off 🎁`*.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Product Asset: Holiday Unboxing)"
+},
+{
+"shot": "P7.2",
+"vo": "Comfortwear is up to forty percent off",
+"visual": "Smooth 360-degree rotating hero pedestal shot of ComfortWear Ortho Stretch sneaker in classic black with subtle holiday bokeh background.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Product Asset: 360 Turntable)"
+},
+{
+"shot": "P7.3",
+"vo": "with free shipping,",
+"visual": "Fast front-door delivery shot: courier placing fresh branded shoe box on doorstep with clean \"FREE PRIORITY SHIPPING\" graphic stamp.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Lifestyle Asset: Doorstep Delivery)"
+},
+{
+"shot": "P7.4",
+"vo": "which puts them under sixty dollars a pair.",
+"visual": "Creator holding both ComfortWear sneakers up to camera with genuine excitement. *Offer Sticker B pops bottom left: `Under $60 a Pair (Free Shipping) 📦`*.",
+"tier": "PRODUCT",
+"query": "N/A (Brand UGC Asset: Creator Price Reaction)"
+},
+{
+"shot": "P7.5",
+"vo": "Plus, you get thirty days",
+"visual": "Customer in bright living room opening the shoe box lid, pulling out the printed \"30-Day Risk-Free Trial\" card and nodding approvingly.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Asset: Unboxing Guarantee Card)"
+},
+{
+"shot": "P7.6",
+"vo": "to try them risk-free.",
+"visual": "Macro shot of the customer sliding foot effortlessly into sneaker and doing a deep calf stretch against living room wall. *Offer Sticker C pops: `30-Day Wear-Them-Everywhere Guarantee 🛡️`*.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Product Asset: Fit Stretch)"
+},
+{
+"shot": "P7.7",
+"vo": "Order a pair and put them through",
+"visual": "Customer tying backpack, opening front door, and stepping out for a high-mileage neighborhood walk.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Lifestyle Asset: Outdoor Walk)"
+},
+{
+"shot": "P7.8",
+"vo": "your longest walking days at home",
+"visual": "Medium tracking shot of customer walking briskly along paved suburban path; Apple Watch health screen pops up showing 12,500 steps.",
+"tier": "PRODUCT",
+"query": "N/A (Brand UGC Asset: Step Counter Walk)"
+},
+{
+"shot": "P7.9",
+"vo": "before you fly out.",
+"visual": "Traveler packing suitcase on bedroom floor, neatly placing the ComfortWear slip-ons into the top mesh travel compartment.",
+"tier": "JAPAN_UGC",
+"query": "packing shoes travel suitcase carry on"
+},
+{
+"shot": "P7.10",
+"vo": "If they do not keep your feet",
+"visual": "Close-up top-down view of customer's feet flexing comfortably in the flexible knit upper with ample toe splay.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Product Asset: Flex Walk POV)"
+},
+{
+"shot": "P7.11",
+"vo": "completely supported and pain-free,",
+"visual": "Customer sitting down outside after a 10-mile walk, smiling broadly, flexing ankles with zero fatigue or aches.",
+"tier": "PRODUCT",
+"query": "N/A (Brand UGC Asset: Happy Feet Post Walk)"
+},
+{
+"shot": "P7.12",
+"vo": "send them back.",
+"visual": "Hand placing shoes back into original box with pre-printed return label cleanly displayed; emphasizes effortless zero-risk policy.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Asset: Hassle-Free Returns)"
+},
+{
+"shot": "P7.13",
+"vo": "Tap below and grab your pair",
+"visual": "Direct first-person POV: index finger tapping an animated \"CLAIM 40% OFF HOLIDAY SALE\" button on a smartphone screen.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Screen Record Asset: Mobile Checkout)"
+},
+{
+"shot": "P7.14",
+"vo": "before the Holiday Sale ends",
+"visual": "Dynamic product montage: rapid clean pan across available colorways (All-Black, Grey Heather, Navy Blue) with \"Limited Holiday Stock\" pill.",
+"tier": "PRODUCT",
+"query": "N/A (Brand Product Asset: Color Lineup)"
+},
+{
+"shot": "P7.15",
+"vo": "and before you pack for Japan.",
+"visual": "Traveler walking confidently through Tokyo Station concourse pulling luggage, moving past crowded rush-hour commuters with smooth strides.",
+"tier": "JAPAN_UGC",
+"query": "tokyo station walking luggage confident tourist"
+},
+{
+"shot": "P7.16",
+"vo": "*Final CTA Slate / End Card Hold (Final 2.5s)*",
+"visual": "High-converting split-screen end card: Top 55% loops hero slow-mo walk in Tokyo; Bottom 45% shows bold promotional card: `Holiday Sale: Up to 40% Off + 30-Day Guarantee 🎁` with pulsing button: `Tap Below to Claim Travel Deal ➔`.",
+"tier": "PRODUCT",
+"query": "N/A (Motion Graphics End Slate Asset)"
+}
+]
